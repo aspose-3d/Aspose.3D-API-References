@@ -1,12 +1,12 @@
 ---
-title: Triangulate
+title: PolygonModifier.Triangulate
 second_title: Aspose.3D for .NET API Reference
-description: 
+description: PolygonModifier method. Convert all polygonbased meshes into full triangle mesh
 type: docs
 weight: 70
 url: /net/aspose.threed.entities/polygonmodifier/triangulate/
 ---
-## PolygonModifier.Triangulate method (1 of 6)
+## Triangulate(Scene) {#triangulate_5}
 
 Convert all polygon-based meshes into full triangle mesh
 
@@ -18,16 +18,32 @@ public static void Triangulate(Scene scene)
 | --- | --- | --- |
 | scene | Scene | The scene to process |
 
+### Examples
+
+The following code shows how to merge all objects from a scene into a single mesh.
+
+```csharp
+var mesh = new Cylinder().ToMesh();
+
+//Triangulate this quadrangle-based mesh to triangle-based 
+mesh = PolygonModifier.Triangulate(mesh);
+
+var scene = new Scene(mesh);
+
+      scene.Save("test.obj");
+```
+
 ### See Also
 
-* class [Scene](../../../aspose.threed/scene)
-* class [PolygonModifier](../../polygonmodifier)
-* namespace [Aspose.ThreeD.Entities](../../polygonmodifier)
+* class [Scene](../../../aspose.threed/scene/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../../aspose.threed.entities/)
 * assembly [Aspose.3D](../../../)
+* [Tutorial - Triangulate 3D Mesh](https://products.aspose.com/3d/tutorial/triangulate-3d-mesh)
 
 ---
 
-## PolygonModifier.Triangulate method (2 of 6)
+## Triangulate(Mesh) {#triangulate}
 
 Convert a polygon-based mesh into full triangle mesh
 
@@ -43,16 +59,32 @@ public static Mesh Triangulate(Mesh mesh)
 
 The generated new triangle mesh
 
+### Examples
+
+The following code shows how to merge all objects from a scene into a single mesh.
+
+```csharp
+var mesh = new Cylinder().ToMesh();
+
+//Triangulate this quadrangle-based mesh to triangle-based 
+mesh = PolygonModifier.Triangulate(mesh);
+
+var scene = new Scene(mesh);
+
+      scene.Save("test.obj");
+```
+
 ### See Also
 
-* class [Mesh](../../mesh)
-* class [PolygonModifier](../../polygonmodifier)
-* namespace [Aspose.ThreeD.Entities](../../polygonmodifier)
+* class [Mesh](../../mesh/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../../aspose.threed.entities/)
 * assembly [Aspose.3D](../../../)
+* [Tutorial - Triangulate 3D Mesh](https://products.aspose.com/3d/tutorial/triangulate-3d-mesh)
 
 ---
 
-## PolygonModifier.Triangulate method (3 of 6)
+## Triangulate(IList&lt;Vector4&gt;, IList&lt;int[]&gt;, bool, out Vector3[]) {#triangulate_4}
 
 ```csharp
 public static int[][] Triangulate(IList<Vector4> controlPoints, IList<int[]> polygons, 
@@ -61,15 +93,15 @@ public static int[][] Triangulate(IList<Vector4> controlPoints, IList<int[]> pol
 
 ### See Also
 
-* struct [Vector4](../../../aspose.threed.utilities/vector4)
-* struct [Vector3](../../../aspose.threed.utilities/vector3)
-* class [PolygonModifier](../../polygonmodifier)
-* namespace [Aspose.ThreeD.Entities](../../polygonmodifier)
+* struct [Vector4](../../../aspose.threed.utilities/vector4/)
+* struct [Vector3](../../../aspose.threed.utilities/vector3/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../../aspose.threed.entities/)
 * assembly [Aspose.3D](../../../)
 
 ---
 
-## PolygonModifier.Triangulate method (4 of 6)
+## Triangulate(IList&lt;Vector4&gt;, IList&lt;int[]&gt;) {#triangulate_3}
 
 ```csharp
 public static int[][] Triangulate(IList<Vector4> controlPoints, IList<int[]> polygons)
@@ -77,14 +109,14 @@ public static int[][] Triangulate(IList<Vector4> controlPoints, IList<int[]> pol
 
 ### See Also
 
-* struct [Vector4](../../../aspose.threed.utilities/vector4)
-* class [PolygonModifier](../../polygonmodifier)
-* namespace [Aspose.ThreeD.Entities](../../polygonmodifier)
+* struct [Vector4](../../../aspose.threed.utilities/vector4/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../../aspose.threed.entities/)
 * assembly [Aspose.3D](../../../)
 
 ---
 
-## PolygonModifier.Triangulate method (5 of 6)
+## Triangulate(IList&lt;Vector4&gt;, int[]) {#triangulate_2}
 
 ```csharp
 public static int[][] Triangulate(IList<Vector4> controlPoints, int[] polygon)
@@ -92,14 +124,14 @@ public static int[][] Triangulate(IList<Vector4> controlPoints, int[] polygon)
 
 ### See Also
 
-* struct [Vector4](../../../aspose.threed.utilities/vector4)
-* class [PolygonModifier](../../polygonmodifier)
-* namespace [Aspose.ThreeD.Entities](../../polygonmodifier)
+* struct [Vector4](../../../aspose.threed.utilities/vector4/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../../aspose.threed.entities/)
 * assembly [Aspose.3D](../../../)
 
 ---
 
-## PolygonModifier.Triangulate method (6 of 6)
+## Triangulate(IList&lt;Vector4&gt;) {#triangulate_1}
 
 ```csharp
 public static int[][] Triangulate(IList<Vector4> controlPoints)
@@ -107,9 +139,9 @@ public static int[][] Triangulate(IList<Vector4> controlPoints)
 
 ### See Also
 
-* struct [Vector4](../../../aspose.threed.utilities/vector4)
-* class [PolygonModifier](../../polygonmodifier)
-* namespace [Aspose.ThreeD.Entities](../../polygonmodifier)
+* struct [Vector4](../../../aspose.threed.utilities/vector4/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../../aspose.threed.entities/)
 * assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
