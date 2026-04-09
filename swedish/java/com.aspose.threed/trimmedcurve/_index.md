@@ -1,0 +1,479 @@
+---
+title: TrimmedCurve
+second_title: Aspose.3D for Java API-referens
+description: En begränsad kurva som beskär baskurvan i båda ändar.
+type: docs
+weight: 196
+url: /sv/java/com.aspose.threed/trimmedcurve/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject), [com.aspose.threed.Entity](../../com.aspose.threed/entity), [com.aspose.threed.Curve](../../com.aspose.threed/curve)
+```
+public class TrimmedCurve extends Curve
+```
+
+En begränsad kurva som beskär baskurvan i båda ändar.
+## Konstruktörer
+
+| Konstruktor | Beskrivning |
+| --- | --- |
+| [TrimmedCurve()](#TrimmedCurve--) | Konstruktor för [TrimmedCurve](../../com.aspose.threed/trimmedcurve) |
+## Metoder
+
+| Metod | Beskrivning |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [findProperty(String propertyName)](#findProperty-java.lang.String-) | Hittar egenskapen. |
+| [getBasisCurve()](#getBasisCurve--) | Baslinjen som ska trimmas. |
+| [getBoundingBox()](#getBoundingBox--) | Hämtar den omgivande lådan för den aktuella enheten i dess objektrumskoordinatsystem. |
+| [getClass()](#getClass--) |  |
+| [getColor()](#getColor--) | Hämtar färgen på linjen, standardvärdet är vit(1, 1, 1) |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Hämtar nyckeln för enhetens renderare som är registrerad i renderaren |
+| [getExcluded()](#getExcluded--) | Hämtar om denna enhet ska exkluderas vid export. |
+| [getFirst()](#getFirst--) | Den första ändpunkten att trimma, kan vara en kartesisk punkt eller en reell parameter. |
+| [getName()](#getName--) | Hämtar namnet. |
+| [getParentNode()](#getParentNode--) | Hämtar den första föräldranoden, om den första föräldranoden sätts, kommer denna enhet att frikopplas från andra föräldranoder. |
+| [getParentNodes()](#getParentNodes--) | Hämtar alla föräldranoder, en enhet kan fästas vid flera föräldranoder för geometrisk instansering |
+| [getProperties()](#getProperties--) | Hämtar samlingen av alla egenskaper. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Hämta värdet för angiven egenskap |
+| [getSameDirection()](#getSameDirection--) | Hämtar om det trimmade resultatet använder samma riktning som grundkurvan. |
+| [getScene()](#getScene--) | Hämtar scenen som detta objekt tillhör |
+| [getSecond()](#getSecond--) | Den andra ändpunkten att trimma, kan vara en kartesisk punkt eller en reell parameter. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Tar bort en dynamisk egenskap. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Ta bort den angivna egenskapen identifierad med namn |
+| [setBasisCurve(Curve value)](#setBasisCurve-com.aspose.threed.Curve-) | Baslinjen som ska trimmas. |
+| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | Ställer in färgen på linjen, standardvärdet är vit(1, 1, 1) |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Ställer in om denna enhet ska exkluderas vid export. |
+| [setFirst(EndPoint value)](#setFirst-com.aspose.threed.EndPoint-) | Den första ändpunkten att trimma, kan vara en kartesisk punkt eller en reell parameter. |
+| [setName(String value)](#setName-java.lang.String-) | Ställer in namnet. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Ställer in den första föräldranoden, om den första föräldranoden sätts, kommer denna enhet att frikopplas från andra föräldranoder. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Ställer in värdet för angiven egenskap |
+| [setSameDirection(boolean value)](#setSameDirection-boolean-) | Ställer in om det trimmade resultatet använder samma riktning som grundkurvan. |
+| [setSecond(EndPoint value)](#setSecond-com.aspose.threed.EndPoint-) | Den andra ändpunkten att trimma, kan vara en kartesisk punkt eller en reell parameter. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### TrimmedCurve() {#TrimmedCurve--}
+```
+public TrimmedCurve()
+```
+
+
+Konstruktor för [TrimmedCurve](../../com.aspose.threed/trimmedcurve)
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### findProperty(String propertyName) {#findProperty-java.lang.String-}
+```
+public Property findProperty(String propertyName)
+```
+
+
+Hittar egenskapen. Den kan vara en dynamisk egenskap (Skapad av CreateDynamicProperty/SetProperty) eller en inbyggd egenskap (Identifierad med dess namn)
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| propertyName | java.lang.String | Egenskapsnamn. |
+
+**Returns:**
+[Property](../../com.aspose.threed/property) - The property.
+### getBasisCurve() {#getBasisCurve--}
+```
+public Curve getBasisCurve()
+```
+
+
+Baslinjen som ska trimmas.
+
+**Returns:**
+[Curve](../../com.aspose.threed/curve) - The basis curve to be trimmed.
+### getBoundingBox() {#getBoundingBox--}
+```
+public BoundingBox getBoundingBox()
+```
+
+
+Hämtar den omgivande lådan för den aktuella enheten i dess objektrumskoordinatsystem.
+
+**Returns:**
+[BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
+
+```
+Entity entity = new Sphere();
+     entity.setRadius(10);
+     var bbox = entity.getBoundingBox();
+     System.out.printf("The bounding box of the entity is %s ~ %s", bbox.getMinimum(), bbox.getMaximum());
+```
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getColor() {#getColor--}
+```
+public Vector3 getColor()
+```
+
+
+Hämtar färgen på linjen, standardvärdet är vit(1, 1, 1)
+
+**Returns:**
+[Vector3](../../com.aspose.threed/vector3) - the color of the line, default value is white(1, 1, 1)
+### getEntityRendererKey() {#getEntityRendererKey--}
+```
+public EntityRendererKey getEntityRendererKey()
+```
+
+
+Hämtar nyckeln för enhetens renderare som är registrerad i renderaren
+
+**Returns:**
+[EntityRendererKey](../../com.aspose.threed/entityrendererkey)
+### getExcluded() {#getExcluded--}
+```
+public boolean getExcluded()
+```
+
+
+Hämtar om denna enhet ska exkluderas vid export.
+
+**Returns:**
+boolean - om denna enhet ska exkluderas vid export.
+### getFirst() {#getFirst--}
+```
+public EndPoint getFirst()
+```
+
+
+Den första ändpunkten att trimma, kan vara en kartesisk punkt eller en reell parameter.
+
+**Returns:**
+[EndPoint](../../com.aspose.threed/endpoint) - The first end point to trim, can be a Cartesian point or a real parameter.
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+Hämtar namnet.
+
+**Returns:**
+java.lang.String - namnet.
+### getParentNode() {#getParentNode--}
+```
+public Node getParentNode()
+```
+
+
+Hämtar den första föräldranoden, om den första föräldranoden sätts, kommer denna enhet att frikopplas från andra föräldranoder.
+
+**Returns:**
+[Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
+### getParentNodes() {#getParentNodes--}
+```
+public ArrayList<Node> getParentNodes()
+```
+
+
+Hämtar alla föräldranoder, en enhet kan fästas vid flera föräldranoder för geometrisk instansering
+
+**Returns:**
+java.util.ArrayList<com.aspose.threed.Node> - alla föräldranoder, en entitet kan fästas på flera föräldranoder för geometriinstansering
+### getProperties() {#getProperties--}
+```
+public PropertyCollection getProperties()
+```
+
+
+Hämtar samlingen av alla egenskaper.
+
+**Returns:**
+[PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
+### getProperty(String property) {#getProperty-java.lang.String-}
+```
+public Object getProperty(String property)
+```
+
+
+Hämta värdet för angiven egenskap
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| egenskap | java.lang.String | Egenskapsnamn |
+
+**Returns:**
+java.lang.Object - Värdet på den hittade egenskapen
+### getSameDirection() {#getSameDirection--}
+```
+public boolean getSameDirection()
+```
+
+
+Hämtar om det trimmade resultatet använder samma riktning som grundkurvan.
+
+**Returns:**
+boolesk - om det trimmade resultatet använder samma riktning som grundkurvan.
+### getScene() {#getScene--}
+```
+public Scene getScene()
+```
+
+
+Hämtar scenen som detta objekt tillhör
+
+**Returns:**
+[Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
+### getSecond() {#getSecond--}
+```
+public EndPoint getSecond()
+```
+
+
+Den andra ändpunkten att trimma, kan vara en kartesisk punkt eller en reell parameter.
+
+**Returns:**
+[EndPoint](../../com.aspose.threed/endpoint) - The second end point to trim, can be a Cartesian point or a real parameter.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### removeProperty(Property property) {#removeProperty-com.aspose.threed.Property-}
+```
+public boolean removeProperty(Property property)
+```
+
+
+Tar bort en dynamisk egenskap.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| property | [Property](../../com.aspose.threed/property) | Vilken egenskap som ska tas bort |
+
+**Returns:**
+boolean - true om egenskapen har tagits bort framgångsrikt
+### removeProperty(String property) {#removeProperty-java.lang.String-}
+```
+public boolean removeProperty(String property)
+```
+
+
+Ta bort den angivna egenskapen identifierad med namn
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| egenskap | java.lang.String | Vilken egenskap som ska tas bort |
+
+**Returns:**
+boolean - true om egenskapen har tagits bort framgångsrikt
+### setBasisCurve(Curve value) {#setBasisCurve-com.aspose.threed.Curve-}
+```
+public void setBasisCurve(Curve value)
+```
+
+
+Baslinjen som ska trimmas.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | [Curve](../../com.aspose.threed/curve) | Nytt värde |
+
+### setColor(Vector3 value) {#setColor-com.aspose.threed.Vector3-}
+```
+public void setColor(Vector3 value)
+```
+
+
+Ställer in färgen på linjen, standardvärdet är vit(1, 1, 1)
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | [Vector3](../../com.aspose.threed/vector3) | Nytt värde |
+
+### setExcluded(boolean value) {#setExcluded-boolean-}
+```
+public void setExcluded(boolean value)
+```
+
+
+Ställer in om denna enhet ska exkluderas vid export.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| värde | boolean | Nytt värde |
+
+### setFirst(EndPoint value) {#setFirst-com.aspose.threed.EndPoint-}
+```
+public void setFirst(EndPoint value)
+```
+
+
+Den första ändpunkten att trimma, kan vara en kartesisk punkt eller en reell parameter.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | [EndPoint](../../com.aspose.threed/endpoint) | Nytt värde |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public void setName(String value)
+```
+
+
+Ställer in namnet.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| värde | java.lang.String | Nytt värde |
+
+### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
+```
+public void setParentNode(Node value)
+```
+
+
+Ställer in den första föräldranoden, om den första föräldranoden sätts, kommer denna enhet att frikopplas från andra föräldranoder.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | [Node](../../com.aspose.threed/node) | Nytt värde |
+
+### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
+```
+public void setProperty(String property, Object value)
+```
+
+
+Ställer in värdet för angiven egenskap
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| egenskap | java.lang.String | Egenskapsnamn |
+| värde | java.lang.Object | Värdet på egenskapen |
+
+### setSameDirection(boolean value) {#setSameDirection-boolean-}
+```
+public void setSameDirection(boolean value)
+```
+
+
+Ställer in om det trimmade resultatet använder samma riktning som grundkurvan.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| värde | boolean | Nytt värde |
+
+### setSecond(EndPoint value) {#setSecond-com.aspose.threed.EndPoint-}
+```
+public void setSecond(EndPoint value)
+```
+
+
+Den andra ändpunkten att trimma, kan vara en kartesisk punkt eller en reell parameter.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| value | [EndPoint](../../com.aspose.threed/endpoint) | Nytt värde |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
