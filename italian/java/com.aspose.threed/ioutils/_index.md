@@ -1,0 +1,256 @@
+---
+title: IOUtils
+second_title: Aspose.3D for Java API Reference
+description: Utility per scrivere matrici/vettori su un writer binario
+type: docs
+weight: 77
+url: /it/java/com.aspose.threed/ioutils/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class IOUtils
+```
+
+Utility per scrivere matrici/vettori su un writer binario
+## Costruttori
+
+| Costruttore | Descrizione |
+| --- | --- |
+| [IOUtils()](#IOUtils--) |  |
+## Metodi
+
+| Metodo | Descrizione |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [write(BinaryWriter writer, FMatrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FMatrix4-) | Scrivi la matrice nel binary writer |
+| [write(BinaryWriter writer, FVector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector2-) | Scrivi il vettore nel binary writer |
+| [write(BinaryWriter writer, FVector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector3-) | Scrivi il vettore nel binary writer |
+| [write(BinaryWriter writer, FVector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector4-) | Scrivi il vettore nel binary writer |
+| [write(BinaryWriter writer, Matrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Matrix4-) | Scrivi la matrice nel binary writer |
+| [write(BinaryWriter writer, Vector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector2-) | Scrivi il vettore nel binary writer |
+| [write(BinaryWriter writer, Vector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector3-) | Scrivi il vettore nel binary writer |
+| [write(BinaryWriter writer, Vector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector4-) | Scrivi il vettore nel binary writer |
+### IOUtils() {#IOUtils--}
+```
+public IOUtils()
+```
+
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
+### write(BinaryWriter writer, FMatrix4 mat) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FMatrix4-}
+```
+public static void write(BinaryWriter writer, FMatrix4 mat)
+```
+
+
+Scrivi la matrice nel binary writer
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| writer | com.aspose.csporter.helpers.BinaryWriter | Binary writer di destinazione |
+| mat | [FMatrix4](../../com.aspose.threed/fmatrix4) | Matrice da scrivere |
+
+### write(BinaryWriter writer, FVector2 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector2-}
+```
+public static void write(BinaryWriter writer, FVector2 v)
+```
+
+
+Scrivi il vettore nel binary writer
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| writer | com.aspose.csporter.helpers.BinaryWriter | Binary writer di destinazione |
+| v | [FVector2](../../com.aspose.threed/fvector2) | Vettore da scrivere |
+
+### write(BinaryWriter writer, FVector3 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector3-}
+```
+public static void write(BinaryWriter writer, FVector3 v)
+```
+
+
+Scrivi il vettore nel binary writer
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| writer | com.aspose.csporter.helpers.BinaryWriter | Binary writer di destinazione |
+| v | [FVector3](../../com.aspose.threed/fvector3) | Vettore da scrivere |
+
+### write(BinaryWriter writer, FVector4 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector4-}
+```
+public static void write(BinaryWriter writer, FVector4 v)
+```
+
+
+Scrivi il vettore nel binary writer
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| writer | com.aspose.csporter.helpers.BinaryWriter | Binary writer di destinazione |
+| v | [FVector4](../../com.aspose.threed/fvector4) | Vettore da scrivere |
+
+### write(BinaryWriter writer, Matrix4 mat) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Matrix4-}
+```
+public static void write(BinaryWriter writer, Matrix4 mat)
+```
+
+
+Scrivi la matrice nel binary writer
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| writer | com.aspose.csporter.helpers.BinaryWriter | Binary writer di destinazione |
+| mat | [Matrix4](../../com.aspose.threed/matrix4) | Matrice da scrivere |
+
+### write(BinaryWriter writer, Vector2 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector2-}
+```
+public static void write(BinaryWriter writer, Vector2 v)
+```
+
+
+Scrivi il vettore nel binary writer
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| writer | com.aspose.csporter.helpers.BinaryWriter | Binary writer di destinazione |
+| v | [Vector2](../../com.aspose.threed/vector2) | Vettore da scrivere |
+
+### write(BinaryWriter writer, Vector3 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector3-}
+```
+public static void write(BinaryWriter writer, Vector3 v)
+```
+
+
+Scrivi il vettore nel binary writer
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| writer | com.aspose.csporter.helpers.BinaryWriter | Binary writer di destinazione |
+| v | [Vector3](../../com.aspose.threed/vector3) | Vettore da scrivere |
+
+### write(BinaryWriter writer, Vector4 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector4-}
+```
+public static void write(BinaryWriter writer, Vector4 v)
+```
+
+
+Scrivi il vettore nel binary writer
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| writer | com.aspose.csporter.helpers.BinaryWriter | Binary writer di destinazione |
+| v | [Vector4](../../com.aspose.threed/vector4) | Vettore da scrivere |
+
