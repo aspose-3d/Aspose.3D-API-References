@@ -1,0 +1,444 @@
+---
+title: TransformedCurve
+second_title: Aspose.3D for Java API-referentie
+description: Een  geeft een curve een plaatsing door gebruik te maken van een transformatie matrix.
+type: docs
+weight: 192
+url: /nl/java/com.aspose.threed/transformedcurve/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject), [com.aspose.threed.Entity](../../com.aspose.threed/entity), [com.aspose.threed.Curve](../../com.aspose.threed/curve)
+```
+public class TransformedCurve extends Curve
+```
+
+Een [TransformedCurve](../../com.aspose.threed/transformedcurve) geeft een curve een plaatsing door gebruik te maken van een transformatie matrix. Dit maakt het mogelijk om een transformatie uit te voeren binnen een [TrimmedCurve](../../com.aspose.threed/trimmedcurve) of [CompositeCurve](../../com.aspose.threed/compositecurve).
+## Constructors
+
+| Constructor | Beschrijving |
+| --- | --- |
+| [TransformedCurve()](#TransformedCurve--) | De constructor van [TransformedCurve](../../com.aspose.threed/transformedcurve) |
+| [TransformedCurve(Curve basisCurve, Matrix4 transformation)](#TransformedCurve-com.aspose.threed.Curve-com.aspose.threed.Matrix4-) | De constructor van [TransformedCurve](../../com.aspose.threed/transformedcurve) |
+## Methoden
+
+| Methode | Beschrijving |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
+| [getBasisCurve()](#getBasisCurve--) | De basiscurve. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getClass()](#getClass--) |  |
+| [getColor()](#getColor--) | Haalt de kleur van de lijn op, standaardwaarde is wit(1, 1, 1) |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getName()](#getName--) | Haalt de naam op. |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
+| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getTransformMatrix()](#getTransformMatrix--) | De transformatie matrix. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [setBasisCurve(Curve value)](#setBasisCurve-com.aspose.threed.Curve-) | De basiscurve. |
+| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | Stelt de kleur van de lijn in, standaardwaarde is wit(1, 1, 1) |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setTransformMatrix(Matrix4 value)](#setTransformMatrix-com.aspose.threed.Matrix4-) | De transformatie matrix. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### TransformedCurve() {#TransformedCurve--}
+```
+public TransformedCurve()
+```
+
+
+De constructor van [TransformedCurve](../../com.aspose.threed/transformedcurve)
+
+### TransformedCurve(Curve basisCurve, Matrix4 transformation) {#TransformedCurve-com.aspose.threed.Curve-com.aspose.threed.Matrix4-}
+```
+public TransformedCurve(Curve basisCurve, Matrix4 transformation)
+```
+
+
+De constructor van [TransformedCurve](../../com.aspose.threed/transformedcurve)
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| basisCurve | [Curve](../../com.aspose.threed/curve) |  |
+| transformation | [Matrix4](../../com.aspose.threed/matrix4) |  |
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### findProperty(String propertyName) {#findProperty-java.lang.String-}
+```
+public Property findProperty(String propertyName)
+```
+
+
+Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap (geïdentificeerd op naam).
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| propertyName | java.lang.String | Eigenschapnaam. |
+
+**Returns:**
+[Property](../../com.aspose.threed/property) - The property.
+### getBasisCurve() {#getBasisCurve--}
+```
+public Curve getBasisCurve()
+```
+
+
+De basiscurve.
+
+**Returns:**
+[Curve](../../com.aspose.threed/curve) - The basis curve.
+### getBoundingBox() {#getBoundingBox--}
+```
+public BoundingBox getBoundingBox()
+```
+
+
+Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+
+**Returns:**
+[BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
+
+```
+Entity entity = new Sphere();
+     entity.setRadius(10);
+     var bbox = entity.getBoundingBox();
+     System.out.printf("The bounding box of the entity is %s ~ %s", bbox.getMinimum(), bbox.getMaximum());
+```
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getColor() {#getColor--}
+```
+public Vector3 getColor()
+```
+
+
+Haalt de kleur van de lijn op, standaardwaarde is wit(1, 1, 1)
+
+**Returns:**
+[Vector3](../../com.aspose.threed/vector3) - the color of the line, default value is white(1, 1, 1)
+### getEntityRendererKey() {#getEntityRendererKey--}
+```
+public EntityRendererKey getEntityRendererKey()
+```
+
+
+Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+
+**Returns:**
+[EntityRendererKey](../../com.aspose.threed/entityrendererkey)
+### getExcluded() {#getExcluded--}
+```
+public boolean getExcluded()
+```
+
+
+Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+
+**Returns:**
+boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+Haalt de naam op.
+
+**Returns:**
+java.lang.String - de naam.
+### getParentNode() {#getParentNode--}
+```
+public Node getParentNode()
+```
+
+
+Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+
+**Returns:**
+[Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
+### getParentNodes() {#getParentNodes--}
+```
+public ArrayList<Node> getParentNodes()
+```
+
+
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+
+**Returns:**
+java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
+### getProperties() {#getProperties--}
+```
+public PropertyCollection getProperties()
+```
+
+
+Haalt de verzameling van alle eigenschappen op.
+
+**Returns:**
+[PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
+### getProperty(String property) {#getProperty-java.lang.String-}
+```
+public Object getProperty(String property)
+```
+
+
+Haalt de waarde op van de opgegeven eigenschap
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| eigenschap | java.lang.String | Naam van eigenschap |
+
+**Returns:**
+java.lang.Object - De waarde van de gevonden eigenschap
+### getScene() {#getScene--}
+```
+public Scene getScene()
+```
+
+
+Haalt de scène op waartoe dit object behoort
+
+**Returns:**
+[Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
+### getTransformMatrix() {#getTransformMatrix--}
+```
+public Matrix4 getTransformMatrix()
+```
+
+
+De transformatie matrix.
+
+**Returns:**
+[Matrix4](../../com.aspose.threed/matrix4) - The transformation matrix.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### removeProperty(Property property) {#removeProperty-com.aspose.threed.Property-}
+```
+public boolean removeProperty(Property property)
+```
+
+
+Verwijdert een dynamische eigenschap.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| property | [Property](../../com.aspose.threed/property) | Welke eigenschap moet worden verwijderd |
+
+**Returns:**
+boolean - true als de eigenschap succesvol is verwijderd
+### removeProperty(String property) {#removeProperty-java.lang.String-}
+```
+public boolean removeProperty(String property)
+```
+
+
+Verwijder de opgegeven eigenschap geïdentificeerd op naam
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| eigenschap | java.lang.String | Welke eigenschap moet worden verwijderd |
+
+**Returns:**
+boolean - true als de eigenschap succesvol is verwijderd
+### setBasisCurve(Curve value) {#setBasisCurve-com.aspose.threed.Curve-}
+```
+public void setBasisCurve(Curve value)
+```
+
+
+De basiscurve.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | [Curve](../../com.aspose.threed/curve) | Nieuwe waarde |
+
+### setColor(Vector3 value) {#setColor-com.aspose.threed.Vector3-}
+```
+public void setColor(Vector3 value)
+```
+
+
+Stelt de kleur van de lijn in, standaardwaarde is wit(1, 1, 1)
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | [Vector3](../../com.aspose.threed/vector3) | Nieuwe waarde |
+
+### setExcluded(boolean value) {#setExcluded-boolean-}
+```
+public void setExcluded(boolean value)
+```
+
+
+Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | boolean | Nieuwe waarde |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public void setName(String value)
+```
+
+
+Stelt de naam in.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| waarde | java.lang.String | Nieuwe waarde |
+
+### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
+```
+public void setParentNode(Node value)
+```
+
+
+Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | [Node](../../com.aspose.threed/node) | Nieuwe waarde |
+
+### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
+```
+public void setProperty(String property, Object value)
+```
+
+
+Stelt de waarde in van de opgegeven eigenschap
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| eigenschap | java.lang.String | Naam van eigenschap |
+| waarde | java.lang.Object | De waarde van de eigenschap |
+
+### setTransformMatrix(Matrix4 value) {#setTransformMatrix-com.aspose.threed.Matrix4-}
+```
+public void setTransformMatrix(Matrix4 value)
+```
+
+
+De transformatie matrix.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | [Matrix4](../../com.aspose.threed/matrix4) | Nieuwe waarde |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
