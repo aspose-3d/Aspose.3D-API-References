@@ -1,0 +1,576 @@
+---
+title: DracoSaveOptions
+second_title: Referensi API Aspose.3D untuk Java
+description: Opsi penyimpanan untuk file Google draco
+type: docs
+weight: 47
+url: /id/java/com.aspose.threed/dracosaveoptions/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig), [com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
+```
+public class DracoSaveOptions extends SaveOptions
+```
+
+Opsi penyimpanan untuk file Google draco
+## Konstruktor
+
+| Konstruktor | Deskripsi |
+| --- | --- |
+| [DracoSaveOptions()](#DracoSaveOptions--) | Bangun konfigurasi default untuk menyimpan file draco. |
+## Metode
+
+| Metode | Deskripsi |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getApplyUnitScale()](#getApplyUnitScale--) | Terapkan [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) ke mesh. |
+| [getClass()](#getClass--) |  |
+| [getColorBits()](#getColorBits--) | Bit kuantisasi untuk warna vertex, nilai default adalah 10 |
+| [getCompressionLevel()](#getCompressionLevel--) | Level kompresi, nilai default adalah [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD) |
+| [getEncoding()](#getEncoding--) | Mendapatkan encoding default untuk file berbasis teks. |
+| [getExportTextures()](#getExportTextures--) | Mencoba menyalin tekstur yang digunakan dalam adegan ke direktori output. |
+| [getFileFormat()](#getFileFormat--) | Mendapatkan format file yang ditentukan dalam opsi Simpan/Muat saat ini. |
+| [getFileName()](#getFileName--) | Nama file dari adegan ekspor/impor. |
+| [getFileSystem()](#getFileSystem--) | Izinkan pengguna mengatur cara mengelola dependensi eksternal selama muat/simpan. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Mendapatkan kelas pabrik untuk FileSystem. |
+| [getLookupPaths()](#getLookupPaths--) | Beberapa file seperti OBJ bergantung pada file eksternal, jalur pencarian akan memungkinkan Aspose.3D mencari file eksternal untuk dimuat. |
+| [getNormalBits()](#getNormalBits--) | Bit kuantisasi untuk vektor normal, nilai default adalah 10 |
+| [getPointCloud()](#getPointCloud--) | Ekspor adegan sebagai awan titik, nilai default adalah false. |
+| [getPositionBits()](#getPositionBits--) | Bit kuantisasi untuk posisi, nilai default adalah 14 |
+| [getTextureCoordinateBits()](#getTextureCoordinateBits--) | Bit kuantisasi untuk koordinat tekstur, nilai default adalah 12 |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | Terapkan [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) ke mesh. |
+| [setColorBits(int value)](#setColorBits-int-) | Bit kuantisasi untuk warna vertex, nilai default adalah 10 |
+| [setCompressionLevel(DracoCompressionLevel value)](#setCompressionLevel-com.aspose.threed.DracoCompressionLevel-) | Level kompresi, nilai default adalah [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD) |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Mengatur encoding default untuk file berbasis teks. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Mencoba menyalin tekstur yang digunakan dalam adegan ke direktori output. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Nama file dari adegan ekspor/impor. |
+| [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Izinkan pengguna mengatur cara mengelola dependensi eksternal selama muat/simpan. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Mengatur kelas pabrik untuk FileSystem. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Beberapa file seperti OBJ bergantung pada file eksternal, jalur pencarian akan memungkinkan Aspose.3D mencari file eksternal untuk dimuat. |
+| [setNormalBits(int value)](#setNormalBits-int-) | Bit kuantisasi untuk vektor normal, nilai default adalah 10 |
+| [setPointCloud(boolean value)](#setPointCloud-boolean-) | Ekspor adegan sebagai awan titik, nilai default adalah false. |
+| [setPositionBits(int value)](#setPositionBits-int-) | Bit kuantisasi untuk posisi, nilai default adalah 14 |
+| [setTextureCoordinateBits(int value)](#setTextureCoordinateBits-int-) | Bit kuantisasi untuk koordinat tekstur, nilai default adalah 12 |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DracoSaveOptions() {#DracoSaveOptions--}
+```
+public DracoSaveOptions()
+```
+
+
+Bangun konfigurasi default untuk menyimpan file draco.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getApplyUnitScale() {#getApplyUnitScale--}
+```
+public boolean getApplyUnitScale()
+```
+
+
+Terapkan [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) ke mesh. Nilai default adalah false.
+
+**Returns:**
+boolean - Terapkan [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) ke mesh. Nilai default adalah false.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getColorBits() {#getColorBits--}
+```
+public int getColorBits()
+```
+
+
+Bit kuantisasi untuk warna vertex, nilai default adalah 10
+
+**Returns:**
+int - Bit kuantisasi untuk warna vertex, nilai default adalah 10
+### getCompressionLevel() {#getCompressionLevel--}
+```
+public DracoCompressionLevel getCompressionLevel()
+```
+
+
+Level kompresi, nilai default adalah [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD)
+
+**Returns:**
+[DracoCompressionLevel](../../com.aspose.threed/dracocompressionlevel) - Compression level, default value is [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD)
+### getEncoding() {#getEncoding--}
+```
+public Charset getEncoding()
+```
+
+
+Mendapatkan encoding default untuk file berbasis teks. Nilai default adalah null yang berarti pengimpor/pengekspor akan menentukan encoding yang akan digunakan.
+
+**Returns:**
+java.nio.charset.Charset - encoding default untuk file berbasis teks. Nilai default adalah null yang berarti pengimpor/pengekspor akan menentukan encoding yang akan digunakan.
+### getExportTextures() {#getExportTextures--}
+```
+public boolean getExportTextures()
+```
+
+
+Mencoba menyalin tekstur yang digunakan dalam adegan ke direktori output.
+
+**Returns:**
+boolean - Mencoba menyalin tekstur yang digunakan dalam adegan ke direktori output.
+### getFileFormat() {#getFileFormat--}
+```
+public FileFormat getFileFormat()
+```
+
+
+Mendapatkan format file yang ditentukan dalam opsi Simpan/Muat saat ini.
+
+**Returns:**
+[FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
+### getFileName() {#getFileName--}
+```
+public String getFileName()
+```
+
+
+Nama file dari adegan yang diekspor/diimpor. Ini opsional, tetapi berguna saat menyerialkan aset eksternal seperti material OBJ.
+
+**Returns:**
+java.lang.String - Nama file dari adegan yang diekspor/diimpor. Ini opsional, tetapi berguna saat menyerialkan aset eksternal seperti material OBJ.
+### getFileSystem() {#getFileSystem--}
+```
+public FileSystem getFileSystem()
+```
+
+
+Izinkan pengguna mengatur cara mengelola dependensi eksternal selama muat/simpan.
+
+**Returns:**
+[FileSystem](../../com.aspose.threed/filesystem) - Allow user to handle how to manage the external dependencies during load/save. **Example:** The default FileSystem is LocalFileSystem, it is not safe in environment like server side, But you can override the file system access by specifying a different implementation. Aspose.3D provides different FileSystem implementation like:
+
+ *  Memory-based file system
+ *  Directory-based file system
+ *  Dummy file system
+ *  Zip file system
+
+Dan Anda juga dapat menggunakan implementasi Anda sendiri.
+
+```
+Scene scene = new Scene();
+             var material = new PhongMaterial();
+             var boxNode = scene.getRootNode().createChildNode(new Box());
+             boxNode.setMaterial(material);
+ 
+             var opt = new ObjSaveOptions();
+             var memFs = new HashMap<string, MemoryStream>();
+             opt.setFileSystem(FileSystem.createMemoryFileSystem(memFs));
+ 			opt.setFileName("output.obj");
+             try(var output = new ByteArrayOutputStream()) {
+ 				scene.save(output, opt);
+ 				//The material will be written to variable memFs named output.mtl
+ 				var materialInBytes = memFs["output.mtl"].toArray();
+             }
+```
+### getFileSystemFactory() {#getFileSystemFactory--}
+```
+public static FileSystemFactory getFileSystemFactory()
+```
+
+
+Mendapatkan kelas pabrik untuk FileSystem. Pabrik default akan membuat com.aspose.threed.LocalFileSystem yang tidak cocok untuk lingkungan server.
+
+**Returns:**
+[FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
+
+```
+IOConfig.setFileSystemFactory(new FileSystemFactory() {
+ 				@Override
+ 				public FileSystem call() {
+ 					return FileSystem.createDummyFileSystem();
+ 				}
+ 			});
+ 
+             Scene scene = new Scene();
+             var material = new PhongMaterial();
+             var boxNode = scene.getRootNode().createChildNode(new Box());
+             boxNode.setMaterial(material);
+ 
+             //opt.FileSystem would be dummy file system now
+             var opt = new ObjSaveOptions();
+             scene.Save("output.obj", opt);
+             //the material file output.mtl will not be written to any places because we've configured a dummy file system as default implementation.
+```
+### getLookupPaths() {#getLookupPaths--}
+```
+public ArrayList<String> getLookupPaths()
+```
+
+
+Beberapa file seperti OBJ bergantung pada file eksternal, jalur pencarian akan memungkinkan Aspose.3D mencari file eksternal untuk dimuat.
+
+**Returns:**
+java.util.ArrayList<java.lang.String> - Beberapa file seperti OBJ bergantung pada file eksternal, jalur pencarian akan memungkinkan Aspose.3D mencari file eksternal untuk dimuat. **Example:** Kode berikut menunjukkan cara menentukan secara manual tekstur pencarian, sehingga pengimpor dapat menemukannya
+
+```
+var opt = new ObjLoadOptions();
+             //Specify the lookup paths, so the textures can be located.
+             opt.getLookupPaths().add("textures");
+             var scene = Scene.fromFile("input.obj", opt);
+             scene.save("output.glb");
+```
+### getNormalBits() {#getNormalBits--}
+```
+public int getNormalBits()
+```
+
+
+Bit kuantisasi untuk vektor normal, nilai default adalah 10
+
+**Returns:**
+int - Bit kuantisasi untuk vektor normal, nilai default adalah 10
+### getPointCloud() {#getPointCloud--}
+```
+public boolean getPointCloud()
+```
+
+
+Ekspor adegan sebagai awan titik, nilai default adalah false.
+
+**Returns:**
+boolean - Ekspor adegan sebagai awan titik, nilai default adalah false.
+### getPositionBits() {#getPositionBits--}
+```
+public int getPositionBits()
+```
+
+
+Bit kuantisasi untuk posisi, nilai default adalah 14
+
+**Returns:**
+int - Bit kuantisasi untuk posisi, nilai default adalah 14
+### getTextureCoordinateBits() {#getTextureCoordinateBits--}
+```
+public int getTextureCoordinateBits()
+```
+
+
+Bit kuantisasi untuk koordinat tekstur, nilai default adalah 12
+
+**Returns:**
+int - Bit kuantisasi untuk koordinat tekstur, nilai default adalah 12
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setApplyUnitScale(boolean value) {#setApplyUnitScale-boolean-}
+```
+public void setApplyUnitScale(boolean value)
+```
+
+
+Terapkan [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) ke mesh. Nilai default adalah false.
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | boolean | Nilai baru |
+
+### setColorBits(int value) {#setColorBits-int-}
+```
+public void setColorBits(int value)
+```
+
+
+Bit kuantisasi untuk warna vertex, nilai default adalah 10
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | int | Nilai baru |
+
+### setCompressionLevel(DracoCompressionLevel value) {#setCompressionLevel-com.aspose.threed.DracoCompressionLevel-}
+```
+public void setCompressionLevel(DracoCompressionLevel value)
+```
+
+
+Level kompresi, nilai default adalah [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD)
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| value | [DracoCompressionLevel](../../com.aspose.threed/dracocompressionlevel) | Nilai baru |
+
+### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
+```
+public void setEncoding(Charset value)
+```
+
+
+Mengatur enkoding default untuk file berbasis teks. Nilai default adalah null yang berarti pengimpor/pengekspor akan menentukan enkoding yang akan digunakan.
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | java.nio.charset.Charset | Nilai baru |
+
+### setExportTextures(boolean value) {#setExportTextures-boolean-}
+```
+public void setExportTextures(boolean value)
+```
+
+
+Mencoba menyalin tekstur yang digunakan dalam adegan ke direktori output.
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | boolean | Nilai baru |
+
+### setFileName(String value) {#setFileName-java.lang.String-}
+```
+public void setFileName(String value)
+```
+
+
+Nama file dari adegan yang diekspor/diimpor. Ini opsional, tetapi berguna saat menyerialkan aset eksternal seperti material OBJ.
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | java.lang.String | Nilai baru |
+
+### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
+```
+public void setFileSystem(FileSystem value)
+```
+
+
+Izinkan pengguna mengatur cara mengelola dependensi eksternal selama muat/simpan.
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nilai baru **Example:** FileSystem default adalah LocalFileSystem, tidak aman di lingkungan seperti sisi server, Namun Anda dapat mengganti akses file system dengan menentukan implementasi yang berbeda. Aspose.3D menyediakan berbagai implementasi FileSystem seperti: |
+
+ *  Memory-based file system
+ *  Directory-based file system
+ *  Dummy file system
+ *  Zip file system
+
+Dan Anda juga dapat menggunakan implementasi Anda sendiri.
+
+```
+Scene scene = new Scene();
+             var material = new PhongMaterial();
+             var boxNode = scene.getRootNode().createChildNode(new Box());
+             boxNode.setMaterial(material);
+ 
+             var opt = new ObjSaveOptions();
+             var memFs = new HashMap<string, MemoryStream>();
+             opt.setFileSystem(FileSystem.createMemoryFileSystem(memFs));
+ 			opt.setFileName("output.obj");
+             try(var output = new ByteArrayOutputStream()) {
+ 				scene.save(output, opt);
+ 				//The material will be written to variable memFs named output.mtl
+ 				var materialInBytes = memFs["output.mtl"].toArray();
+             }
+``` |
+
+### setFileSystemFactory(FileSystemFactory value) {#setFileSystemFactory-com.aspose.threed.FileSystemFactory-}
+```
+public static void setFileSystemFactory(FileSystemFactory value)
+```
+
+
+Mengatur kelas pabrik untuk FileSystem. Pabrik default akan membuat com.aspose.threed.LocalFileSystem yang tidak cocok untuk lingkungan server.
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Nilai baru **Example:** FileSystem default dalam SaveOptions/LoadOptions adalah file system berbasis direktori, Anda dapat mengganti implementasi default dengan menyebutkannya melalui IOConfig.FileSystemFactory: |
+
+```
+IOConfig.setFileSystemFactory(new FileSystemFactory() {
+ 				@Override
+ 				public FileSystem call() {
+ 					return FileSystem.createDummyFileSystem();
+ 				}
+ 			});
+ 
+             Scene scene = new Scene();
+             var material = new PhongMaterial();
+             var boxNode = scene.getRootNode().createChildNode(new Box());
+             boxNode.setMaterial(material);
+ 
+             //opt.FileSystem would be dummy file system now
+             var opt = new ObjSaveOptions();
+             scene.Save("output.obj", opt);
+             //the material file output.mtl will not be written to any places because we've configured a dummy file system as default implementation.
+``` |
+
+### setLookupPaths(ArrayList<String> value) {#setLookupPaths-java.util.ArrayList-java.lang.String--}
+```
+public void setLookupPaths(ArrayList<String> value)
+```
+
+
+Beberapa file seperti OBJ bergantung pada file eksternal, jalur pencarian akan memungkinkan Aspose.3D mencari file eksternal untuk dimuat.
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+|  | nilai | java.util.ArrayList<java.lang.String> | Nilai baru **Example:** Kode berikut menunjukkan cara menentukan secara manual tekstur pencarian, sehingga pengimpor dapat menemukannya |
+
+```
+var opt = new ObjLoadOptions();
+             //Specify the lookup paths, so the textures can be located.
+             opt.getLookupPaths().add("textures");
+             var scene = Scene.fromFile("input.obj", opt);
+             scene.save("output.glb");
+``` |
+
+### setNormalBits(int value) {#setNormalBits-int-}
+```
+public void setNormalBits(int value)
+```
+
+
+Bit kuantisasi untuk vektor normal, nilai default adalah 10
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | int | Nilai baru |
+
+### setPointCloud(boolean value) {#setPointCloud-boolean-}
+```
+public void setPointCloud(boolean value)
+```
+
+
+Ekspor adegan sebagai awan titik, nilai default adalah false.
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | boolean | Nilai baru |
+
+### setPositionBits(int value) {#setPositionBits-int-}
+```
+public void setPositionBits(int value)
+```
+
+
+Bit kuantisasi untuk posisi, nilai default adalah 14
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | int | Nilai baru |
+
+### setTextureCoordinateBits(int value) {#setTextureCoordinateBits-int-}
+```
+public void setTextureCoordinateBits(int value)
+```
+
+
+Bit kuantisasi untuk koordinat tekstur, nilai default adalah 12
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| nilai | int | Nilai baru |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
