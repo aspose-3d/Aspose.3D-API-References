@@ -1,0 +1,476 @@
+---
+title: ObjLoadOptions
+second_title: Справочник API Aspose.3D для Java
+description: Параметры загрузки для wavefront obj
+type: docs
+weight: 115
+url: /ru/java/com.aspose.threed/objloadoptions/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig), [com.aspose.threed.LoadOptions](../../com.aspose.threed/loadoptions)
+```
+public class ObjLoadOptions extends LoadOptions
+```
+
+Параметры загрузки для wavefront obj
+## Конструкторы
+
+| Конструктор | Описание |
+| --- | --- |
+| [ObjLoadOptions()](#ObjLoadOptions--) | Конструктор [ObjLoadOptions](../../com.aspose.threed/objloadoptions) |
+## Методы
+
+| Метод | Описание |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getEnableMaterials()](#getEnableMaterials--) | Получает, импортировать ли материалы для каждого объекта |
+| [getEncoding()](#getEncoding--) | Получает кодировку по умолчанию для текстовых файлов. |
+| [getFileFormat()](#getFileFormat--) | Получает формат файла, указанный в текущей опции сохранения/загрузки. |
+| [getFileName()](#getFileName--) | Имя файла экспортируемой/импортируемой сцены. |
+| [getFileSystem()](#getFileSystem--) | Позволяет пользователю управлять внешними зависимостями во время загрузки/сохранения. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Получает класс фабрики для FileSystem. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Получает, инвертировать ли систему координат контрольных точек/нормалей при импорте |
+| [getLookupPaths()](#getLookupPaths--) | Некоторые файлы, такие как OBJ, зависят от внешних файлов; пути поиска позволяют Aspose.3D находить внешние файлы для загрузки. |
+| [getNormalizeNormal()](#getNormalizeNormal--) | Получает, нормализовать ли вектор нормали во время загрузки. |
+| [getScale()](#getScale--) | Масштаб по осям x/y/z, значение по умолчанию 1.0 |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | Устанавливает, импортировать ли материалы для каждого объекта |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Устанавливает кодировку по умолчанию для текстовых файлов. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Имя файла экспортируемой/импортируемой сцены. |
+| [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Позволяет пользователю управлять внешними зависимостями во время загрузки/сохранения. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Устанавливает класс фабрики для FileSystem. |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Устанавливает, инвертировать ли систему координат контрольных точек/нормалей при импорте |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Некоторые файлы, такие как OBJ, зависят от внешних файлов; пути поиска позволяют Aspose.3D находить внешние файлы для загрузки. |
+| [setNormalizeNormal(boolean value)](#setNormalizeNormal-boolean-) | Устанавливает, нормализовать ли вектор нормали во время загрузки. |
+| [setScale(double value)](#setScale-double-) | Масштаб по осям x/y/z, значение по умолчанию 1.0 |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ObjLoadOptions() {#ObjLoadOptions--}
+```
+public ObjLoadOptions()
+```
+
+
+Конструктор [ObjLoadOptions](../../com.aspose.threed/objloadoptions)
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getEnableMaterials() {#getEnableMaterials--}
+```
+public boolean getEnableMaterials()
+```
+
+
+Получает, импортировать ли материалы для каждого объекта
+
+**Returns:**
+boolean - импортировать ли материалы для каждого объекта
+### getEncoding() {#getEncoding--}
+```
+public Charset getEncoding()
+```
+
+
+Получает кодировку по умолчанию для текстовых файлов. Значение по умолчанию — null, что означает, что импортёр/экспортёр определит, какую кодировку использовать.
+
+**Returns:**
+java.nio.charset.Charset - кодировка по умолчанию для текстовых файлов. Значение по умолчанию — null, что означает, что импортёр/экспортёр определит, какую кодировку использовать.
+### getFileFormat() {#getFileFormat--}
+```
+public FileFormat getFileFormat()
+```
+
+
+Получает формат файла, указанный в текущей опции сохранения/загрузки.
+
+**Returns:**
+[FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
+### getFileName() {#getFileName--}
+```
+public String getFileName()
+```
+
+
+Имя файла экспортируемой/импортируемой сцены. Это необязательно, но полезно при сериализации внешних ресурсов, таких как материал OBJ.
+
+**Returns:**
+java.lang.String - Имя файла экспортируемой/импортируемой сцены. Это необязательно, но полезно при сериализации внешних ресурсов, таких как материал OBJ.
+### getFileSystem() {#getFileSystem--}
+```
+public FileSystem getFileSystem()
+```
+
+
+Позволяет пользователю управлять внешними зависимостями во время загрузки/сохранения.
+
+**Returns:**
+[FileSystem](../../com.aspose.threed/filesystem) - Allow user to handle how to manage the external dependencies during load/save. **Example:** The default FileSystem is LocalFileSystem, it is not safe in environment like server side, But you can override the file system access by specifying a different implementation. Aspose.3D provides different FileSystem implementation like:
+
+ *  Memory-based file system
+ *  Directory-based file system
+ *  Dummy file system
+ *  Zip file system
+
+И вы также можете использовать свою собственную реализацию.
+
+```
+Scene scene = new Scene();
+             var material = new PhongMaterial();
+             var boxNode = scene.getRootNode().createChildNode(new Box());
+             boxNode.setMaterial(material);
+ 
+             var opt = new ObjSaveOptions();
+             var memFs = new HashMap<string, MemoryStream>();
+             opt.setFileSystem(FileSystem.createMemoryFileSystem(memFs));
+ 			opt.setFileName("output.obj");
+             try(var output = new ByteArrayOutputStream()) {
+ 				scene.save(output, opt);
+ 				//The material will be written to variable memFs named output.mtl
+ 				var materialInBytes = memFs["output.mtl"].toArray();
+             }
+```
+### getFileSystemFactory() {#getFileSystemFactory--}
+```
+public static FileSystemFactory getFileSystemFactory()
+```
+
+
+Получает класс фабрики для FileSystem. Фабрика по умолчанию создаст com.aspose.threed.LocalFileSystem, который не подходит для серверной среды.
+
+**Returns:**
+[FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
+
+```
+IOConfig.setFileSystemFactory(new FileSystemFactory() {
+ 				@Override
+ 				public FileSystem call() {
+ 					return FileSystem.createDummyFileSystem();
+ 				}
+ 			});
+ 
+             Scene scene = new Scene();
+             var material = new PhongMaterial();
+             var boxNode = scene.getRootNode().createChildNode(new Box());
+             boxNode.setMaterial(material);
+ 
+             //opt.FileSystem would be dummy file system now
+             var opt = new ObjSaveOptions();
+             scene.Save("output.obj", opt);
+             //the material file output.mtl will not be written to any places because we've configured a dummy file system as default implementation.
+```
+### getFlipCoordinateSystem() {#getFlipCoordinateSystem--}
+```
+public boolean getFlipCoordinateSystem()
+```
+
+
+Получает, инвертировать ли систему координат контрольных точек/нормалей при импорте
+
+**Returns:**
+boolean - инвертировать ли систему координат контрольных точек/нормалей при импорте
+### getLookupPaths() {#getLookupPaths--}
+```
+public ArrayList<String> getLookupPaths()
+```
+
+
+Некоторые файлы, такие как OBJ, зависят от внешних файлов; пути поиска позволяют Aspose.3D находить внешние файлы для загрузки.
+
+**Returns:**
+java.util.ArrayList<java.lang.String> - Некоторые файлы, такие как OBJ, зависят от внешних файлов; пути поиска позволяют Aspose.3D искать внешние файлы для загрузки. **Example:** Следующий код показывает, как вручную указать пути поиска текстур, чтобы импортёр мог их найти
+
+```
+var opt = new ObjLoadOptions();
+             //Specify the lookup paths, so the textures can be located.
+             opt.getLookupPaths().add("textures");
+             var scene = Scene.fromFile("input.obj", opt);
+             scene.save("output.glb");
+```
+### getNormalizeNormal() {#getNormalizeNormal--}
+```
+public boolean getNormalizeNormal()
+```
+
+
+Получает, нормализовать ли вектор нормали во время загрузки. Значение по умолчанию true.
+
+**Returns:**
+boolean - нормализовать ли вектор нормали во время загрузки. Значение по умолчанию true.
+### getScale() {#getScale--}
+```
+public double getScale()
+```
+
+
+Масштаб по осям x/y/z, значение по умолчанию 1.0
+
+**Returns:**
+double - масштаб по осям x/y/z, значение по умолчанию 1.0
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setEnableMaterials(boolean value) {#setEnableMaterials-boolean-}
+```
+public void setEnableMaterials(boolean value)
+```
+
+
+Устанавливает, импортировать ли материалы для каждого объекта
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Новое значение |
+
+### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
+```
+public void setEncoding(Charset value)
+```
+
+
+Устанавливает кодировку по умолчанию для текстовых файлов. Значение по умолчанию — null, что означает, что импортёр/экспортёр определит, какую кодировку использовать.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | java.nio.charset.Charset | Новое значение |
+
+### setFileName(String value) {#setFileName-java.lang.String-}
+```
+public void setFileName(String value)
+```
+
+
+Имя файла экспортируемой/импортируемой сцены. Это необязательно, но полезно при сериализации внешних ресурсов, таких как материал OBJ.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | java.lang.String | Новое значение |
+
+### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
+```
+public void setFileSystem(FileSystem value)
+```
+
+
+Позволяет пользователю управлять внешними зависимостями во время загрузки/сохранения.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Новое значение **Example:** Файловая система по умолчанию — LocalFileSystem, она не безопасна в среде, подобной серверной, но вы можете переопределить доступ к файловой системе, указав другую реализацию. Aspose.3D предоставляет различные реализации FileSystem, такие как: |
+
+ *  Memory-based file system
+ *  Directory-based file system
+ *  Dummy file system
+ *  Zip file system
+
+И вы также можете использовать свою собственную реализацию.
+
+```
+Scene scene = new Scene();
+             var material = new PhongMaterial();
+             var boxNode = scene.getRootNode().createChildNode(new Box());
+             boxNode.setMaterial(material);
+ 
+             var opt = new ObjSaveOptions();
+             var memFs = new HashMap<string, MemoryStream>();
+             opt.setFileSystem(FileSystem.createMemoryFileSystem(memFs));
+ 			opt.setFileName("output.obj");
+             try(var output = new ByteArrayOutputStream()) {
+ 				scene.save(output, opt);
+ 				//The material will be written to variable memFs named output.mtl
+ 				var materialInBytes = memFs["output.mtl"].toArray();
+             }
+``` |
+
+### setFileSystemFactory(FileSystemFactory value) {#setFileSystemFactory-com.aspose.threed.FileSystemFactory-}
+```
+public static void setFileSystemFactory(FileSystemFactory value)
+```
+
+
+Устанавливает класс фабрики для FileSystem. Фабрика по умолчанию создаст com.aspose.threed.LocalFileSystem, который не подходит для серверной среды.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Новое значение **Example:** Файловая система по умолчанию в SaveOptions/LoadOptions — файловая система, основанная на каталогах. Вы можете переопределить реализацию по умолчанию, указав её через IOConfig.FileSystemFactory: |
+
+```
+IOConfig.setFileSystemFactory(new FileSystemFactory() {
+ 				@Override
+ 				public FileSystem call() {
+ 					return FileSystem.createDummyFileSystem();
+ 				}
+ 			});
+ 
+             Scene scene = new Scene();
+             var material = new PhongMaterial();
+             var boxNode = scene.getRootNode().createChildNode(new Box());
+             boxNode.setMaterial(material);
+ 
+             //opt.FileSystem would be dummy file system now
+             var opt = new ObjSaveOptions();
+             scene.Save("output.obj", opt);
+             //the material file output.mtl will not be written to any places because we've configured a dummy file system as default implementation.
+``` |
+
+### setFlipCoordinateSystem(boolean value) {#setFlipCoordinateSystem-boolean-}
+```
+public void setFlipCoordinateSystem(boolean value)
+```
+
+
+Устанавливает, инвертировать ли систему координат контрольных точек/нормалей при импорте
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Новое значение |
+
+### setLookupPaths(ArrayList<String> value) {#setLookupPaths-java.util.ArrayList-java.lang.String--}
+```
+public void setLookupPaths(ArrayList<String> value)
+```
+
+
+Некоторые файлы, такие как OBJ, зависят от внешних файлов; пути поиска позволяют Aspose.3D находить внешние файлы для загрузки.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+|  | значение | java.util.ArrayList<java.lang.String> | Новое значение **Example:** Следующий код показывает, как вручную указать пути поиска текстур, чтобы импортёр мог их найти |
+
+```
+var opt = new ObjLoadOptions();
+             //Specify the lookup paths, so the textures can be located.
+             opt.getLookupPaths().add("textures");
+             var scene = Scene.fromFile("input.obj", opt);
+             scene.save("output.glb");
+``` |
+
+### setNormalizeNormal(boolean value) {#setNormalizeNormal-boolean-}
+```
+public void setNormalizeNormal(boolean value)
+```
+
+
+Устанавливает, нормализовать ли вектор нормали во время загрузки. Значение по умолчанию true.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Новое значение |
+
+### setScale(double value) {#setScale-double-}
+```
+public void setScale(double value)
+```
+
+
+Масштаб по осям x/y/z, значение по умолчанию 1.0
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | double | Новое значение |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
