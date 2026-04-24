@@ -1,0 +1,403 @@
+---
+title: MorphTargetChannel
+second_title: Aspose.3D for Java API-referens
+description: En MorphTargetChannel används av  för att organisera målgeometrierna.
+type: docs
+weight: 107
+url: /sv/java/com.aspose.threed/morphtargetchannel/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)
+```
+public class MorphTargetChannel extends A3DObject
+```
+
+En MorphTargetChannel används av [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) för att organisera målgeometrierna. Vissa filformat som FBX stödjer flera kanaler parallellt. **Remarks:** Vikten är mellan 0 och 1,0, och standardvikten för mål är 0,0;
+## Konstruktörer
+
+| Konstruktor | Beskrivning |
+| --- | --- |
+| [MorphTargetChannel(String name)](#MorphTargetChannel-java.lang.String-) | Initierar en ny instans av klassen [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel). |
+| [MorphTargetChannel()](#MorphTargetChannel--) | Initierar en ny instans av klassen [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel). |
+## Fält
+
+| Fält | Beskrivning |
+| --- | --- |
+| [DEFAULT_WEIGHT](#DEFAULT-WEIGHT) | Standardvikt för morph-mål. |
+## Metoder
+
+| Metod | Beskrivning |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [findProperty(String propertyName)](#findProperty-java.lang.String-) | Hittar egenskapen. |
+| [get(Shape target)](#get-com.aspose.threed.Shape-) | Hämtar vikten för angiven geometri |
+| [getChannelWeight()](#getChannelWeight--) | Hämtar deformatorvikt för den här kanalen. |
+| [getClass()](#getClass--) |  |
+| [getName()](#getName--) | Hämtar namnet. |
+| [getProperties()](#getProperties--) | Hämtar samlingen av alla egenskaper. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Hämta värdet för angiven egenskap |
+| [getTargets()](#getTargets--) | Hämtar alla mål som är associerade med kanalen. |
+| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | Hämtar vikten för det angivna målet, om målet inte tillhör den här kanalen returneras standardvärdet 0. |
+| [getWeights()](#getWeights--) | Hämtar de fullständiga viktvärdena för målgeometrier. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Tar bort en dynamisk egenskap. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Ta bort den angivna egenskapen identifierad med namn |
+| [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | Ställer in vikten för angiven geometri |
+| [setChannelWeight(double value)](#setChannelWeight-double-) | Ställer in deformatorvikt för den här kanalen. |
+| [setName(String value)](#setName-java.lang.String-) | Ställer in namnet. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Ställer in värdet för angiven egenskap |
+| [setWeight(Shape target)](#setWeight-com.aspose.threed.Shape-) | Ställer in vikten för det angivna målet, standardvärdet är 1, intervallet bör vara mellan 0~1 |
+| [setWeight(Shape target, double weight)](#setWeight-com.aspose.threed.Shape-double-) | Ställer in vikten för det angivna målet, standardvärdet är 1, intervallet bör vara mellan 0~1 |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### MorphTargetChannel(String name) {#MorphTargetChannel-java.lang.String-}
+```
+public MorphTargetChannel(String name)
+```
+
+
+Initierar en ny instans av klassen [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel).
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| namn | java.lang.String | Namn. |
+
+### MorphTargetChannel() {#MorphTargetChannel--}
+```
+public MorphTargetChannel()
+```
+
+
+Initierar en ny instans av klassen [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel).
+
+### DEFAULT_WEIGHT {#DEFAULT-WEIGHT}
+```
+public static final double DEFAULT_WEIGHT
+```
+
+
+Standardvikt för morph-mål.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### findProperty(String propertyName) {#findProperty-java.lang.String-}
+```
+public Property findProperty(String propertyName)
+```
+
+
+Hittar egenskapen. Den kan vara en dynamisk egenskap (Skapad av CreateDynamicProperty/SetProperty) eller en inbyggd egenskap (Identifierad med dess namn)
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| propertyName | java.lang.String | Egenskapsnamn. |
+
+**Returns:**
+[Property](../../com.aspose.threed/property) - The property.
+### get(Shape target) {#get-com.aspose.threed.Shape-}
+```
+public double get(Shape target)
+```
+
+
+Hämtar vikten för angiven geometri
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| target | [Shape](../../com.aspose.threed/shape) | Målgeometri. |
+
+**Returns:**
+double - Vikt
+### getChannelWeight() {#getChannelWeight--}
+```
+public double getChannelWeight()
+```
+
+
+Hämtar deformatorvikt för den här kanalen. Vikten är mellan 0.0 och 1.0
+
+**Returns:**
+double - deformatorvikt för den här kanalen. Vikten är mellan 0.0 och 1.0
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+Hämtar namnet.
+
+**Returns:**
+java.lang.String - namnet.
+### getProperties() {#getProperties--}
+```
+public PropertyCollection getProperties()
+```
+
+
+Hämtar samlingen av alla egenskaper.
+
+**Returns:**
+[PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
+### getProperty(String property) {#getProperty-java.lang.String-}
+```
+public Object getProperty(String property)
+```
+
+
+Hämta värdet för angiven egenskap
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| egenskap | java.lang.String | Egenskapsnamn |
+
+**Returns:**
+java.lang.Object - Värdet på den hittade egenskapen
+### getTargets() {#getTargets--}
+```
+public List<Shape> getTargets()
+```
+
+
+Hämtar alla mål som är associerade med kanalen.
+
+**Returns:**
+java.util.List<com.aspose.threed.Shape> - alla mål som är associerade med kanalen.
+### getWeight(Shape target) {#getWeight-com.aspose.threed.Shape-}
+```
+public double getWeight(Shape target)
+```
+
+
+Hämtar vikten för det angivna målet, om målet inte tillhör den här kanalen returneras standardvärdet 0.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| target | [Shape](../../com.aspose.threed/shape) |  |
+
+**Returns:**
+double
+### getWeights() {#getWeights--}
+```
+public List<Double> getWeights()
+```
+
+
+Hämtar de fullständiga viktvärdena för målgeometrier.
+
+**Returns:**
+java.util.List<java.lang.Double> - de fullständiga viktvärdena för målgeometrier.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### removeProperty(Property property) {#removeProperty-com.aspose.threed.Property-}
+```
+public boolean removeProperty(Property property)
+```
+
+
+Tar bort en dynamisk egenskap.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| property | [Property](../../com.aspose.threed/property) | Vilken egenskap som ska tas bort |
+
+**Returns:**
+boolean - true om egenskapen har tagits bort framgångsrikt
+### removeProperty(String property) {#removeProperty-java.lang.String-}
+```
+public boolean removeProperty(String property)
+```
+
+
+Ta bort den angivna egenskapen identifierad med namn
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| egenskap | java.lang.String | Vilken egenskap som ska tas bort |
+
+**Returns:**
+boolean - true om egenskapen har tagits bort framgångsrikt
+### set(Shape target, double value) {#set-com.aspose.threed.Shape-double-}
+```
+public void set(Shape target, double value)
+```
+
+
+Ställer in vikten för angiven geometri
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| target | [Shape](../../com.aspose.threed/shape) | Målgeometri. |
+| värde | double | Nytt värde |
+
+### setChannelWeight(double value) {#setChannelWeight-double-}
+```
+public void setChannelWeight(double value)
+```
+
+
+Ställer in deformatorvikt för den här kanalen. Vikten är mellan 0.0 och 1.0
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| värde | double | Nytt värde |
+
+### setName(String value) {#setName-java.lang.String-}
+```
+public void setName(String value)
+```
+
+
+Ställer in namnet.
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| värde | java.lang.String | Nytt värde |
+
+### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
+```
+public void setProperty(String property, Object value)
+```
+
+
+Ställer in värdet för angiven egenskap
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| egenskap | java.lang.String | Egenskapsnamn |
+| värde | java.lang.Object | Värdet på egenskapen |
+
+### setWeight(Shape target) {#setWeight-com.aspose.threed.Shape-}
+```
+public void setWeight(Shape target)
+```
+
+
+Ställer in vikten för det angivna målet, standardvärdet är 1, intervallet bör vara mellan 0~1
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| target | [Shape](../../com.aspose.threed/shape) |  |
+
+### setWeight(Shape target, double weight) {#setWeight-com.aspose.threed.Shape-double-}
+```
+public void setWeight(Shape target, double weight)
+```
+
+
+Ställer in vikten för det angivna målet, standardvärdet är 1, intervallet bör vara mellan 0~1
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| target | [Shape](../../com.aspose.threed/shape) |  |
+| vikt | double |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
