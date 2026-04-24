@@ -1,0 +1,294 @@
+---
+title: FontFile
+second_title: Aspose.3D for Java API 레퍼런스
+description: 폰트 파일은 글리프 정의를 포함하며, 이는 텍스트 프로파일을 만드는 데 사용됩니다.
+type: docs
+weight: 68
+url: /ko/java/com.aspose.threed/fontfile/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)
+```
+public abstract class FontFile extends A3DObject
+```
+
+폰트 파일은 글리프 정의를 포함하며, 이는 �스트 프로파일을 만드는 데 사용됩니다. **Example:** 다음 코드는 지정된 폰트 파일을 사용하여 텍스트에서 3D 메쉬를 만드는 방법을 보여줍니다.
+
+```
+var font = FontFile.fromFile("CascadiaCode-Regular.otf");
+             var text = new Text();
+             text.setFont(font);
+             text.setContent("ABC");
+             text.setFontSize(10);
+             var linear = new LinearExtrusion(text, 10).toMesh();
+             var scene = new Scene(linear);
+             scene.save("test.stl");
+```
+## 생성자
+
+| 생성자 | 설명 |
+| --- | --- |
+| [FontFile()](#FontFile--) |  |
+## 메서드
+
+| 메서드 | 설명 |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [findProperty(String propertyName)](#findProperty-java.lang.String-) | 속성을 찾습니다. |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | 파일 이름에서 FontFile을 로드합니다 |
+| [getClass()](#getClass--) |  |
+| [getName()](#getName--) | 이름을 가져옵니다. |
+| [getProperties()](#getProperties--) | 모든 속성의 컬렉션을 가져옵니다. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | 지정된 속성의 값을 가져옵니다 |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [parse(byte[] bytes)](#parse-byte---) | 바이트에서 FontFile을 파싱합니다 |
+| [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 동적 속성을 제거합니다. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 이름으로 식별되는 지정된 속성을 제거합니다. |
+| [setName(String value)](#setName-java.lang.String-) | 이름을 설정합니다. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 지정된 속성의 값을 설정합니다. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### FontFile() {#FontFile--}
+```
+public FontFile()
+```
+
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### findProperty(String propertyName) {#findProperty-java.lang.String-}
+```
+public Property findProperty(String propertyName)
+```
+
+
+속성을 찾습니다. 동적 속성 (Created by CreateDynamicProperty/SetProperty) 또는 네이티브 속성 (Identified by its name)일 수 있습니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| propertyName | java.lang.String | 속성 이름. |
+
+**Returns:**
+[Property](../../com.aspose.threed/property) - The property.
+### fromFile(String fileName) {#fromFile-java.lang.String-}
+```
+public static FontFile fromFile(String fileName)
+```
+
+
+파일 이름에서 FontFile을 로드합니다
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| fileName | java.lang.String | 폰트 파일 경로 |
+
+**Returns:**
+[FontFile](../../com.aspose.threed/fontfile) - FontFile instance
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+이름을 가져옵니다.
+
+**Returns:**
+java.lang.String - 이름.
+### getProperties() {#getProperties--}
+```
+public PropertyCollection getProperties()
+```
+
+
+모든 속성의 컬렉션을 가져옵니다.
+
+**Returns:**
+[PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
+### getProperty(String property) {#getProperty-java.lang.String-}
+```
+public Object getProperty(String property)
+```
+
+
+지정된 속성의 값을 가져옵니다
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| 속성 | java.lang.String | 속성 이름 |
+
+**Returns:**
+java.lang.Object - 찾은 속성의 값
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### parse(byte[] bytes) {#parse-byte---}
+```
+public static FontFile parse(byte[] bytes)
+```
+
+
+바이트에서 FontFile을 파싱합니다
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| bytes | byte[] | OTF 폰트 파일 원시 내용 |
+
+**Returns:**
+[FontFile](../../com.aspose.threed/fontfile) - FontFile instance
+### removeProperty(Property property) {#removeProperty-com.aspose.threed.Property-}
+```
+public boolean removeProperty(Property property)
+```
+
+
+동적 속성을 제거합니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| property | [Property](../../com.aspose.threed/property) | 제거할 속성 |
+
+**Returns:**
+boolean - 속성이 성공적으로 제거되면 true
+### removeProperty(String property) {#removeProperty-java.lang.String-}
+```
+public boolean removeProperty(String property)
+```
+
+
+이름으로 식별되는 지정된 속성을 제거합니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| 속성 | java.lang.String | 제거할 속성 |
+
+**Returns:**
+boolean - 속성이 성공적으로 제거되면 true
+### setName(String value) {#setName-java.lang.String-}
+```
+public void setName(String value)
+```
+
+
+이름을 설정합니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| 값 | java.lang.String | 새 값 |
+
+### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
+```
+public void setProperty(String property, Object value)
+```
+
+
+지정된 속성의 값을 설정합니다.
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| 속성 | java.lang.String | 속성 이름 |
+| 값 | java.lang.Object | 속성의 값 |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
