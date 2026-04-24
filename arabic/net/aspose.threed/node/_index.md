@@ -1,78 +1,78 @@
 ---
-title: Node
-second_title: Aspose.3D لمرجع .NET API
-description: يمثل عنصرًا في الرسم البياني للمشهد . الرسم البياني للمشهد هو شجرة من كائنات العقدة. يتم تضمين خدمات إدارة الشجرة ذاتيًا في هذه الفئة. لاحظ أن Aspose.3D SDK لا تختبر صلاحية الرسم البياني للمشهد الذي تم إنشاؤه. تقع على عاتق المتصل مسؤولية التأكد من أنه لا يقوم بإنشاء رسوم بيانية دورية في تسلسل هرمي للعقدة . إلى جانب إدارة الشجرة  تحدد هذه الفئة جميع الخصائص المطلوبة لوصف موضع الكائن في المشهد. تتضمن هذه المعلومات الخصائص الأساسية للترجمة والدوران والقياس والخيارات الأكثر تقدمًا للمحاور والحدود وسمات مفاصل IK مثل الصلابة والتخميد . عند إنشائه لأول مرة  يكون كائن العقدة فارغًا أي يكون كائن بدون أي تمثيل رسومي يحتوي فقط على معلومات الموقع. في هذه الحالة  يمكن استخدامه لتمثيل الوالدين في بنية شجرة العقدة ولكن ليس أكثر من ذلك بكثير. الاستخدام العادي لهذا النوع من الكائنات هو إضافتهم كيانًا يتخصص في العقدة انظر الكيان . الكيان هو كائن في حد ذاته ومتصل بالعقدة. هذا يعني أيضًا أنه يمكن مشاركة نفس الكيان بين عقد متعددة. الكاميرا  الضوء  الشبكة  إلخ ... كلها كيانات وكلها مشتقة من كيان الفئة الأساسية.
+title: الفئة Node
+second_title: مرجع API Aspose.3D لـ .NET
+description: الفئة Aspose.ThreeD.Node. تمثل عنصرًا في رسم المشهد. رسم المشهد هو شجرة من كائنات Node. خدمات إدارة الشجرة مدمجة في هذه الفئة. لاحظ أن Aspose.3D SDK لا يتحقق من صحة رسم المشهد المُنشأ. تقع مسؤولية المتصل في التأكد من عدم إنشاء رسومات بيانية دورية في هيكلية العقد. بالإضافة إلى إدارة الشجرة، تُعرّف هذه الفئة جميع الخصائص المطلوبة لوصف موضع الكائن في المشهد. تشمل هذه المعلومات الخصائص الأساسية للترجمة (Translation) والدوران (Rotation) والتحجيم (Scaling) والخيارات المتقدمة للمحاور والحدود ومفاصل الـ IK مثل الصلابة والتخميد. عند إنشائها لأول مرة يكون كائن Node فارغًا، أي أنه كائن بدون أي تمثيل رسومي يحتوي فقط على معلومات الموضع. في هذه الحالة يمكن استخدامه لتمثيل الآباء في بنية شجرة العقد ولكن ليس أكثر من ذلك. الاستخدام العادي لهذا النوع من الكائنات هو إضافة كيان (Entity) يخصص العقدة؛ انظر الـ Entity. الكيان هو كائن بحد ذاته ومربوط بـ Node. وهذا يعني أيضًا أن نفس الكيان يمكن مشاركته بين عدة عقد. الكاميرا (Camera) والضوء (Light) والشبكة (Mesh) وغيرها كلها كيانات وتُشتق جميعها من الفئة الأساسية Entity.
 type: docs
-weight: 1470
+weight: 1630
 url: /ar/net/aspose.threed/node/
 ---
 ## Node class
 
-يمثل عنصرًا في الرسم البياني للمشهد . الرسم البياني للمشهد هو شجرة من كائنات العقدة. يتم تضمين خدمات إدارة الشجرة ذاتيًا في هذه الفئة. لاحظ أن Aspose.3D SDK لا تختبر صلاحية الرسم البياني للمشهد الذي تم إنشاؤه. تقع على عاتق المتصل مسؤولية التأكد من أنه لا يقوم بإنشاء رسوم بيانية دورية في تسلسل هرمي للعقدة . إلى جانب إدارة الشجرة ، تحدد هذه الفئة جميع الخصائص المطلوبة لوصف موضع الكائن في المشهد. تتضمن هذه المعلومات الخصائص الأساسية للترجمة والدوران والقياس والخيارات الأكثر تقدمًا للمحاور والحدود وسمات مفاصل IK مثل الصلابة والتخميد . عند إنشائه لأول مرة ، يكون كائن العقدة "فارغًا" (أي: يكون كائن بدون أي تمثيل رسومي يحتوي فقط على معلومات الموقع). في هذه الحالة ، يمكن استخدامه لتمثيل الوالدين في بنية شجرة العقدة ولكن ليس أكثر من ذلك بكثير. الاستخدام العادي لهذا النوع من الكائنات هو إضافتهم كيانًا يتخصص في العقدة (انظر "الكيان") . الكيان هو كائن في حد ذاته ومتصل بالعقدة. هذا يعني أيضًا أنه يمكن مشاركة نفس الكيان بين عقد متعددة. الكاميرا ، الضوء ، الشبكة ، إلخ ... كلها كيانات وكلها مشتقة من كيان الفئة الأساسية.
+يمثل عنصرًا في رسم المشهد. رسم المشهد هو شجرة من كائنات Node. خدمات إدارة الشجرة مدمجة في هذه الفئة. لاحظ أن Aspose.3D SDK لا يتحقق من صحة رسم المشهد المُنشأ. تقع مسؤولية المتصل في التأكد من عدم توليد رسومات بيانية دورية في تسلسل العقد. بالإضافة إلى إدارة الشجرة، تُعرّف هذه الفئة جميع الخصائص المطلوبة لوصف موضع الكائن في المشهد. تتضمن هذه المعلومات الخصائص الأساسية Translation و Rotation و Scaling والخيارات المتقدمة للمحاور، والحدود، وخصائص مفاصل IK مثل الصلابة والتخميد. عند إنشائها لأول مرة، يكون كائن Node \"empty\" (أي: هو كائن بدون أي تمثيل رسومي يحتوي فقط على معلومات الموضع). في هذه الحالة، يمكن استخدامه لتمثيل الأبواب في هيكل شجرة العقد ولكن ليس أكثر من ذلك. الاستخدام العادي لهذا النوع من الكائنات هو إضافة كيان يخصص العقدة (انظر \"Entity\"). الكيان هو كائن بحد ذاته ومربوط بـ Node. وهذا يعني أيضًا أن نفس الكيان يمكن مشاركته بين عدة عقد. الكاميرا، الضوء، الشبكة، إلخ... كلها كيانات وجميعها مشتقة من الفئة الأساسية Entity.
 
 ```csharp
 public class Node : SceneObject
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Node](node#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Node`](../node) فئة . |
-| [Node](node#constructor_1)(string) | يقوم بتهيئة مثيل جديد لملف[`Node`](../node) فئة . |
-| [Node](node#constructor_2)(string, Entity) | يقوم بتهيئة مثيل جديد لملف[`Node`](../node) فئة . |
+| [Node](node/#constructor)() | يُنشئ مثيلًا جديدًا من الفئة `Node`. |
+| [Node](node/#constructor_1)(string) | يُنشئ مثيلًا جديدًا من الفئة `Node`. |
+| [Node](node/#constructor_2)(string, Entity) | يُنشئ مثيلًا جديدًا من الفئة `Node`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AssetInfo](../../aspose.threed/node/assetinfo) { get; set; } | معلومات الأصول لكل عقدة |
-| [ChildNodes](../../aspose.threed/node/childnodes) { get; } | يحصل على العقد الفرعية . |
-| [Entities](../../aspose.threed/node/entities) { get; } | يحصل على جميع كيانات العقدة . |
-| [Entity](../../aspose.threed/node/entity) { get; set; } | الحصول على الكيان الأول المرفق بهذه العقدة أو تعيينه ، إذا تم تعيينه ، سيمسح الكيانات الأخرى. |
-| [Excluded](../../aspose.threed/node/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذه العقدة وجميع العقد / الكيانات التابعة أثناء التصدير. |
-| [GlobalTransform](../../aspose.threed/node/globaltransform) { get; } | يحصل على التحويل العالمي . |
-| [Material](../../aspose.threed/node/material) { get; set; } | الحصول على أو تعيين المادة الأولى المرتبطة بهذه العقدة ، إذا تم تعيينها ، فسيؤدي ذلك إلى مسح المواد الأخرى |
-| [Materials](../../aspose.threed/node/materials) { get; } | يحصل على المواد المرتبطة بهذه العقدة. |
-| [MetaDatas](../../aspose.threed/node/metadatas) { get; } | يحصل على البيانات الوصفية المحددة في هذه العقدة. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/node/parentnode) { get; set; } | الحصول على العقدة الأصلية أو تعيينها. |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [Transform](../../aspose.threed/node/transform) { get; } | يحصل على التحويل المحلي . |
-| [Visible](../../aspose.threed/node/visible) { get; set; } | يحصل أو يحدد لإظهار العقدة |
+| [AssetInfo](../../aspose.threed/node/assetinfo/) { get; set; } | معلومات الأصول لكل عقدة |
+| [ChildNodes](../../aspose.threed/node/childnodes/) { get; } | يحصل على العقد الفرعية. |
+| [Entities](../../aspose.threed/node/entities/) { get; } | يحصل على جميع كيانات العقدة. |
+| [Entity](../../aspose.threed/node/entity/) { get; set; } | يحصل أو يعيّن الكيان الأول المرفق بهذه العقدة، إذا تم التعيين، سيُمسح الكيانات الأخرى. |
+| [Excluded](../../aspose.threed/node/excluded/) { get; set; } | يحصل أو يعيّن ما إذا كان يجب استبعاد هذه العقدة وجميع العقد/الكيانات الفرعية أثناء التصدير. |
+| [GlobalTransform](../../aspose.threed/node/globaltransform/) { get; } | يحصل على التحويل العالمي. |
+| [Material](../../aspose.threed/node/material/) { get; set; } | يحصل أو يعيّن المادة الأولى المرتبطة بهذه العقدة، إذا تم التعيين، سيُمسح المواد الأخرى |
+| [Materials](../../aspose.threed/node/materials/) { get; } | يحصل على المواد المرتبطة بهذه العقدة. |
+| [MetaDatas](../../aspose.threed/node/metadatas/) { get; } | يحصل على البيانات الوصفية المعرفة في هذه العقدة. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/node/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأم. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [Transform](../../aspose.threed/node/transform/) { get; } | يحصل على التحويل المحلي. |
+| [Visible](../../aspose.threed/node/visible/) { get; set; } | الحصول أو الضبط لإظهار العقدة |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Accept](../../aspose.threed/node/accept)(NodeVisitor) | يمشي عبر جميع العقد التابعة (بما في ذلك العقدة الحالية) ويتصل بالزائر بالعقدة. |
-| [AddChildNode](../../aspose.threed/node/addchildnode)(Node) | أضف عقدة فرعية إلى هذه العقدة |
-| [AddEntity](../../aspose.threed/node/addentity)(Entity) | أضف كيانًا إلى العقدة . |
-| [CreateChildNode](../../aspose.threed/node/createchildnode#createchildnode)() | إنشاء عقدة فرعية |
-| [CreateChildNode](../../aspose.threed/node/createchildnode#createchildnode_1)(Entity) | إنشاء عقدة فرعية جديدة مرفقة بكيان معين |
-| [CreateChildNode](../../aspose.threed/node/createchildnode#createchildnode_2)(string) | إنشاء عقدة فرعية جديدة باسم العقدة المحددة |
-| [CreateChildNode](../../aspose.threed/node/createchildnode#createchildnode_3)(string, Entity) | إنشاء عقدة فرعية جديدة باسم العقدة المحددة |
-| [CreateChildNode](../../aspose.threed/node/createchildnode#createchildnode_4)(string, Entity, Material) | إنشاء عقدة فرعية جديدة باسم العقدة المحددة ، وإرفاق كيان محدد و material |
-| [EvaluateGlobalTransform](../../aspose.threed/node/evaluateglobaltransform)(bool) | قم بتقييم التحويل العالمي ، قم بتضمين التحويل الهندسي أم لا. |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/node/getboundingbox)() | احسب المربع المحيط للعقدة |
-| [GetChild](../../aspose.threed/node/getchild#getchild)(int) | الحصول على العقدة الفرعية في الفهرس المحدد . |
-| [GetChild](../../aspose.threed/node/getchild#getchild_1)(string) | الحصول على العقدة الفرعية بالاسم المحدد |
-| [GetEntity&lt;T&gt;](../../aspose.threed/node/getentity)() |  |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [Merge](../../aspose.threed/node/merge)(Node) | افصل كل شيء تحت العقدة وأرفقها بالعقدة الحالية. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SelectObjects](../../aspose.threed/node/selectobjects)(string) | حدد كائنات متعددة ضمن العقدة الحالية باستخدام صيغة استعلام تشبه XPath. |
-| [SelectSingleObject](../../aspose.threed/node/selectsingleobject)(string) | حدد كائنًا واحدًا ضمن العقدة الحالية باستخدام صيغة استعلام تشبه XPath. |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| override [ToString](../../aspose.threed/node/tostring)() | يحصل على تمثيل السلسلة لهذه العقدة. |
+| [Accept](../../aspose.threed/node/accept/)(NodeVisitor) | يتجول عبر جميع العقد التابعة (بما في ذلك العقدة الحالية) ويستدعي الزائر مع العقدة. يمكن للزائر إيقاف التجول بإرجاع false |
+| [AddChildNode](../../aspose.threed/node/addchildnode/)(Node) | أضف عقدة فرعية إلى هذه العقدة |
+| [AddEntity](../../aspose.threed/node/addentity/)(Entity) | أضف كيانًا إلى العقدة. |
+| [CreateChildNode](../../aspose.threed/node/createchildnode/#createchildnode)() | ينشئ عقدة فرعية |
+| [CreateChildNode](../../aspose.threed/node/createchildnode/#createchildnode_1)(Entity) | إنشاء عقدة فرعية جديدة مع الكيان المحدد مرفق |
+| [CreateChildNode](../../aspose.threed/node/createchildnode/#createchildnode_2)(string) | إنشاء عقدة فرعية جديدة بالاسم المحدد للعقدة |
+| [CreateChildNode](../../aspose.threed/node/createchildnode/#createchildnode_3)(string, Entity) | إنشاء عقدة فرعية جديدة بالاسم المحدد للعقدة |
+| [CreateChildNode](../../aspose.threed/node/createchildnode/#createchildnode_4)(string, Entity, Material) | إنشاء عقدة فرعية جديدة بالاسم المحدد للعقدة، وإرفاق الكيان المحدد ومادة |
+| [EvaluateGlobalTransform](../../aspose.threed/node/evaluateglobaltransform/)(bool) | تقييم التحويل العالمي، تضمين التحويل الهندسي أم لا. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/node/getboundingbox/)() | حساب الصندوق المحيط للعقدة |
+| [GetChild](../../aspose.threed/node/getchild/#getchild)(int) | يحصل على العقدة الفرعية عند الفهرس المحدد. |
+| [GetChild](../../aspose.threed/node/getchild/#getchild_1)(string) | يحصل على العقدة الفرعية بالاسم المحدد |
+| [GetEntity&lt;T&gt;](../../aspose.threed/node/getentity/)() |  |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [Merge](../../aspose.threed/node/merge/)(Node) | فصل كل شيء تحت العقدة وإرفاقه إلى العقدة الحالية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [SelectObjects](../../aspose.threed/node/selectobjects/)(string) | اختيار عدة كائنات تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath. |
+| [SelectSingleObject](../../aspose.threed/node/selectsingleobject/)(string) | اختيار كائن واحد تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath. |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| override [ToString](../../aspose.threed/node/tostring/)() | يحصل على تمثيل النص لهذه العقدة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [SceneObject](../sceneobject)
-* مساحة الاسم [Aspose.ThreeD](../../aspose.threed)
-* المجسم [Aspose.3D](../../)
+* class [SceneObject](../sceneobject/)
+* namespace [Aspose.ThreeD](../../aspose.threed/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

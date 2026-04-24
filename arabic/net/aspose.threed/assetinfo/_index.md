@@ -1,65 +1,76 @@
 ---
-title: AssetInfo
-second_title: Aspose.3D لمرجع .NET API
-description: معلومات الأصل . يمكن إرفاق معلومات الأصول بملفScene./scene . طفلScene./scene يمكن أن يكون خاصتهAssetInfo./assetinfo لتجاوز تعريف الوالدين.
+title: الفئة AssetInfo
+second_title: مرجع API Aspose.3D لـ .NET
+description: الفئة Aspose.ThreeD.AssetInfo. معلومات الأصل. يمكن إرفاق معلومات الأصل بمشهد. يمكن للمشهد الفرعي أن يمتلك AssetInfo الخاص به لتجاوز تعريف الوالدين
 type: docs
 weight: 130
 url: /ar/net/aspose.threed/assetinfo/
 ---
 ## AssetInfo class
 
-معلومات الأصل . يمكن إرفاق معلومات الأصول بملف[`Scene`](../scene) . طفل[`Scene`](../scene) يمكن أن يكون خاصته[`AssetInfo`](../assetinfo) لتجاوز تعريف الوالدين.
+معلومات الأصل. يمكن إرفاق معلومات الأصل بـ [`Scene`](../scene/). يمكن للمشهد الفرعي [`Scene`](../scene/) أن يمتلك `AssetInfo` الخاص به لتجاوز تعريف الوالد.
 
 ```csharp
 public class AssetInfo : A3DObject
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AssetInfo](assetinfo#constructor)() | يقوم بتهيئة مثيل جديد لملف[`AssetInfo`](../assetinfo) فئة . |
-| [AssetInfo](assetinfo#constructor_1)(string) | يقوم بتهيئة مثيل جديد لملف[`AssetInfo`](../assetinfo) فئة . |
+| [AssetInfo](assetinfo/#constructor)() | ينشئ مثيلاً جديداً للفئة `AssetInfo`. |
+| [AssetInfo](assetinfo/#constructor_1)(string) | ينشئ مثيلاً جديداً للفئة `AssetInfo`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Ambient](../../aspose.threed/assetinfo/ambient) { get; set; } | الحصول على أو تعيين اللون المحيط الافتراضي لهذا الأصل |
-| [ApplicationName](../../aspose.threed/assetinfo/applicationname) { get; set; } | الحصول على أو تعيين التطبيق الذي أنشأ هذا الأصل |
-| [ApplicationVendor](../../aspose.threed/assetinfo/applicationvendor) { get; set; } | الحصول على أو تعيين اسم بائع التطبيق |
-| [ApplicationVersion](../../aspose.threed/assetinfo/applicationversion) { get; set; } | الحصول على أو تحديد إصدار التطبيق الذي أنشأ هذا الأصل. |
-| [Author](../../aspose.threed/assetinfo/author) { get; set; } | الحصول على أو تعيين مؤلف هذا الأصل |
-| [Comment](../../aspose.threed/assetinfo/comment) { get; set; } | الحصول على تعليق هذا الأصل أو تعيينه . |
-| [CoordinatedSystem](../../aspose.threed/assetinfo/coordinatedsystem) { get; set; } | الحصول على أو تعيين النظام الإحداثي المستخدم في هذا الأصل. |
-| [Copyright](../../aspose.threed/assetinfo/copyright) { get; set; } | الحصول على أو تعيين حقوق الطبع والنشر للمستند |
-| [CreationTime](../../aspose.threed/assetinfo/creationtime) { get; set; } | الحصول على وقت إنشاء هذا الأصل أو تعيينه |
-| [Keywords](../../aspose.threed/assetinfo/keywords) { get; set; } | الحصول على أو تعيين الكلمات الرئيسية لهذا الأصل |
-| [ModificationTime](../../aspose.threed/assetinfo/modificationtime) { get; set; } | الحصول على أو ضبط وقت التعديل لهذا الأصل |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Revision](../../aspose.threed/assetinfo/revision) { get; set; } | الحصول على أو تعيين رقم مراجعة هذا الأصل ، والذي يستخدم عادةً في نظام التحكم في الإصدار. |
-| [Subject](../../aspose.threed/assetinfo/subject) { get; set; } | الحصول على أو تحديد موضوع هذا الأصل |
-| [Title](../../aspose.threed/assetinfo/title) { get; set; } | الحصول على عنوان هذا الأصل أو تعيينه |
-| [UnitName](../../aspose.threed/assetinfo/unitname) { get; set; } | الحصول على أو تحديد وحدة الطول المستخدمة في هذا الأصل. مثل cm / m / km / inch / feet |
-| [UnitScaleFactor](../../aspose.threed/assetinfo/unitscalefactor) { get; set; } | الحصول على أو تعيين عامل المقياس على مقياس العالم الحقيقي. |
-| [UpVector](../../aspose.threed/assetinfo/upvector) { get; set; } | الحصول على أو تعيين المتجه الأعلى المستخدم في هذا الأصل. |
-| [Url](../../aspose.threed/assetinfo/url) { get; set; } | الحصول على عنوان URL الخاص بهذا الأصل أو تعيينه. |
+| [Ambient](../../aspose.threed/assetinfo/ambient/) { get; set; } | يحصل أو يضبط اللون المحيطي الافتراضي لهذا الأصل |
+| [ApplicationName](../../aspose.threed/assetinfo/applicationname/) { get; set; } | يحصل أو يعيّن التطبيق الذي أنشأ هذا الأصل |
+| [ApplicationVendor](../../aspose.threed/assetinfo/applicationvendor/) { get; set; } | يحصل أو يعيّن اسم بائع التطبيق |
+| [ApplicationVersion](../../aspose.threed/assetinfo/applicationversion/) { get; set; } | يحصل أو يعيّن إصدار التطبيق الذي أنشأ هذا الأصل. |
+| [Author](../../aspose.threed/assetinfo/author/) { get; set; } | يحصل أو يعيّن مؤلف هذا الأصل |
+| [AxisSystem](../../aspose.threed/assetinfo/axissystem/) { get; set; } | يحصل أو يعيّن نظام الإحداثيات/متجه الارتفاع/متجه الأمام لمعلومات الأصل. |
+| [Comment](../../aspose.threed/assetinfo/comment/) { get; set; } | يحصل أو يعيّن تعليق هذا الأصل. |
+| [CoordinateSystem](../../aspose.threed/assetinfo/coordinatesystem/) { get; set; } | يحصل أو يعيّن نظام الإحداثيات المستخدم في هذا الأصل. |
+| [Copyright](../../aspose.threed/assetinfo/copyright/) { get; set; } | يحصل أو يعيّن حقوق النشر للوثيقة |
+| [CreationTime](../../aspose.threed/assetinfo/creationtime/) { get; set; } | الحصول على أو تعيين وقت إنشاء هذا الأصل |
+| [FrontVector](../../aspose.threed/assetinfo/frontvector/) { get; set; } | يحصل أو يعيّن متجه الأمام المستخدم في هذا الأصل. |
+| [Keywords](../../aspose.threed/assetinfo/keywords/) { get; set; } | يحصل أو يعيّن الكلمات المفتاحية لهذا الأصل |
+| [ModificationTime](../../aspose.threed/assetinfo/modificationtime/) { get; set; } | الحصول على أو تعيين وقت التعديل لهذا الأصل |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Revision](../../aspose.threed/assetinfo/revision/) { get; set; } | يحصل أو يعيّن رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات. |
+| [Subject](../../aspose.threed/assetinfo/subject/) { get; set; } | يحصل أو يعيّن موضوع هذا الأصل |
+| [Title](../../aspose.threed/assetinfo/title/) { get; set; } | يحصل أو يعيّن عنوان هذا الأصل |
+| [UnitName](../../aspose.threed/assetinfo/unitname/) { get; set; } | يحصل أو يعيّن وحدة الطول المستخدمة في هذا الأصل. مثال: سم/م/كم/بوصة/قدم |
+| [UnitScaleFactor](../../aspose.threed/assetinfo/unitscalefactor/) { get; set; } | يحصل أو يعيّن معامل التحجيم إلى المتر في العالم الحقيقي. |
+| [UpVector](../../aspose.threed/assetinfo/upvector/) { get; set; } | يحصل أو يعيّن المتجه العلوي المستخدم في هذا الأصل. |
+| [Url](../../aspose.threed/assetinfo/url/) { get; set; } | الحصول على أو تعيين عنوان URL لهذا الأصل. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
 
-### أنظر أيضا
+## Examples
 
-* class [A3DObject](../a3dobject)
-* مساحة الاسم [Aspose.ThreeD](../../aspose.threed)
-* المجسم [Aspose.3D](../../)
+الكود التالي يوضح كيفية قراءة معلومات الأصل من ملف fbx:
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+Scene scene = Scene.FromFile("test.fbx");
+Console.WriteLine($"The file is created at {scene.AssetInfo.CreationTime} by {scene.AssetInfo.ApplicationName} {scene.AssetInfo.ApplicationVersion} ");
+```
+
+### انظر أيضًا
+
+* class [A3DObject](../a3dobject/)
+* namespace [Aspose.ThreeD](../../aspose.threed/)
+* assembly [Aspose.3D](../../)
+
+
