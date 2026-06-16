@@ -1,57 +1,71 @@
 ---
-title: TransformBuilder
-second_title: Aspose.3D لمرجع .NET API
-description: ملفTransformBuilder./transformbuilder يستخدم لبناء مصفوفة تحويل من خلال سلسلة من التحويلات.
+title: "الفئة TransformBuilder"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Utilities.TransformBuilder. يُستخدم TransformBuilder لبناء مصفوفة التحويل عبر سلسلة من التحويلات"
 type: docs
-weight: 2620
+weight: 2860
 url: /ar/net/aspose.threed.utilities/transformbuilder/
 ---
 ## TransformBuilder class
 
-ملف[`TransformBuilder`](../transformbuilder) يستخدم لبناء مصفوفة تحويل من خلال سلسلة من التحويلات.
+يُستخدم `TransformBuilder` لبناء مصفوفة التحويل عبر سلسلة من التحويلات.
 
 ```csharp
 public class TransformBuilder
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TransformBuilder](transformbuilder#constructor)(ComposeOrder) | إنشاء أ[`TransformBuilder`](../transformbuilder) مع مصفوفة تحويل الهوية الأولية وتحديد ترتيب الإنشاء |
-| [TransformBuilder](transformbuilder#constructor_1)(Matrix4, ComposeOrder) | إنشاء أ[`TransformBuilder`](../transformbuilder)مع مصفوفة التحويل الأولية وتحديد ترتيب الإنشاء |
+| [TransformBuilder](transformbuilder/#constructor)(ComposeOrder) | إنشاء `TransformBuilder` مع مصفوفة تحويل هوية أولية وترتيب تجميع محدد |
+| [TransformBuilder](transformbuilder/#constructor_1)(Matrix4, ComposeOrder) | إنشاء `TransformBuilder` مع مصفوفة تحويل أولية وترتيب تجميع محدد |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ComposeOrder](../../aspose.threed.utilities/transformbuilder/composeorder) { get; set; } | الحصول على ترتيب تكوين السلسلة أو تعيينه. |
-| [Matrix](../../aspose.threed.utilities/transformbuilder/matrix) { get; set; } | الحصول على أو تعيين قيمة المصفوفة الحالية |
+| [ComposeOrder](../../aspose.threed.utilities/transformbuilder/composeorder/) { get; set; } | الحصول أو تعيين ترتيب تجميع السلسلة. |
+| [Matrix](../../aspose.threed.utilities/transformbuilder/matrix/) { get; set; } | الحصول أو تعيين قيمة المصفوفة الحالية. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Append](../../aspose.threed.utilities/transformbuilder/append)(Matrix4) | إلحاق مصفوفة التحويل الجديدة بسلسلة التحويل. |
-| [Compose](../../aspose.threed.utilities/transformbuilder/compose)(Matrix4) | إلحاق الوسيطة أو إضافتها إلى المصفوفة الداخلية. |
-| [Prepend](../../aspose.threed.utilities/transformbuilder/prepend)(Matrix4) | قم بتثبيت مصفوفة التحويل الجديدة مسبقًا على سلسلة التحويل. |
-| [Rearrange](../../aspose.threed.utilities/transformbuilder/rearrange)(Axis, Axis, Axis) | إعادة ترتيب تخطيط المحور. |
-| [Reset](../../aspose.threed.utilities/transformbuilder/reset)() | إعادة تعيين التحويل إلى مصفوفة الهوية |
-| [Rotate](../../aspose.threed.utilities/transformbuilder/rotate)(Quaternion) | سلسلة دوران بواسطة رباعي |
-| [RotateDegree](../../aspose.threed.utilities/transformbuilder/rotatedegree)(double, Vector3) | سلسلة تحويل دوران بالدرجة |
-| [RotateEulerDegree](../../aspose.threed.utilities/transformbuilder/rotateeulerdegree)(double, double, double) | سلسلة دوران بزوايا أويلر بالدرجة |
-| [RotateEulerRadian](../../aspose.threed.utilities/transformbuilder/rotateeulerradian#rotateeulerradian)(Vector3) | سلسلة دوران بزوايا أويلر بالتقدير الدائري |
-| [RotateEulerRadian](../../aspose.threed.utilities/transformbuilder/rotateeulerradian#rotateeulerradian_1)(double, double, double) | سلسلة دوران بزوايا أويلر بالتقدير الدائري |
-| [RotateRadian](../../aspose.threed.utilities/transformbuilder/rotateradian)(double, Vector3) | سلسلة تحويل دوران بالراديان |
-| [Scale](../../aspose.threed.utilities/transformbuilder/scale#scale_1)(double) | سلسلة مصفوفة تحويل قياس بمكون تم قياسه بواسطة s |
-| [Scale](../../aspose.threed.utilities/transformbuilder/scale#scale)(Vector3) | تحويل سلسلة مقياس |
-| [Scale](../../aspose.threed.utilities/transformbuilder/scale#scale_2)(double, double, double) | سلسلة مصفوفة تحويل تحجيم |
-| [Translate](../../aspose.threed.utilities/transformbuilder/translate#translate)(Vector3) | سلسلة تحويل ترجمة |
-| [Translate](../../aspose.threed.utilities/transformbuilder/translate#translate_1)(double, double, double) | سلسلة تحويل ترجمة |
+| [Append](../../aspose.threed.utilities/transformbuilder/append/)(Matrix4) | إلحاق مصفوفة التحويل الجديدة إلى سلسلة التحويل. |
+| [Compose](../../aspose.threed.utilities/transformbuilder/compose/)(Matrix4) | إلحاق أو إلحاق مسبق للمعامل إلى المصفوفة الداخلية. |
+| [Prepend](../../aspose.threed.utilities/transformbuilder/prepend/)(Matrix4) | إلحاق مسبق للمصفوفة التحويلية الجديدة إلى سلسلة التحويل. |
+| [Rearrange](../../aspose.threed.utilities/transformbuilder/rearrange/)(Axis, Axis, Axis) | إعادة ترتيب تخطيط المحور. |
+| [Reset](../../aspose.threed.utilities/transformbuilder/reset/)() | إعادة تعيين التحويل إلى مصفوفة الهوية |
+| [Rotate](../../aspose.threed.utilities/transformbuilder/rotate/)(Quaternion) | سلسلة دوران باستخدام رباعية |
+| [RotateDegree](../../aspose.threed.utilities/transformbuilder/rotatedegree/#rotatedegree)(double, Vector3) | سلسلة تحويل دوران بالدرجات |
+| [RotateDegree](../../aspose.threed.utilities/transformbuilder/rotatedegree/#rotatedegree_1)(Vector3, RotationOrder) | إلحاق دوران بترتيب محدد |
+| [RotateEulerDegree](../../aspose.threed.utilities/transformbuilder/rotateeulerdegree/)(double, double, double) | سلسلة دوران باستخدام زوايا أويلر بالدرجات |
+| [RotateEulerRadian](../../aspose.threed.utilities/transformbuilder/rotateeulerradian/#rotateeulerradian)(Vector3) | سلسلة دوران باستخدام زوايا أويلر بالراديان |
+| [RotateEulerRadian](../../aspose.threed.utilities/transformbuilder/rotateeulerradian/#rotateeulerradian_1)(double, double, double) | سلسلة دوران باستخدام زوايا أويلر بالراديان |
+| [RotateRadian](../../aspose.threed.utilities/transformbuilder/rotateradian/#rotateradian)(double, Vector3) | سلسلة تحويل دوران بالراديان |
+| [RotateRadian](../../aspose.threed.utilities/transformbuilder/rotateradian/#rotateradian_1)(Vector3, RotationOrder) | إلحاق دوران بترتيب محدد |
+| [Scale](../../aspose.threed.utilities/transformbuilder/scale/#scale_1)(double) | سلسلة مصفوفة تحويل قياس مع مكوّن مُقاس بـ s |
+| [Scale](../../aspose.threed.utilities/transformbuilder/scale/#scale)(Vector3) | سلسلة تحويل قياس |
+| [Scale](../../aspose.threed.utilities/transformbuilder/scale/#scale_2)(double, double, double) | سلسلة مصفوفة تحويل قياس |
+| [Translate](../../aspose.threed.utilities/transformbuilder/translate/#translate)(Vector3) | سلسلة تحويل إزاحة |
+| [Translate](../../aspose.threed.utilities/transformbuilder/translate/#translate_1)(double, double, double) | سلسلة تحويل إزاحة |
 
-### أنظر أيضا
+## أمثلة
 
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../aspose.threed.utilities)
-* المجسم [Aspose.3D](../../)
+الكود التالي يوضح كيفية إنشاء مصفوفة باستخدام مجموعة من العمليات
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+TransformBuilder tb = new TransformBuilder();
+tb.Translate(10, 20, 0);
+tb.Scale(10, 10, 10);
+tb.RotateEulerDegree(90, 0, 0);
+Console.WriteLine($"Transform Matrix: {tb.Matrix}");
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
+
+

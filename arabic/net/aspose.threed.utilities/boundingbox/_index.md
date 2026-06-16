@@ -1,56 +1,69 @@
 ---
-title: BoundingBox
-second_title: Aspose.3D لمرجع .NET API
-description: المربع المحيط بمحاذاة المحور
+title: "Struct BoundingBox"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "هيكل Aspose.ThreeD.Utilities.BoundingBox. صندوق الحدود المحاذى للمحاور"
 type: docs
-weight: 2420
+weight: 2670
 url: /ar/net/aspose.threed.utilities/boundingbox/
 ---
 ## BoundingBox structure
 
-المربع المحيط بمحاذاة المحور
+صندوق الحدود المحاذي للمحاور
 
 ```csharp
 public struct BoundingBox
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BoundingBox](boundingbox#constructor)(Vector3, Vector3) | قم بتهيئة مربع إحاطة محدد بزاوية دنيا وأقصى حد |
-| [BoundingBox](boundingbox#constructor_1)(double, double, double, double, double, double) | قم بتهيئة مربع إحاطة محدد بزاوية دنيا وأقصى حد |
+| [BoundingBox](boundingbox/#constructor)(Vector3, Vector3) | تهيئة صندوق إحاطة محدود مع الزاوية الدنيا والزاوية العليا المحددتين |
+| [BoundingBox](boundingbox/#constructor_1)(double, double, double, double, double, double) | تهيئة صندوق إحاطة محدود مع الزاوية الدنيا والزاوية العليا المحددتين |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Center](../../aspose.threed.utilities/boundingbox/center) { get; } | مركز المربع المحيط. |
-| [Extent](../../aspose.threed.utilities/boundingbox/extent) { get; } | يحصل على مدى المربع المحيط. |
-| [Maximum](../../aspose.threed.utilities/boundingbox/maximum) { get; } | الزاوية القصوى للمربع المحيط |
-| [Minimum](../../aspose.threed.utilities/boundingbox/minimum) { get; } | الزاوية الدنيا للمربع المحيط |
-| [Size](../../aspose.threed.utilities/boundingbox/size) { get; } | حجم الصندوق المحيط |
+| static [Infinite](../../aspose.threed.utilities/boundingbox/infinite/) { get; } | صندوق الإحاطة اللانهائي |
+| static [Null](../../aspose.threed.utilities/boundingbox/null/) { get; } | صندوق الإحاطة الفارغ |
+| [Center](../../aspose.threed.utilities/boundingbox/center/) { get; } | مركز صندوق الحدود. |
+| [Extent](../../aspose.threed.utilities/boundingbox/extent/) { get; } | يحصل على مدى صندوق الإحاطة. |
+| [Maximum](../../aspose.threed.utilities/boundingbox/maximum/) { get; } | الزاوية القصوى لصندوق الإحاطة |
+| [Minimum](../../aspose.threed.utilities/boundingbox/minimum/) { get; } | الزاوية الدنيا لصندوق الإحاطة |
+| [Size](../../aspose.threed.utilities/boundingbox/size/) { get; } | حجم صندوق الحدود |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| static [FromGeometry](../../aspose.threed.utilities/boundingbox/fromgeometry)(Geometry) | إنشاء مربع إحاطة من الشكل الهندسي المعطى |
-| override [Equals](../../aspose.threed.utilities/boundingbox/equals)(object) | تحديد ما إذا كان كائنان متساويين |
-| override [GetHashCode](../../aspose.threed.utilities/boundingbox/gethashcode)() | إرجاع رمز التجزئة لهذا المثيل |
-| override [ToString](../../aspose.threed.utilities/boundingbox/tostring)() | يحصل على تمثيل السلسلة للمربع المحيط. |
-| [operator *](../../aspose.threed.utilities/boundingbox/op_multiply) | التحميل الزائد على المشغل لمضاعفة |
+| static [FromGeometry](../../aspose.threed.utilities/boundingbox/fromgeometry/)(Geometry) | إنشاء صندوق حدود من الهندسة المعطاة |
+| [Contains](../../aspose.threed.utilities/boundingbox/contains/#contains)(BoundingBox) | صندوق الحدود للتحقق مما إذا كان داخل صندوق الحدود الحالي. |
+| [Contains](../../aspose.threed.utilities/boundingbox/contains/#contains_1)(Vector3) | تحقق مما إذا كانت النقطة p داخل صندوق الحدود |
+| override [Equals](../../aspose.threed.utilities/boundingbox/equals/)(object) | يحدد ما إذا كان الكائنان متساويين |
+| override [GetHashCode](../../aspose.threed.utilities/boundingbox/gethashcode/)() | يعيد قيمة التجزئة لهذا الكائن |
+| [Merge](../../aspose.threed.utilities/boundingbox/merge/#merge)(BoundingBox) | يدمج الصندوق الجديد في صندوق الإحاطة الحالي. |
+| [Merge](../../aspose.threed.utilities/boundingbox/merge/#merge_1)(Vector3) | دمج صندوق الحدود الحالي مع النقطة المعطاة |
+| [Merge](../../aspose.threed.utilities/boundingbox/merge/#merge_2)(Vector4) | دمج صندوق الحدود الحالي مع النقطة المعطاة |
+| [Merge](../../aspose.threed.utilities/boundingbox/merge/#merge_3)(double, double, double) | دمج صندوق الحدود الحالي مع النقطة المعطاة |
+| [OverlapsWith](../../aspose.threed.utilities/boundingbox/overlapswith/)(BoundingBox) | تحقق مما إذا كان صندوق الحدود الحالي يتقاطع مع صندوق الحدود المحدد. |
+| [Scale](../../aspose.threed.utilities/boundingbox/scale/)() | يحسب القيمة المطلقة لأكبر إحداثي لأي نقطة محتواة. |
+| override [ToString](../../aspose.threed.utilities/boundingbox/tostring/)() | يحصل على تمثيل النص لصندوق الإحاطة. |
+| [operator *](../../aspose.threed.utilities/boundingbox/op_multiply/) | تجاوز المشغل للضرب، سيتم تحويل الزاويتين الدنيا والعليا لصندوق الحدود الجديد بواسطة المصفوفة. |
 
-## مجالات
+## أمثلة
 
-| اسم | وصف |
-| --- | --- |
-| static readonly [Infinite](../../aspose.threed.utilities/boundingbox/infinite) | المربع المحيط اللانهائي |
-| static readonly [Null](../../aspose.threed.utilities/boundingbox/null) | المربع المحيط الفارغ |
+الكود التالي يوضح كيفية الحصول على صندوق حدود من كائن Entity.
 
-### أنظر أيضا
+```csharp
+var sphere = new Sphere();
+var boundingBox = sphere.GetBoundingBox();
+Console.WriteLine("Bounding box = " + boundingBox);
+```
 
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../aspose.threed.utilities)
-* المجسم [Aspose.3D](../../)
+### انظر أيضًا
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
+
+

@@ -1,55 +1,56 @@
 ---
-title: Skeleton
-second_title: Aspose.3D لمرجع .NET API
-description: ملفSkeleton./skeletonيتم استخدامه بشكل أساسي بواسطة برنامج CAD لمساعدة المصمم على معالجة تحول الهيكل العظمي  وعادة ما يكون غير مفيد خارج برامج CAD.Skeleton./skeleton العقدة كجذر واحد من خلال الإعدادType./skeleton/type إلىSkeleton و وجميع الأطفال مضبوطين علىBone
+title: "الفئة Skeleton"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Entities.Skeleton. الهيكل العظمي يُستخدم أساساً من قبل برامج CAD لمساعدة المصمم على تعديل تحويلات الهيكل العظمي، وهو عادةً غير مفيد خارج برامج CAD. لجعل تسلسل الهيكل العظمي يعمل ككائن واحد في برنامج CAD، من الضروري وضع علامة على عقدة الهيكل العظمي العليا كجذر عن طريق تعيين النوع إلى Skeleton وتعيين جميع الأطفال إلى Bone."
 type: docs
-weight: 650
+weight: 710
 url: /ar/net/aspose.threed.entities/skeleton/
 ---
 ## Skeleton class
 
-ملف[`Skeleton`](../skeleton)يتم استخدامه بشكل أساسي بواسطة برنامج CAD لمساعدة المصمم على معالجة تحول الهيكل العظمي ، وعادة ما يكون غير مفيد خارج برامج CAD.[`Skeleton`](../skeleton) العقدة كجذر واحد من خلال الإعداد[`Type`](./type) إلىSkeleton و وجميع الأطفال مضبوطين علىBone
+يُستخدم `Skeleton` أساسًا من قبل برامج CAD لمساعدة المصمم على تعديل تحويل الهيكل العظمي، وهو عادةً غير مفيد خارج برامج CAD. لجعل تسلسل هيكل العظام يعمل ككائن واحد في برنامج CAD، من الضروري تعيين عقدة `Skeleton` العليا كجذر عن طريق ضبط [`Type`](./type/) إلى Skeleton، وتعيين جميع الأطفال إلى Bone.
 
 ```csharp
 public class Skeleton : Entity
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Skeleton](skeleton#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Skeleton`](../skeleton) فئة . |
-| [Skeleton](skeleton#constructor_1)(string) | يقوم بتهيئة مثيل جديد لملف[`Skeleton`](../skeleton) فئة . |
+| [Skeleton](skeleton/#constructor)() | ينشئ مثيلًا جديدًا من الفئة `Skeleton`. |
+| [Skeleton](skeleton/#constructor_1)(string) | ينشئ مثيلًا جديدًا من الفئة `Skeleton`. |
+| [Skeleton](skeleton/#constructor_2)(string, SkeletonType) | ينشئ مثيلًا جديدًا من الفئة `Skeleton`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [Size](../../aspose.threed.entities/skeleton/size) { get; set; } | الحصول على أو تعيين حجم عقدة الطرف المستخدمة في برنامج CAD لتمثيل حجم العظم. |
-| [Type](../../aspose.threed.entities/skeleton/type) { get; set; } | الحصول على أو تحديد نوع الهيكل العظمي. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [Size](../../aspose.threed.entities/skeleton/size/) { get; set; } | يحصل أو يضبط حجم عقدة الطرف المستخدمة في برامج CAD لتمثيل حجم العظم. |
+| [Type](../../aspose.threed.entities/skeleton/type/) { get; set; } | يحصل أو يضبط نوع الهيكل العظمي. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Entity](../../aspose.threed/entity)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* المجسم [Aspose.3D](../../)
+* class [Entity](../../aspose.threed/entity/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,56 +1,56 @@
 ---
-title: Ellipse
-second_title: Aspose.3D لمرجع .NET API
-description: أنEllipse./ellipseيحدد مجموعة من النقاط التي تشكل شكل القطع الناقص.
+title: "الفئة Ellipse"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Entities.Ellipse. تحدد الـ Ellipse مجموعة من النقاط التي تشكل شكل القطع الناقص"
 type: docs
-weight: 330
+weight: 380
 url: /ar/net/aspose.threed.entities/ellipse/
 ---
 ## Ellipse class
 
-أن[`Ellipse`](../ellipse)يحدد مجموعة من النقاط التي تشكل شكل القطع الناقص.
+`Ellipse` يحدد مجموعة من النقاط التي تشكل شكل القطع الناقص.
 
 ```csharp
 public class Ellipse : Curve
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Ellipse](ellipse#constructor)() | منشئ[`Ellipse`](../ellipse) |
-| [Ellipse](ellipse#constructor_1)(double, double) | منشئ[`Ellipse`](../ellipse) |
+| [Ellipse](ellipse/#constructor)() | منشئ `Ellipse` |
+| [Ellipse](ellipse/#constructor_1)(double, double) | منشئ `Ellipse` |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Color](../../aspose.threed.entities/curve/color) { get; set; } | الحصول على لون الخط أو تعيينه ، القيمة الافتراضية هي الأبيض (1 ، 1 ، 1) |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [SemiAxis1](../../aspose.threed.entities/ellipse/semiaxis1) { get; set; } | نصف القطر على المحور X |
-| [SemiAxis2](../../aspose.threed.entities/ellipse/semiaxis2) { get; set; } | نصف القطر على المحور Y |
+| [Color](../../aspose.threed.entities/curve/color/) { get; set; } | يحصل أو يضبط لون الخط، القيمة الافتراضية هي أبيض (1, 1, 1) |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [SemiAxis1](../../aspose.threed.entities/ellipse/semiaxis1/) { get; set; } | نصف القطر على المحور X |
+| [SemiAxis2](../../aspose.threed.entities/ellipse/semiaxis2/) { get; set; } | نصف القطر على المحور Y |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| override [GetEntityRendererKey](../../aspose.threed.entities/curve/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| override [GetEntityRendererKey](../../aspose.threed.entities/curve/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Curve](../curve)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* المجسم [Aspose.3D](../../)
+* class [Curve](../curve/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

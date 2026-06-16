@@ -1,98 +1,180 @@
 ---
-title: Save
-second_title: Aspose.3D لمرجع .NET API
-description: يحفظ المشهد للدفق باستخدام تنسيق ملف محدد.
+title: "Scene.Save"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "طريقة Scene. تحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد"
 type: docs
 weight: 160
 url: /ar/net/aspose.threed/scene/save/
 ---
 ## Save(Stream, FileFormat) {#save}
 
-يحفظ المشهد للدفق باستخدام تنسيق ملف محدد.
+يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Save(Stream stream, FileFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال ، المستخدم مسؤول عن إغلاق الدفق. |
-| format | FileFormat | شكل. |
+| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| تنسيق | FileFormat | التنسيق. |
 
-### أنظر أيضا
+### استثناءات
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
+
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, FileFormat.USDZ);
+}
+```
+
+### انظر أيضًا
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, FileFormat, CancellationToken) {#save_1}
 
-يحفظ المشهد للدفق باستخدام تنسيق ملف محدد.
+يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Save(Stream stream, FileFormat format, CancellationToken cancellationToken)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال ، المستخدم مسؤول عن إغلاق الدفق. |
-| format | FileFormat | شكل. |
+| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| تنسيق | FileFormat | التنسيق. |
 | cancellationToken | CancellationToken | رمز الإلغاء لمهمة الحفظ |
 
-### أنظر أيضا
+### استثناءات
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
+
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var cts = new CancellationTokenSource();
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, FileFormat.USDZ, cts.Token);
+}
+```
+
+### انظر أيضًا
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, SaveOptions) {#save_2}
 
-يحفظ المشهد للدفق باستخدام تنسيق ملف محدد.
+يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال ، المستخدم مسؤول عن إغلاق الدفق. |
-| options | SaveOptions | تكوين أكثر تفصيلا لحفظ الدفق. |
+| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| خيارات | SaveOptions | إعدادات أكثر تفصيلاً لحفظ الدفق. |
 
-### أنظر أيضا
+### استثناءات
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
+
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var opt = new UsdSaveOptions();
+opt.PrimitiveToMesh = true;
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, opt);
+}
+```
+
+### انظر أيضًا
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, SaveOptions, CancellationToken) {#save_3}
 
-يحفظ المشهد للدفق باستخدام تنسيق ملف محدد.
+يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options, CancellationToken cancellationToken)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال ، المستخدم مسؤول عن إغلاق الدفق. |
-| options | SaveOptions | تكوين أكثر تفصيلا لحفظ الدفق. |
+| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| خيارات | SaveOptions | إعدادات أكثر تفصيلاً لحفظ الدفق. |
 | cancellationToken | CancellationToken | رمز الإلغاء لمهمة الحفظ |
 
-### أنظر أيضا
+### استثناءات
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
+
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var cts = new CancellationTokenSource();
+var opt = new UsdSaveOptions();
+opt.PrimitiveToMesh = true;
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, opt, cts.Token);
+}
+```
+
+### انظر أيضًا
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -104,15 +186,31 @@ public void Save(Stream stream, SaveOptions options, CancellationToken cancellat
 public void Save(string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف. |
+| fileName | سلسلة | اسم الملف. |
 
-### أنظر أيضا
+### استثناءات
 
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
+
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz");
+```
+
+### انظر أيضًا
+
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -124,17 +222,33 @@ public void Save(string fileName)
 public void Save(string fileName, FileFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف. |
-| format | FileFormat | شكل. |
+| fileName | سلسلة | اسم الملف. |
+| تنسيق | FileFormat | التنسيق. |
 
-### أنظر أيضا
+### استثناءات
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
+
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz", FileFormat.USDZ);
+```
+
+### انظر أيضًا
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -146,18 +260,35 @@ public void Save(string fileName, FileFormat format)
 public void Save(string fileName, FileFormat format, CancellationToken cancellationToken)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف. |
-| format | FileFormat | شكل. |
+| fileName | سلسلة | اسم الملف. |
+| تنسيق | FileFormat | التنسيق. |
 | cancellationToken | CancellationToken | رمز الإلغاء لمهمة الحفظ |
 
-### أنظر أيضا
+### استثناءات
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
+
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz", FileFormat.USDZ, cts.Token);
+```
+
+### انظر أيضًا
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -169,17 +300,35 @@ public void Save(string fileName, FileFormat format, CancellationToken cancellat
 public void Save(string fileName, SaveOptions options)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف. |
-| options | SaveOptions | تكوين أكثر تفصيلا لحفظ الدفق. |
+| fileName | سلسلة | اسم الملف. |
+| خيارات | SaveOptions | إعدادات أكثر تفصيلاً لحفظ الدفق. |
 
-### أنظر أيضا
+### استثناءات
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
+
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+var scene = Scene.FromFile("input.fbx");
+var opts = new UsdSaveOptions();
+opts.PrimitiveToMesh = true;
+scene.Save("output.usdz", opts);
+```
+
+### انظر أيضًا
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -191,17 +340,36 @@ public void Save(string fileName, SaveOptions options)
 public void Save(string fileName, SaveOptions options, CancellationToken cancellationToken)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف. |
-| options | SaveOptions | تكوين أكثر تفصيلا لحفظ الدفق. |
+| fileName | سلسلة | اسم الملف. |
+| خيارات | SaveOptions | إعدادات أكثر تفصيلاً لحفظ الدفق. |
 | cancellationToken | CancellationToken | رمز الإلغاء لمهمة الحفظ |
 
-### أنظر أيضا
+### استثناءات
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* مساحة الاسم [Aspose.ThreeD](../../scene)
-* المجسم [Aspose.3D](../../../)
+| استثناء | شرط |
+| --- | --- |
+| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+## أمثلة
+
+الكود التالي يوضح كيفية حفظ المشهد
+
+```csharp
+var cts = new CancellationTokenSource();
+var scene = Scene.FromFile("input.fbx");
+var opts = new UsdSaveOptions();
+opts.PrimitiveToMesh = true;
+scene.Save("output.usdz", opts, cts.Token);
+```
+
+### انظر أيضًا
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
+
+

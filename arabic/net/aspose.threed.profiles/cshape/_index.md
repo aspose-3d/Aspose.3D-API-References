@@ -1,58 +1,58 @@
 ---
-title: CShape
-second_title: Aspose.3D لمرجع .NET API
-description: ملف تعريف على شكل C متوافق مع IFC والذي تم تحديده بواسطة المعلمات. الموضع المركزي للملف الشخصي في وسط المربع المحيط.
+title: "فئة CShape"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "فئة Aspose.ThreeD.Profiles.CShape. ملف تعريف Cshape متوافق مع IFC معرف بالمعلمات. موضع المركز للملف التعريفي في وسط صندوق الحدود"
 type: docs
-weight: 1520
+weight: 1680
 url: /ar/net/aspose.threed.profiles/cshape/
 ---
 ## CShape class
 
-ملف تعريف على شكل C متوافق مع IFC والذي تم تحديده بواسطة المعلمات. الموضع المركزي للملف الشخصي في وسط المربع المحيط.
+ملف شخصي شكل C متوافق مع IFC يُحدد بالمعلمات. موضع المركز للملف الشخصي في وسط صندوق الحدود.
 
 ```csharp
 public class CShape : ParameterizedProfile
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CShape](cshape)() | منشئ[`CShape`](../cshape) |
+| [CShape](cshape/)() | منشئ `CShape` |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Depth](../../aspose.threed.profiles/cshape/depth) { get; set; } | الحصول على عمق ملف التعريف أو تحديده . |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| [Girth](../../aspose.threed.profiles/cshape/girth) { get; set; } | الحصول على أو تحديد طول المحيط . |
-| [InternalFilletRadius](../../aspose.threed.profiles/cshape/internalfilletradius) { get; set; } | الحصول على أو تحديد نصف قطر الشريحة الداخلي. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [WallThickness](../../aspose.threed.profiles/cshape/wallthickness) { get; set; } | الحصول على سمك الجدار أو تحديده . |
-| [Width](../../aspose.threed.profiles/cshape/width) { get; set; } | الحصول على أو تحديد عرض ملف التعريف . |
+| [Depth](../../aspose.threed.profiles/cshape/depth/) { get; set; } | يحصل أو يضبط عمق الملف التعريفي. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| [Girth](../../aspose.threed.profiles/cshape/girth/) { get; set; } | يحصل أو يضبط طول المحيط. |
+| [InternalFilletRadius](../../aspose.threed.profiles/cshape/internalfilletradius/) { get; set; } | يحصل أو يضبط نصف قطر القطع الدائري الداخلي. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [WallThickness](../../aspose.threed.profiles/cshape/wallthickness/) { get; set; } | يحصل أو يضبط سمك الجدار. |
+| [Width](../../aspose.threed.profiles/cshape/width/) { get; set; } | يحصل أو يضبط عرض الملف التعريفي. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| override [GetExtent](../../aspose.threed.profiles/cshape/getextent)() | الحصول على المدى في البعد x و y . |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| override [GetExtent](../../aspose.threed.profiles/cshape/getextent/)() | يحصل على الامتداد في بعدي x و y. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ParameterizedProfile](../parameterizedprofile)
-* مساحة الاسم [Aspose.ThreeD.Profiles](../../aspose.threed.profiles)
-* المجسم [Aspose.3D](../../)
+* class [ParameterizedProfile](../parameterizedprofile/)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

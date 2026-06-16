@@ -1,54 +1,54 @@
 ---
-title: KeyFrame
-second_title: Aspose.3D لمرجع .NET API
-description: يتم تحديد الإطار الرئيسي بشكل أساسي من خلال الوقت والقيمة  بالنسبة لبعض أنواع الاستيفاء  يتم أيضًا استخدام الظل / التوتر / التحيز / الاستمرارية عن طريق حساب القيمة النهائية لأخذ العينات. من خلال الإطارات الرئيسية بين الإطارات الرئيسية السابقة والتالية يتم حساب القيمة قبل / بعد إطار المفتاح الأول / الأخير بواسطةExtrapolation./extrapolation فئة .
+title: "الفئة KeyFrame"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Animation.KeyFrame. يتم تعريف إطار المفتاح أساسًا بواسطة الوقت والقيمة لبعض أنواع الاستيفاء، كما يتم استخدام المماس/الشد/التحيز/الاستمرارية عند حساب القيمة العينية النهائية. القيم العينية في موضع زمني غير إطار مفتاح يتم استيفاؤها بواسطة إطارات المفاتيح بين الإطار السابق واللاحق. القيم قبل/بعد الإطار الأول/الأخير يتم حسابها بواسطة فئة Extrapolation."
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.animation/keyframe/
 ---
 ## KeyFrame class
 
-يتم تحديد الإطار الرئيسي بشكل أساسي من خلال الوقت والقيمة ، بالنسبة لبعض أنواع الاستيفاء ، يتم أيضًا استخدام الظل / التوتر / التحيز / الاستمرارية عن طريق حساب القيمة النهائية لأخذ العينات. من خلال الإطارات الرئيسية بين الإطارات الرئيسية السابقة والتالية يتم حساب القيمة قبل / بعد إطار المفتاح الأول / الأخير بواسطة[`Extrapolation`](../extrapolation) فئة .
+يتم تعريف إطار المفتاح أساسًا بواسطة الوقت والقيمة، لبعض أنواع الاستيفاء يتم أيضًا استخدام المماس/الشد/التحيز/الاستمرارية عند حساب القيمة العينية النهائية. القيم العينية في موضع زمني غير إطار-مفتاح يتم استيفاؤها بواسطة إطارات-المفاتيح بين الإطار السابق واللاحق. القيم قبل/بعد الإطار الأول/الأخير يتم حسابها بواسطة الفئة [`Extrapolation`](../extrapolation/).
 
 ```csharp
 public class KeyFrame
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [KeyFrame](keyframe)(KeyframeSequence, double) | إنشاء إطار مفتاح جديد على منحنى محدد |
+| [KeyFrame](keyframe/)(KeyframeSequence, double) | إنشاء إطار مفتاح جديد على المنحنى المحدد |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Bias](../../aspose.threed.animation/keyframe/bias) { get; set; } | الحصول على أو تعيين التحيز المستخدم في TCB spline |
-| [Continuity](../../aspose.threed.animation/keyframe/continuity) { get; set; } | الحصول على أو تعيين الاستمرارية المستخدمة في TCB spline |
-| [Flat](../../aspose.threed.animation/keyframe/flat) { get; set; } | احصل على الإطار الرئيسي أو اضبطه إذا كان الإطار الرئيسي مسطحًا. يجب أن يكون الإطار الرئيسي مسطحًا إذا كان للإطار الرئيسي التالي أو السابق نفس القيمة. |
-| [IndependentTangent](../../aspose.threed.animation/keyframe/independenttangent) { get; set; } | الحصول على أو تعيين الظلال التالية مستقلة. |
-| [Interpolation](../../aspose.threed.animation/keyframe/interpolation) { get; set; } | للحصول على نوع الاستيفاء للمفتاح أو تعيينه ، تحدد list.data [index] الخوارزمية كيفية حساب قيمة العينة. |
-| [NextInTangent](../../aspose.threed.animation/keyframe/nextintangent) { get; set; } | الحصول على أو تعيين المماس التالي في (يسار) هذا الإطار الرئيسي. |
-| [NextInWeight](../../aspose.threed.animation/keyframe/nextinweight) { get; set; } | الحصول على أو تعيين الوزن التالي في (يسار) على هذا الإطار الرئيسي. |
-| [OutTangent](../../aspose.threed.animation/keyframe/outtangent) { get; set; } | الحصول على الظل (الأيمن) الخارج على هذا الإطار الرئيسي أو تعيينه. |
-| [OutWeight](../../aspose.threed.animation/keyframe/outweight) { get; set; } | الحصول على أو تحديد الوزن (الأيمن) على هذا الإطار الرئيسي. |
-| [StepMode](../../aspose.threed.animation/keyframe/stepmode) { get; set; } | الحصول على وضع خطوة المفتاح أو تعيينه . إذا كان نوع الاستيفاء هوConstant ، list.data [index] يقرر قيمة الإطار الرئيسي التي سيتم استخدامها أثناء الاستيفاء. أPreviousValue يعني أن قيمة الإطار الرئيسي الأيسر ستستخدم ANextValueيعني أنه سيتم استخدام قيمة إطار المفتاح الأيمن التالي |
-| [TangentWeightMode](../../aspose.threed.animation/keyframe/tangentweightmode) { get; set; } | الحصول على وضع الوزن المماسي للمفتاح أو تعيينه . يمكن تخصيص الظل الخارج أو التالي في الظل عن طريق التحديد الصحيح[`WeightedMode`](../weightedmode) |
-| [Tension](../../aspose.threed.animation/keyframe/tension) { get; set; } | يحصل أو يحدد التوتر المستخدم في TCB spline |
-| [Time](../../aspose.threed.animation/keyframe/time) { get; set; } | الحصول على أو تحديد الموضع الزمني للإطار الرئيسي list.data [index] ، المقاس بالثواني. |
-| [TimeIndependentTangent](../../aspose.threed.animation/keyframe/timeindependenttangent) { get; set; } | الحصول على الظل أو تعيينه غير مستقل عن الوقت |
-| [Value](../../aspose.threed.animation/keyframe/value) { get; set; } | الحصول على أو تحديد قيمة الإطار الرئيسي. |
+| [Bias](../../aspose.threed.animation/keyframe/bias/) { get; set; } | يحصل أو يضبط الانحياز المستخدم في منحنى TCB |
+| [Continuity](../../aspose.threed.animation/keyframe/continuity/) { get; set; } | يحصل أو يضبط الاستمرارية المستخدمة في منحنى TCB |
+| [Flat](../../aspose.threed.animation/keyframe/flat/) { get; set; } | احصل أو اضبط ما إذا كان إطار المفتاح مسطحًا. يجب أن يكون إطار المفتاح مسطحًا إذا كان الإطار التالي أو السابق له نفس القيمة. إطار المفتاح المسطح له مماس مسطح واستيفاء ثابت. |
+| [IndependentTangent](../../aspose.threed.animation/keyframe/independenttangent/) { get; set; } | يحصل أو يضبط أن المماس الخارج والمماس الداخل التالي مستقلان. |
+| [Interpolation](../../aspose.threed.animation/keyframe/interpolation/) { get; set; } | يحصل أو يضبط نوع استيفاء المفتاح، list.data[index] يحدد الخوارزمية التي تُحسب بها القيمة العينية. |
+| [NextInTangent](../../aspose.threed.animation/keyframe/nextintangent/) { get; set; } | يحصل أو يضبط المماس الداخل (اليسار) التالي على هذا الإطار المفتاح. |
+| [NextInWeight](../../aspose.threed.animation/keyframe/nextinweight/) { get; set; } | يحصل أو يضبط الوزن الداخل (اليسار) التالي على هذا الإطار المفتاح. |
+| [OutTangent](../../aspose.threed.animation/keyframe/outtangent/) { get; set; } | يحصل أو يضبط المماس الخارج (اليمين) على هذا الإطار المفتاح. |
+| [OutWeight](../../aspose.threed.animation/keyframe/outweight/) { get; set; } | يحصل أو يضبط الوزن الخارج (اليمين) على هذا الإطار المفتاح. |
+| [StepMode](../../aspose.threed.animation/keyframe/stepmode/) { get; set; } | يحصل أو يضبط وضع خطوة المفتاح. إذا كان نوع الاستيفاء ثابتًا، فإن list.data[index] يحدد أي قيمة لإطار المفتاح ستُستخدم أثناء الاستيفاء. قيمة PreviousValue تعني استخدام قيمة إطار المفتاح الأيسر، وقيمة NextValue تعني استخدام قيمة إطار المفتاح الأيمن التالي. |
+| [TangentWeightMode](../../aspose.threed.animation/keyframe/tangentweightmode/) { get; set; } | يحصل أو يضبط وضع وزن المماس للمفتاح. يمكن تخصيص المماس الخارج أو المماس الداخل التالي عن طريق اختيار [`WeightedMode`](../weightedmode/) الصحيح. |
+| [Tension](../../aspose.threed.animation/keyframe/tension/) { get; set; } | يحصل أو يضبط التوتر المستخدم في منحنى TCB. |
+| [Time](../../aspose.threed.animation/keyframe/time/) { get; set; } | يحصل أو يضبط موضع الوقت لإطار المفتاح list.data[index]، مقاسًا بالثواني. |
+| [TimeIndependentTangent](../../aspose.threed.animation/keyframe/timeindependenttangent/) { get; set; } | يحصل أو يضبط أن المماس غير معتمد على الزمن. |
+| [Value](../../aspose.threed.animation/keyframe/value/) { get; set; } | يحصل أو يضبط قيمة إطار المفتاح. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [ToString](../../aspose.threed.animation/keyframe/tostring)() | يحصل على تمثيل السلسلة للإطار الرئيسي |
+| override [ToString](../../aspose.threed.animation/keyframe/tostring/)() | يحصل على التمثيل النصي لإطار المفتاح. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.ThreeD.Animation](../../aspose.threed.animation)
-* المجسم [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

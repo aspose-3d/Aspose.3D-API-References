@@ -1,58 +1,58 @@
 ---
-title: HollowRectangleShape
-second_title: Aspose.3D لمرجع .NET API
-description: شكل مستطيل مجوف متوافق مع IFC مع زوايا دائرية داخلية / خارجية.
+title: "الفئة HollowRectangleShape"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "فئة Aspose.ThreeD.Profiles.HollowRectangleShape. شكل مستطيل مجوف متوافق مع IFC مع زوايا داخلية/خارجية مستديرة"
 type: docs
-weight: 1570
+weight: 1750
 url: /ar/net/aspose.threed.profiles/hollowrectangleshape/
 ---
 ## HollowRectangleShape class
 
-شكل مستطيل مجوف متوافق مع IFC مع زوايا دائرية داخلية / خارجية.
+شكل مستطيل مجوف متوافق مع IFC مع زوايا داخلية/خارجية مستديرة.
 
 ```csharp
 public class HollowRectangleShape : RectangleShape
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [HollowRectangleShape](hollowrectangleshape)() | Default_Constructor |
+| [HollowRectangleShape](hollowrectangleshape/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| [InnerFilletRadius](../../aspose.threed.profiles/hollowrectangleshape/innerfilletradius) { get; set; } | نصف القطر الداخلي للمستطيل الداخلي. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [RoundingRadius](../../aspose.threed.profiles/rectangleshape/roundingradius) { get; set; } | الحصول على أو تحديد نصف قطر الأقواس الدائرية لجميع الزوايا الأربع ، مقاسة بالدرجات . القيمة الافتراضية هي 0.0 |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [WallThickness](../../aspose.threed.profiles/hollowrectangleshape/wallthickness) { get; set; } | السُمك بين حد المستطيل والفتحة الداخلية |
-| [XDim](../../aspose.threed.profiles/rectangleshape/xdim) { get; set; } | الحصول على أو تحديد مدى المستطيل في اتجاه المحور x القيمة الافتراضية هي 2.0 |
-| [YDim](../../aspose.threed.profiles/rectangleshape/ydim) { get; set; } | الحصول على أو تحديد مدى المستطيل في اتجاه المحور y القيمة الافتراضية هي 2.0 |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| [InnerFilletRadius](../../aspose.threed.profiles/hollowrectangleshape/innerfilletradius/) { get; set; } | نصف قطر التدوير الداخلي للمستطيل الداخلي. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [RoundingRadius](../../aspose.threed.profiles/rectangleshape/roundingradius/) { get; set; } | يحصل أو يعيّن نصف قطر الأقواس الدائرية لجميع الزوايا الأربعة، مقاسًا بالدرجات. القيمة الافتراضية هي 0.0 |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [WallThickness](../../aspose.threed.profiles/hollowrectangleshape/wallthickness/) { get; set; } | السماكة بين حدود المستطيل والفتحة الداخلية |
+| [XDim](../../aspose.threed.profiles/rectangleshape/xdim/) { get; set; } | يحصل أو يعيّن امتداد المستطيل في اتجاه محور x. القيمة الافتراضية هي 2.0 |
+| [YDim](../../aspose.threed.profiles/rectangleshape/ydim/) { get; set; } | يحصل أو يعيّن امتداد المستطيل في اتجاه محور y. القيمة الافتراضية هي 2.0 |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| override [GetExtent](../../aspose.threed.profiles/rectangleshape/getextent)() | الحصول على المدى في البعد x و y . |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| override [GetExtent](../../aspose.threed.profiles/rectangleshape/getextent/)() | يحصل على الامتداد في بعدي x و y. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [RectangleShape](../rectangleshape)
-* مساحة الاسم [Aspose.ThreeD.Profiles](../../aspose.threed.profiles)
-* المجسم [Aspose.3D](../../)
+* class [RectangleShape](../rectangleshape/)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

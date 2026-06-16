@@ -1,47 +1,48 @@
 ---
-title: FbxSaveOptions
-second_title: Aspose.3D لمرجع .NET API
-description: خيارات حفظ لملف Fbx .
+title: "الفئة FbxSaveOptions"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Formats.FbxSaveOptions. خيارات الحفظ لملف Fbx"
 type: docs
-weight: 1120
+weight: 1180
 url: /ar/net/aspose.threed.formats/fbxsaveoptions/
 ---
 ## FbxSaveOptions class
 
-خيارات حفظ لملف Fbx .
+خيارات الحفظ لملف Fbx.
 
 ```csharp
 public class FbxSaveOptions : SaveOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FbxSaveOptions](fbxsaveoptions#constructor)(FileContentType) | تهيئة أ[`FbxSaveOptions`](../fbxsaveoptions) باستخدام أحدث إصدار مدعوم. |
-| [FbxSaveOptions](fbxsaveoptions#constructor_1)(FileFormat) | تهيئة أ[`FbxSaveOptions`](../fbxsaveoptions) |
+| [FbxSaveOptions](fbxsaveoptions/#constructor)(FileContentType) | تهيئة `FbxSaveOptions` باستخدام أحدث نسخة مدعومة. |
+| [FbxSaveOptions](fbxsaveoptions/#constructor_1)(FileFormat) | يُهيئ `FbxSaveOptions` |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EmbedTextures](../../aspose.threed.formats/fbxsaveoptions/embedtextures) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تضمين النسيج في ملف الإخراج النهائي. سيحاول FBX Exporter العثور على البيانات الأولية للنسيج من[`FileSystem`](../ioconfig/filesystem) ، وقم بتضمين الملف في ملف FBX النهائي. القيمة الافتراضية هي false . |
-| [EnableCompression](../../aspose.threed.formats/fbxsaveoptions/enablecompression) { get; set; } | ضغط البيانات الثنائية الكبيرة في ملف FBX (على سبيل المثال ، بيانات الرسوم المتحركة ، نقاط التحكم ، بيانات عنصر الرأس ، المؤشرات) ، القيمة الافتراضية هي true . |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding) { get; set; } | الحصول على الترميز الافتراضي للملفات النصية أو تعيينه. القيمة الافتراضية خالية مما يعني أن المستورد / المُصدِّر سيقرر الترميز الذي يجب استخدامه. |
-| [ExportLegacyMaterialProperties](../../aspose.threed.formats/fbxsaveoptions/exportlegacymaterialproperties) { get; set; } | الحصول على أو تحديد ما إذا كان تصدير خصائص المواد القديمة ، المستخدمة للتوافق الخلفي. يتم تشغيل هذا الخيار افتراضيًا . |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat) { get; } | يحصل على تنسيق الملف المحدد في خيار حفظ / تحميل الحالي. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename) { get; set; } | اسم ملف مشهد التصدير / الاستيراد . هذا اختياري ، ولكنه مفيد عند إجراء تسلسل للأصول الخارجية مثل مادة OBJ . |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem) { get; set; } | السماح للمستخدم بالتعامل مع كيفية إدارة التبعيات الخارجية أثناء التحميل / الحفظ. |
-| [FoldRepeatedCurveData](../../aspose.threed.formats/fbxsaveoptions/foldrepeatedcurvedata) { get; set; } | الحصول على أو تعيين ما إذا كان يعيد استخدام بيانات المنحنى المتكررة عن طريق زيادة عدد مرجع البيانات الأخيرة |
-| [GenerateVertexElementMaterial](../../aspose.threed.formats/fbxsaveoptions/generatevertexelementmaterial) { get; set; } | يحصل أو يحدد ما إذا كان ينشئ دائمًا ملف[`VertexElementMaterial`](../../aspose.threed.entities/vertexelementmaterial) للأشكال الهندسية إذا كانت العقدة المرفقة تحتوي على مواد . يتم إيقاف تشغيل هذا افتراضيًا. |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths) { get; set; } | تعتمد بعض الملفات مثل OBJ على ملف خارجي ، وستسمح مسارات البحث لـ Aspose.3D بالبحث عن ملف خارجي ليتم تحميله. |
-| [ReusePrimitiveMesh](../../aspose.threed.formats/fbxsaveoptions/reuseprimitivemesh) { get; set; } | إعادة استخدام الشبكة للأولويات باستخدام نفس المعلمات ، سيؤدي ذلك إلى تقليل حجم إخراج FBX بشكل ملحوظ الذي تم إنشاء المشهد بواسطة مجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD) . القيمة الافتراضية هي false |
-| [VideoForTexture](../../aspose.threed.formats/fbxsaveoptions/videofortexture) { get; set; } | الحصول على أو تحديد ما إذا كان يتم إنشاء مثيل فيديو لـ[`Texture`](../../aspose.threed.shading/texture) عند التصدير كـ FBX. |
+| [EmbedTextures](../../aspose.threed.formats/fbxsaveoptions/embedtextures/) { get; set; } | يحصل أو يعيّن ما إذا كان سيتم تضمين الملمس في ملف الإخراج النهائي. سيحاول مُصدّر FBX العثور على البيانات الخام للملمس من [`FileSystem`](../ioconfig/filesystem/)، وتضمين الملف في ملف FBX النهائي. القيمة الافتراضية هي false. |
+| [EnableCompression](../../aspose.threed.formats/fbxsaveoptions/enablecompression/) { get; set; } | ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عناصر الرؤوس، الفهارس)، القيمة الافتراضية هي true. |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | يحصل أو يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدر سيقرر أي ترميز يستخدم. |
+| [ExportLegacyMaterialProperties](../../aspose.threed.formats/fbxsaveoptions/exportlegacymaterialproperties/) { get; set; } | يحصل أو يعيّن ما إذا كان سيتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. يتم تشغيل هذا الخيار بشكل افتراضي. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | محاولة نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | اسم ملف المشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | السماح للمستخدم بالتعامل مع كيفية إدارة التبعيات الخارجية أثناء التحميل/الحفظ. |
+| [FoldRepeatedCurveData](../../aspose.threed.formats/fbxsaveoptions/foldrepeatedcurvedata/) { get; set; } | يحصل أو يعيّن ما إذا كان سيتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة. |
+| [GenerateVertexElementMaterial](../../aspose.threed.formats/fbxsaveoptions/generatevertexelementmaterial/) { get; set; } | يحصل أو يعيّن ما إذا كان سيتم دائمًا إنشاء [`VertexElementMaterial`](../../aspose.threed.entities/vertexelementmaterial/) للهياكل إذا كان العقدة المرفقة تحتوي على مواد. يتم إيقاف هذا الخيار بشكل افتراضي. |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | بعض الملفات مثل OBJ تعتمد على ملف خارجي، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. |
+| [ReusePrimitiveMesh](../../aspose.threed.formats/fbxsaveoptions/reuseprimitivemesh/) { get; set; } | إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم مخرجات FBX بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). القيمة الافتراضية هي false |
+| [VideoForTexture](../../aspose.threed.formats/fbxsaveoptions/videofortexture/) { get; set; } | يحصل أو يعيّن ما إذا كان سيتم إنشاء مثيل فيديو لـ [`Texture`](../../aspose.threed.shading/texture/) عند التصدير كـ FBX. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [SaveOptions](../saveoptions)
-* مساحة الاسم [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* المجسم [Aspose.3D](../../)
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

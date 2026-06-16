@@ -1,14 +1,14 @@
 ---
-title: Frustum
-second_title: Aspose.3D لمرجع .NET API
-description: الفئة الأساسية لـCamera./camera وLight./light
+title: "الفئة Frustum"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Entities.Frustum. الفئة الأساسية للكاميرا والإضاءة"
 type: docs
-weight: 350
+weight: 400
 url: /ar/net/aspose.threed.entities/frustum/
 ---
 ## Frustum class
 
-الفئة الأساسية لـ[`Camera`](../camera) و[`Light`](../light)
+الفئة الأساسية لـ [`Camera`](../camera/) و [`Light`](../light/)
 
 ```csharp
 public abstract class Frustum : Entity, IOrientable
@@ -16,41 +16,41 @@ public abstract class Frustum : Entity, IOrientable
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Aspect](../../aspose.threed.entities/frustum/aspect) { get; set; } | الحصول على أو تحديد نسبة العرض إلى الارتفاع لـ frustum |
-| [Direction](../../aspose.threed.entities/frustum/direction) { get; set; } | الحصول على الاتجاه الذي تنظر إليه الكاميرا أو تحديده. ستؤثر التغييرات في هذه الخاصية أيضًا على[`LookAt`](./lookat) و[`Target`](./target) . |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| [FarPlane](../../aspose.threed.entities/frustum/farplane) { get; set; } | الحصول على أو تحديد مسافة الطائرة البعيدة لـ frustum . |
-| [LookAt](../../aspose.threed.entities/frustum/lookat) { get; set; } | الحصول على أو تحديد الموضع المهتم الذي تنظر إليه الكاميرا. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [NearPlane](../../aspose.threed.entities/frustum/nearplane) { get; set; } | الحصول على أو تعيين مسافة الطائرة القريبة من frustum . |
-| [OrthoHeight](../../aspose.threed.entities/frustum/orthoheight) { get; set; } | الحصول على الارتفاع أو تحديده عند frustum في الإسقاط الهجائي. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [RotationMode](../../aspose.threed.entities/frustum/rotationmode) { get; set; } | الحصول على أو تعيين اتجاه frustum mode تعمل هذه الخاصية فقط عندما[`Target`](./target) هي null. إذا كانت القيمةFixedTarget ، يتم دائمًا حساب الاتجاه بواسطة الخاصية[`LookAt`](./lookat) وإلا فإن ملف[`LookAt`](./lookat)يتم حسابه دائمًا بواسطة[`Direction`](./direction) |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [Target](../../aspose.threed.entities/frustum/target) { get; set; } | الحصول على أو تحديد الهدف الذي تنظر إليه الكاميرا. إذا كان المستخدم يدعم هذه الخاصية ، فيجب أن يكون قبل[`LookAt`](./lookat) الملكية . |
-| [Up](../../aspose.threed.entities/frustum/up) { get; set; } | الحصول على أو تحديد اتجاه الكاميرا لأعلى |
+| [Aspect](../../aspose.threed.entities/frustum/aspect/) { get; set; } | الحصول على أو تعيين نسبة العرض إلى الارتفاع للمخروط. |
+| [Direction](../../aspose.threed.entities/frustum/direction/) { get; set; } | يحصل أو يضبط الاتجاه الذي تنظر إليه الكاميرا. التغييرات في هذه الخاصية ستؤثر أيضًا على [`LookAt`](./lookat/) و [`Target`](./target/). |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| [FarPlane](../../aspose.threed.entities/frustum/farplane/) { get; set; } | يحصل أو يضبط مسافة المستوى البعيد للمقاطع. |
+| [LookAt](../../aspose.threed.entities/frustum/lookat/) { get; set; } | يحصل أو يضبط الموضع المستهدف الذي تنظر إليه الكاميرا. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [NearPlane](../../aspose.threed.entities/frustum/nearplane/) { get; set; } | يحصل أو يضبط مسافة المستوى القريب للمقاطع. |
+| [OrthoHeight](../../aspose.threed.entities/frustum/orthoheight/) { get; set; } | يحصل أو يضبط الارتفاع عندما يكون المقاطع في الإسقاط المتعامد. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [RotationMode](../../aspose.threed.entities/frustum/rotationmode/) { get; set; } | يحصل أو يضبط وضعية توجيه الـ frustum. هذه الخاصية تعمل فقط عندما يكون [`Target`](./target/) فارغًا. إذا كانت القيمة FixedTarget، يتم دائمًا حساب الاتجاه بواسطة الخاصية [`LookAt`](./lookat/). وإلا يتم دائمًا حساب [`LookAt`](./lookat/) بواسطة [`Direction`](./direction/). |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [Target](../../aspose.threed.entities/frustum/target/) { get; set; } | يحصل أو يضبط الهدف الذي تنظر إليه الكاميرا. إذا كان المستخدم يدعم هذه الخاصية، يجب أن تكون قبل خاصية [`LookAt`](./lookat/). |
+| [Up](../../aspose.threed.entities/frustum/up/) { get; set; } | يحصل أو يضبط اتجاه الأعلى للكاميرا |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Entity](../../aspose.threed/entity)
-* interface [IOrientable](../iorientable)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* المجسم [Aspose.3D](../../)
+* class [Entity](../../aspose.threed/entity/)
+* interface [IOrientable](../iorientable/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

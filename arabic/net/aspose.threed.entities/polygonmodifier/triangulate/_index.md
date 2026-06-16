@@ -1,54 +1,84 @@
 ---
-title: Triangulate
-second_title: Aspose.3D لمرجع .NET API
-description: تحويل جميع الشبكات القائمة على المضلع إلى شبكة مثلثة كاملة
+title: "PolygonModifier.Triangulate"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "طريقة PolygonModifier. تحويل جميع الشبكات القائمة على المضلع إلى شبكة مثلثية كاملة"
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.threed.entities/polygonmodifier/triangulate/
 ---
 ## Triangulate(Scene) {#triangulate_5}
 
-تحويل جميع الشبكات القائمة على المضلع إلى شبكة مثلثة كاملة
+حوّل جميع الشبكات المبنية على مضلعات إلى شبكة مثلثية كاملة
 
 ```csharp
 public static void Triangulate(Scene scene)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| scene | Scene | المشهد المطلوب معالجته |
+| scene | Scene | المشهد المراد معالجته |
 
-### أنظر أيضا
+## أمثلة
 
-* class [Scene](../../../aspose.threed/scene)
-* class [PolygonModifier](../../polygonmodifier)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../polygonmodifier)
-* المجسم [Aspose.3D](../../../)
+الكود التالي يوضح كيفية دمج جميع الكائنات من المشهد في شبكة واحدة.
+
+```csharp
+var mesh = new Cylinder().ToMesh();
+
+//قم بتحويل هذه الشبكة القائمة على رباعيات إلى شبكة قائمة على مثلثات
+mesh = PolygonModifier.Triangulate(mesh);
+
+var scene = new Scene(mesh);
+
+      scene.Save("test.obj");
+```
+
+### انظر أيضًا
+
+* class [Scene](../../../aspose.threed/scene/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../polygonmodifier/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Triangulate(Mesh) {#triangulate}
 
-تحويل شبكة قائمة على المضلع إلى شبكة مثلثة كاملة
+حوّل شبكة مبنية على مضلعات إلى شبكة مثلثية كاملة
 
 ```csharp
 public static Mesh Triangulate(Mesh mesh)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| mesh | Mesh | الشبكة الأصلية غير المثلثية |
+| شبكة | Mesh | الشبكة الأصلية غير المثلثية |
 
 ### قيمة الإرجاع
 
-تم إنشاء شبكة المثلث الجديدة
+الشبكة المثلثية الجديدة المولدة
 
-### أنظر أيضا
+## أمثلة
 
-* class [Mesh](../../mesh)
-* class [PolygonModifier](../../polygonmodifier)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../polygonmodifier)
-* المجسم [Aspose.3D](../../../)
+الكود التالي يوضح كيفية دمج جميع الكائنات من المشهد في شبكة واحدة.
+
+```csharp
+var mesh = new Cylinder().ToMesh();
+
+//قم بتحويل هذه الشبكة القائمة على رباعيات إلى شبكة قائمة على مثلثات
+mesh = PolygonModifier.Triangulate(mesh);
+
+var scene = new Scene(mesh);
+
+      scene.Save("test.obj");
+```
+
+### انظر أيضًا
+
+* class [Mesh](../../mesh/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../polygonmodifier/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -59,13 +89,13 @@ public static int[][] Triangulate(IList<Vector4> controlPoints, IList<int[]> pol
     bool generateNormals, out Vector3[] nor_out)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Vector4](../../../aspose.threed.utilities/vector4)
-* struct [Vector3](../../../aspose.threed.utilities/vector3)
-* class [PolygonModifier](../../polygonmodifier)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../polygonmodifier)
-* المجسم [Aspose.3D](../../../)
+* struct [Vector4](../../../aspose.threed.utilities/vector4/)
+* struct [Vector3](../../../aspose.threed.utilities/vector3/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../polygonmodifier/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -75,12 +105,12 @@ public static int[][] Triangulate(IList<Vector4> controlPoints, IList<int[]> pol
 public static int[][] Triangulate(IList<Vector4> controlPoints, IList<int[]> polygons)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Vector4](../../../aspose.threed.utilities/vector4)
-* class [PolygonModifier](../../polygonmodifier)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../polygonmodifier)
-* المجسم [Aspose.3D](../../../)
+* struct [Vector4](../../../aspose.threed.utilities/vector4/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../polygonmodifier/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -90,12 +120,12 @@ public static int[][] Triangulate(IList<Vector4> controlPoints, IList<int[]> pol
 public static int[][] Triangulate(IList<Vector4> controlPoints, int[] polygon)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Vector4](../../../aspose.threed.utilities/vector4)
-* class [PolygonModifier](../../polygonmodifier)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../polygonmodifier)
-* المجسم [Aspose.3D](../../../)
+* struct [Vector4](../../../aspose.threed.utilities/vector4/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../polygonmodifier/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -105,11 +135,11 @@ public static int[][] Triangulate(IList<Vector4> controlPoints, int[] polygon)
 public static int[][] Triangulate(IList<Vector4> controlPoints)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Vector4](../../../aspose.threed.utilities/vector4)
-* class [PolygonModifier](../../polygonmodifier)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../polygonmodifier)
-* المجسم [Aspose.3D](../../../)
+* struct [Vector4](../../../aspose.threed.utilities/vector4/)
+* class [PolygonModifier](../)
+* namespace [Aspose.ThreeD.Entities](../../polygonmodifier/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,43 +1,57 @@
 ---
-title: Aspose.ThreeD.Utilities
-second_title: Aspose.3D لمرجع .NET API
-description: يتم تحديد كافة فئات الأدوات المساعدة في مساحة الاسم هذه.
+title: "Aspose.ThreeD.Utilities"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "جميع فئات الأدوات معرفة في هذا النطاق."
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.threed.utilities/
 ---
-يتم تحديد كافة فئات الأدوات المساعدة في مساحة الاسم هذه.
+جميع الفئات المساعدة معرفة في هذه المساحة.
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [DummyFileSystem](./dummyfilesystem) | عمليات القراءة / الكتابة هي عمليات وهمية. |
-| [FileSystem](./filesystem) | تغليف نظام الملفات. Aspose.3D سيستخدم هذا لقراءة / كتابة التبعيات. |
-| [IOUtils](./ioutils) | الأدوات المساعدة لكتابة المصفوفة / المتجه إلى الكاتب الثنائي |
-| [LocalFileSystem](./localfilesystem) | ملف[`LocalFileSystem`](../aspose.threed.utilities/localfilesystem) سيعين عمليات القراءة / الكتابة إلى الدليل المحلي. |
-| [MathUtils](./mathutils) | مجموعة من الأدوات المساعدة الرياضية المفيدة . |
-| [MemoryFileSystem](./memoryfilesystem) | ملف[`MemoryFileSystem`](../aspose.threed.utilities/memoryfilesystem)سيعين عمليات القراءة / الكتابة على الذاكرة. |
-| [ParseException](./parseexception) | استثناء عند فشل Aspose.3D في تحليل الإدخال. |
-| [SemanticAttribute](./semanticattribute) | السماح للمستخدم باستخدام البنية الخاصة به للإعلان الثابت عن[`VertexDeclaration`](../aspose.threed.utilities/vertexdeclaration) |
-| [TransformBuilder](./transformbuilder) | ملف[`TransformBuilder`](../aspose.threed.utilities/transformbuilder) يستخدم لبناء مصفوفة تحويل من خلال سلسلة من التحويلات. |
-| [Vertex](./vertex) | مرجع Vertex ، يُستخدم للوصول إلى الرأس الخام بتنسيق[`TriMesh`](../aspose.threed.entities/trimesh) . |
-| [VertexDeclaration](./vertexdeclaration) | الإعلان عن بنية رأس الرأس المعرفة المخصصة |
-| [VertexField](./vertexfield) | وصف تخطيط ذاكرة مجال Vertex . |
-| [Watermark](./watermark) | أداة لتشفير / فك العلامة المائية العمياء إلى / من شبكة. |
-| [ZipArchiveFileSystem](./ziparchivefilesystem) | نظام ملفات لتوفير وصول للقراءة فقط إلى ملف مضغوط speicified أو تدفق مضغوط . سيتم التخلص من نظام الملفات بعد عملية الفتح / الحفظ. |
-## واجهات
+| [FileSystem](./filesystem/) | تغليف نظام الملفات. سيستخدم Aspose.3D هذا لقراءة/كتابة الاعتمادات. |
+| [IOExtension](./ioextension/) | أدوات لكتابة المصفوفة/المتجه إلى كاتب ثنائي. |
+| [MathUtils](./mathutils/) | مجموعة من الأدوات الرياضية المفيدة. |
+| [ParseException](./parseexception/) | استثناء عندما فشل Aspose.3D في تحليل الإدخال. |
+| [SemanticAttribute](./semanticattribute/) | السماح للمستخدم باستخدام هيكله الخاص للإعلان الثابت عن [`VertexDeclaration`](../aspose.threed.utilities/vertexdeclaration/) |
+| [TransformBuilder](./transformbuilder/) | يُستخدم [`TransformBuilder`](../aspose.threed.utilities/transformbuilder/) لبناء مصفوفة التحويل عبر سلسلة من التحويلات. |
+| [Vertex](./vertex/) | مرجع القمة، يُستخدم للوصول إلى القمة الخام في [`TriMesh`](../aspose.threed.entities/trimesh/). |
+| [VertexDeclaration](./vertexdeclaration/) | إعلان بنية القمة المعرفة مخصصًا. |
+| [VertexField](./vertexfield/) | وصف تخطيط الذاكرة لحقول القمة. |
+| [Watermark](./watermark/) | أداة لتشفير/فك تشفير العلامة المائية العمياء إلى/من شبكة. |
+## Structures
 
-| واجهه المستخدم | وصف |
+| الهيكل | الوصف |
 | --- | --- |
-| [IArrayList&lt;T&gt;](./iarraylist-1) | Aspose.3D له تطبيقه الأمثل للغايةList لتحسين أداء التحميل / الحفظ يتم عرض هذه الواجهة فقط للمستخدم معIList واجهات متوافقة ومتشابهة. |
-## تعداد
+| [BoundingBox](./boundingbox/) | صندوق الحدود المحاذي للمحاور |
+| [BoundingBox2D](./boundingbox2d/) | صندوق الحدود المحاذي للمحاور لـ [`Vector2`](../aspose.threed.utilities/vector2/) |
+| [FMatrix4](./fmatrix4/) | مصفوفة 4x4 بجميع المكونات بنوع الفاصلة العائمة |
+| [FVector2](./fvector2/) | متجه عائم بمكوّنين. |
+| [FVector3](./fvector3/) | متجه عائم بثلاثة مكوّنات. |
+| [FVector4](./fvector4/) | متجه عائم بأربعة مكوّنات. |
+| [Matrix4](./matrix4/) | تنفيذ مصفوفة 4x4. |
+| [Quaternion](./quaternion/) | عادةً ما يُستخدم الكواترن لتطبيق الدوران في الرسومات الحاسوبية. |
+| [Rect](./rect/) | فئة لتمثيل المستطيل |
+| [RelativeRectangle](./relativerectangle/) | مستطيل نسبي الصيغة بين المكوّن النسبي والقيمة المطلقة هي: المقياس * (العرض المرجعي) + الإزاحة. لذا إذا أردنا تمثيل قيمة مطلقة، اجعل جميع حقول المقياس صفرًا، واستخدم حقول الإزاحة بدلاً من ذلك. |
+| [Vector2](./vector2/) | متجه ذو مكوّنين. |
+| [Vector3](./vector3/) | متجه ذو ثلاثة مكوّنات. |
+| [Vector4](./vector4/) | متجه ذو أربعة مكوّنات. |
+## الواجهات
 
-| تعداد | وصف |
+| الواجهة | الوصف |
 | --- | --- |
-| [BoundingBoxExtent](./boundingboxextent) | مدى المربع المحيط |
-| [ComposeOrder](./composeorder) | ترتيب تكوين مصفوفة التحويل |
-| [VertexFieldDataType](./vertexfielddatatype) | نوع بيانات حقل Vertex |
-| [VertexFieldSemantic](./vertexfieldsemantic) | دلالات حقل الرأس |
+| [IArrayList&lt;T&gt;](./iarraylist-1/) | Aspose.3D لديها تنفيذ مُحسّن للغاية لقائمة List لتحسين أداء التحميل/الحفظ. يتم إتاحة هذه الواجهة فقط للمستخدم مع توافق IList والواجهات المشابهة. |
+## التعداد
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+| التعداد | الوصف |
+| --- | --- |
+| [BoundingBoxExtent](./boundingboxextent/) | مدى صندوق الحدود |
+| [ComposeOrder](./composeorder/) | ترتيب تكوين مصفوفة التحويل |
+| [RotationOrder](./rotationorder/) | الترتيب يتحكم في أي من rx ry rz يتم تطبيقها في مصفوفة التحويل. |
+| [VertexFieldDataType](./vertexfielddatatype/) | نوع بيانات حقل القمة |
+| [VertexFieldSemantic](./vertexfieldsemantic/) | دلالة حقل القمة |
+
+

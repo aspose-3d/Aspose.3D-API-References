@@ -1,53 +1,53 @@
 ---
-title: VertexElementUV
-second_title: Aspose.3D لمرجع .NET API
-description: يحدد إحداثيات الأشعة فوق البنفسجية للمكونات المحددة . يمكن أن يكون للشكل الهندسي عدة مكوناتVertexElementUV./vertexelementuv العناصر  ولكل عنصر مختلفTextureMapping./texturemapping s.
+title: "الفئة VertexElementUV"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "Aspose.ThreeD.Entities.VertexElementUV الفئة. يعرّف إحداثيات UV للمكوّنات المحددة. يمكن للهيكل أن يحتوي على عدة عناصر VertexElementUV وكل واحد منها يمتلك TextureMappings مختلفة."
 type: docs
-weight: 900
+weight: 960
 url: /ar/net/aspose.threed.entities/vertexelementuv/
 ---
 ## VertexElementUV class
 
-يحدد إحداثيات الأشعة فوق البنفسجية للمكونات المحددة . يمكن أن يكون للشكل الهندسي عدة مكونات[`VertexElementUV`](../vertexelementuv) العناصر ، ولكل عنصر مختلف[`TextureMapping`](../texturemapping) s.
+يعرّف إحداثيات UV للمكوّنات المحددة. يمكن للهيكل أن يحتوي على عدة عناصر `VertexElementUV`، وكل واحد منها يمتلك [`TextureMapping`](../texturemapping/) مختلفة.
 
 ```csharp
 public class VertexElementUV : VertexElementVector4
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [VertexElementUV](vertexelementuv#constructor)() | يقوم بتهيئة مثيل جديد لملف[`VertexElementUV`](../vertexelementuv) class. النوع الافتراضي لتعيين النسيج هوDiffuse |
-| [VertexElementUV](vertexelementuv#constructor_1)(TextureMapping) | يقوم بتهيئة مثيل جديد لملف[`VertexElementUV`](../vertexelementuv) فئة . |
+| [VertexElementUV](vertexelementuv/#constructor)() | يُنشئ مثيلاً جديدًا لـ `VertexElementUV` الفئة. النوع الافتراضي لتعيين القوام هو Diffuse |
+| [VertexElementUV](vertexelementuv/#constructor_1)(TextureMapping) | يُنشئ مثيلاً جديدًا لـ `VertexElementUV` الفئة. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Data](../../aspose.threed.entities/vertexelementvector4/data) { get; } | الحصول على بيانات الرأس |
-| [Indices](../../aspose.threed.entities/vertexelement/indices) { get; } | يحصل على بيانات المؤشرات |
-| [MappingMode](../../aspose.threed.entities/vertexelement/mappingmode) { get; set; } | الحصول على أو تعيين كيفية تعيين العنصر. |
-| [Name](../../aspose.threed.entities/vertexelement/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ReferenceMode](../../aspose.threed.entities/vertexelement/referencemode) { get; set; } | الحصول على أو تعيين كيفية الإشارة إلى العنصر. |
-| [VertexElementType](../../aspose.threed.entities/vertexelement/vertexelementtype) { get; } | يحصل على نوع ملف[`VertexElement`](../vertexelement) |
+| [Data](../../aspose.threed.entities/vertexelementvector4/data/) { get; } | يحصل على بيانات الرأس |
+| [Indices](../../aspose.threed.entities/vertexelement/indices/) { get; } | يحصل على بيانات الفهارس |
+| [MappingMode](../../aspose.threed.entities/vertexelement/mappingmode/) { get; set; } | يحصل أو يضبط كيفية تعيين العنصر. |
+| [Name](../../aspose.threed.entities/vertexelement/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ReferenceMode](../../aspose.threed.entities/vertexelement/referencemode/) { get; set; } | يحصل أو يضبط كيفية الإشارة إلى العنصر. |
+| [VertexElementType](../../aspose.threed.entities/vertexelement/vertexelementtype/) { get; } | يحصل على نوع الـ [`VertexElement`](../vertexelement/) |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AddData](../../aspose.threed.entities/vertexelementuv/adddata#adddata)(IEnumerable&lt;Vector2&gt;) |  |
-| [AddData](../../aspose.threed.entities/vertexelementuv/adddata#adddata_1)(IEnumerable&lt;Vector3&gt;) |  |
-| override [Clear](../../aspose.threed.entities/vertexelementvector4/clear)() | يزيل كل العناصر من مصفوفة الفهرس المباشر. |
-| [CopyTo](../../aspose.threed.entities/vertexelementvector4/copyto)(VertexElementVector4) | نسخ البيانات إلى element |
-| [SetData](../../aspose.threed.entities/vertexelementvector4/setdata)(Vector4[]) | تحميل البيانات |
-| [SetIndices](../../aspose.threed.entities/vertexelement/setindices)(int[]) | تحميل المؤشرات |
-| override [ToString](../../aspose.threed.entities/vertexelement/tostring)() | تمثيل سلسلة لعنصر قمة الرأس . |
+| [AddData](../../aspose.threed.entities/vertexelementuv/adddata/#adddata)(IEnumerable&lt;Vector2&gt;) |  |
+| [AddData](../../aspose.threed.entities/vertexelementuv/adddata/#adddata_1)(IEnumerable&lt;Vector3&gt;) |  |
+| override [Clear](../../aspose.threed.entities/vertexelementvector4/clear/)() | يزيل جميع العناصر من المصفوفات المباشرة ومصفوفات الفهارس. |
+| [CopyTo](../../aspose.threed.entities/vertexelementvector4/copyto/)(VertexElementVector4) | ينسخ البيانات إلى العنصر المحدد |
+| [SetData](../../aspose.threed.entities/vertexelementvector4/setdata/)(Vector4[]) | تحميل البيانات |
+| [SetIndices](../../aspose.threed.entities/vertexelement/setindices/)(int[]) | تحميل الفهارس |
+| override [ToString](../../aspose.threed.entities/vertexelement/tostring/)() | تمثيل نصي لعنصر الرأس. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [VertexElementVector4](../vertexelementvector4)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* المجسم [Aspose.3D](../../)
+* class [VertexElementVector4](../vertexelementvector4/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

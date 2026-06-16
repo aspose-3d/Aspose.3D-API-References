@@ -1,52 +1,52 @@
 ---
-title: ShaderMaterial
-second_title: Aspose.3D لمرجع .NET API
-description: تسمح مادة التظليل بوصف المادة بواسطة محرك التقديم الخارجي أو لغة التظليل.ShaderMaterial./shadermaterial الاستخداماتShaderTechnique./shadertechniqueلوصف تفاصيل العرض الملموسة  سيتم استخدام والأنسب وفقًا لمنصة العرض النهائية . على سبيل المثال ShaderMaterial./shadermaterial يمكن أن يكون للمثيل تقنيتان  أحدهما يتم تعريفه بواسطة HLSL  والآخر يتم تعريفه بواسطة GLSL ضمن النظام الأساسي غير النافذة  يجب استخدام GLSL بدلاً من HLSL
+title: "الفئة ShaderMaterial"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Shading.ShaderMaterial. يتيح مادة الظل (shader material) وصف المادة بواسطة محرك عرض خارجي أو لغة ظل. يستخدم ShaderMaterial تقنية ShaderTechnique لوصف تفاصيل العرض الفعلية وسيتم اختيار الأنسب وفقًا لمنصة العرض النهائية. على سبيل المثال، يمكن أن يحتوي كائن ShaderMaterial الخاص بك على تقنيتين، إحداهما معرفة بـ HLSL والأخرى معرفة بـ GLSL. تحت منصة غير نافذة، يجب استخدام GLSL بدلاً من HLSL."
 type: docs
-weight: 2330
+weight: 2580
 url: /ar/net/aspose.threed.shading/shadermaterial/
 ---
 ## ShaderMaterial class
 
-تسمح مادة التظليل بوصف المادة بواسطة محرك التقديم الخارجي أو لغة التظليل.[`ShaderMaterial`](../shadermaterial) الاستخدامات[`ShaderTechnique`](../shadertechnique)لوصف تفاصيل العرض الملموسة ، سيتم استخدام والأنسب وفقًا لمنصة العرض النهائية . على سبيل المثال ،[`ShaderMaterial`](../shadermaterial) يمكن أن يكون للمثيل تقنيتان ، أحدهما يتم تعريفه بواسطة HLSL ، والآخر يتم تعريفه بواسطة GLSL ضمن النظام الأساسي غير النافذة ، يجب استخدام GLSL بدلاً من HLSL
+يتيح مادة الظل وصف المادة بواسطة محرك عرض خارجي أو لغة ظل. `ShaderMaterial` يستخدم [`ShaderTechnique`](../shadertechnique/) لوصف تفاصيل العرض الفعلية، وسيتم اختيار الأنسب وفقًا لمنصة العرض النهائية. على سبيل المثال، يمكن أن يحتوي كائن `ShaderMaterial` الخاص بك على تقنيتين، إحداهما معرفة بـ HLSL، والأخرى معرفة بـ GLSL. تحت منصة غير نافذة يجب استخدام GLSL بدلاً من HLSL
 
 ```csharp
 public class ShaderMaterial : Material
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ShaderMaterial](shadermaterial#constructor)() | يقوم بتهيئة مثيل جديد لملف[`ShaderMaterial`](../shadermaterial) فئة . |
-| [ShaderMaterial](shadermaterial#constructor_1)(string) | يقوم بتهيئة مثيل جديد لملف[`ShaderMaterial`](../shadermaterial) فئة . |
+| [ShaderMaterial](shadermaterial/#constructor)() | ينشئ مثيلًا جديدًا للفئة `ShaderMaterial`. |
+| [ShaderMaterial](shadermaterial/#constructor_1)(string) | ينشئ مثيلًا جديدًا للفئة `ShaderMaterial`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Techniques](../../aspose.threed.shading/shadermaterial/techniques) { get; } | يحصل على جميع التقنيات المتاحة المحددة في هذه المادة. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Techniques](../../aspose.threed.shading/shadermaterial/techniques/) { get; } | يحصل على جميع التقنيات المتاحة المعرفة في هذه المادة. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator)() | الحصول على العداد لتعداد فتحات النسيج الداخلي. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [GetTexture](../../aspose.threed.shading/material/gettexture)(string) | الحصول على النسيج من الفتحة المحددة ، يمكن أن يكون اسم خاصية المادة أو اسم معلمة shader |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| [SetTexture](../../aspose.threed.shading/material/settexture)(string, TextureBase) | يضبط النسيج على slot |
-| override [ToString](../../aspose.threed.shading/material/tostring)() | كائن تنسيقات إلى string |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | يحصل على المُعدِّد لتعداد فتحات القوام الداخلية. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | يحصل على القوام من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | يعيّن القوام إلى الفتحة المحددة |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | يحوّل الكائن إلى سلسلة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Material](../material)
-* مساحة الاسم [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* المجسم [Aspose.3D](../../)
+* class [Material](../material/)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

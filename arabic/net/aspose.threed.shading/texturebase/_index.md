@@ -1,60 +1,60 @@
 ---
-title: TextureBase
-second_title: Aspose.3D لمرجع .NET API
-description: الفئة الأساسية لجميع القوام الخرسانية. الملمس يحدد شكل ومظهر السطح الهندسي.
+title: "الفئة TextureBase"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Shading.TextureBase. الفئة الأساسية لجميع القوام الملموسة. القوام يحدد مظهر وشعور سطح الهندسة"
 type: docs
-weight: 2360
+weight: 2610
 url: /ar/net/aspose.threed.shading/texturebase/
 ---
 ## TextureBase class
 
-الفئة الأساسية لجميع القوام الخرسانية. الملمس يحدد شكل ومظهر السطح الهندسي.
+الفئة الأساسية لجميع الملمسات المحددة. الملمس يحدد الشكل والمظهر لسطح الهندسة.
 
 ```csharp
 public class TextureBase : A3DObject
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TextureBase](texturebase)(string) | يقوم بتهيئة مثيل جديد لملف[`TextureBase`](../texturebase) فئة . |
+| [TextureBase](texturebase/)(string) | ينشئ نسخة جديدة من الفئة `TextureBase`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Alpha](../../aspose.threed.shading/texturebase/alpha) { get; set; } | الحصول على أو تعيين قيمة ألفا الافتراضية للنسيج يكون هذا صالحًا عندما يكون ملف[`AlphaSource`](./alphasource) هوPixelAlpha القيمة الافتراضية هي 1.0 ، نطاق القيمة الصالح بين 0 و 1 |
-| [AlphaSource](../../aspose.threed.shading/texturebase/alphasource) { get; set; } | الحصول على أو تحديد ما إذا كان النسيج يحدد قناة ألفا. القيمة الافتراضية هيNone |
-| [MagFilter](../../aspose.threed.shading/texturebase/magfilter) { get; set; } | الحصول على أو تعيين مرشح التكبير. |
-| [MinFilter](../../aspose.threed.shading/texturebase/minfilter) { get; set; } | الحصول على أو تعيين عامل تصفية التصغير . |
-| [MipFilter](../../aspose.threed.shading/texturebase/mipfilter) { get; set; } | الحصول على أو تعيين عامل التصفية لأخذ العينات على مستوى mip . |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [UVRotation](../../aspose.threed.shading/texturebase/uvrotation) { get; set; } | الحصول على أو ضبط دوران الزخرفة |
-| [UVScale](../../aspose.threed.shading/texturebase/uvscale) { get; set; } | الحصول على أو تعيين مقياس الأشعة فوق البنفسجية . |
-| [UVTranslation](../../aspose.threed.shading/texturebase/uvtranslation) { get; set; } | الحصول على أو تعيين ترجمة الأشعة فوق البنفسجية . |
-| [WrapModeU](../../aspose.threed.shading/texturebase/wrapmodeu) { get; set; } | الحصول على أو تعيين أوضاع التفاف النسيج في U. |
-| [WrapModeV](../../aspose.threed.shading/texturebase/wrapmodev) { get; set; } | الحصول على أو تعيين أوضاع التفاف النسيج في V. |
-| [WrapModeW](../../aspose.threed.shading/texturebase/wrapmodew) { get; set; } | الحصول على أو تعيين أوضاع التفاف النسيج في W. |
+| [Alpha](../../aspose.threed.shading/texturebase/alpha/) { get; set; } | يحصل أو يضبط القيمة الافتراضية لألفا للقوام. هذا صالح عندما يكون [`AlphaSource`](./alphasource/) هو PixelAlpha. القيمة الافتراضية هي 1.0، ونطاق القيم الصالحة بين 0 و 1 |
+| [AlphaSource](../../aspose.threed.shading/texturebase/alphasource/) { get; set; } | يحصل أو يعيّن ما إذا كان الملمس يحدد قناة ألفا. القيمة الافتراضية هي لا شيء |
+| [MagFilter](../../aspose.threed.shading/texturebase/magfilter/) { get; set; } | يحصل أو يعيّن الفلتر للتكبير. |
+| [MinFilter](../../aspose.threed.shading/texturebase/minfilter/) { get; set; } | يسترجع أو يعيّن الفلتر للتقليل. |
+| [MipFilter](../../aspose.threed.shading/texturebase/mipfilter/) { get; set; } | يسترجع أو يعيّن الفلتر لأخذ عينات مستوى الميب. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [UVRotation](../../aspose.threed.shading/texturebase/uvrotation/) { get; set; } | يسترجع أو يعيّن دوران القوام |
+| [UVScale](../../aspose.threed.shading/texturebase/uvscale/) { get; set; } | يسترجع أو يعيّن مقياس الـ UV. |
+| [UVTranslation](../../aspose.threed.shading/texturebase/uvtranslation/) { get; set; } | يسترجع أو يعيّن إزاحة الـ UV. |
+| [WrapModeU](../../aspose.threed.shading/texturebase/wrapmodeu/) { get; set; } | يسترجع أو يعيّن أوضاع لف القوام في الاتجاه U. |
+| [WrapModeV](../../aspose.threed.shading/texturebase/wrapmodev/) { get; set; } | يسترجع أو يعيّن أوضاع لف القوام في الاتجاه V. |
+| [WrapModeW](../../aspose.threed.shading/texturebase/wrapmodew/) { get; set; } | يسترجع أو يعيّن أوضاع لف القوام في الاتجاه W. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| [SetRotation](../../aspose.threed.shading/texturebase/setrotation)(double, double) | يضبط دوران الأشعة فوق البنفسجية. |
-| [SetScale](../../aspose.threed.shading/texturebase/setscale)(double, double) | يضبط مقياس الأشعة فوق البنفسجية. |
-| [SetTranslation](../../aspose.threed.shading/texturebase/settranslation)(double, double) | يعين ترجمة الأشعة فوق البنفسجية. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| [SetRotation](../../aspose.threed.shading/texturebase/setrotation/)(double, double) | يعيّن دوران الـ UV. |
+| [SetScale](../../aspose.threed.shading/texturebase/setscale/)(double, double) | يعيّن مقياس الـ UV. |
+| [SetTranslation](../../aspose.threed.shading/texturebase/settranslation/)(double, double) | يعيّن إزاحة الـ UV. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [A3DObject](../../aspose.threed/a3dobject)
-* مساحة الاسم [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* المجسم [Aspose.3D](../../)
+* class [A3DObject](../../aspose.threed/a3dobject/)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

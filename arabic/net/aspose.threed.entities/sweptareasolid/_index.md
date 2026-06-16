@@ -1,58 +1,79 @@
 ---
-title: SweptAreaSolid
-second_title: Aspose.3D لمرجع .NET API
-description: أSweptAreaSolid./sweptareasolid يُنشئ هندسة عن طريق مسح ملف تعريف على طول دليل.
+title: "الفئة SweptAreaSolid"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "Aspose.ThreeD.Entities.SweptAreaSolid فئة. يقوم SweptAreaSolid بإنشاء هندسة عن طريق مسح ملف تعريف على طول directrix."
 type: docs
-weight: 690
+weight: 750
 url: /ar/net/aspose.threed.entities/sweptareasolid/
 ---
 ## SweptAreaSolid class
 
-أ[`SweptAreaSolid`](../sweptareasolid) يُنشئ هندسة عن طريق مسح ملف تعريف على طول دليل.
+يقوم `SweptAreaSolid` بإنشاء هندسة عن طريق مسح ملف تعريف على طول directrix.
 
 ```csharp
 public class SweptAreaSolid : Entity, IMeshConvertible
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SweptAreaSolid](sweptareasolid)() | Default_Constructor |
+| [SweptAreaSolid](sweptareasolid/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Directrix](../../aspose.threed.entities/sweptareasolid/directrix) { get; set; } | الدليل الذي تجتاح المنطقة المجتاحة معه. |
-| [EndPoint](../../aspose.threed.entities/sweptareasolid/endpoint) { get; set; } | نقطة نهاية الدليل . |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [Shape](../../aspose.threed.entities/sweptareasolid/shape) { get; set; } | ملف التعريف الأساسي لبناء الهندسة . |
-| [StartPoint](../../aspose.threed.entities/sweptareasolid/startpoint) { get; set; } | نقطة بداية الدليل . |
+| [Directrix](../../aspose.threed.entities/sweptareasolid/directrix/) { get; set; } | الdirectrix الذي يتم مسح المنطقة المتحركة على طولها. |
+| [EndPoint](../../aspose.threed.entities/sweptareasolid/endpoint/) { get; set; } | نقطة النهاية للdirectrix. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [Shape](../../aspose.threed.entities/sweptareasolid/shape/) { get; set; } | ملف التعريف الأساسي لإنشاء الهندسة. |
+| [StartPoint](../../aspose.threed.entities/sweptareasolid/startpoint/) { get; set; } | نقطة البداية للdirectrix. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| [ToMesh](../../aspose.threed.entities/sweptareasolid/tomesh)() | تحويل الكائن الحالي إلى mesh |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| [ToMesh](../../aspose.threed.entities/sweptareasolid/tomesh/)() | تحويل الكائن الحالي إلى شبكة |
 
-### أنظر أيضا
+## أمثلة
 
-* class [Entity](../../aspose.threed/entity)
-* interface [IMeshConvertible](../imeshconvertible)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* المجسم [Aspose.3D](../../)
+الكود التالي يوضح كيفية نمذجة كيان صلب عن طريق مسح شكل C على دائرة.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+var directrix = new Circle(20);
+var shape = new CShape();
+
+var swept = new SweptAreaSolid()
+{
+  Shape = shape,
+  Directrix = directrix,
+  StartPoint = EndPoint.FromDegree(0),
+  EndPoint = EndPoint.FromDegree(130)
+};
+
+var scene = new Scene();
+scene.RootNode.CreateChildNode(swept);
+scene.Save("swept.obj");
+```
+
+### انظر أيضًا
+
+* class [Entity](../../aspose.threed/entity/)
+* interface [IMeshConvertible](../imeshconvertible/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
+
+

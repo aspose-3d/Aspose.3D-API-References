@@ -1,121 +1,121 @@
 ---
-title: Cylinder
-second_title: Aspose.3D لمرجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفCylinderaspose.threed.entities/cylinder فئة .
+title: "Cylinder.Cylinder"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "منشئ Cylinder. يهيئ نسخة جديدة من فئة Cylinder"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/cylinder/cylinder/
 ---
 ## Cylinder() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Cylinder`](../../cylinder) فئة .
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
 
 ```csharp
 public Cylinder()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Cylinder](../../cylinder)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../cylinder)
-* المجسم [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`Cylinder`](../../cylinder) فئة .
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radius, double height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| radius | Double | نصف قطر الغطاء العلوي والسفلي. |
-| height | Double | ارتفاع. |
+| نصف القطر | Double | نصف قطر الغطاء العلوي والسفلي. |
+| الارتفاع | Double | الارتفاع. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Cylinder](../../cylinder)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../cylinder)
-* المجسم [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`Cylinder`](../../cylinder) فئة .
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| radiusTop | Double | قمة الشعاع. |
-| radiusBottom | Double | نصف قطر القاع. |
-| height | Double | ارتفاع. |
+| radiusTop | Double | نصف قطر العلوي. |
+| radiusBottom | Double | نصف قطر السفلي. |
+| الارتفاع | Double | الارتفاع. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Cylinder](../../cylinder)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../cylinder)
-* المجسم [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double, int, int, bool) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Cylinder`](../../cylinder) فئة .
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height, int radialSegments, 
     int heightSegments, bool openEnded)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
 | radiusTop | Double | نصف قطر الغطاء العلوي للأسطوانة. |
 | radiusBottom | Double | نصف قطر الغطاء السفلي للأسطوانة. |
-| height | Double | ارتفاع الاسطوانة. |
-| radialSegments | Int32 | الأجزاء الشعاعية للدائرتين العلوية والسفلية .. |
-| heightSegments | Int32 | شرائح الارتفاع. |
-| openEnded | Boolean | إذا تم التعيين على`حقيقي` لن تحتوي الأسطوانة على أغطية سفلية / علوية .. |
+| الارتفاع | Double | ارتفاع الأسطوانة. |
+| radialSegments | Int32 | قطاعات شعاعية لكل من الدائرتين العلوية والسفلية.. |
+| heightSegments | Int32 | مقاطع الارتفاع. |
+| openEnded | Boolean | إذا تم تعيينه إلى `true` فإن الأسطوانة لن تحتوي على أغطية سفلية/علوية.. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Cylinder](../../cylinder)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../cylinder)
-* المجسم [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(string, double, double, double, int, int, bool, double, double) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`Cylinder`](../../cylinder) فئة .
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
 
 ```csharp
 public Cylinder(string name, double radiusTop, double radiusBottom, double height, 
     int radialSegments, int heightSegments, bool openEnded, double thetaStart, double thetaLength)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| name | String | اسم هذا الكائن |
+| الاسم | سلسلة | اسم هذا الكائن |
 | radiusTop | Double | نصف قطر الغطاء العلوي للأسطوانة. |
 | radiusBottom | Double | نصف قطر الغطاء السفلي للأسطوانة. |
-| height | Double | ارتفاع الاسطوانة. |
-| radialSegments | Int32 | الأجزاء الشعاعية للدائرتين العلوية والسفلية .. |
-| heightSegments | Int32 | شرائح الارتفاع. |
-| openEnded | Boolean | إذا تم التعيين على`حقيقي` لن تحتوي الأسطوانة على أغطية سفلية / علوية .. |
-| thetaStart | Double | بداية ثيتا. |
-| thetaLength | Double | طول ثيتا. |
+| الارتفاع | Double | ارتفاع الأسطوانة. |
+| radialSegments | Int32 | قطاعات شعاعية لكل من الدائرتين العلوية والسفلية.. |
+| heightSegments | Int32 | مقاطع الارتفاع. |
+| openEnded | Boolean | إذا تم تعيينه إلى `true` فإن الأسطوانة لن تحتوي على أغطية سفلية/علوية.. |
+| thetaStart | Double | بداية theta. |
+| thetaLength | Double | طول theta. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Cylinder](../../cylinder)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../cylinder)
-* المجسم [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
