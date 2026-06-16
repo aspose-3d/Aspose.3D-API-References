@@ -1,35 +1,35 @@
 ---
-title: Bind
-second_title: Aspose.3D for .NET API 参考
-description: 将缓冲区绑定到当前描述符 set
+title: "DescriptorSetUpdater.Bind"
+second_title: "Aspose.3D for .NET API 参考"
+description: "DescriptorSetUpdater 方法。将缓冲区绑定到当前描述符集"
 type: docs
 weight: 10
 url: /zh/net/aspose.threed.render/descriptorsetupdater/bind/
 ---
 ## Bind(IBuffer, int, int) {#bind_1}
 
-将缓冲区绑定到当前描述符 set
+将缓冲区绑定到当前描述符集
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| buffer | IBuffer | 绑定哪个缓冲区 |
+| 缓冲区 | IBuffer | 要绑定的缓冲区 |
 | offset | Int32 | 要绑定的缓冲区的偏移量 |
-| size | Int32 | 要绑定的缓冲区大小 |
+| 尺寸 | Int32 | 要绑定的缓冲区的大小 |
 
 ### 返回值
 
-返回当前实例以进行链接操作
+返回当前实例以进行链式操作
 
-### 也可以看看
+### 另请参见
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* 命名空间 [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* 部件 [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -41,74 +41,74 @@ public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 public DescriptorSetUpdater Bind(IBuffer buffer)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| buffer | IBuffer |  |
+| 缓冲区 | IBuffer |  |
 
 ### 返回值
 
-返回当前实例以进行链接操作
+返回当前实例以进行链式操作
 
-### 也可以看看
+### 另请参见
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* 命名空间 [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* 部件 [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer) {#bind_3}
 
-将缓冲区绑定到在指定绑定位置设置的当前描述符。
+在指定的绑定位置将缓冲区绑定到当前描述符集。
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| binding | Int32 | 绑定位置 |
-| buffer | IBuffer | 要绑定的整个缓冲区 |
+| 绑定 | Int32 | 绑定位置 |
+| 缓冲区 | IBuffer | 要绑定的整个缓冲区 |
 
 ### 返回值
 
-返回当前实例以进行链接操作
+返回当前实例以进行链式操作
 
-### 也可以看看
+### 另请参见
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* 命名空间 [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* 部件 [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer, int, int) {#bind_4}
 
-将缓冲区绑定到在指定绑定位置设置的当前描述符。
+在指定的绑定位置将缓冲区绑定到当前描述符集。
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int size)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| binding | Int32 | 绑定位置 |
-| buffer | IBuffer | 要绑定的缓冲区 |
+| 绑定 | Int32 | 绑定位置 |
+| 缓冲区 | IBuffer | 要绑定的缓冲区 |
 | offset | Int32 | 要绑定的缓冲区的偏移量 |
-| size | Int32 | 要绑定的缓冲区大小 |
+| 尺寸 | Int32 | 要绑定的缓冲区的大小 |
 
 ### 返回值
 
-返回当前实例以进行链接操作
+返回当前实例以进行链式操作
 
-### 也可以看看
+### 另请参见
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* 命名空间 [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* 部件 [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -120,20 +120,20 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int si
 public DescriptorSetUpdater Bind(ITextureUnit texture)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| texture | ITextureUnit | 要绑定的纹理单元 |
+| 纹理 | ITextureUnit | 要绑定的纹理单元 |
 
 ### 返回值
 
-返回当前实例以进行链接操作
+返回当前实例以进行链式操作
 
-### 也可以看看
+### 另请参见
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* 命名空间 [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* 部件 [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -145,20 +145,20 @@ public DescriptorSetUpdater Bind(ITextureUnit texture)
 public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| binding | Int32 | 绑定位置 |
-| texture | ITextureUnit | 要绑定的纹理单元 |
+| 绑定 | Int32 | 绑定位置 |
+| 纹理 | ITextureUnit | 要绑定的纹理单元 |
 
 ### 返回值
 
-返回当前实例以进行链接操作
+返回当前实例以进行链式操作
 
-### 也可以看看
+### 另请参见
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* 命名空间 [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* 部件 [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
