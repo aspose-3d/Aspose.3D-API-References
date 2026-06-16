@@ -1,0 +1,165 @@
+---
+title: "FbxLoadOptions"
+second_title: "Aspose.3D के लिए Node.js के माध्यम से Java API संदर्भ"
+description: 
+type: docs
+
+url: /hi/nodejs-java/aspose.threed/fbxloadoptions/
+---
+## FbxLoadOptions class
+
+Fbx फ़ॉर्मेट के लिए लोड विकल्प।
+
+
+## विधियाँ
+
+### constructor{#constructor}
+
+| नाम | विवरण |
+| --- | --- |
+| constructor(format) | FbxLoadOptions का कंस्ट्रक्टर |
+
+ **Parameters:**
+
+| नाम | प्रकार | विवरण |
+| --- | --- | --- |
+| forma | फ़ाइल फ़ॉर्मेट | null |
+
+ **Result:**
+
+
+
+---
+
+
+### constructor_overload{#constructor_overload}
+
+| नाम | विवरण |
+| --- | --- |
+| constructor_overload() | FbxLoadOptions का कंस्ट्रक्टर |
+
+ **Result:**
+
+
+
+---
+
+
+### getKeepBuiltinGlobalSettings{#getKeepBuiltinGlobalSettings}
+
+| नाम | विवरण |
+| --- | --- |
+| getKeepBuiltinGlobalSettings() | GlobalSettings में बिल्ट‑इन प्रॉपर्टीज़ को रखने के बारे में प्राप्त करता है या सेट करता है, जिनका AssetInfo में मूल प्रॉपर्टी प्रतिस्थापन है। यदि आप GlobalSettings में सभी प्रॉपर्टीज़ चाहते हैं तो इसे true सेट करें। डिफ़ॉल्ट मान false है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setKeepBuiltinGlobalSettings{#setKeepBuiltinGlobalSettings}
+
+| नाम | विवरण |
+| --- | --- |
+| setKeepBuiltinGlobalSettings(value) | GlobalSettings में बिल्ट‑इन प्रॉपर्टीज़ को रखने के बारे में प्राप्त करता है या सेट करता है, जिनका AssetInfo में मूल प्रॉपर्टी प्रतिस्थापन है। यदि आप GlobalSettings में सभी प्रॉपर्टीज़ चाहते हैं तो इसे true सेट करें। डिफ़ॉल्ट मान false है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getFileFormat{#getFileFormat}
+
+| नाम | विवरण |
+| --- | --- |
+| getFileFormat() | वर्तमान Save/Load विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट को प्राप्त करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getEncoding{#getEncoding}
+
+| नाम | विवरण |
+| --- | --- |
+| getEncoding() | टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग को प्राप्त करता है या सेट करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर यह तय करेगा कि कौन सी एन्कोडिंग उपयोग की जाएगी। |
+
+ **Result:**
+
+
+
+---
+
+
+### getFileSystem{#getFileSystem}
+
+| नाम | विवरण |
+| --- | --- |
+| getFileSystem() | लोड/सेव के दौरान बाहरी निर्भरताओं को कैसे प्रबंधित किया जाए, इसे उपयोगकर्ता को संभालने की अनुमति देता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setFileSystem{#setFileSystem}
+
+| नाम | विवरण |
+| --- | --- |
+| setFileSystem(value) | लोड/सेव के दौरान बाहरी निर्भरताओं को कैसे प्रबंधित किया जाए, इसे उपयोगकर्ता को संभालने की अनुमति देता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getLookupPaths{#getLookupPaths}
+
+| नाम | विवरण |
+| --- | --- |
+| getLookupPaths() | कुछ फ़ाइलें जैसे OBJ बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को लोड करने के लिए बाहरी फ़ाइल खोजने की अनुमति देते हैं। |
+
+ **Result:**
+
+
+
+---
+
+
+### getFileName{#getFileName}
+
+| नाम | विवरण |
+| --- | --- |
+| getFileName() | एक्सपोर्ट/इम्पोर्ट सीन की फ़ाइल नाम। यह वैकल्पिक है, लेकिन OBJ की सामग्री जैसी बाहरी एसेट्स को सीरियलाइज़ करते समय उपयोगी है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setFileName{#setFileName}
+
+| नाम | विवरण |
+| --- | --- |
+| setFileName(value) | एक्सपोर्ट/इम्पोर्ट सीन की फ़ाइल नाम। यह वैकल्पिक है, लेकिन OBJ की सामग्री जैसी बाहरी एसेट्स को सीरियलाइज़ करते समय उपयोगी है। |
+
+ **Result:**
+
+
+
+---
+
+
+

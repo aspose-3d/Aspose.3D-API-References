@@ -1,0 +1,827 @@
+---
+title: "Light"
+second_title: "Aspose.3D के लिए Node.js के माध्यम से Java API संदर्भ"
+description: 
+type: docs
+
+url: /hi/nodejs-java/aspose.threed/light/
+---
+## Light class
+
+प्रकाश दृश्य को प्रकाशित करता है। प्रकाश के कुल क्षीणन की गणना करने का सूत्र है: A = ConstantAttenuation + (Dist × LinearAttenuation) + ((Dist^2) × QuadraticAttenuation)
+
+
+## विधियाँ
+
+### constructor{#constructor}
+
+| नाम | विवरण |
+| --- | --- |
+| constructor() | Light क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### constructor_overload{#constructor_overload}
+
+| नाम | विवरण |
+| --- | --- |
+| constructor_overload(name) | Light क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
+
+ **Parameters:**
+
+| नाम | प्रकार | विवरण |
+| --- | --- | --- |
+| name | स्ट्रिंग | नाम |
+
+ **Result:**
+
+
+
+---
+
+
+### constructor_overload2{#constructor_overload2}
+
+| नाम | विवरण |
+| --- | --- |
+| constructor_overload2(name, type) | Light क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
+
+ **Parameters:**
+
+| नाम | प्रकार | विवरण |
+| --- | --- | --- |
+| name | स्ट्रिंग | नाम |
+| type | LightType | LightType |
+
+ **Result:**
+
+
+
+---
+
+
+### getColor{#getColor}
+
+| नाम | विवरण |
+| --- | --- |
+| getColor() | लाइट का रंग प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setColor{#setColor}
+
+| नाम | विवरण |
+| --- | --- |
+| setColor(value) | लाइट का रंग प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getLightType{#getLightType}
+
+| नाम | विवरण |
+| --- | --- |
+| getLightType() | लाइट का प्रकार प्राप्त करता है या सेट करता है। प्रॉपर्टी का मान LightType पूर्णांक स्थिरांक है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setLightType{#setLightType}
+
+| नाम | विवरण |
+| --- | --- |
+| setLightType(value) | लाइट का प्रकार प्राप्त करता है या सेट करता है। प्रॉपर्टी का मान LightType पूर्णांक स्थिरांक है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getCastLight{#getCastLight}
+
+| नाम | विवरण |
+| --- | --- |
+| getCastLight() | वर्तमान लाइट इंस्टेंस अन्य वस्तुओं को प्रकाशित कर सकता है या नहीं, इसे प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setCastLight{#setCastLight}
+
+| नाम | विवरण |
+| --- | --- |
+| setCastLight(value) | वर्तमान लाइट इंस्टेंस अन्य वस्तुओं को प्रकाशित कर सकता है या नहीं, इसे प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getIntensity{#getIntensity}
+
+| नाम | विवरण |
+| --- | --- |
+| getIntensity() | लाइट की तीव्रता प्राप्त करता है या सेट करता है, डिफ़ॉल्ट मान 100 है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setIntensity{#setIntensity}
+
+| नाम | विवरण |
+| --- | --- |
+| setIntensity(value) | लाइट की तीव्रता प्राप्त करता है या सेट करता है, डिफ़ॉल्ट मान 100 है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getHotSpot{#getHotSpot}
+
+| नाम | विवरण |
+| --- | --- |
+| getHotSpot() | हॉट स्पॉट कोन कोण (डिग्री में) को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setHotSpot{#setHotSpot}
+
+| नाम | विवरण |
+| --- | --- |
+| setHotSpot(value) | हॉट स्पॉट कोन कोण (डिग्री में) को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getFalloff{#getFalloff}
+
+| नाम | विवरण |
+| --- | --- |
+| getFalloff() | फ़ॉलऑफ़ कोन कोण (डिग्री में) को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setFalloff{#setFalloff}
+
+| नाम | विवरण |
+| --- | --- |
+| setFalloff(value) | फ़ॉलऑफ़ कोन कोण (डिग्री में) को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getConstantAttenuation{#getConstantAttenuation}
+
+| नाम | विवरण |
+| --- | --- |
+| getConstantAttenuation() | प्रकाश की कुल क्षीणता की गणना करने के लिए स्थिर क्षीणता को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setConstantAttenuation{#setConstantAttenuation}
+
+| नाम | विवरण |
+| --- | --- |
+| setConstantAttenuation(value) | प्रकाश की कुल क्षीणता की गणना करने के लिए स्थिर क्षीणता को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getLinearAttenuation{#getLinearAttenuation}
+
+| नाम | विवरण |
+| --- | --- |
+| getLinearAttenuation() | प्रकाश की कुल क्षीणता की गणना करने के लिए रैखिक क्षीणता को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setLinearAttenuation{#setLinearAttenuation}
+
+| नाम | विवरण |
+| --- | --- |
+| setLinearAttenuation(value) | प्रकाश की कुल क्षीणता की गणना करने के लिए रैखिक क्षीणता को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getQuadraticAttenuation{#getQuadraticAttenuation}
+
+| नाम | विवरण |
+| --- | --- |
+| getQuadraticAttenuation() | प्रकाश की कुल क्षीणता की गणना करने के लिए द्विघात क्षीणता को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setQuadraticAttenuation{#setQuadraticAttenuation}
+
+| नाम | विवरण |
+| --- | --- |
+| setQuadraticAttenuation(value) | प्रकाश की कुल क्षीणता की गणना करने के लिए द्विघात क्षीणता को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getCastShadows{#getCastShadows}
+
+| नाम | विवरण |
+| --- | --- |
+| getCastShadows() | प्रकाश अन्य वस्तुओं पर छाया डाल सकता है या नहीं, इसे प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setCastShadows{#setCastShadows}
+
+| नाम | विवरण |
+| --- | --- |
+| setCastShadows(value) | प्रकाश अन्य वस्तुओं पर छाया डाल सकता है या नहीं, इसे प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getShadowColor{#getShadowColor}
+
+| नाम | विवरण |
+| --- | --- |
+| getShadowColor() | छाया का रंग प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setShadowColor{#setShadowColor}
+
+| नाम | विवरण |
+| --- | --- |
+| setShadowColor(value) | छाया का रंग प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getRotationMode{#getRotationMode}
+
+| नाम | विवरण |
+| --- | --- |
+| getRotationMode() | फ़्रस्टम की अभिविन्यास मोड को प्राप्त करता है या सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब Target null हो। यदि मान RotationMode.FIXED_TARGET है, तो दिशा हमेशा LookAt प्रॉपर्टी द्वारा गणना की जाती है। अन्यथा LookAt हमेशा Direction द्वारा गणना की जाती है। इस प्रॉपर्टी का मान RotationMode पूर्णांक स्थिरांक है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setRotationMode{#setRotationMode}
+
+| नाम | विवरण |
+| --- | --- |
+| setRotationMode(value) | फ़्रस्टम की अभिविन्यास मोड को प्राप्त करता है या सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब Target null हो। यदि मान RotationMode.FIXED_TARGET है, तो दिशा हमेशा LookAt प्रॉपर्टी द्वारा गणना की जाती है। अन्यथा LookAt हमेशा Direction द्वारा गणना की जाती है। इस प्रॉपर्टी का मान RotationMode पूर्णांक स्थिरांक है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getNearPlane{#getNearPlane}
+
+| नाम | विवरण |
+| --- | --- |
+| getNearPlane() | फ़्रस्टम की निकट प्लेन दूरी को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setNearPlane{#setNearPlane}
+
+| नाम | विवरण |
+| --- | --- |
+| setNearPlane(value) | फ़्रस्टम की निकट प्लेन दूरी को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getFarPlane{#getFarPlane}
+
+| नाम | विवरण |
+| --- | --- |
+| getFarPlane() | फ़्रस्टम की दूरस्थ प्लेन दूरी को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setFarPlane{#setFarPlane}
+
+| नाम | विवरण |
+| --- | --- |
+| setFarPlane(value) | फ़्रस्टम की दूरस्थ प्लेन दूरी को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getAspect{#getAspect}
+
+| नाम | विवरण |
+| --- | --- |
+| getAspect() | फ़्रस्टम के आस्पेक्ट अनुपात को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setAspect{#setAspect}
+
+| नाम | विवरण |
+| --- | --- |
+| setAspect(value) | फ़्रस्टम के आस्पेक्ट अनुपात को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getOrthoHeight{#getOrthoHeight}
+
+| नाम | विवरण |
+| --- | --- |
+| getOrthoHeight() | ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम के लिए ऊँचाई को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setOrthoHeight{#setOrthoHeight}
+
+| नाम | विवरण |
+| --- | --- |
+| setOrthoHeight(value) | ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम के लिए ऊँचाई को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getUp{#getUp}
+
+| नाम | विवरण |
+| --- | --- |
+| getUp() | कैमरा की ऊपर की दिशा को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setUp{#setUp}
+
+| नाम | विवरण |
+| --- | --- |
+| setUp(value) | कैमरा की ऊपर की दिशा को प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getLookAt{#getLookAt}
+
+| नाम | विवरण |
+| --- | --- |
+| getLookAt() | कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setLookAt{#setLookAt}
+
+| नाम | विवरण |
+| --- | --- |
+| setLookAt(value) | कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getDirection{#getDirection}
+
+| नाम | विवरण |
+| --- | --- |
+| getDirection() | कैमरा जिस दिशा की ओर देख रहा है, उसे प्राप्त करता है या सेट करता है। इस प्रॉपर्टी में परिवर्तन LookAt और Target को भी प्रभावित करेंगे। |
+
+ **Result:**
+
+
+
+---
+
+
+### setDirection{#setDirection}
+
+| नाम | विवरण |
+| --- | --- |
+| setDirection(value) | कैमरा जिस दिशा की ओर देख रहा है, उसे प्राप्त करता है या सेट करता है। इस प्रॉपर्टी में परिवर्तन LookAt और Target को भी प्रभावित करेंगे। |
+
+ **Result:**
+
+
+
+---
+
+
+### getTarget{#getTarget}
+
+| नाम | विवरण |
+| --- | --- |
+| getTarget() | कैमरा जिस लक्ष्य की ओर देख रहा है, उसे प्राप्त करता है या सेट करता है। यदि उपयोगकर्ता इस प्रॉपर्टी का समर्थन करता है, तो यह LookAt प्रॉपर्टी से पहले होना चाहिए। |
+
+ **Result:**
+
+
+
+---
+
+
+### setTarget{#setTarget}
+
+| नाम | विवरण |
+| --- | --- |
+| setTarget(value) | कैमरा जिस लक्ष्य की ओर देख रहा है, उसे प्राप्त करता है या सेट करता है। यदि उपयोगकर्ता इस प्रॉपर्टी का समर्थन करता है, तो यह LookAt प्रॉपर्टी से पहले होना चाहिए। |
+
+ **Result:**
+
+
+
+---
+
+
+### getParentNodes{#getParentNodes}
+
+| नाम | विवरण |
+| --- | --- |
+| getParentNodes() | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है। नोड्स। |
+
+ **Result:**
+
+
+
+---
+
+
+### getExcluded{#getExcluded}
+
+| नाम | विवरण |
+| --- | --- |
+| getExcluded() | निर्यात के दौरान इस इकाई को बाहर रखने के लिए प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### setExcluded{#setExcluded}
+
+| नाम | विवरण |
+| --- | --- |
+| setExcluded(value) | निर्यात के दौरान इस इकाई को बाहर रखने के लिए प्राप्त करता है या सेट करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getParentNode{#getParentNode}
+
+| नाम | विवरण |
+| --- | --- |
+| getParentNode() | पहले पैरेंट नोड को प्राप्त करता है या सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। पैरेंट नोड। |
+
+ **Result:**
+
+
+
+---
+
+
+### setParentNode{#setParentNode}
+
+| नाम | विवरण |
+| --- | --- |
+| setParentNode(value) | पहले पैरेंट नोड को प्राप्त करता है या सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। पैरेंट नोड। |
+
+ **Result:**
+
+
+
+---
+
+
+### getScene{#getScene}
+
+| नाम | विवरण |
+| --- | --- |
+| getScene() | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getName{#getName}
+
+| नाम | विवरण |
+| --- | --- |
+| getName() | नाम को प्राप्त करता है या सेट करता है। नाम। |
+
+ **Result:**
+
+
+
+---
+
+
+### setName{#setName}
+
+| नाम | विवरण |
+| --- | --- |
+| setName(value) | नाम को प्राप्त करता है या सेट करता है। नाम। |
+
+ **Result:**
+
+
+
+---
+
+
+### getProperties{#getProperties}
+
+| नाम | विवरण |
+| --- | --- |
+| getProperties() | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getBoundingBox{#getBoundingBox}
+
+| नाम | विवरण |
+| --- | --- |
+| getBoundingBox() | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+
+ **Result:**
+
+
+
+---
+
+
+### getEntityRendererKey{#getEntityRendererKey}
+
+| नाम | विवरण |
+| --- | --- |
+| getEntityRendererKey() | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है। |
+
+ **Result:**
+EntityRendererKey
+
+
+---
+
+
+### removeProperty{#removeProperty}
+
+| नाम | विवरण |
+| --- | --- |
+| removeProperty(property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+
+ **Parameters:**
+
+| नाम | प्रकार | विवरण |
+| --- | --- | --- |
+| property | Property | कौन सी प्रॉपर्टी हटानी है |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### removeProperty{#removeProperty}
+
+| नाम | विवरण |
+| --- | --- |
+| removeProperty(property) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+
+ **Parameters:**
+
+| नाम | प्रकार | विवरण |
+| --- | --- | --- |
+| propert | स्ट्रिंग | null |
+
+ **Result:**
+boolean
+
+
+---
+
+
+### getProperty{#getProperty}
+
+| नाम | विवरण |
+| --- | --- |
+| getProperty(property) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
+
+ **Parameters:**
+
+| नाम | प्रकार | विवरण |
+| --- | --- | --- |
+| property | स्ट्रिंग | प्रॉपर्टी का नाम |
+
+ **Result:**
+ऑब्जेक्ट
+
+
+---
+
+
+### setProperty{#setProperty}
+
+| नाम | विवरण |
+| --- | --- |
+| setProperty(property, value) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
+
+ **Parameters:**
+
+| नाम | प्रकार | विवरण |
+| --- | --- | --- |
+| property | स्ट्रिंग | प्रॉपर्टी का नाम |
+| मान | ऑब्जेक्ट | प्रॉपर्टी का मान |
+
+ **Result:**
+ऑब्जेक्ट
+
+
+---
+
+
+### findProperty{#findProperty}
+
+| नाम | विवरण |
+| --- | --- |
+| findProperty(propertyName) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेेटिव प्रॉपर्टी (इसके नाम द्वारा पहचानी गई)। |
+
+ **Parameters:**
+
+| नाम | प्रकार | विवरण |
+| --- | --- | --- |
+| propertyName | स्ट्रिंग | प्रॉपर्टी का नाम। |
+
+ **Result:**
+Property
+
+
+---
+
+
+
