@@ -1,183 +1,183 @@
 ---
-title: Write
-second_title: Aspose.3D لمرجع .NET API
-description: اكتب المصفوفة للكاتب الثنائي
+title: "IOUtils.Write"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "طريقة IOUtils. كتابة المصفوفة إلى كاتب الثنائي"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/ioutils/write/
 ---
 ## Write(this BinaryWriter, Matrix4) {#write_4}
 
-اكتب المصفوفة للكاتب الثنائي
+اكتب المصفوفة إلى كاتب ثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, Matrix4 mat)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| writer | BinaryWriter | الهدف كاتب ثنائي |
-| mat | Matrix4 | مصفوفة للكتابة |
+| كاتب | BinaryWriter | كاتب الثنائي الهدف |
+| mat | Matrix4 | المصفوفة للكتابة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Matrix4](../../matrix4)
-* class [IOUtils](../../ioutils)
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../ioutils)
-* المجسم [Aspose.3D](../../../)
+* struct [Matrix4](../../matrix4/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, FMatrix4) {#write}
 
-اكتب المصفوفة للكاتب الثنائي
+اكتب المصفوفة إلى كاتب ثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, FMatrix4 mat)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| writer | BinaryWriter | الهدف كاتب ثنائي |
-| mat | FMatrix4 | مصفوفة للكتابة |
+| كاتب | BinaryWriter | كاتب الثنائي الهدف |
+| mat | FMatrix4 | المصفوفة للكتابة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [FMatrix4](../../fmatrix4)
-* class [IOUtils](../../ioutils)
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../ioutils)
-* المجسم [Aspose.3D](../../../)
+* struct [FMatrix4](../../fmatrix4/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, FVector2) {#write_1}
 
-اكتب المتجه للكاتب الثنائي
+اكتب المتجه إلى كاتب ثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector2 v)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| writer | BinaryWriter | الهدف كاتب ثنائي |
-| v | FVector2 | ناقل للكتابة |
+| كاتب | BinaryWriter | كاتب الثنائي الهدف |
+| v | FVector2 | المتجه للكتابة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [FVector2](../../fvector2)
-* class [IOUtils](../../ioutils)
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../ioutils)
-* المجسم [Aspose.3D](../../../)
+* struct [FVector2](../../fvector2/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, FVector3) {#write_2}
 
-اكتب المتجه للكاتب الثنائي
+اكتب المتجه إلى كاتب ثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector3 v)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| writer | BinaryWriter | الهدف كاتب ثنائي |
-| v | FVector3 | ناقل للكتابة |
+| كاتب | BinaryWriter | كاتب الثنائي الهدف |
+| v | FVector3 | المتجه للكتابة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [FVector3](../../fvector3)
-* class [IOUtils](../../ioutils)
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../ioutils)
-* المجسم [Aspose.3D](../../../)
+* struct [FVector3](../../fvector3/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, FVector4) {#write_3}
 
-اكتب المتجه للكاتب الثنائي
+اكتب المتجه إلى كاتب ثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector4 v)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| writer | BinaryWriter | الهدف كاتب ثنائي |
-| v | FVector4 | ناقل للكتابة |
+| كاتب | BinaryWriter | كاتب الثنائي الهدف |
+| v | FVector4 | المتجه للكتابة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [FVector4](../../fvector4)
-* class [IOUtils](../../ioutils)
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../ioutils)
-* المجسم [Aspose.3D](../../../)
+* struct [FVector4](../../fvector4/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, Vector2) {#write_5}
 
-اكتب المتجه للكاتب الثنائي
+اكتب المتجه إلى كاتب ثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector2 v)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| writer | BinaryWriter | الهدف كاتب ثنائي |
-| v | Vector2 | ناقل للكتابة |
+| كاتب | BinaryWriter | كاتب الثنائي الهدف |
+| v | Vector2 | المتجه للكتابة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Vector2](../../vector2)
-* class [IOUtils](../../ioutils)
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../ioutils)
-* المجسم [Aspose.3D](../../../)
+* struct [Vector2](../../vector2/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, Vector3) {#write_6}
 
-اكتب المتجه للكاتب الثنائي
+اكتب المتجه إلى كاتب ثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector3 v)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| writer | BinaryWriter | الهدف كاتب ثنائي |
-| v | Vector3 | ناقل للكتابة |
+| كاتب | BinaryWriter | كاتب الثنائي الهدف |
+| v | Vector3 | المتجه للكتابة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Vector3](../../vector3)
-* class [IOUtils](../../ioutils)
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../ioutils)
-* المجسم [Aspose.3D](../../../)
+* struct [Vector3](../../vector3/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, Vector4) {#write_7}
 
-اكتب المتجه للكاتب الثنائي
+اكتب المتجه إلى كاتب ثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector4 v)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| writer | BinaryWriter | الهدف كاتب ثنائي |
-| v | Vector4 | ناقل للكتابة |
+| كاتب | BinaryWriter | كاتب الثنائي الهدف |
+| v | Vector4 | المتجه للكتابة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Vector4](../../vector4)
-* class [IOUtils](../../ioutils)
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../ioutils)
-* المجسم [Aspose.3D](../../../)
+* struct [Vector4](../../vector4/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

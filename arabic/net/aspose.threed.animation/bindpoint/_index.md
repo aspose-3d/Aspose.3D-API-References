@@ -1,59 +1,58 @@
 ---
-title: BindPoint
-second_title: Aspose.3D لمرجع .NET API
-description: أBindPoint./bindpointعادةً ما يتم إنشاؤه على خاصية كائن  تحتوي بعض أنواع الخصائص على عدة حقول مكونة مثل حقل Vector3  BindPoint./bindpoint سيُنشئ قناة لكل حقل مكون ويربط الحقل بواحد أو أكثر من حالات تسلسل الإطارات الرئيسية عبر القنوات.
+title: "الفئة BindPoint"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Animation.BindPoint. عادةً ما يتم إنشاء BindPoint على خاصية كائن؛ بعض أنواع الخصائص تحتوي على حقول مكوّنات متعددة مثل حقل Vector3. سيولد BindPoint قناة لكل حقل مكوّن ويتصل بالحقل إلى واحدة أو أكثر من مثيلات تسلسل الإطار الرئيسي عبر القنوات."
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.animation/bindpoint/
 ---
 ## BindPoint class
 
-أ[`BindPoint`](../bindpoint)عادةً ما يتم إنشاؤه على خاصية كائن ، تحتوي بعض أنواع الخصائص على عدة حقول مكونة (مثل حقل Vector3) ، [`BindPoint`](../bindpoint) سيُنشئ قناة لكل حقل مكون ويربط الحقل بواحد أو أكثر من حالات تسلسل الإطارات الرئيسية عبر القنوات.
+`BindPoint` عادةً ما يتم إنشاؤه على خاصية كائن، بعض أنواع الخصائص تحتوي على حقول مكوّنات متعددة (مثل حقل Vector3)، `BindPoint` سيولد قناة لكل حقل مكوّن ويتصل بالحقل إلى واحدة أو أكثر من مثيلات تسلسل الإطار الرئيسي عبر القنوات.
 
 ```csharp
 public class BindPoint : A3DObject
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BindPoint](bindpoint)(Scene, Property) | يقوم بتهيئة مثيل جديد لملف[`BindPoint`](../bindpoint) فئة . |
+| [BindPoint](bindpoint/)(Scene, Property) | يُهيئ نسخة جديدة من الفئة `BindPoint`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ChannelsCount](../../aspose.threed.animation/bindpoint/channelscount) { get; } | الحصول على العدد الإجمالي لقنوات الملكية المحددة في تعيين منحنى الرسوم المتحركة هذا. |
-| [Item](../../aspose.threed.animation/bindpoint/item) { get; } |  |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Property](../../aspose.threed.animation/bindpoint/property) { get; } | يحصل على الخاصية المرتبطة بـ CurveMapping |
+| [ChannelsCount](../../aspose.threed.animation/bindpoint/channelscount/) { get; } | يحصل على العدد الإجمالي لقنوات الخصائص المعرفة في تخطيط منحنى الرسوم المتحركة هذا. |
+| [Item](../../aspose.threed.animation/bindpoint/item/) { get; } |  |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Property](../../aspose.threed.animation/bindpoint/property/) { get; } | يحصل على الخاصية المرتبطة بـ CurveMapping. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AddChannel](../../aspose.threed.animation/bindpoint/addchannel#addchannel)(string, object) | يضيف خاصية القناة المحددة. |
-| [AddChannel](../../aspose.threed.animation/bindpoint/addchannel#addchannel_1)(string, Type, object) | يضيف خاصية القناة المحددة. |
-| [AddChannel&lt;T&gt;](../../aspose.threed.animation/bindpoint/addchannel#addchannel_2)(string, T) |  |
-| [BindKeyframeSequence](../../aspose.threed.animation/bindpoint/bindkeyframesequence)(string, KeyframeSequence) | ربط تسلسل الإطار الرئيسي بقناة محددة |
-| [CreateKeyframeSequence](../../aspose.threed.animation/bindpoint/createkeyframesequence)(string) | إنشاء منحنى جديد وربطه بالقناة الأولى لرسم خرائط المنحنى |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetChannel](../../aspose.threed.animation/bindpoint/getchannel)(string) | يحصل على القناة بالاسم المعطى |
-| [GetKeyframeSequence](../../aspose.threed.animation/bindpoint/getkeyframesequence)(string) | الحصول على تسلسل الإطار الرئيسي الأول في القناة المحددة |
-| [GetKeyframeSequences](../../aspose.threed.animation/bindpoint/getkeyframesequences)(string) | يحصل على كل تسلسلات الإطارات الرئيسية في القناة المحددة |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [ResetChannels](../../aspose.threed.animation/bindpoint/resetchannels)() | يفرغ قنوات خاصية تعيين منحنى الرسوم المتحركة هذا. |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| override [ToString](../../aspose.threed.animation/bindpoint/tostring)() | كائن تنسيقات إلى string |
+| [AddChannel](../../aspose.threed.animation/bindpoint/addchannel/#addchannel)(string, object) | يضيف خاصية القناة المحددة. |
+| [AddChannel](../../aspose.threed.animation/bindpoint/addchannel/#addchannel_1)(string, Type, object) | يضيف خاصية القناة المحددة. |
+| [AddChannel&lt;T&gt;](../../aspose.threed.animation/bindpoint/addchannel/#addchannel_2)(string, T) |  |
+| [BindKeyframeSequence](../../aspose.threed.animation/bindpoint/bindkeyframesequence/)(string, KeyframeSequence) | ربط تسلسل الإطار الرئيسي بالقناة المحددة. |
+| [CreateKeyframeSequence](../../aspose.threed.animation/bindpoint/createkeyframesequence/)(string) | ينشئ منحنى جديدًا ويربطه بالقناة الأولى لتخطيط المنحنى. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetChannel](../../aspose.threed.animation/bindpoint/getchannel/)(string) | يحصل على القناة بالاسم المحدد. |
+| [GetKeyframeSequence](../../aspose.threed.animation/bindpoint/getkeyframesequence/)(string) | يحصل على أول تسلسل للإطار الرئيسي في القناة المحددة. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [ResetChannels](../../aspose.threed.animation/bindpoint/resetchannels/)() | يفرغ قنوات الخصائص في تخطيط منحنى الرسوم المتحركة هذا. |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| override [ToString](../../aspose.threed.animation/bindpoint/tostring/)() | يحوّل الكائن إلى سلسلة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [A3DObject](../../aspose.threed/a3dobject)
-* مساحة الاسم [Aspose.ThreeD.Animation](../../aspose.threed.animation)
-* المجسم [Aspose.3D](../../)
+* class [A3DObject](../../aspose.threed/a3dobject/)
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

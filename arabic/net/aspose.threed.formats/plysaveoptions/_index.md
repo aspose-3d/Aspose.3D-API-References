@@ -1,49 +1,51 @@
 ---
-title: PlySaveOptions
-second_title: Aspose.3D لمرجع .NET API
-description: حفظ الخيارات لتصدير المشهد كملف PLY .
+title: "فئة PlySaveOptions"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "Aspose.ThreeD.Formats.PlySaveOptions فئة. خيارات الحفظ لتصدير المشهد كملف PLY"
 type: docs
-weight: 1300
+weight: 1450
 url: /ar/net/aspose.threed.formats/plysaveoptions/
 ---
 ## PlySaveOptions class
 
-حفظ الخيارات لتصدير المشهد كملف PLY .
+خيارات الحفظ لتصدير المشهد كملف PLY.
 
 ```csharp
 public class PlySaveOptions : SaveOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PlySaveOptions](plysaveoptions#constructor)() | منشئ[`PlySaveOptions`](../plysaveoptions) |
-| [PlySaveOptions](plysaveoptions#constructor_1)(FileContentType) | منشئ[`PlySaveOptions`](../plysaveoptions) |
+| [PlySaveOptions](plysaveoptions/#constructor)() | منشئ `PlySaveOptions` |
+| [PlySaveOptions](plysaveoptions/#constructor_1)(FileContentType) | منشئ `PlySaveOptions` |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ColorComponents](../../aspose.threed.formats/plysaveoptions/colorcomponents) { get; set; } | أسماء مكونات لون الرأس ، القيمة الافتراضية هي ("أحمر" ، "أخضر" ، "أزرق") |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding) { get; set; } | الحصول على الترميز الافتراضي للملفات النصية أو تعيينه. القيمة الافتراضية خالية مما يعني أن المستورد / المُصدِّر سيقرر الترميز الذي يجب استخدامه. |
-| [FaceElement](../../aspose.threed.formats/plysaveoptions/faceelement) { get; set; } | اسم العنصر لبيانات الوجه ، القيمة الافتراضية هي "الوجه" |
-| [FaceProperty](../../aspose.threed.formats/plysaveoptions/faceproperty) { get; set; } | اسم الخاصية لبيانات الوجه ، القيمة الافتراضية هي "vertex_index" |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat) { get; } | يحصل على تنسيق الملف المحدد في خيار حفظ / تحميل الحالي. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename) { get; set; } | اسم ملف مشهد التصدير / الاستيراد . هذا اختياري ، ولكنه مفيد عند إجراء تسلسل للأصول الخارجية مثل مادة OBJ . |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem) { get; set; } | السماح للمستخدم بالتعامل مع كيفية إدارة التبعيات الخارجية أثناء التحميل / الحفظ. |
-| [FlipCoordinate](../../aspose.threed.formats/plysaveoptions/flipcoordinate) { get; set; } | اقلب الإحداثي أثناء حفظ المشهد ، القيمة الافتراضية هي true |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths) { get; set; } | تعتمد بعض الملفات مثل OBJ على ملف خارجي ، وستسمح مسارات البحث لـ Aspose.3D بالبحث عن ملف خارجي ليتم تحميله. |
-| [NormalComponents](../../aspose.threed.formats/plysaveoptions/normalcomponents) { get; set; } | أسماء مكونات البيانات العادية ، القيمة الافتراضية هي ("nx"، "ny"، "nz") |
-| [PointCloud](../../aspose.threed.formats/plysaveoptions/pointcloud) { get; set; } | قم بتصدير المشهد كسحابة نقطية ، القيمة الافتراضية هي false . |
-| [PositionComponents](../../aspose.threed.formats/plysaveoptions/positioncomponents) { get; set; } | أسماء مكونات بيانات الموضع ، القيمة الافتراضية هي ("x" ، "y" ، "z") |
-| [TextureCoordinateComponents](../../aspose.threed.formats/plysaveoptions/texturecoordinatecomponents) { get; set; } | أسماء المكونات لبيانات إحداثيات النسيج ، القيمة الافتراضية هي ("u"، "v") |
-| [VertexElement](../../aspose.threed.formats/plysaveoptions/vertexelement) { get; set; } | اسم العنصر لبيانات الرأس ، القيمة الافتراضية هي "قمة الرأس" |
+| [AxisSystem](../../aspose.threed.formats/plysaveoptions/axissystem/) { get; set; } | يحصل أو يضبط نظام المحاور في ملف STL المُصدَّر. |
+| [ColorComponents](../../aspose.threed.formats/plysaveoptions/colorcomponents/) { get; set; } | أسماء المكوّنات للون القمة، القيمة الافتراضية هي ("red", "green", "blue") |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | يحصل أو يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدر سيقرر أي ترميز يستخدم. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | محاولة نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
+| [FaceElement](../../aspose.threed.formats/plysaveoptions/faceelement/) { get; set; } | اسم العنصر لبيانات الوجه، القيمة الافتراضية هي "face" |
+| [FaceProperty](../../aspose.threed.formats/plysaveoptions/faceproperty/) { get; set; } | اسم الخاصية لبيانات الوجه، القيمة الافتراضية هي "vertex_index" |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | اسم ملف المشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | السماح للمستخدم بالتعامل مع كيفية إدارة التبعيات الخارجية أثناء التحميل/الحفظ. |
+| [FlipCoordinate](../../aspose.threed.formats/plysaveoptions/flipcoordinate/) { get; set; } | قلب الإحداثيات أثناء حفظ المشهد، القيمة الافتراضية هي true |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | بعض الملفات مثل OBJ تعتمد على ملف خارجي، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. |
+| [NormalComponents](../../aspose.threed.formats/plysaveoptions/normalcomponents/) { get; set; } | أسماء المكوّنات للبيانات العادية، القيمة الافتراضية هي ("nx", "ny", "nz") |
+| [PointCloud](../../aspose.threed.formats/plysaveoptions/pointcloud/) { get; set; } | تصدير المشهد كسحابة نقاط، القيمة الافتراضية هي false. |
+| [PositionComponents](../../aspose.threed.formats/plysaveoptions/positioncomponents/) { get; set; } | أسماء المكوّنات لبيانات الموقع، القيمة الافتراضية هي ("x", "y", "z") |
+| [TextureCoordinateComponents](../../aspose.threed.formats/plysaveoptions/texturecoordinatecomponents/) { get; set; } | أسماء المكوّنات لبيانات إحداثيات النسيج، القيمة الافتراضية هي ("u", "v") |
+| [VertexElement](../../aspose.threed.formats/plysaveoptions/vertexelement/) { get; set; } | اسم العنصر لبيانات القمة، القيمة الافتراضية هي "vertex" |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [SaveOptions](../saveoptions)
-* مساحة الاسم [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* المجسم [Aspose.3D](../../)
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

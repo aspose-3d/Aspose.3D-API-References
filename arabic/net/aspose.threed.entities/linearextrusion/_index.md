@@ -1,62 +1,99 @@
 ---
-title: LinearExtrusion
-second_title: Aspose.3D لمرجع .NET API
-description: يأخذ البثق الخطي شكلًا ثنائي الأبعاد كمدخل ويمتد الشكل في البعد الثالث.
+title: "الفئة LinearExtrusion"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "Aspose.ThreeD.Entities.LinearExtrusion الفئة. الاستطالة الخطية تأخذ شكلًا ثنائي الأبعاد كمدخل وتوسّع الشكل في البعد الثالث."
 type: docs
-weight: 430
+weight: 490
 url: /ar/net/aspose.threed.entities/linearextrusion/
 ---
 ## LinearExtrusion class
 
-يأخذ البثق الخطي شكلًا ثنائي الأبعاد كمدخل ويمتد الشكل في البعد الثالث.
+الإسقاط الخطي يأخذ شكلًا ثنائي الأبعاد كمدخل ويُمد الشكل في البُعد الثالث.
 
 ```csharp
 public class LinearExtrusion : Entity, IMeshConvertible
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [LinearExtrusion](linearextrusion#constructor)() | مُنشئ المثيل[`LinearExtrusion`](../linearextrusion) . |
-| [LinearExtrusion](linearextrusion#constructor_1)(Profile, double) | مُنشئ المثيل[`LinearExtrusion`](../linearextrusion) . |
+| [LinearExtrusion](linearextrusion/#constructor)() | منشئ المثيل `LinearExtrusion`. |
+| [LinearExtrusion](linearextrusion/#constructor_1)(Profile, double) | منشئ المثيل `LinearExtrusion`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Center](../../aspose.threed.entities/linearextrusion/center) { get; set; } | إذا كانت هذه القيمة خاطئة ، فإن نطاق البثق الخطي Z يكون من 0 إلى الارتفاع ، وإلا فإن النطاق من -height / 2 إلى height / 2. |
-| [Direction](../../aspose.threed.entities/linearextrusion/direction) { get; set; } | اتجاه البثق ، القيمة الافتراضية هي (0 ، 0 ، 1) |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| [Height](../../aspose.threed.entities/linearextrusion/height) { get; set; } | ارتفاع الشكل الهندسي المبثوق ، القيمة الافتراضية هي 1.0 |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [Shape](../../aspose.threed.entities/linearextrusion/shape) { get; set; } | الشكل الأساسي المطلوب انبثاقه . |
-| [Slices](../../aspose.threed.entities/linearextrusion/slices) { get; set; } | شرائح الهندسة المبثوقة الملتوية ، القيمة الافتراضية هي 1. |
-| [Twist](../../aspose.threed.entities/linearextrusion/twist) { get; set; } | عدد الدرجات التي يتم من خلالها انبثاق الشكل. |
-| [TwistOffset](../../aspose.threed.entities/linearextrusion/twistoffset) { get; set; } | الإزاحة المستخدمة في التواء ، القيمة الافتراضية هي (0 ، 0 ، 0) . |
+| [Center](../../aspose.threed.entities/linearextrusion/center/) { get; set; } | إذا كانت هذه القيمة خاطئة، يكون نطاق Z للاستطالة الخطية من 0 إلى الارتفاع، وإلا يكون النطاق من -height/2 إلى height/2. |
+| [Direction](../../aspose.threed.entities/linearextrusion/direction/) { get; set; } | اتجاه الاستطالة، القيمة الافتراضية هي (0, 0, 1) |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| [Height](../../aspose.threed.entities/linearextrusion/height/) { get; set; } | ارتفاع الشكل المستخرج، القيمة الافتراضية هي 1.0 |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [Shape](../../aspose.threed.entities/linearextrusion/shape/) { get; set; } | الشكل الأساسي الذي سيُستطَل. |
+| [Slices](../../aspose.threed.entities/linearextrusion/slices/) { get; set; } | شرائح الشكل المستطَل الملتوي، القيمة الافتراضية هي 1. |
+| [Twist](../../aspose.threed.entities/linearextrusion/twist/) { get; set; } | عدد الدرجات التي يُستطَل عبرها الشكل. |
+| [TwistOffset](../../aspose.threed.entities/linearextrusion/twistoffset/) { get; set; } | الإزاحة المستخدمة في الالتواء، القيمة الافتراضية هي (0, 0, 0). |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| [ToMesh](../../aspose.threed.entities/linearextrusion/tomesh)() | تحويل البثق إلى شبكة . |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| [ToMesh](../../aspose.threed.entities/linearextrusion/tomesh/)() | حوّل الاستطالة إلى شبكة. |
 
-### أنظر أيضا
+## أمثلة
 
-* class [Entity](../../aspose.threed/entity)
-* interface [IMeshConvertible](../imeshconvertible)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* المجسم [Aspose.3D](../../)
+يعرض الشيفرة التالية كيفية استخدام LinearExtrusion لاستطالة شكل إلى نموذج صلب.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+using Aspose.ThreeD;
+using Aspose.ThreeD.Entities;
+using Aspose.ThreeD.Utilities;
+using Aspose.ThreeD.Profiles;
+
+//إنشاء مشهد ثلاثي الأبعاد جديد
+Scene scene = new Scene();
+
+// تهيئة ملف التعريف الأساسي ليتم بُثقَه
+var profile = new RectangleShape()
+{
+	RoundingRadius = 0.3
+};
+
+// إنشاء العقدة اليسرى
+var left = scene.RootNode.CreateChildNode();
+left.CreateChildNode(new Box(0.01, 3, 3));
+
+// إنشاء العقدة اليمنى
+var right = scene.RootNode.CreateChildNode();
+right.CreateChildNode(new Box(0.01, 3, 3));
+right.Transform.Translation = new Vector3(5, 0, 0);
+
+//تنفيذ بثق خطي على العقدة اليسرى باستخدام خاصية المركز والشرائح
+left.CreateChildNode(new LinearExtrusion(profile, 10) { Center = false, Slices = 3, Twist = 20.0 });
+
+// تنفيذ بثق خطي على العقدة اليسرى باستخدام خاصية المركز والشرائح
+right.CreateChildNode(new LinearExtrusion(profile, 10) { Center = true, Slices = 3, Twist = 90.0 });
+
+scene
+```
+
+### انظر أيضًا
+
+* class [Entity](../../aspose.threed/entity/)
+* interface [IMeshConvertible](../imeshconvertible/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
+
+

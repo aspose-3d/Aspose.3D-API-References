@@ -1,60 +1,60 @@
 ---
-title: TShape
-second_title: Aspose.3D لمرجع .NET API
-description: شكل T المتوافق مع IFC المحدد بواسطة المعلمات.
+title: "الفئة TShape"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Profiles.TShape. Tshape متوافق مع IFC معرف بالمعلمات"
 type: docs
-weight: 1630
+weight: 1810
 url: /ar/net/aspose.threed.profiles/tshape/
 ---
 ## TShape class
 
-شكل T المتوافق مع IFC المحدد بواسطة المعلمات.
+شكل T متوافق مع IFC يُحدد بالمعلمات.
 
 ```csharp
 public class TShape : ParameterizedProfile
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TShape](tshape)() | منشئ[`TShape`](../tshape) |
+| [TShape](tshape/)() | منشئ `TShape` |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Depth](../../aspose.threed.profiles/tshape/depth) { get; set; } | الحصول على طول الويب أو تحديده. |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| [FilletRadius](../../aspose.threed.profiles/tshape/filletradius) { get; set; } | الحصول على أو تحديد نصف قطر الشريحة بين الويب والشفة . |
-| [FlangeEdgeRadius](../../aspose.threed.profiles/tshape/flangeedgeradius) { get; set; } | الحصول على أو تحديد نصف قطر حافة الحافة. |
-| [FlangeThickness](../../aspose.threed.profiles/tshape/flangethickness) { get; set; } | الحصول على أو تحديد سمك جدار الشفة. |
-| [FlangeWidth](../../aspose.threed.profiles/tshape/flangewidth) { get; set; } | الحصول على أو تحديد طول الحافة. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [WebEdgeRadius](../../aspose.threed.profiles/tshape/webedgeradius) { get; set; } | الحصول على أو تحديد نصف قطر حافة الويب. |
-| [WebThickness](../../aspose.threed.profiles/tshape/webthickness) { get; set; } | الحصول على أو تحديد سماكة جدار الويب. |
+| [Depth](../../aspose.threed.profiles/tshape/depth/) { get; set; } | يحصل أو يعيّن طول الشبكة. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| [FilletRadius](../../aspose.threed.profiles/tshape/filletradius/) { get; set; } | يحصل أو يعيّن نصف قطر التدوير بين الشبكة والحافة. |
+| [FlangeEdgeRadius](../../aspose.threed.profiles/tshape/flangeedgeradius/) { get; set; } | يحصل أو يعيّن نصف قطر حافة الشفة. |
+| [FlangeThickness](../../aspose.threed.profiles/tshape/flangethickness/) { get; set; } | يحصل أو يعيّن سماكة جدار الشفة. |
+| [FlangeWidth](../../aspose.threed.profiles/tshape/flangewidth/) { get; set; } | يحصل أو يعيّن طول الشفة. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [WebEdgeRadius](../../aspose.threed.profiles/tshape/webedgeradius/) { get; set; } | يحصل أو يعيّن نصف قطر حافة الشبكة. |
+| [WebThickness](../../aspose.threed.profiles/tshape/webthickness/) { get; set; } | يحصل أو يعيّن سماكة جدار الشبكة. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| override [GetExtent](../../aspose.threed.profiles/tshape/getextent)() | الحصول على المدى في البعد x و y . |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| override [GetExtent](../../aspose.threed.profiles/tshape/getextent/)() | يحصل على الامتداد في بعدي x و y. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ParameterizedProfile](../parameterizedprofile)
-* مساحة الاسم [Aspose.ThreeD.Profiles](../../aspose.threed.profiles)
-* المجسم [Aspose.3D](../../)
+* class [ParameterizedProfile](../parameterizedprofile/)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

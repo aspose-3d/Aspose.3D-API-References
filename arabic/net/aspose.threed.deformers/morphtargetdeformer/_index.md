@@ -1,50 +1,50 @@
 ---
-title: MorphTargetDeformer
-second_title: Aspose.3D لمرجع .NET API
-description: يوفر MorphTargetDeformer رسومًا متحركة لكل رأس . يقوم MorphTargetDeformer بتنظيم جميع الأهداف عبرMorphTargetChannel./morphtargetchannel  يمكن لكل قناة تنظيم أهداف متعددة. الاستخدام الشائع لمحول Morph target deformer هو تطبيق تعبيرات الوجه على شخصية . يمكن العثور على مزيد من التفاصيل على https//en.wikipedia.org/wiki/Morph_target_animation
+title: "الفئة MorphTargetDeformer"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "Aspose.ThreeD.Deformers.MorphTargetDeformer class. يوفر MorphTargetDeformer رسومات متحركة لكل رأس. ينظم MorphTargetDeformer جميع الأهداف عبر MorphTargetChannel حيث يمكن لكل قناة تنظيم أهداف متعددة. أحد الاستخدامات الشائعة لمحول الهدف التشكيلي هو تطبيق تعبيرات الوجه على شخصية. يمكن العثور على مزيد من التفاصيل في https//en.wikipedia.org/wiki/Morph_target_animation"
 type: docs
-weight: 210
+weight: 230
 url: /ar/net/aspose.threed.deformers/morphtargetdeformer/
 ---
 ## MorphTargetDeformer class
 
-يوفر MorphTargetDeformer رسومًا متحركة لكل رأس . يقوم MorphTargetDeformer بتنظيم جميع الأهداف عبر[`MorphTargetChannel`](../morphtargetchannel) ، يمكن لكل قناة تنظيم أهداف متعددة. الاستخدام الشائع لمحول Morph target deformer هو تطبيق تعبيرات الوجه على شخصية . يمكن العثور على مزيد من التفاصيل على https://en.wikipedia.org/wiki/Morph_target_animation
+يوفر MorphTargetDeformer رسومات متحركة لكل رأس. ينظم MorphTargetDeformer جميع الأهداف عبر [`MorphTargetChannel`](../morphtargetchannel/)، يمكن لكل قناة تنظيم أهداف متعددة. أحد الاستخدامات الشائعة لمحول الهدف التشكيلي هو تطبيق تعبيرات الوجه على شخصية. يمكن العثور على مزيد من التفاصيل في https://en.wikipedia.org/wiki/Morph_target_animation
 
 ```csharp
 public class MorphTargetDeformer : Deformer
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [MorphTargetDeformer](morphtargetdeformer#constructor)() | يقوم بتهيئة مثيل جديد لملف[`MorphTargetDeformer`](../morphtargetdeformer) فئة . |
-| [MorphTargetDeformer](morphtargetdeformer#constructor_1)(string) | يقوم بتهيئة مثيل جديد لملف[`MorphTargetDeformer`](../morphtargetdeformer) فئة . |
+| [MorphTargetDeformer](morphtargetdeformer/#constructor)() | ينشئ مثيلًا جديدًا من الفئة `MorphTargetDeformer`. |
+| [MorphTargetDeformer](morphtargetdeformer/#constructor_1)(string) | ينشئ مثيلًا جديدًا من الفئة `MorphTargetDeformer`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Channels](../../aspose.threed.deformers/morphtargetdeformer/channels) { get; } | يحصل على جميع القنوات الموجودة في هذا المشوه |
-| [Item](../../aspose.threed.deformers/morphtargetdeformer/item) { get; set; } |  |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [Owner](../../aspose.threed.deformers/deformer/owner) { get; } | يحصل على الشكل الهندسي الذي يمتلك هذا المشوه |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
+| [Channels](../../aspose.threed.deformers/morphtargetdeformer/channels/) { get; } | يحصل على جميع القنوات الموجودة في هذا المحول |
+| [Item](../../aspose.threed.deformers/morphtargetdeformer/item/) { get; set; } |  |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [Owner](../../aspose.threed.deformers/deformer/owner/) { get; } | يحصل على الهندسة التي تملك هذا المشكّل |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Deformer](../deformer)
-* مساحة الاسم [Aspose.ThreeD.Deformers](../../aspose.threed.deformers)
-* المجسم [Aspose.3D](../../)
+* class [Deformer](../deformer/)
+* namespace [Aspose.ThreeD.Deformers](../../aspose.threed.deformers/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,62 +1,62 @@
 ---
-title: Plane
-second_title: Aspose.3D لمرجع .NET API
-description: طائرة ذات معلمات .
+title: "الفئة Plane"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "فئة Aspose.ThreeD.Entities.Plane. سطح معلم"
 type: docs
-weight: 530
+weight: 590
 url: /ar/net/aspose.threed.entities/plane/
 ---
 ## Plane class
 
-طائرة ذات معلمات .
+سطح باراميتري.
 
 ```csharp
 public class Plane : Primitive
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Plane](plane#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Plane`](../plane) بالحجم الافتراضي 1x1. |
-| [Plane](plane#constructor_1)(double, double) | يقوم بتهيئة مثيل جديد لملف[`Plane`](../plane) . |
-| [Plane](plane#constructor_2)(string, double, double, int, int) | يقوم بتهيئة مثيل جديد لملف[`Plane`](../plane) . |
+| [Plane](plane/#constructor)() | يُنشئ نسخة جديدة من `Plane` بالحجم الافتراضي 1x1. |
+| [Plane](plane/#constructor_1)(double, double) | يُنشئ نسخة جديدة من `Plane`. |
+| [Plane](plane/#constructor_2)(string, double, double, int, int) | يُنشئ نسخة جديدة من `Plane`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CastShadows](../../aspose.threed.entities/primitive/castshadows) { get; set; } | الحصول على أو تحديد ما إذا كانت هذه الهندسة يمكن أن تلقي بظلالها |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبعاد هذا الكيان أثناء التصدير. |
-| [Length](../../aspose.threed.entities/plane/length) { get; set; } | الحصول على أو تحديد طول المستوى . |
-| [LengthSegments](../../aspose.threed.entities/plane/lengthsegments) { get; set; } | الحصول على مقاطع الطول أو تعيينها. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | الحصول على العقدة الأصلية الأولى أو تعيينها ، إذا تم تعيين العقدة الأصلية الأولى ، فسيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | للحصول على جميع العقد الأصلية ، يمكن إرفاق كيان بالعقد الأصلية المتعددة من أجل هندسة instancing |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [ReceiveShadows](../../aspose.threed.entities/primitive/receiveshadows) { get; set; } | الحصول على أو تحديد ما إذا كانت هذه الهندسة يمكن أن تتلقى الظل. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [Up](../../aspose.threed.entities/plane/up) { get; set; } | الحصول على متجه المستوى الأعلى أو إعداده ، القيمة الافتراضية هي (0 ، 1 ، 0) ، وهذا يؤثر على توليد المستوى |
-| [Width](../../aspose.threed.entities/plane/width) { get; set; } | الحصول على عرض المستوى أو تحديده . |
-| [WidthSegments](../../aspose.threed.entities/plane/widthsegments) { get; set; } | الحصول على شرائح العرض أو تعيينها . |
+| [CastShadows](../../aspose.threed.entities/primitive/castshadows/) { get; set; } | يحصل أو يضبط ما إذا كان هذا الشكل الهندسي يمكنه إلقاء الظل |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
+| [Length](../../aspose.threed.entities/plane/length/) { get; set; } | الحصول على أو تعيين طول السطح. |
+| [LengthSegments](../../aspose.threed.entities/plane/lengthsegments/) { get; set; } | الحصول على أو تعيين مقاطع الطول. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [ReceiveShadows](../../aspose.threed.entities/primitive/receiveshadows/) { get; set; } | يحصل أو يعيّن ما إذا كانت هذه الهندسة يمكنها استقبال الظل. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
+| [Up](../../aspose.threed.entities/plane/up/) { get; set; } | الحصول على أو تعيين المتجه العلوي للسطح، القيمة الافتراضية هي (0, 1, 0)، وهذا يؤثر على إنشاء السطح. |
+| [Width](../../aspose.threed.entities/plane/width/) { get; set; } | الحصول على أو تعيين عرض السطح. |
+| [WidthSegments](../../aspose.threed.entities/plane/widthsegments/) { get; set; } | الحصول على أو تعيين مقاطع العرض. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | الحصول على المربع المحيط للكيان الحالي في نظام إحداثيات مساحة الكائن. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | الحصول على مفتاح عارض الكيان المسجل في العارض |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| override [ToMesh](../../aspose.threed.entities/plane/tomesh)() | تحويل الكائن الحالي إلى mesh |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | يحصل على مفتاح عارض الكيان المسجل في العارض |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| override [ToMesh](../../aspose.threed.entities/plane/tomesh/)() | تحويل الكائن الحالي إلى شبكة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Primitive](../primitive)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* المجسم [Aspose.3D](../../)
+* class [Primitive](../primitive/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

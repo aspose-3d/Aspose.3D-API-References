@@ -1,63 +1,64 @@
 ---
-title: PbrMaterial
-second_title: Aspose.3D لمرجع .NET API
-description: مادة للتصيير المادي بناءً على اللون الأبيض / المعدني / الخشونة
+title: "الفئة PbrMaterial"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Shading.PbrMaterial. مادة للتصيير القائم على الفيزياء بناءً على لون الألبيدو/المعدن/الخشونة"
 type: docs
-weight: 2300
+weight: 2550
 url: /ar/net/aspose.threed.shading/pbrmaterial/
 ---
 ## PbrMaterial class
 
-مادة للتصيير المادي بناءً على اللون الأبيض / المعدني / الخشونة
+المادة للتصيير الفيزيائي القائم على لون الألبيدو/المعدن/الخشونة
 
 ```csharp
 public class PbrMaterial : Material
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PbrMaterial](pbrmaterial#constructor)() | إنشاء مثيل افتراضي لمادة PBR |
-| [PbrMaterial](pbrmaterial#constructor_1)(Color) | قم ببناء مادة PBR افتراضية مع قيمة لون البياض المحدد. |
+| [PbrMaterial](pbrmaterial/#constructor)() | إنشاء نسخة مادة PBR افتراضية |
+| [PbrMaterial](pbrmaterial/#constructor_1)(Vector3) | إنشاء مادة PBR افتراضية مع قيمة لون الألبيدو المحددة. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Albedo](../../aspose.threed.shading/pbrmaterial/albedo) { get; set; } | الحصول على أو تحديد اللون الأساسي للمادة |
-| [AlbedoTexture](../../aspose.threed.shading/pbrmaterial/albedotexture) { get; set; } | الحصول على نسيج أو تعيينه لـ albedo |
-| [EmissiveColor](../../aspose.threed.shading/pbrmaterial/emissivecolor) { get; set; } | الحصول على أو تعيين اللون المنبعث |
-| [EmissiveTexture](../../aspose.threed.shading/pbrmaterial/emissivetexture) { get; set; } | الحصول على نسيج لل emissive أو تعيينه |
-| [MetallicFactor](../../aspose.threed.shading/pbrmaterial/metallicfactor) { get; set; } | الحصول على معادن المادة أو تحديدها ، وتعني القيمة 1 أن المادة عبارة عن معدن والقيمة 0 تعني أن المادة عازلة . |
-| [MetallicRoughness](../../aspose.threed.shading/pbrmaterial/metallicroughness) { get; set; } | الحصول على النسيج المعدني (في قناة R) والخشونة (في قناة G) أو ضبطه |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [NormalTexture](../../aspose.threed.shading/pbrmaterial/normaltexture) { get; set; } | الحصول على نسيج التعيين العادي أو تعيينه |
-| [OcclusionFactor](../../aspose.threed.shading/pbrmaterial/occlusionfactor) { get; set; } | الحصول على أو تحديد عامل الانسداد المحيط |
-| [OcclusionTexture](../../aspose.threed.shading/pbrmaterial/occlusiontexture) { get; set; } | الحصول على نسيج الانسداد المحيط أو تعيينه |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [RoughnessFactor](../../aspose.threed.shading/pbrmaterial/roughnessfactor) { get; set; } | الحصول على خشونة المادة أو تحديدها ، وتعني القيمة 1 أن المادة خشنة تمامًا وتعني القيمة 0 أن المادة ناعمة تمامًا |
-| [SpecularTexture](../../aspose.threed.shading/pbrmaterial/speculartexture) { get; set; } | الحصول على نسيج مرآى أو تعيينه لـ color |
-| [Transparency](../../aspose.threed.shading/pbrmaterial/transparency) { get; set; } | الحصول على عامل الشفافية أو تعيينه . يجب أن يتراوح العامل بين 0 (0٪ ، معتم تمامًا) و 1 (100٪ ، شفاف تمامًا) سيتم تثبيت أي قيمة غير صالحة للعامل . |
+| [Albedo](../../aspose.threed.shading/pbrmaterial/albedo/) { get; set; } | يحصل أو يضبط اللون الأساسي للمادة |
+| [AlbedoTexture](../../aspose.threed.shading/pbrmaterial/albedotexture/) { get; set; } | يحصل أو يضبط النسيج للـ albedo |
+| [EmissiveColor](../../aspose.threed.shading/pbrmaterial/emissivecolor/) { get; set; } | يحصل أو يضبط اللون المنبعث |
+| [EmissiveTexture](../../aspose.threed.shading/pbrmaterial/emissivetexture/) { get; set; } | يحصل أو يعيّن النسيج للانبعاثي |
+| [MetallicFactor](../../aspose.threed.shading/pbrmaterial/metallicfactor/) { get; set; } | يحصل أو يضبط معدنية المادة، قيمة 1 تعني أن المادة معدن وقيمة 0 تعني أن المادة عازلة. |
+| [MetallicRoughness](../../aspose.threed.shading/pbrmaterial/metallicroughness/) { get; set; } | يحصل أو يضبط النسيج للمعدن (في قناة R) والخشونة (في قناة G) |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [NormalTexture](../../aspose.threed.shading/pbrmaterial/normaltexture/) { get; set; } | يحصل أو يعيّن نسيج تمثيل العادي |
+| [OcclusionFactor](../../aspose.threed.shading/pbrmaterial/occlusionfactor/) { get; set; } | يحصل أو يضبط عامل الإغلاق المحيطي |
+| [OcclusionTexture](../../aspose.threed.shading/pbrmaterial/occlusiontexture/) { get; set; } | يحصل أو يضبط النسيج للإغلاق المحيطي |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [RoughnessFactor](../../aspose.threed.shading/pbrmaterial/roughnessfactor/) { get; set; } | يحصل أو يضبط خشونة المادة، قيمة 1 تعني أن المادة خشنة تمامًا وقيمة 0 تعني أن المادة ناعمة تمامًا. |
+| [SpecularTexture](../../aspose.threed.shading/pbrmaterial/speculartexture/) { get; set; } | يحصل أو يضبط النسيج للون الانعكاس |
+| [Transparency](../../aspose.threed.shading/pbrmaterial/transparency/) { get; set; } | يحصل أو يضبط عامل الشفافية. يجب أن يكون العامل بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة عامل غير صالحة سيتم تقليمها. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator)() | الحصول على العداد لتعداد فتحات النسيج الداخلي. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [GetTexture](../../aspose.threed.shading/material/gettexture)(string) | الحصول على النسيج من الفتحة المحددة ، يمكن أن يكون اسم خاصية المادة أو اسم معلمة shader |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| [SetTexture](../../aspose.threed.shading/material/settexture)(string, TextureBase) | يضبط النسيج على slot |
-| override [ToString](../../aspose.threed.shading/material/tostring)() | كائن تنسيقات إلى string |
+| static [FromMaterial](../../aspose.threed.shading/pbrmaterial/frommaterial/)(Material) | السماح بتحويل مادة أخرى إلى PbrMaterial |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | يحصل على المُعدِّد لتعداد فتحات القوام الداخلية. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | يحصل على القوام من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | يعيّن القوام إلى الفتحة المحددة |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | يحوّل الكائن إلى سلسلة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Material](../material)
-* مساحة الاسم [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* المجسم [Aspose.3D](../../)
+* class [Material](../material/)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

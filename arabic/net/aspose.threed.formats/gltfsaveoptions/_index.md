@@ -1,51 +1,53 @@
 ---
-title: GltfSaveOptions
-second_title: Aspose.3D لمرجع .NET API
-description: خيارات الحفظ لتنسيق glTF .
+title: "الفئة GltfSaveOptions"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Formats.GltfSaveOptions. خيارات الحفظ لتنسيق glTF"
 type: docs
-weight: 1160
+weight: 1280
 url: /ar/net/aspose.threed.formats/gltfsaveoptions/
 ---
 ## GltfSaveOptions class
 
-خيارات الحفظ لتنسيق glTF .
+خيارات الحفظ لتنسيق glTF.
 
 ```csharp
 public class GltfSaveOptions : SaveOptions
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GltfSaveOptions](gltfsaveoptions#constructor)(FileContentType) | منشئ[`GltfSaveOptions`](../gltfsaveoptions) |
-| [GltfSaveOptions](gltfsaveoptions#constructor_1)(FileFormat) | منشئ[`GltfSaveOptions`](../gltfsaveoptions) |
+| [GltfSaveOptions](gltfsaveoptions/#constructor)(FileContentType) | منشئ `GltfSaveOptions` |
+| [GltfSaveOptions](gltfsaveoptions/#constructor_1)(FileFormat) | منشئ `GltfSaveOptions` |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BufferFile](../../aspose.threed.formats/gltfsaveoptions/bufferfile) { get; set; } | اسم الملف لملف المخزن المؤقت الخارجي المستخدم لتخزين البيانات الثنائية. إذا لم يتم تحديد هذا الملف ، فسوف يقوم Aspose.3D بإنشاء اسم لك. يتم تجاهل هذا عند تصدير glTF في الوضع الثنائي. |
-| [DracoCompression](../../aspose.threed.formats/gltfsaveoptions/dracocompression) { get; set; } | يحصل أو يحدد ما إذا كان سيتم تمكين ضغط draco |
-| [EmbedAssets](../../aspose.threed.formats/gltfsaveoptions/embedassets) { get; set; } | قم بتضمين كافة الأصول الخارجية كـ base64 في ملف واحد في وضع ASCII ، القيمة الافتراضية هي false . |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding) { get; set; } | الحصول على الترميز الافتراضي للملفات النصية أو تعيينه. القيمة الافتراضية خالية مما يعني أن المستورد / المُصدِّر سيقرر الترميز الذي يجب استخدامه. |
-| [ExternalDracoEncoder](../../aspose.threed.formats/gltfsaveoptions/externaldracoencoder) { get; set; } | استخدم مشفر دراكو خارجي لتسريع سرعة ضغط دراكو. |
-| [FallbackNormal](../../aspose.threed.formats/gltfsaveoptions/fallbacknormal) { get; set; } | عندما اكتشف مُصدِّر GLTF2 أمرًا عاديًا غير صالح ، سيتم استخدام هذا بدلاً من قيمته الأصلية لتجاوز التحقق . القيمة الافتراضية هي (0 ، 1 ، 0) |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat) { get; } | يحصل على تنسيق الملف المحدد في خيار حفظ / تحميل الحالي. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename) { get; set; } | اسم ملف مشهد التصدير / الاستيراد . هذا اختياري ، ولكنه مفيد عند إجراء تسلسل للأصول الخارجية مثل مادة OBJ . |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem) { get; set; } | السماح للمستخدم بالتعامل مع كيفية إدارة التبعيات الخارجية أثناء التحميل / الحفظ. |
-| [FlipTexCoordV](../../aspose.threed.formats/gltfsaveoptions/fliptexcoordv) { get; set; } | انعكاس نسيج تنسيق v (t) لمكون ، القيمة الافتراضية هي true . |
-| [ImageFormat](../../aspose.threed.formats/gltfsaveoptions/imageformat) { get; set; } | يدعم glTF القياسي فقط PNG / JPG كتنسيق نسيج خاص به ، وسيوجه هذا الخيار كيفية تحويل Aspose.3D الصور غير القياسية إلى تنسيق مدعوم أثناء التصدير . القيمة الافتراضية هيPng |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths) { get; set; } | تعتمد بعض الملفات مثل OBJ على ملف خارجي ، وستسمح مسارات البحث لـ Aspose.3D بالبحث عن ملف خارجي ليتم تحميله. |
-| [MaterialConverter](../../aspose.threed.formats/gltfsaveoptions/materialconverter) { get; set; } | محول مخصص لتحويل مادة الهندسة إلى مادة PBR إذا لم يتم تعيين هذا ، فسيقوم مُصدِّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR . القيمة الافتراضية هي null تُستخدم هذه الخاصية عند تصدير مشهد إلى ملف glTF 2.0 . |
-| [PrettyPrint](../../aspose.threed.formats/gltfsaveoptions/prettyprint) { get; set; } | تم وضع مسافة بادئة لمحتوى JSON لملف GLTF للقراءة البشرية ، والقيمة الافتراضية هي false |
-| [SaveExtras](../../aspose.threed.formats/gltfsaveoptions/saveextras) { get; set; } | احفظ الخصائص الديناميكية لكائن المشهد في الحقول "الإضافية" في ملف glTF الذي تم إنشاؤه. هذا مفيد لتوفير البيانات الخاصة بالتطبيق. القيمة الافتراضية هي false. |
-| [UseCommonMaterials](../../aspose.threed.formats/gltfsaveoptions/usecommonmaterials) { get; set; } | تسلسل المواد باستخدام امتدادات المواد الشائعة KHR ، القيمة الافتراضية خاطئة. تعيين هذا على خطأ سوف يتسبب Aspose.3D بتصدير مجموعة من رأس / جزء تظليل إذاExportShaders |
+| [ApplyUnitScale](../../aspose.threed.formats/gltfsaveoptions/applyunitscale/) { get; set; } | تطبيق [`UnitScaleFactor`](../../aspose.threed/assetinfo/unitscalefactor/) على الشبكة. القيمة الافتراضية هي false. |
+| [BufferFile](../../aspose.threed.formats/gltfsaveoptions/bufferfile/) { get; set; } | اسم ملف المخزن المؤقت الخارجي المستخدم لتخزين البيانات الثنائية. إذا لم يتم تحديد هذا الملف، سيقوم Aspose.3D بإنشاء اسم لك. يتم تجاهل ذلك عند تصدير glTF في الوضع الثنائي. |
+| [DracoCompression](../../aspose.threed.formats/gltfsaveoptions/dracocompression/) { get; set; } | يحصل أو يعيّن ما إذا كان سيتم تمكين ضغط draco |
+| [EmbedAssets](../../aspose.threed.formats/gltfsaveoptions/embedassets/) { get; set; } | تضمين جميع الأصول الخارجية كـ base64 في ملف واحد بوضع ASCII، القيمة الافتراضية هي false. |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | يحصل أو يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدر سيقرر أي ترميز يستخدم. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | محاولة نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
+| [ExternalDracoEncoder](../../aspose.threed.formats/gltfsaveoptions/externaldracoencoder/) { get; set; } | استخدام مُشفّر draco الخارجي لتسريع سرعة ضغط draco. |
+| [FallbackNormal](../../aspose.threed.formats/gltfsaveoptions/fallbacknormal/) { get; set; } | عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيتم استخدام هذا بدلاً من قيمته الأصلية لتجاوز التحقق. القيمة الافتراضية هي (0, 1, 0) |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | اسم ملف المشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | السماح للمستخدم بالتعامل مع كيفية إدارة التبعيات الخارجية أثناء التحميل/الحفظ. |
+| [FlipTexCoordV](../../aspose.threed.formats/gltfsaveoptions/fliptexcoordv/) { get; set; } | قلب مكوّن إحداثي النسيج v(t)، القيمة الافتراضية هي true. |
+| [ImageFormat](../../aspose.threed.formats/gltfsaveoptions/imageformat/) { get; set; } | يدعم glTF القياسي فقط PNG/JPG كصيغة نسيج، هذا الخيار سيوجه كيفية تحويل Aspose.3D للصور غير القياسية إلى صيغة مدعومة أثناء التصدير. القيمة الافتراضية هي Png |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | بعض الملفات مثل OBJ تعتمد على ملف خارجي، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. |
+| [MaterialConverter](../../aspose.threed.formats/gltfsaveoptions/materialconverter/) { get; set; } | محول مخصص لتحويل مادة الهندسة إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. القيمة الافتراضية هي null. تُستخدم هذه الخاصية عند تصدير مشهد إلى ملف glTF 2.0. |
+| [PrettyPrint](../../aspose.threed.formats/gltfsaveoptions/prettyprint/) { get; set; } | محتوى JSON لملف GLTF مُنظم لتسهيل القراءة البشرية، القيمة الافتراضية هي false |
+| [SaveExtras](../../aspose.threed.formats/gltfsaveoptions/saveextras/) { get; set; } | حفظ الخصائص الديناميكية لكائن المشهد في حقول 'extra' في ملف glTF المُولَّد. هذا مفيد لتوفير بيانات خاصة بالتطبيق. القيمة الافتراضية هي false. |
+| [UseCommonMaterials](../../aspose.threed.formats/gltfsaveoptions/usecommonmaterials/) { get; set; } | تسلسل المواد باستخدام امتدادات مادة KHR الشائعة، القيمة الافتراضية هي false. ضبط هذا على false سيتسبب في تصدير Aspose.3D لمجموعة من شادر القمة/القطعة إذا كان ExportShaders مفعلاً. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [SaveOptions](../saveoptions)
-* مساحة الاسم [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* المجسم [Aspose.3D](../../)
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

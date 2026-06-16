@@ -1,14 +1,14 @@
 ---
-title: Material
-second_title: Aspose.3D لمرجع .NET API
-description: تحدد المادة المعلمات اللازمة للمظهر الهندسي المرئي . Aspose.3D نموذج تظليل لـLambertMaterial./lambertmaterial وPhongMaterial./phongmaterial وShaderMaterial./shadermaterial
+title: "الفئة Material"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Shading.Material. المادة تعرف المعلمات اللازمة للمظهر البصري للهندسة. Aspose.3D توفر نموذج الظل لـ LambertMaterial و PhongMaterial و ShaderMaterial"
 type: docs
-weight: 2290
+weight: 2540
 url: /ar/net/aspose.threed.shading/material/
 ---
 ## Material class
 
-تحدد المادة المعلمات اللازمة للمظهر الهندسي المرئي . Aspose.3D نموذج تظليل لـ[`LambertMaterial`](../lambertmaterial) و[`PhongMaterial`](../phongmaterial) و[`ShaderMaterial`](../shadermaterial)
+المادة تعرف المعلمات اللازمة للمظهر البصري للهندسة. Aspose.3D توفر نموذج الظل لـ [`LambertMaterial`](../lambertmaterial/)، [`PhongMaterial`](../phongmaterial/) و [`ShaderMaterial`](../shadermaterial/)
 
 ```csharp
 public abstract class Material : A3DObject, IEnumerable<TextureSlot>
@@ -16,40 +16,53 @@ public abstract class Material : A3DObject, IEnumerable<TextureSlot>
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator)() | الحصول على العداد لتعداد فتحات النسيج الداخلي. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [GetTexture](../../aspose.threed.shading/material/gettexture)(string) | الحصول على النسيج من الفتحة المحددة ، يمكن أن يكون اسم خاصية المادة أو اسم معلمة shader |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| [SetTexture](../../aspose.threed.shading/material/settexture)(string, TextureBase) | يضبط النسيج على slot |
-| override [ToString](../../aspose.threed.shading/material/tostring)() | كائن تنسيقات إلى string |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | يحصل على المُعدِّد لتعداد فتحات القوام الداخلية. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | يحصل على القوام من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | يعيّن القوام إلى الفتحة المحددة |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | يحوّل الكائن إلى سلسلة |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| const [MapAmbient](../../aspose.threed.shading/material/mapambient) | المستخدمة في[`SetTexture`](./settexture) لتعيين مخطط نسيج محيط . |
-| const [MapDiffuse](../../aspose.threed.shading/material/mapdiffuse) | المستخدمة في[`SetTexture`](./settexture) لتعيين رسم خرائط نسيج منتشر. |
-| const [MapEmissive](../../aspose.threed.shading/material/mapemissive) | المستخدمة في[`SetTexture`](./settexture) لتعيين رسم خرائط نسيج انبعاث. |
-| const [MapNormal](../../aspose.threed.shading/material/mapnormal) | المستخدمة في[`SetTexture`](./settexture) لتعيين مخطط نسيج عادي. |
-| const [MapSpecular](../../aspose.threed.shading/material/mapspecular) | المستخدمة في[`SetTexture`](./settexture) لتعيين مخطط نسيج مرآوي . |
+| const [MapAmbient](../../aspose.threed.shading/material/mapambient/) | يُستخدم في [`SetTexture`](./settexture/) لتعيين خريطة نسيج محيطي. |
+| const [MapDiffuse](../../aspose.threed.shading/material/mapdiffuse/) | يُستخدم في [`SetTexture`](./settexture/) لتعيين خريطة نسيج انتشارية. |
+| const [MapEmissive](../../aspose.threed.shading/material/mapemissive/) | يُستخدم في [`SetTexture`](./settexture/) لتعيين خريطة نسيج مضيئة. |
+| const [MapNormal](../../aspose.threed.shading/material/mapnormal/) | يُستخدم في [`SetTexture`](./settexture/) لتعيين خريطة نسيج عادية. |
+| const [MapSpecular](../../aspose.threed.shading/material/mapspecular/) | يُستخدم في [`SetTexture`](./settexture/) لتعيين خريطة نسيج انعكاسية. |
 
-### أنظر أيضا
+## أمثلة
 
-* class [A3DObject](../../aspose.threed/a3dobject)
-* class [TextureSlot](../textureslot)
-* مساحة الاسم [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* المجسم [Aspose.3D](../../)
+```csharp
+var mat = new LambertMaterial();
+var tex = new Texture();
+tex.FileName = "diffuse.png";
+mat.SetTexture(Material.MapDiffuse, tex);
+foreach(var slot in mat)
+{
+    Console.WriteLine($"Texture slot {slot.SlotName} = {slot.Texture}");
+}
+```
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+### انظر أيضًا
+
+* class [A3DObject](../../aspose.threed/a3dobject/)
+* class [TextureSlot](../textureslot/)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
+
+

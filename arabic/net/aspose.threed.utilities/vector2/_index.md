@@ -1,65 +1,66 @@
 ---
-title: Vector2
-second_title: Aspose.3D لمرجع .NET API
-description: متجه بمكونين.
+title: "الهيكل Vector2"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الهيكل Aspose.ThreeD.Utilities.Vector2. متجه ذو مكوّنين"
 type: docs
-weight: 2630
+weight: 2870
 url: /ar/net/aspose.threed.utilities/vector2/
 ---
 ## Vector2 structure
 
-متجه بمكونين.
+متجه ذو مكوّنين.
 
 ```csharp
 public struct Vector2 : IComparable<Vector2>
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Vector2](vector2#constructor_1)(double) | يقوم بتهيئة مثيل جديد لملف[`Vector2`](../vector2) هيكل . |
-| [Vector2](vector2#constructor)(FVector2) | يقوم بتهيئة مثيل جديد لملف[`Vector2`](../vector2) هيكل . |
-| [Vector2](vector2#constructor_2)(double, double) | يقوم بتهيئة مثيل جديد لملف[`Vector2`](../vector2) هيكل . |
+| [Vector2](vector2/#constructor_2)(double) | ينشئ مثلاً جديداً للهيكل `Vector2`. |
+| [Vector2](vector2/#constructor)(FVector2) | ينشئ مثلاً جديداً للهيكل `Vector2`. |
+| [Vector2](vector2/#constructor_1)(Vector3) | ينشئ مثلاً جديداً للهيكل `Vector2`. |
+| [Vector2](vector2/#constructor_3)(double, double) | ينشئ مثلاً جديداً للهيكل `Vector2`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Length](../../aspose.threed.utilities/vector2/length) { get; } | يحصل على الطول. |
-| [U](../../aspose.threed.utilities/vector2/u) { get; set; } | الحصول على أو تعيين مكون U إذا كان[`Vector2`](../vector2) يستخدم كتحديد إحداثي للتعيين . إنه اسم مستعار لمكون x. |
-| [V](../../aspose.threed.utilities/vector2/v) { get; set; } | الحصول على أو تعيين مكون V إذا كان[`Vector2`](../vector2)يستخدم كإحداثي تعيين . إنه اسم مستعار لمكون y . |
+| [Length](../../aspose.threed.utilities/vector2/length/) { get; } | يحصل على الطول. |
+| [U](../../aspose.threed.utilities/vector2/u/) { get; set; } | يحصل أو يعيّن المكوّن U إذا تم استخدام `Vector2` كإحداثيات تخطيط. إنه اسم مستعار للمكوّن x. |
+| [V](../../aspose.threed.utilities/vector2/v/) { get; set; } | يحصل أو يعيّن المكوّن V إذا تم استخدام `Vector2` كإحداثيات تخطيط. إنه اسم مستعار للمكوّن y. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CompareTo](../../aspose.threed.utilities/vector2/compareto)(Vector2) | قارن المتجه الحالي بمثيل آخر. |
-| [Cross](../../aspose.threed.utilities/vector2/cross)(Vector2) | حاصل ضرب اثنين من النواقل |
-| [Dot](../../aspose.threed.utilities/vector2/dot)(Vector2) | الحصول على حاصل الضرب النقطي لمتجهين |
-| override [Equals](../../aspose.threed.utilities/vector2/equals#equals_1)(object) | تحقق مما إذا كان اثنان من المتجه 2 يساوي |
-| [Equals](../../aspose.threed.utilities/vector2/equals#equals)(Vector2) | تحقق مما إذا كان اثنان من المتجه 2 يساوي |
-| override [GetHashCode](../../aspose.threed.utilities/vector2/gethashcode)() | يحصل على كود التجزئة الخاص بـ Vector2 |
-| [Normalize](../../aspose.threed.utilities/vector2/normalize)() | تطبيع هذا المثال . |
-| override [ToString](../../aspose.threed.utilities/vector2/tostring)() | إرجاع أStringالتي تمثل التيار[`Vector2`](../vector2) . |
-| [operator +](../../aspose.threed.utilities/vector2/op_addition) | عامل إضافة لـ Vector2 |
-| [operator /](../../aspose.threed.utilities/vector2/op_division) | مشغل القسم لـ Vector2 |
-| [operator ==](../../aspose.threed.utilities/vector2/op_equality) | عامل التشغيل المتساوي لـ Vector2 |
-| [explicit operator](../../aspose.threed.utilities/vector2/op_explicit) |  |
-| [operator !=](../../aspose.threed.utilities/vector2/op_inequality) | عامل غير متساوٍ لـ Vector2 |
-| [operator *](../../aspose.threed.utilities/vector2/op_multiply#op_multiply) | ضرب عامل Vector2 (2 operators) |
-| [operator -](../../aspose.threed.utilities/vector2/op_subtraction) | عامل الطرح لـ Vector2 |
+| [CompareTo](../../aspose.threed.utilities/vector2/compareto/)(Vector2) | قارن المتجه الحالي بمثيل آخر. |
+| [Cross](../../aspose.threed.utilities/vector2/cross/)(Vector2) | حاصل الضرب المتقاطع لمتجهين |
+| [Dot](../../aspose.threed.utilities/vector2/dot/)(Vector2) | يحصل على حاصل الضرب النقطي لمتجهين |
+| override [Equals](../../aspose.threed.utilities/vector2/equals/#equals_1)(object) | تحقق مما إذا كان متجهان Vector2 متساويين |
+| [Equals](../../aspose.threed.utilities/vector2/equals/#equals)(Vector2) | تحقق مما إذا كان متجهان Vector2 متساويين |
+| override [GetHashCode](../../aspose.threed.utilities/vector2/gethashcode/)() | يحصل على قيمة التجزئة لـ Vector2 |
+| [Normalize](../../aspose.threed.utilities/vector2/normalize/)() | يعيد تطبيع هذا الكائن. |
+| override [ToString](../../aspose.threed.utilities/vector2/tostring/)() | يعيد سلسلة تمثّل الـ `Vector2` الحالي. |
+| [operator +](../../aspose.threed.utilities/vector2/op_addition/) | عامل الجمع لـ Vector2 |
+| [operator /](../../aspose.threed.utilities/vector2/op_division/) | عامل القسمة لـ Vector2 |
+| [operator ==](../../aspose.threed.utilities/vector2/op_equality/) | عامل المساواة لـ Vector2 |
+| [explicit operator](../../aspose.threed.utilities/vector2/op_explicit/) |  |
+| [operator !=](../../aspose.threed.utilities/vector2/op_inequality/) | عامل عدم المساواة لـ Vector2 |
+| [operator *](../../aspose.threed.utilities/vector2/op_multiply/#op_multiply) | عامل الضرب لـ Vector2 (عاملان) |
+| [operator -](../../aspose.threed.utilities/vector2/op_subtraction/) | عامل الطرح لـ Vector2 |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [x](../../aspose.threed.utilities/vector2/x) | المكون x . |
-| [y](../../aspose.threed.utilities/vector2/y) | المكون y . |
+| [X](../../aspose.threed.utilities/vector2/x/) | المكوّن x. |
+| [Y](../../aspose.threed.utilities/vector2/y/) | المكوّن y. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.ThreeD.Utilities](../../aspose.threed.utilities)
-* المجسم [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,60 +1,59 @@
 ---
-title: RenderState
-second_title: Aspose.3D لمرجع .NET API
-description: حالة العرض لبناء خط الأنابيب لن تؤثر التغييرات التي تم إجراؤها على حالة العرض على مثيلات خط الأنابيب التي تم إنشاؤها.
+title: "الفئة RenderState"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "الفئة Aspose.ThreeD.Render.RenderState. حالة العرض لبناء خط الأنابيب. التغييرات التي تُجرى على حالة العرض لن تؤثر على مثيلات خط الأنابيب التي تم إنشاؤها"
 type: docs
-weight: 2090
+weight: 2330
 url: /ar/net/aspose.threed.render/renderstate/
 ---
 ## RenderState class
 
-حالة العرض لبناء خط الأنابيب لن تؤثر التغييرات التي تم إجراؤها على حالة العرض على مثيلات خط الأنابيب التي تم إنشاؤها.
+حالة العرض لبناء خط الأنابيب التغييرات التي تُجرى على حالة العرض لن تؤثر على مثيلات خط الأنابيب المُنشأة.
 
 ```csharp
 public class RenderState : IComparable<RenderState>, IDisposable
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [RenderState](renderstate)() | منشئ[`RenderState`](../renderstate) |
+| [RenderState](renderstate/)() | منشئ لـ `RenderState` |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Blend](../../aspose.threed.render/renderstate/blend) { get; set; } | تمكين أو تعطيل مزج الأجزاء. |
-| [BlendColor](../../aspose.threed.render/renderstate/blendcolor) { get; set; } | الحصول على لون المزج أو تعيينه عند استخدامهConstantColor |
-| [CullFace](../../aspose.threed.render/renderstate/cullface) { get; set; } | تمكين أو تعطيل cull face |
-| [CullFaceMode](../../aspose.threed.render/renderstate/cullfacemode) { get; set; } | الحصول على أو تحديد الوجه الذي سيتم استبعاده. |
-| [DepthFunction](../../aspose.threed.render/renderstate/depthfunction) { get; set; } | الحصول على أو تعيين وظيفة المقارنة المستخدمة في اختبار العمق |
-| [DepthMask](../../aspose.threed.render/renderstate/depthmask) { get; set; } | تمكين أو تعطيل كتابة العمق . |
-| [DepthTest](../../aspose.threed.render/renderstate/depthtest) { get; set; } | تمكين أو تعطيل اختبار العمق . |
-| [DestinationBlendFactor](../../aspose.threed.render/renderstate/destinationblendfactor) { get; set; } | الحصول على أو تحديد كيفية مزج اللون. |
-| [FrontFace](../../aspose.threed.render/renderstate/frontface) { get; set; } | يحصل أو يحدد أي الترتيب هو الوجه الأمامي. |
-| [PolygonMode](../../aspose.threed.render/renderstate/polygonmode) { get; set; } | الحصول على أو تعيين وضع تصيير المضلع . |
-| [ScissorBox](../../aspose.threed.render/renderstate/scissorbox) { get; set; } | الحصول على أو تعيين مربع المقص |
-| [ScissorTest](../../aspose.threed.render/renderstate/scissortest) { get; set; } | تمكين أو تعطيل اختبار المقص |
-| [SourceBlendFactor](../../aspose.threed.render/renderstate/sourceblendfactor) { get; set; } | الحصول على أو تحديد كيفية مزج اللون. |
-| [StencilBackFace](../../aspose.threed.render/renderstate/stencilbackface) { get; } | الحصول على حالة الاستنسل للوجه الخلفي. |
-| [StencilFrontFace](../../aspose.threed.render/renderstate/stencilfrontface) { get; } | الحصول على حالة الاستنسل للوجه الأمامي. |
-| [StencilMask](../../aspose.threed.render/renderstate/stencilmask) { get; set; } | الحصول على أو تعيين القناع الذي تم إعداده باستخدام كل من المرجع وقيمة الاستنسل المخزنة عند إجراء الاختبار. |
-| [StencilReference](../../aspose.threed.render/renderstate/stencilreference) { get; set; } | الحصول على القيمة المرجعية لاختبار الاستنسل أو تعيينها. |
-| [StencilTest](../../aspose.threed.render/renderstate/stenciltest) { get; set; } | تمكين أو تعطيل اختبار الاستنسل . |
+| [Blend](../../aspose.threed.render/renderstate/blend/) { get; set; } | تمكين أو تعطيل دمج القطع. |
+| [BlendColor](../../aspose.threed.render/renderstate/blendcolor/) { get; set; } | يحصل أو يعيّن لون الدمج حيث يُستخدم في ConstantColor |
+| [CullFace](../../aspose.threed.render/renderstate/cullface/) { get; set; } | تمكين أو تعطيل استبعاد الوجه |
+| [CullFaceMode](../../aspose.threed.render/renderstate/cullfacemode/) { get; set; } | يحصل أو يعيّن أي وجه سيتم استبعاده. |
+| [DepthFunction](../../aspose.threed.render/renderstate/depthfunction/) { get; set; } | يحصل أو يعيّن دالة المقارنة المستخدمة في اختبار العمق |
+| [DepthMask](../../aspose.threed.render/renderstate/depthmask/) { get; set; } | تمكين أو تعطيل كتابة العمق. |
+| [DepthTest](../../aspose.threed.render/renderstate/depthtest/) { get; set; } | تمكين أو تعطيل اختبار العمق. |
+| [DestinationBlendFactor](../../aspose.threed.render/renderstate/destinationblendfactor/) { get; set; } | يحصل أو يعيّن طريقة دمج اللون. |
+| [FrontFace](../../aspose.threed.render/renderstate/frontface/) { get; set; } | يحصل أو يعيّن أي ترتيب هو الوجه الأمامي. |
+| [PolygonMode](../../aspose.threed.render/renderstate/polygonmode/) { get; set; } | يحصل أو يعيّن وضع عرض المضلع. |
+| [ScissorTest](../../aspose.threed.render/renderstate/scissortest/) { get; set; } | تمكين أو تعطيل اختبار المقص |
+| [SourceBlendFactor](../../aspose.threed.render/renderstate/sourceblendfactor/) { get; set; } | يحصل أو يعيّن طريقة دمج اللون. |
+| [StencilBackFace](../../aspose.threed.render/renderstate/stencilbackface/) { get; } | يحصل على حالة القالب للوجه الخلفي. |
+| [StencilFrontFace](../../aspose.threed.render/renderstate/stencilfrontface/) { get; } | يحصل على حالة القالب للوجه الأمامي. |
+| [StencilMask](../../aspose.threed.render/renderstate/stencilmask/) { get; set; } | يحصل أو يعيّن القناع الذي يُجرى معه عملية AND مع كل من القيمة المرجعية والقيمة المخزنة للقالب عند إكمال الاختبار. |
+| [StencilReference](../../aspose.threed.render/renderstate/stencilreference/) { get; set; } | يحصل أو يعيّن القيمة المرجعية لاختبار القالب. |
+| [StencilTest](../../aspose.threed.render/renderstate/stenciltest/) { get; set; } | تمكين أو تعطيل اختبار القالب. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CompareTo](../../aspose.threed.render/renderstate/compareto)(RenderState) | قارن حالة العرض بمثيل آخر |
-| [Dispose](../../aspose.threed.render/renderstate/dispose)() | تخلص من ملف[`RenderState`](../renderstate) وتحرير كافة الموارد الداخلية. |
-| override [Equals](../../aspose.threed.render/renderstate/equals)(object) | ترجع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| override [GetHashCode](../../aspose.threed.render/renderstate/gethashcode)() | إرجاع رمز التجزئة لهذه الحالة. |
+| [CompareTo](../../aspose.threed.render/renderstate/compareto/)(RenderState) | قارن حالة العرض مع نسخة أخرى |
+| [Dispose](../../aspose.threed.render/renderstate/dispose/)() | تخلص من `RenderState` وحرّر جميع الموارد الداخلية. |
+| override [Equals](../../aspose.threed.render/renderstate/equals/)(object) | يرجع قيمة تشير إلى ما إذا كانت هذه النسخة مساوية لكائن محدد. |
+| override [GetHashCode](../../aspose.threed.render/renderstate/gethashcode/)() | يرجع رمز التجزئة لهذه النسخة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.ThreeD.Render](../../aspose.threed.render)
-* المجسم [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

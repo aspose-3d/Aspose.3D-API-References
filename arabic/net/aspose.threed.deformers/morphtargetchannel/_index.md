@@ -1,63 +1,63 @@
 ---
-title: MorphTargetChannel
-second_title: Aspose.3D لمرجع .NET API
-description: يتم استخدام MorphTargetChannel بواسطةMorphTargetDeformer./morphtargetdeformer لتنظيم الأشكال الهندسية المستهدفة . بعض تنسيقات الملفات مثل FBX تدعم قنوات متعددة على التوازي.
+title: "الفئة MorphTargetChannel"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "Aspose.ThreeD.Deformers.MorphTargetChannel class. يُستخدم MorphTargetChannel بواسطة MorphTargetDeformer لتنظيم الهندسات الهدف. بعض صيغ الملفات مثل FBX تدعم قنوات متعددة بالتوازي."
 type: docs
-weight: 200
+weight: 220
 url: /ar/net/aspose.threed.deformers/morphtargetchannel/
 ---
 ## MorphTargetChannel class
 
-يتم استخدام MorphTargetChannel بواسطة[`MorphTargetDeformer`](../morphtargetdeformer) لتنظيم الأشكال الهندسية المستهدفة . بعض تنسيقات الملفات مثل FBX تدعم قنوات متعددة على التوازي.
+يُستخدم MorphTargetChannel بواسطة [`MorphTargetDeformer`](../morphtargetdeformer/) لتنظيم الهندسات الهدف. بعض صيغ الملفات مثل FBX تدعم قنوات متعددة بالتوازي.
 
 ```csharp
 public class MorphTargetChannel : A3DObject
 ```
 
-## المنشئون
+## المُنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [MorphTargetChannel](morphtargetchannel#constructor)() | يقوم بتهيئة مثيل جديد لملف[`MorphTargetChannel`](../morphtargetchannel) فئة . |
-| [MorphTargetChannel](morphtargetchannel#constructor_1)(string) | يقوم بتهيئة مثيل جديد لملف[`MorphTargetChannel`](../morphtargetchannel) فئة . |
+| [MorphTargetChannel](morphtargetchannel/#constructor)() | يُنشئ مثيلاً جديداً من الفئة `MorphTargetChannel`. |
+| [MorphTargetChannel](morphtargetchannel/#constructor_1)(string) | يُنشئ مثيلاً جديداً من الفئة `MorphTargetChannel`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ChannelWeight](../../aspose.threed.deformers/morphtargetchannel/channelweight) { get; set; } | الحصول على أو تحديد وزن المشوه لهذه القناة. الوزن بين 0.0 و 1.0 |
-| [Item](../../aspose.threed.deformers/morphtargetchannel/item) { get; set; } |  |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | الحصول على الاسم أو تعيينه . |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | الحصول على مجموعة من كافة الخصائص . |
-| [Targets](../../aspose.threed.deformers/morphtargetchannel/targets) { get; } | يحصل على جميع الأهداف المرتبطة بالقناة . |
-| [Weights](../../aspose.threed.deformers/morphtargetchannel/weights) { get; } | الحصول على قيم الوزن الكاملة للأشكال الهندسية المستهدفة. |
+| [ChannelWeight](../../aspose.threed.deformers/morphtargetchannel/channelweight/) { get; set; } | يحصل أو يضبط وزن المشكّل لهذه القناة. الوزن يتراوح بين 0.0 و 1.0. |
+| [Item](../../aspose.threed.deformers/morphtargetchannel/item/) { get; set; } |  |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | يحصل أو يعيّن الاسم. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | يحصل على مجموعة جميع الخصائص. |
+| [Targets](../../aspose.threed.deformers/morphtargetchannel/targets/) { get; } | يحصل على جميع الأهداف المرتبطة بالقناة. |
+| [Weights](../../aspose.threed.deformers/morphtargetchannel/weights/) { get; } | يحصل على قيم الوزن الكاملة للهندسات الهدف. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | البحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty / SetProperty) أو خاصية أصلية (محددة باسمها) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | الحصول على قيمة الخاصية المحددة |
-| [GetWeight](../../aspose.threed.deformers/morphtargetchannel/getweight)(Shape) | للحصول على الوزن للهدف المحدد ، إذا لم يكن الهدف ينتمي إلى هذه القناة ، يتم إرجاع القيمة الافتراضية 0. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | يزيل خاصية ديناميكية . |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | إزالة الخاصية المحددة المحددة بالاسم |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | يحدد قيمة الخاصية المحددة |
-| [SetWeight](../../aspose.threed.deformers/morphtargetchannel/setweight)(Shape, double) | يحدد الوزن للهدف المحدد ، القيمة الافتراضية هي 1 ، النطاق يجب أن يتراوح بين 0 ~ 1 |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name) |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | احصل على قيمة الخاصية المحددة |
+| [GetWeight](../../aspose.threed.deformers/morphtargetchannel/getweight/)(Shape) | يحصل على الوزن للهدف المحدد، إذا لم يكن الهدف تابعاً لهذه القناة، يتم إرجاع القيمة الافتراضية 0. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | يزيل خاصية ديناميكية. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | إزالة الخاصية المحددة بالاسم |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | يضبط قيمة الخاصية المحددة |
+| [SetWeight](../../aspose.threed.deformers/morphtargetchannel/setweight/)(Shape, double) | يضبط الوزن للهدف المحدد، القيمة الافتراضية هي 1، يجب أن يكون النطاق بين 0~1. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| const [DefaultWeight](../../aspose.threed.deformers/morphtargetchannel/defaultweight) | الوزن الافتراضي لهدف الشكل . |
+| const [DefaultWeight](../../aspose.threed.deformers/morphtargetchannel/defaultweight/) | الوزن الافتراضي للهدف التشكيلي. |
 
-### ملاحظات
+## ملاحظات
 
-يتراوح الوزن بين 0 و 1.0 ، والوزن الافتراضي للهدف هو 0.0 ؛
+الوزن بين 0 و 1.0، والوزن الافتراضي للهدف هو 0.0؛
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [A3DObject](../../aspose.threed/a3dobject)
-* مساحة الاسم [Aspose.ThreeD.Deformers](../../aspose.threed.deformers)
-* المجسم [Aspose.3D](../../)
+* class [A3DObject](../../aspose.threed/a3dobject/)
+* namespace [Aspose.ThreeD.Deformers](../../aspose.threed.deformers/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

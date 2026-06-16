@@ -1,108 +1,111 @@
 ---
-title: Mesh
-second_title: Aspose.3D لمرجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفMeshaspose.threed.entities/mesh فئة .
+title: "Mesh.Mesh"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "منشئ Mesh. يهيئ كائنًا جديدًا من الفئة Mesh"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/mesh/mesh/
 ---
 ## Mesh() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Mesh`](../../mesh) فئة .
+تهيئة كائن جديد من الفئة [`Mesh`](../).
 
 ```csharp
 public Mesh()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Mesh](../../mesh)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../mesh)
-* المجسم [Aspose.3D](../../../)
-
----
-
-## Mesh(Bitmap) {#constructor_1}
-
-أنشئ شبكة باستخدام خريطة ارتفاع محددة ، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة ، فسيتم استخدام المكون الأول (عادةً الأحمر) كقيمة ارتفاع (z) مكونات x و y لنقطة التحكم هي إحداثيات بكسل طبيعية .
-
-```csharp
-public Mesh(Bitmap heightMap)
-```
-
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| heightMap | Bitmap | مدخلات ارتفاع الخريطة |
-
-### أنظر أيضا
-
-* class [Mesh](../../mesh)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../mesh)
-* المجسم [Aspose.3D](../../../)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, Matrix4) {#constructor_2}
+## Mesh(TextureData) {#constructor_1}
 
-أنشئ شبكة باستخدام خريطة ارتفاع محددة ، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة ، فسيتم استخدام المكون الأول (عادةً الأحمر) كقيمة ارتفاع (z) مكونات x و y لنقطة التحكم هي إحداثيات بكسل طبيعية .
+أنشئ شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات إحداثيات x و y لنقطة التحكم هي إحداثيات بكسل مُطَبَّقة.
 
 ```csharp
-public Mesh(Bitmap heightMap, Matrix4 transform)
+public Mesh(TextureData heightMap)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| heightMap | Bitmap | مدخلات ارتفاع الخريطة |
-| transform | Matrix4 | التحويل الذي يتم تطبيقه على نقاط التحكم |
+| heightMap | TextureData | خريطة الارتفاع المدخلة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Matrix4](../../../aspose.threed.utilities/matrix4)
-* class [Mesh](../../mesh)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../mesh)
-* المجسم [Aspose.3D](../../../)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, bool, Matrix4) {#constructor_3}
+## Mesh(TextureData, Matrix4) {#constructor_2}
 
-أنشئ شبكة باستخدام خريطة ارتفاع محددة ، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة ، فسيتم استخدام المكون الأول (عادةً الأحمر) كقيمة ارتفاع (z) مكونات x و y لنقطة التحكم هي إحداثيات بكسل طبيعية .
+أنشئ شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات إحداثيات x و y لنقطة التحكم هي إحداثيات بكسل مُطَبَّقة.
 
 ```csharp
-public Mesh(Bitmap heightMap, bool triMesh, Matrix4 transform)
+public Mesh(TextureData heightMap, Matrix4 transform)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| heightMap | Bitmap | مدخلات ارتفاع الخريطة |
+| heightMap | TextureData | خريطة الارتفاع المدخلة |
+| تحويل | Matrix4 | التحويل الذي يُطبق على نقاط التحكم |
+
+### انظر أيضًا
+
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
+
+---
+
+## Mesh(TextureData, bool, Matrix4) {#constructor_3}
+
+أنشئ شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات إحداثيات x و y لنقطة التحكم هي إحداثيات بكسل مُطَبَّقة.
+
+```csharp
+public Mesh(TextureData heightMap, bool triMesh, Matrix4 transform)
+```
+
+| معامل | النوع | الوصف |
+| --- | --- | --- |
+| heightMap | TextureData | خريطة الارتفاع المدخلة |
 | triMesh | Boolean |  |
-| transform | Matrix4 | التحويل الذي يتم تطبيقه على نقاط التحكم |
+| تحويل | Matrix4 | التحويل الذي يُطبق على نقاط التحكم |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* struct [Matrix4](../../../aspose.threed.utilities/matrix4)
-* class [Mesh](../../mesh)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../mesh)
-* المجسم [Aspose.3D](../../../)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Mesh(string) {#constructor_4}
 
-يقوم بتهيئة مثيل جديد لملف[`Mesh`](../../mesh) فئة .
+تهيئة كائن جديد من الفئة [`Mesh`](../).
 
 ```csharp
 public Mesh(string name)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| name | String | اسم. |
+| الاسم | سلسلة | الاسم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Mesh](../../mesh)
-* مساحة الاسم [Aspose.ThreeD.Entities](../../mesh)
-* المجسم [Aspose.3D](../../../)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

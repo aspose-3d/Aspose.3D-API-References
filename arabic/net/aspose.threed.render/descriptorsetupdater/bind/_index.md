@@ -1,164 +1,164 @@
 ---
-title: Bind
-second_title: Aspose.3D لمرجع .NET API
-description: ربط المخزن المؤقت بالموصف الحالي set
+title: "DescriptorSetUpdater.Bind"
+second_title: "مرجع Aspose.3D for .NET API"
+description: "طريقة DescriptorSetUpdater. اربط الـ buffer بمجموعة الوصف الحالية"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/descriptorsetupdater/bind/
 ---
 ## Bind(IBuffer, int, int) {#bind_1}
 
-ربط المخزن المؤقت بالموصف الحالي set
+ربط المخزن المؤقت بمجموعة الوصف الحالية
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| buffer | IBuffer | أي عازلة لربط |
-| offset | Int32 | إزاحة المخزن المؤقت للربط |
-| size | Int32 | حجم المخزن المؤقت للربط |
+| buffer | IBuffer | أي buffer لربطه |
+| الإزاحة | Int32 | الإزاحة للـ buffer المراد ربطه |
+| الحجم | Int32 | حجم الـ buffer المراد ربطه |
 
 ### قيمة الإرجاع
 
-إرجاع المثيل الحالي لعملية التسلسل
+أرجع النسخة الحالية لتسلسل العمليات
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* مساحة الاسم [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* المجسم [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(IBuffer) {#bind}
 
-ربط المخزن المؤقت بالكامل بالموصف الحالي
+ربط كامل المخزن المؤقت بالوصف الحالي
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
 | buffer | IBuffer |  |
 
 ### قيمة الإرجاع
 
-إرجاع المثيل الحالي لعملية التسلسل
+أرجع النسخة الحالية لتسلسل العمليات
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* مساحة الاسم [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* المجسم [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer) {#bind_3}
 
-اربط المخزن المؤقت بالموصف الحالي المعين في موقع الربط المحدد.
+ربط المخزن المؤقت بمجموعة الوصف الحالية في موقع الربط المحدد.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| binding | Int32 | موقع ملزم |
-| buffer | IBuffer | المخزن المؤقت بأكمله للربط |
+| ربط | Int32 | موقع الربط |
+| buffer | IBuffer | الـ buffer الكامل للربط |
 
 ### قيمة الإرجاع
 
-إرجاع المثيل الحالي لعملية التسلسل
+أرجع النسخة الحالية لتسلسل العمليات
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* مساحة الاسم [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* المجسم [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer, int, int) {#bind_4}
 
-اربط المخزن المؤقت بالموصف الحالي المعين في موقع الربط المحدد.
+ربط المخزن المؤقت بمجموعة الوصف الحالية في موقع الربط المحدد.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int size)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| binding | Int32 | موقع ملزم |
-| buffer | IBuffer | المخزن المؤقت للربط |
-| offset | Int32 | إزاحة المخزن المؤقت للربط |
-| size | Int32 | حجم المخزن المؤقت للربط |
+| ربط | Int32 | موقع الربط |
+| buffer | IBuffer | المخزن للربط |
+| الإزاحة | Int32 | الإزاحة للـ buffer المراد ربطه |
+| الحجم | Int32 | حجم الـ buffer المراد ربطه |
 
 ### قيمة الإرجاع
 
-إرجاع المثيل الحالي لعملية التسلسل
+أرجع النسخة الحالية لتسلسل العمليات
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* مساحة الاسم [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* المجسم [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(ITextureUnit) {#bind_2}
 
-اربط وحدة المظهر السطحي بمجموعة الواصف الحالية
+ربط وحدة النسيج بمجموعة الوصف الحالية
 
 ```csharp
 public DescriptorSetUpdater Bind(ITextureUnit texture)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| texture | ITextureUnit | وحدة النسيج المراد ربطها |
+| نسيج | ITextureUnit | وحدة القوام للربط |
 
 ### قيمة الإرجاع
 
-إرجاع المثيل الحالي لعملية التسلسل
+أرجع النسخة الحالية لتسلسل العمليات
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* مساحة الاسم [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* المجسم [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, ITextureUnit) {#bind_5}
 
-اربط وحدة المظهر السطحي بمجموعة الواصف الحالية
+ربط وحدة النسيج بمجموعة الوصف الحالية
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| binding | Int32 | مكان الربط |
-| texture | ITextureUnit | وحدة النسيج المراد ربطها |
+| ربط | Int32 | موقع الربط |
+| نسيج | ITextureUnit | وحدة القوام للربط |
 
 ### قيمة الإرجاع
 
-إرجاع المثيل الحالي لعملية التسلسل
+أرجع النسخة الحالية لتسلسل العمليات
 
-### أنظر أيضا
+### انظر أيضًا
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* مساحة الاسم [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* المجسم [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
