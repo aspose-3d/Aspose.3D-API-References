@@ -1,0 +1,24 @@
+﻿---
+title: materials property
+second_title: Aspose.3D for Python via .NET API References
+description: 
+type: docs
+weight: 230
+url: /ru/python-net/aspose.threed/node/materials/
+is_root: false
+---
+
+## materials property
+
+
+Gets the materials associated with this node.
+### Definition:
+```python
+@property
+def materials(self):
+    ...
+```
+
+### See Also
+* module [`aspose.threed`](../../)
+* class [`Node`](/3d/python-net/aspose.threed/node)
