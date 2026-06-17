@@ -1,0 +1,198 @@
+---
+title: "A3dwSaveOptions"
+second_title: "Aspose.3D для Node.js через Java API Reference"
+description: 
+type: docs
+
+url: /ru/nodejs-java/aspose.threed/a3dwsaveoptions/
+---
+## A3dwSaveOptions class
+
+Параметры сохранения для формата A3DW.
+
+
+## Методы
+
+### constructor{#constructor}
+
+| Имя | Описание |
+| --- | --- |
+| constructor() | Конструктор A3dwSaveOptions |
+
+ **Result:**
+
+
+
+---
+
+
+### getExportMetaData{#getExportMetaData}
+
+| Имя | Описание |
+| --- | --- |
+| getExportMetaData() | Экспортировать метаданные, связанные со сценой/узлом, клиенту. Значение по умолчанию — true |
+
+ **Result:**
+
+
+
+---
+
+
+### setExportMetaData{#setExportMetaData}
+
+| Имя | Описание |
+| --- | --- |
+| setExportMetaData(value) | Экспортировать метаданные, связанные со сценой/узлом, клиенту. Значение по умолчанию — true |
+
+ **Result:**
+
+
+
+---
+
+
+### getMetaDataPrefix{#getMetaDataPrefix}
+
+| Имя | Описание |
+| --- | --- |
+| getMetaDataPrefix() | Если это свойство не равно null, будут экспортированы только свойства Scene/Node, начинающиеся с этого префикса, и префикс будет удалён. |
+
+ **Result:**
+
+
+
+---
+
+
+### setMetaDataPrefix{#setMetaDataPrefix}
+
+| Имя | Описание |
+| --- | --- |
+| setMetaDataPrefix(value) | Если это свойство не равно null, будут экспортированы только свойства Scene/Node, начинающиеся с этого префикса, и префикс будет удалён. |
+
+ **Result:**
+
+
+
+---
+
+
+### getExportTextures{#getExportTextures}
+
+| Имя | Описание |
+| --- | --- |
+| getExportTextures() | Попробовать скопировать текстуры, используемые в сцене, в выходной каталог. |
+
+ **Result:**
+
+
+
+---
+
+
+### setExportTextures{#setExportTextures}
+
+| Имя | Описание |
+| --- | --- |
+| setExportTextures(value) | Попробовать скопировать текстуры, используемые в сцене, в выходной каталог. |
+
+ **Result:**
+
+
+
+---
+
+
+### getFileFormat{#getFileFormat}
+
+| Имя | Описание |
+| --- | --- |
+| getFileFormat() | Получает формат файла, указанный в текущей опции Сохранить/Загрузить. |
+
+ **Result:**
+
+
+
+---
+
+
+### getEncoding{#getEncoding}
+
+| Имя | Описание |
+| --- | --- |
+| getEncoding() | Получает или задает кодировку по умолчанию для текстовых файлов. Значение по умолчанию — null, что означает, что импортёр/экспортёр определит, какую кодировку использовать. |
+
+ **Result:**
+
+
+
+---
+
+
+### getFileSystem{#getFileSystem}
+
+| Имя | Описание |
+| --- | --- |
+| getFileSystem() | Позволяет пользователю управлять внешними зависимостями во время загрузки/сохранения. |
+
+ **Result:**
+
+
+
+---
+
+
+### setFileSystem{#setFileSystem}
+
+| Имя | Описание |
+| --- | --- |
+| setFileSystem(value) | Позволяет пользователю управлять внешними зависимостями во время загрузки/сохранения. |
+
+ **Result:**
+
+
+
+---
+
+
+### getLookupPaths{#getLookupPaths}
+
+| Имя | Описание |
+| --- | --- |
+| getLookupPaths() | Некоторые файлы, такие как OBJ, зависят от внешних файлов; пути поиска позволяют Aspose.3D находить внешние файлы для загрузки. |
+
+ **Result:**
+
+
+
+---
+
+
+### getFileName{#getFileName}
+
+| Имя | Описание |
+| --- | --- |
+| getFileName() | Имя файла экспортируемой/импортируемой сцены. Это необязательно, но полезно при сериализации внешних ресурсов, таких как материал OBJ. |
+
+ **Result:**
+
+
+
+---
+
+
+### setFileName{#setFileName}
+
+| Имя | Описание |
+| --- | --- |
+| setFileName(value) | Имя файла экспортируемой/импортируемой сцены. Это необязательно, но полезно при сериализации внешних ресурсов, таких как материал OBJ. |
+
+ **Result:**
+
+
+
+---
+
+
+
