@@ -1,6 +1,6 @@
 ---
 title: "DriverException"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الاستثناء الذي يثيره برامج تشغيل العرض الداخلية."
 type: docs
 weight: 48
@@ -18,7 +18,7 @@ public class DriverException extends Exception
 
 | منشئ | الوصف |
 | --- | --- |
-| [DriverException(int code, String message)](#DriverException-int-java.lang.String-) | إنشاء مثيل من [DriverException](../../com.aspose.threed/driverexception) باستخدام رمز الخطأ الأصلي للسائق والرسالة المحددين. |
+| [DriverException(int code, String message)](#DriverException-int-java.lang.String-) | إنشاء مثيل من [DriverException](../../com.aspose.threed/driverexception) باستخدام رمز الخطأ الأصلي المحدد للبرنامج المشغل والرسالة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -51,13 +51,13 @@ public DriverException(int code, String message)
 ```
 
 
-إنشاء مثيل من [DriverException](../../com.aspose.threed/driverexception) باستخدام رمز الخطأ الأصلي للسائق والرسالة المحددين.
+إنشاء مثيل من [DriverException](../../com.aspose.threed/driverexception) باستخدام رمز الخطأ الأصلي المحدد للبرنامج المشغل والرسالة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| code | int |  |
-| message | java.lang.String |  |
+| الرمز | int |  |
+| الرسالة | java.lang.String |  |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

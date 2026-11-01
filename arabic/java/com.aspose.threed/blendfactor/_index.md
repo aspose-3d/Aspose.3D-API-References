@@ -1,7 +1,7 @@
 ---
-title: "BlendFactor"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "عامل المزج يحدد حسابات البكسل."
+title: "عامل الدمج"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "عامل الدمج يحدد حسابات البكسل."
 type: docs
 weight: 266
 url: /ar/java/com.aspose.threed/blendfactor/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum BlendFactor extends Enum<BlendFactor>
 ```
 
-عامل المزج يحدد حسابات البكسل.
+عامل الدمج يحدد حسابات البكسل.
 ## الحقول
 
 | حقل | الوصف |
@@ -31,8 +31,8 @@ public enum BlendFactor extends Enum<BlendFactor>
 | [ONE_MINUS_SRC_COLOR](#ONE-MINUS-SRC-COLOR) | عامل الدمج هو vec4(1) - src.rgba |
 | [SRC_ALPHA](#SRC-ALPHA) | عامل الدمج هو vec4(src.a) |
 | [SRC_ALPHA_SATURATE](#SRC-ALPHA-SATURATE) | عامل الدمج هو min(src.a, 1 - dst.a) |
-| [SRC_COLOR](#SRC-COLOR) | عامل المزج هو src.rgba |
-| [ZERO](#ZERO) | عامل المزج هو vec4(0) |
+| [SRC_COLOR](#SRC-COLOR) | عامل الدمج هو src.rgba |
+| [ZERO](#ZERO) | عامل الدمج هو vec4(0) |
 ## الطرق
 
 | طريقة | الوصف |
@@ -164,7 +164,7 @@ public static final BlendFactor SRC_COLOR
 ```
 
 
-عامل المزج هو src.rgba
+عامل الدمج هو src.rgba
 
 ### ZERO {#ZERO}
 ```
@@ -172,7 +172,7 @@ public static final BlendFactor ZERO
 ```
 
 
-عامل المزج هو vec4(0)
+عامل الدمج هو vec4(0)
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

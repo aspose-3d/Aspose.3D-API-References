@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.ClassType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تعريف الفئة في البيانات الوصفية"
 type: docs
 weight: 10
@@ -35,15 +35,15 @@ public static class StructuralMetadata.ClassType
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDescription()](#getDescription--) | وصف الفئة |
-| [getDisplayName()](#getDisplayName--) | اسم الفئة، يُستخدم في واجهة المستخدم للتمثيل |
+| [getDisplayName()](#getDisplayName--) | اسم الفئة، يُستخدم من قبل واجهة المستخدم للتمثيل |
 | [getName()](#getName--) | الاسم الفريد للفئة |
 | [getProperties()](#getProperties--) | الخصائص المعرفة في هذه الفئة. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDescription(String value)](#setDescription-java.lang.String-) | وصف الفئة |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | اسم الفئة، يُستخدم في واجهة المستخدم للتمثيل |
-| [toString()](#toString--) | يحصل على تمثيل النصي لهذه النسخة. |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | اسم الفئة، يُستخدم من قبل واجهة المستخدم للتمثيل |
+| [toString()](#toString--) | يحصل على تمثيل النص لهذه المثيلة. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -59,9 +59,9 @@ public ClassType(String name, String displayName, String description, ArrayList<
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | الاسم الفريد للفئة |
-| displayName | java.lang.String | اسم الفئة، يُستخدم في واجهة المستخدم للتمثيل |
+| displayName | java.lang.String | اسم الفئة، يُستخدم من قبل واجهة المستخدم للتمثيل |
 | description | java.lang.String | وصف الفئة |
-| الخصائص | java.util.ArrayList<com.aspose.threed.StructuralMetadata.Property> | الخصائص المعرفة في هذه الفئة |
+| خصائص | java.util.ArrayList<com.aspose.threed.StructuralMetadata.Property> | الخصائص المعرفة في هذه الفئة |
 
 ### addProperty(StructuralMetadata.Property property) {#addProperty-com.aspose.threed.StructuralMetadata.Property-}
 ```
@@ -264,10 +264,10 @@ public String getDisplayName()
 ```
 
 
-اسم الفئة، يُستخدم في واجهة المستخدم للتمثيل
+اسم الفئة، يُستخدم من قبل واجهة المستخدم للتمثيل
 
 **Returns:**
-java.lang.String - اسم الفئة، يُستخدم في واجهة المستخدم للتمثيل
+java.lang.String - اسم الفئة، يُستخدم من قبل واجهة المستخدم للتمثيل
 ### getName() {#getName--}
 ```
 public String getName()
@@ -325,7 +325,7 @@ public void setDescription(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setDisplayName(String value) {#setDisplayName-java.lang.String-}
 ```
@@ -333,12 +333,12 @@ public void setDisplayName(String value)
 ```
 
 
-اسم الفئة، يُستخدم في واجهة المستخدم للتمثيل
+اسم الفئة، يُستخدم من قبل واجهة المستخدم للتمثيل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### toString() {#toString--}
 ```
@@ -346,7 +346,7 @@ public String toString()
 ```
 
 
-يحصل على تمثيل النصي لهذه النسخة.
+يحصل على تمثيل النص لهذه المثيلة.
 
 **Returns:**
 java.lang.String

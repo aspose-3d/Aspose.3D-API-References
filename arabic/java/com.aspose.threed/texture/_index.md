@@ -1,6 +1,6 @@
 ---
 title: "الملمس"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تعرف هذه الفئة القوام من ملف خارجي."
 type: docs
 weight: 184
@@ -18,8 +18,8 @@ public class Texture extends TextureBase
 
 | منشئ | الوصف |
 | --- | --- |
-| [Texture()](#Texture--) | يُنشئ مثيلًا جديدًا للفئة [Texture](../../com.aspose.threed/texture). |
-| [Texture(String name)](#Texture-java.lang.String-) | يُنشئ مثيلًا جديدًا للفئة [Texture](../../com.aspose.threed/texture). |
+| [Texture()](#Texture--) | ينشئ نسخة جديدة من الفئة [Texture](../../com.aspose.threed/texture). |
+| [Texture(String name)](#Texture-java.lang.String-) | ينشئ نسخة جديدة من الفئة [Texture](../../com.aspose.threed/texture). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public class Texture extends TextureBase
 | [getAlphaSource()](#getAlphaSource--) | يحصل على ما إذا كان الملمس يحدد قناة ألفا. |
 | [getClass()](#getClass--) |  |
 | [getContent()](#getContent--) | يحصل على المحتوى الثنائي للملمس. |
-| [getEnableMipMap()](#getEnableMipMap--) | يحصل على ما إذا كان الـ mipmap مفعلاً لهذا الملمس. |
+| [getEnableMipMap()](#getEnableMipMap--) | يحصل على ما إذا كان الـ mipmap مفعلاً لهذا الملمس |
 | [getFileName()](#getFileName--) | يحصل على ملف الملمس المرتبط. |
 | [getMagFilter()](#getMagFilter--) | يحصل على الفلتر للتكبير. |
 | [getMinFilter()](#getMinFilter--) | يحصل على الفلتر للتصغير. |
@@ -38,7 +38,7 @@ public class Texture extends TextureBase
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
-| [getUVRotation()](#getUVRotation--) | يحصل على دوران الملمس. |
+| [getUVRotation()](#getUVRotation--) | يحصل على دوران الملمس |
 | [getUVScale()](#getUVScale--) | يحصل على مقياس UV. |
 | [getUVTranslation()](#getUVTranslation--) | يحصل على إزاحة UV. |
 | [getWrapModeU()](#getWrapModeU--) | يحصل على أوضاع لف الملمس في U. |
@@ -48,7 +48,7 @@ public class Texture extends TextureBase
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setAlpha(double value)](#setAlpha-double-) | يضبط قيمة ألفا الافتراضية للملمس. هذا صالح عندما يكون [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) هو [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA). القيمة الافتراضية هي 1.0، ونطاق القيم الصالحة بين 0 و 1. |
 | [setAlphaSource(AlphaSource value)](#setAlphaSource-com.aspose.threed.AlphaSource-) | يضبط ما إذا كان الملمس يحدد قناة ألفا. |
 | [setContent(byte[] value)](#setContent-byte---) | يضبط المحتوى الثنائي للملمس. |
@@ -59,12 +59,12 @@ public class Texture extends TextureBase
 | [setMipFilter(TextureFilter value)](#setMipFilter-com.aspose.threed.TextureFilter-) | يضبط الفلتر لأخذ عينات مستوى الـ mip. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [setRotation(double u, double v)](#setRotation-double-double-) | يضبط دوران الـ UV. |
-| [setScale(double u, double v)](#setScale-double-double-) | يضبط مقياس الـ UV. |
-| [setTranslation(double u, double v)](#setTranslation-double-double-) | يضبط إزاحة الـ UV. |
+| [setRotation(double u, double v)](#setRotation-double-double-) | يضبط دوران UV. |
+| [setScale(double u, double v)](#setScale-double-double-) | يضبط مقياس UV. |
+| [setTranslation(double u, double v)](#setTranslation-double-double-) | يضبط إزاحة UV. |
 | [setUVRotation(Vector3 value)](#setUVRotation-com.aspose.threed.Vector3-) | يضبط دوران الملمس |
-| [setUVScale(Vector2 value)](#setUVScale-com.aspose.threed.Vector2-) | يضبط مقياس الـ UV. |
-| [setUVTranslation(Vector2 value)](#setUVTranslation-com.aspose.threed.Vector2-) | يضبط إزاحة الـ UV. |
+| [setUVScale(Vector2 value)](#setUVScale-com.aspose.threed.Vector2-) | يضبط مقياس UV. |
+| [setUVTranslation(Vector2 value)](#setUVTranslation-com.aspose.threed.Vector2-) | يضبط إزاحة UV. |
 | [setWrapModeU(WrapMode value)](#setWrapModeU-com.aspose.threed.WrapMode-) | يضبط أوضاع لف الملمس في U. |
 | [setWrapModeV(WrapMode value)](#setWrapModeV-com.aspose.threed.WrapMode-) | يضبط أوضاع لف الملمس في V. |
 | [setWrapModeW(WrapMode value)](#setWrapModeW-com.aspose.threed.WrapMode-) | يضبط أوضاع لف الملمس في W. |
@@ -78,7 +78,7 @@ public Texture()
 ```
 
 
-يُنشئ مثيلًا جديدًا للفئة [Texture](../../com.aspose.threed/texture).
+ينشئ نسخة جديدة من الفئة [Texture](../../com.aspose.threed/texture).
 
 ### Texture(String name) {#Texture-java.lang.String-}
 ```
@@ -86,7 +86,7 @@ public Texture(String name)
 ```
 
 
-يُنشئ مثيلًا جديدًا للفئة [Texture](../../com.aspose.threed/texture).
+ينشئ نسخة جديدة من الفئة [Texture](../../com.aspose.threed/texture).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -114,7 +114,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -132,7 +132,7 @@ public double getAlpha()
 يحصل على قيمة ألفا الافتراضية للملمس. هذا صالح عندما يكون [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) هو [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA). القيمة الافتراضية هي 1.0، ونطاق القيم الصالحة بين 0 و 1.
 
 **Returns:**
-double - القيمة الافتراضية لألفا للملمس. هذا صالح عندما يكون [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) هو [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA). القيمة الافتراضية هي 1.0، نطاق القيم الصالحة بين 0 و 1
+double - القيمة الافتراضية لألفا للملمس. هذا صالح عندما يكون [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) هو [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA). القيمة الافتراضية هي 1.0، ونطاق القيم الصالحة بين 0 و 1
 ### getAlphaSource() {#getAlphaSource--}
 ```
 public AlphaSource getAlphaSource()
@@ -169,10 +169,10 @@ public boolean getEnableMipMap()
 ```
 
 
-يحصل على ما إذا كان الـ mipmap مفعلاً لهذا الملمس.
+يحصل على ما إذا كان الـ mipmap مفعلاً لهذا الملمس
 
 **Returns:**
-boolean - ما إذا كان الـ mipmap مفعلاً لهذا الملمس
+boolean - إذا كان الـ mipmap مفعلاً لهذا الملمس
 ### getFileName() {#getFileName--}
 ```
 public String getFileName()
@@ -254,7 +254,7 @@ public Vector3 getUVRotation()
 ```
 
 
-يحصل على دوران الملمس.
+يحصل على دوران الملمس
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation of the texture
@@ -355,7 +355,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -375,7 +375,7 @@ public void setAlpha(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setAlphaSource(AlphaSource value) {#setAlphaSource-com.aspose.threed.AlphaSource-}
 ```
@@ -388,7 +388,7 @@ public void setAlphaSource(AlphaSource value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [AlphaSource](../../com.aspose.threed/alphasource) | القيمة الجديدة |
+| value | [AlphaSource](../../com.aspose.threed/alphasource) | قيمة جديدة |
 
 ### setContent(byte[] value) {#setContent-byte---}
 ```
@@ -401,7 +401,7 @@ public void setContent(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | القيمة الجديدة |
+| قيمة | byte[] | قيمة جديدة |
 
 ### setEnableMipMap(boolean value) {#setEnableMipMap-boolean-}
 ```
@@ -414,7 +414,7 @@ public void setEnableMipMap(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -427,7 +427,7 @@ public void setFileName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setMagFilter(TextureFilter value) {#setMagFilter-com.aspose.threed.TextureFilter-}
 ```
@@ -440,7 +440,7 @@ public void setMagFilter(TextureFilter value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureFilter](../../com.aspose.threed/texturefilter) | القيمة الجديدة |
+| value | [TextureFilter](../../com.aspose.threed/texturefilter) | قيمة جديدة |
 
 ### setMinFilter(TextureFilter value) {#setMinFilter-com.aspose.threed.TextureFilter-}
 ```
@@ -453,7 +453,7 @@ public void setMinFilter(TextureFilter value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureFilter](../../com.aspose.threed/texturefilter) | القيمة الجديدة |
+| value | [TextureFilter](../../com.aspose.threed/texturefilter) | قيمة جديدة |
 
 ### setMipFilter(TextureFilter value) {#setMipFilter-com.aspose.threed.TextureFilter-}
 ```
@@ -466,7 +466,7 @@ public void setMipFilter(TextureFilter value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureFilter](../../com.aspose.threed/texturefilter) | القيمة الجديدة |
+| value | [TextureFilter](../../com.aspose.threed/texturefilter) | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -479,7 +479,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -493,7 +493,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setRotation(double u, double v) {#setRotation-double-double-}
 ```
@@ -501,7 +501,7 @@ public void setRotation(double u, double v)
 ```
 
 
-يضبط دوران الـ UV.
+يضبط دوران UV.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -515,7 +515,7 @@ public void setScale(double u, double v)
 ```
 
 
-يضبط مقياس الـ UV.
+يضبط مقياس UV.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -529,7 +529,7 @@ public void setTranslation(double u, double v)
 ```
 
 
-يضبط إزاحة الـ UV.
+يضبط إزاحة UV.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -548,7 +548,7 @@ public void setUVRotation(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setUVScale(Vector2 value) {#setUVScale-com.aspose.threed.Vector2-}
 ```
@@ -556,12 +556,12 @@ public void setUVScale(Vector2 value)
 ```
 
 
-يضبط مقياس الـ UV.
+يضبط مقياس UV.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 
 ### setUVTranslation(Vector2 value) {#setUVTranslation-com.aspose.threed.Vector2-}
 ```
@@ -569,12 +569,12 @@ public void setUVTranslation(Vector2 value)
 ```
 
 
-يضبط إزاحة الـ UV.
+يضبط إزاحة UV.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 
 ### setWrapModeU(WrapMode value) {#setWrapModeU-com.aspose.threed.WrapMode-}
 ```
@@ -587,7 +587,7 @@ public void setWrapModeU(WrapMode value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [WrapMode](../../com.aspose.threed/wrapmode) | القيمة الجديدة |
+| value | [WrapMode](../../com.aspose.threed/wrapmode) | قيمة جديدة |
 
 ### setWrapModeV(WrapMode value) {#setWrapModeV-com.aspose.threed.WrapMode-}
 ```
@@ -600,7 +600,7 @@ public void setWrapModeV(WrapMode value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [WrapMode](../../com.aspose.threed/wrapmode) | القيمة الجديدة |
+| value | [WrapMode](../../com.aspose.threed/wrapmode) | قيمة جديدة |
 
 ### setWrapModeW(WrapMode value) {#setWrapModeW-com.aspose.threed.WrapMode-}
 ```
@@ -613,7 +613,7 @@ public void setWrapModeW(WrapMode value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [WrapMode](../../com.aspose.threed/wrapmode) | القيمة الجديدة |
+| value | [WrapMode](../../com.aspose.threed/wrapmode) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

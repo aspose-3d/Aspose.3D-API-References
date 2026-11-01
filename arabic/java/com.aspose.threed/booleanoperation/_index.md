@@ -1,7 +1,7 @@
 ---
-title: "عملية بوليانية"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "عملية بوليانية للشبكات"
+title: "BooleanOperation"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "عملية Boolean للـ Meshs"
 type: docs
 weight: 268
 url: /ar/java/com.aspose.threed/booleanoperation/

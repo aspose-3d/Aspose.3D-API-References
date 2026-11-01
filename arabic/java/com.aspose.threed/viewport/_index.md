@@ -1,7 +1,7 @@
 ---
 title: "Viewport"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "A يحتوي على منفذ عرض واحد على الأقل لتصوير المشهد."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يحتوي على منفذ عرض واحد على الأقل لتصوير المشهد."
 type: docs
 weight: 229
 url: /ar/java/com.aspose.threed/viewport/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Viewport
 ```
 
-A [IRenderTarget](../../com.aspose.threed/irendertarget) يحتوي على منفذ عرض واحد على الأقل لتصوير المشهد.
+يحتوي [IRenderTarget](../../com.aspose.threed/irendertarget) على منفذ عرض واحد على الأقل لتصوير المشهد.
 ## الطرق
 
 | طريقة | الوصف |
@@ -21,22 +21,22 @@ A [IRenderTarget](../../com.aspose.threed/irendertarget) يحتوي على من�
 | [clone()](#clone--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | يحصل على مساحة منفذ العرض في هدف العرض. |
-| [getBackgroundColor()](#getBackgroundColor--) | يحصل على لون خلفية منفذ العرض. |
+| [getBackgroundColor()](#getBackgroundColor--) | يحصل على لون الخلفية لمنفذ العرض. |
 | [getClass()](#getClass--) |  |
 | [getDepthClear()](#getDepthClear--) | يحصل على قيمة العمق المستخدمة عند مسح منفذ العرض مع ضبط بت مخزن العمق. |
-| [getEnabled()](#getEnabled--) | تمكين أو تعطيل هذا المنفذ العرض. |
-| [getFrustum()](#getFrustum--) | يحصل على كاميرا هذا [Viewport](../../com.aspose.threed/viewport) |
-| [getRenderTarget()](#getRenderTarget--) | يحصل على هدف العرض الذي أنشأ هذا المنفذ العرض. |
-| [getZOrder()](#getZOrder--) | يحصل على ترتيب Z لمنطقة العرض. |
+| [getEnabled()](#getEnabled--) | تمكين أو تعطيل هذا المنفذ. |
+| [getFrustum()](#getFrustum--) | يحصل على الكاميرا لهذا [Viewport](../../com.aspose.threed/viewport) |
+| [getRenderTarget()](#getRenderTarget--) | يحصل على هدف العرض الذي أنشأ هذا منفذ العرض. |
+| [getZOrder()](#getZOrder--) | يحصل على ترتيب Z للـ viewport. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArea(RelativeRectangle value)](#setArea-com.aspose.threed.RelativeRectangle-) | يضبط مساحة منطقة العرض في هدف التصيير. |
-| [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | يضبط لون الخلفية لمنطقة العرض. |
-| [setDepthClear(float value)](#setDepthClear-float-) | يضبط قيمة العمق المستخدمة عند مسح منطقة العرض مع تعيين بت مخزن العمق. |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | تمكين أو تعطيل هذا المنفذ العرض. |
-| [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | يضبط الكاميرا لهذه [Viewport](../../com.aspose.threed/viewport) |
-| [setZOrder(int value)](#setZOrder-int-) | يضبط ترتيب Z لمنطقة العرض. |
+| [setArea(RelativeRectangle value)](#setArea-com.aspose.threed.RelativeRectangle-) | يضبط مساحة الـ viewport في render target. |
+| [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | يضبط لون الخلفية للـ viewport. |
+| [setDepthClear(float value)](#setDepthClear-float-) | يضبط قيمة العمق المستخدمة عند مسح الـ viewport مع تعيين بت مخزن العمق. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | تمكين أو تعطيل هذا المنفذ. |
+| [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | يضبط الكاميرا لهذا [Viewport](../../com.aspose.threed/viewport) |
+| [setZOrder(int value)](#setZOrder-int-) | يضبط ترتيب Z للـ viewport. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -82,7 +82,7 @@ public Vector3 getBackgroundColor()
 ```
 
 
-يحصل على لون خلفية منفذ العرض.
+يحصل على لون الخلفية لمنفذ العرض.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the background color of the viewport.
@@ -105,24 +105,24 @@ public float getDepthClear()
 يحصل على قيمة العمق المستخدمة عند مسح منفذ العرض مع ضبط بت مخزن العمق.
 
 **Returns:**
-float - قيمة العمق المستخدمة عند مسح منطقة العرض مع تعيين بت مخزن العمق.
+float - قيمة العمق المستخدمة عند مسح الـ viewport مع تعيين بت مخزن العمق.
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
 ```
 
 
-تمكين أو تعطيل هذا المنفذ العرض.
+تمكين أو تعطيل هذا المنفذ.
 
 **Returns:**
-boolean - تمكين أو تعطيل هذه منطقة العرض.
+boolean - تمكين أو تعطيل هذا الـ viewport.
 ### getFrustum() {#getFrustum--}
 ```
 public Frustum getFrustum()
 ```
 
 
-يحصل على كاميرا هذا [Viewport](../../com.aspose.threed/viewport)
+يحصل على الكاميرا لهذا [Viewport](../../com.aspose.threed/viewport)
 
 **Returns:**
 [Frustum](../../com.aspose.threed/frustum) - the camera of this [Viewport](../../com.aspose.threed/viewport)
@@ -132,7 +132,7 @@ public IRenderTarget getRenderTarget()
 ```
 
 
-يحصل على هدف العرض الذي أنشأ هذا المنفذ العرض.
+يحصل على هدف العرض الذي أنشأ هذا منفذ العرض.
 
 **Returns:**
 [IRenderTarget](../../com.aspose.threed/irendertarget) - the render target that created this viewport.
@@ -142,10 +142,10 @@ public int getZOrder()
 ```
 
 
-يحصل على ترتيب Z لمنطقة العرض.
+يحصل على ترتيب Z للـ viewport.
 
 **Returns:**
-int - ترتيب Z لمنطقة العرض.
+int - ترتيب Z للـ viewport.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -178,12 +178,12 @@ public void setArea(RelativeRectangle value)
 ```
 
 
-يضبط مساحة منطقة العرض في هدف التصيير.
+يضبط مساحة الـ viewport في render target.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RelativeRectangle](../../com.aspose.threed/relativerectangle) | القيمة الجديدة |
+| value | [RelativeRectangle](../../com.aspose.threed/relativerectangle) | قيمة جديدة |
 
 ### setBackgroundColor(Vector3 value) {#setBackgroundColor-com.aspose.threed.Vector3-}
 ```
@@ -191,12 +191,12 @@ public void setBackgroundColor(Vector3 value)
 ```
 
 
-يضبط لون الخلفية لمنطقة العرض.
+يضبط لون الخلفية للـ viewport.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setDepthClear(float value) {#setDepthClear-float-}
 ```
@@ -204,12 +204,12 @@ public void setDepthClear(float value)
 ```
 
 
-يضبط قيمة العمق المستخدمة عند مسح منطقة العرض مع تعيين بت مخزن العمق.
+يضبط قيمة العمق المستخدمة عند مسح الـ viewport مع تعيين بت مخزن العمق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
@@ -217,12 +217,12 @@ public void setEnabled(boolean value)
 ```
 
 
-تمكين أو تعطيل هذا المنفذ العرض.
+تمكين أو تعطيل هذا المنفذ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFrustum(Frustum value) {#setFrustum-com.aspose.threed.Frustum-}
 ```
@@ -230,12 +230,12 @@ public void setFrustum(Frustum value)
 ```
 
 
-يضبط الكاميرا لهذه [Viewport](../../com.aspose.threed/viewport)
+يضبط الكاميرا لهذا [Viewport](../../com.aspose.threed/viewport)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Frustum](../../com.aspose.threed/frustum) | القيمة الجديدة |
+| value | [Frustum](../../com.aspose.threed/frustum) | قيمة جديدة |
 
 ### setZOrder(int value) {#setZOrder-int-}
 ```
@@ -243,12 +243,12 @@ public void setZOrder(int value)
 ```
 
 
-يضبط ترتيب Z لمنطقة العرض.
+يضبط ترتيب Z للـ viewport.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

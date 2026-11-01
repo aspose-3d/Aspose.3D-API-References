@@ -1,6 +1,6 @@
 ---
 title: "WeightedMode"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الوضع المرجّح."
 type: docs
 weight: 231
@@ -25,8 +25,8 @@ public final class WeightedMode
 | --- | --- |
 | [BOTH](#BOTH) | كلا المماسين الخارج والداخل التالي مُوزَّانان. |
 | [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | المماس الداخلي التالي (يسار) مُوزَّان. |
-| [NONE](#NONE) | كلا أوزان الخارج والداخل التالي غير مستخدمة. |
-| [OUT_WEIGHT](#OUT-WEIGHT) | المماس الخارجي (يمين) مُوزَّان. |
+| [NONE](#NONE) | كلا أوزان المماس الخارج والداخل التالي غير مستخدمة. |
+| [OUT_WEIGHT](#OUT-WEIGHT) | المماس الخارج (يمين) مُوزَّان. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -68,7 +68,7 @@ public static final int NONE
 ```
 
 
-كلا أوزان الخارج والداخل التالي غير مستخدمة. عندما تحتاج العملية إلى معلومات المماس، سيتم استخدام القيمة الافتراضية (0.3333).
+كلا أوزان المماس الخارج والداخل التالي غير مستخدمة. عندما تحتاج العملية إلى معلومات المماس، سيتم استخدام القيمة الافتراضية (0.3333).
 
 ### OUT_WEIGHT {#OUT-WEIGHT}
 ```
@@ -76,7 +76,7 @@ public static final int OUT_WEIGHT
 ```
 
 
-المماس الخارجي (يمين) مُوزَّان.
+المماس الخارج (يمين) مُوزَّان.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

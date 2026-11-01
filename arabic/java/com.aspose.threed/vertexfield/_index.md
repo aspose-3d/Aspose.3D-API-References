@@ -1,6 +1,6 @@
 ---
 title: "VertexField"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "وصف تخطيط الذاكرة لحقل القمم."
 type: docs
 weight: 227
@@ -16,12 +16,12 @@ java.lang.Comparable
 public class VertexField implements Comparable<VertexField>
 ```
 
-وصف تخطيط الذاكرة لحقل الرأس.
+وصف تخطيط ذاكرة حقل القمة.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [compareTo(VertexField other)](#compareTo-com.aspose.threed.VertexField-) | يقارن هذه الحالة مع كائن محدد ويعيد إشارة إلى قيمهما النسبية. |
+| [compareTo(VertexField other)](#compareTo-com.aspose.threed.VertexField-) | يقارن هذه المثيلة بكائن محدد ويعيد إشارة إلى قيمهما النسبية. |
 | [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كانت هذه المثيلة وكائن محدد، والذي يجب أن يكون أيضًا كائنًا من نوع [VertexField](../../com.aspose.threed/vertexfield)، لهما نفس القيمة. |
 | [getAlias()](#getAlias--) | الاسم المستعار للحقل. |
 | [getClass()](#getClass--) |  |
@@ -30,10 +30,10 @@ public class VertexField implements Comparable<VertexField>
 | [getOffset()](#getOffset--) | الإزاحة بالبايتات لهذا الحقل. |
 | [getSemantic()](#getSemantic--) | دلالة الاستخدام لهذا الحقل. |
 | [getSize()](#getSize--) | الحجم بالبايتات لهذا الحقل |
-| [hashCode()](#hashCode--) | يرجع رمز التجزئة لهذا النص. |
+| [hashCode()](#hashCode--) | يعيد قيمة التجزئة لهذا النص. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | يحصل على تمثيل النص من [VertexField](../../com.aspose.threed/vertexfield) |
+| [toString()](#toString--) | يحصل على تمثيل النص لـ [VertexField](../../com.aspose.threed/vertexfield) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -43,7 +43,7 @@ public int compareTo(VertexField other)
 ```
 
 
-يقارن هذه الحالة مع كائن محدد ويعيد إشارة إلى قيمهما النسبية.
+يقارن هذه المثيلة بكائن محدد ويعيد إشارة إلى قيمهما النسبية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -143,10 +143,10 @@ public int hashCode()
 ```
 
 
-يرجع رمز التجزئة لهذا النص.
+يعيد قيمة التجزئة لهذا النص.
 
 **Returns:**
-int - رمز تجزئة عدد صحيح موقع 32 بت.
+int - قيمة تجزئة عدد صحيح موقّع 32-بت.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -169,7 +169,7 @@ public String toString()
 ```
 
 
-يحصل على تمثيل النص من [VertexField](../../com.aspose.threed/vertexfield)
+يحصل على تمثيل النص لـ [VertexField](../../com.aspose.threed/vertexfield)
 
 **Returns:**
 java.lang.String

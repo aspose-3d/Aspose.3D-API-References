@@ -1,6 +1,6 @@
 ---
 title: "MappingMode"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "يحدد كيفية ربط العنصر بسطح."
 type: docs
 weight: 285
@@ -18,11 +18,11 @@ public enum MappingMode extends Enum<MappingMode>
 
 | حقل | الوصف |
 | --- | --- |
-| [ALL_SAME](#ALL-SAME) | بيان واحد يتم تعيينه إلى السطح بالكامل. |
-| [CONTROL_POINT](#CONTROL-POINT) | كل بيان يتم تعيينه إلى نقطة التحكم في الهندسة. |
-| [EDGE](#EDGE) | يتم تعيين البيانات إلى الحافة. |
-| [POLYGON](#POLYGON) | يتم تعيين البيانات إلى المضلع. |
-| [POLYGON_VERTEX](#POLYGON-VERTEX) | يتم تعيين البيانات إلى رأس المضلع. عندما تكون نقطة التحكم مشتركة بين عدة مضلعات، ويتم تعيين البيانات كـ [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX)، فإن نقطة التحكم كقمة مضلع مختلفة ستحصل على بياناتها الخاصة. |
+| [ALL_SAME](#ALL-SAME) | بيان واحد يُطَبَّق على السطح بأكمله. |
+| [CONTROL_POINT](#CONTROL-POINT) | كل بيان يُطَبَّق على نقطة التحكم في الهندسة. |
+| [EDGE](#EDGE) | البيان يُطَبَّق على الحافة. |
+| [POLYGON](#POLYGON) | البيان يُطَبَّق على المضلع. |
+| [POLYGON_VERTEX](#POLYGON-VERTEX) | يُطَبَّق البيان على رأس المضلع عندما تكون نقطة التحكم مشتركة بين عدة مضلعات، ويُطَبَّق البيان كـ [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX)، ستحصل نقطة التحكم كقمة مضلع مختلفة على بياناتها الخاصة |
 ## الطرق
 
 | طريقة | الوصف |
@@ -50,7 +50,7 @@ public static final MappingMode ALL_SAME
 ```
 
 
-بيان واحد يتم تعيينه إلى السطح بالكامل. أيًا كانت البيانات التي تُفسَّر كنقطة تحكم/قمة مضلع/نقاط نهائية للحافة، فإن البيانات تكون دائمًا نفسها كما هو معرف بواسطة [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME).
+بيان واحد يُطَبَّق على السطح بأكمله. أيًا كان تفسير البيان كنقطة تحكم/قمة مضلع/نقاط نهاية الحافة، يظل البيان دائمًا هو نفسه كما هو معرف في [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME).
 
 ### CONTROL_POINT {#CONTROL-POINT}
 ```
@@ -58,7 +58,7 @@ public static final MappingMode CONTROL_POINT
 ```
 
 
-كل بيان يتم تعيينه إلى نقطة التحكم في الهندسة.
+كل بيان يُطَبَّق على نقطة التحكم في الهندسة.
 
 ### EDGE {#EDGE}
 ```
@@ -66,7 +66,7 @@ public static final MappingMode EDGE
 ```
 
 
-يتم تعيين البيانات إلى الحافة. كل نقطة نهائية للحافة تشترك في نفس البيانات عندما يكون التعيين هو [EDGE](../../com.aspose.threed/mappingmode\#EDGE).
+يُطَبَّق البيان على الحافة. كل نقطة نهاية للحافة تشترك في نفس البيان عندما يكون وضع التعيين هو [EDGE](../../com.aspose.threed/mappingmode\#EDGE).
 
 ### POLYGON {#POLYGON}
 ```
@@ -74,7 +74,7 @@ public static final MappingMode POLYGON
 ```
 
 
-يتم تعيين البيانات إلى المضلع. كل قمة من قمم المضلع تشترك في نفس البيانات عندما يكون وضع التعيين هو [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON).
+يُطَبَّق البيان على المضلع. كل قمة من قمم المضلع تشترك في نفس البيان عندما يكون وضع التعيين هو [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON).
 
 ### POLYGON_VERTEX {#POLYGON-VERTEX}
 ```
@@ -82,7 +82,7 @@ public static final MappingMode POLYGON_VERTEX
 ```
 
 
-يتم تعيين البيانات إلى رأس المضلع. عندما تكون نقطة التحكم مشتركة بين عدة مضلعات، ويتم تعيين البيانات كـ [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX)، فإن نقطة التحكم كقمة مضلع مختلفة ستحصل على بياناتها الخاصة.
+يُطَبَّق البيان على رأس المضلع عندما تكون نقطة التحكم مشتركة بين عدة مضلعات، ويُطَبَّق البيان كـ [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX)، ستحصل نقطة التحكم كقمة مضلع مختلفة على بياناتها الخاصة
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

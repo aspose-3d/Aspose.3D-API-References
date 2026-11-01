@@ -1,7 +1,7 @@
 ---
 title: "NurbsSurface"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "هو سطح يُمثَّل بـ NURBS (Non-uniform rational basis spline)  A  يُعرَّف بواسطة اثنين من  و ."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "هو سطح يُمثَّل بـ NURBS Non-uniform rational basis spline. A يُعرَّف بواسطة اثنين من  و ."
 type: docs
 weight: 114
 url: /ar/java/com.aspose.threed/nurbssurface/
@@ -30,10 +30,10 @@ public class NurbsSurface extends Geometry implements IMeshConvertible
 
 | طريقة | الوصف |
 | --- | --- |
-| [<T>getDeformers2()](#-T-getDeformers2--) | يحصل على جميع المشكّلات بأنواع المشكّلات المحددة |
-| [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | يضيف عنصر رأس موجود إلى الشكل الهندسي الحالي |
-| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | ينشئ عنصر رأس بالنوع المحدد ويضيفه إلى الشكل الهندسي. |
-| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | ينشئ عنصر رأس بالنوع المحدد ويضيفه إلى الشكل الهندسي. |
+| [<T>getDeformers2()](#-T-getDeformers2--) | يحصل على جميع المشوهات بأنواع المشوه المحددة |
+| [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | يضيف عنصر رأس موجود إلى الهندسة الحالية |
+| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | ينشئ عنصر رأس بالنوع المحدد ويضيفه إلى الهندسة. |
+| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | ينشئ عنصر رأس بالنوع المحدد ويضيفه إلى الهندسة. |
 | [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | ينشئ [VertexElementUV](../../com.aspose.threed/vertexelementuv) بنوع تخطيط النسيج المحدد. |
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | ينشئ [VertexElementUV](../../com.aspose.threed/vertexelementuv) بنوع تخطيط النسيج المحدد. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -42,31 +42,31 @@ public class NurbsSurface extends Geometry implements IMeshConvertible
 | [getCastShadows()](#getCastShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [getClass()](#getClass--) |  |
 | [getControlPoints()](#getControlPoints--) | يحصل على جميع نقاط التحكم |
-| [getDeformers()](#getDeformers--) | يحصل على جميع المشوهات المرتبطة بهذا الشكل. |
+| [getDeformers()](#getDeformers--) | يحصل على جميع المُشوهات المرتبطة بهذا الشكل. |
 | [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | يحصل على عنصر رأس بالنوع المحدد |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getReceiveShadows()](#getReceiveShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل. |
 | [getScene()](#getScene--) | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
 | [getU()](#getU--) | يحصل على اتجاه U لسطح NURBS |
 | [getV()](#getV--) | يحصل على اتجاه V لسطح NURBS |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | يحصل على مثيل [VertexElementUV](../../com.aspose.threed/vertexelementuv) بنوع تخطيط النسيج المحدد |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | يحصل على نسخة من [VertexElementUV](../../com.aspose.threed/vertexelementuv) بنوع تخطيط النسيج المحدد |
 | [getVertexElements()](#getVertexElements--) | يحصل على جميع عناصر الرؤوس |
 | [getVisible()](#getVisible--) | يحصل على ما إذا كان الشكل مرئيًا |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه استقبال الظل. |
 | [setVisible(boolean value)](#setVisible-boolean-) | يضبط ما إذا كان الشكل مرئيًا |
@@ -102,7 +102,7 @@ public Collection<T> <T>getDeformers2()
 ```
 
 
-يحصل على جميع المشكّلات بأنواع المشكّلات المحددة
+يحصل على جميع المشوهات بأنواع المشوه المحددة
 
 **Returns:**
 java.util.Collection<T> - مجموعة Deformer
@@ -112,7 +112,7 @@ public void addElement(VertexElement element)
 ```
 
 
-يضيف عنصر رأس موجود إلى الشكل الهندسي الحالي
+يضيف عنصر رأس موجود إلى الهندسة الحالية
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -125,7 +125,7 @@ public VertexElement createElement(VertexElementType type)
 ```
 
 
-ينشئ عنصر رأس بالنوع المحدد ويضيفه إلى الشكل الهندسي.
+ينشئ عنصر رأس بالنوع المحدد ويضيفه إلى الهندسة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -140,14 +140,14 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 ```
 
 
-ينشئ عنصر رأس بالنوع المحدد ويضيفه إلى الشكل الهندسي.
+ينشئ عنصر رأس بالنوع المحدد ويضيفه إلى الهندسة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | نوع عنصر الرأس |
-| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | نمط التخطيط الافتراضي |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | نمط الإشارة الافتراضي |
+| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | وضع التخطيط الافتراضي |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | وضع الإشارة الافتراضي |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -162,7 +162,7 @@ public VertexElementUV createElementUV(TextureMapping uvMapping)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | نوع تخطيط القوام لإنشائه |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | نوع تخطيط النسيج الذي سيتم إنشاؤه |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -177,9 +177,9 @@ public VertexElementUV createElementUV(TextureMapping uvMapping, MappingMode map
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | نوع تخطيط القوام لإنشائه |
-| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | نمط التخطيط الافتراضي |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | نمط الإشارة الافتراضي |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | نوع تخطيط النسيج الذي سيتم إنشاؤه |
+| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | وضع التخطيط الافتراضي |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | وضع الإشارة الافتراضي |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -204,7 +204,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -266,7 +266,7 @@ public List<Deformer> getDeformers()
 ```
 
 
-يحصل على جميع المشوهات المرتبطة بهذا الشكل.
+يحصل على جميع المُشوهات المرتبطة بهذا الشكل.
 
 **Returns:**
 java.util.List<com.aspose.threed.Deformer> - جميع المشوهات المرتبطة بهذا الشكل الهندسي.
@@ -281,7 +281,7 @@ public VertexElement getElement(VertexElementType type)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | ما هو نوع عنصر الرأس للعثور عليه |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | نوع عنصر الرأس الذي يجب العثور عليه |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - [VertexElement](../../com.aspose.threed/vertexelement) instance if found, otherwise null will be returned.
@@ -291,7 +291,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -321,7 +321,7 @@ public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -331,10 +331,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -369,7 +369,7 @@ public boolean getReceiveShadows()
 يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل.
 
 **Returns:**
-boolean - ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل.
+boolean - ما إذا كان هذا الشكل الهندسي يمكنه تلقي الظل.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -406,7 +406,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-يحصل على مثيل [VertexElementUV](../../com.aspose.threed/vertexelementuv) بنوع تخطيط النسيج المحدد
+يحصل على نسخة من [VertexElementUV](../../com.aspose.threed/vertexelementuv) بنوع تخطيط النسيج المحدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -424,7 +424,7 @@ public List<VertexElement> getVertexElements()
 يحصل على جميع عناصر الرؤوس
 
 **Returns:**
-java.util.List<com.aspose.threed.VertexElement> - جميع عناصر الرأس
+java.util.List<com.aspose.threed.VertexElement> - جميع عناصر القمم
 ### getVisible() {#getVisible--}
 ```
 public boolean getVisible()
@@ -482,7 +482,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -502,7 +502,7 @@ public void setCastShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -515,7 +515,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -528,7 +528,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -536,12 +536,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -555,7 +555,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setReceiveShadows(boolean value) {#setReceiveShadows-boolean-}
 ```
@@ -568,7 +568,7 @@ public void setReceiveShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setVisible(boolean value) {#setVisible-boolean-}
 ```
@@ -581,7 +581,7 @@ public void setVisible(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toMesh() {#toMesh--}
 ```

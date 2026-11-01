@@ -1,7 +1,7 @@
 ---
 title: "FrontFace"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "تحديد المضلعات المواجهة للأمام والخلف"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "تحديد المضلعات الأمامية والخلفية"
 type: docs
 weight: 280
 url: /ar/java/com.aspose.threed/frontface/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum FrontFace extends Enum<FrontFace>
 ```
 
-تحديد المضلعات المواجهة للأمام والخلف
+تحديد المضلعات الأمامية والخلفية
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [CLOCKWISE](#CLOCKWISE) | الاتجاه الساعي هو الوجه الأمامي |
-| [COUNTER_CLOCKWISE](#COUNTER-CLOCKWISE) | الاتجاه العكسي هو الوجه الأمامي |
+| [CLOCKWISE](#CLOCKWISE) | الاتجاه مع عقارب الساعة هو الوجه الأمامي |
+| [COUNTER_CLOCKWISE](#COUNTER-CLOCKWISE) | الاتجاه عكس عقارب الساعة هو الوجه الأمامي |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final FrontFace CLOCKWISE
 ```
 
 
-الاتجاه الساعي هو الوجه الأمامي
+الاتجاه مع عقارب الساعة هو الوجه الأمامي
 
 ### COUNTER_CLOCKWISE {#COUNTER-CLOCKWISE}
 ```
@@ -55,7 +55,7 @@ public static final FrontFace COUNTER_CLOCKWISE
 ```
 
 
-الاتجاه العكسي هو الوجه الأمامي
+الاتجاه عكس عقارب الساعة هو الوجه الأمامي
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

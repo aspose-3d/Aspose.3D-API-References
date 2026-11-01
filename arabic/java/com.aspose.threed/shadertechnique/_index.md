@@ -1,7 +1,7 @@
 ---
 title: "ShaderTechnique"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "تقنية التظليل تمثل تنفيذًا فعليًا للعرض."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "تقنية المُظلِل تمثل تنفيذًا واقعيًا للعرض."
 type: docs
 weight: 169
 url: /ar/java/com.aspose.threed/shadertechnique/
@@ -13,36 +13,36 @@ java.lang.Object
 public class ShaderTechnique
 ```
 
-تقنية التظليل تمثل تنفيذًا فعليًا للعرض.
+تقنية المُظلِل تمثل تنفيذًا واقعيًا للعرض.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [ShaderTechnique()](#ShaderTechnique--) | ينشئ مثيلاً جديداً من الفئة [ShaderTechnique](../../com.aspose.threed/shadertechnique). |
+| [ShaderTechnique()](#ShaderTechnique--) | ينشئ مثيلًا جديدًا من الفئة [ShaderTechnique](../../com.aspose.threed/shadertechnique). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [addBinding(String property, String shaderParameter)](#addBinding-java.lang.String-java.lang.String-) | يربط الخاصية الديناميكية بمعامل البرنامج المظلل |
+| [addBinding(String property, String shaderParameter)](#addBinding-java.lang.String-java.lang.String-) | يربط الخاصية الديناميكية بمعامل المظلل |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDescription()](#getDescription--) | يحصل على وصف هذه التقنية |
-| [getRenderAPI()](#getRenderAPI--) | يحصل على واجهة برمجة التطبيقات للتصيير المستخدمة في هذه التقنية |
-| [getRenderAPIVersion()](#getRenderAPIVersion--) | يحصل على نسخة واجهة برمجة التطبيقات للتصيير. |
-| [getShaderContent()](#getShaderContent--) | يحصل على محتوى برنامج تظليل مضمّن. |
-| [getShaderEntry()](#getShaderEntry--) | يحصل على نقطة الدخول للبرنامج التظليل، بعض برامج التظليل مثل HLSL يمكن أن تحتوي على مداخل مخصصة. |
-| [getShaderFile()](#getShaderFile--) | يحصل على اسم ملف البرنامج التظليل الخارجي. |
-| [getShaderLanguage()](#getShaderLanguage--) | يحصل على لغة البرنامج التظليل المستخدمة في هذه التقنية. |
-| [getShaderParameters()](#getShaderParameters--) | يحصل على تعريف معلمة البرنامج التظليل. |
-| [getShaderVersion()](#getShaderVersion--) | يحصل على إصدار الـ shader المستخدم في هذه التقنية. |
+| [getDescription()](#getDescription--) | يحصل على وصف هذه التقنية. |
+| [getRenderAPI()](#getRenderAPI--) | يحصل على واجهة برمجة التطبيقات للتصيير المستخدمة في هذه التقنية. |
+| [getRenderAPIVersion()](#getRenderAPIVersion--) | يحصل على إصدار واجهة برمجة التطبيقات للتصيير. |
+| [getShaderContent()](#getShaderContent--) | يحصل على محتوى برنامج المظلل المضمّن. |
+| [getShaderEntry()](#getShaderEntry--) | يحصل على نقطة الدخول للمظلل، بعض المظلات مثل HLSL يمكن أن تحتوي على مداخل مخصصة للمظلل. |
+| [getShaderFile()](#getShaderFile--) | يحصل على اسم ملف المظلل الخارجي. |
+| [getShaderLanguage()](#getShaderLanguage--) | يحصل على لغة المظلل المستخدمة في هذه التقنية. |
+| [getShaderParameters()](#getShaderParameters--) | يحصل على تعريف معامل المظلل. |
+| [getShaderVersion()](#getShaderVersion--) | يحصل على إصدار shader المستخدم في هذه التقنية. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDescription(String value)](#setDescription-java.lang.String-) | يضبط وصف هذه التقنية |
-| [setRenderAPI(String value)](#setRenderAPI-java.lang.String-) | يضبط واجهة برمجة التطبيقات للتصيير المستخدمة في هذه التقنية |
-| [setRenderAPIVersion(String value)](#setRenderAPIVersion-java.lang.String-) | يضبط إصدار واجهة برمجة التطبيقات للتصيير. |
-| [setShaderContent(byte[] value)](#setShaderContent-byte---) | يضبط محتوى سكريبت shader المدمج. |
-| [setShaderEntry(String value)](#setShaderEntry-java.lang.String-) | يضبط نقطة الدخول للـ shader، بعض الـ shaders مثل HLSL يمكن أن تحتوي على مداخل shader مخصصة. |
+| [setRenderAPI(String value)](#setRenderAPI-java.lang.String-) | يضبط واجهة برمجة تطبيقات العرض المستخدمة في هذه التقنية |
+| [setRenderAPIVersion(String value)](#setRenderAPIVersion-java.lang.String-) | يضبط إصدار واجهة برمجة تطبيقات العرض. |
+| [setShaderContent(byte[] value)](#setShaderContent-byte---) | يضبط محتوى برنامج shader المضمن. |
+| [setShaderEntry(String value)](#setShaderEntry-java.lang.String-) | يضبط نقطة الدخول للـ shader، بعض الـ shaders مثل HLSL يمكن أن يكون لها نقاط دخول مخصصة. |
 | [setShaderFile(String value)](#setShaderFile-java.lang.String-) | يضبط اسم ملف الـ shader الخارجي. |
 | [setShaderLanguage(String value)](#setShaderLanguage-java.lang.String-) | يضبط لغة الـ shader المستخدمة في هذه التقنية. |
 | [setShaderVersion(String value)](#setShaderVersion-java.lang.String-) | يضبط إصدار الـ shader المستخدم في هذه التقنية. |
@@ -56,7 +56,7 @@ public ShaderTechnique()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [ShaderTechnique](../../com.aspose.threed/shadertechnique).
+ينشئ مثيلًا جديدًا من الفئة [ShaderTechnique](../../com.aspose.threed/shadertechnique).
 
 ### addBinding(String property, String shaderParameter) {#addBinding-java.lang.String-java.lang.String-}
 ```
@@ -64,7 +64,7 @@ public void addBinding(String property, String shaderParameter)
 ```
 
 
-يربط الخاصية الديناميكية بمعامل البرنامج المظلل
+يربط الخاصية الديناميكية بمعامل المظلل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -103,7 +103,7 @@ public String getDescription()
 ```
 
 
-يحصل على وصف هذه التقنية
+يحصل على وصف هذه التقنية.
 
 **Returns:**
 java.lang.String - وصف هذه التقنية
@@ -113,47 +113,47 @@ public String getRenderAPI()
 ```
 
 
-يحصل على واجهة برمجة التطبيقات للتصيير المستخدمة في هذه التقنية
+يحصل على واجهة برمجة التطبيقات للتصيير المستخدمة في هذه التقنية.
 
 **Returns:**
-java.lang.String - واجهة برمجة التطبيقات للتصيير المستخدمة في هذه التقنية
+java.lang.String - واجهة برمجة تطبيقات العرض المستخدمة في هذه التقنية
 ### getRenderAPIVersion() {#getRenderAPIVersion--}
 ```
 public String getRenderAPIVersion()
 ```
 
 
-يحصل على نسخة واجهة برمجة التطبيقات للتصيير.
+يحصل على إصدار واجهة برمجة التطبيقات للتصيير.
 
 **Returns:**
-java.lang.String - إصدار واجهة برمجة التطبيقات للتصيير.
+java.lang.String - إصدار واجهة برمجة تطبيقات العرض.
 ### getShaderContent() {#getShaderContent--}
 ```
 public byte[] getShaderContent()
 ```
 
 
-يحصل على محتوى سكريبت shader مدمج. يمكن أن يكون ملف مصدر shader من نوع HLSL/GLSL.
+يحصل على محتوى برنامج shader المضمن. يمكن أن يكون ملف مصدر shader من نوع HLSL/GLSL.
 
 **Returns:**
-byte[] - محتوى سكريبت shader مدمج. يمكن أن يكون ملف مصدر shader من نوع HLSL/GLSL.
+byte[] - محتوى برنامج shader المضمن. يمكن أن يكون ملف مصدر shader من نوع HLSL/GLSL.
 ### getShaderEntry() {#getShaderEntry--}
 ```
 public String getShaderEntry()
 ```
 
 
-يحصل على نقطة الدخول للبرنامج التظليل، بعض برامج التظليل مثل HLSL يمكن أن تحتوي على مداخل مخصصة.
+يحصل على نقطة الدخول للمظلل، بعض المظلات مثل HLSL يمكن أن تحتوي على مداخل مخصصة للمظلل.
 
 **Returns:**
-java.lang.String - نقطة الدخول للـ shader، بعض الـ shaders مثل HLSL يمكن أن تحتوي على مداخل shader مخصصة.
+java.lang.String - نقطة الدخول للـ shader، بعض الـ shaders مثل HLSL يمكن أن يكون لها نقاط دخول مخصصة.
 ### getShaderFile() {#getShaderFile--}
 ```
 public String getShaderFile()
 ```
 
 
-يحصل على اسم ملف البرنامج التظليل الخارجي.
+يحصل على اسم ملف المظلل الخارجي.
 
 **Returns:**
 java.lang.String - اسم ملف الـ shader الخارجي.
@@ -163,7 +163,7 @@ public String getShaderLanguage()
 ```
 
 
-يحصل على لغة البرنامج التظليل المستخدمة في هذه التقنية.
+يحصل على لغة المظلل المستخدمة في هذه التقنية.
 
 **Returns:**
 java.lang.String - لغة الـ shader المستخدمة في هذه التقنية.
@@ -183,7 +183,7 @@ public String getShaderVersion()
 ```
 
 
-يحصل على إصدار الـ shader المستخدم في هذه التقنية.
+يحصل على إصدار shader المستخدم في هذه التقنية.
 
 **Returns:**
 java.lang.String - إصدار الـ shader المستخدم في هذه التقنية.
@@ -224,7 +224,7 @@ public void setDescription(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setRenderAPI(String value) {#setRenderAPI-java.lang.String-}
 ```
@@ -232,12 +232,12 @@ public void setRenderAPI(String value)
 ```
 
 
-يضبط واجهة برمجة التطبيقات للتصيير المستخدمة في هذه التقنية
+يضبط واجهة برمجة تطبيقات العرض المستخدمة في هذه التقنية
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setRenderAPIVersion(String value) {#setRenderAPIVersion-java.lang.String-}
 ```
@@ -245,12 +245,12 @@ public void setRenderAPIVersion(String value)
 ```
 
 
-يضبط إصدار واجهة برمجة التطبيقات للتصيير.
+يضبط إصدار واجهة برمجة تطبيقات العرض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setShaderContent(byte[] value) {#setShaderContent-byte---}
 ```
@@ -258,12 +258,12 @@ public void setShaderContent(byte[] value)
 ```
 
 
-يضبط محتوى سكريبت shader مدمج. يمكن أن يكون ملف مصدر shader من نوع HLSL/GLSL.
+يضبط محتوى برنامج shader المضمن. يمكن أن يكون ملف مصدر shader من نوع HLSL/GLSL.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | القيمة الجديدة |
+| قيمة | byte[] | قيمة جديدة |
 
 ### setShaderEntry(String value) {#setShaderEntry-java.lang.String-}
 ```
@@ -271,12 +271,12 @@ public void setShaderEntry(String value)
 ```
 
 
-يضبط نقطة الدخول للـ shader، بعض الـ shaders مثل HLSL يمكن أن تحتوي على مداخل shader مخصصة.
+يضبط نقطة الدخول للـ shader، بعض الـ shaders مثل HLSL يمكن أن يكون لها نقاط دخول مخصصة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setShaderFile(String value) {#setShaderFile-java.lang.String-}
 ```
@@ -289,7 +289,7 @@ public void setShaderFile(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setShaderLanguage(String value) {#setShaderLanguage-java.lang.String-}
 ```
@@ -302,7 +302,7 @@ public void setShaderLanguage(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setShaderVersion(String value) {#setShaderVersion-java.lang.String-}
 ```
@@ -315,7 +315,7 @@ public void setShaderVersion(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

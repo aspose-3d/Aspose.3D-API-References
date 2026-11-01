@@ -1,6 +1,6 @@
 ---
 title: "ProjectionType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أنواع إسقاط الكاميرات."
 type: docs
 weight: 295
@@ -18,8 +18,8 @@ public enum ProjectionType extends Enum<ProjectionType>
 
 | حقل | الوصف |
 | --- | --- |
-| [ORTHOGRAPHIC](#ORTHOGRAPHIC) | الكاميرا تستخدم إسقاطًا متعامدًا. |
-| [PERSPECTIVE](#PERSPECTIVE) | الكاميرا تستخدم إسقاطًا منظورياً. |
+| [ORTHOGRAPHIC](#ORTHOGRAPHIC) | تستخدم الكاميرا إسقاطًا متعامدًا. |
+| [PERSPECTIVE](#PERSPECTIVE) | تستخدم الكاميرا إسقاطًا منظورياً. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final ProjectionType ORTHOGRAPHIC
 ```
 
 
-الكاميرا تستخدم إسقاطًا متعامدًا.
+تستخدم الكاميرا إسقاطًا متعامدًا.
 
 ### PERSPECTIVE {#PERSPECTIVE}
 ```
@@ -55,7 +55,7 @@ public static final ProjectionType PERSPECTIVE
 ```
 
 
-الكاميرا تستخدم إسقاطًا منظورياً.
+تستخدم الكاميرا إسقاطًا منظورياً.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

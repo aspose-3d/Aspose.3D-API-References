@@ -1,7 +1,7 @@
 ---
 title: "الهياكل"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الفئة الأساسية لمصفوفة struct"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "الفئة الأساسية لمصفوفة البنية"
 type: docs
 weight: 179
 url: /ar/java/com.aspose.threed/structs/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class Structs
 ```
 
-الفئة الأساسية لمصفوفة struct
+الفئة الأساسية لمصفوفة البنية
 ## الطرق
 
 | طريقة | الوصف |
@@ -24,7 +24,7 @@ public abstract class Structs
 | [length()](#length--) | طول هذا المصفوفة |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [structSize()](#structSize--) | الحجم بالبايت للهيكل الفردي |
+| [structSize()](#structSize--) | الحجم بالبايت للهيكل المفرد |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,7 +98,7 @@ public final int structSize()
 ```
 
 
-الحجم بالبايت للهيكل الفردي
+الحجم بالبايت للهيكل المفرد
 
 **Returns:**
 int - حجم الهيكل
@@ -158,7 +158,7 @@ public void writeTo(Stream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | الدفق الذي سيُكتب إليه الهيكل |
+| stream | [Stream](../../com.aspose.threed/stream) | ما هو الدفق الذي يُكتب إليه الهيكل |
 
 ### writeTo(OutputStream stream) {#writeTo-java.io.OutputStream-}
 ```
@@ -171,5 +171,5 @@ public void writeTo(OutputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.OutputStream |  |
+| stream | java.io.OutputStream |  |
 

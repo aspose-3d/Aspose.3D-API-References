@@ -1,6 +1,6 @@
 ---
 title: "GlobalTransform"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "التحويل العالمي مشابه لـ  لكنه غير قابل للتغيير بينما يمثل التحويل النهائي المُقَيَّم."
 type: docs
 weight: 72
@@ -13,7 +13,7 @@ java.lang.Object
 public class GlobalTransform
 ```
 
-التحويل العالمي مشابه لـ [Transform](../../com.aspose.threed/transform) لكنه غير قابل للتغيير بينما يمثل التحويل النهائي المُقَيَّم. يُستخدم نظام الإحداثيات الأيمن أثناء تقييم التحويل العالمي **مثال:** الكود التالي يوضح كيفية قراءة التحويل العالمي للعقدة
+التحويل العالمي مشابه لـ [Transform](../../com.aspose.threed/transform) لكنه غير قابل للتغيير بينما يمثل التحويل النهائي المُقَيَّم. يُستخدم نظام الإحداثيات الأيمن أثناء تقييم التحويل العالمي **Example:** يوضح الكود التالي كيفية قراءة التحويل العالمي للعقدة
 
 ```
 Scene scene = new Scene();
@@ -33,7 +33,7 @@ Scene scene = new Scene();
 | [getRotation()](#getRotation--) | يحصل على الدوران الممثَّل بالكوارتيرن. |
 | [getScale()](#getScale--) | يحصل على المقياس |
 | [getTransformMatrix()](#getTransformMatrix--) | يحصل على مصفوفة التحويل. |
-| [getTranslation()](#getTranslation--) | يحصل على الترجمة |
+| [getTranslation()](#getTranslation--) | يحصل على الإزاحة |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -136,7 +136,7 @@ public Vector3 getTranslation()
 ```
 
 
-يحصل على الترجمة
+يحصل على الإزاحة
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the translation **Example:**

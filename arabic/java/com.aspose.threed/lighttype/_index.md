@@ -1,6 +1,6 @@
 ---
 title: "LightType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أنواع الإضاءة."
 type: docs
 weight: 284
@@ -18,11 +18,11 @@ public enum LightType extends Enum<LightType>
 
 | حقل | الوصف |
 | --- | --- |
-| [AREA](#AREA) | الضوء المساحي. |
-| [DIRECTIONAL](#DIRECTIONAL) | الضوء الاتجاهي. |
-| [POINT](#POINT) | الضوء النقطي. |
-| [SPOT](#SPOT) | الضوء الكشطي. |
-| [VOLUME](#VOLUME) | الضوء الحجمي. |
+| [AREA](#AREA) | ضوء المنطقة. |
+| [DIRECTIONAL](#DIRECTIONAL) | ضوء الاتجاه. |
+| [POINT](#POINT) | ضوء النقطة. |
+| [SPOT](#SPOT) | ضوء الكشاف. |
+| [VOLUME](#VOLUME) | ضوء الحجم. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -50,7 +50,7 @@ public static final LightType AREA
 ```
 
 
-الضوء المساحي.
+ضوء المنطقة.
 
 ### DIRECTIONAL {#DIRECTIONAL}
 ```
@@ -58,7 +58,7 @@ public static final LightType DIRECTIONAL
 ```
 
 
-الضوء الاتجاهي.
+ضوء الاتجاه.
 
 ### POINT {#POINT}
 ```
@@ -66,7 +66,7 @@ public static final LightType POINT
 ```
 
 
-الضوء النقطي.
+ضوء النقطة.
 
 ### SPOT {#SPOT}
 ```
@@ -74,7 +74,7 @@ public static final LightType SPOT
 ```
 
 
-الضوء الكشطي.
+ضوء الكشاف.
 
 ### VOLUME {#VOLUME}
 ```
@@ -82,7 +82,7 @@ public static final LightType VOLUME
 ```
 
 
-الضوء الحجمي.
+ضوء الحجم.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

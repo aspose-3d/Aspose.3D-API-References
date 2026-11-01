@@ -1,6 +1,6 @@
 ---
 title: "RenderParameters"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "وصف معلمات هدف العرض"
 type: docs
 weight: 149
@@ -18,11 +18,11 @@ public class RenderParameters
 
 | منشئ | الوصف |
 | --- | --- |
-| [RenderParameters(boolean doubleBuffering, int colorBits, int depthBits, int stencilBits)](#RenderParameters-boolean-int-int-int-) | تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
-| [RenderParameters()](#RenderParameters--) | تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
-| [RenderParameters(boolean doubleBuffering)](#RenderParameters-boolean-) | تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
-| [RenderParameters(boolean doubleBuffering, int colorBits)](#RenderParameters-boolean-int-) | تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
-| [RenderParameters(boolean doubleBuffering, int colorBits, int depthBits)](#RenderParameters-boolean-int-int-) | تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
+| [RenderParameters(boolean doubleBuffering, int colorBits, int depthBits, int stencilBits)](#RenderParameters-boolean-int-int-int-) | إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
+| [RenderParameters()](#RenderParameters--) | إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
+| [RenderParameters(boolean doubleBuffering)](#RenderParameters-boolean-) | إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
+| [RenderParameters(boolean doubleBuffering, int colorBits)](#RenderParameters-boolean-int-) | إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
+| [RenderParameters(boolean doubleBuffering, int colorBits, int depthBits)](#RenderParameters-boolean-int-int-) | إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat) |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,13 +32,13 @@ public class RenderParameters
 | [getClass()](#getClass--) |  |
 | [getColorBits()](#getColorBits--) | يحصل على عدد البتات التي سيستخدمها مخزن الألوان. |
 | [getDepthBits()](#getDepthBits--) | يحصل على عدد البتات التي سيستخدمها مخزن العمق. |
-| [getDoubleBuffering()](#getDoubleBuffering--) | يحصل على ما إذا كان المخزن المزدوج يُستخدم. |
-| [getStencilBits()](#getStencilBits--) | يحصل على عدد البتات التي ستُستخدم في مخزن القالب. |
+| [getDoubleBuffering()](#getDoubleBuffering--) | يحصل على ما إذا كان يتم استخدام المخزن المزدوج. |
+| [getStencilBits()](#getStencilBits--) | يحصل على عدد البتات التي سيستخدمها مخزن القالب. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setColorBits(int value)](#setColorBits-int-) | يضبط عدد البتات التي سيستخدمها مخزن الألوان. |
-| [setDepthBits(int value)](#setDepthBits-int-) | يضبط عدد البتات التي سيتم استخدامها في مخزن العمق. |
+| [setDepthBits(int value)](#setDepthBits-int-) | يضبط عدد البتات التي سيتم استخدامها بواسطة مخزن العمق. |
 | [setDoubleBuffering(boolean value)](#setDoubleBuffering-boolean-) | يضبط ما إذا كان يتم استخدام التخزين المزدوج. |
 | [setStencilBits(int value)](#setStencilBits-int-) | يضبط عدد البتات التي سيتم استخدامها في مخزن القالب. |
 | [toString()](#toString--) |  |
@@ -51,7 +51,7 @@ public RenderParameters(boolean doubleBuffering, int colorBits, int depthBits, i
 ```
 
 
-تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
+إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,7 +67,7 @@ public RenderParameters()
 ```
 
 
-تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
+إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
 
 ### RenderParameters(boolean doubleBuffering) {#RenderParameters-boolean-}
 ```
@@ -75,7 +75,7 @@ public RenderParameters(boolean doubleBuffering)
 ```
 
 
-تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
+إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -88,7 +88,7 @@ public RenderParameters(boolean doubleBuffering, int colorBits)
 ```
 
 
-تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
+إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -102,7 +102,7 @@ public RenderParameters(boolean doubleBuffering, int colorBits, int depthBits)
 ```
 
 
-تهيئة نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
+إنشاء نسخة من [PixelFormat](../../com.aspose.threed/pixelformat)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -155,7 +155,7 @@ public int getColorBits()
 يحصل على عدد البتات التي سيستخدمها مخزن الألوان.
 
 **Returns:**
-int - عدد البتات التي سيتم استخدامها في مخزن الألوان.
+int - عدد البتات التي سيتم استخدامها بواسطة مخزن اللون.
 ### getDepthBits() {#getDepthBits--}
 ```
 public int getDepthBits()
@@ -165,14 +165,14 @@ public int getDepthBits()
 يحصل على عدد البتات التي سيستخدمها مخزن العمق.
 
 **Returns:**
-int - عدد البتات التي سيتم استخدامها في مخزن العمق.
+int - عدد البتات التي سيتم استخدامها بواسطة مخزن العمق.
 ### getDoubleBuffering() {#getDoubleBuffering--}
 ```
 public boolean getDoubleBuffering()
 ```
 
 
-يحصل على ما إذا كان المخزن المزدوج يُستخدم.
+يحصل على ما إذا كان يتم استخدام المخزن المزدوج.
 
 **Returns:**
 boolean - ما إذا كان يتم استخدام التخزين المزدوج.
@@ -182,7 +182,7 @@ public int getStencilBits()
 ```
 
 
-يحصل على عدد البتات التي ستُستخدم في مخزن القالب.
+يحصل على عدد البتات التي سيستخدمها مخزن القالب.
 
 **Returns:**
 int - عدد البتات التي سيتم استخدامها في مخزن القالب.
@@ -223,7 +223,7 @@ public void setColorBits(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDepthBits(int value) {#setDepthBits-int-}
 ```
@@ -231,12 +231,12 @@ public void setDepthBits(int value)
 ```
 
 
-يضبط عدد البتات التي سيتم استخدامها في مخزن العمق.
+يضبط عدد البتات التي سيتم استخدامها بواسطة مخزن العمق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDoubleBuffering(boolean value) {#setDoubleBuffering-boolean-}
 ```
@@ -249,7 +249,7 @@ public void setDoubleBuffering(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setStencilBits(int value) {#setStencilBits-int-}
 ```
@@ -262,7 +262,7 @@ public void setStencilBits(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

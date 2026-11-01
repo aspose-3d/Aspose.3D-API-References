@@ -1,6 +1,6 @@
 ---
 title: "MorphTargetDeformer"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "يوفر MorphTargetDeformer رسومًا متحركة لكل رأس."
 type: docs
 weight: 108
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetDeformer extends Deformer
 ```
 
-MorphTargetDeformer يوفر تحريكًا لكل رأس. MorphTargetDeformer ينظم جميع الأهداف عبر [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel)، كل قناة يمكنها تنظيم أهداف متعددة. الاستخدام الشائع لمشغل الهدف المتحول هو تطبيق تعبيرات الوجه على شخصية. يمكن العثور على مزيد من التفاصيل في https://en.wikipedia.org/wiki/Morph\_target\_animation
+يوفر MorphTargetDeformer تحريكًا لكل رأس. ينظم MorphTargetDeformer جميع الأهداف عبر [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel)، يمكن لكل قناة تنظيم أهداف متعددة. الاستخدام الشائع لمُشَكِّل الهدف المتحول هو تطبيق تعبيرات الوجه على شخصية. يمكن العثور على مزيد من التفاصيل في https://en.wikipedia.org/wiki/Morph\_target\_animation
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,19 +26,19 @@ MorphTargetDeformer يوفر تحريكًا لكل رأس. MorphTargetDeformer �
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
-| [get(Shape target)](#get-com.aspose.threed.Shape-) | يحصل على الوزن للهيكلية المعطاة، هذه طريقة مختصرة لتعديل الوزن للهدف دون الوصول إلى القناة. |
-| [getChannels()](#getChannels--) | يحصل على جميع القنوات الموجودة في هذا المشغل |
+| [get(Shape target)](#get-com.aspose.threed.Shape-) | يحصل على الوزن للجيومتري المحدد، هذه طريقة مختصرة لتعديل الوزن للهدف دون الوصول إلى القناة. |
+| [getChannels()](#getChannels--) | يحصل على جميع القنوات الموجودة في هذا المشكِّل. |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getOwner()](#getOwner--) | يرجع الهندسة التي تملك هذا deformer |
+| [getOwner()](#getOwner--) | يحصل على الهندسة التي تملك هذا Deformer |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | يضبط الوزن للهيكلية المعطاة، هذه طريقة مختصرة لتعديل الوزن للهدف دون الوصول إلى القناة. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | يضبط الوزن للجيومتري المحدد، هذه طريقة مختصرة لتعديل الوزن للهدف دون الوصول إلى القناة. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
@@ -87,7 +87,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -102,7 +102,7 @@ public double get(Shape target)
 ```
 
 
-يحصل على الوزن للهيكلية المعطاة، هذه طريقة مختصرة لتعديل الوزن للهدف دون الوصول إلى القناة.
+يحصل على الوزن للجيومتري المحدد، هذه طريقة مختصرة لتعديل الوزن للهدف دون الوصول إلى القناة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -117,10 +117,10 @@ public List<MorphTargetChannel> getChannels()
 ```
 
 
-يحصل على جميع القنوات الموجودة في هذا المشغل
+يحصل على جميع القنوات الموجودة في هذا المشكِّل.
 
 **Returns:**
-java.util.List<com.aspose.threed.MorphTargetChannel> - جميع القنوات الموجودة في هذا المشوه
+java.util.List<com.aspose.threed.MorphTargetChannel> - جميع القنوات المحتواة في هذا المُشَكِّل
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -147,7 +147,7 @@ public Geometry getOwner()
 ```
 
 
-يرجع الهندسة التي تملك هذا deformer
+يحصل على الهندسة التي تملك هذا Deformer
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer
@@ -223,7 +223,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -238,13 +238,13 @@ public void set(Shape target, double value)
 ```
 
 
-يضبط الوزن للهيكلية المعطاة، هذه طريقة مختصرة لتعديل الوزن للهدف دون الوصول إلى القناة.
+يضبط الوزن للجيومتري المحدد، هذه طريقة مختصرة لتعديل الوزن للهدف دون الوصول إلى القناة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | target | [Shape](../../com.aspose.threed/shape) | الهندسة المستهدفة |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -257,7 +257,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -271,7 +271,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "RenderStage"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مرحلة العرض."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مرحلة العرض"
 type: docs
 weight: 298
 url: /ar/java/com.aspose.threed/renderstage/
@@ -13,15 +13,15 @@ java.lang.Object, java.lang.Enum
 public enum RenderStage extends Enum<RenderStage>
 ```
 
-مرحلة العرض.
+مرحلة العرض
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [IDLE](#IDLE) | المُعالج في وضع الخمول |
-| [POST_PROCESSING](#POST-PROCESSING) | المُعالج يقوم بتطبيق تأثيرات ما بعد المعالجة. |
-| [SCENE](#SCENE) | المُعالج يقوم بعرض المشهد |
-| [SHADOW_MAP](#SHADOW-MAP) | المُعالج يقوم بإنشاء خريطة الظل |
+| [IDLE](#IDLE) | Renderer في حالة خمول |
+| [POST_PROCESSING](#POST-PROCESSING) | Renderer يقوم بتطبيق تأثيرات ما بعد المعالجة. |
+| [SCENE](#SCENE) | Renderer يقوم بعرض المشهد |
+| [SHADOW_MAP](#SHADOW-MAP) | Renderer يقوم بإنشاء خريطة الظل |
 ## الطرق
 
 | طريقة | الوصف |
@@ -49,7 +49,7 @@ public static final RenderStage IDLE
 ```
 
 
-المُعالج في وضع الخمول
+Renderer في حالة خمول
 
 ### POST_PROCESSING {#POST-PROCESSING}
 ```
@@ -57,7 +57,7 @@ public static final RenderStage POST_PROCESSING
 ```
 
 
-المُعالج يقوم بتطبيق تأثيرات ما بعد المعالجة.
+Renderer يقوم بتطبيق تأثيرات ما بعد المعالجة.
 
 ### SCENE {#SCENE}
 ```
@@ -65,7 +65,7 @@ public static final RenderStage SCENE
 ```
 
 
-المُعالج يقوم بعرض المشهد
+Renderer يقوم بعرض المشهد
 
 ### SHADOW_MAP {#SHADOW-MAP}
 ```
@@ -73,7 +73,7 @@ public static final RenderStage SHADOW_MAP
 ```
 
 
-المُعالج يقوم بإنشاء خريطة الظل
+Renderer يقوم بإنشاء خريطة الظل
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "DescriptorSetUpdater"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "هذه الفئة تسمح بتحديث الـ  في عملية سلسلة."
 type: docs
 weight: 42
@@ -16,7 +16,7 @@ java.io.Closeable
 public final class DescriptorSetUpdater implements Closeable
 ```
 
-هذه الفئة تسمح بتحديث الـ [IDescriptorSet](../../com.aspose.threed/idescriptorset) في عملية سلسلة.
+هذه الفئة تسمح بتحديث [IDescriptorSet](../../com.aspose.threed/idescriptorset) في عملية سلسلة.
 ## الطرق
 
 | طريقة | الوصف |
@@ -27,7 +27,7 @@ public final class DescriptorSetUpdater implements Closeable
 | [bind(int binding, IBuffer buffer)](#bind-int-com.aspose.threed.IBuffer-) | ربط المخزن المؤقت بمجموعة الوصف الحالية في موقع الربط المحدد. |
 | [bind(int binding, IBuffer buffer, int offset, int size)](#bind-int-com.aspose.threed.IBuffer-int-int-) | ربط المخزن المؤقت بمجموعة الوصف الحالية في موقع الربط المحدد. |
 | [bind(int binding, ITextureUnit texture)](#bind-int-com.aspose.threed.ITextureUnit-) | ربط وحدة النسيج بمجموعة الوصف الحالية |
-| [close()](#close--) | إلغاء تحديث المُحدّث وتطبيق التغييرات على الجهاز المادي. |
+| [close()](#close--) | تخلص من المحدث وطبق التغييرات على الجهاز المادي. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -63,9 +63,9 @@ public DescriptorSetUpdater bind(IBuffer buffer, int offset, int size)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | أي buffer لربطه |
-| offset | int | الإزاحة للـ buffer المراد ربطه |
-| الحجم | int | حجم الـ buffer المراد ربطه |
+| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | أي مخزن مؤقت للربط |
+| الإزاحة | int | الإزاحة للمخزن المؤقت للربط |
+| الحجم | int | حجم المخزن المؤقت للربط |
 
 **Returns:**
 [DescriptorSetUpdater](../../com.aspose.threed/descriptorsetupdater) - Return current instance for chaining operation
@@ -80,7 +80,7 @@ public DescriptorSetUpdater bind(ITextureUnit texture)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| texture | [ITextureUnit](../../com.aspose.threed/itextureunit) | وحدة القوام للربط |
+| texture | [ITextureUnit](../../com.aspose.threed/itextureunit) | وحدة النسيج للربط |
 
 **Returns:**
 [DescriptorSetUpdater](../../com.aspose.threed/descriptorsetupdater) - Return current instance for chaining operation
@@ -96,7 +96,7 @@ public DescriptorSetUpdater bind(int binding, IBuffer buffer)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | ربط | int | موقع الربط |
-| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | الـ buffer الكامل للربط |
+| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | المخزن الكامل للربط |
 
 **Returns:**
 [DescriptorSetUpdater](../../com.aspose.threed/descriptorsetupdater) - Return current instance for chaining operation
@@ -112,9 +112,9 @@ public DescriptorSetUpdater bind(int binding, IBuffer buffer, int offset, int si
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | ربط | int | موقع الربط |
-| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | الـ buffer للربط |
-| offset | int | الإزاحة للـ buffer المراد ربطه |
-| الحجم | int | حجم الـ buffer المراد ربطه |
+| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | المخزن للربط |
+| الإزاحة | int | الإزاحة للمخزن المؤقت للربط |
+| الحجم | int | حجم المخزن المؤقت للربط |
 
 **Returns:**
 [DescriptorSetUpdater](../../com.aspose.threed/descriptorsetupdater) - Return current instance for chaining operation
@@ -130,7 +130,7 @@ public DescriptorSetUpdater bind(int binding, ITextureUnit texture)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | ربط | int | موقع الربط |
-| texture | [ITextureUnit](../../com.aspose.threed/itextureunit) | وحدة القوام للربط |
+| texture | [ITextureUnit](../../com.aspose.threed/itextureunit) | وحدة النسيج للربط |
 
 **Returns:**
 [DescriptorSetUpdater](../../com.aspose.threed/descriptorsetupdater) - Return current instance for chaining operation
@@ -140,7 +140,7 @@ public void close()
 ```
 
 
-إلغاء تحديث المُحدّث وتطبيق التغييرات على الجهاز المادي.
+تخلص من المحدث وطبق التغييرات على الجهاز المادي.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

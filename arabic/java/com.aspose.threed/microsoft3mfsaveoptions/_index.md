@@ -1,6 +1,6 @@
 ---
 title: "Microsoft3MFSaveOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "خيارات الحفظ لملف Microsoft 3MF."
 type: docs
 weight: 105
@@ -24,27 +24,27 @@ public class Microsoft3MFSaveOptions extends SaveOptions
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBuildAll()](#getBuildAll--) | ضع علامة على جميع الأشكال الهندسية في المشهد لتكون قابلة للطباعة. |
+| [getBuildAll()](#getBuildAll--) | ضع علامة على جميع الأجسام الهندسية في المشهد لتكون قابلة للطباعة. |
 | [getClass()](#getClass--) |  |
-| [getEnableCompression()](#getEnableCompression--) | فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true |
+| [getEnableCompression()](#getEnableCompression--) | فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true. |
 | [getEncoding()](#getEncoding--) | يحصل على الترميز الافتراضي للملفات النصية. |
 | [getExportTextures()](#getExportTextures--) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
-| [getFileName()](#getFileName--) | اسم ملف المشهد المصدر/المستورد. |
+| [getFileName()](#getFileName--) | اسم الملف للمشهد المصدر/المستورد. |
 | [getFileSystem()](#getFileSystem--) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | يحصل على فئة المصنع لنظام الملفات. |
-| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
+| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBuildAll(boolean value)](#setBuildAll-boolean-) | ضع علامة على جميع الأشكال الهندسية في المشهد لتكون قابلة للطباعة. |
-| [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true |
+| [setBuildAll(boolean value)](#setBuildAll-boolean-) | ضع علامة على جميع الأجسام الهندسية في المشهد لتكون قابلة للطباعة. |
+| [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | يضبط الترميز الافتراضي للملفات النصية. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | اسم ملف المشهد المصدر/المستورد. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | اسم الملف للمشهد المصدر/المستورد. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | يضبط فئة المصنع لنظام الملفات. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,10 +78,10 @@ public boolean getBuildAll()
 ```
 
 
-ضع علامة على جميع الأشكال الهندسية في المشهد لتكون قابلة للطباعة. أو يمكنك يدويًا وضع علامة على العقدة لتكون قابلة للطباعة بواسطة [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). القيمة الافتراضية هي true
+ضع علامة على جميع الأجسام الهندسية في المشهد لتكون قابلة للطباعة. أو يمكنك وضع علامة يدوية على العقدة لتكون قابلة للطباعة باستخدام [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). القيمة الافتراضية هي true.
 
 **Returns:**
-منطقي - ضع علامة على جميع الأشكال الهندسية في المشهد لتكون قابلة للطباعة. أو يمكنك يدويًا وضع علامة على العقدة لتكون قابلة للطباعة بواسطة [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). القيمة الافتراضية هي true
+منطقي - ضع علامة على جميع الأجسام الهندسية في المشهد لتكون قابلة للطباعة. أو يمكنك وضع علامة يدوية على العقدة لتكون قابلة للطباعة باستخدام [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). القيمة الافتراضية هي true.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -98,10 +98,10 @@ public boolean getEnableCompression()
 ```
 
 
-فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true
+فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true.
 
 **Returns:**
-منطقي - فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true
+منطقي - فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -138,10 +138,10 @@ public String getFileName()
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Returns:**
-java.lang.String - اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+java.lang.String - اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -182,7 +182,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -211,10 +211,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
+java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
 
 ```
 var opt = new ObjLoadOptions();
@@ -255,12 +255,12 @@ public void setBuildAll(boolean value)
 ```
 
 
-ضع علامة على جميع الأشكال الهندسية في المشهد لتكون قابلة للطباعة. أو يمكنك يدويًا وضع علامة على العقدة لتكون قابلة للطباعة بواسطة [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). القيمة الافتراضية هي true
+ضع علامة على جميع الأجسام الهندسية في المشهد لتكون قابلة للطباعة. أو يمكنك وضع علامة يدوية على العقدة لتكون قابلة للطباعة باستخدام [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). القيمة الافتراضية هي true.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEnableCompression(boolean value) {#setEnableCompression-boolean-}
 ```
@@ -268,12 +268,12 @@ public void setEnableCompression(boolean value)
 ```
 
 
-فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true
+فعّل الضغط على ملف 3mf الناتج. القيمة الافتراضية هي true.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -281,12 +281,12 @@ public void setEncoding(Charset value)
 ```
 
 
-يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يستخدم.
+يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يُستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.nio.charset.Charset | القيمة الجديدة |
+| قيمة | java.nio.charset.Charset | قيمة جديدة |
 
 ### setExportTextures(boolean value) {#setExportTextures-boolean-}
 ```
@@ -299,7 +299,7 @@ public void setExportTextures(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -307,12 +307,12 @@ public void setFileName(String value)
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
 ```
@@ -325,7 +325,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | New value **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، ولكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | قيمة جديدة **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، لكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -357,12 +357,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | New value **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | قيمة جديدة **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -389,12 +389,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.util.ArrayList<java.lang.String> | New value **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
+|  | قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
 
 ```
 var opt = new ObjLoadOptions();

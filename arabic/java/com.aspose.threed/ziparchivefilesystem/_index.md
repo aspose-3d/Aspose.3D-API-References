@@ -1,7 +1,7 @@
 ---
 title: "ZipArchiveFileSystem"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "نظام الملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip."
 type: docs
 weight: 221
 url: /ar/java/com.aspose.threed/ziparchivefilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class ZipArchiveFileSystem extends FileSystem
 ```
 
-نظام الملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. سيتم التخلص من نظام الملفات بعد عملية الفتح/الحفظ. **Example:** يوضح الكود التالي كيفية استيراد الملف، وتوفير الملفات التابعة في ملف أرشيف zip.
+نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. سيتم التخلص من نظام الملفات بعد عملية الفتح/الحفظ. **Example:** يوضح الكود التالي كيفية استيراد الملف، وتوفير الملفات التابعة في ملف أرشيف zip.
 
 ```
 var inputFile = "input.fbx";
@@ -35,7 +35,7 @@ var inputFile = "input.fbx";
 
 | طريقة | الوصف |
 | --- | --- |
-| [close()](#close--) | تخلص من ZipArchiveFileSystem وأطلق موارده الداخلية. |
+| [close()](#close--) | تخلص من ZipArchiveFileSystem وحرّر موارده الداخلية. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -58,7 +58,7 @@ public ZipArchiveFileSystem(Stream stream, String baseDir)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | com.aspose.csporter.helpers.Stream |  |
+| stream | com.aspose.csporter.helpers.Stream |  |
 | baseDir | java.lang.String |  |
 
 ### ZipArchiveFileSystem(Stream stream) {#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-}
@@ -72,7 +72,7 @@ public ZipArchiveFileSystem(Stream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | com.aspose.csporter.helpers.Stream |  |
+| stream | com.aspose.csporter.helpers.Stream |  |
 
 ### ZipArchiveFileSystem(String fileName) {#ZipArchiveFileSystem-java.lang.String-}
 ```
@@ -93,7 +93,7 @@ public void close()
 ```
 
 
-تخلص من ZipArchiveFileSystem وأطلق موارده الداخلية.
+تخلص من ZipArchiveFileSystem وحرّر موارده الداخلية.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

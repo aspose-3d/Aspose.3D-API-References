@@ -1,7 +1,7 @@
 ---
 title: "TextureSlot"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "فتحة الملمس في  يمكن تعدادها عبر نسخة المادة."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "فتحة الملمس في يمكن تعدادها من خلال نسخة المادة."
 type: docs
 weight: 188
 url: /ar/java/com.aspose.threed/textureslot/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureSlot
 ```
 
-فتحة الملمس في [Material](../../com.aspose.threed/material)، يمكن تعدادها عبر نسخة المادة. **Example:**
+فتحة الملمس في [Material](../../com.aspose.threed/material)، يمكن تعدادها من خلال نسخة المادة. **Example:**
 
 ```
 var mat = new LambertMaterial();
@@ -31,7 +31,7 @@ var mat = new LambertMaterial();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSlotName()](#getSlotName--) | اسم الفتحة الذي يحدد إلى أين سيُربط هذا الملمس. |
+| [getSlotName()](#getSlotName--) | اسم الفتحة الذي يشير إلى المكان الذي سيُربط فيه هذا الملمس. |
 | [getTexture()](#getTexture--) | الملمس الذي سيُربط بالمادة. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -71,10 +71,10 @@ public String getSlotName()
 ```
 
 
-اسم الفتحة الذي يحدد إلى أين سيُربط هذا الملمس.
+اسم الفتحة الذي يشير إلى المكان الذي سيُربط فيه هذا الملمس.
 
 **Returns:**
-java.lang.String - اسم الفتحة الذي يحدد إلى أين سيُربط هذا الملمس.
+java.lang.String - اسم الفتحة الذي يشير إلى المكان الذي سيُربط فيه هذا الملمس.
 ### getTexture() {#getTexture--}
 ```
 public TextureBase getTexture()

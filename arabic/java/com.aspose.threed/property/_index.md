@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.Property"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "تعريف الخاصية في فئات البيانات الوصفية"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "تعريف الخاصية في فئات بيانات التعريف"
 type: docs
 weight: 13
 url: /ar/java/com.aspose.threed/structuralmetadata.property/
@@ -18,9 +18,9 @@ public static class StructuralMetadata.Property
 
 | منشئ | الوصف |
 | --- | --- |
-| [Property(String name, String displayName, String description, Class<?> type, boolean normalized, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----boolean-java.lang.Integer-) | منشئ خاصية البيانات الوصفية |
-| [Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) | منشئ خاصية البيانات الوصفية |
-| [Property(String name, Class<?> type)](#Property-java.lang.String-java.lang.Class----) | منشئ خاصية البيانات الوصفية |
+| [Property(String name, String displayName, String description, Class<?> type, boolean normalized, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----boolean-java.lang.Integer-) | منشئ خاصية البيانات التعريفية |
+| [Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) | منشئ خاصية البيانات التعريفية |
+| [Property(String name, Class<?> type)](#Property-java.lang.String-java.lang.Class----) | منشئ خاصية البيانات التعريفية |
 ## الطرق
 
 | طريقة | الوصف |
@@ -33,7 +33,7 @@ public static class StructuralMetadata.Property
 | [getEnumType()](#getEnumType--) | نوع التعداد |
 | [getName()](#getName--) | الاسم الفريد للخاصية |
 | [getNormalized()](#getNormalized--) | هل تم تطبيع البيانات. |
-| [getType()](#getType--) | نوع بيانات الخاصية |
+| [getType()](#getType--) | نوع البيانات للخاصية |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -42,7 +42,7 @@ public static class StructuralMetadata.Property
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | اسم الخاصية، يُستخدم من قبل واجهة المستخدم للتمثيل. |
 | [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | نوع التعداد |
 | [setNormalized(boolean value)](#setNormalized-boolean-) | هل تم تطبيع البيانات. |
-| [toString()](#toString--) | يحصل على تمثيل النصي لهذه النسخة. |
+| [toString()](#toString--) | يحصل على تمثيل النص لهذه المثيلة. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -52,7 +52,7 @@ public Property(String name, String displayName, String description, Class<?> ty
 ```
 
 
-منشئ خاصية البيانات الوصفية
+منشئ خاصية البيانات التعريفية
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -60,8 +60,8 @@ public Property(String name, String displayName, String description, Class<?> ty
 | الاسم | java.lang.String | الاسم الفريد للخاصية |
 | displayName | java.lang.String | اسم الخاصية، يُستخدم من قبل واجهة المستخدم للتمثيل. |
 | description | java.lang.String | وصف الخاصية |
-| type | java.lang.Class<?> | نوع بيانات الخاصية |
-| normalized | boolean | هل البيانات مُطَبَّعة |
+| type | java.lang.Class<?> | نوع البيانات للخاصية |
+| normalized | boolean | هل تم تطبيع البيانات |
 | عدد | java.lang.Integer | عدد البيانات للمصفوفة ذات الحجم الثابت |
 
 ### Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count) {#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-}
@@ -70,7 +70,7 @@ public Property(String name, String displayName, String description, StructuralM
 ```
 
 
-منشئ خاصية البيانات الوصفية
+منشئ خاصية البيانات التعريفية
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -78,8 +78,8 @@ public Property(String name, String displayName, String description, StructuralM
 | الاسم | java.lang.String | الاسم الفريد للخاصية |
 | displayName | java.lang.String | اسم الخاصية، يُستخدم من قبل واجهة المستخدم للتمثيل. |
 | description | java.lang.String | وصف الخاصية |
-| type | [EnumType](../../com.aspose.threed/enumtype) | نوع بيانات الخاصية |
-| مصفوفة | boolean | هل كل قيمة خاصية هي مصفوفة أم عددية |
+| type | [EnumType](../../com.aspose.threed/enumtype) | نوع البيانات للخاصية |
+| مصفوفة | boolean | هل كل قيمة خاصية هي مصفوفة أم قيمة عددية |
 | عدد | java.lang.Integer | عدد البيانات للمصفوفة ذات الحجم الثابت |
 
 ### Property(String name, Class<?> type) {#Property-java.lang.String-java.lang.Class----}
@@ -88,13 +88,13 @@ public Property(String name, Class<?> type)
 ```
 
 
-منشئ خاصية البيانات الوصفية
+منشئ خاصية البيانات التعريفية
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | الاسم الفريد للخاصية |
-| type | java.lang.Class<?> | نوع بيانات الخاصية |
+| type | java.lang.Class<?> | نوع البيانات للخاصية |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -180,14 +180,14 @@ public boolean getNormalized()
 هل تم تطبيع البيانات.
 
 **Returns:**
-boolean - هل البيانات مُعَدلَة.
+boolean - هل البيانات مُعَدَّلة.
 ### getType() {#getType--}
 ```
 public Class<?> getType()
 ```
 
 
-نوع بيانات الخاصية
+نوع البيانات للخاصية
 
 **Returns:**
 java.lang.Class<?> - نوع البيانات للخاصية
@@ -228,7 +228,7 @@ public void setCount(Integer value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Integer | القيمة الجديدة |
+| قيمة | java.lang.Integer | قيمة جديدة |
 
 ### setDescription(String value) {#setDescription-java.lang.String-}
 ```
@@ -241,7 +241,7 @@ public void setDescription(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setDisplayName(String value) {#setDisplayName-java.lang.String-}
 ```
@@ -254,7 +254,7 @@ public void setDisplayName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setEnumType(StructuralMetadata.EnumType value) {#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-}
 ```
@@ -267,7 +267,7 @@ public void setEnumType(StructuralMetadata.EnumType value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [EnumType](../../com.aspose.threed/enumtype) | القيمة الجديدة |
+| value | [EnumType](../../com.aspose.threed/enumtype) | قيمة جديدة |
 
 ### setNormalized(boolean value) {#setNormalized-boolean-}
 ```
@@ -280,7 +280,7 @@ public void setNormalized(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toString() {#toString--}
 ```
@@ -288,7 +288,7 @@ public String toString()
 ```
 
 
-يحصل على تمثيل النصي لهذه النسخة.
+يحصل على تمثيل النص لهذه المثيلة.
 
 **Returns:**
 java.lang.String

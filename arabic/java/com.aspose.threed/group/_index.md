@@ -1,7 +1,7 @@
 ---
-title: "مجموعة"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "A  يمثل العلاقات المنطقية لـ ."
+title: "Group"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "أ  يمثل العلاقات المنطقية لـ ."
 type: docs
 weight: 75
 url: /ar/java/com.aspose.threed/group/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Group extends A3DObject
 ```
 
-A [Group](../../com.aspose.threed/group) يمثل العلاقات المنطقية لـ [Node](../../com.aspose.threed/node).
+أ [Group](../../com.aspose.threed/group) يمثل العلاقات المنطقية لـ [Node](../../com.aspose.threed/node).
 ## المنشئات
 
 | منشئ | الوصف |
@@ -37,10 +37,10 @@ A [Group](../../com.aspose.threed/group) يمثل العلاقات المنطق�
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [toString()](#toString--) | يحصل على تمثيل السلسلة النصية لـ [Group](../../com.aspose.threed/group) |
+| [toString()](#toString--) | يحصل على تمثيل السلسلة لـ [Group](../../com.aspose.threed/group) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -86,7 +86,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -217,7 +217,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -237,7 +237,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -251,7 +251,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```
@@ -259,10 +259,10 @@ public String toString()
 ```
 
 
-يحصل على تمثيل السلسلة النصية لـ [Group](../../com.aspose.threed/group)
+يحصل على تمثيل السلسلة لـ [Group](../../com.aspose.threed/group)
 
 **Returns:**
-java.lang.String - تمثيل السلسلة النصية للنسخة الحالية
+java.lang.String - تمثيل السلسلة للنسخة الحالية
 ### wait() {#wait--}
 ```
 public final void wait()

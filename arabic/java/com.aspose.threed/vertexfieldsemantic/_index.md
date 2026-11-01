@@ -1,6 +1,6 @@
 ---
 title: "VertexFieldSemantic"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "دلالة حقل الرأس"
 type: docs
 weight: 309
@@ -18,18 +18,18 @@ public enum VertexFieldSemantic extends Enum<VertexFieldSemantic>
 
 | حقل | الوصف |
 | --- | --- |
-| [BINORMAL](#BINORMAL) | متجه ثنائي |
+| [BINORMAL](#BINORMAL) | متجه ثنائي العادي |
 | [EDGE_CREASE](#EDGE-CREASE) | انحناء الحافة |
 | [MORPH_NORMAL](#MORPH-NORMAL) | بيانات العادي للهدف المتحول |
-| [MORPH_POSITION](#MORPH-POSITION) | بيانات الموضع للهدف المتحول |
+| [MORPH_POSITION](#MORPH-POSITION) | بيانات الموقع للهدف المتحول |
 | [NORMAL](#NORMAL) | متجه العادي |
-| [POSITION](#POSITION) | بيانات الموضع |
+| [POSITION](#POSITION) | بيانات الموقع |
 | [SPECULAR](#SPECULAR) | ألوان الانعكاس |
 | [TANGENT](#TANGENT) | متجه المماس |
 | [USER_DATA](#USER-DATA) | بيانات المستخدم، عادةً لأغراض خاصة بالتطبيق |
-| [UV](#UV) | إحداثيات UV للملمس |
+| [UV](#UV) | إحداثيات UV للنسيج |
 | [VERTEX_COLOR](#VERTEX-COLOR) | لون القمة |
-| [VERTEX_CREASE](#VERTEX-CREASE) | ثنية القمة |
+| [VERTEX_CREASE](#VERTEX-CREASE) | ثني القمة |
 | [VISIBILITY](#VISIBILITY) | الرؤية للمكونات |
 | [WEIGHT](#WEIGHT) | أوزان الدمج |
 ## الطرق
@@ -59,7 +59,7 @@ public static final VertexFieldSemantic BINORMAL
 ```
 
 
-متجه ثنائي
+متجه ثنائي العادي
 
 ### EDGE_CREASE {#EDGE-CREASE}
 ```
@@ -83,7 +83,7 @@ public static final VertexFieldSemantic MORPH_POSITION
 ```
 
 
-بيانات الموضع للهدف المتحول
+بيانات الموقع للهدف المتحول
 
 ### NORMAL {#NORMAL}
 ```
@@ -99,7 +99,7 @@ public static final VertexFieldSemantic POSITION
 ```
 
 
-بيانات الموضع
+بيانات الموقع
 
 ### SPECULAR {#SPECULAR}
 ```
@@ -131,7 +131,7 @@ public static final VertexFieldSemantic UV
 ```
 
 
-إحداثيات UV للملمس
+إحداثيات UV للنسيج
 
 ### VERTEX_COLOR {#VERTEX-COLOR}
 ```
@@ -147,7 +147,7 @@ public static final VertexFieldSemantic VERTEX_CREASE
 ```
 
 
-ثنية القمة
+ثني القمة
 
 ### VISIBILITY {#VISIBILITY}
 ```

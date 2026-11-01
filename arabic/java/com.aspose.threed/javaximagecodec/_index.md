@@ -1,6 +1,6 @@
 ---
 title: "JavaXImageCodec"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: 
 type: docs
 weight: 87
@@ -48,7 +48,7 @@ public TextureData decode(Stream stream, boolean reverseY)
 ```
 
 
-فك تشفير القوام من الدفق، إرجاع null إذا فشل فك التشفير.
+فك تشفير النسيج من الدفق، إرجاع null إذا فشل فك التشفير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -89,7 +89,7 @@ public ITextureDecoder[] getDecoders()
 ```
 
 
-يحصل على محولات القوام المدعومة.
+يحصل على مفككات النسيج المدعومة.
 
 **Returns:**
 com.aspose.threed.ITextureDecoder[]
@@ -99,7 +99,7 @@ public ITextureEncoder[] getEncoders()
 ```
 
 
-يحصل على مشفرات القوام المدعومة.
+يحصل على مشفرات النسيج المدعومة.
 
 **Returns:**
 com.aspose.threed.ITextureEncoder[]

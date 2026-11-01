@@ -1,7 +1,7 @@
 ---
 title: "IRenderWindow"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "IRenderWindow يمثل النافذة الأصلية التي أنشأها نظام التشغيل وتدعم التصيير."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "IRenderWindow تمثل النافذة الأصلية التي أنشأها نظام التشغيل وتدعم التصيير."
 type: docs
 weight: 251
 url: /ar/java/com.aspose.threed/irenderwindow/
@@ -13,4 +13,4 @@ url: /ar/java/com.aspose.threed/irenderwindow/
 public interface IRenderWindow extends IRenderTarget
 ```
 
-IRenderWindow يمثل النافذة الأصلية التي أنشأها نظام التشغيل وتدعم التصيير.
+IRenderWindow تمثل النافذة الأصلية التي أنشأها نظام التشغيل وتدعم التصيير.

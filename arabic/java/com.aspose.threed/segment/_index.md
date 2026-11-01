@@ -1,6 +1,6 @@
 ---
 title: "CompositeCurve.Segment"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "مقطع المنحنى"
 type: docs
 weight: 10
@@ -124,7 +124,7 @@ public void setCurve(Curve value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Curve](../../com.aspose.threed/curve) | القيمة الجديدة |
+| value | [Curve](../../com.aspose.threed/curve) | قيمة جديدة |
 
 ### setSameDirection(boolean value) {#setSameDirection-boolean-}
 ```
@@ -137,7 +137,7 @@ public void setSameDirection(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

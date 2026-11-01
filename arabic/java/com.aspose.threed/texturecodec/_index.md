@@ -1,7 +1,7 @@
 ---
 title: "TextureCodec"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "فئة لإدارة المشفرات وفك التشفير للقوام."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "فئة لإدارة المشفرات والمفككات للقوام."
 type: docs
 weight: 186
 url: /ar/java/com.aspose.threed/texturecodec/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureCodec
 ```
 
-فئة لإدارة المشفرات وفك التشفير للقوام.
+فئة لإدارة المشفرات والمفككات للقوام.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -23,7 +23,7 @@ public class TextureCodec
 
 | طريقة | الوصف |
 | --- | --- |
-| [decode(Stream stream, boolean reverseY)](#decode-com.aspose.threed.Stream-boolean-) | فك تشفير بيانات القوام من الدفق |
+| [decode(Stream stream, boolean reverseY)](#decode-com.aspose.threed.Stream-boolean-) | فك ترميز بيانات القوام من الدفق |
 | [encode(TextureData texture, Stream stream, String format)](#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-java.lang.String-) | ترميز بيانات القوام إلى الدفق باستخدام الصيغة المحددة |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -31,7 +31,7 @@ public class TextureCodec
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [registerCodec(ITextureCodec codec)](#registerCodec-com.aspose.threed.ITextureCodec-) | تسجيل مجموعة من مشفّرات ومفكّكات القوام |
+| [registerCodec(ITextureCodec codec)](#registerCodec-com.aspose.threed.ITextureCodec-) | تسجيل مجموعة من مشفرات ومفككات القوام |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public static TextureData decode(Stream stream, boolean reverseY)
 ```
 
 
-فك تشفير بيانات القوام من الدفق
+فك ترميز بيانات القوام من الدفق
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -69,9 +69,9 @@ public static void encode(TextureData texture, Stream stream, String format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| texture | [TextureData](../../com.aspose.threed/texturedata) | الملمس المراد ترميزه |
+| texture | [TextureData](../../com.aspose.threed/texturedata) | الملمس الذي سيتم ترميزه |
 | stream | [Stream](../../com.aspose.threed/stream) | دفق الإخراج |
-| تنسيق | java.lang.String | تنسيق الصورة للبيانات المشفرة، مثل png/jpg |
+| الصيغة | java.lang.String | تنسيق الصورة للبيانات المرمزة، مثل png/jpg |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -140,7 +140,7 @@ public static void registerCodec(ITextureCodec codec)
 ```
 
 
-تسجيل مجموعة من مشفّرات ومفكّكات القوام
+تسجيل مجموعة من مشفرات ومفككات القوام
 
 **Parameters:**
 | معامل | نوع | الوصف |

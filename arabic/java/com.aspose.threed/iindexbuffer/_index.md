@@ -1,6 +1,6 @@
 ---
 title: "IIndexBuffer"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "مخزن الفهرس يصف الهندسة المستخدمة في أنابيب التصيير."
 type: docs
 weight: 242
@@ -18,18 +18,18 @@ public interface IIndexBuffer extends IBuffer
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCount()](#getCount--) | الحصول على عدد الفهارس في هذا buffer. |
-| [getIndexDataType()](#getIndexDataType--) | الحصول على نوع البيانات لكل عنصر. |
+| [getCount()](#getCount--) | يحصل على عدد الفهارس في هذا المخزن المؤقت. |
+| [getIndexDataType()](#getIndexDataType--) | يحصل على نوع البيانات لكل عنصر. |
 | [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | تحميل بيانات الفهارس من [TriMesh](../../com.aspose.threed/trimesh) |
-| [loadData(int[] indices)](#loadData-int---) | تحميل بيانات المؤشر |
-| [loadData(short[] indices)](#loadData-short---) | تحميل بيانات المؤشر |
+| [loadData(int[] indices)](#loadData-int---) | تحميل بيانات الفهارس |
+| [loadData(short[] indices)](#loadData-short---) | تحميل بيانات الفهارس |
 ### getCount() {#getCount--}
 ```
 public abstract int getCount()
 ```
 
 
-الحصول على عدد الفهارس في هذا buffer.
+يحصل على عدد الفهارس في هذا المخزن المؤقت.
 
 **Returns:**
 int - عدد الفهارس في هذا المخزن المؤقت.
@@ -39,7 +39,7 @@ public abstract IndexDataType getIndexDataType()
 ```
 
 
-الحصول على نوع البيانات لكل عنصر.
+يحصل على نوع البيانات لكل عنصر.
 
 **Returns:**
 [IndexDataType](../../com.aspose.threed/indexdatatype) - the data type of each element.
@@ -62,12 +62,12 @@ public abstract void loadData(int[] indices)
 ```
 
 
-تحميل بيانات المؤشر
+تحميل بيانات الفهارس
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| indices | int[] |  |
+| المؤشرات | int[] |  |
 
 ### loadData(short[] indices) {#loadData-short---}
 ```
@@ -75,10 +75,10 @@ public abstract void loadData(short[] indices)
 ```
 
 
-تحميل بيانات المؤشر
+تحميل بيانات الفهارس
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| indices | short[] |  |
+| المؤشرات | short[] |  |
 

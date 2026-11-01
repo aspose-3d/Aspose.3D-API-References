@@ -1,7 +1,7 @@
 ---
 title: "TextureFilter"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "خيارات التصفية أثناء أخذ عينات القوام."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "خيارات الفلترة أثناء أخذ عينات القوام."
 type: docs
 weight: 305
 url: /ar/java/com.aspose.threed/texturefilter/
@@ -13,12 +13,12 @@ java.lang.Object, java.lang.Enum
 public enum TextureFilter extends Enum<TextureFilter>
 ```
 
-خيارات التصفية أثناء أخذ عينات القوام.
+خيارات الفلترة أثناء أخذ عينات القوام.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [ANISOTROPIC](#ANISOTROPIC) | استخدم الاستيفاء المتناظري للعينات، يُستخدم هذا فقط بواسطة مرشح التصغير. |
+| [ANISOTROPIC](#ANISOTROPIC) | استخدم الاستيفاء غير المتساوي للعينات، يُستخدم هذا فقط بواسطة مرشح التصغير. |
 | [LINEAR](#LINEAR) | استخدم الاستيفاء الخطي للعينات |
 | [NONE](#NONE) | بدون تصغير، يُستخدم هذا فقط بواسطة مرشح التصغير. |
 | [POINT](#POINT) | استخدم أخذ عينات نقطية |
@@ -49,7 +49,7 @@ public static final TextureFilter ANISOTROPIC
 ```
 
 
-استخدم الاستيفاء المتناظري للعينات، يُستخدم هذا فقط بواسطة مرشح التصغير.
+استخدم الاستيفاء غير المتساوي للعينات، يُستخدم هذا فقط بواسطة مرشح التصغير.
 
 ### LINEAR {#LINEAR}
 ```

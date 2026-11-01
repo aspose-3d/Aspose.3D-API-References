@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.EnumValue"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تعريف قيمة نوع التعداد."
 type: docs
 weight: 12
@@ -18,19 +18,19 @@ public static class StructuralMetadata.EnumValue
 
 | منشئ | الوصف |
 | --- | --- |
-| [EnumValue(String name, int value)](#EnumValue-java.lang.String-int-) | إنشاء قيمة enum. |
+| [EnumValue(String name, int value)](#EnumValue-java.lang.String-int-) | إنشاء قيمة تعداد. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | اسم قيمة نوع الـenum |
-| [getValue()](#getValue--) | قيمة قيمة نوع الـenum |
+| [getName()](#getName--) | اسم قيمة نوع التعداد |
+| [getValue()](#getValue--) | قيمة قيمة نوع التعداد |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | يحصل على تمثيل النصي لهذه النسخة. |
+| [toString()](#toString--) | يحصل على تمثيل النص لهذه المثيلة. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -40,13 +40,13 @@ public EnumValue(String name, int value)
 ```
 
 
-إنشاء قيمة enum.
+إنشاء قيمة تعداد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم القيمة |
-| القيمة | int | القيمة |
+| قيمة | int | القيمة |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -79,20 +79,20 @@ public String getName()
 ```
 
 
-اسم قيمة نوع الـenum
+اسم قيمة نوع التعداد
 
 **Returns:**
-java.lang.String - اسم قيمة نوع الـenum
+java.lang.String - اسم قيمة نوع التعداد
 ### getValue() {#getValue--}
 ```
 public int getValue()
 ```
 
 
-قيمة قيمة نوع الـenum
+قيمة قيمة نوع التعداد
 
 **Returns:**
-int - قيمة قيمة نوع الـenum
+int - قيمة قيمة نوع التعداد
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -125,7 +125,7 @@ public String toString()
 ```
 
 
-يحصل على تمثيل النصي لهذه النسخة.
+يحصل على تمثيل النص لهذه المثيلة.
 
 **Returns:**
 java.lang.String

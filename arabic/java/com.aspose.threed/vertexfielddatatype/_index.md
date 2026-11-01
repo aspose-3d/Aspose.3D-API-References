@@ -1,6 +1,6 @@
 ---
 title: "VertexFieldDataType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "نوع بيانات حقول القمة"
 type: docs
 weight: 228
@@ -13,7 +13,7 @@ java.lang.Object
 public final class VertexFieldDataType
 ```
 
-نوع بيانات حقل الرأس
+نوع بيانات حقل القمة
 ## المنشئات
 
 | منشئ | الوصف |

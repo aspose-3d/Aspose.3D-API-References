@@ -1,7 +1,7 @@
 ---
 title: "BooleanOperator"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يتيح لك عامل Boolean تطبيق عملية منطقية على مثيلين."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "المعامل البولياني يتيح لك تطبيق عملية بوليانية على كائنين."
 type: docs
 weight: 23
 url: /ar/java/com.aspose.threed/booleanoperator/
@@ -16,13 +16,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class BooleanOperator extends Entity implements IMeshConvertible
 ```
 
-المعامل البولياني يسمح لك بتطبيق عملية بوليانية على مثيلين من [IMeshConvertible](../../com.aspose.threed/imeshconvertible).
+يتيح لك عامل Boolean تطبيق عملية Boolean على مثيلين من [IMeshConvertible](../../com.aspose.threed/imeshconvertible).
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
 | [BooleanOperator()](#BooleanOperator--) | منشئ [BooleanOperator](../../com.aspose.threed/booleanoperator) |
-| [BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject second)](#BooleanOperator-com.aspose.threed.BooleanOperation-com.aspose.threed.A3DObject-com.aspose.threed.A3DObject-) | ينشئ مثيلاً جديداً من [BooleanOperator](../../com.aspose.threed/booleanoperator) مع معاملين |
+| [BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject second)](#BooleanOperator-com.aspose.threed.BooleanOperation-com.aspose.threed.A3DObject-com.aspose.threed.A3DObject-) | ينشئ مثيلًا جديدًا من [BooleanOperator](../../com.aspose.threed/booleanoperator) مع معاملين |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,30 +31,30 @@ public class BooleanOperator extends Entity implements IMeshConvertible
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [getFirst()](#getFirst--) | المعامل الأول للمعامل البولياني |
+| [getFirst()](#getFirst--) | المعامل الأول لعامل Boolean |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getOperator()](#getOperator--) | المعامل البولياني المستخدم في العملية لإنشاء شبكة النتيجة. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getOperator()](#getOperator--) | عامل Boolean المستخدم في العملية لإنشاء شبكة النتيجة. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getScene()](#getScene--) | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [getSecond()](#getSecond--) | المعامل الثاني للمعامل البولياني |
+| [getSecond()](#getSecond--) | المعامل الثاني لعامل Boolean |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [setFirst(BooleanOperand value)](#setFirst-com.aspose.threed.BooleanOperand-) | المعامل الأول للمعامل البولياني |
+| [setFirst(BooleanOperand value)](#setFirst-com.aspose.threed.BooleanOperand-) | المعامل الأول لعامل Boolean |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setOperator(BooleanOperation value)](#setOperator-com.aspose.threed.BooleanOperation-) | المعامل البولياني المستخدم في العملية لإنشاء شبكة النتيجة. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setOperator(BooleanOperation value)](#setOperator-com.aspose.threed.BooleanOperation-) | عامل Boolean المستخدم في العملية لإنشاء شبكة النتيجة. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [setSecond(BooleanOperand value)](#setSecond-com.aspose.threed.BooleanOperand-) | المعامل الثاني للمعامل البولياني |
-| [toMesh()](#toMesh--) | نفّذ العملية البوليانية على معاملين |
+| [setSecond(BooleanOperand value)](#setSecond-com.aspose.threed.BooleanOperand-) | المعامل الثاني لعامل Boolean |
+| [toMesh()](#toMesh--) | نفّذ عملية Boolean على معاملين |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,14 +73,14 @@ public BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject se
 ```
 
 
-ينشئ مثيلاً جديداً من [BooleanOperator](../../com.aspose.threed/booleanoperator) مع معاملين
+ينشئ مثيلًا جديدًا من [BooleanOperator](../../com.aspose.threed/booleanoperator) مع معاملين
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| operation | [BooleanOperation](../../com.aspose.threed/booleanoperation) | نوع العملية البوليانية |
-| first | [A3DObject](../../com.aspose.threed/a3dobject) | مثيل من [IMeshConvertible](../../com.aspose.threed/imeshconvertible), [HalfSpace](../../com.aspose.threed/halfspace) أو [Node](../../com.aspose.threed/node) |
-| second | [A3DObject](../../com.aspose.threed/a3dobject) | مثيل من [IMeshConvertible](../../com.aspose.threed/imeshconvertible), [HalfSpace](../../com.aspose.threed/halfspace) أو [Node](../../com.aspose.threed/node) |
+| operation | [BooleanOperation](../../com.aspose.threed/booleanoperation) | نوع عملية Boolean |
+| first | [A3DObject](../../com.aspose.threed/a3dobject) | مثيل من [IMeshConvertible](../../com.aspose.threed/imeshconvertible)، [HalfSpace](../../com.aspose.threed/halfspace) أو [Node](../../com.aspose.threed/node) |
+| second | [A3DObject](../../com.aspose.threed/a3dobject) | مثيل من [IMeshConvertible](../../com.aspose.threed/imeshconvertible)، [HalfSpace](../../com.aspose.threed/halfspace) أو [Node](../../com.aspose.threed/node) |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -103,7 +103,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -145,7 +145,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -165,7 +165,7 @@ public BooleanOperand getFirst()
 ```
 
 
-المعامل الأول للمعامل البولياني
+المعامل الأول لعامل Boolean
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - The first operand of the Boolean operator
@@ -185,7 +185,7 @@ public BooleanOperation getOperator()
 ```
 
 
-المعامل البولياني المستخدم في العملية لإنشاء شبكة النتيجة.
+عامل Boolean المستخدم في العملية لإنشاء شبكة النتيجة.
 
 **Returns:**
 [BooleanOperation](../../com.aspose.threed/booleanoperation) - The Boolean operator used in the operation to create the result mesh.
@@ -195,7 +195,7 @@ public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -205,10 +205,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -250,7 +250,7 @@ public BooleanOperand getSecond()
 ```
 
 
-المعامل الثاني للمعامل البولياني
+المعامل الثاني لعامل Boolean
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - The second operand of the Boolean operator
@@ -301,7 +301,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -321,7 +321,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFirst(BooleanOperand value) {#setFirst-com.aspose.threed.BooleanOperand-}
 ```
@@ -329,12 +329,12 @@ public void setFirst(BooleanOperand value)
 ```
 
 
-المعامل الأول للمعامل البولياني
+المعامل الأول لعامل Boolean
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [BooleanOperand](../../com.aspose.threed/booleanoperand) | القيمة الجديدة |
+| value | [BooleanOperand](../../com.aspose.threed/booleanoperand) | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -347,7 +347,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setOperator(BooleanOperation value) {#setOperator-com.aspose.threed.BooleanOperation-}
 ```
@@ -355,12 +355,12 @@ public void setOperator(BooleanOperation value)
 ```
 
 
-المعامل البولياني المستخدم في العملية لإنشاء شبكة النتيجة.
+عامل Boolean المستخدم في العملية لإنشاء شبكة النتيجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [BooleanOperation](../../com.aspose.threed/booleanoperation) | القيمة الجديدة |
+| value | [BooleanOperation](../../com.aspose.threed/booleanoperation) | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -368,12 +368,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -387,7 +387,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setSecond(BooleanOperand value) {#setSecond-com.aspose.threed.BooleanOperand-}
 ```
@@ -395,12 +395,12 @@ public void setSecond(BooleanOperand value)
 ```
 
 
-المعامل الثاني للمعامل البولياني
+المعامل الثاني لعامل Boolean
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [BooleanOperand](../../com.aspose.threed/booleanoperand) | القيمة الجديدة |
+| value | [BooleanOperand](../../com.aspose.threed/booleanoperand) | قيمة جديدة |
 
 ### toMesh() {#toMesh--}
 ```
@@ -408,7 +408,7 @@ public Mesh toMesh()
 ```
 
 
-نفّذ العملية البوليانية على معاملين
+نفّذ عملية Boolean على معاملين
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh)

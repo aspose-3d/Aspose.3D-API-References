@@ -1,6 +1,6 @@
 ---
 title: "ObjSaveOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "خيارات الحفظ لملف wavefront obj"
 type: docs
 weight: 116
@@ -18,43 +18,43 @@ public class ObjSaveOptions extends SaveOptions
 
 | منشئ | الوصف |
 | --- | --- |
-| [ObjSaveOptions()](#ObjSaveOptions--) | منشئ لـ [ObjSaveOptions](../../com.aspose.threed/objsaveoptions) |
+| [ObjSaveOptions()](#ObjSaveOptions--) | منشئ الفئة [ObjSaveOptions](../../com.aspose.threed/objsaveoptions) |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getApplyUnitScale()](#getApplyUnitScale--) | تطبيق [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) على الشبكة. |
-| [getAxisSystem()](#getAxisSystem--) | يحصل على نظام المحاور في الملف المُصدّر. |
+| [getAxisSystem()](#getAxisSystem--) | يحصل على نظام المحاور في الملف المُصدَّر. |
 | [getClass()](#getClass--) |  |
-| [getEnableMaterials()](#getEnableMaterials--) | يحصل على ما إذا كان يتم استيراد/تصدير المواد لكل كائن |
+| [getEnableMaterials()](#getEnableMaterials--) | يحصل على ما إذا كان سيتم استيراد/تصدير المواد لكل كائن |
 | [getEncoding()](#getEncoding--) | يحصل على الترميز الافتراضي للملفات النصية. |
 | [getExportTextures()](#getExportTextures--) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
-| [getFileName()](#getFileName--) | اسم ملف المشهد المصدر/المستورد. |
+| [getFileName()](#getFileName--) | اسم الملف للمشهد المصدر/المستورد. |
 | [getFileSystem()](#getFileSystem--) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | يحصل على فئة المصنع لنظام الملفات. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | يرجع ما إذا كان يتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء الاستيراد/التصدير. |
-| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [getPointCloud()](#getPointCloud--) | يحصل على العلامة التي تحدد ما إذا كان المصدّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false |
-| [getSerializeW()](#getSerializeW--) | يحصل على ما إذا كان يجب تسلسل المكوّن W في موضع رأس النموذج. |
-| [getVerbose()](#getVerbose--) | يحصل على ما إذا كان يتم إنشاء تعليقات لكل قسم. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | يحصل على ما إذا كان يتم عكس نظام إحداثيات نقاط التحكم/العمود أثناء الاستيراد/التصدير. |
+| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [getPointCloud()](#getPointCloud--) | يحصل على العلامة التي تحدد ما إذا كان المُصدِّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false |
+| [getSerializeW()](#getSerializeW--) | يحصل على ما إذا كان سيتم تسلسل المكوّن W في موضع رأس النموذج. |
+| [getVerbose()](#getVerbose--) | يحصل على ما إذا كان سيتم توليد تعليقات لكل قسم. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | تطبيق [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) على الشبكة. |
-| [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | يضبط نظام المحاور في الملف المُصدّر. |
-| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | يضبط ما إذا كان يتم استيراد/تصدير المواد لكل كائن. |
+| [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | يضبط نظام المحاور في الملف المُصدَّر. |
+| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | يضبط ما إذا كان سيتم استيراد/تصدير المواد لكل كائن. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | يضبط الترميز الافتراضي للملفات النصية. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | اسم ملف المشهد المصدر/المستورد. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | اسم الملف للمشهد المصدر/المستورد. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | يضبط فئة المصنع لنظام الملفات. |
-| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | يضبط ما إذا كان يتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء الاستيراد/التصدير. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [setPointCloud(boolean value)](#setPointCloud-boolean-) | يضبط العلامة التي تحدد ما إذا كان المصدّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false |
-| [setSerializeW(boolean value)](#setSerializeW-boolean-) | يضبط ما إذا كان سيتم تسلسل مكوّن W في موضع رأس النموذج. |
-| [setVerbose(boolean value)](#setVerbose-boolean-) | يضبط ما إذا كان سيتم إنشاء تعليقات لكل قسم |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | يضبط ما إذا كان يتم عكس نظام إحداثيات نقاط التحكم/العمود أثناء الاستيراد/التصدير. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [setPointCloud(boolean value)](#setPointCloud-boolean-) | يضبط العلامة التي تحدد ما إذا كان المُصدِّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false. |
+| [setSerializeW(boolean value)](#setSerializeW-boolean-) | يحدد ما إذا كان يجب تسلسل المكوّن W في موضع رأس النموذج. |
+| [setVerbose(boolean value)](#setVerbose-boolean-) | يحدد ما إذا كان يجب إنشاء تعليقات لكل قسم |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public ObjSaveOptions()
 ```
 
 
-منشئ لـ [ObjSaveOptions](../../com.aspose.threed/objsaveoptions)
+منشئ الفئة [ObjSaveOptions](../../com.aspose.threed/objsaveoptions)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -98,7 +98,7 @@ public AxisSystem getAxisSystem()
 ```
 
 
-يحصل على نظام المحاور في الملف المُصدّر.
+يحصل على نظام المحاور في الملف المُصدَّر.
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - the axis system in the exported file. **Remarks:** FlipCoordinateSystem must be enabled to utilize this feature.
@@ -118,10 +118,10 @@ public boolean getEnableMaterials()
 ```
 
 
-يحصل على ما إذا كان يتم استيراد/تصدير المواد لكل كائن
+يحصل على ما إذا كان سيتم استيراد/تصدير المواد لكل كائن
 
 **Returns:**
-منطقي - ما إذا كان سيتم استيراد/تصدير المواد لكل كائن
+منطقي - ما إذا كان يجب استيراد/تصدير المواد لكل كائن
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -158,10 +158,10 @@ public String getFileName()
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Returns:**
-java.lang.String - اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+java.lang.String - اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -202,7 +202,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -231,20 +231,20 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-يرجع ما إذا كان يتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء الاستيراد/التصدير.
+يحصل على ما إذا كان يتم عكس نظام إحداثيات نقاط التحكم/العمود أثناء الاستيراد/التصدير.
 
 **Returns:**
-منطقي - ما إذا كان يتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء الاستيراد/التصدير.
+منطقي - ما إذا كان يتم عكس نظام إحداثيات نقاط التحكم/العمود أثناء الاستيراد/التصدير.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
+java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
 
 ```
 var opt = new ObjLoadOptions();
@@ -259,30 +259,30 @@ public boolean getPointCloud()
 ```
 
 
-يحصل على العلامة التي تحدد ما إذا كان المصدّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false
+يحصل على العلامة التي تحدد ما إذا كان المُصدِّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false
 
 **Returns:**
-منطقي - العلامة التي تحدد ما إذا كان المصدّر يجب أن يصدر المشهد كسحابة نقطية (بدون بنية طوبولوجية)، القيمة الافتراضية هي false
+منطقي - العلامة التي تحدد ما إذا كان المصدّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false
 ### getSerializeW() {#getSerializeW--}
 ```
 public boolean getSerializeW()
 ```
 
 
-يحصل على ما إذا كان يجب تسلسل المكوّن W في موضع رأس النموذج.
+يحصل على ما إذا كان سيتم تسلسل المكوّن W في موضع رأس النموذج.
 
 **Returns:**
-منطقي - ما إذا كان سيتم تسلسل مكوّن W في موضع رأس النموذج.
+منطقي - ما إذا كان يجب تسلسل المكوّن W في موضع رأس النموذج.
 ### getVerbose() {#getVerbose--}
 ```
 public boolean getVerbose()
 ```
 
 
-يحصل على ما إذا كان يتم إنشاء تعليقات لكل قسم.
+يحصل على ما إذا كان سيتم توليد تعليقات لكل قسم.
 
 **Returns:**
-منطقي - ما إذا كان سيتم إنشاء تعليقات لكل قسم
+منطقي - ما إذا كان يجب إنشاء تعليقات لكل قسم
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -320,7 +320,7 @@ public void setApplyUnitScale(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setAxisSystem(AxisSystem value) {#setAxisSystem-com.aspose.threed.AxisSystem-}
 ```
@@ -328,12 +328,12 @@ public void setAxisSystem(AxisSystem value)
 ```
 
 
-يضبط نظام المحاور في الملف المُصدّر.
+يضبط نظام المحاور في الملف المُصدَّر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [AxisSystem](../../com.aspose.threed/axissystem) | القيمة الجديدة **Remarks:** يجب تمكين FlipCoordinateSystem لاستخدام هذه الميزة. |
+| value | [AxisSystem](../../com.aspose.threed/axissystem) | قيمة جديدة **Remarks:** يجب تمكين FlipCoordinateSystem لاستخدام هذه الميزة. |
 
 ### setEnableMaterials(boolean value) {#setEnableMaterials-boolean-}
 ```
@@ -341,12 +341,12 @@ public void setEnableMaterials(boolean value)
 ```
 
 
-يضبط ما إذا كان يتم استيراد/تصدير المواد لكل كائن.
+يضبط ما إذا كان سيتم استيراد/تصدير المواد لكل كائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -354,12 +354,12 @@ public void setEncoding(Charset value)
 ```
 
 
-يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يستخدم.
+يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يُستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.nio.charset.Charset | القيمة الجديدة |
+| قيمة | java.nio.charset.Charset | قيمة جديدة |
 
 ### setExportTextures(boolean value) {#setExportTextures-boolean-}
 ```
@@ -372,7 +372,7 @@ public void setExportTextures(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -380,12 +380,12 @@ public void setFileName(String value)
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
 ```
@@ -398,7 +398,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | New value **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، ولكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | قيمة جديدة **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، لكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -430,12 +430,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | New value **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | قيمة جديدة **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -462,12 +462,12 @@ public void setFlipCoordinateSystem(boolean value)
 ```
 
 
-يضبط ما إذا كان يتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء الاستيراد/التصدير.
+يضبط ما إذا كان يتم عكس نظام إحداثيات نقاط التحكم/العمود أثناء الاستيراد/التصدير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setLookupPaths(ArrayList<String> value) {#setLookupPaths-java.util.ArrayList-java.lang.String--}
 ```
@@ -475,12 +475,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.util.ArrayList<java.lang.String> | New value **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
+|  | قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
 
 ```
 var opt = new ObjLoadOptions();
@@ -496,12 +496,12 @@ public void setPointCloud(boolean value)
 ```
 
 
-يضبط العلامة التي تحدد ما إذا كان المصدّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false
+يضبط العلامة التي تحدد ما إذا كان المُصدِّر يجب أن يصدر المشهد كسحابة نقاط (بدون بنية طوبولوجية)، القيمة الافتراضية هي false.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setSerializeW(boolean value) {#setSerializeW-boolean-}
 ```
@@ -509,12 +509,12 @@ public void setSerializeW(boolean value)
 ```
 
 
-يضبط ما إذا كان سيتم تسلسل مكوّن W في موضع رأس النموذج.
+يحدد ما إذا كان يجب تسلسل المكوّن W في موضع رأس النموذج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setVerbose(boolean value) {#setVerbose-boolean-}
 ```
@@ -522,12 +522,12 @@ public void setVerbose(boolean value)
 ```
 
 
-يضبط ما إذا كان سيتم إنشاء تعليقات لكل قسم
+يحدد ما إذا كان يجب إنشاء تعليقات لكل قسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "IVertexBuffer"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يحتوي مخزن الرؤوس على بيانات رؤوس المضلعات التي سيتم إرسالها إلى خط أنابيب العرض."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يحتفظ مخزن الرؤوس ببيانات رؤوس المضلعات التي سيتم إرسالها إلى خط أنابيب العرض"
 type: docs
 weight: 259
 url: /ar/java/com.aspose.threed/ivertexbuffer/
@@ -13,7 +13,7 @@ url: /ar/java/com.aspose.threed/ivertexbuffer/
 public interface IVertexBuffer extends IBuffer
 ```
 
-يحتوي مخزن الرؤوس على بيانات رؤوس المضلعات التي سيتم إرسالها إلى خط أنابيب العرض.
+يحتفظ مخزن الرؤوس ببيانات رؤوس المضلعات التي سيتم إرسالها إلى خط أنابيب العرض
 ## الطرق
 
 | طريقة | الوصف |

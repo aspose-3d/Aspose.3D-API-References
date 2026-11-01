@@ -1,7 +1,7 @@
 ---
 title: "ShaderSet"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "برامج التظليل لكل نوع من المواد"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "برامج المُظلِل لكل نوع من المواد"
 type: docs
 weight: 166
 url: /ar/java/com.aspose.threed/shaderset/
@@ -16,7 +16,7 @@ java.io.Closeable
 public class ShaderSet implements Closeable
 ```
 
-برامج التظليل لكل نوع من المواد
+برامج المُظلِل لكل نوع من المواد
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,20 +26,20 @@ public class ShaderSet implements Closeable
 
 | طريقة | الوصف |
 | --- | --- |
-| [close()](#close--) | تخلص من هذه النسخة وأطلق جميع برامج التظليل. |
+| [close()](#close--) | إلغاء هذه النسخة وإصدار جميع برامج shader programs. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFallback()](#getFallback--) | يحصل على برنامج التظليل الاحتياطي عندما يكون برنامج التظليل المطلوب غير متوفر |
-| [getLambert()](#getLambert--) | يحصل على برنامج التظليل المستخدم لتصيير مادة لامبرت |
-| [getPbr()](#getPbr--) | يحصل على برنامج التظليل المستخدم لتصيير مادة PBR |
-| [getPhong()](#getPhong--) | يحصل على برنامج التظليل المستخدم لتصيير مادة فونغ |
+| [getFallback()](#getFallback--) | يحصل على الـ shader الاحتياطي عندما يكون الـ shader المطلوب غير متوفر |
+| [getLambert()](#getLambert--) | يحصل على الـ shader المستخدم لتصيير مادة lambert |
+| [getPbr()](#getPbr--) | يحصل على الـ shader المستخدم لتصيير مادة PBR |
+| [getPhong()](#getPhong--) | يحصل على الـ shader المستخدم لتصيير مادة phong |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFallback(ShaderProgram value)](#setFallback-com.aspose.threed.ShaderProgram-) | يضبط برنامج التظليل الاحتياطي عندما يكون برنامج التظليل المطلوب غير متوفر |
-| [setLambert(ShaderProgram value)](#setLambert-com.aspose.threed.ShaderProgram-) | يضبط برنامج التظليل المستخدم لتصيير مادة لامبرت |
-| [setPbr(ShaderProgram value)](#setPbr-com.aspose.threed.ShaderProgram-) | يضبط برنامج التظليل المستخدم لتصيير مادة PBR |
-| [setPhong(ShaderProgram value)](#setPhong-com.aspose.threed.ShaderProgram-) | يضبط برنامج التظليل المستخدم لتصيير مادة فونغ |
+| [setFallback(ShaderProgram value)](#setFallback-com.aspose.threed.ShaderProgram-) | يضبط الـ shader الاحتياطي عندما يكون الـ shader المطلوب غير متوفر |
+| [setLambert(ShaderProgram value)](#setLambert-com.aspose.threed.ShaderProgram-) | يضبط الـ shader المستخدم لتصيير مادة lambert |
+| [setPbr(ShaderProgram value)](#setPbr-com.aspose.threed.ShaderProgram-) | يضبط الـ shader المستخدم لتصيير مادة PBR |
+| [setPhong(ShaderProgram value)](#setPhong-com.aspose.threed.ShaderProgram-) | يضبط الـ shader المستخدم لتصيير مادة phong |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -58,7 +58,7 @@ public void close()
 ```
 
 
-تخلص من هذه النسخة وأطلق جميع برامج التظليل.
+إلغاء هذه النسخة وإصدار جميع برامج shader programs.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -91,7 +91,7 @@ public ShaderProgram getFallback()
 ```
 
 
-يحصل على برنامج التظليل الاحتياطي عندما يكون برنامج التظليل المطلوب غير متوفر
+يحصل على الـ shader الاحتياطي عندما يكون الـ shader المطلوب غير متوفر
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the fallback shader when required shader is unavailable
@@ -101,7 +101,7 @@ public ShaderProgram getLambert()
 ```
 
 
-يحصل على برنامج التظليل المستخدم لتصيير مادة لامبرت
+يحصل على الـ shader المستخدم لتصيير مادة lambert
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the lambert material
@@ -111,7 +111,7 @@ public ShaderProgram getPbr()
 ```
 
 
-يحصل على برنامج التظليل المستخدم لتصيير مادة PBR
+يحصل على الـ shader المستخدم لتصيير مادة PBR
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the PBR material
@@ -121,7 +121,7 @@ public ShaderProgram getPhong()
 ```
 
 
-يحصل على برنامج التظليل المستخدم لتصيير مادة فونغ
+يحصل على الـ shader المستخدم لتصيير مادة phong
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the phong material
@@ -157,12 +157,12 @@ public void setFallback(ShaderProgram value)
 ```
 
 
-يضبط برنامج التظليل الاحتياطي عندما يكون برنامج التظليل المطلوب غير متوفر
+يضبط الـ shader الاحتياطي عندما يكون الـ shader المطلوب غير متوفر
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | القيمة الجديدة |
+| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | قيمة جديدة |
 
 ### setLambert(ShaderProgram value) {#setLambert-com.aspose.threed.ShaderProgram-}
 ```
@@ -170,12 +170,12 @@ public void setLambert(ShaderProgram value)
 ```
 
 
-يضبط برنامج التظليل المستخدم لتصيير مادة لامبرت
+يضبط الـ shader المستخدم لتصيير مادة lambert
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | القيمة الجديدة |
+| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | قيمة جديدة |
 
 ### setPbr(ShaderProgram value) {#setPbr-com.aspose.threed.ShaderProgram-}
 ```
@@ -183,12 +183,12 @@ public void setPbr(ShaderProgram value)
 ```
 
 
-يضبط برنامج التظليل المستخدم لتصيير مادة PBR
+يضبط الـ shader المستخدم لتصيير مادة PBR
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | القيمة الجديدة |
+| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | قيمة جديدة |
 
 ### setPhong(ShaderProgram value) {#setPhong-com.aspose.threed.ShaderProgram-}
 ```
@@ -196,12 +196,12 @@ public void setPhong(ShaderProgram value)
 ```
 
 
-يضبط برنامج التظليل المستخدم لتصيير مادة فونغ
+يضبط الـ shader المستخدم لتصيير مادة phong
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | القيمة الجديدة |
+| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

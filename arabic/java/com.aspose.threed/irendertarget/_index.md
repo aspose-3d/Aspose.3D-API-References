@@ -1,6 +1,6 @@
 ---
 title: "IRenderTarget"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الواجهة الأساسية لهدف التصيير"
 type: docs
 weight: 249
@@ -23,7 +23,7 @@ public interface IRenderTarget extends Closeable
 | [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | إنشاء نافذة عرض مع لون خلفية محدد والموضع/الحجم في منظور الكاميرا المحدد. |
 | [getSize()](#getSize--) | يحصل على حجم هدف العرض. |
 | [getViewports()](#getViewports--) | يحصل على جميع نوافذ العرض المرتبطة بهذا هدف العرض. |
-| [setSize(Vector2 value)](#setSize-com.aspose.threed.Vector2-) | يضبط حجم هدف العرض. |
+| [setSize(Vector2 value)](#setSize-com.aspose.threed.Vector2-) | يحدد حجم هدف العرض. |
 ### createViewport(Camera camera) {#createViewport-com.aspose.threed.Camera-}
 ```
 public abstract Viewport createViewport(Camera camera)
@@ -51,7 +51,7 @@ public abstract Viewport createViewport(Camera camera, RelativeRectangle rect)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | camera | [Camera](../../com.aspose.threed/camera) | الكاميرا |
-| rect | [RelativeRectangle](../../com.aspose.threed/relativerectangle) | الموضع والحجم للنافذة العرض |
+| rect | [RelativeRectangle](../../com.aspose.threed/relativerectangle) | الموضع والحجم لنافذة العرض |
 
 **Returns:**
 [Viewport](../../com.aspose.threed/viewport)
@@ -68,7 +68,7 @@ public abstract Viewport createViewport(Camera camera, Vector3 backgroundColor, 
 | --- | --- | --- |
 | camera | [Camera](../../com.aspose.threed/camera) | الكاميرا |
 | backgroundColor | [Vector3](../../com.aspose.threed/vector3) | خلفية نافذة العرض |
-| rect | [RelativeRectangle](../../com.aspose.threed/relativerectangle) | الموضع والحجم للنافذة العرض |
+| rect | [RelativeRectangle](../../com.aspose.threed/relativerectangle) | الموضع والحجم لنافذة العرض |
 
 **Returns:**
 [Viewport](../../com.aspose.threed/viewport)
@@ -98,10 +98,10 @@ public abstract void setSize(Vector2 value)
 ```
 
 
-يضبط حجم هدف العرض.
+يحدد حجم هدف العرض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 

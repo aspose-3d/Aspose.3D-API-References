@@ -1,6 +1,6 @@
 ---
 title: "المشهد"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: 
 type: docs
 weight: 161
@@ -16,9 +16,9 @@ public class Scene extends SceneObject
 
 | منشئ | الوصف |
 | --- | --- |
-| [Scene(Entity entity)](#Scene-com.aspose.threed.Entity-) | يُنشئ مثيلاً جديداً لفئة [Scene](../../com.aspose.threed/scene) مع كيان مرفق بعقدة جديدة. |
-| [Scene(Scene parentScene, String name)](#Scene-com.aspose.threed.Scene-java.lang.String-) | يُنشئ مثيلاً جديداً لفئة [Scene](../../com.aspose.threed/scene) كمشهد فرعي. |
-| [Scene()](#Scene--) | يُنشئ مثيلاً جديداً لفئة [Scene](../../com.aspose.threed/scene). |
+| [Scene(Entity entity)](#Scene-com.aspose.threed.Entity-) | يُنشئ مثلاً جديداً من الفئة [Scene](../../com.aspose.threed/scene) مع كيان مُرفق بعقدة جديدة. |
+| [Scene(Scene parentScene, String name)](#Scene-com.aspose.threed.Scene-java.lang.String-) | يُنشئ مثلاً جديداً من الفئة [Scene](../../com.aspose.threed/scene) كمشهد فرعي. |
+| [Scene()](#Scene--) | يُنشئ مثلاً جديداً من الفئة [Scene](../../com.aspose.threed/scene). |
 ## الحقول
 
 | حقل | الوصف |
@@ -29,7 +29,7 @@ public class Scene extends SceneObject
 | طريقة | الوصف |
 | --- | --- |
 | [clear()](#clear--) | يمسح محتوى المشهد ويستعيد الإعدادات الافتراضية. |
-| [createAnimationClip(String name)](#createAnimationClip-java.lang.String-) | دالة مختصرة لإنشاء وتسجيل [AnimationClip](../../com.aspose.threed/animationclip) سيتم تعيين أول [AnimationClip](../../com.aspose.threed/animationclip) إلى [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip) |
+| [createAnimationClip(String name)](#createAnimationClip-java.lang.String-) | دالة مختصرة لإنشاء وتسجيل [AnimationClip](../../com.aspose.threed/animationclip) سيُعيّن أول [AnimationClip](../../com.aspose.threed/animationclip) إلى [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip) |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [fromFile(String fileName)](#fromFile-java.lang.String-) | يفتح المشهد من المسار المحدد |
@@ -52,10 +52,10 @@ public class Scene extends SceneObject
 | [fromStream(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | يفتح المشهد من الدفق المحدد باستخدام تكوين الإدخال/الإخراج المحدد. |
 | [getAnimationClip(String name)](#getAnimationClip-java.lang.String-) | يحصل على [AnimationClip](../../com.aspose.threed/animationclip) مسمى |
 | [getAnimationClips()](#getAnimationClips--) | يحصل على جميع [AnimationClip](../../com.aspose.threed/animationclip) المعرفة في المشهد. |
-| [getAssetInfo()](#getAssetInfo--) | يحصل على معلومات الأصل من المستوى الأعلى |
+| [getAssetInfo()](#getAssetInfo--) | يحصل على معلومات الأصل ذات المستوى الأعلى |
 | [getClass()](#getClass--) |  |
 | [getCurrentAnimationClip()](#getCurrentAnimationClip--) | يحصل على [AnimationClip](../../com.aspose.threed/animationclip) النشط |
-| [getLibrary()](#getLibrary--) | يمكن تعريف الكائنات التي لا تُستخدم مباشرة في هيكل المشهد في المكتبة. |
+| [getLibrary()](#getLibrary--) | يمكن تعريف الكائنات التي لا تُستخدم مباشرة في هيكلية المشهد في المكتبة. |
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getPoses()](#getPoses--) | يحصل على جميع [Pose](../../com.aspose.threed/pose) المستخدمة في هذا المشهد. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
@@ -85,12 +85,12 @@ public class Scene extends SceneObject
 | [open(String fileName, LoadOptions options)](#open-java.lang.String-com.aspose.threed.LoadOptions-) | يفتح المشهد من المسار المحدد باستخدام تنسيق الملف المحدد. |
 | [open(String fileName, LoadOptions options, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | يفتح المشهد من المسار المحدد باستخدام تنسيق الملف المحدد. |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [render(Camera camera, TextureData bitmap)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-) | يُصوِّر المشهد إلى صورة نقطية من منظور الكاميرا المحددة. |
-| [render(Camera camera, TextureData bitmap, ImageRenderOptions options)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-) | يُصوِّر المشهد إلى صورة نقطية من منظور الكاميرا المحددة. |
-| [render(Camera camera, String fileName)](#render-com.aspose.threed.Camera-java.lang.String-) | يُصوِّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة. |
-| [render(Camera camera, String fileName, Vector2 size, String format)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-) | يُصوِّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة. |
-| [render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-) | يُصوِّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [render(Camera camera, TextureData bitmap)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-) | يرسم المشهد إلى صورة bitmap من منظور الكاميرا المحددة. |
+| [render(Camera camera, TextureData bitmap, ImageRenderOptions options)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-) | يرسم المشهد إلى صورة bitmap من منظور الكاميرا المحددة. |
+| [render(Camera camera, String fileName)](#render-com.aspose.threed.Camera-java.lang.String-) | يرسم المشهد إلى ملف خارجي من منظور الكاميرا المحددة. |
+| [render(Camera camera, String fileName, Vector2 size, String format)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-) | يرسم المشهد إلى ملف خارجي من منظور الكاميرا المحددة. |
+| [render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-) | يرسم المشهد إلى ملف خارجي من منظور الكاميرا المحددة. |
 | [save(Stream stream, FileFormat format)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد. |
 | [save(Stream stream, FileFormat format, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد. |
 | [save(Stream stream, SaveOptions options)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-) | يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد. |
@@ -104,8 +104,8 @@ public class Scene extends SceneObject
 | [save(String fileName, FileFormat format, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | يحفظ المشهد إلى المسار المحدد باستخدام تنسيق الملف المحدد. |
 | [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.threed.SaveOptions-) | يحفظ المشهد إلى المسار المحدد باستخدام تنسيق الملف المحدد. |
 | [save(String fileName, SaveOptions options, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | يحفظ المشهد إلى المسار المحدد باستخدام تنسيق الملف المحدد. |
-| [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | يضبط معلومات الأصل ذات المستوى الأعلى |
-| [setCurrentAnimationClip(AnimationClip value)](#setCurrentAnimationClip-com.aspose.threed.AnimationClip-) | يضبط الـ [AnimationClip](../../com.aspose.threed/animationclip) النشط |
+| [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | يضبط معلومات الأصل من المستوى الأعلى. |
+| [setCurrentAnimationClip(AnimationClip value)](#setCurrentAnimationClip-com.aspose.threed.AnimationClip-) | يضبط الـ[AnimationClip](../../com.aspose.threed/animationclip) النشط. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
@@ -118,12 +118,12 @@ public Scene(Entity entity)
 ```
 
 
-يُنشئ مثيلاً جديداً لفئة [Scene](../../com.aspose.threed/scene) مع كيان مرفق بعقدة جديدة.
+يُنشئ مثلاً جديداً من الفئة [Scene](../../com.aspose.threed/scene) مع كيان مُرفق بعقدة جديدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | entity | [Entity](../../com.aspose.threed/entity) | الكيان الأولي الذي تم ربطه بالمشهد **مثال:** الشيفرة التالية توضح كيفية إنشاء [getScene](../../com.aspose.threed/scene\#getScene) مباشرةً من [Entity](../../com.aspose.threed/entity): |
+|  | entity | [Entity](../../com.aspose.threed/entity) | الكيان الأولي الذي يتم ربطه بالمشهد **مثال:** الكود التالي يوضح كيفية إنشاء [getScene](../../com.aspose.threed/scene\#getScene) مباشرةً من [Entity](../../com.aspose.threed/entity): |
 
 ```
 var scene = new Scene(new Box());
@@ -135,7 +135,7 @@ public Scene(Scene parentScene, String name)
 ```
 
 
-يُنشئ مثيلاً جديداً لفئة [Scene](../../com.aspose.threed/scene) كمشهد فرعي.
+يُنشئ مثلاً جديداً من الفئة [Scene](../../com.aspose.threed/scene) كمشهد فرعي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -149,7 +149,7 @@ public Scene()
 ```
 
 
-يُنشئ مثيلاً جديداً لفئة [Scene](../../com.aspose.threed/scene).
+يُنشئ مثلاً جديداً من الفئة [Scene](../../com.aspose.threed/scene).
 
 ### VERSION {#VERSION}
 ```
@@ -173,7 +173,7 @@ public AnimationClip createAnimationClip(String name)
 ```
 
 
-دالة مختصرة لإنشاء وتسجيل [AnimationClip](../../com.aspose.threed/animationclip) سيتم تعيين أول [AnimationClip](../../com.aspose.threed/animationclip) إلى [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip)
+دالة مختصرة لإنشاء وتسجيل [AnimationClip](../../com.aspose.threed/animationclip) سيُعيّن أول [AnimationClip](../../com.aspose.threed/animationclip) إلى [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -203,7 +203,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -417,7 +417,7 @@ public static Scene fromStream(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. **مثال:** الشيفرة التالية توضح كيفية إنشاء مشهد من دفق مع مصدر رمز إلغاء |
+|  | stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. **مثال:** الكود التالي يوضح كيفية إنشاء مشهد من دفق مع مصدر رمز إلغاء |
 
 ```
 var cts = new Cancellation();    
@@ -439,8 +439,8 @@ public static Scene fromStream(InputStream stream, Cancellation cancellationToke
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** الشيفرة التالية توضح كيفية إنشاء مشهد من دفق مع مصدر رمز إلغاء |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** الكود التالي يوضح كيفية إنشاء مشهد من دفق مع مصدر رمز إلغاء |
 
 ```
 var cts = new Cancellation();    
@@ -462,8 +462,8 @@ public static Scene fromStream(InputStream stream, FileFormat format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-|  | format | [FileFormat](../../com.aspose.threed/fileformat) | تنسيق الملف. **مثال:** الشيفرة التالية توضح كيفية إنشاء مشهد من دفق |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+|  | format | [FileFormat](../../com.aspose.threed/fileformat) | تنسيق الملف. **مثال:** الكود التالي يوضح كيفية إنشاء مشهد من دفق |
 
 ```
 try(InputStream input = new FileInputStream("input.fbx")) {    
@@ -484,9 +484,9 @@ public static Scene fromStream(InputStream stream, FileFormat format, Cancellati
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | تنسيق الملف. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** الشيفرة التالية توضح كيفية إنشاء مشهد من دفق |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** الكود التالي يوضح كيفية إنشاء مشهد من دفق |
 
 ```
 try(InputStream input = new FileInputStream("input.fbx")) {    
@@ -507,8 +507,8 @@ public static Scene fromStream(InputStream stream, LoadOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | إعدادات أكثر تفصيلاً لفتح الدفق. **مثال:** الشيفرة التالية توضح كيفية إنشاء مشهد من دفق مع خيارات التحميل |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | إعدادات أكثر تفصيلاً لفتح الدفق. **مثال:** الكود التالي يوضح كيفية إنشاء مشهد من دفق مع خيارات التحميل |
 
 ```
 var opts = new FbxLoadOptions();    
@@ -531,9 +531,9 @@ public static Scene fromStream(InputStream stream, LoadOptions options, Cancella
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | options | [LoadOptions](../../com.aspose.threed/loadoptions) | إعدادات أكثر تفصيلاً لفتح الدفق. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** الشيفرة التالية توضح كيفية إنشاء مشهد من دفق مع خيارات التحميل |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** الكود التالي يوضح كيفية إنشاء مشهد من دفق مع خيارات التحميل |
 
 ```
 var opts = new FbxLoadOptions();    
@@ -556,7 +556,7 @@ public AnimationClip getAnimationClip(String name)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| name | java.lang.String | اسم الـ [AnimationClip](../../com.aspose.threed/animationclip) للبحث عنه |
+| name | java.lang.String | اسم الـ[AnimationClip](../../com.aspose.threed/animationclip) للبحث عنه |
 
 **Returns:**
 [AnimationClip](../../com.aspose.threed/animationclip) - Returned AnimationClip
@@ -569,14 +569,14 @@ public List<AnimationClip> getAnimationClips()
 يحصل على جميع [AnimationClip](../../com.aspose.threed/animationclip) المعرفة في المشهد.
 
 **Returns:**
-java.util.List<com.aspose.threed.AnimationClip> - جميع الـ [AnimationClip](../../com.aspose.threed/animationclip) المعرفة في المشهد.
+java.util.List<com.aspose.threed.AnimationClip> - جميع الـ[AnimationClip](../../com.aspose.threed/animationclip) المعرفة في المشهد.
 ### getAssetInfo() {#getAssetInfo--}
 ```
 public AssetInfo getAssetInfo()
 ```
 
 
-يحصل على معلومات الأصل من المستوى الأعلى
+يحصل على معلومات الأصل ذات المستوى الأعلى
 
 **Returns:**
 [AssetInfo](../../com.aspose.threed/assetinfo) - the top-level asset information **Example:** The following code shows how to read the application information from a FBX file:
@@ -636,7 +636,7 @@ public Collection<Pose> getPoses()
 يحصل على جميع [Pose](../../com.aspose.threed/pose) المستخدمة في هذا المشهد.
 
 **Returns:**
-java.util.Collection<com.aspose.threed.Pose> - جميع الـ [Pose](../../com.aspose.threed/pose) المستخدمة في هذا المشهد.
+java.util.Collection<com.aspose.threed.Pose> - جميع الـ[Pose](../../com.aspose.threed/pose) المستخدمة في هذا المشهد.
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -820,7 +820,7 @@ public void open(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. **مثال:** الشيفرة التالية توضح كيفية فتح مشهد من دفق |
+|  | stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. **مثال:** الكود التالي يوضح كيفية فتح مشهد من دفق |
 
 ```
 var scene = new Scene();    
@@ -840,8 +840,8 @@ public void open(InputStream stream, Cancellation cancellationToken)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** يوضح الكود التالي كيفية فتح مشهد من تدفق باستخدام رمز الإلغاء |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **Example:** يوضح الكود التالي كيفية فتح مشهد من تدفق باستخدام رمز الإلغاء |
 
 ```
 var scene = new Scene();    
@@ -862,8 +862,8 @@ public void open(InputStream stream, FileFormat format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-|  | format | [FileFormat](../../com.aspose.threed/fileformat) | تنسيق الملف. **مثال:** يوضح الكود التالي كيفية فتح مشهد من تدفق |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+|  | format | [FileFormat](../../com.aspose.threed/fileformat) | تنسيق الملف. **Example:** يوضح الكود التالي كيفية فتح مشهد من تدفق |
 
 ```
 Scene scene = new Scene();    
@@ -883,9 +883,9 @@ public void open(InputStream stream, FileFormat format, Cancellation cancellatio
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | تنسيق الملف. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** يوضح الكود التالي كيفية فتح مشهد من تدفق |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **Example:** يوضح الكود التالي كيفية فتح مشهد من تدفق |
 
 ```
 Scene scene = new Scene();    
@@ -905,8 +905,8 @@ public void open(InputStream stream, LoadOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | إعدادات أكثر تفصيلاً لفتح التدفق. **مثال:** يوضح الكود التالي كيفية فتح مشهد من تدفق مع خيارات تحميل إضافية |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | إعدادات تفصيلية أكثر لفتح التدفق. **Example:** يوضح الكود التالي كيفية فتح مشهد من تدفق مع خيارات تحميل إضافية |
 
 ```
 Scene scene = new Scene();    
@@ -928,9 +928,9 @@ public void open(InputStream stream, LoadOptions options, Cancellation cancellat
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| stream | java.io.InputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | options | [LoadOptions](../../com.aspose.threed/loadoptions) | إعدادات أكثر تفصيلاً لفتح الدفق. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **مثال:** يوضح الكود التالي كيفية فتح مشهد من تدفق مع خيارات تحميل إضافية |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة التحميل **Example:** يوضح الكود التالي كيفية فتح مشهد من تدفق مع خيارات تحميل إضافية |
 
 ```
 Scene scene = new Scene();    
@@ -1047,7 +1047,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1062,12 +1062,12 @@ public void render(Camera camera, TextureData bitmap)
 ```
 
 
-يُصوِّر المشهد إلى صورة نقطية من منظور الكاميرا المحددة.
+يرسم المشهد إلى صورة bitmap من منظور الكاميرا المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | من أي منظور للكاميرا يتم عرض المشهد |
+| camera | [Camera](../../com.aspose.threed/camera) | من منظور أي كاميرا يتم عرض المشهد |
 | bitmap | [TextureData](../../com.aspose.threed/texturedata) | هدف النتيجة المعروضة |
 
 ### render(Camera camera, TextureData bitmap, ImageRenderOptions options) {#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-}
@@ -1076,12 +1076,12 @@ public void render(Camera camera, TextureData bitmap, ImageRenderOptions options
 ```
 
 
-يُصوِّر المشهد إلى صورة نقطية من منظور الكاميرا المحددة.
+يرسم المشهد إلى صورة bitmap من منظور الكاميرا المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | من أي منظور للكاميرا يتم عرض المشهد |
+| camera | [Camera](../../com.aspose.threed/camera) | من منظور أي كاميرا يتم عرض المشهد |
 | bitmap | [TextureData](../../com.aspose.threed/texturedata) | هدف النتيجة المعروضة |
 | options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | الخيار لتخصيص بعض الإعدادات الداخلية. |
 
@@ -1096,7 +1096,7 @@ public void render(Camera camera, String fileName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | من أي منظور للكاميرا يتم عرض المشهد |
+| camera | [Camera](../../com.aspose.threed/camera) | من منظور أي كاميرا يتم عرض المشهد |
 | fileName | java.lang.String | اسم ملف الإخراج |
 
 ### render(Camera camera, String fileName, Vector2 size, String format) {#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-}
@@ -1105,15 +1105,15 @@ public void render(Camera camera, String fileName, Vector2 size, String format)
 ```
 
 
-يُصوِّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة.
+يرسم المشهد إلى ملف خارجي من منظور الكاميرا المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | من أي منظور للكاميرا يتم عرض المشهد |
+| camera | [Camera](../../com.aspose.threed/camera) | من منظور أي كاميرا يتم عرض المشهد |
 | fileName | java.lang.String | اسم ملف الإخراج |
 | size | [Vector2](../../com.aspose.threed/vector2) | حجم الصورة المعروضة النهائية |
-| تنسيق | java.lang.String | تنسيق صورة ملف الإخراج |
+| الصيغة | java.lang.String | تنسيق صورة ملف الإخراج |
 
 ### render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options) {#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-}
 ```
@@ -1121,15 +1121,15 @@ public void render(Camera camera, String fileName, Vector2 size, String format, 
 ```
 
 
-يُصوِّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة.
+يرسم المشهد إلى ملف خارجي من منظور الكاميرا المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | من أي منظور للكاميرا يتم عرض المشهد |
+| camera | [Camera](../../com.aspose.threed/camera) | من منظور أي كاميرا يتم عرض المشهد |
 | fileName | java.lang.String | اسم ملف الإخراج |
 | size | [Vector2](../../com.aspose.threed/vector2) | حجم الصورة المعروضة النهائية |
-| تنسيق | java.lang.String | تنسيق صورة ملف الإخراج |
+| الصيغة | java.lang.String | تنسيق صورة ملف الإخراج |
 | options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | الخيار لتخصيص بعض الإعدادات الداخلية. |
 
 ### save(Stream stream, FileFormat format) {#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-}
@@ -1173,7 +1173,7 @@ public void save(Stream stream, SaveOptions options)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | stream | [Stream](../../com.aspose.threed/stream) | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات أكثر تفصيلاً لحفظ التدفق. |
+| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات تفصيلية أكثر لحفظ التدفق. |
 
 ### save(Stream stream, SaveOptions options, Cancellation cancellationToken) {#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-}
 ```
@@ -1187,7 +1187,7 @@ public void save(Stream stream, SaveOptions options, Cancellation cancellationTo
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | stream | [Stream](../../com.aspose.threed/stream) | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات أكثر تفصيلاً لحفظ التدفق. |
+| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات تفصيلية أكثر لحفظ التدفق. |
 | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة الحفظ |
 
 ### save(OutputStream stream, FileFormat format) {#save-java.io.OutputStream-com.aspose.threed.FileFormat-}
@@ -1201,8 +1201,8 @@ public void save(OutputStream stream, FileFormat format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.OutputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-|  | format | [FileFormat](../../com.aspose.threed/fileformat) | التنسيق. **مثال:** يوضح الكود التالي كيفية حفظ المشهد |
+| stream | java.io.OutputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+|  | format | [FileFormat](../../com.aspose.threed/fileformat) | التنسيق. **Example:** يوضح الكود التالي كيفية حفظ المشهد |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1223,9 +1223,9 @@ public void save(OutputStream stream, FileFormat format, Cancellation cancellati
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.OutputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| stream | java.io.OutputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | التنسيق. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة الحفظ **مثال:** يوضح الكود التالي كيفية حفظ المشهد |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة الحفظ **Example:** يوضح الكود التالي كيفية حفظ المشهد |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1247,8 +1247,8 @@ public void save(OutputStream stream, SaveOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.OutputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-|  | options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات أكثر تفصيلاً لحفظ التدفق. **مثال:** يوضح الكود التالي كيفية حفظ المشهد |
+| stream | java.io.OutputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+|  | options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات تفصيلية أكثر لحفظ التدفق. **Example:** يوضح الكود التالي كيفية حفظ المشهد |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1271,9 +1271,9 @@ public void save(OutputStream stream, SaveOptions options, Cancellation cancella
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.OutputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات أكثر تفصيلاً لحفظ التدفق. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة الحفظ **مثال:** يوضح الكود التالي كيفية حفظ المشهد |
+| stream | java.io.OutputStream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات تفصيلية أكثر لحفظ التدفق. |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة الحفظ **Example:** يوضح الكود التالي كيفية حفظ المشهد |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1340,7 +1340,7 @@ public void save(String fileName, SaveOptions options)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fileName | java.lang.String | اسم الملف. |
-| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات أكثر تفصيلاً لحفظ التدفق. |
+| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات تفصيلية أكثر لحفظ التدفق. |
 
 ### save(String fileName, SaveOptions options, Cancellation cancellationToken) {#save-java.lang.String-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-}
 ```
@@ -1354,7 +1354,7 @@ public void save(String fileName, SaveOptions options, Cancellation cancellation
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fileName | java.lang.String | اسم الملف. |
-| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات أكثر تفصيلاً لحفظ التدفق. |
+| options | [SaveOptions](../../com.aspose.threed/saveoptions) | إعدادات تفصيلية أكثر لحفظ التدفق. |
 | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | رمز الإلغاء لمهمة الحفظ |
 
 ### setAssetInfo(AssetInfo value) {#setAssetInfo-com.aspose.threed.AssetInfo-}
@@ -1363,12 +1363,12 @@ public void setAssetInfo(AssetInfo value)
 ```
 
 
-يضبط معلومات الأصل ذات المستوى الأعلى
+يضبط معلومات الأصل من المستوى الأعلى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [AssetInfo](../../com.aspose.threed/assetinfo) | قيمة جديدة **مثال:** يوضح الكود التالي كيفية قراءة معلومات التطبيق من ملف FBX: |
+|  | value | [AssetInfo](../../com.aspose.threed/assetinfo) | قيمة جديدة **Example:** يوضح الكود التالي كيفية قراءة معلومات التطبيق من ملف FBX: |
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -1383,12 +1383,12 @@ public void setCurrentAnimationClip(AnimationClip value)
 ```
 
 
-يضبط الـ [AnimationClip](../../com.aspose.threed/animationclip) النشط
+يضبط الـ[AnimationClip](../../com.aspose.threed/animationclip) النشط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [AnimationClip](../../com.aspose.threed/animationclip) | القيمة الجديدة |
+| value | [AnimationClip](../../com.aspose.threed/animationclip) | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -1401,7 +1401,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -1415,7 +1415,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

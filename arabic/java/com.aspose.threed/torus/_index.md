@@ -1,7 +1,7 @@
 ---
-title: "توروس"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "طوق معلمة."
+title: "Torus"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "توروس معلمات."
 type: docs
 weight: 189
 url: /ar/java/com.aspose.threed/torus/
@@ -13,15 +13,15 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Torus extends Primitive
 ```
 
-طوق معلمة.
+توروس معلمات.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [Torus()](#Torus--) | ينشئ نسخة جديدة من الفئة [Torus](../../com.aspose.threed/torus). |
-| [Torus(double radius, double tube)](#Torus-double-double-) | ينشئ نسخة جديدة من الفئة [Torus](../../com.aspose.threed/torus). |
-| [Torus(double radius, double tube, double arc)](#Torus-double-double-double-) | ينشئ نسخة جديدة من الفئة [Torus](../../com.aspose.threed/torus). |
-| [Torus(String name, double radius, double tube, int radialSegments, int tubularSegments, double arc)](#Torus-java.lang.String-double-double-int-int-double-) | ينشئ نسخة جديدة من الفئة [Torus](../../com.aspose.threed/torus). |
+| [Torus()](#Torus--) | يُنشئ مثيلًا جديدًا من الفئة [Torus](../../com.aspose.threed/torus) class. |
+| [Torus(double radius, double tube)](#Torus-double-double-) | يُنشئ مثيلًا جديدًا من الفئة [Torus](../../com.aspose.threed/torus) class. |
+| [Torus(double radius, double tube, double arc)](#Torus-double-double-double-) | يُنشئ مثيلًا جديدًا من الفئة [Torus](../../com.aspose.threed/torus) class. |
+| [Torus(String name, double radius, double tube, int radialSegments, int tubularSegments, double arc)](#Torus-java.lang.String-double-double-int-int-double-) | يُنشئ مثيلًا جديدًا من الفئة [Torus](../../com.aspose.threed/torus) class. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,36 +32,36 @@ public class Torus extends Primitive
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getCastShadows()](#getCastShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
-| [getRadialSegments()](#getRadialSegments--) | يُحصل على القطاعات الشعاعية. |
-| [getRadius()](#getRadius--) | يحصل على نصف قطر التوروس. |
+| [getRadialSegments()](#getRadialSegments--) | يحصل على القطاعات الشعاعية. |
+| [getRadius()](#getRadius--) | يحصل على نصف قطر الـ torus. |
 | [getReceiveShadows()](#getReceiveShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل. |
 | [getScene()](#getScene--) | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
 | [getTube()](#getTube--) | يحصل على نصف قطر الأنبوب. |
-| [getTubularSegments()](#getTubularSegments--) | يحصل على مقاطع الأنابيب. |
+| [getTubularSegments()](#getTubularSegments--) | يحصل على مقاطع الأنبوب. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setArc(double value)](#setArc-double-) | يضبط القوس. |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setRadialSegments(int value)](#setRadialSegments-int-) | يضبط القطاعات الشعاعية. |
-| [setRadius(double value)](#setRadius-double-) | يضبط نصف قطر التوروس. |
+| [setRadius(double value)](#setRadius-double-) | يضبط نصف قطر الـ torus. |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه استقبال الظل. |
 | [setTube(double value)](#setTube-double-) | يضبط نصف قطر الأنبوب. |
-| [setTubularSegments(int value)](#setTubularSegments-int-) | يضبط مقاطع الأنابيب. |
-| [toMesh()](#toMesh--) | تحويل الكائن الحالي إلى شبكة |
+| [setTubularSegments(int value)](#setTubularSegments-int-) | يضبط مقاطع الأنبوب. |
+| [toMesh()](#toMesh--) | حوّل الكائن الحالي إلى شبكة |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -72,7 +72,7 @@ public Torus()
 ```
 
 
-ينشئ نسخة جديدة من الفئة [Torus](../../com.aspose.threed/torus).
+يُنشئ مثيلًا جديدًا من الفئة [Torus](../../com.aspose.threed/torus) class.
 
 ### Torus(double radius, double tube) {#Torus-double-double-}
 ```
@@ -80,13 +80,13 @@ public Torus(double radius, double tube)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [Torus](../../com.aspose.threed/torus).
+يُنشئ مثيلًا جديدًا من الفئة [Torus](../../com.aspose.threed/torus) class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| radius | double | نصف قطر التوروس. |
-| أنبوب | double | نصف قطر أنبوب التوروس. |
+| radius | double | نصف قطر الـ torus. |
+| أنبوب | double | نصف قطر أنبوب الـ torus. |
 
 ### Torus(double radius, double tube, double arc) {#Torus-double-double-double-}
 ```
@@ -94,13 +94,13 @@ public Torus(double radius, double tube, double arc)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [Torus](../../com.aspose.threed/torus).
+يُنشئ مثيلًا جديدًا من الفئة [Torus](../../com.aspose.threed/torus) class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| radius | double | نصف قطر التوروس. |
-| أنبوب | double | نصف قطر أنبوب التوروس. |
+| radius | double | نصف قطر الـ torus. |
+| أنبوب | double | نصف قطر أنبوب الـ torus. |
 | قوس | double | قوس. |
 
 ### Torus(String name, double radius, double tube, int radialSegments, int tubularSegments, double arc) {#Torus-java.lang.String-double-double-int-int-double-}
@@ -109,14 +109,14 @@ public Torus(String name, double radius, double tube, int radialSegments, int tu
 ```
 
 
-ينشئ نسخة جديدة من الفئة [Torus](../../com.aspose.threed/torus).
+يُنشئ مثيلًا جديدًا من الفئة [Torus](../../com.aspose.threed/torus) class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | الاسم. |
-| radius | double | نصف قطر التوروس. |
-| أنبوب | double | نصف قطر أنبوب التوروس. |
+| radius | double | نصف قطر الـ torus. |
+| أنبوب | double | نصف قطر أنبوب الـ torus. |
 | radialSegments | int | قطاعات شعاعية. |
 | tubularSegments | int | قطاعات أنبوبية. |
 | قوس | double | قوس. |
@@ -142,7 +142,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -204,7 +204,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -234,7 +234,7 @@ public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -244,10 +244,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -279,7 +279,7 @@ public int getRadialSegments()
 ```
 
 
-يُحصل على القطاعات الشعاعية.
+يحصل على القطاعات الشعاعية.
 
 **Returns:**
 عدد صحيح - القطاعات الشعاعية.
@@ -289,10 +289,10 @@ public double getRadius()
 ```
 
 
-يحصل على نصف قطر التوروس.
+يحصل على نصف قطر الـ torus.
 
 **Returns:**
-double - نصف قطر الطُرْس.
+double - نصف قطر الطور.
 ### getReceiveShadows() {#getReceiveShadows--}
 ```
 public boolean getReceiveShadows()
@@ -302,7 +302,7 @@ public boolean getReceiveShadows()
 يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل.
 
 **Returns:**
-boolean - ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل.
+boolean - ما إذا كان هذا الشكل الهندسي يمكنه تلقي الظل.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -329,7 +329,7 @@ public int getTubularSegments()
 ```
 
 
-يحصل على مقاطع الأنابيب.
+يحصل على مقاطع الأنبوب.
 
 **Returns:**
 int - قطاعات الأنابيب.
@@ -380,7 +380,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -400,7 +400,7 @@ public void setArc(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setCastShadows(boolean value) {#setCastShadows-boolean-}
 ```
@@ -413,7 +413,7 @@ public void setCastShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -426,7 +426,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -439,7 +439,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -447,12 +447,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -466,7 +466,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setRadialSegments(int value) {#setRadialSegments-int-}
 ```
@@ -479,7 +479,7 @@ public void setRadialSegments(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setRadius(double value) {#setRadius-double-}
 ```
@@ -487,12 +487,12 @@ public void setRadius(double value)
 ```
 
 
-يضبط نصف قطر التوروس.
+يضبط نصف قطر الـ torus.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setReceiveShadows(boolean value) {#setReceiveShadows-boolean-}
 ```
@@ -505,7 +505,7 @@ public void setReceiveShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setTube(double value) {#setTube-double-}
 ```
@@ -518,7 +518,7 @@ public void setTube(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setTubularSegments(int value) {#setTubularSegments-int-}
 ```
@@ -526,12 +526,12 @@ public void setTubularSegments(int value)
 ```
 
 
-يضبط مقاطع الأنابيب.
+يضبط مقاطع الأنبوب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### toMesh() {#toMesh--}
 ```
@@ -539,7 +539,7 @@ public Mesh toMesh()
 ```
 
 
-تحويل الكائن الحالي إلى شبكة
+حوّل الكائن الحالي إلى شبكة
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

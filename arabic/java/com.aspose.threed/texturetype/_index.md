@@ -1,7 +1,7 @@
 ---
 title: "TextureType"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "نوع الـ"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "نوع"
 type: docs
 weight: 307
 url: /ar/java/com.aspose.threed/texturetype/
@@ -18,11 +18,11 @@ public enum TextureType extends Enum<TextureType>
 
 | حقل | الوصف |
 | --- | --- |
-| [ARRAY2D](#ARRAY2D) | مجموعة متعددة من القوام ثنائي الأبعاد |
-| [CUBE_MAP](#CUBE-MAP) | ملمس خريطة مكعب يحتوي على 6 قوام ثنائي الأبعاد |
-| [TEXTURE1D](#TEXTURE1D) | ملمس أحادي البعد |
-| [TEXTURE2D](#TEXTURE2D) | ملمس ثنائي البعد |
-| [TEXTURE3D](#TEXTURE3D) | ملمس ثلاثي البعد |
+| [ARRAY2D](#ARRAY2D) | مجموعة متعددة من القواميس الثنائية الأبعاد |
+| [CUBE_MAP](#CUBE-MAP) | قواميس خريطة المكعب تحتوي على 6 قواميس ثنائية الأبعاد |
+| [TEXTURE1D](#TEXTURE1D) | قواميس أحادية البعد |
+| [TEXTURE2D](#TEXTURE2D) | قواميس ثنائية الأبعاد |
+| [TEXTURE3D](#TEXTURE3D) | قواميس ثلاثية الأبعاد |
 ## الطرق
 
 | طريقة | الوصف |
@@ -50,7 +50,7 @@ public static final TextureType ARRAY2D
 ```
 
 
-مجموعة متعددة من القوام ثنائي الأبعاد
+مجموعة متعددة من القواميس الثنائية الأبعاد
 
 ### CUBE_MAP {#CUBE-MAP}
 ```
@@ -58,7 +58,7 @@ public static final TextureType CUBE_MAP
 ```
 
 
-ملمس خريطة مكعب يحتوي على 6 قوام ثنائي الأبعاد
+قواميس خريطة المكعب تحتوي على 6 قواميس ثنائية الأبعاد
 
 ### TEXTURE1D {#TEXTURE1D}
 ```
@@ -66,7 +66,7 @@ public static final TextureType TEXTURE1D
 ```
 
 
-ملمس أحادي البعد
+قواميس أحادية البعد
 
 ### TEXTURE2D {#TEXTURE2D}
 ```
@@ -74,7 +74,7 @@ public static final TextureType TEXTURE2D
 ```
 
 
-ملمس ثنائي البعد
+قواميس ثنائية الأبعاد
 
 ### TEXTURE3D {#TEXTURE3D}
 ```
@@ -82,7 +82,7 @@ public static final TextureType TEXTURE3D
 ```
 
 
-ملمس ثلاثي البعد
+قواميس ثلاثية الأبعاد
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

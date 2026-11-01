@@ -1,7 +1,7 @@
 ---
 title: "A3DObject"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الفئة الأساسية لجميع كائنات Aspose.ThreeD، جميع الفئات الفرعية ستدعم الخصائص الديناميكية."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "الفئة الأساسية لجميع كائنات Aspose.ThreeD جميع الفئات الفرعية ستدعم الخصائص الديناميكية."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.threed/a3dobject/
@@ -21,8 +21,8 @@ public class A3DObject implements INamedObject
 
 | منشئ | الوصف |
 | --- | --- |
-| [A3DObject(String name)](#A3DObject-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة [A3DObject](../../com.aspose.threed/a3dobject). |
-| [A3DObject()](#A3DObject--) | ينشئ مثيلاً جديداً من الفئة [A3DObject](../../com.aspose.threed/a3dobject) بدون اسم. |
+| [A3DObject(String name)](#A3DObject-java.lang.String-) | ينشئ مثيلاً جديداً للفئة [A3DObject](../../com.aspose.threed/a3dobject). |
+| [A3DObject()](#A3DObject--) | ينشئ مثيلاً جديداً للفئة [A3DObject](../../com.aspose.threed/a3dobject) بدون اسم. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -37,7 +37,7 @@ public class A3DObject implements INamedObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
@@ -50,7 +50,7 @@ public A3DObject(String name)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [A3DObject](../../com.aspose.threed/a3dobject).
+ينشئ مثيلاً جديداً للفئة [A3DObject](../../com.aspose.threed/a3dobject).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,7 +63,7 @@ public A3DObject()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [A3DObject](../../com.aspose.threed/a3dobject) بدون اسم.
+ينشئ مثيلاً جديداً للفئة [A3DObject](../../com.aspose.threed/a3dobject) بدون اسم.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -86,7 +86,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -187,7 +187,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -207,7 +207,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -221,7 +221,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

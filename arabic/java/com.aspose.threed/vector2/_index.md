@@ -1,6 +1,6 @@
 ---
 title: "Vector2"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "متجه ذو مكوّنين."
 type: docs
 weight: 201
@@ -21,10 +21,10 @@ public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Seri
 
 | منشئ | الوصف |
 | --- | --- |
-| [Vector2(double s)](#Vector2-double-) | إنشاء نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2). |
-| [Vector2(Vector3 s)](#Vector2-com.aspose.threed.Vector3-) | إنشاء نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2). |
-| [Vector2(FVector2 vec)](#Vector2-com.aspose.threed.FVector2-) | إنشاء نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2). |
-| [Vector2(double x, double y)](#Vector2-double-double-) | إنشاء نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2). |
+| [Vector2(double s)](#Vector2-double-) | يُنشئ نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2). |
+| [Vector2(Vector3 s)](#Vector2-com.aspose.threed.Vector3-) | يُنشئ نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2). |
+| [Vector2(FVector2 vec)](#Vector2-com.aspose.threed.FVector2-) | يُنشئ نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2). |
+| [Vector2(double x, double y)](#Vector2-double-double-) | يُنشئ نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2). |
 | [Vector2()](#Vector2--) |  |
 ## الحقول
 
@@ -44,8 +44,8 @@ public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Seri
 | [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | حاصل الضرب المتقاطع لمتجهين. |
 | [div(Vector2 lhs, double rhs)](#div-com.aspose.threed.Vector2-double-) | عامل القسمة لـ Vector2 |
 | [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | يحصل على حاصل الضرب النقطي لمتجهين. |
-| [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | تحقق مما إذا كان متجهين vector2 متساويين |
-| [equals(Object obj)](#equals-java.lang.Object-) | تحقق مما إذا كان متجهين vector2 متساويين |
+| [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | تحقق مما إذا كان متجهان من النوع vector2 متساويين |
+| [equals(Object obj)](#equals-java.lang.Object-) | تحقق مما إذا كان متجهان من النوع vector2 متساويين |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | يحصل على الطول. |
 | [getU()](#getU--) | يحصل على المكوّن U إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. |
@@ -53,14 +53,14 @@ public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Seri
 | [hashCode()](#hashCode--) | يحصل على قيمة التجزئة لـ Vector2 |
 | [mul(Vector2 lhs, double rhs)](#mul-com.aspose.threed.Vector2-double-) | عامل الضرب لـ Vector2 |
 | [mul(double lhs, Vector2 rhs)](#mul-double-com.aspose.threed.Vector2-) | عامل الضرب لـ Vector2 |
-| [normalize()](#normalize--) | يقوم بتطبيع هذه الحالة. |
+| [normalize()](#normalize--) | يقوم بتطبيع هذا الكائن. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_eq(Vector2 lhs, Vector2 rhs)](#op-eq-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | عامل المساواة لـ Vector2 |
-| [op_ne(Vector2 lhs, Vector2 rhs)](#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | عامل عدم المساواة لـ Vector2 |
+| [op_eq(Vector2 lhs, Vector2 rhs)](#op-eq-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | عامل المساواة للـ Vector2 |
+| [op_ne(Vector2 lhs, Vector2 rhs)](#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | عامل عدم المساواة للـ Vector2 |
 | [setU(double value)](#setU-double-) | يضبط المكوّن U إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. |
 | [setV(double value)](#setV-double-) | يضبط المكوّن V إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. |
-| [sub(Vector2 lhs, Vector2 rhs)](#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | عامل الطرح لـ Vector2 |
+| [sub(Vector2 lhs, Vector2 rhs)](#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | عامل الطرح للـ Vector2 |
 | [toString()](#toString--) | يرجع java.lang.String يمثل الـ [Vector2](../../com.aspose.threed/vector2) الحالي. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public Vector2(double s)
 ```
 
 
-إنشاء نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2).
+يُنشئ نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -84,7 +84,7 @@ public Vector2(Vector3 s)
 ```
 
 
-إنشاء نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2).
+يُنشئ نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -97,7 +97,7 @@ public Vector2(FVector2 vec)
 ```
 
 
-إنشاء نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2).
+يُنشئ نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -110,7 +110,7 @@ public Vector2(double x, double y)
 ```
 
 
-إنشاء نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2).
+يُنشئ نسخة جديدة من بنية [Vector2](../../com.aspose.threed/vector2).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -151,8 +151,8 @@ public static Vector2 add(Vector2 lhs, Vector2 rhs)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيسر. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيمن. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيسر. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيمن. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of addition.
@@ -162,7 +162,7 @@ public Vector2 clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2)
@@ -235,8 +235,8 @@ public static Vector2 div(Vector2 lhs, double rhs)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيسر. |
-| rhs | double | قيمة الطرف الأيمن. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيسر. |
+| rhs | double | قيمة الجانب الأيمن. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of division.
@@ -251,17 +251,17 @@ public double dot(Vector2 rhs)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيمن. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيمن. |
 
 **Returns:**
-double - حاصل الضرب النقطي للمتجهين.
+double - ناتج الضرب النقطي للمتجهين.
 ### equals(Vector2 rhs) {#equals-com.aspose.threed.Vector2-}
 ```
 public boolean equals(Vector2 rhs)
 ```
 
 
-تحقق مما إذا كان متجهين vector2 متساويين
+تحقق مما إذا كان متجهان من النوع vector2 متساويين
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -269,14 +269,14 @@ public boolean equals(Vector2 rhs)
 | rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيمن. |
 
 **Returns:**
-boolean - صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+boolean - صحيح إذا كانت جميع المكونات متساوية تمامًا.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-تحقق مما إذا كان متجهين vector2 متساويين
+تحقق مما إذا كان متجهان من النوع vector2 متساويين
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -284,7 +284,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | الكائن للمقارنة. |
 
 **Returns:**
-boolean - صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+boolean - صحيح إذا كانت جميع المكونات متساوية تمامًا.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -311,20 +311,20 @@ public double getU()
 ```
 
 
-يحصل على المكوّن U إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. وهو مرادف للمكوّن x.
+يحصل على المكوّن U إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. إنه اسم مستعار للمكوّن x.
 
 **Returns:**
-double - المكوّن U إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. وهو مرادف للمكوّن x.
+double - المكوّن U إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. إنه اسم مستعار للمكوّن x.
 ### getV() {#getV--}
 ```
 public double getV()
 ```
 
 
-يحصل على المكوّن V إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. وهو مرادف للمكوّن y.
+يحصل على المكوّن V إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. إنه اسم مستعار للمكوّن y.
 
 **Returns:**
-double - المكوّن V إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. وهو مرادف للمكوّن y.
+double - المكوّن V إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. إنه اسم مستعار للمكوّن y.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -334,7 +334,7 @@ public int hashCode()
 يحصل على قيمة التجزئة لـ Vector2
 
 **Returns:**
-int - رمز التجزئة للـ [Vector2](../../com.aspose.threed/vector2)
+int - شفرة التجزئة للـ [Vector2](../../com.aspose.threed/vector2)
 ### mul(Vector2 lhs, double rhs) {#mul-com.aspose.threed.Vector2-double-}
 ```
 public static Vector2 mul(Vector2 lhs, double rhs)
@@ -346,8 +346,8 @@ public static Vector2 mul(Vector2 lhs, double rhs)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيسر. |
-| rhs | double | قيمة الطرف الأيمن. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيسر. |
+| rhs | double | قيمة الجانب الأيمن. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of multiply.
@@ -362,8 +362,8 @@ public static Vector2 mul(double lhs, Vector2 rhs)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | double | قيمة الطرف الأيسر. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيمن. |
+| lhs | double | قيمة الجانب الأيسر. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيمن. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of multiply.
@@ -373,7 +373,7 @@ public Vector2 normalize()
 ```
 
 
-يقوم بتطبيع هذه الحالة.
+يقوم بتطبيع هذا الكائن.
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - Normalized vector.
@@ -399,29 +399,29 @@ public static boolean op_eq(Vector2 lhs, Vector2 rhs)
 ```
 
 
-عامل المساواة لـ Vector2
+عامل المساواة للـ Vector2
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيسر. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيمن. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيسر. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيمن. |
 
 **Returns:**
-boolean - صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+boolean - صحيح إذا كانت جميع المكونات متساوية تمامًا.
 ### op_ne(Vector2 lhs, Vector2 rhs) {#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-}
 ```
 public static boolean op_ne(Vector2 lhs, Vector2 rhs)
 ```
 
 
-عامل عدم المساواة لـ Vector2
+عامل عدم المساواة للـ Vector2
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيسر. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيمن. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيسر. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيمن. |
 
 **Returns:**
 boolean - صحيح إذا كان المتجهان غير متساويين.
@@ -431,12 +431,12 @@ public void setU(double value)
 ```
 
 
-يضبط المكوّن U إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. وهو مرادف للمكوّن x.
+يضبط المكوّن U إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. إنه اسم مستعار للمكوّن x.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setV(double value) {#setV-double-}
 ```
@@ -444,12 +444,12 @@ public void setV(double value)
 ```
 
 
-يضبط المكوّن V إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. وهو مرادف للمكوّن y.
+يضبط المكوّن V إذا تم استخدام [Vector2](../../com.aspose.threed/vector2) كإحداثي تخطيط. إنه اسم مستعار للمكوّن y.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### sub(Vector2 lhs, Vector2 rhs) {#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-}
 ```
@@ -457,13 +457,13 @@ public static Vector2 sub(Vector2 lhs, Vector2 rhs)
 ```
 
 
-عامل الطرح لـ Vector2
+عامل الطرح للـ Vector2
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيسر. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الطرف الأيمن. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيسر. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | قيمة الجانب الأيمن. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of substraction.

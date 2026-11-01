@@ -1,7 +1,7 @@
 ---
 title: "CurveDimension"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "بعد المنحنيات."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "بعد المنحنيات"
 type: docs
 weight: 275
 url: /ar/java/com.aspose.threed/curvedimension/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CurveDimension extends Enum<CurveDimension>
 ```
 
-بعد المنحنيات.
+بعد المنحنيات
 ## الحقول
 
 | حقل | الوصف |

@@ -1,6 +1,6 @@
 ---
 title: "FbxLoadOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "خيارات التحميل لتنسيق Fbx."
 type: docs
 weight: 62
@@ -29,21 +29,21 @@ public class FbxLoadOptions extends LoadOptions
 | [getCompatibleMode()](#getCompatibleMode--) | يحصل على ما إذا كان سيتم تمكين وضع التوافق. |
 | [getEncoding()](#getEncoding--) | يحصل على الترميز الافتراضي للملفات النصية. |
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
-| [getFileName()](#getFileName--) | اسم ملف المشهد المصدر/المستورد. |
+| [getFileName()](#getFileName--) | اسم الملف للمشهد المصدر/المستورد. |
 | [getFileSystem()](#getFileSystem--) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | يحصل على فئة المصنع لنظام الملفات. |
-| [getKeepBuiltinGlobalSettings()](#getKeepBuiltinGlobalSettings--) | يحصل على ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). |
-| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
+| [getKeepBuiltinGlobalSettings()](#getKeepBuiltinGlobalSettings--) | يحصل على ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لديها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). |
+| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCompatibleMode(boolean value)](#setCompatibleMode-boolean-) | يضبط ما إذا كان سيتم تمكين وضع التوافق. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | يضبط الترميز الافتراضي للملفات النصية. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | اسم ملف المشهد المصدر/المستورد. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | اسم الملف للمشهد المصدر/المستورد. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | يضبط فئة المصنع لنظام الملفات. |
-| [setKeepBuiltinGlobalSettings(boolean value)](#setKeepBuiltinGlobalSettings-boolean-) | يضبط ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
+| [setKeepBuiltinGlobalSettings(boolean value)](#setKeepBuiltinGlobalSettings-boolean-) | يضبط ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لديها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public FbxLoadOptions(FileFormat format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | [FileFormat](../../com.aspose.threed/fileformat) | مثال من [getFileFormat](../../com.aspose.threed/fbxloadoptions\#getFileFormat)، يجب أن يكون بتنسيق FBX صالح. |
+| format | [FileFormat](../../com.aspose.threed/fileformat) | مثال من [getFileFormat](../../com.aspose.threed/fbxloadoptions\#getFileFormat)، يجب أن يكون تنسيق FBX صالحًا. |
 
 ### FbxLoadOptions() {#FbxLoadOptions--}
 ```
@@ -130,10 +130,10 @@ public String getFileName()
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Returns:**
-java.lang.String - اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+java.lang.String - اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -174,7 +174,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -203,20 +203,20 @@ public boolean getKeepBuiltinGlobalSettings()
 ```
 
 
-يحصل على ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). اضبط هذا على true إذا كنت تريد الخصائص الكاملة في GlobalSettings. القيمة الافتراضية هي false
+يحصل على ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لديها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). اضبط هذا على true إذا كنت تريد الخصائص الكاملة في GlobalSettings. القيمة الافتراضية هي false
 
 **Returns:**
-منطقي - ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). اضبط هذا على true إذا كنت تريد الخصائص الكاملة في GlobalSettings. القيمة الافتراضية هي false
+منطقي - ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لديها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). اضبط هذا على true إذا كنت تريد الخصائص الكاملة في GlobalSettings. القيمة الافتراضية هي false
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
+java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
 
 ```
 var opt = new ObjLoadOptions();
@@ -262,7 +262,7 @@ public void setCompatibleMode(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -270,12 +270,12 @@ public void setEncoding(Charset value)
 ```
 
 
-يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يستخدم.
+يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يُستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.nio.charset.Charset | القيمة الجديدة |
+| قيمة | java.nio.charset.Charset | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -283,12 +283,12 @@ public void setFileName(String value)
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
 ```
@@ -301,7 +301,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | New value **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، ولكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | قيمة جديدة **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، لكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -333,12 +333,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | New value **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | قيمة جديدة **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -365,12 +365,12 @@ public void setKeepBuiltinGlobalSettings(boolean value)
 ```
 
 
-يضبط ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). اضبط هذا على true إذا كنت تريد الخصائص الكاملة في GlobalSettings. القيمة الافتراضية هي false
+يضبط ما إذا كان سيتم الاحتفاظ بالخصائص المدمجة في GlobalSettings التي لديها استبدال خاصية أصلي في [AssetInfo](../../com.aspose.threed/assetinfo). اضبط هذا على true إذا كنت تريد الخصائص الكاملة في GlobalSettings. القيمة الافتراضية هي false
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setLookupPaths(ArrayList<String> value) {#setLookupPaths-java.util.ArrayList-java.lang.String--}
 ```
@@ -378,12 +378,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.util.ArrayList<java.lang.String> | New value **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
+|  | قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
 
 ```
 var opt = new ObjLoadOptions();

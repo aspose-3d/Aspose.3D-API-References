@@ -1,7 +1,7 @@
 ---
 title: "FMatrix4"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مصفوفة 4x4 بجميع المكونات من نوع float"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مصفوفة 4×4 بجميع المكونات من نوع float"
 type: docs
 weight: 58
 url: /ar/java/com.aspose.threed/fmatrix4/
@@ -16,13 +16,13 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FMatrix4 implements Struct<FMatrix4>, Serializable
 ```
 
-مصفوفة 4x4 بجميع المكونات من نوع float
+مصفوفة 4×4 بجميع المكونات من نوع float
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11, float m12, float m13, float m20, float m21, float m22, float m23, float m30, float m31, float m32, float m33)](#FMatrix4-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-) | إنشاء مثيل من [FMatrix4](../../com.aspose.threed/fmatrix4) |
-| [FMatrix4(Matrix4 mat)](#FMatrix4-com.aspose.threed.Matrix4-) | تهيئة نسخة من [FMatrix4](../../com.aspose.threed/fmatrix4) من نسخة [Matrix4](../../com.aspose.threed/matrix4). |
+| [FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11, float m12, float m13, float m20, float m21, float m22, float m23, float m30, float m31, float m32, float m33)](#FMatrix4-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-) | تهيئة المثيل من [FMatrix4](../../com.aspose.threed/fmatrix4) |
+| [FMatrix4(Matrix4 mat)](#FMatrix4-com.aspose.threed.Matrix4-) | تهيئة المثيل من [FMatrix4](../../com.aspose.threed/fmatrix4) من مثيل [Matrix4](../../com.aspose.threed/matrix4). |
 | [FMatrix4(FVector4 r0, FVector4 r1, FVector4 r2, FVector4 r3)](#FMatrix4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | يبني المصفوفة من 4 صفوف. |
 | [FMatrix4()](#FMatrix4--) |  |
 ## الحقول
@@ -35,35 +35,35 @@ public final class FMatrix4 implements Struct<FMatrix4>, Serializable
 | [m03](#m03) | الـ m03. |
 | [m10](#m10) | الـ m10. |
 | [m11](#m11) | الـ m11. |
-| [m12](#m12) | العنصر m12. |
-| [m13](#m13) | العنصر m13. |
-| [m20](#m20) | العنصر m20. |
-| [m21](#m21) | العنصر m21. |
-| [m22](#m22) | العنصر m22. |
-| [m23](#m23) | العنصر m23. |
-| [m30](#m30) | العنصر m30. |
-| [m31](#m31) | العنصر m31. |
-| [m32](#m32) | العنصر m32. |
-| [m33](#m33) | العنصر m33. |
+| [m12](#m12) | الـ m12. |
+| [m13](#m13) | الـ m13. |
+| [m20](#m20) | الـ m20. |
+| [m21](#m21) | الـ m21. |
+| [m22](#m22) | الـ m22. |
+| [m23](#m23) | الـ m23. |
+| [m30](#m30) | الـ m30. |
+| [m31](#m31) | الـ m31. |
+| [m32](#m32) | الـ m32. |
+| [m33](#m33) | الـ m33. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [concatenate(FMatrix4 m2)](#concatenate-com.aspose.threed.FMatrix4-) | يجمع المصفوفتين |
-| [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | يجمع المصفوفتين |
+| [concatenate(FMatrix4 m2)](#concatenate-com.aspose.threed.FMatrix4-) | يدمج المصفوفتين |
+| [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | يدمج المصفوفتين |
 | [copyFrom(FMatrix4 src)](#copyFrom-com.aspose.threed.FMatrix4-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getIdentity()](#getIdentity--) | مصفوفة الهوية |
 | [hashCode()](#hashCode--) |  |
-| [inverse()](#inverse--) | احسب المصفوفة العكسية للنسخة الحالية. |
+| [inverse()](#inverse--) | احسب المصفوفة العكسية للمثيل الحالي. |
 | [mul(FMatrix4 left, FMatrix4 right)](#mul-com.aspose.threed.FMatrix4-com.aspose.threed.FMatrix4-) | دمج المصفوفتين |
-| [mul(FMatrix4 lhs, float v)](#mul-com.aspose.threed.FMatrix4-float-) | ضرب المصفوفة والقيمة المزدوجة |
+| [mul(FMatrix4 lhs, float v)](#mul-com.aspose.threed.FMatrix4-float-) | ضرب المصفوفة بالقيمة المزدوجة |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [transpose()](#transpose--) | يقلب هذا الكائن. |
+| [transpose()](#transpose--) | ينقل هذا المثيل. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -73,7 +73,7 @@ public FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11
 ```
 
 
-إنشاء مثيل من [FMatrix4](../../com.aspose.threed/fmatrix4)
+تهيئة المثيل من [FMatrix4](../../com.aspose.threed/fmatrix4)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -101,12 +101,12 @@ public FMatrix4(Matrix4 mat)
 ```
 
 
-تهيئة نسخة من [FMatrix4](../../com.aspose.threed/fmatrix4) من نسخة [Matrix4](../../com.aspose.threed/matrix4).
+تهيئة المثيل من [FMatrix4](../../com.aspose.threed/fmatrix4) من مثيل [Matrix4](../../com.aspose.threed/matrix4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| mat | [Matrix4](../../com.aspose.threed/matrix4) | الكائن [Matrix4](../../com.aspose.threed/matrix4). |
+| mat | [Matrix4](../../com.aspose.threed/matrix4) | الـ [Matrix4](../../com.aspose.threed/matrix4) مثال. |
 
 ### FMatrix4(FVector4 r0, FVector4 r1, FVector4 r2, FVector4 r3) {#FMatrix4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-}
 ```
@@ -184,7 +184,7 @@ public float m12
 ```
 
 
-العنصر m12.
+الـ m12.
 
 ### m13 {#m13}
 ```
@@ -192,7 +192,7 @@ public float m13
 ```
 
 
-العنصر m13.
+الـ m13.
 
 ### m20 {#m20}
 ```
@@ -200,7 +200,7 @@ public float m20
 ```
 
 
-العنصر m20.
+الـ m20.
 
 ### m21 {#m21}
 ```
@@ -208,7 +208,7 @@ public float m21
 ```
 
 
-العنصر m21.
+الـ m21.
 
 ### m22 {#m22}
 ```
@@ -216,7 +216,7 @@ public float m22
 ```
 
 
-العنصر m22.
+الـ m22.
 
 ### m23 {#m23}
 ```
@@ -224,7 +224,7 @@ public float m23
 ```
 
 
-العنصر m23.
+الـ m23.
 
 ### m30 {#m30}
 ```
@@ -232,7 +232,7 @@ public float m30
 ```
 
 
-العنصر m30.
+الـ m30.
 
 ### m31 {#m31}
 ```
@@ -240,7 +240,7 @@ public float m31
 ```
 
 
-العنصر m31.
+الـ m31.
 
 ### m32 {#m32}
 ```
@@ -248,7 +248,7 @@ public float m32
 ```
 
 
-العنصر m32.
+الـ m32.
 
 ### m33 {#m33}
 ```
@@ -256,7 +256,7 @@ public float m33
 ```
 
 
-العنصر m33.
+الـ m33.
 
 ### clone() {#clone--}
 ```
@@ -264,7 +264,7 @@ public FMatrix4 clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4)
@@ -274,7 +274,7 @@ public FMatrix4 concatenate(FMatrix4 m2)
 ```
 
 
-يجمع المصفوفتين
+يدمج المصفوفتين
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -289,7 +289,7 @@ public FMatrix4 concatenate(Matrix4 m2)
 ```
 
 
-يجمع المصفوفتين
+يدمج المصفوفتين
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -362,7 +362,7 @@ public FMatrix4 inverse()
 ```
 
 
-احسب المصفوفة العكسية للنسخة الحالية.
+احسب المصفوفة العكسية للمثيل الحالي.
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Inverse matrix4
@@ -388,7 +388,7 @@ public static FMatrix4 mul(FMatrix4 lhs, float v)
 ```
 
 
-ضرب المصفوفة والقيمة المزدوجة
+ضرب المصفوفة بالقيمة المزدوجة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -430,7 +430,7 @@ public FMatrix4 transpose()
 ```
 
 
-يقلب هذا الكائن.
+ينقل هذا المثيل.
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - The transposed matrix.

@@ -1,6 +1,6 @@
 ---
 title: "رخصة"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "يوفر طرقًا لترخيص المكوّن."
 type: docs
 weight: 93
@@ -15,12 +15,12 @@ public class License
 
 يوفر طرقًا لترخيص المكوّن.
 
-لمعرفة المزيد، قم بزيارة مقالة الوثائق **Licensing and Subscription**.
+لمزيد من المعلومات، قم بزيارة مقالة الوثائق **Licensing and Subscription**.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [License()](#License--) | يقوم بتهيئة نسخة جديدة من هذه الفئة. |
+| [License()](#License--) | ينشئ نسخة جديدة من هذه الفئة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public License()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من هذه الفئة.
+ينشئ نسخة جديدة من هذه الفئة.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -108,7 +108,7 @@ public void setLicense(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream | دفق يحتوي على الترخيص. |
+| stream | java.io.InputStream | دفق يحتوي على الترخيص. |
 
 ### setLicense(String licenseName) {#setLicense-java.lang.String-}
 ```
@@ -122,7 +122,7 @@ public void setLicense(String licenseName)
 
 1. مسار صريح.
 
-2. المجلد الذي يحتوي على ملف JAR الخاص بمكوّن Aspose.
+2. المجلد الذي يحتوي على ملف JAR لمكوّن Aspose.
 
 3. المجلد الذي يحتوي على ملف JAR الخاص بالعميل المستدعي.
 

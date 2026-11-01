@@ -1,7 +1,7 @@
 ---
 title: "LocalFileSystem"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الـ  سيقوم بربط عمليات القراءة/الكتابة بالمجلد المحلي."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "الـ  سيقوم بربط عمليات القراءة/الكتابة بالدليل المحلي."
 type: docs
 weight: 91
 url: /ar/java/com.aspose.threed/localfilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class LocalFileSystem extends FileSystem
 ```
 
-الـ [LocalFileSystem](../../com.aspose.threed/localfilesystem) سيقوم بربط عمليات القراءة/الكتابة بالمجلد المحلي. **Example:** يوضح الكود التالي كيفية استيراد ملف، وتوفير الملفات التابعة في دليل معين
+سيقوم [LocalFileSystem](../../com.aspose.threed/localfilesystem) بربط عمليات القراءة/الكتابة بالدليل المحلي. **مثال:** يوضح الكود التالي كيفية استيراد ملف، وتوفير الملفات التابعة في دليل معين
 
 ```
 var inputFile = "input.fbx";
@@ -33,18 +33,18 @@ var inputFile = "input.fbx";
 
 | طريقة | الوصف |
 | --- | --- |
-| [close()](#close--) | قم بتحرير نظام الملفات وإصدار موارده. |
+| [close()](#close--) | تخلص من نظام الملفات وأطلق موارده. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | إنشاء تدفق لقراءة التبعيات. |
+| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | أنشئ تدفقًا لقراءة الاعتمادات. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | إنشاء تدفق لكتابة التبعيات. |
+| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | أنشئ تدفقًا لكتابة الاعتمادات. |
 ### LocalFileSystem(String directory) {#LocalFileSystem-java.lang.String-}
 ```
 public LocalFileSystem(String directory)
@@ -64,7 +64,7 @@ public void close()
 ```
 
 
-قم بتحرير نظام الملفات وإصدار موارده.
+تخلص من نظام الملفات وأطلق موارده.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -123,7 +123,7 @@ public Stream readFile(String fileName, IOConfig options)
 ```
 
 
-إنشاء تدفق لقراءة التبعيات.
+أنشئ تدفقًا لقراءة الاعتمادات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -184,7 +184,7 @@ public Stream writeFile(String fileName, IOConfig options)
 ```
 
 
-إنشاء تدفق لكتابة التبعيات.
+أنشئ تدفقًا لكتابة الاعتمادات.
 
 **Parameters:**
 | معامل | نوع | الوصف |

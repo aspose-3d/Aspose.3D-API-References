@@ -1,7 +1,7 @@
 ---
 title: "SkinDeformer"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يحتوي SkinDeformer على عدة عظام للعمل؛ كل عظمة تمزج جزءًا من الهندسة باستخدام أوزان نقاط التحكم."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يحتوي SkinDeformer على عدة عظام للعمل؛ كل عظم يدمج جزءًا من الهندسة باستخدام أوزان نقاط التحكم."
 type: docs
 weight: 173
 url: /ar/java/com.aspose.threed/skindeformer/
@@ -13,30 +13,30 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class SkinDeformer extends Deformer
 ```
 
-يحتوي مشوه الجلد على عدة عظام للعمل، كل عظمة تمزج جزءًا من الهندسة باستخدام أوزان نقاط التحكم.
+مُشَكِّل الجلد يحتوي على عدة عظام للعمل، كل عظمة تمزج جزءًا من الهندسة بأوزان نقاط التحكم.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [SkinDeformer(String name)](#SkinDeformer-java.lang.String-) | ينشئ مثيلًا جديدًا للفئة [SkinDeformer](../../com.aspose.threed/skindeformer). |
-| [SkinDeformer()](#SkinDeformer--) | ينشئ مثيلًا جديدًا للفئة [SkinDeformer](../../com.aspose.threed/skindeformer). |
+| [SkinDeformer(String name)](#SkinDeformer-java.lang.String-) | يُنشئ مثيلًا جديدًا للفئة [SkinDeformer](../../com.aspose.threed/skindeformer). |
+| [SkinDeformer()](#SkinDeformer--) | يُنشئ مثيلًا جديدًا للفئة [SkinDeformer](../../com.aspose.threed/skindeformer). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
-| [getBones()](#getBones--) | يرجع جميع العظام التي يحتويها skin deformer |
+| [getBones()](#getBones--) | يحصل على جميع العظام التي يحتويها SkinDeformer |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getOwner()](#getOwner--) | يرجع الهندسة التي تملك هذا deformer |
+| [getOwner()](#getOwner--) | يحصل على الهندسة التي تملك هذا Deformer |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
@@ -49,7 +49,7 @@ public SkinDeformer(String name)
 ```
 
 
-ينشئ مثيلًا جديدًا للفئة [SkinDeformer](../../com.aspose.threed/skindeformer).
+يُنشئ مثيلًا جديدًا للفئة [SkinDeformer](../../com.aspose.threed/skindeformer).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,7 +62,7 @@ public SkinDeformer()
 ```
 
 
-ينشئ مثيلًا جديدًا للفئة [SkinDeformer](../../com.aspose.threed/skindeformer).
+يُنشئ مثيلًا جديدًا للفئة [SkinDeformer](../../com.aspose.threed/skindeformer).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -85,7 +85,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -100,10 +100,10 @@ public List<Bone> getBones()
 ```
 
 
-يرجع جميع العظام التي يحتويها skin deformer
+يحصل على جميع العظام التي يحتويها SkinDeformer
 
 **Returns:**
-java.util.List<com.aspose.threed.Bone> - جميع العظام التي يحتويها skin deformer
+java.util.List<com.aspose.threed.Bone> - جميع العظام التي يحتويها SkinDeformer
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -130,7 +130,7 @@ public Geometry getOwner()
 ```
 
 
-يرجع الهندسة التي تملك هذا deformer
+يحصل على الهندسة التي تملك هذا Deformer
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer
@@ -206,7 +206,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -226,7 +226,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -240,7 +240,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

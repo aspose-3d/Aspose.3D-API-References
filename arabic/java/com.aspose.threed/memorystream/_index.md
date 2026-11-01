@@ -1,6 +1,6 @@
 ---
 title: "MemoryStream"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تم الإنشاء بواسطة lexchou في 13/6/2017."
 type: docs
 weight: 101
@@ -62,7 +62,7 @@ public class MemoryStream extends Stream implements AutoCloseable
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 | [wrap(InputStream stream)](#wrap-java.io.InputStream-) |  |
-| [wrap(OutputStream stream)](#wrap-java.io.OutputStream-) | غلف OutputStream كـ Stream، يجب إغلاق الدفق لتفريغ البيانات إلى تدفق الإخراج. |
+| [wrap(OutputStream stream)](#wrap-java.io.OutputStream-) | غلف OutputStream كـ Stream، يجب إغلاق الدفق لتفريغ البيانات إلى OutputStream. |
 | [write(byte[] buf)](#write-byte---) |  |
 | [write(byte[] buf, int start, int len)](#write-byte---int-int-) |  |
 | [write(ByteSpan bytes)](#write-com.aspose.threed.ByteSpan-) |  |
@@ -145,7 +145,7 @@ public void copyTo(OutputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.OutputStream |  |
+| stream | java.io.OutputStream |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -299,7 +299,7 @@ public int read(ByteSpan bytes)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بايتات | com.aspose.threed.ByteSpan |  |
+| bytes | com.aspose.threed.ByteSpan |  |
 
 **Returns:**
 int
@@ -324,7 +324,7 @@ public long seek(long offset, int seek)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| offset | long |  |
+| الإزاحة | long |  |
 | seek | int |  |
 
 **Returns:**
@@ -421,7 +421,7 @@ public static Stream wrap(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.InputStream |  |
+| stream | java.io.InputStream |  |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream)
@@ -431,12 +431,12 @@ public static Stream wrap(OutputStream stream)
 ```
 
 
-غلف OutputStream كـ Stream، يجب إغلاق الدفق لتفريغ البيانات إلى تدفق الإخراج.
+غلف OutputStream كـ Stream، يجب إغلاق الدفق لتفريغ البيانات إلى OutputStream.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تدفق | java.io.OutputStream | دفق الإخراج للتغليف |
+| stream | java.io.OutputStream | دفق الإخراج للتغليف |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream) - wrapped Stream instance
@@ -479,7 +479,7 @@ public void write(ByteSpan bytes)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بايتات | com.aspose.threed.ByteSpan |  |
+| bytes | com.aspose.threed.ByteSpan |  |
 
 ### writeByte(int b) {#writeByte-int-}
 ```

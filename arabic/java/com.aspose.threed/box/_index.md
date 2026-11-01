@@ -1,6 +1,6 @@
 ---
-title: "صندوق"
-second_title: "مرجع API لـ Aspose.3D for Java"
+title: "Box"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "مربع."
 type: docs
 weight: 26
@@ -18,9 +18,9 @@ public class Box extends Primitive
 
 | منشئ | الوصف |
 | --- | --- |
-| [Box()](#Box--) | يُنشئ مثلاً جديدًا من الفئة [Box](../../com.aspose.threed/box). |
-| [Box(double length, double width, double height)](#Box-double-double-double-) | يُنشئ مثلاً جديدًا من الفئة [Box](../../com.aspose.threed/box). |
-| [Box(String name, double length, double width, double height, int lengthSegments, int widthSegments, int heightSegments)](#Box-java.lang.String-double-double-double-int-int-int-) | يُنشئ مثلاً جديدًا من الفئة [Box](../../com.aspose.threed/box). |
+| [Box()](#Box--) | ينشئ مثيلًا جديدًا من الفئة [Box](../../com.aspose.threed/box) class. |
+| [Box(double length, double width, double height)](#Box-double-double-double-) | ينشئ مثيلًا جديدًا من الفئة [Box](../../com.aspose.threed/box) class. |
+| [Box(String name, double length, double width, double height, int lengthSegments, int widthSegments, int heightSegments)](#Box-java.lang.String-double-double-double-int-int-int-) | ينشئ مثيلًا جديدًا من الفئة [Box](../../com.aspose.threed/box) class. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,39 +30,39 @@ public class Box extends Primitive
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getCastShadows()](#getCastShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [getHeight()](#getHeight--) | يحصل على ارتفاع الصندوق المحاذى على المحور ص. |
+| [getHeight()](#getHeight--) | يحصل على ارتفاع الصندوق المتماسك مع محور y. |
 | [getHeightSegments()](#getHeightSegments--) | يحصل أو يضبط مقاطع الارتفاع. |
-| [getLength()](#getLength--) | يحصل على طول الصندوق المحاذى على المحور ز. |
+| [getLength()](#getLength--) | يحصل على طول الصندوق المتماسك مع محور z. |
 | [getLengthSegments()](#getLengthSegments--) | يحصل على مقاطع الطول. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getReceiveShadows()](#getReceiveShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل. |
 | [getScene()](#getScene--) | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [getWidth()](#getWidth--) | يحصل على عرض الصندوق المحاذى على المحور س. |
+| [getWidth()](#getWidth--) | يحصل على عرض الصندوق المتماسك مع محور x. |
 | [getWidthSegments()](#getWidthSegments--) | يحصل على مقاطع العرض |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [setHeight(double value)](#setHeight-double-) | يضبط ارتفاع الصندوق المتوازي مع المحور ص. |
+| [setHeight(double value)](#setHeight-double-) | يضبط ارتفاع الصندوق المتراصف على المحور ص. |
 | [setHeightSegments(int value)](#setHeightSegments-int-) | يحصل أو يضبط مقاطع الارتفاع. |
-| [setLength(double value)](#setLength-double-) | يضبط طول الصندوق المتوازي مع المحور ز. |
+| [setLength(double value)](#setLength-double-) | يضبط طول الصندوق المتراصف على المحور ع. |
 | [setLengthSegments(int value)](#setLengthSegments-int-) | يضبط مقاطع الطول. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه استقبال الظل. |
-| [setWidth(double value)](#setWidth-double-) | يضبط عرض الصندوق المتوازي مع المحور س. |
-| [setWidthSegments(int value)](#setWidthSegments-int-) | يضبط مقاطع العرض |
-| [toMesh()](#toMesh--) | تحويل الكائن الحالي إلى شبكة |
+| [setWidth(double value)](#setWidth-double-) | يضبط عرض الصندوق المتراصف على المحور س. |
+| [setWidthSegments(int value)](#setWidthSegments-int-) | يضبط أقسام العرض |
+| [toMesh()](#toMesh--) | حوّل الكائن الحالي إلى شبكة |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public Box()
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [Box](../../com.aspose.threed/box).
+ينشئ مثيلًا جديدًا من الفئة [Box](../../com.aspose.threed/box) class.
 
 ### Box(double length, double width, double height) {#Box-double-double-double-}
 ```
@@ -81,14 +81,14 @@ public Box(double length, double width, double height)
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [Box](../../com.aspose.threed/box).
+ينشئ مثيلًا جديدًا من الفئة [Box](../../com.aspose.threed/box) class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الطول | double | طول الصندوق المتوازي مع المحور ز. |
-| العرض | double | عرض الصندوق المتوازي مع المحور س. |
-| الارتفاع | double | ارتفاع الصندوق المتوازي مع المحور ص. |
+| الطول | double | طول الصندوق المتراصف على المحور ع. |
+| العرض | double | عرض الصندوق المتراصف على المحور س. |
+| الارتفاع | double | ارتفاع الصندوق المتراصف على المحور ص. |
 
 ### Box(String name, double length, double width, double height, int lengthSegments, int widthSegments, int heightSegments) {#Box-java.lang.String-double-double-double-int-int-int-}
 ```
@@ -96,17 +96,17 @@ public Box(String name, double length, double width, double height, int lengthSe
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [Box](../../com.aspose.threed/box).
+ينشئ مثيلًا جديدًا من الفئة [Box](../../com.aspose.threed/box) class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم الصندوق. |
-| الطول | double | طول الصندوق المتوازي مع المحور ز. |
-| العرض | double | عرض الصندوق المتوازي مع المحور س. |
-| الارتفاع | double | ارتفاع الصندوق المتوازي مع المحور ص. |
-| lengthSegments | int | مقاطع الطول. |
-| widthSegments | int | مقاطع العرض. |
+| الطول | double | طول الصندوق المتراصف على المحور ع. |
+| العرض | double | عرض الصندوق المتراصف على المحور س. |
+| الارتفاع | double | ارتفاع الصندوق المتراصف على المحور ص. |
+| lengthSegments | int | شرائح الطول. |
+| widthSegments | int | شرائح العرض. |
 | heightSegments | int | مقاطع الارتفاع. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -130,7 +130,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -182,7 +182,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -202,10 +202,10 @@ public double getHeight()
 ```
 
 
-يحصل على ارتفاع الصندوق المحاذى على المحور ص.
+يحصل على ارتفاع الصندوق المتماسك مع محور y.
 
 **Returns:**
-double - ارتفاع الصندوق المتوازي مع المحور ص.
+double - ارتفاع الصندوق المتراصف على المحور ص.
 ### getHeightSegments() {#getHeightSegments--}
 ```
 public int getHeightSegments()
@@ -215,17 +215,17 @@ public int getHeightSegments()
 يحصل أو يضبط مقاطع الارتفاع.
 
 **Returns:**
-int - يحصل على مقاطع الارتفاع أو يضبطها.
+int - يحصل أو يضبط أقسام الارتفاع.
 ### getLength() {#getLength--}
 ```
 public double getLength()
 ```
 
 
-يحصل على طول الصندوق المحاذى على المحور ز.
+يحصل على طول الصندوق المتماسك مع محور z.
 
 **Returns:**
-double - طول الصندوق المتوازي مع المحور ز.
+double - طول الصندوق المتراصف على المحور ع.
 ### getLengthSegments() {#getLengthSegments--}
 ```
 public int getLengthSegments()
@@ -235,7 +235,7 @@ public int getLengthSegments()
 يحصل على مقاطع الطول.
 
 **Returns:**
-int - مقاطع الطول.
+int - شرائح الطول.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -252,7 +252,7 @@ public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -262,10 +262,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -300,7 +300,7 @@ public boolean getReceiveShadows()
 يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل.
 
 **Returns:**
-boolean - ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل.
+boolean - ما إذا كان هذا الشكل الهندسي يمكنه تلقي الظل.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -317,10 +317,10 @@ public double getWidth()
 ```
 
 
-يحصل على عرض الصندوق المحاذى على المحور س.
+يحصل على عرض الصندوق المتماسك مع محور x.
 
 **Returns:**
-double - عرض الصندوق المتوازي مع المحور س.
+double - عرض الصندوق المتراصف على المحور س.
 ### getWidthSegments() {#getWidthSegments--}
 ```
 public int getWidthSegments()
@@ -330,7 +330,7 @@ public int getWidthSegments()
 يحصل على مقاطع العرض
 
 **Returns:**
-int - مقاطع العرض
+int - أقسام العرض
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -378,7 +378,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -398,7 +398,7 @@ public void setCastShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -411,7 +411,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setHeight(double value) {#setHeight-double-}
 ```
@@ -419,12 +419,12 @@ public void setHeight(double value)
 ```
 
 
-يضبط ارتفاع الصندوق المتوازي مع المحور ص.
+يضبط ارتفاع الصندوق المتراصف على المحور ص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setHeightSegments(int value) {#setHeightSegments-int-}
 ```
@@ -437,7 +437,7 @@ public void setHeightSegments(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setLength(double value) {#setLength-double-}
 ```
@@ -445,12 +445,12 @@ public void setLength(double value)
 ```
 
 
-يضبط طول الصندوق المتوازي مع المحور ز.
+يضبط طول الصندوق المتراصف على المحور ع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setLengthSegments(int value) {#setLengthSegments-int-}
 ```
@@ -463,7 +463,7 @@ public void setLengthSegments(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -476,7 +476,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -484,12 +484,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -503,7 +503,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setReceiveShadows(boolean value) {#setReceiveShadows-boolean-}
 ```
@@ -516,7 +516,7 @@ public void setReceiveShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setWidth(double value) {#setWidth-double-}
 ```
@@ -524,12 +524,12 @@ public void setWidth(double value)
 ```
 
 
-يضبط عرض الصندوق المتوازي مع المحور س.
+يضبط عرض الصندوق المتراصف على المحور س.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setWidthSegments(int value) {#setWidthSegments-int-}
 ```
@@ -537,12 +537,12 @@ public void setWidthSegments(int value)
 ```
 
 
-يضبط مقاطع العرض
+يضبط أقسام العرض
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### toMesh() {#toMesh--}
 ```
@@ -550,7 +550,7 @@ public Mesh toMesh()
 ```
 
 
-تحويل الكائن الحالي إلى شبكة
+حوّل الكائن الحالي إلى شبكة
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

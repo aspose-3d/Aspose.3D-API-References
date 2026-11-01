@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox2D"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مربع الحد المحاذى للمحور لـ"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مربع الحد المحاذي للمحور لـ"
 type: docs
 weight: 25
 url: /ar/java/com.aspose.threed/boundingbox2d/
@@ -16,12 +16,12 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox2D implements Struct<BoundingBox2D>, Serializable
 ```
 
-صندوق الحدود المحاذي للمحور لـ [Vector2](../../com.aspose.threed/vector2)
+صندوق الحدود المتمحور لـ [Vector2](../../com.aspose.threed/vector2)
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية القصوى المحددة |
+| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية العليا المحددة |
 | [BoundingBox2D()](#BoundingBox2D--) |  |
 ## الحقول
 
@@ -37,15 +37,15 @@ public final class BoundingBox2D implements Struct<BoundingBox2D>, Serializable
 | [copyFrom(BoundingBox2D src)](#copyFrom-com.aspose.threed.BoundingBox2D-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExtent()](#getExtent--) | يسترجع مدى صندوق الحدود. |
-| [getMaximum()](#getMaximum--) | الزاوية القصوى لصندوق الحدود |
+| [getExtent()](#getExtent--) | يحصل على مدى صندوق الحدود. |
+| [getMaximum()](#getMaximum--) | الزاوية العليا لصندوق الحدود |
 | [getMinimum()](#getMinimum--) | الزاوية الدنيا لصندوق الحدود |
 | [hashCode()](#hashCode--) |  |
 | [merge(BoundingBox2D bb)](#merge-com.aspose.threed.BoundingBox2D-) | يدمج الصندوق الجديد في صندوق الحدود الحالي. |
 | [merge(Vector2 pt)](#merge-com.aspose.threed.Vector2-) | يدمج الصندوق الجديد في صندوق الحدود الحالي. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | يسترجع التمثيل النصي لصندوق الحدود. |
+| [toString()](#toString--) | يحصل على تمثيل النص لصندوق الحدود. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -55,13 +55,13 @@ public BoundingBox2D(Vector2 minimum, Vector2 maximum)
 ```
 
 
-تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية القصوى المحددة
+تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية العليا المحددة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | minimum | [Vector2](../../com.aspose.threed/vector2) | الزاوية الدنيا |
-| maximum | [Vector2](../../com.aspose.threed/vector2) | الزاوية القصوى |
+| maximum | [Vector2](../../com.aspose.threed/vector2) | الزاوية العليا |
 
 ### BoundingBox2D() {#BoundingBox2D--}
 ```
@@ -91,7 +91,7 @@ public BoundingBox2D clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [BoundingBox2D](../../com.aspose.threed/boundingbox2d)
@@ -139,7 +139,7 @@ public BoundingBoxExtent getExtent()
 ```
 
 
-يسترجع مدى صندوق الحدود.
+يحصل على مدى صندوق الحدود.
 
 **Returns:**
 [BoundingBoxExtent](../../com.aspose.threed/boundingboxextent) - the extent of the bounding box.
@@ -149,7 +149,7 @@ public Vector2 getMaximum()
 ```
 
 
-الزاوية القصوى لصندوق الحدود
+الزاوية العليا لصندوق الحدود
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The maximum corner of the bounding box
@@ -221,7 +221,7 @@ public String toString()
 ```
 
 
-يسترجع التمثيل النصي لصندوق الحدود.
+يحصل على تمثيل النص لصندوق الحدود.
 
 **Returns:**
 java.lang.String

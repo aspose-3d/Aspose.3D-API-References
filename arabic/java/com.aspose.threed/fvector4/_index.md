@@ -1,6 +1,6 @@
 ---
 title: "FVector4"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "متجه float مكوّن من أربعة عناصر."
 type: docs
 weight: 61
@@ -21,12 +21,12 @@ public final class FVector4 implements Struct<FVector4>, Serializable
 
 | منشئ | الوصف |
 | --- | --- |
-| [FVector4(float x, float y, float z, float w)](#FVector4-float-float-float-float-) | ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4). |
-| [FVector4(float x, float y, float z)](#FVector4-float-float-float-) | ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4). |
-| [FVector4(Color color)](#FVector4-java.awt.Color-) | ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4). |
-| [FVector4(Vector4 vec)](#FVector4-com.aspose.threed.Vector4-) | ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4). |
-| [FVector4(Vector3 vec)](#FVector4-com.aspose.threed.Vector3-) | ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4). |
-| [FVector4(Vector3 vec, float w)](#FVector4-com.aspose.threed.Vector3-float-) | ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4). |
+| [FVector4(float x, float y, float z, float w)](#FVector4-float-float-float-float-) | يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4). |
+| [FVector4(float x, float y, float z)](#FVector4-float-float-float-) | يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4). |
+| [FVector4(Color color)](#FVector4-java.awt.Color-) | يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4). |
+| [FVector4(Vector4 vec)](#FVector4-com.aspose.threed.Vector4-) | يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4). |
+| [FVector4(Vector3 vec)](#FVector4-com.aspose.threed.Vector3-) | يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4). |
+| [FVector4(Vector3 vec, float w)](#FVector4-com.aspose.threed.Vector3-float-) | يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4). |
 | [FVector4()](#FVector4--) |  |
 ## الحقول
 
@@ -50,8 +50,8 @@ public final class FVector4 implements Struct<FVector4>, Serializable
 | [mul(FVector4 lhs, FVector4 rhs)](#mul-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | إعادة تعريف المشغل لـ \* |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [sub(FVector4 lhs, FVector4 rhs)](#sub-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | تجاوز المشغل للـ - (ناقص) |
-| [toString()](#toString--) | يرجع سلسلة تمثل [FVector4](../../com.aspose.threed/fvector4) |
+| [sub(FVector4 lhs, FVector4 rhs)](#sub-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | تحميل المشغل للـ - (ناقص) |
+| [toString()](#toString--) | يعيد سلسلة تمثّل [FVector4](../../com.aspose.threed/fvector4) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -61,7 +61,7 @@ public FVector4(float x, float y, float z, float w)
 ```
 
 
-ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4).
+يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -77,7 +77,7 @@ public FVector4(float x, float y, float z)
 ```
 
 
-ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4).
+يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -92,7 +92,7 @@ public FVector4(Color color)
 ```
 
 
-ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4).
+يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -105,7 +105,7 @@ public FVector4(Vector4 vec)
 ```
 
 
-ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4).
+يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -118,7 +118,7 @@ public FVector4(Vector3 vec)
 ```
 
 
-ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4).
+يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -131,7 +131,7 @@ public FVector4(Vector3 vec, float w)
 ```
 
 
-ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4).
+يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -199,7 +199,7 @@ public FVector4 clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4)
@@ -304,7 +304,7 @@ public static FVector4 sub(FVector4 lhs, FVector4 rhs)
 ```
 
 
-تجاوز المشغل للـ - (ناقص)
+تحميل المشغل للـ - (ناقص)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -320,10 +320,10 @@ public String toString()
 ```
 
 
-يرجع سلسلة تمثل [FVector4](../../com.aspose.threed/fvector4)
+يعيد سلسلة تمثّل [FVector4](../../com.aspose.threed/fvector4)
 
 **Returns:**
-java.lang.String - تمثيل السلسلة للمتجه الحالي.
+java.lang.String - تمثيل النص للمتجه الحالي.
 ### wait() {#wait--}
 ```
 public final void wait()

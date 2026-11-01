@@ -1,6 +1,6 @@
 ---
 title: "Vector4"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "متجه ذو أربعة مكوّنات."
 type: docs
 weight: 203
@@ -21,11 +21,11 @@ public final class Vector4 implements Comparable<Vector4>, Struct<Vector4>, Seri
 
 | منشئ | الوصف |
 | --- | --- |
-| [Vector4(Vector3 vec, double w)](#Vector4-com.aspose.threed.Vector3-double-) | ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4). |
-| [Vector4(Vector3 vec)](#Vector4-com.aspose.threed.Vector3-) | ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4). |
-| [Vector4(FVector4 vec)](#Vector4-com.aspose.threed.FVector4-) | ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4). |
-| [Vector4(double x, double y, double z)](#Vector4-double-double-double-) | ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4). |
-| [Vector4(double x, double y, double z, double w)](#Vector4-double-double-double-double-) | ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4). |
+| [Vector4(Vector3 vec, double w)](#Vector4-com.aspose.threed.Vector3-double-) | ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4). |
+| [Vector4(Vector3 vec)](#Vector4-com.aspose.threed.Vector3-) | ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4). |
+| [Vector4(FVector4 vec)](#Vector4-com.aspose.threed.FVector4-) | ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4). |
+| [Vector4(double x, double y, double z)](#Vector4-double-double-double-) | ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4). |
+| [Vector4(double x, double y, double z, double w)](#Vector4-double-double-double-double-) | ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4). |
 | [Vector4()](#Vector4--) |  |
 ## الحقول
 
@@ -53,7 +53,7 @@ public final class Vector4 implements Comparable<Vector4>, Struct<Vector4>, Seri
 | [notifyAll()](#notifyAll--) |  |
 | [set(double newX, double newY, double newZ)](#set-double-double-double-) | يضبط مكونات المتجه xyz مرة واحدة، وسيتم ضبط w إلى 1 |
 | [set(double newX, double newY, double newZ, double newW)](#set-double-double-double-double-) | يضبط جميع مكونات المتجه مرة واحدة |
-| [sub(Vector4 lhs, Vector4 rhs)](#sub-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | تجاوز المشغل للـ - (ناقص) |
+| [sub(Vector4 lhs, Vector4 rhs)](#sub-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | تحميل المشغل للـ - (ناقص) |
 | [toString()](#toString--) | يرجع java.lang.String يمثل الـ [Vector4](../../com.aspose.threed/vector4) الحالي. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -64,7 +64,7 @@ public Vector4(Vector3 vec, double w)
 ```
 
 
-ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4).
+ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -78,7 +78,7 @@ public Vector4(Vector3 vec)
 ```
 
 
-ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4).
+ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -91,7 +91,7 @@ public Vector4(FVector4 vec)
 ```
 
 
-ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4).
+ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -104,7 +104,7 @@ public Vector4(double x, double y, double z)
 ```
 
 
-ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4).
+ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -119,7 +119,7 @@ public Vector4(double x, double y, double z, double w)
 ```
 
 
-ينشئ مثالا جديدًا من البنية [Vector4](../../com.aspose.threed/vector4).
+ينشئ مثيلاً جديداً من بنية [Vector4](../../com.aspose.threed/vector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -189,7 +189,7 @@ public Vector4 clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4)
@@ -348,7 +348,7 @@ public void set(double newX, double newY, double newZ, double newW)
 | newX | double | المكوّن X الجديد. |
 | newY | double | المكوّن Y الجديد. |
 | newZ | double | المكوّن Z الجديد. |
-| newW | double | المكوّن الجديد W. |
+| newW | double | مكوّن W الجديد. |
 
 ### sub(Vector4 lhs, Vector4 rhs) {#sub-com.aspose.threed.Vector4-com.aspose.threed.Vector4-}
 ```
@@ -356,7 +356,7 @@ public static Vector4 sub(Vector4 lhs, Vector4 rhs)
 ```
 
 
-تجاوز المشغل للـ - (ناقص)
+تحميل المشغل للـ - (ناقص)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -375,7 +375,7 @@ public String toString()
 يرجع java.lang.String يمثل الـ [Vector4](../../com.aspose.threed/vector4) الحالي.
 
 **Returns:**
-java.lang.String - java.lang.String الذي يمثل الـ [Vector4](../../com.aspose.threed/vector4) الحالي.
+java.lang.String - سلسلة java.lang.String تمثل الـ [Vector4](../../com.aspose.threed/vector4) الحالي.
 ### wait() {#wait--}
 ```
 public final void wait()

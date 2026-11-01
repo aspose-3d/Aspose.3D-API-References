@@ -1,7 +1,7 @@
 ---
 title: "RenderQueueGroupId"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "معرف المجموعة في طابور العرض."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "معرف المجموعة في طابور العرض"
 type: docs
 weight: 297
 url: /ar/java/com.aspose.threed/renderqueuegroupid/
@@ -13,17 +13,17 @@ java.lang.Object, java.lang.Enum
 public enum RenderQueueGroupId extends Enum<RenderQueueGroupId>
 ```
 
-معرف المجموعة في طابور العرض.
+معرف المجموعة في طابور العرض
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [BACKGROUND](#BACKGROUND) | طابور العرض للخلفية |
-| [GEOMETRIES](#GEOMETRIES) | طابور العرض للهياكل |
-| [MAIN](#MAIN) | قائمة انتظار العرض للرئيسي |
-| [OPAQUE](#OPAQUE) | قائمة انتظار العرض للكائنات غير الشفافة |
-| [OVERLAY](#OVERLAY) | قائمة انتظار العرض للطبقات الفوقية |
-| [SKIES](#SKIES) | طابور العرض للسماء |
+| [BACKGROUND](#BACKGROUND) | قائمة العرض للخلفية |
+| [GEOMETRIES](#GEOMETRIES) | قائمة العرض للهياكل |
+| [MAIN](#MAIN) | قائمة العرض للرئيسية |
+| [OPAQUE](#OPAQUE) | قائمة العرض للكائنات غير الشفافة |
+| [OVERLAY](#OVERLAY) | قائمة العرض للطبقات الفوقية |
+| [SKIES](#SKIES) | قائمة العرض للسماء |
 ## الطرق
 
 | طريقة | الوصف |
@@ -51,7 +51,7 @@ public static final RenderQueueGroupId BACKGROUND
 ```
 
 
-طابور العرض للخلفية
+قائمة العرض للخلفية
 
 ### GEOMETRIES {#GEOMETRIES}
 ```
@@ -59,7 +59,7 @@ public static final RenderQueueGroupId GEOMETRIES
 ```
 
 
-طابور العرض للهياكل
+قائمة العرض للهياكل
 
 ### MAIN {#MAIN}
 ```
@@ -67,7 +67,7 @@ public static final RenderQueueGroupId MAIN
 ```
 
 
-قائمة انتظار العرض للرئيسي
+قائمة العرض للرئيسية
 
 ### OPAQUE {#OPAQUE}
 ```
@@ -75,7 +75,7 @@ public static final RenderQueueGroupId OPAQUE
 ```
 
 
-قائمة انتظار العرض للكائنات غير الشفافة
+قائمة العرض للكائنات غير الشفافة
 
 ### OVERLAY {#OVERLAY}
 ```
@@ -83,7 +83,7 @@ public static final RenderQueueGroupId OVERLAY
 ```
 
 
-قائمة انتظار العرض للطبقات الفوقية
+قائمة العرض للطبقات الفوقية
 
 ### SKIES {#SKIES}
 ```
@@ -91,7 +91,7 @@ public static final RenderQueueGroupId SKIES
 ```
 
 
-طابور العرض للسماء
+قائمة العرض للسماء
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "ReferenceMode"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "يحدد كيفية تخزين معلومات التعيين والمرجعية بواسطة."
 type: docs
 weight: 296
@@ -19,8 +19,8 @@ public enum ReferenceMode extends Enum<ReferenceMode>
 | حقل | الوصف |
 | --- | --- |
 | [DIRECT](#DIRECT) | يتم الإشارة إلى البيانات مباشرةً |
-| [INDEX](#INDEX) | يتم الإشارة إلى البيانات بواسطة الفهرس |
-| [INDEX_TO_DIRECT](#INDEX-TO-DIRECT) | يتم الإشارة إلى البيانات بواسطة الفهرس، ثم يتم الوصول إليها بواسطة الفهرس في قائمة بيانات [VertexElement](../../com.aspose.threed/vertexelement). |
+| [INDEX](#INDEX) | يتم الإشارة إلى البيانات عبر الفهرس |
+| [INDEX_TO_DIRECT](#INDEX-TO-DIRECT) | يتم الإشارة إلى البيانات عبر الفهرس، ثم يتم الوصول إليها عبر الفهرس في قائمة بيانات [VertexElement](../../com.aspose.threed/vertexelement). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -56,7 +56,7 @@ public static final ReferenceMode INDEX
 ```
 
 
-يتم الإشارة إلى البيانات بواسطة الفهرس
+يتم الإشارة إلى البيانات عبر الفهرس
 
 ### INDEX_TO_DIRECT {#INDEX-TO-DIRECT}
 ```
@@ -64,7 +64,7 @@ public static final ReferenceMode INDEX_TO_DIRECT
 ```
 
 
-يتم الإشارة إلى البيانات بواسطة الفهرس، ثم يتم الوصول إليها بواسطة الفهرس في قائمة بيانات [VertexElement](../../com.aspose.threed/vertexelement).
+يتم الإشارة إلى البيانات عبر الفهرس، ثم يتم الوصول إليها عبر الفهرس في قائمة بيانات [VertexElement](../../com.aspose.threed/vertexelement).
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "NurbsDirection"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "كائن 3D  لديه اتجاهان الـ  و الـ  ، الـ  يحدد البيانات لكل اتجاه."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "كائن ثلاثي الأبعاد  يحتوي على اتجاهين، الـ  والـ ، حيث يحدد  البيانات لكل اتجاه."
 type: docs
 weight: 113
 url: /ar/java/com.aspose.threed/nurbsdirection/
@@ -13,7 +13,7 @@ java.lang.Object
 public class NurbsDirection
 ```
 
-كائن 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) لديه اتجاهان، الـ [NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) و [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV)، الـ [NurbsDirection](../../com.aspose.threed/nurbsdirection) يحدد البيانات لكل اتجاه. الاتجاه في الواقع هو منحنى NURBS، وهذا يعني أنه يُعرّف أيضًا بواسطة [getOrder](../../com.aspose.threed/nurbsdirection\#getOrder)، و [getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors)، ومجموعة من نقاط التحكم المرجحة (المعرفة في [NurbsSurface](../../com.aspose.threed/nurbssurface)).
+كائن ثلاثي الأبعاد [NurbsSurface](../../com.aspose.threed/nurbssurface) يحتوي على اتجاهين، الـ [NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) و [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV)، حيث يحدد [NurbsDirection](../../com.aspose.threed/nurbsdirection) البيانات لكل اتجاه. الاتجاه هو في الواقع منحنى NURBS، مما يعني أنه يُعرّف أيضًا بواسطة [getOrder](../../com.aspose.threed/nurbsdirection\#getOrder)، و [getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors)، ومجموعة من نقاط التحكم المرجّحة (المعرفة في [NurbsSurface](../../com.aspose.threed/nurbssurface)).
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,19 +26,19 @@ public class NurbsDirection
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | يحصل على عدد نقاط التحكم في الاتجاه الحالي. |
-| [getDegree()](#getDegree--) | يحصل على درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1 |
+| [getDegree()](#getDegree--) | يسترجع درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1 |
 | [getDivisions()](#getDivisions--) | يحصل على عدد الأقسام بين نقاط التحكم المتجاورة في الاتجاه الحالي. |
-| [getKnotVectors()](#getKnotVectors--) | يحصل على متجه العقد، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS. |
-| [getMultiplicity()](#getMultiplicity--) | يحصل على التعددية. |
-| [getOrder()](#getOrder--) | يحصل على ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى. |
+| [getKnotVectors()](#getKnotVectors--) | يسترجع متجه العقدة، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS. |
+| [getMultiplicity()](#getMultiplicity--) | يسترجع التعددية. |
+| [getOrder()](#getOrder--) | يسترجع ترتيب منحنى NURBS، يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى. |
 | [getType()](#getType--) | يحصل على نوع الاتجاه الحالي. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCount(int value)](#setCount-int-) | يضبط عدد نقاط التحكم في الاتجاه الحالي. |
-| [setDegree(int value)](#setDegree-int-) | يضبط درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1 |
+| [setDegree(int value)](#setDegree-int-) | يضبط درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1 |
 | [setDivisions(int value)](#setDivisions-int-) | يضبط عدد الأقسام بين نقاط التحكم المتجاورة في الاتجاه الحالي. |
-| [setOrder(int value)](#setOrder-int-) | يضبط ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى. |
+| [setOrder(int value)](#setOrder-int-) | يضبط ترتيب منحنى NURBS، يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى. |
 | [setType(NurbsType value)](#setType-com.aspose.threed.NurbsType-) | يضبط نوع الاتجاه الحالي. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -86,17 +86,17 @@ public int getCount()
 يحصل على عدد نقاط التحكم في الاتجاه الحالي.
 
 **Returns:**
-عدد صحيح - عدد نقاط التحكم في الاتجاه الحالي.
+صحيح - عدد نقاط التحكم في الاتجاه الحالي.
 ### getDegree() {#getDegree--}
 ```
 public int getDegree()
 ```
 
 
-يحصل على درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1
+يسترجع درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1
 
 **Returns:**
-int - درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1
+int - درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1
 ### getDivisions() {#getDivisions--}
 ```
 public int getDivisions()
@@ -113,17 +113,17 @@ public List<Double> getKnotVectors()
 ```
 
 
-يحصل على متجه العقد، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS.
+يسترجع متجه العقدة، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS.
 
 **Returns:**
-java.util.List<java.lang.Double> - متجه العقد، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS.
+java.util.List<java.lang.Double> - متجه العقدة، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS.
 ### getMultiplicity() {#getMultiplicity--}
 ```
 public List<Integer> getMultiplicity()
 ```
 
 
-يحصل على التعددية.
+يسترجع التعددية.
 
 **Returns:**
 java.util.List<java.lang.Integer> - التعددية.
@@ -133,10 +133,10 @@ public int getOrder()
 ```
 
 
-يحصل على ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
+يسترجع ترتيب منحنى NURBS، يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
 
 **Returns:**
-int - رتبة منحنى NURBS، تُحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة على المنحنى.
+int - رتبة منحنى NURBS، تُعرّف عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة على المنحنى.
 ### getType() {#getType--}
 ```
 public NurbsType getType()
@@ -184,7 +184,7 @@ public void setCount(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDegree(int value) {#setDegree-int-}
 ```
@@ -192,12 +192,12 @@ public void setDegree(int value)
 ```
 
 
-يضبط درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1
+يضبط درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDivisions(int value) {#setDivisions-int-}
 ```
@@ -210,7 +210,7 @@ public void setDivisions(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setOrder(int value) {#setOrder-int-}
 ```
@@ -218,12 +218,12 @@ public void setOrder(int value)
 ```
 
 
-يضبط ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
+يضبط ترتيب منحنى NURBS، يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setType(NurbsType value) {#setType-com.aspose.threed.NurbsType-}
 ```
@@ -236,7 +236,7 @@ public void setType(NurbsType value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [NurbsType](../../com.aspose.threed/nurbstype) | القيمة الجديدة |
+| value | [NurbsType](../../com.aspose.threed/nurbstype) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "Vector3"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "متجه ذو ثلاثة مكوّنات."
 type: docs
 weight: 202
@@ -21,10 +21,10 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 
 | منشئ | الوصف |
 | --- | --- |
-| [Vector3(double x, double y, double z)](#Vector3-double-double-double-) | يُنشئ مثلاً جديدًا من بنية [Vector3](../../com.aspose.threed/vector3). |
-| [Vector3(FVector3 vec)](#Vector3-com.aspose.threed.FVector3-) | يُنشئ مثلاً جديدًا من بنية [Vector3](../../com.aspose.threed/vector3). |
-| [Vector3(double v)](#Vector3-double-) | يُنشئ مثلاً جديدًا من بنية [Vector3](../../com.aspose.threed/vector3). |
-| [Vector3(Vector4 vec4)](#Vector3-com.aspose.threed.Vector4-) | يُنشئ مثلاً جديدًا من بنية [Vector3](../../com.aspose.threed/vector3). |
+| [Vector3(double x, double y, double z)](#Vector3-double-double-double-) | ينشئ مثلاً جديداً من البنية [Vector3](../../com.aspose.threed/vector3). |
+| [Vector3(FVector3 vec)](#Vector3-com.aspose.threed.FVector3-) | ينشئ مثلاً جديداً من البنية [Vector3](../../com.aspose.threed/vector3). |
+| [Vector3(double v)](#Vector3-double-) | ينشئ مثلاً جديداً من البنية [Vector3](../../com.aspose.threed/vector3). |
+| [Vector3(Vector4 vec4)](#Vector3-com.aspose.threed.Vector4-) | ينشئ مثلاً جديداً من البنية [Vector3](../../com.aspose.threed/vector3). |
 | [Vector3()](#Vector3--) |  |
 ## الحقول
 
@@ -44,36 +44,36 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 | [compareTo(Vector3 other)](#compareTo-com.aspose.threed.Vector3-) | قارن المتجه الحالي بمثيل آخر. |
 | [copyFrom(Vector3 src)](#copyFrom-com.aspose.threed.Vector3-) |  |
 | [cos()](#cos--) | يحسب جيب التمام لكل مكوّن. |
-| [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | مشغل تحويل صريح لتحويل Vector3 إلى FVector3 |
+| [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | مشغل تحويل صريح لتحويل Vector3 إلى FVector3. |
 | [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | حاصل الضرب المتقاطع لمتجهين. |
 | [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | إعادة تعريف المشغل لـ / |
 | [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | إعادة تعريف المشغل لـ / |
 | [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | يحصل على حاصل الضرب النقطي لمتجهين. |
-| [equals(Object obj)](#equals-java.lang.Object-) | تحقق مما إذا كان متجهان من النوع vector3 متساويين. |
+| [equals(Object obj)](#equals-java.lang.Object-) | تحقق مما إذا كان المتجهان vector3 متساويين. |
 | [get(int idx)](#get-int-) | يحصل على مكوّن المتجه حسب الفهرس. |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | يحصل على طول هذا المتجه. |
 | [getLength2()](#getLength2--) | يحصل على مربع الطول. |
-| [getOne()](#getOne--) | يحصل على المتجه الوحدوي (1, 1, 1) |
-| [getUnitX()](#getUnitX--) | يحصل على المتجه الوحدوي (1, 0, 0) |
-| [getUnitY()](#getUnitY--) | يحصل على المتجه الوحدوي (0, 1, 0) |
-| [getUnitZ()](#getUnitZ--) | يحصل على المتجه الوحدوي (0, 0, 1) |
-| [getZero()](#getZero--) | يحصل على المتجه الوحدوي (0, 0, 0) |
-| [hashCode()](#hashCode--) | يحصل على رمز التجزئة لـ Vector3 |
+| [getOne()](#getOne--) | يحصل على المتجه الوحدوي (1, 1, 1). |
+| [getUnitX()](#getUnitX--) | يحصل على المتجه الوحدوي (1, 0, 0). |
+| [getUnitY()](#getUnitY--) | يحصل على المتجه الوحدوي (0, 1, 0). |
+| [getUnitZ()](#getUnitZ--) | يحصل على المتجه الوحدوي (0, 0, 1). |
+| [getZero()](#getZero--) | يحصل على المتجه الوحدوي (0, 0, 0). |
+| [hashCode()](#hashCode--) | يحصل على قيمة التجزئة لـ Vector3. |
 | [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | إعادة تعريف المشغل لـ \* |
 | [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | إعادة تعريف المشغل لـ \* |
 | [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | إعادة تعريف المشغل لـ \* |
-| [negative(Vector3 v)](#negative-com.aspose.threed.Vector3-) | إعادة تعريف المشغل لـ - |
-| [normalize()](#normalize--) | يقوم بتطبيع هذه الحالة. |
+| [negative(Vector3 v)](#negative-com.aspose.threed.Vector3-) | تحميل المشغل للـ - |
+| [normalize()](#normalize--) | يقوم بتطبيع هذا الكائن. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_eq(Vector3 lhs, Vector3 rhs)](#op-eq-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | عامل المساواة لـ Vector3 |
-| [op_ne(Vector3 lhs, Vector3 rhs)](#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | عامل عدم المساواة لـ Vector3 |
-| [set(double newX, double newY, double newZ)](#set-double-double-double-) | يضبط مكوّنات x/y/z في استدعاء واحد. |
+| [op_eq(Vector3 lhs, Vector3 rhs)](#op-eq-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | المشغل المتساوي لـ Vector3 |
+| [op_ne(Vector3 lhs, Vector3 rhs)](#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | المشغل غير المتساوي لـ Vector3 |
+| [set(double newX, double newY, double newZ)](#set-double-double-double-) | يضبط مكوّن x/y/z في استدعاء واحد. |
 | [set(int idx, double value)](#set-int-double-) | يضبط مكوّن المتجه حسب الفهرس. |
-| [sin()](#sin--) | يحسب جيب الزاوية لكل مكوّن |
-| [sub(Vector3 lhs, Vector3 rhs)](#sub-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | تجاوز المشغل للـ - (ناقص) |
-| [toString()](#toString--) | يعيد java.lang.String يمثل الـ [Vector3](../../com.aspose.threed/vector3) الحالي. |
+| [sin()](#sin--) | يحسب الجيب لكل مكوّن |
+| [sub(Vector3 lhs, Vector3 rhs)](#sub-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | تحميل المشغل للـ - (ناقص) |
+| [toString()](#toString--) | يرجع كائن java.lang.String يمثل الـ [Vector3](../../com.aspose.threed/vector3) الحالي. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -83,7 +83,7 @@ public Vector3(double x, double y, double z)
 ```
 
 
-يُنشئ مثلاً جديدًا من بنية [Vector3](../../com.aspose.threed/vector3).
+ينشئ مثلاً جديداً من البنية [Vector3](../../com.aspose.threed/vector3).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -98,7 +98,7 @@ public Vector3(FVector3 vec)
 ```
 
 
-يُنشئ مثلاً جديدًا من بنية [Vector3](../../com.aspose.threed/vector3).
+ينشئ مثلاً جديداً من البنية [Vector3](../../com.aspose.threed/vector3).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -111,7 +111,7 @@ public Vector3(double v)
 ```
 
 
-يُنشئ مثلاً جديدًا من بنية [Vector3](../../com.aspose.threed/vector3).
+ينشئ مثلاً جديداً من البنية [Vector3](../../com.aspose.threed/vector3).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -124,7 +124,7 @@ public Vector3(Vector4 vec4)
 ```
 
 
-يُنشئ مثلاً جديدًا من بنية [Vector3](../../com.aspose.threed/vector3).
+ينشئ مثلاً جديداً من البنية [Vector3](../../com.aspose.threed/vector3).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -204,7 +204,7 @@ public double angleBetween(Vector3 dir, Vector3 up)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | dir | [Vector3](../../com.aspose.threed/vector3) | متجه الاتجاه للمقارنة معه |
-| up | [Vector3](../../com.aspose.threed/vector3) | متجه الصعود للسطح المشترك بين الاتجاهين |
+| up | [Vector3](../../com.aspose.threed/vector3) | متجه الصعود للسطح المشترك للاتجاهين |
 
 **Returns:**
 double - الزاوية الداخلية بالراديان
@@ -214,7 +214,7 @@ public Vector3 clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3)
@@ -262,7 +262,7 @@ public static FVector3 create(Vector3 v)
 ```
 
 
-مشغل تحويل صريح لتحويل Vector3 إلى FVector3
+مشغل تحويل صريح لتحويل Vector3 إلى FVector3.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -282,7 +282,7 @@ public Vector3 cross(Vector3 rhs)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الطرف الأيمن. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الجانب الأيمن. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Cross product of two [Vector3](../../com.aspose.threed/vector3)s.
@@ -329,17 +329,17 @@ public double dot(Vector3 rhs)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الطرف الأيمن. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الجانب الأيمن. |
 
 **Returns:**
-double - حاصل الضرب النقطي للمتجهين.
+double - ناتج الضرب النقطي للمتجهين.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-تحقق مما إذا كان متجهان من النوع vector3 متساويين.
+تحقق مما إذا كان المتجهان vector3 متساويين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -347,7 +347,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | الكائن للتحقق من المساواة. |
 
 **Returns:**
-boolean - صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+boolean - صحيح إذا كانت جميع المكونات متساوية تمامًا.
 ### get(int idx) {#get-int-}
 ```
 public double get(int idx)
@@ -399,7 +399,7 @@ public static Vector3 getOne()
 ```
 
 
-يحصل على المتجه الوحدوي (1, 1, 1)
+يحصل على المتجه الوحدوي (1, 1, 1).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (1, 1, 1)
@@ -409,7 +409,7 @@ public static Vector3 getUnitX()
 ```
 
 
-يحصل على المتجه الوحدوي (1, 0, 0)
+يحصل على المتجه الوحدوي (1, 0, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (1, 0, 0)
@@ -419,7 +419,7 @@ public static Vector3 getUnitY()
 ```
 
 
-يحصل على المتجه الوحدوي (0, 1, 0)
+يحصل على المتجه الوحدوي (0, 1, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 1, 0)
@@ -429,7 +429,7 @@ public static Vector3 getUnitZ()
 ```
 
 
-يحصل على المتجه الوحدوي (0, 0, 1)
+يحصل على المتجه الوحدوي (0, 0, 1).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 0, 1)
@@ -439,7 +439,7 @@ public static Vector3 getZero()
 ```
 
 
-يحصل على المتجه الوحدوي (0, 0, 0)
+يحصل على المتجه الوحدوي (0, 0, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 0, 0)
@@ -449,7 +449,7 @@ public int hashCode()
 ```
 
 
-يحصل على رمز التجزئة لـ Vector3
+يحصل على قيمة التجزئة لـ Vector3.
 
 **Returns:**
 int - رمز التجزئة لـ [Vector3](../../com.aspose.threed/vector3)
@@ -507,7 +507,7 @@ public static Vector3 negative(Vector3 v)
 ```
 
 
-إعادة تعريف المشغل لـ -
+تحميل المشغل للـ -
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -522,7 +522,7 @@ public Vector3 normalize()
 ```
 
 
-يقوم بتطبيع هذه الحالة.
+يقوم بتطبيع هذا الكائن.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Normalized vector.
@@ -548,29 +548,29 @@ public static boolean op_eq(Vector3 lhs, Vector3 rhs)
 ```
 
 
-عامل المساواة لـ Vector3
+المشغل المتساوي لـ Vector3
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الطرف الأيسر. |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الطرف الأيمن. |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الجانب الأيسر. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الجانب الأيمن. |
 
 **Returns:**
-boolean - صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+boolean - صحيح إذا كانت جميع المكونات متساوية تمامًا.
 ### op_ne(Vector3 lhs, Vector3 rhs) {#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-}
 ```
 public static boolean op_ne(Vector3 lhs, Vector3 rhs)
 ```
 
 
-عامل عدم المساواة لـ Vector3
+المشغل غير المتساوي لـ Vector3
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الطرف الأيسر. |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الطرف الأيمن. |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الجانب الأيسر. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | قيمة الجانب الأيمن. |
 
 **Returns:**
 boolean - صحيح إذا كان المتجهان غير متساويين.
@@ -580,7 +580,7 @@ public void set(double newX, double newY, double newZ)
 ```
 
 
-يضبط مكوّنات x/y/z في استدعاء واحد.
+يضبط مكوّن x/y/z في استدعاء واحد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -601,7 +601,7 @@ public void set(int idx, double value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | idx | int |  |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### sin() {#sin--}
 ```
@@ -609,7 +609,7 @@ public Vector3 sin()
 ```
 
 
-يحسب جيب الزاوية لكل مكوّن
+يحسب الجيب لكل مكوّن
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Calculated [Vector3](../../com.aspose.threed/vector3).
@@ -619,7 +619,7 @@ public static Vector3 sub(Vector3 lhs, Vector3 rhs)
 ```
 
 
-تجاوز المشغل للـ - (ناقص)
+تحميل المشغل للـ - (ناقص)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -635,10 +635,10 @@ public String toString()
 ```
 
 
-يعيد java.lang.String يمثل الـ [Vector3](../../com.aspose.threed/vector3) الحالي.
+يرجع كائن java.lang.String يمثل الـ [Vector3](../../com.aspose.threed/vector3) الحالي.
 
 **Returns:**
-java.lang.String - java.lang.String تمثل الـ [Vector3](../../com.aspose.threed/vector3) الحالي.
+java.lang.String - java.lang.String الذي يمثل الـ [Vector3](../../com.aspose.threed/vector3) الحالي.
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -1,6 +1,6 @@
 ---
 title: "VertexElementEdgeCrease"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "يحدد تجعد الحافة للمكوّنات المحددة"
 type: docs
 weight: 210
@@ -18,32 +18,32 @@ public class VertexElementEdgeCrease extends VertexElementDoublesTemplate
 
 | منشئ | الوصف |
 | --- | --- |
-| [VertexElementEdgeCrease()](#VertexElementEdgeCrease--) | ينشئ مثيلاً جديداً للفئة [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease). |
+| [VertexElementEdgeCrease()](#VertexElementEdgeCrease--) | ينشئ مثلاً جديدًا من الفئة [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [clear()](#clear--) | يزيل جميع العناصر من مصفوفات الـ direct والـ index. |
-| [clone(boolean withData)](#clone-boolean-) | إنشاء نسخة عميقة من عنصر القمة. |
+| [clear()](#clear--) | يزيل جميع العناصر من مصفوفات direct و index. |
+| [clone(boolean withData)](#clone-boolean-) | استنساخ عميق لعنصر الرأس |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
-| [copyTo(VertexElementDoublesTemplate target)](#copyTo-com.aspose.threed.VertexElementDoublesTemplate-) | ينسخ البيانات إلى العنصر المحدد. |
+| [copyTo(VertexElementDoublesTemplate target)](#copyTo-com.aspose.threed.VertexElementDoublesTemplate-) | ينسخ البيانات إلى العنصر المحدد |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | يحصل على بيانات القمة. |
-| [getIndices()](#getIndices--) | يحصل على بيانات الفهارس. |
-| [getMappingMode()](#getMappingMode--) | يحصل على طريقة تعيين العنصر. |
+| [getData()](#getData--) | يحصل على بيانات الرأس |
+| [getIndices()](#getIndices--) | يحصل على بيانات الفهارس |
+| [getMappingMode()](#getMappingMode--) | يحصل على كيفية تعيين العنصر. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getReferenceMode()](#getReferenceMode--) | يحصل على طريقة الإشارة إلى العنصر. |
-| [getVertexElementType()](#getVertexElementType--) | يحصل على نوع الـ [VertexElement](../../com.aspose.threed/vertexelement). |
+| [getReferenceMode()](#getReferenceMode--) | يحصل على كيفية إشارة العنصر. |
+| [getVertexElementType()](#getVertexElementType--) | يحصل على نوع الـ [VertexElement](../../com.aspose.threed/vertexelement) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(double[] data)](#setData-double---) | تحميل البيانات. |
-| [setIndices(int[] data)](#setIndices-int---) | تحميل الفهارس. |
-| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | يضبط طريقة تعيين العنصر. |
+| [setData(double[] data)](#setData-double---) | تحميل البيانات |
+| [setIndices(int[] data)](#setIndices-int---) | تحميل الفهارس |
+| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | يحدد كيفية تعيين العنصر. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | يضبط طريقة الإشارة إلى العنصر. |
-| [toString()](#toString--) | تمثيل نصي لعنصر القمة. |
+| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | يحدد كيفية إشارة العنصر. |
+| [toString()](#toString--) | تمثيل السلسلة لعنصر الرأس. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -53,7 +53,7 @@ public VertexElementEdgeCrease()
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease).
+ينشئ مثلاً جديدًا من الفئة [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease).
 
 ### clear() {#clear--}
 ```
@@ -61,7 +61,7 @@ public void clear()
 ```
 
 
-يزيل جميع العناصر من مصفوفات الـ direct والـ index.
+يزيل جميع العناصر من مصفوفات direct و index.
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -69,12 +69,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-إنشاء نسخة عميقة من عنصر القمة.
+استنساخ عميق لعنصر الرأس
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| withData | boolean | إنشاء نسخة من القمة مع مصفوفة الـ direct ومصفوفة الـ index. |
+| withData | boolean | استنساخ الرأس مع مصفوفة direct ومصفوفة index |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -100,7 +100,7 @@ public void copyTo(VertexElementDoublesTemplate target)
 ```
 
 
-ينسخ البيانات إلى العنصر المحدد.
+ينسخ البيانات إلى العنصر المحدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -138,27 +138,27 @@ public List<Double> getData()
 ```
 
 
-يحصل على بيانات القمة.
+يحصل على بيانات الرأس
 
 **Returns:**
-java.util.List<java.lang.Double> - بيانات القمة
+java.util.List<java.lang.Double> - بيانات الرأس
 ### getIndices() {#getIndices--}
 ```
 public List<Integer> getIndices()
 ```
 
 
-يحصل على بيانات الفهارس.
+يحصل على بيانات الفهارس
 
 **Returns:**
-java.util.List<java.lang.Integer> - بيانات الفهارس.
+java.util.List<java.lang.Integer> - بيانات الفهارس
 ### getMappingMode() {#getMappingMode--}
 ```
 public MappingMode getMappingMode()
 ```
 
 
-يحصل على طريقة تعيين العنصر.
+يحصل على كيفية تعيين العنصر.
 
 **Returns:**
 [MappingMode](../../com.aspose.threed/mappingmode) - how the element is mapped.
@@ -178,7 +178,7 @@ public ReferenceMode getReferenceMode()
 ```
 
 
-يحصل على طريقة الإشارة إلى العنصر.
+يحصل على كيفية إشارة العنصر.
 
 **Returns:**
 [ReferenceMode](../../com.aspose.threed/referencemode) - how the element is referenced.
@@ -188,7 +188,7 @@ public VertexElementType getVertexElementType()
 ```
 
 
-يحصل على نوع الـ [VertexElement](../../com.aspose.threed/vertexelement).
+يحصل على نوع الـ [VertexElement](../../com.aspose.threed/vertexelement)
 
 **Returns:**
 [VertexElementType](../../com.aspose.threed/vertexelementtype) - the type of the [VertexElement](../../com.aspose.threed/vertexelement)
@@ -224,7 +224,7 @@ public void setData(double[] data)
 ```
 
 
-تحميل البيانات.
+تحميل البيانات
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -237,7 +237,7 @@ public void setIndices(int[] data)
 ```
 
 
-تحميل الفهارس.
+تحميل الفهارس
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -250,12 +250,12 @@ public void setMappingMode(MappingMode value)
 ```
 
 
-يضبط طريقة تعيين العنصر.
+يحدد كيفية تعيين العنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [MappingMode](../../com.aspose.threed/mappingmode) | القيمة الجديدة |
+| value | [MappingMode](../../com.aspose.threed/mappingmode) | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -268,7 +268,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setReferenceMode(ReferenceMode value) {#setReferenceMode-com.aspose.threed.ReferenceMode-}
 ```
@@ -276,12 +276,12 @@ public void setReferenceMode(ReferenceMode value)
 ```
 
 
-يضبط طريقة الإشارة إلى العنصر.
+يحدد كيفية إشارة العنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ReferenceMode](../../com.aspose.threed/referencemode) | القيمة الجديدة |
+| value | [ReferenceMode](../../com.aspose.threed/referencemode) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```
@@ -289,7 +289,7 @@ public String toString()
 ```
 
 
-تمثيل نصي لعنصر القمة.
+تمثيل السلسلة لعنصر الرأس.
 
 **Returns:**
 java.lang.String

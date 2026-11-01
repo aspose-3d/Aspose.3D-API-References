@@ -1,7 +1,7 @@
 ---
-title: "Ellipse"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يحدد مجموعة من النقاط التي تشكل شكل القطع الناقص."
+title: "القطع الناقص"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يُعرّف  مجموعة من النقاط التي تُشكّل شكل القطع الناقص."
 type: docs
 weight: 49
 url: /ar/java/com.aspose.threed/ellipse/
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Ellipse extends Curve
 ```
 
-يحدد [Ellipse](../../com.aspose.threed/ellipse) مجموعة من النقاط التي تشكل شكل القطع الناقص.
+يُعرّف [القطع الناقص](../../com.aspose.threed/ellipse) مجموعة من النقاط التي تُشكّل شكل القطع الناقص.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [Ellipse()](#Ellipse--) | منشئ [Ellipse](../../com.aspose.threed/ellipse) |
-| [Ellipse(double semiAxis1, double semiAxis2)](#Ellipse-double-double-) | منشئ [Ellipse](../../com.aspose.threed/ellipse) |
+| [Ellipse()](#Ellipse--) | منشئ [القطع الناقص](../../com.aspose.threed/ellipse) |
+| [Ellipse(double semiAxis1, double semiAxis2)](#Ellipse-double-double-) | منشئ [القطع الناقص](../../com.aspose.threed/ellipse) |
 ## الطرق
 
 | طريقة | الوصف |
@@ -28,29 +28,29 @@ public class Ellipse extends Curve
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | يحصل على لون الخط، القيمة الافتراضية هي الأبيض(1, 1, 1) |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getColor()](#getColor--) | يسترجع لون الخط، القيمة الافتراضية هي الأبيض (1, 1, 1) |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getScene()](#getScene--) | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [getSemiAxis1()](#getSemiAxis1--) | نصف القطر على المحور X |
-| [getSemiAxis2()](#getSemiAxis2--) | نصف القطر على المحور Y |
+| [getSemiAxis1()](#getSemiAxis1--) | نصف القطر على محور X |
+| [getSemiAxis2()](#getSemiAxis2--) | نصف القطر على محور Y |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | يضبط لون الخط، القيمة الافتراضية هي الأبيض(1, 1, 1) |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | يضبط لون الخط، القيمة الافتراضية هي الأبيض (1, 1, 1) |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [setSemiAxis1(double value)](#setSemiAxis1-double-) | نصف القطر على المحور X |
-| [setSemiAxis2(double value)](#setSemiAxis2-double-) | نصف القطر على المحور Y |
+| [setSemiAxis1(double value)](#setSemiAxis1-double-) | نصف القطر على محور X |
+| [setSemiAxis2(double value)](#setSemiAxis2-double-) | نصف القطر على محور Y |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public Ellipse()
 ```
 
 
-منشئ [Ellipse](../../com.aspose.threed/ellipse)
+منشئ [القطع الناقص](../../com.aspose.threed/ellipse)
 
 ### Ellipse(double semiAxis1, double semiAxis2) {#Ellipse-double-double-}
 ```
@@ -69,7 +69,7 @@ public Ellipse(double semiAxis1, double semiAxis2)
 ```
 
 
-منشئ [Ellipse](../../com.aspose.threed/ellipse)
+منشئ [القطع الناقص](../../com.aspose.threed/ellipse)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -140,7 +140,7 @@ public Vector3 getColor()
 ```
 
 
-يحصل على لون الخط، القيمة الافتراضية هي الأبيض(1, 1, 1)
+يسترجع لون الخط، القيمة الافتراضية هي الأبيض (1, 1, 1)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the color of the line, default value is white(1, 1, 1)
@@ -150,7 +150,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -180,7 +180,7 @@ public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -190,10 +190,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -235,20 +235,20 @@ public double getSemiAxis1()
 ```
 
 
-نصف القطر على المحور X
+نصف القطر على محور X
 
 **Returns:**
-double - نصف القطر على المحور X
+double - نصف القطر على محور X
 ### getSemiAxis2() {#getSemiAxis2--}
 ```
 public double getSemiAxis2()
 ```
 
 
-نصف القطر على المحور Y
+نصف القطر على محور Y
 
 **Returns:**
-double - نصف القطر على المحور Y
+double - نصف القطر على محور Y
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -296,7 +296,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -311,12 +311,12 @@ public void setColor(Vector3 value)
 ```
 
 
-يضبط لون الخط، القيمة الافتراضية هي الأبيض(1, 1, 1)
+يضبط لون الخط، القيمة الافتراضية هي الأبيض (1, 1, 1)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -329,7 +329,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -342,7 +342,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -350,12 +350,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -369,7 +369,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setSemiAxis1(double value) {#setSemiAxis1-double-}
 ```
@@ -377,12 +377,12 @@ public void setSemiAxis1(double value)
 ```
 
 
-نصف القطر على المحور X
+نصف القطر على محور X
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setSemiAxis2(double value) {#setSemiAxis2-double-}
 ```
@@ -390,12 +390,12 @@ public void setSemiAxis2(double value)
 ```
 
 
-نصف القطر على المحور Y
+نصف القطر على محور Y
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

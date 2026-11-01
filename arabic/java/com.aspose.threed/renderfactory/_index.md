@@ -1,6 +1,6 @@
 ---
 title: "RenderFactory"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "RenderFactory ينشئ جميع الموارد التي تم تمثيلها في خط أنابيب العرض."
 type: docs
 weight: 148
@@ -24,17 +24,17 @@ RenderFactory ينشئ جميع الموارد التي تم تمثيلها في
 | طريقة | الوصف |
 | --- | --- |
 | [createCubeRenderTexture(RenderParameters parameters, int width, int height)](#createCubeRenderTexture-com.aspose.threed.RenderParameters-int-int-) | إنشاء هدف عرض يحتوي على قوام مكعب واحد |
-| [createDescriptorSet(ShaderProgram shader)](#createDescriptorSet-com.aspose.threed.ShaderProgram-) | إنشاء مجموعة الوصف للبرنامج الظلّي المحدد. |
-| [createIndexBuffer()](#createIndexBuffer--) | إنشاء مثيل [IIndexBuffer](../../com.aspose.threed/iindexbuffer) لتخزين معلومات وجوه المضلع. |
-| [createPipeline(ShaderProgram shader, RenderState renderState, VertexDeclaration vertexDeclaration, DrawOperation drawOperation)](#createPipeline-com.aspose.threed.ShaderProgram-com.aspose.threed.RenderState-com.aspose.threed.VertexDeclaration-com.aspose.threed.DrawOperation-) | إنشاء خط أنابيب رسومي مُعد مسبقًا مع ظل/حالة عرض/إعلان رأس مُعد مسبقًا وعمليات الرسم. |
-| [createRenderTexture(RenderParameters parameters, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-) | إنشاء هدف عرض يحتوي على هدف واحد يرسم إلى القوام |
-| [createRenderTexture(RenderParameters parameters, int targets, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-int-) | إنشاء هدف عرض يرسم إلى القوام |
-| [createRenderWindow(RenderParameters parameters, WindowHandle handle)](#createRenderWindow-com.aspose.threed.RenderParameters-com.aspose.threed.WindowHandle-) | إنشاء هدف عرض يرسم إلى النافذة الأصلية. |
+| [createDescriptorSet(ShaderProgram shader)](#createDescriptorSet-com.aspose.threed.ShaderProgram-) | إنشاء مجموعة الوصف للبرنامج الظلي المحدد. |
+| [createIndexBuffer()](#createIndexBuffer--) | إنشاء مثال [IIndexBuffer](../../com.aspose.threed/iindexbuffer) لتخزين معلومات وجوه المضلع. |
+| [createPipeline(ShaderProgram shader, RenderState renderState, VertexDeclaration vertexDeclaration, DrawOperation drawOperation)](#createPipeline-com.aspose.threed.ShaderProgram-com.aspose.threed.RenderState-com.aspose.threed.VertexDeclaration-com.aspose.threed.DrawOperation-) | إنشاء خط أنابيب رسومي مُعد مسبقًا مع الظل/حالة العرض/إعلان القمم المُعد مسبقًا وعمليات الرسم. |
+| [createRenderTexture(RenderParameters parameters, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-) | إنشاء هدف عرض يحتوي على هدف واحد يُظهر إلى القوام |
+| [createRenderTexture(RenderParameters parameters, int targets, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-int-) | إنشاء هدف عرض يُظهر إلى القوام |
+| [createRenderWindow(RenderParameters parameters, WindowHandle handle)](#createRenderWindow-com.aspose.threed.RenderParameters-com.aspose.threed.WindowHandle-) | إنشاء هدف عرض يُظهر إلى النافذة الأصلية. |
 | [createShaderProgram(ShaderSource shaderSource)](#createShaderProgram-com.aspose.threed.ShaderSource-) | إنشاء كائن [ShaderProgram](../../com.aspose.threed/shaderprogram) |
 | [createTextureUnit()](#createTextureUnit--) | إنشاء وحدة قوام ثنائية الأبعاد يمكن للظل الوصول إليها. |
 | [createTextureUnit(TextureType textureType)](#createTextureUnit-com.aspose.threed.TextureType-) | إنشاء وحدة قوام يمكن للظل الوصول إليها. |
-| [createUniformBuffer(int size)](#createUniformBuffer-int-) | إنشاء مخزن موحد جديد على جانب GPU بحجم مُخصص مسبقًا. |
-| [createVertexBuffer(VertexDeclaration declaration)](#createVertexBuffer-com.aspose.threed.VertexDeclaration-) | إنشاء مثيل [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) لتخزين معلومات رؤوس المضلع. |
+| [createUniformBuffer(int size)](#createUniformBuffer-int-) | إنشاء مخزن موحد جديد على جانب وحدة معالجة الرسومات بحجم مخصص مسبقًا. |
+| [createVertexBuffer(VertexDeclaration declaration)](#createVertexBuffer-com.aspose.threed.VertexDeclaration-) | إنشاء مثال [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) لتخزين معلومات رؤوس المضلع. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -73,12 +73,12 @@ public abstract IDescriptorSet createDescriptorSet(ShaderProgram shader)
 ```
 
 
-إنشاء مجموعة الوصف للبرنامج الظلّي المحدد.
+إنشاء مجموعة الوصف للبرنامج الظلي المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | برنامج المُظلل. |
+| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | برنامج المُظلِل |
 
 **Returns:**
 [IDescriptorSet](../../com.aspose.threed/idescriptorset) - A new descriptor set instance
@@ -88,7 +88,7 @@ public abstract IIndexBuffer createIndexBuffer()
 ```
 
 
-إنشاء مثيل [IIndexBuffer](../../com.aspose.threed/iindexbuffer) لتخزين معلومات وجوه المضلع.
+إنشاء مثال [IIndexBuffer](../../com.aspose.threed/iindexbuffer) لتخزين معلومات وجوه المضلع.
 
 **Returns:**
 [IIndexBuffer](../../com.aspose.threed/iindexbuffer)
@@ -98,14 +98,14 @@ public abstract IPipeline createPipeline(ShaderProgram shader, RenderState rende
 ```
 
 
-إنشاء خط أنابيب رسومي مُعد مسبقًا مع ظل/حالة عرض/إعلان رأس مُعد مسبقًا وعمليات الرسم.
+إنشاء خط أنابيب رسومي مُعد مسبقًا مع الظل/حالة العرض/إعلان القمم المُعد مسبقًا وعمليات الرسم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | الظل المستخدم في العرض |
 | renderState | [RenderState](../../com.aspose.threed/renderstate) | حالة العرض المستخدمة في العرض |
-| vertexDeclaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | إعلان الرأس لبيانات الرأس المدخلة |
+| vertexDeclaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | إعلان القمم لبيانات القمم المدخلة |
 | drawOperation | [DrawOperation](../../com.aspose.threed/drawoperation) | عملية الرسم |
 
 **Returns:**
@@ -116,7 +116,7 @@ public abstract IRenderTexture createRenderTexture(RenderParameters parameters, 
 ```
 
 
-إنشاء هدف عرض يحتوي على هدف واحد يرسم إلى القوام
+إنشاء هدف عرض يحتوي على هدف واحد يُظهر إلى القوام
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -133,13 +133,13 @@ public abstract IRenderTexture createRenderTexture(RenderParameters parameters, 
 ```
 
 
-إنشاء هدف عرض يرسم إلى القوام
+إنشاء هدف عرض يُظهر إلى القوام
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | parameters | [RenderParameters](../../com.aspose.threed/renderparameters) | معلمات العرض لإنشاء قوام العرض |
-| الأهداف | int | كم عدد أهداف الإخراج اللونية |
+| الأهداف | int | كم عدد أهداف إخراج اللون |
 | العرض | int | عرض قوام العرض |
 | الارتفاع | int | ارتفاع قوام العرض |
 
@@ -151,13 +151,13 @@ public abstract IRenderWindow createRenderWindow(RenderParameters parameters, Wi
 ```
 
 
-إنشاء هدف عرض يرسم إلى النافذة الأصلية.
+إنشاء هدف عرض يُظهر إلى النافذة الأصلية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | parameters | [RenderParameters](../../com.aspose.threed/renderparameters) | معلمات العرض لإنشاء نافذة العرض |
-| handle | [WindowHandle](../../com.aspose.threed/windowhandle) | معرّف النافذة للعرض |
+| handle | [WindowHandle](../../com.aspose.threed/windowhandle) | مقبض النافذة للعرض |
 
 **Returns:**
 [IRenderWindow](../../com.aspose.threed/irenderwindow)
@@ -172,7 +172,7 @@ public abstract ShaderProgram createShaderProgram(ShaderSource shaderSource)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| shaderSource | [ShaderSource](../../com.aspose.threed/shadersource) | الكود المصدري للـ shader |
+| shaderSource | [ShaderSource](../../com.aspose.threed/shadersource) | كود المصدر للمُظلِل |
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram)
@@ -197,7 +197,7 @@ public abstract ITextureUnit createTextureUnit(TextureType textureType)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| textureType | [TextureType](../../com.aspose.threed/texturetype) | نوع الملمس |
+| textureType | [TextureType](../../com.aspose.threed/texturetype) | نوع القوام |
 
 **Returns:**
 [ITextureUnit](../../com.aspose.threed/itextureunit)
@@ -207,7 +207,7 @@ public abstract IBuffer createUniformBuffer(int size)
 ```
 
 
-إنشاء مخزن موحد جديد على جانب GPU بحجم مُخصص مسبقًا.
+إنشاء مخزن موحد جديد على جانب وحدة معالجة الرسومات بحجم مخصص مسبقًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -222,7 +222,7 @@ public abstract IVertexBuffer createVertexBuffer(VertexDeclaration declaration)
 ```
 
 
-إنشاء مثيل [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) لتخزين معلومات رؤوس المضلع.
+إنشاء مثال [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) لتخزين معلومات رؤوس المضلع.
 
 **Parameters:**
 | معامل | نوع | الوصف |

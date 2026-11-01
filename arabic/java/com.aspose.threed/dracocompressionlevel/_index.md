@@ -1,6 +1,6 @@
 ---
 title: "DracoCompressionLevel"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "مستوى الضغط لملف دراكو"
 type: docs
 weight: 276
@@ -18,9 +18,9 @@ public enum DracoCompressionLevel extends Enum<DracoCompressionLevel>
 
 | حقل | الوصف |
 | --- | --- |
-| [FAST](#FAST) | سيقوم المشفر بإجراء ضغط بأسرع ما يمكن. |
+| [FAST](#FAST) | سيقوم المشفر بأداء الضغط بأسرع ما يمكن. |
 | [NO_COMPRESSION](#NO-COMPRESSION) | بدون ضغط، سيؤدي ذلك إلى الحد الأدنى من زمن الترميز. |
-| [OPTIMAL](#OPTIMAL) | سيقوم المشفر بضغط المشهد بشكل مثالي، مما قد يستغرق وقتًا أطول لإنهائه. |
+| [OPTIMAL](#OPTIMAL) | سيقوم المشفر بضغط المشهد بشكل أمثل، مما قد يستغرق وقتًا أطول لإنهائه. |
 | [STANDARD](#STANDARD) | الوضع القياسي، مع ضغط جيد وسرعة. |
 ## الطرق
 
@@ -49,7 +49,7 @@ public static final DracoCompressionLevel FAST
 ```
 
 
-سيقوم المشفر بإجراء ضغط بأسرع ما يمكن.
+سيقوم المشفر بأداء الضغط بأسرع ما يمكن.
 
 ### NO_COMPRESSION {#NO-COMPRESSION}
 ```
@@ -65,7 +65,7 @@ public static final DracoCompressionLevel OPTIMAL
 ```
 
 
-سيقوم المشفر بضغط المشهد بشكل مثالي، مما قد يستغرق وقتًا أطول لإنهائه.
+سيقوم المشفر بضغط المشهد بشكل أمثل، مما قد يستغرق وقتًا أطول لإنهائه.
 
 ### STANDARD {#STANDARD}
 ```

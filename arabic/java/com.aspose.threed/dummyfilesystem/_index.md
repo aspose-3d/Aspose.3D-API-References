@@ -1,7 +1,7 @@
 ---
 title: "DummyFileSystem"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "عمليات القراءة/الكتابة هي عمليات وهمية."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "عمليات القراءة/الكتابة هي عمليات تجريبية."
 type: docs
 weight: 46
 url: /ar/java/com.aspose.threed/dummyfilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class DummyFileSystem extends FileSystem
 ```
 
-عمليات القراءة/الكتابة هي عمليات وهمية. **Example:** يوضح الكود التالي كيفية تصدير الملف إلى الذاكرة، وتجاهل جميع توليد الملفات التابعة.
+عمليات القراءة/الكتابة هي عمليات تجريبية. **Example:** يوضح الكود التالي كيفية تصدير الملف إلى الذاكرة، وتجاهل جميع توليد الملفات التابعة.
 
 ```
 //create a scene with material
@@ -39,18 +39,18 @@ public class DummyFileSystem extends FileSystem
 
 | طريقة | الوصف |
 | --- | --- |
-| [close()](#close--) | قم بتحرير نظام الملفات وإصدار موارده. |
+| [close()](#close--) | تخلص من نظام الملفات وأطلق موارده. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | إنشاء تدفق لقراءة التبعيات. |
+| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | أنشئ تدفقًا لقراءة الاعتمادات. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | إنشاء تدفق لكتابة التبعيات. |
+| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | أنشئ تدفقًا لكتابة الاعتمادات. |
 ### DummyFileSystem() {#DummyFileSystem--}
 ```
 public DummyFileSystem()
@@ -63,7 +63,7 @@ public void close()
 ```
 
 
-قم بتحرير نظام الملفات وإصدار موارده.
+تخلص من نظام الملفات وأطلق موارده.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -122,7 +122,7 @@ public Stream readFile(String fileName, IOConfig options)
 ```
 
 
-إنشاء تدفق لقراءة التبعيات.
+أنشئ تدفقًا لقراءة الاعتمادات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -183,7 +183,7 @@ public Stream writeFile(String fileName, IOConfig options)
 ```
 
 
-إنشاء تدفق لكتابة التبعيات.
+أنشئ تدفقًا لكتابة الاعتمادات.
 
 **Parameters:**
 | معامل | نوع | الوصف |

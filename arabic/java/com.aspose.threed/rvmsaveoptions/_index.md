@@ -1,7 +1,7 @@
 ---
 title: "RvmSaveOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "خيارات الحفظ لملف RVM الخاص بـAveva PDMS."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "خيارات الحفظ لملف RVM الخاص بـ Aveva PDMS."
 type: docs
 weight: 158
 url: /ar/java/com.aspose.threed/rvmsaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class RvmSaveOptions extends SaveOptions
 ```
 
-خيارات الحفظ لملف Aveva PDMS RVM. **مثال:** يوضح الكود التالي كيفية تصدير السمة في RVM.
+خيارات الحفظ لملف Aveva PDMS RVM. **Example:** تُظهر الشيفرة التالية كيفية تصدير السمة في RVM.
 
 ```
 Scene scene = new Scene();
@@ -41,35 +41,35 @@ Scene scene = new Scene();
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttributeListFile()](#getAttributeListFile--) | يحصل على اسم ملف قائمة السمات، سيولد المُصدِّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null. |
-| [getAttributePrefix()](#getAttributePrefix--) | يحصل على البادئة للسمات التي سيتم تصديرها، الخاصية المصدَّرة لن تحتوي على أي بادئة، السمات المخصصة ذات البادئة المختلفة لن تُصدَّر، القيمة الافتراضية هي 'rvm:'. |
+| [getAttributeListFile()](#getAttributeListFile--) | يحصل على اسم ملف قائمة السمات، سيُنشئ المُصدِّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null. |
+| [getAttributePrefix()](#getAttributePrefix--) | يحصل على البادئة للسمات التي سيتم تصديرها، الخاصية المصدَّرة لن تحتوي على بادئة، السمات المخصصة ذات البادئة المختلفة لن تُصدَّر، القيمة الافتراضية هي 'rvm:'. |
 | [getAuthor()](#getAuthor--) | معلومات المؤلف، القيمة الافتراضية هي '3d@aspose' |
 | [getClass()](#getClass--) |  |
-| [getCreationTime()](#getCreationTime--) | الطابع الزمني الذي صدّر هذا الملف، القيمة الافتراضية هي الوقت الحالي |
+| [getCreationTime()](#getCreationTime--) | الطابع الزمني الذي صدر هذا الملف، القيمة الافتراضية هي الوقت الحالي |
 | [getEncoding()](#getEncoding--) | يحصل على الترميز الافتراضي للملفات النصية. |
 | [getExportAttributes()](#getExportAttributes--) | يحدد ما إذا كان سيتم تصدير قائمة السمات إلى ملف .att خارجي، القيمة الافتراضية هي false. |
 | [getExportTextures()](#getExportTextures--) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
-| [getFileName()](#getFileName--) | اسم ملف المشهد المصدر/المستورد. |
+| [getFileName()](#getFileName--) | اسم الملف للمشهد المصدر/المستورد. |
 | [getFileNote()](#getFileNote--) | ملاحظة الملف في رأس الملف. |
 | [getFileSystem()](#getFileSystem--) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | يحصل على فئة المصنع لنظام الملفات. |
-| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
+| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAttributeListFile(String value)](#setAttributeListFile-java.lang.String-) | يضبط اسم ملف قائمة السمات، سيقوم المصدّر بإنشاء اسم بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null. |
-| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | يضبط البادئة للسمات التي سيتم تصديرها، الخاصية المصدَّرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن تُصدَّر، القيمة الافتراضية هي 'rvm:'. |
+| [setAttributeListFile(String value)](#setAttributeListFile-java.lang.String-) | يضبط اسم ملف قائمة السمات، سيولد المصدّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null. |
+| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | يضبط البادئة للسمات التي سيتم تصديرها، الخاصية المصدرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن تُصدّر، القيمة الافتراضية هي 'rvm:'. |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | معلومات المؤلف، القيمة الافتراضية هي '3d@aspose' |
-| [setCreationTime(String value)](#setCreationTime-java.lang.String-) | الطابع الزمني الذي صدّر هذا الملف، القيمة الافتراضية هي الوقت الحالي |
+| [setCreationTime(String value)](#setCreationTime-java.lang.String-) | الطابع الزمني الذي صدر هذا الملف، القيمة الافتراضية هي الوقت الحالي |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | يضبط الترميز الافتراضي للملفات النصية. |
 | [setExportAttributes(boolean value)](#setExportAttributes-boolean-) | يضبط ما إذا كان سيتم تصدير قائمة السمات إلى ملف .att خارجي، القيمة الافتراضية هي false. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | اسم ملف المشهد المصدر/المستورد. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | اسم الملف للمشهد المصدر/المستورد. |
 | [setFileNote(String value)](#setFileNote-java.lang.String-) | ملاحظة الملف في رأس الملف. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | يضبط فئة المصنع لنظام الملفات. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -116,10 +116,10 @@ public String getAttributeListFile()
 ```
 
 
-يحصل على اسم ملف قائمة السمات، سيولد المُصدِّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null.
+يحصل على اسم ملف قائمة السمات، سيُنشئ المُصدِّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null.
 
 **Returns:**
-java.lang.String - اسم ملف قائمة السمات، سيقوم المصدّر بإنشاء اسم بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null. **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM.
+java.lang.String - اسم ملف قائمة السمات، سيولد المصدّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null. **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM.
 
 ```
 Scene scene = new Scene();
@@ -142,10 +142,10 @@ public String getAttributePrefix()
 ```
 
 
-يحدد البادئة للسمات التي سيتم تصديرها، الخاصية المصدَّرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن تُصدَّر، القيمة الافتراضية هي 'rvm:'. على سبيل المثال إذا كانت الخاصية rvm:Refno=345، ستكون السمة المصدَّرة Refno = 345، تُزال البادئة.
+يحدد البادئة للسمات التي سيتم تصديرها، الخاصية المصدرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن تُصدّر، القيمة الافتراضية هي 'rvm:'. على سبيل المثال إذا كانت الخاصية rvm:Refno=345، فإن السمة المصدرة ستكون Refno = 345، تُزال البادئة.
 
 **Returns:**
-java.lang.String - البادئة للسمات التي سيتم تصديرها، الخاصية المصدَّرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن تُصدَّر، القيمة الافتراضية هي 'rvm:'. على سبيل المثال إذا كانت الخاصية rvm:Refno=345، ستكون السمة المصدَّرة Refno = 345، تُزال البادئة. **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM.
+java.lang.String - البادئة للسمات التي سيتم تصديرها، الخاصية المصدرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن تُصدّر، القيمة الافتراضية هي 'rvm:'. على سبيل المثال إذا كانت الخاصية rvm:Refno=345، فإن السمة المصدرة ستكون Refno = 345، تُزال البادئة. **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM.
 
 ```
 Scene scene = new Scene();
@@ -204,10 +204,10 @@ public String getCreationTime()
 ```
 
 
-الطابع الزمني الذي صدّر هذا الملف، القيمة الافتراضية هي الوقت الحالي
+الطابع الزمني الذي صدر هذا الملف، القيمة الافتراضية هي الوقت الحالي
 
 **Returns:**
-java.lang.String - الطابع الزمني الذي صدّر هذا الملف، القيمة الافتراضية هي الوقت الحالي
+java.lang.String - الطابع الزمني الذي صدر هذا الملف، القيمة الافتراضية هي الوقت الحالي
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -270,10 +270,10 @@ public String getFileName()
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Returns:**
-java.lang.String - اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+java.lang.String - اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 ### getFileNote() {#getFileNote--}
 ```
 public String getFileNote()
@@ -340,7 +340,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -369,10 +369,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
+java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
 
 ```
 var opt = new ObjLoadOptions();
@@ -413,12 +413,12 @@ public void setAttributeListFile(String value)
 ```
 
 
-يضبط اسم ملف قائمة السمات، سيقوم المصدّر بإنشاء اسم بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null.
+يضبط اسم ملف قائمة السمات، سيولد المصدّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.lang.String | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
+|  | قيمة | java.lang.String | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
 
 ```
 Scene scene = new Scene();
@@ -442,12 +442,12 @@ public void setAttributePrefix(String value)
 ```
 
 
-يضبط البادئة للسمات التي سيتم تصديرها، الخاصية المصدَّرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن تُصدَّر، القيمة الافتراضية هي 'rvm:'. على سبيل المثال إذا كانت الخاصية rvm:Refno=345، ستكون السمة المصدَّرة Refno = 345، تُزال البادئة.
+يضبط البادئة للسمات التي سيتم تصديرها، الخاصية المصدرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن تُصدّر، القيمة الافتراضية هي 'rvm:'. على سبيل المثال إذا كانت الخاصية rvm:Refno=345، فإن السمة المصدرة ستكون Refno = 345، تُزال البادئة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.lang.String | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
+|  | قيمة | java.lang.String | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
 
 ```
 Scene scene = new Scene();
@@ -476,7 +476,7 @@ public void setAuthor(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.lang.String | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
+|  | قيمة | java.lang.String | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
 
 ```
 Scene scene = new Scene();
@@ -500,12 +500,12 @@ public void setCreationTime(String value)
 ```
 
 
-الطابع الزمني الذي صدّر هذا الملف، القيمة الافتراضية هي الوقت الحالي
+الطابع الزمني الذي صدر هذا الملف، القيمة الافتراضية هي الوقت الحالي
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -513,12 +513,12 @@ public void setEncoding(Charset value)
 ```
 
 
-يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يستخدم.
+يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يُستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.nio.charset.Charset | القيمة الجديدة |
+| قيمة | java.nio.charset.Charset | قيمة جديدة |
 
 ### setExportAttributes(boolean value) {#setExportAttributes-boolean-}
 ```
@@ -531,7 +531,7 @@ public void setExportAttributes(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | boolean | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
+|  | قيمة | boolean | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
 
 ```
 Scene scene = new Scene();
@@ -560,7 +560,7 @@ public void setExportTextures(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -568,12 +568,12 @@ public void setFileName(String value)
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFileNote(String value) {#setFileNote-java.lang.String-}
 ```
@@ -586,7 +586,7 @@ public void setFileNote(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.lang.String | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
+|  | قيمة | java.lang.String | قيمة جديدة **Example:** يوضح الكود التالي كيفية تصدير السمة في RVM. |
 
 ```
 Scene scene = new Scene();
@@ -615,7 +615,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | New value **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، ولكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | قيمة جديدة **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، لكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -647,12 +647,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | New value **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | قيمة جديدة **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -679,12 +679,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.util.ArrayList<java.lang.String> | New value **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
+|  | قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
 
 ```
 var opt = new ObjLoadOptions();

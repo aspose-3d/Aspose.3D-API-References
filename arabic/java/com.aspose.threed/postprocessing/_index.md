@@ -1,6 +1,6 @@
 ---
 title: "PostProcessing"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تأثيرات ما بعد المعالجة"
 type: docs
 weight: 136
@@ -26,7 +26,7 @@ public abstract class PostProcessing extends A3DObject
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [getClass()](#getClass--) |  |
-| [getInput()](#getInput--) | إدخال هذه المعالجة اللاحقة |
+| [getInput()](#getInput--) | مدخلات هذه المعالجة اللاحقة |
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
@@ -34,8 +34,8 @@ public abstract class PostProcessing extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [setInput(ITextureUnit value)](#setInput-com.aspose.threed.ITextureUnit-) | إدخال هذه المعالجة اللاحقة |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [setInput(ITextureUnit value)](#setInput-com.aspose.threed.ITextureUnit-) | مدخلات هذه المعالجة اللاحقة |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
@@ -69,7 +69,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -94,7 +94,7 @@ public abstract ITextureUnit getInput()
 ```
 
 
-إدخال هذه المعالجة اللاحقة
+مدخلات هذه المعالجة اللاحقة
 
 **Returns:**
 [ITextureUnit](../../com.aspose.threed/itextureunit) - Input of this post-processing
@@ -180,7 +180,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -195,12 +195,12 @@ public abstract void setInput(ITextureUnit value)
 ```
 
 
-إدخال هذه المعالجة اللاحقة
+مدخلات هذه المعالجة اللاحقة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ITextureUnit](../../com.aspose.threed/itextureunit) | القيمة الجديدة |
+| value | [ITextureUnit](../../com.aspose.threed/itextureunit) | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -213,7 +213,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -227,7 +227,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "CubeFaceData"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "البيانات لكل وجه من نسيج خريطة المكعب."
 type: docs
 weight: 36
@@ -30,35 +30,35 @@ public final class CubeFaceData<T> implements Struct<CubeFaceData<T>>, Serializa
 | [copyFrom(CubeFaceData<T> src)](#copyFrom-com.aspose.threed.CubeFaceData-T--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [get(CubeFace face)](#get-com.aspose.threed.CubeFace-) | يحصل على البيانات للوجه المحدد |
-| [getBack()](#getBack--) | يحصل على البيانات للوجه +Z (الخلفي) |
-| [getBottom()](#getBottom--) | يحصل على البيانات للوجه -Y (السفلي) |
+| [getBack()](#getBack--) | يحصل على البيانات للوجه +Z(Back) |
+| [getBottom()](#getBottom--) | يحصل على البيانات للوجه -Y(Bottom) |
 | [getClass()](#getClass--) |  |
-| [getFront()](#getFront--) | يحصل على البيانات للوجه -Z (الأمامي) |
-| [getLeft()](#getLeft--) | يحصل على البيانات للوجه +X (الأيسر) |
-| [getNegativeX()](#getNegativeX--) | يحصل على البيانات للوجه +X (الأيسر) |
-| [getNegativeY()](#getNegativeY--) | يحصل على البيانات للوجه -Y (السفلي) |
-| [getNegativeZ()](#getNegativeZ--) | يحصل على البيانات للوجه -Z (الأمامي) |
-| [getPositiveX()](#getPositiveX--) | يحصل على البيانات للوجه +X (الأيمن) |
-| [getPositiveY()](#getPositiveY--) | يحصل على البيانات للوجه +Y (الأعلى) |
-| [getPositiveZ()](#getPositiveZ--) | يحصل على البيانات للوجه +Z (الخلفي) |
-| [getRight()](#getRight--) | يحصل على البيانات للوجه +X (الأيمن) |
-| [getTop()](#getTop--) | يحصل على البيانات للوجه +Y (الأعلى) |
+| [getFront()](#getFront--) | يحصل على البيانات للوجه -Z(Front) |
+| [getLeft()](#getLeft--) | يحصل على البيانات للوجه +X(Left) |
+| [getNegativeX()](#getNegativeX--) | يحصل على البيانات للوجه +X(Left) |
+| [getNegativeY()](#getNegativeY--) | يحصل على البيانات للوجه -Y(Bottom) |
+| [getNegativeZ()](#getNegativeZ--) | يحصل على البيانات للوجه -Z(Front) |
+| [getPositiveX()](#getPositiveX--) | يحصل على البيانات للوجه +X(Right) |
+| [getPositiveY()](#getPositiveY--) | يحصل على البيانات للوجه +Y(Top) |
+| [getPositiveZ()](#getPositiveZ--) | يحصل على البيانات للوجه +Z(Back) |
+| [getRight()](#getRight--) | يحصل على البيانات للوجه +X(Right) |
+| [getTop()](#getTop--) | يحصل على البيانات للوجه +Y(Top) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(CubeFace face, T value)](#set-com.aspose.threed.CubeFace-T-) | يضبط البيانات للوجه المحدد. |
-| [setBack(T value)](#setBack-T-) | يضبط البيانات للوجه +Z (الخلفي). |
-| [setBottom(T value)](#setBottom-T-) | يضبط البيانات للوجه -Y (السفلي). |
-| [setFront(T value)](#setFront-T-) | يضبط البيانات للوجه -Z(الأمام) |
-| [setLeft(T value)](#setLeft-T-) | يضبط البيانات للوجه +X(اليسار) |
-| [setNegativeX(T value)](#setNegativeX-T-) | يضبط البيانات للوجه +X(اليسار) |
-| [setNegativeY(T value)](#setNegativeY-T-) | يضبط البيانات للوجه -Y (السفلي). |
-| [setNegativeZ(T value)](#setNegativeZ-T-) | يضبط البيانات للوجه -Z(الأمام) |
-| [setPositiveX(T value)](#setPositiveX-T-) | يضبط البيانات للوجه +X(اليمين) |
-| [setPositiveY(T value)](#setPositiveY-T-) | يضبط البيانات للوجه +Y(الأعلى) |
-| [setPositiveZ(T value)](#setPositiveZ-T-) | يضبط البيانات للوجه +Z (الخلفي). |
-| [setRight(T value)](#setRight-T-) | يضبط البيانات للوجه +X(اليمين) |
-| [setTop(T value)](#setTop-T-) | يضبط البيانات للوجه +Y(الأعلى) |
+| [set(CubeFace face, T value)](#set-com.aspose.threed.CubeFace-T-) | يضبط البيانات للوجه المحدد |
+| [setBack(T value)](#setBack-T-) | يضبط البيانات للوجه +Z(Back) |
+| [setBottom(T value)](#setBottom-T-) | يضبط البيانات للوجه -Y(Bottom) |
+| [setFront(T value)](#setFront-T-) | يضبط البيانات للوجه -Z(Front) |
+| [setLeft(T value)](#setLeft-T-) | يضبط البيانات للوجه +X(Left) |
+| [setNegativeX(T value)](#setNegativeX-T-) | يضبط البيانات للوجه +X(Left) |
+| [setNegativeY(T value)](#setNegativeY-T-) | يضبط البيانات للوجه -Y(Bottom) |
+| [setNegativeZ(T value)](#setNegativeZ-T-) | يضبط البيانات للوجه -Z(Front) |
+| [setPositiveX(T value)](#setPositiveX-T-) | يضبط البيانات للوجه +X(Right) |
+| [setPositiveY(T value)](#setPositiveY-T-) | يضبط البيانات للوجه +Y(Top) |
+| [setPositiveZ(T value)](#setPositiveZ-T-) | يضبط البيانات للوجه +Z(Back) |
+| [setRight(T value)](#setRight-T-) | يضبط البيانات للوجه +X(Right) |
+| [setTop(T value)](#setTop-T-) | يضبط البيانات للوجه +Y(Top) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public CubeFaceData<T> clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [CubeFaceData](../../com.aspose.threed/cubefacedata)
@@ -128,20 +128,20 @@ public T getBack()
 ```
 
 
-يحصل على البيانات للوجه +Z (الخلفي)
+يحصل على البيانات للوجه +Z(Back)
 
 **Returns:**
-T - البيانات للوجه +Z(الخلف)
+T - البيانات للوجه +Z(Back)
 ### getBottom() {#getBottom--}
 ```
 public T getBottom()
 ```
 
 
-يحصل على البيانات للوجه -Y (السفلي)
+يحصل على البيانات للوجه -Y(Bottom)
 
 **Returns:**
-T - البيانات للوجه -Y(الأسفل)
+T - البيانات للوجه -Y(Bottom)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -158,100 +158,100 @@ public T getFront()
 ```
 
 
-يحصل على البيانات للوجه -Z (الأمامي)
+يحصل على البيانات للوجه -Z(Front)
 
 **Returns:**
-T - البيانات للوجه -Z(الأمام)
+T - البيانات للوجه -Z(Front)
 ### getLeft() {#getLeft--}
 ```
 public T getLeft()
 ```
 
 
-يحصل على البيانات للوجه +X (الأيسر)
+يحصل على البيانات للوجه +X(Left)
 
 **Returns:**
-T - البيانات للوجه +X(اليسار)
+T - البيانات للوجه +X(Left)
 ### getNegativeX() {#getNegativeX--}
 ```
 public T getNegativeX()
 ```
 
 
-يحصل على البيانات للوجه +X (الأيسر)
+يحصل على البيانات للوجه +X(Left)
 
 **Returns:**
-T - البيانات للوجه +X(اليسار)
+T - البيانات للوجه +X(Left)
 ### getNegativeY() {#getNegativeY--}
 ```
 public T getNegativeY()
 ```
 
 
-يحصل على البيانات للوجه -Y (السفلي)
+يحصل على البيانات للوجه -Y(Bottom)
 
 **Returns:**
-T - البيانات للوجه -Y(الأسفل)
+T - البيانات للوجه -Y(Bottom)
 ### getNegativeZ() {#getNegativeZ--}
 ```
 public T getNegativeZ()
 ```
 
 
-يحصل على البيانات للوجه -Z (الأمامي)
+يحصل على البيانات للوجه -Z(Front)
 
 **Returns:**
-T - البيانات للوجه -Z(الأمام)
+T - البيانات للوجه -Z(Front)
 ### getPositiveX() {#getPositiveX--}
 ```
 public T getPositiveX()
 ```
 
 
-يحصل على البيانات للوجه +X (الأيمن)
+يحصل على البيانات للوجه +X(Right)
 
 **Returns:**
-T - البيانات للوجه +X(اليمين)
+T - البيانات للوجه +X(Right)
 ### getPositiveY() {#getPositiveY--}
 ```
 public T getPositiveY()
 ```
 
 
-يحصل على البيانات للوجه +Y (الأعلى)
+يحصل على البيانات للوجه +Y(Top)
 
 **Returns:**
-T - البيانات للوجه +Y(الأعلى)
+T - البيانات للوجه +Y(Top)
 ### getPositiveZ() {#getPositiveZ--}
 ```
 public T getPositiveZ()
 ```
 
 
-يحصل على البيانات للوجه +Z (الخلفي)
+يحصل على البيانات للوجه +Z(Back)
 
 **Returns:**
-T - البيانات للوجه +Z(الخلف)
+T - البيانات للوجه +Z(Back)
 ### getRight() {#getRight--}
 ```
 public T getRight()
 ```
 
 
-يحصل على البيانات للوجه +X (الأيمن)
+يحصل على البيانات للوجه +X(Right)
 
 **Returns:**
-T - البيانات للوجه +X(اليمين)
+T - البيانات للوجه +X(Right)
 ### getTop() {#getTop--}
 ```
 public T getTop()
 ```
 
 
-يحصل على البيانات للوجه +Y (الأعلى)
+يحصل على البيانات للوجه +Y(Top)
 
 **Returns:**
-T - البيانات للوجه +Y(الأعلى)
+T - البيانات للوجه +Y(Top)
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -284,13 +284,13 @@ public void set(CubeFace face, T value)
 ```
 
 
-يضبط البيانات للوجه المحدد.
+يضبط البيانات للوجه المحدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | face | [CubeFace](../../com.aspose.threed/cubeface) |  |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setBack(T value) {#setBack-T-}
 ```
@@ -298,12 +298,12 @@ public void setBack(T value)
 ```
 
 
-يضبط البيانات للوجه +Z (الخلفي).
+يضبط البيانات للوجه +Z(Back)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setBottom(T value) {#setBottom-T-}
 ```
@@ -311,12 +311,12 @@ public void setBottom(T value)
 ```
 
 
-يضبط البيانات للوجه -Y (السفلي).
+يضبط البيانات للوجه -Y(Bottom)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setFront(T value) {#setFront-T-}
 ```
@@ -324,12 +324,12 @@ public void setFront(T value)
 ```
 
 
-يضبط البيانات للوجه -Z(الأمام)
+يضبط البيانات للوجه -Z(Front)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setLeft(T value) {#setLeft-T-}
 ```
@@ -337,12 +337,12 @@ public void setLeft(T value)
 ```
 
 
-يضبط البيانات للوجه +X(اليسار)
+يضبط البيانات للوجه +X(Left)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setNegativeX(T value) {#setNegativeX-T-}
 ```
@@ -350,12 +350,12 @@ public void setNegativeX(T value)
 ```
 
 
-يضبط البيانات للوجه +X(اليسار)
+يضبط البيانات للوجه +X(Left)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setNegativeY(T value) {#setNegativeY-T-}
 ```
@@ -363,12 +363,12 @@ public void setNegativeY(T value)
 ```
 
 
-يضبط البيانات للوجه -Y (السفلي).
+يضبط البيانات للوجه -Y(Bottom)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setNegativeZ(T value) {#setNegativeZ-T-}
 ```
@@ -376,12 +376,12 @@ public void setNegativeZ(T value)
 ```
 
 
-يضبط البيانات للوجه -Z(الأمام)
+يضبط البيانات للوجه -Z(Front)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setPositiveX(T value) {#setPositiveX-T-}
 ```
@@ -389,12 +389,12 @@ public void setPositiveX(T value)
 ```
 
 
-يضبط البيانات للوجه +X(اليمين)
+يضبط البيانات للوجه +X(Right)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setPositiveY(T value) {#setPositiveY-T-}
 ```
@@ -402,12 +402,12 @@ public void setPositiveY(T value)
 ```
 
 
-يضبط البيانات للوجه +Y(الأعلى)
+يضبط البيانات للوجه +Y(Top)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setPositiveZ(T value) {#setPositiveZ-T-}
 ```
@@ -415,12 +415,12 @@ public void setPositiveZ(T value)
 ```
 
 
-يضبط البيانات للوجه +Z (الخلفي).
+يضبط البيانات للوجه +Z(Back)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setRight(T value) {#setRight-T-}
 ```
@@ -428,12 +428,12 @@ public void setRight(T value)
 ```
 
 
-يضبط البيانات للوجه +X(اليمين)
+يضبط البيانات للوجه +X(Right)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### setTop(T value) {#setTop-T-}
 ```
@@ -441,12 +441,12 @@ public void setTop(T value)
 ```
 
 
-يضبط البيانات للوجه +Y(الأعلى)
+يضبط البيانات للوجه +Y(Top)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة الجديدة |
+| قيمة | T | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "MaterialConverter"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "محول مخصص لتحويل مادة الشكل الأصلي إلى مادة PBR الخاصة بـ GLTFs."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "محول مخصص لتحويل المادة الأصلية للهندسة إلى مادة GLTFs PBR."
 type: docs
 weight: 260
 url: /ar/java/com.aspose.threed/materialconverter/
@@ -27,7 +27,7 @@ public abstract Material call(Material mat)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| mat | [Material](../../com.aspose.threed/material) | مثيل المادة القديمة |
+| mat | [Material](../../com.aspose.threed/material) | مثيل المادة القديم |
 
 **Returns:**
 [Material](../../com.aspose.threed/material) - New material instance

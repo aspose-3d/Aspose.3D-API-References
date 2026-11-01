@@ -1,7 +1,7 @@
 ---
 title: "SweptAreaSolid"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "A  ينشئ هندسة عن طريق مسح ملف تعريف على طول خط مباشر."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "أ  ينشئ هندسة عن طريق مسح ملف تعريف على طول خط مباشر."
 type: docs
 weight: 181
 url: /ar/java/com.aspose.threed/sweptareasolid/
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class SweptAreaSolid extends Entity implements IMeshConvertible
 ```
 
-A [SweptAreaSolid](../../com.aspose.threed/sweptareasolid) ينشئ هندسة عن طريق مسح ملف تعريف على طول خط مباشر. **Example:** يوضح الشيفرة التالية كيفية نمذجة كيان صلب عن طريق مسح شكل C على دائرة
+أ [SweptAreaSolid](../../com.aspose.threed/sweptareasolid) ينشئ هندسة عن طريق مسح ملف تعريف على طول خط مباشر. **Example:** يوضح الكود التالي كيفية نمذجة كيان صلب عن طريق مسح شكل C على دائرة
 
 ```
 var directrix = new Circle(20);
@@ -45,32 +45,32 @@ var directrix = new Circle(20);
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getClass()](#getClass--) |  |
-| [getDirectrix()](#getDirectrix--) | الخط المباشر الذي تُسحب المنطقة الضامّة على طوله. |
+| [getDirectrix()](#getDirectrix--) | الخط المباشر الذي يتم مسح المنطقة على طوله. |
 | [getEndPoint()](#getEndPoint--) | نقطة النهاية للخط المباشر. |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getScene()](#getScene--) | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [getShape()](#getShape--) | الملف الأساسي لإنشاء الهندسة. |
+| [getShape()](#getShape--) | الملف التعريفي الأساسي لإنشاء الهندسة. |
 | [getStartPoint()](#getStartPoint--) | نقطة البداية للخط المباشر. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [setDirectrix(Curve value)](#setDirectrix-com.aspose.threed.Curve-) | الخط المباشر الذي تُسحب المنطقة الضامّة على طوله. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [setDirectrix(Curve value)](#setDirectrix-com.aspose.threed.Curve-) | الخط المباشر الذي يتم مسح المنطقة على طوله. |
 | [setEndPoint(EndPoint value)](#setEndPoint-com.aspose.threed.EndPoint-) | نقطة النهاية للخط المباشر. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | الملف الأساسي لإنشاء الهندسة. |
+| [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | الملف التعريفي الأساسي لإنشاء الهندسة. |
 | [setStartPoint(EndPoint value)](#setStartPoint-com.aspose.threed.EndPoint-) | نقطة البداية للخط المباشر. |
-| [toMesh()](#toMesh--) | تحويل الكائن الحالي إلى شبكة |
+| [toMesh()](#toMesh--) | حوّل الكائن الحالي إلى شبكة |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -102,7 +102,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -144,7 +144,7 @@ public Curve getDirectrix()
 ```
 
 
-الخط المباشر الذي تُسحب المنطقة الضامّة على طوله.
+الخط المباشر الذي يتم مسح المنطقة على طوله.
 
 **Returns:**
 [Curve](../../com.aspose.threed/curve) - The directrix that the swept area sweeping along with.
@@ -164,7 +164,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -194,7 +194,7 @@ public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -204,10 +204,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -249,7 +249,7 @@ public Profile getShape()
 ```
 
 
-الملف الأساسي لإنشاء الهندسة.
+الملف التعريفي الأساسي لإنشاء الهندسة.
 
 **Returns:**
 [Profile](../../com.aspose.threed/profile) - The base profile to construct the geometry.
@@ -310,7 +310,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -325,12 +325,12 @@ public void setDirectrix(Curve value)
 ```
 
 
-الخط المباشر الذي تُسحب المنطقة الضامّة على طوله.
+الخط المباشر الذي يتم مسح المنطقة على طوله.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Curve](../../com.aspose.threed/curve) | القيمة الجديدة |
+| value | [Curve](../../com.aspose.threed/curve) | قيمة جديدة |
 
 ### setEndPoint(EndPoint value) {#setEndPoint-com.aspose.threed.EndPoint-}
 ```
@@ -343,7 +343,7 @@ public void setEndPoint(EndPoint value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [EndPoint](../../com.aspose.threed/endpoint) | القيمة الجديدة |
+| value | [EndPoint](../../com.aspose.threed/endpoint) | قيمة جديدة |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -356,7 +356,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -369,7 +369,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -377,12 +377,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -396,7 +396,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setShape(Profile value) {#setShape-com.aspose.threed.Profile-}
 ```
@@ -404,12 +404,12 @@ public void setShape(Profile value)
 ```
 
 
-الملف الأساسي لإنشاء الهندسة.
+الملف التعريفي الأساسي لإنشاء الهندسة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Profile](../../com.aspose.threed/profile) | القيمة الجديدة |
+| value | [Profile](../../com.aspose.threed/profile) | قيمة جديدة |
 
 ### setStartPoint(EndPoint value) {#setStartPoint-com.aspose.threed.EndPoint-}
 ```
@@ -422,7 +422,7 @@ public void setStartPoint(EndPoint value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [EndPoint](../../com.aspose.threed/endpoint) | القيمة الجديدة |
+| value | [EndPoint](../../com.aspose.threed/endpoint) | قيمة جديدة |
 
 ### toMesh() {#toMesh--}
 ```
@@ -430,7 +430,7 @@ public Mesh toMesh()
 ```
 
 
-تحويل الكائن الحالي إلى شبكة
+حوّل الكائن الحالي إلى شبكة
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

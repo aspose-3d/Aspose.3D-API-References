@@ -1,7 +1,7 @@
 ---
-title: "مقبض النافذة"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مقبض نافذة مغلق لمنصات مختلفة."
+title: "WindowHandle"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مقبض نافذة مُغلق لمنصات مختلفة."
 type: docs
 weight: 232
 url: /ar/java/com.aspose.threed/windowhandle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WindowHandle
 ```
 
-مقبض نافذة مغلق لمنصات مختلفة.
+مقبض نافذة مُغلق لمنصات مختلفة.
 ## الطرق
 
 | طريقة | الوصف |

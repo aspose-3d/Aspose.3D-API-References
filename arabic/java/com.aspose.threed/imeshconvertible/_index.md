@@ -1,6 +1,6 @@
 ---
 title: "IMeshConvertible"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الكائنات التي نفذت هذه الواجهة يمكن تحويلها إلى"
 type: docs
 weight: 244
@@ -15,14 +15,14 @@ public interface IMeshConvertible
 
 | طريقة | الوصف |
 | --- | --- |
-| [toMesh()](#toMesh--) | تحويل الكائن الحالي إلى شبكة |
+| [toMesh()](#toMesh--) | حوّل الكائن الحالي إلى شبكة |
 ### toMesh() {#toMesh--}
 ```
 public abstract Mesh toMesh()
 ```
 
 
-تحويل الكائن الحالي إلى شبكة
+حوّل الكائن الحالي إلى شبكة
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

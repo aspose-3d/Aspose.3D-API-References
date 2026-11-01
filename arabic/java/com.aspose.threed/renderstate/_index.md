@@ -1,6 +1,6 @@
 ---
 title: "RenderState"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "حالة العرض لبناء خط الأنابيب. التغييرات التي تُجرى على حالة العرض لن تؤثر على مثيلات خط الأنابيب المُنشأة."
 type: docs
 weight: 151
@@ -16,7 +16,7 @@ java.io.Closeable, java.lang.Comparable
 public class RenderState implements Closeable, Comparable<RenderState>
 ```
 
-حالة العرض لبناء خط الأنابيب التغييرات التي تُجرى على حالة العرض لن تؤثر على نسخ خط الأنابيب المُنشأة.
+حالة العرض لبناء خط الأنابيب. التغييرات التي تم إجراؤها على حالة العرض لن تؤثر على مثيلات خط الأنابيب التي تم إنشاؤها.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -28,41 +28,41 @@ public class RenderState implements Closeable, Comparable<RenderState>
 | --- | --- |
 | [close()](#close--) | تحرير [RenderState](../../com.aspose.threed/renderstate) وإطلاق جميع الموارد الداخلية. |
 | [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | قارن حالة العرض مع نسخة أخرى. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن محدد. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يعيد قيمة تشير إلى ما إذا كان هذا الكائن يساوي كائنًا محددًا. |
 | [getBlend()](#getBlend--) | تمكين أو تعطيل دمج الشظايا. |
-| [getBlendColor()](#getBlendColor--) | يحصل على لون الدمج حيث يُستخدم في [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
+| [getBlendColor()](#getBlendColor--) | يحصل على لون الدمج حيث يُستخدم في [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR) |
 | [getClass()](#getClass--) |  |
-| [getCullFace()](#getCullFace--) | تمكين أو تعطيل قص الوجه. |
-| [getCullFaceMode()](#getCullFaceMode--) | يحصل على الوجه الذي سيتم قصه. |
-| [getDepthFunction()](#getDepthFunction--) | يحصل على دالة المقارنة المستخدمة في اختبار العمق. |
+| [getCullFace()](#getCullFace--) | تمكين أو تعطيل استبعاد الوجه |
+| [getCullFaceMode()](#getCullFaceMode--) | يحصل على الوجه الذي سيتم استبعاده. |
+| [getDepthFunction()](#getDepthFunction--) | يحصل على دالة المقارنة المستخدمة في اختبار العمق |
 | [getDepthMask()](#getDepthMask--) | تمكين أو تعطيل كتابة العمق. |
 | [getDepthTest()](#getDepthTest--) | تمكين أو تعطيل اختبار العمق. |
 | [getDestinationBlendFactor()](#getDestinationBlendFactor--) | يحصل على طريقة دمج اللون. |
-| [getFrontFace()](#getFrontFace--) | يحصل على أي ترتيب هو الوجه الأمامي. |
+| [getFrontFace()](#getFrontFace--) | يحصل على ترتيب الوجه الأمامي. |
 | [getPolygonMode()](#getPolygonMode--) | يحصل على وضع عرض المضلع. |
-| [getScissorTest()](#getScissorTest--) | تمكين أو تعطيل اختبار المقص. |
+| [getScissorTest()](#getScissorTest--) | تمكين أو تعطيل اختبار المقص |
 | [getSourceBlendFactor()](#getSourceBlendFactor--) | يحصل على طريقة دمج اللون. |
 | [getStencilBackFace()](#getStencilBackFace--) | يحصل على حالة القالب للوجه الخلفي. |
 | [getStencilFrontFace()](#getStencilFrontFace--) | يحصل على حالة القالب للوجه الأمامي. |
-| [getStencilMask()](#getStencilMask--) | يحصل على القناع الذي يتم تطبيق عملية AND معه على كل من القيمة المرجعية والقيمة المخزنة للقالب عند الانتهاء من الاختبار. |
+| [getStencilMask()](#getStencilMask--) | يحصل على القناع الذي يُدمج (AND) مع كل من القيمة المرجعية والقيمة المخزنة للقالب عند انتهاء الاختبار. |
 | [getStencilReference()](#getStencilReference--) | يحصل على القيمة المرجعية لاختبار القالب. |
 | [getStencilTest()](#getStencilTest--) | تمكين أو تعطيل اختبار القالب. |
-| [hashCode()](#hashCode--) | يعيد رمز التجزئة (hash code) لهذه المثيلة. |
+| [hashCode()](#hashCode--) | يعيد رمز التجزئة لهذا الكائن. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBlend(boolean value)](#setBlend-boolean-) | تمكين أو تعطيل دمج الشظايا. |
-| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | يضبط لون الدمج حيث يُستخدم في [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
-| [setCullFace(boolean value)](#setCullFace-boolean-) | تمكين أو تعطيل قص الوجه. |
-| [setCullFaceMode(int value)](#setCullFaceMode-int-) | يضبط أي وجه سيتم قصه. |
-| [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | يضبط دالة المقارنة المستخدمة في اختبار العمق. |
+| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | يضبط لون الدمج حيث يُستخدم في [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR) |
+| [setCullFace(boolean value)](#setCullFace-boolean-) | تمكين أو تعطيل استبعاد الوجه |
+| [setCullFaceMode(int value)](#setCullFaceMode-int-) | يضبط الوجه الذي سيتم استبعاده. |
+| [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | يضبط دالة المقارنة المستخدمة في اختبار العمق |
 | [setDepthMask(boolean value)](#setDepthMask-boolean-) | تمكين أو تعطيل كتابة العمق. |
 | [setDepthTest(boolean value)](#setDepthTest-boolean-) | تمكين أو تعطيل اختبار العمق. |
 | [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | يضبط طريقة دمج اللون. |
-| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | يضبط أي ترتيب هو الوجه الأمامي. |
+| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | يضبط ترتيب الوجه الأمامي. |
 | [setPolygonMode(PolygonMode value)](#setPolygonMode-com.aspose.threed.PolygonMode-) | يضبط وضع عرض المضلع. |
-| [setScissorTest(boolean value)](#setScissorTest-boolean-) | تمكين أو تعطيل اختبار المقص. |
+| [setScissorTest(boolean value)](#setScissorTest-boolean-) | تمكين أو تعطيل اختبار المقص |
 | [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | يضبط طريقة دمج اللون. |
-| [setStencilMask(int value)](#setStencilMask-int-) | يضبط القناع الذي يتم تطبيق عملية AND عليه مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند الانتهاء من الاختبار. |
+| [setStencilMask(int value)](#setStencilMask-int-) | يضبط القناع الذي يتم دمجه (AND) مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند انتهاء الاختبار. |
 | [setStencilReference(int value)](#setStencilReference-int-) | يضبط القيمة المرجعية لاختبار الستينسل. |
 | [setStencilTest(boolean value)](#setStencilTest-boolean-) | تمكين أو تعطيل اختبار القالب. |
 | [toString()](#toString--) |  |
@@ -106,7 +106,7 @@ public boolean equals(Object obj)
 ```
 
 
-يعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن محدد.
+يعيد قيمة تشير إلى ما إذا كان هذا الكائن يساوي كائنًا محددًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -124,14 +124,14 @@ public boolean getBlend()
 تمكين أو تعطيل دمج الشظايا.
 
 **Returns:**
-boolean - تمكين أو تعطيل دمج القطع.
+منطقي - تمكين أو تعطيل دمج القطع.
 ### getBlendColor() {#getBlendColor--}
 ```
 public FVector4 getBlendColor()
 ```
 
 
-يحصل على لون الدمج حيث يُستخدم في [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
+يحصل على لون الدمج حيث يُستخدم في [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR)
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4) - the blend color where used in [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
@@ -151,27 +151,27 @@ public boolean getCullFace()
 ```
 
 
-تمكين أو تعطيل قص الوجه.
+تمكين أو تعطيل استبعاد الوجه
 
 **Returns:**
-boolean - تمكين أو تعطيل إلغاء الوجه
+منطقي - تمكين أو تعطيل إلغاء الوجه
 ### getCullFaceMode() {#getCullFaceMode--}
 ```
 public int getCullFaceMode()
 ```
 
 
-يحصل على الوجه الذي سيتم قصه.
+يحصل على الوجه الذي سيتم استبعاده.
 
 **Returns:**
-int - أي وجه سيتم إلغاؤه.
+عدد صحيح - أي وجه سيتم إلغاؤه.
 ### getDepthFunction() {#getDepthFunction--}
 ```
 public CompareFunction getDepthFunction()
 ```
 
 
-يحصل على دالة المقارنة المستخدمة في اختبار العمق.
+يحصل على دالة المقارنة المستخدمة في اختبار العمق
 
 **Returns:**
 [CompareFunction](../../com.aspose.threed/comparefunction) - the compare function used in depth test
@@ -184,7 +184,7 @@ public boolean getDepthMask()
 تمكين أو تعطيل كتابة العمق.
 
 **Returns:**
-boolean - تمكين أو تعطيل كتابة العمق.
+منطقي - تمكين أو تعطيل كتابة العمق.
 ### getDepthTest() {#getDepthTest--}
 ```
 public boolean getDepthTest()
@@ -194,7 +194,7 @@ public boolean getDepthTest()
 تمكين أو تعطيل اختبار العمق.
 
 **Returns:**
-boolean - تمكين أو تعطيل اختبار العمق.
+منطقي - تمكين أو تعطيل اختبار العمق.
 ### getDestinationBlendFactor() {#getDestinationBlendFactor--}
 ```
 public BlendFactor getDestinationBlendFactor()
@@ -211,7 +211,7 @@ public FrontFace getFrontFace()
 ```
 
 
-يحصل على أي ترتيب هو الوجه الأمامي.
+يحصل على ترتيب الوجه الأمامي.
 
 **Returns:**
 [FrontFace](../../com.aspose.threed/frontface) - which order is front face.
@@ -231,10 +231,10 @@ public boolean getScissorTest()
 ```
 
 
-تمكين أو تعطيل اختبار المقص.
+تمكين أو تعطيل اختبار المقص
 
 **Returns:**
-boolean - تمكين أو تعطيل اختبار المقص
+منطقي - تمكين أو تعطيل اختبار المقص
 ### getSourceBlendFactor() {#getSourceBlendFactor--}
 ```
 public BlendFactor getSourceBlendFactor()
@@ -271,10 +271,10 @@ public int getStencilMask()
 ```
 
 
-يحصل على القناع الذي يتم تطبيق عملية AND معه على كل من القيمة المرجعية والقيمة المخزنة للقالب عند الانتهاء من الاختبار.
+يحصل على القناع الذي يُدمج (AND) مع كل من القيمة المرجعية والقيمة المخزنة للقالب عند انتهاء الاختبار.
 
 **Returns:**
-int - القناع الذي يتم تطبيق عملية AND عليه مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند الانتهاء من الاختبار.
+عدد صحيح - القناع الذي يتم دمجه (AND) مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند انتهاء الاختبار.
 ### getStencilReference() {#getStencilReference--}
 ```
 public int getStencilReference()
@@ -284,7 +284,7 @@ public int getStencilReference()
 يحصل على القيمة المرجعية لاختبار القالب.
 
 **Returns:**
-int - القيمة المرجعية لاختبار الستينسل.
+عدد صحيح - القيمة المرجعية لاختبار الستينسل.
 ### getStencilTest() {#getStencilTest--}
 ```
 public boolean getStencilTest()
@@ -294,14 +294,14 @@ public boolean getStencilTest()
 تمكين أو تعطيل اختبار القالب.
 
 **Returns:**
-boolean - تمكين أو تعطيل اختبار الستينسل.
+منطقي - تمكين أو تعطيل اختبار الستينسل.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يعيد رمز التجزئة (hash code) لهذه المثيلة.
+يعيد رمز التجزئة لهذا الكائن.
 
 **Returns:**
 int
@@ -332,7 +332,7 @@ public void setBlend(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setBlendColor(FVector4 value) {#setBlendColor-com.aspose.threed.FVector4-}
 ```
@@ -340,12 +340,12 @@ public void setBlendColor(FVector4 value)
 ```
 
 
-يضبط لون الدمج حيث يُستخدم في [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
+يضبط لون الدمج حيث يُستخدم في [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FVector4](../../com.aspose.threed/fvector4) | القيمة الجديدة |
+| value | [FVector4](../../com.aspose.threed/fvector4) | قيمة جديدة |
 
 ### setCullFace(boolean value) {#setCullFace-boolean-}
 ```
@@ -353,12 +353,12 @@ public void setCullFace(boolean value)
 ```
 
 
-تمكين أو تعطيل قص الوجه.
+تمكين أو تعطيل استبعاد الوجه
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setCullFaceMode(int value) {#setCullFaceMode-int-}
 ```
@@ -366,12 +366,12 @@ public void setCullFaceMode(int value)
 ```
 
 
-يضبط أي وجه سيتم قصه.
+يضبط الوجه الذي سيتم استبعاده.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDepthFunction(CompareFunction value) {#setDepthFunction-com.aspose.threed.CompareFunction-}
 ```
@@ -379,12 +379,12 @@ public void setDepthFunction(CompareFunction value)
 ```
 
 
-يضبط دالة المقارنة المستخدمة في اختبار العمق.
+يضبط دالة المقارنة المستخدمة في اختبار العمق
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CompareFunction](../../com.aspose.threed/comparefunction) | القيمة الجديدة |
+| value | [CompareFunction](../../com.aspose.threed/comparefunction) | قيمة جديدة |
 
 ### setDepthMask(boolean value) {#setDepthMask-boolean-}
 ```
@@ -397,7 +397,7 @@ public void setDepthMask(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setDepthTest(boolean value) {#setDepthTest-boolean-}
 ```
@@ -410,7 +410,7 @@ public void setDepthTest(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setDestinationBlendFactor(BlendFactor value) {#setDestinationBlendFactor-com.aspose.threed.BlendFactor-}
 ```
@@ -423,7 +423,7 @@ public void setDestinationBlendFactor(BlendFactor value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [BlendFactor](../../com.aspose.threed/blendfactor) | القيمة الجديدة |
+| value | [BlendFactor](../../com.aspose.threed/blendfactor) | قيمة جديدة |
 
 ### setFrontFace(FrontFace value) {#setFrontFace-com.aspose.threed.FrontFace-}
 ```
@@ -431,12 +431,12 @@ public void setFrontFace(FrontFace value)
 ```
 
 
-يضبط أي ترتيب هو الوجه الأمامي.
+يضبط ترتيب الوجه الأمامي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FrontFace](../../com.aspose.threed/frontface) | القيمة الجديدة |
+| value | [FrontFace](../../com.aspose.threed/frontface) | قيمة جديدة |
 
 ### setPolygonMode(PolygonMode value) {#setPolygonMode-com.aspose.threed.PolygonMode-}
 ```
@@ -449,7 +449,7 @@ public void setPolygonMode(PolygonMode value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PolygonMode](../../com.aspose.threed/polygonmode) | القيمة الجديدة |
+| value | [PolygonMode](../../com.aspose.threed/polygonmode) | قيمة جديدة |
 
 ### setScissorTest(boolean value) {#setScissorTest-boolean-}
 ```
@@ -457,12 +457,12 @@ public void setScissorTest(boolean value)
 ```
 
 
-تمكين أو تعطيل اختبار المقص.
+تمكين أو تعطيل اختبار المقص
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setSourceBlendFactor(BlendFactor value) {#setSourceBlendFactor-com.aspose.threed.BlendFactor-}
 ```
@@ -475,7 +475,7 @@ public void setSourceBlendFactor(BlendFactor value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [BlendFactor](../../com.aspose.threed/blendfactor) | القيمة الجديدة |
+| value | [BlendFactor](../../com.aspose.threed/blendfactor) | قيمة جديدة |
 
 ### setStencilMask(int value) {#setStencilMask-int-}
 ```
@@ -483,12 +483,12 @@ public void setStencilMask(int value)
 ```
 
 
-يضبط القناع الذي يتم تطبيق عملية AND عليه مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند الانتهاء من الاختبار.
+يضبط القناع الذي يتم دمجه (AND) مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند انتهاء الاختبار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setStencilReference(int value) {#setStencilReference-int-}
 ```
@@ -501,7 +501,7 @@ public void setStencilReference(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setStencilTest(boolean value) {#setStencilTest-boolean-}
 ```
@@ -514,7 +514,7 @@ public void setStencilTest(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

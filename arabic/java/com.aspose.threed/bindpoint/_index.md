@@ -1,7 +1,7 @@
 ---
 title: "BindPoint"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "عادةً ما يتم إنشاء A على خاصية كائن؛ بعض أنواع الخصائص تحتوي على حقول مكوّنات متعددة مثل حقل Vector3، سيُنشئ قناة لكل حقل مكوّن ويربط الحقل بواحدة أو أكثر من حالات تسلسل الإطارات المفتاحية عبر القنوات."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "عادةً ما يتم إنشاء A على خاصية كائن؛ بعض أنواع الخصائص تحتوي على حقول مكوّنات متعددة مثل حقل Vector3؛ سيولد قناة لكل حقل مكوّن ويُربط الحقل بواحد أو أكثر من مثيلات تسلسل الإطارات المفتاحية عبر القنوات."
 type: docs
 weight: 19
 url: /ar/java/com.aspose.threed/bindpoint/
@@ -13,12 +13,12 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class BindPoint extends A3DObject
 ```
 
-عادةً ما يتم إنشاء [BindPoint](../../com.aspose.threed/bindpoint) على خاصية كائن؛ بعض أنواع الخصائص تحتوي على حقول مكوّنات متعددة (مثل حقل Vector3)، سيُنشئ [BindPoint](../../com.aspose.threed/bindpoint) قناة لكل حقل مكوّن ويربط الحقل بواحدة أو أكثر من حالات تسلسل الإطارات المفتاحية عبر القنوات.
+عادةً ما يتم إنشاء [BindPoint](../../com.aspose.threed/bindpoint) على خاصية كائن؛ بعض أنواع الخصائص تحتوي على حقول مكوّنات متعددة (مثل حقل Vector3)، سيولد [BindPoint](../../com.aspose.threed/bindpoint) قناة لكل حقل مكوّن ويُربط الحقل بواحد أو أكثر من مثيل (مثيلات) تسلسل الإطارات المفتاحية عبر القنوات.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [BindPoint(Scene scene, Property prop)](#BindPoint-com.aspose.threed.Scene-com.aspose.threed.Property-) | يُهيئ نسخة جديدة من الفئة [BindPoint](../../com.aspose.threed/bindpoint). |
+| [BindPoint(Scene scene, Property prop)](#BindPoint-com.aspose.threed.Scene-com.aspose.threed.Property-) | يُنشئ نسخة جديدة من الفئة [BindPoint](../../com.aspose.threed/bindpoint). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -26,7 +26,7 @@ public class BindPoint extends A3DObject
 | [addChannel(String name, Class<?> type, Object value)](#addChannel-java.lang.String-java.lang.Class----java.lang.Object-) | يضيف خاصية القناة المحددة. |
 | [addChannel(String name, Object value)](#addChannel-java.lang.String-java.lang.Object-) | يضيف خاصية القناة المحددة. |
 | [bindKeyframeSequence(String channelName, KeyframeSequence sequence)](#bindKeyframeSequence-java.lang.String-com.aspose.threed.KeyframeSequence-) | ربط تسلسل الإطارات المفتاحية بالقناة المحددة |
-| [createKeyframeSequence(String name)](#createKeyframeSequence-java.lang.String-) | ينشئ منحنىً جديدًا ويربطه بالقناة الأولى لتخطيط المنحنى |
+| [createKeyframeSequence(String name)](#createKeyframeSequence-java.lang.String-) | ينشئ منحنىً جديدًا ويُربطه بالقناة الأولى لتخطيط المنحنى |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [get(String channelName)](#get-java.lang.String-) | يحصل على القناة بالاسم المعطى |
@@ -42,12 +42,12 @@ public class BindPoint extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [resetChannels()](#resetChannels--) | يفرغ قنوات الخصائص في تخطيط منحنى الرسوم المتحركة هذا. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(Property value)](#setProperty-com.aspose.threed.Property-) | يحصل على الخاصية المرتبطة بـ CurveMapping |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [toString()](#toString--) | يقوم بتنسيق الكائن إلى سلسلة |
+| [toString()](#toString--) | تنسيق الكائن إلى سلسلة |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -57,7 +57,7 @@ public BindPoint(Scene scene, Property prop)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة [BindPoint](../../com.aspose.threed/bindpoint).
+يُنشئ نسخة جديدة من الفئة [BindPoint](../../com.aspose.threed/bindpoint).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -78,10 +78,10 @@ public boolean addChannel(String name, Class<?> type, Object value)
 | --- | --- | --- |
 | الاسم | java.lang.String | الاسم. |
 | type | java.lang.Class<?> | نوع. |
-| القيمة | java.lang.Object | قيمة. |
+| قيمة | java.lang.Object | قيمة. |
 
 **Returns:**
-منطقي - true إذا تم إضافة القناة، false خلاف ذلك.
+منطقي - true إذا تمت إضافة القناة، false خلاف ذلك.
 ### addChannel(String name, Object value) {#addChannel-java.lang.String-java.lang.Object-}
 ```
 public boolean addChannel(String name, Object value)
@@ -94,10 +94,10 @@ public boolean addChannel(String name, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | الاسم. |
-| القيمة | java.lang.Object | قيمة. |
+| قيمة | java.lang.Object | قيمة. |
 
 **Returns:**
-منطقي - true إذا تم إضافة القناة، false خلاف ذلك.
+منطقي - true إذا تمت إضافة القناة، false خلاف ذلك.
 ### bindKeyframeSequence(String channelName, KeyframeSequence sequence) {#bindKeyframeSequence-java.lang.String-com.aspose.threed.KeyframeSequence-}
 ```
 public void bindKeyframeSequence(String channelName, KeyframeSequence sequence)
@@ -118,7 +118,7 @@ public KeyframeSequence createKeyframeSequence(String name)
 ```
 
 
-ينشئ منحنىً جديدًا ويربطه بالقناة الأولى لتخطيط المنحنى
+ينشئ منحنىً جديدًا ويُربطه بالقناة الأولى لتخطيط المنحنى
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -314,7 +314,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -342,7 +342,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(Property value) {#setProperty-com.aspose.threed.Property-}
 ```
@@ -355,7 +355,7 @@ public void setProperty(Property value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Property](../../com.aspose.threed/property) | القيمة الجديدة |
+| value | [Property](../../com.aspose.threed/property) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -369,7 +369,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```
@@ -377,7 +377,7 @@ public String toString()
 ```
 
 
-يقوم بتنسيق الكائن إلى سلسلة
+تنسيق الكائن إلى سلسلة
 
 **Returns:**
 java.lang.String - سلسلة الكائن

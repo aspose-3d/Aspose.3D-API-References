@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.EnumType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تعريف نوع التعداد"
 type: docs
 weight: 11
@@ -18,12 +18,12 @@ public static class StructuralMetadata.EnumType
 
 | منشئ | الوصف |
 | --- | --- |
-| [EnumType(String name, ArrayList<StructuralMetadata.EnumValue> values)](#EnumType-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.EnumValue--) | الباني لنوع التعداد |
+| [EnumType(String name, ArrayList<StructuralMetadata.EnumValue> values)](#EnumType-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.EnumValue--) | المُنشئ لنوع التعداد |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [addValue(String name, int value)](#addValue-java.lang.String-int-) | أضف نسخة جديدة من [EnumValue](../../com.aspose.threed/enumvalue) بالاسم والقيمة المحددين |
+| [addValue(String name, int value)](#addValue-java.lang.String-int-) | أضف مثيلاً جديداً لـ [EnumValue](../../com.aspose.threed/enumvalue) بالاسم والقيمة المحددين |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | اسم نوع التعداد |
@@ -31,7 +31,7 @@ public static class StructuralMetadata.EnumType
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | يحصل على تمثيل النصي لهذه النسخة. |
+| [toString()](#toString--) | يحصل على تمثيل النص لهذه المثيلة. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -41,13 +41,13 @@ public EnumType(String name, ArrayList<StructuralMetadata.EnumValue> values)
 ```
 
 
-الباني لنوع التعداد
+المُنشئ لنوع التعداد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم نوع التعداد |
-| values | java.util.ArrayList<com.aspose.threed.StructuralMetadata.EnumValue> | تعريف القِيَم |
+| values | java.util.ArrayList<com.aspose.threed.StructuralMetadata.EnumValue> | تعريف القيم |
 
 ### addValue(String name, int value) {#addValue-java.lang.String-int-}
 ```
@@ -55,13 +55,13 @@ public StructuralMetadata.EnumValue addValue(String name, int value)
 ```
 
 
-أضف نسخة جديدة من [EnumValue](../../com.aspose.threed/enumvalue) بالاسم والقيمة المحددين
+أضف مثيلاً جديداً لـ [EnumValue](../../com.aspose.threed/enumvalue) بالاسم والقيمة المحددين
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String |  |
-| القيمة | int |  |
+| قيمة | int |  |
 
 **Returns:**
 [EnumValue](../../com.aspose.threed/enumvalue)
@@ -142,7 +142,7 @@ public String toString()
 ```
 
 
-يحصل على تمثيل النصي لهذه النسخة.
+يحصل على تمثيل النص لهذه المثيلة.
 
 **Returns:**
 java.lang.String

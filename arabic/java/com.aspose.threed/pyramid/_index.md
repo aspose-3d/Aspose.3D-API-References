@@ -1,7 +1,7 @@
 ---
 title: "هرم"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "هرم معلمَّة."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "هرم معلمَّ."
 type: docs
 weight: 142
 url: /ar/java/com.aspose.threed/pyramid/
@@ -13,15 +13,15 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Pyramid extends Primitive
 ```
 
-هرم معلمَّة.
+هرم معلمَّ.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
 | [Pyramid()](#Pyramid--) | إنشاء نسخة جديدة من الهرم مع مساحة القاعدة الافتراضية (10, 10) والارتفاع الافتراضي (5) |
 | [Pyramid(double xbottom, double ybottom, double height)](#Pyramid-double-double-double-) | إنشاء نسخة جديدة من الهرم مع مساحة قاعدة محددة |
-| [Pyramid(double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-double-double-double-double-double-) | إنشاء نسخة جديدة من الهرم مع مساحة القاعدة المحددة ومساحة القمة المحددة والارتفاع. |
-| [Pyramid(String name, double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-java.lang.String-double-double-double-double-double-) | إنشاء نسخة جديدة من الهرم مع مساحة القاعدة المحددة ومساحة القمة المحددة والارتفاع. |
+| [Pyramid(double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-double-double-double-double-double-) | إنشاء نسخة جديدة من الهرم مع مساحة قاعدة محددة ومساحة قمة محددة والارتفاع. |
+| [Pyramid(String name, double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-java.lang.String-double-double-double-double-double-) | إنشاء نسخة جديدة من الهرم مع مساحة قاعدة محددة ومساحة قمة محددة والارتفاع. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,16 +29,16 @@ public class Pyramid extends Primitive
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [getBottomArea()](#getBottomArea--) | مساحة الغطاء السفلي |
-| [getBottomOffset()](#getBottomOffset--) | الإزاحة للقمم السفلية |
+| [getBottomOffset()](#getBottomOffset--) | الإزاحة لرؤوس القاعدة |
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getCastShadows()](#getCastShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [getHeight()](#getHeight--) | ارتفاع الهرم |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getReceiveShadows()](#getReceiveShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل. |
@@ -48,18 +48,18 @@ public class Pyramid extends Primitive
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setBottomArea(Vector2 value)](#setBottomArea-com.aspose.threed.Vector2-) | مساحة الغطاء السفلي |
-| [setBottomOffset(Vector3 value)](#setBottomOffset-com.aspose.threed.Vector3-) | الإزاحة للقمم السفلية |
+| [setBottomOffset(Vector3 value)](#setBottomOffset-com.aspose.threed.Vector3-) | الإزاحة لرؤوس القاعدة |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [setHeight(double value)](#setHeight-double-) | ارتفاع الهرم |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه استقبال الظل. |
 | [setTopArea(Vector2 value)](#setTopArea-com.aspose.threed.Vector2-) | مساحة الغطاء العلوي |
-| [toMesh()](#toMesh--) | تحويل الكائن الحالي إلى شبكة |
+| [toMesh()](#toMesh--) | حوّل الكائن الحالي إلى شبكة |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -93,7 +93,7 @@ public Pyramid(double xbottom, double ybottom, double xtop, double ytop, double 
 ```
 
 
-إنشاء نسخة جديدة من الهرم مع مساحة القاعدة المحددة ومساحة القمة المحددة والارتفاع.
+إنشاء نسخة جديدة من الهرم مع مساحة قاعدة محددة ومساحة قمة محددة والارتفاع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -110,7 +110,7 @@ public Pyramid(String name, double xbottom, double ybottom, double xtop, double 
 ```
 
 
-إنشاء نسخة جديدة من الهرم مع مساحة القاعدة المحددة ومساحة القمة المحددة والارتفاع.
+إنشاء نسخة جديدة من الهرم مع مساحة قاعدة محددة ومساحة قمة محددة والارتفاع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -143,7 +143,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -168,7 +168,7 @@ public Vector3 getBottomOffset()
 ```
 
 
-الإزاحة للقمم السفلية
+الإزاحة لرؤوس القاعدة
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Offset for bottom vertices
@@ -215,7 +215,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -255,7 +255,7 @@ public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -265,10 +265,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -303,7 +303,7 @@ public boolean getReceiveShadows()
 يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل.
 
 **Returns:**
-boolean - ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل.
+boolean - ما إذا كان هذا الشكل الهندسي يمكنه تلقي الظل.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -371,7 +371,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -391,7 +391,7 @@ public void setBottomArea(Vector2 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 
 ### setBottomOffset(Vector3 value) {#setBottomOffset-com.aspose.threed.Vector3-}
 ```
@@ -399,12 +399,12 @@ public void setBottomOffset(Vector3 value)
 ```
 
 
-الإزاحة للقمم السفلية
+الإزاحة لرؤوس القاعدة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setCastShadows(boolean value) {#setCastShadows-boolean-}
 ```
@@ -417,7 +417,7 @@ public void setCastShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -430,7 +430,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setHeight(double value) {#setHeight-double-}
 ```
@@ -443,7 +443,7 @@ public void setHeight(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -456,7 +456,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -464,12 +464,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -483,7 +483,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setReceiveShadows(boolean value) {#setReceiveShadows-boolean-}
 ```
@@ -496,7 +496,7 @@ public void setReceiveShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setTopArea(Vector2 value) {#setTopArea-com.aspose.threed.Vector2-}
 ```
@@ -509,7 +509,7 @@ public void setTopArea(Vector2 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 
 ### toMesh() {#toMesh--}
 ```
@@ -517,7 +517,7 @@ public Mesh toMesh()
 ```
 
 
-تحويل الكائن الحالي إلى شبكة
+حوّل الكائن الحالي إلى شبكة
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

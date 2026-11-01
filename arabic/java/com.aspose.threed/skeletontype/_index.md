@@ -1,6 +1,6 @@
 ---
 title: "SkeletonType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أنواع s."
 type: docs
 weight: 301
@@ -19,7 +19,7 @@ public enum SkeletonType extends Enum<SkeletonType>
 | حقل | الوصف |
 | --- | --- |
 | [BONE](#BONE) | الـ [Skeleton](../../com.aspose.threed/skeleton) هو كيان عظم. |
-| [SKELETON](#SKELETON) | الـ [Skeleton](../../com.aspose.threed/skeleton) هو كيان هيكلي، مما يعني أن العقدة المرتبطة هي العقدة الجذرية لكامل التسلسل الهرمي الهيكلي. |
+| [SKELETON](#SKELETON) | الـ [Skeleton](../../com.aspose.threed/skeleton) هو كيان هيكلي، مما يعني أن العقدة المرتبطة هي عقدة الجذر للهرمية الهيكلية بالكامل. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -55,7 +55,7 @@ public static final SkeletonType SKELETON
 ```
 
 
-الـ [Skeleton](../../com.aspose.threed/skeleton) هو كيان هيكلي، مما يعني أن العقدة المرتبطة هي العقدة الجذرية لكامل التسلسل الهرمي الهيكلي.
+الـ [Skeleton](../../com.aspose.threed/skeleton) هو كيان هيكلي، مما يعني أن العقدة المرتبطة هي عقدة الجذر للهرمية الهيكلية بالكامل.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

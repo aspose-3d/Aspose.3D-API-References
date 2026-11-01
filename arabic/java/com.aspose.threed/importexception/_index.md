@@ -1,7 +1,7 @@
 ---
 title: "ImportException"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "استثناء عندما فشل Aspose.3D في فتح المصدر المحدد."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "استثناء عندما فشل Aspose.3D في فتح المصدر المحدد"
 type: docs
 weight: 84
 url: /ar/java/com.aspose.threed/importexception/
@@ -13,12 +13,12 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.io.IOException
 public class ImportException extends IOException
 ```
 
-استثناء عندما فشل Aspose.3D في فتح المصدر المحدد.
+استثناء عندما فشل Aspose.3D في فتح المصدر المحدد
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [ImportException(String msg)](#ImportException-java.lang.String-) | ينشئ مثيلاً جديداً |
+| [ImportException(String msg)](#ImportException-java.lang.String-) | ينشئ مثلاً جديداً |
 ## الطرق
 
 | طريقة | الوصف |
@@ -50,7 +50,7 @@ public ImportException(String msg)
 ```
 
 
-ينشئ مثيلاً جديداً
+ينشئ مثلاً جديداً
 
 **Parameters:**
 | معامل | نوع | الوصف |

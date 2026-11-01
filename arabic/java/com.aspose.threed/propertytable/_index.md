@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.PropertyTable"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "جدول الخصائص."
 type: docs
 weight: 14
@@ -25,13 +25,13 @@ public static class StructuralMetadata.PropertyTable
 | --- | --- |
 | [addValue(StructuralMetadata.Property prop, Object value)](#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-) | أضف خاصية جديدة إلى جدول الخصائص. |
 | [addValue(String propName, Object value)](#addValue-java.lang.String-java.lang.Object-) | أضف خاصية جديدة إلى جدول الخصائص. |
-| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | إرفاق جدول الخصائص الحالي ببيانات المستخدم المحددة |
+| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | إرفاق جدول الخصائص الحالي ببيانات المستخدم المحددة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | استخراج جدول الخصائص المرفق من بيانات المستخدم المحددة |
+| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | استخراج جدول الخصائص المرفق من بيانات المستخدم المحددة. |
 | [getClass()](#getClass--) |  |
-| [getMetaClass()](#getMetaClass--) | فئة الميتا لهذا جدول الخصائص. |
+| [getMetaClass()](#getMetaClass--) | الفئة الوصفية لهذا جدول الخصائص. |
 | [getName()](#getName--) | اسم جدول الخصائص. |
-| [getValue(String name)](#getValue-java.lang.String-) | يحصل على قيمة اسم الخاصية المحدد |
+| [getValue(String name)](#getValue-java.lang.String-) | يحصل على قيمة اسم الخاصية المحدد. |
 | [getValues()](#getValues--) | قيم جدول الخصائص. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -52,7 +52,7 @@ public PropertyTable(String name, StructuralMetadata.ClassType mclass)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم نسخة هذا الجدول. |
-| mclass | [ClassType](../../com.aspose.threed/classtype) | تعريف فئة الميتا لهذا جدول الخصائص |
+| mclass | [ClassType](../../com.aspose.threed/classtype) | تعريف الفئة الوصفية لهذا جدول الخصائص. |
 
 ### addValue(StructuralMetadata.Property prop, Object value) {#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-}
 ```
@@ -65,8 +65,8 @@ public void addValue(StructuralMetadata.Property prop, Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| prop | [Property](../../com.aspose.threed/property) | أي خاصية لإضافتها مع القيمة |
-| القيمة | java.lang.Object | مصفوفة القيم |
+| prop | [Property](../../com.aspose.threed/property) | أي خاصية لإضافتها مع القيمة. |
+| قيمة | java.lang.Object | مصفوفة القيم. |
 
 ### addValue(String propName, Object value) {#addValue-java.lang.String-java.lang.Object-}
 ```
@@ -79,8 +79,8 @@ public void addValue(String propName, Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| propName | java.lang.String | أي خاصية لإضافتها مع القيمة |
-| القيمة | java.lang.Object | مصفوفة القيم |
+| propName | java.lang.String | أي خاصية لإضافتها مع القيمة. |
+| قيمة | java.lang.Object | مصفوفة القيم. |
 
 ### attach(VertexElementUserData userData) {#attach-com.aspose.threed.VertexElementUserData-}
 ```
@@ -88,7 +88,7 @@ public void attach(VertexElementUserData userData)
 ```
 
 
-إرفاق جدول الخصائص الحالي ببيانات المستخدم المحددة
+إرفاق جدول الخصائص الحالي ببيانات المستخدم المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -116,12 +116,12 @@ public static StructuralMetadata.PropertyTable from(VertexElementUserData userDa
 ```
 
 
-استخراج جدول الخصائص المرفق من بيانات المستخدم المحددة
+استخراج جدول الخصائص المرفق من بيانات المستخدم المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | بيانات المستخدم المرتبطة بجدول الخصائص |
+| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | بيانات المستخدم المرتبطة بجدول الخصائص. |
 
 **Returns:**
 [PropertyTable](../../com.aspose.threed/propertytable) - The associated property table instance
@@ -141,7 +141,7 @@ public StructuralMetadata.ClassType getMetaClass()
 ```
 
 
-فئة الميتا لهذا جدول الخصائص.
+الفئة الوصفية لهذا جدول الخصائص.
 
 **Returns:**
 [ClassType](../../com.aspose.threed/classtype) - The meta class of this property table.
@@ -161,7 +161,7 @@ public Object getValue(String name)
 ```
 
 
-يحصل على قيمة اسم الخاصية المحدد
+يحصل على قيمة اسم الخاصية المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -169,7 +169,7 @@ public Object getValue(String name)
 | الاسم | java.lang.String | اسم الخاصية |
 
 **Returns:**
-java.lang.Object - قيمة الخاصية أو null إذا لم تُوجد
+java.lang.Object - قيمة الخاصية أو null إذا لم تُعثر.
 ### getValues() {#getValues--}
 ```
 public HashMap<String,Object> getValues()
