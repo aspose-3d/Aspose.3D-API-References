@@ -1,7 +1,7 @@
 ---
 title: "NodeVisitor"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "استدعاء رجعي للتنقل عبر شجرة العقد بالكامل."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "دالة رد الاتصال للانتقال عبر شجرة العقد بالكامل."
 type: docs
 weight: 261
 url: /ar/java/com.aspose.threed/nodevisitor/
@@ -10,19 +10,19 @@ url: /ar/java/com.aspose.threed/nodevisitor/
 public interface NodeVisitor
 ```
 
-استدعاء رجعي للتنقل عبر شجرة العقد بالكامل.
+دالة رد الاتصال للانتقال عبر شجرة العقد بالكامل.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [call(Node node)](#call-com.aspose.threed.Node-) | استدعاء رجعي للتنقل عبر شجرة العقد بالكامل. |
+| [call(Node node)](#call-com.aspose.threed.Node-) | دالة رد الاتصال للانتقال عبر شجرة العقد بالكامل. |
 ### call(Node node) {#call-com.aspose.threed.Node-}
 ```
 public abstract boolean call(Node node)
 ```
 
 
-استدعاء رجعي للتنقل عبر شجرة العقد بالكامل.
+دالة رد الاتصال للانتقال عبر شجرة العقد بالكامل.
 
 **Parameters:**
 | معامل | نوع | الوصف |

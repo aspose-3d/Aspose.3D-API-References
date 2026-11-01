@@ -1,6 +1,6 @@
 ---
 title: "SplitMeshPolicy"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "مشاركة بيانات الرؤوس/نقاط التحكم بين الشبكات الفرعية أو أن كل شبكة فرعية لها بيانات مضغوطة خاصة بها."
 type: docs
 weight: 302
@@ -18,8 +18,8 @@ public enum SplitMeshPolicy extends Enum<SplitMeshPolicy>
 
 | حقل | الوصف |
 | --- | --- |
-| [CLONE_DATA](#CLONE-DATA) | سيتم استنساخ بيانات نقاط التحكم وعناصر الرؤوس |
-| [COMPACT_DATA](#COMPACT-DATA) | سيتم نسخ بيانات نقاط التحكم وعناصر الرؤوس المستخدمة فقط إلى الشبكة الفرعية |
+| [CLONE_DATA](#CLONE-DATA) | سيتم استنساخ بيانات نقاط التحكم وعناصر القمم |
+| [COMPACT_DATA](#COMPACT-DATA) | سيتم نسخ بيانات نقاط التحكم وعناصر القمم المستخدمة فقط إلى الشبكة الفرعية |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final SplitMeshPolicy CLONE_DATA
 ```
 
 
-سيتم استنساخ بيانات نقاط التحكم وعناصر الرؤوس
+سيتم استنساخ بيانات نقاط التحكم وعناصر القمم
 
 ### COMPACT_DATA {#COMPACT-DATA}
 ```
@@ -55,7 +55,7 @@ public static final SplitMeshPolicy COMPACT_DATA
 ```
 
 
-سيتم نسخ بيانات نقاط التحكم وعناصر الرؤوس المستخدمة فقط إلى الشبكة الفرعية
+سيتم نسخ بيانات نقاط التحكم وعناصر القمم المستخدمة فقط إلى الشبكة الفرعية
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "MorphTargetChannel"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يُستخدم MorphTargetChannel بواسطة  لتنظيم الأشكال المستهدفة."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يُستخدم MorphTargetChannel بواسطة  لتنظيم الهندسات الهدف."
 type: docs
 weight: 107
 url: /ar/java/com.aspose.threed/morphtargetchannel/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetChannel extends A3DObject
 ```
 
-يُستخدم MorphTargetChannel بواسطة [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) لتنظيم الأشكال المستهدفة. بعض صيغ الملفات مثل FBX تدعم قنوات متعددة بالتوازي. **Remarks:** الوزن بين 0 و 1.0، والوزن الافتراضي للهدف هو 0.0؛
+يُستخدم MorphTargetChannel بواسطة [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) لتنظيم الهندسات الهدف. بعض صيغ الملفات مثل FBX تدعم قنوات متعددة بالتوازي. **Remarks:** الوزن بين 0 و 1.0، والوزن الافتراضي للهدف هو 0.0؛
 ## المنشئات
 
 | منشئ | الوصف |
@@ -24,7 +24,7 @@ public class MorphTargetChannel extends A3DObject
 
 | حقل | الوصف |
 | --- | --- |
-| [DEFAULT_WEIGHT](#DEFAULT-WEIGHT) | الوزن الافتراضي للهدف المتحول. |
+| [DEFAULT_WEIGHT](#DEFAULT-WEIGHT) | الوزن الافتراضي للهدف التشكيلي. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,13 +38,13 @@ public class MorphTargetChannel extends A3DObject
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getTargets()](#getTargets--) | يحصل على جميع الأهداف المرتبطة بالقناة. |
-| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | يحصل على الوزن للهدف المحدد، إذا لم يكن الهدف ينتمي إلى هذه القناة، يتم إرجاع القيمة الافتراضية 0. |
-| [getWeights()](#getWeights--) | يحصل على قيم الوزن الكاملة لأشكال الأهداف. |
+| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | يحصل على الوزن للهدف المحدد، إذا لم يكن الهدف تابعًا لهذه القناة، يتم إرجاع القيمة الافتراضية 0. |
+| [getWeights()](#getWeights--) | يحصل على القيم الكاملة للوزن لأشكال الأهداف. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | يضبط الوزن للهيكل المحدد. |
 | [setChannelWeight(double value)](#setChannelWeight-double-) | يضبط وزن المشوه لهذه القناة. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
@@ -82,7 +82,7 @@ public static final double DEFAULT_WEIGHT
 ```
 
 
-الوزن الافتراضي للهدف المتحول.
+الوزن الافتراضي للهدف التشكيلي.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -105,7 +105,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -125,7 +125,7 @@ public double get(Shape target)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| target | [Shape](../../com.aspose.threed/shape) | الهيكل المستهدف. |
+| target | [Shape](../../com.aspose.threed/shape) | الهيكل الهدف. |
 
 **Returns:**
 double - الوزن
@@ -200,7 +200,7 @@ public double getWeight(Shape target)
 ```
 
 
-يحصل على الوزن للهدف المحدد، إذا لم يكن الهدف ينتمي إلى هذه القناة، يتم إرجاع القيمة الافتراضية 0.
+يحصل على الوزن للهدف المحدد، إذا لم يكن الهدف تابعًا لهذه القناة، يتم إرجاع القيمة الافتراضية 0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -215,10 +215,10 @@ public List<Double> getWeights()
 ```
 
 
-يحصل على قيم الوزن الكاملة لأشكال الأهداف.
+يحصل على القيم الكاملة للوزن لأشكال الأهداف.
 
 **Returns:**
-java.util.List<java.lang.Double> - قيم الوزن الكاملة لأشكال الأهداف.
+java.util.List<java.lang.Double> - القيم الكاملة للوزن لأشكال الأهداف.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -266,7 +266,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -286,8 +286,8 @@ public void set(Shape target, double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| target | [Shape](../../com.aspose.threed/shape) | الهيكل المستهدف. |
-| القيمة | double | القيمة الجديدة |
+| target | [Shape](../../com.aspose.threed/shape) | الهيكل الهدف. |
+| قيمة | double | قيمة جديدة |
 
 ### setChannelWeight(double value) {#setChannelWeight-double-}
 ```
@@ -295,12 +295,12 @@ public void setChannelWeight(double value)
 ```
 
 
-يضبط وزن المشوه لهذه القناة. الوزن بين 0.0 و 1.0
+يضبط وزن المشوه لهذه القناة. الوزن بين 0.0 و 1.0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -313,7 +313,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -327,7 +327,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setWeight(Shape target) {#setWeight-com.aspose.threed.Shape-}
 ```

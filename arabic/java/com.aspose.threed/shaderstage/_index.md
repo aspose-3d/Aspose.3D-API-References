@@ -1,7 +1,7 @@
 ---
 title: "ShaderStage"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مرحلة التظليل"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مرحلة المُظلِل"
 type: docs
 weight: 168
 url: /ar/java/com.aspose.threed/shaderstage/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class ShaderStage
 ```
 
-مرحلة التظليل
+مرحلة المُظلِل
 ## المنشئات
 
 | منشئ | الوصف |
@@ -23,10 +23,10 @@ public final class ShaderStage
 
 | حقل | الوصف |
 | --- | --- |
-| [COMPUTE_SHADER](#COMPUTE-SHADER) | Compute shader |
-| [FRAGMENT_SHADER](#FRAGMENT-SHADER) | Fragment shader |
+| [COMPUTE_SHADER](#COMPUTE-SHADER) | معالج حسابي |
+| [FRAGMENT_SHADER](#FRAGMENT-SHADER) | معالج شظية |
 | [GEOMETRY_SHADER](#GEOMETRY-SHADER) | مُظلِل الهندسة |
-| [VERTEX_SHADER](#VERTEX-SHADER) | مُظلِل الرؤوس |
+| [VERTEX_SHADER](#VERTEX-SHADER) | مُظلِل القمة |
 ## الطرق
 
 | طريقة | الوصف |
@@ -52,7 +52,7 @@ public static final int COMPUTE_SHADER
 ```
 
 
-Compute shader
+معالج حسابي
 
 ### FRAGMENT_SHADER {#FRAGMENT-SHADER}
 ```
@@ -60,7 +60,7 @@ public static final int FRAGMENT_SHADER
 ```
 
 
-Fragment shader
+معالج شظية
 
 ### GEOMETRY_SHADER {#GEOMETRY-SHADER}
 ```
@@ -76,7 +76,7 @@ public static final int VERTEX_SHADER
 ```
 
 
-مُظلِل الرؤوس
+مُظلِل القمة
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

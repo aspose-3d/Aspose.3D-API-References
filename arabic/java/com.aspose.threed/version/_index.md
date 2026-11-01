@@ -1,6 +1,6 @@
 ---
 title: "الإصدار"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تم الإنشاء بواسطة lexchou في 17/4/2017."
 type: docs
 weight: 204
@@ -51,8 +51,8 @@ public Version(int major, int minor, int build)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | رئيسي | int |  |
-| صغير | int |  |
-| بناء | int |  |
+| minor | int |  |
+| build | int |  |
 
 ### Version(int major, int minor) {#Version-int-int-}
 ```
@@ -64,7 +64,7 @@ public Version(int major, int minor)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | رئيسي | int |  |
-| صغير | int |  |
+| minor | int |  |
 
 ### Version(String ver) {#Version-java.lang.String-}
 ```
@@ -75,7 +75,7 @@ public Version(String ver)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| إصدار | java.lang.String |  |
+| ver | java.lang.String |  |
 
 ### clone() {#clone--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "PolygonBuilder"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "فئة مساعدة لبناء مضلع لـ  Example"
 type: docs
 weight: 133
@@ -13,7 +13,7 @@ java.lang.Object
 public final class PolygonBuilder
 ```
 
-فئة مساعدة لبناء مضلع لـ [Mesh](../../com.aspose.threed/mesh) **مثال:**
+فئة مساعدة لإنشاء مضلع لـ [Mesh](../../com.aspose.threed/mesh) **مثال:**
 
 ```
 Mesh mesh = new Mesh();
@@ -79,7 +79,7 @@ public void addVertex(int index)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الفهرس | int |  |
+| المؤشر | int |  |
 
 ### begin() {#begin--}
 ```

@@ -1,6 +1,6 @@
 ---
-title: "المُعدِّد"
-second_title: "مرجع API لـ Aspose.3D for Java"
+title: "المُعدد"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "عداد عام لمجموعة من النوع T"
 type: docs
 weight: 236

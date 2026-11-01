@@ -1,7 +1,7 @@
 ---
 title: "RectangularTorus"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "توروس مستطيل معلمَّة."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "طوق مستطيل معلمَّ."
 type: docs
 weight: 146
 url: /ar/java/com.aspose.threed/rectangulartorus/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class RectangularTorus extends Primitive
 ```
 
-توروس مستطيل معلمَّة.
+طوق مستطيل معلمَّ.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,19 +26,19 @@ public class RectangularTorus extends Primitive
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
-| [getAngleStart()](#getAngleStart--) | زاوية البدء للقوس، مقاسة بالراديان. |
+| [getAngleStart()](#getAngleStart--) | زاوية البداية للقوس، مقاسة بالراديان. |
 | [getArc()](#getArc--) | الزاوية الكلية للقوس، مقاسة بالراديان. |
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getCastShadows()](#getCastShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [getHeight()](#getHeight--) | ارتفاع التوروس المستطيل. |
-| [getInnerRadius()](#getInnerRadius--) | نصف القطر الداخلي للتوروس المستطيل القيمة الافتراضية هي 17 |
+| [getHeight()](#getHeight--) | ارتفاع الطارة المستطيلة. |
+| [getInnerRadius()](#getInnerRadius--) | نصف القطر الداخلي للطارة المستطيلة القيمة الافتراضية هي 17 |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getOuterRadius()](#getOuterRadius--) | نصف القطر الخارجي للتوروس المستطيل القيمة الافتراضية هي 20 |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getOuterRadius()](#getOuterRadius--) | نصف القطر الخارجي للطارة المستطيلة القيمة الافتراضية هي 20 |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getRadialSegments()](#getRadialSegments--) | الأقسام الشعاعية، القيمة الافتراضية هي 10 |
@@ -48,16 +48,16 @@ public class RectangularTorus extends Primitive
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [setAngleStart(double value)](#setAngleStart-double-) | زاوية البدء للقوس، مقاسة بالراديان. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [setAngleStart(double value)](#setAngleStart-double-) | زاوية البداية للقوس، مقاسة بالراديان. |
 | [setArc(double value)](#setArc-double-) | الزاوية الكلية للقوس، مقاسة بالراديان. |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [setHeight(double value)](#setHeight-double-) | ارتفاع التوروس المستطيل. |
-| [setInnerRadius(double value)](#setInnerRadius-double-) | نصف القطر الداخلي للتوروس المستطيل القيمة الافتراضية هي 17 |
+| [setHeight(double value)](#setHeight-double-) | ارتفاع الطارة المستطيلة. |
+| [setInnerRadius(double value)](#setInnerRadius-double-) | نصف القطر الداخلي للطارة المستطيلة القيمة الافتراضية هي 17 |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setOuterRadius(double value)](#setOuterRadius-double-) | نصف القطر الخارجي للتوروس المستطيل القيمة الافتراضية هي 20 |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setOuterRadius(double value)](#setOuterRadius-double-) | نصف القطر الخارجي للطارة المستطيلة القيمة الافتراضية هي 20 |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setRadialSegments(int value)](#setRadialSegments-int-) | الأقسام الشعاعية، القيمة الافتراضية هي 10 |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه استقبال الظل. |
@@ -108,7 +108,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -123,20 +123,20 @@ public double getAngleStart()
 ```
 
 
-زاوية البدء للقوس، مقاسة بالراديان. القيمة الافتراضية هي 0
+زاوية البداية للقوس، مقاسة بالراديان. القيمة الافتراضية هي 0
 
 **Returns:**
-double - زاوية البداية للقوس، مقاسة بالراديان. القيمة الافتراضية هي 0
+double - زاوية البداية للقوس، تُقاس بالراديان. القيمة الافتراضية هي 0
 ### getArc() {#getArc--}
 ```
 public double getArc()
 ```
 
 
-زاوية القوس الكلية، مقاسة بالراديان. القيمة الافتراضية هي PI
+زاوية القوس الكلية، تُقاس بالراديان. القيمة الافتراضية هي PI
 
 **Returns:**
-double - زاوية القوس الكلية، مقاسة بالراديان. القيمة الافتراضية هي PI
+double - زاوية القوس الكلية، تُقاس بالراديان. القيمة الافتراضية هي PI
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
@@ -180,7 +180,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -200,20 +200,20 @@ public double getHeight()
 ```
 
 
-ارتفاع الشكل الحلقي المستطيل. القيمة الافتراضية هي 20
+ارتفاع الـ torus المستطيل. القيمة الافتراضية هي 20
 
 **Returns:**
-double - ارتفاع الشكل الحلقي المستطيل. القيمة الافتراضية هي 20
+double - ارتفاع الـ torus المستطيل. القيمة الافتراضية هي 20
 ### getInnerRadius() {#getInnerRadius--}
 ```
 public double getInnerRadius()
 ```
 
 
-نصف القطر الداخلي للتوروس المستطيل القيمة الافتراضية هي 17
+نصف القطر الداخلي للطارة المستطيلة القيمة الافتراضية هي 17
 
 **Returns:**
-double - نصف القطر الداخلي للشكل الحلقي المستطيل. القيمة الافتراضية هي 17
+double - نصف القطر الداخلي للـ torus المستطيل. القيمة الافتراضية هي 17
 ### getName() {#getName--}
 ```
 public String getName()
@@ -230,17 +230,17 @@ public double getOuterRadius()
 ```
 
 
-نصف القطر الخارجي للتوروس المستطيل القيمة الافتراضية هي 20
+نصف القطر الخارجي للطارة المستطيلة القيمة الافتراضية هي 20
 
 **Returns:**
-double - نصف القطر الخارجي للشكل الحلقي المستطيل. القيمة الافتراضية هي 20
+double - نصف القطر الخارجي للـ torus المستطيل. القيمة الافتراضية هي 20
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -250,10 +250,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -298,7 +298,7 @@ public boolean getReceiveShadows()
 يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل.
 
 **Returns:**
-boolean - ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل.
+boolean - ما إذا كان هذا الشكل الهندسي يمكنه تلقي الظل.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -356,7 +356,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -371,12 +371,12 @@ public void setAngleStart(double value)
 ```
 
 
-زاوية البدء للقوس، مقاسة بالراديان. القيمة الافتراضية هي 0
+زاوية البداية للقوس، مقاسة بالراديان. القيمة الافتراضية هي 0
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setArc(double value) {#setArc-double-}
 ```
@@ -384,12 +384,12 @@ public void setArc(double value)
 ```
 
 
-زاوية القوس الكلية، مقاسة بالراديان. القيمة الافتراضية هي PI
+زاوية القوس الكلية، تُقاس بالراديان. القيمة الافتراضية هي PI
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setCastShadows(boolean value) {#setCastShadows-boolean-}
 ```
@@ -402,7 +402,7 @@ public void setCastShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -415,7 +415,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setHeight(double value) {#setHeight-double-}
 ```
@@ -423,12 +423,12 @@ public void setHeight(double value)
 ```
 
 
-ارتفاع الشكل الحلقي المستطيل. القيمة الافتراضية هي 20
+ارتفاع الـ torus المستطيل. القيمة الافتراضية هي 20
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setInnerRadius(double value) {#setInnerRadius-double-}
 ```
@@ -436,12 +436,12 @@ public void setInnerRadius(double value)
 ```
 
 
-نصف القطر الداخلي للتوروس المستطيل القيمة الافتراضية هي 17
+نصف القطر الداخلي للطارة المستطيلة القيمة الافتراضية هي 17
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -454,7 +454,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setOuterRadius(double value) {#setOuterRadius-double-}
 ```
@@ -462,12 +462,12 @@ public void setOuterRadius(double value)
 ```
 
 
-نصف القطر الخارجي للتوروس المستطيل القيمة الافتراضية هي 20
+نصف القطر الخارجي للطارة المستطيلة القيمة الافتراضية هي 20
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -475,12 +475,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -494,7 +494,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setRadialSegments(int value) {#setRadialSegments-int-}
 ```
@@ -507,7 +507,7 @@ public void setRadialSegments(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setReceiveShadows(boolean value) {#setReceiveShadows-boolean-}
 ```
@@ -520,7 +520,7 @@ public void setReceiveShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toMesh() {#toMesh--}
 ```

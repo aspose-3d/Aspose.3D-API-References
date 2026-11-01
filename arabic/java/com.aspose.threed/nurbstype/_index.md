@@ -1,6 +1,6 @@
 ---
 title: "NurbsType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أنواع NURBS."
 type: docs
 weight: 286
@@ -18,7 +18,7 @@ public enum NurbsType extends Enum<NurbsType>
 
 | حقل | الوصف |
 | --- | --- |
-| [CLOSED](#CLOSED) | الـ [NurbsCurve](../../com.aspose.threed/nurbscurve) هو منحنى مغلق تكون نقطته التحكمية الأخيرة مساوية للنقطة الأولى. |
+| [CLOSED](#CLOSED) | الـ [NurbsCurve](../../com.aspose.threed/nurbscurve) هو منحنى مغلق يكون نقطة التحكم الأخيرة فيه مساوية للأولى. |
 | [OPEN](#OPEN) | الـ [NurbsCurve](../../com.aspose.threed/nurbscurve) هو منحنى مفتوح. |
 | [PERIODIC](#PERIODIC) | الـ [NurbsCurve](../../com.aspose.threed/nurbscurve) هو منحنى دوري. |
 ## الطرق
@@ -48,7 +48,7 @@ public static final NurbsType CLOSED
 ```
 
 
-الـ [NurbsCurve](../../com.aspose.threed/nurbscurve) هو منحنى مغلق تكون نقطته التحكمية الأخيرة مساوية للنقطة الأولى.
+الـ [NurbsCurve](../../com.aspose.threed/nurbscurve) هو منحنى مغلق يكون نقطة التحكم الأخيرة فيه مساوية للأولى.
 
 ### OPEN {#OPEN}
 ```

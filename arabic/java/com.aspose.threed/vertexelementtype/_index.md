@@ -1,6 +1,6 @@
 ---
 title: "VertexElementType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "نوع عنصر الرأس يحدد كيف سيتم استخدامه في النمذجة."
 type: docs
 weight: 308
@@ -18,19 +18,19 @@ public enum VertexElementType extends Enum<VertexElementType>
 
 | حقل | الوصف |
 | --- | --- |
-| [BINORMAL](#BINORMAL) | متجه ثنائي الاتجاه، انظر [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal) |
-| [EDGE_CREASE](#EDGE-CREASE) | ثنية الحافة، [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease) |
+| [BINORMAL](#BINORMAL) | متجه ثنائي، انظر [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal) |
+| [EDGE_CREASE](#EDGE-CREASE) | ثني الحافة، [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease) |
 | [HOLE](#HOLE) | ثقوب، انظر [VertexElementHole](../../com.aspose.threed/vertexelementhole) |
 | [MATERIAL](#MATERIAL) | فهرس المادة، انظر [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) |
-| [NORMAL](#NORMAL) | المتجه العادي، انظر [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) |
+| [NORMAL](#NORMAL) | متجه عادي، انظر [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) |
 | [POLYGON_GROUP](#POLYGON-GROUP) | فهرس مجموعة المضلعات، انظر [VertexElementPolygonGroup](../../com.aspose.threed/vertexelementpolygongroup) |
 | [SMOOTHING_GROUP](#SMOOTHING-GROUP) | مجموعة التنعيم، انظر [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) |
-| [SPECULAR](#SPECULAR) | الألوان اللامعة، انظر [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular) |
-| [TANGENT](#TANGENT) | المتجه المماس، انظر [VertexElementTangent](../../com.aspose.threed/vertexelementtangent) |
+| [SPECULAR](#SPECULAR) | ألوان الانعكاس، انظر [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular) |
+| [TANGENT](#TANGENT) | متجه المماس، انظر [VertexElementTangent](../../com.aspose.threed/vertexelementtangent) |
 | [USER_DATA](#USER-DATA) | بيانات المستخدم، عادةً لأغراض خاصة بالتطبيق، انظر [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
 | [UV](#UV) | إحداثيات القوام UV، انظر [VertexElementUV](../../com.aspose.threed/vertexelementuv) |
 | [VERTEX_COLOR](#VERTEX-COLOR) | لون الرأس، انظر [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) |
-| [VERTEX_CREASE](#VERTEX-CREASE) | ثنية الرأس، انظر [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) |
+| [VERTEX_CREASE](#VERTEX-CREASE) | ثني الرأس، انظر [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) |
 | [VISIBILITY](#VISIBILITY) | الرؤية للمكونات، انظر [VertexElementVisibility](../../com.aspose.threed/vertexelementvisibility) |
 | [WEIGHT](#WEIGHT) | أوزان الدمج، انظر [VertexElementWeight](../../com.aspose.threed/vertexelementweight) |
 ## الطرق
@@ -60,7 +60,7 @@ public static final VertexElementType BINORMAL
 ```
 
 
-متجه ثنائي الاتجاه، انظر [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal)
+متجه ثنائي، انظر [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal)
 
 ### EDGE_CREASE {#EDGE-CREASE}
 ```
@@ -68,7 +68,7 @@ public static final VertexElementType EDGE_CREASE
 ```
 
 
-ثنية الحافة، [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease)
+ثني الحافة، [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease)
 
 ### HOLE {#HOLE}
 ```
@@ -92,7 +92,7 @@ public static final VertexElementType NORMAL
 ```
 
 
-المتجه العادي، انظر [VertexElementNormal](../../com.aspose.threed/vertexelementnormal)
+متجه عادي، انظر [VertexElementNormal](../../com.aspose.threed/vertexelementnormal)
 
 ### POLYGON_GROUP {#POLYGON-GROUP}
 ```
@@ -116,7 +116,7 @@ public static final VertexElementType SPECULAR
 ```
 
 
-الألوان اللامعة، انظر [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular)
+ألوان الانعكاس، انظر [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular)
 
 ### TANGENT {#TANGENT}
 ```
@@ -124,7 +124,7 @@ public static final VertexElementType TANGENT
 ```
 
 
-المتجه المماس، انظر [VertexElementTangent](../../com.aspose.threed/vertexelementtangent)
+متجه المماس، انظر [VertexElementTangent](../../com.aspose.threed/vertexelementtangent)
 
 ### USER_DATA {#USER-DATA}
 ```
@@ -156,7 +156,7 @@ public static final VertexElementType VERTEX_CREASE
 ```
 
 
-ثنية الرأس، انظر [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease)
+ثني الرأس، انظر [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease)
 
 ### VISIBILITY {#VISIBILITY}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "MulticastEvent"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تم الإنشاء بواسطة lexchou في 4/24/2017."
 type: docs
 weight: 109
@@ -104,8 +104,8 @@ public void invoke(Object sender, EventArg arg)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المرسل | java.lang.Object |  |
-| معامل | EventArg |  |
+| sender | java.lang.Object |  |
+| arg | EventArg |  |
 
 ### notify() {#notify--}
 ```

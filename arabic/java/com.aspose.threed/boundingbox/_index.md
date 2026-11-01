@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مربع الحد المحاذى للمحاور مثال  الشيفرة التالية توضح كيفية الحصول على مربع حد من كائن Entity."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مربع الإحاطة المحاذى للمحاور مثال  يوضح الشيفرة التالية كيفية الحصول على مربع إحاطة من كائن Entity."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.threed/boundingbox/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox implements Struct<BoundingBox>, Serializable
 ```
 
-مربع الحد المحاذى للمحاور **Example:** يوضح الشيفرة التالية كيفية الحصول على مربع حد من مثيل كيان.
+مربع الحد المحاذي للمحور **مثال:** يوضح الشيفرة التالية كيفية الحصول على مربع حد من مثيل كيان.
 
 ```
 var sphere = new Sphere();
@@ -27,38 +27,38 @@ var sphere = new Sphere();
 
 | منشئ | الوصف |
 | --- | --- |
-| [BoundingBox(Vector3 minimum, Vector3 maximum)](#BoundingBox-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية القصوى المحددة |
-| [BoundingBox(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)](#BoundingBox-double-double-double-double-double-double-) | تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية القصوى المحددة |
+| [BoundingBox(Vector3 minimum, Vector3 maximum)](#BoundingBox-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية العليا المحددة |
+| [BoundingBox(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)](#BoundingBox-double-double-double-double-double-double-) | تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية العليا المحددة |
 | [BoundingBox()](#BoundingBox--) |  |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [contains(BoundingBox bbox)](#contains-com.aspose.threed.BoundingBox-) | مربع الحد للتحقق مما إذا كان داخل مربع الحد الحالي. |
-| [contains(Vector3 p)](#contains-com.aspose.threed.Vector3-) | تحقق مما إذا كانت النقطة p داخل مربع الحد |
+| [contains(BoundingBox bbox)](#contains-com.aspose.threed.BoundingBox-) | مربع الإحاطة للتحقق مما إذا كان داخل مربع الإحاطة الحالي. |
+| [contains(Vector3 p)](#contains-com.aspose.threed.Vector3-) | تحقق مما إذا كانت النقطة p داخل مربع الإحاطة |
 | [copyFrom(BoundingBox src)](#copyFrom-com.aspose.threed.BoundingBox-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان كائنان متساويان |
-| [fromGeometry(Geometry geometry)](#fromGeometry-com.aspose.threed.Geometry-) | إنشاء مربع حد من الهندسة المعطاة |
-| [getCenter()](#getCenter--) | مركز مربع الحد. |
+| [fromGeometry(Geometry geometry)](#fromGeometry-com.aspose.threed.Geometry-) | إنشاء مربع إحاطة من الهندسة المعطاة |
+| [getCenter()](#getCenter--) | مركز مربع الإحاطة. |
 | [getClass()](#getClass--) |  |
-| [getExtent()](#getExtent--) | يسترجع مدى صندوق الحدود. |
+| [getExtent()](#getExtent--) | يحصل على مدى صندوق الحدود. |
 | [getInfinite()](#getInfinite--) | صندوق الحدود اللانهائي |
-| [getMaximum()](#getMaximum--) | الزاوية القصوى لصندوق الحدود |
+| [getMaximum()](#getMaximum--) | الزاوية العليا لصندوق الحدود |
 | [getMinimum()](#getMinimum--) | الزاوية الدنيا لصندوق الحدود |
 | [getNull()](#getNull--) | صندوق الحدود الفارغ |
-| [getSize()](#getSize--) | حجم مربع الحد |
-| [hashCode()](#hashCode--) | يرجع رمز التجزئة لهذه الحالة |
+| [getSize()](#getSize--) | حجم مربع الإحاطة |
+| [hashCode()](#hashCode--) | يعيد قيمة التجزئة لهذا الكائن |
 | [merge(BoundingBox bb)](#merge-com.aspose.threed.BoundingBox-) | يدمج الصندوق الجديد في صندوق الحدود الحالي. |
-| [merge(Vector3 pt)](#merge-com.aspose.threed.Vector3-) | دمج مربع الحد الحالي مع النقطة المعطاة |
-| [merge(Vector4 pt)](#merge-com.aspose.threed.Vector4-) | دمج مربع الحد الحالي مع النقطة المعطاة |
-| [merge(double x, double y, double z)](#merge-double-double-double-) | دمج مربع الحد الحالي مع النقطة المعطاة |
-| [mul(BoundingBox bbox, Matrix4 mat)](#mul-com.aspose.threed.BoundingBox-com.aspose.threed.Matrix4-) | تحميل المشغل للضرب، سيتم تحويل الزاوية الدنيا والعليا لمربع الحد الجديد بواسطة المصفوفة. |
+| [merge(Vector3 pt)](#merge-com.aspose.threed.Vector3-) | دمج مربع الإحاطة الحالي مع النقطة المعطاة |
+| [merge(Vector4 pt)](#merge-com.aspose.threed.Vector4-) | دمج مربع الإحاطة الحالي مع النقطة المعطاة |
+| [merge(double x, double y, double z)](#merge-double-double-double-) | دمج مربع الإحاطة الحالي مع النقطة المعطاة |
+| [mul(BoundingBox bbox, Matrix4 mat)](#mul-com.aspose.threed.BoundingBox-com.aspose.threed.Matrix4-) | تحميل المشغل للضرب، سيتم تحويل الزاوية الدنيا والقصوى لمربع الإحاطة الجديد بواسطة المصفوفة. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [overlapsWith(BoundingBox box)](#overlapsWith-com.aspose.threed.BoundingBox-) | تحقق مما إذا كان مربع الحد الحالي يتقاطع مع مربع الحد المحدد. |
+| [overlapsWith(BoundingBox box)](#overlapsWith-com.aspose.threed.BoundingBox-) | تحقق مما إذا كان مربع الإحاطة الحالي يتقاطع مع مربع الإحاطة المحدد. |
 | [scale()](#scale--) | يحسب القيمة المطلقة لأكبر إحداثي لأي نقطة محتواة. |
-| [toString()](#toString--) | يسترجع التمثيل النصي لصندوق الحدود. |
+| [toString()](#toString--) | يحصل على تمثيل النص لصندوق الحدود. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -68,13 +68,13 @@ public BoundingBox(Vector3 minimum, Vector3 maximum)
 ```
 
 
-تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية القصوى المحددة
+تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية العليا المحددة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | minimum | [Vector3](../../com.aspose.threed/vector3) | الزاوية الدنيا |
-|  | maximum | [Vector3](../../com.aspose.threed/vector3) | الزاوية القصوى **Example:** يوضح الشيفرة التالية كيفية إنشاء مربع حد من الزوايا الدنيا والقصوى. |
+|  | maximum | [Vector3](../../com.aspose.threed/vector3) | الزاوية القصوى **Example:** يوضح الشيفرة التالية كيفية إنشاء مربع إحاطة من الزوايا الدنيا والقصوى. |
 
 ```
 var minimum = new Vector3(0, 0, 0);
@@ -89,7 +89,7 @@ public BoundingBox(double minX, double minY, double minZ, double maxX, double ma
 ```
 
 
-تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية القصوى المحددة
+تهيئة صندوق حدود نهائي مع الزاوية الدنيا والزاوية العليا المحددة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -99,7 +99,7 @@ public BoundingBox(double minX, double minY, double minZ, double maxX, double ma
 | minZ | double | الزاوية الدنيا للمحور Z |
 | maxX | double | الزاوية القصوى للمحور X |
 | maxY | double | الزاوية القصوى للمحور Y |
-|  | maxZ | double | الزاوية القصوى للمحور Z **مثال:** يوضح الكود التالي كيفية إنشاء صندوق احتواء من الزوايا الدنيا والقصوى. |
+|  | maxZ | double | الزاوية القصوى للمحور Z **مثال:** الكود التالي يوضح كيفية إنشاء صندوق حدود من الزوايا الدنيا والقصوى. |
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -118,7 +118,7 @@ public BoundingBox clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox)
@@ -128,7 +128,7 @@ public boolean contains(BoundingBox bbox)
 ```
 
 
-مربع الحد للتحقق مما إذا كان داخل مربع الحد الحالي.
+مربع الإحاطة للتحقق مما إذا كان داخل مربع الإحاطة الحالي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -143,7 +143,7 @@ public boolean contains(Vector3 p)
 ```
 
 
-تحقق مما إذا كانت النقطة p داخل مربع الحد
+تحقق مما إذا كانت النقطة p داخل مربع الإحاطة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -151,7 +151,7 @@ public boolean contains(Vector3 p)
 | p | [Vector3](../../com.aspose.threed/vector3) | النقطة للاختبار |
 
 **Returns:**
-منطقي - صحيح إذا كانت النقطة داخل صندوق الاحتواء **مثال:** يوضح الكود التالي كيفية التحقق مما إذا كانت النقطة داخل صندوق الاحتواء.
+boolean - صحيح إذا كانت النقطة داخل صندوق الحدود **مثال:** الكود التالي يوضح كيفية التحقق مما إذا كانت النقطة داخل صندوق الحدود.
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -185,19 +185,19 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | الكائن للمقارنة |
 
 **Returns:**
-منطقي - صحيح إذا كان الكائنان متساويين
+boolean - صحيح إذا كان الكائنان متساويين
 ### fromGeometry(Geometry geometry) {#fromGeometry-com.aspose.threed.Geometry-}
 ```
 public static BoundingBox fromGeometry(Geometry geometry)
 ```
 
 
-إنشاء مربع حد من الهندسة المعطاة
+إنشاء مربع إحاطة من الهندسة المعطاة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| geometry | [Geometry](../../com.aspose.threed/geometry) | الهندسة لحساب صندوق الاحتواء |
+| geometry | [Geometry](../../com.aspose.threed/geometry) | الهندسة لحساب صندوق الحدود |
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The bounding box of given geometry **Example:** The following code shows how to construct a bounding box from a geometry instance.
@@ -213,7 +213,7 @@ public Vector3 getCenter()
 ```
 
 
-مركز مربع الحد.
+مركز مربع الإحاطة.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The center of the bounding box.
@@ -233,7 +233,7 @@ public BoundingBoxExtent getExtent()
 ```
 
 
-يسترجع مدى صندوق الحدود.
+يحصل على مدى صندوق الحدود.
 
 **Returns:**
 [BoundingBoxExtent](../../com.aspose.threed/boundingboxextent) - the extent of the bounding box.
@@ -253,7 +253,7 @@ public Vector3 getMaximum()
 ```
 
 
-الزاوية القصوى لصندوق الحدود
+الزاوية العليا لصندوق الحدود
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The maximum corner of the bounding box
@@ -283,7 +283,7 @@ public Vector3 getSize()
 ```
 
 
-حجم مربع الحد
+حجم مربع الإحاطة
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The size of the bounding box
@@ -293,10 +293,10 @@ public int hashCode()
 ```
 
 
-يرجع رمز التجزئة لهذه الحالة
+يعيد قيمة التجزئة لهذا الكائن
 
 **Returns:**
-int - قيمة التجزئة لصندوق الاحتواء
+int - رمز التجزئة لصندوق الحدود
 ### merge(BoundingBox bb) {#merge-com.aspose.threed.BoundingBox-}
 ```
 public void merge(BoundingBox bb)
@@ -316,12 +316,12 @@ public void merge(Vector3 pt)
 ```
 
 
-دمج مربع الحد الحالي مع النقطة المعطاة
+دمج مربع الإحاطة الحالي مع النقطة المعطاة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | pt | [Vector3](../../com.aspose.threed/vector3) | النقطة التي سيتم دمجها في صندوق الاحتواء **مثال:** يوضح الكود التالي كيفية دمج نقطة في صندوق الاحتواء. |
+|  | pt | [Vector3](../../com.aspose.threed/vector3) | النقطة التي سيتم دمجها في صندوق الحدود **مثال:** الكود التالي يوضح كيفية دمج نقطة في صندوق الحدود. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -335,12 +335,12 @@ public void merge(Vector4 pt)
 ```
 
 
-دمج مربع الحد الحالي مع النقطة المعطاة
+دمج مربع الإحاطة الحالي مع النقطة المعطاة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | pt | [Vector4](../../com.aspose.threed/vector4) | النقطة التي سيتم دمجها في صندوق الاحتواء **مثال:** يوضح الكود التالي كيفية دمج نقطة في صندوق الاحتواء. |
+|  | pt | [Vector4](../../com.aspose.threed/vector4) | النقطة التي سيتم دمجها في صندوق الحدود **مثال:** الكود التالي يوضح كيفية دمج نقطة في صندوق الحدود. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -354,14 +354,14 @@ public void merge(double x, double y, double z)
 ```
 
 
-دمج مربع الحد الحالي مع النقطة المعطاة
+دمج مربع الإحاطة الحالي مع النقطة المعطاة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | double | النقطة التي سيتم دمجها في صندوق الاحتواء |
-| y | double | النقطة التي سيتم دمجها في صندوق الاحتواء |
-|  | z | double | النقطة التي سيتم دمجها في صندوق الاحتواء **مثال:** يوضح الكود التالي كيفية دمج نقطة في صندوق الاحتواء. |
+| x | double | النقطة التي سيتم دمجها في صندوق الحدود |
+| y | double | النقطة التي سيتم دمجها في صندوق الحدود |
+|  | z | double | النقطة التي سيتم دمجها في صندوق الحدود **مثال:** الكود التالي يوضح كيفية دمج نقطة في صندوق الحدود. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -375,13 +375,13 @@ public static BoundingBox mul(BoundingBox bbox, Matrix4 mat)
 ```
 
 
-تحميل المشغل للضرب، سيتم تحويل الزاوية الدنيا والعليا لمربع الحد الجديد بواسطة المصفوفة.
+تحميل المشغل للضرب، سيتم تحويل الزاوية الدنيا والقصوى لمربع الإحاطة الجديد بواسطة المصفوفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| bbox | [BoundingBox](../../com.aspose.threed/boundingbox) | صندوق الاحتواء المُدخل. |
-| mat | [Matrix4](../../com.aspose.threed/matrix4) | المصفوفة المستخدمة لتحويل زوايا صندوق الاحتواء |
+| bbox | [BoundingBox](../../com.aspose.threed/boundingbox) | صندوق الحدود المُدخل. |
+| mat | [Matrix4](../../com.aspose.threed/matrix4) | المصفوفة المستخدمة لتحويل زوايا صندوق الحدود |
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The product of bounding box and transform matrix.
@@ -407,15 +407,15 @@ public boolean overlapsWith(BoundingBox box)
 ```
 
 
-تحقق مما إذا كان مربع الحد الحالي يتقاطع مع مربع الحد المحدد.
+تحقق مما إذا كان مربع الإحاطة الحالي يتقاطع مع مربع الإحاطة المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| box | [BoundingBox](../../com.aspose.threed/boundingbox) | صندوق الاحتواء الآخر للاختبار |
+| box | [BoundingBox](../../com.aspose.threed/boundingbox) | صندوق الحدود الآخر للاختبار |
 
 **Returns:**
-منطقي - صحيح إذا كان صندوق الاحتواء الحالي يتقاطع مع الصندوق المعطى **مثال:** يوضح الكود التالي كيفية التحقق مما إذا كان صندوقا احتواء يتقاطعان مع بعضهما.
+boolean - صحيح إذا كان صندوق الحدود الحالي يتقاطع مع الصندوق المعطى. **مثال:** الكود التالي يوضح كيفية التحقق مما إذا كان صندوقا حدود يتقاطع مع الآخر.
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -431,17 +431,17 @@ public double scale()
 يحسب القيمة المطلقة لأكبر إحداثي لأي نقطة محتواة.
 
 **Returns:**
-double - القيمة المطلقة الأكبر للإحداثيات التي تم حسابها لأي نقطة محتواة.
+double - القيمة المطلقة الأكبر للإحداثي المحسوبة لأي نقطة محتواة.
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-يسترجع التمثيل النصي لصندوق الحدود.
+يحصل على تمثيل النص لصندوق الحدود.
 
 **Returns:**
-java.lang.String - تمثيل النص لصندوق الاحتواء.
+java.lang.String - تمثيل النص لصندوق الحدود.
 ### wait() {#wait--}
 ```
 public final void wait()

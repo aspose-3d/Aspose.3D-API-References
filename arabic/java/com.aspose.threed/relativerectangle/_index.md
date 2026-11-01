@@ -1,7 +1,7 @@
 ---
 title: "RelativeRectangle"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "المستطيل النسبي  الصيغة بين المكوّن النسبي والقيمة المطلقة هي  Scale  Reference Width  offset  لذا إذا أردنا تمثيل قيمة مطلقة، اترك جميع حقول المقياس صفرًا واستخدم حقول الإزاحة بدلاً من ذلك."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مستطيل نسبي  الصيغة بين المكوّن النسبي والقيمة المطلقة هي  Scale  Reference Width  offset  لذا إذا أردنا تمثيله كقيمة مطلقة اترك جميع حقول المقياس صفرًا واستخدم حقول الإزاحة بدلاً من ذلك."
 type: docs
 weight: 147
 url: /ar/java/com.aspose.threed/relativerectangle/
@@ -32,27 +32,27 @@ public final class RelativeRectangle implements Struct<RelativeRectangle>, Seria
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | إنشاء [RelativeRectangle](../../com.aspose.threed/relativerectangle) مع جميع حقول الإزاحة صفرًا وحقول المقياس من المعلمات المعطاة. |
 | [getClass()](#getClass--) |  |
-| [getOffsetHeight()](#getOffsetHeight--) | يحصل على الإزاحة للارتفاع |
-| [getOffsetWidth()](#getOffsetWidth--) | يحصل على الإزاحة للعرض |
-| [getOffsetX()](#getOffsetX--) | يحصل على الإزاحة للإحداثي X |
-| [getOffsetY()](#getOffsetY--) | يحصل على الإزاحة للإحداثي Y |
+| [getOffsetHeight()](#getOffsetHeight--) | الحصول على الإزاحة للارتفاع |
+| [getOffsetWidth()](#getOffsetWidth--) | الحصول على الإزاحة للعرض |
+| [getOffsetX()](#getOffsetX--) | الحصول على الإزاحة للإحداثي X |
+| [getOffsetY()](#getOffsetY--) | الحصول على الإزاحة للإحداثي Y |
 | [getScaleHeight()](#getScaleHeight--) | الارتفاع النسبي |
 | [getScaleWidth()](#getScaleWidth--) | العرض النسبي |
-| [getScaleX()](#getScaleX--) | الإحداثي النسبي X |
-| [getScaleY()](#getScaleY--) | الإحداثي النسبي Y |
+| [getScaleX()](#getScaleX--) | الإحداثي X النسبي |
+| [getScaleY()](#getScaleY--) | الإحداثي Y النسبي |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setOffsetHeight(int value)](#setOffsetHeight-int-) | يضبط الإزاحة للارتفاع |
-| [setOffsetWidth(int value)](#setOffsetWidth-int-) | يضبط الإزاحة للعرض |
-| [setOffsetX(int value)](#setOffsetX-int-) | يضبط الإزاحة للإحداثي X |
-| [setOffsetY(int value)](#setOffsetY-int-) | يضبط الإزاحة للإحداثي Y |
+| [setOffsetHeight(int value)](#setOffsetHeight-int-) | تعيين الإزاحة للارتفاع |
+| [setOffsetWidth(int value)](#setOffsetWidth-int-) | تعيين الإزاحة للعرض |
+| [setOffsetX(int value)](#setOffsetX-int-) | تعيين الإزاحة للإحداثي X |
+| [setOffsetY(int value)](#setOffsetY-int-) | تعيين الإزاحة للإحداثي Y |
 | [setScaleHeight(float value)](#setScaleHeight-float-) | الارتفاع النسبي |
 | [setScaleWidth(float value)](#setScaleWidth-float-) | العرض النسبي |
-| [setScaleX(float value)](#setScaleX-float-) | الإحداثي النسبي X |
-| [setScaleY(float value)](#setScaleY-float-) | الإحداثي النسبي Y |
+| [setScaleX(float value)](#setScaleX-float-) | الإحداثي X النسبي |
+| [setScaleY(float value)](#setScaleY-float-) | الإحداثي Y النسبي |
 | [toAbsolute(int left, int top, int width, int height)](#toAbsolute-int-int-int-int-) | تحويل المستطيل النسبي إلى مستطيل مطلق |
-| [toString()](#toString--) | يحول قيمة هذه المثيلة إلى java.lang.String. |
+| [toString()](#toString--) | يقوم بتحويل قيمة هذه المثيلة إلى java.lang.String. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -67,7 +67,7 @@ public RelativeRectangle(int left, int top, int width, int height)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اليسار | int |  |
+| يسار | int |  |
 | أعلى | int |  |
 | العرض | int |  |
 | الارتفاع | int |  |
@@ -84,7 +84,7 @@ public RelativeRectangle clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [RelativeRectangle](../../com.aspose.threed/relativerectangle)
@@ -150,7 +150,7 @@ public int getOffsetHeight()
 ```
 
 
-يحصل على الإزاحة للارتفاع
+الحصول على الإزاحة للارتفاع
 
 **Returns:**
 int - الإزاحة للارتفاع
@@ -160,7 +160,7 @@ public int getOffsetWidth()
 ```
 
 
-يحصل على الإزاحة للعرض
+الحصول على الإزاحة للعرض
 
 **Returns:**
 int - الإزاحة للعرض
@@ -170,20 +170,20 @@ public int getOffsetX()
 ```
 
 
-يحصل على الإزاحة للإحداثي X
+الحصول على الإزاحة للإحداثي X
 
 **Returns:**
-int - الإزاحة لإحداثي X
+int - الإزاحة للإحداثي X
 ### getOffsetY() {#getOffsetY--}
 ```
 public int getOffsetY()
 ```
 
 
-يحصل على الإزاحة للإحداثي Y
+الحصول على الإزاحة للإحداثي Y
 
 **Returns:**
-int - الإزاحة لإحداثي Y
+int - الإزاحة للإحداثي Y
 ### getScaleHeight() {#getScaleHeight--}
 ```
 public float getScaleHeight()
@@ -210,20 +210,20 @@ public float getScaleX()
 ```
 
 
-الإحداثي النسبي X
+الإحداثي X النسبي
 
 **Returns:**
-float - إحداثي X النسبي
+float - الإحداثي النسبي X
 ### getScaleY() {#getScaleY--}
 ```
 public float getScaleY()
 ```
 
 
-الإحداثي النسبي Y
+الإحداثي Y النسبي
 
 **Returns:**
-float - إحداثي Y النسبي
+float - الإحداثي النسبي Y
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -256,12 +256,12 @@ public void setOffsetHeight(int value)
 ```
 
 
-يضبط الإزاحة للارتفاع
+تعيين الإزاحة للارتفاع
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setOffsetWidth(int value) {#setOffsetWidth-int-}
 ```
@@ -269,12 +269,12 @@ public void setOffsetWidth(int value)
 ```
 
 
-يضبط الإزاحة للعرض
+تعيين الإزاحة للعرض
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setOffsetX(int value) {#setOffsetX-int-}
 ```
@@ -282,12 +282,12 @@ public void setOffsetX(int value)
 ```
 
 
-يضبط الإزاحة للإحداثي X
+تعيين الإزاحة للإحداثي X
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setOffsetY(int value) {#setOffsetY-int-}
 ```
@@ -295,12 +295,12 @@ public void setOffsetY(int value)
 ```
 
 
-يضبط الإزاحة للإحداثي Y
+تعيين الإزاحة للإحداثي Y
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setScaleHeight(float value) {#setScaleHeight-float-}
 ```
@@ -313,7 +313,7 @@ public void setScaleHeight(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setScaleWidth(float value) {#setScaleWidth-float-}
 ```
@@ -326,7 +326,7 @@ public void setScaleWidth(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setScaleX(float value) {#setScaleX-float-}
 ```
@@ -334,12 +334,12 @@ public void setScaleX(float value)
 ```
 
 
-الإحداثي النسبي X
+الإحداثي X النسبي
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setScaleY(float value) {#setScaleY-float-}
 ```
@@ -347,12 +347,12 @@ public void setScaleY(float value)
 ```
 
 
-الإحداثي النسبي Y
+الإحداثي Y النسبي
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### toAbsolute(int left, int top, int width, int height) {#toAbsolute-int-int-int-int-}
 ```
@@ -365,7 +365,7 @@ public Rect toAbsolute(int left, int top, int width, int height)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اليسار | int | يسار المستطيل |
+| يسار | int | يسار المستطيل |
 | أعلى | int | أعلى المستطيل |
 | العرض | int | عرض المستطيل |
 | الارتفاع | int | ارتفاع المستطيل |
@@ -378,7 +378,7 @@ public String toString()
 ```
 
 
-يحول قيمة هذه المثيلة إلى java.lang.String.
+يقوم بتحويل قيمة هذه المثيلة إلى java.lang.String.
 
 **Returns:**
 java.lang.String

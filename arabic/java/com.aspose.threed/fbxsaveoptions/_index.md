@@ -1,6 +1,6 @@
 ---
 title: "FbxSaveOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "خيارات الحفظ لملف Fbx."
 type: docs
 weight: 63
@@ -19,43 +19,43 @@ public class FbxSaveOptions extends SaveOptions
 | منشئ | الوصف |
 | --- | --- |
 | [FbxSaveOptions(FileFormat format)](#FbxSaveOptions-com.aspose.threed.FileFormat-) | يُهيئ [FbxSaveOptions](../../com.aspose.threed/fbxsaveoptions) |
-| [FbxSaveOptions(FileContentType contentType)](#FbxSaveOptions-com.aspose.threed.FileContentType-) | تهيئة [FbxSaveOptions](../../com.aspose.threed/fbxsaveoptions) باستخدام أحدث إصدار مدعوم. |
+| [FbxSaveOptions(FileContentType contentType)](#FbxSaveOptions-com.aspose.threed.FileContentType-) | قم بتهيئة [FbxSaveOptions](../../com.aspose.threed/fbxsaveoptions) باستخدام أحدث نسخة مدعومة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEmbedTextures()](#getEmbedTextures--) | يحصل على ما إذا كان يجب تضمين النسيج في ملف الإخراج النهائي. |
+| [getEmbedTextures()](#getEmbedTextures--) | يحصل على ما إذا كان سيتم تضمين القوام في ملف الإخراج النهائي. |
 | [getEnableCompression()](#getEnableCompression--) | ضغط البيانات الثنائية الكبيرة في ملف FBX (مثال: |
 | [getEncoding()](#getEncoding--) | يحصل على الترميز الافتراضي للملفات النصية. |
-| [getExportLegacyMaterialProperties()](#getExportLegacyMaterialProperties--) | يحصل على ما إذا كان يتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. |
+| [getExportLegacyMaterialProperties()](#getExportLegacyMaterialProperties--) | يحصل على ما إذا كان سيتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. |
 | [getExportTextures()](#getExportTextures--) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
-| [getFileName()](#getFileName--) | اسم ملف المشهد المصدر/المستورد. |
+| [getFileName()](#getFileName--) | اسم الملف للمشهد المصدر/المستورد. |
 | [getFileSystem()](#getFileSystem--) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | يحصل على فئة المصنع لنظام الملفات. |
-| [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | يحصل على ما إذا كان يتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة |
-| [getGenerateVertexElementMaterial()](#getGenerateVertexElementMaterial--) | يحصل على ما إذا كان يتم دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. |
-| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم مخرجات FBX بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). |
-| [getVideoForTexture()](#getVideoForTexture--) | يحصل على ما إذا كان يتم إنشاء مثال فيديو لـ [Texture](../../com.aspose.threed/texture) عند التصدير كـ FBX. |
+| [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | يحصل على ما إذا كان سيتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة |
+| [getGenerateVertexElementMaterial()](#getGenerateVertexElementMaterial--) | يحصل على ما إذا كان يجب دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. |
+| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم ملف FBX الناتج بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). |
+| [getVideoForTexture()](#getVideoForTexture--) | يحصل على ما إذا كان سيتم إنشاء مثيل فيديو لـ [Texture](../../com.aspose.threed/texture) عند التصدير كملف FBX. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | يضبط ما إذا كان يجب تضمين النسيج في ملف الإخراج النهائي. |
+| [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | يضبط ما إذا كان يجب تضمين القوام في ملف الإخراج النهائي. |
 | [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | ضغط البيانات الثنائية الكبيرة في ملف FBX (مثال: |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | يضبط الترميز الافتراضي للملفات النصية. |
-| [setExportLegacyMaterialProperties(boolean value)](#setExportLegacyMaterialProperties-boolean-) | يضبط ما إذا كان يتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. |
+| [setExportLegacyMaterialProperties(boolean value)](#setExportLegacyMaterialProperties-boolean-) | يضبط ما إذا كان سيتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | اسم ملف المشهد المصدر/المستورد. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | اسم الملف للمشهد المصدر/المستورد. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | يضبط فئة المصنع لنظام الملفات. |
-| [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | يضبط ما إذا كان يتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة |
-| [setGenerateVertexElementMaterial(boolean value)](#setGenerateVertexElementMaterial-boolean-) | يضبط ما إذا كان يتم دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم مخرجات FBX بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). |
-| [setVideoForTexture(boolean value)](#setVideoForTexture-boolean-) | يضبط ما إذا كان يتم إنشاء مثال فيديو لـ [Texture](../../com.aspose.threed/texture) عند التصدير كـ FBX. |
+| [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | يضبط ما إذا كان سيتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة |
+| [setGenerateVertexElementMaterial(boolean value)](#setGenerateVertexElementMaterial-boolean-) | يضبط ما إذا كان يجب دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم ملف FBX الناتج بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). |
+| [setVideoForTexture(boolean value)](#setVideoForTexture-boolean-) | يضبط ما إذا كان سيتم إنشاء مثيل فيديو لـ [Texture](../../com.aspose.threed/texture) عند التصدير كملف FBX. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public FbxSaveOptions(FileFormat format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | [FileFormat](../../com.aspose.threed/fileformat) | مثال لـ [getFileFormat](../../com.aspose.threed/fbxsaveoptions\#getFileFormat)، يجب أن يكون تنسيق FBX صالحًا. |
+| format | [FileFormat](../../com.aspose.threed/fileformat) | مثال على [getFileFormat](../../com.aspose.threed/fbxsaveoptions\#getFileFormat)، يجب أن يكون تنسيق FBX صالحًا. |
 
 ### FbxSaveOptions(FileContentType contentType) {#FbxSaveOptions-com.aspose.threed.FileContentType-}
 ```
@@ -79,7 +79,7 @@ public FbxSaveOptions(FileContentType contentType)
 ```
 
 
-تهيئة [FbxSaveOptions](../../com.aspose.threed/fbxsaveoptions) باستخدام أحدث إصدار مدعوم.
+قم بتهيئة [FbxSaveOptions](../../com.aspose.threed/fbxsaveoptions) باستخدام أحدث نسخة مدعومة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -117,20 +117,20 @@ public boolean getEmbedTextures()
 ```
 
 
-يحصل على ما إذا كان يجب تضمين النسيج في ملف الإخراج النهائي. سيحاول مُصدِّر FBX العثور على البيانات الخام للنسيج من [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem)، وتضمين الملف في ملف FBX النهائي. القيمة الافتراضية هي false.
+يحصل على ما إذا كان يجب تضمين القوام في ملف الإخراج النهائي. سيحاول مُصدّر FBX العثور على البيانات الأولية للقوام من [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem)، وتضمين الملف في ملف FBX النهائي. القيمة الافتراضية هي false.
 
 **Returns:**
-منطقي - ما إذا كان يجب تضمين النسيج في ملف الإخراج النهائي. سيحاول مُصدِّر FBX العثور على البيانات الخام للنسيج من [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem)، وتضمين الملف في ملف FBX النهائي. القيمة الافتراضية هي false.
+منطقي - ما إذا كان يجب تضمين القوام في ملف الإخراج النهائي. سيحاول مُصدّر FBX العثور على البيانات الأولية للقوام من [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem)، وتضمين الملف في ملف FBX النهائي. القيمة الافتراضية هي false.
 ### getEnableCompression() {#getEnableCompression--}
 ```
 public boolean getEnableCompression()
 ```
 
 
-ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عناصر الرأس، الفهارس)، القيمة الافتراضية هي true.
+ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عنصر الرأس، الفهارس)، القيمة الافتراضية هي true.
 
 **Returns:**
-منطقي - ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عناصر الرأس، الفهارس)، القيمة الافتراضية هي true.
+منطقي - ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عنصر الرأس، الفهارس)، القيمة الافتراضية هي true.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -147,10 +147,10 @@ public boolean getExportLegacyMaterialProperties()
 ```
 
 
-يحصل على ما إذا كان يتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. يتم تشغيل هذا الخيار افتراضيًا.
+يحصل على ما إذا كان سيتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. يتم تشغيل هذا الخيار افتراضيًا.
 
 **Returns:**
-منطقي - ما إذا كان يتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. يتم تشغيل هذا الخيار افتراضيًا.
+منطقي - ما إذا كان سيتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. يتم تشغيل هذا الخيار افتراضيًا.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -177,10 +177,10 @@ public String getFileName()
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Returns:**
-java.lang.String - اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+java.lang.String - اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -221,7 +221,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -250,30 +250,30 @@ public Boolean getFoldRepeatedCurveData()
 ```
 
 
-يحصل على ما إذا كان يتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة
+يحصل على ما إذا كان سيتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة
 
 **Returns:**
-java.lang.Boolean - ما إذا كان يتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة
+java.lang.Boolean - ما إذا كان سيتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة
 ### getGenerateVertexElementMaterial() {#getGenerateVertexElementMaterial--}
 ```
 public boolean getGenerateVertexElementMaterial()
 ```
 
 
-يحصل على ما إذا كان يتم دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. يتم إيقاف هذا الخيار افتراضيًا.
+يحصل على ما إذا كان يجب دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. يتم إيقاف هذا الخيار افتراضيًا.
 
 **Returns:**
-منطقي - ما إذا كان يتم دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. يتم إيقاف هذا الخيار افتراضيًا.
+منطقي - ما إذا كان يجب دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. يتم إيقاف هذا الخيار افتراضيًا.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
+java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
 
 ```
 var opt = new ObjLoadOptions();
@@ -288,20 +288,20 @@ public boolean getReusePrimitiveMesh()
 ```
 
 
-إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم مخرجات FBX بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). القيمة الافتراضية هي false
+إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم ملف FBX الناتج بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). القيمة الافتراضية هي false
 
 **Returns:**
-منطقي - إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم مخرجات FBX بشكل كبير حيث تم بناء المشهد بواسطة مجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). القيمة الافتراضية هي false
+منطقي - إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم مخرجات FBX بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). القيمة الافتراضية هي false
 ### getVideoForTexture() {#getVideoForTexture--}
 ```
 public boolean getVideoForTexture()
 ```
 
 
-يحصل على ما إذا كان يتم إنشاء مثال فيديو لـ [Texture](../../com.aspose.threed/texture) عند التصدير كـ FBX.
+يحصل على ما إذا كان سيتم إنشاء مثيل فيديو لـ [Texture](../../com.aspose.threed/texture) عند التصدير كملف FBX.
 
 **Returns:**
-منطقي - ما إذا كان سيتم إنشاء مثيل Video لـ [Texture](../../com.aspose.threed/texture) عند التصدير كـ FBX.
+منطقي - ما إذا كان سيتم إنشاء مثال Video لـ [Texture](../../com.aspose.threed/texture) عند التصدير كـ FBX.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -334,12 +334,12 @@ public void setEmbedTextures(boolean value)
 ```
 
 
-يحدد ما إذا كان سيتم تضمين القوام في ملف الإخراج النهائي. سيحاول مُصدّر FBX العثور على البيانات الخام للقوام من [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem)، وتضمين الملف في ملف FBX النهائي. القيمة الافتراضية هي false.
+يضبط ما إذا كان سيتم تضمين القوام في ملف الإخراج النهائي. سيحاول مُصدّر FBX العثور على البيانات الخام للقوام من [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem)، وتضمين الملف في ملف FBX النهائي. القيمة الافتراضية هي false.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEnableCompression(boolean value) {#setEnableCompression-boolean-}
 ```
@@ -347,12 +347,12 @@ public void setEnableCompression(boolean value)
 ```
 
 
-ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عناصر الرأس، الفهارس)، القيمة الافتراضية هي true.
+ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عنصر الرأس، الفهارس)، القيمة الافتراضية هي true.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -360,12 +360,12 @@ public void setEncoding(Charset value)
 ```
 
 
-يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يستخدم.
+يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يُستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.nio.charset.Charset | القيمة الجديدة |
+| قيمة | java.nio.charset.Charset | قيمة جديدة |
 
 ### setExportLegacyMaterialProperties(boolean value) {#setExportLegacyMaterialProperties-boolean-}
 ```
@@ -373,12 +373,12 @@ public void setExportLegacyMaterialProperties(boolean value)
 ```
 
 
-يحدد ما إذا كان سيتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. يتم تشغيل هذا الخيار افتراضيًا.
+يضبط ما إذا كان سيتم تصدير خصائص المواد القديمة، المستخدمة للتوافق العكسي. يتم تشغيل هذا الخيار افتراضيًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setExportTextures(boolean value) {#setExportTextures-boolean-}
 ```
@@ -391,7 +391,7 @@ public void setExportTextures(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -399,12 +399,12 @@ public void setFileName(String value)
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
 ```
@@ -417,7 +417,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | New value **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، ولكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | قيمة جديدة **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، لكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -449,12 +449,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | New value **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | قيمة جديدة **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -481,12 +481,12 @@ public void setFoldRepeatedCurveData(Boolean value)
 ```
 
 
-يضبط ما إذا كان يتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة
+يضبط ما إذا كان سيتم إعادة استخدام بيانات المنحنى المتكررة بزيادة عدد المراجع للبيانات الأخيرة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Boolean | القيمة الجديدة |
+| قيمة | java.lang.Boolean | قيمة جديدة |
 
 ### setGenerateVertexElementMaterial(boolean value) {#setGenerateVertexElementMaterial-boolean-}
 ```
@@ -494,12 +494,12 @@ public void setGenerateVertexElementMaterial(boolean value)
 ```
 
 
-يحدد ما إذا كان سيتم دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للهياكل إذا كان العقد المرتبط يحتوي على مواد. يتم إيقاف هذا الخيار افتراضيًا.
+يضبط ما إذا كان سيتم دائمًا إنشاء [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) للأشكال الهندسية إذا كان العقد المرتبط يحتوي على مواد. يتم إيقاف هذا بشكل افتراضي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setLookupPaths(ArrayList<String> value) {#setLookupPaths-java.util.ArrayList-java.lang.String--}
 ```
@@ -507,12 +507,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.util.ArrayList<java.lang.String> | New value **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
+|  | قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
 
 ```
 var opt = new ObjLoadOptions();
@@ -528,12 +528,12 @@ public void setReusePrimitiveMesh(boolean value)
 ```
 
 
-إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم مخرجات FBX بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). القيمة الافتراضية هي false
+إعادة استخدام الشبكة للأشكال الأولية ذات المعلمات نفسها، سيؤدي ذلك إلى تقليل حجم ملف FBX الناتج بشكل كبير عندما يتم بناء المشهد بمجموعة كبيرة من الأشكال الأولية (مثل المستوردة من ملفات CAD). القيمة الافتراضية هي false
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setVideoForTexture(boolean value) {#setVideoForTexture-boolean-}
 ```
@@ -541,12 +541,12 @@ public void setVideoForTexture(boolean value)
 ```
 
 
-يضبط ما إذا كان يتم إنشاء مثال فيديو لـ [Texture](../../com.aspose.threed/texture) عند التصدير كـ FBX.
+يضبط ما إذا كان سيتم إنشاء مثيل فيديو لـ [Texture](../../com.aspose.threed/texture) عند التصدير كملف FBX.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

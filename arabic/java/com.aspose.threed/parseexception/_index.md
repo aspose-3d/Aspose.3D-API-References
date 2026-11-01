@@ -1,6 +1,6 @@
 ---
 title: "ParseException"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "استثناء عندما فشل Aspose.3D في تحليل الإدخال."
 type: docs
 weight: 118
@@ -18,7 +18,7 @@ public class ParseException extends Exception
 
 | منشئ | الوصف |
 | --- | --- |
-| [ParseException(String msg)](#ParseException-java.lang.String-) | منشئ لـ [ParseException](../../com.aspose.threed/parseexception) |
+| [ParseException(String msg)](#ParseException-java.lang.String-) | منشئ [ParseException](../../com.aspose.threed/parseexception) |
 ## الطرق
 
 | طريقة | الوصف |
@@ -50,7 +50,7 @@ public ParseException(String msg)
 ```
 
 
-منشئ لـ [ParseException](../../com.aspose.threed/parseexception)
+منشئ [ParseException](../../com.aspose.threed/parseexception)
 
 **Parameters:**
 | معامل | نوع | الوصف |

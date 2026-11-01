@@ -1,7 +1,7 @@
 ---
 title: "NurbsCurve"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "منحنى NURBS هو منحنى يُمثَّل بـ NURBS Non-uniform rational basis spline. يتم تعريف منحنى NURBS بواسطة مجموعة من النقاط المرجحة ومكوّن آخر. يُستخدم المكوّن w في نقطة التحكم كوزن لنقطة التحكم بغض النظر عما إذا كان ..."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "منحنى NURBS هو منحنى يُمثَّل بواسطة NURBSNon-uniform rational basis spline. يُعرَّف منحنى NURBS بمجموعة من النقاط المرجحة ومكون w في نقطة التحكم يُستخدم كوزن لنقاط التحكم مهما كان"
 type: docs
 weight: 112
 url: /ar/java/com.aspose.threed/nurbscurve/
@@ -21,8 +21,8 @@ public class NurbsCurve extends Curve
 
 | منشئ | الوصف |
 | --- | --- |
-| [NurbsCurve()](#NurbsCurve--) | يُنشئ مثلاً جديدًا من الفئة [NurbsCurve](../../com.aspose.threed/nurbscurve) class. |
-| [NurbsCurve(String name)](#NurbsCurve-java.lang.String-) | يُنشئ مثلاً جديدًا من الفئة [NurbsCurve](../../com.aspose.threed/nurbscurve) class. |
+| [NurbsCurve()](#NurbsCurve--) | يُنشئ مثيلاً جديدًا من الفئة [NurbsCurve](../../com.aspose.threed/nurbscurve). |
+| [NurbsCurve(String name)](#NurbsCurve-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة [NurbsCurve](../../com.aspose.threed/nurbscurve). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,42 +30,42 @@ public class NurbsCurve extends Curve
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [evaluate()](#evaluate--) | تقييم منحنى NURBS |
 | [evaluate(int steps)](#evaluate-int-) | تقييم منحنى NURBS |
-| [evaluateAt(double u)](#evaluateAt-double-) | تقييم نقطة المنحنى في الموضع المحدد |
+| [evaluateAt(double u)](#evaluateAt-double-) | تقييم نقطة المنحنى عند الموضع المحدد |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | يحصل على لون الخط، القيمة الافتراضية هي الأبيض(1, 1, 1) |
+| [getColor()](#getColor--) | يسترجع لون الخط، القيمة الافتراضية هي الأبيض (1, 1, 1) |
 | [getControlPoints()](#getControlPoints--) | يحصل على جميع نقاط التحكم |
-| [getCurveType()](#getCurveType--) | يحصل على نوع المنحنى. |
-| [getDegree()](#getDegree--) | يحصل على درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1 |
-| [getDimension()](#getDimension--) | يحصل على أبعاد المنحنى. |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getCurveType()](#getCurveType--) | يسترجع نوع المنحنى. |
+| [getDegree()](#getDegree--) | يسترجع درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1 |
+| [getDimension()](#getDimension--) | يسترجع أبعاد المنحنى. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [getKnotVectors()](#getKnotVectors--) | يحصل على متجه العقد، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS. |
-| [getMultiplicity()](#getMultiplicity--) | يحصل على التعددية. |
+| [getKnotVectors()](#getKnotVectors--) | يسترجع متجه العقدة، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS. |
+| [getMultiplicity()](#getMultiplicity--) | يسترجع التعددية. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getOrder()](#getOrder--) | يحصل على ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getOrder()](#getOrder--) | يسترجع ترتيب منحنى NURBS، يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
-| [getRational()](#getRational--) | يحصل على ما إذا كان ذلك عقلانيًا، هذه القيمة تشير إلى ما إذا كان [NurbsCurve](../../com.aspose.threed/nurbscurve) منحنىًا عقلانيًا أم غير عقلاني. |
+| [getRational()](#getRational--) | يسترجع ما إذا كان منطقياً، هذه القيمة تشير إلى ما إذا كان هذا [NurbsCurve](../../com.aspose.threed/nurbscurve) هو منحنى منطقي أو غير منطقي. |
 | [getScene()](#getScene--) | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | يضبط لون الخط، القيمة الافتراضية هي الأبيض(1, 1, 1) |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | يضبط لون الخط، القيمة الافتراضية هي الأبيض (1, 1, 1) |
 | [setCurveType(NurbsType value)](#setCurveType-com.aspose.threed.NurbsType-) | يضبط نوع المنحنى. |
-| [setDegree(int value)](#setDegree-int-) | يضبط درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1 |
+| [setDegree(int value)](#setDegree-int-) | يضبط درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1 |
 | [setDimension(CurveDimension value)](#setDimension-com.aspose.threed.CurveDimension-) | يضبط أبعاد المنحنى. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setOrder(int value)](#setOrder-int-) | يضبط ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setOrder(int value)](#setOrder-int-) | يضبط ترتيب منحنى NURBS، يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [setRational(boolean value)](#setRational-boolean-) | يضبط ما إذا كان ذلك عقلانيًا، هذه القيمة تشير إلى ما إذا كان [NurbsCurve](../../com.aspose.threed/nurbscurve) منحنىًا عقلانيًا أم غير عقلاني. |
+| [setRational(boolean value)](#setRational-boolean-) | يضبط ما إذا كان منطقياً، هذه القيمة تشير إلى ما إذا كان هذا [NurbsCurve](../../com.aspose.threed/nurbscurve) هو منحنى منطقي أو غير منطقي. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -76,7 +76,7 @@ public NurbsCurve()
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [NurbsCurve](../../com.aspose.threed/nurbscurve) class.
+يُنشئ مثيلاً جديدًا من الفئة [NurbsCurve](../../com.aspose.threed/nurbscurve).
 
 ### NurbsCurve(String name) {#NurbsCurve-java.lang.String-}
 ```
@@ -84,7 +84,7 @@ public NurbsCurve(String name)
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [NurbsCurve](../../com.aspose.threed/nurbscurve) class.
+يُنشئ مثيلاً جديدًا من الفئة [NurbsCurve](../../com.aspose.threed/nurbscurve).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -137,7 +137,7 @@ public Vector4 evaluateAt(double u)
 ```
 
 
-تقييم نقطة المنحنى في الموضع المحدد
+تقييم نقطة المنحنى عند الموضع المحدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -152,7 +152,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -194,7 +194,7 @@ public Vector3 getColor()
 ```
 
 
-يحصل على لون الخط، القيمة الافتراضية هي الأبيض(1, 1, 1)
+يسترجع لون الخط، القيمة الافتراضية هي الأبيض (1, 1, 1)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the color of the line, default value is white(1, 1, 1)
@@ -214,7 +214,7 @@ public NurbsType getCurveType()
 ```
 
 
-يحصل على نوع المنحنى.
+يسترجع نوع المنحنى.
 
 **Returns:**
 [NurbsType](../../com.aspose.threed/nurbstype) - the type of the curve.
@@ -224,17 +224,17 @@ public int getDegree()
 ```
 
 
-يحصل على درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1
+يسترجع درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1
 
 **Returns:**
-int - درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1
+int - درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1
 ### getDimension() {#getDimension--}
 ```
 public CurveDimension getDimension()
 ```
 
 
-يحصل على أبعاد المنحنى.
+يسترجع أبعاد المنحنى.
 
 **Returns:**
 [CurveDimension](../../com.aspose.threed/curvedimension) - the curve's dimension. **Remarks:** For a [CurveDimension.TWO\_DIMENSIONAL](../../com.aspose.threed/curvedimension\#TWO-DIMENSIONAL) curve, the z component in control point is unused.
@@ -244,7 +244,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -264,17 +264,17 @@ public List<Double> getKnotVectors()
 ```
 
 
-يحصل على متجه العقد، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS.
+يسترجع متجه العقدة، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS.
 
 **Returns:**
-java.util.List<java.lang.Double> - متجه العقد، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS.
+java.util.List<java.lang.Double> - متجه العقدة، وهو تسلسل من قيم المعامل التي تحدد أين وكيف تؤثر نقاط التحكم على منحنى NURBS.
 ### getMultiplicity() {#getMultiplicity--}
 ```
 public List<Integer> getMultiplicity()
 ```
 
 
-يحصل على التعددية.
+يسترجع التعددية.
 
 **Returns:**
 java.util.List<java.lang.Integer> - التعددية.
@@ -294,17 +294,17 @@ public int getOrder()
 ```
 
 
-يحصل على ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
+يسترجع ترتيب منحنى NURBS، يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
 
 **Returns:**
-int - رتبة منحنى NURBS، تُحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة على المنحنى.
+int - رتبة منحنى NURBS، تُعرّف عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة على المنحنى.
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -314,10 +314,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -349,10 +349,10 @@ public boolean getRational()
 ```
 
 
-يحصل على ما إذا كان منطقيًا، هذه القيمة تشير إلى ما إذا كان هذا [NurbsCurve](../../com.aspose.threed/nurbscurve) منحنىًا منطقيًا أم غير منطقي. الـ B-spline غير المنطقي هو حالة خاصة من الـ B-splines المنطقية.
+يحصل على ما إذا كان عقلانيًا، هذه القيمة تشير إلى ما إذا كان هذا [NurbsCurve](../../com.aspose.threed/nurbscurve) منحنىًا عقلانيًا أو غير عقلاني. الـ B-spline غير العقلاني هو حالة خاصة من الـ B-splines العقلانية.
 
 **Returns:**
-boolean - ما إذا كان منطقيًا، هذه القيمة تشير إلى ما إذا كان هذا [NurbsCurve](../../com.aspose.threed/nurbscurve) منحنىًا منطقيًا أم غير منطقي. الـ B-spline غير المنطقي هو حالة خاصة من الـ B-splines المنطقية.
+boolean - ما إذا كان عقلانيًا، هذه القيمة تشير إلى ما إذا كان هذا [NurbsCurve](../../com.aspose.threed/nurbscurve) منحنىًا عقلانيًا أو غير عقلاني. الـ B-spline غير العقلاني هو حالة خاصة من الـ B-splines العقلانية.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -410,7 +410,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -425,12 +425,12 @@ public void setColor(Vector3 value)
 ```
 
 
-يضبط لون الخط، القيمة الافتراضية هي الأبيض(1, 1, 1)
+يضبط لون الخط، القيمة الافتراضية هي الأبيض (1, 1, 1)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setCurveType(NurbsType value) {#setCurveType-com.aspose.threed.NurbsType-}
 ```
@@ -443,7 +443,7 @@ public void setCurveType(NurbsType value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [NurbsType](../../com.aspose.threed/nurbstype) | القيمة الجديدة |
+| value | [NurbsType](../../com.aspose.threed/nurbstype) | قيمة جديدة |
 
 ### setDegree(int value) {#setDegree-int-}
 ```
@@ -451,12 +451,12 @@ public void setDegree(int value)
 ```
 
 
-يضبط درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1
+يضبط درجة منحنى NURBS، تُعرّف الدرجة بأنها الترتيب - 1
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDimension(CurveDimension value) {#setDimension-com.aspose.threed.CurveDimension-}
 ```
@@ -469,7 +469,7 @@ public void setDimension(CurveDimension value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CurveDimension](../../com.aspose.threed/curvedimension) | قيمة جديدة **ملاحظات:** بالنسبة لمنحنى [CurveDimension.TWO\_DIMENSIONAL](../../com.aspose.threed/curvedimension\#TWO-DIMENSIONAL)، مكوّن z في نقطة التحكم غير مستخدم. |
+| value | [CurveDimension](../../com.aspose.threed/curvedimension) | قيمة جديدة **Remarks:** بالنسبة لمنحنى [CurveDimension.TWO\_DIMENSIONAL](../../com.aspose.threed/curvedimension\#TWO-DIMENSIONAL)، مكوّن z في نقطة التحكم غير مستخدم. |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -482,7 +482,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -495,7 +495,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setOrder(int value) {#setOrder-int-}
 ```
@@ -503,12 +503,12 @@ public void setOrder(int value)
 ```
 
 
-يضبط ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
+يضبط ترتيب منحنى NURBS، يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -516,12 +516,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -535,7 +535,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setRational(boolean value) {#setRational-boolean-}
 ```
@@ -543,12 +543,12 @@ public void setRational(boolean value)
 ```
 
 
-يضبط ما إذا كان منطقيًا، هذه القيمة تشير إلى ما إذا كان هذا [NurbsCurve](../../com.aspose.threed/nurbscurve) منحنىًا منطقيًا أم غير منطقي. الـ B-spline غير المنطقي هو حالة خاصة من الـ B-splines المنطقية.
+يضبط ما إذا كان عقلانيًا، هذه القيمة تشير إلى ما إذا كان هذا [NurbsCurve](../../com.aspose.threed/nurbscurve) منحنىًا عقلانيًا أو غير عقلاني. الـ B-spline غير العقلاني هو حالة خاصة من الـ B-splines العقلانية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

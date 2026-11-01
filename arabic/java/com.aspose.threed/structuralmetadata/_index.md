@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "هذه الفئة توفر الدعم لـ EXT_structural_metadata المستخدمة فقط في glTF."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "هذه الفئة توفر دعمًا لـ EXT_structural_metadata تُستخدم فقط في glTF."
 type: docs
 weight: 180
 url: /ar/java/com.aspose.threed/structuralmetadata/
@@ -13,7 +13,7 @@ java.lang.Object
 public class StructuralMetadata
 ```
 
-توفر هذه الفئة دعمًا لـ EXT\_structural\_metadata، وتُستخدم فقط في glTF.
+هذه الفئة توفر دعمًا لـ EXT\\_structural\\_metadata، وتُستخدم فقط في glTF.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -30,7 +30,7 @@ public class StructuralMetadata
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [from(Scene scene)](#from-com.aspose.threed.Scene-) | احصل على [StructuralMetadata](../../com.aspose.threed/structuralmetadata) المرتبط بالمشهد المحدد. |
 | [getClass()](#getClass--) |  |
-| [getClasses()](#getClasses--) | تعريفات الفئة. |
+| [getClasses()](#getClasses--) | تعريفات الفئة . |
 | [getEnums()](#getEnums--) | تعريفات نوع التعداد |
 | [getPropertyTables()](#getPropertyTables--) | جداول الخصائص في هذه البيانات الوصفية. |
 | [hashCode()](#hashCode--) |  |
@@ -151,10 +151,10 @@ public HashMap<String,StructuralMetadata.ClassType> getClasses()
 ```
 
 
-تعريفات الفئة.
+تعريفات الفئة .
 
 **Returns:**
-java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.ClassType> - تعريفات الفئات.
+java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.ClassType> - تعريفات الفئات .
 ### getEnums() {#getEnums--}
 ```
 public HashMap<String,StructuralMetadata.EnumType> getEnums()

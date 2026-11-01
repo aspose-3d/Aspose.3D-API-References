@@ -1,7 +1,7 @@
 ---
 title: "VertexDeclaration"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "تصريح بنية رؤوس مخصصة معرفة"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "إعلان بنية رؤوس مخصصة"
 type: docs
 weight: 206
 url: /ar/java/com.aspose.threed/vertexdeclaration/
@@ -16,7 +16,7 @@ java.lang.Iterable, java.lang.Comparable
 public final class VertexDeclaration implements Iterable<VertexField>, Comparable<VertexDeclaration>
 ```
 
-إعلان بنية رأس مُعرّف مخصّص
+إعلان بنية القمة المعرفة مخصّصة
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,20 +26,20 @@ public final class VertexDeclaration implements Iterable<VertexField>, Comparabl
 
 | طريقة | الوصف |
 | --- | --- |
-| [addField(int dataType, VertexFieldSemantic semantic)](#addField-int-com.aspose.threed.VertexFieldSemantic-) | أضف حقل قمة جديد |
-| [addField(int dataType, VertexFieldSemantic semantic, int index)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-) | أضف حقل قمة جديد |
-| [addField(int dataType, VertexFieldSemantic semantic, int index, String alias)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-java.lang.String-) | أضف حقل قمة جديد |
+| [addField(int dataType, VertexFieldSemantic semantic)](#addField-int-com.aspose.threed.VertexFieldSemantic-) | أضف حقل رأس جديد |
+| [addField(int dataType, VertexFieldSemantic semantic, int index)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-) | أضف حقل رأس جديد |
+| [addField(int dataType, VertexFieldSemantic semantic, int index, String alias)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-java.lang.String-) | أضف حقل رأس جديد |
 | [clear()](#clear--) | امسح جميع الحقول. |
-| [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | يقارن هذه الحالة مع كائن محدد ويعيد إشارة إلى قيمهما النسبية. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كانت هذه الحالة والكيان المحدد، الذي يجب أن يكون أيضًا كائنًا من نوع [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)، لهما نفس القيمة. |
+| [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | يقارن هذه المثيلة بكائن محدد ويعيد إشارة إلى قيمهما النسبية. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان هذا الكائن والكيان المحدد، الذي يجب أن يكون أيضًا كائنًا من نوع [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)، لهما نفس القيمة. |
 | [fromGeometry(Geometry geometry, boolean useFloat)](#fromGeometry-com.aspose.threed.Geometry-boolean-) | أنشئ [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) استنادًا إلى تخطيط [Geometry](../../com.aspose.threed/geometry). |
 | [get(int index)](#get-int-) | يحصل على [VertexField](../../com.aspose.threed/vertexfield) حسب الفهرس |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | يحصل على عدد جميع الحقول المعرفة في هذا [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) |
-| [getSealed()](#getSealed--) | سيتم إغلاق [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) عندما يتم استخدامه بواسطة [TriMesh](../../com.aspose.threed/trimesg)، ولا يُسمح بمزيد من التعديلات. |
-| [getSize()](#getSize--) | حجم بنية القمة بالبايت. |
-| [hashCode()](#hashCode--) | يرجع رمز التجزئة لهذا النص. |
-| [iterator()](#iterator--) | يحصل على مُعدِّد للتنقل عبر جميع حقول القمة في هذه الحالة. |
+| [getSealed()](#getSealed--) | سيتم إغلاق [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) عندما يُستخدم بواسطة [TriMesh](../../com.aspose.threed/trimesh)، ولا يُسمح بمزيد من التعديلات. |
+| [getSize()](#getSize--) | حجم بنية الرأس بالبايت. |
+| [hashCode()](#hashCode--) | يعيد قيمة التجزئة لهذا النص. |
+| [iterator()](#iterator--) | يحصل على عداد للتنقل عبر جميع حقول الرأس في هذا الكائن. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | تمثيل نصي لـ [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) |
@@ -58,12 +58,12 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic)
 ```
 
 
-أضف حقل قمة جديد
+أضف حقل رأس جديد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dataType | int | نوع البيانات لحقل القمة |
+| dataType | int | نوع البيانات لحقل الرأس |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | كيف سيُستخدم هذا الحقل |
 
 **Returns:**
@@ -74,14 +74,14 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic, int inde
 ```
 
 
-أضف حقل قمة جديد
+أضف حقل رأس جديد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dataType | int | نوع البيانات لحقل القمة |
+| dataType | int | نوع البيانات لحقل الرأس |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | كيف سيُستخدم هذا الحقل |
-| الفهرس | int | الفهرس للمعنى نفسه للحقل، -1 للتوليد التلقائي |
+| المؤشر | int | المؤشر للمعنى نفسه للحقل، -1 للتوليد التلقائي |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield)
@@ -91,15 +91,15 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic, int inde
 ```
 
 
-أضف حقل قمة جديد
+أضف حقل رأس جديد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dataType | int | نوع البيانات لحقل القمة |
+| dataType | int | نوع البيانات لحقل الرأس |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | كيف سيُستخدم هذا الحقل |
-| الفهرس | int | الفهرس للمعنى نفسه للحقل، -1 للتوليد التلقائي |
-| الاسم المستعار | java.lang.String | الاسم المستعار للحقل |
+| المؤشر | int | المؤشر للمعنى نفسه للحقل، -1 للتوليد التلقائي |
+| الاسم المستعار | java.lang.String | اسم الاسم المستعار للحقل |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield)
@@ -117,7 +117,7 @@ public int compareTo(VertexDeclaration other)
 ```
 
 
-يقارن هذه الحالة مع كائن محدد ويعيد إشارة إلى قيمهما النسبية.
+يقارن هذه المثيلة بكائن محدد ويعيد إشارة إلى قيمهما النسبية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -132,7 +132,7 @@ public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كانت هذه الحالة والكيان المحدد، الذي يجب أن يكون أيضًا كائنًا من نوع [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)، لهما نفس القيمة.
+يحدد ما إذا كان هذا الكائن والكيان المحدد، الذي يجب أن يكون أيضًا كائنًا من نوع [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)، لهما نفس القيمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -153,7 +153,7 @@ public static VertexDeclaration fromGeometry(Geometry geometry, boolean useFloat
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | geometry | [Geometry](../../com.aspose.threed/geometry) |  |
-| useFloat | boolean | استخدم float بدلاً من النوع double |
+| useFloat | boolean | استخدم float بدلاً من نوع double |
 
 **Returns:**
 [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)
@@ -168,7 +168,7 @@ public VertexField get(int index)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الفهرس | int |  |
+| المؤشر | int |  |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield) - the [VertexField](../../com.aspose.threed/vertexfield) by index
@@ -191,47 +191,47 @@ public int getCount()
 يحصل على عدد جميع الحقول المعرفة في هذا [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)
 
 **Returns:**
-int - عدد جميع الحقول المعرفة في هذه [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)
+int - عدد جميع الحقول المعرفة في هذا [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)
 ### getSealed() {#getSealed--}
 ```
 public boolean getSealed()
 ```
 
 
-سيتم إغلاق [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) عندما يتم استخدامه بواسطة [TriMesh](../../com.aspose.threed/trimesg)، ولا يُسمح بمزيد من التعديلات.
+سيتم إغلاق [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) عندما يُستخدم بواسطة [TriMesh](../../com.aspose.threed/trimesh)، ولا يُسمح بمزيد من التعديلات.
 
 **Returns:**
-boolean - سيتم إغلاق [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) عندما يتم استخدامها من قبل [TriMesh](../../com.aspose.threed/trimesh)، لا يُسمح بمزيد من التعديلات.
+boolean - سيتم إغلاق [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) عندما يُستخدم من قبل [TriMesh](../../com.aspose.threed/trimesg)، لا يُسمح بمزيد من التعديلات.
 ### getSize() {#getSize--}
 ```
 public int getSize()
 ```
 
 
-حجم بنية القمة بالبايت.
+حجم بنية الرأس بالبايت.
 
 **Returns:**
-int - حجم بنية الرأس بالبايت.
+int - حجم بنية الفرتكس بالبايت.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يرجع رمز التجزئة لهذا النص.
+يعيد قيمة التجزئة لهذا النص.
 
 **Returns:**
-int - رمز تجزئة عدد صحيح موقع 32 بت.
+int - قيمة تجزئة عدد صحيح موقّع 32-بت.
 ### iterator() {#iterator--}
 ```
 public Iterator<VertexField> iterator()
 ```
 
 
-يحصل على مُعدِّد للتنقل عبر جميع حقول القمة في هذه الحالة.
+يحصل على عداد للتنقل عبر جميع حقول الرأس في هذا الكائن.
 
 **Returns:**
-java.util.Iterator<com.aspose.threed.VertexField> - عداد
+java.util.Iterator<com.aspose.threed.VertexField> - المُعدد
 ### notify() {#notify--}
 ```
 public final native void notify()

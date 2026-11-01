@@ -1,7 +1,7 @@
 ---
 title: "تحويل"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يحتوي التحويل على معلومات تسمح بالوصول إلى ترجمة/تحجيم/دوران الكائنات أو مصفوفة التحويل بأقل تكلفة  يُستخدم هذا في التحويل المحلي."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "التحويل يحتوي على معلومات تسمح بالوصول إلى ترجمة/تحجيم/دوران الكائنات أو مصفوفة التحويل بأقل تكلفة  يُستخدم هذا في التحويل المحلي."
 type: docs
 weight: 190
 url: /ar/java/com.aspose.threed/transform/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Transform extends A3DObject
 ```
 
-يحتوي التحويل على معلومات تسمح بالوصول إلى ترجمة/تحجيم/دوران الكائن أو مصفوفة التحويل بأقل تكلفة يُستخدم هذا في التحويل المحلي. **Example:** يوضح الكود التالي كيفية تغيير تحويل العقدة:
+التحويل يحتوي على معلومات تسمح بالوصول إلى ترجمة/تحجيم/دوران الكائن أو مصفوفة التحويل بأقل تكلفة يُستخدم هذا في التحويل المحلي. **Example:** يوضح الكود التالي كيفية تغيير تحويل العقدة:
 
 ```
 Scene scene = new Scene();
@@ -33,8 +33,8 @@ Scene scene = new Scene();
 | [getGeometricScaling()](#getGeometricScaling--) | يحصل على التحجيم الهندسي. |
 | [getGeometricTranslation()](#getGeometricTranslation--) | يحصل على الترجمة الهندسية. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getPostRotation()](#getPostRotation--) | يحصل على الدوران اللاحق الممثّل بالدرجة |
-| [getPreRotation()](#getPreRotation--) | يحصل على الدوران السابق الممثّل بالدرجة |
+| [getPostRotation()](#getPostRotation--) | يحصل على الدوران اللاحق الممثل بالدرجة |
+| [getPreRotation()](#getPreRotation--) | يحصل على الدوران السابق الممثل بالدرجة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getRotation()](#getRotation--) | يحصل على الدوران الممثَّل بالكوارتيرن. |
@@ -44,13 +44,13 @@ Scene scene = new Scene();
 | [getScalingOffset()](#getScalingOffset--) | يحصل على إزاحة التحجيم |
 | [getScalingPivot()](#getScalingPivot--) | يحصل على محور التحجيم |
 | [getTransformMatrix()](#getTransformMatrix--) | يحصل على مصفوفة التحويل. |
-| [getTranslation()](#getTranslation--) | يحصل على الترجمة |
+| [getTranslation()](#getTranslation--) | يحصل على الإزاحة |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [setEulerAngles(Vector3 value)](#setEulerAngles-com.aspose.threed.Vector3-) | يضبط الدوران الممثل بزاوية أويلر، مقاسًا بالدرجة |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [setEulerAngles(Vector3 value)](#setEulerAngles-com.aspose.threed.Vector3-) | يضبط الدوران الممثل بزاويا أويلر، مقاسًا بالدرجة |
 | [setEulerAngles(double rx, double ry, double rz)](#setEulerAngles-double-double-double-) | يضبط زوايا أويلر بالدرجات للتحويل الحالي. |
 | [setGeometricRotation(Vector3 value)](#setGeometricRotation-com.aspose.threed.Vector3-) | يضبط دوران أويلر الهندسي(مقاسًا بالدرجة). |
 | [setGeometricRotation(double rx, double ry, double rz)](#setGeometricRotation-double-double-double-) | يضبط دوران أويلر الهندسي(مقاسًا بالدرجة). |
@@ -65,7 +65,7 @@ Scene scene = new Scene();
 | [setPreRotation(double rx, double ry, double rz)](#setPreRotation-double-double-double-) | يضبط ما قبل الدوران الممثل بالدرجة **Example:** |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setRotation(Quaternion value)](#setRotation-com.aspose.threed.Quaternion-) | يضبط الدوران الممثل بالكواترن. |
-| [setRotation(double rw, double rx, double ry, double rz)](#setRotation-double-double-double-double-) | يضبط الدوران(كمكونات كواترن) للتحويل الحالي. |
+| [setRotation(double rw, double rx, double ry, double rz)](#setRotation-double-double-double-double-) | يضبط الدوران (كمكونات كواترن) للتحويل الحالي. |
 | [setRotationOffset(Vector3 value)](#setRotationOffset-com.aspose.threed.Vector3-) | يضبط إزاحة الدوران |
 | [setRotationPivot(Vector3 value)](#setRotationPivot-com.aspose.threed.Vector3-) | يضبط محور الدوران |
 | [setScale(double sx, double sy, double sz)](#setScale-double-double-double-) | يضبط مقياس التحويل الحالي. |
@@ -100,7 +100,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -150,7 +150,7 @@ public Vector3 getGeometricScaling()
 ```
 
 
-يحصل على التحجيم الهندسي. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تغيير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
+يحصل على التحجيم الهندسي. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تأثير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric scaling. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -165,7 +165,7 @@ public Vector3 getGeometricTranslation()
 ```
 
 
-يحصل على الإزاحة الهندسية. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تغيير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
+يحصل على الإزاحة الهندسية. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تأثير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric translation. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -190,7 +190,7 @@ public Vector3 getPostRotation()
 ```
 
 
-يحصل على الدوران اللاحق الممثّل بالدرجة
+يحصل على الدوران اللاحق الممثل بالدرجة
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the post-rotation represented in degree **Example:**
@@ -205,7 +205,7 @@ public Vector3 getPreRotation()
 ```
 
 
-يحصل على الدوران السابق الممثّل بالدرجة
+يحصل على الدوران السابق الممثل بالدرجة
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the pre-rotation represented in degree **Example:**
@@ -330,7 +330,7 @@ public Vector3 getTranslation()
 ```
 
 
-يحصل على الترجمة
+يحصل على الإزاحة
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the translation **Example:**
@@ -386,7 +386,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -401,7 +401,7 @@ public void setEulerAngles(Vector3 value)
 ```
 
 
-يضبط الدوران الممثل بزاوية أويلر، مقاسًا بالدرجة
+يضبط الدوران الممثل بزاويا أويلر، مقاسًا بالدرجة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -441,12 +441,12 @@ public void setGeometricRotation(Vector3 value)
 ```
 
 
-يضبط دوران أويلر الهندسي (مقاسًا بالدرجة). التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تغيير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
+يضبط دوران أويلر الهندسي (مقاسًا بالدرجة). التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تأثير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setGeometricRotation(double rx, double ry, double rz) {#setGeometricRotation-double-double-double-}
 ```
@@ -454,7 +454,7 @@ public Transform setGeometricRotation(double rx, double ry, double rz)
 ```
 
 
-يضبط دوران أويلر الهندسي (مقاسًا بالدرجة). التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تغيير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه. **مثال:**
+يضبط دوران أويلر الهندسي (مقاسًا بالدرجة). التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تأثير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه. **مثال:**
 
 ```
 Node node = new Node();
@@ -476,7 +476,7 @@ public void setGeometricScaling(Vector3 value)
 ```
 
 
-يضبط التحجيم الهندسي. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تغيير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
+يضبط التحجيم الهندسي. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تأثير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -494,7 +494,7 @@ public Transform setGeometricScaling(double sx, double sy, double sz)
 ```
 
 
-يضبط التحجيم الهندسي. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تغيير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه. **مثال:**
+يضبط التحجيم الهندسي. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تأثير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه. **مثال:**
 
 ```
 Node node = new Node();
@@ -516,7 +516,7 @@ public void setGeometricTranslation(Vector3 value)
 ```
 
 
-يضبط الإزاحة الهندسية. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تغيير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
+يضبط الإزاحة الهندسية. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تأثير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -534,7 +534,7 @@ public Transform setGeometricTranslation(double x, double y, double z)
 ```
 
 
-يضبط الإزاحة الهندسية. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تغيير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه. **مثال:**
+يضبط الإزاحة الهندسية. التحويل الهندسي يؤثر فقط على الكيانات المرفقة ويترك العقد الفرعية دون تأثير. سيتم دمجه كتحويل محلي عند تصدير التحويل الهندسي إلى أنواع الملفات التي لا تدعمه. **مثال:**
 
 ```
 Node node = new Node();
@@ -561,7 +561,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setPostRotation(Vector3 value) {#setPostRotation-com.aspose.threed.Vector3-}
 ```
@@ -655,7 +655,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setRotation(Quaternion value) {#setRotation-com.aspose.threed.Quaternion-}
 ```
@@ -681,7 +681,7 @@ public Transform setRotation(double rw, double rx, double ry, double rz)
 ```
 
 
-يضبط دوران (كمكونات رباعية) للتحويل الحالي. **مثال:**
+يضبط دوران (كمكوّنات كواتيرنيون) للتحويل الحالي. **مثال:**
 
 ```
 Node node = new Node();
@@ -709,7 +709,7 @@ public void setRotationOffset(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setRotationPivot(Vector3 value) {#setRotationPivot-com.aspose.threed.Vector3-}
 ```
@@ -722,7 +722,7 @@ public void setRotationPivot(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setScale(double sx, double sy, double sz) {#setScale-double-double-double-}
 ```
@@ -775,7 +775,7 @@ public void setScalingOffset(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setScalingPivot(Vector3 value) {#setScalingPivot-com.aspose.threed.Vector3-}
 ```
@@ -788,7 +788,7 @@ public void setScalingPivot(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setTransformMatrix(Matrix4 value) {#setTransformMatrix-com.aspose.threed.Matrix4-}
 ```
@@ -801,7 +801,7 @@ public void setTransformMatrix(Matrix4 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [Matrix4](../../com.aspose.threed/matrix4) | القيمة الجديدة **ملاحظة:** تعيين على هذا سيعيد ضبط [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) و[getRotation](../../com.aspose.threed/transform\#getRotation)، بينما [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) و[getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) لن تتأثر. **مثال:** |
+|  | value | [Matrix4](../../com.aspose.threed/matrix4) | القيمة الجديدة **ملاحظات:** سيؤدي التعيين على هذا إلى إعادة تعيين [getTranslation](../../com.aspose.threed/transform\#getTranslation)، [getScaling](../../com.aspose.threed/transform\#getScaling) و[getRotation](../../com.aspose.threed/transform\#getRotation)، بينما لن تتأثر [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation)، [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) و[getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation). **مثال:** |
 
 ```
 Node node = new Node();

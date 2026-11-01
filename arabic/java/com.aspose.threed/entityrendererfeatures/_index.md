@@ -1,6 +1,6 @@
 ---
 title: "EntityRendererFeatures"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الميزات الإضافية التي سيقدمها عارض الكيانات"
 type: docs
 weight: 54
@@ -23,10 +23,10 @@ public final class EntityRendererFeatures
 
 | حقل | الوصف |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | لا توجد ميزات إضافية |
-| [FRAME_BEGIN](#FRAME-BEGIN) | ستراقب [EntityRenderer](../../com.aspose.threed/entityrenderer) استدعاء FrameBegin قبل تصيير كل إطار مشهد |
-| [FRAME_END](#FRAME-END) | ستراقب [EntityRenderer](../../com.aspose.threed/entityrenderer) استدعاء FrameBegin بعد تصيير كل إطار مشهد |
-| [SHADOWMAP](#SHADOWMAP) | يمكن لهذا المصيّر العمل في وضع خريطة الظلال |
+| [DEFAULT](#DEFAULT) | لا ميزات إضافية |
+| [FRAME_BEGIN](#FRAME-BEGIN) | ستراقب [EntityRenderer](../../com.aspose.threed/entityrenderer) استدعاء FrameBegin قبل رسم كل إطار للمشهد |
+| [FRAME_END](#FRAME-END) | ستراقب [EntityRenderer](../../com.aspose.threed/entityrenderer) استدعاء FrameBegin بعد رسم كل إطار للمشهد |
+| [SHADOWMAP](#SHADOWMAP) | يمكن لهذا العارض العمل في وضع خريطة الظلال |
 ## الطرق
 
 | طريقة | الوصف |
@@ -52,7 +52,7 @@ public static final byte DEFAULT
 ```
 
 
-لا توجد ميزات إضافية
+لا ميزات إضافية
 
 ### FRAME_BEGIN {#FRAME-BEGIN}
 ```
@@ -60,7 +60,7 @@ public static final byte FRAME_BEGIN
 ```
 
 
-ستراقب [EntityRenderer](../../com.aspose.threed/entityrenderer) استدعاء FrameBegin قبل تصيير كل إطار مشهد
+ستراقب [EntityRenderer](../../com.aspose.threed/entityrenderer) استدعاء FrameBegin قبل رسم كل إطار للمشهد
 
 ### FRAME_END {#FRAME-END}
 ```
@@ -68,7 +68,7 @@ public static final byte FRAME_END
 ```
 
 
-ستراقب [EntityRenderer](../../com.aspose.threed/entityrenderer) استدعاء FrameBegin بعد تصيير كل إطار مشهد
+ستراقب [EntityRenderer](../../com.aspose.threed/entityrenderer) استدعاء FrameBegin بعد رسم كل إطار للمشهد
 
 ### SHADOWMAP {#SHADOWMAP}
 ```
@@ -76,7 +76,7 @@ public static final byte SHADOWMAP
 ```
 
 
-يمكن لهذا المصيّر العمل في وضع خريطة الظلال
+يمكن لهذا العارض العمل في وضع خريطة الظلال
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

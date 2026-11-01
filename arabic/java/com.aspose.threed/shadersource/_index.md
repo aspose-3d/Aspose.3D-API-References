@@ -1,7 +1,7 @@
 ---
 title: "ShaderSource"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الكود المصدري للظل"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "الكود المصدري للمُظلِل"
 type: docs
 weight: 167
 url: /ar/java/com.aspose.threed/shadersource/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class ShaderSource
 ```
 
-الكود المصدري للظل
+الكود المصدري للمُظلِل
 ## المنشئات
 
 | منشئ | الوصف |

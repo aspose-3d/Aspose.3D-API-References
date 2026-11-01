@@ -1,6 +1,6 @@
 ---
 title: "CompareFunction"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "دالة المقارنة المستخدمة في اختبار العمق/القالب."
 type: docs
 weight: 271
@@ -24,7 +24,7 @@ public enum CompareFunction extends Enum<CompareFunction>
 | [G_EQUAL](#G-EQUAL) | نجاح إذا كانت القيمة الواردة أكبر من أو مساوية للقيمة المخزنة. |
 | [LESS](#LESS) | نجاح إذا كانت القيمة الواردة أصغر من القيمة المخزنة. |
 | [L_EQUAL](#L-EQUAL) | نجاح إذا كانت القيمة الواردة أصغر من أو مساوية للقيمة المخزنة. |
-| [NEVER](#NEVER) | لا ينجح أبداً |
+| [NEVER](#NEVER) | أبدًا لا ينجح |
 | [NOT_EQUAL](#NOT-EQUAL) | نجاح إذا كانت القيمة الواردة غير مساوية للقيمة المخزنة. |
 ## الطرق
 
@@ -101,7 +101,7 @@ public static final CompareFunction NEVER
 ```
 
 
-لا ينجح أبداً
+أبدًا لا ينجح
 
 ### NOT_EQUAL {#NOT-EQUAL}
 ```

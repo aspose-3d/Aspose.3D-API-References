@@ -1,7 +1,7 @@
 ---
 title: "ShaderMaterial"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "تسمح مادة الظل بوصف المادة بواسطة محرك عرض خارجي أو لغة الظل."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مادة المُظلِل تسمح بوصف المادة بواسطة محرك عرض خارجي أو لغة المُظلِل."
 type: docs
 weight: 164
 url: /ar/java/com.aspose.threed/shadermaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class ShaderMaterial extends Material
 ```
 
-تتيح مادة الظل وصف المادة بواسطة محرك عرض خارجي أو لغة ظل. [ShaderMaterial](../../com.aspose.threed/shadermaterial) يستخدم [ShaderTechnique](../../com.aspose.threed/shadertechnique) لوصف تفاصيل العرض الفعلية، وسيتم اختيار الأنسب وفقًا لمنصة العرض النهائية. على سبيل المثال، يمكن أن يحتوي كائن [ShaderMaterial](../../com.aspose.threed/shadermaterial) الخاص بك على تقنيتين، إحداهما معرفة بـ HLSL، والأخرى معرفة بـ GLSL. في منصة غير نافذة يجب استخدام GLSL بدلاً من HLSL
+يسمح مادة الظل (shader material) بوصف المادة بواسطة محرك عرض خارجي أو لغة ظل. يستخدم [ShaderMaterial](../../com.aspose.threed/shadermaterial) [ShaderTechnique](../../com.aspose.threed/shadertechnique) لوصف تفاصيل العرض المحددة، وسيتم اختيار الأنسب وفقًا لمنصة العرض النهائية. على سبيل المثال، يمكن أن يحتوي كائن [ShaderMaterial](../../com.aspose.threed/shadermaterial) الخاص بك على تقنيتين، إحداهما معرفة بـ HLSL والأخرى معرفة بـ GLSL. تحت منصة غير نافذة يجب استخدام GLSL بدلاً من HLSL.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,7 +26,7 @@ public class ShaderMaterial extends Material
 | --- | --- |
 | [MAP_AMBIENT](#MAP-AMBIENT) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج محيطي. |
 | [MAP_DIFFUSE](#MAP-DIFFUSE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج منتشر. |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مشع. |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مُشع. |
 | [MAP_NORMAL](#MAP-NORMAL) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج عادي. |
 | [MAP_SPECULAR](#MAP-SPECULAR) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج انعكاسي. |
 ## الطرق
@@ -39,18 +39,18 @@ public class ShaderMaterial extends Material
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
-| [getTechniques()](#getTechniques--) | يرجع جميع التقنيات المتاحة المعرفة في هذه المادة. |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معامل المعالج |
+| [getTechniques()](#getTechniques--) | يحصل على جميع التقنيات المتاحة المعرفة في هذه المادة. |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | يحصل على المُعدد لتعداد فتحات النسيج الداخلية. |
+| [iterator()](#iterator--) | يحصل على المكرّر لتعداد فتحات النسيج الداخلية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | يعيّن النسيج للفتحة المحددة |
-| [toString()](#toString--) | يقوم بتنسيق الكائن إلى سلسلة |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | يضبط النسيج في الفتحة المحددة |
+| [toString()](#toString--) | تنسيق الكائن إلى سلسلة |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -97,7 +97,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مشع.
+يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مُشع.
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -136,7 +136,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -196,7 +196,7 @@ public List<ShaderTechnique> getTechniques()
 ```
 
 
-يرجع جميع التقنيات المتاحة المعرفة في هذه المادة.
+يحصل على جميع التقنيات المتاحة المعرفة في هذه المادة.
 
 **Returns:**
 java.util.List<com.aspose.threed.ShaderTechnique> - جميع التقنيات المتاحة المعرفة في هذه المادة.
@@ -206,7 +206,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معامل المعالج
+يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -239,7 +239,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-يحصل على المُعدد لتعداد فتحات النسيج الداخلية.
+يحصل على المكرّر لتعداد فتحات النسيج الداخلية.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -280,7 +280,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -300,7 +300,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -314,7 +314,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setTexture(String slotName, TextureBase texture) {#setTexture-java.lang.String-com.aspose.threed.TextureBase-}
 ```
@@ -322,7 +322,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-يعيّن النسيج للفتحة المحددة
+يضبط النسيج في الفتحة المحددة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -343,7 +343,7 @@ public String toString()
 ```
 
 
-يقوم بتنسيق الكائن إلى سلسلة
+تنسيق الكائن إلى سلسلة
 
 **Returns:**
 java.lang.String - سلسلة الكائن

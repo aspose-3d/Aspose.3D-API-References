@@ -1,6 +1,6 @@
 ---
 title: "Rect"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "فئة لتمثيل المستطيل"
 type: docs
 weight: 144
@@ -21,7 +21,7 @@ public final class Rect implements Struct<Rect>, Serializable
 
 | منشئ | الوصف |
 | --- | --- |
-| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | منشئ الفئة [Rect](../../com.aspose.threed/rect). |
+| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | منشئ الفئة [Rect](../../com.aspose.threed/rect) |
 | [Rect()](#Rect--) |  |
 ## الطرق
 
@@ -57,7 +57,7 @@ public Rect(int x, int y, int width, int height)
 ```
 
 
-منشئ الفئة [Rect](../../com.aspose.threed/rect).
+منشئ الفئة [Rect](../../com.aspose.threed/rect)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -79,7 +79,7 @@ public Rect clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [Rect](../../com.aspose.threed/rect)
@@ -206,7 +206,7 @@ public int getX()
 يحصل على قيمة x للحجم
 
 **Returns:**
-int - قيمة x للحجم
+int - x للحجم
 ### getY() {#getY--}
 ```
 public int getY()
@@ -216,7 +216,7 @@ public int getY()
 يحصل على قيمة y للحجم
 
 **Returns:**
-int - قيمة y للحجم
+int - y للحجم
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -254,7 +254,7 @@ public void setHeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setWidth(int value) {#setWidth-int-}
 ```
@@ -267,7 +267,7 @@ public void setWidth(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setX(int value) {#setX-int-}
 ```
@@ -280,7 +280,7 @@ public void setX(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setY(int value) {#setY-int-}
 ```
@@ -293,7 +293,7 @@ public void setY(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

@@ -1,6 +1,6 @@
 ---
-title: "PropertyCollection"
-second_title: "مرجع API لـ Aspose.3D for Java"
+title: "مجموعة الخصائص"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "مجموعة الخصائص"
 type: docs
 weight: 140
@@ -23,17 +23,17 @@ public class PropertyCollection implements Iterable<Property>
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String property)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
-| [get(int idx)](#get-int-) | يسترجع الخاصية حسب الفهرس. |
-| [get(String property)](#get-java.lang.String-) | يسترجع قيمة الخاصية حسب اسم الخاصية. |
+| [get(int idx)](#get-int-) | يحصل على الخاصية حسب الفهرس. |
+| [get(String property)](#get-java.lang.String-) | يحصل على قيمة الخاصية حسب اسم الخاصية. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | يعيد عدادًا يتنقل عبر المجموعة. |
+| [iterator()](#iterator--) | يرجع عدادًا يتنقل عبر المجموعة. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | يزيل خاصية ديناميكية. |
-| [set(String property, Object value)](#set-java.lang.String-java.lang.Object-) | يعيّن قيمة الخاصية حسب اسم الخاصية. |
-| [size()](#size--) | يسترجع عدد الخصائص المعلنة. |
+| [set(String property, Object value)](#set-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية حسب اسم الخاصية. |
+| [size()](#size--) | يحصل على عدد الخصائص المعلنة. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public Property findProperty(String property)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -74,7 +74,7 @@ public Property get(int idx)
 ```
 
 
-يسترجع الخاصية حسب الفهرس.
+يحصل على الخاصية حسب الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -89,7 +89,7 @@ public Object get(String property)
 ```
 
 
-يسترجع قيمة الخاصية حسب اسم الخاصية.
+يحصل على قيمة الخاصية حسب اسم الخاصية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -124,7 +124,7 @@ public Iterator<Property> iterator()
 ```
 
 
-يعيد عدادًا يتنقل عبر المجموعة.
+يرجع عدادًا يتنقل عبر المجموعة.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.Property>
@@ -180,13 +180,13 @@ public void set(String property, Object value)
 ```
 
 
-يعيّن قيمة الخاصية حسب اسم الخاصية.
+يضبط قيمة الخاصية حسب اسم الخاصية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | القيمة الجديدة |
+| قيمة | java.lang.Object | قيمة جديدة |
 
 ### size() {#size--}
 ```
@@ -194,7 +194,7 @@ public int size()
 ```
 
 
-يسترجع عدد الخصائص المعلنة.
+يحصل على عدد الخصائص المعلنة.
 
 **Returns:**
 int - عدد الخصائص المعلنة.

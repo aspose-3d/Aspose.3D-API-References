@@ -1,6 +1,6 @@
 ---
 title: "RvmLoadOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "خيارات التحميل لملف RVM الخاص بأنظمة إدارة تصميم مصانع AVEVA."
 type: docs
 weight: 157
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class RvmLoadOptions extends LoadOptions
 ```
 
-خيارات التحميل لملف RVM الخاص بنظام إدارة تصميم مصانع AVEVA. **مثال:** يوضح الشيفرة التالية كيفية تخصيص معلمات التسطير للأشكال الأولية المستوردة من ملف RVM باستخدام RvmLoadOptions.
+خيارات التحميل لملف RVM الخاص بنظام إدارة تصميم مصانع AVEVA. **Example:** يوضح الشيفرة التالية كيفية تخصيص معلمات التشبيك للأشكال الأولية المستوردة من ملف RVM باستخدام RvmLoadOptions.
 
 ```
 RvmLoadOptions opt = new RvmLoadOptions();
@@ -29,46 +29,46 @@ RvmLoadOptions opt = new RvmLoadOptions();
 
 | منشئ | الوصف |
 | --- | --- |
-| [RvmLoadOptions(FileContentType contentType)](#RvmLoadOptions-com.aspose.threed.FileContentType-) | إنشاء مثيل من [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) |
-| [RvmLoadOptions()](#RvmLoadOptions--) | إنشاء مثيل من [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) |
+| [RvmLoadOptions(FileContentType contentType)](#RvmLoadOptions-com.aspose.threed.FileContentType-) | إنشاء كائن من [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) |
+| [RvmLoadOptions()](#RvmLoadOptions--) | إنشاء كائن من [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAttributePrefix()](#getAttributePrefix--) | يحصل على بادئة السمات التي تم تعريفها في ملفات السمات الخارجية، تُستخدم البادئة لتجنب تعارض الأسماء، القيمة الافتراضية هي "rvm:" |
-| [getCenterScene()](#getCenterScene--) | مركزة المشهد بعد تحميله. |
+| [getCenterScene()](#getCenterScene--) | مركز المشهد بعد تحميله. |
 | [getClass()](#getClass--) |  |
-| [getCylinderRadialSegments()](#getCylinderRadialSegments--) | يحصل على عدد قطاعات الأسطوانة الشعاعية، القيمة الافتراضية هي 16 |
-| [getDishLatitudeSegments()](#getDishLatitudeSegments--) | يحصل على عدد قطاعات دائرة الطبق العرضية، القيمة الافتراضية هي 8 |
-| [getDishLongitudeSegments()](#getDishLongitudeSegments--) | يحصل على عدد قطاعات دائرة الطبق الطولية، القيمة الافتراضية هي 12 |
+| [getCylinderRadialSegments()](#getCylinderRadialSegments--) | يحصل على عدد القطاعات الشعاعية للأسطوانة، القيمة الافتراضية هي 16 |
+| [getDishLatitudeSegments()](#getDishLatitudeSegments--) | يحصل على عدد قطاعات خط العرض للطبق، القيمة الافتراضية هي 8 |
+| [getDishLongitudeSegments()](#getDishLongitudeSegments--) | يحصل على عدد قطاعات خط الطول للطبق، القيمة الافتراضية هي 12 |
 | [getEncoding()](#getEncoding--) | يحصل على الترميز الافتراضي للملفات النصية. |
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
-| [getFileName()](#getFileName--) | اسم ملف المشهد المصدر/المستورد. |
+| [getFileName()](#getFileName--) | اسم الملف للمشهد المصدر/المستورد. |
 | [getFileSystem()](#getFileSystem--) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | يحصل على فئة المصنع لنظام الملفات. |
 | [getGenerateMaterials()](#getGenerateMaterials--) | إنشاء مواد بألوان عشوائية لكل كائن في المشهد إذا لم يتم تصدير جدول الألوان داخل ملف RVM. |
 | [getLookupAttributes()](#getLookupAttributes--) | يحصل على ما إذا كان سيتم تحميل السمات من ملف قائمة السمات الخارجية (.att/.attrib/.txt)، القيمة الافتراضية هي true. |
-| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [getRectangularTorusSegments()](#getRectangularTorusSegments--) | يحصل على عدد قطاعات الحلقة المستطيلة الشعاعية، القيمة الافتراضية هي 20 |
-| [getTorusTubularSegments()](#getTorusTubularSegments--) | يحصل على عدد قطاعات الحلقة الأنبوبيّة، القيمة الافتراضية هي 20 |
+| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [getRectangularTorusSegments()](#getRectangularTorusSegments--) | يحصل على عدد القطاعات الشعاعية للطور المستطيل، القيمة الافتراضية هي 20 |
+| [getTorusTubularSegments()](#getTorusTubularSegments--) | يحصل على عدد القطاعات الأنبوبيّة للطور، القيمة الافتراضية هي 20 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | يضبط بادئة السمات التي تم تعريفها في ملفات السمات الخارجية، تُستخدم البادئة لتجنب تعارض الأسماء، القيمة الافتراضية هي "rvm:" |
-| [setCenterScene(boolean value)](#setCenterScene-boolean-) | مركزة المشهد بعد تحميله. |
-| [setCylinderRadialSegments(int value)](#setCylinderRadialSegments-int-) | يضبط عدد قطاعات الأسطوانة الشعاعية، القيمة الافتراضية هي 16 |
-| [setDishLatitudeSegments(int value)](#setDishLatitudeSegments-int-) | يضبط عدد قطاعات دائرة الطبق العرضية، القيمة الافتراضية هي 8 |
-| [setDishLongitudeSegments(int value)](#setDishLongitudeSegments-int-) | يضبط عدد قطاعات دائرة الطبق الطولية، القيمة الافتراضية هي 12 |
+| [setCenterScene(boolean value)](#setCenterScene-boolean-) | مركز المشهد بعد تحميله. |
+| [setCylinderRadialSegments(int value)](#setCylinderRadialSegments-int-) | يضبط عدد القطاعات الشعاعية للأسطوانة، القيمة الافتراضية هي 16 |
+| [setDishLatitudeSegments(int value)](#setDishLatitudeSegments-int-) | يضبط عدد قطاعات خط العرض للطبق، القيمة الافتراضية هي 8 |
+| [setDishLongitudeSegments(int value)](#setDishLongitudeSegments-int-) | يضبط عدد قطاعات خط الطول للطبق، القيمة الافتراضية هي 12 |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | يضبط الترميز الافتراضي للملفات النصية. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | اسم ملف المشهد المصدر/المستورد. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | اسم الملف للمشهد المصدر/المستورد. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | يضبط فئة المصنع لنظام الملفات. |
 | [setGenerateMaterials(boolean value)](#setGenerateMaterials-boolean-) | إنشاء مواد بألوان عشوائية لكل كائن في المشهد إذا لم يتم تصدير جدول الألوان داخل ملف RVM. |
 | [setLookupAttributes(boolean value)](#setLookupAttributes-boolean-) | يضبط ما إذا كان سيتم تحميل السمات من ملف قائمة السمات الخارجية (.att/.attrib/.txt)، القيمة الافتراضية هي true. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [setRectangularTorusSegments(int value)](#setRectangularTorusSegments-int-) | يضبط عدد قطاعات الحلقة المستطيلة الشعاعية، القيمة الافتراضية هي 20 |
-| [setTorusTubularSegments(int value)](#setTorusTubularSegments-int-) | يضبط عدد قطاعات الحلقة الأنبوبيّة، القيمة الافتراضية هي 20 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [setRectangularTorusSegments(int value)](#setRectangularTorusSegments-int-) | يضبط عدد القطاعات الشعاعية للطور المستطيل، القيمة الافتراضية هي 20 |
+| [setTorusTubularSegments(int value)](#setTorusTubularSegments-int-) | يضبط عدد القطاعات الأنبوبيّة للطور، القيمة الافتراضية هي 20 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -79,7 +79,7 @@ public RvmLoadOptions(FileContentType contentType)
 ```
 
 
-إنشاء مثيل من [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions)
+إنشاء كائن من [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -92,7 +92,7 @@ public RvmLoadOptions()
 ```
 
 
-إنشاء مثيل من [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions)
+إنشاء كائن من [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -125,7 +125,7 @@ public boolean getCenterScene()
 ```
 
 
-مركزة المشهد بعد تحميله.
+مركز المشهد بعد تحميله.
 
 **Returns:**
 boolean - مركز المشهد بعد تحميله.
@@ -145,7 +145,7 @@ public int getCylinderRadialSegments()
 ```
 
 
-يحصل على عدد قطاعات الأسطوانة الشعاعية، القيمة الافتراضية هي 16
+يحصل على عدد القطاعات الشعاعية للأسطوانة، القيمة الافتراضية هي 16
 
 **Returns:**
 int - عدد القطاعات الشعاعية للأسطوانة، القيمة الافتراضية هي 16
@@ -155,20 +155,20 @@ public int getDishLatitudeSegments()
 ```
 
 
-يحصل على عدد قطاعات دائرة الطبق العرضية، القيمة الافتراضية هي 8
+يحصل على عدد قطاعات خط العرض للطبق، القيمة الافتراضية هي 8
 
 **Returns:**
-int - عدد قطاعات خط العرض للطبق، القيمة الافتراضية هي 8
+int - عدد قطاعات دائرة الطبق في خطوط العرض، القيمة الافتراضية هي 8
 ### getDishLongitudeSegments() {#getDishLongitudeSegments--}
 ```
 public int getDishLongitudeSegments()
 ```
 
 
-يحصل على عدد قطاعات دائرة الطبق الطولية، القيمة الافتراضية هي 12
+يحصل على عدد قطاعات خط الطول للطبق، القيمة الافتراضية هي 12
 
 **Returns:**
-int - عدد قطاعات خط الطول للطبق، القيمة الافتراضية هي 12
+int - عدد قطاعات دائرة الطبق في خطوط الطول، القيمة الافتراضية هي 12
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -195,10 +195,10 @@ public String getFileName()
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Returns:**
-java.lang.String - اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+java.lang.String - اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -239,7 +239,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -281,17 +281,17 @@ public boolean getLookupAttributes()
 يحصل على ما إذا كان سيتم تحميل السمات من ملف قائمة السمات الخارجية (.att/.attrib/.txt)، القيمة الافتراضية هي true.
 
 **Returns:**
-boolean - ما إذا كان سيتم تحميل السمات من ملف قائمة السمات الخارجية (.att/.attrib/.txt)، القيمة الافتراضية هي true.
+boolean - ما إذا كان سيتم تحميل السمات من ملف قائمة السمات الخارجي (.att/.attrib/.txt)، القيمة الافتراضية هي true.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
+java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
 
 ```
 var opt = new ObjLoadOptions();
@@ -306,20 +306,20 @@ public int getRectangularTorusSegments()
 ```
 
 
-يحصل على عدد قطاعات الحلقة المستطيلة الشعاعية، القيمة الافتراضية هي 20
+يحصل على عدد القطاعات الشعاعية للطور المستطيل، القيمة الافتراضية هي 20
 
 **Returns:**
-int - عدد القطاعات الشعاعية للطُرْس المستطيل، القيمة الافتراضية هي 20
+int - عدد القطاعات الشعاعية للطور المستطيل، القيمة الافتراضية هي 20
 ### getTorusTubularSegments() {#getTorusTubularSegments--}
 ```
 public int getTorusTubularSegments()
 ```
 
 
-يحصل على عدد قطاعات الحلقة الأنبوبيّة، القيمة الافتراضية هي 20
+يحصل على عدد القطاعات الأنبوبيّة للطور، القيمة الافتراضية هي 20
 
 **Returns:**
-int - عدد القطاعات الأنبوبيّة للطُرْس، القيمة الافتراضية هي 20
+int - عدد القطاعات الأنبوبيّة للطور، القيمة الافتراضية هي 20
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -357,7 +357,7 @@ public void setAttributePrefix(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setCenterScene(boolean value) {#setCenterScene-boolean-}
 ```
@@ -365,12 +365,12 @@ public void setCenterScene(boolean value)
 ```
 
 
-مركزة المشهد بعد تحميله.
+مركز المشهد بعد تحميله.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setCylinderRadialSegments(int value) {#setCylinderRadialSegments-int-}
 ```
@@ -378,12 +378,12 @@ public void setCylinderRadialSegments(int value)
 ```
 
 
-يضبط عدد قطاعات الأسطوانة الشعاعية، القيمة الافتراضية هي 16
+يضبط عدد القطاعات الشعاعية للأسطوانة، القيمة الافتراضية هي 16
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDishLatitudeSegments(int value) {#setDishLatitudeSegments-int-}
 ```
@@ -391,12 +391,12 @@ public void setDishLatitudeSegments(int value)
 ```
 
 
-يضبط عدد قطاعات دائرة الطبق العرضية، القيمة الافتراضية هي 8
+يضبط عدد قطاعات خط العرض للطبق، القيمة الافتراضية هي 8
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDishLongitudeSegments(int value) {#setDishLongitudeSegments-int-}
 ```
@@ -404,12 +404,12 @@ public void setDishLongitudeSegments(int value)
 ```
 
 
-يضبط عدد قطاعات دائرة الطبق الطولية، القيمة الافتراضية هي 12
+يضبط عدد قطاعات خط الطول للطبق، القيمة الافتراضية هي 12
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -417,12 +417,12 @@ public void setEncoding(Charset value)
 ```
 
 
-يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يستخدم.
+يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يُستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.nio.charset.Charset | القيمة الجديدة |
+| قيمة | java.nio.charset.Charset | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -430,12 +430,12 @@ public void setFileName(String value)
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
 ```
@@ -448,7 +448,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | New value **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، ولكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | قيمة جديدة **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، لكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -480,12 +480,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | New value **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | قيمة جديدة **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -517,7 +517,7 @@ public void setGenerateMaterials(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setLookupAttributes(boolean value) {#setLookupAttributes-boolean-}
 ```
@@ -530,7 +530,7 @@ public void setLookupAttributes(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setLookupPaths(ArrayList<String> value) {#setLookupPaths-java.util.ArrayList-java.lang.String--}
 ```
@@ -538,12 +538,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.util.ArrayList<java.lang.String> | New value **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
+|  | قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
 
 ```
 var opt = new ObjLoadOptions();
@@ -559,12 +559,12 @@ public void setRectangularTorusSegments(int value)
 ```
 
 
-يضبط عدد قطاعات الحلقة المستطيلة الشعاعية، القيمة الافتراضية هي 20
+يضبط عدد القطاعات الشعاعية للطور المستطيل، القيمة الافتراضية هي 20
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setTorusTubularSegments(int value) {#setTorusTubularSegments-int-}
 ```
@@ -572,12 +572,12 @@ public void setTorusTubularSegments(int value)
 ```
 
 
-يضبط عدد قطاعات الحلقة الأنبوبيّة، القيمة الافتراضية هي 20
+يضبط عدد القطاعات الأنبوبيّة للطور، القيمة الافتراضية هي 20
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

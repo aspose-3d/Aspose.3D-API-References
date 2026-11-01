@@ -1,7 +1,7 @@
 ---
 title: "BoundingBoxExtent"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مدى الصندوق المحيط"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مدى صندوق الإحاطة"
 type: docs
 weight: 269
 url: /ar/java/com.aspose.threed/boundingboxextent/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum BoundingBoxExtent extends Enum<BoundingBoxExtent>
 ```
 
-مدى الصندوق المحيط
+مدى صندوق الإحاطة
 ## الحقول
 
 | حقل | الوصف |

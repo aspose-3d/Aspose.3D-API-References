@@ -1,7 +1,7 @@
 ---
 title: "GLSLSource"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الكود المصدري للـ shaders في GLSL"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "الكود المصدري للظلال في GLSL"
 type: docs
 weight: 70
 url: /ar/java/com.aspose.threed/glslsource/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.ShaderSource](../../com.aspose.threed/shade
 public final class GLSLSource extends ShaderSource
 ```
 
-الكود المصدري للـ shaders في GLSL
+الكود المصدري للظلال في GLSL
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,17 +26,17 @@ public final class GLSLSource extends ShaderSource
 | [defineInclude(String fileName, String content)](#defineInclude-java.lang.String-java.lang.String-) | تعريف ملف افتراضي لـ \#include في شفرة مصدر GLSL |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComputeShader()](#getComputeShader--) | يحصل على شفرة المصدر لظل الحوسبة. |
-| [getFragmentShader()](#getFragmentShader--) | يحصل على شفرة المصدر لظل الجزء. |
-| [getGeometryShader()](#getGeometryShader--) | يحصل على شفرة المصدر لظل الهندسة. |
-| [getVertexShader()](#getVertexShader--) | يحصل على شفرة المصدر لظل الرأس |
+| [getComputeShader()](#getComputeShader--) | يسترجع شفرة المصدر للظل الحوسبي. |
+| [getFragmentShader()](#getFragmentShader--) | يسترجع شفرة المصدر للظل الجزئي. |
+| [getGeometryShader()](#getGeometryShader--) | يسترجع شفرة المصدر للظل الهندسي. |
+| [getVertexShader()](#getVertexShader--) | يسترجع شفرة المصدر للظل القمي. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComputeShader(String value)](#setComputeShader-java.lang.String-) | يضبط شفرة المصدر لظل الحوسبة. |
-| [setFragmentShader(String value)](#setFragmentShader-java.lang.String-) | يضبط شفرة المصدر لظل الجزء. |
-| [setGeometryShader(String value)](#setGeometryShader-java.lang.String-) | يضبط شفرة المصدر لظل الهندسة. |
-| [setVertexShader(String value)](#setVertexShader-java.lang.String-) | يضبط شفرة المصدر لظل الرأس |
+| [setComputeShader(String value)](#setComputeShader-java.lang.String-) | يضبط شفرة المصدر للظل الحوسبي. |
+| [setFragmentShader(String value)](#setFragmentShader-java.lang.String-) | يضبط شفرة المصدر للظل الجزئي. |
+| [setGeometryShader(String value)](#setGeometryShader-java.lang.String-) | يضبط شفرة المصدر للظل الهندسي. |
+| [setVertexShader(String value)](#setVertexShader-java.lang.String-) | يضبط شفرة المصدر للظل القمي. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -92,40 +92,40 @@ public String getComputeShader()
 ```
 
 
-يحصل على شفرة المصدر لظل الحوسبة.
+يسترجع شفرة المصدر للظل الحوسبي.
 
 **Returns:**
-java.lang.String - شفرة المصدر للـ compute shader.
+java.lang.String - شفرة المصدر للظل الحوسبي.
 ### getFragmentShader() {#getFragmentShader--}
 ```
 public String getFragmentShader()
 ```
 
 
-يحصل على شفرة المصدر لظل الجزء.
+يسترجع شفرة المصدر للظل الجزئي.
 
 **Returns:**
-java.lang.String - شفرة المصدر للـ fragment shader.
+java.lang.String - شفرة المصدر لظل التجزئة.
 ### getGeometryShader() {#getGeometryShader--}
 ```
 public String getGeometryShader()
 ```
 
 
-يحصل على شفرة المصدر لظل الهندسة.
+يسترجع شفرة المصدر للظل الهندسي.
 
 **Returns:**
-java.lang.String - شفرة المصدر للـ geometry shader.
+java.lang.String - شفرة المصدر لظل الهندسة.
 ### getVertexShader() {#getVertexShader--}
 ```
 public String getVertexShader()
 ```
 
 
-يحصل على شفرة المصدر لظل الرأس
+يسترجع شفرة المصدر للظل القمي.
 
 **Returns:**
-java.lang.String - شفرة المصدر للـ vertex shader
+java.lang.String - شفرة المصدر لظل الرؤوس
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -158,12 +158,12 @@ public void setComputeShader(String value)
 ```
 
 
-يضبط شفرة المصدر لظل الحوسبة.
+يضبط شفرة المصدر للظل الحوسبي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFragmentShader(String value) {#setFragmentShader-java.lang.String-}
 ```
@@ -171,12 +171,12 @@ public void setFragmentShader(String value)
 ```
 
 
-يضبط شفرة المصدر لظل الجزء.
+يضبط شفرة المصدر للظل الجزئي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setGeometryShader(String value) {#setGeometryShader-java.lang.String-}
 ```
@@ -184,12 +184,12 @@ public void setGeometryShader(String value)
 ```
 
 
-يضبط شفرة المصدر لظل الهندسة.
+يضبط شفرة المصدر للظل الهندسي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setVertexShader(String value) {#setVertexShader-java.lang.String-}
 ```
@@ -197,12 +197,12 @@ public void setVertexShader(String value)
 ```
 
 
-يضبط شفرة المصدر لظل الرأس
+يضبط شفرة المصدر للظل القمي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

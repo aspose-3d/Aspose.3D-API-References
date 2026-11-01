@@ -1,6 +1,6 @@
 ---
 title: "StepMode"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "وضع خطوة الاستيفاء."
 type: docs
 weight: 304
@@ -18,8 +18,8 @@ public enum StepMode extends Enum<StepMode>
 
 | حقل | الوصف |
 | --- | --- |
-| [NEXT_VALUE](#NEXT-VALUE) | قيمة المنحنى لجزء دائمًا تستخدم القيمة من الإطار المفتاح التالي |
-| [PREVIOUS_VALUE](#PREVIOUS-VALUE) | قيمة المنحنى لجزء دائمًا تستخدم القيمة من الإطار المفتاح السابق |
+| [NEXT_VALUE](#NEXT-VALUE) | قيمة المنحنى لجزء دائمًا ما تستخدم القيمة من الإطار المفتاح التالي |
+| [PREVIOUS_VALUE](#PREVIOUS-VALUE) | قيمة المنحنى لجزء دائمًا ما تستخدم القيمة من الإطار المفتاح السابق |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final StepMode NEXT_VALUE
 ```
 
 
-قيمة المنحنى لجزء دائمًا تستخدم القيمة من الإطار المفتاح التالي
+قيمة المنحنى لجزء دائمًا ما تستخدم القيمة من الإطار المفتاح التالي
 
 ### PREVIOUS_VALUE {#PREVIOUS-VALUE}
 ```
@@ -55,7 +55,7 @@ public static final StepMode PREVIOUS_VALUE
 ```
 
 
-قيمة المنحنى لجزء دائمًا تستخدم القيمة من الإطار المفتاح السابق
+قيمة المنحنى لجزء دائمًا ما تستخدم القيمة من الإطار المفتاح السابق
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

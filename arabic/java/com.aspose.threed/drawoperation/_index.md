@@ -1,6 +1,6 @@
 ---
 title: "DrawOperation"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أنواع البدائية للتصوير"
 type: docs
 weight: 277
@@ -19,7 +19,7 @@ public enum DrawOperation extends Enum<DrawOperation>
 | حقل | الوصف |
 | --- | --- |
 | [LINES](#LINES) | خطوط |
-| [LINE_STRIP](#LINE-STRIP) | شرائط الخط |
+| [LINE_STRIP](#LINE-STRIP) | شرائط الخطوط |
 | [POINTS](#POINTS) | نقاط |
 | [TRIANGLES](#TRIANGLES) | مثلثات |
 | [TRIANGLE_FAN](#TRIANGLE-FAN) | مروحة المثلثات |
@@ -59,7 +59,7 @@ public static final DrawOperation LINE_STRIP
 ```
 
 
-شرائط الخط
+شرائط الخطوط
 
 ### POINTS {#POINTS}
 ```

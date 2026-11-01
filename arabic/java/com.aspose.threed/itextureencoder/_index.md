@@ -1,7 +1,7 @@
 ---
 title: "ITextureEncoder"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يجب على مُشفّر الترميز الخارجي للملمس تنفيذ هذه الواجهة للترميز."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يجب على مشفر الملمس الخارجي تنفيذ هذه الواجهة للترميز."
 type: docs
 weight: 257
 url: /ar/java/com.aspose.threed/itextureencoder/
@@ -10,7 +10,7 @@ url: /ar/java/com.aspose.threed/itextureencoder/
 public interface ITextureEncoder
 ```
 
-يجب على مُشفّر الترميز الخارجي للملمس تنفيذ هذه الواجهة للترميز.
+يجب على مشفر الملمس الخارجي تنفيذ هذه الواجهة للترميز.
 ## الطرق
 
 | طريقة | الوصف |

@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "نوع تنسيق الملف"
 type: docs
 weight: 65
@@ -20,11 +20,11 @@ public final class FileFormatType
 | --- | --- |
 | [AMF](#AMF) | تنسيق ملف التصنيع الإضافي |
 | [ASE](#ASE) | تنسيق مُصدِّر المشهد ASCII لبرنامج 3D Studio Max. |
-| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | تنسيق Aspose.3D للويب. |
+| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | تنسيق Aspose.3D Web. |
 | [BLENDER](#BLENDER) | نوع تنسيق Blender |
 | [COLLADA](#COLLADA) | تنسيق ملف Collada الخاص بمجموعة Khronos. |
 | [DISCREET3DS](#DISCREET3DS) | تنسيق ملف Discreet 3D Studio |
-| [DRACO](#DRACO) | Google Draco Mesh |
+| [DRACO](#DRACO) | شبكة Google Draco |
 | [DXF](#DXF) | AutoCAD DXF |
 | [FBX](#FBX) | نوع تنسيق ملف FBX |
 | [GLTF](#GLTF) | glTF لمجموعة Khronos |
@@ -32,19 +32,19 @@ public final class FileFormatType
 | [IFC](#IFC) | نموذج بيانات ISO 16739-1 لفئات الأساس الصناعي. |
 | [MAYA](#MAYA) | نوع تنسيق Autodesk Maya |
 | [MICROSOFT3MF](#MICROSOFT3MF) | تنسيق التصنيع ثلاثي الأبعاد |
-| [PCD](#PCD) | بيانات سحابة النقاط المستخدمة من قبل مكتبة سحابة النقاط |
-| [PDF](#PDF) | تنسيق المستندات القابلة للنقل |
-| [PLY](#PLY) | تنسيق ملف المضلع أو تنسيق مثلثات ستانفورد |
-| [RVM](#RVM) | نموذج نظام إدارة تصميم المصانع AVEVA. |
+| [PCD](#PCD) | بيانات سحابة النقاط المستخدمة بواسطة مكتبة سحابة النقاط |
+| [PDF](#PDF) | تنسيق المستند المحمول |
+| [PLY](#PLY) | Polygon File Format أو Stanford Triangle Format |
+| [RVM](#RVM) | نموذج نظام إدارة تصميم مصنع AVEVA. |
 | [SIEMENSJT](#SIEMENSJT) | ملف JT الخاص بـ Siemens PLM Software NX |
 | [STL](#STL) | نوع تنسيق ملف STL |
 | [UNIVERSAL3D](#UNIVERSAL3D) | نوع تنسيق Universal 3D |
-| [USD](#USD) | وصف المشهد الشامل |
+| [USD](#USD) | الوصف العام للمشهد |
 | [VRML](#VRML) | لغة نمذجة الواقع الافتراضي |
 | [WAVEFRONTOBJ](#WAVEFRONTOBJ) | نوع تنسيق Wavefront OBJ |
 | [X](#X) | ملف X الخاص بـ DirectX |
-| [XYZ](#XYZ) | ملف سحابة نقاط Xyz |
-| [ZIP](#ZIP) | أرشيف Zip يحتوي على تنسيقات ملفات ثلاثية الأبعاد أخرى. |
+| [XYZ](#XYZ) | ملف سحابة النقاط Xyz |
+| [ZIP](#ZIP) | أرشيف Zip يحتوي على تنسيقات ملفات 3D أخرى. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -55,7 +55,7 @@ public final class FileFormatType
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | احصل على اسم نوع تنسيق هذا الملف |
+| [toString()](#toString--) | احصل على اسم هذا النوع من الملفات |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -81,7 +81,7 @@ public static final FileFormatType ASPOSE3D_WEB
 ```
 
 
-تنسيق Aspose.3D للويب.
+تنسيق Aspose.3D Web.
 
 ### BLENDER {#BLENDER}
 ```
@@ -113,7 +113,7 @@ public static final FileFormatType DRACO
 ```
 
 
-Google Draco Mesh
+شبكة Google Draco
 
 ### DXF {#DXF}
 ```
@@ -177,7 +177,7 @@ public static final FileFormatType PCD
 ```
 
 
-بيانات سحابة النقاط المستخدمة من قبل مكتبة سحابة النقاط
+بيانات سحابة النقاط المستخدمة بواسطة مكتبة سحابة النقاط
 
 ### PDF {#PDF}
 ```
@@ -185,7 +185,7 @@ public static final FileFormatType PDF
 ```
 
 
-تنسيق المستندات القابلة للنقل
+تنسيق المستند المحمول
 
 ### PLY {#PLY}
 ```
@@ -193,7 +193,7 @@ public static final FileFormatType PLY
 ```
 
 
-تنسيق ملف المضلع أو تنسيق مثلثات ستانفورد
+Polygon File Format أو Stanford Triangle Format
 
 ### RVM {#RVM}
 ```
@@ -201,7 +201,7 @@ public static final FileFormatType RVM
 ```
 
 
-نموذج نظام إدارة تصميم المصانع AVEVA.
+نموذج نظام إدارة تصميم مصنع AVEVA.
 
 ### SIEMENSJT {#SIEMENSJT}
 ```
@@ -233,7 +233,7 @@ public static final FileFormatType USD
 ```
 
 
-وصف المشهد الشامل
+الوصف العام للمشهد
 
 ### VRML {#VRML}
 ```
@@ -265,7 +265,7 @@ public static final FileFormatType XYZ
 ```
 
 
-ملف سحابة نقاط Xyz
+ملف سحابة النقاط Xyz
 
 ### ZIP {#ZIP}
 ```
@@ -273,7 +273,7 @@ public static final FileFormatType ZIP
 ```
 
 
-أرشيف Zip يحتوي على تنسيقات ملفات ثلاثية الأبعاد أخرى.
+أرشيف Zip يحتوي على تنسيقات ملفات 3D أخرى.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -342,10 +342,10 @@ public String toString()
 ```
 
 
-احصل على اسم نوع تنسيق هذا الملف
+احصل على اسم هذا النوع من الملفات
 
 **Returns:**
-java.lang.String - java.lang.String يمثل الـ [toString](../../com.aspose.threed/fileformattype\#toString) الحالي.
+java.lang.String - java.lang.String يمثل الـ [toString](../../com.aspose.threed/fileformattype\#toString).
 ### wait() {#wait--}
 ```
 public final void wait()

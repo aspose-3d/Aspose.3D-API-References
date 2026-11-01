@@ -1,7 +1,7 @@
 ---
 title: "ShaderVariable"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "متغيّر الظل"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "متغيّر المُظلِل"
 type: docs
 weight: 170
 url: /ar/java/com.aspose.threed/shadervariable/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ShaderVariable
 ```
 
-متغيّر الظل
+متغيّر المُظلِل
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,7 +26,7 @@ public class ShaderVariable
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | الحصول على اسم هذا المتغيّر |
+| [getName()](#getName--) | يحصل على اسم هذا المتغيّر |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -59,7 +59,7 @@ public ShaderVariable(String name, int shaderStage)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String |  |
-| shaderStage | int | في أي مرحلة shader سيُستخدم هذا المتغيّر |
+| shaderStage | int | في أي مرحلة تظليل سيُستخدم هذا المتغيّر |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -92,7 +92,7 @@ public String getName()
 ```
 
 
-الحصول على اسم هذا المتغيّر
+يحصل على اسم هذا المتغيّر
 
 **Returns:**
 java.lang.String - اسم هذا المتغيّر

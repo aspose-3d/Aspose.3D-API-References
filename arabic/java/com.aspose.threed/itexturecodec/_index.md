@@ -1,6 +1,6 @@
 ---
 title: "ITextureCodec"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الترميز للملمس"
 type: docs
 weight: 254
@@ -15,25 +15,25 @@ public interface ITextureCodec
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDecoders()](#getDecoders--) | يحصل على محولات القوام المدعومة. |
-| [getEncoders()](#getEncoders--) | يحصل على مشفرات القوام المدعومة. |
+| [getDecoders()](#getDecoders--) | يحصل على مفككات النسيج المدعومة. |
+| [getEncoders()](#getEncoders--) | يحصل على مشفرات النسيج المدعومة. |
 ### getDecoders() {#getDecoders--}
 ```
 public abstract ITextureDecoder[] getDecoders()
 ```
 
 
-يحصل على محولات القوام المدعومة.
+يحصل على مفككات النسيج المدعومة.
 
 **Returns:**
-com.aspose.threed.ITextureDecoder[] - مصفوفة من محللات القوام المدعومة
+com.aspose.threed.ITextureDecoder[] - مصفوفة من محولات القوام المدعومة
 ### getEncoders() {#getEncoders--}
 ```
 public abstract ITextureEncoder[] getEncoders()
 ```
 
 
-يحصل على مشفرات القوام المدعومة.
+يحصل على مشفرات النسيج المدعومة.
 
 **Returns:**
 com.aspose.threed.ITextureEncoder[] - مصفوفة من مشفرات القوام المدعومة

@@ -1,7 +1,7 @@
 ---
 title: "KeyFrame"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الإطار الرئيسي يُعرَّف أساسًا بالوقت والقيمة، بالنسبة لبعض أنواع الاستيفاء تُستخدم tangent/tension/bias/continuity أيضًا عند حساب القيمة النهائية المأخوذة."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "الإطار الرئيسي يُعرّف أساسًا بالوقت والقيمة، بالنسبة لبعض أنواع الاستيفاء يتم أيضًا استخدام tangent/tension/bias/continuity عند حساب القيمة النهائية المأخوذة."
 type: docs
 weight: 89
 url: /ar/java/com.aspose.threed/keyframe/
@@ -13,7 +13,7 @@ java.lang.Object
 public class KeyFrame
 ```
 
-الإطار الرئيسي يُعرَّف أساسًا بالوقت والقيمة، بالنسبة لبعض أنواع الاستيفاء تُستخدم tangent/tension/bias/continuity أيضًا عند حساب القيمة النهائية المأخوذة. القيم المأخوذة في موضع زمني غير إطار رئيسي يتم استيفاؤها بواسطة الأطر الرئيسية بين الإطار السابق واللاحق. القيم قبل/بعد الإطار الرئيسي الأول/الأخير تُحسب بواسطة الفئة [Extrapolation](../../com.aspose.threed/extrapolation).
+الإطار الرئيسي يُعرّف أساسًا بالوقت والقيمة، بالنسبة لبعض أنواع الاستيفاء يتم أيضًا استخدام tangent/tension/bias/continuity عند حساب القيمة النهائية المأخوذة. القيم المأخوذة في موضع زمني غير إطار رئيسي يتم استيفاؤها بواسطة الأطر الرئيسية بين الإطار الرئيسي السابق واللاحق. القيم قبل/بعد الإطار الرئيسي الأول/الأخير يتم حسابها بواسطة الفئة [Extrapolation](../../com.aspose.threed/extrapolation).
 ## المنشئات
 
 | منشئ | الوصف |
@@ -28,8 +28,8 @@ public class KeyFrame
 | [getClass()](#getClass--) |  |
 | [getContinuity()](#getContinuity--) | يحصل على الاستمرارية المستخدمة في منحنى TCB |
 | [getFlat()](#getFlat--) | احصل أو عيّن ما إذا كان الإطار الرئيسي مسطحًا. |
-| [getIndependentTangent()](#getIndependentTangent--) | يحصل على أن المماس الخارج والمماس الداخل التالي مستقلان. |
-| [getInterpolation()](#getInterpolation--) | يحصل على نوع الاستيفاء للإطار، حيث يحدد list.data[index] الخوارزمية التي تُحسب بها القيمة المأخوذة. |
+| [getIndependentTangent()](#getIndependentTangent--) | يحصل على أن المماس الخارج والداخل التالي مستقلان. |
+| [getInterpolation()](#getInterpolation--) | يحصل على نوع استيفاء الإطار، حيث يحدد list.data[index] الخوارزمية التي تُحسب بها القيمة المأخوذة. |
 | [getNextInTangent()](#getNextInTangent--) | يحصل على المماس الداخل (اليسار) التالي في هذا الإطار الرئيسي. |
 | [getNextInWeight()](#getNextInWeight--) | يحصل على الوزن الداخل (اليسار) التالي في هذا الإطار الرئيسي. |
 | [getOutTangent()](#getOutTangent--) | يحصل على المماس الخارج (اليمين) في هذا الإطار الرئيسي. |
@@ -47,18 +47,18 @@ public class KeyFrame
 | [setContinuity(float value)](#setContinuity-float-) | يضبط الاستمرارية المستخدمة في منحنى TCB |
 | [setFlat(boolean value)](#setFlat-boolean-) | احصل أو عيّن ما إذا كان الإطار الرئيسي مسطحًا. |
 | [setIndependentTangent(boolean value)](#setIndependentTangent-boolean-) | يضبط أن المماس الخارجي والمماس الداخلي التالي مستقلان. |
-| [setInterpolation(Interpolation value)](#setInterpolation-com.aspose.threed.Interpolation-) | يضبط نوع الاستيفاء للمفتاح، حيث يحدد list.data[index] الخوارزمية التي يتم بها حساب القيمة المأخوذة. |
+| [setInterpolation(Interpolation value)](#setInterpolation-com.aspose.threed.Interpolation-) | يضبط نوع الاستيفاء للمفتاح، list.data[index] يحدد الخوارزمية التي يتم بها حساب القيمة المعينة. |
 | [setNextInTangent(Vector2 value)](#setNextInTangent-com.aspose.threed.Vector2-) | يضبط المماس الداخلي (اليسار) التالي في إطار المفتاح هذا. |
 | [setNextInWeight(float value)](#setNextInWeight-float-) | يضبط وزن المماس الداخلي (اليسار) التالي في إطار المفتاح هذا. |
 | [setOutTangent(Vector2 value)](#setOutTangent-com.aspose.threed.Vector2-) | يضبط المماس الخارجي (اليمين) في إطار المفتاح هذا. |
 | [setOutWeight(float value)](#setOutWeight-float-) | يضبط وزن المماس الخارجي (اليمين) في إطار المفتاح هذا. |
 | [setStepMode(StepMode value)](#setStepMode-com.aspose.threed.StepMode-) | يضبط وضع خطوة المفتاح. |
 | [setTangentWeightMode(int value)](#setTangentWeightMode-int-) | يضبط وضع وزن المماس للمفتاح. |
-| [setTension(float value)](#setTension-float-) | يضبط الشد المستخدم في المنحنى TCB. |
+| [setTension(float value)](#setTension-float-) | يضبط الشد المستخدم في منحنى TCB |
 | [setTime(double value)](#setTime-double-) | يضبط موضع الوقت لإطار المفتاح list.data[index]، مقاسًا بالثواني. |
-| [setTimeIndependentTangent(boolean value)](#setTimeIndependentTangent-boolean-) | يضبط أن المماس غير معتمد على الوقت. |
+| [setTimeIndependentTangent(boolean value)](#setTimeIndependentTangent-boolean-) | يضبط أن المماس غير معتمد على الوقت |
 | [setValue(float value)](#setValue-float-) | يضبط قيمة إطار المفتاح. |
-| [toString()](#toString--) | يحصل على تمثيل السلسلة لإطار المفتاح. |
+| [toString()](#toString--) | يحصل على تمثيل السلسلة لإطار المفتاح |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -73,8 +73,8 @@ public KeyFrame(KeyframeSequence curve, double time)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| curve | [KeyframeSequence](../../com.aspose.threed/keyframesequence) | المنحنى الذي سيتم إنشاء إطار المفتاح عليه. |
-| الوقت | double | موضع الوقت لإطار المفتاح. |
+| curve | [KeyframeSequence](../../com.aspose.threed/keyframesequence) | المنحنى الذي سيُنشأ عليه إطار المفتاح |
+| الوقت | double | موضع الوقت لإطار المفتاح |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -100,7 +100,7 @@ public float getBias()
 يحصل على الانحياز المستخدم في منحنى TCB
 
 **Returns:**
-float - الانحياز المستخدم في منحنى TCB.
+float - الانحياز المستخدم في منحنى TCB
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -120,24 +120,24 @@ public float getContinuity()
 يحصل على الاستمرارية المستخدمة في منحنى TCB
 
 **Returns:**
-float - الاستمرارية المستخدمة في منحنى TCB.
+float - الاستمرارية المستخدمة في منحنى TCB
 ### getFlat() {#getFlat--}
 ```
 public boolean getFlat()
 ```
 
 
-احصل أو اضبط ما إذا كان إطار المفتاح مسطحًا. يجب أن يكون إطار المفتاح مسطحًا إذا كان إطار المفتاح التالي أو السابق له نفس القيمة. إطار المفتاح المسطح له مسايس مسطحة واستيفاء ثابت.
+احصل أو اضبط ما إذا كان إطار المفتاح مسطحًا. يجب أن يكون إطار المفتاح مسطحًا إذا كان الإطار التالي أو السابق له له نفس القيمة. إطار المفتاح المسطح له مماس مسطح واستيفاء ثابت.
 
 **Returns:**
-boolean - احصل أو اضبط ما إذا كان إطار المفتاح مسطحًا. يجب أن يكون إطار المفتاح مسطحًا إذا كان إطار المفتاح التالي أو السابق له نفس القيمة. إطار المفتاح المسطح له مسايس مسطحة واستيفاء ثابت.
+boolean - احصل أو اضبط ما إذا كان إطار المفتاح مسطحًا. يجب أن يكون إطار المفتاح مسطحًا إذا كان الإطار التالي أو السابق له له نفس القيمة. إطار المفتاح المسطح له مماس مسطح واستيفاء ثابت.
 ### getIndependentTangent() {#getIndependentTangent--}
 ```
 public boolean getIndependentTangent()
 ```
 
 
-يحصل على أن المماس الخارج والمماس الداخل التالي مستقلان.
+يحصل على أن المماس الخارج والداخل التالي مستقلان.
 
 **Returns:**
 boolean - المماس الخارجي والمماس الداخلي التالي مستقلان.
@@ -147,7 +147,7 @@ public Interpolation getInterpolation()
 ```
 
 
-يحصل على نوع الاستيفاء للإطار، حيث يحدد list.data[index] الخوارزمية التي تُحسب بها القيمة المأخوذة.
+يحصل على نوع استيفاء الإطار، حيث يحدد list.data[index] الخوارزمية التي تُحسب بها القيمة المأخوذة.
 
 **Returns:**
 [Interpolation](../../com.aspose.threed/interpolation) - the key's interpolation type, list.data[index] defines the algorithm how the sampled value is calculated.
@@ -197,7 +197,7 @@ public StepMode getStepMode()
 ```
 
 
-يحصل على وضع خطوة المفتاح. إذا كان نوع الاستيفاء هو [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT)، فإن list.data[index] يقرر أي قيمة لإطار المفتاح ستُستخدم أثناء الاستيفاء. يعني [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) أن قيمة إطار المفتاح الأيسر ستُستخدم. يعني [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) أن قيمة إطار المفتاح الأيمن التالي ستُستخدم.
+يحصل على وضع خطوة المفتاح. إذا كان نوع الاستيفاء هو [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT)، فإن list.data[index] يحدد أي قيمة لإطار المفتاح ستُستخدم أثناء الاستيفاء. [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) يعني أن قيمة إطار المفتاح الأيسر ستُستخدم. [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) يعني أن قيمة إطار المفتاح الأيمن التالي ستُستخدم.
 
 **Returns:**
 [StepMode](../../com.aspose.threed/stepmode) - the key's step mode. If the interpolation type is [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT), list.data[index] decides which key-frame's value will be used during interpolation. A [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) means the left key-frame's value will be used A [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) means the next right key-frame's value will be used
@@ -220,7 +220,7 @@ public float getTension()
 يحصل على التوتر المستخدم في منحنى TCB
 
 **Returns:**
-float - التوتر المستخدم في منحنى TCB
+float - الشد المستخدم في منحنى TCB
 ### getTime() {#getTime--}
 ```
 public double getTime()
@@ -230,7 +230,7 @@ public double getTime()
 يحصل على موضع الوقت لإطار list.data[index]، مقاسًا بالثواني.
 
 **Returns:**
-double - موضع الوقت لإطار المفتاح list.data[index]، مقاسًا بالثواني.
+double - موضع الوقت لإطار المفتاح list.data[index]، يُقاس بالثواني.
 ### getTimeIndependentTangent() {#getTimeIndependentTangent--}
 ```
 public boolean getTimeIndependentTangent()
@@ -288,7 +288,7 @@ public void setBias(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setContinuity(float value) {#setContinuity-float-}
 ```
@@ -301,7 +301,7 @@ public void setContinuity(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setFlat(boolean value) {#setFlat-boolean-}
 ```
@@ -309,12 +309,12 @@ public void setFlat(boolean value)
 ```
 
 
-احصل أو اضبط ما إذا كان إطار المفتاح مسطحًا. يجب أن يكون إطار المفتاح مسطحًا إذا كان إطار المفتاح التالي أو السابق له نفس القيمة. إطار المفتاح المسطح له مسايس مسطحة واستيفاء ثابت.
+احصل أو اضبط ما إذا كان إطار المفتاح مسطحًا. يجب أن يكون إطار المفتاح مسطحًا إذا كان الإطار التالي أو السابق له له نفس القيمة. إطار المفتاح المسطح له مماس مسطح واستيفاء ثابت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setIndependentTangent(boolean value) {#setIndependentTangent-boolean-}
 ```
@@ -327,7 +327,7 @@ public void setIndependentTangent(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setInterpolation(Interpolation value) {#setInterpolation-com.aspose.threed.Interpolation-}
 ```
@@ -335,12 +335,12 @@ public void setInterpolation(Interpolation value)
 ```
 
 
-يضبط نوع الاستيفاء للمفتاح، حيث يحدد list.data[index] الخوارزمية التي يتم بها حساب القيمة المأخوذة.
+يضبط نوع الاستيفاء للمفتاح، list.data[index] يحدد الخوارزمية التي يتم بها حساب القيمة المعينة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Interpolation](../../com.aspose.threed/interpolation) | القيمة الجديدة |
+| value | [Interpolation](../../com.aspose.threed/interpolation) | قيمة جديدة |
 
 ### setNextInTangent(Vector2 value) {#setNextInTangent-com.aspose.threed.Vector2-}
 ```
@@ -353,7 +353,7 @@ public void setNextInTangent(Vector2 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 
 ### setNextInWeight(float value) {#setNextInWeight-float-}
 ```
@@ -366,7 +366,7 @@ public void setNextInWeight(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setOutTangent(Vector2 value) {#setOutTangent-com.aspose.threed.Vector2-}
 ```
@@ -379,7 +379,7 @@ public void setOutTangent(Vector2 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 
 ### setOutWeight(float value) {#setOutWeight-float-}
 ```
@@ -392,7 +392,7 @@ public void setOutWeight(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setStepMode(StepMode value) {#setStepMode-com.aspose.threed.StepMode-}
 ```
@@ -400,12 +400,12 @@ public void setStepMode(StepMode value)
 ```
 
 
-يضبط وضع خطوة المفتاح. إذا كان نوع الاستيفاء هو [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT)، فإن list.data[index] يحدد أي قيمة لإطار المفتاح ستُستخدم أثناء الاستيفاء. يعني [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) أن قيمة إطار المفتاح الأيسر ستُستخدم. يعني [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) أن قيمة إطار المفتاح الأيمن التالي ستُستخدم.
+يضبط وضع خطوة المفتاح. إذا كان نوع الاستيفاء هو [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\\#CONSTANT)، فإن list.data[index] يحدد أي قيمة لإطار المفتاح سيتم استخدامها أثناء الاستيفاء. يعني [StepMode.PREVIOUS\\_VALUE](../../com.aspose.threed/stepmode\\#PREVIOUS-VALUE) أن قيمة إطار المفتاح الأيسر ستُستخدم. يعني [StepMode.NEXT\\_VALUE](../../com.aspose.threed/stepmode\\#NEXT-VALUE) أن قيمة إطار المفتاح الأيمن التالي ستُستخدم
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [StepMode](../../com.aspose.threed/stepmode) | القيمة الجديدة |
+| value | [StepMode](../../com.aspose.threed/stepmode) | قيمة جديدة |
 
 ### setTangentWeightMode(int value) {#setTangentWeightMode-int-}
 ```
@@ -413,12 +413,12 @@ public void setTangentWeightMode(int value)
 ```
 
 
-يضبط وضع وزن المماس للمفتاح. يمكن تخصيص المماس الخارج أو المماس الداخل التالي عن طريق اختيار [WeightedMode](../../com.aspose.threed/weightedmode) الصحيح.
+يضبط وضع وزن المماس للمفتاح. يمكن تخصيص المماس الخارج أو المماس الداخل التالي عن طريق اختيار [WeightedMode](../../com.aspose.threed/weightedmode) الصحيح
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setTension(float value) {#setTension-float-}
 ```
@@ -426,12 +426,12 @@ public void setTension(float value)
 ```
 
 
-يضبط الشد المستخدم في المنحنى TCB.
+يضبط الشد المستخدم في منحنى TCB
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setTime(double value) {#setTime-double-}
 ```
@@ -444,7 +444,7 @@ public void setTime(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setTimeIndependentTangent(boolean value) {#setTimeIndependentTangent-boolean-}
 ```
@@ -452,12 +452,12 @@ public void setTimeIndependentTangent(boolean value)
 ```
 
 
-يضبط أن المماس غير معتمد على الوقت.
+يضبط أن المماس غير معتمد على الوقت
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setValue(float value) {#setValue-float-}
 ```
@@ -470,7 +470,7 @@ public void setValue(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### toString() {#toString--}
 ```
@@ -478,7 +478,7 @@ public String toString()
 ```
 
 
-يحصل على تمثيل السلسلة لإطار المفتاح.
+يحصل على تمثيل السلسلة لإطار المفتاح
 
 **Returns:**
 java.lang.String

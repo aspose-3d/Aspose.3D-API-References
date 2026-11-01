@@ -1,7 +1,7 @@
 ---
 title: "PbrSpecularMaterial"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مادة للتصيير القائم على الفيزياء تعتمد على اللون المنتشر/specular/اللمعان."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مادة للتصيير القائم على الفيزياء تعتمد على لون الانتشار/اللمعان/اللمعان"
 type: docs
 weight: 122
 url: /ar/java/com.aspose.threed/pbrspecularmaterial/
@@ -13,19 +13,19 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrSpecularMaterial extends Material
 ```
 
-مادة للتصيير القائم على الفيزياء تعتمد على اللون المنتشر/specular/اللمعان.
+مادة للتصيير القائم على الفيزياء تعتمد على لون الانتشار/اللمعان/اللمعان
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [PbrSpecularMaterial()](#PbrSpecularMaterial--) | منشئ الفئة [PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial) |
+| [PbrSpecularMaterial()](#PbrSpecularMaterial--) | منشئ [PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial) |
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [MAP_AMBIENT](#MAP-AMBIENT) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج محيطي. |
 | [MAP_DIFFUSE](#MAP-DIFFUSE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج منتشر. |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مشع. |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مُشع. |
 | [MAP_NORMAL](#MAP-NORMAL) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج عادي. |
 | [MAP_SPECULAR](#MAP-SPECULAR) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج انعكاسي. |
 | [MAP_SPECULAR_GLOSSINESS](#MAP-SPECULAR-GLOSSINESS) | خريطة القوام لللمعان الانعكاسي |
@@ -38,36 +38,36 @@ public class PbrSpecularMaterial extends Material
 | [getClass()](#getClass--) |  |
 | [getDiffuse()](#getDiffuse--) | يحصل على اللون المنتشر للمادة، القيمة الافتراضية هي (1, 1, 1) |
 | [getDiffuseTexture()](#getDiffuseTexture--) | يحصل على القوام للانتشار |
-| [getEmissiveColor()](#getEmissiveColor--) | يحصل على اللون المنبعث، القيمة الافتراضية هي (0, 0, 0) |
-| [getEmissiveTexture()](#getEmissiveTexture--) | يحصل على القوام للإنبعاث |
-| [getGlossinessFactor()](#getGlossinessFactor--) | يحصل على اللمعان (النعومة) للمادة، 1 يعني ناعماً تماماً و0 يعني خشناً تماماً، القيمة الافتراضية هي 1، النطاق هو [0, 1] |
+| [getEmissiveColor()](#getEmissiveColor--) | يحصل على اللون الانبعاثي، القيمة الافتراضية هي (0, 0, 0) |
+| [getEmissiveTexture()](#getEmissiveTexture--) | يحصل على القوام للانبعاث |
+| [getGlossinessFactor()](#getGlossinessFactor--) | يحصل على اللمعان (النعومة) للمادة، 1 يعني ناعم تمامًا و0 يعني خشن تمامًا، القيمة الافتراضية هي 1، النطاق هو [0, 1] |
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getNormalTexture()](#getNormalTexture--) | يحصل على القوام لتخطيط العادي |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getSpecular()](#getSpecular--) | يحصل على اللون الانعكاسي للمادة، القيمة الافتراضية هي (1, 1, 1). |
 | [getSpecularGlossinessTexture()](#getSpecularGlossinessTexture--) | يحصل على القوام للون الانعكاسي، القناة RGB تخزن اللون الانعكاسي والقناة A تخزن اللمعان. |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معامل المعالج |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل |
 | [getTransparency()](#getTransparency--) | يحصل على عامل الشفافية. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | يحصل على المُعدد لتعداد فتحات النسيج الداخلية. |
+| [iterator()](#iterator--) | يحصل على المكرّر لتعداد فتحات النسيج الداخلية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setDiffuse(Vector3 value)](#setDiffuse-com.aspose.threed.Vector3-) | يضبط اللون المنتشر للمادة، القيمة الافتراضية هي (1, 1, 1) |
 | [setDiffuseTexture(TextureBase value)](#setDiffuseTexture-com.aspose.threed.TextureBase-) | يضبط القوام للانتشار |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | يضبط اللون المنبعث، القيمة الافتراضية هي (0, 0, 0) |
-| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للانبعاث |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | يضبط اللون الانبعاثي، القيمة الافتراضية هي (0, 0, 0) |
+| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للإنبعاث |
 | [setGlossinessFactor(double value)](#setGlossinessFactor-double-) | يضبط اللمعان (النعومة) للمادة، 1 يعني ناعم تمامًا و0 يعني خشن تمامًا، القيمة الافتراضية هي 1، النطاق هو [0, 1] |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | يضبط نسيج تمثيل العادي |
+| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | يضبط نسيج الخريطة العادية |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [setSpecular(Vector3 value)](#setSpecular-com.aspose.threed.Vector3-) | يضبط لون الانعكاس للمادة، القيمة الافتراضية هي (1, 1, 1). |
-| [setSpecularGlossinessTexture(TextureBase value)](#setSpecularGlossinessTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للون الانعكاس، القناة RGB تخزن لون الانعكاس والقناة A تخزن اللمعان. |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | يعيّن النسيج للفتحة المحددة |
+| [setSpecular(Vector3 value)](#setSpecular-com.aspose.threed.Vector3-) | يضبط اللون الانعكاسي للمادة، القيمة الافتراضية هي (1, 1, 1). |
+| [setSpecularGlossinessTexture(TextureBase value)](#setSpecularGlossinessTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للون الانعكاسي، القناة RGB تخزن اللون الانعكاسي والقناة A تخزن اللمعان. |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | يضبط النسيج في الفتحة المحددة |
 | [setTransparency(double value)](#setTransparency-double-) | يضبط عامل الشفافية. |
-| [toString()](#toString--) | يقوم بتنسيق الكائن إلى سلسلة |
+| [toString()](#toString--) | تنسيق الكائن إلى سلسلة |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -77,7 +77,7 @@ public PbrSpecularMaterial()
 ```
 
 
-منشئ الفئة [PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial)
+منشئ [PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial)
 
 ### MAP_AMBIENT {#MAP-AMBIENT}
 ```
@@ -101,7 +101,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مشع.
+يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مُشع.
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -193,7 +193,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-يحصل على اللون المنبعث، القيمة الافتراضية هي (0, 0, 0)
+يحصل على اللون الانبعاثي، القيمة الافتراضية هي (0, 0, 0)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color, default value is (0, 0, 0)
@@ -203,7 +203,7 @@ public TextureBase getEmissiveTexture()
 ```
 
 
-يحصل على القوام للإنبعاث
+يحصل على القوام للانبعاث
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for emissive
@@ -213,7 +213,7 @@ public double getGlossinessFactor()
 ```
 
 
-يحصل على اللمعان (النعومة) للمادة، 1 يعني ناعماً تماماً و0 يعني خشناً تماماً، القيمة الافتراضية هي 1، النطاق هو [0, 1]
+يحصل على اللمعان (النعومة) للمادة، 1 يعني ناعم تمامًا و0 يعني خشن تمامًا، القيمة الافتراضية هي 1، النطاق هو [0, 1]
 
 **Returns:**
 double - اللمعان (النعومة) للمادة، 1 يعني ناعم تمامًا و0 يعني خشن تمامًا، القيمة الافتراضية هي 1، النطاق هو [0, 1]
@@ -288,7 +288,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معامل المعالج
+يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -311,10 +311,10 @@ public double getTransparency()
 ```
 
 
-يحصل على معامل الشفافية. يجب أن يكون المعامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة معامل غير صالحة سيتم تثبيتها.
+يحصل على عامل الشفافية. يجب أن يكون العامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة عامل غير صالحة سيتم تقليمها.
 
 **Returns:**
-double - معامل الشفافية. يجب أن يكون المعامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة معامل غير صالحة سيتم تثبيتها.
+double - عامل الشفافية. يجب أن يكون العامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة عامل غير صالحة سيتم تقليمها.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -331,7 +331,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-يحصل على المُعدد لتعداد فتحات النسيج الداخلية.
+يحصل على المكرّر لتعداد فتحات النسيج الداخلية.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -372,7 +372,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -392,7 +392,7 @@ public void setDiffuse(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setDiffuseTexture(TextureBase value) {#setDiffuseTexture-com.aspose.threed.TextureBase-}
 ```
@@ -405,7 +405,7 @@ public void setDiffuseTexture(TextureBase value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setEmissiveColor(Vector3 value) {#setEmissiveColor-com.aspose.threed.Vector3-}
 ```
@@ -413,12 +413,12 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-يضبط اللون المنبعث، القيمة الافتراضية هي (0, 0, 0)
+يضبط اللون الانبعاثي، القيمة الافتراضية هي (0, 0, 0)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setEmissiveTexture(TextureBase value) {#setEmissiveTexture-com.aspose.threed.TextureBase-}
 ```
@@ -426,12 +426,12 @@ public void setEmissiveTexture(TextureBase value)
 ```
 
 
-يضبط النسيج للانبعاث
+يضبط النسيج للإنبعاث
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setGlossinessFactor(double value) {#setGlossinessFactor-double-}
 ```
@@ -444,7 +444,7 @@ public void setGlossinessFactor(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -457,7 +457,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setNormalTexture(TextureBase value) {#setNormalTexture-com.aspose.threed.TextureBase-}
 ```
@@ -465,12 +465,12 @@ public void setNormalTexture(TextureBase value)
 ```
 
 
-يضبط نسيج تمثيل العادي
+يضبط نسيج الخريطة العادية
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -484,7 +484,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setSpecular(Vector3 value) {#setSpecular-com.aspose.threed.Vector3-}
 ```
@@ -492,12 +492,12 @@ public void setSpecular(Vector3 value)
 ```
 
 
-يضبط لون الانعكاس للمادة، القيمة الافتراضية هي (1, 1, 1).
+يضبط اللون الانعكاسي للمادة، القيمة الافتراضية هي (1, 1, 1).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setSpecularGlossinessTexture(TextureBase value) {#setSpecularGlossinessTexture-com.aspose.threed.TextureBase-}
 ```
@@ -505,12 +505,12 @@ public void setSpecularGlossinessTexture(TextureBase value)
 ```
 
 
-يضبط النسيج للون الانعكاس، القناة RGB تخزن لون الانعكاس والقناة A تخزن اللمعان.
+يضبط النسيج للون الانعكاسي، القناة RGB تخزن اللون الانعكاسي والقناة A تخزن اللمعان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setTexture(String slotName, TextureBase texture) {#setTexture-java.lang.String-com.aspose.threed.TextureBase-}
 ```
@@ -518,7 +518,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-يعيّن النسيج للفتحة المحددة
+يضبط النسيج في الفتحة المحددة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -539,12 +539,12 @@ public void setTransparency(double value)
 ```
 
 
-يضبط معامل الشفافية. يجب أن يكون المعامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة معامل غير صالحة سيتم تثبيتها.
+يضبط عامل الشفافية. يجب أن يكون العامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة عامل غير صالحة سيتم تقليمها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### toString() {#toString--}
 ```
@@ -552,7 +552,7 @@ public String toString()
 ```
 
 
-يقوم بتنسيق الكائن إلى سلسلة
+تنسيق الكائن إلى سلسلة
 
 **Returns:**
 java.lang.String - سلسلة الكائن

@@ -1,6 +1,6 @@
 ---
 title: "Renderer"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "السياق المتعلق بالعارض."
 type: docs
 weight: 152
@@ -22,24 +22,24 @@ public abstract class Renderer implements Closeable
 | طريقة | الوصف |
 | --- | --- |
 | [clearCache()](#clearCache--) | امسح الذاكرة المؤقتة يدويًا. |
-| [close()](#close--) | تخلص من [Renderer](../../com.aspose.threed/renderer) وجميع الموارد المرتبطة. |
+| [close()](#close--) | تخلص من [Renderer](../../com.aspose.threed/renderer) وجميع الموارد ذات الصلة. |
 | [createRenderer()](#createRenderer--) | ينشئ [Renderer](../../com.aspose.threed/renderer) جديدًا باستخدام الملف التعريفي الافتراضي. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [execute(PostProcessing postProcessing, IRenderTarget result)](#execute-com.aspose.threed.PostProcessing-com.aspose.threed.IRenderTarget-) | نفّذ معالجة لاحقة على هدف العرض المحدد. |
 | [getAssetDirectories()](#getAssetDirectories--) | الأدلة التي تخزن الأصول الخارجية. |
 | [getClass()](#getClass--) |  |
 | [getEnableShadows()](#getEnableShadows--) | يحصل على ما إذا كان يجب تمكين الظلال. |
-| [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | يحصل على عارض الكيان الاحتياطي عندما لا يكون للكيان عارض خاص معرف. |
+| [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | يحصل على محرك عرض الكيان الاحتياطي عندما لا يكون للكيان محرك عرض خاص معرف. |
 | [getFrustum()](#getFrustum--) | يحصل على المخروط الذي كان يُستخدم لتوفير مصفوفة العرض. |
 | [getMaterial()](#getMaterial--) | يحصل على المادة التي كانت تُستخدم لتوفير معلومات المادة التي يستخدمها المظللون. |
-| [getNode()](#getNode--) | يحصل على مثيل [getNode](../../com.aspose.threed/renderer\#getNode) المستخدم لتوفير مصفوفة تحويل العالم. |
-| [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | يحصل على معالج لاحق مدمج يدعمه العارض. |
+| [getNode()](#getNode--) | يحصل على نسخة [getNode](../../com.aspose.threed/renderer\#getNode) المستخدمة لتوفير مصفوفة التحويل العالمي. |
+| [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | يحصل على معالج لاحق مدمج يدعمه عارض الرسومات. |
 | [getPostProcessings()](#getPostProcessings--) | سلسلة المعالجة اللاحقة النشطة |
 | [getPresetShaders()](#getPresetShaders--) | يحصل على مجموعة المظلل المسبقة الإعداد |
 | [getRenderFactory()](#getRenderFactory--) | يحصل على المصنع لبناء الكائنات المتعلقة بالعرض. |
 | [getRenderStage()](#getRenderStage--) | يحصل على مرحلة العرض الحالية. |
 | [getRenderTarget()](#getRenderTarget--) | حدد هدف العرض الذي ستُجرى عليه عمليات العرض التالية. |
-| [getShader()](#getShader--) | يحصل على مثيل المظلل المستخدم لعرض الهندسة. |
+| [getShader()](#getShader--) | يحصل على نسخة المظلل المستخدمة لعرض الهندسة. |
 | [getShaderSet()](#getShaderSet--) | يحصل على مجموعة المظلل التي كانت تُستخدم لعرض المشهد |
 | [getVariables()](#getVariables--) | الوصول إلى المتغيرات الداخلية المستخدمة للعرض |
 | [hashCode()](#hashCode--) |  |
@@ -47,13 +47,13 @@ public abstract class Renderer implements Closeable
 | [notifyAll()](#notifyAll--) |  |
 | [registerEntityRenderer(EntityRenderer renderer)](#registerEntityRenderer-com.aspose.threed.EntityRenderer-) | سجّل عارض الكيان للكيان المحدد |
 | [render(IRenderTarget renderTarget)](#render-com.aspose.threed.IRenderTarget-) | اعرض الهدف المحدد |
-| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | يضبط ما إذا كان يجب تمكين الظلال. |
+| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | يضبط ما إذا كان سيتم تمكين الظلال. |
 | [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | يضبط عارض الكيان الاحتياطي عندما لا يكون للكيان عارض خاص معرف. |
 | [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | يضبط المخروط الذي كان يُستخدم لتوفير مصفوفة العرض. |
 | [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | يضبط المادة التي كانت تُستخدم لتوفير معلومات المادة التي يستخدمها المظللون. |
-| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | يضبط مثيل [getNode](../../com.aspose.threed/renderer\#getNode) المستخدم لتوفير مصفوفة تحويل العالم. |
+| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | يضبط نسخة [getNode](../../com.aspose.threed/renderer\#getNode) المستخدمة لتوفير مصفوفة التحويل العالمي. |
 | [setPresetShaders(PresetShaders value)](#setPresetShaders-com.aspose.threed.PresetShaders-) | يضبط مجموعة المظلل المسبقة الإعداد |
-| [setShader(ShaderProgram value)](#setShader-com.aspose.threed.ShaderProgram-) | يضبط مثيل المظلل المستخدم لعرض الهندسة. |
+| [setShader(ShaderProgram value)](#setShader-com.aspose.threed.ShaderProgram-) | يضبط نسخة المظلل المستخدمة لعرض الهندسة. |
 | [setShaderSet(ShaderSet value)](#setShaderSet-com.aspose.threed.ShaderSet-) | يضبط مجموعة المظلل التي كانت تُستخدم لعرض المشهد |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -65,7 +65,7 @@ public void clearCache()
 ```
 
 
-امسح الذاكرة المؤقتة يدويًا. سيقوم Aspose.3D بتخزين بعض الكائنات مثل المواد/الهياكل في أنواع داخلية متوافقة مع خط أنابيب العرض. يجب استدعاؤها يدويًا عندما يحدث تغييرات كبيرة في المشهد.
+امسح الذاكرة المؤقتة يدويًا. سيقوم Aspose.3D بتخزين بعض الكائنات مثل المواد/الهياكل في أنواع داخلية متوافقة مع خط أنابيب العرض. يجب استدعاؤها يدويًا عندما يطرأ تغييرات كبيرة على المشهد.
 
 ### close() {#close--}
 ```
@@ -73,7 +73,7 @@ public void close()
 ```
 
 
-تخلص من [Renderer](../../com.aspose.threed/renderer) وجميع الموارد المرتبطة.
+تخلص من [Renderer](../../com.aspose.threed/renderer) وجميع الموارد ذات الصلة.
 
 ### createRenderer() {#createRenderer--}
 ```
@@ -150,7 +150,7 @@ public EntityRenderer getFallbackEntityRenderer()
 ```
 
 
-يحصل على عارض الكيان الاحتياطي عندما لا يكون للكيان عارض خاص معرف.
+يحصل على محرك عرض الكيان الاحتياطي عندما لا يكون للكيان محرك عرض خاص معرف.
 
 **Returns:**
 [EntityRenderer](../../com.aspose.threed/entityrenderer) - the fallback entity renderer when the entity has no special renderer defined.
@@ -180,7 +180,7 @@ public Node getNode()
 ```
 
 
-يحصل على مثيل [getNode](../../com.aspose.threed/renderer\#getNode) المستخدم لتوفير مصفوفة تحويل العالم.
+يحصل على نسخة [getNode](../../com.aspose.threed/renderer\#getNode) المستخدمة لتوفير مصفوفة التحويل العالمي.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the [getNode](../../com.aspose.threed/renderer\#getNode) instance used to provide world transform matrix.
@@ -190,7 +190,7 @@ public PostProcessing getPostProcessing(String name)
 ```
 
 
-يحصل على معالج لاحق مدمج يدعمه العارض.
+يحصل على معالج لاحق مدمج يدعمه عارض الرسومات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -255,7 +255,7 @@ public ShaderProgram getShader()
 ```
 
 
-يحصل على مثيل المظلل المستخدم لعرض الهندسة.
+يحصل على نسخة المظلل المستخدمة لعرض الهندسة.
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader instance used for rendering the geometry.
@@ -337,12 +337,12 @@ public void setEnableShadows(boolean value)
 ```
 
 
-يضبط ما إذا كان يجب تمكين الظلال.
+يضبط ما إذا كان سيتم تمكين الظلال.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFallbackEntityRenderer(EntityRenderer value) {#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-}
 ```
@@ -355,7 +355,7 @@ public void setFallbackEntityRenderer(EntityRenderer value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [EntityRenderer](../../com.aspose.threed/entityrenderer) | القيمة الجديدة |
+| value | [EntityRenderer](../../com.aspose.threed/entityrenderer) | قيمة جديدة |
 
 ### setFrustum(Frustum value) {#setFrustum-com.aspose.threed.Frustum-}
 ```
@@ -368,7 +368,7 @@ public void setFrustum(Frustum value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Frustum](../../com.aspose.threed/frustum) | القيمة الجديدة |
+| value | [Frustum](../../com.aspose.threed/frustum) | قيمة جديدة |
 
 ### setMaterial(Material value) {#setMaterial-com.aspose.threed.Material-}
 ```
@@ -381,7 +381,7 @@ public void setMaterial(Material value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Material](../../com.aspose.threed/material) | القيمة الجديدة |
+| value | [Material](../../com.aspose.threed/material) | قيمة جديدة |
 
 ### setNode(Node value) {#setNode-com.aspose.threed.Node-}
 ```
@@ -389,12 +389,12 @@ public void setNode(Node value)
 ```
 
 
-يضبط مثيل [getNode](../../com.aspose.threed/renderer\#getNode) المستخدم لتوفير مصفوفة تحويل العالم.
+يضبط نسخة [getNode](../../com.aspose.threed/renderer\#getNode) المستخدمة لتوفير مصفوفة التحويل العالمي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setPresetShaders(PresetShaders value) {#setPresetShaders-com.aspose.threed.PresetShaders-}
 ```
@@ -407,7 +407,7 @@ public void setPresetShaders(PresetShaders value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PresetShaders](../../com.aspose.threed/presetshaders) | القيمة الجديدة |
+| value | [PresetShaders](../../com.aspose.threed/presetshaders) | قيمة جديدة |
 
 ### setShader(ShaderProgram value) {#setShader-com.aspose.threed.ShaderProgram-}
 ```
@@ -415,12 +415,12 @@ public void setShader(ShaderProgram value)
 ```
 
 
-يضبط مثيل المظلل المستخدم لعرض الهندسة.
+يضبط نسخة المظلل المستخدمة لعرض الهندسة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | القيمة الجديدة |
+| value | [ShaderProgram](../../com.aspose.threed/shaderprogram) | قيمة جديدة |
 
 ### setShaderSet(ShaderSet value) {#setShaderSet-com.aspose.threed.ShaderSet-}
 ```
@@ -433,7 +433,7 @@ public void setShaderSet(ShaderSet value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ShaderSet](../../com.aspose.threed/shaderset) | القيمة الجديدة |
+| value | [ShaderSet](../../com.aspose.threed/shaderset) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

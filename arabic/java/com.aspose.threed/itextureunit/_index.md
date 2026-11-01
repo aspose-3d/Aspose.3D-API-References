@@ -1,7 +1,7 @@
 ---
 title: "ITextureUnit"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يمثل نسيجًا في الذاكرة يتم مشاركته بين الـ GPU والـ CPU ويمكن للـ shader أن ي sampled حيث أن الـ only يمثل إشارة إلى ملف خارجي."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يمثل نسيجًا في الذاكرة يتم مشاركته بين GPU و CPU ويمكن أخذ عينات منه بواسطة الـ shader حيث أن الـ  فقط يمثل مرجعًا إلى ملف خارجي."
 type: docs
 weight: 258
 url: /ar/java/com.aspose.threed/itextureunit/
@@ -26,18 +26,18 @@ public interface ITextureUnit extends Closeable
 | [getScale()](#getScale--) | يحصل على مقياس إحداثيات UV. |
 | [getScroll()](#getScroll--) | يحصل على تمرير إحداثيات UV. |
 | [getType()](#getType--) | يحصل على نوع وحدة النسيج هذه. |
-| [getUWrap()](#getUWrap--) | يحصل على وضع الالتفاف لإحداثية U للنسيج. |
-| [getVWrap()](#getVWrap--) | يحصل على وضع الالتفاف لإحداثية V للنسيج. |
-| [getWWrap()](#getWWrap--) | يحصل على وضع الالتفاف لإحداثية W للنسيج. |
+| [getUWrap()](#getUWrap--) | يحصل على وضع الالتفاف لإحداثية U للنسج. |
+| [getVWrap()](#getVWrap--) | يحصل على وضع الالتفاف لإحداثية V للنسج. |
+| [getWWrap()](#getWWrap--) | يحصل على وضع الالتفاف لإحداثية W للنسج. |
 | [getWidth()](#getWidth--) | يحصل على عرض هذا النسيج. |
 | [setMagnification(TextureFilter value)](#setMagnification-com.aspose.threed.TextureFilter-) | يضبط وضع الفلتر للتكبير. |
 | [setMinification(TextureFilter value)](#setMinification-com.aspose.threed.TextureFilter-) | يضبط وضع الفلتر للتصغير. |
 | [setMipmap(TextureFilter value)](#setMipmap-com.aspose.threed.TextureFilter-) | يضبط وضع الفلتر للـ mipmap. |
 | [setScale(Vector2 value)](#setScale-com.aspose.threed.Vector2-) | يضبط مقياس إحداثيات UV. |
 | [setScroll(Vector2 value)](#setScroll-com.aspose.threed.Vector2-) | يضبط تمرير إحداثيات UV. |
-| [setUWrap(WrapMode value)](#setUWrap-com.aspose.threed.WrapMode-) | يضبط وضع الالتفاف لإحداثية U للنسيج. |
-| [setVWrap(WrapMode value)](#setVWrap-com.aspose.threed.WrapMode-) | يضبط وضع الالتفاف لإحداثية V للنسيج. |
-| [setWWrap(WrapMode value)](#setWWrap-com.aspose.threed.WrapMode-) | يضبط وضع الالتفاف لإحداثية W للنسيج. |
+| [setUWrap(WrapMode value)](#setUWrap-com.aspose.threed.WrapMode-) | يضبط وضع الالتفاف لإحداثية U للنسج. |
+| [setVWrap(WrapMode value)](#setVWrap-com.aspose.threed.WrapMode-) | يضبط وضع الالتفاف لإحداثية V للنسج. |
+| [setWWrap(WrapMode value)](#setWWrap-com.aspose.threed.WrapMode-) | يضبط وضع الالتفاف لإحداثية W للنسج. |
 ### getDepth() {#getDepth--}
 ```
 public abstract int getDepth()
@@ -124,7 +124,7 @@ public abstract WrapMode getUWrap()
 ```
 
 
-يحصل على وضع الالتفاف لإحداثية U للنسيج.
+يحصل على وضع الالتفاف لإحداثية U للنسج.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's U coordinate.
@@ -134,7 +134,7 @@ public abstract WrapMode getVWrap()
 ```
 
 
-يحصل على وضع الالتفاف لإحداثية V للنسيج.
+يحصل على وضع الالتفاف لإحداثية V للنسج.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's V coordinate.
@@ -144,7 +144,7 @@ public abstract WrapMode getWWrap()
 ```
 
 
-يحصل على وضع الالتفاف لإحداثية W للنسيج.
+يحصل على وضع الالتفاف لإحداثية W للنسج.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's W coordinate.
@@ -169,7 +169,7 @@ public abstract void setMagnification(TextureFilter value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureFilter](../../com.aspose.threed/texturefilter) | القيمة الجديدة |
+| value | [TextureFilter](../../com.aspose.threed/texturefilter) | قيمة جديدة |
 
 ### setMinification(TextureFilter value) {#setMinification-com.aspose.threed.TextureFilter-}
 ```
@@ -182,7 +182,7 @@ public abstract void setMinification(TextureFilter value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureFilter](../../com.aspose.threed/texturefilter) | القيمة الجديدة |
+| value | [TextureFilter](../../com.aspose.threed/texturefilter) | قيمة جديدة |
 
 ### setMipmap(TextureFilter value) {#setMipmap-com.aspose.threed.TextureFilter-}
 ```
@@ -195,7 +195,7 @@ public abstract void setMipmap(TextureFilter value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureFilter](../../com.aspose.threed/texturefilter) | القيمة الجديدة |
+| value | [TextureFilter](../../com.aspose.threed/texturefilter) | قيمة جديدة |
 
 ### setScale(Vector2 value) {#setScale-com.aspose.threed.Vector2-}
 ```
@@ -208,7 +208,7 @@ public abstract void setScale(Vector2 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 
 ### setScroll(Vector2 value) {#setScroll-com.aspose.threed.Vector2-}
 ```
@@ -221,7 +221,7 @@ public abstract void setScroll(Vector2 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector2](../../com.aspose.threed/vector2) | القيمة الجديدة |
+| value | [Vector2](../../com.aspose.threed/vector2) | قيمة جديدة |
 
 ### setUWrap(WrapMode value) {#setUWrap-com.aspose.threed.WrapMode-}
 ```
@@ -229,12 +229,12 @@ public abstract void setUWrap(WrapMode value)
 ```
 
 
-يضبط وضع الالتفاف لإحداثية U للنسيج.
+يضبط وضع الالتفاف لإحداثية U للنسج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [WrapMode](../../com.aspose.threed/wrapmode) | القيمة الجديدة |
+| value | [WrapMode](../../com.aspose.threed/wrapmode) | قيمة جديدة |
 
 ### setVWrap(WrapMode value) {#setVWrap-com.aspose.threed.WrapMode-}
 ```
@@ -242,12 +242,12 @@ public abstract void setVWrap(WrapMode value)
 ```
 
 
-يضبط وضع الالتفاف لإحداثية V للنسيج.
+يضبط وضع الالتفاف لإحداثية V للنسج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [WrapMode](../../com.aspose.threed/wrapmode) | القيمة الجديدة |
+| value | [WrapMode](../../com.aspose.threed/wrapmode) | قيمة جديدة |
 
 ### setWWrap(WrapMode value) {#setWWrap-com.aspose.threed.WrapMode-}
 ```
@@ -255,10 +255,10 @@ public abstract void setWWrap(WrapMode value)
 ```
 
 
-يضبط وضع الالتفاف لإحداثية W للنسيج.
+يضبط وضع الالتفاف لإحداثية W للنسج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [WrapMode](../../com.aspose.threed/wrapmode) | القيمة الجديدة |
+| value | [WrapMode](../../com.aspose.threed/wrapmode) | قيمة جديدة |
 

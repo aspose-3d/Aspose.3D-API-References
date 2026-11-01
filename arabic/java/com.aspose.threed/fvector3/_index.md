@@ -1,6 +1,6 @@
 ---
 title: "FVector3"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "متجه float مكوّن من ثلاثة عناصر."
 type: docs
 weight: 60
@@ -21,9 +21,9 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 
 | منشئ | الوصف |
 | --- | --- |
-| [FVector3(float x, float y, float z)](#FVector3-float-float-float-) | ينشئ نسخة جديدة من [FVector3](../../com.aspose.threed/fvector3). |
-| [FVector3(Vector3 vec)](#FVector3-com.aspose.threed.Vector3-) | ينشئ نسخة جديدة من [FVector3](../../com.aspose.threed/fvector3). |
-| [FVector3(Vector4 vec)](#FVector3-com.aspose.threed.Vector4-) | ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4). |
+| [FVector3(float x, float y, float z)](#FVector3-float-float-float-) | ينشئ مثلاً جديدًا من [FVector3](../../com.aspose.threed/fvector3). |
+| [FVector3(Vector3 vec)](#FVector3-com.aspose.threed.Vector3-) | ينشئ مثلاً جديدًا من [FVector3](../../com.aspose.threed/fvector3). |
+| [FVector3(Vector4 vec)](#FVector3-com.aspose.threed.Vector4-) | يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4). |
 | [FVector3()](#FVector3--) |  |
 ## الحقول
 
@@ -36,7 +36,7 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(FVector3 a, FVector3 b)](#add-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \+ تحميل المشغل |
+| [add(FVector3 a, FVector3 b)](#add-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \+ التحميل الزائد للمشغل |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector3 src)](#copyFrom-com.aspose.threed.FVector3-) |  |
 | [create(FVector3 v)](#create-com.aspose.threed.FVector3-) | عامل تحويل صريح لتحويل FVector3 إلى Vector3 |
@@ -46,12 +46,12 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 | [getOne()](#getOne--) | متجه مقياس الوحدة حيث جميع المكونات تساوي 1 |
 | [getZero()](#getZero--) | متجه الصفر. |
 | [hashCode()](#hashCode--) |  |
-| [mul(FVector3 a, float b)](#mul-com.aspose.threed.FVector3-float-) | \* تحميل المشغل |
-| [negative(FVector3 a)](#negative-com.aspose.threed.FVector3-) | \- تحميل المشغل |
-| [normalize()](#normalize--) | يقوم بتطبيع هذه الحالة. |
+| [mul(FVector3 a, float b)](#mul-com.aspose.threed.FVector3-float-) | \* إعادة تحميل المشغل |
+| [negative(FVector3 a)](#negative-com.aspose.threed.FVector3-) | \- التحميل الزائد للمشغل |
+| [normalize()](#normalize--) | يقوم بتطبيع هذا الكائن. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [sub(FVector3 a, FVector3 b)](#sub-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \- تحميل المشغل |
+| [sub(FVector3 a, FVector3 b)](#sub-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \- التحميل الزائد للمشغل |
 | [toString()](#toString--) | يرجع سلسلة تمثل [FVector3](../../com.aspose.threed/fvector3) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public FVector3(float x, float y, float z)
 ```
 
 
-ينشئ نسخة جديدة من [FVector3](../../com.aspose.threed/fvector3).
+ينشئ مثلاً جديدًا من [FVector3](../../com.aspose.threed/fvector3).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -77,7 +77,7 @@ public FVector3(Vector3 vec)
 ```
 
 
-ينشئ نسخة جديدة من [FVector3](../../com.aspose.threed/fvector3).
+ينشئ مثلاً جديدًا من [FVector3](../../com.aspose.threed/fvector3).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -90,7 +90,7 @@ public FVector3(Vector4 vec)
 ```
 
 
-ينشئ مثيلًا جديدًا من [FVector4](../../com.aspose.threed/fvector4).
+يُنشئ مثيلاً جديداً من [FVector4](../../com.aspose.threed/fvector4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -133,7 +133,7 @@ public static FVector3 add(FVector3 a, FVector3 b)
 ```
 
 
-\+ تحميل المشغل
+\+ التحميل الزائد للمشغل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -149,7 +149,7 @@ public FVector3 clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3)
@@ -192,7 +192,7 @@ public FVector3 cross(FVector3 rhs)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rhs | [FVector3](../../com.aspose.threed/fvector3) | قيمة الطرف الأيمن. |
+| rhs | [FVector3](../../com.aspose.threed/fvector3) | قيمة الجانب الأيمن. |
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Cross product of two [FVector3](../../com.aspose.threed/fvector3)s.
@@ -257,7 +257,7 @@ public static FVector3 mul(FVector3 a, float b)
 ```
 
 
-\* تحميل المشغل
+\* إعادة تحميل المشغل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -273,7 +273,7 @@ public static FVector3 negative(FVector3 a)
 ```
 
 
-\- تحميل المشغل
+\- التحميل الزائد للمشغل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -288,7 +288,7 @@ public FVector3 normalize()
 ```
 
 
-يقوم بتطبيع هذه الحالة.
+يقوم بتطبيع هذا الكائن.
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Normalized vector.
@@ -314,7 +314,7 @@ public static FVector3 sub(FVector3 a, FVector3 b)
 ```
 
 
-\- تحميل المشغل
+\- التحميل الزائد للمشغل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -333,7 +333,7 @@ public String toString()
 يرجع سلسلة تمثل [FVector3](../../com.aspose.threed/fvector3)
 
 **Returns:**
-java.lang.String - تمثيل النص لهذا المتجه.
+java.lang.String - تمثيل نصي لهذا المتجه.
 ### wait() {#wait--}
 ```
 public final void wait()

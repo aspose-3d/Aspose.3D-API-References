@@ -1,6 +1,6 @@
 ---
 title: "MathUtils"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "مجموعة من الأدوات الرياضية المفيدة."
 type: docs
 weight: 99
@@ -19,7 +19,7 @@ public class MathUtils
 | طريقة | الوصف |
 | --- | --- |
 | [calcNormal(Vector3[] points)](#calcNormal-com.aspose.threed.Vector3---) |  |
-| [clamp(double val, double min, double max)](#clamp-double-double-double-) | تقييد القيمة إلى النطاق [min, max] |
+| [clamp(double val, double min, double max)](#clamp-double-double-double-) | قيد القيمة إلى النطاق [min, max] |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findIntersection(Vector2 p0, Vector2 d0, Vector2 p1, Vector2 d1, Vector2[] results)](#findIntersection-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2---) |  |
 | [getClass()](#getClass--) |  |
@@ -29,9 +29,9 @@ public class MathUtils
 | [pointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vector2 p2)](#pointInsideTriangle-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | تحقق مما إذا كانت النقطة p داخل المثلث (p0, p1, p2) |
 | [rayIntersect(Vector2 origin, Vector2 dir, Vector2 a, Vector2 b)](#rayIntersect-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | تحقق مما إذا كان الشعاع (origin, dir) يتقاطع مع قطعة الخط (start, end) |
 | [toDegree(Vector3 radian)](#toDegree-com.aspose.threed.Vector3-) | تحويل [Vector3](../../com.aspose.threed/vector3) من الراديان إلى الدرجة. |
-| [toDegree(double radian)](#toDegree-double-) | تحويل عدد من الراديان إلى الدرجات |
-| [toDegree(double x, double y, double z)](#toDegree-double-double-double-) | تحويل عدد من الراديان إلى الدرجات |
-| [toDegree(float radian)](#toDegree-float-) | تحويل عدد من الراديان إلى الدرجات |
+| [toDegree(double radian)](#toDegree-double-) | تحويل رقم من الراديان إلى الدرجة |
+| [toDegree(double x, double y, double z)](#toDegree-double-double-double-) | تحويل رقم من الراديان إلى الدرجة |
+| [toDegree(float radian)](#toDegree-float-) | تحويل رقم من الراديان إلى الدرجة |
 | [toRadian(Vector3 degree)](#toRadian-com.aspose.threed.Vector3-) | تحويل [Vector3](../../com.aspose.threed/vector3) من الدرجة إلى الراديان |
 | [toRadian(double degree)](#toRadian-double-) | تحويل عدد من الدرجة إلى الراديان |
 | [toRadian(double x, double y, double z)](#toRadian-double-double-double-) | تحويل متجه من الدرجة إلى الراديان |
@@ -61,7 +61,7 @@ public static double clamp(double val, double min, double max)
 ```
 
 
-تقييد القيمة إلى النطاق [min, max]
+قيد القيمة إلى النطاق [min, max]
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -71,7 +71,7 @@ public static double clamp(double val, double min, double max)
 | max | double | القيمة القصوى. |
 
 **Returns:**
-double - القيمة بين [min, max] **Example:**
+double - القيمة بين [min, max] **مثال:**
 
 ```
 double val = 195;
@@ -212,7 +212,7 @@ public static double toDegree(double radian)
 ```
 
 
-تحويل عدد من الراديان إلى الدرجات
+تحويل رقم من الراديان إلى الدرجة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -220,7 +220,7 @@ public static double toDegree(double radian)
 | راديان | double | قيمة الراديان. |
 
 **Returns:**
-double - قيمة الدرجة. **Example:**
+double - قيمة الدرجة. **مثال:**
 
 ```
 var deg = MathUtils.toDegree(0.3);
@@ -232,14 +232,14 @@ public static Vector3 toDegree(double x, double y, double z)
 ```
 
 
-تحويل عدد من الراديان إلى الدرجات
+تحويل رقم من الراديان إلى الدرجة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | double | المكوّن x بقيمة الراديان. |
-| y | double | المكوّن y بقيمة الراديان. |
-| z | double | المكوّن z بقيمة الراديان. |
+| x | double | المكوّن x في قيمة الراديان. |
+| y | double | المكوّن y في قيمة الراديان. |
+| z | double | المكوّن z في قيمة الراديان. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The degree value.
@@ -249,7 +249,7 @@ public static float toDegree(float radian)
 ```
 
 
-تحويل عدد من الراديان إلى الدرجات
+تحويل رقم من الراديان إلى الدرجة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -257,7 +257,7 @@ public static float toDegree(float radian)
 | راديان | float | قيمة الراديان. |
 
 **Returns:**
-float - قيمة الدرجة. **Example:**
+float - قيمة الدرجة. **مثال:**
 
 ```
 var deg = MathUtils.toDegree(0.3f);
@@ -297,7 +297,7 @@ public static double toRadian(double degree)
 | درجة | double | قيمة الدرجة. |
 
 **Returns:**
-double - قيمة الراديان. **Example:**
+double - قيمة الراديان. **مثال:**
 
 ```
 var rad = MathUtils.toRadian(0.3);
@@ -314,9 +314,9 @@ public static Vector3 toRadian(double x, double y, double z)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | double | المكوّن x بقيمة الدرجة. |
-| y | double | المكوّن y بقيمة الدرجة. |
-| z | double | المكوّن z بقيمة الدرجة. |
+| x | double | المكوّن x في قيمة الدرجة. |
+| y | double | المكوّن y في قيمة الدرجة. |
+| z | double | المكوّن z في قيمة الدرجة. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The radian value.
@@ -334,7 +334,7 @@ public static float toRadian(float degree)
 | درجة | float | قيمة الدرجة. |
 
 **Returns:**
-float - قيمة الراديان. **Example:**
+float - قيمة الراديان. **مثال:**
 
 ```
 var rad = MathUtils.toRadian(0.3);

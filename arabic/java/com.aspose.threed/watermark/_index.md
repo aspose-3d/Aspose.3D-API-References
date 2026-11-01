@@ -1,6 +1,6 @@
 ---
 title: "Watermark"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أداة لتشفير/فك تشفير العلامة المائية العمياء إلى/من شبكة."
 type: docs
 weight: 230
@@ -13,7 +13,7 @@ java.lang.Object
 public class Watermark
 ```
 
-أداة لتشفير/فك تشفير العلامة المائية العمياء إلى/من شبكة. **ملاحظات:** كلا [Watermark](../../com.aspose.threed/watermark) و [Watermark](../../com.aspose.threed/watermark) سيجريان فحص الترخيص. استخدام النسخة التجريبية سيؤدي إلى استثناء، يمكنك استخدام [TrialException.getSuppressTrialException](../../com.aspose.threed/trialexception\#getSuppressTrialException) لكتم الاستثناء، لكنه لن يرفع القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود. **مثال:** الكود التالي يوضح كيفية تشفير علامة مائية عمياء في شبكة وفك تشفيرها.
+أداة لتشفير/فك تشفير العلامة المائية العمياء إلى/من شبكة. **ملاحظات:** كلا [Watermark](../../com.aspose.threed/watermark) و [Watermark](../../com.aspose.threed/watermark) سيجريان فحص الترخيص. استخدام النسخة التجريبية سيؤدي إلى استثناء، يمكنك استخدام [TrialException.getSuppressTrialException](../../com.aspose.threed/trialexception\#getSuppressTrialException) لكتم الاستثناء، لكن ذلك لن يرفع القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود. **مثال:** الكود التالي يوضح كيفية تشفير علامة مائية عمياء في شبكة وفك تشفيرها.
 
 ```
 Mesh mesh = (new Cylinder()).toMesh();
@@ -26,9 +26,9 @@ Mesh mesh = (new Cylinder()).toMesh();
 | --- | --- |
 | [decodeWatermark(Mesh input)](#decodeWatermark-com.aspose.threed.Mesh-) | فك تشفير العلامة المائية من شبكة |
 | [decodeWatermark(Mesh input, String password)](#decodeWatermark-com.aspose.threed.Mesh-java.lang.String-) | فك تشفير العلامة المائية من شبكة |
-| [encodeWatermark(Mesh input, String text)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-) | تشفير نص في العلامة المائية العمياء للشبكة. |
-| [encodeWatermark(Mesh input, String text, String password)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-java.lang.String-) | تشفير نص في العلامة المائية العمياء للشبكة. |
-| [encodeWatermark(Mesh input, String text, String password, boolean permanent)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-java.lang.String-boolean-) | تشفير نص في العلامة المائية العمياء للشبكة. |
+| [encodeWatermark(Mesh input, String text)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-) | تشفير نص في علامة مائية عمياء للشبكة. |
+| [encodeWatermark(Mesh input, String text, String password)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-java.lang.String-) | تشفير نص في علامة مائية عمياء للشبكة. |
+| [encodeWatermark(Mesh input, String text, String password, boolean permanent)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-java.lang.String-boolean-) | تشفير نص في علامة مائية عمياء للشبكة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static String decodeWatermark(Mesh input)
 | input | [Mesh](../../com.aspose.threed/mesh) | الشبكة لاستخراج العلامة المائية |
 
 **Returns:**
-java.lang.String - العلامة المائية العمياء أو null إذا لم يتم فك تشفير أي علامة مائية.
+java.lang.String - علامة مائية عمياء أو null إذا لم يتم فك تشفير أي علامة مائية.
 ### decodeWatermark(Mesh input, String password) {#decodeWatermark-com.aspose.threed.Mesh-java.lang.String-}
 ```
 public static String decodeWatermark(Mesh input, String password)
@@ -68,20 +68,20 @@ public static String decodeWatermark(Mesh input, String password)
 | كلمة المرور | java.lang.String | كلمة المرور لفك تشفير العلامة المائية |
 
 **Returns:**
-java.lang.String - العلامة المائية العمياء أو null إذا لم يتم فك تشفير أي علامة مائية.
+java.lang.String - علامة مائية عمياء أو null إذا لم يتم فك تشفير أي علامة مائية.
 ### encodeWatermark(Mesh input, String text) {#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-}
 ```
 public static Mesh encodeWatermark(Mesh input, String text)
 ```
 
 
-تشفير نص في العلامة المائية العمياء للشبكة.
+تشفير نص في علامة مائية عمياء للشبكة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | input | [Mesh](../../com.aspose.threed/mesh) | شبكة لتشفير علامة مائية عمياء |
-| نص | java.lang.String | النص لتشفيره إلى الشبكة |
+| نص | java.lang.String | نص لتشفيره إلى الشبكة |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - A new mesh instance with blind watermark encoded **Remarks:** Both [Watermark](../../com.aspose.threed/watermark) and [Watermark](../../com.aspose.threed/watermark) will perform license check Trial usage will throw exception, you can use [TrialException.getSuppressTrialException](../../com.aspose.threed/trialexception\#getSuppressTrialException) to suppress the exception, but it will not lift the restriction here. A valid license is required to use these features without any restrictions. **Example:** The following code shows how to encode a blind watermark into a mesh and save to ply file
@@ -97,13 +97,13 @@ public static Mesh encodeWatermark(Mesh input, String text, String password)
 ```
 
 
-تشفير نص في العلامة المائية العمياء للشبكة.
+تشفير نص في علامة مائية عمياء للشبكة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | input | [Mesh](../../com.aspose.threed/mesh) | شبكة لتشفير علامة مائية عمياء |
-| نص | java.lang.String | النص لتشفيره إلى الشبكة |
+| نص | java.lang.String | نص لتشفيره إلى الشبكة |
 | كلمة المرور | java.lang.String | كلمة المرور لحماية العلامة المائية، وهي اختيارية |
 
 **Returns:**
@@ -120,13 +120,13 @@ public static Mesh encodeWatermark(Mesh input, String text, String password, boo
 ```
 
 
-تشفير نص في العلامة المائية العمياء للشبكة.
+تشفير نص في علامة مائية عمياء للشبكة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | input | [Mesh](../../com.aspose.threed/mesh) | شبكة لتشفير علامة مائية عمياء |
-| نص | java.lang.String | النص لتشفيره إلى الشبكة |
+| نص | java.lang.String | نص لتشفيره إلى الشبكة |
 | كلمة المرور | java.lang.String | كلمة المرور لحماية العلامة المائية، وهي اختيارية |
 | دائم | boolean | العلامة المائية الدائمة لن يتم استبدالها أو إزالتها. |
 

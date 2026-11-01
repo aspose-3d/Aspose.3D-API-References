@@ -1,7 +1,7 @@
 ---
 title: "PolygonMode"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "وضعية تمثيل المضلعات."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "وضع تمثيل المضلعات"
 type: docs
 weight: 292
 url: /ar/java/com.aspose.threed/polygonmode/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum PolygonMode extends Enum<PolygonMode>
 ```
 
-وضعية تمثيل المضلعات.
+وضع تمثيل المضلعات
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [FILL](#FILL) | الجزء الداخلي من المضلع مملوء. |
-| [LINE](#LINE) | حدود أضلاع المضلع تُرسم كقطاعات خطية. |
+| [FILL](#FILL) | يتم ملء داخل المضلع. |
+| [LINE](#LINE) | يتم رسم حواف المضلع كقطاعات خطية. |
 | [POINT](#POINT) | نقاط التحكم في المضلع تُرسم كنقاط. |
 ## الطرق
 
@@ -48,7 +48,7 @@ public static final PolygonMode FILL
 ```
 
 
-الجزء الداخلي من المضلع مملوء.
+يتم ملء داخل المضلع.
 
 ### LINE {#LINE}
 ```
@@ -56,7 +56,7 @@ public static final PolygonMode LINE
 ```
 
 
-حدود أضلاع المضلع تُرسم كقطاعات خطية.
+يتم رسم حواف المضلع كقطاعات خطية.
 
 ### POINT {#POINT}
 ```

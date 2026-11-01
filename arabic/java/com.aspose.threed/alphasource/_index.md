@@ -1,6 +1,6 @@
 ---
 title: "AlphaSource"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "يحدد ما إذا كان الملمس يحتوي على قناة ألفا."
 type: docs
 weight: 263
@@ -20,7 +20,7 @@ public enum AlphaSource extends Enum<AlphaSource>
 | --- | --- |
 | [FIXED_VALUE](#FIXED-VALUE) | الـ Alpha هو قيمة ثابتة يتم تعريفها بواسطة [TextureBase.getAlpha](../../com.aspose.threed/texturebase\#getAlpha) |
 | [NONE](#NONE) | لم يتم تعريف أي Alpha في القوام |
-| [PIXEL_ALPHA](#PIXEL-ALPHA) | يتم تعريف الألفا بواسطة قناة ألفا للبكسل |
+| [PIXEL_ALPHA](#PIXEL-ALPHA) | يتم تعريف الألفا بواسطة قناة الألفا للبكسل |
 ## الطرق
 
 | طريقة | الوصف |
@@ -64,7 +64,7 @@ public static final AlphaSource PIXEL_ALPHA
 ```
 
 
-يتم تعريف الألفا بواسطة قناة ألفا للبكسل
+يتم تعريف الألفا بواسطة قناة الألفا للبكسل
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

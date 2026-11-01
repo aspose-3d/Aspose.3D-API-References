@@ -1,7 +1,7 @@
 ---
 title: "BonePose"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الـ يحتوي على مصفوفة التحويل لعقدة عظم"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "تحتوي على مصفوفة التحويل لعقدة عظم"
 type: docs
 weight: 21
 url: /ar/java/com.aspose.threed/bonepose/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BonePose
 ```
 
-الـ [BonePose](../../com.aspose.threed/bonepose) يحتوي على مصفوفة التحويل لعقدة عظم
+تحتوي [BonePose](../../com.aspose.threed/bonepose) على مصفوفة التحويل لعقدة عظم
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,14 +26,14 @@ public class BonePose
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getMatrix()](#getMatrix--) | يحصل على مصفوفة التحويل للعقدة في الوضع الحالي. |
-| [getNode()](#getNode--) | يحصل على عقدة المشهد، التي تشير إلى عقدة هيكلية مكسوة |
+| [getNode()](#getNode--) | يحصل على عقدة المشهد، تشير إلى عقدة هيكلية مكسوة. |
 | [hashCode()](#hashCode--) |  |
-| [isLocal()](#isLocal--) | يحصل على ما إذا كانت المصفوفة معرفة في الإحداثيات المحلية. |
+| [isLocal()](#isLocal--) | يسترجع ما إذا كانت المصفوفة معرفة في الإحداثيات المحلية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setLocal(boolean value)](#setLocal-boolean-) | يضبط ما إذا كانت المصفوفة معرفة في الإحداثيات المحلية. |
 | [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | يضبط مصفوفة التحويل للعقدة في الوضع الحالي. |
-| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | يضبط عقدة المشهد، التي تشير إلى عقدة هيكلية مكسوة |
+| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | يضبط عقدة المشهد، تشير إلى عقدة هيكلية مكسوة. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -85,7 +85,7 @@ public Node getNode()
 ```
 
 
-يحصل على عقدة المشهد، التي تشير إلى عقدة هيكلية مكسوة
+يحصل على عقدة المشهد، تشير إلى عقدة هيكلية مكسوة.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the scene node, points to a skinned skeleton node
@@ -105,7 +105,7 @@ public boolean isLocal()
 ```
 
 
-يحصل على ما إذا كانت المصفوفة معرفة في الإحداثيات المحلية.
+يسترجع ما إذا كانت المصفوفة معرفة في الإحداثيات المحلية.
 
 **Returns:**
 boolean - إذا كانت المصفوفة معرفة في الإحداثيات المحلية.
@@ -136,7 +136,7 @@ public void setLocal(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setMatrix(Matrix4 value) {#setMatrix-com.aspose.threed.Matrix4-}
 ```
@@ -149,7 +149,7 @@ public void setMatrix(Matrix4 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Matrix4](../../com.aspose.threed/matrix4) | القيمة الجديدة |
+| value | [Matrix4](../../com.aspose.threed/matrix4) | قيمة جديدة |
 
 ### setNode(Node value) {#setNode-com.aspose.threed.Node-}
 ```
@@ -157,12 +157,12 @@ public void setNode(Node value)
 ```
 
 
-يضبط عقدة المشهد، التي تشير إلى عقدة هيكلية مكسوة
+يضبط عقدة المشهد، تشير إلى عقدة هيكلية مكسوة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

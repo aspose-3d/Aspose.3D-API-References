@@ -1,6 +1,6 @@
 ---
 title: "مقاس"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "يوفر طرقًا لتعيين المفتاح المقاس."
 type: docs
 weight: 103
@@ -18,7 +18,7 @@ public class Metered
 
 | منشئ | الوصف |
 | --- | --- |
-| [Metered()](#Metered--) | يقوم بتهيئة نسخة جديدة من هذه الفئة. |
+| [Metered()](#Metered--) | ينشئ نسخة جديدة من هذه الفئة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public class Metered
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | يضبط المفتاح العام والخاص المقيس. |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | يضبط المفتاح العام والخاص المقاس. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,7 +41,7 @@ public Metered()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من هذه الفئة.
+ينشئ نسخة جديدة من هذه الفئة.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -120,7 +120,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-يضبط المفتاح العام والخاص المقاس. إذا قمت بشراء ترخيص مقاس، عند بدء التطبيق يجب استدعاء هذه الـAPI، عادةً يكون ذلك كافياً. ومع ذلك، إذا فشل دائمًا تحميل بيانات الاستهلاك وتجاوز 24 ساعة، سيتم تعيين الترخيص إلى حالة التقييم؛ لتجنب هذه الحالة، يجب عليك فحص حالة الترخيص بانتظام، إذا كانت في حالة التقييم، استدعِ هذه الـAPI مرة أخرى.
+يضبط المفتاح العام والخاص المقاس. إذا قمت بشراء رخصة مقاسة، عند بدء التطبيق، يجب استدعاء هذه الـ API، عادةً يكون ذلك كافياً. ومع ذلك، إذا فشل دائمًا تحميل بيانات الاستهلاك وتجاوز 24 ساعة، سيتم ضبط الرخصة إلى حالة التقييم، لتجنب هذه الحالة، يجب عليك فحص حالة الرخصة بانتظام، إذا كانت في حالة التقييم، استدعِ هذه الـ API مرة أخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |

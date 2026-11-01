@@ -1,6 +1,6 @@
 ---
 title: "PoseType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "نوع الوضعية."
 type: docs
 weight: 293

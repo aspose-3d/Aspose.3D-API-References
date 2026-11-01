@@ -1,7 +1,7 @@
 ---
 title: "ShaderException"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "استثناءات متعلقة بالمُظلل."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "استثناءات متعلقة بالمُظلِل"
 type: docs
 weight: 163
 url: /ar/java/com.aspose.threed/shaderexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 public class ShaderException extends Exception
 ```
 
-استثناءات متعلقة بالمُظلل.
+استثناءات متعلقة بالمُظلِل
 ## المنشئات
 
 | منشئ | الوصف |
@@ -55,7 +55,7 @@ public ShaderException(String message)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| message | java.lang.String |  |
+| الرسالة | java.lang.String |  |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

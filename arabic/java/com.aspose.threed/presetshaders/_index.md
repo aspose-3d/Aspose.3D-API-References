@@ -1,7 +1,7 @@
 ---
 title: "PresetShaders"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "هذا يحدد المظلات الداخلية المسبقة المستخدمة من قبل المُعالج."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "هذا يحدد المعالجات الظلية الداخلية المُعدة مسبقًا المستخدمة من قبل المُعالج."
 type: docs
 weight: 294
 url: /ar/java/com.aspose.threed/presetshaders/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum PresetShaders extends Enum<PresetShaders>
 ```
 
-هذا يحدد المظلات الداخلية المسبقة المستخدمة من قبل المُعالج.
+هذا يحدد المعالجات الظلية الداخلية المُعدة مسبقًا المستخدمة من قبل المُعالج.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [CUSTOMIZED](#CUSTOMIZED) | مجموعة التظليل المخصصة للمستخدم |
-| [DEFAULT](#DEFAULT) | استخدم برامج التظليل الافتراضية لمواد فونغ/لامبرت/PBR |
+| [CUSTOMIZED](#CUSTOMIZED) | مجموعة shader المخصصة للمستخدم |
+| [DEFAULT](#DEFAULT) | استخدم الـ shaders الافتراضية لمواد phong/lambert/pbr |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final PresetShaders CUSTOMIZED
 ```
 
 
-مجموعة التظليل المخصصة للمستخدم
+مجموعة shader المخصصة للمستخدم
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -55,7 +55,7 @@ public static final PresetShaders DEFAULT
 ```
 
 
-استخدم برامج التظليل الافتراضية لمواد فونغ/لامبرت/PBR
+استخدم الـ shaders الافتراضية لمواد phong/lambert/pbr
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

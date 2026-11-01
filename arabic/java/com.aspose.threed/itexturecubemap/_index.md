@@ -1,6 +1,6 @@
 ---
 title: "ITextureCubemap"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "ملمس خريطة المكعب"
 type: docs
 weight: 255
@@ -19,12 +19,12 @@ public interface ITextureCubemap extends ITextureUnit
 | طريقة | الوصف |
 | --- | --- |
 | [load(CubeFace face, TextureData data)](#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | حمّل البيانات إلى الوجه المحدد |
-| [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | حمّل محتوى النسيج من [TextureData](../../com.aspose.threed/texturedata) المحدد |
+| [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | حمّل محتوى الملمس من [TextureData](../../com.aspose.threed/texturedata) المحدد |
 | [loadFromFiles(CubeFaceData<String> fileNames)](#loadFromFiles-com.aspose.threed.CubeFaceData-java.lang.String--) | تحميل محتوى الملمس من الملفات المحددة |
-| [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | حفظ الجانب المحدد في الذاكرة |
-| [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | حفظ محتوى الملمس في الذاكرة. |
-| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | حفظ محتوى ملمس جوانب المكعب إلى ملفات خارجية. |
-| [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | تحويل وحدة النسيج إلى كائن [TextureData](../../com.aspose.threed/texturedata) |
+| [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | حفظ الجانب المحدد إلى الذاكرة |
+| [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | حفظ محتوى الملمس إلى الذاكرة. |
+| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | حفظ محتوى الملمس لأوجه المكعب إلى ملفات خارجية. |
+| [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | تحويل وحدة الملمس إلى مثيل [TextureData](../../com.aspose.threed/texturedata) |
 ### load(CubeFace face, TextureData data) {#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-}
 ```
 public abstract void load(CubeFace face, TextureData data)
@@ -45,7 +45,7 @@ public abstract void load(CubeFaceData<TextureData> data)
 ```
 
 
-حمّل محتوى النسيج من [TextureData](../../com.aspose.threed/texturedata) المحدد
+حمّل محتوى الملمس من [TextureData](../../com.aspose.threed/texturedata) المحدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -71,7 +71,7 @@ public abstract void save(CubeFace side, TextureData bitmap)
 ```
 
 
-حفظ الجانب المحدد في الذاكرة
+حفظ الجانب المحدد إلى الذاكرة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -85,7 +85,7 @@ public abstract void save(CubeFaceData<TextureData> bitmap)
 ```
 
 
-حفظ محتوى الملمس في الذاكرة.
+حفظ محتوى الملمس إلى الذاكرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -98,13 +98,13 @@ public abstract void save(CubeFaceData<String> path, String format)
 ```
 
 
-حفظ محتوى ملمس جوانب المكعب إلى ملفات خارجية.
+حفظ محتوى الملمس لأوجه المكعب إلى ملفات خارجية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | المسار | com.aspose.threed.CubeFaceData<java.lang.String> | أسماء الملفات للحفظ. |
-| تنسيق | java.lang.String | تنسيق الصورة |
+| الصيغة | java.lang.String | صيغة الصورة |
 
 ### toBitmap(CubeFace side) {#toBitmap-com.aspose.threed.CubeFace-}
 ```
@@ -112,7 +112,7 @@ public abstract TextureData toBitmap(CubeFace side)
 ```
 
 
-تحويل وحدة النسيج إلى كائن [TextureData](../../com.aspose.threed/texturedata)
+تحويل وحدة الملمس إلى مثيل [TextureData](../../com.aspose.threed/texturedata)
 
 **Parameters:**
 | معامل | نوع | الوصف |

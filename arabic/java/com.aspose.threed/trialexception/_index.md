@@ -1,6 +1,6 @@
 ---
 title: "TrialException"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "يتم رفع هذا في Scene.Open/Scene.Save عندما لا يتم تطبيق أي تراخيص."
 type: docs
 weight: 195
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class TrialException extends RuntimeException
 ```
 
-يتم رفع هذا الاستثناء في Scene.Open/Scene.Save عندما لا يتم تطبيق أي تراخيص. يمكنك إيقاف هذا الاستثناء عن طريق تعيين SuppressTrialException إلى true.
+يتم رفع هذا الاستثناء في Scene.Open/Scene.Save عندما لا يتم تطبيق أي تراخيص. يمكنك إيقاف هذا الاستثناء عن طريق ضبط SuppressTrialException إلى true.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -32,7 +32,7 @@ public class TrialException extends RuntimeException
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
-| [getSuppressTrialException()](#getSuppressTrialException--) | يضبط هذا على true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. |
+| [getSuppressTrialException()](#getSuppressTrialException--) | يضبط هذا إلى true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. |
 | [getSuppressed()](#getSuppressed--) |  |
 | [hashCode()](#hashCode--) |  |
 | [initCause(Throwable arg0)](#initCause-java.lang.Throwable-) |  |
@@ -42,7 +42,7 @@ public class TrialException extends RuntimeException
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [setSuppressTrialException(boolean value)](#setSuppressTrialException-boolean-) | يضبط هذا على true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. |
+| [setSuppressTrialException(boolean value)](#setSuppressTrialException-boolean-) | يضبط هذا إلى true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -162,10 +162,10 @@ public static boolean getSuppressTrialException()
 ```
 
 
-يضبط هذا على true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. لرفع القيود، يرجى استخدام ترخيص صحيح. وضبط هذا على true يعني أيضًا أنك على علم بالقيود غير المرخصة.
+يضبط هذا إلى true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. لرفع القيود، يرجى استخدام ترخيص صالح. وضبط هذا إلى true يعني أيضًا أنك على علم بالقيود غير المرخصة.
 
 **Returns:**
-boolean - يضبط هذا على true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. لرفع القيود، يرجى استخدام ترخيص صحيح. وضبط هذا على true يعني أيضًا أنك على علم بالقيود غير المرخصة.
+boolean - يضبط هذا إلى true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. لرفع القيود، يرجى استخدام ترخيص صالح. وضبط هذا إلى true يعني أيضًا أنك على علم بالقيود غير المرخصة.
 ### getSuppressed() {#getSuppressed--}
 ```
 public final synchronized Throwable[] getSuppressed()
@@ -270,12 +270,12 @@ public static void setSuppressTrialException(boolean value)
 ```
 
 
-يضبط هذا على true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. لرفع القيود، يرجى استخدام ترخيص صحيح. وضبط هذا على true يعني أيضًا أنك على علم بالقيود غير المرخصة.
+يضبط هذا إلى true لكبح استثناء التجربة عند الاستخدام غير المرخص، لكن القيود لن تُرفع. لرفع القيود، يرجى استخدام ترخيص صالح. وضبط هذا إلى true يعني أيضًا أنك على علم بالقيود غير المرخصة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

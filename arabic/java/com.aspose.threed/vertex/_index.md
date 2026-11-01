@@ -1,7 +1,7 @@
 ---
 title: "Vertex"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مرجع الرأس يُستخدم للوصول إلى الرأس الخام في ."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مرجع القمة يُستخدم للوصول إلى القمة الخام في ."
 type: docs
 weight: 205
 url: /ar/java/com.aspose.threed/vertex/
@@ -16,7 +16,7 @@ java.lang.Comparable
 public abstract class Vertex implements Comparable<Vertex>
 ```
 
-مرجع الرأس، يُستخدم للوصول إلى الرأس الخام في [TriMesh](../../com.aspose.threed/trimesh).
+مرجع القمة، يُستخدم للوصول إلى القمة الخام في [TriMesh](../../com.aspose.threed/trimesh).
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,19 +26,19 @@ public abstract class Vertex implements Comparable<Vertex>
 
 | طريقة | الوصف |
 | --- | --- |
-| [compareTo(Vertex other)](#compareTo-com.aspose.threed.Vertex-) | قارن الرأس مع نسخة أخرى من الرأس |
+| [compareTo(Vertex other)](#compareTo-com.aspose.threed.Vertex-) | قارن القمة مع نسخة قمة أخرى |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readDouble(VertexField field)](#readDouble-com.aspose.threed.VertexField-) | قراءة الحقل من النوع double |
-| [readFVector2(VertexField field)](#readFVector2-com.aspose.threed.VertexField-) | قراءة الحقل من النوع vector2 |
-| [readFVector3(VertexField field)](#readFVector3-com.aspose.threed.VertexField-) | قراءة الحقل من النوع vector3 |
+| [readDouble(VertexField field)](#readDouble-com.aspose.threed.VertexField-) | قراءة الحقل من نوع double |
+| [readFVector2(VertexField field)](#readFVector2-com.aspose.threed.VertexField-) | قراءة الحقل من نوع vector2 |
+| [readFVector3(VertexField field)](#readFVector3-com.aspose.threed.VertexField-) | قراءة الحقل من نوع vector3 |
 | [readFVector4(VertexField field)](#readFVector4-com.aspose.threed.VertexField-) | قراءة حقل vector4 |
 | [readFloat(VertexField field)](#readFloat-com.aspose.threed.VertexField-) | قراءة حقل float |
-| [readVector2(VertexField field)](#readVector2-com.aspose.threed.VertexField-) | قراءة الحقل من النوع vector2 |
-| [readVector3(VertexField field)](#readVector3-com.aspose.threed.VertexField-) | قراءة الحقل من النوع vector3 |
+| [readVector2(VertexField field)](#readVector2-com.aspose.threed.VertexField-) | قراءة الحقل من نوع vector2 |
+| [readVector3(VertexField field)](#readVector3-com.aspose.threed.VertexField-) | قراءة الحقل من نوع vector3 |
 | [readVector4(VertexField field)](#readVector4-com.aspose.threed.VertexField-) | قراءة حقل vector4 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -56,7 +56,7 @@ public abstract int compareTo(Vertex other)
 ```
 
 
-قارن الرأس مع نسخة أخرى من الرأس
+قارن القمة مع نسخة قمة أخرى
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -122,12 +122,12 @@ public double readDouble(VertexField field)
 ```
 
 
-قراءة الحقل من النوع double
+قراءة الحقل من نوع double
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل من نوع بيانات متوافق مع float/double |
+| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل بنوع بيانات متوافق مع float/double |
 
 **Returns:**
 double
@@ -137,12 +137,12 @@ public FVector2 readFVector2(VertexField field)
 ```
 
 
-قراءة الحقل من النوع vector2
+قراءة الحقل من نوع vector2
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل من نوع بيانات Vector2/FVector2 |
+| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل بنوع بيانات Vector2/FVector2 |
 
 **Returns:**
 [FVector2](../../com.aspose.threed/fvector2)
@@ -152,12 +152,12 @@ public FVector3 readFVector3(VertexField field)
 ```
 
 
-قراءة الحقل من النوع vector3
+قراءة الحقل من نوع vector3
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل من نوع بيانات Vector3/FVector3 |
+| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل بنوع بيانات Vector3/FVector3 |
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3)
@@ -172,7 +172,7 @@ public FVector4 readFVector4(VertexField field)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل من نوع بيانات Vector4/FVector4 |
+| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل بنوع بيانات Vector4/FVector4 |
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4)
@@ -187,7 +187,7 @@ public float readFloat(VertexField field)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل من نوع بيانات متوافق مع float/double |
+| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل بنوع بيانات متوافق مع float/double |
 
 **Returns:**
 float
@@ -197,12 +197,12 @@ public Vector2 readVector2(VertexField field)
 ```
 
 
-قراءة الحقل من النوع vector2
+قراءة الحقل من نوع vector2
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل من نوع بيانات Vector2/FVector2 |
+| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل بنوع بيانات Vector2/FVector2 |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2)
@@ -212,12 +212,12 @@ public Vector3 readVector3(VertexField field)
 ```
 
 
-قراءة الحقل من النوع vector3
+قراءة الحقل من نوع vector3
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل من نوع بيانات Vector3/FVector3 |
+| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل بنوع بيانات Vector3/FVector3 |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3)
@@ -232,7 +232,7 @@ public Vector4 readVector4(VertexField field)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل من نوع بيانات Vector4/FVector4 |
+| field | [VertexField](../../com.aspose.threed/vertexfield) | الحقل بنوع بيانات Vector4/FVector4 |
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4)

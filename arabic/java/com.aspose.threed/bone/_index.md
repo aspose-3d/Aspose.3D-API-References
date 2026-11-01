@@ -1,6 +1,6 @@
 ---
-title: "العظم"
-second_title: "مرجع API لـ Aspose.3D for Java"
+title: "عظم"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "العظم يحدد مجموعة نقاط التحكم في الهندسة ويحدد وزن الدمج لكل نقطة تحكم."
 type: docs
 weight: 20
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Bone extends A3DObject
 ```
 
-العظم يحدد مجموعة نقاط التحكم في الهندسة، ويحدد وزن الدمج لكل نقطة تحكم. لا يمكن استخدام كائن [Bone](../../com.aspose.threed/bone) مباشرةً، يتم استخدام مثيل [SkinDeformer](../../com.aspose.threed/skindeformer) لتشويه الهندسة، ويأتي [SkinDeformer](../../com.aspose.threed/skindeformer) مع مجموعة من العظام، كل عظم مرتبط بعقدة. ملاحظة: يمكن ربط نقطة تحكم في الهندسة بأكثر من عظمة واحدة.
+العظم يحدد مجموعة نقاط التحكم في الهندسة، ويحدد وزن الدمج لكل نقطة تحكم. لا يمكن استخدام كائن [Bone](../../com.aspose.threed/bone) مباشرةً، يتم استخدام نسخة من [SkinDeformer](../../com.aspose.threed/skindeformer) لتشويه الهندسة، وتأتي [SkinDeformer](../../com.aspose.threed/skindeformer) مع مجموعة من العظام، كل عظم مرتبط بعقدة. ملاحظة: يمكن ربط نقطة تحكم في الهندسة بأكثر من عظم واحد.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -29,22 +29,22 @@ public class Bone extends A3DObject
 | [get(int index)](#get-int-) | يحصل على وزن الدمج لنقطة التحكم المحددة |
 | [getBoneTransform()](#getBoneTransform--) | يحصل على مصفوفة التحويل للعظم. |
 | [getClass()](#getClass--) |  |
-| [getLinkMode()](#getLinkMode--) | وضع ربط العظام يشير إلى الطريقة التي يتم بها ربط العظمة بعظمتها الأصلية ضمن هيكل هرمي. |
+| [getLinkMode()](#getLinkMode--) | تشير وضعية ربط العظام إلى الطريقة التي يتم بها ربط العظمة بعظمها الأصلي داخل هيكل هرمي. |
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getNode()](#getNode--) | يحصل على العقدة. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getTransform()](#getTransform--) | يحصل على مصفوفة التحويل للعقدة التي تحتوي على العظم. |
-| [getWeight(int index)](#getWeight-int-) | يحصل على الوزن لنقطة التحكم المحددة بواسطة الفهرس |
+| [getWeight(int index)](#getWeight-int-) | يحصل على الوزن لنقطة التحكم المحددة بالفهرس |
 | [getWeightCount()](#getWeightCount--) | يحصل على عدد الأوزان، يتم توسيعه تلقائيًا بواسطة [setWeight](../../com.aspose.threed/bone\#setWeight) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [set(int index, double value)](#set-int-double-) | يضبط وزن الدمج لنقطة التحكم المحددة |
 | [setBoneTransform(Matrix4 value)](#setBoneTransform-com.aspose.threed.Matrix4-) | يضبط مصفوفة التحويل للعظم. |
-| [setLinkMode(BoneLinkMode value)](#setLinkMode-com.aspose.threed.BoneLinkMode-) | وضع ربط العظام يشير إلى الطريقة التي يتم بها ربط العظمة بعظمتها الأصلية ضمن هيكل هرمي. |
+| [setLinkMode(BoneLinkMode value)](#setLinkMode-com.aspose.threed.BoneLinkMode-) | تشير وضعية ربط العظام إلى الطريقة التي يتم بها ربط العظمة بعظمها الأصلي داخل هيكل هرمي. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setNode(Node value)](#setNode-com.aspose.threed.Node-) | يضبط العقدة. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
@@ -96,7 +96,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -116,7 +116,7 @@ public double get(int index)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الفهرس | int | فهرس الوزن |
+| المؤشر | int | فهرس الوزن |
 
 **Returns:**
 double - الوزن
@@ -146,7 +146,7 @@ public BoneLinkMode getLinkMode()
 ```
 
 
-وضع ربط العظام يشير إلى الطريقة التي يتم بها ربط العظمة بعظمتها الأصلية ضمن هيكل هرمي.
+تشير وضعية ربط العظام إلى الطريقة التي يتم بها ربط العظمة بعظمها الأصلي داخل هيكل هرمي.
 
 **Returns:**
 [BoneLinkMode](../../com.aspose.threed/bonelinkmode) - A bone's link mode refers to the way in which a bone is connected or linked to its parent bone within a hierarchical structure.
@@ -166,7 +166,7 @@ public Node getNode()
 ```
 
 
-يحصل على العقدة. عقدة العظم هي العظم الذي تُلصق به الجلد، سيستخدم [SkinDeformer](../../com.aspose.threed/skindeformer) عقدة العظم لتؤثر على إزاحة نقاط التحكم. عادةً ما تكون عقدة العظم مرتبطة بـ [Skeleton](../../com.aspose.threed/skeleton)، لكن ذلك ليس مطلوبًا. يُستخدم الـ [Skeleton](../../com.aspose.threed/skeleton) المرفق عادةً بواسطة برامج DCC لعرض الهيكل العظمي للمستخدم.
+يحصل على العقدة. عقدة العظم هي العظم الذي تُلصق به الجلد، سيستخدم [SkinDeformer](../../com.aspose.threed/skindeformer) عقدة العظم لتأثير إزاحة نقاط التحكم. عادةً ما تكون عقدة العظم مرتبطة بـ [Skeleton](../../com.aspose.threed/skeleton)، ولكن ذلك ليس مطلوبًا. يُستخدم الـ [Skeleton](../../com.aspose.threed/skeleton) المرفق عادةً بواسطة برامج DCC لعرض الهيكل العظمي للمستخدم.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the node. The bone node is the bone which skin attached to, the [SkinDeformer](../../com.aspose.threed/skindeformer) will use bone node to influence the displacement of the control points. Bone node usually has a [Skeleton](../../com.aspose.threed/skeleton) attached, but it's not required. Attached [Skeleton](../../com.aspose.threed/skeleton) is usually used by DCC software to show skeleton to user.
@@ -211,12 +211,12 @@ public double getWeight(int index)
 ```
 
 
-يحصل على الوزن لنقطة التحكم المحددة بواسطة الفهرس
+يحصل على الوزن لنقطة التحكم المحددة بالفهرس
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الفهرس | int | فهرس نقطة التحكم |
+| المؤشر | int | فهرس نقطة التحكم |
 
 **Returns:**
 double - الوزن عند الفهرس المحدد، أو 0 إذا كان الفهرس غير صالح
@@ -277,7 +277,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -297,8 +297,8 @@ public void set(int index, double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الفهرس | int | فهرس الوزن |
-| القيمة | double | القيمة الجديدة |
+| المؤشر | int | فهرس الوزن |
+| قيمة | double | قيمة جديدة |
 
 ### setBoneTransform(Matrix4 value) {#setBoneTransform-com.aspose.threed.Matrix4-}
 ```
@@ -311,7 +311,7 @@ public void setBoneTransform(Matrix4 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Matrix4](../../com.aspose.threed/matrix4) | القيمة الجديدة |
+| value | [Matrix4](../../com.aspose.threed/matrix4) | قيمة جديدة |
 
 ### setLinkMode(BoneLinkMode value) {#setLinkMode-com.aspose.threed.BoneLinkMode-}
 ```
@@ -319,12 +319,12 @@ public void setLinkMode(BoneLinkMode value)
 ```
 
 
-وضع ربط العظام يشير إلى الطريقة التي يتم بها ربط العظمة بعظمتها الأصلية ضمن هيكل هرمي.
+تشير وضعية ربط العظام إلى الطريقة التي يتم بها ربط العظمة بعظمها الأصلي داخل هيكل هرمي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [BoneLinkMode](../../com.aspose.threed/bonelinkmode) | القيمة الجديدة |
+| value | [BoneLinkMode](../../com.aspose.threed/bonelinkmode) | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -337,7 +337,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setNode(Node value) {#setNode-com.aspose.threed.Node-}
 ```
@@ -345,12 +345,12 @@ public void setNode(Node value)
 ```
 
 
-يضبط العقدة. عقدة العظم هي العظم الذي يُلصق به الجلد، سيستخدم [SkinDeformer](../../com.aspose.threed/skindeformer) عقدة العظم لتؤثر على إزاحة نقاط التحكم. عادةً ما تكون عقدة العظم مرتبطة بـ [Skeleton](../../com.aspose.threed/skeleton)، لكن ذلك ليس مطلوبًا. يُستخدم الـ [Skeleton](../../com.aspose.threed/skeleton) المرفق عادةً بواسطة برامج DCC لعرض الهيكل العظمي للمستخدم.
+يضبط العقدة. عقدة العظم هي العظم الذي يُلصق به الجلد، سيستخدم [SkinDeformer](../../com.aspose.threed/skindeformer) عقدة العظم لتأثير إزاحة نقاط التحكم. عادةً ما تكون عقدة العظم مرتبطة بـ [Skeleton](../../com.aspose.threed/skeleton)، ولكن ذلك ليس مطلوبًا. يُستخدم الـ [Skeleton](../../com.aspose.threed/skeleton) المرفق عادةً بواسطة برامج DCC لعرض الهيكل العظمي للمستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -364,7 +364,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setTransform(Matrix4 value) {#setTransform-com.aspose.threed.Matrix4-}
 ```
@@ -377,7 +377,7 @@ public void setTransform(Matrix4 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Matrix4](../../com.aspose.threed/matrix4) | القيمة الجديدة |
+| value | [Matrix4](../../com.aspose.threed/matrix4) | قيمة جديدة |
 
 ### setWeight(int index, double weight) {#setWeight-int-double-}
 ```
@@ -390,7 +390,7 @@ public void setWeight(int index, double weight)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الفهرس | int | فهرس نقطة التحكم |
+| المؤشر | int | فهرس نقطة التحكم |
 | الوزن | double | وزن جديد |
 
 ### toString() {#toString--}

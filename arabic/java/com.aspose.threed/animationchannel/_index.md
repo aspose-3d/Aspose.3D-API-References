@@ -1,6 +1,6 @@
 ---
 title: "AnimationChannel"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "قناة تقوم بربط حقل مكوّن الخاصية بمجموعة من تسلسلات الإطارات المفتاحية"
 type: docs
 weight: 13
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationChannel extends KeyframeSequence
 ```
 
-القناة تقوم بربط حقل مكوّن الخاصية بمجموعة من تسلسلات الإطارات المفتاحية.
+قناة تقوم بربط حقل مكوّن الخاصية بمجموعة من تسلسلات الإطارات المفتاحية
 ## الطرق
 
 | طريقة | الوصف |
@@ -22,23 +22,23 @@ public class AnimationChannel extends KeyframeSequence
 | [add(double time, float value, Interpolation interpolation)](#add-double-float-com.aspose.threed.Interpolation-) | إنشاء إطار مفتاح جديد بالقيمة المحددة |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
-| [getBindPoint()](#getBindPoint--) | يحصل على نقطة ربط الخاصية التي تمتلك هذا المنحنى |
+| [getBindPoint()](#getBindPoint--) | يحصل على نقطة ربط الخاصية التي تملك هذا المنحنى |
 | [getClass()](#getClass--) |  |
 | [getComponentType()](#getComponentType--) | يحصل على نوع حقل المكوّن |
 | [getDefaultValue()](#getDefaultValue--) | يحصل على القيمة الافتراضية للقناة. |
 | [getKeyFrames()](#getKeyFrames--) | يحصل على الإطارات المفتاحية لهذا المنحنى. |
 | [getKeyframeSequence()](#getKeyframeSequence--) | يحصل على تسلسل الإطار المفتاح المرتبط داخل هذه القناة |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getPostBehavior()](#getPostBehavior--) | يحصل على سلوك ما بعد الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المأخوذة بعد الإطار المفتاحي الأخير. |
-| [getPreBehavior()](#getPreBehavior--) | يحصل على سلوك ما قبل الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المأخوذة قبل الإطار المفتاحي الأول. |
+| [getPostBehavior()](#getPostBehavior--) | يحصل على سلوك ما بعد الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المُعينة بعد الإطار المفتاحي الأخير. |
+| [getPreBehavior()](#getPreBehavior--) | يحصل على سلوك ما قبل الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المُعينة قبل الإطار المفتاحي الأول. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | يحصل على المُعدِّد لتصفح جميع الإطارات المفتاحية. |
+| [iterator()](#iterator--) | يحصل على المُعدد لتجوال جميع الإطارات المفتاحية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [reset()](#reset--) | يزيل جميع الإطارات المفتاحية ويعيد تعيين سلوكيات ما بعد/ما قبل. |
 | [setDefaultValue(Object value)](#setDefaultValue-java.lang.Object-) | يضبط القيمة الافتراضية للقناة. |
 | [setKeyframeSequence(KeyframeSequence value)](#setKeyframeSequence-com.aspose.threed.KeyframeSequence-) | يحصل على تسلسل الإطار المفتاح المرتبط داخل هذه القناة |
@@ -59,8 +59,8 @@ public void add(double time, float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوقت | double | موضع الوقت (مقاس بالثواني) |
-| القيمة | float | القيمة عند موضع الوقت هذا |
+| الوقت | double | موضع الوقت (بالثواني) |
+| قيمة | float | القيمة في موضع الوقت هذا |
 
 ### add(double time, float value, Interpolation interpolation) {#add-double-float-com.aspose.threed.Interpolation-}
 ```
@@ -73,8 +73,8 @@ public void add(double time, float value, Interpolation interpolation)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوقت | double | موضع الوقت (مقاس بالثواني) |
-| القيمة | float | القيمة عند موضع الوقت هذا |
+| الوقت | double | موضع الوقت (بالثواني) |
+| قيمة | float | القيمة في موضع الوقت هذا |
 | interpolation | [Interpolation](../../com.aspose.threed/interpolation) | نوع الاستيفاء لهذا الإطار المفتاحي |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -113,7 +113,7 @@ public BindPoint getBindPoint()
 ```
 
 
-يحصل على نقطة ربط الخاصية التي تمتلك هذا المنحنى
+يحصل على نقطة ربط الخاصية التي تملك هذا المنحنى
 
 **Returns:**
 [BindPoint](../../com.aspose.threed/bindpoint) - the property bind point which owns this curve
@@ -156,7 +156,7 @@ public List<KeyFrame> getKeyFrames()
 يحصل على الإطارات المفتاحية لهذا المنحنى.
 
 **Returns:**
-java.util.List<com.aspose.threed.KeyFrame> - إطارات المفتاح لهذا المنحنى.
+java.util.List<com.aspose.threed.KeyFrame> - الإطارات المفتاحية لهذا المنحنى.
 ### getKeyframeSequence() {#getKeyframeSequence--}
 ```
 public KeyframeSequence getKeyframeSequence()
@@ -183,7 +183,7 @@ public Extrapolation getPostBehavior()
 ```
 
 
-يحصل على سلوك ما بعد الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المأخوذة بعد الإطار المفتاحي الأخير.
+يحصل على سلوك ما بعد الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المُعينة بعد الإطار المفتاحي الأخير.
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the post behavior indicates what the sampled value should be after the last key frame.
@@ -193,7 +193,7 @@ public Extrapolation getPreBehavior()
 ```
 
 
-يحصل على سلوك ما قبل الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المأخوذة قبل الإطار المفتاحي الأول.
+يحصل على سلوك ما قبل الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المُعينة قبل الإطار المفتاحي الأول.
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the pre behavior indicates what the sampled value should be before the first key.
@@ -238,7 +238,7 @@ public Iterator<KeyFrame> iterator()
 ```
 
 
-يحصل على المُعدِّد لتصفح جميع الإطارات المفتاحية.
+يحصل على المُعدد لتجوال جميع الإطارات المفتاحية.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.KeyFrame>
@@ -279,7 +279,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -307,7 +307,7 @@ public void setDefaultValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | القيمة الجديدة |
+| قيمة | java.lang.Object | قيمة جديدة |
 
 ### setKeyframeSequence(KeyframeSequence value) {#setKeyframeSequence-com.aspose.threed.KeyframeSequence-}
 ```
@@ -320,7 +320,7 @@ public void setKeyframeSequence(KeyframeSequence value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [KeyframeSequence](../../com.aspose.threed/keyframesequence) | القيمة الجديدة |
+| value | [KeyframeSequence](../../com.aspose.threed/keyframesequence) | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -333,7 +333,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -347,7 +347,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "StencilAction"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "إجراءات اختبار القالب"
 type: docs
 weight: 303
@@ -18,14 +18,14 @@ public enum StencilAction extends Enum<StencilAction>
 
 | حقل | الوصف |
 | --- | --- |
-| [DECREMENT](#DECREMENT) | يزيد قيمة مخزن الستنسل الحالي، يحدها إلى 0. |
-| [DECREMENT_WRAP](#DECREMENT-WRAP) | ينقص قيمة مخزن الستنسل الحالي ويعيدها إلى القيمة القصوى عندما تصل إلى الصفر. |
-| [INCREMENT](#INCREMENT) | يزيد قيمة مخزن الستنسل الحالي، يحدها إلى القيمة القصوى. |
-| [INCREMENT_WRAP](#INCREMENT-WRAP) | يزيد قيمة مخزن الستنسل الحالي ويعيدها إلى الصفر عندما تصل إلى القيمة القصوى. |
-| [INVERT](#INVERT) | يقلب قيمة مخزن الستنسل الحالي على مستوى البت. |
+| [DECREMENT](#DECREMENT) | يزيد قيمة مخزن الستينسل الحالي، يحدها إلى 0. |
+| [DECREMENT_WRAP](#DECREMENT-WRAP) | يقلل قيمة مخزن الستينسل الحالي ويعيدها إلى القيمة القصوى عندما تصل إلى الصفر. |
+| [INCREMENT](#INCREMENT) | يزيد قيمة مخزن الستينسل الحالي، يحدها إلى القيمة القصوى. |
+| [INCREMENT_WRAP](#INCREMENT-WRAP) | يزيد قيمة مخزن الستينسل الحالي ويعيدها إلى الصفر عندما تصل إلى القيمة القصوى. |
+| [INVERT](#INVERT) | يعكس قيمة مخزن الستينسل الحالي على مستوى البت. |
 | [KEEP](#KEEP) | احتفظ بالقيمة الحالية |
-| [REPLACE](#REPLACE) | يضبط مخزن الستنسل إلى المرجع حيث تم تعريفه في [RenderState.getStencilReference](../../com.aspose.threed/renderstate\\#getStencilReference) |
-| [ZERO](#ZERO) | يضبط قيمة buffer الـ stencil إلى 0 |
+| [REPLACE](#REPLACE) | يضبط مخزن الستينسل إلى ref حيث تم تعريفه في [RenderState.getStencilReference](../../com.aspose.threed/renderstate\\#getStencilReference) |
+| [ZERO](#ZERO) | يضبط قيمة مخزن القالب إلى 0 |
 ## الطرق
 
 | طريقة | الوصف |
@@ -53,7 +53,7 @@ public static final StencilAction DECREMENT
 ```
 
 
-يزيد قيمة مخزن الستنسل الحالي، يحدها إلى 0.
+يزيد قيمة مخزن الستينسل الحالي، يحدها إلى 0.
 
 ### DECREMENT_WRAP {#DECREMENT-WRAP}
 ```
@@ -61,7 +61,7 @@ public static final StencilAction DECREMENT_WRAP
 ```
 
 
-ينقص قيمة مخزن الستنسل الحالي ويعيدها إلى القيمة القصوى عندما تصل إلى الصفر.
+يقلل قيمة مخزن الستينسل الحالي ويعيدها إلى القيمة القصوى عندما تصل إلى الصفر.
 
 ### INCREMENT {#INCREMENT}
 ```
@@ -69,7 +69,7 @@ public static final StencilAction INCREMENT
 ```
 
 
-يزيد قيمة مخزن الستنسل الحالي، يحدها إلى القيمة القصوى.
+يزيد قيمة مخزن الستينسل الحالي، يحدها إلى القيمة القصوى.
 
 ### INCREMENT_WRAP {#INCREMENT-WRAP}
 ```
@@ -77,7 +77,7 @@ public static final StencilAction INCREMENT_WRAP
 ```
 
 
-يزيد قيمة مخزن الستنسل الحالي ويعيدها إلى الصفر عندما تصل إلى القيمة القصوى.
+يزيد قيمة مخزن الستينسل الحالي ويعيدها إلى الصفر عندما تصل إلى القيمة القصوى.
 
 ### INVERT {#INVERT}
 ```
@@ -85,7 +85,7 @@ public static final StencilAction INVERT
 ```
 
 
-يقلب قيمة مخزن الستنسل الحالي على مستوى البت.
+يعكس قيمة مخزن الستينسل الحالي على مستوى البت.
 
 ### KEEP {#KEEP}
 ```
@@ -101,7 +101,7 @@ public static final StencilAction REPLACE
 ```
 
 
-يضبط مخزن الستنسل إلى المرجع حيث تم تعريفه في [RenderState.getStencilReference](../../com.aspose.threed/renderstate\\#getStencilReference)
+يضبط مخزن الستينسل إلى ref حيث تم تعريفه في [RenderState.getStencilReference](../../com.aspose.threed/renderstate\\#getStencilReference)
 
 ### ZERO {#ZERO}
 ```
@@ -109,7 +109,7 @@ public static final StencilAction ZERO
 ```
 
 
-يضبط قيمة buffer الـ stencil إلى 0
+يضبط قيمة مخزن القالب إلى 0
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

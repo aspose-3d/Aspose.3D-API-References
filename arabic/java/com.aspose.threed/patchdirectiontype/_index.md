@@ -1,6 +1,6 @@
 ---
 title: "PatchDirectionType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أنواع اتجاهات الرقع."
 type: docs
 weight: 287
@@ -26,12 +26,12 @@ public enum PatchDirectionType extends Enum<PatchDirectionType>
 
 
 [The patch direction is a Bezier curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve |
-| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | رقعة كارديال. |
+| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | رقعة كاردينال. |
 |  | [LINEAR](#LINEAR) | [اتجاه الرقعة هو منحنى خطي.][] |
 
 
 [The patch direction is a linear curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Linear_curves |
-| [QUADRATIC_BEZIER](#QUADRATIC-BEZIER) | الرقعة البيزية التربيعية. |
+| [QUADRATIC_BEZIER](#QUADRATIC-BEZIER) | رقعة بيزيه تربيعية. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -103,7 +103,7 @@ public static final PatchDirectionType QUADRATIC_BEZIER
 ```
 
 
-الرقعة البيزيرية التربيعية. [اتجاه الرقعة هو منحنى تربيعي.][]
+الرقعة البيزية التربيعية. [اتجاه الرقعة هو منحنى تربيعي.][]
 
 
 [The patch direction is a quadratic curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Quadratic_curves

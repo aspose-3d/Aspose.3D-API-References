@@ -1,7 +1,7 @@
 ---
 title: "RendererVariableManager"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "هذه الفئة تدير المتغيّرات المستخدمة في العرض."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "هذه الفئة تدير المتغيرات المستخدمة في العرض"
 type: docs
 weight: 154
 url: /ar/java/com.aspose.threed/renderervariablemanager/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class RendererVariableManager
 ```
 
-هذه الفئة تدير المتغيّرات المستخدمة في العرض.
+هذه الفئة تدير المتغيرات المستخدمة في العرض
 ## الطرق
 
 | طريقة | الوصف |
@@ -21,16 +21,16 @@ public abstract class RendererVariableManager
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCameraPosition()](#getCameraPosition--) | موضع الكاميرا في نظام إحداثيات العالم |
 | [getClass()](#getClass--) |  |
-| [getDepthBias()](#getDepthBias--) | انحياز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001 |
-| [getMatrixLightSpace()](#getMatrixLightSpace--) | المصفوفة لتحويل مساحة الضوء |
-| [getMatrixProjection()](#getMatrixProjection--) | المصفوفة لتحويل الإسقاط |
-| [getMatrixView()](#getMatrixView--) | المصفوفة لتحويل العرض |
-| [getMatrixViewProjection()](#getMatrixViewProjection--) | المصفوفة لتحويل العرض والإسقاط. |
-| [getMatrixWorld()](#getMatrixWorld--) | المصفوفة لتحويل العالم |
-| [getMatrixWorldNormal()](#getMatrixWorldNormal--) | المصفوفة لتحويل المتجه العادي من الكائن إلى مساحة العالم. |
+| [getDepthBias()](#getDepthBias--) | تحيز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001 |
+| [getMatrixLightSpace()](#getMatrixLightSpace--) | مصفوفة لتحويل مساحة الإضاءة |
+| [getMatrixProjection()](#getMatrixProjection--) | مصفوفة لتحويل الإسقاط |
+| [getMatrixView()](#getMatrixView--) | مصفوفة لتحويل العرض |
+| [getMatrixViewProjection()](#getMatrixViewProjection--) | مصفوفة لتحويل العرض والإسقاط. |
+| [getMatrixWorld()](#getMatrixWorld--) | مصفوفة لتحويل العالم |
+| [getMatrixWorldNormal()](#getMatrixWorldNormal--) | مصفوفة لتحويل المتجه العادي من الكائن إلى مساحة العالم. |
 | [getMatrixWorldViewProjection()](#getMatrixWorldViewProjection--) | مصفوفة لعرض العالم وتحويل الإسقاط |
 | [getShadowCaster()](#getShadowCaster--) | موضع مصدر الظل في نظام إحداثيات العالم |
-| [getShadowmap()](#getShadowmap--) | قوام العمق المستخدم لتخطيط الظلال |
+| [getShadowmap()](#getShadowmap--) | ملمس العمق المستخدم لتخطيط الظلال |
 | [getViewportSize()](#getViewportSize--) | حجم نافذة العرض، مقاسًا بالبكسل |
 | [getWorldAmbient()](#getWorldAmbient--) | لون الإضاءة المحيطة المحدد في نافذة العرض. |
 | [getWorldTime()](#getWorldTime--) | الوقت بالثواني |
@@ -38,12 +38,12 @@ public abstract class RendererVariableManager
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCameraPosition(FVector3 value)](#setCameraPosition-com.aspose.threed.FVector3-) | موضع الكاميرا في نظام إحداثيات العالم |
-| [setDepthBias(float value)](#setDepthBias-float-) | انحياز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001 |
-| [setMatrixLightSpace(FMatrix4 value)](#setMatrixLightSpace-com.aspose.threed.FMatrix4-) | المصفوفة لتحويل مساحة الضوء |
-| [setMatrixProjection(FMatrix4 value)](#setMatrixProjection-com.aspose.threed.FMatrix4-) | المصفوفة لتحويل الإسقاط |
-| [setMatrixView(FMatrix4 value)](#setMatrixView-com.aspose.threed.FMatrix4-) | المصفوفة لتحويل العرض |
+| [setDepthBias(float value)](#setDepthBias-float-) | تحيز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001 |
+| [setMatrixLightSpace(FMatrix4 value)](#setMatrixLightSpace-com.aspose.threed.FMatrix4-) | مصفوفة لتحويل مساحة الإضاءة |
+| [setMatrixProjection(FMatrix4 value)](#setMatrixProjection-com.aspose.threed.FMatrix4-) | مصفوفة لتحويل الإسقاط |
+| [setMatrixView(FMatrix4 value)](#setMatrixView-com.aspose.threed.FMatrix4-) | مصفوفة لتحويل العرض |
 | [setShadowCaster(FVector3 value)](#setShadowCaster-com.aspose.threed.FVector3-) | موضع مصدر الظل في نظام إحداثيات العالم |
-| [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | قوام العمق المستخدم لتخطيط الظلال |
+| [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | ملمس العمق المستخدم لتخطيط الظلال |
 | [setViewportSize(FVector2 value)](#setViewportSize-com.aspose.threed.FVector2-) | حجم نافذة العرض، مقاسًا بالبكسل |
 | [setWorldAmbient(FVector3 value)](#setWorldAmbient-com.aspose.threed.FVector3-) | لون الإضاءة المحيطة المحدد في نافذة العرض. |
 | [setWorldTime(float value)](#setWorldTime-float-) | الوقت بالثواني |
@@ -92,17 +92,17 @@ public float getDepthBias()
 ```
 
 
-انحياز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001
+تحيز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001
 
 **Returns:**
-float - إزاحة العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001
+float - انحياز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001
 ### getMatrixLightSpace() {#getMatrixLightSpace--}
 ```
 public FMatrix4 getMatrixLightSpace()
 ```
 
 
-المصفوفة لتحويل مساحة الضوء
+مصفوفة لتحويل مساحة الإضاءة
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for light space transformation
@@ -112,7 +112,7 @@ public FMatrix4 getMatrixProjection()
 ```
 
 
-المصفوفة لتحويل الإسقاط
+مصفوفة لتحويل الإسقاط
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for projection transformation
@@ -122,7 +122,7 @@ public FMatrix4 getMatrixView()
 ```
 
 
-المصفوفة لتحويل العرض
+مصفوفة لتحويل العرض
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for view transformation
@@ -132,7 +132,7 @@ public FMatrix4 getMatrixViewProjection()
 ```
 
 
-المصفوفة لتحويل العرض والإسقاط.
+مصفوفة لتحويل العرض والإسقاط.
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for view and projection transformation.
@@ -142,7 +142,7 @@ public FMatrix4 getMatrixWorld()
 ```
 
 
-المصفوفة لتحويل العالم
+مصفوفة لتحويل العالم
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for world transformation
@@ -152,7 +152,7 @@ public FMatrix4 getMatrixWorldNormal()
 ```
 
 
-المصفوفة لتحويل المتجه العادي من الكائن إلى مساحة العالم.
+مصفوفة لتحويل المتجه العادي من الكائن إلى مساحة العالم.
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for converting normal from object to world space.
@@ -182,7 +182,7 @@ public ITextureUnit getShadowmap()
 ```
 
 
-قوام العمق المستخدم لتخطيط الظلال
+ملمس العمق المستخدم لتخطيط الظلال
 
 **Returns:**
 [ITextureUnit](../../com.aspose.threed/itextureunit) - The depth texture used for shadow mapping
@@ -253,7 +253,7 @@ public void setCameraPosition(FVector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FVector3](../../com.aspose.threed/fvector3) | القيمة الجديدة |
+| value | [FVector3](../../com.aspose.threed/fvector3) | قيمة جديدة |
 
 ### setDepthBias(float value) {#setDepthBias-float-}
 ```
@@ -261,12 +261,12 @@ public void setDepthBias(float value)
 ```
 
 
-انحياز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001
+تحيز العمق لتخطيط الظلال، القيمة الافتراضية هي 0.001
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### setMatrixLightSpace(FMatrix4 value) {#setMatrixLightSpace-com.aspose.threed.FMatrix4-}
 ```
@@ -274,12 +274,12 @@ public void setMatrixLightSpace(FMatrix4 value)
 ```
 
 
-المصفوفة لتحويل مساحة الضوء
+مصفوفة لتحويل مساحة الإضاءة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FMatrix4](../../com.aspose.threed/fmatrix4) | القيمة الجديدة |
+| value | [FMatrix4](../../com.aspose.threed/fmatrix4) | قيمة جديدة |
 
 ### setMatrixProjection(FMatrix4 value) {#setMatrixProjection-com.aspose.threed.FMatrix4-}
 ```
@@ -287,12 +287,12 @@ public void setMatrixProjection(FMatrix4 value)
 ```
 
 
-المصفوفة لتحويل الإسقاط
+مصفوفة لتحويل الإسقاط
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FMatrix4](../../com.aspose.threed/fmatrix4) | القيمة الجديدة |
+| value | [FMatrix4](../../com.aspose.threed/fmatrix4) | قيمة جديدة |
 
 ### setMatrixView(FMatrix4 value) {#setMatrixView-com.aspose.threed.FMatrix4-}
 ```
@@ -300,12 +300,12 @@ public void setMatrixView(FMatrix4 value)
 ```
 
 
-المصفوفة لتحويل العرض
+مصفوفة لتحويل العرض
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FMatrix4](../../com.aspose.threed/fmatrix4) | القيمة الجديدة |
+| value | [FMatrix4](../../com.aspose.threed/fmatrix4) | قيمة جديدة |
 
 ### setShadowCaster(FVector3 value) {#setShadowCaster-com.aspose.threed.FVector3-}
 ```
@@ -318,7 +318,7 @@ public void setShadowCaster(FVector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FVector3](../../com.aspose.threed/fvector3) | القيمة الجديدة |
+| value | [FVector3](../../com.aspose.threed/fvector3) | قيمة جديدة |
 
 ### setShadowmap(ITextureUnit value) {#setShadowmap-com.aspose.threed.ITextureUnit-}
 ```
@@ -326,12 +326,12 @@ public void setShadowmap(ITextureUnit value)
 ```
 
 
-قوام العمق المستخدم لتخطيط الظلال
+ملمس العمق المستخدم لتخطيط الظلال
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ITextureUnit](../../com.aspose.threed/itextureunit) | القيمة الجديدة |
+| value | [ITextureUnit](../../com.aspose.threed/itextureunit) | قيمة جديدة |
 
 ### setViewportSize(FVector2 value) {#setViewportSize-com.aspose.threed.FVector2-}
 ```
@@ -344,7 +344,7 @@ public void setViewportSize(FVector2 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FVector2](../../com.aspose.threed/fvector2) | القيمة الجديدة |
+| value | [FVector2](../../com.aspose.threed/fvector2) | قيمة جديدة |
 
 ### setWorldAmbient(FVector3 value) {#setWorldAmbient-com.aspose.threed.FVector3-}
 ```
@@ -357,7 +357,7 @@ public void setWorldAmbient(FVector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [FVector3](../../com.aspose.threed/fvector3) | القيمة الجديدة |
+| value | [FVector3](../../com.aspose.threed/fvector3) | قيمة جديدة |
 
 ### setWorldTime(float value) {#setWorldTime-float-}
 ```
@@ -370,7 +370,7 @@ public void setWorldTime(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة الجديدة |
+| قيمة | float | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

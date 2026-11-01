@@ -1,6 +1,6 @@
 ---
 title: "IBuffer"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الواجهة الأساسية لجميع المخازن المُدارة المستخدمة في التصيير"
 type: docs
 weight: 239
@@ -18,25 +18,25 @@ public interface IBuffer extends Closeable
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSize()](#getSize--) | حجم هذا المخزن المؤقت بالبايت |
-| [loadData(byte[] data)](#loadData-byte---) | حمّل البيانات في المخزن المؤقت الحالي |
+| [getSize()](#getSize--) | حجم هذه الذاكرة المؤقتة بالبايت |
+| [loadData(byte[] data)](#loadData-byte---) | حمّل البيانات في الذاكرة المؤقتة الحالية |
 ### getSize() {#getSize--}
 ```
 public abstract int getSize()
 ```
 
 
-حجم هذا المخزن المؤقت بالبايت
+حجم هذه الذاكرة المؤقتة بالبايت
 
 **Returns:**
-int - حجم هذا المخزن المؤقت بالبايت
+int - حجم هذه الذاكرة المؤقتة بالبايت
 ### loadData(byte[] data) {#loadData-byte---}
 ```
 public abstract void loadData(byte[] data)
 ```
 
 
-حمّل البيانات في المخزن المؤقت الحالي
+حمّل البيانات في الذاكرة المؤقتة الحالية
 
 **Parameters:**
 | معامل | نوع | الوصف |

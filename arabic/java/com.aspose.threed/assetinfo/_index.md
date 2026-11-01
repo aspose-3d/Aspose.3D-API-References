@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "معلومات الأصل."
 type: docs
 weight: 17
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AssetInfo extends A3DObject
 ```
 
-معلومات الأصل. يمكن إرفاق معلومات الأصل بـ [Scene](../../com.aspose.threed/scene). يمكن للـ [Scene](../../com.aspose.threed/scene) الفرعي أن يحتوي على [AssetInfo](../../com.aspose.threed/assetinfo) الخاص به لتجاوز تعريف الأصل للأب. **مثال:** يوضح الكود التالي كيفية قراءة معلومات الأصل من ملف fbx:
+معلومات الأصل. يمكن إرفاق معلومات الأصل إلى [Scene](../../com.aspose.threed/scene). يمكن للـ [Scene](../../com.aspose.threed/scene) الفرعي أن يمتلك [AssetInfo](../../com.aspose.threed/assetinfo) الخاص به لتجاوز تعريف الأصل الأصلي. **Example:** يوضح الكود التالي كيفية قراءة معلومات الأصل من ملف fbx:
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -26,8 +26,8 @@ Scene scene = Scene.fromFile("test.fbx");
 
 | منشئ | الوصف |
 | --- | --- |
-| [AssetInfo()](#AssetInfo--) | يُنشئ مثيلاً جديداً من الفئة [AssetInfo](../../com.aspose.threed/assetinfo). |
-| [AssetInfo(String name)](#AssetInfo-java.lang.String-) | يُنشئ مثيلاً جديداً من الفئة [AssetInfo](../../com.aspose.threed/assetinfo). |
+| [AssetInfo()](#AssetInfo--) | يُنشئ مثيلًا جديدًا من الفئة [AssetInfo](../../com.aspose.threed/assetinfo). |
+| [AssetInfo(String name)](#AssetInfo-java.lang.String-) | يُنشئ مثيلًا جديدًا من الفئة [AssetInfo](../../com.aspose.threed/assetinfo). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -37,54 +37,54 @@ Scene scene = Scene.fromFile("test.fbx");
 | [getAmbient()](#getAmbient--) | يحصل أو يضبط اللون المحيطي الافتراضي لهذا الأصل |
 | [getApplicationName()](#getApplicationName--) | يحصل على التطبيق الذي أنشأ هذا الأصل |
 | [getApplicationVendor()](#getApplicationVendor--) | يحصل على اسم بائع التطبيق |
-| [getApplicationVersion()](#getApplicationVersion--) | يحصل على نسخة التطبيق الذي أنشأ هذا الأصل. |
+| [getApplicationVersion()](#getApplicationVersion--) | يحصل على إصدار التطبيق الذي أنشأ هذا الأصل. |
 | [getAuthor()](#getAuthor--) | يحصل على مؤلف هذا الأصل |
 | [getAxisSystem()](#getAxisSystem--) | يحصل على نظام الإحداثيات/متجه الارتفاع/متجه الأمام لمعلومات الأصل. |
 | [getClass()](#getClass--) |  |
 | [getComment()](#getComment--) | يحصل على تعليق هذا الأصل. |
 | [getCoordinateSystem()](#getCoordinateSystem--) | يحصل على نظام الإحداثيات المستخدم في هذا الأصل. |
 | [getCopyright()](#getCopyright--) | يحصل على حقوق النشر للوثيقة |
-| [getCreationTime()](#getCreationTime--) | الحصول على أو تعيين وقت إنشاء هذا الأصل |
-| [getFrontVector()](#getFrontVector--) | الحصول على المتجه الأمامي المستخدم في هذا الأصل. |
-| [getKeywords()](#getKeywords--) | الحصول على الكلمات المفتاحية لهذا الأصل |
-| [getModificationTime()](#getModificationTime--) | الحصول على أو تعيين وقت التعديل لهذا الأصل |
+| [getCreationTime()](#getCreationTime--) | يحصل أو يضبط وقت الإنشاء لهذا الأصل |
+| [getFrontVector()](#getFrontVector--) | يحصل على المتجه الأمامي المستخدم في هذا الأصل. |
+| [getKeywords()](#getKeywords--) | يحصل على الكلمات المفتاحية لهذا الأصل |
+| [getModificationTime()](#getModificationTime--) | يحصل أو يضبط وقت التعديل لهذا الأصل |
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
-| [getRevision()](#getRevision--) | الحصول على رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات. |
-| [getSubject()](#getSubject--) | الحصول على موضوع هذا الأصل |
-| [getTitle()](#getTitle--) | الحصول على عنوان هذا الأصل |
-| [getUnitName()](#getUnitName--) | الحصول على وحدة الطول المستخدمة في هذا الأصل. |
-| [getUnitScaleFactor()](#getUnitScaleFactor--) | الحصول على معامل التحويل إلى المتر في العالم الحقيقي. |
-| [getUpVector()](#getUpVector--) | الحصول على المتجه العلوي المستخدم في هذا الأصل. |
-| [getUrl()](#getUrl--) | الحصول على أو تعيين عنوان URL لهذا الأصل. |
+| [getRevision()](#getRevision--) | يحصل على رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات. |
+| [getSubject()](#getSubject--) | يحصل على موضوع هذا الأصل |
+| [getTitle()](#getTitle--) | يحصل على عنوان هذا الأصل |
+| [getUnitName()](#getUnitName--) | يحصل على وحدة الطول المستخدمة في هذا الأصل. |
+| [getUnitScaleFactor()](#getUnitScaleFactor--) | يحصل على معامل التحجيم إلى المتر في العالم الحقيقي. |
+| [getUpVector()](#getUpVector--) | يحصل على المتجه العلوي المستخدم في هذا الأصل. |
+| [getUrl()](#getUrl--) | يحصل أو يضبط عنوان URL لهذا الأصل. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setAmbient(Vector4 value)](#setAmbient-com.aspose.threed.Vector4-) | يحصل أو يضبط اللون المحيطي الافتراضي لهذا الأصل |
-| [setApplicationName(String value)](#setApplicationName-java.lang.String-) | تعيين التطبيق الذي أنشأ هذا الأصل |
-| [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | تعيين اسم بائع التطبيق |
-| [setApplicationVersion(String value)](#setApplicationVersion-java.lang.String-) | تعيين نسخة التطبيق الذي أنشأ هذا الأصل. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | تعيين مؤلف هذا الأصل |
-| [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | تعيين نظام الإحداثيات/المتجه العلوي/المتجه الأمامي لمعلومات الأصل. |
-| [setComment(String value)](#setComment-java.lang.String-) | تعيين تعليق هذا الأصل. |
-| [setCoordinateSystem(CoordinateSystem value)](#setCoordinateSystem-com.aspose.threed.CoordinateSystem-) | تعيين نظام الإحداثيات المستخدم في هذا الأصل. |
-| [setCopyright(String value)](#setCopyright-java.lang.String-) | تعيين حقوق النشر للوثيقة |
-| [setCreationTime(Calendar value)](#setCreationTime-java.util.Calendar-) | الحصول على أو تعيين وقت إنشاء هذا الأصل |
-| [setFrontVector(Axis value)](#setFrontVector-com.aspose.threed.Axis-) | تعيين المتجه الأمامي المستخدم في هذا الأصل. |
-| [setKeywords(String value)](#setKeywords-java.lang.String-) | تعيين الكلمات المفتاحية لهذا الأصل |
-| [setModificationTime(Calendar value)](#setModificationTime-java.util.Calendar-) | الحصول على أو تعيين وقت التعديل لهذا الأصل |
+| [setApplicationName(String value)](#setApplicationName-java.lang.String-) | يضبط التطبيق الذي أنشأ هذا الأصل |
+| [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | يضبط اسم بائع التطبيق |
+| [setApplicationVersion(String value)](#setApplicationVersion-java.lang.String-) | يضبط نسخة التطبيق الذي أنشأ هذا الأصل. |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | يضبط مؤلف هذا الأصل |
+| [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | يضبط نظام الإحداثيات/المتجه العلوي/المتجه الأمامي لمعلومات الأصل. |
+| [setComment(String value)](#setComment-java.lang.String-) | يضبط تعليق هذا الأصل. |
+| [setCoordinateSystem(CoordinateSystem value)](#setCoordinateSystem-com.aspose.threed.CoordinateSystem-) | يضبط نظام الإحداثيات المستخدم في هذا الأصل. |
+| [setCopyright(String value)](#setCopyright-java.lang.String-) | يضبط حقوق النشر للوثيقة |
+| [setCreationTime(Calendar value)](#setCreationTime-java.util.Calendar-) | يحصل أو يضبط وقت الإنشاء لهذا الأصل |
+| [setFrontVector(Axis value)](#setFrontVector-com.aspose.threed.Axis-) | يضبط المتجه الأمامي المستخدم في هذا الأصل. |
+| [setKeywords(String value)](#setKeywords-java.lang.String-) | يضبط الكلمات المفتاحية لهذا الأصل |
+| [setModificationTime(Calendar value)](#setModificationTime-java.util.Calendar-) | يحصل أو يضبط وقت التعديل لهذا الأصل |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
-| [setRevision(String value)](#setRevision-java.lang.String-) | تعيين رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | تعيين موضوع هذا الأصل |
-| [setTitle(String value)](#setTitle-java.lang.String-) | تعيين عنوان هذا الأصل |
-| [setUnitName(String value)](#setUnitName-java.lang.String-) | تعيين وحدة الطول المستخدمة في هذا الأصل. |
-| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | يضبط عامل المقياس إلى المتر في العالم الحقيقي. |
+| [setRevision(String value)](#setRevision-java.lang.String-) | يضبط رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | يضبط موضوع هذا الأصل |
+| [setTitle(String value)](#setTitle-java.lang.String-) | يضبط عنوان هذا الأصل |
+| [setUnitName(String value)](#setUnitName-java.lang.String-) | يضبط وحدة الطول المستخدمة في هذا الأصل. |
+| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | يضبط معامل المقياس إلى المتر في العالم الحقيقي. |
 | [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | يضبط المتجه العلوي المستخدم في هذا الأصل. |
-| [setUrl(String value)](#setUrl-java.lang.String-) | الحصول على أو تعيين عنوان URL لهذا الأصل. |
+| [setUrl(String value)](#setUrl-java.lang.String-) | يحصل أو يضبط عنوان URL لهذا الأصل. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -95,7 +95,7 @@ public AssetInfo()
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة [AssetInfo](../../com.aspose.threed/assetinfo).
+يُنشئ مثيلًا جديدًا من الفئة [AssetInfo](../../com.aspose.threed/assetinfo).
 
 ### AssetInfo(String name) {#AssetInfo-java.lang.String-}
 ```
@@ -103,7 +103,7 @@ public AssetInfo(String name)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة [AssetInfo](../../com.aspose.threed/assetinfo).
+يُنشئ مثيلًا جديدًا من الفئة [AssetInfo](../../com.aspose.threed/assetinfo).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -131,7 +131,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -176,7 +176,7 @@ public String getApplicationVersion()
 ```
 
 
-يحصل على نسخة التطبيق الذي أنشأ هذا الأصل.
+يحصل على إصدار التطبيق الذي أنشأ هذا الأصل.
 
 **Returns:**
 java.lang.String - إصدار التطبيق الذي أنشأ هذا الأصل.
@@ -246,7 +246,7 @@ public Calendar getCreationTime()
 ```
 
 
-الحصول على أو تعيين وقت إنشاء هذا الأصل
+يحصل أو يضبط وقت الإنشاء لهذا الأصل
 
 **Returns:**
 java.util.Calendar - أو يضبط وقت إنشاء هذا الأصل
@@ -256,7 +256,7 @@ public Axis getFrontVector()
 ```
 
 
-الحصول على المتجه الأمامي المستخدم في هذا الأصل.
+يحصل على المتجه الأمامي المستخدم في هذا الأصل.
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the front-vector used in this asset.
@@ -266,7 +266,7 @@ public String getKeywords()
 ```
 
 
-الحصول على الكلمات المفتاحية لهذا الأصل
+يحصل على الكلمات المفتاحية لهذا الأصل
 
 **Returns:**
 java.lang.String - الكلمات المفتاحية لهذا الأصل
@@ -276,7 +276,7 @@ public Calendar getModificationTime()
 ```
 
 
-الحصول على أو تعيين وقت التعديل لهذا الأصل
+يحصل أو يضبط وقت التعديل لهذا الأصل
 
 **Returns:**
 java.util.Calendar - أو يضبط وقت تعديل هذا الأصل
@@ -321,7 +321,7 @@ public String getRevision()
 ```
 
 
-الحصول على رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات.
+يحصل على رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات.
 
 **Returns:**
 java.lang.String - رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات.
@@ -331,7 +331,7 @@ public String getSubject()
 ```
 
 
-الحصول على موضوع هذا الأصل
+يحصل على موضوع هذا الأصل
 
 **Returns:**
 java.lang.String - موضوع هذا الأصل
@@ -341,7 +341,7 @@ public String getTitle()
 ```
 
 
-الحصول على عنوان هذا الأصل
+يحصل على عنوان هذا الأصل
 
 **Returns:**
 java.lang.String - عنوان هذا الأصل
@@ -351,27 +351,27 @@ public String getUnitName()
 ```
 
 
-يحصل على وحدة الطول المستخدمة في هذا الأصل. مثال: سم/م/كم/بوصة/قدم
+يسترجع وحدة الطول المستخدمة في هذا الأصل. مثال: سم/م/كم/إنش/قدم
 
 **Returns:**
-java.lang.String - وحدة الطول المستخدمة في هذا الأصل. مثال: سم/م/كم/بوصة/قدم
+java.lang.String - وحدة الطول المستخدمة في هذا الأصل. مثال: سم/م/كم/إنش/قدم
 ### getUnitScaleFactor() {#getUnitScaleFactor--}
 ```
 public double getUnitScaleFactor()
 ```
 
 
-الحصول على معامل التحويل إلى المتر في العالم الحقيقي.
+يحصل على معامل التحجيم إلى المتر في العالم الحقيقي.
 
 **Returns:**
-double - عامل المقياس إلى المتر في العالم الحقيقي. **Remarks:** يتم تجاهل هذا أثناء التسلسل إذا كان اسم الوحدة فارغًا.
+double - معامل المقياس إلى المتر في العالم الحقيقي. **Remarks:** يتم تجاهل هذا أثناء التسلسل إذا كان اسم الوحدة فارغًا.
 ### getUpVector() {#getUpVector--}
 ```
 public Axis getUpVector()
 ```
 
 
-الحصول على المتجه العلوي المستخدم في هذا الأصل.
+يحصل على المتجه العلوي المستخدم في هذا الأصل.
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the up-vector used in this asset.
@@ -381,7 +381,7 @@ public String getUrl()
 ```
 
 
-الحصول على أو تعيين عنوان URL لهذا الأصل.
+يحصل أو يضبط عنوان URL لهذا الأصل.
 
 **Returns:**
 java.lang.String - أو يضبط عنوان URL لهذا الأصل.
@@ -432,7 +432,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -452,7 +452,7 @@ public void setAmbient(Vector4 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector4](../../com.aspose.threed/vector4) | القيمة الجديدة |
+| value | [Vector4](../../com.aspose.threed/vector4) | قيمة جديدة |
 
 ### setApplicationName(String value) {#setApplicationName-java.lang.String-}
 ```
@@ -460,12 +460,12 @@ public void setApplicationName(String value)
 ```
 
 
-تعيين التطبيق الذي أنشأ هذا الأصل
+يضبط التطبيق الذي أنشأ هذا الأصل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setApplicationVendor(String value) {#setApplicationVendor-java.lang.String-}
 ```
@@ -473,12 +473,12 @@ public void setApplicationVendor(String value)
 ```
 
 
-تعيين اسم بائع التطبيق
+يضبط اسم بائع التطبيق
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setApplicationVersion(String value) {#setApplicationVersion-java.lang.String-}
 ```
@@ -486,12 +486,12 @@ public void setApplicationVersion(String value)
 ```
 
 
-تعيين نسخة التطبيق الذي أنشأ هذا الأصل.
+يضبط نسخة التطبيق الذي أنشأ هذا الأصل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
@@ -499,12 +499,12 @@ public void setAuthor(String value)
 ```
 
 
-تعيين مؤلف هذا الأصل
+يضبط مؤلف هذا الأصل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setAxisSystem(AxisSystem value) {#setAxisSystem-com.aspose.threed.AxisSystem-}
 ```
@@ -512,12 +512,12 @@ public void setAxisSystem(AxisSystem value)
 ```
 
 
-تعيين نظام الإحداثيات/المتجه العلوي/المتجه الأمامي لمعلومات الأصل.
+يضبط نظام الإحداثيات/المتجه العلوي/المتجه الأمامي لمعلومات الأصل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [AxisSystem](../../com.aspose.threed/axissystem) | القيمة الجديدة |
+| value | [AxisSystem](../../com.aspose.threed/axissystem) | قيمة جديدة |
 
 ### setComment(String value) {#setComment-java.lang.String-}
 ```
@@ -525,12 +525,12 @@ public void setComment(String value)
 ```
 
 
-تعيين تعليق هذا الأصل.
+يضبط تعليق هذا الأصل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setCoordinateSystem(CoordinateSystem value) {#setCoordinateSystem-com.aspose.threed.CoordinateSystem-}
 ```
@@ -538,12 +538,12 @@ public void setCoordinateSystem(CoordinateSystem value)
 ```
 
 
-تعيين نظام الإحداثيات المستخدم في هذا الأصل.
+يضبط نظام الإحداثيات المستخدم في هذا الأصل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | القيمة الجديدة |
+| value | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | قيمة جديدة |
 
 ### setCopyright(String value) {#setCopyright-java.lang.String-}
 ```
@@ -551,12 +551,12 @@ public void setCopyright(String value)
 ```
 
 
-تعيين حقوق النشر للوثيقة
+يضبط حقوق النشر للوثيقة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setCreationTime(Calendar value) {#setCreationTime-java.util.Calendar-}
 ```
@@ -564,12 +564,12 @@ public void setCreationTime(Calendar value)
 ```
 
 
-الحصول على أو تعيين وقت إنشاء هذا الأصل
+يحصل أو يضبط وقت الإنشاء لهذا الأصل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.Calendar | القيمة الجديدة |
+| قيمة | java.util.Calendar | قيمة جديدة |
 
 ### setFrontVector(Axis value) {#setFrontVector-com.aspose.threed.Axis-}
 ```
@@ -577,12 +577,12 @@ public void setFrontVector(Axis value)
 ```
 
 
-تعيين المتجه الأمامي المستخدم في هذا الأصل.
+يضبط المتجه الأمامي المستخدم في هذا الأصل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Axis](../../com.aspose.threed/axis) | القيمة الجديدة |
+| value | [Axis](../../com.aspose.threed/axis) | قيمة جديدة |
 
 ### setKeywords(String value) {#setKeywords-java.lang.String-}
 ```
@@ -590,12 +590,12 @@ public void setKeywords(String value)
 ```
 
 
-تعيين الكلمات المفتاحية لهذا الأصل
+يضبط الكلمات المفتاحية لهذا الأصل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setModificationTime(Calendar value) {#setModificationTime-java.util.Calendar-}
 ```
@@ -603,12 +603,12 @@ public void setModificationTime(Calendar value)
 ```
 
 
-الحصول على أو تعيين وقت التعديل لهذا الأصل
+يحصل أو يضبط وقت التعديل لهذا الأصل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.Calendar | القيمة الجديدة |
+| قيمة | java.util.Calendar | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -621,7 +621,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -635,7 +635,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setRevision(String value) {#setRevision-java.lang.String-}
 ```
@@ -643,12 +643,12 @@ public void setRevision(String value)
 ```
 
 
-تعيين رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات.
+يضبط رقم المراجعة لهذا الأصل، يُستخدم عادةً في نظام التحكم بالإصدارات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
@@ -656,12 +656,12 @@ public void setSubject(String value)
 ```
 
 
-تعيين موضوع هذا الأصل
+يضبط موضوع هذا الأصل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
@@ -669,12 +669,12 @@ public void setTitle(String value)
 ```
 
 
-تعيين عنوان هذا الأصل
+يضبط عنوان هذا الأصل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setUnitName(String value) {#setUnitName-java.lang.String-}
 ```
@@ -682,12 +682,12 @@ public void setUnitName(String value)
 ```
 
 
-يضبط وحدة الطول المستخدمة في هذا الأصل. مثال: سم/م/كم/بوصة/قدم
+يضبط وحدة الطول المستخدمة في هذا الأصل. مثال: سم/م/كم/إنش/قدم
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setUnitScaleFactor(double value) {#setUnitScaleFactor-double-}
 ```
@@ -695,12 +695,12 @@ public void setUnitScaleFactor(double value)
 ```
 
 
-يضبط عامل المقياس إلى المتر في العالم الحقيقي.
+يضبط معامل المقياس إلى المتر في العالم الحقيقي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة **Remarks:** يتم تجاهل هذا أثناء التسلسل إذا كان اسم الوحدة فارغًا. |
+| قيمة | double | القيمة الجديدة **Remarks:** يتم تجاهل هذا أثناء التسلسل إذا كان اسم الوحدة فارغًا. |
 
 ### setUpVector(Axis value) {#setUpVector-com.aspose.threed.Axis-}
 ```
@@ -713,7 +713,7 @@ public void setUpVector(Axis value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Axis](../../com.aspose.threed/axis) | القيمة الجديدة |
+| value | [Axis](../../com.aspose.threed/axis) | قيمة جديدة |
 
 ### setUrl(String value) {#setUrl-java.lang.String-}
 ```
@@ -721,12 +721,12 @@ public void setUrl(String value)
 ```
 
 
-الحصول على أو تعيين عنوان URL لهذا الأصل.
+يحصل أو يضبط عنوان URL لهذا الأصل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

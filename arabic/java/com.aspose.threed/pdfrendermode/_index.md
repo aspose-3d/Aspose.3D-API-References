@@ -1,7 +1,7 @@
 ---
 title: "PdfRenderMode"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يحدد وضعية العرض النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "وضع العرض يحدد النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد."
 type: docs
 weight: 289
 url: /ar/java/com.aspose.threed/pdfrendermode/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum PdfRenderMode extends Enum<PdfRenderMode>
 ```
 
-يحدد وضعية العرض النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد.
+وضع العرض يحدد النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد.
 ## الحقول
 
 | حقل | الوصف |
@@ -21,16 +21,16 @@ public enum PdfRenderMode extends Enum<PdfRenderMode>
 | [BOUNDING_BOX](#BOUNDING-BOX) | يعرض حواف صندوق الحدود لكل عقدة، محاذية مع محاور مساحة الإحداثيات المحلية لتلك العقدة. |
 | [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | يعرض الحواف بلون واحد، مع إزالة الحواف المتجهة للخلف والمخفية. |
 | [ILLUSTRATION](#ILLUSTRATION) | يعرض حواف الظل مع الأسطح، ويزيل الخطوط المخفية. |
-| [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | يعرض حواف الظل مع أسطح مضاءة ومقشرة ومصطلح إشعاعي إضافي لإزالة المناطق ذات الإضاءة الضعيفة في العمل الفني. |
+| [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | يعرض حواف الظل مع أسطح مضاءة ومقشرة ومصطلح انبعاث إضافي لإزالة المناطق ذات الإضاءة الضعيفة في العمل الفني. |
 | [SHADED_VERTICES](#SHADED-VERTICES) | يعرض القمم فقط، مع استخدام لون القمة وتطبيق الإضاءة. |
 | [SHADED_WIREFRAME](#SHADED-WIREFRAME) | يعرض الحواف فقط، مع استيفاء لونها بين القمتين وتطبيق الإضاءة. |
-| [SOLID](#SOLID) | يعرض أشكالًا هندسية مقشرة ومضاءة. |
+| [SOLID](#SOLID) | يعرض الأشكال الهندسية الملمسة والمضاءة. |
 | [SOLID_OUTLINE](#SOLID-OUTLINE) | يعرض حواف الظل مع أسطح مضاءة ومقشرة، ويزيل الخطوط المخفية. |
-| [SOLID_WIREFRAME](#SOLID-WIREFRAME) | يعرض أشكالًا هندسية مقشرة ومضاءة (مثلثات) مع حواف بلون واحد فوقها. |
-| [TRANSPARENT](#TRANSPARENT) | يعرض أشكالًا هندسية مقشرة ومضاءة (مثلثات) مع مستوى إضافي من الشفافية. |
+| [SOLID_WIREFRAME](#SOLID-WIREFRAME) | يعرض الأشكال الهندسية الملمسة والمضاءة (مثلثات) مع حواف بلون واحد فوقها. |
+| [TRANSPARENT](#TRANSPARENT) | يعرض الأشكال الهندسية الملمسة والمضاءة (مثلثات) مع مستوى إضافي من الشفافية. |
 | [TRANSPARENT_BOUNDING_BOX](#TRANSPARENT-BOUNDING-BOX) | يعرض وجوه صناديق الحدود لكل عقدة، محاذية مع محاور مساحة الإحداثيات المحلية لتلك العقدة، مع مستوى إضافي من الشفافية. |
 | [TRANSPARENT_BOUNDING_BOX_OUTLINE](#TRANSPARENT-BOUNDING-BOX-OUTLINE) | يعرض حواف ووجوه صناديق الحدود لكل عقدة، محاذية مع محاور مساحة الإحداثيات المحلية لتلك العقدة، مع مستوى إضافي من الشفافية. |
-| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | يعرض أشكالًا هندسية مقشرة ومضاءة (مثلثات) مع مستوى إضافي من الشفافية، مع حواف صلبة بلون واحد فوقها. |
+| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | يعرض الأشكال الهندسية الملمسة والمضاءة (مثلثات) مع مستوى إضافي من الشفافية، مع حواف صلبة بلون واحد فوقها. |
 | [VERTICES](#VERTICES) | يعرض القمم فقط بلون واحد. |
 | [WIREFRAME](#WIREFRAME) | يعرض الحواف فقط بلون واحد. |
 ## الطرق
@@ -84,7 +84,7 @@ public static final PdfRenderMode SHADED_ILLUSTRATION
 ```
 
 
-يعرض حواف الظل مع أسطح مضاءة ومقشرة ومصطلح إشعاعي إضافي لإزالة المناطق ذات الإضاءة الضعيفة في العمل الفني.
+يعرض حواف الظل مع أسطح مضاءة ومقشرة ومصطلح انبعاث إضافي لإزالة المناطق ذات الإضاءة الضعيفة في العمل الفني.
 
 ### SHADED_VERTICES {#SHADED-VERTICES}
 ```
@@ -108,7 +108,7 @@ public static final PdfRenderMode SOLID
 ```
 
 
-يعرض أشكالًا هندسية مقشرة ومضاءة.
+يعرض الأشكال الهندسية الملمسة والمضاءة.
 
 ### SOLID_OUTLINE {#SOLID-OUTLINE}
 ```
@@ -124,7 +124,7 @@ public static final PdfRenderMode SOLID_WIREFRAME
 ```
 
 
-يعرض أشكالًا هندسية مقشرة ومضاءة (مثلثات) مع حواف بلون واحد فوقها.
+يعرض الأشكال الهندسية الملمسة والمضاءة (مثلثات) مع حواف بلون واحد فوقها.
 
 ### TRANSPARENT {#TRANSPARENT}
 ```
@@ -132,7 +132,7 @@ public static final PdfRenderMode TRANSPARENT
 ```
 
 
-يعرض أشكالًا هندسية مقشرة ومضاءة (مثلثات) مع مستوى إضافي من الشفافية.
+يعرض الأشكال الهندسية الملمسة والمضاءة (مثلثات) مع مستوى إضافي من الشفافية.
 
 ### TRANSPARENT_BOUNDING_BOX {#TRANSPARENT-BOUNDING-BOX}
 ```
@@ -156,7 +156,7 @@ public static final PdfRenderMode TRANSPARENT_WIREFRAME
 ```
 
 
-يعرض أشكالًا هندسية مقشرة ومضاءة (مثلثات) مع مستوى إضافي من الشفافية، مع حواف صلبة بلون واحد فوقها.
+يعرض الأشكال الهندسية الملمسة والمضاءة (مثلثات) مع مستوى إضافي من الشفافية، مع حواف صلبة بلون واحد فوقها.
 
 ### VERTICES {#VERTICES}
 ```

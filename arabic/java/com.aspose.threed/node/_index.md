@@ -1,7 +1,7 @@
 ---
 title: "Node"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يمثل عنصرًا في رسم المشهد."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يمثل عنصرًا في مخطط المشهد."
 type: docs
 weight: 110
 url: /ar/java/com.aspose.threed/node/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Node extends SceneObject
 ```
 
-يمثل عنصرًا في رسم المشهد. رسم المشهد هو شجرة من كائنات Node. خدمات إدارة الشجرة مدمجة في هذه الفئة. لاحظ أن Aspose.3D SDK لا يتحقق من صحة رسم المشهد المُنشأ. تقع مسؤولية المتصل في التأكد من عدم توليد رسومات بيانية دورية في تسلسل العقد. بالإضافة إلى إدارة الشجرة، تُعرّف هذه الفئة جميع الخصائص المطلوبة لوصف موضع الكائن في المشهد. تتضمن هذه المعلومات الخصائص الأساسية Translation و Rotation و Scaling والخيارات المتقدمة للمحاور، والحدود، وخصائص مفاصل IK مثل الصلابة والتخميد. عند إنشائها لأول مرة، يكون كائن Node \"empty\" (أي: هو كائن بدون أي تمثيل رسومي يحتوي فقط على معلومات الموضع). في هذه الحالة، يمكن استخدامه لتمثيل الأبواب في هيكل شجرة العقد ولكن ليس أكثر من ذلك. الاستخدام العادي لهذا النوع من الكائنات هو إضافة كيان يخصص العقدة (انظر \"Entity\"). الكيان هو كائن بحد ذاته ومربوط بـ Node. وهذا يعني أيضًا أن نفس الكيان يمكن مشاركته بين عدة عقد. الكاميرا، الضوء، الشبكة، إلخ... كلها كيانات وجميعها مشتقة من الفئة الأساسية Entity.
+يمثل عنصرًا في مخطط المشهد. مخطط المشهد هو شجرة من كائنات Node. خدمات إدارة الشجرة مدمجة في هذه الفئة. لاحظ أن Aspose.3D SDK لا يتحقق من صحة مخطط المشهد المُنشأ. تقع مسؤولية المتصل في التأكد من عدم إنشاء رسومات بيانية دورية في تسلسل العقد. بالإضافة إلى إدارة الشجرة، تُعرّف هذه الفئة جميع الخصائص المطلوبة لوصف موضع الكائن في المشهد. تشمل هذه المعلومات الخصائص الأساسية للترجمة (Translation)، الدوران (Rotation) والتحجيم (Scaling) والخيارات المتقدمة للمحاور، الحدود، وخصائص مفاصل IK مثل الصلابة والتخميد. عند إنشائها لأول مرة، يكون كائن Node "فارغًا" (أي: هو كائن بدون أي تمثيل رسومي يحتوي فقط على معلومات الموضع). في هذه الحالة، يمكن استخدامه لتمثيل الآباء في هيكل شجرة العقد ولكن ليس أكثر من ذلك. الاستخدام العادي لهذا النوع من الكائنات هو إضافة كيان (entity) يخصص العقدة (انظر "Entity"). الكيان هو كائن بحد ذاته ومربوط بـ Node. وهذا يعني أيضًا أن نفس الكيان يمكن مشاركته بين عدة عقد. الكاميرا، الإضاءة، الشبكة (Mesh)، إلخ... كلها كيانات وتستمد جميعها من الفئة الأساسية Entity.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -36,17 +36,17 @@ public class Node extends SceneObject
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [evaluateGlobalTransform(boolean withGeometricTransform)](#evaluateGlobalTransform-boolean-) | تقييم التحويل العالمي، تضمين التحويل الهندسي أم لا. |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
-| [getAssetInfo()](#getAssetInfo--) | معلومات الأصول لكل عقدة |
-| [getBoundingBox()](#getBoundingBox--) | حساب الصندوق المحيط للعقدة |
+| [getAssetInfo()](#getAssetInfo--) | معلومات الأصل لكل عقدة |
+| [getBoundingBox()](#getBoundingBox--) | حساب صندوق الحدود للعقدة |
 | [getChild(int index)](#getChild-int-) | يحصل على العقدة الفرعية عند الفهرس المحدد. |
 | [getChild(String nodeName)](#getChild-java.lang.String-) | يحصل على العقدة الفرعية بالاسم المحدد |
 | [getChildNodes()](#getChildNodes--) | يحصل على العقد الفرعية. |
 | [getClass()](#getClass--) |  |
 | [getEntities()](#getEntities--) | يحصل على جميع كيانات العقدة. |
-| [getEntity()](#getEntity--) | يحصل على أول كيان مرفق بهذه العقدة، إذا تم الضبط، سيتم مسح الكيانات الأخرى. |
+| [getEntity()](#getEntity--) | يحصل على أول كيان مرفق بهذه العقدة، إذا تم الضبط، سيُمسح الكيانات الأخرى. |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذه العقدة وجميع العقد/الكيانات الفرعية أثناء التصدير. |
 | [getGlobalTransform()](#getGlobalTransform--) | يحصل على التحويل العالمي. |
-| [getMaterial()](#getMaterial--) | يحصل على أول مادة مرتبطة بهذه العقدة، إذا تم الضبط، سيتم مسح المواد الأخرى |
+| [getMaterial()](#getMaterial--) | يحصل على أول مادة مرتبطة بهذه العقدة، إذا تم الضبط، سيُمسح المواد الأخرى |
 | [getMaterials()](#getMaterials--) | يحصل على المواد المرتبطة بهذه العقدة. |
 | [getMetaDatas()](#getMetaDatas--) | يحصل على البيانات الوصفية المعرفة في هذه العقدة. |
 | [getName()](#getName--) | يحصل على الاسم. |
@@ -61,18 +61,18 @@ public class Node extends SceneObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [selectObjects(String path)](#selectObjects-java.lang.String-) | اختيار عدة كائنات تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath. |
-| [selectSingleObject(String path)](#selectSingleObject-java.lang.String-) | اختيار كائن واحد تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath. |
-| [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | معلومات الأصول لكل عقدة |
-| [setEntity(Entity value)](#setEntity-com.aspose.threed.Entity-) | يضبط أول كيان مرفق بهذه العقدة، إذا تم الضبط، سيتم مسح الكيانات الأخرى. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [selectObjects(String path)](#selectObjects-java.lang.String-) | تحديد عدة كائنات تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath. |
+| [selectSingleObject(String path)](#selectSingleObject-java.lang.String-) | تحديد كائن واحد تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath. |
+| [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | معلومات الأصل لكل عقدة |
+| [setEntity(Entity value)](#setEntity-com.aspose.threed.Entity-) | يضبط أول كيان مرفق بهذه العقدة، إذا تم الضبط، سيُمسح الكيانات الأخرى. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذه العقدة وجميع العقد/الكيانات الفرعية أثناء التصدير. |
 | [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | يضبط المادة الأولى المرتبطة بهذه العقدة، إذا تم الضبط، سيُمسح باقي المواد |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط العقدة الأصلية. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setVisible(boolean value)](#setVisible-boolean-) | يضبط لإظهار العقدة |
-| [toString()](#toString--) | يحصل على تمثيل النص لهذه العقدة. |
+| [toString()](#toString--) | يحصل على تمثيل السلسلة لهذه العقدة. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -311,7 +311,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -326,7 +326,7 @@ public AssetInfo getAssetInfo()
 ```
 
 
-معلومات الأصول لكل عقدة
+معلومات الأصل لكل عقدة
 
 **Returns:**
 [AssetInfo](../../com.aspose.threed/assetinfo) - Per-node asset info
@@ -336,7 +336,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-حساب الصندوق المحيط للعقدة
+حساب صندوق الحدود للعقدة
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The bounding box of current node
@@ -351,7 +351,7 @@ public Node getChild(int index)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الفهرس | int | الفهرس. |
+| المؤشر | int | المؤشر. |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The child. **Example:** The following code shows how to get a child node at specified index.
@@ -372,7 +372,7 @@ public Node getChild(String nodeName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| nodeName | java.lang.String | اسم العقدة الفرعية للبحث عنه. |
+| nodeName | java.lang.String | اسم الطفل للبحث عنه. |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The child. **Example:** The following code shows how to get a child node with specified name
@@ -391,7 +391,7 @@ public List<Node> getChildNodes()
 يحصل على العقد الفرعية.
 
 **Returns:**
-java.util.List<com.aspose.threed.Node> - العقد الفرعية. **Example:** الكود التالي يوضح كيفية تعداد العقدة الفرعية للجذر
+java.util.List<com.aspose.threed.Node> - العقد الفرعية. **Example:** الكود التالي يوضح كيفية تعداد العقد الفرعية للجذر
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -426,7 +426,7 @@ public Entity getEntity()
 ```
 
 
-يحصل على أول كيان مرفق بهذه العقدة، إذا تم الضبط، سيتم مسح الكيانات الأخرى.
+يحصل على أول كيان مرفق بهذه العقدة، إذا تم الضبط، سيُمسح الكيانات الأخرى.
 
 **Returns:**
 [Entity](../../com.aspose.threed/entity) - the first entity attached to this node, if sets, will clear other entities. **Example:** The following code shows how to create a new child node under root node
@@ -479,7 +479,7 @@ public Material getMaterial()
 ```
 
 
-يحصل على أول مادة مرتبطة بهذه العقدة، إذا تم الضبط، سيتم مسح المواد الأخرى
+يحصل على أول مادة مرتبطة بهذه العقدة، إذا تم الضبط، سيُمسح المواد الأخرى
 
 **Returns:**
 [Material](../../com.aspose.threed/material) - the first material associated with this node, if sets, will clear other materials **Example:**
@@ -665,7 +665,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -680,12 +680,12 @@ public ArrayList<Object> selectObjects(String path)
 ```
 
 
-اختيار عدة كائنات تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath.
+تحديد عدة كائنات تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسار | java.lang.String | الاستعلام الشبيه بـ XPath |
+| المسار | java.lang.String | استعلام شبيه بـ XPath |
 
 **Returns:**
 java.util.ArrayList<java.lang.Object> - عدة كائنات تطابق استعلام شبيه بـ XPath.
@@ -695,12 +695,12 @@ public Object selectSingleObject(String path)
 ```
 
 
-اختيار كائن واحد تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath.
+تحديد كائن واحد تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسار | java.lang.String | الاستعلام الشبيه بـ XPath |
+| المسار | java.lang.String | استعلام شبيه بـ XPath |
 
 **Returns:**
 java.lang.Object - الكائن الموجود بواسطة استعلام شبيه بـ XPath.
@@ -710,12 +710,12 @@ public void setAssetInfo(AssetInfo value)
 ```
 
 
-معلومات الأصول لكل عقدة
+معلومات الأصل لكل عقدة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [AssetInfo](../../com.aspose.threed/assetinfo) | القيمة الجديدة |
+| value | [AssetInfo](../../com.aspose.threed/assetinfo) | قيمة جديدة |
 
 ### setEntity(Entity value) {#setEntity-com.aspose.threed.Entity-}
 ```
@@ -723,12 +723,12 @@ public void setEntity(Entity value)
 ```
 
 
-يضبط أول كيان مرفق بهذه العقدة، إذا تم الضبط، سيتم مسح الكيانات الأخرى.
+يضبط أول كيان مرفق بهذه العقدة، إذا تم الضبط، سيُمسح الكيانات الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [Entity](../../com.aspose.threed/entity) | قيمة جديدة **Example:** يوضح الكود التالي كيفية إنشاء عقدة فرعية جديدة تحت العقدة الجذرية |
+|  | value | [Entity](../../com.aspose.threed/entity) | قيمة جديدة **مثال:** يوضح الكود التالي كيفية إنشاء عقدة فرعية جديدة تحت العقدة الجذرية |
 
 ```
 Scene scene = new Scene();
@@ -748,7 +748,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | boolean | قيمة جديدة **Example:** يوضح الكود التالي كيفية استبعاد العقدة المحددة من التصدير |
+|  | قيمة | boolean | قيمة جديدة **مثال:** يوضح الكود التالي كيفية استبعاد العقدة المحددة من التصدير |
 
 ```
 Scene scene = new Scene();
@@ -787,7 +787,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -800,7 +800,7 @@ public void setParentNode(Node value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -814,7 +814,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setVisible(boolean value) {#setVisible-boolean-}
 ```
@@ -827,7 +827,7 @@ public void setVisible(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | boolean | قيمة جديدة **Example:** يوضح الكود التالي كيفية إنشاء عقدة غير مرئية |
+|  | قيمة | boolean | قيمة جديدة **مثال:** يوضح الكود التالي كيفية إنشاء عقدة غير مرئية |
 
 ```
 Scene scene = new Scene();
@@ -842,10 +842,10 @@ public String toString()
 ```
 
 
-يحصل على تمثيل النص لهذه العقدة.
+يحصل على تمثيل السلسلة لهذه العقدة.
 
 **Returns:**
-java.lang.String - تمثيل النص لهذا العقدة لأغراض التصحيح.
+java.lang.String - تمثيل السلسلة النصية لهذه العقدة لأغراض التصحيح.
 ### wait() {#wait--}
 ```
 public final void wait()

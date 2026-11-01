@@ -1,7 +1,7 @@
 ---
 title: "Plane"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "سطح مُعَيَّن."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "سطح باراميتري."
 type: docs
 weight: 128
 url: /ar/java/com.aspose.threed/plane/
@@ -13,14 +13,14 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Plane extends Primitive
 ```
 
-سطح مُعَيَّن.
+سطح باراميتري.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [Plane()](#Plane--) | يُنشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane) بالحجم الافتراضي 1x1. |
-| [Plane(double length, double width)](#Plane-double-double-) | يُنشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane). |
-| [Plane(String name, double length, double width, int lengthSegments, int widthSegments)](#Plane-java.lang.String-double-double-int-int-) | يُنشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane). |
+| [Plane()](#Plane--) | ينشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane) بحجم افتراضي 1x1. |
+| [Plane(double length, double width)](#Plane-double-double-) | ينشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane). |
+| [Plane(String name, double length, double width, int lengthSegments, int widthSegments)](#Plane-java.lang.String-double-double-int-int-) | ينشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,37 +30,37 @@ public class Plane extends Primitive
 | [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به. |
 | [getCastShadows()](#getCastShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض |
 | [getExcluded()](#getExcluded--) | يحصل على ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [getLength()](#getLength--) | يحصل على طول المستوى. |
+| [getLength()](#getLength--) | يحصل على طول الـplane. |
 | [getLengthSegments()](#getLengthSegments--) | يحصل على مقاطع الطول. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
-| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة. |
+| [getParentNode()](#getParentNode--) | يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
+| [getParentNodes()](#getParentNodes--) | يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [getReceiveShadows()](#getReceiveShadows--) | يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل. |
 | [getScene()](#getScene--) | يحصل على المشهد الذي ينتمي إليه هذا الكائن |
-| [getUp()](#getUp--) | يحصل على المتجه العلوي للمستوى، القيمة الافتراضية هي (0, 1, 0)، وهذا يؤثر على إنشاء المستوى |
-| [getWidth()](#getWidth--) | يحصل على عرض المستوى. |
+| [getUp()](#getUp--) | يحصل على المتجه العلوي للـplane، القيمة الافتراضية هي (0, 1, 0)، هذا يؤثر على توليد الـplane |
+| [getWidth()](#getWidth--) | يحصل على عرض الـplane. |
 | [getWidthSegments()](#getWidthSegments--) | يحصل على مقاطع العرض. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه إلقاء الظل |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير. |
-| [setLength(double value)](#setLength-double-) | يضبط طول المستوى. |
+| [setLength(double value)](#setLength-double-) | يضبط طول الـplane. |
 | [setLengthSegments(int value)](#setLengthSegments-int-) | يضبط مقاطع الطول. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | يضبط ما إذا كان هذا الشكل يمكنه استقبال الظل. |
-| [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | يضبط المتجه العلوي للمستوى، القيمة الافتراضية هي (0, 1, 0)، وهذا يؤثر على إنشاء المستوى. |
-| [setWidth(double value)](#setWidth-double-) | يضبط عرض المستوى. |
+| [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | يضبط المتجه العلوي للـplane، القيمة الافتراضية هي (0, 1, 0)، هذا يؤثر على توليد الـplane |
+| [setWidth(double value)](#setWidth-double-) | يضبط عرض الـplane. |
 | [setWidthSegments(int value)](#setWidthSegments-int-) | يضبط مقاطع العرض. |
-| [toMesh()](#toMesh--) | تحويل الكائن الحالي إلى شبكة |
+| [toMesh()](#toMesh--) | حوّل الكائن الحالي إلى شبكة |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public Plane()
 ```
 
 
-يُنشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane) بالحجم الافتراضي 1x1.
+ينشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane) بحجم افتراضي 1x1.
 
 ### Plane(double length, double width) {#Plane-double-double-}
 ```
@@ -79,7 +79,7 @@ public Plane(double length, double width)
 ```
 
 
-يُنشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane).
+ينشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -93,7 +93,7 @@ public Plane(String name, double length, double width, int lengthSegments, int w
 ```
 
 
-يُنشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane).
+ينشئ مثلاً جديداً من [Plane](../../com.aspose.threed/plane).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -101,8 +101,8 @@ public Plane(String name, double length, double width, int lengthSegments, int w
 | الاسم | java.lang.String | الاسم. |
 | الطول | double | طول المستوى. |
 | العرض | double | عرض المستوى. |
-| lengthSegments | int | مقاطع الطول. |
-| widthSegments | int | مقاطع العرض. |
+| lengthSegments | int | شرائح الطول. |
+| widthSegments | int | شرائح العرض. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -125,7 +125,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -177,7 +177,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض.
+يحصل على المفتاح الخاص بعارض الكيان المسجل في العارض
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -197,7 +197,7 @@ public double getLength()
 ```
 
 
-يحصل على طول المستوى.
+يحصل على طول الـplane.
 
 **Returns:**
 double - طول المستوى.
@@ -210,7 +210,7 @@ public int getLengthSegments()
 يحصل على مقاطع الطول.
 
 **Returns:**
-int - مقاطع الطول.
+int - شرائح الطول.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -227,7 +227,7 @@ public Node getParentNode()
 ```
 
 
-يحصل على أول عقدة أب، إذا تم تعيين أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يحصل على أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -237,10 +237,10 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-يحصل على جميع عقد الأب، يمكن إرفاق كيان بعدة عقد أب لتكرار الهندسة.
+يحصل على جميع عقد الأصل، يمكن إرفاق كيان بعدة عقد أصل لتكرار الهندسة
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتجسيد الهندسة
+java.util.ArrayList<com.aspose.threed.Node> - جميع العقد الأصلية، يمكن ربط كيان بعدة عقد أصلية لتكرار الهندسة
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -275,7 +275,7 @@ public boolean getReceiveShadows()
 يحصل على ما إذا كان هذا الشكل يمكنه استقبال الظل.
 
 **Returns:**
-boolean - ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل.
+boolean - ما إذا كان هذا الشكل الهندسي يمكنه تلقي الظل.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -292,7 +292,7 @@ public Vector3 getUp()
 ```
 
 
-يحصل على المتجه العلوي للمستوى، القيمة الافتراضية هي (0, 1, 0)، وهذا يؤثر على إنشاء المستوى
+يحصل على المتجه العلوي للـplane، القيمة الافتراضية هي (0, 1, 0)، هذا يؤثر على توليد الـplane
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the up vector of the plane, default value is (0, 1, 0), this affects the generation of the plane
@@ -302,7 +302,7 @@ public double getWidth()
 ```
 
 
-يحصل على عرض المستوى.
+يحصل على عرض الـplane.
 
 **Returns:**
 double - عرض المستوى.
@@ -315,7 +315,7 @@ public int getWidthSegments()
 يحصل على مقاطع العرض.
 
 **Returns:**
-int - مقاطع العرض.
+int - شرائح العرض.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -363,7 +363,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -383,7 +383,7 @@ public void setCastShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -396,7 +396,7 @@ public void setExcluded(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setLength(double value) {#setLength-double-}
 ```
@@ -404,12 +404,12 @@ public void setLength(double value)
 ```
 
 
-يضبط طول المستوى.
+يضبط طول الـplane.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setLengthSegments(int value) {#setLengthSegments-int-}
 ```
@@ -422,7 +422,7 @@ public void setLengthSegments(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -435,7 +435,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setParentNode(Node value) {#setParentNode-com.aspose.threed.Node-}
 ```
@@ -443,12 +443,12 @@ public void setParentNode(Node value)
 ```
 
 
-يضبط أول عقدة أب، إذا تم ضبط أول عقدة أب، سيُفصل هذا الكيان عن عقد الأب الأخرى.
+يضبط أول عقدة أصل، إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -462,7 +462,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setReceiveShadows(boolean value) {#setReceiveShadows-boolean-}
 ```
@@ -475,7 +475,7 @@ public void setReceiveShadows(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setUp(Vector3 value) {#setUp-com.aspose.threed.Vector3-}
 ```
@@ -483,12 +483,12 @@ public void setUp(Vector3 value)
 ```
 
 
-يضبط المتجه العلوي للمستوى، القيمة الافتراضية هي (0, 1, 0)، وهذا يؤثر على إنشاء المستوى.
+يضبط المتجه العلوي للـplane، القيمة الافتراضية هي (0, 1, 0)، هذا يؤثر على توليد الـplane
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setWidth(double value) {#setWidth-double-}
 ```
@@ -496,12 +496,12 @@ public void setWidth(double value)
 ```
 
 
-يضبط عرض المستوى.
+يضبط عرض الـplane.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setWidthSegments(int value) {#setWidthSegments-int-}
 ```
@@ -514,7 +514,7 @@ public void setWidthSegments(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### toMesh() {#toMesh--}
 ```
@@ -522,7 +522,7 @@ public Mesh toMesh()
 ```
 
 
-تحويل الكائن الحالي إلى شبكة
+حوّل الكائن الحالي إلى شبكة
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

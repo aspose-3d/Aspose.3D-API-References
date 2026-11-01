@@ -1,7 +1,7 @@
 ---
 title: "RenderingAPI"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "واجهات برمجة التطبيقات للتصيير المستخدمة شائعًا"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "واجهات برمجة تطبيقات العرض المستخدمة بشكل شائع"
 type: docs
 weight: 269
 url: /ar/java/com.aspose.threed/renderingapi/
@@ -13,24 +13,24 @@ java.lang.Object, java.lang.Enum
 public enum RenderingAPI extends Enum<RenderingAPI>
 ```
 
-واجهات برمجة التطبيقات للتصيير المستخدمة شائعًا
+واجهات برمجة تطبيقات العرض المستخدمة بشكل شائع
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [ARNOLD](#ARNOLD) | مُصوِّر Arnold |
-| [CUSTOM](#CUSTOM) | API مخصص للتصيير |
+| [ARNOLD](#ARNOLD) | محرك Arnold |
+| [CUSTOM](#CUSTOM) | واجهة برمجة تطبيقات عرض مخصصة |
 | [DIRECTX](#DIRECTX) | DirectX |
 | [MANTLE](#MANTLE) | AMD Mantle |
 | [MENTAL_RAY](#MENTAL-RAY) | MentalRay |
 | [METAL](#METAL) | Metal تم تطويره بواسطة Apple |
-| [NONE](#NONE) | لا توجد واجهة برمجة تطبيقات للتصيير |
+| [NONE](#NONE) | لا توجد واجهة برمجة تطبيقات عرض |
 | [OPENGL](#OPENGL) | OpenGL |
 | [OPENGLES](#OPENGLES) | OpenGL ES |
 | [PREVIEW](#PREVIEW) | PreviewColorAPI، متوافق مع FBX |
 | [RENDER_MAN](#RENDER-MAN) | RenderMan |
 | [RENDER_WARE](#RENDER-WARE) | RenderWare |
-| [SHADERFX](#SHADERFX) | مُصوِّر ShaderFX |
+| [SHADERFX](#SHADERFX) | محرك ShaderFX |
 | [STAGE3D](#STAGE3D) | Stage3D مستخدم في Adobe Flash |
 | [VULKAN](#VULKAN) | Vulkan |
 ## الطرق
@@ -60,7 +60,7 @@ public static final RenderingAPI ARNOLD
 ```
 
 
-مُصوِّر Arnold
+محرك Arnold
 
 ### CUSTOM {#CUSTOM}
 ```
@@ -68,7 +68,7 @@ public static final RenderingAPI CUSTOM
 ```
 
 
-API مخصص للتصيير
+واجهة برمجة تطبيقات عرض مخصصة
 
 ### DIRECTX {#DIRECTX}
 ```
@@ -108,7 +108,7 @@ public static final RenderingAPI NONE
 ```
 
 
-لا توجد واجهة برمجة تطبيقات للتصيير
+لا توجد واجهة برمجة تطبيقات عرض
 
 ### OPENGL {#OPENGL}
 ```
@@ -156,7 +156,7 @@ public static final RenderingAPI SHADERFX
 ```
 
 
-مُصوِّر ShaderFX
+محرك ShaderFX
 
 ### STAGE3D {#STAGE3D}
 ```

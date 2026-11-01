@@ -1,6 +1,6 @@
 ---
 title: "StencilState"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "حالات القالب لكل وجه."
 type: docs
 weight: 175
@@ -18,13 +18,13 @@ public class StencilState
 
 | طريقة | الوصف |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | يعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن محدد. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يعيد قيمة تشير إلى ما إذا كان هذا الكائن يساوي كائنًا محددًا. |
 | [getClass()](#getClass--) |  |
 | [getCompare()](#getCompare--) | يحصل على دالة المقارنة المستخدمة في اختبار الـ stencil. |
 | [getDepthFailAction()](#getDepthFailAction--) | يحصل على إجراء الـ stencil عندما ينجح اختبار الـ stencil لكن يفشل اختبار العمق. |
 | [getFailAction()](#getFailAction--) | يحصل على إجراء الـ stencil عندما يفشل اختبار الـ stencil. |
 | [getPassAction()](#getPassAction--) | يحصل على إجراء الـ stencil عندما ينجح كل من اختبار الـ stencil واختبار العمق. |
-| [hashCode()](#hashCode--) | يعيد رمز التجزئة (hash code) لهذه المثيلة. |
+| [hashCode()](#hashCode--) | يعيد رمز التجزئة لهذا الكائن. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCompare(CompareFunction value)](#setCompare-com.aspose.threed.CompareFunction-) | يضبط دالة المقارنة المستخدمة في اختبار الـ stencil. |
@@ -41,7 +41,7 @@ public boolean equals(Object obj)
 ```
 
 
-يعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن محدد.
+يعيد قيمة تشير إلى ما إذا كان هذا الكائن يساوي كائنًا محددًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -106,7 +106,7 @@ public int hashCode()
 ```
 
 
-يعيد رمز التجزئة (hash code) لهذه المثيلة.
+يعيد رمز التجزئة لهذا الكائن.
 
 **Returns:**
 int
@@ -137,7 +137,7 @@ public void setCompare(CompareFunction value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CompareFunction](../../com.aspose.threed/comparefunction) | القيمة الجديدة |
+| value | [CompareFunction](../../com.aspose.threed/comparefunction) | قيمة جديدة |
 
 ### setDepthFailAction(StencilAction value) {#setDepthFailAction-com.aspose.threed.StencilAction-}
 ```
@@ -150,7 +150,7 @@ public void setDepthFailAction(StencilAction value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [StencilAction](../../com.aspose.threed/stencilaction) | القيمة الجديدة |
+| value | [StencilAction](../../com.aspose.threed/stencilaction) | قيمة جديدة |
 
 ### setFailAction(StencilAction value) {#setFailAction-com.aspose.threed.StencilAction-}
 ```
@@ -163,7 +163,7 @@ public void setFailAction(StencilAction value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [StencilAction](../../com.aspose.threed/stencilaction) | القيمة الجديدة |
+| value | [StencilAction](../../com.aspose.threed/stencilaction) | قيمة جديدة |
 
 ### setPassAction(StencilAction value) {#setPassAction-com.aspose.threed.StencilAction-}
 ```
@@ -176,7 +176,7 @@ public void setPassAction(StencilAction value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [StencilAction](../../com.aspose.threed/stencilaction) | القيمة الجديدة |
+| value | [StencilAction](../../com.aspose.threed/stencilaction) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

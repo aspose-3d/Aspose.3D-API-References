@@ -1,6 +1,6 @@
 ---
 title: "ImageRenderOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "خيارات لـ  و"
 type: docs
 weight: 83
@@ -18,17 +18,17 @@ public class ImageRenderOptions extends A3DObject
 
 | منشئ | الوصف |
 | --- | --- |
-| [ImageRenderOptions()](#ImageRenderOptions--) | تهيئة نسخة من [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) |
+| [ImageRenderOptions()](#ImageRenderOptions--) | إنشاء نسخة من [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
-| [getAssetDirectories()](#getAssetDirectories--) | الأدلة التي تخزن الأصول الخارجية (مثل القوام) |
+| [getAssetDirectories()](#getAssetDirectories--) | الدلائل التي تخزن الأصول الخارجية (مثل القوام) |
 | [getBackgroundColor()](#getBackgroundColor--) | لون الخلفية لنتيجة العرض. |
 | [getClass()](#getClass--) |  |
-| [getEnableShadows()](#getEnableShadows--) | يرجع ما إذا كان سيتم تصيير الظلال. |
+| [getEnableShadows()](#getEnableShadows--) | يحصل على ما إذا كان سيتم تصيير الظلال. |
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
@@ -36,10 +36,10 @@ public class ImageRenderOptions extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [setAssetDirectories(ArrayList<String> value)](#setAssetDirectories-java.util.ArrayList-java.lang.String--) | الأدلة التي تخزن الأصول الخارجية (مثل القوام) |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [setAssetDirectories(ArrayList<String> value)](#setAssetDirectories-java.util.ArrayList-java.lang.String--) | الدلائل التي تخزن الأصول الخارجية (مثل القوام) |
 | [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | لون الخلفية لنتيجة العرض. |
-| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | يضبط ما إذا كان سيتم تصيير الظلال. |
+| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | يحدد ما إذا كان سيتم تصيير الظلال. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
@@ -52,7 +52,7 @@ public ImageRenderOptions()
 ```
 
 
-تهيئة نسخة من [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions)
+إنشاء نسخة من [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -75,7 +75,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -90,10 +90,10 @@ public ArrayList<String> getAssetDirectories()
 ```
 
 
-الأدلة التي تخزن الأصول الخارجية (مثل القوام)
+الدلائل التي تخزن الأصول الخارجية (مثل القوام)
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - الأدلة التي تخزن الأصول الخارجية (مثل القوام)
+java.util.ArrayList<java.lang.String> - الدلائل التي تخزن الأصول الخارجية (مثل القوام)
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Vector3 getBackgroundColor()
@@ -120,7 +120,7 @@ public boolean getEnableShadows()
 ```
 
 
-يرجع ما إذا كان سيتم تصيير الظلال.
+يحصل على ما إذا كان سيتم تصيير الظلال.
 
 **Returns:**
 boolean - ما إذا كان سيتم تصيير الظلال.
@@ -206,7 +206,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -221,12 +221,12 @@ public void setAssetDirectories(ArrayList<String> value)
 ```
 
 
-الأدلة التي تخزن الأصول الخارجية (مثل القوام)
+الدلائل التي تخزن الأصول الخارجية (مثل القوام)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.ArrayList<java.lang.String> | القيمة الجديدة |
+| قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة |
 
 ### setBackgroundColor(Vector3 value) {#setBackgroundColor-com.aspose.threed.Vector3-}
 ```
@@ -239,7 +239,7 @@ public void setBackgroundColor(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setEnableShadows(boolean value) {#setEnableShadows-boolean-}
 ```
@@ -247,12 +247,12 @@ public void setEnableShadows(boolean value)
 ```
 
 
-يضبط ما إذا كان سيتم تصيير الظلال.
+يحدد ما إذا كان سيتم تصيير الظلال.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -265,7 +265,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -279,7 +279,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "IOrientable"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الكيانات القابلة للتوجيه يجب أن تنفذ هذه الواجهة."
 type: docs
 weight: 246
@@ -50,7 +50,7 @@ public abstract void setDirection(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setTarget(Node value) {#setTarget-com.aspose.threed.Node-}
 ```
@@ -63,5 +63,5 @@ public abstract void setTarget(Node value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Node](../../com.aspose.threed/node) | القيمة الجديدة |
+| value | [Node](../../com.aspose.threed/node) | قيمة جديدة |
 

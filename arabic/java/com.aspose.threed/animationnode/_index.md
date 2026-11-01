@@ -1,7 +1,7 @@
 ---
 title: "AnimationNode"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يدعم Aspose.3Ds هيكلية الرسوم المتحركة؛ يمكن تكوين كل رسم متحرك من عدة رسومات متحركة وتعريف الإطارات المفتاحية للرسوم المتحركة."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يدعم Aspose.3Ds هيكلية الرسوم المتحركة؛ يمكن تكوين كل رسم متحرك من عدة رسوم متحركة وتعريف إطارات المفاتيح للرسوم المتحركة."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.threed/animationnode/
@@ -13,26 +13,26 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationNode extends A3DObject
 ```
 
-يدعم Aspose.3D هيكلية الرسوم المتحركة؛ يمكن تكوين كل رسم متحرك من عدة رسومات متحركة وتعريف الإطارات المفتاحية للرسوم المتحركة. [AnimationNode](../../com.aspose.threed/animationnode) يحدد تحويل قيمة الخاصية بمرور الوقت، على سبيل المثال، يمكن استخدام عقدة الرسوم المتحركة للتحكم في تحويل العقدة أو الخصائص الرقمية لكائن آخر [A3DObject](../../com.aspose.threed/a3dobject).
+يدعم Aspose.3D هيكلية الرسوم المتحركة؛ يمكن تكوين كل رسم متحرك من عدة رسوم متحركة وتعريف إطارات المفاتيح للرسوم المتحركة. [AnimationNode](../../com.aspose.threed/animationnode) يحدد تحويل قيمة الخاصية عبر الزمن، على سبيل المثال، يمكن استخدام عقدة الرسوم المتحركة للتحكم في تحويل العقدة أو الخصائص الرقمية لكائن [A3DObject](../../com.aspose.threed/a3dobject) الآخر.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [AnimationNode(String name)](#AnimationNode-java.lang.String-) | يُنشئ مثيلاً جديداً من الفئة [AnimationNode](../../com.aspose.threed/animationnode). |
-| [AnimationNode()](#AnimationNode--) | يُنشئ مثيلاً جديداً من الفئة [AnimationNode](../../com.aspose.threed/animationnode). |
+| [AnimationNode(String name)](#AnimationNode-java.lang.String-) | يُهيئ مثيلاً جديداً من الفئة [AnimationNode](../../com.aspose.threed/animationnode). |
+| [AnimationNode()](#AnimationNode--) | يُهيئ مثيلاً جديداً من الفئة [AnimationNode](../../com.aspose.threed/animationnode). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [createBindPoint(A3DObject obj, String propName)](#createBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | ينشئ BindPoint بناءً على نوع بيانات الخاصية. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [findBindPoint(A3DObject target, String name)](#findBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | يبحث عن نقطة الربط حسب الهدف والاسم. |
+| [findBindPoint(A3DObject target, String name)](#findBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | يجد نقطة الربط حسب الهدف والاسم. |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [getBindPoint(A3DObject target, String propName, boolean create)](#getBindPoint-com.aspose.threed.A3DObject-java.lang.String-boolean-) | يحصل على نقطة ربط الرسوم المتحركة للخاصية المعطاة. |
 | [getBindPoints()](#getBindPoints--) | يحصل على نقاط ربط الخاصية الحالية |
 | [getClass()](#getClass--) |  |
 | [getKeyframeSequence(A3DObject target, String propName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-boolean-) | يحصل على تسلسل الإطارات المفتاحية للخاصية المعطاة. |
-| [getKeyframeSequence(A3DObject target, String propName, String channelName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-java.lang.String-boolean-) | يحصل على تسلسل الإطارات المفتاحية للخاصية والقناة المحددة. |
+| [getKeyframeSequence(A3DObject target, String propName, String channelName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-java.lang.String-boolean-) | يحصل على تسلسل الإطار الرئيسي على الخاصية والقناة المحددة. |
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
@@ -41,7 +41,7 @@ public class AnimationNode extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
@@ -54,7 +54,7 @@ public AnimationNode(String name)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة [AnimationNode](../../com.aspose.threed/animationnode).
+يُهيئ مثيلاً جديداً من الفئة [AnimationNode](../../com.aspose.threed/animationnode).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,7 +67,7 @@ public AnimationNode()
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة [AnimationNode](../../com.aspose.threed/animationnode).
+يُهيئ مثيلاً جديداً من الفئة [AnimationNode](../../com.aspose.threed/animationnode).
 
 ### createBindPoint(A3DObject obj, String propName) {#createBindPoint-com.aspose.threed.A3DObject-java.lang.String-}
 ```
@@ -106,13 +106,13 @@ public BindPoint findBindPoint(A3DObject target, String name)
 ```
 
 
-يبحث عن نقطة الربط حسب الهدف والاسم.
+يجد نقطة الربط حسب الهدف والاسم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| target | [A3DObject](../../com.aspose.threed/a3dobject) | الهدف لنقطة الربط للعثور عليه. |
-| الاسم | java.lang.String | اسم نقطة الربط للعثور عليه. |
+| target | [A3DObject](../../com.aspose.threed/a3dobject) | هدف نقطة الربط للبحث عنها. |
+| الاسم | java.lang.String | اسم نقطة الربط للبحث عنه. |
 
 **Returns:**
 [BindPoint](../../com.aspose.threed/bindpoint) - The bind point.
@@ -122,7 +122,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -179,7 +179,7 @@ public KeyframeSequence getKeyframeSequence(A3DObject target, String propName, b
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| target | [A3DObject](../../com.aspose.threed/a3dobject) | على أي نسخة يتم إنشاء تسلسل الإطارات المفتاحية. |
+| target | [A3DObject](../../com.aspose.threed/a3dobject) | على أي نسخة يتم إنشاء تسلسل الإطار الرئيسي. |
 | propName | java.lang.String | اسم الخاصية. |
 | إنشاء | boolean | إذا تم تعيينه إلى  true , إنشاء التسلسل إذا لم يكن موجودًا. |
 
@@ -191,12 +191,12 @@ public KeyframeSequence getKeyframeSequence(A3DObject target, String propName, S
 ```
 
 
-يحصل على تسلسل الإطارات المفتاحية للخاصية والقناة المحددة.
+يحصل على تسلسل الإطار الرئيسي على الخاصية والقناة المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| target | [A3DObject](../../com.aspose.threed/a3dobject) | على أي نسخة يتم إنشاء تسلسل الإطارات المفتاحية. |
+| target | [A3DObject](../../com.aspose.threed/a3dobject) | على أي نسخة يتم إنشاء تسلسل الإطار الرئيسي. |
 | propName | java.lang.String | اسم الخاصية. |
 | channelName | java.lang.String | اسم القناة. |
 | إنشاء | boolean | إذا تم تعيينه إلى  true  إنشاء تسلسل الرسوم المتحركة إذا لم يكن موجودًا. |
@@ -295,7 +295,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -315,7 +315,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -329,7 +329,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

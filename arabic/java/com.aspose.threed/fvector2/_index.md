@@ -1,6 +1,6 @@
 ---
 title: "FVector2"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "متجه float مكوّن من عنصرين."
 type: docs
 weight: 59
@@ -21,8 +21,8 @@ public final class FVector2 implements Struct<FVector2>, Serializable
 
 | منشئ | الوصف |
 | --- | --- |
-| [FVector2(float x, float y)](#FVector2-float-float-) | يُنشئ مثيلًا جديدًا من [FVector2](../../com.aspose.threed/fvector2). |
-| [FVector2(Vector2 vec)](#FVector2-com.aspose.threed.Vector2-) | يُنشئ مثيلًا جديدًا من [FVector2](../../com.aspose.threed/fvector2). |
+| [FVector2(float x, float y)](#FVector2-float-float-) | ينشئ مثيلة جديدة من [FVector2](../../com.aspose.threed/fvector2). |
+| [FVector2(Vector2 vec)](#FVector2-com.aspose.threed.Vector2-) | ينشئ مثيلة جديدة من [FVector2](../../com.aspose.threed/fvector2). |
 | [FVector2()](#FVector2--) |  |
 ## الحقول
 
@@ -34,21 +34,21 @@ public final class FVector2 implements Struct<FVector2>, Serializable
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(FVector2 a, FVector2 b)](#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \+ تحميل المشغل |
+| [add(FVector2 a, FVector2 b)](#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \+ التحميل الزائد للمشغل |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector2 src)](#copyFrom-com.aspose.threed.FVector2-) |  |
-| [create(FVector2 v)](#create-com.aspose.threed.FVector2-) | مشغل التحويل الصريح لتحويل FVector2 إلى Vector2 |
+| [create(FVector2 v)](#create-com.aspose.threed.FVector2-) | المشغل الصريح للتحويل لتحويل FVector2 إلى Vector2 |
 | [equals(FVector2 rhs)](#equals-com.aspose.threed.FVector2-) | تحقق مما إذا كان المتجهان متساويين |
 | [equals(Object obj)](#equals-java.lang.Object-) | تحقق مما إذا كان المتجهان متساويين |
 | [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) | يحصل على رمز التجزئة لهذه الحالة |
-| [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* تحميل المشغل |
+| [hashCode()](#hashCode--) | يحصل على رمز التجزئة لهذه المثيل |
+| [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* التحميل الزائد للمشغل |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_eq(FVector2 a, FVector2 b)](#op-eq-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | == تحميل المشغل |
-| [op_ne(FVector2 a, FVector2 b)](#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | != تحميل المشغل |
-| [sub(FVector2 a, FVector2 b)](#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \- تحميل المشغل |
-| [toString()](#toString--) | يعيد سلسلة تمثل [FVector2](../../com.aspose.threed/fvector2) |
+| [op_eq(FVector2 a, FVector2 b)](#op-eq-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | == التحميل الزائد للمشغل |
+| [op_ne(FVector2 a, FVector2 b)](#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | != التحميل الزائد للمشغل |
+| [sub(FVector2 a, FVector2 b)](#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \- التحميل الزائد للمشغل |
+| [toString()](#toString--) | يرجع سلسلة تمثل [FVector2](../../com.aspose.threed/fvector2) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -58,7 +58,7 @@ public FVector2(float x, float y)
 ```
 
 
-يُنشئ مثيلًا جديدًا من [FVector2](../../com.aspose.threed/fvector2).
+ينشئ مثيلة جديدة من [FVector2](../../com.aspose.threed/fvector2).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -72,7 +72,7 @@ public FVector2(Vector2 vec)
 ```
 
 
-يُنشئ مثيلًا جديدًا من [FVector2](../../com.aspose.threed/fvector2).
+ينشئ مثيلة جديدة من [FVector2](../../com.aspose.threed/fvector2).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -107,7 +107,7 @@ public static FVector2 add(FVector2 a, FVector2 b)
 ```
 
 
-\+ تحميل المشغل
+\+ التحميل الزائد للمشغل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -123,7 +123,7 @@ public FVector2 clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [FVector2](../../com.aspose.threed/fvector2)
@@ -146,7 +146,7 @@ public static Vector2 create(FVector2 v)
 ```
 
 
-مشغل التحويل الصريح لتحويل FVector2 إلى Vector2
+المشغل الصريح للتحويل لتحويل FVector2 إلى Vector2
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -201,7 +201,7 @@ public int hashCode()
 ```
 
 
-يحصل على رمز التجزئة لهذه الحالة
+يحصل على رمز التجزئة لهذه المثيل
 
 **Returns:**
 عدد صحيح - رمز التجزئة للمتجه.
@@ -211,7 +211,7 @@ public static FVector2 mul(FVector2 a, float b)
 ```
 
 
-\* تحميل المشغل
+\* التحميل الزائد للمشغل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -243,7 +243,7 @@ public static boolean op_eq(FVector2 a, FVector2 b)
 ```
 
 
-== تحميل المشغل
+== التحميل الزائد للمشغل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -275,7 +275,7 @@ public static FVector2 sub(FVector2 a, FVector2 b)
 ```
 
 
-\- تحميل المشغل
+\- التحميل الزائد للمشغل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -291,10 +291,10 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل [FVector2](../../com.aspose.threed/fvector2)
+يرجع سلسلة تمثل [FVector2](../../com.aspose.threed/fvector2)
 
 **Returns:**
-java.lang.String - تمثيل سلسلة للمتجه الحالي.
+java.lang.String - تمثيل نصي للمتجه الحالي.
 ### wait() {#wait--}
 ```
 public final void wait()

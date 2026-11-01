@@ -1,6 +1,6 @@
 ---
 title: "AnimationClip"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "مقطع الرسوم المتحركة هو مجموعة من الرسوم المتحركة."
 type: docs
 weight: 14
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationClip extends SceneObject
 ```
 
-مقاطع الرسوم المتحركة هي مجموعة من الرسوم المتحركة. يمكن للمشهد أن يحتوي على مقطع أو أكثر من مقاطع الرسوم المتحركة.
+مقطع الرسوم المتحركة هو مجموعة من الرسوم المتحركة. يمكن للمشهد أن يحتوي على مقطع أو أكثر من مقاطع الرسوم المتحركة.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [AnimationClip()](#AnimationClip--) | ينشئ مثيلاً جديداً من الفئة [AnimationClip](../../com.aspose.threed/animationclip). |
-| [AnimationClip(String name)](#AnimationClip-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة [AnimationClip](../../com.aspose.threed/animationclip). |
+| [AnimationClip()](#AnimationClip--) | ينشئ مثيلًا جديدًا من الفئة [AnimationClip](../../com.aspose.threed/animationclip). |
+| [AnimationClip(String name)](#AnimationClip-java.lang.String-) | ينشئ مثيلًا جديدًا من الفئة [AnimationClip](../../com.aspose.threed/animationclip). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -40,7 +40,7 @@ public class AnimationClip extends SceneObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setDescription(String value)](#setDescription-java.lang.String-) | يضبط وصف هذا المقطع المتحرك |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
@@ -56,7 +56,7 @@ public AnimationClip()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [AnimationClip](../../com.aspose.threed/animationclip).
+ينشئ مثيلًا جديدًا من الفئة [AnimationClip](../../com.aspose.threed/animationclip).
 
 ### AnimationClip(String name) {#AnimationClip-java.lang.String-}
 ```
@@ -64,7 +64,7 @@ public AnimationClip(String name)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [AnimationClip](../../com.aspose.threed/animationclip).
+ينشئ مثيلًا جديدًا من الفئة [AnimationClip](../../com.aspose.threed/animationclip).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -107,7 +107,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -125,7 +125,7 @@ public List<AnimationNode> getAnimations()
 يحصل على الرسوم المتحركة الموجودة داخل المقطع.
 
 **Returns:**
-java.util.List<com.aspose.threed.AnimationNode> - الرسوم المتحركة المحتواة داخل المقطع.
+java.util.List<com.aspose.threed.AnimationNode> - الرسوم المتحركة الموجودة داخل المقطع.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -258,7 +258,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -278,7 +278,7 @@ public void setDescription(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -291,7 +291,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -305,7 +305,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setStart(double value) {#setStart-double-}
 ```
@@ -318,7 +318,7 @@ public void setStart(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setStop(double value) {#setStop-double-}
 ```
@@ -331,7 +331,7 @@ public void setStop(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

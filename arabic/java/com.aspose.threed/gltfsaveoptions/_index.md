@@ -1,6 +1,6 @@
 ---
 title: "GltfSaveOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "خيارات الحفظ لتنسيق glTF."
 type: docs
 weight: 74
@@ -26,46 +26,46 @@ public class GltfSaveOptions extends SaveOptions
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getApplyUnitScale()](#getApplyUnitScale--) | تطبيق [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) على الشبكة. |
-| [getBufferFile()](#getBufferFile--) | اسم ملف المخزن الخارجي المستخدم لتخزين البيانات الثنائية. |
+| [getBufferFile()](#getBufferFile--) | اسم ملف المخزن المؤقت الخارجي المستخدم لتخزين البيانات الثنائية. |
 | [getClass()](#getClass--) |  |
-| [getDracoCompression()](#getDracoCompression--) | يُرجع ما إذا كان تمكين ضغط دراكو |
-| [getEmbedAssets()](#getEmbedAssets--) | تضمين جميع الأصول الخارجية كـ base64 في ملف واحد بوضع ASCII، القيمة الافتراضية هي false. |
+| [getDracoCompression()](#getDracoCompression--) | يحصل على ما إذا كان يجب تمكين ضغط draco |
+| [getEmbedAssets()](#getEmbedAssets--) | تضمين جميع الأصول الخارجية كـ base64 في ملف واحد في وضع ASCII، القيمة الافتراضية هي false. |
 | [getEncoding()](#getEncoding--) | يحصل على الترميز الافتراضي للملفات النصية. |
 | [getExportTextures()](#getExportTextures--) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
-| [getExternalDracoEncoder()](#getExternalDracoEncoder--) | استخدام مشفر دراكو الخارجي لتسريع سرعة ضغط دراكو. |
-| [getFallbackNormal()](#getFallbackNormal--) | عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيتم استخدام هذا بدلاً من قيمته الأصلية لتجاوز التحقق. |
+| [getExternalDracoEncoder()](#getExternalDracoEncoder--) | استخدام مشفر draco الخارجي لتسريع سرعة ضغط draco. |
+| [getFallbackNormal()](#getFallbackNormal--) | عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيُستخدم هذا بدلاً من قيمته الأصلية لتجاوز التحقق. |
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
-| [getFileName()](#getFileName--) | اسم ملف المشهد المصدر/المستورد. |
+| [getFileName()](#getFileName--) | اسم الملف للمشهد المصدر/المستورد. |
 | [getFileSystem()](#getFileSystem--) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | يحصل على فئة المصنع لنظام الملفات. |
 | [getFlipTexCoordV()](#getFlipTexCoordV--) | قلب مكوّن إحداثي القوام v(t)، القيمة الافتراضية هي true. |
 | [getImageFormat()](#getImageFormat--) | يدعم glTF القياسي فقط PNG/JPG كتنسيق للملمس، هذا الخيار سيوجه كيفية تحويل Aspose.3D للصور غير القياسية إلى تنسيق مدعوم أثناء التصدير. |
-| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [getMaterialConverter()](#getMaterialConverter--) | محول مخصص لتحويل مادة الشكل الهندسي إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. |
-| [getPrettyPrint()](#getPrettyPrint--) | محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false |
+| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [getMaterialConverter()](#getMaterialConverter--) | محول مخصص لتحويل مادة الهندسة إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. |
+| [getPrettyPrint()](#getPrettyPrint--) | محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false. |
 | [getSaveExtras()](#getSaveExtras--) | احفظ الخصائص الديناميكية لكائن المشهد في حقول 'extra' في ملف glTF المُولد. |
-| [getUseCommonMaterials()](#getUseCommonMaterials--) | سلسلة المواد باستخدام امتدادات المواد المشتركة KHR، القيمة الافتراضية هي false. |
+| [getUseCommonMaterials()](#getUseCommonMaterials--) | سلسلة المواد باستخدام امتدادات المادة المشتركة KHR، القيمة الافتراضية هي false. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | تطبيق [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) على الشبكة. |
-| [setBufferFile(String value)](#setBufferFile-java.lang.String-) | اسم ملف المخزن الخارجي المستخدم لتخزين البيانات الثنائية. |
-| [setDracoCompression(boolean value)](#setDracoCompression-boolean-) | تحدد ما إذا كان يجب تمكين ضغط draco |
-| [setEmbedAssets(boolean value)](#setEmbedAssets-boolean-) | تضمين جميع الأصول الخارجية كـ base64 في ملف واحد بوضع ASCII، القيمة الافتراضية هي false. |
+| [setBufferFile(String value)](#setBufferFile-java.lang.String-) | اسم ملف المخزن المؤقت الخارجي المستخدم لتخزين البيانات الثنائية. |
+| [setDracoCompression(boolean value)](#setDracoCompression-boolean-) | يحدد ما إذا كان يجب تمكين ضغط draco. |
+| [setEmbedAssets(boolean value)](#setEmbedAssets-boolean-) | تضمين جميع الأصول الخارجية كـ base64 في ملف واحد في وضع ASCII، القيمة الافتراضية هي false. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | يضبط الترميز الافتراضي للملفات النصية. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
-| [setExternalDracoEncoder(String value)](#setExternalDracoEncoder-java.lang.String-) | استخدام مشفر دراكو الخارجي لتسريع سرعة ضغط دراكو. |
-| [setFallbackNormal(Vector3 value)](#setFallbackNormal-com.aspose.threed.Vector3-) | عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيتم استخدام هذا بدلاً من قيمته الأصلية لتجاوز التحقق. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | اسم ملف المشهد المصدر/المستورد. |
+| [setExternalDracoEncoder(String value)](#setExternalDracoEncoder-java.lang.String-) | استخدام مشفر draco الخارجي لتسريع سرعة ضغط draco. |
+| [setFallbackNormal(Vector3 value)](#setFallbackNormal-com.aspose.threed.Vector3-) | عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيُستخدم هذا بدلاً من قيمته الأصلية لتجاوز التحقق. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | اسم الملف للمشهد المصدر/المستورد. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | يضبط فئة المصنع لنظام الملفات. |
 | [setFlipTexCoordV(boolean value)](#setFlipTexCoordV-boolean-) | قلب مكوّن إحداثي القوام v(t)، القيمة الافتراضية هي true. |
 | [setImageFormat(GltfEmbeddedImageFormat value)](#setImageFormat-com.aspose.threed.GltfEmbeddedImageFormat-) | يدعم glTF القياسي فقط PNG/JPG كتنسيق للملمس، هذا الخيار سيوجه كيفية تحويل Aspose.3D للصور غير القياسية إلى تنسيق مدعوم أثناء التصدير. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | محول مخصص لتحويل مادة الشكل الهندسي إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. |
-| [setPrettyPrint(boolean value)](#setPrettyPrint-boolean-) | محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | محول مخصص لتحويل مادة الهندسة إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. |
+| [setPrettyPrint(boolean value)](#setPrettyPrint-boolean-) | محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false. |
 | [setSaveExtras(boolean value)](#setSaveExtras-boolean-) | احفظ الخصائص الديناميكية لكائن المشهد في حقول 'extra' في ملف glTF المُولد. |
-| [setUseCommonMaterials(boolean value)](#setUseCommonMaterials-boolean-) | سلسلة المواد باستخدام امتدادات المواد المشتركة KHR، القيمة الافتراضية هي false. |
+| [setUseCommonMaterials(boolean value)](#setUseCommonMaterials-boolean-) | سلسلة المواد باستخدام امتدادات المادة المشتركة KHR، القيمة الافتراضية هي false. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -147,7 +147,7 @@ public boolean getDracoCompression()
 ```
 
 
-يُرجع ما إذا كان تمكين ضغط دراكو
+يحصل على ما إذا كان يجب تمكين ضغط draco
 
 **Returns:**
 boolean - ما إذا كان يجب تمكين ضغط draco
@@ -157,7 +157,7 @@ public boolean getEmbedAssets()
 ```
 
 
-تضمين جميع الأصول الخارجية كـ base64 في ملف واحد بوضع ASCII، القيمة الافتراضية هي false.
+تضمين جميع الأصول الخارجية كـ base64 في ملف واحد في وضع ASCII، القيمة الافتراضية هي false.
 
 **Returns:**
 boolean - تضمين جميع الأصول الخارجية كـ base64 في ملف واحد في وضع ASCII، القيمة الافتراضية هي false.
@@ -187,17 +187,17 @@ public String getExternalDracoEncoder()
 ```
 
 
-استخدام مشفر دراكو الخارجي لتسريع سرعة ضغط دراكو.
+استخدام مشفر draco الخارجي لتسريع سرعة ضغط draco.
 
 **Returns:**
-java.lang.String - استخدم مشفر draco الخارجي لتسريع سرعة ضغط draco. **Remarks:** Aspose.3D سيُنشئ عملية فرعية جديدة لتشفير الشبكة إلى تنسيق draco، استخدمه على مسؤوليتك الخاصة.
+java.lang.String - استخدم مشفر draco الخارجي لتسريع سرعة ضغط draco. **Remarks:** سيقوم Aspose.3D بإنشاء عملية فرعية جديدة لتشفير الشبكة إلى تنسيق draco، استخدمه على مسؤوليتك الخاصة.
 ### getFallbackNormal() {#getFallbackNormal--}
 ```
 public Vector3 getFallbackNormal()
 ```
 
 
-عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيتم استخدام هذا بدلاً من قيمته الأصلية لتجاوز التحقق. القيمة الافتراضية هي (0, 1, 0)
+عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيتم استخدام هذا بدلاً من قيمته الأصلية لتجاوز التحقق. القيمة الافتراضية هي (0, 1, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - When GLTF2 exporter detected an invalid normal, this will be used instead of its original value to bypass the validation. Default value is (0, 1, 0)
@@ -217,10 +217,10 @@ public String getFileName()
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Returns:**
-java.lang.String - اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+java.lang.String - اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -261,7 +261,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -293,7 +293,7 @@ public boolean getFlipTexCoordV()
 قلب مكوّن إحداثي القوام v(t)، القيمة الافتراضية هي true.
 
 **Returns:**
-boolean - عكس مكوّن إحداثيات القوام v(t)، القيمة الافتراضية هي true.
+boolean - عكس مكوّن إحداثيات الملمس v(t)، القيمة الافتراضية هي true.
 ### getImageFormat() {#getImageFormat--}
 ```
 public GltfEmbeddedImageFormat getImageFormat()
@@ -310,10 +310,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
+java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
 
 ```
 var opt = new ObjLoadOptions();
@@ -328,7 +328,7 @@ public MaterialConverter getMaterialConverter()
 ```
 
 
-محول مخصص لتحويل مادة الشكل الهندسي إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. القيمة الافتراضية هي null. تُستخدم هذه الخاصية عند تصدير مشهد إلى ملف glTF 2.0.
+محول مخصص لتحويل مادة الهندسة إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. القيمة الافتراضية هي null. تُستخدم هذه الخاصية عند تصدير مشهد إلى ملف glTF 2.0.
 
 **Returns:**
 [MaterialConverter](../../com.aspose.threed/materialconverter) - Custom converter to convert the geometry's material to PBR material If this is unassigned, glTF 2.0 exporter will automatically convert the standard material to PBR material. Default value is null This property is used when exporting a scene to a glTF 2.0 file.
@@ -338,10 +338,10 @@ public boolean getPrettyPrint()
 ```
 
 
-محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false
+محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false.
 
 **Returns:**
-boolean - محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false
+boolean - محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false.
 ### getSaveExtras() {#getSaveExtras--}
 ```
 public boolean getSaveExtras()
@@ -351,17 +351,17 @@ public boolean getSaveExtras()
 احفظ الخصائص الديناميكية لكائن المشهد في حقول 'extra' في ملف glTF المُولد. هذا مفيد لتوفير بيانات خاصة بالتطبيق. القيمة الافتراضية هي false.
 
 **Returns:**
-boolean - احفظ الخصائص الديناميكية لكائن المشهد في حقول 'extra' في ملف GLTF المُولد. هذا مفيد لتوفير بيانات خاصة بالتطبيق. القيمة الافتراضية هي false.
+boolean - احفظ الخصائص الديناميكية لكائن المشهد في حقول 'extra' في ملف glTF المُولد. هذا مفيد لتوفير بيانات خاصة بالتطبيق. القيمة الافتراضية هي false.
 ### getUseCommonMaterials() {#getUseCommonMaterials--}
 ```
 public boolean getUseCommonMaterials()
 ```
 
 
-سلسلة المواد باستخدام امتدادات المواد المشتركة KHR، القيمة الافتراضية هي false. ضبط هذا على false سيتسبب في تصدير Aspose.3D لمجموعة من تظليل القمة/الجزء إذا كان [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
+سلسلة المواد باستخدام امتدادات المادة المشتركة KHR، القيمة الافتراضية هي false. ضبط هذا على false سيتسبب في تصدير Aspose.3D لمجموعة من تظليل القمة/الجزء إذا كان [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
 
 **Returns:**
-boolean - سلسلة المواد باستخدام امتدادات المواد المشتركة KHR، القيمة الافتراضية هي false. ضبط هذا على false سيتسبب في تصدير Aspose.3D لمجموعة من تظليل القمة/الجزء إذا كان [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) **Remarks:** هذه الخاصية تعمل فقط مع glTF 1.0
+boolean - سلسلة المواد باستخدام امتدادات المادة المشتركة KHR، القيمة الافتراضية هي false. ضبط هذا على false سيتسبب في تصدير Aspose.3D لمجموعة من تظليل القمة/الجزء إذا كان [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) **Remarks:** هذه الخاصية تعمل فقط مع glTF 1.0
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -399,7 +399,7 @@ public void setApplyUnitScale(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setBufferFile(String value) {#setBufferFile-java.lang.String-}
 ```
@@ -412,7 +412,7 @@ public void setBufferFile(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setDracoCompression(boolean value) {#setDracoCompression-boolean-}
 ```
@@ -420,12 +420,12 @@ public void setDracoCompression(boolean value)
 ```
 
 
-تحدد ما إذا كان يجب تمكين ضغط draco
+يحدد ما إذا كان يجب تمكين ضغط draco.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEmbedAssets(boolean value) {#setEmbedAssets-boolean-}
 ```
@@ -433,12 +433,12 @@ public void setEmbedAssets(boolean value)
 ```
 
 
-تضمين جميع الأصول الخارجية كـ base64 في ملف واحد بوضع ASCII، القيمة الافتراضية هي false.
+تضمين جميع الأصول الخارجية كـ base64 في ملف واحد في وضع ASCII، القيمة الافتراضية هي false.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -446,12 +446,12 @@ public void setEncoding(Charset value)
 ```
 
 
-يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يستخدم.
+يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يُستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.nio.charset.Charset | القيمة الجديدة |
+| قيمة | java.nio.charset.Charset | قيمة جديدة |
 
 ### setExportTextures(boolean value) {#setExportTextures-boolean-}
 ```
@@ -464,7 +464,7 @@ public void setExportTextures(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setExternalDracoEncoder(String value) {#setExternalDracoEncoder-java.lang.String-}
 ```
@@ -472,12 +472,12 @@ public void setExternalDracoEncoder(String value)
 ```
 
 
-استخدام مشفر دراكو الخارجي لتسريع سرعة ضغط دراكو.
+استخدام مشفر draco الخارجي لتسريع سرعة ضغط draco.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | قيمة جديدة **Remarks:** سيقوم Aspose.3D بإنشاء عملية فرعية جديدة لتشفير الشبكة إلى تنسيق draco، استخدمها على مسؤوليتك الخاصة. |
+| قيمة | java.lang.String | قيمة جديدة **Remarks:** سيقوم Aspose.3D بإنشاء عملية فرعية جديدة لتشفير الشبكة إلى تنسيق draco، استخدمه على مسؤوليتك الخاصة. |
 
 ### setFallbackNormal(Vector3 value) {#setFallbackNormal-com.aspose.threed.Vector3-}
 ```
@@ -485,12 +485,12 @@ public void setFallbackNormal(Vector3 value)
 ```
 
 
-عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيتم استخدام هذا بدلاً من قيمته الأصلية لتجاوز التحقق. القيمة الافتراضية هي (0, 1, 0)
+عند اكتشاف مُصدّر GLTF2 لِعادي غير صالح، سيتم استخدام هذا بدلاً من قيمته الأصلية لتجاوز التحقق. القيمة الافتراضية هي (0, 1, 0).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -498,12 +498,12 @@ public void setFileName(String value)
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
 ```
@@ -516,7 +516,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | New value **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، ولكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | قيمة جديدة **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، لكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -548,12 +548,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | New value **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | قيمة جديدة **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -585,7 +585,7 @@ public void setFlipTexCoordV(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setImageFormat(GltfEmbeddedImageFormat value) {#setImageFormat-com.aspose.threed.GltfEmbeddedImageFormat-}
 ```
@@ -598,7 +598,7 @@ public void setImageFormat(GltfEmbeddedImageFormat value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [GltfEmbeddedImageFormat](../../com.aspose.threed/gltfembeddedimageformat) | القيمة الجديدة |
+| value | [GltfEmbeddedImageFormat](../../com.aspose.threed/gltfembeddedimageformat) | قيمة جديدة |
 
 ### setLookupPaths(ArrayList<String> value) {#setLookupPaths-java.util.ArrayList-java.lang.String--}
 ```
@@ -606,12 +606,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.util.ArrayList<java.lang.String> | New value **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
+|  | قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
 
 ```
 var opt = new ObjLoadOptions();
@@ -627,12 +627,12 @@ public void setMaterialConverter(MaterialConverter value)
 ```
 
 
-محول مخصص لتحويل مادة الشكل الهندسي إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. القيمة الافتراضية هي null. تُستخدم هذه الخاصية عند تصدير مشهد إلى ملف glTF 2.0.
+محول مخصص لتحويل مادة الهندسة إلى مادة PBR. إذا لم يتم تعيينه، سيقوم مُصدّر glTF 2.0 تلقائيًا بتحويل المادة القياسية إلى مادة PBR. القيمة الافتراضية هي null. تُستخدم هذه الخاصية عند تصدير مشهد إلى ملف glTF 2.0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [MaterialConverter](../../com.aspose.threed/materialconverter) | القيمة الجديدة |
+| value | [MaterialConverter](../../com.aspose.threed/materialconverter) | قيمة جديدة |
 
 ### setPrettyPrint(boolean value) {#setPrettyPrint-boolean-}
 ```
@@ -640,12 +640,12 @@ public void setPrettyPrint(boolean value)
 ```
 
 
-محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false
+محتوى JSON لملف GLTF مُنسق للقراءة البشرية، القيمة الافتراضية هي false.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setSaveExtras(boolean value) {#setSaveExtras-boolean-}
 ```
@@ -658,7 +658,7 @@ public void setSaveExtras(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setUseCommonMaterials(boolean value) {#setUseCommonMaterials-boolean-}
 ```
@@ -666,12 +666,12 @@ public void setUseCommonMaterials(boolean value)
 ```
 
 
-سلسلة المواد باستخدام امتدادات المواد المشتركة KHR، القيمة الافتراضية هي false. ضبط هذا على false سيتسبب في تصدير Aspose.3D لمجموعة من تظليل القمة/الجزء إذا كان [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
+سلسلة المواد باستخدام امتدادات المادة المشتركة KHR، القيمة الافتراضية هي false. ضبط هذا على false سيتسبب في تصدير Aspose.3D لمجموعة من تظليل القمة/الجزء إذا كان [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة جديدة **Remarks:** هذه الخاصية تعمل فقط مع glTF 1.0 |
+| قيمة | boolean | قيمة جديدة **Remarks:** هذه الخاصية تعمل فقط مع glTF 1.0 |
 
 ### toString() {#toString--}
 ```

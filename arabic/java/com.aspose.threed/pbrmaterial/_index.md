@@ -1,7 +1,7 @@
 ---
 title: "PbrMaterial"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مادة للتصيير القائم على الفيزياء تعتمد على لون الألبيدو/المعدن/الخشونة."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "مادة للتصيير القائم على الفيزياء تعتمد على لون الألبيدو/المعدن/الخشونة"
 type: docs
 weight: 121
 url: /ar/java/com.aspose.threed/pbrmaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrMaterial extends Material
 ```
 
-مادة للتصيير القائم على الفيزياء تعتمد على لون الألبيدو/المعدن/الخشونة.
+مادة للتصيير القائم على الفيزياء تعتمد على لون الألبيدو/المعدن/الخشونة
 ## المنشئات
 
 | منشئ | الوصف |
@@ -26,7 +26,7 @@ public class PbrMaterial extends Material
 | --- | --- |
 | [MAP_AMBIENT](#MAP-AMBIENT) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج محيطي. |
 | [MAP_DIFFUSE](#MAP-DIFFUSE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج منتشر. |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مشع. |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مُشع. |
 | [MAP_NORMAL](#MAP-NORMAL) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج عادي. |
 | [MAP_SPECULAR](#MAP-SPECULAR) | يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج انعكاسي. |
 ## الطرق
@@ -37,44 +37,44 @@ public class PbrMaterial extends Material
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [fromMaterial(Material material)](#fromMaterial-com.aspose.threed.Material-) | السماح بتحويل مادة أخرى إلى PbrMaterial **Example:** |
 | [getAlbedo()](#getAlbedo--) | يحصل على اللون الأساسي للمادة |
-| [getAlbedoTexture()](#getAlbedoTexture--) | يحصل على الملمس للألبيدو |
+| [getAlbedoTexture()](#getAlbedoTexture--) | يحصل على القوام للـ albedo |
 | [getClass()](#getClass--) |  |
-| [getEmissiveColor()](#getEmissiveColor--) | يحصل على اللون المشع |
-| [getEmissiveTexture()](#getEmissiveTexture--) | يحصل على القوام للإنبعاث |
-| [getMetallicFactor()](#getMetallicFactor--) | يحصل على معدنية المادة، القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة. |
-| [getMetallicRoughness()](#getMetallicRoughness--) | يحصل على الملمس للمعدن (في قناة R) والخشونة (في قناة G) |
+| [getEmissiveColor()](#getEmissiveColor--) | يحصل على اللون المُشع |
+| [getEmissiveTexture()](#getEmissiveTexture--) | يحصل على القوام للانبعاث |
+| [getMetallicFactor()](#getMetallicFactor--) | يحصل على مِعْدَلة المعدن للمادة، قيمة 1 تعني أن المادة معدن وقيمة 0 تعني أن المادة عازلة. |
+| [getMetallicRoughness()](#getMetallicRoughness--) | يحصل على القوام للمعادن (في قناة R) والخشونة (في قناة G) |
 | [getName()](#getName--) | يحصل على الاسم. |
 | [getNormalTexture()](#getNormalTexture--) | يحصل على القوام لتخطيط العادي |
 | [getOcclusionFactor()](#getOcclusionFactor--) | يحصل على عامل الإغلاق المحيطي |
-| [getOcclusionTexture()](#getOcclusionTexture--) | يحصل على الملمس للإغلاق المحيطي |
+| [getOcclusionTexture()](#getOcclusionTexture--) | يحصل على القوام للإغلاق المحيطي |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
-| [getRoughnessFactor()](#getRoughnessFactor--) | يحصل على خشونة المادة، القيمة 1 تعني أن المادة خشنة تمامًا والقيمة 0 تعني أن المادة ناعمة تمامًا |
-| [getSpecularTexture()](#getSpecularTexture--) | يحصل على الملمس للون الانعكاس |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معامل المعالج |
+| [getRoughnessFactor()](#getRoughnessFactor--) | يحصل على خشونة المادة، قيمة 1 تعني أن المادة خشنة تمامًا وقيمة 0 تعني أن المادة ناعمة تمامًا |
+| [getSpecularTexture()](#getSpecularTexture--) | يحصل على القوام للون الانعكاس |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل |
 | [getTransparency()](#getTransparency--) | يحصل على عامل الشفافية. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | يحصل على المُعدد لتعداد فتحات النسيج الداخلية. |
+| [iterator()](#iterator--) | يحصل على المكرّر لتعداد فتحات النسيج الداخلية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setAlbedo(Vector3 value)](#setAlbedo-com.aspose.threed.Vector3-) | يضبط اللون الأساسي للمادة |
-| [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | يضبط القوام للـ albedo |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | يضبط اللون المشع |
-| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للانبعاث |
-| [setMetallicFactor(double value)](#setMetallicFactor-double-) | يضبط معدنية المادة، القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة. |
-| [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | يضبط القوام للـ metallic (في قناة R) و roughness (في قناة G) |
+| [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للـ albedo |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | يضبط اللون المُشع |
+| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للإنبعاث |
+| [setMetallicFactor(double value)](#setMetallicFactor-double-) | يضبط معدنية المادة، حيث أن القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة. |
+| [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | يضبط النسيج للـ metallic (في قناة R) والـ roughness (في قناة G) |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | يضبط نسيج تمثيل العادي |
-| [setOcclusionFactor(double value)](#setOcclusionFactor-double-) | يضبط عامل الإخفاء المحيطي |
-| [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | يضبط القوام للإخفاء المحيطي |
+| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | يضبط نسيج الخريطة العادية |
+| [setOcclusionFactor(double value)](#setOcclusionFactor-double-) | يضبط معامل الإخفاء المحيطي |
+| [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للإخفاء المحيطي |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [setRoughnessFactor(double value)](#setRoughnessFactor-double-) | يضبط خشونة المادة، القيمة 1 تعني أن المادة خشنة تمامًا والقيمة 0 تعني أن المادة ناعمة تمامًا |
-| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | يضبط القوام للون الانعكاس |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | يعيّن النسيج للفتحة المحددة |
+| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | يضبط النسيج للون الانعكاس |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | يضبط النسيج في الفتحة المحددة |
 | [setTransparency(double value)](#setTransparency-double-) | يضبط عامل الشفافية. |
-| [toString()](#toString--) | يقوم بتنسيق الكائن إلى سلسلة |
+| [toString()](#toString--) | تنسيق الكائن إلى سلسلة |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -121,7 +121,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مشع.
+يُستخدم في [setTexture](../../com.aspose.threed/material\#setTexture) لتعيين تخطيط نسيج مُشع.
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -160,7 +160,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -209,7 +209,7 @@ public TextureBase getAlbedoTexture()
 ```
 
 
-يحصل على الملمس للألبيدو
+يحصل على القوام للـ albedo
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for albedo
@@ -229,7 +229,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-يحصل على اللون المشع
+يحصل على اللون المُشع
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color
@@ -239,7 +239,7 @@ public TextureBase getEmissiveTexture()
 ```
 
 
-يحصل على القوام للإنبعاث
+يحصل على القوام للانبعاث
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for emissive
@@ -249,7 +249,7 @@ public double getMetallicFactor()
 ```
 
 
-يحصل على معدنية المادة، القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة.
+يحصل على مِعْدَلة المعدن للمادة، قيمة 1 تعني أن المادة معدن وقيمة 0 تعني أن المادة عازلة.
 
 **Returns:**
 double - معدنية المادة، القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة.
@@ -259,7 +259,7 @@ public TextureBase getMetallicRoughness()
 ```
 
 
-يحصل على الملمس للمعدن (في قناة R) والخشونة (في قناة G)
+يحصل على القوام للمعادن (في قناة R) والخشونة (في قناة G)
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for metallic(in R channel) and roughness(in G channel)
@@ -292,14 +292,14 @@ public double getOcclusionFactor()
 يحصل على عامل الإغلاق المحيطي
 
 **Returns:**
-double - عامل الإخفاء المحيطي
+double - معامل الإخفاء المحيطي
 ### getOcclusionTexture() {#getOcclusionTexture--}
 ```
 public TextureBase getOcclusionTexture()
 ```
 
 
-يحصل على الملمس للإغلاق المحيطي
+يحصل على القوام للإغلاق المحيطي
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for ambient occlusion
@@ -334,7 +334,7 @@ public double getRoughnessFactor()
 ```
 
 
-يحصل على خشونة المادة، القيمة 1 تعني أن المادة خشنة تمامًا والقيمة 0 تعني أن المادة ناعمة تمامًا
+يحصل على خشونة المادة، قيمة 1 تعني أن المادة خشنة تمامًا وقيمة 0 تعني أن المادة ناعمة تمامًا
 
 **Returns:**
 double - خشونة المادة، القيمة 1 تعني أن المادة خشنة تمامًا والقيمة 0 تعني أن المادة ناعمة تمامًا
@@ -344,7 +344,7 @@ public TextureBase getSpecularTexture()
 ```
 
 
-يحصل على الملمس للون الانعكاس
+يحصل على القوام للون الانعكاس
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for specular color
@@ -354,7 +354,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معامل المعالج
+يحصل على النسيج من الفتحة المحددة، يمكن أن يكون اسم خاصية المادة أو اسم معلمة المظلل
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -377,10 +377,10 @@ public double getTransparency()
 ```
 
 
-يحصل على معامل الشفافية. يجب أن يكون المعامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة معامل غير صالحة سيتم تثبيتها.
+يحصل على عامل الشفافية. يجب أن يكون العامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة عامل غير صالحة سيتم تقليمها.
 
 **Returns:**
-double - معامل الشفافية. يجب أن يكون المعامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة معامل غير صالحة سيتم تثبيتها.
+double - عامل الشفافية. يجب أن يكون العامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة عامل غير صالحة سيتم تقليمها.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -397,7 +397,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-يحصل على المُعدد لتعداد فتحات النسيج الداخلية.
+يحصل على المكرّر لتعداد فتحات النسيج الداخلية.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -438,7 +438,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -458,7 +458,7 @@ public void setAlbedo(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setAlbedoTexture(TextureBase value) {#setAlbedoTexture-com.aspose.threed.TextureBase-}
 ```
@@ -466,12 +466,12 @@ public void setAlbedoTexture(TextureBase value)
 ```
 
 
-يضبط القوام للـ albedo
+يضبط النسيج للـ albedo
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setEmissiveColor(Vector3 value) {#setEmissiveColor-com.aspose.threed.Vector3-}
 ```
@@ -479,12 +479,12 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-يضبط اللون المشع
+يضبط اللون المُشع
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setEmissiveTexture(TextureBase value) {#setEmissiveTexture-com.aspose.threed.TextureBase-}
 ```
@@ -492,12 +492,12 @@ public void setEmissiveTexture(TextureBase value)
 ```
 
 
-يضبط النسيج للانبعاث
+يضبط النسيج للإنبعاث
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setMetallicFactor(double value) {#setMetallicFactor-double-}
 ```
@@ -505,12 +505,12 @@ public void setMetallicFactor(double value)
 ```
 
 
-يضبط معدنية المادة، القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة.
+يضبط معدنية المادة، حيث أن القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setMetallicRoughness(TextureBase value) {#setMetallicRoughness-com.aspose.threed.TextureBase-}
 ```
@@ -518,12 +518,12 @@ public void setMetallicRoughness(TextureBase value)
 ```
 
 
-يضبط القوام للـ metallic (في قناة R) و roughness (في قناة G)
+يضبط النسيج للـ metallic (في قناة R) والـ roughness (في قناة G)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -536,7 +536,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setNormalTexture(TextureBase value) {#setNormalTexture-com.aspose.threed.TextureBase-}
 ```
@@ -544,12 +544,12 @@ public void setNormalTexture(TextureBase value)
 ```
 
 
-يضبط نسيج تمثيل العادي
+يضبط نسيج الخريطة العادية
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setOcclusionFactor(double value) {#setOcclusionFactor-double-}
 ```
@@ -557,12 +557,12 @@ public void setOcclusionFactor(double value)
 ```
 
 
-يضبط عامل الإخفاء المحيطي
+يضبط معامل الإخفاء المحيطي
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setOcclusionTexture(TextureBase value) {#setOcclusionTexture-com.aspose.threed.TextureBase-}
 ```
@@ -570,12 +570,12 @@ public void setOcclusionTexture(TextureBase value)
 ```
 
 
-يضبط القوام للإخفاء المحيطي
+يضبط النسيج للإخفاء المحيطي
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -589,7 +589,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### setRoughnessFactor(double value) {#setRoughnessFactor-double-}
 ```
@@ -602,7 +602,7 @@ public void setRoughnessFactor(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### setSpecularTexture(TextureBase value) {#setSpecularTexture-com.aspose.threed.TextureBase-}
 ```
@@ -610,12 +610,12 @@ public void setSpecularTexture(TextureBase value)
 ```
 
 
-يضبط القوام للون الانعكاس
+يضبط النسيج للون الانعكاس
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [TextureBase](../../com.aspose.threed/texturebase) | القيمة الجديدة |
+| value | [TextureBase](../../com.aspose.threed/texturebase) | قيمة جديدة |
 
 ### setTexture(String slotName, TextureBase texture) {#setTexture-java.lang.String-com.aspose.threed.TextureBase-}
 ```
@@ -623,7 +623,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-يعيّن النسيج للفتحة المحددة
+يضبط النسيج في الفتحة المحددة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -644,12 +644,12 @@ public void setTransparency(double value)
 ```
 
 
-يضبط معامل الشفافية. يجب أن يكون المعامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة معامل غير صالحة سيتم تثبيتها.
+يضبط عامل الشفافية. يجب أن يكون العامل ضمن النطاق بين 0 (0٪، غير شفاف تمامًا) و 1 (100٪، شفاف تمامًا). أي قيمة عامل غير صالحة سيتم تقليمها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة الجديدة |
+| قيمة | double | قيمة جديدة |
 
 ### toString() {#toString--}
 ```
@@ -657,7 +657,7 @@ public String toString()
 ```
 
 
-يقوم بتنسيق الكائن إلى سلسلة
+تنسيق الكائن إلى سلسلة
 
 **Returns:**
 java.lang.String - سلسلة الكائن

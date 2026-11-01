@@ -1,6 +1,6 @@
 ---
 title: "RotationOrder"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "الترتيب يتحكم في أي من rx ry rz تُطبق في مصفوفة التحويل."
 type: docs
 weight: 300
@@ -18,9 +18,9 @@ public enum RotationOrder extends Enum<RotationOrder>
 
 | حقل | الوصف |
 | --- | --- |
-| [XYZ](#XYZ) | تدوير بترتيب X,Y,Z |
-| [XZY](#XZY) | تدوير بترتيب X,Z,Y |
-| [YXZ](#YXZ) | تدوير بترتيب Y,X,Z |
+| [XYZ](#XYZ) | دوران بترتيب X,Y,Z |
+| [XZY](#XZY) | دوران بترتيب X,Z,Y |
+| [YXZ](#YXZ) | دوران بترتيب Y,X,Z |
 | [YZX](#YZX) | تدوير بترتيب Y,Z,X |
 | [ZXY](#ZXY) | تدوير بترتيب Z,X,Y |
 | [ZYX](#ZYX) | تدوير بترتيب Z,Y,X |
@@ -51,7 +51,7 @@ public static final RotationOrder XYZ
 ```
 
 
-تدوير بترتيب X,Y,Z
+دوران بترتيب X,Y,Z
 
 ### XZY {#XZY}
 ```
@@ -59,7 +59,7 @@ public static final RotationOrder XZY
 ```
 
 
-تدوير بترتيب X,Z,Y
+دوران بترتيب X,Z,Y
 
 ### YXZ {#YXZ}
 ```
@@ -67,7 +67,7 @@ public static final RotationOrder YXZ
 ```
 
 
-تدوير بترتيب Y,X,Z
+دوران بترتيب Y,X,Z
 
 ### YZX {#YZX}
 ```

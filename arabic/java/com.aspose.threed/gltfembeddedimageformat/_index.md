@@ -1,7 +1,7 @@
 ---
 title: "GltfEmbeddedImageFormat"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "كيفية تضمين المُصدّر glTF للملمس أثناء التصدير."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "كيف سيقوم مُصدّر glTF بدمج القوام أثناء التصدير."
 type: docs
 weight: 281
 url: /ar/java/com.aspose.threed/gltfembeddedimageformat/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum GltfEmbeddedImageFormat extends Enum<GltfEmbeddedImageFormat>
 ```
 
-كيفية تضمين المُصدّر glTF للملمس أثناء التصدير.
+كيف سيقوم مُصدّر glTF بدمج القوام أثناء التصدير.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [JPEG](#JPEG) | جميع صيغ الصور غير المدعومة سيتم تحويلها إلى jpeg إذا أمكن. |
+| [JPEG](#JPEG) | سيتم تحويل جميع صيغ الصور غير المدعومة إلى jpeg إذا أمكن. |
 | [NO_CHANGE](#NO-CHANGE) | لا تقم بتحويل الصورة واحتفظ بها كما هي. |
-| [PNG](#PNG) | جميع صيغ الصور غير المدعومة سيتم تحويلها إلى png إذا أمكن. |
+| [PNG](#PNG) | سيتم تحويل جميع صيغ الصور غير المدعومة إلى png إذا أمكن. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -48,7 +48,7 @@ public static final GltfEmbeddedImageFormat JPEG
 ```
 
 
-جميع صيغ الصور غير المدعومة سيتم تحويلها إلى jpeg إذا أمكن.
+سيتم تحويل جميع صيغ الصور غير المدعومة إلى jpeg إذا أمكن.
 
 ### NO_CHANGE {#NO-CHANGE}
 ```
@@ -64,7 +64,7 @@ public static final GltfEmbeddedImageFormat PNG
 ```
 
 
-جميع صيغ الصور غير المدعومة سيتم تحويلها إلى png إذا أمكن.
+سيتم تحويل جميع صيغ الصور غير المدعومة إلى png إذا أمكن.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

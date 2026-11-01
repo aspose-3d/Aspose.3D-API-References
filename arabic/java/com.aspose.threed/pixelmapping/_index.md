@@ -1,6 +1,6 @@
 ---
 title: "PixelMapping"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: 
 type: docs
 weight: 127
@@ -19,7 +19,7 @@ public class PixelMapping implements Closeable
 
 | طريقة | الوصف |
 | --- | --- |
-| [close()](#close--) | إلغاء تخصيص مثيل التخطيط |
+| [close()](#close--) | تحرير مثيل التخطيط |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | البايتات المرسومة للبكسلات. |
@@ -39,7 +39,7 @@ public void close()
 ```
 
 
-إلغاء تخصيص مثيل التخطيط
+تحرير مثيل التخطيط
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

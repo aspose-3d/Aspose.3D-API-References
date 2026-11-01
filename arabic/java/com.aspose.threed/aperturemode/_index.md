@@ -1,6 +1,6 @@
 ---
 title: "ApertureMode"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أنماط فتحة الكاميرا."
 type: docs
 weight: 264
@@ -13,15 +13,15 @@ java.lang.Object, java.lang.Enum
 public enum ApertureMode extends Enum<ApertureMode>
 ```
 
-أنماط فتحة الكاميرا. تحدد وضعية الفتحة القيم التي تتحكم بفتحة الكاميرا. إذا كانت وضعية الفتحة هي HorizAndVert أو Horizontal أو Vertical، يتم استخدام مجال الرؤية. إذا كانت وضعية الفتحة هي FocalLength، يتم استخدام البعد البؤري.
+أوضاع فتحة الكاميرا. تحدد وضعية الفتحة القيم التي تتحكم بفتحة الكاميرا. إذا كان وضع الفتحة هو HorizAndVert أو Horizontal أو Vertical، يتم استخدام مجال الرؤية. إذا كان وضع الفتحة هو FocalLength، يتم استخدام البعد البؤري.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [FOCAL_LENGTH](#FOCAL-LENGTH) | استخدم البعد البؤري مباشرةً. |
-| [HORIZONTAL](#HORIZONTAL) | حدد الزاوية الأفقية فقط. |
-| [HORIZ_AND_VERT](#HORIZ-AND-VERT) | حدد قيم الزاوية لكل من الإعدادات الأفقية والرأسية. |
-| [VERTICAL](#VERTICAL) | حدد الزاوية الرأسية فقط. |
+| [HORIZONTAL](#HORIZONTAL) | عيّن الزاوية الأفقية فقط. |
+| [HORIZ_AND_VERT](#HORIZ-AND-VERT) | عيّن قيم الزوايا لكل من الإعدادات الأفقية والعمودية. |
+| [VERTICAL](#VERTICAL) | عيّن الزاوية العمودية فقط. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -57,7 +57,7 @@ public static final ApertureMode HORIZONTAL
 ```
 
 
-حدد الزاوية الأفقية فقط.
+عيّن الزاوية الأفقية فقط.
 
 ### HORIZ_AND_VERT {#HORIZ-AND-VERT}
 ```
@@ -65,7 +65,7 @@ public static final ApertureMode HORIZ_AND_VERT
 ```
 
 
-حدد قيم الزاوية لكل من الإعدادات الأفقية والرأسية.
+عيّن قيم الزوايا لكل من الإعدادات الأفقية والعمودية.
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -73,7 +73,7 @@ public static final ApertureMode VERTICAL
 ```
 
 
-حدد الزاوية الرأسية فقط.
+عيّن الزاوية العمودية فقط.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "IDescriptorSet"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "مجموعات الوصف تصف الموارد المختلفة التي يمكن استخدامها للربط بأنابيب العرض مثل المخازن والملمس"
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "تصف مجموعات الوصف الموارد المختلفة التي يمكن استخدامها للربط بأنابيب العرض مثل المخازن والملمس"
 type: docs
 weight: 241
 url: /ar/java/com.aspose.threed/idescriptorset/
@@ -13,7 +13,7 @@ java.io.Closeable
 public interface IDescriptorSet extends Closeable
 ```
 
-مجموعة descriptor sets تصف الموارد المختلفة التي يمكن استخدامها للربط بأنابيب التصيير مثل المخازن والملمس.
+مجموعة الوصف تُوضح الموارد المختلفة التي يمكن استخدامها للربط بأنابيب التصيير مثل المخازن والملمس.
 ## الطرق
 
 | طريقة | الوصف |

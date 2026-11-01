@@ -1,7 +1,7 @@
 ---
 title: "SPIRVSource"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الظل المترجم بتنسيق SPIR-V."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "المُظلِل المُجمَّع بتنسيق SPIR-V."
 type: docs
 weight: 159
 url: /ar/java/com.aspose.threed/spirvsource/
@@ -13,31 +13,31 @@ java.lang.Object, [com.aspose.threed.ShaderSource](../../com.aspose.threed/shade
 public final class SPIRVSource extends ShaderSource
 ```
 
-الظل المترجم بتنسيق SPIR-V.
+المُظلِل المُجمَّع بتنسيق SPIR-V.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [SPIRVSource()](#SPIRVSource--) | منشئ مصادر الظلّات المستندة إلى SPIR-V. |
+| [SPIRVSource()](#SPIRVSource--) | منشئ مصادر الظل المستندة إلى SPIR‑V. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComputeShader()](#getComputeShader--) | يحصل على شفرة المصدر لظل الحوسبة. |
-| [getFragmentShader()](#getFragmentShader--) | يحصل على شفرة المصدر لظل الجزء. |
-| [getGeometryShader()](#getGeometryShader--) | يحصل على شفرة المصدر لظل الهندسة. |
+| [getComputeShader()](#getComputeShader--) | يسترجع شفرة المصدر للظل الحوسبي. |
+| [getFragmentShader()](#getFragmentShader--) | يسترجع شفرة المصدر للظل الجزئي. |
+| [getGeometryShader()](#getGeometryShader--) | يسترجع شفرة المصدر للظل الهندسي. |
 | [getMaximumDescriptorSets()](#getMaximumDescriptorSets--) | الحد الأقصى لمجموعات الوصف، القيمة الافتراضية هي 10 |
-| [getVertexShader()](#getVertexShader--) | يحصل على شفرة المصدر لظل الرأس |
+| [getVertexShader()](#getVertexShader--) | يسترجع شفرة المصدر للظل القمي. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComputeShader(byte[] value)](#setComputeShader-byte---) | يضبط شفرة المصدر لظل الحوسبة. |
-| [setFragmentShader(byte[] value)](#setFragmentShader-byte---) | يضبط شفرة المصدر لظل الجزء. |
-| [setGeometryShader(byte[] value)](#setGeometryShader-byte---) | يضبط شفرة المصدر لظل الهندسة. |
+| [setComputeShader(byte[] value)](#setComputeShader-byte---) | يضبط شفرة المصدر للظل الحوسبي. |
+| [setFragmentShader(byte[] value)](#setFragmentShader-byte---) | يضبط شفرة المصدر للظل الجزئي. |
+| [setGeometryShader(byte[] value)](#setGeometryShader-byte---) | يضبط شفرة المصدر للظل الهندسي. |
 | [setMaximumDescriptorSets(int value)](#setMaximumDescriptorSets-int-) | الحد الأقصى لمجموعات الوصف، القيمة الافتراضية هي 10 |
-| [setVertexShader(byte[] value)](#setVertexShader-byte---) | يضبط شفرة المصدر لظل الرأس |
+| [setVertexShader(byte[] value)](#setVertexShader-byte---) | يضبط شفرة المصدر للظل القمي. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public SPIRVSource()
 ```
 
 
-منشئ مصادر الظلّات المستندة إلى SPIR-V.
+منشئ مصادر الظل المستندة إلى SPIR‑V.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -81,30 +81,30 @@ public byte[] getComputeShader()
 ```
 
 
-يحصل على شفرة المصدر لظل الحوسبة.
+يسترجع شفرة المصدر للظل الحوسبي.
 
 **Returns:**
-byte[] - شفرة المصدر لظل الحوسبة.
+byte[] - شفرة المصدر للظل الحوسبي.
 ### getFragmentShader() {#getFragmentShader--}
 ```
 public byte[] getFragmentShader()
 ```
 
 
-يحصل على شفرة المصدر لظل الجزء.
+يسترجع شفرة المصدر للظل الجزئي.
 
 **Returns:**
-byte[] - شفرة المصدر للـ fragment shader.
+byte[] - شفرة المصدر لمُظلل التجزئة.
 ### getGeometryShader() {#getGeometryShader--}
 ```
 public byte[] getGeometryShader()
 ```
 
 
-يحصل على شفرة المصدر لظل الهندسة.
+يسترجع شفرة المصدر للظل الهندسي.
 
 **Returns:**
-byte[] - شفرة المصدر للـ geometry shader.
+byte[] - شفرة المصدر لمُظلل الهندسة.
 ### getMaximumDescriptorSets() {#getMaximumDescriptorSets--}
 ```
 public int getMaximumDescriptorSets()
@@ -121,10 +121,10 @@ public byte[] getVertexShader()
 ```
 
 
-يحصل على شفرة المصدر لظل الرأس
+يسترجع شفرة المصدر للظل القمي.
 
 **Returns:**
-byte[] - شفرة المصدر للـ vertex shader
+byte[] - شفرة المصدر لمُظلل القمة.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -157,12 +157,12 @@ public void setComputeShader(byte[] value)
 ```
 
 
-يضبط شفرة المصدر لظل الحوسبة.
+يضبط شفرة المصدر للظل الحوسبي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | القيمة الجديدة |
+| قيمة | byte[] | قيمة جديدة |
 
 ### setFragmentShader(byte[] value) {#setFragmentShader-byte---}
 ```
@@ -170,12 +170,12 @@ public void setFragmentShader(byte[] value)
 ```
 
 
-يضبط شفرة المصدر لظل الجزء.
+يضبط شفرة المصدر للظل الجزئي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | القيمة الجديدة |
+| قيمة | byte[] | قيمة جديدة |
 
 ### setGeometryShader(byte[] value) {#setGeometryShader-byte---}
 ```
@@ -183,12 +183,12 @@ public void setGeometryShader(byte[] value)
 ```
 
 
-يضبط شفرة المصدر لظل الهندسة.
+يضبط شفرة المصدر للظل الهندسي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | القيمة الجديدة |
+| قيمة | byte[] | قيمة جديدة |
 
 ### setMaximumDescriptorSets(int value) {#setMaximumDescriptorSets-int-}
 ```
@@ -201,7 +201,7 @@ public void setMaximumDescriptorSets(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setVertexShader(byte[] value) {#setVertexShader-byte---}
 ```
@@ -209,12 +209,12 @@ public void setVertexShader(byte[] value)
 ```
 
 
-يضبط شفرة المصدر لظل الرأس
+يضبط شفرة المصدر للظل القمي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | القيمة الجديدة |
+| قيمة | byte[] | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

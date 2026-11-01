@@ -1,6 +1,6 @@
 ---
 title: "IRenderTexture"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "واجهة الملمس المصور"
 type: docs
 weight: 250

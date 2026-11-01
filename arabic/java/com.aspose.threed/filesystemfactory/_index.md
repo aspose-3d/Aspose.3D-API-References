@@ -1,7 +1,7 @@
 ---
 title: "FileSystemFactory"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "و سيقوم بإنشاء com.aspose.threed.LocalFileSystem كإعداد افتراضي."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "و  سيُنشئ com.aspose.threed.LocalFileSystem كافتراضي."
 type: docs
 weight: 238
 url: /ar/java/com.aspose.threed/filesystemfactory/
@@ -15,7 +15,7 @@ public interface FileSystemFactory
 
 | طريقة | الوصف |
 | --- | --- |
-| [call()](#call--) | [SaveOptions](../../com.aspose.threed/saveoptions) و [LoadOptions](../../com.aspose.threed/loadoptions) سيقومان بإنشاء com.aspose.threed.LocalFileSystem كإعداد افتراضي. |
+| [call()](#call--) | [SaveOptions](../../com.aspose.threed/saveoptions) و [LoadOptions](../../com.aspose.threed/loadoptions) سيُنشئان com.aspose.threed.LocalFileSystem كافتراضي. |
 ### call() {#call--}
 ```
 public abstract FileSystem call()

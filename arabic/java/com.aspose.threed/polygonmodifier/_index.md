@@ -1,6 +1,6 @@
 ---
 title: "PolygonModifier"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "أدوات لتعديل المضلعات"
 type: docs
 weight: 134
@@ -19,17 +19,17 @@ public class PolygonModifier
 | طريقة | الوصف |
 | --- | --- |
 | [applyTransform(Node node, Matrix4 transform)](#applyTransform-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | تطبيق مصفوفة التحويل على نقاط التحكم في جميع الأشكال الهندسية |
-| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | سيتم إنشاء المتجه المماس والبينورمال على الشبكة. يتطلب وجود العادي، إذا لم يكن العادي موجودًا على الشبكة، سيتم أيضًا إنشاء بيانات العادي من الموضع. |
-| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | سيتم إنشاء المتجه المماس والبينورمال على جميع الشبكات في المشهد. يتطلب وجود العادي، إذا لم يكن العادي موجودًا على الشبكة، سيتم أيضًا إنشاء بيانات العادي من الموضع. |
+| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | سيقوم هذا بإنشاء المتجه المماسي والمتجه الثنائي على الـ mesh. المتجه العادي مطلوب، إذا لم يكن المتجه العادي موجودًا على الـ mesh، فسيتم أيضًا إنشاء بيانات المتجه العادي من الموضع. |
+| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | سيقوم هذا بإنشاء المتجه المماسي والمتجه الثنائي على جميع الـ meshes في المشهد. المتجه العادي مطلوب، إذا لم يكن المتجه العادي موجودًا على الـ mesh، فسيتم أيضًا إنشاء بيانات المتجه العادي من الموضع. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | إنشاء بيانات العادي من تعريف الشبكة |
-| [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | إنشاء بيانات UV من الشبكة المدخلة المعطاة |
-| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | إنشاء بيانات UV من الشبكة المدخلة المعطاة وبيانات العادي المحددة. |
+| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | إنشاء بيانات المتجه العادي من تعريف الـ Mesh |
+| [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | إنشاء بيانات UV من الـ mesh المدخل المعطى |
+| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | إنشاء بيانات UV من الـ mesh المدخل المعطى والبيانات العادية المحددة. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | تحويل عقدة كاملة إلى شبكة محوّلة واحدة. عناصر Vertex مثل الإحداثيات العادية/الملمسية غير مدعومة بعد |
-| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | تحويل مشهد كامل إلى شبكة محوّلة واحدة. عناصر Vertex مثل الإحداثيات العادية/الملمسية غير مدعومة بعد |
-| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | تحويل عقدة كاملة إلى شبكة محوّلة واحدة. عناصر Vertex مثل الإحداثيات العادية/الملمسية غير مدعومة بعد |
+| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | تحويل عقدة كاملة إلى شبكة محوّلة واحدة. عناصر القمة مثل إحداثيات العادي/الملمس غير مدعومة بعد |
+| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | تحويل مشهد كامل إلى شبكة محوّلة واحدة. عناصر القمة مثل إحداثيات العادي/الملمس غير مدعومة بعد |
+| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | تحويل عقدة كاملة إلى شبكة محوّلة واحدة. عناصر القمة مثل إحداثيات العادي/الملمس غير مدعومة بعد |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | تحجيم جميع الهندسات (تحجيم نقاط التحكم وليس مصفوفة التحويل) في هذه العقدة |
@@ -61,7 +61,7 @@ public static void applyTransform(Node node, Matrix4 transform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | أي هندسات العقدة سيتم تطبيق التحويل المعطى عليها |
+| node | [Node](../../com.aspose.threed/node) | ما هي هندسات العقدة التي سيتم تطبيقها باستخدام التحويل المعطى |
 | transform | [Matrix4](../../com.aspose.threed/matrix4) | مصفوفة التحويل التي سيتم تطبيقها على نقاط التحكم. |
 
 ### buildTangentBinormal(Mesh mesh) {#buildTangentBinormal-com.aspose.threed.Mesh-}
@@ -70,7 +70,7 @@ public static void buildTangentBinormal(Mesh mesh)
 ```
 
 
-سيتم إنشاء المتجه المماس والبينورمال على الشبكة. الـ Normal مطلوب؛ إذا لم يكن الـ Normal موجودًا على الشبكة، سيتم أيضًا إنشاء بيانات الـ Normal من الموضع. الـ UV مطلوب أيضًا، وسيتم رفع استثناء إذا لم يُعثر على أي UV.
+سيقوم هذا بإنشاء المماس والثنائي العمود على الشبكة. العادي مطلوب، إذا لم يكن العادي موجودًا على الشبكة، سيتم أيضًا إنشاء بيانات العادي من الموقع. الـ UV مطلوب أيضًا، سيتم رفع استثناء إذا لم يتم العثور على UV.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -83,7 +83,7 @@ public static void buildTangentBinormal(Scene scene)
 ```
 
 
-سيتم إنشاء المتجه المماس والبينورمال على جميع الشبكات في المشهد. الـ Normal مطلوب؛ إذا لم يكن الـ Normal موجودًا على الشبكة، سيتم أيضًا إنشاء بيانات الـ Normal من الموضع. الـ UV مطلوب أيضًا، وسيتم تجاهل الشبكة إذا لم يُحدَّد أي UV.
+سيقوم هذا بإنشاء المماس والثنائي العمود على جميع الشبكات في المشهد. العادي مطلوب، إذا لم يكن العادي موجودًا على الشبكة، سيتم أيضًا إنشاء بيانات العادي من الموقع. الـ UV مطلوب أيضًا، سيتم تجاهل الشبكة إذا لم يتم تعريف UV.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -111,7 +111,7 @@ public static VertexElementNormal generateNormal(Mesh mesh)
 ```
 
 
-إنشاء بيانات العادي من تعريف الشبكة
+إنشاء بيانات المتجه العادي من تعريف الـ Mesh
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -126,7 +126,7 @@ public static VertexElementUV generateUV(Mesh mesh)
 ```
 
 
-إنشاء بيانات UV من الشبكة المدخلة المعطاة
+إنشاء بيانات UV من الـ mesh المدخل المعطى
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -141,13 +141,13 @@ public static VertexElementUV generateUV(Mesh mesh, VertexElementNormal normals)
 ```
 
 
-إنشاء بيانات UV من الشبكة المدخلة المعطاة وبيانات العادي المحددة.
+إنشاء بيانات UV من الـ mesh المدخل المعطى والبيانات العادية المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | mesh | [Mesh](../../com.aspose.threed/mesh) | الشبكة المدخلة |
-| normals | [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) | بيانات الـ Normal |
+| normals | [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) | بيانات العادي |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Generated UV data
@@ -177,12 +177,12 @@ public static Mesh mergeMesh(Node node)
 ```
 
 
-تحويل عقدة كاملة إلى شبكة محوّلة واحدة. عناصر Vertex مثل الإحداثيات العادية/الملمسية غير مدعومة بعد
+تحويل عقدة كاملة إلى شبكة محوّلة واحدة. عناصر القمة مثل إحداثيات العادي/الملمس غير مدعومة بعد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | العقدة المراد دمجها |
+| node | [Node](../../com.aspose.threed/node) | العقدة للدمج |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Merged mesh **Example:** The following code shows how to merge all objects from nodes into a single mesh.
@@ -202,12 +202,12 @@ public static Mesh mergeMesh(Scene scene)
 ```
 
 
-تحويل مشهد كامل إلى شبكة محوّلة واحدة. عناصر Vertex مثل الإحداثيات العادية/الملمسية غير مدعومة بعد
+تحويل مشهد كامل إلى شبكة محوّلة واحدة. عناصر القمة مثل إحداثيات العادي/الملمس غير مدعومة بعد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | المشهد المراد دمجه |
+| scene | [Scene](../../com.aspose.threed/scene) | المشهد للدمج |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The merged mesh **Example:** The following code shows how to merge all objects from a scene into a single mesh.
@@ -227,12 +227,12 @@ public static Mesh mergeMesh(List<Node> nodes)
 ```
 
 
-تحويل عقدة كاملة إلى شبكة محوّلة واحدة. عناصر Vertex مثل الإحداثيات العادية/الملمسية غير مدعومة بعد
+تحويل عقدة كاملة إلى شبكة محوّلة واحدة. عناصر القمة مثل إحداثيات العادي/الملمس غير مدعومة بعد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العقد | java.util.List<com.aspose.threed.Node> | العقد المراد دمجها |
+| العقد | java.util.List<com.aspose.threed.Node> | العقد للدمج |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Merged mesh **Example:** The following code shows how to merge all objects from nodes into a single mesh.
@@ -273,7 +273,7 @@ public static void scale(Node node, Vector3 scale)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | العقدة المراد تحجيمها |
+| node | [Node](../../com.aspose.threed/node) | العقدة للتحجيم |
 |  | scale | [Vector3](../../com.aspose.threed/vector3) | عامل التحجيم **Example:** يوضح الكود التالي كيفية تحجيم جميع الهندسات في المشهد بمقدار 10 مرات. |
 
 ```
@@ -295,7 +295,7 @@ public static Scene scale(Scene scene, Vector3 scale)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | المشهد المراد تحجيمه |
+| scene | [Scene](../../com.aspose.threed/scene) | المشهد للتحجيم |
 |  | scale | [Vector3](../../com.aspose.threed/vector3) | عامل التحجيم **Example:** يوضح الكود التالي كيفية تحجيم جميع الهندسات في المشهد بمقدار 10 مرات. |
 
 ```
@@ -323,7 +323,7 @@ public static Mesh[] splitMesh(Mesh mesh, SplitMeshPolicy policy)
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 
 **Returns:**
-com.aspose.threed.Mesh[] - شبكات مقسمة جديدة **مثال:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
+com.aspose.threed.Mesh[] - شبكات مقسمة جديدة **Example:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -347,7 +347,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy)
 ```
 
 
-قسّم الشبكة إلى شبكات فرعية باستخدام [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). كل شبكة فرعية ستستخدم مادة واحدة فقط. نفّذ تقسيم الشبكة على عقدة **مثال:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
+قسّم الشبكة إلى شبكات فرعية باستخدام [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). كل شبكة فرعية ستستخدم مادة واحدة فقط. نفّذ تقسيم الشبكة على عقدة **Example:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -385,7 +385,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
-|  | createChildNodes | boolean | أنشئ عقدًا فرعية لكل شبكة فرعية. **مثال:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد. |
+|  | createChildNodes | boolean | أنشئ عقدًا فرعية لكل شبكة فرعية. **Example:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد. |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -418,7 +418,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 | createChildNodes | boolean | أنشئ عقدًا فرعية لكل شبكة فرعية. |
-|  | removeOldMesh | boolean | أزل الشبكة القديمة بعد التقسيم، إذا كان هذا المعامل false، فإن الشبكتين القديمة والجديدة ستتواجدان معًا. **مثال:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد. |
+|  | removeOldMesh | boolean | أزل الشبكة القديمة بعد التقسيم، إذا كان هذا المعامل خاطئًا، ستتواجد الشبكتان القديمة والجديدة معًا. **Example:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد. |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -443,7 +443,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy)
 ```
 
 
-قسّم الشبكة إلى شبكات فرعية باستخدام [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). كل شبكة فرعية ستستخدم مادة واحدة فقط. نفّذ تقسيم الشبكة على جميع عقد المشهد. **مثال:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
+قسّم الشبكة إلى شبكات فرعية باستخدام [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). كل شبكة فرعية ستستخدم مادة واحدة فقط. نفّذ تقسيم الشبكة على جميع عقد المشهد. **Example:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -474,7 +474,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy, boolean remove
 ```
 
 
-قسّم الشبكة إلى شبكات فرعية باستخدام [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). كل شبكة فرعية ستستخدم مادة واحدة فقط. نفّذ تقسيم الشبكة على جميع عقد المشهد. **مثال:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
+قسّم الشبكة إلى شبكات فرعية باستخدام [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). كل شبكة فرعية ستستخدم مادة واحدة فقط. نفّذ تقسيم الشبكة على جميع عقد المشهد. **Example:** يوضح الكود التالي كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -547,7 +547,7 @@ public static void triangulate(Scene scene)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | scene | [Scene](../../com.aspose.threed/scene) | المشهد المراد معالجته **مثال:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة. |
+|  | scene | [Scene](../../com.aspose.threed/scene) | المشهد المراد معالجته **Example:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة. |
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -574,7 +574,7 @@ public static int[][] triangulate(List<Vector4> controlPoints)
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | نقاط التحكم في الشبكة |
 
 **Returns:**
-int[][] - مجموعة من المثلثات **مثال:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة.
+int[][] - مجموعة من المثلثات **Example:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -598,10 +598,10 @@ public static int[][] triangulate(List<Vector4> controlPoints, int[] polygon)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | نقاط التحكم في الشبكة |
-| مضلع | int[] | وجه المضلع |
+| polygon | int[] | وجه المضلع |
 
 **Returns:**
-int[][] - مجموعة من المثلثات **مثال:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة.
+int[][] - مجموعة من المثلثات **Example:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -625,10 +625,10 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | نقاط التحكم في الشبكة |
-| مضلعات | java.util.List<int[]> | وجوه المضلعات |
+| polygons | java.util.List<int[]> | وجوه المضلع |
 
 **Returns:**
-int[][] - مجموعة من المثلثات **مثال:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة.
+int[][] - مجموعة من المثلثات **Example:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -652,12 +652,12 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | نقاط التحكم في الشبكة |
-| مضلعات | java.util.List<int[]> | وجوه المضلعات |
+| polygons | java.util.List<int[]> | وجوه المضلع |
 | generateNormals | boolean | إنشاء المتجهات العمودية |
 | nor_out | [Vector3\[\]](../../com.aspose.threed/vector3) | المتجه العمودي المولد لكل نقطة تحكم |
 
 **Returns:**
-int[][] - مجموعة من المثلثات **مثال:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة.
+int[][] - مجموعة من المثلثات **Example:** يوضح الكود التالي كيفية دمج جميع الكائنات من مشهد إلى شبكة واحدة.
 
 ```
 var mesh = new Cylinder().toMesh();

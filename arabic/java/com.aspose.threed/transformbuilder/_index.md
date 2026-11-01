@@ -1,7 +1,7 @@
 ---
 title: "TransformBuilder"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "يُستخدم   لبناء مصفوفة التحويل عبر سلسلة من التحويلات."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "يتم استخدام   لبناء مصفوفة التحويل عبر سلسلة من التحويلات."
 type: docs
 weight: 191
 url: /ar/java/com.aspose.threed/transformbuilder/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TransformBuilder
 ```
 
-يُستخدم [TransformBuilder](../../com.aspose.threed/transformbuilder) لبناء مصفوفة التحويل عبر سلسلة من التحويلات. **مثال:** يُظهر الكود التالي كيفية إنشاء مصفوفة من خلال مجموعة من العمليات
+يتم استخدام [TransformBuilder](../../com.aspose.threed/transformbuilder) لبناء مصفوفة التحويل عبر سلسلة من التحويلات. **مثال:** يوضح الكود التالي كيفية إنشاء مصفوفة بواسطة مجموعة من العمليات
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -46,15 +46,15 @@ TransformBuilder tb = new TransformBuilder();
 | [rearrange(Axis newX, Axis newY, Axis newZ)](#rearrange-com.aspose.threed.Axis-com.aspose.threed.Axis-com.aspose.threed.Axis-) | إعادة ترتيب تخطيط المحور. |
 | [reset()](#reset--) | إعادة تعيين التحويل إلى مصفوفة الهوية |
 | [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | سلسلة دوران بواسطة رباعية **Example:** |
-| [rotateDegree(Vector3 rot, RotationOrder order)](#rotateDegree-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | إلحاق دوران بترتيب محدد |
-| [rotateDegree(double angle, Vector3 axis)](#rotateDegree-double-com.aspose.threed.Vector3-) | سلسلة تحويل دوران بالدرجة |
-| [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | سلسلة دوران بواسطة زوايا أويلر بالدرجة **Example:** |
+| [rotateDegree(Vector3 rot, RotationOrder order)](#rotateDegree-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | إضافة دوران بترتيب محدد |
+| [rotateDegree(double angle, Vector3 axis)](#rotateDegree-double-com.aspose.threed.Vector3-) | سلسلة تحويل دوران بالدرجات |
+| [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | سلسلة دوران بواسطة زوايا أويلر بالدرجات **Example:** |
 | [rotateEulerRadian(Vector3 r)](#rotateEulerRadian-com.aspose.threed.Vector3-) | سلسلة دوران بواسطة زوايا أويلر بالراديان **Example:** |
 | [rotateEulerRadian(double x, double y, double z)](#rotateEulerRadian-double-double-double-) | سلسلة دوران بواسطة زوايا أويلر بالراديان **Example:** |
-| [rotateRadian(Vector3 rot, RotationOrder order)](#rotateRadian-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | إلحاق دوران بترتيب محدد |
+| [rotateRadian(Vector3 rot, RotationOrder order)](#rotateRadian-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | إضافة دوران بترتيب محدد |
 | [rotateRadian(double angle, Vector3 axis)](#rotateRadian-double-com.aspose.threed.Vector3-) | سلسلة تحويل دوران بالراديان |
 | [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | سلسلة تحويل مقياس **Example:** |
-| [scale(double s)](#scale-double-) | سلسلة مصفوفة تحويل مقياس مع مكوّن مُقاس بـ s **Example:** |
+| [scale(double s)](#scale-double-) | سلسلة مصفوفة تحويل مقياس مع مكوّن مقاسه بـ s **Example:** |
 | [scale(double x, double y, double z)](#scale-double-double-double-) | سلسلة مصفوفة تحويل مقياس **Example:** |
 | [setComposeOrder(ComposeOrder value)](#setComposeOrder-com.aspose.threed.ComposeOrder-) | يضبط ترتيب تركيب السلسلة. |
 | [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | يضبط قيمة المصفوفة الحالية |
@@ -265,7 +265,7 @@ public void rotateDegree(Vector3 rot, RotationOrder order)
 ```
 
 
-إلحاق دوران بترتيب محدد
+إضافة دوران بترتيب محدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -279,7 +279,7 @@ public TransformBuilder rotateDegree(double angle, Vector3 axis)
 ```
 
 
-سلسلة تحويل دوران بالدرجة
+سلسلة تحويل دوران بالدرجات
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -301,7 +301,7 @@ public TransformBuilder rotateEulerDegree(double degX, double degY, double degZ)
 ```
 
 
-سلسلة دوران بواسطة زوايا أويلر بالدرجة **Example:**
+سلسلة دوران بواسطة زوايا أويلر بالدرجات **Example:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -368,7 +368,7 @@ public void rotateRadian(Vector3 rot, RotationOrder order)
 ```
 
 
-إلحاق دوران بترتيب محدد
+إضافة دوران بترتيب محدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -431,7 +431,7 @@ public TransformBuilder scale(double s)
 ```
 
 
-سلسلة مصفوفة تحويل مقياس مع مكوّن مُقاس بـ s **Example:**
+سلسلة مصفوفة تحويل مقياس مع مكوّن مقاسه بـ s **Example:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -480,7 +480,7 @@ public void setComposeOrder(ComposeOrder value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ComposeOrder](../../com.aspose.threed/composeorder) | القيمة الجديدة |
+| value | [ComposeOrder](../../com.aspose.threed/composeorder) | قيمة جديدة |
 
 ### setMatrix(Matrix4 value) {#setMatrix-com.aspose.threed.Matrix4-}
 ```
@@ -493,7 +493,7 @@ public void setMatrix(Matrix4 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Matrix4](../../com.aspose.threed/matrix4) | القيمة الجديدة |
+| value | [Matrix4](../../com.aspose.threed/matrix4) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

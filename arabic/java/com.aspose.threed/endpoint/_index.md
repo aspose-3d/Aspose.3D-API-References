@@ -1,7 +1,7 @@
 ---
 title: "EndPoint"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "نقطة النهاية لتقليم المنحنى يمكن أن تكون قيمة معامل أو نقطة ديكارتية."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "نقطة النهاية لتقليم المنحنى يمكن أن تكون قيمة معامل أو نقطة إحداثية."
 type: docs
 weight: 51
 url: /ar/java/com.aspose.threed/endpoint/
@@ -21,7 +21,7 @@ public final class EndPoint implements Struct<EndPoint>, Serializable
 
 | منشئ | الوصف |
 | --- | --- |
-| [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | إنشاء [EndPoint](../../com.aspose.threed/endpoint) من نقطة ديكارتية. |
+| [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | إنشاء [EndPoint](../../com.aspose.threed/endpoint) من نقطة إحداثية. |
 | [EndPoint(double v)](#EndPoint-double-) | إنشاء [EndPoint](../../com.aspose.threed/endpoint) من معامل حقيقي. |
 | [EndPoint()](#EndPoint--) |  |
 ## الطرق
@@ -33,11 +33,11 @@ public final class EndPoint implements Struct<EndPoint>, Serializable
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [fromDegree(double degree)](#fromDegree-double-) | إنشاء نقطة نهاية مقاسة بالدرجة. |
 | [fromRadian(double degree)](#fromRadian-double-) | إنشاء نقطة نهاية مقاسة بالراديان. |
-| [getAsPoint()](#getAsPoint--) | يحصل على نقطة النهاية كنقطة ديكارتية، أو يرمي استثناءً. |
+| [getAsPoint()](#getAsPoint--) | يحصل على نقطة النهاية كنقطة إحداثية، أو يرمي استثناءً. |
 | [getAsValue()](#getAsValue--) | يحصل على نقطة النهاية كمعامل حقيقي، أو يرمي استثناءً. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [isCartesianPoint()](#isCartesianPoint--) | هل نقطة النهاية هي نقطة ديكارتية؟ |
+| [isCartesianPoint()](#isCartesianPoint--) | هل نقطة النهاية نقطة إحداثية؟ |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | يرجع تمثيلًا نصيًا لنقطة النهاية الحالية. |
@@ -50,7 +50,7 @@ public EndPoint(Vector3 point)
 ```
 
 
-إنشاء [EndPoint](../../com.aspose.threed/endpoint) من نقطة ديكارتية.
+إنشاء [EndPoint](../../com.aspose.threed/endpoint) من نقطة إحداثية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -68,7 +68,7 @@ public EndPoint(double v)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| v | double | معامل العدد الحقيقي لإنشاء نقطة النهاية |
+| v | double | المعامل العددي الحقيقي لإنشاء نقطة النهاية |
 
 ### EndPoint() {#EndPoint--}
 ```
@@ -82,7 +82,7 @@ public EndPoint clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint)
@@ -150,7 +150,7 @@ public Vector3 getAsPoint()
 ```
 
 
-يحصل على نقطة النهاية كنقطة ديكارتية، أو يرمي استثناءً.
+يحصل على نقطة النهاية كنقطة إحداثية، أو يرمي استثناءً.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the end point as Cartesian point, or thrown an exception.
@@ -190,10 +190,10 @@ public boolean isCartesianPoint()
 ```
 
 
-هل نقطة النهاية هي نقطة ديكارتية؟
+هل نقطة النهاية نقطة إحداثية؟
 
 **Returns:**
-boolean - هل نقطة النهاية هي نقطة ديكارتية؟
+boolean - هل نقطة النهاية نقطة إحداثية؟
 ### notify() {#notify--}
 ```
 public final native void notify()

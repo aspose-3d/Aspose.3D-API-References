@@ -1,6 +1,6 @@
 ---
 title: "ShadingLanguage"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "لغات التظليل المستخدمة شائعًا"
 type: docs
 weight: 272
@@ -18,19 +18,19 @@ public enum ShadingLanguage extends Enum<ShadingLanguage>
 
 | حقل | الوصف |
 | --- | --- |
-| [AGAL](#AGAL) | Adobe Graphics Assembly Language |
-| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | لغة التجميع ARB هي لغة تظليل منخفضة المستوى تم إنشاؤها بواسطة مجلس مراجعة بنية OpenGL لتوحيد تعليمات وحدة معالجة الرسومات. |
+| [AGAL](#AGAL) | لغة التجميع الرسومية من أدوبي |
+| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | لغة التجميع ARB هي لغة تظليل منخفضة المستوى أنشأتها لجنة مراجعة بنية OpenGL لتوحيد تعليمات وحدة معالجة الرسومات. |
 | [CGFX](#CGFX) | NVIDIA Cg |
-| [DIRECTX_SHADER_ASSEMBLY](#DIRECTX-SHADER-ASSEMBLY) | لغة تجميع تظليل DirectX |
-| [GELATO](#GELATO) | لغة تظليل gelato |
-| [GLSL](#GLSL) | لغة GLSL |
-| [HLSL](#HLSL) | لغة تظليل DirectX عالية المستوى |
-| [HOUDINIVEX](#HOUDINIVEX) | Houdini VEX Shading language |
-| [MENTAL_RAY](#MENTAL-RAY) | Mental Ray Shader language |
-| [METAL](#METAL) | iOS Metal Shading language |
-| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | لغة التظليل المفتوحة تم تطويرها بواسطة Sony Pictures Imageworks وتُستخدم في مُعالج Arnold الخاص بها. |
-| [PSSL](#PSSL) | PlayStation Shader Language |
-| [RENDER_MAN](#RENDER-MAN) | لغة تظليل RenderMan. |
+| [DIRECTX_SHADER_ASSEMBLY](#DIRECTX-SHADER-ASSEMBLY) | لغة تجميع الظلال DirectX |
+| [GELATO](#GELATO) | لغة التظليل gelato |
+| [GLSL](#GLSL) | GLSL |
+| [HLSL](#HLSL) | لغة الظلال عالية المستوى DirectX |
+| [HOUDINIVEX](#HOUDINIVEX) | لغة التظليل VEX من Houdini |
+| [MENTAL_RAY](#MENTAL-RAY) | لغة الظلال Mental Ray |
+| [METAL](#METAL) | لغة التظليل Metal لنظام iOS |
+| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | لغة التظليل المفتوحة تم تطويرها بواسطة Sony Pictures Imageworks وتُستخدم في مُعالج Arnold. |
+| [PSSL](#PSSL) | لغة الظلال PlayStation |
+| [RENDER_MAN](#RENDER-MAN) | لغة التظليل RenderMan. |
 | [SFX](#SFX) | SFX |
 ## الطرق
 
@@ -59,7 +59,7 @@ public static final ShadingLanguage AGAL
 ```
 
 
-Adobe Graphics Assembly Language
+لغة التجميع الرسومية من أدوبي
 
 ### ARB_ASSEMBLY {#ARB-ASSEMBLY}
 ```
@@ -67,7 +67,7 @@ public static final ShadingLanguage ARB_ASSEMBLY
 ```
 
 
-لغة التجميع ARB هي لغة تظليل منخفضة المستوى تم إنشاؤها بواسطة مجلس مراجعة بنية OpenGL لتوحيد تعليمات وحدة معالجة الرسومات.
+لغة التجميع ARB هي لغة تظليل منخفضة المستوى أنشأتها لجنة مراجعة بنية OpenGL لتوحيد تعليمات وحدة معالجة الرسومات.
 
 ### CGFX {#CGFX}
 ```
@@ -83,7 +83,7 @@ public static final ShadingLanguage DIRECTX_SHADER_ASSEMBLY
 ```
 
 
-لغة تجميع تظليل DirectX
+لغة تجميع الظلال DirectX
 
 ### GELATO {#GELATO}
 ```
@@ -91,7 +91,7 @@ public static final ShadingLanguage GELATO
 ```
 
 
-لغة تظليل gelato
+لغة التظليل gelato
 
 ### GLSL {#GLSL}
 ```
@@ -99,7 +99,7 @@ public static final ShadingLanguage GLSL
 ```
 
 
-لغة GLSL
+GLSL
 
 ### HLSL {#HLSL}
 ```
@@ -107,7 +107,7 @@ public static final ShadingLanguage HLSL
 ```
 
 
-لغة تظليل DirectX عالية المستوى
+لغة الظلال عالية المستوى DirectX
 
 ### HOUDINIVEX {#HOUDINIVEX}
 ```
@@ -115,7 +115,7 @@ public static final ShadingLanguage HOUDINIVEX
 ```
 
 
-Houdini VEX Shading language
+لغة التظليل VEX من Houdini
 
 ### MENTAL_RAY {#MENTAL-RAY}
 ```
@@ -123,7 +123,7 @@ public static final ShadingLanguage MENTAL_RAY
 ```
 
 
-Mental Ray Shader language
+لغة الظلال Mental Ray
 
 ### METAL {#METAL}
 ```
@@ -131,7 +131,7 @@ public static final ShadingLanguage METAL
 ```
 
 
-iOS Metal Shading language
+لغة التظليل Metal لنظام iOS
 
 ### OPEN_SHADING_LANGUAGE {#OPEN-SHADING-LANGUAGE}
 ```
@@ -139,7 +139,7 @@ public static final ShadingLanguage OPEN_SHADING_LANGUAGE
 ```
 
 
-لغة التظليل المفتوحة تم تطويرها بواسطة Sony Pictures Imageworks وتُستخدم في مُعالج Arnold الخاص بها.
+لغة التظليل المفتوحة تم تطويرها بواسطة Sony Pictures Imageworks وتُستخدم في مُعالج Arnold.
 
 ### PSSL {#PSSL}
 ```
@@ -147,7 +147,7 @@ public static final ShadingLanguage PSSL
 ```
 
 
-PlayStation Shader Language
+لغة الظلال PlayStation
 
 ### RENDER_MAN {#RENDER-MAN}
 ```
@@ -155,7 +155,7 @@ public static final ShadingLanguage RENDER_MAN
 ```
 
 
-لغة تظليل RenderMan.
+لغة التظليل RenderMan.
 
 ### SFX {#SFX}
 ```

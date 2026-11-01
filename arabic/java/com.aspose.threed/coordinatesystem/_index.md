@@ -1,7 +1,7 @@
 ---
 title: "CoordinateSystem"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "نظام الإحداثيات الأيسر أو الأيمن."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "نظام الإحداثيات الأيسر أو الأيمن"
 type: docs
 weight: 273
 url: /ar/java/com.aspose.threed/coordinatesystem/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CoordinateSystem extends Enum<CoordinateSystem>
 ```
 
-نظام الإحداثيات الأيسر أو الأيمن.
+نظام الإحداثيات الأيسر أو الأيمن
 ## الحقول
 
 | حقل | الوصف |

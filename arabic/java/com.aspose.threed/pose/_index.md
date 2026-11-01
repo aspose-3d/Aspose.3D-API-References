@@ -1,7 +1,7 @@
 ---
 title: "Pose"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "الوضعية تُستخدم لتخزين مصفوفة التحويل عندما يكون الشكل مُغطى."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "الوضعية تُستخدم لتخزين مصفوفة التحويل عندما يتم تغليف الهندسة."
 type: docs
 weight: 135
 url: /ar/java/com.aspose.threed/pose/
@@ -13,34 +13,34 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Pose extends A3DObject
 ```
 
-يُستخدم الـ Pose لتخزين مصفوفة التحويل عندما يتم تجليد الهندسة. الـ Pose هو مجموعة من [BonePose](../../com.aspose.threed/bonepose)، كل [BonePose](../../com.aspose.threed/bonepose) يحفظ معلومات التحويل الدقيقة لعقدة العظم.
+يُستخدم الوضع لتخزين مصفوفة التحويل عندما يتم تجليد الهندسة. الوضع هو مجموعة من [BonePose](../../com.aspose.threed/bonepose)، كل [BonePose](../../com.aspose.threed/bonepose) يحفظ معلومات التحويل المحددة لعقدة العظم.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [Pose(String name)](#Pose-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة [Pose](../../com.aspose.threed/pose). |
-| [Pose()](#Pose--) | ينشئ مثيلاً جديداً من الفئة [Pose](../../com.aspose.threed/pose). |
+| [Pose(String name)](#Pose-java.lang.String-) | ينشئ مثيلاً جديداً للفئة [Pose](../../com.aspose.threed/pose). |
+| [Pose()](#Pose--) | ينشئ مثيلاً جديداً للفئة [Pose](../../com.aspose.threed/pose). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [addBonePose(Node node, Matrix4 matrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | يحفظ مصفوفة تحويل الـ Pose للعقدة العظمية المحددة. |
-| [addBonePose(Node node, Matrix4 matrix, boolean localMatrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-boolean-) | يحفظ مصفوفة تحويل الـ Pose للعقدة العظمية المحددة. |
+| [addBonePose(Node node, Matrix4 matrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | يحفظ مصفوفة تحويل الوضع لعقدة العظم المحددة. |
+| [addBonePose(Node node, Matrix4 matrix, boolean localMatrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-boolean-) | يحفظ مصفوفة تحويل الوضع لعقدة العظم المحددة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
 | [getBonePoses()](#getBonePoses--) | يحصل على جميع [BonePose](../../com.aspose.threed/bonepose). |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getPoseType()](#getPoseType--) | يحصل على نوع الـ Pose. |
+| [getPoseType()](#getPoseType--) | يحصل على نوع الوضع. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
-| [setPoseType(PoseType value)](#setPoseType-com.aspose.threed.PoseType-) | يضبط نوع الـ Pose. |
+| [setPoseType(PoseType value)](#setPoseType-com.aspose.threed.PoseType-) | يضبط نوع الوضع. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -52,7 +52,7 @@ public Pose(String name)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [Pose](../../com.aspose.threed/pose).
+ينشئ مثيلاً جديداً للفئة [Pose](../../com.aspose.threed/pose).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -65,7 +65,7 @@ public Pose()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [Pose](../../com.aspose.threed/pose).
+ينشئ مثيلاً جديداً للفئة [Pose](../../com.aspose.threed/pose).
 
 ### addBonePose(Node node, Matrix4 matrix) {#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-}
 ```
@@ -73,7 +73,7 @@ public void addBonePose(Node node, Matrix4 matrix)
 ```
 
 
-يحفظ مصفوفة تحويل الوضع للعظام المحددة. تُفترض مصفوفة التحويل العامة.
+يحفظ مصفوفة تحويل الوضعية للعظام المحددة. تُفترض مصفوفة التحويل العامة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -87,14 +87,14 @@ public void addBonePose(Node node, Matrix4 matrix, boolean localMatrix)
 ```
 
 
-يحفظ مصفوفة تحويل الـ Pose للعقدة العظمية المحددة.
+يحفظ مصفوفة تحويل الوضع لعقدة العظم المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) | عقدة العظم. |
 | matrix | [Matrix4](../../com.aspose.threed/matrix4) | مصفوفة التحويل. |
-| localMatrix | boolean | إذا تم تعيينه إلى  true  يعني استخدام المصفوفة المحلية وإلا يعني المصفوفة العامة. |
+| localMatrix | boolean | إذا تم ضبطه على  true  يعني استخدام المصفوفة المحلية وإلا يعني المصفوفة العامة. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -117,7 +117,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -162,7 +162,7 @@ public PoseType getPoseType()
 ```
 
 
-يحصل على نوع الـ Pose.
+يحصل على نوع الوضع.
 
 **Returns:**
 [PoseType](../../com.aspose.threed/posetype) - the type of the pose.
@@ -238,7 +238,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -258,7 +258,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setPoseType(PoseType value) {#setPoseType-com.aspose.threed.PoseType-}
 ```
@@ -266,12 +266,12 @@ public void setPoseType(PoseType value)
 ```
 
 
-يضبط نوع الـ Pose.
+يضبط نوع الوضع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PoseType](../../com.aspose.threed/posetype) | القيمة الجديدة |
+| value | [PoseType](../../com.aspose.threed/posetype) | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -285,7 +285,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

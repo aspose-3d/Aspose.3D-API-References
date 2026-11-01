@@ -1,6 +1,6 @@
 ---
 title: "RotationMode"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "وضع دوران المخروط"
 type: docs
 weight: 299
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum RotationMode extends Enum<RotationMode>
 ```
 
-وضعية دوران المخروط.
+وضع دوران المخروط
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [FIXED_DIRECTION](#FIXED-DIRECTION) | الاتجاه ثابت، والنظر محسوب بناءً على الاتجاه |
-| [FIXED_TARGET](#FIXED-TARGET) | الهدف ثابت، والاتجاه محسوب بناءً على هدف النظر |
+| [FIXED_DIRECTION](#FIXED-DIRECTION) | الاتجاه ثابت، ويتم حساب النظر إلى بناءً على الاتجاه |
+| [FIXED_TARGET](#FIXED-TARGET) | الهدف ثابت، ويتم حساب الاتجاه بناءً على هدف النظر |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final RotationMode FIXED_DIRECTION
 ```
 
 
-الاتجاه ثابت، والنظر محسوب بناءً على الاتجاه
+الاتجاه ثابت، ويتم حساب النظر إلى بناءً على الاتجاه
 
 ### FIXED_TARGET {#FIXED-TARGET}
 ```
@@ -55,7 +55,7 @@ public static final RotationMode FIXED_TARGET
 ```
 
 
-الهدف ثابت، والاتجاه محسوب بناءً على هدف النظر
+الهدف ثابت، ويتم حساب الاتجاه بناءً على هدف النظر
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "InitializationException"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "استثناءات في تهيئة خط أنابيب العرض."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "استثناءات في تهيئة خط أنابيب العرض"
 type: docs
 weight: 85
 url: /ar/java/com.aspose.threed/initializationexception/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class InitializationException extends RuntimeException
 ```
 
-استثناءات في تهيئة خط أنابيب العرض.
+استثناءات في تهيئة خط أنابيب العرض
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [InitializationException()](#InitializationException--) | تهيئة مثيل من [InitializationException](../../com.aspose.threed/initializationexception) |
-| [InitializationException(String msg)](#InitializationException-java.lang.String-) | تهيئة مثيل من [InitializationException](../../com.aspose.threed/initializationexception) مع رسالة استثناء محددة. |
+| [InitializationException()](#InitializationException--) | تهيئة نسخة من [InitializationException](../../com.aspose.threed/initializationexception) |
+| [InitializationException(String msg)](#InitializationException-java.lang.String-) | تهيئة نسخة من [InitializationException](../../com.aspose.threed/initializationexception) برسالة استثناء محددة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -51,7 +51,7 @@ public InitializationException()
 ```
 
 
-تهيئة مثيل من [InitializationException](../../com.aspose.threed/initializationexception)
+تهيئة نسخة من [InitializationException](../../com.aspose.threed/initializationexception)
 
 ### InitializationException(String msg) {#InitializationException-java.lang.String-}
 ```
@@ -59,7 +59,7 @@ public InitializationException(String msg)
 ```
 
 
-تهيئة مثيل من [InitializationException](../../com.aspose.threed/initializationexception) مع رسالة استثناء محددة.
+تهيئة نسخة من [InitializationException](../../com.aspose.threed/initializationexception) برسالة استثناء محددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

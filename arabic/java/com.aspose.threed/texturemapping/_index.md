@@ -1,7 +1,7 @@
 ---
 title: "TextureMapping"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "نوع تخطيط النسيج لـ يصف أي نوع من تخطيط النسيج يُستخدم."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "نوع تخطيط النسيج لـ  يصف أي نوع من تخطيط النسيج يُستخدم."
 type: docs
 weight: 306
 url: /ar/java/com.aspose.threed/texturemapping/
@@ -29,7 +29,7 @@ public enum TextureMapping extends Enum<TextureMapping>
 | [REFLECTION](#REFLECTION) | خرائط الانعكاس |
 | [SHADOW](#SHADOW) | خرائط الظل |
 | [SHININESS](#SHININESS) | خرائط اللمعان |
-| [SPECULAR](#SPECULAR) | خرائط الانعكاس المظهرية |
+| [SPECULAR](#SPECULAR) | خرائط الانعكاس اللامع |
 ## الطرق
 
 | طريقة | الوصف |
@@ -145,7 +145,7 @@ public static final TextureMapping SPECULAR
 ```
 
 
-خرائط الانعكاس المظهرية
+خرائط الانعكاس اللامع
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

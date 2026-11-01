@@ -1,6 +1,6 @@
 ---
 title: "TextureData"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تحتوي هذه الفئة على البيانات الخام وتعريف تنسيق القوام."
 type: docs
 weight: 187
@@ -19,7 +19,7 @@ public class TextureData extends A3DObject
 | منشئ | الوصف |
 | --- | --- |
 | [TextureData(int width, int height, int stride, int bytesPerPixel, PixelFormat pixelFormat, byte[] data)](#TextureData-int-int-int-int-com.aspose.threed.PixelFormat-byte---) | منشئ [TextureData](../../com.aspose.threed/texturedata) |
-| [TextureData(int width, int height, PixelFormat pixelFormat)](#TextureData-int-int-com.aspose.threed.PixelFormat-) | ينشئ [TextureData](../../com.aspose.threed/texturedata) جديد ويخصص بيانات البكسل. |
+| [TextureData(int width, int height, PixelFormat pixelFormat)](#TextureData-int-int-com.aspose.threed.PixelFormat-) | ينشئ [TextureData](../../com.aspose.threed/texturedata) جديدًا ويخصص بيانات البكسل. |
 | [TextureData()](#TextureData--) | منشئ [TextureData](../../com.aspose.threed/texturedata) |
 ## الطرق
 
@@ -46,10 +46,10 @@ public class TextureData extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
-| [save(Stream stream, String format)](#save-com.aspose.threed.Stream-java.lang.String-) | حفظ بيانات القوام في تنسيق الصورة المحدد |
-| [save(String fileName)](#save-java.lang.String-) | حفظ بيانات القوام في ملف صورة |
-| [save(String fileName, String format)](#save-java.lang.String-java.lang.String-) | حفظ بيانات القوام في ملف صورة |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
+| [save(Stream stream, String format)](#save-com.aspose.threed.Stream-java.lang.String-) | حفظ بيانات القوام إلى تنسيق الصورة المحدد |
+| [save(String fileName)](#save-java.lang.String-) | حفظ بيانات القوام إلى ملف صورة |
+| [save(String fileName, String format)](#save-java.lang.String-java.lang.String-) | حفظ بيانات القوام إلى ملف صورة |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
 | [toString()](#toString--) |  |
@@ -81,7 +81,7 @@ public TextureData(int width, int height, PixelFormat pixelFormat)
 ```
 
 
-ينشئ [TextureData](../../com.aspose.threed/texturedata) جديد ويخصص بيانات البكسل.
+ينشئ [TextureData](../../com.aspose.threed/texturedata) جديدًا ويخصص بيانات البكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -119,7 +119,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -284,7 +284,7 @@ public PixelMapping mapPixels(PixelMapMode mapMode)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | وضع التعيين |
+| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | وضع الخريطة |
 
 **Returns:**
 [PixelMapping](../../com.aspose.threed/pixelmapping)
@@ -299,7 +299,7 @@ public PixelMapping mapPixels(PixelMapMode mapMode, PixelFormat format)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | وضع التعيين |
+| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | وضع الخريطة |
 | format | [PixelFormat](../../com.aspose.threed/pixelformat) | تنسيق البكسل |
 
 **Returns:**
@@ -316,7 +316,7 @@ public PixelMapping mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat forma
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rect | [Rect](../../com.aspose.threed/rect) | منطقة البكسلات التي سيتم الوصول إليها |
-| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | وضع التعيين |
+| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | وضع الخريطة |
 | format | [PixelFormat](../../com.aspose.threed/pixelformat) | تنسيق البكسل |
 
 **Returns:**
@@ -358,7 +358,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -373,13 +373,13 @@ public void save(Stream stream, String format)
 ```
 
 
-حفظ بيانات القوام في تنسيق الصورة المحدد
+حفظ بيانات القوام إلى تنسيق الصورة المحدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | stream | [Stream](../../com.aspose.threed/stream) | الدفق الذي يحتوي على الصورة المحفوظة |
-| تنسيق | java.lang.String | تنسيق الصورة، عادةً امتداد الملف |
+| الصيغة | java.lang.String | تنسيق الصورة، عادةً ما يكون امتداد الملف |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -387,7 +387,7 @@ public void save(String fileName)
 ```
 
 
-حفظ بيانات القوام في ملف صورة
+حفظ بيانات القوام إلى ملف صورة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -400,13 +400,13 @@ public void save(String fileName, String format)
 ```
 
 
-حفظ بيانات القوام في ملف صورة
+حفظ بيانات القوام إلى ملف صورة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fileName | java.lang.String | اسم الملف حيث سيتم حفظ الصورة. |
-| تنسيق | java.lang.String | تنسيق الصورة للملف الناتج. |
+| الصيغة | java.lang.String | تنسيق الصورة لملف الإخراج. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -419,7 +419,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -433,7 +433,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

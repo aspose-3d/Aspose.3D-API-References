@@ -1,7 +1,7 @@
 ---
 title: "KeyframeSequence"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "تسلسل الإطارات المفتاحية يصف تحويل القيمة المأخوذة على مدار الوقت."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "التسلسل من الإطارات المفتاحية يصف التحويل لقيمة مُعينة عبر الزمن."
 type: docs
 weight: 90
 url: /ar/java/com.aspose.threed/keyframesequence/
@@ -16,13 +16,13 @@ java.lang.Iterable
 public class KeyframeSequence extends A3DObject implements Iterable<KeyFrame>
 ```
 
-تسلسل الإطارات الرئيسية يصف تحول القيمة المعيّنة مع مرور الوقت.
+تسلسل الإطارات المفتاحية يصف تحول القيمة المعيّنة مع مرور الوقت.
 ## المنشئات
 
 | منشئ | الوصف |
 | --- | --- |
-| [KeyframeSequence(String name)](#KeyframeSequence-java.lang.String-) | ينشئ مثيلًا جديدًا من الفئة [KeyframeSequence](../../com.aspose.threed/keyframesequence). |
-| [KeyframeSequence()](#KeyframeSequence--) | ينشئ مثيلًا جديدًا من الفئة [KeyframeSequence](../../com.aspose.threed/keyframesequence). |
+| [KeyframeSequence(String name)](#KeyframeSequence-java.lang.String-) | يُنشئ مثيلًا جديدًا للفئة [KeyframeSequence](../../com.aspose.threed/keyframesequence). |
+| [KeyframeSequence()](#KeyframeSequence--) | يُنشئ مثيلًا جديدًا للفئة [KeyframeSequence](../../com.aspose.threed/keyframesequence). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,20 +31,20 @@ public class KeyframeSequence extends A3DObject implements Iterable<KeyFrame>
 | [add(double time, float value, Interpolation interpolation)](#add-double-float-com.aspose.threed.Interpolation-) | إنشاء إطار مفتاح جديد بالقيمة المحددة |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | يبحث عن الخاصية. |
-| [getBindPoint()](#getBindPoint--) | يحصل على نقطة ربط الخاصية التي تمتلك هذا المنحنى |
+| [getBindPoint()](#getBindPoint--) | يحصل على نقطة ربط الخاصية التي تملك هذا المنحنى |
 | [getClass()](#getClass--) |  |
 | [getKeyFrames()](#getKeyFrames--) | يحصل على الإطارات المفتاحية لهذا المنحنى. |
 | [getName()](#getName--) | يحصل على الاسم. |
-| [getPostBehavior()](#getPostBehavior--) | يحصل على سلوك ما بعد الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المأخوذة بعد الإطار المفتاحي الأخير. |
-| [getPreBehavior()](#getPreBehavior--) | يحصل على سلوك ما قبل الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المأخوذة قبل الإطار المفتاحي الأول. |
+| [getPostBehavior()](#getPostBehavior--) | يحصل على سلوك ما بعد الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المُعينة بعد الإطار المفتاحي الأخير. |
+| [getPreBehavior()](#getPreBehavior--) | يحصل على سلوك ما قبل الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المُعينة قبل الإطار المفتاحي الأول. |
 | [getProperties()](#getProperties--) | يحصل على مجموعة جميع الخصائص. |
 | [getProperty(String property)](#getProperty-java.lang.String-) | احصل على قيمة الخاصية المحددة |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | يحصل على المُعدِّد لتصفح جميع الإطارات المفتاحية. |
+| [iterator()](#iterator--) | يحصل على المُعدد لتجوال جميع الإطارات المفتاحية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | يزيل خاصية ديناميكية. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | إزالة الخاصية المحددة التي تم التعرف عليها بالاسم. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | أزل الخاصية المحددة بالاسم |
 | [reset()](#reset--) | يزيل جميع الإطارات المفتاحية ويعيد تعيين سلوكيات ما بعد/ما قبل. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط الاسم. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | يضبط قيمة الخاصية المحددة |
@@ -58,7 +58,7 @@ public KeyframeSequence(String name)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة [KeyframeSequence](../../com.aspose.threed/keyframesequence).
+يُنشئ مثيلًا جديدًا للفئة [KeyframeSequence](../../com.aspose.threed/keyframesequence).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -71,7 +71,7 @@ public KeyframeSequence()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة [KeyframeSequence](../../com.aspose.threed/keyframesequence).
+يُنشئ مثيلًا جديدًا للفئة [KeyframeSequence](../../com.aspose.threed/keyframesequence).
 
 ### add(double time, float value) {#add-double-float-}
 ```
@@ -84,8 +84,8 @@ public void add(double time, float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوقت | double | موضع الوقت (مقاس بالثواني) |
-| القيمة | float | القيمة عند موضع الوقت هذا |
+| الوقت | double | موضع الوقت (بالثواني) |
+| قيمة | float | القيمة في موضع الوقت هذا |
 
 ### add(double time, float value, Interpolation interpolation) {#add-double-float-com.aspose.threed.Interpolation-}
 ```
@@ -98,8 +98,8 @@ public void add(double time, float value, Interpolation interpolation)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوقت | double | موضع الوقت (مقاس بالثواني) |
-| القيمة | float | القيمة عند موضع الوقت هذا |
+| الوقت | double | موضع الوقت (بالثواني) |
+| قيمة | float | القيمة في موضع الوقت هذا |
 | interpolation | [Interpolation](../../com.aspose.threed/interpolation) | نوع الاستيفاء لهذا الإطار المفتاحي |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -123,7 +123,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها)
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -138,7 +138,7 @@ public BindPoint getBindPoint()
 ```
 
 
-يحصل على نقطة ربط الخاصية التي تمتلك هذا المنحنى
+يحصل على نقطة ربط الخاصية التي تملك هذا المنحنى
 
 **Returns:**
 [BindPoint](../../com.aspose.threed/bindpoint) - the property bind point which owns this curve
@@ -161,7 +161,7 @@ public List<KeyFrame> getKeyFrames()
 يحصل على الإطارات المفتاحية لهذا المنحنى.
 
 **Returns:**
-java.util.List<com.aspose.threed.KeyFrame> - إطارات المفتاح لهذا المنحنى.
+java.util.List<com.aspose.threed.KeyFrame> - الإطارات المفتاحية لهذا المنحنى.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -178,7 +178,7 @@ public Extrapolation getPostBehavior()
 ```
 
 
-يحصل على سلوك ما بعد الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المأخوذة بعد الإطار المفتاحي الأخير.
+يحصل على سلوك ما بعد الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المُعينة بعد الإطار المفتاحي الأخير.
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the post behavior indicates what the sampled value should be after the last key frame.
@@ -188,7 +188,7 @@ public Extrapolation getPreBehavior()
 ```
 
 
-يحصل على سلوك ما قبل الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المأخوذة قبل الإطار المفتاحي الأول.
+يحصل على سلوك ما قبل الإطار المفتاحي، والذي يحدد ما يجب أن تكون عليه القيمة المُعينة قبل الإطار المفتاحي الأول.
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the pre behavior indicates what the sampled value should be before the first key.
@@ -233,7 +233,7 @@ public Iterator<KeyFrame> iterator()
 ```
 
 
-يحصل على المُعدِّد لتصفح جميع الإطارات المفتاحية.
+يحصل على المُعدد لتجوال جميع الإطارات المفتاحية.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.KeyFrame>
@@ -274,7 +274,7 @@ public boolean removeProperty(String property)
 ```
 
 
-إزالة الخاصية المحددة التي تم التعرف عليها بالاسم.
+أزل الخاصية المحددة بالاسم
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -302,7 +302,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setProperty(String property, Object value) {#setProperty-java.lang.String-java.lang.Object-}
 ```
@@ -316,7 +316,7 @@ public void setProperty(String property, Object value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | خاصية | java.lang.String | اسم الخاصية |
-| القيمة | java.lang.Object | قيمة الخاصية |
+| قيمة | java.lang.Object | قيمة الخاصية |
 
 ### toString() {#toString--}
 ```

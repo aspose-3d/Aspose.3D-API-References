@@ -1,6 +1,6 @@
 ---
 title: "PlyFormat"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تنسيق PLY."
 type: docs
 weight: 129
@@ -8,12 +8,12 @@ url: /ar/java/com.aspose.threed/plyformat/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.threed.FileFormat](../../com.aspose.threed/fileformat)
+java.lang.Object، [com.aspose.threed.FileFormat](../../com.aspose.threed/fileformat)
 ```
 public class PlyFormat extends FileFormat
 ```
 
-تنسيق PLY. **Example:** يُظهر الكود التالي كيفية فك تشفير شبكة من ملف PLY:
+تنسيق PLY. **Example:** يوضح الكود التالي كيفية فك تشفير شبكة من ملف PLY:
 
 ```
 //Generate a test file for decoding
@@ -27,55 +27,55 @@ public class PlyFormat extends FileFormat
 | --- | --- |
 | [AMF](#AMF) | تنسيق ملف التصنيع الإضافي |
 | [ASE](#ASE) | تنسيق مُصدِّر المشهد ASCII لبرنامج 3D Studio Max. |
-| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | تنسيق Aspose.3D للويب. |
+| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | تنسيق Aspose.3D Web. |
 | [BLENDER](#BLENDER) | تنسيق ملف 3D الخاص بـ Blender |
 | [COLLADA](#COLLADA) | تنسيق ملف Collada |
 | [DISCREET3DS](#DISCREET3DS) | تنسيق ملف 3D Studio |
-| [DRACO](#DRACO) | Google Draco Mesh |
+| [DRACO](#DRACO) | شبكة Google Draco |
 | [DXF](#DXF) | AutoCAD DXF |
-| [FBX6100ASCII](#FBX6100ASCII) | تنسيق ملف ASCII FBX، بالإصدار 6.1.0 |
-| [FBX6100_BINARY](#FBX6100-BINARY) | تنسيق ملف Binary FBX، بالإصدار 6.1.0 |
-| [FBX7200ASCII](#FBX7200ASCII) | تنسيق ملف ASCII FBX، بالإصدار 7.2.0 |
-| [FBX7200_BINARY](#FBX7200-BINARY) | تنسيق ملف Binary FBX، بالإصدار 7.2.0 |
-| [FBX7300ASCII](#FBX7300ASCII) | تنسيق ملف ASCII FBX، بالإصدار 7.3.0 |
-| [FBX7300_BINARY](#FBX7300-BINARY) | تنسيق ملف Binary FBX، بالإصدار 7.3.0 |
-| [FBX7400ASCII](#FBX7400ASCII) | تنسيق ملف ASCII FBX، بالإصدار 7.4.0 |
-| [FBX7400_BINARY](#FBX7400-BINARY) | تنسيق ملف Binary FBX، بالإصدار 7.4.0 |
-| [FBX7500ASCII](#FBX7500ASCII) | تنسيق ملف FBX ASCII، بالإصدار 7.5.0 |
-| [FBX7500_BINARY](#FBX7500-BINARY) | تنسيق ملف FBX الثنائي، بالإصدار 7.5.0 |
-| [FBX7600ASCII](#FBX7600ASCII) | تنسيق ملف FBX ASCII، بالإصدار 7.6.0 |
-| [FBX7600_BINARY](#FBX7600-BINARY) | تنسيق ملف FBX الثنائي، بالإصدار 7.6.0 |
-| [FBX7700ASCII](#FBX7700ASCII) | تنسيق ملف FBX ASCII، بالإصدار 7.7.0 |
-| [FBX7700_BINARY](#FBX7700-BINARY) | تنسيق ملف FBX الثنائي، بالإصدار 7.7.0 |
+| [FBX6100ASCII](#FBX6100ASCII) | تنسيق ملف FBX ASCII، الإصدار 6.1.0 |
+| [FBX6100_BINARY](#FBX6100-BINARY) | تنسيق ملف FBX الثنائي، الإصدار 6.1.0 |
+| [FBX7200ASCII](#FBX7200ASCII) | تنسيق ملف FBX ASCII، الإصدار 7.2.0 |
+| [FBX7200_BINARY](#FBX7200-BINARY) | تنسيق ملف FBX الثنائي، الإصدار 7.2.0 |
+| [FBX7300ASCII](#FBX7300ASCII) | تنسيق ملف FBX ASCII، الإصدار 7.3.0 |
+| [FBX7300_BINARY](#FBX7300-BINARY) | تنسيق ملف FBX الثنائي، الإصدار 7.3.0 |
+| [FBX7400ASCII](#FBX7400ASCII) | تنسيق ملف FBX ASCII، الإصدار 7.4.0 |
+| [FBX7400_BINARY](#FBX7400-BINARY) | تنسيق ملف FBX الثنائي، الإصدار 7.4.0 |
+| [FBX7500ASCII](#FBX7500ASCII) | تنسيق ملف ASCII FBX، بالإصدار 7.5.0 |
+| [FBX7500_BINARY](#FBX7500-BINARY) | تنسيق ملف Binary FBX، بالإصدار 7.5.0 |
+| [FBX7600ASCII](#FBX7600ASCII) | تنسيق ملف ASCII FBX، بالإصدار 7.6.0 |
+| [FBX7600_BINARY](#FBX7600-BINARY) | تنسيق ملف Binary FBX، بالإصدار 7.6.0 |
+| [FBX7700ASCII](#FBX7700ASCII) | تنسيق ملف ASCII FBX، بالإصدار 7.7.0 |
+| [FBX7700_BINARY](#FBX7700-BINARY) | تنسيق ملف Binary FBX، بالإصدار 7.7.0 |
 | [GLTF](#GLTF) | glTF لمجموعة Khronos |
-| [GLTF2](#GLTF2) | glTF لمجموعة Khronos الإصدار 2.0 |
-| [GLTF2_BINARY](#GLTF2-BINARY) | glTF لمجموعة Khronos الإصدار 2.0 |
+| [GLTF2](#GLTF2) | glTF الإصدار 2.0 لمجموعة Khronos |
+| [GLTF2_BINARY](#GLTF2-BINARY) | glTF الإصدار 2.0 لمجموعة Khronos |
 | [GLTF_BINARY](#GLTF-BINARY) | glTF لمجموعة Khronos بصيغة ثنائية |
 | [HTML5](#HTML5) | ملف HTML5 |
 | [IFC](#IFC) | نموذج بيانات ISO 16739-1 لفئات الأساس الصناعي. |
 | [MAYAASCII](#MAYAASCII) | Autodesk Maya بصيغة ASCII |
-| [MAYA_BINARY](#MAYA-BINARY) | Autodesk Maya بصيغة ثنائية |
+| [MAYA_BINARY](#MAYA-BINARY) | Autodesk Maya بصيغة Binary |
 | [MICROSOFT3MF](#MICROSOFT3MF) | تنسيق Microsoft 3D Manufacturing |
-| [PCD](#PCD) | ملف بيانات سحابة النقاط PCL بنمط ASCII |
-| [PCD_BINARY](#PCD-BINARY) | ملف بيانات سحابة النقاط PCL بنمط ثنائي |
-| [PDF](#PDF) | تنسيق المستند القابل للنقل من Adobe |
-| [PLY](#PLY) | تنسيق ملف المضلع أو تنسيق مثلثات ستانفورد |
-| [RVM_BINARY](#RVM-BINARY) | نموذج نظام إدارة تصميم المصانع AVEVA بصيغة ثنائية |
-| [RVM_TEXT](#RVM-TEXT) | نموذج نظام إدارة تصميم المصانع AVEVA بصيغة نصية |
+| [PCD](#PCD) | ملف PCL Point Cloud Data بوضع ASCII |
+| [PCD_BINARY](#PCD-BINARY) | ملف PCL Point Cloud Data بوضع Binary |
+| [PDF](#PDF) | تنسيق Portable Document Format الخاص بـ Adobe |
+| [PLY](#PLY) | Polygon File Format أو Stanford Triangle Format |
+| [RVM_BINARY](#RVM-BINARY) | نموذج AVEVA Plant Design Management System بصيغة ثنائية |
+| [RVM_TEXT](#RVM-TEXT) | نموذج AVEVA Plant Design Management System بصيغة نصية |
 | [SIEMENSJT8](#SIEMENSJT8) | ملف Siemens JT الإصدار 8 |
 | [SIEMENSJT9](#SIEMENSJT9) | ملف Siemens JT الإصدار 9 |
-| [STLASCII](#STLASCII) | تنسيق ملف STL ASCII |
-| [STL_BINARY](#STL-BINARY) | تنسيق ملف STL الثنائي |
+| [STLASCII](#STLASCII) | تنسيق ملف ASCII STL |
+| [STL_BINARY](#STL-BINARY) | تنسيق ملف Binary STL |
 | [UNIVERSAL3D](#UNIVERSAL3D) | تنسيق ملف Universal3D |
-| [USD](#USD) | وصف المشهد الشامل |
-| [USDA](#USDA) | وصف المشهد الشامل بتنسيق ASCII. |
-| [USDZ](#USDZ) | وصف المشهد الشامل المضغوط |
+| [USD](#USD) | الوصف العام للمشهد |
+| [USDA](#USDA) | الوصف العام للمشهد بتنسيق ASCII. |
+| [USDZ](#USDZ) | الوصف العام للمشهد المضغوط |
 | [VRML](#VRML) | لغة نمذجة الواقع الافتراضي |
 | [WAVEFRONTOBJ](#WAVEFRONTOBJ) | تنسيق ملف Obj الخاص بـ Wavefront |
-| [XYZ](#XYZ) | ملف سحابة نقاط Xyz |
+| [XYZ](#XYZ) | ملف سحابة النقاط Xyz |
 | [X_BINARY](#X-BINARY) | ملف DirectX X بتنسيق ثنائي |
 | [X_TEXT](#X-TEXT) | ملف DirectX X بتنسيق ثنائي |
-| [ZIP](#ZIP) | أرشيف Zip يحتوي على تنسيقات ملفات ثلاثية الأبعاد أخرى. |
+| [ZIP](#ZIP) | أرشيف Zip يحتوي على تنسيقات ملفات 3D أخرى. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -93,20 +93,20 @@ public class PlyFormat extends FileFormat
 | [encode(Entity entity, String fileName)](#encode-com.aspose.threed.Entity-java.lang.String-) | ترميز الكيان وحفظ النتيجة في ملف خارجي. |
 | [encode(Entity entity, String fileName, PlySaveOptions opt)](#encode-com.aspose.threed.Entity-java.lang.String-com.aspose.threed.PlySaveOptions-) | ترميز الكيان وحفظ النتيجة في ملف خارجي. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCanExport()](#getCanExport--) | يعرف ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي. |
-| [getCanImport()](#getCanImport--) | يعرف ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي. |
+| [getCanExport()](#getCanExport--) | يحدد ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي. |
+| [getCanImport()](#getCanImport--) | يحدد ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي. |
 | [getClass()](#getClass--) |  |
 | [getContentType()](#getContentType--) | يحصل على نوع محتوى تنسيق الملف |
 | [getExtension()](#getExtension--) | يحصل على اسم الامتداد لهذا النوع. |
 | [getExtensions()](#getExtensions--) | يحصل على أسماء الامتدادات لهذا النوع. |
-| [getFileFormatType()](#getFileFormatType--) | يحصل على نوع تنسيق الملف |
+| [getFileFormatType()](#getFileFormatType--) | يحصل على نوع تنسيق الملف. |
 | [getFormatByExtension(String extensionName)](#getFormatByExtension-java.lang.String-) | يحصل على تنسيق الملف المفضل من اسم امتداد الملف. يجب أن يبدأ اسم الامتداد بنقطة ('.'). |
-| [getFormats()](#getFormats--) | الوصول إلى جميع التنسيقات المدعومة |
-| [getVersion()](#getVersion--) | يحصل على إصدار تنسيق الملف |
+| [getFormats()](#getFormats--) | الوصول إلى جميع التنسيقات المدعومة. |
+| [getVersion()](#getVersion--) | يحصل على إصدار تنسيق الملف. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | تحويل التنسيقات إلى سلسلة |
+| [toString()](#toString--) | تحويل التنسيقات إلى سلسلة. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -132,7 +132,7 @@ public static final FileFormat ASPOSE3D_WEB
 ```
 
 
-تنسيق Aspose.3D للويب.
+تنسيق Aspose.3D Web.
 
 ### BLENDER {#BLENDER}
 ```
@@ -164,7 +164,7 @@ public static final DracoFormat DRACO
 ```
 
 
-Google Draco Mesh
+شبكة Google Draco
 
 ### DXF {#DXF}
 ```
@@ -180,7 +180,7 @@ public static final FileFormat FBX6100ASCII
 ```
 
 
-تنسيق ملف ASCII FBX، بالإصدار 6.1.0
+تنسيق ملف FBX ASCII، الإصدار 6.1.0
 
 ### FBX6100_BINARY {#FBX6100-BINARY}
 ```
@@ -188,7 +188,7 @@ public static final FileFormat FBX6100_BINARY
 ```
 
 
-تنسيق ملف Binary FBX، بالإصدار 6.1.0
+تنسيق ملف FBX الثنائي، الإصدار 6.1.0
 
 ### FBX7200ASCII {#FBX7200ASCII}
 ```
@@ -196,7 +196,7 @@ public static final FileFormat FBX7200ASCII
 ```
 
 
-تنسيق ملف ASCII FBX، بالإصدار 7.2.0
+تنسيق ملف FBX ASCII، الإصدار 7.2.0
 
 ### FBX7200_BINARY {#FBX7200-BINARY}
 ```
@@ -204,7 +204,7 @@ public static final FileFormat FBX7200_BINARY
 ```
 
 
-تنسيق ملف Binary FBX، بالإصدار 7.2.0
+تنسيق ملف FBX الثنائي، الإصدار 7.2.0
 
 ### FBX7300ASCII {#FBX7300ASCII}
 ```
@@ -212,7 +212,7 @@ public static final FileFormat FBX7300ASCII
 ```
 
 
-تنسيق ملف ASCII FBX، بالإصدار 7.3.0
+تنسيق ملف FBX ASCII، الإصدار 7.3.0
 
 ### FBX7300_BINARY {#FBX7300-BINARY}
 ```
@@ -220,7 +220,7 @@ public static final FileFormat FBX7300_BINARY
 ```
 
 
-تنسيق ملف Binary FBX، بالإصدار 7.3.0
+تنسيق ملف FBX الثنائي، الإصدار 7.3.0
 
 ### FBX7400ASCII {#FBX7400ASCII}
 ```
@@ -228,7 +228,7 @@ public static final FileFormat FBX7400ASCII
 ```
 
 
-تنسيق ملف ASCII FBX، بالإصدار 7.4.0
+تنسيق ملف FBX ASCII، الإصدار 7.4.0
 
 ### FBX7400_BINARY {#FBX7400-BINARY}
 ```
@@ -236,7 +236,7 @@ public static final FileFormat FBX7400_BINARY
 ```
 
 
-تنسيق ملف Binary FBX، بالإصدار 7.4.0
+تنسيق ملف FBX الثنائي، الإصدار 7.4.0
 
 ### FBX7500ASCII {#FBX7500ASCII}
 ```
@@ -244,7 +244,7 @@ public static final FileFormat FBX7500ASCII
 ```
 
 
-تنسيق ملف FBX ASCII، بالإصدار 7.5.0
+تنسيق ملف ASCII FBX، بالإصدار 7.5.0
 
 ### FBX7500_BINARY {#FBX7500-BINARY}
 ```
@@ -252,7 +252,7 @@ public static final FileFormat FBX7500_BINARY
 ```
 
 
-تنسيق ملف FBX الثنائي، بالإصدار 7.5.0
+تنسيق ملف Binary FBX، بالإصدار 7.5.0
 
 ### FBX7600ASCII {#FBX7600ASCII}
 ```
@@ -260,7 +260,7 @@ public static final FileFormat FBX7600ASCII
 ```
 
 
-تنسيق ملف FBX ASCII، بالإصدار 7.6.0
+تنسيق ملف ASCII FBX، بالإصدار 7.6.0
 
 ### FBX7600_BINARY {#FBX7600-BINARY}
 ```
@@ -268,7 +268,7 @@ public static final FileFormat FBX7600_BINARY
 ```
 
 
-تنسيق ملف FBX الثنائي، بالإصدار 7.6.0
+تنسيق ملف Binary FBX، بالإصدار 7.6.0
 
 ### FBX7700ASCII {#FBX7700ASCII}
 ```
@@ -276,7 +276,7 @@ public static final FileFormat FBX7700ASCII
 ```
 
 
-تنسيق ملف FBX ASCII، بالإصدار 7.7.0
+تنسيق ملف ASCII FBX، بالإصدار 7.7.0
 
 ### FBX7700_BINARY {#FBX7700-BINARY}
 ```
@@ -284,7 +284,7 @@ public static final FileFormat FBX7700_BINARY
 ```
 
 
-تنسيق ملف FBX الثنائي، بالإصدار 7.7.0
+تنسيق ملف Binary FBX، بالإصدار 7.7.0
 
 ### GLTF {#GLTF}
 ```
@@ -300,7 +300,7 @@ public static final FileFormat GLTF2
 ```
 
 
-glTF لمجموعة Khronos الإصدار 2.0
+glTF الإصدار 2.0 لمجموعة Khronos
 
 ### GLTF2_BINARY {#GLTF2-BINARY}
 ```
@@ -308,7 +308,7 @@ public static final FileFormat GLTF2_BINARY
 ```
 
 
-glTF لمجموعة Khronos الإصدار 2.0
+glTF الإصدار 2.0 لمجموعة Khronos
 
 ### GLTF_BINARY {#GLTF-BINARY}
 ```
@@ -348,7 +348,7 @@ public static final FileFormat MAYA_BINARY
 ```
 
 
-Autodesk Maya بصيغة ثنائية
+Autodesk Maya بصيغة Binary
 
 ### MICROSOFT3MF {#MICROSOFT3MF}
 ```
@@ -364,7 +364,7 @@ public static final FileFormat PCD
 ```
 
 
-ملف بيانات سحابة النقاط PCL بنمط ASCII
+ملف PCL Point Cloud Data بوضع ASCII
 
 ### PCD_BINARY {#PCD-BINARY}
 ```
@@ -372,7 +372,7 @@ public static final FileFormat PCD_BINARY
 ```
 
 
-ملف بيانات سحابة النقاط PCL بنمط ثنائي
+ملف PCL Point Cloud Data بوضع Binary
 
 ### PDF {#PDF}
 ```
@@ -380,7 +380,7 @@ public static final PdfFormat PDF
 ```
 
 
-تنسيق المستند القابل للنقل من Adobe
+تنسيق Portable Document Format الخاص بـ Adobe
 
 ### PLY {#PLY}
 ```
@@ -388,7 +388,7 @@ public static final PlyFormat PLY
 ```
 
 
-تنسيق ملف المضلع أو تنسيق مثلثات ستانفورد
+Polygon File Format أو Stanford Triangle Format
 
 ### RVM_BINARY {#RVM-BINARY}
 ```
@@ -396,7 +396,7 @@ public static final RvmFormat RVM_BINARY
 ```
 
 
-نموذج نظام إدارة تصميم المصانع AVEVA بصيغة ثنائية
+نموذج AVEVA Plant Design Management System بصيغة ثنائية
 
 ### RVM_TEXT {#RVM-TEXT}
 ```
@@ -404,7 +404,7 @@ public static final RvmFormat RVM_TEXT
 ```
 
 
-نموذج نظام إدارة تصميم المصانع AVEVA بصيغة نصية
+نموذج AVEVA Plant Design Management System بصيغة نصية
 
 ### SIEMENSJT8 {#SIEMENSJT8}
 ```
@@ -428,7 +428,7 @@ public static final FileFormat STLASCII
 ```
 
 
-تنسيق ملف STL ASCII
+تنسيق ملف ASCII STL
 
 ### STL_BINARY {#STL-BINARY}
 ```
@@ -436,7 +436,7 @@ public static final FileFormat STL_BINARY
 ```
 
 
-تنسيق ملف STL الثنائي
+تنسيق ملف Binary STL
 
 ### UNIVERSAL3D {#UNIVERSAL3D}
 ```
@@ -452,7 +452,7 @@ public static final FileFormat USD
 ```
 
 
-وصف المشهد الشامل
+الوصف العام للمشهد
 
 ### USDA {#USDA}
 ```
@@ -460,7 +460,7 @@ public static final FileFormat USDA
 ```
 
 
-وصف المشهد الشامل بتنسيق ASCII.
+الوصف العام للمشهد بتنسيق ASCII.
 
 ### USDZ {#USDZ}
 ```
@@ -468,7 +468,7 @@ public static final FileFormat USDZ
 ```
 
 
-وصف المشهد الشامل المضغوط
+الوصف العام للمشهد المضغوط
 
 ### VRML {#VRML}
 ```
@@ -492,7 +492,7 @@ public static final FileFormat XYZ
 ```
 
 
-ملف سحابة نقاط Xyz
+ملف سحابة النقاط Xyz
 
 ### X_BINARY {#X-BINARY}
 ```
@@ -516,7 +516,7 @@ public static final FileFormat ZIP
 ```
 
 
-أرشيف Zip يحتوي على تنسيقات ملفات ثلاثية الأبعاد أخرى.
+أرشيف Zip يحتوي على تنسيقات ملفات 3D أخرى.
 
 ### createLoadOptions() {#createLoadOptions--}
 ```
@@ -639,7 +639,7 @@ public static FileFormat detect(Stream stream, String fileName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | تدفق يحتوي على بيانات للاكتشاف |
+| stream | [Stream](../../com.aspose.threed/stream) | تدفق يحتوي على البيانات للكشف. |
 | fileName | java.lang.String | اسم الملف الأصلي للبيانات، يُستخدم كإشارة. |
 
 **Returns:**
@@ -655,7 +655,7 @@ public static FileFormat detect(String fileName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | المسار إلى الملف لاكتشاف تنسيق الملف. |
+| fileName | java.lang.String | مسار الملف لاكتشاف تنسيق الملف. |
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - The [FileFormat](../../com.aspose.threed/fileformat) instance of the detected type or null if failed.
@@ -671,7 +671,7 @@ public void encode(Entity entity, Stream stream)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | entity | [Entity](../../com.aspose.threed/entity) | الكيان للترميز |
-|  | stream | [Stream](../../com.aspose.threed/stream) | الدفق للكتابة إليه، هذه الطريقة لن تغلق هذا الدفق **مثال:** الكود التالي يوضح كيفية ترميز شبكة إلى ملف PLY: |
+|  | stream | [Stream](../../com.aspose.threed/stream) | دفق الكتابة إلى، هذه الطريقة لن تغلق هذا الدفق **Example:** الكود التالي يوضح كيفية ترميز شبكة إلى ملف PLY: |
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -691,8 +691,8 @@ public void encode(Entity entity, Stream stream, PlySaveOptions opt)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | entity | [Entity](../../com.aspose.threed/entity) | الكيان للترميز |
-| stream | [Stream](../../com.aspose.threed/stream) | الدفق للكتابة إليه، هذه الطريقة لن تغلق هذا الدفق |
-|  | opt | [PlySaveOptions](../../com.aspose.threed/plysaveoptions) | خيارات الحفظ **مثال:** الكود التالي يوضح كيفية ترميز شبكة إلى ملف PLY: |
+| stream | [Stream](../../com.aspose.threed/stream) | دفق الكتابة إلى، هذه الطريقة لن تغلق هذا الدفق |
+|  | opt | [PlySaveOptions](../../com.aspose.threed/plysaveoptions) | خيارات الحفظ **Example:** الكود التالي يوضح كيفية ترميز شبكة إلى ملف PLY: |
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -712,7 +712,7 @@ public void encode(Entity entity, String fileName)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | entity | [Entity](../../com.aspose.threed/entity) | الكيان للترميز |
-|  | fileName | java.lang.String | الملف للكتابة إليه **مثال:** الكود التالي يوضح كيفية ترميز شبكة إلى ملف PLY: |
+|  | fileName | java.lang.String | الملف للكتابة إليه **Example:** الكود التالي يوضح كيفية ترميز شبكة إلى ملف PLY: |
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -733,7 +733,7 @@ public void encode(Entity entity, String fileName, PlySaveOptions opt)
 | --- | --- | --- |
 | entity | [Entity](../../com.aspose.threed/entity) | الكيان للترميز |
 | fileName | java.lang.String | الملف للكتابة إليه |
-|  | opt | [PlySaveOptions](../../com.aspose.threed/plysaveoptions) | خيارات الحفظ **مثال:** الكود التالي يوضح كيفية ترميز شبكة إلى ملف PLY: |
+|  | opt | [PlySaveOptions](../../com.aspose.threed/plysaveoptions) | خيارات الحفظ **Example:** الكود التالي يوضح كيفية ترميز شبكة إلى ملف PLY: |
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -762,10 +762,10 @@ public boolean getCanExport()
 ```
 
 
-يعرف ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي.
+يحدد ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي.
 
 **Returns:**
-منطقي - ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي. **مثال:** يوضح الشيفرة التالية كيفية التحقق مما إذا كان تصدير إلى التنسيق المحدد مدعومًا.
+منطقي - ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي. **Example:** يوضح الكود التالي كيفية التحقق مما إذا كان تصدير إلى التنسيق المحدد مدعومًا.
 
 ```
 var outputFormat = ".glb";
@@ -779,10 +779,10 @@ public boolean getCanImport()
 ```
 
 
-يعرف ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي.
+يحدد ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي.
 
 **Returns:**
-منطقي - ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي. **مثال:** يوضح الشيفرة التالية كيفية التحقق مما إذا كان استيراد من التنسيق المحدد مدعومًا.
+منطقي - ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي. **Example:** يوضح الكود التالي كيفية التحقق مما إذا كان استيراد من التنسيق المحدد مدعومًا.
 
 ```
 var outputFormat = ".glb";
@@ -827,7 +827,7 @@ public String getExtension()
 يحصل على اسم الامتداد لهذا النوع.
 
 **Returns:**
-java.lang.String - اسم الامتداد لهذا النوع. **مثال:**
+java.lang.String - اسم الامتداد لهذا النوع. **Example:**
 
 ```
 var format = FileFormat.MAYA_BINARY;
@@ -849,7 +849,7 @@ public FileFormatType getFileFormatType()
 ```
 
 
-يحصل على نوع تنسيق الملف
+يحصل على نوع تنسيق الملف.
 
 **Returns:**
 [FileFormatType](../../com.aspose.threed/fileformattype) - file format type
@@ -864,7 +864,7 @@ public static FileFormat getFormatByExtension(String extensionName)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| extensionName | java.lang.String | اسم الامتداد يبدأ بـ '.' للاستعلام. |
+| extensionName | java.lang.String | يبدأ اسم الامتداد بـ '.' للاستعلام. |
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - Instance of [FileFormat](../../com.aspose.threed/fileformat), otherwise null returned. **Example:** The following code shows how to save scene to memory using specified format
@@ -882,7 +882,7 @@ public static List<FileFormat> getFormats()
 ```
 
 
-الوصول إلى جميع التنسيقات المدعومة
+الوصول إلى جميع التنسيقات المدعومة.
 
 **Returns:**
 java.util.List<com.aspose.threed.FileFormat> - الوصول إلى جميع الصيغ المدعومة
@@ -892,7 +892,7 @@ public Version getVersion()
 ```
 
 
-يحصل على إصدار تنسيق الملف
+يحصل على إصدار تنسيق الملف.
 
 **Returns:**
 [Version](../../com.aspose.threed/version) - file format version
@@ -928,7 +928,7 @@ public String toString()
 ```
 
 
-تحويل التنسيقات إلى سلسلة
+تحويل التنسيقات إلى سلسلة.
 
 **Returns:**
 java.lang.String - سلسلة الكائن

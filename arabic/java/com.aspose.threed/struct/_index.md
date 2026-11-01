@@ -1,6 +1,6 @@
 ---
-title: "هيكل"
-second_title: "مرجع API لـ Aspose.3D for Java"
+title: "Struct"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تم الإنشاء بواسطة lexchou في 13/11/2017."
 type: docs
 weight: 262
@@ -19,8 +19,8 @@ public interface Struct<T> extends Cloneable, Serializable
 | طريقة | الوصف |
 | --- | --- |
 | [<T>byVal(T value)](#-T-byVal-T-) | حاول نسخ القيمة المدخلة إذا كانت Struct |
-| [clone()](#clone--) | استنساخ النسخة الحالية |
-| [copyFrom(T t)](#copyFrom-T-) | انسخ الحالة الداخلية من المتغير t |
+| [clone()](#clone--) | استنساخ الكائن الحالي |
+| [copyFrom(T t)](#copyFrom-T-) | نسخ الحالة الداخلية من الوسيط t |
 ### <T>byVal(T value) {#-T-byVal-T-}
 ```
 public static T <T>byVal(T value)
@@ -32,7 +32,7 @@ public static T <T>byVal(T value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | T | القيمة المدخلة للاستنساخ |
+| قيمة | T | القيمة المدخلة للاستنساخ |
 
 **Returns:**
 T - null إذا كان الإدخال null أو نسخة مستنسخة
@@ -42,7 +42,7 @@ public abstract T clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 T - نسخة مستنسخة
@@ -52,7 +52,7 @@ public abstract void copyFrom(T t)
 ```
 
 
-انسخ الحالة الداخلية من المتغير t
+نسخ الحالة الداخلية من الوسيط t
 
 **Parameters:**
 | معامل | نوع | الوصف |

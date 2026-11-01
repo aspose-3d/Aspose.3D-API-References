@@ -1,6 +1,6 @@
 ---
 title: "ExportException"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "استثناءات عندما فشل Aspose.3D في تصدير المشهد إلى ملف"
 type: docs
 weight: 56
@@ -18,7 +18,7 @@ public class ExportException extends IOException
 
 | منشئ | الوصف |
 | --- | --- |
-| [ExportException(String msg)](#ExportException-java.lang.String-) | ينشئ مثيلاً جديداً |
+| [ExportException(String msg)](#ExportException-java.lang.String-) | ينشئ مثلاً جديداً |
 ## الطرق
 
 | طريقة | الوصف |
@@ -50,7 +50,7 @@ public ExportException(String msg)
 ```
 
 
-ينشئ مثيلاً جديداً
+ينشئ مثلاً جديداً
 
 **Parameters:**
 | معامل | نوع | الوصف |

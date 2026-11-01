@@ -1,6 +1,6 @@
 ---
 title: "IndexDataType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "نوع البيانات للعناصر في"
 type: docs
 weight: 282
@@ -18,8 +18,8 @@ public enum IndexDataType extends Enum<IndexDataType>
 
 | حقل | الوصف |
 | --- | --- |
-| [INT16](#INT16) | عناصر مخزن الفهرس هي عدد صحيح 16 بت |
-| [INT32](#INT32) | عناصر مخزن الفهرس هي عدد صحيح 32 بت |
+| [INT16](#INT16) | عناصر مخزن الفهرس هي عدد صحيح 16‑بت |
+| [INT32](#INT32) | عناصر مخزن الفهرس هي عدد صحيح 32‑بت |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final IndexDataType INT16
 ```
 
 
-عناصر مخزن الفهرس هي عدد صحيح 16 بت
+عناصر مخزن الفهرس هي عدد صحيح 16‑بت
 
 ### INT32 {#INT32}
 ```
@@ -55,7 +55,7 @@ public static final IndexDataType INT32
 ```
 
 
-عناصر مخزن الفهرس هي عدد صحيح 32 بت
+عناصر مخزن الفهرس هي عدد صحيح 32‑بت
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

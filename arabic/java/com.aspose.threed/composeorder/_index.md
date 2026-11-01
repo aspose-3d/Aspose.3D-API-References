@@ -1,6 +1,6 @@
 ---
 title: "ComposeOrder"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "ترتيب تجميع مصفوفة التحويل"
 type: docs
 weight: 272
@@ -19,7 +19,7 @@ public enum ComposeOrder extends Enum<ComposeOrder>
 | حقل | الوصف |
 | --- | --- |
 | [APPEND](#APPEND) | إلحاق التحويل الجديد بالسلسلة |
-| [PREPEND](#PREPEND) | إضافة التحويل الجديد في بداية السلسلة |
+| [PREPEND](#PREPEND) | إضافة التحويل الجديد إلى بداية السلسلة |
 ## الطرق
 
 | طريقة | الوصف |
@@ -55,7 +55,7 @@ public static final ComposeOrder PREPEND
 ```
 
 
-إضافة التحويل الجديد في بداية السلسلة
+إضافة التحويل الجديد إلى بداية السلسلة
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "FileSystem"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تغليف نظام الملفات."
 type: docs
 weight: 67
@@ -16,7 +16,7 @@ java.io.Closeable
 public abstract class FileSystem implements Closeable
 ```
 
-تغليف نظام الملفات. ستستخدم Aspose.3D هذا لقراءة/كتابة الاعتمادات. **مثال:** يوضح الشيفرة التالية كيفية استيراد ملف، وتوفير الملفات التابعة في دليل معين
+تغليف نظام الملفات. Aspose.3D سيستخدم هذا لقراءة/كتابة التبعيات. **مثال:** يوضح الكود التالي كيفية استيراد ملف، وتوفير الملفات التابعة في دليل معين
 
 ```
 var inputFile = "input.fbx";
@@ -36,25 +36,25 @@ var inputFile = "input.fbx";
 
 | طريقة | الوصف |
 | --- | --- |
-| [close()](#close--) | قم بتحرير نظام الملفات وإصدار موارده. |
+| [close()](#close--) | تخلص من نظام الملفات وأطلق موارده. |
 | [createDummyFileSystem()](#createDummyFileSystem--) | إنشاء نظام ملفات تجريبي، عمليات القراءة/الكتابة هي عمليات تجريبية. |
 | [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | تهيئة [FileSystem](../../com.aspose.threed/filesystem) جديد يقتصر على الوصول إلى الدليل المحلي. |
 | [createMemoryFileSystem()](#createMemoryFileSystem--) | إنشاء نظام ملفات قائم على الذاكرة سيقوم بربط عمليات القراءة/الكتابة بالذاكرة. |
 | [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | إنشاء نظام ملفات قائم على الذاكرة سيقوم بربط عمليات القراءة/الكتابة بالذاكرة. |
-| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | إنشاء نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. |
-| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | إنشاء نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. |
-| [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | نظام الملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. |
+| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | إنشاء نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip محدد أو تدفق zip. |
+| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | إنشاء نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip محدد أو تدفق zip. |
+| [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | إنشاء تدفق لقراءة التبعيات. |
+| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | أنشئ تدفقًا لقراءة الاعتمادات. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | إنشاء تدفق لكتابة التبعيات. |
+| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | أنشئ تدفقًا لكتابة الاعتمادات. |
 ### FileSystem() {#FileSystem--}
 ```
 public FileSystem()
@@ -67,7 +67,7 @@ public void close()
 ```
 
 
-قم بتحرير نظام الملفات وإصدار موارده.
+تخلص من نظام الملفات وأطلق موارده.
 
 ### createDummyFileSystem() {#createDummyFileSystem--}
 ```
@@ -149,7 +149,7 @@ public static FileSystem createMemoryFileSystem(HashMap<String,MemoryStream> fil
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| ملفات | java.util.HashMap<java.lang.String,com.aspose.threed.MemoryStream> | هذا يتيح لك قراءة/كتابة الملفات الافتراضية. |
+| ملفات | java.util.HashMap<java.lang.String,com.aspose.threed.MemoryStream> | هذا يسمح لك بقراءة/كتابة الملفات الافتراضية. |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A memory-based file system **Example:** The following code shows how to export file to memory, includes the dependent file by using MemoryFileSystem.
@@ -177,7 +177,7 @@ public static FileSystem createZipFileSystem(Stream stream)
 ```
 
 
-إنشاء نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. سيتم التخلص من نظام الملفات بعد عملية الفتح/الحفظ.
+إنشاء نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip محدد أو تدفق zip. سيتم التخلص من نظام الملفات بعد عملية الفتح/الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -192,7 +192,7 @@ public static FileSystem createZipFileSystem(Stream stream, String baseDir)
 ```
 
 
-إنشاء نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. سيتم التخلص من نظام الملفات بعد عملية الفتح/الحفظ.
+إنشاء نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip محدد أو تدفق zip. سيتم التخلص من نظام الملفات بعد عملية الفتح/الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -208,7 +208,7 @@ public static FileSystem createZipFileSystem(String fileName)
 ```
 
 
-نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip المحدد أو تدفق zip. سيتم التخلص من نظام الملفات بعد عملية الفتح/الحفظ.
+نظام ملفات لتوفير وصول للقراءة فقط إلى ملف zip محدد أو تدفق zip. سيتم التخلص من نظام الملفات بعد عملية الفتح/الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -274,7 +274,7 @@ public abstract Stream readFile(String fileName, IOConfig options)
 ```
 
 
-إنشاء تدفق لقراءة التبعيات.
+أنشئ تدفقًا لقراءة الاعتمادات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -335,12 +335,12 @@ public abstract Stream writeFile(String fileName, IOConfig options)
 ```
 
 
-إنشاء تدفق لكتابة التبعيات.
+أنشئ تدفقًا لكتابة الاعتمادات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | java.lang.String | اسم الملف للفتح للكتابة |
+| fileName | java.lang.String | اسم الملف لفتحه للكتابة |
 | options | [IOConfig](../../com.aspose.threed/ioconfig) | خيارات الحفظ أو التحميل |
 
 **Returns:**

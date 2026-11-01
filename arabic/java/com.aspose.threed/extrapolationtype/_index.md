@@ -1,6 +1,6 @@
 ---
 title: "ExtrapolationType"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "نوع الاستقراء."
 type: docs
 weight: 278
@@ -21,7 +21,7 @@ public enum ExtrapolationType extends Enum<ExtrapolationType>
 | [CONSTANT](#CONSTANT) | القيمة ستحافظ على نفس قيمة القيمة الأخيرة |
 | [CYCLE](#CYCLE) | التكرار. |
 | [CYCLE_RELATIVE](#CYCLE-RELATIVE) | كرر النمط السابق بناءً على القيمة الأخيرة |
-| [GRADIENT](#GRADIENT) | القيمة ستحافظ على نفس الانحدار بمرور الوقت |
+| [GRADIENT](#GRADIENT) | القيمة ستحافظ على نفس الانحدار مع الوقت |
 | [OSCILLATE](#OSCILLATE) | تكرار المرآة. |
 ## الطرق
 
@@ -74,7 +74,7 @@ public static final ExtrapolationType GRADIENT
 ```
 
 
-القيمة ستحافظ على نفس الانحدار بمرور الوقت
+القيمة ستحافظ على نفس الانحدار مع الوقت
 
 ### OSCILLATE {#OSCILLATE}
 ```

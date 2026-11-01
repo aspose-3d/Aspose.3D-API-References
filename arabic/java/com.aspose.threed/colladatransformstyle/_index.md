@@ -1,6 +1,6 @@
 ---
 title: "ColladaTransformStyle"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "نمط تحويل العقدة"
 type: docs
 weight: 270

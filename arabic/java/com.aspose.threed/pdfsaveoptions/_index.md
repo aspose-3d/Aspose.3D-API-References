@@ -1,6 +1,6 @@
 ---
 title: "PdfSaveOptions"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "خيارات الحفظ في تصدير PDF."
 type: docs
 weight: 125
@@ -24,37 +24,37 @@ public class PdfSaveOptions extends SaveOptions
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuxiliaryColor()](#getAuxiliaryColor--) | يحصل على اللون المساعد المستخدم عند عرض المحتوى ثلاثي الأبعاد. |
+| [getAuxiliaryColor()](#getAuxiliaryColor--) | يحصل على اللون المساعد الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. |
 | [getBackgroundColor()](#getBackgroundColor--) | لون الخلفية لعرض ثلاثي الأبعاد في ملف PDF. |
 | [getClass()](#getClass--) |  |
 | [getEmbedTextures()](#getEmbedTextures--) | تضمين القوام الخارجية في ملف PDF، القيمة الافتراضية هي false. |
 | [getEncoding()](#getEncoding--) | يحصل على الترميز الافتراضي للملفات النصية. |
 | [getExportTextures()](#getExportTextures--) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
-| [getFaceColor()](#getFaceColor--) | يحصل على لون الوجه المستخدم عند عرض المحتوى ثلاثي الأبعاد. |
+| [getFaceColor()](#getFaceColor--) | يحصل على لون الوجه الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. |
 | [getFileFormat()](#getFileFormat--) | يحصل على تنسيق الملف المحدد في خيار الحفظ/التحميل الحالي. |
-| [getFileName()](#getFileName--) | اسم ملف المشهد المصدر/المستورد. |
+| [getFileName()](#getFileName--) | اسم الملف للمشهد المصدر/المستورد. |
 | [getFileSystem()](#getFileSystem--) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | يحصل على فئة المصنع لنظام الملفات. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | يحصل على عكس نظام الإحداثيات للمشهد أثناء التصدير. |
-| [getLightingScheme()](#getLightingScheme--) | يحدد LightingScheme الإضاءة التي تُطبق على العمل الفني ثلاثي الأبعاد. |
-| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [getRenderMode()](#getRenderMode--) | يحدد وضعية العرض النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | يحصل على عكس نظام إحداثيات المشهد أثناء التصدير. |
+| [getLightingScheme()](#getLightingScheme--) | LightingScheme يحدد الإضاءة التي تُطبق على العمل الفني ثلاثي الأبعاد. |
+| [getLookupPaths()](#getLookupPaths--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [getRenderMode()](#getRenderMode--) | وضع العرض يحدد النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuxiliaryColor(Vector3 value)](#setAuxiliaryColor-com.aspose.threed.Vector3-) | يضبط اللون المساعد المستخدم عند عرض المحتوى ثلاثي الأبعاد. |
+| [setAuxiliaryColor(Vector3 value)](#setAuxiliaryColor-com.aspose.threed.Vector3-) | يضبط اللون المساعد الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. |
 | [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | لون الخلفية لعرض ثلاثي الأبعاد في ملف PDF. |
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | تضمين القوام الخارجية في ملف PDF، القيمة الافتراضية هي false. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | يضبط الترميز الافتراضي للملفات النصية. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج. |
-| [setFaceColor(Vector3 value)](#setFaceColor-com.aspose.threed.Vector3-) | يضبط لون الوجه المستخدم عند عرض المحتوى ثلاثي الأبعاد. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | اسم ملف المشهد المصدر/المستورد. |
+| [setFaceColor(Vector3 value)](#setFaceColor-com.aspose.threed.Vector3-) | يضبط لون الوجه الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | اسم الملف للمشهد المصدر/المستورد. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | السماح للمستخدم بالتعامل مع كيفية إدارة الاعتمادات الخارجية أثناء التحميل/الحفظ. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | يضبط فئة المصنع لنظام الملفات. |
-| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | يضبط عكس نظام الإحداثيات للمشهد أثناء التصدير. |
-| [setLightingScheme(PdfLightingScheme value)](#setLightingScheme-com.aspose.threed.PdfLightingScheme-) | يحدد LightingScheme الإضاءة التي تُطبق على العمل الفني ثلاثي الأبعاد. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل. |
-| [setRenderMode(PdfRenderMode value)](#setRenderMode-com.aspose.threed.PdfRenderMode-) | يحدد وضعية العرض النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد. |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | يضبط عكس نظام إحداثيات المشهد أثناء التصدير. |
+| [setLightingScheme(PdfLightingScheme value)](#setLightingScheme-com.aspose.threed.PdfLightingScheme-) | LightingScheme يحدد الإضاءة التي تُطبق على العمل الفني ثلاثي الأبعاد. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل. |
+| [setRenderMode(PdfRenderMode value)](#setRenderMode-com.aspose.threed.PdfRenderMode-) | وضع العرض يحدد النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -88,7 +88,7 @@ public Vector3 getAuxiliaryColor()
 ```
 
 
-يحصل على اللون المساعد المستخدم عند عرض المحتوى ثلاثي الأبعاد. تفسير هذا اللون يعتمد على [getRenderMode](../../com.aspose.threed/pdfsaveoptions\\#getRenderMode)
+يحصل على اللون المساعد الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. تفسير هذا اللون يعتمد على [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the auxiliary color to be used when rendering the 3D content. The interpretation of this color depends on the [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode)
@@ -148,7 +148,7 @@ public Vector3 getFaceColor()
 ```
 
 
-يحصل على لون الوجه المستخدم عند عرض المحتوى ثلاثي الأبعاد. هذا ذو صلة فقط عندما يكون [getRenderMode](../../com.aspose.threed/pdfsaveoptions\\#getRenderMode) له قيمة Illustration.
+يحصل على لون الوجه الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. هذا يكون ذا صلة فقط عندما يكون لدى [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) قيمة Illustration.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the face color to be used when rendering the 3D content. This is only relevant only when the [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) has a value of Illustration.
@@ -168,10 +168,10 @@ public String getFileName()
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Returns:**
-java.lang.String - اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+java.lang.String - اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -212,7 +212,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يحصل على فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -241,17 +241,17 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-يحصل على عكس نظام الإحداثيات للمشهد أثناء التصدير.
+يحصل على عكس نظام إحداثيات المشهد أثناء التصدير.
 
 **Returns:**
-منطقي - لعكس نظام الإحداثيات للمشهد أثناء التصدير.
+منطقي - لعكس نظام إحداثيات المشهد أثناء التصدير.
 ### getLightingScheme() {#getLightingScheme--}
 ```
 public PdfLightingScheme getLightingScheme()
 ```
 
 
-يحدد LightingScheme الإضاءة التي تُطبق على العمل الفني ثلاثي الأبعاد.
+LightingScheme يحدد الإضاءة التي تُطبق على العمل الفني ثلاثي الأبعاد.
 
 **Returns:**
 [PdfLightingScheme](../../com.aspose.threed/pdflightingscheme) - LightingScheme specifies the lighting to apply to 3D artwork.
@@ -261,10 +261,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
+java.util.ArrayList<java.lang.String> - بعض الملفات مثل OBJ تعتمد على ملفات خارجية، مسارات البحث ستسمح لـ Aspose.3D بالبحث عن الملف الخارجي للتحميل. **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها
 
 ```
 var opt = new ObjLoadOptions();
@@ -279,7 +279,7 @@ public PdfRenderMode getRenderMode()
 ```
 
 
-يحدد وضعية العرض النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد.
+وضع العرض يحدد النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد.
 
 **Returns:**
 [PdfRenderMode](../../com.aspose.threed/pdfrendermode) - Render mode specifies the style in which the 3D artwork is rendered.
@@ -315,12 +315,12 @@ public void setAuxiliaryColor(Vector3 value)
 ```
 
 
-يضبط اللون المساعد المستخدم عند عرض المحتوى ثلاثي الأبعاد. تفسير هذا اللون يعتمد على [getRenderMode](../../com.aspose.threed/pdfsaveoptions\\#getRenderMode)
+يضبط اللون المساعد الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. تفسير هذا اللون يعتمد على [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode)
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setBackgroundColor(Vector3 value) {#setBackgroundColor-com.aspose.threed.Vector3-}
 ```
@@ -333,7 +333,7 @@ public void setBackgroundColor(Vector3 value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setEmbedTextures(boolean value) {#setEmbedTextures-boolean-}
 ```
@@ -346,7 +346,7 @@ public void setEmbedTextures(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -354,12 +354,12 @@ public void setEncoding(Charset value)
 ```
 
 
-يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يستخدم.
+يضبط الترميز الافتراضي للملفات النصية. القيمة الافتراضية هي null مما يعني أن المستورد/المصدّر سيقرر أي ترميز يُستخدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.nio.charset.Charset | القيمة الجديدة |
+| قيمة | java.nio.charset.Charset | قيمة جديدة |
 
 ### setExportTextures(boolean value) {#setExportTextures-boolean-}
 ```
@@ -372,7 +372,7 @@ public void setExportTextures(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setFaceColor(Vector3 value) {#setFaceColor-com.aspose.threed.Vector3-}
 ```
@@ -380,12 +380,12 @@ public void setFaceColor(Vector3 value)
 ```
 
 
-يضبط لون الوجه المستخدم عند عرض المحتوى ثلاثي الأبعاد. هذا ذو صلة فقط عندما يكون [getRenderMode](../../com.aspose.threed/pdfsaveoptions\\#getRenderMode) له قيمة Illustration.
+يضبط لون الوجه الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. هذا يكون ذا صلة فقط عندما يكون لدى [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) قيمة Illustration.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Vector3](../../com.aspose.threed/vector3) | القيمة الجديدة |
+| value | [Vector3](../../com.aspose.threed/vector3) | قيمة جديدة |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -393,12 +393,12 @@ public void setFileName(String value)
 ```
 
 
-اسم الملف للمشهد المُصدّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
+اسم الملف للمشهد المُصدَّر/المستورد. هذا اختياري، لكنه مفيد عند تسلسل الأصول الخارجية مثل مادة OBJ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة الجديدة |
+| قيمة | java.lang.String | قيمة جديدة |
 
 ### setFileSystem(FileSystem value) {#setFileSystem-com.aspose.threed.FileSystem-}
 ```
@@ -411,7 +411,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | New value **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، ولكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | قيمة جديدة **Example:** نظام الملفات الافتراضي هو LocalFileSystem، وهو غير آمن في بيئات مثل جانب الخادم، لكن يمكنك تجاوز وصول نظام الملفات بتحديد تنفيذ مختلف. Aspose.3D يوفر تنفيذات مختلفة لنظام الملفات مثل: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -443,12 +443,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem والذي لا يناسب بيئة الخادم.
+يضبط فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ com.aspose.threed.LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | New value **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | قيمة جديدة **Example:** نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -475,12 +475,12 @@ public void setFlipCoordinateSystem(boolean value)
 ```
 
 
-يضبط عكس نظام الإحداثيات للمشهد أثناء التصدير.
+يضبط عكس نظام إحداثيات المشهد أثناء التصدير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setLightingScheme(PdfLightingScheme value) {#setLightingScheme-com.aspose.threed.PdfLightingScheme-}
 ```
@@ -488,12 +488,12 @@ public void setLightingScheme(PdfLightingScheme value)
 ```
 
 
-يحدد LightingScheme الإضاءة التي تُطبق على العمل الفني ثلاثي الأبعاد.
+LightingScheme يحدد الإضاءة التي تُطبق على العمل الفني ثلاثي الأبعاد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PdfLightingScheme](../../com.aspose.threed/pdflightingscheme) | القيمة الجديدة |
+| value | [PdfLightingScheme](../../com.aspose.threed/pdflightingscheme) | قيمة جديدة |
 
 ### setLookupPaths(ArrayList<String> value) {#setLookupPaths-java.util.ArrayList-java.lang.String--}
 ```
@@ -501,12 +501,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-بعض الملفات مثل OBJ تعتمد على ملفات خارجية، سيسمح مسارات البحث لـ Aspose.3D بالعثور على الملف الخارجي للتحميل.
+بعض الملفات مثل OBJ تعتمد على ملف خارجي، ستمكن مسارات البحث Aspose.3D من البحث عن الملف الخارجي للتحميل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | java.util.ArrayList<java.lang.String> | New value **Example:** يوضح الكود التالي كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
+|  | قيمة | java.util.ArrayList<java.lang.String> | قيمة جديدة **Example:** يوضح الشيفرة التالية كيفية تحديد مسارات البحث عن القوام يدويًا، حتى يتمكن المستورد من العثور عليها |
 
 ```
 var opt = new ObjLoadOptions();
@@ -522,12 +522,12 @@ public void setRenderMode(PdfRenderMode value)
 ```
 
 
-يحدد وضعية العرض النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد.
+وضع العرض يحدد النمط الذي يُعرض به العمل الفني ثلاثي الأبعاد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PdfRenderMode](../../com.aspose.threed/pdfrendermode) | القيمة الجديدة |
+| value | [PdfRenderMode](../../com.aspose.threed/pdfrendermode) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

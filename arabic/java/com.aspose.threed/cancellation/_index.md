@@ -1,7 +1,7 @@
 ---
 title: "الإلغاء"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "هذه الفئة تسمح لك بإلغاء مهمة التحميل/الحفظ يدويًا."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "هذه الفئة تتيح لك إلغاء مهمة التحميل/الحفظ يدويًا."
 type: docs
 weight: 29
 url: /ar/java/com.aspose.threed/cancellation/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Cancellation
 ```
 
-هذه الفئة تسمح لك بإلغاء مهمة التحميل/الحفظ يدويًا.
+هذه الفئة تتيح لك إلغاء مهمة التحميل/الحفظ يدويًا.
 ## المنشئات
 
 | منشئ | الوصف |

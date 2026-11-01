@@ -1,7 +1,7 @@
 ---
 title: "PatchDirection"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "اتجاه U و V للرقع."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "اتجاه U و V للقطعة."
 type: docs
 weight: 120
 url: /ar/java/com.aspose.threed/patchdirection/
@@ -25,17 +25,17 @@ public class PatchDirection
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getClosed()](#getClosed--) | يحصل على قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) عبارة عن منحنى مغلق. |
+| [getClosed()](#getClosed--) | يحصل على قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) منحنى مغلق. |
 | [getControlPoints()](#getControlPoints--) | يحصل على عدد نقاط التحكم في الاتجاه الحالي. |
 | [getDivisions()](#getDivisions--) | يحصل على عدد الأقسام بين نقاط التحكم المتجاورة. |
-| [getType()](#getType--) | يحصل على نوع الرقعة. |
+| [getType()](#getType--) | يحصل على نوع القطعة. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setClosed(boolean value)](#setClosed-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) عبارة عن منحنى مغلق. |
+| [setClosed(boolean value)](#setClosed-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) منحنى مغلق. |
 | [setControlPoints(int value)](#setControlPoints-int-) | يضبط عدد نقاط التحكم في الاتجاه الحالي. |
 | [setDivisions(int value)](#setDivisions-int-) | يضبط عدد الأقسام بين نقاط التحكم المتجاورة. |
-| [setType(PatchDirectionType value)](#setType-com.aspose.threed.PatchDirectionType-) | يضبط نوع الرقعة. |
+| [setType(PatchDirectionType value)](#setType-com.aspose.threed.PatchDirectionType-) | يضبط نوع القطعة. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,10 +77,10 @@ public boolean getClosed()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) عبارة عن منحنى مغلق.
+يحصل على قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) منحنى مغلق.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) عبارة عن منحنى مغلق.
+منطقي - قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) منحنى مغلق.
 ### getControlPoints() {#getControlPoints--}
 ```
 public int getControlPoints()
@@ -90,7 +90,7 @@ public int getControlPoints()
 يحصل على عدد نقاط التحكم في الاتجاه الحالي.
 
 **Returns:**
-عدد صحيح - عدد نقاط التحكم في الاتجاه الحالي.
+صحيح - عدد نقاط التحكم في الاتجاه الحالي.
 ### getDivisions() {#getDivisions--}
 ```
 public int getDivisions()
@@ -100,14 +100,14 @@ public int getDivisions()
 يحصل على عدد الأقسام بين نقاط التحكم المتجاورة.
 
 **Returns:**
-عدد صحيح - عدد الأقسام بين نقاط التحكم المتجاورة.
+صحيح - عدد الأقسام بين نقاط التحكم المتجاورة.
 ### getType() {#getType--}
 ```
 public PatchDirectionType getType()
 ```
 
 
-يحصل على نوع الرقعة.
+يحصل على نوع القطعة.
 
 **Returns:**
 [PatchDirectionType](../../com.aspose.threed/patchdirectiontype) - the patch's type.
@@ -143,12 +143,12 @@ public void setClosed(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) عبارة عن منحنى مغلق.
+يضبط قيمة تشير إلى ما إذا كان هذا [PatchDirection](../../com.aspose.threed/patchdirection) منحنى مغلق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة الجديدة |
+| قيمة | boolean | قيمة جديدة |
 
 ### setControlPoints(int value) {#setControlPoints-int-}
 ```
@@ -161,7 +161,7 @@ public void setControlPoints(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setDivisions(int value) {#setDivisions-int-}
 ```
@@ -174,7 +174,7 @@ public void setDivisions(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setType(PatchDirectionType value) {#setType-com.aspose.threed.PatchDirectionType-}
 ```
@@ -182,12 +182,12 @@ public void setType(PatchDirectionType value)
 ```
 
 
-يضبط نوع الرقعة.
+يضبط نوع القطعة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [PatchDirectionType](../../com.aspose.threed/patchdirectiontype) | القيمة الجديدة |
+| value | [PatchDirectionType](../../com.aspose.threed/patchdirectiontype) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```

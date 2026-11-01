@@ -1,6 +1,6 @@
 ---
 title: "Matrix4"
-second_title: "مرجع API لـ Aspose.3D for Java"
+second_title: "مرجع Aspose.3D لـ Java API"
 description: "تنفيذ مصفوفة 4×4."
 type: docs
 weight: 100
@@ -30,9 +30,9 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | منشئ | الوصف |
 | --- | --- |
 | [Matrix4(Vector4 r0, Vector4 r1, Vector4 r2, Vector4 r3)](#Matrix4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | يبني المصفوفة من 4 صفوف. |
-| [Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, double m13, double m20, double m21, double m22, double m23, double m30, double m31, double m32, double m33)](#Matrix4-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-) | يُنشئ مثيلاً جديدًا للهيكل [Matrix4](../../com.aspose.threed/matrix4). |
-| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | أنشئ [Matrix4](../../com.aspose.threed/matrix4) من مثيل [FMatrix4](../../com.aspose.threed/fmatrix4) |
-| [Matrix4(double[] m)](#Matrix4-double---) | يُنشئ مثيلاً جديدًا للهيكل [Matrix4](../../com.aspose.threed/matrix4). |
+| [Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, double m13, double m20, double m21, double m22, double m23, double m30, double m31, double m32, double m33)](#Matrix4-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-) | يُنشئ مثيلًا جديدًا من بنية [Matrix4](../../com.aspose.threed/matrix4). |
+| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | أنشئ [Matrix4](../../com.aspose.threed/matrix4) من مثيل [FMatrix4](../../com.aspose.threed/fmatrix4). |
+| [Matrix4(double[] m)](#Matrix4-double---) | يُنشئ مثيلًا جديدًا من بنية [Matrix4](../../com.aspose.threed/matrix4). |
 | [Matrix4()](#Matrix4--) |  |
 ## الحقول
 
@@ -44,24 +44,24 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | [m03](#m03) | الـ m03. |
 | [m10](#m10) | الـ m10. |
 | [m11](#m11) | الـ m11. |
-| [m12](#m12) | العنصر m12. |
-| [m13](#m13) | العنصر m13. |
-| [m20](#m20) | العنصر m20. |
-| [m21](#m21) | العنصر m21. |
-| [m22](#m22) | العنصر m22. |
-| [m23](#m23) | العنصر m23. |
-| [m30](#m30) | العنصر m30. |
-| [m31](#m31) | العنصر m31. |
-| [m32](#m32) | العنصر m32. |
-| [m33](#m33) | العنصر m33. |
+| [m12](#m12) | الـ m12. |
+| [m13](#m13) | الـ m13. |
+| [m20](#m20) | الـ m20. |
+| [m21](#m21) | الـ m21. |
+| [m22](#m22) | الـ m22. |
+| [m23](#m23) | الـ m23. |
+| [m30](#m30) | الـ m30. |
+| [m31](#m31) | الـ m31. |
+| [m32](#m32) | الـ m32. |
+| [m33](#m33) | الـ m33. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | يجمع المصفوفتين |
+| [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | يدمج المصفوفتين |
 | [copyFrom(Matrix4 src)](#copyFrom-com.aspose.threed.Matrix4-) |  |
-| [decompose(Vector3 translation, Vector3 scaling, Quaternion rotation)](#decompose-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | فك تجميع مصفوفة التحويل. |
+| [decompose(Vector3 translation, Vector3 scaling, Quaternion rotation)](#decompose-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | فك تجزئة مصفوفة التحويل. |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeterminant()](#getDeterminant--) | يحصل على محدد المصفوفة. |
@@ -71,23 +71,23 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | [mul(Matrix4 lhs, Matrix4 rhs)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Matrix4-) | ضرب المصفوفتين |
 | [mul(Matrix4 lhs, Vector3 v)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Vector3-) | ضرب المصفوفة والمتجه3 |
 | [mul(Matrix4 lhs, Vector4 v)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Vector4-) | ضرب المصفوفة والمتجه4 |
-| [mul(Matrix4 lhs, double v)](#mul-com.aspose.threed.Matrix4-double-) | ضرب المصفوفة والقيمة المزدوجة |
-| [normalize()](#normalize--) | يقوم بتطبيع هذه الحالة. |
+| [mul(Matrix4 lhs, double v)](#mul-com.aspose.threed.Matrix4-double-) | ضرب المصفوفة بالقيمة المزدوجة |
+| [normalize()](#normalize--) | يقوم بتطبيع هذا الكائن. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | إنشاء مصفوفة دوران من quaternion |
+| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | إنشاء مصفوفة دوران من كواترنيون |
 | [rotate(double angle, Vector3 axis)](#rotate-double-com.aspose.threed.Vector3-) | إنشاء مصفوفة دوران بزاوية الدوران والمحور |
 | [rotateFromEuler(Vector3 eul)](#rotateFromEuler-com.aspose.threed.Vector3-) | إنشاء مصفوفة دوران من زاوية أويلر |
 | [rotateFromEuler(double rx, double ry, double rz)](#rotateFromEuler-double-double-double-) | إنشاء مصفوفة دوران من زاوية أويلر |
-| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | ينشئ مصفوفة تُقِيس على المحور x والمحور y والمحور z |
-| [scale(double s)](#scale-double-) | ينشئ مصفوفة تُقِيس على المحور x والمحور y والمحور z |
-| [scale(double sx, double sy, double sz)](#scale-double-double-double-) | ينشئ مصفوفة تُقِيس على المحور x والمحور y والمحور z |
-| [setTRS(Vector3 translation, Vector3 rotation, Vector3 scale)](#setTRS-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | يُهيئ المصفوفة بالترجمة/الدوران/التحجيم |
-| [toArray()](#toArray--) | يحوِّل المصفوفة إلى مصفوفة. |
-| [toString()](#toString--) | يرجع java.lang.String الذي يمثل الـ [Matrix4](../../com.aspose.threed/matrix4) الحالي. |
-| [translate(Vector3 t)](#translate-com.aspose.threed.Vector3-) | ينشئ مصفوفة تُترجم على المحور x والمحور y والمحور z |
-| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | ينشئ مصفوفة تُترجم على المحور x والمحور y والمحور z |
-| [transpose()](#transpose--) | يقلب هذا الكائن. |
+| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | ينشئ مصفوفة تُكَبِّر على المحور x، والمحور y، والمحور z. |
+| [scale(double s)](#scale-double-) | ينشئ مصفوفة تُكَبِّر على المحور x، والمحور y، والمحور z. |
+| [scale(double sx, double sy, double sz)](#scale-double-double-double-) | ينشئ مصفوفة تُكَبِّر على المحور x، والمحور y، والمحور z. |
+| [setTRS(Vector3 translation, Vector3 rotation, Vector3 scale)](#setTRS-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | يُهيئ المصفوفة بالإزاحة/الدوران/التحجيم |
+| [toArray()](#toArray--) | يحوّل المصفوفة إلى مصفوفة. |
+| [toString()](#toString--) | يرجع java.lang.String يمثل الـ [Matrix4](../../com.aspose.threed/matrix4) الحالي. |
+| [translate(Vector3 t)](#translate-com.aspose.threed.Vector3-) | ينشئ مصفوفة تُجري إزاحة على المحور x، والمحور y، والمحور z |
+| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | ينشئ مصفوفة تُجري إزاحة على المحور x، والمحور y، والمحور z |
+| [transpose()](#transpose--) | ينقل هذا المثيل. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -113,7 +113,7 @@ public Matrix4(double m00, double m01, double m02, double m03, double m10, doubl
 ```
 
 
-يُنشئ مثيلاً جديدًا للهيكل [Matrix4](../../com.aspose.threed/matrix4).
+يُنشئ مثيلًا جديدًا من بنية [Matrix4](../../com.aspose.threed/matrix4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -151,7 +151,7 @@ public Matrix4(FMatrix4 m)
 ```
 
 
-أنشئ [Matrix4](../../com.aspose.threed/matrix4) من مثيل [FMatrix4](../../com.aspose.threed/fmatrix4)
+أنشئ [Matrix4](../../com.aspose.threed/matrix4) من مثيل [FMatrix4](../../com.aspose.threed/fmatrix4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -164,7 +164,7 @@ public Matrix4(double[] m)
 ```
 
 
-يُنشئ مثيلاً جديدًا للهيكل [Matrix4](../../com.aspose.threed/matrix4).
+يُنشئ مثيلًا جديدًا من بنية [Matrix4](../../com.aspose.threed/matrix4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -231,7 +231,7 @@ public double m12
 ```
 
 
-العنصر m12.
+الـ m12.
 
 ### m13 {#m13}
 ```
@@ -239,7 +239,7 @@ public double m13
 ```
 
 
-العنصر m13.
+الـ m13.
 
 ### m20 {#m20}
 ```
@@ -247,7 +247,7 @@ public double m20
 ```
 
 
-العنصر m20.
+الـ m20.
 
 ### m21 {#m21}
 ```
@@ -255,7 +255,7 @@ public double m21
 ```
 
 
-العنصر m21.
+الـ m21.
 
 ### m22 {#m22}
 ```
@@ -263,7 +263,7 @@ public double m22
 ```
 
 
-العنصر m22.
+الـ m22.
 
 ### m23 {#m23}
 ```
@@ -271,7 +271,7 @@ public double m23
 ```
 
 
-العنصر m23.
+الـ m23.
 
 ### m30 {#m30}
 ```
@@ -279,7 +279,7 @@ public double m30
 ```
 
 
-العنصر m30.
+الـ m30.
 
 ### m31 {#m31}
 ```
@@ -287,7 +287,7 @@ public double m31
 ```
 
 
-العنصر m31.
+الـ m31.
 
 ### m32 {#m32}
 ```
@@ -295,7 +295,7 @@ public double m32
 ```
 
 
-العنصر m32.
+الـ m32.
 
 ### m33 {#m33}
 ```
@@ -303,7 +303,7 @@ public double m33
 ```
 
 
-العنصر m33.
+الـ m33.
 
 ### clone() {#clone--}
 ```
@@ -311,7 +311,7 @@ public Matrix4 clone()
 ```
 
 
-استنساخ النسخة الحالية
+استنساخ الكائن الحالي
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4)
@@ -321,7 +321,7 @@ public Matrix4 concatenate(Matrix4 m2)
 ```
 
 
-يجمع المصفوفتين
+يدمج المصفوفتين
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -357,12 +357,12 @@ public boolean decompose(Vector3 translation, Vector3 scaling, Quaternion rotati
 ```
 
 
-فك تجميع مصفوفة التحويل.
+فك تجزئة مصفوفة التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| translation | [Vector3](../../com.aspose.threed/vector3) | الإزاحة. |
+| translation | [Vector3](../../com.aspose.threed/vector3) | الترجمة. |
 | scaling | [Vector3](../../com.aspose.threed/vector3) | التحجيم. |
 | rotation | [Quaternion](../../com.aspose.threed/quaternion) | الدوران. |
 
@@ -451,7 +451,7 @@ public static Matrix4 mul(Matrix4 lhs, Matrix4 rhs)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | lhs | [Matrix4](../../com.aspose.threed/matrix4) | Lhs. |
-| rhs | [Matrix4](../../com.aspose.threed/matrix4) | الجانب الأيمن. |
+| rhs | [Matrix4](../../com.aspose.threed/matrix4) | Rhs. |
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - Result matrix
@@ -493,7 +493,7 @@ public static Matrix4 mul(Matrix4 lhs, double v)
 ```
 
 
-ضرب المصفوفة والقيمة المزدوجة
+ضرب المصفوفة بالقيمة المزدوجة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -509,7 +509,7 @@ public Matrix4 normalize()
 ```
 
 
-يقوم بتطبيع هذه الحالة.
+يقوم بتطبيع هذا الكائن.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - Normalize matrix4
@@ -535,12 +535,12 @@ public static Matrix4 rotate(Quaternion q)
 ```
 
 
-إنشاء مصفوفة دوران من quaternion
+إنشاء مصفوفة دوران من كواترنيون
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | q | [Quaternion](../../com.aspose.threed/quaternion) | كواترن الدوران **مثال:** يوضح الشيفرة التالية كيفية إنشاء مصفوفة لعملية الدوران. |
+|  | q | [Quaternion](../../com.aspose.threed/quaternion) | الكمية الدوارة quaternion **مثال:** الكود التالي يوضح كيفية إنشاء مصفوفة لعملية الدوران. |
 
 ```
 var t = Matrix4.rotate(Quaternion.fromAngleAxis(Math.PI, Vector3.getUnitY()));
@@ -562,7 +562,7 @@ public static Matrix4 rotate(double angle, Vector3 axis)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | زاوية | double | زاوية الدوران بالراديان |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | محور الدوران **مثال:** يوضح الشيفرة التالية كيفية إنشاء مصفوفة لعملية الدوران. |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | محور الدوران **مثال:** الكود التالي يوضح كيفية إنشاء مصفوفة لعملية الدوران. |
 
 ```
 var t = Matrix4.rotate(Math.PI, new Vector3(0, 1, 0));
@@ -583,7 +583,7 @@ public static Matrix4 rotateFromEuler(Vector3 eul)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | eul | [Vector3](../../com.aspose.threed/vector3) | الدوران بالراديان **مثال:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية الدوران. |
+|  | eul | [Vector3](../../com.aspose.threed/vector3) | الدوران بالراديان **مثال:** الكود التالي يوضح كيفية إنشاء مصفوفة لعملية الدوران. |
 
 ```
 var t = Matrix4.rotateFromEuler(new Vector3(0, Math.PI, 0));
@@ -606,7 +606,7 @@ public static Matrix4 rotateFromEuler(double rx, double ry, double rz)
 | --- | --- | --- |
 | rx | double | دوران حول محور x بالراديان |
 | ry | double | دوران حول محور y بالراديان |
-|  | rz | double | دوران حول محور z بالراديان **مثال:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية الدوران. |
+|  | rz | double | دوران حول محور z بالراديان **Example:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية الدوران. |
 
 ```
 var t = Matrix4.rotateFromEuler(0, Math.PI, 0);
@@ -622,12 +622,12 @@ public static Matrix4 scale(Vector3 s)
 ```
 
 
-ينشئ مصفوفة تُقِيس على المحور x والمحور y والمحور z
+ينشئ مصفوفة تُكَبِّر على المحور x، والمحور y، والمحور z.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | s | [Vector3](../../com.aspose.threed/vector3) | تطبيقات التحجيم تنطبق على محور x، ومحور y، ومحور z **مثال:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية التحجيم. |
+|  | s | [Vector3](../../com.aspose.threed/vector3) | مصانع التحجيم تنطبق على محور x، ومحور y، ومحور z **Example:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية التحجيم. |
 
 ```
 var t = Matrix4.scale(new Vector3(10, 10, 10));
@@ -643,12 +643,12 @@ public static Matrix4 scale(double s)
 ```
 
 
-ينشئ مصفوفة تُقِيس على المحور x والمحور y والمحور z
+ينشئ مصفوفة تُكَبِّر على المحور x، والمحور y، والمحور z.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | s | double | تطبيقات التحجيم تنطبق على جميع المحاور **مثال:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية التحجيم. |
+|  | s | double | مصانع التحجيم تنطبق على جميع المحاور **Example:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية التحجيم. |
 
 ```
 var t = Matrix4.scale(10);
@@ -664,14 +664,14 @@ public static Matrix4 scale(double sx, double sy, double sz)
 ```
 
 
-ينشئ مصفوفة تُقِيس على المحور x والمحور y والمحور z
+ينشئ مصفوفة تُكَبِّر على المحور x، والمحور y، والمحور z.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| sx | double | تطبيقات التحجيم تنطبق على محور x |
-| sy | double | تطبيقات التحجيم تنطبق على محور y |
-|  | sz | double | تطبيقات التحجيم تنطبق على محور z **مثال:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية التحجيم. |
+| sx | double | مصانع التحجيم تنطبق على محور x |
+| sy | double | مصانع التحجيم تنطبق على محور y |
+|  | sz | double | مصانع التحجيم تنطبق على محور z **Example:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية التحجيم. |
 
 ```
 var t = Matrix4.scale(10, 20, 10);
@@ -687,13 +687,13 @@ public void setTRS(Vector3 translation, Vector3 rotation, Vector3 scale)
 ```
 
 
-يُهيئ المصفوفة بالترجمة/الدوران/التحجيم
+يُهيئ المصفوفة بالإزاحة/الدوران/التحجيم
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | translation | [Vector3](../../com.aspose.threed/vector3) | تحويل. |
-| rotation | [Vector3](../../com.aspose.threed/vector3) | زوايا أويلر للدوران، القيم بالدرجة. |
+| rotation | [Vector3](../../com.aspose.threed/vector3) | زوايا أويلر للدوران، الحقول بوحدة الدرجة. |
 | scale | [Vector3](../../com.aspose.threed/vector3) | تحجيم. |
 
 ### toArray() {#toArray--}
@@ -702,7 +702,7 @@ public double[] toArray()
 ```
 
 
-يحوِّل المصفوفة إلى مصفوفة.
+يحوّل المصفوفة إلى مصفوفة.
 
 **Returns:**
 double[] - المصفوفة.
@@ -712,7 +712,7 @@ public String toString()
 ```
 
 
-يرجع java.lang.String الذي يمثل الـ [Matrix4](../../com.aspose.threed/matrix4) الحالي.
+يرجع java.lang.String يمثل الـ [Matrix4](../../com.aspose.threed/matrix4) الحالي.
 
 **Returns:**
 java.lang.String - سلسلة java.lang.String تمثل الـ [Matrix4](../../com.aspose.threed/matrix4) الحالي.
@@ -722,12 +722,12 @@ public static Matrix4 translate(Vector3 t)
 ```
 
 
-ينشئ مصفوفة تُترجم على المحور x والمحور y والمحور z
+ينشئ مصفوفة تُجري إزاحة على المحور x، والمحور y، والمحور z
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | t | [Vector3](../../com.aspose.threed/vector3) | إزاحة الترجمة **مثال:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية الترجمة. |
+|  | t | [Vector3](../../com.aspose.threed/vector3) | إزاحة الترجمة **Example:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية الترجمة. |
 
 ```
 Matrix4 t = Matrix4.translate(new Vector3(10, 0, 0));
@@ -743,14 +743,14 @@ public static Matrix4 translate(double tx, double ty, double tz)
 ```
 
 
-ينشئ مصفوفة تُترجم على المحور x والمحور y والمحور z
+ينشئ مصفوفة تُجري إزاحة على المحور x، والمحور y، والمحور z
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | tx | double | إزاحة إحداثي X |
 | ty | double | إزاحة إحداثي Y |
-|  | tz | double | إزاحة إحداثي Z **Example:** يوضح الكود التالي كيفية إنشاء مصفوفة لعملية الترجمة. |
+|  | tz | double | إزاحة إحداثي Z **مثال:** يوضح الشيفرة التالية كيفية إنشاء مصفوفة لعملية الترجمة. |
 
 ```
 var t = Matrix4.translate(10, 0, 0);
@@ -766,7 +766,7 @@ public Matrix4 transpose()
 ```
 
 
-يقلب هذا الكائن.
+ينقل هذا المثيل.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - The transposed matrix. **Example:** The following code shows how to transpose a matrix

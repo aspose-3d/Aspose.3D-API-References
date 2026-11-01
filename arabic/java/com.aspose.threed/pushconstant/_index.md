@@ -1,7 +1,7 @@
 ---
 title: "PushConstant"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "أداة لتوفير البيانات إلى المُظلل عبر ثابت الدفع."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "أداة لتوفير البيانات للمُظلّل عبر ثابت الدفع."
 type: docs
 weight: 141
 url: /ar/java/com.aspose.threed/pushconstant/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PushConstant
 ```
 
-أداة لتوفير البيانات إلى المُظلل عبر ثابت الدفع.
+أداة لتوفير البيانات للمُظلّل عبر ثابت الدفع.
 ## المنشئات
 
 | منشئ | الوصف |
@@ -23,7 +23,7 @@ public class PushConstant
 
 | طريقة | الوصف |
 | --- | --- |
-| [commit(int stage, ICommandList commandList)](#commit-int-com.aspose.threed.ICommandList-) | تأكيد البيانات المُعَدّة إلى خط أنابيب الرسومات. |
+| [commit(int stage, ICommandList commandList)](#commit-int-com.aspose.threed.ICommandList-) | يُرسل البيانات المُحضّرة إلى خط أنابيب الرسومات. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -53,12 +53,12 @@ public PushConstant commit(int stage, ICommandList commandList)
 ```
 
 
-تأكيد البيانات المُعَدّة إلى خط أنابيب الرسومات.
+يُرسل البيانات المُحضّرة إلى خط أنابيب الرسومات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| stage | int |  |
+| المرحلة | int |  |
 | commandList | [ICommandList](../../com.aspose.threed/icommandlist) |  |
 
 **Returns:**
@@ -170,7 +170,7 @@ public PushConstant write(FMatrix4 mat)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| mat | [FMatrix4](../../com.aspose.threed/fmatrix4) | المصفوفة التي سيتم كتابتها |
+| mat | [FMatrix4](../../com.aspose.threed/fmatrix4) | المصفوفة المراد كتابتها |
 
 **Returns:**
 [PushConstant](../../com.aspose.threed/pushconstant)

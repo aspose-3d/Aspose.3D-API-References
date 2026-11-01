@@ -1,7 +1,7 @@
 ---
 title: "الاستقراء"
-second_title: "مرجع API لـ Aspose.3D for Java"
-description: "التقريب يحدد كيفية التعامل عندما تكون القيمة المعيّنة خارج النطاق المحدد بالإطارين الرئيسيين الأول والأخير."
+second_title: "مرجع Aspose.3D لـ Java API"
+description: "التقريب يحدد ما يجب القيام به عندما تكون القيمة المأخوذة خارج النطاق المحدد بواسطة الإطارات المفتاحية الأولى والأخيرة."
 type: docs
 weight: 57
 url: /ar/java/com.aspose.threed/extrapolation/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Extrapolation
 ```
 
-التقريب يحدد كيفية التعامل عندما تكون القيمة المعيّنة خارج النطاق المحدد بالإطارين الرئيسيين الأول والأخير.
+التقريب يحدد ما يجب القيام به عندما تكون القيمة المأخوذة خارج النطاق المحدد بواسطة الإطارات المفتاحية الأولى والأخيرة.
 ## الطرق
 
 | طريقة | الوصف |
@@ -113,7 +113,7 @@ public void setRepeatCount(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة الجديدة |
+| قيمة | int | قيمة جديدة |
 
 ### setType(ExtrapolationType value) {#setType-com.aspose.threed.ExtrapolationType-}
 ```
@@ -126,7 +126,7 @@ public void setType(ExtrapolationType value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ExtrapolationType](../../com.aspose.threed/extrapolationtype) | القيمة الجديدة |
+| value | [ExtrapolationType](../../com.aspose.threed/extrapolationtype) | قيمة جديدة |
 
 ### toString() {#toString--}
 ```
