@@ -1,7 +1,7 @@
 ---
 title: "SPIRVSource"
 second_title: "Aspose.3D for Java API Referansı"
-description: "SPIR-V formatındaki derlenmiş shader."
+description: "SPIR-V formatındaki derlenmiş gölgelendirici."
 type: docs
 weight: 159
 url: /tr/java/com.aspose.threed/spirvsource/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.ShaderSource](../../com.aspose.threed/shade
 public final class SPIRVSource extends ShaderSource
 ```
 
-SPIR-V formatındaki derlenmiş shader.
+SPIR-V formatındaki derlenmiş gölgelendirici.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -94,7 +94,7 @@ public byte[] getFragmentShader()
 Parça gölgelendiricisinin kaynak kodunu alır.
 
 **Returns:**
-byte[] - fragman gölgelendiricisinin kaynak kodu.
+byte[] - fragment shader'ın kaynak kodu.
 ### getGeometryShader() {#getGeometryShader--}
 ```
 public byte[] getGeometryShader()
@@ -104,7 +104,7 @@ public byte[] getGeometryShader()
 Geometri gölgelendiricisinin kaynak kodunu alır.
 
 **Returns:**
-byte[] - geometri gölgelendiricisinin kaynak kodu.
+byte[] - geometry shader'ın kaynak kodu.
 ### getMaximumDescriptorSets() {#getMaximumDescriptorSets--}
 ```
 public int getMaximumDescriptorSets()
@@ -124,7 +124,7 @@ public byte[] getVertexShader()
 Vertex gölgelendiricisinin kaynak kodunu alır
 
 **Returns:**
-byte[] - vertex gölgelendiricisinin kaynak kodu
+byte[] - vertex shader'ın kaynak kodu
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

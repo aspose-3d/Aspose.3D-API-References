@@ -24,17 +24,17 @@ RenderFactory, render hattında temsil edilen tüm kaynakları oluşturur.
 | Yöntem | Açıklama |
 | --- | --- |
 | [createCubeRenderTexture(RenderParameters parameters, int width, int height)](#createCubeRenderTexture-com.aspose.threed.RenderParameters-int-int-) | 1 küp doku içeren bir render hedefi oluştur. |
-| [createDescriptorSet(ShaderProgram shader)](#createDescriptorSet-com.aspose.threed.ShaderProgram-) | Belirtilen shader programı için tanımlayıcı kümesini oluştur. |
-| [createIndexBuffer()](#createIndexBuffer--) | Poligonun yüz bilgilerini depolamak için bir [IIndexBuffer](../../com.aspose.threed/iindexbuffer) örneği oluştur. |
-| [createPipeline(ShaderProgram shader, RenderState renderState, VertexDeclaration vertexDeclaration, DrawOperation drawOperation)](#createPipeline-com.aspose.threed.ShaderProgram-com.aspose.threed.RenderState-com.aspose.threed.VertexDeclaration-com.aspose.threed.DrawOperation-) | Önceden yapılandırılmış shader/render durumu/vertex bildirimi ve çizim işlemleriyle bir önceden yapılandırılmış grafik boru hattı oluştur. |
+| [createDescriptorSet(ShaderProgram shader)](#createDescriptorSet-com.aspose.threed.ShaderProgram-) | Belirtilen shader programı için tanımlayıcı setini oluştur. |
+| [createIndexBuffer()](#createIndexBuffer--) | Poligon yüz bilgilerini depolamak için bir [IIndexBuffer](../../com.aspose.threed/iindexbuffer) örneği oluştur. |
+| [createPipeline(ShaderProgram shader, RenderState renderState, VertexDeclaration vertexDeclaration, DrawOperation drawOperation)](#createPipeline-com.aspose.threed.ShaderProgram-com.aspose.threed.RenderState-com.aspose.threed.VertexDeclaration-com.aspose.threed.DrawOperation-) | Önceden yapılandırılmış shader/render durumu/vertex bildirimi ve çizim işlemleriyle önceden yapılandırılmış bir grafik boru hattı oluştur. |
 | [createRenderTexture(RenderParameters parameters, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-) | Dokuya render yapan 1 hedef içeren bir render hedefi oluştur. |
 | [createRenderTexture(RenderParameters parameters, int targets, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-int-) | Dokuya render yapan bir render hedefi oluştur. |
 | [createRenderWindow(RenderParameters parameters, WindowHandle handle)](#createRenderWindow-com.aspose.threed.RenderParameters-com.aspose.threed.WindowHandle-) | Yerel pencereye render yapan bir render hedefi oluştur. |
 | [createShaderProgram(ShaderSource shaderSource)](#createShaderProgram-com.aspose.threed.ShaderSource-) | Bir [ShaderProgram](../../com.aspose.threed/shaderprogram) nesnesi oluştur. |
-| [createTextureUnit()](#createTextureUnit--) | Shader tarafından erişilebilen bir 2D doku birimi oluştur. |
+| [createTextureUnit()](#createTextureUnit--) | Shader tarafından erişilebilen 2D doku birimi oluştur. |
 | [createTextureUnit(TextureType textureType)](#createTextureUnit-com.aspose.threed.TextureType-) | Shader tarafından erişilebilen bir doku birimi oluştur. |
-| [createUniformBuffer(int size)](#createUniformBuffer-int-) | Önceden ayrılmış boyutla GPU tarafında yeni bir uniform tampon oluştur. |
-| [createVertexBuffer(VertexDeclaration declaration)](#createVertexBuffer-com.aspose.threed.VertexDeclaration-) | Poligonun vertex bilgilerini depolamak için bir [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) örneği oluştur. |
+| [createUniformBuffer(int size)](#createUniformBuffer-int-) | Önceden tahsis edilmiş boyutla GPU tarafında yeni bir uniform tampon oluştur. |
+| [createVertexBuffer(VertexDeclaration declaration)](#createVertexBuffer-com.aspose.threed.VertexDeclaration-) | Poligon vertex bilgilerini depolamak için bir [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) örneği oluştur. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -73,12 +73,12 @@ public abstract IDescriptorSet createDescriptorSet(ShaderProgram shader)
 ```
 
 
-Belirtilen shader programı için tanımlayıcı kümesini oluştur.
+Belirtilen shader programı için tanımlayıcı setini oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | Shader programı. |
+| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | Gölgelendirici programı |
 
 **Returns:**
 [IDescriptorSet](../../com.aspose.threed/idescriptorset) - A new descriptor set instance
@@ -88,7 +88,7 @@ public abstract IIndexBuffer createIndexBuffer()
 ```
 
 
-Poligonun yüz bilgilerini depolamak için bir [IIndexBuffer](../../com.aspose.threed/iindexbuffer) örneği oluştur.
+Poligon yüz bilgilerini depolamak için bir [IIndexBuffer](../../com.aspose.threed/iindexbuffer) örneği oluştur.
 
 **Returns:**
 [IIndexBuffer](../../com.aspose.threed/iindexbuffer)
@@ -98,13 +98,13 @@ public abstract IPipeline createPipeline(ShaderProgram shader, RenderState rende
 ```
 
 
-Önceden yapılandırılmış shader/render durumu/vertex bildirimi ve çizim işlemleriyle bir önceden yapılandırılmış grafik boru hattı oluştur.
+Önceden yapılandırılmış shader/render durumu/vertex bildirimi ve çizim işlemleriyle önceden yapılandırılmış bir grafik boru hattı oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | Render işlemi sırasında kullanılan shader |
-| renderState | [RenderState](../../com.aspose.threed/renderstate) | Render işlemi sırasında kullanılan render durumu |
+| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | Render işlemede kullanılan shader |
+| renderState | [RenderState](../../com.aspose.threed/renderstate) | Render işlemede kullanılan render durumu |
 | vertexDeclaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Giriş vertex verisinin vertex bildirimi |
 | drawOperation | [DrawOperation](../../com.aspose.threed/drawoperation) | Çizim işlemi |
 
@@ -182,7 +182,7 @@ public ITextureUnit createTextureUnit()
 ```
 
 
-Shader tarafından erişilebilen bir 2D doku birimi oluştur.
+Shader tarafından erişilebilen 2D doku birimi oluştur.
 
 **Returns:**
 [ITextureUnit](../../com.aspose.threed/itextureunit)
@@ -207,7 +207,7 @@ public abstract IBuffer createUniformBuffer(int size)
 ```
 
 
-Önceden ayrılmış boyutla GPU tarafında yeni bir uniform tampon oluştur.
+Önceden tahsis edilmiş boyutla GPU tarafında yeni bir uniform tampon oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -222,7 +222,7 @@ public abstract IVertexBuffer createVertexBuffer(VertexDeclaration declaration)
 ```
 
 
-Poligonun vertex bilgilerini depolamak için bir [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) örneği oluştur.
+Poligon vertex bilgilerini depolamak için bir [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) örneği oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

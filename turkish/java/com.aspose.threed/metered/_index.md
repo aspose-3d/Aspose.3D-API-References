@@ -1,5 +1,5 @@
 ---
-title: "Ölçümlü"
+title: "Ölçülen"
 second_title: "Aspose.3D for Java API Referansı"
 description: "Ölçülen anahtarı ayarlamak için yöntemler sağlar."
 type: docs
@@ -30,7 +30,7 @@ public class Metered
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Ölçümlü genel ve özel anahtarı ayarlar. |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Ölçülen genel ve özel anahtarı ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-Ölçümlü genel ve özel anahtarı ayarlar. Ölçümlü lisans satın alırsanız, uygulamayı başlattığınızda bu API çağrılmalıdır, genellikle bu yeterlidir. Ancak, tüketim verilerini her zaman yükleyemeyip 24 saati aşarsa, lisans değerlendirme durumuna ayarlanır; böyle bir durumu önlemek için lisans durumunu düzenli olarak kontrol etmelisiniz, eğer değerlendirme durumundaysa, bu API'yi tekrar çağırın.
+Ölçülen genel ve özel anahtarı ayarlar. Ölçülen lisansı satın alırsanız, uygulamayı başlattığınızda bu API çağrılmalıdır, genellikle bu yeterlidir. Ancak, tüketim verilerini her zaman yükleyememe ve 24 saati aşma durumunda, lisans değerlendirme durumuna ayarlanır; böyle bir durumu önlemek için lisans durumunu düzenli olarak kontrol etmelisiniz, eğer değerlendirme durumundaysa, bu API'yi tekrar çağırın.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

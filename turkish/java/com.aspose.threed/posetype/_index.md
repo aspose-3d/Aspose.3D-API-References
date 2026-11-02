@@ -19,7 +19,7 @@ Poz tipi.
 | Alan | Açıklama |
 | --- | --- |
 | [BIND_POSE](#BIND-POSE) | Bağlama pozu. |
-| [SNAPSHOT](#SNAPSHOT) | Kalan poz, bağlama pozunun bir anlık görüntüsü anlamına gelir. |
+| [SNAPSHOT](#SNAPSHOT) | Dinlenme pozu, bağlama pozu'nun bir anlık görüntüsü anlamına gelir. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -55,7 +55,7 @@ public static final PoseType SNAPSHOT
 ```
 
 
-Kalan poz, bağlama pozunun bir anlık görüntüsü anlamına gelir.
+Dinlenme pozu, bağlama pozu'nun bir anlık görüntüsü anlamına gelir.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "TrialException"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bu, lisans uygulanmadığında Scene.Open/Scene.Save içinde tetiklenir."
+description: "Bu, lisans uygulanmadığında Scene.Open/Scene.Save sırasında ortaya çıkar."
 type: docs
 weight: 195
 url: /tr/java/com.aspose.threed/trialexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class TrialException extends RuntimeException
 ```
 
-Bu, Scene.Open/Scene.Save sırasında lisans uygulanmadığında ortaya çıkar. SuppressTrialException özelliğini true olarak ayarlayarak bu istisna devre dışı bırakılabilir.
+Bu, Scene.Open/Scene.Save işlemlerinde lisans uygulanmadığında ortaya çıkar. SuppressTrialException özelliğini true olarak ayarlayarak bu istisna devre dışı bırakılabilir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -162,10 +162,10 @@ public static boolean getSuppressTrialException()
 ```
 
 
-Lisanssız kullanım için deneme istisnasını bastırmak amacıyla bunu true olarak ayarlar, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bunu true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına gelir.
+Lisanssız kullanım için deneme istisnasını bastırmak amacıyla bunu true olarak ayarlar, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bunu true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına da gelir.
 
 **Returns:**
-boolean - Lisanssız kullanım için deneme istisnasını bastırmak amacıyla bunu true olarak ayarlar, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bunu true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına gelir.
+boolean - Lisanssız kullanım için deneme istisnasını bastırmak amacıyla bunu true olarak ayarlar, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bunu true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına da gelir.
 ### getSuppressed() {#getSuppressed--}
 ```
 public final synchronized Throwable[] getSuppressed()
@@ -270,7 +270,7 @@ public static void setSuppressTrialException(boolean value)
 ```
 
 
-Lisanssız kullanım için deneme istisnasını bastırmak amacıyla bunu true olarak ayarlar, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bunu true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına gelir.
+Lisanssız kullanım için deneme istisnasını bastırmak amacıyla bunu true olarak ayarlar, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bunu true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına da gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

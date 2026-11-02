@@ -1,7 +1,7 @@
 ---
 title: "RenderParameters"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Render hedefinin parametrelerini açıklayın"
+description: "Render hedefinin parametrelerini tanımla"
 type: docs
 weight: 149
 url: /tr/java/com.aspose.threed/renderparameters/
@@ -13,7 +13,7 @@ java.lang.Object
 public class RenderParameters
 ```
 
-Render hedefinin parametrelerini açıklayın
+Render hedefinin parametrelerini tanımla
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

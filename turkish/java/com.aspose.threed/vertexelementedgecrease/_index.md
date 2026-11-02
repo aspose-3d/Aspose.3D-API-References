@@ -1,7 +1,7 @@
 ---
 title: "VertexElementEdgeCrease"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Belirtilen bileşenler için kenar kıvrımını tanımlar"
+description: "Belirtilen bileşenler için kenar kırışıklığını tanımlar"
 type: docs
 weight: 210
 url: /tr/java/com.aspose.threed/vertexelementedgecrease/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementEdgeCrease extends VertexElementDoublesTemplate
 ```
 
-Belirtilen bileşenler için kenar kıvrımını tanımlar
+Belirtilen bileşenler için kenar kırışıklığını tanımlar
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -23,8 +23,8 @@ Belirtilen bileşenler için kenar kıvrımını tanımlar
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [clear()](#clear--) | Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır. |
-| [clone(boolean withData)](#clone-boolean-) | Vertex öğesinin derin kopyasını oluştur. |
+| [clear()](#clear--) | Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır. |
+| [clone(boolean withData)](#clone-boolean-) | Vertex öğesini derin kopyalar. |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [copyTo(VertexElementDoublesTemplate target)](#copyTo-com.aspose.threed.VertexElementDoublesTemplate-) | Verileri belirtilen öğeye kopyalar. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -38,7 +38,7 @@ Belirtilen bileşenler için kenar kıvrımını tanımlar
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(double[] data)](#setData-double---) | Veriyi yükle |
+| [setData(double[] data)](#setData-double---) | Veri yükle |
 | [setIndices(int[] data)](#setIndices-int---) | İndeksleri yükle |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Öğenin nasıl eşlendiğini ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
@@ -61,7 +61,7 @@ public void clear()
 ```
 
 
-Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır.
+Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır.
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -69,12 +69,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Vertex öğesinin derin kopyasını oluştur.
+Vertex öğesini derin kopyalar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle kopyala. |
+| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle klonlar. |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -224,7 +224,7 @@ public void setData(double[] data)
 ```
 
 
-Veriyi yükle
+Veri yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

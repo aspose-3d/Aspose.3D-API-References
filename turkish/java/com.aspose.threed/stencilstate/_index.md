@@ -21,14 +21,14 @@ Yüzey başına şablon durumları.
 | [equals(Object obj)](#equals-java.lang.Object-) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
 | [getClass()](#getClass--) |  |
 | [getCompare()](#getCompare--) | Stencil testinde kullanılan karşılaştırma işlevini alır. |
-| [getDepthFailAction()](#getDepthFailAction--) | Stencil testi geçtiğinde ancak derinlik testi başarısız olduğunda stencil eylemini alır. |
+| [getDepthFailAction()](#getDepthFailAction--) | Stencil testi geçip derinlik testi başarısız olduğunda stencil eylemini alır. |
 | [getFailAction()](#getFailAction--) | Stencil testi başarısız olduğunda stencil eylemini alır. |
 | [getPassAction()](#getPassAction--) | Stencil testi ve derinlik testi ikisi de geçtiğinde stencil eylemini alır. |
 | [hashCode()](#hashCode--) | Bu örnek için hash kodunu döndürür. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCompare(CompareFunction value)](#setCompare-com.aspose.threed.CompareFunction-) | Stencil testinde kullanılan karşılaştırma işlevini ayarlar. |
-| [setDepthFailAction(StencilAction value)](#setDepthFailAction-com.aspose.threed.StencilAction-) | Stencil testi geçtiğinde ancak derinlik testi başarısız olduğunda stencil eylemini ayarlar. |
+| [setDepthFailAction(StencilAction value)](#setDepthFailAction-com.aspose.threed.StencilAction-) | Stencil testi geçip derinlik testi başarısız olduğunda stencil eylemini ayarlar. |
 | [setFailAction(StencilAction value)](#setFailAction-com.aspose.threed.StencilAction-) | Stencil testi başarısız olduğunda stencil eylemini ayarlar. |
 | [setPassAction(StencilAction value)](#setPassAction-com.aspose.threed.StencilAction-) | Stencil testi ve derinlik testi ikisi de geçtiğinde stencil eylemini ayarlar. |
 | [toString()](#toString--) |  |
@@ -76,7 +76,7 @@ public StencilAction getDepthFailAction()
 ```
 
 
-Stencil testi geçtiğinde ancak derinlik testi başarısız olduğunda stencil eylemini alır.
+Stencil testi geçip derinlik testi başarısız olduğunda stencil eylemini alır.
 
 **Returns:**
 [StencilAction](../../com.aspose.threed/stencilaction) - the stencil action when stencil test pass but depth test fails.
@@ -145,7 +145,7 @@ public void setDepthFailAction(StencilAction value)
 ```
 
 
-Stencil testi geçtiğinde ancak derinlik testi başarısız olduğunda stencil eylemini ayarlar.
+Stencil testi geçip derinlik testi başarısız olduğunda stencil eylemini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

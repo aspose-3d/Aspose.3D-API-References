@@ -22,7 +22,7 @@ Tüm bileşenleri float tipinde olan 4x4 matris
 | Yapıcı | Açıklama |
 | --- | --- |
 | [FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11, float m12, float m13, float m20, float m21, float m22, float m23, float m30, float m31, float m32, float m33)](#FMatrix4-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-) | [FMatrix4](../../com.aspose.threed/fmatrix4) örneğini başlat. |
-| [FMatrix4(Matrix4 mat)](#FMatrix4-com.aspose.threed.Matrix4-) | Bir [Matrix4](../../com.aspose.threed/matrix4) örneğinden [FMatrix4](../../com.aspose.threed/fmatrix4) örneğini başlatın. |
+| [FMatrix4(Matrix4 mat)](#FMatrix4-com.aspose.threed.Matrix4-) | Bir [Matrix4](../../com.aspose.threed/matrix4) örneğinden [FMatrix4](../../com.aspose.threed/fmatrix4) örneğini başlat. |
 | [FMatrix4(FVector4 r0, FVector4 r1, FVector4 r2, FVector4 r3)](#FMatrix4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | Matrisi 4 satırdan oluşturur. |
 | [FMatrix4()](#FMatrix4--) |  |
 ## Alanlar
@@ -57,9 +57,9 @@ Tüm bileşenleri float tipinde olan 4x4 matris
 | [getClass()](#getClass--) |  |
 | [getIdentity()](#getIdentity--) | Birim matris |
 | [hashCode()](#hashCode--) |  |
-| [inverse()](#inverse--) | Geçerli örneğin ters matrisini hesaplar. |
+| [inverse()](#inverse--) | Mevcut örneğin ters matrisini hesapla. |
 | [mul(FMatrix4 left, FMatrix4 right)](#mul-com.aspose.threed.FMatrix4-com.aspose.threed.FMatrix4-) | İki matrisi birleştir |
-| [mul(FMatrix4 lhs, float v)](#mul-com.aspose.threed.FMatrix4-float-) | Matrisi ve çift değeri çarpar |
+| [mul(FMatrix4 lhs, float v)](#mul-com.aspose.threed.FMatrix4-float-) | Matrisi ve çift değeri çarp |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -101,7 +101,7 @@ public FMatrix4(Matrix4 mat)
 ```
 
 
-Bir [Matrix4](../../com.aspose.threed/matrix4) örneğinden [FMatrix4](../../com.aspose.threed/fmatrix4) örneğini başlatın.
+Bir [Matrix4](../../com.aspose.threed/matrix4) örneğinden [FMatrix4](../../com.aspose.threed/fmatrix4) örneğini başlat.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -264,7 +264,7 @@ public FMatrix4 clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4)
@@ -362,7 +362,7 @@ public FMatrix4 inverse()
 ```
 
 
-Geçerli örneğin ters matrisini hesaplar.
+Mevcut örneğin ters matrisini hesapla.
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Inverse matrix4
@@ -388,7 +388,7 @@ public static FMatrix4 mul(FMatrix4 lhs, float v)
 ```
 
 
-Matrisi ve çift değeri çarpar
+Matrisi ve çift değeri çarp
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

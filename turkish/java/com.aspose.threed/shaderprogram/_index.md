@@ -1,7 +1,7 @@
 ---
 title: "ShaderProgram"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Shader programı."
+description: "Gölgelendirici programı"
 type: docs
 weight: 165
 url: /tr/java/com.aspose.threed/shaderprogram/
@@ -16,12 +16,12 @@ java.io.Closeable
 public abstract class ShaderProgram implements Closeable
 ```
 
-Shader programı.
+Gölgelendirici programı
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [close()](#close--) | Shader'ı yok edin ve tüm dahili kaynakları serbest bırakın. |
+| [close()](#close--) | Shader'ı temizleyin ve tüm dahili kaynakları serbest bırakın. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -37,7 +37,7 @@ public void close()
 ```
 
 
-Shader'ı yok edin ve tüm dahili kaynakları serbest bırakın.
+Shader'ı temizleyin ve tüm dahili kaynakları serbest bırakın.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox2D"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Şunun için eksen hizalı sınırlayıcı kutu"
+description: "Şunun için eksen hizalı sınırlayıcı kutu:"
 type: docs
 weight: 25
 url: /tr/java/com.aspose.threed/boundingbox2d/
@@ -16,12 +16,12 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox2D implements Struct<BoundingBox2D>, Serializable
 ```
 
-Eksen hizalı sınırlayıcı kutu [Vector2](../../com.aspose.threed/vector2) için
+[Vector2](../../com.aspose.threed/vector2) için eksen hizalı sınırlayıcı kutu
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Verilen minimum ve maksimum köşe ile sonlu bir sınırlayıcı kutu başlatın |
+| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Verilen minimum ve maksimum köşelerle sonlu bir sınırlayıcı kutu başlatın |
 | [BoundingBox2D()](#BoundingBox2D--) |  |
 ## Alanlar
 
@@ -55,7 +55,7 @@ public BoundingBox2D(Vector2 minimum, Vector2 maximum)
 ```
 
 
-Verilen minimum ve maksimum köşe ile sonlu bir sınırlayıcı kutu başlatın
+Verilen minimum ve maksimum köşelerle sonlu bir sınırlayıcı kutu başlatın
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -91,7 +91,7 @@ public BoundingBox2D clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [BoundingBox2D](../../com.aspose.threed/boundingbox2d)

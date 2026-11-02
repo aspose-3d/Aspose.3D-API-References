@@ -1,7 +1,7 @@
 ---
 title: "BoneLinkMode"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bir kemik bağlama modu, bir kemiğin hiyerarşik bir yapıda ebeveyn kemiğine nasıl bağlandığını veya ilişkilendirildiğini ifade eder."
+description: "Bir kemik bağlama modu, bir kemiğin hiyerarşik bir yapıda üst kemik ile nasıl bağlandığını veya ilişkilendirildiğini ifade eder."
 type: docs
 weight: 267
 url: /tr/java/com.aspose.threed/bonelinkmode/
@@ -18,9 +18,9 @@ Bir kemiğin bağlama modu, kemiğin hiyerarşik bir yapıda üst kemik ile nas�
 
 | Alan | Açıklama |
 | --- | --- |
-| [ADDITIVE](#ADDITIVE) | Toplayıcı mod, alt kemiklerin dönüşümlerini kendi yerel dönüşümlerini ebeveyn kemiklerinin dönüşümlerine ekleyerek hesaplar. |
-| [NORMALIZE](#NORMALIZE) | Bu modda, alt kemiklerin dönüşümleri ebeveyn kemiklerinin dönüşümlerine göre normalleştirilir. |
-| [TOTAL_ONE](#TOTAL-ONE) | Total One, ebeveyn ve alt kemiklerin birleşik dönüşümlerinin, toplam uzunluğu bir birim olacak şekilde ölçeklenen bir birleşik dönüşüm üretmesini sağlar. |
+| [ADDITIVE](#ADDITIVE) | Toplayıcı mod, alt kemiklerin dönüşümlerini kendi yerel dönüşümlerini üst kemiklerin dönüşümlerine ekleyerek hesaplar. |
+| [NORMALIZE](#NORMALIZE) | Bu modda, alt kemiklerin dönüşümleri, üst kemiklerinin dönüşümlerine göre normalize edilir. |
+| [TOTAL_ONE](#TOTAL-ONE) | Total One, üst ve alt kemiklerin birleşik dönüşümlerinin, toplam uzunluğu bir birim olacak şekilde ölçeklenen birleşik bir dönüşüm üretmesini sağlar. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -48,7 +48,7 @@ public static final BoneLinkMode ADDITIVE
 ```
 
 
-Toplayıcı mod, alt kemiklerin dönüşümlerini kendi yerel dönüşümlerini ebeveyn kemiklerinin dönüşümlerine ekleyerek hesaplar.
+Toplayıcı mod, alt kemiklerin dönüşümlerini kendi yerel dönüşümlerini üst kemiklerin dönüşümlerine ekleyerek hesaplar.
 
 ### NORMALIZE {#NORMALIZE}
 ```
@@ -56,7 +56,7 @@ public static final BoneLinkMode NORMALIZE
 ```
 
 
-Bu modda, alt kemiklerin dönüşümleri ebeveyn kemiklerinin dönüşümlerine göre normalleştirilir.
+Bu modda, alt kemiklerin dönüşümleri, üst kemiklerinin dönüşümlerine göre normalize edilir.
 
 ### TOTAL_ONE {#TOTAL-ONE}
 ```
@@ -64,7 +64,7 @@ public static final BoneLinkMode TOTAL_ONE
 ```
 
 
-Total One, ebeveyn ve alt kemiklerin birleşik dönüşümlerinin, toplam uzunluğu bir birim olacak şekilde ölçeklenen bir birleşik dönüşüm üretmesini sağlar.
+Total One, üst ve alt kemiklerin birleşik dönüşümlerinin, toplam uzunluğu bir birim olacak şekilde ölçeklenen birleşik bir dönüşüm üretmesini sağlar.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

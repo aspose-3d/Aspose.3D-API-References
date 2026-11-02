@@ -1,7 +1,7 @@
 ---
 title: "RendererVariableManager"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bu sınıf, renderleme sırasında kullanılan değişkenleri yönetir"
+description: "Bu sınıf, renderlamada kullanılan değişkenleri yönetir."
 type: docs
 weight: 154
 url: /tr/java/com.aspose.threed/renderervariablemanager/
@@ -13,39 +13,39 @@ java.lang.Object
 public abstract class RendererVariableManager
 ```
 
-Bu sınıf, renderleme sırasında kullanılan değişkenleri yönetir
+Bu sınıf, renderlamada kullanılan değişkenleri yönetir.
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCameraPosition()](#getCameraPosition--) | Kameranın dünya koordinat sistemindeki konumu. |
+| [getCameraPosition()](#getCameraPosition--) | Kameranın dünya koordinat sistemindeki konumu |
 | [getClass()](#getClass--) |  |
-| [getDepthBias()](#getDepthBias--) | Gölge haritalama için derinlik önyargısı, varsayılan değer 0.001'dir. |
-| [getMatrixLightSpace()](#getMatrixLightSpace--) | Işık uzayı dönüşümü için matris. |
-| [getMatrixProjection()](#getMatrixProjection--) | Projeksiyon dönüşümü için matris. |
-| [getMatrixView()](#getMatrixView--) | Görünüm dönüşümü için matris. |
+| [getDepthBias()](#getDepthBias--) | Gölge haritalaması için derinlik yanlılığı, varsayılan değer 0.001'dir |
+| [getMatrixLightSpace()](#getMatrixLightSpace--) | Işık uzayı dönüşümü için matris |
+| [getMatrixProjection()](#getMatrixProjection--) | Projeksiyon dönüşümü için matris |
+| [getMatrixView()](#getMatrixView--) | Görünüm dönüşümü için matris |
 | [getMatrixViewProjection()](#getMatrixViewProjection--) | Görünüm ve projeksiyon dönüşümü için matris. |
-| [getMatrixWorld()](#getMatrixWorld--) | Dünya dönüşümü için matris. |
+| [getMatrixWorld()](#getMatrixWorld--) | Dünya dönüşümü için matris |
 | [getMatrixWorldNormal()](#getMatrixWorldNormal--) | Normal vektörünü nesneden dünya uzayına dönüştürmek için matris. |
 | [getMatrixWorldViewProjection()](#getMatrixWorldViewProjection--) | Dünya görünümü ve projeksiyon dönüşümü için matris |
 | [getShadowCaster()](#getShadowCaster--) | Gölge atan nesnenin dünya koordinat sistemindeki konumu |
-| [getShadowmap()](#getShadowmap--) | Gölge haritalama için kullanılan derinlik dokusu |
+| [getShadowmap()](#getShadowmap--) | Gölge haritalaması için kullanılan derinlik dokusu |
 | [getViewportSize()](#getViewportSize--) | Piksel cinsinden ölçülen görüntü alanının boyutu |
-| [getWorldAmbient()](#getWorldAmbient--) | Görünüm alanında tanımlanan ortam rengi. |
+| [getWorldAmbient()](#getWorldAmbient--) | Görüntü alanında tanımlanan ortam rengi. |
 | [getWorldTime()](#getWorldTime--) | Saniye cinsinden zaman |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCameraPosition(FVector3 value)](#setCameraPosition-com.aspose.threed.FVector3-) | Kameranın dünya koordinat sistemindeki konumu. |
-| [setDepthBias(float value)](#setDepthBias-float-) | Gölge haritalama için derinlik önyargısı, varsayılan değer 0.001'dir. |
-| [setMatrixLightSpace(FMatrix4 value)](#setMatrixLightSpace-com.aspose.threed.FMatrix4-) | Işık uzayı dönüşümü için matris. |
-| [setMatrixProjection(FMatrix4 value)](#setMatrixProjection-com.aspose.threed.FMatrix4-) | Projeksiyon dönüşümü için matris. |
-| [setMatrixView(FMatrix4 value)](#setMatrixView-com.aspose.threed.FMatrix4-) | Görünüm dönüşümü için matris. |
+| [setCameraPosition(FVector3 value)](#setCameraPosition-com.aspose.threed.FVector3-) | Kameranın dünya koordinat sistemindeki konumu |
+| [setDepthBias(float value)](#setDepthBias-float-) | Gölge haritalaması için derinlik yanlılığı, varsayılan değer 0.001'dir |
+| [setMatrixLightSpace(FMatrix4 value)](#setMatrixLightSpace-com.aspose.threed.FMatrix4-) | Işık uzayı dönüşümü için matris |
+| [setMatrixProjection(FMatrix4 value)](#setMatrixProjection-com.aspose.threed.FMatrix4-) | Projeksiyon dönüşümü için matris |
+| [setMatrixView(FMatrix4 value)](#setMatrixView-com.aspose.threed.FMatrix4-) | Görünüm dönüşümü için matris |
 | [setShadowCaster(FVector3 value)](#setShadowCaster-com.aspose.threed.FVector3-) | Gölge atan nesnenin dünya koordinat sistemindeki konumu |
-| [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | Gölge haritalama için kullanılan derinlik dokusu |
+| [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | Gölge haritalaması için kullanılan derinlik dokusu |
 | [setViewportSize(FVector2 value)](#setViewportSize-com.aspose.threed.FVector2-) | Piksel cinsinden ölçülen görüntü alanının boyutu |
-| [setWorldAmbient(FVector3 value)](#setWorldAmbient-com.aspose.threed.FVector3-) | Görünüm alanında tanımlanan ortam rengi. |
+| [setWorldAmbient(FVector3 value)](#setWorldAmbient-com.aspose.threed.FVector3-) | Görüntü alanında tanımlanan ortam rengi. |
 | [setWorldTime(float value)](#setWorldTime-float-) | Saniye cinsinden zaman |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -72,7 +72,7 @@ public FVector3 getCameraPosition()
 ```
 
 
-Kameranın dünya koordinat sistemindeki konumu.
+Kameranın dünya koordinat sistemindeki konumu
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Camera's position in world coordinate system
@@ -92,17 +92,17 @@ public float getDepthBias()
 ```
 
 
-Gölge haritalama için derinlik önyargısı, varsayılan değer 0.001'dir.
+Gölge haritalaması için derinlik yanlılığı, varsayılan değer 0.001'dir
 
 **Returns:**
-float - Gölge haritalama için derinlik önyargısı, varsayılan değer 0.001
+float - Gölge haritalaması için derinlik önyargısı, varsayılan değer 0.001
 ### getMatrixLightSpace() {#getMatrixLightSpace--}
 ```
 public FMatrix4 getMatrixLightSpace()
 ```
 
 
-Işık uzayı dönüşümü için matris.
+Işık uzayı dönüşümü için matris
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for light space transformation
@@ -112,7 +112,7 @@ public FMatrix4 getMatrixProjection()
 ```
 
 
-Projeksiyon dönüşümü için matris.
+Projeksiyon dönüşümü için matris
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for projection transformation
@@ -122,7 +122,7 @@ public FMatrix4 getMatrixView()
 ```
 
 
-Görünüm dönüşümü için matris.
+Görünüm dönüşümü için matris
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for view transformation
@@ -142,7 +142,7 @@ public FMatrix4 getMatrixWorld()
 ```
 
 
-Dünya dönüşümü için matris.
+Dünya dönüşümü için matris
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for world transformation
@@ -182,7 +182,7 @@ public ITextureUnit getShadowmap()
 ```
 
 
-Gölge haritalama için kullanılan derinlik dokusu
+Gölge haritalaması için kullanılan derinlik dokusu
 
 **Returns:**
 [ITextureUnit](../../com.aspose.threed/itextureunit) - The depth texture used for shadow mapping
@@ -202,7 +202,7 @@ public FVector3 getWorldAmbient()
 ```
 
 
-Görünüm alanında tanımlanan ortam rengi.
+Görüntü alanında tanımlanan ortam rengi.
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Ambient color defined in viewport.
@@ -248,7 +248,7 @@ public void setCameraPosition(FVector3 value)
 ```
 
 
-Kameranın dünya koordinat sistemindeki konumu.
+Kameranın dünya koordinat sistemindeki konumu
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -261,7 +261,7 @@ public void setDepthBias(float value)
 ```
 
 
-Gölge haritalama için derinlik önyargısı, varsayılan değer 0.001'dir.
+Gölge haritalaması için derinlik yanlılığı, varsayılan değer 0.001'dir
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -274,7 +274,7 @@ public void setMatrixLightSpace(FMatrix4 value)
 ```
 
 
-Işık uzayı dönüşümü için matris.
+Işık uzayı dönüşümü için matris
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -287,7 +287,7 @@ public void setMatrixProjection(FMatrix4 value)
 ```
 
 
-Projeksiyon dönüşümü için matris.
+Projeksiyon dönüşümü için matris
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -300,7 +300,7 @@ public void setMatrixView(FMatrix4 value)
 ```
 
 
-Görünüm dönüşümü için matris.
+Görünüm dönüşümü için matris
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -326,7 +326,7 @@ public void setShadowmap(ITextureUnit value)
 ```
 
 
-Gölge haritalama için kullanılan derinlik dokusu
+Gölge haritalaması için kullanılan derinlik dokusu
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -352,7 +352,7 @@ public void setWorldAmbient(FVector3 value)
 ```
 
 
-Görünüm alanında tanımlanan ortam rengi.
+Görüntü alanında tanımlanan ortam rengi.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

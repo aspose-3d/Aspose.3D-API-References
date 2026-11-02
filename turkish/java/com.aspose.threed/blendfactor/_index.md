@@ -18,19 +18,19 @@ Karışım faktörü piksel aritmetiğini belirtir.
 
 | Alan | Açıklama |
 | --- | --- |
-| [CONSTANT_ALPHA](#CONSTANT-ALPHA) | Karıştırma faktörü vec4(c.a) şeklindedir, c ise [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir. |
-| [CONSTANT_COLOR](#CONSTANT-COLOR) | Karıştırma faktörü c'dir, c ise [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir. |
-| [DST_ALPHA](#DST-ALPHA) | Karıştırma faktörü vec4(dst.a) şeklindedir. |
-| [DST_COLOR](#DST-COLOR) | Karıştırma faktörü dst.rgba şeklindedir. |
-| [ONE](#ONE) | Karıştırma faktörü vec4(1) şeklindedir. |
-| [ONE_MINUS_CONSTANT_ALPHA](#ONE-MINUS-CONSTANT-ALPHA) | Karıştırma faktörü vec4(1 - c.a) şeklindedir, c ise [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir. |
-| [ONE_MINUS_CONSTANT_COLOR](#ONE-MINUS-CONSTANT-COLOR) | Karıştırma faktörü vec4(1) - c şeklindedir, c ise [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir. |
-| [ONE_MINUS_DST_ALPHA](#ONE-MINUS-DST-ALPHA) | Karıştırma faktörü vec4(1 - dst.a) şeklindedir. |
-| [ONE_MINUS_DST_COLOR](#ONE-MINUS-DST-COLOR) | Karıştırma faktörü vec4(1) - dst.rgba şeklindedir. |
-| [ONE_MINUS_SRC_ALPHA](#ONE-MINUS-SRC-ALPHA) | Karıştırma faktörü vec4(1 - src.a) şeklindedir. |
-| [ONE_MINUS_SRC_COLOR](#ONE-MINUS-SRC-COLOR) | Karıştırma faktörü vec4(1) - src.rgba şeklindedir. |
-| [SRC_ALPHA](#SRC-ALPHA) | Karıştırma faktörü vec4(src.a) şeklindedir. |
-| [SRC_ALPHA_SATURATE](#SRC-ALPHA-SATURATE) | Karıştırma faktörü min(src.a, 1 - dst.a) şeklindedir. |
+| [CONSTANT_ALPHA](#CONSTANT-ALPHA) | Blend faktörü vec4(c.a) dir, burada c [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir. |
+| [CONSTANT_COLOR](#CONSTANT-COLOR) | Blend faktörü c dir, burada c [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir. |
+| [DST_ALPHA](#DST-ALPHA) | Blend faktörü vec4(dst.a) dir. |
+| [DST_COLOR](#DST-COLOR) | Blend faktörü dst.rgba dir. |
+| [ONE](#ONE) | Blend faktörü vec4(1) dir. |
+| [ONE_MINUS_CONSTANT_ALPHA](#ONE-MINUS-CONSTANT-ALPHA) | Blend faktörü vec4(1 - c.a) dir, burada c [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir. |
+| [ONE_MINUS_CONSTANT_COLOR](#ONE-MINUS-CONSTANT-COLOR) | Blend faktörü vec4(1) - c dir, burada c [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir. |
+| [ONE_MINUS_DST_ALPHA](#ONE-MINUS-DST-ALPHA) | Blend faktörü vec4(1 - dst.a) dir. |
+| [ONE_MINUS_DST_COLOR](#ONE-MINUS-DST-COLOR) | Blend faktörü vec4(1) - dst.rgba dir. |
+| [ONE_MINUS_SRC_ALPHA](#ONE-MINUS-SRC-ALPHA) | Blend faktörü vec4(1 - src.a) dir. |
+| [ONE_MINUS_SRC_COLOR](#ONE-MINUS-SRC-COLOR) | Blend faktörü vec4(1) - src.rgba dir. |
+| [SRC_ALPHA](#SRC-ALPHA) | Blend faktörü vec4(src.a) dir. |
+| [SRC_ALPHA_SATURATE](#SRC-ALPHA-SATURATE) | Blend faktörü min(src.a, 1 - dst.a) dir. |
 | [SRC_COLOR](#SRC-COLOR) | Karışım faktörü src.rgba'dir |
 | [ZERO](#ZERO) | Karışım faktörü vec4(0)'dır |
 ## Yöntemler
@@ -60,7 +60,7 @@ public static final BlendFactor CONSTANT_ALPHA
 ```
 
 
-Karıştırma faktörü vec4(c.a) şeklindedir, c ise [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir.
+Blend faktörü vec4(c.a) dir, burada c [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir.
 
 ### CONSTANT_COLOR {#CONSTANT-COLOR}
 ```
@@ -68,7 +68,7 @@ public static final BlendFactor CONSTANT_COLOR
 ```
 
 
-Karıştırma faktörü c'dir, c ise [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir.
+Blend faktörü c dir, burada c [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir.
 
 ### DST_ALPHA {#DST-ALPHA}
 ```
@@ -76,7 +76,7 @@ public static final BlendFactor DST_ALPHA
 ```
 
 
-Karıştırma faktörü vec4(dst.a) şeklindedir.
+Blend faktörü vec4(dst.a) dir.
 
 ### DST_COLOR {#DST-COLOR}
 ```
@@ -84,7 +84,7 @@ public static final BlendFactor DST_COLOR
 ```
 
 
-Karıştırma faktörü dst.rgba şeklindedir.
+Blend faktörü dst.rgba dir.
 
 ### ONE {#ONE}
 ```
@@ -92,7 +92,7 @@ public static final BlendFactor ONE
 ```
 
 
-Karıştırma faktörü vec4(1) şeklindedir.
+Blend faktörü vec4(1) dir.
 
 ### ONE_MINUS_CONSTANT_ALPHA {#ONE-MINUS-CONSTANT-ALPHA}
 ```
@@ -100,7 +100,7 @@ public static final BlendFactor ONE_MINUS_CONSTANT_ALPHA
 ```
 
 
-Karıştırma faktörü vec4(1 - c.a) şeklindedir, c ise [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir.
+Blend faktörü vec4(1 - c.a) dir, burada c [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir.
 
 ### ONE_MINUS_CONSTANT_COLOR {#ONE-MINUS-CONSTANT-COLOR}
 ```
@@ -108,7 +108,7 @@ public static final BlendFactor ONE_MINUS_CONSTANT_COLOR
 ```
 
 
-Karıştırma faktörü vec4(1) - c şeklindedir, c ise [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir.
+Blend faktörü vec4(1) - c dir, burada c [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) içinde belirtilir.
 
 ### ONE_MINUS_DST_ALPHA {#ONE-MINUS-DST-ALPHA}
 ```
@@ -116,7 +116,7 @@ public static final BlendFactor ONE_MINUS_DST_ALPHA
 ```
 
 
-Karıştırma faktörü vec4(1 - dst.a) şeklindedir.
+Blend faktörü vec4(1 - dst.a) dir.
 
 ### ONE_MINUS_DST_COLOR {#ONE-MINUS-DST-COLOR}
 ```
@@ -124,7 +124,7 @@ public static final BlendFactor ONE_MINUS_DST_COLOR
 ```
 
 
-Karıştırma faktörü vec4(1) - dst.rgba şeklindedir.
+Blend faktörü vec4(1) - dst.rgba dir.
 
 ### ONE_MINUS_SRC_ALPHA {#ONE-MINUS-SRC-ALPHA}
 ```
@@ -132,7 +132,7 @@ public static final BlendFactor ONE_MINUS_SRC_ALPHA
 ```
 
 
-Karıştırma faktörü vec4(1 - src.a) şeklindedir.
+Blend faktörü vec4(1 - src.a) dir.
 
 ### ONE_MINUS_SRC_COLOR {#ONE-MINUS-SRC-COLOR}
 ```
@@ -140,7 +140,7 @@ public static final BlendFactor ONE_MINUS_SRC_COLOR
 ```
 
 
-Karıştırma faktörü vec4(1) - src.rgba şeklindedir.
+Blend faktörü vec4(1) - src.rgba dir.
 
 ### SRC_ALPHA {#SRC-ALPHA}
 ```
@@ -148,7 +148,7 @@ public static final BlendFactor SRC_ALPHA
 ```
 
 
-Karıştırma faktörü vec4(src.a) şeklindedir.
+Blend faktörü vec4(src.a) dir.
 
 ### SRC_ALPHA_SATURATE {#SRC-ALPHA-SATURATE}
 ```
@@ -156,7 +156,7 @@ public static final BlendFactor SRC_ALPHA_SATURATE
 ```
 
 
-Karıştırma faktörü min(src.a, 1 - dst.a) şeklindedir.
+Blend faktörü min(src.a, 1 - dst.a) dir.
 
 ### SRC_COLOR {#SRC-COLOR}
 ```

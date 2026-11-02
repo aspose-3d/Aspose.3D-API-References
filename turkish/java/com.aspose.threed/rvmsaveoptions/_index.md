@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class RvmSaveOptions extends SaveOptions
 ```
 
-Avea PDMS RVM dosyası için kaydetme seçenekleri. **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
+Aveva PDMS RVM dosyası için kaydetme seçenekleri. **Example:** Aşağıdaki kod, RVM'de özelliği dışa aktarmanın nasıl yapılacağını gösterir.
 
 ```
 Scene scene = new Scene();
@@ -34,23 +34,23 @@ Scene scene = new Scene();
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [RvmSaveOptions()](#RvmSaveOptions--) | [RvmSaveOptions](../../com.aspose.threed/rvmsaveoptions) yapıcı metodu |
-| [RvmSaveOptions(FileContentType contentType)](#RvmSaveOptions-com.aspose.threed.FileContentType-) | [RvmSaveOptions](../../com.aspose.threed/rvmsaveoptions) yapıcı metodu |
+| [RvmSaveOptions()](#RvmSaveOptions--) | [RvmSaveOptions](../../com.aspose.threed/rvmsaveoptions) yapıcısı |
+| [RvmSaveOptions(FileContentType contentType)](#RvmSaveOptions-com.aspose.threed.FileContentType-) | [RvmSaveOptions](../../com.aspose.threed/rvmsaveoptions) yapıcısı |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttributeListFile()](#getAttributeListFile--) | Özellik listesi dosyasının dosya adını alır, bu özellik tanımsız olduğunda dışa aktarıcı .rvm dosya adına dayanarak bir ad oluşturur, varsayılan değer null'dır. |
+| [getAttributeListFile()](#getAttributeListFile--) | Özellik listesi dosyasının dosya adını alır; dışa aktarıcı bu özellik tanımsız olduğunda .rvm dosya adına göre bir ad oluşturur, varsayılan değer null'dır. |
 | [getAttributePrefix()](#getAttributePrefix--) | Dışa aktarılacak özelliklerin önekini alır, dışa aktarılan özellik önek içermez, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'dır. |
 | [getAuthor()](#getAuthor--) | Yazar bilgisi, varsayılan değer '3d@aspose' |
 | [getClass()](#getClass--) |  |
-| [getCreationTime()](#getCreationTime--) | Bu dosyayı dışa aktaran zaman damgası, varsayılan değer geçerli zaman |
+| [getCreationTime()](#getCreationTime--) | Bu dosyayı dışa aktaran zaman damgası, varsayılan değer şu anki zaman |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
-| [getExportAttributes()](#getExportAttributes--) | Özellik listesini harici bir .att dosyasına dışa aktarılıp aktarılmayacağını alır, varsayılan değer false. |
-| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
+| [getExportAttributes()](#getExportAttributes--) | Özellik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağını alır, varsayılan değer false. |
+| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileNote()](#getFileNote--) | Dosya başlığındaki dosya notu. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
@@ -59,13 +59,13 @@ Scene scene = new Scene();
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAttributeListFile(String value)](#setAttributeListFile-java.lang.String-) | Özellik listesi dosyasının dosya adını ayarlar, bu özellik tanımlı değilse dışa aktarıcı .rvm dosya adına göre bir ad oluşturur, varsayılan değer null. |
-| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | Dışa aktarılacak özelliklerin önekini ayarlar, dışa aktarılan özellik öneksiz olur, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'. |
+| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | Dışa aktarılacak özelliklerin önekini ayarlar, dışa aktarılan özellik önek içermez, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'. |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | Yazar bilgisi, varsayılan değer '3d@aspose' |
-| [setCreationTime(String value)](#setCreationTime-java.lang.String-) | Bu dosyayı dışa aktaran zaman damgası, varsayılan değer geçerli zaman |
+| [setCreationTime(String value)](#setCreationTime-java.lang.String-) | Bu dosyayı dışa aktaran zaman damgası, varsayılan değer şu anki zaman |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setExportAttributes(boolean value)](#setExportAttributes-boolean-) | Özellik listesini harici bir .att dosyasına dışa aktarılıp aktarılmayacağını ayarlar, varsayılan değer false. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setExportAttributes(boolean value)](#setExportAttributes-boolean-) | Özellik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağını ayarlar, varsayılan değer false. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileNote(String value)](#setFileNote-java.lang.String-) | Dosya başlığındaki dosya notu. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
@@ -80,7 +80,7 @@ public RvmSaveOptions()
 ```
 
 
-[RvmSaveOptions](../../com.aspose.threed/rvmsaveoptions) yapıcı metodu
+[RvmSaveOptions](../../com.aspose.threed/rvmsaveoptions) yapıcısı
 
 ### RvmSaveOptions(FileContentType contentType) {#RvmSaveOptions-com.aspose.threed.FileContentType-}
 ```
@@ -88,7 +88,7 @@ public RvmSaveOptions(FileContentType contentType)
 ```
 
 
-[RvmSaveOptions](../../com.aspose.threed/rvmsaveoptions) yapıcı metodu
+[RvmSaveOptions](../../com.aspose.threed/rvmsaveoptions) yapıcısı
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -116,10 +116,10 @@ public String getAttributeListFile()
 ```
 
 
-Özellik listesi dosyasının dosya adını alır, bu özellik tanımsız olduğunda dışa aktarıcı .rvm dosya adına dayanarak bir ad oluşturur, varsayılan değer null'dır.
+Özellik listesi dosyasının dosya adını alır; dışa aktarıcı bu özellik tanımsız olduğunda .rvm dosya adına göre bir ad oluşturur, varsayılan değer null'dır.
 
 **Returns:**
-java.lang.String - özellik listesi dosyasının dosya adı, bu özellik tanımlı değilse dışa aktarıcı .rvm dosya adına göre bir ad oluşturur, varsayılan değer null. **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
+java.lang.String - özellik listesi dosyasının dosya adı, bu özellik tanımlı değilse dışa aktarıcı .rvm dosya adına göre bir ad oluşturur, varsayılan değer null. **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
 
 ```
 Scene scene = new Scene();
@@ -142,10 +142,10 @@ public String getAttributePrefix()
 ```
 
 
-Dışa aktarılacak özelliklerin önekini alır, dışa aktarılan özellik öneksiz olur, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'. Örneğin bir özellik rvm:Refno=345 ise, dışa aktarılan özellik Refno = 345 olur, önek kaldırılır.
+Dışa aktarılacak özelliklerin önekini alır, dışa aktarılan özellik önek içermez, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'. Örneğin bir özellik rvm:Refno=345 ise, dışa aktarılan özellik Refno = 345 olur, önek kaldırılır.
 
 **Returns:**
-java.lang.String - dışa aktarılacak özelliklerin önekini, dışa aktarılan özellik öneksiz olur, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'. Örneğin bir özellik rvm:Refno=345 ise, dışa aktarılan özellik Refno = 345 olur, önek kaldırılır. **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
+java.lang.String - dışa aktarılacak özelliklerin öneki, dışa aktarılan özellik önek içermez, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'. Örneğin bir özellik rvm:Refno=345 ise, dışa aktarılan özellik Refno = 345 olur, önek kaldırılır. **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
 
 ```
 Scene scene = new Scene();
@@ -171,7 +171,7 @@ public String getAuthor()
 Yazar bilgisi, varsayılan değer '3d@aspose'
 
 **Returns:**
-java.lang.String - Yazar bilgisi, varsayılan değer '3d@aspose' **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
+java.lang.String - Yazar bilgisi, varsayılan değer '3d@aspose' **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
 
 ```
 Scene scene = new Scene();
@@ -204,30 +204,30 @@ public String getCreationTime()
 ```
 
 
-Bu dosyayı dışa aktaran zaman damgası, varsayılan değer geçerli zaman
+Bu dosyayı dışa aktaran zaman damgası, varsayılan değer şu anki zaman
 
 **Returns:**
-java.lang.String - Bu dosyayı dışa aktaran zaman damgası, varsayılan değer geçerli zaman
+java.lang.String - Bu dosyayı dışa aktaran zaman damgası, varsayılan değer şu anki zaman
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getExportAttributes() {#getExportAttributes--}
 ```
 public boolean getExportAttributes()
 ```
 
 
-Özellik listesini harici bir .att dosyasına dışa aktarılıp aktarılmayacağını alır, varsayılan değer false.
+Özellik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağını alır, varsayılan değer false.
 
 **Returns:**
-boolean - özellik listesini harici bir .att dosyasına dışa aktarılıp aktarılmayacağını, varsayılan değer false. **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
+boolean - özellik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağı, varsayılan değer false. **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
 
 ```
 Scene scene = new Scene();
@@ -250,10 +250,10 @@ public boolean getExportTextures()
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Returns:**
-boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
+boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -270,10 +270,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileNote() {#getFileNote--}
 ```
 public String getFileNote()
@@ -283,7 +283,7 @@ public String getFileNote()
 Dosya başlığındaki dosya notu.
 
 **Returns:**
-java.lang.String - Dosya başlığındaki dosya notu. **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
+java.lang.String - Dosya başlığındaki dosya notu. **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir.
 
 ```
 Scene scene = new Scene();
@@ -372,7 +372,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -418,7 +418,7 @@ public void setAttributeListFile(String value)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.lang.String | Yeni değer **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
+|  | değer | java.lang.String | Yeni değer **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
 
 ```
 Scene scene = new Scene();
@@ -442,12 +442,12 @@ public void setAttributePrefix(String value)
 ```
 
 
-Dışa aktarılacak özelliklerin önekini ayarlar, dışa aktarılan özellik öneksiz olur, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'. Örneğin bir özellik rvm:Refno=345 ise, dışa aktarılan özellik Refno = 345 olur, önek kaldırılır.
+Dışa aktarılacak özelliklerin önekini ayarlar, dışa aktarılan özellik önek içermez, farklı önekli özel özellikler dışa aktarılmaz, varsayılan değer 'rvm:'. Örneğin bir özellik rvm:Refno=345 ise, dışa aktarılan özellik Refno = 345 olur, önek kaldırılır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.lang.String | Yeni değer **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
+|  | değer | java.lang.String | Yeni değer **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
 
 ```
 Scene scene = new Scene();
@@ -476,7 +476,7 @@ Yazar bilgisi, varsayılan değer '3d@aspose'
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.lang.String | Yeni değer **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
+|  | değer | java.lang.String | Yeni değer **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
 
 ```
 Scene scene = new Scene();
@@ -500,7 +500,7 @@ public void setCreationTime(String value)
 ```
 
 
-Bu dosyayı dışa aktaran zaman damgası, varsayılan değer geçerli zaman
+Bu dosyayı dışa aktaran zaman damgası, varsayılan değer şu anki zaman
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -513,7 +513,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -526,12 +526,12 @@ public void setExportAttributes(boolean value)
 ```
 
 
-Özellik listesini harici bir .att dosyasına dışa aktarılıp aktarılmayacağını ayarlar, varsayılan değer false.
+Özellik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağını ayarlar, varsayılan değer false.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | boolean | Yeni değer **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
+|  | değer | boolean | Yeni değer **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
 
 ```
 Scene scene = new Scene();
@@ -555,7 +555,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -568,7 +568,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -586,7 +586,7 @@ Dosya başlığındaki dosya notu.
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.lang.String | Yeni değer **Örnek:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
+|  | değer | java.lang.String | Yeni değer **Example:** Aşağıdaki kod, RVM'de özelliğin nasıl dışa aktarılacağını gösterir. |
 
 ```
 Scene scene = new Scene();
@@ -615,7 +615,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -652,7 +652,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -684,7 +684,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();

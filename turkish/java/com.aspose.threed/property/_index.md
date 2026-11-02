@@ -27,20 +27,20 @@ Meta verinin sınıflarındaki özellik tanımı
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Sabit boyutlu dizi için veri sayısı. |
+| [getCount()](#getCount--) | Sabit boyutlu dizi için verinin sayısı. |
 | [getDescription()](#getDescription--) | Özelliğin açıklaması |
-| [getDisplayName()](#getDisplayName--) | Özelliğin adı, UI tarafından temsil için kullanılır. |
-| [getEnumType()](#getEnumType--) | Enum tipi |
+| [getDisplayName()](#getDisplayName--) | Kullanıcı arayüzü tarafından gösterim için kullanılan özelliğin adı. |
+| [getEnumType()](#getEnumType--) | Enum türü |
 | [getName()](#getName--) | Özelliğin benzersiz adı |
 | [getNormalized()](#getNormalized--) | Veri normalleştirilmiş mi. |
 | [getType()](#getType--) | Özelliğin veri tipi |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCount(Integer value)](#setCount-java.lang.Integer-) | Sabit boyutlu dizi için veri sayısı. |
+| [setCount(Integer value)](#setCount-java.lang.Integer-) | Sabit boyutlu dizi için verinin sayısı. |
 | [setDescription(String value)](#setDescription-java.lang.String-) | Özelliğin açıklaması |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Özelliğin adı, UI tarafından temsil için kullanılır. |
-| [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | Enum tipi |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Kullanıcı arayüzü tarafından gösterim için kullanılan özelliğin adı. |
+| [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | Enum türü |
 | [setNormalized(boolean value)](#setNormalized-boolean-) | Veri normalleştirilmiş mi. |
 | [toString()](#toString--) | Bu örneğin string temsilini alır. |
 | [wait()](#wait--) |  |
@@ -58,11 +58,11 @@ Meta verinin özelliğinin yapıcı yöntemi
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | ad | java.lang.String | Özelliğin benzersiz adı |
-| displayName | java.lang.String | Özelliğin adı, UI tarafından temsil için kullanılır. |
+| displayName | java.lang.String | Kullanıcı arayüzü tarafından gösterim için kullanılan özelliğin adı. |
 | description | java.lang.String | Özelliğin açıklaması |
 | type | java.lang.Class<?> | Özelliğin veri tipi |
 | normalized | boolean | Veri normalleştirilmiş mi |
-| sayım | java.lang.Integer | Sabit boyutlu dizi için verinin sayısı |
+| say | java.lang.Integer | Sabit boyutlu dizi için veri sayısı |
 
 ### Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count) {#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-}
 ```
@@ -76,11 +76,11 @@ Meta verinin özelliğinin yapıcı yöntemi
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | ad | java.lang.String | Özelliğin benzersiz adı |
-| displayName | java.lang.String | Özelliğin adı, UI tarafından temsil için kullanılır. |
+| displayName | java.lang.String | Kullanıcı arayüzü tarafından gösterim için kullanılan özelliğin adı. |
 | description | java.lang.String | Özelliğin açıklaması |
 | type | [EnumType](../../com.aspose.threed/enumtype) | Özelliğin veri tipi |
 | dizi | boolean | Her özellik değeri dizi mi yoksa skaler mi |
-| sayım | java.lang.Integer | Sabit boyutlu dizi için verinin sayısı |
+| say | java.lang.Integer | Sabit boyutlu dizi için veri sayısı |
 
 ### Property(String name, Class<?> type) {#Property-java.lang.String-java.lang.Class----}
 ```
@@ -127,10 +127,10 @@ public Integer getCount()
 ```
 
 
-Sabit boyutlu dizi için veri sayısı.
+Sabit boyutlu dizi için verinin sayısı.
 
 **Returns:**
-java.lang.Integer - Sabit boyutlu dizi için verinin sayısı.
+java.lang.Integer - Sabit boyutlu dizi için veri sayısı.
 ### getDescription() {#getDescription--}
 ```
 public String getDescription()
@@ -147,7 +147,7 @@ public String getDisplayName()
 ```
 
 
-Özelliğin adı, UI tarafından temsil için kullanılır.
+Kullanıcı arayüzü tarafından gösterim için kullanılan özelliğin adı.
 
 **Returns:**
 java.lang.String - Özelliğin adı, UI tarafından temsil için kullanılır.
@@ -157,7 +157,7 @@ public StructuralMetadata.EnumType getEnumType()
 ```
 
 
-Enum tipi
+Enum türü
 
 **Returns:**
 [EnumType](../../com.aspose.threed/enumtype) - The enum type
@@ -180,7 +180,7 @@ public boolean getNormalized()
 Veri normalleştirilmiş mi.
 
 **Returns:**
-boolean - Verinin normalleştirilip normalleştirilmediği.
+boolean - Veri normalleştirilmiş mi.
 ### getType() {#getType--}
 ```
 public Class<?> getType()
@@ -223,7 +223,7 @@ public void setCount(Integer value)
 ```
 
 
-Sabit boyutlu dizi için veri sayısı.
+Sabit boyutlu dizi için verinin sayısı.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -249,7 +249,7 @@ public void setDisplayName(String value)
 ```
 
 
-Özelliğin adı, UI tarafından temsil için kullanılır.
+Kullanıcı arayüzü tarafından gösterim için kullanılan özelliğin adı.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -262,7 +262,7 @@ public void setEnumType(StructuralMetadata.EnumType value)
 ```
 
 
-Enum tipi
+Enum türü
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

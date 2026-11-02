@@ -32,11 +32,11 @@ var mat = new LambertMaterial();
 
 | Alan | Açıklama |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | Ortam doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | Difüz doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | Emisyon doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_NORMAL](#MAP-NORMAL) | Normal doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_SPECULAR](#MAP-SPECULAR) | Yansıtıcı doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_AMBIENT](#MAP-AMBIENT) | Ambient doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | Diffuse doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | Emissive doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_NORMAL](#MAP-NORMAL) | Normal doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_SPECULAR](#MAP-SPECULAR) | Specular doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -46,18 +46,18 @@ var mat = new LambertMaterial();
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Dahili doku yuvalarını yinelemek için enumeratörü alır. |
+| [iterator()](#iterator--) | Dahili doku yuvalarını yinelemek için yineleyiciyi alır. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Dokuyu belirtilen yuvaya ayarlar |
-| [toString()](#toString--) | Nesneyi dizeye dönüştürür |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Dokuyu belirtilen yuvaya ayarlar. |
+| [toString()](#toString--) | Nesneyi dizeye biçimlendir |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -67,7 +67,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-Ortam doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Ambient doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -75,7 +75,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-Difüz doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Diffuse doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -83,7 +83,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-Emisyon doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Emissive doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -91,7 +91,7 @@ public static final String MAP_NORMAL
 ```
 
 
-Normal doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Normal doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -99,7 +99,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-Yansıtıcı doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Specular doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -122,7 +122,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -167,7 +167,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -182,7 +182,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir
+Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -215,7 +215,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-Dahili doku yuvalarını yinelemek için enumeratörü alır.
+Dahili doku yuvalarını yinelemek için yineleyiciyi alır.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -256,7 +256,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -284,7 +284,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -298,7 +298,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-Dokuyu belirtilen yuvaya ayarlar
+Dokuyu belirtilen yuvaya ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -319,7 +319,7 @@ public String toString()
 ```
 
 
-Nesneyi dizeye dönüştürür
+Nesneyi dizeye biçimlendir
 
 **Returns:**
 java.lang.String - Nesne dizesi

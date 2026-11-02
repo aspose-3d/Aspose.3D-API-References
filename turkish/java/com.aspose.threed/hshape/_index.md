@@ -1,7 +1,7 @@
 ---
 title: "HShape"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bu, H veya I şeklinin tanımlayıcı parametrelerini sağlar."
+description: "Bu, bir H veya I şeklinin tanımlayıcı parametrelerini sağlar."
 type: docs
 weight: 76
 url: /tr/java/com.aspose.threed/hshape/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class HShape extends ParameterizedProfile
 ```
 
-Bu [HShape](../../com.aspose.threed/hshape), 'H' veya 'I' şeklinin tanımlayıcı parametrelerini sağlar.
+Bu [HShape](../../com.aspose.threed/hshape) bir 'H' veya 'I' şeklinin tanımlayıcı parametrelerini sağlar.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -26,45 +26,45 @@ Bu [HShape](../../com.aspose.threed/hshape), 'H' veya 'I' şeklinin tanımlayıc
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
 | [getBottomFlangeEdgeRadius()](#getBottomFlangeEdgeRadius--) | Alt flanşın üst kenarlarının yarıçapını alır. |
-| [getBottomFlangeFilletRadius()](#getBottomFlangeFilletRadius--) | Web ile alt flanş arasındaki köşe yuvarlama yarıçapını alır. |
+| [getBottomFlangeFilletRadius()](#getBottomFlangeFilletRadius--) | Web ile alt flanş arasındaki köşe yuvarlatma yarıçapını alır. |
 | [getBottomFlangeThickness()](#getBottomFlangeThickness--) | H-şeklinin flanş kalınlığını alır. |
 | [getBottomFlangeWidth()](#getBottomFlangeWidth--) | Genişliğin kapsamını alır. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getExtent()](#getExtent--) | x ve y boyutundaki genişliği alır. |
 | [getName()](#getName--) | Adı alır. |
 | [getOverallDepth()](#getOverallDepth--) | Derinliğin kapsamını alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [getTopFlangeEdgeRadius()](#getTopFlangeEdgeRadius--) | Üst flanşın alt kenarlarının yarıçapını alır. |
-| [getTopFlangeFilletRadius()](#getTopFlangeFilletRadius--) | Web ile üst flanş arasındaki köşe yuvarlama yarıçapını alır. |
+| [getTopFlangeFilletRadius()](#getTopFlangeFilletRadius--) | Web ile üst flanş arasındaki köşe yuvarlatma yarıçapını alır. |
 | [getTopFlangeThickness()](#getTopFlangeThickness--) | Üst flanşın kalınlığını alır. |
 | [getTopFlangeWidth()](#getTopFlangeWidth--) | Üst flanşın genişliğini alır. |
-| [getWebThickness()](#getWebThickness--) | H-şeklinin web kalınlığını alır. |
+| [getWebThickness()](#getWebThickness--) | H-şeklinin webinin kalınlığını alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setBottomFlangeEdgeRadius(double value)](#setBottomFlangeEdgeRadius-double-) | Alt flanşın üst kenarlarının yarıçapını ayarlar. |
-| [setBottomFlangeFilletRadius(double value)](#setBottomFlangeFilletRadius-double-) | Web ile alt flanş arasındaki köşe yuvarlama yarıçapını ayarlar. |
+| [setBottomFlangeFilletRadius(double value)](#setBottomFlangeFilletRadius-double-) | Web ile alt flanş arasındaki köşe yuvarlatma yarıçapını ayarlar. |
 | [setBottomFlangeThickness(double value)](#setBottomFlangeThickness-double-) | H-şeklinin flanş kalınlığını ayarlar. |
 | [setBottomFlangeWidth(double value)](#setBottomFlangeWidth-double-) | Genişliğin kapsamını ayarlar. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
 | [setOverallDepth(double value)](#setOverallDepth-double-) | Derinliğin kapsamını ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setTopFlangeEdgeRadius(double value)](#setTopFlangeEdgeRadius-double-) | Üst flanşın alt kenarlarının yarıçapını ayarlar. |
-| [setTopFlangeFilletRadius(double value)](#setTopFlangeFilletRadius-double-) | Web ile üst flanş arasındaki köşe yuvarlama yarıçapını ayarlar. |
+| [setTopFlangeFilletRadius(double value)](#setTopFlangeFilletRadius-double-) | Web ile üst flanş arasındaki köşe yuvarlatma yarıçapını ayarlar. |
 | [setTopFlangeThickness(double value)](#setTopFlangeThickness-double-) | Üst flanşın kalınlığını ayarlar. |
 | [setTopFlangeWidth(double value)](#setTopFlangeWidth-double-) | Üst flanşın genişliğini ayarlar. |
-| [setWebThickness(double value)](#setWebThickness-double-) | H-şeklinin web kalınlığını ayarlar. |
+| [setWebThickness(double value)](#setWebThickness-double-) | H-şeklinin webinin kalınlığını ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -123,10 +123,10 @@ public double getBottomFlangeFilletRadius()
 ```
 
 
-Web ile alt flanş arasındaki köşe yuvarlama yarıçapını alır.
+Web ile alt flanş arasındaki köşe yuvarlatma yarıçapını alır.
 
 **Returns:**
-double - web ile alt flanş arasındaki köşe yuvarlama yarıçapı.
+double - web ile alt flanş arasındaki köşe yuvarlatma yarıçapı.
 ### getBottomFlangeThickness() {#getBottomFlangeThickness--}
 ```
 public double getBottomFlangeThickness()
@@ -153,7 +153,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -180,7 +180,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -190,7 +190,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -230,7 +230,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -240,7 +240,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -260,7 +260,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -275,7 +275,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -295,10 +295,10 @@ public double getTopFlangeFilletRadius()
 ```
 
 
-Web ile üst flanş arasındaki köşe yuvarlama yarıçapını alır.
+Web ile üst flanş arasındaki köşe yuvarlatma yarıçapını alır.
 
 **Returns:**
-double - web ile üst kanat arasındaki yuvarlama yarıçapı.
+double - web ile üst flanş arasındaki yuvarlama yarıçapı.
 ### getTopFlangeThickness() {#getTopFlangeThickness--}
 ```
 public double getTopFlangeThickness()
@@ -308,7 +308,7 @@ public double getTopFlangeThickness()
 Üst flanşın kalınlığını alır.
 
 **Returns:**
-double - üst kanadın kalınlığı.
+double - üst flanşın kalınlığı.
 ### getTopFlangeWidth() {#getTopFlangeWidth--}
 ```
 public double getTopFlangeWidth()
@@ -318,17 +318,17 @@ public double getTopFlangeWidth()
 Üst flanşın genişliğini alır.
 
 **Returns:**
-double - üst kanadın genişliği.
+double - üst flanşın genişliği.
 ### getWebThickness() {#getWebThickness--}
 ```
 public double getWebThickness()
 ```
 
 
-H-şeklinin web kalınlığını alır.
+H-şeklinin webinin kalınlığını alır.
 
 **Returns:**
-double - H-şeklindeki web'in kalınlığı.
+double - H-şeklinin web kalınlığı.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -376,7 +376,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -404,7 +404,7 @@ public void setBottomFlangeFilletRadius(double value)
 ```
 
 
-Web ile alt flanş arasındaki köşe yuvarlama yarıçapını ayarlar.
+Web ile alt flanş arasındaki köşe yuvarlatma yarıçapını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -482,7 +482,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -495,7 +495,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -522,7 +522,7 @@ public void setTopFlangeFilletRadius(double value)
 ```
 
 
-Web ile üst flanş arasındaki köşe yuvarlama yarıçapını ayarlar.
+Web ile üst flanş arasındaki köşe yuvarlatma yarıçapını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -561,7 +561,7 @@ public void setWebThickness(double value)
 ```
 
 
-H-şeklinin web kalınlığını ayarlar.
+H-şeklinin webinin kalınlığını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

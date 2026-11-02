@@ -1,7 +1,7 @@
 ---
 title: "EntityRendererFeatures"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Varlık renderlayıcısının sağlayacağı ekstra özellikler"
+description: "Varlık renderleyicisinin sağlayacağı ekstra özellikler"
 type: docs
 weight: 54
 url: /tr/java/com.aspose.threed/entityrendererfeatures/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class EntityRendererFeatures
 ```
 
-Varlık renderlayıcısının sağlayacağı ekstra özellikler
+Varlık renderleyicisinin sağlayacağı ekstra özellikler
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -23,10 +23,10 @@ Varlık renderlayıcısının sağlayacağı ekstra özellikler
 
 | Alan | Açıklama |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Ek özellik yok |
-| [FRAME_BEGIN](#FRAME-BEGIN) | Bu [EntityRenderer](../../com.aspose.threed/entityrenderer) her sahne çerçevesini render etmeden önce FrameBegin geri çağrısını izleyecek. |
-| [FRAME_END](#FRAME-END) | Bu [EntityRenderer](../../com.aspose.threed/entityrenderer) her sahne çerçevesini render ettikten sonra FrameBegin geri çağrısını izleyecek. |
-| [SHADOWMAP](#SHADOWMAP) | Bu renderlayıcı gölge haritası modunda çalışabilir. |
+| [DEFAULT](#DEFAULT) | Ekstra özellik yok |
+| [FRAME_BEGIN](#FRAME-BEGIN) | Bu [EntityRenderer](../../com.aspose.threed/entityrenderer) her sahne çerçevesini render etmeden önce FrameBegin geri çağrısını izleyecektir |
+| [FRAME_END](#FRAME-END) | Bu [EntityRenderer](../../com.aspose.threed/entityrenderer) her sahne çerçevesini render ettikten sonra FrameBegin geri çağrısını izleyecektir |
+| [SHADOWMAP](#SHADOWMAP) | Bu renderlayıcı gölge haritası modunda çalışabilir |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -52,7 +52,7 @@ public static final byte DEFAULT
 ```
 
 
-Ek özellik yok
+Ekstra özellik yok
 
 ### FRAME_BEGIN {#FRAME-BEGIN}
 ```
@@ -60,7 +60,7 @@ public static final byte FRAME_BEGIN
 ```
 
 
-Bu [EntityRenderer](../../com.aspose.threed/entityrenderer) her sahne çerçevesini render etmeden önce FrameBegin geri çağrısını izleyecek.
+Bu [EntityRenderer](../../com.aspose.threed/entityrenderer) her sahne çerçevesini render etmeden önce FrameBegin geri çağrısını izleyecektir
 
 ### FRAME_END {#FRAME-END}
 ```
@@ -68,7 +68,7 @@ public static final byte FRAME_END
 ```
 
 
-Bu [EntityRenderer](../../com.aspose.threed/entityrenderer) her sahne çerçevesini render ettikten sonra FrameBegin geri çağrısını izleyecek.
+Bu [EntityRenderer](../../com.aspose.threed/entityrenderer) her sahne çerçevesini render ettikten sonra FrameBegin geri çağrısını izleyecektir
 
 ### SHADOWMAP {#SHADOWMAP}
 ```
@@ -76,7 +76,7 @@ public static final byte SHADOWMAP
 ```
 
 
-Bu renderlayıcı gölge haritası modunda çalışabilir.
+Bu renderlayıcı gölge haritası modunda çalışabilir
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

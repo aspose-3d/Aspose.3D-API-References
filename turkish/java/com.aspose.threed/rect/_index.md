@@ -21,7 +21,7 @@ Dikdörtgeni temsil eden bir sınıf
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | [Rect](../../com.aspose.threed/rect) sınıfının yapıcısı |
+| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | [Rect](../../com.aspose.threed/rect) sınıfının yapıcı metodu |
 | [Rect()](#Rect--) |  |
 ## Yöntemler
 
@@ -31,12 +31,12 @@ Dikdörtgeni temsil eden bir sınıf
 | [contains(int x, int y)](#contains-int-int-) | Verilen nokta dikdörtgenin içinde ise true döndür. |
 | [copyFrom(Rect src)](#copyFrom-com.aspose.threed.Rect-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getBottom()](#getBottom--) | Dikdörtgenin alt kenarını alır |
+| [getBottom()](#getBottom--) | Dikdörtgenin alt kısmını alır |
 | [getClass()](#getClass--) |  |
 | [getHeight()](#getHeight--) | Boyutun yüksekliğini alır |
-| [getLeft()](#getLeft--) | Dikdörtgenin sol kenarını alır |
-| [getRight()](#getRight--) | Dikdörtgenin sağ kenarını alır |
-| [getTop()](#getTop--) | Dikdörtgenin üst kenarını alır |
+| [getLeft()](#getLeft--) | Dikdörtgenin sol kısmını alır |
+| [getRight()](#getRight--) | Dikdörtgenin sağ kısmını alır |
+| [getTop()](#getTop--) | Dikdörtgenin üst kısmını alır |
 | [getWidth()](#getWidth--) | Boyutun genişliğini alır |
 | [getX()](#getX--) | Boyutun x değerini alır |
 | [getY()](#getY--) | Boyutun y değerini alır |
@@ -57,7 +57,7 @@ public Rect(int x, int y, int width, int height)
 ```
 
 
-[Rect](../../com.aspose.threed/rect) sınıfının yapıcısı
+[Rect](../../com.aspose.threed/rect) sınıfının yapıcı metodu
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -79,7 +79,7 @@ public Rect clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [Rect](../../com.aspose.threed/rect)
@@ -133,10 +133,10 @@ public int getBottom()
 ```
 
 
-Dikdörtgenin alt kenarını alır
+Dikdörtgenin alt kısmını alır
 
 **Returns:**
-int - dikdörtgenin alt kenarı
+int - dikdörtgenin alt kısmı
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -163,30 +163,30 @@ public int getLeft()
 ```
 
 
-Dikdörtgenin sol kenarını alır
+Dikdörtgenin sol kısmını alır
 
 **Returns:**
-int - dikdörtgenin sol kenarı
+int - dikdörtgenin sol kısmı
 ### getRight() {#getRight--}
 ```
 public int getRight()
 ```
 
 
-Dikdörtgenin sağ kenarını alır
+Dikdörtgenin sağ kısmını alır
 
 **Returns:**
-int - dikdörtgenin sağ kenarı
+int - dikdörtgenin sağ kısmı
 ### getTop() {#getTop--}
 ```
 public int getTop()
 ```
 
 
-Dikdörtgenin üst kenarını alır
+Dikdörtgenin üst kısmını alır
 
 **Returns:**
-int - dikdörtgenin üst kenarı
+int - dikdörtgenin üst kısmı
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()

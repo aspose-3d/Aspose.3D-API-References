@@ -1,7 +1,7 @@
 ---
 title: "StencilAction"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Stencil test eylemleri"
+description: "Şablon test eylemleri"
 type: docs
 weight: 303
 url: /tr/java/com.aspose.threed/stencilaction/
@@ -13,18 +13,18 @@ java.lang.Object, java.lang.Enum
 public enum StencilAction extends Enum<StencilAction>
 ```
 
-Stencil test eylemleri
+Şablon test eylemleri
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
-| [DECREMENT](#DECREMENT) | Mevcut stencil tampon değerini artırır, 0'a sınırlanır. |
-| [DECREMENT_WRAP](#DECREMENT-WRAP) | Mevcut stencil tampon değerini azaltır ve sıfıra ulaştığında maksimum değere sarar. |
-| [INCREMENT](#INCREMENT) | Mevcut stencil tampon değerini artırır, maksimum değere sınırlanır. |
-| [INCREMENT_WRAP](#INCREMENT-WRAP) | Mevcut stencil tampon değerini artırır ve maksimum değere ulaştığında sıfıra sarar. |
-| [INVERT](#INVERT) | Bit düzeyinde mevcut stencil tampon değerini tersine çevirir. |
+| [DECREMENT](#DECREMENT) | Mevcut şablon tampon değerini artırır, 0'a sınırlandırır. |
+| [DECREMENT_WRAP](#DECREMENT-WRAP) | Mevcut şablon tampon değerini azaltır ve sıfıra ulaştığında maksimum değere sarar. |
+| [INCREMENT](#INCREMENT) | Mevcut şablon tampon değerini artırır, maksimum değere sınırlandırır. |
+| [INCREMENT_WRAP](#INCREMENT-WRAP) | Mevcut şablon tampon değerini artırır ve maksimum değere ulaştığında sıfıra sarar. |
+| [INVERT](#INVERT) | Mevcut şablon tampon değerini bit düzeyinde tersine çevirir. |
 | [KEEP](#KEEP) | Mevcut değeri koru |
-| [REPLACE](#REPLACE) | Stencil tamponu, [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) içinde tanımlandığı gibi ref'e ayarlar. |
+| [REPLACE](#REPLACE) | Şablon tamponu, [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) içinde tanımlandığı gibi ref'e ayarlar. |
 | [ZERO](#ZERO) | Stencil tampon değerini 0 olarak ayarlar |
 ## Yöntemler
 
@@ -53,7 +53,7 @@ public static final StencilAction DECREMENT
 ```
 
 
-Mevcut stencil tampon değerini artırır, 0'a sınırlanır.
+Mevcut şablon tampon değerini artırır, 0'a sınırlandırır.
 
 ### DECREMENT_WRAP {#DECREMENT-WRAP}
 ```
@@ -61,7 +61,7 @@ public static final StencilAction DECREMENT_WRAP
 ```
 
 
-Mevcut stencil tampon değerini azaltır ve sıfıra ulaştığında maksimum değere sarar.
+Mevcut şablon tampon değerini azaltır ve sıfıra ulaştığında maksimum değere sarar.
 
 ### INCREMENT {#INCREMENT}
 ```
@@ -69,7 +69,7 @@ public static final StencilAction INCREMENT
 ```
 
 
-Mevcut stencil tampon değerini artırır, maksimum değere sınırlanır.
+Mevcut şablon tampon değerini artırır, maksimum değere sınırlandırır.
 
 ### INCREMENT_WRAP {#INCREMENT-WRAP}
 ```
@@ -77,7 +77,7 @@ public static final StencilAction INCREMENT_WRAP
 ```
 
 
-Mevcut stencil tampon değerini artırır ve maksimum değere ulaştığında sıfıra sarar.
+Mevcut şablon tampon değerini artırır ve maksimum değere ulaştığında sıfıra sarar.
 
 ### INVERT {#INVERT}
 ```
@@ -85,7 +85,7 @@ public static final StencilAction INVERT
 ```
 
 
-Bit düzeyinde mevcut stencil tampon değerini tersine çevirir.
+Mevcut şablon tampon değerini bit düzeyinde tersine çevirir.
 
 ### KEEP {#KEEP}
 ```
@@ -101,7 +101,7 @@ public static final StencilAction REPLACE
 ```
 
 
-Stencil tamponu, [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) içinde tanımlandığı gibi ref'e ayarlar.
+Şablon tamponu, [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) içinde tanımlandığı gibi ref'e ayarlar.
 
 ### ZERO {#ZERO}
 ```

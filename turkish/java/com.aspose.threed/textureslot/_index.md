@@ -1,7 +1,7 @@
 ---
 title: "TextureSlot"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Texture slot, malzeme örneği üzerinden enumerate edilebilir."
+description: "Doku yuvası, malzeme örneği üzerinden enumerate edilebilir."
 type: docs
 weight: 188
 url: /tr/java/com.aspose.threed/textureslot/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureSlot
 ```
 
-[Material](../../com.aspose.threed/material) içindeki Texture slot, malzeme örneği üzerinden enumerate edilebilir. **Example:**
+Doku yuvası, [Material](../../com.aspose.threed/material) içinde, malzeme örneği üzerinden enumerate edilebilir. **Example:**
 
 ```
 var mat = new LambertMaterial();
@@ -31,7 +31,7 @@ var mat = new LambertMaterial();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSlotName()](#getSlotName--) | Bu dokunun bağlanacağı yeri gösteren yuva adı. |
+| [getSlotName()](#getSlotName--) | Bu dokunun bağlanacağı yuva adını belirten isim. |
 | [getTexture()](#getTexture--) | Malzemeye bağlanacak doku. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -71,10 +71,10 @@ public String getSlotName()
 ```
 
 
-Bu dokunun bağlanacağı yeri gösteren yuva adı.
+Bu dokunun bağlanacağı yuva adını belirten isim.
 
 **Returns:**
-java.lang.String - Bu dokunun bağlanacağı yeri gösteren yuva adı.
+java.lang.String - Bu dokunun bağlanacağı yuva adını belirten isim.
 ### getTexture() {#getTexture--}
 ```
 public TextureBase getTexture()

@@ -21,12 +21,12 @@ LightingScheme, 3D sanat eserine uygulanacak aydınlatmayı belirtir.
 | [ARTWORK](#ARTWORK) | Sahnede tanımlanan ışıkları kullanır |
 | [BLUE](#BLUE) | Üç mavi sonsuz ışık, ortam ışığı yok |
 | [CAD](#CAD) | Üç gri sonsuz ışık ve kameraya bağlı bir ışık, ortam ışığı yok |
-| [CUBE](#CUBE) | Ana eksenlerle hizalanmış altı gri sonsuz ışık, ortam ışığı yok |
+| [CUBE](#CUBE) | Ana eksenlere hizalanmış altı gri sonsuz ışık, ortam ışığı yok |
 | [DAY](#DAY) | Üç açık gri sonsuz ışık, ortam ışığı yok |
 | [HARD](#HARD) | Üç gri sonsuz ışık, orta seviyede ortam ışığı |
 | [HEADLAMP](#HEADLAMP) | Kameraya bağlı tek bir sonsuz ışık, düşük ortam ışığı |
 | [NIGHT](#NIGHT) | Bir sarı, bir aqua ve bir mavi sonsuz ışık, ortam ışığı yok |
-| [NONE](#NONE) | Işıklar kullanılmaz. |
+| [NONE](#NONE) | Hiç ışık kullanılmaz. |
 | [PRIMARY](#PRIMARY) | Bir kırmızı, bir yeşil ve bir mavi sonsuz ışık, ortam ışığı yok |
 | [RED](#RED) | Üç kırmızı sonsuz ışık, ortam ışığı yok |
 | [WHITE](#WHITE) | Üç mavi-gri sonsuz ışık, ortam terimi yok |
@@ -81,7 +81,7 @@ public static final PdfLightingScheme CUBE
 ```
 
 
-Ana eksenlerle hizalanmış altı gri sonsuz ışık, ortam ışığı yok
+Ana eksenlere hizalanmış altı gri sonsuz ışık, ortam ışığı yok
 
 ### DAY {#DAY}
 ```
@@ -121,7 +121,7 @@ public static final PdfLightingScheme NONE
 ```
 
 
-Işıklar kullanılmaz.
+Hiç ışık kullanılmaz.
 
 ### PRIMARY {#PRIMARY}
 ```

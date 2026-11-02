@@ -1,7 +1,7 @@
 ---
 title: "VertexDeclaration"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Özel tanımlı bir vertex yapısının bildirimi"
+description: "Özel tanımlı bir köşe yapısının bildirimi"
 type: docs
 weight: 206
 url: /tr/java/com.aspose.threed/vertexdeclaration/
@@ -16,7 +16,7 @@ java.lang.Iterable, java.lang.Comparable
 public final class VertexDeclaration implements Iterable<VertexField>, Comparable<VertexDeclaration>
 ```
 
-Özel olarak tanımlanmış bir vertex'in yapısının bildirimi
+Özel tanımlı bir verteksin yapısının bildirimi
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -26,23 +26,23 @@ public final class VertexDeclaration implements Iterable<VertexField>, Comparabl
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [addField(int dataType, VertexFieldSemantic semantic)](#addField-int-com.aspose.threed.VertexFieldSemantic-) | Yeni bir vertex alanı ekle |
-| [addField(int dataType, VertexFieldSemantic semantic, int index)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-) | Yeni bir vertex alanı ekle |
-| [addField(int dataType, VertexFieldSemantic semantic, int index, String alias)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-java.lang.String-) | Yeni bir vertex alanı ekle |
+| [addField(int dataType, VertexFieldSemantic semantic)](#addField-int-com.aspose.threed.VertexFieldSemantic-) | Yeni bir köşe alanı ekle |
+| [addField(int dataType, VertexFieldSemantic semantic, int index)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-) | Yeni bir köşe alanı ekle |
+| [addField(int dataType, VertexFieldSemantic semantic, int index, String alias)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-java.lang.String-) | Yeni bir köşe alanı ekle |
 | [clear()](#clear--) | Tüm alanları temizle. |
-| [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | Bu örneği belirtilen bir nesneyle karşılaştırır ve onların göreceli değerlerine ilişkin bir gösterge döndürür. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Bu örnek ile belirtilen nesnenin, aynı zamanda bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) nesnesi olması gereken, aynı değere sahip olup olmadığını belirler. |
+| [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | Bu örneği belirtilen bir nesneyle karşılaştırır ve değerlerinin göreceli bir göstergesini döndürür. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Bu örnek ile belirtilen nesnenin, aynı zamanda bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) nesnesi olması koşuluyla, aynı değere sahip olup olmadığını belirler. |
 | [fromGeometry(Geometry geometry, boolean useFloat)](#fromGeometry-com.aspose.threed.Geometry-boolean-) | Bir [Geometry](../../com.aspose.threed/geometry) düzenine dayalı bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) oluştur. |
 | [get(int index)](#get-int-) | İndeksle [VertexField](../../com.aspose.threed/vertexfield) öğesini alır |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Bu [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) içinde tanımlı tüm alanların sayısını alır |
-| [getSealed()](#getSealed--) | [TriMesh](../../com.aspose.threed/trimesh) tarafından kullanıldığında bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) mühürlenecek, artık değişiklik yapılmasına izin verilmeyecek. |
-| [getSize()](#getSize--) | Vertex yapısının bayt cinsinden boyutu. |
+| [getSealed()](#getSealed--) | Bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration), [TriMesh](../../com.aspose.threed/trimesh) tarafından kullanıldığında mühürlenir, artık değişiklik yapılmasına izin verilmez. |
+| [getSize()](#getSize--) | Köşe yapısının bayt cinsinden boyutu. |
 | [hashCode()](#hashCode--) | Bu dize için karma kodunu döndürür. |
-| [iterator()](#iterator--) | Bu örnekteki tüm vertex alanları arasında dolaşmak için bir enumerator alır. |
+| [iterator()](#iterator--) | Bu örnekteki tüm köşe alanları arasında gezinmek için bir yineleyici alır. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) öğesinin dize temsili |
+| [toString()](#toString--) | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) dizesel temsili |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -58,12 +58,12 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic)
 ```
 
 
-Yeni bir vertex alanı ekle
+Yeni bir köşe alanı ekle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| dataType | int | Vertex alanının veri tipi |
+| dataType | int | Köşe alanının veri tipi |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Bu alan ne amaçla kullanılacak |
 
 **Returns:**
@@ -74,12 +74,12 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic, int inde
 ```
 
 
-Yeni bir vertex alanı ekle
+Yeni bir köşe alanı ekle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| dataType | int | Vertex alanının veri tipi |
+| dataType | int | Köşe alanının veri tipi |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Bu alan ne amaçla kullanılacak |
 | indeks | int | Aynı alan anlamsalının indeksi, otomatik oluşturma için -1 |
 
@@ -91,12 +91,12 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic, int inde
 ```
 
 
-Yeni bir vertex alanı ekle
+Yeni bir köşe alanı ekle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| dataType | int | Vertex alanının veri tipi |
+| dataType | int | Köşe alanının veri tipi |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Bu alan ne amaçla kullanılacak |
 | indeks | int | Aynı alan anlamsalının indeksi, otomatik oluşturma için -1 |
 | takma ad | java.lang.String | Alan için takma ad |
@@ -117,7 +117,7 @@ public int compareTo(VertexDeclaration other)
 ```
 
 
-Bu örneği belirtilen bir nesneyle karşılaştırır ve onların göreceli değerlerine ilişkin bir gösterge döndürür.
+Bu örneği belirtilen bir nesneyle karşılaştırır ve değerlerinin göreceli bir göstergesini döndürür.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -132,7 +132,7 @@ public boolean equals(Object obj)
 ```
 
 
-Bu örnek ile belirtilen nesnenin, aynı zamanda bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) nesnesi olması gereken, aynı değere sahip olup olmadığını belirler.
+Bu örnek ile belirtilen nesnenin, aynı zamanda bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) nesnesi olması koşuluyla, aynı değere sahip olup olmadığını belirler.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -153,7 +153,7 @@ Bir [Geometry](../../com.aspose.threed/geometry) düzenine dayalı bir [VertexDe
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | geometry | [Geometry](../../com.aspose.threed/geometry) |  |
-| useFloat | boolean | double tip yerine float kullanın |
+| useFloat | boolean | double tipinin yerine float kullanın |
 
 **Returns:**
 [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)
@@ -198,17 +198,17 @@ public boolean getSealed()
 ```
 
 
-[TriMesh](../../com.aspose.threed/trimesh) tarafından kullanıldığında bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) mühürlenecek, artık değişiklik yapılmasına izin verilmeyecek.
+Bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration), [TriMesh](../../com.aspose.threed/trimesh) tarafından kullanıldığında mühürlenir, artık değişiklik yapılmasına izin verilmez.
 
 **Returns:**
-boolean - Bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration), [TriMesh](../../com.aspose.threed/trimesh) tarafından kullanıldığında mühürlenecek, artık değişiklik yapılmasına izin verilmez.
+boolean - Bir [VertexDeclaration](../../com.aspose.threed/vertexdeclaration), [TriMesh](../../com.aspose.threed/trimesh) tarafından kullanıldığında mühürlenecek, artık değişiklik yapılamaz.
 ### getSize() {#getSize--}
 ```
 public int getSize()
 ```
 
 
-Vertex yapısının bayt cinsinden boyutu.
+Köşe yapısının bayt cinsinden boyutu.
 
 **Returns:**
 int - vertex yapısının bayt cinsinden boyutu.
@@ -228,10 +228,10 @@ public Iterator<VertexField> iterator()
 ```
 
 
-Bu örnekteki tüm vertex alanları arasında dolaşmak için bir enumerator alır.
+Bu örnekteki tüm köşe alanları arasında gezinmek için bir yineleyici alır.
 
 **Returns:**
-java.util.Iterator<com.aspose.threed.VertexField> - Enumeratör
+java.util.Iterator<com.aspose.threed.VertexField> - Enumerator
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -254,7 +254,7 @@ public String toString()
 ```
 
 
-[VertexDeclaration](../../com.aspose.threed/vertexdeclaration) öğesinin dize temsili
+[VertexDeclaration](../../com.aspose.threed/vertexdeclaration) dizesel temsili
 
 **Returns:**
 java.lang.String

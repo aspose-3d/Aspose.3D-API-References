@@ -1,7 +1,7 @@
 ---
 title: "Deformer"
 second_title: "Aspose.3D for Java API Referansı"
-description: "İçin temel sınıf  ve"
+description: "Temel sınıf  ve"
 type: docs
 weight: 41
 url: /tr/java/com.aspose.threed/deformer/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public abstract class Deformer extends A3DObject
 ```
 
-İçin temel sınıf [SkinDeformer](../../com.aspose.threed/skindeformer) ve [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer)
+[SkinDeformer](../../com.aspose.threed/skindeformer) ve [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) için temel sınıf
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -27,16 +27,16 @@ public abstract class Deformer extends A3DObject
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Adı alır. |
-| [getOwner()](#getOwner--) | Bu deformeri sahip olan geometriyi alır |
+| [getOwner()](#getOwner--) | Bu deformer'ı sahip olan geometriyi alır |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -110,7 +110,7 @@ public Geometry getOwner()
 ```
 
 
-Bu deformeri sahip olan geometriyi alır
+Bu deformer'ı sahip olan geometriyi alır
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer
@@ -130,7 +130,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -186,7 +186,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -214,7 +214,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

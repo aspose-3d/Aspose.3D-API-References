@@ -25,17 +25,17 @@ Patch'in U ve V yönü.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getClosed()](#getClosed--) | Bu [PatchDirection](../../com.aspose.threed/patchdirection) kapalı bir eğri olup olmadığını gösteren bir değer döndürür. |
-| [getControlPoints()](#getControlPoints--) | Mevcut yönde kontrol noktalarının sayısını döndürür. |
-| [getDivisions()](#getDivisions--) | Bitişik kontrol noktaları arasındaki bölüm sayısını döndürür. |
-| [getType()](#getType--) | Patch'in tipini döndürür. |
+| [getClosed()](#getClosed--) | Bu [PatchDirection](../../com.aspose.threed/patchdirection) kapalı bir eğri olup olmadığını gösteren bir değer alır. |
+| [getControlPoints()](#getControlPoints--) | Mevcut yönde kontrol noktalarının sayısını alır. |
+| [getDivisions()](#getDivisions--) | Komşu kontrol noktaları arasındaki bölünme sayısını alır. |
+| [getType()](#getType--) | Yamanın tipini alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setClosed(boolean value)](#setClosed-boolean-) | Bu [PatchDirection](../../com.aspose.threed/patchdirection) kapalı bir eğri olup olmadığını gösteren bir değeri ayarlar. |
 | [setControlPoints(int value)](#setControlPoints-int-) | Mevcut yönde kontrol noktalarının sayısını ayarlar. |
-| [setDivisions(int value)](#setDivisions-int-) | Bitişik kontrol noktaları arasındaki bölüm sayısını ayarlar. |
-| [setType(PatchDirectionType value)](#setType-com.aspose.threed.PatchDirectionType-) | Patch'in tipini ayarlar. |
+| [setDivisions(int value)](#setDivisions-int-) | Komşu kontrol noktaları arasındaki bölünme sayısını ayarlar. |
+| [setType(PatchDirectionType value)](#setType-com.aspose.threed.PatchDirectionType-) | Yamanın tipini ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,7 +77,7 @@ public boolean getClosed()
 ```
 
 
-Bu [PatchDirection](../../com.aspose.threed/patchdirection) kapalı bir eğri olup olmadığını gösteren bir değer döndürür.
+Bu [PatchDirection](../../com.aspose.threed/patchdirection) kapalı bir eğri olup olmadığını gösteren bir değer alır.
 
 **Returns:**
 boolean - bu [PatchDirection](../../com.aspose.threed/patchdirection) kapalı bir eğri olup olmadığını gösteren bir değer.
@@ -87,7 +87,7 @@ public int getControlPoints()
 ```
 
 
-Mevcut yönde kontrol noktalarının sayısını döndürür.
+Mevcut yönde kontrol noktalarının sayısını alır.
 
 **Returns:**
 int - mevcut yönde kontrol noktalarının sayısı.
@@ -97,17 +97,17 @@ public int getDivisions()
 ```
 
 
-Bitişik kontrol noktaları arasındaki bölüm sayısını döndürür.
+Komşu kontrol noktaları arasındaki bölünme sayısını alır.
 
 **Returns:**
-int - bitişik kontrol noktaları arasındaki bölüm sayısı.
+int - komşu kontrol noktaları arasındaki bölünme sayısı.
 ### getType() {#getType--}
 ```
 public PatchDirectionType getType()
 ```
 
 
-Patch'in tipini döndürür.
+Yamanın tipini alır.
 
 **Returns:**
 [PatchDirectionType](../../com.aspose.threed/patchdirectiontype) - the patch's type.
@@ -169,7 +169,7 @@ public void setDivisions(int value)
 ```
 
 
-Bitişik kontrol noktaları arasındaki bölüm sayısını ayarlar.
+Komşu kontrol noktaları arasındaki bölünme sayısını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -182,7 +182,7 @@ public void setType(PatchDirectionType value)
 ```
 
 
-Patch'in tipini ayarlar.
+Yamanın tipini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

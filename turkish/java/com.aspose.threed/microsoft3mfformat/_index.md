@@ -41,18 +41,18 @@ Microsoft 3MF için 3MF ilgili yardımcı programlarla dosya biçimi örneği.
 | [FBX7700ASCII](#FBX7700ASCII) | ASCII FBX dosya formatı, 7.7.0 sürümüyle |
 | [FBX7700_BINARY](#FBX7700-BINARY) | Binary FBX dosya formatı, 7.7.0 sürümüyle |
 | [GLTF](#GLTF) | Khronos Group'un glTF |
-| [GLTF2](#GLTF2) | Khronos Group'un glTF sürümü 2.0 |
-| [GLTF2_BINARY](#GLTF2-BINARY) | Khronos Group'un glTF sürümü 2.0 |
-| [GLTF_BINARY](#GLTF-BINARY) | Khronos Group'un glTF Binary formatında |
+| [GLTF2](#GLTF2) | Khronos Group'un glTF 2.0 sürümü |
+| [GLTF2_BINARY](#GLTF2-BINARY) | Khronos Group'un glTF 2.0 sürümü |
+| [GLTF_BINARY](#GLTF-BINARY) | Khronos Group'un Binary formatındaki glTF |
 | [HTML5](#HTML5) | HTML5 Dosyası |
 | [IFC](#IFC) | ISO 16739-1 Industry Foundation Classes veri modeli. |
 | [MAYAASCII](#MAYAASCII) | Autodesk Maya ASCII formatında |
 | [MAYA_BINARY](#MAYA-BINARY) | Autodesk Maya Binary formatında |
-| [MICROSOFT3MF](#MICROSOFT3MF) | Microsoft 3D Manufacturing Format |
+| [MICROSOFT3MF](#MICROSOFT3MF) | Microsoft 3D Üretim Formatı |
 | [PCD](#PCD) | PCL Point Cloud Data dosyası ASCII modunda |
 | [PCD_BINARY](#PCD-BINARY) | PCL Point Cloud Data dosyası Binary modunda |
-| [PDF](#PDF) | Adobe'un Portable Document Format |
-| [PLY](#PLY) | Polygon File Format veya Stanford Triangle Format |
+| [PDF](#PDF) | Adobe'un Portable Document Formatı |
+| [PLY](#PLY) | Polygon Dosya Formatı veya Stanford Üçgen Formatı |
 | [RVM_BINARY](#RVM-BINARY) | AVEVA Plant Design Management System Model binary formatında |
 | [RVM_TEXT](#RVM-TEXT) | AVEVA Plant Design Management System Model metin formatında |
 | [SIEMENSJT8](#SIEMENSJT8) | Siemens JT Dosya Sürümü 8 |
@@ -85,9 +85,9 @@ Microsoft 3MF için 3MF ilgili yardımcı programlarla dosya biçimi örneği.
 | [getExtension()](#getExtension--) | Bu tipin uzantı adını alır. |
 | [getExtensions()](#getExtensions--) | Bu tipin uzantı adlarını alır. |
 | [getFileFormatType()](#getFileFormatType--) | Dosya formatı tipini alır |
-| [getFormatByExtension(String extensionName)](#getFormatByExtension-java.lang.String-) | Dosya uzantı adından tercih edilen dosya formatını alır. Uzantı adı bir nokta ('.') ile başlamalıdır. |
+| [getFormatByExtension(String extensionName)](#getFormatByExtension-java.lang.String-) | Uzantı adından tercih edilen dosya formatını alır. Uzantı adı bir nokta ('.') ile başlamalıdır. |
 | [getFormats()](#getFormats--) | Tüm desteklenen formatlara erişim |
-| [getObjectType(Node node)](#getObjectType-com.aspose.threed.Node-) | Belirtilen düğüm için model tipini al. |
+| [getObjectType(Node node)](#getObjectType-com.aspose.threed.Node-) | Belirtilen düğüm için model tipini alır. |
 | [getTransformForBuild(Node node)](#getTransformForBuild-com.aspose.threed.Node-) | Derleme sırasında kullanılan düğüm için dönüşüm matrisini al. |
 | [getVersion()](#getVersion--) | Dosya formatı sürümünü alır |
 | [hashCode()](#hashCode--) |  |
@@ -290,7 +290,7 @@ public static final FileFormat GLTF2
 ```
 
 
-Khronos Group'un glTF sürümü 2.0
+Khronos Group'un glTF 2.0 sürümü
 
 ### GLTF2_BINARY {#GLTF2-BINARY}
 ```
@@ -298,7 +298,7 @@ public static final FileFormat GLTF2_BINARY
 ```
 
 
-Khronos Group'un glTF sürümü 2.0
+Khronos Group'un glTF 2.0 sürümü
 
 ### GLTF_BINARY {#GLTF-BINARY}
 ```
@@ -306,7 +306,7 @@ public static final FileFormat GLTF_BINARY
 ```
 
 
-Khronos Group'un glTF Binary formatında
+Khronos Group'un Binary formatındaki glTF
 
 ### HTML5 {#HTML5}
 ```
@@ -346,7 +346,7 @@ public static final Microsoft3MFFormat MICROSOFT3MF
 ```
 
 
-Microsoft 3D Manufacturing Format
+Microsoft 3D Üretim Formatı
 
 ### PCD {#PCD}
 ```
@@ -370,7 +370,7 @@ public static final PdfFormat PDF
 ```
 
 
-Adobe'un Portable Document Format
+Adobe'un Portable Document Formatı
 
 ### PLY {#PLY}
 ```
@@ -378,7 +378,7 @@ public static final PlyFormat PLY
 ```
 
 
-Polygon File Format veya Stanford Triangle Format
+Polygon Dosya Formatı veya Stanford Üçgen Formatı
 
 ### RVM_BINARY {#RVM-BINARY}
 ```
@@ -540,7 +540,7 @@ Dosya formatını veri akışından tespit et, dosya adı sihirli başlık olmay
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | stream | [Stream](../../com.aspose.threed/stream) | Tespit için veri içeren akış |
-| fileName | java.lang.String | Verinin özgün dosya adı, ipucu olarak kullanılır. |
+| fileName | java.lang.String | Verinin orijinal dosya adı, ipucu olarak kullanılır. |
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - The [FileFormat](../../com.aspose.threed/fileformat) instance of the detected type or null if failed.
@@ -583,7 +583,7 @@ public boolean getCanExport()
 Aspose.3D'nin geçerli dosya formatına sahneyi dışa aktarmayı destekleyip desteklemediğini alır.
 
 **Returns:**
-boolean - Aspose.3D'nin geçerli dosya formatına sahneyi dışa aktarmayı destekleyip desteklemediği. **Örnek:** Aşağıdaki kod, belirtilen formata dışa aktarmanın desteklenip desteklenmediğini nasıl kontrol edeceğinizi gösterir.
+boolean - Aspose.3D'nin geçerli dosya formatına sahne dışa aktarmayı destekleyip desteklemediği. **Örnek:** Aşağıdaki kod, belirtilen formata dışa aktarmanın desteklenip desteklenmediğini nasıl kontrol edeceğinizi gösterir.
 
 ```
 var outputFormat = ".glb";
@@ -600,7 +600,7 @@ public boolean getCanImport()
 Aspose.3D'nin geçerli dosya formatından sahneyi içe aktarmayı destekleyip desteklemediğini alır.
 
 **Returns:**
-boolean - Aspose.3D'nin geçerli dosya formatından sahneyi içe aktarmayı destekleyip desteklemediği. **Örnek:** Aşağıdaki kod, belirtilen formattan içe aktarmanın desteklenip desteklenmediğini nasıl kontrol edeceğinizi gösterir.
+boolean - Aspose.3D'nin geçerli dosya formatından sahne içe aktarmayı destekleyip desteklemediği. **Örnek:** Aşağıdaki kod, belirtilen formattan içe aktarmanın desteklenip desteklenmediğini nasıl kontrol edeceğinizi gösterir.
 
 ```
 var outputFormat = ".glb";
@@ -677,12 +677,12 @@ public static FileFormat getFormatByExtension(String extensionName)
 ```
 
 
-Dosya uzantı adından tercih edilen dosya formatını alır. Uzantı adı bir nokta ('.') ile başlamalıdır.
+Uzantı adından tercih edilen dosya formatını alır. Uzantı adı bir nokta ('.') ile başlamalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| extensionName | java.lang.String | Uzantı adı, sorgulama için '.' ile başlar. |
+| extensionName | java.lang.String | Uzantı adı, sorgulama için '.' ile başlamalıdır. |
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - Instance of [FileFormat](../../com.aspose.threed/fileformat), otherwise null returned. **Example:** The following code shows how to save scene to memory using specified format
@@ -703,14 +703,14 @@ public static List<FileFormat> getFormats()
 Tüm desteklenen formatlara erişim
 
 **Returns:**
-java.util.List<com.aspose.threed.FileFormat> - tüm desteklenen formatlara erişim
+java.util.List<com.aspose.threed.FileFormat> - Tüm desteklenen formatlara erişim
 ### getObjectType(Node node) {#getObjectType-com.aspose.threed.Node-}
 ```
 public String getObjectType(Node node)
 ```
 
 
-Belirtilen düğüm için model tipini al.
+Belirtilen düğüm için model tipini alır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

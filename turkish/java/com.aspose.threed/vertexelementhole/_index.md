@@ -23,8 +23,8 @@ Belirtilen çokgenin bir delik olup olmadığını tanımlar
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [clear()](#clear--) | Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır. |
-| [clone(boolean withData)](#clone-boolean-) | Vertex öğesinin derin kopyasını oluştur. |
+| [clear()](#clear--) | Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır. |
+| [clone(boolean withData)](#clone-boolean-) | Vertex öğesini derin kopyalar. |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [copyTo(VertexElementTemplate<T> target)](#copyTo-com.aspose.threed.VertexElementTemplate-T--) | Verileri belirtilen öğeye kopyalar. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -38,7 +38,7 @@ Belirtilen çokgenin bir delik olup olmadığını tanımlar
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(T[] data)](#setData-T---) | Veriyi yükle |
+| [setData(T[] data)](#setData-T---) | Veri yükle |
 | [setIndices(int[] data)](#setIndices-int---) | İndeksleri yükle |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Öğenin nasıl eşlendiğini ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
@@ -61,7 +61,7 @@ public void clear()
 ```
 
 
-Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır.
+Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır.
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -69,12 +69,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Vertex öğesinin derin kopyasını oluştur.
+Vertex öğesini derin kopyalar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle kopyala. |
+| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle klonlar. |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -224,7 +224,7 @@ public void setData(T[] data)
 ```
 
 
-Veriyi yükle
+Veri yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

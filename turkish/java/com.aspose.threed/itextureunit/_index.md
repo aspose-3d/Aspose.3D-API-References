@@ -1,7 +1,7 @@
 ---
 title: "ITextureUnit"
 second_title: "Aspose.3D for Java API Referansı"
-description: "GPU ve CPU arasında paylaşılan bellekte bir dokuyu temsil eder ve gölgelendirici tarafından örneklenebilir; burada  yalnızca harici bir dosyaya referansı temsil eder."
+description: "GPU ve CPU arasında paylaşılan bellekte bir dokuyu temsil eder ve gölgelendirici tarafından örneklenebilir; burada  sadece harici bir dosyaya referansı temsil eder."
 type: docs
 weight: 258
 url: /tr/java/com.aspose.threed/itextureunit/
@@ -26,18 +26,18 @@ public interface ITextureUnit extends Closeable
 | [getScale()](#getScale--) | UV koordinatının ölçeğini alır. |
 | [getScroll()](#getScroll--) | UV koordinatının kaydırmasını alır. |
 | [getType()](#getType--) | Bu doku biriminin tipini alır. |
-| [getUWrap()](#getUWrap--) | dokunun U koordinatı için sarma modunu alır. |
-| [getVWrap()](#getVWrap--) | dokunun V koordinatı için sarma modunu alır. |
-| [getWWrap()](#getWWrap--) | dokunun W koordinatı için sarma modunu alır. |
+| [getUWrap()](#getUWrap--) | Doku'nun U koordinatı için sarma modunu alır. |
+| [getVWrap()](#getVWrap--) | Doku'nun V koordinatı için sarma modunu alır. |
+| [getWWrap()](#getWWrap--) | Doku'nun W koordinatı için sarma modunu alır. |
 | [getWidth()](#getWidth--) | Bu dokunun genişliğini alır. |
 | [setMagnification(TextureFilter value)](#setMagnification-com.aspose.threed.TextureFilter-) | Büyütme için filtre modunu ayarlar. |
 | [setMinification(TextureFilter value)](#setMinification-com.aspose.threed.TextureFilter-) | Küçültme için filtre modunu ayarlar. |
 | [setMipmap(TextureFilter value)](#setMipmap-com.aspose.threed.TextureFilter-) | Mipmap için filtre modunu ayarlar. |
 | [setScale(Vector2 value)](#setScale-com.aspose.threed.Vector2-) | UV koordinatının ölçeğini ayarlar. |
 | [setScroll(Vector2 value)](#setScroll-com.aspose.threed.Vector2-) | UV koordinatının kaydırmasını ayarlar. |
-| [setUWrap(WrapMode value)](#setUWrap-com.aspose.threed.WrapMode-) | dokunun U koordinatı için sarma modunu ayarlar. |
-| [setVWrap(WrapMode value)](#setVWrap-com.aspose.threed.WrapMode-) | dokunun V koordinatı için sarma modunu ayarlar. |
-| [setWWrap(WrapMode value)](#setWWrap-com.aspose.threed.WrapMode-) | dokunun W koordinatı için sarma modunu ayarlar. |
+| [setUWrap(WrapMode value)](#setUWrap-com.aspose.threed.WrapMode-) | Doku'nun U koordinatı için sarma modunu ayarlar. |
+| [setVWrap(WrapMode value)](#setVWrap-com.aspose.threed.WrapMode-) | Doku'nun V koordinatı için sarma modunu ayarlar. |
+| [setWWrap(WrapMode value)](#setWWrap-com.aspose.threed.WrapMode-) | Doku'nun W koordinatı için sarma modunu ayarlar. |
 ### getDepth() {#getDepth--}
 ```
 public abstract int getDepth()
@@ -124,7 +124,7 @@ public abstract WrapMode getUWrap()
 ```
 
 
-dokunun U koordinatı için sarma modunu alır.
+Doku'nun U koordinatı için sarma modunu alır.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's U coordinate.
@@ -134,7 +134,7 @@ public abstract WrapMode getVWrap()
 ```
 
 
-dokunun V koordinatı için sarma modunu alır.
+Doku'nun V koordinatı için sarma modunu alır.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's V coordinate.
@@ -144,7 +144,7 @@ public abstract WrapMode getWWrap()
 ```
 
 
-dokunun W koordinatı için sarma modunu alır.
+Doku'nun W koordinatı için sarma modunu alır.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's W coordinate.
@@ -229,7 +229,7 @@ public abstract void setUWrap(WrapMode value)
 ```
 
 
-dokunun U koordinatı için sarma modunu ayarlar.
+Doku'nun U koordinatı için sarma modunu ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -242,7 +242,7 @@ public abstract void setVWrap(WrapMode value)
 ```
 
 
-dokunun V koordinatı için sarma modunu ayarlar.
+Doku'nun V koordinatı için sarma modunu ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -255,7 +255,7 @@ public abstract void setWWrap(WrapMode value)
 ```
 
 
-dokunun W koordinatı için sarma modunu ayarlar.
+Doku'nun W koordinatı için sarma modunu ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

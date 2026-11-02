@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class MemoryFileSystem extends FileSystem
 ```
 
-Bu [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem), okuma/yazma işlemlerini belleğe eşler. **Örnek:** Aşağıdaki kod, dosyanın belleğe nasıl dışa aktarılacağını gösterir, bağımlı dosyayı MemoryFileSystem kullanarak dahil eder.
+Bu [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem), okuma/yazma işlemlerini belleğe eşler. **Example:** Aşağıdaki kod, dosyanın belleğe nasıl dışa aktarılacağını gösterir, bağımlı dosyayı MemoryFileSystem kullanarak dahil eder.
 
 ```
 //create a scene with material
@@ -41,7 +41,7 @@ Bu [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem), okuma/yazma iş
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [close()](#close--) | Dosya sistemini kapatın ve kaynaklarını serbest bırakın. |
+| [close()](#close--) | Dosya sistemini temizleyin ve kaynaklarını serbest bırakın. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFileContent(String fileName)](#getFileContent-java.lang.String-) | Belirtilen dosyanın ham içeriğini döndürür. |
@@ -49,12 +49,12 @@ Bu [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem), okuma/yazma iş
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları okumak için bir akış oluşturun. |
+| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları okumak için bir akış oluştur. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları yazmak için bir akış oluşturun. |
+| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları yazmak için bir akış oluştur. |
 ### MemoryFileSystem() {#MemoryFileSystem--}
 ```
 public MemoryFileSystem()
@@ -67,7 +67,7 @@ public void close()
 ```
 
 
-Dosya sistemini kapatın ve kaynaklarını serbest bırakın.
+Dosya sistemini temizleyin ve kaynaklarını serbest bırakın.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -151,7 +151,7 @@ public Stream readFile(String fileName, IOConfig options)
 ```
 
 
-Bağımlılıkları okumak için bir akış oluşturun.
+Bağımlılıkları okumak için bir akış oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -212,7 +212,7 @@ public Stream writeFile(String fileName, IOConfig options)
 ```
 
 
-Bağımlılıkları yazmak için bir akış oluşturun.
+Bağımlılıkları yazmak için bir akış oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

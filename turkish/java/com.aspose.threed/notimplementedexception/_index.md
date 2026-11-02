@@ -1,7 +1,7 @@
 ---
 title: "NotImplementedException"
 second_title: "Aspose.3D for Java API Referansı"
-description: "lexchou tarafından 26/6/2017 tarihinde oluşturuldu."
+description: "lexchou tarafından 26/06/2017 tarihinde oluşturuldu."
 type: docs
 weight: 111
 url: /tr/java/com.aspose.threed/notimplementedexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class NotImplementedException extends RuntimeException
 ```
 
-lexchou tarafından 26/6/2017 tarihinde oluşturuldu.
+lexchou tarafından 26/06/2017 tarihinde oluşturuldu.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

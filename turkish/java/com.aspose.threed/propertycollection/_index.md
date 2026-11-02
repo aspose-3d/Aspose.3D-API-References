@@ -23,8 +23,8 @@ public class PropertyCollection implements Iterable<Property>
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String property)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [get(int idx)](#get-int-) | İndeksle özelliği alır. |
-| [get(String property)](#get-java.lang.String-) | Özellik adını kullanarak özelliğin değerini alır. |
+| [get(int idx)](#get-int-) | Özelliği indeks ile alır. |
+| [get(String property)](#get-java.lang.String-) | Özelliğin değerini isimle alır. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
@@ -32,8 +32,8 @@ public class PropertyCollection implements Iterable<Property>
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Dinamik bir özelliği kaldırır. |
-| [set(String property, Object value)](#set-java.lang.String-java.lang.Object-) | Özellik adını kullanarak özelliğin değerini ayarlar. |
-| [size()](#size--) | Deklar edilen özelliklerin sayısını alır. |
+| [set(String property, Object value)](#set-java.lang.String-java.lang.Object-) | Özelliğin değerini isimle ayarlar. |
+| [size()](#size--) | Tanımlı özelliklerin sayısını alır. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public Property findProperty(String property)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -74,7 +74,7 @@ public Property get(int idx)
 ```
 
 
-İndeksle özelliği alır.
+Özelliği indeks ile alır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -89,7 +89,7 @@ public Object get(String property)
 ```
 
 
-Özellik adını kullanarak özelliğin değerini alır.
+Özelliğin değerini isimle alır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -180,7 +180,7 @@ public void set(String property, Object value)
 ```
 
 
-Özellik adını kullanarak özelliğin değerini ayarlar.
+Özelliğin değerini isimle ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -194,7 +194,7 @@ public int size()
 ```
 
 
-Deklar edilen özelliklerin sayısını alır.
+Tanımlı özelliklerin sayısını alır.
 
 **Returns:**
 int - bildirilen özelliklerin sayısı.

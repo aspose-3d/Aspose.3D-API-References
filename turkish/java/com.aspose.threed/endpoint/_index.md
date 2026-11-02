@@ -16,13 +16,13 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class EndPoint implements Struct<EndPoint>, Serializable
 ```
 
-Eğriyi kırpmak için son nokta, bir parametre değeri ya da Kartezyen bir nokta olabilir.
+Eğriyi kırpmak için son nokta, bir parametre değeri ya da Kartezyen nokta olabilir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | Bir Kartezyen noktadan bir [EndPoint](../../com.aspose.threed/endpoint) oluştur. |
-| [EndPoint(double v)](#EndPoint-double-) | Gerçek bir parametreden bir [EndPoint](../../com.aspose.threed/endpoint) oluştur. |
+| [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | Bir Kartezyen noktadan bir [EndPoint](../../com.aspose.threed/endpoint) oluşturun. |
+| [EndPoint(double v)](#EndPoint-double-) | Gerçek bir parametreden bir [EndPoint](../../com.aspose.threed/endpoint) oluşturun. |
 | [EndPoint()](#EndPoint--) |  |
 ## Yöntemler
 
@@ -31,8 +31,8 @@ Eğriyi kırpmak için son nokta, bir parametre değeri ya da Kartezyen bir nokt
 | [clone()](#clone--) |  |
 | [copyFrom(EndPoint src)](#copyFrom-com.aspose.threed.EndPoint-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [fromDegree(double degree)](#fromDegree-double-) | Derece cinsinden ölçülen bir uç nokta oluştur. |
-| [fromRadian(double degree)](#fromRadian-double-) | Radyan cinsinden ölçülen bir uç nokta oluştur. |
+| [fromDegree(double degree)](#fromDegree-double-) | Derece cinsinden ölçülen bir uç nokta oluşturun. |
+| [fromRadian(double degree)](#fromRadian-double-) | Radyan cinsinden ölçülen bir uç nokta oluşturun. |
 | [getAsPoint()](#getAsPoint--) | Uç noktayı Kartezyen nokta olarak alır, aksi takdirde bir istisna fırlatır. |
 | [getAsValue()](#getAsValue--) | Uç noktayı gerçek bir parametre olarak alır, aksi takdirde bir istisna fırlatır. |
 | [getClass()](#getClass--) |  |
@@ -50,7 +50,7 @@ public EndPoint(Vector3 point)
 ```
 
 
-Bir Kartezyen noktadan bir [EndPoint](../../com.aspose.threed/endpoint) oluştur.
+Bir Kartezyen noktadan bir [EndPoint](../../com.aspose.threed/endpoint) oluşturun.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -63,7 +63,7 @@ public EndPoint(double v)
 ```
 
 
-Gerçek bir parametreden bir [EndPoint](../../com.aspose.threed/endpoint) oluştur.
+Gerçek bir parametreden bir [EndPoint](../../com.aspose.threed/endpoint) oluşturun.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -82,7 +82,7 @@ public EndPoint clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint)
@@ -120,7 +120,7 @@ public static EndPoint fromDegree(double degree)
 ```
 
 
-Derece cinsinden ölçülen bir uç nokta oluştur.
+Derece cinsinden ölçülen bir uç nokta oluşturun.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -135,7 +135,7 @@ public static EndPoint fromRadian(double degree)
 ```
 
 
-Radyan cinsinden ölçülen bir uç nokta oluştur.
+Radyan cinsinden ölçülen bir uç nokta oluşturun.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

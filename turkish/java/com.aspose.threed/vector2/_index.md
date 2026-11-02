@@ -21,10 +21,10 @@ public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Seri
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Vector2(double s)](#Vector2-double-) | Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği başlatır. |
-| [Vector2(Vector3 s)](#Vector2-com.aspose.threed.Vector3-) | Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği başlatır. |
-| [Vector2(FVector2 vec)](#Vector2-com.aspose.threed.FVector2-) | Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği başlatır. |
-| [Vector2(double x, double y)](#Vector2-double-double-) | Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği başlatır. |
+| [Vector2(double s)](#Vector2-double-) | Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği oluşturur. |
+| [Vector2(Vector3 s)](#Vector2-com.aspose.threed.Vector3-) | Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği oluşturur. |
+| [Vector2(FVector2 vec)](#Vector2-com.aspose.threed.FVector2-) | Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği oluşturur. |
+| [Vector2(double x, double y)](#Vector2-double-double-) | Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği oluşturur. |
 | [Vector2()](#Vector2--) |  |
 ## Alanlar
 
@@ -36,32 +36,32 @@ public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Seri
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [add(Vector2 lhs, Vector2 rhs)](#add-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 için toplama operatörü. |
+| [add(Vector2 lhs, Vector2 rhs)](#add-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 için toplama operatörü |
 | [clone()](#clone--) |  |
-| [compareTo(Vector2 other)](#compareTo-com.aspose.threed.Vector2-) | Mevcut vektörü başka bir örnek ile karşılaştırın. |
+| [compareTo(Vector2 other)](#compareTo-com.aspose.threed.Vector2-) | Mevcut vektörü başka bir örnek ile karşılaştır. |
 | [copyFrom(Vector2 src)](#copyFrom-com.aspose.threed.Vector2-) |  |
-| [create(Vector2 v)](#create-com.aspose.threed.Vector2-) | Vector2'yi FVector2'ye dönüştürmek için açık dönüşüm operatörü. |
+| [create(Vector2 v)](#create-com.aspose.threed.Vector2-) | Vector2'yi FVector2'ye dönüştürmek için açık dönüşüm operatörü |
 | [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | İki vektörün çapraz çarpımı |
-| [div(Vector2 lhs, double rhs)](#div-com.aspose.threed.Vector2-double-) | Vector2 için bölme operatörü. |
+| [div(Vector2 lhs, double rhs)](#div-com.aspose.threed.Vector2-double-) | Vector2 için bölme operatörü |
 | [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | İki vektörün nokta çarpımını alır |
-| [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | İki vector2'nin eşit olup olmadığını kontrol et. |
-| [equals(Object obj)](#equals-java.lang.Object-) | İki vector2'nin eşit olup olmadığını kontrol et. |
+| [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | İki vector2 eşit mi kontrol et |
+| [equals(Object obj)](#equals-java.lang.Object-) | İki vector2 eşit mi kontrol et |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | Uzunluğu alır. |
-| [getU()](#getU--) | [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa U bileşenini alır. |
-| [getV()](#getV--) | [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa V bileşenini alır. |
-| [hashCode()](#hashCode--) | Vector2'nin hash kodunu alır. |
-| [mul(Vector2 lhs, double rhs)](#mul-com.aspose.threed.Vector2-double-) | Vector2 için çarpma operatörü. |
-| [mul(double lhs, Vector2 rhs)](#mul-double-com.aspose.threed.Vector2-) | Vector2 için çarpma operatörü. |
+| [getU()](#getU--) | [Vector2](../../com.aspose.threed/vector2) bir haritalama koordinatı olarak kullanılıyorsa U bileşenini alır. |
+| [getV()](#getV--) | [Vector2](../../com.aspose.threed/vector2) bir haritalama koordinatı olarak kullanılıyorsa V bileşenini alır. |
+| [hashCode()](#hashCode--) | Vector2'nin hash kodunu alır |
+| [mul(Vector2 lhs, double rhs)](#mul-com.aspose.threed.Vector2-double-) | Vector2 için çarpma operatörü |
+| [mul(double lhs, Vector2 rhs)](#mul-double-com.aspose.threed.Vector2-) | Vector2 için çarpma operatörü |
 | [normalize()](#normalize--) | Bu örneği normallaştırır. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_eq(Vector2 lhs, Vector2 rhs)](#op-eq-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 için eşitlik operatörü |
-| [op_ne(Vector2 lhs, Vector2 rhs)](#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 için eşit olmayan operatör |
+| [op_ne(Vector2 lhs, Vector2 rhs)](#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 için eşitsizlik operatörü |
 | [setU(double value)](#setU-double-) | Eğer [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa U bileşenini ayarlar. |
 | [setV(double value)](#setV-double-) | Eğer [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa V bileşenini ayarlar. |
 | [sub(Vector2 lhs, Vector2 rhs)](#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 için çıkarma operatörü |
-| [toString()](#toString--) | Geçerli [Vector2](../../com.aspose.threed/vector2) nesnesini temsil eden bir java.lang.String döndürür. |
+| [toString()](#toString--) | Geçerli [Vector2](../../com.aspose.threed/vector2)'i temsil eden bir java.lang.String döndürür. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -71,7 +71,7 @@ public Vector2(double s)
 ```
 
 
-Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği başlatır.
+Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği oluşturur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -84,7 +84,7 @@ public Vector2(Vector3 s)
 ```
 
 
-Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği başlatır.
+Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği oluşturur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -97,7 +97,7 @@ public Vector2(FVector2 vec)
 ```
 
 
-Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği başlatır.
+Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği oluşturur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -110,7 +110,7 @@ public Vector2(double x, double y)
 ```
 
 
-Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği başlatır.
+Yeni bir [Vector2](../../com.aspose.threed/vector2) yapısı örneği oluşturur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -146,13 +146,13 @@ public static Vector2 add(Vector2 lhs, Vector2 rhs)
 ```
 
 
-Vector2 için toplama operatörü.
+Vector2 için toplama operatörü
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraf değeri. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraf değeri. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraftaki değer. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraftaki değer. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of addition.
@@ -162,7 +162,7 @@ public Vector2 clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2)
@@ -172,7 +172,7 @@ public int compareTo(Vector2 other)
 ```
 
 
-Mevcut vektörü başka bir örnek ile karşılaştırın.
+Mevcut vektörü başka bir örnek ile karşılaştır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -200,7 +200,7 @@ public static FVector2 create(Vector2 v)
 ```
 
 
-Vector2'yi FVector2'ye dönüştürmek için açık dönüşüm operatörü.
+Vector2'yi FVector2'ye dönüştürmek için açık dönüşüm operatörü
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -230,13 +230,13 @@ public static Vector2 div(Vector2 lhs, double rhs)
 ```
 
 
-Vector2 için bölme operatörü.
+Vector2 için bölme operatörü
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraf değeri. |
-| rhs | double | Sağ taraf değeri. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraftaki değer. |
+| rhs | double | Sağ taraftaki değer. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of division.
@@ -251,17 +251,17 @@ public double dot(Vector2 rhs)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraf değeri. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraftaki değer. |
 
 **Returns:**
-double - İki vektörün noktasal çarpımı.
+double - İki vektörün nokta çarpımı.
 ### equals(Vector2 rhs) {#equals-com.aspose.threed.Vector2-}
 ```
 public boolean equals(Vector2 rhs)
 ```
 
 
-İki vector2'nin eşit olup olmadığını kontrol et.
+İki vector2 eşit mi kontrol et
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -276,7 +276,7 @@ public boolean equals(Object obj)
 ```
 
 
-İki vector2'nin eşit olup olmadığını kontrol et.
+İki vector2 eşit mi kontrol et
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -311,43 +311,43 @@ public double getU()
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa U bileşenini alır. x bileşeninin bir takma adıdır.
+Eğer [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa U bileşenini alır. x bileşeninin bir takma adıdır.
 
 **Returns:**
-double - [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa U bileşeni. x bileşeninin bir takma adıdır.
+double - [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanıldığında U bileşeni. x bileşeninin bir takma adıdır.
 ### getV() {#getV--}
 ```
 public double getV()
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa V bileşenini alır. y bileşeninin bir takma adıdır.
+Eğer [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa V bileşenini alır. y bileşeninin bir takma adıdır.
 
 **Returns:**
-double - [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanılıyorsa V bileşeni. y bileşeninin bir takma adıdır.
+double - [Vector2](../../com.aspose.threed/vector2) bir eşleme koordinatı olarak kullanıldığında V bileşeni. y bileşeninin bir takma adıdır.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-Vector2'nin hash kodunu alır.
+Vector2'nin hash kodunu alır
 
 **Returns:**
-int - [Vector2](../../com.aspose.threed/vector2) nesnesinin karma kodu
+int - [Vector2](../../com.aspose.threed/vector2)'in hash kodu
 ### mul(Vector2 lhs, double rhs) {#mul-com.aspose.threed.Vector2-double-}
 ```
 public static Vector2 mul(Vector2 lhs, double rhs)
 ```
 
 
-Vector2 için çarpma operatörü.
+Vector2 için çarpma operatörü
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraf değeri. |
-| rhs | double | Sağ taraf değeri. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraftaki değer. |
+| rhs | double | Sağ taraftaki değer. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of multiply.
@@ -357,13 +357,13 @@ public static Vector2 mul(double lhs, Vector2 rhs)
 ```
 
 
-Vector2 için çarpma operatörü.
+Vector2 için çarpma operatörü
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | double | Sol taraf değeri. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraf değeri. |
+| lhs | double | Sol taraftaki değer. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraftaki değer. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of multiply.
@@ -404,8 +404,8 @@ Vector2 için eşitlik operatörü
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraf değeri. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraf değeri. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraftaki değer. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraftaki değer. |
 
 **Returns:**
 boolean - Tüm bileşenler aynıysa doğru.
@@ -415,13 +415,13 @@ public static boolean op_ne(Vector2 lhs, Vector2 rhs)
 ```
 
 
-Vector2 için eşit olmayan operatör
+Vector2 için eşitsizlik operatörü
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraf değeri. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraf değeri. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraftaki değer. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraftaki değer. |
 
 **Returns:**
 boolean - İki vektör eşit değilse doğru.
@@ -462,8 +462,8 @@ Vector2 için çıkarma operatörü
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraf değeri. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraf değeri. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Sol taraftaki değer. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | Sağ taraftaki değer. |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of substraction.
@@ -473,10 +473,10 @@ public String toString()
 ```
 
 
-Geçerli [Vector2](../../com.aspose.threed/vector2) nesnesini temsil eden bir java.lang.String döndürür.
+Geçerli [Vector2](../../com.aspose.threed/vector2)'i temsil eden bir java.lang.String döndürür.
 
 **Returns:**
-java.lang.String - Geçerli [Vector2](../../com.aspose.threed/vector2) nesnesini temsil eden bir java.lang.String.
+java.lang.String - Geçerli [Vector2](../../com.aspose.threed/vector2)'i temsil eden bir java.lang.String.
 ### wait() {#wait--}
 ```
 public final void wait()

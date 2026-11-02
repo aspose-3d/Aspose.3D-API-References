@@ -13,7 +13,7 @@ java.lang.Object
 public class Viewport
 ```
 
-Bir [IRenderTarget](../../com.aspose.threed/irendertarget) sahneyi renderlemek için en az bir viewport içerir.
+A [IRenderTarget](../../com.aspose.threed/irendertarget) sahneyi renderlemek için en az bir viewport içerir.
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -23,20 +23,20 @@ Bir [IRenderTarget](../../com.aspose.threed/irendertarget) sahneyi renderlemek i
 | [getArea()](#getArea--) | Viewport'un render hedefindeki alanını alır. |
 | [getBackgroundColor()](#getBackgroundColor--) | Viewport'un arka plan rengini alır. |
 | [getClass()](#getClass--) |  |
-| [getDepthClear()](#getDepthClear--) | Derinlik tampon biti ayarlı iken viewport'u temizlerken kullanılan derinlik değerini alır. |
+| [getDepthClear()](#getDepthClear--) | Derinlik tampon biti ayarlı olduğunda viewport'u temizlemek için kullanılan derinlik değerini alır. |
 | [getEnabled()](#getEnabled--) | Bu viewport'u etkinleştir veya devre dışı bırak. |
-| [getFrustum()](#getFrustum--) | Bu [Viewport](../../com.aspose.threed/viewport) kamerasını alır. |
+| [getFrustum()](#getFrustum--) | Bu [Viewport](../../com.aspose.threed/viewport) nesnesinin kamerasını alır. |
 | [getRenderTarget()](#getRenderTarget--) | Bu viewport'u oluşturan render hedefini alır. |
-| [getZOrder()](#getZOrder--) | Görünüm penceresinin Z-sırasını alır. |
+| [getZOrder()](#getZOrder--) | Görünüm alanının Z-sırasını alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArea(RelativeRectangle value)](#setArea-com.aspose.threed.RelativeRectangle-) | Görünüm penceresinin alanını render hedefinde ayarlar. |
-| [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | Görünüm penceresinin arka plan rengini ayarlar. |
-| [setDepthClear(float value)](#setDepthClear-float-) | Derinlik tamponu biti ayarlı iken görünüm penceresini temizlerken kullanılan derinlik değerini ayarlar. |
+| [setArea(RelativeRectangle value)](#setArea-com.aspose.threed.RelativeRectangle-) | Görünüm alanının render hedefindeki alanını ayarlar. |
+| [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | Görünüm alanının arka plan rengini ayarlar. |
+| [setDepthClear(float value)](#setDepthClear-float-) | Derinlik tampon biti ayarlı olduğunda görünüm alanını temizlerken kullanılan derinlik değerini ayarlar. |
 | [setEnabled(boolean value)](#setEnabled-boolean-) | Bu viewport'u etkinleştir veya devre dışı bırak. |
-| [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | Bu [Viewport](../../com.aspose.threed/viewport) kamerasını ayarlar. |
-| [setZOrder(int value)](#setZOrder-int-) | Görünüm penceresinin Z-sırasını ayarlar. |
+| [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | Bu [Viewport](../../com.aspose.threed/viewport) nesnesinin kamerasını ayarlar. |
+| [setZOrder(int value)](#setZOrder-int-) | Görünüm alanının Z-sırasını ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -102,10 +102,10 @@ public float getDepthClear()
 ```
 
 
-Derinlik tampon biti ayarlı iken viewport'u temizlerken kullanılan derinlik değerini alır.
+Derinlik tampon biti ayarlı olduğunda viewport'u temizlemek için kullanılan derinlik değerini alır.
 
 **Returns:**
-float - Derinlik tamponu biti ayarlı iken görünüm penceresini temizlerken kullanılan derinlik değeri.
+float - Derinlik tampon biti ayarlı olduğunda görünüm alanını temizlerken kullanılan derinlik değeri.
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
@@ -115,14 +115,14 @@ public boolean getEnabled()
 Bu viewport'u etkinleştir veya devre dışı bırak.
 
 **Returns:**
-boolean - Bu görünüm penceresini etkinleştir veya devre dışı bırak.
+boolean - Bu görünüm alanını etkinleştir veya devre dışı bırak.
 ### getFrustum() {#getFrustum--}
 ```
 public Frustum getFrustum()
 ```
 
 
-Bu [Viewport](../../com.aspose.threed/viewport) kamerasını alır.
+Bu [Viewport](../../com.aspose.threed/viewport) nesnesinin kamerasını alır.
 
 **Returns:**
 [Frustum](../../com.aspose.threed/frustum) - the camera of this [Viewport](../../com.aspose.threed/viewport)
@@ -142,10 +142,10 @@ public int getZOrder()
 ```
 
 
-Görünüm penceresinin Z-sırasını alır.
+Görünüm alanının Z-sırasını alır.
 
 **Returns:**
-int - Görünüm penceresinin Z-sırası.
+int - Görünüm alanının Z-sırası.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -178,7 +178,7 @@ public void setArea(RelativeRectangle value)
 ```
 
 
-Görünüm penceresinin alanını render hedefinde ayarlar.
+Görünüm alanının render hedefindeki alanını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -191,7 +191,7 @@ public void setBackgroundColor(Vector3 value)
 ```
 
 
-Görünüm penceresinin arka plan rengini ayarlar.
+Görünüm alanının arka plan rengini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -204,7 +204,7 @@ public void setDepthClear(float value)
 ```
 
 
-Derinlik tamponu biti ayarlı iken görünüm penceresini temizlerken kullanılan derinlik değerini ayarlar.
+Derinlik tampon biti ayarlı olduğunda görünüm alanını temizlerken kullanılan derinlik değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -230,7 +230,7 @@ public void setFrustum(Frustum value)
 ```
 
 
-Bu [Viewport](../../com.aspose.threed/viewport) kamerasını ayarlar.
+Bu [Viewport](../../com.aspose.threed/viewport) nesnesinin kamerasını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -243,7 +243,7 @@ public void setZOrder(int value)
 ```
 
 
-Görünüm penceresinin Z-sırasını ayarlar.
+Görünüm alanının Z-sırasını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

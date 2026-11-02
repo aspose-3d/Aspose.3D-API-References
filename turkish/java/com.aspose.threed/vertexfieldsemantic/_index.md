@@ -19,7 +19,7 @@ Vertex alanının semantiği
 | Alan | Açıklama |
 | --- | --- |
 | [BINORMAL](#BINORMAL) | Binormal vektör |
-| [EDGE_CREASE](#EDGE-CREASE) | Kenar kırışı |
+| [EDGE_CREASE](#EDGE-CREASE) | Kenar kıvrımı |
 | [MORPH_NORMAL](#MORPH-NORMAL) | Morph hedefi için normal verisi |
 | [MORPH_POSITION](#MORPH-POSITION) | Morph hedefi için konum verisi |
 | [NORMAL](#NORMAL) | Normal vektör |
@@ -28,10 +28,10 @@ Vertex alanının semantiği
 | [TANGENT](#TANGENT) | Teğet vektör |
 | [USER_DATA](#USER-DATA) | Kullanıcı verileri, genellikle uygulamaya özgü amaçlar için |
 | [UV](#UV) | Doku UV koordinatı |
-| [VERTEX_COLOR](#VERTEX-COLOR) | Vertex rengi |
-| [VERTEX_CREASE](#VERTEX-CREASE) | Vertex kıvrımı |
+| [VERTEX_COLOR](#VERTEX-COLOR) | Köşe rengi |
+| [VERTEX_CREASE](#VERTEX-CREASE) | Köşe kıvrımı |
 | [VISIBILITY](#VISIBILITY) | Bileşenlerin görünürlüğü |
-| [WEIGHT](#WEIGHT) | Karışım ağırlıkları |
+| [WEIGHT](#WEIGHT) | Karıştırma ağırlıkları |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -67,7 +67,7 @@ public static final VertexFieldSemantic EDGE_CREASE
 ```
 
 
-Kenar kırışı
+Kenar kıvrımı
 
 ### MORPH_NORMAL {#MORPH-NORMAL}
 ```
@@ -139,7 +139,7 @@ public static final VertexFieldSemantic VERTEX_COLOR
 ```
 
 
-Vertex rengi
+Köşe rengi
 
 ### VERTEX_CREASE {#VERTEX-CREASE}
 ```
@@ -147,7 +147,7 @@ public static final VertexFieldSemantic VERTEX_CREASE
 ```
 
 
-Vertex kıvrımı
+Köşe kıvrımı
 
 ### VISIBILITY {#VISIBILITY}
 ```
@@ -163,7 +163,7 @@ public static final VertexFieldSemantic WEIGHT
 ```
 
 
-Karışım ağırlıkları
+Karıştırma ağırlıkları
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

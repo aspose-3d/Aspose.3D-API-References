@@ -1,7 +1,7 @@
 ---
 title: "TextureMapping"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Doku eşleme türü: Kullanılan doku eşleme tipini açıklar."
+description: "Doku eşleme türü için Kullanılan doku eşleme türünü açıklar."
 type: docs
 weight: 306
 url: /tr/java/com.aspose.threed/texturemapping/
@@ -13,23 +13,23 @@ java.lang.Object, java.lang.Enum
 public enum TextureMapping extends Enum<TextureMapping>
 ```
 
-Doku eşleme türü [VertexElementUV](../../com.aspose.threed/vertexelementuv) için kullanılan doku eşleme tipini açıklar.
+Doku eşleme türü için [VertexElementUV](../../com.aspose.threed/vertexelementuv) Kullanılan doku eşleme türünü açıklar.
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
-| [AMBIENT](#AMBIENT) | Ortam haritaları |
+| [AMBIENT](#AMBIENT) | Ambient haritaları |
 | [BUMP](#BUMP) | Bump haritaları |
 | [DIFFUSE](#DIFFUSE) | Difüz haritalar |
 | [DISPLACEMENT](#DISPLACEMENT) | Yer değiştirme haritaları |
 | [EMISSIVE](#EMISSIVE) | Emisyon haritaları |
 | [GLOW](#GLOW) | Parıltı haritaları |
-| [NORMAL](#NORMAL) | Normal haritalar |
+| [NORMAL](#NORMAL) | Normal haritaları |
 | [OPACITY](#OPACITY) | Opaklık haritaları |
 | [REFLECTION](#REFLECTION) | Yansıma haritaları |
 | [SHADOW](#SHADOW) | Gölge haritaları |
 | [SHININESS](#SHININESS) | Parlaklık haritaları |
-| [SPECULAR](#SPECULAR) | Speküler haritalar |
+| [SPECULAR](#SPECULAR) | Speküler haritaları |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -57,7 +57,7 @@ public static final TextureMapping AMBIENT
 ```
 
 
-Ortam haritaları
+Ambient haritaları
 
 ### BUMP {#BUMP}
 ```
@@ -105,7 +105,7 @@ public static final TextureMapping NORMAL
 ```
 
 
-Normal haritalar
+Normal haritaları
 
 ### OPACITY {#OPACITY}
 ```
@@ -145,7 +145,7 @@ public static final TextureMapping SPECULAR
 ```
 
 
-Speküler haritalar
+Speküler haritaları
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

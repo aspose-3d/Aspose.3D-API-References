@@ -13,12 +13,12 @@ java.lang.Object, java.lang.Enum
 public enum ApertureMode extends Enum<ApertureMode>
 ```
 
-Kamera diyafram modları. Diyafram modu, kamera diyaframını hangi değerlerin yönlendirdiğini belirler. Diyafram modu HorizAndVert, Horizontal veya Vertical ise görüş alanı kullanılır. Diyafram modu FocalLength ise odak uzunluğu kullanılır.
+Kamera diyafram modları. Diyafram modu, kamera diyaframını hangi değerlerin yönlendirdiğini belirler. Diyafram modu HorizAndVert, Horizontal veya Vertical ise görüş alanı kullanılır. Diyafram modu FocalLength ise odak uzaklığı kullanılır.
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
-| [FOCAL_LENGTH](#FOCAL-LENGTH) | Odak uzunluğunu doğrudan kullan. |
+| [FOCAL_LENGTH](#FOCAL-LENGTH) | Odak uzaklığını doğrudan kullan. |
 | [HORIZONTAL](#HORIZONTAL) | Yalnızca yatay açıyı ayarla. |
 | [HORIZ_AND_VERT](#HORIZ-AND-VERT) | Yatay ve dikey ayarlar için açı değerlerini ayarla. |
 | [VERTICAL](#VERTICAL) | Yalnızca dikey açıyı ayarla. |
@@ -49,7 +49,7 @@ public static final ApertureMode FOCAL_LENGTH
 ```
 
 
-Odak uzunluğunu doğrudan kullan.
+Odak uzaklığını doğrudan kullan.
 
 ### HORIZONTAL {#HORIZONTAL}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "MulticastEvent"
 second_title: "Aspose.3D for Java API Referansı"
-description: "lexchou tarafından 24/4/2017 tarihinde oluşturuldu."
+description: "lexchou tarafından 24/04/2017 tarihinde oluşturuldu."
 type: docs
 weight: 109
 url: /tr/java/com.aspose.threed/multicastevent/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MulticastEvent<EventArg>
 ```
 
-lexchou tarafından 24/4/2017 tarihinde oluşturuldu.
+lexchou tarafından 24/04/2017 tarihinde oluşturuldu.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

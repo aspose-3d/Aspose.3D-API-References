@@ -32,9 +32,9 @@ Dosya formatı türü
 | [IFC](#IFC) | ISO 16739-1 Industry Foundation Classes veri modeli. |
 | [MAYA](#MAYA) | Autodesk Maya formatı türü |
 | [MICROSOFT3MF](#MICROSOFT3MF) | 3D Üretim Formatı |
-| [PCD](#PCD) | Point Cloud Library tarafından kullanılan Nokta Bulutu Verisi |
+| [PCD](#PCD) | Point Cloud Library tarafından kullanılan Nokta Bulutu Verileri |
 | [PDF](#PDF) | Taşınabilir Belge Formatı |
-| [PLY](#PLY) | Polygon File Format veya Stanford Triangle Format |
+| [PLY](#PLY) | Polygon Dosya Formatı veya Stanford Üçgen Formatı |
 | [RVM](#RVM) | AVEVA Plant Design Management System Modeli. |
 | [SIEMENSJT](#SIEMENSJT) | Siemens PLM Software NX'in JT Dosyası |
 | [STL](#STL) | STL dosya formatı türü |
@@ -177,7 +177,7 @@ public static final FileFormatType PCD
 ```
 
 
-Point Cloud Library tarafından kullanılan Nokta Bulutu Verisi
+Point Cloud Library tarafından kullanılan Nokta Bulutu Verileri
 
 ### PDF {#PDF}
 ```
@@ -193,7 +193,7 @@ public static final FileFormatType PLY
 ```
 
 
-Polygon File Format veya Stanford Triangle Format
+Polygon Dosya Formatı veya Stanford Üçgen Formatı
 
 ### RVM {#RVM}
 ```

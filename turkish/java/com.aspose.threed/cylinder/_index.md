@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Cylinder extends Primitive
 ```
 
-Parametreli Silindir. radiusTop/radiusBottom'dan biri sıfır olduğunda koniyi temsil etmek için de kullanılabilir.
+Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğunda koniyi temsil etmek için de kullanılabilir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -29,27 +29,27 @@ Parametreli Silindir. radiusTop/radiusBottom'dan biri sıfır olduğunda koniyi 
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
-| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
-| [getGenerateFanCylinder()](#getGenerateFanCylinder--) | ThetaLength 2\*PI'dan küçük olduğunda fan tarzı silindir oluşturulup oluşturulmayacağını alır, aksi takdirde model kesilmez. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
+| [getGenerateFanCylinder()](#getGenerateFanCylinder--) | ThetaLength 2\*PI'den küçük olduğunda fan tarzı silindirin oluşturulup oluşturulmayacağını alır, aksi takdirde model kesilmez. |
 | [getHeight()](#getHeight--) | Silindirin yüksekliğini alır. |
 | [getHeightSegments()](#getHeightSegments--) | Yükseklik segmentlerini alır. |
 | [getName()](#getName--) | Adı alır. |
 | [getOffsetBottom()](#getOffsetBottom--) | Alt tarafın köşe dönüşüm ofsetini alır. |
 | [getOffsetTop()](#getOffsetTop--) | Üst tarafın köşe dönüşüm ofsetini alır. |
-| [getOpenEnded()](#getOpenEnded--) | Bu [Cylinder](../../com.aspose.threed/cylinder) açık uçlu olup olmadığını gösteren bir değer alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getOpenEnded()](#getOpenEnded--) | Bu [Cylinder](../../com.aspose.threed/cylinder) açık uçlu olup olmadığını gösteren bir değeri alır. |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getRadialSegments()](#getRadialSegments--) | Radyal segmentleri alır. |
 | [getRadiusBottom()](#getRadiusBottom--) | Silindirin alt kapağının yarıçapını alır. |
 | [getRadiusTop()](#getRadiusTop--) | Silindirin üst kapağının yarıçapını alır. |
 | [getReceiveShadows()](#getReceiveShadows--) | Bu geometrinin gölge alıp almayacağını al. |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [getShearBottom()](#getShearBottom--) | Alt tarafın kayma dönüşümünü alır, vektör (x ekseni, z ekseni) kayma değerini radian cinsinden saklar, varsayılan değer (0, 0)'dır. |
 | [getShearTop()](#getShearTop--) | Üst tarafın kayma dönüşümünü alır, vektör (x ekseni, z ekseni) kayma değerini radian cinsinden saklar, varsayılan değer (0, 0)'dır. |
 | [getThetaLength()](#getThetaLength--) | Theta uzunluğunu alır. |
@@ -58,8 +58,8 @@ Parametreli Silindir. radiusTop/radiusBottom'dan biri sıfır olduğunda koniyi 
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarla. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setGenerateFanCylinder(boolean value)](#setGenerateFanCylinder-boolean-) | ThetaLength 2\*PI'den küçük olduğunda fan tarzı silindir oluşturulup oluşturulmayacağını ayarlar, aksi takdirde model kesilmez. |
 | [setHeight(double value)](#setHeight-double-) | Silindirin yüksekliğini ayarlar. |
@@ -68,17 +68,17 @@ Parametreli Silindir. radiusTop/radiusBottom'dan biri sıfır olduğunda koniyi 
 | [setOffsetBottom(Vector3 value)](#setOffsetBottom-com.aspose.threed.Vector3-) | Alt tarafın köşe dönüşüm ofsetini ayarlar. |
 | [setOffsetTop(Vector3 value)](#setOffsetTop-com.aspose.threed.Vector3-) | Üst tarafın köşe dönüşüm ofsetini ayarlar. |
 | [setOpenEnded(boolean value)](#setOpenEnded-boolean-) | Bu [Cylinder](../../com.aspose.threed/cylinder) açık uçlu olup olmadığını gösteren bir değeri ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setRadialSegments(int value)](#setRadialSegments-int-) | Radyal segmentleri ayarlar. |
 | [setRadiusBottom(double value)](#setRadiusBottom-double-) | Silindirin alt kapağının yarıçapını ayarlar. |
 | [setRadiusTop(double value)](#setRadiusTop-double-) | Silindirin üst kapağının yarıçapını ayarlar. |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarlar. |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarla. |
 | [setShearBottom(Vector2 value)](#setShearBottom-com.aspose.threed.Vector2-) | Alt tarafın kayma dönüşümünü ayarlar, vektör (x ekseni, z ekseni) kayma değerini radian cinsinden saklar, varsayılan değer (0, 0)'dır. |
 | [setShearTop(Vector2 value)](#setShearTop-com.aspose.threed.Vector2-) | Üst tarafın kayma dönüşümünü ayarlar, vektör (x ekseni, z ekseni) kayma değerini radian cinsinden saklar, varsayılan değer (0, 0)'dır. |
 | [setThetaLength(double value)](#setThetaLength-double-) | Theta uzunluğunu ayarlar. |
 | [setThetaStart(double value)](#setThetaStart-double-) | Theta başlangıcını ayarlar. |
-| [toMesh()](#toMesh--) | Mevcut nesneyi mesh'e dönüştür. |
+| [toMesh()](#toMesh--) | Geçerli nesneyi mesh'e dönüştür |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -136,7 +136,7 @@ Yeni bir [Cylinder](../../com.aspose.threed/cylinder) sınıfı örneği başlat
 | yükseklik | double | Silindirin yüksekliği. |
 | radialSegments | int | Üst ve alt dairelerin radyal segmentleri.. |
 | heightSegments | int | Yükseklik segmentleri. |
-| openEnded | boolean | Eğer  true  olarak ayarlanırsa silindirin alt/üst kapakları olmaz.. |
+| openEnded | boolean | Eğer true olarak ayarlanırsa silindirin alt/üst kapakları olmaz.. |
 
 ### Cylinder(String name, double radiusTop, double radiusBottom, double height, int radialSegments, int heightSegments, boolean openEnded, double thetaStart, double thetaLength) {#Cylinder-java.lang.String-double-double-double-int-int-boolean-double-double-}
 ```
@@ -155,7 +155,7 @@ Yeni bir [Cylinder](../../com.aspose.threed/cylinder) sınıfı örneği başlat
 | yükseklik | double | Silindirin yüksekliği. |
 | radialSegments | int | Üst ve alt dairelerin radyal segmentleri.. |
 | heightSegments | int | Yükseklik segmentleri. |
-| openEnded | boolean | Eğer  true  olarak ayarlanırsa silindirin alt/üst kapakları olmaz.. |
+| openEnded | boolean | Eğer true olarak ayarlanırsa silindirin alt/üst kapakları olmaz.. |
 | thetaStart | double | Theta başlangıcı. |
 | thetaLength | double | Theta uzunluğu. |
 
@@ -180,7 +180,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -195,7 +195,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -212,7 +212,7 @@ public boolean getCastShadows()
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını alır
+Bu geometrinin gölge oluşturup oluşturamayacağını alır.
 
 **Returns:**
 boolean - bu geometrinin gölge oluşturup oluşturamayacağı
@@ -232,7 +232,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -242,7 +242,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -252,10 +252,10 @@ public boolean getGenerateFanCylinder()
 ```
 
 
-ThetaLength 2\*PI'dan küçük olduğunda fan tarzı silindir oluşturulup oluşturulmayacağını alır, aksi takdirde model kesilmez.
+ThetaLength 2\*PI'den küçük olduğunda fan tarzı silindirin oluşturulup oluşturulmayacağını alır, aksi takdirde model kesilmez.
 
 **Returns:**
-boolean - ThetaLength 2\*PI'den küçük olduğunda fan tarzı silindir oluşturulup oluşturulmayacağını, aksi takdirde model kesilmeyecek.
+boolean - ThetaLength 2\*PI'dan küçük olduğunda fan tarzı silindir oluşturulup oluşturulmayacağı, aksi takdirde model kesilmeyecek.
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -312,17 +312,17 @@ public boolean getOpenEnded()
 ```
 
 
-Bu [Cylinder](../../com.aspose.threed/cylinder) açık uçlu olup olmadığını gösteren bir değer alır. Varsayılan değer false.
+Bu [Cylinder](../../com.aspose.threed/cylinder) açık uçlu olup olmadığını gösteren bir değer alır. Varsayılan değer false'dur.
 
 **Returns:**
-boolean - bu [Cylinder](../../com.aspose.threed/cylinder) açık uçlu olup olmadığını gösteren bir değer. Varsayılan değer false.
+boolean - bu [Cylinder](../../com.aspose.threed/cylinder) açık uçlu olup olmadığını gösteren bir değer. Varsayılan değer false'dur.
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -332,7 +332,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -352,7 +352,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -407,7 +407,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -498,7 +498,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -513,7 +513,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar
+Bu geometrinin gölge oluşturup oluşturamayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -630,7 +630,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -643,7 +643,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -696,7 +696,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge alıp almayacağını ayarlar.
+Bu geometrinin gölge alıp almayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -761,7 +761,7 @@ public Mesh toMesh()
 ```
 
 
-Mevcut nesneyi mesh'e dönüştür.
+Geçerli nesneyi mesh'e dönüştür
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

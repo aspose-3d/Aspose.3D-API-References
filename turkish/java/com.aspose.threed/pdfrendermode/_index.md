@@ -18,21 +18,21 @@ Render modu, 3D sanat eserinin render edildiği stili belirtir.
 
 | Alan | Açıklama |
 | --- | --- |
-| [BOUNDING_BOX](#BOUNDING-BOX) | Her düğümün sınırlayıcı kutu kenarlarını, o düğümün yerel koordinat uzayının eksenlerine hizalanmış şekilde görüntüler. |
-| [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | Kenarlıkları tek bir renkte görüntüler, ancak geri yönlü ve gizlenmiş kenarları kaldırır. |
-| [ILLUSTRATION](#ILLUSTRATION) | Silüet kenarlarını yüzeylerle birlikte görüntüler, gizlenmiş çizgileri kaldırır. |
-| [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | Aydınlatılmış ve dokulu yüzeylerle birlikte silüet kenarlarını görüntüler ve eser üzerindeki yetersiz aydınlatılmış alanları kaldırmak için ek bir yayılımlı terim ekler. |
-| [SHADED_VERTICES](#SHADED-VERTICES) | Yalnızca köşe noktalarını görüntüler, ancak köşe renklerini kullanır ve aydınlatma uygular. |
-| [SHADED_WIREFRAME](#SHADED-WIREFRAME) | Yalnızca kenarları görüntüler, ancak renklerini iki köşe arasında ara değer alarak ve aydınlatma uygular. |
-| [SOLID](#SOLID) | Dokulu ve aydınlatılmış geometrik şekilleri görüntüler. |
-| [SOLID_OUTLINE](#SOLID-OUTLINE) | Aydınlatılmış ve dokulu yüzeylerle birlikte silüet kenarlarını görüntüler, gizlenmiş çizgileri kaldırır. |
-| [SOLID_WIREFRAME](#SOLID-WIREFRAME) | Dokulu ve aydınlatılmış geometrik şekilleri (üçgenler) tek renk kenarlarla üstünde görüntüler. |
-| [TRANSPARENT](#TRANSPARENT) | Dokulu ve aydınlatılmış geometrik şekilleri (üçgenler) ek bir şeffaflık seviyesiyle görüntüler. |
-| [TRANSPARENT_BOUNDING_BOX](#TRANSPARENT-BOUNDING-BOX) | Her düğümün sınırlayıcı kutu yüzeylerini, o düğümün yerel koordinat uzayının eksenlerine hizalanmış şekilde ve ek bir şeffaflık seviyesiyle görüntüler. |
-| [TRANSPARENT_BOUNDING_BOX_OUTLINE](#TRANSPARENT-BOUNDING-BOX-OUTLINE) | Her düğümün sınırlayıcı kutu kenarlarını ve yüzeylerini, o düğümün yerel koordinat uzayının eksenlerine hizalanmış şekilde ve ek bir şeffaflık seviyesiyle görüntüler. |
-| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | Dokulu ve aydınlatılmış geometrik şekilleri (üçgenler) ek bir şeffaflık seviyesiyle ve üzerlerinde tek renk opak kenarlarla görüntüler. |
-| [VERTICES](#VERTICES) | Yalnızca köşe noktalarını tek bir renkte görüntüler. |
-| [WIREFRAME](#WIREFRAME) | Yalnızca kenarları tek bir renkte görüntüler. |
+| [BOUNDING_BOX](#BOUNDING-BOX) | Her düğümün sınırlayıcı kutu kenarlarını, o düğümün yerel koordinat uzayının eksenlerine hizalanmış şekilde gösterir. |
+| [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | Kenarları tek bir renkte gösterir, ancak geri yönlü ve gizlenmiş kenarları kaldırır. |
+| [ILLUSTRATION](#ILLUSTRATION) | Silüet kenarlarını yüzeylerle birlikte gösterir, gizlenmiş çizgileri kaldırır. |
+| [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | Aydınlatılmış ve dokulu yüzeylerle silüet kenarlarını gösterir ve yetersiz aydınlatılmış alanları kaldırmak için ek bir ışınım terimi ekler. |
+| [SHADED_VERTICES](#SHADED-VERTICES) | Yalnızca köşe noktalarını gösterir, ancak köşe renklerini kullanır ve aydınlatma uygular. |
+| [SHADED_WIREFRAME](#SHADED-WIREFRAME) | Yalnızca kenarları gösterir, ancak renklerini iki köşe arasında ara değer alarak belirler ve aydınlatma uygular. |
+| [SOLID](#SOLID) | Doku ve aydınlatmalı geometrik şekilleri gösterir. |
+| [SOLID_OUTLINE](#SOLID-OUTLINE) | Aydınlatılmış ve dokulu yüzeylerle silüet kenarlarını gösterir, gizlenmiş çizgileri kaldırır. |
+| [SOLID_WIREFRAME](#SOLID-WIREFRAME) | Doku ve aydınlatmalı geometrik şekilleri (üçgenler) tek renk kenarlarla üstünde gösterir. |
+| [TRANSPARENT](#TRANSPARENT) | Doku ve aydınlatmalı geometrik şekilleri (üçgenler) ek bir şeffaflık seviyesiyle gösterir. |
+| [TRANSPARENT_BOUNDING_BOX](#TRANSPARENT-BOUNDING-BOX) | Her düğümün sınırlayıcı kutu yüzeylerini, yerel koordinat uzayının eksenlerine hizalanmış şekilde ve ek bir şeffaflık seviyesiyle gösterir. |
+| [TRANSPARENT_BOUNDING_BOX_OUTLINE](#TRANSPARENT-BOUNDING-BOX-OUTLINE) | Her düğümün sınırlayıcı kutu kenarlarını ve yüzeylerini, yerel koordinat uzayının eksenlerine hizalanmış şekilde ve ek bir şeffaflık seviyesiyle gösterir. |
+| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | Doku ve aydınlatmalı geometrik şekilleri (üçgenler) ek bir şeffaflık seviyesiyle ve üstünde tek renk opak kenarlarla gösterir. |
+| [VERTICES](#VERTICES) | Yalnızca köşe noktalarını tek bir renkte gösterir. |
+| [WIREFRAME](#WIREFRAME) | Yalnızca kenarları tek bir renkte gösterir. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -60,7 +60,7 @@ public static final PdfRenderMode BOUNDING_BOX
 ```
 
 
-Her düğümün sınırlayıcı kutu kenarlarını, o düğümün yerel koordinat uzayının eksenlerine hizalanmış şekilde görüntüler.
+Her düğümün sınırlayıcı kutu kenarlarını, o düğümün yerel koordinat uzayının eksenlerine hizalanmış şekilde gösterir.
 
 ### HIDDEN_WIREFRAME {#HIDDEN-WIREFRAME}
 ```
@@ -68,7 +68,7 @@ public static final PdfRenderMode HIDDEN_WIREFRAME
 ```
 
 
-Kenarlıkları tek bir renkte görüntüler, ancak geri yönlü ve gizlenmiş kenarları kaldırır.
+Kenarları tek bir renkte gösterir, ancak geri yönlü ve gizlenmiş kenarları kaldırır.
 
 ### ILLUSTRATION {#ILLUSTRATION}
 ```
@@ -76,7 +76,7 @@ public static final PdfRenderMode ILLUSTRATION
 ```
 
 
-Silüet kenarlarını yüzeylerle birlikte görüntüler, gizlenmiş çizgileri kaldırır.
+Silüet kenarlarını yüzeylerle birlikte gösterir, gizlenmiş çizgileri kaldırır.
 
 ### SHADED_ILLUSTRATION {#SHADED-ILLUSTRATION}
 ```
@@ -84,7 +84,7 @@ public static final PdfRenderMode SHADED_ILLUSTRATION
 ```
 
 
-Aydınlatılmış ve dokulu yüzeylerle birlikte silüet kenarlarını görüntüler ve eser üzerindeki yetersiz aydınlatılmış alanları kaldırmak için ek bir yayılımlı terim ekler.
+Aydınlatılmış ve dokulu yüzeylerle silüet kenarlarını gösterir ve yetersiz aydınlatılmış alanları kaldırmak için ek bir ışınım terimi ekler.
 
 ### SHADED_VERTICES {#SHADED-VERTICES}
 ```
@@ -92,7 +92,7 @@ public static final PdfRenderMode SHADED_VERTICES
 ```
 
 
-Yalnızca köşe noktalarını görüntüler, ancak köşe renklerini kullanır ve aydınlatma uygular.
+Yalnızca köşe noktalarını gösterir, ancak köşe renklerini kullanır ve aydınlatma uygular.
 
 ### SHADED_WIREFRAME {#SHADED-WIREFRAME}
 ```
@@ -100,7 +100,7 @@ public static final PdfRenderMode SHADED_WIREFRAME
 ```
 
 
-Yalnızca kenarları görüntüler, ancak renklerini iki köşe arasında ara değer alarak ve aydınlatma uygular.
+Yalnızca kenarları gösterir, ancak renklerini iki köşe arasında ara değer alarak belirler ve aydınlatma uygular.
 
 ### SOLID {#SOLID}
 ```
@@ -108,7 +108,7 @@ public static final PdfRenderMode SOLID
 ```
 
 
-Dokulu ve aydınlatılmış geometrik şekilleri görüntüler.
+Doku ve aydınlatmalı geometrik şekilleri gösterir.
 
 ### SOLID_OUTLINE {#SOLID-OUTLINE}
 ```
@@ -116,7 +116,7 @@ public static final PdfRenderMode SOLID_OUTLINE
 ```
 
 
-Aydınlatılmış ve dokulu yüzeylerle birlikte silüet kenarlarını görüntüler, gizlenmiş çizgileri kaldırır.
+Aydınlatılmış ve dokulu yüzeylerle silüet kenarlarını gösterir, gizlenmiş çizgileri kaldırır.
 
 ### SOLID_WIREFRAME {#SOLID-WIREFRAME}
 ```
@@ -124,7 +124,7 @@ public static final PdfRenderMode SOLID_WIREFRAME
 ```
 
 
-Dokulu ve aydınlatılmış geometrik şekilleri (üçgenler) tek renk kenarlarla üstünde görüntüler.
+Doku ve aydınlatmalı geometrik şekilleri (üçgenler) tek renk kenarlarla üstünde gösterir.
 
 ### TRANSPARENT {#TRANSPARENT}
 ```
@@ -132,7 +132,7 @@ public static final PdfRenderMode TRANSPARENT
 ```
 
 
-Dokulu ve aydınlatılmış geometrik şekilleri (üçgenler) ek bir şeffaflık seviyesiyle görüntüler.
+Doku ve aydınlatmalı geometrik şekilleri (üçgenler) ek bir şeffaflık seviyesiyle gösterir.
 
 ### TRANSPARENT_BOUNDING_BOX {#TRANSPARENT-BOUNDING-BOX}
 ```
@@ -140,7 +140,7 @@ public static final PdfRenderMode TRANSPARENT_BOUNDING_BOX
 ```
 
 
-Her düğümün sınırlayıcı kutu yüzeylerini, o düğümün yerel koordinat uzayının eksenlerine hizalanmış şekilde ve ek bir şeffaflık seviyesiyle görüntüler.
+Her düğümün sınırlayıcı kutu yüzeylerini, yerel koordinat uzayının eksenlerine hizalanmış şekilde ve ek bir şeffaflık seviyesiyle gösterir.
 
 ### TRANSPARENT_BOUNDING_BOX_OUTLINE {#TRANSPARENT-BOUNDING-BOX-OUTLINE}
 ```
@@ -148,7 +148,7 @@ public static final PdfRenderMode TRANSPARENT_BOUNDING_BOX_OUTLINE
 ```
 
 
-Her düğümün sınırlayıcı kutu kenarlarını ve yüzeylerini, o düğümün yerel koordinat uzayının eksenlerine hizalanmış şekilde ve ek bir şeffaflık seviyesiyle görüntüler.
+Her düğümün sınırlayıcı kutu kenarlarını ve yüzeylerini, yerel koordinat uzayının eksenlerine hizalanmış şekilde ve ek bir şeffaflık seviyesiyle gösterir.
 
 ### TRANSPARENT_WIREFRAME {#TRANSPARENT-WIREFRAME}
 ```
@@ -156,7 +156,7 @@ public static final PdfRenderMode TRANSPARENT_WIREFRAME
 ```
 
 
-Dokulu ve aydınlatılmış geometrik şekilleri (üçgenler) ek bir şeffaflık seviyesiyle ve üzerlerinde tek renk opak kenarlarla görüntüler.
+Doku ve aydınlatmalı geometrik şekilleri (üçgenler) ek bir şeffaflık seviyesiyle ve üstünde tek renk opak kenarlarla gösterir.
 
 ### VERTICES {#VERTICES}
 ```
@@ -164,7 +164,7 @@ public static final PdfRenderMode VERTICES
 ```
 
 
-Yalnızca köşe noktalarını tek bir renkte görüntüler.
+Yalnızca köşe noktalarını tek bir renkte gösterir.
 
 ### WIREFRAME {#WIREFRAME}
 ```
@@ -172,7 +172,7 @@ public static final PdfRenderMode WIREFRAME
 ```
 
 
-Yalnızca kenarları tek bir renkte görüntüler.
+Yalnızca kenarları tek bir renkte gösterir.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

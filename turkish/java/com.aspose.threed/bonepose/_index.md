@@ -1,7 +1,7 @@
 ---
 title: "BonePose"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bu, bir kemik düğümü için dönüşüm matrisini içerir"
+description: "Bu, bir kemik düğümü için dönüşüm matrisini içerir."
 type: docs
 weight: 21
 url: /tr/java/com.aspose.threed/bonepose/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BonePose
 ```
 
-Bu [BonePose](../../com.aspose.threed/bonepose) bir kemik düğümü için dönüşüm matrisini içerir
+Bu [BonePose](../../com.aspose.threed/bonepose) bir kemik düğümü için dönüşüm matrisini içerir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -26,7 +26,7 @@ Bu [BonePose](../../com.aspose.threed/bonepose) bir kemik düğümü için dön�
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getMatrix()](#getMatrix--) | Geçerli pozda düğümün dönüşüm matrisini alır. |
-| [getNode()](#getNode--) | Sahne düğümünü alır, bir kaplamalı iskelet düğümüne işaret eder |
+| [getNode()](#getNode--) | Sahne düğümünü alır, bir kaplamalı iskelet düğümüne işaret eder. |
 | [hashCode()](#hashCode--) |  |
 | [isLocal()](#isLocal--) | Matrisin yerel koordinatta tanımlanıp tanımlanmadığını alır. |
 | [notify()](#notify--) |  |
@@ -85,7 +85,7 @@ public Node getNode()
 ```
 
 
-Sahne düğümünü alır, bir kaplamalı iskelet düğümüne işaret eder
+Sahne düğümünü alır, bir kaplamalı iskelet düğümüne işaret eder.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the scene node, points to a skinned skeleton node

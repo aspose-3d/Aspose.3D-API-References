@@ -18,8 +18,8 @@ Sol el ya da sağ el koordinat sistemi.
 
 | Alan | Açıklama |
 | --- | --- |
-| [LEFT_HANDED](#LEFT-HANDED) | Sol elle. |
-| [RIGHT_HANDED](#RIGHT-HANDED) | Sağ elle. |
+| [LEFT_HANDED](#LEFT-HANDED) | Sol elli. |
+| [RIGHT_HANDED](#RIGHT-HANDED) | Sağ elli. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -47,7 +47,7 @@ public static final CoordinatedSystem LEFT_HANDED
 ```
 
 
-Sol elle.
+Sol elli.
 
 ### RIGHT_HANDED {#RIGHT-HANDED}
 ```
@@ -55,7 +55,7 @@ public static final CoordinatedSystem RIGHT_HANDED
 ```
 
 
-Sağ elle.
+Sağ elli.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "MorphTargetChannel"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bir MorphTargetChannel, hedef geometrileri düzenlemek için  tarafından kullanılır."
+description: "Bir MorphTargetChannel,  tarafından hedef geometrileri düzenlemek için kullanılır."
 type: docs
 weight: 107
 url: /tr/java/com.aspose.threed/morphtargetchannel/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetChannel extends A3DObject
 ```
 
-Bir MorphTargetChannel, hedef geometrileri düzenlemek için [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) tarafından kullanılır. FBX gibi bazı dosya formatları paralel olarak birden fazla kanal destekler. **Remarks:** Ağırlık 0 ile 1.0 arasındadır ve hedef için varsayılan ağırlık 0.0'dır;
+Bir MorphTargetChannel, [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) tarafından hedef geometrileri düzenlemek için kullanılır. FBX gibi bazı dosya formatları paralel olarak birden fazla kanal destekler. **Remarks:** Ağırlık 0 ile 1.0 arasındadır ve hedef için varsayılan ağırlık 0.0'dır;
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -32,23 +32,23 @@ Bir MorphTargetChannel, hedef geometrileri düzenlemek için [MorphTargetDeforme
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
 | [get(Shape target)](#get-com.aspose.threed.Shape-) | Belirtilen geometri için ağırlığı alır |
-| [getChannelWeight()](#getChannelWeight--) | Bu kanalın deformasyon ağırlığını alır. |
+| [getChannelWeight()](#getChannelWeight--) | Bu kanalın deforme edici ağırlığını alır. |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getTargets()](#getTargets--) | Kanal ile ilişkili tüm hedefleri alır. |
-| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | Belirtilen hedef için ağırlığı alır, hedef bu kanala ait değilse, varsayılan değer 0 döndürülür. |
+| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | Belirtilen hedef için ağırlığı alır, hedef bu kanala ait değilse varsayılan değer 0 döndürülür. |
 | [getWeights()](#getWeights--) | Hedef geometrilerin tam ağırlık değerlerini alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | Belirtilen geometri için ağırlığı ayarlar |
-| [setChannelWeight(double value)](#setChannelWeight-double-) | Bu kanalın deformasyon ağırlığını ayarlar. |
+| [setChannelWeight(double value)](#setChannelWeight-double-) | Bu kanalın deforme edici ağırlığını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setWeight(Shape target)](#setWeight-com.aspose.threed.Shape-) | Belirtilen hedef için ağırlığı ayarlar, varsayılan değer 1'dir, aralık 0~1 arasında olmalıdır. |
 | [setWeight(Shape target, double weight)](#setWeight-com.aspose.threed.Shape-double-) | Belirtilen hedef için ağırlığı ayarlar, varsayılan değer 1'dir, aralık 0~1 arasında olmalıdır. |
 | [toString()](#toString--) |  |
@@ -105,7 +105,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -135,10 +135,10 @@ public double getChannelWeight()
 ```
 
 
-Bu kanalın deformasyon ağırlığını alır. Ağırlık 0.0 ile 1.0 arasındadır.
+Bu kanalın deforme edici ağırlığını alır. Ağırlık 0.0 ile 1.0 arasındadır.
 
 **Returns:**
-double - bu kanalın deformasyon ağırlığı. Ağırlık 0.0 ile 1.0 arasındadır.
+double - bu kanalın deforme edici ağırlığı. Ağırlık 0.0 ile 1.0 arasındadır.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -175,7 +175,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -200,7 +200,7 @@ public double getWeight(Shape target)
 ```
 
 
-Belirtilen hedef için ağırlığı alır, hedef bu kanala ait değilse, varsayılan değer 0 döndürülür.
+Belirtilen hedef için ağırlığı alır, hedef bu kanala ait değilse varsayılan değer 0 döndürülür.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -266,7 +266,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -295,7 +295,7 @@ public void setChannelWeight(double value)
 ```
 
 
-Bu kanalın deformasyon ağırlığını ayarlar. Ağırlık 0.0 ile 1.0 arasındadır.
+Bu kanalın deforme edici ağırlığını ayarlar. Ağırlık 0.0 ile 1.0 arasındadır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -321,7 +321,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

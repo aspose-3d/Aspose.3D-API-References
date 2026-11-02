@@ -18,40 +18,40 @@ Köşeleri yuvarlatılmış, IFC uyumlu dikdörtgen şekil.
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [RectangleShape()](#RectangleShape--) | [RectangleShape](../../com.aspose.threed/rectangleshape) yapıcı metodu |
-| [RectangleShape(double xdim, double ydim)](#RectangleShape-double-double-) | X ve Y ekseninde belirtilen boyutla [RectangleShape](../../com.aspose.threed/rectangleshape) yapıcı metodu. |
+| [RectangleShape()](#RectangleShape--) | [RectangleShape](../../com.aspose.threed/rectangleshape) yapıcısı |
+| [RectangleShape(double xdim, double ydim)](#RectangleShape-double-double-) | [RectangleShape](../../com.aspose.threed/rectangleshape) yapıcısı, x ve y ekseninde belirtilen boyutla. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getExtent()](#getExtent--) | x ve y boyutundaki genişliği alır. |
 | [getName()](#getName--) | Adı alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getRoundingRadius()](#getRoundingRadius--) | Tüm dört köşenin dairesel yaylarının yarıçapını derece cinsinden alır. |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
-| [getXDim()](#getXDim--) | Dikdörtgenin x ekseni yönündeki kapsamını alır. Varsayılan değer 2.0 |
-| [getYDim()](#getYDim--) | Dikdörtgenin y ekseni yönündeki kapsamını alır. Varsayılan değer 2.0 |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getRoundingRadius()](#getRoundingRadius--) | Tüm dört köşenin dairesel yaylarının yarıçapını, derece cinsinden alır. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
+| [getXDim()](#getXDim--) | Dikdörtgenin x ekseni yönündeki genişliğini alır. Varsayılan değer 2.0'dır. |
+| [getYDim()](#getYDim--) | Dikdörtgenin y ekseni yönündeki genişliğini alır. Varsayılan değer 2.0'dır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setRoundingRadius(double value)](#setRoundingRadius-double-) | Tüm dört köşenin dairesel yaylarının yarıçapını derece cinsinden ayarlar. |
-| [setXDim(double value)](#setXDim-double-) | Dikdörtgenin x ekseni yönündeki kapsamını ayarlar. Varsayılan değer 2.0 |
-| [setYDim(double value)](#setYDim-double-) | Dikdörtgenin y ekseni yönündeki kapsamını ayarlar. Varsayılan değer 2.0 |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setRoundingRadius(double value)](#setRoundingRadius-double-) | Tüm dört köşenin dairesel yaylarının yarıçapını, derece cinsinden ayarlar. |
+| [setXDim(double value)](#setXDim-double-) | Dikdörtgenin x ekseni yönündeki genişliğini ayarlar. Varsayılan değer 2.0'dır. |
+| [setYDim(double value)](#setYDim-double-) | Dikdörtgenin y ekseni yönündeki genişliğini ayarlar. Varsayılan değer 2.0'dır. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public RectangleShape()
 ```
 
 
-[RectangleShape](../../com.aspose.threed/rectangleshape) yapıcı metodu
+[RectangleShape](../../com.aspose.threed/rectangleshape) yapıcısı
 
 ### RectangleShape(double xdim, double ydim) {#RectangleShape-double-double-}
 ```
@@ -70,7 +70,7 @@ public RectangleShape(double xdim, double ydim)
 ```
 
 
-X ve Y ekseninde belirtilen boyutla [RectangleShape](../../com.aspose.threed/rectangleshape) yapıcı metodu.
+[RectangleShape](../../com.aspose.threed/rectangleshape) yapıcısı, x ve y ekseninde belirtilen boyutla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -99,7 +99,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -114,7 +114,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -141,7 +141,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -151,7 +151,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -181,7 +181,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -191,7 +191,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -211,7 +211,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -226,17 +226,17 @@ public double getRoundingRadius()
 ```
 
 
-Tüm dört köşenin dairesel yaylarının yarıçapını derece cinsinden alır. Varsayılan değer 0.0
+Tüm dört köşenin dairesel yaylarının yarıçapını, derece cinsinden alır. Varsayılan değer 0.0'dır.
 
 **Returns:**
-double - tüm dört köşenin dairesel yaylarının yarıçapı, derece cinsinden. Varsayılan değer 0.0
+double - Tüm dört köşenin dairesel yaylarının yarıçapı, derece cinsinden. Varsayılan değer 0.0'dır.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -246,20 +246,20 @@ public double getXDim()
 ```
 
 
-Dikdörtgenin x ekseni yönündeki kapsamını alır. Varsayılan değer 2.0
+Dikdörtgenin x ekseni yönündeki genişliğini alır. Varsayılan değer 2.0'dır.
 
 **Returns:**
-double - dikdörtgenin x ekseni yönündeki kapsamı. Varsayılan değer 2.0
+double - Dikdörtgenin x ekseni yönündeki genişliği. Varsayılan değer 2.0'dır.
 ### getYDim() {#getYDim--}
 ```
 public double getYDim()
 ```
 
 
-Dikdörtgenin y ekseni yönündeki kapsamını alır. Varsayılan değer 2.0
+Dikdörtgenin y ekseni yönündeki genişliğini alır. Varsayılan değer 2.0'dır.
 
 **Returns:**
-double - dikdörtgenin y ekseni yönündeki kapsamı. Varsayılan değer 2.0
+double - Dikdörtgenin y ekseni yönündeki genişliği. Varsayılan değer 2.0'dır.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -307,7 +307,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -348,7 +348,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -361,7 +361,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -375,7 +375,7 @@ public void setRoundingRadius(double value)
 ```
 
 
-Tüm dört köşenin dairesel yaylarının yarıçapını derece cinsinden ayarlar. Varsayılan değer 0.0
+Tüm dört köşenin dairesel yaylarının yarıçapını, derece cinsinden ayarlar. Varsayılan değer 0.0'dır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -388,7 +388,7 @@ public void setXDim(double value)
 ```
 
 
-Dikdörtgenin x ekseni yönündeki kapsamını ayarlar. Varsayılan değer 2.0
+Dikdörtgenin x ekseni yönündeki genişliğini ayarlar. Varsayılan değer 2.0'dır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -401,7 +401,7 @@ public void setYDim(double value)
 ```
 
 
-Dikdörtgenin y ekseni yönündeki kapsamını ayarlar. Varsayılan değer 2.0
+Dikdörtgenin y ekseni yönündeki genişliğini ayarlar. Varsayılan değer 2.0'dır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

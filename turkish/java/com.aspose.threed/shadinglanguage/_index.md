@@ -19,16 +19,16 @@ Sıkça kullanılan gölgelendirme dilleri
 | Alan | Açıklama |
 | --- | --- |
 | [AGAL](#AGAL) | Adobe Grafik Montaj Dili |
-| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | ARB montaj dili, GPU talimatlarını standartlaştırmak için OpenGL Mimari İnceleme Kurulu tarafından oluşturulan düşük seviyeli bir gölgelendirme dilidir. |
+| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | ARB montaj dili, OpenGL Mimari İnceleme Kurulu tarafından GPU talimatlarını standartlaştırmak için oluşturulan düşük seviyeli bir gölgelendirme dilidir. |
 | [CGFX](#CGFX) | NVIDIA Cg |
 | [DIRECTX_SHADER_ASSEMBLY](#DIRECTX-SHADER-ASSEMBLY) | DirectX gölgelendirici montaj dili |
-| [GELATO](#GELATO) | gelato gölgelendirme dili |
+| [GELATO](#GELATO) | Gelato gölgelendirme dili |
 | [GLSL](#GLSL) | GLSL |
 | [HLSL](#HLSL) | DirectX Yüksek Seviyeli Gölgelendirici dili |
 | [HOUDINIVEX](#HOUDINIVEX) | Houdini VEX Gölgelendirme dili |
 | [MENTAL_RAY](#MENTAL-RAY) | Mental Ray Gölgelendirici dili |
 | [METAL](#METAL) | iOS Metal Gölgelendirme dili |
-| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | Open gölgelendirme dili, Sony Pictures Imageworks tarafından geliştirilmiş ve Arnold rendercısında kullanılır. |
+| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | Open gölgelendirme dili, Sony Pictures Imageworks tarafından geliştirilmiş ve Arnold renderleyicisinde kullanılır. |
 | [PSSL](#PSSL) | PlayStation Gölgelendirici Dili |
 | [RENDER_MAN](#RENDER-MAN) | RenderMan gölgelendirme dili. |
 | [SFX](#SFX) | SFX |
@@ -67,7 +67,7 @@ public static final ShadingLanguage ARB_ASSEMBLY
 ```
 
 
-ARB montaj dili, GPU talimatlarını standartlaştırmak için OpenGL Mimari İnceleme Kurulu tarafından oluşturulan düşük seviyeli bir gölgelendirme dilidir.
+ARB montaj dili, OpenGL Mimari İnceleme Kurulu tarafından GPU talimatlarını standartlaştırmak için oluşturulan düşük seviyeli bir gölgelendirme dilidir.
 
 ### CGFX {#CGFX}
 ```
@@ -91,7 +91,7 @@ public static final ShadingLanguage GELATO
 ```
 
 
-gelato gölgelendirme dili
+Gelato gölgelendirme dili
 
 ### GLSL {#GLSL}
 ```
@@ -139,7 +139,7 @@ public static final ShadingLanguage OPEN_SHADING_LANGUAGE
 ```
 
 
-Open gölgelendirme dili, Sony Pictures Imageworks tarafından geliştirilmiş ve Arnold rendercısında kullanılır.
+Open gölgelendirme dili, Sony Pictures Imageworks tarafından geliştirilmiş ve Arnold renderleyicisinde kullanılır.
 
 ### PSSL {#PSSL}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "IIndexedVertexElement"
 second_title: "Aspose.3D for Java API Referansı"
-description: "İndeks verisine sahip VertexElement."
+description: "İndeks verilerine sahip VertexElement."
 type: docs
 weight: 243
 url: /tr/java/com.aspose.threed/iindexedvertexelement/
@@ -10,7 +10,7 @@ url: /tr/java/com.aspose.threed/iindexedvertexelement/
 public interface IIndexedVertexElement
 ```
 
-İndeks verisine sahip VertexElement.
+İndeks verilerine sahip VertexElement.
 ## Yöntemler
 
 | Yöntem | Açıklama |

@@ -22,7 +22,7 @@ Elemanın bir yüzeye nasıl eşlendiğini belirler. [MappingMode](../../com.asp
 | [CONTROL_POINT](#CONTROL-POINT) | Her veri, geometrinin kontrol noktasına eşlenir. |
 | [EDGE](#EDGE) | Veri kenara eşlenir. |
 | [POLYGON](#POLYGON) | Veri çokgene eşlenir. |
-| [POLYGON_VERTEX](#POLYGON-VERTEX) | Veri, çokgenin köşesine eşlenir. Bir kontrol noktası birden fazla çokgen tarafından paylaşıldığında ve veri [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) olarak eşlendiğinde, farklı çokgen köşesi olarak kullanılan kontrol noktası kendi verisine sahip olacaktır. |
+| [POLYGON_VERTEX](#POLYGON-VERTEX) | Veri, çokgenin köşesine eşlenir. Bir kontrol noktası birden fazla çokgen tarafından paylaşıldığında ve veri [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) olarak eşlendiğinde, kontrol noktası farklı çokgen köşesi olarak kendi verisine sahip olacaktır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -50,7 +50,7 @@ public static final MappingMode ALL_SAME
 ```
 
 
-Tüm yüzeye eşlenen bir veri. Kontrol noktası/çokgen köşesi/kenar uç noktaları olarak yorumlanan veri ne olursa olsun, veri her zaman [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME) tarafından tanımlandığı gibi aynı kalır.
+Tüm yüzeye eşlenen bir veri. Kontrol noktası/çokgen köşesi/kenar uç noktası olarak yorumlanan veri ne olursa olsun, veri her zaman [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME) tarafından tanımlandığı gibi aynı kalır.
 
 ### CONTROL_POINT {#CONTROL-POINT}
 ```
@@ -82,7 +82,7 @@ public static final MappingMode POLYGON_VERTEX
 ```
 
 
-Veri, çokgenin köşesine eşlenir. Bir kontrol noktası birden fazla çokgen tarafından paylaşıldığında ve veri [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) olarak eşlendiğinde, farklı çokgen köşesi olarak kullanılan kontrol noktası kendi verisine sahip olacaktır.
+Veri, çokgenin köşesine eşlenir. Bir kontrol noktası birden fazla çokgen tarafından paylaşıldığında ve veri [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) olarak eşlendiğinde, kontrol noktası farklı çokgen köşesi olarak kendi verisine sahip olacaktır.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

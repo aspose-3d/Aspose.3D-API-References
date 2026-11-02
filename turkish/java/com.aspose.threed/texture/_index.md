@@ -18,8 +18,8 @@ Bu sınıf dış bir dosyadan dokuyu tanımlar.
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Texture()](#Texture--) | [Texture](../../com.aspose.threed/texture) sınıfının yeni bir örneğini başlatır. |
-| [Texture(String name)](#Texture-java.lang.String-) | [Texture](../../com.aspose.threed/texture) sınıfının yeni bir örneğini başlatır. |
+| [Texture()](#Texture--) | Yeni bir [Texture](../../com.aspose.threed/texture) sınıf örneği başlatır. |
+| [Texture(String name)](#Texture-java.lang.String-) | Yeni bir [Texture](../../com.aspose.threed/texture) sınıf örneği başlatır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -30,15 +30,15 @@ Bu sınıf dış bir dosyadan dokuyu tanımlar.
 | [getAlphaSource()](#getAlphaSource--) | Doku alfa kanalını tanımlayıp tanımlamadığını alır. |
 | [getClass()](#getClass--) |  |
 | [getContent()](#getContent--) | Doku'nun ikili içeriğini alır. |
-| [getEnableMipMap()](#getEnableMipMap--) | Bu doku için mipmap'in etkin olup olmadığını alır. |
+| [getEnableMipMap()](#getEnableMipMap--) | Bu doku için mipmap'in etkin olup olmadığını alır |
 | [getFileName()](#getFileName--) | İlişkili doku dosyasını alır. |
 | [getMagFilter()](#getMagFilter--) | Büyütme için filtreyi alır. |
 | [getMinFilter()](#getMinFilter--) | Küçültme için filtreyi alır. |
-| [getMipFilter()](#getMipFilter--) | Mipmap seviyesi örneklemesi için filtreyi alır. |
+| [getMipFilter()](#getMipFilter--) | Mip seviyesi örneklemesi için filtreyi alır. |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getUVRotation()](#getUVRotation--) | Doku dönüşünü alır. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getUVRotation()](#getUVRotation--) | Doku dönüşünü alır |
 | [getUVScale()](#getUVScale--) | UV ölçeğini alır. |
 | [getUVTranslation()](#getUVTranslation--) | UV çevirisini alır. |
 | [getWrapModeU()](#getWrapModeU--) | U eksenindeki doku sarma modlarını alır. |
@@ -48,21 +48,21 @@ Bu sınıf dış bir dosyadan dokuyu tanımlar.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setAlpha(double value)](#setAlpha-double-) | Doku için varsayılan alfa değerini ayarlar. Bu, [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) olduğunda geçerlidir. Varsayılan değer 1.0'dır, geçerli değer aralığı 0 ile 1 arasındadır. |
-| [setAlphaSource(AlphaSource value)](#setAlphaSource-com.aspose.threed.AlphaSource-) | Doku'nun alfa kanalını tanımlayıp tanımlamadığını ayarlar. |
+| [setAlphaSource(AlphaSource value)](#setAlphaSource-com.aspose.threed.AlphaSource-) | Doku alfa kanalını tanımlayıp tanımlamadığını ayarlar. |
 | [setContent(byte[] value)](#setContent-byte---) | Doku'nun ikili içeriğini ayarlar. |
-| [setEnableMipMap(boolean value)](#setEnableMipMap-boolean-) | Bu doku için mipmap'in etkin olup olmadığını ayarlar. |
+| [setEnableMipMap(boolean value)](#setEnableMipMap-boolean-) | Bu doku için mipmap'in etkin olup olmadığını ayarlar |
 | [setFileName(String value)](#setFileName-java.lang.String-) | İlişkili doku dosyasını ayarlar. |
 | [setMagFilter(TextureFilter value)](#setMagFilter-com.aspose.threed.TextureFilter-) | Büyütme filtresini ayarlar. |
 | [setMinFilter(TextureFilter value)](#setMinFilter-com.aspose.threed.TextureFilter-) | Küçültme filtresini ayarlar. |
 | [setMipFilter(TextureFilter value)](#setMipFilter-com.aspose.threed.TextureFilter-) | Mipmap seviyesi örneklemesi için filtreyi ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setRotation(double u, double v)](#setRotation-double-double-) | UV dönüşünü ayarlar. |
 | [setScale(double u, double v)](#setScale-double-double-) | UV ölçeğini ayarlar. |
 | [setTranslation(double u, double v)](#setTranslation-double-double-) | UV çevirimini ayarlar. |
-| [setUVRotation(Vector3 value)](#setUVRotation-com.aspose.threed.Vector3-) | Dokunun dönüşünü ayarlar. |
+| [setUVRotation(Vector3 value)](#setUVRotation-com.aspose.threed.Vector3-) | Dokunun dönüşünü ayarlar |
 | [setUVScale(Vector2 value)](#setUVScale-com.aspose.threed.Vector2-) | UV ölçeğini ayarlar. |
 | [setUVTranslation(Vector2 value)](#setUVTranslation-com.aspose.threed.Vector2-) | UV çevirimini ayarlar. |
 | [setWrapModeU(WrapMode value)](#setWrapModeU-com.aspose.threed.WrapMode-) | U eksenindeki doku sarma modlarını ayarlar. |
@@ -78,7 +78,7 @@ public Texture()
 ```
 
 
-[Texture](../../com.aspose.threed/texture) sınıfının yeni bir örneğini başlatır.
+Yeni bir [Texture](../../com.aspose.threed/texture) sınıf örneği başlatır.
 
 ### Texture(String name) {#Texture-java.lang.String-}
 ```
@@ -86,7 +86,7 @@ public Texture(String name)
 ```
 
 
-[Texture](../../com.aspose.threed/texture) sınıfının yeni bir örneğini başlatır.
+Yeni bir [Texture](../../com.aspose.threed/texture) sınıf örneği başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -114,7 +114,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -159,17 +159,17 @@ public byte[] getContent()
 ```
 
 
-Dokunun ikili içeriğini alır. Gömülü doku içeriği isteğe bağlıdır, eksikse kullanıcı dokuyu harici bir dosyadan yüklemelidir.
+Dokunun ikili içeriğini alır. Gömülü doku içeriği isteğe bağlıdır, eğer yoksa kullanıcı dokuyu dış dosyadan yüklemelidir.
 
 **Returns:**
-byte[] - dokunun ikili içeriği. Gömülü doku içeriği isteğe bağlıdır, eksikse kullanıcı dokuyu harici bir dosyadan yüklemelidir.
+byte[] - dokunun ikili içeriği. Gömülü doku içeriği isteğe bağlıdır, eğer yoksa kullanıcı dokuyu dış dosyadan yüklemelidir.
 ### getEnableMipMap() {#getEnableMipMap--}
 ```
 public boolean getEnableMipMap()
 ```
 
 
-Bu doku için mipmap'in etkin olup olmadığını alır.
+Bu doku için mipmap'in etkin olup olmadığını alır
 
 **Returns:**
 boolean - bu doku için mipmap'in etkin olup olmadığı
@@ -209,7 +209,7 @@ public TextureFilter getMipFilter()
 ```
 
 
-Mipmap seviyesi örneklemesi için filtreyi alır.
+Mip seviyesi örneklemesi için filtreyi alır.
 
 **Returns:**
 [TextureFilter](../../com.aspose.threed/texturefilter) - the filter for mip-level sampling.
@@ -239,7 +239,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -254,7 +254,7 @@ public Vector3 getUVRotation()
 ```
 
 
-Doku dönüşünü alır.
+Doku dönüşünü alır
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation of the texture
@@ -355,7 +355,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -396,7 +396,7 @@ public void setContent(byte[] value)
 ```
 
 
-Dokunun ikili içeriğini ayarlar. Gömülü doku içeriği isteğe bağlıdır, eksikse kullanıcı dokuyu harici bir dosyadan yüklemelidir.
+Dokunun ikili içeriğini ayarlar. Gömülü doku içeriği isteğe bağlıdır, eğer yoksa kullanıcı dokuyu dış dosyadan yüklemelidir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -409,7 +409,7 @@ public void setEnableMipMap(boolean value)
 ```
 
 
-Bu doku için mipmap'in etkin olup olmadığını ayarlar.
+Bu doku için mipmap'in etkin olup olmadığını ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -487,7 +487,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -543,7 +543,7 @@ public void setUVRotation(Vector3 value)
 ```
 
 
-Dokunun dönüşünü ayarlar.
+Dokunun dönüşünü ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

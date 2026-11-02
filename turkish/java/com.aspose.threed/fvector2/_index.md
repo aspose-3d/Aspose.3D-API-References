@@ -21,8 +21,8 @@ public final class FVector2 implements Struct<FVector2>, Serializable
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [FVector2(float x, float y)](#FVector2-float-float-) | [FVector2](../../com.aspose.threed/fvector2) nesnesinin yeni bir örneği başlatılır. |
-| [FVector2(Vector2 vec)](#FVector2-com.aspose.threed.Vector2-) | [FVector2](../../com.aspose.threed/fvector2) nesnesinin yeni bir örneği başlatılır. |
+| [FVector2(float x, float y)](#FVector2-float-float-) | [FVector2](../../com.aspose.threed/fvector2) nesnesinin yeni bir örneğini başlatır. |
+| [FVector2(Vector2 vec)](#FVector2-com.aspose.threed.Vector2-) | [FVector2](../../com.aspose.threed/fvector2) nesnesinin yeni bir örneğini başlatır. |
 | [FVector2()](#FVector2--) |  |
 ## Alanlar
 
@@ -42,13 +42,13 @@ public final class FVector2 implements Struct<FVector2>, Serializable
 | [equals(Object obj)](#equals-java.lang.Object-) | İki vektörün eşit olup olmadığını kontrol et |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) | Bu örneğin hash kodunu alır |
-| [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* operatör aşırı yükleme |
+| [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* Operatör aşırı yükleme |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_eq(FVector2 a, FVector2 b)](#op-eq-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | == Operatör aşırı yükleme |
 | [op_ne(FVector2 a, FVector2 b)](#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | != Operatör aşırı yükleme |
 | [sub(FVector2 a, FVector2 b)](#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \- Operatör aşırı yükleme |
-| [toString()](#toString--) | [FVector2](../../com.aspose.threed/fvector2) öğesini temsil eden bir dize döndürür |
+| [toString()](#toString--) | [FVector2](../../com.aspose.threed/fvector2)'i temsil eden bir dize döndürür |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -58,7 +58,7 @@ public FVector2(float x, float y)
 ```
 
 
-[FVector2](../../com.aspose.threed/fvector2) nesnesinin yeni bir örneği başlatılır.
+[FVector2](../../com.aspose.threed/fvector2) nesnesinin yeni bir örneğini başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -72,7 +72,7 @@ public FVector2(Vector2 vec)
 ```
 
 
-[FVector2](../../com.aspose.threed/fvector2) nesnesinin yeni bir örneği başlatılır.
+[FVector2](../../com.aspose.threed/fvector2) nesnesinin yeni bir örneğini başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -123,7 +123,7 @@ public FVector2 clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [FVector2](../../com.aspose.threed/fvector2)
@@ -169,7 +169,7 @@ public boolean equals(FVector2 rhs)
 | rhs | [FVector2](../../com.aspose.threed/fvector2) |  |
 
 **Returns:**
-boolean - Bütün bileşenler eşitse True.
+boolean - Tüm bileşenler eşitse True.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -211,7 +211,7 @@ public static FVector2 mul(FVector2 a, float b)
 ```
 
 
-\* operatör aşırı yükleme
+\* Operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -252,7 +252,7 @@ public static boolean op_eq(FVector2 a, FVector2 b)
 | b | [FVector2](../../com.aspose.threed/fvector2) | İkinci vektör |
 
 **Returns:**
-boolean - Bütün bileşenler eşitse True.
+boolean - Tüm bileşenler eşitse True.
 ### op_ne(FVector2 a, FVector2 b) {#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-}
 ```
 public static boolean op_ne(FVector2 a, FVector2 b)
@@ -291,7 +291,7 @@ public String toString()
 ```
 
 
-[FVector2](../../com.aspose.threed/fvector2) öğesini temsil eden bir dize döndürür
+[FVector2](../../com.aspose.threed/fvector2)'i temsil eden bir dize döndürür
 
 **Returns:**
 java.lang.String - Mevcut vektörün dize temsili.

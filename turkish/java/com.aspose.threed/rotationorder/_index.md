@@ -18,12 +18,12 @@ Sıra, dönüşüm matrisinde hangi rx ry rz'nin uygulandığını kontrol eder.
 
 | Alan | Açıklama |
 | --- | --- |
-| [XYZ](#XYZ) | X, Y, Z sırasında döndür |
-| [XZY](#XZY) | X, Z, Y sırasında döndür |
-| [YXZ](#YXZ) | Y, X, Z sırasında döndür |
-| [YZX](#YZX) | Y,Z,X sırasında döndür |
-| [ZXY](#ZXY) | Z,X,Y sırasında döndür |
-| [ZYX](#ZYX) | Z,Y,X sırasında döndür |
+| [XYZ](#XYZ) | X,Y,Z sırasıyla döndür |
+| [XZY](#XZY) | X,Z,Y sırasıyla döndür |
+| [YXZ](#YXZ) | Y,X,Z sırasıyla döndür |
+| [YZX](#YZX) | Y,Z,X sırasına göre döndür |
+| [ZXY](#ZXY) | Z,X,Y sırasına göre döndür |
+| [ZYX](#ZYX) | Z,Y,X sırasına göre döndür |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -51,7 +51,7 @@ public static final RotationOrder XYZ
 ```
 
 
-X, Y, Z sırasında döndür
+X,Y,Z sırasıyla döndür
 
 ### XZY {#XZY}
 ```
@@ -59,7 +59,7 @@ public static final RotationOrder XZY
 ```
 
 
-X, Z, Y sırasında döndür
+X,Z,Y sırasıyla döndür
 
 ### YXZ {#YXZ}
 ```
@@ -67,7 +67,7 @@ public static final RotationOrder YXZ
 ```
 
 
-Y, X, Z sırasında döndür
+Y,X,Z sırasıyla döndür
 
 ### YZX {#YZX}
 ```
@@ -75,7 +75,7 @@ public static final RotationOrder YZX
 ```
 
 
-Y,Z,X sırasında döndür
+Y,Z,X sırasına göre döndür
 
 ### ZXY {#ZXY}
 ```
@@ -83,7 +83,7 @@ public static final RotationOrder ZXY
 ```
 
 
-Z,X,Y sırasında döndür
+Z,X,Y sırasına göre döndür
 
 ### ZYX {#ZYX}
 ```
@@ -91,7 +91,7 @@ public static final RotationOrder ZYX
 ```
 
 
-Z,Y,X sırasında döndür
+Z,Y,X sırasına göre döndür
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

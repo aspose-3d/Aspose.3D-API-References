@@ -27,8 +27,8 @@ Bu sınıf bir dokunun ham verisini ve format tanımını içerir.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [fromFile(String fileName)](#fromFile-java.lang.String-) | Dosyadan bir doku yükle |
-| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | Akıştan bir doku yükle |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | Bir dosyadan doku yükle |
+| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | Bir akıştan doku yükle |
 | [getBytesPerPixel()](#getBytesPerPixel--) | Bir pikselin bayt sayısı |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | Piksel verisinin ham baytları |
@@ -36,22 +36,22 @@ Bu sınıf bir dokunun ham verisini ve format tanımını içerir.
 | [getName()](#getName--) | Adı alır. |
 | [getPixelFormat()](#getPixelFormat--) | Pikselin biçimi |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getStride()](#getStride--) | Bir tarama satırının bayt sayısı. |
 | [getWidth()](#getWidth--) | Yatay piksel sayısı |
 | [hashCode()](#hashCode--) |  |
 | [mapPixels(PixelMapMode mapMode)](#mapPixels-com.aspose.threed.PixelMapMode-) | Tüm pikselleri okuma/yazma için eşle |
 | [mapPixels(PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | Verilen piksel biçiminde tüm pikselleri okuma/yazma için eşle |
-| [mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.Rect-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | Dikdörtgen tarafından adreslenen pikselleri verilen piksel biçiminde okuma/yazma için eşle |
+| [mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.Rect-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | Dikdörtgenle adreslenen pikselleri verilen piksel biçiminde okuma/yazma için eşle |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [save(Stream stream, String format)](#save-com.aspose.threed.Stream-java.lang.String-) | Doku verilerini belirtilen görüntü biçimine kaydet |
 | [save(String fileName)](#save-java.lang.String-) | Doku verilerini görüntü dosyasına kaydet |
 | [save(String fileName, String format)](#save-java.lang.String-java.lang.String-) | Doku verilerini görüntü dosyasına kaydet |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [toString()](#toString--) |  |
 | [transformPixelFormat(PixelFormat pixelFormat)](#transformPixelFormat-com.aspose.threed.PixelFormat-) | Piksel düzenini yeni piksel biçimine dönüştür. |
 | [wait()](#wait--) |  |
@@ -70,7 +70,7 @@ public TextureData(int width, int height, int stride, int bytesPerPixel, PixelFo
 | --- | --- | --- |
 | genişlik | int |  |
 | yükseklik | int |  |
-| adım | int |  |
+| stride | int |  |
 | bytesPerPixel | int |  |
 | pixelFormat | [PixelFormat](../../com.aspose.threed/pixelformat) |  |
 | veri | byte[] |  |
@@ -119,7 +119,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -134,7 +134,7 @@ public static TextureData fromFile(String fileName)
 ```
 
 
-Dosyadan bir doku yükle
+Bir dosyadan doku yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -149,7 +149,7 @@ public static TextureData fromStream(Stream stream)
 ```
 
 
-Akıştan bir doku yükle
+Bir akıştan doku yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -234,7 +234,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -310,7 +310,7 @@ public PixelMapping mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat forma
 ```
 
 
-Dikdörtgen tarafından adreslenen pikselleri verilen piksel biçiminde okuma/yazma için eşle
+Dikdörtgenle adreslenen pikselleri verilen piksel biçiminde okuma/yazma için eşle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -358,7 +358,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -427,7 +427,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

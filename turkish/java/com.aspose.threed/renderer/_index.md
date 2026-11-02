@@ -22,19 +22,19 @@ Renderlayıcıyla ilgili bağlam.
 | Yöntem | Açıklama |
 | --- | --- |
 | [clearCache()](#clearCache--) | Önbelleği manuel olarak temizleyin. |
-| [close()](#close--) | [Renderer](../../com.aspose.threed/renderer) 'ı yok edin ve tüm ilgili kaynakları serbest bırakın |
+| [close()](#close--) | Serbest bırakın [Renderer](../../com.aspose.threed/renderer) ve tüm ilgili kaynakları. |
 | [createRenderer()](#createRenderer--) | Varsayılan profil ile yeni bir [Renderer](../../com.aspose.threed/renderer) oluşturur. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [execute(PostProcessing postProcessing, IRenderTarget result)](#execute-com.aspose.threed.PostProcessing-com.aspose.threed.IRenderTarget-) | Belirtilen render hedefi üzerinde bir post işleme yürütür. |
+| [execute(PostProcessing postProcessing, IRenderTarget result)](#execute-com.aspose.threed.PostProcessing-com.aspose.threed.IRenderTarget-) | Belirtilen render hedefi üzerinde bir post işleme yürütün. |
 | [getAssetDirectories()](#getAssetDirectories--) | Harici varlıkları depolayan dizinler. |
 | [getClass()](#getClass--) |  |
-| [getEnableShadows()](#getEnableShadows--) | Gölgelerin etkinleştirilip etkinleştirilmeyeceğini alır. |
-| [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | Varlığın özel bir renderlayıcı tanımlı olmadığı durumda geri dönüş varlık renderlayıcısını alır. |
+| [getEnableShadows()](#getEnableShadows--) | Gölge etkinleştirilip etkinleştirilmeyeceğini alır. |
+| [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | Varlığın özel bir renderlayıcı tanımlı olmadığı durumlarda yedek varlık renderlayıcısını alır. |
 | [getFrustum()](#getFrustum--) | Görünüm matrisini sağlamak için kullanılan frustum'u alır. |
 | [getMaterial()](#getMaterial--) | Shader'lar tarafından kullanılan malzeme bilgilerini sağlamak için kullanılan malzemeyi alır. |
-| [getNode()](#getNode--) | Dünya dönüşüm matrisini sağlamak için kullanılan [getNode](../../com.aspose.threed/renderer\#getNode) örneğini alır. |
+| [getNode()](#getNode--) | [getNode](../../com.aspose.threed/renderer\#getNode) örneğini, dünya dönüşüm matrisini sağlamak için alır. |
 | [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | Renderlayıcı tarafından desteklenen yerleşik bir post-işlemciyi alır. |
-| [getPostProcessings()](#getPostProcessings--) | Aktif post-işleme zinciri |
+| [getPostProcessings()](#getPostProcessings--) | Aktif post-işlem zinciri |
 | [getPresetShaders()](#getPresetShaders--) | Önceden ayarlanmış shader setini alır |
 | [getRenderFactory()](#getRenderFactory--) | Render ile ilgili nesneleri oluşturmak için fabrikayı alır. |
 | [getRenderStage()](#getRenderStage--) | Mevcut render aşamasını alır. |
@@ -46,12 +46,12 @@ Renderlayıcıyla ilgili bağlam.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [registerEntityRenderer(EntityRenderer renderer)](#registerEntityRenderer-com.aspose.threed.EntityRenderer-) | Belirtilen varlık için varlık renderlayıcısını kaydet |
-| [render(IRenderTarget renderTarget)](#render-com.aspose.threed.IRenderTarget-) | Belirtilen hedefi renderla |
-| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | Gölge etkinleştirilip etkinleştirilmeyeceğini ayarlar. |
-| [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | Varlığın özel bir renderlayıcı tanımlı olmadığı durumda geri dönüş varlık renderlayıcısını ayarlar. |
+| [render(IRenderTarget renderTarget)](#render-com.aspose.threed.IRenderTarget-) | Belirtilen hedefi renderle |
+| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | Gölgelendirmeyi etkinleştirip etkinleştirilmeyeceğini ayarlar. |
+| [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | Varlığın özel bir renderlayıcı tanımlı olmadığı durumlarda yedek varlık renderlayıcısını ayarlar. |
 | [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | Görünüm matrisini sağlamak için kullanılan frustum'u ayarlar. |
 | [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Shader'lar tarafından kullanılan malzeme bilgilerini sağlamak için kullanılan malzemeyi ayarlar. |
-| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Dünya dönüşüm matrisini sağlamak için kullanılan [getNode](../../com.aspose.threed/renderer\#getNode) örneğini ayarlar. |
+| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | [getNode](../../com.aspose.threed/renderer\#getNode) örneğini, dünya dönüşüm matrisini sağlamak için ayarlar. |
 | [setPresetShaders(PresetShaders value)](#setPresetShaders-com.aspose.threed.PresetShaders-) | Önceden ayarlanmış shader setini ayarlar |
 | [setShader(ShaderProgram value)](#setShader-com.aspose.threed.ShaderProgram-) | Geometriyi renderlemek için kullanılan shader örneğini ayarlar. |
 | [setShaderSet(ShaderSet value)](#setShaderSet-com.aspose.threed.ShaderSet-) | Sahneyi renderlemek için kullanılan shader setini ayarlar |
@@ -65,7 +65,7 @@ public void clearCache()
 ```
 
 
-Önbelleği manuel olarak temizleyin. Aspose.3D, malzemeler/geometriler gibi bazı nesneleri render boru hattıyla uyumlu iç türlere önbelleğe alır. Sahne büyük değişiklikler geçirdiğinde bu manuel olarak çağrılmalıdır.
+Önbelleği manuel olarak temizleyin. Aspose.3D, malzemeler/geometriler gibi bazı nesneleri render boru hattıyla uyumlu iç türlerde önbelleğe alır. Sahne büyük değişiklikler geçirdiğinde bu manuel olarak çağrılmalıdır.
 
 ### close() {#close--}
 ```
@@ -73,7 +73,7 @@ public void close()
 ```
 
 
-[Renderer](../../com.aspose.threed/renderer) 'ı yok edin ve tüm ilgili kaynakları serbest bırakın
+Serbest bırakın [Renderer](../../com.aspose.threed/renderer) ve tüm ilgili kaynakları.
 
 ### createRenderer() {#createRenderer--}
 ```
@@ -106,7 +106,7 @@ public abstract void execute(PostProcessing postProcessing, IRenderTarget result
 ```
 
 
-Belirtilen render hedefi üzerinde bir post işleme yürütür.
+Belirtilen render hedefi üzerinde bir post işleme yürütün.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -123,7 +123,7 @@ public ArrayList<String> getAssetDirectories()
 Harici varlıkları depolayan dizinler.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Dış varlıkların depolandığı dizinler
+java.util.ArrayList<java.lang.String> - Dış varlıkları depolayan dizinler
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -140,17 +140,17 @@ public boolean getEnableShadows()
 ```
 
 
-Gölgelerin etkinleştirilip etkinleştirilmeyeceğini alır.
+Gölge etkinleştirilip etkinleştirilmeyeceğini alır.
 
 **Returns:**
-boolean - gölgelerin etkinleştirilip etkinleştirilmeyeceği.
+boolean - gölgeleri etkinleştirip etkinleştirmeyeceği.
 ### getFallbackEntityRenderer() {#getFallbackEntityRenderer--}
 ```
 public EntityRenderer getFallbackEntityRenderer()
 ```
 
 
-Varlığın özel bir renderlayıcı tanımlı olmadığı durumda geri dönüş varlık renderlayıcısını alır.
+Varlığın özel bir renderlayıcı tanımlı olmadığı durumlarda yedek varlık renderlayıcısını alır.
 
 **Returns:**
 [EntityRenderer](../../com.aspose.threed/entityrenderer) - the fallback entity renderer when the entity has no special renderer defined.
@@ -180,7 +180,7 @@ public Node getNode()
 ```
 
 
-Dünya dönüşüm matrisini sağlamak için kullanılan [getNode](../../com.aspose.threed/renderer\#getNode) örneğini alır.
+[getNode](../../com.aspose.threed/renderer\#getNode) örneğini, dünya dönüşüm matrisini sağlamak için alır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the [getNode](../../com.aspose.threed/renderer\#getNode) instance used to provide world transform matrix.
@@ -205,10 +205,10 @@ public List<PostProcessing> getPostProcessings()
 ```
 
 
-Aktif post-işleme zinciri
+Aktif post-işlem zinciri
 
 **Returns:**
-java.util.List<com.aspose.threed.PostProcessing> - Aktif sonrası işleme zinciri
+java.util.List<com.aspose.threed.PostProcessing> - Aktif işleme sonrası zincir
 ### getPresetShaders() {#getPresetShaders--}
 ```
 public PresetShaders getPresetShaders()
@@ -324,7 +324,7 @@ public void render(IRenderTarget renderTarget)
 ```
 
 
-Belirtilen hedefi renderla
+Belirtilen hedefi renderle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -337,7 +337,7 @@ public void setEnableShadows(boolean value)
 ```
 
 
-Gölge etkinleştirilip etkinleştirilmeyeceğini ayarlar.
+Gölgelendirmeyi etkinleştirip etkinleştirilmeyeceğini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -350,7 +350,7 @@ public void setFallbackEntityRenderer(EntityRenderer value)
 ```
 
 
-Varlığın özel bir renderlayıcı tanımlı olmadığı durumda geri dönüş varlık renderlayıcısını ayarlar.
+Varlığın özel bir renderlayıcı tanımlı olmadığı durumlarda yedek varlık renderlayıcısını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -389,7 +389,7 @@ public void setNode(Node value)
 ```
 
 
-Dünya dönüşüm matrisini sağlamak için kullanılan [getNode](../../com.aspose.threed/renderer\#getNode) örneğini ayarlar.
+[getNode](../../com.aspose.threed/renderer\#getNode) örneğini, dünya dönüşüm matrisini sağlamak için ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

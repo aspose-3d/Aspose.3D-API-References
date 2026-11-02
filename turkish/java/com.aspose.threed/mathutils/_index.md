@@ -1,7 +1,7 @@
 ---
 title: "MathUtils"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Kullanışlı matematiksel yardımcı programların bir seti."
+description: "Kullanışlı bir dizi matematiksel yardımcı program."
 type: docs
 weight: 99
 url: /tr/java/com.aspose.threed/mathutils/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MathUtils
 ```
 
-Kullanışlı matematiksel yardımcı programların bir seti.
+Kullanışlı bir dizi matematiksel yardımcı program.
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -33,9 +33,9 @@ Kullanışlı matematiksel yardımcı programların bir seti.
 | [toDegree(double x, double y, double z)](#toDegree-double-double-double-) | Bir sayıyı radyandan dereceye dönüştür |
 | [toDegree(float radian)](#toDegree-float-) | Bir sayıyı radyandan dereceye dönüştür |
 | [toRadian(Vector3 degree)](#toRadian-com.aspose.threed.Vector3-) | [Vector3](../../com.aspose.threed/vector3) nesnesini dereceden radyana dönüştür |
-| [toRadian(double degree)](#toRadian-double-) | Bir sayıyı dereceden radyana dönüştür |
-| [toRadian(double x, double y, double z)](#toRadian-double-double-double-) | Bir vektörü dereceden radyana dönüştür |
-| [toRadian(float degree)](#toRadian-float-) | Bir sayıyı dereceden radyana dönüştür |
+| [toRadian(double degree)](#toRadian-double-) | Bir sayıyı derece cinsinden radyana dönüştür |
+| [toRadian(double x, double y, double z)](#toRadian-double-double-double-) | Bir vektörü derece cinsinden radyana dönüştür |
+| [toRadian(float degree)](#toRadian-float-) | Bir sayıyı derece cinsinden radyana dönüştür |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -66,12 +66,12 @@ Değeri [min, max] aralığına sınırlayın
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| val | double | Sınırlanacak değer. |
+| val | double | Kısıtlanacak değer. |
 | min | double | Minimum değer. |
-| max | double | Maximum değer. |
+| max | double | Maksimum değer. |
 
 **Returns:**
-double - [min, max] arasındaki değer **Example:**
+double - [min, max] arasındaki değer **Örnek:**
 
 ```
 double val = 195;
@@ -220,7 +220,7 @@ Bir sayıyı radyandan dereceye dönüştür
 | radyan | double | Radyan değeri. |
 
 **Returns:**
-double - Derece değeri. **Example:**
+double - Derece değeri. **Örnek:**
 
 ```
 var deg = MathUtils.toDegree(0.3);
@@ -257,7 +257,7 @@ Bir sayıyı radyandan dereceye dönüştür
 | radyan | float | Radyan değeri. |
 
 **Returns:**
-float - Derece değeri. **Example:**
+float - Derece değeri. **Örnek:**
 
 ```
 var deg = MathUtils.toDegree(0.3f);
@@ -289,7 +289,7 @@ public static double toRadian(double degree)
 ```
 
 
-Bir sayıyı dereceden radyana dönüştür
+Bir sayıyı derece cinsinden radyana dönüştür
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -297,7 +297,7 @@ Bir sayıyı dereceden radyana dönüştür
 | derece | double | Derece değeri. |
 
 **Returns:**
-double - Radyan değeri. **Example:**
+double - Radyan değeri. **Örnek:**
 
 ```
 var rad = MathUtils.toRadian(0.3);
@@ -309,7 +309,7 @@ public static Vector3 toRadian(double x, double y, double z)
 ```
 
 
-Bir vektörü dereceden radyana dönüştür
+Bir vektörü derece cinsinden radyana dönüştür
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -326,7 +326,7 @@ public static float toRadian(float degree)
 ```
 
 
-Bir sayıyı dereceden radyana dönüştür
+Bir sayıyı derece cinsinden radyana dönüştür
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -334,7 +334,7 @@ Bir sayıyı dereceden radyana dönüştür
 | derece | float | Derece değeri. |
 
 **Returns:**
-float - Radyan değeri. **Example:**
+float - Radyan değeri. **Örnek:**
 
 ```
 var rad = MathUtils.toRadian(0.3);

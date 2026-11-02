@@ -18,7 +18,7 @@ HTML5 için kaydetme seçenekleri
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Html5SaveOptions()](#Html5SaveOptions--) | Tüm varsayılan ayarlarla [Html5SaveOptions](../../com.aspose.threed/html5saveoptions) yapıcısı. |
+| [Html5SaveOptions()](#Html5SaveOptions--) | [Html5SaveOptions](../../com.aspose.threed/html5saveoptions) sınıfının tüm varsayılan ayarlarla yapıcı metodu. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -27,40 +27,40 @@ HTML5 için kaydetme seçenekleri
 | [getCameraPosition()](#getCameraPosition--) | Kameranın başlangıç konumunu alır, varsayılan değer (10, 10, 10)'dır. |
 | [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
-| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
+| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 | [getFarPlane()](#getFarPlane--) | Kameranın uzak düzlemini alır, varsayılan değer 1000'dir. |
-| [getFieldOfView()](#getFieldOfView--) | Görüş alanını alır, varsayılan değer 45'dir, derece cinsinden ölçülür. |
+| [getFieldOfView()](#getFieldOfView--) | Görüş alanını alır, varsayılan değer 45 derecedir. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
 | [getLookAt()](#getLookAt--) | Varsayılan bakış konumunu alır, varsayılan değer (0, 0, 0)'dır. |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [getNearPlane()](#getNearPlane--) | Kameranın yakın düzlemini alır, varsayılan değer 1'dir. |
-| [getOrientationBox()](#getOrientationBox--) | Bir yönlendirme kutusunu görüntüler. |
-| [getShowGrid()](#getShowGrid--) | Sahnede bir ızgara görüntüler. |
-| [getShowRulers()](#getShowRulers--) | Modeli ölçmek için sahnedeki x/y/z eksenlerinin cetvellerini görüntüler. |
-| [getShowUI()](#getShowUI--) | Sahnede basit bir kullanıcı arayüzü görüntüler. |
-| [getUpVector()](#getUpVector--) | Yukarı vektörünü alır, değer "x"/"y"/"z" olabilir, varsayılan değer "y" |
+| [getOrientationBox()](#getOrientationBox--) | Yönlendirme kutusunu göster. |
+| [getShowGrid()](#getShowGrid--) | Sahnede bir ızgara göster. |
+| [getShowRulers()](#getShowRulers--) | Modeli ölçmek için sahnedeki x/y/z eksenlerinin cetvellerini göster. |
+| [getShowUI()](#getShowUI--) | Sahnede basit bir kullanıcı arayüzü göster. |
+| [getUpVector()](#getUpVector--) | Yukarı vektörünü alır, değer \"x\"/\"y\"/\"z\" olabilir, varsayılan değer \"y\" |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCameraPosition(Vector3 value)](#setCameraPosition-com.aspose.threed.Vector3-) | Kameranın başlangıç konumunu ayarlar, varsayılan değer (10, 10, 10)'dir |
+| [setCameraPosition(Vector3 value)](#setCameraPosition-com.aspose.threed.Vector3-) | Kameranın başlangıç konumunu ayarlar, varsayılan değer (10, 10, 10)'dır |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 | [setFarPlane(double value)](#setFarPlane-double-) | Kameranın uzak düzlemini ayarlar, varsayılan değer 1000. |
-| [setFieldOfView(double value)](#setFieldOfView-double-) | Görünüm alanını ayarlar, varsayılan değer 45, derece cinsinden ölçülür. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setFieldOfView(double value)](#setFieldOfView-double-) | Görüş alanını ayarlar, varsayılan değer 45, derece cinsinden ölçülür. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
 | [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | Varsayılan bakış konumunu ayarlar, varsayılan değer (0, 0, 0)'dır |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [setNearPlane(double value)](#setNearPlane-double-) | Kameranın yakın düzlemini ayarlar, varsayılan değer 1 |
-| [setOrientationBox(boolean value)](#setOrientationBox-boolean-) | Bir yönlendirme kutusunu görüntüler. |
-| [setShowGrid(boolean value)](#setShowGrid-boolean-) | Sahnede bir ızgara görüntüler. |
-| [setShowRulers(boolean value)](#setShowRulers-boolean-) | Modeli ölçmek için sahnedeki x/y/z eksenlerinin cetvellerini görüntüler. |
-| [setShowUI(boolean value)](#setShowUI-boolean-) | Sahnede basit bir kullanıcı arayüzü görüntüler. |
-| [setUpVector(String value)](#setUpVector-java.lang.String-) | Yukarı vektörünü ayarlar, değer "x"/"y"/"z" olabilir, varsayılan değer "y" |
+| [setOrientationBox(boolean value)](#setOrientationBox-boolean-) | Yönlendirme kutusunu göster. |
+| [setShowGrid(boolean value)](#setShowGrid-boolean-) | Sahnede bir ızgara göster. |
+| [setShowRulers(boolean value)](#setShowRulers-boolean-) | Modeli ölçmek için sahnedeki x/y/z eksenlerinin cetvellerini göster. |
+| [setShowUI(boolean value)](#setShowUI-boolean-) | Sahnede basit bir kullanıcı arayüzü göster. |
+| [setUpVector(String value)](#setUpVector-java.lang.String-) | Yukarı vektörünü ayarlar, değer \"x\"/\"y\"/\"z\" olabilir, varsayılan değer \"y\" |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public Html5SaveOptions()
 ```
 
 
-Tüm varsayılan ayarlarla [Html5SaveOptions](../../com.aspose.threed/html5saveoptions) yapıcısı.
+[Html5SaveOptions](../../com.aspose.threed/html5saveoptions) sınıfının tüm varsayılan ayarlarla yapıcı metodu.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -114,20 +114,20 @@ public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Returns:**
-boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
+boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
 ### getFarPlane() {#getFarPlane--}
 ```
 public double getFarPlane()
@@ -144,10 +144,10 @@ public double getFieldOfView()
 ```
 
 
-Görüş alanını alır, varsayılan değer 45'dir, derece cinsinden ölçülür.
+Görüş alanını alır, varsayılan değer 45 derecedir.
 
 **Returns:**
-double - görünüm alanı, varsayılan değer 45, derece cinsinden ölçülür.
+double - görüş alanı, varsayılan değer 45, derece cinsinden ölçülür.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -164,10 +164,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -250,7 +250,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -278,7 +278,7 @@ public boolean getOrientationBox()
 Bir yönlendirme kutusu gösterir. Varsayılan değer true.
 
 **Returns:**
-boolean - bir yönlendirme kutusu gösterir. Varsayılan değer true.
+boolean - Bir yönlendirme kutusu gösterir. Varsayılan değer true.
 ### getShowGrid() {#getShowGrid--}
 ```
 public boolean getShowGrid()
@@ -288,7 +288,7 @@ public boolean getShowGrid()
 Sahnede bir ızgara gösterir. Varsayılan değer true.
 
 **Returns:**
-boolean - sahnede bir ızgara gösterir. Varsayılan değer true.
+boolean - Sahnede bir ızgara gösterir. Varsayılan değer true.
 ### getShowRulers() {#getShowRulers--}
 ```
 public boolean getShowRulers()
@@ -298,27 +298,27 @@ public boolean getShowRulers()
 Modeli ölçmek için sahnedeki x/y/z eksenlerinin cetvellerini gösterir. Varsayılan değer false.
 
 **Returns:**
-boolean - modeli ölçmek için sahnedeki x/y/z eksenlerinin cetvellerini gösterir. Varsayılan değer false.
+boolean - Modeli ölçmek için sahnedeki x/y/z eksenlerinin cetvellerini gösterir. Varsayılan değer false.
 ### getShowUI() {#getShowUI--}
 ```
 public boolean getShowUI()
 ```
 
 
-Sahnede basit bir kullanıcı arayüzü gösterir. Varsayılan değer true.
+Sahnede basit bir UI gösterir. Varsayılan değer true.
 
 **Returns:**
-boolean - sahnede basit bir kullanıcı arayüzü gösterir. Varsayılan değer true.
+boolean - Sahnede basit bir UI gösterir. Varsayılan değer true.
 ### getUpVector() {#getUpVector--}
 ```
 public String getUpVector()
 ```
 
 
-Yukarı vektörünü alır, değer "x"/"y"/"z" olabilir, varsayılan değer "y"
+Yukarı vektörünü alır, değer \"x\"/\"y\"/\"z\" olabilir, varsayılan değer \"y\"
 
 **Returns:**
-java.lang.String - yukarı vektörü, değer "x"/"y"/"z" olabilir, varsayılan değer "y"
+java.lang.String - yukarı vektörü, değer \"x\"/\"y\"/\"z\" olabilir, varsayılan değer \"y\"
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -351,7 +351,7 @@ public void setCameraPosition(Vector3 value)
 ```
 
 
-Kameranın başlangıç konumunu ayarlar, varsayılan değer (10, 10, 10)'dir
+Kameranın başlangıç konumunu ayarlar, varsayılan değer (10, 10, 10)'dır
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -364,7 +364,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -377,7 +377,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -403,7 +403,7 @@ public void setFieldOfView(double value)
 ```
 
 
-Görünüm alanını ayarlar, varsayılan değer 45, derece cinsinden ölçülür.
+Görüş alanını ayarlar, varsayılan değer 45, derece cinsinden ölçülür.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -416,7 +416,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -434,7 +434,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -471,7 +471,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -516,7 +516,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();
@@ -584,7 +584,7 @@ public void setShowUI(boolean value)
 ```
 
 
-Sahnede basit bir kullanıcı arayüzü gösterir. Varsayılan değer true.
+Sahnede basit bir UI gösterir. Varsayılan değer true.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -597,7 +597,7 @@ public void setUpVector(String value)
 ```
 
 
-Yukarı vektörünü ayarlar, değer "x"/"y"/"z" olabilir, varsayılan değer "y"
+Yukarı vektörünü ayarlar, değer \"x\"/\"y\"/\"z\" olabilir, varsayılan değer \"y\"
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -18,8 +18,8 @@ Alt ağlar arasında köşe/kontrol noktası verilerini paylaş veya her alt ağ
 
 | Alan | Açıklama |
 | --- | --- |
-| [CLONE_DATA](#CLONE-DATA) | Kontrol noktaları ve köşe elemanları verileri klonlanacak |
-| [COMPACT_DATA](#COMPACT-DATA) | Yalnızca kullanılan kontrol noktaları ve köşe elemanları verileri alt-örgüye kopyalanacak |
+| [CLONE_DATA](#CLONE-DATA) | Kontrol noktaları ve köşe öğeleri verileri klonlanacak |
+| [COMPACT_DATA](#COMPACT-DATA) | Yalnızca kullanılan kontrol noktaları ve köşe öğeleri verileri sub-mesh'e kopyalanacak |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -47,7 +47,7 @@ public static final SplitMeshPolicy CLONE_DATA
 ```
 
 
-Kontrol noktaları ve köşe elemanları verileri klonlanacak
+Kontrol noktaları ve köşe öğeleri verileri klonlanacak
 
 ### COMPACT_DATA {#COMPACT-DATA}
 ```
@@ -55,7 +55,7 @@ public static final SplitMeshPolicy COMPACT_DATA
 ```
 
 
-Yalnızca kullanılan kontrol noktaları ve köşe elemanları verileri alt-örgüye kopyalanacak
+Yalnızca kullanılan kontrol noktaları ve köşe öğeleri verileri sub-mesh'e kopyalanacak
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

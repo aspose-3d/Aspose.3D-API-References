@@ -20,7 +20,7 @@ Sınırlayıcı kutunun kapsamı.
 | --- | --- |
 | [FINITE](#FINITE) | Sonlu sınırlama kutusu |
 | [INFINITE](#INFINITE) | Sonsuz sınırlama kutusu |
-| [NULL](#NULL) | Null sınırlama kutusu |
+| [NULL](#NULL) | Boş sınırlama kutusu |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -64,7 +64,7 @@ public static final BoundingBoxExtent NULL
 ```
 
 
-Null sınırlama kutusu
+Boş sınırlama kutusu
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

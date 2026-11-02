@@ -13,7 +13,7 @@ java.lang.Object
 public class StructuralMetadata
 ```
 
-Bu sınıf, yalnızca glTF'de kullanılan EXT\\_structural\\_metadata desteği sağlar.
+Bu sınıf, yalnızca glTF'de kullanılan EXT\_structural\_metadata desteği sağlar.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

@@ -23,9 +23,9 @@ Hangi yüzün eleneceği
 
 | Alan | Açıklama |
 | --- | --- |
-| [BACK](#BACK) | Yalnızca arka yüzler eleniyor. |
-| [BOTH](#BOTH) | Hem arka hem de ön yüzler eleniyor, çizgi/nokta renderlamasını etkilemez. |
-| [FRONT](#FRONT) | Yalnızca ön yüzler eleniyor. |
+| [BACK](#BACK) | Yalnızca arka yüzler eleniyor |
+| [BOTH](#BOTH) | Hem arka hem de ön yüzler eleniyor, çizgi/nokta renderını etkilemez. |
+| [FRONT](#FRONT) | Yalnızca ön yüzler eleniyor |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -51,7 +51,7 @@ public static final int BACK
 ```
 
 
-Yalnızca arka yüzler eleniyor.
+Yalnızca arka yüzler eleniyor
 
 ### BOTH {#BOTH}
 ```
@@ -59,7 +59,7 @@ public static final int BOTH
 ```
 
 
-Hem arka hem de ön yüzler eleniyor, çizgi/nokta renderlamasını etkilemez.
+Hem arka hem de ön yüzler eleniyor, çizgi/nokta renderını etkilemez.
 
 ### FRONT {#FRONT}
 ```
@@ -67,7 +67,7 @@ public static final int FRONT
 ```
 
 
-Yalnızca ön yüzler eleniyor.
+Yalnızca ön yüzler eleniyor
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "VertexElementVertexColor"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Belirtilen bileşenler için vertex rengini tanımlar"
+description: "Belirtilen bileşenler için verteks rengini tanımlar"
 type: docs
 weight: 223
 url: /tr/java/com.aspose.threed/vertexelementvertexcolor/
@@ -13,18 +13,18 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementVertexColor extends VertexElementVector4
 ```
 
-Belirtilen bileşenler için vertex rengini tanımlar
+Belirtilen bileşenler için verteks rengini tanımlar
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [VertexElementVertexColor()](#VertexElementVertexColor--) | [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) sınıfının yeni bir örneğini başlatır. |
+| [VertexElementVertexColor()](#VertexElementVertexColor--) | Yeni bir [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) sınıfı örneği oluşturur. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [clear()](#clear--) | Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır. |
-| [clone(boolean withData)](#clone-boolean-) | Vertex öğesinin derin kopyasını oluştur. |
+| [clear()](#clear--) | Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır. |
+| [clone(boolean withData)](#clone-boolean-) | Vertex öğesini derin kopyalar. |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [copyTo(VertexElementVector4 target)](#copyTo-com.aspose.threed.VertexElementVector4-) | Verileri belirtilen öğeye kopyalar. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -38,7 +38,7 @@ Belirtilen bileşenler için vertex rengini tanımlar
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(Vector4[] data)](#setData-com.aspose.threed.Vector4---) | Veriyi yükle |
+| [setData(Vector4[] data)](#setData-com.aspose.threed.Vector4---) | Veri yükle |
 | [setIndices(int[] data)](#setIndices-int---) | İndeksleri yükle |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Öğenin nasıl eşlendiğini ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
@@ -53,7 +53,7 @@ public VertexElementVertexColor()
 ```
 
 
-[VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) sınıfının yeni bir örneğini başlatır.
+Yeni bir [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) sınıfı örneği oluşturur.
 
 ### clear() {#clear--}
 ```
@@ -61,7 +61,7 @@ public void clear()
 ```
 
 
-Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır.
+Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır.
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -69,12 +69,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Vertex öğesinin derin kopyasını oluştur.
+Vertex öğesini derin kopyalar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle kopyala. |
+| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle klonlar. |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -224,7 +224,7 @@ public void setData(Vector4[] data)
 ```
 
 
-Veriyi yükle
+Veri yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

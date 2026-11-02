@@ -1,7 +1,7 @@
 ---
 title: "Sürüm"
 second_title: "Aspose.3D for Java API Referansı"
-description: "lexchou tarafından 17/04/2017 tarihinde oluşturuldu."
+description: "lexchou tarafından 4/17/2017'de oluşturuldu."
 type: docs
 weight: 204
 url: /tr/java/com.aspose.threed/version/
@@ -16,7 +16,7 @@ java.lang.Cloneable, java.io.Serializable
 public class Version implements Cloneable, Serializable
 ```
 
-lexchou tarafından 17/04/2017 tarihinde oluşturuldu.
+lexchou tarafından 4/17/2017'de oluşturuldu.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

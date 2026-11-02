@@ -1,7 +1,7 @@
 ---
 title: "Yapılar"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Struct dizisinin temel sınıfı."
+description: "Struct dizisinin temel sınıfı"
 type: docs
 weight: 179
 url: /tr/java/com.aspose.threed/structs/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class Structs
 ```
 
-Struct dizisinin temel sınıfı.
+Struct dizisinin temel sınıfı
 ## Yöntemler
 
 | Yöntem | Açıklama |

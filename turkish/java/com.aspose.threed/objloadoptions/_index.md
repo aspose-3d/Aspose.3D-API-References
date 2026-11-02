@@ -1,7 +1,7 @@
 ---
 title: "ObjLoadOptions"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Wavefront obj için yükleme seçenekleri."
+description: "Wavefront obj için yükleme seçenekleri"
 type: docs
 weight: 115
 url: /tr/java/com.aspose.threed/objloadoptions/
@@ -13,40 +13,40 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class ObjLoadOptions extends LoadOptions
 ```
 
-Wavefront obj için yükleme seçenekleri.
+Wavefront obj için yükleme seçenekleri
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [ObjLoadOptions()](#ObjLoadOptions--) | [ObjLoadOptions](../../com.aspose.threed/objloadoptions) yapıcı |
+| [ObjLoadOptions()](#ObjLoadOptions--) | [ObjLoadOptions](../../com.aspose.threed/objloadoptions) yapıcısı |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEnableMaterials()](#getEnableMaterials--) | Her nesne için malzeme içe aktarımını alır. |
+| [getEnableMaterials()](#getEnableMaterials--) | Her nesne için malzemelerin içe aktarılıp aktarılmadığını alır |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmediğini alır. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmediğini alır |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [getNormalizeNormal()](#getNormalizeNormal--) | Yükleme sırasında normal vektörün normalize edilip edilmediğini alır. |
-| [getScale()](#getScale--) | x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır. |
+| [getScale()](#getScale--) | x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | Her nesne için malzeme içe aktarımını ayarlar. |
+| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | Her nesne için malzemelerin içe aktarılıp aktarılmayacağını ayarlar |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
-| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmeyeceğini ayarlar. |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmeyeceğini ayarlar |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [setNormalizeNormal(boolean value)](#setNormalizeNormal-boolean-) | Yükleme sırasında normal vektörün normalize edilip edilmeyeceğini ayarlar. |
-| [setScale(double value)](#setScale-double-) | x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır. |
+| [setScale(double value)](#setScale-double-) | x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -57,7 +57,7 @@ public ObjLoadOptions()
 ```
 
 
-[ObjLoadOptions](../../com.aspose.threed/objloadoptions) yapıcı
+[ObjLoadOptions](../../com.aspose.threed/objloadoptions) yapıcısı
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -90,20 +90,20 @@ public boolean getEnableMaterials()
 ```
 
 
-Her nesne için malzeme içe aktarımını alır.
+Her nesne için malzemelerin içe aktarılıp aktarılmadığını alır
 
 **Returns:**
-boolean - her nesne için malzeme içe aktarımı
+boolean - her nesne için malzemelerin içe aktarılıp aktarılmayacağı
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -120,10 +120,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -193,10 +193,10 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmediğini alır.
+İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmediğini alır
 
 **Returns:**
-boolean - içe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmediği
+boolean - içe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmeyeceği
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
@@ -206,7 +206,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -221,20 +221,20 @@ public boolean getNormalizeNormal()
 ```
 
 
-Yükleme sırasında normal vektörün normalize edilip edilmediğini alır. Varsayılan değer doğrudur.
+Yükleme sırasında normal vektörün normalize edilip edilmediğini alır. Varsayılan değer true'dur.
 
 **Returns:**
-boolean - yükleme sırasında normal vektörün normalize edilip edilmediği. Varsayılan değer doğrudur.
+boolean - yükleme sırasında normal vektörün normalize edilip edilmediği. Varsayılan değer true'dur.
 ### getScale() {#getScale--}
 ```
 public double getScale()
 ```
 
 
-x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır.
+x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır
 
 **Returns:**
-double - x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır.
+double - x/y/z eksenlerinde ölçekler, varsayılan değer 1.0
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -267,7 +267,7 @@ public void setEnableMaterials(boolean value)
 ```
 
 
-Her nesne için malzeme içe aktarımını ayarlar.
+Her nesne için malzemelerin içe aktarılıp aktarılmayacağını ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -280,7 +280,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -293,7 +293,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -311,7 +311,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -348,7 +348,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -375,7 +375,7 @@ public void setFlipCoordinateSystem(boolean value)
 ```
 
 
-İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmeyeceğini ayarlar.
+İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmeyeceğini ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -393,7 +393,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();
@@ -409,7 +409,7 @@ public void setNormalizeNormal(boolean value)
 ```
 
 
-Yükleme sırasında normal vektörün normalize edilip edilmeyeceğini ayarlar. Varsayılan değer doğrudur.
+Yükleme sırasında normal vektörün normalize edilip edilmeyeceğini ayarlar. Varsayılan değer true'dur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -422,7 +422,7 @@ public void setScale(double value)
 ```
 
 
-x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır.
+x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

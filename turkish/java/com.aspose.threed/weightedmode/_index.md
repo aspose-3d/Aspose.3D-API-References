@@ -23,10 +23,10 @@ Ağırlıklı mod.
 
 | Alan | Açıklama |
 | --- | --- |
-| [BOTH](#BOTH) | Hem çıkış hem de sonraki giriş teğetleri ağırlıklıdır. |
-| [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | Sonraki giriş (sol) teğet ağırlıklıdır. |
+| [BOTH](#BOTH) | Hem çıkış hem de sonraki giriş teğetleri ağırlıklı. |
+| [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | Sonraki giriş (sol) teğet ağırlıklı. |
 | [NONE](#NONE) | Hem çıkış hem de sonraki giriş ağırlıkları kullanılmaz. |
-| [OUT_WEIGHT](#OUT-WEIGHT) | Çıkış (sağ) teğet ağırlıklıdır. |
+| [OUT_WEIGHT](#OUT-WEIGHT) | Çıkış (sağ) teğet ağırlıklı. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -52,7 +52,7 @@ public static final int BOTH
 ```
 
 
-Hem çıkış hem de sonraki giriş teğetleri ağırlıklıdır.
+Hem çıkış hem de sonraki giriş teğetleri ağırlıklı.
 
 ### NEXT_IN_WEIGHT {#NEXT-IN-WEIGHT}
 ```
@@ -60,7 +60,7 @@ public static final int NEXT_IN_WEIGHT
 ```
 
 
-Sonraki giriş (sol) teğet ağırlıklıdır.
+Sonraki giriş (sol) teğet ağırlıklı.
 
 ### NONE {#NONE}
 ```
@@ -76,7 +76,7 @@ public static final int OUT_WEIGHT
 ```
 
 
-Çıkış (sağ) teğet ağırlıklıdır.
+Çıkış (sağ) teğet ağırlıklı.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

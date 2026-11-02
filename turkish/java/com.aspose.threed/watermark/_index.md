@@ -1,7 +1,7 @@
 ---
 title: "Watermark"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Kör filigranı bir ağda kodlamak/çözmek için araç."
+description: "Bir ağ üzerinden kör filigranı kodlamak/çözmek için yardımcı program."
 type: docs
 weight: 230
 url: /tr/java/com.aspose.threed/watermark/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Watermark
 ```
 
-Kör filigranı bir ağda kodlamak/çözmek için araç. **Remarks:** Hem [Watermark](../../com.aspose.threed/watermark) hem de [Watermark](../../com.aspose.threed/watermark) lisans kontrolü yapacaktır. Deneme kullanımı bir istisna fırlatır, istisnayı bastırmak için [TrialException.getSuppressTrialException](../../com.aspose.threed/trialexception\#getSuppressTrialException) kullanabilirsiniz, ancak bu burada kısıtlamayı kaldırmaz. Bu özellikleri kısıtlamasız kullanmak için geçerli bir lisans gereklidir. **Example:** Aşağıdaki kod, bir ağda kör filigranı nasıl kodlayıp çözeceğinizi gösterir.
+Bir ağ üzerinden kör filigranı kodlamak/çözmek için yardımcı program. **Remarks:** Hem [Watermark](../../com.aspose.threed/watermark) hem de [Watermark](../../com.aspose.threed/watermark) lisans kontrolü yapacaktır. Deneme kullanımı bir istisna fırlatır, istisnayı bastırmak için [TrialException.getSuppressTrialException](../../com.aspose.threed/trialexception\#getSuppressTrialException) kullanabilirsiniz, ancak bu burada kısıtlamayı kaldırmaz. Bu özellikleri kısıtlamasız kullanmak için geçerli bir lisans gereklidir. **Example:** Aşağıdaki kod, bir ağ içine kör bir filigranı nasıl kodlayıp çözeceğinizi gösterir.
 
 ```
 Mesh mesh = (new Cylinder()).toMesh();
@@ -24,11 +24,11 @@ Mesh mesh = (new Cylinder()).toMesh();
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [decodeWatermark(Mesh input)](#decodeWatermark-com.aspose.threed.Mesh-) | Filigranı bir ağdan çöz |
-| [decodeWatermark(Mesh input, String password)](#decodeWatermark-com.aspose.threed.Mesh-java.lang.String-) | Filigranı bir ağdan çöz |
-| [encodeWatermark(Mesh input, String text)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-) | Metni ağın kör filigranına kodlayın. |
-| [encodeWatermark(Mesh input, String text, String password)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-java.lang.String-) | Metni ağın kör filigranına kodlayın. |
-| [encodeWatermark(Mesh input, String text, String password, boolean permanent)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-java.lang.String-boolean-) | Metni ağın kör filigranına kodlayın. |
+| [decodeWatermark(Mesh input)](#decodeWatermark-com.aspose.threed.Mesh-) | Bir ağdan filigranı çöz |
+| [decodeWatermark(Mesh input, String password)](#decodeWatermark-com.aspose.threed.Mesh-java.lang.String-) | Bir ağdan filigranı çöz |
+| [encodeWatermark(Mesh input, String text)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-) | Bir metni ağın kör filigranına kodlayın. |
+| [encodeWatermark(Mesh input, String text, String password)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-java.lang.String-) | Bir metni ağın kör filigranına kodlayın. |
+| [encodeWatermark(Mesh input, String text, String password, boolean permanent)](#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-java.lang.String-boolean-) | Bir metni ağın kör filigranına kodlayın. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static String decodeWatermark(Mesh input)
 ```
 
 
-Filigranı bir ağdan çöz
+Bir ağdan filigranı çöz
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -52,14 +52,14 @@ Filigranı bir ağdan çöz
 | input | [Mesh](../../com.aspose.threed/mesh) | Filigranı çıkarmak için ağ |
 
 **Returns:**
-java.lang.String - Kör filigran veya hiçbir filigran çözülemediğinde null.
+java.lang.String - Kör filigran veya filigran çözülemezse null.
 ### decodeWatermark(Mesh input, String password) {#decodeWatermark-com.aspose.threed.Mesh-java.lang.String-}
 ```
 public static String decodeWatermark(Mesh input, String password)
 ```
 
 
-Filigranı bir ağdan çöz
+Bir ağdan filigranı çöz
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -68,19 +68,19 @@ Filigranı bir ağdan çöz
 | parola | java.lang.String | Filigranı çözmek için şifre |
 
 **Returns:**
-java.lang.String - Kör filigran veya hiçbir filigran çözülemediğinde null.
+java.lang.String - Kör filigran veya filigran çözülemezse null.
 ### encodeWatermark(Mesh input, String text) {#encodeWatermark-com.aspose.threed.Mesh-java.lang.String-}
 ```
 public static Mesh encodeWatermark(Mesh input, String text)
 ```
 
 
-Metni ağın kör filigranına kodlayın.
+Bir metni ağın kör filigranına kodlayın.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| input | [Mesh](../../com.aspose.threed/mesh) | Kör filigranı kodlamak için ağ |
+| input | [Mesh](../../com.aspose.threed/mesh) | Kör bir filigranı kodlamak için ağ |
 | metin | java.lang.String | Ağa kodlamak için metin |
 
 **Returns:**
@@ -97,12 +97,12 @@ public static Mesh encodeWatermark(Mesh input, String text, String password)
 ```
 
 
-Metni ağın kör filigranına kodlayın.
+Bir metni ağın kör filigranına kodlayın.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| input | [Mesh](../../com.aspose.threed/mesh) | Kör filigranı kodlamak için ağ |
+| input | [Mesh](../../com.aspose.threed/mesh) | Kör bir filigranı kodlamak için ağ |
 | metin | java.lang.String | Ağa kodlamak için metin |
 | parola | java.lang.String | Filigranı korumak için şifre, isteğe bağlıdır |
 
@@ -120,15 +120,15 @@ public static Mesh encodeWatermark(Mesh input, String text, String password, boo
 ```
 
 
-Metni ağın kör filigranına kodlayın.
+Bir metni ağın kör filigranına kodlayın.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| input | [Mesh](../../com.aspose.threed/mesh) | Kör filigranı kodlamak için ağ |
+| input | [Mesh](../../com.aspose.threed/mesh) | Kör bir filigranı kodlamak için ağ |
 | metin | java.lang.String | Ağa kodlamak için metin |
 | parola | java.lang.String | Filigranı korumak için şifre, isteğe bağlıdır |
-| kalıcı | boolean | Kalıcı filigran üzerine yazılmaz veya kaldırılmaz. |
+| kalıcı | boolean | Kalıcı filigran üzerine yazılamaz veya kaldırılamaz. |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - A new mesh instance with blind watermark encoded **Remarks:** Both [Watermark](../../com.aspose.threed/watermark) and [Watermark](../../com.aspose.threed/watermark) will perform license check Trial usage will throw exception, you can use [TrialException.getSuppressTrialException](../../com.aspose.threed/trialexception\#getSuppressTrialException) to suppress the exception, but it will not lift the restriction here. A valid license is required to use these features without any restrictions. **Example:** The following code shows how to encode a blind watermark into a mesh and save to ply file

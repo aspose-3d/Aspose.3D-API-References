@@ -18,11 +18,11 @@ Doku sarma modu.
 
 | Alan | Açıklama |
 | --- | --- |
-| [BORDER](#BORDER) | Aralığın [0.0, 1.0] dışındaki koordinatlar belirtilen kenar rengine ayarlanır. |
-| [CLAMP](#CLAMP) | Doku kenarda son piksele sabitlenir. |
-| [MIRROR](#MIRROR) | Doku tekrarlanacak, ancak koordinatın tam sayı kısmı tek olduğunda yansıtılacaktır. |
+| [BORDER](#BORDER) | Aralığın [0.0, 1.0] dışında olan koordinatlar belirtilen kenar rengine ayarlanır. |
+| [CLAMP](#CLAMP) | Doku, kenardaki son piksele sabitlenir. |
+| [MIRROR](#MIRROR) | Doku tekrarlanacak, ancak koordinatın tam sayı kısmı tek olduğunda yansıtılacak. |
 | [MIRROR_ONCE](#MIRROR-ONCE) | Doku bir kez yansıtılacak ve ardından maksimum değere sabitlenecek. |
-| [WRAP](#WRAP) | Doku modeli yüzeyine döşenir, tekrarlayan bir desen oluşturur. |
+| [WRAP](#WRAP) | Doku, modelin yüzeyine döşenir ve tekrarlayan bir desen oluşturur. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -50,7 +50,7 @@ public static final WrapMode BORDER
 ```
 
 
-Aralığın [0.0, 1.0] dışındaki koordinatlar belirtilen kenar rengine ayarlanır.
+Aralığın [0.0, 1.0] dışında olan koordinatlar belirtilen kenar rengine ayarlanır.
 
 ### CLAMP {#CLAMP}
 ```
@@ -58,7 +58,7 @@ public static final WrapMode CLAMP
 ```
 
 
-Doku kenarda son piksele sabitlenir.
+Doku, kenardaki son piksele sabitlenir.
 
 ### MIRROR {#MIRROR}
 ```
@@ -66,7 +66,7 @@ public static final WrapMode MIRROR
 ```
 
 
-Doku tekrarlanacak, ancak koordinatın tam sayı kısmı tek olduğunda yansıtılacaktır.
+Doku tekrarlanacak, ancak koordinatın tam sayı kısmı tek olduğunda yansıtılacak.
 
 ### MIRROR_ONCE {#MIRROR-ONCE}
 ```
@@ -82,7 +82,7 @@ public static final WrapMode WRAP
 ```
 
 
-Doku modeli yüzeyine döşenir, tekrarlayan bir desen oluşturur.
+Doku, modelin yüzeyine döşenir ve tekrarlayan bir desen oluşturur.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

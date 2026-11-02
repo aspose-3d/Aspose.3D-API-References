@@ -1,7 +1,7 @@
 ---
 title: "Vertex"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Ham vertex'e erişmek için kullanılan vertex referansı."
+description: "Ham verteksi erişmek için kullanılan vertex referansı."
 type: docs
 weight: 205
 url: /tr/java/com.aspose.threed/vertex/
@@ -16,7 +16,7 @@ java.lang.Comparable
 public abstract class Vertex implements Comparable<Vertex>
 ```
 
-Ham vertex'e erişmek için kullanılan vertex referansı, [TriMesh](../../com.aspose.threed/trimesh) içinde.
+Vertex referansı, ham verteksi [TriMesh](../../com.aspose.threed/trimesh) içinde erişmek için kullanılır.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -32,13 +32,13 @@ Ham vertex'e erişmek için kullanılan vertex referansı, [TriMesh](../../com.a
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readDouble(VertexField field)](#readDouble-com.aspose.threed.VertexField-) | Double alanını oku |
-| [readFVector2(VertexField field)](#readFVector2-com.aspose.threed.VertexField-) | Vector2 alanını oku |
-| [readFVector3(VertexField field)](#readFVector3-com.aspose.threed.VertexField-) | Vector3 alanını oku |
+| [readDouble(VertexField field)](#readDouble-com.aspose.threed.VertexField-) | double alanını oku |
+| [readFVector2(VertexField field)](#readFVector2-com.aspose.threed.VertexField-) | vector2 alanını oku |
+| [readFVector3(VertexField field)](#readFVector3-com.aspose.threed.VertexField-) | vector3 alanını oku |
 | [readFVector4(VertexField field)](#readFVector4-com.aspose.threed.VertexField-) | vector4 alanını oku |
 | [readFloat(VertexField field)](#readFloat-com.aspose.threed.VertexField-) | float alanını oku |
-| [readVector2(VertexField field)](#readVector2-com.aspose.threed.VertexField-) | Vector2 alanını oku |
-| [readVector3(VertexField field)](#readVector3-com.aspose.threed.VertexField-) | Vector3 alanını oku |
+| [readVector2(VertexField field)](#readVector2-com.aspose.threed.VertexField-) | vector2 alanını oku |
+| [readVector3(VertexField field)](#readVector3-com.aspose.threed.VertexField-) | vector3 alanını oku |
 | [readVector4(VertexField field)](#readVector4-com.aspose.threed.VertexField-) | vector4 alanını oku |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -122,7 +122,7 @@ public double readDouble(VertexField field)
 ```
 
 
-Double alanını oku
+double alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -137,7 +137,7 @@ public FVector2 readFVector2(VertexField field)
 ```
 
 
-Vector2 alanını oku
+vector2 alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -152,7 +152,7 @@ public FVector3 readFVector3(VertexField field)
 ```
 
 
-Vector3 alanını oku
+vector3 alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -197,7 +197,7 @@ public Vector2 readVector2(VertexField field)
 ```
 
 
-Vector2 alanını oku
+vector2 alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -212,7 +212,7 @@ public Vector3 readVector3(VertexField field)
 ```
 
 
-Vector3 alanını oku
+vector3 alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -1,7 +1,7 @@
 ---
 title: "CubeFaceData"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Küp harita dokusunun her yüzü için veri."
+description: "Küp haritası dokusunun her yüzü için veri."
 type: docs
 weight: 36
 url: /tr/java/com.aspose.threed/cubefacedata/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class CubeFaceData<T> implements Struct<CubeFaceData<T>>, Serializable
 ```
 
-Küp harita dokusunun her yüzü için veri.
+Küp haritası dokusunun her yüzü için veri.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -30,35 +30,35 @@ Küp harita dokusunun her yüzü için veri.
 | [copyFrom(CubeFaceData<T> src)](#copyFrom-com.aspose.threed.CubeFaceData-T--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [get(CubeFace face)](#get-com.aspose.threed.CubeFace-) | Belirtilen yüz için verileri alır |
-| [getBack()](#getBack--) | +Z(Arka) yüz için verileri alır |
-| [getBottom()](#getBottom--) | -Y(Alt) yüz için verileri alır |
+| [getBack()](#getBack--) | +Z (Arka) yüz için verileri alır |
+| [getBottom()](#getBottom--) | -Y (Alt) yüz için verileri alır |
 | [getClass()](#getClass--) |  |
-| [getFront()](#getFront--) | -Z(Ön) yüz için verileri alır |
-| [getLeft()](#getLeft--) | +X(Sol) yüz için verileri alır |
-| [getNegativeX()](#getNegativeX--) | +X(Sol) yüz için verileri alır |
-| [getNegativeY()](#getNegativeY--) | -Y(Alt) yüz için verileri alır |
-| [getNegativeZ()](#getNegativeZ--) | -Z(Ön) yüz için verileri alır |
-| [getPositiveX()](#getPositiveX--) | +X(Sağ) yüz için verileri alır |
-| [getPositiveY()](#getPositiveY--) | +Y(Üst) yüz için verileri alır |
-| [getPositiveZ()](#getPositiveZ--) | +Z(Arka) yüz için verileri alır |
-| [getRight()](#getRight--) | +X(Sağ) yüz için verileri alır |
-| [getTop()](#getTop--) | +Y(Üst) yüz için verileri alır |
+| [getFront()](#getFront--) | -Z (Ön) yüz için verileri alır |
+| [getLeft()](#getLeft--) | +X (Sol) yüz için verileri alır |
+| [getNegativeX()](#getNegativeX--) | +X (Sol) yüz için verileri alır |
+| [getNegativeY()](#getNegativeY--) | -Y (Alt) yüz için verileri alır |
+| [getNegativeZ()](#getNegativeZ--) | -Z (Ön) yüz için verileri alır |
+| [getPositiveX()](#getPositiveX--) | +X (Sağ) yüz için verileri alır |
+| [getPositiveY()](#getPositiveY--) | +Y (Üst) yüz için verileri alır |
+| [getPositiveZ()](#getPositiveZ--) | +Z (Arka) yüz için verileri alır |
+| [getRight()](#getRight--) | +X (Sağ) yüz için verileri alır |
+| [getTop()](#getTop--) | +Y (Üst) yüz için verileri alır |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [set(CubeFace face, T value)](#set-com.aspose.threed.CubeFace-T-) | Belirtilen yüz için verileri ayarlar |
-| [setBack(T value)](#setBack-T-) | +Z(Back) yüz için verileri ayarlar |
-| [setBottom(T value)](#setBottom-T-) | -Y(Bottom) yüz için verileri ayarlar |
-| [setFront(T value)](#setFront-T-) | -Z(Front) yüz için verileri ayarlar |
-| [setLeft(T value)](#setLeft-T-) | +X(Left) yüz için verileri ayarlar |
-| [setNegativeX(T value)](#setNegativeX-T-) | +X(Left) yüz için verileri ayarlar |
-| [setNegativeY(T value)](#setNegativeY-T-) | -Y(Bottom) yüz için verileri ayarlar |
-| [setNegativeZ(T value)](#setNegativeZ-T-) | -Z(Front) yüz için verileri ayarlar |
-| [setPositiveX(T value)](#setPositiveX-T-) | +X(Right) yüz için verileri ayarlar |
-| [setPositiveY(T value)](#setPositiveY-T-) | +Y(Top) yüz için verileri ayarlar |
-| [setPositiveZ(T value)](#setPositiveZ-T-) | +Z(Back) yüz için verileri ayarlar |
-| [setRight(T value)](#setRight-T-) | +X(Right) yüz için verileri ayarlar |
-| [setTop(T value)](#setTop-T-) | +Y(Top) yüz için verileri ayarlar |
+| [setBack(T value)](#setBack-T-) | +Z(Back) yüzü için verileri ayarlar |
+| [setBottom(T value)](#setBottom-T-) | -Y(Bottom) yüzü için verileri ayarlar |
+| [setFront(T value)](#setFront-T-) | -Z(Front) yüzü için verileri ayarlar |
+| [setLeft(T value)](#setLeft-T-) | +X(Left) yüzü için verileri ayarlar |
+| [setNegativeX(T value)](#setNegativeX-T-) | +X(Left) yüzü için verileri ayarlar |
+| [setNegativeY(T value)](#setNegativeY-T-) | -Y(Bottom) yüzü için verileri ayarlar |
+| [setNegativeZ(T value)](#setNegativeZ-T-) | -Z(Front) yüzü için verileri ayarlar |
+| [setPositiveX(T value)](#setPositiveX-T-) | +X(Right) yüzü için verileri ayarlar |
+| [setPositiveY(T value)](#setPositiveY-T-) | +Y(Top) yüzü için verileri ayarlar |
+| [setPositiveZ(T value)](#setPositiveZ-T-) | +Z(Back) yüzü için verileri ayarlar |
+| [setRight(T value)](#setRight-T-) | +X(Right) yüzü için verileri ayarlar |
+| [setTop(T value)](#setTop-T-) | +Y(Top) yüzü için verileri ayarlar |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public CubeFaceData<T> clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [CubeFaceData](../../com.aspose.threed/cubefacedata)
@@ -128,20 +128,20 @@ public T getBack()
 ```
 
 
-+Z(Arka) yüz için verileri alır
++Z (Arka) yüz için verileri alır
 
 **Returns:**
-T - +Z(Back) yüz için veri
+T - +Z(Back) yüzü için veri
 ### getBottom() {#getBottom--}
 ```
 public T getBottom()
 ```
 
 
--Y(Alt) yüz için verileri alır
+-Y (Alt) yüz için verileri alır
 
 **Returns:**
-T - -Y(Bottom) yüz için veri
+T - -Y(Bottom) yüzü için veri
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -158,100 +158,100 @@ public T getFront()
 ```
 
 
--Z(Ön) yüz için verileri alır
+-Z (Ön) yüz için verileri alır
 
 **Returns:**
-T - -Z(Front) yüz için veri
+T - -Z(Front) yüzü için veri
 ### getLeft() {#getLeft--}
 ```
 public T getLeft()
 ```
 
 
-+X(Sol) yüz için verileri alır
++X (Sol) yüz için verileri alır
 
 **Returns:**
-T - +X(Left) yüz için veri
+T - +X(Left) yüzü için veri
 ### getNegativeX() {#getNegativeX--}
 ```
 public T getNegativeX()
 ```
 
 
-+X(Sol) yüz için verileri alır
++X (Sol) yüz için verileri alır
 
 **Returns:**
-T - +X(Left) yüz için veri
+T - +X(Left) yüzü için veri
 ### getNegativeY() {#getNegativeY--}
 ```
 public T getNegativeY()
 ```
 
 
--Y(Alt) yüz için verileri alır
+-Y (Alt) yüz için verileri alır
 
 **Returns:**
-T - -Y(Bottom) yüz için veri
+T - -Y(Bottom) yüzü için veri
 ### getNegativeZ() {#getNegativeZ--}
 ```
 public T getNegativeZ()
 ```
 
 
--Z(Ön) yüz için verileri alır
+-Z (Ön) yüz için verileri alır
 
 **Returns:**
-T - -Z(Front) yüz için veri
+T - -Z(Front) yüzü için veri
 ### getPositiveX() {#getPositiveX--}
 ```
 public T getPositiveX()
 ```
 
 
-+X(Sağ) yüz için verileri alır
++X (Sağ) yüz için verileri alır
 
 **Returns:**
-T - +X(Right) yüz için veri
+T - +X(Right) yüzü için veri
 ### getPositiveY() {#getPositiveY--}
 ```
 public T getPositiveY()
 ```
 
 
-+Y(Üst) yüz için verileri alır
++Y (Üst) yüz için verileri alır
 
 **Returns:**
-T - +Y(Top) yüz için veri
+T - +Y(Top) yüzü için veri
 ### getPositiveZ() {#getPositiveZ--}
 ```
 public T getPositiveZ()
 ```
 
 
-+Z(Arka) yüz için verileri alır
++Z (Arka) yüz için verileri alır
 
 **Returns:**
-T - +Z(Back) yüz için veri
+T - +Z(Back) yüzü için veri
 ### getRight() {#getRight--}
 ```
 public T getRight()
 ```
 
 
-+X(Sağ) yüz için verileri alır
++X (Sağ) yüz için verileri alır
 
 **Returns:**
-T - +X(Right) yüz için veri
+T - +X(Right) yüzü için veri
 ### getTop() {#getTop--}
 ```
 public T getTop()
 ```
 
 
-+Y(Üst) yüz için verileri alır
++Y (Üst) yüz için verileri alır
 
 **Returns:**
-T - +Y(Top) yüz için veri
+T - +Y(Top) yüzü için veri
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -298,7 +298,7 @@ public void setBack(T value)
 ```
 
 
-+Z(Back) yüz için verileri ayarlar
++Z(Back) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -311,7 +311,7 @@ public void setBottom(T value)
 ```
 
 
--Y(Bottom) yüz için verileri ayarlar
+-Y(Bottom) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -324,7 +324,7 @@ public void setFront(T value)
 ```
 
 
--Z(Front) yüz için verileri ayarlar
+-Z(Front) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -337,7 +337,7 @@ public void setLeft(T value)
 ```
 
 
-+X(Left) yüz için verileri ayarlar
++X(Left) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -350,7 +350,7 @@ public void setNegativeX(T value)
 ```
 
 
-+X(Left) yüz için verileri ayarlar
++X(Left) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -363,7 +363,7 @@ public void setNegativeY(T value)
 ```
 
 
--Y(Bottom) yüz için verileri ayarlar
+-Y(Bottom) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -376,7 +376,7 @@ public void setNegativeZ(T value)
 ```
 
 
--Z(Front) yüz için verileri ayarlar
+-Z(Front) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -389,7 +389,7 @@ public void setPositiveX(T value)
 ```
 
 
-+X(Right) yüz için verileri ayarlar
++X(Right) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -402,7 +402,7 @@ public void setPositiveY(T value)
 ```
 
 
-+Y(Top) yüz için verileri ayarlar
++Y(Top) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -415,7 +415,7 @@ public void setPositiveZ(T value)
 ```
 
 
-+Z(Back) yüz için verileri ayarlar
++Z(Back) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -428,7 +428,7 @@ public void setRight(T value)
 ```
 
 
-+X(Right) yüz için verileri ayarlar
++X(Right) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -441,7 +441,7 @@ public void setTop(T value)
 ```
 
 
-+Y(Top) yüz için verileri ayarlar
++Y(Top) yüzü için verileri ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

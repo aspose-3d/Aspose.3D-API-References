@@ -10,19 +10,19 @@ url: /tr/java/com.aspose.threed/imeshconvertible/
 public interface IMeshConvertible
 ```
 
-Bu arayüzü uygulayan varlıklar [Mesh](../../com.aspose.threed/mesh) tipine dönüştürülebilir
+Bu arayüzü uygulayan varlıklar [Mesh](../../com.aspose.threed/mesh) tipine dönüştürülebilir.
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [toMesh()](#toMesh--) | Mevcut nesneyi mesh'e dönüştür. |
+| [toMesh()](#toMesh--) | Geçerli nesneyi mesh'e dönüştür |
 ### toMesh() {#toMesh--}
 ```
 public abstract Mesh toMesh()
 ```
 
 
-Mevcut nesneyi mesh'e dönüştür.
+Geçerli nesneyi mesh'e dönüştür
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

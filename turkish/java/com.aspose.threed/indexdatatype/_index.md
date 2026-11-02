@@ -1,7 +1,7 @@
 ---
 title: "IndexDataType"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Elemanların veri tipi"
+description: "Elemanların veri türü"
 type: docs
 weight: 282
 url: /tr/java/com.aspose.threed/indexdatatype/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum IndexDataType extends Enum<IndexDataType>
 ```
 
-[IIndexBuffer](../../com.aspose.threed/iindexbuffer) içindeki elemanların veri tipi
+[IIndexBuffer](../../com.aspose.threed/iindexbuffer) içindeki elemanların veri türü
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
-| [INT16](#INT16) | İndeks tamponunun elemanları 16 bit int'tir |
-| [INT32](#INT32) | İndeks tamponunun elemanları 32 bit int'tir |
+| [INT16](#INT16) | İndeks tamponunun elemanları 16 bit int |
+| [INT32](#INT32) | İndeks tamponunun elemanları 32 bit int |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -47,7 +47,7 @@ public static final IndexDataType INT16
 ```
 
 
-İndeks tamponunun elemanları 16 bit int'tir
+İndeks tamponunun elemanları 16 bit int
 
 ### INT32 {#INT32}
 ```
@@ -55,7 +55,7 @@ public static final IndexDataType INT32
 ```
 
 
-İndeks tamponunun elemanları 32 bit int'tir
+İndeks tamponunun elemanları 32 bit int
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

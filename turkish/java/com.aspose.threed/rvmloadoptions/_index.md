@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class RvmLoadOptions extends LoadOptions
 ```
 
-AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri. **Örnek:** Aşağıdaki kod, RvmLoadOptions kullanarak RVM dosyasından içe aktarılan ilkel geometriler için teselleştirme parametrelerini nasıl özelleştireceğini gösterir.
+AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri. **Example:** Aşağıdaki kod, RVM dosyasından içe aktarılan ilkel geometriler için teselleştirme parametrelerini RvmLoadOptions kullanarak nasıl özelleştireceğinizi gösterir.
 
 ```
 RvmLoadOptions opt = new RvmLoadOptions();
@@ -37,18 +37,18 @@ RvmLoadOptions opt = new RvmLoadOptions();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAttributePrefix()](#getAttributePrefix--) | Harici öznitelik dosyalarında tanımlanan özniteliklerin önekini alır, Önek isim çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:" |
-| [getCenterScene()](#getCenterScene--) | Yüklemeden sonra sahneyi ortala. |
+| [getCenterScene()](#getCenterScene--) | Yükleme tamamlandıktan sonra sahneyi ortala. |
 | [getClass()](#getClass--) |  |
 | [getCylinderRadialSegments()](#getCylinderRadialSegments--) | Silindirin radyal segment sayısını alır, varsayılan değer 16 |
 | [getDishLatitudeSegments()](#getDishLatitudeSegments--) | Dish'in enlem segment sayısını alır, varsayılan değer 8 |
 | [getDishLongitudeSegments()](#getDishLongitudeSegments--) | Dish'in boylam segment sayısını alır, varsayılan değer 12 |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
-| [getGenerateMaterials()](#getGenerateMaterials--) | RVM dosyası içinde renk tablosu dışa aktarılmamışsa sahnedeki her nesne için rastgele renklerle malzemeler oluştur. |
-| [getLookupAttributes()](#getLookupAttributes--) | Harici öznitelik listesi dosyasından(.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini alır, varsayılan değer true. |
+| [getGenerateMaterials()](#getGenerateMaterials--) | RVM dosyasında renk tablosu dışa aktarılmamışsa sahnedeki her nesne için rastgele renklerle malzemeler oluştur. |
+| [getLookupAttributes()](#getLookupAttributes--) | Harici öznitelik listesi dosyasından (.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini alır, varsayılan değer true. |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [getRectangularTorusSegments()](#getRectangularTorusSegments--) | Dikdörtgen torusun radyal segment sayısını alır, varsayılan değer 20 |
 | [getTorusTubularSegments()](#getTorusTubularSegments--) | Torusun tübik segment sayısını alır, varsayılan değer 20 |
@@ -56,16 +56,16 @@ RvmLoadOptions opt = new RvmLoadOptions();
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | Harici öznitelik dosyalarında tanımlanan özniteliklerin önekini ayarlar, Önek isim çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:" |
-| [setCenterScene(boolean value)](#setCenterScene-boolean-) | Yüklemeden sonra sahneyi ortala. |
+| [setCenterScene(boolean value)](#setCenterScene-boolean-) | Yükleme tamamlandıktan sonra sahneyi ortala. |
 | [setCylinderRadialSegments(int value)](#setCylinderRadialSegments-int-) | Silindirin radyal segment sayısını ayarlar, varsayılan değer 16 |
 | [setDishLatitudeSegments(int value)](#setDishLatitudeSegments-int-) | Dish'in enlem segment sayısını ayarlar, varsayılan değer 8 |
 | [setDishLongitudeSegments(int value)](#setDishLongitudeSegments-int-) | Dish'in boylam segment sayısını ayarlar, varsayılan değer 12 |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
-| [setGenerateMaterials(boolean value)](#setGenerateMaterials-boolean-) | RVM dosyası içinde renk tablosu dışa aktarılmamışsa sahnedeki her nesne için rastgele renklerle malzemeler oluştur. |
-| [setLookupAttributes(boolean value)](#setLookupAttributes-boolean-) | Harici öznitelik listesi dosyasından(.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini ayarlar, varsayılan değer true. |
+| [setGenerateMaterials(boolean value)](#setGenerateMaterials-boolean-) | RVM dosyasında renk tablosu dışa aktarılmamışsa sahnedeki her nesne için rastgele renklerle malzemeler oluştur. |
+| [setLookupAttributes(boolean value)](#setLookupAttributes-boolean-) | Harici öznitelik listesi dosyasından (.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini ayarlar, varsayılan değer true. |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [setRectangularTorusSegments(int value)](#setRectangularTorusSegments-int-) | Dikdörtgen torusun radyal segment sayısını ayarlar, varsayılan değer 20 |
 | [setTorusTubularSegments(int value)](#setTorusTubularSegments-int-) | Torusun tübik segment sayısını ayarlar, varsayılan değer 20 |
@@ -118,17 +118,17 @@ public String getAttributePrefix()
 Harici öznitelik dosyalarında tanımlanan özniteliklerin önekini alır, Önek isim çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:"
 
 **Returns:**
-java.lang.String - dış attribute dosyalarında tanımlanan özniteliklerin önekidir, Önek isim çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:"
+java.lang.String - dış attribute dosyalarında tanımlanan özniteliklerin öneki, Önek isim çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:"
 ### getCenterScene() {#getCenterScene--}
 ```
 public boolean getCenterScene()
 ```
 
 
-Yüklemeden sonra sahneyi ortala.
+Yükleme tamamlandıktan sonra sahneyi ortala.
 
 **Returns:**
-boolean - Sahne yüklendikten sonra ortala.
+boolean - Sahneyi yüklendikten sonra ortala.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -148,7 +148,7 @@ public int getCylinderRadialSegments()
 Silindirin radyal segment sayısını alır, varsayılan değer 16
 
 **Returns:**
-int - silindirin radyal bölümlerinin sayısı, varsayılan değer 16
+int - silindirin radyal segment sayısı, varsayılan değer 16
 ### getDishLatitudeSegments() {#getDishLatitudeSegments--}
 ```
 public int getDishLatitudeSegments()
@@ -158,7 +158,7 @@ public int getDishLatitudeSegments()
 Dish'in enlem segment sayısını alır, varsayılan değer 8
 
 **Returns:**
-int - çanak'ın enlem bölümlerinin sayısı, varsayılan değer 8
+int - çanakın enlem segment sayısı, varsayılan değer 8
 ### getDishLongitudeSegments() {#getDishLongitudeSegments--}
 ```
 public int getDishLongitudeSegments()
@@ -168,17 +168,17 @@ public int getDishLongitudeSegments()
 Dish'in boylam segment sayısını alır, varsayılan değer 12
 
 **Returns:**
-int - çanak'ın boylam bölümlerinin sayısı, varsayılan değer 12
+int - çanakın boylam segment sayısı, varsayılan değer 12
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -195,10 +195,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -268,20 +268,20 @@ public boolean getGenerateMaterials()
 ```
 
 
-RVM dosyası içinde renk tablosu dışa aktarılmadıysa sahnedeki her nesne için rastgele renklerle materyaller oluştur. Varsayılan değer true
+RVM dosyası içinde renk tablosu dışa aktarılmadıysa sahnedeki her nesne için rastgele renklerle malzemeler oluştur. Varsayılan değer true
 
 **Returns:**
-boolean - RVM dosyası içinde renk tablosu dışa aktarılmadıysa sahnedeki her nesne için rastgele renklerle materyaller oluştur. Varsayılan değer true
+boolean - RVM dosyası içinde renk tablosu dışa aktarılmadıysa sahnedeki her nesne için rastgele renklerle malzemeler oluştur. Varsayılan değer true
 ### getLookupAttributes() {#getLookupAttributes--}
 ```
 public boolean getLookupAttributes()
 ```
 
 
-Harici öznitelik listesi dosyasından(.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini alır, varsayılan değer true.
+Harici öznitelik listesi dosyasından (.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini alır, varsayılan değer true.
 
 **Returns:**
-boolean - dış attribute liste dosyasından (.att/.attrib/.txt) öznitelikleri yükleyip yüklemeyeceği, varsayılan değer true.
+boolean - dış attribute list dosyasından (.att/.attrib/.txt) öznitelikleri yükleyip yüklemeyeceği, varsayılan değer true.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
@@ -291,7 +291,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -309,7 +309,7 @@ public int getRectangularTorusSegments()
 Dikdörtgen torusun radyal segment sayısını alır, varsayılan değer 20
 
 **Returns:**
-int - dikdörtgen torusun radyal bölümlerinin sayısı, varsayılan değer 20
+int - dikdörtgen torusun radyal segment sayısı, varsayılan değer 20
 ### getTorusTubularSegments() {#getTorusTubularSegments--}
 ```
 public int getTorusTubularSegments()
@@ -319,7 +319,7 @@ public int getTorusTubularSegments()
 Torusun tübik segment sayısını alır, varsayılan değer 20
 
 **Returns:**
-int - torusun tübik bölümlerinin sayısı, varsayılan değer 20
+int - torusun tübik segment sayısı, varsayılan değer 20
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -365,7 +365,7 @@ public void setCenterScene(boolean value)
 ```
 
 
-Yüklemeden sonra sahneyi ortala.
+Yükleme tamamlandıktan sonra sahneyi ortala.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -417,7 +417,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -430,7 +430,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -448,7 +448,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -485,7 +485,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -512,7 +512,7 @@ public void setGenerateMaterials(boolean value)
 ```
 
 
-RVM dosyası içinde renk tablosu dışa aktarılmadıysa sahnedeki her nesne için rastgele renklerle materyaller oluştur. Varsayılan değer true
+RVM dosyası içinde renk tablosu dışa aktarılmadıysa sahnedeki her nesne için rastgele renklerle malzemeler oluştur. Varsayılan değer true
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -525,7 +525,7 @@ public void setLookupAttributes(boolean value)
 ```
 
 
-Harici öznitelik listesi dosyasından(.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini ayarlar, varsayılan değer true.
+Harici öznitelik listesi dosyasından (.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini ayarlar, varsayılan değer true.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -543,7 +543,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();

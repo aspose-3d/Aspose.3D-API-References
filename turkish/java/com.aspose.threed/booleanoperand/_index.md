@@ -1,7 +1,7 @@
 ---
 title: "BooleanOperand"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bu sınıf, dönüştürülmüş ağı Boolean işlemlerinin operandı olarak kapsüller."
+description: "Bu sınıf, dönüştürülmüş örgüyü Boolean işlemleri operandı olarak kapsüller."
 type: docs
 weight: 22
 url: /tr/java/com.aspose.threed/booleanoperand/
@@ -20,14 +20,14 @@ Bu sınıf, dönüştürülmüş ağı, Boolean işleminin operandı olarak kaps
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getOperand()](#getOperand--) | Operandı alır, bir [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) veya [Node](../../com.aspose.threed/node) örneği olabilir. |
+| [getOperand()](#getOperand--) | Operandı alır, bu bir [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) veya [Node](../../com.aspose.threed/node) örneği olabilir. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [of(Entity mesh)](#of-com.aspose.threed.Entity-) | Boş bir [IMeshConvertible](../../com.aspose.threed/imeshconvertible) örneğinden bir [BooleanOperand](../../com.aspose.threed/booleanoperand) örneği oluşturun. |
 | [of(Entity mesh, Matrix4 transform)](#of-com.aspose.threed.Entity-com.aspose.threed.Matrix4-) | [IMeshConvertible](../../com.aspose.threed/imeshconvertible) örneğinden ve belirtilen dönüşümden bir [BooleanOperand](../../com.aspose.threed/booleanoperand) örneği oluşturun. |
 | [of(Node node)](#of-com.aspose.threed.Node-) | Bir düğümden bir [BooleanOperand](../../com.aspose.threed/booleanoperand) örneği oluşturun, geçerli bir [IMeshConvertible](../../com.aspose.threed/imeshconvertible) uygulanmış varlık gereklidir. |
-| [toString()](#toString--) | [BooleanOperand](../../com.aspose.threed/booleanoperand) nesnesinin dize temsilini alır. |
+| [toString()](#toString--) | [BooleanOperand](../../com.aspose.threed/booleanoperand) öğesinin dize temsili alınır. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -62,7 +62,7 @@ public A3DObject getOperand()
 ```
 
 
-Operandı alır, bir [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) veya [Node](../../com.aspose.threed/node) örneği olabilir.
+Operandı alır, bu bir [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) veya [Node](../../com.aspose.threed/node) örneği olabilir.
 
 **Returns:**
 [A3DObject](../../com.aspose.threed/a3dobject) - the operand, it can be an instance of [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) or [Node](../../com.aspose.threed/node).
@@ -103,7 +103,7 @@ Boş bir [IMeshConvertible](../../com.aspose.threed/imeshconvertible) örneğind
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| mesh | [Entity](../../com.aspose.threed/entity) | Boolean işleminin operandı olarak kullanılan ağ, [IMeshConvertible](../../com.aspose.threed/imeshconvertible) veya [HalfSpace](../../com.aspose.threed/halfspace) örneği olabilir. |
+| mesh | [Entity](../../com.aspose.threed/entity) | Boolean işleminin operandı olarak kullanılan ağ, bir [IMeshConvertible](../../com.aspose.threed/imeshconvertible) veya [HalfSpace](../../com.aspose.threed/halfspace) örneği olabilir. |
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - An instance of [BooleanOperand](../../com.aspose.threed/booleanoperand)
@@ -118,7 +118,7 @@ public static BooleanOperand of(Entity mesh, Matrix4 transform)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| mesh | [Entity](../../com.aspose.threed/entity) | Boolean işleminin operandı olarak kullanılan ağ, [IMeshConvertible](../../com.aspose.threed/imeshconvertible) veya [HalfSpace](../../com.aspose.threed/halfspace) örneği olabilir. |
+| mesh | [Entity](../../com.aspose.threed/entity) | Boolean işleminin operandı olarak kullanılan ağ, bir [IMeshConvertible](../../com.aspose.threed/imeshconvertible) veya [HalfSpace](../../com.aspose.threed/halfspace) örneği olabilir. |
 | transform | [Matrix4](../../com.aspose.threed/matrix4) | Ağ nesnesinin dönüşümü |
 
 **Returns:**
@@ -134,7 +134,7 @@ Bir düğümden bir [BooleanOperand](../../com.aspose.threed/booleanoperand) ör
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Geçerli bir [IMeshConvertible](../../com.aspose.threed/imeshconvertible) uygulanmış varlık içeren bir [Node](../../com.aspose.threed/node) örneği. |
+| node | [Node](../../com.aspose.threed/node) | Geçerli bir [IMeshConvertible](../../com.aspose.threed/imeshconvertible) uygulanmış varlık içeren bir [Node](../../com.aspose.threed/node) örneği |
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - An instance of [BooleanOperand](../../com.aspose.threed/booleanoperand)
@@ -144,10 +144,10 @@ public String toString()
 ```
 
 
-[BooleanOperand](../../com.aspose.threed/booleanoperand) nesnesinin dize temsilini alır.
+[BooleanOperand](../../com.aspose.threed/booleanoperand) öğesinin dize temsili alınır.
 
 **Returns:**
-java.lang.String - [BooleanOperand](../../com.aspose.threed/booleanoperand) nesnesinin dize temsili
+java.lang.String - [BooleanOperand](../../com.aspose.threed/booleanoperand) öğesinin dize temsili
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -20,9 +20,9 @@ public interface IIndexBuffer extends IBuffer
 | --- | --- |
 | [getCount()](#getCount--) | Bu tampondaki indeks sayısını alır. |
 | [getIndexDataType()](#getIndexDataType--) | Her öğenin veri tipini alır. |
-| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | İndeks verisini [TriMesh](../../com.aspose.threed/trimesh) adresinden yükle |
-| [loadData(int[] indices)](#loadData-int---) | İndeks verisini yükle |
-| [loadData(short[] indices)](#loadData-short---) | İndeks verisini yükle |
+| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | İndeks verilerini [TriMesh](../../com.aspose.threed/trimesh) üzerinden yükle |
+| [loadData(int[] indices)](#loadData-int---) | İndeks verilerini yükle |
+| [loadData(short[] indices)](#loadData-short---) | İndeks verilerini yükle |
 ### getCount() {#getCount--}
 ```
 public abstract int getCount()
@@ -49,7 +49,7 @@ public abstract void loadData(TriMesh mesh)
 ```
 
 
-İndeks verisini [TriMesh](../../com.aspose.threed/trimesh) adresinden yükle
+İndeks verilerini [TriMesh](../../com.aspose.threed/trimesh) üzerinden yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -62,7 +62,7 @@ public abstract void loadData(int[] indices)
 ```
 
 
-İndeks verisini yükle
+İndeks verilerini yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -75,7 +75,7 @@ public abstract void loadData(short[] indices)
 ```
 
 
-İndeks verisini yükle
+İndeks verilerini yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

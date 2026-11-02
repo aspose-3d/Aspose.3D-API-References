@@ -1,7 +1,7 @@
 ---
 title: "FileSystemFactory"
 second_title: "Aspose.3D for Java API Referansı"
-description: "ve varsayılan olarak bir com.aspose.threed.LocalFileSystem oluşturur."
+description: "ve  varsayılan olarak bir com.aspose.threed.LocalFileSystem oluşturur."
 type: docs
 weight: 238
 url: /tr/java/com.aspose.threed/filesystemfactory/

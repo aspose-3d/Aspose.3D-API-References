@@ -19,9 +19,9 @@ Farklı platformlar için kapsüllenmiş pencere tanıtıcısı.
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromWayland(long display, long surface)](#fromWayland-long-long-) | [WindowHandle](../../com.aspose.threed/windowhandle) nesnesini bir Wayland yüzeyinden oluştur |
-| [fromWin32(long hWnd)](#fromWin32-long-) | Windows ortamındaki yerel HWND örneği. |
-| [fromXlib(long display, long window)](#fromXlib-long-long-) | [WindowHandle](../../com.aspose.threed/windowhandle) nesnesini bir Xlib penceresinden oluştur |
+| [fromWayland(long display, long surface)](#fromWayland-long-long-) | Bir Wayland yüzeyinden [WindowHandle](../../com.aspose.threed/windowhandle) oluştur |
+| [fromWin32(long hWnd)](#fromWin32-long-) | Windows ortamında yerel HWND örneği. |
+| [fromXlib(long display, long window)](#fromXlib-long-long-) | Bir Xlib penceresinden [WindowHandle](../../com.aspose.threed/windowhandle) oluştur |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -51,13 +51,13 @@ public static WindowHandle fromWayland(long display, long surface)
 ```
 
 
-[WindowHandle](../../com.aspose.threed/windowhandle) nesnesini bir Wayland yüzeyinden oluştur
+Bir Wayland yüzeyinden [WindowHandle](../../com.aspose.threed/windowhandle) oluştur
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| ekran | long | Wayland sunucusunun ekran örneği |
-| yüzey | long | Yüzeyin tutamağı |
+| display | long | Wayland sunucusunun display örneği |
+| surface | long | Yüzeyin tutamacı |
 
 **Returns:**
 [WindowHandle](../../com.aspose.threed/windowhandle)
@@ -67,12 +67,12 @@ public static WindowHandle fromWin32(long hWnd)
 ```
 
 
-Windows ortamındaki yerel HWND örneği.
+Windows ortamında yerel HWND örneği.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| hWnd | long | Yerel Win32 penceresinin tutamağı |
+| hWnd | long | Yerel Win32 penceresinin tutamacı |
 
 **Returns:**
 [WindowHandle](../../com.aspose.threed/windowhandle)
@@ -82,13 +82,13 @@ public static WindowHandle fromXlib(long display, long window)
 ```
 
 
-[WindowHandle](../../com.aspose.threed/windowhandle) nesnesini bir Xlib penceresinden oluştur
+Bir Xlib penceresinden [WindowHandle](../../com.aspose.threed/windowhandle) oluştur
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| ekran | long | X sunucusunun ekran örneği |
-| pencere | long | Pencerenin tutamağı |
+| display | long | X sunucusunun display örneği |
+| pencere | long | Pencerenin tutamacı |
 
 **Returns:**
 [WindowHandle](../../com.aspose.threed/windowhandle)

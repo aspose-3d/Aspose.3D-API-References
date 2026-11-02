@@ -18,9 +18,9 @@ glTF dışa aktarıcısının dışa aktarım sırasında dokuları nasıl göme
 
 | Alan | Açıklama |
 | --- | --- |
-| [JPEG](#JPEG) | Desteklenmeyen tüm görüntü formatları mümkünse jpeg'e dönüştürülecektir. |
-| [NO_CHANGE](#NO-CHANGE) | Görüntüyü dönüştürmeyin ve olduğu gibi bırakın. |
-| [PNG](#PNG) | Desteklenmeyen tüm görüntü formatları mümkünse png'e dönüştürülecektir. |
+| [JPEG](#JPEG) | Desteklenmeyen tüm görüntü formatları mümkünse jpeg'e dönüştürülecek. |
+| [NO_CHANGE](#NO-CHANGE) | Görüntüyü dönüştürme ve olduğu gibi tut. |
+| [PNG](#PNG) | Desteklenmeyen tüm görüntü formatları mümkünse png'e dönüştürülecek. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -48,7 +48,7 @@ public static final GltfEmbeddedImageFormat JPEG
 ```
 
 
-Desteklenmeyen tüm görüntü formatları mümkünse jpeg'e dönüştürülecektir.
+Desteklenmeyen tüm görüntü formatları mümkünse jpeg'e dönüştürülecek.
 
 ### NO_CHANGE {#NO-CHANGE}
 ```
@@ -56,7 +56,7 @@ public static final GltfEmbeddedImageFormat NO_CHANGE
 ```
 
 
-Görüntüyü dönüştürmeyin ve olduğu gibi bırakın.
+Görüntüyü dönüştürme ve olduğu gibi tut.
 
 ### PNG {#PNG}
 ```
@@ -64,7 +64,7 @@ public static final GltfEmbeddedImageFormat PNG
 ```
 
 
-Desteklenmeyen tüm görüntü formatları mümkünse png'e dönüştürülecektir.
+Desteklenmeyen tüm görüntü formatları mümkünse png'e dönüştürülecek.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

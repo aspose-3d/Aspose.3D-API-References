@@ -15,7 +15,7 @@ public class License
 
 Bileşeni lisanslamak için yöntemler sağlar.
 
-Daha fazla bilgi için **Licensing and Subscription** dokümantasyon makalesini ziyaret edin.
+Daha fazla bilgi edinmek için **Licensing and Subscription** dokümantasyon makalesini ziyaret edin.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

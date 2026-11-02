@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class LinearExtrusion extends Entity implements IMeshConvertible
 ```
 
-Linear extrusion, giriş olarak 2D bir şekil alır ve şekli 3. boyutta uzatır. **Example:** Aşağıdaki kod, LinearExtrusion'ı kullanarak bir şekli katı modele nasıl ekstrüde edeceğinizi gösterir.
+Linear extrusion, giriş olarak bir 2D şekil alır ve şekli 3. boyutta uzatır. **Example:** Aşağıdaki kod, LinearExtrusion'ı kullanarak bir şekli katı modele nasıl ekstrüde edeceğinizi gösterir.
 
 ```
 //Create a new 3D scene
@@ -61,37 +61,37 @@ Linear extrusion, giriş olarak 2D bir şekil alır ve şekli 3. boyutta uzatır
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
 | [getCenter()](#getCenter--) | Bu değer false ise, lineer ekstrüzyon Z aralığı 0'dan yüksekliğe, aksi takdirde aralık -yükseklik/2'den yükseklik/2'ye olur. |
 | [getClass()](#getClass--) |  |
 | [getDirection()](#getDirection--) | Ekstrüzyon yönü, varsayılan değer (0, 0, 1)'dir. |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
-| [getHeight()](#getHeight--) | Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dır. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
+| [getHeight()](#getHeight--) | Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dir. |
 | [getName()](#getName--) | Adı alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [getShape()](#getShape--) | Ekstrüde edilecek temel şekil. |
-| [getSlices()](#getSlices--) | Bükülmüş ekstrüde edilen geometrinin dilimleri, varsayılan değer 1'dir. |
+| [getSlices()](#getSlices--) | Bükülmüş ekstrüde geometrisinin dilimleri, varsayılan değer 1'dir. |
 | [getTwist()](#getTwist--) | Şeklin ekstrüde edildiği derece sayısı. |
 | [getTwistOffset()](#getTwistOffset--) | Bükülmede kullanılan ofset, varsayılan değer (0, 0, 0)'dır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setCenter(boolean value)](#setCenter-boolean-) | Bu değer false ise, lineer ekstrüzyon Z aralığı 0'dan yüksekliğe, aksi takdirde aralık -yükseklik/2'den yükseklik/2'ye olur. |
 | [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | Ekstrüzyon yönü, varsayılan değer (0, 0, 1)'dir. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
-| [setHeight(double value)](#setHeight-double-) | Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dır. |
+| [setHeight(double value)](#setHeight-double-) | Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dir. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | Ekstrüde edilecek temel şekil. |
-| [setSlices(int value)](#setSlices-int-) | Bükülmüş ekstrüde edilen geometrinin dilimleri, varsayılan değer 1'dir. |
+| [setSlices(int value)](#setSlices-int-) | Bükülmüş ekstrüde geometrisinin dilimleri, varsayılan değer 1'dir. |
 | [setTwist(double value)](#setTwist-double-) | Şeklin ekstrüde edildiği derece sayısı. |
 | [setTwistOffset(Vector3 value)](#setTwistOffset-com.aspose.threed.Vector3-) | Bükülmede kullanılan ofset, varsayılan değer (0, 0, 0)'dır. |
 | [toMesh()](#toMesh--) | Ekstrüzyonu mesh'e dönüştür. |
@@ -142,7 +142,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -157,7 +157,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -204,7 +204,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -214,7 +214,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -224,10 +224,10 @@ public double getHeight()
 ```
 
 
-Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dır.
+Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dir.
 
 **Returns:**
-double - Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dır.
+double - Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dir.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -244,7 +244,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -254,7 +254,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -274,7 +274,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -289,7 +289,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -309,10 +309,10 @@ public int getSlices()
 ```
 
 
-Bükülmüş ekstrüde edilen geometrinin dilimleri, varsayılan değer 1'dir.
+Bükülmüş ekstrüde geometrisinin dilimleri, varsayılan değer 1'dir.
 
 **Returns:**
-int - Bükülmüş ekstrüde edilen geometrinin dilimleri, varsayılan değer 1'dir.
+int - Bükülmüş ekstrüde geometrisinin dilimleri, varsayılan değer 1'dir.
 ### getTwist() {#getTwist--}
 ```
 public double getTwist()
@@ -380,7 +380,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -434,7 +434,7 @@ public void setHeight(double value)
 ```
 
 
-Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dır.
+Ekstrüde edilen geometrinin yüksekliği, varsayılan değer 1.0'dir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -460,7 +460,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -473,7 +473,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -500,7 +500,7 @@ public void setSlices(int value)
 ```
 
 
-Bükülmüş ekstrüde edilen geometrinin dilimleri, varsayılan değer 1'dir.
+Bükülmüş ekstrüde geometrisinin dilimleri, varsayılan değer 1'dir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -29,13 +29,13 @@ PDF dışa aktarmada kaydetme seçenekleri.
 | [getClass()](#getClass--) |  |
 | [getEmbedTextures()](#getEmbedTextures--) | Harici dokuları PDF dosyasına göm, varsayılan değer false'tur. |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
-| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
+| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 | [getFaceColor()](#getFaceColor--) | 3D içeriği render ederken kullanılacak yüzey rengini alır. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Dışa aktarım sırasında sahnenin koordinat sistemini tersine çevirmeyi alır. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Dışa aktarım sırasında sahnenin koordinat sistemini tersine çevirme durumunu alır. |
 | [getLightingScheme()](#getLightingScheme--) | LightingScheme, 3D sanat eserine uygulanacak aydınlatmayı belirtir. |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [getRenderMode()](#getRenderMode--) | Render modu, 3D sanat eserinin render edildiği stili belirtir. |
@@ -46,9 +46,9 @@ PDF dışa aktarmada kaydetme seçenekleri.
 | [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | PDF dosyasındaki 3D görünümün arka plan rengi. |
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | Harici dokuları PDF dosyasına göm, varsayılan değer false'tur. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 | [setFaceColor(Vector3 value)](#setFaceColor-com.aspose.threed.Vector3-) | 3D içeriği render ederken kullanılacak yüzey rengini ayarlar. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Dışa aktarım sırasında sahnenin koordinat sistemini tersine çevirmeyi ayarlar. |
@@ -88,7 +88,7 @@ public Vector3 getAuxiliaryColor()
 ```
 
 
-3D içeriği render ederken kullanılacak yardımcı rengi alır. Bu rengin yorumu, [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) bağlantısına bağlıdır.
+3D içeriği render ederken kullanılacak yardımcı rengi alır. Bu rengin yorumlanması [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) işlevine bağlıdır.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the auxiliary color to be used when rendering the 3D content. The interpretation of this color depends on the [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode)
@@ -128,27 +128,27 @@ public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Returns:**
-boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
+boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
 ### getFaceColor() {#getFaceColor--}
 ```
 public Vector3 getFaceColor()
 ```
 
 
-3D içeriği render ederken kullanılacak yüzey rengini alır. Bu, yalnızca [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) değeri Illustration olduğunda geçerlidir.
+3D içeriği render ederken kullanılacak yüzey rengini alır. Bu, yalnızca [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) değerinin Illustration olduğu durumlarda geçerlidir.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the face color to be used when rendering the 3D content. This is only relevant only when the [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) has a value of Illustration.
@@ -168,10 +168,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -241,7 +241,7 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-Dışa aktarım sırasında sahnenin koordinat sistemini tersine çevirmeyi alır.
+Dışa aktarım sırasında sahnenin koordinat sistemini tersine çevirme durumunu alır.
 
 **Returns:**
 boolean - Dışa aktarım sırasında sahnenin koordinat sistemini tersine çevirmek.
@@ -264,7 +264,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -315,7 +315,7 @@ public void setAuxiliaryColor(Vector3 value)
 ```
 
 
-3D içeriği render ederken kullanılacak yardımcı rengi ayarlar. Bu rengin yorumu, [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) bağlantısına bağlıdır.
+3D içeriği render ederken kullanılacak yardımcı rengi ayarlar. Bu rengin yorumlanması [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) işlevine bağlıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -354,7 +354,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -367,7 +367,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -380,7 +380,7 @@ public void setFaceColor(Vector3 value)
 ```
 
 
-3D içeriği render ederken kullanılacak yüzey rengini ayarlar. Bu, yalnızca [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) değeri Illustration olduğunda geçerlidir.
+3D içeriği render ederken kullanılacak yüzey rengini ayarlar. Bu, yalnızca [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) değerinin Illustration olduğu durumlarda geçerlidir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -393,7 +393,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -411,7 +411,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -448,7 +448,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -506,7 +506,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();

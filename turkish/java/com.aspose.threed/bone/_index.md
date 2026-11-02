@@ -1,7 +1,7 @@
 ---
 title: "Kemik"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontrol noktası için karışım ağırlığını belirler."
+description: "Bir kemik, geometrinin kontrol noktalarının alt kümesini tanımlar ve her kontrol noktası için karışım ağırlığını belirler."
 type: docs
 weight: 20
 url: /tr/java/com.aspose.threed/bone/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Bone extends A3DObject
 ```
 
-Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontrol noktası için karışım ağırlığını belirler. [Bone](../../com.aspose.threed/bone) nesnesi doğrudan kullanılamaz, geometriyi deform etmek için bir [SkinDeformer](../../com.aspose.threed/skindeformer) örneği kullanılır ve [SkinDeformer](../../com.aspose.threed/skindeformer) bir dizi kemikle birlikte gelir; her kemik bir düğüme bağlanır. NOT: Bir geometrinin kontrol noktası birden fazla Kemik ile ilişkilendirilebilir.
+Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontrol noktası için karışım ağırlığını belirler. [Bone](../../com.aspose.threed/bone) nesnesi doğrudan kullanılamaz, geometriyi deform etmek için bir [SkinDeformer](../../com.aspose.threed/skindeformer) örneği kullanılır ve [SkinDeformer](../../com.aspose.threed/skindeformer) bir dizi kemikle birlikte gelir, her kemik bir düğüme bağlanır. NOT: Bir geometrinin kontrol noktası birden fazla Kemik'e bağlanabilir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -33,7 +33,7 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 | [getName()](#getName--) | Adı alır. |
 | [getNode()](#getNode--) | Düğümü alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getTransform()](#getTransform--) | Kemik içeren düğümün dönüşüm matrisini alır. |
 | [getWeight(int index)](#getWeight-int-) | Belirtilen indeksle kontrol noktasının ağırlığını alır |
 | [getWeightCount()](#getWeightCount--) | Ağırlık sayısını alır, bu otomatik olarak [setWeight](../../com.aspose.threed/bone\#setWeight) ile genişletilir |
@@ -41,13 +41,13 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [set(int index, double value)](#set-int-double-) | Belirtilen kontrol noktasının karışım ağırlığını ayarlar |
 | [setBoneTransform(Matrix4 value)](#setBoneTransform-com.aspose.threed.Matrix4-) | Kemiğin dönüşüm matrisini ayarlar. |
 | [setLinkMode(BoneLinkMode value)](#setLinkMode-com.aspose.threed.BoneLinkMode-) | Bir kemiğin bağlama modu, kemiğin hiyerarşik bir yapıda üst kemik ile nasıl bağlandığını veya ilişkilendirildiğini ifade eder. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
 | [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Düğümü ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setTransform(Matrix4 value)](#setTransform-com.aspose.threed.Matrix4-) | Kemik içeren düğümün dönüşüm matrisini ayarlar. |
 | [setWeight(int index, double weight)](#setWeight-int-double-) | Belirtilen indeksle kontrol noktasının ağırlığını ayarlar |
 | [toString()](#toString--) |  |
@@ -96,7 +96,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -166,7 +166,7 @@ public Node getNode()
 ```
 
 
-Düğümü alır. Kemik düğümü, derinin bağlandığı kemiktir, [SkinDeformer](../../com.aspose.threed/skindeformer) kemik düğümünü kontrol noktalarının yer değiştirmesini etkilemek için kullanır. Kemik düğümünün genellikle bir [Skeleton](../../com.aspose.threed/skeleton) bağlıdır, ancak bu zorunlu değildir. Bağlı [Skeleton](../../com.aspose.threed/skeleton) genellikle DCC yazılımı tarafından kullanıcıya iskelet göstermek için kullanılır.
+Düğümü alır. Kemik düğümü, derinin bağlandığı kemiktir, [SkinDeformer](../../com.aspose.threed/skindeformer) kemik düğümünü kontrol noktalarının yer değiştirmesini etkilemek için kullanır. Kemik düğümünün genellikle bir [Skeleton](../../com.aspose.threed/skeleton) ekli olur, ancak bu zorunlu değildir. Ekli [Skeleton](../../com.aspose.threed/skeleton) genellikle DCC yazılımı tarafından kullanıcıya iskelet göstermek için kullanılır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the node. The bone node is the bone which skin attached to, the [SkinDeformer](../../com.aspose.threed/skindeformer) will use bone node to influence the displacement of the control points. Bone node usually has a [Skeleton](../../com.aspose.threed/skeleton) attached, but it's not required. Attached [Skeleton](../../com.aspose.threed/skeleton) is usually used by DCC software to show skeleton to user.
@@ -186,7 +186,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -277,7 +277,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -345,7 +345,7 @@ public void setNode(Node value)
 ```
 
 
-Düğümü ayarlar. Kemik düğümü, derinin bağlandığı kemiktir, [SkinDeformer](../../com.aspose.threed/skindeformer) kemik düğümünü kontrol noktalarının yer değiştirmesini etkilemek için kullanır. Kemik düğümünün genellikle bir [Skeleton](../../com.aspose.threed/skeleton) bağlıdır, ancak bu zorunlu değildir. Bağlı [Skeleton](../../com.aspose.threed/skeleton) genellikle DCC yazılımı tarafından kullanıcıya iskelet göstermek için kullanılır.
+Düğümü ayarlar. Kemik düğümü, derinin bağlandığı kemiktir, [SkinDeformer](../../com.aspose.threed/skindeformer) kemik düğümünü kontrol noktalarının yer değiştirmesini etkilemek için kullanır. Kemik düğümünün genellikle bir [Skeleton](../../com.aspose.threed/skeleton) ekli olur, ancak bu zorunlu değildir. Ekli [Skeleton](../../com.aspose.threed/skeleton) genellikle DCC yazılımı tarafından kullanıcıya iskelet göstermek için kullanılır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -358,7 +358,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

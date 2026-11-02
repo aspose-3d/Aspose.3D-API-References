@@ -1,7 +1,7 @@
 ---
 title: "BindPoint"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bir nesnenin özelliği üzerinde genellikle bir BindPoint oluşturulur; bazı özellik tipleri birden fazla bileşen alanı içerir (örneğin bir Vector3 alanı) ve her bileşen alanı için bir kanal üretir ve bu alanı bir veya daha fazla anahtar kare dizisi örneğine kanallar aracılığıyla bağlar."
+description: "A genellikle bir nesnenin özelliğinde oluşturulur, bazı özellik tipleri birden fazla bileşen alanı içerir (örneğin bir Vector3 alanı) ve her bileşen alanı için bir kanal oluşturur ve bu alanı bir veya daha fazla anahtar kare dizisi örneğine kanallar aracılığıyla bağlar."
 type: docs
 weight: 19
 url: /tr/java/com.aspose.threed/bindpoint/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class BindPoint extends A3DObject
 ```
 
-Bir [BindPoint](../../com.aspose.threed/bindpoint) genellikle bir nesnenin özelliği üzerinde oluşturulur; bazı özellik tipleri birden fazla bileşen alanı içerir (örneğin bir Vector3 alanı), [BindPoint](../../com.aspose.threed/bindpoint) her bileşen alanı için bir kanal oluşturur ve bu alanı bir veya daha fazla anahtar kare dizisi örneğine kanallar aracılığıyla bağlar.
+Bir [BindPoint](../../com.aspose.threed/bindpoint), genellikle bir nesnenin özelliğinde oluşturulur, bazı özellik tipleri birden fazla bileşen alanı içerir (örneğin bir Vector3 alanı), [BindPoint](../../com.aspose.threed/bindpoint) her bileşen alanı için bir kanal oluşturur ve bu alanı bir veya daha fazla anahtar kare dizisi örneğine kanallar aracılığıyla bağlar.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -29,25 +29,25 @@ Bir [BindPoint](../../com.aspose.threed/bindpoint) genellikle bir nesnenin özel
 | [createKeyframeSequence(String name)](#createKeyframeSequence-java.lang.String-) | Yeni bir eğri oluşturur ve bunu eğri eşlemesinin ilk kanalına bağlar |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [get(String channelName)](#get-java.lang.String-) | Verilen adla kanalı alır |
-| [getChannel(String channelName)](#getChannel-java.lang.String-) | Verilen adla kanalı alır |
-| [getChannelsCount()](#getChannelsCount--) | Bu animasyon eğri eşlemesinde tanımlı özellik kanallarının toplam sayısını alır. |
+| [get(String channelName)](#get-java.lang.String-) | Verilen isimle kanalı alır |
+| [getChannel(String channelName)](#getChannel-java.lang.String-) | Verilen isimle kanalı alır |
+| [getChannelsCount()](#getChannelsCount--) | Bu animasyon eğri eşlemesinde tanımlı olan özellik kanallarının toplam sayısını alır. |
 | [getClass()](#getClass--) |  |
 | [getKeyframeSequence(String channelName)](#getKeyframeSequence-java.lang.String-) | Belirtilen kanaldaki ilk anahtar kare dizisini alır |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
 | [getProperty()](#getProperty--) | CurveMapping ile ilişkili özelliği alır |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [resetChannels()](#resetChannels--) | Bu animasyon eğri eşlemesinin özellik kanallarını boşaltır. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
 | [setProperty(Property value)](#setProperty-com.aspose.threed.Property-) | CurveMapping ile ilişkili özelliği alır |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [toString()](#toString--) | Nesneyi dizeye dönüştürür |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [toString()](#toString--) | Nesneyi dizeye biçimlendir |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -81,7 +81,7 @@ Belirtilen kanal özelliğini ekler.
 | değer | java.lang.Object | Değer. |
 
 **Returns:**
-boolean - true, kanal eklendiyse, aksi takdirde false.
+boolean - true, kanal eklendiyse; false aksi takdirde.
 ### addChannel(String name, Object value) {#addChannel-java.lang.String-java.lang.Object-}
 ```
 public boolean addChannel(String name, Object value)
@@ -97,7 +97,7 @@ Belirtilen kanal özelliğini ekler.
 | değer | java.lang.Object | Değer. |
 
 **Returns:**
-boolean - true, kanal eklendiyse, aksi takdirde false.
+boolean - true, kanal eklendiyse; false aksi takdirde.
 ### bindKeyframeSequence(String channelName, KeyframeSequence sequence) {#bindKeyframeSequence-java.lang.String-com.aspose.threed.KeyframeSequence-}
 ```
 public void bindKeyframeSequence(String channelName, KeyframeSequence sequence)
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -163,7 +163,7 @@ public AnimationChannel get(String channelName)
 ```
 
 
-Verilen adla kanalı alır
+Verilen isimle kanalı alır
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -178,7 +178,7 @@ public AnimationChannel getChannel(String channelName)
 ```
 
 
-Verilen adla kanalı alır
+Verilen isimle kanalı alır
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -193,7 +193,7 @@ public int getChannelsCount()
 ```
 
 
-Bu animasyon eğri eşlemesinde tanımlı özellik kanallarının toplam sayısını alır.
+Bu animasyon eğri eşlemesinde tanımlı olan özellik kanallarının toplam sayısını alır.
 
 **Returns:**
 int - Kanal sayısı.
@@ -258,7 +258,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -314,7 +314,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -363,7 +363,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -377,7 +377,7 @@ public String toString()
 ```
 
 
-Nesneyi dizeye dönüştürür
+Nesneyi dizeye biçimlendir
 
 **Returns:**
 java.lang.String - Nesne dizesi

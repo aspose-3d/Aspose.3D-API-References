@@ -1,7 +1,7 @@
 ---
 title: "RelativeRectangle"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Göreceli dikdörtgen  Göreceli bileşen ile mutlak değer arasındaki formül:  Ölçek  Referans Genişliği  offset  Eğer mutlak bir değer temsil etmesini istiyorsak, tüm ölçek alanlarını sıfır bırakın ve bunun yerine offset alanlarını kullanın."
+description: "Relative rectangle  Göreceli bileşen ile mutlak değer arasındaki formül: Ölçek  Referans Genişliği  offset  Bu yüzden bir mutlak değeri temsil etmesini istiyorsak, tüm ölçek alanlarını sıfır bırakın ve offset alanlarını kullanın."
 type: docs
 weight: 147
 url: /tr/java/com.aspose.threed/relativerectangle/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class RelativeRectangle implements Struct<RelativeRectangle>, Serializable
 ```
 
-Göreceli dikdörtgen Göreceli bileşen ile mutlak değer arasındaki formül: Scale \* (Reference Width) + offset. Bu yüzden mutlak bir değeri temsil etmesini istiyorsak, tüm ölçek alanlarını sıfır bırakın ve bunun yerine offset alanlarını kullanın.
+Göreceli dikdörtgen. Göreceli bileşen ile mutlak değer arasındaki formül: Scale \* (Reference Width) + offset. Bu yüzden bir mutlak değeri temsil etmesini istiyorsak, tüm ölçek alanlarını sıfır bırakın ve bunun yerine ofset alanlarını kullanın.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -30,7 +30,7 @@ Göreceli dikdörtgen Göreceli bileşen ile mutlak değer arasındaki formül: 
 | [clone()](#clone--) |  |
 | [copyFrom(RelativeRectangle src)](#copyFrom-com.aspose.threed.RelativeRectangle-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | Verilen parametrelerden alınan ölçek alanları ve tüm offset alanları sıfır olan bir [RelativeRectangle](../../com.aspose.threed/relativerectangle) oluştur |
+| [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | Tüm offset alanları sıfır ve ölçek alanları verilen parametrelerden alınarak bir [RelativeRectangle](../../com.aspose.threed/relativerectangle) oluştur |
 | [getClass()](#getClass--) |  |
 | [getOffsetHeight()](#getOffsetHeight--) | Yükseklik için offset değerini alır |
 | [getOffsetWidth()](#getOffsetWidth--) | Genişlik için offset değerini alır |
@@ -52,7 +52,7 @@ Göreceli dikdörtgen Göreceli bileşen ile mutlak değer arasındaki formül: 
 | [setScaleX(float value)](#setScaleX-float-) | Göreceli X koordinatı |
 | [setScaleY(float value)](#setScaleY-float-) | Göreceli Y koordinatı |
 | [toAbsolute(int left, int top, int width, int height)](#toAbsolute-int-int-int-int-) | Göreceli dikdörtgeni mutlak dikdörtgene dönüştür |
-| [toString()](#toString--) | Bu örneğin değerini bir java.lang.String'e dönüştürür. |
+| [toString()](#toString--) | Bu örneğin değerini java.lang.String tipine dönüştürür. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -84,7 +84,7 @@ public RelativeRectangle clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [RelativeRectangle](../../com.aspose.threed/relativerectangle)
@@ -122,7 +122,7 @@ public static RelativeRectangle fromScale(float scaleX, float scaleY, float scal
 ```
 
 
-Verilen parametrelerden alınan ölçek alanları ve tüm offset alanları sıfır olan bir [RelativeRectangle](../../com.aspose.threed/relativerectangle) oluştur
+Tüm offset alanları sıfır ve ölçek alanları verilen parametrelerden alınarak bir [RelativeRectangle](../../com.aspose.threed/relativerectangle) oluştur
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -153,7 +153,7 @@ public int getOffsetHeight()
 Yükseklik için offset değerini alır
 
 **Returns:**
-int - yükseklik ofseti
+int - yüksekliğin ofseti
 ### getOffsetWidth() {#getOffsetWidth--}
 ```
 public int getOffsetWidth()
@@ -163,7 +163,7 @@ public int getOffsetWidth()
 Genişlik için offset değerini alır
 
 **Returns:**
-int - genişlik ofseti
+int - genişliğin ofseti
 ### getOffsetX() {#getOffsetX--}
 ```
 public int getOffsetX()
@@ -378,7 +378,7 @@ public String toString()
 ```
 
 
-Bu örneğin değerini bir java.lang.String'e dönüştürür.
+Bu örneğin değerini java.lang.String tipine dönüştürür.
 
 **Returns:**
 java.lang.String

@@ -1,7 +1,7 @@
 ---
 title: "GLSLSource"
 second_title: "Aspose.3D for Java API Referansı"
-description: "GLSL'deki gölgelendiricilerin kaynak kodu"
+description: "GLSL'deki shader'ların kaynak kodu"
 type: docs
 weight: 70
 url: /tr/java/com.aspose.threed/glslsource/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.ShaderSource](../../com.aspose.threed/shade
 public final class GLSLSource extends ShaderSource
 ```
 
-GLSL'deki gölgelendiricilerin kaynak kodu
+GLSL'deki shader'ların kaynak kodu
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

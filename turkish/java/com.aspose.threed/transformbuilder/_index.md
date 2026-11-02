@@ -1,7 +1,7 @@
 ---
 title: "TransformBuilder"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bu  bir dizi dönüşümle dönüşüm matrisini oluşturmak için kullanılır."
+description: "The  bir dizi dönüşümle dönüşüm matrisini oluşturmak için kullanılır."
 type: docs
 weight: 191
 url: /tr/java/com.aspose.threed/transformbuilder/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TransformBuilder
 ```
 
-Bu [TransformBuilder](../../com.aspose.threed/transformbuilder) bir dizi dönüşümle dönüşüm matrisini oluşturmak için kullanılır. **Example:** Aşağıdaki kod, bir dizi işlemle nasıl matris oluşturulacağını gösterir
+The [TransformBuilder](../../com.aspose.threed/transformbuilder) bir dizi dönüşümle dönüşüm matrisini oluşturmak için kullanılır. **Example:** Aşağıdaki kod, bir dizi işlemle nasıl matris oluşturulacağını gösterir.
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -26,26 +26,26 @@ TransformBuilder tb = new TransformBuilder();
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [TransformBuilder(Matrix4 initial, ComposeOrder order)](#TransformBuilder-com.aspose.threed.Matrix4-com.aspose.threed.ComposeOrder-) | Başlangıç dönüşüm matrisine ve belirtilen birleştirme sırasına sahip bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluşturun |
-| [TransformBuilder(ComposeOrder order)](#TransformBuilder-com.aspose.threed.ComposeOrder-) | Başlangıç kimlik dönüşüm matrisine ve belirtilen birleştirme sırasına sahip bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluşturun |
-| [TransformBuilder()](#TransformBuilder--) | Başlangıç kimlik dönüşüm matrisine ve belirtilen birleştirme sırasına sahip bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluşturun |
+| [TransformBuilder(Matrix4 initial, ComposeOrder order)](#TransformBuilder-com.aspose.threed.Matrix4-com.aspose.threed.ComposeOrder-) | İlk dönüşüm matrisi ve belirtilen birleştirme sırası ile bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluştur. |
+| [TransformBuilder(ComposeOrder order)](#TransformBuilder-com.aspose.threed.ComposeOrder-) | İlk birim dönüşüm matrisi ve belirtilen birleştirme sırası ile bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluştur. |
+| [TransformBuilder()](#TransformBuilder--) | İlk birim dönüşüm matrisi ve belirtilen birleştirme sırası ile bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluştur. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [append(Matrix4 m)](#append-com.aspose.threed.Matrix4-) | Yeni dönüşüm matrisini dönüşüm zincirine ekle. |
-| [compose(Matrix4 m)](#compose-com.aspose.threed.Matrix4-) | Argümanı iç matrisine ekle veya ön ekle. |
+| [compose(Matrix4 m)](#compose-com.aspose.threed.Matrix4-) | Argümanı iç matrisine ekle veya başa ekle. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComposeOrder()](#getComposeOrder--) | Zincir birleştirme sırasını alır. |
-| [getMatrix()](#getMatrix--) | Mevcut matris değerini alır |
+| [getComposeOrder()](#getComposeOrder--) | Zincir birleştirme sırasını al. |
+| [getMatrix()](#getMatrix--) | Mevcut matris değerini al. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [prepend(Matrix4 m)](#prepend-com.aspose.threed.Matrix4-) | Yeni dönüşüm matrisini dönüşüm zincirinin başına ekle. |
 | [rearrange(Axis newX, Axis newY, Axis newZ)](#rearrange-com.aspose.threed.Axis-com.aspose.threed.Axis-com.aspose.threed.Axis-) | Eksenin düzenini yeniden düzenle. |
-| [reset()](#reset--) | Dönüşümü kimlik matrisine sıfırla |
-| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | Bir kuaternion ile dönüşümü zincirle **Example:** |
+| [reset()](#reset--) | Dönüşümü birim matrise sıfırla. |
+| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | Bir quaternion ile dönüşümü zincirle **Example:** |
 | [rotateDegree(Vector3 rot, RotationOrder order)](#rotateDegree-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Belirtilen sırayla dönüşüm ekle |
 | [rotateDegree(double angle, Vector3 axis)](#rotateDegree-double-com.aspose.threed.Vector3-) | Derece cinsinden bir dönüşüm dönüşümünü zincirle |
 | [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | Derece cinsinden Euler açılarıyla bir dönüşümü zincirle **Example:** |
@@ -70,7 +70,7 @@ public TransformBuilder(Matrix4 initial, ComposeOrder order)
 ```
 
 
-Başlangıç dönüşüm matrisine ve belirtilen birleştirme sırasına sahip bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluşturun
+İlk dönüşüm matrisi ve belirtilen birleştirme sırası ile bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -84,7 +84,7 @@ public TransformBuilder(ComposeOrder order)
 ```
 
 
-Başlangıç kimlik dönüşüm matrisine ve belirtilen birleştirme sırasına sahip bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluşturun
+İlk birim dönüşüm matrisi ve belirtilen birleştirme sırası ile bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -97,7 +97,7 @@ public TransformBuilder()
 ```
 
 
-Başlangıç kimlik dönüşüm matrisine ve belirtilen birleştirme sırasına sahip bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluşturun
+İlk birim dönüşüm matrisi ve belirtilen birleştirme sırası ile bir [TransformBuilder](../../com.aspose.threed/transformbuilder) oluştur.
 
 ### append(Matrix4 m) {#append-com.aspose.threed.Matrix4-}
 ```
@@ -120,7 +120,7 @@ public void compose(Matrix4 m)
 ```
 
 
-Argümanı iç matrisine ekle veya ön ekle.
+Argümanı iç matrisine ekle veya başa ekle.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -158,7 +158,7 @@ public ComposeOrder getComposeOrder()
 ```
 
 
-Zincir birleştirme sırasını alır.
+Zincir birleştirme sırasını al.
 
 **Returns:**
 [ComposeOrder](../../com.aspose.threed/composeorder) - the chain compose order.
@@ -168,7 +168,7 @@ public Matrix4 getMatrix()
 ```
 
 
-Mevcut matris değerini alır
+Mevcut matris değerini al.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the current matrix value
@@ -236,7 +236,7 @@ public void reset()
 ```
 
 
-Dönüşümü kimlik matrisine sıfırla
+Dönüşümü birim matrise sıfırla.
 
 ### rotate(Quaternion q) {#rotate-com.aspose.threed.Quaternion-}
 ```
@@ -244,7 +244,7 @@ public TransformBuilder rotate(Quaternion q)
 ```
 
 
-Bir kuaternion ile dönüşümü zincirle **Example:**
+Bir quaternion ile dönüşümü zincirle **Example:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
