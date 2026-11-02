@@ -22,7 +22,7 @@ Render kuyruğunun grup kimliği
 | [GEOMETRIES](#GEOMETRIES) | Geometriler için render kuyruğu |
 | [MAIN](#MAIN) | Ana için render kuyruğu |
 | [OPAQUE](#OPAQUE) | Opak nesneler için render kuyruğu |
-| [OVERLAY](#OVERLAY) | Kaplamalar için render kuyruğu |
+| [OVERLAY](#OVERLAY) | Üst katmanlar için render kuyruğu |
 | [SKIES](#SKIES) | Gökyüzü için render kuyruğu |
 ## Yöntemler
 
@@ -83,7 +83,7 @@ public static final RenderQueueGroupId OVERLAY
 ```
 
 
-Kaplamalar için render kuyruğu
+Üst katmanlar için render kuyruğu
 
 ### SKIES {#SKIES}
 ```

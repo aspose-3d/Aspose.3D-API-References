@@ -16,7 +16,7 @@ java.lang.Iterable
 public class TriMesh extends Entity implements Iterable<Vertex>
 ```
 
-Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. Bu sınıf, yalnızca köşe başına veri içeren bir ağ oluşturmayı kolaylaştıran bir yardımcı programdır. **Örnek:** Aşağıdaki kod, özel bellek düzeniyle bir TriMesh'in nasıl oluşturulacağını ve dosyaya nasıl dışa aktarılacağını gösterir.
+Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. Bu sınıf, yalnızca köşe başına veri içeren bir ağ oluşturmayı kolaylaştıran bir yardımcı programdır. **Örnek:** Aşağıdaki kod, özel bellek düzeniyle bir TriMesh nasıl oluşturulacağını ve dosyaya nasıl dışa aktarılacağını gösterir.
 
 ```
 //Define a vertex declaration as {FVector3 Position; FVector3 Normal; FVector2 UV}
@@ -44,31 +44,31 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 | Yöntem | Açıklama |
 | --- | --- |
 | [addTriangle(int a, int b, int c)](#addTriangle-int-int-int-) | Yeni bir üçgen ekle |
-| [beginVertex()](#beginVertex--) | Köşe eklemeye başla |
+| [beginVertex()](#beginVertex--) | Köşe eklemeye başlayın |
 | [copyFrom(TriMesh input, VertexDeclaration vd)](#copyFrom-com.aspose.threed.TriMesh-com.aspose.threed.VertexDeclaration-) | Girdiden yeni köşe düzeniyle [TriMesh](../../com.aspose.threed/trimesh) kopyala |
-| [endVertex()](#endVertex--) | Köşe eklemeyi bitir |
+| [endVertex()](#endVertex--) | Köşe eklemeyi bitirin |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [fromMesh(Mesh mesh)](#fromMesh-com.aspose.threed.Mesh-) | Verilen ağ nesnesinden bir TriMesh oluştur, köşe bildirimi giriş ağının yapısına dayanır. |
-| [fromMesh(Mesh mesh, boolean useFloat)](#fromMesh-com.aspose.threed.Mesh-boolean-) | Verilen ağ nesnesinden bir TriMesh oluştur, köşe bildirimi giriş ağının yapısına dayanır. |
-| [fromMesh(VertexDeclaration declaration, Mesh mesh)](#fromMesh-com.aspose.threed.VertexDeclaration-com.aspose.threed.Mesh-) | Verilen köşe düzeniyle verilen ağ nesnesinden bir TriMesh oluştur. |
+| [fromMesh(Mesh mesh)](#fromMesh-com.aspose.threed.Mesh-) | Verilen ağ nesnesinden bir TriMesh oluşturun, köşe bildirimi giriş ağının yapısına dayanır. |
+| [fromMesh(Mesh mesh, boolean useFloat)](#fromMesh-com.aspose.threed.Mesh-boolean-) | Verilen ağ nesnesinden bir TriMesh oluşturun, köşe bildirimi giriş ağının yapısına dayanır. |
+| [fromMesh(VertexDeclaration declaration, Mesh mesh)](#fromMesh-com.aspose.threed.VertexDeclaration-com.aspose.threed.Mesh-) | Verilen köşe düzeniyle verilen ağ nesnesinden bir TriMesh oluşturun. |
 | [fromRawData(VertexDeclaration vd, byte[] vertices, int[] indices, boolean generateVertexMapping)](#fromRawData-com.aspose.threed.VertexDeclaration-byte---int---boolean-) | Ham veriden TriMesh oluştur |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
-| [getCapacity()](#getCapacity--) | Önceden ayrılmış köşelerin kapasitesi. |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getCapacity()](#getCapacity--) | Önceden tahsis edilmiş köşelerin kapasitesi. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getIndicesCount()](#getIndicesCount--) | Bu [TriMesh](../../com.aspose.threed/trimesh) içindeki indeks sayısı. |
 | [getIntIndices()](#getIntIndices--) | İndeksleri 32 bit tamsayı dizisine dönüştür |
 | [getName()](#getName--) | Adı alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [getShortIndices()](#getShortIndices--) | İndeksleri 16 bit tamsayı dizisine dönüştür |
-| [getUnmergedVerticesCount()](#getUnmergedVerticesCount--) | Bu [beginVertex](../../com.aspose.threed/trimesh\\#beginVertex) ve [endVertex](../../com.aspose.threed/trimesh\\#endVertex) tarafından sağlanan birleştirilmemiş köşe sayısı. |
-| [getVertexDeclaration()](#getVertexDeclaration--) | [TriMesh](../../com.aspose.threed/trimesh) köşe düzeni. |
+| [getUnmergedVerticesCount()](#getUnmergedVerticesCount--) | Bu [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) ve [endVertex](../../com.aspose.threed/trimesh\#endVertex) tarafından sağlanan birleştirilmemiş köşe sayısı. |
+| [getVertexDeclaration()](#getVertexDeclaration--) | Bu [TriMesh](../../com.aspose.threed/trimesh) köşe düzeni. |
 | [getVerticesCount()](#getVerticesCount--) | Bu [TriMesh](../../com.aspose.threed/trimesh) içindeki köşe sayısı. |
 | [getVerticesSizeInBytes()](#getVerticesSizeInBytes--) | Tüm köşelerin bayt cinsinden toplam boyutu |
 | [hashCode()](#hashCode--) |  |
@@ -78,21 +78,21 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 | [loadVerticesFromBytes(byte[] verticesInBytes)](#loadVerticesFromBytes-byte---) | Köşeleri baytlardan yükle, bayt uzunluğu köşe boyutunun tam katı olmalıdır. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readDouble(int idx, VertexField field)](#readDouble-int-com.aspose.threed.VertexField-) | Double alanını oku |
-| [readFVector2(int idx, VertexField field)](#readFVector2-int-com.aspose.threed.VertexField-) | Vector2 alanını oku |
-| [readFVector3(int idx, VertexField field)](#readFVector3-int-com.aspose.threed.VertexField-) | Vector3 alanını oku |
+| [readDouble(int idx, VertexField field)](#readDouble-int-com.aspose.threed.VertexField-) | double alanını oku |
+| [readFVector2(int idx, VertexField field)](#readFVector2-int-com.aspose.threed.VertexField-) | vector2 alanını oku |
+| [readFVector3(int idx, VertexField field)](#readFVector3-int-com.aspose.threed.VertexField-) | vector3 alanını oku |
 | [readFVector4(int idx, VertexField field)](#readFVector4-int-com.aspose.threed.VertexField-) | vector4 alanını oku |
 | [readFloat(int idx, VertexField field)](#readFloat-int-com.aspose.threed.VertexField-) | float alanını oku |
-| [readVector2(int idx, VertexField field)](#readVector2-int-com.aspose.threed.VertexField-) | Vector2 alanını oku |
-| [readVector3(int idx, VertexField field)](#readVector3-int-com.aspose.threed.VertexField-) | Vector3 alanını oku |
+| [readVector2(int idx, VertexField field)](#readVector2-int-com.aspose.threed.VertexField-) | vector2 alanını oku |
+| [readVector3(int idx, VertexField field)](#readVector3-int-com.aspose.threed.VertexField-) | vector3 alanını oku |
 | [readVector4(int idx, VertexField field)](#readVector4-int-com.aspose.threed.VertexField-) | vector4 alanını oku |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [toString()](#toString--) | [TriMesh](../../com.aspose.threed/trimesh) öğesinin dize temsili alınır |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [toString()](#toString--) | Alır [TriMesh](../../com.aspose.threed/trimesh) dizge temsili |
 | [verticesToArray()](#verticesToArray--) | Köşe verilerini bayt dizisine dönüştür |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -101,8 +101,8 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 | [write16bIndicesTo(OutputStream stream)](#write16bIndicesTo-java.io.OutputStream-) | İndeks verilerini 16bit tamsayı olarak akışa yaz |
 | [write32bIndicesTo(Stream stream)](#write32bIndicesTo-com.aspose.threed.Stream-) | İndeks verilerini 32bit tamsayı olarak akışa yaz **Example:** |
 | [write32bIndicesTo(OutputStream stream)](#write32bIndicesTo-java.io.OutputStream-) | İndeks verilerini 32bit tamsayı olarak akışa yaz |
-| [writeVerticesTo(Stream stream)](#writeVerticesTo-com.aspose.threed.Stream-) | Köşe verilerini belirtilen akışa yaz |
-| [writeVerticesTo(OutputStream stream)](#writeVerticesTo-java.io.OutputStream-) | Köşe verilerini belirtilen akışa yaz |
+| [writeVerticesTo(Stream stream)](#writeVerticesTo-com.aspose.threed.Stream-) | Belirtilen akışa köşe verilerini yaz |
+| [writeVerticesTo(OutputStream stream)](#writeVerticesTo-java.io.OutputStream-) | Belirtilen akışa köşe verilerini yaz |
 ### TriMesh(String name, VertexDeclaration declaration) {#TriMesh-java.lang.String-com.aspose.threed.VertexDeclaration-}
 ```
 public TriMesh(String name, VertexDeclaration declaration)
@@ -115,7 +115,7 @@ Bir [TriMesh](../../com.aspose.threed/trimesh) örneği başlatın
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | ad | java.lang.String | Bu TriMesh'in adı |
-| declaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Köşenin bildirimi |
+| declaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Köşe bildirimi |
 
 ### addTriangle(int a, int b, int c) {#addTriangle-int-int-int-}
 ```
@@ -138,7 +138,7 @@ public Vertex beginVertex()
 ```
 
 
-Köşe eklemeye başla
+Köşe eklemeye başlayın
 
 **Returns:**
 [Vertex](../../com.aspose.threed/vertex) - The reference of internal vertex object in type [Vertex](../../com.aspose.threed/vertex)
@@ -154,7 +154,7 @@ Girdiden yeni köşe düzeniyle [TriMesh](../../com.aspose.threed/trimesh) kopya
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | input | [TriMesh](../../com.aspose.threed/trimesh) | Kopyalama için giriş TriMesh'i |
-| vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Çıktı TriMesh'inin yeni köşe bildirimi |
+| vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Çıktı TriMesh'in yeni köşe bildirimi |
 
 **Returns:**
 [TriMesh](../../com.aspose.threed/trimesh) - A new TriMesh instance with new vertex declaration. **Example:**
@@ -176,7 +176,7 @@ public int endVertex()
 ```
 
 
-Köşe eklemeyi bitir
+Köşe eklemeyi bitirin
 
 **Returns:**
 int
@@ -201,7 +201,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -216,7 +216,7 @@ public static TriMesh fromMesh(Mesh mesh)
 ```
 
 
-Verilen ağ nesnesinden bir TriMesh oluştur, köşe bildirimi giriş ağının yapısına dayanır.
+Verilen ağ nesnesinden bir TriMesh oluşturun, köşe bildirimi giriş ağının yapısına dayanır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -248,13 +248,13 @@ public static TriMesh fromMesh(Mesh mesh, boolean useFloat)
 ```
 
 
-Verilen ağ nesnesinden bir TriMesh oluştur, köşe bildirimi giriş ağının yapısına dayanır.
+Verilen ağ nesnesinden bir TriMesh oluşturun, köşe bildirimi giriş ağının yapısına dayanır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | mesh | [Mesh](../../com.aspose.threed/mesh) |  |
-| useFloat | boolean | Her köşe öğesi bileşeni için double tipi yerine float tipi kullanın. |
+| useFloat | boolean | Her köşe öğesi bileşeni için double yerine float türü kullan. |
 
 **Returns:**
 [TriMesh](../../com.aspose.threed/trimesh) - The [TriMesh](../../com.aspose.threed/trimesh) generated from given [Mesh](../../com.aspose.threed/mesh) **Example:** The following code shows how to create a TriMesh with custom memory layout, and export it to file.
@@ -281,12 +281,12 @@ public static TriMesh fromMesh(VertexDeclaration declaration, Mesh mesh)
 ```
 
 
-Verilen köşe düzeniyle verilen ağ nesnesinden bir TriMesh oluştur.
+Verilen köşe düzeniyle verilen ağ nesnesinden bir TriMesh oluşturun.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| declaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Köşe tip tanımı veya bellek düzeni |
+| declaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Köşe tip tanımı, ya da bellek düzeni |
 | mesh | [Mesh](../../com.aspose.threed/mesh) | Kaynak ağ |
 
 **Returns:**
@@ -320,9 +320,9 @@ Ham veriden TriMesh oluştur
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Köşe bildirimi, en az bir alan içermelidir. |
-| köşeler | byte[] | Giriş köşe verileri, köşelerin minimum uzunluğu köşe bildiriminin boyutuna eşit ya da daha büyük olmalıdır |
+| köşeler | byte[] | Giriş köşe verileri, köşelerin minimum uzunluğu köşe bildiriminin boyutuna eşit veya daha büyük olmalıdır |
 | indeksler | int[] | Üçgen indeksleri |
-| generateVertexMapping | boolean | Her köşe için [Vertex](../../com.aspose.threed/vertex) oluşturun, bu yalnızca serileştirme/seriden çıkarma için gerekli değildir. |
+| generateVertexMapping | boolean | Her köşe için [Vertex](../../com.aspose.threed/vertex) oluşturun, bu sadece serileştirme/seriden çıkarma için gerekli değildir. |
 
 **Returns:**
 [TriMesh](../../com.aspose.threed/trimesh) - The [TriMesh](../../com.aspose.threed/trimesh) instance that encapsulated the input byte array. **Remarks:** The returned TriMesh will not copy the input byte array for performance, external changes on the array will be reflected to this instance. **Example:** The following code shows how to construct a TriMesh from raw bytes, this is useful when build your own 3D format
@@ -350,7 +350,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -367,7 +367,7 @@ public int getCapacity()
 ```
 
 
-Önceden ayrılmış köşelerin kapasitesi.
+Önceden tahsis edilmiş köşelerin kapasitesi.
 
 **Returns:**
 int - Önceden tahsis edilmiş köşelerin kapasitesi.
@@ -387,7 +387,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -397,7 +397,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -410,7 +410,7 @@ public int getIndicesCount()
 Bu [TriMesh](../../com.aspose.threed/trimesh) içindeki indeks sayısı.
 
 **Returns:**
-int - Bu [TriMesh](../../com.aspose.threed/trimesh) içindeki indeks sayısı
+int - Bu [TriMesh](../../com.aspose.threed/trimesh) içindeki indeks sayısı.
 ### getIntIndices() {#getIntIndices--}
 ```
 public int[] getIntIndices()
@@ -437,7 +437,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -447,7 +447,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -467,7 +467,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -482,7 +482,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -502,17 +502,17 @@ public int getUnmergedVerticesCount()
 ```
 
 
-Bu [beginVertex](../../com.aspose.threed/trimesh\\#beginVertex) ve [endVertex](../../com.aspose.threed/trimesh\\#endVertex) tarafından sağlanan birleştirilmemiş köşe sayısı.
+Bu [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) ve [endVertex](../../com.aspose.threed/trimesh\#endVertex) tarafından sağlanan birleştirilmemiş köşe sayısı.
 
 **Returns:**
-int - [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) ve [endVertex](../../com.aspose.threed/trimesh\#endVertex) tarafından geçirilen birleştirilmemiş köşe sayısı.
+int - [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) ve [endVertex](../../com.aspose.threed/trimesh\#endVertex) tarafından girilen birleştirilmemiş köşe sayısı.
 ### getVertexDeclaration() {#getVertexDeclaration--}
 ```
 public VertexDeclaration getVertexDeclaration()
 ```
 
 
-[TriMesh](../../com.aspose.threed/trimesh) köşe düzeni.
+Bu [TriMesh](../../com.aspose.threed/trimesh) köşe düzeni.
 
 **Returns:**
 [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) - The vertex layout of the [TriMesh](../../com.aspose.threed/trimesh).
@@ -525,7 +525,7 @@ public int getVerticesCount()
 Bu [TriMesh](../../com.aspose.threed/trimesh) içindeki köşe sayısı.
 
 **Returns:**
-int - Bu [TriMesh](../../com.aspose.threed/trimesh) içindeki köşe sayısı
+int - Bu [TriMesh](../../com.aspose.threed/trimesh) içindeki köşe sayısı.
 ### getVerticesSizeInBytes() {#getVerticesSizeInBytes--}
 ```
 public int getVerticesSizeInBytes()
@@ -535,7 +535,7 @@ public int getVerticesSizeInBytes()
 Tüm köşelerin bayt cinsinden toplam boyutu
 
 **Returns:**
-int - Tüm köşelerin bayt cinsinden toplam boyutu
+int - Tüm köşelerin bayt cinsinden toplam boyutu.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -588,7 +588,7 @@ public void loadVerticesFromBytes(byte[] verticesInBytes)
 ```
 
 
-Köşeleri baytlardan yükleyin, bayt uzunluğu köşe boyutunun tam katı olmalıdır. **Örnek:** Aşağıdaki kod, boş bir TriMesh oluşturmanın ve ham baytlardan köşeleri manuel olarak yüklemenin nasıl yapılacağını gösterir.
+Köşeleri baytlardan yükleyin, bayt uzunluğu köşe boyutunun tam bir katı olmalıdır. **Örnek:** Aşağıdaki kod, boş bir TriMesh oluşturmayı ve ham baytlardan köşeleri manuel olarak yüklemeyi gösterir.
 
 ```
 var indices = new int[] { 0,  1,  2 };
@@ -661,7 +661,7 @@ public double readDouble(int idx, VertexField field)
 ```
 
 
-Double alanını oku
+double alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -677,7 +677,7 @@ public FVector2 readFVector2(int idx, VertexField field)
 ```
 
 
-Vector2 alanını oku
+vector2 alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -693,7 +693,7 @@ public FVector3 readFVector3(int idx, VertexField field)
 ```
 
 
-Vector3 alanını oku
+vector3 alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -741,7 +741,7 @@ public Vector2 readVector2(int idx, VertexField field)
 ```
 
 
-Vector2 alanını oku
+vector2 alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -757,7 +757,7 @@ public Vector3 readVector3(int idx, VertexField field)
 ```
 
 
-Vector3 alanını oku
+vector3 alanını oku
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -804,7 +804,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -845,7 +845,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -858,7 +858,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -872,7 +872,7 @@ public String toString()
 ```
 
 
-[TriMesh](../../com.aspose.threed/trimesh) öğesinin dize temsili alınır
+Alır [TriMesh](../../com.aspose.threed/trimesh) dizge temsili
 
 **Returns:**
 java.lang.String - Dize temsili
@@ -958,7 +958,7 @@ public void write16bIndicesTo(OutputStream stream)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | akış | java.io.OutputStream | **Örnek:** |
+|  | akış | java.io.OutputStream | **Example:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    
@@ -1008,7 +1008,7 @@ public void write32bIndicesTo(OutputStream stream)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | akış | java.io.OutputStream | **Örnek:** |
+|  | akış | java.io.OutputStream | **Example:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    
@@ -1027,12 +1027,12 @@ public void writeVerticesTo(Stream stream)
 ```
 
 
-Köşe verilerini belirtilen akışa yaz
+Belirtilen akışa köşe verilerini yaz
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | stream | [Stream](../../com.aspose.threed/stream) | Veri noktalarının yazılacağı akış **Örnek:** |
+|  | stream | [Stream](../../com.aspose.threed/stream) | Köşe verilerinin yazılacağı akış **Example:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh
@@ -1053,12 +1053,12 @@ public void writeVerticesTo(OutputStream stream)
 ```
 
 
-Köşe verilerini belirtilen akışa yaz
+Belirtilen akışa köşe verilerini yaz
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | akış | java.io.OutputStream | Veri noktalarının yazılacağı akış **Örnek:** |
+|  | akış | java.io.OutputStream | Köşe verilerinin yazılacağı akış **Example:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    

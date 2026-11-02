@@ -1,7 +1,7 @@
 ---
 title: "NurbsSurface"
 second_title: "Aspose.3D for Java API Referansı"
-description: "NURBS (Non-uniform rational basis spline) tarafından temsil edilen bir yüzeydir  A  iki  ve  tarafından tanımlanır."
+description: "NURBSNon-uniform rational basis spline ile temsil edilen bir yüzeydir. Bir yüzey iki  ve  tarafından tanımlanır."
 type: docs
 weight: 114
 url: /tr/java/com.aspose.threed/nurbssurface/
@@ -24,53 +24,53 @@ public class NurbsSurface extends Geometry implements IMeshConvertible
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [NurbsSurface()](#NurbsSurface--) | [NurbsSurface](../../com.aspose.threed/nurbssurface) sınıfının yeni bir örneğini başlatır. |
-| [NurbsSurface(String name)](#NurbsSurface-java.lang.String-) | [NurbsSurface](../../com.aspose.threed/nurbssurface) sınıfının yeni bir örneğini başlatır. |
+| [NurbsSurface()](#NurbsSurface--) | Yeni bir [NurbsSurface](../../com.aspose.threed/nurbssurface) sınıfının örneğini başlatır. |
+| [NurbsSurface(String name)](#NurbsSurface-java.lang.String-) | Yeni bir [NurbsSurface](../../com.aspose.threed/nurbssurface) sınıfının örneğini başlatır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [<T>getDeformers2()](#-T-getDeformers2--) | Belirtilen deformer türleriyle tüm deformörleri alır. |
+| [<T>getDeformers2()](#-T-getDeformers2--) | Belirtilen deformer türlerine sahip tüm deformasyonları alır |
 | [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | Mevcut geometriye mevcut bir vertex öğesi ekler |
-| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler |
-| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler |
+| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler. |
+| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler. |
 | [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) oluşturur. |
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) oluşturur. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
-| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır. |
 | [getClass()](#getClass--) |  |
-| [getControlPoints()](#getControlPoints--) | Tüm kontrol noktalarını al |
-| [getDeformers()](#getDeformers--) | Bu geometriyle ilişkili tüm deformasyonları al. |
-| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Belirtilen türde bir köşe öğesini al |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getControlPoints()](#getControlPoints--) | Tüm kontrol noktalarını al. |
+| [getDeformers()](#getDeformers--) | Bu geometriyle ilişkili tüm deformers'ı al. |
+| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Belirtilen türde bir köşe öğesini al. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getName()](#getName--) | Adı alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getReceiveShadows()](#getReceiveShadows--) | Bu geometrinin gölge alıp almayacağını al. |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [getU()](#getU--) | NURBS yüzeyinin U yönünü alır |
 | [getV()](#getV--) | NURBS yüzeyinin V yönünü alır |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) örneği al |
-| [getVertexElements()](#getVertexElements--) | Tüm köşe öğelerini al |
-| [getVisible()](#getVisible--) | Geometrinin görünür olup olmadığını al |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) örneği al. |
+| [getVertexElements()](#getVertexElements--) | Tüm köşe öğelerini al. |
+| [getVisible()](#getVisible--) | Geometrinin görünür olup olmadığını al. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarla. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarlar. |
-| [setVisible(boolean value)](#setVisible-boolean-) | Geometrinin görünür olup olmadığını ayarlar |
-| [toMesh()](#toMesh--) | NURBS yüzeyini örgüye dönüştür |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarla. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Geometrinin görünür olup olmadığını ayarla. |
+| [toMesh()](#toMesh--) | NURBS yüzeyini ağa dönüştürür. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -81,7 +81,7 @@ public NurbsSurface()
 ```
 
 
-[NurbsSurface](../../com.aspose.threed/nurbssurface) sınıfının yeni bir örneğini başlatır.
+Yeni bir [NurbsSurface](../../com.aspose.threed/nurbssurface) sınıfının örneğini başlatır.
 
 ### NurbsSurface(String name) {#NurbsSurface-java.lang.String-}
 ```
@@ -89,7 +89,7 @@ public NurbsSurface(String name)
 ```
 
 
-[NurbsSurface](../../com.aspose.threed/nurbssurface) sınıfının yeni bir örneğini başlatır.
+Yeni bir [NurbsSurface](../../com.aspose.threed/nurbssurface) sınıfının örneğini başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -102,7 +102,7 @@ public Collection<T> <T>getDeformers2()
 ```
 
 
-Belirtilen deformer türleriyle tüm deformörleri alır.
+Belirtilen deformer türlerine sahip tüm deformasyonları alır
 
 **Returns:**
 java.util.Collection<T> - Deformer koleksiyonu
@@ -117,7 +117,7 @@ Mevcut geometriye mevcut bir vertex öğesi ekler
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| element | [VertexElement](../../com.aspose.threed/vertexelement) | Eklenecek köşe öğesi |
+| element | [VertexElement](../../com.aspose.threed/vertexelement) | Eklenecek vertex öğesi |
 
 ### createElement(VertexElementType type) {#createElement-com.aspose.threed.VertexElementType-}
 ```
@@ -125,12 +125,12 @@ public VertexElement createElement(VertexElementType type)
 ```
 
 
-Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler
+Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Köşe öğesi türü |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Vertex öğesi türü |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -140,12 +140,12 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 ```
 
 
-Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler
+Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Köşe öğesi türü |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Vertex öğesi türü |
 | mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Varsayılan eşleme modu |
 | referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Varsayılan referans modu |
 
@@ -204,7 +204,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -219,7 +219,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -236,7 +236,7 @@ public boolean getCastShadows()
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını alır
+Bu geometrinin gölge oluşturup oluşturamayacağını alır.
 
 **Returns:**
 boolean - bu geometrinin gölge oluşturup oluşturamayacağı
@@ -256,7 +256,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-Tüm kontrol noktalarını al
+Tüm kontrol noktalarını al.
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - tüm kontrol noktaları
@@ -266,7 +266,7 @@ public List<Deformer> getDeformers()
 ```
 
 
-Bu geometriyle ilişkili tüm deformasyonları al.
+Bu geometriyle ilişkili tüm deformers'ı al.
 
 **Returns:**
 java.util.List<com.aspose.threed.Deformer> - bu geometriyle ilişkili tüm deformasyonlar.
@@ -276,12 +276,12 @@ public VertexElement getElement(VertexElementType type)
 ```
 
 
-Belirtilen türde bir köşe öğesini al
+Belirtilen türde bir köşe öğesini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | hangi köşe öğesi türünün bulunacağı |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | hangi vertex öğe tipinin bulunacağı |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - [VertexElement](../../com.aspose.threed/vertexelement) instance if found, otherwise null will be returned.
@@ -291,7 +291,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -301,7 +301,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -321,7 +321,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -331,7 +331,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -351,7 +351,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -376,7 +376,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -406,7 +406,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) örneği al
+Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) örneği al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -421,20 +421,20 @@ public List<VertexElement> getVertexElements()
 ```
 
 
-Tüm köşe öğelerini al
+Tüm köşe öğelerini al.
 
 **Returns:**
-java.util.List<com.aspose.threed.VertexElement> - tüm köşe öğeleri
+java.util.List<com.aspose.threed.VertexElement> - tüm vertex öğeleri
 ### getVisible() {#getVisible--}
 ```
 public boolean getVisible()
 ```
 
 
-Geometrinin görünür olup olmadığını al
+Geometrinin görünür olup olmadığını al.
 
 **Returns:**
-boolean - geometrinin görünür olup olmadığı
+boolean - geometrinin görünür olup olmadığını
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -482,7 +482,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -497,7 +497,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar
+Bu geometrinin gölge oluşturup oluşturamayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -536,7 +536,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -549,7 +549,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -563,7 +563,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge alıp almayacağını ayarlar.
+Bu geometrinin gölge alıp almayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -576,7 +576,7 @@ public void setVisible(boolean value)
 ```
 
 
-Geometrinin görünür olup olmadığını ayarlar
+Geometrinin görünür olup olmadığını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -589,7 +589,7 @@ public Mesh toMesh()
 ```
 
 
-NURBS yüzeyini örgüye dönüştür
+NURBS yüzeyini ağa dönüştürür.
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh)

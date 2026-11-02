@@ -13,32 +13,32 @@ java.lang.Object
 public class NurbsDirection
 ```
 
-Bir 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) iki yön içerir, [NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) ve [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV), [NurbsDirection](../../com.aspose.threed/nurbsdirection) her yön için verileri tanımlar. Bir yön aslında bir NURBS eğrisidir, bu da onun [getOrder](../../com.aspose.threed/nurbsdirection\#getOrder), bir [getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors) ve [NurbsSurface](../../com.aspose.threed/nurbssurface) içinde tanımlanan ağırlıklı kontrol noktaları kümesi ile tanımlandığı anlamına gelir.
+Bir 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) iki yön içerir, [NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) ve [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV), [NurbsDirection](../../com.aspose.threed/nurbsdirection) her yön için verileri tanımlar. Bir yön aslında bir NURBS eğrisidir, bu da onun [getOrder](../../com.aspose.threed/nurbsdirection\#getOrder), bir [getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors) ve [NurbsSurface](../../com.aspose.threed/nurbssurface) içinde tanımlanan ağırlıklı kontrol noktalarından oluştuğu anlamına gelir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [NurbsDirection()](#NurbsDirection--) | Yeni bir [NurbsDirection](../../com.aspose.threed/nurbsdirection) örneği oluştur |
+| [NurbsDirection()](#NurbsDirection--) | Yeni bir [NurbsDirection](../../com.aspose.threed/nurbsdirection) örneği oluştur. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Mevcut yönde kontrol noktalarının sayısını döndürür. |
-| [getDegree()](#getDegree--) | NURBS eğrisinin derecesini alır, derece Sipariş - 1 olarak tanımlanır |
-| [getDivisions()](#getDivisions--) | Mevcut yönde bitişik kontrol noktaları arasındaki bölünme sayısını alır. |
-| [getKnotVectors()](#getKnotVectors--) | Düğüm vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir. |
+| [getCount()](#getCount--) | Mevcut yönde kontrol noktalarının sayısını alır. |
+| [getDegree()](#getDegree--) | NURBS eğrisinin derecesini alır, derece Order - 1 olarak tanımlanır |
+| [getDivisions()](#getDivisions--) | Mevcut yönde komşu kontrol noktaları arasındaki bölünme sayısını alır. |
+| [getKnotVectors()](#getKnotVectors--) | Knot vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir. |
 | [getMultiplicity()](#getMultiplicity--) | Çokluğu alır. |
-| [getOrder()](#getOrder--) | NURBS eğrisinin derecesini alır, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar. |
+| [getOrder()](#getOrder--) | NURBS eğrisinin mertebesini alır, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar. |
 | [getType()](#getType--) | Mevcut yönün tipini alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCount(int value)](#setCount-int-) | Mevcut yönde kontrol noktalarının sayısını ayarlar. |
-| [setDegree(int value)](#setDegree-int-) | NURBS eğrisinin derecesini ayarlar, derece Sipariş - 1 olarak tanımlanır |
-| [setDivisions(int value)](#setDivisions-int-) | Mevcut yönde bitişik kontrol noktaları arasındaki bölünme sayısını ayarlar. |
-| [setOrder(int value)](#setOrder-int-) | NURBS eğrisinin derecesini ayarlar, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar. |
+| [setDegree(int value)](#setDegree-int-) | NURBS eğrisinin derecesini ayarlar, derece Order - 1 olarak tanımlanır |
+| [setDivisions(int value)](#setDivisions-int-) | Mevcut yönde komşu kontrol noktaları arasındaki bölünme sayısını ayarlar. |
+| [setOrder(int value)](#setOrder-int-) | NURBS eğrisinin mertebesini ayarlar, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar. |
 | [setType(NurbsType value)](#setType-com.aspose.threed.NurbsType-) | Mevcut yönün tipini ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -50,7 +50,7 @@ public NurbsDirection()
 ```
 
 
-Yeni bir [NurbsDirection](../../com.aspose.threed/nurbsdirection) örneği oluştur
+Yeni bir [NurbsDirection](../../com.aspose.threed/nurbsdirection) örneği oluştur.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -83,7 +83,7 @@ public int getCount()
 ```
 
 
-Mevcut yönde kontrol noktalarının sayısını döndürür.
+Mevcut yönde kontrol noktalarının sayısını alır.
 
 **Returns:**
 int - mevcut yönde kontrol noktalarının sayısı.
@@ -93,30 +93,30 @@ public int getDegree()
 ```
 
 
-NURBS eğrisinin derecesini alır, derece Sipariş - 1 olarak tanımlanır
+NURBS eğrisinin derecesini alır, derece Order - 1 olarak tanımlanır
 
 **Returns:**
-int - NURBS eğrisinin derecesi, derece Sipariş - 1 olarak tanımlanır
+int - NURBS eğrisinin derecesi, derece Order - 1 olarak tanımlanır
 ### getDivisions() {#getDivisions--}
 ```
 public int getDivisions()
 ```
 
 
-Mevcut yönde bitişik kontrol noktaları arasındaki bölünme sayısını alır.
+Mevcut yönde komşu kontrol noktaları arasındaki bölünme sayısını alır.
 
 **Returns:**
-int - mevcut yönde bitişik kontrol noktaları arasındaki bölünme sayısı.
+int - mevcut yönde komşu kontrol noktaları arasındaki bölünme sayısı.
 ### getKnotVectors() {#getKnotVectors--}
 ```
 public List<Double> getKnotVectors()
 ```
 
 
-Düğüm vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir.
+Knot vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir.
 
 **Returns:**
-java.util.List<java.lang.Double> - düğüm vektörü, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir.
+java.util.List<java.lang.Double> - knot vektörü, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir.
 ### getMultiplicity() {#getMultiplicity--}
 ```
 public List<Integer> getMultiplicity()
@@ -133,10 +133,10 @@ public int getOrder()
 ```
 
 
-NURBS eğrisinin derecesini alır, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar.
+NURBS eğrisinin mertebesini alır, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar.
 
 **Returns:**
-int - bir NURBS eğrisinin derecesi, eğri üzerindeki herhangi bir noktayı etkileyen yakın kontrol noktalarının sayısını tanımlar.
+int - bir NURBS eğrisinin derecesi, bu değer eğri üzerindeki herhangi bir noktayı etkileyen yakın kontrol noktalarının sayısını tanımlar.
 ### getType() {#getType--}
 ```
 public NurbsType getType()
@@ -192,7 +192,7 @@ public void setDegree(int value)
 ```
 
 
-NURBS eğrisinin derecesini ayarlar, derece Sipariş - 1 olarak tanımlanır
+NURBS eğrisinin derecesini ayarlar, derece Order - 1 olarak tanımlanır
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -205,7 +205,7 @@ public void setDivisions(int value)
 ```
 
 
-Mevcut yönde bitişik kontrol noktaları arasındaki bölünme sayısını ayarlar.
+Mevcut yönde komşu kontrol noktaları arasındaki bölünme sayısını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -218,7 +218,7 @@ public void setOrder(int value)
 ```
 
 
-NURBS eğrisinin derecesini ayarlar, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar.
+NURBS eğrisinin mertebesini ayarlar, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

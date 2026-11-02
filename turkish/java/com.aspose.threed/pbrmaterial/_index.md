@@ -1,7 +1,7 @@
 ---
 title: "PbrMaterial"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Albedo rengi/metallic/roughness temelinde fiziksel tabanlı render için malzeme."
+description: "Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için malzeme."
 type: docs
 weight: 121
 url: /tr/java/com.aspose.threed/pbrmaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrMaterial extends Material
 ```
 
-Albedo rengi/metallic/roughness temelinde fiziksel tabanlı render için malzeme.
+Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için malzeme.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -24,11 +24,11 @@ Albedo rengi/metallic/roughness temelinde fiziksel tabanlı render için malzeme
 
 | Alan | Açıklama |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | Ortam doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | Difüz doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | Emisyon doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_NORMAL](#MAP-NORMAL) | Normal doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_SPECULAR](#MAP-SPECULAR) | Yansıtıcı doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_AMBIENT](#MAP-AMBIENT) | Ambient doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | Diffuse doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | Emissive doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_NORMAL](#MAP-NORMAL) | Normal doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_SPECULAR](#MAP-SPECULAR) | Specular doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -36,45 +36,45 @@ Albedo rengi/metallic/roughness temelinde fiziksel tabanlı render için malzeme
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
 | [fromMaterial(Material material)](#fromMaterial-com.aspose.threed.Material-) | Diğer malzemeyi PbrMaterial'e dönüştürmeye izin ver **Example:** |
-| [getAlbedo()](#getAlbedo--) | Malzemenin temel rengini alır |
-| [getAlbedoTexture()](#getAlbedoTexture--) | Albedo için dokuyu alır |
+| [getAlbedo()](#getAlbedo--) | Malzemenin temel rengini al |
+| [getAlbedoTexture()](#getAlbedoTexture--) | Albedo için dokuyu al |
 | [getClass()](#getClass--) |  |
-| [getEmissiveColor()](#getEmissiveColor--) | Emisyon rengini alır |
+| [getEmissiveColor()](#getEmissiveColor--) | Emissive rengi alır. |
 | [getEmissiveTexture()](#getEmissiveTexture--) | Emisyon için dokuyu alır |
-| [getMetallicFactor()](#getMetallicFactor--) | Malzemenin metalikliğini alır, 1 değeri malzemenin metal olduğunu, 0 değeri ise dielektrik olduğunu gösterir. |
-| [getMetallicRoughness()](#getMetallicRoughness--) | Metallic (R kanalında) ve roughness (G kanalında) için dokuyu alır |
+| [getMetallicFactor()](#getMetallicFactor--) | Malzemenin metalik değerini al, 1 değeri malzemenin metal olduğunu, 0 değeri ise dielektrik olduğunu gösterir. |
+| [getMetallicRoughness()](#getMetallicRoughness--) | Metalik (R kanalında) ve pürüzlülük (G kanalında) dokusunu al |
 | [getName()](#getName--) | Adı alır. |
 | [getNormalTexture()](#getNormalTexture--) | Normal haritalama dokusunu alır |
-| [getOcclusionFactor()](#getOcclusionFactor--) | Ambient occlusion faktörünü alır |
-| [getOcclusionTexture()](#getOcclusionTexture--) | Ambient occlusion için dokuyu alır |
+| [getOcclusionFactor()](#getOcclusionFactor--) | Ambient occlusion faktörünü al |
+| [getOcclusionTexture()](#getOcclusionTexture--) | Ambient occlusion için dokuyu al |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getRoughnessFactor()](#getRoughnessFactor--) | Malzemenin pürüzlülüğünü alır, 1 değeri malzemenin tamamen pürüzlü olduğunu, 0 değeri ise tamamen pürüzsüz olduğunu gösterir. |
-| [getSpecularTexture()](#getSpecularTexture--) | Speküler renk için dokuyu alır |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getRoughnessFactor()](#getRoughnessFactor--) | Malzemenin pürüzlülüğünü al, 1 değeri tamamen pürüzlü, 0 değeri tamamen pürüzsüz olduğunu gösterir. |
+| [getSpecularTexture()](#getSpecularTexture--) | Speküler renk için dokuyu al |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir. |
 | [getTransparency()](#getTransparency--) | Şeffaflık faktörünü alır. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Dahili doku yuvalarını yinelemek için enumeratörü alır. |
+| [iterator()](#iterator--) | Dahili doku yuvalarını yinelemek için yineleyiciyi alır. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setAlbedo(Vector3 value)](#setAlbedo-com.aspose.threed.Vector3-) | Malzemenin temel rengini ayarlar |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setAlbedo(Vector3 value)](#setAlbedo-com.aspose.threed.Vector3-) | Malzemenin temel rengini ayarla |
 | [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | Albedo için dokuyu ayarlar |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Emisyon rengini ayarlar |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Emissive rengi ayarlar. |
 | [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | Emissive için dokuyu ayarlar |
 | [setMetallicFactor(double value)](#setMetallicFactor-double-) | Malzemenin metalikliğini ayarlar, 1 değeri malzemenin metal olduğunu, 0 değeri ise malzemenin dielektrik olduğunu gösterir. |
 | [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | Metalik (R kanalında) ve pürüzlülük (G kanalında) için dokuyu ayarlar |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | Normal haritalamanın dokusunu ayarlar |
-| [setOcclusionFactor(double value)](#setOcclusionFactor-double-) | Ambient occlusion faktörünü ayarlar |
-| [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | Ambient occlusion için dokuyu ayarlar |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | Normal haritalamanın dokusunu ayarlar. |
+| [setOcclusionFactor(double value)](#setOcclusionFactor-double-) | Ambient örtülme faktörünü ayarlar |
+| [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | Ambient örtülme için dokuyu ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setRoughnessFactor(double value)](#setRoughnessFactor-double-) | Malzemenin pürüzlülüğünü ayarlar, 1 değeri malzemenin tamamen pürüzlü olduğunu, 0 değeri ise tamamen pürüzsüz olduğunu gösterir. |
-| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | Speküler renk için dokuyu ayarlar |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Dokuyu belirtilen yuvaya ayarlar |
+| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | Yansıtıcı renk için dokuyu ayarlar |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Dokuyu belirtilen yuvaya ayarlar. |
 | [setTransparency(double value)](#setTransparency-double-) | Şeffaflık faktörünü ayarlar. |
-| [toString()](#toString--) | Nesneyi dizeye dönüştürür |
+| [toString()](#toString--) | Nesneyi dizeye biçimlendir |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -105,7 +105,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-Ortam doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Ambient doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -113,7 +113,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-Difüz doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Diffuse doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -121,7 +121,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-Emisyon doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Emissive doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -129,7 +129,7 @@ public static final String MAP_NORMAL
 ```
 
 
-Normal doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Normal doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -137,7 +137,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-Yansıtıcı doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Specular doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -160,7 +160,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -199,7 +199,7 @@ public Vector3 getAlbedo()
 ```
 
 
-Malzemenin temel rengini alır
+Malzemenin temel rengini al
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the base color of the material
@@ -209,7 +209,7 @@ public TextureBase getAlbedoTexture()
 ```
 
 
-Albedo için dokuyu alır
+Albedo için dokuyu al
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for albedo
@@ -229,7 +229,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-Emisyon rengini alır
+Emissive rengi alır.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color
@@ -249,7 +249,7 @@ public double getMetallicFactor()
 ```
 
 
-Malzemenin metalikliğini alır, 1 değeri malzemenin metal olduğunu, 0 değeri ise dielektrik olduğunu gösterir.
+Malzemenin metalik değerini al, 1 değeri malzemenin metal olduğunu, 0 değeri ise dielektrik olduğunu gösterir.
 
 **Returns:**
 double - malzemenin metalikliğini, 1 değeri malzemenin metal olduğunu, 0 değeri ise malzemenin dielektrik olduğunu gösterir.
@@ -259,7 +259,7 @@ public TextureBase getMetallicRoughness()
 ```
 
 
-Metallic (R kanalında) ve roughness (G kanalında) için dokuyu alır
+Metalik (R kanalında) ve pürüzlülük (G kanalında) dokusunu al
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for metallic(in R channel) and roughness(in G channel)
@@ -289,17 +289,17 @@ public double getOcclusionFactor()
 ```
 
 
-Ambient occlusion faktörünü alır
+Ambient occlusion faktörünü al
 
 **Returns:**
-double - ambient occlusion faktörü
+double - ambient örtülme faktörü
 ### getOcclusionTexture() {#getOcclusionTexture--}
 ```
 public TextureBase getOcclusionTexture()
 ```
 
 
-Ambient occlusion için dokuyu alır
+Ambient occlusion için dokuyu al
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for ambient occlusion
@@ -319,7 +319,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -334,7 +334,7 @@ public double getRoughnessFactor()
 ```
 
 
-Malzemenin pürüzlülüğünü alır, 1 değeri malzemenin tamamen pürüzlü olduğunu, 0 değeri ise tamamen pürüzsüz olduğunu gösterir.
+Malzemenin pürüzlülüğünü al, 1 değeri tamamen pürüzlü, 0 değeri tamamen pürüzsüz olduğunu gösterir.
 
 **Returns:**
 double - malzemenin pürüzlülüğü, 1 değeri malzemenin tamamen pürüzlü olduğunu, 0 değeri ise tamamen pürüzsüz olduğunu gösterir.
@@ -344,7 +344,7 @@ public TextureBase getSpecularTexture()
 ```
 
 
-Speküler renk için dokuyu alır
+Speküler renk için dokuyu al
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for specular color
@@ -354,7 +354,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir
+Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -377,10 +377,10 @@ public double getTransparency()
 ```
 
 
-Şeffaflık faktörünü alır. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır.
+Şeffaflık faktörünü alır. Faktör 0(0%, tamamen opak) ve 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlanacaktır.
 
 **Returns:**
-double - şeffaflık faktörü. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır.
+double - şeffaflık faktörü. Faktör 0(0%, tamamen opak) ve 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlanacaktır.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -397,7 +397,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-Dahili doku yuvalarını yinelemek için enumeratörü alır.
+Dahili doku yuvalarını yinelemek için yineleyiciyi alır.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -438,7 +438,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -453,7 +453,7 @@ public void setAlbedo(Vector3 value)
 ```
 
 
-Malzemenin temel rengini ayarlar
+Malzemenin temel rengini ayarla
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -479,7 +479,7 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-Emisyon rengini ayarlar
+Emissive rengi ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -544,7 +544,7 @@ public void setNormalTexture(TextureBase value)
 ```
 
 
-Normal haritalamanın dokusunu ayarlar
+Normal haritalamanın dokusunu ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -557,7 +557,7 @@ public void setOcclusionFactor(double value)
 ```
 
 
-Ambient occlusion faktörünü ayarlar
+Ambient örtülme faktörünü ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -570,7 +570,7 @@ public void setOcclusionTexture(TextureBase value)
 ```
 
 
-Ambient occlusion için dokuyu ayarlar
+Ambient örtülme için dokuyu ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -583,7 +583,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -610,7 +610,7 @@ public void setSpecularTexture(TextureBase value)
 ```
 
 
-Speküler renk için dokuyu ayarlar
+Yansıtıcı renk için dokuyu ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -623,7 +623,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-Dokuyu belirtilen yuvaya ayarlar
+Dokuyu belirtilen yuvaya ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -644,7 +644,7 @@ public void setTransparency(double value)
 ```
 
 
-Şeffaflık faktörünü ayarlar. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır.
+Şeffaflık faktörünü ayarlar. Faktör 0(0%, tamamen opak) ve 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlanacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -657,7 +657,7 @@ public String toString()
 ```
 
 
-Nesneyi dizeye dönüştürür
+Nesneyi dizeye biçimlendir
 
 **Returns:**
 java.lang.String - Nesne dizesi

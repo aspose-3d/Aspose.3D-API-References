@@ -13,7 +13,7 @@ java.lang.Object
 public final class VertexFieldDataType
 ```
 
-Vertex alanının veri tipi
+Verteks alanının veri tipi
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -23,7 +23,7 @@ Vertex alanının veri tipi
 
 | Alan | Açıklama |
 | --- | --- |
-| [BYTE_VECTOR4](#BYTE-VECTOR4) | byte[4] tipi, daha az bellek tüketimiyle renk temsil etmek için kullanılabilir. |
+| [BYTE_VECTOR4](#BYTE-VECTOR4) | byte[4] tipi, daha az bellek tüketimiyle rengi temsil etmek için kullanılabilir. |
 | [DOUBLE](#DOUBLE) | double tipi |
 | [FLOAT](#FLOAT) | float tipi |
 | [F_VECTOR2](#F-VECTOR2) | [FVector2](../../com.aspose.threed/fvector2) tipi |
@@ -61,7 +61,7 @@ public static final int BYTE_VECTOR4
 ```
 
 
-byte[4] tipi, daha az bellek tüketimiyle renk temsil etmek için kullanılabilir.
+byte[4] tipi, daha az bellek tüketimiyle rengi temsil etmek için kullanılabilir.
 
 ### DOUBLE {#DOUBLE}
 ```

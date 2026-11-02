@@ -19,8 +19,8 @@ Render hedefinin temel arayüzü
 | Yöntem | Açıklama |
 | --- | --- |
 | [createViewport(Camera camera)](#createViewport-com.aspose.threed.Camera-) | Belirtilen kamera perspektifinde bir görüntü alanı oluştur. |
-| [createViewport(Camera camera, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.RelativeRectangle-) | Belirtilen kamera perspektifinde konum/ölçü ile bir görüntü alanı oluştur. |
-| [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | Belirtilen kamera perspektifinde konum/ölçü ve belirtilen arka plan rengi ile bir görüntü alanı oluştur. |
+| [createViewport(Camera camera, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.RelativeRectangle-) | Belirtilen kamera perspektifinde konum/boyut ile bir görüntü alanı oluştur. |
+| [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | Belirtilen kamera perspektifinde belirtilen arka plan rengi ve konum/boyut ile bir görüntü alanı oluştur. |
 | [getSize()](#getSize--) | Render hedefinin boyutunu alır. |
 | [getViewports()](#getViewports--) | Bu render hedefiyle ilişkili tüm görüntü alanlarını alır. |
 | [setSize(Vector2 value)](#setSize-com.aspose.threed.Vector2-) | Render hedefinin boyutunu ayarlar. |
@@ -45,7 +45,7 @@ public abstract Viewport createViewport(Camera camera, RelativeRectangle rect)
 ```
 
 
-Belirtilen kamera perspektifinde konum/ölçü ile bir görüntü alanı oluştur.
+Belirtilen kamera perspektifinde konum/boyut ile bir görüntü alanı oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -61,7 +61,7 @@ public abstract Viewport createViewport(Camera camera, Vector3 backgroundColor, 
 ```
 
 
-Belirtilen kamera perspektifinde konum/ölçü ve belirtilen arka plan rengi ile bir görüntü alanı oluştur.
+Belirtilen kamera perspektifinde belirtilen arka plan rengi ve konum/boyut ile bir görüntü alanı oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -18,21 +18,21 @@ public static class StructuralMetadata.PropertyTable
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [PropertyTable(String name, StructuralMetadata.ClassType mclass)](#PropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | Property table'ın yapıcı metodu. |
+| [PropertyTable(String name, StructuralMetadata.ClassType mclass)](#PropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | Özellik tablosunun yapıcı yöntemi. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [addValue(StructuralMetadata.Property prop, Object value)](#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-) | Property table'a yeni bir özellik ekle. |
-| [addValue(String propName, Object value)](#addValue-java.lang.String-java.lang.Object-) | Property table'a yeni bir özellik ekle. |
-| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | Mevcut property table'ı belirtilen kullanıcı verisine ekle. |
+| [addValue(StructuralMetadata.Property prop, Object value)](#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-) | Yeni bir özelliği özellik tablosuna ekle. |
+| [addValue(String propName, Object value)](#addValue-java.lang.String-java.lang.Object-) | Yeni bir özelliği özellik tablosuna ekle. |
+| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | Mevcut özellik tablosunu belirtilen kullanıcı verisine ekle. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | Belirtilen kullanıcı verisinden ekli property table'ı çıkar. |
+| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | Ekli özellik tablosunu belirtilen kullanıcı verisinden çıkar. |
 | [getClass()](#getClass--) |  |
-| [getMetaClass()](#getMetaClass--) | Bu property table'ın meta sınıfı. |
-| [getName()](#getName--) | Property table'ın adı. |
+| [getMetaClass()](#getMetaClass--) | Bu özellik tablosunun meta sınıfı. |
+| [getName()](#getName--) | Özellik tablosunun adı. |
 | [getValue(String name)](#getValue-java.lang.String-) | Belirtilen özellik adının değerini alır. |
-| [getValues()](#getValues--) | Property table'ın değerleri. |
+| [getValues()](#getValues--) | Özellik tablosunun değerleri. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,13 +46,13 @@ public PropertyTable(String name, StructuralMetadata.ClassType mclass)
 ```
 
 
-Property table'ın yapıcı metodu.
+Özellik tablosunun yapıcı yöntemi.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | ad | java.lang.String | Bu tablo örneğinin adı. |
-| mclass | [ClassType](../../com.aspose.threed/classtype) | Bu property table'ın meta sınıf tanımı. |
+| mclass | [ClassType](../../com.aspose.threed/classtype) | Bu özellik tablosunun meta sınıf tanımı. |
 
 ### addValue(StructuralMetadata.Property prop, Object value) {#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-}
 ```
@@ -60,13 +60,13 @@ public void addValue(StructuralMetadata.Property prop, Object value)
 ```
 
 
-Property table'a yeni bir özellik ekle.
+Yeni bir özelliği özellik tablosuna ekle.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| prop | [Property](../../com.aspose.threed/property) | Hangi özelliği değerle ekleyeceksiniz |
-| değer | java.lang.Object | Değerler dizisi |
+| prop | [Property](../../com.aspose.threed/property) | Hangi özelliğin değeriyle ekleneceği |
+| değer | java.lang.Object | Değerlerin dizisi |
 
 ### addValue(String propName, Object value) {#addValue-java.lang.String-java.lang.Object-}
 ```
@@ -74,13 +74,13 @@ public void addValue(String propName, Object value)
 ```
 
 
-Property table'a yeni bir özellik ekle.
+Yeni bir özelliği özellik tablosuna ekle.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| propName | java.lang.String | Hangi özelliği değerle ekleyeceksiniz |
-| değer | java.lang.Object | Değerler dizisi |
+| propName | java.lang.String | Hangi özelliğin değeriyle ekleneceği |
+| değer | java.lang.Object | Değerlerin dizisi |
 
 ### attach(VertexElementUserData userData) {#attach-com.aspose.threed.VertexElementUserData-}
 ```
@@ -88,7 +88,7 @@ public void attach(VertexElementUserData userData)
 ```
 
 
-Mevcut property table'ı belirtilen kullanıcı verisine ekle.
+Mevcut özellik tablosunu belirtilen kullanıcı verisine ekle.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -116,12 +116,12 @@ public static StructuralMetadata.PropertyTable from(VertexElementUserData userDa
 ```
 
 
-Belirtilen kullanıcı verisinden ekli property table'ı çıkar.
+Ekli özellik tablosunu belirtilen kullanıcı verisinden çıkar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | Bir property table ile ilişkili kullanıcı verisi. |
+| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | Bir özellik tablosu ile ilişkili kullanıcı verisi. |
 
 **Returns:**
 [PropertyTable](../../com.aspose.threed/propertytable) - The associated property table instance
@@ -141,7 +141,7 @@ public StructuralMetadata.ClassType getMetaClass()
 ```
 
 
-Bu property table'ın meta sınıfı.
+Bu özellik tablosunun meta sınıfı.
 
 **Returns:**
 [ClassType](../../com.aspose.threed/classtype) - The meta class of this property table.
@@ -151,10 +151,10 @@ public String getName()
 ```
 
 
-Property table'ın adı.
+Özellik tablosunun adı.
 
 **Returns:**
-java.lang.String - Property table'ın adı.
+java.lang.String - Özellik tablosunun adı.
 ### getValue(String name) {#getValue-java.lang.String-}
 ```
 public Object getValue(String name)
@@ -176,10 +176,10 @@ public HashMap<String,Object> getValues()
 ```
 
 
-Property table'ın değerleri.
+Özellik tablosunun değerleri.
 
 **Returns:**
-java.util.HashMap<java.lang.String,java.lang.Object> - Property table'ın değerleri.
+java.util.HashMap<java.lang.String,java.lang.Object> - Özellik tablosunun değerleri.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

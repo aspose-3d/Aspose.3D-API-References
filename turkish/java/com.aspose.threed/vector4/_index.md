@@ -39,22 +39,22 @@ Dört bileşenli bir vektör.
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [add(Vector4 lhs, Vector4 rhs)](#add-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | + operatörü için aşırı yükleme |
+| [add(Vector4 lhs, Vector4 rhs)](#add-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | + için operatör aşırı yükleme |
 | [clone()](#clone--) |  |
-| [compareTo(Vector4 other)](#compareTo-com.aspose.threed.Vector4-) | Mevcut vektörü başka bir örnek ile karşılaştırın. |
+| [compareTo(Vector4 other)](#compareTo-com.aspose.threed.Vector4-) | Mevcut vektörü başka bir örnek ile karşılaştır. |
 | [copyFrom(Vector4 src)](#copyFrom-com.aspose.threed.Vector4-) |  |
 | [create(Vector4 v)](#create-com.aspose.threed.Vector4-) | Vector4'ü FVector4'e dönüştürmek için açık dönüşüm operatörü |
 | [equals(Object obj)](#equals-java.lang.Object-) | İki vektörün eşit olup olmadığını kontrol et |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) | Bu vektörün karma kodunu alır |
-| [mul(Vector4 lhs, Vector4 rhs)](#mul-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | \* operatörü için aşırı yükleme |
-| [mul(Vector4 lhs, double rhs)](#mul-com.aspose.threed.Vector4-double-) | \* operatörü için aşırı yükleme |
+| [mul(Vector4 lhs, Vector4 rhs)](#mul-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | * için operatör aşırı yükleme |
+| [mul(Vector4 lhs, double rhs)](#mul-com.aspose.threed.Vector4-double-) | * için operatör aşırı yükleme |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(double newX, double newY, double newZ)](#set-double-double-double-) | Vektörün xyz bileşenlerini bir anda ayarlar, w 1 olarak ayarlanacak |
-| [set(double newX, double newY, double newZ, double newW)](#set-double-double-double-double-) | Vektörün tüm bileşenlerini bir anda ayarlar |
+| [set(double newX, double newY, double newZ)](#set-double-double-double-) | Vektörün xyz bileşenlerini bir kerede ayarlar, w 1 olarak ayarlanır |
+| [set(double newX, double newY, double newZ, double newW)](#set-double-double-double-double-) | Vektörün tüm bileşenlerini bir kerede ayarlar |
 | [sub(Vector4 lhs, Vector4 rhs)](#sub-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | - (eksi) için operatör aşırı yüklemesi |
-| [toString()](#toString--) | Geçerli [Vector4](../../com.aspose.threed/vector4) nesnesini temsil eden bir java.lang.String döndürür. |
+| [toString()](#toString--) | Geçerli [Vector4](../../com.aspose.threed/vector4) öğesini temsil eden bir java.lang.String döndürür. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -69,7 +69,7 @@ Yeni bir [Vector4](../../com.aspose.threed/vector4) yapısının örneğini baş
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| vec | [Vector3](../../com.aspose.threed/vector3) | Vektör. |
+| vec | [Vector3](../../com.aspose.threed/vector3) | Vec. |
 | w | double | Genişlik. |
 
 ### Vector4(Vector3 vec) {#Vector4-com.aspose.threed.Vector3-}
@@ -83,7 +83,7 @@ Yeni bir [Vector4](../../com.aspose.threed/vector4) yapısının örneğini baş
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| vec | [Vector3](../../com.aspose.threed/vector3) | Vektör. |
+| vec | [Vector3](../../com.aspose.threed/vector3) | Vec. |
 
 ### Vector4(FVector4 vec) {#Vector4-com.aspose.threed.FVector4-}
 ```
@@ -96,7 +96,7 @@ Yeni bir [Vector4](../../com.aspose.threed/vector4) yapısının örneğini baş
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| vec | [FVector4](../../com.aspose.threed/fvector4) | Vektör. |
+| vec | [FVector4](../../com.aspose.threed/fvector4) | Vec. |
 
 ### Vector4(double x, double y, double z) {#Vector4-double-double-double-}
 ```
@@ -173,7 +173,7 @@ public static Vector4 add(Vector4 lhs, Vector4 rhs)
 ```
 
 
-+ operatörü için aşırı yükleme
++ için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -189,7 +189,7 @@ public Vector4 clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4)
@@ -199,7 +199,7 @@ public int compareTo(Vector4 other)
 ```
 
 
-Mevcut vektörü başka bir örnek ile karşılaştırın.
+Mevcut vektörü başka bir örnek ile karşılaştır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -277,7 +277,7 @@ public static Vector4 mul(Vector4 lhs, Vector4 rhs)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -293,7 +293,7 @@ public static Vector4 mul(Vector4 lhs, double rhs)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -325,7 +325,7 @@ public void set(double newX, double newY, double newZ)
 ```
 
 
-Vektörün xyz bileşenlerini bir anda ayarlar, w 1 olarak ayarlanacak
+Vektörün xyz bileşenlerini bir kerede ayarlar, w 1 olarak ayarlanır
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -340,7 +340,7 @@ public void set(double newX, double newY, double newZ, double newW)
 ```
 
 
-Vektörün tüm bileşenlerini bir anda ayarlar
+Vektörün tüm bileşenlerini bir kerede ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -372,7 +372,7 @@ public String toString()
 ```
 
 
-Geçerli [Vector4](../../com.aspose.threed/vector4) nesnesini temsil eden bir java.lang.String döndürür.
+Geçerli [Vector4](../../com.aspose.threed/vector4) öğesini temsil eden bir java.lang.String döndürür.
 
 **Returns:**
 java.lang.String - Geçerli [Vector4](../../com.aspose.threed/vector4) öğesini temsil eden bir java.lang.String.

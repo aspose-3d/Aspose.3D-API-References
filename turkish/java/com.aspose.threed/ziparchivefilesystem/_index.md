@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class ZipArchiveFileSystem extends FileSystem
 ```
 
-Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için dosya sistemi. Dosya sistemi, açma/kaydetme işleminden sonra serbest bırakılacaktır. **Örnek:** Aşağıdaki kod, dosyanın nasıl içe aktarılacağını ve zip arşiv dosyasında bağımlı dosyaların nasıl sağlanacağını gösterir.
+Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için dosya sistemi. Dosya sistemi, açma/kaydetme işleminden sonra yok edilecektir. **Example:** Aşağıdaki kod, dosyanın nasıl içe aktarılacağını ve zip arşiv dosyasında bağımlı dosyaların nasıl sağlanacağını gösterir.
 
 ```
 var inputFile = "input.fbx";
@@ -35,7 +35,7 @@ var inputFile = "input.fbx";
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [close()](#close--) | ZipArchiveFileSystem'i serbest bırak ve iç kaynaklarını sal. |
+| [close()](#close--) | ZipArchiveFileSystem'i kapat ve iç kaynaklarını serbest bırak. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -93,7 +93,7 @@ public void close()
 ```
 
 
-ZipArchiveFileSystem'i serbest bırak ve iç kaynaklarını sal.
+ZipArchiveFileSystem'i kapat ve iç kaynaklarını serbest bırak.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -26,8 +26,8 @@ Belirtilen bileşenler için UV koordinatlarını tanımlar. Bir geometri birden
 | --- | --- |
 | [addData(Iterable<Vector2> data)](#addData-java.lang.Iterable-com.aspose.threed.Vector2--) | VertexElementUV.Data'ye bir [Vector2](../../com.aspose.threed/vector2) kümesi ekle. |
 | [addData2(Iterable<Vector3> data)](#addData2-java.lang.Iterable-com.aspose.threed.Vector3--) | VertexElementUV.Data'ye bir [Vector3](../../com.aspose.threed/vector3) kümesi ekle. |
-| [clear()](#clear--) | Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır. |
-| [clone(boolean withData)](#clone-boolean-) | Vertex öğesinin derin kopyasını oluştur. |
+| [clear()](#clear--) | Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır. |
+| [clone(boolean withData)](#clone-boolean-) | Vertex öğesini derin kopyalar. |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [copyTo(VertexElementVector4 target)](#copyTo-com.aspose.threed.VertexElementVector4-) | Verileri belirtilen öğeye kopyalar. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -41,7 +41,7 @@ Belirtilen bileşenler için UV koordinatlarını tanımlar. Bir geometri birden
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(Vector4[] data)](#setData-com.aspose.threed.Vector4---) | Veriyi yükle |
+| [setData(Vector4[] data)](#setData-com.aspose.threed.Vector4---) | Veri yükle |
 | [setIndices(int[] data)](#setIndices-int---) | İndeksleri yükle |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Öğenin nasıl eşlendiğini ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
@@ -56,7 +56,7 @@ public VertexElementUV()
 ```
 
 
-Yeni bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) sınıfı örneği başlatır. Varsayılan doku eşleme türü [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) dir.
+Yeni bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) sınıfı örneği başlatır. Varsayılan doku eşleme türü [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) 'dır.
 
 ### VertexElementUV(TextureMapping textureMapping) {#VertexElementUV-com.aspose.threed.TextureMapping-}
 ```
@@ -77,7 +77,7 @@ public void addData(Iterable<Vector2> data)
 ```
 
 
-VertexElementUV.Data'ye bir [Vector2](../../com.aspose.threed/vector2) kümesi ekle. Bu bir kısayoldur, bu yöntem [Vector2](../../com.aspose.threed/vector2)'yi z'yi 0 ve w'yi 0 olarak ayarlayarak [Vector4](../../com.aspose.threed/vector4)'e dönüştürür.
+VertexElementUV.Data'ye bir [Vector2](../../com.aspose.threed/vector2) kümesi ekle. Bu bir kısayoldur, bu yöntem [Vector2](../../com.aspose.threed/vector2) öğesini z'yi 0 ve w'yi 0 olacak şekilde [Vector4](../../com.aspose.threed/vector4)'e dönüştürür.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -90,7 +90,7 @@ public void addData2(Iterable<Vector3> data)
 ```
 
 
-VertexElementUV.Data'ye bir [Vector3](../../com.aspose.threed/vector3) kümesi ekle. Bu bir kısayoldur, bu yöntem [Vector3](../../com.aspose.threed/vector3)'yi w'yi 0 olarak ayarlayarak [Vector4](../../com.aspose.threed/vector4)'e dönüştürür.
+VertexElementUV.Data'ye bir [Vector3](../../com.aspose.threed/vector3) kümesi ekle. Bu bir kısayoldur, bu yöntem [Vector3](../../com.aspose.threed/vector3) öğesini w'yi 0 olacak şekilde [Vector4](../../com.aspose.threed/vector4)'e dönüştürür.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -103,7 +103,7 @@ public void clear()
 ```
 
 
-Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır.
+Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır.
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -111,12 +111,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Vertex öğesinin derin kopyasını oluştur.
+Vertex öğesini derin kopyalar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle kopyala. |
+| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle klonlar. |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -266,7 +266,7 @@ public void setData(Vector4[] data)
 ```
 
 
-Veriyi yükle
+Veri yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

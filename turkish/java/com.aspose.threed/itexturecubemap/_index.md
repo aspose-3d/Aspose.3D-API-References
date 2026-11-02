@@ -19,11 +19,11 @@ Küp harita dokusu
 | Yöntem | Açıklama |
 | --- | --- |
 | [load(CubeFace face, TextureData data)](#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | Veriyi belirtilen yüze yükle |
-| [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Belirtilen [TextureData](../../com.aspose.threed/texturedata) adresinden doku içeriğini yükle |
+| [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Belirtilen [TextureData](../../com.aspose.threed/texturedata) öğesinden doku içeriğini yükle |
 | [loadFromFiles(CubeFaceData<String> fileNames)](#loadFromFiles-com.aspose.threed.CubeFaceData-java.lang.String--) | Belirtilen dosyalardan doku içeriğini yükle |
 | [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | Belirtilen yüzeyi belleğe kaydet |
 | [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Doku içeriğini belleğe kaydet. |
-| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | Kübün yüzeylerinin doku içeriğini dış dosyalara kaydet. |
+| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | Kübün yüzlerinin doku içeriğini dış dosyalara kaydet. |
 | [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | Doku birimini [TextureData](../../com.aspose.threed/texturedata) örneğine dönüştür |
 ### load(CubeFace face, TextureData data) {#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-}
 ```
@@ -45,7 +45,7 @@ public abstract void load(CubeFaceData<TextureData> data)
 ```
 
 
-Belirtilen [TextureData](../../com.aspose.threed/texturedata) adresinden doku içeriğini yükle
+Belirtilen [TextureData](../../com.aspose.threed/texturedata) öğesinden doku içeriğini yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -98,7 +98,7 @@ public abstract void save(CubeFaceData<String> path, String format)
 ```
 
 
-Kübün yüzeylerinin doku içeriğini dış dosyalara kaydet.
+Kübün yüzlerinin doku içeriğini dış dosyalara kaydet.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

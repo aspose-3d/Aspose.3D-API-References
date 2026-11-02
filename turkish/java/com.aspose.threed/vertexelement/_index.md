@@ -1,7 +1,7 @@
 ---
 title: "VertexElement"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Vertex elemanlarının temel sınıfı."
+description: "Verteks öğelerinin temel sınıfı."
 type: docs
 weight: 207
 url: /tr/java/com.aspose.threed/vertexelement/
@@ -16,13 +16,13 @@ java.lang.Object
 public abstract class VertexElement implements IIndexedVertexElement
 ```
 
-Vertex elemanlarının temel sınıfı. Bir vertex eleman tipi VertexElementType tarafından tanımlanır. Bir VertexElement, vertex elemanının bir geometri yüzeyine nasıl eşlendiğini ve eşleme bilgisinin bellekte nasıl düzenlendiğini açıklar. Bir VertexElement Normal, UV veya diğer türde bilgileri içerir.
+Vertex elemanlarının temel sınıfı. Bir vertex eleman tipi VertexElementType tarafından tanımlanır. Bir VertexElement, vertex elemanının bir geometri yüzeyine nasıl eşlendiğini ve eşleme bilgisinin bellekte nasıl düzenlendiğini açıklar. Bir VertexElement, Normaller, UV'ler veya diğer türde bilgileri içerir.
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [clear()](#clear--) | Bu vertex elemanındaki tüm verileri temizler. |
-| [clone(boolean withData)](#clone-boolean-) | Vertex öğesinin derin kopyasını oluştur. |
+| [clone(boolean withData)](#clone-boolean-) | Vertex öğesini derin kopyalar. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getIndices()](#getIndices--) | İndeks verisini alır. |
@@ -55,12 +55,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Vertex öğesinin derin kopyasını oluştur.
+Vertex öğesini derin kopyalar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle kopyala. |
+| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle klonlar. |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)

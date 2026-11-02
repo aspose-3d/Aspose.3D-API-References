@@ -1,7 +1,7 @@
 ---
 title: "AlphaSource"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Dokunun alfa kanalını içerip içermediğini tanımlar."
+description: "Doku'nun alfa kanalını içerip içermediğini tanımlar."
 type: docs
 weight: 263
 url: /tr/java/com.aspose.threed/alphasource/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum AlphaSource extends Enum<AlphaSource>
 ```
 
-Dokunun alfa kanalını içerip içermediğini tanımlar.
+Doku'nun alfa kanalını içerip içermediğini tanımlar.
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
 | [FIXED_VALUE](#FIXED-VALUE) | Alpha, [TextureBase.getAlpha](../../com.aspose.threed/texturebase\#getAlpha) tarafından tanımlanan sabit bir değerdir. |
 | [NONE](#NONE) | Doku içinde alfa tanımlı değildir. |
-| [PIXEL_ALPHA](#PIXEL-ALPHA) | Alfa, pikselin alfa kanalına göre tanımlanır. |
+| [PIXEL_ALPHA](#PIXEL-ALPHA) | Alfa, pikselin alfa kanalı tarafından tanımlanır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -64,7 +64,7 @@ public static final AlphaSource PIXEL_ALPHA
 ```
 
 
-Alfa, pikselin alfa kanalına göre tanımlanır.
+Alfa, pikselin alfa kanalı tarafından tanımlanır.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

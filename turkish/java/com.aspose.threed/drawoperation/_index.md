@@ -22,7 +22,7 @@ Render edilecek ilkel tipler
 | [LINE_STRIP](#LINE-STRIP) | Çizgi şeritleri |
 | [POINTS](#POINTS) | Noktalar |
 | [TRIANGLES](#TRIANGLES) | Üçgenler |
-| [TRIANGLE_FAN](#TRIANGLE-FAN) | Üçgen fanı |
+| [TRIANGLE_FAN](#TRIANGLE-FAN) | Üçgen fan |
 | [TRIANGLE_STRIP](#TRIANGLE-STRIP) | Üçgen şeritleri |
 ## Yöntemler
 
@@ -83,7 +83,7 @@ public static final DrawOperation TRIANGLE_FAN
 ```
 
 
-Üçgen fanı
+Üçgen fan
 
 ### TRIANGLE_STRIP {#TRIANGLE-STRIP}
 ```

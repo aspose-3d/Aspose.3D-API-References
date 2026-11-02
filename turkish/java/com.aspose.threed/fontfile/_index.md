@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public abstract class FontFile extends A3DObject
 ```
 
-Yazı tipi dosyası, glif tanımlarını içerir, bu metin profili oluşturmak için kullanılır. **Example:** Aşağıdaki kod, belirtilen yazı tipi dosyasını kullanarak metinden 3B bir ağ oluşturmanın nasıl yapılacağını gösterir.
+Yazı tipi dosyası, glif tanımlarını içerir; bu, metin profili oluşturmak için kullanılır. **Example:** Aşağıdaki kod, belirtilen yazı tipi dosyası kullanılarak metinden 3B ağ oluşturmanın nasıl yapılacağını gösterir.
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -40,15 +40,15 @@ var font = FontFile.fromFile("CascadiaCode-Regular.otf");
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [parse(byte[] bytes)](#parse-byte---) | FontFile'ı baytlardan ayrıştır |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -80,7 +80,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -140,7 +140,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -186,7 +186,7 @@ FontFile'ı baytlardan ayrıştır
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| baytlar | byte[] | OTF yazı tipi dosyasının ham içeriği |
+| bayt | byte[] | OTF yazı tipi dosyasının ham içeriği |
 
 **Returns:**
 [FontFile](../../com.aspose.threed/fontfile) - FontFile instance
@@ -211,7 +211,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -239,7 +239,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -37,19 +37,19 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [add(Vector3 lhs, Vector3 rhs)](#add-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | + operatörü için aşırı yükleme |
-| [angleBetween(Vector3 dir)](#angleBetween-com.aspose.threed.Vector3-) | İki yön arasındaki iç açıyı hesaplayın. İki yön, normalleştirilmemiş vektörler olabilir. |
-| [angleBetween(Vector3 dir, Vector3 up)](#angleBetween-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | İki yön arasındaki iç açıyı hesaplayın. İki yön, normalleştirilmemiş vektörler olabilir. |
+| [add(Vector3 lhs, Vector3 rhs)](#add-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | + için operatör aşırı yükleme |
+| [angleBetween(Vector3 dir)](#angleBetween-com.aspose.threed.Vector3-) | İki yön arasındaki iç açıyı hesaplayın. İki yön, normlandırılmamış vektörler olabilir. |
+| [angleBetween(Vector3 dir, Vector3 up)](#angleBetween-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | İki yön arasındaki iç açıyı hesaplayın. İki yön, normlandırılmamış vektörler olabilir. |
 | [clone()](#clone--) |  |
-| [compareTo(Vector3 other)](#compareTo-com.aspose.threed.Vector3-) | Mevcut vektörü başka bir örnek ile karşılaştırın. |
+| [compareTo(Vector3 other)](#compareTo-com.aspose.threed.Vector3-) | Mevcut vektörü başka bir örnek ile karşılaştır. |
 | [copyFrom(Vector3 src)](#copyFrom-com.aspose.threed.Vector3-) |  |
-| [cos()](#cos--) | Her bileşende kosinüsü hesaplar |
+| [cos()](#cos--) | Her bileşen için kosinüsü hesaplar. |
 | [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | Vector3'ü FVector3'e dönüştürmek için açık dönüşüm operatörü |
 | [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | İki vektörün çapraz çarpımı |
-| [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | / operatörü için aşırı yükleme |
-| [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | / operatörü için aşırı yükleme |
+| [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | / için operatör aşırı yükleme |
+| [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | / için operatör aşırı yükleme |
 | [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | İki vektörün nokta çarpımını alır |
-| [equals(Object obj)](#equals-java.lang.Object-) | İki vector3'ün eşit olup olmadığını kontrol eder |
+| [equals(Object obj)](#equals-java.lang.Object-) | İki vector3'ün eşit olup olmadığını kontrol eder. |
 | [get(int idx)](#get-int-) | Vektörün bileşenini indeksle alır. |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | Bu vektörün uzunluğunu alır. |
@@ -60,20 +60,20 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 | [getUnitZ()](#getUnitZ--) | Birim vektörü (0, 0, 1) alır |
 | [getZero()](#getZero--) | Birim vektörü (0, 0, 0) alır |
 | [hashCode()](#hashCode--) | Vector3'ün hash kodunu alır |
-| [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | \* operatörü için aşırı yükleme |
-| [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | \* operatörü için aşırı yükleme |
-| [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | \* operatörü için aşırı yükleme |
+| [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | * için operatör aşırı yükleme |
+| [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | * için operatör aşırı yükleme |
+| [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | * için operatör aşırı yükleme |
 | [negative(Vector3 v)](#negative-com.aspose.threed.Vector3-) | - için operatör aşırı yüklemesi |
 | [normalize()](#normalize--) | Bu örneği normallaştırır. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_eq(Vector3 lhs, Vector3 rhs)](#op-eq-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Vector3 için eşitlik operatörü |
-| [op_ne(Vector3 lhs, Vector3 rhs)](#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Vector3 için eşitsizlik operatörü |
+| [op_ne(Vector3 lhs, Vector3 rhs)](#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Vector3 için eşit olmayan operatör |
 | [set(double newX, double newY, double newZ)](#set-double-double-double-) | x/y/z bileşenini tek bir çağrıda ayarlar. |
 | [set(int idx, double value)](#set-int-double-) | Vektörün bileşenini indeksle ayarlar. |
 | [sin()](#sin--) | Her bileşenin sinüsünü hesaplar |
 | [sub(Vector3 lhs, Vector3 rhs)](#sub-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | - (eksi) için operatör aşırı yüklemesi |
-| [toString()](#toString--) | Geçerli [Vector3](../../com.aspose.threed/vector3) öğesini temsil eden bir java.lang.String döndürür. |
+| [toString()](#toString--) | Geçerli [Vector3](../../com.aspose.threed/vector3) nesnesini temsil eden bir java.lang.String döndürür. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -167,7 +167,7 @@ public static Vector3 add(Vector3 lhs, Vector3 rhs)
 ```
 
 
-+ operatörü için aşırı yükleme
++ için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -183,7 +183,7 @@ public double angleBetween(Vector3 dir)
 ```
 
 
-İki yön arasındaki iç açıyı hesaplayın. İki yön, normalleştirilmemiş vektörler olabilir.
+İki yön arasındaki iç açıyı hesaplayın. İki yön, normlandırılmamış vektörler olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -198,7 +198,7 @@ public double angleBetween(Vector3 dir, Vector3 up)
 ```
 
 
-İki yön arasındaki iç açıyı hesaplayın. İki yön, normalleştirilmemiş vektörler olabilir.
+İki yön arasındaki iç açıyı hesaplayın. İki yön, normlandırılmamış vektörler olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -214,7 +214,7 @@ public Vector3 clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3)
@@ -224,7 +224,7 @@ public int compareTo(Vector3 other)
 ```
 
 
-Mevcut vektörü başka bir örnek ile karşılaştırın.
+Mevcut vektörü başka bir örnek ile karşılaştır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -252,7 +252,7 @@ public Vector3 cos()
 ```
 
 
-Her bileşende kosinüsü hesaplar
+Her bileşen için kosinüsü hesaplar.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Calculated [Vector3](../../com.aspose.threed/vector3).
@@ -282,7 +282,7 @@ public Vector3 cross(Vector3 rhs)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | Sağ taraf değeri. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | Sağ taraftaki değer. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Cross product of two [Vector3](../../com.aspose.threed/vector3)s.
@@ -292,7 +292,7 @@ public static Vector3 div(Vector3 lhs, Vector3 rhs)
 ```
 
 
-/ operatörü için aşırı yükleme
+/ için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -308,7 +308,7 @@ public static Vector3 div(Vector3 lhs, double rhs)
 ```
 
 
-/ operatörü için aşırı yükleme
+/ için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -329,17 +329,17 @@ public double dot(Vector3 rhs)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | Sağ taraf değeri. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | Sağ taraftaki değer. |
 
 **Returns:**
-double - İki vektörün noktasal çarpımı.
+double - İki vektörün nokta çarpımı.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-İki vector3'ün eşit olup olmadığını kontrol eder
+İki vector3'ün eşit olup olmadığını kontrol eder.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -362,7 +362,7 @@ Vektörün bileşenini indeksle alır.
 | idx | int |  |
 
 **Returns:**
-double - vektörün indeksine göre bileşeni.
+double - vektörün indekse göre bileşeni.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -459,7 +459,7 @@ public static Vector3 mul(Vector3 lhs, Vector3 rhs)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -475,7 +475,7 @@ public static Vector3 mul(Vector3 lhs, double rhs)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -491,7 +491,7 @@ public static Vector3 mul(double lhs, Vector3 rhs)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -512,7 +512,7 @@ public static Vector3 negative(Vector3 v)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| v | [Vector3](../../com.aspose.threed/vector3) | Orijin vektör |
+| v | [Vector3](../../com.aspose.threed/vector3) | Başlangıç vektörü |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -553,8 +553,8 @@ Vector3 için eşitlik operatörü
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | Sol taraf değeri. |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | Sağ taraf değeri. |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | Sol taraftaki değer. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | Sağ taraftaki değer. |
 
 **Returns:**
 boolean - Tüm bileşenler aynıysa doğru.
@@ -564,13 +564,13 @@ public static boolean op_ne(Vector3 lhs, Vector3 rhs)
 ```
 
 
-Vector3 için eşitsizlik operatörü
+Vector3 için eşit olmayan operatör
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | Sol taraf değeri. |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | Sağ taraf değeri. |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | Sol taraftaki değer. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | Sağ taraftaki değer. |
 
 **Returns:**
 boolean - İki vektör eşit değilse doğru.
@@ -635,7 +635,7 @@ public String toString()
 ```
 
 
-Geçerli [Vector3](../../com.aspose.threed/vector3) öğesini temsil eden bir java.lang.String döndürür.
+Geçerli [Vector3](../../com.aspose.threed/vector3) nesnesini temsil eden bir java.lang.String döndürür.
 
 **Returns:**
 java.lang.String - Geçerli [Vector3](../../com.aspose.threed/vector3) öğesini temsil eden bir java.lang.String.

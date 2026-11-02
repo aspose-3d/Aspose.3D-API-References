@@ -25,23 +25,23 @@ public class ImageRenderOptions extends A3DObject
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getAssetDirectories()](#getAssetDirectories--) | Harici varlıkları (örneğin dokuları) depolayan dizinler |
+| [getAssetDirectories()](#getAssetDirectories--) | Dış varlıkları (örneğin dokular) depolayan dizinler |
 | [getBackgroundColor()](#getBackgroundColor--) | Render sonucunun arka plan rengi. |
 | [getClass()](#getClass--) |  |
-| [getEnableShadows()](#getEnableShadows--) | Gölgelerin render edilip edilmeyeceğini alır. |
+| [getEnableShadows()](#getEnableShadows--) | Gölge render edilip edilmediğini alır. |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setAssetDirectories(ArrayList<String> value)](#setAssetDirectories-java.util.ArrayList-java.lang.String--) | Harici varlıkları (örneğin dokuları) depolayan dizinler |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setAssetDirectories(ArrayList<String> value)](#setAssetDirectories-java.util.ArrayList-java.lang.String--) | Dış varlıkları (örneğin dokular) depolayan dizinler |
 | [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | Render sonucunun arka plan rengi. |
-| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | Gölgelerin render edilip edilmeyeceğini ayarlar. |
+| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | Gölge render edilip edilmeyeceğini ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -90,10 +90,10 @@ public ArrayList<String> getAssetDirectories()
 ```
 
 
-Harici varlıkları (örneğin dokuları) depolayan dizinler
+Dış varlıkları (örneğin dokular) depolayan dizinler
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Harici varlıkları (örneğin dokuları) depolayan dizinler
+java.util.ArrayList<java.lang.String> - Dış varlıkları (örneğin dokular) depolayan dizinler
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Vector3 getBackgroundColor()
@@ -120,10 +120,10 @@ public boolean getEnableShadows()
 ```
 
 
-Gölgelerin render edilip edilmeyeceğini alır.
+Gölge render edilip edilmediğini alır.
 
 **Returns:**
-boolean - gölgelerin render edilip edilmeyeceği.
+boolean - gölgelerin render edilip edilmediği.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -150,7 +150,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -206,7 +206,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -221,7 +221,7 @@ public void setAssetDirectories(ArrayList<String> value)
 ```
 
 
-Harici varlıkları (örneğin dokuları) depolayan dizinler
+Dış varlıkları (örneğin dokular) depolayan dizinler
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -247,7 +247,7 @@ public void setEnableShadows(boolean value)
 ```
 
 
-Gölgelerin render edilip edilmeyeceğini ayarlar.
+Gölge render edilip edilmeyeceğini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -273,7 +273,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

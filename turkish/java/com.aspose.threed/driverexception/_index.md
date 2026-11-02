@@ -1,7 +1,7 @@
 ---
 title: "DriverException"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Dahili render sürücüleri tarafından fırlatılan istisna."
+description: "Dahili render sürücüleri tarafından yükseltilen istisna."
 type: docs
 weight: 48
 url: /tr/java/com.aspose.threed/driverexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 public class DriverException extends Exception
 ```
 
-Dahili render sürücüleri tarafından fırlatılan istisna.
+Dahili render sürücüleri tarafından yükseltilen istisna.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

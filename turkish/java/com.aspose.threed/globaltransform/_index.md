@@ -1,7 +1,7 @@
 ---
 title: "GlobalTransform"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Global dönüşüm, benzer şekilde  ancak temsil ettiği son değerlendirilmiş dönüşüm immutable (değiştirilemez) olduğu için benzer bir yapıya sahiptir."
+description: "Global dönüşüm,  ile benzer ancak değiştirilemez ve nihai değerlendirilmiş dönüşümü temsil eder."
 type: docs
 weight: 72
 url: /tr/java/com.aspose.threed/globaltransform/
@@ -13,7 +13,7 @@ java.lang.Object
 public class GlobalTransform
 ```
 
-Global dönüşüm, [Transform](../../com.aspose.threed/transform) ile benzer ancak temsil ettiği son değerlendirilmiş dönüşüm immutable (değiştirilemez) olduğu için benzer bir yapıya sahiptir. Global dönüşüm değerlendirilirken sağ el koordinat sistemi kullanılır **Example:** Aşağıdaki kod, düğümün global dönüşümünün nasıl okunacağını gösterir
+Global dönüşüm, [Transform](../../com.aspose.threed/transform) ile benzer ancak değiştirilemez ve nihai değerlendirilmiş dönüşümü temsil eder. Global dönüşüm değerlendirilirken sağ el koordinat sistemi kullanılır **Example:** Aşağıdaki kod, düğümün global dönüşümünü nasıl okuyacağınızı gösterir
 
 ```
 Scene scene = new Scene();
@@ -29,11 +29,11 @@ Scene scene = new Scene();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEulerAngles()](#getEulerAngles--) | Euler açıları cinsinden derece ölçüsüyle temsil edilen dönüşüm alınır |
-| [getRotation()](#getRotation--) | Kuaternion cinsinden temsil edilen dönüşüm alınır. |
-| [getScale()](#getScale--) | Ölçek alınır |
-| [getTransformMatrix()](#getTransformMatrix--) | Dönüşüm matrisi alınır. |
-| [getTranslation()](#getTranslation--) | Çeviri alınır |
+| [getEulerAngles()](#getEulerAngles--) | Euler açılarıyla temsil edilen, derece cinsinden ölçülen rotasyonu alır |
+| [getRotation()](#getRotation--) | Kuaternyonla temsil edilen rotasyonu alır. |
+| [getScale()](#getScale--) | Ölçeği alır |
+| [getTransformMatrix()](#getTransformMatrix--) | Dönüşüm matrisini alır. |
+| [getTranslation()](#getTranslation--) | Öteleme değerini alır |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,7 +72,7 @@ public Vector3 getEulerAngles()
 ```
 
 
-Euler açıları cinsinden derece ölçüsüyle temsil edilen dönüşüm alınır
+Euler açılarıyla temsil edilen, derece cinsinden ölçülen rotasyonu alır
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation represented in Euler angles, measured in degree **Example:**
@@ -88,7 +88,7 @@ public Quaternion getRotation()
 ```
 
 
-Kuaternion cinsinden temsil edilen dönüşüm alınır.
+Kuaternyonla temsil edilen rotasyonu alır.
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - the rotation represented in quaternion. **Example:**
@@ -104,7 +104,7 @@ public Vector3 getScale()
 ```
 
 
-Ölçek alınır
+Ölçeği alır
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the scale **Example:**
@@ -120,7 +120,7 @@ public Matrix4 getTransformMatrix()
 ```
 
 
-Dönüşüm matrisi alınır.
+Dönüşüm matrisini alır.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix. **Example:**
@@ -136,7 +136,7 @@ public Vector3 getTranslation()
 ```
 
 
-Çeviri alınır
+Öteleme değerini alır
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the translation **Example:**

@@ -36,25 +36,25 @@ var inputFile = "input.fbx";
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [close()](#close--) | Dosya sistemini kapatın ve kaynaklarını serbest bırakın. |
-| [createDummyFileSystem()](#createDummyFileSystem--) | Sahte bir dosya sistemi oluşturun, okuma/yazma işlemleri sahte işlemlerdir. |
-| [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | Yalnızca yerel dizine erişen yeni bir [FileSystem](../../com.aspose.threed/filesystem) başlatın. |
-| [createMemoryFileSystem()](#createMemoryFileSystem--) | Okuma/yazma işlemlerini belleğe eşleyecek bellek tabanlı bir dosya sistemi oluşturun. |
-| [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | Okuma/yazma işlemlerini belleğe eşleyecek bellek tabanlı bir dosya sistemi oluşturun. |
-| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için bir dosya sistemi oluşturun. |
-| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için bir dosya sistemi oluşturun. |
+| [close()](#close--) | Dosya sistemini temizleyin ve kaynaklarını serbest bırakın. |
+| [createDummyFileSystem()](#createDummyFileSystem--) | Sahte bir dosya sistemi oluştur, okuma/yazma işlemleri sahte işlemlerdir. |
+| [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | Yalnızca yerel dizine erişen yeni bir [FileSystem](../../com.aspose.threed/filesystem) başlat. |
+| [createMemoryFileSystem()](#createMemoryFileSystem--) | Okuma/yazma işlemlerini belleğe eşleyecek bellek tabanlı bir dosya sistemi oluştur. |
+| [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | Okuma/yazma işlemlerini belleğe eşleyecek bellek tabanlı bir dosya sistemi oluştur. |
+| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için bir dosya sistemi oluştur. |
+| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için bir dosya sistemi oluştur. |
 | [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için dosya sistemi. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları okumak için bir akış oluşturun. |
+| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları okumak için bir akış oluştur. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları yazmak için bir akış oluşturun. |
+| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları yazmak için bir akış oluştur. |
 ### FileSystem() {#FileSystem--}
 ```
 public FileSystem()
@@ -67,7 +67,7 @@ public void close()
 ```
 
 
-Dosya sistemini kapatın ve kaynaklarını serbest bırakın.
+Dosya sistemini temizleyin ve kaynaklarını serbest bırakın.
 
 ### createDummyFileSystem() {#createDummyFileSystem--}
 ```
@@ -75,7 +75,7 @@ public static FileSystem createDummyFileSystem()
 ```
 
 
-Sahte bir dosya sistemi oluşturun, okuma/yazma işlemleri sahte işlemlerdir.
+Sahte bir dosya sistemi oluştur, okuma/yazma işlemleri sahte işlemlerdir.
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A dummy file system **Example:** The following code shows how to export file to memory, and ignore all dependent file generation.
@@ -101,12 +101,12 @@ public static FileSystem createLocalFileSystem(String directory)
 ```
 
 
-Yalnızca yerel dizine erişen yeni bir [FileSystem](../../com.aspose.threed/filesystem) başlatın. Bu FileSystem örneğindeki tüm dosya okuma/yazma işlemleri belirtilen dizine eşlenecektir.
+Yalnızca yerel dizine erişen yeni bir [FileSystem](../../com.aspose.threed/filesystem) başlat. Bu FileSystem örneğindeki tüm dosya okuma/yazma işlemleri belirtilen dizine eşlenecek.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| dizin | java.lang.String | Fiziksel dosya sisteminizdeki dizin, sanal kök dizin olarak kullanılacaktır. |
+| dizin | java.lang.String | Fiziksel dosya sisteminizdeki dizin, sanal kök dizin olarak kullanılacak. |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A new instance of file system to provide local file access
@@ -116,7 +116,7 @@ public static FileSystem createMemoryFileSystem()
 ```
 
 
-Okuma/yazma işlemlerini belleğe eşleyecek bellek tabanlı bir dosya sistemi oluşturun.
+Okuma/yazma işlemlerini belleğe eşleyecek bellek tabanlı bir dosya sistemi oluştur.
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A memory-based file system **Example:** The following code shows how to export file to memory, includes the dependent file by using MemoryFileSystem.
@@ -144,12 +144,12 @@ public static FileSystem createMemoryFileSystem(HashMap<String,MemoryStream> fil
 ```
 
 
-Okuma/yazma işlemlerini belleğe eşleyecek bellek tabanlı bir dosya sistemi oluşturun.
+Okuma/yazma işlemlerini belleğe eşleyecek bellek tabanlı bir dosya sistemi oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| dosyalar | java.util.HashMap<java.lang.String,com.aspose.threed.MemoryStream> | Bu, sanal dosyaları okuma/yazma imkanı sağlar. |
+| dosyalar | java.util.HashMap<java.lang.String,com.aspose.threed.MemoryStream> | Bu, sanal dosyaları okumanıza/yazmanıza olanak tanır. |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A memory-based file system **Example:** The following code shows how to export file to memory, includes the dependent file by using MemoryFileSystem.
@@ -177,7 +177,7 @@ public static FileSystem createZipFileSystem(Stream stream)
 ```
 
 
-Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için bir dosya sistemi oluşturun. Dosya sistemi, açma/kaydetme işleminden sonra yok edilecektir.
+Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için bir dosya sistemi oluştur. Dosya sistemi, açma/kaydetme işleminden sonra yok edilecek.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -192,7 +192,7 @@ public static FileSystem createZipFileSystem(Stream stream, String baseDir)
 ```
 
 
-Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için bir dosya sistemi oluşturun. Dosya sistemi, açma/kaydetme işleminden sonra yok edilecektir.
+Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için bir dosya sistemi oluştur. Dosya sistemi, açma/kaydetme işleminden sonra yok edilecek.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -208,7 +208,7 @@ public static FileSystem createZipFileSystem(String fileName)
 ```
 
 
-Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için dosya sistemi. Dosya sistemi, açma/kaydetme işleminden sonra yok edilecektir.
+Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak için dosya sistemi. Dosya sistemi, açma/kaydetme işleminden sonra yok edilecek.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -274,7 +274,7 @@ public abstract Stream readFile(String fileName, IOConfig options)
 ```
 
 
-Bağımlılıkları okumak için bir akış oluşturun.
+Bağımlılıkları okumak için bir akış oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -335,7 +335,7 @@ public abstract Stream writeFile(String fileName, IOConfig options)
 ```
 
 
-Bağımlılıkları yazmak için bir akış oluşturun.
+Bağımlılıkları yazmak için bir akış oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

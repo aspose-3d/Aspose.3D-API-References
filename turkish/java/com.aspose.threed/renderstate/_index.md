@@ -1,7 +1,7 @@
 ---
 title: "RenderState"
 second_title: "Aspose.3D for Java API Referansı"
-description: "İşlem hattı oluşturmak için render durumu  Render durumunda yapılan değişiklikler oluşturulan işlem hattı örneklerini etkilemez."
+description: "İşlem hattını oluşturmak için render durumu  Render durumunda yapılan değişiklikler oluşturulan işlem hattı örneklerini etkilemez."
 type: docs
 weight: 151
 url: /tr/java/com.aspose.threed/renderstate/
@@ -21,50 +21,50 @@ Render hattını oluşturmak için render durumu. Render durumunda yapılan değ
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [RenderState()](#RenderState--) | [RenderState](../../com.aspose.threed/renderstate) yapıcısı |
+| [RenderState()](#RenderState--) | Yapıcı [RenderState](../../com.aspose.threed/renderstate) |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [close()](#close--) | [RenderState](../../com.aspose.threed/renderstate) nesnesini serbest bırakın ve tüm dahili kaynakları serbest bırakın. |
-| [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | Render durumunu başka bir örnekle karşılaştırın. |
+| [close()](#close--) | Serbest bırak [RenderState](../../com.aspose.threed/renderstate) ve tüm dahili kaynakları serbest bırak. |
+| [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | Render durumunu başka bir örnekle karşılaştır |
 | [equals(Object obj)](#equals-java.lang.Object-) | Bu örneğin belirtilen bir nesneye eşit olup olmadığını gösteren bir değer döndürür. |
-| [getBlend()](#getBlend--) | Parçacık harmanlamasını etkinleştirin veya devre dışı bırakın. |
-| [getBlendColor()](#getBlendColor--) | [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) içinde kullanıldığı yerde harmanlama rengini alır. |
+| [getBlend()](#getBlend--) | Parçacık karıştırmayı etkinleştir veya devre dışı bırak. |
+| [getBlendColor()](#getBlendColor--) | Karıştırma rengini, [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) içinde kullanıldığı yerde alır |
 | [getClass()](#getClass--) |  |
-| [getCullFace()](#getCullFace--) | Yüz kapatmayı etkinleştirin veya devre dışı bırakın. |
-| [getCullFaceMode()](#getCullFaceMode--) | Hangi yüzün kapatılacağını alır. |
-| [getDepthFunction()](#getDepthFunction--) | Derinlik testinde kullanılan karşılaştırma işlevini alır. |
-| [getDepthMask()](#getDepthMask--) | Derinlik yazımını etkinleştirin veya devre dışı bırakın. |
-| [getDepthTest()](#getDepthTest--) | Derinlik testini etkinleştirin veya devre dışı bırakın. |
-| [getDestinationBlendFactor()](#getDestinationBlendFactor--) | Rengin nasıl harmanlandığını alır. |
-| [getFrontFace()](#getFrontFace--) | Hangi sıranın ön yüz olduğunu alır. |
+| [getCullFace()](#getCullFace--) | Yüz silmeyi etkinleştir veya devre dışı bırak |
+| [getCullFaceMode()](#getCullFaceMode--) | Hangi yüzün silineceğini alır. |
+| [getDepthFunction()](#getDepthFunction--) | Derinlik testinde kullanılan karşılaştırma işlevini alır |
+| [getDepthMask()](#getDepthMask--) | Derinlik yazmayı etkinleştir veya devre dışı bırak. |
+| [getDepthTest()](#getDepthTest--) | Derinlik testini etkinleştir veya devre dışı bırak. |
+| [getDestinationBlendFactor()](#getDestinationBlendFactor--) | Rengin nasıl karıştırıldığını alır. |
+| [getFrontFace()](#getFrontFace--) | Ön yüzün hangi sırada olduğunu alır. |
 | [getPolygonMode()](#getPolygonMode--) | Poligonun render modunu alır. |
-| [getScissorTest()](#getScissorTest--) | Makas testini etkinleştirin veya devre dışı bırakın. |
-| [getSourceBlendFactor()](#getSourceBlendFactor--) | Rengin nasıl harmanlandığını alır. |
+| [getScissorTest()](#getScissorTest--) | Makas testini etkinleştir veya devre dışı bırak |
+| [getSourceBlendFactor()](#getSourceBlendFactor--) | Rengin nasıl karıştırıldığını alır. |
 | [getStencilBackFace()](#getStencilBackFace--) | Arka yüz için şablon durumunu alır. |
 | [getStencilFrontFace()](#getStencilFrontFace--) | Ön yüz için şablon durumunu alır. |
-| [getStencilMask()](#getStencilMask--) | Test tamamlandığında hem referans hem de depolanan şablon değeriyle AND yapılan maskeyi alır. |
+| [getStencilMask()](#getStencilMask--) | Test tamamlandığında hem referans hem de depolanan şablon değeriyle AND edilen maskeyi alır. |
 | [getStencilReference()](#getStencilReference--) | Şablon testi için referans değerini alır. |
-| [getStencilTest()](#getStencilTest--) | Şablon testini etkinleştirin veya devre dışı bırakın. |
+| [getStencilTest()](#getStencilTest--) | Şablon testini etkinleştir veya devre dışı bırak. |
 | [hashCode()](#hashCode--) | Bu örnek için hash kodunu döndürür. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBlend(boolean value)](#setBlend-boolean-) | Parçacık harmanlamasını etkinleştirin veya devre dışı bırakın. |
-| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) içinde kullanıldığı yerde harmanlama rengini ayarlar. |
-| [setCullFace(boolean value)](#setCullFace-boolean-) | Yüz kapatmayı etkinleştirin veya devre dışı bırakın. |
-| [setCullFaceMode(int value)](#setCullFaceMode-int-) | Hangi yüzün kapatılacağını ayarlar. |
-| [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | Derinlik testinde kullanılan karşılaştırma işlevini ayarlar. |
-| [setDepthMask(boolean value)](#setDepthMask-boolean-) | Derinlik yazımını etkinleştirin veya devre dışı bırakın. |
-| [setDepthTest(boolean value)](#setDepthTest-boolean-) | Derinlik testini etkinleştirin veya devre dışı bırakın. |
-| [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | Rengin nasıl harmanlandığını ayarlar. |
-| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | Hangi sıranın ön yüz olduğunu ayarlar. |
+| [setBlend(boolean value)](#setBlend-boolean-) | Parçacık karıştırmayı etkinleştir veya devre dışı bırak. |
+| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | Karıştırma rengini, [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) içinde kullanıldığı yerde ayarlar |
+| [setCullFace(boolean value)](#setCullFace-boolean-) | Yüz silmeyi etkinleştir veya devre dışı bırak |
+| [setCullFaceMode(int value)](#setCullFaceMode-int-) | Hangi yüzün silineceğini ayarlar. |
+| [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | Derinlik testinde kullanılan karşılaştırma işlevini ayarlar |
+| [setDepthMask(boolean value)](#setDepthMask-boolean-) | Derinlik yazmayı etkinleştir veya devre dışı bırak. |
+| [setDepthTest(boolean value)](#setDepthTest-boolean-) | Derinlik testini etkinleştir veya devre dışı bırak. |
+| [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | Rengin nasıl karıştırıldığını ayarlar. |
+| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | Ön yüzün hangi sırada olduğunu ayarlar. |
 | [setPolygonMode(PolygonMode value)](#setPolygonMode-com.aspose.threed.PolygonMode-) | Poligonun render modunu ayarlar. |
-| [setScissorTest(boolean value)](#setScissorTest-boolean-) | Makas testini etkinleştirin veya devre dışı bırakın. |
-| [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | Rengin nasıl harmanlandığını ayarlar. |
-| [setStencilMask(int value)](#setStencilMask-int-) | Test tamamlandığında hem referans hem de depolanan stencil değeriyle AND'lenen maskeyi ayarlar. |
-| [setStencilReference(int value)](#setStencilReference-int-) | Stencil testi için referans değerini ayarlar. |
-| [setStencilTest(boolean value)](#setStencilTest-boolean-) | Şablon testini etkinleştirin veya devre dışı bırakın. |
+| [setScissorTest(boolean value)](#setScissorTest-boolean-) | Makas testini etkinleştir veya devre dışı bırak |
+| [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | Rengin nasıl karıştırıldığını ayarlar. |
+| [setStencilMask(int value)](#setStencilMask-int-) | Test tamamlandığında referans ve saklanan şablon değerleriyle AND'lenen maskeyi ayarlar. |
+| [setStencilReference(int value)](#setStencilReference-int-) | Şablon testi için referans değerini ayarlar. |
+| [setStencilTest(boolean value)](#setStencilTest-boolean-) | Şablon testini etkinleştir veya devre dışı bırak. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public RenderState()
 ```
 
 
-[RenderState](../../com.aspose.threed/renderstate) yapıcısı
+Yapıcı [RenderState](../../com.aspose.threed/renderstate)
 
 ### close() {#close--}
 ```
@@ -83,7 +83,7 @@ public void close()
 ```
 
 
-[RenderState](../../com.aspose.threed/renderstate) nesnesini serbest bırakın ve tüm dahili kaynakları serbest bırakın.
+Serbest bırak [RenderState](../../com.aspose.threed/renderstate) ve tüm dahili kaynakları serbest bırak.
 
 ### compareTo(RenderState other) {#compareTo-com.aspose.threed.RenderState-}
 ```
@@ -91,7 +91,7 @@ public int compareTo(RenderState other)
 ```
 
 
-Render durumunu başka bir örnekle karşılaştırın.
+Render durumunu başka bir örnekle karşılaştır
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -121,7 +121,7 @@ public boolean getBlend()
 ```
 
 
-Parçacık harmanlamasını etkinleştirin veya devre dışı bırakın.
+Parçacık karıştırmayı etkinleştir veya devre dışı bırak.
 
 **Returns:**
 boolean - Parçacık karıştırmayı etkinleştir veya devre dışı bırak.
@@ -131,7 +131,7 @@ public FVector4 getBlendColor()
 ```
 
 
-[BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) içinde kullanıldığı yerde harmanlama rengini alır.
+Karıştırma rengini, [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) içinde kullanıldığı yerde alır
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4) - the blend color where used in [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
@@ -151,7 +151,7 @@ public boolean getCullFace()
 ```
 
 
-Yüz kapatmayı etkinleştirin veya devre dışı bırakın.
+Yüz silmeyi etkinleştir veya devre dışı bırak
 
 **Returns:**
 boolean - Yüz silmeyi etkinleştir veya devre dışı bırak
@@ -161,7 +161,7 @@ public int getCullFaceMode()
 ```
 
 
-Hangi yüzün kapatılacağını alır.
+Hangi yüzün silineceğini alır.
 
 **Returns:**
 int - Hangi yüzün silineceği.
@@ -171,7 +171,7 @@ public CompareFunction getDepthFunction()
 ```
 
 
-Derinlik testinde kullanılan karşılaştırma işlevini alır.
+Derinlik testinde kullanılan karşılaştırma işlevini alır
 
 **Returns:**
 [CompareFunction](../../com.aspose.threed/comparefunction) - the compare function used in depth test
@@ -181,7 +181,7 @@ public boolean getDepthMask()
 ```
 
 
-Derinlik yazımını etkinleştirin veya devre dışı bırakın.
+Derinlik yazmayı etkinleştir veya devre dışı bırak.
 
 **Returns:**
 boolean - Derinlik yazmayı etkinleştir veya devre dışı bırak.
@@ -191,7 +191,7 @@ public boolean getDepthTest()
 ```
 
 
-Derinlik testini etkinleştirin veya devre dışı bırakın.
+Derinlik testini etkinleştir veya devre dışı bırak.
 
 **Returns:**
 boolean - Derinlik testini etkinleştir veya devre dışı bırak.
@@ -201,7 +201,7 @@ public BlendFactor getDestinationBlendFactor()
 ```
 
 
-Rengin nasıl harmanlandığını alır.
+Rengin nasıl karıştırıldığını alır.
 
 **Returns:**
 [BlendFactor](../../com.aspose.threed/blendfactor) - how the color is blended.
@@ -211,7 +211,7 @@ public FrontFace getFrontFace()
 ```
 
 
-Hangi sıranın ön yüz olduğunu alır.
+Ön yüzün hangi sırada olduğunu alır.
 
 **Returns:**
 [FrontFace](../../com.aspose.threed/frontface) - which order is front face.
@@ -231,7 +231,7 @@ public boolean getScissorTest()
 ```
 
 
-Makas testini etkinleştirin veya devre dışı bırakın.
+Makas testini etkinleştir veya devre dışı bırak
 
 **Returns:**
 boolean - Makas testini etkinleştir veya devre dışı bırak
@@ -241,7 +241,7 @@ public BlendFactor getSourceBlendFactor()
 ```
 
 
-Rengin nasıl harmanlandığını alır.
+Rengin nasıl karıştırıldığını alır.
 
 **Returns:**
 [BlendFactor](../../com.aspose.threed/blendfactor) - how the color is blended.
@@ -271,10 +271,10 @@ public int getStencilMask()
 ```
 
 
-Test tamamlandığında hem referans hem de depolanan şablon değeriyle AND yapılan maskeyi alır.
+Test tamamlandığında hem referans hem de depolanan şablon değeriyle AND edilen maskeyi alır.
 
 **Returns:**
-int - Test tamamlandığında hem referans hem de depolanan stencil değeriyle AND'lenen maskeyi.
+int - Test tamamlandığında referans ve saklanan şablon değerleriyle AND'lenen maske.
 ### getStencilReference() {#getStencilReference--}
 ```
 public int getStencilReference()
@@ -284,17 +284,17 @@ public int getStencilReference()
 Şablon testi için referans değerini alır.
 
 **Returns:**
-int - Stencil testi için referans değeri.
+int - Şablon testi için referans değeri.
 ### getStencilTest() {#getStencilTest--}
 ```
 public boolean getStencilTest()
 ```
 
 
-Şablon testini etkinleştirin veya devre dışı bırakın.
+Şablon testini etkinleştir veya devre dışı bırak.
 
 **Returns:**
-boolean - Stencil testini etkinleştir veya devre dışı bırak.
+boolean - Şablon testini etkinleştir veya devre dışı bırak.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -327,7 +327,7 @@ public void setBlend(boolean value)
 ```
 
 
-Parçacık harmanlamasını etkinleştirin veya devre dışı bırakın.
+Parçacık karıştırmayı etkinleştir veya devre dışı bırak.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -340,7 +340,7 @@ public void setBlendColor(FVector4 value)
 ```
 
 
-[BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) içinde kullanıldığı yerde harmanlama rengini ayarlar.
+Karıştırma rengini, [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) içinde kullanıldığı yerde ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -353,7 +353,7 @@ public void setCullFace(boolean value)
 ```
 
 
-Yüz kapatmayı etkinleştirin veya devre dışı bırakın.
+Yüz silmeyi etkinleştir veya devre dışı bırak
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -366,7 +366,7 @@ public void setCullFaceMode(int value)
 ```
 
 
-Hangi yüzün kapatılacağını ayarlar.
+Hangi yüzün silineceğini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -379,7 +379,7 @@ public void setDepthFunction(CompareFunction value)
 ```
 
 
-Derinlik testinde kullanılan karşılaştırma işlevini ayarlar.
+Derinlik testinde kullanılan karşılaştırma işlevini ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -392,7 +392,7 @@ public void setDepthMask(boolean value)
 ```
 
 
-Derinlik yazımını etkinleştirin veya devre dışı bırakın.
+Derinlik yazmayı etkinleştir veya devre dışı bırak.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -405,7 +405,7 @@ public void setDepthTest(boolean value)
 ```
 
 
-Derinlik testini etkinleştirin veya devre dışı bırakın.
+Derinlik testini etkinleştir veya devre dışı bırak.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -418,7 +418,7 @@ public void setDestinationBlendFactor(BlendFactor value)
 ```
 
 
-Rengin nasıl harmanlandığını ayarlar.
+Rengin nasıl karıştırıldığını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -431,7 +431,7 @@ public void setFrontFace(FrontFace value)
 ```
 
 
-Hangi sıranın ön yüz olduğunu ayarlar.
+Ön yüzün hangi sırada olduğunu ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -457,7 +457,7 @@ public void setScissorTest(boolean value)
 ```
 
 
-Makas testini etkinleştirin veya devre dışı bırakın.
+Makas testini etkinleştir veya devre dışı bırak
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -470,7 +470,7 @@ public void setSourceBlendFactor(BlendFactor value)
 ```
 
 
-Rengin nasıl harmanlandığını ayarlar.
+Rengin nasıl karıştırıldığını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -483,7 +483,7 @@ public void setStencilMask(int value)
 ```
 
 
-Test tamamlandığında hem referans hem de depolanan stencil değeriyle AND'lenen maskeyi ayarlar.
+Test tamamlandığında referans ve saklanan şablon değerleriyle AND'lenen maskeyi ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -496,7 +496,7 @@ public void setStencilReference(int value)
 ```
 
 
-Stencil testi için referans değerini ayarlar.
+Şablon testi için referans değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -509,7 +509,7 @@ public void setStencilTest(boolean value)
 ```
 
 
-Şablon testini etkinleştirin veya devre dışı bırakın.
+Şablon testini etkinleştir veya devre dışı bırak.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -1,7 +1,7 @@
 ---
 title: "Interpolasyon"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Anahtar kare interpolasyon tipi."
+description: "Anahtar karelerin interpolasyon türü."
 type: docs
 weight: 283
 url: /tr/java/com.aspose.threed/interpolation/
@@ -13,17 +13,17 @@ java.lang.Object, java.lang.Enum
 public enum Interpolation extends Enum<Interpolation>
 ```
 
-Ana kare interpolasyon tipi.
+Ana kare'nin ara değerleme tipi.
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
 | [BEZIER](#BEZIER) | Bir bezier veya Hermite eğrisi. |
-| [B_SPLINE](#B-SPLINE) | Temel spline'lar, eğrinin yalnızca ilk ve son noktadan geçeceği garanti edilen bir dizi kontrol noktasıyla tanımlanır. |
-| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | Bir cardinal spline, uç noktalar ve bir gerilim parametresi tarafından tanımlanan teğetlere sahip bir cubic Hermite spline'dir. |
-| [CONSTANT](#CONSTANT) | Değer, bir sonraki bölüme kadar ilk noktanın değeriyle sabit kalacaktır. |
-| [LINEAR](#LINEAR) | Doğrusal enterpolasyon, iki nokta arasındaki düz bir çizgidir. |
-| [TCB_SPLINE](#TCB-SPLINE) | Kochanek-Bartels spline olarak da adlandırılan, teğetin davranışı gerilim/bias/continuity ile tanımlanır. |
+| [B_SPLINE](#B-SPLINE) | Temel splines, kontrol noktalarının bir serisiyle tanımlanır; eğri yalnızca ilk ve son noktadan geçeceği garantilenir. |
+| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | Bir cardinal spline, uç noktalar ve bir gerilim parametresi tarafından tanımlanan teğetlere sahip kübik Hermite spline'dir. |
+| [CONSTANT](#CONSTANT) | Değer, bir sonraki segmente kadar ilk noktanın değeriyle sabit kalacaktır. |
+| [LINEAR](#LINEAR) | Doğrusal enterpolasyon, iki nokta arasında düz bir çizgidir. |
+| [TCB_SPLINE](#TCB-SPLINE) | Kochanek-Bartels spline olarak da adlandırılan bu spline'de, teğetin davranışı gerilim/eğilim/süreklilik tarafından tanımlanır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -59,7 +59,7 @@ public static final Interpolation B_SPLINE
 ```
 
 
-Temel spline'lar, eğrinin yalnızca ilk ve son noktadan geçeceği garanti edilen bir dizi kontrol noktasıyla tanımlanır.
+Temel splines, kontrol noktalarının bir serisiyle tanımlanır; eğri yalnızca ilk ve son noktadan geçeceği garantilenir.
 
 ### CARDINAL_SPLINE {#CARDINAL-SPLINE}
 ```
@@ -67,7 +67,7 @@ public static final Interpolation CARDINAL_SPLINE
 ```
 
 
-Bir cardinal spline, uç noktalar ve bir gerilim parametresi tarafından tanımlanan teğetlere sahip bir cubic Hermite spline'dir.
+Bir cardinal spline, uç noktalar ve bir gerilim parametresi tarafından tanımlanan teğetlere sahip kübik Hermite spline'dir.
 
 ### CONSTANT {#CONSTANT}
 ```
@@ -75,7 +75,7 @@ public static final Interpolation CONSTANT
 ```
 
 
-Değer, bir sonraki bölüme kadar ilk noktanın değeriyle sabit kalacaktır.
+Değer, bir sonraki segmente kadar ilk noktanın değeriyle sabit kalacaktır.
 
 ### LINEAR {#LINEAR}
 ```
@@ -83,7 +83,7 @@ public static final Interpolation LINEAR
 ```
 
 
-Doğrusal enterpolasyon, iki nokta arasındaki düz bir çizgidir.
+Doğrusal enterpolasyon, iki nokta arasında düz bir çizgidir.
 
 ### TCB_SPLINE {#TCB-SPLINE}
 ```
@@ -91,7 +91,7 @@ public static final Interpolation TCB_SPLINE
 ```
 
 
-Kochanek-Bartels spline olarak da adlandırılan, teğetin davranışı gerilim/bias/continuity ile tanımlanır.
+Kochanek-Bartels spline olarak da adlandırılan bu spline'de, teğetin davranışı gerilim/eğilim/süreklilik tarafından tanımlanır.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

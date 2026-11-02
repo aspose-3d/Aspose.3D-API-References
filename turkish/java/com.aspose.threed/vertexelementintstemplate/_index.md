@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementIntsTemplate extends VertexElement
 ```
 
-Somut [VertexElement](../../com.aspose.threed/vertexelement) uygulamaları tanımlamak için yardımcı bir sınıf.
+Somut [VertexElement](../../com.aspose.threed/vertexelement) uygulamalarını tanımlamak için yardımcı bir sınıf.
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [clear()](#clear--) | Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır. |
-| [clone(boolean withData)](#clone-boolean-) | Vertex öğesinin derin kopyasını oluştur. |
+| [clear()](#clear--) | Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır. |
+| [clone(boolean withData)](#clone-boolean-) | Vertex öğesini derin kopyalar. |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [copyTo(VertexElementIntsTemplate target)](#copyTo-com.aspose.threed.VertexElementIntsTemplate-) | Verileri belirtilen öğeye kopyalar. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -33,7 +33,7 @@ Somut [VertexElement](../../com.aspose.threed/vertexelement) uygulamaları tanı
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(int[] data)](#setData-int---) | Veriyi yükle |
+| [setData(int[] data)](#setData-int---) | Veri yükle |
 | [setIndices(int[] data)](#setIndices-int---) | İndeksleri yükle |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Öğenin nasıl eşlendiğini ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
@@ -48,7 +48,7 @@ public void clear()
 ```
 
 
-Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır.
+Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır.
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -56,12 +56,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Vertex öğesinin derin kopyasını oluştur.
+Vertex öğesini derin kopyalar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle kopyala. |
+| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle klonlar. |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -211,7 +211,7 @@ public void setData(int[] data)
 ```
 
 
-Veriyi yükle
+Veri yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

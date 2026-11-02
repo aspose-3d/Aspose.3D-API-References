@@ -18,7 +18,7 @@ Parametreli piramit.
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Pyramid()](#Pyramid--) | Varsayılan alt alan (10, 10) ve varsayılan yükseklik (5) ile yeni bir piramit örneği oluştur |
+| [Pyramid()](#Pyramid--) | Varsayılan alt alan(10, 10) ve varsayılan yükseklik(5) ile yeni bir piramit örneği oluştur |
 | [Pyramid(double xbottom, double ybottom, double height)](#Pyramid-double-double-double-) | Belirtilen alt alan ile yeni bir piramit örneği oluştur |
 | [Pyramid(double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-double-double-double-double-double-) | Belirtilen alt alan, üst alan ve yükseklik ile yeni bir piramit örneği oluştur. |
 | [Pyramid(String name, double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-java.lang.String-double-double-double-double-double-) | Belirtilen alt alan, üst alan ve yükseklik ile yeni bir piramit örneği oluştur. |
@@ -29,37 +29,37 @@ Parametreli piramit.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
 | [getBottomArea()](#getBottomArea--) | Alt kapağın alanı |
-| [getBottomOffset()](#getBottomOffset--) | Alt köşeler için ofset |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
-| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır |
+| [getBottomOffset()](#getBottomOffset--) | Alt köşe noktaları için ofset |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getHeight()](#getHeight--) | Piramit yüksekliği |
 | [getName()](#getName--) | Adı alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getReceiveShadows()](#getReceiveShadows--) | Bu geometrinin gölge alıp almayacağını al. |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [getTopArea()](#getTopArea--) | Üst kapağın alanı |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setBottomArea(Vector2 value)](#setBottomArea-com.aspose.threed.Vector2-) | Alt kapağın alanı |
-| [setBottomOffset(Vector3 value)](#setBottomOffset-com.aspose.threed.Vector3-) | Alt köşeler için ofset |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar |
+| [setBottomOffset(Vector3 value)](#setBottomOffset-com.aspose.threed.Vector3-) | Alt köşe noktaları için ofset |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarla. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setHeight(double value)](#setHeight-double-) | Piramit yüksekliği |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarlar. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarla. |
 | [setTopArea(Vector2 value)](#setTopArea-com.aspose.threed.Vector2-) | Üst kapağın alanı |
-| [toMesh()](#toMesh--) | Mevcut nesneyi mesh'e dönüştür. |
+| [toMesh()](#toMesh--) | Geçerli nesneyi mesh'e dönüştür |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -70,7 +70,7 @@ public Pyramid()
 ```
 
 
-Varsayılan alt alan (10, 10) ve varsayılan yükseklik (5) ile yeni bir piramit örneği oluştur
+Varsayılan alt alan(10, 10) ve varsayılan yükseklik(5) ile yeni bir piramit örneği oluştur
 
 ### Pyramid(double xbottom, double ybottom, double height) {#Pyramid-double-double-double-}
 ```
@@ -83,9 +83,9 @@ Belirtilen alt alan ile yeni bir piramit örneği oluştur
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| xbottom | double | Altın x yönündeki uzunluğu |
-| ybottom | double | Altın y yönündeki uzunluğu |
-| yükseklik | double | Piramit yüksekliği |
+| xbottom | double | Altın x yönündeki uzunluk |
+| ybottom | double | Altın y yönündeki uzunluk |
+| yükseklik | double | Piramitin yüksekliği |
 
 ### Pyramid(double xbottom, double ybottom, double xtop, double ytop, double height) {#Pyramid-double-double-double-double-double-}
 ```
@@ -102,7 +102,7 @@ Belirtilen alt alan, üst alan ve yükseklik ile yeni bir piramit örneği oluş
 | ybottom | double | Alt alanın y yönündeki uzunluğu |
 | xtop | double | Üst alanın x yönündeki uzunluğu |
 | ytop | double | Üst alanın y yönündeki uzunluğu |
-| yükseklik | double | Piramit yüksekliği |
+| yükseklik | double | Piramitin yüksekliği |
 
 ### Pyramid(String name, double xbottom, double ybottom, double xtop, double ytop, double height) {#Pyramid-java.lang.String-double-double-double-double-double-}
 ```
@@ -115,12 +115,12 @@ Belirtilen alt alan, üst alan ve yükseklik ile yeni bir piramit örneği oluş
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| ad | java.lang.String | Piramit adı |
+| ad | java.lang.String | Piramitin adı |
 | xbottom | double | Alt alanın x yönündeki uzunluğu |
 | ybottom | double | Alt alanın y yönündeki uzunluğu |
 | xtop | double | Üst alanın x yönündeki uzunluğu |
 | ytop | double | Üst alanın y yönündeki uzunluğu |
-| yükseklik | double | Piramit yüksekliği |
+| yükseklik | double | Piramitin yüksekliği |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -143,7 +143,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -168,7 +168,7 @@ public Vector3 getBottomOffset()
 ```
 
 
-Alt köşeler için ofset
+Alt köşe noktaları için ofset
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Offset for bottom vertices
@@ -178,7 +178,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -195,7 +195,7 @@ public boolean getCastShadows()
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını alır
+Bu geometrinin gölge oluşturup oluşturamayacağını alır.
 
 **Returns:**
 boolean - bu geometrinin gölge oluşturup oluşturamayacağı
@@ -215,7 +215,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -225,7 +225,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -255,7 +255,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -265,7 +265,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -285,7 +285,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -310,7 +310,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -371,7 +371,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -399,7 +399,7 @@ public void setBottomOffset(Vector3 value)
 ```
 
 
-Alt köşeler için ofset
+Alt köşe noktaları için ofset
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -412,7 +412,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar
+Bu geometrinin gölge oluşturup oluşturamayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -464,7 +464,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -477,7 +477,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -491,7 +491,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge alıp almayacağını ayarlar.
+Bu geometrinin gölge alıp almayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -517,7 +517,7 @@ public Mesh toMesh()
 ```
 
 
-Mevcut nesneyi mesh'e dönüştür.
+Geçerli nesneyi mesh'e dönüştür
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

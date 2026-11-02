@@ -50,7 +50,7 @@ public abstract class Stream implements Closeable
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 | [wrap(InputStream stream)](#wrap-java.io.InputStream-) |  |
-| [wrap(OutputStream stream)](#wrap-java.io.OutputStream-) | Bir OutputStream'i Stream olarak sarmalayın, verileri çıkış akışına boşaltmak için akış kapatılmalıdır. |
+| [wrap(OutputStream stream)](#wrap-java.io.OutputStream-) | Bir OutputStream'i Stream olarak sarmalayın, akış verileri çıkış akışına boşaltmak için kapatılmalıdır. |
 | [write(byte[] buf)](#write-byte---) |  |
 | [write(byte[] buf, int start, int len)](#write-byte---int-int-) |  |
 | [write(ByteSpan bytes)](#write-com.aspose.threed.ByteSpan-) |  |
@@ -226,7 +226,7 @@ public int read(ByteSpan bytes)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| baytlar | com.aspose.threed.ByteSpan |  |
+| bayt | com.aspose.threed.ByteSpan |  |
 
 **Returns:**
 int
@@ -251,7 +251,7 @@ public long seek(long offset, int seek)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| ofset | long |  |
+| offset | long |  |
 | seek | int |  |
 
 **Returns:**
@@ -335,12 +335,12 @@ public static Stream wrap(OutputStream stream)
 ```
 
 
-Bir OutputStream'i Stream olarak sarmalayın, verileri çıkış akışına boşaltmak için akış kapatılmalıdır.
+Bir OutputStream'i Stream olarak sarmalayın, akış verileri çıkış akışına boşaltmak için kapatılmalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| akış | java.io.OutputStream | sarmalanacak çıktı akışı |
+| akış | java.io.OutputStream | sarmalanacak çıkış akışı |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream) - wrapped Stream instance
@@ -383,7 +383,7 @@ public void write(ByteSpan bytes)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| baytlar | com.aspose.threed.ByteSpan |  |
+| bayt | com.aspose.threed.ByteSpan |  |
 
 ### writeByte(int b) {#writeByte-int-}
 ```

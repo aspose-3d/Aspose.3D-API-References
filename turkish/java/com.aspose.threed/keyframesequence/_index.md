@@ -1,7 +1,7 @@
 ---
 title: "KeyframeSequence"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Anahtar karelerin dizisi, örneklenen bir değerin zaman içindeki dönüşümünü tanımlar."
+description: "Anahtar karelerin dizisi, örneklenen bir değerin zaman içinde dönüşümünü tanımlar."
 type: docs
 weight: 90
 url: /tr/java/com.aspose.threed/keyframesequence/
@@ -35,19 +35,19 @@ Anahtar çerçevelerin dizisi, zaman içinde örneklenen bir değerin dönüşü
 | [getClass()](#getClass--) |  |
 | [getKeyFrames()](#getKeyFrames--) | Bu eğrinin anahtar karelerini alır. |
 | [getName()](#getName--) | Adı alır. |
-| [getPostBehavior()](#getPostBehavior--) | Post davranışını alır; bu, örneklenen değerin son anahtar kareden sonra ne olması gerektiğini gösterir. |
-| [getPreBehavior()](#getPreBehavior--) | Pre davranışını alır; bu, örneklenen değerin ilk anahtardan önce ne olması gerektiğini gösterir. |
+| [getPostBehavior()](#getPostBehavior--) | Post davranışı alır; bu, örneklenen değerin son anahtar kareden sonra ne olması gerektiğini gösterir. |
+| [getPreBehavior()](#getPreBehavior--) | Pre davranışı alır; bu, örneklenen değerin ilk anahtardan önce ne olması gerektiğini gösterir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Tüm anahtar kareleri dolaşmak için yineleyiciyi alır. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [reset()](#reset--) | Tüm anahtar kareleri kaldırır ve post/pre davranışlarını sıfırlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -123,7 +123,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -178,7 +178,7 @@ public Extrapolation getPostBehavior()
 ```
 
 
-Post davranışını alır; bu, örneklenen değerin son anahtar kareden sonra ne olması gerektiğini gösterir.
+Post davranışı alır; bu, örneklenen değerin son anahtar kareden sonra ne olması gerektiğini gösterir.
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the post behavior indicates what the sampled value should be after the last key frame.
@@ -188,7 +188,7 @@ public Extrapolation getPreBehavior()
 ```
 
 
-Pre davranışını alır; bu, örneklenen değerin ilk anahtardan önce ne olması gerektiğini gösterir.
+Pre davranışı alır; bu, örneklenen değerin ilk anahtardan önce ne olması gerektiğini gösterir.
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the pre behavior indicates what the sampled value should be before the first key.
@@ -208,7 +208,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -274,7 +274,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -310,7 +310,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

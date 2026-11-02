@@ -27,13 +27,13 @@ Belirtilen bileşenler için malzeme indeksini tanımlar. Bir düğüm birden fa
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [VertexElementMaterial()](#VertexElementMaterial--) | Yeni bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) sınıfı örneği başlatır. |
+| [VertexElementMaterial()](#VertexElementMaterial--) | Yeni bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) sınıf örneği oluşturur. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [clear()](#clear--) | Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır. |
-| [clone(boolean withData)](#clone-boolean-) | Vertex öğesinin derin kopyasını oluştur. |
+| [clear()](#clear--) | Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır. |
+| [clone(boolean withData)](#clone-boolean-) | Vertex öğesini derin kopyalar. |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -59,7 +59,7 @@ public VertexElementMaterial()
 ```
 
 
-Yeni bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) sınıfı örneği başlatır.
+Yeni bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) sınıf örneği oluşturur.
 
 ### clear() {#clear--}
 ```
@@ -67,7 +67,7 @@ public void clear()
 ```
 
 
-Doğrudan ve indeks dizilerinden tüm öğeleri kaldırır.
+Doğrudan ve indeks dizilerindeki tüm öğeleri kaldırır.
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -75,12 +75,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Vertex öğesinin derin kopyasını oluştur.
+Vertex öğesini derin kopyalar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle kopyala. |
+| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle klonlar. |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)

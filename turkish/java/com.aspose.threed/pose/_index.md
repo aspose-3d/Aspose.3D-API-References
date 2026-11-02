@@ -13,35 +13,35 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Pose extends A3DObject
 ```
 
-Pose, geometri deri kaplamalı olduğunda dönüşüm matrisini depolamak için kullanılır. Pose, bir dizi [BonePose](../../com.aspose.threed/bonepose) içerir; her bir [BonePose](../../com.aspose.threed/bonepose) kemik düğümünün somut dönüşüm bilgilerini kaydeder.
+Poz, geometri deri kaplamalı olduğunda dönüşüm matrisini depolamak için kullanılır. Poz, bir dizi [BonePose](../../com.aspose.threed/bonepose) içerir; her bir [BonePose](../../com.aspose.threed/bonepose) kemik düğümünün somut dönüşüm bilgisini kaydeder.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Pose(String name)](#Pose-java.lang.String-) | Yeni bir [Pose](../../com.aspose.threed/pose) sınıf örneği başlatır. |
-| [Pose()](#Pose--) | Yeni bir [Pose](../../com.aspose.threed/pose) sınıf örneği başlatır. |
+| [Pose(String name)](#Pose-java.lang.String-) | Yeni bir [Pose](../../com.aspose.threed/pose) sınıfı örneği başlatır. |
+| [Pose()](#Pose--) | Yeni bir [Pose](../../com.aspose.threed/pose) sınıfı örneği başlatır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [addBonePose(Node node, Matrix4 matrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | Verilen kemik düğümü için pose dönüşüm matrisini kaydeder. |
-| [addBonePose(Node node, Matrix4 matrix, boolean localMatrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-boolean-) | Verilen kemik düğümü için pose dönüşüm matrisini kaydeder. |
+| [addBonePose(Node node, Matrix4 matrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | Verilen kemik düğümü için poz dönüşüm matrisini kaydeder. |
+| [addBonePose(Node node, Matrix4 matrix, boolean localMatrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-boolean-) | Verilen kemik düğümü için poz dönüşüm matrisini kaydeder. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
 | [getBonePoses()](#getBonePoses--) | Tüm [BonePose](../../com.aspose.threed/bonepose) öğelerini alır. |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Adı alır. |
-| [getPoseType()](#getPoseType--) | Pose'un tipini alır. |
+| [getPoseType()](#getPoseType--) | Pozun tipini alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setPoseType(PoseType value)](#setPoseType-com.aspose.threed.PoseType-) | Pose'un tipini ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setPoseType(PoseType value)](#setPoseType-com.aspose.threed.PoseType-) | Pozun tipini ayarlar. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,7 @@ public Pose(String name)
 ```
 
 
-Yeni bir [Pose](../../com.aspose.threed/pose) sınıf örneği başlatır.
+Yeni bir [Pose](../../com.aspose.threed/pose) sınıfı örneği başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -65,7 +65,7 @@ public Pose()
 ```
 
 
-Yeni bir [Pose](../../com.aspose.threed/pose) sınıf örneği başlatır.
+Yeni bir [Pose](../../com.aspose.threed/pose) sınıfı örneği başlatır.
 
 ### addBonePose(Node node, Matrix4 matrix) {#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-}
 ```
@@ -73,7 +73,7 @@ public void addBonePose(Node node, Matrix4 matrix)
 ```
 
 
-Verilen kemik düğümü için poz dönüşüm matrisini kaydeder. Küresel dönüşüm matrisinin olduğu varsayılır.
+Verilen kemik düğümü için poz dönüşüm matrisini kaydeder. Global dönüşüm matrisi varsayılan olarak kabul edilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -87,14 +87,14 @@ public void addBonePose(Node node, Matrix4 matrix, boolean localMatrix)
 ```
 
 
-Verilen kemik düğümü için pose dönüşüm matrisini kaydeder.
+Verilen kemik düğümü için poz dönüşüm matrisini kaydeder.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) | Kemik Düğümü. |
 | matrix | [Matrix4](../../com.aspose.threed/matrix4) | Dönüşüm matrisi. |
-| localMatrix | boolean | Eğer  true  ayarlanırsa yerel matrisi kullanmak, aksi takdirde küresel matrisi kullanmak anlamına gelir. |
+| localMatrix | boolean | Eğer  true  olarak ayarlanırsa yerel matrisi kullanır, aksi takdirde global matrisi kullanır. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -117,7 +117,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -162,7 +162,7 @@ public PoseType getPoseType()
 ```
 
 
-Pose'un tipini alır.
+Pozun tipini alır.
 
 **Returns:**
 [PoseType](../../com.aspose.threed/posetype) - the type of the pose.
@@ -182,7 +182,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -238,7 +238,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -266,7 +266,7 @@ public void setPoseType(PoseType value)
 ```
 
 
-Pose'un tipini ayarlar.
+Pozun tipini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -279,7 +279,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

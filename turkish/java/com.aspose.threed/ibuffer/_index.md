@@ -19,7 +19,7 @@ Renderleme sırasında kullanılan tüm yönetilen tamponların temel arayüzü
 | Yöntem | Açıklama |
 | --- | --- |
 | [getSize()](#getSize--) | Bu tamponun bayt cinsinden boyutu |
-| [loadData(byte[] data)](#loadData-byte---) | Veriyi mevcut tampona yükle |
+| [loadData(byte[] data)](#loadData-byte---) | Verileri mevcut tampon içine yükle |
 ### getSize() {#getSize--}
 ```
 public abstract int getSize()
@@ -36,7 +36,7 @@ public abstract void loadData(byte[] data)
 ```
 
 
-Veriyi mevcut tampona yükle
+Verileri mevcut tampon içine yükle
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -40,14 +40,14 @@ Dört bileşenli bir float vektör.
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [add(FVector4 lhs, FVector4 rhs)](#add-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | + operatörü için aşırı yükleme |
+| [add(FVector4 lhs, FVector4 rhs)](#add-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | + için operatör aşırı yükleme |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector4 src)](#copyFrom-com.aspose.threed.FVector4-) |  |
 | [create(FVector4 v)](#create-com.aspose.threed.FVector4-) | Vector4'ü FVector4'e dönüştürmek için açık dönüşüm operatörü |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [mul(FVector4 lhs, FVector4 rhs)](#mul-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | \* operatörü için aşırı yükleme |
+| [mul(FVector4 lhs, FVector4 rhs)](#mul-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | * için operatör aşırı yükleme |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [sub(FVector4 lhs, FVector4 rhs)](#sub-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | - (eksi) için operatör aşırı yüklemesi |
@@ -183,7 +183,7 @@ public static FVector4 add(FVector4 lhs, FVector4 rhs)
 ```
 
 
-+ operatörü için aşırı yükleme
++ için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -199,7 +199,7 @@ public FVector4 clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4)
@@ -272,7 +272,7 @@ public static FVector4 mul(FVector4 lhs, FVector4 rhs)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

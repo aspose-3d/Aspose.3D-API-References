@@ -27,7 +27,7 @@ Bu sınıf, zincir işleminde [IDescriptorSet](../../com.aspose.threed/idescript
 | [bind(int binding, IBuffer buffer)](#bind-int-com.aspose.threed.IBuffer-) | Tamponu belirtilen bağlama konumunda mevcut tanımlayıcı kümesine bağla. |
 | [bind(int binding, IBuffer buffer, int offset, int size)](#bind-int-com.aspose.threed.IBuffer-int-int-) | Tamponu belirtilen bağlama konumunda mevcut tanımlayıcı kümesine bağla. |
 | [bind(int binding, ITextureUnit texture)](#bind-int-com.aspose.threed.ITextureUnit-) | Doku birimini mevcut tanımlayıcı kümesine bağla |
-| [close()](#close--) | Güncelleyiciyi serbest bırak ve değişiklikleri donanım cihazına gönder. |
+| [close()](#close--) | Güncelleyiciyi serbest bırak ve değişiklikleri donanım aygıtına gönder. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -63,8 +63,8 @@ Tamponu mevcut tanımlayıcı kümesine bağla
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | Hangi tampon bağlanacak |
-| ofset | int | Bağlanacak tamponun ofseti |
+| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | Bağlanacak tampon |
+| offset | int | Bağlanacak tamponun offset'i |
 | boyut | int | Bağlanacak tamponun boyutu |
 
 **Returns:**
@@ -113,7 +113,7 @@ Tamponu belirtilen bağlama konumunda mevcut tanımlayıcı kümesine bağla.
 | --- | --- | --- |
 | bağlama | int | Bağlama konumu |
 | buffer | [IBuffer](../../com.aspose.threed/ibuffer) | Bağlanacak tampon |
-| ofset | int | Bağlanacak tamponun ofseti |
+| offset | int | Bağlanacak tamponun offset'i |
 | boyut | int | Bağlanacak tamponun boyutu |
 
 **Returns:**
@@ -140,7 +140,7 @@ public void close()
 ```
 
 
-Güncelleyiciyi serbest bırak ve değişiklikleri donanım cihazına gönder.
+Güncelleyiciyi serbest bırak ve değişiklikleri donanım aygıtına gönder.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

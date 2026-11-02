@@ -1,7 +1,7 @@
 ---
 title: "NurbsCurve"
 second_title: "Aspose.3D for Java API Referansı"
-description: "NURBS eğrisi, NURBSNon-uniform rational basis spline tarafından temsil edilen bir eğridir. Bir NURBS eğrisi, ağırlıklı bir dizi kontrol noktası ve bir ... ile tanımlanır. Kontrol noktasındaki w bileşeni, kontrol noktası ağırlığı olarak kullanılır; ne olursa olsun ..."
+description: "NURBS eğrisi, NURBSNon-uniform rational basis spline tarafından temsil edilen bir eğridir. Bir NURBS eğrisi, bir dizi ağırlıklı ve bir ... tarafından tanımlanır. Kontrol noktasındaki w bileşeni, kontrol noktalarının ağırlığı olarak kullanılır, ne olursa olsun bir ... veya"
 type: docs
 weight: 112
 url: /tr/java/com.aspose.threed/nurbscurve/
@@ -32,40 +32,40 @@ public class NurbsCurve extends Curve
 | [evaluate(int steps)](#evaluate-int-) | NURBS eğrisini değerlendir |
 | [evaluateAt(double u)](#evaluateAt-double-) | Eğrinin belirtilen konumdaki noktasını değerlendir |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Çizginin rengini alır, varsayılan değer beyaz(1, 1, 1)'dir |
-| [getControlPoints()](#getControlPoints--) | Tüm kontrol noktalarını al |
+| [getControlPoints()](#getControlPoints--) | Tüm kontrol noktalarını al. |
 | [getCurveType()](#getCurveType--) | Eğrinin tipini alır. |
-| [getDegree()](#getDegree--) | NURBS eğrisinin derecesini alır, derece Sipariş - 1 olarak tanımlanır |
+| [getDegree()](#getDegree--) | NURBS eğrisinin derecesini alır, derece Order - 1 olarak tanımlanır |
 | [getDimension()](#getDimension--) | Eğrinin boyutunu alır. |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
-| [getKnotVectors()](#getKnotVectors--) | Düğüm vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
+| [getKnotVectors()](#getKnotVectors--) | Knot vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir. |
 | [getMultiplicity()](#getMultiplicity--) | Çokluğu alır. |
 | [getName()](#getName--) | Adı alır. |
-| [getOrder()](#getOrder--) | NURBS eğrisinin derecesini alır, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getOrder()](#getOrder--) | NURBS eğrisinin mertebesini alır, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar. |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getRational()](#getRational--) | Rasyonel olup olmadığını alır, bu değer bu [NurbsCurve](../../com.aspose.threed/nurbscurve) 'nin rasyonel spline mı yoksa rasyonel olmayan spline mı olduğunu gösterir. |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getRational()](#getRational--) | Rasyonel olup olmadığını alır, bu değer bu [NurbsCurve](../../com.aspose.threed/nurbscurve)'in rasyonel spline mı yoksa rasyonel olmayan spline mı olduğunu gösterir. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | Çizginin rengini ayarlar, varsayılan değer beyaz(1, 1, 1)'dir |
 | [setCurveType(NurbsType value)](#setCurveType-com.aspose.threed.NurbsType-) | Eğrinin tipini ayarlar. |
-| [setDegree(int value)](#setDegree-int-) | NURBS eğrisinin derecesini ayarlar, derece Sipariş - 1 olarak tanımlanır |
+| [setDegree(int value)](#setDegree-int-) | NURBS eğrisinin derecesini ayarlar, derece Order - 1 olarak tanımlanır |
 | [setDimension(CurveDimension value)](#setDimension-com.aspose.threed.CurveDimension-) | Eğrinin boyutunu ayarlar. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setOrder(int value)](#setOrder-int-) | NURBS eğrisinin derecesini ayarlar, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setRational(boolean value)](#setRational-boolean-) | Rasyonel olup olmadığını ayarlar, bu değer bu [NurbsCurve](../../com.aspose.threed/nurbscurve) 'nin rasyonel spline mı yoksa rasyonel olmayan spline mı olduğunu gösterir. |
+| [setOrder(int value)](#setOrder-int-) | NURBS eğrisinin mertebesini ayarlar, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setRational(boolean value)](#setRational-boolean-) | Rasyonel olup olmadığını ayarlar, bu değer bu [NurbsCurve](../../com.aspose.threed/nurbscurve)'in rasyonel spline mı yoksa rasyonel olmayan spline mı olduğunu gösterir. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -127,7 +127,7 @@ NURBS eğrisini değerlendir
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| adımlar | int | İki komşu düğüm arasındaki değerlendirme frekansı, varsayılan değer 20'dir |
+| adımlar | int | İki komşu knot arasındaki değerlendirme frekansı, varsayılan değer 20'dir |
 
 **Returns:**
 com.aspose.threed.Vector4[] - Eğrinin noktaları
@@ -152,7 +152,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -167,7 +167,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -204,7 +204,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-Tüm kontrol noktalarını al
+Tüm kontrol noktalarını al.
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - tüm kontrol noktaları
@@ -224,10 +224,10 @@ public int getDegree()
 ```
 
 
-NURBS eğrisinin derecesini alır, derece Sipariş - 1 olarak tanımlanır
+NURBS eğrisinin derecesini alır, derece Order - 1 olarak tanımlanır
 
 **Returns:**
-int - NURBS eğrisinin derecesi, derece Sipariş - 1 olarak tanımlanır
+int - NURBS eğrisinin derecesi, derece Order - 1 olarak tanımlanır
 ### getDimension() {#getDimension--}
 ```
 public CurveDimension getDimension()
@@ -244,7 +244,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -254,7 +254,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -264,10 +264,10 @@ public List<Double> getKnotVectors()
 ```
 
 
-Düğüm vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir.
+Knot vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir.
 
 **Returns:**
-java.util.List<java.lang.Double> - düğüm vektörü, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir.
+java.util.List<java.lang.Double> - knot vektörü, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerleri dizisidir.
 ### getMultiplicity() {#getMultiplicity--}
 ```
 public List<Integer> getMultiplicity()
@@ -294,17 +294,17 @@ public int getOrder()
 ```
 
 
-NURBS eğrisinin derecesini alır, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar.
+NURBS eğrisinin mertebesini alır, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar.
 
 **Returns:**
-int - bir NURBS eğrisinin derecesi, eğri üzerindeki herhangi bir noktayı etkileyen yakın kontrol noktalarının sayısını tanımlar.
+int - bir NURBS eğrisinin derecesi, bu değer eğri üzerindeki herhangi bir noktayı etkileyen yakın kontrol noktalarının sayısını tanımlar.
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -314,7 +314,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -334,7 +334,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -359,7 +359,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -410,7 +410,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -451,7 +451,7 @@ public void setDegree(int value)
 ```
 
 
-NURBS eğrisinin derecesini ayarlar, derece Sipariş - 1 olarak tanımlanır
+NURBS eğrisinin derecesini ayarlar, derece Order - 1 olarak tanımlanır
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -469,7 +469,7 @@ Eğrinin boyutunu ayarlar.
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| value | [CurveDimension](../../com.aspose.threed/curvedimension) | Yeni değer **Remarks:** Bir [CurveDimension.TWO\_DIMENSIONAL](../../com.aspose.threed/curvedimension\#TWO-DIMENSIONAL) eğri için kontrol noktasındaki z bileşeni kullanılmaz. |
+| value | [CurveDimension](../../com.aspose.threed/curvedimension) | Yeni değer **Açıklamalar:** Bir [CurveDimension.TWO\_DIMENSIONAL](../../com.aspose.threed/curvedimension\#TWO-DIMENSIONAL) eğri için, kontrol noktasındaki z bileşeni kullanılmaz. |
 
 ### setExcluded(boolean value) {#setExcluded-boolean-}
 ```
@@ -503,7 +503,7 @@ public void setOrder(int value)
 ```
 
 
-NURBS eğrisinin derecesini ayarlar, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar.
+NURBS eğrisinin mertebesini ayarlar, bu, eğrinin herhangi bir noktasını etkileyen yakın kontrol noktalarının sayısını tanımlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -516,7 +516,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -529,7 +529,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

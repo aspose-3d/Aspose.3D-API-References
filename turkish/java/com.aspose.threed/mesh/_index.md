@@ -1,7 +1,7 @@
 ---
 title: "Mesh"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bir ağ, birçok n-köşeli çokgenlerden oluşur."
+description: "Bir ağ, çok sayıda n-köşeli çokgenlerden oluşur."
 type: docs
 weight: 102
 url: /tr/java/com.aspose.threed/mesh/
@@ -16,7 +16,7 @@ java.lang.Iterable, [com.aspose.threed.IMeshConvertible](../../com.aspose.threed
 public class Mesh extends Geometry implements Iterable<int[]>, IMeshConvertible
 ```
 
-Bir mesh birçok n‑kenarlı çokgenlerden oluşur. **Örnek:** Mesh içinde bir çokgen eklemek için:
+Bir ağ, birçok n-köşeli çokgenlerden oluşur. **Örnek:** Ağa bir çokgen eklemek için:
 
 ```
 Mesh mesh = new Mesh();
@@ -24,7 +24,7 @@ Mesh mesh = new Mesh();
   mesh.createPolygon(indices);
 ```
 
-Mesh içindeki tüm çokgenlerde gezin:
+Ağdaki tüm çokgenler arasında dolaşın:
 
 ```
 Mesh mesh = new Mesh();
@@ -43,69 +43,69 @@ Mesh mesh = new Mesh();
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [<T>getDeformers2()](#-T-getDeformers2--) | Belirtilen deformer türleriyle tüm deformörleri alır. |
-| [addControlPoint(double x, double y, double z)](#addControlPoint-double-double-double-) | Mesh'e yeni bir kontrol noktası ekleyin, bu daha verimlidir. |
-| [addControlPoint(double x, double y, double z, double w)](#addControlPoint-double-double-double-double-) | Mesh'e yeni bir kontrol noktası ekleyin, bu daha verimlidir. |
+| [<T>getDeformers2()](#-T-getDeformers2--) | Belirtilen deformer türlerine sahip tüm deformasyonları alır |
+| [addControlPoint(double x, double y, double z)](#addControlPoint-double-double-double-) | Ağa yeni bir kontrol noktası ekleyin, bu daha verimlidir. |
+| [addControlPoint(double x, double y, double z, double w)](#addControlPoint-double-double-double-double-) | Ağa yeni bir kontrol noktası ekleyin, bu daha verimlidir. |
 | [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | Mevcut geometriye mevcut bir vertex öğesi ekler |
 | [clone()](#clone--) |  |
-| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler |
-| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler |
+| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler. |
+| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler. |
 | [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) oluşturur. |
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) oluşturur. |
-| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | 3 köşe (üçgen) ile bir çokgen oluştur |
-| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | 4 köşe (dörtlü) ile bir çokgen oluştur |
+| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | 3 köşeli (üçgen) bir çokgen oluştur. |
+| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | 4 köşeli (dörtlü) bir çokgen oluştur. |
 | [createPolygon(int[] indices)](#createPolygon-int---) | `indices` içinde tanımlanan tüm köşelerle yeni bir çokgen oluşturur. |
 | [createPolygon(int[] indices, int offset, int length)](#createPolygon-int---int-int-) | `indices` içinde tanımlanan tüm köşelerle yeni bir çokgen oluşturur. |
-| [difference(Mesh a, Mesh b)](#difference-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | İki ağın farkını hesapla |
-| [doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Mesh b, Matrix4 transformB)](#doBoolean-com.aspose.threed.BooleanOperation-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-) | İki ağ üzerinde Boolean işlemi gerçekleştir |
+| [difference(Mesh a, Mesh b)](#difference-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | İki ağın farkını hesapla. |
+| [doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Mesh b, Matrix4 transformB)](#doBoolean-com.aspose.threed.BooleanOperation-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-) | İki ağ üzerinde Boole işlemi gerçekleştir. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
-| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır. |
 | [getClass()](#getClass--) |  |
-| [getControlPoints()](#getControlPoints--) | Tüm kontrol noktalarını al |
-| [getDeformers()](#getDeformers--) | Bu geometriyle ilişkili tüm deformasyonları al. |
+| [getControlPoints()](#getControlPoints--) | Tüm kontrol noktalarını al. |
+| [getDeformers()](#getDeformers--) | Bu geometriyle ilişkili tüm deformers'ı al. |
 | [getEdges()](#getEdges--) | Ağın kenarlarını al. |
-| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Belirtilen türde bir köşe öğesini al |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Belirtilen türde bir köşe öğesini al. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getName()](#getName--) | Adı alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
-| [getPolygonCount()](#getPolygonCount--) | Çokgen sayısını al |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
+| [getPolygonCount()](#getPolygonCount--) | Çokgen sayısını al. |
 | [getPolygonSize(int index)](#getPolygonSize-int-) | Belirtilen çokgenin köşe sayısını al. |
-| [getPolygons()](#getPolygons--) | Ağın çokgen tanımını al |
+| [getPolygons()](#getPolygons--) | Ağın çokgen tanımını al. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getReceiveShadows()](#getReceiveShadows--) | Bu geometrinin gölge alıp almayacağını al. |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) örneği al |
-| [getVertexElements()](#getVertexElements--) | Tüm köşe öğelerini al |
-| [getVisible()](#getVisible--) | Geometrinin görünür olup olmadığını al |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) örneği al. |
+| [getVertexElements()](#getVertexElements--) | Tüm köşe öğelerini al. |
+| [getVisible()](#getVisible--) | Geometrinin görünür olup olmadığını al. |
 | [hashCode()](#hashCode--) |  |
-| [intersect(Mesh a, Mesh b)](#intersect-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | İki ağın kesişimini hesapla |
+| [intersect(Mesh a, Mesh b)](#intersect-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | İki ağın kesişimini hesapla. |
 | [isManifold()](#isManifold--) | Mevcut ağın manifold bir ağ olup olmadığını kontrol et. |
-| [iterator()](#iterator--) | Her iç çokgen için yineleyiciyi al. |
+| [iterator()](#iterator--) | Her iç çokgen için enumerator'ı al. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [optimize(boolean vertexElements)](#optimize-boolean-) | Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et |
-| [optimize(boolean vertexElements, float toleranceControlPoint)](#optimize-boolean-float-) | Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et |
-| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal)](#optimize-boolean-float-float-) | Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et |
-| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal, float toleranceUV)](#optimize-boolean-float-float-float-) | Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et |
-| [optimize2(boolean vertexElements)](#optimize2-boolean-) | Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et |
+| [optimize(boolean vertexElements)](#optimize-boolean-) | Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et. |
+| [optimize(boolean vertexElements, float toleranceControlPoint)](#optimize-boolean-float-) | Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et. |
+| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal)](#optimize-boolean-float-float-) | Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et. |
+| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal, float toleranceUV)](#optimize-boolean-float-float-float-) | Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et. |
+| [optimize2(boolean vertexElements)](#optimize2-boolean-) | Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et. |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarla. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarlar. |
-| [setVisible(boolean value)](#setVisible-boolean-) | Geometrinin görünür olup olmadığını ayarlar |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarla. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Geometrinin görünür olup olmadığını ayarla. |
 | [toMesh()](#toMesh--) | Geçerli varlıktan Mesh örneğini alır. |
 | [toString()](#toString--) |  |
-| [triangulate()](#triangulate--) | Üçgenleştirilmiş ağı döndür. |
-| [union(Mesh a, Mesh b)](#union-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | İki ağın birleşimini hesapla. |
+| [triangulate()](#triangulate--) | Üçgenleştirilmiş mesh'i döndür |
+| [union(Mesh a, Mesh b)](#union-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | İki mesh'in birleşimini hesapla |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -136,7 +136,7 @@ public Collection<T> <T>getDeformers2()
 ```
 
 
-Belirtilen deformer türleriyle tüm deformörleri alır.
+Belirtilen deformer türlerine sahip tüm deformasyonları alır
 
 **Returns:**
 java.util.Collection<T> - Deformer koleksiyonu
@@ -146,7 +146,7 @@ public void addControlPoint(double x, double y, double z)
 ```
 
 
-Mesh'e yeni bir kontrol noktası ekleyin, bu daha verimlidir.
+Ağa yeni bir kontrol noktası ekleyin, bu daha verimlidir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -161,7 +161,7 @@ public void addControlPoint(double x, double y, double z, double w)
 ```
 
 
-Mesh'e yeni bir kontrol noktası ekleyin, bu daha verimlidir.
+Ağa yeni bir kontrol noktası ekleyin, bu daha verimlidir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -182,7 +182,7 @@ Mevcut geometriye mevcut bir vertex öğesi ekler
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| element | [VertexElement](../../com.aspose.threed/vertexelement) | Eklenecek köşe öğesi |
+| element | [VertexElement](../../com.aspose.threed/vertexelement) | Eklenecek vertex öğesi |
 
 ### clone() {#clone--}
 ```
@@ -200,12 +200,12 @@ public VertexElement createElement(VertexElementType type)
 ```
 
 
-Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler
+Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Köşe öğesi türü |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Vertex öğesi türü |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -215,12 +215,12 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 ```
 
 
-Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler
+Belirtilen tipte bir vertex öğesi oluşturur ve geometriye ekler.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Köşe öğesi türü |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Vertex öğesi türü |
 | mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Varsayılan eşleme modu |
 | referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Varsayılan referans modu |
 
@@ -264,14 +264,14 @@ public void createPolygon(int v1, int v2, int v3)
 ```
 
 
-3 köşe (üçgen) ile bir çokgen oluştur
+3 köşeli (üçgen) bir çokgen oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| v1 | int | İlk köşenin indeksi |
-| v2 | int | İkinci köşenin indeksi |
-|  | v3 | int | Üçüncü köşenin indeksi **Örnek:** Aşağıdaki kod, kontrol noktasının indeksleriyle yeni bir çokgenin nasıl oluşturulacağını gösterir. |
+| v1 | int | İlk vertex'in indeksi |
+| v2 | int | İkinci vertex'in indeksi |
+|  | v3 | int | Üçüncü vertex'in indeksi **Example:** Aşağıdaki kod, kontrol noktasının indeksleriyle yeni bir çokgenin nasıl oluşturulacağını gösterir. |
 
 ```
 Mesh mesh = new Mesh();
@@ -284,15 +284,15 @@ public void createPolygon(int v1, int v2, int v3, int v4)
 ```
 
 
-4 köşe (dörtlü) ile bir çokgen oluştur
+4 köşeli (dörtlü) bir çokgen oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| v1 | int | İlk köşenin indeksi |
-| v2 | int | İkinci köşenin indeksi |
-| v3 | int | Üçüncü köşenin indeksi |
-|  | v4 | int | Dördüncü köşenin indeksi **Örnek:** Aşağıdaki kod, kontrol noktasının indeksleriyle yeni bir çokgenin nasıl oluşturulacağını gösterir. |
+| v1 | int | İlk vertex'in indeksi |
+| v2 | int | İkinci vertex'in indeksi |
+| v3 | int | Üçüncü vertex'in indeksi |
+|  | v4 | int | Dördüncü vertex'in indeksi **Example:** Aşağıdaki kod, kontrol noktasının indeksleriyle yeni bir çokgenin nasıl oluşturulacağını gösterir. |
 
 ```
 Mesh mesh = new Mesh();
@@ -305,7 +305,7 @@ public void createPolygon(int[] indices)
 ```
 
 
-Tüm köşeleri `indices` içinde tanımlanmış yeni bir çokgen oluşturur. Çokgeni köşe köşe oluşturmak için lütfen [PolygonBuilder](../../com.aspose.threed/polygonbuilder) kullanın.
+Tüm vertex'ler `indices` içinde tanımlanmış yeni bir çokgen oluşturur. Çokgeni vertex'ten vertex'e oluşturmak için lütfen [PolygonBuilder](../../com.aspose.threed/polygonbuilder) kullanın.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -324,13 +324,13 @@ public void createPolygon(int[] indices, int offset, int length)
 ```
 
 
-Tüm köşeleri `indices` içinde tanımlanmış yeni bir çokgen oluşturur. Çokgeni köşe köşe oluşturmak için lütfen [PolygonBuilder](../../com.aspose.threed/polygonbuilder) kullanın.
+Tüm vertex'ler `indices` içinde tanımlanmış yeni bir çokgen oluşturur. Çokgeni vertex'ten vertex'e oluşturmak için lütfen [PolygonBuilder](../../com.aspose.threed/polygonbuilder) kullanın.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | indeksler | int[] | Poligon indekslerinin dizisi, her indeks poligonu oluşturan bir kontrol noktasına işaret eder. |
-| ofset | int | İlk poligon indeksinin ofseti |
+| offset | int | İlk poligon indeksinin ofseti |
 |  | uzunluk | int | İndekslerin uzunluğu **Example:** Aşağıdaki kod, kontrol noktası indeksleriyle yeni bir poligon oluşturmanın nasıl yapılacağını gösterir. |
 
 ```
@@ -345,7 +345,7 @@ public static Mesh difference(Mesh a, Mesh b)
 ```
 
 
-İki ağın farkını hesapla
+İki ağın farkını hesapla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -361,7 +361,7 @@ public static Mesh doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Me
 ```
 
 
-İki ağ üzerinde Boolean işlemi gerçekleştir
+İki ağ üzerinde Boole işlemi gerçekleştir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -395,7 +395,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -410,7 +410,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -427,7 +427,7 @@ public boolean getCastShadows()
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını alır
+Bu geometrinin gölge oluşturup oluşturamayacağını alır.
 
 **Returns:**
 boolean - bu geometrinin gölge oluşturup oluşturamayacağı
@@ -447,7 +447,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-Tüm kontrol noktalarını al
+Tüm kontrol noktalarını al.
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - tüm kontrol noktaları
@@ -457,7 +457,7 @@ public List<Deformer> getDeformers()
 ```
 
 
-Bu geometriyle ilişkili tüm deformasyonları al.
+Bu geometriyle ilişkili tüm deformers'ı al.
 
 **Returns:**
 java.util.List<com.aspose.threed.Deformer> - bu geometriyle ilişkili tüm deformasyonlar.
@@ -467,22 +467,22 @@ public List<Integer> getEdges()
 ```
 
 
-Ağın kenarlarını alır. Kenar, ağda isteğe bağlıdır, bu yüzden boş olabilir.
+Mesh'in kenarlarını alır. Kenar mesh içinde isteğe bağlıdır, bu yüzden boş olabilir.
 
 **Returns:**
-java.util.List<java.lang.Integer> - Ağın kenarları. Kenar, ağda isteğe bağlıdır, bu yüzden boş olabilir.
+java.util.List<java.lang.Integer> - Mesh'in kenarları. Kenar mesh içinde isteğe bağlıdır, bu yüzden boş olabilir.
 ### getElement(VertexElementType type) {#getElement-com.aspose.threed.VertexElementType-}
 ```
 public VertexElement getElement(VertexElementType type)
 ```
 
 
-Belirtilen türde bir köşe öğesini al
+Belirtilen türde bir köşe öğesini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | hangi köşe öğesi türünün bulunacağı |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | hangi vertex öğe tipinin bulunacağı |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - [VertexElement](../../com.aspose.threed/vertexelement) instance if found, otherwise null will be returned.
@@ -492,7 +492,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -502,7 +502,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -522,7 +522,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -532,7 +532,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -542,10 +542,10 @@ public int getPolygonCount()
 ```
 
 
-Çokgen sayısını al
+Çokgen sayısını al.
 
 **Returns:**
-int - poligon sayısı **Example:** Aşağıdaki kod, ağın poligon sayısını nasıl alacağınızı gösterir.
+int - çokgenlerin sayısı **Example:** Aşağıdaki kod, bir mesh'in çokgen sayısını nasıl alacağınızı gösterir.
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -572,7 +572,7 @@ public List<int[]> getPolygons()
 ```
 
 
-Ağın çokgen tanımını al
+Ağın çokgen tanımını al.
 
 **Returns:**
 java.util.List<int[]> - ağın çokgen tanımı
@@ -592,7 +592,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -617,7 +617,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -627,7 +627,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) örneği al
+Verilen doku eşleme türüyle bir [VertexElementUV](../../com.aspose.threed/vertexelementuv) örneği al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -642,20 +642,20 @@ public List<VertexElement> getVertexElements()
 ```
 
 
-Tüm köşe öğelerini al
+Tüm köşe öğelerini al.
 
 **Returns:**
-java.util.List<com.aspose.threed.VertexElement> - tüm köşe öğeleri
+java.util.List<com.aspose.threed.VertexElement> - tüm vertex öğeleri
 ### getVisible() {#getVisible--}
 ```
 public boolean getVisible()
 ```
 
 
-Geometrinin görünür olup olmadığını al
+Geometrinin görünür olup olmadığını al.
 
 **Returns:**
-boolean - geometrinin görünür olup olmadığı
+boolean - geometrinin görünür olup olmadığını
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -672,7 +672,7 @@ public static Mesh intersect(Mesh a, Mesh b)
 ```
 
 
-İki ağın kesişimini hesapla
+İki ağın kesişimini hesapla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -688,17 +688,17 @@ public boolean isManifold()
 ```
 
 
-Mevcut ağın manifold bir ağ olup olmadığını kontrol edin. Bu işlev, manifold hesaplama sonucunu önbelleğe almayacaktır.
+Mevcut ağın manifold bir ağ olup olmadığını kontrol edin. Bu işlev, manifold hesaplama sonucunu önbelleğe almaz.
 
 **Returns:**
-boolean - ağ bir manifold ağ ise doğru.
+boolean - ağ bir manifold ağ ise true.
 ### iterator() {#iterator--}
 ```
 public Iterator<int[]> iterator()
 ```
 
 
-Her iç çokgen için yineleyiciyi al.
+Her iç çokgen için enumerator'ı al.
 
 **Returns:**
 java.util.Iterator<int[]> - İteratör.
@@ -724,12 +724,12 @@ public Mesh optimize(boolean vertexElements)
 ```
 
 
-Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et
+Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| vertexElements | boolean | Kopyalanmış köşe öğesi verilerini optimize edin |
+| vertexElements | boolean | Çoğaltılmış vertex öğesi verilerini optimize edin |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - New mesh instance with compact memory usage **Example:** The following code shows how to eliminate duplicated control points from an unoptimized mesh:
@@ -746,13 +746,13 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint)
 ```
 
 
-Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et
+Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| vertexElements | boolean | Kopyalanmış köşe öğesi verilerini optimize edin |
-| toleranceControlPoint | float | Kontrol noktası için tolerans, varsayılan değer 1e-9 |
+| vertexElements | boolean | Çoğaltılmış vertex öğesi verilerini optimize edin |
+| toleranceControlPoint | float | Kontrol noktası için tolerans, varsayılan değer 1e-9'dur |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - New mesh instance with compact memory usage
@@ -762,14 +762,14 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint, float 
 ```
 
 
-Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et
+Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| vertexElements | boolean | Kopyalanmış köşe öğesi verilerini optimize edin |
-| toleranceControlPoint | float | Kontrol noktası için tolerans, varsayılan değer 1e-9 |
-| toleranceNormal | float | Normal/tanjant/binormal için tolerans, varsayılan değer 1e-9 |
+| vertexElements | boolean | Çoğaltılmış vertex öğesi verilerini optimize edin |
+| toleranceControlPoint | float | Kontrol noktası için tolerans, varsayılan değer 1e-9'dur |
+| toleranceNormal | float | Normal/tanjant/binormal için tolerans, varsayılan değer 1e-9'dur |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - New mesh instance with compact memory usage
@@ -779,15 +779,15 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint, float 
 ```
 
 
-Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et
+Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| vertexElements | boolean | Kopyalanmış köşe öğesi verilerini optimize edin |
-| toleranceControlPoint | float | Kontrol noktası için tolerans, varsayılan değer 1e-9 |
-| toleranceNormal | float | Normal/tanjant/binormal için tolerans, varsayılan değer 1e-9 |
-| toleranceUV | float | UV için tolerans, varsayılan değer 1e-9 |
+| vertexElements | boolean | Çoğaltılmış vertex öğesi verilerini optimize edin |
+| toleranceControlPoint | float | Kontrol noktası için tolerans, varsayılan değer 1e-9'dur |
+| toleranceNormal | float | Normal/tanjant/binormal için tolerans, varsayılan değer 1e-9'dur |
+| toleranceUV | float | UV için tolerans, varsayılan değer 1e-9'dur |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - New mesh instance with compact memory usage
@@ -797,12 +797,12 @@ public Mesh optimize2(boolean vertexElements)
 ```
 
 
-Yinelenen kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et
+Tekrarlanan kontrol noktalarını ortadan kaldırarak ağın bellek kullanımını optimize et.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| vertexElements | boolean | Kopyalanmış köşe öğesi verilerini optimize edin |
+| vertexElements | boolean | Çoğaltılmış vertex öğesi verilerini optimize edin |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - New mesh instance with compact memory usage
@@ -827,7 +827,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -842,7 +842,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar
+Bu geometrinin gölge oluşturup oluşturamayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -881,7 +881,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -894,7 +894,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -908,7 +908,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge alıp almayacağını ayarlar.
+Bu geometrinin gölge alıp almayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -921,7 +921,7 @@ public void setVisible(boolean value)
 ```
 
 
-Geometrinin görünür olup olmadığını ayarlar
+Geometrinin görünür olup olmadığını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -954,7 +954,7 @@ public Mesh triangulate()
 ```
 
 
-Üçgenleştirilmiş ağı döndür.
+Üçgenleştirilmiş mesh'i döndür
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Current mesh if current mesh is already triangulated, otherwise a new triangulated mesh will be calculated and returned **Example:** The following code shows how to triangulate a mesh:
@@ -971,7 +971,7 @@ public static Mesh union(Mesh a, Mesh b)
 ```
 
 
-İki ağın birleşimini hesapla.
+İki mesh'in birleşimini hesapla
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -1,7 +1,7 @@
 ---
 title: "RotationMode"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Frustumun dönüş modu"
+description: "Frustumun döndürme modu"
 type: docs
 weight: 299
 url: /tr/java/com.aspose.threed/rotationmode/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum RotationMode extends Enum<RotationMode>
 ```
 
-Frustum dönüş modu
+Frustum'un dönüş modu
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
-| [FIXED_DIRECTION](#FIXED-DIRECTION) | Yön sabittir, bakma yönü yön tarafından hesaplanır |
-| [FIXED_TARGET](#FIXED-TARGET) | Hedef sabittir, yön bakma hedefi tarafından hesaplanır |
+| [FIXED_DIRECTION](#FIXED-DIRECTION) | Yön sabittir, bakış yönü yön tarafından hesaplanır |
+| [FIXED_TARGET](#FIXED-TARGET) | Hedef sabittir, yön bakış hedefi tarafından hesaplanır |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -47,7 +47,7 @@ public static final RotationMode FIXED_DIRECTION
 ```
 
 
-Yön sabittir, bakma yönü yön tarafından hesaplanır
+Yön sabittir, bakış yönü yön tarafından hesaplanır
 
 ### FIXED_TARGET {#FIXED-TARGET}
 ```
@@ -55,7 +55,7 @@ public static final RotationMode FIXED_TARGET
 ```
 
 
-Hedef sabittir, yön bakma hedefi tarafından hesaplanır
+Hedef sabittir, yön bakış hedefi tarafından hesaplanır
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

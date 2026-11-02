@@ -1,7 +1,7 @@
 ---
 title: "INamedObject"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bir adı olan nesne"
+description: "Adı olan nesne"
 type: docs
 weight: 245
 url: /tr/java/com.aspose.threed/inamedobject/
@@ -10,7 +10,7 @@ url: /tr/java/com.aspose.threed/inamedobject/
 public interface INamedObject
 ```
 
-Bir adı olan nesne
+Adı olan nesne
 ## Yöntemler
 
 | Yöntem | Açıklama |

@@ -1,7 +1,7 @@
 ---
 title: "ShaderSet"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Her türlü malzeme için shader programları."
+description: "Her türlü malzeme için gölgelendirici programları"
 type: docs
 weight: 166
 url: /tr/java/com.aspose.threed/shaderset/
@@ -16,17 +16,17 @@ java.io.Closeable
 public class ShaderSet implements Closeable
 ```
 
-Her türlü malzeme için shader programları.
+Her türlü malzeme için gölgelendirici programları
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [ShaderSet()](#ShaderSet--) | [ShaderSet](../../com.aspose.threed/shaderset) örneğini oluşturun. |
+| [ShaderSet()](#ShaderSet--) | [ShaderSet](../../com.aspose.threed/shaderset) örneğini oluşturun |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [close()](#close--) | Bu örneği yok edin ve tüm gölgelendirici programlarını serbest bırakın. |
+| [close()](#close--) | Bu örneği serbest bırakın ve tüm gölgelendirici programlarını serbest bırakın. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFallback()](#getFallback--) | Gerekli gölgelendirici mevcut olmadığında yedek gölgelendiriciyi alır. |
@@ -50,7 +50,7 @@ public ShaderSet()
 ```
 
 
-[ShaderSet](../../com.aspose.threed/shaderset) örneğini oluşturun.
+[ShaderSet](../../com.aspose.threed/shaderset) örneğini oluşturun
 
 ### close() {#close--}
 ```
@@ -58,7 +58,7 @@ public void close()
 ```
 
 
-Bu örneği yok edin ve tüm gölgelendirici programlarını serbest bırakın.
+Bu örneği serbest bırakın ve tüm gölgelendirici programlarını serbest bırakın.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

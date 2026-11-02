@@ -1,7 +1,7 @@
 ---
 title: "ShaderSource"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Shader kaynak kodu."
+description: "Gölgelendiricinin kaynak kodu"
 type: docs
 weight: 167
 url: /tr/java/com.aspose.threed/shadersource/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class ShaderSource
 ```
 
-Shader kaynak kodu.
+Gölgelendiricinin kaynak kodu
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

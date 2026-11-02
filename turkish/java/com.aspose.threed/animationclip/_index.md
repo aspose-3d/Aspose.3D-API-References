@@ -32,18 +32,18 @@ Animasyon klibi, animasyonların bir koleksiyonudur. Sahne bir veya daha fazla a
 | [getDescription()](#getDescription--) | Bu animasyon klibinin açıklamasını alır. |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
-| [getStart()](#getStart--) | Klipin başlangıç zamanını saniye cinsinden alır. |
-| [getStop()](#getStop--) | Klipin bitiş zamanını saniye cinsinden alır. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
+| [getStart()](#getStart--) | Klip başlangıcının saniye cinsinden zamanını alır. |
+| [getStop()](#getStop--) | Klip sonunun saniye cinsinden zamanını alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setDescription(String value)](#setDescription-java.lang.String-) | Bu animasyon klibinin açıklamasını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setStart(double value)](#setStart-double-) | Klipin başlangıcının saniye cinsinden zamanını ayarlar. |
 | [setStop(double value)](#setStop-double-) | Klipin sonunun saniye cinsinden zamanını ayarlar. |
 | [toString()](#toString--) |  |
@@ -107,7 +107,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -172,7 +172,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -187,7 +187,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -197,7 +197,7 @@ public double getStart()
 ```
 
 
-Klipin başlangıç zamanını saniye cinsinden alır.
+Klip başlangıcının saniye cinsinden zamanını alır.
 
 **Returns:**
 double - klipin başlangıcının saniye cinsinden zamanı.
@@ -207,7 +207,7 @@ public double getStop()
 ```
 
 
-Klipin bitiş zamanını saniye cinsinden alır.
+Klip sonunun saniye cinsinden zamanını alır.
 
 **Returns:**
 double - klipin sonunun saniye cinsinden zamanı.
@@ -258,7 +258,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -299,7 +299,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

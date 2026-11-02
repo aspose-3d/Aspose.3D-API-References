@@ -1,7 +1,7 @@
 ---
 title: "Dönüşüm"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bir dönüşüm, nesnelerin çeviri/ölçekleme/dönme veya dönüşüm matrisine minimum maliyetle erişim sağlayan bilgileri içerir  Bu, yerel dönüşüm tarafından kullanılır."
+description: "Bir dönüşüm, nesnelerin çeviri/ölçekleme/dönme veya dönüşüm matrisine minimum maliyetle erişim sağlayan bilgileri içerir. Bu, yerel dönüşüm tarafından kullanılır."
 type: docs
 weight: 190
 url: /tr/java/com.aspose.threed/transform/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Transform extends A3DObject
 ```
 
-Bir dönüşüm, nesnenin çeviri/ölçekleme/dönme veya dönüşüm matrisine minimum maliyetle erişim sağlayan bilgileri içerir  Bu, yerel dönüşüm tarafından kullanılır. **Example:** Aşağıdaki kod, düğümün dönüşümünü nasıl değiştireceğinizi gösterir:
+Bir dönüşüm, nesnenin çeviri/ölçekleme/dönme veya dönüşüm matrisine minimum maliyetle erişim sağlayan bilgileri içerir. Bu, yerel dönüşüm tarafından kullanılır. **Example:** Aşağıdaki kod, düğümün dönüşümünü nasıl değiştireceğinizi gösterir:
 
 ```
 Scene scene = new Scene();
@@ -28,46 +28,46 @@ Scene scene = new Scene();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
 | [getClass()](#getClass--) |  |
-| [getEulerAngles()](#getEulerAngles--) | Euler açıları cinsinden derece ölçüsüyle temsil edilen dönüşüm alınır |
+| [getEulerAngles()](#getEulerAngles--) | Euler açılarıyla temsil edilen, derece cinsinden ölçülen rotasyonu alır |
 | [getGeometricRotation()](#getGeometricRotation--) | Geometrik Euler dönüşümünü (derece cinsinden ölçülür) alır. |
 | [getGeometricScaling()](#getGeometricScaling--) | Geometrik ölçeklemeyi alır. |
 | [getGeometricTranslation()](#getGeometricTranslation--) | Geometrik çeviriyi alır. |
 | [getName()](#getName--) | Adı alır. |
-| [getPostRotation()](#getPostRotation--) | Derece cinsinden temsil edilen sonrası dönüşümü alır |
+| [getPostRotation()](#getPostRotation--) | Derece cinsinden temsil edilen son dönüşümü alır |
 | [getPreRotation()](#getPreRotation--) | Derece cinsinden temsil edilen ön dönüşümü alır |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getRotation()](#getRotation--) | Kuaternion cinsinden temsil edilen dönüşüm alınır. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getRotation()](#getRotation--) | Kuaternyonla temsil edilen rotasyonu alır. |
 | [getRotationOffset()](#getRotationOffset--) | Dönüşüm ofsetini alır |
 | [getRotationPivot()](#getRotationPivot--) | Dönüş pivotunu alır |
 | [getScaling()](#getScaling--) | Ölçeklemeyi alır |
 | [getScalingOffset()](#getScalingOffset--) | Ölçekleme ofsetini alır |
 | [getScalingPivot()](#getScalingPivot--) | Ölçekleme pivotunu alır |
-| [getTransformMatrix()](#getTransformMatrix--) | Dönüşüm matrisi alınır. |
-| [getTranslation()](#getTranslation--) | Çeviri alınır |
+| [getTransformMatrix()](#getTransformMatrix--) | Dönüşüm matrisini alır. |
+| [getTranslation()](#getTranslation--) | Öteleme değerini alır |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setEulerAngles(Vector3 value)](#setEulerAngles-com.aspose.threed.Vector3-) | Derece cinsinden ölçülen Euler açılarıyla temsil edilen dönüşümü ayarlar |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setEulerAngles(Vector3 value)](#setEulerAngles-com.aspose.threed.Vector3-) | Euler açılarıyla temsil edilen, derece cinsinden ölçülen dönüşü ayarlar |
 | [setEulerAngles(double rx, double ry, double rz)](#setEulerAngles-double-double-double-) | Mevcut dönüşümün Euler açılarını derece cinsinden ayarlar. |
-| [setGeometricRotation(Vector3 value)](#setGeometricRotation-com.aspose.threed.Vector3-) | Geometrik Euler dönüşümünü (derece cinsinden) ayarlar. |
-| [setGeometricRotation(double rx, double ry, double rz)](#setGeometricRotation-double-double-double-) | Geometrik Euler dönüşümünü (derece cinsinden) ayarlar. |
+| [setGeometricRotation(Vector3 value)](#setGeometricRotation-com.aspose.threed.Vector3-) | Geometrik Euler dönüşünü (derece cinsinden ölçülen) ayarlar. |
+| [setGeometricRotation(double rx, double ry, double rz)](#setGeometricRotation-double-double-double-) | Geometrik Euler dönüşünü (derece cinsinden ölçülen) ayarlar. |
 | [setGeometricScaling(Vector3 value)](#setGeometricScaling-com.aspose.threed.Vector3-) | Geometrik ölçeklemeyi ayarlar. |
 | [setGeometricScaling(double sx, double sy, double sz)](#setGeometricScaling-double-double-double-) | Geometrik ölçeklemeyi ayarlar. |
 | [setGeometricTranslation(Vector3 value)](#setGeometricTranslation-com.aspose.threed.Vector3-) | Geometrik çeviriyi ayarlar. |
 | [setGeometricTranslation(double x, double y, double z)](#setGeometricTranslation-double-double-double-) | Geometrik çeviriyi ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setPostRotation(Vector3 value)](#setPostRotation-com.aspose.threed.Vector3-) | Derece cinsinden temsil edilen sonrası dönüşümü ayarlar |
-| [setPostRotation(double rx, double ry, double rz)](#setPostRotation-double-double-double-) | Derece cinsinden temsil edilen sonrası dönüşümü ayarlar **Example:** |
-| [setPreRotation(Vector3 value)](#setPreRotation-com.aspose.threed.Vector3-) | Derece cinsinden temsil edilen ön dönüşümü ayarlar |
-| [setPreRotation(double rx, double ry, double rz)](#setPreRotation-double-double-double-) | Derece cinsinden temsil edilen ön dönüşümü ayarlar **Example:** |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setRotation(Quaternion value)](#setRotation-com.aspose.threed.Quaternion-) | Kuaternion ile temsil edilen dönüşümü ayarlar. |
-| [setRotation(double rw, double rx, double ry, double rz)](#setRotation-double-double-double-double-) | Mevcut dönüşümün dönüşümünü (kuaternion bileşenleri olarak) ayarlar. |
-| [setRotationOffset(Vector3 value)](#setRotationOffset-com.aspose.threed.Vector3-) | Dönüşüm ofsetini ayarlar |
-| [setRotationPivot(Vector3 value)](#setRotationPivot-com.aspose.threed.Vector3-) | Dönüşüm pivotunu ayarlar |
+| [setPostRotation(Vector3 value)](#setPostRotation-com.aspose.threed.Vector3-) | Derece cinsinden temsil edilen sonrası dönüşü ayarlar |
+| [setPostRotation(double rx, double ry, double rz)](#setPostRotation-double-double-double-) | Derece cinsinden temsil edilen sonrası dönüşü ayarlar **Example:** |
+| [setPreRotation(Vector3 value)](#setPreRotation-com.aspose.threed.Vector3-) | Derece cinsinden temsil edilen ön dönüşü ayarlar |
+| [setPreRotation(double rx, double ry, double rz)](#setPreRotation-double-double-double-) | Derece cinsinden temsil edilen ön dönüşü ayarlar **Example:** |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setRotation(Quaternion value)](#setRotation-com.aspose.threed.Quaternion-) | Quaternion içinde temsil edilen dönüşü ayarlar. |
+| [setRotation(double rw, double rx, double ry, double rz)](#setRotation-double-double-double-double-) | Mevcut dönüşümün dönüşünü (quaternion bileşenleri olarak) ayarlar. |
+| [setRotationOffset(Vector3 value)](#setRotationOffset-com.aspose.threed.Vector3-) | Dönüş ofsetini ayarlar |
+| [setRotationPivot(Vector3 value)](#setRotationPivot-com.aspose.threed.Vector3-) | Dönüş pivotunu ayarlar |
 | [setScale(double sx, double sy, double sz)](#setScale-double-double-double-) | Mevcut dönüşümün ölçeğini ayarlar. |
 | [setScaling(Vector3 value)](#setScaling-com.aspose.threed.Vector3-) | Ölçeklemeyi ayarlar |
 | [setScalingOffset(Vector3 value)](#setScalingOffset-com.aspose.threed.Vector3-) | Ölçekleme ofsetini ayarlar |
@@ -100,7 +100,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -125,7 +125,7 @@ public Vector3 getEulerAngles()
 ```
 
 
-Euler açıları cinsinden derece ölçüsüyle temsil edilen dönüşüm alınır
+Euler açılarıyla temsil edilen, derece cinsinden ölçülen rotasyonu alır
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation represented in Euler angles, measured in degree **Example:**
@@ -140,7 +140,7 @@ public Vector3 getGeometricRotation()
 ```
 
 
-Geometrik Euler dönüşümünü (derece cinsinden) alır. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktardığınızda, yerel dönüşüm olarak birleştirilecektir.
+Geometrik Euler dönüşünü (derece cinsinden ölçülen) alır. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktardığınızda, yerel dönüşüm olarak birleştirilecektir.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric Euler rotation(measured in degree). Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it.
@@ -150,7 +150,7 @@ public Vector3 getGeometricScaling()
 ```
 
 
-Geometrik ölçeklemeyi alır. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir.
+Geometrik ölçeklemeyi alır. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric scaling. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -165,7 +165,7 @@ public Vector3 getGeometricTranslation()
 ```
 
 
-Geometrik çeviriyi alır. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir.
+Geometrik çeviriyi alır. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric translation. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -190,7 +190,7 @@ public Vector3 getPostRotation()
 ```
 
 
-Derece cinsinden temsil edilen sonrası dönüşümü alır
+Derece cinsinden temsil edilen son dönüşümü alır
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the post-rotation represented in degree **Example:**
@@ -230,7 +230,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -245,7 +245,7 @@ public Quaternion getRotation()
 ```
 
 
-Kuaternion cinsinden temsil edilen dönüşüm alınır.
+Kuaternyonla temsil edilen rotasyonu alır.
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - the rotation represented in quaternion. **Example:**
@@ -315,7 +315,7 @@ public Matrix4 getTransformMatrix()
 ```
 
 
-Dönüşüm matrisi alınır.
+Dönüşüm matrisini alır.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix. **Remarks:** Assign on this will reset the [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) and [getRotation](../../com.aspose.threed/transform\#getRotation), the [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) and [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) will not be affected. **Example:**
@@ -330,7 +330,7 @@ public Vector3 getTranslation()
 ```
 
 
-Çeviri alınır
+Öteleme değerini alır
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the translation **Example:**
@@ -386,7 +386,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -401,7 +401,7 @@ public void setEulerAngles(Vector3 value)
 ```
 
 
-Derece cinsinden ölçülen Euler açılarıyla temsil edilen dönüşümü ayarlar
+Euler açılarıyla temsil edilen, derece cinsinden ölçülen dönüşü ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -441,7 +441,7 @@ public void setGeometricRotation(Vector3 value)
 ```
 
 
-Geometrik Euler dönüşümünü (derece cinsinden ölçülür) ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir.
+Geometrik Euler dönüşümünü (derece cinsinden ölçülür) ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -454,7 +454,7 @@ public Transform setGeometricRotation(double rx, double ry, double rz)
 ```
 
 
-Geometrik Euler dönüşümünü (derece cinsinden ölçülür) ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. **Örnek:**
+Geometrik Euler dönüşümünü (derece cinsinden ölçülür) ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. **Örnek:**
 
 ```
 Node node = new Node();
@@ -476,7 +476,7 @@ public void setGeometricScaling(Vector3 value)
 ```
 
 
-Geometrik ölçeklemeyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir.
+Geometrik ölçeklemeyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -494,7 +494,7 @@ public Transform setGeometricScaling(double sx, double sy, double sz)
 ```
 
 
-Geometrik ölçeklemeyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. **Örnek:**
+Geometrik ölçeklemeyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. **Örnek:**
 
 ```
 Node node = new Node();
@@ -516,7 +516,7 @@ public void setGeometricTranslation(Vector3 value)
 ```
 
 
-Geometrik çeviriyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir.
+Geometrik çeviriyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -534,7 +534,7 @@ public Transform setGeometricTranslation(double x, double y, double z)
 ```
 
 
-Geometrik çeviriyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. **Örnek:**
+Geometrik çeviriyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. **Örnek:**
 
 ```
 Node node = new Node();
@@ -569,7 +569,7 @@ public void setPostRotation(Vector3 value)
 ```
 
 
-Derece cinsinden temsil edilen sonrası dönüşümü ayarlar
+Derece cinsinden temsil edilen sonrası dönüşü ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -587,7 +587,7 @@ public Transform setPostRotation(double rx, double ry, double rz)
 ```
 
 
-Derece cinsinden temsil edilen sonrası dönüşümü ayarlar **Example:**
+Derece cinsinden temsil edilen sonrası dönüşü ayarlar **Example:**
 
 ```
 Node node = new Node();
@@ -609,7 +609,7 @@ public void setPreRotation(Vector3 value)
 ```
 
 
-Derece cinsinden temsil edilen ön dönüşümü ayarlar
+Derece cinsinden temsil edilen ön dönüşü ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -627,7 +627,7 @@ public Transform setPreRotation(double rx, double ry, double rz)
 ```
 
 
-Derece cinsinden temsil edilen ön dönüşümü ayarlar **Example:**
+Derece cinsinden temsil edilen ön dönüşü ayarlar **Example:**
 
 ```
 Node node = new Node();
@@ -649,7 +649,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -663,7 +663,7 @@ public void setRotation(Quaternion value)
 ```
 
 
-Kuaternion ile temsil edilen dönüşümü ayarlar.
+Quaternion içinde temsil edilen dönüşü ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -704,7 +704,7 @@ public void setRotationOffset(Vector3 value)
 ```
 
 
-Dönüşüm ofsetini ayarlar
+Dönüş ofsetini ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -717,7 +717,7 @@ public void setRotationPivot(Vector3 value)
 ```
 
 
-Dönüşüm pivotunu ayarlar
+Dönüş pivotunu ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -801,7 +801,7 @@ Dönüşüm matrisini ayarlar.
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [Matrix4](../../com.aspose.threed/matrix4) | Yeni değer **Açıklamalar:** Bu atama, [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) ve [getRotation](../../com.aspose.threed/transform\#getRotation) işlevlerini sıfırlar, [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) ve [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) etkilenmez. **Örnek:** |
+|  | value | [Matrix4](../../com.aspose.threed/matrix4) | Yeni değer **Açıklamalar:** Bu değere atama, [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) ve [getRotation](../../com.aspose.threed/transform\#getRotation) sıfırlanmasına neden olur, [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) ve [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) etkilenmez. **Örnek:** |
 
 ```
 Node node = new Node();

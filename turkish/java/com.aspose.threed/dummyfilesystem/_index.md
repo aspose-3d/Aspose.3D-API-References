@@ -39,18 +39,18 @@ Okuma/yazma işlemleri sahte işlemlerdir. **Example:** Aşağıdaki kod, dosyan
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [close()](#close--) | Dosya sistemini kapatın ve kaynaklarını serbest bırakın. |
+| [close()](#close--) | Dosya sistemini temizleyin ve kaynaklarını serbest bırakın. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları okumak için bir akış oluşturun. |
+| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları okumak için bir akış oluştur. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları yazmak için bir akış oluşturun. |
+| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | Bağımlılıkları yazmak için bir akış oluştur. |
 ### DummyFileSystem() {#DummyFileSystem--}
 ```
 public DummyFileSystem()
@@ -63,7 +63,7 @@ public void close()
 ```
 
 
-Dosya sistemini kapatın ve kaynaklarını serbest bırakın.
+Dosya sistemini temizleyin ve kaynaklarını serbest bırakın.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -122,7 +122,7 @@ public Stream readFile(String fileName, IOConfig options)
 ```
 
 
-Bağımlılıkları okumak için bir akış oluşturun.
+Bağımlılıkları okumak için bir akış oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -183,7 +183,7 @@ public Stream writeFile(String fileName, IOConfig options)
 ```
 
 
-Bağımlılıkları yazmak için bir akış oluşturun.
+Bağımlılıkları yazmak için bir akış oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

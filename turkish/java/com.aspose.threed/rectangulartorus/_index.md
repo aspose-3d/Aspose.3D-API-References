@@ -26,42 +26,42 @@ Parametreli dikdörtgen torus.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getAngleStart()](#getAngleStart--) | Yayının başlangıç açısı, radyan cinsinden ölçülür. |
-| [getArc()](#getArc--) | Yayının toplam açısı, radyan cinsinden ölçülür. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
-| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır |
+| [getAngleStart()](#getAngleStart--) | Kemerin başlangıç açısı, radyan cinsinden ölçülür. |
+| [getArc()](#getArc--) | Kemerin toplam açısı, radyan cinsinden ölçülür. |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getCastShadows()](#getCastShadows--) | Bu geometrinin gölge oluşturup oluşturamayacağını alır. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getHeight()](#getHeight--) | Dikdörtgen torusun yüksekliği. |
 | [getInnerRadius()](#getInnerRadius--) | Dikdörtgen torusun iç yarıçapı, varsayılan değer 17'dir. |
 | [getName()](#getName--) | Adı alır. |
 | [getOuterRadius()](#getOuterRadius--) | Dikdörtgen torusun dış yarıçapı, varsayılan değer 20'dir. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getRadialSegments()](#getRadialSegments--) | Radyal segmentler, varsayılan değer 10'dur. |
 | [getReceiveShadows()](#getReceiveShadows--) | Bu geometrinin gölge alıp almayacağını al. |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setAngleStart(double value)](#setAngleStart-double-) | Yayının başlangıç açısı, radyan cinsinden ölçülür. |
-| [setArc(double value)](#setArc-double-) | Yayının toplam açısı, radyan cinsinden ölçülür. |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setAngleStart(double value)](#setAngleStart-double-) | Kemerin başlangıç açısı, radyan cinsinden ölçülür. |
+| [setArc(double value)](#setArc-double-) | Kemerin toplam açısı, radyan cinsinden ölçülür. |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Bu geometrinin gölge oluşturup oluşturamayacağını ayarla. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setHeight(double value)](#setHeight-double-) | Dikdörtgen torusun yüksekliği. |
 | [setInnerRadius(double value)](#setInnerRadius-double-) | Dikdörtgen torusun iç yarıçapı, varsayılan değer 17'dir. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
 | [setOuterRadius(double value)](#setOuterRadius-double-) | Dikdörtgen torusun dış yarıçapı, varsayılan değer 20'dir. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setRadialSegments(int value)](#setRadialSegments-int-) | Radyal segmentler, varsayılan değer 10'dur. |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarlar. |
-| [toMesh()](#toMesh--) | Bu ilkel nesneyi [Mesh](../../com.aspose.threed/mesh) formatına dönüştür. |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Bu geometrinin gölge alıp almayacağını ayarla. |
+| [toMesh()](#toMesh--) | Bu ilkel nesneyi [Mesh](../../com.aspose.threed/mesh) tipine dönüştür. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -123,7 +123,7 @@ public double getAngleStart()
 ```
 
 
-Yayının başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır.
+Kemerin başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır.
 
 **Returns:**
 double - Yayın başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır.
@@ -143,7 +143,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -160,7 +160,7 @@ public boolean getCastShadows()
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını alır
+Bu geometrinin gölge oluşturup oluşturamayacağını alır.
 
 **Returns:**
 boolean - bu geometrinin gölge oluşturup oluşturamayacağı
@@ -180,7 +180,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -190,7 +190,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -213,7 +213,7 @@ public double getInnerRadius()
 Dikdörtgen torusun iç yarıçapı, varsayılan değer 17'dir.
 
 **Returns:**
-double - Dikdörtgen torusun iç yarıçapı Varsayılan değer 17'dir.
+double - Dikdörtgen torusun iç yarıçapı. Varsayılan değer 17'dir.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -233,14 +233,14 @@ public double getOuterRadius()
 Dikdörtgen torusun dış yarıçapı, varsayılan değer 20'dir.
 
 **Returns:**
-double - Dikdörtgen torusun dış yarıçapı Varsayılan değer 20'dir.
+double - Dikdörtgen torusun dış yarıçapı. Varsayılan değer 20'dir.
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -250,7 +250,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -270,7 +270,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -305,7 +305,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -356,7 +356,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -371,7 +371,7 @@ public void setAngleStart(double value)
 ```
 
 
-Yayının başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır.
+Kemerin başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -397,7 +397,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge oluşturup oluşturamayacağını ayarlar
+Bu geometrinin gölge oluşturup oluşturamayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -475,7 +475,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -488,7 +488,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -515,7 +515,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-Bu geometrinin gölge alıp almayacağını ayarlar.
+Bu geometrinin gölge alıp almayacağını ayarla.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -528,7 +528,7 @@ public Mesh toMesh()
 ```
 
 
-Bu ilkel nesneyi [Mesh](../../com.aspose.threed/mesh) formatına dönüştür.
+Bu ilkel nesneyi [Mesh](../../com.aspose.threed/mesh) tipine dönüştür.
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh)

@@ -1,7 +1,7 @@
 ---
 title: "ShaderStage"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Shader aşaması."
+description: "Gölgelendirici aşaması"
 type: docs
 weight: 168
 url: /tr/java/com.aspose.threed/shaderstage/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class ShaderStage
 ```
 
-Shader aşaması.
+Gölgelendirici aşaması
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -23,10 +23,10 @@ Shader aşaması.
 
 | Alan | Açıklama |
 | --- | --- |
-| [COMPUTE_SHADER](#COMPUTE-SHADER) | Compute shader |
-| [FRAGMENT_SHADER](#FRAGMENT-SHADER) | Fragment shader |
-| [GEOMETRY_SHADER](#GEOMETRY-SHADER) | Geometri gölgelendiricisi |
-| [VERTEX_SHADER](#VERTEX-SHADER) | Vertex gölgelendiricisi |
+| [COMPUTE_SHADER](#COMPUTE-SHADER) | Compute gölgelendirici |
+| [FRAGMENT_SHADER](#FRAGMENT-SHADER) | Fragment gölgelendirici |
+| [GEOMETRY_SHADER](#GEOMETRY-SHADER) | Geometri gölgelendirici |
+| [VERTEX_SHADER](#VERTEX-SHADER) | Vertex gölgelendirici |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -52,7 +52,7 @@ public static final int COMPUTE_SHADER
 ```
 
 
-Compute shader
+Compute gölgelendirici
 
 ### FRAGMENT_SHADER {#FRAGMENT-SHADER}
 ```
@@ -60,7 +60,7 @@ public static final int FRAGMENT_SHADER
 ```
 
 
-Fragment shader
+Fragment gölgelendirici
 
 ### GEOMETRY_SHADER {#GEOMETRY-SHADER}
 ```
@@ -68,7 +68,7 @@ public static final int GEOMETRY_SHADER
 ```
 
 
-Geometri gölgelendiricisi
+Geometri gölgelendirici
 
 ### VERTEX_SHADER {#VERTEX-SHADER}
 ```
@@ -76,7 +76,7 @@ public static final int VERTEX_SHADER
 ```
 
 
-Vertex gölgelendiricisi
+Vertex gölgelendirici
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

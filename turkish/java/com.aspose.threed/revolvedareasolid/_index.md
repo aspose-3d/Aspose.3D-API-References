@@ -1,7 +1,7 @@
 ---
 title: "RevolvedAreaSolid"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bu sınıf, bir profil tarafından sağlanan kesit bir eksen etrafında döndürülerek katı bir modeli temsil eder."
+description: "Bu sınıf, bir profil tarafından sağlanan kesit bölümü bir eksen etrafında döndürerek katı bir modeli temsil eder."
 type: docs
 weight: 155
 url: /tr/java/com.aspose.threed/revolvedareasolid/
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class RevolvedAreaSolid extends Entity implements IMeshConvertible
 ```
 
-Bu sınıf, bir profil tarafından sağlanan kesit bölümü bir eksen etrafında döndürerek katı bir model temsil eder. **Örnek:** Aşağıdaki kod, RevolvedAreaSolid'ı kullanarak bir şekli katı modele nasıl döndüreceğinizi gösterir.
+Bu sınıf, bir eksen etrafında profil tarafından sağlanan bir kesit döndürülerek katı bir model temsil eder. **Example:** Aşağıdaki kod, RevolvedAreaSolid'i bir şekli katı bir modele döndürmek için nasıl kullanılacağını gösterir.
 
 ```
 //Create a new 3D scene
@@ -46,36 +46,36 @@ Bu sınıf, bir profil tarafından sağlanan kesit bölümü bir eksen etrafınd
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getAngleEnd()](#getAngleEnd--) | Döndürme prosedürünün bitiş açısını, radyan cinsinden alır, varsayılan değer pi'dir. |
-| [getAngleStart()](#getAngleStart--) | Devir prosedürünün başlangıç açısını alır, radyan cinsinden ölçülür, varsayılan değer 0'dır. |
+| [getAngleEnd()](#getAngleEnd--) | Döndürme prosedürünün bitiş açısını alır, radyan cinsinden ölçülür, varsayılan değer pi'dir. |
+| [getAngleStart()](#getAngleStart--) | Dönme prosedürünün başlangıç açısını alır, radyan cinsinden ölçülür, varsayılan değer 0'dır. |
 | [getAxis()](#getAxis--) | Eksen yönünü alır, varsayılan değer (0, 1, 0)'dır. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getName()](#getName--) | Adı alır. |
-| [getOrigin()](#getOrigin--) | Devirin orijinal noktasını alır, varsayılan değer (0, 0, 0)'dır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getOrigin()](#getOrigin--) | Dönmenin orijinal noktasını alır, varsayılan değer (0, 0, 0)'dır. |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
-| [getShape()](#getShape--) | Devir için kullanılan temel profili alır. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
+| [getShape()](#getShape--) | Dönmek için kullanılan temel profili alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setAngleEnd(double value)](#setAngleEnd-double-) | Devir prosedürünün bitiş açısını ayarlar, radyan cinsinden ölçülür, varsayılan değer pi'dir. |
-| [setAngleStart(double value)](#setAngleStart-double-) | Devir prosedürünün başlangıç açısını ayarlar, radyan cinsinden ölçülür, varsayılan değer 0'dır. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setAngleEnd(double value)](#setAngleEnd-double-) | Dönme prosedürünün bitiş açısını ayarlar, radyan cinsinden ölçülür, varsayılan değer pi'dir. |
+| [setAngleStart(double value)](#setAngleStart-double-) | Dönme prosedürünün başlangıç açısını ayarlar, radyan cinsinden ölçülür, varsayılan değer 0'dır. |
 | [setAxis(Vector3 value)](#setAxis-com.aspose.threed.Vector3-) | Eksen yönünü ayarlar, varsayılan değer (0, 1, 0)'dır. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setOrigin(Vector3 value)](#setOrigin-com.aspose.threed.Vector3-) | Devirin orijinal noktasını ayarlar, varsayılan değer (0, 0, 0)'dır. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | Devir için kullanılan temel profili ayarlar. |
-| [toMesh()](#toMesh--) | [RevolvedAreaSolid](../../com.aspose.threed/revolvedareasolid) nesnesini bir mesh'e dönüştür. |
+| [setOrigin(Vector3 value)](#setOrigin-com.aspose.threed.Vector3-) | Dönmenin orijinal noktasını ayarlar, varsayılan değer (0, 0, 0)'dır. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | Dönmek için kullanılan temel profili ayarlar. |
+| [toMesh()](#toMesh--) | [RevolvedAreaSolid](../../com.aspose.threed/revolvedareasolid) nesnesini bir ağ haline dönüştür. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -107,7 +107,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -122,20 +122,20 @@ public double getAngleEnd()
 ```
 
 
-Döndürme prosedürünün bitiş açısını, radyan cinsinden alır, varsayılan değer pi'dir.
+Döndürme prosedürünün bitiş açısını alır, radyan cinsinden ölçülür, varsayılan değer pi'dir.
 
 **Returns:**
-double - devir prosedürünün bitiş açısı, radyan cinsinden ölçülür, varsayılan değer pi.
+double - dönme prosedürünün bitiş açısı, radyan cinsinden ölçülür, varsayılan değer pi.
 ### getAngleStart() {#getAngleStart--}
 ```
 public double getAngleStart()
 ```
 
 
-Devir prosedürünün başlangıç açısını alır, radyan cinsinden ölçülür, varsayılan değer 0'dır.
+Dönme prosedürünün başlangıç açısını alır, radyan cinsinden ölçülür, varsayılan değer 0'dır.
 
 **Returns:**
-double - devir prosedürünün başlangıç açısı, radyan cinsinden ölçülür, varsayılan değer 0.
+double - dönme prosedürünün başlangıç açısı, radyan cinsinden ölçülür, varsayılan değer 0.
 ### getAxis() {#getAxis--}
 ```
 public Vector3 getAxis()
@@ -152,7 +152,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -179,7 +179,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -189,7 +189,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -209,7 +209,7 @@ public Vector3 getOrigin()
 ```
 
 
-Devirin orijinal noktasını alır, varsayılan değer (0, 0, 0)'dır.
+Dönmenin orijinal noktasını alır, varsayılan değer (0, 0, 0)'dır.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the origin point of the revolving, default value is (0, 0, 0).
@@ -219,7 +219,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -229,7 +229,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -249,7 +249,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -264,7 +264,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -274,7 +274,7 @@ public Profile getShape()
 ```
 
 
-Devir için kullanılan temel profili alır.
+Dönmek için kullanılan temel profili alır.
 
 **Returns:**
 [Profile](../../com.aspose.threed/profile) - the base profile used to revolve.
@@ -325,7 +325,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -340,7 +340,7 @@ public void setAngleEnd(double value)
 ```
 
 
-Devir prosedürünün bitiş açısını ayarlar, radyan cinsinden ölçülür, varsayılan değer pi'dir.
+Dönme prosedürünün bitiş açısını ayarlar, radyan cinsinden ölçülür, varsayılan değer pi'dir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -353,7 +353,7 @@ public void setAngleStart(double value)
 ```
 
 
-Devir prosedürünün başlangıç açısını ayarlar, radyan cinsinden ölçülür, varsayılan değer 0'dır.
+Dönme prosedürünün başlangıç açısını ayarlar, radyan cinsinden ölçülür, varsayılan değer 0'dır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -405,7 +405,7 @@ public void setOrigin(Vector3 value)
 ```
 
 
-Devirin orijinal noktasını ayarlar, varsayılan değer (0, 0, 0)'dır.
+Dönmenin orijinal noktasını ayarlar, varsayılan değer (0, 0, 0)'dır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -418,7 +418,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -431,7 +431,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -445,7 +445,7 @@ public void setShape(Profile value)
 ```
 
 
-Devir için kullanılan temel profili ayarlar.
+Dönmek için kullanılan temel profili ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -458,7 +458,7 @@ public Mesh toMesh()
 ```
 
 
-[RevolvedAreaSolid](../../com.aspose.threed/revolvedareasolid) nesnesini bir mesh'e dönüştür.
+[RevolvedAreaSolid](../../com.aspose.threed/revolvedareasolid) nesnesini bir ağ haline dönüştür.
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh)

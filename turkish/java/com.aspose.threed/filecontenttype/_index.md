@@ -1,7 +1,7 @@
 ---
 title: "FileContentType"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Dosya içerik tipi"
+description: "Dosya içeriği tipi"
 type: docs
 weight: 279
 url: /tr/java/com.aspose.threed/filecontenttype/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum FileContentType extends Enum<FileContentType>
 ```
 
-Dosya içerik tipi
+Dosya içeriği tipi
 ## Alanlar
 
 | Alan | Açıklama |

@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementUserData extends VertexElement
 ```
 
-Belirtilen bileşenler için özel kullanıcı verisi tanımlar. Genellikle özel amaçlı, uygulamaya özgü veridir.
+Belirtilen bileşenler için özel kullanıcı verilerini tanımlar. Genellikle özel amaçlı, uygulamaya özgü veridir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -24,7 +24,7 @@ Belirtilen bileşenler için özel kullanıcı verisi tanımlar. Genellikle öze
 | Yöntem | Açıklama |
 | --- | --- |
 | [clear()](#clear--) | Bu vertex elemanındaki tüm verileri temizler. |
-| [clone(boolean withData)](#clone-boolean-) | Vertex öğesinin derin kopyasını oluştur. |
+| [clone(boolean withData)](#clone-boolean-) | Vertex öğesini derin kopyalar. |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -68,12 +68,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Vertex öğesinin derin kopyasını oluştur.
+Vertex öğesini derin kopyalar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle kopyala. |
+| withData | boolean | Vertex'i doğrudan ve indeks dizisiyle klonlar. |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)

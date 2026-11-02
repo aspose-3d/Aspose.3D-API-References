@@ -13,13 +13,13 @@ java.lang.Object
 public final class Int2D
 ```
 
-lexchou tarafından 5/17/2017 tarihinde oluşturuldu. 2 boyutlu int dizi sarmalayıcısı
+lexchou tarafından 17/05/2017'de oluşturuldu. 2 boyutlu int dizi sarmalayıcısı
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Int2D(int rows, int columns)](#Int2D-int-int-) | Varsayılan veri tahsisiyle bir 2D int dizisi oluştur. |
-| [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | Verilen veriyle bir 2D int dizisi oluştur. |
+| [Int2D(int rows, int columns)](#Int2D-int-int-) | Varsayılan veri tahsisiyle 2D int dizi oluştur. |
+| [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | Verilen veriyle 2D int dizi oluştur. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -31,7 +31,7 @@ lexchou tarafından 5/17/2017 tarihinde oluşturuldu. 2 boyutlu int dizi sarmala
 | [getLength(int rank)](#getLength-int-) |  |
 | [getRows()](#getRows--) |  |
 | [hashCode()](#hashCode--) |  |
-| [length()](#length--) | Bu 2D dizinin toplam uzunluğunu alır |
+| [length()](#length--) | Bu 2d dizinin toplam uzunluğunu alır |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [set(int r, int c, int v)](#set-int-int-int-) | Belirtilen konumdaki öğeyi ayarlar |
@@ -45,7 +45,7 @@ public Int2D(int rows, int columns)
 ```
 
 
-Varsayılan veri tahsisiyle bir 2D int dizisi oluştur.
+Varsayılan veri tahsisiyle 2D int dizi oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -59,7 +59,7 @@ public Int2D(int rows, int columns, int[] data)
 ```
 
 
-Verilen veriyle bir 2D int dizisi oluştur.
+Verilen veriyle 2D int dizi oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -130,7 +130,7 @@ public int getLength(int rank)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| derece | int |  |
+| sıra | int |  |
 
 **Returns:**
 int
@@ -160,10 +160,10 @@ public int length()
 ```
 
 
-Bu 2D dizinin toplam uzunluğunu alır
+Bu 2d dizinin toplam uzunluğunu alır
 
 **Returns:**
-int - bu 2D dizideki toplam float sayısı.
+int - bu 2d dizideki toplam float sayısı.
 ### notify() {#notify--}
 ```
 public final native void notify()

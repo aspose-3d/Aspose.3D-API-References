@@ -1,7 +1,7 @@
 ---
 title: "VertexElementType"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Vertex öğesinin tipi, modellemede nasıl kullanılacağını tanımlar."
+description: "Vertex elemanının türü, modellemede nasıl kullanılacağını tanımlar."
 type: docs
 weight: 308
 url: /tr/java/com.aspose.threed/vertexelementtype/
@@ -13,26 +13,26 @@ java.lang.Object, java.lang.Enum
 public enum VertexElementType extends Enum<VertexElementType>
 ```
 
-Vertex elemanının türü, modellemede nasıl kullanılacağını tanımlar.
+Vertex elemanının tipi, modellemede nasıl kullanılacağını tanımlar.
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
-| [BINORMAL](#BINORMAL) | Binormal vektör, bakınız [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal) |
+| [BINORMAL](#BINORMAL) | Binormal vektör, bkz. [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal) |
 | [EDGE_CREASE](#EDGE-CREASE) | Kenar kırışı, [VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease) |
-| [HOLE](#HOLE) | Delikler, bakınız [VertexElementHole](../../com.aspose.threed/vertexelementhole) |
-| [MATERIAL](#MATERIAL) | Malzeme indeksi, bakınız [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) |
-| [NORMAL](#NORMAL) | Normal vektör, bakınız [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) |
-| [POLYGON_GROUP](#POLYGON-GROUP) | Poligon grup indeksi, bakınız [VertexElementPolygonGroup](../../com.aspose.threed/vertexelementpolygongroup) |
-| [SMOOTHING_GROUP](#SMOOTHING-GROUP) | Yumuşatma grubu, bakınız [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) |
-| [SPECULAR](#SPECULAR) | Yansıtıcı renkler, bakınız [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular) |
-| [TANGENT](#TANGENT) | Teğet vektör, bakınız [VertexElementTangent](../../com.aspose.threed/vertexelementtangent) |
-| [USER_DATA](#USER-DATA) | Kullanıcı verisi, genellikle uygulamaya özgü amaçlar için, bakınız [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
-| [UV](#UV) | Doku UV koordinatı, bakınız [VertexElementUV](../../com.aspose.threed/vertexelementuv) |
-| [VERTEX_COLOR](#VERTEX-COLOR) | Vertex rengi, bakınız [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) |
-| [VERTEX_CREASE](#VERTEX-CREASE) | Vertex kırışı, bakınız [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) |
-| [VISIBILITY](#VISIBILITY) | Bileşenler için görünürlük, bakınız [VertexElementVisibility](../../com.aspose.threed/vertexelementvisibility) |
-| [WEIGHT](#WEIGHT) | Karışım ağırlıkları, bakınız [VertexElementWeight](../../com.aspose.threed/vertexelementweight) |
+| [HOLE](#HOLE) | Delikler, bkz. [VertexElementHole](../../com.aspose.threed/vertexelementhole) |
+| [MATERIAL](#MATERIAL) | Malzeme indeksi, bkz. [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) |
+| [NORMAL](#NORMAL) | Normal vektör, bkz. [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) |
+| [POLYGON_GROUP](#POLYGON-GROUP) | Poligon grup indeksi, bkz. [VertexElementPolygonGroup](../../com.aspose.threed/vertexelementpolygongroup) |
+| [SMOOTHING_GROUP](#SMOOTHING-GROUP) | Yumuşatma grubu, bkz. [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) |
+| [SPECULAR](#SPECULAR) | Yansıtıcı renkler, bkz. [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular) |
+| [TANGENT](#TANGENT) | Teğet vektör, bkz. [VertexElementTangent](../../com.aspose.threed/vertexelementtangent) |
+| [USER_DATA](#USER-DATA) | Kullanıcı verileri, genellikle uygulama-özel amaçlar için, bkz. [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
+| [UV](#UV) | Doku UV koordinatı, bkz. [VertexElementUV](../../com.aspose.threed/vertexelementuv) |
+| [VERTEX_COLOR](#VERTEX-COLOR) | Vertex rengi, bkz. [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) |
+| [VERTEX_CREASE](#VERTEX-CREASE) | Vertex kırışı, bkz. [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) |
+| [VISIBILITY](#VISIBILITY) | Bileşenler için görünürlük, bkz. [VertexElementVisibility](../../com.aspose.threed/vertexelementvisibility) |
+| [WEIGHT](#WEIGHT) | Karıştırma ağırlıkları, bkz. [VertexElementWeight](../../com.aspose.threed/vertexelementweight) |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -60,7 +60,7 @@ public static final VertexElementType BINORMAL
 ```
 
 
-Binormal vektör, bakınız [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal)
+Binormal vektör, bkz. [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal)
 
 ### EDGE_CREASE {#EDGE-CREASE}
 ```
@@ -76,7 +76,7 @@ public static final VertexElementType HOLE
 ```
 
 
-Delikler, bakınız [VertexElementHole](../../com.aspose.threed/vertexelementhole)
+Delikler, bkz. [VertexElementHole](../../com.aspose.threed/vertexelementhole)
 
 ### MATERIAL {#MATERIAL}
 ```
@@ -84,7 +84,7 @@ public static final VertexElementType MATERIAL
 ```
 
 
-Malzeme indeksi, bakınız [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial)
+Malzeme indeksi, bkz. [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial)
 
 ### NORMAL {#NORMAL}
 ```
@@ -92,7 +92,7 @@ public static final VertexElementType NORMAL
 ```
 
 
-Normal vektör, bakınız [VertexElementNormal](../../com.aspose.threed/vertexelementnormal)
+Normal vektör, bkz. [VertexElementNormal](../../com.aspose.threed/vertexelementnormal)
 
 ### POLYGON_GROUP {#POLYGON-GROUP}
 ```
@@ -100,7 +100,7 @@ public static final VertexElementType POLYGON_GROUP
 ```
 
 
-Poligon grup indeksi, bakınız [VertexElementPolygonGroup](../../com.aspose.threed/vertexelementpolygongroup)
+Poligon grup indeksi, bkz. [VertexElementPolygonGroup](../../com.aspose.threed/vertexelementpolygongroup)
 
 ### SMOOTHING_GROUP {#SMOOTHING-GROUP}
 ```
@@ -108,7 +108,7 @@ public static final VertexElementType SMOOTHING_GROUP
 ```
 
 
-Yumuşatma grubu, bakınız [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup)
+Yumuşatma grubu, bkz. [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup)
 
 ### SPECULAR {#SPECULAR}
 ```
@@ -116,7 +116,7 @@ public static final VertexElementType SPECULAR
 ```
 
 
-Yansıtıcı renkler, bakınız [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular)
+Yansıtıcı renkler, bkz. [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular)
 
 ### TANGENT {#TANGENT}
 ```
@@ -124,7 +124,7 @@ public static final VertexElementType TANGENT
 ```
 
 
-Teğet vektör, bakınız [VertexElementTangent](../../com.aspose.threed/vertexelementtangent)
+Teğet vektör, bkz. [VertexElementTangent](../../com.aspose.threed/vertexelementtangent)
 
 ### USER_DATA {#USER-DATA}
 ```
@@ -132,7 +132,7 @@ public static final VertexElementType USER_DATA
 ```
 
 
-Kullanıcı verisi, genellikle uygulamaya özgü amaçlar için, bakınız [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata)
+Kullanıcı verileri, genellikle uygulama-özel amaçlar için, bkz. [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata)
 
 ### UV {#UV}
 ```
@@ -140,7 +140,7 @@ public static final VertexElementType UV
 ```
 
 
-Doku UV koordinatı, bakınız [VertexElementUV](../../com.aspose.threed/vertexelementuv)
+Doku UV koordinatı, bkz. [VertexElementUV](../../com.aspose.threed/vertexelementuv)
 
 ### VERTEX_COLOR {#VERTEX-COLOR}
 ```
@@ -148,7 +148,7 @@ public static final VertexElementType VERTEX_COLOR
 ```
 
 
-Vertex rengi, bakınız [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor)
+Vertex rengi, bkz. [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor)
 
 ### VERTEX_CREASE {#VERTEX-CREASE}
 ```
@@ -156,7 +156,7 @@ public static final VertexElementType VERTEX_CREASE
 ```
 
 
-Vertex kırışı, bakınız [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease)
+Vertex kırışı, bkz. [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease)
 
 ### VISIBILITY {#VISIBILITY}
 ```
@@ -164,7 +164,7 @@ public static final VertexElementType VISIBILITY
 ```
 
 
-Bileşenler için görünürlük, bakınız [VertexElementVisibility](../../com.aspose.threed/vertexelementvisibility)
+Bileşenler için görünürlük, bkz. [VertexElementVisibility](../../com.aspose.threed/vertexelementvisibility)
 
 ### WEIGHT {#WEIGHT}
 ```
@@ -172,7 +172,7 @@ public static final VertexElementType WEIGHT
 ```
 
 
-Karışım ağırlıkları, bakınız [VertexElementWeight](../../com.aspose.threed/vertexelementweight)
+Karıştırma ağırlıkları, bkz. [VertexElementWeight](../../com.aspose.threed/vertexelementweight)
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

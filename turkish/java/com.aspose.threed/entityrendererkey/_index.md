@@ -1,7 +1,7 @@
 ---
 title: "EntityRendererKey"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Kayıtlı varlık renderlayıcısının anahtarı"
+description: "Kayıtlı varlık renderleyicisinin anahtarı"
 type: docs
 weight: 55
 url: /tr/java/com.aspose.threed/entityrendererkey/
@@ -13,12 +13,12 @@ java.lang.Object
 public final class EntityRendererKey
 ```
 
-Kayıtlı varlık renderlayıcısının anahtarı
+Kayıtlı varlık renderleyicisinin anahtarı
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [EntityRendererKey(String name)](#EntityRendererKey-java.lang.String-) | Yapıcı [EntityRendererKey](../../com.aspose.threed/entityrendererkey) |
+| [EntityRendererKey(String name)](#EntityRendererKey-java.lang.String-) | [EntityRendererKey](../../com.aspose.threed/entityrendererkey) yapıcısı |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -28,7 +28,7 @@ Kayıtlı varlık renderlayıcısının anahtarı
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | [EntityRendererKey](../../com.aspose.threed/entityrendererkey) öğesinin dize temsilini alır |
+| [toString()](#toString--) | [EntityRendererKey](../../com.aspose.threed/entityrendererkey) dize temsilini alır |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -38,7 +38,7 @@ public EntityRendererKey(String name)
 ```
 
 
-Yapıcı [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
+[EntityRendererKey](../../com.aspose.threed/entityrendererkey) yapıcısı
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -102,7 +102,7 @@ public String toString()
 ```
 
 
-[EntityRendererKey](../../com.aspose.threed/entityrendererkey) öğesinin dize temsilini alır
+[EntityRendererKey](../../com.aspose.threed/entityrendererkey) dize temsilini alır
 
 **Returns:**
 java.lang.String

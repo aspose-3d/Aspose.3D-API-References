@@ -1,7 +1,7 @@
 ---
 title: "AnimationNode"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Aspose.3Ds animasyon hiyerarşisini destekler; her animasyon birkaç animasyon ve animasyonun anahtar çerçeve tanımıyla oluşturulabilir."
+description: "Aspose.3Ds, animasyon hiyerarşisini destekler; her animasyon, birden fazla animasyon ve animasyonların anahtar çerçeve tanımıyla oluşturulabilir."
 type: docs
 weight: 15
 url: /tr/java/com.aspose.threed/animationnode/
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationNode extends A3DObject
 ```
 
-Aspose.3D animasyon hiyerarşisini destekler, her animasyon birkaç animasyon ve animasyonun anahtar çerçeve tanımıyla oluşturulabilir. [AnimationNode](../../com.aspose.threed/animationnode) bir özellik değerinin zaman içindeki dönüşümünü tanımlar; örneğin, animasyon düğümü bir düğümün dönüşümünü veya diğer [A3DObject](../../com.aspose.threed/a3dobject) nesnesinin sayısal özelliklerini kontrol etmek için kullanılabilir.
+Aspose.3D, animasyon hiyerarşisini destekler; her animasyon, birden fazla animasyon ve animasyonun anahtar çerçeve tanımıyla oluşturulabilir. [AnimationNode](../../com.aspose.threed/animationnode) bir özellik değerinin zaman içindeki dönüşümünü tanımlar; örneğin, animasyon düğümü bir düğümün dönüşümünü veya diğer [A3DObject](../../com.aspose.threed/a3dobject) nesnesinin sayısal özelliklerini kontrol etmek için kullanılabilir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [AnimationNode(String name)](#AnimationNode-java.lang.String-) | Yeni bir [AnimationNode](../../com.aspose.threed/animationnode) sınıfı örneği başlatır. |
-| [AnimationNode()](#AnimationNode--) | Yeni bir [AnimationNode](../../com.aspose.threed/animationnode) sınıfı örneği başlatır. |
+| [AnimationNode(String name)](#AnimationNode-java.lang.String-) | Yeni bir [AnimationNode](../../com.aspose.threed/animationnode) sınıf örneği başlatır. |
+| [AnimationNode()](#AnimationNode--) | Yeni bir [AnimationNode](../../com.aspose.threed/animationnode) sınıf örneği başlatır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -28,22 +28,22 @@ Aspose.3D animasyon hiyerarşisini destekler, her animasyon birkaç animasyon ve
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findBindPoint(A3DObject target, String name)](#findBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | Hedef ve ada göre bağ noktasını bulur. |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getBindPoint(A3DObject target, String propName, boolean create)](#getBindPoint-com.aspose.threed.A3DObject-java.lang.String-boolean-) | Verilen özellik üzerindeki animasyon bağ noktasını alır. |
+| [getBindPoint(A3DObject target, String propName, boolean create)](#getBindPoint-com.aspose.threed.A3DObject-java.lang.String-boolean-) | Verilen özellikteki animasyon bağ noktasını alır. |
 | [getBindPoints()](#getBindPoints--) | Mevcut özellik bağ noktalarını alır |
 | [getClass()](#getClass--) |  |
-| [getKeyframeSequence(A3DObject target, String propName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-boolean-) | Verilen özellik üzerindeki anahtar çerçeve dizisini alır |
-| [getKeyframeSequence(A3DObject target, String propName, String channelName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-java.lang.String-boolean-) | Belirtilen özellik ve kanal üzerindeki anahtar kare dizisini alır. |
+| [getKeyframeSequence(A3DObject target, String propName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-boolean-) | Verilen özellikteki anahtar çerçeve dizisini alır. |
+| [getKeyframeSequence(A3DObject target, String propName, String channelName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-java.lang.String-boolean-) | Verilen özellik ve kanal üzerindeki anahtar kare dizisini alır. |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getSubAnimations()](#getSubAnimations--) | Mevcut animasyonların altındaki alt animasyon düğümlerini alır |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -54,7 +54,7 @@ public AnimationNode(String name)
 ```
 
 
-Yeni bir [AnimationNode](../../com.aspose.threed/animationnode) sınıfı örneği başlatır.
+Yeni bir [AnimationNode](../../com.aspose.threed/animationnode) sınıf örneği başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -67,7 +67,7 @@ public AnimationNode()
 ```
 
 
-Yeni bir [AnimationNode](../../com.aspose.threed/animationnode) sınıfı örneği başlatır.
+Yeni bir [AnimationNode](../../com.aspose.threed/animationnode) sınıf örneği başlatır.
 
 ### createBindPoint(A3DObject obj, String propName) {#createBindPoint-com.aspose.threed.A3DObject-java.lang.String-}
 ```
@@ -122,7 +122,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -137,14 +137,14 @@ public BindPoint getBindPoint(A3DObject target, String propName, boolean create)
 ```
 
 
-Verilen özellik üzerindeki animasyon bağ noktasını alır.
+Verilen özellikteki animasyon bağ noktasını alır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | target | [A3DObject](../../com.aspose.threed/a3dobject) | Bağ noktasının oluşturulacağı nesne. |
 | propName | java.lang.String | Özelliğin adı. |
-| oluştur | boolean | Eğer  true  olarak ayarlanırsa, bağ noktası mevcut değilse oluştur. |
+| oluştur | boolean | true olarak ayarlanırsa, bağ noktası mevcut değilse oluştur. |
 
 **Returns:**
 [BindPoint](../../com.aspose.threed/bindpoint) - The bind point.
@@ -174,14 +174,14 @@ public KeyframeSequence getKeyframeSequence(A3DObject target, String propName, b
 ```
 
 
-Verilen özellik üzerindeki anahtar çerçeve dizisini alır
+Verilen özellikteki anahtar çerçeve dizisini alır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | target | [A3DObject](../../com.aspose.threed/a3dobject) | Anahtar kare dizisinin oluşturulacağı örnek. |
 | propName | java.lang.String | Özelliğin adı. |
-| oluştur | boolean | Eğer  true  olarak ayarlanırsa, dizi mevcut değilse oluştur. |
+| oluştur | boolean | true olarak ayarlanırsa, dizi mevcut değilse oluştur. |
 
 **Returns:**
 [KeyframeSequence](../../com.aspose.threed/keyframesequence) - The keyframe sequence.
@@ -191,7 +191,7 @@ public KeyframeSequence getKeyframeSequence(A3DObject target, String propName, S
 ```
 
 
-Belirtilen özellik ve kanal üzerindeki anahtar kare dizisini alır.
+Verilen özellik ve kanal üzerindeki anahtar kare dizisini alır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -199,7 +199,7 @@ Belirtilen özellik ve kanal üzerindeki anahtar kare dizisini alır.
 | target | [A3DObject](../../com.aspose.threed/a3dobject) | Anahtar kare dizisinin oluşturulacağı örnek. |
 | propName | java.lang.String | Özelliğin adı. |
 | channelName | java.lang.String | Kanal adı. |
-| oluştur | boolean | Eğer  true  olarak ayarlanırsa, animasyon dizisi mevcut değilse oluştur. |
+| oluştur | boolean | true olarak ayarlanırsa, animasyon dizisi mevcut değilse oluştur. |
 
 **Returns:**
 [KeyframeSequence](../../com.aspose.threed/keyframesequence) - The keyframe sequence.
@@ -229,7 +229,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -295,7 +295,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -323,7 +323,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

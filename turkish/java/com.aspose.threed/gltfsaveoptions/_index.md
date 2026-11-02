@@ -25,46 +25,46 @@ glTF formatı için kaydetme seçenekleri.
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getApplyUnitScale()](#getApplyUnitScale--) | Mesh'e [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. |
-| [getBufferFile()](#getBufferFile--) | İkili verileri depolamak için kullanılan dış tampon dosyasının dosya adı. |
+| [getApplyUnitScale()](#getApplyUnitScale--) | Ağ yapısına [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. |
+| [getBufferFile()](#getBufferFile--) | İkili verileri depolamak için kullanılan harici tampon dosyasının dosya adı. |
 | [getClass()](#getClass--) |  |
 | [getDracoCompression()](#getDracoCompression--) | Draco sıkıştırmasının etkinleştirilip etkinleştirilmeyeceğini alır |
-| [getEmbedAssets()](#getEmbedAssets--) | Tüm dış varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false. |
+| [getEmbedAssets()](#getEmbedAssets--) | Tüm harici varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false. |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
-| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
-| [getExternalDracoEncoder()](#getExternalDracoEncoder--) | Draco sıkıştırma hızını artırmak için dış draco kodlayıcıyı kullan. |
-| [getFallbackNormal()](#getFallbackNormal--) | GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan kaçınmak için bu, orijinal değerinin yerine kullanılacaktır. |
+| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
+| [getExternalDracoEncoder()](#getExternalDracoEncoder--) | Draco sıkıştırma hızını artırmak için harici draco kodlayıcıyı kullan. |
+| [getFallbackNormal()](#getFallbackNormal--) | GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan kaçınmak için bu, orijinal değeri yerine kullanılacak. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
 | [getFlipTexCoordV()](#getFlipTexCoordV--) | Doku koordinatı v(t) bileşenini ters çevir, varsayılan değer true. |
-| [getImageFormat()](#getImageFormat--) | Standart glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek dış standart görüntülerin dışa aktarım sırasında Aspose.3D tarafından desteklenen formata nasıl dönüştürüleceğini yönlendirir. |
+| [getImageFormat()](#getImageFormat--) | Standard glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek Aspose.3D'nin dış standart görüntüleri dışa aktarım sırasında desteklenen formata nasıl dönüştüreceğini yönlendirir. |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
-| [getMaterialConverter()](#getMaterialConverter--) | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. |
-| [getPrettyPrint()](#getPrettyPrint--) | GLTF dosyasının JSON içeriği insan okunması için girintilenmiştir, varsayılan değer false'tur. |
-| [getSaveExtras()](#getSaveExtras--) | Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydedin. |
+| [getMaterialConverter()](#getMaterialConverter--) | Geometrinin malzemesini PBR material'e dönüştürmek için özel dönüştürücü. Eğer bu atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR material'e dönüştürecektir. |
+| [getPrettyPrint()](#getPrettyPrint--) | GLTF dosyasının JSON içeriği insan okunması için girintilenir, varsayılan değer false'tur. |
+| [getSaveExtras()](#getSaveExtras--) | Oluşturulan glTF dosyasında sahne nesnesinin dinamik özelliklerini 'extra' alanlarına kaydedin. |
 | [getUseCommonMaterials()](#getUseCommonMaterials--) | Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | Mesh'e [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. |
-| [setBufferFile(String value)](#setBufferFile-java.lang.String-) | İkili verileri depolamak için kullanılan dış tampon dosyasının dosya adı. |
+| [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | Ağ yapısına [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. |
+| [setBufferFile(String value)](#setBufferFile-java.lang.String-) | İkili verileri depolamak için kullanılan harici tampon dosyasının dosya adı. |
 | [setDracoCompression(boolean value)](#setDracoCompression-boolean-) | Draco sıkıştırmasının etkinleştirilip etkinleştirilmeyeceğini ayarlar. |
-| [setEmbedAssets(boolean value)](#setEmbedAssets-boolean-) | Tüm dış varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false. |
+| [setEmbedAssets(boolean value)](#setEmbedAssets-boolean-) | Tüm harici varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
-| [setExternalDracoEncoder(String value)](#setExternalDracoEncoder-java.lang.String-) | Draco sıkıştırma hızını artırmak için dış draco kodlayıcıyı kullan. |
-| [setFallbackNormal(Vector3 value)](#setFallbackNormal-com.aspose.threed.Vector3-) | GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan kaçınmak için bu, orijinal değerinin yerine kullanılacaktır. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
+| [setExternalDracoEncoder(String value)](#setExternalDracoEncoder-java.lang.String-) | Draco sıkıştırma hızını artırmak için harici draco kodlayıcıyı kullan. |
+| [setFallbackNormal(Vector3 value)](#setFallbackNormal-com.aspose.threed.Vector3-) | GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan kaçınmak için bu, orijinal değeri yerine kullanılacak. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
 | [setFlipTexCoordV(boolean value)](#setFlipTexCoordV-boolean-) | Doku koordinatı v(t) bileşenini ters çevir, varsayılan değer true. |
-| [setImageFormat(GltfEmbeddedImageFormat value)](#setImageFormat-com.aspose.threed.GltfEmbeddedImageFormat-) | Standart glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek dış standart görüntülerin dışa aktarım sırasında Aspose.3D tarafından desteklenen formata nasıl dönüştürüleceğini yönlendirir. |
+| [setImageFormat(GltfEmbeddedImageFormat value)](#setImageFormat-com.aspose.threed.GltfEmbeddedImageFormat-) | Standard glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek Aspose.3D'nin dış standart görüntüleri dışa aktarım sırasında desteklenen formata nasıl dönüştüreceğini yönlendirir. |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
-| [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. |
-| [setPrettyPrint(boolean value)](#setPrettyPrint-boolean-) | GLTF dosyasının JSON içeriği insan okunması için girintilenmiştir, varsayılan değer false'tur. |
-| [setSaveExtras(boolean value)](#setSaveExtras-boolean-) | Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydedin. |
+| [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | Geometrinin malzemesini PBR material'e dönüştürmek için özel dönüştürücü. Eğer bu atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR material'e dönüştürecektir. |
+| [setPrettyPrint(boolean value)](#setPrettyPrint-boolean-) | GLTF dosyasının JSON içeriği insan okunması için girintilenir, varsayılan değer false'tur. |
+| [setSaveExtras(boolean value)](#setSaveExtras-boolean-) | Oluşturulan glTF dosyasında sahne nesnesinin dinamik özelliklerini 'extra' alanlarına kaydedin. |
 | [setUseCommonMaterials(boolean value)](#setUseCommonMaterials-boolean-) | Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -117,20 +117,20 @@ public boolean getApplyUnitScale()
 ```
 
 
-Mesh'e [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. Varsayılan değer false'tur.
+Ağ yapısına [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. Varsayılan değer false.
 
 **Returns:**
-boolean - Mesh'e [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. Varsayılan değer false'tur.
+boolean - [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) ağ yapısına uygula. Varsayılan değer false.
 ### getBufferFile() {#getBufferFile--}
 ```
 public String getBufferFile()
 ```
 
 
-İkili verileri depolamak için kullanılan dış tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF ikili modda dışa aktarılırken yoksayılır.
+İkili veriyi depolamak için kullanılan harici tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF'yi ikili modda dışa aktarırken yok sayılır.
 
 **Returns:**
-java.lang.String - İkili verileri depolamak için kullanılan dış tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF ikili modda dışa aktarılırken yoksayılır.
+java.lang.String - İkili veriyi depolamak için kullanılan harici tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF'yi ikili modda dışa aktarırken yok sayılır.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -150,54 +150,54 @@ public boolean getDracoCompression()
 Draco sıkıştırmasının etkinleştirilip etkinleştirilmeyeceğini alır
 
 **Returns:**
-boolean - draco sıkıştırmasının etkinleştirilip etkinleştirilmeyeceği
+boolean - Draco sıkıştırmasının etkinleştirilip etkinleştirilmeyeceği
 ### getEmbedAssets() {#getEmbedAssets--}
 ```
 public boolean getEmbedAssets()
 ```
 
 
-Tüm dış varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false.
+Tüm harici varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false.
 
 **Returns:**
-boolean - Tüm dış varlıkları ASCII modunda tek dosyaya base64 olarak göm, varsayılan değer false.
+boolean - Tüm harici varlıkları ASCII modunda tek dosyaya base64 olarak göm, varsayılan değer false.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Returns:**
-boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
+boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
 ### getExternalDracoEncoder() {#getExternalDracoEncoder--}
 ```
 public String getExternalDracoEncoder()
 ```
 
 
-Draco sıkıştırma hızını artırmak için dış draco kodlayıcıyı kullan.
+Draco sıkıştırma hızını artırmak için harici draco kodlayıcıyı kullan.
 
 **Returns:**
-java.lang.String - Draco sıkıştırma hızını artırmak için dış draco kodlayıcıyı kullan. **Remarks:** Aspose.3D, ağı draco formatına kodlamak için yeni bir alt süreç oluşturacak, bunu kendi sorumluluğunuzda kullanın.
+java.lang.String - Draco sıkıştırma hızını artırmak için harici draco kodlayıcıyı kullan. **Remarks:** Aspose.3D, ağı draco formatına kodlamak için yeni bir alt süreç oluşturacak, kendi sorumluluğunuzda kullanın.
 ### getFallbackNormal() {#getFallbackNormal--}
 ```
 public Vector3 getFallbackNormal()
 ```
 
 
-GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan geçmek için orijinal değeri yerine bu kullanılacaktır. Varsayılan değer (0, 1, 0)'dır.
+GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan geçmek için bunun yerine orijinal değeri yerine bu kullanılacak. Varsayılan değer (0, 1, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - When GLTF2 exporter detected an invalid normal, this will be used instead of its original value to bypass the validation. Default value is (0, 1, 0)
@@ -217,10 +217,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -300,7 +300,7 @@ public GltfEmbeddedImageFormat getImageFormat()
 ```
 
 
-Standart glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek dış standart görüntülerin dışa aktarım sırasında Aspose.3D tarafından desteklenen formata nasıl dönüştürüleceğini yönlendirir. Varsayılan değer [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
+Standard glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek Aspose.3D'nin dış standart görüntüleri dışa aktarım sırasında desteklenen formata nasıl dönüştüreceğini yönlendirir. Varsayılan değer [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
 
 **Returns:**
 [GltfEmbeddedImageFormat](../../com.aspose.threed/gltfembeddedimageformat) - Standard glTF only supports PNG/JPG as its texture format, this option will guide how Aspose.3D convert the non-standard images to supported format during the exporting. Default value is [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
@@ -313,7 +313,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -328,7 +328,7 @@ public MaterialConverter getMaterialConverter()
 ```
 
 
-Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. Varsayılan değer null'dur. Bu özellik bir sahneyi glTF 2.0 dosyasına dışa aktarırken kullanılır.
+Geometrinin malzemesini PBR material'e dönüştürmek için özel dönüştürücü. Eğer bu atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR material'e dönüştürür. Varsayılan değer null. Bu özellik bir sahneyi glTF 2.0 dosyasına dışa aktarırken kullanılır.
 
 **Returns:**
 [MaterialConverter](../../com.aspose.threed/materialconverter) - Custom converter to convert the geometry's material to PBR material If this is unassigned, glTF 2.0 exporter will automatically convert the standard material to PBR material. Default value is null This property is used when exporting a scene to a glTF 2.0 file.
@@ -338,30 +338,30 @@ public boolean getPrettyPrint()
 ```
 
 
-GLTF dosyasının JSON içeriği insan okunması için girintilenmiştir, varsayılan değer false'tur.
+GLTF dosyasının JSON içeriği insan okunması için girintilenir, varsayılan değer false'tur.
 
 **Returns:**
-boolean - GLTF dosyasının JSON içeriği insan okunması için girintilenmiştir, varsayılan değer false.
+boolean - GLTF dosyasının JSON içeriği insan okunması için girintilenir, varsayılan değer false.
 ### getSaveExtras() {#getSaveExtras--}
 ```
 public boolean getSaveExtras()
 ```
 
 
-Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydedin. Bu, uygulamaya özgü veri sağlamak için kullanışlıdır. Varsayılan değer false.
+Oluşturulan glTF dosyasında sahne nesnesinin dinamik özelliklerini 'extra' alanlarına kaydedin. Bu, uygulamaya özgü veri sağlamak için yararlıdır. Varsayılan değer false.
 
 **Returns:**
-boolean - Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydedin. Bu, uygulamaya özgü veri sağlamak için kullanışlıdır. Varsayılan değer false.
+boolean - Oluşturulan glTF dosyasında sahne nesnesinin dinamik özelliklerini 'extra' alanlarına kaydet. Bu, uygulamaya özgü veri sağlamak için yararlıdır. Varsayılan değer false.
 ### getUseCommonMaterials() {#getUseCommonMaterials--}
 ```
 public boolean getUseCommonMaterials()
 ```
 
 
-Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. Bunu false olarak ayarlamak, Aspose.3D'nin [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) varsa bir dizi vertex/fragment gölgesi dışa aktarmasına neden olur.
+Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. Bunu false olarak ayarlamak, Aspose.3D'nin [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) durumunda bir dizi vertex/fragment gölgesi dışa aktarmasına neden olur.
 
 **Returns:**
-boolean - Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. Bunu false olarak ayarlamak, Aspose.3D'nin [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) varsa bir dizi vertex/fragment gölgesi dışa aktarmasına neden olur. **Remarks:** Bu özellik yalnızca glTF 1.0 için çalışır.
+boolean - Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. Bunu false olarak ayarlamak, Aspose.3D'nin [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) durumunda bir dizi vertex/fragment gölgesi dışa aktarmasına neden olur. **Remarks:** Bu özellik yalnızca glTF 1.0 için çalışır.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -394,7 +394,7 @@ public void setApplyUnitScale(boolean value)
 ```
 
 
-Mesh'e [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. Varsayılan değer false'tur.
+Ağ yapısına [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) uygula. Varsayılan değer false.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -407,7 +407,7 @@ public void setBufferFile(String value)
 ```
 
 
-İkili verileri depolamak için kullanılan dış tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF ikili modda dışa aktarılırken yoksayılır.
+İkili veriyi depolamak için kullanılan harici tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF'yi ikili modda dışa aktarırken yok sayılır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -433,7 +433,7 @@ public void setEmbedAssets(boolean value)
 ```
 
 
-Tüm dış varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false.
+Tüm harici varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -446,7 +446,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -459,7 +459,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -472,12 +472,12 @@ public void setExternalDracoEncoder(String value)
 ```
 
 
-Draco sıkıştırma hızını artırmak için dış draco kodlayıcıyı kullan.
+Draco sıkıştırma hızını artırmak için harici draco kodlayıcıyı kullan.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| değer | java.lang.String | Yeni değer **Remarks:** Aspose.3D, ağı draco formatına kodlamak için yeni bir alt süreç oluşturacak, bunu kendi sorumluluğunuzda kullanın. |
+| değer | java.lang.String | Yeni değer **Remarks:** Aspose.3D, ağı draco formatına kodlamak için yeni bir alt süreç oluşturacak, kendi sorumluluğunuzda kullanın. |
 
 ### setFallbackNormal(Vector3 value) {#setFallbackNormal-com.aspose.threed.Vector3-}
 ```
@@ -485,7 +485,7 @@ public void setFallbackNormal(Vector3 value)
 ```
 
 
-GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan geçmek için orijinal değeri yerine bu kullanılacaktır. Varsayılan değer (0, 1, 0)'dır.
+GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan geçmek için bunun yerine orijinal değeri yerine bu kullanılacak. Varsayılan değer (0, 1, 0).
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -498,7 +498,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -516,7 +516,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -553,7 +553,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -593,7 +593,7 @@ public void setImageFormat(GltfEmbeddedImageFormat value)
 ```
 
 
-Standart glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek dış standart görüntülerin dışa aktarım sırasında Aspose.3D tarafından desteklenen formata nasıl dönüştürüleceğini yönlendirir. Varsayılan değer [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
+Standard glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek Aspose.3D'nin dış standart görüntüleri dışa aktarım sırasında desteklenen formata nasıl dönüştüreceğini yönlendirir. Varsayılan değer [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -611,7 +611,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();
@@ -627,7 +627,7 @@ public void setMaterialConverter(MaterialConverter value)
 ```
 
 
-Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. Varsayılan değer null'dur. Bu özellik bir sahneyi glTF 2.0 dosyasına dışa aktarırken kullanılır.
+Geometrinin malzemesini PBR material'e dönüştürmek için özel dönüştürücü. Eğer bu atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR material'e dönüştürür. Varsayılan değer null. Bu özellik bir sahneyi glTF 2.0 dosyasına dışa aktarırken kullanılır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -640,7 +640,7 @@ public void setPrettyPrint(boolean value)
 ```
 
 
-GLTF dosyasının JSON içeriği insan okunması için girintilenmiştir, varsayılan değer false'tur.
+GLTF dosyasının JSON içeriği insan okunması için girintilenir, varsayılan değer false'tur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -653,7 +653,7 @@ public void setSaveExtras(boolean value)
 ```
 
 
-Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydedin. Bu, uygulamaya özgü veri sağlamak için kullanışlıdır. Varsayılan değer false.
+Oluşturulan glTF dosyasında sahne nesnesinin dinamik özelliklerini 'extra' alanlarına kaydedin. Bu, uygulamaya özgü veri sağlamak için yararlıdır. Varsayılan değer false.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -666,7 +666,7 @@ public void setUseCommonMaterials(boolean value)
 ```
 
 
-Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. Bunu false olarak ayarlamak, Aspose.3D'nin [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) varsa bir dizi vertex/fragment gölgesi dışa aktarmasına neden olur.
+Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. Bunu false olarak ayarlamak, Aspose.3D'nin [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) durumunda bir dizi vertex/fragment gölgesi dışa aktarmasına neden olur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

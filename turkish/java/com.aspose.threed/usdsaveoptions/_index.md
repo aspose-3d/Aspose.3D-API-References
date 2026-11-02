@@ -18,8 +18,8 @@ USD/USDZ formatları için kaydetme seçenekleri
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [UsdSaveOptions()](#UsdSaveOptions--) | Yeni bir [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) nesnesini [FileFormat.USD](../../com.aspose.threed/fileformat\#USD) formatı ile başlatır. |
-| [UsdSaveOptions(FileFormat fileFormat)](#UsdSaveOptions-com.aspose.threed.FileFormat-) | Belirtilen USD/USDZ formatı ile yeni bir [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) başlatır. |
+| [UsdSaveOptions()](#UsdSaveOptions--) | Yeni bir [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) nesnesini [FileFormat.USD](../../com.aspose.threed/fileformat\#USD) formatı ile başlat. |
+| [UsdSaveOptions(FileFormat fileFormat)](#UsdSaveOptions-com.aspose.threed.FileFormat-) | Belirtilen USD/USDZ formatı ile yeni bir [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) başlat. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -27,10 +27,10 @@ USD/USDZ formatları için kaydetme seçenekleri
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
-| [getExportMetaData()](#getExportMetaData--) | Düğümün özelliklerini USD'nin customData alanı üzerinden dışa aktar. |
-| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
+| [getExportMetaData()](#getExportMetaData--) | Düğümün özelliklerini USD'nin customData alanı aracılığıyla dışa aktar. |
+| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
@@ -40,9 +40,9 @@ USD/USDZ formatları için kaydetme seçenekleri
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setExportMetaData(boolean value)](#setExportMetaData-boolean-) | Düğümün özelliklerini USD'nin customData alanı üzerinden dışa aktar. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setExportMetaData(boolean value)](#setExportMetaData-boolean-) | Düğümün özelliklerini USD'nin customData alanı aracılığıyla dışa aktar. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
@@ -58,7 +58,7 @@ public UsdSaveOptions()
 ```
 
 
-Yeni bir [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) nesnesini [FileFormat.USD](../../com.aspose.threed/fileformat\#USD) formatı ile başlatır.
+Yeni bir [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) nesnesini [FileFormat.USD](../../com.aspose.threed/fileformat\#USD) formatı ile başlat.
 
 ### UsdSaveOptions(FileFormat fileFormat) {#UsdSaveOptions-com.aspose.threed.FileFormat-}
 ```
@@ -66,7 +66,7 @@ public UsdSaveOptions(FileFormat fileFormat)
 ```
 
 
-Belirtilen USD/USDZ formatı ile yeni bir [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) başlatır.
+Belirtilen USD/USDZ formatı ile yeni bir [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) başlat.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -104,17 +104,17 @@ public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getExportMetaData() {#getExportMetaData--}
 ```
 public boolean getExportMetaData()
 ```
 
 
-Düğümün özelliklerini USD'nin customData alanı üzerinden dışa aktar.
+Düğümün özelliklerini USD'nin customData alanı aracılığıyla dışa aktar.
 
 **Returns:**
 boolean - Düğümün özelliklerini USD'nin customData alanı üzerinden dışa aktar.
@@ -124,10 +124,10 @@ public boolean getExportTextures()
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Returns:**
-boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
+boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -144,10 +144,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -220,7 +220,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -235,7 +235,7 @@ public MaterialConverter getMaterialConverter()
 ```
 
 
-Geometri malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, USD dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. Varsayılan değer null.
+Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, USD dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. Varsayılan değer null.
 
 **Returns:**
 [MaterialConverter](../../com.aspose.threed/materialconverter) - Custom converter to convert the geometry's material to PBR material If this is unassigned, USD exporter will automatically convert the standard material to PBR material. Default value is null
@@ -245,10 +245,10 @@ public boolean getPrimitiveToMesh()
 ```
 
 
-İhracat sırasında ilkel varlıkları ağ (mesh) haline dönüştür. Ya da ilkel öğeleri doğrudan çıktı dosyasına kodla (Dish, Torus gibi resmi olmayan primitifler için Aspose'un uzantı tanımını kullanacaktır). Varsayılan değer true.
+İhracat sırasında ilkel varlıkları mesh'e dönüştür. Veya ilkel nesneleri doğrudan çıktı dosyasına kodla (Dish, Torus gibi resmi olmayan primitifler için Aspose'un uzantı tanımını kullanacaktır). Varsayılan değer true.
 
 **Returns:**
-boolean - İhracat sırasında ilkel varlıkları ağ (mesh) haline dönüştür. Ya da ilkel öğeleri doğrudan çıktı dosyasına kodla (Dish, Torus gibi resmi olmayan primitifler için Aspose'un uzantı tanımını kullanacaktır). Varsayılan değer true.
+boolean - İhracat sırasında ilkel varlıkları mesh'e dönüştür. Veya ilkel nesneleri doğrudan çıktı dosyasına kodla (Dish, Torus gibi resmi olmayan primitifler için Aspose'un uzantı tanımını kullanacaktır). Varsayılan değer true.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -281,7 +281,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -294,7 +294,7 @@ public void setExportMetaData(boolean value)
 ```
 
 
-Düğümün özelliklerini USD'nin customData alanı üzerinden dışa aktar.
+Düğümün özelliklerini USD'nin customData alanı aracılığıyla dışa aktar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -307,7 +307,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -320,7 +320,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -338,7 +338,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -375,7 +375,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -407,7 +407,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();
@@ -423,7 +423,7 @@ public void setMaterialConverter(MaterialConverter value)
 ```
 
 
-Geometri malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, USD dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. Varsayılan değer null.
+Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, USD dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. Varsayılan değer null.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -436,7 +436,7 @@ public void setPrimitiveToMesh(boolean value)
 ```
 
 
-İhracat sırasında ilkel varlıkları ağ (mesh) haline dönüştür. Ya da ilkel öğeleri doğrudan çıktı dosyasına kodla (Dish, Torus gibi resmi olmayan primitifler için Aspose'un uzantı tanımını kullanacaktır). Varsayılan değer true.
+İhracat sırasında ilkel varlıkları mesh'e dönüştür. Veya ilkel nesneleri doğrudan çıktı dosyasına kodla (Dish, Torus gibi resmi olmayan primitifler için Aspose'un uzantı tanımını kullanacaktır). Varsayılan değer true.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

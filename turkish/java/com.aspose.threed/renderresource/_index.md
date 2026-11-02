@@ -26,7 +26,7 @@ Tüm render kaynaklarının soyut sınıfı Render kaynakları, renderlayıcı s
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [close()](#close--) | Kullanılan iç kaynakları [RenderResource](../../com.aspose.threed/renderresource) tarafından serbest bırak |
+| [close()](#close--) | [RenderResource](../../com.aspose.threed/renderresource) tarafından kullanılan dahili kaynakları serbest bırak. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public void close()
 ```
 
 
-Kullanılan iç kaynakları [RenderResource](../../com.aspose.threed/renderresource) tarafından serbest bırak
+[RenderResource](../../com.aspose.threed/renderresource) tarafından kullanılan dahili kaynakları serbest bırak.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

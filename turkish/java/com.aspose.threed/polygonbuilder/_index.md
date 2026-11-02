@@ -1,7 +1,7 @@
 ---
 title: "PolygonBuilder"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Poligon oluşturmak için bir yardımcı sınıf Example için"
+description: "Poligon oluşturmak için bir yardımcı sınıf  Örnek"
 type: docs
 weight: 133
 url: /tr/java/com.aspose.threed/polygonbuilder/
@@ -25,7 +25,7 @@ Mesh mesh = new Mesh();
   builder.end();
 ```
 
-Eşittir :
+Şuna eşittir :
 
 ```
 Mesh mesh = new Mesh();
@@ -38,7 +38,7 @@ Tüm indeksler kullanıma hazırsa, [Mesh](../../com.aspose.threed/mesh) tercih 
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [PolygonBuilder(Mesh mesh)](#PolygonBuilder-com.aspose.threed.Mesh-) | Yeni bir [PolygonBuilder](../../com.aspose.threed/polygonbuilder) sınıfı örneği başlatır. |
+| [PolygonBuilder(Mesh mesh)](#PolygonBuilder-com.aspose.threed.Mesh-) | [PolygonBuilder](../../com.aspose.threed/polygonbuilder) sınıfının yeni bir örneğini başlatır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -61,7 +61,7 @@ public PolygonBuilder(Mesh mesh)
 ```
 
 
-Yeni bir [PolygonBuilder](../../com.aspose.threed/polygonbuilder) sınıfı örneği başlatır.
+[PolygonBuilder](../../com.aspose.threed/polygonbuilder) sınıfının yeni bir örneğini başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

@@ -1,7 +1,7 @@
 ---
 title: "TextureCodec"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Dokular için kodlayıcı ve kod çözücülerini yöneten sınıf."
+description: "Dokular için kodlayıcıları ve kod çözücüleri yöneten sınıf."
 type: docs
 weight: 186
 url: /tr/java/com.aspose.threed/texturecodec/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureCodec
 ```
 
-Dokular için kodlayıcı ve kod çözücülerini yöneten sınıf.
+Dokular için kodlayıcıları ve kod çözücüleri yöneten sınıf.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -27,7 +27,7 @@ Dokular için kodlayıcı ve kod çözücülerini yöneten sınıf.
 | [encode(TextureData texture, Stream stream, String format)](#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-java.lang.String-) | Belirtilen formatı kullanarak doku verisini akışa kodla |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSupportedEncoderFormats()](#getSupportedEncoderFormats--) | Tüm desteklenen kodlayıcı formatlarını alır |
+| [getSupportedEncoderFormats()](#getSupportedEncoderFormats--) | Desteklenen tüm kodlayıcı formatlarını al |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -71,7 +71,7 @@ Belirtilen formatı kullanarak doku verisini akışa kodla
 | --- | --- | --- |
 | texture | [TextureData](../../com.aspose.threed/texturedata) | Kodlanacak doku |
 | stream | [Stream](../../com.aspose.threed/stream) | Çıktı akışı |
-| biçim | java.lang.String | Kodlanmış verinin görüntü formatı, örneğin png/jpg |
+| biçim | java.lang.String | Kodlanmış verinin görüntü formatı, png/jpg gibi |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -104,7 +104,7 @@ public static String[] getSupportedEncoderFormats()
 ```
 
 
-Tüm desteklenen kodlayıcı formatlarını alır
+Desteklenen tüm kodlayıcı formatlarını al
 
 **Returns:**
 java.lang.String[]

@@ -18,9 +18,9 @@ public enum ReferenceMode extends Enum<ReferenceMode>
 
 | Alan | Açıklama |
 | --- | --- |
-| [DIRECT](#DIRECT) | Veri doğrudan referans alınır |
-| [INDEX](#INDEX) | Veri indeksle referans alınır |
-| [INDEX_TO_DIRECT](#INDEX-TO-DIRECT) | Veri indeksle referans alınır, ardından [VertexElement](../../com.aspose.threed/vertexelement)'in veri listesinde indeksle erişilir. |
+| [DIRECT](#DIRECT) | Veri doğrudan başvurulur |
+| [INDEX](#INDEX) | Veri indeksle başvurulur |
+| [INDEX_TO_DIRECT](#INDEX-TO-DIRECT) | Veri indeksle başvurulur, ardından [VertexElement](../../com.aspose.threed/vertexelement)'in veri listesinde indeksle erişilir. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -48,7 +48,7 @@ public static final ReferenceMode DIRECT
 ```
 
 
-Veri doğrudan referans alınır
+Veri doğrudan başvurulur
 
 ### INDEX {#INDEX}
 ```
@@ -56,7 +56,7 @@ public static final ReferenceMode INDEX
 ```
 
 
-Veri indeksle referans alınır
+Veri indeksle başvurulur
 
 ### INDEX_TO_DIRECT {#INDEX-TO-DIRECT}
 ```
@@ -64,7 +64,7 @@ public static final ReferenceMode INDEX_TO_DIRECT
 ```
 
 
-Veri indeksle referans alınır, ardından [VertexElement](../../com.aspose.threed/vertexelement)'in veri listesinde indeksle erişilir.
+Veri indeksle başvurulur, ardından [VertexElement](../../com.aspose.threed/vertexelement)'in veri listesinde indeksle erişilir.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

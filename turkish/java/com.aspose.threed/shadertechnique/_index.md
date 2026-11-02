@@ -1,7 +1,7 @@
 ---
 title: "ShaderTechnique"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Bir shader tekniği, somut bir render uygulamasını temsil eder."
+description: "Bir gölgelendirici tekniği, somut bir render uygulamasını temsil eder."
 type: docs
 weight: 169
 url: /tr/java/com.aspose.threed/shadertechnique/
@@ -13,12 +13,12 @@ java.lang.Object
 public class ShaderTechnique
 ```
 
-Bir shader tekniği, somut bir render uygulamasını temsil eder.
+Bir gölgelendirici tekniği, somut bir render uygulamasını temsil eder.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [ShaderTechnique()](#ShaderTechnique--) | Yeni bir [ShaderTechnique](../../com.aspose.threed/shadertechnique) sınıfının bir örneğini başlatır. |
+| [ShaderTechnique()](#ShaderTechnique--) | Yeni bir [ShaderTechnique](../../com.aspose.threed/shadertechnique) sınıf örneği başlatır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -39,8 +39,8 @@ Bir shader tekniği, somut bir render uygulamasını temsil eder.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDescription(String value)](#setDescription-java.lang.String-) | Bu tekniğin açıklamasını ayarlar |
-| [setRenderAPI(String value)](#setRenderAPI-java.lang.String-) | Bu teknik tarafından kullanılan renderleme API'sını ayarlar |
-| [setRenderAPIVersion(String value)](#setRenderAPIVersion-java.lang.String-) | Renderleme API'sının sürümünü ayarlar. |
+| [setRenderAPI(String value)](#setRenderAPI-java.lang.String-) | Bu teknik tarafından kullanılan renderleme API'sini ayarlar |
+| [setRenderAPIVersion(String value)](#setRenderAPIVersion-java.lang.String-) | Renderleme API'sinin sürümünü ayarlar. |
 | [setShaderContent(byte[] value)](#setShaderContent-byte---) | Gömülü bir gölgelendirici betiğinin içeriğini ayarlar. |
 | [setShaderEntry(String value)](#setShaderEntry-java.lang.String-) | Gölgelendiricinin giriş noktasını ayarlar, HLSL gibi bazı gölgelendiriciler özelleştirilmiş girişlere sahip olabilir. |
 | [setShaderFile(String value)](#setShaderFile-java.lang.String-) | Harici gölgelendirici dosyasının dosya adını ayarlar. |
@@ -56,7 +56,7 @@ public ShaderTechnique()
 ```
 
 
-Yeni bir [ShaderTechnique](../../com.aspose.threed/shadertechnique) sınıfının bir örneğini başlatır.
+Yeni bir [ShaderTechnique](../../com.aspose.threed/shadertechnique) sınıf örneği başlatır.
 
 ### addBinding(String property, String shaderParameter) {#addBinding-java.lang.String-java.lang.String-}
 ```
@@ -116,7 +116,7 @@ public String getRenderAPI()
 Bu teknik tarafından kullanılan renderleme API'sini alır
 
 **Returns:**
-java.lang.String - bu teknik tarafından kullanılan renderleme API'sı
+java.lang.String - bu teknik tarafından kullanılan renderleme API'si
 ### getRenderAPIVersion() {#getRenderAPIVersion--}
 ```
 public String getRenderAPIVersion()
@@ -126,7 +126,7 @@ public String getRenderAPIVersion()
 Renderleme API'sinin sürümünü alır.
 
 **Returns:**
-java.lang.String - renderleme API'sının sürümü.
+java.lang.String - renderleme API'sinin sürümü.
 ### getShaderContent() {#getShaderContent--}
 ```
 public byte[] getShaderContent()
@@ -173,10 +173,10 @@ public Map<String,String> getShaderParameters()
 ```
 
 
-Gölgelendirici parametre tanımını alır. Anahtar, dinamik özelliğin adı, değer ise özelliğin bağlandığı gölgelendirici parametre adıdır.
+Gölgelendirici parametre tanımını alır. Anahtar, dinamik özelliğin adıdır ve değer, özelliğin bağlandığı gölgelendirici parametre adıdır.
 
 **Returns:**
-java.util.Map<java.lang.String,java.lang.String> - gölgelendirici parametre tanımı. Anahtar, dinamik özelliğin adı, değer ise özelliğin bağlandığı gölgelendirici parametre adıdır.
+java.util.Map<java.lang.String,java.lang.String> - gölgelendirici parametre tanımı. Anahtar, dinamik özelliğin adıdır ve değer, özelliğin bağlandığı gölgelendirici parametre adıdır.
 ### getShaderVersion() {#getShaderVersion--}
 ```
 public String getShaderVersion()
@@ -232,7 +232,7 @@ public void setRenderAPI(String value)
 ```
 
 
-Bu teknik tarafından kullanılan renderleme API'sını ayarlar
+Bu teknik tarafından kullanılan renderleme API'sini ayarlar
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -245,7 +245,7 @@ public void setRenderAPIVersion(String value)
 ```
 
 
-Renderleme API'sının sürümünü ayarlar.
+Renderleme API'sinin sürümünü ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

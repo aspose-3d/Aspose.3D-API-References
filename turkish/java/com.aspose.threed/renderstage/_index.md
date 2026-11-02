@@ -19,7 +19,7 @@ Render aşaması
 | Alan | Açıklama |
 | --- | --- |
 | [IDLE](#IDLE) | Renderlayıcı boşta |
-| [POST_PROCESSING](#POST-PROCESSING) | Renderlayıcı sonrası işleme efektlerini işliyor. |
+| [POST_PROCESSING](#POST-PROCESSING) | Renderlayıcı, son işleme efektlerini işliyor. |
 | [SCENE](#SCENE) | Renderlayıcı sahneyi işliyor |
 | [SHADOW_MAP](#SHADOW-MAP) | Renderlayıcı gölge haritasını işliyor |
 ## Yöntemler
@@ -57,7 +57,7 @@ public static final RenderStage POST_PROCESSING
 ```
 
 
-Renderlayıcı sonrası işleme efektlerini işliyor.
+Renderlayıcı, son işleme efektlerini işliyor.
 
 ### SCENE {#SCENE}
 ```

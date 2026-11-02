@@ -1,7 +1,7 @@
 ---
 title: "PolygonModifier"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Poligonları değiştirmek için araçlar"
+description: "Poligonları değiştirmek için araçlar."
 type: docs
 weight: 134
 url: /tr/java/com.aspose.threed/polygonmodifier/
@@ -13,27 +13,27 @@ java.lang.Object
 public class PolygonModifier
 ```
 
-Poligonları değiştirmek için araçlar
+Poligonları değiştirmek için araçlar.
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [applyTransform(Node node, Matrix4 transform)](#applyTransform-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | Tüm geometrilerin kontrol noktalarına dönüşüm matrisini uygula |
-| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | Bu, ağ üzerinde teğet ve binormal oluşturur. Normal gereklidir, eğer ağda normal yoksa, konumdan normal verisini de oluşturur. |
-| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | Bu, sahnedeki tüm ağlar üzerinde teğet ve binormal oluşturur. Normal gereklidir, eğer ağda normal yoksa, konumdan normal verisini de oluşturur. |
+| [applyTransform(Node node, Matrix4 transform)](#applyTransform-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | Tüm geometrilerin kontrol noktalarına dönüşüm matrisini uygula. |
+| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | Bu, mesh üzerinde teğet ve binormal oluşturur. Normal gereklidir, eğer mesh üzerinde normal yoksa, konumdan normal verisini de oluşturur. |
+| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | Bu, sahnedeki tüm mesh'lerde teğet ve binormal oluşturur. Normal gereklidir, eğer mesh üzerinde normal yoksa, konumdan normal verisini de oluşturur. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | Ağ tanımından normal verisi oluştur |
-| [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | Verilen giriş ağından UV verisi oluştur |
-| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | Verilen giriş ağından ve belirtilen normal verisinden UV verisi oluştur. |
+| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | Mesh tanımından normal verisi oluştur. |
+| [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | Verilen giriş mesh'inden UV verisi oluştur. |
+| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | Verilen giriş mesh'inden ve belirtilen normal verisinden UV verisi oluştur. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | Bir bütün düğümü tek bir dönüştürülmüş ağaca dönüştürün; normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor. |
-| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | Bir bütün sahneyi tek bir dönüştürülmüş ağaca dönüştürün; normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor. |
-| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | Bir bütün düğümü tek bir dönüştürülmüş ağaca dönüştürün; normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor. |
+| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | Bir bütün düğümü tek bir dönüştürülmüş ağaca dönüştürün. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor. |
+| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | Bir bütün sahneyi tek bir dönüştürülmüş ağaca dönüştürün. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor. |
+| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | Bir bütün düğümü tek bir dönüştürülmüş ağaca dönüştürün. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | Bu düğümdeki tüm geometrileri ölçeklendirin (Kontrol noktalarını ölçeklendirin, dönüşüm matrisini değil). |
-| [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | Bu sahnedeki tüm geometrileri ölçeklendirin (Kontrol noktalarını ölçeklendirin, dönüşüm matrisini değil). |
+| [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | Bu düğümdeki tüm geometrileri ölçeklendirin (Dönüşüm matrisini değil, kontrol noktalarını ölçeklendirin). |
+| [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | Bu sahnedeki tüm geometrileri ölçeklendirin (Dönüşüm matrisini değil, kontrol noktalarını ölçeklendirin). |
 | [splitMesh(Mesh mesh, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Mesh-com.aspose.threed.SplitMeshPolicy-) | Ağacı [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağaclara bölün. |
 | [splitMesh(Node node, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-) | Ağacı [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağaclara bölün. |
 | [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-) | Ağacı [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağaclara bölün. |
@@ -56,12 +56,12 @@ public static void applyTransform(Node node, Matrix4 transform)
 ```
 
 
-Tüm geometrilerin kontrol noktalarına dönüşüm matrisini uygula
+Tüm geometrilerin kontrol noktalarına dönüşüm matrisini uygula.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Verilen dönüşümle hangi düğümün geometrileri uygulanacak? |
+| node | [Node](../../com.aspose.threed/node) | Hangi düğümün geometrileri verilen dönüşümle uygulanacak |
 | transform | [Matrix4](../../com.aspose.threed/matrix4) | Kontrol noktalarına uygulanacak dönüşüm matrisi. |
 
 ### buildTangentBinormal(Mesh mesh) {#buildTangentBinormal-com.aspose.threed.Mesh-}
@@ -70,7 +70,7 @@ public static void buildTangentBinormal(Mesh mesh)
 ```
 
 
-Bu, mesh üzerinde teğet ve binormal oluşturur. Normal gereklidir, eğer mesh üzerinde normal yoksa, konumdan normal verisi de oluşturulur. UV de gereklidir, UV bulunamazsa bir istisna yükseltilir.
+Bu, ağacın üzerinde teğet ve binormal oluşturur. Normal gereklidir, eğer ağacın üzerinde normal yoksa, konumdan normal verisi de oluşturulur. UV de gereklidir, UV bulunamazsa bir istisna yükseltilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -83,7 +83,7 @@ public static void buildTangentBinormal(Scene scene)
 ```
 
 
-Bu, sahnedeki tüm mesh'lerde teğet ve binormal oluşturur. Normal gereklidir, eğer mesh üzerinde normal yoksa, konumdan normal verisi de oluşturulur. UV de gereklidir, UV tanımlı değilse mesh yok sayılır.
+Bu, sahnedeki tüm ağacların üzerinde teğet ve binormal oluşturur. Normal gereklidir, eğer ağacın üzerinde normal yoksa, konumdan normal verisi de oluşturulur. UV de gereklidir, UV tanımlı değilse ağacın göz ardı edilecektir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -111,7 +111,7 @@ public static VertexElementNormal generateNormal(Mesh mesh)
 ```
 
 
-Ağ tanımından normal verisi oluştur
+Mesh tanımından normal verisi oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -126,12 +126,12 @@ public static VertexElementUV generateUV(Mesh mesh)
 ```
 
 
-Verilen giriş ağından UV verisi oluştur
+Verilen giriş mesh'inden UV verisi oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | Giriş mesh'i |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | Girdi ağı |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Generated UV data
@@ -141,12 +141,12 @@ public static VertexElementUV generateUV(Mesh mesh, VertexElementNormal normals)
 ```
 
 
-Verilen giriş ağından ve belirtilen normal verisinden UV verisi oluştur.
+Verilen giriş mesh'inden ve belirtilen normal verisinden UV verisi oluştur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | Giriş mesh'i |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | Girdi ağı |
 | normals | [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) | Normal verisi |
 
 **Returns:**
@@ -177,7 +177,7 @@ public static Mesh mergeMesh(Node node)
 ```
 
 
-Bir bütün düğümü tek bir dönüştürülmüş ağaca dönüştürün; normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor.
+Bir bütün düğümü tek bir dönüştürülmüş ağaca dönüştürün. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -202,7 +202,7 @@ public static Mesh mergeMesh(Scene scene)
 ```
 
 
-Bir bütün sahneyi tek bir dönüştürülmüş ağaca dönüştürün; normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor.
+Bir bütün sahneyi tek bir dönüştürülmüş ağaca dönüştürün. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -227,7 +227,7 @@ public static Mesh mergeMesh(List<Node> nodes)
 ```
 
 
-Bir bütün düğümü tek bir dönüştürülmüş ağaca dönüştürün; normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor.
+Bir bütün düğümü tek bir dönüştürülmüş ağaca dönüştürün. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -268,13 +268,13 @@ public static void scale(Node node, Vector3 scale)
 ```
 
 
-Bu düğümdeki tüm geometrileri ölçeklendirin (Kontrol noktalarını ölçeklendirin, dönüşüm matrisini değil).
+Bu düğümdeki tüm geometrileri ölçeklendirin (Dönüşüm matrisini değil, kontrol noktalarını ölçeklendirin).
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) | Ölçeklendirilecek düğüm |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | Ölçek faktörü **Örnek:** Aşağıdaki kod, sahnedeki tüm geometrileri 10 kat ölçeklendirmeyi gösterir. |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | Ölçek faktörü **Example:** Aşağıdaki kod, sahnedeki tüm geometrileri 10 kat ölçeklendirmeyi gösterir. |
 
 ```
 //Load a test file for scaling
@@ -290,13 +290,13 @@ public static Scene scale(Scene scene, Vector3 scale)
 ```
 
 
-Bu sahnedeki tüm geometrileri ölçeklendirin (Kontrol noktalarını ölçeklendirin, dönüşüm matrisini değil).
+Bu sahnedeki tüm geometrileri ölçeklendirin (Dönüşüm matrisini değil, kontrol noktalarını ölçeklendirin).
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | scene | [Scene](../../com.aspose.threed/scene) | Ölçeklendirilecek sahne |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | Ölçek faktörü **Örnek:** Aşağıdaki kod, sahnedeki tüm geometrileri 10 kat ölçeklendirmeyi gösterir. |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | Ölçek faktörü **Example:** Aşağıdaki kod, sahnedeki tüm geometrileri 10 kat ölçeklendirmeyi gösterir. |
 
 ```
 //Load a test file for scaling
@@ -314,7 +314,7 @@ public static Mesh[] splitMesh(Mesh mesh, SplitMeshPolicy policy)
 ```
 
 
-Ağacı [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağaclara bölün. Her alt-ağac sadece bir materyal kullanacak. Orijinal ağacın değiştirilmeyecektir.
+Ağacı [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağaclara bölün. Her alt-ağaç yalnızca bir materyal kullanacaktır. Orijinal ağacın değişmeyecektir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -323,7 +323,7 @@ Ağacı [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) i
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 
 **Returns:**
-com.aspose.threed.Mesh[] - Yeni bölünmüş ağlar **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl böleceğinizi gösterir.
+com.aspose.threed.Mesh[] - Yeni bölünmüş ağlar **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl bölüneceğini gösterir.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -347,7 +347,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy)
 ```
 
 
-Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Bir düğümde ağ bölme işlemini gerçekleştirin **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl böleceğinizi gösterir.
+Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Bir düğümde ağ bölmeyi gerçekleştirin **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl bölüneceğini gösterir.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -378,14 +378,14 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Bir düğümde ağ bölme işlemini gerçekleştirin
+Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Bir düğümde ağ bölmeyi gerçekleştirin
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
-|  | createChildNodes | boolean | Her alt-ağ için çocuk düğümler oluşturun. **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl böleceğinizi gösterir. |
+|  | createChildNodes | boolean | Her alt-ağ için çocuk düğümler oluşturun. **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl bölüneceğini gösterir. |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -410,7 +410,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Bir düğümde ağ bölme işlemini gerçekleştirin
+Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Bir düğümde ağ bölmeyi gerçekleştirin
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -418,7 +418,7 @@ Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) 
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 | createChildNodes | boolean | Her alt-ağ için çocuk düğümler oluşturun. |
-|  | removeOldMesh | boolean | Bölme işleminden sonra eski ağı kaldırın, bu parametre false ise eski ve yeni ağlar birlikte var olacaktır. **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl böleceğinizi gösterir. |
+|  | removeOldMesh | boolean | Bölme işleminden sonra eski ağı kaldırın, bu parametre false ise eski ve yeni ağlar birlikte var olur. **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl bölüneceğini gösterir. |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -443,7 +443,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy)
 ```
 
 
-Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Sahnedeki tüm düğümlerde ağ bölme işlemini gerçekleştirin. **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl böleceğinizi gösterir.
+Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Sahnedeki tüm düğümlerde ağ bölmeyi gerçekleştirin. **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl bölüneceğini gösterir.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -474,7 +474,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy, boolean remove
 ```
 
 
-Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Sahnedeki tüm düğümlerde ağ bölme işlemini gerçekleştirin. **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl böleceğinizi gösterir.
+Ağları [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) ile alt-ağlara bölün. Her alt-ağ yalnızca bir malzeme kullanacaktır. Sahnedeki tüm düğümlerde ağ bölmeyi gerçekleştirin. **Örnek:** Aşağıdaki kod, bir kutuyu malzeme indekslerini kullanarak alt ağlara nasıl bölüneceğini gösterir.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -547,7 +547,7 @@ Tüm poligon tabanlı ağları tam üçgen ağına dönüştürün.
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | scene | [Scene](../../com.aspose.threed/scene) | İşlenecek sahne **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağda birleştirmenin nasıl yapılacağını gösterir. |
+|  | scene | [Scene](../../com.aspose.threed/scene) | İşlenecek sahne **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağa nasıl birleştirileceğini gösterir. |
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -574,7 +574,7 @@ Bir poligonu üçgenlere dönüştürün, poligonun sırası `controlPoints` tar
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Ağın kontrol noktaları |
 
 **Returns:**
-int[][] - Üçgenler kümesi **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağda birleştirmenin nasıl yapılacağını gösterir.
+int[][] - Üçgenlerin bir kümesi **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağa nasıl birleştirileceğini gösterir.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -598,10 +598,10 @@ Bir poligonu üçgenlere dönüştürün.
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Ağın kontrol noktaları |
-| polygon | int[] | Poligon yüzü |
+| polygon | int[] | Poligon yüzeyi |
 
 **Returns:**
-int[][] - Üçgenler kümesi **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağda birleştirmenin nasıl yapılacağını gösterir.
+int[][] - Üçgenlerin bir kümesi **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağa nasıl birleştirileceğini gösterir.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -625,10 +625,10 @@ Poligon tabanlı bir ağı üçgenlere dönüştürün.
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Ağın kontrol noktaları |
-| poligonlar | java.util.List<int[]> | Poligon yüzleri |
+| polygons | java.util.List<int[]> | Poligon yüzleri |
 
 **Returns:**
-int[][] - Üçgenler kümesi **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağda birleştirmenin nasıl yapılacağını gösterir.
+int[][] - Üçgenlerin bir kümesi **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağa nasıl birleştirileceğini gösterir.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -652,12 +652,12 @@ Poligon tabanlı bir ağı tam üçgen ağına dönüştürün.
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Ağın kontrol noktaları |
-| poligonlar | java.util.List<int[]> | Poligon yüzleri |
-| generateNormals | boolean | Normal vektörleri oluştur |
+| polygons | java.util.List<int[]> | Poligon yüzleri |
+| generateNormals | boolean | Normalleri oluştur |
 | nor_out | [Vector3\[\]](../../com.aspose.threed/vector3) | Kontrol noktası başına oluşturulan normal |
 
 **Returns:**
-int[][] - Üçgenler kümesi **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağda birleştirmenin nasıl yapılacağını gösterir.
+int[][] - Üçgenlerin bir kümesi **Örnek:** Aşağıdaki kod, bir sahnedeki tüm nesneleri tek bir ağa nasıl birleştirileceğini gösterir.
 
 ```
 var mesh = new Cylinder().toMesh();

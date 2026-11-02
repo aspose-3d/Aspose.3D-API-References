@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Eksen hizalı sınırlama kutusu Örnek  Aşağıdaki kod, bir Entity örneğinden sınırlama kutusu almanın nasıl yapılacağını gösterir."
+description: "Eksen hizalı sınırlama kutusu Örnek  Aşağıdaki kod, bir Entity örneğinden sınırlama kutusunun nasıl alınacağını gösterir."
 type: docs
 weight: 24
 url: /tr/java/com.aspose.threed/boundingbox/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox implements Struct<BoundingBox>, Serializable
 ```
 
-Eksen hizalı sınırlayıcı kutu **Örnek:** Aşağıdaki kod, bir Entity örneğinden sınırlayıcı kutu nasıl alınacağını gösterir.
+Eksen hizalı sınırlayıcı kutu **Example:** Aşağıdaki kod, bir Entity örneğinden sınırlayıcı kutu nasıl alınacağını gösterir.
 
 ```
 var sphere = new Sphere();
@@ -27,8 +27,8 @@ var sphere = new Sphere();
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [BoundingBox(Vector3 minimum, Vector3 maximum)](#BoundingBox-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Verilen minimum ve maksimum köşe ile sonlu bir sınırlayıcı kutu başlatın |
-| [BoundingBox(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)](#BoundingBox-double-double-double-double-double-double-) | Verilen minimum ve maksimum köşe ile sonlu bir sınırlayıcı kutu başlatın |
+| [BoundingBox(Vector3 minimum, Vector3 maximum)](#BoundingBox-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Verilen minimum ve maksimum köşelerle sonlu bir sınırlayıcı kutu başlatın |
+| [BoundingBox(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)](#BoundingBox-double-double-double-double-double-double-) | Verilen minimum ve maksimum köşelerle sonlu bir sınırlayıcı kutu başlatın |
 | [BoundingBox()](#BoundingBox--) |  |
 ## Yöntemler
 
@@ -53,7 +53,7 @@ var sphere = new Sphere();
 | [merge(Vector3 pt)](#merge-com.aspose.threed.Vector3-) | Mevcut sınırlama kutusunu verilen nokta ile birleştir |
 | [merge(Vector4 pt)](#merge-com.aspose.threed.Vector4-) | Mevcut sınırlama kutusunu verilen nokta ile birleştir |
 | [merge(double x, double y, double z)](#merge-double-double-double-) | Mevcut sınırlama kutusunu verilen nokta ile birleştir |
-| [mul(BoundingBox bbox, Matrix4 mat)](#mul-com.aspose.threed.BoundingBox-com.aspose.threed.Matrix4-) | Çarpma için operatör aşırı yüklemesi, yeni sınırlama kutusunun minimum ve maksimum köşeleri matris tarafından dönüştürülecek. |
+| [mul(BoundingBox bbox, Matrix4 mat)](#mul-com.aspose.threed.BoundingBox-com.aspose.threed.Matrix4-) | Çarpma için operatör aşırı yüklemesi, yeni sınırlama kutusunun minimum ve maksimum köşesi matris tarafından dönüştürülecek. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [overlapsWith(BoundingBox box)](#overlapsWith-com.aspose.threed.BoundingBox-) | Mevcut sınırlama kutusunun belirtilen sınırlama kutusuyla çakışıp çakışmadığını kontrol et. |
@@ -68,7 +68,7 @@ public BoundingBox(Vector3 minimum, Vector3 maximum)
 ```
 
 
-Verilen minimum ve maksimum köşe ile sonlu bir sınırlayıcı kutu başlatın
+Verilen minimum ve maksimum köşelerle sonlu bir sınırlayıcı kutu başlatın
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -89,17 +89,17 @@ public BoundingBox(double minX, double minY, double minZ, double maxX, double ma
 ```
 
 
-Verilen minimum ve maksimum köşe ile sonlu bir sınırlayıcı kutu başlatın
+Verilen minimum ve maksimum köşelerle sonlu bir sınırlayıcı kutu başlatın
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | minX | double | Minimum köşenin X'i |
-| minY | double | Minimum köşenin Y |
-| minZ | double | Minimum köşenin Z |
-| maxX | double | Maksimum köşenin X |
-| maxY | double | Maksimum köşenin Y |
-|  | maxZ | double | Maksimum köşenin Z **Example:** Aşağıdaki kod, minimum ve maksimum köşelerden bir sınırlama kutusu nasıl oluşturulacağını gösterir. |
+| minY | double | Minimum köşenin Y'si |
+| minZ | double | Minimum köşenin Z'si |
+| maxX | double | Maksimum köşenin X'si |
+| maxY | double | Maksimum köşenin Y'si |
+|  | maxZ | double | Maksimum köşenin Z'si **Örnek:** Aşağıdaki kod, minimum ve maksimum köşelerden bir sınırlama kutusu oluşturmanın nasıl yapılacağını gösterir. |
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -118,7 +118,7 @@ public BoundingBox clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox)
@@ -151,7 +151,7 @@ p noktasının sınırlama kutusunun içinde olup olmadığını kontrol et
 | p | [Vector3](../../com.aspose.threed/vector3) | Test edilecek nokta |
 
 **Returns:**
-boolean - Nokta sınırlama kutusunun içinde ise True **Example:** Aşağıdaki kod, bir noktanın sınırlama kutusunun içinde olup olmadığını nasıl kontrol edeceğini gösterir.
+boolean - Nokta sınırlama kutusunun içinde ise True **Örnek:** Aşağıdaki kod, bir noktanın sınırlama kutusunun içinde olup olmadığını kontrol etmenin nasıl yapılacağını gösterir.
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -321,7 +321,7 @@ Mevcut sınırlama kutusunu verilen nokta ile birleştir
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | pt | [Vector3](../../com.aspose.threed/vector3) | Sınırlama kutusuna birleştirilecek nokta **Example:** Aşağıdaki kod, bir noktanın sınırlama kutusuna nasıl birleştirileceğini gösterir. |
+|  | pt | [Vector3](../../com.aspose.threed/vector3) | Sınırlama kutusuna birleştirilecek nokta **Örnek:** Aşağıdaki kod, bir noktanın sınırlama kutusuna nasıl birleştirileceğini gösterir. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -340,7 +340,7 @@ Mevcut sınırlama kutusunu verilen nokta ile birleştir
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | pt | [Vector4](../../com.aspose.threed/vector4) | Sınırlama kutusuna birleştirilecek nokta **Example:** Aşağıdaki kod, bir noktanın sınırlama kutusuna nasıl birleştirileceğini gösterir. |
+|  | pt | [Vector4](../../com.aspose.threed/vector4) | Sınırlama kutusuna birleştirilecek nokta **Örnek:** Aşağıdaki kod, bir noktanın sınırlama kutusuna nasıl birleştirileceğini gösterir. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -361,7 +361,7 @@ Mevcut sınırlama kutusunu verilen nokta ile birleştir
 | --- | --- | --- |
 | x | double | Sınırlama kutusuna birleştirilecek nokta |
 | y | double | Sınırlama kutusuna birleştirilecek nokta |
-|  | z | double | Sınırlama kutusuna birleştirilecek nokta **Example:** Aşağıdaki kod, bir noktanın sınırlama kutusuna nasıl birleştirileceğini gösterir. |
+|  | z | double | Sınırlama kutusuna birleştirilecek nokta **Örnek:** Aşağıdaki kod, bir noktanın sınırlama kutusuna nasıl birleştirileceğini gösterir. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -375,7 +375,7 @@ public static BoundingBox mul(BoundingBox bbox, Matrix4 mat)
 ```
 
 
-Çarpma için operatör aşırı yüklemesi, yeni sınırlama kutusunun minimum ve maksimum köşeleri matris tarafından dönüştürülecek.
+Çarpma için operatör aşırı yüklemesi, yeni sınırlama kutusunun minimum ve maksimum köşesi matris tarafından dönüştürülecek.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -415,7 +415,7 @@ Mevcut sınırlama kutusunun belirtilen sınırlama kutusuyla çakışıp çakı
 | box | [BoundingBox](../../com.aspose.threed/boundingbox) | Test edilecek diğer sınırlama kutusu |
 
 **Returns:**
-boolean - Geçerli sınırlama kutusu verilenle çakışıyorsa True. **Example:** Aşağıdaki kod, iki sınırlama kutusunun birbirleriyle nasıl çakıştığını kontrol edeceğini gösterir.
+boolean - Mevcut sınırlama kutusu verilenle çakışıyorsa True. **Örnek:** Aşağıdaki kod, iki sınırlama kutusunun birbirleriyle çakışıp çakışmadığını kontrol etmenin nasıl yapılacağını gösterir.
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);

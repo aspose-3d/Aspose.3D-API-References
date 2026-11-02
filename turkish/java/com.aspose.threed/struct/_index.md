@@ -1,7 +1,7 @@
 ---
-title: "Yapı"
+title: "Struct"
 second_title: "Aspose.3D for Java API Referansı"
-description: "lexchou tarafından 11/13/2017 tarihinde oluşturuldu."
+description: "lexchou tarafından 13/11/2017 tarihinde oluşturuldu."
 type: docs
 weight: 262
 url: /tr/java/com.aspose.threed/struct/
@@ -13,13 +13,13 @@ java.lang.Cloneable, java.io.Serializable
 public interface Struct<T> extends Cloneable, Serializable
 ```
 
-lexchou tarafından 11/13/2017 tarihinde oluşturuldu.
+lexchou tarafından 13/11/2017 tarihinde oluşturuldu.
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [<T>byVal(T value)](#-T-byVal-T-) | Giriş değerini yapı ise kopyalamayı dene |
-| [clone()](#clone--) | Mevcut örneği kopyala |
+| [<T>byVal(T value)](#-T-byVal-T-) | Giriş değerini, eğer Struct ise kopyalamayı dene |
+| [clone()](#clone--) | Geçerli örneği kopyala |
 | [copyFrom(T t)](#copyFrom-T-) | t argümanından iç durumu kopyala |
 ### <T>byVal(T value) {#-T-byVal-T-}
 ```
@@ -27,7 +27,7 @@ public static T <T>byVal(T value)
 ```
 
 
-Giriş değerini yapı ise kopyalamayı dene
+Giriş değerini, eğer Struct ise kopyalamayı dene
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -35,14 +35,14 @@ Giriş değerini yapı ise kopyalamayı dene
 | değer | T | kopyalanacak giriş değeri |
 
 **Returns:**
-T - giriş null ise veya kopyalanmış örnek ise null
+T - giriş null ise null veya kopyalanmış örnek
 ### clone() {#clone--}
 ```
 public abstract T clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 T - kopyalanmış örnek

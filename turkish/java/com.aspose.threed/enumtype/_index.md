@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.EnumType"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Enum tip tanımı"
+description: "Enum tür tanımı"
 type: docs
 weight: 11
 url: /tr/java/com.aspose.threed/structuralmetadata.enumtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public static class StructuralMetadata.EnumType
 ```
 
-Enum tip tanımı
+Enum tür tanımı
 ## Yapıcılar
 
 | Yapıcı | Açıklama |

@@ -18,7 +18,7 @@ Meta veride sınıf tanımı
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [ClassType(String name, String displayName, String description, ArrayList<StructuralMetadata.Property> properties)](#ClassType-java.lang.String-java.lang.String-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.Property--) | Sınıf tanımının yapıcısı |
+| [ClassType(String name, String displayName, String description, ArrayList<StructuralMetadata.Property> properties)](#ClassType-java.lang.String-java.lang.String-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.Property--) | Sınıf tanımının yapıcı |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -53,7 +53,7 @@ public ClassType(String name, String displayName, String description, ArrayList<
 ```
 
 
-Sınıf tanımının yapıcısı
+Sınıf tanımının yapıcı
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -107,7 +107,7 @@ public StructuralMetadata.Property addProperty(String name, StructuralMetadata.E
 | ad | java.lang.String |  |
 | type | [EnumType](../../com.aspose.threed/enumtype) |  |
 | dizi | boolean |  |
-| sayım | java.lang.Integer |  |
+| say | java.lang.Integer |  |
 
 **Returns:**
 [Property](../../com.aspose.threed/property)
@@ -162,7 +162,7 @@ public StructuralMetadata.Property addProperty(String name, String displayName, 
 | description | java.lang.String |  |
 | type | [EnumType](../../com.aspose.threed/enumtype) |  |
 | dizi | boolean |  |
-| sayım | java.lang.Integer |  |
+| say | java.lang.Integer |  |
 
 **Returns:**
 [Property](../../com.aspose.threed/property)
@@ -219,7 +219,7 @@ public StructuralMetadata.Property addProperty(String name, String displayName, 
 | description | java.lang.String |  |
 | type | java.lang.Class<?> |  |
 | normalized | boolean |  |
-| sayım | java.lang.Integer |  |
+| say | java.lang.Integer |  |
 
 **Returns:**
 [Property](../../com.aspose.threed/property)

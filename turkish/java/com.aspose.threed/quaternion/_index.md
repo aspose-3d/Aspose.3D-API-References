@@ -1,7 +1,7 @@
 ---
 title: "Quaternion"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek için kullanılır."
+description: "Kuataternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek için kullanılır."
 type: docs
 weight: 143
 url: /tr/java/com.aspose.threed/quaternion/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class Quaternion implements Struct<Quaternion>, Serializable
 ```
 
-Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek için kullanılır.
+Kuataternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek için kullanılır.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -27,7 +27,7 @@ Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek iç
 
 | Alan | Açıklama |
 | --- | --- |
-| [IDENTITY](#IDENTITY) | Kimlik quaternion'ı. |
+| [IDENTITY](#IDENTITY) | Kimlik kuaterniyonu. |
 | [w](#w) | w bileşeni. |
 | [x](#x) | x bileşeni. |
 | [y](#y) | y bileşeni. |
@@ -36,39 +36,39 @@ Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek iç
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [add(Quaternion lhs, Quaternion rhs)](#add-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | + operatörü için aşırı yükleme |
+| [add(Quaternion lhs, Quaternion rhs)](#add-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | + için operatör aşırı yükleme |
 | [clone()](#clone--) |  |
-| [concat(Quaternion rhs)](#concat-com.aspose.threed.Quaternion-) | İki quaternion'ı birleştir. |
-| [conjugate()](#conjugate--) | Mevcut quaternion'ın eşleniğini döndürür. |
+| [concat(Quaternion rhs)](#concat-com.aspose.threed.Quaternion-) | İki kuaterniyonu birleştir. |
+| [conjugate()](#conjugate--) | Mevcut kuaterniyonun eşleniğini döndürür. |
 | [copyFrom(Quaternion src)](#copyFrom-com.aspose.threed.Quaternion-) |  |
-| [div(Quaternion lhs, double rhs)](#div-com.aspose.threed.Quaternion-double-) | / operatörü için aşırı yükleme |
+| [div(Quaternion lhs, double rhs)](#div-com.aspose.threed.Quaternion-double-) | / için operatör aşırı yükleme |
 | [dot(Quaternion q)](#dot-com.aspose.threed.Quaternion-) | Nokta çarpımı. |
-| [equals(Object obj)](#equals-java.lang.Object-) | İki quaternion'ın eşit olup olmadığını kontrol et. |
-| [eulerAngles()](#eulerAngles--) | Quaternion'ı Euler açılarıyla temsil edilen rotasyona dönüştürür. Tüm bileşenler radyan cinsindendir. |
-| [fromAngleAxis(double a, Vector3 axis)](#fromAngleAxis-double-com.aspose.threed.Vector3-) | Verilen eksen etrafında bir quaternion oluşturur ve saat yönünde döndürür. |
-| [fromEulerAngle(Vector3 eulerAngle)](#fromEulerAngle-com.aspose.threed.Vector3-) | Verilen Euler açısından quaternion oluşturur. |
-| [fromEulerAngle(double pitch, double yaw, double roll)](#fromEulerAngle-double-double-double-) | Verilen Euler açısından quaternion oluşturur. |
-| [fromRotation(Vector3 orig, Vector3 dest)](#fromRotation-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Orijinal yönünden hedef yönüne dönen bir quaternion oluşturur. |
+| [equals(Object obj)](#equals-java.lang.Object-) | İki kuaterniyonun eşit olup olmadığını kontrol et. |
+| [eulerAngles()](#eulerAngles--) | Kuaterniyonu Euler açılarıyla temsil edilen rotasyona dönüştürür. Tüm bileşenler radyan cinsindendir. |
+| [fromAngleAxis(double a, Vector3 axis)](#fromAngleAxis-double-com.aspose.threed.Vector3-) | Verilen eksen etrafında bir kuaterniyon oluşturur ve saat yönünde döndürür. |
+| [fromEulerAngle(Vector3 eulerAngle)](#fromEulerAngle-com.aspose.threed.Vector3-) | Verilen Euler açısından kuaterniyon oluşturur. |
+| [fromEulerAngle(double pitch, double yaw, double roll)](#fromEulerAngle-double-double-double-) | Verilen Euler açısından kuaterniyon oluşturur. |
+| [fromRotation(Vector3 orig, Vector3 dest)](#fromRotation-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Orijinal yönünden hedef yönüne dönen bir kuaterniyon oluşturur. |
 | [getClass()](#getClass--) |  |
-| [getLength()](#getLength--) | Quaternion'ın uzunluğunu alır. |
-| [hashCode()](#hashCode--) | Quaternion'ın karma kodunu alır. |
-| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Bu quaternion'ı, verilen quaternion argümanları arasında, from ve to arasında bir t değeri için ara değerle doldurur. |
-| [inverse()](#inverse--) | Mevcut quaternion'ın tersini döndürür. |
-| [mul(Quaternion lhs, Quaternion rhs)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | \* operatörü için aşırı yükleme |
-| [mul(Quaternion q, Vector3 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector3-) | \* operatörü için aşırı yükleme |
-| [mul(Quaternion q, Vector4 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector4-) | \* operatörü için aşırı yükleme |
-| [mul(Quaternion lhs, double rhs)](#mul-com.aspose.threed.Quaternion-double-) | \* operatörü için aşırı yükleme |
-| [mul(Vector3 v, Quaternion q)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | \* operatörü için aşırı yükleme |
-| [normalize()](#normalize--) | Quaternion'ı normalleştir. |
+| [getLength()](#getLength--) | Kuaterniyonun uzunluğunu alır. |
+| [hashCode()](#hashCode--) | Kuaterniyonun karma kodunu alır. |
+| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Bu kuaterniyonu, verilen kuaterniyon argümanları arasında, from ve to arasında bir t değeri için ara değerle doldurur. |
+| [inverse()](#inverse--) | Mevcut kuaterniyonun tersini döndürür. |
+| [mul(Quaternion lhs, Quaternion rhs)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | * için operatör aşırı yükleme |
+| [mul(Quaternion q, Vector3 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector3-) | * için operatör aşırı yükleme |
+| [mul(Quaternion q, Vector4 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector4-) | * için operatör aşırı yükleme |
+| [mul(Quaternion lhs, double rhs)](#mul-com.aspose.threed.Quaternion-double-) | * için operatör aşırı yükleme |
+| [mul(Vector3 v, Quaternion q)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | * için operatör aşırı yükleme |
+| [normalize()](#normalize--) | Kuaterniyonu normalleştir. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_eq(Quaternion lhs, Quaternion rhs)](#op-eq-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Quaternion için eşitlik operatörü. |
-| [op_ne(Quaternion lhs, Quaternion rhs)](#op-ne-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Quaternion için eşitsizlik operatörü. |
-| [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | İki değer arasında küresel doğrusal ara değerleme (slerp) gerçekleştir. |
-| [toAngleAxis(double[] angle, Vector3 axis)](#toAngleAxis-double---com.aspose.threed.Vector3-) | Quaternion'ı açı ve eksene ayır. |
-| [toMatrix()](#toMatrix--) | Quaternion tarafından sunulan rotasyonu dönüşüm matrisine çevir. |
-| [toMatrix(Vector3 translation)](#toMatrix-com.aspose.threed.Vector3-) | Quaternion tarafından sunulan rotasyonu dönüşüm matrisine çevir. |
-| [toString()](#toString--) | Quaternion'ın dizedeki temsilini alır. |
+| [op_eq(Quaternion lhs, Quaternion rhs)](#op-eq-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Kuaterniyon için eşitlik operatörü. |
+| [op_ne(Quaternion lhs, Quaternion rhs)](#op-ne-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Kuaterniyon için eşitsizlik operatörü. |
+| [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | İki değer arasında küresel doğrusal ara değerleme gerçekleştir. |
+| [toAngleAxis(double[] angle, Vector3 axis)](#toAngleAxis-double---com.aspose.threed.Vector3-) | Kuaterniyonu açı ve eksene ayır. |
+| [toMatrix()](#toMatrix--) | Kuaterniyonun temsil ettiği rotasyonu dönüşüm matrisine çevir. |
+| [toMatrix(Vector3 translation)](#toMatrix-com.aspose.threed.Vector3-) | Kuaterniyonun temsil ettiği rotasyonu dönüşüm matrisine çevir. |
+| [toString()](#toString--) | Kuaterniyonun dizedeki temsilini alır. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -83,10 +83,10 @@ Yeni bir [Quaternion](../../com.aspose.threed/quaternion) sınıfının örneği
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| w | double | kuaternionun w bileşeni |
-| x | double | kuaternionun x bileşeni |
-| y | double | kuaternionun y bileşeni |
-| z | double | kuaternionun z bileşeni |
+| w | double | kuaterniyonun w bileşeni |
+| x | double | kuaterniyonun x bileşeni |
+| y | double | kuaterniyonun y bileşeni |
+| z | double | kuaterniyonun z bileşeni |
 
 ### Quaternion() {#Quaternion--}
 ```
@@ -100,7 +100,7 @@ public static final Quaternion IDENTITY
 ```
 
 
-Kimlik quaternion'ı.
+Kimlik kuaterniyonu.
 
 ### w {#w}
 ```
@@ -140,13 +140,13 @@ public static Quaternion add(Quaternion lhs, Quaternion rhs)
 ```
 
 
-+ operatörü için aşırı yükleme
++ için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol kuaternion |
-| rhs | [Quaternion](../../com.aspose.threed/quaternion) | Sağ kuaternion |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol kuaterniyon |
+| rhs | [Quaternion](../../com.aspose.threed/quaternion) | Sağ kuaterniyon |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Result quaternion
@@ -156,7 +156,7 @@ public Quaternion clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion)
@@ -166,7 +166,7 @@ public Quaternion concat(Quaternion rhs)
 ```
 
 
-İki quaternion'ı birleştir.
+İki kuaterniyonu birleştir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -181,7 +181,7 @@ public Quaternion conjugate()
 ```
 
 
-Mevcut quaternion'ın eşleniğini döndürür.
+Mevcut kuaterniyonun eşleniğini döndürür.
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - The conjugate quaternion.
@@ -204,13 +204,13 @@ public static Quaternion div(Quaternion lhs, double rhs)
 ```
 
 
-/ operatörü için aşırı yükleme
+/ için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol kuaternion |
-| rhs | double | Sağ kuaternion |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol kuaterniyon |
+| rhs | double | Sağ kuaterniyon |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Result quaternion
@@ -225,7 +225,7 @@ Nokta çarpımı.
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | Kuaternion |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | Kuaterniyon |
 
 **Returns:**
 double - Nokta değeri
@@ -235,7 +235,7 @@ public boolean equals(Object obj)
 ```
 
 
-İki quaternion'ın eşit olup olmadığını kontrol et.
+İki kuaterniyonun eşit olup olmadığını kontrol et.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -250,7 +250,7 @@ public Vector3 eulerAngles()
 ```
 
 
-Quaternion'ı Euler açılarıyla temsil edilen rotasyona dönüştürür. Tüm bileşenler radyan cinsindendir.
+Kuaterniyonu Euler açılarıyla temsil edilen rotasyona dönüştürür. Tüm bileşenler radyan cinsindendir.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -260,7 +260,7 @@ public static Quaternion fromAngleAxis(double a, Vector3 axis)
 ```
 
 
-Verilen eksen etrafında bir quaternion oluşturur ve saat yönünde döndürür.
+Verilen eksen etrafında bir kuaterniyon oluşturur ve saat yönünde döndürür.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -276,7 +276,7 @@ public static Quaternion fromEulerAngle(Vector3 eulerAngle)
 ```
 
 
-Verilen Euler açısından quaternion oluşturur.
+Verilen Euler açısından kuaterniyon oluşturur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -291,13 +291,13 @@ public static Quaternion fromEulerAngle(double pitch, double yaw, double roll)
 ```
 
 
-Verilen Euler açısından quaternion oluşturur.
+Verilen Euler açısından kuaterniyon oluşturur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | eğim | double | Radyan cinsinden eğim |
-| yaw | double | Radyan cinsinden yaw |
+| sapma | double | Radyan cinsinden sapma |
 | yuvarlanma | double | Radyan cinsinden yuvarlanma |
 
 **Returns:**
@@ -308,7 +308,7 @@ public static Quaternion fromRotation(Vector3 orig, Vector3 dest)
 ```
 
 
-Orijinal yönünden hedef yönüne dönen bir quaternion oluşturur.
+Orijinal yönünden hedef yönüne dönen bir kuaterniyon oluşturur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -334,34 +334,34 @@ public double getLength()
 ```
 
 
-Quaternion'ın uzunluğunu alır.
+Kuaterniyonun uzunluğunu alır.
 
 **Returns:**
-double - kuaternionun uzunluğu
+double - kuaterniyonun uzunluğu
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-Quaternion'ın karma kodunu alır.
+Kuaterniyonun karma kodunu alır.
 
 **Returns:**
-int - [Quaternion](../../com.aspose.threed/quaternion) hash kodu
+int - [Quaternion](../../com.aspose.threed/quaternion) öğesinin karma kodu
 ### interpolate(float t, Quaternion from, Quaternion to) {#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-}
 ```
 public static Quaternion interpolate(float t, Quaternion from, Quaternion to)
 ```
 
 
-Bu quaternion'ı, verilen quaternion argümanları arasında, from ve to arasında bir t değeri için ara değerle doldurur.
+Bu kuaterniyonu, verilen kuaterniyon argümanları arasında, from ve to arasında bir t değeri için ara değerle doldurur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| t | float | Enterpolasyon katsayısı. |
-| from | [Quaternion](../../com.aspose.threed/quaternion) | Kaynak kuaternion. |
-| to | [Quaternion](../../com.aspose.threed/quaternion) | Hedef kuaternion. |
+| t | float | Aralığa girmek için katsayı. |
+| from | [Quaternion](../../com.aspose.threed/quaternion) | Kaynak kuaterniyon. |
+| to | [Quaternion](../../com.aspose.threed/quaternion) | Hedef kuaterniyon. |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - The interpolated quaternion.
@@ -371,7 +371,7 @@ public Quaternion inverse()
 ```
 
 
-Mevcut quaternion'ın tersini döndürür.
+Mevcut kuaterniyonun tersini döndürür.
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Inverse quaternion.
@@ -381,13 +381,13 @@ public static Quaternion mul(Quaternion lhs, Quaternion rhs)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol kuaternion |
-| rhs | [Quaternion](../../com.aspose.threed/quaternion) | Sağ kuaternion |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol kuaterniyon |
+| rhs | [Quaternion](../../com.aspose.threed/quaternion) | Sağ kuaterniyon |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Result quaternion
@@ -397,12 +397,12 @@ public static Vector3 mul(Quaternion q, Vector3 v)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | Dönüş kuaternionu |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | Rotasyon kuaterniyonu |
 | v | [Vector3](../../com.aspose.threed/vector3) | Döndürülecek vektör |
 
 **Returns:**
@@ -413,12 +413,12 @@ public static Vector4 mul(Quaternion q, Vector4 v)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | Dönüş kuaternionu |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | Rotasyon kuaterniyonu |
 | v | [Vector4](../../com.aspose.threed/vector4) | Döndürülecek vektör |
 
 **Returns:**
@@ -429,13 +429,13 @@ public static Quaternion mul(Quaternion lhs, double rhs)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol kuaternion |
-| rhs | double | Sağ kuaternion |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol kuaterniyon |
+| rhs | double | Sağ kuaterniyon |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Result quaternion
@@ -445,12 +445,12 @@ public static Vector3 mul(Vector3 v, Quaternion q)
 ```
 
 
-\* operatörü için aşırı yükleme
+* için operatör aşırı yükleme
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| v | [Vector3](../../com.aspose.threed/vector3) | Dönüş kuaternionu |
+| v | [Vector3](../../com.aspose.threed/vector3) | Rotasyon kuaterniyonu |
 | q | [Quaternion](../../com.aspose.threed/quaternion) | Döndürülecek vektör |
 
 **Returns:**
@@ -461,7 +461,7 @@ public Quaternion normalize()
 ```
 
 
-Quaternion'ı normalleştir.
+Kuaterniyonu normalleştir.
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Normalized quaternion.
@@ -487,13 +487,13 @@ public static boolean op_eq(Quaternion lhs, Quaternion rhs)
 ```
 
 
-Quaternion için eşitlik operatörü.
+Kuaterniyon için eşitlik operatörü.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol taraf değeri. |
-| rhs | [Quaternion](../../com.aspose.threed/quaternion) | Sağ taraf değeri. |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol taraftaki değer. |
+| rhs | [Quaternion](../../com.aspose.threed/quaternion) | Sağ taraftaki değer. |
 
 **Returns:**
 boolean - Tüm bileşenler aynıysa doğru.
@@ -503,23 +503,23 @@ public static boolean op_ne(Quaternion lhs, Quaternion rhs)
 ```
 
 
-Quaternion için eşitsizlik operatörü.
+Kuaterniyon için eşitsizlik operatörü.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol taraf değeri. |
-| rhs | [Quaternion](../../com.aspose.threed/quaternion) | Sağ taraf değeri. |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Sol taraftaki değer. |
+| rhs | [Quaternion](../../com.aspose.threed/quaternion) | Sağ taraftaki değer. |
 
 **Returns:**
-boolean - İki kuaterniyon eşit değilse True.
+boolean - İki quaternion eşit değilse True.
 ### slerp(double t, Quaternion v1, Quaternion v2) {#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-}
 ```
 public static Quaternion slerp(double t, Quaternion v1, Quaternion v2)
 ```
 
 
-İki değer arasında küresel doğrusal ara değerleme (slerp) gerçekleştir.
+İki değer arasında küresel doğrusal ara değerleme gerçekleştir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -536,12 +536,12 @@ public void toAngleAxis(double[] angle, Vector3 axis)
 ```
 
 
-Quaternion'ı açı ve eksene ayır.
+Kuaterniyonu açı ve eksene ayır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| açı | double[] | Radyan cinsinden döndürme açısı. |
+| açı | double[] | Döndürme açısı, radyan cinsinden. |
 | axis | [Vector3](../../com.aspose.threed/vector3) | Dönüş ekseni. |
 
 ### toMatrix() {#toMatrix--}
@@ -550,7 +550,7 @@ public Matrix4 toMatrix()
 ```
 
 
-Quaternion tarafından sunulan rotasyonu dönüşüm matrisine çevir.
+Kuaterniyonun temsil ettiği rotasyonu dönüşüm matrisine çevir.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - The matrix representation of current quaternion.
@@ -560,7 +560,7 @@ public Matrix4 toMatrix(Vector3 translation)
 ```
 
 
-Quaternion tarafından sunulan rotasyonu dönüşüm matrisine çevir.
+Kuaterniyonun temsil ettiği rotasyonu dönüşüm matrisine çevir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -575,7 +575,7 @@ public String toString()
 ```
 
 
-Quaternion'ın dizedeki temsilini alır.
+Kuaterniyonun dizedeki temsilini alır.
 
 **Returns:**
 java.lang.String - Nesne dizesi

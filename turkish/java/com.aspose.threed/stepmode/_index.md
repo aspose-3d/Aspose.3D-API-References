@@ -1,7 +1,7 @@
 ---
 title: "StepMode"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Ara değerleme adım modu."
+description: "Enterpolasyon adım modu."
 type: docs
 weight: 304
 url: /tr/java/com.aspose.threed/stepmode/
@@ -13,12 +13,12 @@ java.lang.Object, java.lang.Enum
 public enum StepMode extends Enum<StepMode>
 ```
 
-Ara değerleme adım modu.
+Enterpolasyon adım modu.
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
-| [NEXT_VALUE](#NEXT-VALUE) | Bir segmentin eğri değeri her zaman bir sonraki ana kareden gelen değeri kullanır |
+| [NEXT_VALUE](#NEXT-VALUE) | Bir segmentin eğri değeri her zaman sonraki ana kareden gelen değeri kullanır |
 | [PREVIOUS_VALUE](#PREVIOUS-VALUE) | Bir segmentin eğri değeri her zaman önceki ana kareden gelen değeri kullanır |
 ## Yöntemler
 
@@ -47,7 +47,7 @@ public static final StepMode NEXT_VALUE
 ```
 
 
-Bir segmentin eğri değeri her zaman bir sonraki ana kareden gelen değeri kullanır
+Bir segmentin eğri değeri her zaman sonraki ana kareden gelen değeri kullanır
 
 ### PREVIOUS_VALUE {#PREVIOUS-VALUE}
 ```

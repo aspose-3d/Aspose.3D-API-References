@@ -1,7 +1,7 @@
 ---
 title: "ShaderVariable"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Shader değişkeni."
+description: "Gölgelendirici değişkeni"
 type: docs
 weight: 170
 url: /tr/java/com.aspose.threed/shadervariable/
@@ -13,13 +13,13 @@ java.lang.Object
 public class ShaderVariable
 ```
 
-Shader değişkeni.
+Gölgelendirici değişkeni
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [ShaderVariable(String name)](#ShaderVariable-java.lang.String-) | [ShaderVariable](../../com.aspose.threed/shadervariable) yapıcı metodu |
-| [ShaderVariable(String name, int shaderStage)](#ShaderVariable-java.lang.String-int-) | [ShaderVariable](../../com.aspose.threed/shadervariable) yapıcı metodu |
+| [ShaderVariable(String name)](#ShaderVariable-java.lang.String-) | Yapıcı [ShaderVariable](../../com.aspose.threed/shadervariable) |
+| [ShaderVariable(String name, int shaderStage)](#ShaderVariable-java.lang.String-int-) | Yapıcı [ShaderVariable](../../com.aspose.threed/shadervariable) |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -40,7 +40,7 @@ public ShaderVariable(String name)
 ```
 
 
-[ShaderVariable](../../com.aspose.threed/shadervariable) yapıcı metodu
+Yapıcı [ShaderVariable](../../com.aspose.threed/shadervariable)
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -53,7 +53,7 @@ public ShaderVariable(String name, int shaderStage)
 ```
 
 
-[ShaderVariable](../../com.aspose.threed/shadervariable) yapıcı metodu
+Yapıcı [ShaderVariable](../../com.aspose.threed/shadervariable)
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

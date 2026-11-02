@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AssetInfo extends A3DObject
 ```
 
-Varlık bilgisi. Varlık bilgisi bir [Scene](../../com.aspose.threed/scene) öğesine eklenebilir. Çocuk [Scene](../../com.aspose.threed/scene) kendi [AssetInfo](../../com.aspose.threed/assetinfo) öğesine sahip olabilir ve ebeveynin tanımını geçersiz kılabilir. **Örnek:** Aşağıdaki kod, bir fbx dosyasından varlık bilgisinin nasıl okunacağını gösterir:
+Varlık bilgisi. Varlık bilgisi bir [Scene](../../com.aspose.threed/scene)'e eklenebilir. Alt [Scene](../../com.aspose.threed/scene) kendi [AssetInfo](../../com.aspose.threed/assetinfo)'na sahip olabilir ve ebeveyn tanımını geçersiz kılar. **Example:** Aşağıdaki kod, bir fbx dosyasından varlık bilgisini nasıl okuyacağınızı gösterir:
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -26,8 +26,8 @@ Scene scene = Scene.fromFile("test.fbx");
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [AssetInfo()](#AssetInfo--) | [AssetInfo](../../com.aspose.threed/assetinfo) sınıfının yeni bir örneğini başlatır. |
-| [AssetInfo(String name)](#AssetInfo-java.lang.String-) | [AssetInfo](../../com.aspose.threed/assetinfo) sınıfının yeni bir örneğini başlatır. |
+| [AssetInfo()](#AssetInfo--) | Yeni bir [AssetInfo](../../com.aspose.threed/assetinfo) sınıfı örneği başlatır. |
+| [AssetInfo(String name)](#AssetInfo-java.lang.String-) | Yeni bir [AssetInfo](../../com.aspose.threed/assetinfo) sınıfı örneği başlatır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -50,7 +50,7 @@ Scene scene = Scene.fromFile("test.fbx");
 | [getModificationTime()](#getModificationTime--) | Bu varlığın değiştirilme zamanını alır veya ayarlar |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [getRevision()](#getRevision--) | Bu varlığın revizyon numarasını alır, genellikle sürüm kontrol sisteminde kullanılır. |
 | [getSubject()](#getSubject--) | Bu varlığın konusunu alır |
 | [getTitle()](#getTitle--) | Bu varlığın başlığını alır |
@@ -62,7 +62,7 @@ Scene scene = Scene.fromFile("test.fbx");
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setAmbient(Vector4 value)](#setAmbient-com.aspose.threed.Vector4-) | Bu varlığın varsayılan ortam rengini alır veya ayarlar |
 | [setApplicationName(String value)](#setApplicationName-java.lang.String-) | Bu varlığı oluşturan uygulamayı ayarlar |
 | [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | Uygulama satıcısının adını ayarlar |
@@ -77,13 +77,13 @@ Scene scene = Scene.fromFile("test.fbx");
 | [setKeywords(String value)](#setKeywords-java.lang.String-) | Bu varlığın anahtar kelimelerini ayarlar |
 | [setModificationTime(Calendar value)](#setModificationTime-java.util.Calendar-) | Bu varlığın değiştirilme zamanını alır veya ayarlar |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setRevision(String value)](#setRevision-java.lang.String-) | Bu varlığın revizyon numarasını ayarlar, genellikle sürüm kontrol sisteminde kullanılır. |
 | [setSubject(String value)](#setSubject-java.lang.String-) | Bu varlığın konusunu ayarlar |
 | [setTitle(String value)](#setTitle-java.lang.String-) | Bu varlığın başlığını ayarlar |
 | [setUnitName(String value)](#setUnitName-java.lang.String-) | Bu varlıkta kullanılan uzunluk birimini ayarlar. |
-| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | Gerçek dünya metre birimine ölçek faktörünü ayarlar. |
-| [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | Bu varlıkta kullanılan up-vektörünü ayarlar. |
+| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | Gerçek dünya metreye ölçek faktörünü ayarlar. |
+| [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | Bu varlıkta kullanılan yukarı vektörünü ayarlar. |
 | [setUrl(String value)](#setUrl-java.lang.String-) | Bu varlığın URL'sini alır veya ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -95,7 +95,7 @@ public AssetInfo()
 ```
 
 
-[AssetInfo](../../com.aspose.threed/assetinfo) sınıfının yeni bir örneğini başlatır.
+Yeni bir [AssetInfo](../../com.aspose.threed/assetinfo) sınıfı örneği başlatır.
 
 ### AssetInfo(String name) {#AssetInfo-java.lang.String-}
 ```
@@ -103,7 +103,7 @@ public AssetInfo(String name)
 ```
 
 
-[AssetInfo](../../com.aspose.threed/assetinfo) sınıfının yeni bir örneğini başlatır.
+Yeni bir [AssetInfo](../../com.aspose.threed/assetinfo) sınıfı örneği başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -131,7 +131,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -306,7 +306,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -351,10 +351,10 @@ public String getUnitName()
 ```
 
 
-Bu varlıkta kullanılan uzunluk birimini alır. örnek: cm/m/km/inch/feet
+Bu varlıkta kullanılan uzunluk birimini alır. ör. cm/m/km/inch/feet
 
 **Returns:**
-java.lang.String - bu varlıkta kullanılan uzunluk birimi. örnek: cm/m/km/inch/feet
+java.lang.String - bu varlıkta kullanılan uzunluk birimi. ör. cm/m/km/inch/feet
 ### getUnitScaleFactor() {#getUnitScaleFactor--}
 ```
 public double getUnitScaleFactor()
@@ -364,7 +364,7 @@ public double getUnitScaleFactor()
 Gerçek dünya metreye ölçek faktörünü alır.
 
 **Returns:**
-double - gerçek dünya metre birimine ölçek faktörü. **Remarks:** Birim adı null ise serileştirme sırasında yok sayılır.
+double - gerçek dünya metreye ölçek faktörü. **Remarks:** Birim adı null ise serileştirme sırasında yok sayılır.
 ### getUpVector() {#getUpVector--}
 ```
 public Axis getUpVector()
@@ -432,7 +432,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -629,7 +629,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -682,7 +682,7 @@ public void setUnitName(String value)
 ```
 
 
-Bu varlıkta kullanılan uzunluk birimini ayarlar. örnek: cm/m/km/inch/feet
+Bu varlıkta kullanılan uzunluk birimini ayarlar. ör. cm/m/km/inch/feet
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -695,7 +695,7 @@ public void setUnitScaleFactor(double value)
 ```
 
 
-Gerçek dünya metre birimine ölçek faktörünü ayarlar.
+Gerçek dünya metreye ölçek faktörünü ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -708,7 +708,7 @@ public void setUpVector(Axis value)
 ```
 
 
-Bu varlıkta kullanılan up-vektörünü ayarlar.
+Bu varlıkta kullanılan yukarı vektörünü ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

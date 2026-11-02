@@ -18,7 +18,7 @@ Türü [ITextureUnit](../../com.aspose.threed/itextureunit)
 
 | Alan | Açıklama |
 | --- | --- |
-| [ARRAY2D](#ARRAY2D) | Birden fazla 2D doku seti |
+| [ARRAY2D](#ARRAY2D) | 2D dokuların birden çok seti |
 | [CUBE_MAP](#CUBE-MAP) | Küp harita dokusu 6 adet 2D doku içerir |
 | [TEXTURE1D](#TEXTURE1D) | 1 boyutlu doku |
 | [TEXTURE2D](#TEXTURE2D) | 2 boyutlu doku |
@@ -50,7 +50,7 @@ public static final TextureType ARRAY2D
 ```
 
 
-Birden fazla 2D doku seti
+2D dokuların birden çok seti
 
 ### CUBE_MAP {#CUBE-MAP}
 ```

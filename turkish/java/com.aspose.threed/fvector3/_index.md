@@ -52,7 +52,7 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [sub(FVector3 a, FVector3 b)](#sub-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \- Operatör aşırı yükleme |
-| [toString()](#toString--) | Bir dize döndürür; bu dize [FVector3](../../com.aspose.threed/fvector3) öğesini temsil eder. |
+| [toString()](#toString--) | [FVector3](../../com.aspose.threed/fvector3) öğesini temsil eden bir dize döndürür |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -149,7 +149,7 @@ public FVector3 clone()
 ```
 
 
-Mevcut örneği kopyala
+Geçerli örneği kopyala
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3)
@@ -192,7 +192,7 @@ public FVector3 cross(FVector3 rhs)
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| rhs | [FVector3](../../com.aspose.threed/fvector3) | Sağ taraf değeri. |
+| rhs | [FVector3](../../com.aspose.threed/fvector3) | Sağ taraftaki değer. |
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Cross product of two [FVector3](../../com.aspose.threed/fvector3)s.
@@ -330,7 +330,7 @@ public String toString()
 ```
 
 
-Bir dize döndürür; bu dize [FVector3](../../com.aspose.threed/fvector3) öğesini temsil eder.
+[FVector3](../../com.aspose.threed/fvector3) öğesini temsil eden bir dize döndürür
 
 **Returns:**
 java.lang.String - Bu vektörün dize temsili.

@@ -20,7 +20,7 @@ Draco dosyası için sıkıştırma seviyesi.
 | --- | --- |
 | [FAST](#FAST) | Kodlayıcı mümkün olan en hızlı şekilde sıkıştırma yapacaktır. |
 | [NO_COMPRESSION](#NO-COMPRESSION) | Sıkıştırma yok, bu minimum kodlama süresiyle sonuçlanır. |
-| [OPTIMAL](#OPTIMAL) | Kodlayıcı sahneyi en iyi şekilde sıkıştıracaktır, bu da tamamlanmasının daha uzun sürebileceği anlamına gelir. |
+| [OPTIMAL](#OPTIMAL) | Kodlayıcı sahneyi optimal şekilde sıkıştıracak, bu da tamamlanmasının daha uzun sürebileceği anlamına gelir. |
 | [STANDARD](#STANDARD) | Standart mod, iyi sıkıştırma ve hız ile. |
 ## Yöntemler
 
@@ -65,7 +65,7 @@ public static final DracoCompressionLevel OPTIMAL
 ```
 
 
-Kodlayıcı sahneyi en iyi şekilde sıkıştıracaktır, bu da tamamlanmasının daha uzun sürebileceği anlamına gelir.
+Kodlayıcı sahneyi optimal şekilde sıkıştıracak, bu da tamamlanmasının daha uzun sürebileceği anlamına gelir.
 
 ### STANDARD {#STANDARD}
 ```

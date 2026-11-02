@@ -19,7 +19,7 @@ Bu, renderlayıcı tarafından kullanılan önceden ayarlanmış dahili gölgele
 | Alan | Açıklama |
 | --- | --- |
 | [CUSTOMIZED](#CUSTOMIZED) | Kullanıcının özelleştirilmiş gölgelendirici seti |
-| [DEFAULT](#DEFAULT) | Phong/lambert/pbr malzemeleri için varsayılan gölgelendiricileri kullanın |
+| [DEFAULT](#DEFAULT) | Phong/Lambert/PBR malzemeleri için varsayılan gölgelendiricileri kullanın |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -55,7 +55,7 @@ public static final PresetShaders DEFAULT
 ```
 
 
-Phong/lambert/pbr malzemeleri için varsayılan gölgelendiricileri kullanın
+Phong/Lambert/PBR malzemeleri için varsayılan gölgelendiricileri kullanın
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

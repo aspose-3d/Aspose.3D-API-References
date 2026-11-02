@@ -18,32 +18,32 @@ public class Discreet3dsLoadOptions extends LoadOptions
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Discreet3dsLoadOptions()](#Discreet3dsLoadOptions--) | Yapıcı [Discreet3dsLoadOptions](../../com.aspose.threed/discreet3dsloadoptions) |
+| [Discreet3dsLoadOptions()](#Discreet3dsLoadOptions--) | [Discreet3dsLoadOptions](../../com.aspose.threed/discreet3dsloadoptions) yapıcısı |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getApplyAnimationTransform()](#getApplyAnimationTransform--) | İlk çerçevede tanımlanan dönüşümün kullanılıp kullanılmayacağını alır. |
+| [getApplyAnimationTransform()](#getApplyAnimationTransform--) | İlk kare animasyon izinde tanımlanan dönüşümün kullanılıp kullanılmayacağını alır. |
 | [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | İçeri/dışarı aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır. |
-| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkün olduğunda gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | İçe aktarma/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır. |
+| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır. |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setApplyAnimationTransform(boolean value)](#setApplyAnimationTransform-boolean-) | İlk çerçevede tanımlanan dönüşümün kullanılıp kullanılmayacağını ayarlar. |
+| [setApplyAnimationTransform(boolean value)](#setApplyAnimationTransform-boolean-) | İlk kare animasyon izinde tanımlanan dönüşümün kullanılıp kullanılmayacağını ayarlar. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
-| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | İçeri/dışarı aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini ayarlar. |
-| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkün olduğunda gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır. |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | İçe aktarma/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini ayarlar. |
+| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır. |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -55,7 +55,7 @@ public Discreet3dsLoadOptions()
 ```
 
 
-Yapıcı [Discreet3dsLoadOptions](../../com.aspose.threed/discreet3dsloadoptions)
+[Discreet3dsLoadOptions](../../com.aspose.threed/discreet3dsloadoptions) yapıcısı
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -78,10 +78,10 @@ public boolean getApplyAnimationTransform()
 ```
 
 
-İlk çerçevede tanımlanan dönüşümün kullanılıp kullanılmayacağını alır.
+İlk kare animasyon izinde tanımlanan dönüşümün kullanılıp kullanılmayacağını alır.
 
 **Returns:**
-boolean - ilk çerçevede tanımlanan dönüşümün kullanılıp kullanılmayacağı.
+boolean - ilk kare animasyon izinde tanımlanan dönüşümün kullanılıp kullanılmayacağı.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -98,10 +98,10 @@ public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -118,10 +118,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -191,20 +191,20 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-İçeri/dışarı aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır.
+İçe aktarma/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır.
 
 **Returns:**
-boolean - içe/dışa aktarım sırasında kontrol noktalarının/normalin koordinat sistemini tersine çevir.
+boolean - içe/dışa aktarım sırasında kontrol noktalarının/normalin koordinat sistemini ters çevir.
 ### getGammaCorrectedColor() {#getGammaCorrectedColor--}
 ```
 public boolean getGammaCorrectedColor()
 ```
 
 
-Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkün olduğunda gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır.
+Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır.
 
 **Returns:**
-boolean - Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır.
+boolean - Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltmeli renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltmeli rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
@@ -214,7 +214,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -255,7 +255,7 @@ public void setApplyAnimationTransform(boolean value)
 ```
 
 
-İlk çerçevede tanımlanan dönüşümün kullanılıp kullanılmayacağını ayarlar.
+İlk kare animasyon izinde tanımlanan dönüşümün kullanılıp kullanılmayacağını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -268,7 +268,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -281,7 +281,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -299,7 +299,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -336,7 +336,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -363,7 +363,7 @@ public void setFlipCoordinateSystem(boolean value)
 ```
 
 
-İçeri/dışarı aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini ayarlar.
+İçe aktarma/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -376,7 +376,7 @@ public void setGammaCorrectedColor(boolean value)
 ```
 
 
-Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkün olduğunda gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır.
+Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -394,7 +394,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();

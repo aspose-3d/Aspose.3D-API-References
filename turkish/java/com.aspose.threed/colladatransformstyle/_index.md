@@ -18,7 +18,7 @@ Düğümün dönüşüm stili.
 
 | Alan | Açıklama |
 | --- | --- |
-| [COMPONENTS](#COMPONENTS) | Düğümün dönüşümünü döndürme/ölçekleme/taşıma olarak dışa aktar |
+| [COMPONENTS](#COMPONENTS) | Düğümün dönüşümünü rotate/scale/translate olarak dışa aktar |
 | [MATRIX](#MATRIX) | Düğümün dönüşümünü matris olarak dışa aktar |
 ## Yöntemler
 
@@ -47,7 +47,7 @@ public static final ColladaTransformStyle COMPONENTS
 ```
 
 
-Düğümün dönüşümünü döndürme/ölçekleme/taşıma olarak dışa aktar
+Düğümün dönüşümünü rotate/scale/translate olarak dışa aktar
 
 ### MATRIX {#MATRIX}
 ```

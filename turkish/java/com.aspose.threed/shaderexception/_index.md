@@ -1,7 +1,7 @@
 ---
 title: "ShaderException"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Shader ile ilgili istisnalar."
+description: "Gölgelendirici ile ilgili istisnalar"
 type: docs
 weight: 163
 url: /tr/java/com.aspose.threed/shaderexception/
@@ -13,12 +13,12 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 public class ShaderException extends Exception
 ```
 
-Shader ile ilgili istisnalar.
+Gölgelendirici ile ilgili istisnalar
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [ShaderException(String message)](#ShaderException-java.lang.String-) | Yapıcı [ShaderException](../../com.aspose.threed/shaderexception) |
+| [ShaderException(String message)](#ShaderException-java.lang.String-) | [ShaderException](../../com.aspose.threed/shaderexception) yapıcısı |
 ## Yöntemler
 
 | Yöntem | Açıklama |
@@ -50,7 +50,7 @@ public ShaderException(String message)
 ```
 
 
-Yapıcı [ShaderException](../../com.aspose.threed/shaderexception)
+[ShaderException](../../com.aspose.threed/shaderexception) yapıcısı
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

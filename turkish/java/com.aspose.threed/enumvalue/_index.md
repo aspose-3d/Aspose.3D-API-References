@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.EnumValue"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Enum tipinin değer tanımı."
+description: "Enum türünün değer tanımı."
 type: docs
 weight: 12
 url: /tr/java/com.aspose.threed/structuralmetadata.enumvalue/
@@ -13,7 +13,7 @@ java.lang.Object
 public static class StructuralMetadata.EnumValue
 ```
 
-Enum tipinin değer tanımı.
+Enum türünün değer tanımı.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -25,8 +25,8 @@ Enum tipinin değer tanımı.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Enum tip değeri adı |
-| [getValue()](#getValue--) | Enum tip değeri değeri |
+| [getName()](#getName--) | Enum tip değerinin adı |
+| [getValue()](#getValue--) | Enum tip değerinin değeri |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -79,20 +79,20 @@ public String getName()
 ```
 
 
-Enum tip değeri adı
+Enum tip değerinin adı
 
 **Returns:**
-java.lang.String - Enum tip değeri adı
+java.lang.String - Enum tip değerinin adı
 ### getValue() {#getValue--}
 ```
 public int getValue()
 ```
 
 
-Enum tip değeri değeri
+Enum tip değerinin değeri
 
 **Returns:**
-int - Enum tip değeri değeri
+int - Enum tip değerinin değeri
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

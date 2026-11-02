@@ -1,7 +1,7 @@
 ---
 title: "Grup"
 second_title: "Aspose.3D for Java API Referansı"
-description: "A  mantıksal ilişkilerini temsil eder."
+description: "A  , .'nin mantıksal ilişkilerini temsil eder."
 type: docs
 weight: 75
 url: /tr/java/com.aspose.threed/group/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Group extends A3DObject
 ```
 
-A [Group](../../com.aspose.threed/group), [Node](../../com.aspose.threed/node) 'nin mantıksal ilişkilerini temsil eder.
+A [Group](../../com.aspose.threed/group), [Node](../../com.aspose.threed/node)'nin mantıksal ilişkilerini temsil eder.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -30,17 +30,17 @@ A [Group](../../com.aspose.threed/group), [Node](../../com.aspose.threed/node) '
 | [getGroups()](#getGroups--) | Alt gruplar |
 | [getName()](#getName--) | Adı alır. |
 | [getNodes()](#getNodes--) | Bu gruptaki düğümler |
-| [getParent()](#getParent--) | Mevcut grubun üst grup |
+| [getParent()](#getParent--) | Mevcut grubun üst grubu |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [toString()](#toString--) | [Group](../../com.aspose.threed/group) öğesinin dize temsili alınır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [toString()](#toString--) | [Group](../../com.aspose.threed/group) öğesinin dize temsilini alır |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -86,7 +86,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -141,7 +141,7 @@ public Group getParent()
 ```
 
 
-Mevcut grubun üst grup
+Mevcut grubun üst grubu
 
 **Returns:**
 [Group](../../com.aspose.threed/group) - Parent group of current group
@@ -161,7 +161,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -217,7 +217,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -245,7 +245,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -259,10 +259,10 @@ public String toString()
 ```
 
 
-[Group](../../com.aspose.threed/group) öğesinin dize temsili alınır.
+[Group](../../com.aspose.threed/group) öğesinin dize temsilini alır
 
 **Returns:**
-java.lang.String - Mevcut örneğin dize temsili
+java.lang.String - Geçerli örneğin dize temsili
 ### wait() {#wait--}
 ```
 public final void wait()

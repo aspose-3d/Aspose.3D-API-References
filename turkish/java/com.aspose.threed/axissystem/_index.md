@@ -13,7 +13,7 @@ java.lang.Object
 public class AxisSystem
 ```
 
-Eksen sistemi, koordinat sistemi, yukarı vektörü ve ön vektörünün bir kombinasyonudur.
+Eksen sistemi, koordinat sistemi, yukarı vektör ve ön vektörün bir kombinasyonudur.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
@@ -26,7 +26,7 @@ Eksen sistemi, koordinat sistemi, yukarı vektörü ve ön vektörünün bir kom
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromAssetInfo(AssetInfo assetInfo)](#fromAssetInfo-com.aspose.threed.AssetInfo-) | Oluştur [AxisSystem](../../com.aspose.threed/axissystem) [AssetInfo](../../com.aspose.threed/assetinfo)'den |
+| [fromAssetInfo(AssetInfo assetInfo)](#fromAssetInfo-com.aspose.threed.AssetInfo-) | Oluştur [AxisSystem](../../com.aspose.threed/axissystem) şuradan [AssetInfo](../../com.aspose.threed/assetinfo) |
 | [getClass()](#getClass--) |  |
 | [getCoordinateSystem()](#getCoordinateSystem--) | Bu eksen sisteminin koordinat sistemini alır. |
 | [getFront()](#getFront--) | Bu eksen sisteminin ön vektörünü alır |
@@ -103,12 +103,12 @@ public static AxisSystem fromAssetInfo(AssetInfo assetInfo)
 ```
 
 
-Oluştur [AxisSystem](../../com.aspose.threed/axissystem) [AssetInfo](../../com.aspose.threed/assetinfo)'den
+Oluştur [AxisSystem](../../com.aspose.threed/axissystem) şuradan [AssetInfo](../../com.aspose.threed/assetinfo)
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| assetInfo | [AssetInfo](../../com.aspose.threed/assetinfo) | Koordinat sistemi, yukarı ve ön vektörünü okumak için hangi asset info kullanılacağını belirtir. |
+| assetInfo | [AssetInfo](../../com.aspose.threed/assetinfo) | Koordinat sistemi, yukarı ve ön vektörlerini okumak için hangi varlık bilgisinden. |
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - Axis system containg coordinate system, up, front from given asset info

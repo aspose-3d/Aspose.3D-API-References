@@ -1,7 +1,7 @@
 ---
 title: "SweptAreaSolid"
 second_title: "Aspose.3D for Java API Referansı"
-description: "A  bir profil'i bir directrix boyunca süpürerek bir geometri oluşturur."
+description: "A, bir profili doğrunun boyunca süpürerek bir geometri oluşturur."
 type: docs
 weight: 181
 url: /tr/java/com.aspose.threed/sweptareasolid/
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class SweptAreaSolid extends Entity implements IMeshConvertible
 ```
 
-A [SweptAreaSolid](../../com.aspose.threed/sweptareasolid) bir profil'i bir directrix boyunca süpürerek bir geometri oluşturur. **Example:** Aşağıdaki kod, bir C-şeklini bir daire üzerinde süpürerek katı bir varlık modellemenin nasıl yapılacağını gösterir.
+A [SweptAreaSolid](../../com.aspose.threed/sweptareasolid) bir profili doğrunun boyunca süpürerek bir geometri oluşturur. **Örnek:** Aşağıdaki kod, bir C-şekli bir daire üzerinde süpürerek katı bir varlık modellemenin nasıl yapılacağını gösterir.
 
 ```
 var directrix = new Circle(20);
@@ -43,34 +43,34 @@ var directrix = new Circle(20);
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getBoundingBox()](#getBoundingBox--) | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
+| [getBoundingBox()](#getBoundingBox--) | Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
 | [getClass()](#getClass--) |  |
-| [getDirectrix()](#getDirectrix--) | Süpürülen alanın süpürülerek ilerlediği directrix. |
-| [getEndPoint()](#getEndPoint--) | Directrix'in son noktası. |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır |
-| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır |
+| [getDirectrix()](#getDirectrix--) | Süpürülen alanın süpürüldüğü doğrunun kendisi. |
+| [getEndPoint()](#getEndPoint--) | Doğrunun son noktası. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır. |
+| [getExcluded()](#getExcluded--) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır. |
 | [getName()](#getName--) | Adı alır. |
-| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir |
+| [getParentNode()](#getParentNode--) | İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [getParentNodes()](#getParentNodes--) | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [getShape()](#getShape--) | Geometriyi oluşturmak için temel profil. |
-| [getStartPoint()](#getStartPoint--) | Directrix'in başlangıç noktası. |
+| [getStartPoint()](#getStartPoint--) | Doğrunun başlangıç noktası. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setDirectrix(Curve value)](#setDirectrix-com.aspose.threed.Curve-) | Süpürülen alanın süpürülerek ilerlediği directrix. |
-| [setEndPoint(EndPoint value)](#setEndPoint-com.aspose.threed.EndPoint-) | Directrix'in son noktası. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setDirectrix(Curve value)](#setDirectrix-com.aspose.threed.Curve-) | Süpürülen alanın süpürüldüğü doğrunun kendisi. |
+| [setEndPoint(EndPoint value)](#setEndPoint-com.aspose.threed.EndPoint-) | Doğrunun son noktası. |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
 | [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | Geometriyi oluşturmak için temel profil. |
-| [setStartPoint(EndPoint value)](#setStartPoint-com.aspose.threed.EndPoint-) | Directrix'in başlangıç noktası. |
-| [toMesh()](#toMesh--) | Mevcut nesneyi mesh'e dönüştür. |
+| [setStartPoint(EndPoint value)](#setStartPoint-com.aspose.threed.EndPoint-) | Doğrunun başlangıç noktası. |
+| [toMesh()](#toMesh--) | Geçerli nesneyi mesh'e dönüştür |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -102,7 +102,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -117,7 +117,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
+Mevcut varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -144,7 +144,7 @@ public Curve getDirectrix()
 ```
 
 
-Süpürülen alanın süpürülerek ilerlediği directrix.
+Süpürülen alanın süpürüldüğü doğrunun kendisi.
 
 **Returns:**
 [Curve](../../com.aspose.threed/curve) - The directrix that the swept area sweeping along with.
@@ -154,7 +154,7 @@ public EndPoint getEndPoint()
 ```
 
 
-Directrix'in son noktası.
+Doğrunun son noktası.
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - The end point of the directrix.
@@ -164,7 +164,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Renderer içinde kaydedilen varlık renderlayıcısının anahtarını alır
+Renderlayıcıda kaydedilen varlık renderlayıcısının anahtarını alır.
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -174,7 +174,7 @@ public boolean getExcluded()
 ```
 
 
-Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır
+Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır.
 
 **Returns:**
 boolean - bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağı.
@@ -194,7 +194,7 @@ public Node getParentNode()
 ```
 
 
-İlk üst düğümü alır, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü alır, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -204,7 +204,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
+Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - tüm üst düğümler, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir
@@ -224,7 +224,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -239,7 +239,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -259,7 +259,7 @@ public EndPoint getStartPoint()
 ```
 
 
-Directrix'in başlangıç noktası.
+Doğrunun başlangıç noktası.
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - The start point of the directrix.
@@ -310,7 +310,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -325,7 +325,7 @@ public void setDirectrix(Curve value)
 ```
 
 
-Süpürülen alanın süpürülerek ilerlediği directrix.
+Süpürülen alanın süpürüldüğü doğrunun kendisi.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -338,7 +338,7 @@ public void setEndPoint(EndPoint value)
 ```
 
 
-Directrix'in son noktası.
+Doğrunun son noktası.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -377,7 +377,7 @@ public void setParentNode(Node value)
 ```
 
 
-İlk üst düğümü ayarlar, eğer ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
+İlk üst düğümü ayarlar, ilk üst düğüm ayarlanırsa, bu varlık diğer üst düğümlerden ayrılacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -390,7 +390,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -417,7 +417,7 @@ public void setStartPoint(EndPoint value)
 ```
 
 
-Directrix'in başlangıç noktası.
+Doğrunun başlangıç noktası.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -430,7 +430,7 @@ public Mesh toMesh()
 ```
 
 
-Mevcut nesneyi mesh'e dönüştür.
+Geçerli nesneyi mesh'e dönüştür
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

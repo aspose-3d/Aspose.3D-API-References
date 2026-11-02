@@ -13,19 +13,19 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Node extends SceneObject
 ```
 
-Bir sahne grafiğinde bir öğeyi temsil eder. Bir sahne grafiği, Node nesnelerinden oluşan bir ağaçtır. Ağaç yönetim hizmetleri bu sınıfta kendine özeldir. Aspose.3D SDK'nın oluşturulan sahne grafiğinin geçerliliğini test etmediğini unutmayın. Çağıranın, bir düğüm hiyerarşisinde döngüsel grafikler oluşturmadığından emin olması sorumluluğudur. Ağaç yönetiminin yanı sıra, bu sınıf sahnedeki nesnenin konumunu tanımlamak için gereken tüm özellikleri tanımlar. Bu bilgiler temel Translation, Rotation ve Scaling özelliklerini ve pivotalar, limitler ve IK eklemleri gibi daha gelişmiş seçenekleri, örneğin sertlik ve sönümleme gibi nitelikleri içerir. İlk oluşturulduğunda, Node nesnesi "empty" (yani yalnızca konum bilgisi içeren, grafiksel bir temsili olmayan bir nesnedir). Bu durumda, düğüm ağacı yapısında ebeveynleri temsil etmek için kullanılabilir ancak daha fazlası için değil. Bu tür nesnelerin normal kullanımı, düğümü özelleştirecek bir varlık eklemektir ("Entity" bölümüne bakınız). Varlık, kendisi bir nesnedir ve Node'a bağlanır. Bu aynı zamanda aynı varlığın birden fazla düğüm arasında paylaşılabileceği anlamına gelir. Kamera, Light, Mesh vb. hepsi varlıklardır ve hepsi temel sınıf Entity'den türetilir.
+Scene grafiğinde bir öğeyi temsil eder. Scene grafiği, Node nesnelerinden oluşan bir ağaçtır. Ağaç yönetim hizmetleri bu sınıfta kendine özeldir. Not: Aspose.3D SDK, oluşturulan scene grafiğinin geçerliliğini test etmez. Çağıranın sorumluluğu, node hiyerarşisinde döngüsel grafikler oluşturmamasını sağlamaktır. Ağaç yönetiminin yanı sıra, bu sınıf nesnenin sahnedeki konumunu tanımlamak için gereken tüm özellikleri tanımlar. Bu bilgiler temel Translation, Rotation ve Scaling özelliklerini ve pivotalar, sınırlar ve IK eklemleri gibi daha gelişmiş seçenekleri, örneğin sertlik ve sönümleme gibi nitelikleri içerir. İlk oluşturulduğunda, Node nesnesi \"empty\" (yani yalnızca konum bilgisini içeren, grafiksel bir temsili olmayan bir nesnedir). Bu durumda, node ağacında ebeveynleri temsil etmek için kullanılabilir ancak daha fazlası için değil. Bu tür nesnelerin normal kullanımı, node'u özelleştirecek bir varlık eklemektir (\"Entity\" bölümüne bakınız). Varlık, kendisi bir nesnedir ve Node'a bağlanır. Bu aynı zamanda aynı varlığın birden fazla node arasında paylaşılabileceği anlamına gelir. Camera, Light, Mesh vb. hepsi varlıklardır ve hepsi temel sınıf Entity'den türetilir.
 ## Yapıcılar
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [Node()](#Node--) | Yeni bir [Node](../../com.aspose.threed/node) sınıfı örneği başlatır. |
-| [Node(String name, Entity entity)](#Node-java.lang.String-com.aspose.threed.Entity-) | Yeni bir [Node](../../com.aspose.threed/node) sınıfı örneği başlatır. |
-| [Node(String name)](#Node-java.lang.String-) | Yeni bir [Node](../../com.aspose.threed/node) sınıfı örneği başlatır. |
+| [Node()](#Node--) | [Node](../../com.aspose.threed/node) sınıfının yeni bir örneğini başlatır. |
+| [Node(String name, Entity entity)](#Node-java.lang.String-com.aspose.threed.Entity-) | [Node](../../com.aspose.threed/node) sınıfının yeni bir örneğini başlatır. |
+| [Node(String name)](#Node-java.lang.String-) | [Node](../../com.aspose.threed/node) sınıfının yeni bir örneğini başlatır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [accept(NodeVisitor visitor)](#accept-com.aspose.threed.NodeVisitor-) | Tüm alt düğümlerden (mevcut düğüm dahil) geçer ve ziyaretçiyi düğümle çağırır. |
+| [accept(NodeVisitor visitor)](#accept-com.aspose.threed.NodeVisitor-) | Tüm alt düğümler (geçerli düğüm dahil) arasında dolaşır ve ziyaretçiyi düğümle çağırır. |
 | [addChildNode(Node node)](#addChildNode-com.aspose.threed.Node-) | Bu düğüme bir alt düğüm ekle |
 | [addEntity(Entity entity)](#addEntity-com.aspose.threed.Entity-) | Düğüm'e bir varlık ekle. |
 | [createChildNode()](#createChildNode--) | Bir alt düğüm oluşturur |
@@ -34,45 +34,45 @@ Bir sahne grafiğinde bir öğeyi temsil eder. Bir sahne grafiği, Node nesneler
 | [createChildNode(String nodeName, Entity entity)](#createChildNode-java.lang.String-com.aspose.threed.Entity-) | Verilen düğüm adıyla yeni bir alt düğüm oluşturur |
 | [createChildNode(String nodeName, Entity entity, Material material)](#createChildNode-java.lang.String-com.aspose.threed.Entity-com.aspose.threed.Material-) | Verilen düğüm adıyla yeni bir alt düğüm oluşturur ve belirtilen varlığı ve bir materyali ekler |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [evaluateGlobalTransform(boolean withGeometricTransform)](#evaluateGlobalTransform-boolean-) | Genel dönüşümü değerlendir, geometrik dönüşümü dahil edip etmeyeceğini belirler. |
+| [evaluateGlobalTransform(boolean withGeometricTransform)](#evaluateGlobalTransform-boolean-) | Genel dönüşümü değerlendir, geometrik dönüşümü dahil et ya da etme. |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
 | [getAssetInfo()](#getAssetInfo--) | Düğüm başına varlık bilgisi |
-| [getBoundingBox()](#getBoundingBox--) | Düğümün sınırlayıcı kutusunu hesaplar |
+| [getBoundingBox()](#getBoundingBox--) | Düğümün sınırlayıcı kutusunu hesapla |
 | [getChild(int index)](#getChild-int-) | Belirtilen indeksteki alt düğümü alır. |
 | [getChild(String nodeName)](#getChild-java.lang.String-) | Belirtilen ada sahip alt düğümü alır |
 | [getChildNodes()](#getChildNodes--) | Alt düğümleri alır. |
 | [getClass()](#getClass--) |  |
 | [getEntities()](#getEntities--) | Tüm düğüm varlıklarını alır. |
 | [getEntity()](#getEntity--) | Bu düğüme ekli ilk varlığı alır, ayarlanırsa diğer varlıkları temizler. |
-| [getExcluded()](#getExcluded--) | Dışa aktarım sırasında bu düğümü ve tüm alt düğümleri/varlıkları hariç tutup tutmayacağını alır. |
+| [getExcluded()](#getExcluded--) | Dışa aktarırken bu düğüm ve tüm alt düğüm/varlıkların dışarıda bırakılıp bırakılmayacağını alır. |
 | [getGlobalTransform()](#getGlobalTransform--) | Genel dönüşümü alır. |
-| [getMaterial()](#getMaterial--) | Bu düğümle ilişkili ilk materyali alır, ayarlanırsa diğer materyalleri temizler. |
+| [getMaterial()](#getMaterial--) | Bu düğümle ilişkili ilk materyali alır, ayarlanırsa diğer materyalleri temizler |
 | [getMaterials()](#getMaterials--) | Bu düğümle ilişkili materyalleri alır. |
-| [getMetaDatas()](#getMetaDatas--) | Bu düğümde tanımlanan meta verileri alır. |
+| [getMetaDatas()](#getMetaDatas--) | Bu düğümde tanımlı meta verileri alır. |
 | [getName()](#getName--) | Adı alır. |
 | [getParentNode()](#getParentNode--) | Üst düğümü alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getScene()](#getScene--) | Bu nesnenin ait olduğu sahneyi alır. |
 | [getTransform()](#getTransform--) | Yerel dönüşümü alır. |
-| [getVisible()](#getVisible--) | Düğümün gösterilip gösterilmeyeceğini alır. |
+| [getVisible()](#getVisible--) | Düğümün gösterilmesini alır |
 | [hashCode()](#hashCode--) |  |
 | [merge(Node node)](#merge-com.aspose.threed.Node-) | Düğüm altındaki her şeyi ayır ve mevcut düğüme ekle. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [selectObjects(String path)](#selectObjects-java.lang.String-) | XPath benzeri sorgu sözdizimini kullanarak mevcut düğüm altındaki birden fazla nesneyi seç. |
-| [selectSingleObject(String path)](#selectSingleObject-java.lang.String-) | XPath benzeri sorgu sözdizimini kullanarak mevcut düğüm altındaki tek bir nesneyi seç. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [selectObjects(String path)](#selectObjects-java.lang.String-) | Mevcut düğüm altında XPath benzeri sorgu sözdizimi kullanarak birden fazla nesneyi seç. |
+| [selectSingleObject(String path)](#selectSingleObject-java.lang.String-) | Mevcut düğüm altında XPath benzeri sorgu sözdizimi kullanarak tek bir nesneyi seç. |
 | [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | Düğüm başına varlık bilgisi |
 | [setEntity(Entity value)](#setEntity-com.aspose.threed.Entity-) | Bu düğüme ekli ilk varlığı ayarlar, ayarlanırsa diğer varlıkları temizler. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Dışa aktarım sırasında bu düğümü ve tüm alt düğümleri/varlıkları hariç tutup tutmayacağını ayarlar. |
-| [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Bu düğümle ilişkili ilk materyali ayarlar, ayarlanırsa diğer materyalleri temizler. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Dışa aktarırken bu düğüm ve tüm alt düğüm/varlıkların dışarıda bırakılıp bırakılmayacağını ayarlar. |
+| [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Bu düğümle ilişkili ilk materyali ayarlar; ayarlandığında diğer materyaller temizlenir. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Üst düğümü ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setVisible(boolean value)](#setVisible-boolean-) | Düğümü gösterecek şekilde ayarlar. |
-| [toString()](#toString--) | Bu düğümün dize temsili alınır. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Düğümün gösterilmesini ayarlar. |
+| [toString()](#toString--) | Bu düğümün dize temsilini alır. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -82,7 +82,7 @@ public Node()
 ```
 
 
-Yeni bir [Node](../../com.aspose.threed/node) sınıfı örneği başlatır.
+[Node](../../com.aspose.threed/node) sınıfının yeni bir örneğini başlatır.
 
 ### Node(String name, Entity entity) {#Node-java.lang.String-com.aspose.threed.Entity-}
 ```
@@ -90,7 +90,7 @@ public Node(String name, Entity entity)
 ```
 
 
-Yeni bir [Node](../../com.aspose.threed/node) sınıfı örneği başlatır.
+[Node](../../com.aspose.threed/node) sınıfının yeni bir örneğini başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -104,7 +104,7 @@ public Node(String name)
 ```
 
 
-Yeni bir [Node](../../com.aspose.threed/node) sınıfı örneği başlatır.
+[Node](../../com.aspose.threed/node) sınıfının yeni bir örneğini başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -125,7 +125,7 @@ Tüm alt düğümlerden (geçerli düğüm dahil) geçer ve ziyaretçiyi düğü
 | visitor | [NodeVisitor](../../com.aspose.threed/nodevisitor) | Düğümü ziyaret etmek için ziyaretçi geri çağrısı. |
 
 **Returns:**
-boolean - true, ziyaretçinin yürütmeyi durdurduğu anlamına gelir. **Example:** Aşağıdaki kod bir sahnedeki tüm ağları nasıl alacağını gösterir
+boolean - true, ziyaretçinin yürütmeyi durdurduğu anlamına gelir. **Example:** Aşağıdaki kod, bir sahnedeki tüm mesh'leri nasıl alacağınızı gösterir.
 
 ```
 Scene scene = Scene.fromFile("input.fbx");
@@ -151,7 +151,7 @@ Bu düğüme bir alt düğüm ekle
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | node | [Node](../../com.aspose.threed/node) | Eklenecek alt düğüm **Example:** Aşağıdaki kod bir sahnedeki tüm ağları nasıl alacağını gösterir |
+|  | node | [Node](../../com.aspose.threed/node) | Eklenecek alt düğüm **Example:** Aşağıdaki kod, bir sahnedeki tüm mesh'leri nasıl alacağınızı gösterir. |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");
@@ -171,7 +171,7 @@ Düğüm'e bir varlık ekle.
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| entity | [Entity](../../com.aspose.threed/entity) | Düğüme eklenecek varlık |
+| entity | [Entity](../../com.aspose.threed/entity) | Düğüme eklenecek varlık. |
 
 ### createChildNode() {#createChildNode--}
 ```
@@ -201,7 +201,7 @@ Verilen varlık ekli yeni bir alt düğüm oluşturur
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| entity | [Entity](../../com.aspose.threed/entity) | Düğüme eklenmiş varsayılan varlık |
+| entity | [Entity](../../com.aspose.threed/entity) | Düğüme eklenmiş varsayılan varlık. |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The new child node. **Example:** The following code shows how to create a new child node under root node
@@ -222,7 +222,7 @@ Verilen düğüm adıyla yeni bir alt düğüm oluşturur
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| nodeName | java.lang.String | Yeni alt düğümün adı |
+| nodeName | java.lang.String | Yeni alt düğümün adı. |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The new child node. **Example:** The following code shows how to create a new child node under root node
@@ -244,8 +244,8 @@ Verilen düğüm adıyla yeni bir alt düğüm oluşturur
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| nodeName | java.lang.String | Yeni alt düğümün adı |
-| entity | [Entity](../../com.aspose.threed/entity) | Düğüme eklenmiş varsayılan varlık |
+| nodeName | java.lang.String | Yeni alt düğümün adı. |
+| entity | [Entity](../../com.aspose.threed/entity) | Düğüme eklenmiş varsayılan varlık. |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The new child node.
@@ -260,9 +260,9 @@ Verilen düğüm adıyla yeni bir alt düğüm oluşturur ve belirtilen varlığ
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| nodeName | java.lang.String | Yeni alt düğümün adı |
-| entity | [Entity](../../com.aspose.threed/entity) | Düğüme eklenmiş varsayılan varlık |
-| material | [Material](../../com.aspose.threed/material) | Düğüme eklenmiş materyal |
+| nodeName | java.lang.String | Yeni alt düğümün adı. |
+| entity | [Entity](../../com.aspose.threed/entity) | Düğüme eklenmiş varsayılan varlık. |
+| material | [Material](../../com.aspose.threed/material) | Düğüme eklenmiş materyal. |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The new child node.
@@ -287,7 +287,7 @@ public Matrix4 evaluateGlobalTransform(boolean withGeometricTransform)
 ```
 
 
-Genel dönüşümü değerlendir, geometrik dönüşümü dahil edip etmeyeceğini belirler.
+Genel dönüşümü değerlendir, geometrik dönüşümü dahil et ya da etme.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -311,7 +311,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -336,7 +336,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Düğümün sınırlayıcı kutusunu hesaplar
+Düğümün sınırlayıcı kutusunu hesapla
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The bounding box of current node
@@ -391,7 +391,7 @@ public List<Node> getChildNodes()
 Alt düğümleri alır.
 
 **Returns:**
-java.util.List<com.aspose.threed.Node> - alt düğümler. **Example:** Aşağıdaki kod kök düğümün alt düğümünü nasıl listeleyeceğini gösterir
+java.util.List<com.aspose.threed.Node> - alt düğümler. **Example:** Aşağıdaki kod, kök düğümün alt düğümlerini nasıl listeleyeceğinizi gösterir.
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -443,10 +443,10 @@ public boolean getExcluded()
 ```
 
 
-Dışa aktarım sırasında bu düğümü ve tüm alt düğümleri/varlıkları hariç tutup tutmayacağını alır.
+Dışa aktarırken bu düğüm ve tüm alt düğüm/varlıkların dışarıda bırakılıp bırakılmayacağını alır.
 
 **Returns:**
-boolean - bu düğümü ve tüm alt düğüm/varlıkları dışa aktarma sırasında hariç tutup tutmayacağını belirler. **Example:** Aşağıdaki kod belirtilen düğümü dışa aktarmadan nasıl hariç tutacağını gösterir
+boolean - bu düğümü ve tüm alt düğüm/varlıkları dışa aktarma sırasında hariç tutup tutmayacağını belirler. **Example:** Aşağıdaki kod, belirtilen düğümü dışa aktarmadan nasıl hariç tutacağınızı gösterir.
 
 ```
 Scene scene = new Scene();
@@ -479,7 +479,7 @@ public Material getMaterial()
 ```
 
 
-Bu düğümle ilişkili ilk materyali alır, ayarlanırsa diğer materyalleri temizler.
+Bu düğümle ilişkili ilk materyali alır, ayarlanırsa diğer materyalleri temizler
 
 **Returns:**
 [Material](../../com.aspose.threed/material) - the first material associated with this node, if sets, will clear other materials **Example:**
@@ -505,7 +505,7 @@ public List<CustomObject> getMetaDatas()
 ```
 
 
-Bu düğümde tanımlanan meta verileri alır.
+Bu düğümde tanımlı meta verileri alır.
 
 **Returns:**
 java.util.List<com.aspose.threed.CustomObject> - bu düğümde tanımlanan meta veriler.
@@ -545,7 +545,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -560,7 +560,7 @@ public Scene getScene()
 ```
 
 
-Bu nesnenin ait olduğu sahneyi alır
+Bu nesnenin ait olduğu sahneyi alır.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -587,10 +587,10 @@ public boolean getVisible()
 ```
 
 
-Düğümün gösterilip gösterilmeyeceğini alır.
+Düğümün gösterilmesini alır
 
 **Returns:**
-boolean - düğümü göstermek için. **Example:** Aşağıdaki kod görünmez bir düğümün nasıl oluşturulacağını gösterir
+boolean - düğümü göstermek için **Example:** Aşağıdaki kod, görünmez bir düğüm nasıl oluşturulacağını gösterir.
 
 ```
 Scene scene = new Scene();
@@ -614,7 +614,7 @@ public void merge(Node node)
 ```
 
 
-Düğüm altındaki her şeyi ayır ve mevcut düğüme ekle. **Example:** Aşağıdaki kod iki 3D dosyasını tek bir dosyada nasıl birleştireceğini gösterir
+Düğüm altındaki her şeyi ayır ve mevcut düğüme ekle. **Example:** Aşağıdaki kod, iki 3D dosyasını tek bir dosyada nasıl birleştireceğinizi gösterir.
 
 ```
 Scene scene1 = Scene.fromFile("scene1.fbx");
@@ -665,7 +665,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -680,7 +680,7 @@ public ArrayList<Object> selectObjects(String path)
 ```
 
 
-XPath benzeri sorgu sözdizimini kullanarak mevcut düğüm altındaki birden fazla nesneyi seç.
+Mevcut düğüm altında XPath benzeri sorgu sözdizimi kullanarak birden fazla nesneyi seç.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -688,14 +688,14 @@ XPath benzeri sorgu sözdizimini kullanarak mevcut düğüm altındaki birden fa
 | yol | java.lang.String | XPath benzeri sorgu |
 
 **Returns:**
-java.util.ArrayList<java.lang.Object> - XPath benzeri sorguya birden çok nesne eşleşir.
+java.util.ArrayList<java.lang.Object> - XPath benzeri sorguya birden fazla nesne eşleşir.
 ### selectSingleObject(String path) {#selectSingleObject-java.lang.String-}
 ```
 public Object selectSingleObject(String path)
 ```
 
 
-XPath benzeri sorgu sözdizimini kullanarak mevcut düğüm altındaki tek bir nesneyi seç.
+Mevcut düğüm altında XPath benzeri sorgu sözdizimi kullanarak tek bir nesneyi seç.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -728,7 +728,7 @@ Bu düğüme ekli ilk varlığı ayarlar, ayarlanırsa diğer varlıkları temiz
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [Entity](../../com.aspose.threed/entity) | Yeni değer **Örnek:** Aşağıdaki kod, kök düğümün altında yeni bir alt düğüm nasıl oluşturulacağını gösterir. |
+|  | value | [Entity](../../com.aspose.threed/entity) | Yeni değer **Example:** Aşağıdaki kod, kök düğümün altında yeni bir çocuk düğümün nasıl oluşturulacağını gösterir. |
 
 ```
 Scene scene = new Scene();
@@ -743,12 +743,12 @@ public void setExcluded(boolean value)
 ```
 
 
-Dışa aktarım sırasında bu düğümü ve tüm alt düğümleri/varlıkları hariç tutup tutmayacağını ayarlar.
+Dışa aktarırken bu düğüm ve tüm alt düğüm/varlıkların dışarıda bırakılıp bırakılmayacağını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | boolean | Yeni değer **Örnek:** Aşağıdaki kod, belirtilen düğümün dışa aktarmadan nasıl hariç tutulacağını gösterir. |
+|  | değer | boolean | Yeni değer **Example:** Aşağıdaki kod, belirtilen düğümün dışa aktarmadan nasıl hariç tutulacağını gösterir. |
 
 ```
 Scene scene = new Scene();
@@ -763,7 +763,7 @@ public void setMaterial(Material value)
 ```
 
 
-Bu düğümle ilişkili ilk materyali ayarlar, ayarlanırsa diğer materyalleri temizler.
+Bu düğümle ilişkili ilk materyali ayarlar; ayarlandığında diğer materyaller temizlenir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -808,7 +808,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -822,12 +822,12 @@ public void setVisible(boolean value)
 ```
 
 
-Düğümü gösterecek şekilde ayarlar.
+Düğümün gösterilmesini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | boolean | Yeni değer **Örnek:** Aşağıdaki kod, görünmez bir düğümün nasıl oluşturulacağını gösterir. |
+|  | değer | boolean | Yeni değer **Example:** Aşağıdaki kod, görünmez bir düğümün nasıl oluşturulacağını gösterir. |
 
 ```
 Scene scene = new Scene();
@@ -842,10 +842,10 @@ public String toString()
 ```
 
 
-Bu düğümün dize temsili alınır.
+Bu düğümün dize temsilini alır.
 
 **Returns:**
-java.lang.String - Bu düğümün hata ayıklama için string temsili.
+java.lang.String - Hata ayıklama için bu düğümün dize temsili.
 ### wait() {#wait--}
 ```
 public final void wait()

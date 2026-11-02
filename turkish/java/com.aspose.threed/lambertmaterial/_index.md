@@ -18,48 +18,48 @@ Lambert gölgelendirme modeli için malzeme
 
 | Yapıcı | Açıklama |
 | --- | --- |
-| [LambertMaterial()](#LambertMaterial--) | Yeni bir [LambertMaterial](../../com.aspose.threed/lambertmaterial) sınıfı örneğini başlatır. |
-| [LambertMaterial(String name)](#LambertMaterial-java.lang.String-) | Yeni bir [LambertMaterial](../../com.aspose.threed/lambertmaterial) sınıfı örneğini başlatır. |
+| [LambertMaterial()](#LambertMaterial--) | Yeni bir [LambertMaterial](../../com.aspose.threed/lambertmaterial) sınıfının örneğini başlatır. |
+| [LambertMaterial(String name)](#LambertMaterial-java.lang.String-) | Yeni bir [LambertMaterial](../../com.aspose.threed/lambertmaterial) sınıfının örneğini başlatır. |
 ## Alanlar
 
 | Alan | Açıklama |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | Ortam doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | Difüz doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | Emisyon doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_NORMAL](#MAP-NORMAL) | Normal doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
-| [MAP_SPECULAR](#MAP-SPECULAR) | Yansıtıcı doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_AMBIENT](#MAP-AMBIENT) | Ambient doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | Diffuse doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | Emissive doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_NORMAL](#MAP-NORMAL) | Normal doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
+| [MAP_SPECULAR](#MAP-SPECULAR) | Specular doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır. |
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Özelliği bulur. |
-| [getAmbientColor()](#getAmbientColor--) | Ortam rengini alır |
+| [getAmbientColor()](#getAmbientColor--) | Ambient rengi alır. |
 | [getClass()](#getClass--) |  |
-| [getDiffuseColor()](#getDiffuseColor--) | Difüz rengini alır |
-| [getEmissiveColor()](#getEmissiveColor--) | Emisyon rengini alır |
+| [getDiffuseColor()](#getDiffuseColor--) | Diffuse rengi alır. |
+| [getEmissiveColor()](#getEmissiveColor--) | Emissive rengi alır. |
 | [getName()](#getName--) | Adı alır. |
 | [getProperties()](#getProperties--) | Tüm özelliklerin koleksiyonunu alır. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Belirtilen özelliğin değerini al. |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir. |
 | [getTransparency()](#getTransparency--) | Şeffaflık faktörünü alır. |
 | [getTransparentColor()](#getTransparentColor--) | Şeffaf rengi alır. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Dahili doku yuvalarını yinelemek için enumeratörü alır. |
+| [iterator()](#iterator--) | Dahili doku yuvalarını yinelemek için yineleyiciyi alır. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Dinamik bir özelliği kaldırır. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır |
-| [setAmbientColor(Vector3 value)](#setAmbientColor-com.aspose.threed.Vector3-) | Ortam rengini ayarlar |
-| [setDiffuseColor(Vector3 value)](#setDiffuseColor-com.aspose.threed.Vector3-) | Difüz rengini ayarlar |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Emisyon rengini ayarlar |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | İsimle tanımlanan belirtilen özelliği kaldır. |
+| [setAmbientColor(Vector3 value)](#setAmbientColor-com.aspose.threed.Vector3-) | Ambient rengi ayarlar. |
+| [setDiffuseColor(Vector3 value)](#setDiffuseColor-com.aspose.threed.Vector3-) | Diffuse rengi ayarlar. |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Emissive rengi ayarlar. |
 | [setName(String value)](#setName-java.lang.String-) | Adı ayarlar. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Dokuyu belirtilen yuvaya ayarlar |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Belirtilen özelliğin değerini ayarlar. |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Dokuyu belirtilen yuvaya ayarlar. |
 | [setTransparency(double value)](#setTransparency-double-) | Şeffaflık faktörünü ayarlar. |
 | [setTransparentColor(Vector3 value)](#setTransparentColor-com.aspose.threed.Vector3-) | Şeffaf rengi ayarlar. |
-| [toString()](#toString--) | Nesneyi dizeye dönüştürür |
+| [toString()](#toString--) | Nesneyi dizeye biçimlendir |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -69,7 +69,7 @@ public LambertMaterial()
 ```
 
 
-Yeni bir [LambertMaterial](../../com.aspose.threed/lambertmaterial) sınıfı örneğini başlatır.
+Yeni bir [LambertMaterial](../../com.aspose.threed/lambertmaterial) sınıfının örneğini başlatır.
 
 ### LambertMaterial(String name) {#LambertMaterial-java.lang.String-}
 ```
@@ -77,7 +77,7 @@ public LambertMaterial(String name)
 ```
 
 
-Yeni bir [LambertMaterial](../../com.aspose.threed/lambertmaterial) sınıfı örneğini başlatır.
+Yeni bir [LambertMaterial](../../com.aspose.threed/lambertmaterial) sınıfının örneğini başlatır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -90,7 +90,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-Ortam doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Ambient doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -98,7 +98,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-Difüz doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Diffuse doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -106,7 +106,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-Emisyon doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Emissive doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -114,7 +114,7 @@ public static final String MAP_NORMAL
 ```
 
 
-Normal doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Normal doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -122,7 +122,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-Yansıtıcı doku eşlemesi atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
+Specular doku eşlemesini atamak için [setTexture](../../com.aspose.threed/material\#setTexture) içinde kullanılır.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -145,7 +145,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty) veya native property(Identified by its name) olabilir.
+Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -160,7 +160,7 @@ public Vector3 getAmbientColor()
 ```
 
 
-Ortam rengini alır
+Ambient rengi alır.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the ambient color
@@ -180,7 +180,7 @@ public Vector3 getDiffuseColor()
 ```
 
 
-Difüz rengini alır
+Diffuse rengi alır.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the diffuse color
@@ -190,7 +190,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-Emisyon rengini alır
+Emissive rengi alır.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color **Example:**
@@ -225,7 +225,7 @@ public Object getProperty(String property)
 ```
 
 
-Belirtilen özelliğin değerini al
+Belirtilen özelliğin değerini al.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -240,7 +240,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir
+Belirtilen yuvasından dokuyu alır, bu materyalin özellik adı veya gölgelendiricinin parametre adı olabilir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -263,10 +263,10 @@ public double getTransparency()
 ```
 
 
-Şeffaflık faktörünü alır. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır.
+Şeffaflık faktörünü alır. Faktör 0(0%, tamamen opak) ve 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlanacaktır.
 
 **Returns:**
-double - şeffaflık faktörü. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır.
+double - şeffaflık faktörü. Faktör 0(0%, tamamen opak) ve 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlanacaktır.
 ### getTransparentColor() {#getTransparentColor--}
 ```
 public Vector3 getTransparentColor()
@@ -293,7 +293,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-Dahili doku yuvalarını yinelemek için enumeratörü alır.
+Dahili doku yuvalarını yinelemek için yineleyiciyi alır.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -334,7 +334,7 @@ public boolean removeProperty(String property)
 ```
 
 
-İsimle tanımlanan belirtilen özelliği kaldır
+İsimle tanımlanan belirtilen özelliği kaldır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -349,7 +349,7 @@ public void setAmbientColor(Vector3 value)
 ```
 
 
-Ortam rengini ayarlar
+Ambient rengi ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -362,7 +362,7 @@ public void setDiffuseColor(Vector3 value)
 ```
 
 
-Difüz rengini ayarlar
+Diffuse rengi ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -375,7 +375,7 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-Emisyon rengini ayarlar
+Emissive rengi ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -406,7 +406,7 @@ public void setProperty(String property, Object value)
 ```
 
 
-Belirtilen özelliğin değerini ayarlar
+Belirtilen özelliğin değerini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -420,7 +420,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-Dokuyu belirtilen yuvaya ayarlar
+Dokuyu belirtilen yuvaya ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -441,7 +441,7 @@ public void setTransparency(double value)
 ```
 
 
-Şeffaflık faktörünü ayarlar. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır.
+Şeffaflık faktörünü ayarlar. Faktör 0(0%, tamamen opak) ve 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlanacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -467,7 +467,7 @@ public String toString()
 ```
 
 
-Nesneyi dizeye dönüştürür
+Nesneyi dizeye biçimlendir
 
 **Returns:**
 java.lang.String - Nesne dizesi

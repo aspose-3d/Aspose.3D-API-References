@@ -1,7 +1,7 @@
 ---
 title: "VertexField"
 second_title: "Aspose.3D for Java API Referansı"
-description: "Vertexs field bellek düzeni açıklaması."
+description: "Vertexs alanının bellek düzeni açıklaması."
 type: docs
 weight: 227
 url: /tr/java/com.aspose.threed/vertexfield/
@@ -16,24 +16,24 @@ java.lang.Comparable
 public class VertexField implements Comparable<VertexField>
 ```
 
-Vertex alanının bellek düzeni açıklaması.
+Verteks alanının bellek düzeni açıklaması.
 ## Yöntemler
 
 | Yöntem | Açıklama |
 | --- | --- |
-| [compareTo(VertexField other)](#compareTo-com.aspose.threed.VertexField-) | Bu örneği belirtilen bir nesneyle karşılaştırır ve onların göreceli değerlerine ilişkin bir gösterge döndürür. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Bu örnek ve aynı zamanda bir [VertexField](../../com.aspose.threed/vertexfield) nesnesi olması gereken belirtilen nesnenin aynı değere sahip olup olmadığını belirler. |
+| [compareTo(VertexField other)](#compareTo-com.aspose.threed.VertexField-) | Bu örneği belirtilen bir nesneyle karşılaştırır ve değerlerinin göreceli bir göstergesini döndürür. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Bu örnek ve belirtilen nesnenin, aynı zamanda bir [VertexField](../../com.aspose.threed/vertexfield) nesnesi olması şartıyla, aynı değere sahip olup olmadığını belirler. |
 | [getAlias()](#getAlias--) | Alan takma adı. |
 | [getClass()](#getClass--) |  |
 | [getDataType()](#getDataType--) | Bu alanın veri tipi. |
-| [getIndex()](#getIndex--) | Bu alanın aynı anlamsal yapıya sahip vertex düzenindeki indeksi. |
+| [getIndex()](#getIndex--) | Bu alanın aynı anlamsal özelliğe sahip vertex düzenindeki indeksi. |
 | [getOffset()](#getOffset--) | Bu alanın bayt cinsinden ofseti. |
-| [getSemantic()](#getSemantic--) | Bu alanın kullanım anlamsalı. |
+| [getSemantic()](#getSemantic--) | Bu alanın kullanım anlamsal özelliği. |
 | [getSize()](#getSize--) | Bu alanın bayt cinsinden boyutu |
 | [hashCode()](#hashCode--) | Bu dize için karma kodunu döndürür. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | [VertexField](../../com.aspose.threed/vertexfield) nesnesinin dize temsili alınır. |
+| [toString()](#toString--) | [VertexField](../../com.aspose.threed/vertexfield) nesnesinin dize temsilini alır |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -43,7 +43,7 @@ public int compareTo(VertexField other)
 ```
 
 
-Bu örneği belirtilen bir nesneyle karşılaştırır ve onların göreceli değerlerine ilişkin bir gösterge döndürür.
+Bu örneği belirtilen bir nesneyle karşılaştırır ve değerlerinin göreceli bir göstergesini döndürür.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -58,7 +58,7 @@ public boolean equals(Object obj)
 ```
 
 
-Bu örnek ve aynı zamanda bir [VertexField](../../com.aspose.threed/vertexfield) nesnesi olması gereken belirtilen nesnenin aynı değere sahip olup olmadığını belirler.
+Bu örnek ve belirtilen nesnenin, aynı zamanda bir [VertexField](../../com.aspose.threed/vertexfield) nesnesi olması şartıyla, aynı değere sahip olup olmadığını belirler.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -103,10 +103,10 @@ public int getIndex()
 ```
 
 
-Bu alanın aynı anlamsal yapıya sahip vertex düzenindeki indeksi.
+Bu alanın aynı anlamsal özelliğe sahip vertex düzenindeki indeksi.
 
 **Returns:**
-int - Bu alanın aynı anlamsal yapıya sahip vertex düzenindeki indeksi.
+int - Bu alanın aynı anlamsal özelliğe sahip vertex düzenindeki indeksi.
 ### getOffset() {#getOffset--}
 ```
 public int getOffset()
@@ -123,7 +123,7 @@ public VertexFieldSemantic getSemantic()
 ```
 
 
-Bu alanın kullanım anlamsalı.
+Bu alanın kullanım anlamsal özelliği.
 
 **Returns:**
 [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) - The usage semantic of this field.
@@ -169,7 +169,7 @@ public String toString()
 ```
 
 
-[VertexField](../../com.aspose.threed/vertexfield) nesnesinin dize temsili alınır.
+[VertexField](../../com.aspose.threed/vertexfield) nesnesinin dize temsilini alır
 
 **Returns:**
 java.lang.String

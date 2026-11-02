@@ -26,36 +26,36 @@ Fbx dosyası için kaydetme seçenekleri.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEmbedTextures()](#getEmbedTextures--) | Doku dosyasının son çıktı dosyasına gömülüp gömülmeyeceğini alır. |
+| [getEmbedTextures()](#getEmbedTextures--) | Doku dosyasını son çıktı dosyasına gömüp gömmeyeceğini alır. |
 | [getEnableCompression()](#getEnableCompression--) | FBX dosyasındaki büyük ikili verileri sıkıştırma (örneğin |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
-| [getExportLegacyMaterialProperties()](#getExportLegacyMaterialProperties--) | Geri uyumluluk için kullanılan eski malzeme özelliklerinin dışa aktarılıp aktarılmayacağını alır. |
-| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
+| [getExportLegacyMaterialProperties()](#getExportLegacyMaterialProperties--) | Geri uyumluluk için kullanılan eski malzeme özelliklerini dışa aktarımını alır. |
+| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
-| [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | Son verinin referans sayısını artırarak tekrarlanan eğri verisinin yeniden kullanılmasını alır. |
-| [getGenerateVertexElementMaterial()](#getGenerateVertexElementMaterial--) | Ekli düğüm malzeme içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağını alır. |
+| [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | Son verinin referans sayısını artırarak tekrarlanan eğri verilerini yeniden kullanıp kullanmayacağını alır. |
+| [getGenerateVertexElementMaterial()](#getGenerateVertexElementMaterial--) | Ekli düğüm malzemeler içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağını alır. |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
-| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | Aynı parametrelere sahip primitifler için ağı yeniden kullanın, bu, CAD dosyalarından içe aktarılan büyük bir primitif şekil setiyle oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltacaktır. |
-| [getVideoForTexture()](#getVideoForTexture--) | FBX olarak dışa aktarılırken bir [Texture](../../com.aspose.threed/texture) için Video örneği oluşturulup oluşturulmayacağını alır. |
+| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | Aynı parametrelere sahip primitifler için ağı yeniden kullanın, bu, sahnenin büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) ile oluşturulduğu FBX çıktısının boyutunu önemli ölçüde azaltacaktır. |
+| [getVideoForTexture()](#getVideoForTexture--) | FBX olarak dışa aktarırken bir [Texture](../../com.aspose.threed/texture) için Video örneği oluşturulup oluşturulmayacağını alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | Doku dosyasının son çıktı dosyasına gömülüp gömülmeyeceğini ayarlar. |
+| [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | Doku dosyasını son çıktı dosyasına gömüp gömmeyeceğini ayarlar. |
 | [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | FBX dosyasındaki büyük ikili verileri sıkıştırma (örneğin |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
-| [setExportLegacyMaterialProperties(boolean value)](#setExportLegacyMaterialProperties-boolean-) | Geri uyumluluk için kullanılan eski malzeme özelliklerinin dışa aktarılıp aktarılmayacağını ayarlar. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setExportLegacyMaterialProperties(boolean value)](#setExportLegacyMaterialProperties-boolean-) | Geri uyumluluk için kullanılan eski malzeme özelliklerini dışa aktarımını ayarlar. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
-| [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | Son verinin referans sayısını artırarak tekrarlanan eğri verisinin yeniden kullanılmasını ayarlar. |
-| [setGenerateVertexElementMaterial(boolean value)](#setGenerateVertexElementMaterial-boolean-) | Ekli düğüm malzeme içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağını ayarlar. |
+| [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | Son verinin referans sayısını artırarak tekrarlanan eğri verilerini yeniden kullanıp kullanmayacağını ayarlar. |
+| [setGenerateVertexElementMaterial(boolean value)](#setGenerateVertexElementMaterial-boolean-) | Ekli düğüm malzemeler içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağını ayarlar. |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
-| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | Aynı parametrelere sahip primitifler için ağı yeniden kullanın, bu, CAD dosyalarından içe aktarılan büyük bir primitif şekil setiyle oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltacaktır. |
-| [setVideoForTexture(boolean value)](#setVideoForTexture-boolean-) | FBX olarak dışa aktarılırken bir [Texture](../../com.aspose.threed/texture) için Video örneği oluşturulup oluşturulmayacağını ayarlar. |
+| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | Aynı parametrelere sahip primitifler için ağı yeniden kullanın, bu, sahnenin büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) ile oluşturulduğu FBX çıktısının boyutunu önemli ölçüde azaltacaktır. |
+| [setVideoForTexture(boolean value)](#setVideoForTexture-boolean-) | FBX olarak dışa aktarırken bir [Texture](../../com.aspose.threed/texture) için Video örneği oluşturulup oluşturulmayacağını ayarlar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -117,50 +117,50 @@ public boolean getEmbedTextures()
 ```
 
 
-Doku dosyasının son çıktı dosyasına gömülüp gömülmeyeceğini alır. FBX Dışa Aktarıcı, doku ham verisini [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) üzerinden bulmaya çalışacak ve dosyayı son FBX dosyasına gömecektir. Varsayılan değer false'tur.
+Doku dosyasını son çıktı dosyasına gömüp gömmeyeceğini alır. FBX Dışa Aktarıcı, dokunun ham verisini [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) üzerinden bulmaya çalışacak ve dosyayı son FBX dosyasına gömecektir. Varsayılan değer false'tur.
 
 **Returns:**
-boolean - doku dosyasının son çıktı dosyasına gömülüp gömülmeyeceği. FBX Dışa Aktarıcı, doku ham verisini [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) üzerinden bulmaya çalışacak ve dosyayı son FBX dosyasına gömecektir. Varsayılan değer false'tur.
+boolean - doku dosyasını son çıktı dosyasına gömüp gömmeyeceği. FBX Dışa Aktarıcı, dokunun ham verisini [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) üzerinden bulmaya çalışacak ve dosyayı son FBX dosyasına gömecektir. Varsayılan değer false'tur.
 ### getEnableCompression() {#getEnableCompression--}
 ```
 public boolean getEnableCompression()
 ```
 
 
-FBX dosyasındaki büyük ikili verileri sıkıştırma (ör. animasyon verileri, kontrol noktaları, vertex eleman verileri, indeksler), varsayılan değer true'tır.
+FBX dosyasındaki büyük ikili verileri sıkıştırma (örneğin animasyon verileri, kontrol noktaları, vertex eleman verileri, indeksler), varsayılan değer true'tır.
 
 **Returns:**
-boolean - FBX dosyasındaki büyük ikili verileri sıkıştırma (ör. animasyon verileri, kontrol noktaları, vertex eleman verileri, indeksler), varsayılan değer true'tır.
+boolean - FBX dosyasındaki büyük ikili verileri sıkıştırma (örneğin animasyon verileri, kontrol noktaları, vertex eleman verileri, indeksler), varsayılan değer true'tır.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getExportLegacyMaterialProperties() {#getExportLegacyMaterialProperties--}
 ```
 public boolean getExportLegacyMaterialProperties()
 ```
 
 
-Geri uyumluluk için kullanılan eski malzeme özelliklerinin dışa aktarılıp aktarılmayacağını alır. Bu seçenek varsayılan olarak açıktır.
+Geri uyumluluk için kullanılan eski malzeme özelliklerini dışa aktarımını alır. Bu seçenek varsayılan olarak açıktır.
 
 **Returns:**
-boolean - geri uyumluluk için kullanılan eski malzeme özelliklerinin dışa aktarılıp aktarılmayacağı. Bu seçenek varsayılan olarak açıktır.
+boolean - geri uyumluluk için kullanılan eski malzeme özelliklerini dışa aktarımını. Bu seçenek varsayılan olarak açıktır.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Returns:**
-boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
+boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -177,10 +177,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -250,20 +250,20 @@ public Boolean getFoldRepeatedCurveData()
 ```
 
 
-Son verinin referans sayısını artırarak tekrarlanan eğri verisinin yeniden kullanılmasını alır.
+Son verinin referans sayısını artırarak tekrarlanan eğri verilerini yeniden kullanıp kullanmayacağını alır.
 
 **Returns:**
-java.lang.Boolean - son verinin referans sayısını artırarak tekrarlanan eğri verisinin yeniden kullanılmasını belirler
+java.lang.Boolean - son verinin referans sayısını artırarak tekrarlanan eğri verilerini yeniden kullanıp kullanmayacağı
 ### getGenerateVertexElementMaterial() {#getGenerateVertexElementMaterial--}
 ```
 public boolean getGenerateVertexElementMaterial()
 ```
 
 
-Ekli düğüm malzeme içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağını alır. Bu, varsayılan olarak kapalıdır.
+Ekli düğüm malzemeler içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağını alır. Bu, varsayılan olarak kapalıdır.
 
 **Returns:**
-boolean - ekli düğüm malzeme içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağı. Bu, varsayılan olarak kapalıdır.
+boolean - ekli düğüm malzemeler içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağı. Bu, varsayılan olarak kapalıdır.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
@@ -273,7 +273,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -288,20 +288,20 @@ public boolean getReusePrimitiveMesh()
 ```
 
 
-Aynı parametrelere sahip primitifler için ağı yeniden kullanın, bu, CAD dosyalarından içe aktarılan büyük bir primitif şekil setiyle oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltacaktır. Varsayılan değer false'tur.
+Aynı parametrelere sahip primitifler için ağı yeniden kullanın, bu, sahnenin büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) ile oluşturulduğu FBX çıktısının boyutunu önemli ölçüde azaltacaktır. Varsayılan değer false'tur.
 
 **Returns:**
-boolean - Aynı parametrelere sahip primitive'ler için ağı yeniden kullan, bu, CAD dosyalarından içe aktarılan büyük bir primitive şekil setiyle oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltacaktır. Varsayılan değer false
+boolean - Aynı parametrelere sahip primitifler için örgüyü yeniden kullan, bu, büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) ile oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltacaktır. Varsayılan değer false
 ### getVideoForTexture() {#getVideoForTexture--}
 ```
 public boolean getVideoForTexture()
 ```
 
 
-FBX olarak dışa aktarılırken bir [Texture](../../com.aspose.threed/texture) için Video örneği oluşturulup oluşturulmayacağını alır.
+FBX olarak dışa aktarırken bir [Texture](../../com.aspose.threed/texture) için Video örneği oluşturulup oluşturulmayacağını alır.
 
 **Returns:**
-boolean - FBX olarak dışa aktarırken [Texture](../../com.aspose.threed/texture) için bir Video örneği oluşturulup oluşturulmayacağını belirler.
+boolean - FBX olarak dışa aktarırken [Texture](../../com.aspose.threed/texture) için bir Video örneği oluşturulup oluşturulmayacağını.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -347,7 +347,7 @@ public void setEnableCompression(boolean value)
 ```
 
 
-FBX dosyasındaki büyük ikili verileri sıkıştırma (ör. animasyon verileri, kontrol noktaları, vertex eleman verileri, indeksler), varsayılan değer true'tır.
+FBX dosyasındaki büyük ikili verileri sıkıştırma (örneğin animasyon verileri, kontrol noktaları, vertex eleman verileri, indeksler), varsayılan değer true'tır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -360,7 +360,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -373,7 +373,7 @@ public void setExportLegacyMaterialProperties(boolean value)
 ```
 
 
-Geri uyumluluk için kullanılan eski malzeme özelliklerinin dışa aktarılıp aktarılmayacağını ayarlar. Bu seçenek varsayılan olarak açıktır.
+Eski malzeme özelliklerinin dışa aktarılıp aktarılmayacağını ayarlar, geriye uyumluluk için kullanılır. Bu seçenek varsayılan olarak açıktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -386,7 +386,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -399,7 +399,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -417,7 +417,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -454,7 +454,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -481,7 +481,7 @@ public void setFoldRepeatedCurveData(Boolean value)
 ```
 
 
-Son verinin referans sayısını artırarak tekrarlanan eğri verisinin yeniden kullanılmasını ayarlar.
+Son verinin referans sayısını artırarak tekrarlanan eğri verilerini yeniden kullanıp kullanmayacağını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -494,7 +494,7 @@ public void setGenerateVertexElementMaterial(boolean value)
 ```
 
 
-Ekli düğüm malzemeler içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) oluşturulup oluşturulmayacağını ayarlar. Bu, varsayılan olarak kapalıdır.
+Ekli düğüm malzemeler içeriyorsa, geometriler için her zaman bir [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) üretilip üretilmeyeceğini ayarlar. Bu, varsayılan olarak kapalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -512,7 +512,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();
@@ -528,7 +528,7 @@ public void setReusePrimitiveMesh(boolean value)
 ```
 
 
-Aynı parametrelere sahip primitifler için ağı yeniden kullanın, bu, CAD dosyalarından içe aktarılan büyük bir primitif şekil setiyle oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltacaktır. Varsayılan değer false'tur.
+Aynı parametrelere sahip primitifler için ağı yeniden kullanın, bu, sahnenin büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) ile oluşturulduğu FBX çıktısının boyutunu önemli ölçüde azaltacaktır. Varsayılan değer false'tur.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -541,7 +541,7 @@ public void setVideoForTexture(boolean value)
 ```
 
 
-FBX olarak dışa aktarılırken bir [Texture](../../com.aspose.threed/texture) için Video örneği oluşturulup oluşturulmayacağını ayarlar.
+FBX olarak dışa aktarırken bir [Texture](../../com.aspose.threed/texture) için Video örneği oluşturulup oluşturulmayacağını ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |

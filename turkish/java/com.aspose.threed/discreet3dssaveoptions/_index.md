@@ -25,38 +25,38 @@ public class Discreet3dsSaveOptions extends SaveOptions
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDuplicatedNameCounterBase()](#getDuplicatedNameCounterBase--) | Yinelenen adlar için yeni ad oluşturmakta kullanılan sayaç, varsayılan değer 2'dir. |
+| [getDuplicatedNameCounterBase()](#getDuplicatedNameCounterBase--) | Yinelenen adlar için yeni ad oluştururken kullanılan sayaç, varsayılan değer 2'dir. |
 | [getDuplicatedNameCounterFormat()](#getDuplicatedNameCounterFormat--) | Yinelenen sayacın biçimi, varsayılan değer boş dizedir. |
-| [getDuplicatedNameSeparator()](#getDuplicatedNameSeparator--) | Nesnenin adı ile yinelenen sayaç arasındaki ayırıcı, varsayılan değer "\\_". |
+| [getDuplicatedNameSeparator()](#getDuplicatedNameSeparator--) | Nesnenin adı ile yinelenen sayaç arasındaki ayırıcı, varsayılan değer "\_". |
 | [getEncoding()](#getEncoding--) | Metin tabanlı dosyalar için varsayılan kodlamayı alır. |
 | [getExportCamera()](#getExportCamera--) | Sahnede tüm kameraların dışa aktarılıp aktarılmayacağını alır. |
 | [getExportLight()](#getExportLight--) | Sahnede tüm ışıkların dışa aktarılıp aktarılmayacağını alır. |
-| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
+| [getExportTextures()](#getExportTextures--) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 | [getFileFormat()](#getFileFormat--) | Mevcut Kaydet/Yükle seçeneğinde belirtilen dosya biçimini alır. |
-| [getFileName()](#getFileName--) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [getFileName()](#getFileName--) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [getFileSystem()](#getFileSystem--) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem için fabrika sınıfını alır. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | İçeri/dışarı aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır. |
-| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkün olduğunda gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır. |
-| [getHighPreciseColor()](#getHighPreciseColor--) | Bu true ise, oluşturulan 3ds dosyası yüksek hassasiyetli renk kullanır, yani kırmızı/yeşil/mavi kanallarının her biri 32 bit float olarak olur. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | İçe aktarma/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır. |
+| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır. |
+| [getHighPreciseColor()](#getHighPreciseColor--) | Bu true ise, oluşturulan 3ds dosyası yüksek hassasiyetli renk kullanır, yani kırmızı/yeşil/mavi kanallarının her biri 32 bit float olur. |
 | [getLookupPaths()](#getLookupPaths--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [getMasterScale()](#getMasterScale--) | Dışa aktarımda kullanılan ana ölçeği alır. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDuplicatedNameCounterBase(int value)](#setDuplicatedNameCounterBase-int-) | Yinelenen adlar için yeni ad oluşturmakta kullanılan sayaç, varsayılan değer 2'dir. |
+| [setDuplicatedNameCounterBase(int value)](#setDuplicatedNameCounterBase-int-) | Yinelenen adlar için yeni ad oluştururken kullanılan sayaç, varsayılan değer 2'dir. |
 | [setDuplicatedNameCounterFormat(String value)](#setDuplicatedNameCounterFormat-java.lang.String-) | Yinelenen sayacın biçimi, varsayılan değer boş dizedir. |
-| [setDuplicatedNameSeparator(String value)](#setDuplicatedNameSeparator-java.lang.String-) | Nesnenin adı ile yinelenen sayaç arasındaki ayırıcı, varsayılan değer "\\_". |
+| [setDuplicatedNameSeparator(String value)](#setDuplicatedNameSeparator-java.lang.String-) | Nesnenin adı ile yinelenen sayaç arasındaki ayırıcı, varsayılan değer "\_". |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. |
 | [setExportCamera(boolean value)](#setExportCamera-boolean-) | Sahnedeki tüm kameraların dışa aktarılıp aktarılmayacağını ayarlar. |
 | [setExportLight(boolean value)](#setExportLight-boolean-) | Sahnedeki tüm ışıkların dışa aktarılıp aktarılmayacağını ayarlar. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içeri aktarma sahnesinin dosya adı. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Dışa aktarma/içe aktarma sahnesinin dosya adı. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem için fabrika sınıfını ayarlar. |
-| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | İçeri/dışarı aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini ayarlar. |
-| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkün olduğunda gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır. |
-| [setHighPreciseColor(boolean value)](#setHighPreciseColor-boolean-) | Bu true ise, oluşturulan 3ds dosyası yüksek hassasiyetli renk kullanır, yani kırmızı/yeşil/mavi kanallarının her biri 32 bit float olarak olur. |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | İçe aktarma/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini ayarlar. |
+| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır. |
+| [setHighPreciseColor(boolean value)](#setHighPreciseColor-boolean-) | Bu true ise, oluşturulan 3ds dosyası yüksek hassasiyetli renk kullanır, yani kırmızı/yeşil/mavi kanallarının her biri 32 bit float olur. |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. |
 | [setMasterScale(double value)](#setMasterScale-double-) | Dışa aktarmada kullanılan ana ölçeği ayarlar. |
 | [toString()](#toString--) |  |
@@ -102,7 +102,7 @@ public int getDuplicatedNameCounterBase()
 ```
 
 
-Yinelenen adlar için yeni ad oluşturmakta kullanılan sayaç, varsayılan değer 2'dir.
+Yinelenen adlar için yeni ad oluştururken kullanılan sayaç, varsayılan değer 2'dir.
 
 **Returns:**
 int - Yinelenen adlar için yeni ad oluştururken kullanılan sayaç, varsayılan değer 2'dir.
@@ -122,20 +122,20 @@ public String getDuplicatedNameSeparator()
 ```
 
 
-Nesnenin adı ile yinelenen sayac arasındaki ayırıcı, varsayılan değer "\_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin iki "Box" adlı düğüm varsa, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırmayı kullanarak "Box\_2" adını alır.
+Nesnenin adı ile yinelenen sayac arasındaki ayırıcı, varsayılan değer "\\_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin iki "Box" adlı düğüm varsa, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırmayı kullanarak "Box\\_2" adını alır.
 
 **Returns:**
-java.lang.String - Nesnenin adı ile yinelenen sayac arasındaki ayırıcı, varsayılan değer "\_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin iki "Box" adlı düğüm varsa, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırmayı kullanarak "Box\_2" adını alır.
+java.lang.String - Nesnenin adı ile yinelenen sayac arasındaki ayırıcı, varsayılan değer "\\_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin iki "Box" adlı düğüm varsa, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırmayı kullanarak "Box\\_2" adını alır.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı alır. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Returns:**
-java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+java.nio.charset.Charset - metin tabanlı dosyalar için varsayılan kodlama. Varsayılan değer null'dur, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 ### getExportCamera() {#getExportCamera--}
 ```
 public boolean getExportCamera()
@@ -145,7 +145,7 @@ public boolean getExportCamera()
 Sahnede tüm kameraların dışa aktarılıp aktarılmayacağını alır.
 
 **Returns:**
-boolean - sahnedeki tüm kameraların dışa aktarılıp aktarılmayacağı.
+boolean - sahnedeki tüm kameraların dışa aktarılıp aktarılmayacağını.
 ### getExportLight() {#getExportLight--}
 ```
 public boolean getExportLight()
@@ -155,17 +155,17 @@ public boolean getExportLight()
 Sahnede tüm ışıkların dışa aktarılıp aktarılmayacağını alır.
 
 **Returns:**
-boolean - sahnedeki tüm ışıkların dışa aktarılıp aktarılmayacağı.
+boolean - sahnedeki tüm ışıkların dışa aktarılıp aktarılmayacağını.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Returns:**
-boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
+boolean - sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -182,10 +182,10 @@ public String getFileName()
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Returns:**
-java.lang.String - Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+java.lang.String - Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -255,20 +255,20 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-İçeri/dışarı aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır.
+İçe aktarma/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır.
 
 **Returns:**
-boolean - içe/dışa aktarım sırasında kontrol noktalarının/normalin koordinat sistemini tersine çevir.
+boolean - içe/dışa aktarım sırasında kontrol noktalarının/normalin koordinat sistemini ters çevir.
 ### getGammaCorrectedColor() {#getGammaCorrectedColor--}
 ```
 public boolean getGammaCorrectedColor()
 ```
 
 
-Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkün olduğunda gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır.
+Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır.
 
 **Returns:**
-boolean - Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır.
+boolean - Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltmeli renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltmeli rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır.
 ### getHighPreciseColor() {#getHighPreciseColor--}
 ```
 public boolean getHighPreciseColor()
@@ -288,7 +288,7 @@ public ArrayList<String> getLookupPaths()
 OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasına izin verir. **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
+java.util.ArrayList<java.lang.String> - OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3D'nin yüklemek için harici dosyayı bulmasını sağlar. **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir
 
 ```
 var opt = new ObjLoadOptions();
@@ -339,7 +339,7 @@ public void setDuplicatedNameCounterBase(int value)
 ```
 
 
-Yinelenen adlar için yeni ad oluşturmakta kullanılan sayaç, varsayılan değer 2'dir.
+Yinelenen adlar için yeni ad oluştururken kullanılan sayaç, varsayılan değer 2'dir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -365,7 +365,7 @@ public void setDuplicatedNameSeparator(String value)
 ```
 
 
-Nesnenin adı ile yinelenen sayac arasındaki ayırıcı, varsayılan değer "\_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin iki "Box" adlı düğüm varsa, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırmayı kullanarak "Box\_2" adını alır.
+Nesnenin adı ile yinelenen sayac arasındaki ayırıcı, varsayılan değer "\\_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin iki "Box" adlı düğüm varsa, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırmayı kullanarak "Box\\_2" adını alır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -378,7 +378,7 @@ public void setEncoding(Charset value)
 ```
 
 
-Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcının/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir.
+Metin tabanlı dosyalar için varsayılan kodlamayı ayarlar. Varsayılan değer null'dır, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -417,7 +417,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dener.
+Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -430,7 +430,7 @@ public void setFileName(String value)
 ```
 
 
-Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
+Dışa/İçe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi harici varlıkları serileştirirken faydalıdır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -448,7 +448,7 @@ Kullanıcının yükleme/kaydetme sırasında harici bağımlılıkları nasıl 
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Örnek:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D farklı FileSystem uygulamaları sağlar, örneğin: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Yeni değer **Example:** Varsayılan FileSystem LocalFileSystem'dir, sunucu tarafı gibi ortamlarda güvenli değildir, ancak farklı bir uygulama belirterek dosya sistemi erişimini geçersiz kılabilirsiniz. Aspose.3D, aşağıdakiler gibi farklı FileSystem uygulamaları sağlar: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -485,7 +485,7 @@ FileSystem için fabrika sınıfını ayarlar. Varsayılan fabrika, sunucu ortam
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Örnek:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | Yeni değer **Example:** SaveOptions/LoadOptions içindeki varsayılan FileSystem dizin tabanlı bir dosya sistemidir, IOConfig.FileSystemFactory aracılığıyla belirterek varsayılan uygulamayı geçersiz kılabilirsiniz: |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -512,7 +512,7 @@ public void setFlipCoordinateSystem(boolean value)
 ```
 
 
-İçeri/dışarı aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini ayarlar.
+İçe aktarma/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini ayarlar.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -525,7 +525,7 @@ public void setGammaCorrectedColor(boolean value)
 ```
 
 
-Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkün olduğunda gama düzeltilmiş rengi kullanır, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışır.
+Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır.
 
 **Parameters:**
 | Parametre | Tür | Açıklama |
@@ -556,7 +556,7 @@ OBJ gibi bazı dosyalar harici dosyalara bağımlıdır, arama yolları Aspose.3
 **Parameters:**
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Örnek:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
+|  | değer | java.util.ArrayList<java.lang.String> | Yeni değer **Example:** Aşağıdaki kod, arama dokularını manuel olarak nasıl belirteceğinizi gösterir, böylece içe aktarıcı bulabilir |
 
 ```
 var opt = new ObjLoadOptions();
