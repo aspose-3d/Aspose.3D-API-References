@@ -1,7 +1,7 @@
 ---
 title: "BooleanOperand"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Esta clase encapsula la malla transformada como operando de operaciones Booleanas."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Esta clase encapsula la malla transformada como operando de operaciones booleanas."
 type: docs
 weight: 22
 url: /es/java/com.aspose.threed/booleanoperand/
@@ -24,9 +24,9 @@ Esta clase encapsula la malla transformada como operando de la operación Boolea
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [of(Entity mesh)](#of-com.aspose.threed.Entity-) | Construya una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de una instancia sin procesar de [IMeshConvertible](../../com.aspose.threed/imeshconvertible). |
-| [of(Entity mesh, Matrix4 transform)](#of-com.aspose.threed.Entity-com.aspose.threed.Matrix4-) | Construya una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de una instancia de [IMeshConvertible](../../com.aspose.threed/imeshconvertible) y la transformación especificada. |
-| [of(Node node)](#of-com.aspose.threed.Node-) | Construya una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de un nodo; se requiere una entidad válida que implemente [IMeshConvertible](../../com.aspose.threed/imeshconvertible). |
+| [of(Entity mesh)](#of-com.aspose.threed.Entity-) | Construir una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de una instancia cruda de [IMeshConvertible](../../com.aspose.threed/imeshconvertible). |
+| [of(Entity mesh, Matrix4 transform)](#of-com.aspose.threed.Entity-com.aspose.threed.Matrix4-) | Construir una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de una instancia de [IMeshConvertible](../../com.aspose.threed/imeshconvertible) y la transformación especificada. |
+| [of(Node node)](#of-com.aspose.threed.Node-) | Construir una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de un nodo; se requiere una entidad válida que implemente [IMeshConvertible](../../com.aspose.threed/imeshconvertible). |
 | [toString()](#toString--) | Obtiene la representación en cadena de [BooleanOperand](../../com.aspose.threed/booleanoperand). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,7 +98,7 @@ public static BooleanOperand of(Entity mesh)
 ```
 
 
-Construya una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de una instancia sin procesar de [IMeshConvertible](../../com.aspose.threed/imeshconvertible).
+Construir una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de una instancia cruda de [IMeshConvertible](../../com.aspose.threed/imeshconvertible).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -113,7 +113,7 @@ public static BooleanOperand of(Entity mesh, Matrix4 transform)
 ```
 
 
-Construya una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de una instancia de [IMeshConvertible](../../com.aspose.threed/imeshconvertible) y la transformación especificada.
+Construir una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de una instancia de [IMeshConvertible](../../com.aspose.threed/imeshconvertible) y la transformación especificada.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -129,7 +129,7 @@ public static BooleanOperand of(Node node)
 ```
 
 
-Construya una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de un nodo; se requiere una entidad válida que implemente [IMeshConvertible](../../com.aspose.threed/imeshconvertible).
+Construir una instancia de [BooleanOperand](../../com.aspose.threed/booleanoperand) a partir de un nodo; se requiere una entidad válida que implemente [IMeshConvertible](../../com.aspose.threed/imeshconvertible).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

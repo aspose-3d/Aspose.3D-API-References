@@ -1,7 +1,7 @@
 ---
 title: "Shape"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "La forma describe la deformación en un conjunto de puntos de control, lo cual es similar al deformador de clúster en Maya."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La forma describe la deformación en un conjunto de puntos de control que es similar al deformador de clúster en Maya."
 type: docs
 weight: 171
 url: /es/java/com.aspose.threed/shape/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Shape extends Geometry
 ```
 
-La forma describe la deformación en un conjunto de puntos de control, lo cual es similar al deformador de clúster en Maya. Por ejemplo, podemos agregar una forma a una geometría creada. Y la forma y la geometría tienen la misma información topológica pero diferentes posiciones de los puntos de control. Con cantidades variables de influencia, la geometría produce un efecto de deformación.
+La forma describe la deformación en un conjunto de puntos de control, que es similar al deformador de clúster en Maya. Por ejemplo, podemos agregar una forma a una geometría creada. Y la forma y la geometría tienen la misma información topológica pero diferentes posiciones de los puntos de control. Con distintas cantidades de influencia, la geometría produce un efecto de deformación.
 ## Constructores
 
 | Constructor | Descripción |
@@ -28,11 +28,11 @@ La forma describe la deformación en un conjunto de puntos de control, lo cual e
 | [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | Agrega un elemento de vértice existente a la geometría actual |
 | [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Crea un elemento de vértice con el tipo especificado y lo agrega a la geometría. |
 | [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Crea un elemento de vértice con el tipo especificado y lo agrega a la geometría. |
-| [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado. |
-| [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado. |
+| [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado. |
+| [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Busca la propiedad. |
-| [fromControlPoints(Vector3[] controlPoints)](#fromControlPoints-com.aspose.threed.Vector3...-) | Cree una forma con puntos de control especificados y con índices predeterminados. |
+| [fromControlPoints(Vector3[] controlPoints)](#fromControlPoints-com.aspose.threed.Vector3...-) | Cree una forma con puntos de control especificados con índices predeterminados. |
 | [getBoundingBox()](#getBoundingBox--) | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objetos. |
 | [getCastShadows()](#getCastShadows--) | Obtiene si esta geometría puede proyectar sombra |
 | [getClass()](#getClass--) |  |
@@ -40,16 +40,16 @@ La forma describe la deformación en un conjunto de puntos de control, lo cual e
 | [getDeformers()](#getDeformers--) | Obtiene todos los deformadores asociados a esta geometría. |
 | [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Obtiene un elemento de vértice con el tipo especificado |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getIndices()](#getIndices--) | Obtiene los índices. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getReceiveShadows()](#getReceiveShadows--) | Obtiene si esta geometría puede recibir sombra. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Obtiene una instancia de [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Obtiene una instancia de [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado |
 | [getVertexElements()](#getVertexElements--) | Obtiene todos los elementos de vértice |
 | [getVisible()](#getVisible--) | Obtiene si la geometría es visible |
 | [hashCode()](#hashCode--) |  |
@@ -58,9 +58,9 @@ La forma describe la deformación en un conjunto de puntos de control, lo cual e
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | Establece si esta geometría puede proyectar sombra |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Establece si esta geometría puede recibir sombra. |
 | [setVisible(boolean value)](#setVisible-boolean-) | Establece si la geometría es visible |
@@ -98,7 +98,7 @@ public Collection<T> <T>getDeformers2()
 Obtiene todos los deformadores con los tipos de deformador especificados
 
 **Returns:**
-java.util.Collection<T> - colección Deformer
+java.util.Collection<T> - Colección de deformadores
 ### addElement(VertexElement element) {#addElement-com.aspose.threed.VertexElement-}
 ```
 public void addElement(VertexElement element)
@@ -150,7 +150,7 @@ public VertexElementUV createElementUV(TextureMapping uvMapping)
 ```
 
 
-Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado.
+Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -165,7 +165,7 @@ public VertexElementUV createElementUV(TextureMapping uvMapping, MappingMode map
 ```
 
 
-Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado.
+Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -197,7 +197,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -212,7 +212,7 @@ public static Shape fromControlPoints(Vector3[] controlPoints)
 ```
 
 
-Cree una forma con puntos de control especificados y con índices predeterminados.
+Cree una forma con puntos de control especificados con índices predeterminados.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -309,10 +309,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getIndices() {#getIndices--}
 ```
 public List<Integer> getIndices()
@@ -339,7 +339,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -349,7 +349,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -369,7 +369,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -404,7 +404,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-Obtiene una instancia de [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado
+Obtiene una instancia de [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -508,7 +508,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -534,7 +534,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

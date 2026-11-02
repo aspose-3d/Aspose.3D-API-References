@@ -1,6 +1,6 @@
 ---
 title: "Plane"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Plano parametrizado."
 type: docs
 weight: 128
@@ -18,9 +18,9 @@ Plano parametrizado.
 
 | Constructor | Descripción |
 | --- | --- |
-| [Plane()](#Plane--) | Inicializa una nueva instancia del [Plane](../../com.aspose.threed/plane) con tamaño predeterminado de 1x1. |
-| [Plane(double length, double width)](#Plane-double-double-) | Inicializa una nueva instancia del [Plane](../../com.aspose.threed/plane). |
-| [Plane(String name, double length, double width, int lengthSegments, int widthSegments)](#Plane-java.lang.String-double-double-int-int-) | Inicializa una nueva instancia del [Plane](../../com.aspose.threed/plane). |
+| [Plane()](#Plane--) | Inicializa una nueva instancia de [Plane](../../com.aspose.threed/plane) con tamaño predeterminado 1x1. |
+| [Plane(double length, double width)](#Plane-double-double-) | Inicializa una nueva instancia de [Plane](../../com.aspose.threed/plane). |
+| [Plane(String name, double length, double width, int lengthSegments, int widthSegments)](#Plane-java.lang.String-double-double-int-int-) | Inicializa una nueva instancia de [Plane](../../com.aspose.threed/plane). |
 ## Métodos
 
 | Método | Descripción |
@@ -31,14 +31,14 @@ Plano parametrizado.
 | [getCastShadows()](#getCastShadows--) | Obtiene si esta geometría puede proyectar sombra |
 | [getClass()](#getClass--) |  |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getLength()](#getLength--) | Obtiene la longitud del plano. |
 | [getLengthSegments()](#getLengthSegments--) | Obtiene los segmentos de longitud. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getReceiveShadows()](#getReceiveShadows--) | Obtiene si esta geometría puede recibir sombra. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [getUp()](#getUp--) | Obtiene el vector ascendente del plano, el valor predeterminado es (0, 1, 0), esto afecta la generación del plano |
@@ -50,11 +50,11 @@ Plano parametrizado.
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | Establece si esta geometría puede proyectar sombra |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setLength(double value)](#setLength-double-) | Establece la longitud del plano. |
 | [setLengthSegments(int value)](#setLengthSegments-int-) | Establece los segmentos de longitud. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Establece si esta geometría puede recibir sombra. |
 | [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | Establece el vector ascendente del plano, el valor predeterminado es (0, 1, 0), esto afecta la generación del plano |
@@ -71,7 +71,7 @@ public Plane()
 ```
 
 
-Inicializa una nueva instancia del [Plane](../../com.aspose.threed/plane) con tamaño predeterminado de 1x1.
+Inicializa una nueva instancia de [Plane](../../com.aspose.threed/plane) con tamaño predeterminado 1x1.
 
 ### Plane(double length, double width) {#Plane-double-double-}
 ```
@@ -79,7 +79,7 @@ public Plane(double length, double width)
 ```
 
 
-Inicializa una nueva instancia del [Plane](../../com.aspose.threed/plane).
+Inicializa una nueva instancia de [Plane](../../com.aspose.threed/plane).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -93,7 +93,7 @@ public Plane(String name, double length, double width, int lengthSegments, int w
 ```
 
 
-Inicializa una nueva instancia del [Plane](../../com.aspose.threed/plane).
+Inicializa una nueva instancia de [Plane](../../com.aspose.threed/plane).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -125,7 +125,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -187,10 +187,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getLength() {#getLength--}
 ```
 public double getLength()
@@ -227,7 +227,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -237,7 +237,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -257,7 +257,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -391,7 +391,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -443,7 +443,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

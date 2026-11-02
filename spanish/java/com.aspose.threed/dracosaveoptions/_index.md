@@ -1,7 +1,7 @@
 ---
 title: "DracoSaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Opciones de guardado para archivos Google draco"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Opciones de guardado para archivos Google Draco"
 type: docs
 weight: 47
 url: /es/java/com.aspose.threed/dracosaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class DracoSaveOptions extends SaveOptions
 ```
 
-Opciones de guardado para archivos Google draco
+Opciones de guardado para archivos Google Draco
 ## Constructores
 
 | Constructor | Descripción |
@@ -28,13 +28,13 @@ Opciones de guardado para archivos Google draco
 | [getClass()](#getClass--) |  |
 | [getColorBits()](#getColorBits--) | Bits de cuantización para el color de vértice, el valor predeterminado es 10 |
 | [getCompressionLevel()](#getCompressionLevel--) | Nivel de compresión, el valor predeterminado es [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD) |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getFileFormat()](#getFileFormat--) | Obtiene el formato de archivo especificado en la opción actual de Guardar/Cargar. |
 | [getFileName()](#getFileName--) | El nombre de archivo de la escena de exportación/importación. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [getNormalBits()](#getNormalBits--) | Bits de cuantización para vectores normales, el valor predeterminado es 10 |
 | [getPointCloud()](#getPointCloud--) | Exportar la escena como nube de puntos, el valor predeterminado es false. |
 | [getPositionBits()](#getPositionBits--) | Bits de cuantización para la posición, el valor predeterminado es 14 |
@@ -45,12 +45,12 @@ Opciones de guardado para archivos Google draco
 | [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | Aplicar [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) a la malla. |
 | [setColorBits(int value)](#setColorBits-int-) | Bits de cuantización para el color de vértice, el valor predeterminado es 10 |
 | [setCompressionLevel(DracoCompressionLevel value)](#setCompressionLevel-com.aspose.threed.DracoCompressionLevel-) | Nivel de compresión, el valor predeterminado es [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD) |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | El nombre de archivo de la escena de exportación/importación. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [setNormalBits(int value)](#setNormalBits-int-) | Bits de cuantización para vectores normales, el valor predeterminado es 10 |
 | [setPointCloud(boolean value)](#setPointCloud-boolean-) | Exportar la escena como nube de puntos, el valor predeterminado es false. |
 | [setPositionBits(int value)](#setPositionBits-int-) | Bits de cuantización para la posición, el valor predeterminado es 14 |
@@ -128,10 +128,10 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -158,10 +158,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -231,7 +231,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -380,7 +380,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -462,7 +462,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

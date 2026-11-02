@@ -1,6 +1,6 @@
 ---
 title: "BoneLinkMode"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Un modo de enlace de huesos se refiere a la forma en que un hueso está conectado o enlazado a su hueso padre dentro de una estructura jerárquica."
 type: docs
 weight: 267
@@ -20,7 +20,7 @@ El modo de enlace de un hueso se refiere a la forma en que un hueso está conect
 | --- | --- |
 | [ADDITIVE](#ADDITIVE) | El modo aditivo calcula las transformaciones de los huesos hijos sumando sus propias transformaciones locales a las de sus huesos padres. |
 | [NORMALIZE](#NORMALIZE) | En este modo, las transformaciones de los huesos hijos se normalizan respecto a las transformaciones de su hueso padre. |
-| [TOTAL_ONE](#TOTAL-ONE) | Total One garantiza que las transformaciones combinadas del hueso padre y del hijo resulten en una transformación combinada que se escale a una longitud total de una unidad. |
+| [TOTAL_ONE](#TOTAL-ONE) | Total One garantiza que las transformaciones combinadas del hueso padre y del hijo resulten en una transformación combinada que escala a una longitud total de una unidad. |
 ## Métodos
 
 | Método | Descripción |
@@ -64,7 +64,7 @@ public static final BoneLinkMode TOTAL_ONE
 ```
 
 
-Total One garantiza que las transformaciones combinadas del hueso padre y del hijo resulten en una transformación combinada que se escale a una longitud total de una unidad.
+Total One garantiza que las transformaciones combinadas del hueso padre y del hijo resulten en una transformación combinada que escala a una longitud total de una unidad.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

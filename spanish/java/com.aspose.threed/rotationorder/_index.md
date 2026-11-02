@@ -1,6 +1,6 @@
 ---
 title: "RotationOrder"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El orden controla qué rx ry rz se aplican en la matriz de transformación."
 type: docs
 weight: 300

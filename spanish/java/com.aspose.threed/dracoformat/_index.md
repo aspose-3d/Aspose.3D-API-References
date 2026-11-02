@@ -1,7 +1,7 @@
 ---
 title: "DracoFormat"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Ejemplo del formato Google Draco         El siguiente código muestra cómo codificar y decodificar una malla a/de un arreglo de bytes"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Ejemplo del formato Google Draco         El siguiente código muestra cómo codificar y decodificar una Mesh a/de un arreglo de bytes"
 type: docs
 weight: 46
 url: /es/java/com.aspose.threed/dracoformat/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileFormat](../../com.aspose.threed/filefor
 public class DracoFormat extends FileFormat
 ```
 
-Formato Google Draco **Ejemplo:** El siguiente código muestra cómo codificar y decodificar una malla a/de un arreglo de bytes:
+Formato Google Draco **Ejemplo:** El siguiente código muestra cómo codificar y decodificar una Mesh a/de un arreglo de bytes:
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -27,8 +27,8 @@ Mesh mesh = (new Sphere()).toMesh();
 | Campo | Descripción |
 | --- | --- |
 | [AMF](#AMF) | Formato de archivo de fabricación aditiva |
-| [ASE](#ASE) | Formato ASCII de exportador de escena de 3D Studio Max. |
-| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Formato Web de Aspose.3D. |
+| [ASE](#ASE) | Formato de exportador de escena ASCII de 3D Studio Max. |
+| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Formato web de Aspose.3D. |
 | [BLENDER](#BLENDER) | Formato de archivo 3D de Blender |
 | [COLLADA](#COLLADA) | Formato de archivo Collada |
 | [DISCREET3DS](#DISCREET3DS) | Formato de archivo de 3D Studio |
@@ -48,10 +48,10 @@ Mesh mesh = (new Sphere()).toMesh();
 | [FBX7600_BINARY](#FBX7600-BINARY) | Formato de archivo FBX binario, con versión 7.6.0 |
 | [FBX7700ASCII](#FBX7700ASCII) | Formato de archivo FBX ASCII, con versión 7.7.0 |
 | [FBX7700_BINARY](#FBX7700-BINARY) | Formato de archivo FBX binario, con versión 7.7.0 |
-| [GLTF](#GLTF) | glTF del Khronos Group |
-| [GLTF2](#GLTF2) | glTF del Khronos Group versión 2.0 |
-| [GLTF2_BINARY](#GLTF2-BINARY) | glTF del Khronos Group versión 2.0 |
-| [GLTF_BINARY](#GLTF-BINARY) | glTF del Khronos Group en formato binario |
+| [GLTF](#GLTF) | glTF del Grupo Khronos |
+| [GLTF2](#GLTF2) | glTF del Grupo Khronos versión 2.0 |
+| [GLTF2_BINARY](#GLTF2-BINARY) | glTF del Grupo Khronos versión 2.0 |
+| [GLTF_BINARY](#GLTF-BINARY) | glTF del Grupo Khronos en formato binario |
 | [HTML5](#HTML5) | Archivo HTML5 |
 | [IFC](#IFC) | Modelo de datos ISO 16739-1 Industry Foundation Classes. |
 | [MAYAASCII](#MAYAASCII) | Autodesk Maya en formato ASCII |
@@ -61,8 +61,8 @@ Mesh mesh = (new Sphere()).toMesh();
 | [PCD_BINARY](#PCD-BINARY) | Archivo PCL Point Cloud Data en modo binario |
 | [PDF](#PDF) | Formato de documento portátil de Adobe |
 | [PLY](#PLY) | Formato de archivo Polygon o Formato de triángulo Stanford |
-| [RVM_BINARY](#RVM-BINARY) | Modelo del Sistema de Gestión de Diseño de Planta AVEVA en formato binario |
-| [RVM_TEXT](#RVM-TEXT) | Modelo del Sistema de Gestión de Diseño de Planta AVEVA en formato de texto |
+| [RVM_BINARY](#RVM-BINARY) | Modelo del Sistema de Gestión de Diseño de Plantas AVEVA en formato binario |
+| [RVM_TEXT](#RVM-TEXT) | Modelo del Sistema de Gestión de Diseño de Plantas AVEVA en formato de texto |
 | [SIEMENSJT8](#SIEMENSJT8) | Archivo JT de Siemens versión 8 |
 | [SIEMENSJT9](#SIEMENSJT9) | Archivo JT de Siemens versión 9 |
 | [STLASCII](#STLASCII) | Formato de archivo STL ASCII |
@@ -86,18 +86,18 @@ Mesh mesh = (new Sphere()).toMesh();
 | [decode(byte[] data)](#decode-byte---) | Decodificar la nube de puntos o malla a partir de datos en memoria |
 | [decode(String fileName)](#decode-java.lang.String-) | Decodificar la nube de puntos o malla a partir del nombre de archivo especificado |
 | [detect(Stream stream, String fileName)](#detect-com.aspose.threed.Stream-java.lang.String-) | Detectar el formato de archivo a partir del flujo de datos, el nombre del archivo es opcional para adivinar tipos que no tienen encabezado mágico. |
-| [detect(String fileName)](#detect-java.lang.String-) | Detectar el formato de archivo a partir del nombre del archivo, el archivo debe ser legible para que Aspose.3D pueda detectar el formato mediante el encabezado del archivo. |
-| [encode(Entity entity)](#encode-com.aspose.threed.Entity-) | Codificar la entidad a datos crudos de Draco |
-| [encode(Entity entity, DracoSaveOptions options)](#encode-com.aspose.threed.Entity-com.aspose.threed.DracoSaveOptions-) | Codificar la entidad a datos crudos de Draco |
+| [detect(String fileName)](#detect-java.lang.String-) | Detectar el formato de archivo a partir del nombre del archivo, el archivo debe ser legible para que Aspose.3D pueda detectar el formato de archivo mediante el encabezado del archivo. |
+| [encode(Entity entity)](#encode-com.aspose.threed.Entity-) | Codificar la entidad a datos sin procesar de Draco |
+| [encode(Entity entity, DracoSaveOptions options)](#encode-com.aspose.threed.Entity-com.aspose.threed.DracoSaveOptions-) | Codificar la entidad a datos sin procesar de Draco |
 | [encode(Entity entity, Stream stream)](#encode-com.aspose.threed.Entity-com.aspose.threed.Stream-) | Codificar la entidad al flujo especificado |
 | [encode(Entity entity, Stream stream, DracoSaveOptions options)](#encode-com.aspose.threed.Entity-com.aspose.threed.Stream-com.aspose.threed.DracoSaveOptions-) | Codificar la entidad al flujo especificado |
 | [encode(Entity entity, String fileName)](#encode-com.aspose.threed.Entity-java.lang.String-) | Codificar la entidad al archivo especificado |
 | [encode(Entity entity, String fileName, DracoSaveOptions options)](#encode-com.aspose.threed.Entity-java.lang.String-com.aspose.threed.DracoSaveOptions-) | Codificar la entidad al archivo especificado |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCanExport()](#getCanExport--) | Obtiene si Aspose.3D admite la exportación de la escena al formato de archivo actual. |
-| [getCanImport()](#getCanImport--) | Obtiene si Aspose.3D admite la importación de la escena desde el formato de archivo actual. |
+| [getCanExport()](#getCanExport--) | Obtiene si Aspose.3D admite exportar la escena al formato de archivo actual. |
+| [getCanImport()](#getCanImport--) | Obtiene si Aspose.3D admite importar la escena desde el formato de archivo actual. |
 | [getClass()](#getClass--) |  |
-| [getContentType()](#getContentType--) | Obtiene el tipo de contenido del formato de archivo |
+| [getContentType()](#getContentType--) | Obtiene el tipo de contenido del formato de archivo. |
 | [getExtension()](#getExtension--) | Obtiene el nombre de extensión de este tipo. |
 | [getExtensions()](#getExtensions--) | Obtiene los nombres de extensión de este tipo. |
 | [getFileFormatType()](#getFileFormatType--) | Obtiene el tipo de formato de archivo |
@@ -125,7 +125,7 @@ public static final FileFormat ASE
 ```
 
 
-Formato ASCII de exportador de escena de 3D Studio Max.
+Formato de exportador de escena ASCII de 3D Studio Max.
 
 ### ASPOSE3D_WEB {#ASPOSE3D-WEB}
 ```
@@ -133,7 +133,7 @@ public static final FileFormat ASPOSE3D_WEB
 ```
 
 
-Formato Web de Aspose.3D.
+Formato web de Aspose.3D.
 
 ### BLENDER {#BLENDER}
 ```
@@ -293,7 +293,7 @@ public static final FileFormat GLTF
 ```
 
 
-glTF del Khronos Group
+glTF del Grupo Khronos
 
 ### GLTF2 {#GLTF2}
 ```
@@ -301,7 +301,7 @@ public static final FileFormat GLTF2
 ```
 
 
-glTF del Khronos Group versión 2.0
+glTF del Grupo Khronos versión 2.0
 
 ### GLTF2_BINARY {#GLTF2-BINARY}
 ```
@@ -309,7 +309,7 @@ public static final FileFormat GLTF2_BINARY
 ```
 
 
-glTF del Khronos Group versión 2.0
+glTF del Grupo Khronos versión 2.0
 
 ### GLTF_BINARY {#GLTF-BINARY}
 ```
@@ -317,7 +317,7 @@ public static final FileFormat GLTF_BINARY
 ```
 
 
-glTF del Khronos Group en formato binario
+glTF del Grupo Khronos en formato binario
 
 ### HTML5 {#HTML5}
 ```
@@ -397,7 +397,7 @@ public static final RvmFormat RVM_BINARY
 ```
 
 
-Modelo del Sistema de Gestión de Diseño de Planta AVEVA en formato binario
+Modelo del Sistema de Gestión de Diseño de Plantas AVEVA en formato binario
 
 ### RVM_TEXT {#RVM-TEXT}
 ```
@@ -405,7 +405,7 @@ public static final RvmFormat RVM_TEXT
 ```
 
 
-Modelo del Sistema de Gestión de Diseño de Planta AVEVA en formato de texto
+Modelo del Sistema de Gestión de Diseño de Plantas AVEVA en formato de texto
 
 ### SIEMENSJT8 {#SIEMENSJT8}
 ```
@@ -550,7 +550,7 @@ Decodificar la nube de puntos o malla a partir de datos en memoria
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| datos | byte[] | Los bytes crudos drc |
+| datos | byte[] | Los bytes drc sin procesar |
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - A [Mesh](../../com.aspose.threed/mesh) or [PointCloud](../../com.aspose.threed/pointcloud) instance depends on the content
@@ -591,7 +591,7 @@ public static FileFormat detect(String fileName)
 ```
 
 
-Detectar el formato de archivo a partir del nombre del archivo, el archivo debe ser legible para que Aspose.3D pueda detectar el formato mediante el encabezado del archivo.
+Detectar el formato de archivo a partir del nombre del archivo, el archivo debe ser legible para que Aspose.3D pueda detectar el formato de archivo mediante el encabezado del archivo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -606,7 +606,7 @@ public byte[] encode(Entity entity)
 ```
 
 
-Codificar la entidad a datos crudos de Draco
+Codificar la entidad a datos sin procesar de Draco
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -614,7 +614,7 @@ Codificar la entidad a datos crudos de Draco
 | entity | [Entity](../../com.aspose.threed/entity) | La entidad a codificar |
 
 **Returns:**
-byte[] - Los datos de draco codificados representados en bytes **Example:** El siguiente código muestra cómo codificar y decodificar una malla a/de un arreglo de bytes:
+byte[] - Los datos draco codificados representados en bytes **Example:** El siguiente código muestra cómo codificar y decodificar una Mesh a/de un arreglo de bytes:
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -629,7 +629,7 @@ public byte[] encode(Entity entity, DracoSaveOptions options)
 ```
 
 
-Codificar la entidad a datos crudos de Draco
+Codificar la entidad a datos sin procesar de Draco
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -638,7 +638,7 @@ Codificar la entidad a datos crudos de Draco
 | options | [DracoSaveOptions](../../com.aspose.threed/dracosaveoptions) | Opciones adicionales para codificar la nube de puntos |
 
 **Returns:**
-byte[] - Los datos de draco codificados representados en bytes **Example:** El siguiente código muestra cómo codificar y decodificar una malla a/de un arreglo de bytes:
+byte[] - Los datos draco codificados representados en bytes **Example:** El siguiente código muestra cómo codificar y decodificar una Mesh a/de un arreglo de bytes:
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -726,7 +726,7 @@ public boolean getCanExport()
 ```
 
 
-Obtiene si Aspose.3D admite la exportación de la escena al formato de archivo actual.
+Obtiene si Aspose.3D admite exportar la escena al formato de archivo actual.
 
 **Returns:**
 boolean - si Aspose.3D admite la exportación de la escena al formato de archivo actual. **Ejemplo:** El siguiente código muestra cómo comprobar si la exportación al formato especificado es compatible.
@@ -743,7 +743,7 @@ public boolean getCanImport()
 ```
 
 
-Obtiene si Aspose.3D admite la importación de la escena desde el formato de archivo actual.
+Obtiene si Aspose.3D admite importar la escena desde el formato de archivo actual.
 
 **Returns:**
 boolean - si Aspose.3D admite la importación de la escena desde el formato de archivo actual. **Ejemplo:** El siguiente código muestra cómo comprobar si la importación desde el formato especificado es compatible.
@@ -770,7 +770,7 @@ public FileContentType getContentType()
 ```
 
 
-Obtiene el tipo de contenido del formato de archivo
+Obtiene el tipo de contenido del formato de archivo.
 
 **Returns:**
 [FileContentType](../../com.aspose.threed/filecontenttype) - file format content type **Example:**

@@ -1,7 +1,7 @@
 ---
 title: "ExportException"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Excepciones cuando Aspose.3D no pudo exportar la escena a un archivo"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Excepciones cuando Aspose.3D no pudo exportar la escena al archivo"
 type: docs
 weight: 56
 url: /es/java/com.aspose.threed/exportexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.io.IOException
 public class ExportException extends IOException
 ```
 
-Excepciones cuando Aspose.3D no pudo exportar la escena a un archivo
+Excepciones cuando Aspose.3D no pudo exportar la escena al archivo
 ## Constructores
 
 | Constructor | Descripción |

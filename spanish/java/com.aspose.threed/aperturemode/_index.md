@@ -1,6 +1,6 @@
 ---
 title: "ApertureMode"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Modos de apertura de cámara."
 type: docs
 weight: 264
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum ApertureMode extends Enum<ApertureMode>
 ```
 
-Modos de apertura de cámara. El modo de apertura determina qué valores controlan la apertura de la cámara. Si el modo de apertura es HorizAndVert, Horizontal o Vertical, entonces se utiliza el campo de visión. Si el modo de apertura es FocalLength, entonces se utiliza la distancia focal.
+Modos de apertura de cámara. El modo de apertura determina qué valores controlan la apertura de la cámara. Si el modo de apertura es HorizAndVert, Horizontal o Vertical, entonces se usa el campo de visión. Si el modo de apertura es FocalLength, entonces se usa la distancia focal.
 ## Campos
 
 | Campo | Descripción |

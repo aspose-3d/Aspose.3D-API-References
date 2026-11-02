@@ -1,6 +1,6 @@
 ---
 title: "SkeletonType"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "tipos s."
 type: docs
 weight: 301

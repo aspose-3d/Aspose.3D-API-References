@@ -1,6 +1,6 @@
 ---
 title: "SPIRVSource"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El shader compilado en formato SPIR-V."
 type: docs
 weight: 159
@@ -18,7 +18,7 @@ El shader compilado en formato SPIR-V.
 
 | Constructor | Descripción |
 | --- | --- |
-| [SPIRVSource()](#SPIRVSource--) | Constructor de fuentes de sombreado basadas en SPIR-V. |
+| [SPIRVSource()](#SPIRVSource--) | Constructor de fuentes de shader basadas en SPIR-V. |
 ## Métodos
 
 | Método | Descripción |
@@ -28,16 +28,16 @@ El shader compilado en formato SPIR-V.
 | [getComputeShader()](#getComputeShader--) | Obtiene el código fuente del shader de cómputo. |
 | [getFragmentShader()](#getFragmentShader--) | Obtiene el código fuente del shader de fragmento. |
 | [getGeometryShader()](#getGeometryShader--) | Obtiene el código fuente del shader de geometría. |
-| [getMaximumDescriptorSets()](#getMaximumDescriptorSets--) | Conjuntos de descriptores máximos, el valor predeterminado es 10. |
-| [getVertexShader()](#getVertexShader--) | Obtiene el código fuente del shader de vértice. |
+| [getMaximumDescriptorSets()](#getMaximumDescriptorSets--) | Conjuntos máximos de descriptores, el valor predeterminado es 10 |
+| [getVertexShader()](#getVertexShader--) | Obtiene el código fuente del shader de vértice |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setComputeShader(byte[] value)](#setComputeShader-byte---) | Establece el código fuente del shader de cómputo. |
 | [setFragmentShader(byte[] value)](#setFragmentShader-byte---) | Establece el código fuente del shader de fragmento. |
 | [setGeometryShader(byte[] value)](#setGeometryShader-byte---) | Establece el código fuente del shader de geometría. |
-| [setMaximumDescriptorSets(int value)](#setMaximumDescriptorSets-int-) | Conjuntos de descriptores máximos, el valor predeterminado es 10. |
-| [setVertexShader(byte[] value)](#setVertexShader-byte---) | Establece el código fuente del shader de vértice. |
+| [setMaximumDescriptorSets(int value)](#setMaximumDescriptorSets-int-) | Conjuntos máximos de descriptores, el valor predeterminado es 10 |
+| [setVertexShader(byte[] value)](#setVertexShader-byte---) | Establece el código fuente del shader de vértice |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public SPIRVSource()
 ```
 
 
-Constructor de fuentes de sombreado basadas en SPIR-V.
+Constructor de fuentes de shader basadas en SPIR-V.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -94,7 +94,7 @@ public byte[] getFragmentShader()
 Obtiene el código fuente del shader de fragmento.
 
 **Returns:**
-byte[] - el código fuente del shader de fragmento.
+byte[] - el código fuente del shader de fragmentos.
 ### getGeometryShader() {#getGeometryShader--}
 ```
 public byte[] getGeometryShader()
@@ -111,7 +111,7 @@ public int getMaximumDescriptorSets()
 ```
 
 
-Conjuntos de descriptores máximos, el valor predeterminado es 10.
+Conjuntos máximos de descriptores, el valor predeterminado es 10
 
 **Returns:**
 int - Conjuntos de descriptores máximos, el valor predeterminado es 10
@@ -121,7 +121,7 @@ public byte[] getVertexShader()
 ```
 
 
-Obtiene el código fuente del shader de vértice.
+Obtiene el código fuente del shader de vértice
 
 **Returns:**
 byte[] - el código fuente del shader de vértices
@@ -196,7 +196,7 @@ public void setMaximumDescriptorSets(int value)
 ```
 
 
-Conjuntos de descriptores máximos, el valor predeterminado es 10.
+Conjuntos máximos de descriptores, el valor predeterminado es 10
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -209,7 +209,7 @@ public void setVertexShader(byte[] value)
 ```
 
 
-Establece el código fuente del shader de vértice.
+Establece el código fuente del shader de vértice
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

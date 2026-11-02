@@ -1,6 +1,6 @@
 ---
 title: "Vector2"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Un vector con dos componentes."
 type: docs
 weight: 201
@@ -21,10 +21,10 @@ Un vector con dos componentes.
 
 | Constructor | Descripción |
 | --- | --- |
-| [Vector2(double s)](#Vector2-double-) | Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2). |
-| [Vector2(Vector3 s)](#Vector2-com.aspose.threed.Vector3-) | Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2). |
-| [Vector2(FVector2 vec)](#Vector2-com.aspose.threed.FVector2-) | Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2). |
-| [Vector2(double x, double y)](#Vector2-double-double-) | Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2). |
+| [Vector2(double s)](#Vector2-double-) | Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2) struct. |
+| [Vector2(Vector3 s)](#Vector2-com.aspose.threed.Vector3-) | Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2) struct. |
+| [Vector2(FVector2 vec)](#Vector2-com.aspose.threed.FVector2-) | Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2) struct. |
+| [Vector2(double x, double y)](#Vector2-double-double-) | Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2) struct. |
 | [Vector2()](#Vector2--) |  |
 ## Campos
 
@@ -41,15 +41,15 @@ Un vector con dos componentes.
 | [compareTo(Vector2 other)](#compareTo-com.aspose.threed.Vector2-) | Compara el vector actual con otra instancia. |
 | [copyFrom(Vector2 src)](#copyFrom-com.aspose.threed.Vector2-) |  |
 | [create(Vector2 v)](#create-com.aspose.threed.Vector2-) | Operador de conversión explícita para convertir Vector2 a FVector2 |
-| [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | Producto cruzado de dos vectores. |
+| [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | Producto cruzado de dos vectores |
 | [div(Vector2 lhs, double rhs)](#div-com.aspose.threed.Vector2-double-) | Operador de división para Vector2 |
-| [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | Obtiene el producto punto de dos vectores. |
+| [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | Obtiene el producto punto de dos vectores |
 | [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | Comprobar si dos vector2 son iguales |
 | [equals(Object obj)](#equals-java.lang.Object-) | Comprobar si dos vector2 son iguales |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | Obtiene la longitud. |
-| [getU()](#getU--) | Obtiene el componente U si la [Vector2](../../com.aspose.threed/vector2) se usa como coordenada de mapeo. |
-| [getV()](#getV--) | Obtiene el componente V si la [Vector2](../../com.aspose.threed/vector2) se usa como coordenada de mapeo. |
+| [getU()](#getU--) | Obtiene el componente U si el [Vector2](../../com.aspose.threed/vector2) se usa como coordenada de mapeo. |
+| [getV()](#getV--) | Obtiene el componente V si el [Vector2](../../com.aspose.threed/vector2) se usa como coordenada de mapeo. |
 | [hashCode()](#hashCode--) | Obtiene el código hash de Vector2 |
 | [mul(Vector2 lhs, double rhs)](#mul-com.aspose.threed.Vector2-double-) | Operador de multiplicación para Vector2 |
 | [mul(double lhs, Vector2 rhs)](#mul-double-com.aspose.threed.Vector2-) | Operador de multiplicación para Vector2 |
@@ -60,7 +60,7 @@ Un vector con dos componentes.
 | [op_ne(Vector2 lhs, Vector2 rhs)](#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Operador de desigualdad para Vector2 |
 | [setU(double value)](#setU-double-) | Establece el componente U si el [Vector2](../../com.aspose.threed/vector2) se usa como coordenada de mapeo. |
 | [setV(double value)](#setV-double-) | Establece el componente V si el [Vector2](../../com.aspose.threed/vector2) se usa como coordenada de mapeo. |
-| [sub(Vector2 lhs, Vector2 rhs)](#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Operador de sustracción para Vector2 |
+| [sub(Vector2 lhs, Vector2 rhs)](#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Operador de resta para Vector2 |
 | [toString()](#toString--) | Devuelve un java.lang.String que representa el [Vector2](../../com.aspose.threed/vector2) actual. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public Vector2(double s)
 ```
 
 
-Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2).
+Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2) struct.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -84,7 +84,7 @@ public Vector2(Vector3 s)
 ```
 
 
-Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2).
+Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2) struct.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -97,7 +97,7 @@ public Vector2(FVector2 vec)
 ```
 
 
-Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2).
+Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2) struct.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -110,7 +110,7 @@ public Vector2(double x, double y)
 ```
 
 
-Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2).
+Inicializa una nueva instancia de la estructura [Vector2](../../com.aspose.threed/vector2) struct.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -215,7 +215,7 @@ public double cross(Vector2 v)
 ```
 
 
-Producto cruzado de dos vectores.
+Producto cruzado de dos vectores
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -246,7 +246,7 @@ public double dot(Vector2 rhs)
 ```
 
 
-Obtiene el producto punto de dos vectores.
+Obtiene el producto punto de dos vectores
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -266,7 +266,7 @@ Comprobar si dos vector2 son iguales
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | El valor del lado derecho. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | El valor del operando derecho. |
 
 **Returns:**
 boolean - Verdadero si todos los componentes son idénticamente iguales.
@@ -457,7 +457,7 @@ public static Vector2 sub(Vector2 lhs, Vector2 rhs)
 ```
 
 
-Operador de sustracción para Vector2
+Operador de resta para Vector2
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

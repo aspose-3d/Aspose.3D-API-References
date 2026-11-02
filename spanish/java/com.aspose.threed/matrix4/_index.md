@@ -1,6 +1,6 @@
 ---
 title: "Matrix4"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Implementación de matriz 4x4."
 type: docs
 weight: 100
@@ -31,7 +31,7 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | --- | --- |
 | [Matrix4(Vector4 r0, Vector4 r1, Vector4 r2, Vector4 r3)](#Matrix4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | Construye la matriz a partir de 4 filas. |
 | [Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, double m13, double m20, double m21, double m22, double m23, double m30, double m31, double m32, double m33)](#Matrix4-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-) | Inicializa una nueva instancia de la estructura [Matrix4](../../com.aspose.threed/matrix4). |
-| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | Construye [Matrix4](../../com.aspose.threed/matrix4) a partir de una instancia de [FMatrix4](../../com.aspose.threed/fmatrix4). |
+| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | Construye [Matrix4](../../com.aspose.threed/matrix4) a partir de una instancia de [FMatrix4](../../com.aspose.threed/fmatrix4) |
 | [Matrix4(double[] m)](#Matrix4-double---) | Inicializa una nueva instancia de la estructura [Matrix4](../../com.aspose.threed/matrix4). |
 | [Matrix4()](#Matrix4--) |  |
 ## Campos
@@ -133,7 +133,7 @@ Inicializa una nueva instancia de la estructura [Matrix4](../../com.aspose.three
 | m30 | double | M30. |
 | m31 | double | M31. |
 | m32 | double | M32. |
-|  | m33 | double | M33. **Example:** |
+|  | m33 | double | M33. **Ejemplo:** |
 
 ```
 var mat = new Matrix4(
@@ -151,7 +151,7 @@ public Matrix4(FMatrix4 m)
 ```
 
 
-Construye [Matrix4](../../com.aspose.threed/matrix4) a partir de una instancia de [FMatrix4](../../com.aspose.threed/fmatrix4).
+Construye [Matrix4](../../com.aspose.threed/matrix4) a partir de una instancia de [FMatrix4](../../com.aspose.threed/fmatrix4)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -540,7 +540,7 @@ Crea una matriz de rotación a partir de un cuaternión
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | q | [Quaternion](../../com.aspose.threed/quaternion) | Cuaternión de rotación **Example:** El siguiente código muestra cómo crear una matriz para la operación de rotación. |
+|  | q | [Quaternion](../../com.aspose.threed/quaternion) | Quaternion de rotación **Ejemplo:** El siguiente código muestra cómo crear una matriz para la operación de rotación. |
 
 ```
 var t = Matrix4.rotate(Quaternion.fromAngleAxis(Math.PI, Vector3.getUnitY()));
@@ -562,7 +562,7 @@ Crea una matriz de rotación mediante ángulo de rotación y eje
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | ángulo | double | Ángulo de rotación en radianes |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | Eje de rotación **Example:** El siguiente código muestra cómo crear una matriz para la operación de rotación. |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | Eje de rotación **Ejemplo:** El siguiente código muestra cómo crear una matriz para la operación de rotación. |
 
 ```
 var t = Matrix4.rotate(Math.PI, new Vector3(0, 1, 0));
@@ -583,7 +583,7 @@ Crea una matriz de rotación a partir de ángulos de Euler
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | eul | [Vector3](../../com.aspose.threed/vector3) | Rotación en radianes **Example:** El siguiente código muestra cómo crear una matriz para la operación de rotación. |
+|  | eul | [Vector3](../../com.aspose.threed/vector3) | Rotación en radianes **Ejemplo:** El siguiente código muestra cómo crear una matriz para la operación de rotación. |
 
 ```
 var t = Matrix4.rotateFromEuler(new Vector3(0, Math.PI, 0));
@@ -606,7 +606,7 @@ Crea una matriz de rotación a partir de ángulos de Euler
 | --- | --- | --- |
 | rx | double | Rotación en el eje x en radianes |
 | ry | double | Rotación en el eje y en radianes |
-|  | rz | double | Rotación en el eje z en radianes **Example:** El siguiente código muestra cómo crear una matriz para la operación de rotación. |
+|  | rz | double | Rotación en el eje z en radianes **Ejemplo:** El siguiente código muestra cómo crear una matriz para la operación de rotación. |
 
 ```
 var t = Matrix4.rotateFromEuler(0, Math.PI, 0);
@@ -627,7 +627,7 @@ Crea una matriz que escala a lo largo del eje x, el eje y y el eje z.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | s | [Vector3](../../com.aspose.threed/vector3) | Los factores de escala se aplican al eje x, al eje y y al eje z **Example:** El siguiente código muestra cómo crear una matriz para la operación de escalado. |
+|  | s | [Vector3](../../com.aspose.threed/vector3) | Los factores de escalado se aplican al eje x, al eje y y al eje z **Ejemplo:** El siguiente código muestra cómo crear una matriz para la operación de escala. |
 
 ```
 var t = Matrix4.scale(new Vector3(10, 10, 10));
@@ -648,7 +648,7 @@ Crea una matriz que escala a lo largo del eje x, el eje y y el eje z.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | s | double | Los factores de escala se aplican a todos los ejes **Example:** El siguiente código muestra cómo crear una matriz para la operación de escalado. |
+|  | s | double | Los factores de escalado se aplican a todos los ejes **Ejemplo:** El siguiente código muestra cómo crear una matriz para la operación de escala. |
 
 ```
 var t = Matrix4.scale(10);
@@ -669,9 +669,9 @@ Crea una matriz que escala a lo largo del eje x, el eje y y el eje z.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| sx | double | Los factores de escala se aplican al eje x |
-| sy | double | Los factores de escala se aplican al eje y |
-|  | sz | double | Los factores de escala se aplican al eje z **Example:** El siguiente código muestra cómo crear una matriz para la operación de escalado. |
+| sx | double | Los factores de escalado se aplican al eje x |
+| sy | double | Los factores de escalado se aplican al eje y |
+|  | sz | double | Los factores de escalado se aplican al eje z **Ejemplo:** El siguiente código muestra cómo crear una matriz para la operación de escala. |
 
 ```
 var t = Matrix4.scale(10, 20, 10);
@@ -727,7 +727,7 @@ Crea una matriz que traslada a lo largo del eje x, el eje y y el eje z
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | t | [Vector3](../../com.aspose.threed/vector3) | Desplazamiento de traducción **Example:** El siguiente código muestra cómo crear una matriz para la operación de traslación. |
+|  | t | [Vector3](../../com.aspose.threed/vector3) | Desplazamiento de traducción **Ejemplo:** El siguiente código muestra cómo crear una matriz para la operación de traslación. |
 
 ```
 Matrix4 t = Matrix4.translate(new Vector3(10, 0, 0));
@@ -748,9 +748,9 @@ Crea una matriz que traslada a lo largo del eje x, el eje y y el eje z
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| tx | double | Desplazamiento de la coordenada X |
-| ty | double | Desplazamiento de la coordenada Y |
-|  | tz | double | Desplazamiento del eje Z **Example:** El siguiente código muestra cómo crear una matriz para la operación de traslación. |
+| tx | double | Desplazamiento de coordenada X |
+| ty | double | Desplazamiento de coordenada Y |
+|  | tz | double | Desplazamiento de la coordenada Z **Example:** El siguiente código muestra cómo crear una matriz para la operación de traslación. |
 
 ```
 var t = Matrix4.translate(10, 0, 0);

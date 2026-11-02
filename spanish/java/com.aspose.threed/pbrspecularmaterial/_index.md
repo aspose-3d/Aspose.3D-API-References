@@ -1,7 +1,7 @@
 ---
 title: "PbrSpecularMaterial"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Material para renderizado basado en la física basado en color difuso/especular/brillo"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Material para renderizado basado en física basado en color difuso/especular/brillo"
 type: docs
 weight: 122
 url: /es/java/com.aspose.threed/pbrspecularmaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrSpecularMaterial extends Material
 ```
 
-Material para renderizado basado en la física basado en color difuso/especular/brillo
+Material para renderizado basado en física basado en color difuso/especular/brillo
 ## Constructores
 
 | Constructor | Descripción |
@@ -44,7 +44,7 @@ Material para renderizado basado en la física basado en color difuso/especular/
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getNormalTexture()](#getNormalTexture--) | Obtiene la textura del mapeo normal |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getSpecular()](#getSpecular--) | Obtiene el color especular del material, el valor predeterminado es (1, 1, 1). |
 | [getSpecularGlossinessTexture()](#getSpecularGlossinessTexture--) | Obtiene la textura para el color especular, el canal RGB almacena el color especular y el canal A almacena el brillo. |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Obtiene la textura del slot especificado, puede ser el nombre de la propiedad del material o el nombre del parámetro del shader |
@@ -58,7 +58,7 @@ Material para renderizado basado en la física basado en color difuso/especular/
 | [setDiffuse(Vector3 value)](#setDiffuse-com.aspose.threed.Vector3-) | Establece el color difuso del material, el valor predeterminado es (1, 1, 1) |
 | [setDiffuseTexture(TextureBase value)](#setDiffuseTexture-com.aspose.threed.TextureBase-) | Establece la textura para difuso |
 | [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Establece el color emisivo, el valor predeterminado es (0, 0, 0) |
-| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | Establece la textura para la emisiva |
+| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | Establece la textura para la emisión |
 | [setGlossinessFactor(double value)](#setGlossinessFactor-double-) | Establece el brillo (suavidad) del material, 1 significa perfectamente liso y 0 significa perfectamente rugoso, el valor predeterminado es 1, el rango es [0, 1] |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | Establece la textura del mapeo normal |
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -253,7 +253,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -311,10 +311,10 @@ public double getTransparency()
 ```
 
 
-Obtiene el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+Obtiene el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 
 **Returns:**
-double - el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+double - el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -426,7 +426,7 @@ public void setEmissiveTexture(TextureBase value)
 ```
 
 
-Establece la textura para la emisiva
+Establece la textura para la emisión
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -524,7 +524,7 @@ Establece la textura al slot especificado
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | slotName | java.lang.String | Nombre de la ranura. |
-|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Ejemplo:** |
+|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Example:** |
 
 ```
 var mat = new LambertMaterial();
@@ -539,7 +539,7 @@ public void setTransparency(double value)
 ```
 
 
-Establece el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+Establece el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

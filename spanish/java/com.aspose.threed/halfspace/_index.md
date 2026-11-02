@@ -1,6 +1,6 @@
 ---
 title: "HalfSpace"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "representa un espacio infinito que se divide por un plano, esto puede usarse con"
 type: docs
 weight: 77
@@ -19,7 +19,7 @@ public class HalfSpace extends Entity
 | Constructor | Descripción |
 | --- | --- |
 | [HalfSpace()](#HalfSpace--) | Construye una nueva instancia de [HalfSpace](../../com.aspose.threed/halfspace) |
-| [HalfSpace(Vector3 normal, Vector3 position)](#HalfSpace-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Construye una nueva instancia de [HalfSpace](../../com.aspose.threed/halfspace) con el vector normal dado y una posición en el plano de corte; |
+| [HalfSpace(Vector3 normal, Vector3 position)](#HalfSpace-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Construye una nueva instancia de [HalfSpace](../../com.aspose.threed/halfspace) con el vector normal dado y una posición en el plano cortador; |
 ## Métodos
 
 | Método | Descripción |
@@ -29,25 +29,25 @@ public class HalfSpace extends Entity
 | [getBoundingBox()](#getBoundingBox--) | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objetos. |
 | [getClass()](#getClass--) |  |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getNormal()](#getNormal--) | La normal del plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto del plano. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
-| [getPosition()](#getPosition--) | El punto cualquiera en el plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto del plano. |
+| [getNormal()](#getNormal--) | La normal del plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto en el plano. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
+| [getPosition()](#getPosition--) | Cualquier punto en el plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto en el plano. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setNormal(Vector3 value)](#setNormal-com.aspose.threed.Vector3-) | La normal del plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto del plano. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [setPosition(Vector3 value)](#setPosition-com.aspose.threed.Vector3-) | El punto cualquiera en el plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto del plano. |
+| [setNormal(Vector3 value)](#setNormal-com.aspose.threed.Vector3-) | La normal del plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto en el plano. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [setPosition(Vector3 value)](#setPosition-com.aspose.threed.Vector3-) | Cualquier punto en el plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto en el plano. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -67,7 +67,7 @@ public HalfSpace(Vector3 normal, Vector3 position)
 ```
 
 
-Construye una nueva instancia de [HalfSpace](../../com.aspose.threed/halfspace) con el vector normal dado y una posición en el plano de corte;
+Construye una nueva instancia de [HalfSpace](../../com.aspose.threed/halfspace) con el vector normal dado y una posición en el plano cortador;
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -96,7 +96,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -148,10 +148,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -168,7 +168,7 @@ public Vector3 getNormal()
 ```
 
 
-La normal del plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto del plano.
+La normal del plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto en el plano.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The normal of the split plane, the plane is defined as N \* P + D = 0 where N is Normal and P is any point on the plane.
@@ -178,7 +178,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -188,7 +188,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -198,7 +198,7 @@ public Vector3 getPosition()
 ```
 
 
-El punto cualquiera en el plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto del plano.
+Cualquier punto en el plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto en el plano.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The any point on the split plane, the plane is defined as N \* P + D = 0 where N is Normal and P is any point on the plane.
@@ -218,7 +218,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -299,7 +299,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -325,7 +325,7 @@ public void setNormal(Vector3 value)
 ```
 
 
-La normal del plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto del plano.
+La normal del plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto en el plano.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -338,7 +338,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -351,7 +351,7 @@ public void setPosition(Vector3 value)
 ```
 
 
-El punto cualquiera en el plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto del plano.
+Cualquier punto en el plano de división, el plano se define como N \* P + D = 0 donde N es la Normal y P es cualquier punto en el plano.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,6 +1,6 @@
 ---
 title: "PushConstant"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Una utilidad para proporcionar datos al shader mediante una constante push."
 type: docs
 weight: 141

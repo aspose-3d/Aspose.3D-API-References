@@ -1,6 +1,6 @@
 ---
 title: "Quaternion"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Los cuaterniones se usan normalmente para realizar rotaciones en gráficos por computadora."
 type: docs
 weight: 143
@@ -27,7 +27,7 @@ Los cuaterniones se usan normalmente para realizar rotaciones en gráficos por c
 
 | Campo | Descripción |
 | --- | --- |
-| [IDENTITY](#IDENTITY) | El cuaternión de identidad. |
+| [IDENTITY](#IDENTITY) | El cuaternión Identity. |
 | [w](#w) | El componente w. |
 | [x](#x) | El componente x. |
 | [y](#y) | El componente y. |
@@ -44,7 +44,7 @@ Los cuaterniones se usan normalmente para realizar rotaciones en gráficos por c
 | [div(Quaternion lhs, double rhs)](#div-com.aspose.threed.Quaternion-double-) | Sobrecarga de operador para / |
 | [dot(Quaternion q)](#dot-com.aspose.threed.Quaternion-) | Producto punto |
 | [equals(Object obj)](#equals-java.lang.Object-) | Comprobar si dos cuaterniones son iguales |
-| [eulerAngles()](#eulerAngles--) | Convierte el cuaternión a una rotación representada por ángulos de Euler. Todos los componentes están en radianes. |
+| [eulerAngles()](#eulerAngles--) | Convierte el cuaternión a una rotación representada por ángulos de Euler. Todos los componentes están en radianes |
 | [fromAngleAxis(double a, Vector3 axis)](#fromAngleAxis-double-com.aspose.threed.Vector3-) | Crea un cuaternión alrededor del eje dado y lo rota en sentido horario |
 | [fromEulerAngle(Vector3 eulerAngle)](#fromEulerAngle-com.aspose.threed.Vector3-) | Crea un cuaternión a partir del ángulo de Euler dado |
 | [fromEulerAngle(double pitch, double yaw, double roll)](#fromEulerAngle-double-double-double-) | Crea un cuaternión a partir del ángulo de Euler dado |
@@ -52,7 +52,7 @@ Los cuaterniones se usan normalmente para realizar rotaciones en gráficos por c
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | Obtiene la longitud del cuaternión |
 | [hashCode()](#hashCode--) | Obtiene el código hash del cuaternión |
-| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Rellena este cuaternión con el valor interpolado entre los argumentos de cuaternión dados para un t entre 'from' y 'to'. |
+| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Puebla este cuaternión con el valor interpolado entre los argumentos de cuaternión dados para un t entre from y to. |
 | [inverse()](#inverse--) | Devuelve un cuaternión inverso del cuaternión actual |
 | [mul(Quaternion lhs, Quaternion rhs)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Sobrecarga de operador para \* |
 | [mul(Quaternion q, Vector3 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector3-) | Sobrecarga de operador para \* |
@@ -64,7 +64,7 @@ Los cuaterniones se usan normalmente para realizar rotaciones en gráficos por c
 | [notifyAll()](#notifyAll--) |  |
 | [op_eq(Quaternion lhs, Quaternion rhs)](#op-eq-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Operador de igualdad para cuaternión |
 | [op_ne(Quaternion lhs, Quaternion rhs)](#op-ne-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Operador de desigualdad para cuaternión |
-| [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Realiza una interpolación lineal esférica entre dos valores |
+| [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Realiza interpolación lineal esférica entre dos valores |
 | [toAngleAxis(double[] angle, Vector3 axis)](#toAngleAxis-double---com.aspose.threed.Vector3-) | Descompone el cuaternión en ángulo y eje |
 | [toMatrix()](#toMatrix--) | Convierte la rotación presentada por el cuaternión a una matriz de transformación. |
 | [toMatrix(Vector3 translation)](#toMatrix-com.aspose.threed.Vector3-) | Convierte la rotación presentada por el cuaternión a una matriz de transformación. |
@@ -100,7 +100,7 @@ public static final Quaternion IDENTITY
 ```
 
 
-El cuaternión de identidad.
+El cuaternión Identity.
 
 ### w {#w}
 ```
@@ -228,7 +228,7 @@ Producto punto
 | q | [Quaternion](../../com.aspose.threed/quaternion) | El cuaternión |
 
 **Returns:**
-double - Valor del punto
+double - Valor del producto punto
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -250,7 +250,7 @@ public Vector3 eulerAngles()
 ```
 
 
-Convierte el cuaternión a una rotación representada por ángulos de Euler. Todos los componentes están en radianes.
+Convierte el cuaternión a una rotación representada por ángulos de Euler. Todos los componentes están en radianes
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -347,21 +347,21 @@ public int hashCode()
 Obtiene el código hash del cuaternión
 
 **Returns:**
-int - El código hash del [Quaternion](../../com.aspose.threed/quaternion)
+int - El código hash de [Quaternion](../../com.aspose.threed/quaternion)
 ### interpolate(float t, Quaternion from, Quaternion to) {#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-}
 ```
 public static Quaternion interpolate(float t, Quaternion from, Quaternion to)
 ```
 
 
-Rellena este cuaternión con el valor interpolado entre los argumentos de cuaternión dados para un t entre 'from' y 'to'.
+Puebla este cuaternión con el valor interpolado entre los argumentos de cuaternión dados para un t entre from y to.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | t | float | El coeficiente para interpolar. |
 | from | [Quaternion](../../com.aspose.threed/quaternion) | Cuaternión de origen. |
-| to | [Quaternion](../../com.aspose.threed/quaternion) | Cuaternión de destino. |
+| to | [Quaternion](../../com.aspose.threed/quaternion) | Cuaternión objetivo. |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - The interpolated quaternion.
@@ -512,14 +512,14 @@ Operador de desigualdad para cuaternión
 | rhs | [Quaternion](../../com.aspose.threed/quaternion) | Valor del lado derecho. |
 
 **Returns:**
-booleano - Verdadero si dos cuaterniones no son iguales.
+boolean - Verdadero si dos cuaterniones no son iguales.
 ### slerp(double t, Quaternion v1, Quaternion v2) {#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-}
 ```
 public static Quaternion slerp(double t, Quaternion v1, Quaternion v2)
 ```
 
 
-Realiza una interpolación lineal esférica entre dos valores
+Realiza interpolación lineal esférica entre dos valores
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

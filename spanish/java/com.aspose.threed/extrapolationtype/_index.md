@@ -1,6 +1,6 @@
 ---
 title: "ExtrapolationType"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Tipo de extrapolación."
 type: docs
 weight: 278
@@ -18,7 +18,7 @@ Tipo de extrapolación.
 
 | Campo | Descripción |
 | --- | --- |
-| [CONSTANT](#CONSTANT) | El valor mantendrá el mismo valor que el último valor |
+| [CONSTANT](#CONSTANT) | El valor mantendrá el mismo valor del último valor |
 | [CYCLE](#CYCLE) | La repetición. |
 | [CYCLE_RELATIVE](#CYCLE-RELATIVE) | Repetir el patrón anterior basado en el último valor |
 | [GRADIENT](#GRADIENT) | El valor mantendrá la misma pendiente a lo largo del tiempo |
@@ -50,7 +50,7 @@ public static final ExtrapolationType CONSTANT
 ```
 
 
-El valor mantendrá el mismo valor que el último valor
+El valor mantendrá el mismo valor del último valor
 
 ### CYCLE {#CYCLE}
 ```

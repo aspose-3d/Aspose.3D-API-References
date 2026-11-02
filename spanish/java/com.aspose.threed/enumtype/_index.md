@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.EnumType"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La definición del tipo enum"
 type: docs
 weight: 11

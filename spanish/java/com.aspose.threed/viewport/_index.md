@@ -1,7 +1,7 @@
 ---
 title: "Viewport"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Un  contiene al menos un viewport para renderizar la escena."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "A  contiene al menos un viewport para renderizar la escena."
 type: docs
 weight: 229
 url: /es/java/com.aspose.threed/viewport/
@@ -13,21 +13,21 @@ java.lang.Object
 public class Viewport
 ```
 
-Un [IRenderTarget](../../com.aspose.threed/irendertarget) contiene al menos un viewport para renderizar la escena.
+A [IRenderTarget](../../com.aspose.threed/irendertarget) contiene al menos un viewport para renderizar la escena.
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
 | [clone()](#clone--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Obtiene el área del viewport en el objetivo de renderizado. |
+| [getArea()](#getArea--) | Obtiene el área del viewport en el render target. |
 | [getBackgroundColor()](#getBackgroundColor--) | Obtiene el color de fondo del viewport. |
 | [getClass()](#getClass--) |  |
 | [getDepthClear()](#getDepthClear--) | Obtiene el valor de profundidad usado al limpiar el viewport con el bit de búfer de profundidad activado. |
 | [getEnabled()](#getEnabled--) | Habilita o deshabilita este viewport. |
 | [getFrustum()](#getFrustum--) | Obtiene la cámara de este [Viewport](../../com.aspose.threed/viewport) |
-| [getRenderTarget()](#getRenderTarget--) | Obtiene el objetivo de renderizado que creó este viewport. |
-| [getZOrder()](#getZOrder--) | Obtiene el orden Z del viewport. |
+| [getRenderTarget()](#getRenderTarget--) | Obtiene el render target que creó este viewport. |
+| [getZOrder()](#getZOrder--) | Obtiene el Z-order del viewport. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -36,7 +36,7 @@ Un [IRenderTarget](../../com.aspose.threed/irendertarget) contiene al menos un v
 | [setDepthClear(float value)](#setDepthClear-float-) | Establece el valor de profundidad usado al limpiar el viewport con el bit de búfer de profundidad activado. |
 | [setEnabled(boolean value)](#setEnabled-boolean-) | Habilita o deshabilita este viewport. |
 | [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | Establece la cámara de este [Viewport](../../com.aspose.threed/viewport) |
-| [setZOrder(int value)](#setZOrder-int-) | Establece el orden Z del viewport. |
+| [setZOrder(int value)](#setZOrder-int-) | Establece el Z-order del viewport. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -72,7 +72,7 @@ public RelativeRectangle getArea()
 ```
 
 
-Obtiene el área del viewport en el objetivo de renderizado.
+Obtiene el área del viewport en el render target.
 
 **Returns:**
 [RelativeRectangle](../../com.aspose.threed/relativerectangle) - the area of the viewport in render target.
@@ -132,7 +132,7 @@ public IRenderTarget getRenderTarget()
 ```
 
 
-Obtiene el objetivo de renderizado que creó este viewport.
+Obtiene el render target que creó este viewport.
 
 **Returns:**
 [IRenderTarget](../../com.aspose.threed/irendertarget) - the render target that created this viewport.
@@ -142,10 +142,10 @@ public int getZOrder()
 ```
 
 
-Obtiene el orden Z del viewport.
+Obtiene el Z-order del viewport.
 
 **Returns:**
-int - el orden Z del viewport.
+int - el Z-order del viewport.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -243,7 +243,7 @@ public void setZOrder(int value)
 ```
 
 
-Establece el orden Z del viewport.
+Establece el Z-order del viewport.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

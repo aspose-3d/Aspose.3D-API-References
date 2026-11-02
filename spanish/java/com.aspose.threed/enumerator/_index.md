@@ -1,6 +1,6 @@
 ---
 title: "Enumerador"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Enumerador genérico para colección del tipo T"
 type: docs
 weight: 236

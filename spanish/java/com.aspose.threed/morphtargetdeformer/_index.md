@@ -1,6 +1,6 @@
 ---
 title: "MorphTargetDeformer"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "MorphTargetDeformer proporciona animación por vértice."
 type: docs
 weight: 108
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetDeformer extends Deformer
 ```
 
-MorphTargetDeformer proporciona animación por vértice. MorphTargetDeformer organiza todos los objetivos a través de [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel), cada canal puede organizar múltiples objetivos. Un uso común del deformer de objetivo de morph es aplicar expresiones faciales a un personaje. Se pueden encontrar más detalles en https://en.wikipedia.org/wiki/Morph\_target\_animation
+MorphTargetDeformer proporciona animación por vértice. MorphTargetDeformer organiza todos los objetivos a través de [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel), cada canal puede organizar múltiples objetivos. Un uso común del deformer de morph target es aplicar expresiones faciales a un personaje. Se pueden encontrar más detalles en https://en.wikipedia.org/wiki/Morph\_target\_animation
 ## Constructores
 
 | Constructor | Descripción |
@@ -32,7 +32,7 @@ MorphTargetDeformer proporciona animación por vértice. MorphTargetDeformer org
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getOwner()](#getOwner--) | Obtiene la geometría que posee este deformer |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -87,7 +87,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -167,7 +167,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

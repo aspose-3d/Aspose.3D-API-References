@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.Property"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La definición de la propiedad en las clases de metadatos."
 type: docs
 weight: 13
@@ -13,35 +13,35 @@ java.lang.Object
 public static class StructuralMetadata.Property
 ```
 
-La definición de la propiedad en las clases de metadatos
+La definición de la propiedad en las clases de los metadatos
 ## Constructores
 
 | Constructor | Descripción |
 | --- | --- |
-| [Property(String name, String displayName, String description, Class<?> type, boolean normalized, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----boolean-java.lang.Integer-) | Constructor de la propiedad de metadatos. |
-| [Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) | Constructor de la propiedad de metadatos. |
-| [Property(String name, Class<?> type)](#Property-java.lang.String-java.lang.Class----) | Constructor de la propiedad de metadatos. |
+| [Property(String name, String displayName, String description, Class<?> type, boolean normalized, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----boolean-java.lang.Integer-) | Constructor de la propiedad de los metadatos. |
+| [Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) | Constructor de la propiedad de los metadatos. |
+| [Property(String name, Class<?> type)](#Property-java.lang.String-java.lang.Class----) | Constructor de la propiedad de los metadatos. |
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Cantidad de los datos para una matriz de tamaño fijo. |
+| [getCount()](#getCount--) | Recuento de los datos para una matriz de tamaño fijo. |
 | [getDescription()](#getDescription--) | La descripción de la propiedad. |
 | [getDisplayName()](#getDisplayName--) | El nombre de la propiedad, utilizado por la UI para su representación. |
-| [getEnumType()](#getEnumType--) | El tipo de enumeración. |
+| [getEnumType()](#getEnumType--) | El tipo enum. |
 | [getName()](#getName--) | El nombre único de la propiedad. |
-| [getNormalized()](#getNormalized--) | Indica si los datos están normalizados. |
+| [getNormalized()](#getNormalized--) | ¿Los datos están normalizados? |
 | [getType()](#getType--) | El tipo de datos de la propiedad. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCount(Integer value)](#setCount-java.lang.Integer-) | Cantidad de los datos para una matriz de tamaño fijo. |
+| [setCount(Integer value)](#setCount-java.lang.Integer-) | Recuento de los datos para una matriz de tamaño fijo. |
 | [setDescription(String value)](#setDescription-java.lang.String-) | La descripción de la propiedad. |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | El nombre de la propiedad, utilizado por la UI para su representación. |
-| [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | El tipo de enumeración. |
-| [setNormalized(boolean value)](#setNormalized-boolean-) | Indica si los datos están normalizados. |
+| [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | El tipo enum. |
+| [setNormalized(boolean value)](#setNormalized-boolean-) | ¿Los datos están normalizados? |
 | [toString()](#toString--) | Obtiene la representación en cadena de esta instancia. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,7 @@ public Property(String name, String displayName, String description, Class<?> ty
 ```
 
 
-Constructor de la propiedad de metadatos.
+Constructor de la propiedad de los metadatos.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -61,8 +61,8 @@ Constructor de la propiedad de metadatos.
 | displayName | java.lang.String | El nombre de la propiedad, utilizado por la UI para su representación. |
 | description | java.lang.String | La descripción de la propiedad. |
 | type | java.lang.Class<?> | Tipo de datos de la propiedad. |
-| normalized | boolean | Los datos están normalizados. |
-| conteo | java.lang.Integer | Cantidad de los datos para una matriz de tamaño fijo |
+| normalized | boolean | ¿Los datos están normalizados? |
+| conteo | java.lang.Integer | Cantidad de los datos para la matriz de tamaño fijo |
 
 ### Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count) {#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-}
 ```
@@ -70,7 +70,7 @@ public Property(String name, String displayName, String description, StructuralM
 ```
 
 
-Constructor de la propiedad de metadatos.
+Constructor de la propiedad de los metadatos.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -79,8 +79,8 @@ Constructor de la propiedad de metadatos.
 | displayName | java.lang.String | El nombre de la propiedad, utilizado por la UI para su representación. |
 | description | java.lang.String | La descripción de la propiedad. |
 | type | [EnumType](../../com.aspose.threed/enumtype) | Tipo de datos de la propiedad. |
-| matriz | boolean | ¿Es cada valor de propiedad una matriz o escalar? |
-| conteo | java.lang.Integer | Cantidad de los datos para una matriz de tamaño fijo |
+| matriz | boolean | ¿Es cada valor de propiedad una matriz o un escalar? |
+| conteo | java.lang.Integer | Cantidad de los datos para la matriz de tamaño fijo |
 
 ### Property(String name, Class<?> type) {#Property-java.lang.String-java.lang.Class----}
 ```
@@ -88,7 +88,7 @@ public Property(String name, Class<?> type)
 ```
 
 
-Constructor de la propiedad de metadatos.
+Constructor de la propiedad de los metadatos.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -127,10 +127,10 @@ public Integer getCount()
 ```
 
 
-Cantidad de los datos para una matriz de tamaño fijo.
+Recuento de los datos para una matriz de tamaño fijo.
 
 **Returns:**
-java.lang.Integer - Cantidad de los datos para una matriz de tamaño fijo.
+java.lang.Integer - Cantidad de los datos para la matriz de tamaño fijo.
 ### getDescription() {#getDescription--}
 ```
 public String getDescription()
@@ -157,7 +157,7 @@ public StructuralMetadata.EnumType getEnumType()
 ```
 
 
-El tipo de enumeración.
+El tipo enum.
 
 **Returns:**
 [EnumType](../../com.aspose.threed/enumtype) - The enum type
@@ -177,10 +177,10 @@ public boolean getNormalized()
 ```
 
 
-Indica si los datos están normalizados.
+¿Los datos están normalizados?
 
 **Returns:**
-boolean - ¿Los datos están normalizados.
+boolean - Los datos están normalizados.
 ### getType() {#getType--}
 ```
 public Class<?> getType()
@@ -223,7 +223,7 @@ public void setCount(Integer value)
 ```
 
 
-Cantidad de los datos para una matriz de tamaño fijo.
+Recuento de los datos para una matriz de tamaño fijo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -262,7 +262,7 @@ public void setEnumType(StructuralMetadata.EnumType value)
 ```
 
 
-El tipo de enumeración.
+El tipo enum.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -275,7 +275,7 @@ public void setNormalized(boolean value)
 ```
 
 
-Indica si los datos están normalizados.
+¿Los datos están normalizados?
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

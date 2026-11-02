@@ -1,6 +1,6 @@
 ---
 title: "PolygonMode"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El modo de rasterizado de polígonos"
 type: docs
 weight: 292

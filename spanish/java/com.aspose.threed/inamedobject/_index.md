@@ -1,6 +1,6 @@
 ---
 title: "INamedObject"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Objeto que tiene un nombre"
 type: docs
 weight: 245

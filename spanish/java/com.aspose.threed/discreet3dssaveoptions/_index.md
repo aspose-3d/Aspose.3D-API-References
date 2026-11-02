@@ -1,6 +1,6 @@
 ---
 title: "Discreet3dsSaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de guardado para archivo 3DS."
 type: docs
 weight: 44
@@ -28,7 +28,7 @@ Opciones de guardado para archivo 3DS.
 | [getDuplicatedNameCounterBase()](#getDuplicatedNameCounterBase--) | El contador usado para generar nuevos nombres para nombres duplicados, el valor predeterminado es 2. |
 | [getDuplicatedNameCounterFormat()](#getDuplicatedNameCounterFormat--) | El formato del contador duplicado, el valor predeterminado es una cadena vacía. |
 | [getDuplicatedNameSeparator()](#getDuplicatedNameSeparator--) | El separador entre el nombre del objeto y el contador duplicado, el valor predeterminado es "\_". |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getExportCamera()](#getExportCamera--) | Obtiene si se exportan todas las cámaras en la escena. |
 | [getExportLight()](#getExportLight--) | Obtiene si se exportan todas las luces en la escena. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
@@ -36,10 +36,10 @@ Opciones de guardado para archivo 3DS.
 | [getFileName()](#getFileName--) | El nombre de archivo de la escena de exportación/importación. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Obtiene la inversión del sistema de coordenadas de puntos de control/normal durante la importación/exportación. |
-| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; al establecer esto en true se usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original. |
-| [getHighPreciseColor()](#getHighPreciseColor--) | Si esto es true, el archivo 3ds generado usará colores de alta precisión, lo que significa que cada canal de rojo/verde/azul está en float de 32 bits. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Obtiene la inversión del sistema de coordenadas de los puntos de control/normal durante la importación/exportación. |
+| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; establecer esto en true usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original. |
+| [getHighPreciseColor()](#getHighPreciseColor--) | Si esto es true, el archivo 3ds generado usará colores de alta precisión, lo que significa que cada canal de rojo/verde/azul está en coma flotante de 32 bits. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [getMasterScale()](#getMasterScale--) | Obtiene la escala maestra usada en la exportación. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -47,17 +47,17 @@ Opciones de guardado para archivo 3DS.
 | [setDuplicatedNameCounterBase(int value)](#setDuplicatedNameCounterBase-int-) | El contador usado para generar nuevos nombres para nombres duplicados, el valor predeterminado es 2. |
 | [setDuplicatedNameCounterFormat(String value)](#setDuplicatedNameCounterFormat-java.lang.String-) | El formato del contador duplicado, el valor predeterminado es una cadena vacía. |
 | [setDuplicatedNameSeparator(String value)](#setDuplicatedNameSeparator-java.lang.String-) | El separador entre el nombre del objeto y el contador duplicado, el valor predeterminado es "\_". |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setExportCamera(boolean value)](#setExportCamera-boolean-) | Establece si se exportan todas las cámaras en la escena. |
 | [setExportLight(boolean value)](#setExportLight-boolean-) | Establece si se exportan todas las luces en la escena. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | El nombre de archivo de la escena de exportación/importación. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
-| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Establece la inversión del sistema de coordenadas de puntos de control/normal durante la importación/exportación. |
-| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; al establecer esto en true se usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original. |
-| [setHighPreciseColor(boolean value)](#setHighPreciseColor-boolean-) | Si esto es true, el archivo 3ds generado usará colores de alta precisión, lo que significa que cada canal de rojo/verde/azul está en float de 32 bits. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Establece la inversión del sistema de coordenadas de los puntos de control/normal durante la importación/exportación. |
+| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; establecer esto en true usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original. |
+| [setHighPreciseColor(boolean value)](#setHighPreciseColor-boolean-) | Si esto es true, el archivo 3ds generado usará colores de alta precisión, lo que significa que cada canal de rojo/verde/azul está en coma flotante de 32 bits. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [setMasterScale(double value)](#setMasterScale-double-) | Establece la escala maestra utilizada en la exportación. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -122,20 +122,20 @@ public String getDuplicatedNameSeparator()
 ```
 
 
-El separador entre el nombre del objeto y el contador duplicado, el valor predeterminado es "\\_". Cuando la escena contiene objetos que usan el mismo nombre, el exportador 3DS de Aspose.3D generará un nombre diferente para el objeto. Por ejemplo, hay dos nodos llamados "Box", el primer nodo tendrá el nombre "Box", y el segundo nodo obtendrá un nuevo nombre "Box\\_2" usando la configuración predeterminada.
+El separador entre el nombre del objeto y el contador duplicado, el valor predeterminado es "\_". Cuando la escena contiene objetos que usan el mismo nombre, el exportador 3DS de Aspose.3D generará un nombre diferente para el objeto. Por ejemplo, hay dos nodos llamados "Box", el primer nodo tendrá el nombre "Box", y el segundo obtendrá un nuevo nombre "Box\_2" usando la configuración predeterminada.
 
 **Returns:**
-El separador entre el nombre del objeto y el contador duplicado, el valor predeterminado es "\\_". Cuando la escena contiene objetos que usan el mismo nombre, el exportador 3DS de Aspose.3D generará un nombre diferente para el objeto. Por ejemplo, hay dos nodos llamados "Box", el primer nodo tendrá el nombre "Box", y el segundo nodo obtendrá un nuevo nombre "Box\\_2" usando la configuración predeterminada.
+El separador entre el nombre del objeto y el contador duplicado, el valor predeterminado es "\_". Cuando la escena contiene objetos que usan el mismo nombre, el exportador 3DS de Aspose.3D generará un nombre diferente para el objeto. Por ejemplo, hay dos nodos llamados "Box", el primer nodo tendrá el nombre "Box", y el segundo obtendrá un nuevo nombre "Box\_2" usando la configuración predeterminada.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportCamera() {#getExportCamera--}
 ```
 public boolean getExportCamera()
@@ -182,10 +182,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -255,7 +255,7 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-Obtiene la inversión del sistema de coordenadas de puntos de control/normal durante la importación/exportación.
+Obtiene la inversión del sistema de coordenadas de los puntos de control/normal durante la importación/exportación.
 
 **Returns:**
 boolean - invertir el sistema de coordenadas de los puntos de control/normal durante la importación/exportación.
@@ -265,27 +265,27 @@ public boolean getGammaCorrectedColor()
 ```
 
 
-Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; al establecer esto en true se usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original.
+Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; establecer esto en true usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original.
 
 **Returns:**
-boolean - Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo. Configurar esto como verdadero usará el color corregido por gamma si es posible; de lo contrario, Aspose.3D intentará usar el color original.
+boolean - Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo. Configurarlo en true usará el color corregido por gamma si es posible; de lo contrario, Aspose.3D intentará usar el color original.
 ### getHighPreciseColor() {#getHighPreciseColor--}
 ```
 public boolean getHighPreciseColor()
 ```
 
 
-Si esto es verdadero, el archivo 3ds generado usará color de alta precisión, lo que significa que cada canal de rojo/verde/azul está en coma flotante de 32 bits. De lo contrario, el archivo generado usará color de 24 bits, cada canal usa un byte de 8 bits. El valor predeterminado es false, porque no todas las aplicaciones admiten el color de alta precisión.
+Si esto es true, el archivo 3ds generado usará color de alta precisión, lo que significa que cada canal de rojo/verde/azul está en flotante de 32 bits. De lo contrario, el archivo generado usará color de 24 bits, cada canal usa un byte de 8 bits. El valor predeterminado es false, porque no todas las aplicaciones admiten el color de alta precisión.
 
 **Returns:**
-Si esto es verdadero, el archivo 3ds generado usará color de alta precisión, lo que significa que cada canal de rojo/verde/azul está en coma flotante de 32 bits. De lo contrario, el archivo generado usará color de 24 bits, cada canal usa un byte de 8 bits. El valor predeterminado es false, porque no todas las aplicaciones admiten el color de alta precisión.
+Si esto es true, el archivo 3ds generado usará color de alta precisión, lo que significa que cada canal de rojo/verde/azul está en flotante de 32 bits. De lo contrario, el archivo generado usará color de 24 bits, cada canal usa un byte de 8 bits. El valor predeterminado es false, porque no todas las aplicaciones admiten el color de alta precisión.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -365,7 +365,7 @@ public void setDuplicatedNameSeparator(String value)
 ```
 
 
-El separador entre el nombre del objeto y el contador duplicado, el valor predeterminado es "\\_". Cuando la escena contiene objetos que usan el mismo nombre, el exportador 3DS de Aspose.3D generará un nombre diferente para el objeto. Por ejemplo, hay dos nodos llamados "Box", el primer nodo tendrá el nombre "Box", y el segundo nodo obtendrá un nuevo nombre "Box\\_2" usando la configuración predeterminada.
+El separador entre el nombre del objeto y el contador duplicado, el valor predeterminado es "\_". Cuando la escena contiene objetos que usan el mismo nombre, el exportador 3DS de Aspose.3D generará un nombre diferente para el objeto. Por ejemplo, hay dos nodos llamados "Box", el primer nodo tendrá el nombre "Box", y el segundo obtendrá un nuevo nombre "Box\_2" usando la configuración predeterminada.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -430,7 +430,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -512,7 +512,7 @@ public void setFlipCoordinateSystem(boolean value)
 ```
 
 
-Establece la inversión del sistema de coordenadas de puntos de control/normal durante la importación/exportación.
+Establece la inversión del sistema de coordenadas de los puntos de control/normal durante la importación/exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -525,7 +525,7 @@ public void setGammaCorrectedColor(boolean value)
 ```
 
 
-Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; al establecer esto en true se usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original.
+Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; establecer esto en true usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -538,7 +538,7 @@ public void setHighPreciseColor(boolean value)
 ```
 
 
-Si esto es verdadero, el archivo 3ds generado usará color de alta precisión, lo que significa que cada canal de rojo/verde/azul está en coma flotante de 32 bits. De lo contrario, el archivo generado usará color de 24 bits, cada canal usa un byte de 8 bits. El valor predeterminado es false, porque no todas las aplicaciones admiten el color de alta precisión.
+Si esto es true, el archivo 3ds generado usará color de alta precisión, lo que significa que cada canal de rojo/verde/azul está en flotante de 32 bits. De lo contrario, el archivo generado usará color de 24 bits, cada canal usa un byte de 8 bits. El valor predeterminado es false, porque no todas las aplicaciones admiten el color de alta precisión.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -551,7 +551,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,6 +1,6 @@
 ---
 title: "RectangularTorus"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Toro rectangular parametrizado."
 type: docs
 weight: 146
@@ -32,15 +32,15 @@ Toro rectangular parametrizado.
 | [getCastShadows()](#getCastShadows--) | Obtiene si esta geometría puede proyectar sombra |
 | [getClass()](#getClass--) |  |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getHeight()](#getHeight--) | La altura del toro rectangular. |
 | [getInnerRadius()](#getInnerRadius--) | El radio interno del toro rectangular. Valor predeterminado es 17 |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getOuterRadius()](#getOuterRadius--) | El radio externo del toro rectangular. Valor predeterminado es 20 |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getRadialSegments()](#getRadialSegments--) | Los segmentos radiales, el valor predeterminado es 10 |
 | [getReceiveShadows()](#getReceiveShadows--) | Obtiene si esta geometría puede recibir sombra. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
@@ -52,16 +52,16 @@ Toro rectangular parametrizado.
 | [setAngleStart(double value)](#setAngleStart-double-) | El ángulo inicial del arco, medido en radianes. |
 | [setArc(double value)](#setArc-double-) | El ángulo total del arco, medido en radianes. |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | Establece si esta geometría puede proyectar sombra |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setHeight(double value)](#setHeight-double-) | La altura del toro rectangular. |
 | [setInnerRadius(double value)](#setInnerRadius-double-) | El radio interno del toro rectangular. Valor predeterminado es 17 |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setOuterRadius(double value)](#setOuterRadius-double-) | El radio externo del toro rectangular. Valor predeterminado es 20 |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setRadialSegments(int value)](#setRadialSegments-int-) | Los segmentos radiales, el valor predeterminado es 10 |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Establece si esta geometría puede recibir sombra. |
-| [toMesh()](#toMesh--) | Convertir este primitivo a [Mesh](../../com.aspose.threed/mesh) |
+| [toMesh()](#toMesh--) | Convierte este primitivo a [Mesh](../../com.aspose.threed/mesh) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -190,10 +190,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -240,7 +240,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -250,7 +250,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -270,7 +270,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -410,7 +410,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -475,7 +475,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -528,7 +528,7 @@ public Mesh toMesh()
 ```
 
 
-Convertir este primitivo a [Mesh](../../com.aspose.threed/mesh)
+Convierte este primitivo a [Mesh](../../com.aspose.threed/mesh)
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh)

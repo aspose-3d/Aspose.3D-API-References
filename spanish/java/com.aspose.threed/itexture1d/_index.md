@@ -1,6 +1,6 @@
 ---
 title: "ITexture1D"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Textura 1D"
 type: docs
 weight: 252

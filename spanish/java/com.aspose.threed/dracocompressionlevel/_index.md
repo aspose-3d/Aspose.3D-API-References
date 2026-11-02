@@ -1,6 +1,6 @@
 ---
 title: "DracoCompressionLevel"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Nivel de compresión para archivo draco"
 type: docs
 weight: 276
@@ -18,9 +18,9 @@ Nivel de compresión para archivo draco
 
 | Campo | Descripción |
 | --- | --- |
-| [FAST](#FAST) | El codificador realizará una compresión lo más rápido posible. |
+| [FAST](#FAST) | Encoder realizará una compresión lo más rápido posible. |
 | [NO_COMPRESSION](#NO-COMPRESSION) | Sin compresión, esto resultará en el tiempo mínimo de codificación. |
-| [OPTIMAL](#OPTIMAL) | El codificador comprimirá la escena de forma óptima, lo que puede tomar más tiempo para completarse. |
+| [OPTIMAL](#OPTIMAL) | Encoder comprimirá la escena de forma óptima, lo que puede tomar más tiempo para finalizar. |
 | [STANDARD](#STANDARD) | Modo estándar, con buena compresión y velocidad. |
 ## Métodos
 
@@ -49,7 +49,7 @@ public static final DracoCompressionLevel FAST
 ```
 
 
-El codificador realizará una compresión lo más rápido posible.
+Encoder realizará una compresión lo más rápido posible.
 
 ### NO_COMPRESSION {#NO-COMPRESSION}
 ```
@@ -65,7 +65,7 @@ public static final DracoCompressionLevel OPTIMAL
 ```
 
 
-El codificador comprimirá la escena de forma óptima, lo que puede tomar más tiempo para completarse.
+Encoder comprimirá la escena de forma óptima, lo que puede tomar más tiempo para finalizar.
 
 ### STANDARD {#STANDARD}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "Rect"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Una clase para representar el rectángulo"
 type: docs
 weight: 144

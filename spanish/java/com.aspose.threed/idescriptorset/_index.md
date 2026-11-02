@@ -1,6 +1,6 @@
 ---
 title: "IDescriptorSet"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Los conjuntos de descriptores describen diferentes recursos que pueden usarse para enlazar al pipeline de renderizado, como buffers y texturas"
 type: docs
 weight: 241

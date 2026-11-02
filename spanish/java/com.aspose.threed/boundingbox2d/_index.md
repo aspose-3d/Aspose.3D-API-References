@@ -1,6 +1,6 @@
 ---
 title: "BoundingBox2D"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El cuadro delimitador alineado a los ejes para"
 type: docs
 weight: 25
@@ -16,19 +16,19 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox2D implements Struct<BoundingBox2D>, Serializable
 ```
 
-El cuadro delimitador alineado a los ejes para [Vector2](../../com.aspose.threed/vector2)
+La caja delimitadora alineada a los ejes para [Vector2](../../com.aspose.threed/vector2)
 ## Constructores
 
 | Constructor | Descripción |
 | --- | --- |
-| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Inicializa un cuadro delimitador finito con la esquina mínima y máxima dadas |
+| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Inicializa una caja delimitadora finita con la esquina mínima y máxima dadas |
 | [BoundingBox2D()](#BoundingBox2D--) |  |
 ## Campos
 
 | Campo | Descripción |
 | --- | --- |
-| [INFINITE](#INFINITE) | El cuadro delimitador infinito |
-| [NULL](#NULL) | El cuadro delimitador nulo |
+| [INFINITE](#INFINITE) | La caja delimitadora infinita |
+| [NULL](#NULL) | La caja delimitadora nula |
 ## Métodos
 
 | Método | Descripción |
@@ -37,15 +37,15 @@ El cuadro delimitador alineado a los ejes para [Vector2](../../com.aspose.threed
 | [copyFrom(BoundingBox2D src)](#copyFrom-com.aspose.threed.BoundingBox2D-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExtent()](#getExtent--) | Obtiene la extensión del cuadro delimitador. |
-| [getMaximum()](#getMaximum--) | La esquina máxima del cuadro delimitador |
-| [getMinimum()](#getMinimum--) | La esquina mínima del cuadro delimitador |
+| [getExtent()](#getExtent--) | Obtiene la extensión de la caja delimitadora. |
+| [getMaximum()](#getMaximum--) | La esquina máxima de la caja delimitadora |
+| [getMinimum()](#getMinimum--) | La esquina mínima de la caja delimitadora |
 | [hashCode()](#hashCode--) |  |
-| [merge(BoundingBox2D bb)](#merge-com.aspose.threed.BoundingBox2D-) | Fusiona el nuevo cuadro con el cuadro delimitador actual. |
-| [merge(Vector2 pt)](#merge-com.aspose.threed.Vector2-) | Fusiona el nuevo cuadro con el cuadro delimitador actual. |
+| [merge(BoundingBox2D bb)](#merge-com.aspose.threed.BoundingBox2D-) | Fusiona la nueva caja con la caja delimitadora actual. |
+| [merge(Vector2 pt)](#merge-com.aspose.threed.Vector2-) | Fusiona la nueva caja con la caja delimitadora actual. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Obtiene la representación en cadena del cuadro delimitador. |
+| [toString()](#toString--) | Obtiene la representación en cadena de la caja delimitadora. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -55,7 +55,7 @@ public BoundingBox2D(Vector2 minimum, Vector2 maximum)
 ```
 
 
-Inicializa un cuadro delimitador finito con la esquina mínima y máxima dadas
+Inicializa una caja delimitadora finita con la esquina mínima y máxima dadas
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -75,7 +75,7 @@ public static final BoundingBox2D INFINITE
 ```
 
 
-El cuadro delimitador infinito
+La caja delimitadora infinita
 
 ### NULL {#NULL}
 ```
@@ -83,7 +83,7 @@ public static final BoundingBox2D NULL
 ```
 
 
-El cuadro delimitador nulo
+La caja delimitadora nula
 
 ### clone() {#clone--}
 ```
@@ -139,7 +139,7 @@ public BoundingBoxExtent getExtent()
 ```
 
 
-Obtiene la extensión del cuadro delimitador.
+Obtiene la extensión de la caja delimitadora.
 
 **Returns:**
 [BoundingBoxExtent](../../com.aspose.threed/boundingboxextent) - the extent of the bounding box.
@@ -149,7 +149,7 @@ public Vector2 getMaximum()
 ```
 
 
-La esquina máxima del cuadro delimitador
+La esquina máxima de la caja delimitadora
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The maximum corner of the bounding box
@@ -159,7 +159,7 @@ public Vector2 getMinimum()
 ```
 
 
-La esquina mínima del cuadro delimitador
+La esquina mínima de la caja delimitadora
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The minimum corner of the bounding box
@@ -179,12 +179,12 @@ public void merge(BoundingBox2D bb)
 ```
 
 
-Fusiona el nuevo cuadro con el cuadro delimitador actual.
+Fusiona la nueva caja con la caja delimitadora actual.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| bb | [BoundingBox2D](../../com.aspose.threed/boundingbox2d) | El cuadro delimitador a fusionar |
+| bb | [BoundingBox2D](../../com.aspose.threed/boundingbox2d) | La caja delimitadora a fusionar |
 
 ### merge(Vector2 pt) {#merge-com.aspose.threed.Vector2-}
 ```
@@ -192,7 +192,7 @@ public void merge(Vector2 pt)
 ```
 
 
-Fusiona el nuevo cuadro con el cuadro delimitador actual.
+Fusiona la nueva caja con la caja delimitadora actual.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -221,7 +221,7 @@ public String toString()
 ```
 
 
-Obtiene la representación en cadena del cuadro delimitador.
+Obtiene la representación en cadena de la caja delimitadora.
 
 **Returns:**
 java.lang.String

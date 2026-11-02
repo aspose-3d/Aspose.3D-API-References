@@ -1,6 +1,6 @@
 ---
 title: "IIndexBuffer"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El buffer de índices describe la geometría utilizada en el pipeline de renderizado."
 type: docs
 weight: 242

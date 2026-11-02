@@ -1,6 +1,6 @@
 ---
 title: "DriverException"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La excepción generada por los controladores internos de renderizado."
 type: docs
 weight: 48
@@ -18,7 +18,7 @@ La excepción generada por los controladores internos de renderizado.
 
 | Constructor | Descripción |
 | --- | --- |
-| [DriverException(int code, String message)](#DriverException-int-java.lang.String-) | Inicializa una instancia de [DriverException](../../com.aspose.threed/driverexception) con el código de error nativo del controlador especificado y el mensaje. |
+| [DriverException(int code, String message)](#DriverException-int-java.lang.String-) | Inicializa una instancia de [DriverException](../../com.aspose.threed/driverexception) con el código de error nativo del controlador y el mensaje especificados. |
 ## Métodos
 
 | Método | Descripción |
@@ -51,7 +51,7 @@ public DriverException(int code, String message)
 ```
 
 
-Inicializa una instancia de [DriverException](../../com.aspose.threed/driverexception) con el código de error nativo del controlador especificado y el mensaje.
+Inicializa una instancia de [DriverException](../../com.aspose.threed/driverexception) con el código de error nativo del controlador y el mensaje especificados.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

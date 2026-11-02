@@ -1,6 +1,6 @@
 ---
 title: "VertexField"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Descripción del diseño de memoria del campo Vertexs."
 type: docs
 weight: 227

@@ -1,6 +1,6 @@
 ---
 title: "GLSLSource"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El código fuente de los shaders en GLSL"
 type: docs
 weight: 70
@@ -23,20 +23,20 @@ El código fuente de los shaders en GLSL
 
 | Método | Descripción |
 | --- | --- |
-| [defineInclude(String fileName, String content)](#defineInclude-java.lang.String-java.lang.String-) | Define un archivo virtual para \#include en el código fuente GLSL |
+| [defineInclude(String fileName, String content)](#defineInclude-java.lang.String-java.lang.String-) | Definir archivo virtual para \#include en el código fuente GLSL |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getComputeShader()](#getComputeShader--) | Obtiene el código fuente del shader de cómputo. |
 | [getFragmentShader()](#getFragmentShader--) | Obtiene el código fuente del shader de fragmento. |
 | [getGeometryShader()](#getGeometryShader--) | Obtiene el código fuente del shader de geometría. |
-| [getVertexShader()](#getVertexShader--) | Obtiene el código fuente del shader de vértice. |
+| [getVertexShader()](#getVertexShader--) | Obtiene el código fuente del shader de vértice |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setComputeShader(String value)](#setComputeShader-java.lang.String-) | Establece el código fuente del shader de cómputo. |
 | [setFragmentShader(String value)](#setFragmentShader-java.lang.String-) | Establece el código fuente del shader de fragmento. |
 | [setGeometryShader(String value)](#setGeometryShader-java.lang.String-) | Establece el código fuente del shader de geometría. |
-| [setVertexShader(String value)](#setVertexShader-java.lang.String-) | Establece el código fuente del shader de vértice. |
+| [setVertexShader(String value)](#setVertexShader-java.lang.String-) | Establece el código fuente del shader de vértice |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,7 +53,7 @@ public void defineInclude(String fileName, String content)
 ```
 
 
-Define un archivo virtual para \#include en el código fuente GLSL
+Definir archivo virtual para \#include en el código fuente GLSL
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -122,7 +122,7 @@ public String getVertexShader()
 ```
 
 
-Obtiene el código fuente del shader de vértice.
+Obtiene el código fuente del shader de vértice
 
 **Returns:**
 java.lang.String - el código fuente del shader de vértice
@@ -197,7 +197,7 @@ public void setVertexShader(String value)
 ```
 
 
-Establece el código fuente del shader de vértice.
+Establece el código fuente del shader de vértice
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

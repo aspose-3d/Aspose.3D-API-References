@@ -1,7 +1,7 @@
 ---
 title: "ShaderMaterial"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Un material de shader permite describir el material mediante un motor de renderizado externo o lenguaje de shader."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Un material de shader permite describir el material mediante un motor de renderizado externo o un lenguaje de shader."
 type: docs
 weight: 164
 url: /es/java/com.aspose.threed/shadermaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class ShaderMaterial extends Material
 ```
 
-Un material de sombreado permite describir el material mediante un motor de renderizado externo o un lenguaje de sombreado. [ShaderMaterial](../../com.aspose.threed/shadermaterial) usa [ShaderTechnique](../../com.aspose.threed/shadertechnique) para describir los detalles concretos de renderizado, y se utilizará el más adecuado según la plataforma de renderizado final. Por ejemplo, su instancia de [ShaderMaterial](../../com.aspose.threed/shadermaterial) puede tener dos técnicas, una definida por HLSL y otra definida por GLSL. En plataformas sin ventana, se debe usar GLSL en lugar de HLSL.
+Un material de shader permite describir el material mediante un motor de renderizado externo o un lenguaje de shader. [ShaderMaterial](../../com.aspose.threed/shadermaterial) usa [ShaderTechnique](../../com.aspose.threed/shadertechnique) para describir los detalles concretos de renderizado, y se utilizará el más adecuado según la plataforma de renderizado final. Por ejemplo, su instancia de [ShaderMaterial](../../com.aspose.threed/shadermaterial) puede tener dos técnicas, una definida por HLSL y otra definida por GLSL. En plataformas que no son Windows, se debe usar GLSL en lugar de HLSL.
 ## Constructores
 
 | Constructor | Descripción |
@@ -38,7 +38,7 @@ Un material de sombreado permite describir el material mediante un motor de rend
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getTechniques()](#getTechniques--) | Obtiene todas las técnicas disponibles definidas en este material. |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Obtiene la textura del slot especificado, puede ser el nombre de la propiedad del material o el nombre del parámetro del shader |
 | [hashCode()](#hashCode--) |  |
@@ -136,7 +136,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -181,7 +181,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -328,7 +328,7 @@ Establece la textura al slot especificado
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | slotName | java.lang.String | Nombre de la ranura. |
-|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Ejemplo:** |
+|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Example:** |
 
 ```
 var mat = new LambertMaterial();

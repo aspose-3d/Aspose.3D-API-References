@@ -1,7 +1,7 @@
 ---
-title: "Estructura"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Creado por lexchou el 13/11/2017."
+title: "Struct"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Creado por lexchou el 11/13/2017."
 type: docs
 weight: 262
 url: /es/java/com.aspose.threed/struct/
@@ -13,12 +13,12 @@ java.lang.Cloneable, java.io.Serializable
 public interface Struct<T> extends Cloneable, Serializable
 ```
 
-Creado por lexchou el 13/11/2017.
+Creado por lexchou el 11/13/2017.
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
-| [<T>byVal(T value)](#-T-byVal-T-) | Intentar copiar el valor de entrada si es una Estructura |
+| [<T>byVal(T value)](#-T-byVal-T-) | Intenta copiar el valor de entrada si es Struct |
 | [clone()](#clone--) | Clonar la instancia actual |
 | [copyFrom(T t)](#copyFrom-T-) | Copiar el estado interno del argumento t |
 ### <T>byVal(T value) {#-T-byVal-T-}
@@ -27,15 +27,15 @@ public static T <T>byVal(T value)
 ```
 
 
-Intentar copiar el valor de entrada si es una Estructura
+Intenta copiar el valor de entrada si es Struct
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| valor | T | valor de entrada a clonar |
+| valor | T | valor de entrada para clonar |
 
 **Returns:**
-T - nulo si la entrada es nula o instancia clonada
+T - null si la entrada es nula o instancia clonada
 ### clone() {#clone--}
 ```
 public abstract T clone()
@@ -57,5 +57,5 @@ Copiar el estado interno del argumento t
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| t | T | instancia fuente a copiar |
+| t | T | instancia fuente para copiar |
 

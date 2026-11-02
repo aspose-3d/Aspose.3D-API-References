@@ -1,7 +1,7 @@
 ---
 title: "Transformación"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Una transformación contiene información que permite acceder a la traducción/escala/rotación de los objetos o a la matriz de transformación con un costo mínimo. Esto se usa en la transformación local."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Una transformación contiene información que permite acceder a la traducción/escala/rotación de los objetos o a la matriz de transformación al costo mínimo.  Esto se usa en la transformación local."
 type: docs
 weight: 190
 url: /es/java/com.aspose.threed/transform/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Transform extends A3DObject
 ```
 
-Una transformación contiene información que permite acceder a la traducción/escala/rotación del objeto o a la matriz de transformación con un costo mínimo. Esto se usa en la transformación local. **Example:** El siguiente código muestra cómo cambiar la transformación del nodo:
+Una transformación contiene información que permite acceder a la traducción/escala/rotación del objeto o a la matriz de transformación al costo mínimo. Esto se usa en la transformación local. **Example:** El siguiente código muestra cómo cambiar la transformación del nodo:
 
 ```
 Scene scene = new Scene();
@@ -29,14 +29,14 @@ Scene scene = new Scene();
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Busca la propiedad. |
 | [getClass()](#getClass--) |  |
 | [getEulerAngles()](#getEulerAngles--) | Obtiene la rotación representada en ángulos de Euler, medidos en grados |
-| [getGeometricRotation()](#getGeometricRotation--) | Obtiene la rotación geométrica de Euler (medida en grados). |
-| [getGeometricScaling()](#getGeometricScaling--) | Obtiene el escalado geométrico. |
-| [getGeometricTranslation()](#getGeometricTranslation--) | Obtiene la traslación geométrica. |
+| [getGeometricRotation()](#getGeometricRotation--) | Obtiene la rotación Euler geométrica (medida en grados). |
+| [getGeometricScaling()](#getGeometricScaling--) | Obtiene la escala geométrica. |
+| [getGeometricTranslation()](#getGeometricTranslation--) | Obtiene la traducción geométrica. |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getPostRotation()](#getPostRotation--) | Obtiene la post-rotación representada en grados |
 | [getPreRotation()](#getPreRotation--) | Obtiene la pre-rotación representada en grados |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getRotation()](#getRotation--) | Obtiene la rotación representada en cuaternión. |
 | [getRotationOffset()](#getRotationOffset--) | Obtiene el desplazamiento de rotación |
 | [getRotationPivot()](#getRotationPivot--) | Obtiene el pivote de rotación |
@@ -52,17 +52,17 @@ Scene scene = new Scene();
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setEulerAngles(Vector3 value)](#setEulerAngles-com.aspose.threed.Vector3-) | Establece la rotación representada en ángulos de Euler, medida en grados |
 | [setEulerAngles(double rx, double ry, double rz)](#setEulerAngles-double-double-double-) | Establece los ángulos de Euler en grados de la transformación actual. |
-| [setGeometricRotation(Vector3 value)](#setGeometricRotation-com.aspose.threed.Vector3-) | Establece la rotación geométrica de Euler(medida en grados). |
-| [setGeometricRotation(double rx, double ry, double rz)](#setGeometricRotation-double-double-double-) | Establece la rotación geométrica de Euler(medida en grados). |
+| [setGeometricRotation(Vector3 value)](#setGeometricRotation-com.aspose.threed.Vector3-) | Establece la rotación geométrica de Euler (medida en grados). |
+| [setGeometricRotation(double rx, double ry, double rz)](#setGeometricRotation-double-double-double-) | Establece la rotación geométrica de Euler (medida en grados). |
 | [setGeometricScaling(Vector3 value)](#setGeometricScaling-com.aspose.threed.Vector3-) | Establece la escala geométrica. |
 | [setGeometricScaling(double sx, double sy, double sz)](#setGeometricScaling-double-double-double-) | Establece la escala geométrica. |
 | [setGeometricTranslation(Vector3 value)](#setGeometricTranslation-com.aspose.threed.Vector3-) | Establece la traslación geométrica. |
 | [setGeometricTranslation(double x, double y, double z)](#setGeometricTranslation-double-double-double-) | Establece la traslación geométrica. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setPostRotation(Vector3 value)](#setPostRotation-com.aspose.threed.Vector3-) | Establece la post‑rotación representada en grados |
-| [setPostRotation(double rx, double ry, double rz)](#setPostRotation-double-double-double-) | Establece la post‑rotación representada en grados **Ejemplo:** |
-| [setPreRotation(Vector3 value)](#setPreRotation-com.aspose.threed.Vector3-) | Establece la pre‑rotación representada en grados |
-| [setPreRotation(double rx, double ry, double rz)](#setPreRotation-double-double-double-) | Establece la pre‑rotación representada en grados **Ejemplo:** |
+| [setPostRotation(Vector3 value)](#setPostRotation-com.aspose.threed.Vector3-) | Establece la post-rotación representada en grados |
+| [setPostRotation(double rx, double ry, double rz)](#setPostRotation-double-double-double-) | Establece la post-rotación representada en grados **Ejemplo:** |
+| [setPreRotation(Vector3 value)](#setPreRotation-com.aspose.threed.Vector3-) | Establece la pre-rotación representada en grados |
+| [setPreRotation(double rx, double ry, double rz)](#setPreRotation-double-double-double-) | Establece la pre-rotación representada en grados **Ejemplo:** |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setRotation(Quaternion value)](#setRotation-com.aspose.threed.Quaternion-) | Establece la rotación representada en cuaternión. |
 | [setRotation(double rw, double rx, double ry, double rz)](#setRotation-double-double-double-double-) | Establece la rotación (como componentes de cuaternión) de la transformación actual. |
@@ -100,7 +100,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -140,7 +140,7 @@ public Vector3 getGeometricRotation()
 ```
 
 
-Obtiene la rotación geométrica de Euler(medida en grados). La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exportes la transformación geométrica a tipos de archivo que no la admiten.
+Obtiene la rotación geométrica de Euler (medida en grados). La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la soportan.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric Euler rotation(measured in degree). Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it.
@@ -150,7 +150,7 @@ public Vector3 getGeometricScaling()
 ```
 
 
-Obtiene la escala geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se combinará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
+Obtiene la escala geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric scaling. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -165,7 +165,7 @@ public Vector3 getGeometricTranslation()
 ```
 
 
-Obtiene la traslación geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se combinará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
+Obtiene la traslación geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric translation. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -230,7 +230,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -406,7 +406,7 @@ Establece la rotación representada en ángulos de Euler, medida en grados
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 Node node = new Node();
@@ -441,7 +441,7 @@ public void setGeometricRotation(Vector3 value)
 ```
 
 
-Establece la rotación Euler geométrica (medida en grados). La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se combinará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
+Establece la rotación geométrica de Euler (medida en grados). La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -454,7 +454,7 @@ public Transform setGeometricRotation(double rx, double ry, double rz)
 ```
 
 
-Establece la rotación Euler geométrica (medida en grados). La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se combinará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten. **Ejemplo:**
+Establece la rotación geométrica de Euler (medida en grados). La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten. **Ejemplo:**
 
 ```
 Node node = new Node();
@@ -476,12 +476,12 @@ public void setGeometricScaling(Vector3 value)
 ```
 
 
-Establece la escala geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se combinará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
+Establece la escala geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 Node node = new Node();
@@ -494,7 +494,7 @@ public Transform setGeometricScaling(double sx, double sy, double sz)
 ```
 
 
-Establece la escala geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se combinará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten. **Ejemplo:**
+Establece la escala geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten. **Ejemplo:**
 
 ```
 Node node = new Node();
@@ -516,12 +516,12 @@ public void setGeometricTranslation(Vector3 value)
 ```
 
 
-Establece la traslación geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se combinará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
+Establece la traslación geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 Node node = new Node();
@@ -534,7 +534,7 @@ public Transform setGeometricTranslation(double x, double y, double z)
 ```
 
 
-Establece la traslación geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se combinará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten. **Ejemplo:**
+Establece la traslación geométrica. La transformación geométrica solo afecta a las entidades adjuntas y deja los nodos hijos sin cambios. Se fusionará como transformación local cuando exporte la transformación geométrica a tipos de archivo que no la admiten. **Ejemplo:**
 
 ```
 Node node = new Node();
@@ -569,12 +569,12 @@ public void setPostRotation(Vector3 value)
 ```
 
 
-Establece la post‑rotación representada en grados
+Establece la post-rotación representada en grados
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 Node node = new Node();
@@ -587,7 +587,7 @@ public Transform setPostRotation(double rx, double ry, double rz)
 ```
 
 
-Establece la post‑rotación representada en grados **Ejemplo:**
+Establece la post-rotación representada en grados **Ejemplo:**
 
 ```
 Node node = new Node();
@@ -609,12 +609,12 @@ public void setPreRotation(Vector3 value)
 ```
 
 
-Establece la pre‑rotación representada en grados
+Establece la pre-rotación representada en grados
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 Node node = new Node();
@@ -627,7 +627,7 @@ public Transform setPreRotation(double rx, double ry, double rz)
 ```
 
 
-Establece la pre‑rotación representada en grados **Ejemplo:**
+Establece la pre-rotación representada en grados **Ejemplo:**
 
 ```
 Node node = new Node();
@@ -668,7 +668,7 @@ Establece la rotación representada en cuaternión.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Quaternion](../../com.aspose.threed/quaternion) | Nuevo valor **Ejemplo:** |
+|  | value | [Quaternion](../../com.aspose.threed/quaternion) | Nuevo valor **Example:** |
 
 ```
 Node node = new Node();
@@ -757,7 +757,7 @@ Establece la escala
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 Node node = new Node();
@@ -801,7 +801,7 @@ Establece la matriz de transformación.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Matrix4](../../com.aspose.threed/matrix4) | Nuevo valor **Observaciones:** Asignar esto restablecerá [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) y [getRotation](../../com.aspose.threed/transform\#getRotation), los [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) y [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) no se verán afectados. **Ejemplo:** |
+|  | value | [Matrix4](../../com.aspose.threed/matrix4) | Nuevo valor **Observaciones:** Asignar esto restablecerá el [getTranslation](../../com.aspose.threed/transform\\#getTranslation), el [getScaling](../../com.aspose.threed/transform\\#getScaling) y el [getRotation](../../com.aspose.threed/transform\\#getRotation), los [getGeometricRotation](../../com.aspose.threed/transform\\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\\#getGeometricScaling) y [getGeometricTranslation](../../com.aspose.threed/transform\\#getGeometricTranslation) no se verán afectados. **Ejemplo:** |
 
 ```
 Node node = new Node();
@@ -819,7 +819,7 @@ Establece la traslación
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 Node node = new Node();

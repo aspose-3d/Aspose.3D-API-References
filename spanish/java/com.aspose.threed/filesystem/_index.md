@@ -1,6 +1,6 @@
 ---
 title: "FileSystem"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Encapsulación del sistema de archivos."
 type: docs
 weight: 67
@@ -41,9 +41,9 @@ var inputFile = "input.fbx";
 | [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | Inicializa un nuevo [FileSystem](../../com.aspose.threed/filesystem) que solo accede al directorio local. |
 | [createMemoryFileSystem()](#createMemoryFileSystem--) | Crea un sistema de archivos basado en memoria que asignará las operaciones de lectura/escritura a la memoria. |
 | [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | Crea un sistema de archivos basado en memoria que asignará las operaciones de lectura/escritura a la memoria. |
-| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | Crea un sistema de archivos para proporcionar acceso de solo lectura a un archivo zip especificado o a un flujo zip. |
-| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | Crea un sistema de archivos para proporcionar acceso de solo lectura a un archivo zip especificado o a un flujo zip. |
-| [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | Sistema de archivos para proporcionar acceso de solo lectura a un archivo zip especificado o a un flujo zip. |
+| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | Crea un sistema de archivos para proporcionar acceso de solo lectura al archivo zip especificado o al flujo zip. |
+| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | Crea un sistema de archivos para proporcionar acceso de solo lectura al archivo zip especificado o al flujo zip. |
+| [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | Sistema de archivos para proporcionar acceso de solo lectura al archivo zip especificado o al flujo zip. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -177,7 +177,7 @@ public static FileSystem createZipFileSystem(Stream stream)
 ```
 
 
-Crea un sistema de archivos para proporcionar acceso de solo lectura a un archivo zip especificado o a un flujo zip. El sistema de archivos se eliminará después de la operación de abrir/guardar.
+Crea un sistema de archivos para proporcionar acceso de solo lectura al archivo zip especificado o al flujo zip. El sistema de archivos se eliminará después de la operación de abrir/guardar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -192,7 +192,7 @@ public static FileSystem createZipFileSystem(Stream stream, String baseDir)
 ```
 
 
-Crea un sistema de archivos para proporcionar acceso de solo lectura a un archivo zip especificado o a un flujo zip. El sistema de archivos se eliminará después de la operación de abrir/guardar.
+Crea un sistema de archivos para proporcionar acceso de solo lectura al archivo zip especificado o al flujo zip. El sistema de archivos se eliminará después de la operación de abrir/guardar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -208,12 +208,12 @@ public static FileSystem createZipFileSystem(String fileName)
 ```
 
 
-Sistema de archivos para proporcionar acceso de solo lectura a un archivo zip especificado o a un flujo zip. El sistema de archivos se eliminará después de la operación de abrir/guardar.
+Sistema de archivos para proporcionar acceso de solo lectura al archivo zip especificado o al flujo zip. El sistema de archivos se eliminará después de la operación de abrir/guardar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| fileName | java.lang.String | Nombre de archivo del zip. |
+| fileName | java.lang.String | Nombre del archivo del zip. |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A zip file system

@@ -1,6 +1,6 @@
 ---
 title: "DummyFileSystem"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Las operaciones de lectura/escritura son operaciones ficticias."
 type: docs
 weight: 46

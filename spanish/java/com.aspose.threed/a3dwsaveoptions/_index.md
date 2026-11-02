@@ -1,6 +1,6 @@
 ---
 title: "A3dwSaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de guardado para el formato A3DW."
 type: docs
 weight: 11
@@ -25,25 +25,25 @@ Opciones de guardado para el formato A3DW.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
-| [getExportMetaData()](#getExportMetaData--) | Exportar metadatos asociados con Scene/Node al cliente. El valor predeterminado es true |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
+| [getExportMetaData()](#getExportMetaData--) | Exportar metadatos asociados con Scene/Node al cliente Valor predeterminado es true |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getFileFormat()](#getFileFormat--) | Obtiene el formato de archivo especificado en la opción actual de Guardar/Cargar. |
 | [getFileName()](#getFileName--) | El nombre de archivo de la escena de exportación/importación. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [getMetaDataPrefix()](#getMetaDataPrefix--) | Si esta propiedad no es nula, solo se exportarán las propiedades de Scene/Node que comiencen con este prefijo, y el prefijo será eliminado. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
-| [setExportMetaData(boolean value)](#setExportMetaData-boolean-) | Exportar metadatos asociados con Scene/Node al cliente. El valor predeterminado es true |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
+| [setExportMetaData(boolean value)](#setExportMetaData-boolean-) | Exportar metadatos asociados con Scene/Node al cliente Valor predeterminado es true |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | El nombre de archivo de la escena de exportación/importación. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [setMetaDataPrefix(String value)](#setMetaDataPrefix-java.lang.String-) | Si esta propiedad no es nula, solo se exportarán las propiedades de Scene/Node que comiencen con este prefijo, y el prefijo será eliminado. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -88,20 +88,20 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportMetaData() {#getExportMetaData--}
 ```
 public boolean getExportMetaData()
 ```
 
 
-Exportar metadatos asociados con Scene/Node al cliente. El valor predeterminado es true
+Exportar metadatos asociados con Scene/Node al cliente Valor predeterminado es true
 
 **Returns:**
-boolean - Exportar metadatos asociados con Scene/Node al cliente. El valor predeterminado es true
+boolean - Exportar metadatos asociados con Scene/Node al cliente Valor predeterminado es true
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -128,10 +128,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -201,7 +201,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -268,7 +268,7 @@ public void setExportMetaData(boolean value)
 ```
 
 
-Exportar metadatos asociados con Scene/Node al cliente. El valor predeterminado es true
+Exportar metadatos asociados con Scene/Node al cliente Valor predeterminado es true
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -294,7 +294,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -376,7 +376,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

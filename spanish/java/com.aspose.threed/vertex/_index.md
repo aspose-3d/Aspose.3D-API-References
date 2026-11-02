@@ -1,7 +1,7 @@
 ---
-title: "Vértice"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Referencia de vértice utilizada para acceder al vértice bruto en ."
+title: "Vertex"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Referencia de vértice utilizada para acceder al vértice sin procesar en ."
 type: docs
 weight: 205
 url: /es/java/com.aspose.threed/vertex/
@@ -16,7 +16,7 @@ java.lang.Comparable
 public abstract class Vertex implements Comparable<Vertex>
 ```
 
-Referencia de vértice, utilizada para acceder al vértice bruto en [TriMesh](../../com.aspose.threed/trimesh).
+Referencia de vértice, utilizada para acceder al vértice sin procesar en [TriMesh](../../com.aspose.threed/trimesh).
 ## Constructores
 
 | Constructor | Descripción |

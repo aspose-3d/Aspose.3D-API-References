@@ -1,7 +1,7 @@
 ---
 title: "PbrMaterial"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Material para renderizado basado en la física basado en color albedo/metallic/roughness"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Material para renderizado basado en física basado en color albedo/metálico/rugosidad"
 type: docs
 weight: 121
 url: /es/java/com.aspose.threed/pbrmaterial/
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrMaterial extends Material
 ```
 
-Material para renderizado basado en la física basado en color albedo/metallic/roughness
+Material para renderizado basado en física basado en color albedo/metálico/rugosidad
 ## Constructores
 
 | Constructor | Descripción |
 | --- | --- |
-| [PbrMaterial()](#PbrMaterial--) | Construir una instancia de material PBR predeterminada |
-| [PbrMaterial(Vector3 albedo)](#PbrMaterial-com.aspose.threed.Vector3-) | Construir un material PBR predeterminado con el valor de color albedo especificado |
+| [PbrMaterial()](#PbrMaterial--) | Construye una instancia de material PBR predeterminada |
+| [PbrMaterial(Vector3 albedo)](#PbrMaterial-com.aspose.threed.Vector3-) | Construye un material PBR predeterminado con el valor de color albedo especificado. |
 ## Campos
 
 | Campo | Descripción |
@@ -35,7 +35,7 @@ Material para renderizado basado en la física basado en color albedo/metallic/r
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Busca la propiedad. |
-| [fromMaterial(Material material)](#fromMaterial-com.aspose.threed.Material-) | Permitir convertir otro material a PbrMaterial **Ejemplo:** |
+| [fromMaterial(Material material)](#fromMaterial-com.aspose.threed.Material-) | Permite convertir otro material a PbrMaterial **Ejemplo:** |
 | [getAlbedo()](#getAlbedo--) | Obtiene el color base del material |
 | [getAlbedoTexture()](#getAlbedoTexture--) | Obtiene la textura para albedo |
 | [getClass()](#getClass--) |  |
@@ -48,9 +48,9 @@ Material para renderizado basado en la física basado en color albedo/metallic/r
 | [getOcclusionFactor()](#getOcclusionFactor--) | Obtiene el factor de oclusión ambiental |
 | [getOcclusionTexture()](#getOcclusionTexture--) | Obtiene la textura para oclusión ambiental |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
-| [getRoughnessFactor()](#getRoughnessFactor--) | Obtiene la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso. |
-| [getSpecularTexture()](#getSpecularTexture--) | Obtiene la textura para color especular |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
+| [getRoughnessFactor()](#getRoughnessFactor--) | Obtiene la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso |
+| [getSpecularTexture()](#getSpecularTexture--) | Obtiene la textura para el color especular |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Obtiene la textura del slot especificado, puede ser el nombre de la propiedad del material o el nombre del parámetro del shader |
 | [getTransparency()](#getTransparency--) | Obtiene el factor de transparencia. |
 | [hashCode()](#hashCode--) |  |
@@ -62,15 +62,15 @@ Material para renderizado basado en la física basado en color albedo/metallic/r
 | [setAlbedo(Vector3 value)](#setAlbedo-com.aspose.threed.Vector3-) | Establece el color base del material |
 | [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | Establece la textura para albedo |
 | [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Establece el color emisivo |
-| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | Establece la textura para la emisiva |
+| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | Establece la textura para la emisión |
 | [setMetallicFactor(double value)](#setMetallicFactor-double-) | Establece la metalicidad del material, un valor de 1 indica que el material es un metal y un valor de 0 indica que el material es un dieléctrico. |
-| [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | Establece la textura para metalicidad (en el canal R) y rugosidad (en el canal G) |
+| [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | Establece la textura para metallic (en el canal R) y rugosidad (en el canal G) |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | Establece la textura del mapeo normal |
 | [setOcclusionFactor(double value)](#setOcclusionFactor-double-) | Establece el factor de oclusión ambiental |
 | [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | Establece la textura para oclusión ambiental |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
-| [setRoughnessFactor(double value)](#setRoughnessFactor-double-) | Establece la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso |
+| [setRoughnessFactor(double value)](#setRoughnessFactor-double-) | Establece la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso. |
 | [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | Establece la textura para el color especular |
 | [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Establece la textura al slot especificado |
 | [setTransparency(double value)](#setTransparency-double-) | Establece el factor de transparencia. |
@@ -84,7 +84,7 @@ public PbrMaterial()
 ```
 
 
-Construir una instancia de material PBR predeterminada
+Construye una instancia de material PBR predeterminada
 
 ### PbrMaterial(Vector3 albedo) {#PbrMaterial-com.aspose.threed.Vector3-}
 ```
@@ -92,7 +92,7 @@ public PbrMaterial(Vector3 albedo)
 ```
 
 
-Construir un material PBR predeterminado con el valor de color albedo especificado
+Construye un material PBR predeterminado con el valor de color albedo especificado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -160,7 +160,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -175,7 +175,7 @@ public static PbrMaterial fromMaterial(Material material)
 ```
 
 
-Permitir convertir otro material a PbrMaterial **Ejemplo:**
+Permite convertir otro material a PbrMaterial **Ejemplo:**
 
 ```
 var mat = new LambertMaterial();
@@ -319,7 +319,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -334,17 +334,17 @@ public double getRoughnessFactor()
 ```
 
 
-Obtiene la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso.
+Obtiene la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso
 
 **Returns:**
-double - la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso
+double - la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso.
 ### getSpecularTexture() {#getSpecularTexture--}
 ```
 public TextureBase getSpecularTexture()
 ```
 
 
-Obtiene la textura para color especular
+Obtiene la textura para el color especular
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for specular color
@@ -377,10 +377,10 @@ public double getTransparency()
 ```
 
 
-Obtiene el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+Obtiene el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 
 **Returns:**
-double - el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+double - el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -492,7 +492,7 @@ public void setEmissiveTexture(TextureBase value)
 ```
 
 
-Establece la textura para la emisiva
+Establece la textura para la emisión
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -518,7 +518,7 @@ public void setMetallicRoughness(TextureBase value)
 ```
 
 
-Establece la textura para metalicidad (en el canal R) y rugosidad (en el canal G)
+Establece la textura para metallic (en el canal R) y rugosidad (en el canal G)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -597,7 +597,7 @@ public void setRoughnessFactor(double value)
 ```
 
 
-Establece la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso
+Establece la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -629,7 +629,7 @@ Establece la textura al slot especificado
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | slotName | java.lang.String | Nombre de la ranura. |
-|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Ejemplo:** |
+|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Example:** |
 
 ```
 var mat = new LambertMaterial();
@@ -644,7 +644,7 @@ public void setTransparency(double value)
 ```
 
 
-Establece el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+Establece el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

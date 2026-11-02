@@ -1,7 +1,7 @@
 ---
 title: "VertexDeclaration"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "La declaración de una estructura de vértices definida de forma personalizada"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La declaración de una estructura de vértices definida a medida"
 type: docs
 weight: 206
 url: /es/java/com.aspose.threed/vertexdeclaration/
@@ -16,7 +16,7 @@ java.lang.Iterable, java.lang.Comparable
 public final class VertexDeclaration implements Iterable<VertexField>, Comparable<VertexDeclaration>
 ```
 
-La declaración de la estructura de un vértice definido de forma personalizada
+La declaración de la estructura de un vértice definido por el usuario
 ## Constructores
 
 | Constructor | Descripción |
@@ -32,11 +32,11 @@ La declaración de la estructura de un vértice definido de forma personalizada
 | [clear()](#clear--) | Borrar todos los campos. |
 | [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | Compara esta instancia con un objeto especificado y devuelve una indicación de sus valores relativos. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determina si esta instancia y un objeto especificado, que también debe ser un objeto [VertexDeclaration](../../com.aspose.threed/vertexdeclaration), tienen el mismo valor. |
-| [fromGeometry(Geometry geometry, boolean useFloat)](#fromGeometry-com.aspose.threed.Geometry-boolean-) | Crea un [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) basado en el diseño de una [Geometry](../../com.aspose.threed/geometry). |
+| [fromGeometry(Geometry geometry, boolean useFloat)](#fromGeometry-com.aspose.threed.Geometry-boolean-) | Crea una [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) basada en el diseño de una [Geometry](../../com.aspose.threed/geometry). |
 | [get(int index)](#get-int-) | Obtiene el [VertexField](../../com.aspose.threed/vertexfield) por índice |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Obtiene el recuento de todos los campos definidos en este [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) |
-| [getSealed()](#getSealed--) | Un [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) será sellado cuando haya sido usado por [TriMesh](../../com.aspose.threed/trimesh), no se permiten más modificaciones. |
+| [getSealed()](#getSealed--) | Un [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) se sellará cuando haya sido usado por [TriMesh](../../com.aspose.threed/trimesh), no se permitirán más modificaciones. |
 | [getSize()](#getSize--) | El tamaño en bytes de la estructura de vértice. |
 | [hashCode()](#hashCode--) | Devuelve el código hash para esta cadena. |
 | [iterator()](#iterator--) | Obtiene un enumerador para recorrer todos los campos de vértice en esta instancia. |
@@ -81,7 +81,7 @@ Agregar un nuevo campo de vértice
 | --- | --- | --- |
 | dataType | int | El tipo de datos del campo de vértice |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | ¿Para qué se usará este campo? |
-| índice | int | El índice para la misma semántica de campo, -1 para generación automática |
+| índice | int | El índice para la semántica del mismo campo, -1 para generación automática |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield)
@@ -98,8 +98,8 @@ Agregar un nuevo campo de vértice
 | --- | --- | --- |
 | dataType | int | El tipo de datos del campo de vértice |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | ¿Para qué se usará este campo? |
-| índice | int | El índice para la misma semántica de campo, -1 para generación automática |
-| alias | java.lang.String | El nombre alias del campo |
+| índice | int | El índice para la semántica del mismo campo, -1 para generación automática |
+| alias | java.lang.String | El nombre de alias del campo |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield)
@@ -147,7 +147,7 @@ public static VertexDeclaration fromGeometry(Geometry geometry, boolean useFloat
 ```
 
 
-Crea un [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) basado en el diseño de una [Geometry](../../com.aspose.threed/geometry).
+Crea una [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) basada en el diseño de una [Geometry](../../com.aspose.threed/geometry).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -198,10 +198,10 @@ public boolean getSealed()
 ```
 
 
-Un [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) será sellado cuando haya sido usado por [TriMesh](../../com.aspose.threed/trimesh), no se permiten más modificaciones.
+Un [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) se sellará cuando haya sido usado por [TriMesh](../../com.aspose.threed/trimesh), no se permitirán más modificaciones.
 
 **Returns:**
-boolean - Un [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) será sellado cuando haya sido usado por [TriMesh](../../com.aspose.threed/trimesh), no se permiten más modificaciones.
+boolean - Un [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) se sellará cuando haya sido usado por [TriMesh](../../com.aspose.threed/trimesh), no se permitirán más modificaciones.
 ### getSize() {#getSize--}
 ```
 public int getSize()

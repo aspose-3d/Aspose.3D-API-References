@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.EnumValue"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La definición del valor del tipo enum."
 type: docs
 weight: 12
@@ -18,15 +18,15 @@ La definición del valor del tipo enum.
 
 | Constructor | Descripción |
 | --- | --- |
-| [EnumValue(String name, int value)](#EnumValue-java.lang.String-int-) | Construye un valor de enumeración. |
+| [EnumValue(String name, int value)](#EnumValue-java.lang.String-int-) | Construye un valor enum. |
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | El nombre del valor del tipo de enumeración |
-| [getValue()](#getValue--) | El valor del tipo de enumeración |
+| [getName()](#getName--) | El nombre del valor del tipo enum |
+| [getValue()](#getValue--) | El valor del valor del tipo enum |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -40,7 +40,7 @@ public EnumValue(String name, int value)
 ```
 
 
-Construye un valor de enumeración.
+Construye un valor enum.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -79,20 +79,20 @@ public String getName()
 ```
 
 
-El nombre del valor del tipo de enumeración
+El nombre del valor del tipo enum
 
 **Returns:**
-java.lang.String - El nombre del tipo de enumeración
+java.lang.String - El nombre del valor del tipo enum
 ### getValue() {#getValue--}
 ```
 public int getValue()
 ```
 
 
-El valor del tipo de enumeración
+El valor del valor del tipo enum
 
 **Returns:**
-int - El valor del tipo de enumeración
+int - El valor del valor del tipo enum
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

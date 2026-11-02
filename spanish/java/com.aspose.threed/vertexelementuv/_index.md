@@ -1,6 +1,6 @@
 ---
 title: "VertexElementUV"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Define las coordenadas UV para los componentes especificados."
 type: docs
 weight: 220
@@ -24,28 +24,28 @@ Define las coordenadas UV para los componentes especificados. Una geometría pue
 
 | Método | Descripción |
 | --- | --- |
-| [addData(Iterable<Vector2> data)](#addData-java.lang.Iterable-com.aspose.threed.Vector2--) | Añade un conjunto de [Vector2](../../com.aspose.threed/vector2) a VertexElementUV.Data. |
-| [addData2(Iterable<Vector3> data)](#addData2-java.lang.Iterable-com.aspose.threed.Vector3--) | Añade un conjunto de [Vector3](../../com.aspose.threed/vector3) a VertexElementUV.Data. |
+| [addData(Iterable<Vector2> data)](#addData-java.lang.Iterable-com.aspose.threed.Vector2--) | Agrega un conjunto de [Vector2](../../com.aspose.threed/vector2) a VertexElementUV.Data. |
+| [addData2(Iterable<Vector3> data)](#addData2-java.lang.Iterable-com.aspose.threed.Vector3--) | Agrega un conjunto de [Vector3](../../com.aspose.threed/vector3) a VertexElementUV.Data. |
 | [clear()](#clear--) | Elimina todos los elementos de los arreglos directos y de índices. |
-| [clone(boolean withData)](#clone-boolean-) | Clona en profundidad el elemento de vértice. |
+| [clone(boolean withData)](#clone-boolean-) | Clona profundamente el elemento de vértice |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
-| [copyTo(VertexElementVector4 target)](#copyTo-com.aspose.threed.VertexElementVector4-) | Copia datos al elemento especificado. |
+| [copyTo(VertexElementVector4 target)](#copyTo-com.aspose.threed.VertexElementVector4-) | Copia datos al elemento especificado |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Obtiene los datos del vértice. |
-| [getIndices()](#getIndices--) | Obtiene los datos de los índices. |
-| [getMappingMode()](#getMappingMode--) | Obtiene cómo se mapea el elemento. |
+| [getData()](#getData--) | Obtiene los datos del vértice |
+| [getIndices()](#getIndices--) | Obtiene los datos de los índices |
+| [getMappingMode()](#getMappingMode--) | Obtiene cómo está mapeado el elemento. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getReferenceMode()](#getReferenceMode--) | Obtiene cómo se referencia el elemento. |
-| [getVertexElementType()](#getVertexElementType--) | Obtiene el tipo del [VertexElement](../../com.aspose.threed/vertexelement) |
+| [getReferenceMode()](#getReferenceMode--) | Obtiene cómo está referenciado el elemento. |
+| [getVertexElementType()](#getVertexElementType--) | Obtiene el tipo de [VertexElement](../../com.aspose.threed/vertexelement) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setData(Vector4[] data)](#setData-com.aspose.threed.Vector4---) | Cargar datos |
 | [setIndices(int[] data)](#setIndices-int---) | Cargar índices |
-| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Establece cómo se mapea el elemento. |
+| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Establece cómo está mapeado el elemento. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | Establece cómo se referencia el elemento. |
+| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | Establece cómo está referenciado el elemento. |
 | [toString()](#toString--) | Representación en cadena del elemento de vértice. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,7 +77,7 @@ public void addData(Iterable<Vector2> data)
 ```
 
 
-Añade un conjunto de [Vector2](../../com.aspose.threed/vector2) a VertexElementUV.Data. Esto es un atajo, este método convertirá el [Vector2](../../com.aspose.threed/vector2) a [Vector4](../../com.aspose.threed/vector4) con z a 0 y w a 0.
+Agrega un conjunto de [Vector2](../../com.aspose.threed/vector2) a VertexElementUV.Data. Esto es un atajo, este método convertirá el [Vector2](../../com.aspose.threed/vector2) a [Vector4](../../com.aspose.threed/vector4) con z a 0 y w a 0.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -90,7 +90,7 @@ public void addData2(Iterable<Vector3> data)
 ```
 
 
-Añade un conjunto de [Vector3](../../com.aspose.threed/vector3) a VertexElementUV.Data. Esto es un atajo, este método convertirá el [Vector3](../../com.aspose.threed/vector3) a [Vector4](../../com.aspose.threed/vector4) con w a 0.
+Agrega un conjunto de [Vector3](../../com.aspose.threed/vector3) a VertexElementUV.Data. Esto es un atajo, este método convertirá el [Vector3](../../com.aspose.threed/vector3) a [Vector4](../../com.aspose.threed/vector4) con w a 0.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -111,7 +111,7 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Clona en profundidad el elemento de vértice.
+Clona profundamente el elemento de vértice
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -142,7 +142,7 @@ public void copyTo(VertexElementVector4 target)
 ```
 
 
-Copia datos al elemento especificado.
+Copia datos al elemento especificado
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -180,7 +180,7 @@ public List<Vector4> getData()
 ```
 
 
-Obtiene los datos del vértice.
+Obtiene los datos del vértice
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - los datos del vértice
@@ -190,7 +190,7 @@ public List<Integer> getIndices()
 ```
 
 
-Obtiene los datos de los índices.
+Obtiene los datos de los índices
 
 **Returns:**
 java.util.List<java.lang.Integer> - los datos de los índices
@@ -200,7 +200,7 @@ public MappingMode getMappingMode()
 ```
 
 
-Obtiene cómo se mapea el elemento.
+Obtiene cómo está mapeado el elemento.
 
 **Returns:**
 [MappingMode](../../com.aspose.threed/mappingmode) - how the element is mapped.
@@ -220,7 +220,7 @@ public ReferenceMode getReferenceMode()
 ```
 
 
-Obtiene cómo se referencia el elemento.
+Obtiene cómo está referenciado el elemento.
 
 **Returns:**
 [ReferenceMode](../../com.aspose.threed/referencemode) - how the element is referenced.
@@ -230,7 +230,7 @@ public VertexElementType getVertexElementType()
 ```
 
 
-Obtiene el tipo del [VertexElement](../../com.aspose.threed/vertexelement)
+Obtiene el tipo de [VertexElement](../../com.aspose.threed/vertexelement)
 
 **Returns:**
 [VertexElementType](../../com.aspose.threed/vertexelementtype) - the type of the [VertexElement](../../com.aspose.threed/vertexelement)
@@ -292,7 +292,7 @@ public void setMappingMode(MappingMode value)
 ```
 
 
-Establece cómo se mapea el elemento.
+Establece cómo está mapeado el elemento.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -318,7 +318,7 @@ public void setReferenceMode(ReferenceMode value)
 ```
 
 
-Establece cómo se referencia el elemento.
+Establece cómo está referenciado el elemento.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

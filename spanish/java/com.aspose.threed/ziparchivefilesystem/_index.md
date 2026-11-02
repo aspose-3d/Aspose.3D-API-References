@@ -1,7 +1,7 @@
 ---
 title: "ZipArchiveFileSystem"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Sistema de archivos para proporcionar acceso de solo lectura a un archivo zip especificado o a un flujo zip."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Sistema de archivos para proporcionar acceso de solo lectura al archivo zip especificado o al flujo zip."
 type: docs
 weight: 221
 url: /es/java/com.aspose.threed/ziparchivefilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class ZipArchiveFileSystem extends FileSystem
 ```
 
-Sistema de archivos para proporcionar acceso de solo lectura a un archivo zip especificado o a un flujo zip. El sistema de archivos se eliminará después de la operación de abrir/guardar. **Example:** El siguiente código muestra cómo importar un archivo y proporcionar archivos dependientes en un archivo zip.
+Sistema de archivos para proporcionar acceso de solo lectura al archivo zip especificado o al flujo zip. El sistema de archivos se eliminará después de la operación de abrir/guardar. **Ejemplo:** El siguiente código muestra cómo importar un archivo y proporcionar archivos dependientes en un archivo zip.
 
 ```
 var inputFile = "input.fbx";
@@ -28,14 +28,14 @@ var inputFile = "input.fbx";
 
 | Constructor | Descripción |
 | --- | --- |
-| [ZipArchiveFileSystem(Stream stream, String baseDir)](#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-java.lang.String-) | Construya un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un flujo. |
-| [ZipArchiveFileSystem(Stream stream)](#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-) | Construya un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un flujo. |
-| [ZipArchiveFileSystem(String fileName)](#ZipArchiveFileSystem-java.lang.String-) | Construya un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un nombre de archivo. |
+| [ZipArchiveFileSystem(Stream stream, String baseDir)](#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-java.lang.String-) | Construir un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un flujo. |
+| [ZipArchiveFileSystem(Stream stream)](#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-) | Construir un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un flujo. |
+| [ZipArchiveFileSystem(String fileName)](#ZipArchiveFileSystem-java.lang.String-) | Construir un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un nombre de archivo. |
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
-| [close()](#close--) | Libere el ZipArchiveFileSystem y libere sus recursos internos. |
+| [close()](#close--) | Liberar el ZipArchiveFileSystem y liberar sus recursos internos. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -53,7 +53,7 @@ public ZipArchiveFileSystem(Stream stream, String baseDir)
 ```
 
 
-Construya un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un flujo.
+Construir un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un flujo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -67,7 +67,7 @@ public ZipArchiveFileSystem(Stream stream)
 ```
 
 
-Construya un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un flujo.
+Construir un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un flujo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -80,7 +80,7 @@ public ZipArchiveFileSystem(String fileName)
 ```
 
 
-Construya un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un nombre de archivo.
+Construir un [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) a través de un nombre de archivo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -93,7 +93,7 @@ public void close()
 ```
 
 
-Libere el ZipArchiveFileSystem y libere sus recursos internos.
+Liberar el ZipArchiveFileSystem y liberar sus recursos internos.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

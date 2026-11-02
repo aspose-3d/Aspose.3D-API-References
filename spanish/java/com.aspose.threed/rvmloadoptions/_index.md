@@ -1,6 +1,6 @@
 ---
 title: "RvmLoadOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de carga para el archivo RVM de AVEVA Plant Design Management Systems."
 type: docs
 weight: 157
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class RvmLoadOptions extends LoadOptions
 ```
 
-Opciones de carga para el archivo RVM del Sistema de Gestión de Diseño de Plantas AVEVA. **Example:** El siguiente código muestra cómo personalizar los parámetros de teselado para geometrías primitivas importadas del archivo RVM usando RvmLoadOptions.
+Opciones de carga para el archivo RVM del Sistema de Gestión de Diseño de Plantas AVEVA. **Ejemplo:** El siguiente código muestra cómo personalizar los parámetros de teselación para geometrías primitivas importadas del archivo RVM usando RvmLoadOptions.
 
 ```
 RvmLoadOptions opt = new RvmLoadOptions();
@@ -29,44 +29,44 @@ RvmLoadOptions opt = new RvmLoadOptions();
 
 | Constructor | Descripción |
 | --- | --- |
-| [RvmLoadOptions(FileContentType contentType)](#RvmLoadOptions-com.aspose.threed.FileContentType-) | Construya una instancia de [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) |
-| [RvmLoadOptions()](#RvmLoadOptions--) | Construya una instancia de [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) |
+| [RvmLoadOptions(FileContentType contentType)](#RvmLoadOptions-com.aspose.threed.FileContentType-) | Construye una instancia de [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) |
+| [RvmLoadOptions()](#RvmLoadOptions--) | Construye una instancia de [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) |
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttributePrefix()](#getAttributePrefix--) | Obtiene el prefijo de los atributos que fueron definidos en archivos de atributos externos. El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es "rvm:" |
-| [getCenterScene()](#getCenterScene--) | Centrar la escena después de que se cargue. |
+| [getAttributePrefix()](#getAttributePrefix--) | Obtiene el prefijo de los atributos que fueron definidos en archivos de atributos externos. El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es \"rvm:\" |
+| [getCenterScene()](#getCenterScene--) | Centra la escena después de que se cargue. |
 | [getClass()](#getClass--) |  |
 | [getCylinderRadialSegments()](#getCylinderRadialSegments--) | Obtiene el número de segmentos radiales del cilindro, el valor predeterminado es 16 |
 | [getDishLatitudeSegments()](#getDishLatitudeSegments--) | Obtiene el número de segmentos de latitud del plato, el valor predeterminado es 8 |
 | [getDishLongitudeSegments()](#getDishLongitudeSegments--) | Obtiene el número de segmentos de longitud del plato, el valor predeterminado es 12 |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getFileFormat()](#getFileFormat--) | Obtiene el formato de archivo especificado en la opción actual de Guardar/Cargar. |
 | [getFileName()](#getFileName--) | El nombre de archivo de la escena de exportación/importación. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
 | [getGenerateMaterials()](#getGenerateMaterials--) | Genera materiales con colores aleatorios para cada objeto en la escena si la tabla de colores no se exporta dentro del archivo RVM. |
 | [getLookupAttributes()](#getLookupAttributes--) | Obtiene si se deben cargar los atributos desde un archivo de lista de atributos externo (.att/.attrib/.txt), el valor predeterminado es true. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [getRectangularTorusSegments()](#getRectangularTorusSegments--) | Obtiene el número de segmentos radiales del toro rectangular, el valor predeterminado es 20 |
 | [getTorusTubularSegments()](#getTorusTubularSegments--) | Obtiene el número de segmentos tubulares del toro, el valor predeterminado es 20 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | Establece el prefijo de los atributos que fueron definidos en archivos de atributos externos. El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es "rvm:" |
-| [setCenterScene(boolean value)](#setCenterScene-boolean-) | Centrar la escena después de que se cargue. |
+| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | Establece el prefijo de los atributos que fueron definidos en archivos de atributos externos. El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es \"rvm:\" |
+| [setCenterScene(boolean value)](#setCenterScene-boolean-) | Centra la escena después de que se cargue. |
 | [setCylinderRadialSegments(int value)](#setCylinderRadialSegments-int-) | Establece el número de segmentos radiales del cilindro, el valor predeterminado es 16 |
 | [setDishLatitudeSegments(int value)](#setDishLatitudeSegments-int-) | Establece el número de segmentos de latitud del plato, el valor predeterminado es 8 |
 | [setDishLongitudeSegments(int value)](#setDishLongitudeSegments-int-) | Establece el número de segmentos de longitud del plato, el valor predeterminado es 12 |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | El nombre de archivo de la escena de exportación/importación. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
 | [setGenerateMaterials(boolean value)](#setGenerateMaterials-boolean-) | Genera materiales con colores aleatorios para cada objeto en la escena si la tabla de colores no se exporta dentro del archivo RVM. |
 | [setLookupAttributes(boolean value)](#setLookupAttributes-boolean-) | Establece si se deben cargar los atributos desde un archivo de lista de atributos externo (.att/.attrib/.txt), el valor predeterminado es true. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [setRectangularTorusSegments(int value)](#setRectangularTorusSegments-int-) | Establece el número de segmentos radiales del toro rectangular, el valor predeterminado es 20 |
 | [setTorusTubularSegments(int value)](#setTorusTubularSegments-int-) | Establece el número de segmentos tubulares del toro, el valor predeterminado es 20 |
 | [toString()](#toString--) |  |
@@ -79,7 +79,7 @@ public RvmLoadOptions(FileContentType contentType)
 ```
 
 
-Construya una instancia de [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions)
+Construye una instancia de [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -92,7 +92,7 @@ public RvmLoadOptions()
 ```
 
 
-Construya una instancia de [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions)
+Construye una instancia de [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -115,7 +115,7 @@ public String getAttributePrefix()
 ```
 
 
-Obtiene el prefijo de los atributos que fueron definidos en archivos de atributos externos. El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es "rvm:"
+Obtiene el prefijo de los atributos que fueron definidos en archivos de atributos externos. El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es \"rvm:\"
 
 **Returns:**
 java.lang.String - el prefijo de los atributos que fueron definidos en archivos de atributos externos, El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es "rvm:"
@@ -125,7 +125,7 @@ public boolean getCenterScene()
 ```
 
 
-Centrar la escena después de que se cargue.
+Centra la escena después de que se cargue.
 
 **Returns:**
 boolean - Centrar la escena después de que se cargue.
@@ -175,10 +175,10 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -195,10 +195,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -288,7 +288,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -352,7 +352,7 @@ public void setAttributePrefix(String value)
 ```
 
 
-Establece el prefijo de los atributos que fueron definidos en archivos de atributos externos. El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es "rvm:"
+Establece el prefijo de los atributos que fueron definidos en archivos de atributos externos. El prefijo se usa para evitar conflictos de nombres, el valor predeterminado es \"rvm:\"
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -365,7 +365,7 @@ public void setCenterScene(boolean value)
 ```
 
 
-Centrar la escena después de que se cargue.
+Centra la escena después de que se cargue.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -430,7 +430,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -538,7 +538,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

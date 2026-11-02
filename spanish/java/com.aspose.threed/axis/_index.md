@@ -1,6 +1,6 @@
 ---
 title: "Eje"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El eje de coordenadas."
 type: docs
 weight: 265

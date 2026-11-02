@@ -1,7 +1,7 @@
 ---
 title: "VertexFieldDataType"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Tipo de datos de los campos de vértice"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Tipo de datos de campos de vértice"
 type: docs
 weight: 228
 url: /es/java/com.aspose.threed/vertexfielddatatype/

@@ -1,6 +1,6 @@
 ---
 title: "ParseException"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Excepción cuando Aspose.3D no pudo analizar la entrada."
 type: docs
 weight: 118

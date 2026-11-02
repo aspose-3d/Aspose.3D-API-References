@@ -1,6 +1,6 @@
 ---
 title: "FbxSaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de guardado para el archivo Fbx."
 type: docs
 weight: 63
@@ -27,34 +27,34 @@ Opciones de guardado para el archivo Fbx.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getEmbedTextures()](#getEmbedTextures--) | Obtiene si se debe incrustar la textura en el archivo de salida final. |
-| [getEnableCompression()](#getEnableCompression--) | Compresión de datos binarios grandes en el archivo FBX (p.ej. |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
-| [getExportLegacyMaterialProperties()](#getExportLegacyMaterialProperties--) | Obtiene si se exportan propiedades de material heredadas, usadas para compatibilidad retroactiva. |
+| [getEnableCompression()](#getEnableCompression--) | Compresión de datos binarios grandes en el archivo FBX (p. ej. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
+| [getExportLegacyMaterialProperties()](#getExportLegacyMaterialProperties--) | Obtiene si se exportan propiedades de material heredadas, usadas para compatibilidad hacia atrás. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getFileFormat()](#getFileFormat--) | Obtiene el formato de archivo especificado en la opción actual de Guardar/Cargar. |
 | [getFileName()](#getFileName--) | El nombre de archivo de la escena de exportación/importación. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
-| [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | Obtiene si se reutiliza datos de curvas repetidas incrementando el recuento de referencias del último dato |
+| [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | Obtiene si se reutiliza datos de curvas repetidas aumentando el recuento de referencias del último dato |
 | [getGenerateVertexElementMaterial()](#getGenerateVertexElementMaterial--) | Obtiene si siempre se genera un [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) para geometrías si el nodo adjunto contiene materiales. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
-| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | Reutiliza la malla para los primitivos con los mismos parámetros, lo que reducirá significativamente el tamaño del FBX de salida cuando la escena se haya construido con un gran conjunto de formas primitivas (como importadas de archivos CAD). |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
+| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | Reutiliza la malla para los primitivos con los mismos parámetros, esto reducirá significativamente el tamaño del output FBX cuando la escena se construye con un gran conjunto de formas primitivas (como importadas de archivos CAD). |
 | [getVideoForTexture()](#getVideoForTexture--) | Obtiene si se genera una instancia de Video para [Texture](../../com.aspose.threed/texture) al exportar como FBX. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | Establece si se debe incrustar la textura en el archivo de salida final. |
-| [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | Compresión de datos binarios grandes en el archivo FBX (p.ej. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
-| [setExportLegacyMaterialProperties(boolean value)](#setExportLegacyMaterialProperties-boolean-) | Establece si se exportan propiedades de material heredadas, usadas para compatibilidad retroactiva. |
+| [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | Compresión de datos binarios grandes en el archivo FBX (p. ej. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
+| [setExportLegacyMaterialProperties(boolean value)](#setExportLegacyMaterialProperties-boolean-) | Establece si se exportan propiedades de material heredadas, usadas para compatibilidad hacia atrás. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | El nombre de archivo de la escena de exportación/importación. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
-| [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | Establece si se reutiliza datos de curvas repetidas incrementando el recuento de referencias del último dato |
+| [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | Establece si se reutiliza datos de curvas repetidas aumentando el recuento de referencias del último dato |
 | [setGenerateVertexElementMaterial(boolean value)](#setGenerateVertexElementMaterial-boolean-) | Establece si siempre se genera un [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) para geometrías si el nodo adjunto contiene materiales. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
-| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | Reutiliza la malla para los primitivos con los mismos parámetros, lo que reducirá significativamente el tamaño del FBX de salida cuando la escena se haya construido con un gran conjunto de formas primitivas (como importadas de archivos CAD). |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
+| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | Reutiliza la malla para los primitivos con los mismos parámetros, esto reducirá significativamente el tamaño del output FBX cuando la escena se construye con un gran conjunto de formas primitivas (como importadas de archivos CAD). |
 | [setVideoForTexture(boolean value)](#setVideoForTexture-boolean-) | Establece si se genera una instancia de Video para [Texture](../../com.aspose.threed/texture) al exportar como FBX. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -127,30 +127,30 @@ public boolean getEnableCompression()
 ```
 
 
-Compresión de datos binarios grandes en el archivo FBX (p.ej. datos de animación, puntos de control, datos de elementos de vértice, índices), el valor predeterminado es true.
+Compresión de datos binarios grandes en el archivo FBX (p. ej. datos de animación, puntos de control, datos de elementos de vértice, índices), el valor predeterminado es true.
 
 **Returns:**
-boolean - Compresión de datos binarios grandes en el archivo FBX (p.ej. datos de animación, puntos de control, datos de elementos de vértice, índices), el valor predeterminado es true.
+boolean - Compresión de datos binarios grandes en el archivo FBX (p. ej. datos de animación, puntos de control, datos de elementos de vértice, índices), el valor predeterminado es true.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportLegacyMaterialProperties() {#getExportLegacyMaterialProperties--}
 ```
 public boolean getExportLegacyMaterialProperties()
 ```
 
 
-Obtiene si se exportan propiedades de material heredadas, usadas para compatibilidad retroactiva. Esta opción está activada por defecto.
+Obtiene si se exportan propiedades de material heredadas, usadas para compatibilidad hacia atrás. Esta opción está activada por defecto.
 
 **Returns:**
-boolean - si se exportan propiedades de material heredadas, usadas para compatibilidad retroactiva. Esta opción está activada por defecto.
+boolean - si se exportan propiedades de material heredadas, usadas para compatibilidad hacia atrás. Esta opción está activada por defecto.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -177,10 +177,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -250,10 +250,10 @@ public Boolean getFoldRepeatedCurveData()
 ```
 
 
-Obtiene si se reutiliza datos de curvas repetidas incrementando el recuento de referencias del último dato
+Obtiene si se reutiliza datos de curvas repetidas aumentando el recuento de referencias del último dato
 
 **Returns:**
-java.lang.Boolean - si se reutiliza datos de curvas repetidas incrementando el recuento de referencias del último dato
+java.lang.Boolean - si se reutiliza datos de curvas repetidas aumentando el recuento de referencias del último dato
 ### getGenerateVertexElementMaterial() {#getGenerateVertexElementMaterial--}
 ```
 public boolean getGenerateVertexElementMaterial()
@@ -270,7 +270,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -288,10 +288,10 @@ public boolean getReusePrimitiveMesh()
 ```
 
 
-Reutiliza la malla para los primitivos con los mismos parámetros, lo que reducirá significativamente el tamaño del FBX de salida cuando la escena se haya construido con un gran conjunto de formas primitivas (como importadas de archivos CAD). El valor predeterminado es false
+Reutiliza la malla para los primitivos con los mismos parámetros, esto reducirá significativamente el tamaño del output FBX cuando la escena se construye con un gran conjunto de formas primitivas (como importadas de archivos CAD). El valor predeterminado es false
 
 **Returns:**
-boolean - Reutilizar la malla para los primitivos con los mismos parámetros, esto reducirá significativamente el tamaño del archivo FBX de salida cuya escena fue construida por un gran conjunto de formas primitivas (como importadas de archivos CAD). El valor predeterminado es false
+boolean - Reutilizar la malla para las primitivas con los mismos parámetros, esto reducirá significativamente el tamaño del output FBX cuando la escena se construye con un gran conjunto de formas primitivas (como importadas de archivos CAD). El valor predeterminado es false
 ### getVideoForTexture() {#getVideoForTexture--}
 ```
 public boolean getVideoForTexture()
@@ -334,7 +334,7 @@ public void setEmbedTextures(boolean value)
 ```
 
 
-Establece si incrustar la textura en el archivo de salida final. FBX Exporter intentará encontrar los datos sin procesar de la textura desde [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem), y incrustará el archivo en el archivo FBX final. El valor predeterminado es false.
+Establece si se incrusta la textura en el archivo de salida final. El exportador FBX intentará encontrar los datos sin procesar de la textura desde [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) y incrustará el archivo en el FBX final. El valor predeterminado es false.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -347,7 +347,7 @@ public void setEnableCompression(boolean value)
 ```
 
 
-Compresión de datos binarios grandes en el archivo FBX (p.ej. datos de animación, puntos de control, datos de elementos de vértice, índices), el valor predeterminado es true.
+Compresión de datos binarios grandes en el archivo FBX (p. ej. datos de animación, puntos de control, datos de elementos de vértice, índices), el valor predeterminado es true.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -373,7 +373,7 @@ public void setExportLegacyMaterialProperties(boolean value)
 ```
 
 
-Establece si exportar propiedades de material heredadas, usadas para compatibilidad retroactiva. Esta opción está activada por defecto.
+Establece si se exportan propiedades de material heredadas, usadas para compatibilidad retroactiva. Esta opción está activada por defecto.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -399,7 +399,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -481,7 +481,7 @@ public void setFoldRepeatedCurveData(Boolean value)
 ```
 
 
-Establece si se reutiliza datos de curvas repetidas incrementando el recuento de referencias del último dato
+Establece si se reutiliza datos de curvas repetidas aumentando el recuento de referencias del último dato
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -494,7 +494,7 @@ public void setGenerateVertexElementMaterial(boolean value)
 ```
 
 
-Establece si siempre generar un [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) para geometrías si el nodo adjunto contiene materiales. Esto está desactivado por defecto.
+Establece si siempre se genera un [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) para geometrías cuando el nodo adjunto contiene materiales. Esto está desactivado por defecto.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -507,7 +507,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -528,7 +528,7 @@ public void setReusePrimitiveMesh(boolean value)
 ```
 
 
-Reutiliza la malla para los primitivos con los mismos parámetros, lo que reducirá significativamente el tamaño del FBX de salida cuando la escena se haya construido con un gran conjunto de formas primitivas (como importadas de archivos CAD). El valor predeterminado es false
+Reutiliza la malla para los primitivos con los mismos parámetros, esto reducirá significativamente el tamaño del output FBX cuando la escena se construye con un gran conjunto de formas primitivas (como importadas de archivos CAD). El valor predeterminado es false
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

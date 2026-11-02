@@ -1,7 +1,7 @@
 ---
 title: "StencilAction"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Las acciones de prueba de stencil"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Las acciones de la prueba de stencil"
 type: docs
 weight: 303
 url: /es/java/com.aspose.threed/stencilaction/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum StencilAction extends Enum<StencilAction>
 ```
 
-Las acciones de prueba de stencil
+Las acciones de la prueba de stencil
 ## Campos
 
 | Campo | Descripción |
@@ -25,7 +25,7 @@ Las acciones de prueba de stencil
 | [INVERT](#INVERT) | Invierte bit a bit el valor actual del búfer de stencil. |
 | [KEEP](#KEEP) | Mantener el valor actual |
 | [REPLACE](#REPLACE) | Establece el búfer de stencil a ref donde se define en [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) |
-| [ZERO](#ZERO) | Establece el valor del búfer de stencil a 0 |
+| [ZERO](#ZERO) | Establece el valor del búfer de plantilla a 0 |
 ## Métodos
 
 | Método | Descripción |
@@ -109,7 +109,7 @@ public static final StencilAction ZERO
 ```
 
 
-Establece el valor del búfer de stencil a 0
+Establece el valor del búfer de plantilla a 0
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

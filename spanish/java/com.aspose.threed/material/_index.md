@@ -1,6 +1,6 @@
 ---
 title: "Material"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El material define los parámetros necesarios para la apariencia visual de la geometría."
 type: docs
 weight: 98
@@ -16,7 +16,7 @@ java.lang.Iterable
 public abstract class Material extends A3DObject implements Iterable<TextureSlot>
 ```
 
-Material define los parámetros necesarios para la apariencia visual de la geometría. Aspose.3D proporciona modelos de sombreado para [LambertMaterial](../../com.aspose.threed/lambertmaterial), [PhongMaterial](../../com.aspose.threed/phongmaterial) y [ShaderMaterial](../../com.aspose.threed/shadermaterial) **Ejemplo:**
+Material define los parámetros necesarios para la apariencia visual de la geometría. Aspose.3D proporciona un modelo de sombreado para [LambertMaterial](../../com.aspose.threed/lambertmaterial), [PhongMaterial](../../com.aspose.threed/phongmaterial) y [ShaderMaterial](../../com.aspose.threed/shadermaterial) **Ejemplo:**
 
 ```
 var mat = new LambertMaterial();
@@ -46,7 +46,7 @@ var mat = new LambertMaterial();
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Obtiene la textura del slot especificado, puede ser el nombre de la propiedad del material o el nombre del parámetro del shader |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Obtiene el enumerador para enumerar los slots de textura internos. |
@@ -122,7 +122,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -167,7 +167,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -304,7 +304,7 @@ Establece la textura al slot especificado
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | slotName | java.lang.String | Nombre de la ranura. |
-|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Ejemplo:** |
+|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Example:** |
 
 ```
 var mat = new LambertMaterial();

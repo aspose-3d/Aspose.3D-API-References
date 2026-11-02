@@ -1,6 +1,6 @@
 ---
 title: "PdfLightingScheme"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "LightingScheme especifica la iluminación a aplicar al arte 3D."
 type: docs
 weight: 288
@@ -29,7 +29,7 @@ LightingScheme especifica la iluminación a aplicar al arte 3D.
 | [NONE](#NONE) | No se utilizan luces. |
 | [PRIMARY](#PRIMARY) | Una luz infinita roja, una verde y una azul, sin término ambiental |
 | [RED](#RED) | Tres luces infinitas rojas, sin término ambiental |
-| [WHITE](#WHITE) | Tres luces azul‑gris infinitas, sin término ambiental |
+| [WHITE](#WHITE) | Tres luces azul gris infinitas, sin término ambiental |
 ## Métodos
 
 | Método | Descripción |
@@ -145,7 +145,7 @@ public static final PdfLightingScheme WHITE
 ```
 
 
-Tres luces azul‑gris infinitas, sin término ambiental
+Tres luces azul gris infinitas, sin término ambiental
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

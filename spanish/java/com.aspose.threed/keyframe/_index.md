@@ -1,7 +1,7 @@
 ---
 title: "KeyFrame"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Un fotograma clave se define principalmente por un tiempo y un valor; para algunos tipos de interpolación, tangente/tensión/sesgo/continuidad también se utilizan al calcular el valor muestreado final."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Un fotograma clave se define principalmente por un tiempo y un valor; para algunos tipos de interpolación, la tangente, tensión, sesgo y continuidad también se usan al calcular el valor muestreado final."
 type: docs
 weight: 89
 url: /es/java/com.aspose.threed/keyframe/
@@ -13,7 +13,7 @@ java.lang.Object
 public class KeyFrame
 ```
 
-Un fotograma clave se define principalmente por un tiempo y un valor; para algunos tipos de interpolación, tangente/tensión/sesgo/continuidad también se utilizan al calcular el valor muestreado final. Los valores muestreados en una posición de tiempo que no es un fotograma clave se interpolan mediante fotogramas clave entre los fotogramas clave anteriores y siguientes. El valor antes/después del primer/último fotograma clave se calcula mediante la clase [Extrapolation](../../com.aspose.threed/extrapolation).
+Un fotograma clave se define principalmente por un tiempo y un valor; para algunos tipos de interpolación, la tangente, tensión, sesgo y continuidad también se usan al calcular el valor muestreado final. Los valores muestreados en una posición de tiempo que no es un fotograma clave se interpolan mediante fotogramas clave entre los fotogramas clave anterior y siguiente. El valor antes/después del primer/último fotograma clave se calcula mediante la clase [Extrapolation](../../com.aspose.threed/extrapolation).
 ## Constructores
 
 | Constructor | Descripción |
@@ -28,16 +28,16 @@ Un fotograma clave se define principalmente por un tiempo y un valor; para algun
 | [getClass()](#getClass--) |  |
 | [getContinuity()](#getContinuity--) | Obtiene la continuidad usada en la spline TCB |
 | [getFlat()](#getFlat--) | Obtener o establecer si el fotograma clave es plano. |
-| [getIndependentTangent()](#getIndependentTangent--) | Obtiene si las tangentes de salida y la siguiente de entrada son independientes. |
-| [getInterpolation()](#getInterpolation--) | Obtiene el tipo de interpolación de la clave, list.data[index] define el algoritmo de cómo se calcula el valor muestreado. |
+| [getIndependentTangent()](#getIndependentTangent--) | Obtiene que las tangentes de salida y la siguiente de entrada son independientes. |
+| [getInterpolation()](#getInterpolation--) | Obtiene el tipo de interpolación del fotograma, list.data[index] define el algoritmo de cómo se calcula el valor muestreado. |
 | [getNextInTangent()](#getNextInTangent--) | Obtiene la siguiente tangente de entrada (izquierda) en este fotograma clave. |
 | [getNextInWeight()](#getNextInWeight--) | Obtiene el siguiente peso de entrada (izquierda) en este fotograma clave. |
 | [getOutTangent()](#getOutTangent--) | Obtiene la tangente de salida (derecha) en este fotograma clave. |
 | [getOutWeight()](#getOutWeight--) | Obtiene el peso de salida (derecha) en este fotograma clave. |
-| [getStepMode()](#getStepMode--) | Obtiene el modo de paso de la clave. |
-| [getTangentWeightMode()](#getTangentWeightMode--) | Obtiene el modo de peso de la tangente de la clave. |
+| [getStepMode()](#getStepMode--) | Obtiene el modo de paso del fotograma. |
+| [getTangentWeightMode()](#getTangentWeightMode--) | Obtiene el modo de peso de la tangente del fotograma. |
 | [getTension()](#getTension--) | Obtiene la tensión usada en la spline TCB |
-| [getTime()](#getTime--) | Obtiene la posición temporal del fotograma clave list.data[index], medida en segundos. |
+| [getTime()](#getTime--) | Obtiene la posición temporal del fotograma list.data[index], medida en segundos. |
 | [getTimeIndependentTangent()](#getTimeIndependentTangent--) | Obtiene que la tangente es independiente del tiempo. |
 | [getValue()](#getValue--) | Obtiene el valor del fotograma clave. |
 | [hashCode()](#hashCode--) |  |
@@ -46,17 +46,17 @@ Un fotograma clave se define principalmente por un tiempo y un valor; para algun
 | [setBias(float value)](#setBias-float-) | Establece el sesgo usado en la spline TCB |
 | [setContinuity(float value)](#setContinuity-float-) | Establece la continuidad usada en la spline TCB |
 | [setFlat(boolean value)](#setFlat-boolean-) | Obtener o establecer si el fotograma clave es plano. |
-| [setIndependentTangent(boolean value)](#setIndependentTangent-boolean-) | Establece que las tangentes de salida y la siguiente de entrada son independientes. |
+| [setIndependentTangent(boolean value)](#setIndependentTangent-boolean-) | Establece que los tangentes de salida y los siguientes de entrada son independientes. |
 | [setInterpolation(Interpolation value)](#setInterpolation-com.aspose.threed.Interpolation-) | Establece el tipo de interpolación de la clave, list.data[index] define el algoritmo de cómo se calcula el valor muestreado. |
-| [setNextInTangent(Vector2 value)](#setNextInTangent-com.aspose.threed.Vector2-) | Establece la siguiente tangente de entrada (izquierda) en este fotograma clave. |
-| [setNextInWeight(float value)](#setNextInWeight-float-) | Establece el peso de la siguiente entrada (izquierda) en este fotograma clave. |
-| [setOutTangent(Vector2 value)](#setOutTangent-com.aspose.threed.Vector2-) | Establece la tangente de salida (derecha) en este fotograma clave. |
+| [setNextInTangent(Vector2 value)](#setNextInTangent-com.aspose.threed.Vector2-) | Establece el siguiente tangente de entrada (izquierda) en este fotograma clave. |
+| [setNextInWeight(float value)](#setNextInWeight-float-) | Establece el siguiente peso de entrada (izquierda) en este fotograma clave. |
+| [setOutTangent(Vector2 value)](#setOutTangent-com.aspose.threed.Vector2-) | Establece el tangente de salida (derecha) en este fotograma clave. |
 | [setOutWeight(float value)](#setOutWeight-float-) | Establece el peso de salida (derecha) en este fotograma clave. |
 | [setStepMode(StepMode value)](#setStepMode-com.aspose.threed.StepMode-) | Establece el modo de paso de la clave. |
-| [setTangentWeightMode(int value)](#setTangentWeightMode-int-) | Establece el modo de peso de la tangente de la clave. |
-| [setTension(float value)](#setTension-float-) | Establece la tensión utilizada en la spline TCB |
+| [setTangentWeightMode(int value)](#setTangentWeightMode-int-) | Establece el modo de peso del tangente de la clave. |
+| [setTension(float value)](#setTension-float-) | Establece la tensión usada en la spline TCB |
 | [setTime(double value)](#setTime-double-) | Establece la posición temporal del fotograma clave list.data[index], medida en segundos. |
-| [setTimeIndependentTangent(boolean value)](#setTimeIndependentTangent-boolean-) | Establece que la tangente es independiente del tiempo |
+| [setTimeIndependentTangent(boolean value)](#setTimeIndependentTangent-boolean-) | Establece que el tangente es independiente del tiempo |
 | [setValue(float value)](#setValue-float-) | Establece el valor del fotograma clave. |
 | [toString()](#toString--) | Obtiene la representación en cadena del fotograma clave |
 | [wait()](#wait--) |  |
@@ -100,7 +100,7 @@ public float getBias()
 Obtiene el sesgo usado en la spline TCB
 
 **Returns:**
-float - el sesgo utilizado en la spline TCB
+float - el sesgo usado en la spline TCB
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -120,34 +120,34 @@ public float getContinuity()
 Obtiene la continuidad usada en la spline TCB
 
 **Returns:**
-float - la continuidad utilizada en la spline TCB
+float - la continuidad usada en la spline TCB
 ### getFlat() {#getFlat--}
 ```
 public boolean getFlat()
 ```
 
 
-Obtenga o establezca si el fotograma clave es plano. El fotograma clave debe ser plano si el siguiente o anterior fotograma clave tiene el mismo valor. Un fotograma clave plano tiene tangentes planas e interpolación fija.
+Obtén o establece si el fotograma clave es plano. El fotograma clave debe ser plano si el siguiente o anterior fotograma clave tiene el mismo valor. Un fotograma clave plano tiene tangentes planas e interpolación fija.
 
 **Returns:**
-boolean - Obtenga o establezca si el fotograma clave es plano. El fotograma clave debe ser plano si el siguiente o anterior fotograma clave tiene el mismo valor. Un fotograma clave plano tiene tangentes planas e interpolación fija.
+boolean - Obtén o establece si el fotograma clave es plano. El fotograma clave debe ser plano si el siguiente o anterior fotograma clave tiene el mismo valor. Un fotograma clave plano tiene tangentes planas e interpolación fija.
 ### getIndependentTangent() {#getIndependentTangent--}
 ```
 public boolean getIndependentTangent()
 ```
 
 
-Obtiene si las tangentes de salida y la siguiente de entrada son independientes.
+Obtiene que las tangentes de salida y la siguiente de entrada son independientes.
 
 **Returns:**
-boolean - la tangente de salida y la siguiente de entrada son independientes.
+boolean - los tangentes de salida y los siguientes de entrada son independientes.
 ### getInterpolation() {#getInterpolation--}
 ```
 public Interpolation getInterpolation()
 ```
 
 
-Obtiene el tipo de interpolación de la clave, list.data[index] define el algoritmo de cómo se calcula el valor muestreado.
+Obtiene el tipo de interpolación del fotograma, list.data[index] define el algoritmo de cómo se calcula el valor muestreado.
 
 **Returns:**
 [Interpolation](../../com.aspose.threed/interpolation) - the key's interpolation type, list.data[index] defines the algorithm how the sampled value is calculated.
@@ -170,7 +170,7 @@ public float getNextInWeight()
 Obtiene el siguiente peso de entrada (izquierda) en este fotograma clave.
 
 **Returns:**
-float - el peso de la siguiente entrada (izquierda) en este fotograma clave.
+float - el siguiente peso de entrada (izquierda) en este fotograma clave.
 ### getOutTangent() {#getOutTangent--}
 ```
 public Vector2 getOutTangent()
@@ -197,7 +197,7 @@ public StepMode getStepMode()
 ```
 
 
-Obtiene el modo de paso de la clave. Si el tipo de interpolación es [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT), list.data[index] decide qué valor del fotograma clave se utilizará durante la interpolación. Un [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) significa que se usará el valor del fotograma clave izquierdo. Un [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) significa que se usará el valor del siguiente fotograma clave derecho.
+Obtiene el modo de paso de la clave. Si el tipo de interpolación es [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT), list.data[index] decide qué valor del fotograma clave se usará durante la interpolación. Un [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) significa que se usará el valor del fotograma clave izquierdo. Un [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) significa que se usará el valor del siguiente fotograma clave derecho.
 
 **Returns:**
 [StepMode](../../com.aspose.threed/stepmode) - the key's step mode. If the interpolation type is [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT), list.data[index] decides which key-frame's value will be used during interpolation. A [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) means the left key-frame's value will be used A [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) means the next right key-frame's value will be used
@@ -207,10 +207,10 @@ public int getTangentWeightMode()
 ```
 
 
-Obtiene el modo de peso de la tangente de la clave. La tangente de salida o la siguiente tangente de entrada pueden personalizarse seleccionando el [WeightedMode](../../com.aspose.threed/weightedmode) correcto.
+Obtiene el modo de peso del tangente de la clave. El tangente de salida o el siguiente tangente de entrada pueden personalizarse seleccionando el [WeightedMode](../../com.aspose.threed/weightedmode) correcto.
 
 **Returns:**
-int - el modo de peso de la tangente de la clave. La tangente de salida o la siguiente tangente de entrada pueden personalizarse seleccionando el [WeightedMode](../../com.aspose.threed/weightedmode) correcto.
+int - el modo de peso del tangente de la clave. El tangente de salida o el siguiente tangente de entrada pueden personalizarse seleccionando el [WeightedMode](../../com.aspose.threed/weightedmode) correcto.
 ### getTension() {#getTension--}
 ```
 public float getTension()
@@ -220,17 +220,17 @@ public float getTension()
 Obtiene la tensión usada en la spline TCB
 
 **Returns:**
-float - tensión utilizada en la spline TCB
+float - tensión usada en la spline TCB
 ### getTime() {#getTime--}
 ```
 public double getTime()
 ```
 
 
-Obtiene la posición temporal del fotograma clave list.data[index], medida en segundos.
+Obtiene la posición temporal del fotograma list.data[index], medida en segundos.
 
 **Returns:**
-double - la posición temporal del fotograma clave list.data[index], medida en segundos.
+double - la posición de tiempo del fotograma clave list.data[index], medida en segundos.
 ### getTimeIndependentTangent() {#getTimeIndependentTangent--}
 ```
 public boolean getTimeIndependentTangent()
@@ -309,7 +309,7 @@ public void setFlat(boolean value)
 ```
 
 
-Obtenga o establezca si el fotograma clave es plano. El fotograma clave debe ser plano si el siguiente o anterior fotograma clave tiene el mismo valor. Un fotograma clave plano tiene tangentes planas e interpolación fija.
+Obtén o establece si el fotograma clave es plano. El fotograma clave debe ser plano si el siguiente o anterior fotograma clave tiene el mismo valor. Un fotograma clave plano tiene tangentes planas e interpolación fija.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -322,7 +322,7 @@ public void setIndependentTangent(boolean value)
 ```
 
 
-Establece que las tangentes de salida y la siguiente de entrada son independientes.
+Establece que los tangentes de salida y los siguientes de entrada son independientes.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -348,7 +348,7 @@ public void setNextInTangent(Vector2 value)
 ```
 
 
-Establece la siguiente tangente de entrada (izquierda) en este fotograma clave.
+Establece el siguiente tangente de entrada (izquierda) en este fotograma clave.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -361,7 +361,7 @@ public void setNextInWeight(float value)
 ```
 
 
-Establece el peso de la siguiente entrada (izquierda) en este fotograma clave.
+Establece el siguiente peso de entrada (izquierda) en este fotograma clave.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -374,7 +374,7 @@ public void setOutTangent(Vector2 value)
 ```
 
 
-Establece la tangente de salida (derecha) en este fotograma clave.
+Establece el tangente de salida (derecha) en este fotograma clave.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -400,7 +400,7 @@ public void setStepMode(StepMode value)
 ```
 
 
-Establece el modo de paso de la clave. Si el tipo de interpolación es [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT), list.data[index] decide qué valor del fotograma clave se utilizará durante la interpolación. Un [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) significa que se usará el valor del fotograma clave izquierdo. Un [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) significa que se usará el valor del siguiente fotograma clave derecho.
+Establece el modo de paso de la clave. Si el tipo de interpolación es [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT), list.data[index] decide qué valor del fotograma clave se usará durante la interpolación. Un [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) significa que se usará el valor del fotograma clave izquierdo. Un [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) significa que se usará el valor del fotograma clave derecho.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -426,7 +426,7 @@ public void setTension(float value)
 ```
 
 
-Establece la tensión utilizada en la spline TCB
+Establece la tensión usada en la spline TCB
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -452,7 +452,7 @@ public void setTimeIndependentTangent(boolean value)
 ```
 
 
-Establece que la tangente es independiente del tiempo
+Establece que el tangente es independiente del tiempo
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

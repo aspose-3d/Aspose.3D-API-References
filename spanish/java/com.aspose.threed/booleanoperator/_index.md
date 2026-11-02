@@ -1,6 +1,6 @@
 ---
 title: "BooleanOperator"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El operador booleano le permite aplicar una operación booleana a dos instancias."
 type: docs
 weight: 23
@@ -32,14 +32,14 @@ El operador booleano le permite aplicar una operación booleana a dos instancias
 | [getBoundingBox()](#getBoundingBox--) | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objetos. |
 | [getClass()](#getClass--) |  |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getFirst()](#getFirst--) | El primer operando del operador booleano |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getOperator()](#getOperator--) | El operador booleano utilizado en la operación para crear la malla resultante. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getOperator()](#getOperator--) | El operador booleano usado en la operación para crear la malla resultante. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [getSecond()](#getSecond--) | El segundo operando del operador booleano |
 | [hashCode()](#hashCode--) |  |
@@ -47,11 +47,11 @@ El operador booleano le permite aplicar una operación booleana a dos instancias
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setFirst(BooleanOperand value)](#setFirst-com.aspose.threed.BooleanOperand-) | El primer operando del operador booleano |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setOperator(BooleanOperation value)](#setOperator-com.aspose.threed.BooleanOperation-) | El operador booleano utilizado en la operación para crear la malla resultante. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setOperator(BooleanOperation value)](#setOperator-com.aspose.threed.BooleanOperation-) | El operador booleano usado en la operación para crear la malla resultante. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setSecond(BooleanOperand value)](#setSecond-com.aspose.threed.BooleanOperand-) | El segundo operando del operador booleano |
 | [toMesh()](#toMesh--) | Ejecute la operación booleana sobre dos operandos |
@@ -103,7 +103,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -155,10 +155,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getFirst() {#getFirst--}
 ```
 public BooleanOperand getFirst()
@@ -185,7 +185,7 @@ public BooleanOperation getOperator()
 ```
 
 
-El operador booleano utilizado en la operación para crear la malla resultante.
+El operador booleano usado en la operación para crear la malla resultante.
 
 **Returns:**
 [BooleanOperation](../../com.aspose.threed/booleanoperation) - The Boolean operator used in the operation to create the result mesh.
@@ -195,7 +195,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -205,7 +205,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -225,7 +225,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -316,7 +316,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -355,7 +355,7 @@ public void setOperator(BooleanOperation value)
 ```
 
 
-El operador booleano utilizado en la operación para crear la malla resultante.
+El operador booleano usado en la operación para crear la malla resultante.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -368,7 +368,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

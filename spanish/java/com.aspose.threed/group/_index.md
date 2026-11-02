@@ -1,6 +1,6 @@
 ---
-title: "Group"
-second_title: "Referencia de API de Aspose.3D para Java"
+title: "Grupo"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "A  representa las relaciones lógicas de ."
 type: docs
 weight: 75
@@ -32,7 +32,7 @@ A [Group](../../com.aspose.threed/group) representa las relaciones lógicas de [
 | [getNodes()](#getNodes--) | Los nodos en este grupo |
 | [getParent()](#getParent--) | Grupo padre del grupo actual |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -86,7 +86,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -161,7 +161,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

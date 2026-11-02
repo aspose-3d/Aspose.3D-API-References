@@ -1,6 +1,6 @@
 ---
 title: "NotImplementedException"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Creado por lexchou el 26/6/2017."
 type: docs
 weight: 111

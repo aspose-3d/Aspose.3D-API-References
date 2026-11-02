@@ -1,6 +1,6 @@
 ---
 title: "NodeVisitor"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Una devolución de llamada para recorrer toda la jerarquía de nodos."
 type: docs
 weight: 261

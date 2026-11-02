@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Información del activo."
 type: docs
 weight: 17
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AssetInfo extends A3DObject
 ```
 
-Información del activo. La información del activo puede adjuntarse a una [Scene](../../com.aspose.threed/scene). La [Scene](../../com.aspose.threed/scene) hija puede tener su propio [AssetInfo](../../com.aspose.threed/assetinfo) para sobrescribir la definición del padre. **Ejemplo:** El siguiente código muestra cómo leer la información del activo desde un archivo fbx:
+Información del activo. La información del activo puede adjuntarse a una [Scene](../../com.aspose.threed/scene). Una [Scene] hija puede tener su propio [AssetInfo](../../com.aspose.threed/assetinfo) para sobrescribir la definición del padre. **Ejemplo:** El siguiente código muestra cómo leer la información del activo desde un archivo fbx:
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -39,24 +39,24 @@ Scene scene = Scene.fromFile("test.fbx");
 | [getApplicationVendor()](#getApplicationVendor--) | Obtiene el nombre del proveedor de la aplicación |
 | [getApplicationVersion()](#getApplicationVersion--) | Obtiene la versión de la aplicación que creó este activo. |
 | [getAuthor()](#getAuthor--) | Obtiene el autor de este activo |
-| [getAxisSystem()](#getAxisSystem--) | Obtiene el sistema de coordenadas / vector ascendente / vector frontal de la información del activo. |
+| [getAxisSystem()](#getAxisSystem--) | Obtiene el sistema de coordenadas/up vector/front vector de la información del activo. |
 | [getClass()](#getClass--) |  |
 | [getComment()](#getComment--) | Obtiene el comentario de este activo. |
 | [getCoordinateSystem()](#getCoordinateSystem--) | Obtiene el sistema de coordenadas usado en este activo. |
 | [getCopyright()](#getCopyright--) | Obtiene el copyright del documento |
 | [getCreationTime()](#getCreationTime--) | Obtiene o establece la hora de creación de este activo |
-| [getFrontVector()](#getFrontVector--) | Obtiene el vector frontal usado en este activo. |
+| [getFrontVector()](#getFrontVector--) | Obtiene el front-vector usado en este activo. |
 | [getKeywords()](#getKeywords--) | Obtiene las palabras clave de este activo |
 | [getModificationTime()](#getModificationTime--) | Obtiene o establece la hora de modificación de este activo |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getRevision()](#getRevision--) | Obtiene el número de revisión de este activo, usualmente usado en sistemas de control de versiones. |
-| [getSubject()](#getSubject--) | Obtiene el asunto de este activo |
+| [getSubject()](#getSubject--) | Obtiene el tema de este activo |
 | [getTitle()](#getTitle--) | Obtiene el título de este activo |
 | [getUnitName()](#getUnitName--) | Obtiene la unidad de longitud usada en este activo. |
-| [getUnitScaleFactor()](#getUnitScaleFactor--) | Obtiene el factor de escala a metro del mundo real. |
-| [getUpVector()](#getUpVector--) | Obtiene el vector ascendente usado en este activo. |
+| [getUnitScaleFactor()](#getUnitScaleFactor--) | Obtiene el factor de escala a metros del mundo real. |
+| [getUpVector()](#getUpVector--) | Obtiene el up-vector usado en este activo. |
 | [getUrl()](#getUrl--) | Obtiene o establece la URL de este activo. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -64,26 +64,26 @@ Scene scene = Scene.fromFile("test.fbx");
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setAmbient(Vector4 value)](#setAmbient-com.aspose.threed.Vector4-) | Obtiene o establece el color ambiental predeterminado de este activo |
-| [setApplicationName(String value)](#setApplicationName-java.lang.String-) | Establece la aplicación que creó este activo |
-| [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | Establece el nombre del proveedor de la aplicación |
+| [setApplicationName(String value)](#setApplicationName-java.lang.String-) | Establece la aplicación que creó este activo. |
+| [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | Establece el nombre del proveedor de la aplicación. |
 | [setApplicationVersion(String value)](#setApplicationVersion-java.lang.String-) | Establece la versión de la aplicación que creó este activo. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Establece el autor de este activo |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Establece el autor de este activo. |
 | [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | Establece el sistema de coordenadas/vector ascendente/vector frontal de la información del activo. |
 | [setComment(String value)](#setComment-java.lang.String-) | Establece el comentario de este activo. |
 | [setCoordinateSystem(CoordinateSystem value)](#setCoordinateSystem-com.aspose.threed.CoordinateSystem-) | Establece el sistema de coordenadas usado en este activo. |
-| [setCopyright(String value)](#setCopyright-java.lang.String-) | Establece el copyright del documento |
+| [setCopyright(String value)](#setCopyright-java.lang.String-) | Establece los derechos de autor del documento. |
 | [setCreationTime(Calendar value)](#setCreationTime-java.util.Calendar-) | Obtiene o establece la hora de creación de este activo |
-| [setFrontVector(Axis value)](#setFrontVector-com.aspose.threed.Axis-) | Establece el vector frontal usado en este activo. |
+| [setFrontVector(Axis value)](#setFrontVector-com.aspose.threed.Axis-) | Establece el front-vector usado en este activo. |
 | [setKeywords(String value)](#setKeywords-java.lang.String-) | Establece las palabras clave de este activo |
 | [setModificationTime(Calendar value)](#setModificationTime-java.util.Calendar-) | Obtiene o establece la hora de modificación de este activo |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setRevision(String value)](#setRevision-java.lang.String-) | Establece el número de revisión de este activo, usualmente usado en sistemas de control de versiones. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Establece el asunto de este activo |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Establece el tema de este activo |
 | [setTitle(String value)](#setTitle-java.lang.String-) | Establece el título de este activo |
 | [setUnitName(String value)](#setUnitName-java.lang.String-) | Establece la unidad de longitud usada en este activo. |
-| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | Establece el factor de escala a metros del mundo real. |
-| [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | Establece el vector ascendente usado en este activo. |
+| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | Establece el factor de escala a metro del mundo real. |
+| [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | Establece el vector up utilizado en este activo. |
 | [setUrl(String value)](#setUrl-java.lang.String-) | Obtiene o establece la URL de este activo. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -131,7 +131,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -196,7 +196,7 @@ public AxisSystem getAxisSystem()
 ```
 
 
-Obtiene el sistema de coordenadas / vector ascendente / vector frontal de la información del activo.
+Obtiene el sistema de coordenadas/up vector/front vector de la información del activo.
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - the coordinate system/up vector/front vector of the asset info.
@@ -256,7 +256,7 @@ public Axis getFrontVector()
 ```
 
 
-Obtiene el vector frontal usado en este activo.
+Obtiene el front-vector usado en este activo.
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the front-vector used in this asset.
@@ -306,7 +306,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -331,7 +331,7 @@ public String getSubject()
 ```
 
 
-Obtiene el asunto de este activo
+Obtiene el tema de este activo
 
 **Returns:**
 java.lang.String - el asunto de este activo
@@ -361,17 +361,17 @@ public double getUnitScaleFactor()
 ```
 
 
-Obtiene el factor de escala a metro del mundo real.
+Obtiene el factor de escala a metros del mundo real.
 
 **Returns:**
-double - el factor de escala a metros del mundo real. **Observaciones:** Esto se ignora durante la serialización si el nombre de la unidad es nulo.
+double - el factor de escala a metro del mundo real. **Remarks:** Esto se ignora durante la serialización si el nombre de la unidad es nulo.
 ### getUpVector() {#getUpVector--}
 ```
 public Axis getUpVector()
 ```
 
 
-Obtiene el vector ascendente usado en este activo.
+Obtiene el up-vector usado en este activo.
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the up-vector used in this asset.
@@ -460,7 +460,7 @@ public void setApplicationName(String value)
 ```
 
 
-Establece la aplicación que creó este activo
+Establece la aplicación que creó este activo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -473,7 +473,7 @@ public void setApplicationVendor(String value)
 ```
 
 
-Establece el nombre del proveedor de la aplicación
+Establece el nombre del proveedor de la aplicación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -499,7 +499,7 @@ public void setAuthor(String value)
 ```
 
 
-Establece el autor de este activo
+Establece el autor de este activo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -551,7 +551,7 @@ public void setCopyright(String value)
 ```
 
 
-Establece el copyright del documento
+Establece los derechos de autor del documento.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -577,7 +577,7 @@ public void setFrontVector(Axis value)
 ```
 
 
-Establece el vector frontal usado en este activo.
+Establece el front-vector usado en este activo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -656,7 +656,7 @@ public void setSubject(String value)
 ```
 
 
-Establece el asunto de este activo
+Establece el tema de este activo
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -695,12 +695,12 @@ public void setUnitScaleFactor(double value)
 ```
 
 
-Establece el factor de escala a metros del mundo real.
+Establece el factor de escala a metro del mundo real.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| valor | double | Nuevo valor **Observaciones:** Esto se ignora durante la serialización si el nombre de la unidad es nulo. |
+| valor | double | Nuevo valor **Remarks:** Esto se ignora durante la serialización si el nombre de la unidad es nulo. |
 
 ### setUpVector(Axis value) {#setUpVector-com.aspose.threed.Axis-}
 ```
@@ -708,7 +708,7 @@ public void setUpVector(Axis value)
 ```
 
 
-Establece el vector ascendente usado en este activo.
+Establece el vector up utilizado en este activo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

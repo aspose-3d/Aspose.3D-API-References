@@ -1,6 +1,6 @@
 ---
 title: "RvmSaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de guardado para el archivo RVM de Aveva PDMS."
 type: docs
 weight: 158
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class RvmSaveOptions extends SaveOptions
 ```
 
-Opciones de guardado para el archivo Aveva PDMS RVM. **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM.
+Opciones de guardado para el archivo Aveva PDMS RVM. **Ejemplo:** El siguiente código muestra cómo exportar atributo en RVM.
 
 ```
 Scene scene = new Scene();
@@ -46,7 +46,7 @@ Scene scene = new Scene();
 | [getAuthor()](#getAuthor--) | Información del autor, el valor predeterminado es '3d@aspose' |
 | [getClass()](#getClass--) |  |
 | [getCreationTime()](#getCreationTime--) | La marca de tiempo que exportó este archivo, el valor predeterminado es la hora actual |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getExportAttributes()](#getExportAttributes--) | Obtiene si se debe exportar la lista de atributos a un archivo .att externo, el valor predeterminado es false. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getFileFormat()](#getFileFormat--) | Obtiene el formato de archivo especificado en la opción actual de Guardar/Cargar. |
@@ -54,22 +54,22 @@ Scene scene = new Scene();
 | [getFileNote()](#getFileNote--) | Nota del archivo en el encabezado del archivo. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAttributeListFile(String value)](#setAttributeListFile-java.lang.String-) | Establece el nombre de archivo de la lista de atributos, el exportador generará un nombre basado en el nombre del archivo .rvm cuando esta propiedad no esté definida, el valor predeterminado es null. |
-| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | Establece el prefijo de los atributos que se exportarán, la propiedad exportada no contendrá prefijo, las propiedades personalizadas con un prefijo diferente no se exportarán, el valor predeterminado es 'rvm:'. |
+| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | Establece el prefijo de los atributos que se exportarán, la propiedad exportada no contendrá prefijo, las propiedades personalizadas con prefijo diferente no se exportarán, el valor predeterminado es 'rvm:'. |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | Información del autor, el valor predeterminado es '3d@aspose' |
 | [setCreationTime(String value)](#setCreationTime-java.lang.String-) | La marca de tiempo que exportó este archivo, el valor predeterminado es la hora actual |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setExportAttributes(boolean value)](#setExportAttributes-boolean-) | Establece si se debe exportar la lista de atributos a un archivo .att externo, el valor predeterminado es false. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | El nombre de archivo de la escena de exportación/importación. |
 | [setFileNote(String value)](#setFileNote-java.lang.String-) | Nota del archivo en el encabezado del archivo. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public String getAttributeListFile()
 Obtiene el nombre de archivo de la lista de atributos; el exportador generará un nombre basado en el nombre del archivo .rvm cuando esta propiedad no esté definida, el valor predeterminado es null.
 
 **Returns:**
-java.lang.String - el nombre de archivo de la lista de atributos, el exportador generará un nombre basado en el nombre del archivo .rvm cuando esta propiedad no esté definida, el valor predeterminado es null. **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM.
+java.lang.String - el nombre de archivo de la lista de atributos, el exportador generará un nombre basado en el nombre del archivo .rvm cuando esta propiedad no esté definida, el valor predeterminado es null. **Example:** El siguiente código muestra cómo exportar atributos en RVM.
 
 ```
 Scene scene = new Scene();
@@ -142,10 +142,10 @@ public String getAttributePrefix()
 ```
 
 
-Obtiene el prefijo de los atributos que se exportarán, la propiedad exportada no contendrá prefijo, las propiedades personalizadas con un prefijo diferente no se exportarán, el valor predeterminado es 'rvm:'. Por ejemplo, si una propiedad es rvm:Refno=345, el atributo exportado será Refno = 345, el prefijo se elimina.
+Obtiene el prefijo de los atributos que se exportarán, la propiedad exportada no contendrá prefijo, las propiedades personalizadas con prefijo diferente no se exportarán, el valor predeterminado es 'rvm:'. Por ejemplo, si una propiedad es rvm:Refno=345, el atributo exportado será Refno = 345, el prefijo se elimina.
 
 **Returns:**
-java.lang.String - el prefijo de los atributos que se exportarán, la propiedad exportada no contendrá prefijo, las propiedades personalizadas con un prefijo diferente no se exportarán, el valor predeterminado es 'rvm:'. Por ejemplo, si una propiedad es rvm:Refno=345, el atributo exportado será Refno = 345, el prefijo se elimina. **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM.
+java.lang.String - el prefijo de los atributos que se exportarán, la propiedad exportada no contendrá prefijo, las propiedades personalizadas con prefijo diferente no se exportarán, el valor predeterminado es 'rvm:'. Por ejemplo, si una propiedad es rvm:Refno=345, el atributo exportado será Refno = 345, el prefijo se elimina. **Example:** El siguiente código muestra cómo exportar atributos en RVM.
 
 ```
 Scene scene = new Scene();
@@ -171,7 +171,7 @@ public String getAuthor()
 Información del autor, el valor predeterminado es '3d@aspose'
 
 **Returns:**
-java.lang.String - Información del autor, el valor predeterminado es '3d@aspose' **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM.
+java.lang.String - Información del autor, el valor predeterminado es '3d@aspose' **Example:** El siguiente código muestra cómo exportar atributos en RVM.
 
 ```
 Scene scene = new Scene();
@@ -214,10 +214,10 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportAttributes() {#getExportAttributes--}
 ```
 public boolean getExportAttributes()
@@ -227,7 +227,7 @@ public boolean getExportAttributes()
 Obtiene si se debe exportar la lista de atributos a un archivo .att externo, el valor predeterminado es false.
 
 **Returns:**
-boolean - si se debe exportar la lista de atributos a un archivo .att externo, el valor predeterminado es false. **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM.
+boolean - si se debe exportar la lista de atributos a un archivo .att externo, el valor predeterminado es false. **Example:** El siguiente código muestra cómo exportar atributos en RVM.
 
 ```
 Scene scene = new Scene();
@@ -270,10 +270,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileNote() {#getFileNote--}
 ```
 public String getFileNote()
@@ -283,7 +283,7 @@ public String getFileNote()
 Nota del archivo en el encabezado del archivo.
 
 **Returns:**
-java.lang.String - Nota del archivo en el encabezado del archivo. **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM.
+java.lang.String - Nota del archivo en el encabezado del archivo. **Example:** El siguiente código muestra cómo exportar atributos en RVM.
 
 ```
 Scene scene = new Scene();
@@ -369,7 +369,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -418,7 +418,7 @@ Establece el nombre de archivo de la lista de atributos, el exportador generará
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | valor | java.lang.String | Nuevo valor **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM. |
+|  | valor | java.lang.String | Nuevo valor **Example:** El siguiente código muestra cómo exportar atributos en RVM. |
 
 ```
 Scene scene = new Scene();
@@ -442,12 +442,12 @@ public void setAttributePrefix(String value)
 ```
 
 
-Establece el prefijo de los atributos que se exportarán, la propiedad exportada no contendrá prefijo, las propiedades personalizadas con un prefijo diferente no se exportarán, el valor predeterminado es 'rvm:'. Por ejemplo, si una propiedad es rvm:Refno=345, el atributo exportado será Refno = 345, el prefijo se elimina.
+Establece el prefijo de los atributos que se exportarán, la propiedad exportada no contendrá prefijo, las propiedades personalizadas con prefijo diferente no se exportarán, el valor predeterminado es 'rvm:'. Por ejemplo, si una propiedad es rvm:Refno=345, el atributo exportado será Refno = 345, el prefijo se elimina.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | valor | java.lang.String | Nuevo valor **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM. |
+|  | valor | java.lang.String | Nuevo valor **Example:** El siguiente código muestra cómo exportar atributos en RVM. |
 
 ```
 Scene scene = new Scene();
@@ -476,7 +476,7 @@ Información del autor, el valor predeterminado es '3d@aspose'
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | valor | java.lang.String | Nuevo valor **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM. |
+|  | valor | java.lang.String | Nuevo valor **Example:** El siguiente código muestra cómo exportar atributos en RVM. |
 
 ```
 Scene scene = new Scene();
@@ -531,7 +531,7 @@ Establece si se debe exportar la lista de atributos a un archivo .att externo, e
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | valor | boolean | Nuevo valor **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM. |
+|  | valor | boolean | Nuevo valor **Example:** El siguiente código muestra cómo exportar atributos en RVM. |
 
 ```
 Scene scene = new Scene();
@@ -568,7 +568,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -586,7 +586,7 @@ Nota del archivo en el encabezado del archivo.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | valor | java.lang.String | Nuevo valor **Ejemplo:** El siguiente código muestra cómo exportar atributos en RVM. |
+|  | valor | java.lang.String | Nuevo valor **Example:** El siguiente código muestra cómo exportar atributos en RVM. |
 
 ```
 Scene scene = new Scene();
@@ -679,7 +679,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

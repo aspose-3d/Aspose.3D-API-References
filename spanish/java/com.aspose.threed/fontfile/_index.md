@@ -1,7 +1,7 @@
 ---
 title: "FontFile"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "El archivo de fuente contiene definiciones de glifos y se utiliza para crear un perfil de texto."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "El archivo de fuente contiene definiciones de glifos, esto se usa para crear un perfil de texto."
 type: docs
 weight: 68
 url: /es/java/com.aspose.threed/fontfile/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public abstract class FontFile extends A3DObject
 ```
 
-El archivo de fuente contiene definiciones de glifos, y se utiliza para crear un perfil de texto. **Ejemplo:** El siguiente código muestra cómo crear una malla 3D a partir de texto usando el archivo de fuente especificado.
+El archivo de fuente contiene definiciones de glifos, esto se usa para crear un perfil de texto. **Example:** El siguiente código muestra cómo crear una malla 3D a partir de texto usando el archivo de fuente especificado.
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -40,11 +40,11 @@ var font = FontFile.fromFile("CascadiaCode-Regular.otf");
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [parse(byte[] bytes)](#parse-byte---) | Analizar FontFile a partir de bytes |
+| [parse(byte[] bytes)](#parse-byte---) | Analizar FontFile desde bytes |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
@@ -80,7 +80,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -140,7 +140,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -181,12 +181,12 @@ public static FontFile parse(byte[] bytes)
 ```
 
 
-Analizar FontFile a partir de bytes
+Analizar FontFile desde bytes
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| bytes | byte[] | Contenido bruto del archivo de fuente OTF |
+| bytes | byte[] | Contenido sin procesar del archivo de fuente OTF |
 
 **Returns:**
 [FontFile](../../com.aspose.threed/fontfile) - FontFile instance

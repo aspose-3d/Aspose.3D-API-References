@@ -1,6 +1,6 @@
 ---
 title: "Vector4"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Un vector con cuatro componentes."
 type: docs
 weight: 203
@@ -51,8 +51,8 @@ Un vector con cuatro componentes.
 | [mul(Vector4 lhs, double rhs)](#mul-com.aspose.threed.Vector4-double-) | Sobrecarga de operador para \* |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(double newX, double newY, double newZ)](#set-double-double-double-) | Establece los componentes xyz del vector de una vez, w se establecerá en 1 |
-| [set(double newX, double newY, double newZ, double newW)](#set-double-double-double-double-) | Establece todos los componentes del vector de una vez |
+| [set(double newX, double newY, double newZ)](#set-double-double-double-) | Establece los componentes xyz del vector a la vez, w se establecerá en 1 |
+| [set(double newX, double newY, double newZ, double newW)](#set-double-double-double-double-) | Establece todos los componentes del vector a la vez |
 | [sub(Vector4 lhs, Vector4 rhs)](#sub-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | Sobrecarga de operador para - (menos) |
 | [toString()](#toString--) | Devuelve un java.lang.String que representa el [Vector4](../../com.aspose.threed/vector4) actual. |
 | [wait()](#wait--) |  |
@@ -299,7 +299,7 @@ Sobrecarga de operador para \*
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | lhs | [Vector4](../../com.aspose.threed/vector4) | El vector izquierdo |
-| rhs | double | El valor doble de la derecha |
+| rhs | double | El valor doble derecho |
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4) - Result vector
@@ -325,7 +325,7 @@ public void set(double newX, double newY, double newZ)
 ```
 
 
-Establece los componentes xyz del vector de una vez, w se establecerá en 1
+Establece los componentes xyz del vector a la vez, w se establecerá en 1
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -340,7 +340,7 @@ public void set(double newX, double newY, double newZ, double newW)
 ```
 
 
-Establece todos los componentes del vector de una vez
+Establece todos los componentes del vector a la vez
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

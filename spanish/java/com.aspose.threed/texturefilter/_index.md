@@ -1,6 +1,6 @@
 ---
 title: "TextureFilter"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de filtrado durante el muestreo de texturas."
 type: docs
 weight: 305

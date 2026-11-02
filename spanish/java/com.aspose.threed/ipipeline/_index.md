@@ -1,6 +1,6 @@
 ---
 title: "IPipeline"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La secuencia predefinida de operaciones para dibujar en el lado de la GPU."
 type: docs
 weight: 247

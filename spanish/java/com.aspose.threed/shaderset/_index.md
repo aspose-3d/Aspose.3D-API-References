@@ -1,7 +1,7 @@
 ---
 title: "ShaderSet"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Programas de shader para cada tipo de material."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Programas de shader para cada tipo de material"
 type: docs
 weight: 166
 url: /es/java/com.aspose.threed/shaderset/
@@ -16,30 +16,30 @@ java.io.Closeable
 public class ShaderSet implements Closeable
 ```
 
-Programas de shader para cada tipo de material.
+Programas de shader para cada tipo de material
 ## Constructores
 
 | Constructor | Descripción |
 | --- | --- |
-| [ShaderSet()](#ShaderSet--) | Construye la instancia de [ShaderSet](../../com.aspose.threed/shaderset) |
+| [ShaderSet()](#ShaderSet--) | Crea la instancia de [ShaderSet](../../com.aspose.threed/shaderset) |
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
-| [close()](#close--) | Descarta esta instancia y libera todos los programas de sombreado. |
+| [close()](#close--) | Descarta esta instancia y libera todos los programas de shaders. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFallback()](#getFallback--) | Obtiene el shader de reserva cuando el shader requerido no está disponible. |
-| [getLambert()](#getLambert--) | Obtiene el shader que se usa para renderizar el material lambert. |
-| [getPbr()](#getPbr--) | Obtiene el shader que se usa para renderizar el material PBR. |
-| [getPhong()](#getPhong--) | Obtiene el shader que se usa para renderizar el material phong. |
+| [getFallback()](#getFallback--) | Obtiene el shader de reserva cuando el shader requerido no está disponible |
+| [getLambert()](#getLambert--) | Obtiene el shader que se usa para renderizar el material lambert |
+| [getPbr()](#getPbr--) | Obtiene el shader que se usa para renderizar el material PBR |
+| [getPhong()](#getPhong--) | Obtiene el shader que se usa para renderizar el material phong |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFallback(ShaderProgram value)](#setFallback-com.aspose.threed.ShaderProgram-) | Establece el shader de reserva cuando el shader requerido no está disponible. |
-| [setLambert(ShaderProgram value)](#setLambert-com.aspose.threed.ShaderProgram-) | Establece el shader que se usa para renderizar el material lambert. |
-| [setPbr(ShaderProgram value)](#setPbr-com.aspose.threed.ShaderProgram-) | Establece el shader que se usa para renderizar el material PBR. |
-| [setPhong(ShaderProgram value)](#setPhong-com.aspose.threed.ShaderProgram-) | Establece el shader que se usa para renderizar el material phong. |
+| [setFallback(ShaderProgram value)](#setFallback-com.aspose.threed.ShaderProgram-) | Establece el shader de reserva cuando el shader requerido no está disponible |
+| [setLambert(ShaderProgram value)](#setLambert-com.aspose.threed.ShaderProgram-) | Establece el shader que se usa para renderizar el material lambert |
+| [setPbr(ShaderProgram value)](#setPbr-com.aspose.threed.ShaderProgram-) | Establece el shader que se usa para renderizar el material PBR |
+| [setPhong(ShaderProgram value)](#setPhong-com.aspose.threed.ShaderProgram-) | Establece el shader que se usa para renderizar el material phong |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +50,7 @@ public ShaderSet()
 ```
 
 
-Construye la instancia de [ShaderSet](../../com.aspose.threed/shaderset)
+Crea la instancia de [ShaderSet](../../com.aspose.threed/shaderset)
 
 ### close() {#close--}
 ```
@@ -58,7 +58,7 @@ public void close()
 ```
 
 
-Descarta esta instancia y libera todos los programas de sombreado.
+Descarta esta instancia y libera todos los programas de shaders.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -91,7 +91,7 @@ public ShaderProgram getFallback()
 ```
 
 
-Obtiene el shader de reserva cuando el shader requerido no está disponible.
+Obtiene el shader de reserva cuando el shader requerido no está disponible
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the fallback shader when required shader is unavailable
@@ -101,7 +101,7 @@ public ShaderProgram getLambert()
 ```
 
 
-Obtiene el shader que se usa para renderizar el material lambert.
+Obtiene el shader que se usa para renderizar el material lambert
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the lambert material
@@ -111,7 +111,7 @@ public ShaderProgram getPbr()
 ```
 
 
-Obtiene el shader que se usa para renderizar el material PBR.
+Obtiene el shader que se usa para renderizar el material PBR
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the PBR material
@@ -121,7 +121,7 @@ public ShaderProgram getPhong()
 ```
 
 
-Obtiene el shader que se usa para renderizar el material phong.
+Obtiene el shader que se usa para renderizar el material phong
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the phong material
@@ -157,7 +157,7 @@ public void setFallback(ShaderProgram value)
 ```
 
 
-Establece el shader de reserva cuando el shader requerido no está disponible.
+Establece el shader de reserva cuando el shader requerido no está disponible
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -170,7 +170,7 @@ public void setLambert(ShaderProgram value)
 ```
 
 
-Establece el shader que se usa para renderizar el material lambert.
+Establece el shader que se usa para renderizar el material lambert
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -183,7 +183,7 @@ public void setPbr(ShaderProgram value)
 ```
 
 
-Establece el shader que se usa para renderizar el material PBR.
+Establece el shader que se usa para renderizar el material PBR
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -196,7 +196,7 @@ public void setPhong(ShaderProgram value)
 ```
 
 
-Establece el shader que se usa para renderizar el material phong.
+Establece el shader que se usa para renderizar el material phong
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

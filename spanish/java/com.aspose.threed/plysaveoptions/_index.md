@@ -1,6 +1,6 @@
 ---
 title: "PlySaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de guardado para exportar la escena como archivo PLY."
 type: docs
 weight: 131
@@ -25,10 +25,10 @@ Opciones de guardado para exportar la escena como archivo PLY.
 | Método | Descripción |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAxisSystem()](#getAxisSystem--) | Obtiene el sistema de ejes en el archivo stl exportado. |
+| [getAxisSystem()](#getAxisSystem--) | Obtiene el sistema de ejes en el archivo STL exportado. |
 | [getClass()](#getClass--) |  |
 | [getColorComponents()](#getColorComponents--) | Los nombres de los componentes para el color del vértice, el valor predeterminado es ("red", "green", "blue") |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getFaceElement()](#getFaceElement--) | El nombre del elemento para los datos de la cara, el valor predeterminado es "face" |
 | [getFaceProperty()](#getFaceProperty--) | El nombre de la propiedad para los datos de la cara, el valor predeterminado es "vertex\_index" |
@@ -37,7 +37,7 @@ Opciones de guardado para exportar la escena como archivo PLY.
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
 | [getFlipCoordinate()](#getFlipCoordinate--) | Invertir la coordenada al guardar la escena, el valor predeterminado es true |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [getNormalComponents()](#getNormalComponents--) | Los nombres de los componentes para los datos normales, el valor predeterminado es ("nx", "ny", "nz") |
 | [getPointCloud()](#getPointCloud--) | Exportar la escena como nube de puntos, el valor predeterminado es false. |
 | [getPositionComponents()](#getPositionComponents--) | Los nombres de los componentes para los datos de posición, el valor predeterminado es ("x", "y", "z") |
@@ -48,7 +48,7 @@ Opciones de guardado para exportar la escena como archivo PLY.
 | [notifyAll()](#notifyAll--) |  |
 | [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | Establece el sistema de ejes en el archivo STL exportado. |
 | [setColorComponents(Tuple_3<String,String,String> value)](#setColorComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--) | Los nombres de los componentes para el color del vértice, el valor predeterminado es ("red", "green", "blue") |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setFaceElement(String value)](#setFaceElement-java.lang.String-) | El nombre del elemento para los datos de la cara, el valor predeterminado es "face" |
 | [setFaceProperty(String value)](#setFaceProperty-java.lang.String-) | El nombre de la propiedad para los datos de la cara, el valor predeterminado es "vertex\_index" |
@@ -56,7 +56,7 @@ Opciones de guardado para exportar la escena como archivo PLY.
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
 | [setFlipCoordinate(boolean value)](#setFlipCoordinate-boolean-) | Invertir la coordenada al guardar la escena, el valor predeterminado es true |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [setNormalComponents(Tuple_3<String,String,String> value)](#setNormalComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--) | Los nombres de los componentes para los datos normales, el valor predeterminado es ("nx", "ny", "nz") |
 | [setPointCloud(boolean value)](#setPointCloud-boolean-) | Exportar la escena como nube de puntos, el valor predeterminado es false. |
 | [setPositionComponents(Tuple_3<String,String,String> value)](#setPositionComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--) | Los nombres de los componentes para los datos de posición, el valor predeterminado es ("x", "y", "z") |
@@ -108,7 +108,7 @@ public AxisSystem getAxisSystem()
 ```
 
 
-Obtiene el sistema de ejes en el archivo stl exportado.
+Obtiene el sistema de ejes en el archivo STL exportado.
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - the axis system in the exported stl file. **Remarks:** FlipCoordinateSystem must be enabled to utilize this feature.
@@ -138,10 +138,10 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -188,10 +188,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -271,7 +271,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -312,7 +312,7 @@ public Tuple_3<String,String,String> getPositionComponents()
 Los nombres de los componentes para los datos de posición, el valor predeterminado es ("x", "y", "z")
 
 **Returns:**
-com.aspose.threed.Tuple_3<java.lang.String,java.lang.String,java.lang.String> - Los nombres de los componentes para los datos de posici\u00f3n, el valor predeterminado es ("x", "y", "z")
+com.aspose.threed.Tuple_3<java.lang.String,java.lang.String,java.lang.String> - Los nombres de los componentes para los datos de posición, el valor predeterminado es ("x", "y", "z")
 ### getTextureCoordinateComponents() {#getTextureCoordinateComponents--}
 ```
 public Tuple_2<String,String> getTextureCoordinateComponents()
@@ -370,7 +370,7 @@ Establece el sistema de ejes en el archivo STL exportado.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| value | [AxisSystem](../../com.aspose.threed/axissystem) | Nuevo valor **Observaciones:** FlipCoordinateSystem debe estar habilitado para utilizar esta funci\u00f3n. |
+| value | [AxisSystem](../../com.aspose.threed/axissystem) | Nuevo valor **Remarks:** FlipCoordinateSystem debe estar habilitado para utilizar esta funci\u00f3n. |
 
 ### setColorComponents(Tuple_3<String,String,String> value) {#setColorComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--}
 ```
@@ -443,7 +443,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -538,7 +538,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

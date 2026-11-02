@@ -1,7 +1,7 @@
 ---
 title: "Pose"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "La pose se usa para almacenar la matriz de transformación cuando la geometría está con skinning."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La pose se utiliza para almacenar la matriz de transformación cuando la geometría está con skinning."
 type: docs
 weight: 135
 url: /es/java/com.aspose.threed/pose/
@@ -33,7 +33,7 @@ La pose se usa para almacenar la matriz de transformación cuando la geometría 
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getPoseType()](#getPoseType--) | Obtiene el tipo de la pose. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -73,7 +73,7 @@ public void addBonePose(Node node, Matrix4 matrix)
 ```
 
 
-Guarda la matriz de transformación de pose para el nodo óseo dado. Se sobreentiende la matriz de transformación global.
+Guarda la matriz de transformación de la pose para el nodo óseo dado. Se sobreentiende la matriz de transformación global.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -117,7 +117,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -135,7 +135,7 @@ public List<BonePose> getBonePoses()
 Obtiene todos los [BonePose](../../com.aspose.threed/bonepose).
 
 **Returns:**
-java.util.List<com.aspose.threed.BonePose> - todos [BonePose](../../com.aspose.threed/bonepose).
+java.util.List<com.aspose.threed.BonePose> - todos los [BonePose](../../com.aspose.threed/bonepose).
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -182,7 +182,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

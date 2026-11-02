@@ -1,6 +1,6 @@
 ---
 title: "Watermark"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Utilidad para codificar/decodificar una marca de agua ciega a/de una malla."
 type: docs
 weight: 230
@@ -13,7 +13,7 @@ java.lang.Object
 public class Watermark
 ```
 
-Utilidad para codificar/decodificar una marca de agua ciega a/de una malla. **Remarks:** Tanto [Watermark](../../com.aspose.threed/watermark) como [Watermark](../../com.aspose.threed/watermark) realizarán la verificación de licencia. El uso de prueba lanzará una excepción, puedes usar [TrialException.getSuppressTrialException](../../com.aspose.threed/trialexception\\#getSuppressTrialException) para suprimir la excepción, pero no eliminará la restricción aquí. Se requiere una licencia válida para usar estas funciones sin restricciones. **Example:** El siguiente código muestra cómo codificar una marca de agua ciega en una malla y decodificarla.
+Utilidad para codificar/decodificar una marca de agua ciega a/de una malla. **Observaciones:** Tanto [Watermark](../../com.aspose.threed/watermark) como [Watermark](../../com.aspose.threed/watermark) realizarán la verificación de licencia. El uso de prueba lanzará una excepción; puede usar [TrialException.getSuppressTrialException](../../com.aspose.threed/trialexception\#getSuppressTrialException) para suprimir la excepción, pero no eliminará la restricción aquí. Se requiere una licencia válida para usar estas funciones sin restricciones. **Ejemplo:** El siguiente código muestra cómo codificar una marca de agua ciega en una malla y decodificarla.
 
 ```
 Mesh mesh = (new Cylinder()).toMesh();

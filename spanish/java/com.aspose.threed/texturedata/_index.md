@@ -1,6 +1,6 @@
 ---
 title: "TextureData"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Esta clase contiene los datos sin procesar y la definición de formato de una textura."
 type: docs
 weight: 187
@@ -31,18 +31,18 @@ Esta clase contiene los datos sin procesar y la definición de formato de una te
 | [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | Cargar una textura desde un flujo |
 | [getBytesPerPixel()](#getBytesPerPixel--) | Número de bytes de un píxel |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Bytes sin procesar de los datos del píxel |
+| [getData()](#getData--) | Bytes sin procesar de datos de píxel |
 | [getHeight()](#getHeight--) | Número de píxeles verticales |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getPixelFormat()](#getPixelFormat--) | Formato del píxel |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getStride()](#getStride--) | Número de bytes de una línea de escaneo. |
 | [getWidth()](#getWidth--) | Número de píxeles horizontales |
 | [hashCode()](#hashCode--) |  |
 | [mapPixels(PixelMapMode mapMode)](#mapPixels-com.aspose.threed.PixelMapMode-) | Mapear todos los píxeles para lectura/escritura |
-| [mapPixels(PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | Mapear todos los píxeles para lectura/escritura en el formato de píxel dado |
-| [mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.Rect-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | Mapear píxeles dirigidos por rect para lectura/escritura en el formato de píxel dado |
+| [mapPixels(PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | Mapear todos los píxeles para lectura/escritura en el formato de píxel especificado |
+| [mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.Rect-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | Mapear píxeles direccionados por rect para lectura/escritura en el formato de píxel especificado |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
@@ -70,7 +70,7 @@ Constructor de [TextureData](../../com.aspose.threed/texturedata)
 | --- | --- | --- |
 | ancho | int |  |
 | altura | int |  |
-| paso | int |  |
+| stride | int |  |
 | bytesPerPixel | int |  |
 | pixelFormat | [PixelFormat](../../com.aspose.threed/pixelformat) |  |
 | datos | byte[] |  |
@@ -119,7 +119,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -184,10 +184,10 @@ public byte[] getData()
 ```
 
 
-Bytes sin procesar de los datos del píxel
+Bytes sin procesar de datos de píxel
 
 **Returns:**
-byte[] - Bytes sin procesar de datos de píxel
+byte[] - Bytes sin procesar de los datos del píxel
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
@@ -234,7 +234,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -294,7 +294,7 @@ public PixelMapping mapPixels(PixelMapMode mapMode, PixelFormat format)
 ```
 
 
-Mapear todos los píxeles para lectura/escritura en el formato de píxel dado
+Mapear todos los píxeles para lectura/escritura en el formato de píxel especificado
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -310,7 +310,7 @@ public PixelMapping mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat forma
 ```
 
 
-Mapear píxeles dirigidos por rect para lectura/escritura en el formato de píxel dado
+Mapear píxeles direccionados por rect para lectura/escritura en el formato de píxel especificado
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

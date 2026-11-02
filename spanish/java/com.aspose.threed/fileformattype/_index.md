@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Tipo de formato de archivo"
 type: docs
 weight: 65
@@ -19,20 +19,20 @@ Tipo de formato de archivo
 | Campo | Descripción |
 | --- | --- |
 | [AMF](#AMF) | Formato de archivo de fabricación aditiva |
-| [ASE](#ASE) | Formato ASCII de exportador de escena de 3D Studio Max. |
-| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Formato Web de Aspose.3D. |
+| [ASE](#ASE) | Formato de exportador de escena ASCII de 3D Studio Max. |
+| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Formato web de Aspose.3D. |
 | [BLENDER](#BLENDER) | Tipo de formato Blender |
 | [COLLADA](#COLLADA) | Formato de archivo Collada del Khronos Group. |
 | [DISCREET3DS](#DISCREET3DS) | Formato de archivo de Discreet 3D Studio |
 | [DRACO](#DRACO) | Malla Draco de Google |
 | [DXF](#DXF) | AutoCAD DXF |
 | [FBX](#FBX) | Tipo de formato de archivo FBX |
-| [GLTF](#GLTF) | glTF del Khronos Group |
+| [GLTF](#GLTF) | glTF del Grupo Khronos |
 | [HTML5](#HTML5) | Archivo HTML5 |
 | [IFC](#IFC) | Modelo de datos ISO 16739-1 Industry Foundation Classes. |
 | [MAYA](#MAYA) | Tipo de formato Autodesk Maya |
 | [MICROSOFT3MF](#MICROSOFT3MF) | Formato de fabricación 3D |
-| [PCD](#PCD) | Datos de nube de puntos utilizados por Point Cloud Library |
+| [PCD](#PCD) | Datos de nube de puntos usados por Point Cloud Library |
 | [PDF](#PDF) | Formato de documento portátil |
 | [PLY](#PLY) | Formato de archivo Polygon o Formato de triángulo Stanford |
 | [RVM](#RVM) | Modelo del Sistema de Gestión de Diseño de Plantas AVEVA. |
@@ -51,7 +51,7 @@ Tipo de formato de archivo
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExtension()](#getExtension--) | El nombre de extensión de este formato de archivo, comienza con . |
+| [getExtension()](#getExtension--) | El nombre de extensión de este formato de archivo, que comienza con . |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -73,7 +73,7 @@ public static final FileFormatType ASE
 ```
 
 
-Formato ASCII de exportador de escena de 3D Studio Max.
+Formato de exportador de escena ASCII de 3D Studio Max.
 
 ### ASPOSE3D_WEB {#ASPOSE3D-WEB}
 ```
@@ -81,7 +81,7 @@ public static final FileFormatType ASPOSE3D_WEB
 ```
 
 
-Formato Web de Aspose.3D.
+Formato web de Aspose.3D.
 
 ### BLENDER {#BLENDER}
 ```
@@ -137,7 +137,7 @@ public static final FileFormatType GLTF
 ```
 
 
-glTF del Khronos Group
+glTF del Grupo Khronos
 
 ### HTML5 {#HTML5}
 ```
@@ -177,7 +177,7 @@ public static final FileFormatType PCD
 ```
 
 
-Datos de nube de puntos utilizados por Point Cloud Library
+Datos de nube de puntos usados por Point Cloud Library
 
 ### PDF {#PDF}
 ```
@@ -306,10 +306,10 @@ public String getExtension()
 ```
 
 
-El nombre de extensión de este formato de archivo, comienza con .
+El nombre de extensión de este formato de archivo, que comienza con .
 
 **Returns:**
-java.lang.String - El nombre de extensión de este formato de archivo, comienza con .
+java.lang.String - El nombre de extensión de este formato de archivo, que comienza con .
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

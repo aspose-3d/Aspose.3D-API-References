@@ -1,7 +1,7 @@
 ---
 title: "Int2D"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Creado por lexchou el 5/17/2017."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Creado por lexchou el 17/5/2017."
 type: docs
 weight: 86
 url: /es/java/com.aspose.threed/int2d/
@@ -18,8 +18,8 @@ Creado por lexchou el 5/17/2017. Contenedor de matriz int bidimensional
 
 | Constructor | Descripción |
 | --- | --- |
-| [Int2D(int rows, int columns)](#Int2D-int-int-) | Construir una matriz int 2D con asignación de datos predeterminada. |
-| [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | Construir una matriz int 2D con los datos proporcionados |
+| [Int2D(int rows, int columns)](#Int2D-int-int-) | Construya una matriz int 2D con asignación de datos predeterminada. |
+| [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | Construya una matriz int 2D con los datos proporcionados. |
 ## Métodos
 
 | Método | Descripción |
@@ -45,7 +45,7 @@ public Int2D(int rows, int columns)
 ```
 
 
-Construir una matriz int 2D con asignación de datos predeterminada.
+Construya una matriz int 2D con asignación de datos predeterminada.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -59,14 +59,14 @@ public Int2D(int rows, int columns, int[] data)
 ```
 
 
-Construir una matriz int 2D con los datos proporcionados
+Construya una matriz int 2D con los datos proporcionados.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | filas | int | Número de filas de la matriz 2D |
 | columnas | int | Número de columnas de la matriz 2D |
-| datos | int[] | Matriz a envolver, Float2D utilizará esta matriz internamente. |
+| datos | int[] | Arreglo a envolver, Float2D usará este arreglo internamente. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -130,7 +130,7 @@ public int getLength(int rank)
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| rango | int |  |
+| rank | int |  |
 
 **Returns:**
 int

@@ -1,6 +1,6 @@
 ---
 title: "RenderState"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Estado de renderizado para construir la canalización. Los cambios realizados en el estado de renderizado no afectarán a las instancias de canalización creadas."
 type: docs
 weight: 151
@@ -16,7 +16,7 @@ java.io.Closeable, java.lang.Comparable
 public class RenderState implements Closeable, Comparable<RenderState>
 ```
 
-Estado de renderizado para construir la canalización. Los cambios realizados en el estado de renderizado no afectarán a las instancias de canalización creadas.
+Estado de renderizado para construir el pipeline Los cambios realizados en el estado de renderizado no afectarán a las instancias del pipeline creadas.
 ## Constructores
 
 | Constructor | Descripción |
@@ -29,42 +29,42 @@ Estado de renderizado para construir la canalización. Los cambios realizados en
 | [close()](#close--) | Descarta el [RenderState](../../com.aspose.threed/renderstate) y libera todos los recursos internos. |
 | [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | Compara el estado de renderizado con otra instancia |
 | [equals(Object obj)](#equals-java.lang.Object-) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
-| [getBlend()](#getBlend--) | Habilita o deshabilita la mezcla de fragmentos. |
-| [getBlendColor()](#getBlendColor--) | Obtiene el color de mezcla donde se usa en [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
+| [getBlend()](#getBlend--) | Activar o desactivar la mezcla de fragmentos. |
+| [getBlendColor()](#getBlendColor--) | Obtiene el color de mezcla donde se usa en [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR) |
 | [getClass()](#getClass--) |  |
-| [getCullFace()](#getCullFace--) | Habilita o deshabilita la eliminación de caras |
-| [getCullFaceMode()](#getCullFaceMode--) | Obtiene qué cara será eliminada. |
+| [getCullFace()](#getCullFace--) | Activar o desactivar la cara de recorte |
+| [getCullFaceMode()](#getCullFaceMode--) | Obtiene qué cara será recortada. |
 | [getDepthFunction()](#getDepthFunction--) | Obtiene la función de comparación usada en la prueba de profundidad |
-| [getDepthMask()](#getDepthMask--) | Habilita o deshabilita la escritura de profundidad. |
-| [getDepthTest()](#getDepthTest--) | Habilita o deshabilita la prueba de profundidad. |
+| [getDepthMask()](#getDepthMask--) | Activar o desactivar la escritura de profundidad. |
+| [getDepthTest()](#getDepthTest--) | Activar o desactivar la prueba de profundidad. |
 | [getDestinationBlendFactor()](#getDestinationBlendFactor--) | Obtiene cómo se mezcla el color. |
 | [getFrontFace()](#getFrontFace--) | Obtiene cuál es el orden de la cara frontal. |
 | [getPolygonMode()](#getPolygonMode--) | Obtiene el modo de renderizado del polígono. |
-| [getScissorTest()](#getScissorTest--) | Habilita o deshabilita la prueba de recorte |
+| [getScissorTest()](#getScissorTest--) | Activar o desactivar la prueba de tijera |
 | [getSourceBlendFactor()](#getSourceBlendFactor--) | Obtiene cómo se mezcla el color. |
 | [getStencilBackFace()](#getStencilBackFace--) | Obtiene el estado de stencil para la cara trasera. |
 | [getStencilFrontFace()](#getStencilFrontFace--) | Obtiene el estado de stencil para la cara frontal. |
 | [getStencilMask()](#getStencilMask--) | Obtiene la máscara que se ANDea con la referencia y el valor de stencil almacenado cuando se completa la prueba. |
 | [getStencilReference()](#getStencilReference--) | Obtiene el valor de referencia para la prueba de stencil. |
-| [getStencilTest()](#getStencilTest--) | Habilita o deshabilita la prueba de stencil |
-| [hashCode()](#hashCode--) | Devuelve el código hash para esta instancia. |
+| [getStencilTest()](#getStencilTest--) | Activar o desactivar la prueba de stencil. |
+| [hashCode()](#hashCode--) | Devuelve el código hash de esta instancia. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBlend(boolean value)](#setBlend-boolean-) | Habilita o deshabilita la mezcla de fragmentos. |
-| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | Establece el color de mezcla donde se usa en [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
-| [setCullFace(boolean value)](#setCullFace-boolean-) | Habilita o deshabilita la eliminación de caras |
-| [setCullFaceMode(int value)](#setCullFaceMode-int-) | Establece qué cara será eliminada. |
+| [setBlend(boolean value)](#setBlend-boolean-) | Activar o desactivar la mezcla de fragmentos. |
+| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | Establece el color de mezcla donde se usa en [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR) |
+| [setCullFace(boolean value)](#setCullFace-boolean-) | Activar o desactivar la cara de recorte |
+| [setCullFaceMode(int value)](#setCullFaceMode-int-) | Establece qué cara será recortada. |
 | [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | Establece la función de comparación usada en la prueba de profundidad |
-| [setDepthMask(boolean value)](#setDepthMask-boolean-) | Habilita o deshabilita la escritura de profundidad. |
-| [setDepthTest(boolean value)](#setDepthTest-boolean-) | Habilita o deshabilita la prueba de profundidad. |
+| [setDepthMask(boolean value)](#setDepthMask-boolean-) | Activar o desactivar la escritura de profundidad. |
+| [setDepthTest(boolean value)](#setDepthTest-boolean-) | Activar o desactivar la prueba de profundidad. |
 | [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | Establece cómo se mezcla el color. |
 | [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | Establece cuál es el orden de la cara frontal. |
 | [setPolygonMode(PolygonMode value)](#setPolygonMode-com.aspose.threed.PolygonMode-) | Establece el modo de renderizado del polígono. |
-| [setScissorTest(boolean value)](#setScissorTest-boolean-) | Habilita o deshabilita la prueba de recorte |
+| [setScissorTest(boolean value)](#setScissorTest-boolean-) | Activar o desactivar la prueba de tijera |
 | [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | Establece cómo se mezcla el color. |
-| [setStencilMask(int value)](#setStencilMask-int-) | Establece la máscara que se ANDea con el valor de referencia y el valor de plantilla almacenado cuando se realiza la prueba. |
-| [setStencilReference(int value)](#setStencilReference-int-) | Establece el valor de referencia para la prueba de plantilla. |
-| [setStencilTest(boolean value)](#setStencilTest-boolean-) | Habilita o deshabilita la prueba de stencil |
+| [setStencilMask(int value)](#setStencilMask-int-) | Establece la máscara que se ANDed con el valor de referencia y el valor almacenado del stencil cuando se realiza la prueba. |
+| [setStencilReference(int value)](#setStencilReference-int-) | Establece el valor de referencia para la prueba de stencil. |
+| [setStencilTest(boolean value)](#setStencilTest-boolean-) | Activar o desactivar la prueba de stencil. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -121,7 +121,7 @@ public boolean getBlend()
 ```
 
 
-Habilita o deshabilita la mezcla de fragmentos.
+Activar o desactivar la mezcla de fragmentos.
 
 **Returns:**
 boolean - Habilitar o deshabilitar la mezcla de fragmentos.
@@ -131,7 +131,7 @@ public FVector4 getBlendColor()
 ```
 
 
-Obtiene el color de mezcla donde se usa en [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
+Obtiene el color de mezcla donde se usa en [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR)
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4) - the blend color where used in [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
@@ -151,7 +151,7 @@ public boolean getCullFace()
 ```
 
 
-Habilita o deshabilita la eliminación de caras
+Activar o desactivar la cara de recorte
 
 **Returns:**
 boolean - Habilitar o deshabilitar la eliminación de caras
@@ -161,7 +161,7 @@ public int getCullFaceMode()
 ```
 
 
-Obtiene qué cara será eliminada.
+Obtiene qué cara será recortada.
 
 **Returns:**
 int - qué cara será eliminada.
@@ -181,7 +181,7 @@ public boolean getDepthMask()
 ```
 
 
-Habilita o deshabilita la escritura de profundidad.
+Activar o desactivar la escritura de profundidad.
 
 **Returns:**
 boolean - Habilitar o deshabilitar la escritura de profundidad.
@@ -191,7 +191,7 @@ public boolean getDepthTest()
 ```
 
 
-Habilita o deshabilita la prueba de profundidad.
+Activar o desactivar la prueba de profundidad.
 
 **Returns:**
 boolean - Habilitar o deshabilitar la prueba de profundidad.
@@ -231,10 +231,10 @@ public boolean getScissorTest()
 ```
 
 
-Habilita o deshabilita la prueba de recorte
+Activar o desactivar la prueba de tijera
 
 **Returns:**
-boolean - Habilitar o deshabilitar la prueba de recorte
+boolean - Habilitar o deshabilitar la prueba de tijera
 ### getSourceBlendFactor() {#getSourceBlendFactor--}
 ```
 public BlendFactor getSourceBlendFactor()
@@ -274,7 +274,7 @@ public int getStencilMask()
 Obtiene la máscara que se ANDea con la referencia y el valor de stencil almacenado cuando se completa la prueba.
 
 **Returns:**
-int - la máscara que se ANDea con el valor de referencia y el valor de plantilla almacenado cuando se realiza la prueba.
+int - la máscara que se ANDed con el valor de referencia y el valor almacenado del stencil cuando se completa la prueba.
 ### getStencilReference() {#getStencilReference--}
 ```
 public int getStencilReference()
@@ -284,24 +284,24 @@ public int getStencilReference()
 Obtiene el valor de referencia para la prueba de stencil.
 
 **Returns:**
-int - el valor de referencia para la prueba de plantilla.
+int - el valor de referencia para la prueba de stencil.
 ### getStencilTest() {#getStencilTest--}
 ```
 public boolean getStencilTest()
 ```
 
 
-Habilita o deshabilita la prueba de stencil
+Activar o desactivar la prueba de stencil.
 
 **Returns:**
-boolean - Habilitar o deshabilitar la prueba de plantilla.
+boolean - Habilitar o deshabilitar la prueba de stencil.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-Devuelve el código hash para esta instancia.
+Devuelve el código hash de esta instancia.
 
 **Returns:**
 int
@@ -327,7 +327,7 @@ public void setBlend(boolean value)
 ```
 
 
-Habilita o deshabilita la mezcla de fragmentos.
+Activar o desactivar la mezcla de fragmentos.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -340,7 +340,7 @@ public void setBlendColor(FVector4 value)
 ```
 
 
-Establece el color de mezcla donde se usa en [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
+Establece el color de mezcla donde se usa en [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -353,7 +353,7 @@ public void setCullFace(boolean value)
 ```
 
 
-Habilita o deshabilita la eliminación de caras
+Activar o desactivar la cara de recorte
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -366,7 +366,7 @@ public void setCullFaceMode(int value)
 ```
 
 
-Establece qué cara será eliminada.
+Establece qué cara será recortada.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -392,7 +392,7 @@ public void setDepthMask(boolean value)
 ```
 
 
-Habilita o deshabilita la escritura de profundidad.
+Activar o desactivar la escritura de profundidad.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -405,7 +405,7 @@ public void setDepthTest(boolean value)
 ```
 
 
-Habilita o deshabilita la prueba de profundidad.
+Activar o desactivar la prueba de profundidad.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -457,7 +457,7 @@ public void setScissorTest(boolean value)
 ```
 
 
-Habilita o deshabilita la prueba de recorte
+Activar o desactivar la prueba de tijera
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -483,7 +483,7 @@ public void setStencilMask(int value)
 ```
 
 
-Establece la máscara que se ANDea con el valor de referencia y el valor de plantilla almacenado cuando se realiza la prueba.
+Establece la máscara que se ANDed con el valor de referencia y el valor almacenado del stencil cuando se realiza la prueba.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -496,7 +496,7 @@ public void setStencilReference(int value)
 ```
 
 
-Establece el valor de referencia para la prueba de plantilla.
+Establece el valor de referencia para la prueba de stencil.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -509,7 +509,7 @@ public void setStencilTest(boolean value)
 ```
 
 
-Habilita o deshabilita la prueba de stencil
+Activar o desactivar la prueba de stencil.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

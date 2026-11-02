@@ -1,6 +1,6 @@
 ---
 title: "Node"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Representa un elemento en el grafo de escena."
 type: docs
 weight: 110
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Node extends SceneObject
 ```
 
-Representa un elemento en el grafo de escena. Un grafo de escena es un árbol de objetos Node. Los servicios de gestión del árbol están contenidos en esta clase. Tenga en cuenta que el Aspose.3D SDK no verifica la validez del grafo de escena construido. Es responsabilidad del llamador asegurarse de que no genere grafos cíclicos en una jerarquía de nodos. Además de la gestión del árbol, esta clase define todas las propiedades necesarias para describir la posición del objeto en la escena. Esta información incluye las propiedades básicas de Translation, Rotation y Scaling, y las opciones más avanzadas para pivotes, límites y atributos de articulaciones IK, como la rigidez y el amortiguamiento. Cuando se crea por primera vez, el objeto Node está "empty" (es decir, es un objeto sin representación gráfica que solo contiene la información de posición). En este estado, puede usarse para representar padres en la estructura del árbol de nodos pero no mucho más. El uso normal de este tipo de objetos es añadirles una entidad que especialice el nodo (ver la "Entity"). La entidad es un objeto por sí misma y está conectada al Node. Esto también significa que la misma entidad puede compartirse entre varios nodos. Camera, Light, Mesh, etc... son todas entidades y todas derivan de la clase base Entity.
+Representa un elemento en el grafo de escena. Un grafo de escena es un árbol de objetos Node. Los servicios de gestión del árbol están contenidos en esta clase. Tenga en cuenta que el Aspose.3D SDK no verifica la validez del grafo de escena construido. Es responsabilidad del llamador asegurarse de que no genere grafos cíclicos en una jerarquía de nodos. Además de la gestión del árbol, esta clase define todas las propiedades necesarias para describir la posición del objeto en la escena. Esta información incluye las propiedades básicas de Translation, Rotation y Scaling, y las opciones más avanzadas para pivotes, límites y atributos de articulaciones IK, como la rigidez y el amortiguamiento. Cuando se crea por primera vez, el objeto Node está "empty" (es decir, es un objeto sin representación gráfica que solo contiene la información de posición). En este estado, puede usarse para representar padres en la estructura del árbol de nodos pero no mucho más. El uso normal de este tipo de objetos es añadirles una entidad que especializará el nodo (ver la "Entity"). La entidad es un objeto por sí mismo y está conectada al Node. Esto también significa que la misma entidad puede compartirse entre varios nodos. Camera, Light, Mesh, etc... son todas entidades y todas derivan de la clase base Entity.
 ## Constructores
 
 | Constructor | Descripción |
@@ -44,7 +44,7 @@ Representa un elemento en el grafo de escena. Un grafo de escena es un árbol de
 | [getClass()](#getClass--) |  |
 | [getEntities()](#getEntities--) | Obtiene todas las entidades del nodo. |
 | [getEntity()](#getEntity--) | Obtiene la primera entidad adjunta a este nodo; si se establece, se eliminarán las demás entidades. |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir este nodo y todos los nodos hijos/entidades durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir este nodo y todos los nodos/hijos o entidades durante la exportación. |
 | [getGlobalTransform()](#getGlobalTransform--) | Obtiene la transformación global. |
 | [getMaterial()](#getMaterial--) | Obtiene el primer material asociado a este nodo; si se establece, se eliminarán los demás materiales |
 | [getMaterials()](#getMaterials--) | Obtiene los materiales asociados a este nodo. |
@@ -52,10 +52,10 @@ Representa un elemento en el grafo de escena. Un grafo de escena es un árbol de
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getParentNode()](#getParentNode--) | Obtiene el nodo padre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [getTransform()](#getTransform--) | Obtiene la transformación local. |
-| [getVisible()](#getVisible--) | Obtiene para mostrar el nodo |
+| [getVisible()](#getVisible--) | Obtiene si mostrar el nodo |
 | [hashCode()](#hashCode--) |  |
 | [merge(Node node)](#merge-com.aspose.threed.Node-) | Desvincula todo bajo el nodo y lo adjunta al nodo actual. |
 | [notify()](#notify--) |  |
@@ -66,12 +66,12 @@ Representa un elemento en el grafo de escena. Un grafo de escena es un árbol de
 | [selectSingleObject(String path)](#selectSingleObject-java.lang.String-) | Selecciona un solo objeto bajo el nodo actual usando sintaxis de consulta similar a XPath. |
 | [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | Información de recursos por nodo |
 | [setEntity(Entity value)](#setEntity-com.aspose.threed.Entity-) | Establece la primera entidad adjunta a este nodo; si se establece, se eliminarán las demás entidades. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir este nodo y todos los nodos hijos/entidades durante la exportación. |
-| [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Establece el primer material asociado con este nodo; si se establece, borrará los otros materiales |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir este nodo y todos los nodos/hijos o entidades durante la exportación. |
+| [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Establece el primer material asociado con este nodo, si se establece, borrará los demás materiales |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el nodo padre. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
-| [setVisible(boolean value)](#setVisible-boolean-) | Configura para mostrar el nodo |
+| [setVisible(boolean value)](#setVisible-boolean-) | Establece mostrar el nodo |
 | [toString()](#toString--) | Obtiene la representación en cadena de este nodo. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -122,10 +122,10 @@ Recorre todos los nodos descendientes (incluido el nodo actual) y llama al visit
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| visitor | [NodeVisitor](../../com.aspose.threed/nodevisitor) | Función de devolución de llamada del visitante para visitar el nodo |
+| visitor | [NodeVisitor](../../com.aspose.threed/nodevisitor) | Callback del visitante para visitar el nodo |
 
 **Returns:**
-boolean - true significa que el visitante ha interrumpido el recorrido. **Example:** El siguiente código muestra cómo obtener todas las mallas de una escena
+boolean - true indica que el visitante ha interrumpido el recorrido. **Example:** El siguiente código muestra cómo obtener todas las mallas de una escena
 
 ```
 Scene scene = Scene.fromFile("input.fbx");
@@ -311,7 +311,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -391,7 +391,7 @@ public List<Node> getChildNodes()
 Obtiene los nodos hijos.
 
 **Returns:**
-java.util.List<com.aspose.threed.Node> - los nodos hijos. **Example:** El siguiente código muestra cómo enumerar el nodo hijo del nodo raíz
+java.util.List<com.aspose.threed.Node> - los nodos hijos. **Example:** El siguiente código muestra cómo enumerar los nodos hijos del nodo raíz
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -443,7 +443,7 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir este nodo y todos los nodos hijos/entidades durante la exportación.
+Obtiene si se debe excluir este nodo y todos los nodos/hijos o entidades durante la exportación.
 
 **Returns:**
 boolean - indica si excluir este nodo y todos los nodos hijos/entidades durante la exportación. **Example:** El siguiente código muestra cómo excluir el nodo especificado de la exportación
@@ -545,7 +545,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -587,7 +587,7 @@ public boolean getVisible()
 ```
 
 
-Obtiene para mostrar el nodo
+Obtiene si mostrar el nodo
 
 **Returns:**
 boolean - para mostrar el nodo **Example:** El siguiente código muestra cómo crear un nodo invisible
@@ -614,7 +614,7 @@ public void merge(Node node)
 ```
 
 
-Desacopla todo lo que está bajo el nodo y lo adjunta al nodo actual. **Example:** El siguiente código muestra cómo combinar dos archivos 3D en un solo archivo
+Desacopla todo bajo el nodo y adjúntalo al nodo actual. **Example:** El siguiente código muestra cómo combinar dos archivos 3D en un solo archivo
 
 ```
 Scene scene1 = Scene.fromFile("scene1.fbx");
@@ -743,7 +743,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir este nodo y todos los nodos hijos/entidades durante la exportación.
+Establece si excluir este nodo y todos los nodos/hijos o entidades durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -763,12 +763,12 @@ public void setMaterial(Material value)
 ```
 
 
-Establece el primer material asociado con este nodo; si se establece, borrará los otros materiales
+Establece el primer material asociado con este nodo, si se establece, borrará los demás materiales
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Material](../../com.aspose.threed/material) | Nuevo valor **Ejemplo:** |
+|  | value | [Material](../../com.aspose.threed/material) | Nuevo valor **Example:** |
 
 ```
 Scene scene = new Scene();
@@ -822,7 +822,7 @@ public void setVisible(boolean value)
 ```
 
 
-Configura para mostrar el nodo
+Establece mostrar el nodo
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

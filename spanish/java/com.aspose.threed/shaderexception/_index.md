@@ -1,7 +1,7 @@
 ---
 title: "ShaderException"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Excepciones relacionadas con shaders."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Excepciones relacionadas con shaders"
 type: docs
 weight: 163
 url: /es/java/com.aspose.threed/shaderexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 public class ShaderException extends Exception
 ```
 
-Excepciones relacionadas con shaders.
+Excepciones relacionadas con shaders
 ## Constructores
 
 | Constructor | Descripción |

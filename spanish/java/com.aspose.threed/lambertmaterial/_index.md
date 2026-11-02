@@ -1,6 +1,6 @@
 ---
 title: "LambertMaterial"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Material para el modelo de sombreado Lambert"
 type: docs
 weight: 92
@@ -41,7 +41,7 @@ Material para el modelo de sombreado Lambert
 | [getEmissiveColor()](#getEmissiveColor--) | Obtiene el color emisivo |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Obtiene la textura del slot especificado, puede ser el nombre de la propiedad del material o el nombre del parámetro del shader |
 | [getTransparency()](#getTransparency--) | Obtiene el factor de transparencia. |
 | [getTransparentColor()](#getTransparentColor--) | Obtiene el color transparente. |
@@ -145,7 +145,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -225,7 +225,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -263,10 +263,10 @@ public double getTransparency()
 ```
 
 
-Obtiene el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+Obtiene el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 
 **Returns:**
-double - el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+double - el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 ### getTransparentColor() {#getTransparentColor--}
 ```
 public Vector3 getTransparentColor()
@@ -380,7 +380,7 @@ Establece el color emisivo
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 var mat = new LambertMaterial();
@@ -426,7 +426,7 @@ Establece la textura al slot especificado
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | slotName | java.lang.String | Nombre de la ranura. |
-|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Ejemplo:** |
+|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Example:** |
 
 ```
 var mat = new LambertMaterial();
@@ -441,7 +441,7 @@ public void setTransparency(double value)
 ```
 
 
-Establece el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+Establece el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

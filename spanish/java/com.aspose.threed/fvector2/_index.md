@@ -1,7 +1,7 @@
 ---
 title: "FVector2"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Un vector flotante con dos componentes."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Un vector de punto flotante con dos componentes."
 type: docs
 weight: 59
 url: /es/java/com.aspose.threed/fvector2/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FVector2 implements Struct<FVector2>, Serializable
 ```
 
-Un vector flotante con dos componentes.
+Un vector de punto flotante con dos componentes.
 ## Constructores
 
 | Constructor | Descripción |
@@ -34,7 +34,7 @@ Un vector flotante con dos componentes.
 
 | Método | Descripción |
 | --- | --- |
-| [add(FVector2 a, FVector2 b)](#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \+ Sobrecarga de operadores |
+| [add(FVector2 a, FVector2 b)](#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \+ Sobrecarga de operador |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector2 src)](#copyFrom-com.aspose.threed.FVector2-) |  |
 | [create(FVector2 v)](#create-com.aspose.threed.FVector2-) | Operador de conversión explícita para convertir FVector2 a Vector2 |
@@ -42,13 +42,13 @@ Un vector flotante con dos componentes.
 | [equals(Object obj)](#equals-java.lang.Object-) | Comprobar si dos vectores son iguales |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) | Obtiene el código hash de esta instancia |
-| [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* Sobrecarga de operadores |
+| [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* Sobrecarga de operador |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_eq(FVector2 a, FVector2 b)](#op-eq-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | == Sobrecarga de operadores |
-| [op_ne(FVector2 a, FVector2 b)](#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | != Sobrecarga de operadores |
-| [sub(FVector2 a, FVector2 b)](#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \- Sobrecarga de operadores |
-| [toString()](#toString--) | Devuelve una cadena que representa el [FVector2](../../com.aspose.threed/fvector2) |
+| [op_eq(FVector2 a, FVector2 b)](#op-eq-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | == Sobrecarga de operador |
+| [op_ne(FVector2 a, FVector2 b)](#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | != Sobrecarga de operador |
+| [sub(FVector2 a, FVector2 b)](#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \- Sobrecarga de operador |
+| [toString()](#toString--) | Devuelve una cadena que representa a [FVector2](../../com.aspose.threed/fvector2) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -107,7 +107,7 @@ public static FVector2 add(FVector2 a, FVector2 b)
 ```
 
 
-\+ Sobrecarga de operadores
+\+ Sobrecarga de operador
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -211,7 +211,7 @@ public static FVector2 mul(FVector2 a, float b)
 ```
 
 
-\* Sobrecarga de operadores
+\* Sobrecarga de operador
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -243,7 +243,7 @@ public static boolean op_eq(FVector2 a, FVector2 b)
 ```
 
 
-== Sobrecarga de operadores
+== Sobrecarga de operador
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -275,7 +275,7 @@ public static FVector2 sub(FVector2 a, FVector2 b)
 ```
 
 
-\- Sobrecarga de operadores
+\- Sobrecarga de operador
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -291,7 +291,7 @@ public String toString()
 ```
 
 
-Devuelve una cadena que representa el [FVector2](../../com.aspose.threed/fvector2)
+Devuelve una cadena que representa a [FVector2](../../com.aspose.threed/fvector2)
 
 **Returns:**
 java.lang.String - Representación en cadena del vector actual.

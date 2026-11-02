@@ -1,6 +1,6 @@
 ---
 title: "PhongMaterial"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Material para el modelo de sombreado Blinn-Phong."
 type: docs
 weight: 126
@@ -41,10 +41,10 @@ Material para el modelo de sombreado Blinn-Phong.
 | [getEmissiveColor()](#getEmissiveColor--) | Obtiene el color emisivo |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getReflectionColor()](#getReflectionColor--) | Obtiene el color de reflexión. |
 | [getReflectionFactor()](#getReflectionFactor--) | Obtiene la atenuación del color de reflexión. |
-| [getShininess()](#getShininess--) | Obtiene el brillo, esto controla el tamaño del resaltado especular. |
+| [getShininess()](#getShininess--) | Obtiene el brillo, esto controla el tamaño del reflejo especular. |
 | [getSpecularColor()](#getSpecularColor--) | Obtiene el color especular. |
 | [getSpecularFactor()](#getSpecularFactor--) | Obtiene el factor especular. |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Obtiene la textura del slot especificado, puede ser el nombre de la propiedad del material o el nombre del parámetro del shader |
@@ -63,7 +63,7 @@ Material para el modelo de sombreado Blinn-Phong.
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setReflectionColor(Vector3 value)](#setReflectionColor-com.aspose.threed.Vector3-) | Establece el color de reflexión. |
 | [setReflectionFactor(double value)](#setReflectionFactor-double-) | Establece la atenuación del color de reflexión. |
-| [setShininess(double value)](#setShininess-double-) | Establece el brillo, esto controla el tamaño del reflejo especular. |
+| [setShininess(double value)](#setShininess-double-) | Establece el brillo, esto controla el tamaño del resplandor especular. |
 | [setSpecularColor(Vector3 value)](#setSpecularColor-com.aspose.threed.Vector3-) | Establece el color especular. |
 | [setSpecularFactor(double value)](#setSpecularFactor-double-) | Establece el factor especular. |
 | [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Establece la textura al slot especificado |
@@ -155,7 +155,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -235,7 +235,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -270,10 +270,10 @@ public double getShininess()
 ```
 
 
-Obtiene el brillo, esto controla el tamaño del reflejo especular. La fórmula del especular: SpecularColor \* SpecularFactor \* (N dot H) ^ Shininess
+Obtiene el brillo, esto controla el tamaño del resplandor especular. La fórmula del especular: SpecularColor \* SpecularFactor \* (N dot H) ^ Shininess
 
 **Returns:**
-double - el brillo, esto controla el tamaño del reflejo especular. La fórmula del especular: SpecularColor \* SpecularFactor \* (N dot H) ^ Shininess
+double - el brillo, esto controla el tamaño del resplandor especular. La fórmula del especular: SpecularColor \* SpecularFactor \* (N dot H) ^ Shininess
 ### getSpecularColor() {#getSpecularColor--}
 ```
 public Vector3 getSpecularColor()
@@ -323,10 +323,10 @@ public double getTransparency()
 ```
 
 
-Obtiene el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+Obtiene el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 
 **Returns:**
-double - el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+double - el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 ### getTransparentColor() {#getTransparentColor--}
 ```
 public Vector3 getTransparentColor()
@@ -440,7 +440,7 @@ Establece el color emisivo
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Ejemplo:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | Nuevo valor **Example:** |
 
 ```
 var mat = new LambertMaterial();
@@ -506,7 +506,7 @@ public void setShininess(double value)
 ```
 
 
-Establece el brillo, esto controla el tamaño del reflejo especular. La fórmula del especular: SpecularColor \* SpecularFactor \* (N dot H) ^ Shininess
+Establece el brillo, esto controla el tamaño del resplandor especular. La fórmula del especular: SpecularColor \* SpecularFactor \* (N dot H) ^ Shininess
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -551,7 +551,7 @@ Establece la textura al slot especificado
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | slotName | java.lang.String | Nombre de la ranura. |
-|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Ejemplo:** |
+|  | texture | [TextureBase](../../com.aspose.threed/texturebase) | Textura. **Example:** |
 
 ```
 var mat = new LambertMaterial();
@@ -566,7 +566,7 @@ public void setTransparency(double value)
 ```
 
 
-Establece el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente) Cualquier valor de factor no válido será limitado.
+Establece el factor de transparencia. El factor debe estar en el rango entre 0(0%, totalmente opaco) y 1(100%, totalmente transparente). Cualquier valor de factor no válido será limitado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

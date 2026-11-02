@@ -1,6 +1,6 @@
 ---
 title: "Hueso"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Un hueso define el subconjunto del punto de control de la geometría y define el peso de mezcla para cada punto de control."
 type: docs
 weight: 20
@@ -33,7 +33,7 @@ Un hueso define el subconjunto del punto de control de la geometría y define el
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getNode()](#getNode--) | Obtiene el nodo. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getTransform()](#getTransform--) | Obtiene la matriz de transformación del nodo que contiene el hueso. |
 | [getWeight(int index)](#getWeight-int-) | Obtiene el peso del punto de control especificado por índice |
 | [getWeightCount()](#getWeightCount--) | Obtiene la cantidad de peso, esto se amplía automáticamente mediante [setWeight](../../com.aspose.threed/bone\#setWeight) |
@@ -96,7 +96,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -166,7 +166,7 @@ public Node getNode()
 ```
 
 
-Obtiene el nodo. El nodo de hueso es el hueso al que se adjunta la piel, el [SkinDeformer](../../com.aspose.threed/skindeformer) utilizará el nodo de hueso para influir en el desplazamiento de los puntos de control. El nodo de hueso suele tener un [Skeleton](../../com.aspose.threed/skeleton) adjunto, pero no es obligatorio. El [Skeleton](../../com.aspose.threed/skeleton) adjunto suele ser utilizado por el software DCC para mostrar el esqueleto al usuario.
+Obtiene el nodo. El nodo de hueso es el hueso al que se adjunta la piel, el [SkinDeformer](../../com.aspose.threed/skindeformer) utilizará el nodo de hueso para influir en el desplazamiento de los puntos de control. El nodo de hueso suele tener un [Skeleton](../../com.aspose.threed/skeleton) adjunto, pero no es obligatorio. El [Skeleton](../../com.aspose.threed/skeleton) adjunto suele ser usado por el software DCC para mostrar el esqueleto al usuario.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the node. The bone node is the bone which skin attached to, the [SkinDeformer](../../com.aspose.threed/skindeformer) will use bone node to influence the displacement of the control points. Bone node usually has a [Skeleton](../../com.aspose.threed/skeleton) attached, but it's not required. Attached [Skeleton](../../com.aspose.threed/skeleton) is usually used by DCC software to show skeleton to user.
@@ -186,7 +186,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -345,7 +345,7 @@ public void setNode(Node value)
 ```
 
 
-Establece el nodo. El nodo de hueso es el hueso al que se adjunta la piel, el [SkinDeformer](../../com.aspose.threed/skindeformer) utilizará el nodo de hueso para influir en el desplazamiento de los puntos de control. El nodo de hueso suele tener un [Skeleton](../../com.aspose.threed/skeleton) adjunto, pero no es obligatorio. El [Skeleton](../../com.aspose.threed/skeleton) adjunto suele ser utilizado por el software DCC para mostrar el esqueleto al usuario.
+Establece el nodo. El nodo de hueso es el hueso al que se adjunta la piel, el [SkinDeformer](../../com.aspose.threed/skindeformer) utilizará el nodo de hueso para influir en el desplazamiento de los puntos de control. El nodo de hueso suele tener un [Skeleton](../../com.aspose.threed/skeleton) adjunto, pero no es obligatorio. El [Skeleton](../../com.aspose.threed/skeleton) adjunto suele ser usado por el software DCC para mostrar el esqueleto al usuario.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

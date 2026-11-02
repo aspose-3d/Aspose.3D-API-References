@@ -1,6 +1,6 @@
 ---
 title: "AnimationClip"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El clip de animación es una colección de animaciones."
 type: docs
 weight: 14
@@ -32,7 +32,7 @@ El clip de animación es una colección de animaciones. La escena puede tener un
 | [getDescription()](#getDescription--) | Obtiene la descripción de este clip de animación |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [getStart()](#getStart--) | Obtiene el tiempo en segundos del inicio del clip. |
 | [getStop()](#getStop--) | Obtiene el tiempo en segundos del final del clip. |
@@ -44,7 +44,7 @@ El clip de animación es una colección de animaciones. La escena puede tener un
 | [setDescription(String value)](#setDescription-java.lang.String-) | Establece la descripción de este clip de animación |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
-| [setStart(double value)](#setStart-double-) | Establece el tiempo en segundos del comienzo del clip. |
+| [setStart(double value)](#setStart-double-) | Establece el tiempo en segundos del inicio del clip. |
 | [setStop(double value)](#setStop-double-) | Establece el tiempo en segundos del final del clip. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -107,7 +107,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -172,7 +172,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -200,7 +200,7 @@ public double getStart()
 Obtiene el tiempo en segundos del inicio del clip.
 
 **Returns:**
-double - el tiempo en segundos del comienzo del clip.
+double - el tiempo en segundos del inicio del clip.
 ### getStop() {#getStop--}
 ```
 public double getStop()
@@ -313,7 +313,7 @@ public void setStart(double value)
 ```
 
 
-Establece el tiempo en segundos del comienzo del clip.
+Establece el tiempo en segundos del inicio del clip.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

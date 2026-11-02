@@ -1,6 +1,6 @@
 ---
 title: "IRenderTexture"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La interfaz de la textura de renderizado"
 type: docs
 weight: 250

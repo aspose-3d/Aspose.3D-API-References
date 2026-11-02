@@ -1,6 +1,6 @@
 ---
 title: "IRenderQueue"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El renderizador de entidades usa esta cola para gestionar tareas de renderizado."
 type: docs
 weight: 248

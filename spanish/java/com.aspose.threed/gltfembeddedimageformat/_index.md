@@ -1,6 +1,6 @@
 ---
 title: "GltfEmbeddedImageFormat"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Cómo el exportador glTF incrustará las texturas durante la exportación."
 type: docs
 weight: 281

@@ -1,6 +1,6 @@
 ---
 title: "LightType"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Tipos de luz."
 type: docs
 weight: 284
@@ -22,7 +22,7 @@ Tipos de luz.
 | [DIRECTIONAL](#DIRECTIONAL) | La luz direccional. |
 | [POINT](#POINT) | La luz puntual. |
 | [SPOT](#SPOT) | La luz de foco. |
-| [VOLUME](#VOLUME) | La luz volumétrica. |
+| [VOLUME](#VOLUME) | La luz de volumen. |
 ## Métodos
 
 | Método | Descripción |
@@ -82,7 +82,7 @@ public static final LightType VOLUME
 ```
 
 
-La luz volumétrica.
+La luz de volumen.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "ShadingLanguage"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Lenguajes de sombreado de uso común"
 type: docs
 weight: 272
@@ -28,8 +28,8 @@ Lenguajes de sombreado de uso común
 | [HOUDINIVEX](#HOUDINIVEX) | Lenguaje de sombreado VEX de Houdini |
 | [MENTAL_RAY](#MENTAL-RAY) | Lenguaje de sombreado Mental Ray |
 | [METAL](#METAL) | Lenguaje de sombreado Metal de iOS |
-| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | El lenguaje de sombreado Open es desarrollado por Sony Pictures Imageworks y se usa en su motor de renderizado Arnold. |
-| [PSSL](#PSSL) | Lenguaje de sombreado PlayStation |
+| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | Open Shading Language es desarrollado por Sony Pictures Imageworks y se usa en su motor de renderizado Arnold. |
+| [PSSL](#PSSL) | Lenguaje de sombreado de PlayStation |
 | [RENDER_MAN](#RENDER-MAN) | Lenguaje de sombreado RenderMan. |
 | [SFX](#SFX) | SFX |
 ## Métodos
@@ -139,7 +139,7 @@ public static final ShadingLanguage OPEN_SHADING_LANGUAGE
 ```
 
 
-El lenguaje de sombreado Open es desarrollado por Sony Pictures Imageworks y se usa en su motor de renderizado Arnold.
+Open Shading Language es desarrollado por Sony Pictures Imageworks y se usa en su motor de renderizado Arnold.
 
 ### PSSL {#PSSL}
 ```
@@ -147,7 +147,7 @@ public static final ShadingLanguage PSSL
 ```
 
 
-Lenguaje de sombreado PlayStation
+Lenguaje de sombreado de PlayStation
 
 ### RENDER_MAN {#RENDER-MAN}
 ```

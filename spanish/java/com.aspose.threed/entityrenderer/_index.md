@@ -1,7 +1,7 @@
 ---
 title: "EntityRenderer"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Cree una subclase de esto para implementar el renderizado de diferentes tipos de entidades."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Cree una subclase de esta para implementar el renderizado de diferentes tipos de entidades."
 type: docs
 weight: 53
 url: /es/java/com.aspose.threed/entityrenderer/
@@ -13,7 +13,7 @@ java.lang.Object
 public class EntityRenderer
 ```
 
-Cree una subclase de esto para implementar el renderizado de diferentes tipos de entidades.
+Cree una subclase de esta para implementar el renderizado de diferentes tipos de entidades.
 ## Constructores
 
 | Constructor | Descripción |
@@ -24,18 +24,18 @@ Cree una subclase de esto para implementar el renderizado de diferentes tipos de
 
 | Método | Descripción |
 | --- | --- |
-| [dispose()](#dispose--) | El renderizador de entidad se está eliminando, libere los recursos compartidos. |
+| [dispose()](#dispose--) | El renderizador de entidades se está eliminando, libere los recursos compartidos. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [frameBegin(Renderer renderer, IRenderQueue renderQueue)](#frameBegin-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-) | Iniciar el renderizado de un fotograma |
 | [frameEnd(Renderer renderer, IRenderQueue renderQueue)](#frameEnd-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-) | Finaliza el renderizado de un fotograma |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [initialize(Renderer renderer)](#initialize-com.aspose.threed.Renderer-) | Inicializar el renderizador de entidad |
+| [initialize(Renderer renderer)](#initialize-com.aspose.threed.Renderer-) | Inicializar el renderizador de entidades |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [prepareRenderQueue(Renderer renderer, IRenderQueue queue, Node node, Entity entity)](#prepareRenderQueue-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-com.aspose.threed.Node-com.aspose.threed.Entity-) | Preparar comandos de renderizado para el par nodo/entidad especificado. |
-| [renderEntity(Renderer renderer, ICommandList commandList, Node node, Object renderableResource, int subEntity)](#renderEntity-com.aspose.threed.Renderer-com.aspose.threed.ICommandList-com.aspose.threed.Node-java.lang.Object-int-) | Cada tarea de renderizado enviada a la [IRenderQueue](../../com.aspose.threed/irenderqueue) tendrá una llamada RenderEntity correspondiente para ejecutar el trabajo de renderizado concreto. |
-| [resetSceneCache()](#resetSceneCache--) | La escena ha cambiado o se ha eliminado, es necesario disponer de los recursos de renderizado a nivel de escena en este caso |
+| [renderEntity(Renderer renderer, ICommandList commandList, Node node, Object renderableResource, int subEntity)](#renderEntity-com.aspose.threed.Renderer-com.aspose.threed.ICommandList-com.aspose.threed.Node-java.lang.Object-int-) | Cada tarea de renderizado enviada a la [IRenderQueue](../../com.aspose.threed/irenderqueue) tendrá una llamada correspondiente a RenderEntity para ejecutar el trabajo de renderizado concreto. |
+| [resetSceneCache()](#resetSceneCache--) | La escena ha cambiado o se ha eliminado, es necesario liberar los recursos de renderizado a nivel de escena en este caso |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public void dispose()
 ```
 
 
-El renderizador de entidad se está eliminando, libere los recursos compartidos.
+El renderizador de entidades se está eliminando, libere los recursos compartidos.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -144,7 +144,7 @@ public void initialize(Renderer renderer)
 ```
 
 
-Inicializar el renderizador de entidad
+Inicializar el renderizador de entidades
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -178,8 +178,8 @@ Preparar comandos de renderizado para el par nodo/entidad especificado.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| renderer | [Renderer](../../com.aspose.threed/renderer) | La instancia actual del renderizador |
-| queue | [IRenderQueue](../../com.aspose.threed/irenderqueue) | La cola de renderizado utilizada para gestionar tareas de renderizado |
+| renderer | [Renderer](../../com.aspose.threed/renderer) | La instancia del renderizador actual |
+| queue | [IRenderQueue](../../com.aspose.threed/irenderqueue) | La cola de renderizado usada para gestionar tareas de renderizado |
 | node | [Node](../../com.aspose.threed/node) | Nodo actual |
 | entity | [Entity](../../com.aspose.threed/entity) | La entidad que necesita ser renderizada |
 
@@ -189,13 +189,13 @@ public void renderEntity(Renderer renderer, ICommandList commandList, Node node,
 ```
 
 
-Cada tarea de renderizado enviada a la [IRenderQueue](../../com.aspose.threed/irenderqueue) tendrá una llamada RenderEntity correspondiente para ejecutar el trabajo de renderizado concreto.
+Cada tarea de renderizado enviada a la [IRenderQueue](../../com.aspose.threed/irenderqueue) tendrá una llamada correspondiente a RenderEntity para ejecutar el trabajo de renderizado concreto.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | renderer | [Renderer](../../com.aspose.threed/renderer) | El renderizador |
-| commandList | [ICommandList](../../com.aspose.threed/icommandlist) | La commandList utilizada para registrar los comandos de renderizado |
+| commandList | [ICommandList](../../com.aspose.threed/icommandlist) | La commandList usada para registrar los comandos de renderizado |
 | node | [Node](../../com.aspose.threed/node) | El mismo nodo que se pasó a PrepareRenderQueue de la entidad que será renderizada |
 | renderableResource | java.lang.Object | El objeto personalizado que se pasó a IRenderQueue durante el PrepareRenderQueue |
 | subEntity | int | El índice de la subentidad que se pasó a IRenderQueue |
@@ -206,7 +206,7 @@ public void resetSceneCache()
 ```
 
 
-La escena ha cambiado o se ha eliminado, es necesario disponer de los recursos de renderizado a nivel de escena en este caso
+La escena ha cambiado o se ha eliminado, es necesario liberar los recursos de renderizado a nivel de escena en este caso
 
 ### toString() {#toString--}
 ```

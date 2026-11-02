@@ -1,7 +1,7 @@
 ---
 title: "ITextureUnit"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "representa una textura en la memoria que se comparte entre GPU y CPU y puede ser muestreada por el shader donde el  solo representa una referencia a un archivo externo."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "representa una textura en la memoria que se comparte entre GPU y CPU y puede ser muestreada por el shader donde el único representa una referencia a un archivo externo."
 type: docs
 weight: 258
 url: /es/java/com.aspose.threed/itextureunit/
@@ -18,7 +18,7 @@ public interface ITextureUnit extends Closeable
 
 | Método | Descripción |
 | --- | --- |
-| [getDepth()](#getDepth--) | Obtiene la altura de esta textura, para texturas que no son 3D siempre es 1. |
+| [getDepth()](#getDepth--) | Obtiene la altura de esta textura; para texturas que no son 3D siempre es 1. |
 | [getHeight()](#getHeight--) | Obtiene la altura de esta textura. |
 | [getMagnification()](#getMagnification--) | Obtiene el modo de filtrado para magnificación. |
 | [getMinification()](#getMinification--) | Obtiene el modo de filtrado para minificación. |
@@ -44,10 +44,10 @@ public abstract int getDepth()
 ```
 
 
-Obtiene la altura de esta textura, para texturas que no son 3D siempre es 1.
+Obtiene la altura de esta textura; para texturas que no son 3D siempre es 1.
 
 **Returns:**
-int - la altura de esta textura, para texturas que no son 3D siempre es 1.
+int - la altura de esta textura; para texturas que no son 3D siempre es 1.
 ### getHeight() {#getHeight--}
 ```
 public abstract int getHeight()

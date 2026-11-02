@@ -1,7 +1,7 @@
 ---
 title: "CoordinatedSystem"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "El sistema de coordenadas de mano izquierda o mano derecha."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "El sistema de coordenadas izquierdo o derecho."
 type: docs
 weight: 214
 url: /es/java/com.aspose.threed/coordinatedsystem/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CoordinatedSystem extends Enum<CoordinatedSystem>
 ```
 
-El sistema de coordenadas de mano izquierda o mano derecha.
+El sistema de coordenadas izquierdo o derecho.
 ## Campos
 
 | Campo | Descripción |

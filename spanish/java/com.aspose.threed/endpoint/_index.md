@@ -1,6 +1,6 @@
 ---
 title: "EndPoint"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El punto final para recortar la curva puede ser un valor de parámetro o un punto cartesiano."
 type: docs
 weight: 51
@@ -68,7 +68,7 @@ Construya un [EndPoint](../../com.aspose.threed/endpoint) a partir de un paráme
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| v | double | El parámetro numérico real para construir un punto final |
+| v | double | El parámetro de número real para construir un punto final |
 
 ### EndPoint() {#EndPoint--}
 ```
@@ -125,7 +125,7 @@ Cree un punto final medido en grados.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| grado | double | El valor en grados |
+| degree | double | El valor en grados |
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - An end point constructed from degree
@@ -140,7 +140,7 @@ Cree un punto final medido en radianes.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| grado | double | El valor en radianes |
+| degree | double | El valor en radianes |
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - An end point constructed from radian
