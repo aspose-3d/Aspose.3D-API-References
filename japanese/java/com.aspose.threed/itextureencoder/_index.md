@@ -1,7 +1,7 @@
 ---
 title: "ITextureEncoder"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "外部テクスチャエンコーダはエンコードのためにこのインターフェイスを実装すべきです。"
+description: "外部テクスチャエンコーダは、エンコードのためにこのインターフェイスを実装すべきです。"
 type: docs
 weight: 257
 url: /ja/java/com.aspose.threed/itextureencoder/
@@ -10,13 +10,13 @@ url: /ja/java/com.aspose.threed/itextureencoder/
 public interface ITextureEncoder
 ```
 
-外部テクスチャエンコーダはエンコードのためにこのインターフェイスを実装すべきです。
+外部テクスチャエンコーダは、エンコードのためにこのインターフェイスを実装すべきです。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [encode(TextureData texture, Stream stream)](#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-) | テクスチャデータをストリームにエンコードする |
-| [getFileExtension()](#getFileExtension--) | このエンコーダーの拡張子名（ドットなし） |
+| [getFileExtension()](#getFileExtension--) | このエンコーダーのファイル拡張子名（ドットなし） |
 ### encode(TextureData texture, Stream stream) {#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-}
 ```
 public abstract void encode(TextureData texture, Stream stream)
@@ -37,7 +37,7 @@ public abstract String getFileExtension()
 ```
 
 
-このエンコーダーの拡張子名（ドットなし）
+このエンコーダーのファイル拡張子名（ドットなし）
 
 **Returns:**
-java.lang.String - このエンコーダーの拡張子名（ドットなし）
+java.lang.String - このエンコーダーのファイル拡張子名（ドットなし）

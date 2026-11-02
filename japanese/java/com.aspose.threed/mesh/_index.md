@@ -1,5 +1,5 @@
 ---
-title: "メッシュ"
+title: "Mesh"
 second_title: "Aspose.3D for Java API リファレンス"
 description: "メッシュは多数の n 辺ポリゴンで構成されています。"
 type: docs
@@ -16,7 +16,7 @@ java.lang.Iterable, [com.aspose.threed.IMeshConvertible](../../com.aspose.threed
 public class Mesh extends Geometry implements Iterable<int[]>, IMeshConvertible
 ```
 
-メッシュは多数の n 辺ポリゴンで構成されています。 **Example:** メッシュにポリゴンを追加するには:
+メッシュは多数の n 辺ポリゴンで構成されています。 **例:** メッシュにポリゴンを追加するには:
 
 ```
 Mesh mesh = new Mesh();
@@ -52,56 +52,56 @@ Mesh mesh = new Mesh();
 | [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | 指定されたタイプの頂点要素を作成し、ジオメトリに追加します。 |
 | [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | 指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) を作成します。 |
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | 指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) を作成します。 |
-| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | 3つの頂点（三角形）でポリゴンを作成します |
-| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | 4つの頂点（四角形）でポリゴンを作成します |
+| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | 3つの頂点（三角形）でポリゴンを作成します。 |
+| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | 4つの頂点（四角形）でポリゴンを作成します。 |
 | [createPolygon(int[] indices)](#createPolygon-int---) | `indices` で定義されたすべての頂点を使用して新しいポリゴンを作成します。 |
 | [createPolygon(int[] indices, int offset, int length)](#createPolygon-int---int-int-) | `indices` で定義されたすべての頂点を使用して新しいポリゴンを作成します。 |
-| [difference(Mesh a, Mesh b)](#difference-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | 2つのメッシュの差分を計算します |
-| [doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Mesh b, Matrix4 transformB)](#doBoolean-com.aspose.threed.BooleanOperation-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-) | 2つのメッシュに対してブール演算を実行します |
+| [difference(Mesh a, Mesh b)](#difference-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | 2つのメッシュの差分を計算します。 |
+| [doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Mesh b, Matrix4 transformB)](#doBoolean-com.aspose.threed.BooleanOperation-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-) | 2つのメッシュに対してブール演算を実行します。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します |
+| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getControlPoints()](#getControlPoints--) | すべての制御点を取得します。 |
+| [getControlPoints()](#getControlPoints--) | すべてのコントロールポイントを取得します。 |
 | [getDeformers()](#getDeformers--) | このジオメトリに関連付けられたすべてのデフォーマーを取得します。 |
 | [getEdges()](#getEdges--) | メッシュのエッジを取得します。 |
-| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | 指定されたタイプの頂点要素を取得します |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | 指定されたタイプの頂点要素を取得します。 |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [getParentNodes()](#getParentNodes--) | すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。 |
-| [getPolygonCount()](#getPolygonCount--) | ポリゴンの数を取得します |
+| [getPolygonCount()](#getPolygonCount--) | ポリゴンの数を取得します。 |
 | [getPolygonSize(int index)](#getPolygonSize-int-) | 指定されたポリゴンの頂点数を取得します。 |
-| [getPolygons()](#getPolygons--) | メッシュのポリゴン定義を取得します |
+| [getPolygons()](#getPolygons--) | メッシュのポリゴン定義を取得します。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getReceiveShadows()](#getReceiveShadows--) | このジオメトリが影を受け取るかどうかを取得します。 |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | 指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) インスタンスを取得します |
-| [getVertexElements()](#getVertexElements--) | すべての頂点要素を取得します |
-| [getVisible()](#getVisible--) | ジオメトリが可視かどうかを取得します |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | 指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) インスタンスを取得します。 |
+| [getVertexElements()](#getVertexElements--) | すべての頂点要素を取得します。 |
+| [getVisible()](#getVisible--) | ジオメトリが表示されているかどうかを取得します。 |
 | [hashCode()](#hashCode--) |  |
-| [intersect(Mesh a, Mesh b)](#intersect-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | 2つのメッシュの交差を計算します |
+| [intersect(Mesh a, Mesh b)](#intersect-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | 2つのメッシュの交差を計算します。 |
 | [isManifold()](#isManifold--) | 現在のメッシュがマニホールドメッシュかどうかを確認します。 |
 | [iterator()](#iterator--) | 各内部ポリゴンの列挙子を取得します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [optimize(boolean vertexElements)](#optimize-boolean-) | 重複した制御点を削除してメッシュのメモリ使用量を最適化します |
-| [optimize(boolean vertexElements, float toleranceControlPoint)](#optimize-boolean-float-) | 重複した制御点を削除してメッシュのメモリ使用量を最適化します |
-| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal)](#optimize-boolean-float-float-) | 重複した制御点を削除してメッシュのメモリ使用量を最適化します |
-| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal, float toleranceUV)](#optimize-boolean-float-float-float-) | 重複した制御点を削除してメッシュのメモリ使用量を最適化します |
-| [optimize2(boolean vertexElements)](#optimize2-boolean-) | 重複した制御点を削除してメッシュのメモリ使用量を最適化します |
+| [optimize(boolean vertexElements)](#optimize-boolean-) | 重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。 |
+| [optimize(boolean vertexElements, float toleranceControlPoint)](#optimize-boolean-float-) | 重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。 |
+| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal)](#optimize-boolean-float-float-) | 重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。 |
+| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal, float toleranceUV)](#optimize-boolean-float-float-float-) | 重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。 |
+| [optimize2(boolean vertexElements)](#optimize2-boolean-) | 重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。 |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | このジオメトリが影を受け取るかどうかを設定します。 |
-| [setVisible(boolean value)](#setVisible-boolean-) | ジオメトリが可視かどうかを設定します |
+| [setVisible(boolean value)](#setVisible-boolean-) | ジオメトリが表示されるかどうかを設定します。 |
 | [toMesh()](#toMesh--) | 現在のエンティティから Mesh インスタンスを取得します。 |
 | [toString()](#toString--) |  |
 | [triangulate()](#triangulate--) | 三角形化されたメッシュを返します |
@@ -139,7 +139,7 @@ public Collection<T> <T>getDeformers2()
 指定されたデフォーマータイプのすべてのデフォーマーを取得します
 
 **Returns:**
-java.util.Collection<T> - デフォーマーコレクション
+java.util.Collection<T> - デフォーマー コレクション
 ### addControlPoint(double x, double y, double z) {#addControlPoint-double-double-double-}
 ```
 public void addControlPoint(double x, double y, double z)
@@ -222,7 +222,7 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 | --- | --- | --- |
 | type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | 頂点要素のタイプ |
 | mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | デフォルトのマッピングモード |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | デフォルトの参照モード |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | デフォルトのリファレンスモード |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -237,7 +237,7 @@ public VertexElementUV createElementUV(TextureMapping uvMapping)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | 作成するテクスチャマッピングタイプ |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | 作成するテクスチャマッピングのタイプ |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -252,9 +252,9 @@ public VertexElementUV createElementUV(TextureMapping uvMapping, MappingMode map
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | 作成するテクスチャマッピングタイプ |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | 作成するテクスチャマッピングのタイプ |
 | mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | デフォルトのマッピングモード |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | デフォルトの参照モード |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | デフォルトのリファレンスモード |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -264,14 +264,14 @@ public void createPolygon(int v1, int v2, int v3)
 ```
 
 
-3つの頂点（三角形）でポリゴンを作成します
+3つの頂点（三角形）でポリゴンを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | v1 | int | 最初の頂点のインデックス |
 | v2 | int | 2番目の頂点のインデックス |
-|  | v3 | int | 第3頂点のインデックス **Example:** 以下のコードは、制御点のインデックスを使用して新しいポリゴンを作成する方法を示しています。 |
+|  | v3 | int | 3番目の頂点のインデックス **Example:** 以下のコードは、制御点のインデックスで新しいポリゴンを作成する方法を示しています。 |
 
 ```
 Mesh mesh = new Mesh();
@@ -284,15 +284,15 @@ public void createPolygon(int v1, int v2, int v3, int v4)
 ```
 
 
-4つの頂点（四角形）でポリゴンを作成します
+4つの頂点（四角形）でポリゴンを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | v1 | int | 最初の頂点のインデックス |
 | v2 | int | 2番目の頂点のインデックス |
-| v3 | int | 第3頂点のインデックス |
-|  | v4 | int | 第4頂点のインデックス **Example:** 以下のコードは、制御点のインデックスを使用して新しいポリゴンを作成する方法を示しています。 |
+| v3 | int | 3番目の頂点のインデックス |
+|  | v4 | int | 4番目の頂点のインデックス **Example:** 以下のコードは、制御点のインデックスで新しいポリゴンを作成する方法を示しています。 |
 
 ```
 Mesh mesh = new Mesh();
@@ -305,7 +305,7 @@ public void createPolygon(int[] indices)
 ```
 
 
-`indices` で定義されたすべての頂点を使用して新しいポリゴンを作成します。ポリゴンを頂点ごとに作成するには、[PolygonBuilder](../../com.aspose.threed/polygonbuilder) を使用してください。
+`indices` で定義されたすべての頂点を持つ新しいポリゴンを作成します。ポリゴンを頂点ごとに作成するには、[PolygonBuilder](../../com.aspose.threed/polygonbuilder) を使用してください。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -324,7 +324,7 @@ public void createPolygon(int[] indices, int offset, int length)
 ```
 
 
-`indices` で定義されたすべての頂点を使用して新しいポリゴンを作成します。ポリゴンを頂点ごとに作成するには、[PolygonBuilder](../../com.aspose.threed/polygonbuilder) を使用してください。
+`indices` で定義されたすべての頂点を持つ新しいポリゴンを作成します。ポリゴンを頂点ごとに作成するには、[PolygonBuilder](../../com.aspose.threed/polygonbuilder) を使用してください。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -345,13 +345,13 @@ public static Mesh difference(Mesh a, Mesh b)
 ```
 
 
-2つのメッシュの差分を計算します
+2つのメッシュの差分を計算します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [Mesh](../../com.aspose.threed/mesh) | 最初のメッシュ |
-| b | [Mesh](../../com.aspose.threed/mesh) | 2番目のメッシュ |
+| b | [Mesh](../../com.aspose.threed/mesh) | 第二のメッシュ |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Result mesh **Example:** The following code shows how to calculate the difference of two meshes:
@@ -361,16 +361,16 @@ public static Mesh doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Me
 ```
 
 
-2つのメッシュに対してブール演算を実行します
+2つのメッシュに対してブール演算を実行します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| op | [BooleanOperation](../../com.aspose.threed/booleanoperation) | ブール演算のタイプです。 |
+| op | [BooleanOperation](../../com.aspose.threed/booleanoperation) | ブール演算の種類です。 |
 | a | [Mesh](../../com.aspose.threed/mesh) | 操作対象の最初のメッシュ。 |
 | transformA | [Matrix4](../../com.aspose.threed/matrix4) | 最初のメッシュの変換行列 |
-| b | [Mesh](../../com.aspose.threed/mesh) | 操作対象の2番目のメッシュ |
-| transformB | [Matrix4](../../com.aspose.threed/matrix4) | 2番目のメッシュの変換行列 |
+| b | [Mesh](../../com.aspose.threed/mesh) | 操作対象の第二のメッシュ |
+| transformB | [Matrix4](../../com.aspose.threed/matrix4) | 第二のメッシュの変換行列 |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The result mesh **Example:** The following code shows how to calculate the union of two meshes:
@@ -395,7 +395,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -427,7 +427,7 @@ public boolean getCastShadows()
 ```
 
 
-このジオメトリが影を落とすかどうかを取得します
+このジオメトリが影を落とすかどうかを取得します。
 
 **Returns:**
 boolean - このジオメトリが影を落とすかどうか
@@ -447,7 +447,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-すべての制御点を取得します。
+すべてのコントロールポイントを取得します。
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - すべての制御点
@@ -477,7 +477,7 @@ public VertexElement getElement(VertexElementType type)
 ```
 
 
-指定されたタイプの頂点要素を取得します
+指定されたタイプの頂点要素を取得します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -492,7 +492,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -515,7 +515,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -535,14 +535,14 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getPolygonCount() {#getPolygonCount--}
 ```
 public int getPolygonCount()
 ```
 
 
-ポリゴンの数を取得します
+ポリゴンの数を取得します。
 
 **Returns:**
 int - ポリゴンの数 **Example:** 以下のコードは、メッシュのポリゴン数を取得する方法を示しています。
@@ -572,7 +572,7 @@ public List<int[]> getPolygons()
 ```
 
 
-メッシュのポリゴン定義を取得します
+メッシュのポリゴン定義を取得します。
 
 **Returns:**
 java.util.List<int[]> - メッシュのポリゴン定義
@@ -627,7 +627,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) インスタンスを取得します
+指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) インスタンスを取得します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -642,7 +642,7 @@ public List<VertexElement> getVertexElements()
 ```
 
 
-すべての頂点要素を取得します
+すべての頂点要素を取得します。
 
 **Returns:**
 java.util.List<com.aspose.threed.VertexElement> - すべての頂点要素
@@ -652,7 +652,7 @@ public boolean getVisible()
 ```
 
 
-ジオメトリが可視かどうかを取得します
+ジオメトリが表示されているかどうかを取得します。
 
 **Returns:**
 boolean - ジオメトリが可視かどうか
@@ -672,13 +672,13 @@ public static Mesh intersect(Mesh a, Mesh b)
 ```
 
 
-2つのメッシュの交差を計算します
+2つのメッシュの交差を計算します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [Mesh](../../com.aspose.threed/mesh) | 最初のメッシュ |
-| b | [Mesh](../../com.aspose.threed/mesh) | 2番目のメッシュ |
+| b | [Mesh](../../com.aspose.threed/mesh) | 第二のメッシュ |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Result mesh **Example:** The following code shows how to calculate the difference of two meshes:
@@ -688,7 +688,7 @@ public boolean isManifold()
 ```
 
 
-現在のメッシュが多様体メッシュかどうかをチェックします。この関数は多様体計算結果をキャッシュしません。
+現在のメッシュが多様体メッシュかどうかを確認します。この関数は多様体計算結果をキャッシュしません。
 
 **Returns:**
 boolean - メッシュが多様体メッシュの場合は true。
@@ -724,7 +724,7 @@ public Mesh optimize(boolean vertexElements)
 ```
 
 
-重複した制御点を削除してメッシュのメモリ使用量を最適化します
+重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -746,7 +746,7 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint)
 ```
 
 
-重複した制御点を削除してメッシュのメモリ使用量を最適化します
+重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -762,7 +762,7 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint, float 
 ```
 
 
-重複した制御点を削除してメッシュのメモリ使用量を最適化します
+重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -779,7 +779,7 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint, float 
 ```
 
 
-重複した制御点を削除してメッシュのメモリ使用量を最適化します
+重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -797,7 +797,7 @@ public Mesh optimize2(boolean vertexElements)
 ```
 
 
-重複した制御点を削除してメッシュのメモリ使用量を最適化します
+重複したコントロールポイントを削除してメッシュのメモリ使用量を最適化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -817,7 +817,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -827,12 +827,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -842,7 +842,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-このジオメトリが影を落とすかどうかを設定します
+このジオメトリが影を落とすかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -921,7 +921,7 @@ public void setVisible(boolean value)
 ```
 
 
-ジオメトリが可視かどうかを設定します
+ジオメトリが表示されるかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -977,7 +977,7 @@ public static Mesh union(Mesh a, Mesh b)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [Mesh](../../com.aspose.threed/mesh) | 最初のメッシュ |
-| b | [Mesh](../../com.aspose.threed/mesh) | 2番目のメッシュ |
+| b | [Mesh](../../com.aspose.threed/mesh) | 第二のメッシュ |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Result mesh **Example:** The following code shows how to union two meshes into one mesh:

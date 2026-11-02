@@ -8,7 +8,7 @@ url: /ja/java/com.aspose.threed/memorystream/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.Stream](../../com.aspose.threed/stream)
+java.lang.Object, [com.aspose.threed.Stream](../../com.aspose.threed/stream)
 
 **All Implemented Interfaces:**
 java.lang.AutoCloseable

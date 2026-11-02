@@ -1,7 +1,7 @@
 ---
 title: "PolygonBuilder"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "Example 用にポリゴンを構築するヘルパークラスです"
+description: "Example 用にポリゴンを構築するヘルパークラスです。"
 type: docs
 weight: 133
 url: /ja/java/com.aspose.threed/polygonbuilder/
@@ -25,7 +25,7 @@ Mesh mesh = new Mesh();
   builder.end();
 ```
 
-等しい :
+等しい:
 
 ```
 Mesh mesh = new Mesh();
@@ -33,12 +33,12 @@ Mesh mesh = new Mesh();
   mesh.createPolygon(indices);
 ```
 
-すべてのインデックスが使用可能な場合は、[Mesh](../../com.aspose.threed/mesh) が推奨されます。そうでなければ、[PolygonBuilder](../../com.aspose.threed/polygonbuilder) の方が適しています。
+すべてのインデックスが使用可能な場合は、[Mesh](../../com.aspose.threed/mesh) が推奨されます。そうでない場合は、[PolygonBuilder](../../com.aspose.threed/polygonbuilder) の方が適しています。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [PolygonBuilder(Mesh mesh)](#PolygonBuilder-com.aspose.threed.Mesh-) | 新しい [PolygonBuilder](../../com.aspose.threed/polygonbuilder) クラスのインスタンスを初期化します。 |
+| [PolygonBuilder(Mesh mesh)](#PolygonBuilder-com.aspose.threed.Mesh-) | [PolygonBuilder](../../com.aspose.threed/polygonbuilder) クラスの新しいインスタンスを初期化します。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -61,12 +61,12 @@ public PolygonBuilder(Mesh mesh)
 ```
 
 
-新しい [PolygonBuilder](../../com.aspose.threed/polygonbuilder) クラスのインスタンスを初期化します。
+[PolygonBuilder](../../com.aspose.threed/polygonbuilder) クラスの新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | ポリゴンを構築するメッシュです。 |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | どのメッシュ上にポリゴンを構築するか。 |
 
 ### addVertex(int index) {#addVertex-int-}
 ```

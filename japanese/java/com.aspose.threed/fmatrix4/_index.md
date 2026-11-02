@@ -22,7 +22,7 @@ public final class FMatrix4 implements Struct<FMatrix4>, Serializable
 | コンストラクタ | 説明 |
 | --- | --- |
 | [FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11, float m12, float m13, float m20, float m21, float m22, float m23, float m30, float m31, float m32, float m33)](#FMatrix4-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-) | [FMatrix4](../../com.aspose.threed/fmatrix4) のインスタンスを初期化します |
-| [FMatrix4(Matrix4 mat)](#FMatrix4-com.aspose.threed.Matrix4-) | インスタンスを [FMatrix4](../../com.aspose.threed/fmatrix4) に、[Matrix4](../../com.aspose.threed/matrix4) インスタンスから初期化します。 |
+| [FMatrix4(Matrix4 mat)](#FMatrix4-com.aspose.threed.Matrix4-) | インスタンスを初期化します [FMatrix4](../../com.aspose.threed/fmatrix4) を [Matrix4](../../com.aspose.threed/matrix4) インスタンスから作成します。 |
 | [FMatrix4(FVector4 r0, FVector4 r1, FVector4 r2, FVector4 r3)](#FMatrix4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | 4 行から行列を構築します。 |
 | [FMatrix4()](#FMatrix4--) |  |
 ## フィールド
@@ -78,19 +78,19 @@ public FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| m00 | float | この m[0, 0] |
-| m01 | float | この m[0, 1] |
-| m02 | float | この m[0, 2] |
-| m03 | float | この m[0, 3] |
-| m10 | float | この m[1, 0] |
-| m11 | float | この m[1, 1] |
-| m12 | float | この m[1, 2] |
-| m13 | float | この m[1, 3] |
-| m20 | float | この m[2, 0] |
-| m21 | float | この m[2, 1] |
-| m22 | float | この m[2, 2] |
-| m23 | float | この m[2, 3] |
-| m30 | float | この m[3, 0] |
+| m00 | float | その m[0, 0] |
+| m01 | float | その m[0, 1] |
+| m02 | float | その m[0, 2] |
+| m03 | float | その m[0, 3] |
+| m10 | float | その m[1, 0] |
+| m11 | float | その m[1, 1] |
+| m12 | float | その m[1, 2] |
+| m13 | float | その m[1, 3] |
+| m20 | float | その m[2, 0] |
+| m21 | float | その m[2, 1] |
+| m22 | float | その m[2, 2] |
+| m23 | float | その m[2, 3] |
+| m30 | float | その m[3, 0] |
 | m31 | float | この m[3, 1] |
 | m32 | float | この m[3, 2] |
 | m33 | float | この m[3, 3] |
@@ -101,7 +101,7 @@ public FMatrix4(Matrix4 mat)
 ```
 
 
-インスタンスを [FMatrix4](../../com.aspose.threed/fmatrix4) に、[Matrix4](../../com.aspose.threed/matrix4) インスタンスから初期化します。
+インスタンスを初期化します [FMatrix4](../../com.aspose.threed/fmatrix4) を [Matrix4](../../com.aspose.threed/matrix4) インスタンスから作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -16,13 +16,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class BooleanOperator extends Entity implements IMeshConvertible
 ```
 
-Boolean operator は、2つの [IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスに対して Boolean 操作を適用できるようにします。
+ブール演算子を使用すると、2つの[IMeshConvertible](../../com.aspose.threed/imeshconvertible)インスタンスにブール演算を適用できます。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [BooleanOperator()](#BooleanOperator--) | [BooleanOperator](../../com.aspose.threed/booleanoperator) のコンストラクタ |
-| [BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject second)](#BooleanOperator-com.aspose.threed.BooleanOperation-com.aspose.threed.A3DObject-com.aspose.threed.A3DObject-) | 2つのオペランドを使用して [BooleanOperator](../../com.aspose.threed/booleanoperator) の新しいインスタンスを構築します |
+| [BooleanOperator()](#BooleanOperator--) | [BooleanOperator](../../com.aspose.threed/booleanoperator)のコンストラクタ |
+| [BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject second)](#BooleanOperator-com.aspose.threed.BooleanOperation-com.aspose.threed.A3DObject-com.aspose.threed.A3DObject-) | 2つのオペランドで[BooleanOperator](../../com.aspose.threed/booleanoperator)の新しいインスタンスを構築します |
 ## メソッド
 
 | メソッド | 説明 |
@@ -31,30 +31,30 @@ Boolean operator は、2つの [IMeshConvertible](../../com.aspose.threed/imeshc
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
-| [getFirst()](#getFirst--) | Boolean operator の最初のオペランド |
+| [getFirst()](#getFirst--) | ブール演算子の最初のオペランド |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getOperator()](#getOperator--) | 結果メッシュを作成する操作で使用される Boolean operator |
+| [getOperator()](#getOperator--) | 結果メッシュを作成する操作で使用されるブール演算子。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [getParentNodes()](#getParentNodes--) | すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getSecond()](#getSecond--) | Boolean operator の2番目のオペランド |
+| [getSecond()](#getSecond--) | ブール演算子の2番目のオペランド |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
-| [setFirst(BooleanOperand value)](#setFirst-com.aspose.threed.BooleanOperand-) | Boolean operator の最初のオペランド |
+| [setFirst(BooleanOperand value)](#setFirst-com.aspose.threed.BooleanOperand-) | ブール演算子の最初のオペランド |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
-| [setOperator(BooleanOperation value)](#setOperator-com.aspose.threed.BooleanOperation-) | 結果メッシュを作成する操作で使用される Boolean operator |
+| [setOperator(BooleanOperation value)](#setOperator-com.aspose.threed.BooleanOperation-) | 結果メッシュを作成する操作で使用されるブール演算子。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setSecond(BooleanOperand value)](#setSecond-com.aspose.threed.BooleanOperand-) | Boolean operator の2番目のオペランド |
-| [toMesh()](#toMesh--) | 2つのオペランドに対して Boolean 操作を実行します |
+| [setSecond(BooleanOperand value)](#setSecond-com.aspose.threed.BooleanOperand-) | ブール演算子の2番目のオペランド |
+| [toMesh()](#toMesh--) | 2つのオペランドに対してブール演算を実行します |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public BooleanOperator()
 ```
 
 
-[BooleanOperator](../../com.aspose.threed/booleanoperator) のコンストラクタ
+[BooleanOperator](../../com.aspose.threed/booleanoperator)のコンストラクタ
 
 ### BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject second) {#BooleanOperator-com.aspose.threed.BooleanOperation-com.aspose.threed.A3DObject-com.aspose.threed.A3DObject-}
 ```
@@ -73,14 +73,14 @@ public BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject se
 ```
 
 
-2つのオペランドを使用して [BooleanOperator](../../com.aspose.threed/booleanoperator) の新しいインスタンスを構築します
+2つのオペランドで[BooleanOperator](../../com.aspose.threed/booleanoperator)の新しいインスタンスを構築します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| operation | [BooleanOperation](../../com.aspose.threed/booleanoperation) | Boolean 操作の種類 |
-| first | [A3DObject](../../com.aspose.threed/a3dobject) | [IMeshConvertible](../../com.aspose.threed/imeshconvertible)、[HalfSpace](../../com.aspose.threed/halfspace) または [Node](../../com.aspose.threed/node) のインスタンス |
-| second | [A3DObject](../../com.aspose.threed/a3dobject) | [IMeshConvertible](../../com.aspose.threed/imeshconvertible)、[HalfSpace](../../com.aspose.threed/halfspace) または [Node](../../com.aspose.threed/node) のインスタンス |
+| operation | [BooleanOperation](../../com.aspose.threed/booleanoperation) | ブール演算の種類 |
+| first | [A3DObject](../../com.aspose.threed/a3dobject) | [IMeshConvertible](../../com.aspose.threed/imeshconvertible)、[HalfSpace](../../com.aspose.threed/halfspace)、または[Node](../../com.aspose.threed/node)のインスタンス |
+| second | [A3DObject](../../com.aspose.threed/a3dobject) | [IMeshConvertible](../../com.aspose.threed/imeshconvertible)、[HalfSpace](../../com.aspose.threed/halfspace)、または[Node](../../com.aspose.threed/node)のインスタンス |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -103,7 +103,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -145,7 +145,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -165,7 +165,7 @@ public BooleanOperand getFirst()
 ```
 
 
-Boolean operator の最初のオペランド
+ブール演算子の最初のオペランド
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - The first operand of the Boolean operator
@@ -178,14 +178,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getOperator() {#getOperator--}
 ```
 public BooleanOperation getOperator()
 ```
 
 
-結果メッシュを作成する操作で使用される Boolean operator
+結果メッシュを作成する操作で使用されるブール演算子。
 
 **Returns:**
 [BooleanOperation](../../com.aspose.threed/booleanoperation) - The Boolean operator used in the operation to create the result mesh.
@@ -208,7 +208,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -250,7 +250,7 @@ public BooleanOperand getSecond()
 ```
 
 
-Boolean operator の2番目のオペランド
+ブール演算子の2番目のオペランド
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - The second operand of the Boolean operator
@@ -291,7 +291,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -301,12 +301,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -329,7 +329,7 @@ public void setFirst(BooleanOperand value)
 ```
 
 
-Boolean operator の最初のオペランド
+ブール演算子の最初のオペランド
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -355,7 +355,7 @@ public void setOperator(BooleanOperation value)
 ```
 
 
-結果メッシュを作成する操作で使用される Boolean operator
+結果メッシュを作成する操作で使用されるブール演算子。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -395,7 +395,7 @@ public void setSecond(BooleanOperand value)
 ```
 
 
-Boolean operator の2番目のオペランド
+ブール演算子の2番目のオペランド
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -408,7 +408,7 @@ public Mesh toMesh()
 ```
 
 
-2つのオペランドに対して Boolean 操作を実行します
+2つのオペランドに対してブール演算を実行します
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh)

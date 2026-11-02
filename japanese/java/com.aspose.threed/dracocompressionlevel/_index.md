@@ -1,7 +1,7 @@
 ---
 title: "DracoCompressionLevel"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "draco ファイルの圧縮レベル"
+description: "Draco ファイルの圧縮レベル"
 type: docs
 weight: 276
 url: /ja/java/com.aspose.threed/dracocompressionlevel/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum DracoCompressionLevel extends Enum<DracoCompressionLevel>
 ```
 
-draco ファイルの圧縮レベル
+Draco ファイルの圧縮レベル
 ## フィールド
 
 | フィールド | 説明 |
@@ -21,7 +21,7 @@ draco ファイルの圧縮レベル
 | [FAST](#FAST) | エンコーダは可能な限り速く圧縮を実行します。 |
 | [NO_COMPRESSION](#NO-COMPRESSION) | 圧縮なし、これによりエンコード時間が最小になります。 |
 | [OPTIMAL](#OPTIMAL) | エンコーダはシーンを最適に圧縮しますが、完了までに時間がかかる場合があります。 |
-| [STANDARD](#STANDARD) | 標準モード、圧縮率と速度のバランスが良好です。 |
+| [STANDARD](#STANDARD) | 標準モード、圧縮率と速度のバランスが良いです。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -73,7 +73,7 @@ public static final DracoCompressionLevel STANDARD
 ```
 
 
-標準モード、圧縮率と速度のバランスが良好です。
+標準モード、圧縮率と速度のバランスが良いです。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

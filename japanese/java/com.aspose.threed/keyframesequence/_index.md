@@ -1,7 +1,7 @@
 ---
 title: "KeyframeSequence"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "キー フレームのシーケンスは、サンプリングされた値の時間経過に伴う変換を記述します。"
+description: "キー フレームのシーケンスで、サンプリングされた値の時間経過に伴う変換を記述します。"
 type: docs
 weight: 90
 url: /ja/java/com.aspose.threed/keyframesequence/
@@ -16,7 +16,7 @@ java.lang.Iterable
 public class KeyframeSequence extends A3DObject implements Iterable<KeyFrame>
 ```
 
-キーフレームのシーケンスで、時間経過に伴うサンプル値の変換を表します。
+キーフレームのシーケンスで、時間経過に伴うサンプル値の変換を記述します。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -35,8 +35,8 @@ public class KeyframeSequence extends A3DObject implements Iterable<KeyFrame>
 | [getClass()](#getClass--) |  |
 | [getKeyFrames()](#getKeyFrames--) | この曲線のキー フレームを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getPostBehavior()](#getPostBehavior--) | 最後のキー フレームの後にサンプリングされた値がどうなるかを示すポスト ビヘイビアを取得します。 |
-| [getPreBehavior()](#getPreBehavior--) | 最初のキーの前にサンプリングされた値がどうなるかを示すプリ ビヘイビアを取得します。 |
+| [getPostBehavior()](#getPostBehavior--) | ポスト ビヘイビアを取得します。これは、最後のキー フレームの後にサンプリングされた値がどうあるべきかを示します。 |
+| [getPreBehavior()](#getPreBehavior--) | プリ ビヘイビアを取得します。これは、最初のキーの前にサンプリングされた値がどうあるべきかを示します。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public class KeyframeSequence extends A3DObject implements Iterable<KeyFrame>
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [reset()](#reset--) | すべてのキー フレームを削除し、ポスト/プリ ビヘイビアをリセットします。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
@@ -84,7 +84,7 @@ public void add(double time, float value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 時間 | double | 時間位置（秒で測定） |
+| 時間 | double | 時間位置（秒単位で測定） |
 | 値 | float | この時間位置の値 |
 
 ### add(double time, float value, Interpolation interpolation) {#add-double-float-com.aspose.threed.Interpolation-}
@@ -98,7 +98,7 @@ public void add(double time, float value, Interpolation interpolation)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 時間 | double | 時間位置（秒で測定） |
+| 時間 | double | 時間位置（秒単位で測定） |
 | 値 | float | この時間位置の値 |
 | interpolation | [Interpolation](../../com.aspose.threed/interpolation) | このキー フレームの補間タイプ |
 
@@ -123,7 +123,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -171,14 +171,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getPostBehavior() {#getPostBehavior--}
 ```
 public Extrapolation getPostBehavior()
 ```
 
 
-最後のキー フレームの後にサンプリングされた値がどうなるかを示すポスト ビヘイビアを取得します。
+ポスト ビヘイビアを取得します。これは、最後のキー フレームの後にサンプリングされた値がどうあるべきかを示します。
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the post behavior indicates what the sampled value should be after the last key frame.
@@ -188,7 +188,7 @@ public Extrapolation getPreBehavior()
 ```
 
 
-最初のキーの前にサンプリングされた値がどうなるかを示すプリ ビヘイビアを取得します。
+プリ ビヘイビアを取得します。これは、最初のキーの前にサンプリングされた値がどうあるべきかを示します。
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the pre behavior indicates what the sampled value should be before the first key.
@@ -264,7 +264,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -274,12 +274,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true

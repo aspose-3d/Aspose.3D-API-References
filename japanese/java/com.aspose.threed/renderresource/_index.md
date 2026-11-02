@@ -1,7 +1,7 @@
 ---
 title: "RenderResource"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "すべてのレンダーリソースの抽象クラスです。レンダーが解放されると、すべてのレンダーリソースが破棄されます。"
+description: "すべてのレンダーリソースの抽象クラスです。レンダーが解放されると、すべてのレンダーリソースは破棄されます。"
 type: docs
 weight: 150
 url: /ja/java/com.aspose.threed/renderresource/
@@ -16,7 +16,7 @@ java.io.Closeable
 public abstract class RenderResource implements Closeable
 ```
 
-すべてのレンダーリソースの抽象クラスです。レンダーが解放されると、すべてのレンダーリソースが破棄されます。[Mesh](../../com.aspose.threed/mesh)/[Texture](../../com.aspose.threed/texture) のようなクラスは、対応する RenderResource を持ちます。
+すべてのレンダーリソースの抽象クラスです。レンダーが解放されると、すべてのレンダーリソースは破棄されます。[Mesh](../../com.aspose.threed/mesh)/[Texture](../../com.aspose.threed/texture) のようなクラスは、対応する RenderResource を持ちます。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |

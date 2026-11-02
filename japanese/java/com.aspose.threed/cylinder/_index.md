@@ -30,11 +30,11 @@ public class Cylinder extends Primitive
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します |
+| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
-| [getGenerateFanCylinder()](#getGenerateFanCylinder--) | ThetaLength が 2\*PI 未満のときにファンスタイルのシリンダーを生成するかどうかを取得します。そうでない場合、モデルはカットされません。 |
+| [getGenerateFanCylinder()](#getGenerateFanCylinder--) | ThetaLength が 2\*PI 未満のときにファンスタイルのシリンダーを生成するかどうかを取得します。そうでない場合、モデルは切断されません。 |
 | [getHeight()](#getHeight--) | シリンダーの高さを取得します。 |
 | [getHeightSegments()](#getHeightSegments--) | 高さセグメントを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -50,32 +50,32 @@ public class Cylinder extends Primitive
 | [getRadiusTop()](#getRadiusTop--) | シリンダーの上部キャップの半径を取得します。 |
 | [getReceiveShadows()](#getReceiveShadows--) | このジオメトリが影を受け取るかどうかを取得します。 |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getShearBottom()](#getShearBottom--) | 底面のせん断変換を取得します。ベクトルはラジアンで測定された (x 軸, z 軸) のせん断値を格納し、デフォルト値は (0, 0) です。 |
-| [getShearTop()](#getShearTop--) | 上部のせん断変換を取得します。ベクトルはラジアンで測定された (x 軸, z 軸) のせん断値を格納し、デフォルト値は (0, 0) です。 |
+| [getShearBottom()](#getShearBottom--) | 下側のせん断変換を取得します。ベクトルは (x軸, z軸) のせん断値をラジアンで格納し、デフォルト値は (0, 0) です。 |
+| [getShearTop()](#getShearTop--) | 上側のせん断変換を取得します。ベクトルは (x軸, z軸) のせん断値をラジアンで格納し、デフォルト値は (0, 0) です。 |
 | [getThetaLength()](#getThetaLength--) | theta の長さを取得します。 |
 | [getThetaStart()](#getThetaStart--) | theta の開始位置を取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setGenerateFanCylinder(boolean value)](#setGenerateFanCylinder-boolean-) | ThetaLength が 2\*PI 未満の場合にファンスタイルのシリンダーを生成するかどうかを設定します。そうでない場合、モデルはカットされません。 |
 | [setHeight(double value)](#setHeight-double-) | シリンダーの高さを設定します。 |
 | [setHeightSegments(int value)](#setHeightSegments-int-) | 高さセグメントを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
-| [setOffsetBottom(Vector3 value)](#setOffsetBottom-com.aspose.threed.Vector3-) | 底面の頂点変換オフセットを設定します。 |
-| [setOffsetTop(Vector3 value)](#setOffsetTop-com.aspose.threed.Vector3-) | 上面の頂点変換オフセットを設定します。 |
+| [setOffsetBottom(Vector3 value)](#setOffsetBottom-com.aspose.threed.Vector3-) | 下側の頂点変換オフセットを設定します。 |
+| [setOffsetTop(Vector3 value)](#setOffsetTop-com.aspose.threed.Vector3-) | 上側の頂点変換オフセットを設定します。 |
 | [setOpenEnded(boolean value)](#setOpenEnded-boolean-) | この [Cylinder](../../com.aspose.threed/cylinder) が開放端かどうかを示す値を設定します。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setRadialSegments(int value)](#setRadialSegments-int-) | 放射状セグメントを設定します。 |
-| [setRadiusBottom(double value)](#setRadiusBottom-double-) | シリンダーの底部キャップの半径を設定します。 |
+| [setRadialSegments(int value)](#setRadialSegments-int-) | ラジアルセグメントを設定します。 |
+| [setRadiusBottom(double value)](#setRadiusBottom-double-) | シリンダーの下部キャップの半径を設定します。 |
 | [setRadiusTop(double value)](#setRadiusTop-double-) | シリンダーの上部キャップの半径を設定します。 |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | このジオメトリが影を受け取るかどうかを設定します。 |
-| [setShearBottom(Vector2 value)](#setShearBottom-com.aspose.threed.Vector2-) | 底面のせん断変換を設定します。ベクトルはラジアンで測定された (x 軸, z 軸) のせん断値を格納し、デフォルト値は (0, 0) です。 |
-| [setShearTop(Vector2 value)](#setShearTop-com.aspose.threed.Vector2-) | 上面のせん断変換を設定します。ベクトルはラジアンで測定された (x 軸, z 軸) のせん断値を格納し、デフォルト値は (0, 0) です。 |
+| [setShearBottom(Vector2 value)](#setShearBottom-com.aspose.threed.Vector2-) | 下側のせん断変換を設定します。ベクトルは (x軸, z軸) のせん断値をラジアンで格納し、デフォルト値は (0, 0) です。 |
+| [setShearTop(Vector2 value)](#setShearTop-com.aspose.threed.Vector2-) | 上側のせん断変換を設定します。ベクトルは (x軸, z軸) のせん断値をラジアンで格納し、デフォルト値は (0, 0) です。 |
 | [setThetaLength(double value)](#setThetaLength-double-) | theta の長さを設定します。 |
 | [setThetaStart(double value)](#setThetaStart-double-) | theta の開始位置を設定します。 |
 | [toMesh()](#toMesh--) | 現在のオブジェクトをメッシュに変換します |
@@ -102,7 +102,7 @@ public Cylinder(double radius, double height)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 半径 | double | 上部と下部キャップの半径。 |
+| radius | double | 上部と下部キャップの半径。 |
 | 高さ | double | 高さ。 |
 
 ### Cylinder(double radiusTop, double radiusBottom, double height) {#Cylinder-double-double-double-}
@@ -132,11 +132,11 @@ public Cylinder(double radiusTop, double radiusBottom, double height, int radial
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | radiusTop | double | シリンダーの上部キャップの半径。 |
-| radiusBottom | double | シリンダーの底部キャップの半径。 |
+| radiusBottom | double | シリンダーの下部キャップの半径。 |
 | 高さ | double | シリンダーの高さ。 |
-| radialSegments | int | 上部と下部の円の放射状セグメント.. |
+| radialSegments | int | 上部と下部の円のラジアルセグメント.. |
 | heightSegments | int | 高さセグメント。 |
-| openEnded | boolean | true に設定すると、シリンダーに上下のキャップがなくなります。 |
+| openEnded | boolean | true に設定すると、シリンダーに底部/上部のキャップがなくなります.. |
 
 ### Cylinder(String name, double radiusTop, double radiusBottom, double height, int radialSegments, int heightSegments, boolean openEnded, double thetaStart, double thetaLength) {#Cylinder-java.lang.String-double-double-double-int-int-boolean-double-double-}
 ```
@@ -151,11 +151,11 @@ public Cylinder(String name, double radiusTop, double radiusBottom, double heigh
 | --- | --- | --- |
 | 名前 | java.lang.String | このオブジェクトの名前 |
 | radiusTop | double | シリンダーの上部キャップの半径。 |
-| radiusBottom | double | シリンダーの底部キャップの半径。 |
+| radiusBottom | double | シリンダーの下部キャップの半径。 |
 | 高さ | double | シリンダーの高さ。 |
-| radialSegments | int | 上部と下部の円の放射状セグメント.. |
+| radialSegments | int | 上部と下部の円のラジアルセグメント.. |
 | heightSegments | int | 高さセグメント。 |
-| openEnded | boolean | true に設定すると、シリンダーに上下のキャップがなくなります。 |
+| openEnded | boolean | true に設定すると、シリンダーに底部/上部のキャップがなくなります.. |
 | thetaStart | double | Theta の開始位置。 |
 | thetaLength | double | Theta の長さ。 |
 
@@ -180,7 +180,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -212,7 +212,7 @@ public boolean getCastShadows()
 ```
 
 
-このジオメトリが影を落とすかどうかを取得します
+このジオメトリが影を落とすかどうかを取得します。
 
 **Returns:**
 boolean - このジオメトリが影を落とすかどうか
@@ -232,7 +232,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -252,10 +252,10 @@ public boolean getGenerateFanCylinder()
 ```
 
 
-ThetaLength が 2\*PI 未満のときにファンスタイルのシリンダーを生成するかどうかを取得します。そうでない場合、モデルはカットされません。
+ThetaLength が 2\*PI 未満のときにファンスタイルのシリンダーを生成するかどうかを取得します。そうでない場合、モデルは切断されません。
 
 **Returns:**
-boolean - ThetaLength が 2\*PI 未満のときにファンスタイルのシリンダーを生成するかどうか。そうでない場合、モデルはカットされません。
+boolean - ThetaLength が 2\*PI 未満の場合にファンスタイルのシリンダーを生成するかどうか。そうでない場合、モデルはカットされません。
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -285,7 +285,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getOffsetBottom() {#getOffsetBottom--}
 ```
 public Vector3 getOffsetBottom()
@@ -312,10 +312,10 @@ public boolean getOpenEnded()
 ```
 
 
-この [Cylinder](../../com.aspose.threed/cylinder) が開口部かどうかを示す値を取得します。デフォルト値は false です。
+この [Cylinder](../../com.aspose.threed/cylinder) が開口しているかどうかを示す値を取得します。デフォルト値は false です。
 
 **Returns:**
-boolean - この [Cylinder](../../com.aspose.threed/cylinder) が開口部かどうかを示す値。デフォルト値は false です。
+boolean - この [Cylinder](../../com.aspose.threed/cylinder) が開口しているかどうかを示す値。デフォルト値は false です。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -335,7 +335,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -380,7 +380,7 @@ public double getRadiusBottom()
 シリンダーの底キャップの半径を取得します。
 
 **Returns:**
-double - シリンダーの底キャップの半径。
+double - シリンダー底部キャップの半径。
 ### getRadiusTop() {#getRadiusTop--}
 ```
 public double getRadiusTop()
@@ -390,7 +390,7 @@ public double getRadiusTop()
 シリンダーの上部キャップの半径を取得します。
 
 **Returns:**
-double - シリンダーの上部キャップの半径。
+double - シリンダー上部キャップの半径。
 ### getReceiveShadows() {#getReceiveShadows--}
 ```
 public boolean getReceiveShadows()
@@ -417,7 +417,7 @@ public Vector2 getShearBottom()
 ```
 
 
-底面のせん断変換を取得します。ベクトルはラジアンで測定された (x 軸, z 軸) のせん断値を格納し、デフォルト値は (0, 0) です。
+下側のせん断変換を取得します。ベクトルは (x軸, z軸) のせん断値をラジアンで格納し、デフォルト値は (0, 0) です。
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - of the shear transform of the bottom side, vector stores the (x-axis, z-axis) shear value that measured in radian, default value is (0, 0)
@@ -427,7 +427,7 @@ public Vector2 getShearTop()
 ```
 
 
-上部のせん断変換を取得します。ベクトルはラジアンで測定された (x 軸, z 軸) のせん断値を格納し、デフォルト値は (0, 0) です。
+上側のせん断変換を取得します。ベクトルは (x軸, z軸) のせん断値をラジアンで格納し、デフォルト値は (0, 0) です。
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - of the shear transform of the top side, vector stores the (x-axis, z-axis) shear value that measured in radian, default value is (0, 0)
@@ -488,7 +488,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -498,12 +498,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -513,7 +513,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-このジオメトリが影を落とすかどうかを設定します
+このジオメトリが影を落とすかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -591,7 +591,7 @@ public void setOffsetBottom(Vector3 value)
 ```
 
 
-底面の頂点変換オフセットを設定します。
+下側の頂点変換オフセットを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -604,7 +604,7 @@ public void setOffsetTop(Vector3 value)
 ```
 
 
-上面の頂点変換オフセットを設定します。
+上側の頂点変換オフセットを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -617,7 +617,7 @@ public void setOpenEnded(boolean value)
 ```
 
 
-この [Cylinder](../../com.aspose.threed/cylinder) が開口部かどうかを示す値を設定します。デフォルト値は false です。
+この [Cylinder](../../com.aspose.threed/cylinder) が開口しているかどうかを示す値を設定します。デフォルト値は false です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -657,7 +657,7 @@ public void setRadialSegments(int value)
 ```
 
 
-放射状セグメントを設定します。
+ラジアルセグメントを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -670,7 +670,7 @@ public void setRadiusBottom(double value)
 ```
 
 
-シリンダーの底部キャップの半径を設定します。
+シリンダーの下部キャップの半径を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -709,7 +709,7 @@ public void setShearBottom(Vector2 value)
 ```
 
 
-底面のせん断変換を設定します。ベクトルはラジアンで測定された (x 軸, z 軸) のせん断値を格納し、デフォルト値は (0, 0) です。
+下側のせん断変換を設定します。ベクトルは (x軸, z軸) のせん断値をラジアンで格納し、デフォルト値は (0, 0) です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -722,7 +722,7 @@ public void setShearTop(Vector2 value)
 ```
 
 
-上面のせん断変換を設定します。ベクトルはラジアンで測定された (x 軸, z 軸) のせん断値を格納し、デフォルト値は (0, 0) です。
+上側のせん断変換を設定します。ベクトルは (x軸, z軸) のせん断値をラジアンで格納し、デフォルト値は (0, 0) です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

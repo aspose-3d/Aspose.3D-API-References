@@ -1,7 +1,7 @@
 ---
 title: "IMeshConvertible"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "このインターフェイスを実装したエンティティは変換可能です"
+description: "このインターフェイスを実装したエンティティは変換できます"
 type: docs
 weight: 244
 url: /ja/java/com.aspose.threed/imeshconvertible/

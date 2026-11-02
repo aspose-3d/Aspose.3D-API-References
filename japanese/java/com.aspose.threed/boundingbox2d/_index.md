@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox2D"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "軸に平行なバウンディングボックス"
+description: "軸に揃ったバウンディングボックス"
 type: docs
 weight: 25
 url: /ja/java/com.aspose.threed/boundingbox2d/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox2D implements Struct<BoundingBox2D>, Serializable
 ```
 
-軸に平行なバウンディングボックス（[Vector2](../../com.aspose.threed/vector2) 用）
+[Vector2](../../com.aspose.threed/vector2) 用の軸に平行なバウンディングボックス
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -37,15 +37,15 @@ public final class BoundingBox2D implements Struct<BoundingBox2D>, Serializable
 | [copyFrom(BoundingBox2D src)](#copyFrom-com.aspose.threed.BoundingBox2D-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExtent()](#getExtent--) | バウンディングボックスの範囲を取得します。 |
+| [getExtent()](#getExtent--) | バウンディングボックスの範囲を取得する。 |
 | [getMaximum()](#getMaximum--) | バウンディングボックスの最大コーナー |
 | [getMinimum()](#getMinimum--) | バウンディングボックスの最小コーナー |
 | [hashCode()](#hashCode--) |  |
-| [merge(BoundingBox2D bb)](#merge-com.aspose.threed.BoundingBox2D-) | 新しいボックスを現在のバウンディングボックスにマージします。 |
-| [merge(Vector2 pt)](#merge-com.aspose.threed.Vector2-) | 新しいボックスを現在のバウンディングボックスにマージします。 |
+| [merge(BoundingBox2D bb)](#merge-com.aspose.threed.BoundingBox2D-) | 新しいボックスを現在のバウンディングボックスにマージする。 |
+| [merge(Vector2 pt)](#merge-com.aspose.threed.Vector2-) | 新しいボックスを現在のバウンディングボックスにマージする。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | バウンディングボックスの文字列表現を取得します。 |
+| [toString()](#toString--) | バウンディングボックスの文字列表現を取得する。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -139,7 +139,7 @@ public BoundingBoxExtent getExtent()
 ```
 
 
-バウンディングボックスの範囲を取得します。
+バウンディングボックスの範囲を取得する。
 
 **Returns:**
 [BoundingBoxExtent](../../com.aspose.threed/boundingboxextent) - the extent of the bounding box.
@@ -179,7 +179,7 @@ public void merge(BoundingBox2D bb)
 ```
 
 
-新しいボックスを現在のバウンディングボックスにマージします。
+新しいボックスを現在のバウンディングボックスにマージする。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -192,12 +192,12 @@ public void merge(Vector2 pt)
 ```
 
 
-新しいボックスを現在のバウンディングボックスにマージします。
+新しいボックスを現在のバウンディングボックスにマージする。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| pt | [Vector2](../../com.aspose.threed/vector2) | マージするポイント |
+| pt | [Vector2](../../com.aspose.threed/vector2) | マージする点 |
 
 ### notify() {#notify--}
 ```
@@ -221,7 +221,7 @@ public String toString()
 ```
 
 
-バウンディングボックスの文字列表現を取得します。
+バウンディングボックスの文字列表現を取得する。
 
 **Returns:**
 java.lang.String

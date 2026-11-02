@@ -1,19 +1,19 @@
 ---
 title: "SkinDeformer"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "SkinDeformer は複数のボーンを含み、各ボーンは制御点のウェイトによってジオメトリの一部をブレンドします。"
+description: "SkinDeformer は複数のボーンを含み、各ボーンは制御点の重みでジオメトリの一部をブレンドします。"
 type: docs
 weight: 173
 url: /ja/java/com.aspose.threed/skindeformer/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)、[com.aspose.threed.Deformer](../../com.aspose.threed/deformer)
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.Deformer](../../com.aspose.threed/deformer)
 ```
 public class SkinDeformer extends Deformer
 ```
 
-スキン デフォーマーは複数のボーンを含み、各ボーンは制御点のウェイトによってジオメトリの一部をブレンドします。
+スキン デフォーマーは複数のボーンを持ち、各ボーンは制御点のウェイトによってジオメトリの一部をブレンドします。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -29,14 +29,14 @@ public class SkinDeformer extends Deformer
 | [getBones()](#getBones--) | SkinDeformer が含むすべてのボーンを取得します |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getOwner()](#getOwner--) | このデフォーマーを所有するジオメトリを取得します |
+| [getOwner()](#getOwner--) | このデフォーマーが所有するジオメトリを取得します |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [toString()](#toString--) |  |
@@ -85,7 +85,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -123,14 +123,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getOwner() {#getOwner--}
 ```
 public Geometry getOwner()
 ```
 
 
-このデフォーマーを所有するジオメトリを取得します
+このデフォーマーが所有するジオメトリを取得します
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer
@@ -196,7 +196,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -206,12 +206,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true

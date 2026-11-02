@@ -1,7 +1,7 @@
 ---
-title: "外挿"
+title: "Extrapolation"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "外挿は、サンプル値が最初と最後のキーフレームで定義された範囲外になったときの処理方法を定義します。"
+description: "外挿は、サンプリングされた値が最初と最後のキーフレームで定義された範囲外になったときの処理方法を定義します。"
 type: docs
 weight: 57
 url: /ja/java/com.aspose.threed/extrapolation/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Extrapolation
 ```
 
-外挿は、サンプル値が最初と最後のキーフレームで定義された範囲外になったときの処理方法を定義します。
+外挿は、サンプリングされた値が最初と最後のキーフレームで定義された範囲外になったときの処理方法を定義します。
 ## メソッド
 
 | メソッド | 説明 |
@@ -21,12 +21,12 @@ public class Extrapolation
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getRepeatCount()](#getRepeatCount--) | 外挿パターンの繰り返し回数を取得および設定します。 |
-| [getType()](#getType--) | 外挿のサンプリングパターンを取得および設定します |
+| [getType()](#getType--) | 外挿のサンプリング パターンを取得および設定します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setRepeatCount(int value)](#setRepeatCount-int-) | 外挿パターンの繰り返し回数を取得および設定します。 |
-| [setType(ExtrapolationType value)](#setType-com.aspose.threed.ExtrapolationType-) | 外挿のサンプリングパターンを取得および設定します |
+| [setType(ExtrapolationType value)](#setType-com.aspose.threed.ExtrapolationType-) | 外挿のサンプリング パターンを取得および設定します |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -72,7 +72,7 @@ public ExtrapolationType getType()
 ```
 
 
-外挿のサンプリングパターンを取得および設定します
+外挿のサンプリング パターンを取得および設定します
 
 **Returns:**
 [ExtrapolationType](../../com.aspose.threed/extrapolationtype) - and sets the sampling pattern of extrapolation
@@ -121,7 +121,7 @@ public void setType(ExtrapolationType value)
 ```
 
 
-外挿のサンプリングパターンを取得および設定します
+外挿のサンプリング パターンを取得および設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

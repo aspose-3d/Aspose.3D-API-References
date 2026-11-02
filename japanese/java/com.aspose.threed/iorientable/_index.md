@@ -1,7 +1,7 @@
 ---
 title: "IOrientable"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "向きを持つエンティティはこのインターフェイスを実装しなければなりません。"
+description: "向き付け可能なエンティティはこのインターフェイスを実装しなければなりません。"
 type: docs
 weight: 246
 url: /ja/java/com.aspose.threed/iorientable/
@@ -10,14 +10,14 @@ url: /ja/java/com.aspose.threed/iorientable/
 public interface IOrientable
 ```
 
-向きを持つエンティティはこのインターフェイスを実装しなければなりません。
+向き付け可能なエンティティはこのインターフェイスを実装しなければなりません。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [getDirection()](#getDirection--) | エンティティが向いている方向を取得します。 |
+| [getDirection()](#getDirection--) | エンティティが見ている方向を取得します。 |
 | [getTarget()](#getTarget--) | エンティティが見ている対象を取得します。 |
-| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | エンティティが向く方向を設定します。 |
+| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | エンティティが見ている方向を設定します。 |
 | [setTarget(Node value)](#setTarget-com.aspose.threed.Node-) | エンティティが見ている対象を設定します。 |
 ### getDirection() {#getDirection--}
 ```
@@ -25,7 +25,7 @@ public abstract Vector3 getDirection()
 ```
 
 
-エンティティが向いている方向を取得します。
+エンティティが見ている方向を取得します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the direction that the entity is looking at.
@@ -45,7 +45,7 @@ public abstract void setDirection(Vector3 value)
 ```
 
 
-エンティティが向く方向を設定します。
+エンティティが見ている方向を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

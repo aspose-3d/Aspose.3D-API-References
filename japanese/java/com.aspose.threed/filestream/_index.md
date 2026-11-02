@@ -8,7 +8,7 @@ url: /ja/java/com.aspose.threed/filestream/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.Stream](../../com.aspose.threed/stream)
+java.lang.Object, [com.aspose.threed.Stream](../../com.aspose.threed/stream)
 ```
 public class FileStream extends Stream
 ```

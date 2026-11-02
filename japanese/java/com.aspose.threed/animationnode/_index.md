@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationNode extends A3DObject
 ```
 
-Aspose.3D はアニメーション階層をサポートし、各アニメーションは複数のアニメーションとアニメーションのキーフレーム定義で構成できます。 [AnimationNode](../../com.aspose.threed/animationnode) は時間経過に伴うプロパティ値の変換を定義します。例えば、アニメーションノードはノードの変換や他の [A3DObject](../../com.aspose.threed/a3dobject) オブジェクトの数値プロパティを制御するために使用できます。
+Aspose.3D はアニメーション階層をサポートし、各アニメーションは複数のアニメーションとアニメーションのキーフレーム定義で構成できます。[AnimationNode](../../com.aspose.threed/animationnode) は時間にわたるプロパティ値の変換を定義し、例えば、アニメーションノードはノードの変換や他の [A3DObject](../../com.aspose.threed/a3dobject) オブジェクトの数値プロパティを制御するために使用できます。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [AnimationNode(String name)](#AnimationNode-java.lang.String-) | [AnimationNode](../../com.aspose.threed/animationnode) クラスの新しいインスタンスを初期化します。 |
-| [AnimationNode()](#AnimationNode--) | [AnimationNode](../../com.aspose.threed/animationnode) クラスの新しいインスタンスを初期化します。 |
+| [AnimationNode(String name)](#AnimationNode-java.lang.String-) | 新しい [AnimationNode](../../com.aspose.threed/animationnode) クラスのインスタンスを初期化します。 |
+| [AnimationNode()](#AnimationNode--) | 新しい [AnimationNode](../../com.aspose.threed/animationnode) クラスのインスタンスを初期化します。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -41,7 +41,7 @@ Aspose.3D はアニメーション階層をサポートし、各アニメーシ�
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [toString()](#toString--) |  |
@@ -54,7 +54,7 @@ public AnimationNode(String name)
 ```
 
 
-[AnimationNode](../../com.aspose.threed/animationnode) クラスの新しいインスタンスを初期化します。
+新しい [AnimationNode](../../com.aspose.threed/animationnode) クラスのインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -67,7 +67,7 @@ public AnimationNode()
 ```
 
 
-[AnimationNode](../../com.aspose.threed/animationnode) クラスの新しいインスタンスを初期化します。
+新しい [AnimationNode](../../com.aspose.threed/animationnode) クラスのインスタンスを初期化します。
 
 ### createBindPoint(A3DObject obj, String propName) {#createBindPoint-com.aspose.threed.A3DObject-java.lang.String-}
 ```
@@ -111,8 +111,8 @@ public BindPoint findBindPoint(A3DObject target, String name)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| target | [A3DObject](../../com.aspose.threed/a3dobject) | 検索するバインドポイントのターゲット。 |
-| 名前 | java.lang.String | 検索するバインドポイントの名前。 |
+| target | [A3DObject](../../com.aspose.threed/a3dobject) | 検索対象となるバインドポイントのターゲット。 |
+| 名前 | java.lang.String | 検索対象となるバインドポイントの名前。 |
 
 **Returns:**
 [BindPoint](../../com.aspose.threed/bindpoint) - The bind point.
@@ -122,7 +122,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -157,7 +157,7 @@ public List<BindPoint> getBindPoints()
 現在のプロパティバインドポイントを取得します
 
 **Returns:**
-java.util.List<com.aspose.threed.BindPoint> - 現在のプロパティバインドポイント
+java.util.List<com.aspose.threed.BindPoint> - 現在のプロパティのバインドポイント
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -179,7 +179,7 @@ public KeyframeSequence getKeyframeSequence(A3DObject target, String propName, b
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| target | [A3DObject](../../com.aspose.threed/a3dobject) | キーフレームシーケンスを作成するインスタンス。 |
+| target | [A3DObject](../../com.aspose.threed/a3dobject) | キーフレームシーケンスを作成する対象インスタンス。 |
 | propName | java.lang.String | プロパティの名前。 |
 | 作成 | boolean | true に設定された場合、シーケンスが存在しない場合は作成します。 |
 
@@ -196,7 +196,7 @@ public KeyframeSequence getKeyframeSequence(A3DObject target, String propName, S
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| target | [A3DObject](../../com.aspose.threed/a3dobject) | キーフレームシーケンスを作成するインスタンス。 |
+| target | [A3DObject](../../com.aspose.threed/a3dobject) | キーフレームシーケンスを作成する対象インスタンス。 |
 | propName | java.lang.String | プロパティの名前。 |
 | channelName | java.lang.String | チャンネル名。 |
 | 作成 | boolean | true に設定された場合、アニメーションシーケンスが存在しない場合は作成します。 |
@@ -212,7 +212,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -285,7 +285,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -295,12 +295,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true

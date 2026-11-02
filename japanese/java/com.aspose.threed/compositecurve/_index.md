@@ -1,19 +1,19 @@
 ---
 title: "CompositeCurve"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "A はいくつかの曲線セグメントで構成されています。"
+description: "A は複数の曲線セグメントで構成されています。"
 type: docs
 weight: 34
 url: /ja/java/com.aspose.threed/compositecurve/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject), [com.aspose.threed.Entity](../../com.aspose.threed/entity), [com.aspose.threed.Curve](../../com.aspose.threed/curve)
+java.lang.Object、[com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)、[com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject)、[com.aspose.threed.Entity](../../com.aspose.threed/entity)、[com.aspose.threed.Curve](../../com.aspose.threed/curve)
 ```
 public class CompositeCurve extends Curve
 ```
 
-A [CompositeCurve](../../com.aspose.threed/compositecurve) はいくつかの曲線セグメントで構成されています。
+A [CompositeCurve](../../com.aspose.threed/compositecurve) は複数の曲線セグメントで構成されています。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -30,7 +30,7 @@ A [CompositeCurve](../../com.aspose.threed/compositecurve) はいくつかの曲
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 線の色を取得します。デフォルト値は白 (1, 1, 1) です |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
@@ -43,7 +43,7 @@ A [CompositeCurve](../../com.aspose.threed/compositecurve) はいくつかの曲
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | 線の色を設定します。デフォルト値は白 (1, 1, 1) です |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
@@ -86,7 +86,7 @@ public void addSegment(Curve curve, boolean sameDirection)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | curve | [Curve](../../com.aspose.threed/curve) | 追加する曲線 |
-| sameDirection | boolean | 現在の曲線と同じ方向。 |
+| sameDirection | boolean | 現在の曲線と同じ方向です。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -109,7 +109,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -161,7 +161,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -184,7 +184,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -204,7 +204,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -287,7 +287,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -297,12 +297,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true

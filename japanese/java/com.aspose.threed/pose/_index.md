@@ -1,7 +1,7 @@
 ---
 title: "Pose"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "ジオメトリがスキンされたときに変換行列を保存するためにポーズが使用されます。"
+description: "ジオメトリがスキンされているときに変換行列を保存するためにポーズが使用されます。"
 type: docs
 weight: 135
 url: /ja/java/com.aspose.threed/pose/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Pose extends A3DObject
 ```
 
-ジオメトリがスキンされているときに変換行列を保存するためにポーズが使用されます。ポーズは [BonePose](../../com.aspose.threed/bonepose) の集合であり、各 [BonePose](../../com.aspose.threed/bonepose) はボーンノードの具体的な変換情報を保存します。
+ジオメトリがスキン化されているとき、ポーズは変換行列を保存するために使用されます。ポーズは [BonePose](../../com.aspose.threed/bonepose) の集合であり、各 [BonePose](../../com.aspose.threed/bonepose) は骨ノードの具体的な変換情報を保存します。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -24,8 +24,8 @@ public class Pose extends A3DObject
 
 | メソッド | 説明 |
 | --- | --- |
-| [addBonePose(Node node, Matrix4 matrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | 指定されたボーンノードのポーズ変換行列を保存します。 |
-| [addBonePose(Node node, Matrix4 matrix, boolean localMatrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-boolean-) | 指定されたボーンノードのポーズ変換行列を保存します。 |
+| [addBonePose(Node node, Matrix4 matrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | 指定された骨ノードのポーズ変換行列を保存します。 |
+| [addBonePose(Node node, Matrix4 matrix, boolean localMatrix)](#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-boolean-) | 指定された骨ノードのポーズ変換行列を保存します。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBonePoses()](#getBonePoses--) | すべての [BonePose](../../com.aspose.threed/bonepose) を取得します。 |
@@ -38,7 +38,7 @@ public class Pose extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setPoseType(PoseType value)](#setPoseType-com.aspose.threed.PoseType-) | ポーズのタイプを設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
@@ -87,14 +87,14 @@ public void addBonePose(Node node, Matrix4 matrix, boolean localMatrix)
 ```
 
 
-指定されたボーンノードのポーズ変換行列を保存します。
+指定された骨ノードのポーズ変換行列を保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) | ボーンノード。 |
 | matrix | [Matrix4](../../com.aspose.threed/matrix4) | 変換行列。 |
-| `localMatrix` | boolean | true に設定するとローカル行列を使用することを意味し、そうでなければグローバル行列を使用することを意味します。 |
+| localMatrix | boolean | true に設定するとローカル行列を使用することを意味し、そうでなければグローバル行列を使用することを意味します。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -117,7 +117,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -135,7 +135,7 @@ public List<BonePose> getBonePoses()
 すべての [BonePose](../../com.aspose.threed/bonepose) を取得します。
 
 **Returns:**
-java.util.List<com.aspose.threed.BonePose> - すべての [BonePose](../../com.aspose.threed/bonepose)。
+java.util.List<com.aspose.threed.BonePose> - すべての [BonePose](../../com.aspose.threed/bonepose).
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -155,7 +155,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getPoseType() {#getPoseType--}
 ```
 public PoseType getPoseType()
@@ -228,7 +228,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -238,12 +238,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true

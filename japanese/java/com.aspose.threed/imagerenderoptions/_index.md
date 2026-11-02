@@ -1,7 +1,7 @@
 ---
 title: "ImageRenderOptions"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "オプション for  and"
+description: "のオプション と"
 type: docs
 weight: 83
 url: /ja/java/com.aspose.threed/imagerenderoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class ImageRenderOptions extends A3DObject
 ```
 
-オプション for [Scene](../../com.aspose.threed/scene) and [Scene](../../com.aspose.threed/scene)
+のオプション [Scene](../../com.aspose.threed/scene) と [Scene](../../com.aspose.threed/scene)
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -25,10 +25,10 @@ public class ImageRenderOptions extends A3DObject
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [getAssetDirectories()](#getAssetDirectories--) | 外部アセット（テクスチャなど）を格納したディレクトリ |
-| [getBackgroundColor()](#getBackgroundColor--) | レンダー結果の背景色。 |
+| [getAssetDirectories()](#getAssetDirectories--) | 外部アセット（テクスチャなど）を格納するディレクトリ |
+| [getBackgroundColor()](#getBackgroundColor--) | レンダリング結果の背景色です。 |
 | [getClass()](#getClass--) |  |
-| [getEnableShadows()](#getEnableShadows--) | 影をレンダーするかどうかを取得します。 |
+| [getEnableShadows()](#getEnableShadows--) | 影をレンダリングするかどうかを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
@@ -36,10 +36,10 @@ public class ImageRenderOptions extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setAssetDirectories(ArrayList<String> value)](#setAssetDirectories-java.util.ArrayList-java.lang.String--) | 外部アセット（テクスチャなど）を格納したディレクトリ |
-| [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | レンダー結果の背景色。 |
-| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | 影をレンダーするかどうかを設定します。 |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setAssetDirectories(ArrayList<String> value)](#setAssetDirectories-java.util.ArrayList-java.lang.String--) | 外部アセット（テクスチャなど）を格納するディレクトリ |
+| [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | レンダリング結果の背景色です。 |
+| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | 影をレンダリングするかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [toString()](#toString--) |  |
@@ -75,7 +75,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -90,17 +90,17 @@ public ArrayList<String> getAssetDirectories()
 ```
 
 
-外部アセット（テクスチャなど）を格納したディレクトリ
+外部アセット（テクスチャなど）を格納するディレクトリ
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - 外部アセット（テクスチャなど）を格納したディレクトリ
+java.util.ArrayList<java.lang.String> - 外部アセット（テクスチャなど）を格納するディレクトリ
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Vector3 getBackgroundColor()
 ```
 
 
-レンダー結果の背景色。
+レンダリング結果の背景色です。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The background color of the render result.
@@ -120,10 +120,10 @@ public boolean getEnableShadows()
 ```
 
 
-影をレンダーするかどうかを取得します。
+影をレンダリングするかどうかを取得します。
 
 **Returns:**
-boolean - 影をレンダーするかどうか。
+boolean - 影をレンダリングするかどうか。
 ### getName() {#getName--}
 ```
 public String getName()
@@ -133,7 +133,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -196,7 +196,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -206,12 +206,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -221,7 +221,7 @@ public void setAssetDirectories(ArrayList<String> value)
 ```
 
 
-外部アセット（テクスチャなど）を格納したディレクトリ
+外部アセット（テクスチャなど）を格納するディレクトリ
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -234,7 +234,7 @@ public void setBackgroundColor(Vector3 value)
 ```
 
 
-レンダー結果の背景色。
+レンダリング結果の背景色です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -247,7 +247,7 @@ public void setEnableShadows(boolean value)
 ```
 
 
-影をレンダーするかどうかを設定します。
+影をレンダリングするかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -13,7 +13,7 @@ java.lang.Object
 public class StructuralMetadata
 ```
 
-このクラスは EXT\_structural\_metadata のサポートを提供し、glTF でのみ使用されます。
+このクラスは EXT\_structural\_metadata のサポートを提供します（glTF でのみ使用）。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -32,7 +32,7 @@ public class StructuralMetadata
 | [getClass()](#getClass--) |  |
 | [getClasses()](#getClasses--) | クラス定義。 |
 | [getEnums()](#getEnums--) | 列挙型定義 |
-| [getPropertyTables()](#getPropertyTables--) | このメタデータ内のプロパティテーブル。 |
+| [getPropertyTables()](#getPropertyTables--) | このメタデータ内のプロパティテーブルです。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -131,7 +131,7 @@ public static StructuralMetadata from(Scene scene)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | 構造メタデータを検索するシーン |
+| scene | [Scene](../../com.aspose.threed/scene) | 構造メタデータを探すシーン |
 
 **Returns:**
 [StructuralMetadata](../../com.aspose.threed/structuralmetadata) - A valid instance of [StructuralMetadata](../../com.aspose.threed/structuralmetadata) if its found in the scene, otherwise null returned
@@ -154,7 +154,7 @@ public HashMap<String,StructuralMetadata.ClassType> getClasses()
 クラス定義。
 
 **Returns:**
-java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.ClassType> - クラス定義。
+java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.ClassType> - クラス定義.
 ### getEnums() {#getEnums--}
 ```
 public HashMap<String,StructuralMetadata.EnumType> getEnums()
@@ -171,7 +171,7 @@ public ArrayList<StructuralMetadata.PropertyTable> getPropertyTables()
 ```
 
 
-このメタデータ内のプロパティテーブル。
+このメタデータ内のプロパティテーブルです。
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.StructuralMetadata.PropertyTable> - このメタデータ内のプロパティテーブル。

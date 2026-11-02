@@ -1,7 +1,7 @@
 ---
 title: "TransformBuilder"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "変換行列を変換チェーンで構築するために使用されます。"
+description: "この  は変換行列を一連の変換で構築するために使用されます。"
 type: docs
 weight: 191
 url: /ja/java/com.aspose.threed/transformbuilder/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TransformBuilder
 ```
 
-The [TransformBuilder](../../com.aspose.threed/transformbuilder) は、変換のチェーンによって変換行列を構築するために使用されます。 **Example:** 以下のコードは、一連の操作で行列を作成する方法を示しています
+この [TransformBuilder](../../com.aspose.threed/transformbuilder) は、一連の変換で変換行列を構築するために使用されます。 **Example:** 以下のコードは、操作のセットで行列を作成する方法を示しています
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -42,19 +42,19 @@ TransformBuilder tb = new TransformBuilder();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [prepend(Matrix4 m)](#prepend-com.aspose.threed.Matrix4-) | 新しい変換行列を変換チェーンの先頭に追加します。 |
+| [prepend(Matrix4 m)](#prepend-com.aspose.threed.Matrix4-) | 新しい変換行列を変換チェーンの先頭に前置します。 |
 | [rearrange(Axis newX, Axis newY, Axis newZ)](#rearrange-com.aspose.threed.Axis-com.aspose.threed.Axis-com.aspose.threed.Axis-) | 軸のレイアウトを再配置します。 |
 | [reset()](#reset--) | 変換を単位行列にリセットします |
 | [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | クォータニオンによる回転をチェーンする **Example:** |
 | [rotateDegree(Vector3 rot, RotationOrder order)](#rotateDegree-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | 指定された順序で回転を追加する |
 | [rotateDegree(double angle, Vector3 axis)](#rotateDegree-double-com.aspose.threed.Vector3-) | 度単位で回転変換をチェーンする |
-| [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | 度単位のオイラー角で回転をチェーンする **Example:** |
-| [rotateEulerRadian(Vector3 r)](#rotateEulerRadian-com.aspose.threed.Vector3-) | ラジアン単位のオイラー角で回転をチェーンする **Example:** |
-| [rotateEulerRadian(double x, double y, double z)](#rotateEulerRadian-double-double-double-) | ラジアン単位のオイラー角で回転をチェーンする **Example:** |
+| [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | 度単位のオイラー角による回転をチェーンする **Example:** |
+| [rotateEulerRadian(Vector3 r)](#rotateEulerRadian-com.aspose.threed.Vector3-) | ラジアン単位のオイラー角による回転をチェーンする **Example:** |
+| [rotateEulerRadian(double x, double y, double z)](#rotateEulerRadian-double-double-double-) | ラジアン単位のオイラー角による回転をチェーンする **Example:** |
 | [rotateRadian(Vector3 rot, RotationOrder order)](#rotateRadian-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | 指定された順序で回転を追加する |
 | [rotateRadian(double angle, Vector3 axis)](#rotateRadian-double-com.aspose.threed.Vector3-) | ラジアン単位で回転変換をチェーンする |
 | [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | スケール変換をチェーンする **Example:** |
-| [scale(double s)](#scale-double-) | コンポーネントが s でスケーリングされたスケーリング変換行列をチェーンする **Example:** |
+| [scale(double s)](#scale-double-) | 成分が s でスケーリングされたスケーリング変換行列をチェーンする **Example:** |
 | [scale(double x, double y, double z)](#scale-double-double-double-) | スケーリング変換行列をチェーンする **Example:** |
 | [setComposeOrder(ComposeOrder value)](#setComposeOrder-com.aspose.threed.ComposeOrder-) | チェーンの合成順序を設定します。 |
 | [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | 現在の行列値を設定します |
@@ -204,7 +204,7 @@ public TransformBuilder prepend(Matrix4 m)
 ```
 
 
-新しい変換行列を変換チェーンの先頭に追加します。
+新しい変換行列を変換チェーンの先頭に前置します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -301,7 +301,7 @@ public TransformBuilder rotateEulerDegree(double degX, double degY, double degZ)
 ```
 
 
-度単位のオイラー角で回転をチェーンする **Example:**
+度単位のオイラー角による回転をチェーンする **Example:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -324,7 +324,7 @@ public TransformBuilder rotateEulerRadian(Vector3 r)
 ```
 
 
-ラジアン単位のオイラー角で回転をチェーンする **Example:**
+ラジアン単位のオイラー角による回転をチェーンする **Example:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -345,7 +345,7 @@ public TransformBuilder rotateEulerRadian(double x, double y, double z)
 ```
 
 
-ラジアン単位のオイラー角で回転をチェーンする **Example:**
+ラジアン単位のオイラー角による回転をチェーンする **Example:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -431,7 +431,7 @@ public TransformBuilder scale(double s)
 ```
 
 
-コンポーネントが s でスケーリングされたスケーリング変換行列をチェーンする **Example:**
+成分が s でスケーリングされたスケーリング変換行列をチェーンする **Example:**
 
 ```
 TransformBuilder tb = new TransformBuilder();

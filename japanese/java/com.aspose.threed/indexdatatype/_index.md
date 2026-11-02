@@ -18,8 +18,8 @@ public enum IndexDataType extends Enum<IndexDataType>
 
 | フィールド | 説明 |
 | --- | --- |
-| [INT16](#INT16) | インデックスバッファの要素は 16 ビット整数です |
-| [INT32](#INT32) | インデックスバッファの要素は 32 ビット整数です |
+| [INT16](#INT16) | インデックスバッファの要素は 16 ビット int です |
+| [INT32](#INT32) | インデックスバッファの要素は 32 ビット int です |
 ## メソッド
 
 | メソッド | 説明 |
@@ -47,7 +47,7 @@ public static final IndexDataType INT16
 ```
 
 
-インデックスバッファの要素は 16 ビット整数です
+インデックスバッファの要素は 16 ビット int です
 
 ### INT32 {#INT32}
 ```
@@ -55,7 +55,7 @@ public static final IndexDataType INT32
 ```
 
 
-インデックスバッファの要素は 32 ビット整数です
+インデックスバッファの要素は 32 ビット int です
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

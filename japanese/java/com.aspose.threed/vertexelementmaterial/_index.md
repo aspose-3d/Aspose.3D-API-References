@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementMaterial extends VertexElement
 ```
 
-指定されたコンポーネントのマテリアルインデックスを定義します。ノードは複数のマテリアルを持つことができ、[VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) はジオメトリの異なる部分を異なるマテリアルでレンダリングするために使用されます。**Example:** 以下のコードは、ボックスの異なる面に異なるマテリアルを割り当てる方法を示しています。
+指定されたコンポーネントのマテリアルインデックスを定義します。ノードは複数のマテリアルを持つことができ、[VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) はジオメトリの異なる部分を異なるマテリアルでレンダリングするために使用されます。 **Example:** 以下のコードは、ボックスの異なる面に異なるマテリアルを割り当てる方法を示しています。
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -32,7 +32,7 @@ public class VertexElementMaterial extends VertexElement
 
 | メソッド | 説明 |
 | --- | --- |
-| [clear()](#clear--) | direct と index 配列からすべての要素を削除します。 |
+| [clear()](#clear--) | direct と index の配列からすべての要素を削除します。 |
 | [clone(boolean withData)](#clone-boolean-) | 頂点要素をディープクローンします。 |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -67,7 +67,7 @@ public void clear()
 ```
 
 
-direct と index 配列からすべての要素を削除します。
+direct と index の配列からすべての要素を削除します。
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -80,7 +80,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| withData | boolean | direct と index 配列で頂点をクローンします。 |
+| withData | boolean | direct と index の配列で頂点をクローンします。 |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -154,7 +154,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getReferenceMode() {#getReferenceMode--}
 ```
 public ReferenceMode getReferenceMode()

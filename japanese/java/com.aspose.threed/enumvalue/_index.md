@@ -25,8 +25,8 @@ public static class StructuralMetadata.EnumValue
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | 列挙型の名前 |
-| [getValue()](#getValue--) | 列挙型の値 |
+| [getName()](#getName--) | 列挙型値の名前 |
+| [getValue()](#getValue--) | 列挙型値の値 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -79,20 +79,20 @@ public String getName()
 ```
 
 
-列挙型の名前
+列挙型値の名前
 
 **Returns:**
-java.lang.String - 列挙型の名前
+java.lang.String - 列挙型値の名前
 ### getValue() {#getValue--}
 ```
 public int getValue()
 ```
 
 
-列挙型の値
+列挙型値の値
 
 **Returns:**
-int - 列挙型の値
+int - 列挙型値の値
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

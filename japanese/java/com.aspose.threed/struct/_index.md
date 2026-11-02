@@ -18,7 +18,7 @@ public interface Struct<T> extends Cloneable, Serializable
 
 | メソッド | 説明 |
 | --- | --- |
-| [<T>byVal(T value)](#-T-byVal-T-) | 入力値が構造体の場合、コピーしようとする |
+| [<T>byVal(T value)](#-T-byVal-T-) | 入力値が構造体の場合、コピーを試みる |
 | [clone()](#clone--) | 現在のインスタンスをクローンする |
 | [copyFrom(T t)](#copyFrom-T-) | 引数 t から内部状態をコピーする |
 ### <T>byVal(T value) {#-T-byVal-T-}
@@ -27,7 +27,7 @@ public static T <T>byVal(T value)
 ```
 
 
-入力値が構造体の場合、コピーしようとする
+入力値が構造体の場合、コピーを試みる
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

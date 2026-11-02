@@ -19,7 +19,7 @@ public enum PresetShaders extends Enum<PresetShaders>
 | フィールド | 説明 |
 | --- | --- |
 | [CUSTOMIZED](#CUSTOMIZED) | ユーザーがカスタマイズしたシェーダーセット |
-| [DEFAULT](#DEFAULT) | phong/lambert/pbr マテリアル用のデフォルトシェーダーを使用します |
+| [DEFAULT](#DEFAULT) | Phong、Lambert、PBR マテリアルのデフォルトシェーダーを使用します |
 ## メソッド
 
 | メソッド | 説明 |
@@ -55,7 +55,7 @@ public static final PresetShaders DEFAULT
 ```
 
 
-phong/lambert/pbr マテリアル用のデフォルトシェーダーを使用します
+Phong、Lambert、PBR マテリアルのデフォルトシェーダーを使用します
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

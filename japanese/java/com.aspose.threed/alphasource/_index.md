@@ -20,7 +20,7 @@ public enum AlphaSource extends Enum<AlphaSource>
 | --- | --- |
 | [FIXED_VALUE](#FIXED-VALUE) | Alpha は、[TextureBase.getAlpha](../../com.aspose.threed/texturebase\#getAlpha) によって定義される固定値です。 |
 | [NONE](#NONE) | テクスチャにアルファは定義されていません。 |
-| [PIXEL_ALPHA](#PIXEL-ALPHA) | ピクセルのアルファチャンネルによってアルファが定義されます |
+| [PIXEL_ALPHA](#PIXEL-ALPHA) | アルファはピクセルのアルファチャンネルで定義されます |
 ## メソッド
 
 | メソッド | 説明 |
@@ -64,7 +64,7 @@ public static final AlphaSource PIXEL_ALPHA
 ```
 
 
-ピクセルのアルファチャンネルによってアルファが定義されます
+アルファはピクセルのアルファチャンネルで定義されます
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

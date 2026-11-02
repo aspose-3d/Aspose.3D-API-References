@@ -1,7 +1,7 @@
 ---
 title: "SplitMeshPolicy"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "サブメッシュ間で頂点/制御点データを共有するか、各サブメッシュが独自の圧縮データを持つか。"
+description: "サブメッシュ間で頂点/コントロールポイントデータを共有するか、各サブメッシュが独自の圧縮データを持ちます。"
 type: docs
 weight: 302
 url: /ja/java/com.aspose.threed/splitmeshpolicy/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum SplitMeshPolicy extends Enum<SplitMeshPolicy>
 ```
 
-サブメッシュ間で頂点/制御点データを共有するか、各サブメッシュが独自の圧縮データを持つか。
+サブメッシュ間で頂点/コントロールポイントデータを共有するか、各サブメッシュが独自の圧縮データを持ちます。
 ## フィールド
 
 | フィールド | 説明 |

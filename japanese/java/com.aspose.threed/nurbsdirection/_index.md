@@ -1,7 +1,7 @@
 ---
 title: "NurbsDirection"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "3D には 2 つの方向があり、 と がそれぞれの方向のデータを定義します。"
+description: "A 3D  は2つの方向を持ち、 と がそれぞれの方向のデータを定義します。"
 type: docs
 weight: 113
 url: /ja/java/com.aspose.threed/nurbsdirection/
@@ -13,21 +13,21 @@ java.lang.Object
 public class NurbsDirection
 ```
 
-3D [NurbsSurface](../../com.aspose.threed/nurbssurface) には 2 つの方向があり、[NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) と [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV) がそれぞれの方向を表します。[NurbsDirection](../../com.aspose.threed/nurbsdirection) は各方向のデータを定義します。方向は実際には NURBS 曲線であり、[getOrder](../../com.aspose.threed/nurbsdirection\#getOrder)、[getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors)、および [NurbsSurface](../../com.aspose.threed/nurbssurface) で定義される加重制御点の集合によっても定義されます。
+A 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) は2つの方向を持ち、[NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) と [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV) です。[NurbsDirection](../../com.aspose.threed/nurbsdirection) が各方向のデータを定義します。方向は実際には NURBS 曲線であり、[getOrder](../../com.aspose.threed/nurbsdirection\#getOrder)、[getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors)、および [NurbsSurface](../../com.aspose.threed/nurbssurface) で定義される加重制御点の集合によっても定義されます。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [NurbsDirection()](#NurbsDirection--) | [NurbsDirection](../../com.aspose.threed/nurbsdirection) の新しいインスタンスを作成します |
+| [NurbsDirection()](#NurbsDirection--) | [NurbsDirection](../../com.aspose.threed/nurbsdirection) の新しいインスタンスを構築します |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | 現在の方向における制御点の数を取得します。 |
+| [getCount()](#getCount--) | 現在の方向の制御点の数を取得します。 |
 | [getDegree()](#getDegree--) | NURBS 曲線の次数を取得します。次数は Order - 1 と定義されます |
-| [getDivisions()](#getDivisions--) | 現在の方向で隣接する制御点間の分割数を取得します。 |
+| [getDivisions()](#getDivisions--) | 現在の方向における隣接する制御点間の分割数を取得します。 |
 | [getKnotVectors()](#getKnotVectors--) | ノットベクトルを取得します。これはパラメータ値のシーケンスで、制御点が NURBS 曲線にどのように影響するかを決定します |
 | [getMultiplicity()](#getMultiplicity--) | 多重度を取得します。 |
 | [getOrder()](#getOrder--) | NURBS 曲線のオーダーを取得します。これは曲線上の任意の点に影響を与える近傍の制御点の数を定義します |
@@ -35,9 +35,9 @@ public class NurbsDirection
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCount(int value)](#setCount-int-) | 現在の方向における制御点の数を設定します。 |
+| [setCount(int value)](#setCount-int-) | 現在の方向の制御点の数を設定します。 |
 | [setDegree(int value)](#setDegree-int-) | NURBS 曲線の次数を設定します。次数は Order - 1 と定義されます |
-| [setDivisions(int value)](#setDivisions-int-) | 現在の方向で隣接する制御点間の分割数を設定します。 |
+| [setDivisions(int value)](#setDivisions-int-) | 現在の方向における隣接する制御点間の分割数を設定します。 |
 | [setOrder(int value)](#setOrder-int-) | NURBS 曲線のオーダーを設定します。これは曲線上の任意の点に影響を与える近傍の制御点の数を定義します |
 | [setType(NurbsType value)](#setType-com.aspose.threed.NurbsType-) | 現在の方向のタイプを設定します。 |
 | [toString()](#toString--) |  |
@@ -50,7 +50,7 @@ public NurbsDirection()
 ```
 
 
-[NurbsDirection](../../com.aspose.threed/nurbsdirection) の新しいインスタンスを作成します
+[NurbsDirection](../../com.aspose.threed/nurbsdirection) の新しいインスタンスを構築します
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -83,10 +83,10 @@ public int getCount()
 ```
 
 
-現在の方向における制御点の数を取得します。
+現在の方向の制御点の数を取得します。
 
 **Returns:**
-int - 現在の方向における制御点の数。
+int - 現在の方向の制御点の数。
 ### getDegree() {#getDegree--}
 ```
 public int getDegree()
@@ -103,10 +103,10 @@ public int getDivisions()
 ```
 
 
-現在の方向で隣接する制御点間の分割数を取得します。
+現在の方向における隣接する制御点間の分割数を取得します。
 
 **Returns:**
-int - 現在の方向で隣接する制御点間の分割数です。
+int - 現在の方向における隣接する制御点間の分割数です。
 ### getKnotVectors() {#getKnotVectors--}
 ```
 public List<Double> getKnotVectors()
@@ -179,7 +179,7 @@ public void setCount(int value)
 ```
 
 
-現在の方向における制御点の数を設定します。
+現在の方向の制御点の数を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -205,7 +205,7 @@ public void setDivisions(int value)
 ```
 
 
-現在の方向で隣接する制御点間の分割数を設定します。
+現在の方向における隣接する制御点間の分割数を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

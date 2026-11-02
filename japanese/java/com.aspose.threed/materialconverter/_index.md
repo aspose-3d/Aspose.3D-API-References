@@ -10,19 +10,19 @@ url: /ja/java/com.aspose.threed/materialconverter/
 public interface MaterialConverter
 ```
 
-ジオメトリの元のマテリアルを GLTF の PBR マテリアルに変換するカスタムコンバータ。
+ジオメトリの元のマテリアルを GLTF の PBR マテリアルに変換するカスタムコンバータです。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [call(Material mat)](#call-com.aspose.threed.Material-) | ジオメトリの元のマテリアルを GLTF の PBR マテリアルに変換するカスタムコンバータ。 |
+| [call(Material mat)](#call-com.aspose.threed.Material-) | ジオメトリの元のマテリアルを GLTF の PBR マテリアルに変換するカスタムコンバータです。 |
 ### call(Material mat) {#call-com.aspose.threed.Material-}
 ```
 public abstract Material call(Material mat)
 ```
 
 
-ジオメトリの元のマテリアルを GLTF の PBR マテリアルに変換するカスタムコンバータ。
+ジオメトリの元のマテリアルを GLTF の PBR マテリアルに変換するカスタムコンバータです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

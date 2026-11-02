@@ -1,7 +1,7 @@
 ---
 title: "ShaderSet"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "各種マテリアル用のシェーダープログラム"
+description: "各種マテリアル用シェーダープログラム"
 type: docs
 weight: 166
 url: /ja/java/com.aspose.threed/shaderset/
@@ -16,12 +16,12 @@ java.io.Closeable
 public class ShaderSet implements Closeable
 ```
 
-各種マテリアル用のシェーダープログラム
+各種マテリアル用シェーダープログラム
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [ShaderSet()](#ShaderSet--) | [ShaderSet](../../com.aspose.threed/shaderset) のインスタンスを構築します。 |
+| [ShaderSet()](#ShaderSet--) | [ShaderSet](../../com.aspose.threed/shaderset) のインスタンスを構築します |
 ## メソッド
 
 | メソッド | 説明 |
@@ -29,17 +29,17 @@ public class ShaderSet implements Closeable
 | [close()](#close--) | このインスタンスを破棄し、すべてのシェーダープログラムを解放します。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFallback()](#getFallback--) | 必要なシェーダーが利用できない場合のフォールバックシェーダーを取得します。 |
-| [getLambert()](#getLambert--) | lambert マテリアルのレンダリングに使用されるシェーダーを取得します。 |
-| [getPbr()](#getPbr--) | PBR マテリアルのレンダリングに使用されるシェーダーを取得します。 |
-| [getPhong()](#getPhong--) | phong マテリアルのレンダリングに使用されるシェーダーを取得します。 |
+| [getFallback()](#getFallback--) | 必要なシェーダーが利用できない場合のフォールバックシェーダーを取得します |
+| [getLambert()](#getLambert--) | Lambert マテリアルのレンダリングに使用されるシェーダーを取得します |
+| [getPbr()](#getPbr--) | PBR マテリアルのレンダリングに使用されるシェーダーを取得します |
+| [getPhong()](#getPhong--) | Phong マテリアルのレンダリングに使用されるシェーダーを取得します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFallback(ShaderProgram value)](#setFallback-com.aspose.threed.ShaderProgram-) | 必要なシェーダーが利用できない場合のフォールバックシェーダーを設定します。 |
-| [setLambert(ShaderProgram value)](#setLambert-com.aspose.threed.ShaderProgram-) | lambert マテリアルのレンダリングに使用されるシェーダーを設定します。 |
-| [setPbr(ShaderProgram value)](#setPbr-com.aspose.threed.ShaderProgram-) | PBR マテリアルのレンダリングに使用されるシェーダーを設定します。 |
-| [setPhong(ShaderProgram value)](#setPhong-com.aspose.threed.ShaderProgram-) | phong マテリアルのレンダリングに使用されるシェーダーを設定します。 |
+| [setFallback(ShaderProgram value)](#setFallback-com.aspose.threed.ShaderProgram-) | 必要なシェーダーが利用できない場合のフォールバックシェーダーを設定します |
+| [setLambert(ShaderProgram value)](#setLambert-com.aspose.threed.ShaderProgram-) | Lambert マテリアルのレンダリングに使用されるシェーダーを設定します |
+| [setPbr(ShaderProgram value)](#setPbr-com.aspose.threed.ShaderProgram-) | PBR マテリアルのレンダリングに使用されるシェーダーを設定します |
+| [setPhong(ShaderProgram value)](#setPhong-com.aspose.threed.ShaderProgram-) | Phong マテリアルのレンダリングに使用されるシェーダーを設定します |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +50,7 @@ public ShaderSet()
 ```
 
 
-[ShaderSet](../../com.aspose.threed/shaderset) のインスタンスを構築します。
+[ShaderSet](../../com.aspose.threed/shaderset) のインスタンスを構築します
 
 ### close() {#close--}
 ```
@@ -91,7 +91,7 @@ public ShaderProgram getFallback()
 ```
 
 
-必要なシェーダーが利用できない場合のフォールバックシェーダーを取得します。
+必要なシェーダーが利用できない場合のフォールバックシェーダーを取得します
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the fallback shader when required shader is unavailable
@@ -101,7 +101,7 @@ public ShaderProgram getLambert()
 ```
 
 
-lambert マテリアルのレンダリングに使用されるシェーダーを取得します。
+Lambert マテリアルのレンダリングに使用されるシェーダーを取得します
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the lambert material
@@ -111,7 +111,7 @@ public ShaderProgram getPbr()
 ```
 
 
-PBR マテリアルのレンダリングに使用されるシェーダーを取得します。
+PBR マテリアルのレンダリングに使用されるシェーダーを取得します
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the PBR material
@@ -121,7 +121,7 @@ public ShaderProgram getPhong()
 ```
 
 
-phong マテリアルのレンダリングに使用されるシェーダーを取得します。
+Phong マテリアルのレンダリングに使用されるシェーダーを取得します
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the phong material
@@ -157,7 +157,7 @@ public void setFallback(ShaderProgram value)
 ```
 
 
-必要なシェーダーが利用できない場合のフォールバックシェーダーを設定します。
+必要なシェーダーが利用できない場合のフォールバックシェーダーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -170,7 +170,7 @@ public void setLambert(ShaderProgram value)
 ```
 
 
-lambert マテリアルのレンダリングに使用されるシェーダーを設定します。
+Lambert マテリアルのレンダリングに使用されるシェーダーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -183,7 +183,7 @@ public void setPbr(ShaderProgram value)
 ```
 
 
-PBR マテリアルのレンダリングに使用されるシェーダーを設定します。
+PBR マテリアルのレンダリングに使用されるシェーダーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -196,7 +196,7 @@ public void setPhong(ShaderProgram value)
 ```
 
 
-phong マテリアルのレンダリングに使用されるシェーダーを設定します。
+Phong マテリアルのレンダリングに使用されるシェーダーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

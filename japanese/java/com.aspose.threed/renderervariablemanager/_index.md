@@ -27,12 +27,12 @@ public abstract class RendererVariableManager
 | [getMatrixView()](#getMatrixView--) | ビュー変換用マトリックス |
 | [getMatrixViewProjection()](#getMatrixViewProjection--) | ビューおよび投影変換用マトリックス。 |
 | [getMatrixWorld()](#getMatrixWorld--) | ワールド変換用マトリックス |
-| [getMatrixWorldNormal()](#getMatrixWorldNormal--) | オブジェクト空間からワールド空間への法線変換用マトリックス。 |
+| [getMatrixWorldNormal()](#getMatrixWorldNormal--) | オブジェクトからワールド空間への法線変換用マトリックス。 |
 | [getMatrixWorldViewProjection()](#getMatrixWorldViewProjection--) | ワールドビューと投影変換のための行列 |
 | [getShadowCaster()](#getShadowCaster--) | ワールド座標系におけるシャドウキャスターの位置 |
 | [getShadowmap()](#getShadowmap--) | シャドウマッピングに使用される深度テクスチャ |
-| [getViewportSize()](#getViewportSize--) | ピクセル単位で測定されたビューポートのサイズ |
-| [getWorldAmbient()](#getWorldAmbient--) | ビューポートで定義された環境光カラー。 |
+| [getViewportSize()](#getViewportSize--) | ビューポートのサイズ（ピクセル単位） |
+| [getWorldAmbient()](#getWorldAmbient--) | ビューポートで定義されたアンビエントカラー。 |
 | [getWorldTime()](#getWorldTime--) | 秒単位の時間 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -44,8 +44,8 @@ public abstract class RendererVariableManager
 | [setMatrixView(FMatrix4 value)](#setMatrixView-com.aspose.threed.FMatrix4-) | ビュー変換用マトリックス |
 | [setShadowCaster(FVector3 value)](#setShadowCaster-com.aspose.threed.FVector3-) | ワールド座標系におけるシャドウキャスターの位置 |
 | [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | シャドウマッピングに使用される深度テクスチャ |
-| [setViewportSize(FVector2 value)](#setViewportSize-com.aspose.threed.FVector2-) | ピクセル単位で測定されたビューポートのサイズ |
-| [setWorldAmbient(FVector3 value)](#setWorldAmbient-com.aspose.threed.FVector3-) | ビューポートで定義された環境光カラー。 |
+| [setViewportSize(FVector2 value)](#setViewportSize-com.aspose.threed.FVector2-) | ビューポートのサイズ（ピクセル単位） |
+| [setWorldAmbient(FVector3 value)](#setWorldAmbient-com.aspose.threed.FVector3-) | ビューポートで定義されたアンビエントカラー。 |
 | [setWorldTime(float value)](#setWorldTime-float-) | 秒単位の時間 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -95,7 +95,7 @@ public float getDepthBias()
 シャドウマッピングの深度バイアス、デフォルト値は 0.001
 
 **Returns:**
-float - シャドウマッピングの深度バイアス、デフォルト値は 0.001
+float - シャドウマッピング用の深度バイアス、デフォルト値は 0.001
 ### getMatrixLightSpace() {#getMatrixLightSpace--}
 ```
 public FMatrix4 getMatrixLightSpace()
@@ -152,7 +152,7 @@ public FMatrix4 getMatrixWorldNormal()
 ```
 
 
-オブジェクト空間からワールド空間への法線変換用マトリックス。
+オブジェクトからワールド空間への法線変換用マトリックス。
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for converting normal from object to world space.
@@ -192,7 +192,7 @@ public FVector2 getViewportSize()
 ```
 
 
-ピクセル単位で測定されたビューポートのサイズ
+ビューポートのサイズ（ピクセル単位）
 
 **Returns:**
 [FVector2](../../com.aspose.threed/fvector2) - Size of viewport, measured in pixel
@@ -202,7 +202,7 @@ public FVector3 getWorldAmbient()
 ```
 
 
-ビューポートで定義された環境光カラー。
+ビューポートで定義されたアンビエントカラー。
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Ambient color defined in viewport.
@@ -339,7 +339,7 @@ public void setViewportSize(FVector2 value)
 ```
 
 
-ピクセル単位で測定されたビューポートのサイズ
+ビューポートのサイズ（ピクセル単位）
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -352,7 +352,7 @@ public void setWorldAmbient(FVector3 value)
 ```
 
 
-ビューポートで定義された環境光カラー。
+ビューポートで定義されたアンビエントカラー。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -1,7 +1,7 @@
 ---
 title: "GltfEmbeddedImageFormat"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "glTF エクスポーターがエクスポート中にテクスチャを埋め込む方法。"
+description: "エクスポート中に glTF エクスポーターがテクスチャを埋め込む方法。"
 type: docs
 weight: 281
 url: /ja/java/com.aspose.threed/gltfembeddedimageformat/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum GltfEmbeddedImageFormat extends Enum<GltfEmbeddedImageFormat>
 ```
 
-glTF エクスポーターがエクスポート中にテクスチャを埋め込む方法。
+エクスポート中に glTF エクスポーターがテクスチャを埋め込む方法。
 ## フィールド
 
 | フィールド | 説明 |
 | --- | --- |
-| [JPEG](#JPEG) | サポートされていないすべての画像形式は、可能な場合は jpeg に変換されます。 |
+| [JPEG](#JPEG) | サポートされていない画像形式は、可能な場合は jpeg に変換されます。 |
 | [NO_CHANGE](#NO-CHANGE) | 画像を変換せず、そのまま保持します。 |
-| [PNG](#PNG) | サポートされていないすべての画像形式は、可能な場合は png に変換されます。 |
+| [PNG](#PNG) | サポートされていない画像形式は、可能な場合は png に変換されます。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -48,7 +48,7 @@ public static final GltfEmbeddedImageFormat JPEG
 ```
 
 
-サポートされていないすべての画像形式は、可能な場合は jpeg に変換されます。
+サポートされていない画像形式は、可能な場合は jpeg に変換されます。
 
 ### NO_CHANGE {#NO-CHANGE}
 ```
@@ -64,7 +64,7 @@ public static final GltfEmbeddedImageFormat PNG
 ```
 
 
-サポートされていないすべての画像形式は、可能な場合は png に変換されます。
+サポートされていない画像形式は、可能な場合は png に変換されます。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

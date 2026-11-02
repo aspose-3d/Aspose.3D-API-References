@@ -30,9 +30,9 @@ Siemens JT 用のロードオプションです。
 | [getFileName()](#getFileName--) | エクスポート/インポートシーンのファイル名。 |
 | [getFileSystem()](#getFileSystem--) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem のファクトリークラスを取得します。 |
-| [getLoadPMI()](#getLoadPMI--) | 可能であれば JT ファイルから PMI 情報をロードし、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。 |
-| [getLoadProperties()](#getLoadProperties--) | JT のプロパティテーブルからプロパティをロードし、Aspose.3D のプロパティとして扱います。 |
-| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [getLoadPMI()](#getLoadPMI--) | 可能であれば JT ファイルから PMI 情報を読み込み、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。 |
+| [getLoadProperties()](#getLoadProperties--) | JT のプロパティテーブルから Aspose.3D プロパティとしてプロパティを読み込みます。 |
+| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -40,9 +40,9 @@ Siemens JT 用のロードオプションです。
 | [setFileName(String value)](#setFileName-java.lang.String-) | エクスポート/インポートシーンのファイル名。 |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem のファクトリークラスを設定します。 |
-| [setLoadPMI(boolean value)](#setLoadPMI-boolean-) | 可能であれば JT ファイルから PMI 情報をロードし、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。 |
-| [setLoadProperties(boolean value)](#setLoadProperties-boolean-) | JT のプロパティテーブルからプロパティをロードし、Aspose.3D のプロパティとして扱います。 |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [setLoadPMI(boolean value)](#setLoadPMI-boolean-) | 可能であれば JT ファイルから PMI 情報を読み込み、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。 |
+| [setLoadProperties(boolean value)](#setLoadProperties-boolean-) | JT のプロパティテーブルから Aspose.3D プロパティとしてプロパティを読み込みます。 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -106,10 +106,10 @@ public String getFileName()
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Returns:**
-java.lang.String - エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+java.lang.String - エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -150,7 +150,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem のファクトリークラスを取得します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを取得します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -179,30 +179,30 @@ public boolean getLoadPMI()
 ```
 
 
-可能であれば JT ファイルから PMI 情報をロードし、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。デフォルト値は false です。
+可能であれば JT ファイルから PMI 情報を読み込み、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。デフォルト値は false です。
 
 **Returns:**
-boolean - 可能であれば JT ファイルから PMI 情報をロードし、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。デフォルト値は false です。
+boolean - 可能であれば JT ファイルから PMI 情報を読み込み、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。デフォルト値は false です。
 ### getLoadProperties() {#getLoadProperties--}
 ```
 public boolean getLoadProperties()
 ```
 
 
-JT のプロパティテーブルからプロパティをロードし、Aspose.3D のプロパティとして扱います。デフォルト値は false です。
+JT のプロパティテーブルから Aspose.3D プロパティとしてプロパティを読み込みます。デフォルト値は false です。
 
 **Returns:**
-boolean - JT のプロパティテーブルからプロパティをロードし、Aspose.3D のプロパティとして扱います。デフォルト値は false です。
+boolean - JT のプロパティテーブルから Aspose.3D プロパティとしてプロパティを読み込みます。デフォルト値は false です。
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします
+java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています
 
 ```
 var opt = new ObjLoadOptions();
@@ -243,7 +243,7 @@ public void setEncoding(Charset value)
 ```
 
 
-テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定することを意味します。
+テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -256,7 +256,7 @@ public void setFileName(String value)
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -274,7 +274,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **Example:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は次のようなさまざまな FileSystem 実装を提供します： |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **例:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は以下のようなさまざまな FileSystem 実装を提供しています： |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -306,12 +306,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem のファクトリークラスを設定します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを設定します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **Example:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **例:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -338,7 +338,7 @@ public void setLoadPMI(boolean value)
 ```
 
 
-可能であれば JT ファイルから PMI 情報をロードし、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。デフォルト値は false です。
+可能であれば JT ファイルから PMI 情報を読み込み、データは [Scene.getAssetInfo](../../com.aspose.threed/scene\#getAssetInfo) のプロパティ "PMI" として保存されます。デフォルト値は false です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -351,7 +351,7 @@ public void setLoadProperties(boolean value)
 ```
 
 
-JT のプロパティテーブルからプロパティをロードし、Aspose.3D のプロパティとして扱います。デフォルト値は false です。
+JT のプロパティテーブルから Aspose.3D プロパティとしてプロパティを読み込みます。デフォルト値は false です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -364,12 +364,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします |
+|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています |
 
 ```
 var opt = new ObjLoadOptions();

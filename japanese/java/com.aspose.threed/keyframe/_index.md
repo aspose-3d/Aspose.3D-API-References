@@ -1,7 +1,7 @@
 ---
 title: "KeyFrame"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "キー フレームは主に時間と値で定義され、いくつかの補間タイプでは、最終的なサンプル値を計算する際に tangent/tension/bias/continuity も使用されます。"
+description: "キー フレームは主に時間と値で定義され、いくつかの補間タイプ（tangent/​tension/​bias/​continuity）も最終的なサンプル値の計算に使用されます。"
 type: docs
 weight: 89
 url: /ja/java/com.aspose.threed/keyframe/
@@ -13,50 +13,50 @@ java.lang.Object
 public class KeyFrame
 ```
 
-キー フレームは主に時間と値で定義され、いくつかの補間タイプでは、最終的なサンプル値を計算する際に tangent/tension/bias/continuity も使用されます。非キー フレームの時間位置におけるサンプル値は、前後のキー フレーム間のキー フレームによって補間されます。最初/最後のキー フレームの前後の値は、[Extrapolation](../../com.aspose.threed/extrapolation) クラスによって計算されます。
+キー フレームは主に時間と値で定義され、いくつかの補間タイプ（tangent/​tension/​bias/​continuity）も最終的なサンプル値の計算に使用されます。非キー フレームの時間位置におけるサンプル値は、前後のキー フレーム間でキー フレームによって補間されます。最初または最後のキー フレームの前後の値は、[Extrapolation](../../com.aspose.threed/extrapolation) クラスによって計算されます。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [KeyFrame(KeyframeSequence curve, double time)](#KeyFrame-com.aspose.threed.KeyframeSequence-double-) | 指定された曲線上に新しいキー フレームを作成する |
+| [KeyFrame(KeyframeSequence curve, double time)](#KeyFrame-com.aspose.threed.KeyframeSequence-double-) | 指定された曲線上に新しいキー フレームを作成します。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBias()](#getBias--) | TCB スプラインで使用されるバイアスを取得する |
+| [getBias()](#getBias--) | TCB スプラインで使用されるバイアスを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getContinuity()](#getContinuity--) | TCB スプラインで使用される連続性を取得する |
-| [getFlat()](#getFlat--) | キー フレームがフラットかどうかを取得または設定する。 |
-| [getIndependentTangent()](#getIndependentTangent--) | 外側と次の内側の接線が独立しているかを取得する。 |
+| [getContinuity()](#getContinuity--) | TCB スプラインで使用される連続性を取得します。 |
+| [getFlat()](#getFlat--) | キー フレームがフラットかどうかを取得または設定します。 |
+| [getIndependentTangent()](#getIndependentTangent--) | 外側と次の内側の接線が独立しているかどうかを取得します。 |
 | [getInterpolation()](#getInterpolation--) | キーの補間タイプを取得します。list.data[index] はサンプル値の計算方法を定義するアルゴリズムです。 |
-| [getNextInTangent()](#getNextInTangent--) | このキー フレーム上の次の内側（左）接線を取得する。 |
-| [getNextInWeight()](#getNextInWeight--) | このキー フレーム上の次の内側（左）ウェイトを取得する。 |
-| [getOutTangent()](#getOutTangent--) | このキー フレーム上の外側（右）接線を取得する。 |
-| [getOutWeight()](#getOutWeight--) | このキー フレーム上の外側（右）ウェイトを取得する。 |
-| [getStepMode()](#getStepMode--) | キーのステップモードを取得する。 |
-| [getTangentWeightMode()](#getTangentWeightMode--) | キーの接線ウェイトモードを取得する。 |
-| [getTension()](#getTension--) | TCB スプラインで使用されるテンションを取得する。 |
-| [getTime()](#getTime--) | list.data[index] キー フレームの時間位置を取得します（秒単位）。 |
-| [getTimeIndependentTangent()](#getTimeIndependentTangent--) | 接線が時間に依存しないかを取得する。 |
-| [getValue()](#getValue--) | キー フレームの値を取得する。 |
+| [getNextInTangent()](#getNextInTangent--) | このキー フレーム上の次の内側（左）接線を取得します。 |
+| [getNextInWeight()](#getNextInWeight--) | このキー フレーム上の次の内側（左）ウェイトを取得します。 |
+| [getOutTangent()](#getOutTangent--) | このキー フレーム上の外側（右）接線を取得します。 |
+| [getOutWeight()](#getOutWeight--) | このキー フレーム上の外側（右）ウェイトを取得します。 |
+| [getStepMode()](#getStepMode--) | キーのステップモードを取得します。 |
+| [getTangentWeightMode()](#getTangentWeightMode--) | キーの接線ウェイトモードを取得します。 |
+| [getTension()](#getTension--) | TCB スプラインで使用されるテンションを取得します。 |
+| [getTime()](#getTime--) | list.data[index] キー フレームの時間位置（秒単位）を取得します。 |
+| [getTimeIndependentTangent()](#getTimeIndependentTangent--) | 接線が時間に依存しないか取得します。 |
+| [getValue()](#getValue--) | キー フレームの値を取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBias(float value)](#setBias-float-) | TCB スプラインで使用されるバイアスを設定する。 |
-| [setContinuity(float value)](#setContinuity-float-) | TCB スプラインで使用される連続性を設定する。 |
-| [setFlat(boolean value)](#setFlat-boolean-) | キー フレームがフラットかどうかを取得または設定する。 |
-| [setIndependentTangent(boolean value)](#setIndependentTangent-boolean-) | アウトと次のイン接線が独立であることを設定します。 |
+| [setBias(float value)](#setBias-float-) | TCB スプラインで使用されるバイアスを設定します。 |
+| [setContinuity(float value)](#setContinuity-float-) | TCB スプラインで使用される連続性を設定します。 |
+| [setFlat(boolean value)](#setFlat-boolean-) | キー フレームがフラットかどうかを取得または設定します。 |
+| [setIndependentTangent(boolean value)](#setIndependentTangent-boolean-) | アウトと次のインタンジェントが独立していることを設定します。 |
 | [setInterpolation(Interpolation value)](#setInterpolation-com.aspose.threed.Interpolation-) | キーの補間タイプを設定します。list.data[index] はサンプリングされた値の計算方法を定義するアルゴリズムです。 |
-| [setNextInTangent(Vector2 value)](#setNextInTangent-com.aspose.threed.Vector2-) | このキー フレームの次のイン（左）接線を設定します。 |
-| [setNextInWeight(float value)](#setNextInWeight-float-) | このキー フレームの次のイン（左）ウェイトを設定します。 |
-| [setOutTangent(Vector2 value)](#setOutTangent-com.aspose.threed.Vector2-) | このキー フレームのアウト（右）接線を設定します。 |
-| [setOutWeight(float value)](#setOutWeight-float-) | このキー フレームのアウト（右）ウェイトを設定します。 |
+| [setNextInTangent(Vector2 value)](#setNextInTangent-com.aspose.threed.Vector2-) | このキーフレームの次のイン（左）タンジェントを設定します。 |
+| [setNextInWeight(float value)](#setNextInWeight-float-) | このキーフレームの次のイン（左）ウェイトを設定します。 |
+| [setOutTangent(Vector2 value)](#setOutTangent-com.aspose.threed.Vector2-) | このキーフレームのアウト（右）タンジェントを設定します。 |
+| [setOutWeight(float value)](#setOutWeight-float-) | このキーフレームのアウト（右）ウェイトを設定します。 |
 | [setStepMode(StepMode value)](#setStepMode-com.aspose.threed.StepMode-) | キーのステップモードを設定します。 |
-| [setTangentWeightMode(int value)](#setTangentWeightMode-int-) | キーの接線ウェイトモードを設定します。 |
+| [setTangentWeightMode(int value)](#setTangentWeightMode-int-) | キーのタンジェントウェイトモードを設定します。 |
 | [setTension(float value)](#setTension-float-) | TCB スプラインで使用されるテンションを設定します。 |
 | [setTime(double value)](#setTime-double-) | list.data[index] キーフレームの時間位置を秒単位で設定します。 |
-| [setTimeIndependentTangent(boolean value)](#setTimeIndependentTangent-boolean-) | 接線が時間に依存しないように設定します。 |
+| [setTimeIndependentTangent(boolean value)](#setTimeIndependentTangent-boolean-) | タンジェントが時間に依存しないように設定します。 |
 | [setValue(float value)](#setValue-float-) | キーフレームの値を設定します。 |
 | [toString()](#toString--) | キーフレームの文字列表現を取得します。 |
 | [wait()](#wait--) |  |
@@ -68,7 +68,7 @@ public KeyFrame(KeyframeSequence curve, double time)
 ```
 
 
-指定された曲線上に新しいキー フレームを作成する
+指定された曲線上に新しいキー フレームを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -97,7 +97,7 @@ public float getBias()
 ```
 
 
-TCB スプラインで使用されるバイアスを取得する
+TCB スプラインで使用されるバイアスを取得します。
 
 **Returns:**
 float - TCB スプラインで使用されるバイアス。
@@ -117,30 +117,30 @@ public float getContinuity()
 ```
 
 
-TCB スプラインで使用される連続性を取得する
+TCB スプラインで使用される連続性を取得します。
 
 **Returns:**
-float - TCB スプラインで使用されるコンティニュイティ。
+float - TCB スプラインで使用される連続性。
 ### getFlat() {#getFlat--}
 ```
 public boolean getFlat()
 ```
 
 
-キー フレームがフラットかどうかを取得または設定します。次または前のキー フレームと同じ値の場合、キー フレームはフラットであるべきです。フラットなキー フレームはフラットな接線と固定された補間を持ちます。
+キーフレームがフラットかどうかを取得または設定します。次または前のキーフレームと同じ値の場合、キーフレームはフラットであるべきです。フラットなキーフレームはフラットなタンジェントと固定された補間を持ちます。
 
 **Returns:**
-boolean - キー フレームがフラットかどうかを取得または設定します。次または前のキー フレームと同じ値の場合、キー フレームはフラットであるべきです。フラットなキー フレームはフラットな接線と固定された補間を持ちます。
+boolean - キーフレームがフラットかどうかを取得または設定します。次または前のキーフレームと同じ値の場合、キーフレームはフラットであるべきです。フラットなキーフレームはフラットなタンジェントと固定された補間を持ちます。
 ### getIndependentTangent() {#getIndependentTangent--}
 ```
 public boolean getIndependentTangent()
 ```
 
 
-外側と次の内側の接線が独立しているかを取得する。
+外側と次の内側の接線が独立しているかどうかを取得します。
 
 **Returns:**
-boolean - アウトと次のイン接線が独立です。
+boolean - アウトと次のインタンジェントが独立しています。
 ### getInterpolation() {#getInterpolation--}
 ```
 public Interpolation getInterpolation()
@@ -157,7 +157,7 @@ public Vector2 getNextInTangent()
 ```
 
 
-このキー フレーム上の次の内側（左）接線を取得する。
+このキー フレーム上の次の内側（左）接線を取得します。
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the next in(left) tangent on this key frame.
@@ -167,17 +167,17 @@ public float getNextInWeight()
 ```
 
 
-このキー フレーム上の次の内側（左）ウェイトを取得する。
+このキー フレーム上の次の内側（左）ウェイトを取得します。
 
 **Returns:**
-float - このキー フレームの次のイン（左）ウェイト。
+float - このキーフレームの次のイン（左）ウェイト。
 ### getOutTangent() {#getOutTangent--}
 ```
 public Vector2 getOutTangent()
 ```
 
 
-このキー フレーム上の外側（右）接線を取得する。
+このキー フレーム上の外側（右）接線を取得します。
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the out(right) tangent on this key frame.
@@ -187,17 +187,17 @@ public float getOutWeight()
 ```
 
 
-このキー フレーム上の外側（右）ウェイトを取得する。
+このキー フレーム上の外側（右）ウェイトを取得します。
 
 **Returns:**
-float - このキー フレームのアウト（右）ウェイト。
+float - このキーフレームのアウト（右）ウェイト。
 ### getStepMode() {#getStepMode--}
 ```
 public StepMode getStepMode()
 ```
 
 
-キーのステップモードを取得します。補間タイプが [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT) の場合、list.data[index] は補間中に使用されるキー フレームの値を決定します。[StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) は左側のキー フレームの値が使用されることを意味し、[StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) は次の右側のキー フレームの値が使用されることを意味します。
+キーのステップモードを取得します。補間タイプが [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT) の場合、list.data[index] は補間中に使用されるキーフレームの値を決定します。[StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) は左側のキーフレームの値が使用されることを意味し、[StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) は次の右側のキーフレームの値が使用されることを意味します。
 
 **Returns:**
 [StepMode](../../com.aspose.threed/stepmode) - the key's step mode. If the interpolation type is [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT), list.data[index] decides which key-frame's value will be used during interpolation. A [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) means the left key-frame's value will be used A [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) means the next right key-frame's value will be used
@@ -207,27 +207,27 @@ public int getTangentWeightMode()
 ```
 
 
-キーの接線ウェイトモードを取得します。アウト接線または次のイン接線は、適切な [WeightedMode](../../com.aspose.threed/weightedmode) を選択することでカスタマイズできます。
+キーのタンジェントウェイトモードを取得します。アウトタンジェントまたは次のインタンジェントは、適切な [WeightedMode](../../com.aspose.threed/weightedmode) を選択することでカスタマイズできます。
 
 **Returns:**
-int - キーの接線ウェイトモード。アウト接線または次のイン接線は、適切な [WeightedMode](../../com.aspose.threed/weightedmode) を選択することでカスタマイズできます。
+int - キーのタンジェントウェイトモード。アウトタンジェントまたは次のインタンジェントは、適切な [WeightedMode](../../com.aspose.threed/weightedmode) を選択することでカスタマイズできます。
 ### getTension() {#getTension--}
 ```
 public float getTension()
 ```
 
 
-TCB スプラインで使用されるテンションを取得する。
+TCB スプラインで使用されるテンションを取得します。
 
 **Returns:**
-float - TCB スプラインで使用されるテンション
+float - TCBスプラインで使用されるテンション
 ### getTime() {#getTime--}
 ```
 public double getTime()
 ```
 
 
-list.data[index] キー フレームの時間位置を取得します（秒単位）。
+list.data[index] キー フレームの時間位置（秒単位）を取得します。
 
 **Returns:**
 double - list.data[index] キーフレームの時間位置（秒で測定）
@@ -237,7 +237,7 @@ public boolean getTimeIndependentTangent()
 ```
 
 
-接線が時間に依存しないかを取得する。
+接線が時間に依存しないか取得します。
 
 **Returns:**
 boolean - 接線は時間に依存しない
@@ -247,7 +247,7 @@ public float getValue()
 ```
 
 
-キー フレームの値を取得する。
+キー フレームの値を取得します。
 
 **Returns:**
 float - キーフレームの値。
@@ -283,7 +283,7 @@ public void setBias(float value)
 ```
 
 
-TCB スプラインで使用されるバイアスを設定する。
+TCB スプラインで使用されるバイアスを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -296,7 +296,7 @@ public void setContinuity(float value)
 ```
 
 
-TCB スプラインで使用される連続性を設定する。
+TCB スプラインで使用される連続性を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -309,7 +309,7 @@ public void setFlat(boolean value)
 ```
 
 
-キー フレームがフラットかどうかを取得または設定します。次または前のキー フレームと同じ値の場合、キー フレームはフラットであるべきです。フラットなキー フレームはフラットな接線と固定された補間を持ちます。
+キーフレームがフラットかどうかを取得または設定します。次または前のキーフレームと同じ値の場合、キーフレームはフラットであるべきです。フラットなキーフレームはフラットなタンジェントと固定された補間を持ちます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -322,7 +322,7 @@ public void setIndependentTangent(boolean value)
 ```
 
 
-アウトと次のイン接線が独立であることを設定します。
+アウトと次のインタンジェントが独立していることを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -348,7 +348,7 @@ public void setNextInTangent(Vector2 value)
 ```
 
 
-このキー フレームの次のイン（左）接線を設定します。
+このキーフレームの次のイン（左）タンジェントを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -361,7 +361,7 @@ public void setNextInWeight(float value)
 ```
 
 
-このキー フレームの次のイン（左）ウェイトを設定します。
+このキーフレームの次のイン（左）ウェイトを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -374,7 +374,7 @@ public void setOutTangent(Vector2 value)
 ```
 
 
-このキー フレームのアウト（右）接線を設定します。
+このキーフレームのアウト（右）タンジェントを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -387,7 +387,7 @@ public void setOutWeight(float value)
 ```
 
 
-このキー フレームのアウト（右）ウェイトを設定します。
+このキーフレームのアウト（右）ウェイトを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -400,7 +400,7 @@ public void setStepMode(StepMode value)
 ```
 
 
-キーのステップモードを設定します。補間タイプが [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT) の場合、list.data[index] は補間中に使用されるキーフレームの値を決定します。 [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) は左側のキーフレームの値が使用されることを意味します。 [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) は右側の次のキーフレームの値が使用されることを意味します
+キーのステップモードを設定します。補間タイプが [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\\#CONSTANT) の場合、list.data[index] が補間中に使用されるキーフレームの値を決定します。[StepMode.PREVIOUS\\_VALUE](../../com.aspose.threed/stepmode\\#PREVIOUS-VALUE) は左側のキーフレームの値が使用されることを意味し、[StepMode.NEXT\\_VALUE](../../com.aspose.threed/stepmode\\#NEXT-VALUE) は右側の次のキーフレームの値が使用されることを意味します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -413,7 +413,7 @@ public void setTangentWeightMode(int value)
 ```
 
 
-キーの接線ウェイトモードを設定します。外部接線または次の内部接線は、適切な [WeightedMode](../../com.aspose.threed/weightedmode) を選択することでカスタマイズできます。
+キーの接線ウェイトモードを設定します。外部接線または次の内部接線は、正しい [WeightedMode](../../com.aspose.threed/weightedmode) を選択することでカスタマイズできます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -452,7 +452,7 @@ public void setTimeIndependentTangent(boolean value)
 ```
 
 
-接線が時間に依存しないように設定します。
+タンジェントが時間に依存しないように設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

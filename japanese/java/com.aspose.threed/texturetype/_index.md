@@ -1,7 +1,7 @@
 ---
 title: "TextureType"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "タイプは"
+description: "型は"
 type: docs
 weight: 307
 url: /ja/java/com.aspose.threed/texturetype/
@@ -13,16 +13,16 @@ java.lang.Object, java.lang.Enum
 public enum TextureType extends Enum<TextureType>
 ```
 
-タイプは [ITextureUnit](../../com.aspose.threed/itextureunit)
+型は [ITextureUnit](../../com.aspose.threed/itextureunit)
 ## フィールド
 
 | フィールド | 説明 |
 | --- | --- |
-| [ARRAY2D](#ARRAY2D) | 複数の 2D テクスチャのセット |
-| [CUBE_MAP](#CUBE-MAP) | キューブマップテクスチャは 6 つの 2D テクスチャを含みます |
-| [TEXTURE1D](#TEXTURE1D) | 1 次元テクスチャ |
-| [TEXTURE2D](#TEXTURE2D) | 2 次元テクスチャ |
-| [TEXTURE3D](#TEXTURE3D) | 3 次元テクスチャ |
+| [ARRAY2D](#ARRAY2D) | 複数の2Dテクスチャのセット |
+| [CUBE_MAP](#CUBE-MAP) | キューブマップテクスチャは6つの2Dテクスチャを含みます |
+| [TEXTURE1D](#TEXTURE1D) | 1次元テクスチャ |
+| [TEXTURE2D](#TEXTURE2D) | 2次元テクスチャ |
+| [TEXTURE3D](#TEXTURE3D) | 3次元テクスチャ |
 ## メソッド
 
 | メソッド | 説明 |
@@ -50,7 +50,7 @@ public static final TextureType ARRAY2D
 ```
 
 
-複数の 2D テクスチャのセット
+複数の2Dテクスチャのセット
 
 ### CUBE_MAP {#CUBE-MAP}
 ```
@@ -58,7 +58,7 @@ public static final TextureType CUBE_MAP
 ```
 
 
-キューブマップテクスチャは 6 つの 2D テクスチャを含みます
+キューブマップテクスチャは6つの2Dテクスチャを含みます
 
 ### TEXTURE1D {#TEXTURE1D}
 ```
@@ -66,7 +66,7 @@ public static final TextureType TEXTURE1D
 ```
 
 
-1 次元テクスチャ
+1次元テクスチャ
 
 ### TEXTURE2D {#TEXTURE2D}
 ```
@@ -74,7 +74,7 @@ public static final TextureType TEXTURE2D
 ```
 
 
-2 次元テクスチャ
+2次元テクスチャ
 
 ### TEXTURE3D {#TEXTURE3D}
 ```
@@ -82,7 +82,7 @@ public static final TextureType TEXTURE3D
 ```
 
 
-3 次元テクスチャ
+3次元テクスチャ
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

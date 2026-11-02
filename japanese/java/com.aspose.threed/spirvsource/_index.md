@@ -94,7 +94,7 @@ public byte[] getFragmentShader()
 フラグメントシェーダーのソースコードを取得します。
 
 **Returns:**
-byte[] - フラグメントシェーダのソースコードです。
+byte[] - フラグメントシェーダーのソースコードです。
 ### getGeometryShader() {#getGeometryShader--}
 ```
 public byte[] getGeometryShader()
@@ -104,7 +104,7 @@ public byte[] getGeometryShader()
 ジオメトリシェーダーのソースコードを取得します。
 
 **Returns:**
-byte[] - ジオメトリシェーダのソースコードです。
+byte[] - ジオメトリシェーダーのソースコードです。
 ### getMaximumDescriptorSets() {#getMaximumDescriptorSets--}
 ```
 public int getMaximumDescriptorSets()
@@ -114,7 +114,7 @@ public int getMaximumDescriptorSets()
 最大ディスクリプタセット数、デフォルト値は 10 です
 
 **Returns:**
-int - 最大記述子セット数、デフォルト値は10です
+int - 最大ディスクリプタセット数、デフォルト値は10です
 ### getVertexShader() {#getVertexShader--}
 ```
 public byte[] getVertexShader()
@@ -124,7 +124,7 @@ public byte[] getVertexShader()
 頂点シェーダーのソースコードを取得します
 
 **Returns:**
-byte[] - 頂点シェーダのソースコードです
+byte[] - 頂点シェーダーのソースコードです。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

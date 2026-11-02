@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class RvmLoadOptions extends LoadOptions
 ```
 
-AVEVA Plant Design Management System の RVM ファイル用ロードオプションです。 **Example:** 以下のコードは、RvmLoadOptions を使用して RVM ファイルからインポートされたプリミティブジオメトリのテッセレーションパラメータをカスタマイズする方法を示しています。
+AVEYA Plant Design Management System の RVM ファイル用ロードオプション。 **Example:** 以下のコードは、RvmLoadOptions を使用して RVM ファイルからインポートされたプリミティブジオメトリのテッセレーションパラメータをカスタマイズする方法を示しています。
 
 ```
 RvmLoadOptions opt = new RvmLoadOptions();
@@ -29,14 +29,14 @@ RvmLoadOptions opt = new RvmLoadOptions();
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [RvmLoadOptions(FileContentType contentType)](#RvmLoadOptions-com.aspose.threed.FileContentType-) | [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) インスタンスを作成します |
-| [RvmLoadOptions()](#RvmLoadOptions--) | [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) インスタンスを作成します |
+| [RvmLoadOptions(FileContentType contentType)](#RvmLoadOptions-com.aspose.threed.FileContentType-) | [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) のインスタンスを作成します。 |
+| [RvmLoadOptions()](#RvmLoadOptions--) | [RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) のインスタンスを作成します。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttributePrefix()](#getAttributePrefix--) | 外部属性ファイルで定義された属性のプレフィックスを取得します。プレフィックスは名前の競合を避けるために使用され、デフォルト値は "rvm:" です。 |
+| [getAttributePrefix()](#getAttributePrefix--) | 外部属性ファイルで定義された属性のプレフィックスを取得します。プレフィックスは名前の競合を回避するために使用され、デフォルト値は "rvm:" です。 |
 | [getCenterScene()](#getCenterScene--) | シーンがロードされた後にセンタリングします。 |
 | [getClass()](#getClass--) |  |
 | [getCylinderRadialSegments()](#getCylinderRadialSegments--) | シリンダーの放射状セグメント数を取得します。デフォルト値は 16 です。 |
@@ -47,15 +47,15 @@ RvmLoadOptions opt = new RvmLoadOptions();
 | [getFileName()](#getFileName--) | エクスポート/インポートシーンのファイル名。 |
 | [getFileSystem()](#getFileSystem--) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem のファクトリークラスを取得します。 |
-| [getGenerateMaterials()](#getGenerateMaterials--) | RVM ファイルにカラーテーブルがエクスポートされていない場合、シーン内の各オブジェクトに対してランダムな色のマテリアルを生成します。 |
+| [getGenerateMaterials()](#getGenerateMaterials--) | RVM ファイル内にカラーテーブルがエクスポートされていない場合、シーン内の各オブジェクトに対してランダムな色のマテリアルを生成します。 |
 | [getLookupAttributes()](#getLookupAttributes--) | 外部属性リストファイル（.att/.attrib/.txt）から属性をロードするかどうかを取得します。デフォルト値は true です。 |
-| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [getRectangularTorusSegments()](#getRectangularTorusSegments--) | 矩形トーラスの放射状セグメント数を取得します。デフォルト値は 20 です。 |
 | [getTorusTubularSegments()](#getTorusTubularSegments--) | トーラスのチューブ状セグメント数を取得します。デフォルト値は 20 です。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | 外部属性ファイルで定義された属性のプレフィックスを設定します。プレフィックスは名前の競合を避けるために使用され、デフォルト値は "rvm:" です。 |
+| [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | 外部属性ファイルで定義された属性のプレフィックスを設定します。プレフィックスは名前の競合を回避するために使用され、デフォルト値は "rvm:" です。 |
 | [setCenterScene(boolean value)](#setCenterScene-boolean-) | シーンがロードされた後にセンタリングします。 |
 | [setCylinderRadialSegments(int value)](#setCylinderRadialSegments-int-) | シリンダーの放射状セグメント数を設定します。デフォルト値は 16 です。 |
 | [setDishLatitudeSegments(int value)](#setDishLatitudeSegments-int-) | ディッシュの緯度セグメント数を設定します。デフォルト値は 8 です。 |
@@ -64,9 +64,9 @@ RvmLoadOptions opt = new RvmLoadOptions();
 | [setFileName(String value)](#setFileName-java.lang.String-) | エクスポート/インポートシーンのファイル名。 |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem のファクトリークラスを設定します。 |
-| [setGenerateMaterials(boolean value)](#setGenerateMaterials-boolean-) | RVM ファイルにカラーテーブルがエクスポートされていない場合、シーン内の各オブジェクトに対してランダムな色のマテリアルを生成します。 |
+| [setGenerateMaterials(boolean value)](#setGenerateMaterials-boolean-) | RVM ファイル内にカラーテーブルがエクスポートされていない場合、シーン内の各オブジェクトに対してランダムな色のマテリアルを生成します。 |
 | [setLookupAttributes(boolean value)](#setLookupAttributes-boolean-) | 外部属性リストファイル（.att/.attrib/.txt）から属性をロードするかどうかを設定します。デフォルト値は true です。 |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [setRectangularTorusSegments(int value)](#setRectangularTorusSegments-int-) | 矩形トーラスの放射状セグメント数を設定します。デフォルト値は 20 です。 |
 | [setTorusTubularSegments(int value)](#setTorusTubularSegments-int-) | トーラスのチューブ状セグメント数を設定します。デフォルト値は 20 です。 |
 | [toString()](#toString--) |  |
@@ -79,7 +79,7 @@ public RvmLoadOptions(FileContentType contentType)
 ```
 
 
-[RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) インスタンスを作成します
+[RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) のインスタンスを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -92,7 +92,7 @@ public RvmLoadOptions()
 ```
 
 
-[RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) インスタンスを作成します
+[RvmLoadOptions](../../com.aspose.threed/rvmloadoptions) のインスタンスを作成します。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -115,7 +115,7 @@ public String getAttributePrefix()
 ```
 
 
-外部属性ファイルで定義された属性のプレフィックスを取得します。プレフィックスは名前の競合を避けるために使用され、デフォルト値は "rvm:" です。
+外部属性ファイルで定義された属性のプレフィックスを取得します。プレフィックスは名前の競合を回避するために使用され、デフォルト値は "rvm:" です。
 
 **Returns:**
 java.lang.String - 外部属性ファイルで定義された属性のプレフィックス、プレフィックスは名前の衝突を防ぐために使用されます、デフォルト値は "rvm:"
@@ -128,7 +128,7 @@ public boolean getCenterScene()
 シーンがロードされた後にセンタリングします。
 
 **Returns:**
-boolean - シーンがロードされた後にセンタリングします。
+boolean - シーンがロードされた後にセンターに配置します。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -195,10 +195,10 @@ public String getFileName()
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Returns:**
-java.lang.String - エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+java.lang.String - エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -239,7 +239,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem のファクトリークラスを取得します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを取得します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -268,10 +268,10 @@ public boolean getGenerateMaterials()
 ```
 
 
-シーン内の各オブジェクトに対して、RVM ファイル内にカラーテーブルがエクスポートされていない場合、ランダムな色でマテリアルを生成します。デフォルト値は true
+RVM ファイル内でカラーテーブルがエクスポートされていない場合、シーン内の各オブジェクトに対してランダムな色でマテリアルを生成します。デフォルト値は true
 
 **Returns:**
-boolean - シーン内の各オブジェクトに対して、RVM ファイル内にカラーテーブルがエクスポートされていない場合、ランダムな色でマテリアルを生成します。デフォルト値は true
+boolean - RVM ファイル内でカラーテーブルがエクスポートされていない場合、シーン内の各オブジェクトに対してランダムな色でマテリアルを生成します。デフォルト値は true
 ### getLookupAttributes() {#getLookupAttributes--}
 ```
 public boolean getLookupAttributes()
@@ -288,10 +288,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします
+java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています
 
 ```
 var opt = new ObjLoadOptions();
@@ -352,7 +352,7 @@ public void setAttributePrefix(String value)
 ```
 
 
-外部属性ファイルで定義された属性のプレフィックスを設定します。プレフィックスは名前の競合を避けるために使用され、デフォルト値は "rvm:" です。
+外部属性ファイルで定義された属性のプレフィックスを設定します。プレフィックスは名前の競合を回避するために使用され、デフォルト値は "rvm:" です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -417,7 +417,7 @@ public void setEncoding(Charset value)
 ```
 
 
-テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定することを意味します。
+テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -430,7 +430,7 @@ public void setFileName(String value)
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -448,7 +448,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **Example:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は次のようなさまざまな FileSystem 実装を提供します： |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **例:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は以下のようなさまざまな FileSystem 実装を提供しています： |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -480,12 +480,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem のファクトリークラスを設定します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを設定します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **Example:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **例:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -512,7 +512,7 @@ public void setGenerateMaterials(boolean value)
 ```
 
 
-シーン内の各オブジェクトに対して、RVM ファイル内にカラーテーブルがエクスポートされていない場合、ランダムな色でマテリアルを生成します。デフォルト値は true
+RVM ファイル内でカラーテーブルがエクスポートされていない場合、シーン内の各オブジェクトに対してランダムな色でマテリアルを生成します。デフォルト値は true
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -538,12 +538,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします |
+|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています |
 
 ```
 var opt = new ObjLoadOptions();

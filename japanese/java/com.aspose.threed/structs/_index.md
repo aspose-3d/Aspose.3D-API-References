@@ -24,7 +24,7 @@ public abstract class Structs
 | [length()](#length--) | この配列の長さ |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [structSize()](#structSize--) | 単一構造体のバイトサイズ |
+| [structSize()](#structSize--) | 単一構造体のサイズ（バイト） |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,7 +98,7 @@ public final int structSize()
 ```
 
 
-単一構造体のバイトサイズ
+単一構造体のサイズ（バイト）
 
 **Returns:**
 int - 構造体のサイズ
@@ -158,7 +158,7 @@ public void writeTo(Stream stream)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 構造体を書き込むストリーム |
+| stream | [Stream](../../com.aspose.threed/stream) | 構造体を書き込むストリームはどれですか |
 
 ### writeTo(OutputStream stream) {#writeTo-java.io.OutputStream-}
 ```

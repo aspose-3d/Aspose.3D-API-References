@@ -20,7 +20,7 @@ public enum ReferenceMode extends Enum<ReferenceMode>
 | --- | --- |
 | [DIRECT](#DIRECT) | データは直接参照されます |
 | [INDEX](#INDEX) | データはインデックスで参照されます |
-| [INDEX_TO_DIRECT](#INDEX-TO-DIRECT) | データはインデックスで参照され、次に [VertexElement](../../com.aspose.threed/vertexelement) のデータリスト内でインデックスによりアクセスされます。 |
+| [INDEX_TO_DIRECT](#INDEX-TO-DIRECT) | データはインデックスで参照され、その後 [VertexElement](../../com.aspose.threed/vertexelement) のデータリスト内でインデックスによりアクセスされます。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -64,7 +64,7 @@ public static final ReferenceMode INDEX_TO_DIRECT
 ```
 
 
-データはインデックスで参照され、次に [VertexElement](../../com.aspose.threed/vertexelement) のデータリスト内でインデックスによりアクセスされます。
+データはインデックスで参照され、その後 [VertexElement](../../com.aspose.threed/vertexelement) のデータリスト内でインデックスによりアクセスされます。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

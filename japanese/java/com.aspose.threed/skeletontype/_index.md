@@ -19,7 +19,7 @@ public enum SkeletonType extends Enum<SkeletonType>
 | フィールド | 説明 |
 | --- | --- |
 | [BONE](#BONE) | この [Skeleton](../../com.aspose.threed/skeleton) は骨エンティティです。 |
-| [SKELETON](#SKELETON) | この [Skeleton](../../com.aspose.threed/skeleton) はスケルトンエンティティです。これは、関連ノードが全スケルトン階層のルートノードであることを意味します。 |
+| [SKELETON](#SKELETON) | この [Skeleton](../../com.aspose.threed/skeleton) はスケルトンエンティティです。これは、関連するノードが全スケルトン階層のルートノードであることを意味します。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -55,7 +55,7 @@ public static final SkeletonType SKELETON
 ```
 
 
-この [Skeleton](../../com.aspose.threed/skeleton) はスケルトンエンティティです。これは、関連ノードが全スケルトン階層のルートノードであることを意味します。
+この [Skeleton](../../com.aspose.threed/skeleton) はスケルトンエンティティです。これは、関連するノードが全スケルトン階層のルートノードであることを意味します。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "ITextureDecoder"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "外部テクスチャデコーダはデコードのためにこのインターフェイスを実装すべきです。"
+description: "外部テクスチャデコーダは、デコードのためにこのインターフェイスを実装すべきです。"
 type: docs
 weight: 256
 url: /ja/java/com.aspose.threed/itexturedecoder/
@@ -10,7 +10,7 @@ url: /ja/java/com.aspose.threed/itexturedecoder/
 public interface ITextureDecoder
 ```
 
-外部テクスチャデコーダはデコードのためにこのインターフェイスを実装すべきです。
+外部テクスチャデコーダは、デコードのためにこのインターフェイスを実装すべきです。
 ## メソッド
 
 | メソッド | 説明 |

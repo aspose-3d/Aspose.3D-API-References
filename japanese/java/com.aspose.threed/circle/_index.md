@@ -1,19 +1,19 @@
 ---
 title: "円"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "曲線は円形のエッジ上の点の集合で構成されます。"
+description: "曲線は円形の輪郭上の点の集合で構成されます。"
 type: docs
 weight: 31
 url: /ja/java/com.aspose.threed/circle/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject), [com.aspose.threed.Entity](../../com.aspose.threed/entity), [com.aspose.threed.Curve](../../com.aspose.threed/curve)
+java.lang.Object、[com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)、[com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject)、[com.aspose.threed.Entity](../../com.aspose.threed/entity)、[com.aspose.threed.Curve](../../com.aspose.threed/curve)
 ```
 public class Circle extends Curve
 ```
 
-[Circle](../../com.aspose.threed/circle) 曲線は円形のエッジ上の点の集合で構成されます。
+[Circle](../../com.aspose.threed/circle) 曲線は円形の輪郭上の点の集合で構成されます。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -29,26 +29,26 @@ public class Circle extends Curve
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 線の色を取得します。デフォルト値は白 (1, 1, 1) です |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [getParentNodes()](#getParentNodes--) | すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
-| [getRadius()](#getRadius--) | 円曲線の半径、デフォルト値は 10 です |
+| [getRadius()](#getRadius--) | 円曲線の半径、デフォルト値は10です |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | 線の色を設定します。デフォルト値は白 (1, 1, 1) です |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setRadius(double value)](#setRadius-double-) | 円曲線の半径、デフォルト値は 10 です |
+| [setRadius(double value)](#setRadius-double-) | 円曲線の半径、デフォルト値は10です |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -72,7 +72,7 @@ public Circle(double radius)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 半径 | double | 円曲線の半径です。 |
+| radius | double | 円曲線の半径です。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -95,7 +95,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -147,7 +147,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -170,7 +170,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -190,7 +190,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -222,10 +222,10 @@ public double getRadius()
 ```
 
 
-円曲線の半径、デフォルト値は 10 です
+円曲線の半径、デフォルト値は10です
 
 **Returns:**
-double - 円曲線の半径、デフォルト値は 10 です
+double - 円曲線の半径、デフォルト値は10です
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -273,7 +273,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -283,12 +283,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -364,7 +364,7 @@ public void setRadius(double value)
 ```
 
 
-円曲線の半径、デフォルト値は 10 です
+円曲線の半径、デフォルト値は10です
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

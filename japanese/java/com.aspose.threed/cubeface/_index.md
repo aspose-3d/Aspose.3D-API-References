@@ -18,12 +18,12 @@ public enum CubeFace extends Enum<CubeFace>
 
 | フィールド | 説明 |
 | --- | --- |
-| [NEGATIVEX](#NEGATIVEX) | この -X 面 |
-| [NEGATIVEY](#NEGATIVEY) | この -Y 面 |
-| [NEGATIVEZ](#NEGATIVEZ) | この -Z 面 |
-| [POSITIVEX](#POSITIVEX) | この +X 面 |
-| [POSITIVEY](#POSITIVEY) | この +Y 面 |
-| [POSITIVEZ](#POSITIVEZ) | この +Z 面 |
+| [NEGATIVEX](#NEGATIVEX) | -X 面 |
+| [NEGATIVEY](#NEGATIVEY) | -Y 面 |
+| [NEGATIVEZ](#NEGATIVEZ) | -Z 面 |
+| [POSITIVEX](#POSITIVEX) | +X 面 |
+| [POSITIVEY](#POSITIVEY) | +Y 面 |
+| [POSITIVEZ](#POSITIVEZ) | +Z 面 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -51,7 +51,7 @@ public static final CubeFace NEGATIVEX
 ```
 
 
-この -X 面
+-X 面
 
 ### NEGATIVEY {#NEGATIVEY}
 ```
@@ -59,7 +59,7 @@ public static final CubeFace NEGATIVEY
 ```
 
 
-この -Y 面
+-Y 面
 
 ### NEGATIVEZ {#NEGATIVEZ}
 ```
@@ -67,7 +67,7 @@ public static final CubeFace NEGATIVEZ
 ```
 
 
-この -Z 面
+-Z 面
 
 ### POSITIVEX {#POSITIVEX}
 ```
@@ -75,7 +75,7 @@ public static final CubeFace POSITIVEX
 ```
 
 
-この +X 面
++X 面
 
 ### POSITIVEY {#POSITIVEY}
 ```
@@ -83,7 +83,7 @@ public static final CubeFace POSITIVEY
 ```
 
 
-この +Y 面
++Y 面
 
 ### POSITIVEZ {#POSITIVEZ}
 ```
@@ -91,7 +91,7 @@ public static final CubeFace POSITIVEZ
 ```
 
 
-この +Z 面
++Z 面
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

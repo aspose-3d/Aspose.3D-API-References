@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "軸に平行なバウンディングボックス Example  以下のコードは、Entity インスタンスからバウンディングボックスを取得する方法を示しています。"
+description: "軸に平行なバウンディングボックス Example 以下のコードは、Entity インスタンスからバウンディングボックスを取得する方法を示しています。"
 type: docs
 weight: 24
 url: /ja/java/com.aspose.threed/boundingbox/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox implements Struct<BoundingBox>, Serializable
 ```
 
-軸に平行なバウンディングボックス **Example:** 次のコードは Entity インスタンスからバウンディングボックスを取得する方法を示しています。
+軸に揃ったバウンディングボックス **Example:** 以下のコードは、Entity インスタンスからバウンディングボックスを取得する方法を示しています。
 
 ```
 var sphere = new Sphere();
@@ -35,21 +35,21 @@ var sphere = new Sphere();
 | メソッド | 説明 |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [contains(BoundingBox bbox)](#contains-com.aspose.threed.BoundingBox-) | 現在のバウンディングボックス内にあるかどうかをチェックするバウンディングボックス。 |
+| [contains(BoundingBox bbox)](#contains-com.aspose.threed.BoundingBox-) | 現在のバウンディングボックス内にあるかどうかを確認するためのバウンディングボックス。 |
 | [contains(Vector3 p)](#contains-com.aspose.threed.Vector3-) | 点 p がバウンディングボックス内にあるか確認する |
 | [copyFrom(BoundingBox src)](#copyFrom-com.aspose.threed.BoundingBox-) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) | 2 つのオブジェクトが等しいかどうかを判断する |
+| [equals(Object obj)](#equals-java.lang.Object-) | 2つのオブジェクトが等しいかどうかを判定する |
 | [fromGeometry(Geometry geometry)](#fromGeometry-com.aspose.threed.Geometry-) | 与えられたジオメトリからバウンディングボックスを構築する |
 | [getCenter()](#getCenter--) | バウンディングボックスの中心。 |
 | [getClass()](#getClass--) |  |
-| [getExtent()](#getExtent--) | バウンディングボックスの範囲を取得します。 |
+| [getExtent()](#getExtent--) | バウンディングボックスの範囲を取得する。 |
 | [getInfinite()](#getInfinite--) | 無限バウンディングボックス |
 | [getMaximum()](#getMaximum--) | バウンディングボックスの最大コーナー |
 | [getMinimum()](#getMinimum--) | バウンディングボックスの最小コーナー |
 | [getNull()](#getNull--) | ヌルバウンディングボックス |
 | [getSize()](#getSize--) | バウンディングボックスのサイズ |
-| [hashCode()](#hashCode--) | このインスタンスのハッシュコードを返す |
-| [merge(BoundingBox bb)](#merge-com.aspose.threed.BoundingBox-) | 新しいボックスを現在のバウンディングボックスにマージします。 |
+| [hashCode()](#hashCode--) | このインスタンスのハッシュコードを返します |
+| [merge(BoundingBox bb)](#merge-com.aspose.threed.BoundingBox-) | 新しいボックスを現在のバウンディングボックスにマージする。 |
 | [merge(Vector3 pt)](#merge-com.aspose.threed.Vector3-) | 現在のバウンディングボックスを指定された点とマージする |
 | [merge(Vector4 pt)](#merge-com.aspose.threed.Vector4-) | 現在のバウンディングボックスを指定された点とマージする |
 | [merge(double x, double y, double z)](#merge-double-double-double-) | 現在のバウンディングボックスを指定された点とマージする |
@@ -57,8 +57,8 @@ var sphere = new Sphere();
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [overlapsWith(BoundingBox box)](#overlapsWith-com.aspose.threed.BoundingBox-) | 現在のバウンディングボックスが指定されたバウンディングボックスと重なるか確認する。 |
-| [scale()](#scale--) | 含まれる任意の点の絶対的な最大座標値を計算する。 |
-| [toString()](#toString--) | バウンディングボックスの文字列表現を取得します。 |
+| [scale()](#scale--) | 含まれる任意の点の絶対的な最大座標値を計算します。 |
+| [toString()](#toString--) | バウンディングボックスの文字列表現を取得する。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -74,7 +74,7 @@ public BoundingBox(Vector3 minimum, Vector3 maximum)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | minimum | [Vector3](../../com.aspose.threed/vector3) | 最小コーナー |
-|  | maximum | [Vector3](../../com.aspose.threed/vector3) | 最大コーナー **Example:** 以下のコードは、最小コーナーと最大コーナーからバウンディングボックスを構築する方法を示しています。 |
+|  | maximum | [Vector3](../../com.aspose.threed/vector3) | 最大角 **Example:** 以下のコードは、最小角と最大角からバウンディングボックスを構築する方法を示しています。 |
 
 ```
 var minimum = new Vector3(0, 0, 0);
@@ -94,7 +94,7 @@ public BoundingBox(double minX, double minY, double minZ, double maxX, double ma
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| minX | double | 最小コーナーの X |
+| minX | double | 最小角の X |
 | minY | double | 最小コーナーの Y |
 | minZ | double | 最小コーナーの Z |
 | maxX | double | 最大コーナーの X |
@@ -128,7 +128,7 @@ public boolean contains(BoundingBox bbox)
 ```
 
 
-現在のバウンディングボックス内にあるかどうかをチェックするバウンディングボックス。
+現在のバウンディングボックス内にあるかどうかを確認するためのバウンディングボックス。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -148,10 +148,10 @@ public boolean contains(Vector3 p)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| p | [Vector3](../../com.aspose.threed/vector3) | テストするポイント |
+| p | [Vector3](../../com.aspose.threed/vector3) | テストする点 |
 
 **Returns:**
-boolean - ポイントがバウンディングボックス内にある場合は True **Example:** 以下のコードは、ポイントがバウンディングボックス内にあるかどうかを確認する方法を示しています。
+boolean - 点がバウンディングボックスの内部にある場合は True **Example:** 以下のコードは、点がバウンディングボックスの内部にあるかどうかを確認する方法を示しています。
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -177,7 +177,7 @@ public boolean equals(Object obj)
 ```
 
 
-2 つのオブジェクトが等しいかどうかを判断する
+2つのオブジェクトが等しいかどうかを判定する
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -185,7 +185,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 比較するオブジェクト |
 
 **Returns:**
-boolean - 2つのオブジェクトが等しい場合は true
+boolean - 2 つのオブジェクトが等しい場合は true
 ### fromGeometry(Geometry geometry) {#fromGeometry-com.aspose.threed.Geometry-}
 ```
 public static BoundingBox fromGeometry(Geometry geometry)
@@ -233,7 +233,7 @@ public BoundingBoxExtent getExtent()
 ```
 
 
-バウンディングボックスの範囲を取得します。
+バウンディングボックスの範囲を取得する。
 
 **Returns:**
 [BoundingBoxExtent](../../com.aspose.threed/boundingboxextent) - the extent of the bounding box.
@@ -293,7 +293,7 @@ public int hashCode()
 ```
 
 
-このインスタンスのハッシュコードを返す
+このインスタンスのハッシュコードを返します
 
 **Returns:**
 int - バウンディングボックスのハッシュコード
@@ -303,7 +303,7 @@ public void merge(BoundingBox bb)
 ```
 
 
-新しいボックスを現在のバウンディングボックスにマージします。
+新しいボックスを現在のバウンディングボックスにマージする。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -321,7 +321,7 @@ public void merge(Vector3 pt)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | pt | [Vector3](../../com.aspose.threed/vector3) | バウンディングボックスにマージされるポイント **Example:** 以下のコードは、ポイントをバウンディングボックスにマージする方法を示しています。 |
+|  | pt | [Vector3](../../com.aspose.threed/vector3) | バウンディングボックスにマージされる点 **Example:** 以下のコードは、点をバウンディングボックスにマージする方法を示しています。 |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -340,7 +340,7 @@ public void merge(Vector4 pt)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | pt | [Vector4](../../com.aspose.threed/vector4) | バウンディングボックスにマージされるポイント **Example:** 以下のコードは、ポイントをバウンディングボックスにマージする方法を示しています。 |
+|  | pt | [Vector4](../../com.aspose.threed/vector4) | バウンディングボックスにマージされる点 **Example:** 以下のコードは、点をバウンディングボックスにマージする方法を示しています。 |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -359,9 +359,9 @@ public void merge(double x, double y, double z)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| x | double | バウンディングボックスにマージされるポイント |
-| y | double | バウンディングボックスにマージされるポイント |
-|  | z | double | バウンディングボックスにマージされるポイント **Example:** 以下のコードは、ポイントをバウンディングボックスにマージする方法を示しています。 |
+| x | double | バウンディングボックスにマージされる点 |
+| y | double | バウンディングボックスにマージされる点 |
+|  | z | double | バウンディングボックスにマージされる点 **Example:** 以下のコードは、点をバウンディングボックスにマージする方法を示しています。 |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -415,7 +415,7 @@ public boolean overlapsWith(BoundingBox box)
 | box | [BoundingBox](../../com.aspose.threed/boundingbox) | テストする他のバウンディングボックス |
 
 **Returns:**
-boolean - 現在のバウンディングボックスが指定されたものと重なる場合は True **Example:** 以下のコードは、2つのバウンディングボックスが互いに重なるかどうかを確認する方法を示しています。
+boolean - 現在のバウンディングボックスが指定されたものと重なる場合は True **Example:** 以下のコードは、2 つのバウンディングボックスが互いに重なるかどうかを確認する方法を示しています。
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -428,17 +428,17 @@ public double scale()
 ```
 
 
-含まれる任意の点の絶対的な最大座標値を計算する。
+含まれる任意の点の絶対的な最大座標値を計算します。
 
 **Returns:**
-double - 含まれる任意のポイントの計算された絶対最大座標値。
+double - 含まれる任意の点の計算された絶対最大座標値。
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-バウンディングボックスの文字列表現を取得します。
+バウンディングボックスの文字列表現を取得する。
 
 **Returns:**
 java.lang.String - バウンディングボックスの文字列表現。

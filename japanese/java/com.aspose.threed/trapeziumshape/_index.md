@@ -1,7 +1,7 @@
 ---
 title: "TrapeziumShape"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "パラメータで定義されたIFC互換の台形です。"
+description: "パラメータで定義された IFC 互換の台形形状。"
 type: docs
 weight: 193
 url: /ja/java/com.aspose.threed/trapeziumshape/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class TrapeziumShape extends ParameterizedProfile
 ```
 
-パラメータで定義されたIFC互換の台形です。
+パラメータで定義された IFC 互換の台形形状。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -28,7 +28,7 @@ public class TrapeziumShape extends ParameterizedProfile
 | [getBottomXDim()](#getBottomXDim--) | x 軸に沿って測定された下部ラインの長さを取得します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getExtent()](#getExtent--) | x と y の次元の範囲を取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -44,7 +44,7 @@ public class TrapeziumShape extends ParameterizedProfile
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setBottomXDim(double value)](#setBottomXDim-double-) | x 軸に沿って測定された下部ラインの長さを設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
@@ -86,7 +86,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -104,7 +104,7 @@ public double getBottomXDim()
 x 軸に沿って測定された下部ラインの長さを取得します。
 
 **Returns:**
-double - x 軸に沿って測定された下部ラインの長さ
+double - x 軸に沿って測定された下部ラインの長さ。
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
@@ -138,7 +138,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -171,7 +171,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -191,7 +191,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -236,7 +236,7 @@ public double getTopXDim()
 x 軸に沿って測定された上部ラインの長さを取得します。
 
 **Returns:**
-double - x 軸に沿って測定された上部ラインの長さ
+double - x 軸に沿って測定された上部ラインの長さ。
 ### getTopXOffset() {#getTopXOffset--}
 ```
 public double getTopXOffset()
@@ -246,7 +246,7 @@ public double getTopXOffset()
 上部ラインの開始点から下部ラインまでのオフセットを取得します。
 
 **Returns:**
-double - 上部ラインの開始点から下部ラインまでのオフセット
+double - 上部ラインの開始点から下部ラインまでのオフセット。
 ### getYDim() {#getYDim--}
 ```
 public double getYDim()
@@ -256,7 +256,7 @@ public double getYDim()
 y 軸に沿って測定された上部と下部ライン間の距離を取得します。
 
 **Returns:**
-double - y 軸に沿って測定された上部と下部ライン間の距離
+double - y 軸に沿って測定された上部と下部ライン間の距離。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -294,7 +294,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -304,12 +304,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true

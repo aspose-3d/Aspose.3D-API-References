@@ -31,7 +31,7 @@ public final class Vector4 implements Comparable<Vector4>, Struct<Vector4>, Seri
 
 | フィールド | 説明 |
 | --- | --- |
-| [w](#w) | w コンポーネント。 |
+| [w](#w) | w コンポーネントです。 |
 | [x](#x) | x 成分。 |
 | [y](#y) | y 成分。 |
 | [z](#z) | z 成分。 |
@@ -39,7 +39,7 @@ public final class Vector4 implements Comparable<Vector4>, Struct<Vector4>, Seri
 
 | メソッド | 説明 |
 | --- | --- |
-| [add(Vector4 lhs, Vector4 rhs)](#add-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | + の演算子オーバーロード |
+| [add(Vector4 lhs, Vector4 rhs)](#add-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | 演算子オーバーロード + |
 | [clone()](#clone--) |  |
 | [compareTo(Vector4 other)](#compareTo-com.aspose.threed.Vector4-) | 現在のベクトルを別のインスタンスと比較します。 |
 | [copyFrom(Vector4 src)](#copyFrom-com.aspose.threed.Vector4-) |  |
@@ -47,13 +47,13 @@ public final class Vector4 implements Comparable<Vector4>, Struct<Vector4>, Seri
 | [equals(Object obj)](#equals-java.lang.Object-) | 2つのベクトルが等しいか確認する |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) | このベクトルのハッシュコードを取得します |
-| [mul(Vector4 lhs, Vector4 rhs)](#mul-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | \* の演算子オーバーロード |
-| [mul(Vector4 lhs, double rhs)](#mul-com.aspose.threed.Vector4-double-) | \* の演算子オーバーロード |
+| [mul(Vector4 lhs, Vector4 rhs)](#mul-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | 演算子オーバーロード \* |
+| [mul(Vector4 lhs, double rhs)](#mul-com.aspose.threed.Vector4-double-) | 演算子オーバーロード \* |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(double newX, double newY, double newZ)](#set-double-double-double-) | ベクトルの xyz 成分を一度に設定し、w は 1 に設定されます |
-| [set(double newX, double newY, double newZ, double newW)](#set-double-double-double-double-) | ベクトルのすべての成分を一度に設定します |
-| [sub(Vector4 lhs, Vector4 rhs)](#sub-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | 「-」(マイナス) の演算子オーバーロード |
+| [set(double newX, double newY, double newZ)](#set-double-double-double-) | ベクトルの xyz コンポーネントを一度に設定し、w は 1 に設定されます |
+| [set(double newX, double newY, double newZ, double newW)](#set-double-double-double-double-) | ベクトルのすべてのコンポーネントを一度に設定します |
+| [sub(Vector4 lhs, Vector4 rhs)](#sub-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | 「-」 (マイナス) の演算子オーバーロード |
 | [toString()](#toString--) | 現在の [Vector4](../../com.aspose.threed/vector4) を表す java.lang.String を返します。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -70,7 +70,7 @@ public Vector4(Vector3 vec, double w)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | vec | [Vector3](../../com.aspose.threed/vector3) | Vec. |
-| w | double | 幅です。 |
+| w | double | 幅。 |
 
 ### Vector4(Vector3 vec) {#Vector4-com.aspose.threed.Vector3-}
 ```
@@ -127,7 +127,7 @@ public Vector4(double x, double y, double z, double w)
 | x | double | x 座標。 |
 | y | double | y 座標。 |
 | z | double | z 座標。 |
-| w | double | 幅です。 |
+| w | double | 幅。 |
 
 ### Vector4() {#Vector4--}
 ```
@@ -141,7 +141,7 @@ public double w
 ```
 
 
-w コンポーネント。
+w コンポーネントです。
 
 ### x {#x}
 ```
@@ -173,7 +173,7 @@ public static Vector4 add(Vector4 lhs, Vector4 rhs)
 ```
 
 
-+ の演算子オーバーロード
+演算子オーバーロード +
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -277,7 +277,7 @@ public static Vector4 mul(Vector4 lhs, Vector4 rhs)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -293,7 +293,7 @@ public static Vector4 mul(Vector4 lhs, double rhs)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -325,14 +325,14 @@ public void set(double newX, double newY, double newZ)
 ```
 
 
-ベクトルの xyz 成分を一度に設定し、w は 1 に設定されます
+ベクトルの xyz コンポーネントを一度に設定し、w は 1 に設定されます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| newX | double | 新しい X 成分です。 |
-| newY | double | 新しい Y 成分です。 |
-| newZ | double | 新しい Z 成分です。 |
+| newX | double | 新しい X コンポーネント。 |
+| newY | double | 新しい Y コンポーネント。 |
+| newZ | double | 新しい Z コンポーネント。 |
 
 ### set(double newX, double newY, double newZ, double newW) {#set-double-double-double-double-}
 ```
@@ -340,15 +340,15 @@ public void set(double newX, double newY, double newZ, double newW)
 ```
 
 
-ベクトルのすべての成分を一度に設定します
+ベクトルのすべてのコンポーネントを一度に設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| newX | double | 新しい X 成分です。 |
-| newY | double | 新しい Y 成分です。 |
-| newZ | double | 新しい Z 成分です。 |
-| newW | double | New W component. |
+| newX | double | 新しい X コンポーネント。 |
+| newY | double | 新しい Y コンポーネント。 |
+| newZ | double | 新しい Z コンポーネント。 |
+| newW | double | 新しい W コンポーネント。 |
 
 ### sub(Vector4 lhs, Vector4 rhs) {#sub-com.aspose.threed.Vector4-com.aspose.threed.Vector4-}
 ```
@@ -356,7 +356,7 @@ public static Vector4 sub(Vector4 lhs, Vector4 rhs)
 ```
 
 
-「-」(マイナス) の演算子オーバーロード
+「-」 (マイナス) の演算子オーバーロード
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -1,7 +1,7 @@
 ---
 title: "PdfRenderMode"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "レンダーモードは 3D アートワークがレンダリングされるスタイルを指定します。"
+description: "レンダー モードは 3D アートワークがレンダリングされるスタイルを指定します。"
 type: docs
 weight: 289
 url: /ja/java/com.aspose.threed/pdfrendermode/
@@ -13,24 +13,24 @@ java.lang.Object, java.lang.Enum
 public enum PdfRenderMode extends Enum<PdfRenderMode>
 ```
 
-レンダーモードは 3D アートワークがレンダリングされるスタイルを指定します。
+レンダー モードは 3D アートワークがレンダリングされるスタイルを指定します。
 ## フィールド
 
 | フィールド | 説明 |
 | --- | --- |
-| [BOUNDING_BOX](#BOUNDING-BOX) | 各ノードのバウンディングボックスのエッジを表示し、そのノードのローカル座標空間の軸に合わせます。 |
-| [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | エッジを単一の色で表示しますが、背面向きや隠れたエッジは除去します。 |
-| [ILLUSTRATION](#ILLUSTRATION) | シルエットエッジを表面と共に表示し、隠れた線を除去します。 |
-| [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | シルエットエッジを照明されたテクスチャ表面と共に表示し、作品の光が不足した領域を除去する追加の放射項を適用します。 |
+| [BOUNDING_BOX](#BOUNDING-BOX) | 各ノードのバウンディングボックスエッジを表示し、ノードのローカル座標空間の軸に合わせます。 |
+| [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | エッジを単一色で表示しますが、背面向きおよび隠れたエッジは除去します。 |
+| [ILLUSTRATION](#ILLUSTRATION) | シルエットエッジを表面と共に表示し、隠れたラインを除去します。 |
+| [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | 照明とテクスチャが適用された表面とともにシルエットエッジを表示し、追加の放射項で作品の暗い領域を除去します。 |
 | [SHADED_VERTICES](#SHADED-VERTICES) | 頂点のみを表示しますが、頂点カラーを使用し、ライティングを適用します。 |
 | [SHADED_WIREFRAME](#SHADED-WIREFRAME) | エッジのみを表示しますが、2つの頂点間で色を補間し、ライティングを適用します。 |
 | [SOLID](#SOLID) | テクスチャと照明が適用された幾何学的形状を表示します。 |
-| [SOLID_OUTLINE](#SOLID-OUTLINE) | シルエットエッジを照明されたテクスチャ表面と共に表示し、隠れた線を除去します。 |
+| [SOLID_OUTLINE](#SOLID-OUTLINE) | 照明とテクスチャが適用された表面とともにシルエットエッジを表示し、隠れたラインを除去します。 |
 | [SOLID_WIREFRAME](#SOLID-WIREFRAME) | テクスチャと照明が適用された幾何学的形状（三角形）を表示し、その上に単一色のエッジを重ねます。 |
 | [TRANSPARENT](#TRANSPARENT) | テクスチャと照明が適用された幾何学的形状（三角形）を表示し、透明度を追加します。 |
-| [TRANSPARENT_BOUNDING_BOX](#TRANSPARENT-BOUNDING-BOX) | 各ノードのバウンディングボックスの面を表示し、ローカル座標空間の軸に合わせ、透明度を追加します。 |
-| [TRANSPARENT_BOUNDING_BOX_OUTLINE](#TRANSPARENT-BOUNDING-BOX-OUTLINE) | 各ノードのバウンディングボックスのエッジと面を表示し、ローカル座標空間の軸に合わせ、透明度を追加します。 |
-| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | テクスチャと照明が適用された幾何学的形状（三角形）を透明度を追加して表示し、その上に単一色の不透明エッジを重ねます。 |
+| [TRANSPARENT_BOUNDING_BOX](#TRANSPARENT-BOUNDING-BOX) | 各ノードのバウンディングボックスの面を表示し、ノードのローカル座標空間の軸に合わせ、透明度を追加します。 |
+| [TRANSPARENT_BOUNDING_BOX_OUTLINE](#TRANSPARENT-BOUNDING-BOX-OUTLINE) | 各ノードのバウンディングボックスのエッジと面を表示し、ノードのローカル座標空間の軸に合わせ、透明度を追加します。 |
+| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | テクスチャと照明が適用された幾何学的形状（三角形）を表示し、透明度を追加し、その上に単一色の不透明エッジを重ねます。 |
 | [VERTICES](#VERTICES) | 単一色で頂点のみを表示します。 |
 | [WIREFRAME](#WIREFRAME) | 単一色でエッジのみを表示します。 |
 ## メソッド
@@ -60,7 +60,7 @@ public static final PdfRenderMode BOUNDING_BOX
 ```
 
 
-各ノードのバウンディングボックスのエッジを表示し、そのノードのローカル座標空間の軸に合わせます。
+各ノードのバウンディングボックスエッジを表示し、ノードのローカル座標空間の軸に合わせます。
 
 ### HIDDEN_WIREFRAME {#HIDDEN-WIREFRAME}
 ```
@@ -68,7 +68,7 @@ public static final PdfRenderMode HIDDEN_WIREFRAME
 ```
 
 
-エッジを単一の色で表示しますが、背面向きや隠れたエッジは除去します。
+エッジを単一色で表示しますが、背面向きおよび隠れたエッジは除去します。
 
 ### ILLUSTRATION {#ILLUSTRATION}
 ```
@@ -76,7 +76,7 @@ public static final PdfRenderMode ILLUSTRATION
 ```
 
 
-シルエットエッジを表面と共に表示し、隠れた線を除去します。
+シルエットエッジを表面と共に表示し、隠れたラインを除去します。
 
 ### SHADED_ILLUSTRATION {#SHADED-ILLUSTRATION}
 ```
@@ -84,7 +84,7 @@ public static final PdfRenderMode SHADED_ILLUSTRATION
 ```
 
 
-シルエットエッジを照明されたテクスチャ表面と共に表示し、作品の光が不足した領域を除去する追加の放射項を適用します。
+照明とテクスチャが適用された表面とともにシルエットエッジを表示し、追加の放射項で作品の暗い領域を除去します。
 
 ### SHADED_VERTICES {#SHADED-VERTICES}
 ```
@@ -116,7 +116,7 @@ public static final PdfRenderMode SOLID_OUTLINE
 ```
 
 
-シルエットエッジを照明されたテクスチャ表面と共に表示し、隠れた線を除去します。
+照明とテクスチャが適用された表面とともにシルエットエッジを表示し、隠れたラインを除去します。
 
 ### SOLID_WIREFRAME {#SOLID-WIREFRAME}
 ```
@@ -140,7 +140,7 @@ public static final PdfRenderMode TRANSPARENT_BOUNDING_BOX
 ```
 
 
-各ノードのバウンディングボックスの面を表示し、ローカル座標空間の軸に合わせ、透明度を追加します。
+各ノードのバウンディングボックスの面を表示し、ノードのローカル座標空間の軸に合わせ、透明度を追加します。
 
 ### TRANSPARENT_BOUNDING_BOX_OUTLINE {#TRANSPARENT-BOUNDING-BOX-OUTLINE}
 ```
@@ -148,7 +148,7 @@ public static final PdfRenderMode TRANSPARENT_BOUNDING_BOX_OUTLINE
 ```
 
 
-各ノードのバウンディングボックスのエッジと面を表示し、ローカル座標空間の軸に合わせ、透明度を追加します。
+各ノードのバウンディングボックスのエッジと面を表示し、ノードのローカル座標空間の軸に合わせ、透明度を追加します。
 
 ### TRANSPARENT_WIREFRAME {#TRANSPARENT-WIREFRAME}
 ```
@@ -156,7 +156,7 @@ public static final PdfRenderMode TRANSPARENT_WIREFRAME
 ```
 
 
-テクスチャと照明が適用された幾何学的形状（三角形）を透明度を追加して表示し、その上に単一色の不透明エッジを重ねます。
+テクスチャと照明が適用された幾何学的形状（三角形）を表示し、透明度を追加し、その上に単一色の不透明エッジを重ねます。
 
 ### VERTICES {#VERTICES}
 ```

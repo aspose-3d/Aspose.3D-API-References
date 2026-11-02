@@ -1,7 +1,7 @@
 ---
 title: "TextureFilter"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "テクスチャサンプリング中のフィルタオプション。"
+description: "テクスチャサンプリング時のフィルタオプション。"
 type: docs
 weight: 305
 url: /ja/java/com.aspose.threed/texturefilter/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum TextureFilter extends Enum<TextureFilter>
 ```
 
-テクスチャサンプリング中のフィルタオプション。
+テクスチャサンプリング時のフィルタオプション。
 ## フィールド
 
 | フィールド | 説明 |

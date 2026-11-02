@@ -18,8 +18,8 @@ public class ShaderVariable
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [ShaderVariable(String name)](#ShaderVariable-java.lang.String-) | [ShaderVariable](../../com.aspose.threed/shadervariable) のコンストラクタ |
-| [ShaderVariable(String name, int shaderStage)](#ShaderVariable-java.lang.String-int-) | [ShaderVariable](../../com.aspose.threed/shadervariable) のコンストラクタ |
+| [ShaderVariable(String name)](#ShaderVariable-java.lang.String-) | [ShaderVariable](../../com.aspose.threed/shadervariable) のコンストラクタです。 |
+| [ShaderVariable(String name, int shaderStage)](#ShaderVariable-java.lang.String-int-) | [ShaderVariable](../../com.aspose.threed/shadervariable) のコンストラクタです。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -40,7 +40,7 @@ public ShaderVariable(String name)
 ```
 
 
-[ShaderVariable](../../com.aspose.threed/shadervariable) のコンストラクタ
+[ShaderVariable](../../com.aspose.threed/shadervariable) のコンストラクタです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -53,13 +53,13 @@ public ShaderVariable(String name, int shaderStage)
 ```
 
 
-[ShaderVariable](../../com.aspose.threed/shadervariable) のコンストラクタ
+[ShaderVariable](../../com.aspose.threed/shadervariable) のコンストラクタです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | 名前 | java.lang.String |  |
-| shaderStage | int | この変数はどのシェーダーステージで使用されますか |
+| shaderStage | int | この変数が使用されるシェーダーステージはどれですか |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

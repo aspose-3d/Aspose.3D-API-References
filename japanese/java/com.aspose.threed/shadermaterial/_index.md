@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class ShaderMaterial extends Material
 ```
 
-シェーダーマテリアルは、外部のレンダリングエンジンまたはシェーダー言語でマテリアルを記述できるようにします。[ShaderMaterial](../../com.aspose.threed/shadermaterial) は、具体的なレンダリング詳細を記述するために [ShaderTechnique](../../com.aspose.threed/shadertechnique) を使用し、最終的なレンダリングプラットフォームに応じて最適なものが使用されます。例えば、[ShaderMaterial](../../com.aspose.threed/shadermaterial) インスタンスは 2 つのテクニックを持つことができ、1 つは HLSL で定義され、もう 1 つは GLSL で定義されます。ウィンドウ以外のプラットフォームでは、GLSL が HLSL の代わりに使用されるべきです。
+シェーダーマテリアルは、外部のレンダリングエンジンまたはシェーダー言語でマテリアルを記述できるようにします。 [ShaderMaterial](../../com.aspose.threed/shadermaterial) は、具体的なレンダリング詳細を記述するために [ShaderTechnique](../../com.aspose.threed/shadertechnique) を使用し、最終的なレンダリングプラットフォームに応じて最適なものが使用されます。例えば、[ShaderMaterial](../../com.aspose.threed/shadermaterial) インスタンスは 2 つのテクニックを持つことができ、1 つは HLSL で定義され、もう 1 つは GLSL で定義されます。非ウィンドウプラットフォームでは GLSL が HLSL の代わりに使用されるべきです。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -24,11 +24,11 @@ public class ShaderMaterial extends Material
 
 | フィールド | 説明 |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | [setTexture](../../com.aspose.threed/material\#setTexture) で環境光テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | [setTexture](../../com.aspose.threed/material\#setTexture) で拡散テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | [setTexture](../../com.aspose.threed/material\#setTexture) で放射テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_NORMAL](#MAP-NORMAL) | [setTexture](../../com.aspose.threed/material\#setTexture) で法線テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_SPECULAR](#MAP-SPECULAR) | [setTexture](../../com.aspose.threed/material\#setTexture) で鏡面テクスチャマッピングを割り当てるために使用されます。 |
+| [MAP_AMBIENT](#MAP-AMBIENT) | アンビエントテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | ディフューズテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | エミッシブテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_NORMAL](#MAP-NORMAL) | ノーマルテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_SPECULAR](#MAP-SPECULAR) | スペキュラテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -40,17 +40,17 @@ public class ShaderMaterial extends Material
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getTechniques()](#getTechniques--) | このマテリアルで定義されている利用可能なすべてのテクニックを取得します。 |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | 指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名で指定できます。 |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | 指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名である可能性があります。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 内部テクスチャスロットを列挙するための列挙子を取得します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | テクスチャを指定されたスロットに設定します。 |
-| [toString()](#toString--) | オブジェクトを文字列にフォーマットします |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | テクスチャを指定されたスロットに設定します |
+| [toString()](#toString--) | オブジェクトを文字列に変換します |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -81,7 +81,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で環境光テクスチャマッピングを割り当てるために使用されます。
+アンビエントテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -89,7 +89,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で拡散テクスチャマッピングを割り当てるために使用されます。
+ディフューズテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -97,7 +97,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で放射テクスチャマッピングを割り当てるために使用されます。
+エミッシブテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -105,7 +105,7 @@ public static final String MAP_NORMAL
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で法線テクスチャマッピングを割り当てるために使用されます。
+ノーマルテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -113,7 +113,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で鏡面テクスチャマッピングを割り当てるために使用されます。
+スペキュラテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -136,7 +136,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -164,7 +164,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -206,7 +206,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名で指定できます。
+指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名である可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -270,7 +270,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -280,12 +280,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -322,7 +322,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-テクスチャを指定されたスロットに設定します。
+テクスチャを指定されたスロットに設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -343,7 +343,7 @@ public String toString()
 ```
 
 
-オブジェクトを文字列にフォーマットします
+オブジェクトを文字列に変換します
 
 **Returns:**
 java.lang.String - オブジェクト文字列

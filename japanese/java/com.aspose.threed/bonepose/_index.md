@@ -1,7 +1,7 @@
 ---
 title: "BonePose"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "骨ノードの変換行列を含みます"
+description: "この  は骨ノードの変換行列を含みます"
 type: docs
 weight: 21
 url: /ja/java/com.aspose.threed/bonepose/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BonePose
 ```
 
-[BonePose](../../com.aspose.threed/bonepose) は骨ノードの変換行列を含みます
+この [BonePose](../../com.aspose.threed/bonepose) は骨ノードの変換行列を含みます
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -26,12 +26,12 @@ public class BonePose
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getMatrix()](#getMatrix--) | 現在のポーズにおけるノードの変換行列を取得します。 |
-| [getNode()](#getNode--) | シーンノードを取得し、スキンされたスケルトンノードを指します。 |
+| [getNode()](#getNode--) | シーンノードを取得し、スキンされたスケルトンノードを指します |
 | [hashCode()](#hashCode--) |  |
-| [isLocal()](#isLocal--) | ローカル座標で定義されているかを取得します。 |
+| [isLocal()](#isLocal--) | ローカル座標系で行列が定義されているか取得します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLocal(boolean value)](#setLocal-boolean-) | ローカル座標で定義されているかを設定します。 |
+| [setLocal(boolean value)](#setLocal-boolean-) | ローカル座標系で行列が定義されているか設定します。 |
 | [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | 現在のポーズにおけるノードの変換行列を設定します。 |
 | [setNode(Node value)](#setNode-com.aspose.threed.Node-) | シーンノードを設定し、スキンされたスケルトンノードを指します。 |
 | [toString()](#toString--) |  |
@@ -85,7 +85,7 @@ public Node getNode()
 ```
 
 
-シーンノードを取得し、スキンされたスケルトンノードを指します。
+シーンノードを取得し、スキンされたスケルトンノードを指します
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the scene node, points to a skinned skeleton node
@@ -105,10 +105,10 @@ public boolean isLocal()
 ```
 
 
-ローカル座標で定義されているかを取得します。
+ローカル座標系で行列が定義されているか取得します。
 
 **Returns:**
-boolean - 行列がローカル座標で定義されているか
+boolean - ローカル座標系で行列が定義されているか。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -131,7 +131,7 @@ public void setLocal(boolean value)
 ```
 
 
-ローカル座標で定義されているかを設定します。
+ローカル座標系で行列が定義されているか設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -18,15 +18,15 @@ public class VertexElementUV extends VertexElementVector4
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [VertexElementUV()](#VertexElementUV--) | 新しい[VertexElementUV](../../com.aspose.threed/vertexelementuv)クラスのインスタンスを初期化します。 |
-| [VertexElementUV(TextureMapping textureMapping)](#VertexElementUV-com.aspose.threed.TextureMapping-) | 新しい[VertexElementUV](../../com.aspose.threed/vertexelementuv)クラスのインスタンスを初期化します。 |
+| [VertexElementUV()](#VertexElementUV--) | [VertexElementUV](../../com.aspose.threed/vertexelementuv) クラスの新しいインスタンスを初期化します。 |
+| [VertexElementUV(TextureMapping textureMapping)](#VertexElementUV-com.aspose.threed.TextureMapping-) | [VertexElementUV](../../com.aspose.threed/vertexelementuv) クラスの新しいインスタンスを初期化します。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [addData(Iterable<Vector2> data)](#addData-java.lang.Iterable-com.aspose.threed.Vector2--) | VertexElementUV.Dataに[Vector2](../../com.aspose.threed/vector2)のセットを追加します。 |
-| [addData2(Iterable<Vector3> data)](#addData2-java.lang.Iterable-com.aspose.threed.Vector3--) | VertexElementUV.Dataに[Vector3](../../com.aspose.threed/vector3)のセットを追加します。 |
-| [clear()](#clear--) | direct と index 配列からすべての要素を削除します。 |
+| [addData(Iterable<Vector2> data)](#addData-java.lang.Iterable-com.aspose.threed.Vector2--) | VertexElementUV.Data に [Vector2](../../com.aspose.threed/vector2) のセットを追加します。 |
+| [addData2(Iterable<Vector3> data)](#addData2-java.lang.Iterable-com.aspose.threed.Vector3--) | VertexElementUV.Data に [Vector3](../../com.aspose.threed/vector3) のセットを追加します。 |
+| [clear()](#clear--) | direct と index の配列からすべての要素を削除します。 |
 | [clone(boolean withData)](#clone-boolean-) | 頂点要素をディープクローンします。 |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [copyTo(VertexElementVector4 target)](#copyTo-com.aspose.threed.VertexElementVector4-) | 指定された要素にデータをコピーします。 |
@@ -56,7 +56,7 @@ public VertexElementUV()
 ```
 
 
-新しい[VertexElementUV](../../com.aspose.threed/vertexelementuv)クラスのインスタンスを初期化します。デフォルトのテクスチャマッピングタイプは[TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE)です。
+[VertexElementUV](../../com.aspose.threed/vertexelementuv) クラスの新しいインスタンスを初期化します。デフォルトのテクスチャマッピングタイプは [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) です。
 
 ### VertexElementUV(TextureMapping textureMapping) {#VertexElementUV-com.aspose.threed.TextureMapping-}
 ```
@@ -64,7 +64,7 @@ public VertexElementUV(TextureMapping textureMapping)
 ```
 
 
-新しい[VertexElementUV](../../com.aspose.threed/vertexelementuv)クラスのインスタンスを初期化します。
+[VertexElementUV](../../com.aspose.threed/vertexelementuv) クラスの新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -77,7 +77,7 @@ public void addData(Iterable<Vector2> data)
 ```
 
 
-VertexElementUV.Dataに[Vector2](../../com.aspose.threed/vector2)のセットを追加します。これはショートカットであり、このメソッドは[Vector2](../../com.aspose.threed/vector2)をzを0、wを0にした[Vector4](../../com.aspose.threed/vector4)に変換します。
+VertexElementUV.Data に [Vector2](../../com.aspose.threed/vector2) のセットを追加します。これはショートカットであり、このメソッドは [Vector2](../../com.aspose.threed/vector2) を [Vector4](../../com.aspose.threed/vector4) に変換し、z を 0、w を 0 に設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -90,7 +90,7 @@ public void addData2(Iterable<Vector3> data)
 ```
 
 
-VertexElementUV.Dataに[Vector3](../../com.aspose.threed/vector3)のセットを追加します。これはショートカットであり、このメソッドは[Vector3](../../com.aspose.threed/vector3)をwを0にした[Vector4](../../com.aspose.threed/vector4)に変換します。
+VertexElementUV.Data に [Vector3](../../com.aspose.threed/vector3) のセットを追加します。これはショートカットであり、このメソッドは [Vector3](../../com.aspose.threed/vector3) を [Vector4](../../com.aspose.threed/vector4) に変換し、w を 0 に設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -103,7 +103,7 @@ public void clear()
 ```
 
 
-direct と index 配列からすべての要素を削除します。
+direct と index の配列からすべての要素を削除します。
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -116,7 +116,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| withData | boolean | direct と index 配列で頂点をクローンします。 |
+| withData | boolean | direct と index の配列で頂点をクローンします。 |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -213,7 +213,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getReferenceMode() {#getReferenceMode--}
 ```
 public ReferenceMode getReferenceMode()

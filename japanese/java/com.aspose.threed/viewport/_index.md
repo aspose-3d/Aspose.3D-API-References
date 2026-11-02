@@ -25,18 +25,18 @@ A [IRenderTarget](../../com.aspose.threed/irendertarget) はシーンのレン�
 | [getClass()](#getClass--) |  |
 | [getDepthClear()](#getDepthClear--) | 深度バッファビットが設定された状態でビューポートをクリアする際に使用される深度値を取得します。 |
 | [getEnabled()](#getEnabled--) | このビューポートを有効または無効にします。 |
-| [getFrustum()](#getFrustum--) | この [Viewport](../../com.aspose.threed/viewport) のカメラを取得します。 |
+| [getFrustum()](#getFrustum--) | この [Viewport](../../com.aspose.threed/viewport) のカメラを取得します |
 | [getRenderTarget()](#getRenderTarget--) | このビューポートを作成したレンダーターゲットを取得します。 |
-| [getZOrder()](#getZOrder--) | ビュー ポートの Z オーダーを取得します。 |
+| [getZOrder()](#getZOrder--) | ビュー ポートの Z-order を取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setArea(RelativeRectangle value)](#setArea-com.aspose.threed.RelativeRectangle-) | レンダー ターゲット内のビュー ポートの領域を設定します。 |
+| [setArea(RelativeRectangle value)](#setArea-com.aspose.threed.RelativeRectangle-) | レンダーターゲット内のビュー ポートの領域を設定します。 |
 | [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | ビュー ポートの背景色を設定します。 |
-| [setDepthClear(float value)](#setDepthClear-float-) | 深度バッファ ビットが設定された状態でビュー ポートをクリアする際に使用される深度値を設定します。 |
+| [setDepthClear(float value)](#setDepthClear-float-) | 深度バッファビットが設定された状態でビュー ポートをクリアする際に使用される深度値を設定します。 |
 | [setEnabled(boolean value)](#setEnabled-boolean-) | このビューポートを有効または無効にします。 |
-| [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | この [Viewport](../../com.aspose.threed/viewport) のカメラを設定します |
-| [setZOrder(int value)](#setZOrder-int-) | ビュー ポートの Z オーダーを設定します。 |
+| [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | この [Viewport](../../com.aspose.threed/viewport) のカメラを設定します。 |
+| [setZOrder(int value)](#setZOrder-int-) | ビュー ポートの Z-order を設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -105,7 +105,7 @@ public float getDepthClear()
 深度バッファビットが設定された状態でビューポートをクリアする際に使用される深度値を取得します。
 
 **Returns:**
-float - 深度バッファ ビットが設定された状態でビュー ポートをクリアする際に使用される深度値。
+float - 深度バッファビットが設定された状態でビュー ポートをクリアする際に使用される深度値。
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
@@ -122,7 +122,7 @@ public Frustum getFrustum()
 ```
 
 
-この [Viewport](../../com.aspose.threed/viewport) のカメラを取得します。
+この [Viewport](../../com.aspose.threed/viewport) のカメラを取得します
 
 **Returns:**
 [Frustum](../../com.aspose.threed/frustum) - the camera of this [Viewport](../../com.aspose.threed/viewport)
@@ -142,10 +142,10 @@ public int getZOrder()
 ```
 
 
-ビュー ポートの Z オーダーを取得します。
+ビュー ポートの Z-order を取得します。
 
 **Returns:**
-int - ビュー ポートの Z オーダー。
+int - ビュー ポートの Z-order。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -178,7 +178,7 @@ public void setArea(RelativeRectangle value)
 ```
 
 
-レンダー ターゲット内のビュー ポートの領域を設定します。
+レンダーターゲット内のビュー ポートの領域を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -204,7 +204,7 @@ public void setDepthClear(float value)
 ```
 
 
-深度バッファ ビットが設定された状態でビュー ポートをクリアする際に使用される深度値を設定します。
+深度バッファビットが設定された状態でビュー ポートをクリアする際に使用される深度値を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -230,7 +230,7 @@ public void setFrustum(Frustum value)
 ```
 
 
-この [Viewport](../../com.aspose.threed/viewport) のカメラを設定します
+この [Viewport](../../com.aspose.threed/viewport) のカメラを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -243,7 +243,7 @@ public void setZOrder(int value)
 ```
 
 
-ビュー ポートの Z オーダーを設定します。
+ビュー ポートの Z-order を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

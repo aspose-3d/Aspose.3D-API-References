@@ -1,7 +1,7 @@
 ---
 title: "EndPoint"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "曲線をトリムするエンドポイントは、パラメータ値またはデカルト座標点のいずれかにできます。"
+description: "曲線をトリムするエンドポイントは、パラメータ値またはデカルト点のいずれかにできます。"
 type: docs
 weight: 51
 url: /ja/java/com.aspose.threed/endpoint/
@@ -21,7 +21,7 @@ public final class EndPoint implements Struct<EndPoint>, Serializable
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | デカルト座標点から [EndPoint](../../com.aspose.threed/endpoint) を構築します。 |
+| [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | デカルト点から [EndPoint](../../com.aspose.threed/endpoint) を構築します。 |
 | [EndPoint(double v)](#EndPoint-double-) | 実数パラメータから [EndPoint](../../com.aspose.threed/endpoint) を構築します。 |
 | [EndPoint()](#EndPoint--) |  |
 ## メソッド
@@ -31,13 +31,13 @@ public final class EndPoint implements Struct<EndPoint>, Serializable
 | [clone()](#clone--) |  |
 | [copyFrom(EndPoint src)](#copyFrom-com.aspose.threed.EndPoint-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [fromDegree(double degree)](#fromDegree-double-) | 度単位で測定されたエンドポイントを作成します。 |
-| [fromRadian(double degree)](#fromRadian-double-) | ラジアン単位で測定されたエンドポイントを作成します。 |
-| [getAsPoint()](#getAsPoint--) | エンドポイントをデカルト座標点として取得します。例外がスローされることがあります。 |
+| [fromDegree(double degree)](#fromDegree-double-) | 度で測定されたエンドポイントを作成します。 |
+| [fromRadian(double degree)](#fromRadian-double-) | ラジアンで測定されたエンドポイントを作成します。 |
+| [getAsPoint()](#getAsPoint--) | エンドポイントをデカルト点として取得します。例外がスローされる場合があります。 |
 | [getAsValue()](#getAsValue--) | エンドポイントを実数パラメータとして取得します。例外がスローされます。 |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [isCartesianPoint()](#isCartesianPoint--) | エンドポイントはデカルト座標点ですか？ |
+| [isCartesianPoint()](#isCartesianPoint--) | エンドポイントはデカルト点ですか？ |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | 現在のエンドポイントの文字列表現を返します。 |
@@ -50,12 +50,12 @@ public EndPoint(Vector3 point)
 ```
 
 
-デカルト座標点から [EndPoint](../../com.aspose.threed/endpoint) を構築します。
+デカルト点から [EndPoint](../../com.aspose.threed/endpoint) を構築します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| point | [Vector3](../../com.aspose.threed/vector3) | 構築するポイント |
+| point | [Vector3](../../com.aspose.threed/vector3) | 構築する点 |
 
 ### EndPoint(double v) {#EndPoint-double-}
 ```
@@ -120,7 +120,7 @@ public static EndPoint fromDegree(double degree)
 ```
 
 
-度単位で測定されたエンドポイントを作成します。
+度で測定されたエンドポイントを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -135,7 +135,7 @@ public static EndPoint fromRadian(double degree)
 ```
 
 
-ラジアン単位で測定されたエンドポイントを作成します。
+ラジアンで測定されたエンドポイントを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -150,7 +150,7 @@ public Vector3 getAsPoint()
 ```
 
 
-エンドポイントをデカルト座標点として取得します。例外がスローされることがあります。
+エンドポイントをデカルト点として取得します。例外がスローされる場合があります。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the end point as Cartesian point, or thrown an exception.
@@ -190,10 +190,10 @@ public boolean isCartesianPoint()
 ```
 
 
-エンドポイントはデカルト座標点ですか？
+エンドポイントはデカルト点ですか？
 
 **Returns:**
-boolean - エンドポイントはデカルト座標点ですか？
+boolean - エンドポイントはデカルト点ですか？
 ### notify() {#notify--}
 ```
 public final native void notify()

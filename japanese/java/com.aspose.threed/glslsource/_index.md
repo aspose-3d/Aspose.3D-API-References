@@ -1,7 +1,7 @@
 ---
 title: "GLSLSource"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "GLSL のシェーダーのソースコードです。"
+description: "GLSL のシェーダーのソースコード"
 type: docs
 weight: 70
 url: /ja/java/com.aspose.threed/glslsource/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.ShaderSource](../../com.aspose.threed/shade
 public final class GLSLSource extends ShaderSource
 ```
 
-GLSL のシェーダーのソースコードです。
+GLSL のシェーダーのソースコード
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -23,7 +23,7 @@ GLSL のシェーダーのソースコードです。
 
 | メソッド | 説明 |
 | --- | --- |
-| [defineInclude(String fileName, String content)](#defineInclude-java.lang.String-java.lang.String-) | GLSL ソースコード内の \#include 用に仮想ファイルを定義します |
+| [defineInclude(String fileName, String content)](#defineInclude-java.lang.String-java.lang.String-) | GLSL ソースコード内の \#include 用の仮想ファイルを定義します |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getComputeShader()](#getComputeShader--) | コンピュートシェーダーのソースコードを取得します。 |
@@ -53,7 +53,7 @@ public void defineInclude(String fileName, String content)
 ```
 
 
-GLSL ソースコード内の \#include 用に仮想ファイルを定義します
+GLSL ソースコード内の \#include 用の仮想ファイルを定義します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -125,7 +125,7 @@ public String getVertexShader()
 頂点シェーダーのソースコードを取得します
 
 **Returns:**
-java.lang.String - 頂点シェーダーのソースコード
+java.lang.String - バーテックスシェーダーのソースコード
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

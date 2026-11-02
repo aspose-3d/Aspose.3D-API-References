@@ -1,7 +1,7 @@
 ---
 title: "GlobalTransform"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "グローバルトランスフォームは  と似っていますが、最終的に評価された変換を表すため不変です。"
+description: "Global transform は類似していますが、イミュータブルであり、最終的に評価された変換を表します。"
 type: docs
 weight: 72
 url: /ja/java/com.aspose.threed/globaltransform/
@@ -13,7 +13,7 @@ java.lang.Object
 public class GlobalTransform
 ```
 
-グローバルトランスフォームは [Transform](../../com.aspose.threed/transform) と似ていますが、最終的に評価された変換を表すため不変です。グローバルトランスフォームの評価時には右手座標系が使用されます。**Example:** 以下のコードはノードのグローバルトランスフォームを取得する方法を示しています
+Global transform は [Transform](../../com.aspose.threed/transform) に類似していますが、イミュータブルであり、最終的に評価された変換を表します。グローバル変換を評価する際には右手座標系が使用されます **Example:** 以下のコードはノードのグローバル変換を取得する方法を示しています
 
 ```
 Scene scene = new Scene();
@@ -29,11 +29,11 @@ Scene scene = new Scene();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEulerAngles()](#getEulerAngles--) | オイラー角（度）で表された回転を取得します |
+| [getEulerAngles()](#getEulerAngles--) | Euler角（度）で表された回転を取得します。 |
 | [getRotation()](#getRotation--) | クォータニオンで表された回転を取得します。 |
-| [getScale()](#getScale--) | スケールを取得します |
+| [getScale()](#getScale--) | スケールを取得します。 |
 | [getTransformMatrix()](#getTransformMatrix--) | 変換行列を取得します。 |
-| [getTranslation()](#getTranslation--) | 平行移動を取得します |
+| [getTranslation()](#getTranslation--) | 平行移動を取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,7 +72,7 @@ public Vector3 getEulerAngles()
 ```
 
 
-オイラー角（度）で表された回転を取得します
+Euler角（度）で表された回転を取得します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation represented in Euler angles, measured in degree **Example:**
@@ -104,7 +104,7 @@ public Vector3 getScale()
 ```
 
 
-スケールを取得します
+スケールを取得します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the scale **Example:**
@@ -136,7 +136,7 @@ public Vector3 getTranslation()
 ```
 
 
-平行移動を取得します
+平行移動を取得します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the translation **Example:**

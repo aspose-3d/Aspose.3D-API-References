@@ -26,13 +26,13 @@ public class MathUtils
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [pointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vector2 p2)](#pointInsideTriangle-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | 点 p が三角形 (p0, p1, p2) の内部にあるか確認します |
-| [rayIntersect(Vector2 origin, Vector2 dir, Vector2 a, Vector2 b)](#rayIntersect-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | 光線 (origin, dir) が線分 (start, end) と交差するか確認します |
-| [toDegree(Vector3 radian)](#toDegree-com.aspose.threed.Vector3-) | ラジアンから度へ [Vector3](../../com.aspose.threed/vector3) を変換します。 |
-| [toDegree(double radian)](#toDegree-double-) | ラジアンから度へ数値を変換します |
-| [toDegree(double x, double y, double z)](#toDegree-double-double-double-) | ラジアンから度へ数値を変換します |
-| [toDegree(float radian)](#toDegree-float-) | ラジアンから度へ数値を変換します |
-| [toRadian(Vector3 degree)](#toRadian-com.aspose.threed.Vector3-) | 度からラジアンへ [Vector3](../../com.aspose.threed/vector3) を変換します |
+| [pointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vector2 p2)](#pointInsideTriangle-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | 点 p が三角形 (p0, p1, p2) の内部にあるかチェックします |
+| [rayIntersect(Vector2 origin, Vector2 dir, Vector2 a, Vector2 b)](#rayIntersect-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | 光線 (origin, dir) が線分 (start, end) と交差するかチェックします |
+| [toDegree(Vector3 radian)](#toDegree-com.aspose.threed.Vector3-) | [Vector3](../../com.aspose.threed/vector3) をラジアンから度に変換します。 |
+| [toDegree(double radian)](#toDegree-double-) | 数値をラジアンから度に変換します |
+| [toDegree(double x, double y, double z)](#toDegree-double-double-double-) | 数値をラジアンから度に変換します |
+| [toDegree(float radian)](#toDegree-float-) | 数値をラジアンから度に変換します |
+| [toRadian(Vector3 degree)](#toRadian-com.aspose.threed.Vector3-) | [Vector3](../../com.aspose.threed/vector3) を度からラジアンに変換します |
 | [toRadian(double degree)](#toRadian-double-) | 度からラジアンへ数値を変換する |
 | [toRadian(double x, double y, double z)](#toRadian-double-double-double-) | 度からラジアンへベクトルを変換する |
 | [toRadian(float degree)](#toRadian-float-) | 度からラジアンへ数値を変換する |
@@ -71,7 +71,7 @@ public static double clamp(double val, double min, double max)
 | max | double | 最大値。 |
 
 **Returns:**
-double - [min, max] の間の値 **Example:**
+double - [min, max] の間の値 **例:**
 
 ```
 double val = 195;
@@ -156,7 +156,7 @@ public static boolean pointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vec
 ```
 
 
-点 p が三角形 (p0, p1, p2) の内部にあるか確認します
+点 p が三角形 (p0, p1, p2) の内部にあるかチェックします
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -174,7 +174,7 @@ public static Vector2 rayIntersect(Vector2 origin, Vector2 dir, Vector2 a, Vecto
 ```
 
 
-光線 (origin, dir) が線分 (start, end) と交差するか確認します
+光線 (origin, dir) が線分 (start, end) と交差するかチェックします
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -192,7 +192,7 @@ public static Vector3 toDegree(Vector3 radian)
 ```
 
 
-ラジアンから度へ [Vector3](../../com.aspose.threed/vector3) を変換します。
+[Vector3](../../com.aspose.threed/vector3) をラジアンから度に変換します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -212,7 +212,7 @@ public static double toDegree(double radian)
 ```
 
 
-ラジアンから度へ数値を変換します
+数値をラジアンから度に変換します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -220,7 +220,7 @@ public static double toDegree(double radian)
 | ラジアン | double | ラジアンの値。 |
 
 **Returns:**
-double - 度の値。 **Example:**
+double - 度の値 **例:**
 
 ```
 var deg = MathUtils.toDegree(0.3);
@@ -232,7 +232,7 @@ public static Vector3 toDegree(double x, double y, double z)
 ```
 
 
-ラジアンから度へ数値を変換します
+数値をラジアンから度に変換します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -249,7 +249,7 @@ public static float toDegree(float radian)
 ```
 
 
-ラジアンから度へ数値を変換します
+数値をラジアンから度に変換します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -257,7 +257,7 @@ public static float toDegree(float radian)
 | ラジアン | float | ラジアンの値。 |
 
 **Returns:**
-float - 度の値。 **Example:**
+float - 度の値 **例:**
 
 ```
 var deg = MathUtils.toDegree(0.3f);
@@ -269,7 +269,7 @@ public static Vector3 toRadian(Vector3 degree)
 ```
 
 
-度からラジアンへ [Vector3](../../com.aspose.threed/vector3) を変換します
+[Vector3](../../com.aspose.threed/vector3) を度からラジアンに変換します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -297,7 +297,7 @@ public static double toRadian(double degree)
 | 度 | double | 度の値。 |
 
 **Returns:**
-double - ラジアンの値。 **Example:**
+double - ラジアンの値 **例:**
 
 ```
 var rad = MathUtils.toRadian(0.3);
@@ -334,7 +334,7 @@ public static float toRadian(float degree)
 | 度 | float | 度の値。 |
 
 **Returns:**
-float - ラジアンの値。 **Example:**
+float - ラジアンの値 **例:**
 
 ```
 var rad = MathUtils.toRadian(0.3);

@@ -1,7 +1,7 @@
 ---
 title: "PatchDirection"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "Patchs の U および V 方向。"
+description: "Patchs U と V の方向。"
 type: docs
 weight: 120
 url: /ja/java/com.aspose.threed/patchdirection/
@@ -26,14 +26,14 @@ Patch の U および V 方向。
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getClosed()](#getClosed--) | この [PatchDirection](../../com.aspose.threed/patchdirection) が閉曲線かどうかを示す値を取得します。 |
-| [getControlPoints()](#getControlPoints--) | 現在の方向における制御点の数を取得します。 |
+| [getControlPoints()](#getControlPoints--) | 現在の方向の制御点の数を取得します。 |
 | [getDivisions()](#getDivisions--) | 隣接する制御点間の分割数を取得します。 |
 | [getType()](#getType--) | パッチのタイプを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setClosed(boolean value)](#setClosed-boolean-) | この [PatchDirection](../../com.aspose.threed/patchdirection) が閉曲線かどうかを示す値を設定します。 |
-| [setControlPoints(int value)](#setControlPoints-int-) | 現在の方向における制御点の数を設定します。 |
+| [setControlPoints(int value)](#setControlPoints-int-) | 現在の方向の制御点の数を設定します。 |
 | [setDivisions(int value)](#setDivisions-int-) | 隣接する制御点間の分割数を設定します。 |
 | [setType(PatchDirectionType value)](#setType-com.aspose.threed.PatchDirectionType-) | パッチのタイプを設定します。 |
 | [toString()](#toString--) |  |
@@ -87,10 +87,10 @@ public int getControlPoints()
 ```
 
 
-現在の方向における制御点の数を取得します。
+現在の方向の制御点の数を取得します。
 
 **Returns:**
-int - 現在の方向における制御点の数。
+int - 現在の方向の制御点の数。
 ### getDivisions() {#getDivisions--}
 ```
 public int getDivisions()
@@ -156,7 +156,7 @@ public void setControlPoints(int value)
 ```
 
 
-現在の方向における制御点の数を設定します。
+現在の方向の制御点の数を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

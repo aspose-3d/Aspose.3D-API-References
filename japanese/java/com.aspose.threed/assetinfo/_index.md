@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AssetInfo extends A3DObject
 ```
 
-アセットの情報。アセット情報は [Scene](../../com.aspose.threed/scene) に添付できます。子 [Scene](../../com.aspose.threed/scene) は独自の [AssetInfo](../../com.aspose.threed/assetinfo) を持ち、親の定義を上書きできます。**Example:** 以下のコードは fbx ファイルからアセット情報を読み取る方法を示しています：
+アセットの情報。アセット情報は [Scene](../../com.aspose.threed/scene) に添付できます。子 [Scene](../../com.aspose.threed/scene) は独自の [AssetInfo](../../com.aspose.threed/assetinfo) を持ち、親の定義を上書きできます。 **Example:** 次のコードは、fbx ファイルからアセット情報を読み取る方法を示しています。
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -26,24 +26,24 @@ Scene scene = Scene.fromFile("test.fbx");
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [AssetInfo()](#AssetInfo--) | 新しい [AssetInfo](../../com.aspose.threed/assetinfo) クラスのインスタンスを初期化します。 |
-| [AssetInfo(String name)](#AssetInfo-java.lang.String-) | 新しい [AssetInfo](../../com.aspose.threed/assetinfo) クラスのインスタンスを初期化します。 |
+| [AssetInfo()](#AssetInfo--) | [AssetInfo](../../com.aspose.threed/assetinfo) クラスの新しいインスタンスを初期化する。 |
+| [AssetInfo(String name)](#AssetInfo-java.lang.String-) | [AssetInfo](../../com.aspose.threed/assetinfo) クラスの新しいインスタンスを初期化する。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [getAmbient()](#getAmbient--) | このアセットのデフォルト環境光カラーを取得または設定します |
-| [getApplicationName()](#getApplicationName--) | このアセットを作成したアプリケーションを取得します |
-| [getApplicationVendor()](#getApplicationVendor--) | アプリケーションベンダーの名前を取得します |
-| [getApplicationVersion()](#getApplicationVersion--) | このアセットを作成したアプリケーションのバージョンを取得します。 |
-| [getAuthor()](#getAuthor--) | このアセットの作者を取得します |
-| [getAxisSystem()](#getAxisSystem--) | アセット情報の座標系／上ベクトル／前ベクトルを取得します。 |
+| [getAmbient()](#getAmbient--) | このアセットのデフォルト環境光カラーを取得または設定する |
+| [getApplicationName()](#getApplicationName--) | このアセットを作成したアプリケーションを取得する |
+| [getApplicationVendor()](#getApplicationVendor--) | アプリケーションベンダーの名前を取得する |
+| [getApplicationVersion()](#getApplicationVersion--) | このアセットを作成したアプリケーションのバージョンを取得する。 |
+| [getAuthor()](#getAuthor--) | このアセットの作者を取得する |
+| [getAxisSystem()](#getAxisSystem--) | アセット情報の座標系/上ベクトル/前ベクトルを取得する。 |
 | [getClass()](#getClass--) |  |
-| [getComment()](#getComment--) | このアセットのコメントを取得します。 |
-| [getCoordinateSystem()](#getCoordinateSystem--) | このアセットで使用されている座標系を取得します。 |
-| [getCopyright()](#getCopyright--) | ドキュメントの著作権情報を取得します |
+| [getComment()](#getComment--) | このアセットのコメントを取得する。 |
+| [getCoordinateSystem()](#getCoordinateSystem--) | このアセットで使用されている座標系を取得する。 |
+| [getCopyright()](#getCopyright--) | ドキュメントの著作権情報を取得する |
 | [getCreationTime()](#getCreationTime--) | このアセットの作成時刻を取得または設定します |
 | [getFrontVector()](#getFrontVector--) | このアセットで使用される前方ベクトルを取得します。 |
 | [getKeywords()](#getKeywords--) | このアセットのキーワードを取得します |
@@ -52,7 +52,7 @@ Scene scene = Scene.fromFile("test.fbx");
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getRevision()](#getRevision--) | このアセットのリビジョン番号を取得します（通常はバージョン管理システムで使用されます）。 |
-| [getSubject()](#getSubject--) | このアセットの件名を取得します |
+| [getSubject()](#getSubject--) | このアセットの主題を取得します |
 | [getTitle()](#getTitle--) | このアセットのタイトルを取得します |
 | [getUnitName()](#getUnitName--) | このアセットで使用される長さの単位を取得します。 |
 | [getUnitScaleFactor()](#getUnitScaleFactor--) | 実際のメートルへのスケール係数を取得します。 |
@@ -62,12 +62,12 @@ Scene scene = Scene.fromFile("test.fbx");
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setAmbient(Vector4 value)](#setAmbient-com.aspose.threed.Vector4-) | このアセットのデフォルト環境光カラーを取得または設定します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setAmbient(Vector4 value)](#setAmbient-com.aspose.threed.Vector4-) | このアセットのデフォルト環境光カラーを取得または設定する |
 | [setApplicationName(String value)](#setApplicationName-java.lang.String-) | このアセットを作成したアプリケーションを設定します |
 | [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | アプリケーションベンダーの名前を設定します |
 | [setApplicationVersion(String value)](#setApplicationVersion-java.lang.String-) | このアセットを作成したアプリケーションのバージョンを設定します。 |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | このアセットの作成者を設定します |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | このアセットの作者を設定します |
 | [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | アセット情報の座標系/上ベクトル/前ベクトルを設定します。 |
 | [setComment(String value)](#setComment-java.lang.String-) | このアセットのコメントを設定します。 |
 | [setCoordinateSystem(CoordinateSystem value)](#setCoordinateSystem-com.aspose.threed.CoordinateSystem-) | このアセットで使用される座標系を設定します。 |
@@ -79,11 +79,11 @@ Scene scene = Scene.fromFile("test.fbx");
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [setRevision(String value)](#setRevision-java.lang.String-) | このアセットのリビジョン番号を設定します（通常はバージョン管理システムで使用されます）。 |
-| [setSubject(String value)](#setSubject-java.lang.String-) | このアセットの件名を設定します |
+| [setSubject(String value)](#setSubject-java.lang.String-) | このアセットの主題を設定します |
 | [setTitle(String value)](#setTitle-java.lang.String-) | このアセットのタイトルを設定します |
 | [setUnitName(String value)](#setUnitName-java.lang.String-) | このアセットで使用される長さの単位を設定します。 |
-| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | 実世界のメートルへのスケール係数を設定します。 |
-| [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | このアセットで使用されるアップベクトルを設定します。 |
+| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | 実際のメートルへのスケール係数を設定します。 |
+| [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | このアセットで使用される上方向ベクトルを設定します。 |
 | [setUrl(String value)](#setUrl-java.lang.String-) | このアセットのURLを取得または設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -95,7 +95,7 @@ public AssetInfo()
 ```
 
 
-新しい [AssetInfo](../../com.aspose.threed/assetinfo) クラスのインスタンスを初期化します。
+[AssetInfo](../../com.aspose.threed/assetinfo) クラスの新しいインスタンスを初期化する。
 
 ### AssetInfo(String name) {#AssetInfo-java.lang.String-}
 ```
@@ -103,7 +103,7 @@ public AssetInfo(String name)
 ```
 
 
-新しい [AssetInfo](../../com.aspose.threed/assetinfo) クラスのインスタンスを初期化します。
+[AssetInfo](../../com.aspose.threed/assetinfo) クラスの新しいインスタンスを初期化する。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -131,7 +131,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -146,7 +146,7 @@ public Vector4 getAmbient()
 ```
 
 
-このアセットのデフォルト環境光カラーを取得または設定します
+このアセットのデフォルト環境光カラーを取得または設定する
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4) - or Sets the default ambient color of this asset
@@ -156,7 +156,7 @@ public String getApplicationName()
 ```
 
 
-このアセットを作成したアプリケーションを取得します
+このアセットを作成したアプリケーションを取得する
 
 **Returns:**
 java.lang.String - このアセットを作成したアプリケーション
@@ -166,7 +166,7 @@ public String getApplicationVendor()
 ```
 
 
-アプリケーションベンダーの名前を取得します
+アプリケーションベンダーの名前を取得する
 
 **Returns:**
 java.lang.String - アプリケーションベンダーの名前
@@ -176,7 +176,7 @@ public String getApplicationVersion()
 ```
 
 
-このアセットを作成したアプリケーションのバージョンを取得します。
+このアセットを作成したアプリケーションのバージョンを取得する。
 
 **Returns:**
 java.lang.String - このアセットを作成したアプリケーションのバージョン。
@@ -186,17 +186,17 @@ public String getAuthor()
 ```
 
 
-このアセットの作者を取得します
+このアセットの作者を取得する
 
 **Returns:**
-java.lang.String - このアセットの作者
+java.lang.String - このアセットの作成者
 ### getAxisSystem() {#getAxisSystem--}
 ```
 public AxisSystem getAxisSystem()
 ```
 
 
-アセット情報の座標系／上ベクトル／前ベクトルを取得します。
+アセット情報の座標系/上ベクトル/前ベクトルを取得する。
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - the coordinate system/up vector/front vector of the asset info.
@@ -216,7 +216,7 @@ public String getComment()
 ```
 
 
-このアセットのコメントを取得します。
+このアセットのコメントを取得する。
 
 **Returns:**
 java.lang.String - このアセットのコメント。
@@ -226,7 +226,7 @@ public CoordinateSystem getCoordinateSystem()
 ```
 
 
-このアセットで使用されている座標系を取得します。
+このアセットで使用されている座標系を取得する。
 
 **Returns:**
 [CoordinateSystem](../../com.aspose.threed/coordinatesystem) - the coordinate system used in this asset.
@@ -236,10 +236,10 @@ public String getCopyright()
 ```
 
 
-ドキュメントの著作権情報を取得します
+ドキュメントの著作権情報を取得する
 
 **Returns:**
-java.lang.String - ドキュメントの著作権
+java.lang.String - 文書の著作権
 ### getCreationTime() {#getCreationTime--}
 ```
 public Calendar getCreationTime()
@@ -249,7 +249,7 @@ public Calendar getCreationTime()
 このアセットの作成時刻を取得または設定します
 
 **Returns:**
-java.util.Calendar - またはこのアセットの作成時間を設定します
+java.util.Calendar - またはこのアセットの作成時刻を設定します
 ### getFrontVector() {#getFrontVector--}
 ```
 public Axis getFrontVector()
@@ -279,7 +279,7 @@ public Calendar getModificationTime()
 このアセットの変更時刻を取得または設定します
 
 **Returns:**
-java.util.Calendar - またはこのアセットの変更時間を設定します
+java.util.Calendar - またはこのアセットの更新時刻を設定します
 ### getName() {#getName--}
 ```
 public String getName()
@@ -289,7 +289,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -331,7 +331,7 @@ public String getSubject()
 ```
 
 
-このアセットの件名を取得します
+このアセットの主題を取得します
 
 **Returns:**
 java.lang.String - このアセットの件名
@@ -364,7 +364,7 @@ public double getUnitScaleFactor()
 実際のメートルへのスケール係数を取得します。
 
 **Returns:**
-double - 実世界のメートルへのスケール係数。**Remarks:** ユニット名が null の場合、シリアライズ時に無視されます。
+double - 実際のメートルへのスケール係数。**備考:** 単位名が null の場合、シリアライズ時に無視されます。
 ### getUpVector() {#getUpVector--}
 ```
 public Axis getUpVector()
@@ -422,7 +422,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -432,12 +432,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -447,7 +447,7 @@ public void setAmbient(Vector4 value)
 ```
 
 
-このアセットのデフォルト環境光カラーを取得または設定します
+このアセットのデフォルト環境光カラーを取得または設定する
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -499,7 +499,7 @@ public void setAuthor(String value)
 ```
 
 
-このアセットの作成者を設定します
+このアセットの作者を設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -656,7 +656,7 @@ public void setSubject(String value)
 ```
 
 
-このアセットの件名を設定します
+このアセットの主題を設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -695,12 +695,12 @@ public void setUnitScaleFactor(double value)
 ```
 
 
-実世界のメートルへのスケール係数を設定します。
+実際のメートルへのスケール係数を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 値 | double | 新しい値 **Remarks:** ユニット名が null の場合、シリアライズ時に無視されます。 |
+| 値 | double | 新しい値 **備考:** 単位名が null の場合、シリアライズ時に無視されます。 |
 
 ### setUpVector(Axis value) {#setUpVector-com.aspose.threed.Axis-}
 ```
@@ -708,7 +708,7 @@ public void setUpVector(Axis value)
 ```
 
 
-このアセットで使用されるアップベクトルを設定します。
+このアセットで使用される上方向ベクトルを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

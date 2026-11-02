@@ -1,5 +1,5 @@
 ---
-title: "クォータニオン"
+title: "Quaternion"
 second_title: "Aspose.3D for Java API リファレンス"
 description: "クォータニオンは通常、コンピュータグラフィックスで回転を実行するために使用されます。"
 type: docs
@@ -28,7 +28,7 @@ public final class Quaternion implements Struct<Quaternion>, Serializable
 | フィールド | 説明 |
 | --- | --- |
 | [IDENTITY](#IDENTITY) | 単位クォータニオンです。 |
-| [w](#w) | w コンポーネント。 |
+| [w](#w) | w コンポーネントです。 |
 | [x](#x) | x 成分。 |
 | [y](#y) | y 成分。 |
 | [z](#z) | z 成分。 |
@@ -36,12 +36,12 @@ public final class Quaternion implements Struct<Quaternion>, Serializable
 
 | メソッド | 説明 |
 | --- | --- |
-| [add(Quaternion lhs, Quaternion rhs)](#add-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | + の演算子オーバーロード |
+| [add(Quaternion lhs, Quaternion rhs)](#add-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | 演算子オーバーロード + |
 | [clone()](#clone--) |  |
 | [concat(Quaternion rhs)](#concat-com.aspose.threed.Quaternion-) | 2つのクォータニオンを連結する |
 | [conjugate()](#conjugate--) | 現在のクォータニオンの共役クォータニオンを返します |
 | [copyFrom(Quaternion src)](#copyFrom-com.aspose.threed.Quaternion-) |  |
-| [div(Quaternion lhs, double rhs)](#div-com.aspose.threed.Quaternion-double-) | / の演算子オーバーロード |
+| [div(Quaternion lhs, double rhs)](#div-com.aspose.threed.Quaternion-double-) | 演算子オーバーロード / |
 | [dot(Quaternion q)](#dot-com.aspose.threed.Quaternion-) | ドット積 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 2つのクォータニオンが等しいか確認する |
 | [eulerAngles()](#eulerAngles--) | クォータニオンをオイラー角で表される回転に変換します。すべての成分はラジアンです。 |
@@ -52,13 +52,13 @@ public final class Quaternion implements Struct<Quaternion>, Serializable
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | クォータニオンの長さを取得します |
 | [hashCode()](#hashCode--) | クォータニオンのハッシュコードを取得します |
-| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | このクォータニオンを、from と to の間の t に対して、与えられたクォータニオン引数間の補間値で設定します。 |
+| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | このクォータニオンを、from と to の間の t に対する、与えられたクォータニオン引数間の補間値で設定します。 |
 | [inverse()](#inverse--) | 現在のクォータニオンの逆クォータニオンを返します |
-| [mul(Quaternion lhs, Quaternion rhs)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | \* の演算子オーバーロード |
-| [mul(Quaternion q, Vector3 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector3-) | \* の演算子オーバーロード |
-| [mul(Quaternion q, Vector4 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector4-) | \* の演算子オーバーロード |
-| [mul(Quaternion lhs, double rhs)](#mul-com.aspose.threed.Quaternion-double-) | \* の演算子オーバーロード |
-| [mul(Vector3 v, Quaternion q)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | \* の演算子オーバーロード |
+| [mul(Quaternion lhs, Quaternion rhs)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | 演算子オーバーロード \* |
+| [mul(Quaternion q, Vector3 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector3-) | 演算子オーバーロード \* |
+| [mul(Quaternion q, Vector4 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector4-) | 演算子オーバーロード \* |
+| [mul(Quaternion lhs, double rhs)](#mul-com.aspose.threed.Quaternion-double-) | 演算子オーバーロード \* |
+| [mul(Vector3 v, Quaternion q)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | 演算子オーバーロード \* |
 | [normalize()](#normalize--) | クォータニオンを正規化します |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -66,8 +66,8 @@ public final class Quaternion implements Struct<Quaternion>, Serializable
 | [op_ne(Quaternion lhs, Quaternion rhs)](#op-ne-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | クォータニオンの非等価演算子 |
 | [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | 2つの値間で球面線形補間を実行します |
 | [toAngleAxis(double[] angle, Vector3 axis)](#toAngleAxis-double---com.aspose.threed.Vector3-) | クォータニオンを角度と軸に分解します |
-| [toMatrix()](#toMatrix--) | クォータニオンで表される回転を変換行列に変換します。 |
-| [toMatrix(Vector3 translation)](#toMatrix-com.aspose.threed.Vector3-) | クォータニオンで表される回転を変換行列に変換します。 |
+| [toMatrix()](#toMatrix--) | クォータニオンで表現された回転を変換行列に変換します。 |
+| [toMatrix(Vector3 translation)](#toMatrix-com.aspose.threed.Vector3-) | クォータニオンで表現された回転を変換行列に変換します。 |
 | [toString()](#toString--) | クォータニオンの文字列表現を取得します |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -83,10 +83,10 @@ public Quaternion(double w, double x, double y, double z)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| w | double | クォータニオンの w 成分 |
-| x | double | クォータニオンの x 成分 |
-| y | double | クォータニオンの y 成分 |
-| z | double | クォータニオンの z 成分 |
+| w | double | 四元数の w 成分 |
+| x | double | 四元数の x 成分 |
+| y | double | 四元数の y 成分 |
+| z | double | 四元数の z 成分 |
 
 ### Quaternion() {#Quaternion--}
 ```
@@ -108,7 +108,7 @@ public double w
 ```
 
 
-w コンポーネント。
+w コンポーネントです。
 
 ### x {#x}
 ```
@@ -140,13 +140,13 @@ public static Quaternion add(Quaternion lhs, Quaternion rhs)
 ```
 
 
-+ の演算子オーバーロード
+演算子オーバーロード +
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | 左クォータニオン |
-| rhs | [Quaternion](../../com.aspose.threed/quaternion) | 右クォータニオン |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | 左四元数 |
+| rhs | [Quaternion](../../com.aspose.threed/quaternion) | 右四元数 |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Result quaternion
@@ -204,13 +204,13 @@ public static Quaternion div(Quaternion lhs, double rhs)
 ```
 
 
-/ の演算子オーバーロード
+演算子オーバーロード /
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | 左クォータニオン |
-| rhs | double | 右クォータニオン |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | 左四元数 |
+| rhs | double | 右四元数 |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Result quaternion
@@ -225,7 +225,7 @@ public double dot(Quaternion q)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | クォータニオン |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | 四元数 |
 
 **Returns:**
 double - ドット値
@@ -265,7 +265,7 @@ public static Quaternion fromAngleAxis(double a, Vector3 axis)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| a | double | ラジアン単位の時計回り回転 |
+| a | double | ラジアンでの時計回り回転 |
 | axis | [Vector3](../../com.aspose.threed/vector3) | 軸 |
 
 **Returns:**
@@ -281,7 +281,7 @@ public static Quaternion fromEulerAngle(Vector3 eulerAngle)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| eulerAngle | [Vector3](../../com.aspose.threed/vector3) | ラジアン単位のオイラー角 |
+| eulerAngle | [Vector3](../../com.aspose.threed/vector3) | ラジアンでのオイラー角 |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Created quaternion
@@ -296,9 +296,9 @@ public static Quaternion fromEulerAngle(double pitch, double yaw, double roll)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ピッチ | double | ラジアン単位のピッチ |
-| ヨー | double | ラジアン単位のヨー |
-| ロール | double | ラジアン単位のロール |
+| ピッチ | double | ラジアンでのピッチ |
+| ヨー | double | ラジアンでのヨー |
+| ロール | double | ラジアンでのロール |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Created quaternion
@@ -337,7 +337,7 @@ public double getLength()
 クォータニオンの長さを取得します
 
 **Returns:**
-double - クォータニオンの長さ
+double - 四元数の長さ
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -354,14 +354,14 @@ public static Quaternion interpolate(float t, Quaternion from, Quaternion to)
 ```
 
 
-このクォータニオンを、from と to の間の t に対して、与えられたクォータニオン引数間の補間値で設定します。
+このクォータニオンを、from と to の間の t に対する、与えられたクォータニオン引数間の補間値で設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | t | float | 補間係数。 |
-| from | [Quaternion](../../com.aspose.threed/quaternion) | ソースクォータニオン。 |
-| to | [Quaternion](../../com.aspose.threed/quaternion) | ターゲットクォータニオン。 |
+| from | [Quaternion](../../com.aspose.threed/quaternion) | ソース四元数。 |
+| to | [Quaternion](../../com.aspose.threed/quaternion) | ターゲット四元数。 |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - The interpolated quaternion.
@@ -381,13 +381,13 @@ public static Quaternion mul(Quaternion lhs, Quaternion rhs)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | 左クォータニオン |
-| rhs | [Quaternion](../../com.aspose.threed/quaternion) | 右クォータニオン |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | 左四元数 |
+| rhs | [Quaternion](../../com.aspose.threed/quaternion) | 右四元数 |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Result quaternion
@@ -397,12 +397,12 @@ public static Vector3 mul(Quaternion q, Vector3 v)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | 回転クォータニオン |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | 回転四元数 |
 | v | [Vector3](../../com.aspose.threed/vector3) | 回転させるベクトル |
 
 **Returns:**
@@ -413,12 +413,12 @@ public static Vector4 mul(Quaternion q, Vector4 v)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | 回転クォータニオン |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | 回転四元数 |
 | v | [Vector4](../../com.aspose.threed/vector4) | 回転させるベクトル |
 
 **Returns:**
@@ -429,13 +429,13 @@ public static Quaternion mul(Quaternion lhs, double rhs)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | 左クォータニオン |
-| rhs | double | 右クォータニオン |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | 左四元数 |
+| rhs | double | 右四元数 |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Result quaternion
@@ -445,12 +445,12 @@ public static Vector3 mul(Vector3 v, Quaternion q)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| v | [Vector3](../../com.aspose.threed/vector3) | 回転クォータニオン |
+| v | [Vector3](../../com.aspose.threed/vector3) | 回転四元数 |
 | q | [Quaternion](../../com.aspose.threed/quaternion) | 回転させるベクトル |
 
 **Returns:**
@@ -550,7 +550,7 @@ public Matrix4 toMatrix()
 ```
 
 
-クォータニオンで表される回転を変換行列に変換します。
+クォータニオンで表現された回転を変換行列に変換します。
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - The matrix representation of current quaternion.
@@ -560,7 +560,7 @@ public Matrix4 toMatrix(Vector3 translation)
 ```
 
 
-クォータニオンで表される回転を変換行列に変換します。
+クォータニオンで表現された回転を変換行列に変換します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

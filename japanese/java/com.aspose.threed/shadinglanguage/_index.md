@@ -19,16 +19,16 @@ public enum ShadingLanguage extends Enum<ShadingLanguage>
 | フィールド | 説明 |
 | --- | --- |
 | [AGAL](#AGAL) | Adobe Graphics Assembly Language |
-| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | ARB アセンブリ言語は、GPU 命令を標準化するために OpenGL Architecture Review Board が作成した低レベルのシェーディング言語です。 |
+| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | ARB アセンブリ言語は、OpenGL Architecture Review Board が作成した低レベルのシェーディング言語で、GPU 命令を標準化するためのものです。 |
 | [CGFX](#CGFX) | NVIDIA Cg |
 | [DIRECTX_SHADER_ASSEMBLY](#DIRECTX-SHADER-ASSEMBLY) | DirectX シェーダー アセンブリ言語 |
 | [GELATO](#GELATO) | gelato シェーディング言語 |
 | [GLSL](#GLSL) | GLSL |
-| [HLSL](#HLSL) | DirectX ハイレベルシェーダー言語 |
+| [HLSL](#HLSL) | DirectX 高レベルシェーダー言語 |
 | [HOUDINIVEX](#HOUDINIVEX) | Houdini VEX シェーディング言語 |
 | [MENTAL_RAY](#MENTAL-RAY) | Mental Ray シェーダー言語 |
 | [METAL](#METAL) | iOS Metal シェーディング言語 |
-| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | Open シェーディング言語は、Sony Pictures Imageworks が開発し、同社の Arnold レンダラーで使用されています。 |
+| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | Open Shading Language は Sony Pictures Imageworks によって開発され、同社の Arnold レンダラーで使用されています。 |
 | [PSSL](#PSSL) | PlayStation シェーダー言語 |
 | [RENDER_MAN](#RENDER-MAN) | RenderMan シェーディング言語。 |
 | [SFX](#SFX) | SFX |
@@ -67,7 +67,7 @@ public static final ShadingLanguage ARB_ASSEMBLY
 ```
 
 
-ARB アセンブリ言語は、GPU 命令を標準化するために OpenGL Architecture Review Board が作成した低レベルのシェーディング言語です。
+ARB アセンブリ言語は、OpenGL Architecture Review Board が作成した低レベルのシェーディング言語で、GPU 命令を標準化するためのものです。
 
 ### CGFX {#CGFX}
 ```
@@ -107,7 +107,7 @@ public static final ShadingLanguage HLSL
 ```
 
 
-DirectX ハイレベルシェーダー言語
+DirectX 高レベルシェーダー言語
 
 ### HOUDINIVEX {#HOUDINIVEX}
 ```
@@ -139,7 +139,7 @@ public static final ShadingLanguage OPEN_SHADING_LANGUAGE
 ```
 
 
-Open シェーディング言語は、Sony Pictures Imageworks が開発し、同社の Arnold レンダラーで使用されています。
+Open Shading Language は Sony Pictures Imageworks によって開発され、同社の Arnold レンダラーで使用されています。
 
 ### PSSL {#PSSL}
 ```

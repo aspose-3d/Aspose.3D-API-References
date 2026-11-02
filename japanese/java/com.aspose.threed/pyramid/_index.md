@@ -31,9 +31,9 @@ public class Pyramid extends Primitive
 | [getBottomArea()](#getBottomArea--) | 底面キャップの面積 |
 | [getBottomOffset()](#getBottomOffset--) | 底部頂点のオフセット |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します |
+| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getHeight()](#getHeight--) | ピラミッドの高さ |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -48,10 +48,10 @@ public class Pyramid extends Primitive
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setBottomArea(Vector2 value)](#setBottomArea-com.aspose.threed.Vector2-) | 底面キャップの面積 |
 | [setBottomOffset(Vector3 value)](#setBottomOffset-com.aspose.threed.Vector3-) | 底部頂点のオフセット |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setHeight(double value)](#setHeight-double-) | ピラミッドの高さ |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
@@ -83,8 +83,8 @@ public Pyramid(double xbottom, double ybottom, double height)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| xbottom | double | 底部のX方向の長さ |
-| ybottom | double | 底部のY方向の長さ |
+| xbottom | double | 底部のx方向の長さ |
+| ybottom | double | 底部のy方向の長さ |
 | 高さ | double | ピラミッドの高さ |
 
 ### Pyramid(double xbottom, double ybottom, double xtop, double ytop, double height) {#Pyramid-double-double-double-double-double-}
@@ -98,10 +98,10 @@ public Pyramid(double xbottom, double ybottom, double xtop, double ytop, double 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| xbottom | double | 底面積のX方向の長さ |
-| ybottom | double | 底面積のY方向の長さ |
-| xtop | double | 上面積のX方向の長さ |
-| ytop | double | 上面積のY方向の長さ |
+| xbottom | double | 底面積のx方向の長さ |
+| ybottom | double | 底面積のy方向の長さ |
+| xtop | double | 上面積のx方向の長さ |
+| ytop | double | 上面積のy方向の長さ |
 | 高さ | double | ピラミッドの高さ |
 
 ### Pyramid(String name, double xbottom, double ybottom, double xtop, double ytop, double height) {#Pyramid-java.lang.String-double-double-double-double-double-}
@@ -116,10 +116,10 @@ public Pyramid(String name, double xbottom, double ybottom, double xtop, double 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | 名前 | java.lang.String | ピラミッドの名前 |
-| xbottom | double | 底面積のX方向の長さ |
-| ybottom | double | 底面積のY方向の長さ |
-| xtop | double | 上面積のX方向の長さ |
-| ytop | double | 上面積のY方向の長さ |
+| xbottom | double | 底面積のx方向の長さ |
+| ybottom | double | 底面積のy方向の長さ |
+| xtop | double | 上面積のx方向の長さ |
+| ytop | double | 上面積のy方向の長さ |
 | 高さ | double | ピラミッドの高さ |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -143,7 +143,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -195,7 +195,7 @@ public boolean getCastShadows()
 ```
 
 
-このジオメトリが影を落とすかどうかを取得します
+このジオメトリが影を落とすかどうかを取得します。
 
 **Returns:**
 boolean - このジオメトリが影を落とすかどうか
@@ -215,7 +215,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -248,7 +248,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -268,7 +268,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -361,7 +361,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -371,12 +371,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -412,7 +412,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-このジオメトリが影を落とすかどうかを設定します
+このジオメトリが影を落とすかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -1,33 +1,33 @@
 ---
 title: "Discreet3dsSaveOptions"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "3DSファイルの保存オプション。"
+description: "3DS ファイルの保存オプション。"
 type: docs
 weight: 44
 url: /ja/java/com.aspose.threed/discreet3dssaveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)、[com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
+java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig), [com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
 ```
 public class Discreet3dsSaveOptions extends SaveOptions
 ```
 
-3DSファイルの保存オプション。
+3DS ファイルの保存オプション。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Discreet3dsSaveOptions()](#Discreet3dsSaveOptions--) | [Discreet3dsSaveOptions](../../com.aspose.threed/discreet3dssaveoptions) のコンストラクタ |
+| [Discreet3dsSaveOptions()](#Discreet3dsSaveOptions--) | [Discreet3dsSaveOptions](../../com.aspose.threed/discreet3dssaveoptions)のコンストラクタ |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDuplicatedNameCounterBase()](#getDuplicatedNameCounterBase--) | 重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は 2 です。 |
+| [getDuplicatedNameCounterBase()](#getDuplicatedNameCounterBase--) | 重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は2です。 |
 | [getDuplicatedNameCounterFormat()](#getDuplicatedNameCounterFormat--) | 重複カウンタの形式で、デフォルト値は空文字列です。 |
-| [getDuplicatedNameSeparator()](#getDuplicatedNameSeparator--) | オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は "\_" です。 |
+| [getDuplicatedNameSeparator()](#getDuplicatedNameSeparator--) | オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は"\_"です。 |
 | [getEncoding()](#getEncoding--) | テキストベースのファイルのデフォルトエンコーディングを取得します。 |
 | [getExportCamera()](#getExportCamera--) | シーン内のすべてのカメラをエクスポートするかどうかを取得します。 |
 | [getExportLight()](#getExportLight--) | シーン内のすべてのライトをエクスポートするかどうかを取得します。 |
@@ -37,16 +37,16 @@ public class Discreet3dsSaveOptions extends SaveOptions
 | [getFileSystem()](#getFileSystem--) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem のファクトリークラスを取得します。 |
 | [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | インポート/エクスポート時に制御点/法線の座標系の反転を取得します。 |
-| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | 3ds ファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定を true にすると、可能な限りガンマ補正された色が使用され、そうでなければ Aspose.3D は元の色を使用しようとします。 |
-| [getHighPreciseColor()](#getHighPreciseColor--) | この設定が true の場合、生成された 3ds ファイルは高精度のカラーを使用します。つまり、赤・緑・青の各チャンネルが 32 ビット浮動小数点で表されます。 |
-| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | 3dsファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定をtrueにすると、可能な限りガンマ補正された色が使用され、そうでなければAspose.3Dは元の色を使用しようとします。 |
+| [getHighPreciseColor()](#getHighPreciseColor--) | この設定がtrueの場合、生成された3dsファイルは高精度カラーを使用し、赤/緑/青の各チャンネルが32ビット浮動小数点で表されます。 |
+| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [getMasterScale()](#getMasterScale--) | エクスポート時に使用されるマスタースケールを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDuplicatedNameCounterBase(int value)](#setDuplicatedNameCounterBase-int-) | 重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は 2 です。 |
+| [setDuplicatedNameCounterBase(int value)](#setDuplicatedNameCounterBase-int-) | 重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は2です。 |
 | [setDuplicatedNameCounterFormat(String value)](#setDuplicatedNameCounterFormat-java.lang.String-) | 重複カウンタの形式で、デフォルト値は空文字列です。 |
-| [setDuplicatedNameSeparator(String value)](#setDuplicatedNameSeparator-java.lang.String-) | オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は "\_" です。 |
+| [setDuplicatedNameSeparator(String value)](#setDuplicatedNameSeparator-java.lang.String-) | オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は"\_"です。 |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | テキストベースのファイルのデフォルトエンコーディングを設定します。 |
 | [setExportCamera(boolean value)](#setExportCamera-boolean-) | シーン内のすべてのカメラをエクスポートするかどうかを設定します。 |
 | [setExportLight(boolean value)](#setExportLight-boolean-) | シーン内のすべてのライトをエクスポートするかどうかを設定します。 |
@@ -55,9 +55,9 @@ public class Discreet3dsSaveOptions extends SaveOptions
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem のファクトリークラスを設定します。 |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | インポート/エクスポート時に制御点/法線の座標系を反転させます。 |
-| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | 3ds ファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定を true にすると、可能な限りガンマ補正された色が使用され、そうでなければ Aspose.3D は元の色を使用しようとします。 |
-| [setHighPreciseColor(boolean value)](#setHighPreciseColor-boolean-) | この設定が true の場合、生成された 3ds ファイルは高精度のカラーを使用します。つまり、赤・緑・青の各チャンネルが 32 ビット浮動小数点で表されます。 |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | 3dsファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定をtrueにすると、可能な限りガンマ補正された色が使用され、そうでなければAspose.3Dは元の色を使用しようとします。 |
+| [setHighPreciseColor(boolean value)](#setHighPreciseColor-boolean-) | この設定がtrueの場合、生成された3dsファイルは高精度カラーを使用し、赤/緑/青の各チャンネルが32ビット浮動小数点で表されます。 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [setMasterScale(double value)](#setMasterScale-double-) | エクスポート時に使用されるマスタースケールを設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -69,7 +69,7 @@ public Discreet3dsSaveOptions()
 ```
 
 
-[Discreet3dsSaveOptions](../../com.aspose.threed/discreet3dssaveoptions) のコンストラクタ
+[Discreet3dsSaveOptions](../../com.aspose.threed/discreet3dssaveoptions)のコンストラクタ
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -102,7 +102,7 @@ public int getDuplicatedNameCounterBase()
 ```
 
 
-重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は 2 です。
+重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は2です。
 
 **Returns:**
 int - 重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は 2 です。
@@ -122,10 +122,10 @@ public String getDuplicatedNameSeparator()
 ```
 
 
-オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は "\\_" です。シーンに同じ名前のオブジェクトが存在する場合、Aspose.3D 3DS エクスポーターはオブジェクトに別の名前を生成します。例えば、"Box" という名前のノードが2つあると、最初のノードは "Box" という名前になり、2番目のノードはデフォルト設定を使用して新しい名前 "Box\\_2" が付与されます。
+オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は \"\\_\" です。シーンに同じ名前を使用するオブジェクトが含まれる場合、Aspose.3D 3DS エクスポーターはオブジェクトに別の名前を生成します。例えば、名前が \"Box\" のノードが2つあると、最初のノードは \"Box\" という名前になり、2番目のノードはデフォルト設定を使用して \"Box\\_2\" という新しい名前が付与されます。
 
 **Returns:**
-java.lang.String - オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は "\\_" です。シーンに同じ名前のオブジェクトが存在する場合、Aspose.3D 3DS エクスポーターはオブジェクトに別の名前を生成します。例えば、"Box" という名前のノードが2つあると、最初のノードは "Box" という名前になり、2番目のノードはデフォルト設定を使用して新しい名前 "Box\\_2" が付与されます。
+java.lang.String - オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は \"\\_\" です。シーンに同じ名前を使用するオブジェクトが含まれる場合、Aspose.3D 3DS エクスポーターはオブジェクトに別の名前を生成します。例えば、名前が \"Box\" のノードが2つあると、最初のノードは \"Box\" という名前になり、2番目のノードはデフォルト設定を使用して \"Box\\_2\" という新しい名前が付与されます。
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -182,10 +182,10 @@ public String getFileName()
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Returns:**
-java.lang.String - エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+java.lang.String - エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -226,7 +226,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem のファクトリークラスを取得します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを取得します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -265,7 +265,7 @@ public boolean getGammaCorrectedColor()
 ```
 
 
-3ds ファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定を true にすると、可能な限りガンマ補正された色が使用され、そうでなければ Aspose.3D は元の色を使用しようとします。
+3dsファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定をtrueにすると、可能な限りガンマ補正された色が使用され、そうでなければAspose.3Dは元の色を使用しようとします。
 
 **Returns:**
 boolean - 3ds ファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定を true にすると、可能な限りガンマ補正された色が使用され、そうでなければ Aspose.3D は元の色を使用しようとします。
@@ -275,20 +275,20 @@ public boolean getHighPreciseColor()
 ```
 
 
-この設定が true の場合、生成された 3ds ファイルは高精度カラーを使用し、赤/緑/青の各チャンネルが 32 ビット浮動小数点になります。false の場合、生成ファイルは 24 ビットカラーを使用し、各チャンネルが 8 ビットバイトになります。デフォルト値は false で、すべてのアプリケーションが高精度カラーをサポートしているわけではないためです。
+この設定が true の場合、生成された 3ds ファイルは高精度カラーを使用し、赤/緑/青の各チャネルが 32 ビット浮動小数点になります。false の場合、生成ファイルは 24 ビットカラーを使用し、各チャネルは 8 ビットバイトになります。デフォルト値は false です。すべてのアプリケーションが高精度カラーをサポートしているわけではないためです。
 
 **Returns:**
-boolean - この設定が true の場合、生成された 3ds ファイルは高精度カラーを使用し、赤/緑/青の各チャンネルが 32 ビット浮動小数点になります。false の場合、生成ファイルは 24 ビットカラーを使用し、各チャンネルが 8 ビットバイトになります。デフォルト値は false で、すべてのアプリケーションが高精度カラーをサポートしているわけではありません。
+boolean - この設定が true の場合、生成された 3ds ファイルは高精度カラーを使用し、赤/緑/青の各チャネルが 32 ビット浮動小数点になります。false の場合、生成ファイルは 24 ビットカラーを使用し、各チャネルは 8 ビットバイトになります。デフォルト値は false です。すべてのアプリケーションが高精度カラーをサポートしているわけではありません。
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします
+java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています
 
 ```
 var opt = new ObjLoadOptions();
@@ -339,7 +339,7 @@ public void setDuplicatedNameCounterBase(int value)
 ```
 
 
-重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は 2 です。
+重複した名前の新しい名前を生成する際に使用されるカウンタで、デフォルト値は2です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -365,7 +365,7 @@ public void setDuplicatedNameSeparator(String value)
 ```
 
 
-オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は "\\_" です。シーンに同じ名前のオブジェクトが存在する場合、Aspose.3D 3DS エクスポーターはオブジェクトに別の名前を生成します。例えば、"Box" という名前のノードが2つあると、最初のノードは "Box" という名前になり、2番目のノードはデフォルト設定を使用して新しい名前 "Box\\_2" が付与されます。
+オブジェクト名と重複カウンタの間の区切り文字で、デフォルト値は \"\\_\" です。シーンに同じ名前を使用するオブジェクトが含まれる場合、Aspose.3D 3DS エクスポーターはオブジェクトに別の名前を生成します。例えば、名前が \"Box\" のノードが2つあると、最初のノードは \"Box\" という名前になり、2番目のノードはデフォルト設定を使用して \"Box\\_2\" という新しい名前が付与されます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -378,7 +378,7 @@ public void setEncoding(Charset value)
 ```
 
 
-テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定することを意味します。
+テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -430,7 +430,7 @@ public void setFileName(String value)
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -448,7 +448,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **Example:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は次のようなさまざまな FileSystem 実装を提供します： |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **例:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は以下のようなさまざまな FileSystem 実装を提供しています： |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -480,12 +480,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem のファクトリークラスを設定します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを設定します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **Example:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **例:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -525,7 +525,7 @@ public void setGammaCorrectedColor(boolean value)
 ```
 
 
-3ds ファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定を true にすると、可能な限りガンマ補正された色が使用され、そうでなければ Aspose.3D は元の色を使用しようとします。
+3dsファイルは同じ属性に対して元の色とガンマ補正された色の両方を含む場合があります。この設定をtrueにすると、可能な限りガンマ補正された色が使用され、そうでなければAspose.3Dは元の色を使用しようとします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -538,7 +538,7 @@ public void setHighPreciseColor(boolean value)
 ```
 
 
-この設定が true の場合、生成された 3ds ファイルは高精度カラーを使用し、赤/緑/青の各チャンネルが 32 ビット浮動小数点になります。false の場合、生成ファイルは 24 ビットカラーを使用し、各チャンネルが 8 ビットバイトになります。デフォルト値は false で、すべてのアプリケーションが高精度カラーをサポートしているわけではないためです。
+この設定が true の場合、生成された 3ds ファイルは高精度カラーを使用し、赤/緑/青の各チャネルが 32 ビット浮動小数点になります。false の場合、生成ファイルは 24 ビットカラーを使用し、各チャネルは 8 ビットバイトになります。デフォルト値は false です。すべてのアプリケーションが高精度カラーをサポートしているわけではないためです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -551,12 +551,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします |
+|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています |
 
 ```
 var opt = new ObjLoadOptions();

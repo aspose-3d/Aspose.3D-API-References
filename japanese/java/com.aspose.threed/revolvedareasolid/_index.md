@@ -1,7 +1,7 @@
 ---
 title: "RevolvedAreaSolid"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "このクラスは、プロファイルで提供された断面を軸の周りに回転させて、ソリッドモデルを表します。"
+description: "このクラスは、プロファイルで提供された断面を軸の周りに回転させることで、ソリッドモデルを表します。"
 type: docs
 weight: 155
 url: /ja/java/com.aspose.threed/revolvedareasolid/
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class RevolvedAreaSolid extends Entity implements IMeshConvertible
 ```
 
-このクラスは、軸の周りにプロファイルで提供された断面を回転させてソリッドモデルを表します。 **例:** 以下のコードは、RevolvedAreaSolid を使用して形状をソリッドモデルに回転させる方法を示しています。
+このクラスは、軸周りにプロファイルで提供された断面を回転させることで、ソリッドモデルを表します。**Example:** 以下のコードは、RevolvedAreaSolid を使用して形状をソリッドモデルに回転させる方法を示しています。
 
 ```
 //Create a new 3D scene
@@ -46,15 +46,15 @@ public class RevolvedAreaSolid extends Entity implements IMeshConvertible
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [getAngleEnd()](#getAngleEnd--) | 回転処理の終了角度を取得します（ラジアンで測定、デフォルト値は π です）。 |
+| [getAngleEnd()](#getAngleEnd--) | 回転手順の終了角度を取得します（単位はラジアン、デフォルト値はπです）。 |
 | [getAngleStart()](#getAngleStart--) | 回転手順の開始角度を取得します（ラジアンで測定）、デフォルト値は 0 です。 |
-| [getAxis()](#getAxis--) | 軸方向を取得します。デフォルト値は (0, 1, 0) です。 |
+| [getAxis()](#getAxis--) | 軸方向を取得します、デフォルト値は (0, 1, 0) です。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getOrigin()](#getOrigin--) | 回転の原点を取得します。デフォルト値は (0, 0, 0) です。 |
+| [getOrigin()](#getOrigin--) | 回転の原点を取得します、デフォルト値は (0, 0, 0) です。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [getParentNodes()](#getParentNodes--) | すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
@@ -65,13 +65,13 @@ public class RevolvedAreaSolid extends Entity implements IMeshConvertible
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setAngleEnd(double value)](#setAngleEnd-double-) | 回転手順の終了角度を設定します（ラジアンで測定）、デフォルト値は π です。 |
 | [setAngleStart(double value)](#setAngleStart-double-) | 回転手順の開始角度を設定します（ラジアンで測定）、デフォルト値は 0 です。 |
-| [setAxis(Vector3 value)](#setAxis-com.aspose.threed.Vector3-) | 軸方向を設定します。デフォルト値は (0, 1, 0) です。 |
+| [setAxis(Vector3 value)](#setAxis-com.aspose.threed.Vector3-) | 軸方向を設定します、デフォルト値は (0, 1, 0) です。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
-| [setOrigin(Vector3 value)](#setOrigin-com.aspose.threed.Vector3-) | 回転の原点を設定します。デフォルト値は (0, 0, 0) です。 |
+| [setOrigin(Vector3 value)](#setOrigin-com.aspose.threed.Vector3-) | 回転の原点を設定します、デフォルト値は (0, 0, 0) です。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | 回転に使用されるベースプロファイルを設定します。 |
@@ -107,7 +107,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -122,7 +122,7 @@ public double getAngleEnd()
 ```
 
 
-回転処理の終了角度を取得します（ラジアンで測定、デフォルト値は π です）。
+回転手順の終了角度を取得します（単位はラジアン、デフォルト値はπです）。
 
 **Returns:**
 double - 回転手順の終了角度（ラジアンで測定）、デフォルト値は π です。
@@ -142,7 +142,7 @@ public Vector3 getAxis()
 ```
 
 
-軸方向を取得します。デフォルト値は (0, 1, 0) です。
+軸方向を取得します、デフォルト値は (0, 1, 0) です。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the axis direction, default value is (0, 1, 0).
@@ -179,7 +179,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -202,14 +202,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getOrigin() {#getOrigin--}
 ```
 public Vector3 getOrigin()
 ```
 
 
-回転の原点を取得します。デフォルト値は (0, 0, 0) です。
+回転の原点を取得します、デフォルト値は (0, 0, 0) です。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the origin point of the revolving, default value is (0, 0, 0).
@@ -232,7 +232,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -315,7 +315,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -325,12 +325,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -366,7 +366,7 @@ public void setAxis(Vector3 value)
 ```
 
 
-軸方向を設定します。デフォルト値は (0, 1, 0) です。
+軸方向を設定します、デフォルト値は (0, 1, 0) です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -405,7 +405,7 @@ public void setOrigin(Vector3 value)
 ```
 
 
-回転の原点を設定します。デフォルト値は (0, 0, 0) です。
+回転の原点を設定します、デフォルト値は (0, 0, 0) です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

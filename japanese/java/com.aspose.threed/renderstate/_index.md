@@ -1,7 +1,7 @@
 ---
 title: "RenderState"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "パイプライン構築用のレンダー状態。レンダー状態に加えた変更は、作成されたパイプラインインスタンスに影響しません。"
+description: "パイプライン構築用のレンダー状態  レンダー状態に加えた変更は、作成されたパイプラインインスタンスに影響しません。"
 type: docs
 weight: 151
 url: /ja/java/com.aspose.threed/renderstate/
@@ -16,7 +16,7 @@ java.io.Closeable, java.lang.Comparable
 public class RenderState implements Closeable, Comparable<RenderState>
 ```
 
-パイプライン構築のためのレンダー状態です。レンダー状態に加えた変更は、作成されたパイプラインインスタンスに影響しません。
+パイプライン構築のためのレンダー状態です。レンダー状態で行われた変更は、作成されたパイプラインインスタンスに影響しません。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -27,44 +27,44 @@ public class RenderState implements Closeable, Comparable<RenderState>
 | メソッド | 説明 |
 | --- | --- |
 | [close()](#close--) | [RenderState](../../com.aspose.threed/renderstate) を破棄し、すべての内部リソースを解放します。 |
-| [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | レンダリング状態を別のインスタンスと比較する |
+| [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | レンダー状態を別のインスタンスと比較します |
 | [equals(Object obj)](#equals-java.lang.Object-) | このインスタンスが指定されたオブジェクトと等しいかどうかを示す値を返します。 |
-| [getBlend()](#getBlend--) | フラグメントブレンディングを有効または無効にする。 |
-| [getBlendColor()](#getBlendColor--) | [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) で使用されるブレンドカラーを取得します |
+| [getBlend()](#getBlend--) | フラグメントブレンディングを有効または無効にします。 |
+| [getBlendColor()](#getBlendColor--) | [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR) で使用されるブレンドカラーを取得します |
 | [getClass()](#getClass--) |  |
-| [getCullFace()](#getCullFace--) | カリング面を有効または無効にする |
-| [getCullFaceMode()](#getCullFaceMode--) | カリングされる面を取得します。 |
+| [getCullFace()](#getCullFace--) | カリングフェイスを有効または無効にします |
+| [getCullFaceMode()](#getCullFaceMode--) | どの面がカリングされるかを取得します。 |
 | [getDepthFunction()](#getDepthFunction--) | 深度テストで使用される比較関数を取得します |
-| [getDepthMask()](#getDepthMask--) | 深度書き込みを有効または無効にする。 |
-| [getDepthTest()](#getDepthTest--) | 深度テストを有効または無効にする。 |
-| [getDestinationBlendFactor()](#getDestinationBlendFactor--) | 色のブレンド方法を取得します。 |
-| [getFrontFace()](#getFrontFace--) | 表面が前面になる順序を取得します。 |
+| [getDepthMask()](#getDepthMask--) | 深度書き込みを有効または無効にします。 |
+| [getDepthTest()](#getDepthTest--) | 深度テストを有効または無効にします。 |
+| [getDestinationBlendFactor()](#getDestinationBlendFactor--) | 色がどのようにブレンドされるかを取得します。 |
+| [getFrontFace()](#getFrontFace--) | どの順序が表面（フロントフェイス）かを取得します。 |
 | [getPolygonMode()](#getPolygonMode--) | ポリゴンのレンダーモードを取得します。 |
-| [getScissorTest()](#getScissorTest--) | シザーテストを有効または無効にする |
-| [getSourceBlendFactor()](#getSourceBlendFactor--) | 色のブレンド方法を取得します。 |
+| [getScissorTest()](#getScissorTest--) | シザーテストを有効または無効にします |
+| [getSourceBlendFactor()](#getSourceBlendFactor--) | 色がどのようにブレンドされるかを取得します。 |
 | [getStencilBackFace()](#getStencilBackFace--) | 背面のステンシル状態を取得します。 |
-| [getStencilFrontFace()](#getStencilFrontFace--) | 前面のステンシル状態を取得します。 |
-| [getStencilMask()](#getStencilMask--) | テスト完了時に参照値と保存されたステンシル値の両方と AND されるマスクを取得します。 |
+| [getStencilFrontFace()](#getStencilFrontFace--) | 表面のステンシル状態を取得します。 |
+| [getStencilMask()](#getStencilMask--) | テストが完了したときに、参照値と保存されたステンシル値の両方と AND 演算されるマスクを取得します。 |
 | [getStencilReference()](#getStencilReference--) | ステンシルテストの参照値を取得します。 |
-| [getStencilTest()](#getStencilTest--) | ステンシルテストを有効または無効にする。 |
+| [getStencilTest()](#getStencilTest--) | ステンシルテストを有効または無効にします。 |
 | [hashCode()](#hashCode--) | このインスタンスのハッシュコードを返します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBlend(boolean value)](#setBlend-boolean-) | フラグメントブレンディングを有効または無効にする。 |
-| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) で使用されるブレンドカラーを設定します |
-| [setCullFace(boolean value)](#setCullFace-boolean-) | カリング面を有効または無効にする |
-| [setCullFaceMode(int value)](#setCullFaceMode-int-) | カリングされる面を設定します。 |
+| [setBlend(boolean value)](#setBlend-boolean-) | フラグメントブレンディングを有効または無効にします。 |
+| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | [BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR) で使用されるブレンドカラーを設定します |
+| [setCullFace(boolean value)](#setCullFace-boolean-) | カリングフェイスを有効または無効にします |
+| [setCullFaceMode(int value)](#setCullFaceMode-int-) | どの面がカリングされるかを設定します。 |
 | [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | 深度テストで使用される比較関数を設定します |
-| [setDepthMask(boolean value)](#setDepthMask-boolean-) | 深度書き込みを有効または無効にする。 |
-| [setDepthTest(boolean value)](#setDepthTest-boolean-) | 深度テストを有効または無効にする。 |
-| [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | 色のブレンド方法を設定します。 |
-| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | 表面が前面になる順序を設定します。 |
+| [setDepthMask(boolean value)](#setDepthMask-boolean-) | 深度書き込みを有効または無効にします。 |
+| [setDepthTest(boolean value)](#setDepthTest-boolean-) | 深度テストを有効または無効にします。 |
+| [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | 色がどのようにブレンドされるかを設定します。 |
+| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | どの順序が表面（フロントフェイス）かを設定します。 |
 | [setPolygonMode(PolygonMode value)](#setPolygonMode-com.aspose.threed.PolygonMode-) | ポリゴンのレンダーモードを設定します。 |
-| [setScissorTest(boolean value)](#setScissorTest-boolean-) | シザーテストを有効または無効にする |
-| [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | 色のブレンド方法を設定します。 |
+| [setScissorTest(boolean value)](#setScissorTest-boolean-) | シザーテストを有効または無効にします |
+| [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | 色がどのようにブレンドされるかを設定します。 |
 | [setStencilMask(int value)](#setStencilMask-int-) | テストが完了したときに、参照値と保存されたステンシル値の両方とAND演算されるマスクを設定します。 |
 | [setStencilReference(int value)](#setStencilReference-int-) | ステンシルテストの参照値を設定します。 |
-| [setStencilTest(boolean value)](#setStencilTest-boolean-) | ステンシルテストを有効または無効にする。 |
+| [setStencilTest(boolean value)](#setStencilTest-boolean-) | ステンシルテストを有効または無効にします。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -91,12 +91,12 @@ public int compareTo(RenderState other)
 ```
 
 
-レンダリング状態を別のインスタンスと比較する
+レンダー状態を別のインスタンスと比較します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| other | [RenderState](../../com.aspose.threed/renderstate) | 比較用の別のレンダー状態 |
+| other | [RenderState](../../com.aspose.threed/renderstate) | 比較用の別のレンダーステート |
 
 **Returns:**
 int
@@ -121,17 +121,17 @@ public boolean getBlend()
 ```
 
 
-フラグメントブレンディングを有効または無効にする。
+フラグメントブレンディングを有効または無効にします。
 
 **Returns:**
-boolean - フラグメントブレンドを有効または無効にします。
+boolean - フラグメントブレンディングを有効または無効にします。
 ### getBlendColor() {#getBlendColor--}
 ```
 public FVector4 getBlendColor()
 ```
 
 
-[BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) で使用されるブレンドカラーを取得します
+[BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR) で使用されるブレンドカラーを取得します
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4) - the blend color where used in [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
@@ -151,7 +151,7 @@ public boolean getCullFace()
 ```
 
 
-カリング面を有効または無効にする
+カリングフェイスを有効または無効にします
 
 **Returns:**
 boolean - カリング面を有効または無効にします
@@ -161,7 +161,7 @@ public int getCullFaceMode()
 ```
 
 
-カリングされる面を取得します。
+どの面がカリングされるかを取得します。
 
 **Returns:**
 int - カリングされる面を指定します。
@@ -181,7 +181,7 @@ public boolean getDepthMask()
 ```
 
 
-深度書き込みを有効または無効にする。
+深度書き込みを有効または無効にします。
 
 **Returns:**
 boolean - 深度書き込みを有効または無効にします。
@@ -191,7 +191,7 @@ public boolean getDepthTest()
 ```
 
 
-深度テストを有効または無効にする。
+深度テストを有効または無効にします。
 
 **Returns:**
 boolean - 深度テストを有効または無効にします。
@@ -201,7 +201,7 @@ public BlendFactor getDestinationBlendFactor()
 ```
 
 
-色のブレンド方法を取得します。
+色がどのようにブレンドされるかを取得します。
 
 **Returns:**
 [BlendFactor](../../com.aspose.threed/blendfactor) - how the color is blended.
@@ -211,7 +211,7 @@ public FrontFace getFrontFace()
 ```
 
 
-表面が前面になる順序を取得します。
+どの順序が表面（フロントフェイス）かを取得します。
 
 **Returns:**
 [FrontFace](../../com.aspose.threed/frontface) - which order is front face.
@@ -231,7 +231,7 @@ public boolean getScissorTest()
 ```
 
 
-シザーテストを有効または無効にする
+シザーテストを有効または無効にします
 
 **Returns:**
 boolean - シザーテストを有効または無効にします
@@ -241,7 +241,7 @@ public BlendFactor getSourceBlendFactor()
 ```
 
 
-色のブレンド方法を取得します。
+色がどのようにブレンドされるかを取得します。
 
 **Returns:**
 [BlendFactor](../../com.aspose.threed/blendfactor) - how the color is blended.
@@ -261,7 +261,7 @@ public StencilState getStencilFrontFace()
 ```
 
 
-前面のステンシル状態を取得します。
+表面のステンシル状態を取得します。
 
 **Returns:**
 [StencilState](../../com.aspose.threed/stencilstate) - the stencil state for front face.
@@ -271,7 +271,7 @@ public int getStencilMask()
 ```
 
 
-テスト完了時に参照値と保存されたステンシル値の両方と AND されるマスクを取得します。
+テストが完了したときに、参照値と保存されたステンシル値の両方と AND 演算されるマスクを取得します。
 
 **Returns:**
 int - テストが完了したときに、参照値と保存されたステンシル値の両方とAND演算されるマスクです。
@@ -291,7 +291,7 @@ public boolean getStencilTest()
 ```
 
 
-ステンシルテストを有効または無効にする。
+ステンシルテストを有効または無効にします。
 
 **Returns:**
 boolean - ステンシルテストを有効または無効にします。
@@ -327,7 +327,7 @@ public void setBlend(boolean value)
 ```
 
 
-フラグメントブレンディングを有効または無効にする。
+フラグメントブレンディングを有効または無効にします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -340,7 +340,7 @@ public void setBlendColor(FVector4 value)
 ```
 
 
-[BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) で使用されるブレンドカラーを設定します
+[BlendFactor.CONSTANT\\_COLOR](../../com.aspose.threed/blendfactor\\#CONSTANT-COLOR) で使用されるブレンドカラーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -353,7 +353,7 @@ public void setCullFace(boolean value)
 ```
 
 
-カリング面を有効または無効にする
+カリングフェイスを有効または無効にします
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -366,7 +366,7 @@ public void setCullFaceMode(int value)
 ```
 
 
-カリングされる面を設定します。
+どの面がカリングされるかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -392,7 +392,7 @@ public void setDepthMask(boolean value)
 ```
 
 
-深度書き込みを有効または無効にする。
+深度書き込みを有効または無効にします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -405,7 +405,7 @@ public void setDepthTest(boolean value)
 ```
 
 
-深度テストを有効または無効にする。
+深度テストを有効または無効にします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -418,7 +418,7 @@ public void setDestinationBlendFactor(BlendFactor value)
 ```
 
 
-色のブレンド方法を設定します。
+色がどのようにブレンドされるかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -431,7 +431,7 @@ public void setFrontFace(FrontFace value)
 ```
 
 
-表面が前面になる順序を設定します。
+どの順序が表面（フロントフェイス）かを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -457,7 +457,7 @@ public void setScissorTest(boolean value)
 ```
 
 
-シザーテストを有効または無効にする
+シザーテストを有効または無効にします
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -470,7 +470,7 @@ public void setSourceBlendFactor(BlendFactor value)
 ```
 
 
-色のブレンド方法を設定します。
+色がどのようにブレンドされるかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -509,7 +509,7 @@ public void setStencilTest(boolean value)
 ```
 
 
-ステンシルテストを有効または無効にする。
+ステンシルテストを有効または無効にします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

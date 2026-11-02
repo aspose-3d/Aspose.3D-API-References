@@ -55,7 +55,7 @@ public ShaderException(String message)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| message | java.lang.String |  |
+| メッセージ | java.lang.String |  |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

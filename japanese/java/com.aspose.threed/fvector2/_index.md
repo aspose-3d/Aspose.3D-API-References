@@ -21,8 +21,8 @@ public final class FVector2 implements Struct<FVector2>, Serializable
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [FVector2(float x, float y)](#FVector2-float-float-) | [FVector2](../../com.aspose.threed/fvector2) の新しいインスタンスを初期化します。 |
-| [FVector2(Vector2 vec)](#FVector2-com.aspose.threed.Vector2-) | [FVector2](../../com.aspose.threed/fvector2) の新しいインスタンスを初期化します。 |
+| [FVector2(float x, float y)](#FVector2-float-float-) | 新しい [FVector2](../../com.aspose.threed/fvector2) のインスタンスを初期化します。 |
+| [FVector2(Vector2 vec)](#FVector2-com.aspose.threed.Vector2-) | 新しい [FVector2](../../com.aspose.threed/fvector2) のインスタンスを初期化します。 |
 | [FVector2()](#FVector2--) |  |
 ## フィールド
 
@@ -37,7 +37,7 @@ public final class FVector2 implements Struct<FVector2>, Serializable
 | [add(FVector2 a, FVector2 b)](#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \+ 演算子のオーバーロード |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector2 src)](#copyFrom-com.aspose.threed.FVector2-) |  |
-| [create(FVector2 v)](#create-com.aspose.threed.FVector2-) | FVector2 を Vector2 にキャストする明示的な変換演算子 |
+| [create(FVector2 v)](#create-com.aspose.threed.FVector2-) | FVector2 を Vector2 にキャストする明示的変換演算子 |
 | [equals(FVector2 rhs)](#equals-com.aspose.threed.FVector2-) | 2つのベクトルが等しいか確認する |
 | [equals(Object obj)](#equals-java.lang.Object-) | 2つのベクトルが等しいか確認する |
 | [getClass()](#getClass--) |  |
@@ -58,7 +58,7 @@ public FVector2(float x, float y)
 ```
 
 
-[FVector2](../../com.aspose.threed/fvector2) の新しいインスタンスを初期化します。
+新しい [FVector2](../../com.aspose.threed/fvector2) のインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -72,7 +72,7 @@ public FVector2(Vector2 vec)
 ```
 
 
-[FVector2](../../com.aspose.threed/fvector2) の新しいインスタンスを初期化します。
+新しい [FVector2](../../com.aspose.threed/fvector2) のインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -113,7 +113,7 @@ public static FVector2 add(FVector2 a, FVector2 b)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [FVector2](../../com.aspose.threed/fvector2) | 最初のベクトル |
-| b | [FVector2](../../com.aspose.threed/fvector2) | 2番目のベクトル |
+| b | [FVector2](../../com.aspose.threed/fvector2) | 第二ベクトル |
 
 **Returns:**
 [FVector2](../../com.aspose.threed/fvector2) - The sum of two vectors.
@@ -146,7 +146,7 @@ public static Vector2 create(FVector2 v)
 ```
 
 
-FVector2 を Vector2 にキャストする明示的な変換演算子
+FVector2 を Vector2 にキャストする明示的変換演算子
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -217,7 +217,7 @@ public static FVector2 mul(FVector2 a, float b)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [FVector2](../../com.aspose.threed/fvector2) | 最初のベクトル |
-| b | float | 2番目のベクトル |
+| b | float | 第二ベクトル |
 
 **Returns:**
 [FVector2](../../com.aspose.threed/fvector2) - The product of two vectors.
@@ -249,7 +249,7 @@ public static boolean op_eq(FVector2 a, FVector2 b)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [FVector2](../../com.aspose.threed/fvector2) | 最初のベクトル |
-| b | [FVector2](../../com.aspose.threed/fvector2) | 2番目のベクトル |
+| b | [FVector2](../../com.aspose.threed/fvector2) | 第二ベクトル |
 
 **Returns:**
 boolean - すべての成分が等しい場合は true。
@@ -265,7 +265,7 @@ public static boolean op_ne(FVector2 a, FVector2 b)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [FVector2](../../com.aspose.threed/fvector2) | 最初のベクトル |
-| b | [FVector2](../../com.aspose.threed/fvector2) | 2番目のベクトル |
+| b | [FVector2](../../com.aspose.threed/fvector2) | 第二ベクトル |
 
 **Returns:**
 boolean - 任意の成分が異なる場合は true。
@@ -281,7 +281,7 @@ public static FVector2 sub(FVector2 a, FVector2 b)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [FVector2](../../com.aspose.threed/fvector2) | 最初のベクトル |
-| b | [FVector2](../../com.aspose.threed/fvector2) | 2番目のベクトル |
+| b | [FVector2](../../com.aspose.threed/fvector2) | 第二ベクトル |
 
 **Returns:**
 [FVector2](../../com.aspose.threed/fvector2) - The difference of two vectors.

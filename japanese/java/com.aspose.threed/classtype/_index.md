@@ -26,7 +26,7 @@ public static class StructuralMetadata.ClassType
 | [addProperty(StructuralMetadata.Property property)](#addProperty-com.aspose.threed.StructuralMetadata.Property-) | このクラスに指定されたプロパティを追加する |
 | [addProperty(String name, StructuralMetadata.EnumType type, boolean array)](#addProperty-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-) |  |
 | [addProperty(String name, StructuralMetadata.EnumType type, boolean array, Integer count)](#addProperty-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) |  |
-| [addProperty(String name, Class<?> type)](#addProperty-java.lang.String-java.lang.Class----) | 指定された型で新しいプロパティを追加する |
+| [addProperty(String name, Class<?> type)](#addProperty-java.lang.String-java.lang.Class----) | 指定された型の新しいプロパティを追加する |
 | [addProperty(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array)](#addProperty-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-) |  |
 | [addProperty(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#addProperty-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) |  |
 | [addProperty(String name, String displayName, String description, Class<?> type)](#addProperty-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----) |  |
@@ -117,7 +117,7 @@ public StructuralMetadata.Property addProperty(String name, Class<?> type)
 ```
 
 
-指定された型で新しいプロパティを追加する
+指定された型の新しいプロパティを追加する
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

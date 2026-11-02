@@ -20,7 +20,7 @@ public enum BoneLinkMode extends Enum<BoneLinkMode>
 | --- | --- |
 | [ADDITIVE](#ADDITIVE) | 加算モードは、子ボーンのローカル変換を親ボーンの変換に加えることで、子ボーンの変換を計算します。 |
 | [NORMALIZE](#NORMALIZE) | このモードでは、子ボーンの変換は親ボーンの変換に対して正規化されます。 |
-| [TOTAL_ONE](#TOTAL-ONE) | トータルワンは、親ボーンと子ボーンの合成変換が全体で1単位の長さにスケールするようにします。 |
+| [TOTAL_ONE](#TOTAL-ONE) | Total One は、親ボーンと子ボーンの合成変換が全体で1単位の長さにスケールするようにします。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -64,7 +64,7 @@ public static final BoneLinkMode TOTAL_ONE
 ```
 
 
-トータルワンは、親ボーンと子ボーンの合成変換が全体で1単位の長さにスケールするようにします。
+Total One は、親ボーンと子ボーンの合成変換が全体で1単位の長さにスケールするようにします。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

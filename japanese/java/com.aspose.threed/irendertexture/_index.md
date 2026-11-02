@@ -19,7 +19,7 @@ public interface IRenderTexture extends IRenderTarget
 | メソッド | 説明 |
 | --- | --- |
 | [getDepthTexture()](#getDepthTexture--) | 深度バッファテクスチャ |
-| [getTargets()](#getTargets--) | カラ―出力ターゲット。 |
+| [getTargets()](#getTargets--) | カラー出力ターゲット。 |
 ### getDepthTexture() {#getDepthTexture--}
 ```
 public abstract ITextureUnit getDepthTexture()
@@ -36,7 +36,7 @@ public abstract List<ITextureUnit> getTargets()
 ```
 
 
-カラ―出力ターゲット。
+カラー出力ターゲット。
 
 **Returns:**
-java.util.List<com.aspose.threed.ITextureUnit> - カラ―出力ターゲット。
+java.util.List<com.aspose.threed.ITextureUnit> - カラー出力ターゲット。

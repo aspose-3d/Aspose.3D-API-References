@@ -23,17 +23,17 @@ public class ShaderTechnique
 
 | メソッド | 説明 |
 | --- | --- |
-| [addBinding(String property, String shaderParameter)](#addBinding-java.lang.String-java.lang.String-) | 動的プロパティをシェーダパラメータにバインドします |
+| [addBinding(String property, String shaderParameter)](#addBinding-java.lang.String-java.lang.String-) | 動的プロパティをシェーダーパラメータにバインドします |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDescription()](#getDescription--) | このテクニックの説明を取得します |
 | [getRenderAPI()](#getRenderAPI--) | このテクニックで使用されるレンダリングAPIを取得します |
 | [getRenderAPIVersion()](#getRenderAPIVersion--) | レンダリングAPIのバージョンを取得します。 |
-| [getShaderContent()](#getShaderContent--) | 埋め込みシェーダスクリプトの内容を取得します。 |
-| [getShaderEntry()](#getShaderEntry--) | シェーダのエントリーポイントを取得します。HLSL のようなシェーダはカスタマイズされたエントリを持つことがあります。 |
-| [getShaderFile()](#getShaderFile--) | 外部シェーダファイルのファイル名を取得します。 |
-| [getShaderLanguage()](#getShaderLanguage--) | このテクニックで使用されるシェーダ言語を取得します。 |
-| [getShaderParameters()](#getShaderParameters--) | シェーダパラメータの定義を取得します。 |
+| [getShaderContent()](#getShaderContent--) | 埋め込みシェーダースクリプトの内容を取得します。 |
+| [getShaderEntry()](#getShaderEntry--) | シェーダーのエントリーポイントを取得します。HLSL のようなシェーダーはカスタマイズされたエントリーポイントを持つことがあります。 |
+| [getShaderFile()](#getShaderFile--) | 外部シェーダーファイルのファイル名を取得します。 |
+| [getShaderLanguage()](#getShaderLanguage--) | このテクニックで使用されるシェーダー言語を取得します。 |
+| [getShaderParameters()](#getShaderParameters--) | シェーダーパラメータの定義を取得します。 |
 | [getShaderVersion()](#getShaderVersion--) | このテクニックで使用されるシェーダーバージョンを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -42,7 +42,7 @@ public class ShaderTechnique
 | [setRenderAPI(String value)](#setRenderAPI-java.lang.String-) | このテクニックで使用されるレンダリング API を設定します |
 | [setRenderAPIVersion(String value)](#setRenderAPIVersion-java.lang.String-) | レンダリング API のバージョンを設定します。 |
 | [setShaderContent(byte[] value)](#setShaderContent-byte---) | 埋め込みシェーダースクリプトの内容を設定します。 |
-| [setShaderEntry(String value)](#setShaderEntry-java.lang.String-) | シェーダーのエントリーポイントを設定します。HLSL のようなシェーダーはカスタマイズされたエントリを持つことができます。 |
+| [setShaderEntry(String value)](#setShaderEntry-java.lang.String-) | シェーダーのエントリーポイントを設定します。一部のシェーダー（例: HLSL）ではカスタマイズされたエントリーポイントを持つことができます。 |
 | [setShaderFile(String value)](#setShaderFile-java.lang.String-) | 外部シェーダーファイルのファイル名を設定します。 |
 | [setShaderLanguage(String value)](#setShaderLanguage-java.lang.String-) | このテクニックで使用されるシェーダー言語を設定します。 |
 | [setShaderVersion(String value)](#setShaderVersion-java.lang.String-) | このテクニックで使用されるシェーダーバージョンを設定します。 |
@@ -64,7 +64,7 @@ public void addBinding(String property, String shaderParameter)
 ```
 
 
-動的プロパティをシェーダパラメータにバインドします
+動的プロパティをシェーダーパラメータにバインドします
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -133,27 +133,27 @@ public byte[] getShaderContent()
 ```
 
 
-埋め込みシェーダースクリプトの内容を取得します。HLSL/GLSL シェーダーのソースファイルである可能性があります。
+埋め込みシェーダースクリプトの内容を取得します。HLSL/GLSL のシェーダーソースファイルである可能性があります。
 
 **Returns:**
-byte[] - 埋め込みシェーダースクリプトの内容です。HLSL/GLSL シェーダーのソースファイルである可能性があります。
+byte[] - 埋め込みシェーダースクリプトの内容です。HLSL/GLSL のシェーダーソースファイルである可能性があります。
 ### getShaderEntry() {#getShaderEntry--}
 ```
 public String getShaderEntry()
 ```
 
 
-シェーダのエントリーポイントを取得します。HLSL のようなシェーダはカスタマイズされたエントリを持つことがあります。
+シェーダーのエントリーポイントを取得します。HLSL のようなシェーダーはカスタマイズされたエントリーポイントを持つことがあります。
 
 **Returns:**
-java.lang.String - シェーダーのエントリーポイントです。HLSL のようなシェーダーはカスタマイズされたエントリを持つことができます。
+java.lang.String - シェーダーのエントリーポイントです。一部のシェーダー（例: HLSL）ではカスタマイズされたエントリーポイントを持つことができます。
 ### getShaderFile() {#getShaderFile--}
 ```
 public String getShaderFile()
 ```
 
 
-外部シェーダファイルのファイル名を取得します。
+外部シェーダーファイルのファイル名を取得します。
 
 **Returns:**
 java.lang.String - 外部シェーダーファイルのファイル名です。
@@ -163,7 +163,7 @@ public String getShaderLanguage()
 ```
 
 
-このテクニックで使用されるシェーダ言語を取得します。
+このテクニックで使用されるシェーダー言語を取得します。
 
 **Returns:**
 java.lang.String - このテクニックで使用されるシェーダー言語です。
@@ -258,7 +258,7 @@ public void setShaderContent(byte[] value)
 ```
 
 
-埋め込みシェーダースクリプトの内容を設定します。HLSL/GLSL シェーダーのソースファイルである可能性があります。
+埋め込みシェーダースクリプトの内容を設定します。HLSL/GLSL のシェーダーソースファイルである可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -271,7 +271,7 @@ public void setShaderEntry(String value)
 ```
 
 
-シェーダーのエントリーポイントを設定します。HLSL のようなシェーダーはカスタマイズされたエントリを持つことができます。
+シェーダーのエントリーポイントを設定します。一部のシェーダー（例: HLSL）ではカスタマイズされたエントリーポイントを持つことができます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

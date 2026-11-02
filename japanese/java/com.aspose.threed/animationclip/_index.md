@@ -8,7 +8,7 @@ url: /ja/java/com.aspose.threed/animationclip/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)、[com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject)
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject)
 ```
 public class AnimationClip extends SceneObject
 ```
@@ -24,7 +24,7 @@ Animation clip はアニメーションのコレクションです。シーン�
 
 | メソッド | 説明 |
 | --- | --- |
-| [createAnimationNode(String nodeName)](#createAnimationNode-java.lang.String-) | 現在のクリップ上でアニメーションノードを作成し登録するためのショートハンド関数です。 |
+| [createAnimationNode(String nodeName)](#createAnimationNode-java.lang.String-) | 現在のクリップ上でアニメーションノードを作成し登録するための省略関数です。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getAnimations()](#getAnimations--) | クリップ内に含まれるアニメーションを取得します。 |
@@ -40,12 +40,12 @@ Animation clip はアニメーションのコレクションです。シーン�
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setDescription(String value)](#setDescription-java.lang.String-) | このアニメーションクリップの説明を設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setStart(double value)](#setStart-double-) | クリップの開始時刻を秒単位で設定します。 |
-| [setStop(double value)](#setStop-double-) | クリップの終了時刻を秒単位で設定します。 |
+| [setStart(double value)](#setStart-double-) | クリップの開始時刻（秒）を設定します。 |
+| [setStop(double value)](#setStop-double-) | クリップの終了時刻（秒）を設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,7 +77,7 @@ public AnimationNode createAnimationNode(String nodeName)
 ```
 
 
-現在のクリップ上でアニメーションノードを作成し登録するためのショートハンド関数です。
+現在のクリップ上でアニメーションノードを作成し登録するための省略関数です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -107,7 +107,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -125,7 +125,7 @@ public List<AnimationNode> getAnimations()
 クリップ内に含まれるアニメーションを取得します。
 
 **Returns:**
-java.util.List<com.aspose.threed.AnimationNode> - クリップ内に含まれるアニメーション。
+java.util.List<com.aspose.threed.AnimationNode> - クリップに含まれるアニメーション。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -155,7 +155,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -200,7 +200,7 @@ public double getStart()
 クリップの開始時刻（秒）を取得します。
 
 **Returns:**
-double - クリップの開始時刻（秒）
+double - クリップの開始時刻（秒）。
 ### getStop() {#getStop--}
 ```
 public double getStop()
@@ -210,7 +210,7 @@ public double getStop()
 クリップの終了時刻（秒）を取得します。
 
 **Returns:**
-double - クリップの終了時刻（秒）
+double - クリップの終了時刻（秒）。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -248,7 +248,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -258,12 +258,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -313,7 +313,7 @@ public void setStart(double value)
 ```
 
 
-クリップの開始時刻を秒単位で設定します。
+クリップの開始時刻（秒）を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -326,7 +326,7 @@ public void setStop(double value)
 ```
 
 
-クリップの終了時刻を秒単位で設定します。
+クリップの終了時刻（秒）を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

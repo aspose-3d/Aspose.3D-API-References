@@ -19,12 +19,12 @@ public interface ITextureCubemap extends ITextureUnit
 | メソッド | 説明 |
 | --- | --- |
 | [load(CubeFace face, TextureData data)](#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | 指定された面にデータをロードします |
-| [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | 指定された [TextureData](../../com.aspose.threed/texturedata) からテクスチャ コンテンツをロードします |
-| [loadFromFiles(CubeFaceData<String> fileNames)](#loadFromFiles-com.aspose.threed.CubeFaceData-java.lang.String--) | 指定されたファイルからテクスチャコンテンツを読み込む |
-| [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | 指定された面をメモリに保存する |
-| [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | テクスチャコンテンツをメモリに保存する。 |
-| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | キューブの各面のテクスチャコンテンツを外部ファイルに保存する。 |
-| [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | テクスチャユニットを[TextureData](../../com.aspose.threed/texturedata)インスタンスに変換する |
+| [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | 指定された [TextureData](../../com.aspose.threed/texturedata) からテクスチャ内容をロードします |
+| [loadFromFiles(CubeFaceData<String> fileNames)](#loadFromFiles-com.aspose.threed.CubeFaceData-java.lang.String--) | 指定されたファイルからテクスチャ コンテンツをロードします |
+| [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | 指定された面をメモリに保存します |
+| [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | テクスチャ コンテンツをメモリに保存します。 |
+| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | キューブの各面のテクスチャ コンテンツを外部ファイルに保存します。 |
+| [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | テクスチャユニットを [TextureData](../../com.aspose.threed/texturedata) インスタンスに変換する |
 ### load(CubeFace face, TextureData data) {#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-}
 ```
 public abstract void load(CubeFace face, TextureData data)
@@ -45,7 +45,7 @@ public abstract void load(CubeFaceData<TextureData> data)
 ```
 
 
-指定された [TextureData](../../com.aspose.threed/texturedata) からテクスチャ コンテンツをロードします
+指定された [TextureData](../../com.aspose.threed/texturedata) からテクスチャ内容をロードします
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -58,7 +58,7 @@ public abstract void loadFromFiles(CubeFaceData<String> fileNames)
 ```
 
 
-指定されたファイルからテクスチャコンテンツを読み込む
+指定されたファイルからテクスチャ コンテンツをロードします
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -71,7 +71,7 @@ public abstract void save(CubeFace side, TextureData bitmap)
 ```
 
 
-指定された面をメモリに保存する
+指定された面をメモリに保存します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -85,7 +85,7 @@ public abstract void save(CubeFaceData<TextureData> bitmap)
 ```
 
 
-テクスチャコンテンツをメモリに保存する。
+テクスチャ コンテンツをメモリに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -98,13 +98,13 @@ public abstract void save(CubeFaceData<String> path, String format)
 ```
 
 
-キューブの各面のテクスチャコンテンツを外部ファイルに保存する。
+キューブの各面のテクスチャ コンテンツを外部ファイルに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | com.aspose.threed.CubeFaceData<java.lang.String> | 保存するファイル名。 |
-| format | java.lang.String | 画像形式 |
+| パス | com.aspose.threed.CubeFaceData<java.lang.String> | 保存するファイル名。 |
+| 形式 | java.lang.String | 画像形式 |
 
 ### toBitmap(CubeFace side) {#toBitmap-com.aspose.threed.CubeFace-}
 ```
@@ -112,7 +112,7 @@ public abstract TextureData toBitmap(CubeFace side)
 ```
 
 
-テクスチャユニットを[TextureData](../../com.aspose.threed/texturedata)インスタンスに変換する
+テクスチャユニットを [TextureData](../../com.aspose.threed/texturedata) インスタンスに変換する
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

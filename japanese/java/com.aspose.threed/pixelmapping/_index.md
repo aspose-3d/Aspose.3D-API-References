@@ -22,10 +22,10 @@ public class PixelMapping implements Closeable
 | [close()](#close--) | マッピングインスタンスを破棄します。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | マッピングされたピクセルのバイト。 |
-| [getHeight()](#getHeight--) | ピクセルの行数 |
+| [getData()](#getData--) | ピクセルのマッピングされたバイト。 |
+| [getHeight()](#getHeight--) | ピクセルの行 |
 | [getStride()](#getStride--) | 行内のピクセルバイト数。 |
-| [getWidth()](#getWidth--) | ピクセルの列数 |
+| [getWidth()](#getWidth--) | ピクセルの列 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,20 +72,20 @@ public byte[] getData()
 ```
 
 
-マッピングされたピクセルのバイト。
+ピクセルのマッピングされたバイト。
 
 **Returns:**
-byte[] - マッピングされたピクセルのバイト。
+byte[] - ピクセルのマッピングされたバイト。
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
 ```
 
 
-ピクセルの行数
+ピクセルの行
 
 **Returns:**
-int - ピクセルの行数
+int - ピクセルの行
 ### getStride() {#getStride--}
 ```
 public int getStride()
@@ -102,10 +102,10 @@ public int getWidth()
 ```
 
 
-ピクセルの列数
+ピクセルの列
 
 **Returns:**
-int - ピクセルの列数
+int - ピクセルの列
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

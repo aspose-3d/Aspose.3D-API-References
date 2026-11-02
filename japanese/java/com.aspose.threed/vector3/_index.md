@@ -21,10 +21,10 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Vector3(double x, double y, double z)](#Vector3-double-double-double-) | 新しいインスタンスを初期化します。[Vector3](../../com.aspose.threed/vector3) 構造体。 |
-| [Vector3(FVector3 vec)](#Vector3-com.aspose.threed.FVector3-) | 新しいインスタンスを初期化します。[Vector3](../../com.aspose.threed/vector3) 構造体。 |
-| [Vector3(double v)](#Vector3-double-) | 新しいインスタンスを初期化します。[Vector3](../../com.aspose.threed/vector3) 構造体。 |
-| [Vector3(Vector4 vec4)](#Vector3-com.aspose.threed.Vector4-) | 新しいインスタンスを初期化します。[Vector3](../../com.aspose.threed/vector3) 構造体。 |
+| [Vector3(double x, double y, double z)](#Vector3-double-double-double-) | [Vector3](../../com.aspose.threed/vector3) 構造体の新しいインスタンスを初期化します。 |
+| [Vector3(FVector3 vec)](#Vector3-com.aspose.threed.FVector3-) | [Vector3](../../com.aspose.threed/vector3) 構造体の新しいインスタンスを初期化します。 |
+| [Vector3(double v)](#Vector3-double-) | [Vector3](../../com.aspose.threed/vector3) 構造体の新しいインスタンスを初期化します。 |
+| [Vector3(Vector4 vec4)](#Vector3-com.aspose.threed.Vector4-) | [Vector3](../../com.aspose.threed/vector3) 構造体の新しいインスタンスを初期化します。 |
 | [Vector3()](#Vector3--) |  |
 ## フィールド
 
@@ -37,19 +37,19 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 
 | メソッド | 説明 |
 | --- | --- |
-| [add(Vector3 lhs, Vector3 rhs)](#add-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | + の演算子オーバーロード |
-| [angleBetween(Vector3 dir)](#angleBetween-com.aspose.threed.Vector3-) | 2つの方向間の内部角度を計算します。2つの方向は正規化されていないベクトルでも構いません。 |
-| [angleBetween(Vector3 dir, Vector3 up)](#angleBetween-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 2つの方向間の内部角度を計算します。2つの方向は正規化されていないベクトルでも構いません。 |
+| [add(Vector3 lhs, Vector3 rhs)](#add-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 演算子オーバーロード + |
+| [angleBetween(Vector3 dir)](#angleBetween-com.aspose.threed.Vector3-) | 2 つの方向間の内部角度を計算します。2 つの方向は正規化されていないベクトルでも構いません。 |
+| [angleBetween(Vector3 dir, Vector3 up)](#angleBetween-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 2 つの方向間の内部角度を計算します。2 つの方向は正規化されていないベクトルでも構いません。 |
 | [clone()](#clone--) |  |
 | [compareTo(Vector3 other)](#compareTo-com.aspose.threed.Vector3-) | 現在のベクトルを別のインスタンスと比較します。 |
 | [copyFrom(Vector3 src)](#copyFrom-com.aspose.threed.Vector3-) |  |
 | [cos()](#cos--) | 各成分の余弦を計算します。 |
 | [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | Vector3 を FVector3 にキャストする明示的変換演算子 |
-| [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | 2つのベクトルの外積 |
-| [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | / の演算子オーバーロード |
-| [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | / の演算子オーバーロード |
-| [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | 2つのベクトルのドット積を取得します |
-| [equals(Object obj)](#equals-java.lang.Object-) | 2つの vector3 が等しいかチェックします |
+| [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | 2 つのベクトルの外積 |
+| [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 演算子オーバーロード / |
+| [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | 演算子オーバーロード / |
+| [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | 2 つのベクトルのドット積を取得します |
+| [equals(Object obj)](#equals-java.lang.Object-) | 2 つの vector3 が等しいか確認します |
 | [get(int idx)](#get-int-) | インデックスでベクトルの成分を取得します。 |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | このベクトルの長さを取得します。 |
@@ -60,9 +60,9 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 | [getUnitZ()](#getUnitZ--) | 単位ベクトル (0, 0, 1) を取得します |
 | [getZero()](#getZero--) | 単位ベクトル (0, 0, 0) を取得します |
 | [hashCode()](#hashCode--) | Vector3 のハッシュコードを取得します |
-| [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | \* の演算子オーバーロード |
-| [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | \* の演算子オーバーロード |
-| [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | \* の演算子オーバーロード |
+| [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 演算子オーバーロード \* |
+| [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | 演算子オーバーロード \* |
+| [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | 演算子オーバーロード \* |
 | [negative(Vector3 v)](#negative-com.aspose.threed.Vector3-) | 「-」の演算子オーバーロード |
 | [normalize()](#normalize--) | このインスタンスを正規化します。 |
 | [notify()](#notify--) |  |
@@ -72,7 +72,7 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 | [set(double newX, double newY, double newZ)](#set-double-double-double-) | x/y/z コンポーネントを一度の呼び出しで設定します。 |
 | [set(int idx, double value)](#set-int-double-) | インデックスでベクトルのコンポーネントを設定します。 |
 | [sin()](#sin--) | 各コンポーネントの正弦を計算します |
-| [sub(Vector3 lhs, Vector3 rhs)](#sub-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 「-」(マイナス) の演算子オーバーロード |
+| [sub(Vector3 lhs, Vector3 rhs)](#sub-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 「-」 (マイナス) の演算子オーバーロード |
 | [toString()](#toString--) | 現在の [Vector3](../../com.aspose.threed/vector3) を表す java.lang.String を返します。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -83,7 +83,7 @@ public Vector3(double x, double y, double z)
 ```
 
 
-新しいインスタンスを初期化します。[Vector3](../../com.aspose.threed/vector3) 構造体。
+[Vector3](../../com.aspose.threed/vector3) 構造体の新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -98,7 +98,7 @@ public Vector3(FVector3 vec)
 ```
 
 
-新しいインスタンスを初期化します。[Vector3](../../com.aspose.threed/vector3) 構造体。
+[Vector3](../../com.aspose.threed/vector3) 構造体の新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -111,7 +111,7 @@ public Vector3(double v)
 ```
 
 
-新しいインスタンスを初期化します。[Vector3](../../com.aspose.threed/vector3) 構造体。
+[Vector3](../../com.aspose.threed/vector3) 構造体の新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -124,7 +124,7 @@ public Vector3(Vector4 vec4)
 ```
 
 
-新しいインスタンスを初期化します。[Vector3](../../com.aspose.threed/vector3) 構造体。
+[Vector3](../../com.aspose.threed/vector3) 構造体の新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -167,7 +167,7 @@ public static Vector3 add(Vector3 lhs, Vector3 rhs)
 ```
 
 
-+ の演算子オーバーロード
+演算子オーバーロード +
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -183,7 +183,7 @@ public double angleBetween(Vector3 dir)
 ```
 
 
-2つの方向間の内部角度を計算します。2つの方向は正規化されていないベクトルでも構いません。
+2 つの方向間の内部角度を計算します。2 つの方向は正規化されていないベクトルでも構いません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -198,13 +198,13 @@ public double angleBetween(Vector3 dir, Vector3 up)
 ```
 
 
-2つの方向間の内部角度を計算します。2つの方向は正規化されていないベクトルでも構いません。
+2 つの方向間の内部角度を計算します。2 つの方向は正規化されていないベクトルでも構いません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | dir | [Vector3](../../com.aspose.threed/vector3) | 比較対象の方向ベクトル |
-| up | [Vector3](../../com.aspose.threed/vector3) | 二つの方向が共有する平面の上ベクトル |
+| up | [Vector3](../../com.aspose.threed/vector3) | 2つの方向が共有する平面の上ベクトル |
 
 **Returns:**
 double - ラジアン単位の内部角度
@@ -277,7 +277,7 @@ public Vector3 cross(Vector3 rhs)
 ```
 
 
-2つのベクトルの外積
+2 つのベクトルの外積
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -292,7 +292,7 @@ public static Vector3 div(Vector3 lhs, Vector3 rhs)
 ```
 
 
-/ の演算子オーバーロード
+演算子オーバーロード /
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -308,7 +308,7 @@ public static Vector3 div(Vector3 lhs, double rhs)
 ```
 
 
-/ の演算子オーバーロード
+演算子オーバーロード /
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -324,7 +324,7 @@ public double dot(Vector3 rhs)
 ```
 
 
-2つのベクトルのドット積を取得します
+2 つのベクトルのドット積を取得します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -332,14 +332,14 @@ public double dot(Vector3 rhs)
 | rhs | [Vector3](../../com.aspose.threed/vector3) | 右側の値。 |
 
 **Returns:**
-double - 二つのベクトルのドット積。
+double - 2つのベクトルのドット積。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-2つの vector3 が等しいかチェックします
+2 つの vector3 が等しいか確認します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -362,7 +362,7 @@ public double get(int idx)
 | idx | int |  |
 
 **Returns:**
-double - インデックスによるベクトルの成分。
+double - インデックスによるベクトルのコンポーネント。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -459,7 +459,7 @@ public static Vector3 mul(Vector3 lhs, Vector3 rhs)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -475,7 +475,7 @@ public static Vector3 mul(Vector3 lhs, double rhs)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -491,7 +491,7 @@ public static Vector3 mul(double lhs, Vector3 rhs)
 ```
 
 
-\* の演算子オーバーロード
+演算子オーバーロード \*
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -573,7 +573,7 @@ Vector3 の不等価演算子
 | rhs | [Vector3](../../com.aspose.threed/vector3) | 右側の値。 |
 
 **Returns:**
-boolean - 2 つのベクトルが等しくない場合は true。
+boolean - 2つのベクトルが等しくない場合は true。
 ### set(double newX, double newY, double newZ) {#set-double-double-double-}
 ```
 public void set(double newX, double newY, double newZ)
@@ -619,7 +619,7 @@ public static Vector3 sub(Vector3 lhs, Vector3 rhs)
 ```
 
 
-「-」(マイナス) の演算子オーバーロード
+「-」 (マイナス) の演算子オーバーロード
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -1,7 +1,7 @@
 ---
 title: "Shape"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "このシェイプは、Maya のクラスター デフォーマーに似た、制御点の集合に対する変形を記述します。"
+description: "このシェイプは、Maya のクラスター デフォーマーに似た、コントロールポイントの集合に対する変形を記述します。"
 type: docs
 weight: 171
 url: /ja/java/com.aspose.threed/shape/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Shape extends Geometry
 ```
 
-このシェイプは、Maya のクラスター デフォーマーに似た、制御点の集合に対する変形を記述します。たとえば、作成したジオメトリにシェイプを追加できます。シェイプとジオメトリは同じトポロジ情報を持ちますが、制御点の位置が異なります。影響度を変えることで、ジオメトリは変形効果を実行します。
+このシェイプは、Maya のクラスター デフォーマーに似た、コントロールポイントの集合に対する変形を記述します。例えば、作成したジオメトリにシェイプを追加できます。シェイプとジオメトリは同じトポロジ情報を持ちますが、コントロールポイントの位置が異なります。影響度を変えることで、ジオメトリは変形効果を実行します。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -32,14 +32,14 @@ public class Shape extends Geometry
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | 指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) を作成します。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [fromControlPoints(Vector3[] controlPoints)](#fromControlPoints-com.aspose.threed.Vector3...-) | 指定された制御点とデフォルトインデックスでシェイプを作成します。 |
+| [fromControlPoints(Vector3[] controlPoints)](#fromControlPoints-com.aspose.threed.Vector3...-) | 指定されたコントロールポイントとデフォルトのインデックスでシェイプを作成します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します |
+| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getControlPoints()](#getControlPoints--) | すべての制御点を取得します。 |
+| [getControlPoints()](#getControlPoints--) | すべてのコントロールポイントを取得します。 |
 | [getDeformers()](#getDeformers--) | このジオメトリに関連付けられたすべてのデフォーマーを取得します。 |
-| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | 指定されたタイプの頂点要素を取得します |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | 指定されたタイプの頂点要素を取得します。 |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getIndices()](#getIndices--) | インデックスを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -49,21 +49,21 @@ public class Shape extends Geometry
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getReceiveShadows()](#getReceiveShadows--) | このジオメトリが影を受け取るかどうかを取得します。 |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | 指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) インスタンスを取得します |
-| [getVertexElements()](#getVertexElements--) | すべての頂点要素を取得します |
-| [getVisible()](#getVisible--) | ジオメトリが可視かどうかを取得します |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | 指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) インスタンスを取得します。 |
+| [getVertexElements()](#getVertexElements--) | すべての頂点要素を取得します。 |
+| [getVisible()](#getVisible--) | ジオメトリが表示されているかどうかを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | このジオメトリが影を受け取るかどうかを設定します。 |
-| [setVisible(boolean value)](#setVisible-boolean-) | ジオメトリが可視かどうかを設定します |
+| [setVisible(boolean value)](#setVisible-boolean-) | ジオメトリが表示されるかどうかを設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,7 +98,7 @@ public Collection<T> <T>getDeformers2()
 指定されたデフォーマータイプのすべてのデフォーマーを取得します
 
 **Returns:**
-java.util.Collection<T> - デフォーマーコレクション
+java.util.Collection<T> - デフォーマー コレクション
 ### addElement(VertexElement element) {#addElement-com.aspose.threed.VertexElement-}
 ```
 public void addElement(VertexElement element)
@@ -140,7 +140,7 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 | --- | --- | --- |
 | type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | 頂点要素のタイプ |
 | mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | デフォルトのマッピングモード |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | デフォルトの参照モード |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | デフォルトのリファレンスモード |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -155,7 +155,7 @@ public VertexElementUV createElementUV(TextureMapping uvMapping)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | 作成するテクスチャマッピングタイプ |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | 作成するテクスチャマッピングのタイプ |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -170,9 +170,9 @@ public VertexElementUV createElementUV(TextureMapping uvMapping, MappingMode map
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | 作成するテクスチャマッピングタイプ |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | 作成するテクスチャマッピングのタイプ |
 | mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | デフォルトのマッピングモード |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | デフォルトの参照モード |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | デフォルトのリファレンスモード |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -197,7 +197,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -212,7 +212,7 @@ public static Shape fromControlPoints(Vector3[] controlPoints)
 ```
 
 
-指定された制御点とデフォルトインデックスでシェイプを作成します。
+指定されたコントロールポイントとデフォルトのインデックスでシェイプを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -244,7 +244,7 @@ public boolean getCastShadows()
 ```
 
 
-このジオメトリが影を落とすかどうかを取得します
+このジオメトリが影を落とすかどうかを取得します。
 
 **Returns:**
 boolean - このジオメトリが影を落とすかどうか
@@ -264,7 +264,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-すべての制御点を取得します。
+すべてのコントロールポイントを取得します。
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - すべての制御点
@@ -284,7 +284,7 @@ public VertexElement getElement(VertexElementType type)
 ```
 
 
-指定されたタイプの頂点要素を取得します
+指定されたタイプの頂点要素を取得します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -299,7 +299,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -332,7 +332,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -352,7 +352,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -404,7 +404,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) インスタンスを取得します
+指定されたテクスチャマッピングタイプで [VertexElementUV](../../com.aspose.threed/vertexelementuv) インスタンスを取得します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -419,7 +419,7 @@ public List<VertexElement> getVertexElements()
 ```
 
 
-すべての頂点要素を取得します
+すべての頂点要素を取得します。
 
 **Returns:**
 java.util.List<com.aspose.threed.VertexElement> - すべての頂点要素
@@ -429,7 +429,7 @@ public boolean getVisible()
 ```
 
 
-ジオメトリが可視かどうかを取得します
+ジオメトリが表示されているかどうかを取得します。
 
 **Returns:**
 boolean - ジオメトリが可視かどうか
@@ -470,7 +470,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -480,12 +480,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -495,7 +495,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-このジオメトリが影を落とすかどうかを設定します
+このジオメトリが影を落とすかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -574,7 +574,7 @@ public void setVisible(boolean value)
 ```
 
 
-ジオメトリが可視かどうかを設定します
+ジオメトリが表示されるかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

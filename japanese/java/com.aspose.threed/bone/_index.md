@@ -1,7 +1,7 @@
 ---
 title: "ボーン"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "ボーンは、ジオメトリの制御点のサブセットを定義し、各制御点のブレンドウェイトを定義します。"
+description: "ボーンはジオメトリのコントロールポイントのサブセットを定義し、各コントロールポイントのブレンドウェイトを設定します。"
 type: docs
 weight: 20
 url: /ja/java/com.aspose.threed/bone/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Bone extends A3DObject
 ```
 
-ボーンは、ジオメトリの制御点のサブセットを定義し、各制御点のブレンドウェイトを定義します。 [Bone](../../com.aspose.threed/bone) オブジェクトは直接使用できず、[SkinDeformer](../../com.aspose.threed/skindeformer) インスタンスを使用してジオメトリを変形させ、[SkinDeformer](../../com.aspose.threed/skindeformer) には複数のボーンがセットされており、各ボーンはノードにリンクされています。NOTE: ジオメトリの制御点は複数のボーンにバインドできる場合があります。
+ボーンはジオメトリのコントロールポイントのサブセットを定義し、各コントロールポイントのブレンドウェイトを設定します。 [Bone](../../com.aspose.threed/bone) オブジェクトは直接使用できず、ジオメトリを変形させるために [SkinDeformer](../../com.aspose.threed/skindeformer) インスタンスが使用され、[SkinDeformer](../../com.aspose.threed/skindeformer) には一連のボーンが含まれ、各ボーンはノードにリンクされています。 注意: ジオメトリのコントロールポイントは複数のボーンにバインドされる可能性があります。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -26,7 +26,7 @@ public class Bone extends A3DObject
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [get(int index)](#get-int-) | 指定された制御点のブレンドウェイトを取得します |
+| [get(int index)](#get-int-) | 指定されたコントロールポイントのブレンドウェイトを取得します |
 | [getBoneTransform()](#getBoneTransform--) | ボーンの変換行列を取得します。 |
 | [getClass()](#getClass--) |  |
 | [getLinkMode()](#getLinkMode--) | ボーンのリンクモードは、階層構造内でボーンが親ボーンに接続またはリンクされる方法を指します。 |
@@ -41,7 +41,7 @@ public class Bone extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [set(int index, double value)](#set-int-double-) | 指定された制御点のブレンド重みを設定します |
 | [setBoneTransform(Matrix4 value)](#setBoneTransform-com.aspose.threed.Matrix4-) | ボーンの変換行列を設定します。 |
 | [setLinkMode(BoneLinkMode value)](#setLinkMode-com.aspose.threed.BoneLinkMode-) | ボーンのリンクモードは、階層構造内でボーンが親ボーンに接続またはリンクされる方法を指します。 |
@@ -96,7 +96,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -111,7 +111,7 @@ public double get(int index)
 ```
 
 
-指定された制御点のブレンドウェイトを取得します
+指定されたコントロールポイントのブレンドウェイトを取得します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -159,14 +159,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getNode() {#getNode--}
 ```
 public Node getNode()
 ```
 
 
-ノードを取得します。ボーンノードはスキンが接続されるボーンで、[SkinDeformer](../../com.aspose.threed/skindeformer) はボーンノードを使用して制御点の変位に影響を与えます。ボーンノードには通常 [Skeleton](../../com.aspose.threed/skeleton) が添付されていますが、必須ではありません。添付された [Skeleton](../../com.aspose.threed/skeleton) は、通常 DCC ソフトウェアがユーザーにスケルトンを表示するために使用されます。
+ノードを取得します。ボーンノードはスキンが接続されるボーンで、[SkinDeformer](../../com.aspose.threed/skindeformer) はボーンノードを使用して制御点の変位に影響を与えます。ボーンノードは通常、[Skeleton](../../com.aspose.threed/skeleton) が添付されていますが、必須ではありません。添付された [Skeleton](../../com.aspose.threed/skeleton) は、通常 DCC ソフトウェアがユーザーにスケルトンを表示するために使用されます。
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the node. The bone node is the bone which skin attached to, the [SkinDeformer](../../com.aspose.threed/skindeformer) will use bone node to influence the displacement of the control points. Bone node usually has a [Skeleton](../../com.aspose.threed/skeleton) attached, but it's not required. Attached [Skeleton](../../com.aspose.threed/skeleton) is usually used by DCC software to show skeleton to user.
@@ -219,7 +219,7 @@ public double getWeight(int index)
 | インデックス | int | 制御点のインデックス |
 
 **Returns:**
-double - 指定インデックスの重み、またはインデックスが無効な場合は 0
+double - 指定されたインデックスの重み、インデックスが無効な場合は 0
 ### getWeightCount() {#getWeightCount--}
 ```
 public int getWeightCount()
@@ -229,7 +229,7 @@ public int getWeightCount()
 重みの数を取得します。この数は [setWeight](../../com.aspose.threed/bone\#setWeight) によって自動的に拡張されます
 
 **Returns:**
-int - 重みの数、これは [setWeight](../../com.aspose.threed/bone\#setWeight) によって自動的に拡張されます
+int - 重みの数、この数は [setWeight](../../com.aspose.threed/bone\#setWeight) によって自動的に拡張されます
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -267,7 +267,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -277,12 +277,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -345,7 +345,7 @@ public void setNode(Node value)
 ```
 
 
-ノードを設定します。ボーンノードはスキンが接続されるボーンで、[SkinDeformer](../../com.aspose.threed/skindeformer) はボーンノードを使用して制御点の変位に影響を与えます。ボーンノードには通常 [Skeleton](../../com.aspose.threed/skeleton) が添付されていますが、必須ではありません。添付された [Skeleton](../../com.aspose.threed/skeleton) は、通常 DCC ソフトウェアがユーザーにスケルトンを表示するために使用されます。
+ノードを設定します。ボーンノードはスキンが接続されるボーンで、[SkinDeformer](../../com.aspose.threed/skindeformer) はボーンノードを使用して制御点の変位に影響を与えます。ボーンノードは通常、[Skeleton](../../com.aspose.threed/skeleton) が添付されていますが、必須ではありません。添付された [Skeleton](../../com.aspose.threed/skeleton) は、通常 DCC ソフトウェアがユーザーにスケルトンを表示するために使用されます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

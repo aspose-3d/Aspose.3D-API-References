@@ -19,21 +19,21 @@ public class PolygonModifier
 | メソッド | 説明 |
 | --- | --- |
 | [applyTransform(Node node, Matrix4 transform)](#applyTransform-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | すべてのジオメトリの制御点に変換行列を適用します |
-| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | これによりメッシュ上に接線とバイノーマルが作成されます。法線が必要で、メッシュに法線が存在しない場合は位置から法線データも作成されます。 |
-| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | これによりシーン内のすべてのメッシュに接線とバイノーマルが作成されます。法線が必要で、メッシュに法線が存在しない場合は位置から法線データも作成されます。 |
+| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | これによりメッシュ上に接線とバイノーマルが作成されます。法線が必要です。メッシュに法線が存在しない場合、位置情報から法線データも作成されます。 |
+| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | これによりシーン内のすべてのメッシュに接線とバイノーマルが作成されます。法線が必要です。メッシュに法線が存在しない場合、位置情報から法線データも作成されます。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | メッシュ定義から法線データを生成します |
 | [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | 指定された入力メッシュから UV データを生成します |
-| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | 指定された入力メッシュと指定された法線データから UV データを生成します |
+| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | 指定された入力メッシュと指定された法線データから UV データを生成します。 |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | ノード全体を単一の変換済みメッシュに変換しますが、法線やテクスチャ座標などの頂点要素はまだサポートされていません。 |
-| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | シーン全体を単一の変換済みメッシュに変換しますが、法線やテクスチャ座標などの頂点要素はまだサポートされていません。 |
-| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | ノード全体を単一の変換済みメッシュに変換しますが、法線やテクスチャ座標などの頂点要素はまだサポートされていません。 |
+| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | ノード全体を単一の変換されたメッシュに変換しますが、normal/texture coordinates のような頂点要素はまだサポートされていません |
+| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | シーン全体を単一の変換されたメッシュに変換しますが、normal/texture coordinates のような頂点要素はまだサポートされていません |
+| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | ノード全体を単一の変換されたメッシュに変換しますが、normal/texture coordinates のような頂点要素はまだサポートされていません |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | このノード内のすべてのジオメトリをスケールします（変換行列ではなく制御点をスケール）。 |
-| [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | このシーン内のすべてのジオメトリをスケールします（変換行列ではなく制御点をスケール）。 |
+| [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | このノード内のすべてのジオメトリをスケールします（制御点をスケールし、変換行列はスケールしません） |
+| [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | このシーン内のすべてのジオメトリをスケールします（制御点をスケールし、変換行列はスケールしません） |
 | [splitMesh(Mesh mesh, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Mesh-com.aspose.threed.SplitMeshPolicy-) | メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) によってサブメッシュに分割します。 |
 | [splitMesh(Node node, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-) | メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) によってサブメッシュに分割します。 |
 | [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-) | メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) によってサブメッシュに分割します。 |
@@ -61,7 +61,7 @@ public static void applyTransform(Node node, Matrix4 transform)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | どのノードのジオメトリが指定された変換で適用されますか。 |
+| node | [Node](../../com.aspose.threed/node) | どのノードのジオメトリが与えられた変換で適用されますか。 |
 | transform | [Matrix4](../../com.aspose.threed/matrix4) | 制御点に適用される変換行列です。 |
 
 ### buildTangentBinormal(Mesh mesh) {#buildTangentBinormal-com.aspose.threed.Mesh-}
@@ -70,7 +70,7 @@ public static void buildTangentBinormal(Mesh mesh)
 ```
 
 
-これによりメッシュ上に接線とバイノーマルが作成されます。法線は必須で、メッシュに法線が存在しない場合は位置情報から法線データも作成されます。UVも必須で、UVが見つからない場合は例外がスローされます。
+これによりメッシュ上にタンジェントとバイノーマルが作成されます。Normal が必要です。メッシュに Normal が存在しない場合、位置から Normal データも作成されます。UV も必要で、UV が見つからない場合は例外がスローされます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -83,7 +83,7 @@ public static void buildTangentBinormal(Scene scene)
 ```
 
 
-これによりシーン内のすべてのメッシュに接線とバイノーマルが作成されます。法線は必須で、メッシュに法線が存在しない場合は位置情報から法線データも作成されます。UVも必須で、UVが定義されていないメッシュは無視されます。
+これによりシーン内のすべてのメッシュにタンジェントとバイノーマルが作成されます。Normal が必要です。メッシュに Normal が存在しない場合、位置から Normal データも作成されます。UV も必要で、UV が定義されていないメッシュは無視されます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -141,7 +141,7 @@ public static VertexElementUV generateUV(Mesh mesh, VertexElementNormal normals)
 ```
 
 
-指定された入力メッシュと指定された法線データから UV データを生成します
+指定された入力メッシュと指定された法線データから UV データを生成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -177,12 +177,12 @@ public static Mesh mergeMesh(Node node)
 ```
 
 
-ノード全体を単一の変換済みメッシュに変換しますが、法線やテクスチャ座標などの頂点要素はまだサポートされていません。
+ノード全体を単一の変換されたメッシュに変換しますが、normal/texture coordinates のような頂点要素はまだサポートされていません
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | 結合するノード |
+| node | [Node](../../com.aspose.threed/node) | マージするノード |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Merged mesh **Example:** The following code shows how to merge all objects from nodes into a single mesh.
@@ -202,12 +202,12 @@ public static Mesh mergeMesh(Scene scene)
 ```
 
 
-シーン全体を単一の変換済みメッシュに変換しますが、法線やテクスチャ座標などの頂点要素はまだサポートされていません。
+シーン全体を単一の変換されたメッシュに変換しますが、normal/texture coordinates のような頂点要素はまだサポートされていません
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | 結合するシーン |
+| scene | [Scene](../../com.aspose.threed/scene) | マージするシーン |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The merged mesh **Example:** The following code shows how to merge all objects from a scene into a single mesh.
@@ -227,12 +227,12 @@ public static Mesh mergeMesh(List<Node> nodes)
 ```
 
 
-ノード全体を単一の変換済みメッシュに変換しますが、法線やテクスチャ座標などの頂点要素はまだサポートされていません。
+ノード全体を単一の変換されたメッシュに変換しますが、normal/texture coordinates のような頂点要素はまだサポートされていません
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ノード | java.util.List<com.aspose.threed.Node> | 結合するノード一覧 |
+| ノード | java.util.List<com.aspose.threed.Node> | マージするノード |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Merged mesh **Example:** The following code shows how to merge all objects from nodes into a single mesh.
@@ -268,13 +268,13 @@ public static void scale(Node node, Vector3 scale)
 ```
 
 
-このノード内のすべてのジオメトリをスケールします（変換行列ではなく制御点をスケール）。
+このノード内のすべてのジオメトリをスケールします（制御点をスケールし、変換行列はスケールしません）
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) | スケールするノード |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | スケール係数 **Example:** 次のコードはシーン内のすべてのジオメトリを10倍にスケールする方法を示しています。 |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | スケール係数 **Example:** 以下のコードはシーン内のすべてのジオメトリを 10 倍にスケールする方法を示しています。 |
 
 ```
 //Load a test file for scaling
@@ -290,13 +290,13 @@ public static Scene scale(Scene scene, Vector3 scale)
 ```
 
 
-このシーン内のすべてのジオメトリをスケールします（変換行列ではなく制御点をスケール）。
+このシーン内のすべてのジオメトリをスケールします（制御点をスケールし、変換行列はスケールしません）
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | scene | [Scene](../../com.aspose.threed/scene) | スケールするシーン |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | スケール係数 **Example:** 次のコードはシーン内のすべてのジオメトリを10倍にスケールする方法を示しています。 |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | スケール係数 **Example:** 以下のコードはシーン内のすべてのジオメトリを 10 倍にスケールする方法を示しています。 |
 
 ```
 //Load a test file for scaling
@@ -314,7 +314,7 @@ public static Mesh[] splitMesh(Mesh mesh, SplitMeshPolicy policy)
 ```
 
 
-メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) によってサブメッシュに分割します。各サブメッシュは1つのマテリアルのみを使用します。元のメッシュは変更されません。
+メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) によってサブメッシュに分割します。各サブメッシュは 1 つのマテリアルのみを使用します。元のメッシュは変更されません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -323,7 +323,7 @@ public static Mesh[] splitMesh(Mesh mesh, SplitMeshPolicy policy)
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 
 **Returns:**
-com.aspose.threed.Mesh[] - 新しい分割メッシュ **例:** 次のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。
+com.aspose.threed.Mesh[] - 新しい分割メッシュ **Example:** 以下のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -347,7 +347,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy)
 ```
 
 
-メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは1つのマテリアルのみを使用します。ノード上でメッシュ分割を実行します **例:** 次のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。
+メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは 1 つのマテリアルのみを使用します。ノード上でメッシュ分割を実行します **Example:** 以下のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -378,14 +378,14 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは1つのマテリアルのみを使用します。ノード上でメッシュ分割を実行します
+メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは 1 つのマテリアルのみを使用します。ノード上でメッシュ分割を実行します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
-|  | createChildNodes | boolean | 各サブメッシュの子ノードを作成します。 **例:** 次のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。 |
+|  | createChildNodes | boolean | 各サブメッシュの子ノードを作成します。 **Example:** 以下のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。 |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -410,7 +410,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは1つのマテリアルのみを使用します。ノード上でメッシュ分割を実行します
+メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは 1 つのマテリアルのみを使用します。ノード上でメッシュ分割を実行します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -418,7 +418,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 | createChildNodes | boolean | 各サブメッシュの子ノードを作成します。 |
-|  | removeOldMesh | boolean | 分割後に古いメッシュを削除します。このパラメータが false の場合、古いメッシュと新しいメッシュは共存します。 **例:** 次のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。 |
+|  | removeOldMesh | boolean | 分割後に古いメッシュを削除します。このパラメータが false の場合、古いメッシュと新しいメッシュが共存します。 **Example:** 以下のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。 |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -443,7 +443,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy)
 ```
 
 
-メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは1つのマテリアルのみを使用します。シーン内のすべてのノードでメッシュ分割を実行します **例:** 次のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。
+メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは 1 つのマテリアルのみを使用します。シーン内のすべてのノードでメッシュ分割を実行します。 **Example:** 以下のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -474,7 +474,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy, boolean remove
 ```
 
 
-メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは1つのマテリアルのみを使用します。シーン内のすべてのノードでメッシュ分割を実行します **例:** 次のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。
+メッシュを [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) でサブメッシュに分割します。各サブメッシュは 1 つのマテリアルのみを使用します。シーン内のすべてのノードでメッシュ分割を実行します。 **Example:** 以下のコードは、マテリアルインデックスを使用してボックスをサブメッシュに分割する方法を示しています。
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -547,7 +547,7 @@ public static void triangulate(Scene scene)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | scene | [Scene](../../com.aspose.threed/scene) | 処理対象のシーン **例:** 次のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。 |
+|  | scene | [Scene](../../com.aspose.threed/scene) | 処理対象のシーン **Example:** 以下のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。 |
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -574,7 +574,7 @@ public static int[][] triangulate(List<Vector4> controlPoints)
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | メッシュの制御点 |
 
 **Returns:**
-int[][] - 三角形の集合 **例:** 次のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。
+int[][] - 三角形の集合 **Example:** 以下のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -598,10 +598,10 @@ public static int[][] triangulate(List<Vector4> controlPoints, int[] polygon)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | メッシュの制御点 |
-| polygon | int[] | ポリゴンの面 |
+| ポリゴン | int[] | ポリゴンの面 |
 
 **Returns:**
-int[][] - 三角形の集合 **例:** 次のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。
+int[][] - 三角形の集合 **Example:** 以下のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -628,7 +628,7 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 | ポリゴン | java.util.List<int[]> | ポリゴンの面 |
 
 **Returns:**
-int[][] - 三角形の集合 **例:** 次のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。
+int[][] - 三角形の集合 **Example:** 以下のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -657,7 +657,7 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 | nor_out | [Vector3\[\]](../../com.aspose.threed/vector3) | 制御点ごとの法線が生成されました |
 
 **Returns:**
-int[][] - 三角形の集合 **例:** 次のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。
+int[][] - 三角形の集合 **Example:** 以下のコードは、シーン内のすべてのオブジェクトを単一のメッシュにマージする方法を示しています。
 
 ```
 var mesh = new Cylinder().toMesh();

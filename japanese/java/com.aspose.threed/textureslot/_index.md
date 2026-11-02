@@ -1,7 +1,7 @@
 ---
 title: "TextureSlot"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "テクスチャスロットは、マテリアルインスタンスを通じて列挙できます。"
+description: "テクスチャ スロットは material インスタンスを通じて列挙できます。"
 type: docs
 weight: 188
 url: /ja/java/com.aspose.threed/textureslot/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureSlot
 ```
 
-テクスチャスロットは [Material](../../com.aspose.threed/material) にあり、マテリアルインスタンスを通じて列挙できます。 **Example:**
+テクスチャ スロットは [Material](../../com.aspose.threed/material) にあり、material インスタンスを通じて列挙できます。 **Example:**
 
 ```
 var mat = new LambertMaterial();

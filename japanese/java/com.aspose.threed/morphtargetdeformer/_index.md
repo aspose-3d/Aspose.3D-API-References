@@ -8,18 +8,18 @@ url: /ja/java/com.aspose.threed/morphtargetdeformer/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)、[com.aspose.threed.Deformer](../../com.aspose.threed/deformer)
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.Deformer](../../com.aspose.threed/deformer)
 ```
 public class MorphTargetDeformer extends Deformer
 ```
 
-MorphTargetDeformer は頂点ごとのアニメーションを提供します。MorphTargetDeformer はすべてのターゲットを [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) を介して整理し、各チャンネルは複数のターゲットを管理できます。モーフターゲットデフォーマーの一般的な使用例は、キャラクターに表情を適用することです。詳細は https://en.wikipedia.org/wiki/Morph\_target\_animation を参照してください。
+MorphTargetDeformer は頂点ごとのアニメーションを提供します。MorphTargetDeformer はすべてのターゲットを [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) を介して整理し、各チャンネルは複数のターゲットを管理できます。モーフターゲットデフォーマーの一般的な使用例は、キャラクターに表情を適用することです。詳細は https://en.wikipedia.org/wiki/Morph\\_target\\_animation にあります。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [MorphTargetDeformer(String name)](#MorphTargetDeformer-java.lang.String-) | 新しい [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) クラスのインスタンスを初期化します。 |
-| [MorphTargetDeformer()](#MorphTargetDeformer--) | 新しい [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) クラスのインスタンスを初期化します。 |
+| [MorphTargetDeformer(String name)](#MorphTargetDeformer-java.lang.String-) | [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) クラスの新しいインスタンスを初期化します。 |
+| [MorphTargetDeformer()](#MorphTargetDeformer--) | [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) クラスの新しいインスタンスを初期化します。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -30,14 +30,14 @@ MorphTargetDeformer は頂点ごとのアニメーションを提供します。
 | [getChannels()](#getChannels--) | このデフォーマーに含まれるすべてのチャンネルを取得します。 |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getOwner()](#getOwner--) | このデフォーマーを所有するジオメトリを取得します |
+| [getOwner()](#getOwner--) | このデフォーマーが所有するジオメトリを取得します |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | 指定されたジオメトリの重みを設定します。これは、チャンネルにアクセスせずにターゲットの重みを変更する簡易的な方法です。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
@@ -51,7 +51,7 @@ public MorphTargetDeformer(String name)
 ```
 
 
-新しい [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) クラスのインスタンスを初期化します。
+[MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) クラスの新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -64,7 +64,7 @@ public MorphTargetDeformer()
 ```
 
 
-新しい [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) クラスのインスタンスを初期化します。
+[MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) クラスの新しいインスタンスを初期化します。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -87,7 +87,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -140,14 +140,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getOwner() {#getOwner--}
 ```
 public Geometry getOwner()
 ```
 
 
-このデフォーマーを所有するジオメトリを取得します
+このデフォーマーが所有するジオメトリを取得します
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer
@@ -213,7 +213,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -223,12 +223,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true

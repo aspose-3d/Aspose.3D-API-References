@@ -1,7 +1,7 @@
 ---
 title: "ICommandList"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "GPU に送信されてレンダリングされるコマンドのシーケンスをエンコードします。"
+description: "GPU に送信されレンダリングされるコマンドのシーケンスをエンコードします。"
 type: docs
 weight: 240
 url: /ja/java/com.aspose.threed/icommandlist/
@@ -10,15 +10,15 @@ url: /ja/java/com.aspose.threed/icommandlist/
 public interface ICommandList
 ```
 
-GPU に送信されてレンダリングされるコマンドのシーケンスをエンコードします。
+GPU に送信されレンダリングされるコマンドのシーケンスをエンコードします。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [bindDescriptorSet(IDescriptorSet descriptorSet)](#bindDescriptorSet-com.aspose.threed.IDescriptorSet-) | ディスクリプタセットを現在のパイプラインにバインドする |
-| [bindIndexBuffer(IIndexBuffer indexBuffer)](#bindIndexBuffer-com.aspose.threed.IIndexBuffer-) | レンダリング用にインデックスバッファをバインドする |
-| [bindPipeline(IPipeline pipeline)](#bindPipeline-com.aspose.threed.IPipeline-) | レンダリング用にパイプラインインスタンスをバインドする |
-| [bindVertexBuffer(IVertexBuffer vertexBuffer)](#bindVertexBuffer-com.aspose.threed.IVertexBuffer-) | レンダリング用に頂点バッファをバインドする |
+| [bindIndexBuffer(IIndexBuffer indexBuffer)](#bindIndexBuffer-com.aspose.threed.IIndexBuffer-) | レンダリングのためにインデックスバッファをバインドする |
+| [bindPipeline(IPipeline pipeline)](#bindPipeline-com.aspose.threed.IPipeline-) | レンダリングのためにパイプラインインスタンスをバインドする |
+| [bindVertexBuffer(IVertexBuffer vertexBuffer)](#bindVertexBuffer-com.aspose.threed.IVertexBuffer-) | レンダリングのために頂点バッファをバインドする |
 | [draw()](#draw--) | インデックスバッファなしで描画する |
 | [draw(int start, int count)](#draw-int-int-) | インデックスバッファなしで描画する |
 | [drawIndex()](#drawIndex--) | コマンドリストにインデックス付き描画を発行する |
@@ -44,7 +44,7 @@ public abstract void bindIndexBuffer(IIndexBuffer indexBuffer)
 ```
 
 
-レンダリング用にインデックスバッファをバインドする
+レンダリングのためにインデックスバッファをバインドする
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -57,7 +57,7 @@ public abstract void bindPipeline(IPipeline pipeline)
 ```
 
 
-レンダリング用にパイプラインインスタンスをバインドする
+レンダリングのためにパイプラインインスタンスをバインドする
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -70,7 +70,7 @@ public abstract void bindVertexBuffer(IVertexBuffer vertexBuffer)
 ```
 
 
-レンダリング用に頂点バッファをバインドする
+レンダリングのために頂点バッファをバインドする
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

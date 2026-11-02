@@ -1,7 +1,7 @@
 ---
 title: "RenderFactory"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "RenderFactoryはレンダリングパイプラインで表されるすべてのリソースを作成します。"
+description: "RenderFactory はレンダリングパイプラインで表現されるすべてのリソースを作成します。"
 type: docs
 weight: 148
 url: /ja/java/com.aspose.threed/renderfactory/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class RenderFactory
 ```
 
-RenderFactoryはレンダリングパイプラインで表されるすべてのリソースを作成します。
+RenderFactory はレンダリングパイプラインで表現されるすべてのリソースを作成します。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -23,14 +23,14 @@ RenderFactoryはレンダリングパイプラインで表されるすべての�
 
 | メソッド | 説明 |
 | --- | --- |
-| [createCubeRenderTexture(RenderParameters parameters, int width, int height)](#createCubeRenderTexture-com.aspose.threed.RenderParameters-int-int-) | 1 つのキューブテクスチャを含むレンダーターゲットを作成します |
+| [createCubeRenderTexture(RenderParameters parameters, int width, int height)](#createCubeRenderTexture-com.aspose.threed.RenderParameters-int-int-) | 1 つのキューブテクスチャを含むレンダーターゲットを作成します。 |
 | [createDescriptorSet(ShaderProgram shader)](#createDescriptorSet-com.aspose.threed.ShaderProgram-) | 指定されたシェーダープログラム用のディスクリプタセットを作成します。 |
 | [createIndexBuffer()](#createIndexBuffer--) | ポリゴンの面情報を格納するための [IIndexBuffer](../../com.aspose.threed/iindexbuffer) インスタンスを作成します。 |
-| [createPipeline(ShaderProgram shader, RenderState renderState, VertexDeclaration vertexDeclaration, DrawOperation drawOperation)](#createPipeline-com.aspose.threed.ShaderProgram-com.aspose.threed.RenderState-com.aspose.threed.VertexDeclaration-com.aspose.threed.DrawOperation-) | 事前設定されたシェーダー/レンダー状態/頂点宣言と描画操作を備えた、事前構成されたグラフィックスパイプラインを作成します。 |
-| [createRenderTexture(RenderParameters parameters, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-) | テクスチャにレンダリングする 1 つのターゲットを含むレンダーターゲットを作成します |
-| [createRenderTexture(RenderParameters parameters, int targets, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-int-) | テクスチャにレンダリングするレンダーターゲットを作成します |
+| [createPipeline(ShaderProgram shader, RenderState renderState, VertexDeclaration vertexDeclaration, DrawOperation drawOperation)](#createPipeline-com.aspose.threed.ShaderProgram-com.aspose.threed.RenderState-com.aspose.threed.VertexDeclaration-com.aspose.threed.DrawOperation-) | 事前構成されたシェーダー/レンダー状態/頂点宣言と描画操作を備えた、事前構成されたグラフィックスパイプラインを作成します。 |
+| [createRenderTexture(RenderParameters parameters, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-) | テクスチャにレンダリングする 1 つのターゲットを含むレンダーターゲットを作成します。 |
+| [createRenderTexture(RenderParameters parameters, int targets, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-int-) | テクスチャにレンダリングするレンダーターゲットを作成します。 |
 | [createRenderWindow(RenderParameters parameters, WindowHandle handle)](#createRenderWindow-com.aspose.threed.RenderParameters-com.aspose.threed.WindowHandle-) | ネイティブウィンドウにレンダリングするレンダーターゲットを作成します。 |
-| [createShaderProgram(ShaderSource shaderSource)](#createShaderProgram-com.aspose.threed.ShaderSource-) | [ShaderProgram](../../com.aspose.threed/shaderprogram) オブジェクトを作成します |
+| [createShaderProgram(ShaderSource shaderSource)](#createShaderProgram-com.aspose.threed.ShaderSource-) | [ShaderProgram](../../com.aspose.threed/shaderprogram) オブジェクトを作成します。 |
 | [createTextureUnit()](#createTextureUnit--) | シェーダーからアクセス可能な 2D テクスチャユニットを作成します。 |
 | [createTextureUnit(TextureType textureType)](#createTextureUnit-com.aspose.threed.TextureType-) | シェーダーからアクセス可能なテクスチャユニットを作成します。 |
 | [createUniformBuffer(int size)](#createUniformBuffer-int-) | 事前に割り当てられたサイズで GPU 側に新しいユニフォームバッファを作成します。 |
@@ -56,14 +56,14 @@ public abstract IRenderTexture createCubeRenderTexture(RenderParameters paramete
 ```
 
 
-1 つのキューブテクスチャを含むレンダーターゲットを作成します
+1 つのキューブテクスチャを含むレンダーターゲットを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| parameters | [RenderParameters](../../com.aspose.threed/renderparameters) | レンダーテクスチャを作成するためのレンダー パラメータ |
-| 幅 | int | レンダーテクスチャの幅 |
-| 高さ | int | レンダーテクスチャの高さ |
+| parameters | [RenderParameters](../../com.aspose.threed/renderparameters) | レンダーテクスチャを作成するためのレンダー パラメータ。 |
+| 幅 | int | レンダーテクスチャの幅。 |
+| 高さ | int | レンダーテクスチャの高さ。 |
 
 **Returns:**
 [IRenderTexture](../../com.aspose.threed/irendertexture)
@@ -98,14 +98,14 @@ public abstract IPipeline createPipeline(ShaderProgram shader, RenderState rende
 ```
 
 
-事前設定されたシェーダー/レンダー状態/頂点宣言と描画操作を備えた、事前構成されたグラフィックスパイプラインを作成します。
+事前構成されたシェーダー/レンダー状態/頂点宣言と描画操作を備えた、事前構成されたグラフィックスパイプラインを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | レンダリングで使用されるシェーダー |
-| renderState | [RenderState](../../com.aspose.threed/renderstate) | レンダリングで使用されるレンダー状態 |
-| vertexDeclaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | 入力頂点データの頂点宣言 |
+| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | レンダリングで使用されるシェーダー。 |
+| renderState | [RenderState](../../com.aspose.threed/renderstate) | レンダリングで使用されるレンダー状態。 |
+| vertexDeclaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | 入力頂点データの頂点宣言。 |
 | drawOperation | [DrawOperation](../../com.aspose.threed/drawoperation) | 描画操作 |
 
 **Returns:**
@@ -116,14 +116,14 @@ public abstract IRenderTexture createRenderTexture(RenderParameters parameters, 
 ```
 
 
-テクスチャにレンダリングする 1 つのターゲットを含むレンダーターゲットを作成します
+テクスチャにレンダリングする 1 つのターゲットを含むレンダーターゲットを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| parameters | [RenderParameters](../../com.aspose.threed/renderparameters) | レンダーテクスチャを作成するためのレンダー パラメータ |
-| 幅 | int | レンダーテクスチャの幅 |
-| 高さ | int | レンダーテクスチャの高さ |
+| parameters | [RenderParameters](../../com.aspose.threed/renderparameters) | レンダーテクスチャを作成するためのレンダー パラメータ。 |
+| 幅 | int | レンダーテクスチャの幅。 |
+| 高さ | int | レンダーテクスチャの高さ。 |
 
 **Returns:**
 [IRenderTexture](../../com.aspose.threed/irendertexture)
@@ -133,15 +133,15 @@ public abstract IRenderTexture createRenderTexture(RenderParameters parameters, 
 ```
 
 
-テクスチャにレンダリングするレンダーターゲットを作成します
+テクスチャにレンダリングするレンダーターゲットを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| parameters | [RenderParameters](../../com.aspose.threed/renderparameters) | レンダーテクスチャを作成するためのレンダー パラメータ |
+| parameters | [RenderParameters](../../com.aspose.threed/renderparameters) | レンダーテクスチャを作成するためのレンダー パラメータ。 |
 | ターゲット | int | カラー出力ターゲットの数 |
-| 幅 | int | レンダーテクスチャの幅 |
-| 高さ | int | レンダーテクスチャの高さ |
+| 幅 | int | レンダーテクスチャの幅。 |
+| 高さ | int | レンダーテクスチャの高さ。 |
 
 **Returns:**
 [IRenderTexture](../../com.aspose.threed/irendertexture)
@@ -167,7 +167,7 @@ public abstract ShaderProgram createShaderProgram(ShaderSource shaderSource)
 ```
 
 
-[ShaderProgram](../../com.aspose.threed/shaderprogram) オブジェクトを作成します
+[ShaderProgram](../../com.aspose.threed/shaderprogram) オブジェクトを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

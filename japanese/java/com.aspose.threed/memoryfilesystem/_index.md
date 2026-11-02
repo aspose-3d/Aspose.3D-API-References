@@ -45,7 +45,7 @@ public class MemoryFileSystem extends FileSystem
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFileContent(String fileName)](#getFileContent-java.lang.String-) | 指定されたファイルの生データを返します。 |
-| [getFileNames()](#getFileNames--) | このメモリファイルシステム内のファイル名。 |
+| [getFileNames()](#getFileNames--) | このメモリファイルシステムにあるファイル名。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -115,7 +115,7 @@ public List<String> getFileNames()
 ```
 
 
-このメモリファイルシステム内のファイル名。
+このメモリファイルシステムにあるファイル名。
 
 **Returns:**
 java.util.List<java.lang.String>

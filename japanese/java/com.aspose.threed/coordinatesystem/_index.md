@@ -1,7 +1,7 @@
 ---
 title: "CoordinateSystem"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "左手系または右手系座標系。"
+description: "左手系または右手系の座標系です。"
 type: docs
 weight: 273
 url: /ja/java/com.aspose.threed/coordinatesystem/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CoordinateSystem extends Enum<CoordinateSystem>
 ```
 
-左手系または右手系座標系。
+左手系または右手系の座標系です。
 ## フィールド
 
 | フィールド | 説明 |

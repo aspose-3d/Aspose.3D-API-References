@@ -1,7 +1,7 @@
 ---
 title: "スケルトン"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "この機能は主に CAD ソフトウェアで使用され、デザイナーが骨格構造の変換を操作するのに役立ちますが、CAD ソフトウェアの外では通常役に立ちません。"
+description: "この  は主に CAD ソフトウェアで使用され、デザイナーが骨格構造の変換を操作するのに役立ちますが、CAD ソフトウェアの外では通常役に立ちません。"
 type: docs
 weight: 172
 url: /ja/java/com.aspose.threed/skeleton/
@@ -13,14 +13,14 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Skeleton extends Entity
 ```
 
-この [Skeleton](../../com.aspose.threed/skeleton) は主に CAD ソフトウェアで使用され、デザイナーが骨格構造の変換を操作するのに役立ちますが、CAD ソフトウェアの外では通常役に立ちません。スケルトン階層を CAD ソフトウェア内で 1 つのオブジェクトとして機能させるには、上位の [Skeleton](../../com.aspose.threed/skeleton) ノードを [getType](../../com.aspose.threed/skeleton\#getType) を [SkeletonType.SKELETON](../../com.aspose.threed/skeletontype\#SKELETON) に設定してルートノードとしてマークし、すべての子ノードを [SkeletonType.BONE](../../com.aspose.threed/skeletontype\#BONE) に設定する必要があります。
+この [Skeleton](../../com.aspose.threed/skeleton) は主に CAD ソフトウェアで使用され、デザイナーが骨格構造の変換を操作するのに役立ちますが、CAD ソフトウェアの外では通常役に立ちません。スケルトン階層を CAD ソフトウェア内で単一のオブジェクトとして機能させるには、上位の [Skeleton](../../com.aspose.threed/skeleton) ノードを [getType](../../com.aspose.threed/skeleton\#getType) を [SkeletonType.SKELETON](../../com.aspose.threed/skeletontype\#SKELETON) に設定してルートノードとしてマークし、すべての子ノードを [SkeletonType.BONE](../../com.aspose.threed/skeletontype\#BONE) に設定する必要があります。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Skeleton()](#Skeleton--) | [Skeleton](../../com.aspose.threed/skeleton) クラスの新しいインスタンスを初期化します。 |
-| [Skeleton(String name)](#Skeleton-java.lang.String-) | [Skeleton](../../com.aspose.threed/skeleton) クラスの新しいインスタンスを初期化します。 |
-| [Skeleton(String name, SkeletonType type)](#Skeleton-java.lang.String-com.aspose.threed.SkeletonType-) | [Skeleton](../../com.aspose.threed/skeleton) クラスの新しいインスタンスを初期化します。 |
+| [Skeleton()](#Skeleton--) | 新しい [Skeleton](../../com.aspose.threed/skeleton) クラスのインスタンスを初期化します。 |
+| [Skeleton(String name)](#Skeleton-java.lang.String-) | 新しい [Skeleton](../../com.aspose.threed/skeleton) クラスのインスタンスを初期化します。 |
+| [Skeleton(String name, SkeletonType type)](#Skeleton-java.lang.String-com.aspose.threed.SkeletonType-) | 新しい [Skeleton](../../com.aspose.threed/skeleton) クラスのインスタンスを初期化します。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -29,7 +29,7 @@ public class Skeleton extends Entity
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
@@ -37,18 +37,18 @@ public class Skeleton extends Entity
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getSize()](#getSize--) | CAD ソフトウェアで骨のサイズを表すために使用されるリムノードのサイズを取得します。 |
+| [getSize()](#getSize--) | CAD ソフトウェアで骨のサイズを表すために使用されるリムノードサイズを取得します。 |
 | [getType()](#getType--) | スケルトンのタイプを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setSize(double value)](#setSize-double-) | CAD ソフトウェアで骨のサイズを表すために使用されるリムノードのサイズを設定します。 |
+| [setSize(double value)](#setSize-double-) | CAD ソフトウェアで骨のサイズを表すために使用されるリムノードサイズを設定します。 |
 | [setType(SkeletonType value)](#setType-com.aspose.threed.SkeletonType-) | スケルトンのタイプを設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -60,7 +60,7 @@ public Skeleton()
 ```
 
 
-[Skeleton](../../com.aspose.threed/skeleton) クラスの新しいインスタンスを初期化します。
+新しい [Skeleton](../../com.aspose.threed/skeleton) クラスのインスタンスを初期化します。
 
 ### Skeleton(String name) {#Skeleton-java.lang.String-}
 ```
@@ -68,7 +68,7 @@ public Skeleton(String name)
 ```
 
 
-[Skeleton](../../com.aspose.threed/skeleton) クラスの新しいインスタンスを初期化します。
+新しい [Skeleton](../../com.aspose.threed/skeleton) クラスのインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -81,7 +81,7 @@ public Skeleton(String name, SkeletonType type)
 ```
 
 
-[Skeleton](../../com.aspose.threed/skeleton) クラスの新しいインスタンスを初期化します。
+新しい [Skeleton](../../com.aspose.threed/skeleton) クラスのインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -110,7 +110,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -152,7 +152,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -175,7 +175,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -195,7 +195,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -237,10 +237,10 @@ public double getSize()
 ```
 
 
-CAD ソフトウェアで骨のサイズを表すために使用されるリムノードのサイズを取得します。
+CAD ソフトウェアで骨のサイズを表すために使用されるリムノードサイズを取得します。
 
 **Returns:**
-double - CAD ソフトウェアで骨のサイズを表すために使用されるリムノードのサイズ。
+double - CAD ソフトウェアで骨のサイズを表すために使用されるリムノードサイズ。
 ### getType() {#getType--}
 ```
 public SkeletonType getType()
@@ -288,7 +288,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -298,12 +298,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -366,7 +366,7 @@ public void setSize(double value)
 ```
 
 
-CAD ソフトウェアで骨のサイズを表すために使用されるリムノードのサイズを設定します。
+CAD ソフトウェアで骨のサイズを表すために使用されるリムノードサイズを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

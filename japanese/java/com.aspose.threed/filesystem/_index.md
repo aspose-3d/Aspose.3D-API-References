@@ -16,7 +16,7 @@ java.io.Closeable
 public abstract class FileSystem implements Closeable
 ```
 
-ファイルシステムのカプセル化。Aspose.3D はこれを使用して依存関係の読み書きを行います。**Example:** 以下のコードはファイルのインポート方法と、指定ディレクトリ内の依存ファイルを提供する方法を示しています
+ファイルシステムのカプセル化。Aspose.3D はこれを使用して依存関係の読み書きを行います。 **Example:** 次のコードはファイルのインポート方法と、指定ディレクトリ内の依存ファイルを提供する方法を示しています。
 
 ```
 var inputFile = "input.fbx";
@@ -37,8 +37,8 @@ var inputFile = "input.fbx";
 | メソッド | 説明 |
 | --- | --- |
 | [close()](#close--) | ファイルシステムを破棄し、そのリソースを解放します。 |
-| [createDummyFileSystem()](#createDummyFileSystem--) | ダミーのファイルシステムを作成します。読み書き操作はダミー操作です。 |
-| [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | ローカルディレクトリのみアクセス可能な新しい [FileSystem](../../com.aspose.threed/filesystem) を初期化します。 |
+| [createDummyFileSystem()](#createDummyFileSystem--) | ダミーのファイルシステムを作成します。読み書き操作はダミーです。 |
+| [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | ローカルディレクトリのみアクセスできる新しい [FileSystem](../../com.aspose.threed/filesystem) を初期化します。 |
 | [createMemoryFileSystem()](#createMemoryFileSystem--) | 読み書き操作をメモリにマッピングするメモリベースのファイルシステムを作成します。 |
 | [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | 読み書き操作をメモリにマッピングするメモリベースのファイルシステムを作成します。 |
 | [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | 指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステムを作成します。 |
@@ -75,7 +75,7 @@ public static FileSystem createDummyFileSystem()
 ```
 
 
-ダミーのファイルシステムを作成します。読み書き操作はダミー操作です。
+ダミーのファイルシステムを作成します。読み書き操作はダミーです。
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A dummy file system **Example:** The following code shows how to export file to memory, and ignore all dependent file generation.
@@ -101,7 +101,7 @@ public static FileSystem createLocalFileSystem(String directory)
 ```
 
 
-ローカルディレクトリのみアクセス可能な新しい [FileSystem](../../com.aspose.threed/filesystem) を初期化します。この FileSystem インスタンス上のすべてのファイルの読み書きは指定ディレクトリにマッピングされます。
+ローカルディレクトリのみアクセスできる新しい [FileSystem](../../com.aspose.threed/filesystem) を初期化します。この FileSystem インスタンス上のすべてのファイルの読み書きは指定されたディレクトリにマッピングされます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -177,7 +177,7 @@ public static FileSystem createZipFileSystem(Stream stream)
 ```
 
 
-指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステムを作成します。ファイルシステムはオープン/セーブ操作の後に破棄されます。
+指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステムを作成します。ファイルシステムは開く/保存する操作の後に破棄されます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -192,7 +192,7 @@ public static FileSystem createZipFileSystem(Stream stream, String baseDir)
 ```
 
 
-指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステムを作成します。ファイルシステムはオープン/セーブ操作の後に破棄されます。
+指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステムを作成します。ファイルシステムは開く/保存する操作の後に破棄されます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -208,7 +208,7 @@ public static FileSystem createZipFileSystem(String fileName)
 ```
 
 
-指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステムです。ファイルシステムはオープン/セーブ操作の後に破棄されます。
+指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステムです。ファイルシステムは開く/保存する操作の後に破棄されます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -280,7 +280,7 @@ public abstract Stream readFile(String fileName, IOConfig options)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | 読み取り用に開くファイルの名前 |
-| options | [IOConfig](../../com.aspose.threed/ioconfig) | 保存またはロードオプション |
+| options | [IOConfig](../../com.aspose.threed/ioconfig) | 保存または読み込みオプション |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream) - Stream for reading the file.
@@ -340,8 +340,8 @@ public abstract Stream writeFile(String fileName, IOConfig options)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fileName | java.lang.String | 書き込み用に開くファイルの名前 |
-| options | [IOConfig](../../com.aspose.threed/ioconfig) | 保存またはロードオプション |
+| fileName | java.lang.String | 書き込み用に開くファイル名 |
+| options | [IOConfig](../../com.aspose.threed/ioconfig) | 保存または読み込みオプション |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream) - Stream for writing the file

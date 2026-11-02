@@ -1,19 +1,19 @@
 ---
 title: "VertexElementSmoothingGroup"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "スムージンググループは、ポリゴンメッシュ内のポリゴンの集合で、滑らかな表面を形成するように見えるべきものです。"
+description: "スムージンググループは、ポリゴンメッシュ内のポリゴンのグループで、滑らかな表面を形成するように見えるべきものです。"
 type: docs
 weight: 216
 url: /ja/java/com.aspose.threed/vertexelementsmoothinggroup/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.VertexElement](../../com.aspose.threed/vertexelement)、[com.aspose.threed.VertexElementIntsTemplate](../../com.aspose.threed/vertexelementintstemplate)
+java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vertexelement), [com.aspose.threed.VertexElementIntsTemplate](../../com.aspose.threed/vertexelementintstemplate)
 ```
 public class VertexElementSmoothingGroup extends VertexElementIntsTemplate
 ```
 
-スムージンググループは、ポリゴンメッシュ内のポリゴンの集合で、滑らかな表面を形成しているように見えるものです。DOS 用の 3D Studio Max のような初期の 3D モデリングソフトウェアは、各メッシュ頂点の法線ベクトルを保存しないようにスムージンググループを使用していました。
+スムージンググループは、ポリゴンメッシュ内のポリゴンの集合で、滑らかな表面を形成しているように見えるべきものです。DOS 用の 3D Studio Max のような初期の 3D モデリングソフトウェアは、各メッシュ頂点ごとに法線ベクトルを保存するのを回避するためにスムージンググループを使用していました。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -23,7 +23,7 @@ public class VertexElementSmoothingGroup extends VertexElementIntsTemplate
 
 | メソッド | 説明 |
 | --- | --- |
-| [clear()](#clear--) | direct と index 配列からすべての要素を削除します。 |
+| [clear()](#clear--) | direct と index の配列からすべての要素を削除します。 |
 | [clone(boolean withData)](#clone-boolean-) | 頂点要素をディープクローンします。 |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [copyTo(VertexElementIntsTemplate target)](#copyTo-com.aspose.threed.VertexElementIntsTemplate-) | 指定された要素にデータをコピーします。 |
@@ -61,7 +61,7 @@ public void clear()
 ```
 
 
-direct と index 配列からすべての要素を削除します。
+direct と index の配列からすべての要素を削除します。
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -74,7 +74,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| withData | boolean | direct と index 配列で頂点をクローンします。 |
+| withData | boolean | direct と index の配列で頂点をクローンします。 |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -171,7 +171,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getReferenceMode() {#getReferenceMode--}
 ```
 public ReferenceMode getReferenceMode()

@@ -22,7 +22,7 @@ public enum MappingMode extends Enum<MappingMode>
 | [CONTROL_POINT](#CONTROL-POINT) | 各データはジオメトリの制御点にマッピングされます。 |
 | [EDGE](#EDGE) | データはエッジにマッピングされます。 |
 | [POLYGON](#POLYGON) | データはポリゴンにマッピングされます。 |
-| [POLYGON_VERTEX](#POLYGON-VERTEX) | データはポリゴンの頂点にマッピングされます。制御点が複数のポリゴンで共有され、データが [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) としてマッピングされる場合、異なるポリゴンの頂点としての制御点はそれぞれ独自のデータを持ちます。 |
+| [POLYGON_VERTEX](#POLYGON-VERTEX) | データはポリゴンの頂点にマッピングされます。制御点が複数のポリゴンで共有され、データが [POLYGON\\_VERTEX](../../com.aspose.threed/mappingmode\\#POLYGON-VERTEX) としてマッピングされる場合、異なるポリゴンの頂点としての制御点はそれぞれ独自のデータを持ちます。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -50,7 +50,7 @@ public static final MappingMode ALL_SAME
 ```
 
 
-1つのデータが全体の表面にマッピングされます。データが制御点／ポリゴンの頂点／エッジの端点として解釈される場合でも、データは常に [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME) で定義された通りに同一です。
+1つのデータが全体の表面にマッピングされます。データが制御点、ポリゴンの頂点、エッジの端点として解釈される場合でも、データは常に [ALL\\_SAME](../../com.aspose.threed/mappingmode\\#ALL-SAME) で定義されたとおり同一です。
 
 ### CONTROL_POINT {#CONTROL-POINT}
 ```
@@ -66,7 +66,7 @@ public static final MappingMode EDGE
 ```
 
 
-データはエッジにマッピングされます。マッピングが [EDGE](../../com.aspose.threed/mappingmode\#EDGE) の場合、各エッジの端点は同じデータを共有します。
+データはエッジにマッピングされます。マッピングが [EDGE](../../com.aspose.threed/mappingmode\\#EDGE) の場合、各エッジの端点は同じデータを共有します。
 
 ### POLYGON {#POLYGON}
 ```
@@ -74,7 +74,7 @@ public static final MappingMode POLYGON
 ```
 
 
-データはポリゴンにマッピングされます。マッピングモードが [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON) の場合、各ポリゴンの頂点は同じデータを共有します。
+データはポリゴンにマッピングされます。マッピングモードが [POLYGON](../../com.aspose.threed/mappingmode\\#POLYGON) の場合、各ポリゴンの頂点は同じデータを共有します。
 
 ### POLYGON_VERTEX {#POLYGON-VERTEX}
 ```
@@ -82,7 +82,7 @@ public static final MappingMode POLYGON_VERTEX
 ```
 
 
-データはポリゴンの頂点にマッピングされます。制御点が複数のポリゴンで共有され、データが [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) としてマッピングされる場合、異なるポリゴンの頂点としての制御点はそれぞれ独自のデータを持ちます。
+データはポリゴンの頂点にマッピングされます。制御点が複数のポリゴンで共有され、データが [POLYGON\\_VERTEX](../../com.aspose.threed/mappingmode\\#POLYGON-VERTEX) としてマッピングされる場合、異なるポリゴンの頂点としての制御点はそれぞれ独自のデータを持ちます。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

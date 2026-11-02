@@ -1,7 +1,7 @@
 ---
 title: "CompareFunction"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "深度/ステンシルテストで使用される比較関数。"
+description: "深度/ステンシルテストで使用される比較関数です。"
 type: docs
 weight: 271
 url: /ja/java/com.aspose.threed/comparefunction/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CompareFunction extends Enum<CompareFunction>
 ```
 
-深度/ステンシルテストで使用される比較関数。
+深度/ステンシルテストで使用される比較関数です。
 ## フィールド
 
 | フィールド | 説明 |
@@ -24,7 +24,7 @@ public enum CompareFunction extends Enum<CompareFunction>
 | [G_EQUAL](#G-EQUAL) | 受信した値が保存された値以上の場合に合格します。 |
 | [LESS](#LESS) | 受信した値が保存された値より小さい場合に合格します。 |
 | [L_EQUAL](#L-EQUAL) | 受信した値が保存された値以下の場合に合格します。 |
-| [NEVER](#NEVER) | 合格しません |
+| [NEVER](#NEVER) | 決して合格しません |
 | [NOT_EQUAL](#NOT-EQUAL) | 受信した値が保存された値と等しくない場合に合格します。 |
 ## メソッド
 
@@ -101,7 +101,7 @@ public static final CompareFunction NEVER
 ```
 
 
-合格しません
+決して合格しません
 
 ### NOT_EQUAL {#NOT-EQUAL}
 ```

@@ -39,10 +39,10 @@ public final class CubeFaceData<T> implements Struct<CubeFaceData<T>>, Serializa
 | [getNegativeY()](#getNegativeY--) | -Y（底面）面のデータを取得します |
 | [getNegativeZ()](#getNegativeZ--) | -Z（前面）面のデータを取得します |
 | [getPositiveX()](#getPositiveX--) | +X（右側）面のデータを取得します |
-| [getPositiveY()](#getPositiveY--) | +Y（上面）面のデータを取得します |
+| [getPositiveY()](#getPositiveY--) | +Y（上部）面のデータを取得します |
 | [getPositiveZ()](#getPositiveZ--) | +Z（背面）面のデータを取得します |
 | [getRight()](#getRight--) | +X（右側）面のデータを取得します |
-| [getTop()](#getTop--) | +Y（上面）面のデータを取得します |
+| [getTop()](#getTop--) | +Y（上部）面のデータを取得します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -55,10 +55,10 @@ public final class CubeFaceData<T> implements Struct<CubeFaceData<T>>, Serializa
 | [setNegativeY(T value)](#setNegativeY-T-) | -Y（底面）面のデータを設定します |
 | [setNegativeZ(T value)](#setNegativeZ-T-) | -Z（前面）面のデータを設定します |
 | [setPositiveX(T value)](#setPositiveX-T-) | +X（右側）面のデータを設定します |
-| [setPositiveY(T value)](#setPositiveY-T-) | +Y（上部）面のデータを設定します |
+| [setPositiveY(T value)](#setPositiveY-T-) | +Y（上面）面のデータを設定します |
 | [setPositiveZ(T value)](#setPositiveZ-T-) | +Z（背面）面のデータを設定します |
 | [setRight(T value)](#setRight-T-) | +X（右側）面のデータを設定します |
-| [setTop(T value)](#setTop-T-) | +Y（上部）面のデータを設定します |
+| [setTop(T value)](#setTop-T-) | +Y（上面）面のデータを設定します |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -218,10 +218,10 @@ public T getPositiveY()
 ```
 
 
-+Y（上面）面のデータを取得します
++Y（上部）面のデータを取得します
 
 **Returns:**
-T - +Y（上部）面のデータ
+T - +Y（上面）面のデータ
 ### getPositiveZ() {#getPositiveZ--}
 ```
 public T getPositiveZ()
@@ -248,10 +248,10 @@ public T getTop()
 ```
 
 
-+Y（上面）面のデータを取得します
++Y（上部）面のデータを取得します
 
 **Returns:**
-T - +Y（上部）面のデータ
+T - +Y（上面）面のデータ
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -402,7 +402,7 @@ public void setPositiveY(T value)
 ```
 
 
-+Y（上部）面のデータを設定します
++Y（上面）面のデータを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -441,7 +441,7 @@ public void setTop(T value)
 ```
 
 
-+Y（上部）面のデータを設定します
++Y（上面）面のデータを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

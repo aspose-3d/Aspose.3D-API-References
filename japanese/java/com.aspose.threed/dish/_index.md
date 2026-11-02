@@ -18,9 +18,9 @@ public class Dish extends Primitive
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Dish()](#Dish--) | デフォルト半径 (10) とデフォルト高さ (5) を持つ新しい Dish インスタンスを作成する |
-| [Dish(double radius, double height)](#Dish-double-double-) | 指定された半径と高さを持つ新しい Dish インスタンスを作成する |
-| [Dish(String name, double radius, double height, int widthSegments, int heightSegments)](#Dish-java.lang.String-double-double-int-int-) | 指定された半径と高さを持つ新しい Dish インスタンスを作成する |
+| [Dish()](#Dish--) | デフォルトの半径(10)とデフォルトの高さ(5)で新しい Dish インスタンスを作成する |
+| [Dish(double radius, double height)](#Dish-double-double-) | 指定された半径と高さで新しい Dish インスタンスを作成する |
+| [Dish(String name, double radius, double height, int widthSegments, int heightSegments)](#Dish-java.lang.String-double-double-int-int-) | 指定された半径と高さで新しい Dish インスタンスを作成する |
 ## メソッド
 
 | メソッド | 説明 |
@@ -28,9 +28,9 @@ public class Dish extends Primitive
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します |
+| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getHeight()](#getHeight--) | Dish の高さ |
 | [getHeightSegments()](#getHeightSegments--) | 高さセグメントを取得する |
@@ -42,13 +42,13 @@ public class Dish extends Primitive
 | [getRadius()](#getRadius--) | 皿の半径 |
 | [getReceiveShadows()](#getReceiveShadows--) | このジオメトリが影を受け取るかどうかを取得します。 |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getWidthSegments()](#getWidthSegments--) | 幅セグメントを取得します。 |
+| [getWidthSegments()](#getWidthSegments--) | 幅セグメントを取得します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setHeight(double value)](#setHeight-double-) | Dish の高さ |
 | [setHeightSegments(int value)](#setHeightSegments-int-) | 高さセグメントを設定します |
@@ -69,7 +69,7 @@ public Dish()
 ```
 
 
-デフォルト半径 (10) とデフォルト高さ (5) を持つ新しい Dish インスタンスを作成する
+デフォルトの半径(10)とデフォルトの高さ(5)で新しい Dish インスタンスを作成する
 
 ### Dish(double radius, double height) {#Dish-double-double-}
 ```
@@ -77,12 +77,12 @@ public Dish(double radius, double height)
 ```
 
 
-指定された半径と高さを持つ新しい Dish インスタンスを作成する
+指定された半径と高さで新しい Dish インスタンスを作成する
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 半径 | double | 皿の半径 |
+| radius | double | 皿の半径 |
 | 高さ | double | 皿の高さ |
 
 ### Dish(String name, double radius, double height, int widthSegments, int heightSegments) {#Dish-java.lang.String-double-double-int-int-}
@@ -91,13 +91,13 @@ public Dish(String name, double radius, double height, int widthSegments, int he
 ```
 
 
-指定された半径と高さを持つ新しい Dish インスタンスを作成する
+指定された半径と高さで新しい Dish インスタンスを作成する
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | 名前 | java.lang.String | 皿の名前 |
-| 半径 | double | 皿の半径 |
+| radius | double | 皿の半径 |
 | 高さ | double | 皿の高さ |
 | widthSegments | int | 皿の幅セグメント |
 | heightSegments | int | 皿の高さセグメント |
@@ -123,7 +123,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -155,7 +155,7 @@ public boolean getCastShadows()
 ```
 
 
-このジオメトリが影を落とすかどうかを取得します
+このジオメトリが影を落とすかどうかを取得します。
 
 **Returns:**
 boolean - このジオメトリが影を落とすかどうか
@@ -175,7 +175,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -218,7 +218,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -238,7 +238,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -300,7 +300,7 @@ public int getWidthSegments()
 ```
 
 
-幅セグメントを取得します。
+幅セグメントを取得します
 
 **Returns:**
 int - 幅のセグメント
@@ -341,7 +341,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -351,12 +351,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -366,7 +366,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-このジオメトリが影を落とすかどうかを設定します
+このジオメトリが影を落とすかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

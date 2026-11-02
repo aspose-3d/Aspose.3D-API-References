@@ -1,7 +1,7 @@
 ---
 title: "ImportException"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "Aspose.3D が指定されたソースのオープンに失敗したときの例外です。"
+description: "指定されたソースを開く際に Aspose.3D が失敗したときの例外です。"
 type: docs
 weight: 84
 url: /ja/java/com.aspose.threed/importexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.io.IOException
 public class ImportException extends IOException
 ```
 
-Aspose.3D が指定されたソースのオープンに失敗したときの例外です。
+指定されたソースを開く際に Aspose.3D が失敗したときの例外です。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |

@@ -41,9 +41,9 @@ public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Seri
 | [compareTo(Vector2 other)](#compareTo-com.aspose.threed.Vector2-) | 現在のベクトルを別のインスタンスと比較します。 |
 | [copyFrom(Vector2 src)](#copyFrom-com.aspose.threed.Vector2-) |  |
 | [create(Vector2 v)](#create-com.aspose.threed.Vector2-) | Vector2 を FVector2 にキャストする明示的変換演算子 |
-| [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | 2つのベクトルの外積 |
+| [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | 2 つのベクトルの外積 |
 | [div(Vector2 lhs, double rhs)](#div-com.aspose.threed.Vector2-double-) | Vector2 の除算演算子 |
-| [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | 2つのベクトルのドット積を取得します |
+| [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | 2 つのベクトルのドット積を取得します |
 | [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | 二つの vector2 が等しいかチェックします |
 | [equals(Object obj)](#equals-java.lang.Object-) | 二つの vector2 が等しいかチェックします |
 | [getClass()](#getClass--) |  |
@@ -58,8 +58,8 @@ public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Seri
 | [notifyAll()](#notifyAll--) |  |
 | [op_eq(Vector2 lhs, Vector2 rhs)](#op-eq-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 の等価演算子 |
 | [op_ne(Vector2 lhs, Vector2 rhs)](#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 の不等価演算子 |
-| [setU(double value)](#setU-double-) | [Vector2](../../com.aspose.threed/vector2) がマッピング座標として使用されている場合、U 成分を設定します。 |
-| [setV(double value)](#setV-double-) | [Vector2](../../com.aspose.threed/vector2) がマッピング座標として使用されている場合、V 成分を設定します。 |
+| [setU(double value)](#setU-double-) | マッピング座標として [Vector2](../../com.aspose.threed/vector2) が使用されている場合、U 成分を設定します。 |
+| [setV(double value)](#setV-double-) | マッピング座標として [Vector2](../../com.aspose.threed/vector2) が使用されている場合、V 成分を設定します。 |
 | [sub(Vector2 lhs, Vector2 rhs)](#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Vector2 の減算演算子 |
 | [toString()](#toString--) | 現在の [Vector2](../../com.aspose.threed/vector2) を表す java.lang.String を返します。 |
 | [wait()](#wait--) |  |
@@ -76,7 +76,7 @@ public Vector2(double s)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| s | double | S。 |
+| s | double | S. |
 
 ### Vector2(Vector3 s) {#Vector2-com.aspose.threed.Vector3-}
 ```
@@ -89,7 +89,7 @@ public Vector2(Vector3 s)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| s | [Vector3](../../com.aspose.threed/vector3) | S。 |
+| s | [Vector3](../../com.aspose.threed/vector3) | S. |
 
 ### Vector2(FVector2 vec) {#Vector2-com.aspose.threed.FVector2-}
 ```
@@ -102,7 +102,7 @@ public Vector2(FVector2 vec)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| vec | [FVector2](../../com.aspose.threed/fvector2) | float 型のベクトル。 |
+| vec | [FVector2](../../com.aspose.threed/fvector2) | float のベクトル。 |
 
 ### Vector2(double x, double y) {#Vector2-double-double-}
 ```
@@ -215,7 +215,7 @@ public double cross(Vector2 v)
 ```
 
 
-2つのベクトルの外積
+2 つのベクトルの外積
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -246,7 +246,7 @@ public double dot(Vector2 rhs)
 ```
 
 
-2つのベクトルのドット積を取得します
+2 つのベクトルのドット積を取得します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -254,7 +254,7 @@ public double dot(Vector2 rhs)
 | rhs | [Vector2](../../com.aspose.threed/vector2) | 右側の値。 |
 
 **Returns:**
-double - 二つのベクトルのドット積。
+double - 2つのベクトルのドット積。
 ### equals(Vector2 rhs) {#equals-com.aspose.threed.Vector2-}
 ```
 public boolean equals(Vector2 rhs)
@@ -311,20 +311,20 @@ public double getU()
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) がマッピング座標として使用されている場合、U 成分を取得します。これは x 成分のエイリアスです。
+マッピング座標として [Vector2](../../com.aspose.threed/vector2) が使用されている場合、U 成分を取得します。これは x 成分のエイリアスです。
 
 **Returns:**
-double - [Vector2](../../com.aspose.threed/vector2) がマッピング座標として使用されている場合の U 成分。これは x 成分のエイリアスです。
+double - マッピング座標として [Vector2](../../com.aspose.threed/vector2) が使用されている場合の U 成分。これは x 成分のエイリアスです。
 ### getV() {#getV--}
 ```
 public double getV()
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) がマッピング座標として使用されている場合、V 成分を取得します。これは y 成分のエイリアスです。
+マッピング座標として [Vector2](../../com.aspose.threed/vector2) が使用されている場合、V 成分を取得します。これは y 成分のエイリアスです。
 
 **Returns:**
-double - [Vector2](../../com.aspose.threed/vector2) がマッピング座標として使用されている場合の V 成分。これは y 成分のエイリアスです。
+double - マッピング座標として [Vector2](../../com.aspose.threed/vector2) が使用されている場合の V 成分。これは y 成分のエイリアスです。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -424,14 +424,14 @@ Vector2 の不等価演算子
 | rhs | [Vector2](../../com.aspose.threed/vector2) | 右側の値。 |
 
 **Returns:**
-boolean - 2 つのベクトルが等しくない場合は true。
+boolean - 2つのベクトルが等しくない場合は true。
 ### setU(double value) {#setU-double-}
 ```
 public void setU(double value)
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) がマッピング座標として使用されている場合、U 成分を設定します。これは x 成分のエイリアスです。
+マッピング座標として [Vector2](../../com.aspose.threed/vector2) が使用されている場合、U 成分を設定します。これは x 成分のエイリアスです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -444,7 +444,7 @@ public void setV(double value)
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) がマッピング座標として使用されている場合、V 成分を設定します。これは y 成分のエイリアスです。
+マッピング座標として [Vector2](../../com.aspose.threed/vector2) が使用されている場合、V 成分を設定します。これは y 成分のエイリアスです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
