@@ -1,6 +1,6 @@
 ---
 title: "RelativeRectangle"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Rectángulo relativo  La fórmula entre el componente relativo y el valor absoluto es  Scale  Reference Width  offset  Por lo tanto, si queremos que represente un valor absoluto, deje todos los campos de escala en cero y use los campos de desplazamiento en su lugar."
 type: docs
 weight: 147
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class RelativeRectangle implements Struct<RelativeRectangle>, Serializable
 ```
 
-Rectángulo relativo La fórmula entre el componente relativo y el valor absoluto es: Scale \* (Reference Width) + offset. Así que si queremos que represente un valor absoluto, deje todos los campos de escala en cero y use los campos de desplazamiento en su lugar.
+Rectángulo relativo La fórmula entre el componente relativo y el valor absoluto es: Scale \* (Reference Width) + offset Por lo tanto, si queremos que represente un valor absoluto, deje todos los campos de escala en cero y use los campos de desplazamiento en su lugar.
 ## Constructores
 
 | Constructor | Descripción |
@@ -38,8 +38,8 @@ Rectángulo relativo La fórmula entre el componente relativo y el valor absolut
 | [getOffsetY()](#getOffsetY--) | Obtiene el desplazamiento para la coordenada Y |
 | [getScaleHeight()](#getScaleHeight--) | Altura relativa |
 | [getScaleWidth()](#getScaleWidth--) | Ancho relativo |
-| [getScaleX()](#getScaleX--) | Coordenada X relativa |
-| [getScaleY()](#getScaleY--) | Coordenada Y relativa |
+| [getScaleX()](#getScaleX--) | Coordenada relativa X |
+| [getScaleY()](#getScaleY--) | Coordenada relativa Y |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -49,8 +49,8 @@ Rectángulo relativo La fórmula entre el componente relativo y el valor absolut
 | [setOffsetY(int value)](#setOffsetY-int-) | Establece el desplazamiento para la coordenada Y |
 | [setScaleHeight(float value)](#setScaleHeight-float-) | Altura relativa |
 | [setScaleWidth(float value)](#setScaleWidth-float-) | Ancho relativo |
-| [setScaleX(float value)](#setScaleX-float-) | Coordenada X relativa |
-| [setScaleY(float value)](#setScaleY-float-) | Coordenada Y relativa |
+| [setScaleX(float value)](#setScaleX-float-) | Coordenada relativa X |
+| [setScaleY(float value)](#setScaleY-float-) | Coordenada relativa Y |
 | [toAbsolute(int left, int top, int width, int height)](#toAbsolute-int-int-int-int-) | Convertir el rectángulo relativo a rectángulo absoluto |
 | [toString()](#toString--) | Convierte el valor de esta instancia a un java.lang.String. |
 | [wait()](#wait--) |  |
@@ -210,7 +210,7 @@ public float getScaleX()
 ```
 
 
-Coordenada X relativa
+Coordenada relativa X
 
 **Returns:**
 float - Coordenada relativa X
@@ -220,7 +220,7 @@ public float getScaleY()
 ```
 
 
-Coordenada Y relativa
+Coordenada relativa Y
 
 **Returns:**
 float - Coordenada relativa Y
@@ -334,7 +334,7 @@ public void setScaleX(float value)
 ```
 
 
-Coordenada X relativa
+Coordenada relativa X
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -347,7 +347,7 @@ public void setScaleY(float value)
 ```
 
 
-Coordenada Y relativa
+Coordenada relativa Y
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

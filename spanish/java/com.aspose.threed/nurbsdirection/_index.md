@@ -1,7 +1,7 @@
 ---
 title: "NurbsDirection"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Un 3D  tiene dos direcciones, la  y la , la  define datos para cada dirección."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Un 3D  tiene dos direcciones, la  y la  la  define datos para cada dirección."
 type: docs
 weight: 113
 url: /es/java/com.aspose.threed/nurbsdirection/
@@ -13,7 +13,7 @@ java.lang.Object
 public class NurbsDirection
 ```
 
-Un 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) tiene dos direcciones, el [NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) y el [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV), el [NurbsDirection](../../com.aspose.threed/nurbsdirection) define datos para cada dirección. Una dirección es en realidad una curva NURBS, lo que significa que también está definida por su [getOrder](../../com.aspose.threed/nurbsdirection\#getOrder), un [getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors), y un conjunto de puntos de control ponderados (definidos en [NurbsSurface](../../com.aspose.threed/nurbssurface)).
+Un 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) tiene dos direcciones, el [NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) y el [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV), el [NurbsDirection](../../com.aspose.threed/nurbsdirection) define datos para cada dirección. Una dirección es en realidad una curva NURBS, lo que significa que también se define por su [getOrder](../../com.aspose.threed/nurbsdirection\#getOrder), un [getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors), y un conjunto de puntos de control ponderados (definidos en [NurbsSurface](../../com.aspose.threed/nurbssurface)).
 ## Constructores
 
 | Constructor | Descripción |
@@ -30,7 +30,7 @@ Un 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) tiene dos direcciones
 | [getDivisions()](#getDivisions--) | Obtiene el número de divisiones entre puntos de control adyacentes en la dirección actual. |
 | [getKnotVectors()](#getKnotVectors--) | Obtiene el vector de nudos, es una secuencia de valores de parámetros que determina dónde y cómo los puntos de control afectan a la curva NURBS. |
 | [getMultiplicity()](#getMultiplicity--) | Obtiene la multiplicidad. |
-| [getOrder()](#getOrder--) | Obtiene el orden de una curva NURBS, define la cantidad de puntos de control cercanos que influyen en cualquier punto de la curva. |
+| [getOrder()](#getOrder--) | Obtiene el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva. |
 | [getType()](#getType--) | Obtiene el tipo de la dirección actual. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -38,7 +38,7 @@ Un 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) tiene dos direcciones
 | [setCount(int value)](#setCount-int-) | Establece el recuento de puntos de control en la dirección actual. |
 | [setDegree(int value)](#setDegree-int-) | Establece el grado de una curva NURBS, el grado se define como Orden - 1 |
 | [setDivisions(int value)](#setDivisions-int-) | Establece el número de divisiones entre puntos de control adyacentes en la dirección actual. |
-| [setOrder(int value)](#setOrder-int-) | Establece el orden de una curva NURBS, define la cantidad de puntos de control cercanos que influyen en cualquier punto de la curva. |
+| [setOrder(int value)](#setOrder-int-) | Establece el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva. |
 | [setType(NurbsType value)](#setType-com.aspose.threed.NurbsType-) | Establece el tipo de la dirección actual. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -133,7 +133,7 @@ public int getOrder()
 ```
 
 
-Obtiene el orden de una curva NURBS, define la cantidad de puntos de control cercanos que influyen en cualquier punto de la curva.
+Obtiene el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva.
 
 **Returns:**
 int - el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva.
@@ -218,7 +218,7 @@ public void setOrder(int value)
 ```
 
 
-Establece el orden de una curva NURBS, define la cantidad de puntos de control cercanos que influyen en cualquier punto de la curva.
+Establece el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

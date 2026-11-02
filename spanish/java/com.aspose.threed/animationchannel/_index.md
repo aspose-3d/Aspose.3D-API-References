@@ -1,6 +1,6 @@
 ---
 title: "AnimationChannel"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Un canal asigna el campo de componente de la propiedad a un conjunto de secuencias de fotogramas clave"
 type: docs
 weight: 13
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationChannel extends KeyframeSequence
 ```
 
-Un canal asigna el campo de componente de la propiedad a un conjunto de secuencias de fotogramas clave.
+Un canal asigna el campo componente de la propiedad a un conjunto de secuencias de fotogramas clave.
 ## Métodos
 
 | Método | Descripción |
@@ -24,7 +24,7 @@ Un canal asigna el campo de componente de la propiedad a un conjunto de secuenci
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Busca la propiedad. |
 | [getBindPoint()](#getBindPoint--) | Obtiene el punto de enlace de la propiedad que posee esta curva |
 | [getClass()](#getClass--) |  |
-| [getComponentType()](#getComponentType--) | Obtiene el tipo del campo de componente |
+| [getComponentType()](#getComponentType--) | Obtiene el tipo del campo del componente |
 | [getDefaultValue()](#getDefaultValue--) | Obtiene el valor predeterminado del canal. |
 | [getKeyFrames()](#getKeyFrames--) | Obtiene los fotogramas clave de esta curva. |
 | [getKeyframeSequence()](#getKeyframeSequence--) | Obtiene la secuencia de fotogramas clave asociada dentro de este canal |
@@ -32,7 +32,7 @@ Un canal asigna el campo de componente de la propiedad a un conjunto de secuenci
 | [getPostBehavior()](#getPostBehavior--) | Obtiene el comportamiento posterior que indica cuál debe ser el valor muestreado después del último fotograma clave. |
 | [getPreBehavior()](#getPreBehavior--) | Obtiene el comportamiento previo que indica cuál debe ser el valor muestreado antes del primer fotograma clave. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Obtiene el enumerador para recorrer todos los fotogramas clave. |
 | [notify()](#notify--) |  |
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -133,20 +133,20 @@ public Class<?> getComponentType()
 ```
 
 
-Obtiene el tipo del campo de componente
+Obtiene el tipo del campo del componente
 
 **Returns:**
-java.lang.Class<?> - el tipo del campo de componente
+java.lang.Class<?> - el tipo del campo del componente
 ### getDefaultValue() {#getDefaultValue--}
 ```
 public Object getDefaultValue()
 ```
 
 
-Obtiene el valor predeterminado del canal. Si un canal no tiene secuencias de fotogramas clave conectadas, el valor predeterminado se utilizará durante la evaluación de la animación. Un escenario real: la animación solo anima la coordenada x de un nodo, las coordenadas y y z no se modifican, entonces el valor predeterminado se usará durante la evaluación completa de la traducción.
+Obtiene el valor predeterminado del canal. Si un canal no tiene secuencias de fotogramas clave conectadas, se utilizará el valor predeterminado durante la evaluación de la animación. Un caso real: la animación solo anima la coordenada x de un nodo, las coordenadas y y z no se cambian, entonces el valor predeterminado se usará durante la evaluación completa de la traducción.
 
 **Returns:**
-java.lang.Object - el valor predeterminado del canal. Si un canal no tiene secuencias de fotogramas clave conectadas, el valor predeterminado se utilizará durante la evaluación de la animación. Un escenario real: la animación solo anima la coordenada x de un nodo, las coordenadas y y z no se modifican, entonces el valor predeterminado se usará durante la evaluación completa de la traducción.
+java.lang.Object - el valor predeterminado del canal. Si un canal no tiene secuencias de fotogramas clave conectadas, se utilizará el valor predeterminado durante la evaluación de la animación. Un caso real: la animación solo anima la coordenada x de un nodo, las coordenadas y y z no se cambian, entonces el valor predeterminado se usará durante la evaluación completa de la traducción.
 ### getKeyFrames() {#getKeyFrames--}
 ```
 public List<KeyFrame> getKeyFrames()
@@ -213,7 +213,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -302,7 +302,7 @@ public void setDefaultValue(Object value)
 ```
 
 
-Establece el valor predeterminado del canal. Si un canal no tiene secuencias de fotogramas clave conectadas, el valor predeterminado se utilizará durante la evaluación de la animación. Un escenario real: la animación solo anima la coordenada x de un nodo, las coordenadas y y z no se modifican, entonces el valor predeterminado se usará durante la evaluación completa de la traducción.
+Establece el valor predeterminado del canal. Si un canal no tiene secuencias de fotogramas clave conectadas, se utilizará el valor predeterminado durante la evaluación de la animación. Un caso real: la animación solo anima la coordenada x de un nodo, las coordenadas y y z no se cambian, entonces el valor predeterminado se usará durante la evaluación completa de la traducción.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,6 +1,6 @@
 ---
 title: "ComposeOrder"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El orden para componer la matriz de transformación"
 type: docs
 weight: 272

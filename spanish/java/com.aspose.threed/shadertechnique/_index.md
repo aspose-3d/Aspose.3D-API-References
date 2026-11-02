@@ -1,7 +1,7 @@
 ---
 title: "ShaderTechnique"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Una técnica de shader representa una implementación concreta de renderizado."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Una técnica de shader representa una implementación de renderizado concreta."
 type: docs
 weight: 169
 url: /es/java/com.aspose.threed/shadertechnique/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ShaderTechnique
 ```
 
-Una técnica de shader representa una implementación concreta de renderizado.
+Una técnica de shader representa una implementación de renderizado concreta.
 ## Constructores
 
 | Constructor | Descripción |

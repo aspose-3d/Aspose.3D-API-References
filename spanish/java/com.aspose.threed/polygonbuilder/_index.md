@@ -1,7 +1,7 @@
 ---
 title: "PolygonBuilder"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Una clase auxiliar para construir polígonos para  Example"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Una clase de ayuda para construir polígonos para  Ejemplo"
 type: docs
 weight: 133
 url: /es/java/com.aspose.threed/polygonbuilder/

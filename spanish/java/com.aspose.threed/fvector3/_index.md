@@ -1,7 +1,7 @@
 ---
 title: "FVector3"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Un vector flotante con tres componentes."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Un vector de punto flotante con tres componentes."
 type: docs
 weight: 60
 url: /es/java/com.aspose.threed/fvector3/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FVector3 implements Struct<FVector3>, Serializable
 ```
 
-Un vector flotante con tres componentes.
+Un vector de punto flotante con tres componentes.
 ## Constructores
 
 | Constructor | Descripción |
@@ -36,22 +36,22 @@ Un vector flotante con tres componentes.
 
 | Método | Descripción |
 | --- | --- |
-| [add(FVector3 a, FVector3 b)](#add-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \+ Sobrecarga de operadores |
+| [add(FVector3 a, FVector3 b)](#add-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \+ Sobrecarga de operador |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector3 src)](#copyFrom-com.aspose.threed.FVector3-) |  |
 | [create(FVector3 v)](#create-com.aspose.threed.FVector3-) | Operador de conversión explícita para convertir FVector3 a Vector3 |
-| [cross(FVector3 rhs)](#cross-com.aspose.threed.FVector3-) | Producto cruzado de dos vectores. |
+| [cross(FVector3 rhs)](#cross-com.aspose.threed.FVector3-) | Producto cruzado de dos vectores |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getOne()](#getOne--) | El vector de escala unitario con todos los componentes iguales a 1 |
 | [getZero()](#getZero--) | El vector cero. |
 | [hashCode()](#hashCode--) |  |
 | [mul(FVector3 a, float b)](#mul-com.aspose.threed.FVector3-float-) | \* Sobrecarga de operadores |
-| [negative(FVector3 a)](#negative-com.aspose.threed.FVector3-) | \- Sobrecarga de operadores |
+| [negative(FVector3 a)](#negative-com.aspose.threed.FVector3-) | \- Sobrecarga de operador |
 | [normalize()](#normalize--) | Normaliza esta instancia. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [sub(FVector3 a, FVector3 b)](#sub-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \- Sobrecarga de operadores |
+| [sub(FVector3 a, FVector3 b)](#sub-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \- Sobrecarga de operador |
 | [toString()](#toString--) | Devuelve una cadena que representa a [FVector3](../../com.aspose.threed/fvector3) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -133,7 +133,7 @@ public static FVector3 add(FVector3 a, FVector3 b)
 ```
 
 
-\+ Sobrecarga de operadores
+\+ Sobrecarga de operador
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -187,7 +187,7 @@ public FVector3 cross(FVector3 rhs)
 ```
 
 
-Producto cruzado de dos vectores.
+Producto cruzado de dos vectores
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -273,7 +273,7 @@ public static FVector3 negative(FVector3 a)
 ```
 
 
-\- Sobrecarga de operadores
+\- Sobrecarga de operador
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -314,7 +314,7 @@ public static FVector3 sub(FVector3 a, FVector3 b)
 ```
 
 
-\- Sobrecarga de operadores
+\- Sobrecarga de operador
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

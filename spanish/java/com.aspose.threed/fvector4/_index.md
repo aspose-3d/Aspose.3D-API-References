@@ -1,7 +1,7 @@
 ---
 title: "FVector4"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Un vector flotante con cuatro componentes."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Un vector de punto flotante con cuatro componentes."
 type: docs
 weight: 61
 url: /es/java/com.aspose.threed/fvector4/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FVector4 implements Struct<FVector4>, Serializable
 ```
 
-Un vector flotante con cuatro componentes.
+Un vector de punto flotante con cuatro componentes.
 ## Constructores
 
 | Constructor | Descripción |
@@ -51,7 +51,7 @@ Un vector flotante con cuatro componentes.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [sub(FVector4 lhs, FVector4 rhs)](#sub-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | Sobrecarga de operador para - (menos) |
-| [toString()](#toString--) | Devuelve una cadena que representa el [FVector4](../../com.aspose.threed/fvector4) |
+| [toString()](#toString--) | Devuelve una cadena que representa a [FVector4](../../com.aspose.threed/fvector4) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -320,7 +320,7 @@ public String toString()
 ```
 
 
-Devuelve una cadena que representa el [FVector4](../../com.aspose.threed/fvector4)
+Devuelve una cadena que representa a [FVector4](../../com.aspose.threed/fvector4)
 
 **Returns:**
 java.lang.String - La representación en cadena del vector actual.

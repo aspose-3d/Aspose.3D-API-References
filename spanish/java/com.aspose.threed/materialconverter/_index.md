@@ -1,6 +1,6 @@
 ---
 title: "MaterialConverter"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Convertidor personalizado para convertir el material original de la geometría al material PBR de GLTF."
 type: docs
 weight: 260

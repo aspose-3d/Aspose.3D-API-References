@@ -1,7 +1,7 @@
 ---
 title: "Estructuras"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Clase base de matriz de estructuras."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Clase base de matriz de estructuras"
 type: docs
 weight: 179
 url: /es/java/com.aspose.threed/structs/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class Structs
 ```
 
-Clase base de matriz de estructuras.
+Clase base de matriz de estructuras
 ## Métodos
 
 | Método | Descripción |
@@ -24,7 +24,7 @@ Clase base de matriz de estructuras.
 | [length()](#length--) | Longitud de este arreglo |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [structSize()](#structSize--) | Tamaño en bytes de una sola estructura |
+| [structSize()](#structSize--) | Tamaño en bytes de una única estructura |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,7 +98,7 @@ public final int structSize()
 ```
 
 
-Tamaño en bytes de una sola estructura
+Tamaño en bytes de una única estructura
 
 **Returns:**
 int - el tamaño de la estructura

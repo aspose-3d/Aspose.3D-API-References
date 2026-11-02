@@ -1,6 +1,6 @@
 ---
 title: "StencilState"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Estados de stencil por cara."
 type: docs
 weight: 175
@@ -20,14 +20,14 @@ Estados de stencil por cara.
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
 | [getClass()](#getClass--) |  |
-| [getCompare()](#getCompare--) | Obtiene la función de comparación utilizada en la prueba de stencil. |
+| [getCompare()](#getCompare--) | Obtiene la función de comparación utilizada en la prueba de stencil |
 | [getDepthFailAction()](#getDepthFailAction--) | Obtiene la acción de stencil cuando la prueba de stencil pasa pero la prueba de profundidad falla. |
 | [getFailAction()](#getFailAction--) | Obtiene la acción de stencil cuando la prueba de stencil falla. |
 | [getPassAction()](#getPassAction--) | Obtiene la acción de stencil cuando tanto la prueba de stencil como la prueba de profundidad pasan. |
-| [hashCode()](#hashCode--) | Devuelve el código hash para esta instancia. |
+| [hashCode()](#hashCode--) | Devuelve el código hash de esta instancia. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCompare(CompareFunction value)](#setCompare-com.aspose.threed.CompareFunction-) | Establece la función de comparación utilizada en la prueba de stencil. |
+| [setCompare(CompareFunction value)](#setCompare-com.aspose.threed.CompareFunction-) | Establece la función de comparación utilizada en la prueba de stencil |
 | [setDepthFailAction(StencilAction value)](#setDepthFailAction-com.aspose.threed.StencilAction-) | Establece la acción de stencil cuando la prueba de stencil pasa pero la prueba de profundidad falla. |
 | [setFailAction(StencilAction value)](#setFailAction-com.aspose.threed.StencilAction-) | Establece la acción de stencil cuando la prueba de stencil falla. |
 | [setPassAction(StencilAction value)](#setPassAction-com.aspose.threed.StencilAction-) | Establece la acción de stencil cuando tanto la prueba de stencil como la prueba de profundidad pasan. |
@@ -66,7 +66,7 @@ public CompareFunction getCompare()
 ```
 
 
-Obtiene la función de comparación utilizada en la prueba de stencil.
+Obtiene la función de comparación utilizada en la prueba de stencil
 
 **Returns:**
 [CompareFunction](../../com.aspose.threed/comparefunction) - the compare function used in stencil test
@@ -106,7 +106,7 @@ public int hashCode()
 ```
 
 
-Devuelve el código hash para esta instancia.
+Devuelve el código hash de esta instancia.
 
 **Returns:**
 int
@@ -132,7 +132,7 @@ public void setCompare(CompareFunction value)
 ```
 
 
-Establece la función de comparación utilizada en la prueba de stencil.
+Establece la función de comparación utilizada en la prueba de stencil
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

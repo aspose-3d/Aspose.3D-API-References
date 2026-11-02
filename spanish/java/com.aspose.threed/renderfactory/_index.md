@@ -1,7 +1,7 @@
 ---
 title: "RenderFactory"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "RenderFactory crea todos los recursos que se representan en la canalización de renderizado."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "RenderFactory crea todos los recursos que se representan en el pipeline de renderizado."
 type: docs
 weight: 148
 url: /es/java/com.aspose.threed/renderfactory/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class RenderFactory
 ```
 
-RenderFactory crea todos los recursos que se representan en la canalización de renderizado.
+RenderFactory crea todos los recursos que se representan en el pipeline de renderizado.
 ## Constructores
 
 | Constructor | Descripción |
@@ -23,9 +23,9 @@ RenderFactory crea todos los recursos que se representan en la canalización de 
 
 | Método | Descripción |
 | --- | --- |
-| [createCubeRenderTexture(RenderParameters parameters, int width, int height)](#createCubeRenderTexture-com.aspose.threed.RenderParameters-int-int-) | Crear un objetivo de renderizado que contiene 1 textura de cubo |
+| [createCubeRenderTexture(RenderParameters parameters, int width, int height)](#createCubeRenderTexture-com.aspose.threed.RenderParameters-int-int-) | Crear un objetivo de renderizado que contiene 1 textura cúbica |
 | [createDescriptorSet(ShaderProgram shader)](#createDescriptorSet-com.aspose.threed.ShaderProgram-) | Crear el conjunto de descriptores para el programa de sombreado especificado. |
-| [createIndexBuffer()](#createIndexBuffer--) | Crear una instancia de [IIndexBuffer](../../com.aspose.threed/iindexbuffer) para almacenar la información de las caras del polígono. |
+| [createIndexBuffer()](#createIndexBuffer--) | Crear una instancia de [IIndexBuffer](../../com.aspose.threed/iindexbuffer) para almacenar la información de caras del polígono. |
 | [createPipeline(ShaderProgram shader, RenderState renderState, VertexDeclaration vertexDeclaration, DrawOperation drawOperation)](#createPipeline-com.aspose.threed.ShaderProgram-com.aspose.threed.RenderState-com.aspose.threed.VertexDeclaration-com.aspose.threed.DrawOperation-) | Crear una canalización gráfica preconfigurada con sombreado/estado de renderizado/declaración de vértices preconfigurados y operaciones de dibujo. |
 | [createRenderTexture(RenderParameters parameters, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-) | Crear un objetivo de renderizado que contiene 1 objetivo que renderiza a la textura |
 | [createRenderTexture(RenderParameters parameters, int targets, int width, int height)](#createRenderTexture-com.aspose.threed.RenderParameters-int-int-int-) | Crear un objetivo de renderizado que renderiza a la textura |
@@ -33,8 +33,8 @@ RenderFactory crea todos los recursos que se representan en la canalización de 
 | [createShaderProgram(ShaderSource shaderSource)](#createShaderProgram-com.aspose.threed.ShaderSource-) | Crear un objeto [ShaderProgram](../../com.aspose.threed/shaderprogram) |
 | [createTextureUnit()](#createTextureUnit--) | Crear una unidad de textura 2D que pueda ser accedida por el shader. |
 | [createTextureUnit(TextureType textureType)](#createTextureUnit-com.aspose.threed.TextureType-) | Crear una unidad de textura que pueda ser accedida por el shader. |
-| [createUniformBuffer(int size)](#createUniformBuffer-int-) | Crear un nuevo búfer uniforme en el lado de la GPU con tamaño preasignado. |
-| [createVertexBuffer(VertexDeclaration declaration)](#createVertexBuffer-com.aspose.threed.VertexDeclaration-) | Crear una instancia de [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) para almacenar la información de los vértices del polígono. |
+| [createUniformBuffer(int size)](#createUniformBuffer-int-) | Crear un nuevo búfer uniforme en el lado GPU con tamaño preasignado. |
+| [createVertexBuffer(VertexDeclaration declaration)](#createVertexBuffer-com.aspose.threed.VertexDeclaration-) | Crear una instancia de [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) para almacenar la información de vértices del polígono. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -56,7 +56,7 @@ public abstract IRenderTexture createCubeRenderTexture(RenderParameters paramete
 ```
 
 
-Crear un objetivo de renderizado que contiene 1 textura de cubo
+Crear un objetivo de renderizado que contiene 1 textura cúbica
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -78,7 +78,7 @@ Crear el conjunto de descriptores para el programa de sombreado especificado.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | El programa de shader. |
+| shader | [ShaderProgram](../../com.aspose.threed/shaderprogram) | El programa de shader |
 
 **Returns:**
 [IDescriptorSet](../../com.aspose.threed/idescriptorset) - A new descriptor set instance
@@ -88,7 +88,7 @@ public abstract IIndexBuffer createIndexBuffer()
 ```
 
 
-Crear una instancia de [IIndexBuffer](../../com.aspose.threed/iindexbuffer) para almacenar la información de las caras del polígono.
+Crear una instancia de [IIndexBuffer](../../com.aspose.threed/iindexbuffer) para almacenar la información de caras del polígono.
 
 **Returns:**
 [IIndexBuffer](../../com.aspose.threed/iindexbuffer)
@@ -207,7 +207,7 @@ public abstract IBuffer createUniformBuffer(int size)
 ```
 
 
-Crear un nuevo búfer uniforme en el lado de la GPU con tamaño preasignado.
+Crear un nuevo búfer uniforme en el lado GPU con tamaño preasignado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -222,7 +222,7 @@ public abstract IVertexBuffer createVertexBuffer(VertexDeclaration declaration)
 ```
 
 
-Crear una instancia de [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) para almacenar la información de los vértices del polígono.
+Crear una instancia de [IVertexBuffer](../../com.aspose.threed/ivertexbuffer) para almacenar la información de vértices del polígono.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

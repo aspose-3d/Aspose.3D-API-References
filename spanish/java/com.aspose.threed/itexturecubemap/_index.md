@@ -1,6 +1,6 @@
 ---
 title: "ITextureCubemap"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Textura de mapa cúbico"
 type: docs
 weight: 255
@@ -20,10 +20,10 @@ Textura de mapa cúbico
 | --- | --- |
 | [load(CubeFace face, TextureData data)](#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | Cargar los datos en la cara especificada |
 | [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Cargar el contenido de la textura desde el [TextureData](../../com.aspose.threed/texturedata) especificado |
-| [loadFromFiles(CubeFaceData<String> fileNames)](#loadFromFiles-com.aspose.threed.CubeFaceData-java.lang.String--) | Cargar contenido de textura desde archivos especificados |
-| [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | Guardar el lado especificado en memoria |
-| [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Guardar el contenido de la textura en memoria. |
-| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | Guardar el contenido de textura de los lados del cubo en archivos externos. |
+| [loadFromFiles(CubeFaceData<String> fileNames)](#loadFromFiles-com.aspose.threed.CubeFaceData-java.lang.String--) | Cargar el contenido de la textura desde los archivos especificados |
+| [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | Guardar el lado especificado en la memoria |
+| [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Guardar el contenido de la textura en la memoria. |
+| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | Guardar el contenido de la textura de los lados del cubo en archivos externos. |
 | [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | Convertir la unidad de textura a una instancia de [TextureData](../../com.aspose.threed/texturedata) |
 ### load(CubeFace face, TextureData data) {#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-}
 ```
@@ -58,7 +58,7 @@ public abstract void loadFromFiles(CubeFaceData<String> fileNames)
 ```
 
 
-Cargar contenido de textura desde archivos especificados
+Cargar el contenido de la textura desde los archivos especificados
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -71,7 +71,7 @@ public abstract void save(CubeFace side, TextureData bitmap)
 ```
 
 
-Guardar el lado especificado en memoria
+Guardar el lado especificado en la memoria
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -85,7 +85,7 @@ public abstract void save(CubeFaceData<TextureData> bitmap)
 ```
 
 
-Guardar el contenido de la textura en memoria.
+Guardar el contenido de la textura en la memoria.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -98,7 +98,7 @@ public abstract void save(CubeFaceData<String> path, String format)
 ```
 
 
-Guardar el contenido de textura de los lados del cubo en archivos externos.
+Guardar el contenido de la textura de los lados del cubo en archivos externos.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,7 +1,7 @@
 ---
 title: "CompareFunction"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "La función de comparación utilizada en las pruebas de profundidad/plantilla."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La función de comparación utilizada en las pruebas de profundidad/stencil."
 type: docs
 weight: 271
 url: /es/java/com.aspose.threed/comparefunction/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CompareFunction extends Enum<CompareFunction>
 ```
 
-La función de comparación utilizada en las pruebas de profundidad/plantilla.
+La función de comparación utilizada en las pruebas de profundidad/stencil.
 ## Campos
 
 | Campo | Descripción |

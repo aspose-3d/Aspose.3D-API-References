@@ -1,7 +1,7 @@
 ---
 title: "RenderResource"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "La clase abstracta de todos los recursos de renderizado. Todos los recursos de renderizado se liberarán cuando el renderizador sea liberado."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La clase abstracta de todos los recursos de renderizado Todos los recursos de renderizado serán liberados cuando el renderizador se libere."
 type: docs
 weight: 150
 url: /es/java/com.aspose.threed/renderresource/
@@ -16,7 +16,7 @@ java.io.Closeable
 public abstract class RenderResource implements Closeable
 ```
 
-La clase abstracta de todos los recursos de renderizado. Todos los recursos de renderizado se liberarán cuando el renderizador sea liberado. Clases como [Mesh](../../com.aspose.threed/mesh)/[Texture](../../com.aspose.threed/texture) tendrán un RenderResource correspondiente
+La clase abstracta de todos los recursos de renderizado Todos los recursos de renderizado serán liberados cuando el renderizador se libere. Clases como [Mesh](../../com.aspose.threed/mesh)/[Texture](../../com.aspose.threed/texture) tendrán un RenderResource correspondiente
 ## Constructores
 
 | Constructor | Descripción |
@@ -26,7 +26,7 @@ La clase abstracta de todos los recursos de renderizado. Todos los recursos de r
 
 | Método | Descripción |
 | --- | --- |
-| [close()](#close--) | Liberar los recursos internos utilizados por [RenderResource](../../com.aspose.threed/renderresource) |
+| [close()](#close--) | Liberar recursos internos utilizados por [RenderResource](../../com.aspose.threed/renderresource) |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public void close()
 ```
 
 
-Liberar los recursos internos utilizados por [RenderResource](../../com.aspose.threed/renderresource)
+Liberar recursos internos utilizados por [RenderResource](../../com.aspose.threed/renderresource)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

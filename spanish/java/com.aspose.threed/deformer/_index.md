@@ -1,6 +1,6 @@
 ---
-title: "Deformador"
-second_title: "Referencia de API de Aspose.3D para Java"
+title: "Deformer"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Clase base para  y"
 type: docs
 weight: 41
@@ -18,7 +18,7 @@ Clase base para [SkinDeformer](../../com.aspose.threed/skindeformer) y [MorphTar
 
 | Constructor | Descripción |
 | --- | --- |
-| [Deformer(String name)](#Deformer-java.lang.String-) | Inicializa una nueva instancia de la clase [Deformer](../../com.aspose.threed/deformer). |
+| [Deformer(String name)](#Deformer-java.lang.String-) | Inicializa una nueva instancia de la [Deformer](../../com.aspose.threed/deformer) clase. |
 ## Métodos
 
 | Método | Descripción |
@@ -29,7 +29,7 @@ Clase base para [SkinDeformer](../../com.aspose.threed/skindeformer) y [MorphTar
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getOwner()](#getOwner--) | Obtiene la geometría que posee este deformer |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -47,7 +47,7 @@ public Deformer(String name)
 ```
 
 
-Inicializa una nueva instancia de la clase [Deformer](../../com.aspose.threed/deformer).
+Inicializa una nueva instancia de la [Deformer](../../com.aspose.threed/deformer) clase.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -75,7 +75,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -130,7 +130,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

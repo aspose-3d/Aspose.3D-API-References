@@ -1,7 +1,7 @@
 ---
 title: "SkinDeformer"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Un skin deformer contiene múltiples huesos para trabajar; cada hueso combina una parte de la geometría mediante los pesos de los puntos de control."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Un SkinDeformer contiene múltiples huesos para trabajar; cada hueso combina una parte de la geometría mediante pesos de puntos de control."
 type: docs
 weight: 173
 url: /es/java/com.aspose.threed/skindeformer/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class SkinDeformer extends Deformer
 ```
 
-Un deformador de piel contiene varios huesos para trabajar, cada hueso mezcla una parte de la geometría mediante los pesos de los puntos de control.
+Un deformador de piel contiene varios huesos para trabajar, cada hueso combina una parte de la geometría mediante los pesos de los puntos de control.
 ## Constructores
 
 | Constructor | Descripción |
@@ -26,12 +26,12 @@ Un deformador de piel contiene varios huesos para trabajar, cada hueso mezcla un
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Busca la propiedad. |
-| [getBones()](#getBones--) | Obtiene todos los huesos que contiene el skin deformer |
+| [getBones()](#getBones--) | Obtiene todos los huesos que contiene el SkinDeformer |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getOwner()](#getOwner--) | Obtiene la geometría que posee este deformer |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -85,7 +85,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -100,10 +100,10 @@ public List<Bone> getBones()
 ```
 
 
-Obtiene todos los huesos que contiene el skin deformer
+Obtiene todos los huesos que contiene el SkinDeformer
 
 **Returns:**
-java.util.List<com.aspose.threed.Bone> - todos los huesos que contiene el skin deformer
+java.util.List<com.aspose.threed.Bone> - todos los huesos que contiene el SkinDeformer
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -150,7 +150,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

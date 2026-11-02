@@ -1,7 +1,7 @@
 ---
 title: "IVertexBuffer"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "El búfer de vértices contiene los datos de vértices del polígono que se enviarán a la canalización de renderizado."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "El búfer de vértices contiene los datos de vértices del polígono que se enviarán a la canalización de renderizado"
 type: docs
 weight: 259
 url: /es/java/com.aspose.threed/ivertexbuffer/
@@ -13,15 +13,15 @@ url: /es/java/com.aspose.threed/ivertexbuffer/
 public interface IVertexBuffer extends IBuffer
 ```
 
-El búfer de vértices contiene los datos de vértices del polígono que se enviarán a la canalización de renderizado.
+El búfer de vértices contiene los datos de vértices del polígono que se enviarán a la canalización de renderizado
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
 | [getVertexDeclaration()](#getVertexDeclaration--) | Obtiene la declaración del vértice |
-| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | Carga datos de vértice desde [TriMesh](../../com.aspose.threed/trimesh) |
-| [loadData(Object array)](#loadData-java.lang.Object-) | Carga datos desde una matriz |
-| [loadData(long data, int size)](#loadData-long-int-) | Carga datos desde la posición dada |
+| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | Cargar datos de vértice desde [TriMesh](../../com.aspose.threed/trimesh) |
+| [loadData(Object array)](#loadData-java.lang.Object-) | Cargar datos desde una matriz |
+| [loadData(long data, int size)](#loadData-long-int-) | Cargar datos desde la posición dada |
 ### getVertexDeclaration() {#getVertexDeclaration--}
 ```
 public abstract VertexDeclaration getVertexDeclaration()
@@ -38,7 +38,7 @@ public abstract void loadData(TriMesh mesh)
 ```
 
 
-Carga datos de vértice desde [TriMesh](../../com.aspose.threed/trimesh)
+Cargar datos de vértice desde [TriMesh](../../com.aspose.threed/trimesh)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -51,7 +51,7 @@ public abstract void loadData(Object array)
 ```
 
 
-Carga datos desde una matriz
+Cargar datos desde una matriz
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -64,7 +64,7 @@ public abstract void loadData(long data, int size)
 ```
 
 
-Carga datos desde la posición dada
+Cargar datos desde la posición dada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

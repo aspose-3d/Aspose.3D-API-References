@@ -1,6 +1,6 @@
 ---
 title: "Discreet3dsLoadOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de carga para archivo 3DS."
 type: docs
 weight: 43
@@ -26,25 +26,25 @@ Opciones de carga para archivo 3DS.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getApplyAnimationTransform()](#getApplyAnimationTransform--) | Obtiene si se debe usar la transformación definida en el primer fotograma de la pista de animación. |
 | [getClass()](#getClass--) |  |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getFileFormat()](#getFileFormat--) | Obtiene el formato de archivo especificado en la opción actual de Guardar/Cargar. |
 | [getFileName()](#getFileName--) | El nombre de archivo de la escena de exportación/importación. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Obtiene la inversión del sistema de coordenadas de puntos de control/normal durante la importación/exportación. |
-| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; al establecer esto en true se usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Obtiene la inversión del sistema de coordenadas de los puntos de control/normal durante la importación/exportación. |
+| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; establecer esto en true usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setApplyAnimationTransform(boolean value)](#setApplyAnimationTransform-boolean-) | Establece si se debe usar la transformación definida en el primer fotograma de la pista de animación. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | El nombre de archivo de la escena de exportación/importación. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
-| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Establece la inversión del sistema de coordenadas de puntos de control/normal durante la importación/exportación. |
-| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; al establecer esto en true se usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Establece la inversión del sistema de coordenadas de los puntos de control/normal durante la importación/exportación. |
+| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; establecer esto en true usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -81,7 +81,7 @@ public boolean getApplyAnimationTransform()
 Obtiene si se debe usar la transformación definida en el primer fotograma de la pista de animación.
 
 **Returns:**
-booleano - si se debe usar la transformación definida en el primer fotograma de la pista de animación.
+boolean - si se debe usar la transformación definida en el primer fotograma de la pista de animación.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -98,10 +98,10 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -118,10 +118,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -191,7 +191,7 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-Obtiene la inversión del sistema de coordenadas de puntos de control/normal durante la importación/exportación.
+Obtiene la inversión del sistema de coordenadas de los puntos de control/normal durante la importación/exportación.
 
 **Returns:**
 boolean - invertir el sistema de coordenadas de los puntos de control/normal durante la importación/exportación.
@@ -201,17 +201,17 @@ public boolean getGammaCorrectedColor()
 ```
 
 
-Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; al establecer esto en true se usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original.
+Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; establecer esto en true usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original.
 
 **Returns:**
-boolean - Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo. Configurar esto como verdadero usará el color corregido por gamma si es posible; de lo contrario, Aspose.3D intentará usar el color original.
+boolean - Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo. Configurarlo en true usará el color corregido por gamma si es posible; de lo contrario, Aspose.3D intentará usar el color original.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -281,7 +281,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -363,7 +363,7 @@ public void setFlipCoordinateSystem(boolean value)
 ```
 
 
-Establece la inversión del sistema de coordenadas de puntos de control/normal durante la importación/exportación.
+Establece la inversión del sistema de coordenadas de los puntos de control/normal durante la importación/exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -376,7 +376,7 @@ public void setGammaCorrectedColor(boolean value)
 ```
 
 
-Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; al establecer esto en true se usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original.
+Un archivo 3ds puede contener color original y color corregido por gamma para el mismo atributo; establecer esto en true usará el color corregido por gamma si es posible, de lo contrario Aspose.3D intentará usar el color original.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -389,7 +389,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

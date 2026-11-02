@@ -1,6 +1,6 @@
 ---
 title: "GlobalTransform"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La transformación global es similar a  pero es inmutable mientras representa la transformación final evaluada."
 type: docs
 weight: 72

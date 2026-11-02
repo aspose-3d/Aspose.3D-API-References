@@ -1,6 +1,6 @@
 ---
 title: "TextureCodec"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Clase para gestionar codificadores y decodificadores de texturas."
 type: docs
 weight: 186
@@ -23,11 +23,11 @@ Clase para gestionar codificadores y decodificadores de texturas.
 
 | Método | Descripción |
 | --- | --- |
-| [decode(Stream stream, boolean reverseY)](#decode-com.aspose.threed.Stream-boolean-) | Decodificar datos de textura del flujo |
+| [decode(Stream stream, boolean reverseY)](#decode-com.aspose.threed.Stream-boolean-) | Decodificar datos de textura desde el flujo |
 | [encode(TextureData texture, Stream stream, String format)](#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-java.lang.String-) | Codificar datos de textura en el flujo usando el formato especificado |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSupportedEncoderFormats()](#getSupportedEncoderFormats--) | Obtiene todos los formatos de codificador admitidos |
+| [getSupportedEncoderFormats()](#getSupportedEncoderFormats--) | Obtiene todos los formatos de codificador compatibles |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -48,7 +48,7 @@ public static TextureData decode(Stream stream, boolean reverseY)
 ```
 
 
-Decodificar datos de textura del flujo
+Decodificar datos de textura desde el flujo
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -104,7 +104,7 @@ public static String[] getSupportedEncoderFormats()
 ```
 
 
-Obtiene todos los formatos de codificador admitidos
+Obtiene todos los formatos de codificador compatibles
 
 **Returns:**
 java.lang.String[]

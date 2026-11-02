@@ -1,6 +1,6 @@
 ---
 title: "Medido"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Proporciona métodos para establecer la clave medida."
 type: docs
 weight: 103
@@ -120,7 +120,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-Establece la clave pública y privada medida. Si adquieres una licencia medida, al iniciar la aplicación, se debe llamar a esta API; normalmente, eso es suficiente. Sin embargo, si siempre falla la carga de datos de consumo y supera las 24 horas, la licencia se establecerá en estado de evaluación; para evitar este caso, deberías comprobar regularmente el estado de la licencia y, si está en estado de evaluación, llamar a esta API nuevamente.
+Establece la clave pública y privada medida. Si compra una licencia medida, al iniciar la aplicación, debe llamarse a esta API; normalmente, eso es suficiente. Sin embargo, si siempre falla la carga de datos de consumo y supera las 24 horas, la licencia se establecerá en estado de evaluación; para evitar este caso, debe comprobar regularmente el estado de la licencia, y si está en estado de evaluación, llamar a esta API nuevamente.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

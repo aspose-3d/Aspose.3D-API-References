@@ -1,6 +1,6 @@
 ---
 title: "EntityRendererKey"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La clave del renderizador de entidades registrado"
 type: docs
 weight: 55
@@ -28,7 +28,7 @@ La clave del renderizador de entidades registrado
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Obtiene la representación en cadena de [EntityRendererKey](../../com.aspose.threed/entityrendererkey) |
+| [toString()](#toString--) | Obtiene la representación en cadena del [EntityRendererKey](../../com.aspose.threed/entityrendererkey) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -102,7 +102,7 @@ public String toString()
 ```
 
 
-Obtiene la representación en cadena de [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
+Obtiene la representación en cadena del [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
 
 **Returns:**
 java.lang.String

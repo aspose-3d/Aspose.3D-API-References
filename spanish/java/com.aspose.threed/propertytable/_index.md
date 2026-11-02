@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.PropertyTable"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Tabla de propiedades."
 type: docs
 weight: 14
@@ -29,7 +29,7 @@ Tabla de propiedades.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | Extraer la tabla de propiedades adjunta de los datos de usuario especificados |
 | [getClass()](#getClass--) |  |
-| [getMetaClass()](#getMetaClass--) | La metaclase de esta tabla de propiedades. |
+| [getMetaClass()](#getMetaClass--) | La meta clase de esta tabla de propiedades. |
 | [getName()](#getName--) | Nombre de la tabla de propiedades. |
 | [getValue(String name)](#getValue-java.lang.String-) | Obtiene el valor del nombre de propiedad especificado |
 | [getValues()](#getValues--) | Valores de la tabla de propiedades. |
@@ -52,7 +52,7 @@ Constructor de la tabla de propiedades.
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | nombre | java.lang.String | El nombre de esta instancia de tabla. |
-| mclass | [ClassType](../../com.aspose.threed/classtype) | La definición de la metaclase de esta tabla de propiedades |
+| mclass | [ClassType](../../com.aspose.threed/classtype) | La definición de la meta clase de esta tabla de propiedades |
 
 ### addValue(StructuralMetadata.Property prop, Object value) {#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-}
 ```
@@ -141,7 +141,7 @@ public StructuralMetadata.ClassType getMetaClass()
 ```
 
 
-La metaclase de esta tabla de propiedades.
+La meta clase de esta tabla de propiedades.
 
 **Returns:**
 [ClassType](../../com.aspose.threed/classtype) - The meta class of this property table.

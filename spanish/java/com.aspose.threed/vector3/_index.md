@@ -1,6 +1,6 @@
 ---
 title: "Vector3"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Un vector con tres componentes."
 type: docs
 weight: 202
@@ -43,23 +43,23 @@ Un vector con tres componentes.
 | [clone()](#clone--) |  |
 | [compareTo(Vector3 other)](#compareTo-com.aspose.threed.Vector3-) | Compara el vector actual con otra instancia. |
 | [copyFrom(Vector3 src)](#copyFrom-com.aspose.threed.Vector3-) |  |
-| [cos()](#cos--) | Calcula el coseno en cada componente. |
-| [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | Operador de conversión explícita para convertir Vector3 a FVector3. |
-| [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | Producto cruzado de dos vectores. |
+| [cos()](#cos--) | Calcula el coseno en cada componente |
+| [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | Operador de conversión explícita para convertir Vector3 a FVector3 |
+| [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | Producto cruzado de dos vectores |
 | [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Sobrecarga de operador para / |
 | [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | Sobrecarga de operador para / |
-| [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | Obtiene el producto punto de dos vectores. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Comprueba si dos vector3 son iguales. |
+| [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | Obtiene el producto punto de dos vectores |
+| [equals(Object obj)](#equals-java.lang.Object-) | Comprueba si dos vector3 son iguales |
 | [get(int idx)](#get-int-) | Obtiene el componente del vector por índice. |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | Obtiene la longitud de este vector. |
 | [getLength2()](#getLength2--) | Obtiene el cuadrado de la longitud. |
-| [getOne()](#getOne--) | Obtiene el vector unitario (1, 1, 1). |
-| [getUnitX()](#getUnitX--) | Obtiene el vector unitario (1, 0, 0). |
-| [getUnitY()](#getUnitY--) | Obtiene el vector unitario (0, 1, 0). |
-| [getUnitZ()](#getUnitZ--) | Obtiene el vector unitario (0, 0, 1). |
-| [getZero()](#getZero--) | Obtiene el vector unitario (0, 0, 0). |
-| [hashCode()](#hashCode--) | Obtiene el código hash de Vector3. |
+| [getOne()](#getOne--) | Obtiene el vector unitario (1, 1, 1) |
+| [getUnitX()](#getUnitX--) | Obtiene el vector unitario (1, 0, 0) |
+| [getUnitY()](#getUnitY--) | Obtiene el vector unitario (0, 1, 0) |
+| [getUnitZ()](#getUnitZ--) | Obtiene el vector unitario (0, 0, 1) |
+| [getZero()](#getZero--) | Obtiene el vector unitario (0, 0, 0) |
+| [hashCode()](#hashCode--) | Obtiene el código hash de Vector3 |
 | [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Sobrecarga de operador para \* |
 | [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | Sobrecarga de operador para \* |
 | [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | Sobrecarga de operador para \* |
@@ -69,7 +69,7 @@ Un vector con tres componentes.
 | [notifyAll()](#notifyAll--) |  |
 | [op_eq(Vector3 lhs, Vector3 rhs)](#op-eq-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Operador de igualdad para Vector3 |
 | [op_ne(Vector3 lhs, Vector3 rhs)](#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Operador de desigualdad para Vector3 |
-| [set(double newX, double newY, double newZ)](#set-double-double-double-) | Establece el componente x/y/z en una sola llamada. |
+| [set(double newX, double newY, double newZ)](#set-double-double-double-) | Establece los componentes x/y/z en una sola llamada. |
 | [set(int idx, double value)](#set-int-double-) | Establece el componente del vector por índice. |
 | [sin()](#sin--) | Calcula el seno en cada componente |
 | [sub(Vector3 lhs, Vector3 rhs)](#sub-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Sobrecarga de operador para - (menos) |
@@ -252,7 +252,7 @@ public Vector3 cos()
 ```
 
 
-Calcula el coseno en cada componente.
+Calcula el coseno en cada componente
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Calculated [Vector3](../../com.aspose.threed/vector3).
@@ -262,7 +262,7 @@ public static FVector3 create(Vector3 v)
 ```
 
 
-Operador de conversión explícita para convertir Vector3 a FVector3.
+Operador de conversión explícita para convertir Vector3 a FVector3
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -277,7 +277,7 @@ public Vector3 cross(Vector3 rhs)
 ```
 
 
-Producto cruzado de dos vectores.
+Producto cruzado de dos vectores
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -314,7 +314,7 @@ Sobrecarga de operador para /
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | lhs | [Vector3](../../com.aspose.threed/vector3) | El vector izquierdo |
-| rhs | double | El valor doble de la derecha |
+| rhs | double | El valor doble derecho |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -324,7 +324,7 @@ public double dot(Vector3 rhs)
 ```
 
 
-Obtiene el producto punto de dos vectores.
+Obtiene el producto punto de dos vectores
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -339,7 +339,7 @@ public boolean equals(Object obj)
 ```
 
 
-Comprueba si dos vector3 son iguales.
+Comprueba si dos vector3 son iguales
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -399,7 +399,7 @@ public static Vector3 getOne()
 ```
 
 
-Obtiene el vector unitario (1, 1, 1).
+Obtiene el vector unitario (1, 1, 1)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (1, 1, 1)
@@ -409,7 +409,7 @@ public static Vector3 getUnitX()
 ```
 
 
-Obtiene el vector unitario (1, 0, 0).
+Obtiene el vector unitario (1, 0, 0)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (1, 0, 0)
@@ -419,7 +419,7 @@ public static Vector3 getUnitY()
 ```
 
 
-Obtiene el vector unitario (0, 1, 0).
+Obtiene el vector unitario (0, 1, 0)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 1, 0)
@@ -429,7 +429,7 @@ public static Vector3 getUnitZ()
 ```
 
 
-Obtiene el vector unitario (0, 0, 1).
+Obtiene el vector unitario (0, 0, 1)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 0, 1)
@@ -439,7 +439,7 @@ public static Vector3 getZero()
 ```
 
 
-Obtiene el vector unitario (0, 0, 0).
+Obtiene el vector unitario (0, 0, 0)
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 0, 0)
@@ -449,10 +449,10 @@ public int hashCode()
 ```
 
 
-Obtiene el código hash de Vector3.
+Obtiene el código hash de Vector3
 
 **Returns:**
-int - El código hash del [Vector3](../../com.aspose.threed/vector3)
+int - El código hash de [Vector3](../../com.aspose.threed/vector3)
 ### mul(Vector3 lhs, Vector3 rhs) {#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-}
 ```
 public static Vector3 mul(Vector3 lhs, Vector3 rhs)
@@ -481,7 +481,7 @@ Sobrecarga de operador para \*
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | lhs | [Vector3](../../com.aspose.threed/vector3) | El vector izquierdo |
-| rhs | double | El valor doble de la derecha |
+| rhs | double | El valor doble derecho |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -512,7 +512,7 @@ Sobrecarga de operador para -
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| v | [Vector3](../../com.aspose.threed/vector3) | El vector origen |
+| v | [Vector3](../../com.aspose.threed/vector3) | El vector de origen |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -580,7 +580,7 @@ public void set(double newX, double newY, double newZ)
 ```
 
 
-Establece el componente x/y/z en una sola llamada.
+Establece los componentes x/y/z en una sola llamada.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,6 +1,6 @@
 ---
 title: "PresetShaders"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Esto define los sombreadores internos preestablecidos usados por el renderizador."
 type: docs
 weight: 294
@@ -19,7 +19,7 @@ Esto define los sombreadores internos preestablecidos usados por el renderizador
 | Campo | Descripción |
 | --- | --- |
 | [CUSTOMIZED](#CUSTOMIZED) | Conjunto de shaders personalizado del usuario |
-| [DEFAULT](#DEFAULT) | Utiliza los shaders predeterminados para los materiales phong/lambert/pbr. |
+| [DEFAULT](#DEFAULT) | Utiliza los shaders predeterminados para materiales phong/lambert/pbr |
 ## Métodos
 
 | Método | Descripción |
@@ -55,7 +55,7 @@ public static final PresetShaders DEFAULT
 ```
 
 
-Utiliza los shaders predeterminados para los materiales phong/lambert/pbr.
+Utiliza los shaders predeterminados para materiales phong/lambert/pbr
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.ClassType"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Definición de clase en metadatos"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Definición de clase en los metadatos"
 type: docs
 weight: 10
 url: /es/java/com.aspose.threed/structuralmetadata.classtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public static class StructuralMetadata.ClassType
 ```
 
-Definición de clase en metadatos
+Definición de clase en los metadatos
 ## Constructores
 
 | Constructor | Descripción |
@@ -35,14 +35,14 @@ Definición de clase en metadatos
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDescription()](#getDescription--) | La descripción de la clase |
-| [getDisplayName()](#getDisplayName--) | El nombre de la clase, utilizado por la UI para su representación |
+| [getDisplayName()](#getDisplayName--) | El nombre de la clase, usado por la UI para su representación |
 | [getName()](#getName--) | El nombre único de la clase |
 | [getProperties()](#getProperties--) | Las propiedades definidas en esta clase. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDescription(String value)](#setDescription-java.lang.String-) | La descripción de la clase |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | El nombre de la clase, utilizado por la UI para su representación |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | El nombre de la clase, usado por la UI para su representación |
 | [toString()](#toString--) | Obtiene la representación en cadena de esta instancia. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ Constructor de la definición de la clase
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | nombre | java.lang.String | El nombre único de la clase |
-| displayName | java.lang.String | El nombre de la clase, utilizado por la UI para su representación |
+| displayName | java.lang.String | El nombre de la clase, usado por la UI para su representación |
 | description | java.lang.String | La descripción de la clase |
 | propiedades | java.util.ArrayList<com.aspose.threed.StructuralMetadata.Property> | Las propiedades definidas en esta clase |
 
@@ -264,10 +264,10 @@ public String getDisplayName()
 ```
 
 
-El nombre de la clase, utilizado por la UI para su representación
+El nombre de la clase, usado por la UI para su representación
 
 **Returns:**
-java.lang.String - El nombre de la clase, utilizado por la UI para su representación
+java.lang.String - El nombre de la clase, usado por la UI para su representación
 ### getName() {#getName--}
 ```
 public String getName()
@@ -333,7 +333,7 @@ public void setDisplayName(String value)
 ```
 
 
-El nombre de la clase, utilizado por la UI para su representación
+El nombre de la clase, usado por la UI para su representación
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,6 +1,6 @@
 ---
 title: "RendererVariableManager"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Esta clase gestiona variables usadas en el renderizado"
 type: docs
 weight: 154
@@ -21,16 +21,16 @@ Esta clase gestiona variables usadas en el renderizado
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCameraPosition()](#getCameraPosition--) | Posición de la cámara en el sistema de coordenadas del mundo |
 | [getClass()](#getClass--) |  |
-| [getDepthBias()](#getDepthBias--) | Sesgo de profundidad para mapeado de sombras, el valor predeterminado es 0.001 |
+| [getDepthBias()](#getDepthBias--) | Sesgo de profundidad para mapeo de sombras, el valor predeterminado es 0.001 |
 | [getMatrixLightSpace()](#getMatrixLightSpace--) | Matriz para la transformación del espacio de luz |
 | [getMatrixProjection()](#getMatrixProjection--) | Matriz para la transformación de proyección |
 | [getMatrixView()](#getMatrixView--) | Matriz para la transformación de vista |
 | [getMatrixViewProjection()](#getMatrixViewProjection--) | Matriz para la transformación de vista y proyección. |
 | [getMatrixWorld()](#getMatrixWorld--) | Matriz para la transformación del mundo |
 | [getMatrixWorldNormal()](#getMatrixWorldNormal--) | Matriz para convertir la normal del objeto al espacio mundial. |
-| [getMatrixWorldViewProjection()](#getMatrixWorldViewProjection--) | Matriz para la vista del mundo y transformación de proyección |
-| [getShadowCaster()](#getShadowCaster--) | Posición del lanzador de sombras en el sistema de coordenadas del mundo |
-| [getShadowmap()](#getShadowmap--) | La textura de profundidad utilizada para el mapeo de sombras |
+| [getMatrixWorldViewProjection()](#getMatrixWorldViewProjection--) | Matriz para la vista del mundo y la transformación de proyección |
+| [getShadowCaster()](#getShadowCaster--) | Posición del lanzador de sombras en el sistema de coordenadas mundial |
+| [getShadowmap()](#getShadowmap--) | La textura de profundidad utilizada para el mapeado de sombras |
 | [getViewportSize()](#getViewportSize--) | Tamaño del viewport, medido en píxeles |
 | [getWorldAmbient()](#getWorldAmbient--) | Color ambiental definido en el viewport. |
 | [getWorldTime()](#getWorldTime--) | Tiempo en segundos |
@@ -38,12 +38,12 @@ Esta clase gestiona variables usadas en el renderizado
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCameraPosition(FVector3 value)](#setCameraPosition-com.aspose.threed.FVector3-) | Posición de la cámara en el sistema de coordenadas del mundo |
-| [setDepthBias(float value)](#setDepthBias-float-) | Sesgo de profundidad para mapeado de sombras, el valor predeterminado es 0.001 |
+| [setDepthBias(float value)](#setDepthBias-float-) | Sesgo de profundidad para mapeo de sombras, el valor predeterminado es 0.001 |
 | [setMatrixLightSpace(FMatrix4 value)](#setMatrixLightSpace-com.aspose.threed.FMatrix4-) | Matriz para la transformación del espacio de luz |
 | [setMatrixProjection(FMatrix4 value)](#setMatrixProjection-com.aspose.threed.FMatrix4-) | Matriz para la transformación de proyección |
 | [setMatrixView(FMatrix4 value)](#setMatrixView-com.aspose.threed.FMatrix4-) | Matriz para la transformación de vista |
-| [setShadowCaster(FVector3 value)](#setShadowCaster-com.aspose.threed.FVector3-) | Posición del lanzador de sombras en el sistema de coordenadas del mundo |
-| [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | La textura de profundidad utilizada para el mapeo de sombras |
+| [setShadowCaster(FVector3 value)](#setShadowCaster-com.aspose.threed.FVector3-) | Posición del lanzador de sombras en el sistema de coordenadas mundial |
+| [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | La textura de profundidad utilizada para el mapeado de sombras |
 | [setViewportSize(FVector2 value)](#setViewportSize-com.aspose.threed.FVector2-) | Tamaño del viewport, medido en píxeles |
 | [setWorldAmbient(FVector3 value)](#setWorldAmbient-com.aspose.threed.FVector3-) | Color ambiental definido en el viewport. |
 | [setWorldTime(float value)](#setWorldTime-float-) | Tiempo en segundos |
@@ -92,10 +92,10 @@ public float getDepthBias()
 ```
 
 
-Sesgo de profundidad para mapeado de sombras, el valor predeterminado es 0.001
+Sesgo de profundidad para mapeo de sombras, el valor predeterminado es 0.001
 
 **Returns:**
-float - Sesgo de profundidad para el mapeo de sombras, el valor predeterminado es 0.001
+float - Sesgo de profundidad para el mapeado de sombras, el valor predeterminado es 0.001
 ### getMatrixLightSpace() {#getMatrixLightSpace--}
 ```
 public FMatrix4 getMatrixLightSpace()
@@ -162,7 +162,7 @@ public FMatrix4 getMatrixWorldViewProjection()
 ```
 
 
-Matriz para la vista del mundo y transformación de proyección
+Matriz para la vista del mundo y la transformación de proyección
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for world view and projection transformation
@@ -172,7 +172,7 @@ public FVector3 getShadowCaster()
 ```
 
 
-Posición del lanzador de sombras en el sistema de coordenadas del mundo
+Posición del lanzador de sombras en el sistema de coordenadas mundial
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Position of shadow caster in world coordinate system
@@ -182,7 +182,7 @@ public ITextureUnit getShadowmap()
 ```
 
 
-La textura de profundidad utilizada para el mapeo de sombras
+La textura de profundidad utilizada para el mapeado de sombras
 
 **Returns:**
 [ITextureUnit](../../com.aspose.threed/itextureunit) - The depth texture used for shadow mapping
@@ -261,7 +261,7 @@ public void setDepthBias(float value)
 ```
 
 
-Sesgo de profundidad para mapeado de sombras, el valor predeterminado es 0.001
+Sesgo de profundidad para mapeo de sombras, el valor predeterminado es 0.001
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -313,7 +313,7 @@ public void setShadowCaster(FVector3 value)
 ```
 
 
-Posición del lanzador de sombras en el sistema de coordenadas del mundo
+Posición del lanzador de sombras en el sistema de coordenadas mundial
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -326,7 +326,7 @@ public void setShadowmap(ITextureUnit value)
 ```
 
 
-La textura de profundidad utilizada para el mapeo de sombras
+La textura de profundidad utilizada para el mapeado de sombras
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

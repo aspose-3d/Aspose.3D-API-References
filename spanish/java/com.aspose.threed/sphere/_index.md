@@ -1,6 +1,6 @@
 ---
 title: "Sphere"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Esfera parametrizada."
 type: docs
 weight: 174
@@ -32,15 +32,15 @@ Esfera parametrizada.
 | [getCastShadows()](#getCastShadows--) | Obtiene si esta geometría puede proyectar sombra |
 | [getClass()](#getClass--) |  |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getHeightSegments()](#getHeightSegments--) | Obtiene los segmentos de altura. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getPhiLength()](#getPhiLength--) | Obtiene la longitud de phi. |
 | [getPhiStart()](#getPhiStart--) | Obtiene el inicio de phi. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getRadius()](#getRadius--) | Obtiene el radio de la esfera. |
 | [getReceiveShadows()](#getReceiveShadows--) | Obtiene si esta geometría puede recibir sombra. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
@@ -53,10 +53,10 @@ Esfera parametrizada.
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | Establece si esta geometría puede proyectar sombra |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setHeightSegments(int value)](#setHeightSegments-int-) | Establece los segmentos de altura. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setPhiLength(double value)](#setPhiLength-double-) | Establece la longitud de phi. |
 | [setPhiStart(double value)](#setPhiStart-double-) | Establece el inicio de phi. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
@@ -89,7 +89,7 @@ Inicializa una nueva instancia de la clase [Sphere](../../com.aspose.threed/sphe
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| radio | double | Radio. |
+| radius | double | Radio. |
 
 ### Sphere(double radius, int widthSegments, int heightSegments) {#Sphere-double-int-int-}
 ```
@@ -102,7 +102,7 @@ Inicializa una nueva instancia de la clase [Sphere](../../com.aspose.threed/sphe
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| radio | double | Radio de la esfera. |
+| radius | double | Radio de la esfera. |
 | widthSegments | int | Segmentos de ancho. |
 | heightSegments | int | Segmentos de altura. |
 
@@ -118,7 +118,7 @@ Inicializa una nueva instancia de la clase [Sphere](../../com.aspose.threed/sphe
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | nombre | java.lang.String | Nombre. |
-| radio | double | Radio de la esfera. |
+| radius | double | Radio de la esfera. |
 | widthSegments | int | Segmentos de ancho. |
 | heightSegments | int | Segmentos de altura. |
 | phiStart | double | Inicio de phi. |
@@ -147,7 +147,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -209,10 +209,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getHeightSegments() {#getHeightSegments--}
 ```
 public int getHeightSegments()
@@ -239,7 +239,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -249,7 +249,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -289,7 +289,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -433,7 +433,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -472,7 +472,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

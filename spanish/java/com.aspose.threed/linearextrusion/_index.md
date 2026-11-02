@@ -1,6 +1,6 @@
 ---
 title: "LinearExtrusion"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La extrusión lineal toma una forma 2D como entrada y extiende la forma en la tercera dimensión."
 type: docs
 weight: 96
@@ -62,38 +62,38 @@ La extrusión lineal toma una forma 2D como entrada y extiende la forma en la te
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Busca la propiedad. |
 | [getBoundingBox()](#getBoundingBox--) | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objetos. |
-| [getCenter()](#getCenter--) | Si este valor es false, el rango Z de la extrusión lineal es de 0 a height, de lo contrario el rango es de -height/2 a height/2. |
+| [getCenter()](#getCenter--) | Si este valor es false, el rango Z de la extrusión lineal es de 0 a la altura; de lo contrario, el rango es de -altura/2 a altura/2. |
 | [getClass()](#getClass--) |  |
 | [getDirection()](#getDirection--) | La dirección de la extrusión, el valor predeterminado es (0, 0, 1) |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getHeight()](#getHeight--) | La altura de la geometría extruida, el valor predeterminado es 1.0 |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [getShape()](#getShape--) | La forma base a extruir. |
-| [getSlices()](#getSlices--) | Las rebanadas de la geometría extruida retorcida, el valor predeterminado es 1. |
-| [getTwist()](#getTwist--) | El número de grados a través de los cuales la forma es extruida. |
-| [getTwistOffset()](#getTwistOffset--) | El desplazamiento que se usa en la torsión, el valor predeterminado es (0, 0, 0). |
+| [getSlices()](#getSlices--) | Las secciones de la geometría extruida torcida, el valor predeterminado es 1. |
+| [getTwist()](#getTwist--) | El número de grados mediante los cuales se extruye la forma. |
+| [getTwistOffset()](#getTwistOffset--) | El desplazamiento usado en la torsión, el valor predeterminado es (0, 0, 0). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
-| [setCenter(boolean value)](#setCenter-boolean-) | Si este valor es false, el rango Z de la extrusión lineal es de 0 a height, de lo contrario el rango es de -height/2 a height/2. |
+| [setCenter(boolean value)](#setCenter-boolean-) | Si este valor es false, el rango Z de la extrusión lineal es de 0 a la altura; de lo contrario, el rango es de -altura/2 a altura/2. |
 | [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | La dirección de la extrusión, el valor predeterminado es (0, 0, 1) |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setHeight(double value)](#setHeight-double-) | La altura de la geometría extruida, el valor predeterminado es 1.0 |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | La forma base a extruir. |
-| [setSlices(int value)](#setSlices-int-) | Las rebanadas de la geometría extruida retorcida, el valor predeterminado es 1. |
-| [setTwist(double value)](#setTwist-double-) | El número de grados a través de los cuales la forma es extruida. |
-| [setTwistOffset(Vector3 value)](#setTwistOffset-com.aspose.threed.Vector3-) | El desplazamiento que se usa en la torsión, el valor predeterminado es (0, 0, 0). |
+| [setSlices(int value)](#setSlices-int-) | Las secciones de la geometría extruida torcida, el valor predeterminado es 1. |
+| [setTwist(double value)](#setTwist-double-) | El número de grados mediante los cuales se extruye la forma. |
+| [setTwistOffset(Vector3 value)](#setTwistOffset-com.aspose.threed.Vector3-) | El desplazamiento usado en la torsión, el valor predeterminado es (0, 0, 0). |
 | [toMesh()](#toMesh--) | Convertir la extrusión a malla. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -142,7 +142,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -174,10 +174,10 @@ public boolean getCenter()
 ```
 
 
-Si este valor es false, el rango Z de la extrusión lineal es de 0 a height, de lo contrario el rango es de -height/2 a height/2.
+Si este valor es false, el rango Z de la extrusión lineal es de 0 a la altura; de lo contrario, el rango es de -altura/2 a altura/2.
 
 **Returns:**
-boolean - Si este valor es false, el rango Z de la extrusión lineal es de 0 a height, de lo contrario el rango es de -height/2 a height/2.
+boolean - Si este valor es false, el rango Z de la extrusión lineal es de 0 a la altura; de lo contrario, el rango es de -altura/2 a altura/2.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -214,10 +214,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -244,7 +244,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -254,7 +254,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -274,7 +274,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -309,27 +309,27 @@ public int getSlices()
 ```
 
 
-Las rebanadas de la geometría extruida retorcida, el valor predeterminado es 1.
+Las secciones de la geometría extruida torcida, el valor predeterminado es 1.
 
 **Returns:**
-int - Las rebanadas de la geometría extruida retorcida, el valor predeterminado es 1.
+int - Las secciones de la geometría extruida torcida, el valor predeterminado es 1.
 ### getTwist() {#getTwist--}
 ```
 public double getTwist()
 ```
 
 
-El número de grados a través de los cuales la forma es extruida.
+El número de grados mediante los cuales se extruye la forma.
 
 **Returns:**
-double - El número de grados a través de los cuales la forma es extruida.
+double - El número de grados mediante los cuales se extruye la forma.
 ### getTwistOffset() {#getTwistOffset--}
 ```
 public Vector3 getTwistOffset()
 ```
 
 
-El desplazamiento que se usa en la torsión, el valor predeterminado es (0, 0, 0).
+El desplazamiento usado en la torsión, el valor predeterminado es (0, 0, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The offset that used in twisting, default value is (0, 0, 0).
@@ -395,7 +395,7 @@ public void setCenter(boolean value)
 ```
 
 
-Si este valor es false, el rango Z de la extrusión lineal es de 0 a height, de lo contrario el rango es de -height/2 a height/2.
+Si este valor es false, el rango Z de la extrusión lineal es de 0 a la altura; de lo contrario, el rango es de -altura/2 a altura/2.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -421,7 +421,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -460,7 +460,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -500,7 +500,7 @@ public void setSlices(int value)
 ```
 
 
-Las rebanadas de la geometría extruida retorcida, el valor predeterminado es 1.
+Las secciones de la geometría extruida torcida, el valor predeterminado es 1.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -513,7 +513,7 @@ public void setTwist(double value)
 ```
 
 
-El número de grados a través de los cuales la forma es extruida.
+El número de grados mediante los cuales se extruye la forma.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -526,7 +526,7 @@ public void setTwistOffset(Vector3 value)
 ```
 
 
-El desplazamiento que se usa en la torsión, el valor predeterminado es (0, 0, 0).
+El desplazamiento usado en la torsión, el valor predeterminado es (0, 0, 0).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

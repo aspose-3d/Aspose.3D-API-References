@@ -1,7 +1,7 @@
 ---
 title: "ShaderStage"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Etapa del shader."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Etapa de shader"
 type: docs
 weight: 168
 url: /es/java/com.aspose.threed/shaderstage/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class ShaderStage
 ```
 
-Etapa del shader.
+Etapa de shader
 ## Constructores
 
 | Constructor | Descripción |
@@ -24,7 +24,7 @@ Etapa del shader.
 | Campo | Descripción |
 | --- | --- |
 | [COMPUTE_SHADER](#COMPUTE-SHADER) | Shader de cómputo |
-| [FRAGMENT_SHADER](#FRAGMENT-SHADER) | Shader de fragmentos |
+| [FRAGMENT_SHADER](#FRAGMENT-SHADER) | Shader de fragmento |
 | [GEOMETRY_SHADER](#GEOMETRY-SHADER) | Shader de geometría |
 | [VERTEX_SHADER](#VERTEX-SHADER) | Shader de vértices |
 ## Métodos
@@ -60,7 +60,7 @@ public static final int FRAGMENT_SHADER
 ```
 
 
-Shader de fragmentos
+Shader de fragmento
 
 ### GEOMETRY_SHADER {#GEOMETRY-SHADER}
 ```

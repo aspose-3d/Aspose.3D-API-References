@@ -1,7 +1,7 @@
 ---
 title: "U3dSaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Opciones de guardado para 3d universal"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Opciones de guardado para 3D universal"
 type: docs
 weight: 198
 url: /es/java/com.aspose.threed/u3dsaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class U3dSaveOptions extends SaveOptions
 ```
 
-Opciones de guardado para 3d universal
+Opciones de guardado para 3D universal
 ## Constructores
 
 | Constructor | Descripción |
@@ -26,9 +26,9 @@ Opciones de guardado para 3d universal
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getEmbedTextures()](#getEmbedTextures--) | Incrustar las texturas externas en el archivo U3D, el valor predeterminado es false. |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
-| [getExportNormals()](#getExportNormals--) | Obtiene si se exportan los datos normales. |
-| [getExportTextureCoordinates()](#getExportTextureCoordinates--) | Obtiene si se exportan las coordenadas de textura. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
+| [getExportNormals()](#getExportNormals--) | Obtiene si se exportan datos normales. |
+| [getExportTextureCoordinates()](#getExportTextureCoordinates--) | Obtiene si se exportan coordenadas de textura. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getExportVertexDiffuse()](#getExportVertexDiffuse--) | Obtiene si se exporta el color difuso del vértice. |
 | [getExportVertexSpecular()](#getExportVertexSpecular--) | Obtiene si se exporta el color especular del vértice. |
@@ -37,15 +37,15 @@ Opciones de guardado para 3d universal
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
 | [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Obtiene si se invierte el sistema de coordenadas de los puntos de control/normal durante la importación/exportación. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [getMeshCompression()](#getMeshCompression--) | Obtiene si se habilita la compresión de datos de malla. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | Incrustar las texturas externas en el archivo U3D, el valor predeterminado es false. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setExportNormals(boolean value)](#setExportNormals-boolean-) | Establece si se exportan datos normales. |
-| [setExportTextureCoordinates(boolean value)](#setExportTextureCoordinates-boolean-) | Establece si se exportan las coordenadas de textura. |
+| [setExportTextureCoordinates(boolean value)](#setExportTextureCoordinates-boolean-) | Establece si se exportan coordenadas de textura. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setExportVertexDiffuse(boolean value)](#setExportVertexDiffuse-boolean-) | Establece si se exporta el color difuso del vértice. |
 | [setExportVertexSpecular(boolean value)](#setExportVertexSpecular-boolean-) | Establece si se exporta el color especular del vértice. |
@@ -53,7 +53,7 @@ Opciones de guardado para 3d universal
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Establece si se invierte el sistema de coordenadas de los puntos de control/normal durante la importación/exportación. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [setMeshCompression(boolean value)](#setMeshCompression-boolean-) | Establece si se habilita la compresión de datos de malla. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -108,17 +108,17 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportNormals() {#getExportNormals--}
 ```
 public boolean getExportNormals()
 ```
 
 
-Obtiene si se exportan los datos normales.
+Obtiene si se exportan datos normales.
 
 **Returns:**
 boolean - si se exportan datos normales.
@@ -128,10 +128,10 @@ public boolean getExportTextureCoordinates()
 ```
 
 
-Obtiene si se exportan las coordenadas de textura.
+Obtiene si se exportan coordenadas de textura.
 
 **Returns:**
-boolean - si se exportan las coordenadas de textura.
+boolean - si se exportan coordenadas de textura.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -151,7 +151,7 @@ public boolean getExportVertexDiffuse()
 Obtiene si se exporta el color difuso del vértice.
 
 **Returns:**
-booleano - si se exporta el color difuso del vértice.
+boolean - si se exporta el color difuso del vértice.
 ### getExportVertexSpecular() {#getExportVertexSpecular--}
 ```
 public boolean getExportVertexSpecular()
@@ -161,7 +161,7 @@ public boolean getExportVertexSpecular()
 Obtiene si se exporta el color especular del vértice.
 
 **Returns:**
-booleano - si se exporta el color especular del vértice.
+boolean - si se exporta el color especular del vértice.
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -178,10 +178,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -261,7 +261,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -282,7 +282,7 @@ public boolean getMeshCompression()
 Obtiene si se habilita la compresión de datos de malla.
 
 **Returns:**
-booleano - si se habilita la compresión de datos de malla.
+boolean - si se habilita la compresión de datos de malla.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -354,7 +354,7 @@ public void setExportTextureCoordinates(boolean value)
 ```
 
 
-Establece si se exportan las coordenadas de textura.
+Establece si se exportan coordenadas de textura.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -406,7 +406,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -501,7 +501,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,6 +1,6 @@
 ---
 title: "Cancelación"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Esta clase le permite abortar manualmente una tarea de carga/guardado."
 type: docs
 weight: 29

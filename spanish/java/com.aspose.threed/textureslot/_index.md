@@ -1,7 +1,7 @@
 ---
 title: "TextureSlot"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Ranura de textura en  puede enumerarse a través de la instancia del material."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La ranura de textura en  puede enumerarse a través de la instancia del material."
 type: docs
 weight: 188
 url: /es/java/com.aspose.threed/textureslot/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureSlot
 ```
 
-Ranura de textura en [Material](../../com.aspose.threed/material), puede enumerarse a través de la instancia del material. **Example:**
+Ranura de textura en [Material](../../com.aspose.threed/material), puede enumerarse a través de la instancia del material. **Ejemplo:**
 
 ```
 var mat = new LambertMaterial();

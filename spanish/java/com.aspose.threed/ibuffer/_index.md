@@ -1,6 +1,6 @@
 ---
 title: "IBuffer"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La interfaz base de todos los buffers gestionados utilizados en el renderizado"
 type: docs
 weight: 239
@@ -18,25 +18,25 @@ La interfaz base de todos los buffers gestionados utilizados en el renderizado
 
 | Método | Descripción |
 | --- | --- |
-| [getSize()](#getSize--) | Tamaño de este buffer en bytes |
-| [loadData(byte[] data)](#loadData-byte---) | Cargar los datos en el buffer actual |
+| [getSize()](#getSize--) | Tamaño de este búfer en bytes |
+| [loadData(byte[] data)](#loadData-byte---) | Cargar los datos en el búfer actual |
 ### getSize() {#getSize--}
 ```
 public abstract int getSize()
 ```
 
 
-Tamaño de este buffer en bytes
+Tamaño de este búfer en bytes
 
 **Returns:**
-int - Tamaño de este buffer en bytes
+int - Tamaño de este búfer en bytes
 ### loadData(byte[] data) {#loadData-byte---}
 ```
 public abstract void loadData(byte[] data)
 ```
 
 
-Cargar los datos en el buffer actual
+Cargar los datos en el búfer actual
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

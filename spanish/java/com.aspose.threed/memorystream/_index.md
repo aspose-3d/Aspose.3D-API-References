@@ -1,7 +1,7 @@
 ---
 title: "MemoryStream"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Creado por lexchou el 6/13/2017."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Creado por lexchou el 13/6/2017."
 type: docs
 weight: 101
 url: /es/java/com.aspose.threed/memorystream/
@@ -16,7 +16,7 @@ java.lang.AutoCloseable
 public class MemoryStream extends Stream implements AutoCloseable
 ```
 
-Creado por lexchou el 6/13/2017.
+Creado por lexchou el 13/6/2017.
 ## Constructores
 
 | Constructor | Descripción |

@@ -1,7 +1,7 @@
 ---
 title: "VertexFieldSemantic"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "La semántica del campo de vértice."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La semántica del campo de vértice"
 type: docs
 weight: 309
 url: /es/java/com.aspose.threed/vertexfieldsemantic/
@@ -13,20 +13,20 @@ java.lang.Object, java.lang.Enum
 public enum VertexFieldSemantic extends Enum<VertexFieldSemantic>
 ```
 
-La semántica del campo de vértice.
+La semántica del campo de vértice
 ## Campos
 
 | Campo | Descripción |
 | --- | --- |
 | [BINORMAL](#BINORMAL) | Vector binormal |
 | [EDGE_CREASE](#EDGE-CREASE) | Pliegue de borde |
-| [MORPH_NORMAL](#MORPH-NORMAL) | Datos de normales para el objetivo de morph |
+| [MORPH_NORMAL](#MORPH-NORMAL) | Datos normales para el objetivo de morph |
 | [MORPH_POSITION](#MORPH-POSITION) | Datos de posición para el objetivo de morph |
 | [NORMAL](#NORMAL) | Vector normal |
 | [POSITION](#POSITION) | Datos de posición |
 | [SPECULAR](#SPECULAR) | Colores especulares |
 | [TANGENT](#TANGENT) | Vector tangente |
-| [USER_DATA](#USER-DATA) | Datos de usuario, usualmente para un propósito específico de la aplicación |
+| [USER_DATA](#USER-DATA) | Datos de usuario, generalmente para un propósito específico de la aplicación |
 | [UV](#UV) | Coordenada UV de la textura |
 | [VERTEX_COLOR](#VERTEX-COLOR) | Color del vértice |
 | [VERTEX_CREASE](#VERTEX-CREASE) | Pliegue del vértice |
@@ -75,7 +75,7 @@ public static final VertexFieldSemantic MORPH_NORMAL
 ```
 
 
-Datos de normales para el objetivo de morph
+Datos normales para el objetivo de morph
 
 ### MORPH_POSITION {#MORPH-POSITION}
 ```
@@ -123,7 +123,7 @@ public static final VertexFieldSemantic USER_DATA
 ```
 
 
-Datos de usuario, usualmente para un propósito específico de la aplicación
+Datos de usuario, generalmente para un propósito específico de la aplicación
 
 ### UV {#UV}
 ```

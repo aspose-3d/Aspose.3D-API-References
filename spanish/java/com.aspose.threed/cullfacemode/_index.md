@@ -1,6 +1,6 @@
 ---
 title: "CullFaceMode"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Qué cara descartar"
 type: docs
 weight: 37
@@ -24,8 +24,8 @@ Qué cara descartar
 | Campo | Descripción |
 | --- | --- |
 | [BACK](#BACK) | Solo se descartan las caras traseras |
-| [BOTH](#BOTH) | Se descartan tanto las caras traseras como las delanteras, no afecta la renderización de líneas/puntos. |
-| [FRONT](#FRONT) | Solo se descartan las caras delanteras |
+| [BOTH](#BOTH) | Se descartan tanto las caras traseras como frontales, no afecta la renderización de líneas/puntos. |
+| [FRONT](#FRONT) | Solo se descartan las caras frontales |
 ## Métodos
 
 | Método | Descripción |
@@ -59,7 +59,7 @@ public static final int BOTH
 ```
 
 
-Se descartan tanto las caras traseras como las delanteras, no afecta la renderización de líneas/puntos.
+Se descartan tanto las caras traseras como frontales, no afecta la renderización de líneas/puntos.
 
 ### FRONT {#FRONT}
 ```
@@ -67,7 +67,7 @@ public static final int FRONT
 ```
 
 
-Solo se descartan las caras delanteras
+Solo se descartan las caras frontales
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

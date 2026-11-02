@@ -1,6 +1,6 @@
 ---
-title: "Malla"
-second_title: "Referencia de API de Aspose.3D para Java"
+title: "Mesh"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Una malla está compuesta por muchos polígonos de n lados."
 type: docs
 weight: 102
@@ -16,7 +16,7 @@ java.lang.Iterable, [com.aspose.threed.IMeshConvertible](../../com.aspose.threed
 public class Mesh extends Geometry implements Iterable<int[]>, IMeshConvertible
 ```
 
-Una malla está compuesta por muchos polígonos de n lados. **Example:** Para agregar un polígono en la malla:
+Una malla está compuesta por muchos polígonos de n lados. **Ejemplo:** Para agregar un polígono en la malla:
 
 ```
 Mesh mesh = new Mesh();
@@ -24,7 +24,7 @@ Mesh mesh = new Mesh();
   mesh.createPolygon(indices);
 ```
 
-Recorra todos los polígonos de la malla:
+Recorrer todos los polígonos en la malla:
 
 ```
 Mesh mesh = new Mesh();
@@ -50,10 +50,10 @@ Mesh mesh = new Mesh();
 | [clone()](#clone--) |  |
 | [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Crea un elemento de vértice con el tipo especificado y lo agrega a la geometría. |
 | [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Crea un elemento de vértice con el tipo especificado y lo agrega a la geometría. |
-| [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado. |
-| [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado. |
-| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | Crea un polígono con 3 vértices(triángulo) |
-| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | Crea un polígono con 4 vértices(cuadrilátero) |
+| [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado. |
+| [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado. |
+| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | Crea un polígono con 3 vértices (triángulo) |
+| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | Crea un polígono con 4 vértices (cuadrilátero) |
 | [createPolygon(int[] indices)](#createPolygon-int---) | Crea un nuevo polígono con todos los vértices definidos en `indices`. |
 | [createPolygon(int[] indices, int offset, int length)](#createPolygon-int---int-int-) | Crea un nuevo polígono con todos los vértices definidos en `indices`. |
 | [difference(Mesh a, Mesh b)](#difference-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | Calcula la diferencia de dos mallas |
@@ -68,18 +68,18 @@ Mesh mesh = new Mesh();
 | [getEdges()](#getEdges--) | Obtiene los bordes de la malla. |
 | [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Obtiene un elemento de vértice con el tipo especificado |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getPolygonCount()](#getPolygonCount--) | Obtiene el recuento de polígonos |
 | [getPolygonSize(int index)](#getPolygonSize-int-) | Obtiene el número de vértices del polígono especificado. |
 | [getPolygons()](#getPolygons--) | Obtiene la definición de polígonos de la malla |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getReceiveShadows()](#getReceiveShadows--) | Obtiene si esta geometría puede recibir sombra. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Obtiene una instancia de [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Obtiene una instancia de [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado |
 | [getVertexElements()](#getVertexElements--) | Obtiene todos los elementos de vértice |
 | [getVisible()](#getVisible--) | Obtiene si la geometría es visible |
 | [hashCode()](#hashCode--) |  |
@@ -96,16 +96,16 @@ Mesh mesh = new Mesh();
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | Establece si esta geometría puede proyectar sombra |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Establece si esta geometría puede recibir sombra. |
 | [setVisible(boolean value)](#setVisible-boolean-) | Establece si la geometría es visible |
-| [toMesh()](#toMesh--) | Obtiene la instancia Mesh de la entidad actual. |
+| [toMesh()](#toMesh--) | Obtiene la instancia de Mesh de la entidad actual. |
 | [toString()](#toString--) |  |
-| [triangulate()](#triangulate--) | Devuelve malla triangulada |
-| [union(Mesh a, Mesh b)](#union-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | Calcula la unión de dos mallas |
+| [triangulate()](#triangulate--) | Devuelve la malla triangulada. |
+| [union(Mesh a, Mesh b)](#union-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | Calcula la unión de dos mallas. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -139,7 +139,7 @@ public Collection<T> <T>getDeformers2()
 Obtiene todos los deformadores con los tipos de deformador especificados
 
 **Returns:**
-java.util.Collection<T> - colección Deformer
+java.util.Collection<T> - Colección de deformadores
 ### addControlPoint(double x, double y, double z) {#addControlPoint-double-double-double-}
 ```
 public void addControlPoint(double x, double y, double z)
@@ -232,7 +232,7 @@ public VertexElementUV createElementUV(TextureMapping uvMapping)
 ```
 
 
-Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado.
+Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -247,7 +247,7 @@ public VertexElementUV createElementUV(TextureMapping uvMapping, MappingMode map
 ```
 
 
-Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado.
+Crea un [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -264,7 +264,7 @@ public void createPolygon(int v1, int v2, int v3)
 ```
 
 
-Crea un polígono con 3 vértices(triángulo)
+Crea un polígono con 3 vértices (triángulo)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -284,7 +284,7 @@ public void createPolygon(int v1, int v2, int v3, int v4)
 ```
 
 
-Crea un polígono con 4 vértices(cuadrilátero)
+Crea un polígono con 4 vértices (cuadrilátero)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -331,7 +331,7 @@ Crea un nuevo polígono con todos los vértices definidos en `indices`. Para cre
 | --- | --- | --- |
 | índices | int[] | Matriz de los índices del polígono, cada índice apunta a un punto de control que forma el polígono. |
 | desplazamiento | int | El desplazamiento del primer índice del polígono |
-|  | longitud | int | La longitud de los índices **Ejemplo:** El siguiente código muestra cómo crear un nuevo polígono con los índices del punto de control. |
+|  | longitud | int | La longitud de los índices **Ejemplo:** El siguiente código muestra cómo crear un nuevo polígono con los índices de los puntos de control. |
 
 ```
 Mesh mesh = new Mesh();
@@ -395,7 +395,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -502,10 +502,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -522,7 +522,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -532,7 +532,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -592,7 +592,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -627,7 +627,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-Obtiene una instancia de [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeado de textura dado
+Obtiene una instancia de [VertexElementUV](../../com.aspose.threed/vertexelementuv) con el tipo de mapeo de textura dado
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -688,7 +688,7 @@ public boolean isManifold()
 ```
 
 
-Verifique si la malla actual es una malla manifold. Esta función no almacenará en caché el resultado del cálculo manifold.
+Comprueba si la malla actual es una malla manifold. Esta función no almacenará en caché el resultado del cálculo manifold.
 
 **Returns:**
 boolean - verdadero si la malla es una malla manifold.
@@ -855,7 +855,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -881,7 +881,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -934,7 +934,7 @@ public Mesh toMesh()
 ```
 
 
-Obtiene la instancia Mesh de la entidad actual.
+Obtiene la instancia de Mesh de la entidad actual.
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Returns current instance.
@@ -954,7 +954,7 @@ public Mesh triangulate()
 ```
 
 
-Devuelve malla triangulada
+Devuelve la malla triangulada.
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Current mesh if current mesh is already triangulated, otherwise a new triangulated mesh will be calculated and returned **Example:** The following code shows how to triangulate a mesh:
@@ -971,7 +971,7 @@ public static Mesh union(Mesh a, Mesh b)
 ```
 
 
-Calcula la unión de dos mallas
+Calcula la unión de dos mallas.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

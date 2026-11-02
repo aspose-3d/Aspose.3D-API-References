@@ -1,6 +1,6 @@
 ---
 title: "Html5SaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de guardado para HTML5"
 type: docs
 weight: 80
@@ -24,9 +24,9 @@ Opciones de guardado para HTML5
 | Método | Descripción |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCameraPosition()](#getCameraPosition--) | Obtiene la posición inicial de la cámara, el valor predeterminado es (10, 10, 10) |
+| [getCameraPosition()](#getCameraPosition--) | Obtiene la posición inicial de la cámara, el valor predeterminado es (10, 10, 10). |
 | [getClass()](#getClass--) |  |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getFarPlane()](#getFarPlane--) | Obtiene el plano lejano de la cámara, el valor predeterminado es 1000. |
 | [getFieldOfView()](#getFieldOfView--) | Obtiene el campo de visión, el valor predeterminado es 45, medido en grados. |
@@ -34,19 +34,19 @@ Opciones de guardado para HTML5
 | [getFileName()](#getFileName--) | El nombre de archivo de la escena de exportación/importación. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
-| [getLookAt()](#getLookAt--) | Obtiene la posición predeterminada de observación, el valor predeterminado es (0, 0, 0) |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
-| [getNearPlane()](#getNearPlane--) | Obtiene el plano cercano de la cámara, el valor predeterminado es 1 |
+| [getLookAt()](#getLookAt--) | Obtiene la posición de mirada predeterminada, el valor predeterminado es (0, 0, 0). |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
+| [getNearPlane()](#getNearPlane--) | Obtiene el plano cercano de la cámara, el valor predeterminado es 1. |
 | [getOrientationBox()](#getOrientationBox--) | Muestra una caja de orientación. |
 | [getShowGrid()](#getShowGrid--) | Muestra una cuadrícula en la escena. |
 | [getShowRulers()](#getShowRulers--) | Muestra reglas de los ejes x/y/z en la escena para medir el modelo. |
-| [getShowUI()](#getShowUI--) | Muestra una interfaz simple en la escena. |
+| [getShowUI()](#getShowUI--) | Muestra una interfaz de usuario simple en la escena. |
 | [getUpVector()](#getUpVector--) | Obtiene el vector up, el valor puede ser "x"/"y"/"z", el valor predeterminado es "y" |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCameraPosition(Vector3 value)](#setCameraPosition-com.aspose.threed.Vector3-) | Establece la posición inicial de la cámara, el valor predeterminado es (10, 10, 10) |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setFarPlane(double value)](#setFarPlane-double-) | Establece el plano lejano de la cámara, el valor predeterminado es 1000. |
 | [setFieldOfView(double value)](#setFieldOfView-double-) | Establece el campo de visión, el valor predeterminado es 45, medido en grados. |
@@ -54,12 +54,12 @@ Opciones de guardado para HTML5
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
 | [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | Establece la posición de observación predeterminada, el valor predeterminado es (0, 0, 0) |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [setNearPlane(double value)](#setNearPlane-double-) | Establece el plano cercano de la cámara, el valor predeterminado es 1 |
 | [setOrientationBox(boolean value)](#setOrientationBox-boolean-) | Muestra una caja de orientación. |
 | [setShowGrid(boolean value)](#setShowGrid-boolean-) | Muestra una cuadrícula en la escena. |
 | [setShowRulers(boolean value)](#setShowRulers-boolean-) | Muestra reglas de los ejes x/y/z en la escena para medir el modelo. |
-| [setShowUI(boolean value)](#setShowUI-boolean-) | Muestra una interfaz simple en la escena. |
+| [setShowUI(boolean value)](#setShowUI-boolean-) | Muestra una interfaz de usuario simple en la escena. |
 | [setUpVector(String value)](#setUpVector-java.lang.String-) | Establece el vector up, el valor puede ser "x"/"y"/"z", el valor predeterminado es "y" |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -94,7 +94,7 @@ public Vector3 getCameraPosition()
 ```
 
 
-Obtiene la posición inicial de la cámara, el valor predeterminado es (10, 10, 10)
+Obtiene la posición inicial de la cámara, el valor predeterminado es (10, 10, 10).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the initial position of the camera, default value is (10, 10, 10)
@@ -114,10 +114,10 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -164,10 +164,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -237,7 +237,7 @@ public Vector3 getLookAt()
 ```
 
 
-Obtiene la posición predeterminada de observación, el valor predeterminado es (0, 0, 0)
+Obtiene la posición de mirada predeterminada, el valor predeterminado es (0, 0, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the default look at position, default value is (0, 0, 0)
@@ -247,7 +247,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -265,7 +265,7 @@ public double getNearPlane()
 ```
 
 
-Obtiene el plano cercano de la cámara, el valor predeterminado es 1
+Obtiene el plano cercano de la cámara, el valor predeterminado es 1.
 
 **Returns:**
 double - el plano cercano de la cámara, el valor predeterminado es 1
@@ -305,10 +305,10 @@ public boolean getShowUI()
 ```
 
 
-Muestra una interfaz de usuario simple en la escena. Valor predeterminado es true.
+Muestra una UI simple en la escena. Valor predeterminado es true.
 
 **Returns:**
-boolean - Muestra una interfaz de usuario simple en la escena. Valor predeterminado es true.
+boolean - Muestra una UI simple en la escena. Valor predeterminado es true.
 ### getUpVector() {#getUpVector--}
 ```
 public String getUpVector()
@@ -416,7 +416,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -511,7 +511,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -584,7 +584,7 @@ public void setShowUI(boolean value)
 ```
 
 
-Muestra una interfaz de usuario simple en la escena. Valor predeterminado es true.
+Muestra una UI simple en la escena. Valor predeterminado es true.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

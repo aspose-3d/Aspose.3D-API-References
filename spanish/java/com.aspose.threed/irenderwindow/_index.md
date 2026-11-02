@@ -1,6 +1,6 @@
 ---
 title: "IRenderWindow"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "IRenderWindow representa la ventana nativa creada por el sistema operativo que soporta el renderizado."
 type: docs
 weight: 251

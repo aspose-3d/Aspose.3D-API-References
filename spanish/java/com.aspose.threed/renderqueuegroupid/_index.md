@@ -1,7 +1,7 @@
 ---
 title: "RenderQueueGroupId"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "El id del grupo de la cola de renderizado"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "El ID de grupo de la cola de renderizado"
 type: docs
 weight: 297
 url: /es/java/com.aspose.threed/renderqueuegroupid/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum RenderQueueGroupId extends Enum<RenderQueueGroupId>
 ```
 
-El id del grupo de la cola de renderizado
+El ID de grupo de la cola de renderizado
 ## Campos
 
 | Campo | Descripción |

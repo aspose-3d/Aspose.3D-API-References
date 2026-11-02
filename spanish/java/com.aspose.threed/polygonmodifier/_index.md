@@ -1,6 +1,6 @@
 ---
 title: "PolygonModifier"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Utilidades para modificar polígonos"
 type: docs
 weight: 134
@@ -18,22 +18,22 @@ Utilidades para modificar polígonos
 
 | Método | Descripción |
 | --- | --- |
-| [applyTransform(Node node, Matrix4 transform)](#applyTransform-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | Aplicar matriz de transformación en los puntos de control de todas las geometrías |
-| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | Esto creará la tangente y la binormal en la malla. La normal es requerida, si la normal no existe en la malla, también se creará la información de la normal a partir de la posición. |
-| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | Esto creará la tangente y la binormal en todas las mallas de la escena. La normal es requerida, si la normal no existe en la malla, también se creará la información de la normal a partir de la posición. |
+| [applyTransform(Node node, Matrix4 transform)](#applyTransform-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | Aplica la matriz de transformación a los puntos de control de todas las geometrías |
+| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | Esto creará la tangente y la binormal en la malla. La normal es requerida; si la normal no existe en la malla, también se creará la información de la normal a partir de la posición. |
+| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | Esto creará la tangente y la binormal en todas las mallas de la escena. La normal es requerida; si la normal no existe en la malla, también se creará la información de la normal a partir de la posición. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | Generar datos de normales a partir de la definición de la malla |
-| [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | Generar datos UV a partir de la malla de entrada proporcionada |
-| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | Generar datos UV a partir de la malla de entrada proporcionada y los datos de normales especificados. |
+| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | Genera datos de normales a partir de la definición de la malla |
+| [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | Genera datos UV a partir de la malla de entrada proporcionada |
+| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | Genera datos UV a partir de la malla de entrada proporcionada y los datos de normales especificados. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | Convertir un nodo completo a una única malla transformada; los elementos de vértice como coordenadas de normales/textura aún no son compatibles. |
-| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | Convertir una escena completa a una única malla transformada; los elementos de vértice como coordenadas de normales/textura aún no son compatibles. |
-| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | Convertir un nodo completo a una única malla transformada; los elementos de vértice como coordenadas de normales/textura aún no son compatibles. |
+| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | Convertir todo un nodo a una única malla transformada. Los elementos de vértice como coordenadas normales/textura no son compatibles aún |
+| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | Convertir toda una escena a una única malla transformada. Los elementos de vértice como coordenadas normales/textura no son compatibles aún |
+| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | Convertir todo un nodo a una única malla transformada. Los elementos de vértice como coordenadas normales/textura no son compatibles aún |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | Escalar todas las geometrías (Escalar los puntos de control, no la matriz de transformación) en este nodo. |
-| [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | Escalar todas las geometrías (Escalar los puntos de control, no la matriz de transformación) en esta escena. |
+| [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | Escalar todas las geometrías (Escalar los puntos de control, no la matriz de transformación) en este nodo |
+| [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | Escalar todas las geometrías (Escalar los puntos de control, no la matriz de transformación) en esta escena |
 | [splitMesh(Mesh mesh, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Mesh-com.aspose.threed.SplitMeshPolicy-) | Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
 | [splitMesh(Node node, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-) | Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
 | [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-) | Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
@@ -41,12 +41,12 @@ Utilidades para modificar polígonos
 | [splitMesh(Scene scene, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-) | Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
 | [splitMesh(Scene scene, SplitMeshPolicy policy, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-boolean-) | Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
 | [toString()](#toString--) |  |
-| [triangulate(Mesh mesh)](#triangulate-com.aspose.threed.Mesh-) | Convertir una malla basada en polígonos a una malla completa de triángulos. |
-| [triangulate(Scene scene)](#triangulate-com.aspose.threed.Scene-) | Convertir todas las mallas basadas en polígonos a una malla completa de triángulos. |
-| [triangulate(List<Vector4> controlPoints)](#triangulate-java.util.List-com.aspose.threed.Vector4--) | Convertir un polígono en triángulos, el orden del polígono está definido por `controlPoints`. |
-| [triangulate(List<Vector4> controlPoints, int[] polygon)](#triangulate-java.util.List-com.aspose.threed.Vector4--int---) | Convertir un polígono en triángulos. |
-| [triangulate(List<Vector4> controlPoints, List<int[]> polygons)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----) | Convertir una malla basada en polígonos en triángulos. |
-| [triangulate(List<Vector4> controlPoints, List<int[]> polygons, boolean generateNormals, Vector3[][] nor_out)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----boolean-com.aspose.threed.Vector3-----) | Convertir una malla basada en polígonos a una malla completa de triángulos. |
+| [triangulate(Mesh mesh)](#triangulate-com.aspose.threed.Mesh-) | Convertir una malla basada en polígonos en una malla completa de triángulos |
+| [triangulate(Scene scene)](#triangulate-com.aspose.threed.Scene-) | Convertir todas las mallas basadas en polígonos en una malla completa de triángulos |
+| [triangulate(List<Vector4> controlPoints)](#triangulate-java.util.List-com.aspose.threed.Vector4--) | Convertir un polígono en triángulos, el orden del polígono está definido por los `controlPoints` |
+| [triangulate(List<Vector4> controlPoints, int[] polygon)](#triangulate-java.util.List-com.aspose.threed.Vector4--int---) | Convertir un polígono en triángulos |
+| [triangulate(List<Vector4> controlPoints, List<int[]> polygons)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----) | Convertir una malla basada en polígonos en triángulos |
+| [triangulate(List<Vector4> controlPoints, List<int[]> polygons, boolean generateNormals, Vector3[][] nor_out)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----boolean-com.aspose.threed.Vector3-----) | Convertir una malla basada en polígonos en una malla completa de triángulos |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -56,12 +56,12 @@ public static void applyTransform(Node node, Matrix4 transform)
 ```
 
 
-Aplicar matriz de transformación en los puntos de control de todas las geometrías
+Aplica la matriz de transformación a los puntos de control de todas las geometrías
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Qué geometrías del nodo se aplicarán con la transformación dada. |
+| node | [Node](../../com.aspose.threed/node) | Qué geometrías del nodo se aplicarán con la transformación dada |
 | transform | [Matrix4](../../com.aspose.threed/matrix4) | La matriz de transformación que se aplicará a los puntos de control. |
 
 ### buildTangentBinormal(Mesh mesh) {#buildTangentBinormal-com.aspose.threed.Mesh-}
@@ -111,7 +111,7 @@ public static VertexElementNormal generateNormal(Mesh mesh)
 ```
 
 
-Generar datos de normales a partir de la definición de la malla
+Genera datos de normales a partir de la definición de la malla
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -126,7 +126,7 @@ public static VertexElementUV generateUV(Mesh mesh)
 ```
 
 
-Generar datos UV a partir de la malla de entrada proporcionada
+Genera datos UV a partir de la malla de entrada proporcionada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -141,7 +141,7 @@ public static VertexElementUV generateUV(Mesh mesh, VertexElementNormal normals)
 ```
 
 
-Generar datos UV a partir de la malla de entrada proporcionada y los datos de normales especificados.
+Genera datos UV a partir de la malla de entrada proporcionada y los datos de normales especificados.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -177,7 +177,7 @@ public static Mesh mergeMesh(Node node)
 ```
 
 
-Convertir un nodo completo a una única malla transformada; los elementos de vértice como coordenadas de normales/textura aún no son compatibles.
+Convertir todo un nodo a una única malla transformada. Los elementos de vértice como coordenadas normales/textura no son compatibles aún
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -202,7 +202,7 @@ public static Mesh mergeMesh(Scene scene)
 ```
 
 
-Convertir una escena completa a una única malla transformada; los elementos de vértice como coordenadas de normales/textura aún no son compatibles.
+Convertir toda una escena a una única malla transformada. Los elementos de vértice como coordenadas normales/textura no son compatibles aún
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -227,7 +227,7 @@ public static Mesh mergeMesh(List<Node> nodes)
 ```
 
 
-Convertir un nodo completo a una única malla transformada; los elementos de vértice como coordenadas de normales/textura aún no son compatibles.
+Convertir todo un nodo a una única malla transformada. Los elementos de vértice como coordenadas normales/textura no son compatibles aún
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -268,13 +268,13 @@ public static void scale(Node node, Vector3 scale)
 ```
 
 
-Escalar todas las geometrías (Escalar los puntos de control, no la matriz de transformación) en este nodo.
+Escalar todas las geometrías (Escalar los puntos de control, no la matriz de transformación) en este nodo
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) | El nodo a escalar |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | El factor de escala **Ejemplo:** El siguiente código muestra cómo escalar todas las geometrías en la escena 10 veces. |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | El factor de escala **Example:** El siguiente código muestra cómo escalar todas las geometrías en la escena por 10 veces. |
 
 ```
 //Load a test file for scaling
@@ -290,13 +290,13 @@ public static Scene scale(Scene scene, Vector3 scale)
 ```
 
 
-Escalar todas las geometrías (Escalar los puntos de control, no la matriz de transformación) en esta escena.
+Escalar todas las geometrías (Escalar los puntos de control, no la matriz de transformación) en esta escena
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | scene | [Scene](../../com.aspose.threed/scene) | La escena a escalar |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | El factor de escala **Ejemplo:** El siguiente código muestra cómo escalar todas las geometrías en la escena 10 veces. |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | El factor de escala **Example:** El siguiente código muestra cómo escalar todas las geometrías en la escena por 10 veces. |
 
 ```
 //Load a test file for scaling
@@ -347,7 +347,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy)
 ```
 
 
-Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en un nodo **Ejemplo:** El siguiente código muestra cómo dividir una caja en submallas usando índices de material.
+Dividir la malla en submallas por [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en un nodo **Ejemplo:** El siguiente código muestra cómo dividir una caja en submallas usando índices de material.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -378,7 +378,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en un nodo
+Dividir la malla en submallas por [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en un nodo
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -410,7 +410,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en un nodo
+Dividir la malla en submallas por [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en un nodo
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -418,7 +418,7 @@ Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 | createChildNodes | boolean | Crear nodos hijos para cada submalla. |
-|  | removeOldMesh | boolean | Eliminar la malla antigua después de la división; si este parámetro es falso, la malla antigua y la nueva coexistirán. **Ejemplo:** El siguiente código muestra cómo dividir una caja en submallas usando índices de material. |
+|  | removeOldMesh | boolean | Eliminar la malla antigua después de la división, si este parámetro es falso, la malla antigua y la nueva coexistirán. **Ejemplo:** El siguiente código muestra cómo dividir una caja en submallas usando índices de material. |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -443,7 +443,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy)
 ```
 
 
-Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en todos los nodos de la escena. **Ejemplo:** El siguiente código muestra cómo dividir una caja en submallas usando índices de material.
+Dividir la malla en submallas por [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en todos los nodos de la escena **Ejemplo:** El siguiente código muestra cómo dividir una caja en submallas usando índices de material.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -474,7 +474,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy, boolean remove
 ```
 
 
-Dividir la malla en submallas mediante [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en todos los nodos de la escena. **Ejemplo:** El siguiente código muestra cómo dividir una caja en submallas usando índices de material.
+Dividir la malla en submallas por [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Cada submalla usará solo un material. Realizar la división de la malla en todos los nodos de la escena **Ejemplo:** El siguiente código muestra cómo dividir una caja en submallas usando índices de material.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -516,7 +516,7 @@ public static Mesh triangulate(Mesh mesh)
 ```
 
 
-Convertir una malla basada en polígonos a una malla completa de triángulos.
+Convertir una malla basada en polígonos en una malla completa de triángulos
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -542,7 +542,7 @@ public static void triangulate(Scene scene)
 ```
 
 
-Convertir todas las mallas basadas en polígonos a una malla completa de triángulos.
+Convertir todas las mallas basadas en polígonos en una malla completa de triángulos
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -566,7 +566,7 @@ public static int[][] triangulate(List<Vector4> controlPoints)
 ```
 
 
-Convertir un polígono en triángulos, el orden del polígono está definido por `controlPoints`.
+Convertir un polígono en triángulos, el orden del polígono está definido por los `controlPoints`
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -592,7 +592,7 @@ public static int[][] triangulate(List<Vector4> controlPoints, int[] polygon)
 ```
 
 
-Convertir un polígono en triángulos.
+Convertir un polígono en triángulos
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -619,13 +619,13 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 ```
 
 
-Convertir una malla basada en polígonos en triángulos.
+Convertir una malla basada en polígonos en triángulos
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Puntos de control de la malla |
-| polígonos | java.util.List<int[]> | Caras de polígonos |
+| polygons | java.util.List<int[]> | Caras del polígono |
 
 **Returns:**
 int[][] - Un conjunto de triángulos **Ejemplo:** El siguiente código muestra cómo combinar todos los objetos de una escena en una sola malla.
@@ -646,13 +646,13 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 ```
 
 
-Convertir una malla basada en polígonos a una malla completa de triángulos.
+Convertir una malla basada en polígonos en una malla completa de triángulos
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Puntos de control de la malla |
-| polígonos | java.util.List<int[]> | Caras de polígonos |
+| polygons | java.util.List<int[]> | Caras del polígono |
 | generateNormals | boolean | Generar normales |
 | nor_out | [Vector3\[\]](../../com.aspose.threed/vector3) | Normal generada por punto de control |
 

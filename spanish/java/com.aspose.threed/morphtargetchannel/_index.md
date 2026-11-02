@@ -1,6 +1,6 @@
 ---
 title: "MorphTargetChannel"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Un MorphTargetChannel se usa por  para organizar las geometrías objetivo."
 type: docs
 weight: 107
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetChannel extends A3DObject
 ```
 
-Un MorphTargetChannel se usa por [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) para organizar las geometrías objetivo. Algunos formatos de archivo como FBX admiten múltiples canales en paralelo. **Observaciones:** El peso está entre 0 y 1.0, y el peso predeterminado para el objetivo es 0.0;
+Un MorphTargetChannel se usa por [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) para organizar las geometrías objetivo. Algunos formatos de archivo como FBX admiten varios canales en paralelo. **Observaciones:** El peso está entre 0 y 1.0, y el peso predeterminado para el objetivo es 0.0;
 ## Constructores
 
 | Constructor | Descripción |
@@ -24,7 +24,7 @@ Un MorphTargetChannel se usa por [MorphTargetDeformer](../../com.aspose.threed/m
 
 | Campo | Descripción |
 | --- | --- |
-| [DEFAULT_WEIGHT](#DEFAULT-WEIGHT) | Peso predeterminado para morph target. |
+| [DEFAULT_WEIGHT](#DEFAULT-WEIGHT) | Peso predeterminado para el objetivo de morfología. |
 ## Métodos
 
 | Método | Descripción |
@@ -36,10 +36,10 @@ Un MorphTargetChannel se usa por [MorphTargetDeformer](../../com.aspose.threed/m
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getTargets()](#getTargets--) | Obtiene todos los objetivos asociados con el canal. |
-| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | Obtiene el peso para el objetivo especificado, si el objetivo no pertenece a este canal, se devuelve el valor predeterminado 0. |
-| [getWeights()](#getWeights--) | Obtiene los valores completos de peso de las geometrías objetivo. |
+| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | Obtiene el peso para el objetivo especificado; si el objetivo no pertenece a este canal, se devuelve el valor predeterminado 0. |
+| [getWeights()](#getWeights--) | Obtiene los valores de peso completos de las geometrías objetivo. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -49,8 +49,8 @@ Un MorphTargetChannel se usa por [MorphTargetDeformer](../../com.aspose.threed/m
 | [setChannelWeight(double value)](#setChannelWeight-double-) | Establece el peso del deformador de este canal. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
-| [setWeight(Shape target)](#setWeight-com.aspose.threed.Shape-) | Establece el peso para el objetivo especificado, el valor predeterminado es 1, el rango debe estar entre 0~1 |
-| [setWeight(Shape target, double weight)](#setWeight-com.aspose.threed.Shape-double-) | Establece el peso para el objetivo especificado, el valor predeterminado es 1, el rango debe estar entre 0~1 |
+| [setWeight(Shape target)](#setWeight-com.aspose.threed.Shape-) | Establece el peso para el objetivo especificado, el valor predeterminado es 1, el rango debe estar entre 0~1. |
+| [setWeight(Shape target, double weight)](#setWeight-com.aspose.threed.Shape-double-) | Establece el peso para el objetivo especificado, el valor predeterminado es 1, el rango debe estar entre 0~1. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -82,7 +82,7 @@ public static final double DEFAULT_WEIGHT
 ```
 
 
-Peso predeterminado para morph target.
+Peso predeterminado para el objetivo de morfología.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -105,7 +105,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -175,7 +175,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -200,7 +200,7 @@ public double getWeight(Shape target)
 ```
 
 
-Obtiene el peso para el objetivo especificado, si el objetivo no pertenece a este canal, se devuelve el valor predeterminado 0.
+Obtiene el peso para el objetivo especificado; si el objetivo no pertenece a este canal, se devuelve el valor predeterminado 0.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -215,10 +215,10 @@ public List<Double> getWeights()
 ```
 
 
-Obtiene los valores completos de peso de las geometrías objetivo.
+Obtiene los valores de peso completos de las geometrías objetivo.
 
 **Returns:**
-java.util.List<java.lang.Double> - los valores completos de peso de las geometrías objetivo.
+java.util.List<java.lang.Double> - los valores de peso completos de las geometrías objetivo.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -335,7 +335,7 @@ public void setWeight(Shape target)
 ```
 
 
-Establece el peso para el objetivo especificado, el valor predeterminado es 1, el rango debe estar entre 0~1
+Establece el peso para el objetivo especificado, el valor predeterminado es 1, el rango debe estar entre 0~1.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -348,7 +348,7 @@ public void setWeight(Shape target, double weight)
 ```
 
 
-Establece el peso para el objetivo especificado, el valor predeterminado es 1, el rango debe estar entre 0~1
+Establece el peso para el objetivo especificado, el valor predeterminado es 1, el rango debe estar entre 0~1.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

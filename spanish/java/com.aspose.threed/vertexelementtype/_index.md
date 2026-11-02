@@ -1,6 +1,6 @@
 ---
 title: "VertexElementType"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El tipo del elemento de vértice define cómo se utilizará en el modelado."
 type: docs
 weight: 308
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum VertexElementType extends Enum<VertexElementType>
 ```
 
-El tipo del elemento de vértice, define cómo se usará en el modelado.
+El tipo del elemento de vértice, define cómo se utilizará en el modelado.
 ## Campos
 
 | Campo | Descripción |
@@ -27,7 +27,7 @@ El tipo del elemento de vértice, define cómo se usará en el modelado.
 | [SMOOTHING_GROUP](#SMOOTHING-GROUP) | Grupo de suavizado, ver [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) |
 | [SPECULAR](#SPECULAR) | Colores especulares, ver [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular) |
 | [TANGENT](#TANGENT) | Vector tangente, ver [VertexElementTangent](../../com.aspose.threed/vertexelementtangent) |
-| [USER_DATA](#USER-DATA) | Datos de usuario, normalmente para propósitos específicos de la aplicación, ver [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
+| [USER_DATA](#USER-DATA) | Datos de usuario, usualmente para propósitos específicos de la aplicación, ver [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
 | [UV](#UV) | Coordenada UV de textura, ver [VertexElementUV](../../com.aspose.threed/vertexelementuv) |
 | [VERTEX_COLOR](#VERTEX-COLOR) | Color de vértice, ver [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) |
 | [VERTEX_CREASE](#VERTEX-CREASE) | Pliegue de vértice, ver [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) |
@@ -132,7 +132,7 @@ public static final VertexElementType USER_DATA
 ```
 
 
-Datos de usuario, normalmente para propósitos específicos de la aplicación, ver [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata)
+Datos de usuario, usualmente para propósitos específicos de la aplicación, ver [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata)
 
 ### UV {#UV}
 ```

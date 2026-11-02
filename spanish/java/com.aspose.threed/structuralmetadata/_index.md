@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Esta clase proporciona soporte para EXT_structural_metadata, solo usado en glTF."
 type: docs
 weight: 180
@@ -154,7 +154,7 @@ public HashMap<String,StructuralMetadata.ClassType> getClasses()
 Las definiciones de clase.
 
 **Returns:**
-java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.ClassType> - Las definiciones de clase.
+java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.ClassType> - Las definiciones de clase .
 ### getEnums() {#getEnums--}
 ```
 public HashMap<String,StructuralMetadata.EnumType> getEnums()

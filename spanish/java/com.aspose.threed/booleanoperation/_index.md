@@ -1,7 +1,7 @@
 ---
 title: "BooleanOperation"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Operación booleana de Meshs"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Operación booleana de mallas"
 type: docs
 weight: 268
 url: /es/java/com.aspose.threed/booleanoperation/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum BooleanOperation extends Enum<BooleanOperation>
 ```
 
-Operación booleana de malla
+Operación booleana de la malla
 ## Campos
 
 | Campo | Descripción |
 | --- | --- |
-| [ADD](#ADD) | Agregar dos mallas y calcular la unión de las entradas. |
-| [INTERSECT](#INTERSECT) | Calcular la intersección de dos mallas. |
-| [SUB](#SUB) | Restar una malla de otra malla, calcular la diferencia de las entradas. |
+| [ADD](#ADD) | Añade dos mallas y calcula la unión de las entradas. |
+| [INTERSECT](#INTERSECT) | Calcula la intersección de dos mallas. |
+| [SUB](#SUB) | Resta una malla de otra malla, calcula la diferencia de las entradas. |
 ## Métodos
 
 | Método | Descripción |
@@ -48,7 +48,7 @@ public static final BooleanOperation ADD
 ```
 
 
-Agregar dos mallas y calcular la unión de las entradas.
+Añade dos mallas y calcula la unión de las entradas.
 
 ### INTERSECT {#INTERSECT}
 ```
@@ -56,7 +56,7 @@ public static final BooleanOperation INTERSECT
 ```
 
 
-Calcular la intersección de dos mallas.
+Calcula la intersección de dos mallas.
 
 ### SUB {#SUB}
 ```
@@ -64,7 +64,7 @@ public static final BooleanOperation SUB
 ```
 
 
-Restar una malla de otra malla, calcular la diferencia de las entradas.
+Resta una malla de otra malla, calcula la diferencia de las entradas.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

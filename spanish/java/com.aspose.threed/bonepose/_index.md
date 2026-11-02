@@ -1,6 +1,6 @@
 ---
 title: "BonePose"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El  contiene la matriz de transformación para un nodo óseo"
 type: docs
 weight: 21
@@ -33,7 +33,7 @@ El [BonePose](../../com.aspose.threed/bonepose) contiene la matriz de transforma
 | [notifyAll()](#notifyAll--) |  |
 | [setLocal(boolean value)](#setLocal-boolean-) | Establece si la matriz está definida en coordenadas locales. |
 | [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | Establece la matriz de transformación del nodo en la pose actual. |
-| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Establece el nodo de escena, apunta a un nodo de esqueleto con piel |
+| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Establece el nodo de escena, apunta a un nodo de esqueleto con piel. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -157,7 +157,7 @@ public void setNode(Node value)
 ```
 
 
-Establece el nodo de escena, apunta a un nodo de esqueleto con piel
+Establece el nodo de escena, apunta a un nodo de esqueleto con piel.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

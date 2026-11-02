@@ -1,6 +1,6 @@
 ---
 title: "PoseType"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Tipo de pose."
 type: docs
 weight: 293
@@ -18,8 +18,8 @@ Tipo de pose.
 
 | Campo | Descripción |
 | --- | --- |
-| [BIND_POSE](#BIND-POSE) | La pose de enlace. |
-| [SNAPSHOT](#SNAPSHOT) | La pose de reposo, significa que es una instantánea de la pose de enlace. |
+| [BIND_POSE](#BIND-POSE) | La pose de unión. |
+| [SNAPSHOT](#SNAPSHOT) | La pose de reposo, significa que es una instantánea de la pose de unión. |
 ## Métodos
 
 | Método | Descripción |
@@ -47,7 +47,7 @@ public static final PoseType BIND_POSE
 ```
 
 
-La pose de enlace.
+La pose de unión.
 
 ### SNAPSHOT {#SNAPSHOT}
 ```
@@ -55,7 +55,7 @@ public static final PoseType SNAPSHOT
 ```
 
 
-La pose de reposo, significa que es una instantánea de la pose de enlace.
+La pose de reposo, significa que es una instantánea de la pose de unión.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

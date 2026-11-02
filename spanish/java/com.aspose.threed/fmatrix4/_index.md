@@ -1,7 +1,7 @@
 ---
 title: "FMatrix4"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Matriz 4x4 con todos los componentes de tipo flotante."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Matriz 4x4 con todos los componentes de tipo flotante"
 type: docs
 weight: 58
 url: /es/java/com.aspose.threed/fmatrix4/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FMatrix4 implements Struct<FMatrix4>, Serializable
 ```
 
-Matriz 4x4 con todos los componentes de tipo flotante.
+Matriz 4x4 con todos los componentes de tipo flotante
 ## Constructores
 
 | Constructor | Descripción |

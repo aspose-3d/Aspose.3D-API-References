@@ -1,7 +1,7 @@
 ---
 title: "Renderer"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "El contexto del renderizador."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "El contexto sobre el renderizador."
 type: docs
 weight: 152
 url: /es/java/com.aspose.threed/renderer/
@@ -16,24 +16,24 @@ java.io.Closeable
 public abstract class Renderer implements Closeable
 ```
 
-El contexto del renderizador.
+El contexto sobre el renderizador.
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
-| [clearCache()](#clearCache--) | Borre la caché manualmente. |
-| [close()](#close--) | Deseche el [Renderer](../../com.aspose.threed/renderer) y todos los recursos relacionados. |
+| [clearCache()](#clearCache--) | Borre manualmente la caché. |
+| [close()](#close--) | Desecha el [Renderer](../../com.aspose.threed/renderer) y todos los recursos relacionados |
 | [createRenderer()](#createRenderer--) | Crea un nuevo [Renderer](../../com.aspose.threed/renderer) con el perfil predeterminado. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [execute(PostProcessing postProcessing, IRenderTarget result)](#execute-com.aspose.threed.PostProcessing-com.aspose.threed.IRenderTarget-) | Ejecute un postprocesamiento en el objetivo de renderizado especificado |
-| [getAssetDirectories()](#getAssetDirectories--) | Directorios que almacenan recursos externos. |
+| [execute(PostProcessing postProcessing, IRenderTarget result)](#execute-com.aspose.threed.PostProcessing-com.aspose.threed.IRenderTarget-) | Ejecuta un postprocesamiento en el objetivo de renderizado especificado |
+| [getAssetDirectories()](#getAssetDirectories--) | Directorios que almacenan recursos externos |
 | [getClass()](#getClass--) |  |
 | [getEnableShadows()](#getEnableShadows--) | Obtiene si se deben habilitar las sombras. |
-| [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | Obtiene el renderizador de entidad de reserva cuando la entidad no tiene un renderizador especial definido. |
+| [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | Obtiene el renderizador de entidad de respaldo cuando la entidad no tiene un renderizador especial definido. |
 | [getFrustum()](#getFrustum--) | Obtiene el frustum que se utilizó para proporcionar la matriz de vista. |
-| [getMaterial()](#getMaterial--) | Obtiene el material que se utilizó para proporcionar la información del material usada por los shaders. |
-| [getNode()](#getNode--) | Obtiene la instancia de [getNode](../../com.aspose.threed/renderer\#getNode) utilizada para proporcionar la matriz de transformación del mundo. |
-| [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | Obtiene un postprocesador incorporado que es compatible con el renderizador. |
+| [getMaterial()](#getMaterial--) | Obtiene el material que se utilizó para proporcionar la información del material utilizada por los shaders. |
+| [getNode()](#getNode--) | Obtiene la instancia [getNode](../../com.aspose.threed/renderer\\#getNode) utilizada para proporcionar la matriz de transformación mundial. |
+| [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | Obtiene un postprocesador integrado que es compatible con el renderizador. |
 | [getPostProcessings()](#getPostProcessings--) | Cadena de postprocesamiento activa |
 | [getPresetShaders()](#getPresetShaders--) | Obtiene el conjunto de shaders preestablecido |
 | [getRenderFactory()](#getRenderFactory--) | Obtiene la fábrica para crear objetos relacionados con el renderizado. |
@@ -48,10 +48,10 @@ El contexto del renderizador.
 | [registerEntityRenderer(EntityRenderer renderer)](#registerEntityRenderer-com.aspose.threed.EntityRenderer-) | Registre el renderizador de entidad para la entidad especificada |
 | [render(IRenderTarget renderTarget)](#render-com.aspose.threed.IRenderTarget-) | Renderiza el objetivo especificado |
 | [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | Establece si se habilitan las sombras. |
-| [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | Establece el renderizador de entidad de reserva cuando la entidad no tiene un renderizador especial definido. |
+| [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | Establece el renderizador de entidad de respaldo cuando la entidad no tiene un renderizador especial definido. |
 | [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | Establece el frustum que se utilizó para proporcionar la matriz de vista. |
-| [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Establece el material que se utilizó para proporcionar la información del material usada por los shaders. |
-| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Establece la instancia de [getNode](../../com.aspose.threed/renderer\#getNode) utilizada para proporcionar la matriz de transformación del mundo. |
+| [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Establece el material que se utilizó para proporcionar la información del material utilizada por los shaders. |
+| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Establece la instancia [getNode](../../com.aspose.threed/renderer\\#getNode) utilizada para proporcionar la matriz de transformación mundial. |
 | [setPresetShaders(PresetShaders value)](#setPresetShaders-com.aspose.threed.PresetShaders-) | Establece el conjunto de shaders preestablecido |
 | [setShader(ShaderProgram value)](#setShader-com.aspose.threed.ShaderProgram-) | Establece la instancia del shader utilizada para renderizar la geometría. |
 | [setShaderSet(ShaderSet value)](#setShaderSet-com.aspose.threed.ShaderSet-) | Establece el conjunto de shaders que se utilizó para renderizar la escena |
@@ -73,7 +73,7 @@ public void close()
 ```
 
 
-Deseche el [Renderer](../../com.aspose.threed/renderer) y todos los recursos relacionados.
+Desecha el [Renderer](../../com.aspose.threed/renderer) y todos los recursos relacionados
 
 ### createRenderer() {#createRenderer--}
 ```
@@ -106,7 +106,7 @@ public abstract void execute(PostProcessing postProcessing, IRenderTarget result
 ```
 
 
-Ejecute un postprocesamiento en el objetivo de renderizado especificado
+Ejecuta un postprocesamiento en el objetivo de renderizado especificado
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -120,7 +120,7 @@ public ArrayList<String> getAssetDirectories()
 ```
 
 
-Directorios que almacenan recursos externos.
+Directorios que almacenan recursos externos
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Directorios que almacenan activos externos
@@ -143,14 +143,14 @@ public boolean getEnableShadows()
 Obtiene si se deben habilitar las sombras.
 
 **Returns:**
-boolean - si se habilitan sombras.
+boolean - si se deben habilitar sombras.
 ### getFallbackEntityRenderer() {#getFallbackEntityRenderer--}
 ```
 public EntityRenderer getFallbackEntityRenderer()
 ```
 
 
-Obtiene el renderizador de entidad de reserva cuando la entidad no tiene un renderizador especial definido.
+Obtiene el renderizador de entidad de respaldo cuando la entidad no tiene un renderizador especial definido.
 
 **Returns:**
 [EntityRenderer](../../com.aspose.threed/entityrenderer) - the fallback entity renderer when the entity has no special renderer defined.
@@ -170,7 +170,7 @@ public Material getMaterial()
 ```
 
 
-Obtiene el material que se utilizó para proporcionar la información del material usada por los shaders.
+Obtiene el material que se utilizó para proporcionar la información del material utilizada por los shaders.
 
 **Returns:**
 [Material](../../com.aspose.threed/material) - the material that used to provide material information used by shaders.
@@ -180,7 +180,7 @@ public Node getNode()
 ```
 
 
-Obtiene la instancia de [getNode](../../com.aspose.threed/renderer\#getNode) utilizada para proporcionar la matriz de transformación del mundo.
+Obtiene la instancia [getNode](../../com.aspose.threed/renderer\\#getNode) utilizada para proporcionar la matriz de transformación mundial.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the [getNode](../../com.aspose.threed/renderer\#getNode) instance used to provide world transform matrix.
@@ -190,7 +190,7 @@ public PostProcessing getPostProcessing(String name)
 ```
 
 
-Obtiene un postprocesador incorporado que es compatible con el renderizador.
+Obtiene un postprocesador integrado que es compatible con el renderizador.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -350,7 +350,7 @@ public void setFallbackEntityRenderer(EntityRenderer value)
 ```
 
 
-Establece el renderizador de entidad de reserva cuando la entidad no tiene un renderizador especial definido.
+Establece el renderizador de entidad de respaldo cuando la entidad no tiene un renderizador especial definido.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -376,7 +376,7 @@ public void setMaterial(Material value)
 ```
 
 
-Establece el material que se utilizó para proporcionar la información del material usada por los shaders.
+Establece el material que se utilizó para proporcionar la información del material utilizada por los shaders.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -389,7 +389,7 @@ public void setNode(Node value)
 ```
 
 
-Establece la instancia de [getNode](../../com.aspose.threed/renderer\#getNode) utilizada para proporcionar la matriz de transformación del mundo.
+Establece la instancia [getNode](../../com.aspose.threed/renderer\\#getNode) utilizada para proporcionar la matriz de transformación mundial.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,7 +1,7 @@
 ---
 title: "CubeFaceData"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Datos para cada cara de la textura de mapa cúbico."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Datos para cada cara de la textura del cubemap."
 type: docs
 weight: 36
 url: /es/java/com.aspose.threed/cubefacedata/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class CubeFaceData<T> implements Struct<CubeFaceData<T>>, Serializable
 ```
 
-Datos para cada cara de la textura de mapa cúbico.
+Datos para cada cara de la textura del cubemap.
 ## Constructores
 
 | Constructor | Descripción |
@@ -29,36 +29,36 @@ Datos para cada cara de la textura de mapa cúbico.
 | [clone()](#clone--) |  |
 | [copyFrom(CubeFaceData<T> src)](#copyFrom-com.aspose.threed.CubeFaceData-T--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [get(CubeFace face)](#get-com.aspose.threed.CubeFace-) | Obtiene los datos de la cara especificada. |
-| [getBack()](#getBack--) | Obtiene los datos de la cara +Z(Trasera) |
-| [getBottom()](#getBottom--) | Obtiene los datos de la cara -Y(Inferior) |
+| [get(CubeFace face)](#get-com.aspose.threed.CubeFace-) | Obtiene los datos de la cara especificada |
+| [getBack()](#getBack--) | Obtiene los datos de la cara +Z (Trasera) |
+| [getBottom()](#getBottom--) | Obtiene los datos de la cara -Y (Inferior) |
 | [getClass()](#getClass--) |  |
-| [getFront()](#getFront--) | Obtiene los datos de la cara -Z(Frontal) |
-| [getLeft()](#getLeft--) | Obtiene los datos de la cara +X(Izquierda) |
-| [getNegativeX()](#getNegativeX--) | Obtiene los datos de la cara +X(Izquierda) |
-| [getNegativeY()](#getNegativeY--) | Obtiene los datos de la cara -Y(Inferior) |
-| [getNegativeZ()](#getNegativeZ--) | Obtiene los datos de la cara -Z(Frontal) |
-| [getPositiveX()](#getPositiveX--) | Obtiene los datos de la cara +X(Derecha) |
-| [getPositiveY()](#getPositiveY--) | Obtiene los datos de la cara +Y(Superior) |
-| [getPositiveZ()](#getPositiveZ--) | Obtiene los datos de la cara +Z(Trasera) |
-| [getRight()](#getRight--) | Obtiene los datos de la cara +X(Derecha) |
-| [getTop()](#getTop--) | Obtiene los datos de la cara +Y(Superior) |
+| [getFront()](#getFront--) | Obtiene los datos de la cara -Z (Frontal) |
+| [getLeft()](#getLeft--) | Obtiene los datos de la cara +X (Izquierda) |
+| [getNegativeX()](#getNegativeX--) | Obtiene los datos de la cara +X (Izquierda) |
+| [getNegativeY()](#getNegativeY--) | Obtiene los datos de la cara -Y (Inferior) |
+| [getNegativeZ()](#getNegativeZ--) | Obtiene los datos de la cara -Z (Frontal) |
+| [getPositiveX()](#getPositiveX--) | Obtiene los datos de la cara +X (Derecha) |
+| [getPositiveY()](#getPositiveY--) | Obtiene los datos de la cara +Y (Superior) |
+| [getPositiveZ()](#getPositiveZ--) | Obtiene los datos de la cara +Z (Trasera) |
+| [getRight()](#getRight--) | Obtiene los datos de la cara +X (Derecha) |
+| [getTop()](#getTop--) | Obtiene los datos de la cara +Y (Superior) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [set(CubeFace face, T value)](#set-com.aspose.threed.CubeFace-T-) | Establece los datos para la cara especificada |
-| [setBack(T value)](#setBack-T-) | Establece los datos para la cara +Z(Trasera) |
-| [setBottom(T value)](#setBottom-T-) | Establece los datos para la cara -Y(Inferior) |
-| [setFront(T value)](#setFront-T-) | Establece los datos para la cara -Z(Frontal) |
-| [setLeft(T value)](#setLeft-T-) | Establece los datos para la cara +X(Izquierda) |
-| [setNegativeX(T value)](#setNegativeX-T-) | Establece los datos para la cara +X(Izquierda) |
-| [setNegativeY(T value)](#setNegativeY-T-) | Establece los datos para la cara -Y(Inferior) |
-| [setNegativeZ(T value)](#setNegativeZ-T-) | Establece los datos para la cara -Z(Frontal) |
-| [setPositiveX(T value)](#setPositiveX-T-) | Establece los datos para la cara +X(Derecha) |
-| [setPositiveY(T value)](#setPositiveY-T-) | Establece los datos para la cara +Y(Superior) |
-| [setPositiveZ(T value)](#setPositiveZ-T-) | Establece los datos para la cara +Z(Trasera) |
-| [setRight(T value)](#setRight-T-) | Establece los datos para la cara +X(Derecha) |
-| [setTop(T value)](#setTop-T-) | Establece los datos para la cara +Y(Superior) |
+| [setBack(T value)](#setBack-T-) | Establece los datos para la cara +Z(Back) |
+| [setBottom(T value)](#setBottom-T-) | Establece los datos para la cara -Y(Bottom) |
+| [setFront(T value)](#setFront-T-) | Establece los datos para la cara -Z(Front) |
+| [setLeft(T value)](#setLeft-T-) | Establece los datos para la cara +X(Left) |
+| [setNegativeX(T value)](#setNegativeX-T-) | Establece los datos para la cara +X(Left) |
+| [setNegativeY(T value)](#setNegativeY-T-) | Establece los datos para la cara -Y(Bottom) |
+| [setNegativeZ(T value)](#setNegativeZ-T-) | Establece los datos para la cara -Z(Front) |
+| [setPositiveX(T value)](#setPositiveX-T-) | Establece los datos para la cara +X(Right) |
+| [setPositiveY(T value)](#setPositiveY-T-) | Establece los datos para la cara +Y(Top) |
+| [setPositiveZ(T value)](#setPositiveZ-T-) | Establece los datos para la cara +Z(Back) |
+| [setRight(T value)](#setRight-T-) | Establece los datos para la cara +X(Right) |
+| [setTop(T value)](#setTop-T-) | Establece los datos para la cara +Y(Top) |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -113,7 +113,7 @@ public T get(CubeFace face)
 ```
 
 
-Obtiene los datos de la cara especificada.
+Obtiene los datos de la cara especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -128,20 +128,20 @@ public T getBack()
 ```
 
 
-Obtiene los datos de la cara +Z(Trasera)
+Obtiene los datos de la cara +Z (Trasera)
 
 **Returns:**
-T - los datos para la cara +Z(Trasera)
+T - los datos para la cara +Z(Back)
 ### getBottom() {#getBottom--}
 ```
 public T getBottom()
 ```
 
 
-Obtiene los datos de la cara -Y(Inferior)
+Obtiene los datos de la cara -Y (Inferior)
 
 **Returns:**
-T - los datos para la cara -Y(Inferior)
+T - los datos para la cara -Y(Bottom)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -158,100 +158,100 @@ public T getFront()
 ```
 
 
-Obtiene los datos de la cara -Z(Frontal)
+Obtiene los datos de la cara -Z (Frontal)
 
 **Returns:**
-T - los datos para la cara -Z(Frontal)
+T - los datos para la cara -Z(Front)
 ### getLeft() {#getLeft--}
 ```
 public T getLeft()
 ```
 
 
-Obtiene los datos de la cara +X(Izquierda)
+Obtiene los datos de la cara +X (Izquierda)
 
 **Returns:**
-T - los datos para la cara +X(Izquierda)
+T - los datos para la cara +X(Left)
 ### getNegativeX() {#getNegativeX--}
 ```
 public T getNegativeX()
 ```
 
 
-Obtiene los datos de la cara +X(Izquierda)
+Obtiene los datos de la cara +X (Izquierda)
 
 **Returns:**
-T - los datos para la cara +X(Izquierda)
+T - los datos para la cara +X(Left)
 ### getNegativeY() {#getNegativeY--}
 ```
 public T getNegativeY()
 ```
 
 
-Obtiene los datos de la cara -Y(Inferior)
+Obtiene los datos de la cara -Y (Inferior)
 
 **Returns:**
-T - los datos para la cara -Y(Inferior)
+T - los datos para la cara -Y(Bottom)
 ### getNegativeZ() {#getNegativeZ--}
 ```
 public T getNegativeZ()
 ```
 
 
-Obtiene los datos de la cara -Z(Frontal)
+Obtiene los datos de la cara -Z (Frontal)
 
 **Returns:**
-T - los datos para la cara -Z(Frontal)
+T - los datos para la cara -Z(Front)
 ### getPositiveX() {#getPositiveX--}
 ```
 public T getPositiveX()
 ```
 
 
-Obtiene los datos de la cara +X(Derecha)
+Obtiene los datos de la cara +X (Derecha)
 
 **Returns:**
-T - los datos para la cara +X(Derecha)
+T - los datos para la cara +X(Right)
 ### getPositiveY() {#getPositiveY--}
 ```
 public T getPositiveY()
 ```
 
 
-Obtiene los datos de la cara +Y(Superior)
+Obtiene los datos de la cara +Y (Superior)
 
 **Returns:**
-T - los datos para la cara +Y(Superior)
+T - los datos para la cara +Y(Top)
 ### getPositiveZ() {#getPositiveZ--}
 ```
 public T getPositiveZ()
 ```
 
 
-Obtiene los datos de la cara +Z(Trasera)
+Obtiene los datos de la cara +Z (Trasera)
 
 **Returns:**
-T - los datos para la cara +Z(Trasera)
+T - los datos para la cara +Z(Back)
 ### getRight() {#getRight--}
 ```
 public T getRight()
 ```
 
 
-Obtiene los datos de la cara +X(Derecha)
+Obtiene los datos de la cara +X (Derecha)
 
 **Returns:**
-T - los datos para la cara +X(Derecha)
+T - los datos para la cara +X(Right)
 ### getTop() {#getTop--}
 ```
 public T getTop()
 ```
 
 
-Obtiene los datos de la cara +Y(Superior)
+Obtiene los datos de la cara +Y (Superior)
 
 **Returns:**
-T - los datos para la cara +Y(Superior)
+T - los datos para la cara +Y(Top)
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -298,7 +298,7 @@ public void setBack(T value)
 ```
 
 
-Establece los datos para la cara +Z(Trasera)
+Establece los datos para la cara +Z(Back)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -311,7 +311,7 @@ public void setBottom(T value)
 ```
 
 
-Establece los datos para la cara -Y(Inferior)
+Establece los datos para la cara -Y(Bottom)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -324,7 +324,7 @@ public void setFront(T value)
 ```
 
 
-Establece los datos para la cara -Z(Frontal)
+Establece los datos para la cara -Z(Front)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -337,7 +337,7 @@ public void setLeft(T value)
 ```
 
 
-Establece los datos para la cara +X(Izquierda)
+Establece los datos para la cara +X(Left)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -350,7 +350,7 @@ public void setNegativeX(T value)
 ```
 
 
-Establece los datos para la cara +X(Izquierda)
+Establece los datos para la cara +X(Left)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -363,7 +363,7 @@ public void setNegativeY(T value)
 ```
 
 
-Establece los datos para la cara -Y(Inferior)
+Establece los datos para la cara -Y(Bottom)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -376,7 +376,7 @@ public void setNegativeZ(T value)
 ```
 
 
-Establece los datos para la cara -Z(Frontal)
+Establece los datos para la cara -Z(Front)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -389,7 +389,7 @@ public void setPositiveX(T value)
 ```
 
 
-Establece los datos para la cara +X(Derecha)
+Establece los datos para la cara +X(Right)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -402,7 +402,7 @@ public void setPositiveY(T value)
 ```
 
 
-Establece los datos para la cara +Y(Superior)
+Establece los datos para la cara +Y(Top)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -415,7 +415,7 @@ public void setPositiveZ(T value)
 ```
 
 
-Establece los datos para la cara +Z(Trasera)
+Establece los datos para la cara +Z(Back)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -428,7 +428,7 @@ public void setRight(T value)
 ```
 
 
-Establece los datos para la cara +X(Derecha)
+Establece los datos para la cara +X(Right)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -441,7 +441,7 @@ public void setTop(T value)
 ```
 
 
-Establece los datos para la cara +Y(Superior)
+Establece los datos para la cara +Y(Top)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

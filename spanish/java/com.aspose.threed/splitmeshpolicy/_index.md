@@ -1,6 +1,6 @@
 ---
 title: "SplitMeshPolicy"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Compartir datos de vértices/puntos de control entre submallas o que cada submalla tenga sus propios datos compactados."
 type: docs
 weight: 302

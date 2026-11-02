@@ -1,6 +1,6 @@
 ---
 title: "FileContentType"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Tipo de contenido de archivo"
 type: docs
 weight: 279

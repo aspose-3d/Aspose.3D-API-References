@@ -1,6 +1,6 @@
 ---
 title: "Interpolaci\\u00f3n"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El tipo de interpolaci\\u00f3n de los fotogramas clave."
 type: docs
 weight: 283
@@ -19,11 +19,11 @@ El tipo de interpolación del fotograma clave.
 | Campo | Descripción |
 | --- | --- |
 | [BEZIER](#BEZIER) | Una spline B\u00e9zier o Hermite. |
-| [B_SPLINE](#B-SPLINE) | Los splines b\u00e1sicos se definen mediante una serie de puntos de control, para los cuales se garantiza que la curva solo pase por el primer y el \u00faltimo punto. |
-| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | Una spline cardinal es una spline cúbica de Hermite cuyas tangentes se definen por los puntos finales y un parámetro de tensión. |
+| [B_SPLINE](#B-SPLINE) | Los splines de base se definen mediante una serie de puntos de control, para los cuales se garantiza que la curva solo pasa por el primer y el \u00faltimo punto. |
+| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | Una spline cardinal es una spline cúbica de Hermite cuyas tangentes están definidas por los puntos finales y un parámetro de tensión. |
 | [CONSTANT](#CONSTANT) | El valor permanecerá constante al valor del primer punto hasta el siguiente segmento. |
 | [LINEAR](#LINEAR) | La interpolación lineal es una línea recta entre dos puntos. |
-| [TCB_SPLINE](#TCB-SPLINE) | También llamada spline de Kochanek-Bartels, el comportamiento de la tangente se define por tensión/sesgo/continuidad |
+| [TCB_SPLINE](#TCB-SPLINE) | También llamada spline de Kochanek-Bartels, el comportamiento de la tangente está definido por tensión/sesgo/continuidad |
 ## Métodos
 
 | Método | Descripción |
@@ -59,7 +59,7 @@ public static final Interpolation B_SPLINE
 ```
 
 
-Los splines b\u00e1sicos se definen mediante una serie de puntos de control, para los cuales se garantiza que la curva solo pase por el primer y el \u00faltimo punto.
+Los splines de base se definen mediante una serie de puntos de control, para los cuales se garantiza que la curva solo pasa por el primer y el \u00faltimo punto.
 
 ### CARDINAL_SPLINE {#CARDINAL-SPLINE}
 ```
@@ -67,7 +67,7 @@ public static final Interpolation CARDINAL_SPLINE
 ```
 
 
-Una spline cardinal es una spline cúbica de Hermite cuyas tangentes se definen por los puntos finales y un parámetro de tensión.
+Una spline cardinal es una spline cúbica de Hermite cuyas tangentes están definidas por los puntos finales y un parámetro de tensión.
 
 ### CONSTANT {#CONSTANT}
 ```
@@ -91,7 +91,7 @@ public static final Interpolation TCB_SPLINE
 ```
 
 
-También llamada spline de Kochanek-Bartels, el comportamiento de la tangente se define por tensión/sesgo/continuidad
+También llamada spline de Kochanek-Bartels, el comportamiento de la tangente está definido por tensión/sesgo/continuidad
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

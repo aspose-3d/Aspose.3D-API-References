@@ -1,6 +1,6 @@
 ---
 title: "IOUtils"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Utilidades para escribir matrices/vectores en un escritor binario"
 type: docs
 weight: 77
@@ -32,14 +32,14 @@ Utilidades para escribir matrices/vectores en un escritor binario
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [write(BinaryWriter writer, FMatrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FMatrix4-) | Escribir la matriz al escritor binario |
-| [write(BinaryWriter writer, FVector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector2-) | Escribir el vector al escritor binario |
-| [write(BinaryWriter writer, FVector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector3-) | Escribir el vector al escritor binario |
-| [write(BinaryWriter writer, FVector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector4-) | Escribir el vector al escritor binario |
-| [write(BinaryWriter writer, Matrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Matrix4-) | Escribir la matriz al escritor binario |
-| [write(BinaryWriter writer, Vector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector2-) | Escribir el vector al escritor binario |
-| [write(BinaryWriter writer, Vector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector3-) | Escribir el vector al escritor binario |
-| [write(BinaryWriter writer, Vector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector4-) | Escribir el vector al escritor binario |
+| [write(BinaryWriter writer, FMatrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FMatrix4-) | Escribe la matriz en el escritor binario |
+| [write(BinaryWriter writer, FVector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector2-) | Escribe el vector en el escritor binario |
+| [write(BinaryWriter writer, FVector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector3-) | Escribe el vector en el escritor binario |
+| [write(BinaryWriter writer, FVector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector4-) | Escribe el vector en el escritor binario |
+| [write(BinaryWriter writer, Matrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Matrix4-) | Escribe la matriz en el escritor binario |
+| [write(BinaryWriter writer, Vector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector2-) | Escribe el vector en el escritor binario |
+| [write(BinaryWriter writer, Vector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector3-) | Escribe el vector en el escritor binario |
+| [write(BinaryWriter writer, Vector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector4-) | Escribe el vector en el escritor binario |
 ### IOUtils() {#IOUtils--}
 ```
 public IOUtils()
@@ -148,7 +148,7 @@ public static void write(BinaryWriter writer, FMatrix4 mat)
 ```
 
 
-Escribir la matriz al escritor binario
+Escribe la matriz en el escritor binario
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -162,7 +162,7 @@ public static void write(BinaryWriter writer, FVector2 v)
 ```
 
 
-Escribir el vector al escritor binario
+Escribe el vector en el escritor binario
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -176,7 +176,7 @@ public static void write(BinaryWriter writer, FVector3 v)
 ```
 
 
-Escribir el vector al escritor binario
+Escribe el vector en el escritor binario
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -190,7 +190,7 @@ public static void write(BinaryWriter writer, FVector4 v)
 ```
 
 
-Escribir el vector al escritor binario
+Escribe el vector en el escritor binario
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -204,7 +204,7 @@ public static void write(BinaryWriter writer, Matrix4 mat)
 ```
 
 
-Escribir la matriz al escritor binario
+Escribe la matriz en el escritor binario
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -218,7 +218,7 @@ public static void write(BinaryWriter writer, Vector2 v)
 ```
 
 
-Escribir el vector al escritor binario
+Escribe el vector en el escritor binario
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -232,7 +232,7 @@ public static void write(BinaryWriter writer, Vector3 v)
 ```
 
 
-Escribir el vector al escritor binario
+Escribe el vector en el escritor binario
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -246,7 +246,7 @@ public static void write(BinaryWriter writer, Vector4 v)
 ```
 
 
-Escribir el vector al escritor binario
+Escribe el vector en el escritor binario
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

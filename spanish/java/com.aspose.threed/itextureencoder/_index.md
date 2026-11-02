@@ -1,6 +1,6 @@
 ---
 title: "ITextureEncoder"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El codificador de textura externa debe implementar esta interfaz para codificar."
 type: docs
 weight: 257

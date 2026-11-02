@@ -1,6 +1,6 @@
 ---
 title: "PdfFormat"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Ejemplo del Formato de Documento Portátil de Adobe         El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj."
 type: docs
 weight: 123
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileFormat](../../com.aspose.threed/filefor
 public class PdfFormat extends FileFormat
 ```
 
-Formato de Documento Portátil de Adobe **Example:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
+Formato de documento portátil de Adobe **Ejemplo:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
 
 ```
 var scenes = FileFormat.PDF.extractScene("input.pdf");
@@ -27,8 +27,8 @@ var scenes = FileFormat.PDF.extractScene("input.pdf");
 | Campo | Descripción |
 | --- | --- |
 | [AMF](#AMF) | Formato de archivo de fabricación aditiva |
-| [ASE](#ASE) | Formato ASCII de exportador de escena de 3D Studio Max. |
-| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Formato Web de Aspose.3D. |
+| [ASE](#ASE) | Formato de exportador de escena ASCII de 3D Studio Max. |
+| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Formato web de Aspose.3D. |
 | [BLENDER](#BLENDER) | Formato de archivo 3D de Blender |
 | [COLLADA](#COLLADA) | Formato de archivo Collada |
 | [DISCREET3DS](#DISCREET3DS) | Formato de archivo de 3D Studio |
@@ -48,10 +48,10 @@ var scenes = FileFormat.PDF.extractScene("input.pdf");
 | [FBX7600_BINARY](#FBX7600-BINARY) | Formato de archivo FBX binario, con versión 7.6.0 |
 | [FBX7700ASCII](#FBX7700ASCII) | Formato de archivo FBX ASCII, con versión 7.7.0 |
 | [FBX7700_BINARY](#FBX7700-BINARY) | Formato de archivo FBX binario, con versión 7.7.0 |
-| [GLTF](#GLTF) | glTF del Khronos Group |
-| [GLTF2](#GLTF2) | glTF del Khronos Group versión 2.0 |
-| [GLTF2_BINARY](#GLTF2-BINARY) | glTF del Khronos Group versión 2.0 |
-| [GLTF_BINARY](#GLTF-BINARY) | glTF del Khronos Group en formato binario |
+| [GLTF](#GLTF) | glTF del Grupo Khronos |
+| [GLTF2](#GLTF2) | glTF del Grupo Khronos versión 2.0 |
+| [GLTF2_BINARY](#GLTF2-BINARY) | glTF del Grupo Khronos versión 2.0 |
+| [GLTF_BINARY](#GLTF-BINARY) | glTF del Grupo Khronos en formato binario |
 | [HTML5](#HTML5) | Archivo HTML5 |
 | [IFC](#IFC) | Modelo de datos ISO 16739-1 Industry Foundation Classes. |
 | [MAYAASCII](#MAYAASCII) | Autodesk Maya en formato ASCII |
@@ -61,8 +61,8 @@ var scenes = FileFormat.PDF.extractScene("input.pdf");
 | [PCD_BINARY](#PCD-BINARY) | Archivo PCL Point Cloud Data en modo binario |
 | [PDF](#PDF) | Formato de documento portátil de Adobe |
 | [PLY](#PLY) | Formato de archivo Polygon o Formato de triángulo Stanford |
-| [RVM_BINARY](#RVM-BINARY) | Modelo del Sistema de Gestión de Diseño de Planta AVEVA en formato binario |
-| [RVM_TEXT](#RVM-TEXT) | Modelo del Sistema de Gestión de Diseño de Planta AVEVA en formato de texto |
+| [RVM_BINARY](#RVM-BINARY) | Modelo del Sistema de Gestión de Diseño de Plantas AVEVA en formato binario |
+| [RVM_TEXT](#RVM-TEXT) | Modelo del Sistema de Gestión de Diseño de Plantas AVEVA en formato de texto |
 | [SIEMENSJT8](#SIEMENSJT8) | Archivo JT de Siemens versión 8 |
 | [SIEMENSJT9](#SIEMENSJT9) | Archivo JT de Siemens versión 9 |
 | [STLASCII](#STLASCII) | Formato de archivo STL ASCII |
@@ -84,7 +84,7 @@ var scenes = FileFormat.PDF.extractScene("input.pdf");
 | [createLoadOptions()](#createLoadOptions--) | Crear opciones de carga predeterminadas para este formato de archivo |
 | [createSaveOptions()](#createSaveOptions--) | Crear opciones de guardado predeterminadas para este formato de archivo |
 | [detect(Stream stream, String fileName)](#detect-com.aspose.threed.Stream-java.lang.String-) | Detectar el formato de archivo a partir del flujo de datos, el nombre del archivo es opcional para adivinar tipos que no tienen encabezado mágico. |
-| [detect(String fileName)](#detect-java.lang.String-) | Detectar el formato de archivo a partir del nombre del archivo, el archivo debe ser legible para que Aspose.3D pueda detectar el formato mediante el encabezado del archivo. |
+| [detect(String fileName)](#detect-java.lang.String-) | Detectar el formato de archivo a partir del nombre del archivo, el archivo debe ser legible para que Aspose.3D pueda detectar el formato de archivo mediante el encabezado del archivo. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [extract(Stream stream)](#extract-com.aspose.threed.Stream-) | Extraer contenido 3D sin procesar del flujo PDF. |
 | [extract(Stream stream, byte[] password)](#extract-com.aspose.threed.Stream-byte---) | Extraer contenido 3D sin procesar del flujo PDF. |
@@ -94,10 +94,10 @@ var scenes = FileFormat.PDF.extractScene("input.pdf");
 | [extractScene(Stream stream, byte[] password)](#extractScene-com.aspose.threed.Stream-byte---) | Extraer contenido 3D sin procesar del flujo PDF. |
 | [extractScene(String fileName)](#extractScene-java.lang.String-) | Extraer escenas 3D del archivo PDF. |
 | [extractScene(String fileName, byte[] password)](#extractScene-java.lang.String-byte---) | Extraer escenas 3D del archivo PDF. |
-| [getCanExport()](#getCanExport--) | Obtiene si Aspose.3D admite la exportación de la escena al formato de archivo actual. |
-| [getCanImport()](#getCanImport--) | Obtiene si Aspose.3D admite la importación de la escena desde el formato de archivo actual. |
+| [getCanExport()](#getCanExport--) | Obtiene si Aspose.3D admite exportar la escena al formato de archivo actual. |
+| [getCanImport()](#getCanImport--) | Obtiene si Aspose.3D admite importar la escena desde el formato de archivo actual. |
 | [getClass()](#getClass--) |  |
-| [getContentType()](#getContentType--) | Obtiene el tipo de contenido del formato de archivo |
+| [getContentType()](#getContentType--) | Obtiene el tipo de contenido del formato de archivo. |
 | [getExtension()](#getExtension--) | Obtiene el nombre de extensión de este tipo. |
 | [getExtensions()](#getExtensions--) | Obtiene los nombres de extensión de este tipo. |
 | [getFileFormatType()](#getFileFormatType--) | Obtiene el tipo de formato de archivo |
@@ -125,7 +125,7 @@ public static final FileFormat ASE
 ```
 
 
-Formato ASCII de exportador de escena de 3D Studio Max.
+Formato de exportador de escena ASCII de 3D Studio Max.
 
 ### ASPOSE3D_WEB {#ASPOSE3D-WEB}
 ```
@@ -133,7 +133,7 @@ public static final FileFormat ASPOSE3D_WEB
 ```
 
 
-Formato Web de Aspose.3D.
+Formato web de Aspose.3D.
 
 ### BLENDER {#BLENDER}
 ```
@@ -293,7 +293,7 @@ public static final FileFormat GLTF
 ```
 
 
-glTF del Khronos Group
+glTF del Grupo Khronos
 
 ### GLTF2 {#GLTF2}
 ```
@@ -301,7 +301,7 @@ public static final FileFormat GLTF2
 ```
 
 
-glTF del Khronos Group versión 2.0
+glTF del Grupo Khronos versión 2.0
 
 ### GLTF2_BINARY {#GLTF2-BINARY}
 ```
@@ -309,7 +309,7 @@ public static final FileFormat GLTF2_BINARY
 ```
 
 
-glTF del Khronos Group versión 2.0
+glTF del Grupo Khronos versión 2.0
 
 ### GLTF_BINARY {#GLTF-BINARY}
 ```
@@ -317,7 +317,7 @@ public static final FileFormat GLTF_BINARY
 ```
 
 
-glTF del Khronos Group en formato binario
+glTF del Grupo Khronos en formato binario
 
 ### HTML5 {#HTML5}
 ```
@@ -397,7 +397,7 @@ public static final RvmFormat RVM_BINARY
 ```
 
 
-Modelo del Sistema de Gestión de Diseño de Planta AVEVA en formato binario
+Modelo del Sistema de Gestión de Diseño de Plantas AVEVA en formato binario
 
 ### RVM_TEXT {#RVM-TEXT}
 ```
@@ -405,7 +405,7 @@ public static final RvmFormat RVM_TEXT
 ```
 
 
-Modelo del Sistema de Gestión de Diseño de Planta AVEVA en formato de texto
+Modelo del Sistema de Gestión de Diseño de Plantas AVEVA en formato de texto
 
 ### SIEMENSJT8 {#SIEMENSJT8}
 ```
@@ -561,7 +561,7 @@ public static FileFormat detect(String fileName)
 ```
 
 
-Detectar el formato de archivo a partir del nombre del archivo, el archivo debe ser legible para que Aspose.3D pueda detectar el formato mediante el encabezado del archivo.
+Detectar el formato de archivo a partir del nombre del archivo, el archivo debe ser legible para que Aspose.3D pueda detectar el formato de archivo mediante el encabezado del archivo.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -599,7 +599,7 @@ Extraer contenido 3D sin procesar del flujo PDF.
 | stream | [Stream](../../com.aspose.threed/stream) | Flujo del archivo PDF de entrada |
 
 **Returns:**
-java.util.ArrayList<byte[]> - Una lista de todo el contenido 3D en bytes, incluidos los formatos que Aspose.3D no soporta. **Example:** El siguiente código muestra cómo extraer todo el contenido 3D sin procesar de un archivo PDF 3D y escribirlo en archivos.
+java.util.ArrayList<byte[]> - Una lista de todos los contenidos 3D en bytes, incluidos los formatos que Aspose.3D no soporta. **Ejemplo:** El siguiente código muestra cómo extraer todos los contenidos 3D sin procesar de un archivo PDF 3D y escribirlos en archivos.
 
 ```
 var raw3DContents = FileFormat.PDF.extract("input.pdf");
@@ -623,7 +623,7 @@ Extraer contenido 3D sin procesar del flujo PDF.
 | contraseña | byte[] | Contraseña del archivo PDF |
 
 **Returns:**
-java.util.ArrayList<byte[]> - Una lista de todo el contenido 3D en bytes, incluidos los formatos que Aspose.3D no soporta. **Example:** El siguiente código muestra cómo extraer todo el contenido 3D sin procesar de un archivo PDF 3D y escribirlo en archivos.
+java.util.ArrayList<byte[]> - Una lista de todos los contenidos 3D en bytes, incluidos los formatos que Aspose.3D no soporta. **Ejemplo:** El siguiente código muestra cómo extraer todos los contenidos 3D sin procesar de un archivo PDF 3D y escribirlos en archivos.
 
 ```
 var raw3DContents = FileFormat.PDF.extract("input.pdf");
@@ -646,7 +646,7 @@ Extraer contenido 3D sin procesar del archivo PDF.
 | fileName | java.lang.String | Nombre de archivo del PDF de entrada |
 
 **Returns:**
-java.util.ArrayList<byte[]> - Una lista de todo el contenido 3D en bytes, incluidos los formatos que Aspose.3D no soporta. **Example:** El siguiente código muestra cómo extraer todo el contenido 3D sin procesar de un archivo PDF 3D y escribirlo en archivos.
+java.util.ArrayList<byte[]> - Una lista de todos los contenidos 3D en bytes, incluidos los formatos que Aspose.3D no soporta. **Ejemplo:** El siguiente código muestra cómo extraer todos los contenidos 3D sin procesar de un archivo PDF 3D y escribirlos en archivos.
 
 ```
 var raw3DContents = FileFormat.PDF.extract("input.pdf");
@@ -670,7 +670,7 @@ Extraer contenido 3D sin procesar del archivo PDF.
 | contraseña | byte[] | Contraseña del archivo PDF |
 
 **Returns:**
-java.util.ArrayList<byte[]> - Una lista de todo el contenido 3D en bytes, incluidos los formatos que Aspose.3D no soporta. **Example:** El siguiente código muestra cómo extraer todo el contenido 3D sin procesar de un archivo PDF 3D y escribirlo en archivos.
+java.util.ArrayList<byte[]> - Una lista de todos los contenidos 3D en bytes, incluidos los formatos que Aspose.3D no soporta. **Ejemplo:** El siguiente código muestra cómo extraer todos los contenidos 3D sin procesar de un archivo PDF 3D y escribirlos en archivos.
 
 ```
 var raw3DContents = FileFormat.PDF.extract("input.pdf");
@@ -693,7 +693,7 @@ Extraer contenido 3D sin procesar del flujo PDF.
 | stream | [Stream](../../com.aspose.threed/stream) | Flujo del archivo PDF de entrada |
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Scene> - Lista de escenas 3D decodificadas que son compatibles con Aspose.3D **Example:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
+java.util.ArrayList<com.aspose.threed.Scene> - Lista de escenas 3D decodificadas que son compatibles con Aspose.3D **Ejemplo:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
 
 ```
 var scenes = FileFormat.PDF.extractScene("input.pdf");
@@ -717,7 +717,7 @@ Extraer contenido 3D sin procesar del flujo PDF.
 | contraseña | byte[] | Contraseña del archivo PDF |
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Scene> - Lista de escenas 3D decodificadas que son compatibles con Aspose.3D **Example:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
+java.util.ArrayList<com.aspose.threed.Scene> - Lista de escenas 3D decodificadas que son compatibles con Aspose.3D **Ejemplo:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
 
 ```
 var scenes = FileFormat.PDF.extractScene("input.pdf");
@@ -740,7 +740,7 @@ Extraer escenas 3D del archivo PDF.
 | fileName | java.lang.String | Nombre de archivo del PDF de entrada |
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Scene> - Lista de escenas 3D decodificadas que son compatibles con Aspose.3D **Example:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
+java.util.ArrayList<com.aspose.threed.Scene> - Lista de escenas 3D decodificadas que son compatibles con Aspose.3D **Ejemplo:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
 
 ```
 var scenes = FileFormat.PDF.extractScene("input.pdf");
@@ -764,7 +764,7 @@ Extraer escenas 3D del archivo PDF.
 | contraseña | byte[] | Contraseña del archivo PDF |
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Scene> - Lista de escenas 3D decodificadas que son compatibles con Aspose.3D **Example:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
+java.util.ArrayList<com.aspose.threed.Scene> - Lista de escenas 3D decodificadas que son compatibles con Aspose.3D **Ejemplo:** El siguiente código muestra cómo extraer todas las escenas 3D compatibles de un archivo PDF 3D y escribirlas en formato obj.
 
 ```
 var scenes = FileFormat.PDF.extractScene("input.pdf");
@@ -779,7 +779,7 @@ public boolean getCanExport()
 ```
 
 
-Obtiene si Aspose.3D admite la exportación de la escena al formato de archivo actual.
+Obtiene si Aspose.3D admite exportar la escena al formato de archivo actual.
 
 **Returns:**
 boolean - si Aspose.3D admite la exportación de la escena al formato de archivo actual. **Ejemplo:** El siguiente código muestra cómo comprobar si la exportación al formato especificado es compatible.
@@ -796,7 +796,7 @@ public boolean getCanImport()
 ```
 
 
-Obtiene si Aspose.3D admite la importación de la escena desde el formato de archivo actual.
+Obtiene si Aspose.3D admite importar la escena desde el formato de archivo actual.
 
 **Returns:**
 boolean - si Aspose.3D admite la importación de la escena desde el formato de archivo actual. **Ejemplo:** El siguiente código muestra cómo comprobar si la importación desde el formato especificado es compatible.
@@ -823,7 +823,7 @@ public FileContentType getContentType()
 ```
 
 
-Obtiene el tipo de contenido del formato de archivo
+Obtiene el tipo de contenido del formato de archivo.
 
 **Returns:**
 [FileContentType](../../com.aspose.threed/filecontenttype) - file format content type **Example:**

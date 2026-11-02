@@ -1,6 +1,6 @@
 ---
 title: "Frustum"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La clase base de  y"
 type: docs
 weight: 69
@@ -28,16 +28,16 @@ La clase base de [Camera](../../com.aspose.threed/camera) y [Light](../../com.as
 | [getClass()](#getClass--) |  |
 | [getDirection()](#getDirection--) | Obtiene la dirección a la que mira la cámara. |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getFarPlane()](#getFarPlane--) | Obtiene la distancia del plano lejano del frustum. |
 | [getLookAt()](#getLookAt--) | Obtiene la posición de interés a la que la cámara está mirando. |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getNearPlane()](#getNearPlane--) | Obtiene la distancia del plano cercano del frustum. |
 | [getOrthoHeight()](#getOrthoHeight--) | Obtiene la altura cuando el frustum está en proyección ortográfica. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getRotationMode()](#getRotationMode--) | Obtiene el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [getTarget()](#getTarget--) | Obtiene el objetivo al que la cámara está mirando. |
@@ -49,17 +49,17 @@ La clase base de [Camera](../../com.aspose.threed/camera) y [Light](../../com.as
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setAspect(double value)](#setAspect-double-) | Establece la relación de aspecto del frustum |
 | [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | Establece la dirección a la que la cámara está mirando. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setFarPlane(double value)](#setFarPlane-double-) | Establece la distancia del plano lejano del frustum. |
 | [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | Establece la posición de interés a la que la cámara está mirando. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setNearPlane(double value)](#setNearPlane-double-) | Establece la distancia del plano cercano del frustum. |
 | [setOrthoHeight(double value)](#setOrthoHeight-double-) | Establece la altura cuando el frustum está en proyección ortográfica. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setRotationMode(RotationMode value)](#setRotationMode-com.aspose.threed.RotationMode-) | Establece el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. |
 | [setTarget(Node value)](#setTarget-com.aspose.threed.Node-) | Establece el objetivo al que la cámara está mirando. |
-| [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | Establece la dirección superior de la cámara |
+| [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | Establece la dirección ascendente de la cámara. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -85,7 +85,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -157,10 +157,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getFarPlane() {#getFarPlane--}
 ```
 public double getFarPlane()
@@ -217,7 +217,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -227,7 +227,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -247,7 +247,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -262,7 +262,7 @@ public RotationMode getRotationMode()
 ```
 
 
-Obtiene el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. Si el valor es [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), la dirección siempre se calcula mediante la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt). De lo contrario, el [getLookAt](../../com.aspose.threed/frustum\#getLookAt) siempre se calcula mediante el [getDirection](../../com.aspose.threed/frustum\#getDirection).
+Obtiene el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. Si el valor es [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), la dirección siempre se calcula mediante la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt) De lo contrario, el [getLookAt](../../com.aspose.threed/frustum\#getLookAt) siempre se calcula mediante [getDirection](../../com.aspose.threed/frustum\#getDirection)
 
 **Returns:**
 [RotationMode](../../com.aspose.threed/rotationmode) - the frustum's orientation mode This property only works when the [getTarget](../../com.aspose.threed/frustum\#getTarget) is null. If the value is [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), the direction is always calculated by the property [getLookAt](../../com.aspose.threed/frustum\#getLookAt) Otherwise the [getLookAt](../../com.aspose.threed/frustum\#getLookAt) is always calculated by the [getDirection](../../com.aspose.threed/frustum\#getDirection)
@@ -282,7 +282,7 @@ public Node getTarget()
 ```
 
 
-Obtiene el objetivo al que la cámara está mirando. Si el usuario admite esta propiedad, debe preceder a la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt).
+Obtiene el objetivo al que la cámara está mirando. Si el usuario admite esta propiedad, debe ser anterior a la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt).
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the target that the camera is looking at. If the user supports this property, it should be prior to [getLookAt](../../com.aspose.threed/frustum\#getLookAt) property.
@@ -384,7 +384,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -462,7 +462,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -489,7 +489,7 @@ public void setRotationMode(RotationMode value)
 ```
 
 
-Establece el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. Si el valor es [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), la dirección siempre se calcula mediante la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt). De lo contrario, el [getLookAt](../../com.aspose.threed/frustum\#getLookAt) siempre se calcula mediante el [getDirection](../../com.aspose.threed/frustum\#getDirection).
+Establece el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. Si el valor es [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), la dirección siempre se calcula mediante la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt) De lo contrario, el [getLookAt](../../com.aspose.threed/frustum\#getLookAt) siempre se calcula mediante [getDirection](../../com.aspose.threed/frustum\#getDirection).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -502,7 +502,7 @@ public void setTarget(Node value)
 ```
 
 
-Establece el objetivo al que la cámara está mirando. Si el usuario admite esta propiedad, debe ser antes de la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt).
+Establece el objetivo al que la cámara está mirando. Si el usuario admite esta propiedad, debe estar antes de la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -515,7 +515,7 @@ public void setUp(Vector3 value)
 ```
 
 
-Establece la dirección superior de la cámara
+Establece la dirección ascendente de la cámara.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

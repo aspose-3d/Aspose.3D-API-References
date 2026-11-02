@@ -1,7 +1,7 @@
 ---
 title: "NurbsCurve"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "La curva NURBS es una curva representada por NURBSNon-uniform rational basis spline  Una curva NURBS se define por su  un conjunto de ponderados  y un  El componente w en el punto de control se usa como peso de los puntos de control, sea lo que sea, un  o"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La curva NURBS es una curva representada por NURBSNon-uniform rational basis spline. Una curva NURBS se define por su conjunto de puntos de control ponderados y una ... El componente w en el punto de control se utiliza como peso de los puntos de control, sea lo que sea, o"
 type: docs
 weight: 112
 url: /es/java/com.aspose.threed/nurbscurve/
@@ -40,15 +40,15 @@ public class NurbsCurve extends Curve
 | [getDegree()](#getDegree--) | Obtiene el grado de una curva NURBS, el grado se define como Orden - 1 |
 | [getDimension()](#getDimension--) | Obtiene la dimensión de la curva. |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getKnotVectors()](#getKnotVectors--) | Obtiene el vector de nudos, es una secuencia de valores de parámetros que determina dónde y cómo los puntos de control afectan a la curva NURBS. |
 | [getMultiplicity()](#getMultiplicity--) | Obtiene la multiplicidad. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getOrder()](#getOrder--) | Obtiene el orden de una curva NURBS, define la cantidad de puntos de control cercanos que influyen en cualquier punto de la curva. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getOrder()](#getOrder--) | Obtiene el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getRational()](#getRational--) | Obtiene si es racional, este valor indica si este [NurbsCurve](../../com.aspose.threed/nurbscurve) es una spline racional o una spline no racional. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [hashCode()](#hashCode--) |  |
@@ -60,10 +60,10 @@ public class NurbsCurve extends Curve
 | [setCurveType(NurbsType value)](#setCurveType-com.aspose.threed.NurbsType-) | Establece el tipo de la curva. |
 | [setDegree(int value)](#setDegree-int-) | Establece el grado de una curva NURBS, el grado se define como Orden - 1 |
 | [setDimension(CurveDimension value)](#setDimension-com.aspose.threed.CurveDimension-) | Establece la dimensión de la curva. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setOrder(int value)](#setOrder-int-) | Establece el orden de una curva NURBS, define la cantidad de puntos de control cercanos que influyen en cualquier punto de la curva. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setOrder(int value)](#setOrder-int-) | Establece el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setRational(boolean value)](#setRational-boolean-) | Establece si es racional, este valor indica si este [NurbsCurve](../../com.aspose.threed/nurbscurve) es una spline racional o una spline no racional. |
 | [toString()](#toString--) |  |
@@ -152,7 +152,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -254,10 +254,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getKnotVectors() {#getKnotVectors--}
 ```
 public List<Double> getKnotVectors()
@@ -294,7 +294,7 @@ public int getOrder()
 ```
 
 
-Obtiene el orden de una curva NURBS, define la cantidad de puntos de control cercanos que influyen en cualquier punto de la curva.
+Obtiene el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva.
 
 **Returns:**
 int - el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva.
@@ -304,7 +304,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -314,7 +314,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -334,7 +334,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -352,7 +352,7 @@ public boolean getRational()
 Obtiene si es racional, este valor indica si este [NurbsCurve](../../com.aspose.threed/nurbscurve) es una spline racional o una spline no racional. La B-spline no racional es un caso especial de B-splines racionales.
 
 **Returns:**
-boolean - indica si es racional, este valor indica si este [NurbsCurve](../../com.aspose.threed/nurbscurve) es una spline racional o una spline no racional. La B-spline no racional es un caso especial de B-splines racionales.
+boolean - si es racional, este valor indica si este [NurbsCurve](../../com.aspose.threed/nurbscurve) es una spline racional o una spline no racional. La B-spline no racional es un caso especial de B-splines racionales.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
@@ -477,7 +477,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -503,7 +503,7 @@ public void setOrder(int value)
 ```
 
 
-Establece el orden de una curva NURBS, define la cantidad de puntos de control cercanos que influyen en cualquier punto de la curva.
+Establece el orden de una curva NURBS, define el número de puntos de control cercanos que influyen en cualquier punto de la curva.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -516,7 +516,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

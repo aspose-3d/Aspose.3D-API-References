@@ -1,6 +1,6 @@
 ---
 title: "TextureMapping"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El tipo de mapeo de textura para  Describe qué tipo de mapeo de textura se utiliza."
 type: docs
 weight: 306
@@ -18,7 +18,7 @@ El tipo de mapeo de textura para [VertexElementUV](../../com.aspose.threed/verte
 
 | Campo | Descripción |
 | --- | --- |
-| [AMBIENT](#AMBIENT) | Mapas ambientales |
+| [AMBIENT](#AMBIENT) | Mapas de ambiente |
 | [BUMP](#BUMP) | Mapas de relieve |
 | [DIFFUSE](#DIFFUSE) | Mapas difusos |
 | [DISPLACEMENT](#DISPLACEMENT) | Mapas de desplazamiento |
@@ -28,7 +28,7 @@ El tipo de mapeo de textura para [VertexElementUV](../../com.aspose.threed/verte
 | [OPACITY](#OPACITY) | Mapas de opacidad |
 | [REFLECTION](#REFLECTION) | Mapas de reflexión |
 | [SHADOW](#SHADOW) | Mapas de sombra |
-| [SHININESS](#SHININESS) | Mapas de nivel de brillo |
+| [SHININESS](#SHININESS) | Mapas de brillo especular |
 | [SPECULAR](#SPECULAR) | Mapas especulares |
 ## Métodos
 
@@ -57,7 +57,7 @@ public static final TextureMapping AMBIENT
 ```
 
 
-Mapas ambientales
+Mapas de ambiente
 
 ### BUMP {#BUMP}
 ```
@@ -137,7 +137,7 @@ public static final TextureMapping SHININESS
 ```
 
 
-Mapas de nivel de brillo
+Mapas de brillo especular
 
 ### SPECULAR {#SPECULAR}
 ```

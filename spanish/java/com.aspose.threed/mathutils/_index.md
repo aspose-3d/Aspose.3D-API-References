@@ -1,6 +1,6 @@
 ---
 title: "MathUtils"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Un conjunto de utilidades matemáticas útiles."
 type: docs
 weight: 99
@@ -197,7 +197,7 @@ Convertir un [Vector3](../../com.aspose.threed/vector3) de radianes a grados.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| radian | [Vector3](../../com.aspose.threed/vector3) | El valor radiano. |
+| radian | [Vector3](../../com.aspose.threed/vector3) | El valor en radianes. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The degree value. **Example:**
@@ -217,7 +217,7 @@ Convertir un número de radianes a grados
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| radiano | double | El valor radiano. |
+| radian | double | El valor en radianes. |
 
 **Returns:**
 double - El valor en grados. **Ejemplo:**
@@ -237,9 +237,9 @@ Convertir un número de radianes a grados
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | double | El componente x en valor radiano. |
-| y | double | El componente y en valor radiano. |
-| z | double | El componente z en valor radiano. |
+| x | double | El componente x en valor radianes. |
+| y | double | El componente y en valor radianes. |
+| z | double | El componente z en valor radianes. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The degree value.
@@ -254,7 +254,7 @@ Convertir un número de radianes a grados
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| radiano | float | El valor radiano. |
+| radian | float | El valor en radianes. |
 
 **Returns:**
 float - El valor en grados. **Ejemplo:**
@@ -294,10 +294,10 @@ Convertir un número de grados a radianes
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| grado | double | El valor en grados. |
+| degree | double | El valor en grados. |
 
 **Returns:**
-double - El valor radiano. **Ejemplo:**
+double - El valor en radianes. **Ejemplo:**
 
 ```
 var rad = MathUtils.toRadian(0.3);
@@ -314,9 +314,9 @@ Convertir un vector de grados a radianes
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | double | El componente x en valor de grados. |
-| y | double | El componente y en valor de grados. |
-| z | double | El componente z en valor de grados. |
+| x | double | El componente x en valor grados. |
+| y | double | El componente y en valor grados. |
+| z | double | El componente z en valor grados. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The radian value.
@@ -331,10 +331,10 @@ Convertir un número de grados a radianes
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| grado | float | El valor en grados. |
+| degree | float | El valor en grados. |
 
 **Returns:**
-float - El valor radiano. **Ejemplo:**
+float - El valor en radianes. **Ejemplo:**
 
 ```
 var rad = MathUtils.toRadian(0.3);

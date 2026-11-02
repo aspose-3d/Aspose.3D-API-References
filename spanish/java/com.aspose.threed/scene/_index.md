@@ -1,6 +1,6 @@
 ---
 title: "Escena"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: 
 type: docs
 weight: 161
@@ -40,14 +40,14 @@ public class Scene extends SceneObject
 | [fromFile(String fileName, LoadOptions options, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Abre la escena desde la ruta especificada usando el formato de archivo indicado. |
 | [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | Abre la escena desde el flujo proporcionado |
 | [fromStream(Stream stream, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado |
-| [fromStream(Stream stream, FileFormat format)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Abre la escena desde el flujo proporcionado usando el formato de archivo especificado. |
-| [fromStream(Stream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando el formato de archivo especificado. |
+| [fromStream(Stream stream, FileFormat format)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Abre la escena desde el flujo proporcionado usando el formato de archivo indicado. |
+| [fromStream(Stream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando el formato de archivo indicado. |
 | [fromStream(Stream stream, LoadOptions options)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | Abre la escena desde el flujo proporcionado usando la configuración de E/S especificada. |
 | [fromStream(Stream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando la configuración de E/S especificada. |
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Abre la escena desde el flujo proporcionado |
 | [fromStream(InputStream stream, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado |
-| [fromStream(InputStream stream, FileFormat format)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-) | Abre la escena desde el flujo proporcionado usando el formato de archivo especificado. |
-| [fromStream(InputStream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando el formato de archivo especificado. |
+| [fromStream(InputStream stream, FileFormat format)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-) | Abre la escena desde el flujo proporcionado usando el formato de archivo indicado. |
+| [fromStream(InputStream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando el formato de archivo indicado. |
 | [fromStream(InputStream stream, LoadOptions options)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-) | Abre la escena desde el flujo proporcionado usando la configuración de E/S especificada. |
 | [fromStream(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando la configuración de E/S especificada. |
 | [getAnimationClip(String name)](#getAnimationClip-java.lang.String-) | Obtiene un [AnimationClip](../../com.aspose.threed/animationclip) con nombre |
@@ -59,7 +59,7 @@ public class Scene extends SceneObject
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getPoses()](#getPoses--) | Obtiene todas las [Pose](../../com.aspose.threed/pose) usadas en esta escena. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getRootNode()](#getRootNode--) | Obtiene el nodo raíz de la escena. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [getSubScenes()](#getSubScenes--) | Obtiene todas las subescenas |
@@ -68,14 +68,14 @@ public class Scene extends SceneObject
 | [notifyAll()](#notifyAll--) |  |
 | [open(Stream stream)](#open-com.aspose.threed.Stream-) | Abre la escena desde el flujo proporcionado |
 | [open(Stream stream, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado |
-| [open(Stream stream, FileFormat format)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Abre la escena desde el flujo proporcionado usando el formato de archivo especificado. |
-| [open(Stream stream, FileFormat format, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando el formato de archivo especificado. |
+| [open(Stream stream, FileFormat format)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Abre la escena desde el flujo proporcionado usando el formato de archivo indicado. |
+| [open(Stream stream, FileFormat format, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando el formato de archivo indicado. |
 | [open(Stream stream, LoadOptions options)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | Abre la escena desde el flujo proporcionado usando la configuración de E/S especificada. |
 | [open(Stream stream, LoadOptions options, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando la configuración de E/S especificada. |
 | [open(InputStream stream)](#open-java.io.InputStream-) | Abre la escena desde el flujo proporcionado |
 | [open(InputStream stream, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado |
-| [open(InputStream stream, FileFormat format)](#open-java.io.InputStream-com.aspose.threed.FileFormat-) | Abre la escena desde el flujo proporcionado usando el formato de archivo especificado. |
-| [open(InputStream stream, FileFormat format, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando el formato de archivo especificado. |
+| [open(InputStream stream, FileFormat format)](#open-java.io.InputStream-com.aspose.threed.FileFormat-) | Abre la escena desde el flujo proporcionado usando el formato de archivo indicado. |
+| [open(InputStream stream, FileFormat format, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando el formato de archivo indicado. |
 | [open(InputStream stream, LoadOptions options)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-) | Abre la escena desde el flujo proporcionado usando la configuración de E/S especificada. |
 | [open(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Abre la escena desde el flujo proporcionado usando la configuración de E/S especificada. |
 | [open(String fileName)](#open-java.lang.String-) | Abre la escena desde la ruta especificada |
@@ -123,7 +123,7 @@ Inicializa una nueva instancia de la clase [Scene](../../com.aspose.threed/scene
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | entity | [Entity](../../com.aspose.threed/entity) | La entidad inicial que se adjunta a la escena **Ejemplo:** El siguiente código muestra cómo crear un [getScene](../../com.aspose.threed/scene\#getScene) directamente desde una [Entity](../../com.aspose.threed/entity): |
+|  | entity | [Entity](../../com.aspose.threed/entity) | La entidad inicial que se adjunta a la escena **Example:** El siguiente código muestra cómo crear un [getScene](../../com.aspose.threed/scene\#getScene) directamente a partir de una [Entity](../../com.aspose.threed/entity): |
 
 ```
 var scene = new Scene(new Box());
@@ -203,7 +203,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -346,7 +346,7 @@ public static Scene fromStream(Stream stream, FileFormat format)
 ```
 
 
-Abre la escena desde el flujo proporcionado usando el formato de archivo especificado.
+Abre la escena desde el flujo proporcionado usando el formato de archivo indicado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -362,7 +362,7 @@ public static Scene fromStream(Stream stream, FileFormat format, Cancellation ca
 ```
 
 
-Abre la escena desde el flujo proporcionado usando el formato de archivo especificado.
+Abre la escena desde el flujo proporcionado usando el formato de archivo indicado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -417,7 +417,7 @@ Abre la escena desde el flujo proporcionado
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. **Ejemplo:** El siguiente código muestra cómo crear una escena a partir de un flujo con una fuente de token de cancelación |
+|  | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. **Example:** El siguiente código muestra cómo crear una escena a partir de un flujo con una fuente de token de cancelación |
 
 ```
 var cts = new Cancellation();    
@@ -440,7 +440,7 @@ Abre la escena desde el flujo proporcionado
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Token de cancelación para la tarea de carga **Ejemplo:** El siguiente código muestra cómo crear una escena a partir de un flujo con una fuente de token de cancelación |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Token de cancelación para la tarea de carga **Example:** El siguiente código muestra cómo crear una escena a partir de un flujo con una fuente de token de cancelación |
 
 ```
 var cts = new Cancellation();    
@@ -457,13 +457,13 @@ public static Scene fromStream(InputStream stream, FileFormat format)
 ```
 
 
-Abre la escena desde el flujo proporcionado usando el formato de archivo especificado.
+Abre la escena desde el flujo proporcionado usando el formato de archivo indicado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. |
-|  | format | [FileFormat](../../com.aspose.threed/fileformat) | Formato de archivo. **Ejemplo:** El siguiente código muestra cómo crear una escena a partir de un flujo |
+|  | format | [FileFormat](../../com.aspose.threed/fileformat) | Formato de archivo. **Example:** El siguiente código muestra cómo crear una escena a partir de un flujo |
 
 ```
 try(InputStream input = new FileInputStream("input.fbx")) {    
@@ -479,14 +479,14 @@ public static Scene fromStream(InputStream stream, FileFormat format, Cancellati
 ```
 
 
-Abre la escena desde el flujo proporcionado usando el formato de archivo especificado.
+Abre la escena desde el flujo proporcionado usando el formato de archivo indicado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | Formato de archivo. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Token de cancelación para la tarea de carga **Ejemplo:** El siguiente código muestra cómo crear una escena a partir de un flujo |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Token de cancelación para la tarea de carga **Example:** El siguiente código muestra cómo crear una escena a partir de un flujo |
 
 ```
 try(InputStream input = new FileInputStream("input.fbx")) {    
@@ -508,7 +508,7 @@ Abre la escena desde el flujo proporcionado usando la configuración de E/S espe
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. |
-|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | Configuración más detallada para abrir el flujo. **Ejemplo:** El siguiente código muestra cómo crear una escena a partir de un flujo con opciones de carga |
+|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | Configuración más detallada para abrir el flujo. **Example:** El siguiente código muestra cómo crear una escena a partir de un flujo con opciones de carga |
 
 ```
 var opts = new FbxLoadOptions();    
@@ -533,7 +533,7 @@ Abre la escena desde el flujo proporcionado usando la configuración de E/S espe
 | --- | --- | --- |
 | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. |
 | options | [LoadOptions](../../com.aspose.threed/loadoptions) | Configuración más detallada para abrir el flujo. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Token de cancelación para la tarea de carga **Ejemplo:** El siguiente código muestra cómo crear una escena a partir de un flujo con opciones de carga |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Token de cancelación para la tarea de carga **Example:** El siguiente código muestra cómo crear una escena a partir de un flujo con opciones de carga |
 
 ```
 var opts = new FbxLoadOptions();    
@@ -653,7 +653,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -757,7 +757,7 @@ public void open(Stream stream, FileFormat format)
 ```
 
 
-Abre la escena desde el flujo proporcionado usando el formato de archivo especificado.
+Abre la escena desde el flujo proporcionado usando el formato de archivo indicado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -771,7 +771,7 @@ public void open(Stream stream, FileFormat format, Cancellation cancellationToke
 ```
 
 
-Abre la escena desde el flujo proporcionado usando el formato de archivo especificado.
+Abre la escena desde el flujo proporcionado usando el formato de archivo indicado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -820,7 +820,7 @@ Abre la escena desde el flujo proporcionado
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. **Ejemplo:** El siguiente código muestra cómo abrir una escena desde un flujo |
+|  | flujo | java.io.InputStream | Flujo de entrada, el usuario es responsable de cerrar el flujo. **Example:** El siguiente código muestra cómo abrir una escena a partir de un flujo |
 
 ```
 var scene = new Scene();    
@@ -857,7 +857,7 @@ public void open(InputStream stream, FileFormat format)
 ```
 
 
-Abre la escena desde el flujo proporcionado usando el formato de archivo especificado.
+Abre la escena desde el flujo proporcionado usando el formato de archivo indicado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -878,7 +878,7 @@ public void open(InputStream stream, FileFormat format, Cancellation cancellatio
 ```
 
 
-Abre la escena desde el flujo proporcionado usando el formato de archivo especificado.
+Abre la escena desde el flujo proporcionado usando el formato de archivo indicado.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -1083,7 +1083,7 @@ Renderiza la escena en un mapa de bits desde la perspectiva de la cámara especi
 | --- | --- | --- |
 | camera | [Camera](../../com.aspose.threed/camera) | Desde la perspectiva de qué cámara renderizar la escena |
 | bitmap | [TextureData](../../com.aspose.threed/texturedata) | Objetivo del resultado renderizado |
-| options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | La opción para personalizar algunos ajustes internos. |
+| options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | La opción para personalizar algunas configuraciones internas. |
 
 ### render(Camera camera, String fileName) {#render-com.aspose.threed.Camera-java.lang.String-}
 ```
@@ -1130,7 +1130,7 @@ Renderiza la escena en un archivo externo desde la perspectiva de la cámara esp
 | fileName | java.lang.String | El nombre de archivo del archivo de salida |
 | size | [Vector2](../../com.aspose.threed/vector2) | El tamaño de la imagen renderizada final |
 | formato | java.lang.String | El formato de imagen del archivo de salida |
-| options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | La opción para personalizar algunos ajustes internos. |
+| options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | La opción para personalizar algunas configuraciones internas. |
 
 ### save(Stream stream, FileFormat format) {#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-}
 ```

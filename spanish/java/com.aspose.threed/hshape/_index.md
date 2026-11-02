@@ -1,6 +1,6 @@
 ---
 title: "HShape"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El  proporciona los parámetros definitorios de una forma H o I."
 type: docs
 weight: 76
@@ -32,14 +32,14 @@ El [HShape](../../com.aspose.threed/hshape) proporciona los parámetros definito
 | [getBoundingBox()](#getBoundingBox--) | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objetos. |
 | [getClass()](#getClass--) |  |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getExtent()](#getExtent--) | Obtiene la extensión en las dimensiones x e y. |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getOverallDepth()](#getOverallDepth--) | Obtiene la extensión de la profundidad. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
 | [getTopFlangeEdgeRadius()](#getTopFlangeEdgeRadius--) | Obtiene el radio de los bordes inferiores de la brida superior. |
 | [getTopFlangeFilletRadius()](#getTopFlangeFilletRadius--) | Obtiene el radio del filete entre el alma y la brida superior. |
@@ -55,10 +55,10 @@ El [HShape](../../com.aspose.threed/hshape) proporciona los parámetros definito
 | [setBottomFlangeFilletRadius(double value)](#setBottomFlangeFilletRadius-double-) | Establece el radio del filete entre el alma y la brida inferior. |
 | [setBottomFlangeThickness(double value)](#setBottomFlangeThickness-double-) | Establece el espesor de la brida de la forma H. |
 | [setBottomFlangeWidth(double value)](#setBottomFlangeWidth-double-) | Establece la extensión del ancho. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setOverallDepth(double value)](#setOverallDepth-double-) | Establece la extensión de la profundidad. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
 | [setTopFlangeEdgeRadius(double value)](#setTopFlangeEdgeRadius-double-) | Establece el radio de los bordes inferiores de la brida superior. |
 | [setTopFlangeFilletRadius(double value)](#setTopFlangeFilletRadius-double-) | Establece el radio del filete entre el alma y la brida superior. |
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -190,10 +190,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getExtent() {#getExtent--}
 ```
 public Vector2 getExtent()
@@ -230,7 +230,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -240,7 +240,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -260,7 +260,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -298,7 +298,7 @@ public double getTopFlangeFilletRadius()
 Obtiene el radio del filete entre el alma y la brida superior.
 
 **Returns:**
-double - el radio del filete entre la web y el ala superior.
+double - el radio del filete entre la nervadura y la brida superior.
 ### getTopFlangeThickness() {#getTopFlangeThickness--}
 ```
 public double getTopFlangeThickness()
@@ -308,7 +308,7 @@ public double getTopFlangeThickness()
 Obtiene el espesor de la brida superior.
 
 **Returns:**
-double - el espesor del ala superior.
+double - el espesor de la brida superior.
 ### getTopFlangeWidth() {#getTopFlangeWidth--}
 ```
 public double getTopFlangeWidth()
@@ -318,7 +318,7 @@ public double getTopFlangeWidth()
 Obtiene el ancho de la brida superior.
 
 **Returns:**
-double - el ancho del ala superior.
+double - el ancho de la brida superior.
 ### getWebThickness() {#getWebThickness--}
 ```
 public double getWebThickness()
@@ -328,7 +328,7 @@ public double getWebThickness()
 Obtiene el espesor del alma de la forma H.
 
 **Returns:**
-double - el espesor de la web de la forma H.
+double - el espesor de la nervadura de la forma H.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -443,7 +443,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -482,7 +482,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

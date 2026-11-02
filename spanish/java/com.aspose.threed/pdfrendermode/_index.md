@@ -1,6 +1,6 @@
 ---
 title: "PdfRenderMode"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El modo de renderizado especifica el estilo en el que se renderiza el arte 3D."
 type: docs
 weight: 289
@@ -19,18 +19,18 @@ El modo de renderizado especifica el estilo en el que se renderiza el arte 3D.
 | Campo | Descripción |
 | --- | --- |
 | [BOUNDING_BOX](#BOUNDING-BOX) | Muestra los bordes de la caja delimitadora de cada nodo, alineados con los ejes del espacio de coordenadas local de ese nodo. |
-| [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | Muestra los bordes en un solo color, aunque elimina los bordes que miran hacia atrás y los bordes ocultos. |
+| [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | Muestra los bordes en un solo color, aunque elimina los bordes orientados hacia atrás y los bordes ocultos. |
 | [ILLUSTRATION](#ILLUSTRATION) | Muestra los bordes de silueta con superficies, elimina las líneas ocultas. |
-| [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | Muestra los bordes de silueta con superficies iluminadas y texturizadas y un término emisivo adicional para eliminar áreas poco iluminadas de la obra. |
+| [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | Muestra los bordes de silueta con superficies iluminadas y texturizadas y un término emisivo adicional para eliminar las áreas poco iluminadas de la obra. |
 | [SHADED_VERTICES](#SHADED-VERTICES) | Muestra solo los vértices, aunque utiliza su color de vértice y aplica iluminación. |
 | [SHADED_WIREFRAME](#SHADED-WIREFRAME) | Muestra solo los bordes, aunque interpola su color entre sus dos vértices y aplica iluminación. |
 | [SOLID](#SOLID) | Muestra formas geométricas texturizadas e iluminadas. |
 | [SOLID_OUTLINE](#SOLID-OUTLINE) | Muestra los bordes de silueta con superficies iluminadas y texturizadas, elimina las líneas ocultas. |
-| [SOLID_WIREFRAME](#SOLID-WIREFRAME) | Muestra formas geométricas texturizadas e iluminadas (triángulos) con bordes de un solo color sobre ellas. |
+| [SOLID_WIREFRAME](#SOLID-WIREFRAME) | Muestra formas geométricas texturizadas e iluminadas (triángulos) con bordes de un solo color sobre ellos. |
 | [TRANSPARENT](#TRANSPARENT) | Muestra formas geométricas texturizadas e iluminadas (triángulos) con un nivel adicional de transparencia. |
 | [TRANSPARENT_BOUNDING_BOX](#TRANSPARENT-BOUNDING-BOX) | Muestra las caras de las cajas delimitadoras de cada nodo, alineadas con los ejes del espacio de coordenadas local de ese nodo, con un nivel adicional de transparencia. |
 | [TRANSPARENT_BOUNDING_BOX_OUTLINE](#TRANSPARENT-BOUNDING-BOX-OUTLINE) | Muestra los bordes y caras de las cajas delimitadoras de cada nodo, alineados con los ejes del espacio de coordenadas local de ese nodo, con un nivel adicional de transparencia. |
-| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | Muestra formas geométricas texturizadas e iluminadas (triángulos) con un nivel adicional de transparencia, con bordes opacos de un solo color sobre ellas. |
+| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | Muestra formas geométricas texturizadas e iluminadas (triángulos) con un nivel adicional de transparencia, con bordes opacos de un solo color sobre ellos. |
 | [VERTICES](#VERTICES) | Muestra solo los vértices en un solo color. |
 | [WIREFRAME](#WIREFRAME) | Muestra solo los bordes en un solo color. |
 ## Métodos
@@ -68,7 +68,7 @@ public static final PdfRenderMode HIDDEN_WIREFRAME
 ```
 
 
-Muestra los bordes en un solo color, aunque elimina los bordes que miran hacia atrás y los bordes ocultos.
+Muestra los bordes en un solo color, aunque elimina los bordes orientados hacia atrás y los bordes ocultos.
 
 ### ILLUSTRATION {#ILLUSTRATION}
 ```
@@ -84,7 +84,7 @@ public static final PdfRenderMode SHADED_ILLUSTRATION
 ```
 
 
-Muestra los bordes de silueta con superficies iluminadas y texturizadas y un término emisivo adicional para eliminar áreas poco iluminadas de la obra.
+Muestra los bordes de silueta con superficies iluminadas y texturizadas y un término emisivo adicional para eliminar las áreas poco iluminadas de la obra.
 
 ### SHADED_VERTICES {#SHADED-VERTICES}
 ```
@@ -124,7 +124,7 @@ public static final PdfRenderMode SOLID_WIREFRAME
 ```
 
 
-Muestra formas geométricas texturizadas e iluminadas (triángulos) con bordes de un solo color sobre ellas.
+Muestra formas geométricas texturizadas e iluminadas (triángulos) con bordes de un solo color sobre ellos.
 
 ### TRANSPARENT {#TRANSPARENT}
 ```
@@ -156,7 +156,7 @@ public static final PdfRenderMode TRANSPARENT_WIREFRAME
 ```
 
 
-Muestra formas geométricas texturizadas e iluminadas (triángulos) con un nivel adicional de transparencia, con bordes opacos de un solo color sobre ellas.
+Muestra formas geométricas texturizadas e iluminadas (triángulos) con un nivel adicional de transparencia, con bordes opacos de un solo color sobre ellos.
 
 ### VERTICES {#VERTICES}
 ```

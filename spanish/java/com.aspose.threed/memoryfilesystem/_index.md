@@ -1,6 +1,6 @@
 ---
 title: "MemoryFileSystem"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El  mapeará las operaciones de lectura/escritura a la memoria."
 type: docs
 weight: 95

@@ -1,6 +1,6 @@
 ---
 title: "Microsoft3MFSaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de guardado para archivo Microsoft 3MF."
 type: docs
 weight: 105
@@ -18,33 +18,33 @@ Opciones de guardado para archivo Microsoft 3MF.
 
 | Constructor | Descripción |
 | --- | --- |
-| [Microsoft3MFSaveOptions()](#Microsoft3MFSaveOptions--) | Construir un [Microsoft3MFSaveOptions](../../com.aspose.threed/microsoft3mfsaveoptions) |
+| [Microsoft3MFSaveOptions()](#Microsoft3MFSaveOptions--) | Construye un [Microsoft3MFSaveOptions](../../com.aspose.threed/microsoft3mfsaveoptions) |
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBuildAll()](#getBuildAll--) | Marcar todas las geometrías en la escena como imprimibles. |
+| [getBuildAll()](#getBuildAll--) | Marcar todas las geometrías en la escena para que sean imprimibles. |
 | [getClass()](#getClass--) |  |
-| [getEnableCompression()](#getEnableCompression--) | Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es true |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEnableCompression()](#getEnableCompression--) | Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es verdadero. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getFileFormat()](#getFileFormat--) | Obtiene el formato de archivo especificado en la opción actual de Guardar/Cargar. |
 | [getFileName()](#getFileName--) | El nombre de archivo de la escena de exportación/importación. |
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBuildAll(boolean value)](#setBuildAll-boolean-) | Marcar todas las geometrías en la escena como imprimibles. |
-| [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es true |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setBuildAll(boolean value)](#setBuildAll-boolean-) | Marcar todas las geometrías en la escena para que sean imprimibles. |
+| [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es verdadero. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | El nombre de archivo de la escena de exportación/importación. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -55,7 +55,7 @@ public Microsoft3MFSaveOptions()
 ```
 
 
-Construir un [Microsoft3MFSaveOptions](../../com.aspose.threed/microsoft3mfsaveoptions)
+Construye un [Microsoft3MFSaveOptions](../../com.aspose.threed/microsoft3mfsaveoptions)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -78,10 +78,10 @@ public boolean getBuildAll()
 ```
 
 
-Marcar todas las geometrías en la escena como imprimibles. O puedes marcar manualmente el nodo como imprimible mediante [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). El valor predeterminado es true
+Marcar todas las geometrías en la escena para que sean imprimibles. O puedes marcar manualmente el nodo para que sea imprimible mediante [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). El valor predeterminado es verdadero.
 
 **Returns:**
-boolean - Marcar todas las geometrías en la escena como imprimibles. O puedes marcar manualmente el nodo como imprimible mediante [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). El valor predeterminado es true
+boolean - Marcar todas las geometrías en la escena para que sean imprimibles. O puedes marcar manualmente el nodo para que sea imprimible mediante [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). El valor predeterminado es verdadero.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -98,20 +98,20 @@ public boolean getEnableCompression()
 ```
 
 
-Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es true
+Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es verdadero.
 
 **Returns:**
-boolean - Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es true
+boolean - Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es verdadero.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -138,10 +138,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -211,7 +211,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -255,7 +255,7 @@ public void setBuildAll(boolean value)
 ```
 
 
-Marcar todas las geometrías en la escena como imprimibles. O puedes marcar manualmente el nodo como imprimible mediante [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). El valor predeterminado es true
+Marcar todas las geometrías en la escena para que sean imprimibles. O puedes marcar manualmente el nodo para que sea imprimible mediante [Microsoft3MFFormat](../../com.aspose.threed/microsoft3mfformat). El valor predeterminado es verdadero.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -268,7 +268,7 @@ public void setEnableCompression(boolean value)
 ```
 
 
-Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es true
+Habilitar compresión en el archivo 3mf de salida. El valor predeterminado es verdadero.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -307,7 +307,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -389,7 +389,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

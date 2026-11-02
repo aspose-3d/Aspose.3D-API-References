@@ -1,6 +1,6 @@
 ---
 title: "ICommandList"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Codifica una secuencia de comandos que se enviarán a la GPU para renderizar."
 type: docs
 weight: 240
@@ -15,23 +15,23 @@ Codifica una secuencia de comandos que se enviarán a la GPU para renderizar.
 
 | Método | Descripción |
 | --- | --- |
-| [bindDescriptorSet(IDescriptorSet descriptorSet)](#bindDescriptorSet-com.aspose.threed.IDescriptorSet-) | Enlazar el conjunto de descriptores al pipeline actual |
-| [bindIndexBuffer(IIndexBuffer indexBuffer)](#bindIndexBuffer-com.aspose.threed.IIndexBuffer-) | Vincular el búfer de índices para renderizar |
-| [bindPipeline(IPipeline pipeline)](#bindPipeline-com.aspose.threed.IPipeline-) | Vincular la instancia de la canalización para renderizar |
-| [bindVertexBuffer(IVertexBuffer vertexBuffer)](#bindVertexBuffer-com.aspose.threed.IVertexBuffer-) | Vincular el búfer de vértices para renderizar |
+| [bindDescriptorSet(IDescriptorSet descriptorSet)](#bindDescriptorSet-com.aspose.threed.IDescriptorSet-) | Enlaza el conjunto de descriptores al pipeline actual |
+| [bindIndexBuffer(IIndexBuffer indexBuffer)](#bindIndexBuffer-com.aspose.threed.IIndexBuffer-) | Enlazar el búfer de índices para renderizar |
+| [bindPipeline(IPipeline pipeline)](#bindPipeline-com.aspose.threed.IPipeline-) | Enlazar la instancia del pipeline para renderizar |
+| [bindVertexBuffer(IVertexBuffer vertexBuffer)](#bindVertexBuffer-com.aspose.threed.IVertexBuffer-) | Enlazar el búfer de vértices para renderizar |
 | [draw()](#draw--) | Dibujar sin búfer de índices |
 | [draw(int start, int count)](#draw-int-int-) | Dibujar sin búfer de índices |
 | [drawIndex()](#drawIndex--) | Emitir un dibujo indexado en una lista de comandos |
 | [drawIndex(int start, int count)](#drawIndex-int-int-) | Emitir un dibujo indexado en una lista de comandos |
-| [pushConstants(int stage, byte[] data)](#pushConstants-int-byte---) | Enviar la constante a la canalización |
-| [pushConstants(int stage, byte[] data, int size)](#pushConstants-int-byte---int-) | Enviar la constante a la canalización |
+| [pushConstants(int stage, byte[] data)](#pushConstants-int-byte---) | Enviar la constante al pipeline |
+| [pushConstants(int stage, byte[] data, int size)](#pushConstants-int-byte---int-) | Enviar la constante al pipeline |
 ### bindDescriptorSet(IDescriptorSet descriptorSet) {#bindDescriptorSet-com.aspose.threed.IDescriptorSet-}
 ```
 public abstract void bindDescriptorSet(IDescriptorSet descriptorSet)
 ```
 
 
-Enlazar el conjunto de descriptores al pipeline actual
+Enlaza el conjunto de descriptores al pipeline actual
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -44,7 +44,7 @@ public abstract void bindIndexBuffer(IIndexBuffer indexBuffer)
 ```
 
 
-Vincular el búfer de índices para renderizar
+Enlazar el búfer de índices para renderizar
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -57,7 +57,7 @@ public abstract void bindPipeline(IPipeline pipeline)
 ```
 
 
-Vincular la instancia de la canalización para renderizar
+Enlazar la instancia del pipeline para renderizar
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -70,7 +70,7 @@ public abstract void bindVertexBuffer(IVertexBuffer vertexBuffer)
 ```
 
 
-Vincular el búfer de vértices para renderizar
+Enlazar el búfer de vértices para renderizar
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -127,7 +127,7 @@ public abstract void pushConstants(int stage, byte[] data)
 ```
 
 
-Enviar la constante a la canalización
+Enviar la constante al pipeline
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -141,12 +141,12 @@ public abstract void pushConstants(int stage, byte[] data, int size)
 ```
 
 
-Enviar la constante a la canalización
+Enviar la constante al pipeline
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | etapa | int | Qué etapa del shader consumirá los datos constantes |
 | datos | byte[] | Los datos que se enviarán al shader |
-| tamaño | int | Bytes a escribir en la canalización |
+| tamaño | int | Bytes a escribir en el pipeline |
 

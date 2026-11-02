@@ -1,7 +1,7 @@
 ---
 title: "FrontFace"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Definir polígonos de cara frontal y posterior"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Definir polígonos frontales y traseros"
 type: docs
 weight: 280
 url: /es/java/com.aspose.threed/frontface/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum FrontFace extends Enum<FrontFace>
 ```
 
-Definir polígonos de cara frontal y posterior
+Definir polígonos frontales y traseros
 ## Campos
 
 | Campo | Descripción |

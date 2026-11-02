@@ -1,7 +1,7 @@
 ---
 title: "AnimationNode"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Aspose.3Ds soporta una jerarquía de animación; cada animación puede estar compuesta por varias animaciones y la definición de fotogramas clave."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Aspose.3Ds admite una jerarquía de animación; cada animación puede estar compuesta por varias animaciones y la definición de fotogramas clave."
 type: docs
 weight: 15
 url: /es/java/com.aspose.threed/animationnode/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationNode extends A3DObject
 ```
 
-Aspose.3D soporta una jerarquía de animación, cada animación puede estar compuesta por varias animaciones y la definición de fotogramas clave de la animación. [AnimationNode](../../com.aspose.threed/animationnode) define la transformación de un valor de propiedad a lo largo del tiempo; por ejemplo, el nodo de animación puede usarse para controlar la transformación de un nodo o las propiedades numéricas de otro objeto [A3DObject](../../com.aspose.threed/a3dobject).
+Aspose.3D admite una jerarquía de animación, cada animación puede estar compuesta por varias animaciones y la definición de fotogramas clave de la animación. [AnimationNode](../../com.aspose.threed/animationnode) define la transformación de un valor de propiedad a lo largo del tiempo; por ejemplo, el nodo de animación puede usarse para controlar la transformación de un nodo o las propiedades numéricas de otro objeto [A3DObject](../../com.aspose.threed/a3dobject).
 ## Constructores
 
 | Constructor | Descripción |
@@ -26,17 +26,17 @@ Aspose.3D soporta una jerarquía de animación, cada animación puede estar comp
 | --- | --- |
 | [createBindPoint(A3DObject obj, String propName)](#createBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | Crea un BindPoint basado en el tipo de datos de la propiedad. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [findBindPoint(A3DObject target, String name)](#findBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | Busca el punto de enlace por objetivo y nombre. |
+| [findBindPoint(A3DObject target, String name)](#findBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | Encuentra el punto de enlace por objetivo y nombre. |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Busca la propiedad. |
 | [getBindPoint(A3DObject target, String propName, boolean create)](#getBindPoint-com.aspose.threed.A3DObject-java.lang.String-boolean-) | Obtiene el punto de enlace de animación en la propiedad dada. |
-| [getBindPoints()](#getBindPoints--) | Obtiene los puntos de enlace de propiedad actuales |
+| [getBindPoints()](#getBindPoints--) | Obtiene los puntos de enlace de la propiedad actual |
 | [getClass()](#getClass--) |  |
 | [getKeyframeSequence(A3DObject target, String propName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-boolean-) | Obtiene la secuencia de fotogramas clave en la propiedad dada. |
 | [getKeyframeSequence(A3DObject target, String propName, String channelName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-java.lang.String-boolean-) | Obtiene la secuencia de fotogramas clave en la propiedad y canal dados. |
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
-| [getSubAnimations()](#getSubAnimations--) | Obtiene los nodos de subanimación bajo las animaciones actuales. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
+| [getSubAnimations()](#getSubAnimations--) | Obtiene los nodos de subanimación bajo las animaciones actuales |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -106,7 +106,7 @@ public BindPoint findBindPoint(A3DObject target, String name)
 ```
 
 
-Busca el punto de enlace por objetivo y nombre.
+Encuentra el punto de enlace por objetivo y nombre.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -122,7 +122,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -154,7 +154,7 @@ public List<BindPoint> getBindPoints()
 ```
 
 
-Obtiene los puntos de enlace de propiedad actuales
+Obtiene los puntos de enlace de la propiedad actual
 
 **Returns:**
 java.util.List<com.aspose.threed.BindPoint> - los puntos de enlace de la propiedad actual
@@ -229,7 +229,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -244,7 +244,7 @@ public List<AnimationNode> getSubAnimations()
 ```
 
 
-Obtiene los nodos de subanimación bajo las animaciones actuales.
+Obtiene los nodos de subanimación bajo las animaciones actuales
 
 **Returns:**
 java.util.List<com.aspose.threed.AnimationNode> - los nodos de subanimación bajo las animaciones actuales

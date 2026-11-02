@@ -1,7 +1,7 @@
 ---
 title: "BindPoint"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Normalmente se crea un  en la propiedad de un objeto; algunos tipos de propiedad contienen varios campos componentes, como un campo Vector3, que generará un canal para cada campo componente y conecta el campo a una o más instancias de secuencia de fotogramas clave a través de los canales."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Un  se crea normalmente en la propiedad de un objeto; algunos tipos de propiedad contienen varios campos componentes (como un campo Vector3) que generarán un canal para cada campo componente y conectan el campo a una o más instancias de secuencia de fotogramas clave a través de los canales."
 type: docs
 weight: 19
 url: /es/java/com.aspose.threed/bindpoint/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class BindPoint extends A3DObject
 ```
 
-Normalmente se crea un [BindPoint](../../com.aspose.threed/bindpoint) en la propiedad de un objeto; algunos tipos de propiedad contienen varios campos componentes (como un campo Vector3), [BindPoint](../../com.aspose.threed/bindpoint) generará un canal para cada campo componente y conecta el campo a una o más instancias de secuencia de fotogramas clave a través de los canales.
+Un [BindPoint](../../com.aspose.threed/bindpoint) se crea normalmente en la propiedad de un objeto; algunos tipos de propiedad contienen varios campos componentes (como un campo Vector3), [BindPoint](../../com.aspose.threed/bindpoint) generará un canal para cada campo componente y conectará el campo a una o más instancias de secuencia de fotogramas clave a través de los canales.
 ## Constructores
 
 | Constructor | Descripción |
@@ -37,7 +37,7 @@ Normalmente se crea un [BindPoint](../../com.aspose.threed/bindpoint) en la prop
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
 | [getProperty()](#getProperty--) | Obtiene la propiedad asociada con el CurveMapping |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -81,7 +81,7 @@ Agrega la propiedad de canal especificada.
 | valor | java.lang.Object | Valor. |
 
 **Returns:**
-booleano - verdadero, si el canal fue añadido, falso en caso contrario.
+booleano - true, si el canal fue añadido, false en caso contrario.
 ### addChannel(String name, Object value) {#addChannel-java.lang.String-java.lang.Object-}
 ```
 public boolean addChannel(String name, Object value)
@@ -97,7 +97,7 @@ Agrega la propiedad de canal especificada.
 | valor | java.lang.Object | Valor. |
 
 **Returns:**
-booleano - verdadero, si el canal fue añadido, falso en caso contrario.
+booleano - true, si el canal fue añadido, false en caso contrario.
 ### bindKeyframeSequence(String channelName, KeyframeSequence sequence) {#bindKeyframeSequence-java.lang.String-com.aspose.threed.KeyframeSequence-}
 ```
 public void bindKeyframeSequence(String channelName, KeyframeSequence sequence)
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -258,7 +258,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

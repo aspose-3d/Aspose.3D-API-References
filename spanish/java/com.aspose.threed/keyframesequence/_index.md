@@ -1,6 +1,6 @@
 ---
 title: "KeyframeSequence"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La secuencia de fotogramas clave describe la transformación de un valor muestreado a lo largo del tiempo."
 type: docs
 weight: 90
@@ -38,7 +38,7 @@ La secuencia de fotogramas clave describe la transformación de un valor muestre
 | [getPostBehavior()](#getPostBehavior--) | Obtiene el comportamiento posterior que indica cuál debe ser el valor muestreado después del último fotograma clave. |
 | [getPreBehavior()](#getPreBehavior--) | Obtiene el comportamiento previo que indica cuál debe ser el valor muestreado antes del primer fotograma clave. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Obtiene el enumerador para recorrer todos los fotogramas clave. |
 | [notify()](#notify--) |  |
@@ -123,7 +123,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -208,7 +208,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

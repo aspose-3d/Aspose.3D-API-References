@@ -1,6 +1,6 @@
 ---
 title: "FileSystemFactory"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "y  creará un com.aspose.threed.LocalFileSystem por defecto."
 type: docs
 weight: 238

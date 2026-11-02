@@ -1,6 +1,6 @@
 ---
 title: "WeightedMode"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Modo ponderado."
 type: docs
 weight: 231
@@ -23,10 +23,10 @@ Modo ponderado.
 
 | Campo | Descripción |
 | --- | --- |
-| [BOTH](#BOTH) | Ambas tangentes de salida y de entrada siguiente están ponderadas. |
-| [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | La siguiente tangente de entrada (izquierda) está ponderada. |
-| [NONE](#NONE) | No se utilizan los pesos de salida y de entrada siguiente. |
-| [OUT_WEIGHT](#OUT-WEIGHT) | La tangente de salida (derecha) está ponderada. |
+| [BOTH](#BOTH) | Ambas tangentes out y next in están ponderadas. |
+| [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | La tangente next in (izquierda) está ponderada. |
+| [NONE](#NONE) | Ambos pesos out y next in no se utilizan. |
+| [OUT_WEIGHT](#OUT-WEIGHT) | La tangente out (derecha) está ponderada. |
 ## Métodos
 
 | Método | Descripción |
@@ -52,7 +52,7 @@ public static final int BOTH
 ```
 
 
-Ambas tangentes de salida y de entrada siguiente están ponderadas.
+Ambas tangentes out y next in están ponderadas.
 
 ### NEXT_IN_WEIGHT {#NEXT-IN-WEIGHT}
 ```
@@ -60,7 +60,7 @@ public static final int NEXT_IN_WEIGHT
 ```
 
 
-La siguiente tangente de entrada (izquierda) está ponderada.
+La tangente next in (izquierda) está ponderada.
 
 ### NONE {#NONE}
 ```
@@ -68,7 +68,7 @@ public static final int NONE
 ```
 
 
-No se utilizan los pesos de salida y de entrada siguiente. Cuando el cálculo necesita información de la tangente, se usará el valor predeterminado (0.3333).
+Ambos pesos out y next in no se utilizan. Cuando el cálculo necesita información de la tangente, se usará el valor predeterminado (0.3333).
 
 ### OUT_WEIGHT {#OUT-WEIGHT}
 ```
@@ -76,7 +76,7 @@ public static final int OUT_WEIGHT
 ```
 
 
-La tangente de salida (derecha) está ponderada.
+La tangente out (derecha) está ponderada.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

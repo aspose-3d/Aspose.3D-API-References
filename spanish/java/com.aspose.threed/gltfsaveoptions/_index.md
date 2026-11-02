@@ -1,6 +1,6 @@
 ---
 title: "GltfSaveOptions"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Opciones de guardado para el formato glTF."
 type: docs
 weight: 74
@@ -30,7 +30,7 @@ Opciones de guardado para el formato glTF.
 | [getClass()](#getClass--) |  |
 | [getDracoCompression()](#getDracoCompression--) | Obtiene si se debe habilitar la compresión draco |
 | [getEmbedAssets()](#getEmbedAssets--) | Incrusta todos los recursos externos como base64 en un solo archivo en modo ASCII, el valor predeterminado es false. |
-| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos de texto. |
+| [getEncoding()](#getEncoding--) | Obtiene la codificación predeterminada para archivos basados en texto. |
 | [getExportTextures()](#getExportTextures--) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [getExternalDracoEncoder()](#getExternalDracoEncoder--) | Utiliza un codificador draco externo para acelerar la velocidad de compresión draco. |
 | [getFallbackNormal()](#getFallbackNormal--) | Cuando el exportador GLTF2 detecta una normal inválida, esto se usará en lugar de su valor original para eludir la validación. |
@@ -39,8 +39,8 @@ Opciones de guardado para el formato glTF.
 | [getFileSystem()](#getFileSystem--) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [getFileSystemFactory()](#getFileSystemFactory--) | Obtiene la clase fábrica para FileSystem. |
 | [getFlipTexCoordV()](#getFlipTexCoordV--) | Invierte el componente v(t) de la coordenada de textura, el valor predeterminado es true. |
-| [getImageFormat()](#getImageFormat--) | El glTF estándar solo admite PNG/JPG como su formato de textura, esta opción guiará cómo Aspose.3D convierte las imágenes no estándar al formato compatible durante la exportación. |
-| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [getImageFormat()](#getImageFormat--) | El glTF estándar solo admite PNG/JPG como formato de textura; esta opción indicará cómo Aspose.3D convierte las imágenes no estándar al formato compatible durante la exportación. |
+| [getLookupPaths()](#getLookupPaths--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [getMaterialConverter()](#getMaterialConverter--) | Convertidor personalizado para convertir el material de la geometría a material PBR. Si no se asigna, el exportador glTF 2.0 convertirá automáticamente el material estándar a material PBR. |
 | [getPrettyPrint()](#getPrettyPrint--) | El contenido JSON del archivo GLTF está indentado para la lectura humana, el valor predeterminado es false. |
 | [getSaveExtras()](#getSaveExtras--) | Guarde las propiedades dinámicas del objeto de escena en campos 'extra' en el archivo glTF generado. |
@@ -52,7 +52,7 @@ Opciones de guardado para el formato glTF.
 | [setBufferFile(String value)](#setBufferFile-java.lang.String-) | El nombre de archivo del archivo de búfer externo utilizado para almacenar datos binarios. |
 | [setDracoCompression(boolean value)](#setDracoCompression-boolean-) | Establece si se habilita la compresión draco. |
 | [setEmbedAssets(boolean value)](#setEmbedAssets-boolean-) | Incrusta todos los recursos externos como base64 en un solo archivo en modo ASCII, el valor predeterminado es false. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos de texto. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Establece la codificación predeterminada para archivos basados en texto. |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | Intenta copiar las texturas usadas en la escena al directorio de salida. |
 | [setExternalDracoEncoder(String value)](#setExternalDracoEncoder-java.lang.String-) | Utiliza un codificador draco externo para acelerar la velocidad de compresión draco. |
 | [setFallbackNormal(Vector3 value)](#setFallbackNormal-com.aspose.threed.Vector3-) | Cuando el exportador GLTF2 detecta una normal inválida, esto se usará en lugar de su valor original para eludir la validación. |
@@ -60,8 +60,8 @@ Opciones de guardado para el formato glTF.
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Permite al usuario manejar cómo gestionar las dependencias externas durante la carga/guardado. |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Establece la clase fábrica para FileSystem. |
 | [setFlipTexCoordV(boolean value)](#setFlipTexCoordV-boolean-) | Invierte el componente v(t) de la coordenada de textura, el valor predeterminado es true. |
-| [setImageFormat(GltfEmbeddedImageFormat value)](#setImageFormat-com.aspose.threed.GltfEmbeddedImageFormat-) | El glTF estándar solo admite PNG/JPG como su formato de textura, esta opción guiará cómo Aspose.3D convierte las imágenes no estándar al formato compatible durante la exportación. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo. |
+| [setImageFormat(GltfEmbeddedImageFormat value)](#setImageFormat-com.aspose.threed.GltfEmbeddedImageFormat-) | El glTF estándar solo admite PNG/JPG como formato de textura; esta opción indicará cómo Aspose.3D convierte las imágenes no estándar al formato compatible durante la exportación. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. |
 | [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | Convertidor personalizado para convertir el material de la geometría a material PBR. Si no se asigna, el exportador glTF 2.0 convertirá automáticamente el material estándar a material PBR. |
 | [setPrettyPrint(boolean value)](#setPrettyPrint-boolean-) | El contenido JSON del archivo GLTF está indentado para la lectura humana, el valor predeterminado es false. |
 | [setSaveExtras(boolean value)](#setSaveExtras-boolean-) | Guarde las propiedades dinámicas del objeto de escena en campos 'extra' en el archivo glTF generado. |
@@ -167,10 +167,10 @@ public Charset getEncoding()
 ```
 
 
-Obtiene la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+Obtiene la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 
 **Returns:**
-java.nio.charset.Charset - la codificación predeterminada para archivos de texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
+java.nio.charset.Charset - la codificación predeterminada para archivos basados en texto. El valor predeterminado es null, lo que significa que el importador/exportador decidirá qué codificación usar.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
@@ -190,14 +190,14 @@ public String getExternalDracoEncoder()
 Utiliza un codificador draco externo para acelerar la velocidad de compresión draco.
 
 **Returns:**
-java.lang.String - Use un codificador draco externo para acelerar la velocidad de compresión draco. **Remarks:** Aspose.3D creará un nuevo subproceso para codificar la malla al formato draco, úselo bajo su propio riesgo.
+java.lang.String - Utilice un codificador draco externo para acelerar la velocidad de compresión draco. **Remarks:** Aspose.3D creará un nuevo subproceso para codificar la malla al formato draco, úselo bajo su propio riesgo.
 ### getFallbackNormal() {#getFallbackNormal--}
 ```
 public Vector3 getFallbackNormal()
 ```
 
 
-Cuando el exportador GLTF2 detecta una normal inválida, esto se usará en lugar de su valor original para evitar la validación. El valor predeterminado es (0, 1, 0).
+Cuando el exportador GLTF2 detecta una normal inválida, se usará esto en lugar de su valor original para evitar la validación. El valor predeterminado es (0, 1, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - When GLTF2 exporter detected an invalid normal, this will be used instead of its original value to bypass the validation. Default value is (0, 1, 0)
@@ -217,10 +217,10 @@ public String getFileName()
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Returns:**
-java.lang.String - El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+java.lang.String - El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -293,14 +293,14 @@ public boolean getFlipTexCoordV()
 Invierte el componente v(t) de la coordenada de textura, el valor predeterminado es true.
 
 **Returns:**
-boolean - Invierta el componente v(t) de la coordenada de textura, el valor predeterminado es true.
+boolean - Invertir el componente v(t) de la coordenada de textura, el valor predeterminado es true.
 ### getImageFormat() {#getImageFormat--}
 ```
 public GltfEmbeddedImageFormat getImageFormat()
 ```
 
 
-El glTF estándar solo admite PNG/JPG como su formato de textura, esta opción guiará cómo Aspose.3D convierte las imágenes no estándar al formato compatible durante la exportación. El valor predeterminado es [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
+El glTF estándar solo admite PNG/JPG como formato de textura; esta opción indicará cómo Aspose.3D convierte las imágenes no estándar al formato compatible durante la exportación. El valor predeterminado es [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
 
 **Returns:**
 [GltfEmbeddedImageFormat](../../com.aspose.threed/gltfembeddedimageformat) - Standard glTF only supports PNG/JPG as its texture format, this option will guide how Aspose.3D convert the non-standard images to supported format during the exporting. Default value is [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
@@ -310,7 +310,7 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Returns:**
 java.util.ArrayList<java.lang.String> - Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar. **Ejemplo:** El siguiente código muestra cómo especificar manualmente las texturas de búsqueda, para que el importador pueda encontrarlas
@@ -348,7 +348,7 @@ public boolean getSaveExtras()
 ```
 
 
-Guarde las propiedades dinámicas del objeto de escena en campos 'extra' en el archivo glTF generado. Esto es útil para proporcionar datos específicos de la aplicación. El valor predeterminado es false.
+Guarde las propiedades dinámicas del objeto de escena en campos 'extra' en el archivo GLTF generado. Esto es útil para proporcionar datos específicos de la aplicación. El valor predeterminado es false.
 
 **Returns:**
 boolean - Guarde las propiedades dinámicas del objeto de escena en campos 'extra' en el archivo GLTF generado. Esto es útil para proporcionar datos específicos de la aplicación. El valor predeterminado es false.
@@ -358,10 +358,10 @@ public boolean getUseCommonMaterials()
 ```
 
 
-Serialice los materiales usando extensiones de material comunes KHR, el valor predeterminado es false. Establecer esto en false hará que Aspose.3D exporte un conjunto de sombreadores de vértice/fragmento si [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
+Serialice los materiales usando extensiones de material comunes KHR, el valor predeterminado es false. Establecer esto en false hará que Aspose.3D exporte un conjunto de shaders de vértice/fragmento si [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
 
 **Returns:**
-boolean - Serialice los materiales usando extensiones de material comunes KHR, el valor predeterminado es false. Establecer esto en false hará que Aspose.3D exporte un conjunto de sombreadores de vértice/fragmento si [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) **Remarks:** Esta propiedad solo funciona para glTF 1.0
+boolean - Serialice los materiales usando extensiones de material comunes KHR, el valor predeterminado es false. Establecer esto en false hará que Aspose.3D exporte un conjunto de shaders de vértice/fragmento si [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) **Remarks:** Esta propiedad solo funciona para glTF 1.0
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -485,7 +485,7 @@ public void setFallbackNormal(Vector3 value)
 ```
 
 
-Cuando el exportador GLTF2 detecta una normal inválida, esto se usará en lugar de su valor original para evitar la validación. El valor predeterminado es (0, 1, 0).
+Cuando el exportador GLTF2 detecta una normal inválida, se usará esto en lugar de su valor original para evitar la validación. El valor predeterminado es (0, 1, 0).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -498,7 +498,7 @@ public void setFileName(String value)
 ```
 
 
-El nombre de archivo de la escena de exportación/importación. Esto es opcional, pero útil al serializar recursos externos como el material de OBJ.
+El nombre de archivo de la escena de exportación/importación. Es opcional, pero útil al serializar recursos externos como el material de OBJ.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -593,7 +593,7 @@ public void setImageFormat(GltfEmbeddedImageFormat value)
 ```
 
 
-El glTF estándar solo admite PNG/JPG como su formato de textura, esta opción guiará cómo Aspose.3D convierte las imágenes no estándar al formato compatible durante la exportación. El valor predeterminado es [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
+El glTF estándar solo admite PNG/JPG como formato de textura; esta opción indicará cómo Aspose.3D convierte las imágenes no estándar al formato compatible durante la exportación. El valor predeterminado es [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -606,7 +606,7 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Algunos archivos como OBJ dependen de archivos externos; las rutas de búsqueda permitirán a Aspose.3D buscar el archivo externo para cargarlo.
+Algunos archivos como OBJ dependen de archivos externos, las rutas de búsqueda permitirán a Aspose.3D buscar archivos externos para cargar.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -653,7 +653,7 @@ public void setSaveExtras(boolean value)
 ```
 
 
-Guarde las propiedades dinámicas del objeto de escena en campos 'extra' en el archivo glTF generado. Esto es útil para proporcionar datos específicos de la aplicación. El valor predeterminado es false.
+Guarde las propiedades dinámicas del objeto de escena en campos 'extra' en el archivo GLTF generado. Esto es útil para proporcionar datos específicos de la aplicación. El valor predeterminado es false.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -666,7 +666,7 @@ public void setUseCommonMaterials(boolean value)
 ```
 
 
-Serialice los materiales usando extensiones de material comunes KHR, el valor predeterminado es false. Establecer esto en false hará que Aspose.3D exporte un conjunto de sombreadores de vértice/fragmento si [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
+Serialice los materiales usando extensiones de material comunes KHR, el valor predeterminado es false. Establecer esto en false hará que Aspose.3D exporte un conjunto de shaders de vértice/fragmento si [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

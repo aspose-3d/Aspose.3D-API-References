@@ -1,6 +1,6 @@
 ---
 title: "Light"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La luz ilumina la escena."
 type: docs
 weight: 94
@@ -31,17 +31,17 @@ La fórmula para calcular la atenuación total de la luz es:  A = ConstantAttenu
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Busca la propiedad. |
 | [getAspect()](#getAspect--) | Obtiene la relación de aspecto del frustum |
 | [getBoundingBox()](#getBoundingBox--) | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objetos. |
-| [getCastLight()](#getCastLight--) | Obtiene si la instancia actual de Light puede iluminar otros objetos. |
+| [getCastLight()](#getCastLight--) | Obtiene si la instancia actual de luz puede iluminar otros objetos. |
 | [getCastShadows()](#getCastShadows--) | Obtiene si la luz puede proyectar sombras sobre otros objetos. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Obtiene el color de la luz |
 | [getConstantAttenuation()](#getConstantAttenuation--) | Obtiene la atenuación constante para calcular la atenuación total de la luz |
 | [getDirection()](#getDirection--) | Obtiene la dirección a la que mira la cámara. |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getFalloff()](#getFalloff--) | Obtiene el ángulo del cono de caída (en grados). |
 | [getFarPlane()](#getFarPlane--) | Obtiene la distancia del plano lejano del frustum. |
-| [getHotSpot()](#getHotSpot--) | Obtiene el ángulo del cono del punto caliente(en grados). |
+| [getHotSpot()](#getHotSpot--) | Obtiene el ángulo del cono del punto caliente (en grados). |
 | [getIntensity()](#getIntensity--) | Obtiene la intensidad de la luz, el valor predeterminado es 100 |
 | [getLightType()](#getLightType--) | Obtiene el tipo de la luz |
 | [getLinearAttenuation()](#getLinearAttenuation--) | Obtiene la atenuación lineal para calcular la atenuación total de la luz |
@@ -49,10 +49,10 @@ La fórmula para calcular la atenuación total de la luz es:  A = ConstantAttenu
 | [getName()](#getName--) | Obtiene el nombre. |
 | [getNearPlane()](#getNearPlane--) | Obtiene la distancia del plano cercano del frustum. |
 | [getOrthoHeight()](#getOrthoHeight--) | Obtiene la altura cuando el frustum está en proyección ortográfica. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getQuadraticAttenuation()](#getQuadraticAttenuation--) | Obtiene la atenuación cuadrática para calcular la atenuación total de la luz |
 | [getRotationMode()](#getRotationMode--) | Obtiene el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
@@ -70,10 +70,10 @@ La fórmula para calcular la atenuación total de la luz es:  A = ConstantAttenu
 | [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | Establece el color de la luz |
 | [setConstantAttenuation(double value)](#setConstantAttenuation-double-) | Establece la atenuación constante para calcular la atenuación total de la luz |
 | [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | Establece la dirección a la que la cámara está mirando. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
 | [setFalloff(double value)](#setFalloff-double-) | Establece el ángulo del cono de caída (en grados). |
 | [setFarPlane(double value)](#setFarPlane-double-) | Establece la distancia del plano lejano del frustum. |
-| [setHotSpot(double value)](#setHotSpot-double-) | Establece el ángulo del cono del punto caliente(en grados). |
+| [setHotSpot(double value)](#setHotSpot-double-) | Establece el ángulo del cono del punto caliente (en grados). |
 | [setIntensity(double value)](#setIntensity-double-) | Establece la intensidad de la luz, el valor predeterminado es 100 |
 | [setLightType(LightType value)](#setLightType-com.aspose.threed.LightType-) | Establece el tipo de la luz |
 | [setLinearAttenuation(double value)](#setLinearAttenuation-double-) | Establece la atenuación lineal para calcular la atenuación total de la luz |
@@ -81,13 +81,13 @@ La fórmula para calcular la atenuación total de la luz es:  A = ConstantAttenu
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
 | [setNearPlane(double value)](#setNearPlane-double-) | Establece la distancia del plano cercano del frustum. |
 | [setOrthoHeight(double value)](#setOrthoHeight-double-) | Establece la altura cuando el frustum está en proyección ortográfica. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
-| [setQuadraticAttenuation(double value)](#setQuadraticAttenuation-double-) | Establece la atenuación cuadrática para calcular la atenuación total de la luz |
+| [setQuadraticAttenuation(double value)](#setQuadraticAttenuation-double-) | Establece la atenuación cuadrática para calcular la atenuación total de la luz. |
 | [setRotationMode(RotationMode value)](#setRotationMode-com.aspose.threed.RotationMode-) | Establece el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. |
 | [setShadowColor(Vector3 value)](#setShadowColor-com.aspose.threed.Vector3-) | Establece el color de la sombra. |
 | [setTarget(Node value)](#setTarget-com.aspose.threed.Node-) | Establece el objetivo al que la cámara está mirando. |
-| [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | Establece la dirección superior de la cámara |
+| [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | Establece la dirección ascendente de la cámara. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -125,7 +125,7 @@ Inicializa una nueva instancia de la clase [Light](../../com.aspose.threed/light
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | nombre | java.lang.String | Nombre |
-| type | [LightType](../../com.aspose.threed/lighttype) | Nuevo tipo de luz |
+| type | [LightType](../../com.aspose.threed/lighttype) | Nuevo tipo de luz. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -190,7 +190,7 @@ public boolean getCastLight()
 ```
 
 
-Obtiene si la instancia actual de Light puede iluminar otros objetos.
+Obtiene si la instancia actual de luz puede iluminar otros objetos.
 
 **Returns:**
 boolean - si la instancia actual de luz puede iluminar otros objetos.
@@ -260,10 +260,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getFalloff() {#getFalloff--}
 ```
 public double getFalloff()
@@ -290,7 +290,7 @@ public double getHotSpot()
 ```
 
 
-Obtiene el ángulo del cono del punto caliente(en grados).
+Obtiene el ángulo del cono del punto caliente (en grados).
 
 **Returns:**
 double - el ángulo del cono del punto caliente (en grados).
@@ -370,7 +370,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -380,7 +380,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -400,7 +400,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -425,7 +425,7 @@ public RotationMode getRotationMode()
 ```
 
 
-Obtiene el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. Si el valor es [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), la dirección siempre se calcula mediante la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt). De lo contrario, el [getLookAt](../../com.aspose.threed/frustum\#getLookAt) siempre se calcula mediante el [getDirection](../../com.aspose.threed/frustum\#getDirection).
+Obtiene el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. Si el valor es [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), la dirección siempre se calcula mediante la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt) De lo contrario, el [getLookAt](../../com.aspose.threed/frustum\#getLookAt) siempre se calcula mediante [getDirection](../../com.aspose.threed/frustum\#getDirection)
 
 **Returns:**
 [RotationMode](../../com.aspose.threed/rotationmode) - the frustum's orientation mode This property only works when the [getTarget](../../com.aspose.threed/frustum\#getTarget) is null. If the value is [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), the direction is always calculated by the property [getLookAt](../../com.aspose.threed/frustum\#getLookAt) Otherwise the [getLookAt](../../com.aspose.threed/frustum\#getLookAt) is always calculated by the [getDirection](../../com.aspose.threed/frustum\#getDirection)
@@ -455,7 +455,7 @@ public Node getTarget()
 ```
 
 
-Obtiene el objetivo al que la cámara está mirando. Si el usuario admite esta propiedad, debe preceder a la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt).
+Obtiene el objetivo al que la cámara está mirando. Si el usuario admite esta propiedad, debe ser anterior a la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt).
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the target that the camera is looking at. If the user supports this property, it should be prior to [getLookAt](../../com.aspose.threed/frustum\#getLookAt) property.
@@ -609,7 +609,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -648,7 +648,7 @@ public void setHotSpot(double value)
 ```
 
 
-Establece el ángulo del cono del punto caliente(en grados).
+Establece el ángulo del cono del punto caliente (en grados).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -752,7 +752,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -779,7 +779,7 @@ public void setQuadraticAttenuation(double value)
 ```
 
 
-Establece la atenuación cuadrática para calcular la atenuación total de la luz
+Establece la atenuación cuadrática para calcular la atenuación total de la luz.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -792,7 +792,7 @@ public void setRotationMode(RotationMode value)
 ```
 
 
-Establece el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. Si el valor es [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), la dirección siempre se calcula mediante la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt). De lo contrario, el [getLookAt](../../com.aspose.threed/frustum\#getLookAt) siempre se calcula mediante el [getDirection](../../com.aspose.threed/frustum\#getDirection).
+Establece el modo de orientación del frustum. Esta propiedad solo funciona cuando el [getTarget](../../com.aspose.threed/frustum\#getTarget) es nulo. Si el valor es [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), la dirección siempre se calcula mediante la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt) De lo contrario, el [getLookAt](../../com.aspose.threed/frustum\#getLookAt) siempre se calcula mediante [getDirection](../../com.aspose.threed/frustum\#getDirection).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -818,7 +818,7 @@ public void setTarget(Node value)
 ```
 
 
-Establece el objetivo al que la cámara está mirando. Si el usuario admite esta propiedad, debe ser antes de la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt).
+Establece el objetivo al que la cámara está mirando. Si el usuario admite esta propiedad, debe estar antes de la propiedad [getLookAt](../../com.aspose.threed/frustum\#getLookAt).
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -831,7 +831,7 @@ public void setUp(Vector3 value)
 ```
 
 
-Establece la dirección superior de la cámara
+Establece la dirección ascendente de la cámara.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

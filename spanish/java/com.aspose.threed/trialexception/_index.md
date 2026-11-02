@@ -1,6 +1,6 @@
 ---
 title: "TrialException"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Esto se genera en Scene.Open/Scene.Save cuando no se aplican licencias."
 type: docs
 weight: 195
@@ -162,10 +162,10 @@ public static boolean getSuppressTrialException()
 ```
 
 
-Establece esto a true para suprimir la excepción de prueba en uso sin licencia, pero las restricciones no se levantarán. Para levantar las restricciones, por favor usa una licencia adecuada. Además, establecer esto a true también significa que eres consciente de las restricciones sin licencia.
+Establece esto a true para suprimir la excepción de prueba en uso sin licencia, pero las restricciones no se levantarán. Para levantar las restricciones, por favor utiliza una licencia adecuada. Además, establecer esto a true también significa que eres consciente de las restricciones sin licencia.
 
 **Returns:**
-boolean - Establece esto a true para suprimir la excepción de prueba en uso sin licencia, pero las restricciones no se levantarán. Para levantar las restricciones, por favor usa una licencia adecuada. Además, establecer esto a true también significa que eres consciente de las restricciones sin licencia.
+boolean - Establece esto a true para suprimir la excepción de prueba en uso sin licencia, pero las restricciones no se levantarán. Para levantar las restricciones, por favor utiliza una licencia adecuada. Además, establecer esto a true también significa que eres consciente de las restricciones sin licencia.
 ### getSuppressed() {#getSuppressed--}
 ```
 public final synchronized Throwable[] getSuppressed()
@@ -270,7 +270,7 @@ public static void setSuppressTrialException(boolean value)
 ```
 
 
-Establece esto a true para suprimir la excepción de prueba en uso sin licencia, pero las restricciones no se levantarán. Para levantar las restricciones, por favor usa una licencia adecuada. Además, establecer esto a true también significa que eres consciente de las restricciones sin licencia.
+Establece esto a true para suprimir la excepción de prueba en uso sin licencia, pero las restricciones no se levantarán. Para levantar las restricciones, por favor utiliza una licencia adecuada. Además, establecer esto a true también significa que eres consciente de las restricciones sin licencia.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

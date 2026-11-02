@@ -1,7 +1,7 @@
 ---
 title: "TransformBuilder"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "El  se usa para construir una matriz de transformación mediante una cadena de transformaciones."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "El  se usa para construir la matriz de transformación mediante una cadena de transformaciones."
 type: docs
 weight: 191
 url: /es/java/com.aspose.threed/transformbuilder/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TransformBuilder
 ```
 
-El [TransformBuilder](../../com.aspose.threed/transformbuilder) se usa para construir una matriz de transformación mediante una cadena de transformaciones. **Ejemplo:** El siguiente código muestra cómo crear una matriz mediante un conjunto de operaciones
+El [TransformBuilder](../../com.aspose.threed/transformbuilder) se usa para construir la matriz de transformación mediante una cadena de transformaciones. **Ejemplo:** El siguiente código muestra cómo crear una matriz mediante un conjunto de operaciones
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -45,22 +45,22 @@ TransformBuilder tb = new TransformBuilder();
 | [prepend(Matrix4 m)](#prepend-com.aspose.threed.Matrix4-) | Antepone la nueva matriz de transformación a la cadena de transformaciones. |
 | [rearrange(Axis newX, Axis newY, Axis newZ)](#rearrange-com.aspose.threed.Axis-com.aspose.threed.Axis-com.aspose.threed.Axis-) | Reorganiza la disposición del eje. |
 | [reset()](#reset--) | Restablece la transformación a la matriz de identidad |
-| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | Encadena una rotación mediante un cuaternión **Example:** |
-| [rotateDegree(Vector3 rot, RotationOrder order)](#rotateDegree-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Añade rotación con orden especificado |
+| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | Encadena una rotación por un cuaternión **Ejemplo:** |
+| [rotateDegree(Vector3 rot, RotationOrder order)](#rotateDegree-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Añadir rotación con orden especificado |
 | [rotateDegree(double angle, Vector3 axis)](#rotateDegree-double-com.aspose.threed.Vector3-) | Encadena una transformación de rotación en grados |
-| [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | Encadena una rotación por ángulos de Euler en grados **Example:** |
-| [rotateEulerRadian(Vector3 r)](#rotateEulerRadian-com.aspose.threed.Vector3-) | Encadena una rotación por ángulos de Euler en radianes **Example:** |
-| [rotateEulerRadian(double x, double y, double z)](#rotateEulerRadian-double-double-double-) | Encadena una rotación por ángulos de Euler en radianes **Example:** |
-| [rotateRadian(Vector3 rot, RotationOrder order)](#rotateRadian-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Añade rotación con orden especificado |
+| [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | Encadena una rotación por ángulos de Euler en grados **Ejemplo:** |
+| [rotateEulerRadian(Vector3 r)](#rotateEulerRadian-com.aspose.threed.Vector3-) | Encadena una rotación por ángulos de Euler en radianes **Ejemplo:** |
+| [rotateEulerRadian(double x, double y, double z)](#rotateEulerRadian-double-double-double-) | Encadena una rotación por ángulos de Euler en radianes **Ejemplo:** |
+| [rotateRadian(Vector3 rot, RotationOrder order)](#rotateRadian-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Añadir rotación con orden especificado |
 | [rotateRadian(double angle, Vector3 axis)](#rotateRadian-double-com.aspose.threed.Vector3-) | Encadena una transformación de rotación en radianes |
-| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | Encadena una transformación de escala **Example:** |
-| [scale(double s)](#scale-double-) | Encadena una matriz de transformación de escalado con un componente escalado por s **Example:** |
-| [scale(double x, double y, double z)](#scale-double-double-double-) | Encadena una matriz de transformación de escalado **Example:** |
+| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | Encadena una transformación de escala **Ejemplo:** |
+| [scale(double s)](#scale-double-) | Encadena una matriz de transformación de escala con un componente escalado por s **Ejemplo:** |
+| [scale(double x, double y, double z)](#scale-double-double-double-) | Encadena una matriz de transformación de escala **Ejemplo:** |
 | [setComposeOrder(ComposeOrder value)](#setComposeOrder-com.aspose.threed.ComposeOrder-) | Establece el orden de composición de la cadena. |
 | [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | Establece el valor actual de la matriz |
 | [toString()](#toString--) |  |
-| [translate(Vector3 v)](#translate-com.aspose.threed.Vector3-) | Encadena una transformación de traslación **Example:** |
-| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | Encadena una transformación de traslación **Example:** |
+| [translate(Vector3 v)](#translate-com.aspose.threed.Vector3-) | Encadena una transformación de traslación **Ejemplo:** |
+| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | Encadena una transformación de traslación **Ejemplo:** |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -224,9 +224,9 @@ Reorganiza la disposición del eje.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| newX | [Axis](../../com.aspose.threed/axis) | La nueva fuente del componente x |
-| newY | [Axis](../../com.aspose.threed/axis) | La nueva fuente del componente y |
-| newZ | [Axis](../../com.aspose.threed/axis) | La nueva fuente del componente z |
+| newX | [Axis](../../com.aspose.threed/axis) | El origen del nuevo componente x |
+| newY | [Axis](../../com.aspose.threed/axis) | El origen del nuevo componente y |
+| newZ | [Axis](../../com.aspose.threed/axis) | El origen del nuevo componente z |
 
 **Returns:**
 [TransformBuilder](../../com.aspose.threed/transformbuilder)
@@ -244,7 +244,7 @@ public TransformBuilder rotate(Quaternion q)
 ```
 
 
-Encadena una rotación mediante un cuaternión **Example:**
+Encadena una rotación por un cuaternión **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -265,7 +265,7 @@ public void rotateDegree(Vector3 rot, RotationOrder order)
 ```
 
 
-Añade rotación con orden especificado
+Añadir rotación con orden especificado
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -285,7 +285,7 @@ Encadena una transformación de rotación en grados
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | ángulo | double | El ángulo para rotar en grados |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | El eje para rotar **Example:** |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | El eje para rotar **Ejemplo:** |
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -301,7 +301,7 @@ public TransformBuilder rotateEulerDegree(double degX, double degY, double degZ)
 ```
 
 
-Encadena una rotación por ángulos de Euler en grados **Example:**
+Encadena una rotación por ángulos de Euler en grados **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -324,7 +324,7 @@ public TransformBuilder rotateEulerRadian(Vector3 r)
 ```
 
 
-Encadena una rotación por ángulos de Euler en radianes **Example:**
+Encadena una rotación por ángulos de Euler en radianes **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -345,7 +345,7 @@ public TransformBuilder rotateEulerRadian(double x, double y, double z)
 ```
 
 
-Encadena una rotación por ángulos de Euler en radianes **Example:**
+Encadena una rotación por ángulos de Euler en radianes **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -368,12 +368,12 @@ public void rotateRadian(Vector3 rot, RotationOrder order)
 ```
 
 
-Añade rotación con orden especificado
+Añadir rotación con orden especificado
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-|  | rot | [Vector3](../../com.aspose.threed/vector3) | Rotación en radianes **Example:** |
+|  | rot | [Vector3](../../com.aspose.threed/vector3) | Rotación en radianes **Ejemplo:** |
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -394,7 +394,7 @@ Encadena una transformación de rotación en radianes
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | ángulo | double | El ángulo para rotar en radianes |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | El eje para rotar **Example:** |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | El eje para rotar **Ejemplo:** |
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -410,7 +410,7 @@ public TransformBuilder scale(Vector3 s)
 ```
 
 
-Encadena una transformación de escala **Example:**
+Encadena una transformación de escala **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -431,7 +431,7 @@ public TransformBuilder scale(double s)
 ```
 
 
-Encadena una matriz de transformación de escalado con un componente escalado por s **Example:**
+Encadena una matriz de transformación de escala con un componente escalado por s **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -452,7 +452,7 @@ public TransformBuilder scale(double x, double y, double z)
 ```
 
 
-Encadena una matriz de transformación de escalado **Example:**
+Encadena una matriz de transformación de escala **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -511,7 +511,7 @@ public TransformBuilder translate(Vector3 v)
 ```
 
 
-Encadena una transformación de traslación **Example:**
+Encadena una transformación de traslación **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -532,7 +532,7 @@ public TransformBuilder translate(double tx, double ty, double tz)
 ```
 
 
-Encadena una transformación de traslación **Example:**
+Encadena una transformación de traslación **Ejemplo:**
 
 ```
 TransformBuilder tb = new TransformBuilder();

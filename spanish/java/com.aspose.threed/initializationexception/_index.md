@@ -1,6 +1,6 @@
 ---
 title: "InitializationException"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Excepciones en la inicialización del pipeline de renderizado"
 type: docs
 weight: 85

@@ -1,6 +1,6 @@
 ---
 title: "MappingMode"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Determina cómo se asigna el elemento a una superficie."
 type: docs
 weight: 285
@@ -13,16 +13,16 @@ java.lang.Object, java.lang.Enum
 public enum MappingMode extends Enum<MappingMode>
 ```
 
-Determina cómo se mapea el elemento a una superficie. El [MappingMode](../../com.aspose.threed/mappingmode) define cómo se mapea el [VertexElement](../../com.aspose.threed/vertexelement) a la superficie de la geometría.
+Determina cómo se asigna el elemento a una superficie. El [MappingMode](../../com.aspose.threed/mappingmode) define cómo se asigna el [VertexElement](../../com.aspose.threed/vertexelement) a la superficie de la geometría.
 ## Campos
 
 | Campo | Descripción |
 | --- | --- |
-| [ALL_SAME](#ALL-SAME) | Un dato mapeado a toda la superficie. |
-| [CONTROL_POINT](#CONTROL-POINT) | Cada dato se mapea al punto de control de la geometría. |
-| [EDGE](#EDGE) | El dato se mapea al borde. |
-| [POLYGON](#POLYGON) | El dato se mapea al polígono. |
-| [POLYGON_VERTEX](#POLYGON-VERTEX) | El dato se mapea al vértice del polígono Cuando un punto de control es compartido por varios polígonos, y el dato se mapea como [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX), el punto de control como vértice de diferentes polígonos tendrá sus propios datos |
+| [ALL_SAME](#ALL-SAME) | Un dato asignado a toda la superficie. |
+| [CONTROL_POINT](#CONTROL-POINT) | Cada dato se asigna al punto de control de la geometría. |
+| [EDGE](#EDGE) | El dato se asigna al borde. |
+| [POLYGON](#POLYGON) | El dato se asigna al polígono. |
+| [POLYGON_VERTEX](#POLYGON-VERTEX) | El dato se asigna al vértice del polígono Cuando un punto de control es compartido por varios polígonos, y el dato se asigna como [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX), el punto de control como vértice de diferentes polígonos tendrá sus propios datos |
 ## Métodos
 
 | Método | Descripción |
@@ -50,7 +50,7 @@ public static final MappingMode ALL_SAME
 ```
 
 
-Un dato mapeado a toda la superficie. Cualquier dato interpretado como punto de control/vértice del polígono/puntos finales del borde, el dato siempre es el mismo que se define mediante [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME).
+Un dato asignado a toda la superficie. Cualquier dato que se interprete como punto de control/vértice de polígono/puntos finales del borde, el dato siempre es el mismo que se define mediante [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME).
 
 ### CONTROL_POINT {#CONTROL-POINT}
 ```
@@ -58,7 +58,7 @@ public static final MappingMode CONTROL_POINT
 ```
 
 
-Cada dato se mapea al punto de control de la geometría.
+Cada dato se asigna al punto de control de la geometría.
 
 ### EDGE {#EDGE}
 ```
@@ -66,7 +66,7 @@ public static final MappingMode EDGE
 ```
 
 
-El dato se mapea al borde. Cada punto final del borde comparte el mismo dato cuando el mapeo es [EDGE](../../com.aspose.threed/mappingmode\#EDGE).
+El dato se asigna al borde. Cada punto final del borde comparte el mismo dato cuando el mapeo es [EDGE](../../com.aspose.threed/mappingmode\#EDGE).
 
 ### POLYGON {#POLYGON}
 ```
@@ -74,7 +74,7 @@ public static final MappingMode POLYGON
 ```
 
 
-El dato se mapea al polígono. Cada vértice del polígono comparte el mismo dato cuando el modo de mapeo es [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON).
+El dato se asigna al polígono. Cada vértice del polígono comparte el mismo dato cuando el modo de mapeo es [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON).
 
 ### POLYGON_VERTEX {#POLYGON-VERTEX}
 ```
@@ -82,7 +82,7 @@ public static final MappingMode POLYGON_VERTEX
 ```
 
 
-El dato se mapea al vértice del polígono Cuando un punto de control es compartido por varios polígonos, y el dato se mapea como [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX), el punto de control como vértice de diferentes polígonos tendrá sus propios datos
+El dato se asigna al vértice del polígono Cuando un punto de control es compartido por varios polígonos, y el dato se asigna como [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX), el punto de control como vértice de diferentes polígonos tendrá sus propios datos
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

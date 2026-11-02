@@ -1,7 +1,7 @@
 ---
 title: "Extrapolación"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "La extrapolación define qué hacer cuando el valor muestreado está fuera del rango definido por los primeros y últimos fotogramas clave."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "La extrapolación define qué hacer cuando el valor muestreado está fuera del rango definido por el primer y último fotograma clave."
 type: docs
 weight: 57
 url: /es/java/com.aspose.threed/extrapolation/
@@ -13,19 +13,19 @@ java.lang.Object
 public class Extrapolation
 ```
 
-La extrapolación define qué hacer cuando el valor muestreado está fuera del rango definido por los primeros y últimos fotogramas clave.
+La extrapolación define qué hacer cuando el valor muestreado está fuera del rango definido por el primer y último fotograma clave.
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getRepeatCount()](#getRepeatCount--) | Obtiene y establece la cantidad de repeticiones del patrón de extrapolación. |
+| [getRepeatCount()](#getRepeatCount--) | Obtiene y establece las veces de repetición del patrón de extrapolación. |
 | [getType()](#getType--) | Obtiene y establece el patrón de muestreo de la extrapolación |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setRepeatCount(int value)](#setRepeatCount-int-) | Obtiene y establece la cantidad de repeticiones del patrón de extrapolación. |
+| [setRepeatCount(int value)](#setRepeatCount-int-) | Obtiene y establece las veces de repetición del patrón de extrapolación. |
 | [setType(ExtrapolationType value)](#setType-com.aspose.threed.ExtrapolationType-) | Obtiene y establece el patrón de muestreo de la extrapolación |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -62,10 +62,10 @@ public int getRepeatCount()
 ```
 
 
-Obtiene y establece la cantidad de repeticiones del patrón de extrapolación.
+Obtiene y establece las veces de repetición del patrón de extrapolación.
 
 **Returns:**
-int - y establece la cantidad de repeticiones del patrón de extrapolación.
+int - y establece las veces de repetición del patrón de extrapolación.
 ### getType() {#getType--}
 ```
 public ExtrapolationType getType()
@@ -108,7 +108,7 @@ public void setRepeatCount(int value)
 ```
 
 
-Obtiene y establece la cantidad de repeticiones del patrón de extrapolación.
+Obtiene y establece las veces de repetición del patrón de extrapolación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

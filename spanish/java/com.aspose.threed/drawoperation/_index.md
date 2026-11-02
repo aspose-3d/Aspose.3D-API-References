@@ -1,7 +1,7 @@
 ---
 title: "DrawOperation"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Los tipos primitivos a renderizar"
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Los tipos primitivos para renderizar"
 type: docs
 weight: 277
 url: /es/java/com.aspose.threed/drawoperation/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum DrawOperation extends Enum<DrawOperation>
 ```
 
-Los tipos primitivos a renderizar
+Los tipos primitivos para renderizar
 ## Campos
 
 | Campo | Descripción |

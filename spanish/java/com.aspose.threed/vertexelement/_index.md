@@ -1,6 +1,6 @@
 ---
 title: "VertexElement"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Clase base de los elementos de vértice."
 type: docs
 weight: 207
@@ -16,27 +16,27 @@ java.lang.Object
 public abstract class VertexElement implements IIndexedVertexElement
 ```
 
-Clase base de los elementos de vértice. Un tipo de elemento de vértice se identifica mediante VertexElementType. Un VertexElement describe cómo el elemento de vértice se asigna a una superficie geométrica y cómo la información de asignación se organiza en memoria. Un VertexElement contiene normales, UVs u otro tipo de información.
+Clase base de los elementos de vértice. Un tipo de elemento de vértice se identifica mediante VertexElementType. Un VertexElement describe cómo el elemento de vértice se asigna a una superficie geométrica y cómo la información de asignación se organiza en la memoria. Un VertexElement contiene Normales, UVs u otro tipo de información.
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
 | [clear()](#clear--) | Borra todos los datos de este elemento de vértice. |
-| [clone(boolean withData)](#clone-boolean-) | Clona en profundidad el elemento de vértice. |
+| [clone(boolean withData)](#clone-boolean-) | Clona profundamente el elemento de vértice |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getIndices()](#getIndices--) | Obtiene los datos de los índices. |
-| [getMappingMode()](#getMappingMode--) | Obtiene cómo se mapea el elemento. |
+| [getIndices()](#getIndices--) | Obtiene los datos de los índices |
+| [getMappingMode()](#getMappingMode--) | Obtiene cómo está mapeado el elemento. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getReferenceMode()](#getReferenceMode--) | Obtiene cómo se referencia el elemento. |
-| [getVertexElementType()](#getVertexElementType--) | Obtiene el tipo del [VertexElement](../../com.aspose.threed/vertexelement) |
+| [getReferenceMode()](#getReferenceMode--) | Obtiene cómo está referenciado el elemento. |
+| [getVertexElementType()](#getVertexElementType--) | Obtiene el tipo de [VertexElement](../../com.aspose.threed/vertexelement) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setIndices(int[] data)](#setIndices-int---) | Cargar índices |
-| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Establece cómo se mapea el elemento. |
+| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Establece cómo está mapeado el elemento. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | Establece cómo se referencia el elemento. |
+| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | Establece cómo está referenciado el elemento. |
 | [toString()](#toString--) | Representación en cadena del elemento de vértice. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -55,7 +55,7 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Clona en profundidad el elemento de vértice.
+Clona profundamente el elemento de vértice
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -95,7 +95,7 @@ public List<Integer> getIndices()
 ```
 
 
-Obtiene los datos de los índices.
+Obtiene los datos de los índices
 
 **Returns:**
 java.util.List<java.lang.Integer> - los datos de los índices
@@ -105,7 +105,7 @@ public MappingMode getMappingMode()
 ```
 
 
-Obtiene cómo se mapea el elemento.
+Obtiene cómo está mapeado el elemento.
 
 **Returns:**
 [MappingMode](../../com.aspose.threed/mappingmode) - how the element is mapped.
@@ -125,7 +125,7 @@ public ReferenceMode getReferenceMode()
 ```
 
 
-Obtiene cómo se referencia el elemento.
+Obtiene cómo está referenciado el elemento.
 
 **Returns:**
 [ReferenceMode](../../com.aspose.threed/referencemode) - how the element is referenced.
@@ -135,7 +135,7 @@ public VertexElementType getVertexElementType()
 ```
 
 
-Obtiene el tipo del [VertexElement](../../com.aspose.threed/vertexelement)
+Obtiene el tipo de [VertexElement](../../com.aspose.threed/vertexelement)
 
 **Returns:**
 [VertexElementType](../../com.aspose.threed/vertexelementtype) - the type of the [VertexElement](../../com.aspose.threed/vertexelement)
@@ -184,7 +184,7 @@ public void setMappingMode(MappingMode value)
 ```
 
 
-Establece cómo se mapea el elemento.
+Establece cómo está mapeado el elemento.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -210,7 +210,7 @@ public void setReferenceMode(ReferenceMode value)
 ```
 
 
-Establece cómo se referencia el elemento.
+Establece cómo está referenciado el elemento.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |

@@ -1,6 +1,6 @@
 ---
 title: "RenderParameters"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Describe los parámetros del objetivo de renderizado"
 type: docs
 weight: 149
@@ -32,7 +32,7 @@ Describe los parámetros del objetivo de renderizado
 | [getClass()](#getClass--) |  |
 | [getColorBits()](#getColorBits--) | Obtiene cuántos bits se usarán en el búfer de color. |
 | [getDepthBits()](#getDepthBits--) | Obtiene cuántos bits se usarán en el búfer de profundidad. |
-| [getDoubleBuffering()](#getDoubleBuffering--) | Obtiene si se usa doble búfer. |
+| [getDoubleBuffering()](#getDoubleBuffering--) | Obtiene si se utiliza doble búfer. |
 | [getStencilBits()](#getStencilBits--) | Obtiene cuántos bits se usarán en el búfer de plantilla. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -172,7 +172,7 @@ public boolean getDoubleBuffering()
 ```
 
 
-Obtiene si se usa doble búfer.
+Obtiene si se utiliza doble búfer.
 
 **Returns:**
 boolean - si se usa doble búfer.

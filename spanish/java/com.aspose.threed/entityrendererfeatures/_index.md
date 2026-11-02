@@ -1,6 +1,6 @@
 ---
 title: "EntityRendererFeatures"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Las características adicionales que proporcionará el renderizador de entidades"
 type: docs
 weight: 54
@@ -23,7 +23,7 @@ Las características adicionales que proporcionará el renderizador de entidades
 
 | Campo | Descripción |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Sin características adicionales |
+| [DEFAULT](#DEFAULT) | No hay características adicionales |
 | [FRAME_BEGIN](#FRAME-BEGIN) | El [EntityRenderer](../../com.aspose.threed/entityrenderer) observará la devolución de llamada FrameBegin antes de renderizar cada fotograma de la escena |
 | [FRAME_END](#FRAME-END) | El [EntityRenderer](../../com.aspose.threed/entityrenderer) observará la devolución de llamada FrameBegin después de renderizar cada fotograma de la escena |
 | [SHADOWMAP](#SHADOWMAP) | Este renderizador puede funcionar en modo shadowmap |
@@ -52,7 +52,7 @@ public static final byte DEFAULT
 ```
 
 
-Sin características adicionales
+No hay características adicionales
 
 ### FRAME_BEGIN {#FRAME-BEGIN}
 ```

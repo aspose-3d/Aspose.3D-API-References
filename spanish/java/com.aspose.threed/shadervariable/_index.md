@@ -1,7 +1,7 @@
 ---
 title: "ShaderVariable"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "Variable de shader."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "Variable de shader"
 type: docs
 weight: 170
 url: /es/java/com.aspose.threed/shadervariable/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ShaderVariable
 ```
 
-Variable de shader.
+Variable de shader
 ## Constructores
 
 | Constructor | Descripción |
@@ -59,7 +59,7 @@ Constructor de [ShaderVariable](../../com.aspose.threed/shadervariable)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | nombre | java.lang.String |  |
-| shaderStage | int | ¿En qué etapa de shader se usará esta variable? |
+| shaderStage | int | En qué etapa de shader se utilizará esta variable |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

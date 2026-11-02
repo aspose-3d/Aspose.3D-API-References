@@ -1,6 +1,6 @@
 ---
-title: "RenderStage"
-second_title: "Referencia de API de Aspose.3D para Java"
+title: "Etapa de renderizado"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "La etapa de renderizado"
 type: docs
 weight: 298
@@ -19,7 +19,7 @@ La etapa de renderizado
 | Campo | Descripción |
 | --- | --- |
 | [IDLE](#IDLE) | El renderizador está inactivo |
-| [POST_PROCESSING](#POST-PROCESSING) | El renderizador está procesando efectos de post‑procesamiento. |
+| [POST_PROCESSING](#POST-PROCESSING) | El renderizador está aplicando efectos de postprocesamiento. |
 | [SCENE](#SCENE) | El renderizador está renderizando la escena |
 | [SHADOW_MAP](#SHADOW-MAP) | El renderizador está renderizando un mapa de sombras |
 ## Métodos
@@ -57,7 +57,7 @@ public static final RenderStage POST_PROCESSING
 ```
 
 
-El renderizador está procesando efectos de post‑procesamiento.
+El renderizador está aplicando efectos de postprocesamiento.
 
 ### SCENE {#SCENE}
 ```

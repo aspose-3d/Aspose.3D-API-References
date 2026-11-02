@@ -1,7 +1,7 @@
 ---
 title: "ShaderProgram"
-second_title: "Referencia de API de Aspose.3D para Java"
-description: "El programa de shader."
+second_title: "Referencia de API de Aspose.3D for Java"
+description: "El programa de shader"
 type: docs
 weight: 165
 url: /es/java/com.aspose.threed/shaderprogram/
@@ -16,12 +16,12 @@ java.io.Closeable
 public abstract class ShaderProgram implements Closeable
 ```
 
-El programa de shader.
+El programa de shader
 ## Métodos
 
 | Método | Descripción |
 | --- | --- |
-| [close()](#close--) | Deseche el shader y libere todos los recursos internos. |
+| [close()](#close--) | Desecha el shader y libera todos los recursos internos. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -37,7 +37,7 @@ public void close()
 ```
 
 
-Deseche el shader y libere todos los recursos internos.
+Desecha el shader y libera todos los recursos internos.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

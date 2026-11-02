@@ -1,6 +1,6 @@
 ---
 title: "ITextureDecoder"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El decodificador de textura externa debe implementar esta interfaz para decodificar."
 type: docs
 weight: 256
@@ -27,7 +27,7 @@ Decodificar textura desde el flujo, devolver null si falla la decodificación.
 **Parameters:**
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | Secuencia de origen de datos de textura |
+| stream | [Stream](../../com.aspose.threed/stream) | Flujo de origen de datos de textura |
 | reverseY | boolean | Voltear la textura |
 
 **Returns:**

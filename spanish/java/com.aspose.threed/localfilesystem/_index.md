@@ -1,6 +1,6 @@
 ---
 title: "LocalFileSystem"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "El  mapeará las operaciones de lectura/escritura al directorio local."
 type: docs
 weight: 91

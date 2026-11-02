@@ -1,6 +1,6 @@
 ---
 title: "UShape"
-second_title: "Referencia de API de Aspose.3D para Java"
+second_title: "Referencia de API de Aspose.3D for Java"
 description: "Forma en U compatible con IFC definida por parámetros."
 type: docs
 weight: 199
@@ -28,35 +28,35 @@ Forma en U compatible con IFC definida por parámetros.
 | [getBoundingBox()](#getBoundingBox--) | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objetos. |
 | [getClass()](#getClass--) |  |
 | [getDepth()](#getDepth--) | Obtiene la longitud del alma. |
-| [getEdgeRadius()](#getEdgeRadius--) | Obtiene el radio del borde en el borde del flange. |
+| [getEdgeRadius()](#getEdgeRadius--) | Obtiene el radio del borde en el borde de la brida. |
 | [getEntityRendererKey()](#getEntityRendererKey--) | Obtiene la clave del renderizador de entidad registrado en el renderizador |
-| [getExcluded()](#getExcluded--) | Obtiene si se debe excluir esta entidad durante la exportación. |
+| [getExcluded()](#getExcluded--) | Obtiene si excluir esta entidad durante la exportación. |
 | [getExtent()](#getExtent--) | Obtiene la extensión en las dimensiones x e y. |
-| [getFilletRadius()](#getFilletRadius--) | Obtiene el radio del filete entre la brida y el alma. |
-| [getFlangeThickness()](#getFlangeThickness--) | Obtiene el espesor de la brida. |
-| [getFlangeWidth()](#getFlangeWidth--) | Obtiene la longitud de la brida. |
+| [getFilletRadius()](#getFilletRadius--) | Obtiene el radio del filete entre el flange y el alma. |
+| [getFlangeThickness()](#getFlangeThickness--) | Obtiene el espesor del flange. |
+| [getFlangeWidth()](#getFlangeWidth--) | Obtiene la longitud del flange. |
 | [getName()](#getName--) | Obtiene el nombre. |
-| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
-| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría. |
+| [getParentNode()](#getParentNode--) | Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
+| [getParentNodes()](#getParentNodes--) | Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría. |
 | [getProperties()](#getProperties--) | Obtiene la colección de todas las propiedades. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Obtiene el valor de la propiedad especificada |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Obtén el valor de la propiedad especificada |
 | [getScene()](#getScene--) | Obtiene la escena a la que pertenece este objeto. |
-| [getWebThickness()](#getWebThickness--) | Obtiene el grosor del web. |
+| [getWebThickness()](#getWebThickness--) | Obtiene el grosor del panel. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Elimina una propiedad dinámica. |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | Elimina la propiedad especificada identificada por nombre. |
 | [setDepth(double value)](#setDepth-double-) | Establece la longitud del alma. |
-| [setEdgeRadius(double value)](#setEdgeRadius-double-) | Establece el radio del borde en el borde del flange. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si se debe excluir esta entidad durante la exportación. |
-| [setFilletRadius(double value)](#setFilletRadius-double-) | Establece el radio del filete entre la brida y el alma. |
-| [setFlangeThickness(double value)](#setFlangeThickness-double-) | Establece el espesor de la brida. |
-| [setFlangeWidth(double value)](#setFlangeWidth-double-) | Establece la longitud de la brida. |
+| [setEdgeRadius(double value)](#setEdgeRadius-double-) | Establece el radio del borde en el borde de la brida. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Establece si excluir esta entidad durante la exportación. |
+| [setFilletRadius(double value)](#setFilletRadius-double-) | Establece el radio del filete entre el flange y el alma. |
+| [setFlangeThickness(double value)](#setFlangeThickness-double-) | Establece el espesor del flange. |
+| [setFlangeWidth(double value)](#setFlangeWidth-double-) | Establece la longitud del flange. |
 | [setName(String value)](#setName-java.lang.String-) | Establece el nombre. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres. |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Establece el valor de la propiedad especificada. |
-| [setWebThickness(double value)](#setWebThickness-double-) | Establece el grosor del web. |
+| [setWebThickness(double value)](#setWebThickness-double-) | Establece el grosor del panel. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -90,7 +90,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-Busca la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre)
+Busca la propiedad. Puede ser una propiedad dinámica (Created by CreateDynamicProperty/SetProperty) o una propiedad nativa (Identified by its name)
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -142,10 +142,10 @@ public double getEdgeRadius()
 ```
 
 
-Obtiene el radio del borde en el borde del flange.
+Obtiene el radio del borde en el borde de la brida.
 
 **Returns:**
-double - el radio del borde en el borde del flange.
+double - el radio del borde en el borde de la brida.
 ### getEntityRendererKey() {#getEntityRendererKey--}
 ```
 public EntityRendererKey getEntityRendererKey()
@@ -162,10 +162,10 @@ public boolean getExcluded()
 ```
 
 
-Obtiene si se debe excluir esta entidad durante la exportación.
+Obtiene si excluir esta entidad durante la exportación.
 
 **Returns:**
-boolean - si se debe excluir esta entidad durante la exportación.
+boolean - si excluir esta entidad durante la exportación.
 ### getExtent() {#getExtent--}
 ```
 public Vector2 getExtent()
@@ -182,30 +182,30 @@ public double getFilletRadius()
 ```
 
 
-Obtiene el radio del filete entre la brida y el alma.
+Obtiene el radio del filete entre el flange y el alma.
 
 **Returns:**
-double - el radio del filete entre la brida y el alma.
+double - el radio del filete entre el flange y el alma.
 ### getFlangeThickness() {#getFlangeThickness--}
 ```
 public double getFlangeThickness()
 ```
 
 
-Obtiene el espesor de la brida.
+Obtiene el espesor del flange.
 
 **Returns:**
-double - el espesor de la brida.
+double - el espesor del flange.
 ### getFlangeWidth() {#getFlangeWidth--}
 ```
 public double getFlangeWidth()
 ```
 
 
-Obtiene la longitud de la brida.
+Obtiene la longitud del flange.
 
 **Returns:**
-double - la longitud de la brida.
+double - la longitud del flange.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -222,7 +222,7 @@ public Node getParentNode()
 ```
 
 
-Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Obtiene el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -232,7 +232,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Obtiene todos los nodos padres; una entidad puede estar adjunta a varios nodos padres para instanciación de geometría.
+Obtiene todos los nodos padres, una entidad puede estar vinculada a varios nodos padres para instanciación de geometría.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para instanciación de geometría
@@ -252,7 +252,7 @@ public Object getProperty(String property)
 ```
 
 
-Obtiene el valor de la propiedad especificada
+Obtén el valor de la propiedad especificada
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -277,10 +277,10 @@ public double getWebThickness()
 ```
 
 
-Obtiene el grosor del web.
+Obtiene el grosor del panel.
 
 **Returns:**
-double - el grosor del web.
+double - el grosor del panel.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -356,7 +356,7 @@ public void setEdgeRadius(double value)
 ```
 
 
-Establece el radio del borde en el borde del flange.
+Establece el radio del borde en el borde de la brida.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -369,7 +369,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Establece si se debe excluir esta entidad durante la exportación.
+Establece si excluir esta entidad durante la exportación.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -382,7 +382,7 @@ public void setFilletRadius(double value)
 ```
 
 
-Establece el radio del filete entre la brida y el alma.
+Establece el radio del filete entre el flange y el alma.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -395,7 +395,7 @@ public void setFlangeThickness(double value)
 ```
 
 
-Establece el espesor de la brida.
+Establece el espesor del flange.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -408,7 +408,7 @@ public void setFlangeWidth(double value)
 ```
 
 
-Establece la longitud de la brida.
+Establece la longitud del flange.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -434,7 +434,7 @@ public void setParentNode(Node value)
 ```
 
 
-Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se separará de los demás nodos padres.
+Establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desvinculará de los demás nodos padres.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
@@ -461,7 +461,7 @@ public void setWebThickness(double value)
 ```
 
 
-Establece el grosor del web.
+Establece el grosor del panel.
 
 **Parameters:**
 | Parámetro | Tipo | Descripción |
