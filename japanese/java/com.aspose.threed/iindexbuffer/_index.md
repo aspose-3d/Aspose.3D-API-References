@@ -1,7 +1,7 @@
 ---
 title: "IIndexBuffer"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "インデックスバッファは、レンダリングパイプラインで使用されるジオメトリを記述します。"
+description: "インデックスバッファは、レンダーパイプラインで使用されるジオメトリを記述します。"
 type: docs
 weight: 242
 url: /ja/java/com.aspose.threed/iindexbuffer/
@@ -13,16 +13,16 @@ url: /ja/java/com.aspose.threed/iindexbuffer/
 public interface IIndexBuffer extends IBuffer
 ```
 
-インデックスバッファは、レンダリングパイプラインで使用されるジオメトリを記述します。
+インデックスバッファは、レンダーパイプラインで使用されるジオメトリを記述します。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [getCount()](#getCount--) | このバッファ内のインデックス数を取得します。 |
 | [getIndexDataType()](#getIndexDataType--) | 各要素のデータ型を取得します。 |
-| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | [TriMesh](../../com.aspose.threed/trimesh) からインデックスデータをロードします |
-| [loadData(int[] indices)](#loadData-int---) | インデックスデータをロードします |
-| [loadData(short[] indices)](#loadData-short---) | インデックスデータをロードします |
+| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | [TriMesh](../../com.aspose.threed/trimesh) からインデックスデータを読み込みます |
+| [loadData(int[] indices)](#loadData-int---) | インデックスデータを読み込みます |
+| [loadData(short[] indices)](#loadData-short---) | インデックスデータを読み込みます |
 ### getCount() {#getCount--}
 ```
 public abstract int getCount()
@@ -49,7 +49,7 @@ public abstract void loadData(TriMesh mesh)
 ```
 
 
-[TriMesh](../../com.aspose.threed/trimesh) からインデックスデータをロードします
+[TriMesh](../../com.aspose.threed/trimesh) からインデックスデータを読み込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -62,7 +62,7 @@ public abstract void loadData(int[] indices)
 ```
 
 
-インデックスデータをロードします
+インデックスデータを読み込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -75,7 +75,7 @@ public abstract void loadData(short[] indices)
 ```
 
 
-インデックスデータをロードします
+インデックスデータを読み込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

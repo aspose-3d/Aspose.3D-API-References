@@ -1,7 +1,7 @@
 ---
 title: "バージョン"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "lexchou によって 2017年4月17日に作成されました。"
+description: "2017年4月17日、lexchou によって作成されました。"
 type: docs
 weight: 204
 url: /ja/java/com.aspose.threed/version/
@@ -16,7 +16,7 @@ java.lang.Cloneable, java.io.Serializable
 public class Version implements Cloneable, Serializable
 ```
 
-lexchou によって 2017年4月17日に作成されました。
+2017年4月17日、lexchou によって作成されました。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |

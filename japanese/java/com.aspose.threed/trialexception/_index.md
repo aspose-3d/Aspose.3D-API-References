@@ -1,7 +1,7 @@
 ---
 title: "TrialException"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "ライセンスが適用されていない場合、Scene.Open/Scene.Saveでこれが発生します。"
+description: "これは、Scene.Open/Scene.Save 時にライセンスが適用されていない場合に発生します。"
 type: docs
 weight: 195
 url: /ja/java/com.aspose.threed/trialexception/
@@ -32,7 +32,7 @@ public class TrialException extends RuntimeException
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
-| [getSuppressTrialException()](#getSuppressTrialException--) | この値を true に設定すると、未ライセンス使用時のトライアル例外を抑制しますが、制限は解除されません。 |
+| [getSuppressTrialException()](#getSuppressTrialException--) | 未ライセンス使用時のトライアル例外を抑制するためにこれを true に設定しますが、制限は解除されません。 |
 | [getSuppressed()](#getSuppressed--) |  |
 | [hashCode()](#hashCode--) |  |
 | [initCause(Throwable arg0)](#initCause-java.lang.Throwable-) |  |
@@ -42,7 +42,7 @@ public class TrialException extends RuntimeException
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [setSuppressTrialException(boolean value)](#setSuppressTrialException-boolean-) | この値を true に設定すると、未ライセンス使用時のトライアル例外を抑制しますが、制限は解除されません。 |
+| [setSuppressTrialException(boolean value)](#setSuppressTrialException-boolean-) | 未ライセンス使用時のトライアル例外を抑制するためにこれを true に設定しますが、制限は解除されません。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -162,10 +162,10 @@ public static boolean getSuppressTrialException()
 ```
 
 
-この値を true に設定すると、未ライセンス使用時のトライアル例外を抑制しますが、制限は解除されません。制限を解除するには、適切なライセンスをご使用ください。また、この値を true に設定することは、未ライセンスの制限を認識していることを意味します。
+未ライセンス使用時のトライアル例外を抑制するためにこれを true に設定しますが、制限は解除されません。制限を解除するには、適切なライセンスをご使用ください。また、これを true に設定することは、未ライセンスの制限を認識していることも意味します。
 
 **Returns:**
-boolean - この値を true に設定すると、未ライセンス使用時のトライアル例外を抑制しますが、制限は解除されません。制限を解除するには、適切なライセンスをご使用ください。また、この値を true に設定することは、未ライセンスの制限を認識していることを意味します。
+boolean - 未ライセンス使用時のトライアル例外を抑制するためにこれを true に設定しますが、制限は解除されません。制限を解除するには、適切なライセンスをご使用ください。また、これを true に設定することは、未ライセンスの制限を認識していることも意味します。
 ### getSuppressed() {#getSuppressed--}
 ```
 public final synchronized Throwable[] getSuppressed()
@@ -270,7 +270,7 @@ public static void setSuppressTrialException(boolean value)
 ```
 
 
-この値を true に設定すると、未ライセンス使用時のトライアル例外を抑制しますが、制限は解除されません。制限を解除するには、適切なライセンスをご使用ください。また、この値を true に設定することは、未ライセンスの制限を認識していることを意味します。
+未ライセンス使用時のトライアル例外を抑制するためにこれを true に設定しますが、制限は解除されません。制限を解除するには、適切なライセンスをご使用ください。また、これを true に設定することは、未ライセンスの制限を認識していることも意味します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

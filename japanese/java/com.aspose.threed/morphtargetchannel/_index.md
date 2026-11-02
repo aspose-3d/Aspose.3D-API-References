@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetChannel extends A3DObject
 ```
 
-[MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) によって MorphTargetChannel がターゲットジオメトリを整理するために使用されます。FBX のような一部のファイル形式は複数のチャネルを同時にサポートします。**備考:** 重みは 0 から 1.0 の間で、ターゲットのデフォルトの重みは 0.0 です。
+MorphTargetChannel は [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) によってターゲットジオメトリを整理するために使用されます。FBX のような一部のファイル形式は、複数のチャネルを並行してサポートします。**Remarks:** 重みは 0 から 1.0 の間で、ターゲットのデフォルトの重みは 0.0 です。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [MorphTargetChannel(String name)](#MorphTargetChannel-java.lang.String-) | [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) クラスの新しいインスタンスを初期化します。 |
-| [MorphTargetChannel()](#MorphTargetChannel--) | [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) クラスの新しいインスタンスを初期化します。 |
+| [MorphTargetChannel(String name)](#MorphTargetChannel-java.lang.String-) | 新しい [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) クラスのインスタンスを初期化します。 |
+| [MorphTargetChannel()](#MorphTargetChannel--) | 新しい [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) クラスのインスタンスを初期化します。 |
 ## フィールド
 
 | フィールド | 説明 |
@@ -44,13 +44,13 @@ public class MorphTargetChannel extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | 指定されたジオメトリのウェイトを設定します |
 | [setChannelWeight(double value)](#setChannelWeight-double-) | このチャネルのデフォーマーウェイトを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setWeight(Shape target)](#setWeight-com.aspose.threed.Shape-) | 指定されたターゲットのウェイトを設定します。デフォルト値は1で、範囲は0〜1の間である必要があります。 |
-| [setWeight(Shape target, double weight)](#setWeight-com.aspose.threed.Shape-double-) | 指定されたターゲットのウェイトを設定します。デフォルト値は1で、範囲は0〜1の間である必要があります。 |
+| [setWeight(Shape target)](#setWeight-com.aspose.threed.Shape-) | 指定されたターゲットのウェイトを設定します。デフォルト値は1で、範囲は0〜1の間である必要があります |
+| [setWeight(Shape target, double weight)](#setWeight-com.aspose.threed.Shape-double-) | 指定されたターゲットのウェイトを設定します。デフォルト値は1で、範囲は0〜1の間である必要があります |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public MorphTargetChannel(String name)
 ```
 
 
-[MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) クラスの新しいインスタンスを初期化します。
+新しい [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) クラスのインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -74,7 +74,7 @@ public MorphTargetChannel()
 ```
 
 
-[MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) クラスの新しいインスタンスを初期化します。
+新しい [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) クラスのインスタンスを初期化します。
 
 ### DEFAULT_WEIGHT {#DEFAULT-WEIGHT}
 ```
@@ -105,7 +105,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -135,10 +135,10 @@ public double getChannelWeight()
 ```
 
 
-このチャネルのデフォーマーウェイトを取得します。ウェイトは0.0から1.0の間です。
+このチャネルのデフォーマーウェイトを取得します。ウェイトは0.0から1.0の間です
 
 **Returns:**
-double - このチャネルのデフォーマーウェイト。ウェイトは0.0から1.0の間です。
+double - このチャネルのデフォーマーウェイト。ウェイトは0.0から1.0の間です
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -158,7 +158,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -256,7 +256,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -266,12 +266,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -295,7 +295,7 @@ public void setChannelWeight(double value)
 ```
 
 
-このチャネルのデフォーマーウェイトを設定します。ウェイトは0.0から1.0の間です。
+このチャネルのデフォーマーウェイトを設定します。ウェイトは0.0から1.0の間です
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -335,7 +335,7 @@ public void setWeight(Shape target)
 ```
 
 
-指定されたターゲットのウェイトを設定します。デフォルト値は1で、範囲は0〜1の間である必要があります。
+指定されたターゲットのウェイトを設定します。デフォルト値は1で、範囲は0〜1の間である必要があります
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -348,7 +348,7 @@ public void setWeight(Shape target, double weight)
 ```
 
 
-指定されたターゲットのウェイトを設定します。デフォルト値は1で、範囲は0〜1の間である必要があります。
+指定されたターゲットのウェイトを設定します。デフォルト値は1で、範囲は0〜1の間である必要があります
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

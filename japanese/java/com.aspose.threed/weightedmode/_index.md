@@ -1,7 +1,7 @@
 ---
 title: "WeightedMode"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "重み付けモード。"
+description: "加重モード。"
 type: docs
 weight: 231
 url: /ja/java/com.aspose.threed/weightedmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class WeightedMode
 ```
 
-重み付けモード。
+加重モード。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -25,7 +25,7 @@ public final class WeightedMode
 | --- | --- |
 | [BOTH](#BOTH) | 外側と次の内側の接線の両方が加重されています。 |
 | [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | 次の内側（左）接線が加重されています。 |
-| [NONE](#NONE) | 外側と次の内側の重みは使用されていません。 |
+| [NONE](#NONE) | 外側と次の内側のウェイトは使用されていません。 |
 | [OUT_WEIGHT](#OUT-WEIGHT) | 外側（右）接線が加重されています。 |
 ## メソッド
 
@@ -68,7 +68,7 @@ public static final int NONE
 ```
 
 
-外側と次の内側の重みは使用されていません。計算に接線情報が必要な場合、デフォルト値（0.3333）が使用されます。
+外側と次の内側のウェイトは使用されていません。計算に接線情報が必要な場合、デフォルト値（0.3333）が使用されます。
 
 ### OUT_WEIGHT {#OUT-WEIGHT}
 ```

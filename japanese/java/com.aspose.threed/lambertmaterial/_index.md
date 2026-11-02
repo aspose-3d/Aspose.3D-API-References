@@ -24,42 +24,42 @@ Lambert シェーディングモデル用のマテリアルです。
 
 | フィールド | 説明 |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | [setTexture](../../com.aspose.threed/material\#setTexture) で環境光テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | [setTexture](../../com.aspose.threed/material\#setTexture) で拡散テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | [setTexture](../../com.aspose.threed/material\#setTexture) で放射テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_NORMAL](#MAP-NORMAL) | [setTexture](../../com.aspose.threed/material\#setTexture) で法線テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_SPECULAR](#MAP-SPECULAR) | [setTexture](../../com.aspose.threed/material\#setTexture) で鏡面テクスチャマッピングを割り当てるために使用されます。 |
+| [MAP_AMBIENT](#MAP-AMBIENT) | アンビエントテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | ディフューズテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | エミッシブテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_NORMAL](#MAP-NORMAL) | ノーマルテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_SPECULAR](#MAP-SPECULAR) | スペキュラテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [getAmbientColor()](#getAmbientColor--) | 環境光の色を取得します。 |
+| [getAmbientColor()](#getAmbientColor--) | アンビエントカラーを取得します |
 | [getClass()](#getClass--) |  |
-| [getDiffuseColor()](#getDiffuseColor--) | 拡散色を取得します。 |
-| [getEmissiveColor()](#getEmissiveColor--) | 放射色を取得します。 |
+| [getDiffuseColor()](#getDiffuseColor--) | ディフューズカラーを取得します |
+| [getEmissiveColor()](#getEmissiveColor--) | エミッシブカラーを取得します |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | 指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名で指定できます。 |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | 指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名である可能性があります。 |
 | [getTransparency()](#getTransparency--) | 透過係数を取得します。 |
-| [getTransparentColor()](#getTransparentColor--) | 透過色を取得します。 |
+| [getTransparentColor()](#getTransparentColor--) | 透過カラーを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 内部テクスチャスロットを列挙するための列挙子を取得します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setAmbientColor(Vector3 value)](#setAmbientColor-com.aspose.threed.Vector3-) | 環境光の色を設定します。 |
-| [setDiffuseColor(Vector3 value)](#setDiffuseColor-com.aspose.threed.Vector3-) | 拡散色を設定します。 |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | 放射色を設定します。 |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setAmbientColor(Vector3 value)](#setAmbientColor-com.aspose.threed.Vector3-) | アンビエントカラーを設定します |
+| [setDiffuseColor(Vector3 value)](#setDiffuseColor-com.aspose.threed.Vector3-) | ディフューズカラーを設定します |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | エミッシブカラーを設定します |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | テクスチャを指定されたスロットに設定します。 |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | テクスチャを指定されたスロットに設定します |
 | [setTransparency(double value)](#setTransparency-double-) | 透過係数を設定します。 |
-| [setTransparentColor(Vector3 value)](#setTransparentColor-com.aspose.threed.Vector3-) | 透過色を設定します。 |
-| [toString()](#toString--) | オブジェクトを文字列にフォーマットします |
+| [setTransparentColor(Vector3 value)](#setTransparentColor-com.aspose.threed.Vector3-) | 透過カラーを設定します。 |
+| [toString()](#toString--) | オブジェクトを文字列に変換します |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -90,7 +90,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で環境光テクスチャマッピングを割り当てるために使用されます。
+アンビエントテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -98,7 +98,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で拡散テクスチャマッピングを割り当てるために使用されます。
+ディフューズテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -106,7 +106,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で放射テクスチャマッピングを割り当てるために使用されます。
+エミッシブテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -114,7 +114,7 @@ public static final String MAP_NORMAL
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で法線テクスチャマッピングを割り当てるために使用されます。
+ノーマルテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -122,7 +122,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で鏡面テクスチャマッピングを割り当てるために使用されます。
+スペキュラテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -145,7 +145,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -160,7 +160,7 @@ public Vector3 getAmbientColor()
 ```
 
 
-環境光の色を取得します。
+アンビエントカラーを取得します
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the ambient color
@@ -180,7 +180,7 @@ public Vector3 getDiffuseColor()
 ```
 
 
-拡散色を取得します。
+ディフューズカラーを取得します
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the diffuse color
@@ -190,7 +190,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-放射色を取得します。
+エミッシブカラーを取得します
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color **Example:**
@@ -208,7 +208,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -240,7 +240,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名で指定できます。
+指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名である可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -263,17 +263,17 @@ public double getTransparency()
 ```
 
 
-透明度係数を取得します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+透明度係数を取得します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 
 **Returns:**
-double - 透明度係数。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+double - 透明度係数。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 ### getTransparentColor() {#getTransparentColor--}
 ```
 public Vector3 getTransparentColor()
 ```
 
 
-透過色を取得します。
+透過カラーを取得します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the transparent color.
@@ -324,7 +324,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -334,12 +334,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -349,7 +349,7 @@ public void setAmbientColor(Vector3 value)
 ```
 
 
-環境光の色を設定します。
+アンビエントカラーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -362,7 +362,7 @@ public void setDiffuseColor(Vector3 value)
 ```
 
 
-拡散色を設定します。
+ディフューズカラーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -375,7 +375,7 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-放射色を設定します。
+エミッシブカラーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -420,7 +420,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-テクスチャを指定されたスロットに設定します。
+テクスチャを指定されたスロットに設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -441,7 +441,7 @@ public void setTransparency(double value)
 ```
 
 
-透明度係数を設定します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+透明度係数を設定します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -454,7 +454,7 @@ public void setTransparentColor(Vector3 value)
 ```
 
 
-透過色を設定します。
+透過カラーを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -467,7 +467,7 @@ public String toString()
 ```
 
 
-オブジェクトを文字列にフォーマットします
+オブジェクトを文字列に変換します
 
 **Returns:**
 java.lang.String - オブジェクト文字列

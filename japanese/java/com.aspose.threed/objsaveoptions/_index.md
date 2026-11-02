@@ -8,7 +8,7 @@ url: /ja/java/com.aspose.threed/objsaveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)、[com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
+java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig), [com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
 ```
 public class ObjSaveOptions extends SaveOptions
 ```
@@ -27,7 +27,7 @@ Wavefront OBJ ファイルの保存オプション
 | [getApplyUnitScale()](#getApplyUnitScale--) | メッシュに [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) を適用します。 |
 | [getAxisSystem()](#getAxisSystem--) | エクスポートされたファイルの座標系を取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEnableMaterials()](#getEnableMaterials--) | 各オブジェクトのマテリアルのインポート/エクスポートの有無を取得します。 |
+| [getEnableMaterials()](#getEnableMaterials--) | 各オブジェクトのインポート/エクスポートマテリアルの有無を取得します。 |
 | [getEncoding()](#getEncoding--) | テキストベースのファイルのデフォルトエンコーディングを取得します。 |
 | [getExportTextures()](#getExportTextures--) | シーンで使用されているテクスチャを出力ディレクトリにコピーしようとします。 |
 | [getFileFormat()](#getFileFormat--) | 現在の保存/読み込みオプションで指定されたファイル形式を取得します。 |
@@ -35,7 +35,7 @@ Wavefront OBJ ファイルの保存オプション
 | [getFileSystem()](#getFileSystem--) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem のファクトリークラスを取得します。 |
 | [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | インポート/エクスポート時に制御点/法線の座標系を反転するかどうかを取得します。 |
-| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [getPointCloud()](#getPointCloud--) | エクスポーターがシーンをポイントクラウド（トポロジ構造なし）としてエクスポートすべきかどうかのフラグを取得します。デフォルト値は false です。 |
 | [getSerializeW()](#getSerializeW--) | モデルの頂点位置の W 成分をシリアライズするかどうかを取得します。 |
 | [getVerbose()](#getVerbose--) | 各セクションのコメント生成の有無を取得します。 |
@@ -44,16 +44,16 @@ Wavefront OBJ ファイルの保存オプション
 | [notifyAll()](#notifyAll--) |  |
 | [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | メッシュに [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) を適用します。 |
 | [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | エクスポートされたファイルの座標系を設定します。 |
-| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | 各オブジェクトのマテリアルのインポート/エクスポートの有無を設定します。 |
+| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | 各オブジェクトのインポート/エクスポートマテリアルの有無を設定します。 |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | テキストベースのファイルのデフォルトエンコーディングを設定します。 |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | シーンで使用されているテクスチャを出力ディレクトリにコピーしようとします。 |
 | [setFileName(String value)](#setFileName-java.lang.String-) | エクスポート/インポートシーンのファイル名。 |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem のファクトリークラスを設定します。 |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | インポート/エクスポート時に制御点/法線の座標系を反転するかどうかを設定します。 |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [setPointCloud(boolean value)](#setPointCloud-boolean-) | エクスポーターがシーンをポイントクラウド（トポロジ構造なし）としてエクスポートすべきかどうかのフラグを設定します。デフォルト値は false です。 |
-| [setSerializeW(boolean value)](#setSerializeW-boolean-) | モデルの頂点位置における W 成分のシリアライズを設定します。 |
+| [setSerializeW(boolean value)](#setSerializeW-boolean-) | モデルの頂点位置における W 成分をシリアライズするかどうかを設定します。 |
 | [setVerbose(boolean value)](#setVerbose-boolean-) | 各セクションのコメント生成を設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -118,7 +118,7 @@ public boolean getEnableMaterials()
 ```
 
 
-各オブジェクトのマテリアルのインポート/エクスポートの有無を取得します。
+各オブジェクトのインポート/エクスポートマテリアルの有無を取得します。
 
 **Returns:**
 boolean - 各オブジェクトのマテリアルのインポート/エクスポートを行うかどうか
@@ -158,10 +158,10 @@ public String getFileName()
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Returns:**
-java.lang.String - エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+java.lang.String - エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -202,7 +202,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem のファクトリークラスを取得します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを取得します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -241,10 +241,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします
+java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています
 
 ```
 var opt = new ObjLoadOptions();
@@ -262,7 +262,7 @@ public boolean getPointCloud()
 エクスポーターがシーンをポイントクラウド（トポロジ構造なし）としてエクスポートすべきかどうかのフラグを取得します。デフォルト値は false です。
 
 **Returns:**
-boolean - エクスポーターがシーンをポイントクラウド（トポロジ構造なし）としてエクスポートすべきかどうかを示すフラグ、デフォルト値は false です
+boolean - エクスポーターがシーンをポイントクラウド（トポロジ構造なし）としてエクスポートすべきかどうかを示すフラグ、デフォルト値は false
 ### getSerializeW() {#getSerializeW--}
 ```
 public boolean getSerializeW()
@@ -333,7 +333,7 @@ public void setAxisSystem(AxisSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| value | [AxisSystem](../../com.aspose.threed/axissystem) | 新しい値 **備考:** この機能を利用するには FlipCoordinateSystem を有効にする必要があります。 |
+| value | [AxisSystem](../../com.aspose.threed/axissystem) | 新しい値 **Remarks:** この機能を利用するには FlipCoordinateSystem を有効にする必要があります。 |
 
 ### setEnableMaterials(boolean value) {#setEnableMaterials-boolean-}
 ```
@@ -341,7 +341,7 @@ public void setEnableMaterials(boolean value)
 ```
 
 
-各オブジェクトのマテリアルのインポート/エクスポートの有無を設定します。
+各オブジェクトのインポート/エクスポートマテリアルの有無を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -354,7 +354,7 @@ public void setEncoding(Charset value)
 ```
 
 
-テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定することを意味します。
+テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -380,7 +380,7 @@ public void setFileName(String value)
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -398,7 +398,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **Example:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は次のようなさまざまな FileSystem 実装を提供します： |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **例:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は以下のようなさまざまな FileSystem 実装を提供しています： |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -430,12 +430,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem のファクトリークラスを設定します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを設定します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **Example:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **例:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -475,12 +475,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします |
+|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています |
 
 ```
 var opt = new ObjLoadOptions();
@@ -509,7 +509,7 @@ public void setSerializeW(boolean value)
 ```
 
 
-モデルの頂点位置における W 成分のシリアライズを設定します。
+モデルの頂点位置における W 成分をシリアライズするかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

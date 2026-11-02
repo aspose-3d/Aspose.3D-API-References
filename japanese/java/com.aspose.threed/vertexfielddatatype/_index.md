@@ -23,7 +23,7 @@ public final class VertexFieldDataType
 
 | フィールド | 説明 |
 | --- | --- |
-| [BYTE_VECTOR4](#BYTE-VECTOR4) | byte[4] の型で、メモリ消費を抑えて色を表現するために使用できます。 |
+| [BYTE_VECTOR4](#BYTE-VECTOR4) | byte[4] の型で、メモリ消費を抑えてカラーを表現するために使用できます。 |
 | [DOUBLE](#DOUBLE) | double の型 |
 | [FLOAT](#FLOAT) | float の型 |
 | [F_VECTOR2](#F-VECTOR2) | [FVector2](../../com.aspose.threed/fvector2) の型 |
@@ -34,8 +34,8 @@ public final class VertexFieldDataType
 | [INT64](#INT64) | long の型 |
 | [INT8](#INT8) | byte の型 |
 | [VECTOR2](#VECTOR2) | [Vector2](../../com.aspose.threed/vector2) の型 |
-| [VECTOR3](#VECTOR3) | 型: [Vector3](../../com.aspose.threed/vector3) |
-| [VECTOR4](#VECTOR4) | 型: [Vector4](../../com.aspose.threed/vector4) |
+| [VECTOR3](#VECTOR3) | [Vector3](../../com.aspose.threed/vector3) の型 |
+| [VECTOR4](#VECTOR4) | [Vector4](../../com.aspose.threed/vector4) の型 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -61,7 +61,7 @@ public static final int BYTE_VECTOR4
 ```
 
 
-byte[4] の型で、メモリ消費を抑えて色を表現するために使用できます。
+byte[4] の型で、メモリ消費を抑えてカラーを表現するために使用できます。
 
 ### DOUBLE {#DOUBLE}
 ```
@@ -149,7 +149,7 @@ public static final int VECTOR3
 ```
 
 
-型: [Vector3](../../com.aspose.threed/vector3)
+[Vector3](../../com.aspose.threed/vector3) の型
 
 ### VECTOR4 {#VECTOR4}
 ```
@@ -157,7 +157,7 @@ public static final int VECTOR4
 ```
 
 
-型: [Vector4](../../com.aspose.threed/vector4)
+[Vector4](../../com.aspose.threed/vector4) の型
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

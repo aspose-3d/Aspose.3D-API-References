@@ -1,7 +1,7 @@
 ---
 title: "UShape"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "パラメータで定義されたIFC互換のU字形です。"
+description: "パラメータで定義された IFC 互換の U 形状。"
 type: docs
 weight: 199
 url: /ja/java/com.aspose.threed/ushape/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class UShape extends ParameterizedProfile
 ```
 
-パラメータで定義されたIFC互換のU字形です。
+パラメータで定義された IFC 互換の U 形状。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -29,10 +29,10 @@ public class UShape extends ParameterizedProfile
 | [getClass()](#getClass--) |  |
 | [getDepth()](#getDepth--) | ウェブの長さを取得します。 |
 | [getEdgeRadius()](#getEdgeRadius--) | フランジのエッジの半径を取得します。 |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getExtent()](#getExtent--) | x と y の次元の範囲を取得します。 |
-| [getFilletRadius()](#getFilletRadius--) | フランジとウェブ間のフィレットの半径を取得します。 |
+| [getFilletRadius()](#getFilletRadius--) | フランジとウェブ間のフィレット半径を取得します。 |
 | [getFlangeThickness()](#getFlangeThickness--) | フランジの厚さを取得します。 |
 | [getFlangeWidth()](#getFlangeWidth--) | フランジの長さを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -46,11 +46,11 @@ public class UShape extends ParameterizedProfile
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setDepth(double value)](#setDepth-double-) | ウェブの長さを設定します。 |
 | [setEdgeRadius(double value)](#setEdgeRadius-double-) | フランジのエッジの半径を設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
-| [setFilletRadius(double value)](#setFilletRadius-double-) | フランジとウェブ間のフィレットの半径を設定します。 |
+| [setFilletRadius(double value)](#setFilletRadius-double-) | フランジとウェブ間のフィレット半径を設定します。 |
 | [setFlangeThickness(double value)](#setFlangeThickness-double-) | フランジの厚さを設定します。 |
 | [setFlangeWidth(double value)](#setFlangeWidth-double-) | フランジの長さを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
@@ -90,7 +90,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -135,7 +135,7 @@ public double getDepth()
 ウェブの長さを取得します。
 
 **Returns:**
-double - ウェブの長さ。
+double - ウェブの長さです。
 ### getEdgeRadius() {#getEdgeRadius--}
 ```
 public double getEdgeRadius()
@@ -152,7 +152,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -182,10 +182,10 @@ public double getFilletRadius()
 ```
 
 
-フランジとウェブ間のフィレットの半径を取得します。
+フランジとウェブ間のフィレット半径を取得します。
 
 **Returns:**
-double - フランジとウェブ間のフィレットの半径。
+double - フランジとウェブ間のフィレット半径です。
 ### getFlangeThickness() {#getFlangeThickness--}
 ```
 public double getFlangeThickness()
@@ -195,7 +195,7 @@ public double getFlangeThickness()
 フランジの厚さを取得します。
 
 **Returns:**
-double - フランジの厚さ。
+double - フランジの厚さです。
 ### getFlangeWidth() {#getFlangeWidth--}
 ```
 public double getFlangeWidth()
@@ -205,7 +205,7 @@ public double getFlangeWidth()
 フランジの長さを取得します。
 
 **Returns:**
-double - フランジの長さ。
+double - フランジの長さです。
 ### getName() {#getName--}
 ```
 public String getName()
@@ -215,7 +215,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -235,7 +235,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -318,7 +318,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -328,12 +328,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -382,7 +382,7 @@ public void setFilletRadius(double value)
 ```
 
 
-フランジとウェブ間のフィレットの半径を設定します。
+フランジとウェブ間のフィレット半径を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

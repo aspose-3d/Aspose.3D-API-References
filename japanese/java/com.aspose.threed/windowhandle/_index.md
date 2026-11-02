@@ -1,7 +1,7 @@
 ---
 title: "WindowHandle"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "異なるプラットフォーム用のカプセル化されたウィンドウハンドル。"
+description: "異なるプラットフォーム向けにカプセル化されたウィンドウハンドル。"
 type: docs
 weight: 232
 url: /ja/java/com.aspose.threed/windowhandle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WindowHandle
 ```
 
-異なるプラットフォーム用のカプセル化されたウィンドウハンドル。
+異なるプラットフォーム向けにカプセル化されたウィンドウハンドル。
 ## メソッド
 
 | メソッド | 説明 |

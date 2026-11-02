@@ -1,7 +1,7 @@
 ---
 title: "キャンセル"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "このクラスを使用すると、ロード/セーブ タスクを手動で中止できます。"
+description: "このクラスは、ロード/セーブタスクを手動で中止できるようにします。"
 type: docs
 weight: 29
 url: /ja/java/com.aspose.threed/cancellation/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Cancellation
 ```
 
-このクラスを使用すると、ロード/セーブ タスクを手動で中止できます。
+このクラスは、ロード/セーブタスクを手動で中止できるようにします。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |

@@ -1,7 +1,7 @@
 ---
 title: "TextureCodec"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "テクスチャのエンコーダーとデコーダーを管理するクラスです。"
+description: "テクスチャ用のエンコーダーとデコーダーを管理するクラス。"
 type: docs
 weight: 186
 url: /ja/java/com.aspose.threed/texturecodec/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureCodec
 ```
 
-テクスチャのエンコーダーとデコーダーを管理するクラスです。
+テクスチャ用のエンコーダーとデコーダーを管理するクラス。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -24,7 +24,7 @@ public class TextureCodec
 | メソッド | 説明 |
 | --- | --- |
 | [decode(Stream stream, boolean reverseY)](#decode-com.aspose.threed.Stream-boolean-) | ストリームからテクスチャデータをデコードする |
-| [encode(TextureData texture, Stream stream, String format)](#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-java.lang.String-) | 指定された形式でテクスチャデータをストリームにエンコードする |
+| [encode(TextureData texture, Stream stream, String format)](#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-java.lang.String-) | 指定された形式を使用してテクスチャデータをストリームにエンコードする |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getSupportedEncoderFormats()](#getSupportedEncoderFormats--) | サポートされているすべてのエンコーダ形式を取得します |
@@ -64,14 +64,14 @@ public static void encode(TextureData texture, Stream stream, String format)
 ```
 
 
-指定された形式でテクスチャデータをストリームにエンコードする
+指定された形式を使用してテクスチャデータをストリームにエンコードする
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| texture | [TextureData](../../com.aspose.threed/texturedata) | エンコードするテクスチャ |
+| texture | [TextureData](../../com.aspose.threed/texturedata) | エンコードされるテクスチャ |
 | stream | [Stream](../../com.aspose.threed/stream) | 出力ストリーム |
-| format | java.lang.String | エンコードされたデータの画像形式（png/jpg など） |
+| 形式 | java.lang.String | エンコードされたデータの画像形式（png/jpg など） |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

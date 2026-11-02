@@ -1,7 +1,7 @@
 ---
 title: "CullFaceMode"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "除外する面"
+description: "どの面をカリングするか"
 type: docs
 weight: 37
 url: /ja/java/com.aspose.threed/cullfacemode/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class CullFaceMode
 ```
 
-除外する面
+どの面をカリングするか
 ## コンストラクタ
 
 | コンストラクタ | 説明 |

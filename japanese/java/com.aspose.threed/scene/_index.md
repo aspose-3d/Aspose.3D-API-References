@@ -8,7 +8,7 @@ url: /ja/java/com.aspose.threed/scene/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)、[com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject)
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject)
 ```
 public class Scene extends SceneObject
 ```
@@ -16,94 +16,94 @@ public class Scene extends SceneObject
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Scene(Entity entity)](#Scene-com.aspose.threed.Entity-) | [Scene](../../com.aspose.threed/scene) クラスの新しいインスタンスを初期化し、エンティティを新しいノードに添付します。 |
-| [Scene(Scene parentScene, String name)](#Scene-com.aspose.threed.Scene-java.lang.String-) | [Scene](../../com.aspose.threed/scene) クラスの新しいインスタンスをサブシーンとして初期化します。 |
+| [Scene(Entity entity)](#Scene-com.aspose.threed.Entity-) | 新しいノードにエンティティを添付した [Scene](../../com.aspose.threed/scene) クラスの新しいインスタンスを初期化します。 |
+| [Scene(Scene parentScene, String name)](#Scene-com.aspose.threed.Scene-java.lang.String-) | [Scene](../../com.aspose.threed/scene) クラスのサブシーンとして新しいインスタンスを初期化します。 |
 | [Scene()](#Scene--) | [Scene](../../com.aspose.threed/scene) クラスの新しいインスタンスを初期化します。 |
 ## フィールド
 
 | フィールド | 説明 |
 | --- | --- |
-| [VERSION](#VERSION) | 現在のリリースバージョンを取得します |
+| [VERSION](#VERSION) | 現在のリリースバージョンを取得します。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [clear()](#clear--) | シーンの内容をクリアし、デフォルト設定を復元します。 |
-| [createAnimationClip(String name)](#createAnimationClip-java.lang.String-) | ショートカット関数で [AnimationClip](../../com.aspose.threed/animationclip) を作成および登録します。最初の [AnimationClip](../../com.aspose.threed/animationclip) は [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip) に割り当てられます。 |
+| [createAnimationClip(String name)](#createAnimationClip-java.lang.String-) | [AnimationClip](../../com.aspose.threed/animationclip) を作成して登録するショートカット関数です。最初の [AnimationClip](../../com.aspose.threed/animationclip) は [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip) に割り当てられます。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [fromFile(String fileName)](#fromFile-java.lang.String-) | 指定されたパスからシーンを開きます |
-| [fromFile(String fileName, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.Cancellation-) | 指定されたパスからシーンを開きます |
-| [fromFile(String fileName, FileFormat format)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます |
-| [fromFile(String fileName, FileFormat format, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます |
-| [fromFile(String fileName, LoadOptions options)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます |
-| [fromFile(String fileName, LoadOptions options, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます |
-| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | 指定されたストリームからシーンを開きます |
-| [fromStream(Stream stream, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | 指定されたストリームからシーンを開きます |
-| [fromStream(Stream stream, FileFormat format)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます |
-| [fromStream(Stream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます |
-| [fromStream(Stream stream, LoadOptions options)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | 指定されたIO設定を使用して、指定されたストリームからシーンを開きます |
-| [fromStream(Stream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定されたIO設定を使用して、指定されたストリームからシーンを開きます |
-| [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | 指定されたストリームからシーンを開きます |
-| [fromStream(InputStream stream, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.Cancellation-) | 指定されたストリームからシーンを開きます |
-| [fromStream(InputStream stream, FileFormat format)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます |
-| [fromStream(InputStream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます |
-| [fromStream(InputStream stream, LoadOptions options)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-) | 指定されたIO設定を使用して、指定されたストリームからシーンを開きます |
-| [fromStream(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定されたIO設定を使用して、指定されたストリームからシーンを開きます |
-| [getAnimationClip(String name)](#getAnimationClip-java.lang.String-) | 名前付き [AnimationClip](../../com.aspose.threed/animationclip) を取得します |
-| [getAnimationClips()](#getAnimationClips--) | シーンで定義されたすべての [AnimationClip](../../com.aspose.threed/animationclip) を取得します |
-| [getAssetInfo()](#getAssetInfo--) | トップレベルのアセット情報を取得します |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | 指定されたパスからシーンを開きます。 |
+| [fromFile(String fileName, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.Cancellation-) | 指定されたパスからシーンを開きます。 |
+| [fromFile(String fileName, FileFormat format)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます。 |
+| [fromFile(String fileName, FileFormat format, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます。 |
+| [fromFile(String fileName, LoadOptions options)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます。 |
+| [fromFile(String fileName, LoadOptions options, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます。 |
+| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | 指定されたストリームからシーンを開きます。 |
+| [fromStream(Stream stream, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | 指定されたストリームからシーンを開きます。 |
+| [fromStream(Stream stream, FileFormat format)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。 |
+| [fromStream(Stream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。 |
+| [fromStream(Stream stream, LoadOptions options)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | 指定された IO 設定を使用して、指定されたストリームからシーンを開きます。 |
+| [fromStream(Stream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定された IO 設定を使用して、指定されたストリームからシーンを開きます。 |
+| [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | 指定されたストリームからシーンを開きます。 |
+| [fromStream(InputStream stream, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.Cancellation-) | 指定されたストリームからシーンを開きます。 |
+| [fromStream(InputStream stream, FileFormat format)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。 |
+| [fromStream(InputStream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。 |
+| [fromStream(InputStream stream, LoadOptions options)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-) | 指定された IO 設定を使用して、指定されたストリームからシーンを開きます。 |
+| [fromStream(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定された IO 設定を使用して、指定されたストリームからシーンを開きます。 |
+| [getAnimationClip(String name)](#getAnimationClip-java.lang.String-) | 名前付き [AnimationClip](../../com.aspose.threed/animationclip) を取得します。 |
+| [getAnimationClips()](#getAnimationClips--) | シーンで定義されているすべての [AnimationClip](../../com.aspose.threed/animationclip) を取得します。 |
+| [getAssetInfo()](#getAssetInfo--) | トップレベルのアセット情報を取得します。 |
 | [getClass()](#getClass--) |  |
-| [getCurrentAnimationClip()](#getCurrentAnimationClip--) | アクティブな [AnimationClip](../../com.aspose.threed/animationclip) を取得します |
-| [getLibrary()](#getLibrary--) | シーン階層で直接使用されないオブジェクトは、ライブラリで定義できます。 |
+| [getCurrentAnimationClip()](#getCurrentAnimationClip--) | アクティブな [AnimationClip](../../com.aspose.threed/animationclip) を取得します。 |
+| [getLibrary()](#getLibrary--) | シーン階層で直接使用されないオブジェクトは Library に定義できます。 |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getPoses()](#getPoses--) | このシーンで使用されているすべての [Pose](../../com.aspose.threed/pose) を取得します |
+| [getPoses()](#getPoses--) | このシーンで使用されているすべての [Pose](../../com.aspose.threed/pose) を取得します。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
-| [getRootNode()](#getRootNode--) | シーンのルートノードを取得します |
+| [getRootNode()](#getRootNode--) | シーンのルートノードを取得します。 |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getSubScenes()](#getSubScenes--) | すべてのサブシーンを取得します |
+| [getSubScenes()](#getSubScenes--) | すべてのサブシーンを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [open(Stream stream)](#open-com.aspose.threed.Stream-) | 指定されたストリームからシーンを開きます |
-| [open(Stream stream, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | 指定されたストリームからシーンを開きます |
-| [open(Stream stream, FileFormat format)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます |
-| [open(Stream stream, FileFormat format, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます |
-| [open(Stream stream, LoadOptions options)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | 指定されたIO設定を使用して、指定されたストリームからシーンを開きます |
-| [open(Stream stream, LoadOptions options, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定されたIO設定を使用して、指定されたストリームからシーンを開きます |
-| [open(InputStream stream)](#open-java.io.InputStream-) | 指定されたストリームからシーンを開きます |
-| [open(InputStream stream, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.Cancellation-) | 指定されたストリームからシーンを開きます |
-| [open(InputStream stream, FileFormat format)](#open-java.io.InputStream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます |
-| [open(InputStream stream, FileFormat format, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます |
-| [open(InputStream stream, LoadOptions options)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-) | 指定されたIO設定を使用して、指定されたストリームからシーンを開きます |
-| [open(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定されたIO設定を使用して、指定されたストリームからシーンを開きます |
-| [open(String fileName)](#open-java.lang.String-) | 指定されたパスからシーンを開きます |
-| [open(String fileName, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.Cancellation-) | 指定されたパスからシーンを開きます |
-| [open(String fileName, FileFormat format)](#open-java.lang.String-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます |
-| [open(String fileName, FileFormat format, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます |
-| [open(String fileName, LoadOptions options)](#open-java.lang.String-com.aspose.threed.LoadOptions-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます |
-| [open(String fileName, LoadOptions options, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます |
+| [open(Stream stream)](#open-com.aspose.threed.Stream-) | 指定されたストリームからシーンを開きます。 |
+| [open(Stream stream, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | 指定されたストリームからシーンを開きます。 |
+| [open(Stream stream, FileFormat format)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。 |
+| [open(Stream stream, FileFormat format, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。 |
+| [open(Stream stream, LoadOptions options)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | 指定された IO 設定を使用して、指定されたストリームからシーンを開きます。 |
+| [open(Stream stream, LoadOptions options, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定された IO 設定を使用して、指定されたストリームからシーンを開きます。 |
+| [open(InputStream stream)](#open-java.io.InputStream-) | 指定されたストリームからシーンを開きます。 |
+| [open(InputStream stream, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.Cancellation-) | 指定されたストリームからシーンを開きます。 |
+| [open(InputStream stream, FileFormat format)](#open-java.io.InputStream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。 |
+| [open(InputStream stream, FileFormat format, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。 |
+| [open(InputStream stream, LoadOptions options)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-) | 指定された IO 設定を使用して、指定されたストリームからシーンを開きます。 |
+| [open(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定された IO 設定を使用して、指定されたストリームからシーンを開きます。 |
+| [open(String fileName)](#open-java.lang.String-) | 指定されたパスからシーンを開きます。 |
+| [open(String fileName, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.Cancellation-) | 指定されたパスからシーンを開きます。 |
+| [open(String fileName, FileFormat format)](#open-java.lang.String-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます。 |
+| [open(String fileName, FileFormat format, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます。 |
+| [open(String fileName, LoadOptions options)](#open-java.lang.String-com.aspose.threed.LoadOptions-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます。 |
+| [open(String fileName, LoadOptions options, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、指定されたパスからシーンを開きます。 |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [render(Camera camera, TextureData bitmap)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-) | 指定されたカメラの視点からシーンをビットマップにレンダリングします |
-| [render(Camera camera, TextureData bitmap, ImageRenderOptions options)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-) | 指定されたカメラの視点からシーンをビットマップにレンダリングします |
-| [render(Camera camera, String fileName)](#render-com.aspose.threed.Camera-java.lang.String-) | 指定されたカメラの視点からシーンを外部ファイルにレンダリングします |
-| [render(Camera camera, String fileName, Vector2 size, String format)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-) | 指定されたカメラの視点からシーンを外部ファイルにレンダリングします |
-| [render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-) | 指定されたカメラの視点からシーンを外部ファイルにレンダリングします |
-| [save(Stream stream, FileFormat format)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、シーンをストリームに保存します |
-| [save(Stream stream, FileFormat format, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、シーンをストリームに保存します |
-| [save(Stream stream, SaveOptions options)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-) | 指定されたファイル形式を使用して、シーンをストリームに保存します |
-| [save(Stream stream, SaveOptions options, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、シーンをストリームに保存します |
-| [save(OutputStream stream, FileFormat format)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、シーンをストリームに保存します |
-| [save(OutputStream stream, FileFormat format, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、シーンをストリームに保存します |
-| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-) | 指定されたファイル形式を使用して、シーンをストリームに保存します |
-| [save(OutputStream stream, SaveOptions options, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、シーンをストリームに保存します |
-| [save(String fileName)](#save-java.lang.String-) | 指定されたファイル形式を使用して、シーンを指定されたパスに保存します。 |
-| [save(String fileName, FileFormat format)](#save-java.lang.String-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用して、シーンを指定されたパスに保存します。 |
-| [save(String fileName, FileFormat format, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、シーンを指定されたパスに保存します。 |
-| [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.threed.SaveOptions-) | 指定されたファイル形式を使用して、シーンを指定されたパスに保存します。 |
-| [save(String fileName, SaveOptions options, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用して、シーンを指定されたパスに保存します。 |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [render(Camera camera, TextureData bitmap)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-) | 指定されたカメラの視点からシーンをビットマップにレンダリングします。 |
+| [render(Camera camera, TextureData bitmap, ImageRenderOptions options)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-) | 指定されたカメラの視点からシーンをビットマップにレンダリングします。 |
+| [render(Camera camera, String fileName)](#render-com.aspose.threed.Camera-java.lang.String-) | 指定されたカメラの視点からシーンを外部ファイルにレンダリングします。 |
+| [render(Camera camera, String fileName, Vector2 size, String format)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-) | 指定されたカメラの視点からシーンを外部ファイルにレンダリングします。 |
+| [render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-) | 指定されたカメラの視点からシーンを外部ファイルにレンダリングします。 |
+| [save(Stream stream, FileFormat format)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用してシーンをストリームに保存します。 |
+| [save(Stream stream, FileFormat format, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用してシーンをストリームに保存します。 |
+| [save(Stream stream, SaveOptions options)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-) | 指定されたファイル形式を使用してシーンをストリームに保存します。 |
+| [save(Stream stream, SaveOptions options, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用してシーンをストリームに保存します。 |
+| [save(OutputStream stream, FileFormat format)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-) | 指定されたファイル形式を使用してシーンをストリームに保存します。 |
+| [save(OutputStream stream, FileFormat format, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用してシーンをストリームに保存します。 |
+| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-) | 指定されたファイル形式を使用してシーンをストリームに保存します。 |
+| [save(OutputStream stream, SaveOptions options, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | 指定されたファイル形式を使用してシーンをストリームに保存します。 |
+| [save(String fileName)](#save-java.lang.String-) | 指定されたパスに、指定されたファイル形式でシーンを保存します。 |
+| [save(String fileName, FileFormat format)](#save-java.lang.String-com.aspose.threed.FileFormat-) | 指定されたパスに、指定されたファイル形式でシーンを保存します。 |
+| [save(String fileName, FileFormat format, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | 指定されたパスに、指定されたファイル形式でシーンを保存します。 |
+| [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.threed.SaveOptions-) | 指定されたパスに、指定されたファイル形式でシーンを保存します。 |
+| [save(String fileName, SaveOptions options, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | 指定されたパスに、指定されたファイル形式でシーンを保存します。 |
 | [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | トップレベルのアセット情報を設定します。 |
 | [setCurrentAnimationClip(AnimationClip value)](#setCurrentAnimationClip-com.aspose.threed.AnimationClip-) | アクティブな[AnimationClip](../../com.aspose.threed/animationclip)を設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
@@ -118,12 +118,12 @@ public Scene(Entity entity)
 ```
 
 
-[Scene](../../com.aspose.threed/scene) クラスの新しいインスタンスを初期化し、エンティティを新しいノードに添付します。
+新しいノードにエンティティを添付した [Scene](../../com.aspose.threed/scene) クラスの新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | entity | [Entity](../../com.aspose.threed/entity) | シーンにアタッチされた最初のエンティティ **Example:** 以下のコードは、[Entity](../../com.aspose.threed/entity) から直接 [getScene](../../com.aspose.threed/scene\#getScene) を作成する方法を示しています。 |
+|  | entity | [Entity](../../com.aspose.threed/entity) | シーンにアタッチされた初期エンティティ **Example:** 以下のコードは、[Entity](../../com.aspose.threed/entity)から直接[getScene](../../com.aspose.threed/scene\#getScene)を作成する方法を示しています： |
 
 ```
 var scene = new Scene(new Box());
@@ -135,13 +135,13 @@ public Scene(Scene parentScene, String name)
 ```
 
 
-[Scene](../../com.aspose.threed/scene) クラスの新しいインスタンスをサブシーンとして初期化します。
+[Scene](../../com.aspose.threed/scene) クラスのサブシーンとして新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | parentScene | [Scene](../../com.aspose.threed/scene) | 親シーンです。 |
-| 名前 | java.lang.String | シーンの名前。 |
+| 名前 | java.lang.String | シーン名。 |
 
 ### Scene() {#Scene--}
 ```
@@ -157,7 +157,7 @@ public static final String VERSION
 ```
 
 
-現在のリリースバージョンを取得します
+現在のリリースバージョンを取得します。
 
 ### clear() {#clear--}
 ```
@@ -173,7 +173,7 @@ public AnimationClip createAnimationClip(String name)
 ```
 
 
-ショートカット関数で [AnimationClip](../../com.aspose.threed/animationclip) を作成および登録します。最初の [AnimationClip](../../com.aspose.threed/animationclip) は [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip) に割り当てられます。
+[AnimationClip](../../com.aspose.threed/animationclip) を作成して登録するショートカット関数です。最初の [AnimationClip](../../com.aspose.threed/animationclip) は [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip) に割り当てられます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -203,7 +203,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -218,7 +218,7 @@ public static Scene fromFile(String fileName)
 ```
 
 
-指定されたパスからシーンを開きます
+指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -233,13 +233,13 @@ public static Scene fromFile(String fileName, Cancellation cancellationToken)
 ```
 
 
-指定されたパスからシーンを開きます
+指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -249,7 +249,7 @@ public static Scene fromFile(String fileName, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、指定されたパスからシーンを開きます
+指定されたファイル形式を使用して、指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -265,14 +265,14 @@ public static Scene fromFile(String fileName, FileFormat format, Cancellation ca
 ```
 
 
-指定されたファイル形式を使用して、指定されたパスからシーンを開きます
+指定されたファイル形式を使用して、指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -282,13 +282,13 @@ public static Scene fromFile(String fileName, LoadOptions options)
 ```
 
 
-指定されたファイル形式を使用して、指定されたパスからシーンを開きます
+指定されたファイル形式を使用して、指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -298,14 +298,14 @@ public static Scene fromFile(String fileName, LoadOptions options, Cancellation 
 ```
 
 
-指定されたファイル形式を使用して、指定されたパスからシーンを開きます
+指定されたファイル形式を使用して、指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -315,12 +315,12 @@ public static Scene fromStream(Stream stream)
 ```
 
 
-指定されたストリームからシーンを開きます
+指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -330,13 +330,13 @@ public static Scene fromStream(Stream stream, Cancellation cancellationToken)
 ```
 
 
-指定されたストリームからシーンを開きます
+指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -346,12 +346,12 @@ public static Scene fromStream(Stream stream, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、指定されたストリームからシーンを開きます
+指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 |
 
 **Returns:**
@@ -362,14 +362,14 @@ public static Scene fromStream(Stream stream, FileFormat format, Cancellation ca
 ```
 
 
-指定されたファイル形式を使用して、指定されたストリームからシーンを開きます
+指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -379,13 +379,13 @@ public static Scene fromStream(Stream stream, LoadOptions options)
 ```
 
 
-指定されたIO設定を使用して、指定されたストリームからシーンを開きます
+指定された IO 設定を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -395,14 +395,14 @@ public static Scene fromStream(Stream stream, LoadOptions options, Cancellation 
 ```
 
 
-指定されたIO設定を使用して、指定されたストリームからシーンを開きます
+指定された IO 設定を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene)
@@ -412,12 +412,12 @@ public static Scene fromStream(InputStream stream)
 ```
 
 
-指定されたストリームからシーンを開きます
+指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 **Example:** 以下のコードは、キャンセルトークンソースを使用してストリームからシーンを作成する方法を示しています。 |
+|  | ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 **Example:** 以下のコードは、キャンセルトークンソースを使用してストリームからシーンを作成する方法を示しています。 |
 
 ```
 var cts = new Cancellation();    
@@ -434,13 +434,13 @@ public static Scene fromStream(InputStream stream, Cancellation cancellationToke
 ```
 
 
-指定されたストリームからシーンを開きます
+指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン **Example:** 以下のコードは、キャンセルトークンソースを使用してストリームからシーンを作成する方法を示しています。 |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン **Example:** 以下のコードは、キャンセルトークンソースを使用してストリームからシーンを作成する方法を示しています。 |
 
 ```
 var cts = new Cancellation();    
@@ -457,12 +457,12 @@ public static Scene fromStream(InputStream stream, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、指定されたストリームからシーンを開きます
+指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 |  | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 **Example:** 以下のコードは、ストリームからシーンを作成する方法を示しています。 |
 
 ```
@@ -479,14 +479,14 @@ public static Scene fromStream(InputStream stream, FileFormat format, Cancellati
 ```
 
 
-指定されたファイル形式を使用して、指定されたストリームからシーンを開きます
+指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン **Example:** 以下のコードは、ストリームからシーンを作成する方法を示しています。 |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン **Example:** 以下のコードは、ストリームからシーンを作成する方法を示しています。 |
 
 ```
 try(InputStream input = new FileInputStream("input.fbx")) {    
@@ -502,13 +502,13 @@ public static Scene fromStream(InputStream stream, LoadOptions options)
 ```
 
 
-指定されたIO設定を使用して、指定されたストリームからシーンを開きます
+指定された IO 設定を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 **Example:** 以下のコードは、ロードオプションを使用してストリームからシーンを作成する方法を示しています。 |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 **Example:** 以下のコードは、ロードオプションを使用してストリームからシーンを作成する方法を示しています。 |
 
 ```
 var opts = new FbxLoadOptions();    
@@ -526,14 +526,14 @@ public static Scene fromStream(InputStream stream, LoadOptions options, Cancella
 ```
 
 
-指定されたIO設定を使用して、指定されたストリームからシーンを開きます
+指定された IO 設定を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン **Example:** 以下のコードは、ロードオプションを使用してストリームからシーンを作成する方法を示しています。 |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン **Example:** 以下のコードは、ロードオプションを使用してストリームからシーンを作成する方法を示しています。 |
 
 ```
 var opts = new FbxLoadOptions();    
@@ -551,12 +551,12 @@ public AnimationClip getAnimationClip(String name)
 ```
 
 
-名前付き [AnimationClip](../../com.aspose.threed/animationclip) を取得します
+名前付き [AnimationClip](../../com.aspose.threed/animationclip) を取得します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| name | java.lang.String | [AnimationClip](../../com.aspose.threed/animationclip) を検索するための名前 |
+| name | java.lang.String | [AnimationClip](../../com.aspose.threed/animationclip)の検索対象となる名前 |
 
 **Returns:**
 [AnimationClip](../../com.aspose.threed/animationclip) - Returned AnimationClip
@@ -566,7 +566,7 @@ public List<AnimationClip> getAnimationClips()
 ```
 
 
-シーンで定義されたすべての [AnimationClip](../../com.aspose.threed/animationclip) を取得します
+シーンで定義されているすべての [AnimationClip](../../com.aspose.threed/animationclip) を取得します。
 
 **Returns:**
 java.util.List<com.aspose.threed.AnimationClip> - シーン内で定義されたすべての[AnimationClip](../../com.aspose.threed/animationclip)。
@@ -576,7 +576,7 @@ public AssetInfo getAssetInfo()
 ```
 
 
-トップレベルのアセット情報を取得します
+トップレベルのアセット情報を取得します。
 
 **Returns:**
 [AssetInfo](../../com.aspose.threed/assetinfo) - the top-level asset information **Example:** The following code shows how to read the application information from a FBX file:
@@ -603,7 +603,7 @@ public AnimationClip getCurrentAnimationClip()
 ```
 
 
-アクティブな [AnimationClip](../../com.aspose.threed/animationclip) を取得します
+アクティブな [AnimationClip](../../com.aspose.threed/animationclip) を取得します。
 
 **Returns:**
 [AnimationClip](../../com.aspose.threed/animationclip) - the active [AnimationClip](../../com.aspose.threed/animationclip)
@@ -613,10 +613,10 @@ public List<A3DObject> getLibrary()
 ```
 
 
-シーン階層で直接使用されていないオブジェクトはライブラリで定義できます。サブシーンを使用し、再利用可能なコンポーネントをサブシーンの下に配置する場合に便利です。
+シーン階層で直接使用されていないオブジェクトはライブラリで定義できます。これは、サブシーンを使用し、再利用可能なコンポーネントをサブシーンの下に配置する場合に便利です。
 
 **Returns:**
-java.util.List<com.aspose.threed.A3DObject> - シーン階層で直接使用されていないオブジェクトはライブラリで定義できます。サブシーンを使用し、再利用可能なコンポーネントをサブシーンの下に配置する場合に便利です。
+java.util.List<com.aspose.threed.A3DObject> - シーン階層で直接使用されていないオブジェクトはライブラリで定義できます。これは、サブシーンを使用し、再利用可能なコンポーネントをサブシーンの下に配置する場合に便利です。
 ### getName() {#getName--}
 ```
 public String getName()
@@ -626,14 +626,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getPoses() {#getPoses--}
 ```
 public Collection<Pose> getPoses()
 ```
 
 
-このシーンで使用されているすべての [Pose](../../com.aspose.threed/pose) を取得します
+このシーンで使用されているすべての [Pose](../../com.aspose.threed/pose) を取得します。
 
 **Returns:**
 java.util.Collection<com.aspose.threed.Pose> - このシーンで使用されているすべての[Pose](../../com.aspose.threed/pose)。
@@ -668,7 +668,7 @@ public Node getRootNode()
 ```
 
 
-シーンのルートノードを取得します
+シーンのルートノードを取得します。
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the root node of the scene. **Example:** The following code shows how to create a node with Box entity attached to the root node.
@@ -694,7 +694,7 @@ public List<Scene> getSubScenes()
 ```
 
 
-すべてのサブシーンを取得します
+すべてのサブシーンを取得します。
 
 **Returns:**
 java.util.List<com.aspose.threed.Scene> - すべてのサブシーン
@@ -730,12 +730,12 @@ public void open(Stream stream)
 ```
 
 
-指定されたストリームからシーンを開きます
+指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 
 ### open(Stream stream, Cancellation cancellationToken) {#open-com.aspose.threed.Stream-com.aspose.threed.Cancellation-}
 ```
@@ -743,13 +743,13 @@ public void open(Stream stream, Cancellation cancellationToken)
 ```
 
 
-指定されたストリームからシーンを開きます
+指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 ### open(Stream stream, FileFormat format) {#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-}
 ```
@@ -757,12 +757,12 @@ public void open(Stream stream, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、指定されたストリームからシーンを開きます
+指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 |
 
 ### open(Stream stream, FileFormat format, Cancellation cancellationToken) {#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-}
@@ -771,14 +771,14 @@ public void open(Stream stream, FileFormat format, Cancellation cancellationToke
 ```
 
 
-指定されたファイル形式を使用して、指定されたストリームからシーンを開きます
+指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 ### open(Stream stream, LoadOptions options) {#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-}
 ```
@@ -786,13 +786,13 @@ public void open(Stream stream, LoadOptions options)
 ```
 
 
-指定されたIO設定を使用して、指定されたストリームからシーンを開きます
+指定された IO 設定を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
 
 ### open(Stream stream, LoadOptions options, Cancellation cancellationToken) {#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-}
 ```
@@ -800,14 +800,14 @@ public void open(Stream stream, LoadOptions options, Cancellation cancellationTo
 ```
 
 
-指定されたIO設定を使用して、指定されたストリームからシーンを開きます
+指定された IO 設定を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 ### open(InputStream stream) {#open-java.io.InputStream-}
 ```
@@ -815,12 +815,12 @@ public void open(InputStream stream)
 ```
 
 
-指定されたストリームからシーンを開きます
+指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 **Example:** 以下のコードは、ストリームからシーンを開く方法を示しています。 |
+|  | ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 **Example:** 以下のコードは、ストリームからシーンを開く方法を示しています。 |
 
 ```
 var scene = new Scene();    
@@ -835,13 +835,13 @@ public void open(InputStream stream, Cancellation cancellationToken)
 ```
 
 
-指定されたストリームからシーンを開きます
+指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロード タスクのキャンセレーション トークン **Example:** 次のコードは、キャンセレーション トークンを使用してストリームからシーンを開く方法を示しています |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセレーショントークン **Example:** 次のコードは、キャンセレーショントークンを使用してストリームからシーンを開く方法を示しています |
 
 ```
 var scene = new Scene();    
@@ -857,12 +857,12 @@ public void open(InputStream stream, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、指定されたストリームからシーンを開きます
+指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 |  | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 **Example:** 次のコードは、ストリームからシーンを開く方法を示しています |
 
 ```
@@ -878,14 +878,14 @@ public void open(InputStream stream, FileFormat format, Cancellation cancellatio
 ```
 
 
-指定されたファイル形式を使用して、指定されたストリームからシーンを開きます
+指定されたファイル形式を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロード タスクのキャンセレーション トークン **Example:** 次のコードは、ストリームからシーンを開く方法を示しています |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセレーショントークン **Example:** 次のコードは、ストリームからシーンを開く方法を示しています |
 
 ```
 Scene scene = new Scene();    
@@ -900,13 +900,13 @@ public void open(InputStream stream, LoadOptions options)
 ```
 
 
-指定されたIO設定を使用して、指定されたストリームからシーンを開きます
+指定された IO 設定を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 **Example:** 次のコードは、追加のロード オプションを使用してストリームからシーンを開く方法を示しています |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 **Example:** 次のコードは、追加のロードオプションを使用してストリームからシーンを開く方法を示しています |
 
 ```
 Scene scene = new Scene();    
@@ -923,14 +923,14 @@ public void open(InputStream stream, LoadOptions options, Cancellation cancellat
 ```
 
 
-指定されたIO設定を使用して、指定されたストリームからシーンを開きます
+指定された IO 設定を使用して、指定されたストリームからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロード タスクのキャンセレーション トークン **Example:** 次のコードは、追加のロード オプションを使用してストリームからシーンを開く方法を示しています |
+| ストリーム | java.io.InputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセレーショントークン **Example:** 次のコードは、追加のロードオプションを使用してストリームからシーンを開く方法を示しています |
 
 ```
 Scene scene = new Scene();    
@@ -947,7 +947,7 @@ public void open(String fileName)
 ```
 
 
-指定されたパスからシーンを開きます
+指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -960,13 +960,13 @@ public void open(String fileName, Cancellation cancellationToken)
 ```
 
 
-指定されたパスからシーンを開きます
+指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 ### open(String fileName, FileFormat format) {#open-java.lang.String-com.aspose.threed.FileFormat-}
 ```
@@ -974,7 +974,7 @@ public void open(String fileName, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、指定されたパスからシーンを開きます
+指定されたファイル形式を使用して、指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -988,14 +988,14 @@ public void open(String fileName, FileFormat format, Cancellation cancellationTo
 ```
 
 
-指定されたファイル形式を使用して、指定されたパスからシーンを開きます
+指定されたファイル形式を使用して、指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | ファイル形式。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 ### open(String fileName, LoadOptions options) {#open-java.lang.String-com.aspose.threed.LoadOptions-}
 ```
@@ -1003,13 +1003,13 @@ public void open(String fileName, LoadOptions options)
 ```
 
 
-指定されたファイル形式を使用して、指定されたパスからシーンを開きます
+指定されたファイル形式を使用して、指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
 
 ### open(String fileName, LoadOptions options, Cancellation cancellationToken) {#open-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-}
 ```
@@ -1017,14 +1017,14 @@ public void open(String fileName, LoadOptions options, Cancellation cancellation
 ```
 
 
-指定されたファイル形式を使用して、指定されたパスからシーンを開きます
+指定されたファイル形式を使用して、指定されたパスからシーンを開きます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
-| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクへのキャンセルトークン |
+| options | [LoadOptions](../../com.aspose.threed/loadoptions) | ストリームを開くための詳細な構成設定。 |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | ロードタスクのキャンセルトークン |
 
 ### removeProperty(Property property) {#removeProperty-com.aspose.threed.Property-}
 ```
@@ -1037,7 +1037,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -1047,12 +1047,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -1062,12 +1062,12 @@ public void render(Camera camera, TextureData bitmap)
 ```
 
 
-指定されたカメラの視点からシーンをビットマップにレンダリングします
+指定されたカメラの視点からシーンをビットマップにレンダリングします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | どのカメラの視点からシーンをレンダリングするか |
+| camera | [Camera](../../com.aspose.threed/camera) | シーンをレンダリングするカメラの視点 |
 | bitmap | [TextureData](../../com.aspose.threed/texturedata) | レンダリング結果のターゲット |
 
 ### render(Camera camera, TextureData bitmap, ImageRenderOptions options) {#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-}
@@ -1076,12 +1076,12 @@ public void render(Camera camera, TextureData bitmap, ImageRenderOptions options
 ```
 
 
-指定されたカメラの視点からシーンをビットマップにレンダリングします
+指定されたカメラの視点からシーンをビットマップにレンダリングします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | どのカメラの視点からシーンをレンダリングするか |
+| camera | [Camera](../../com.aspose.threed/camera) | シーンをレンダリングするカメラの視点 |
 | bitmap | [TextureData](../../com.aspose.threed/texturedata) | レンダリング結果のターゲット |
 | options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | 内部設定の一部をカスタマイズするオプションです。 |
 
@@ -1091,12 +1091,12 @@ public void render(Camera camera, String fileName)
 ```
 
 
-指定されたカメラの視点からシーンを外部ファイルにレンダリングします。デフォルトの出力サイズは 1024x768 で、出力形式は png です。
+指定されたカメラの視点からシーンを外部ファイルにレンダリングします。デフォルトの出力サイズは1024x768で、出力形式はpngです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | どのカメラの視点からシーンをレンダリングするか |
+| camera | [Camera](../../com.aspose.threed/camera) | シーンをレンダリングするカメラの視点 |
 | fileName | java.lang.String | 出力ファイルのファイル名 |
 
 ### render(Camera camera, String fileName, Vector2 size, String format) {#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-}
@@ -1105,15 +1105,15 @@ public void render(Camera camera, String fileName, Vector2 size, String format)
 ```
 
 
-指定されたカメラの視点からシーンを外部ファイルにレンダリングします
+指定されたカメラの視点からシーンを外部ファイルにレンダリングします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | どのカメラの視点からシーンをレンダリングするか |
+| camera | [Camera](../../com.aspose.threed/camera) | シーンをレンダリングするカメラの視点 |
 | fileName | java.lang.String | 出力ファイルのファイル名 |
-| size | [Vector2](../../com.aspose.threed/vector2) | 最終的にレンダリングされた画像のサイズ |
-| format | java.lang.String | 出力ファイルの画像形式 |
+| size | [Vector2](../../com.aspose.threed/vector2) | 最終レンダリング画像のサイズ |
+| 形式 | java.lang.String | 出力ファイルの画像形式 |
 
 ### render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options) {#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-}
 ```
@@ -1121,15 +1121,15 @@ public void render(Camera camera, String fileName, Vector2 size, String format, 
 ```
 
 
-指定されたカメラの視点からシーンを外部ファイルにレンダリングします
+指定されたカメラの視点からシーンを外部ファイルにレンダリングします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | どのカメラの視点からシーンをレンダリングするか |
+| camera | [Camera](../../com.aspose.threed/camera) | シーンをレンダリングするカメラの視点 |
 | fileName | java.lang.String | 出力ファイルのファイル名 |
-| size | [Vector2](../../com.aspose.threed/vector2) | 最終的にレンダリングされた画像のサイズ |
-| format | java.lang.String | 出力ファイルの画像形式 |
+| size | [Vector2](../../com.aspose.threed/vector2) | 最終レンダリング画像のサイズ |
+| 形式 | java.lang.String | 出力ファイルの画像形式 |
 | options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | 内部設定の一部をカスタマイズするオプションです。 |
 
 ### save(Stream stream, FileFormat format) {#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-}
@@ -1138,12 +1138,12 @@ public void save(Stream stream, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、シーンをストリームに保存します
+指定されたファイル形式を使用してシーンをストリームに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | 形式。 |
 
 ### save(Stream stream, FileFormat format, Cancellation cancellationToken) {#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-}
@@ -1152,14 +1152,14 @@ public void save(Stream stream, FileFormat format, Cancellation cancellationToke
 ```
 
 
-指定されたファイル形式を使用して、シーンをストリームに保存します
+指定されたファイル形式を使用してシーンをストリームに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | 形式。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーション トークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーショントークン |
 
 ### save(Stream stream, SaveOptions options) {#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-}
 ```
@@ -1167,12 +1167,12 @@ public void save(Stream stream, SaveOptions options)
 ```
 
 
-指定されたファイル形式を使用して、シーンをストリームに保存します
+指定されたファイル形式を使用してシーンをストリームに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | options | [SaveOptions](../../com.aspose.threed/saveoptions) | ストリームを保存するための詳細な構成です。 |
 
 ### save(Stream stream, SaveOptions options, Cancellation cancellationToken) {#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-}
@@ -1181,14 +1181,14 @@ public void save(Stream stream, SaveOptions options, Cancellation cancellationTo
 ```
 
 
-指定されたファイル形式を使用して、シーンをストリームに保存します
+指定されたファイル形式を使用してシーンをストリームに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| stream | [Stream](../../com.aspose.threed/stream) | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | options | [SaveOptions](../../com.aspose.threed/saveoptions) | ストリームを保存するための詳細な構成です。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーション トークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーショントークン |
 
 ### save(OutputStream stream, FileFormat format) {#save-java.io.OutputStream-com.aspose.threed.FileFormat-}
 ```
@@ -1196,12 +1196,12 @@ public void save(OutputStream stream, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、シーンをストリームに保存します
+指定されたファイル形式を使用してシーンをストリームに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.OutputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| ストリーム | java.io.OutputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 |  | format | [FileFormat](../../com.aspose.threed/fileformat) | 形式。 **Example:** 次のコードは、シーンを保存する方法を示しています |
 
 ```
@@ -1218,14 +1218,14 @@ public void save(OutputStream stream, FileFormat format, Cancellation cancellati
 ```
 
 
-指定されたファイル形式を使用して、シーンをストリームに保存します
+指定されたファイル形式を使用してシーンをストリームに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.OutputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| ストリーム | java.io.OutputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | 形式。 |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーション トークン **Example:** 次のコードは、シーンを保存する方法を示しています |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーショントークン **Example:** 次のコードは、シーンを保存する方法を示しています |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1242,12 +1242,12 @@ public void save(OutputStream stream, SaveOptions options)
 ```
 
 
-指定されたファイル形式を使用して、シーンをストリームに保存します
+指定されたファイル形式を使用してシーンをストリームに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.OutputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| ストリーム | java.io.OutputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 |  | options | [SaveOptions](../../com.aspose.threed/saveoptions) | ストリームを保存するための詳細な構成。 **Example:** 次のコードは、シーンを保存する方法を示しています |
 
 ```
@@ -1266,14 +1266,14 @@ public void save(OutputStream stream, SaveOptions options, Cancellation cancella
 ```
 
 
-指定されたファイル形式を使用して、シーンをストリームに保存します
+指定されたファイル形式を使用してシーンをストリームに保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.OutputStream | 入力ストリーム、ユーザーはストリームのクローズを担当します。 |
+| ストリーム | java.io.OutputStream | 入力ストリーム、ストリームのクローズはユーザーの責任です。 |
 | options | [SaveOptions](../../com.aspose.threed/saveoptions) | ストリームを保存するための詳細な構成です。 |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーション トークン **Example:** 次のコードは、シーンを保存する方法を示しています |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーショントークン **Example:** 次のコードは、シーンを保存する方法を示しています |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1292,7 +1292,7 @@ public void save(String fileName)
 ```
 
 
-指定されたファイル形式を使用して、シーンを指定されたパスに保存します。
+指定されたパスに、指定されたファイル形式でシーンを保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -1305,7 +1305,7 @@ public void save(String fileName, FileFormat format)
 ```
 
 
-指定されたファイル形式を使用して、シーンを指定されたパスに保存します。
+指定されたパスに、指定されたファイル形式でシーンを保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -1319,14 +1319,14 @@ public void save(String fileName, FileFormat format, Cancellation cancellationTo
 ```
 
 
-指定されたファイル形式を使用して、シーンを指定されたパスに保存します。
+指定されたパスに、指定されたファイル形式でシーンを保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | 形式。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーション トークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーショントークン |
 
 ### save(String fileName, SaveOptions options) {#save-java.lang.String-com.aspose.threed.SaveOptions-}
 ```
@@ -1334,7 +1334,7 @@ public void save(String fileName, SaveOptions options)
 ```
 
 
-指定されたファイル形式を使用して、シーンを指定されたパスに保存します。
+指定されたパスに、指定されたファイル形式でシーンを保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -1348,14 +1348,14 @@ public void save(String fileName, SaveOptions options, Cancellation cancellation
 ```
 
 
-指定されたファイル形式を使用して、シーンを指定されたパスに保存します。
+指定されたパスに、指定されたファイル形式でシーンを保存します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | ファイル名。 |
 | options | [SaveOptions](../../com.aspose.threed/saveoptions) | ストリームを保存するための詳細な構成です。 |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーション トークン |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | 保存タスクのキャンセレーショントークン |
 
 ### setAssetInfo(AssetInfo value) {#setAssetInfo-com.aspose.threed.AssetInfo-}
 ```
@@ -1368,7 +1368,7 @@ public void setAssetInfo(AssetInfo value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [AssetInfo](../../com.aspose.threed/assetinfo) | 新しい値 **Example:** 次のコードは、FBX ファイルからアプリケーション情報を読み取る方法を示しています： |
+|  | value | [AssetInfo](../../com.aspose.threed/assetinfo) | 新しい値 **Example:** 次のコードは、FBXファイルからアプリケーション情報を読み取る方法を示しています： |
 
 ```
 Scene scene = Scene.fromFile("test.fbx");

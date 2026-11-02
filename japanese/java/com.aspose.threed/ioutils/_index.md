@@ -32,14 +32,14 @@ public class IOUtils
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [write(BinaryWriter writer, FMatrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FMatrix4-) | 行列をバイナリライターに書き込む |
-| [write(BinaryWriter writer, FVector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector2-) | ベクトルをバイナリライターに書き込む |
-| [write(BinaryWriter writer, FVector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector3-) | ベクトルをバイナリライターに書き込む |
-| [write(BinaryWriter writer, FVector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector4-) | ベクトルをバイナリライターに書き込む |
-| [write(BinaryWriter writer, Matrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Matrix4-) | 行列をバイナリライターに書き込む |
-| [write(BinaryWriter writer, Vector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector2-) | ベクトルをバイナリライターに書き込む |
-| [write(BinaryWriter writer, Vector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector3-) | ベクトルをバイナリライターに書き込む |
-| [write(BinaryWriter writer, Vector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector4-) | ベクトルをバイナリライターに書き込む |
+| [write(BinaryWriter writer, FMatrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FMatrix4-) | バイナリライターに行列を書き込む |
+| [write(BinaryWriter writer, FVector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector2-) | バイナリライターにベクトルを書き込む |
+| [write(BinaryWriter writer, FVector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector3-) | バイナリライターにベクトルを書き込む |
+| [write(BinaryWriter writer, FVector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector4-) | バイナリライターにベクトルを書き込む |
+| [write(BinaryWriter writer, Matrix4 mat)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Matrix4-) | バイナリライターに行列を書き込む |
+| [write(BinaryWriter writer, Vector2 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector2-) | バイナリライターにベクトルを書き込む |
+| [write(BinaryWriter writer, Vector3 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector3-) | バイナリライターにベクトルを書き込む |
+| [write(BinaryWriter writer, Vector4 v)](#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector4-) | バイナリライターにベクトルを書き込む |
 ### IOUtils() {#IOUtils--}
 ```
 public IOUtils()
@@ -148,12 +148,12 @@ public static void write(BinaryWriter writer, FMatrix4 mat)
 ```
 
 
-行列をバイナリライターに書き込む
+バイナリライターに行列を書き込む
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象バイナリライター |
+| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象のバイナリライター |
 | mat | [FMatrix4](../../com.aspose.threed/fmatrix4) | 書き込む行列 |
 
 ### write(BinaryWriter writer, FVector2 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector2-}
@@ -162,12 +162,12 @@ public static void write(BinaryWriter writer, FVector2 v)
 ```
 
 
-ベクトルをバイナリライターに書き込む
+バイナリライターにベクトルを書き込む
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象バイナリライター |
+| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象のバイナリライター |
 | v | [FVector2](../../com.aspose.threed/fvector2) | 書き込むベクトル |
 
 ### write(BinaryWriter writer, FVector3 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector3-}
@@ -176,12 +176,12 @@ public static void write(BinaryWriter writer, FVector3 v)
 ```
 
 
-ベクトルをバイナリライターに書き込む
+バイナリライターにベクトルを書き込む
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象バイナリライター |
+| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象のバイナリライター |
 | v | [FVector3](../../com.aspose.threed/fvector3) | 書き込むベクトル |
 
 ### write(BinaryWriter writer, FVector4 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.FVector4-}
@@ -190,12 +190,12 @@ public static void write(BinaryWriter writer, FVector4 v)
 ```
 
 
-ベクトルをバイナリライターに書き込む
+バイナリライターにベクトルを書き込む
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象バイナリライター |
+| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象のバイナリライター |
 | v | [FVector4](../../com.aspose.threed/fvector4) | 書き込むベクトル |
 
 ### write(BinaryWriter writer, Matrix4 mat) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Matrix4-}
@@ -204,12 +204,12 @@ public static void write(BinaryWriter writer, Matrix4 mat)
 ```
 
 
-行列をバイナリライターに書き込む
+バイナリライターに行列を書き込む
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象バイナリライター |
+| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象のバイナリライター |
 | mat | [Matrix4](../../com.aspose.threed/matrix4) | 書き込む行列 |
 
 ### write(BinaryWriter writer, Vector2 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector2-}
@@ -218,12 +218,12 @@ public static void write(BinaryWriter writer, Vector2 v)
 ```
 
 
-ベクトルをバイナリライターに書き込む
+バイナリライターにベクトルを書き込む
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象バイナリライター |
+| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象のバイナリライター |
 | v | [Vector2](../../com.aspose.threed/vector2) | 書き込むベクトル |
 
 ### write(BinaryWriter writer, Vector3 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector3-}
@@ -232,12 +232,12 @@ public static void write(BinaryWriter writer, Vector3 v)
 ```
 
 
-ベクトルをバイナリライターに書き込む
+バイナリライターにベクトルを書き込む
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象バイナリライター |
+| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象のバイナリライター |
 | v | [Vector3](../../com.aspose.threed/vector3) | 書き込むベクトル |
 
 ### write(BinaryWriter writer, Vector4 v) {#write-com.aspose.csporter.helpers.BinaryWriter-com.aspose.threed.Vector4-}
@@ -246,11 +246,11 @@ public static void write(BinaryWriter writer, Vector4 v)
 ```
 
 
-ベクトルをバイナリライターに書き込む
+バイナリライターにベクトルを書き込む
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象バイナリライター |
+| ライター | com.aspose.csporter.helpers.BinaryWriter | 対象のバイナリライター |
 | v | [Vector4](../../com.aspose.threed/vector4) | 書き込むベクトル |
 

@@ -18,12 +18,12 @@ public enum RotationOrder extends Enum<RotationOrder>
 
 | フィールド | 説明 |
 | --- | --- |
-| [XYZ](#XYZ) | X,Y,Z の順序で回転する |
-| [XZY](#XZY) | X,Z,Y の順序で回転する |
-| [YXZ](#YXZ) | Y,X,Z の順序で回転する |
-| [YZX](#YZX) | Y、Z、X の順序で回転 |
-| [ZXY](#ZXY) | Z、X、Y の順序で回転 |
-| [ZYX](#ZYX) | Z、Y、X の順序で回転 |
+| [XYZ](#XYZ) | X,Y,Z の順序で回転 |
+| [XZY](#XZY) | X,Z,Y の順序で回転 |
+| [YXZ](#YXZ) | Y,X,Z の順序で回転 |
+| [YZX](#YZX) | Y,Z,X の順序で回転 |
+| [ZXY](#ZXY) | Z,X,Y の順序で回転 |
+| [ZYX](#ZYX) | Z,Y,X の順序で回転 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -51,7 +51,7 @@ public static final RotationOrder XYZ
 ```
 
 
-X,Y,Z の順序で回転する
+X,Y,Z の順序で回転
 
 ### XZY {#XZY}
 ```
@@ -59,7 +59,7 @@ public static final RotationOrder XZY
 ```
 
 
-X,Z,Y の順序で回転する
+X,Z,Y の順序で回転
 
 ### YXZ {#YXZ}
 ```
@@ -67,7 +67,7 @@ public static final RotationOrder YXZ
 ```
 
 
-Y,X,Z の順序で回転する
+Y,X,Z の順序で回転
 
 ### YZX {#YZX}
 ```
@@ -75,7 +75,7 @@ public static final RotationOrder YZX
 ```
 
 
-Y、Z、X の順序で回転
+Y,Z,X の順序で回転
 
 ### ZXY {#ZXY}
 ```
@@ -83,7 +83,7 @@ public static final RotationOrder ZXY
 ```
 
 
-Z、X、Y の順序で回転
+Z,X,Y の順序で回転
 
 ### ZYX {#ZYX}
 ```
@@ -91,7 +91,7 @@ public static final RotationOrder ZYX
 ```
 
 
-Z、Y、X の順序で回転
+Z,Y,X の順序で回転
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

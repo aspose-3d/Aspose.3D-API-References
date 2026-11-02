@@ -8,7 +8,7 @@ url: /ja/java/com.aspose.threed/fbxsaveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)、[com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
+java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig), [com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
 ```
 public class FbxSaveOptions extends SaveOptions
 ```
@@ -37,8 +37,8 @@ Fbx ファイルの保存オプションです。
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem のファクトリークラスを取得します。 |
 | [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | 最後のデータの参照カウントを増やすことで、繰り返し使用される曲線データを再利用するかどうかを取得します。 |
 | [getGenerateVertexElementMaterial()](#getGenerateVertexElementMaterial--) | 添付されたノードにマテリアルが含まれている場合、ジオメトリに対して常に [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) を生成するかどうかを取得します。 |
-| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
-| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | 同じパラメータを持つプリミティブに対してメッシュを再利用します。これにより、CAD ファイルからインポートされたような多数のプリミティブ形状で構成されたシーンの FBX 出力サイズが大幅に削減されます。 |
+| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
+| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | 同じパラメータを持つプリミティブに対してメッシュを再利用すると、CAD ファイルからインポートされた多数のプリミティブ形状で構成されたシーンの FBX 出力サイズを大幅に削減できます。 |
 | [getVideoForTexture()](#getVideoForTexture--) | FBX としてエクスポートする際に、[Texture](../../com.aspose.threed/texture) のビデオ インスタンスを生成するかどうかを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -53,8 +53,8 @@ Fbx ファイルの保存オプションです。
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem のファクトリークラスを設定します。 |
 | [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | 最後のデータの参照カウントを増やすことで、繰り返し使用される曲線データを再利用するかどうかを設定します。 |
 | [setGenerateVertexElementMaterial(boolean value)](#setGenerateVertexElementMaterial-boolean-) | 添付されたノードにマテリアルが含まれている場合、ジオメトリに対して常に [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) を生成するかどうかを設定します。 |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
-| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | 同じパラメータを持つプリミティブに対してメッシュを再利用します。これにより、CAD ファイルからインポートされたような多数のプリミティブ形状で構成されたシーンの FBX 出力サイズが大幅に削減されます。 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
+| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | 同じパラメータを持つプリミティブに対してメッシュを再利用すると、CAD ファイルからインポートされた多数のプリミティブ形状で構成されたシーンの FBX 出力サイズを大幅に削減できます。 |
 | [setVideoForTexture(boolean value)](#setVideoForTexture-boolean-) | FBX としてエクスポートする際に、[Texture](../../com.aspose.threed/texture) のビデオ インスタンスを生成するかどうかを設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -117,10 +117,10 @@ public boolean getEmbedTextures()
 ```
 
 
-テクスチャを最終出力ファイルに埋め込むかどうかを取得します。FBX エクスポーターは [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) からテクスチャの生データを検索し、ファイルを最終 FBX ファイルに埋め込みます。デフォルト値は false です。
+テクスチャを最終出力ファイルに埋め込むかどうかを取得します。FBX エクスポーターは [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) からテクスチャの生データを探し、最終 FBX ファイルに埋め込みます。デフォルト値は false です。
 
 **Returns:**
-boolean - テクスチャを最終出力ファイルに埋め込むかどうか。FBX エクスポーターは [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) からテクスチャの生データを検索し、ファイルを最終 FBX ファイルに埋め込みます。デフォルト値は false です。
+boolean - テクスチャを最終出力ファイルに埋め込むかどうか。FBX エクスポーターは [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) からテクスチャの生データを探し、最終 FBX ファイルに埋め込みます。デフォルト値は false です。
 ### getEnableCompression() {#getEnableCompression--}
 ```
 public boolean getEnableCompression()
@@ -177,10 +177,10 @@ public String getFileName()
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Returns:**
-java.lang.String - エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+java.lang.String - エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -221,7 +221,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem のファクトリークラスを取得します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを取得します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -270,10 +270,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします
+java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています
 
 ```
 var opt = new ObjLoadOptions();
@@ -288,10 +288,10 @@ public boolean getReusePrimitiveMesh()
 ```
 
 
-同じパラメータを持つプリミティブに対してメッシュを再利用します。これにより、CAD ファイルからインポートされたような多数のプリミティブ形状で構成されたシーンの FBX 出力サイズが大幅に削減されます。デフォルト値は false です。
+同じパラメータを持つプリミティブに対してメッシュを再利用すると、CAD ファイルからインポートされた多数のプリミティブ形状で構成されたシーンの FBX 出力サイズを大幅に削減できます。デフォルト値は false です。
 
 **Returns:**
-boolean - 同じパラメータを持つプリミティブのメッシュを再利用します。これにより、CAD ファイルからインポートされたような多数のプリミティブ形状で構成されたシーンの FBX 出力サイズが大幅に削減されます。デフォルト値は false です
+boolean - 同じパラメータを持つプリミティブのメッシュを再利用します。これにより、CAD ファイルからインポートされたような多数のプリミティブ形状で構成されたシーンの FBX 出力サイズが大幅に削減されます。デフォルト値は false です。
 ### getVideoForTexture() {#getVideoForTexture--}
 ```
 public boolean getVideoForTexture()
@@ -360,7 +360,7 @@ public void setEncoding(Charset value)
 ```
 
 
-テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定することを意味します。
+テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -373,7 +373,7 @@ public void setExportLegacyMaterialProperties(boolean value)
 ```
 
 
-レガシー マテリアル プロパティをエクスポートするかどうかを設定します。これは後方互換性のために使用されます。このオプションはデフォルトで有効になっています。
+レガシー マテリアル プロパティをエクスポートするかどうかを設定します。これは下位互換性のために使用されます。このオプションはデフォルトで有効になっています。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -399,7 +399,7 @@ public void setFileName(String value)
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -417,7 +417,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **Example:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は次のようなさまざまな FileSystem 実装を提供します： |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **例:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は以下のようなさまざまな FileSystem 実装を提供しています： |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -449,12 +449,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem のファクトリークラスを設定します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを設定します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **Example:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **例:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -494,7 +494,7 @@ public void setGenerateVertexElementMaterial(boolean value)
 ```
 
 
-添付されたノードにマテリアルが含まれている場合、ジオメトリに対して常に [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) を生成するかどうかを設定します。デフォルトでは無効になっています。
+添付されたノードにマテリアルが含まれている場合、ジオメトリに対して常に [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) を生成するかどうかを設定します。この設定はデフォルトでオフになっています。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -507,12 +507,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします |
+|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています |
 
 ```
 var opt = new ObjLoadOptions();
@@ -528,7 +528,7 @@ public void setReusePrimitiveMesh(boolean value)
 ```
 
 
-同じパラメータを持つプリミティブに対してメッシュを再利用します。これにより、CAD ファイルからインポートされたような多数のプリミティブ形状で構成されたシーンの FBX 出力サイズが大幅に削減されます。デフォルト値は false です。
+同じパラメータを持つプリミティブに対してメッシュを再利用すると、CAD ファイルからインポートされた多数のプリミティブ形状で構成されたシーンの FBX 出力サイズを大幅に削減できます。デフォルト値は false です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

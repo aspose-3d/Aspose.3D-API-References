@@ -23,9 +23,9 @@ public final class EntityRendererFeatures
 
 | フィールド | 説明 |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | 追加機能はありません |
-| [FRAME_BEGIN](#FRAME-BEGIN) | 各シーンフレームをレンダリングする前に、[EntityRenderer](../../com.aspose.threed/entityrenderer) は FrameBegin コールバックを監視します |
-| [FRAME_END](#FRAME-END) | 各シーンフレームをレンダリングした後に、[EntityRenderer](../../com.aspose.threed/entityrenderer) は FrameBegin コールバックを監視します |
+| [DEFAULT](#DEFAULT) | 追加機能なし |
+| [FRAME_BEGIN](#FRAME-BEGIN) | [EntityRenderer](../../com.aspose.threed/entityrenderer) は各シーンフレームのレンダリング前に FrameBegin コールバックを監視します |
+| [FRAME_END](#FRAME-END) | [EntityRenderer](../../com.aspose.threed/entityrenderer) は各シーンフレームのレンダリング後に FrameBegin コールバックを監視します |
 | [SHADOWMAP](#SHADOWMAP) | このレンダラーはシャドウマップモードで動作できます |
 ## メソッド
 
@@ -52,7 +52,7 @@ public static final byte DEFAULT
 ```
 
 
-追加機能はありません
+追加機能なし
 
 ### FRAME_BEGIN {#FRAME-BEGIN}
 ```
@@ -60,7 +60,7 @@ public static final byte FRAME_BEGIN
 ```
 
 
-各シーンフレームをレンダリングする前に、[EntityRenderer](../../com.aspose.threed/entityrenderer) は FrameBegin コールバックを監視します
+[EntityRenderer](../../com.aspose.threed/entityrenderer) は各シーンフレームのレンダリング前に FrameBegin コールバックを監視します
 
 ### FRAME_END {#FRAME-END}
 ```
@@ -68,7 +68,7 @@ public static final byte FRAME_END
 ```
 
 
-各シーンフレームをレンダリングした後に、[EntityRenderer](../../com.aspose.threed/entityrenderer) は FrameBegin コールバックを監視します
+[EntityRenderer](../../com.aspose.threed/entityrenderer) は各シーンフレームのレンダリング後に FrameBegin コールバックを監視します
 
 ### SHADOWMAP {#SHADOWMAP}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "Rect"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "矩形を表すクラスです"
+description: "矩形を表すクラスです。"
 type: docs
 weight: 144
 url: /ja/java/com.aspose.threed/rect/
@@ -16,19 +16,19 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class Rect implements Struct<Rect>, Serializable
 ```
 
-矩形を表すクラスです
+矩形を表すクラスです。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | クラス [Rect](../../com.aspose.threed/rect) のコンストラクタです。 |
+| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | [Rect](../../com.aspose.threed/rect) クラスのコンストラクタです。 |
 | [Rect()](#Rect--) |  |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [contains(int x, int y)](#contains-int-int-) | 与えられた点が矩形の内部にある場合は true を返します。 |
+| [contains(int x, int y)](#contains-int-int-) | 与えられた点が矩形の内部にある場合、true を返します。 |
 | [copyFrom(Rect src)](#copyFrom-com.aspose.threed.Rect-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getBottom()](#getBottom--) | 矩形の下端を取得します |
@@ -57,7 +57,7 @@ public Rect(int x, int y, int width, int height)
 ```
 
 
-クラス [Rect](../../com.aspose.threed/rect) のコンストラクタです。
+[Rect](../../com.aspose.threed/rect) クラスのコンストラクタです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -89,7 +89,7 @@ public boolean contains(int x, int y)
 ```
 
 
-与えられた点が矩形の内部にある場合は true を返します。
+与えられた点が矩形の内部にある場合、true を返します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

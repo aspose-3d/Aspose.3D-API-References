@@ -33,12 +33,12 @@ public class PushConstant
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [write(FMatrix4 mat)](#write-com.aspose.threed.FMatrix4-) | 定数に行列を書き込みます |
-| [write(FVector3 vec)](#write-com.aspose.threed.FVector3-) | 定数に3成分ベクトルを書き込みます |
-| [write(FVector4 vec)](#write-com.aspose.threed.FVector4-) | 定数に4成分ベクトルを書き込みます |
-| [write(float f)](#write-float-) | 定数にfloat値を書き込みます |
-| [write(float x, float y, float z, float w)](#write-float-float-float-float-) | 定数に4成分ベクトルを書き込みます |
-| [write(int n)](#write-int-) | 定数にint値を書き込みます |
+| [write(FMatrix4 mat)](#write-com.aspose.threed.FMatrix4-) | 行列を定数に書き込みます |
+| [write(FVector3 vec)](#write-com.aspose.threed.FVector3-) | 3成分ベクトルを定数に書き込みます |
+| [write(FVector4 vec)](#write-com.aspose.threed.FVector4-) | 4成分ベクトルを定数に書き込みます |
+| [write(float f)](#write-float-) | float 値を定数に書き込みます |
+| [write(float x, float y, float z, float w)](#write-float-float-float-float-) | 4成分ベクトルを定数に書き込みます |
+| [write(int n)](#write-int-) | int 値を定数に書き込みます |
 ### PushConstant() {#PushConstant--}
 ```
 public PushConstant()
@@ -165,7 +165,7 @@ public PushConstant write(FMatrix4 mat)
 ```
 
 
-定数に行列を書き込みます
+行列を定数に書き込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -180,7 +180,7 @@ public PushConstant write(FVector3 vec)
 ```
 
 
-定数に3成分ベクトルを書き込みます
+3成分ベクトルを定数に書き込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -195,7 +195,7 @@ public PushConstant write(FVector4 vec)
 ```
 
 
-定数に4成分ベクトルを書き込みます
+4成分ベクトルを定数に書き込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -210,7 +210,7 @@ public PushConstant write(float f)
 ```
 
 
-定数にfloat値を書き込みます
+float 値を定数に書き込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -225,7 +225,7 @@ public PushConstant write(float x, float y, float z, float w)
 ```
 
 
-定数に4成分ベクトルを書き込みます
+4成分ベクトルを定数に書き込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -243,7 +243,7 @@ public PushConstant write(int n)
 ```
 
 
-定数にint値を書き込みます
+int 値を定数に書き込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

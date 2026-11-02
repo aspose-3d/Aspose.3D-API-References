@@ -19,8 +19,8 @@ public interface IRenderTarget extends Closeable
 | メソッド | 説明 |
 | --- | --- |
 | [createViewport(Camera camera)](#createViewport-com.aspose.threed.Camera-) | 指定されたカメラ視点でビューポートを作成します。 |
-| [createViewport(Camera camera, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.RelativeRectangle-) | 指定されたカメラ視点で位置/サイズを指定してビューポートを作成します。 |
-| [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | 指定された背景色と位置/サイズで、指定されたカメラ視点のビューポートを作成します。 |
+| [createViewport(Camera camera, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.RelativeRectangle-) | 指定されたカメラ視点で位置とサイズを指定してビューポートを作成します。 |
+| [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | 指定された背景色と位置・サイズで、指定されたカメラ視点のビューポートを作成します。 |
 | [getSize()](#getSize--) | レンダーターゲットのサイズを取得します。 |
 | [getViewports()](#getViewports--) | このレンダーターゲットに関連付けられたすべてのビューポートを取得します。 |
 | [setSize(Vector2 value)](#setSize-com.aspose.threed.Vector2-) | レンダーターゲットのサイズを設定します。 |
@@ -45,7 +45,7 @@ public abstract Viewport createViewport(Camera camera, RelativeRectangle rect)
 ```
 
 
-指定されたカメラ視点で位置/サイズを指定してビューポートを作成します。
+指定されたカメラ視点で位置とサイズを指定してビューポートを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -61,7 +61,7 @@ public abstract Viewport createViewport(Camera camera, Vector3 backgroundColor, 
 ```
 
 
-指定された背景色と位置/サイズで、指定されたカメラ視点のビューポートを作成します。
+指定された背景色と位置・サイズで、指定されたカメラ視点のビューポートを作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

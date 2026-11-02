@@ -26,11 +26,11 @@ public abstract class Frustum extends Entity implements IOrientable
 | [getAspect()](#getAspect--) | フラスタムのアスペクト比を取得します |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getDirection()](#getDirection--) | カメラが向いている方向を取得します。 |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getDirection()](#getDirection--) | カメラが向いている方向を取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
-| [getFarPlane()](#getFarPlane--) | フラスタムの遠平面距離を取得します。 |
-| [getLookAt()](#getLookAt--) | カメラが注目している位置を取得します。 |
+| [getFarPlane()](#getFarPlane--) | フラスタムの遠方平面距離を取得します |
+| [getLookAt()](#getLookAt--) | カメラが注視している位置を取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getNearPlane()](#getNearPlane--) | 視錐台の近接平面距離を取得します。 |
 | [getOrthoHeight()](#getOrthoHeight--) | 正射投影時の視錐台の高さを取得します。 |
@@ -40,18 +40,18 @@ public abstract class Frustum extends Entity implements IOrientable
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getRotationMode()](#getRotationMode--) | 視錐台の向きモードを取得します。このプロパティは [getTarget](../../com.aspose.threed/frustum\#getTarget) が null の場合にのみ機能します。 |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getTarget()](#getTarget--) | カメラが見ている対象を取得します。 |
-| [getUp()](#getUp--) | カメラの上方向を取得します。 |
+| [getTarget()](#getTarget--) | カメラが注視しているターゲットを取得します。 |
+| [getUp()](#getUp--) | カメラの上方向ベクトルを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setAspect(double value)](#setAspect-double-) | 視錐台のアスペクト比を設定します。 |
-| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | カメラが向いている方向を設定します。 |
+| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | カメラが注視する方向を設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
-| [setFarPlane(double value)](#setFarPlane-double-) | 視錐台の遠平面距離を設定します。 |
-| [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | カメラが注目している位置を設定します。 |
+| [setFarPlane(double value)](#setFarPlane-double-) | 視錐台の遠方平面距離を設定します。 |
+| [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | カメラが注視している位置を設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setNearPlane(double value)](#setNearPlane-double-) | フラスタムの近面距離を設定します。 |
 | [setOrthoHeight(double value)](#setOrthoHeight-double-) | フラスタムが正射投影の場合の高さを設定します。 |
@@ -85,7 +85,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -147,7 +147,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -167,17 +167,17 @@ public double getFarPlane()
 ```
 
 
-フラスタムの遠平面距離を取得します。
+フラスタムの遠方平面距離を取得します
 
 **Returns:**
-double - フラスタムの遠面距離。
+double - フラスタムの遠面距離
 ### getLookAt() {#getLookAt--}
 ```
 public Vector3 getLookAt()
 ```
 
 
-カメラが注目している位置を取得します。
+カメラが注視している位置を取得します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the the interested position that the camera is looking at.
@@ -190,7 +190,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getNearPlane() {#getNearPlane--}
 ```
 public double getNearPlane()
@@ -200,7 +200,7 @@ public double getNearPlane()
 視錐台の近接平面距離を取得します。
 
 **Returns:**
-double - フラスタムの近面距離。
+double - フラスタムの近面距離
 ### getOrthoHeight() {#getOrthoHeight--}
 ```
 public double getOrthoHeight()
@@ -210,7 +210,7 @@ public double getOrthoHeight()
 正射投影時の視錐台の高さを取得します。
 
 **Returns:**
-double - フラスタムが正射投影の場合の高さ。
+double - フラスタムが正射投影の場合の高さ
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -230,7 +230,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -292,7 +292,7 @@ public Vector3 getUp()
 ```
 
 
-カメラの上方向を取得します。
+カメラの上方向ベクトルを取得します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the up direction of the camera
@@ -333,7 +333,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -343,12 +343,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -397,7 +397,7 @@ public void setFarPlane(double value)
 ```
 
 
-視錐台の遠平面距離を設定します。
+視錐台の遠方平面距離を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -410,7 +410,7 @@ public void setLookAt(Vector3 value)
 ```
 
 
-カメラが注目している位置を設定します。
+カメラが注視している位置を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -502,7 +502,7 @@ public void setTarget(Node value)
 ```
 
 
-カメラが注視している対象を設定します。ユーザーがこのプロパティをサポートしている場合、[getLookAt](../../com.aspose.threed/frustum\#getLookAt) プロパティより前に設定すべきです。
+カメラが見ている対象を設定します。ユーザーがこのプロパティをサポートしている場合、[getLookAt](../../com.aspose.threed/frustum\#getLookAt) プロパティの前に設定すべきです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

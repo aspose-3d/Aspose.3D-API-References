@@ -18,7 +18,7 @@ public enum BooleanOperation extends Enum<BooleanOperation>
 
 | フィールド | 説明 |
 | --- | --- |
-| [ADD](#ADD) | 2つのメッシュを追加し、入力の合成（ユニオン）を計算します。 |
+| [ADD](#ADD) | 2つのメッシュを追加し、入力の合併を計算します。 |
 | [INTERSECT](#INTERSECT) | 2つのメッシュの交差を計算します。 |
 | [SUB](#SUB) | あるメッシュを別のメッシュから減算し、入力の差分を計算します。 |
 ## メソッド
@@ -48,7 +48,7 @@ public static final BooleanOperation ADD
 ```
 
 
-2つのメッシュを追加し、入力の合成（ユニオン）を計算します。
+2つのメッシュを追加し、入力の合併を計算します。
 
 ### INTERSECT {#INTERSECT}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "従量課金"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "メーターキーを設定するためのメソッドを提供します。"
+description: "メーター付きキーを設定するためのメソッドを提供します。"
 type: docs
 weight: 103
 url: /ja/java/com.aspose.threed/metered/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Metered
 ```
 
-メーターキーを設定するためのメソッドを提供します。
+メーター付きキーを設定するためのメソッドを提供します。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -30,7 +30,7 @@ public class Metered
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | 従量課金用の公開鍵と秘密鍵を設定します。 |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | 従量課金の公開鍵と秘密鍵を設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -120,7 +120,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-従量課金用の公開鍵と秘密鍵を設定します。従量課金ライセンスを購入した場合、アプリケーション起動時にこの API を呼び出す必要があります。通常、これだけで十分です。ただし、消費データのアップロードが常に失敗し、24 時間を超えると、ライセンスが評価ステータスに設定されます。そのような事態を回避するために、ライセンスステータスを定期的に確認し、評価ステータスであれば再度この API を呼び出してください。
+従量課金の公開鍵と秘密鍵を設定します。従量課金ライセンスを購入した場合、アプリケーション起動時にこの API を呼び出す必要があります。通常はこれだけで十分です。ただし、消費データのアップロードが常に失敗し、24 時間を超えると、ライセンスは評価ステータスに設定されます。そのような事態を防ぐため、ライセンスステータスを定期的に確認し、評価ステータスである場合は再度この API を呼び出してください。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

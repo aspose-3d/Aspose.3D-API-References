@@ -24,7 +24,7 @@ public class EntityRenderer
 
 | メソッド | 説明 |
 | --- | --- |
-| [dispose()](#dispose--) | エンティティレンダラが破棄されようとしており、共有リソースを解放します。 |
+| [dispose()](#dispose--) | エンティティレンダラが破棄されます。共有リソースを解放してください。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [frameBegin(Renderer renderer, IRenderQueue renderQueue)](#frameBegin-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-) | フレームのレンダリングを開始する |
 | [frameEnd(Renderer renderer, IRenderQueue renderQueue)](#frameEnd-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-) | フレームのレンダリングを終了する |
@@ -34,8 +34,8 @@ public class EntityRenderer
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [prepareRenderQueue(Renderer renderer, IRenderQueue queue, Node node, Entity entity)](#prepareRenderQueue-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-com.aspose.threed.Node-com.aspose.threed.Entity-) | 指定されたノード/エンティティのペアのレンダリングコマンドを準備する。 |
-| [renderEntity(Renderer renderer, ICommandList commandList, Node node, Object renderableResource, int subEntity)](#renderEntity-com.aspose.threed.Renderer-com.aspose.threed.ICommandList-com.aspose.threed.Node-java.lang.Object-int-) | 各レンダリングタスクが[IRenderQueue](../../com.aspose.threed/irenderqueue)にプッシュされると、具体的なレンダリングジョブを実行するための対応する RenderEntity 呼び出しが行われます。 |
-| [resetSceneCache()](#resetSceneCache--) | シーンが変更または削除されたため、この場合シーンレベルのレンダリングリソースを破棄する必要があります。 |
+| [renderEntity(Renderer renderer, ICommandList commandList, Node node, Object renderableResource, int subEntity)](#renderEntity-com.aspose.threed.Renderer-com.aspose.threed.ICommandList-com.aspose.threed.Node-java.lang.Object-int-) | [IRenderQueue](../../com.aspose.threed/irenderqueue) にプッシュされる各レンダリングタスクは、具体的なレンダリングジョブを実行するための対応する RenderEntity 呼び出しを持ちます。 |
+| [resetSceneCache()](#resetSceneCache--) | シーンが変更または削除されたため、シーンレベルのレンダーリソースをここで破棄する必要があります。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public void dispose()
 ```
 
 
-エンティティレンダラが破棄されようとしており、共有リソースを解放します。
+エンティティレンダラが破棄されます。共有リソースを解放してください。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -189,14 +189,14 @@ public void renderEntity(Renderer renderer, ICommandList commandList, Node node,
 ```
 
 
-各レンダリングタスクが[IRenderQueue](../../com.aspose.threed/irenderqueue)にプッシュされると、具体的なレンダリングジョブを実行するための対応する RenderEntity 呼び出しが行われます。
+[IRenderQueue](../../com.aspose.threed/irenderqueue) にプッシュされる各レンダリングタスクは、具体的なレンダリングジョブを実行するための対応する RenderEntity 呼び出しを持ちます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | renderer | [Renderer](../../com.aspose.threed/renderer) | レンダラー |
 | commandList | [ICommandList](../../com.aspose.threed/icommandlist) | レンダリングコマンドを記録するために使用される commandList |
-| node | [Node](../../com.aspose.threed/node) | レンダリングされるエンティティの PrepareRenderQueue に渡されたのと同じノード |
+| node | [Node](../../com.aspose.threed/node) | レンダリングされるエンティティの PrepareRenderQueue に渡された同じノード |
 | renderableResource | java.lang.Object | PrepareRenderQueue 中に IRenderQueue に渡されたカスタムオブジェクト |
 | subEntity | int | IRenderQueue に渡されたサブエンティティのインデックス |
 
@@ -206,7 +206,7 @@ public void resetSceneCache()
 ```
 
 
-シーンが変更または削除されたため、この場合シーンレベルのレンダリングリソースを破棄する必要があります。
+シーンが変更または削除されたため、シーンレベルのレンダーリソースをここで破棄する必要があります。
 
 ### toString() {#toString--}
 ```

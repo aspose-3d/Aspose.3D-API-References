@@ -8,12 +8,12 @@ url: /ja/java/com.aspose.threed/rvmsaveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)、[com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
+java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig), [com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
 ```
 public class RvmSaveOptions extends SaveOptions
 ```
 
-Aveva PDMS RVM ファイルの保存オプション。**例:** 以下のコードは、RVM で属性をエクスポートする方法を示しています。
+Aveva PDMS RVM ファイル用の保存オプションです。 **例:** 以下のコードは、RVM で属性をエクスポートする方法を示しています。
 
 ```
 Scene scene = new Scene();
@@ -42,10 +42,10 @@ Scene scene = new Scene();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAttributeListFile()](#getAttributeListFile--) | 属性リストファイルのファイル名を取得します。このプロパティが未定義の場合、エクスポーターは .rvm ファイル名に基づいて名前を生成します。デフォルト値は null です。 |
-| [getAttributePrefix()](#getAttributePrefix--) | エクスポートされる属性のプレフィックスを取得します。エクスポートされたプロパティにはプレフィックスが含まれず、異なるプレフィックスを持つカスタムプロパティはエクスポートされません。デフォルト値は 'rvm:' です。 |
+| [getAttributePrefix()](#getAttributePrefix--) | エクスポートされる属性のプレフィックスを取得します。エクスポートされたプロパティにはプレフィックスが含まれません。異なるプレフィックスを持つカスタムプロパティはエクスポートされません。デフォルト値は 'rvm:' です。 |
 | [getAuthor()](#getAuthor--) | 作者情報、デフォルト値は '3d@aspose' |
 | [getClass()](#getClass--) |  |
-| [getCreationTime()](#getCreationTime--) | このファイルがエクスポートされたタイムスタンプ、デフォルト値は現在時刻です |
+| [getCreationTime()](#getCreationTime--) | このファイルをエクスポートしたタイムスタンプ、デフォルト値は現在時刻です |
 | [getEncoding()](#getEncoding--) | テキストベースのファイルのデフォルトエンコーディングを取得します。 |
 | [getExportAttributes()](#getExportAttributes--) | 属性リストを外部の .att ファイルにエクスポートするかどうかを取得します。デフォルト値は false です。 |
 | [getExportTextures()](#getExportTextures--) | シーンで使用されているテクスチャを出力ディレクトリにコピーしようとします。 |
@@ -54,14 +54,14 @@ Scene scene = new Scene();
 | [getFileNote()](#getFileNote--) | ファイルヘッダー内のファイルノートです。 |
 | [getFileSystem()](#getFileSystem--) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem のファクトリークラスを取得します。 |
-| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAttributeListFile(String value)](#setAttributeListFile-java.lang.String-) | 属性リストファイルのファイル名を設定します。このプロパティが未定義の場合、エクスポーターは .rvm ファイル名に基づいて名前を生成します。デフォルト値は null です。 |
 | [setAttributePrefix(String value)](#setAttributePrefix-java.lang.String-) | エクスポートされる属性のプレフィックスを設定します。エクスポートされたプロパティにはプレフィックスが含まれず、異なるプレフィックスを持つカスタムプロパティはエクスポートされません。デフォルト値は 'rvm:' です。 |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | 作者情報、デフォルト値は '3d@aspose' |
-| [setCreationTime(String value)](#setCreationTime-java.lang.String-) | このファイルがエクスポートされたタイムスタンプ、デフォルト値は現在時刻です |
+| [setCreationTime(String value)](#setCreationTime-java.lang.String-) | このファイルをエクスポートしたタイムスタンプ、デフォルト値は現在時刻です |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | テキストベースのファイルのデフォルトエンコーディングを設定します。 |
 | [setExportAttributes(boolean value)](#setExportAttributes-boolean-) | 属性リストを外部の .att ファイルにエクスポートするかどうかを設定します。デフォルト値は false です。 |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | シーンで使用されているテクスチャを出力ディレクトリにコピーしようとします。 |
@@ -69,7 +69,7 @@ Scene scene = new Scene();
 | [setFileNote(String value)](#setFileNote-java.lang.String-) | ファイルヘッダー内のファイルノートです。 |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem のファクトリークラスを設定します。 |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public String getAttributeListFile()
 属性リストファイルのファイル名を取得します。このプロパティが未定義の場合、エクスポーターは .rvm ファイル名に基づいて名前を生成します。デフォルト値は null です。
 
 **Returns:**
-java.lang.String - 属性リストファイルのファイル名。このプロパティが未定義の場合、エクスポーターは .rvm ファイル名に基づいて名前を生成します。デフォルト値は null です。 **Example:** 以下のコードは RVM で属性をエクスポートする方法を示しています。
+java.lang.String - 属性リストファイルのファイル名です。このプロパティが未定義の場合、エクスポーターは .rvm ファイル名に基づいて名前を生成します。デフォルト値は null です。 **Example:** 以下のコードは RVM で属性をエクスポートする方法を示しています。
 
 ```
 Scene scene = new Scene();
@@ -145,7 +145,7 @@ public String getAttributePrefix()
 エクスポートされる属性のプレフィックスを取得します。エクスポートされたプロパティにはプレフィックスが含まれず、異なるプレフィックスを持つカスタムプロパティはエクスポートされません。デフォルト値は 'rvm:' です。例えば、プロパティが rvm:Refno=345 の場合、エクスポートされた属性は Refno = 345 となり、プレフィックスは除去されます。
 
 **Returns:**
-java.lang.String - エクスポートされる属性のプレフィックス。エクスポートされたプロパティにはプレフィックスが含まれず、異なるプレフィックスを持つカスタムプロパティはエクスポートされません。デフォルト値は 'rvm:' です。例えば、プロパティが rvm:Refno=345 の場合、エクスポートされた属性は Refno = 345 となり、プレフィックスは除去されます。 **Example:** 以下のコードは RVM で属性をエクスポートする方法を示しています。
+java.lang.String - エクスポートされる属性のプレフィックスです。エクスポートされたプロパティにはプレフィックスが含まれず、異なるプレフィックスを持つカスタムプロパティはエクスポートされません。デフォルト値は 'rvm:' です。例えば、プロパティが rvm:Refno=345 の場合、エクスポートされた属性は Refno = 345 となり、プレフィックスは除去されます。 **Example:** 以下のコードは RVM で属性をエクスポートする方法を示しています。
 
 ```
 Scene scene = new Scene();
@@ -204,7 +204,7 @@ public String getCreationTime()
 ```
 
 
-このファイルがエクスポートされたタイムスタンプ、デフォルト値は現在時刻です
+このファイルをエクスポートしたタイムスタンプ、デフォルト値は現在時刻です
 
 **Returns:**
 java.lang.String - このファイルをエクスポートしたタイムスタンプ、デフォルト値は現在時刻です
@@ -270,10 +270,10 @@ public String getFileName()
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Returns:**
-java.lang.String - エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+java.lang.String - エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 ### getFileNote() {#getFileNote--}
 ```
 public String getFileNote()
@@ -340,7 +340,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem のファクトリークラスを取得します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを取得します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -369,10 +369,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします
+java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています
 
 ```
 var opt = new ObjLoadOptions();
@@ -500,7 +500,7 @@ public void setCreationTime(String value)
 ```
 
 
-このファイルがエクスポートされたタイムスタンプ、デフォルト値は現在時刻です
+このファイルをエクスポートしたタイムスタンプ、デフォルト値は現在時刻です
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -513,7 +513,7 @@ public void setEncoding(Charset value)
 ```
 
 
-テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定することを意味します。
+テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -568,7 +568,7 @@ public void setFileName(String value)
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -615,7 +615,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **Example:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は次のようなさまざまな FileSystem 実装を提供します： |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **例:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は以下のようなさまざまな FileSystem 実装を提供しています： |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -647,12 +647,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem のファクトリークラスを設定します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを設定します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **Example:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **例:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -679,12 +679,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします |
+|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています |
 
 ```
 var opt = new ObjLoadOptions();

@@ -1,7 +1,7 @@
 ---
 title: "AxisSystem"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "軸システムは座標系の上ベクトルと前ベクトルの組み合わせです。"
+description: "Axis system は座標系の上ベクトルと前ベクトルの組み合わせです。"
 type: docs
 weight: 18
 url: /ja/java/com.aspose.threed/axissystem/
@@ -18,24 +18,24 @@ public class AxisSystem
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [AxisSystem(CoordinateSystem coordinateSystem, Axis up)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-) | 新しい軸システムを作成します |
-| [AxisSystem(Axis up, Axis front)](#AxisSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | 新しい軸システムを作成します |
-| [AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | 新しい軸システムを作成します |
+| [AxisSystem(CoordinateSystem coordinateSystem, Axis up)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-) | 新しい axis system を構築します |
+| [AxisSystem(Axis up, Axis front)](#AxisSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | 新しい axis system を構築します |
+| [AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | 新しい axis system を構築します |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromAssetInfo(AssetInfo assetInfo)](#fromAssetInfo-com.aspose.threed.AssetInfo-) | [AxisSystem](../../com.aspose.threed/axissystem) を [AssetInfo](../../com.aspose.threed/assetinfo) から作成する |
+| [fromAssetInfo(AssetInfo assetInfo)](#fromAssetInfo-com.aspose.threed.AssetInfo-) | [AssetInfo](../../com.aspose.threed/assetinfo) から [AxisSystem](../../com.aspose.threed/axissystem) を作成します |
 | [getClass()](#getClass--) |  |
-| [getCoordinateSystem()](#getCoordinateSystem--) | この軸システムの座標系を取得します。 |
-| [getFront()](#getFront--) | この軸システムの前ベクトルを取得します。 |
-| [getUp()](#getUp--) | この軸システムの上ベクトルを取得します。 |
+| [getCoordinateSystem()](#getCoordinateSystem--) | この axis system の座標系を取得します。 |
+| [getFront()](#getFront--) | この axis system の前ベクトルを取得します |
+| [getUp()](#getUp--) | この axis system の上ベクトルを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [transformTo(AxisSystem targetSystem)](#transformTo-com.aspose.threed.AxisSystem-) | 現在の軸システムから目標軸システムへ変換するために使用される行列を作成します。 |
+| [transformTo(AxisSystem targetSystem)](#transformTo-com.aspose.threed.AxisSystem-) | 現在の axis system から目標の axis system へ変換するための行列を作成します。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -45,13 +45,13 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up)
 ```
 
 
-新しい軸システムを作成します
+新しい axis system を構築します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | この軸システムで使用される座標系 |
-| up | [Axis](../../com.aspose.threed/axis) | 軸システムの上ベクトル |
+| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | この axis system で使用される座標系 |
+| up | [Axis](../../com.aspose.threed/axis) | axis system の上ベクトル |
 
 ### AxisSystem(Axis up, Axis front) {#AxisSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-}
 ```
@@ -59,13 +59,13 @@ public AxisSystem(Axis up, Axis front)
 ```
 
 
-新しい軸システムを作成します
+新しい axis system を構築します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| up | [Axis](../../com.aspose.threed/axis) | 軸システムの上ベクトル |
-| front | [Axis](../../com.aspose.threed/axis) | 軸システムの前ベクトル |
+| up | [Axis](../../com.aspose.threed/axis) | axis system の上ベクトル |
+| front | [Axis](../../com.aspose.threed/axis) | axis system の前ベクトル |
 
 ### AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front) {#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-}
 ```
@@ -73,14 +73,14 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)
 ```
 
 
-新しい軸システムを作成します
+新しい axis system を構築します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | この軸システムで使用される座標系 |
-| up | [Axis](../../com.aspose.threed/axis) | 軸システムの上ベクトル |
-| front | [Axis](../../com.aspose.threed/axis) | 軸システムの前ベクトル |
+| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | この axis system で使用される座標系 |
+| up | [Axis](../../com.aspose.threed/axis) | axis system の上ベクトル |
+| front | [Axis](../../com.aspose.threed/axis) | axis system の前ベクトル |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -103,12 +103,12 @@ public static AxisSystem fromAssetInfo(AssetInfo assetInfo)
 ```
 
 
-[AxisSystem](../../com.aspose.threed/axissystem) を [AssetInfo](../../com.aspose.threed/assetinfo) から作成する
+[AssetInfo](../../com.aspose.threed/assetinfo) から [AxisSystem](../../com.aspose.threed/axissystem) を作成します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| assetInfo | [AssetInfo](../../com.aspose.threed/assetinfo) | どのアセット情報から座標系、上ベクトル、前ベクトルを読み取るか。 |
+| assetInfo | [AssetInfo](../../com.aspose.threed/assetinfo) | どの AssetInfo から座標系、上ベクトル、前ベクトルを読み取るか。 |
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - Axis system containg coordinate system, up, front from given asset info
@@ -128,7 +128,7 @@ public CoordinateSystem getCoordinateSystem()
 ```
 
 
-この軸システムの座標系を取得します。
+この axis system の座標系を取得します。
 
 **Returns:**
 [CoordinateSystem](../../com.aspose.threed/coordinatesystem) - the coordinate system of this axis system.
@@ -138,7 +138,7 @@ public Axis getFront()
 ```
 
 
-この軸システムの前ベクトルを取得します。
+この axis system の前ベクトルを取得します
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the front vector of this axis system
@@ -148,7 +148,7 @@ public Axis getUp()
 ```
 
 
-この軸システムの上ベクトルを取得します。
+この axis system の上ベクトルを取得します。
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the up vector of this axis system.
@@ -194,12 +194,12 @@ public Matrix4 transformTo(AxisSystem targetSystem)
 ```
 
 
-現在の軸システムから目標軸システムへ変換するために使用される行列を作成します。
+現在の axis system から目標の axis system へ変換するための行列を作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| targetSystem | [AxisSystem](../../com.aspose.threed/axissystem) | 目標軸システム |
+| targetSystem | [AxisSystem](../../com.aspose.threed/axissystem) | 目標 axis system |
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - A new transformation matrix to do the axis conversion

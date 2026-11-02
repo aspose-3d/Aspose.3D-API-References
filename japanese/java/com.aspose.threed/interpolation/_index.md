@@ -18,12 +18,12 @@ public enum Interpolation extends Enum<Interpolation>
 
 | フィールド | 説明 |
 | --- | --- |
-| [BEZIER](#BEZIER) | ベジエまたはエルミートスプラインです。 |
-| [B_SPLINE](#B-SPLINE) | 基底スプラインは一連の制御点で定義され、曲線は最初と最後の点のみを必ず通過することが保証されています。 |
+| [BEZIER](#BEZIER) | ベジエまたはエルミート スプラインです。 |
+| [B_SPLINE](#B-SPLINE) | 基底スプラインは一連の制御点で定義され、曲線は最初と最後の点のみを通過することが保証されています。 |
 | [CARDINAL_SPLINE](#CARDINAL-SPLINE) | カーディナルスプラインは、エンドポイントと張力パラメータによって接線が定義される立方体エルミートスプラインです。 |
-| [CONSTANT](#CONSTANT) | 次のセグメントまで、値は最初の点の値に対して一定のままになります。 |
+| [CONSTANT](#CONSTANT) | 次のセグメントまで、値は最初の点の値に対して一定に保たれます。 |
 | [LINEAR](#LINEAR) | 線形補間は、二つの点間の直線です。 |
-| [TCB_SPLINE](#TCB-SPLINE) | コーハネック‑バーテルススプラインとも呼ばれ、接線の挙動は張力/バイアス/連続性によって定義されます。 |
+| [TCB_SPLINE](#TCB-SPLINE) | コーヘンエック・バーテルススプラインとも呼ばれ、接線の挙動は張力/バイアス/連続性によって定義されます。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -51,7 +51,7 @@ public static final Interpolation BEZIER
 ```
 
 
-ベジエまたはエルミートスプラインです。
+ベジエまたはエルミート スプラインです。
 
 ### B_SPLINE {#B-SPLINE}
 ```
@@ -59,7 +59,7 @@ public static final Interpolation B_SPLINE
 ```
 
 
-基底スプラインは一連の制御点で定義され、曲線は最初と最後の点のみを必ず通過することが保証されています。
+基底スプラインは一連の制御点で定義され、曲線は最初と最後の点のみを通過することが保証されています。
 
 ### CARDINAL_SPLINE {#CARDINAL-SPLINE}
 ```
@@ -75,7 +75,7 @@ public static final Interpolation CONSTANT
 ```
 
 
-次のセグメントまで、値は最初の点の値に対して一定のままになります。
+次のセグメントまで、値は最初の点の値に対して一定に保たれます。
 
 ### LINEAR {#LINEAR}
 ```
@@ -91,7 +91,7 @@ public static final Interpolation TCB_SPLINE
 ```
 
 
-コーハネック‑バーテルススプラインとも呼ばれ、接線の挙動は張力/バイアス/連続性によって定義されます。
+コーヘンエック・バーテルススプラインとも呼ばれ、接線の挙動は張力/バイアス/連続性によって定義されます。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

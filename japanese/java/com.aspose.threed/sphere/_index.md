@@ -18,9 +18,9 @@ public class Sphere extends Primitive
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Sphere()](#Sphere--) | [Sphere](../../com.aspose.threed/sphere) の新しいインスタンスをデフォルト半径 1 で初期化します。 |
-| [Sphere(double radius)](#Sphere-double-) | [Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを指定された半径で初期化します。 |
-| [Sphere(double radius, int widthSegments, int heightSegments)](#Sphere-double-int-int-) | [Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを指定された半径、幅セグメント、そして高さセグメントで初期化します。 |
+| [Sphere()](#Sphere--) | デフォルト半径1で [Sphere](../../com.aspose.threed/sphere) の新しいインスタンスを初期化します。 |
+| [Sphere(double radius)](#Sphere-double-) | 指定された半径で [Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを初期化します。 |
+| [Sphere(double radius, int widthSegments, int heightSegments)](#Sphere-double-int-int-) | 指定された半径、幅セグメント、そして高さセグメントで [Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを初期化します。 |
 | [Sphere(String name, double radius, int widthSegments, int heightSegments, double phiStart, double phiLength, double thetaStart, double thetaLength)](#Sphere-java.lang.String-double-int-int-double-double-double-double-) | [Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを初期化します。 |
 ## メソッド
 
@@ -29,9 +29,9 @@ public class Sphere extends Primitive
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します |
+| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getHeightSegments()](#getHeightSegments--) | 高さセグメントを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -46,13 +46,13 @@ public class Sphere extends Primitive
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
 | [getThetaLength()](#getThetaLength--) | theta の長さを取得します。 |
 | [getThetaStart()](#getThetaStart--) | theta の開始位置を取得します。 |
-| [getWidthSegments()](#getWidthSegments--) | 幅のセグメントを取得します。 |
+| [getWidthSegments()](#getWidthSegments--) | 幅セグメントを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setHeightSegments(int value)](#setHeightSegments-int-) | 高さセグメントを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
@@ -60,11 +60,11 @@ public class Sphere extends Primitive
 | [setPhiLength(double value)](#setPhiLength-double-) | phi の長さを設定します。 |
 | [setPhiStart(double value)](#setPhiStart-double-) | phi の開始位置を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setRadius(double value)](#setRadius-double-) | 球の半径を設定します。 |
+| [setRadius(double value)](#setRadius-double-) | 球体の半径を設定します。 |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | このジオメトリが影を受け取るかどうかを設定します。 |
 | [setThetaLength(double value)](#setThetaLength-double-) | theta の長さを設定します。 |
 | [setThetaStart(double value)](#setThetaStart-double-) | theta の開始位置を設定します。 |
-| [setWidthSegments(int value)](#setWidthSegments-int-) | 幅のセグメントを設定します。 |
+| [setWidthSegments(int value)](#setWidthSegments-int-) | 幅セグメントを設定します。 |
 | [toMesh()](#toMesh--) | 現在のオブジェクトをメッシュに変換します |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -76,7 +76,7 @@ public Sphere()
 ```
 
 
-[Sphere](../../com.aspose.threed/sphere) の新しいインスタンスをデフォルト半径 1 で初期化します。
+デフォルト半径1で [Sphere](../../com.aspose.threed/sphere) の新しいインスタンスを初期化します。
 
 ### Sphere(double radius) {#Sphere-double-}
 ```
@@ -84,12 +84,12 @@ public Sphere(double radius)
 ```
 
 
-[Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを指定された半径で初期化します。
+指定された半径で [Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 半径 | double | 半径。 |
+| radius | double | 半径。 |
 
 ### Sphere(double radius, int widthSegments, int heightSegments) {#Sphere-double-int-int-}
 ```
@@ -97,12 +97,12 @@ public Sphere(double radius, int widthSegments, int heightSegments)
 ```
 
 
-[Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを指定された半径、幅セグメント、そして高さセグメントで初期化します。
+指定された半径、幅セグメント、そして高さセグメントで [Sphere](../../com.aspose.threed/sphere) クラスの新しいインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 半径 | double | 球の半径。 |
+| radius | double | 球体の半径。 |
 | widthSegments | int | 幅のセグメント。 |
 | heightSegments | int | 高さセグメント。 |
 
@@ -118,7 +118,7 @@ public Sphere(String name, double radius, int widthSegments, int heightSegments,
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | 名前 | java.lang.String | 名前。 |
-| 半径 | double | 球の半径。 |
+| radius | double | 球体の半径。 |
 | widthSegments | int | 幅のセグメント。 |
 | heightSegments | int | 高さセグメント。 |
 | phiStart | double | Phi の開始位置。 |
@@ -147,7 +147,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -179,7 +179,7 @@ public boolean getCastShadows()
 ```
 
 
-このジオメトリが影を落とすかどうかを取得します
+このジオメトリが影を落とすかどうかを取得します。
 
 **Returns:**
 boolean - このジオメトリが影を落とすかどうか
@@ -199,7 +199,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -232,7 +232,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -252,7 +252,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getPhiLength() {#getPhiLength--}
 ```
 public double getPhiLength()
@@ -307,7 +307,7 @@ public double getRadius()
 球体の半径を取得します。
 
 **Returns:**
-double - 球の半径。
+double - 球体の半径。
 ### getReceiveShadows() {#getReceiveShadows--}
 ```
 public boolean getReceiveShadows()
@@ -354,7 +354,7 @@ public int getWidthSegments()
 ```
 
 
-幅のセグメントを取得します。
+幅セグメントを取得します。
 
 **Returns:**
 int - 幅のセグメント。
@@ -395,7 +395,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -405,12 +405,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -420,7 +420,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-このジオメトリが影を落とすかどうかを設定します
+このジオメトリが影を落とすかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -525,7 +525,7 @@ public void setRadius(double value)
 ```
 
 
-球の半径を設定します。
+球体の半径を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -577,7 +577,7 @@ public void setWidthSegments(int value)
 ```
 
 
-幅のセグメントを設定します。
+幅セグメントを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

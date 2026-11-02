@@ -18,15 +18,15 @@ public enum VertexFieldSemantic extends Enum<VertexFieldSemantic>
 
 | フィールド | 説明 |
 | --- | --- |
-| [BINORMAL](#BINORMAL) | バイノーマル ベクトル |
-| [EDGE_CREASE](#EDGE-CREASE) | エッジ クリース |
-| [MORPH_NORMAL](#MORPH-NORMAL) | モーフ ターゲットの法線データ |
-| [MORPH_POSITION](#MORPH-POSITION) | モーフ ターゲットの位置データ |
+| [BINORMAL](#BINORMAL) | バイノーマルベクトル |
+| [EDGE_CREASE](#EDGE-CREASE) | エッジクリーズ |
+| [MORPH_NORMAL](#MORPH-NORMAL) | モーフターゲット用の法線データ |
+| [MORPH_POSITION](#MORPH-POSITION) | モーフターゲット用の位置データ |
 | [NORMAL](#NORMAL) | 法線ベクトル |
 | [POSITION](#POSITION) | 位置データ |
 | [SPECULAR](#SPECULAR) | 鏡面色 |
 | [TANGENT](#TANGENT) | 接線ベクトル |
-| [USER_DATA](#USER-DATA) | ユーザーデータ、通常はアプリケーション固有の目的のために使用されます |
+| [USER_DATA](#USER-DATA) | ユーザーデータ、通常はアプリケーション固有の目的のため |
 | [UV](#UV) | テクスチャ UV 座標 |
 | [VERTEX_COLOR](#VERTEX-COLOR) | 頂点カラー |
 | [VERTEX_CREASE](#VERTEX-CREASE) | 頂点の折り目 |
@@ -59,7 +59,7 @@ public static final VertexFieldSemantic BINORMAL
 ```
 
 
-バイノーマル ベクトル
+バイノーマルベクトル
 
 ### EDGE_CREASE {#EDGE-CREASE}
 ```
@@ -67,7 +67,7 @@ public static final VertexFieldSemantic EDGE_CREASE
 ```
 
 
-エッジ クリース
+エッジクリーズ
 
 ### MORPH_NORMAL {#MORPH-NORMAL}
 ```
@@ -75,7 +75,7 @@ public static final VertexFieldSemantic MORPH_NORMAL
 ```
 
 
-モーフ ターゲットの法線データ
+モーフターゲット用の法線データ
 
 ### MORPH_POSITION {#MORPH-POSITION}
 ```
@@ -83,7 +83,7 @@ public static final VertexFieldSemantic MORPH_POSITION
 ```
 
 
-モーフ ターゲットの位置データ
+モーフターゲット用の位置データ
 
 ### NORMAL {#NORMAL}
 ```
@@ -123,7 +123,7 @@ public static final VertexFieldSemantic USER_DATA
 ```
 
 
-ユーザーデータ、通常はアプリケーション固有の目的のために使用されます
+ユーザーデータ、通常はアプリケーション固有の目的のため
 
 ### UV {#UV}
 ```

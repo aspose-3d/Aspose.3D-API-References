@@ -1,7 +1,7 @@
 ---
 title: "PbrSpecularMaterial"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "拡散カラー/スペキュラ/光沢に基づく物理ベースレンダリング用マテリアル。"
+description: "拡散カラー、スペキュラ、光沢に基づく物理ベースレンダリング用マテリアル"
 type: docs
 weight: 122
 url: /ja/java/com.aspose.threed/pbrspecularmaterial/
@@ -13,21 +13,21 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrSpecularMaterial extends Material
 ```
 
-拡散カラー/スペキュラ/光沢に基づく物理ベースレンダリング用マテリアル。
+拡散カラー、スペキュラ、光沢に基づく物理ベースレンダリング用マテリアル
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [PbrSpecularMaterial()](#PbrSpecularMaterial--) | [PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial) のコンストラクタ |
+| [PbrSpecularMaterial()](#PbrSpecularMaterial--) | [PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial)のコンストラクタ |
 ## フィールド
 
 | フィールド | 説明 |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | [setTexture](../../com.aspose.threed/material\#setTexture) で環境光テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | [setTexture](../../com.aspose.threed/material\#setTexture) で拡散テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | [setTexture](../../com.aspose.threed/material\#setTexture) で放射テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_NORMAL](#MAP-NORMAL) | [setTexture](../../com.aspose.threed/material\#setTexture) で法線テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_SPECULAR](#MAP-SPECULAR) | [setTexture](../../com.aspose.threed/material\#setTexture) で鏡面テクスチャマッピングを割り当てるために使用されます。 |
+| [MAP_AMBIENT](#MAP-AMBIENT) | アンビエントテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | ディフューズテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | エミッシブテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_NORMAL](#MAP-NORMAL) | ノーマルテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_SPECULAR](#MAP-SPECULAR) | スペキュラテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
 | [MAP_SPECULAR_GLOSSINESS](#MAP-SPECULAR-GLOSSINESS) | 鏡面光沢用のテクスチャマップ |
 ## メソッド
 
@@ -39,35 +39,35 @@ public class PbrSpecularMaterial extends Material
 | [getDiffuse()](#getDiffuse--) | マテリアルの拡散色を取得します。デフォルト値は (1, 1, 1) です。 |
 | [getDiffuseTexture()](#getDiffuseTexture--) | 拡散用テクスチャを取得します |
 | [getEmissiveColor()](#getEmissiveColor--) | 放射色を取得します。デフォルト値は (0, 0, 0) です。 |
-| [getEmissiveTexture()](#getEmissiveTexture--) | 放射テクスチャを取得します |
+| [getEmissiveTexture()](#getEmissiveTexture--) | 放射用テクスチャを取得します |
 | [getGlossinessFactor()](#getGlossinessFactor--) | マテリアルの光沢（滑らかさ）を取得します。1 は完全に滑らか、0 は完全に粗いことを意味し、デフォルト値は 1、範囲は [0, 1] です。 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getNormalTexture()](#getNormalTexture--) | 法線マッピングのテクスチャを取得します |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getSpecular()](#getSpecular--) | マテリアルの鏡面色を取得します。デフォルト値は (1, 1, 1) です。 |
-| [getSpecularGlossinessTexture()](#getSpecularGlossinessTexture--) | 鏡面色用のテクスチャを取得します。RGB チャネルは鏡面色を、A チャネルは光沢を格納します。 |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | 指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名で指定できます。 |
+| [getSpecularGlossinessTexture()](#getSpecularGlossinessTexture--) | 鏡面色用テクスチャを取得します。RGB チャネルは鏡面色を、A チャネルは光沢を格納します。 |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | 指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名である可能性があります。 |
 | [getTransparency()](#getTransparency--) | 透過係数を取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 内部テクスチャスロットを列挙するための列挙子を取得します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setDiffuse(Vector3 value)](#setDiffuse-com.aspose.threed.Vector3-) | マテリアルの拡散色を設定します。デフォルト値は (1, 1, 1) です。 |
 | [setDiffuseTexture(TextureBase value)](#setDiffuseTexture-com.aspose.threed.TextureBase-) | 拡散用テクスチャを設定します |
 | [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | 放射色を設定します。デフォルト値は (0, 0, 0) です。 |
-| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | エミッシブ用のテクスチャを設定します |
-| [setGlossinessFactor(double value)](#setGlossinessFactor-double-) | マテリアルの光沢（滑らかさ）を設定します。1 は完全に滑らか、0 は完全に粗いことを意味し、デフォルト値は 1、範囲は [0, 1] です |
+| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | 放射用テクスチャを設定します |
+| [setGlossinessFactor(double value)](#setGlossinessFactor-double-) | マテリアルの光沢（滑らかさ）を設定します。1 は完全に滑らか、0 は完全に粗いことを意味し、デフォルト値は 1、範囲は [0, 1] です。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | 法線マッピングのテクスチャを設定します |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [setSpecular(Vector3 value)](#setSpecular-com.aspose.threed.Vector3-) | マテリアルの鏡面色を設定します。デフォルト値は (1, 1, 1) です。 |
-| [setSpecularGlossinessTexture(TextureBase value)](#setSpecularGlossinessTexture-com.aspose.threed.TextureBase-) | 鏡面色用のテクスチャを設定します。RGB チャンネルが鏡面色を、A チャンネルが光沢を格納します。 |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | テクスチャを指定されたスロットに設定します。 |
+| [setSpecularGlossinessTexture(TextureBase value)](#setSpecularGlossinessTexture-com.aspose.threed.TextureBase-) | 鏡面色用のテクスチャを設定します。RGB チャネルが鏡面色を保持し、A チャネルが光沢を保持します。 |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | テクスチャを指定されたスロットに設定します |
 | [setTransparency(double value)](#setTransparency-double-) | 透過係数を設定します。 |
-| [toString()](#toString--) | オブジェクトを文字列にフォーマットします |
+| [toString()](#toString--) | オブジェクトを文字列に変換します |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -77,7 +77,7 @@ public PbrSpecularMaterial()
 ```
 
 
-[PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial) のコンストラクタ
+[PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial)のコンストラクタ
 
 ### MAP_AMBIENT {#MAP-AMBIENT}
 ```
@@ -85,7 +85,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で環境光テクスチャマッピングを割り当てるために使用されます。
+アンビエントテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -93,7 +93,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で拡散テクスチャマッピングを割り当てるために使用されます。
+ディフューズテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -101,7 +101,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で放射テクスチャマッピングを割り当てるために使用されます。
+エミッシブテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -109,7 +109,7 @@ public static final String MAP_NORMAL
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で法線テクスチャマッピングを割り当てるために使用されます。
+ノーマルテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -117,7 +117,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で鏡面テクスチャマッピングを割り当てるために使用されます。
+スペキュラテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_SPECULAR_GLOSSINESS {#MAP-SPECULAR-GLOSSINESS}
 ```
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -203,7 +203,7 @@ public TextureBase getEmissiveTexture()
 ```
 
 
-放射テクスチャを取得します
+放射用テクスチャを取得します
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for emissive
@@ -216,7 +216,7 @@ public double getGlossinessFactor()
 マテリアルの光沢（滑らかさ）を取得します。1 は完全に滑らか、0 は完全に粗いことを意味し、デフォルト値は 1、範囲は [0, 1] です。
 
 **Returns:**
-double - マテリアルの光沢（滑らかさ）。1 は完全に滑らか、0 は完全に粗いことを意味し、デフォルト値は 1、範囲は [0, 1] です
+double - マテリアルの光沢（滑らかさ）。1 は完全に滑らか、0 は完全に粗いことを意味し、デフォルト値は 1、範囲は [0, 1] です。
 ### getName() {#getName--}
 ```
 public String getName()
@@ -226,7 +226,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getNormalTexture() {#getNormalTexture--}
 ```
 public TextureBase getNormalTexture()
@@ -278,7 +278,7 @@ public TextureBase getSpecularGlossinessTexture()
 ```
 
 
-鏡面色用のテクスチャを取得します。RGB チャネルは鏡面色を、A チャネルは光沢を格納します。
+鏡面色用テクスチャを取得します。RGB チャネルは鏡面色を、A チャネルは光沢を格納します。
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for specular color, channel RGB stores the specular color and channel A stores the glossiness.
@@ -288,7 +288,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名で指定できます。
+指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名である可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -311,10 +311,10 @@ public double getTransparency()
 ```
 
 
-透明度係数を取得します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+透明度係数を取得します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 
 **Returns:**
-double - 透明度係数。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+double - 透明度係数。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -362,7 +362,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -372,12 +372,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -426,7 +426,7 @@ public void setEmissiveTexture(TextureBase value)
 ```
 
 
-エミッシブ用のテクスチャを設定します
+放射用テクスチャを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -439,7 +439,7 @@ public void setGlossinessFactor(double value)
 ```
 
 
-マテリアルの光沢（滑らかさ）を設定します。1 は完全に滑らか、0 は完全に粗いことを意味し、デフォルト値は 1、範囲は [0, 1] です
+マテリアルの光沢（滑らかさ）を設定します。1 は完全に滑らか、0 は完全に粗いことを意味し、デフォルト値は 1、範囲は [0, 1] です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -505,7 +505,7 @@ public void setSpecularGlossinessTexture(TextureBase value)
 ```
 
 
-鏡面色用のテクスチャを設定します。RGB チャンネルが鏡面色を、A チャンネルが光沢を格納します。
+鏡面色用のテクスチャを設定します。RGB チャネルが鏡面色を保持し、A チャネルが光沢を保持します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -518,7 +518,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-テクスチャを指定されたスロットに設定します。
+テクスチャを指定されたスロットに設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -539,7 +539,7 @@ public void setTransparency(double value)
 ```
 
 
-透明度係数を設定します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+透明度係数を設定します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -552,7 +552,7 @@ public String toString()
 ```
 
 
-オブジェクトを文字列にフォーマットします
+オブジェクトを文字列に変換します
 
 **Returns:**
 java.lang.String - オブジェクト文字列

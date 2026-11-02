@@ -1,7 +1,7 @@
 ---
 title: "PlyFormat"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "PLY形式です。"
+description: "PLY フォーマットです。"
 type: docs
 weight: 129
 url: /ja/java/com.aspose.threed/plyformat/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileFormat](../../com.aspose.threed/filefor
 public class PlyFormat extends FileFormat
 ```
 
-PLY フォーマットです。 **Example:** 以下のコードは PLY ファイルからメッシュをデコードする方法を示しています。
+PLY フォーマットです。 **Example:** 以下のコードは PLY ファイルからメッシュをデコードする方法を示しています：
 
 ```
 //Generate a test file for decoding
@@ -26,8 +26,8 @@ PLY フォーマットです。 **Example:** 以下のコードは PLY ファイ
 | フィールド | 説明 |
 | --- | --- |
 | [AMF](#AMF) | 積層造形ファイル形式 |
-| [ASE](#ASE) | 3D Studio Max の ASCII シーンエクスポーター形式。 |
-| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Aspose.3D Web 形式。 |
+| [ASE](#ASE) | 3D Studio Max の ASCII シーンエクスポーター形式です。 |
+| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Aspose.3D Web 形式です。 |
 | [BLENDER](#BLENDER) | Blender の 3D ファイル形式 |
 | [COLLADA](#COLLADA) | Collada ファイル形式 |
 | [DISCREET3DS](#DISCREET3DS) | 3D Studio のファイル形式 |
@@ -53,22 +53,22 @@ PLY フォーマットです。 **Example:** 以下のコードは PLY ファイ
 | [GLTF_BINARY](#GLTF-BINARY) | Khronos Group の glTF（バイナリ形式） |
 | [HTML5](#HTML5) | HTML5 ファイル |
 | [IFC](#IFC) | ISO 16739-1 Industry Foundation Classes データモデル。 |
-| [MAYAASCII](#MAYAASCII) | Autodesk Maya（ASCII 形式） |
-| [MAYA_BINARY](#MAYA-BINARY) | Autodesk Maya（バイナリ形式） |
+| [MAYAASCII](#MAYAASCII) | Autodesk Maya の ASCII 形式 |
+| [MAYA_BINARY](#MAYA-BINARY) | Autodesk Maya の Binary 形式 |
 | [MICROSOFT3MF](#MICROSOFT3MF) | Microsoft 3D Manufacturing Format |
 | [PCD](#PCD) | PCL Point Cloud Data ファイル（ASCII モード） |
-| [PCD_BINARY](#PCD-BINARY) | PCL Point Cloud Data ファイル（バイナリモード） |
+| [PCD_BINARY](#PCD-BINARY) | PCL Point Cloud Data ファイル（Binary モード） |
 | [PDF](#PDF) | Adobe の Portable Document Format |
 | [PLY](#PLY) | Polygon File Format または Stanford Triangle Format |
-| [RVM_BINARY](#RVM-BINARY) | AVEVA Plant Design Management System Model（バイナリ形式） |
-| [RVM_TEXT](#RVM-TEXT) | AVEVA Plant Design Management System Model（テキスト形式） |
+| [RVM_BINARY](#RVM-BINARY) | AVEVA Plant Design Management System Model のバイナリ形式 |
+| [RVM_TEXT](#RVM-TEXT) | AVEVA Plant Design Management System Model のテキスト形式 |
 | [SIEMENSJT8](#SIEMENSJT8) | Siemens JT ファイル バージョン 8 |
 | [SIEMENSJT9](#SIEMENSJT9) | Siemens JT ファイル バージョン 9 |
 | [STLASCII](#STLASCII) | ASCII STL ファイル形式 |
 | [STL_BINARY](#STL-BINARY) | Binary STL ファイル形式 |
 | [UNIVERSAL3D](#UNIVERSAL3D) | Universal3D ファイル形式 |
 | [USD](#USD) | ユニバーサルシーン記述 |
-| [USDA](#USDA) | ASCII形式のユニバーサルシーン記述。 |
+| [USDA](#USDA) | ASCII 形式のユニバーサルシーン記述。 |
 | [USDZ](#USDZ) | 圧縮されたユニバーサルシーン記述 |
 | [VRML](#VRML) | バーチャルリアリティモデリング言語 |
 | [WAVEFRONTOBJ](#WAVEFRONTOBJ) | Wavefront の Obj ファイル形式 |
@@ -87,7 +87,7 @@ PLY フォーマットです。 **Example:** 以下のコードは PLY ファイ
 | [decode(String fileName)](#decode-java.lang.String-) | 指定されたストリームから点群またはメッシュをデコードします。 |
 | [decode(String fileName, PlyLoadOptions opt)](#decode-java.lang.String-com.aspose.threed.PlyLoadOptions-) | 指定されたストリームから点群またはメッシュをデコードします。 |
 | [detect(Stream stream, String fileName)](#detect-com.aspose.threed.Stream-java.lang.String-) | データストリームからファイル形式を検出します。マジックヘッダーがないタイプを推測するために、ファイル名はオプションです。 |
-| [detect(String fileName)](#detect-java.lang.String-) | ファイル名からファイル形式を検出します。ファイルは読み取り可能である必要があり、Aspose.3D はファイルヘッダーを通じて形式を検出できます。 |
+| [detect(String fileName)](#detect-java.lang.String-) | ファイル名からファイル形式を検出します。ファイルは読み取り可能である必要があり、Aspose.3D がファイルヘッダーを通じて形式を検出できます。 |
 | [encode(Entity entity, Stream stream)](#encode-com.aspose.threed.Entity-com.aspose.threed.Stream-) | エンティティをエンコードし、結果をストリームに保存します。 |
 | [encode(Entity entity, Stream stream, PlySaveOptions opt)](#encode-com.aspose.threed.Entity-com.aspose.threed.Stream-com.aspose.threed.PlySaveOptions-) | エンティティをエンコードし、結果をストリームに保存します。 |
 | [encode(Entity entity, String fileName)](#encode-com.aspose.threed.Entity-java.lang.String-) | エンティティをエンコードし、結果を外部ファイルに保存します。 |
@@ -100,13 +100,13 @@ PLY フォーマットです。 **Example:** 以下のコードは PLY ファイ
 | [getExtension()](#getExtension--) | このタイプの拡張子名を取得します。 |
 | [getExtensions()](#getExtensions--) | このタイプの拡張子名一覧を取得します。 |
 | [getFileFormatType()](#getFileFormatType--) | ファイル形式のタイプを取得します |
-| [getFormatByExtension(String extensionName)](#getFormatByExtension-java.lang.String-) | 拡張子名から優先されるファイル形式を取得します。拡張子名はドット ('.') で始まる必要があります。 |
-| [getFormats()](#getFormats--) | すべてのサポートされている形式にアクセスする |
+| [getFormatByExtension(String extensionName)](#getFormatByExtension-java.lang.String-) | 拡張子名から優先ファイル形式を取得します。拡張子名はピリオド（'.'）で始まる必要があります。 |
+| [getFormats()](#getFormats--) | すべてのサポートされている形式にアクセス |
 | [getVersion()](#getVersion--) | ファイル形式のバージョンを取得します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | 形式を文字列に変換する |
+| [toString()](#toString--) | 形式を文字列に変換 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -124,7 +124,7 @@ public static final FileFormat ASE
 ```
 
 
-3D Studio Max の ASCII シーンエクスポーター形式。
+3D Studio Max の ASCII シーンエクスポーター形式です。
 
 ### ASPOSE3D_WEB {#ASPOSE3D-WEB}
 ```
@@ -132,7 +132,7 @@ public static final FileFormat ASPOSE3D_WEB
 ```
 
 
-Aspose.3D Web 形式。
+Aspose.3D Web 形式です。
 
 ### BLENDER {#BLENDER}
 ```
@@ -340,7 +340,7 @@ public static final FileFormat MAYAASCII
 ```
 
 
-Autodesk Maya（ASCII 形式）
+Autodesk Maya の ASCII 形式
 
 ### MAYA_BINARY {#MAYA-BINARY}
 ```
@@ -348,7 +348,7 @@ public static final FileFormat MAYA_BINARY
 ```
 
 
-Autodesk Maya（バイナリ形式）
+Autodesk Maya の Binary 形式
 
 ### MICROSOFT3MF {#MICROSOFT3MF}
 ```
@@ -372,7 +372,7 @@ public static final FileFormat PCD_BINARY
 ```
 
 
-PCL Point Cloud Data ファイル（バイナリモード）
+PCL Point Cloud Data ファイル（Binary モード）
 
 ### PDF {#PDF}
 ```
@@ -396,7 +396,7 @@ public static final RvmFormat RVM_BINARY
 ```
 
 
-AVEVA Plant Design Management System Model（バイナリ形式）
+AVEVA Plant Design Management System Model のバイナリ形式
 
 ### RVM_TEXT {#RVM-TEXT}
 ```
@@ -404,7 +404,7 @@ public static final RvmFormat RVM_TEXT
 ```
 
 
-AVEVA Plant Design Management System Model（テキスト形式）
+AVEVA Plant Design Management System Model のテキスト形式
 
 ### SIEMENSJT8 {#SIEMENSJT8}
 ```
@@ -460,7 +460,7 @@ public static final FileFormat USDA
 ```
 
 
-ASCII形式のユニバーサルシーン記述。
+ASCII 形式のユニバーサルシーン記述。
 
 ### USDZ {#USDZ}
 ```
@@ -650,7 +650,7 @@ public static FileFormat detect(String fileName)
 ```
 
 
-ファイル名からファイル形式を検出します。ファイルは読み取り可能である必要があり、Aspose.3D はファイルヘッダーを通じて形式を検出できます。
+ファイル名からファイル形式を検出します。ファイルは読み取り可能である必要があり、Aspose.3D がファイルヘッダーを通じて形式を検出できます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -671,7 +671,7 @@ public void encode(Entity entity, Stream stream)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | entity | [Entity](../../com.aspose.threed/entity) | エンコードするエンティティ |
-|  | stream | [Stream](../../com.aspose.threed/stream) | 書き込むストリーム（このメソッドはこのストリームを閉じません） **Example:** 次のコードは、メッシュを PLY ファイルにエンコードする方法を示しています: |
+|  | stream | [Stream](../../com.aspose.threed/stream) | 書き込むストリーム（このメソッドはこのストリームを閉じません） **Example:** 次のコードはメッシュを PLY ファイルにエンコードする方法を示しています: |
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -692,7 +692,7 @@ public void encode(Entity entity, Stream stream, PlySaveOptions opt)
 | --- | --- | --- |
 | entity | [Entity](../../com.aspose.threed/entity) | エンコードするエンティティ |
 | stream | [Stream](../../com.aspose.threed/stream) | 書き込むストリーム（このメソッドはこのストリームを閉じません） |
-|  | opt | [PlySaveOptions](../../com.aspose.threed/plysaveoptions) | 保存オプション **Example:** 次のコードは、メッシュを PLY ファイルにエンコードする方法を示しています: |
+|  | opt | [PlySaveOptions](../../com.aspose.threed/plysaveoptions) | 保存オプション **Example:** 次のコードはメッシュを PLY ファイルにエンコードする方法を示しています: |
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -712,7 +712,7 @@ public void encode(Entity entity, String fileName)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | entity | [Entity](../../com.aspose.threed/entity) | エンコードするエンティティ |
-|  | fileName | java.lang.String | 書き込むファイル **Example:** 次のコードは、メッシュを PLY ファイルにエンコードする方法を示しています: |
+|  | fileName | java.lang.String | 書き込むファイル **Example:** 次のコードはメッシュを PLY ファイルにエンコードする方法を示しています: |
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -733,7 +733,7 @@ public void encode(Entity entity, String fileName, PlySaveOptions opt)
 | --- | --- | --- |
 | entity | [Entity](../../com.aspose.threed/entity) | エンコードするエンティティ |
 | fileName | java.lang.String | 書き込むファイル |
-|  | opt | [PlySaveOptions](../../com.aspose.threed/plysaveoptions) | 保存オプション **Example:** 次のコードは、メッシュを PLY ファイルにエンコードする方法を示しています: |
+|  | opt | [PlySaveOptions](../../com.aspose.threed/plysaveoptions) | 保存オプション **Example:** 次のコードはメッシュを PLY ファイルにエンコードする方法を示しています: |
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -765,7 +765,7 @@ public boolean getCanExport()
 Aspose.3D が現在のファイル形式へのシーンエクスポートをサポートしているかどうかを取得します。
 
 **Returns:**
-boolean - Aspose.3D が現在のファイル形式へのシーンエクスポートをサポートしているかどうか。 **Example:** 以下のコードは、指定された形式へのエクスポートがサポートされているかどうかを確認する方法を示しています。
+boolean - Aspose.3D が現在のファイル形式へのシーンのエクスポートをサポートしているかどうか。 **Example:** 以下のコードは、指定された形式へのエクスポートがサポートされているかを確認する方法を示しています。
 
 ```
 var outputFormat = ".glb";
@@ -782,7 +782,7 @@ public boolean getCanImport()
 Aspose.3D が現在のファイル形式からのシーンインポートをサポートしているかどうかを取得します。
 
 **Returns:**
-boolean - Aspose.3D が現在のファイル形式からのシーンインポートをサポートしているかどうか。 **Example:** 以下のコードは、指定された形式からのインポートがサポートされているかどうかを確認する方法を示しています。
+boolean - Aspose.3D が現在のファイル形式からシーンのインポートをサポートしているかどうか。 **Example:** 以下のコードは、指定された形式からのインポートがサポートされているかを確認する方法を示しています。
 
 ```
 var outputFormat = ".glb";
@@ -859,7 +859,7 @@ public static FileFormat getFormatByExtension(String extensionName)
 ```
 
 
-拡張子名から優先されるファイル形式を取得します。拡張子名はドット ('.') で始まる必要があります。
+拡張子名から優先ファイル形式を取得します。拡張子名はピリオド（'.'）で始まる必要があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -882,7 +882,7 @@ public static List<FileFormat> getFormats()
 ```
 
 
-すべてのサポートされている形式にアクセスする
+すべてのサポートされている形式にアクセス
 
 **Returns:**
 java.util.List<com.aspose.threed.FileFormat> - サポートされているすべての形式へのアクセス
@@ -928,7 +928,7 @@ public String toString()
 ```
 
 
-形式を文字列に変換する
+形式を文字列に変換
 
 **Returns:**
 java.lang.String - オブジェクト文字列

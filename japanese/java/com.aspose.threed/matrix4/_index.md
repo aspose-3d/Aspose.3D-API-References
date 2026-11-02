@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class Matrix4 implements Struct<Matrix4>, Serializable
 ```
 
-4x4 行列の実装。 **Example:**
+4x4 行列の実装。 **例:**
 
 ```
 Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
@@ -31,7 +31,7 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | --- | --- |
 | [Matrix4(Vector4 r0, Vector4 r1, Vector4 r2, Vector4 r3)](#Matrix4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | 4 行から行列を構築します。 |
 | [Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, double m13, double m20, double m21, double m22, double m23, double m30, double m31, double m32, double m33)](#Matrix4-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-) | 新しい [Matrix4](../../com.aspose.threed/matrix4) 構造体のインスタンスを初期化します。 |
-| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | [FMatrix4](../../com.aspose.threed/fmatrix4) インスタンスから [Matrix4](../../com.aspose.threed/matrix4) を構築します |
+| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | [Matrix4](../../com.aspose.threed/matrix4) を [FMatrix4](../../com.aspose.threed/fmatrix4) インスタンスから構築します |
 | [Matrix4(double[] m)](#Matrix4-double---) | 新しい [Matrix4](../../com.aspose.threed/matrix4) 構造体のインスタンスを初期化します。 |
 | [Matrix4()](#Matrix4--) |  |
 ## フィールド
@@ -68,9 +68,9 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | [getIdentity()](#getIdentity--) | 単位行列を取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [inverse()](#inverse--) | このインスタンスの逆行列を取得します。 |
-| [mul(Matrix4 lhs, Matrix4 rhs)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Matrix4-) | 2つの行列を掛け合わせます |
-| [mul(Matrix4 lhs, Vector3 v)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Vector3-) | 行列と vector3 を掛け合わせます |
-| [mul(Matrix4 lhs, Vector4 v)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Vector4-) | 行列と vector4 を掛け合わせます |
+| [mul(Matrix4 lhs, Matrix4 rhs)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Matrix4-) | 2つの行列を乗算します |
+| [mul(Matrix4 lhs, Vector3 v)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Vector3-) | 行列と vector3 を乗算します |
+| [mul(Matrix4 lhs, Vector4 v)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Vector4-) | 行列と vector4 を乗算します |
 | [mul(Matrix4 lhs, double v)](#mul-com.aspose.threed.Matrix4-double-) | 行列と倍精度値を乗算します |
 | [normalize()](#normalize--) | このインスタンスを正規化します。 |
 | [notify()](#notify--) |  |
@@ -79,9 +79,9 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | [rotate(double angle, Vector3 axis)](#rotate-double-com.aspose.threed.Vector3-) | 回転角と軸で回転行列を作成します |
 | [rotateFromEuler(Vector3 eul)](#rotateFromEuler-com.aspose.threed.Vector3-) | オイラー角から回転行列を作成します |
 | [rotateFromEuler(double rx, double ry, double rz)](#rotateFromEuler-double-double-double-) | オイラー角から回転行列を作成します |
-| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | x 軸、y 軸、z 軸に沿ってスケーリングする行列を作成します。 |
-| [scale(double s)](#scale-double-) | x 軸、y 軸、z 軸に沿ってスケーリングする行列を作成します。 |
-| [scale(double sx, double sy, double sz)](#scale-double-double-double-) | x 軸、y 軸、z 軸に沿ってスケーリングする行列を作成します。 |
+| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | x 軸、y 軸、z 軸に沿ってスケールする行列を作成します。 |
+| [scale(double s)](#scale-double-) | x 軸、y 軸、z 軸に沿ってスケールする行列を作成します。 |
+| [scale(double sx, double sy, double sz)](#scale-double-double-double-) | x 軸、y 軸、z 軸に沿ってスケールする行列を作成します。 |
 | [setTRS(Vector3 translation, Vector3 rotation, Vector3 scale)](#setTRS-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 平行移動/回転/スケールで行列を初期化します |
 | [toArray()](#toArray--) | 行列を配列に変換します。 |
 | [toString()](#toString--) | 現在の [Matrix4](../../com.aspose.threed/matrix4) を表す java.lang.String を返します。 |
@@ -118,11 +118,11 @@ public Matrix4(double m00, double m01, double m02, double m03, double m10, doubl
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| m00 | double | M00。 |
-| m01 | double | M01。 |
-| m02 | double | M02。 |
-| m03 | double | M03。 |
-| m10 | double | M10。 |
+| m00 | double | M00. |
+| m01 | double | M01. |
+| m02 | double | M02. |
+| m03 | double | M03. |
+| m10 | double | M10. |
 | m11 | double | M11. |
 | m12 | double | M12. |
 | m13 | double | M13. |
@@ -151,7 +151,7 @@ public Matrix4(FMatrix4 m)
 ```
 
 
-[FMatrix4](../../com.aspose.threed/fmatrix4) インスタンスから [Matrix4](../../com.aspose.threed/matrix4) を構築します
+[Matrix4](../../com.aspose.threed/matrix4) を [FMatrix4](../../com.aspose.threed/fmatrix4) インスタンスから構築します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -362,12 +362,12 @@ public boolean decompose(Vector3 translation, Vector3 scaling, Quaternion rotati
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| translation | [Vector3](../../com.aspose.threed/vector3) | 平行移動。 |
+| translation | [Vector3](../../com.aspose.threed/vector3) | 変換。 |
 | scaling | [Vector3](../../com.aspose.threed/vector3) | スケーリング。 |
 | rotation | [Quaternion](../../com.aspose.threed/quaternion) | 回転。 |
 
 **Returns:**
-boolean - 成功した場合は true。
+boolean - 成功した場合は True。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -445,7 +445,7 @@ public static Matrix4 mul(Matrix4 lhs, Matrix4 rhs)
 ```
 
 
-2つの行列を掛け合わせます
+2つの行列を乗算します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -461,7 +461,7 @@ public static Vector3 mul(Matrix4 lhs, Vector3 v)
 ```
 
 
-行列と vector3 を掛け合わせます
+行列と vector3 を乗算します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -477,7 +477,7 @@ public static Vector4 mul(Matrix4 lhs, Vector4 v)
 ```
 
 
-行列と vector4 を掛け合わせます
+行列と vector4 を乗算します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -540,7 +540,7 @@ public static Matrix4 rotate(Quaternion q)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | q | [Quaternion](../../com.aspose.threed/quaternion) | 回転クォータニオン **例:** 以下のコードは回転操作の行列を作成する方法を示しています。 |
+|  | q | [Quaternion](../../com.aspose.threed/quaternion) | Rotation quaternion **例:** 以下のコードは回転操作の行列を作成する方法を示しています。 |
 
 ```
 var t = Matrix4.rotate(Quaternion.fromAngleAxis(Math.PI, Vector3.getUnitY()));
@@ -562,7 +562,7 @@ public static Matrix4 rotate(double angle, Vector3 axis)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | 角度 | double | ラジアン単位の回転角度 |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | 回転軸 **例:** 以下のコードは回転操作の行列を作成する方法を示しています。 |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | Rotation axis **例:** 以下のコードは回転操作の行列を作成する方法を示しています。 |
 
 ```
 var t = Matrix4.rotate(Math.PI, new Vector3(0, 1, 0));
@@ -583,7 +583,7 @@ public static Matrix4 rotateFromEuler(Vector3 eul)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | eul | [Vector3](../../com.aspose.threed/vector3) | ラジアンでの回転 **例:** 以下のコードは回転操作の行列を作成する方法を示しています。 |
+|  | eul | [Vector3](../../com.aspose.threed/vector3) | Rotation in radian **例:** 以下のコードは回転操作の行列を作成する方法を示しています。 |
 
 ```
 var t = Matrix4.rotateFromEuler(new Vector3(0, Math.PI, 0));
@@ -606,7 +606,7 @@ public static Matrix4 rotateFromEuler(double rx, double ry, double rz)
 | --- | --- | --- |
 | rx | double | x軸の回転（ラジアン） |
 | ry | double | y軸の回転（ラジアン） |
-|  | rz | double | z軸の回転（ラジアン） **例:** 次のコードは回転操作の行列を作成する方法を示しています。 |
+|  | rz | double | z軸の回転（ラジアン） **例:** 以下のコードは回転操作の行列を作成する方法を示しています。 |
 
 ```
 var t = Matrix4.rotateFromEuler(0, Math.PI, 0);
@@ -622,12 +622,12 @@ public static Matrix4 scale(Vector3 s)
 ```
 
 
-x 軸、y 軸、z 軸に沿ってスケーリングする行列を作成します。
+x 軸、y 軸、z 軸に沿ってスケールする行列を作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | s | [Vector3](../../com.aspose.threed/vector3) | スケーリングファクトリはx軸、y軸、z軸に適用されます **例:** 次のコードはスケール操作の行列を作成する方法を示しています。 |
+|  | s | [Vector3](../../com.aspose.threed/vector3) | スケーリングファクトリはx軸、y軸、z軸に適用されます **例:** 以下のコードはスケール操作の行列を作成する方法を示しています。 |
 
 ```
 var t = Matrix4.scale(new Vector3(10, 10, 10));
@@ -643,12 +643,12 @@ public static Matrix4 scale(double s)
 ```
 
 
-x 軸、y 軸、z 軸に沿ってスケーリングする行列を作成します。
+x 軸、y 軸、z 軸に沿ってスケールする行列を作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | s | double | スケーリングファクトリはすべての軸に適用されます **例:** 次のコードはスケール操作の行列を作成する方法を示しています。 |
+|  | s | double | スケーリングファクトリはすべての軸に適用されます **例:** 以下のコードはスケール操作の行列を作成する方法を示しています。 |
 
 ```
 var t = Matrix4.scale(10);
@@ -664,14 +664,14 @@ public static Matrix4 scale(double sx, double sy, double sz)
 ```
 
 
-x 軸、y 軸、z 軸に沿ってスケーリングする行列を作成します。
+x 軸、y 軸、z 軸に沿ってスケールする行列を作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | sx | double | スケーリングファクトリはx軸に適用されます |
 | sy | double | スケーリングファクトリはy軸に適用されます |
-|  | sz | double | スケーリングファクトリはz軸に適用されます **例:** 次のコードはスケール操作の行列を作成する方法を示しています。 |
+|  | sz | double | スケーリングファクトリはz軸に適用されます **例:** 以下のコードはスケール操作の行列を作成する方法を示しています。 |
 
 ```
 var t = Matrix4.scale(10, 20, 10);
@@ -727,7 +727,7 @@ x 軸、y 軸、z 軸に沿って平行移動する行列を作成します
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | t | [Vector3](../../com.aspose.threed/vector3) | 平行移動オフセット **例:** 次のコードは平行移動操作の行列を作成する方法を示しています。 |
+|  | t | [Vector3](../../com.aspose.threed/vector3) | 平行移動オフセット **例:** 以下のコードは平行移動操作の行列を作成する方法を示しています。 |
 
 ```
 Matrix4 t = Matrix4.translate(new Vector3(10, 0, 0));
@@ -750,7 +750,7 @@ x 軸、y 軸、z 軸に沿って平行移動する行列を作成します
 | --- | --- | --- |
 | tx | double | X座標オフセット |
 | ty | double | Y座標オフセット |
-|  | tz | double | Z座標オフセット **Example:** 次のコードは、平行移動操作のための行列を作成する方法を示しています。 |
+|  | tz | double | Z座標オフセット **Example:** 次のコードは、平行移動操作の行列を作成する方法を示しています。 |
 
 ```
 var t = Matrix4.translate(10, 0, 0);

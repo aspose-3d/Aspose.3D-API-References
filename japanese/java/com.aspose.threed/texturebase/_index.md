@@ -1,7 +1,7 @@
 ---
 title: "TextureBase"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "すべての具体的なテクスチャの基底クラスです。"
+description: "すべての具体的なテクスチャの基底クラス。"
 type: docs
 weight: 185
 url: /ja/java/com.aspose.threed/texturebase/
@@ -25,16 +25,16 @@ public class TextureBase extends A3DObject
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [getAlpha()](#getAlpha--) | テクスチャのデフォルトアルファ値を取得します。この値は、[getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。 |
+| [getAlpha()](#getAlpha--) | テクスチャのデフォルトアルファ値を取得します。これは、[getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。 |
 | [getAlphaSource()](#getAlphaSource--) | テクスチャがアルファチャンネルを定義しているかどうかを取得します。 |
 | [getClass()](#getClass--) |  |
 | [getMagFilter()](#getMagFilter--) | 拡大時のフィルタを取得します。 |
 | [getMinFilter()](#getMinFilter--) | 縮小時のフィルタを取得します。 |
-| [getMipFilter()](#getMipFilter--) | ミップレベルサンプリングのフィルタを取得します。 |
+| [getMipFilter()](#getMipFilter--) | ミップレベルのサンプリング用フィルタを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
-| [getUVRotation()](#getUVRotation--) | テクスチャの回転を取得します |
+| [getUVRotation()](#getUVRotation--) | テクスチャの回転を取得します。 |
 | [getUVScale()](#getUVScale--) | UV スケールを取得します。 |
 | [getUVTranslation()](#getUVTranslation--) | UV 平行移動を取得します。 |
 | [getWrapModeU()](#getWrapModeU--) | U 方向のテクスチャラップモードを取得します。 |
@@ -44,18 +44,18 @@ public class TextureBase extends A3DObject
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setAlpha(double value)](#setAlpha-double-) | テクスチャのデフォルトアルファ値を設定します。この値は、[getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。 |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setAlpha(double value)](#setAlpha-double-) | テクスチャのデフォルトアルファ値を設定します。これは、[getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。 |
 | [setAlphaSource(AlphaSource value)](#setAlphaSource-com.aspose.threed.AlphaSource-) | テクスチャがアルファチャンネルを定義しているかどうかを設定します。 |
 | [setMagFilter(TextureFilter value)](#setMagFilter-com.aspose.threed.TextureFilter-) | 拡大時のフィルタを設定します。 |
 | [setMinFilter(TextureFilter value)](#setMinFilter-com.aspose.threed.TextureFilter-) | 縮小時のフィルタを設定します。 |
-| [setMipFilter(TextureFilter value)](#setMipFilter-com.aspose.threed.TextureFilter-) | ミップレベル サンプリングのフィルタを設定します。 |
+| [setMipFilter(TextureFilter value)](#setMipFilter-com.aspose.threed.TextureFilter-) | ミップレベルのサンプリング用フィルタを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [setRotation(double u, double v)](#setRotation-double-double-) | UV の回転を設定します。 |
 | [setScale(double u, double v)](#setScale-double-double-) | UV のスケールを設定します。 |
 | [setTranslation(double u, double v)](#setTranslation-double-double-) | UV の平行移動を設定します。 |
-| [setUVRotation(Vector3 value)](#setUVRotation-com.aspose.threed.Vector3-) | テクスチャの回転を設定します。 |
+| [setUVRotation(Vector3 value)](#setUVRotation-com.aspose.threed.Vector3-) | テクスチャの回転を設定します |
 | [setUVScale(Vector2 value)](#setUVScale-com.aspose.threed.Vector2-) | UV のスケールを設定します。 |
 | [setUVTranslation(Vector2 value)](#setUVTranslation-com.aspose.threed.Vector2-) | UV の平行移動を設定します。 |
 | [setWrapModeU(WrapMode value)](#setWrapModeU-com.aspose.threed.WrapMode-) | U 方向のテクスチャ ラップ モードを設定します。 |
@@ -99,7 +99,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -114,17 +114,17 @@ public double getAlpha()
 ```
 
 
-テクスチャのデフォルトアルファ値を取得します。この値は、[getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。
+テクスチャのデフォルトアルファ値を取得します。これは、[getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。
 
 **Returns:**
-double - テクスチャのデフォルトアルファ値です。この値は [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。
+double - テクスチャのデフォルトアルファ値です。この値は [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です
 ### getAlphaSource() {#getAlphaSource--}
 ```
 public AlphaSource getAlphaSource()
 ```
 
 
-テクスチャがアルファ チャネルを定義しているかどうかを取得します。デフォルト値は [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE) です。
+テクスチャがアルファチャンネルを定義しているかどうかを取得します。デフォルト値は [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE) です
 
 **Returns:**
 [AlphaSource](../../com.aspose.threed/alphasource) - whether the texture defines the alpha channel. Default value is [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE)
@@ -164,7 +164,7 @@ public TextureFilter getMipFilter()
 ```
 
 
-ミップレベルサンプリングのフィルタを取得します。
+ミップレベルのサンプリング用フィルタを取得します。
 
 **Returns:**
 [TextureFilter](../../com.aspose.threed/texturefilter) - the filter for mip-level sampling.
@@ -177,7 +177,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -209,7 +209,7 @@ public Vector3 getUVRotation()
 ```
 
 
-テクスチャの回転を取得します
+テクスチャの回転を取得します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation of the texture
@@ -300,7 +300,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -310,12 +310,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -325,7 +325,7 @@ public void setAlpha(double value)
 ```
 
 
-テクスチャのデフォルトアルファ値を設定します。この値は、[getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。
+テクスチャのデフォルトアルファ値を設定します。これは、[getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) が [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) の場合に有効です。デフォルト値は 1.0 で、有効な範囲は 0 から 1 です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -338,7 +338,7 @@ public void setAlphaSource(AlphaSource value)
 ```
 
 
-テクスチャがアルファ チャネルを定義するかどうかを設定します。デフォルト値は [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE) です。
+テクスチャがアルファチャンネルを定義するかどうかを設定します。デフォルト値は [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE) です
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -377,7 +377,7 @@ public void setMipFilter(TextureFilter value)
 ```
 
 
-ミップレベル サンプリングのフィルタを設定します。
+ミップレベルのサンプリング用フィルタを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -422,7 +422,7 @@ UV の回転を設定します。
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| u | double | U。 |
+| u | double | U. |
 | v | double | V. |
 
 ### setScale(double u, double v) {#setScale-double-double-}
@@ -436,7 +436,7 @@ UV のスケールを設定します。
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| u | double | U。 |
+| u | double | U. |
 | v | double | V. |
 
 ### setTranslation(double u, double v) {#setTranslation-double-double-}
@@ -450,7 +450,7 @@ UV の平行移動を設定します。
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| u | double | U。 |
+| u | double | U. |
 | v | double | V. |
 
 ### setUVRotation(Vector3 value) {#setUVRotation-com.aspose.threed.Vector3-}
@@ -459,7 +459,7 @@ public void setUVRotation(Vector3 value)
 ```
 
 
-テクスチャの回転を設定します。
+テクスチャの回転を設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

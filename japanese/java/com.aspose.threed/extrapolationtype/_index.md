@@ -20,7 +20,7 @@ public enum ExtrapolationType extends Enum<ExtrapolationType>
 | --- | --- |
 | [CONSTANT](#CONSTANT) | 値は前回の値と同じまま保持されます |
 | [CYCLE](#CYCLE) | 繰り返し。 |
-| [CYCLE_RELATIVE](#CYCLE-RELATIVE) | 前のパターンを前回の値に基づいて繰り返します |
+| [CYCLE_RELATIVE](#CYCLE-RELATIVE) | 前回の値に基づいて前のパターンを繰り返します |
 | [GRADIENT](#GRADIENT) | 値は時間に対して同じ傾きを保ちます |
 | [OSCILLATE](#OSCILLATE) | 鏡像の繰り返し。 |
 ## メソッド
@@ -66,7 +66,7 @@ public static final ExtrapolationType CYCLE_RELATIVE
 ```
 
 
-前のパターンを前回の値に基づいて繰り返します
+前回の値に基づいて前のパターンを繰り返します
 
 ### GRADIENT {#GRADIENT}
 ```

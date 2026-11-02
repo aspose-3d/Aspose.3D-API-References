@@ -1,7 +1,7 @@
 ---
 title: "DriverException"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "内部レンダリングドライバーによって発生する例外。"
+description: "内部レンダリングドライバーによって発生する例外です。"
 type: docs
 weight: 48
 url: /ja/java/com.aspose.threed/driverexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 public class DriverException extends Exception
 ```
 
-内部レンダリングドライバーによって発生する例外。
+内部レンダリングドライバーによって発生する例外です。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -56,8 +56,8 @@ public DriverException(int code, String message)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| code | int |  |
-| message | java.lang.String |  |
+| コード | int |  |
+| メッセージ | java.lang.String |  |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

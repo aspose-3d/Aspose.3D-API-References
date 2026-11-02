@@ -1,7 +1,7 @@
 ---
 title: "CurveDimension"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "曲線の次元"
+description: "曲線の次元です。"
 type: docs
 weight: 275
 url: /ja/java/com.aspose.threed/curvedimension/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CurveDimension extends Enum<CurveDimension>
 ```
 
-曲線の次元
+曲線の次元です。
 ## フィールド
 
 | フィールド | 説明 |

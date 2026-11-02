@@ -8,7 +8,7 @@ url: /ja/java/com.aspose.threed/html5saveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)、[com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
+java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig), [com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
 ```
 public class Html5SaveOptions extends SaveOptions
 ```
@@ -18,7 +18,7 @@ HTML5 用の保存オプション
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [Html5SaveOptions()](#Html5SaveOptions--) | すべてのデフォルト設定を持つ [Html5SaveOptions](../../com.aspose.threed/html5saveoptions) のコンストラクタです。 |
+| [Html5SaveOptions()](#Html5SaveOptions--) | [Html5SaveOptions](../../com.aspose.threed/html5saveoptions) のコンストラクタ（すべてデフォルト設定）。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -29,15 +29,15 @@ HTML5 用の保存オプション
 | [getEncoding()](#getEncoding--) | テキストベースのファイルのデフォルトエンコーディングを取得します。 |
 | [getExportTextures()](#getExportTextures--) | シーンで使用されているテクスチャを出力ディレクトリにコピーしようとします。 |
 | [getFarPlane()](#getFarPlane--) | カメラの遠平面を取得します。デフォルト値は 1000 です。 |
-| [getFieldOfView()](#getFieldOfView--) | ビューの視野角を取得します。デフォルト値は 45 で、単位は度です。 |
+| [getFieldOfView()](#getFieldOfView--) | ビューの視野角を取得します。デフォルト値は 45 度です。 |
 | [getFileFormat()](#getFileFormat--) | 現在の保存/読み込みオプションで指定されたファイル形式を取得します。 |
 | [getFileName()](#getFileName--) | エクスポート/インポートシーンのファイル名。 |
 | [getFileSystem()](#getFileSystem--) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem のファクトリークラスを取得します。 |
 | [getLookAt()](#getLookAt--) | デフォルトの注視点位置を取得します。デフォルト値は (0, 0, 0) です。 |
-| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [getNearPlane()](#getNearPlane--) | カメラの近平面を取得します。デフォルト値は 1 です。 |
-| [getOrientationBox()](#getOrientationBox--) | オリエンテーションボックスを表示します。 |
+| [getOrientationBox()](#getOrientationBox--) | 向きボックスを表示します。 |
 | [getShowGrid()](#getShowGrid--) | シーンにグリッドを表示します。 |
 | [getShowRulers()](#getShowRulers--) | シーン内でモデルを測定するために x/y/z 軸の定規を表示します。 |
 | [getShowUI()](#getShowUI--) | シーンにシンプルな UI を表示します。 |
@@ -49,14 +49,14 @@ HTML5 用の保存オプション
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | テキストベースのファイルのデフォルトエンコーディングを設定します。 |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | シーンで使用されているテクスチャを出力ディレクトリにコピーしようとします。 |
 | [setFarPlane(double value)](#setFarPlane-double-) | カメラの遠平面を設定します。デフォルト値は 1000 です。 |
-| [setFieldOfView(double value)](#setFieldOfView-double-) | ビューの視野角を設定します。デフォルト値は 45 で、単位は度です。 |
+| [setFieldOfView(double value)](#setFieldOfView-double-) | 視野角を設定します。デフォルト値は 45 度です。 |
 | [setFileName(String value)](#setFileName-java.lang.String-) | エクスポート/インポートシーンのファイル名。 |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem のファクトリークラスを設定します。 |
-| [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | デフォルトの注視点位置を設定します。デフォルト値は (0, 0, 0) です。 |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
+| [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | デフォルトの注視位置を設定します。デフォルト値は (0, 0, 0) です。 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
 | [setNearPlane(double value)](#setNearPlane-double-) | カメラの近平面を設定します。デフォルト値は 1 です。 |
-| [setOrientationBox(boolean value)](#setOrientationBox-boolean-) | オリエンテーションボックスを表示します。 |
+| [setOrientationBox(boolean value)](#setOrientationBox-boolean-) | 向きボックスを表示します。 |
 | [setShowGrid(boolean value)](#setShowGrid-boolean-) | シーンにグリッドを表示します。 |
 | [setShowRulers(boolean value)](#setShowRulers-boolean-) | シーン内でモデルを測定するために x/y/z 軸の定規を表示します。 |
 | [setShowUI(boolean value)](#setShowUI-boolean-) | シーンにシンプルな UI を表示します。 |
@@ -71,7 +71,7 @@ public Html5SaveOptions()
 ```
 
 
-すべてのデフォルト設定を持つ [Html5SaveOptions](../../com.aspose.threed/html5saveoptions) のコンストラクタです。
+[Html5SaveOptions](../../com.aspose.threed/html5saveoptions) のコンストラクタ（すべてデフォルト設定）。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -144,10 +144,10 @@ public double getFieldOfView()
 ```
 
 
-ビューの視野角を取得します。デフォルト値は 45 で、単位は度です。
+ビューの視野角を取得します。デフォルト値は 45 度です。
 
 **Returns:**
-double - ビューの視野角、デフォルト値は 45 で、単位は度です。
+double - 視野角、デフォルト値は 45 度です。
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
@@ -164,10 +164,10 @@ public String getFileName()
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Returns:**
-java.lang.String - エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+java.lang.String - エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -208,7 +208,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem のファクトリークラスを取得します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを取得します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -247,10 +247,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします
+java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています
 
 ```
 var opt = new ObjLoadOptions();
@@ -295,10 +295,10 @@ public boolean getShowRulers()
 ```
 
 
-シーンで x/y/z 軸の定規を表示してモデルを測定します。デフォルト値は false です。
+シーン内でモデルを測定するために x/y/z 軸の定規を表示します。デフォルト値は false です。
 
 **Returns:**
-boolean - シーンで x/y/z 軸の定規を表示してモデルを測定します。デフォルト値は false です。
+boolean - シーン内でモデルを測定するために x/y/z 軸の定規を表示します。デフォルト値は false です。
 ### getShowUI() {#getShowUI--}
 ```
 public boolean getShowUI()
@@ -364,7 +364,7 @@ public void setEncoding(Charset value)
 ```
 
 
-テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定することを意味します。
+テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -403,7 +403,7 @@ public void setFieldOfView(double value)
 ```
 
 
-ビューの視野角を設定します。デフォルト値は 45 で、単位は度です。
+視野角を設定します。デフォルト値は 45 度です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -416,7 +416,7 @@ public void setFileName(String value)
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -434,7 +434,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **Example:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は次のようなさまざまな FileSystem 実装を提供します： |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **例:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は以下のようなさまざまな FileSystem 実装を提供しています： |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -466,12 +466,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem のファクトリークラスを設定します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを設定します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **Example:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **例:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -498,7 +498,7 @@ public void setLookAt(Vector3 value)
 ```
 
 
-デフォルトの注視点位置を設定します。デフォルト値は (0, 0, 0) です。
+デフォルトの注視位置を設定します。デフォルト値は (0, 0, 0) です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -511,12 +511,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします |
+|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています |
 
 ```
 var opt = new ObjLoadOptions();
@@ -571,7 +571,7 @@ public void setShowRulers(boolean value)
 ```
 
 
-シーンで x/y/z 軸の定規を表示してモデルを測定します。デフォルト値は false です。
+シーン内でモデルを測定するために x/y/z 軸の定規を表示します。デフォルト値は false です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

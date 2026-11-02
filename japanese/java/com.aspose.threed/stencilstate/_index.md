@@ -1,7 +1,7 @@
 ---
 title: "StencilState"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "面ごとのステンシルステート。"
+description: "面ごとのステンシル状態。"
 type: docs
 weight: 175
 url: /ja/java/com.aspose.threed/stencilstate/
@@ -13,7 +13,7 @@ java.lang.Object
 public class StencilState
 ```
 
-面ごとのステンシルステート。
+面ごとのステンシル状態。
 ## メソッド
 
 | メソッド | 説明 |

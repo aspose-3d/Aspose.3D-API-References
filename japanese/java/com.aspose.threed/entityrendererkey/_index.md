@@ -28,7 +28,7 @@ public final class EntityRendererKey
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | [EntityRendererKey](../../com.aspose.threed/entityrendererkey) の文字列表現を取得します |
+| [toString()](#toString--) | [EntityRendererKey](../../com.aspose.threed/entityrendererkey) の文字列表現を取得します。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -102,7 +102,7 @@ public String toString()
 ```
 
 
-[EntityRendererKey](../../com.aspose.threed/entityrendererkey) の文字列表現を取得します
+[EntityRendererKey](../../com.aspose.threed/entityrendererkey) の文字列表現を取得します。
 
 **Returns:**
 java.lang.String

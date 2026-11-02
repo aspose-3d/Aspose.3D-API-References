@@ -1,7 +1,7 @@
 ---
 title: "AnimationChannel"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "チャネルはプロパティのコンポーネントフィールドをキーフレームシーケンスの集合にマッピングします。"
+description: "チャネルはプロパティのコンポーネントフィールドをキーフレームシーケンスのセットにマッピングします。"
 type: docs
 weight: 13
 url: /ja/java/com.aspose.threed/animationchannel/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationChannel extends KeyframeSequence
 ```
 
-チャネルはプロパティのコンポーネントフィールドをキーフレームシーケンスの集合にマッピングします。
+チャンネルはプロパティのコンポーネントフィールドをキー フレーム シーケンスのセットにマッピングします
 ## メソッド
 
 | メソッド | 説明 |
@@ -24,13 +24,13 @@ public class AnimationChannel extends KeyframeSequence
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBindPoint()](#getBindPoint--) | この曲線を所有するプロパティ バインド ポイントを取得します |
 | [getClass()](#getClass--) |  |
-| [getComponentType()](#getComponentType--) | コンポーネントフィールドの型を取得します。 |
-| [getDefaultValue()](#getDefaultValue--) | チャネルの Default 値を取得します。 |
+| [getComponentType()](#getComponentType--) | コンポーネントフィールドの型を取得します |
+| [getDefaultValue()](#getDefaultValue--) | チャネルのデフォルト値を取得します。 |
 | [getKeyFrames()](#getKeyFrames--) | この曲線のキー フレームを取得します。 |
-| [getKeyframeSequence()](#getKeyframeSequence--) | このチャネル内の関連キーフレームシーケンスを取得します。 |
+| [getKeyframeSequence()](#getKeyframeSequence--) | このチャネル内の関連キーフレームシーケンスを取得します |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getPostBehavior()](#getPostBehavior--) | 最後のキー フレームの後にサンプリングされた値がどうなるかを示すポスト ビヘイビアを取得します。 |
-| [getPreBehavior()](#getPreBehavior--) | 最初のキーの前にサンプリングされた値がどうなるかを示すプリ ビヘイビアを取得します。 |
+| [getPostBehavior()](#getPostBehavior--) | ポスト ビヘイビアを取得します。これは、最後のキー フレームの後にサンプリングされた値がどうあるべきかを示します。 |
+| [getPreBehavior()](#getPreBehavior--) | プリ ビヘイビアを取得します。これは、最初のキーの前にサンプリングされた値がどうあるべきかを示します。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [hashCode()](#hashCode--) |  |
@@ -38,10 +38,10 @@ public class AnimationChannel extends KeyframeSequence
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [reset()](#reset--) | すべてのキー フレームを削除し、ポスト/プリ ビヘイビアをリセットします。 |
-| [setDefaultValue(Object value)](#setDefaultValue-java.lang.Object-) | チャネルの Default 値を設定します。 |
-| [setKeyframeSequence(KeyframeSequence value)](#setKeyframeSequence-com.aspose.threed.KeyframeSequence-) | このチャネル内の関連キーフレームシーケンスを取得します。 |
+| [setDefaultValue(Object value)](#setDefaultValue-java.lang.Object-) | チャネルのデフォルト値を設定します。 |
+| [setKeyframeSequence(KeyframeSequence value)](#setKeyframeSequence-com.aspose.threed.KeyframeSequence-) | このチャネル内の関連キーフレームシーケンスを取得します |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [toString()](#toString--) |  |
@@ -59,7 +59,7 @@ public void add(double time, float value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 時間 | double | 時間位置（秒で測定） |
+| 時間 | double | 時間位置（秒単位で測定） |
 | 値 | float | この時間位置の値 |
 
 ### add(double time, float value, Interpolation interpolation) {#add-double-float-com.aspose.threed.Interpolation-}
@@ -73,7 +73,7 @@ public void add(double time, float value, Interpolation interpolation)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| 時間 | double | 時間位置（秒で測定） |
+| 時間 | double | 時間位置（秒単位で測定） |
 | 値 | float | この時間位置の値 |
 | interpolation | [Interpolation](../../com.aspose.threed/interpolation) | このキー フレームの補間タイプ |
 
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -133,7 +133,7 @@ public Class<?> getComponentType()
 ```
 
 
-コンポーネントフィールドの型を取得します。
+コンポーネントフィールドの型を取得します
 
 **Returns:**
 java.lang.Class<?> - コンポーネントフィールドの型
@@ -143,10 +143,10 @@ public Object getDefaultValue()
 ```
 
 
-チャネルの Default 値を取得します。チャネルに接続されたキーフレームシーケンスがない場合、アニメーション評価時にデフォルト値が使用されます。実際のシナリオ: アニメーションがノードの x 座標のみをアニメートし、y と z が変更されない場合、完全な平行移動評価時にデフォルト値が使用されます。
+チャネルのデフォルト値を取得します。チャネルにキーフレームシーケンスが接続されていない場合、アニメーション評価時にデフォルト値が使用されます。実際のシナリオ: アニメーションがノードの x 座標のみをアニメーションし、y と z が変更されない場合、完全な変換評価時にデフォルト値が使用されます。
 
 **Returns:**
-java.lang.Object - チャネルの Default 値。チャネルにキーフレームシーケンスが接続されていない場合、アニメーション評価時にデフォルト値が使用されます。実際のシナリオ: アニメーションがノードの x 座標のみをアニメートし、y と z が変更されない場合、完全な平行移動評価時にデフォルト値が使用されます。
+java.lang.Object - チャネルのデフォルト値。チャネルにキーフレームシーケンスが接続されていない場合、アニメーション評価時にデフォルト値が使用されます。実際のシナリオ: アニメーションがノードの x 座標のみをアニメーションし、y と z が変更されない場合、完全な変換評価時にデフォルト値が使用されます。
 ### getKeyFrames() {#getKeyFrames--}
 ```
 public List<KeyFrame> getKeyFrames()
@@ -163,7 +163,7 @@ public KeyframeSequence getKeyframeSequence()
 ```
 
 
-このチャネル内の関連キーフレームシーケンスを取得します。
+このチャネル内の関連キーフレームシーケンスを取得します
 
 **Returns:**
 [KeyframeSequence](../../com.aspose.threed/keyframesequence) - associated keyframe sequence inside this channel
@@ -176,14 +176,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getPostBehavior() {#getPostBehavior--}
 ```
 public Extrapolation getPostBehavior()
 ```
 
 
-最後のキー フレームの後にサンプリングされた値がどうなるかを示すポスト ビヘイビアを取得します。
+ポスト ビヘイビアを取得します。これは、最後のキー フレームの後にサンプリングされた値がどうあるべきかを示します。
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the post behavior indicates what the sampled value should be after the last key frame.
@@ -193,7 +193,7 @@ public Extrapolation getPreBehavior()
 ```
 
 
-最初のキーの前にサンプリングされた値がどうなるかを示すプリ ビヘイビアを取得します。
+プリ ビヘイビアを取得します。これは、最初のキーの前にサンプリングされた値がどうあるべきかを示します。
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the pre behavior indicates what the sampled value should be before the first key.
@@ -269,7 +269,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -279,12 +279,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -302,7 +302,7 @@ public void setDefaultValue(Object value)
 ```
 
 
-チャネルの Default 値を設定します。チャネルにキーフレームシーケンスが接続されていない場合、アニメーション評価時にデフォルト値が使用されます。実際のシナリオ: アニメーションがノードの x 座標のみをアニメートし、y と z が変更されない場合、完全な平行移動評価時にデフォルト値が使用されます。
+チャネルのデフォルト値を設定します。チャネルにキーフレームシーケンスが接続されていない場合、アニメーション評価時にデフォルト値が使用されます。実際のシナリオ: アニメーションがノードの x 座標のみをアニメーションし、y と z が変更されない場合、完全な変換評価時にデフォルト値が使用されます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -315,7 +315,7 @@ public void setKeyframeSequence(KeyframeSequence value)
 ```
 
 
-このチャネル内の関連キーフレームシーケンスを取得します。
+このチャネル内の関連キーフレームシーケンスを取得します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

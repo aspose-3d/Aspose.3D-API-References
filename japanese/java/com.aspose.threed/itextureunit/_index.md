@@ -1,7 +1,7 @@
 ---
 title: "ITextureUnit"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "GPU と CPU の間で共有され、シェーダーによってサンプリング可能なメモリ内のテクスチャを表します。ここで、  は外部ファイルへの参照のみを表します。"
+description: "GPU と CPU の間で共有され、シェーダーでサンプリングできるメモリ内のテクスチャを表します。ここで、  は外部ファイルへの参照のみを表します。"
 type: docs
 weight: 258
 url: /ja/java/com.aspose.threed/itextureunit/
@@ -18,7 +18,7 @@ public interface ITextureUnit extends Closeable
 
 | メソッド | 説明 |
 | --- | --- |
-| [getDepth()](#getDepth--) | このテクスチャの高さを取得します。3D でないテクスチャの場合は常に 1 です。 |
+| [getDepth()](#getDepth--) | このテクスチャの高さを取得します。3D でないテクスチャの場合、常に 1 です。 |
 | [getHeight()](#getHeight--) | このテクスチャの高さを取得します。 |
 | [getMagnification()](#getMagnification--) | 拡大時のフィルターモードを取得します。 |
 | [getMinification()](#getMinification--) | 縮小時のフィルターモードを取得します。 |
@@ -44,10 +44,10 @@ public abstract int getDepth()
 ```
 
 
-このテクスチャの高さを取得します。3D でないテクスチャの場合は常に 1 です。
+このテクスチャの高さを取得します。3D でないテクスチャの場合、常に 1 です。
 
 **Returns:**
-int - このテクスチャの高さ。3D でないテクスチャの場合は常に 1 です。
+int - このテクスチャの高さ。3D でないテクスチャの場合、常に 1 です。
 ### getHeight() {#getHeight--}
 ```
 public abstract int getHeight()

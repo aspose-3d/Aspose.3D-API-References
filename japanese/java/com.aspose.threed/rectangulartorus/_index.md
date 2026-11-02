@@ -1,7 +1,7 @@
 ---
 title: "RectangularTorus"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "パラメータ化された矩形トーラスです。"
+description: "パラメータ化された長方形トーラスです。"
 type: docs
 weight: 146
 url: /ja/java/com.aspose.threed/rectangulartorus/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class RectangularTorus extends Primitive
 ```
 
-パラメータ化された矩形トーラスです。
+パラメータ化された長方形トーラスです。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -27,39 +27,39 @@ public class RectangularTorus extends Primitive
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getAngleStart()](#getAngleStart--) | 弧の開始角度（ラジアンで測定）。 |
-| [getArc()](#getArc--) | 弧の総角度（ラジアンで測定）。 |
+| [getArc()](#getArc--) | 弧の全角度（ラジアンで測定）。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します |
+| [getCastShadows()](#getCastShadows--) | このジオメトリが影を落とすかどうかを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
-| [getHeight()](#getHeight--) | 矩形トーラスの高さ。 |
-| [getInnerRadius()](#getInnerRadius--) | 矩形トーラスの内側半径（デフォルト値は 17）。 |
+| [getHeight()](#getHeight--) | 長方形トーラスの高さです。 |
+| [getInnerRadius()](#getInnerRadius--) | 長方形トーラスの内半径（デフォルト値は 17）です。 |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getOuterRadius()](#getOuterRadius--) | 矩形トーラスの外側半径（デフォルト値は 20）。 |
+| [getOuterRadius()](#getOuterRadius--) | 長方形トーラスの外半径（デフォルト値は 20）です。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [getParentNodes()](#getParentNodes--) | すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
-| [getRadialSegments()](#getRadialSegments--) | 放射状セグメント（デフォルト値は 10）。 |
+| [getRadialSegments()](#getRadialSegments--) | 放射状セグメント（デフォルト値は 10）です。 |
 | [getReceiveShadows()](#getReceiveShadows--) | このジオメトリが影を受け取るかどうかを取得します。 |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setAngleStart(double value)](#setAngleStart-double-) | 弧の開始角度（ラジアンで測定）。 |
-| [setArc(double value)](#setArc-double-) | 弧の総角度（ラジアンで測定）。 |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します |
+| [setArc(double value)](#setArc-double-) | 弧の全角度（ラジアンで測定）。 |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | このジオメトリが影を落とすかどうかを設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
-| [setHeight(double value)](#setHeight-double-) | 矩形トーラスの高さ。 |
-| [setInnerRadius(double value)](#setInnerRadius-double-) | 矩形トーラスの内側半径（デフォルト値は 17）。 |
+| [setHeight(double value)](#setHeight-double-) | 長方形トーラスの高さです。 |
+| [setInnerRadius(double value)](#setInnerRadius-double-) | 長方形トーラスの内半径（デフォルト値は 17）です。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
-| [setOuterRadius(double value)](#setOuterRadius-double-) | 矩形トーラスの外側半径（デフォルト値は 20）。 |
+| [setOuterRadius(double value)](#setOuterRadius-double-) | 長方形トーラスの外半径（デフォルト値は 20）です。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setRadialSegments(int value)](#setRadialSegments-int-) | 放射状セグメント（デフォルト値は 10）。 |
+| [setRadialSegments(int value)](#setRadialSegments-int-) | 放射状セグメント（デフォルト値は 10）です。 |
 | [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | このジオメトリが影を受け取るかどうかを設定します。 |
 | [toMesh()](#toMesh--) | このプリミティブを [Mesh](../../com.aspose.threed/mesh) に変換します。 |
 | [toString()](#toString--) |  |
@@ -108,7 +108,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -123,7 +123,7 @@ public double getAngleStart()
 ```
 
 
-弧の開始角度（ラジアンで測定）。デフォルト値は 0。
+弧の開始角度（ラジアンで測定）。デフォルト値は 0 です。
 
 **Returns:**
 double - 弧の開始角度（ラジアンで測定）。デフォルト値は 0 です。
@@ -133,10 +133,10 @@ public double getArc()
 ```
 
 
-弧の総角度（ラジアンで測定）。デフォルト値は PI です。
+弧の合計角度（ラジアンで測定）。デフォルト値は PI です。
 
 **Returns:**
-double - 弧の総角度（ラジアンで測定）。デフォルト値は PI です。
+double - 弧の合計角度（ラジアンで測定）。デフォルト値は PI です。
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
@@ -160,7 +160,7 @@ public boolean getCastShadows()
 ```
 
 
-このジオメトリが影を落とすかどうかを取得します
+このジオメトリが影を落とすかどうかを取得します。
 
 **Returns:**
 boolean - このジオメトリが影を落とすかどうか
@@ -180,7 +180,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -210,7 +210,7 @@ public double getInnerRadius()
 ```
 
 
-矩形トーラスの内側半径（デフォルト値は 17）。
+長方形トーラスの内半径（デフォルト値は 17）です。
 
 **Returns:**
 double - 矩形トーラスの内半径。デフォルト値は 17 です。
@@ -223,14 +223,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getOuterRadius() {#getOuterRadius--}
 ```
 public double getOuterRadius()
 ```
 
 
-矩形トーラスの外側半径（デフォルト値は 20）。
+長方形トーラスの外半径（デフォルト値は 20）です。
 
 **Returns:**
 double - 矩形トーラスの外半径。デフォルト値は 20 です。
@@ -253,7 +253,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -285,7 +285,7 @@ public int getRadialSegments()
 ```
 
 
-放射状セグメント（デフォルト値は 10）。
+放射状セグメント（デフォルト値は 10）です。
 
 **Returns:**
 int - 放射状セグメント数。デフォルト値は 10 です。
@@ -346,7 +346,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -356,12 +356,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -371,7 +371,7 @@ public void setAngleStart(double value)
 ```
 
 
-弧の開始角度（ラジアンで測定）。デフォルト値は 0。
+弧の開始角度（ラジアンで測定）。デフォルト値は 0 です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -384,7 +384,7 @@ public void setArc(double value)
 ```
 
 
-弧の総角度（ラジアンで測定）。デフォルト値は PI です。
+弧の合計角度（ラジアンで測定）。デフォルト値は PI です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -397,7 +397,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-このジオメトリが影を落とすかどうかを設定します
+このジオメトリが影を落とすかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -436,7 +436,7 @@ public void setInnerRadius(double value)
 ```
 
 
-矩形トーラスの内側半径（デフォルト値は 17）。
+長方形トーラスの内半径（デフォルト値は 17）です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -462,7 +462,7 @@ public void setOuterRadius(double value)
 ```
 
 
-矩形トーラスの外側半径（デフォルト値は 20）。
+長方形トーラスの外半径（デフォルト値は 20）です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -502,7 +502,7 @@ public void setRadialSegments(int value)
 ```
 
 
-放射状セグメント（デフォルト値は 10）。
+放射状セグメント（デフォルト値は 10）です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

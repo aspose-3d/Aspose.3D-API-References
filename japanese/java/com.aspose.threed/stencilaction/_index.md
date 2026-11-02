@@ -24,8 +24,8 @@ public enum StencilAction extends Enum<StencilAction>
 | [INCREMENT_WRAP](#INCREMENT-WRAP) | 現在のステンシルバッファ値をインクリメントし、最大値に達したときゼロにラップします。 |
 | [INVERT](#INVERT) | 現在のステンシルバッファ値をビット単位で反転します。 |
 | [KEEP](#KEEP) | 現在の値を保持します |
-| [REPLACE](#REPLACE) | ステンシルバッファを [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) で定義された ref に設定します。 |
-| [ZERO](#ZERO) | ステンシルバッファの値を 0 に設定します |
+| [REPLACE](#REPLACE) | ステンシルバッファを [RenderState.getStencilReference](../../com.aspose.threed/renderstate\\#getStencilReference) で定義された ref に設定します。 |
+| [ZERO](#ZERO) | ステンシルバッファの値を0に設定します |
 ## メソッド
 
 | メソッド | 説明 |
@@ -101,7 +101,7 @@ public static final StencilAction REPLACE
 ```
 
 
-ステンシルバッファを [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) で定義された ref に設定します。
+ステンシルバッファを [RenderState.getStencilReference](../../com.aspose.threed/renderstate\\#getStencilReference) で定義された ref に設定します。
 
 ### ZERO {#ZERO}
 ```
@@ -109,7 +109,7 @@ public static final StencilAction ZERO
 ```
 
 
-ステンシルバッファの値を 0 に設定します
+ステンシルバッファの値を0に設定します
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

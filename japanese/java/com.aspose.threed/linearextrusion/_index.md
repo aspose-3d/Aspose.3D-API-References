@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class LinearExtrusion extends Entity implements IMeshConvertible
 ```
 
-Linear extrusion は 2D 形状を入力として受け取り、形状を第3次元に伸長します。 **Example:** 以下のコードは LinearExtrusion を使用して形状をソリッドモデルに押し出す方法を示しています。
+Linear extrusion は 2D 形状を入力として受け取り、形状を第3次元に拡張します。 **例:** 以下のコードは LinearExtrusion を使用して形状をソリッドモデルに押し出す方法を示しています。
 
 ```
 //Create a new 3D scene
@@ -53,8 +53,8 @@ Linear extrusion は 2D 形状を入力として受け取り、形状を第3次�
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [LinearExtrusion()](#LinearExtrusion--) | インスタンス [LinearExtrusion](../../com.aspose.threed/linearextrusion) のコンストラクタ。 |
-| [LinearExtrusion(Profile shape, double height)](#LinearExtrusion-com.aspose.threed.Profile-double-) | インスタンス [LinearExtrusion](../../com.aspose.threed/linearextrusion) のコンストラクタ。 |
+| [LinearExtrusion()](#LinearExtrusion--) | インスタンスのコンストラクタ [LinearExtrusion](../../com.aspose.threed/linearextrusion)。 |
+| [LinearExtrusion(Profile shape, double height)](#LinearExtrusion-com.aspose.threed.Profile-double-) | インスタンスのコンストラクタ [LinearExtrusion](../../com.aspose.threed/linearextrusion)。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -62,10 +62,10 @@ Linear extrusion は 2D 形状を入力として受け取り、形状を第3次�
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCenter()](#getCenter--) | この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでになり、そうでない場合は範囲が -height/2 から height/2 になります。 |
+| [getCenter()](#getCenter--) | この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでです。それ以外の場合、範囲は -height/2 から height/2 までです。 |
 | [getClass()](#getClass--) |  |
 | [getDirection()](#getDirection--) | 押し出しの方向、デフォルト値は (0, 0, 1) |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getHeight()](#getHeight--) | 押し出されたジオメトリの高さ、デフォルト値は 1.0 |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -76,14 +76,14 @@ Linear extrusion は 2D 形状を入力として受け取り、形状を第3次�
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
 | [getShape()](#getShape--) | 押し出すベース形状。 |
 | [getSlices()](#getSlices--) | ねじれた押し出しジオメトリのスライス数、デフォルト値は 1。 |
-| [getTwist()](#getTwist--) | 形状が押し出される角度（度数）。 |
+| [getTwist()](#getTwist--) | 形状が押し出される角度（度）数。 |
 | [getTwistOffset()](#getTwistOffset--) | ねじりに使用されるオフセット、デフォルト値は (0, 0, 0)。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setCenter(boolean value)](#setCenter-boolean-) | この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでになり、そうでない場合は範囲が -height/2 から height/2 になります。 |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setCenter(boolean value)](#setCenter-boolean-) | この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでです。それ以外の場合、範囲は -height/2 から height/2 までです。 |
 | [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | 押し出しの方向、デフォルト値は (0, 0, 1) |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setHeight(double value)](#setHeight-double-) | 押し出されたジオメトリの高さ、デフォルト値は 1.0 |
@@ -92,7 +92,7 @@ Linear extrusion は 2D 形状を入力として受け取り、形状を第3次�
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | 押し出すベース形状。 |
 | [setSlices(int value)](#setSlices-int-) | ねじれた押し出しジオメトリのスライス数、デフォルト値は 1。 |
-| [setTwist(double value)](#setTwist-double-) | 形状が押し出される角度（度数）。 |
+| [setTwist(double value)](#setTwist-double-) | 形状が押し出される角度（度）数。 |
 | [setTwistOffset(Vector3 value)](#setTwistOffset-com.aspose.threed.Vector3-) | ねじりに使用されるオフセット、デフォルト値は (0, 0, 0)。 |
 | [toMesh()](#toMesh--) | 押し出しをメッシュに変換します。 |
 | [toString()](#toString--) |  |
@@ -105,7 +105,7 @@ public LinearExtrusion()
 ```
 
 
-インスタンス [LinearExtrusion](../../com.aspose.threed/linearextrusion) のコンストラクタ。
+インスタンスのコンストラクタ [LinearExtrusion](../../com.aspose.threed/linearextrusion)。
 
 ### LinearExtrusion(Profile shape, double height) {#LinearExtrusion-com.aspose.threed.Profile-double-}
 ```
@@ -113,7 +113,7 @@ public LinearExtrusion(Profile shape, double height)
 ```
 
 
-インスタンス [LinearExtrusion](../../com.aspose.threed/linearextrusion) のコンストラクタ。
+インスタンスのコンストラクタ [LinearExtrusion](../../com.aspose.threed/linearextrusion)。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -142,7 +142,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -174,10 +174,10 @@ public boolean getCenter()
 ```
 
 
-この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでになり、そうでない場合は範囲が -height/2 から height/2 になります。
+この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでです。それ以外の場合、範囲は -height/2 から height/2 までです。
 
 **Returns:**
-boolean - この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでになり、そうでない場合は範囲が -height/2 から height/2 になります。
+boolean - この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでです。それ以外の場合、範囲は -height/2 から height/2 までです。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -204,7 +204,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -237,7 +237,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -257,7 +257,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -319,10 +319,10 @@ public double getTwist()
 ```
 
 
-形状が押し出される角度（度数）。
+形状が押し出される角度（度）数。
 
 **Returns:**
-double - 形状が押し出される角度（度数）。
+double - 形状が押し出される角度（度）数。
 ### getTwistOffset() {#getTwistOffset--}
 ```
 public Vector3 getTwistOffset()
@@ -370,7 +370,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -380,12 +380,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -395,7 +395,7 @@ public void setCenter(boolean value)
 ```
 
 
-この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでになり、そうでない場合は範囲が -height/2 から height/2 になります。
+この値が false の場合、線形押し出しの Z 範囲は 0 から高さまでです。それ以外の場合、範囲は -height/2 から height/2 までです。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -513,7 +513,7 @@ public void setTwist(double value)
 ```
 
 
-形状が押し出される角度（度数）。
+形状が押し出される角度（度）数。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

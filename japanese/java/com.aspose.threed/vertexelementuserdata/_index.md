@@ -18,12 +18,12 @@ public class VertexElementUserData extends VertexElement
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [VertexElementUserData()](#VertexElementUserData--) | 新しい [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) クラスのインスタンスを初期化します。 |
+| [VertexElementUserData()](#VertexElementUserData--) | 新しいインスタンスの [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) クラスを初期化します。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [clear()](#clear--) | この頂点要素のすべてのデータをクリアします。 |
+| [clear()](#clear--) | この VertexElement のすべてのデータをクリアします。 |
 | [clone(boolean withData)](#clone-boolean-) | 頂点要素をディープクローンします。 |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -52,7 +52,7 @@ public VertexElementUserData()
 ```
 
 
-新しい [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) クラスのインスタンスを初期化します。
+新しいインスタンスの [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) クラスを初期化します。
 
 ### clear() {#clear--}
 ```
@@ -60,7 +60,7 @@ public void clear()
 ```
 
 
-この頂点要素のすべてのデータをクリアします。
+この VertexElement のすべてのデータをクリアします。
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -73,7 +73,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| withData | boolean | direct と index 配列で頂点をクローンします。 |
+| withData | boolean | direct と index の配列で頂点をクローンします。 |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -157,7 +157,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getReferenceMode() {#getReferenceMode--}
 ```
 public ReferenceMode getReferenceMode()

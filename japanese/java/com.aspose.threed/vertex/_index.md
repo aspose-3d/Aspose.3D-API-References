@@ -1,5 +1,5 @@
 ---
-title: "頂点"
+title: "Vertex"
 second_title: "Aspose.3D for Java API リファレンス"
 description: "生の頂点にアクセスするために使用される頂点参照です。"
 type: docs
@@ -16,7 +16,7 @@ java.lang.Comparable
 public abstract class Vertex implements Comparable<Vertex>
 ```
 
-生の頂点にアクセスするために使用される頂点参照、[TriMesh](../../com.aspose.threed/trimesh)です。
+生の頂点にアクセスするために使用される頂点参照、[TriMesh](../../com.aspose.threed/trimesh) にあります。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |

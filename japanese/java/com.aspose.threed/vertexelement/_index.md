@@ -16,12 +16,12 @@ java.lang.Object
 public abstract class VertexElement implements IIndexedVertexElement
 ```
 
-頂点要素の基底クラスです。頂点要素のタイプは VertexElementType によって識別されます。VertexElement は頂点要素がジオメトリ表面にどのようにマッピングされ、マッピング情報がメモリ上でどのように配置されるかを記述します。VertexElement には法線、UV、またはその他の情報が含まれます。
+VertexElement の基底クラスです。VertexElement のタイプは VertexElementType によって識別されます。VertexElement は頂点要素がジオメトリ表面にどのようにマッピングされるか、そしてマッピング情報がメモリ上でどのように配置されるかを記述します。VertexElement には法線、UV、またはその他の情報が含まれます。
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
-| [clear()](#clear--) | この頂点要素のすべてのデータをクリアします。 |
+| [clear()](#clear--) | この VertexElement のすべてのデータをクリアします。 |
 | [clone(boolean withData)](#clone-boolean-) | 頂点要素をディープクローンします。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -47,7 +47,7 @@ public abstract void clear()
 ```
 
 
-この頂点要素のすべてのデータをクリアします。
+この VertexElement のすべてのデータをクリアします。
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -60,7 +60,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| withData | boolean | direct と index 配列で頂点をクローンします。 |
+| withData | boolean | direct と index の配列で頂点をクローンします。 |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -118,7 +118,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getReferenceMode() {#getReferenceMode--}
 ```
 public ReferenceMode getReferenceMode()

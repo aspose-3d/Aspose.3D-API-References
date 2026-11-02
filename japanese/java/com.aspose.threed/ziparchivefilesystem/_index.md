@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class ZipArchiveFileSystem extends FileSystem
 ```
 
-指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステム。ファイルシステムはオープン/保存操作の後に破棄されます。**Example:** 以下のコードはファイルのインポート方法と、zip アーカイブファイル内の依存ファイルを提供する方法を示しています。
+指定された zip ファイルまたは zip ストリームへの読み取り専用アクセスを提供するファイルシステムです。ファイルシステムはオープン/保存操作の後に破棄されます。 **Example:** 以下のコードはファイルのインポート方法と、zip アーカイブ内の依存ファイルを提供する方法を示しています。
 
 ```
 var inputFile = "input.fbx";

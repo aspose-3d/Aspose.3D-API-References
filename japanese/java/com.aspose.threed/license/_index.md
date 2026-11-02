@@ -15,7 +15,7 @@ public class License
 
 コンポーネントをライセンスするためのメソッドを提供します。
 
-詳細を知りたい場合は、**Licensing and Subscription** のドキュメント記事をご覧ください。
+詳細については、**Licensing and Subscription** のドキュメント記事をご覧ください。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -30,8 +30,8 @@ public class License
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | コンポーネントにライセンスを付与します。 |
-| [setLicense(String licenseName)](#setLicense-java.lang.String-) | コンポーネントにライセンスを付与します。 |
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | コンポーネントにライセンスを適用します。 |
+| [setLicense(String licenseName)](#setLicense-java.lang.String-) | コンポーネントにライセンスを適用します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -101,14 +101,14 @@ public void setLicense(InputStream stream)
 ```
 
 
-コンポーネントにライセンスを付与します。
+コンポーネントにライセンスを適用します。
 
 このメソッドを使用して、ストリームからライセンスをロードします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| ストリーム | java.io.InputStream | ライセンスを含むストリーム。 |
+| ストリーム | java.io.InputStream | ライセンスを含むストリームです。 |
 
 ### setLicense(String licenseName) {#setLicense-java.lang.String-}
 ```
@@ -116,9 +116,9 @@ public void setLicense(String licenseName)
 ```
 
 
-コンポーネントにライセンスを付与します。
+コンポーネントにライセンスを適用します。
 
-次の場所でライセンスを検索します:
+次の場所でライセンスを探します:
 
 1. 明示的なパス。
 

@@ -1,7 +1,7 @@
 ---
 title: "FrontFace"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "前面および背面ポリゴンを定義する"
+description: "前面と背面のポリゴンを定義する"
 type: docs
 weight: 280
 url: /ja/java/com.aspose.threed/frontface/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum FrontFace extends Enum<FrontFace>
 ```
 
-前面および背面ポリゴンを定義する
+前面と背面のポリゴンを定義する
 ## フィールド
 
 | フィールド | 説明 |
 | --- | --- |
-| [CLOCKWISE](#CLOCKWISE) | 時計回りの順序がフロントフェイスです |
-| [COUNTER_CLOCKWISE](#COUNTER-CLOCKWISE) | 反時計回りの順序がフロントフェイスです |
+| [CLOCKWISE](#CLOCKWISE) | 時計回りの順序が前面です |
+| [COUNTER_CLOCKWISE](#COUNTER-CLOCKWISE) | 反時計回りの順序が前面です |
 ## メソッド
 
 | メソッド | 説明 |
@@ -47,7 +47,7 @@ public static final FrontFace CLOCKWISE
 ```
 
 
-時計回りの順序がフロントフェイスです
+時計回りの順序が前面です
 
 ### COUNTER_CLOCKWISE {#COUNTER-CLOCKWISE}
 ```
@@ -55,7 +55,7 @@ public static final FrontFace COUNTER_CLOCKWISE
 ```
 
 
-反時計回りの順序がフロントフェイスです
+反時計回りの順序が前面です
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

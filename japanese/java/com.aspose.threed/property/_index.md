@@ -29,7 +29,7 @@ public static class StructuralMetadata.Property
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | 固定サイズ配列のデータ数。 |
 | [getDescription()](#getDescription--) | プロパティの説明 |
-| [getDisplayName()](#getDisplayName--) | UI で表示するために使用されるプロパティの名前。 |
+| [getDisplayName()](#getDisplayName--) | UI で表示に使用されるプロパティの名前です。 |
 | [getEnumType()](#getEnumType--) | 列挙型 |
 | [getName()](#getName--) | プロパティの一意な名前 |
 | [getNormalized()](#getNormalized--) | データが正規化されているか。 |
@@ -39,7 +39,7 @@ public static class StructuralMetadata.Property
 | [notifyAll()](#notifyAll--) |  |
 | [setCount(Integer value)](#setCount-java.lang.Integer-) | 固定サイズ配列のデータ数。 |
 | [setDescription(String value)](#setDescription-java.lang.String-) | プロパティの説明 |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | UI で表示するために使用されるプロパティの名前。 |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | UI で表示に使用されるプロパティの名前です。 |
 | [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | 列挙型 |
 | [setNormalized(boolean value)](#setNormalized-boolean-) | データが正規化されているか。 |
 | [toString()](#toString--) | このインスタンスの文字列表現を取得します。 |
@@ -58,10 +58,10 @@ public Property(String name, String displayName, String description, Class<?> ty
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | 名前 | java.lang.String | プロパティの一意な名前 |
-| displayName | java.lang.String | UI で表示するために使用されるプロパティの名前。 |
+| displayName | java.lang.String | UI で表示に使用されるプロパティの名前です。 |
 | description | java.lang.String | プロパティの説明 |
 | type | java.lang.Class<?> | プロパティのデータ型 |
-| normalized | boolean | データが正規化されているか |
+| normalized | boolean | データは正規化されていますか |
 | カウント | java.lang.Integer | 固定サイズ配列のデータ数 |
 
 ### Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count) {#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-}
@@ -76,10 +76,10 @@ public Property(String name, String displayName, String description, StructuralM
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | 名前 | java.lang.String | プロパティの一意な名前 |
-| displayName | java.lang.String | UI で表示するために使用されるプロパティの名前。 |
+| displayName | java.lang.String | UI で表示に使用されるプロパティの名前です。 |
 | description | java.lang.String | プロパティの説明 |
 | type | [EnumType](../../com.aspose.threed/enumtype) | プロパティのデータ型 |
-| 配列 | boolean | 各プロパティ値が配列かスカラーか |
+| 配列 | boolean | 各プロパティ値は配列ですか、スカラーですか |
 | カウント | java.lang.Integer | 固定サイズ配列のデータ数 |
 
 ### Property(String name, Class<?> type) {#Property-java.lang.String-java.lang.Class----}
@@ -147,10 +147,10 @@ public String getDisplayName()
 ```
 
 
-UI で表示するために使用されるプロパティの名前。
+UI で表示に使用されるプロパティの名前です。
 
 **Returns:**
-java.lang.String - UIで表現に使用されるプロパティの名前。
+java.lang.String - UIで表示に使用されるプロパティ名。
 ### getEnumType() {#getEnumType--}
 ```
 public StructuralMetadata.EnumType getEnumType()
@@ -249,7 +249,7 @@ public void setDisplayName(String value)
 ```
 
 
-UI で表示するために使用されるプロパティの名前。
+UI で表示に使用されるプロパティの名前です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

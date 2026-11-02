@@ -13,13 +13,13 @@ java.lang.Object
 public final class Int2D
 ```
 
-lexchou が 2017/5/17 に作成。2 次元 int 配列ラッパー
+lexchou によって 5/17/2017 に作成されました。2 次元 int 配列ラッパー
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
 | [Int2D(int rows, int columns)](#Int2D-int-int-) | デフォルトのデータ割り当てで 2D int 配列を構築します。 |
-| [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | 指定されたデータで 2D int 配列を構築します。 |
+| [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | 指定されたデータで 2D int 配列を構築します |
 ## メソッド
 
 | メソッド | 説明 |
@@ -59,7 +59,7 @@ public Int2D(int rows, int columns, int[] data)
 ```
 
 
-指定されたデータで 2D int 配列を構築します。
+指定されたデータで 2D int 配列を構築します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -163,7 +163,7 @@ public int length()
 この2次元配列の総長さを取得します
 
 **Returns:**
-int - この2次元配列の浮動小数点数の総数。
+int - この2次元配列の浮動小数点数の総数です。
 ### notify() {#notify--}
 ```
 public final native void notify()

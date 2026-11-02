@@ -1,7 +1,7 @@
 ---
 title: "RelativeRectangle"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "相対矩形  相対コンポーネントと絶対値の間の式は  Scale  Reference Width  offset  です。したがって、絶対値を表す場合は、すべてのスケールフィールドをゼロにし、代わりにオフセットフィールドを使用します。"
+description: "相対矩形  相対コンポーネントと絶対値の間の式は  Scale  Reference Width  offset  です。したがって、絶対値を表す場合は、すべてのスケールフィールドをゼロにし、代わりにオフセットフィールドを使用してください。"
 type: docs
 weight: 147
 url: /ja/java/com.aspose.threed/relativerectangle/
@@ -16,12 +16,12 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class RelativeRectangle implements Struct<RelativeRectangle>, Serializable
 ```
 
-相対矩形 相対コンポーネントと絶対値の間の式は: Scale \* (Reference Width) + offset です。したがって、絶対値を表したい場合は、すべてのスケールフィールドを0にし、代わりにオフセットフィールドを使用してください。
+相対矩形 相対コンポーネントと絶対値の間の式は次のとおりです: Scale \\* (Reference Width) + offset したがって、絶対値を表す場合は、すべてのスケールフィールドを 0 にし、代わりにオフセットフィールドを使用してください。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [RelativeRectangle(int left, int top, int width, int height)](#RelativeRectangle-int-int-int-int-) | [RelativeRectangle](../../com.aspose.threed/relativerectangle) を構築する |
+| [RelativeRectangle(int left, int top, int width, int height)](#RelativeRectangle-int-int-int-int-) | [RelativeRectangle](../../com.aspose.threed/relativerectangle) を作成する |
 | [RelativeRectangle()](#RelativeRectangle--) |  |
 ## メソッド
 
@@ -30,7 +30,7 @@ public final class RelativeRectangle implements Struct<RelativeRectangle>, Seria
 | [clone()](#clone--) |  |
 | [copyFrom(RelativeRectangle src)](#copyFrom-com.aspose.threed.RelativeRectangle-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | [RelativeRectangle](../../com.aspose.threed/relativerectangle) を、すべてのオフセットフィールドをゼロにし、スケールフィールドを指定されたパラメータから設定して構築する。 |
+| [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | [RelativeRectangle](../../com.aspose.threed/relativerectangle) を、すべてのオフセットフィールドをゼロにし、スケールフィールドを指定されたパラメータから設定して作成する。 |
 | [getClass()](#getClass--) |  |
 | [getOffsetHeight()](#getOffsetHeight--) | 高さのオフセットを取得する |
 | [getOffsetWidth()](#getOffsetWidth--) | 幅のオフセットを取得する |
@@ -52,7 +52,7 @@ public final class RelativeRectangle implements Struct<RelativeRectangle>, Seria
 | [setScaleX(float value)](#setScaleX-float-) | 相対座標 X |
 | [setScaleY(float value)](#setScaleY-float-) | 相対座標 Y |
 | [toAbsolute(int left, int top, int width, int height)](#toAbsolute-int-int-int-int-) | 相対矩形を絶対矩形に変換する |
-| [toString()](#toString--) | このインスタンスの値を java.lang.String に変換する。 |
+| [toString()](#toString--) | このインスタンスの値を java.lang.String に変換します。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -62,7 +62,7 @@ public RelativeRectangle(int left, int top, int width, int height)
 ```
 
 
-[RelativeRectangle](../../com.aspose.threed/relativerectangle) を構築する
+[RelativeRectangle](../../com.aspose.threed/relativerectangle) を作成する
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -122,7 +122,7 @@ public static RelativeRectangle fromScale(float scaleX, float scaleY, float scal
 ```
 
 
-[RelativeRectangle](../../com.aspose.threed/relativerectangle) を、すべてのオフセットフィールドをゼロにし、スケールフィールドを指定されたパラメータから設定して構築する。
+[RelativeRectangle](../../com.aspose.threed/relativerectangle) を、すべてのオフセットフィールドをゼロにし、スケールフィールドを指定されたパラメータから設定して作成する。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -193,7 +193,7 @@ public float getScaleHeight()
 相対高さ
 
 **Returns:**
-float - 相対高さ
+float - 相対的な高さ
 ### getScaleWidth() {#getScaleWidth--}
 ```
 public float getScaleWidth()
@@ -203,7 +203,7 @@ public float getScaleWidth()
 相対幅
 
 **Returns:**
-float - 相対幅
+float - 相対的な幅
 ### getScaleX() {#getScaleX--}
 ```
 public float getScaleX()
@@ -213,7 +213,7 @@ public float getScaleX()
 相対座標 X
 
 **Returns:**
-float - X座標の相対値
+float - X座標の相対
 ### getScaleY() {#getScaleY--}
 ```
 public float getScaleY()
@@ -223,7 +223,7 @@ public float getScaleY()
 相対座標 Y
 
 **Returns:**
-float - Y座標の相対値
+float - Y座標の相対
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -378,7 +378,7 @@ public String toString()
 ```
 
 
-このインスタンスの値を java.lang.String に変換する。
+このインスタンスの値を java.lang.String に変換します。
 
 **Returns:**
 java.lang.String

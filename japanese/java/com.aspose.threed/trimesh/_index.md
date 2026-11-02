@@ -1,7 +1,7 @@
 ---
 title: "TriMesh"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "TriMeshはGPUで直接使用できる生データを含みます。"
+description: "1つの TriMesh は、GPU が直接使用できる生データを含みます。"
 type: docs
 weight: 194
 url: /ja/java/com.aspose.threed/trimesh/
@@ -51,14 +51,14 @@ TriMesh は GPU が直接使用できる生データを含みます。このク�
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [fromMesh(Mesh mesh)](#fromMesh-com.aspose.threed.Mesh-) | 指定されたメッシュオブジェクトから TriMesh を作成します。頂点宣言は入力メッシュの構造に基づきます。 |
 | [fromMesh(Mesh mesh, boolean useFloat)](#fromMesh-com.aspose.threed.Mesh-boolean-) | 指定されたメッシュオブジェクトから TriMesh を作成します。頂点宣言は入力メッシュの構造に基づきます。 |
-| [fromMesh(VertexDeclaration declaration, Mesh mesh)](#fromMesh-com.aspose.threed.VertexDeclaration-com.aspose.threed.Mesh-) | 指定された頂点レイアウトを使用して、指定されたメッシュオブジェクトから TriMesh を作成する。 |
+| [fromMesh(VertexDeclaration declaration, Mesh mesh)](#fromMesh-com.aspose.threed.VertexDeclaration-com.aspose.threed.Mesh-) | 指定された頂点レイアウトを使用して、指定されたメッシュオブジェクトから TriMesh を作成します。 |
 | [fromRawData(VertexDeclaration vd, byte[] vertices, int[] indices, boolean generateVertexMapping)](#fromRawData-com.aspose.threed.VertexDeclaration-byte---int---boolean-) | 生データから TriMesh を作成する |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
-| [getCapacity()](#getCapacity--) | 事前割り当てされた頂点の容量。 |
+| [getCapacity()](#getCapacity--) | 事前に割り当てられた頂点の容量です。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
-| [getIndicesCount()](#getIndicesCount--) | この [TriMesh](../../com.aspose.threed/trimesh) のインデックス数。 |
+| [getIndicesCount()](#getIndicesCount--) | この [TriMesh](../../com.aspose.threed/trimesh) のインデックス数です。 |
 | [getIntIndices()](#getIntIndices--) | インデックスを 32 ビット整数配列に変換する |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
@@ -67,15 +67,15 @@ TriMesh は GPU が直接使用できる生データを含みます。このク�
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
 | [getShortIndices()](#getShortIndices--) | インデックスを 16 ビット整数配列に変換する |
-| [getUnmergedVerticesCount()](#getUnmergedVerticesCount--) | [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) と [endVertex](../../com.aspose.threed/trimesh\#endVertex) によって渡された未マージ頂点の数。 |
-| [getVertexDeclaration()](#getVertexDeclaration--) | [TriMesh](../../com.aspose.threed/trimesh) の頂点レイアウト。 |
-| [getVerticesCount()](#getVerticesCount--) | この [TriMesh](../../com.aspose.threed/trimesh) の頂点数。 |
-| [getVerticesSizeInBytes()](#getVerticesSizeInBytes--) | すべての頂点の合計サイズ（バイト） |
+| [getUnmergedVerticesCount()](#getUnmergedVerticesCount--) | [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) と [endVertex](../../com.aspose.threed/trimesh\#endVertex) によって渡された未マージの頂点数です。 |
+| [getVertexDeclaration()](#getVertexDeclaration--) | この [TriMesh](../../com.aspose.threed/trimesh) の頂点レイアウトです。 |
+| [getVerticesCount()](#getVerticesCount--) | この [TriMesh](../../com.aspose.threed/trimesh) の頂点数です。 |
+| [getVerticesSizeInBytes()](#getVerticesSizeInBytes--) | すべての頂点の合計サイズ（バイト単位）です。 |
 | [hashCode()](#hashCode--) |  |
 | [indicesToArray(int[][] result)](#indicesToArray-int-----) | インデックスを 32 ビット整数配列に変換する |
 | [indicesToArray(short[][] result)](#indicesToArray-short-----) | インデックスを 16 ビット整数配列に変換する |
 | [iterator()](#iterator--) | [Vertex](../../com.aspose.threed/vertex) を列挙するための列挙子を取得する |
-| [loadVerticesFromBytes(byte[] verticesInBytes)](#loadVerticesFromBytes-byte---) | バイトから頂点をロードします。バイト長は頂点サイズの整数倍である必要があります。 |
+| [loadVerticesFromBytes(byte[] verticesInBytes)](#loadVerticesFromBytes-byte---) | バイトから頂点をロードします。バイト長は頂点サイズの整数倍でなければなりません。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [readDouble(int idx, VertexField field)](#readDouble-int-com.aspose.threed.VertexField-) | double フィールドを読み取る |
@@ -87,20 +87,20 @@ TriMesh は GPU が直接使用できる生データを含みます。このク�
 | [readVector3(int idx, VertexField field)](#readVector3-int-com.aspose.threed.VertexField-) | vector3 フィールドを読み取る |
 | [readVector4(int idx, VertexField field)](#readVector4-int-com.aspose.threed.VertexField-) | vector4 フィールドを読み取ります |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [toString()](#toString--) | [TriMesh](../../com.aspose.threed/trimesh) の文字列表現を取得します |
+| [toString()](#toString--) | 取得します [TriMesh](../../com.aspose.threed/trimesh) の文字列表現 |
 | [verticesToArray()](#verticesToArray--) | 頂点データをバイト配列に変換します |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [write16bIndicesTo(Stream stream)](#write16bIndicesTo-com.aspose.threed.Stream-) | インデックスデータを 16 ビット整数としてストリームに書き込みます **Example:** |
-| [write16bIndicesTo(OutputStream stream)](#write16bIndicesTo-java.io.OutputStream-) | インデックスデータを 16 ビット整数としてストリームに書き込みます |
-| [write32bIndicesTo(Stream stream)](#write32bIndicesTo-com.aspose.threed.Stream-) | インデックスデータを 32 ビット整数としてストリームに書き込みます **Example:** |
-| [write32bIndicesTo(OutputStream stream)](#write32bIndicesTo-java.io.OutputStream-) | インデックスデータを 32 ビット整数としてストリームに書き込みます |
+| [write16bIndicesTo(Stream stream)](#write16bIndicesTo-com.aspose.threed.Stream-) | インデックスデータを16ビット整数としてストリームに書き込みます **Example:** |
+| [write16bIndicesTo(OutputStream stream)](#write16bIndicesTo-java.io.OutputStream-) | インデックスデータを16ビット整数としてストリームに書き込みます |
+| [write32bIndicesTo(Stream stream)](#write32bIndicesTo-com.aspose.threed.Stream-) | インデックスデータを32ビット整数としてストリームに書き込みます **Example:** |
+| [write32bIndicesTo(OutputStream stream)](#write32bIndicesTo-java.io.OutputStream-) | インデックスデータを32ビット整数としてストリームに書き込みます |
 | [writeVerticesTo(Stream stream)](#writeVerticesTo-com.aspose.threed.Stream-) | 指定されたストリームに頂点データを書き込みます |
 | [writeVerticesTo(OutputStream stream)](#writeVerticesTo-java.io.OutputStream-) | 指定されたストリームに頂点データを書き込みます |
 ### TriMesh(String name, VertexDeclaration declaration) {#TriMesh-java.lang.String-com.aspose.threed.VertexDeclaration-}
@@ -129,8 +129,8 @@ public void addTriangle(int a, int b, int c)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | int | 最初の頂点のインデックス |
-| b | int | 2 番目の頂点のインデックス |
-| c | int | 3 番目の頂点のインデックス |
+| b | int | 2番目の頂点のインデックス |
+| c | int | 3番目の頂点のインデックス |
 
 ### beginVertex() {#beginVertex--}
 ```
@@ -201,7 +201,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -281,7 +281,7 @@ public static TriMesh fromMesh(VertexDeclaration declaration, Mesh mesh)
 ```
 
 
-指定された頂点レイアウトを使用して、指定されたメッシュオブジェクトから TriMesh を作成する。
+指定された頂点レイアウトを使用して、指定されたメッシュオブジェクトから TriMesh を作成します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -319,8 +319,8 @@ public static TriMesh fromRawData(VertexDeclaration vd, byte[] vertices, int[] i
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | 頂点宣言は、少なくとも 1 つのフィールドを含む必要があります。 |
-| vertices | byte[] | 入力頂点データ、頂点の最小長さは頂点宣言のサイズ以上である必要があります |
+| vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | 頂点宣言は、少なくとも1つのフィールドを含む必要があります。 |
+| 頂点 | byte[] | 入力頂点データで、頂点の最小長さは頂点宣言のサイズ以上である必要があります |
 | インデックス | int[] | 三角形インデックス |
 | generateVertexMapping | boolean | 各頂点に対して [Vertex](../../com.aspose.threed/vertex) を生成しますが、シリアライズ/デシリアライズだけの場合は必要ありません。 |
 
@@ -367,10 +367,10 @@ public int getCapacity()
 ```
 
 
-事前割り当てされた頂点の容量。
+事前に割り当てられた頂点の容量です。
 
 **Returns:**
-int - 事前割り当てされた頂点の容量
+int - 事前に割り当てられた頂点の容量。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -387,7 +387,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -407,10 +407,10 @@ public int getIndicesCount()
 ```
 
 
-この [TriMesh](../../com.aspose.threed/trimesh) のインデックス数。
+この [TriMesh](../../com.aspose.threed/trimesh) のインデックス数です。
 
 **Returns:**
-int - この [TriMesh](../../com.aspose.threed/trimesh) のインデックス数
+int - この [TriMesh](../../com.aspose.threed/trimesh) のインデックス数。
 ### getIntIndices() {#getIntIndices--}
 ```
 public int[] getIntIndices()
@@ -430,7 +430,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -450,7 +450,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -502,7 +502,7 @@ public int getUnmergedVerticesCount()
 ```
 
 
-[beginVertex](../../com.aspose.threed/trimesh\#beginVertex) と [endVertex](../../com.aspose.threed/trimesh\#endVertex) によって渡された未マージ頂点の数。
+[beginVertex](../../com.aspose.threed/trimesh\#beginVertex) と [endVertex](../../com.aspose.threed/trimesh\#endVertex) によって渡された未マージの頂点数です。
 
 **Returns:**
 int - [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) と [endVertex](../../com.aspose.threed/trimesh\#endVertex) によって渡された未マージ頂点の数。
@@ -512,7 +512,7 @@ public VertexDeclaration getVertexDeclaration()
 ```
 
 
-[TriMesh](../../com.aspose.threed/trimesh) の頂点レイアウト。
+この [TriMesh](../../com.aspose.threed/trimesh) の頂点レイアウトです。
 
 **Returns:**
 [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) - The vertex layout of the [TriMesh](../../com.aspose.threed/trimesh).
@@ -522,17 +522,17 @@ public int getVerticesCount()
 ```
 
 
-この [TriMesh](../../com.aspose.threed/trimesh) の頂点数。
+この [TriMesh](../../com.aspose.threed/trimesh) の頂点数です。
 
 **Returns:**
-int - この [TriMesh](../../com.aspose.threed/trimesh) の頂点数
+int - この [TriMesh](../../com.aspose.threed/trimesh) の頂点数。
 ### getVerticesSizeInBytes() {#getVerticesSizeInBytes--}
 ```
 public int getVerticesSizeInBytes()
 ```
 
 
-すべての頂点の合計サイズ（バイト）
+すべての頂点の合計サイズ（バイト単位）です。
 
 **Returns:**
 int - すべての頂点の合計サイズ（バイト単位）
@@ -588,7 +588,7 @@ public void loadVerticesFromBytes(byte[] verticesInBytes)
 ```
 
 
-バイトから頂点をロードします。バイトの長さは頂点サイズの整数倍である必要があります。**Example:** 以下のコードは、空の TriMesh を作成し、生のバイトから手動で頂点をロードする方法を示しています。
+バイトから頂点をロードします。バイトの長さは頂点サイズの整数倍である必要があります。**Example:** 以下のコードは空の TriMesh を作成し、生のバイトから手動で頂点をロードする方法を示しています。
 
 ```
 var indices = new int[] { 0,  1,  2 };
@@ -670,7 +670,7 @@ double フィールドを読み取る
 | field | [VertexField](../../com.aspose.threed/vertexfield) | float/double 互換のデータ型を持つフィールド |
 
 **Returns:**
-double - 指定された頂点のフィールドの Double 値
+double - 指定された頂点フィールドの Double 値
 ### readFVector2(int idx, VertexField field) {#readFVector2-int-com.aspose.threed.VertexField-}
 ```
 public FVector2 readFVector2(int idx, VertexField field)
@@ -734,7 +734,7 @@ float フィールドを読み取ります
 | field | [VertexField](../../com.aspose.threed/vertexfield) | float/double 互換のデータ型を持つフィールド |
 
 **Returns:**
-float - 指定された頂点のフィールドの Float 値
+float - 指定された頂点フィールドの Float 値
 ### readVector2(int idx, VertexField field) {#readVector2-int-com.aspose.threed.VertexField-}
 ```
 public Vector2 readVector2(int idx, VertexField field)
@@ -794,7 +794,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -804,12 +804,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -872,7 +872,7 @@ public String toString()
 ```
 
 
-[TriMesh](../../com.aspose.threed/trimesh) の文字列表現を取得します
+取得します [TriMesh](../../com.aspose.threed/trimesh) の文字列表現
 
 **Returns:**
 java.lang.String - 文字列表現
@@ -927,7 +927,7 @@ public void write16bIndicesTo(Stream stream)
 ```
 
 
-インデックスデータを 16 ビット整数としてストリームに書き込みます **Example:**
+インデックスデータを16ビット整数としてストリームに書き込みます **Example:**
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh
@@ -953,7 +953,7 @@ public void write16bIndicesTo(OutputStream stream)
 ```
 
 
-インデックスデータを 16 ビット整数としてストリームに書き込みます
+インデックスデータを16ビット整数としてストリームに書き込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -977,7 +977,7 @@ public void write32bIndicesTo(Stream stream)
 ```
 
 
-インデックスデータを 32 ビット整数としてストリームに書き込みます **Example:**
+インデックスデータを32ビット整数としてストリームに書き込みます **Example:**
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh
@@ -1003,7 +1003,7 @@ public void write32bIndicesTo(OutputStream stream)
 ```
 
 
-インデックスデータを 32 ビット整数としてストリームに書き込みます
+インデックスデータを32ビット整数としてストリームに書き込みます
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

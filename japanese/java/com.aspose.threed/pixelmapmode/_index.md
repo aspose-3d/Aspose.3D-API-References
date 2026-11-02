@@ -16,9 +16,9 @@ public enum PixelMapMode extends Enum<PixelMapMode>
 
 | フィールド | 説明 |
 | --- | --- |
-| [READ_ONLY](#READ-ONLY) | ピクセルは読み取り専用にマップされています。 |
-| [READ_WRITE](#READ-WRITE) | ピクセルは読み取りと書き込みの両方にマップされています。 |
-| [WRITE_ONLY](#WRITE-ONLY) | ピクセルは書き込み専用にマップされています。 |
+| [READ_ONLY](#READ-ONLY) | ピクセルは読み取り専用にマップされます。 |
+| [READ_WRITE](#READ-WRITE) | ピクセルは読み取りと書き込みの両方にマップされます。 |
+| [WRITE_ONLY](#WRITE-ONLY) | ピクセルは書き込み専用にマップされます。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -46,7 +46,7 @@ public static final PixelMapMode READ_ONLY
 ```
 
 
-ピクセルは読み取り専用にマップされています。
+ピクセルは読み取り専用にマップされます。
 
 ### READ_WRITE {#READ-WRITE}
 ```
@@ -54,7 +54,7 @@ public static final PixelMapMode READ_WRITE
 ```
 
 
-ピクセルは読み取りと書き込みの両方にマップされています。
+ピクセルは読み取りと書き込みの両方にマップされます。
 
 ### WRITE_ONLY {#WRITE-ONLY}
 ```
@@ -62,7 +62,7 @@ public static final PixelMapMode WRITE_ONLY
 ```
 
 
-ピクセルは書き込み専用にマップされています。
+ピクセルは書き込み専用にマップされます。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

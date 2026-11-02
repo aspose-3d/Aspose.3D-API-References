@@ -19,8 +19,8 @@ public enum PolygonMode extends Enum<PolygonMode>
 | フィールド | 説明 |
 | --- | --- |
 | [FILL](#FILL) | ポリゴンの内部が塗りつぶされます。 |
-| [LINE](#LINE) | ポリゴンの境界エッジは線分として描画されます。 |
-| [POINT](#POINT) | ポリゴンの制御点はポイントとして描画されます。 |
+| [LINE](#LINE) | ポリゴンの境界エッジが線分として描画されます。 |
+| [POINT](#POINT) | ポリゴンの制御点がポイントとして描画されます。 |
 ## メソッド
 
 | メソッド | 説明 |
@@ -56,7 +56,7 @@ public static final PolygonMode LINE
 ```
 
 
-ポリゴンの境界エッジは線分として描画されます。
+ポリゴンの境界エッジが線分として描画されます。
 
 ### POINT {#POINT}
 ```
@@ -64,7 +64,7 @@ public static final PolygonMode POINT
 ```
 
 
-ポリゴンの制御点はポイントとして描画されます。
+ポリゴンの制御点がポイントとして描画されます。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

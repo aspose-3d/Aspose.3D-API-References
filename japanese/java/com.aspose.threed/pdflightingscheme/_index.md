@@ -19,16 +19,16 @@ LightingScheme は 3D アートワークに適用するライティングを指�
 | フィールド | 説明 |
 | --- | --- |
 | [ARTWORK](#ARTWORK) | シーンで定義されたライトを使用します |
-| [BLUE](#BLUE) | 青の無限光が3つ、アンビエント項なし |
-| [CAD](#CAD) | 灰色の無限光が3つとカメラに取り付けられた光が1つ、アンビエント項なし |
-| [CUBE](#CUBE) | 主要軸に沿った灰色の無限光が6つ、アンビエント項なし |
-| [DAY](#DAY) | 薄灰色の無限光が3つ、アンビエント項なし |
-| [HARD](#HARD) | 灰色の無限光が3つ、中程度のアンビエント項 |
-| [HEADLAMP](#HEADLAMP) | カメラに取り付けられた単一の無限光、低いアンビエント項 |
-| [NIGHT](#NIGHT) | 黄色、アクア、青の無限光がそれぞれ1つ、アンビエント項なし |
+| [BLUE](#BLUE) | 青色の無限光が3つ、環境光なし |
+| [CAD](#CAD) | 灰色の無限光が3つとカメラに取り付けられた光が1つ、環境光なし |
+| [CUBE](#CUBE) | 主要軸に沿った灰色の無限光が6つ、環境光なし |
+| [DAY](#DAY) | 薄灰色の無限光が3つ、環境光なし |
+| [HARD](#HARD) | 灰色の無限光が3つ、適度な環境光あり |
+| [HEADLAMP](#HEADLAMP) | カメラに取り付けられた単一の無限光、低い環境光 |
+| [NIGHT](#NIGHT) | 黄色、アクア、青色の無限光がそれぞれ1つずつ、環境光なし |
 | [NONE](#NONE) | ライトは使用されていません。 |
-| [PRIMARY](#PRIMARY) | 赤、緑、青の無限光がそれぞれ1つ、アンビエント項なし |
-| [RED](#RED) | 赤の無限光が3つ、アンビエント項なし |
+| [PRIMARY](#PRIMARY) | 赤、緑、青の無限光がそれぞれ1つずつ、環境光なし |
+| [RED](#RED) | 赤色の無限光が3つ、環境光なし |
 | [WHITE](#WHITE) | 3つの青灰色の無限光、環境光項なし |
 ## メソッド
 
@@ -65,7 +65,7 @@ public static final PdfLightingScheme BLUE
 ```
 
 
-青の無限光が3つ、アンビエント項なし
+青色の無限光が3つ、環境光なし
 
 ### CAD {#CAD}
 ```
@@ -73,7 +73,7 @@ public static final PdfLightingScheme CAD
 ```
 
 
-灰色の無限光が3つとカメラに取り付けられた光が1つ、アンビエント項なし
+灰色の無限光が3つとカメラに取り付けられた光が1つ、環境光なし
 
 ### CUBE {#CUBE}
 ```
@@ -81,7 +81,7 @@ public static final PdfLightingScheme CUBE
 ```
 
 
-主要軸に沿った灰色の無限光が6つ、アンビエント項なし
+主要軸に沿った灰色の無限光が6つ、環境光なし
 
 ### DAY {#DAY}
 ```
@@ -89,7 +89,7 @@ public static final PdfLightingScheme DAY
 ```
 
 
-薄灰色の無限光が3つ、アンビエント項なし
+薄灰色の無限光が3つ、環境光なし
 
 ### HARD {#HARD}
 ```
@@ -97,7 +97,7 @@ public static final PdfLightingScheme HARD
 ```
 
 
-灰色の無限光が3つ、中程度のアンビエント項
+灰色の無限光が3つ、適度な環境光あり
 
 ### HEADLAMP {#HEADLAMP}
 ```
@@ -105,7 +105,7 @@ public static final PdfLightingScheme HEADLAMP
 ```
 
 
-カメラに取り付けられた単一の無限光、低いアンビエント項
+カメラに取り付けられた単一の無限光、低い環境光
 
 ### NIGHT {#NIGHT}
 ```
@@ -113,7 +113,7 @@ public static final PdfLightingScheme NIGHT
 ```
 
 
-黄色、アクア、青の無限光がそれぞれ1つ、アンビエント項なし
+黄色、アクア、青色の無限光がそれぞれ1つずつ、環境光なし
 
 ### NONE {#NONE}
 ```
@@ -129,7 +129,7 @@ public static final PdfLightingScheme PRIMARY
 ```
 
 
-赤、緑、青の無限光がそれぞれ1つ、アンビエント項なし
+赤、緑、青の無限光がそれぞれ1つずつ、環境光なし
 
 ### RED {#RED}
 ```
@@ -137,7 +137,7 @@ public static final PdfLightingScheme RED
 ```
 
 
-赤の無限光が3つ、アンビエント項なし
+赤色の無限光が3つ、環境光なし
 
 ### WHITE {#WHITE}
 ```

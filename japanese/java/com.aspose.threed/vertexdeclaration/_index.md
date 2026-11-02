@@ -16,7 +16,7 @@ java.lang.Iterable, java.lang.Comparable
 public final class VertexDeclaration implements Iterable<VertexField>, Comparable<VertexDeclaration>
 ```
 
-カスタム定義された頂点構造の宣言
+カスタム定義された頂点構造体の宣言
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -31,12 +31,12 @@ public final class VertexDeclaration implements Iterable<VertexField>, Comparabl
 | [addField(int dataType, VertexFieldSemantic semantic, int index, String alias)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-java.lang.String-) | 新しい頂点フィールドを追加する |
 | [clear()](#clear--) | すべてのフィールドをクリアする。 |
 | [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | このインスタンスを指定されたオブジェクトと比較し、相対的な値の指標を返します。 |
-| [equals(Object obj)](#equals-java.lang.Object-) | このインスタンスと、指定されたオブジェクト（これも [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) オブジェクトである必要があります）が同じ値かどうかを判断します。 |
+| [equals(Object obj)](#equals-java.lang.Object-) | このインスタンスと、[VertexDeclaration](../../com.aspose.threed/vertexdeclaration) オブジェクトである必要がある指定オブジェクトが同じ値かどうかを判断します。 |
 | [fromGeometry(Geometry geometry, boolean useFloat)](#fromGeometry-com.aspose.threed.Geometry-boolean-) | [Geometry](../../com.aspose.threed/geometry) のレイアウトに基づいて [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) を作成します。 |
 | [get(int index)](#get-int-) | インデックスで [VertexField](../../com.aspose.threed/vertexfield) を取得します |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | この [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) で定義されたすべてのフィールドの数を取得します |
-| [getSealed()](#getSealed--) | [TriMesh](../../com.aspose.threed/trimesg) に使用されたとき、[VertexDeclaration](../../com.aspose.threed/vertexdeclaration) はシールドされ、これ以上の変更は許可されません。 |
+| [getSealed()](#getSealed--) | [TriMesh](../../com.aspose.threed/trimesh) に使用された後、[VertexDeclaration](../../com.aspose.threed/vertexdeclaration) はシールされ、これ以上の変更は許可されません。 |
 | [getSize()](#getSize--) | 頂点構造体のバイト単位のサイズ。 |
 | [hashCode()](#hashCode--) | この文字列のハッシュコードを返します。 |
 | [iterator()](#iterator--) | このインスタンス内のすべての頂点フィールドを走査する列挙子を取得します。 |
@@ -64,7 +64,7 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | dataType | int | 頂点フィールドのデータ型 |
-| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | このフィールドは何に使用されますか |
+| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | このフィールドはどのように使用されますか |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield)
@@ -80,8 +80,8 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic, int inde
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | dataType | int | 頂点フィールドのデータ型 |
-| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | このフィールドは何に使用されますか |
-| インデックス | int | 同一フィールドのセマンティックのインデックス、-1 は自動生成です |
+| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | このフィールドはどのように使用されますか |
+| インデックス | int | 同じフィールドのセマンティクスのインデックス、-1 は自動生成を意味します |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield)
@@ -97,8 +97,8 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic, int inde
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | dataType | int | 頂点フィールドのデータ型 |
-| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | このフィールドは何に使用されますか |
-| インデックス | int | 同一フィールドのセマンティックのインデックス、-1 は自動生成です |
+| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | このフィールドはどのように使用されますか |
+| インデックス | int | 同じフィールドのセマンティクスのインデックス、-1 は自動生成を意味します |
 | エイリアス | java.lang.String | フィールドのエイリアス名 |
 
 **Returns:**
@@ -132,7 +132,7 @@ public boolean equals(Object obj)
 ```
 
 
-このインスタンスと、指定されたオブジェクト（これも [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) オブジェクトである必要があります）が同じ値かどうかを判断します。
+このインスタンスと、[VertexDeclaration](../../com.aspose.threed/vertexdeclaration) オブジェクトである必要がある指定オブジェクトが同じ値かどうかを判断します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -191,17 +191,17 @@ public int getCount()
 この [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) で定義されたすべてのフィールドの数を取得します
 
 **Returns:**
-int - この [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) で定義されたすべてのフィールドの数
+int - この[VertexDeclaration](../../com.aspose.threed/vertexdeclaration)で定義されたすべてのフィールドの数
 ### getSealed() {#getSealed--}
 ```
 public boolean getSealed()
 ```
 
 
-[TriMesh](../../com.aspose.threed/trimesg) に使用されたとき、[VertexDeclaration](../../com.aspose.threed/vertexdeclaration) はシールドされ、これ以上の変更は許可されません。
+[TriMesh](../../com.aspose.threed/trimesh) に使用された後、[VertexDeclaration](../../com.aspose.threed/vertexdeclaration) はシールされ、これ以上の変更は許可されません。
 
 **Returns:**
-boolean - [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) は [TriMesh](../../com.aspose.threed/trimesh) に使用されるとシールされ、これ以上の変更は許可されません。
+boolean - [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)は[TriMesh](../../com.aspose.threed/trimesh)で使用されるとシールされ、以後の変更は許可されません
 ### getSize() {#getSize--}
 ```
 public int getSize()
@@ -211,7 +211,7 @@ public int getSize()
 頂点構造体のバイト単位のサイズ。
 
 **Returns:**
-int - 頂点構造体のサイズ（バイト単位）です。
+int - 頂点構造体のバイト単位のサイズ
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -221,7 +221,7 @@ public int hashCode()
 この文字列のハッシュコードを返します。
 
 **Returns:**
-int - 32 ビット符号付き整数のハッシュコード。
+int - 32ビット符号付き整数のハッシュコード。
 ### iterator() {#iterator--}
 ```
 public Iterator<VertexField> iterator()

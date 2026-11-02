@@ -31,22 +31,22 @@ public class TextureData extends A3DObject
 | [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | ストリームからテクスチャを読み込みます |
 | [getBytesPerPixel()](#getBytesPerPixel--) | ピクセルあたりのバイト数 |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | ピクセルデータの生バイト列 |
+| [getData()](#getData--) | ピクセルデータの生バイト |
 | [getHeight()](#getHeight--) | 垂直方向のピクセル数 |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getPixelFormat()](#getPixelFormat--) | ピクセルのフォーマット |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
-| [getStride()](#getStride--) | 走査線のバイト数。 |
+| [getStride()](#getStride--) | スキャンラインのバイト数。 |
 | [getWidth()](#getWidth--) | 水平ピクセル数 |
 | [hashCode()](#hashCode--) |  |
-| [mapPixels(PixelMapMode mapMode)](#mapPixels-com.aspose.threed.PixelMapMode-) | 読み書き用にすべてのピクセルをマップする |
-| [mapPixels(PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | 指定されたピクセル形式で読み書き用にすべてのピクセルをマップする |
+| [mapPixels(PixelMapMode mapMode)](#mapPixels-com.aspose.threed.PixelMapMode-) | すべてのピクセルを読み書き用にマップする |
+| [mapPixels(PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | 指定されたピクセル形式で、すべてのピクセルを読み書き用にマップする |
 | [mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat format)](#mapPixels-com.aspose.threed.Rect-com.aspose.threed.PixelMapMode-com.aspose.threed.PixelFormat-) | 矩形で指定されたピクセルを、指定されたピクセル形式で読み書き用にマップする |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [save(Stream stream, String format)](#save-com.aspose.threed.Stream-java.lang.String-) | テクスチャデータを指定された画像形式で保存する |
 | [save(String fileName)](#save-java.lang.String-) | テクスチャデータを画像ファイルに保存する |
 | [save(String fileName, String format)](#save-java.lang.String-java.lang.String-) | テクスチャデータを画像ファイルに保存する |
@@ -70,7 +70,7 @@ public TextureData(int width, int height, int stride, int bytesPerPixel, PixelFo
 | --- | --- | --- |
 | 幅 | int |  |
 | 高さ | int |  |
-| ストライド | int |  |
+| stride | int |  |
 | bytesPerPixel | int |  |
 | pixelFormat | [PixelFormat](../../com.aspose.threed/pixelformat) |  |
 | データ | byte[] |  |
@@ -119,7 +119,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -184,7 +184,7 @@ public byte[] getData()
 ```
 
 
-ピクセルデータの生バイト列
+ピクセルデータの生バイト
 
 **Returns:**
 byte[] - ピクセルデータの生バイト列
@@ -207,7 +207,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getPixelFormat() {#getPixelFormat--}
 ```
 public PixelFormat getPixelFormat()
@@ -249,10 +249,10 @@ public int getStride()
 ```
 
 
-走査線のバイト数。
+スキャンラインのバイト数。
 
 **Returns:**
-int - 走査線のバイト数。
+int - スキャンラインのバイト数。
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
@@ -279,12 +279,12 @@ public PixelMapping mapPixels(PixelMapMode mapMode)
 ```
 
 
-読み書き用にすべてのピクセルをマップする
+すべてのピクセルを読み書き用にマップする
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | マップモード |
+| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | Map mode |
 
 **Returns:**
 [PixelMapping](../../com.aspose.threed/pixelmapping)
@@ -294,13 +294,13 @@ public PixelMapping mapPixels(PixelMapMode mapMode, PixelFormat format)
 ```
 
 
-指定されたピクセル形式で読み書き用にすべてのピクセルをマップする
+指定されたピクセル形式で、すべてのピクセルを読み書き用にマップする
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | マップモード |
-| format | [PixelFormat](../../com.aspose.threed/pixelformat) | ピクセル形式 |
+| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | Map mode |
+| format | [PixelFormat](../../com.aspose.threed/pixelformat) | Pixel format |
 
 **Returns:**
 [PixelMapping](../../com.aspose.threed/pixelmapping)
@@ -315,9 +315,9 @@ public PixelMapping mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat forma
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| rect | [Rect](../../com.aspose.threed/rect) | アクセス対象となるピクセル領域 |
-| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | マップモード |
-| format | [PixelFormat](../../com.aspose.threed/pixelformat) | ピクセル形式 |
+| rect | [Rect](../../com.aspose.threed/rect) | アクセス対象のピクセル領域 |
+| mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | Map mode |
+| format | [PixelFormat](../../com.aspose.threed/pixelformat) | Pixel format |
 
 **Returns:**
 [PixelMapping](../../com.aspose.threed/pixelmapping) - Returns a mapping object, it should be disposed when no longer needed.
@@ -348,7 +348,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -358,12 +358,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -379,7 +379,7 @@ public void save(Stream stream, String format)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | stream | [Stream](../../com.aspose.threed/stream) | 保存された画像を保持するストリーム |
-| format | java.lang.String | 画像形式（通常はファイル拡張子） |
+| 形式 | java.lang.String | 画像形式（通常はファイル拡張子） |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -406,7 +406,7 @@ public void save(String fileName, String format)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileName | java.lang.String | 画像が保存されるファイル名。 |
-| format | java.lang.String | 出力ファイルの画像形式。 |
+| 形式 | java.lang.String | 出力ファイルの画像形式。 |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```

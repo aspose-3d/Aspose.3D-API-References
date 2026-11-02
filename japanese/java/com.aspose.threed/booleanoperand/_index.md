@@ -20,13 +20,13 @@ public class BooleanOperand
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getOperand()](#getOperand--) | オペランドを取得します。オペランドは [HalfSpace](../../com.aspose.threed/halfspace)、[IMeshConvertible](../../com.aspose.threed/imeshconvertible) または [Node](../../com.aspose.threed/node) のインスタンスである可能性があります。 |
+| [getOperand()](#getOperand--) | オペランドを取得します。これは [HalfSpace](../../com.aspose.threed/halfspace)、[IMeshConvertible](../../com.aspose.threed/imeshconvertible) または [Node](../../com.aspose.threed/node) のインスタンスである可能性があります。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [of(Entity mesh)](#of-com.aspose.threed.Entity-) | ベアな [IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスから [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを作成します。 |
-| [of(Entity mesh, Matrix4 transform)](#of-com.aspose.threed.Entity-com.aspose.threed.Matrix4-) | [IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスと指定された変換から [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを作成します。 |
-| [of(Node node)](#of-com.aspose.threed.Node-) | ノードから [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを作成します。 有効なエンティティとして実装された [IMeshConvertible](../../com.aspose.threed/imeshconvertible) が必要です。 |
+| [of(Entity mesh)](#of-com.aspose.threed.Entity-) | ベアな [IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスから [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを構築します。 |
+| [of(Entity mesh, Matrix4 transform)](#of-com.aspose.threed.Entity-com.aspose.threed.Matrix4-) | [IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスと指定された変換から [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを構築します。 |
+| [of(Node node)](#of-com.aspose.threed.Node-) | ノードから [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを構築します。有効なエンティティとして実装された [IMeshConvertible](../../com.aspose.threed/imeshconvertible) が必要です。 |
 | [toString()](#toString--) | [BooleanOperand](../../com.aspose.threed/booleanoperand) の文字列表現を取得します。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public A3DObject getOperand()
 ```
 
 
-オペランドを取得します。オペランドは [HalfSpace](../../com.aspose.threed/halfspace)、[IMeshConvertible](../../com.aspose.threed/imeshconvertible) または [Node](../../com.aspose.threed/node) のインスタンスである可能性があります。
+オペランドを取得します。これは [HalfSpace](../../com.aspose.threed/halfspace)、[IMeshConvertible](../../com.aspose.threed/imeshconvertible) または [Node](../../com.aspose.threed/node) のインスタンスである可能性があります。
 
 **Returns:**
 [A3DObject](../../com.aspose.threed/a3dobject) - the operand, it can be an instance of [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) or [Node](../../com.aspose.threed/node).
@@ -98,7 +98,7 @@ public static BooleanOperand of(Entity mesh)
 ```
 
 
-ベアな [IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスから [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを作成します。
+ベアな [IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスから [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを構築します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -113,7 +113,7 @@ public static BooleanOperand of(Entity mesh, Matrix4 transform)
 ```
 
 
-[IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスと指定された変換から [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを作成します。
+[IMeshConvertible](../../com.aspose.threed/imeshconvertible) インスタンスと指定された変換から [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを構築します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -129,7 +129,7 @@ public static BooleanOperand of(Node node)
 ```
 
 
-ノードから [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを作成します。 有効なエンティティとして実装された [IMeshConvertible](../../com.aspose.threed/imeshconvertible) が必要です。
+ノードから [BooleanOperand](../../com.aspose.threed/booleanoperand) インスタンスを構築します。有効なエンティティとして実装された [IMeshConvertible](../../com.aspose.threed/imeshconvertible) が必要です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

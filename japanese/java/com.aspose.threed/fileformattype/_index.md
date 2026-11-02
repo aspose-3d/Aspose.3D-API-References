@@ -19,9 +19,9 @@ public final class FileFormatType
 | フィールド | 説明 |
 | --- | --- |
 | [AMF](#AMF) | 積層造形ファイル形式 |
-| [ASE](#ASE) | 3D Studio Max の ASCII シーンエクスポーター形式。 |
-| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Aspose.3D Web 形式。 |
-| [BLENDER](#BLENDER) | Blender フォーマットタイプ |
+| [ASE](#ASE) | 3D Studio Max の ASCII シーンエクスポーター形式です。 |
+| [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Aspose.3D Web 形式です。 |
+| [BLENDER](#BLENDER) | Blender のフォーマットタイプ |
 | [COLLADA](#COLLADA) | Khronos Group の Collada ファイルフォーマットです。 |
 | [DISCREET3DS](#DISCREET3DS) | Discreet 3D Studio のファイルフォーマット |
 | [DRACO](#DRACO) | Google Draco メッシュ |
@@ -35,7 +35,7 @@ public final class FileFormatType
 | [PCD](#PCD) | Point Cloud Library が使用するポイントクラウドデータ |
 | [PDF](#PDF) | ポータブルドキュメントフォーマット |
 | [PLY](#PLY) | Polygon File Format または Stanford Triangle Format |
-| [RVM](#RVM) | AVEVA Plant Design Management System モデルです。 |
+| [RVM](#RVM) | AVEVA Plant Design Management System のモデルです。 |
 | [SIEMENSJT](#SIEMENSJT) | Siemens PLM Software NX の JT ファイル |
 | [STL](#STL) | STL ファイルフォーマットタイプ |
 | [UNIVERSAL3D](#UNIVERSAL3D) | Universal 3D ファイルフォーマットタイプ |
@@ -51,7 +51,7 @@ public final class FileFormatType
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExtension()](#getExtension--) | このファイルフォーマットの拡張子名（先頭は . です）。 |
+| [getExtension()](#getExtension--) | このファイルフォーマットの拡張子名（先頭は .） |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -73,7 +73,7 @@ public static final FileFormatType ASE
 ```
 
 
-3D Studio Max の ASCII シーンエクスポーター形式。
+3D Studio Max の ASCII シーンエクスポーター形式です。
 
 ### ASPOSE3D_WEB {#ASPOSE3D-WEB}
 ```
@@ -81,7 +81,7 @@ public static final FileFormatType ASPOSE3D_WEB
 ```
 
 
-Aspose.3D Web 形式。
+Aspose.3D Web 形式です。
 
 ### BLENDER {#BLENDER}
 ```
@@ -89,7 +89,7 @@ public static final FileFormatType BLENDER
 ```
 
 
-Blender フォーマットタイプ
+Blender のフォーマットタイプ
 
 ### COLLADA {#COLLADA}
 ```
@@ -201,7 +201,7 @@ public static final FileFormatType RVM
 ```
 
 
-AVEVA Plant Design Management System モデルです。
+AVEVA Plant Design Management System のモデルです。
 
 ### SIEMENSJT {#SIEMENSJT}
 ```
@@ -306,10 +306,10 @@ public String getExtension()
 ```
 
 
-このファイルフォーマットの拡張子名（先頭は . です）。
+このファイルフォーマットの拡張子名（先頭は .）
 
 **Returns:**
-java.lang.String - このファイルフォーマットの拡張子名（先頭は . です）。
+java.lang.String - このファイルフォーマットの拡張子名（先頭は .）
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -345,7 +345,7 @@ public String toString()
 このファイルフォーマットタイプの名前を取得します
 
 **Returns:**
-java.lang.String - 現在の[toString](../../com.aspose.threed/fileformattype\#toString) を表す java.lang.String
+java.lang.String - 現在の [toString](../../com.aspose.threed/fileformattype\#toString) を表す java.lang.String
 ### wait() {#wait--}
 ```
 public final void wait()

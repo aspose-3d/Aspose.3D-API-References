@@ -8,12 +8,12 @@ url: /ja/java/com.aspose.threed/node/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject)、[com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject)
+java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobject), [com.aspose.threed.SceneObject](../../com.aspose.threed/sceneobject)
 ```
 public class Node extends SceneObject
 ```
 
-シーン グラフ内の要素を表します。シーン グラフは Node オブジェクトのツリーです。ツリー管理サービスはこのクラスに自己完結しています。Aspose.3D SDK は構築されたシーン グラフの有効性をテストしないことに注意してください。呼び出し元の責任で、ノード階層に循環グラフが生成されないようにする必要があります。ツリー管理に加えて、このクラスはシーン内のオブジェクトの位置を記述するために必要なすべてのプロパティを定義します。この情報には基本的な平行移動、回転、スケーリングのプロパティと、ピボット、リミット、IK ジョイント属性（剛性や減衰など）の高度なオプションが含まれます。最初に作成されたとき、Node オブジェクトは "empty"（つまり、位置情報のみを含むグラフィカルな表現を持たないオブジェクト）です。この状態では、ノードツリー構造の親を表すために使用できますが、それ以上のことはできません。この種のオブジェクトの通常の使用方法は、ノードを専門化するエンティティを追加することです（"Entity" を参照）。エンティティはそれ自体がオブジェクトであり、Node に接続されています。これは同じエンティティを複数のノード間で共有できることも意味します。Camera、Light、Mesh などはすべてエンティティであり、すべて基底クラス Entity から派生しています。
+シーン グラフの要素を表します。シーン グラフは Node オブジェクトのツリーです。ツリー管理サービスはこのクラスに自己完結しています。Aspose.3D SDK は構築されたシーン グラフの有効性を検証しないことに注意してください。呼び出し側の責任で、ノード階層に循環グラフが生成されないようにする必要があります。ツリー管理に加えて、このクラスはシーン内のオブジェクトの位置を記述するために必要なすべてのプロパティを定義します。この情報には基本的な Translation、Rotation、Scaling プロパティと、ピボット、リミット、IK ジョイント属性（剛性や減衰など）の高度なオプションが含まれます。最初に作成されたとき、Node オブジェクトは"empty"（つまり、位置情報のみを保持し、グラフィカルな表現を持たないオブジェクト）です。この状態では、ノード ツリー構造の親を表すことはできますが、それ以上の用途には向きません。この種のオブジェクトの一般的な使用方法は、ノードを専門化するエンティティを追加することです（"Entity"参照）。エンティティはそれ自体がオブジェクトであり、Node に接続されています。これは同じエンティティを複数のノードで共有できることも意味します。Camera、Light、Mesh などはすべてエンティティであり、すべて基底クラス Entity から派生しています。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -29,12 +29,12 @@ public class Node extends SceneObject
 | [addChildNode(Node node)](#addChildNode-com.aspose.threed.Node-) | このノードに子ノードを追加します。 |
 | [addEntity(Entity entity)](#addEntity-com.aspose.threed.Entity-) | ノードにエンティティを追加します。 |
 | [createChildNode()](#createChildNode--) | 子ノードを作成します |
-| [createChildNode(Entity entity)](#createChildNode-com.aspose.threed.Entity-) | 指定されたエンティティが添付された新しい子ノードを作成します |
+| [createChildNode(Entity entity)](#createChildNode-com.aspose.threed.Entity-) | 指定されたエンティティを添付した新しい子ノードを作成します |
 | [createChildNode(String nodeName)](#createChildNode-java.lang.String-) | 指定されたノード名で新しい子ノードを作成します |
 | [createChildNode(String nodeName, Entity entity)](#createChildNode-java.lang.String-com.aspose.threed.Entity-) | 指定されたノード名で新しい子ノードを作成します |
 | [createChildNode(String nodeName, Entity entity, Material material)](#createChildNode-java.lang.String-com.aspose.threed.Entity-com.aspose.threed.Material-) | 指定されたノード名で新しい子ノードを作成し、指定されたエンティティとマテリアルを添付します |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [evaluateGlobalTransform(boolean withGeometricTransform)](#evaluateGlobalTransform-boolean-) | グローバル変換を評価し、幾何変換を含めるかどうかを指定します。 |
+| [evaluateGlobalTransform(boolean withGeometricTransform)](#evaluateGlobalTransform-boolean-) | グローバルトランスフォームを評価し、ジオメトリ変換を含めるかどうかを決定します。 |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getAssetInfo()](#getAssetInfo--) | ノードごとのアセット情報 |
 | [getBoundingBox()](#getBoundingBox--) | ノードのバウンディングボックスを計算します |
@@ -43,10 +43,10 @@ public class Node extends SceneObject
 | [getChildNodes()](#getChildNodes--) | 子ノードを取得します。 |
 | [getClass()](#getClass--) |  |
 | [getEntities()](#getEntities--) | すべてのノードエンティティを取得します。 |
-| [getEntity()](#getEntity--) | このノードに添付された最初のエンティティを取得します。設定すると、他のエンティティはクリアされます。 |
+| [getEntity()](#getEntity--) | このノードに添付された最初のエンティティを取得します。設定した場合、他のエンティティはクリアされます。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのノードとすべての子ノード/エンティティを除外するかどうかを取得します。 |
-| [getGlobalTransform()](#getGlobalTransform--) | グローバル変換を取得します。 |
-| [getMaterial()](#getMaterial--) | このノードに関連付けられた最初のマテリアルを取得します。設定すると、他のマテリアルはクリアされます |
+| [getGlobalTransform()](#getGlobalTransform--) | グローバルトランスフォームを取得します。 |
+| [getMaterial()](#getMaterial--) | このノードに関連付けられた最初のマテリアルを取得します。設定した場合、他のマテリアルはクリアされます。 |
 | [getMaterials()](#getMaterials--) | このノードに関連付けられたマテリアルを取得します。 |
 | [getMetaDatas()](#getMetaDatas--) | このノードで定義されたメタデータを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -54,24 +54,24 @@ public class Node extends SceneObject
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getTransform()](#getTransform--) | ローカル変換を取得します。 |
+| [getTransform()](#getTransform--) | ローカルトランスフォームを取得します。 |
 | [getVisible()](#getVisible--) | ノードの表示状態を取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [merge(Node node)](#merge-com.aspose.threed.Node-) | ノード以下のすべてをデタッチし、現在のノードに添付します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [selectObjects(String path)](#selectObjects-java.lang.String-) | XPath ライクなクエリ構文を使用して、現在のノード以下の複数オブジェクトを選択します。 |
 | [selectSingleObject(String path)](#selectSingleObject-java.lang.String-) | XPath ライクなクエリ構文を使用して、現在のノード以下の単一オブジェクトを選択します。 |
 | [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | ノードごとのアセット情報 |
-| [setEntity(Entity value)](#setEntity-com.aspose.threed.Entity-) | このノードに添付された最初のエンティティを設定します。設定すると、他のエンティティはクリアされます。 |
+| [setEntity(Entity value)](#setEntity-com.aspose.threed.Entity-) | このノードに添付された最初のエンティティを設定します。設定した場合、他のエンティティはクリアされます。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのノードとすべての子ノード/エンティティを除外するかどうかを設定します。 |
 | [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | このノードに関連付けられた最初のマテリアルを設定します。設定すると、他のマテリアルはクリアされます。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 親ノードを設定します。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setVisible(boolean value)](#setVisible-boolean-) | ノードを表示するように設定します。 |
+| [setVisible(boolean value)](#setVisible-boolean-) | ノードを表示するように設定します |
 | [toString()](#toString--) | このノードの文字列表現を取得します。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -117,7 +117,7 @@ public boolean accept(NodeVisitor visitor)
 ```
 
 
-現在のノードを含むすべての子孫ノードを走査し、ノードを引数としてビジターを呼び出します。ビジターは false を返すことで走査を中断できます。
+すべての子孫ノード（現在のノードを含む）を走査し、ノードを引数としてビジターを呼び出します。ビジターは false を返すことで走査を中断できます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -125,7 +125,7 @@ public boolean accept(NodeVisitor visitor)
 | visitor | [NodeVisitor](../../com.aspose.threed/nodevisitor) | ノードを訪問するためのビジターコールバック |
 
 **Returns:**
-boolean - true はビジターが走査を中断したことを意味します。 **Example:** 以下のコードはシーンからすべてのメッシュを取得する方法を示しています。
+boolean - true はビジターが走査を中断したことを意味します。 **例:** 以下のコードはシーンからすべてのメッシュを取得する方法を示しています
 
 ```
 Scene scene = Scene.fromFile("input.fbx");
@@ -151,7 +151,7 @@ public void addChildNode(Node node)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | node | [Node](../../com.aspose.threed/node) | 添付される子ノード **Example:** 以下のコードはシーンからすべてのメッシュを取得する方法を示しています。 |
+|  | node | [Node](../../com.aspose.threed/node) | 添付される子ノード **例:** 以下のコードはシーンからすべてのメッシュを取得する方法を示しています |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");
@@ -196,7 +196,7 @@ public Node createChildNode(Entity entity)
 ```
 
 
-指定されたエンティティが添付された新しい子ノードを作成します
+指定されたエンティティを添付した新しい子ノードを作成します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -287,12 +287,12 @@ public Matrix4 evaluateGlobalTransform(boolean withGeometricTransform)
 ```
 
 
-グローバル変換を評価し、幾何変換を含めるかどうかを指定します。
+グローバルトランスフォームを評価し、ジオメトリ変換を含めるかどうかを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| withGeometricTransform | boolean | 幾何変換が必要かどうか。 |
+| withGeometricTransform | boolean | ジオメトリ変換が必要かどうか。 |
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - The global transform matrix. **Example:** The following code shows how to read the node's global transform matrix.
@@ -311,7 +311,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -372,7 +372,7 @@ public Node getChild(String nodeName)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| nodeName | java.lang.String | 検索する子の名前。 |
+| nodeName | java.lang.String | 検索する子ノードの名前 |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The child. **Example:** The following code shows how to get a child node with specified name
@@ -391,7 +391,7 @@ public List<Node> getChildNodes()
 子ノードを取得します。
 
 **Returns:**
-java.util.List<com.aspose.threed.Node> - 子ノードのリストです。 **Example:** 以下のコードはルートノードの子ノードを列挙する方法を示しています。
+java.util.List<com.aspose.threed.Node> - 子ノードのリスト。 **例:** 以下のコードはルートノードの子ノードを列挙する方法を示しています
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -426,7 +426,7 @@ public Entity getEntity()
 ```
 
 
-このノードに添付された最初のエンティティを取得します。設定すると、他のエンティティはクリアされます。
+このノードに添付された最初のエンティティを取得します。設定した場合、他のエンティティはクリアされます。
 
 **Returns:**
 [Entity](../../com.aspose.threed/entity) - the first entity attached to this node, if sets, will clear other entities. **Example:** The following code shows how to create a new child node under root node
@@ -446,7 +446,7 @@ public boolean getExcluded()
 エクスポート時にこのノードとすべての子ノード/エンティティを除外するかどうかを取得します。
 
 **Returns:**
-boolean - エクスポート時にこのノードとすべての子ノード/エンティティを除外するかどうか。 **Example:** 以下のコードは指定したノードをエクスポートから除外する方法を示しています。
+boolean - エクスポート時にこのノードとすべての子ノード/エンティティを除外するかどうか。 **例:** 以下のコードは指定されたノードをエクスポートから除外する方法を示しています
 
 ```
 Scene scene = new Scene();
@@ -460,7 +460,7 @@ public GlobalTransform getGlobalTransform()
 ```
 
 
-グローバル変換を取得します。
+グローバルトランスフォームを取得します。
 
 **Returns:**
 [GlobalTransform](../../com.aspose.threed/globaltransform) - the global transform. **Example:** The following code shows how to read node's global transform
@@ -479,7 +479,7 @@ public Material getMaterial()
 ```
 
 
-このノードに関連付けられた最初のマテリアルを取得します。設定すると、他のマテリアルはクリアされます
+このノードに関連付けられた最初のマテリアルを取得します。設定した場合、他のマテリアルはクリアされます。
 
 **Returns:**
 [Material](../../com.aspose.threed/material) - the first material associated with this node, if sets, will clear other materials **Example:**
@@ -518,7 +518,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -570,7 +570,7 @@ public Transform getTransform()
 ```
 
 
-ローカル変換を取得します。
+ローカルトランスフォームを取得します。
 
 **Returns:**
 [Transform](../../com.aspose.threed/transform) - the local transform. **Example:** The following code shows how to change the transform of the node:
@@ -590,7 +590,7 @@ public boolean getVisible()
 ノードの表示状態を取得します。
 
 **Returns:**
-boolean - ノードを表示するかどうか。 **Example:** 以下のコードは不可視ノードを作成する方法を示しています。
+boolean - ノードを表示するかどうか。 **例:** 以下のコードは不可視ノードを作成する方法を示しています
 
 ```
 Scene scene = new Scene();
@@ -614,7 +614,7 @@ public void merge(Node node)
 ```
 
 
-ノード以下のすべてを切り離し、現在のノードに添付します。 **Example:** 以下のコードは2つの3Dファイルを1つのファイルにマージする方法を示しています。
+ノード以下のすべてをデタッチし、現在のノードに添付します。 **例:** 以下のコードは2つの3Dファイルを1つにマージする方法を示しています
 
 ```
 Scene scene1 = Scene.fromFile("scene1.fbx");
@@ -655,7 +655,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -665,12 +665,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -685,7 +685,7 @@ XPath ライクなクエリ構文を使用して、現在のノード以下の�
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | java.lang.String | XPath 風のクエリ |
+| パス | java.lang.String | XPath ライクなクエリ |
 
 **Returns:**
 java.util.ArrayList<java.lang.Object> - XPath のようなクエリに一致する複数のオブジェクトです。
@@ -700,7 +700,7 @@ XPath ライクなクエリ構文を使用して、現在のノード以下の�
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | java.lang.String | XPath 風のクエリ |
+| パス | java.lang.String | XPath ライクなクエリ |
 
 **Returns:**
 java.lang.Object - XPath のようなクエリで見つかったオブジェクトです。
@@ -723,7 +723,7 @@ public void setEntity(Entity value)
 ```
 
 
-このノードに添付された最初のエンティティを設定します。設定すると、他のエンティティはクリアされます。
+このノードに添付された最初のエンティティを設定します。設定した場合、他のエンティティはクリアされます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -822,7 +822,7 @@ public void setVisible(boolean value)
 ```
 
 
-ノードを表示するように設定します。
+ノードを表示するように設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

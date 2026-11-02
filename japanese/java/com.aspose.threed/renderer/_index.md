@@ -35,26 +35,26 @@ public abstract class Renderer implements Closeable
 | [getNode()](#getNode--) | ワールド変換行列を提供するために使用される [getNode](../../com.aspose.threed/renderer\#getNode) インスタンスを取得します。 |
 | [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | レンダラーがサポートする組み込みのポストプロセッサを取得します。 |
 | [getPostProcessings()](#getPostProcessings--) | アクティブなポストプロセッシングチェーン |
-| [getPresetShaders()](#getPresetShaders--) | プリセットシェーダーセットを取得します |
+| [getPresetShaders()](#getPresetShaders--) | プリセットシェーダーセットを取得します。 |
 | [getRenderFactory()](#getRenderFactory--) | レンダー関連オブジェクトを構築するファクトリを取得します。 |
 | [getRenderStage()](#getRenderStage--) | 現在のレンダーステージを取得します。 |
 | [getRenderTarget()](#getRenderTarget--) | 以下のレンダー操作が実行されるレンダーターゲットを指定します。 |
 | [getShader()](#getShader--) | ジオメトリのレンダリングに使用されるシェーダーインスタンスを取得します。 |
-| [getShaderSet()](#getShaderSet--) | シーンのレンダリングに使用されるシェーダーセットを取得します |
-| [getVariables()](#getVariables--) | レンダリングに使用される内部変数へアクセスします |
+| [getShaderSet()](#getShaderSet--) | シーンのレンダリングに使用されるシェーダーセットを取得します。 |
+| [getVariables()](#getVariables--) | レンダリングに使用される内部変数にアクセスします。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [registerEntityRenderer(EntityRenderer renderer)](#registerEntityRenderer-com.aspose.threed.EntityRenderer-) | 指定されたエンティティのエンティティレンダラーを登録します |
-| [render(IRenderTarget renderTarget)](#render-com.aspose.threed.IRenderTarget-) | 指定されたターゲットをレンダリングします |
+| [registerEntityRenderer(EntityRenderer renderer)](#registerEntityRenderer-com.aspose.threed.EntityRenderer-) | 指定されたエンティティのエンティティレンダラーを登録します。 |
+| [render(IRenderTarget renderTarget)](#render-com.aspose.threed.IRenderTarget-) | 指定されたターゲットをレンダリングします。 |
 | [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | シャドウを有効にするかどうかを設定します。 |
 | [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | エンティティに特別なレンダラーが定義されていない場合のフォールバックエンティティレンダラーを設定します。 |
 | [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | ビュー行列を提供するために使用されるフラスタムを設定します。 |
 | [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | シェーダーで使用されるマテリアル情報を提供するために使用されるマテリアルを設定します。 |
 | [setNode(Node value)](#setNode-com.aspose.threed.Node-) | ワールド変換行列を提供するために使用される [getNode](../../com.aspose.threed/renderer\#getNode) インスタンスを設定します。 |
-| [setPresetShaders(PresetShaders value)](#setPresetShaders-com.aspose.threed.PresetShaders-) | プリセットシェーダーセットを設定します |
+| [setPresetShaders(PresetShaders value)](#setPresetShaders-com.aspose.threed.PresetShaders-) | プリセットシェーダーセットを設定します。 |
 | [setShader(ShaderProgram value)](#setShader-com.aspose.threed.ShaderProgram-) | ジオメトリのレンダリングに使用されるシェーダーインスタンスを設定します。 |
-| [setShaderSet(ShaderSet value)](#setShaderSet-com.aspose.threed.ShaderSet-) | シーンのレンダリングに使用されるシェーダーセットを設定します |
+| [setShaderSet(ShaderSet value)](#setShaderSet-com.aspose.threed.ShaderSet-) | シーンのレンダリングに使用されるシェーダーセットを設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public void clearCache()
 ```
 
 
-キャッシュを手動でクリアします。Aspose.3D はマテリアルやジオメトリなどのオブジェクトをレンダーパイプラインと互換性のある内部タイプにキャッシュします。シーンに大きな変更がある場合は手動で呼び出す必要があります。
+キャッシュを手動でクリアします。Aspose.3D は、マテリアルやジオメトリなどのオブジェクトをレンダーパイプラインと互換性のある内部型にキャッシュします。シーンに大きな変更がある場合は、手動で呼び出す必要があります。
 
 ### close() {#close--}
 ```
@@ -215,7 +215,7 @@ public PresetShaders getPresetShaders()
 ```
 
 
-プリセットシェーダーセットを取得します
+プリセットシェーダーセットを取得します。
 
 **Returns:**
 [PresetShaders](../../com.aspose.threed/presetshaders) - the preset shader set
@@ -265,7 +265,7 @@ public ShaderSet getShaderSet()
 ```
 
 
-シーンのレンダリングに使用されるシェーダーセットを取得します
+シーンのレンダリングに使用されるシェーダーセットを取得します。
 
 **Returns:**
 [ShaderSet](../../com.aspose.threed/shaderset) - the shader set that used to render the scene
@@ -275,7 +275,7 @@ public RendererVariableManager getVariables()
 ```
 
 
-レンダリングに使用される内部変数へアクセスします
+レンダリングに使用される内部変数にアクセスします。
 
 **Returns:**
 [RendererVariableManager](../../com.aspose.threed/renderervariablemanager) - Access to the internal variables used for rendering
@@ -311,7 +311,7 @@ public void registerEntityRenderer(EntityRenderer renderer)
 ```
 
 
-指定されたエンティティのエンティティレンダラーを登録します
+指定されたエンティティのエンティティレンダラーを登録します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -324,7 +324,7 @@ public void render(IRenderTarget renderTarget)
 ```
 
 
-指定されたターゲットをレンダリングします
+指定されたターゲットをレンダリングします。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -402,7 +402,7 @@ public void setPresetShaders(PresetShaders value)
 ```
 
 
-プリセットシェーダーセットを設定します
+プリセットシェーダーセットを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -428,7 +428,7 @@ public void setShaderSet(ShaderSet value)
 ```
 
 
-シーンのレンダリングに使用されるシェーダーセットを設定します
+シーンのレンダリングに使用されるシェーダーセットを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -1,7 +1,7 @@
 ---
 title: "VertexElementType"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "頂点要素のタイプは、モデリングでの使用方法を定義します。"
+description: "頂点要素のタイプは、モデリングでどのように使用されるかを定義します。"
 type: docs
 weight: 308
 url: /ja/java/com.aspose.threed/vertexelementtype/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum VertexElementType extends Enum<VertexElementType>
 ```
 
-頂点要素のタイプで、モデリングでの使用方法が定義されます。
+頂点要素の型で、モデリングでの使用方法が定義されます。
 ## フィールド
 
 | フィールド | 説明 |
 | --- | --- |
 | [BINORMAL](#BINORMAL) | バイノーマルベクトル、[VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal) を参照してください |
-| [EDGE_CREASE](#EDGE-CREASE) | エッジクリーズ、[VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease) |
+| [EDGE_CREASE](#EDGE-CREASE) | エッジクレース、[VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease) を参照してください |
 | [HOLE](#HOLE) | 穴、[VertexElementHole](../../com.aspose.threed/vertexelementhole) を参照してください |
 | [MATERIAL](#MATERIAL) | マテリアルインデックス、[VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) を参照してください |
 | [NORMAL](#NORMAL) | 法線ベクトル、[VertexElementNormal](../../com.aspose.threed/vertexelementnormal) を参照してください |
@@ -30,7 +30,7 @@ public enum VertexElementType extends Enum<VertexElementType>
 | [USER_DATA](#USER-DATA) | ユーザーデータ、通常はアプリケーション固有の目的で使用されます、[VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) を参照してください |
 | [UV](#UV) | テクスチャUV座標、[VertexElementUV](../../com.aspose.threed/vertexelementuv) を参照してください |
 | [VERTEX_COLOR](#VERTEX-COLOR) | 頂点カラー、[VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) を参照してください |
-| [VERTEX_CREASE](#VERTEX-CREASE) | 頂点クリーズ、[VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) を参照してください |
+| [VERTEX_CREASE](#VERTEX-CREASE) | 頂点クレース、[VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) を参照してください |
 | [VISIBILITY](#VISIBILITY) | コンポーネントの可視性、[VertexElementVisibility](../../com.aspose.threed/vertexelementvisibility) を参照してください |
 | [WEIGHT](#WEIGHT) | ブレンドウェイト、[VertexElementWeight](../../com.aspose.threed/vertexelementweight) を参照してください |
 ## メソッド
@@ -68,7 +68,7 @@ public static final VertexElementType EDGE_CREASE
 ```
 
 
-エッジクリーズ、[VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease)
+エッジクレース、[VertexElementEdgeCrease](../../com.aspose.threed/vertexelementedgecrease) を参照してください
 
 ### HOLE {#HOLE}
 ```
@@ -156,7 +156,7 @@ public static final VertexElementType VERTEX_CREASE
 ```
 
 
-頂点クリーズ、[VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) を参照してください
+頂点クレース、[VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) を参照してください
 
 ### VISIBILITY {#VISIBILITY}
 ```

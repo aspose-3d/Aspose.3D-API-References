@@ -25,13 +25,13 @@ public static class StructuralMetadata.PropertyTable
 | --- | --- |
 | [addValue(StructuralMetadata.Property prop, Object value)](#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-) | プロパティテーブルに新しいプロパティを追加します。 |
 | [addValue(String propName, Object value)](#addValue-java.lang.String-java.lang.Object-) | プロパティテーブルに新しいプロパティを追加します。 |
-| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | 現在のプロパティテーブルを指定されたユーザーデータに添付します |
+| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | 現在のプロパティテーブルを指定されたユーザーデータに添付します。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | 指定されたユーザーデータから添付されたプロパティテーブルを抽出します |
+| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | 指定されたユーザーデータから添付されたプロパティテーブルを抽出します。 |
 | [getClass()](#getClass--) |  |
 | [getMetaClass()](#getMetaClass--) | このプロパティテーブルのメタクラスです。 |
 | [getName()](#getName--) | プロパティテーブルの名前です。 |
-| [getValue(String name)](#getValue-java.lang.String-) | 指定されたプロパティ名の値を取得します |
+| [getValue(String name)](#getValue-java.lang.String-) | 指定されたプロパティ名の値を取得します。 |
 | [getValues()](#getValues--) | プロパティテーブルの値です。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -52,7 +52,7 @@ public PropertyTable(String name, StructuralMetadata.ClassType mclass)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | 名前 | java.lang.String | このテーブルインスタンスの名前です。 |
-| mclass | [ClassType](../../com.aspose.threed/classtype) | このプロパティテーブルのメタクラス定義です |
+| mclass | [ClassType](../../com.aspose.threed/classtype) | このプロパティテーブルのメタクラス定義です。 |
 
 ### addValue(StructuralMetadata.Property prop, Object value) {#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-}
 ```
@@ -88,7 +88,7 @@ public void attach(VertexElementUserData userData)
 ```
 
 
-現在のプロパティテーブルを指定されたユーザーデータに添付します
+現在のプロパティテーブルを指定されたユーザーデータに添付します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -116,12 +116,12 @@ public static StructuralMetadata.PropertyTable from(VertexElementUserData userDa
 ```
 
 
-指定されたユーザーデータから添付されたプロパティテーブルを抽出します
+指定されたユーザーデータから添付されたプロパティテーブルを抽出します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | プロパティテーブルに関連付けられたユーザーデータです |
+| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | プロパティテーブルに関連付けられたユーザーデータです。 |
 
 **Returns:**
 [PropertyTable](../../com.aspose.threed/propertytable) - The associated property table instance
@@ -161,7 +161,7 @@ public Object getValue(String name)
 ```
 
 
-指定されたプロパティ名の値を取得します
+指定されたプロパティ名の値を取得します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

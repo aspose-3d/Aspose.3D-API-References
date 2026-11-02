@@ -1,7 +1,7 @@
 ---
 title: "HalfSpace"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "無限空間を表し、平面で分割されます。これに使用できます。"
+description: "平面で分割された無限空間を表し、これに使用できます"
 type: docs
 weight: 77
 url: /ja/java/com.aspose.threed/halfspace/
@@ -18,8 +18,8 @@ public class HalfSpace extends Entity
 
 | コンストラクタ | 説明 |
 | --- | --- |
-| [HalfSpace()](#HalfSpace--) | 新しい [HalfSpace](../../com.aspose.threed/halfspace) のインスタンスを構築します |
-| [HalfSpace(Vector3 normal, Vector3 position)](#HalfSpace-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 指定された法線ベクトルとカッタープレーン上の位置を使用して、新しい [HalfSpace](../../com.aspose.threed/halfspace) のインスタンスを構築します; |
+| [HalfSpace()](#HalfSpace--) | 新しい [HalfSpace](../../com.aspose.threed/halfspace) インスタンスを構築します |
+| [HalfSpace(Vector3 normal, Vector3 position)](#HalfSpace-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | 指定された法線ベクトルとカッター平面上の位置で新しい [HalfSpace](../../com.aspose.threed/halfspace) インスタンスを構築します； |
 ## メソッド
 
 | メソッド | 説明 |
@@ -28,13 +28,13 @@ public class HalfSpace extends Entity
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
-| [getNormal()](#getNormal--) | 分割平面の法線で、平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。 |
+| [getNormal()](#getNormal--) | 分割平面の法線。平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。 |
 | [getParentNode()](#getParentNode--) | 最初の親ノードを取得します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [getParentNodes()](#getParentNodes--) | すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。 |
-| [getPosition()](#getPosition--) | 分割平面上の任意の点で、平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。 |
+| [getPosition()](#getPosition--) | 分割平面上の任意の点。平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。 |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
@@ -42,12 +42,12 @@ public class HalfSpace extends Entity
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
-| [setNormal(Vector3 value)](#setNormal-com.aspose.threed.Vector3-) | 分割平面の法線で、平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。 |
+| [setNormal(Vector3 value)](#setNormal-com.aspose.threed.Vector3-) | 分割平面の法線。平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
-| [setPosition(Vector3 value)](#setPosition-com.aspose.threed.Vector3-) | 分割平面上の任意の点で、平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。 |
+| [setPosition(Vector3 value)](#setPosition-com.aspose.threed.Vector3-) | 分割平面上の任意の点。平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -59,7 +59,7 @@ public HalfSpace()
 ```
 
 
-新しい [HalfSpace](../../com.aspose.threed/halfspace) のインスタンスを構築します
+新しい [HalfSpace](../../com.aspose.threed/halfspace) インスタンスを構築します
 
 ### HalfSpace(Vector3 normal, Vector3 position) {#HalfSpace-com.aspose.threed.Vector3-com.aspose.threed.Vector3-}
 ```
@@ -67,7 +67,7 @@ public HalfSpace(Vector3 normal, Vector3 position)
 ```
 
 
-指定された法線ベクトルとカッタープレーン上の位置を使用して、新しい [HalfSpace](../../com.aspose.threed/halfspace) のインスタンスを構築します;
+指定された法線ベクトルとカッター平面上の位置で新しい [HalfSpace](../../com.aspose.threed/halfspace) インスタンスを構築します；
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -96,7 +96,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -138,7 +138,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -161,14 +161,14 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getNormal() {#getNormal--}
 ```
 public Vector3 getNormal()
 ```
 
 
-分割平面の法線で、平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。
+分割平面の法線。平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The normal of the split plane, the plane is defined as N \* P + D = 0 where N is Normal and P is any point on the plane.
@@ -191,14 +191,14 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getPosition() {#getPosition--}
 ```
 public Vector3 getPosition()
 ```
 
 
-分割平面上の任意の点で、平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。
+分割平面上の任意の点。平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The any point on the split plane, the plane is defined as N \* P + D = 0 where N is Normal and P is any point on the plane.
@@ -274,7 +274,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -284,12 +284,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -325,7 +325,7 @@ public void setNormal(Vector3 value)
 ```
 
 
-分割平面の法線で、平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。
+分割平面の法線。平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -351,7 +351,7 @@ public void setPosition(Vector3 value)
 ```
 
 
-分割平面上の任意の点で、平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。
+分割平面上の任意の点。平面は N \* P + D = 0 と定義され、N は法線、P は平面上の任意の点です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

@@ -1,7 +1,7 @@
 ---
 title: "TextureMapping"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "テクスチャマッピングタイプは、使用されるテクスチャマッピングの種類を示します。"
+description: "テクスチャマッピングのタイプ - 使用されるテクスチャマッピングの種類を説明します。"
 type: docs
 weight: 306
 url: /ja/java/com.aspose.threed/texturemapping/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum TextureMapping extends Enum<TextureMapping>
 ```
 
-テクスチャマッピングタイプは [VertexElementUV](../../com.aspose.threed/vertexelementuv) 用で、使用されるテクスチャマッピングの種類を示します。
+テクスチャマッピングのタイプ for [VertexElementUV](../../com.aspose.threed/vertexelementuv) - 使用されるテクスチャマッピングの種類を説明します。
 ## フィールド
 
 | フィールド | 説明 |
@@ -24,7 +24,7 @@ public enum TextureMapping extends Enum<TextureMapping>
 | [DISPLACEMENT](#DISPLACEMENT) | 変位マップ |
 | [EMISSIVE](#EMISSIVE) | エミッシブマップ |
 | [GLOW](#GLOW) | グローマップ |
-| [NORMAL](#NORMAL) | 法線マップ |
+| [NORMAL](#NORMAL) | ノーマルマップ |
 | [OPACITY](#OPACITY) | 不透明度マップ |
 | [REFLECTION](#REFLECTION) | 反射マップ |
 | [SHADOW](#SHADOW) | シャドウマップ |
@@ -105,7 +105,7 @@ public static final TextureMapping NORMAL
 ```
 
 
-法線マップ
+ノーマルマップ
 
 ### OPACITY {#OPACITY}
 ```

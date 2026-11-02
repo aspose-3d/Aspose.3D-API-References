@@ -1,7 +1,7 @@
 ---
 title: "IRenderQueue"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "エンティティレンダラーはこのキューを使用してレンダリングタスクを管理します。"
+description: "エンティティレンダラーはこのキューを使用してレンダータスクを管理します。"
 type: docs
 weight: 248
 url: /ja/java/com.aspose.threed/irenderqueue/
@@ -10,7 +10,7 @@ url: /ja/java/com.aspose.threed/irenderqueue/
 public interface IRenderQueue
 ```
 
-エンティティレンダラーはこのキューを使用してレンダリングタスクを管理します。
+エンティティレンダラーはこのキューを使用してレンダータスクを管理します。
 ## メソッド
 
 | メソッド | 説明 |
@@ -27,8 +27,8 @@ public abstract void add(RenderQueueGroupId groupId, IPipeline pipeline, Object 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| groupId | [RenderQueueGroupId](../../com.aspose.threed/renderqueuegroupid) | レンダータスクが所属するキューのグループ |
+| groupId | [RenderQueueGroupId](../../com.aspose.threed/renderqueuegroupid) | レンダータスクが所属するキューのグループはどれですか |
 | pipeline | [IPipeline](../../com.aspose.threed/ipipeline) | このレンダータスクに使用されるパイプラインインスタンス |
 | renderableResource | java.lang.Object | カスタムオブジェクトは [EntityRenderer](../../com.aspose.threed/entityrenderer) に送信されます |
-| subEntity | int | サブエンティティのインデックス、エンティティが複数のサブレンダラブルコンポーネントで構成されている場合に便利です。 |
+| subEntity | int | サブエンティティのインデックス。エンティティが複数のサブレンダラブルコンポーネントで構成されている場合に便利です。 |
 

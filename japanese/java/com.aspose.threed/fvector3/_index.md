@@ -23,7 +23,7 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 | --- | --- |
 | [FVector3(float x, float y, float z)](#FVector3-float-float-float-) | 新しい [FVector3](../../com.aspose.threed/fvector3) のインスタンスを初期化します。 |
 | [FVector3(Vector3 vec)](#FVector3-com.aspose.threed.Vector3-) | 新しい [FVector3](../../com.aspose.threed/fvector3) のインスタンスを初期化します。 |
-| [FVector3(Vector4 vec)](#FVector3-com.aspose.threed.Vector4-) | [FVector4](../../com.aspose.threed/fvector4) の新しいインスタンスを初期化します。 |
+| [FVector3(Vector4 vec)](#FVector3-com.aspose.threed.Vector4-) | 新しい [FVector4](../../com.aspose.threed/fvector4) のインスタンスを初期化します。 |
 | [FVector3()](#FVector3--) |  |
 ## フィールド
 
@@ -39,14 +39,14 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 | [add(FVector3 a, FVector3 b)](#add-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \+ 演算子のオーバーロード |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector3 src)](#copyFrom-com.aspose.threed.FVector3-) |  |
-| [create(FVector3 v)](#create-com.aspose.threed.FVector3-) | FVector3 を Vector3 にキャストする明示的変換演算子 |
-| [cross(FVector3 rhs)](#cross-com.aspose.threed.FVector3-) | 2つのベクトルの外積 |
+| [create(FVector3 v)](#create-com.aspose.threed.FVector3-) | FVector3 を Vector3 にキャストする明示的な変換演算子 |
+| [cross(FVector3 rhs)](#cross-com.aspose.threed.FVector3-) | 2 つのベクトルの外積 |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getOne()](#getOne--) | すべての成分が 1 の単位スケールベクトル |
-| [getZero()](#getZero--) | ゼロベクトルです。 |
+| [getZero()](#getZero--) | ゼロベクトル。 |
 | [hashCode()](#hashCode--) |  |
-| [mul(FVector3 a, float b)](#mul-com.aspose.threed.FVector3-float-) | \* 演算子オーバーロード |
+| [mul(FVector3 a, float b)](#mul-com.aspose.threed.FVector3-float-) | \* 演算子のオーバーロード |
 | [negative(FVector3 a)](#negative-com.aspose.threed.FVector3-) | \- 演算子のオーバーロード |
 | [normalize()](#normalize--) | このインスタンスを正規化します。 |
 | [notify()](#notify--) |  |
@@ -90,7 +90,7 @@ public FVector3(Vector4 vec)
 ```
 
 
-[FVector4](../../com.aspose.threed/fvector4) の新しいインスタンスを初期化します。
+新しい [FVector4](../../com.aspose.threed/fvector4) のインスタンスを初期化します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -139,7 +139,7 @@ public static FVector3 add(FVector3 a, FVector3 b)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [FVector3](../../com.aspose.threed/fvector3) | 最初のベクトル |
-| b | [FVector3](../../com.aspose.threed/fvector3) | 2番目のベクトル |
+| b | [FVector3](../../com.aspose.threed/fvector3) | 第二ベクトル |
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3)
@@ -172,7 +172,7 @@ public static Vector3 create(FVector3 v)
 ```
 
 
-FVector3 を Vector3 にキャストする明示的変換演算子
+FVector3 を Vector3 にキャストする明示的な変換演算子
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -187,7 +187,7 @@ public FVector3 cross(FVector3 rhs)
 ```
 
 
-2つのベクトルの外積
+2 つのベクトルの外積
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -237,7 +237,7 @@ public static FVector3 getZero()
 ```
 
 
-ゼロベクトルです。
+ゼロベクトル。
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - The Zero vector.
@@ -257,13 +257,13 @@ public static FVector3 mul(FVector3 a, float b)
 ```
 
 
-\* 演算子オーバーロード
+\* 演算子のオーバーロード
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [FVector3](../../com.aspose.threed/fvector3) | 最初のベクトル |
-| b | float | 2番目のベクトル |
+| b | float | 第二ベクトル |
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - The product of two vectors
@@ -320,7 +320,7 @@ public static FVector3 sub(FVector3 a, FVector3 b)
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | a | [FVector3](../../com.aspose.threed/fvector3) | 最初のベクトル |
-| b | [FVector3](../../com.aspose.threed/fvector3) | 2番目のベクトル |
+| b | [FVector3](../../com.aspose.threed/fvector3) | 第二ベクトル |
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - The difference of two vectors

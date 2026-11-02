@@ -27,7 +27,7 @@ public class PropertyCollection implements Iterable<Property>
 | [get(String property)](#get-java.lang.String-) | プロパティ名でプロパティの値を取得します。 |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | コレクションを反復する列挙子を返します。 |
+| [iterator()](#iterator--) | コレクションを反復処理する列挙子を返します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
@@ -59,7 +59,7 @@ public Property findProperty(String property)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -124,7 +124,7 @@ public Iterator<Property> iterator()
 ```
 
 
-コレクションを反復する列挙子を返します。
+コレクションを反復処理する列挙子を返します。
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.Property>
@@ -155,7 +155,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -170,7 +170,7 @@ public boolean removeProperty(String property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true

@@ -22,18 +22,18 @@ public class VertexField implements Comparable<VertexField>
 | メソッド | 説明 |
 | --- | --- |
 | [compareTo(VertexField other)](#compareTo-com.aspose.threed.VertexField-) | このインスタンスを指定されたオブジェクトと比較し、相対的な値の指標を返します。 |
-| [equals(Object obj)](#equals-java.lang.Object-) | このインスタンスと、[VertexField](../../com.aspose.threed/vertexfield) オブジェクトでもある指定されたオブジェクトが同じ値かどうかを判断します。 |
+| [equals(Object obj)](#equals-java.lang.Object-) | このインスタンスと、同じく [VertexField](../../com.aspose.threed/vertexfield) オブジェクトである必要がある指定されたオブジェクトが、同じ値かどうかを判断します。 |
 | [getAlias()](#getAlias--) | フィールドのエイリアス。 |
 | [getClass()](#getClass--) |  |
 | [getDataType()](#getDataType--) | このフィールドのデータ型。 |
-| [getIndex()](#getIndex--) | 同じセマンティクスを持つ頂点レイアウト内におけるこのフィールドのインデックス。 |
+| [getIndex()](#getIndex--) | 同じセマンティックを持つ頂点のレイアウト内におけるこのフィールドのインデックス。 |
 | [getOffset()](#getOffset--) | このフィールドのバイト単位のオフセット。 |
-| [getSemantic()](#getSemantic--) | このフィールドの使用セマンティクス。 |
-| [getSize()](#getSize--) | このフィールドのバイト単位のサイズ |
+| [getSemantic()](#getSemantic--) | このフィールドの使用セマンティック。 |
+| [getSize()](#getSize--) | このフィールドのバイト単位のサイズ。 |
 | [hashCode()](#hashCode--) | この文字列のハッシュコードを返します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | [VertexField](../../com.aspose.threed/vertexfield) の文字列表現を取得します |
+| [toString()](#toString--) | [VertexField](../../com.aspose.threed/vertexfield) の文字列表現を取得します。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -58,7 +58,7 @@ public boolean equals(Object obj)
 ```
 
 
-このインスタンスと、[VertexField](../../com.aspose.threed/vertexfield) オブジェクトでもある指定されたオブジェクトが同じ値かどうかを判断します。
+このインスタンスと、同じく [VertexField](../../com.aspose.threed/vertexfield) オブジェクトである必要がある指定されたオブジェクトが、同じ値かどうかを判断します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -103,10 +103,10 @@ public int getIndex()
 ```
 
 
-同じセマンティクスを持つ頂点レイアウト内におけるこのフィールドのインデックス。
+同じセマンティックを持つ頂点のレイアウト内におけるこのフィールドのインデックス。
 
 **Returns:**
-int - 同じセマンティクスを持つ頂点レイアウト内におけるこのフィールドのインデックス。
+int - 同じセマンティックを持つ頂点のレイアウト内におけるこのフィールドのインデックス。
 ### getOffset() {#getOffset--}
 ```
 public int getOffset()
@@ -123,7 +123,7 @@ public VertexFieldSemantic getSemantic()
 ```
 
 
-このフィールドの使用セマンティクス。
+このフィールドの使用セマンティック。
 
 **Returns:**
 [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) - The usage semantic of this field.
@@ -133,7 +133,7 @@ public int getSize()
 ```
 
 
-このフィールドのバイト単位のサイズ
+このフィールドのバイト単位のサイズ。
 
 **Returns:**
 int - このフィールドのバイト単位のサイズ
@@ -146,7 +146,7 @@ public int hashCode()
 この文字列のハッシュコードを返します。
 
 **Returns:**
-int - 32 ビット符号付き整数のハッシュコード。
+int - 32ビット符号付き整数のハッシュコード。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -169,7 +169,7 @@ public String toString()
 ```
 
 
-[VertexField](../../com.aspose.threed/vertexfield) の文字列表現を取得します
+[VertexField](../../com.aspose.threed/vertexfield) の文字列表現を取得します。
 
 **Returns:**
 java.lang.String

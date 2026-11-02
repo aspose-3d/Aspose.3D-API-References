@@ -1,7 +1,7 @@
 ---
 title: "PbrMaterial"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "アルベドカラー/メタリック/ラフネスに基づく物理ベースレンダリング用マテリアル。"
+description: "アルベドカラー、金属度、粗さに基づく物理ベースレンダリング用マテリアル"
 type: docs
 weight: 121
 url: /ja/java/com.aspose.threed/pbrmaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrMaterial extends Material
 ```
 
-アルベドカラー/メタリック/ラフネスに基づく物理ベースレンダリング用マテリアル。
+アルベドカラー、金属度、粗さに基づく物理ベースレンダリング用マテリアル
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -24,45 +24,45 @@ public class PbrMaterial extends Material
 
 | フィールド | 説明 |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | [setTexture](../../com.aspose.threed/material\#setTexture) で環境光テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | [setTexture](../../com.aspose.threed/material\#setTexture) で拡散テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | [setTexture](../../com.aspose.threed/material\#setTexture) で放射テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_NORMAL](#MAP-NORMAL) | [setTexture](../../com.aspose.threed/material\#setTexture) で法線テクスチャマッピングを割り当てるために使用されます。 |
-| [MAP_SPECULAR](#MAP-SPECULAR) | [setTexture](../../com.aspose.threed/material\#setTexture) で鏡面テクスチャマッピングを割り当てるために使用されます。 |
+| [MAP_AMBIENT](#MAP-AMBIENT) | アンビエントテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | ディフューズテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | エミッシブテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_NORMAL](#MAP-NORMAL) | ノーマルテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
+| [MAP_SPECULAR](#MAP-SPECULAR) | スペキュラテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。 |
 ## メソッド
 
 | メソッド | 説明 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [fromMaterial(Material material)](#fromMaterial-com.aspose.threed.Material-) | 他のマテリアルを PbrMaterial に変換できる **Example:** |
+| [fromMaterial(Material material)](#fromMaterial-com.aspose.threed.Material-) | 他のマテリアルを PbrMaterial に変換できるようにします **Example:** |
 | [getAlbedo()](#getAlbedo--) | マテリアルのベースカラーを取得します |
 | [getAlbedoTexture()](#getAlbedoTexture--) | アルベド用テクスチャを取得します |
 | [getClass()](#getClass--) |  |
-| [getEmissiveColor()](#getEmissiveColor--) | 放射色を取得します。 |
-| [getEmissiveTexture()](#getEmissiveTexture--) | 放射テクスチャを取得します |
-| [getMetallicFactor()](#getMetallicFactor--) | マテリアルの金属性を取得します。値が 1 の場合は金属で、0 の場合は誘電体です。 |
-| [getMetallicRoughness()](#getMetallicRoughness--) | 金属性（R チャンネル）と粗さ（G チャンネル）のテクスチャを取得します |
+| [getEmissiveColor()](#getEmissiveColor--) | エミッシブカラーを取得します |
+| [getEmissiveTexture()](#getEmissiveTexture--) | 放射用テクスチャを取得します |
+| [getMetallicFactor()](#getMetallicFactor--) | マテリアルの金属度を取得します。値が 1 の場合はマテリアルが金属であり、値が 0 の場合は誘電体であることを意味します。 |
+| [getMetallicRoughness()](#getMetallicRoughness--) | 金属度（R チャンネル）と粗さ（G チャンネル）用テクスチャを取得します |
 | [getName()](#getName--) | 名前を取得します。 |
 | [getNormalTexture()](#getNormalTexture--) | 法線マッピングのテクスチャを取得します |
 | [getOcclusionFactor()](#getOcclusionFactor--) | アンビエントオクルージョンの係数を取得します |
 | [getOcclusionTexture()](#getOcclusionTexture--) | アンビエントオクルージョン用テクスチャを取得します |
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
-| [getRoughnessFactor()](#getRoughnessFactor--) | マテリアルの粗さを取得します。値が 1 の場合は完全に粗く、0 の場合は完全に滑らかです。 |
+| [getRoughnessFactor()](#getRoughnessFactor--) | マテリアルの粗さを取得します。値が 1 の場合はマテリアルが完全に粗く、値が 0 の場合は完全に滑らかであることを意味します。 |
 | [getSpecularTexture()](#getSpecularTexture--) | 鏡面反射色用テクスチャを取得します |
-| [getTexture(String slotName)](#getTexture-java.lang.String-) | 指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名で指定できます。 |
+| [getTexture(String slotName)](#getTexture-java.lang.String-) | 指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名である可能性があります。 |
 | [getTransparency()](#getTransparency--) | 透過係数を取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 内部テクスチャスロットを列挙するための列挙子を取得します。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
 | [setAlbedo(Vector3 value)](#setAlbedo-com.aspose.threed.Vector3-) | マテリアルのベースカラーを設定します |
 | [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | アルベドのテクスチャを設定します |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | 放射色を設定します。 |
-| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | エミッシブ用のテクスチャを設定します |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | エミッシブカラーを設定します |
+| [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | 放射用テクスチャを設定します |
 | [setMetallicFactor(double value)](#setMetallicFactor-double-) | マテリアルの金属度を設定します。値が 1 の場合は金属で、値が 0 の場合は誘電体です。 |
 | [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | 金属度（R チャネル）と粗さ（G チャネル）のテクスチャを設定します |
 | [setName(String value)](#setName-java.lang.String-) | 名前を設定します。 |
@@ -71,10 +71,10 @@ public class PbrMaterial extends Material
 | [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | アンビエントオクルージョンのテクスチャを設定します |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
 | [setRoughnessFactor(double value)](#setRoughnessFactor-double-) | マテリアルの粗さを設定します。値が 1 の場合は完全に粗く、値が 0 の場合は完全に滑らかです。 |
-| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | スペキュラカラーのテクスチャを設定します |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | テクスチャを指定されたスロットに設定します。 |
+| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | 鏡面色のテクスチャを設定します |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | テクスチャを指定されたスロットに設定します |
 | [setTransparency(double value)](#setTransparency-double-) | 透過係数を設定します。 |
-| [toString()](#toString--) | オブジェクトを文字列にフォーマットします |
+| [toString()](#toString--) | オブジェクトを文字列に変換します |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -105,7 +105,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で環境光テクスチャマッピングを割り当てるために使用されます。
+アンビエントテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -113,7 +113,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で拡散テクスチャマッピングを割り当てるために使用されます。
+ディフューズテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -121,7 +121,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で放射テクスチャマッピングを割り当てるために使用されます。
+エミッシブテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -129,7 +129,7 @@ public static final String MAP_NORMAL
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で法線テクスチャマッピングを割り当てるために使用されます。
+ノーマルテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -137,7 +137,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) で鏡面テクスチャマッピングを割り当てるために使用されます。
+スペキュラテクスチャマッピングを割り当てるために [setTexture](../../com.aspose.threed/material\#setTexture) で使用されます。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -160,7 +160,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -175,7 +175,7 @@ public static PbrMaterial fromMaterial(Material material)
 ```
 
 
-他のマテリアルを PbrMaterial に変換できる **Example:**
+他のマテリアルを PbrMaterial に変換できるようにします **Example:**
 
 ```
 var mat = new LambertMaterial();
@@ -229,7 +229,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-放射色を取得します。
+エミッシブカラーを取得します
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color
@@ -239,7 +239,7 @@ public TextureBase getEmissiveTexture()
 ```
 
 
-放射テクスチャを取得します
+放射用テクスチャを取得します
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for emissive
@@ -249,7 +249,7 @@ public double getMetallicFactor()
 ```
 
 
-マテリアルの金属性を取得します。値が 1 の場合は金属で、0 の場合は誘電体です。
+マテリアルの金属度を取得します。値が 1 の場合はマテリアルが金属であり、値が 0 の場合は誘電体であることを意味します。
 
 **Returns:**
 double - マテリアルの金属度。値が 1 の場合は金属で、値が 0 の場合は誘電体です。
@@ -259,7 +259,7 @@ public TextureBase getMetallicRoughness()
 ```
 
 
-金属性（R チャンネル）と粗さ（G チャンネル）のテクスチャを取得します
+金属度（R チャンネル）と粗さ（G チャンネル）用テクスチャを取得します
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for metallic(in R channel) and roughness(in G channel)
@@ -272,7 +272,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getNormalTexture() {#getNormalTexture--}
 ```
 public TextureBase getNormalTexture()
@@ -334,7 +334,7 @@ public double getRoughnessFactor()
 ```
 
 
-マテリアルの粗さを取得します。値が 1 の場合は完全に粗く、0 の場合は完全に滑らかです。
+マテリアルの粗さを取得します。値が 1 の場合はマテリアルが完全に粗く、値が 0 の場合は完全に滑らかであることを意味します。
 
 **Returns:**
 double - マテリアルの粗さ。値が 1 の場合は完全に粗く、値が 0 の場合は完全に滑らかです。
@@ -354,7 +354,7 @@ public TextureBase getTexture(String slotName)
 ```
 
 
-指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名で指定できます。
+指定されたスロットからテクスチャを取得します。これはマテリアルのプロパティ名またはシェーダーのパラメータ名である可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -377,10 +377,10 @@ public double getTransparency()
 ```
 
 
-透明度係数を取得します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+透明度係数を取得します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 
 **Returns:**
-double - 透明度係数。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+double - 透明度係数。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -428,7 +428,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -438,12 +438,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -479,7 +479,7 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-放射色を設定します。
+エミッシブカラーを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -492,7 +492,7 @@ public void setEmissiveTexture(TextureBase value)
 ```
 
 
-エミッシブ用のテクスチャを設定します
+放射用テクスチャを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -610,7 +610,7 @@ public void setSpecularTexture(TextureBase value)
 ```
 
 
-スペキュラカラーのテクスチャを設定します
+鏡面色のテクスチャを設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -623,7 +623,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-テクスチャを指定されたスロットに設定します。
+テクスチャを指定されたスロットに設定します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -644,7 +644,7 @@ public void setTransparency(double value)
 ```
 
 
-透明度係数を設定します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）の範囲である必要があります。無効な係数値はクランプされます。
+透明度係数を設定します。係数は 0（0%、完全に不透明）から 1（100%、完全に透明）までの範囲である必要があります。無効な係数値はクランプされます。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -657,7 +657,7 @@ public String toString()
 ```
 
 
-オブジェクトを文字列にフォーマットします
+オブジェクトを文字列に変換します
 
 **Returns:**
 java.lang.String - オブジェクト文字列

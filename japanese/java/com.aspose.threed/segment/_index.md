@@ -1,7 +1,7 @@
 ---
 title: "CompositeCurve.Segment"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "曲線セグメント"
+description: "その曲線セグメント"
 type: docs
 weight: 10
 url: /ja/java/com.aspose.threed/compositecurve.segment/
@@ -13,7 +13,7 @@ java.lang.Object
 public static class CompositeCurve.Segment
 ```
 
-曲線セグメント
+その曲線セグメント
 ## コンストラクタ
 
 | コンストラクタ | 説明 |

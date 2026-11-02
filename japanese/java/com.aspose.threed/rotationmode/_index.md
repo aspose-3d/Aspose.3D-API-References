@@ -1,7 +1,7 @@
 ---
 title: "RotationMode"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "視錐台の回転モード"
+description: "フラスタムの回転モード"
 type: docs
 weight: 299
 url: /ja/java/com.aspose.threed/rotationmode/
@@ -18,8 +18,8 @@ public enum RotationMode extends Enum<RotationMode>
 
 | フィールド | 説明 |
 | --- | --- |
-| [FIXED_DIRECTION](#FIXED-DIRECTION) | 方向は固定され、視点は方向から計算されます |
-| [FIXED_TARGET](#FIXED-TARGET) | ターゲットは固定され、方向は視点ターゲットから計算されます |
+| [FIXED_DIRECTION](#FIXED-DIRECTION) | 方向は固定され、視線は方向から計算されます |
+| [FIXED_TARGET](#FIXED-TARGET) | ターゲットは固定され、方向は視線ターゲットから計算されます |
 ## メソッド
 
 | メソッド | 説明 |
@@ -47,7 +47,7 @@ public static final RotationMode FIXED_DIRECTION
 ```
 
 
-方向は固定され、視点は方向から計算されます
+方向は固定され、視線は方向から計算されます
 
 ### FIXED_TARGET {#FIXED-TARGET}
 ```
@@ -55,7 +55,7 @@ public static final RotationMode FIXED_TARGET
 ```
 
 
-ターゲットは固定され、方向は視点ターゲットから計算されます
+ターゲットは固定され、方向は視線ターゲットから計算されます
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

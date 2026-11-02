@@ -8,7 +8,7 @@ url: /ja/java/com.aspose.threed/pdfsaveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object、[com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)、[com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
+java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig), [com.aspose.threed.SaveOptions](../../com.aspose.threed/saveoptions)
 ```
 public class PdfSaveOptions extends SaveOptions
 ```
@@ -30,15 +30,15 @@ PDF エクスポート時の保存オプションです。
 | [getEmbedTextures()](#getEmbedTextures--) | 外部テクスチャを PDF ファイルに埋め込みます。デフォルト値は false です。 |
 | [getEncoding()](#getEncoding--) | テキストベースのファイルのデフォルトエンコーディングを取得します。 |
 | [getExportTextures()](#getExportTextures--) | シーンで使用されているテクスチャを出力ディレクトリにコピーしようとします。 |
-| [getFaceColor()](#getFaceColor--) | 3D コンテンツのレンダリング時に使用される面の色を取得します。 |
+| [getFaceColor()](#getFaceColor--) | 3D コンテンツのレンダリング時に使用されるフェイスカラーを取得します。 |
 | [getFileFormat()](#getFileFormat--) | 現在の保存/読み込みオプションで指定されたファイル形式を取得します。 |
 | [getFileName()](#getFileName--) | エクスポート/インポートシーンのファイル名。 |
 | [getFileSystem()](#getFileSystem--) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem のファクトリークラスを取得します。 |
 | [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | エクスポート時にシーンの座標系を反転させるかどうかを取得します。 |
 | [getLightingScheme()](#getLightingScheme--) | LightingScheme は 3D アートワークに適用するライティングを指定します。 |
-| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
-| [getRenderMode()](#getRenderMode--) | レンダーモードは 3D アートワークがレンダリングされるスタイルを指定します。 |
+| [getLookupPaths()](#getLookupPaths--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
+| [getRenderMode()](#getRenderMode--) | レンダー モードは 3D アートワークがレンダリングされるスタイルを指定します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -47,14 +47,14 @@ PDF エクスポート時の保存オプションです。
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | 外部テクスチャを PDF ファイルに埋め込みます。デフォルト値は false です。 |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | テキストベースのファイルのデフォルトエンコーディングを設定します。 |
 | [setExportTextures(boolean value)](#setExportTextures-boolean-) | シーンで使用されているテクスチャを出力ディレクトリにコピーしようとします。 |
-| [setFaceColor(Vector3 value)](#setFaceColor-com.aspose.threed.Vector3-) | 3D コンテンツのレンダリング時に使用される面の色を設定します。 |
+| [setFaceColor(Vector3 value)](#setFaceColor-com.aspose.threed.Vector3-) | 3D コンテンツのレンダリング時に使用されるフェイスカラーを設定します。 |
 | [setFileName(String value)](#setFileName-java.lang.String-) | エクスポート/インポートシーンのファイル名。 |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | ロード/セーブ時に外部依存関係を管理する方法をユーザーが処理できるようにします。 |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem のファクトリークラスを設定します。 |
-| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | エクスポート時にシーンの座標系を反転させるように設定します。 |
+| [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | エクスポート時にシーンの座標系を反転させるかどうかを設定します。 |
 | [setLightingScheme(PdfLightingScheme value)](#setLightingScheme-com.aspose.threed.PdfLightingScheme-) | LightingScheme は 3D アートワークに適用するライティングを指定します。 |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。 |
-| [setRenderMode(PdfRenderMode value)](#setRenderMode-com.aspose.threed.PdfRenderMode-) | レンダーモードは 3D アートワークがレンダリングされるスタイルを指定します。 |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。 |
+| [setRenderMode(PdfRenderMode value)](#setRenderMode-com.aspose.threed.PdfRenderMode-) | レンダー モードは 3D アートワークがレンダリングされるスタイルを指定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -148,7 +148,7 @@ public Vector3 getFaceColor()
 ```
 
 
-3D コンテンツのレンダリング時に使用される面の色を取得します。このプロパティは、[getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) が Illustration の値を持つ場合にのみ関連します。
+3D コンテンツのレンダリング時に使用されるフェイスカラーを取得します。この設定は [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) が Illustration の値を持つ場合にのみ関連します。
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the face color to be used when rendering the 3D content. This is only relevant only when the [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) has a value of Illustration.
@@ -168,10 +168,10 @@ public String getFileName()
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Returns:**
-java.lang.String - エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+java.lang.String - エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -212,7 +212,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem のファクトリークラスを取得します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを取得します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -261,10 +261,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします
+java.util.ArrayList<java.lang.String> - OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを探してロードできるようになります。**例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています
 
 ```
 var opt = new ObjLoadOptions();
@@ -279,7 +279,7 @@ public PdfRenderMode getRenderMode()
 ```
 
 
-レンダーモードは 3D アートワークがレンダリングされるスタイルを指定します。
+レンダー モードは 3D アートワークがレンダリングされるスタイルを指定します。
 
 **Returns:**
 [PdfRenderMode](../../com.aspose.threed/pdfrendermode) - Render mode specifies the style in which the 3D artwork is rendered.
@@ -354,7 +354,7 @@ public void setEncoding(Charset value)
 ```
 
 
-テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定することを意味します。
+テキストベースのファイルのデフォルトエンコーディングを設定します。デフォルト値は null で、インポーター/エクスポーターが使用するエンコーディングを決定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -380,7 +380,7 @@ public void setFaceColor(Vector3 value)
 ```
 
 
-3D コンテンツのレンダリング時に使用される面の色を設定します。このプロパティは、[getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) が Illustration の値を持つ場合にのみ関連します。
+3D コンテンツのレンダリング時に使用されるフェイスカラーを設定します。この設定は [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) が Illustration の値を持つ場合にのみ関連します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -393,7 +393,7 @@ public void setFileName(String value)
 ```
 
 
-エクスポート/インポートシーンのファイル名です。これはオプションですが、OBJ のマテリアルのような外部アセットをシリアライズする際に便利です。
+エクスポート/インポートするシーンのファイル名です。これはオプションですが、OBJ のマテリアルなどの外部アセットをシリアライズする際に便利です。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -411,7 +411,7 @@ public void setFileSystem(FileSystem value)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **Example:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は次のようなさまざまな FileSystem 実装を提供します： |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | 新しい値 **例:** デフォルトの FileSystem は LocalFileSystem ですが、サーバー側のような環境では安全ではありません。ただし、別の実装を指定することでファイルシステムへのアクセスをオーバーライドできます。Aspose.3D は以下のようなさまざまな FileSystem 実装を提供しています： |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -443,12 +443,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem のファクトリークラスを設定します。デフォルトのファクトリーは com.aspose.threed.LocalFileSystem を作成しますが、サーバー環境には適していません。
+FileSystem のファクトリクラスを設定します。デフォルトのファクトリは com.aspose.threed.LocalFileSystem を生成しますが、サーバー環境には適していません。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **Example:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | 新しい値 **例:** SaveOptions/LoadOptions のデフォルト FileSystem はディレクトリベースのファイルシステムです。IOConfig.FileSystemFactory を介して指定することでデフォルトの実装をオーバーライドできます： |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -475,7 +475,7 @@ public void setFlipCoordinateSystem(boolean value)
 ```
 
 
-エクスポート時にシーンの座標系を反転させるように設定します。
+エクスポート時にシーンの座標系を反転させるかどうかを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -501,12 +501,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルを読み込むために探すことができます。
+OBJ のような一部のファイルは外部ファイルに依存しており、検索パスにより Aspose.3D が外部ファイルをロードできるようになります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **Example:** 以下のコードは、テクスチャの検索パスを手動で指定する方法を示しており、インポーターが見つけられるようにします |
+|  | 値 | java.util.ArrayList<java.lang.String> | 新しい値 **例:** 以下のコードは、テクスチャの検索パスを手動で指定し、インポーターが見つけられるようにする方法を示しています |
 
 ```
 var opt = new ObjLoadOptions();
@@ -522,7 +522,7 @@ public void setRenderMode(PdfRenderMode value)
 ```
 
 
-レンダーモードは 3D アートワークがレンダリングされるスタイルを指定します。
+レンダー モードは 3D アートワークがレンダリングされるスタイルを指定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |

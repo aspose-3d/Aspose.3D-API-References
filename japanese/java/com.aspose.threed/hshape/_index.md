@@ -1,7 +1,7 @@
 ---
 title: "HShape"
 second_title: "Aspose.3D for Java API リファレンス"
-description: "H または I 形状の定義パラメータを提供します。"
+description: "H形またはI形の定義パラメータを提供します。"
 type: docs
 weight: 76
 url: /ja/java/com.aspose.threed/hshape/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class HShape extends ParameterizedProfile
 ```
 
-The [HShape](../../com.aspose.threed/hshape) は 'H' または 'I' 形状の定義パラメータを提供します。
+[HShape](../../com.aspose.threed/hshape) は 'H' または 'I' 形状の定義パラメータを提供します。
 ## コンストラクタ
 
 | コンストラクタ | 説明 |
@@ -25,13 +25,13 @@ The [HShape](../../com.aspose.threed/hshape) は 'H' または 'I' 形状の定�
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | プロパティを検索します。 |
-| [getBottomFlangeEdgeRadius()](#getBottomFlangeEdgeRadius--) | 底部フランジの上部エッジの半径を取得します。 |
-| [getBottomFlangeFilletRadius()](#getBottomFlangeFilletRadius--) | ウェブと下フランジの間のフィレット半径を取得します。 |
+| [getBottomFlangeEdgeRadius()](#getBottomFlangeEdgeRadius--) | 底フランジの上部エッジの半径を取得します。 |
+| [getBottomFlangeFilletRadius()](#getBottomFlangeFilletRadius--) | ウェブと底部フランジの間のフィレット半径を取得します。 |
 | [getBottomFlangeThickness()](#getBottomFlangeThickness--) | H形状のフランジ厚さを取得します。 |
 | [getBottomFlangeWidth()](#getBottomFlangeWidth--) | 幅の範囲を取得します。 |
 | [getBoundingBox()](#getBoundingBox--) | 現在のエンティティのオブジェクト空間座標系におけるバウンディングボックスを取得します。 |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します |
+| [getEntityRendererKey()](#getEntityRendererKey--) | レンダラーに登録されたエンティティレンダラーのキーを取得します。 |
 | [getExcluded()](#getExcluded--) | エクスポート時にこのエンティティを除外するかどうかを取得します。 |
 | [getExtent()](#getExtent--) | x と y の次元の範囲を取得します。 |
 | [getName()](#getName--) | 名前を取得します。 |
@@ -41,18 +41,18 @@ The [HShape](../../com.aspose.threed/hshape) は 'H' または 'I' 形状の定�
 | [getProperties()](#getProperties--) | すべてのプロパティのコレクションを取得します。 |
 | [getProperty(String property)](#getProperty-java.lang.String-) | 指定されたプロパティの値を取得します |
 | [getScene()](#getScene--) | このオブジェクトが属するシーンを取得します |
-| [getTopFlangeEdgeRadius()](#getTopFlangeEdgeRadius--) | 上フランジの下端の半径を取得します。 |
-| [getTopFlangeFilletRadius()](#getTopFlangeFilletRadius--) | ウェブと上フランジの間のフィレット半径を取得します。 |
-| [getTopFlangeThickness()](#getTopFlangeThickness--) | 上フランジの厚さを取得します。 |
-| [getTopFlangeWidth()](#getTopFlangeWidth--) | 上フランジの幅を取得します。 |
+| [getTopFlangeEdgeRadius()](#getTopFlangeEdgeRadius--) | 上部フランジの下部エッジの半径を取得します。 |
+| [getTopFlangeFilletRadius()](#getTopFlangeFilletRadius--) | ウェブと上部フランジの間のフィレット半径を取得します。 |
+| [getTopFlangeThickness()](#getTopFlangeThickness--) | 上部フランジの厚さを取得します。 |
+| [getTopFlangeWidth()](#getTopFlangeWidth--) | 上部フランジの幅を取得します。 |
 | [getWebThickness()](#getWebThickness--) | H形状のウェブの厚さを取得します。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | 動的プロパティを削除します。 |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | 名前で識別される指定されたプロパティを削除します |
-| [setBottomFlangeEdgeRadius(double value)](#setBottomFlangeEdgeRadius-double-) | 下フランジの上端の半径を設定します。 |
-| [setBottomFlangeFilletRadius(double value)](#setBottomFlangeFilletRadius-double-) | ウェブと下フランジの間のフィレット半径を設定します。 |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | 指定された名前で識別されるプロパティを削除します |
+| [setBottomFlangeEdgeRadius(double value)](#setBottomFlangeEdgeRadius-double-) | 底部フランジの上部エッジの半径を設定します。 |
+| [setBottomFlangeFilletRadius(double value)](#setBottomFlangeFilletRadius-double-) | ウェブと底部フランジの間のフィレット半径を設定します。 |
 | [setBottomFlangeThickness(double value)](#setBottomFlangeThickness-double-) | H形状のフランジ厚さを設定します。 |
 | [setBottomFlangeWidth(double value)](#setBottomFlangeWidth-double-) | 幅の範囲を設定します。 |
 | [setExcluded(boolean value)](#setExcluded-boolean-) | エクスポート時にこのエンティティを除外するかどうかを設定します。 |
@@ -60,10 +60,10 @@ The [HShape](../../com.aspose.threed/hshape) は 'H' または 'I' 形状の定�
 | [setOverallDepth(double value)](#setOverallDepth-double-) | 深さの範囲を設定します。 |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | 最初の親ノードを設定します。最初の親ノードを設定すると、このエンティティは他の親ノードから切り離されます。 |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | 指定されたプロパティの値を設定します |
-| [setTopFlangeEdgeRadius(double value)](#setTopFlangeEdgeRadius-double-) | 上フランジの下端の半径を設定します。 |
-| [setTopFlangeFilletRadius(double value)](#setTopFlangeFilletRadius-double-) | ウェブと上フランジの間のフィレット半径を設定します。 |
-| [setTopFlangeThickness(double value)](#setTopFlangeThickness-double-) | 上フランジの厚さを設定します。 |
-| [setTopFlangeWidth(double value)](#setTopFlangeWidth-double-) | 上フランジの幅を設定します。 |
+| [setTopFlangeEdgeRadius(double value)](#setTopFlangeEdgeRadius-double-) | 上部フランジの下部エッジの半径を設定します。 |
+| [setTopFlangeFilletRadius(double value)](#setTopFlangeFilletRadius-double-) | ウェブと上部フランジの間のフィレット半径を設定します。 |
+| [setTopFlangeThickness(double value)](#setTopFlangeThickness-double-) | 上部フランジの厚さを設定します。 |
+| [setTopFlangeWidth(double value)](#setTopFlangeWidth-double-) | 上部フランジの幅を設定します。 |
 | [setWebThickness(double value)](#setWebThickness-double-) | H形状のウェブの厚さを設定します。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty により作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
+プロパティを検索します。動的プロパティ（CreateDynamicProperty/SetProperty によって作成）またはネイティブプロパティ（名前で識別）になる可能性があります。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -113,20 +113,20 @@ public double getBottomFlangeEdgeRadius()
 ```
 
 
-底部フランジの上部エッジの半径を取得します。
+底フランジの上部エッジの半径を取得します。
 
 **Returns:**
-double - 下フランジの上端の半径。
+double - 底部フランジの上部エッジの半径です。
 ### getBottomFlangeFilletRadius() {#getBottomFlangeFilletRadius--}
 ```
 public double getBottomFlangeFilletRadius()
 ```
 
 
-ウェブと下フランジの間のフィレット半径を取得します。
+ウェブと底部フランジの間のフィレット半径を取得します。
 
 **Returns:**
-double - ウェブと下フランジの間のフィレット半径。
+double - ウェブと底部フランジの間のフィレット半径です。
 ### getBottomFlangeThickness() {#getBottomFlangeThickness--}
 ```
 public double getBottomFlangeThickness()
@@ -136,7 +136,7 @@ public double getBottomFlangeThickness()
 H形状のフランジ厚さを取得します。
 
 **Returns:**
-double - H形状のフランジ厚さ。
+double - H形状のフランジ厚さです。
 ### getBottomFlangeWidth() {#getBottomFlangeWidth--}
 ```
 public double getBottomFlangeWidth()
@@ -146,7 +146,7 @@ public double getBottomFlangeWidth()
 幅の範囲を取得します。
 
 **Returns:**
-double - 幅の範囲。
+double - 幅の範囲です。
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
@@ -180,7 +180,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-レンダラーに登録されたエンティティレンダラーのキーを取得します
+レンダラーに登録されたエンティティレンダラーのキーを取得します。
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -213,7 +213,7 @@ public String getName()
 名前を取得します。
 
 **Returns:**
-java.lang.String - 名前です。
+java.lang.String - 名前。
 ### getOverallDepth() {#getOverallDepth--}
 ```
 public double getOverallDepth()
@@ -223,7 +223,7 @@ public double getOverallDepth()
 深さの範囲を取得します。
 
 **Returns:**
-double - 深さの範囲。
+double - 深さの範囲です。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -243,7 +243,7 @@ public ArrayList<Node> getParentNodes()
 すべての親ノードを取得します。エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます。
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリ インスタンシングのために複数の親ノードにアタッチできます
+java.util.ArrayList<com.aspose.threed.Node> - すべての親ノード、エンティティはジオメトリインスタンシングのために複数の親ノードにアタッチできます
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -285,17 +285,17 @@ public double getTopFlangeEdgeRadius()
 ```
 
 
-上フランジの下端の半径を取得します。
+上部フランジの下部エッジの半径を取得します。
 
 **Returns:**
-double - 上フランジの下端の半径。
+double - 上部フランジの下部エッジの半径です。
 ### getTopFlangeFilletRadius() {#getTopFlangeFilletRadius--}
 ```
 public double getTopFlangeFilletRadius()
 ```
 
 
-ウェブと上フランジの間のフィレット半径を取得します。
+ウェブと上部フランジの間のフィレット半径を取得します。
 
 **Returns:**
 double - ウェブと上フランジ間のフィレット半径。
@@ -305,7 +305,7 @@ public double getTopFlangeThickness()
 ```
 
 
-上フランジの厚さを取得します。
+上部フランジの厚さを取得します。
 
 **Returns:**
 double - 上フランジの厚さ。
@@ -315,7 +315,7 @@ public double getTopFlangeWidth()
 ```
 
 
-上フランジの幅を取得します。
+上部フランジの幅を取得します。
 
 **Returns:**
 double - 上フランジの幅。
@@ -366,7 +366,7 @@ public boolean removeProperty(Property property)
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| property | [Property](../../com.aspose.threed/property) | 削除するプロパティ |
+| property | [Property](../../com.aspose.threed/property) | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -376,12 +376,12 @@ public boolean removeProperty(String property)
 ```
 
 
-名前で識別される指定されたプロパティを削除します
+指定された名前で識別されるプロパティを削除します
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| プロパティ | java.lang.String | 削除するプロパティ |
+| プロパティ | java.lang.String | 削除するプロパティはどれですか |
 
 **Returns:**
 boolean - プロパティが正常に削除された場合は true
@@ -391,7 +391,7 @@ public void setBottomFlangeEdgeRadius(double value)
 ```
 
 
-下フランジの上端の半径を設定します。
+底部フランジの上部エッジの半径を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -404,7 +404,7 @@ public void setBottomFlangeFilletRadius(double value)
 ```
 
 
-ウェブと下フランジの間のフィレット半径を設定します。
+ウェブと底部フランジの間のフィレット半径を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -509,7 +509,7 @@ public void setTopFlangeEdgeRadius(double value)
 ```
 
 
-上フランジの下端の半径を設定します。
+上部フランジの下部エッジの半径を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -522,7 +522,7 @@ public void setTopFlangeFilletRadius(double value)
 ```
 
 
-ウェブと上フランジの間のフィレット半径を設定します。
+ウェブと上部フランジの間のフィレット半径を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -535,7 +535,7 @@ public void setTopFlangeThickness(double value)
 ```
 
 
-上フランジの厚さを設定します。
+上部フランジの厚さを設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
@@ -548,7 +548,7 @@ public void setTopFlangeWidth(double value)
 ```
 
 
-上フランジの幅を設定します。
+上部フランジの幅を設定します。
 
 **Parameters:**
 | パラメーター | 型 | 説明 |
