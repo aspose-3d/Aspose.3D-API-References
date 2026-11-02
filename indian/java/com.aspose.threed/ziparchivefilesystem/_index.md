@@ -1,7 +1,7 @@
 ---
 title: "ZipArchiveFileSystem"
-second_title: "Aspose.3D for Java API Reference"
-description: "फ़ाइल सिस्टम जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-पढ़ने योग्य पहुँच प्रदान करता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "फ़ाइल सिस्टम जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-पढ़ने की पहुँच प्रदान करता है।"
 type: docs
 weight: 221
 url: /hi/java/com.aspose.threed/ziparchivefilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class ZipArchiveFileSystem extends FileSystem
 ```
 
-फ़ाइल सिस्टम जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-पढ़ने योग्य पहुँच प्रदान करता है। फ़ाइल सिस्टम को खुलने/सहेजने के ऑपरेशन के बाद नष्ट कर दिया जाएगा। **Example:** निम्नलिखित कोड दिखाता है कि फ़ाइल को कैसे आयात करें, और ज़िप आर्काइव फ़ाइल में निर्भर फ़ाइलें प्रदान करें।
+फ़ाइल सिस्टम जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-पढ़ने की पहुँच प्रदान करता है। फ़ाइल सिस्टम को खोलने/सहेजने के ऑपरेशन के बाद नष्ट कर दिया जाएगा। **Example:** निम्नलिखित कोड दिखाता है कि फ़ाइल को कैसे आयात करें, और ज़िप संग्रह फ़ाइल में निर्भर फ़ाइलें कैसे प्रदान करें।
 
 ```
 var inputFile = "input.fbx";
@@ -24,9 +24,9 @@ var inputFile = "input.fbx";
      //load the file
      var scene = Scene.fromFile(inputFile, opt);
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [ZipArchiveFileSystem(Stream stream, String baseDir)](#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-java.lang.String-) | एक स्ट्रीम के माध्यम से [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) बनाएं। |
 | [ZipArchiveFileSystem(Stream stream)](#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-) | एक स्ट्रीम के माध्यम से [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesystem) बनाएं। |
@@ -35,18 +35,18 @@ var inputFile = "input.fbx";
 
 | विधि | विवरण |
 | --- | --- |
-| [close()](#close--) | ZipArchiveFileSystem को नष्ट करें और उसकी आंतरिक संसाधनों को मुक्त करें। |
+| [close()](#close--) | ZipArchiveFileSystem को नष्ट करें और उसके आंतरिक संसाधनों को मुक्त करें। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | फ़ाइल को पढ़ने के लिए खोलें |
+| [readFile(String fileName, IOConfig options)](#readFile-java.lang.String-com.aspose.threed.IOConfig-) | पढ़ने के लिए फ़ाइल खोलें |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | फ़ाइल को लिखने के लिए खोलें, इस वर्ग में लागू नहीं है। |
+| [writeFile(String fileName, IOConfig options)](#writeFile-java.lang.String-com.aspose.threed.IOConfig-) | लिखने के लिए फ़ाइल खोलें, इस क्लास में लागू नहीं है। |
 ### ZipArchiveFileSystem(Stream stream, String baseDir) {#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-java.lang.String-}
 ```
 public ZipArchiveFileSystem(Stream stream, String baseDir)
@@ -93,7 +93,7 @@ public void close()
 ```
 
 
-ZipArchiveFileSystem को नष्ट करें और उसकी आंतरिक संसाधनों को मुक्त करें।
+ZipArchiveFileSystem को नष्ट करें और उसके आंतरिक संसाधनों को मुक्त करें।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -152,7 +152,7 @@ public Stream readFile(String fileName, IOConfig options)
 ```
 
 
-फ़ाइल को पढ़ने के लिए खोलें
+पढ़ने के लिए फ़ाइल खोलें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -213,7 +213,7 @@ public Stream writeFile(String fileName, IOConfig options)
 ```
 
 
-फ़ाइल को लिखने के लिए खोलें, इस वर्ग में लागू नहीं है।
+लिखने के लिए फ़ाइल खोलें, इस क्लास में लागू नहीं है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

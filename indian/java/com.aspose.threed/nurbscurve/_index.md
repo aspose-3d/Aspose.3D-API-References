@@ -1,7 +1,7 @@
 ---
 title: "NurbsCurve"
-second_title: "Aspose.3D for Java API Reference"
-description: "NURBS curve एक वक्र है जो NURBSNon-uniform rational basis spline द्वारा दर्शाया जाता है। एक NURBS curve को उसके एक सेट ऑफ weighted बिंदुओं और एक ... द्वारा परिभाषित किया जाता है। नियंत्रण बिंदु में w घटक को नियंत्रण बिंदु के वजन के रूप में उपयोग किया जाता है, चाहे वह ... हो या ..."
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "NURBS curve एक कर्व है जो NURBSNon-uniform rational basis spline द्वारा दर्शाया जाता है। एक NURBS curve उसके ... एक सेट ऑफ़ वेटेड ... और एक ... The w component in control point को कंट्रोल पॉइंट के वेट के रूप में उपयोग किया जाता है, चाहे वह ... या"
 type: docs
 weight: 112
 url: /hi/java/com.aspose.threed/nurbscurve/
@@ -17,12 +17,12 @@ public class NurbsCurve extends Curve
 
 
 [NURBS curve]: https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [NurbsCurve()](#NurbsCurve--) | [NurbsCurve](../../com.aspose.threed/nurbscurve) क्लास का नया उदाहरण प्रारंभ करता है। |
-| [NurbsCurve(String name)](#NurbsCurve-java.lang.String-) | [NurbsCurve](../../com.aspose.threed/nurbscurve) क्लास का नया उदाहरण प्रारंभ करता है। |
+| [NurbsCurve()](#NurbsCurve--) | एक नया उदाहरण आरंभ करता है [NurbsCurve](../../com.aspose.threed/nurbscurve) क्लास का। |
+| [NurbsCurve(String name)](#NurbsCurve-java.lang.String-) | एक नया उदाहरण आरंभ करता है [NurbsCurve](../../com.aspose.threed/nurbscurve) क्लास का। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -32,38 +32,38 @@ public class NurbsCurve extends Curve
 | [evaluate(int steps)](#evaluate-int-) | NURBS वक्र का मूल्यांकन करें |
 | [evaluateAt(double u)](#evaluateAt-double-) | निर्दिष्ट स्थिति पर वक्र बिंदु का मूल्यांकन करें |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है |
-| [getControlPoints()](#getControlPoints--) | सभी नियंत्रण बिंदु प्राप्त करता है |
+| [getColor()](#getColor--) | रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है। |
+| [getControlPoints()](#getControlPoints--) | सभी नियंत्रण बिंदु प्राप्त करता है। |
 | [getCurveType()](#getCurveType--) | वक्र का प्रकार प्राप्त करता है। |
-| [getDegree()](#getDegree--) | NURBS वक्र की डिग्री प्राप्त करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है |
+| [getDegree()](#getDegree--) | NURBS वक्र की डिग्री प्राप्त करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है। |
 | [getDimension()](#getDimension--) | वक्र का आयाम प्राप्त करता है। |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getKnotVectors()](#getKnotVectors--) | नॉट वेक्टर प्राप्त करता है, यह पैरामीटर मानों की एक श्रृंखला है जो निर्धारित करती है कि नियंत्रण बिंदु NURBS वक्र को कहाँ और कैसे प्रभावित करते हैं। |
 | [getMultiplicity()](#getMultiplicity--) | बहुलता प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getOrder()](#getOrder--) | NURBS वक्र का क्रम प्राप्त करता है, यह निकटवर्ती नियंत्रण बिंदुओं की संख्या को परिभाषित करता है जो वक्र के किसी भी बिंदु को प्रभावित करते हैं। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [getRational()](#getRational--) | यह निर्धारित करता है कि यह तर्कसंगत है या नहीं, यह मान दर्शाता है कि यह [NurbsCurve](../../com.aspose.threed/nurbscurve) तर्कसंगत स्प्लाइन है या गैर-तर्कसंगत स्प्लाइन। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है |
+| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है। |
 | [setCurveType(NurbsType value)](#setCurveType-com.aspose.threed.NurbsType-) | वक्र का प्रकार सेट करता है। |
-| [setDegree(int value)](#setDegree-int-) | NURBS वक्र की डिग्री सेट करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है |
+| [setDegree(int value)](#setDegree-int-) | NURBS वक्र की डिग्री सेट करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है। |
 | [setDimension(CurveDimension value)](#setDimension-com.aspose.threed.CurveDimension-) | वक्र का आयाम सेट करता है। |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setOrder(int value)](#setOrder-int-) | NURBS वक्र का क्रम सेट करता है, यह निकटवर्ती नियंत्रण बिंदुओं की संख्या को परिभाषित करता है जो वक्र के किसी भी बिंदु को प्रभावित करते हैं। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [setRational(boolean value)](#setRational-boolean-) | यह निर्धारित करता है कि यह तर्कसंगत है या नहीं, यह मान दर्शाता है कि यह [NurbsCurve](../../com.aspose.threed/nurbscurve) तर्कसंगत स्प्लाइन है या गैर-तर्कसंगत स्प्लाइन। |
 | [toString()](#toString--) |  |
@@ -76,7 +76,7 @@ public NurbsCurve()
 ```
 
 
-[NurbsCurve](../../com.aspose.threed/nurbscurve) क्लास का नया उदाहरण प्रारंभ करता है।
+एक नया उदाहरण आरंभ करता है [NurbsCurve](../../com.aspose.threed/nurbscurve) क्लास का।
 
 ### NurbsCurve(String name) {#NurbsCurve-java.lang.String-}
 ```
@@ -84,7 +84,7 @@ public NurbsCurve(String name)
 ```
 
 
-[NurbsCurve](../../com.aspose.threed/nurbscurve) क्लास का नया उदाहरण प्रारंभ करता है।
+एक नया उदाहरण आरंभ करता है [NurbsCurve](../../com.aspose.threed/nurbscurve) क्लास का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -127,7 +127,7 @@ NURBS वक्र का मूल्यांकन करें
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| कदम | int | दो निकटवर्ती नॉट्स के बीच मूल्यांकन आवृत्ति, डिफ़ॉल्ट मान 20 है |
+| चरण | int | दो पड़ोसी नॉट्स के बीच मूल्यांकन आवृत्ति, डिफ़ॉल्ट मान 20 है। |
 
 **Returns:**
 com.aspose.threed.Vector4[] - वक्र में बिंदु
@@ -142,7 +142,7 @@ public Vector4 evaluateAt(double u)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| u | double | वक्र में स्थिति, 0 और 1 के बीच |
+| u | double | वक्र में स्थिति, 0 और 1 के बीच। |
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4)
@@ -152,7 +152,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -167,7 +167,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -194,7 +194,7 @@ public Vector3 getColor()
 ```
 
 
-रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है
+रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the color of the line, default value is white(1, 1, 1)
@@ -204,7 +204,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-सभी नियंत्रण बिंदु प्राप्त करता है
+सभी नियंत्रण बिंदु प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - सभी नियंत्रण बिंदु
@@ -224,10 +224,10 @@ public int getDegree()
 ```
 
 
-NURBS वक्र की डिग्री प्राप्त करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है
+NURBS वक्र की डिग्री प्राप्त करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है।
 
 **Returns:**
-int - NURBS वक्र की डिग्री, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है
+int - NURBS वक्र की डिग्री, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है।
 ### getDimension() {#getDimension--}
 ```
 public CurveDimension getDimension()
@@ -244,7 +244,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -254,10 +254,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getKnotVectors() {#getKnotVectors--}
 ```
 public List<Double> getKnotVectors()
@@ -297,14 +297,14 @@ public int getOrder()
 NURBS वक्र का क्रम प्राप्त करता है, यह निकटवर्ती नियंत्रण बिंदुओं की संख्या को परिभाषित करता है जो वक्र के किसी भी बिंदु को प्रभावित करते हैं।
 
 **Returns:**
-int - NURBS वक्र का क्रम, यह निकटवर्ती नियंत्रण बिंदुओं की संख्या निर्धारित करता है जो वक्र पर किसी भी बिंदु को प्रभावित करते हैं।
+int - NURBS वक्र का क्रम, यह वक्र पर किसी भी बिंदु को प्रभावित करने वाले निकटवर्ती नियंत्रण बिंदुओं की संख्या को परिभाषित करता है।
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -314,7 +314,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -349,17 +349,17 @@ public boolean getRational()
 ```
 
 
-जाँचता है कि यह तर्कसंगत है या नहीं, यह मान दर्शाता है कि यह [NurbsCurve](../../com.aspose.threed/nurbscurve) तर्कसंगत स्प्लाइन है या गैर‑तर्कसंगत स्प्लाइन। गैर‑तर्कसंगत B‑spline तर्कसंगत B‑splines का एक विशेष मामला है।
+जाँचता है कि यह तर्कसंगत है या नहीं, यह मान दर्शाता है कि यह [NurbsCurve](../../com.aspose.threed/nurbscurve) तर्कसंगत स्प्लाइन है या गैर-तर्कसंगत स्प्लाइन। गैर-तर्कसंगत B-spline तर्कसंगत B-splines का एक विशेष मामला है।
 
 **Returns:**
-boolean - यह तर्कसंगत है या नहीं, यह मान दर्शाता है कि यह [NurbsCurve](../../com.aspose.threed/nurbscurve) तर्कसंगत स्प्लाइन है या गैर‑तर्कसंगत स्प्लाइन। गैर‑तर्कसंगत B‑spline तर्कसंगत B‑splines का एक विशेष मामला है।
+boolean - यह तर्कसंगत है या नहीं, यह मान दर्शाता है कि यह [NurbsCurve](../../com.aspose.threed/nurbscurve) तर्कसंगत स्प्लाइन है या गैर-तर्कसंगत स्प्लाइन। गैर-तर्कसंगत B-spline तर्कसंगत B-splines का एक विशेष मामला है।
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -425,7 +425,7 @@ public void setColor(Vector3 value)
 ```
 
 
-रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है
+रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -451,7 +451,7 @@ public void setDegree(int value)
 ```
 
 
-NURBS वक्र की डिग्री सेट करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है
+NURBS वक्र की डिग्री सेट करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -477,7 +477,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -516,7 +516,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -543,7 +543,7 @@ public void setRational(boolean value)
 ```
 
 
-सेट करता है कि यह तर्कसंगत है या नहीं, यह मान दर्शाता है कि यह [NurbsCurve](../../com.aspose.threed/nurbscurve) तर्कसंगत स्प्लाइन है या गैर‑तर्कसंगत स्प्लाइन। गैर‑तर्कसंगत B‑spline तर्कसंगत B‑splines का एक विशेष मामला है।
+सेट करता है कि यह तर्कसंगत है या नहीं, यह मान दर्शाता है कि यह [NurbsCurve](../../com.aspose.threed/nurbscurve) तर्कसंगत स्प्लाइन है या गैर-तर्कसंगत स्प्लाइन। गैर-तर्कसंगत B-spline तर्कसंगत B-splines का एक विशेष मामला है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

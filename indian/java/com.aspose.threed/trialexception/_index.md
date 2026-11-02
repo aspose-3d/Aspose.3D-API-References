@@ -1,7 +1,7 @@
 ---
 title: "TrialException"
-second_title: "Aspose.3D for Java API Reference"
-description: "जब कोई लाइसेंस लागू नहीं होता है तो यह Scene.Open/Scene.Save में उठाया जाता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "जब कोई लाइसेंस लागू नहीं होता है, तो यह Scene.Open/Scene.Save में उठाया जाता है।"
 type: docs
 weight: 195
 url: /hi/java/com.aspose.threed/trialexception/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class TrialException extends RuntimeException
 ```
 
-यह त्रुटि Scene.Open/Scene.Save में तब उठती है जब कोई लाइसेंस लागू नहीं किया गया हो। आप SuppressTrialException को true सेट करके इस अपवाद को बंद कर सकते हैं।
-## कंस्ट्रक्टर
+यह Scene.Open/Scene.Save में तब उठाया जाता है जब कोई लाइसेंस लागू नहीं किया गया हो। आप SuppressTrialException को true सेट करके इस अपवाद को बंद कर सकते हैं।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [TrialException(String msg)](#TrialException-java.lang.String-) | Constructor of [TrialException](../../com.aspose.threed/trialexception) |
-| [TrialException()](#TrialException--) | Constructor of [TrialException](../../com.aspose.threed/trialexception) |
+| [TrialException(String msg)](#TrialException-java.lang.String-) | का कन्स्ट्रक्टर [TrialException](../../com.aspose.threed/trialexception) |
+| [TrialException()](#TrialException--) | का कन्स्ट्रक्टर [TrialException](../../com.aspose.threed/trialexception) |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -32,7 +32,7 @@ public class TrialException extends RuntimeException
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
-| [getSuppressTrialException()](#getSuppressTrialException--) | अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाने हेतु इसे true सेट करें, लेकिन प्रतिबंध हटाए नहीं जाएंगे। |
+| [getSuppressTrialException()](#getSuppressTrialException--) | इसे true सेट करने से अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाया जाता है, लेकिन प्रतिबंध नहीं हटेंगे। |
 | [getSuppressed()](#getSuppressed--) |  |
 | [hashCode()](#hashCode--) |  |
 | [initCause(Throwable arg0)](#initCause-java.lang.Throwable-) |  |
@@ -42,7 +42,7 @@ public class TrialException extends RuntimeException
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [setSuppressTrialException(boolean value)](#setSuppressTrialException-boolean-) | अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाने हेतु इसे true सेट करें, लेकिन प्रतिबंध हटाए नहीं जाएंगे। |
+| [setSuppressTrialException(boolean value)](#setSuppressTrialException-boolean-) | इसे true सेट करने से अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाया जाता है, लेकिन प्रतिबंध नहीं हटेंगे। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,7 +53,7 @@ public TrialException(String msg)
 ```
 
 
-Constructor of [TrialException](../../com.aspose.threed/trialexception)
+का कन्स्ट्रक्टर [TrialException](../../com.aspose.threed/trialexception)
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -66,7 +66,7 @@ public TrialException()
 ```
 
 
-Constructor of [TrialException](../../com.aspose.threed/trialexception)
+का कन्स्ट्रक्टर [TrialException](../../com.aspose.threed/trialexception)
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -162,10 +162,10 @@ public static boolean getSuppressTrialException()
 ```
 
 
-अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाने हेतु इसे true सेट करें, लेकिन प्रतिबंध हटाए नहीं जाएंगे। प्रतिबंध हटाने के लिए कृपया एक वैध लाइसेंस उपयोग करें। इसे true सेट करने का मतलब यह भी है कि आप अनलाइसेंस्ड प्रतिबंधों से अवगत हैं।
+इसे true सेट करने से अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाया जाता है, लेकिन प्रतिबंध नहीं हटेंगे। प्रतिबंध हटाने के लिए कृपया एक उचित लाइसेंस का उपयोग करें। और इसे true सेट करना यह भी दर्शाता है कि आप अनलाइसेंस्ड प्रतिबंधों से अवगत हैं।
 
 **Returns:**
-boolean - अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाने हेतु इसे true सेट करें, लेकिन प्रतिबंध हटाए नहीं जाएंगे। प्रतिबंध हटाने के लिए कृपया एक वैध लाइसेंस उपयोग करें। इसे true सेट करने का मतलब यह भी है कि आप अनलाइसेंस्ड प्रतिबंधों से अवगत हैं।
+boolean - इसे true सेट करने से अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाया जाता है, लेकिन प्रतिबंध नहीं हटेंगे। प्रतिबंध हटाने के लिए कृपया एक उचित लाइसेंस का उपयोग करें। और इसे true सेट करना यह भी दर्शाता है कि आप अनलाइसेंस्ड प्रतिबंधों से अवगत हैं।
 ### getSuppressed() {#getSuppressed--}
 ```
 public final synchronized Throwable[] getSuppressed()
@@ -270,7 +270,7 @@ public static void setSuppressTrialException(boolean value)
 ```
 
 
-अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाने हेतु इसे true सेट करें, लेकिन प्रतिबंध हटाए नहीं जाएंगे। प्रतिबंध हटाने के लिए कृपया एक वैध लाइसेंस उपयोग करें। इसे true सेट करने का मतलब यह भी है कि आप अनलाइसेंस्ड प्रतिबंधों से अवगत हैं।
+इसे true सेट करने से अनलाइसेंस्ड उपयोग के लिए ट्रायल अपवाद को दबाया जाता है, लेकिन प्रतिबंध नहीं हटेंगे। प्रतिबंध हटाने के लिए कृपया एक उचित लाइसेंस का उपयोग करें। और इसे true सेट करना यह भी दर्शाता है कि आप अनलाइसेंस्ड प्रतिबंधों से अवगत हैं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,6 +1,6 @@
 ---
 title: "VertexElementVertexCrease"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "निर्दिष्ट घटकों के लिए वर्टेक्स क्रीज़ को परिभाषित करता है"
 type: docs
 weight: 224
@@ -14,11 +14,11 @@ public class VertexElementVertexCrease extends VertexElementDoublesTemplate
 ```
 
 निर्दिष्ट घटकों के लिए वर्टेक्स क्रीज़ को परिभाषित करता है
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [VertexElementVertexCrease()](#VertexElementVertexCrease--) | एक नया उदाहरण [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) क्लास का प्रारंभ करता है। |
+| [VertexElementVertexCrease()](#VertexElementVertexCrease--) | [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) वर्ग का एक नया उदाहरण प्रारंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -31,18 +31,18 @@ public class VertexElementVertexCrease extends VertexElementDoublesTemplate
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | वर्टेक्स डेटा प्राप्त करता है। |
 | [getIndices()](#getIndices--) | इंडेक्स डेटा प्राप्त करता है। |
-| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, यह प्राप्त करता है। |
+| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है। |
+| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, प्राप्त करता है। |
 | [getVertexElementType()](#getVertexElementType--) | [VertexElement](../../com.aspose.threed/vertexelement) का प्रकार प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setData(double[] data)](#setData-double---) | डेटा लोड करें |
 | [setIndices(int[] data)](#setIndices-int---) | इंडेक्स लोड करें |
-| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, यह सेट करता है। |
+| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, यह सेट करता है। |
+| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, सेट करता है। |
 | [toString()](#toString--) | वर्टेक्स तत्व का स्ट्रिंग प्रतिनिधित्व। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,7 +53,7 @@ public VertexElementVertexCrease()
 ```
 
 
-एक नया उदाहरण [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) क्लास का प्रारंभ करता है।
+[VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) वर्ग का एक नया उदाहरण प्रारंभ करता है।
 
 ### clear() {#clear--}
 ```
@@ -74,7 +74,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें। |
+| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -158,7 +158,7 @@ public MappingMode getMappingMode()
 ```
 
 
-तत्व कैसे मैप किया गया है, यह प्राप्त करता है।
+तत्व कैसे मैप किया गया है, प्राप्त करता है।
 
 **Returns:**
 [MappingMode](../../com.aspose.threed/mappingmode) - how the element is mapped.
@@ -178,7 +178,7 @@ public ReferenceMode getReferenceMode()
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है।
+तत्व कैसे संदर्भित किया गया है, प्राप्त करता है।
 
 **Returns:**
 [ReferenceMode](../../com.aspose.threed/referencemode) - how the element is referenced.
@@ -250,7 +250,7 @@ public void setMappingMode(MappingMode value)
 ```
 
 
-तत्व कैसे मैप किया गया है, यह सेट करता है।
+तत्व कैसे मैप किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -276,7 +276,7 @@ public void setReferenceMode(ReferenceMode value)
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह सेट करता है।
+तत्व कैसे संदर्भित किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,6 +1,6 @@
 ---
 title: "FVector4"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "चार घटकों वाला फ़्लोट वेक्टर।"
 type: docs
 weight: 61
@@ -17,25 +17,25 @@ public final class FVector4 implements Struct<FVector4>, Serializable
 ```
 
 चार घटकों वाला फ़्लोट वेक्टर।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [FVector4(float x, float y, float z, float w)](#FVector4-float-float-float-float-) | नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
-| [FVector4(float x, float y, float z)](#FVector4-float-float-float-) | नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
-| [FVector4(Color color)](#FVector4-java.awt.Color-) | नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
-| [FVector4(Vector4 vec)](#FVector4-com.aspose.threed.Vector4-) | नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
-| [FVector4(Vector3 vec)](#FVector4-com.aspose.threed.Vector3-) | नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
-| [FVector4(Vector3 vec, float w)](#FVector4-com.aspose.threed.Vector3-float-) | नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
+| [FVector4(float x, float y, float z, float w)](#FVector4-float-float-float-float-) | एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
+| [FVector4(float x, float y, float z)](#FVector4-float-float-float-) | एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
+| [FVector4(Color color)](#FVector4-java.awt.Color-) | एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
+| [FVector4(Vector4 vec)](#FVector4-com.aspose.threed.Vector4-) | एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
+| [FVector4(Vector3 vec)](#FVector4-com.aspose.threed.Vector3-) | एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
+| [FVector4(Vector3 vec, float w)](#FVector4-com.aspose.threed.Vector3-float-) | एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
 | [FVector4()](#FVector4--) |  |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
 | [w](#w) | w घटक। |
-| [x](#x) | The x component. |
-| [y](#y) | The y component. |
-| [z](#z) | The z component. |
+| [x](#x) | x घटक। |
+| [y](#y) | y घटक। |
+| [z](#z) | z घटक। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,11 +47,11 @@ public final class FVector4 implements Struct<FVector4>, Serializable
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [mul(FVector4 lhs, FVector4 rhs)](#mul-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
+| [mul(FVector4 lhs, FVector4 rhs)](#mul-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | ऑपरेटर ओवरलोडिंग \* के लिए |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [sub(FVector4 lhs, FVector4 rhs)](#sub-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | ऑपरेटर ओवरलोडिंग के लिए - (माइनस) |
-| [toString()](#toString--) | एक स्ट्रिंग लौटाता है जो [FVector4](../../com.aspose.threed/fvector4) को दर्शाती है |
+| [toString()](#toString--) | एक स्ट्रिंग लौटाता है जो [FVector4](../../com.aspose.threed/fvector4) का प्रतिनिधित्व करती है |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -61,7 +61,7 @@ public FVector4(float x, float y, float z, float w)
 ```
 
 
-नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
+एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -77,7 +77,7 @@ public FVector4(float x, float y, float z)
 ```
 
 
-नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
+एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -92,7 +92,7 @@ public FVector4(Color color)
 ```
 
 
-नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
+एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -105,7 +105,7 @@ public FVector4(Vector4 vec)
 ```
 
 
-नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
+एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -118,7 +118,7 @@ public FVector4(Vector3 vec)
 ```
 
 
-नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
+एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -131,7 +131,7 @@ public FVector4(Vector3 vec, float w)
 ```
 
 
-नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
+एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -159,7 +159,7 @@ public float x
 ```
 
 
-The x component.
+x घटक।
 
 ### y {#y}
 ```
@@ -167,7 +167,7 @@ public float y
 ```
 
 
-The y component.
+y घटक।
 
 ### z {#z}
 ```
@@ -175,7 +175,7 @@ public float z
 ```
 
 
-The z component.
+z घटक।
 
 ### add(FVector4 lhs, FVector4 rhs) {#add-com.aspose.threed.FVector4-com.aspose.threed.FVector4-}
 ```
@@ -272,7 +272,7 @@ public static FVector4 mul(FVector4 lhs, FVector4 rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -320,7 +320,7 @@ public String toString()
 ```
 
 
-एक स्ट्रिंग लौटाता है जो [FVector4](../../com.aspose.threed/fvector4) को दर्शाती है
+एक स्ट्रिंग लौटाता है जो [FVector4](../../com.aspose.threed/fvector4) का प्रतिनिधित्व करती है
 
 **Returns:**
 java.lang.String - वर्तमान वेक्टर का स्ट्रिंग प्रतिनिधित्व।

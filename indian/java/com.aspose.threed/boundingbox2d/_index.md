@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox2D"
-second_title: "Aspose.3D for Java API Reference"
-description: "के लिए अक्ष-संरेखित बाउंडिंग बॉक्स"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "के लिए अक्ष-समरेखित बाउंडिंग बॉक्स"
 type: docs
 weight: 25
 url: /hi/java/com.aspose.threed/boundingbox2d/
@@ -16,12 +16,12 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox2D implements Struct<BoundingBox2D>, Serializable
 ```
 
-अक्ष-संरेखित बाउंडिंग बॉक्स [Vector2](../../com.aspose.threed/vector2) के लिए
-## कंस्ट्रक्टर
+वेक्टर2 के लिए अक्ष-संरेखित बाउंडिंग बॉक्स
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को आरंभ करें |
+| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को प्रारंभ करें |
 | [BoundingBox2D()](#BoundingBox2D--) |  |
 ## फ़ील्ड्स
 
@@ -55,7 +55,7 @@ public BoundingBox2D(Vector2 minimum, Vector2 maximum)
 ```
 
 
-दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को आरंभ करें
+दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को प्रारंभ करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -184,7 +184,7 @@ public void merge(BoundingBox2D bb)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| bb | [BoundingBox2D](../../com.aspose.threed/boundingbox2d) | मर्ज करने के लिए बाउंडिंग बॉक्स |
+| bb | [BoundingBox2D](../../com.aspose.threed/boundingbox2d) | मिलाने के लिए बाउंडिंग बॉक्स |
 
 ### merge(Vector2 pt) {#merge-com.aspose.threed.Vector2-}
 ```
@@ -197,7 +197,7 @@ public void merge(Vector2 pt)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| pt | [Vector2](../../com.aspose.threed/vector2) | मर्ज करने के लिए बिंदु |
+| pt | [Vector2](../../com.aspose.threed/vector2) | मिलाने के लिए बिंदु |
 
 ### notify() {#notify--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "PushConstant"
-second_title: "Aspose.3D for Java API Reference"
-description: "पुश कॉन्स्टेंट के माध्यम से शेडर को डेटा प्रदान करने के लिए एक यूटिलिटी।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "पुश कॉन्स्टैंट के माध्यम से शेडर को डेटा प्रदान करने के लिए एक यूटिलिटी।"
 type: docs
 weight: 141
 url: /hi/java/com.aspose.threed/pushconstant/
@@ -13,10 +13,10 @@ java.lang.Object
 public class PushConstant
 ```
 
-पुश कॉन्स्टेंट के माध्यम से शेडर को डेटा प्रदान करने के लिए एक यूटिलिटी।
-## कंस्ट्रक्टर
+पुश कॉन्स्टैंट के माध्यम से शेडर को डेटा प्रदान करने के लिए एक यूटिलिटी।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [PushConstant()](#PushConstant--) | [PushConstant](../../com.aspose.threed/pushconstant) का कंस्ट्रक्टर |
 ## विधियाँ
@@ -36,9 +36,9 @@ public class PushConstant
 | [write(FMatrix4 mat)](#write-com.aspose.threed.FMatrix4-) | मैट्रिक्स को कॉन्स्टेंट में लिखें |
 | [write(FVector3 vec)](#write-com.aspose.threed.FVector3-) | 3-घटक वेक्टर को कॉन्स्टेंट में लिखें |
 | [write(FVector4 vec)](#write-com.aspose.threed.FVector4-) | 4-घटक वेक्टर को कॉन्स्टेंट में लिखें |
-| [write(float f)](#write-float-) | float मान को कॉन्स्टेंट में लिखें |
+| [write(float f)](#write-float-) | फ़्लोट मान को कॉन्स्टेंट में लिखें |
 | [write(float x, float y, float z, float w)](#write-float-float-float-float-) | 4-घटक वेक्टर को कॉन्स्टेंट में लिखें |
-| [write(int n)](#write-int-) | int मान को कॉन्स्टेंट में लिखें |
+| [write(int n)](#write-int-) | इंट मान को कॉन्स्टेंट में लिखें |
 ### PushConstant() {#PushConstant--}
 ```
 public PushConstant()
@@ -210,7 +210,7 @@ public PushConstant write(float f)
 ```
 
 
-float मान को कॉन्स्टेंट में लिखें
+फ़्लोट मान को कॉन्स्टेंट में लिखें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -243,7 +243,7 @@ public PushConstant write(int n)
 ```
 
 
-int मान को कॉन्स्टेंट में लिखें
+इंट मान को कॉन्स्टेंट में लिखें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

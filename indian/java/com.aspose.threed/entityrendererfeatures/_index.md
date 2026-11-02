@@ -1,6 +1,6 @@
 ---
 title: "EntityRendererFeatures"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "इकाई रेंडरर द्वारा प्रदान की जाने वाली अतिरिक्त सुविधाएँ"
 type: docs
 weight: 54
@@ -14,9 +14,9 @@ public final class EntityRendererFeatures
 ```
 
 इकाई रेंडरर द्वारा प्रदान की जाने वाली अतिरिक्त सुविधाएँ
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [EntityRendererFeatures()](#EntityRendererFeatures--) |  |
 ## फ़ील्ड्स
@@ -24,8 +24,8 @@ public final class EntityRendererFeatures
 | फ़ील्ड | विवरण |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | कोई अतिरिक्त सुविधाएँ नहीं |
-| [FRAME_BEGIN](#FRAME-BEGIN) | यह [EntityRenderer](../../com.aspose.threed/entityrenderer) FrameBegin कॉलबैक को प्रत्येक सीन फ्रेम को रेंडर करने से पहले देखेगा |
-| [FRAME_END](#FRAME-END) | यह [EntityRenderer](../../com.aspose.threed/entityrenderer) FrameBegin कॉलबैक को प्रत्येक सीन फ्रेम को रेंडर करने के बाद देखेगा |
+| [FRAME_BEGIN](#FRAME-BEGIN) | यह [EntityRenderer](../../com.aspose.threed/entityrenderer) प्रत्येक सीन फ्रेम को रेंडर करने से पहले FrameBegin कॉलबैक को देखेगा |
+| [FRAME_END](#FRAME-END) | यह [EntityRenderer](../../com.aspose.threed/entityrenderer) प्रत्येक सीन फ्रेम को रेंडर करने के बाद FrameBegin कॉलबैक को देखेगा |
 | [SHADOWMAP](#SHADOWMAP) | यह रेंडरर शैडोमैप मोड में काम कर सकता है |
 ## विधियाँ
 
@@ -60,7 +60,7 @@ public static final byte FRAME_BEGIN
 ```
 
 
-यह [EntityRenderer](../../com.aspose.threed/entityrenderer) FrameBegin कॉलबैक को प्रत्येक सीन फ्रेम को रेंडर करने से पहले देखेगा
+यह [EntityRenderer](../../com.aspose.threed/entityrenderer) प्रत्येक सीन फ्रेम को रेंडर करने से पहले FrameBegin कॉलबैक को देखेगा
 
 ### FRAME_END {#FRAME-END}
 ```
@@ -68,7 +68,7 @@ public static final byte FRAME_END
 ```
 
 
-यह [EntityRenderer](../../com.aspose.threed/entityrenderer) FrameBegin कॉलबैक को प्रत्येक सीन फ्रेम को रेंडर करने के बाद देखेगा
+यह [EntityRenderer](../../com.aspose.threed/entityrenderer) प्रत्येक सीन फ्रेम को रेंडर करने के बाद FrameBegin कॉलबैक को देखेगा
 
 ### SHADOWMAP {#SHADOWMAP}
 ```

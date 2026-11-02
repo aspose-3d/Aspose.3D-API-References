@@ -1,7 +1,7 @@
 ---
 title: "RendererVariableManager"
-second_title: "Aspose.3D for Java API Reference"
-description: "यह क्लास रेंडरिंग में उपयोग होने वाले वेरिएबल्स को मैनेज करती है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "यह क्लास रेंडरिंग में उपयोग होने वाले वेरिएबल्स को प्रबंधित करती है।"
 type: docs
 weight: 154
 url: /hi/java/com.aspose.threed/renderervariablemanager/
@@ -13,39 +13,39 @@ java.lang.Object
 public abstract class RendererVariableManager
 ```
 
-यह क्लास रेंडरिंग में उपयोग होने वाले वेरिएबल्स को मैनेज करती है।
+यह क्लास रेंडरिंग में उपयोग होने वाले वेरिएबल्स को प्रबंधित करती है।
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCameraPosition()](#getCameraPosition--) | वर्ल्ड कोऑर्डिनेट सिस्टम में कैमरा की स्थिति |
+| [getCameraPosition()](#getCameraPosition--) | विश्व निर्देशांक प्रणाली में कैमरा की स्थिति |
 | [getClass()](#getClass--) |  |
 | [getDepthBias()](#getDepthBias--) | शैडो मैपिंग के लिए डेप्थ बायस, डिफ़ॉल्ट मान 0.001 है। |
 | [getMatrixLightSpace()](#getMatrixLightSpace--) | लाइट स्पेस ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
 | [getMatrixProjection()](#getMatrixProjection--) | प्रोजेक्शन ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
 | [getMatrixView()](#getMatrixView--) | व्यू ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
 | [getMatrixViewProjection()](#getMatrixViewProjection--) | व्यू और प्रोजेक्शन ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स। |
-| [getMatrixWorld()](#getMatrixWorld--) | वर्ल्ड ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
-| [getMatrixWorldNormal()](#getMatrixWorldNormal--) | ऑब्जेक्ट से वर्ल्ड स्पेस में नॉर्मल को बदलने के लिए मैट्रिक्स। |
-| [getMatrixWorldViewProjection()](#getMatrixWorldViewProjection--) | विश्व दृश्य और प्रोजेक्शन ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
-| [getShadowCaster()](#getShadowCaster--) | विश्व निर्देशांक प्रणाली में शैडो कास्टर की स्थिति |
-| [getShadowmap()](#getShadowmap--) | शैडो मैपिंग के लिए उपयोग की गई डेप्थ टेक्सचर |
+| [getMatrixWorld()](#getMatrixWorld--) | विश्व ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
+| [getMatrixWorldNormal()](#getMatrixWorldNormal--) | ऑब्जेक्ट से विश्व स्पेस में नॉर्मल को बदलने के लिए मैट्रिक्स। |
+| [getMatrixWorldViewProjection()](#getMatrixWorldViewProjection--) | विश्व दृश्य और प्रक्षेपण परिवर्तन के लिए मैट्रिक्स |
+| [getShadowCaster()](#getShadowCaster--) | विश्व निर्देशांक प्रणाली में छाया उत्पन्न करने वाले की स्थिति |
+| [getShadowmap()](#getShadowmap--) | छाया मानचित्रण के लिए उपयोग की गई गहराई टेक्सचर |
 | [getViewportSize()](#getViewportSize--) | व्यूपोर्ट का आकार, पिक्सेल में मापा गया |
-| [getWorldAmbient()](#getWorldAmbient--) | व्यूपोर्ट में परिभाषित एंबिएंट रंग। |
+| [getWorldAmbient()](#getWorldAmbient--) | व्यूपोर्ट में परिभाषित परिवेशीय रंग। |
 | [getWorldTime()](#getWorldTime--) | सेकंड में समय |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCameraPosition(FVector3 value)](#setCameraPosition-com.aspose.threed.FVector3-) | वर्ल्ड कोऑर्डिनेट सिस्टम में कैमरा की स्थिति |
+| [setCameraPosition(FVector3 value)](#setCameraPosition-com.aspose.threed.FVector3-) | विश्व निर्देशांक प्रणाली में कैमरा की स्थिति |
 | [setDepthBias(float value)](#setDepthBias-float-) | शैडो मैपिंग के लिए डेप्थ बायस, डिफ़ॉल्ट मान 0.001 है। |
 | [setMatrixLightSpace(FMatrix4 value)](#setMatrixLightSpace-com.aspose.threed.FMatrix4-) | लाइट स्पेस ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
 | [setMatrixProjection(FMatrix4 value)](#setMatrixProjection-com.aspose.threed.FMatrix4-) | प्रोजेक्शन ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
 | [setMatrixView(FMatrix4 value)](#setMatrixView-com.aspose.threed.FMatrix4-) | व्यू ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
-| [setShadowCaster(FVector3 value)](#setShadowCaster-com.aspose.threed.FVector3-) | विश्व निर्देशांक प्रणाली में शैडो कास्टर की स्थिति |
-| [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | शैडो मैपिंग के लिए उपयोग की गई डेप्थ टेक्सचर |
+| [setShadowCaster(FVector3 value)](#setShadowCaster-com.aspose.threed.FVector3-) | विश्व निर्देशांक प्रणाली में छाया उत्पन्न करने वाले की स्थिति |
+| [setShadowmap(ITextureUnit value)](#setShadowmap-com.aspose.threed.ITextureUnit-) | छाया मानचित्रण के लिए उपयोग की गई गहराई टेक्सचर |
 | [setViewportSize(FVector2 value)](#setViewportSize-com.aspose.threed.FVector2-) | व्यूपोर्ट का आकार, पिक्सेल में मापा गया |
-| [setWorldAmbient(FVector3 value)](#setWorldAmbient-com.aspose.threed.FVector3-) | व्यूपोर्ट में परिभाषित एंबिएंट रंग। |
+| [setWorldAmbient(FVector3 value)](#setWorldAmbient-com.aspose.threed.FVector3-) | व्यूपोर्ट में परिभाषित परिवेशीय रंग। |
 | [setWorldTime(float value)](#setWorldTime-float-) | सेकंड में समय |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -72,7 +72,7 @@ public FVector3 getCameraPosition()
 ```
 
 
-वर्ल्ड कोऑर्डिनेट सिस्टम में कैमरा की स्थिति
+विश्व निर्देशांक प्रणाली में कैमरा की स्थिति
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Camera's position in world coordinate system
@@ -95,7 +95,7 @@ public float getDepthBias()
 शैडो मैपिंग के लिए डेप्थ बायस, डिफ़ॉल्ट मान 0.001 है।
 
 **Returns:**
-float - शैडो मैपिंग के लिए डेप्थ बायस, डिफ़ॉल्ट मान 0.001 है
+float - छाया मानचित्रण के लिए गहराई बायस, डिफ़ॉल्ट मान 0.001 है
 ### getMatrixLightSpace() {#getMatrixLightSpace--}
 ```
 public FMatrix4 getMatrixLightSpace()
@@ -142,7 +142,7 @@ public FMatrix4 getMatrixWorld()
 ```
 
 
-वर्ल्ड ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स
+विश्व ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for world transformation
@@ -152,7 +152,7 @@ public FMatrix4 getMatrixWorldNormal()
 ```
 
 
-ऑब्जेक्ट से वर्ल्ड स्पेस में नॉर्मल को बदलने के लिए मैट्रिक्स।
+ऑब्जेक्ट से विश्व स्पेस में नॉर्मल को बदलने के लिए मैट्रिक्स।
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for converting normal from object to world space.
@@ -162,7 +162,7 @@ public FMatrix4 getMatrixWorldViewProjection()
 ```
 
 
-विश्व दृश्य और प्रोजेक्शन ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स
+विश्व दृश्य और प्रक्षेपण परिवर्तन के लिए मैट्रिक्स
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - Matrix for world view and projection transformation
@@ -172,7 +172,7 @@ public FVector3 getShadowCaster()
 ```
 
 
-विश्व निर्देशांक प्रणाली में शैडो कास्टर की स्थिति
+विश्व निर्देशांक प्रणाली में छाया उत्पन्न करने वाले की स्थिति
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Position of shadow caster in world coordinate system
@@ -182,7 +182,7 @@ public ITextureUnit getShadowmap()
 ```
 
 
-शैडो मैपिंग के लिए उपयोग की गई डेप्थ टेक्सचर
+छाया मानचित्रण के लिए उपयोग की गई गहराई टेक्सचर
 
 **Returns:**
 [ITextureUnit](../../com.aspose.threed/itextureunit) - The depth texture used for shadow mapping
@@ -202,7 +202,7 @@ public FVector3 getWorldAmbient()
 ```
 
 
-व्यूपोर्ट में परिभाषित एंबिएंट रंग।
+व्यूपोर्ट में परिभाषित परिवेशीय रंग।
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Ambient color defined in viewport.
@@ -248,7 +248,7 @@ public void setCameraPosition(FVector3 value)
 ```
 
 
-वर्ल्ड कोऑर्डिनेट सिस्टम में कैमरा की स्थिति
+विश्व निर्देशांक प्रणाली में कैमरा की स्थिति
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -313,7 +313,7 @@ public void setShadowCaster(FVector3 value)
 ```
 
 
-विश्व निर्देशांक प्रणाली में शैडो कास्टर की स्थिति
+विश्व निर्देशांक प्रणाली में छाया उत्पन्न करने वाले की स्थिति
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -326,7 +326,7 @@ public void setShadowmap(ITextureUnit value)
 ```
 
 
-शैडो मैपिंग के लिए उपयोग की गई डेप्थ टेक्सचर
+छाया मानचित्रण के लिए उपयोग की गई गहराई टेक्सचर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -352,7 +352,7 @@ public void setWorldAmbient(FVector3 value)
 ```
 
 
-व्यूपोर्ट में परिभाषित एंबिएंट रंग।
+व्यूपोर्ट में परिभाषित परिवेशीय रंग।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

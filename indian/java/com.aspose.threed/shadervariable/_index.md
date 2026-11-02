@@ -1,7 +1,7 @@
 ---
 title: "ShaderVariable"
-second_title: "Aspose.3D for Java API Reference"
-description: "शेडर वैरिएबल।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "शेडर वेरिएबल"
 type: docs
 weight: 170
 url: /hi/java/com.aspose.threed/shadervariable/
@@ -13,13 +13,13 @@ java.lang.Object
 public class ShaderVariable
 ```
 
-शेडर वैरिएबल।
-## कंस्ट्रक्टर
+शेडर वेरिएबल
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [ShaderVariable(String name)](#ShaderVariable-java.lang.String-) | [ShaderVariable](../../com.aspose.threed/shadervariable) का कंस्ट्रक्टर |
-| [ShaderVariable(String name, int shaderStage)](#ShaderVariable-java.lang.String-int-) | [ShaderVariable](../../com.aspose.threed/shadervariable) का कंस्ट्रक्टर |
+| [ShaderVariable(String name)](#ShaderVariable-java.lang.String-) | [ShaderVariable](../../com.aspose.threed/shadervariable) का कंस्ट्रक्टर। |
+| [ShaderVariable(String name, int shaderStage)](#ShaderVariable-java.lang.String-int-) | [ShaderVariable](../../com.aspose.threed/shadervariable) का कंस्ट्रक्टर। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -40,7 +40,7 @@ public ShaderVariable(String name)
 ```
 
 
-[ShaderVariable](../../com.aspose.threed/shadervariable) का कंस्ट्रक्टर
+[ShaderVariable](../../com.aspose.threed/shadervariable) का कंस्ट्रक्टर।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -53,13 +53,13 @@ public ShaderVariable(String name, int shaderStage)
 ```
 
 
-[ShaderVariable](../../com.aspose.threed/shadervariable) का कंस्ट्रक्टर
+[ShaderVariable](../../com.aspose.threed/shadervariable) का कंस्ट्रक्टर।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | नाम | java.lang.String |  |
-| shaderStage | int | यह चर किस शेडर चरण में उपयोग किया जाएगा |
+| shaderStage | int | यह वेरिएबल किस shader stage में उपयोग किया जाएगा |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

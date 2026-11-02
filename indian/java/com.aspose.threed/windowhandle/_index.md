@@ -1,6 +1,6 @@
 ---
 title: "WindowHandle"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "विभिन्न प्लेटफ़ॉर्म के लिए संलग्न विंडो हैंडल।"
 type: docs
 weight: 232
@@ -20,7 +20,7 @@ public class WindowHandle
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromWayland(long display, long surface)](#fromWayland-long-long-) | Wayland सतह से [WindowHandle](../../com.aspose.threed/windowhandle) बनाएं |
-| [fromWin32(long hWnd)](#fromWin32-long-) | Windows वातावरण में मूल HWND इंस्टेंस। |
+| [fromWin32(long hWnd)](#fromWin32-long-) | Windows पर्यावरण में मूल HWND उदाहरण। |
 | [fromXlib(long display, long window)](#fromXlib-long-long-) | Xlib विंडो से [WindowHandle](../../com.aspose.threed/windowhandle) बनाएं |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -56,7 +56,7 @@ Wayland सतह से [WindowHandle](../../com.aspose.threed/windowhandle) �
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| डिस्प्ले | long | Wayland सर्वर का डिस्प्ले इंस्टेंस |
+| डिस्प्ले | long | Wayland सर्वर का डिस्प्ले उदाहरण |
 | सतह | long | सतह का हैंडल |
 
 **Returns:**
@@ -67,7 +67,7 @@ public static WindowHandle fromWin32(long hWnd)
 ```
 
 
-Windows वातावरण में मूल HWND इंस्टेंस।
+Windows पर्यावरण में मूल HWND उदाहरण।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -87,7 +87,7 @@ Xlib विंडो से [WindowHandle](../../com.aspose.threed/windowhandle)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| डिस्प्ले | long | X सर्वर का डिस्प्ले इंस्टेंस |
+| डिस्प्ले | long | X सर्वर का डिस्प्ले उदाहरण |
 | विंडो | long | विंडो का हैंडल |
 
 **Returns:**

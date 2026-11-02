@@ -1,6 +1,6 @@
 ---
 title: "FVector3"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "तीन घटकों वाला फ़्लोट वेक्टर।"
 type: docs
 weight: 60
@@ -17,21 +17,21 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 ```
 
 तीन घटकों वाला फ़्लोट वेक्टर।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [FVector3(float x, float y, float z)](#FVector3-float-float-float-) | नए [FVector3](../../com.aspose.threed/fvector3) का एक नया उदाहरण प्रारंभ करता है। |
-| [FVector3(Vector3 vec)](#FVector3-com.aspose.threed.Vector3-) | नए [FVector3](../../com.aspose.threed/fvector3) का एक नया उदाहरण प्रारंभ करता है। |
-| [FVector3(Vector4 vec)](#FVector3-com.aspose.threed.Vector4-) | नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
+| [FVector3(float x, float y, float z)](#FVector3-float-float-float-) | नए [FVector3](../../com.aspose.threed/fvector3) का एक नया उदाहरण आरंभ करता है। |
+| [FVector3(Vector3 vec)](#FVector3-com.aspose.threed.Vector3-) | नए [FVector3](../../com.aspose.threed/fvector3) का एक नया उदाहरण आरंभ करता है। |
+| [FVector3(Vector4 vec)](#FVector3-com.aspose.threed.Vector4-) | एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का। |
 | [FVector3()](#FVector3--) |  |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [x](#x) | The x component. |
-| [y](#y) | The y component. |
-| [z](#z) | The y component. |
+| [x](#x) | x घटक। |
+| [y](#y) | y घटक। |
+| [z](#z) | y घटक। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -40,7 +40,7 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 | [clone()](#clone--) |  |
 | [copyFrom(FVector3 src)](#copyFrom-com.aspose.threed.FVector3-) |  |
 | [create(FVector3 v)](#create-com.aspose.threed.FVector3-) | FVector3 को Vector3 में कास्ट करने के लिए स्पष्ट रूपांतरण ऑपरेटर |
-| [cross(FVector3 rhs)](#cross-com.aspose.threed.FVector3-) | दो वेक्टरों का क्रॉस प्रोडक्ट। |
+| [cross(FVector3 rhs)](#cross-com.aspose.threed.FVector3-) | दो वेक्टरों का क्रॉस प्रोडक्ट |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getOne()](#getOne--) | सभी घटकों के साथ इकाई स्केल वेक्टर सभी 1 हैं |
@@ -52,7 +52,7 @@ public final class FVector3 implements Struct<FVector3>, Serializable
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [sub(FVector3 a, FVector3 b)](#sub-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \- ऑपरेटर ओवरलोडिंग |
-| [toString()](#toString--) | एक स्ट्रिंग लौटाता है जो [FVector3](../../com.aspose.threed/fvector3) को दर्शाती है |
+| [toString()](#toString--) | एक स्ट्रिंग लौटाता है जो [FVector3](../../com.aspose.threed/fvector3) का प्रतिनिधित्व करता है |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -62,7 +62,7 @@ public FVector3(float x, float y, float z)
 ```
 
 
-नए [FVector3](../../com.aspose.threed/fvector3) का एक नया उदाहरण प्रारंभ करता है।
+नए [FVector3](../../com.aspose.threed/fvector3) का एक नया उदाहरण आरंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -77,7 +77,7 @@ public FVector3(Vector3 vec)
 ```
 
 
-नए [FVector3](../../com.aspose.threed/fvector3) का एक नया उदाहरण प्रारंभ करता है।
+नए [FVector3](../../com.aspose.threed/fvector3) का एक नया उदाहरण आरंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -90,7 +90,7 @@ public FVector3(Vector4 vec)
 ```
 
 
-नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
+एक नया उदाहरण प्रारंभ करता है [FVector4](../../com.aspose.threed/fvector4) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -109,7 +109,7 @@ public float x
 ```
 
 
-The x component.
+x घटक।
 
 ### y {#y}
 ```
@@ -117,7 +117,7 @@ public float y
 ```
 
 
-The y component.
+y घटक।
 
 ### z {#z}
 ```
@@ -125,7 +125,7 @@ public float z
 ```
 
 
-The y component.
+y घटक।
 
 ### add(FVector3 a, FVector3 b) {#add-com.aspose.threed.FVector3-com.aspose.threed.FVector3-}
 ```
@@ -187,12 +187,12 @@ public FVector3 cross(FVector3 rhs)
 ```
 
 
-दो वेक्टरों का क्रॉस प्रोडक्ट।
+दो वेक्टरों का क्रॉस प्रोडक्ट
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| rhs | [FVector3](../../com.aspose.threed/fvector3) | दाएँ हाथ का मान. |
+| rhs | [FVector3](../../com.aspose.threed/fvector3) | दाएँ हाथ का मान। |
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - Cross product of two [FVector3](../../com.aspose.threed/fvector3)s.
@@ -330,7 +330,7 @@ public String toString()
 ```
 
 
-एक स्ट्रिंग लौटाता है जो [FVector3](../../com.aspose.threed/fvector3) को दर्शाती है
+एक स्ट्रिंग लौटाता है जो [FVector3](../../com.aspose.threed/fvector3) का प्रतिनिधित्व करता है
 
 **Returns:**
 java.lang.String - इस वेक्टर का स्ट्रिंग प्रतिनिधित्व।

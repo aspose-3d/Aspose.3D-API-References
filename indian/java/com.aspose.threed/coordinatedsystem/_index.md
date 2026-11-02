@@ -1,6 +1,6 @@
 ---
 title: "CoordinatedSystem"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "बाएँ हाथ या दाएँ हाथ का निर्देशांक प्रणाली।"
 type: docs
 weight: 214
@@ -18,8 +18,8 @@ public enum CoordinatedSystem extends Enum<CoordinatedSystem>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [LEFT_HANDED](#LEFT-HANDED) | बायाँ हाथ वाला। |
-| [RIGHT_HANDED](#RIGHT-HANDED) | दायाँ हाथ वाला। |
+| [LEFT_HANDED](#LEFT-HANDED) | बाएँ हाथ वाला। |
+| [RIGHT_HANDED](#RIGHT-HANDED) | दाएँ हाथ वाला। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public static final CoordinatedSystem LEFT_HANDED
 ```
 
 
-बायाँ हाथ वाला।
+बाएँ हाथ वाला।
 
 ### RIGHT_HANDED {#RIGHT-HANDED}
 ```
@@ -55,7 +55,7 @@ public static final CoordinatedSystem RIGHT_HANDED
 ```
 
 
-दायाँ हाथ वाला।
+दाएँ हाथ वाला।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

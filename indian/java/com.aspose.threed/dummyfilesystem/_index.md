@@ -1,7 +1,7 @@
 ---
 title: "DummyFileSystem"
-second_title: "Aspose.3D for Java API Reference"
-description: "रीड/राइट ऑपरेशन डमी ऑपरेशन हैं।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "पढ़ने/लिखने के संचालन डमी संचालन हैं।"
 type: docs
 weight: 46
 url: /hi/java/com.aspose.threed/dummyfilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class DummyFileSystem extends FileSystem
 ```
 
-रीड/राइट ऑपरेशन डमी ऑपरेशन हैं। **Example:** निम्नलिखित कोड दिखाता है कि फ़ाइल को मेमोरी में कैसे निर्यात किया जाए, और सभी निर्भर फ़ाइल जनरेशन को अनदेखा किया जाए।
+पढ़ने/लिखने के संचालन डमी संचालन हैं। **Example:** निम्नलिखित कोड दिखाता है कि फ़ाइल को मेमोरी में कैसे निर्यात किया जाए, और सभी निर्भर फ़ाइल जनरेशन को अनदेखा किया जाए।
 
 ```
 //create a scene with material
@@ -30,9 +30,9 @@ public class DummyFileSystem extends FileSystem
          scene.save(ms, opt);
      }
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [DummyFileSystem()](#DummyFileSystem--) |  |
 ## विधियाँ

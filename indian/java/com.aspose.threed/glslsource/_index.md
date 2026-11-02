@@ -1,7 +1,7 @@
 ---
 title: "GLSLSource"
-second_title: "Aspose.3D for Java API Reference"
-description: "GLSL में शेडर्स का स्रोत कोड"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "GLSL में शेडर्स का स्रोत कोड।"
 type: docs
 weight: 70
 url: /hi/java/com.aspose.threed/glslsource/
@@ -13,10 +13,10 @@ java.lang.Object, [com.aspose.threed.ShaderSource](../../com.aspose.threed/shade
 public final class GLSLSource extends ShaderSource
 ```
 
-GLSL में शेडर्स का स्रोत कोड
-## कंस्ट्रक्टर
+GLSL में शेडर्स का स्रोत कोड।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [GLSLSource()](#GLSLSource--) |  |
 ## विधियाँ
@@ -26,17 +26,17 @@ GLSL में शेडर्स का स्रोत कोड
 | [defineInclude(String fileName, String content)](#defineInclude-java.lang.String-java.lang.String-) | GLSL स्रोत कोड में \#include के लिए वर्चुअल फ़ाइल परिभाषित करें |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComputeShader()](#getComputeShader--) | कम्प्यूट शेडर का सोर्स कोड प्राप्त करता है। |
-| [getFragmentShader()](#getFragmentShader--) | फ़्रैगमेंट शेडर का सोर्स कोड प्राप्त करता है। |
-| [getGeometryShader()](#getGeometryShader--) | जियोमेट्री शेडर का सोर्स कोड प्राप्त करता है। |
-| [getVertexShader()](#getVertexShader--) | वर्टेक्स शेडर का सोर्स कोड प्राप्त करता है। |
+| [getComputeShader()](#getComputeShader--) | कम्प्यूट शेडर का स्रोत कोड प्राप्त करता है। |
+| [getFragmentShader()](#getFragmentShader--) | फ़्रैगमेंट शेडर का स्रोत कोड प्राप्त करता है। |
+| [getGeometryShader()](#getGeometryShader--) | जियोमेट्री शेडर का स्रोत कोड प्राप्त करता है। |
+| [getVertexShader()](#getVertexShader--) | वर्टेक्स शेडर का स्रोत कोड प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComputeShader(String value)](#setComputeShader-java.lang.String-) | कम्प्यूट शेडर का सोर्स कोड सेट करता है। |
-| [setFragmentShader(String value)](#setFragmentShader-java.lang.String-) | फ़्रैगमेंट शेडर का सोर्स कोड सेट करता है। |
-| [setGeometryShader(String value)](#setGeometryShader-java.lang.String-) | जियोमेट्री शेडर का सोर्स कोड सेट करता है। |
-| [setVertexShader(String value)](#setVertexShader-java.lang.String-) | वर्टेक्स शेडर का सोर्स कोड सेट करता है। |
+| [setComputeShader(String value)](#setComputeShader-java.lang.String-) | कम्प्यूट शेडर का स्रोत कोड सेट करता है। |
+| [setFragmentShader(String value)](#setFragmentShader-java.lang.String-) | फ़्रैगमेंट शेडर का स्रोत कोड सेट करता है। |
+| [setGeometryShader(String value)](#setGeometryShader-java.lang.String-) | जियोमेट्री शेडर का स्रोत कोड सेट करता है। |
+| [setVertexShader(String value)](#setVertexShader-java.lang.String-) | वर्टेक्स शेडर का स्रोत कोड सेट करता है |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -92,7 +92,7 @@ public String getComputeShader()
 ```
 
 
-कम्प्यूट शेडर का सोर्स कोड प्राप्त करता है।
+कम्प्यूट शेडर का स्रोत कोड प्राप्त करता है।
 
 **Returns:**
 java.lang.String - कंप्यूट शेडर का स्रोत कोड।
@@ -102,7 +102,7 @@ public String getFragmentShader()
 ```
 
 
-फ़्रैगमेंट शेडर का सोर्स कोड प्राप्त करता है।
+फ़्रैगमेंट शेडर का स्रोत कोड प्राप्त करता है।
 
 **Returns:**
 java.lang.String - फ्रैगमेंट शेडर का स्रोत कोड।
@@ -112,7 +112,7 @@ public String getGeometryShader()
 ```
 
 
-जियोमेट्री शेडर का सोर्स कोड प्राप्त करता है।
+जियोमेट्री शेडर का स्रोत कोड प्राप्त करता है।
 
 **Returns:**
 java.lang.String - जियोमेट्री शेडर का स्रोत कोड।
@@ -122,7 +122,7 @@ public String getVertexShader()
 ```
 
 
-वर्टेक्स शेडर का सोर्स कोड प्राप्त करता है।
+वर्टेक्स शेडर का स्रोत कोड प्राप्त करता है
 
 **Returns:**
 java.lang.String - वर्टेक्स शेडर का स्रोत कोड
@@ -158,7 +158,7 @@ public void setComputeShader(String value)
 ```
 
 
-कम्प्यूट शेडर का सोर्स कोड सेट करता है।
+कम्प्यूट शेडर का स्रोत कोड सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -171,7 +171,7 @@ public void setFragmentShader(String value)
 ```
 
 
-फ़्रैगमेंट शेडर का सोर्स कोड सेट करता है।
+फ़्रैगमेंट शेडर का स्रोत कोड सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -184,7 +184,7 @@ public void setGeometryShader(String value)
 ```
 
 
-जियोमेट्री शेडर का सोर्स कोड सेट करता है।
+जियोमेट्री शेडर का स्रोत कोड सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -197,7 +197,7 @@ public void setVertexShader(String value)
 ```
 
 
-वर्टेक्स शेडर का सोर्स कोड सेट करता है।
+वर्टेक्स शेडर का स्रोत कोड सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

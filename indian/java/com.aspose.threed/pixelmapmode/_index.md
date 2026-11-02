@@ -1,6 +1,6 @@
 ---
 title: "PixelMapMode"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: 
 type: docs
 weight: 291

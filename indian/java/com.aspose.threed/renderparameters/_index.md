@@ -1,7 +1,7 @@
 ---
 title: "RenderParameters"
-second_title: "Aspose.3D for Java API Reference"
-description: "रेंडर टार्गेट के पैरामीटर्स का वर्णन करें"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "रेंडर टार्गेट के पैरामीटरों का वर्णन करें"
 type: docs
 weight: 149
 url: /hi/java/com.aspose.threed/renderparameters/
@@ -13,10 +13,10 @@ java.lang.Object
 public class RenderParameters
 ```
 
-रेंडर टार्गेट के पैरामीटर्स का वर्णन करें
-## कंस्ट्रक्टर
+रेंडर टार्गेट के पैरामीटरों का वर्णन करें
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [RenderParameters(boolean doubleBuffering, int colorBits, int depthBits, int stencilBits)](#RenderParameters-boolean-int-int-int-) | एक [PixelFormat](../../com.aspose.threed/pixelformat) का उदाहरण प्रारंभ करें |
 | [RenderParameters()](#RenderParameters--) | एक [PixelFormat](../../com.aspose.threed/pixelformat) का उदाहरण प्रारंभ करें |
@@ -32,14 +32,14 @@ public class RenderParameters
 | [getClass()](#getClass--) |  |
 | [getColorBits()](#getColorBits--) | रंग बफ़र द्वारा उपयोग किए जाने वाले बिट्स की संख्या प्राप्त करता है। |
 | [getDepthBits()](#getDepthBits--) | गहराई बफ़र द्वारा उपयोग किए जाने वाले बिट्स की संख्या प्राप्त करता है। |
-| [getDoubleBuffering()](#getDoubleBuffering--) | क्या डबल बफ़र उपयोग किया गया है, यह प्राप्त करता है। |
+| [getDoubleBuffering()](#getDoubleBuffering--) | डबल बफ़र उपयोग किया जाता है या नहीं, प्राप्त करता है। |
 | [getStencilBits()](#getStencilBits--) | स्टेंसिल बफ़र में उपयोग किए जाने वाले बिट्स की संख्या प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setColorBits(int value)](#setColorBits-int-) | रंग बफ़र द्वारा उपयोग किए जाने वाले बिट्स की संख्या सेट करता है। |
 | [setDepthBits(int value)](#setDepthBits-int-) | गहराई बफ़र द्वारा उपयोग किए जाने वाले बिट्स की संख्या निर्धारित करता है। |
-| [setDoubleBuffering(boolean value)](#setDoubleBuffering-boolean-) | निर्धारित करता है कि डबल बफ़र उपयोग किया जाए या नहीं। |
+| [setDoubleBuffering(boolean value)](#setDoubleBuffering-boolean-) | निर्धारित करता है कि डबल बफ़र उपयोग किया जाता है या नहीं। |
 | [setStencilBits(int value)](#setStencilBits-int-) | स्टेंसिल बफ़र में उपयोग किए जाने वाले बिट्स की संख्या निर्धारित करता है। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -172,7 +172,7 @@ public boolean getDoubleBuffering()
 ```
 
 
-क्या डबल बफ़र उपयोग किया गया है, यह प्राप्त करता है।
+डबल बफ़र उपयोग किया जाता है या नहीं, प्राप्त करता है।
 
 **Returns:**
 boolean - क्या डबल बफ़र उपयोग किया जाता है।
@@ -244,7 +244,7 @@ public void setDoubleBuffering(boolean value)
 ```
 
 
-निर्धारित करता है कि डबल बफ़र उपयोग किया जाए या नहीं।
+निर्धारित करता है कि डबल बफ़र उपयोग किया जाता है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

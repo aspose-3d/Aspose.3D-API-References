@@ -1,7 +1,7 @@
 ---
-title: "संरचनाएँ"
-second_title: "Aspose.3D for Java API Reference"
-description: "स्ट्रक्ट एरे की बेस क्लास।"
+title: "Structs"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "स्ट्रक्ट एरे की बेस क्लास"
 type: docs
 weight: 179
 url: /hi/java/com.aspose.threed/structs/
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class Structs
 ```
 
-स्ट्रक्ट एरे की बेस क्लास।
+स्ट्रक्ट एरे की बेस क्लास
 ## विधियाँ
 
 | विधि | विवरण |
@@ -24,7 +24,7 @@ public abstract class Structs
 | [length()](#length--) | इस एरे की लंबाई |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [structSize()](#structSize--) | एकल संरचना का आकार बाइट्स में |
+| [structSize()](#structSize--) | एकल स्ट्रक्ट का बाइट्स में आकार |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,10 +98,10 @@ public final int structSize()
 ```
 
 
-एकल संरचना का आकार बाइट्स में
+एकल स्ट्रक्ट का बाइट्स में आकार
 
 **Returns:**
-int - संरचना का आकार
+int - स्ट्रक्ट का आकार
 ### toString() {#toString--}
 ```
 public String toString()
@@ -158,7 +158,7 @@ public void writeTo(Stream stream)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | किस स्ट्रीम में संरचना लिखनी है |
+| stream | [Stream](../../com.aspose.threed/stream) | स्ट्रक्ट को लिखने के लिए कौन सी स्ट्रीम |
 
 ### writeTo(OutputStream stream) {#writeTo-java.io.OutputStream-}
 ```

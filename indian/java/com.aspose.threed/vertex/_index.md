@@ -1,7 +1,7 @@
 ---
 title: "Vertex"
-second_title: "Aspose.3D for Java API Reference"
-description: "कच्चे वर्टेक्स तक पहुँचने के लिए उपयोग किया जाने वाला वर्टेक्स रेफ़रेंस।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "वर्टेक्स रेफ़रेंस का उपयोग कच्चे वर्टेक्स तक पहुँचने के लिए किया जाता है।"
 type: docs
 weight: 205
 url: /hi/java/com.aspose.threed/vertex/
@@ -16,10 +16,10 @@ java.lang.Comparable
 public abstract class Vertex implements Comparable<Vertex>
 ```
 
-वर्टेक्स रेफ़रेंस, कच्चे वर्टेक्स तक पहुँचने के लिए उपयोग किया जाता है [TriMesh](../../com.aspose.threed/trimesh) में।
-## कंस्ट्रक्टर
+वर्टेक्स रेफ़रेंस, जिसका उपयोग कच्चे वर्टेक्स तक पहुँचने के लिए किया जाता है, [TriMesh](../../com.aspose.threed/trimesh) में।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [Vertex()](#Vertex--) |  |
 ## विधियाँ

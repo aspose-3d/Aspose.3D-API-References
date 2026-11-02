@@ -1,6 +1,6 @@
 ---
 title: "ITexture1D"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "1D टेक्सचर"
 type: docs
 weight: 252

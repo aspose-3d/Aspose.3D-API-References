@@ -1,6 +1,6 @@
 ---
 title: "MorphTargetDeformer"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "MorphTargetDeformer प्रति-शिखर एनीमेशन प्रदान करता है।"
 type: docs
 weight: 108
@@ -13,10 +13,10 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetDeformer extends Deformer
 ```
 
-MorphTargetDeformer प्रति-शिखर एनीमेशन प्रदान करता है। MorphTargetDeformer सभी टार्गेट को [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) के माध्यम से व्यवस्थित करता है, प्रत्येक चैनल कई टार्गेट को व्यवस्थित कर सकता है। मोर्फ़ टार्गेट डिफॉर्मर का एक सामान्य उपयोग पात्र पर चेहरे के भाव लागू करना है। अधिक विवरण https://en.wikipedia.org/wiki/Morph\\_target\\_animation पर पाया जा सकता है।
-## कंस्ट्रक्टर
+MorphTargetDeformer प्रति-शिखर एनीमेशन प्रदान करता है। MorphTargetDeformer सभी टार्गेट को [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) के माध्यम से व्यवस्थित करता है, प्रत्येक चैनल कई टार्गेट को व्यवस्थित कर सकता है। मोर्फ़ टार्गेट डिफॉर्मर का सामान्य उपयोग एक चरित्र पर चेहरे के अभिव्यक्ति लागू करना है। अधिक विवरण https://en.wikipedia.org/wiki/Morph\_target\_animation पर पाए जा सकते हैं।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [MorphTargetDeformer(String name)](#MorphTargetDeformer-java.lang.String-) | नया उदाहरण प्रारंभ करता है [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) क्लास का। |
 | [MorphTargetDeformer()](#MorphTargetDeformer--) | नया उदाहरण प्रारंभ करता है [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) क्लास का। |
@@ -30,7 +30,7 @@ MorphTargetDeformer प्रति-शिखर एनीमेशन प्र
 | [getChannels()](#getChannels--) | इस डिफॉर्मर में शामिल सभी चैनल प्राप्त करता है |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getOwner()](#getOwner--) | उस जियोमेट्री को प्राप्त करता है जो इस डीफ़ॉर्मर का स्वामी है |
+| [getOwner()](#getOwner--) | इस deformer का स्वामी जियोमेट्री को प्राप्त करता है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [hashCode()](#hashCode--) |  |
@@ -87,7 +87,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -107,7 +107,7 @@ public double get(Shape target)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| target | [Shape](../../com.aspose.threed/shape) | लक्षित ज्यामिति |
+| target | [Shape](../../com.aspose.threed/shape) | लक्ष्य ज्यामिति |
 
 **Returns:**
 double - वजन
@@ -147,7 +147,7 @@ public Geometry getOwner()
 ```
 
 
-उस जियोमेट्री को प्राप्त करता है जो इस डीफ़ॉर्मर का स्वामी है
+इस deformer का स्वामी जियोमेट्री को प्राप्त करता है
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer
@@ -243,7 +243,7 @@ public void set(Shape target, double value)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| target | [Shape](../../com.aspose.threed/shape) | लक्षित ज्यामिति |
+| target | [Shape](../../com.aspose.threed/shape) | लक्ष्य ज्यामिति |
 | मान | double | नया मान |
 
 ### setName(String value) {#setName-java.lang.String-}

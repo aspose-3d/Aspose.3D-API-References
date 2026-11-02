@@ -1,6 +1,6 @@
 ---
 title: "EntityRendererKey"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "पंजीकृत इकाई रेंडरर की कुंजी"
 type: docs
 weight: 55
@@ -14,9 +14,9 @@ public final class EntityRendererKey
 ```
 
 पंजीकृत इकाई रेंडरर की कुंजी
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [EntityRendererKey(String name)](#EntityRendererKey-java.lang.String-) | [EntityRendererKey](../../com.aspose.threed/entityrendererkey) का कंस्ट्रक्टर |
 ## विधियाँ

@@ -1,6 +1,6 @@
 ---
 title: "AnimationNode"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "Aspose.3Ds एनीमेशन पदानुक्रम का समर्थन करता है, प्रत्येक एनीमेशन कई एनीमेशन और एनीमेशन की की-फ़्रेम परिभाषा द्वारा निर्मित हो सकता है।"
 type: docs
 weight: 15
@@ -13,25 +13,25 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationNode extends A3DObject
 ```
 
-Aspose.3D एनीमेशन पदानुक्रम का समर्थन करता है, प्रत्येक एनीमेशन कई एनीमेशन और एनीमेशन की की-फ़्रेम परिभाषा द्वारा निर्मित हो सकता है। [AnimationNode](../../com.aspose.threed/animationnode) समय के साथ एक प्रॉपर्टी मान के परिवर्तन को परिभाषित करता है, उदाहरण के लिए, एनीमेशन नोड का उपयोग नोड के परिवर्तन या अन्य [A3DObject](../../com.aspose.threed/a3dobject) ऑब्जेक्ट की संख्यात्मक प्रॉपर्टीज़ को नियंत्रित करने के लिए किया जा सकता है।
-## कंस्ट्रक्टर
+Aspose.3D एनीमेशन पदानुक्रम का समर्थन करता है, प्रत्येक एनीमेशन कई एनीमेशन और एनीमेशन की की-फ़्रेम परिभाषा द्वारा निर्मित हो सकता है। [AnimationNode](../../com.aspose.threed/animationnode) एक प्रॉपर्टी मान के समय के साथ परिवर्तन को परिभाषित करता है, उदाहरण के लिए, एनीमेशन नोड का उपयोग नोड के परिवर्तन या अन्य [A3DObject](../../com.aspose.threed/a3dobject) ऑब्जेक्ट की संख्यात्मक प्रॉपर्टीज़ को नियंत्रित करने के लिए किया जा सकता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [AnimationNode(String name)](#AnimationNode-java.lang.String-) | नए [AnimationNode](../../com.aspose.threed/animationnode) वर्ग का एक नया उदाहरण आरंभ करता है। |
-| [AnimationNode()](#AnimationNode--) | नए [AnimationNode](../../com.aspose.threed/animationnode) वर्ग का एक नया उदाहरण आरंभ करता है। |
+| [AnimationNode(String name)](#AnimationNode-java.lang.String-) | [AnimationNode](../../com.aspose.threed/animationnode) वर्ग का नया उदाहरण प्रारंभ करता है। |
+| [AnimationNode()](#AnimationNode--) | [AnimationNode](../../com.aspose.threed/animationnode) वर्ग का नया उदाहरण प्रारंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [createBindPoint(A3DObject obj, String propName)](#createBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | प्रॉपर्टी डेटा टाइप के आधार पर एक BindPoint बनाता है। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [findBindPoint(A3DObject target, String name)](#findBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | लक्ष्य और नाम द्वारा बाइंड पॉइंट खोजता है। |
+| [findBindPoint(A3DObject target, String name)](#findBindPoint-com.aspose.threed.A3DObject-java.lang.String-) | टार्गेट और नाम द्वारा बाइंड पॉइंट खोजता है। |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
 | [getBindPoint(A3DObject target, String propName, boolean create)](#getBindPoint-com.aspose.threed.A3DObject-java.lang.String-boolean-) | दिए गए प्रॉपर्टी पर एनीमेशन बाइंड पॉइंट प्राप्त करता है। |
-| [getBindPoints()](#getBindPoints--) | वर्तमान प्रॉपर्टी बाइंड पॉइंट्स प्राप्त करता है। |
+| [getBindPoints()](#getBindPoints--) | वर्तमान प्रॉपर्टी बाइंड पॉइंट्स प्राप्त करता है |
 | [getClass()](#getClass--) |  |
-| [getKeyframeSequence(A3DObject target, String propName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-boolean-) | दिए गए प्रॉपर्टी पर कीफ़्रेम क्रम प्राप्त करता है। |
+| [getKeyframeSequence(A3DObject target, String propName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-boolean-) | दिए गए प्रॉपर्टी पर कीफ़्रेम अनुक्रम प्राप्त करता है। |
 | [getKeyframeSequence(A3DObject target, String propName, String channelName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-java.lang.String-boolean-) | दिए गए प्रॉपर्टी और चैनल पर कीफ़्रेम अनुक्रम प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
@@ -54,7 +54,7 @@ public AnimationNode(String name)
 ```
 
 
-नए [AnimationNode](../../com.aspose.threed/animationnode) वर्ग का एक नया उदाहरण आरंभ करता है।
+[AnimationNode](../../com.aspose.threed/animationnode) वर्ग का नया उदाहरण प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -67,7 +67,7 @@ public AnimationNode()
 ```
 
 
-नए [AnimationNode](../../com.aspose.threed/animationnode) वर्ग का एक नया उदाहरण आरंभ करता है।
+[AnimationNode](../../com.aspose.threed/animationnode) वर्ग का नया उदाहरण प्रारंभ करता है।
 
 ### createBindPoint(A3DObject obj, String propName) {#createBindPoint-com.aspose.threed.A3DObject-java.lang.String-}
 ```
@@ -106,7 +106,7 @@ public BindPoint findBindPoint(A3DObject target, String name)
 ```
 
 
-लक्ष्य और नाम द्वारा बाइंड पॉइंट खोजता है।
+टार्गेट और नाम द्वारा बाइंड पॉइंट खोजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -122,7 +122,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -154,7 +154,7 @@ public List<BindPoint> getBindPoints()
 ```
 
 
-वर्तमान प्रॉपर्टी बाइंड पॉइंट्स प्राप्त करता है।
+वर्तमान प्रॉपर्टी बाइंड पॉइंट्स प्राप्त करता है
 
 **Returns:**
 java.util.List<com.aspose.threed.BindPoint> - वर्तमान प्रॉपर्टी बाइंड पॉइंट्स
@@ -174,7 +174,7 @@ public KeyframeSequence getKeyframeSequence(A3DObject target, String propName, b
 ```
 
 
-दिए गए प्रॉपर्टी पर कीफ़्रेम क्रम प्राप्त करता है।
+दिए गए प्रॉपर्टी पर कीफ़्रेम अनुक्रम प्राप्त करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

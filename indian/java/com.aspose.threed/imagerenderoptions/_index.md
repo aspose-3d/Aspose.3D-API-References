@@ -1,6 +1,6 @@
 ---
 title: "ImageRenderOptions"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "के लिए विकल्प  और"
 type: docs
 weight: 83
@@ -14,21 +14,21 @@ public class ImageRenderOptions extends A3DObject
 ```
 
 के लिए विकल्प [Scene](../../com.aspose.threed/scene) और [Scene](../../com.aspose.threed/scene)
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [ImageRenderOptions()](#ImageRenderOptions--) | एक उदाहरण प्रारंभ करें [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) |
+| [ImageRenderOptions()](#ImageRenderOptions--) | एक [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) का उदाहरण प्रारंभ करें |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getAssetDirectories()](#getAssetDirectories--) | बाहरी संपत्तियों (जैसे टेक्सचर) को संग्रहीत करने वाली डायरेक्टरीज़ |
+| [getAssetDirectories()](#getAssetDirectories--) | बाहरी एसेट्स (जैसे टेक्सचर) संग्रहीत करने वाली डायरेक्टरीज़ |
 | [getBackgroundColor()](#getBackgroundColor--) | रेंडर परिणाम का पृष्ठभूमि रंग। |
 | [getClass()](#getClass--) |  |
-| [getEnableShadows()](#getEnableShadows--) | छायाओं को रेंडर करना है या नहीं प्राप्त करता है। |
+| [getEnableShadows()](#getEnableShadows--) | छायाओं को रेंडर करना है या नहीं, प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
@@ -37,9 +37,9 @@ public class ImageRenderOptions extends A3DObject
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setAssetDirectories(ArrayList<String> value)](#setAssetDirectories-java.util.ArrayList-java.lang.String--) | बाहरी संपत्तियों (जैसे टेक्सचर) को संग्रहीत करने वाली डायरेक्टरीज़ |
+| [setAssetDirectories(ArrayList<String> value)](#setAssetDirectories-java.util.ArrayList-java.lang.String--) | बाहरी एसेट्स (जैसे टेक्सचर) संग्रहीत करने वाली डायरेक्टरीज़ |
 | [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | रेंडर परिणाम का पृष्ठभूमि रंग। |
-| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | छायाओं को रेंडर करना है या नहीं सेट करता है। |
+| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | छायाओं को रेंडर करना है या नहीं, सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [toString()](#toString--) |  |
@@ -52,7 +52,7 @@ public ImageRenderOptions()
 ```
 
 
-एक उदाहरण प्रारंभ करें [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions)
+एक [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) का उदाहरण प्रारंभ करें
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -75,7 +75,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -90,10 +90,10 @@ public ArrayList<String> getAssetDirectories()
 ```
 
 
-बाहरी संपत्तियों (जैसे टेक्सचर) को संग्रहीत करने वाली डायरेक्टरीज़
+बाहरी एसेट्स (जैसे टेक्सचर) संग्रहीत करने वाली डायरेक्टरीज़
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - बाहरी संपत्तियों (जैसे टेक्सचर) को संग्रहीत करने वाली डायरेक्टरीज़
+java.util.ArrayList<java.lang.String> - बाहरी एसेट्स (जैसे टेक्सचर) संग्रहीत करने वाली डायरेक्टरीज़
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Vector3 getBackgroundColor()
@@ -120,7 +120,7 @@ public boolean getEnableShadows()
 ```
 
 
-छायाओं को रेंडर करना है या नहीं प्राप्त करता है।
+छायाओं को रेंडर करना है या नहीं, प्राप्त करता है।
 
 **Returns:**
 boolean - छायाओं को रेंडर करना है या नहीं।
@@ -221,7 +221,7 @@ public void setAssetDirectories(ArrayList<String> value)
 ```
 
 
-बाहरी संपत्तियों (जैसे टेक्सचर) को संग्रहीत करने वाली डायरेक्टरीज़
+बाहरी एसेट्स (जैसे टेक्सचर) संग्रहीत करने वाली डायरेक्टरीज़
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -247,7 +247,7 @@ public void setEnableShadows(boolean value)
 ```
 
 
-छायाओं को रेंडर करना है या नहीं सेट करता है।
+छायाओं को रेंडर करना है या नहीं, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

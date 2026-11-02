@@ -1,6 +1,6 @@
 ---
 title: "HShape"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "यह H या I आकार के परिभाषित पैरामीटर प्रदान करता है।"
 type: docs
 weight: 76
@@ -13,10 +13,10 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class HShape extends ParameterizedProfile
 ```
 
-क्लास [HShape](../../com.aspose.threed/hshape) 'H' या 'I' आकार के परिभाषित पैरामीटर प्रदान करती है।
-## कंस्ट्रक्टर
+यह [HShape](../../com.aspose.threed/hshape) 'H' या 'I' आकार के परिभाषित पैरामीटर प्रदान करता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [HShape()](#HShape--) | [HShape](../../com.aspose.threed/hshape) का कंस्ट्रक्टर |
 ## विधियाँ
@@ -26,45 +26,45 @@ public class HShape extends ParameterizedProfile
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
 | [getBottomFlangeEdgeRadius()](#getBottomFlangeEdgeRadius--) | बॉटम फ्लैंज के ऊपरी किनारों की त्रिज्या प्राप्त करता है। |
-| [getBottomFlangeFilletRadius()](#getBottomFlangeFilletRadius--) | वेब और निचले फ्लैंज के बीच फ़िलेट की त्रिज्या प्राप्त करता है। |
-| [getBottomFlangeThickness()](#getBottomFlangeThickness--) | एच-आकार की फ्लैंज मोटाई प्राप्त करता है। |
+| [getBottomFlangeFilletRadius()](#getBottomFlangeFilletRadius--) | वेब और निचले फ्लैंज के बीच फ़िलेट त्रिज्या प्राप्त करता है। |
+| [getBottomFlangeThickness()](#getBottomFlangeThickness--) | H-आकार की फ्लैंज मोटाई प्राप्त करता है। |
 | [getBottomFlangeWidth()](#getBottomFlangeWidth--) | चौड़ाई की सीमा प्राप्त करता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getExtent()](#getExtent--) | x और y आयाम में विस्तार प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getOverallDepth()](#getOverallDepth--) | गहराई की सीमा प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [getTopFlangeEdgeRadius()](#getTopFlangeEdgeRadius--) | ऊपरी फ्लैंज के निचले किनारों की त्रिज्या प्राप्त करता है। |
-| [getTopFlangeFilletRadius()](#getTopFlangeFilletRadius--) | वेब और ऊपरी फ्लैंज के बीच फ़िलेट की त्रिज्या प्राप्त करता है। |
+| [getTopFlangeFilletRadius()](#getTopFlangeFilletRadius--) | वेब और ऊपरी फ्लैंज के बीच फ़िलेट त्रिज्या प्राप्त करता है। |
 | [getTopFlangeThickness()](#getTopFlangeThickness--) | ऊपरी फ्लैंज की मोटाई प्राप्त करता है। |
 | [getTopFlangeWidth()](#getTopFlangeWidth--) | ऊपरी फ्लैंज की चौड़ाई प्राप्त करता है। |
-| [getWebThickness()](#getWebThickness--) | एच-आकार के वेब की मोटाई प्राप्त करता है। |
+| [getWebThickness()](#getWebThickness--) | H-आकार के वेब की मोटाई प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
 | [setBottomFlangeEdgeRadius(double value)](#setBottomFlangeEdgeRadius-double-) | निचले फ्लैंज के ऊपरी किनारों की त्रिज्या सेट करता है। |
-| [setBottomFlangeFilletRadius(double value)](#setBottomFlangeFilletRadius-double-) | वेब और निचले फ्लैंज के बीच फ़िलेट की त्रिज्या सेट करता है। |
-| [setBottomFlangeThickness(double value)](#setBottomFlangeThickness-double-) | एच-आकार की फ्लैंज मोटाई सेट करता है। |
+| [setBottomFlangeFilletRadius(double value)](#setBottomFlangeFilletRadius-double-) | वेब और निचले फ्लैंज के बीच फ़िलेट त्रिज्या सेट करता है। |
+| [setBottomFlangeThickness(double value)](#setBottomFlangeThickness-double-) | H-आकार की फ्लैंज मोटाई सेट करता है। |
 | [setBottomFlangeWidth(double value)](#setBottomFlangeWidth-double-) | चौड़ाई की सीमा सेट करता है। |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setOverallDepth(double value)](#setOverallDepth-double-) | गहराई की सीमा सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [setTopFlangeEdgeRadius(double value)](#setTopFlangeEdgeRadius-double-) | ऊपरी फ्लैंज के निचले किनारों की त्रिज्या सेट करता है। |
-| [setTopFlangeFilletRadius(double value)](#setTopFlangeFilletRadius-double-) | वेब और ऊपरी फ्लैंज के बीच फ़िलेट की त्रिज्या सेट करता है। |
+| [setTopFlangeFilletRadius(double value)](#setTopFlangeFilletRadius-double-) | वेब और ऊपरी फ्लैंज के बीच फ़िलेट त्रिज्या सेट करता है। |
 | [setTopFlangeThickness(double value)](#setTopFlangeThickness-double-) | ऊपरी फ्लैंज की मोटाई सेट करता है। |
 | [setTopFlangeWidth(double value)](#setTopFlangeWidth-double-) | ऊपरी फ्लैंज की चौड़ाई सेट करता है। |
-| [setWebThickness(double value)](#setWebThickness-double-) | एच-आकार के वेब की मोटाई सेट करता है। |
+| [setWebThickness(double value)](#setWebThickness-double-) | H-आकार के वेब की मोटाई सेट करता है। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -116,27 +116,27 @@ public double getBottomFlangeEdgeRadius()
 बॉटम फ्लैंज के ऊपरी किनारों की त्रिज्या प्राप्त करता है।
 
 **Returns:**
-डबल - निचले फ्लैंज के ऊपरी किनारों की त्रिज्या।
+double - निचले फ्लैंज के ऊपरी किनारों की त्रिज्या।
 ### getBottomFlangeFilletRadius() {#getBottomFlangeFilletRadius--}
 ```
 public double getBottomFlangeFilletRadius()
 ```
 
 
-वेब और निचले फ्लैंज के बीच फ़िलेट की त्रिज्या प्राप्त करता है।
+वेब और निचले फ्लैंज के बीच फ़िलेट त्रिज्या प्राप्त करता है।
 
 **Returns:**
-डबल - वेब और निचले फ्लैंज के बीच फ़िलेट की त्रिज्या।
+double - वेब और निचले फ्लैंज के बीच फ़िलेट त्रिज्या।
 ### getBottomFlangeThickness() {#getBottomFlangeThickness--}
 ```
 public double getBottomFlangeThickness()
 ```
 
 
-एच-आकार की फ्लैंज मोटाई प्राप्त करता है।
+H-आकार की फ्लैंज मोटाई प्राप्त करता है।
 
 **Returns:**
-डबल - एच-आकार की फ्लैंज मोटाई।
+double - H-आकार की फ्लैंज मोटाई।
 ### getBottomFlangeWidth() {#getBottomFlangeWidth--}
 ```
 public double getBottomFlangeWidth()
@@ -146,14 +146,14 @@ public double getBottomFlangeWidth()
 चौड़ाई की सीमा प्राप्त करता है।
 
 **Returns:**
-डबल - चौड़ाई की सीमा।
+double - चौड़ाई की सीमा।
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -180,7 +180,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -190,10 +190,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getExtent() {#getExtent--}
 ```
 public Vector2 getExtent()
@@ -223,14 +223,14 @@ public double getOverallDepth()
 गहराई की सीमा प्राप्त करता है।
 
 **Returns:**
-डबल - गहराई की सीमा।
+double - गहराई की सीमा।
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -240,7 +240,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -275,7 +275,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -288,17 +288,17 @@ public double getTopFlangeEdgeRadius()
 ऊपरी फ्लैंज के निचले किनारों की त्रिज्या प्राप्त करता है।
 
 **Returns:**
-डबल - ऊपरी फ्लैंज के निचले किनारों की त्रिज्या।
+double - ऊपरी फ्लैंज के निचले किनारों की त्रिज्या।
 ### getTopFlangeFilletRadius() {#getTopFlangeFilletRadius--}
 ```
 public double getTopFlangeFilletRadius()
 ```
 
 
-वेब और ऊपरी फ्लैंज के बीच फ़िलेट की त्रिज्या प्राप्त करता है।
+वेब और ऊपरी फ्लैंज के बीच फ़िलेट त्रिज्या प्राप्त करता है।
 
 **Returns:**
-double - वेब और शीर्ष फ्लैंज के बीच फ़िलेट की त्रिज्या।
+double - वेब और शीर्ष फ्लैंज के बीच फ़िलेट त्रिज्या।
 ### getTopFlangeThickness() {#getTopFlangeThickness--}
 ```
 public double getTopFlangeThickness()
@@ -325,10 +325,10 @@ public double getWebThickness()
 ```
 
 
-एच-आकार के वेब की मोटाई प्राप्त करता है।
+H-आकार के वेब की मोटाई प्राप्त करता है।
 
 **Returns:**
-double - H-आकार के वेब की मोटाई।
+double - H-आकार की वेब की मोटाई।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -404,7 +404,7 @@ public void setBottomFlangeFilletRadius(double value)
 ```
 
 
-वेब और निचले फ्लैंज के बीच फ़िलेट की त्रिज्या सेट करता है।
+वेब और निचले फ्लैंज के बीच फ़िलेट त्रिज्या सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -417,7 +417,7 @@ public void setBottomFlangeThickness(double value)
 ```
 
 
-एच-आकार की फ्लैंज मोटाई सेट करता है।
+H-आकार की फ्लैंज मोटाई सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -443,7 +443,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -482,7 +482,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -522,7 +522,7 @@ public void setTopFlangeFilletRadius(double value)
 ```
 
 
-वेब और ऊपरी फ्लैंज के बीच फ़िलेट की त्रिज्या सेट करता है।
+वेब और ऊपरी फ्लैंज के बीच फ़िलेट त्रिज्या सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -561,7 +561,7 @@ public void setWebThickness(double value)
 ```
 
 
-एच-आकार के वेब की मोटाई सेट करता है।
+H-आकार के वेब की मोटाई सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

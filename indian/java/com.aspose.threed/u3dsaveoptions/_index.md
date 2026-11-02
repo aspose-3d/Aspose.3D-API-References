@@ -1,7 +1,7 @@
 ---
 title: "U3dSaveOptions"
-second_title: "Aspose.3D for Java API Reference"
-description: "यूनिवर्सल 3D के लिए सहेजने के विकल्प"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "यूनिवर्सल 3D के लिए सेव विकल्प"
 type: docs
 weight: 198
 url: /hi/java/com.aspose.threed/u3dsaveoptions/
@@ -13,10 +13,10 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class U3dSaveOptions extends SaveOptions
 ```
 
-यूनिवर्सल 3D के लिए सहेजने के विकल्प
-## कंस्ट्रक्टर
+यूनिवर्सल 3D के लिए सेव विकल्प
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [U3dSaveOptions()](#U3dSaveOptions--) | [U3dSaveOptions](../../com.aspose.threed/u3dsaveoptions) का कंस्ट्रक्टर |
 ## विधियाँ
@@ -27,34 +27,34 @@ public class U3dSaveOptions extends SaveOptions
 | [getClass()](#getClass--) |  |
 | [getEmbedTextures()](#getEmbedTextures--) | बाहरी टेक्सचर को U3D फ़ाइल में एम्बेड करें, डिफ़ॉल्ट मान false है। |
 | [getEncoding()](#getEncoding--) | टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग प्राप्त करता है। |
-| [getExportNormals()](#getExportNormals--) | क्या नॉर्मल डेटा निर्यात करना है, प्राप्त करता है। |
-| [getExportTextureCoordinates()](#getExportTextureCoordinates--) | क्या टेक्सचर कोऑर्डिनेट्स निर्यात करना है, प्राप्त करता है। |
-| [getExportTextures()](#getExportTextures--) | दृश्य में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें। |
-| [getExportVertexDiffuse()](#getExportVertexDiffuse--) | क्या वर्टेक्स का डिफ्यूज़ रंग निर्यात करना है, प्राप्त करता है। |
-| [getExportVertexSpecular()](#getExportVertexSpecular--) | क्या वर्टेक्स का स्पेक्यूलर रंग निर्यात करना है, प्राप्त करता है। |
-| [getFileFormat()](#getFileFormat--) | वर्तमान सहेजें/लोड विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है। |
-| [getFileName()](#getFileName--) | एक्सपोर्ट/इम्पोर्ट सीन का फ़ाइल नाम। |
-| [getFileSystem()](#getFileSystem--) | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने का तरीका उपयोगकर्ता को संभालने की अनुमति देता है। |
+| [getExportNormals()](#getExportNormals--) | नॉर्मल डेटा निर्यात करना है या नहीं प्राप्त करता है। |
+| [getExportTextureCoordinates()](#getExportTextureCoordinates--) | टेक्सचर कॉर्डिनेट्स निर्यात करना है या नहीं प्राप्त करता है। |
+| [getExportTextures()](#getExportTextures--) | सीन में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें। |
+| [getExportVertexDiffuse()](#getExportVertexDiffuse--) | वर्टेक्स के डिफ्यूज़ रंग को निर्यात करना है या नहीं प्राप्त करता है। |
+| [getExportVertexSpecular()](#getExportVertexSpecular--) | वर्टेक्स के स्पेक्यूलर रंग को निर्यात करना है या नहीं प्राप्त करता है। |
+| [getFileFormat()](#getFileFormat--) | वर्तमान Save/Load विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है। |
+| [getFileName()](#getFileName--) | एक्सपोर्ट/इम्पोर्ट सीन की फ़ाइल नाम। |
+| [getFileSystem()](#getFileSystem--) | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है। |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem के लिए फ़ैक्टरी क्लास प्राप्त करता है। |
 | [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | इम्पोर्ट/एक्सपोर्ट के दौरान कंट्रोल पॉइंट्स/नॉर्मल के फ़्लिप कोऑर्डिनेट सिस्टम की स्थिति प्राप्त करता है। |
 | [getLookupPaths()](#getLookupPaths--) | OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को लोड करने के लिए बाहरी फ़ाइल खोजने की अनुमति देंगे। |
-| [getMeshCompression()](#getMeshCompression--) | क्या मेश डेटा संपीड़न सक्षम करना है, प्राप्त करता है। |
+| [getMeshCompression()](#getMeshCompression--) | मेश डेटा संपीड़न सक्षम करना है या नहीं प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | बाहरी टेक्सचर को U3D फ़ाइल में एम्बेड करें, डिफ़ॉल्ट मान false है। |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग सेट करता है। |
-| [setExportNormals(boolean value)](#setExportNormals-boolean-) | नॉर्मल डेटा निर्यात करना है या नहीं, सेट करता है। |
-| [setExportTextureCoordinates(boolean value)](#setExportTextureCoordinates-boolean-) | टेक्सचर कोऑर्डिनेट्स निर्यात करना है या नहीं, सेट करता है। |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | दृश्य में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें। |
-| [setExportVertexDiffuse(boolean value)](#setExportVertexDiffuse-boolean-) | वर्टेक्स का डिफ्यूज़ रंग निर्यात करना है या नहीं, सेट करता है। |
-| [setExportVertexSpecular(boolean value)](#setExportVertexSpecular-boolean-) | वर्टेक्स का स्पेक्यूलर रंग निर्यात करना है या नहीं, सेट करता है। |
-| [setFileName(String value)](#setFileName-java.lang.String-) | एक्सपोर्ट/इम्पोर्ट सीन का फ़ाइल नाम। |
-| [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने का तरीका उपयोगकर्ता को संभालने की अनुमति देता है। |
+| [setExportNormals(boolean value)](#setExportNormals-boolean-) | नॉर्मल डेटा निर्यात करना है या नहीं सेट करता है। |
+| [setExportTextureCoordinates(boolean value)](#setExportTextureCoordinates-boolean-) | टेक्सचर कॉर्डिनेट्स निर्यात करना है या नहीं सेट करता है। |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | सीन में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें। |
+| [setExportVertexDiffuse(boolean value)](#setExportVertexDiffuse-boolean-) | वर्टेक्स के डिफ्यूज़ रंग को निर्यात करना है या नहीं सेट करता है। |
+| [setExportVertexSpecular(boolean value)](#setExportVertexSpecular-boolean-) | वर्टेक्स के स्पेक्यूलर रंग को निर्यात करना है या नहीं सेट करता है। |
+| [setFileName(String value)](#setFileName-java.lang.String-) | एक्सपोर्ट/इम्पोर्ट सीन की फ़ाइल नाम। |
+| [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है। |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem के लिए फ़ैक्टरी क्लास सेट करता है। |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | इम्पोर्ट/एक्सपोर्ट के दौरान कंट्रोल पॉइंट्स/नॉर्मल के फ़्लिप कोऑर्डिनेट सिस्टम की स्थिति सेट करता है। |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को लोड करने के लिए बाहरी फ़ाइल खोजने की अनुमति देंगे। |
-| [setMeshCompression(boolean value)](#setMeshCompression-boolean-) | मेश डेटा संपीड़न सक्षम करना है या नहीं, सेट करता है। |
+| [setMeshCompression(boolean value)](#setMeshCompression-boolean-) | मेश डेटा संपीड़न सक्षम करना है या नहीं सेट करता है। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,67 +108,67 @@ public Charset getEncoding()
 ```
 
 
-टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग प्राप्त करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर उपयोग करने के लिए एन्कोडिंग तय करेगा।
+टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग प्राप्त करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सा एन्कोडिंग उपयोग किया जाए।
 
 **Returns:**
-java.nio.charset.Charset - टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर उपयोग करने के लिए एन्कोडिंग तय करेगा।
+java.nio.charset.Charset - टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सा एन्कोडिंग उपयोग किया जाए।
 ### getExportNormals() {#getExportNormals--}
 ```
 public boolean getExportNormals()
 ```
 
 
-क्या नॉर्मल डेटा निर्यात करना है, प्राप्त करता है।
+नॉर्मल डेटा निर्यात करना है या नहीं प्राप्त करता है।
 
 **Returns:**
-बूलियन - क्या नॉर्मल डेटा निर्यात करना है।
+बूलियन - नॉर्मल डेटा निर्यात करना है या नहीं।
 ### getExportTextureCoordinates() {#getExportTextureCoordinates--}
 ```
 public boolean getExportTextureCoordinates()
 ```
 
 
-क्या टेक्सचर कोऑर्डिनेट्स निर्यात करना है, प्राप्त करता है।
+टेक्सचर कॉर्डिनेट्स निर्यात करना है या नहीं प्राप्त करता है।
 
 **Returns:**
-बूलियन - क्या टेक्सचर कोऑर्डिनेट्स निर्यात करना है।
+बूलियन - टेक्सचर कॉर्डिनेट्स निर्यात करना है या नहीं।
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
 ```
 
 
-दृश्य में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें।
+सीन में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें।
 
 **Returns:**
-boolean - दृश्य में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें।
+boolean - दृश्य में उपयोग की गई टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें।
 ### getExportVertexDiffuse() {#getExportVertexDiffuse--}
 ```
 public boolean getExportVertexDiffuse()
 ```
 
 
-क्या वर्टेक्स का डिफ्यूज़ रंग निर्यात करना है, प्राप्त करता है।
+वर्टेक्स के डिफ्यूज़ रंग को निर्यात करना है या नहीं प्राप्त करता है।
 
 **Returns:**
-boolean - क्या वर्टेक्स के डिफ्यूज़ रंग को निर्यात करना है।
+बूलियन - क्या वर्टेक्स का डिफ्यूज़ रंग निर्यात किया जाए।
 ### getExportVertexSpecular() {#getExportVertexSpecular--}
 ```
 public boolean getExportVertexSpecular()
 ```
 
 
-क्या वर्टेक्स का स्पेक्यूलर रंग निर्यात करना है, प्राप्त करता है।
+वर्टेक्स के स्पेक्यूलर रंग को निर्यात करना है या नहीं प्राप्त करता है।
 
 **Returns:**
-boolean - क्या वर्टेक्स के स्पेक्यूलर रंग को निर्यात करना है।
+बूलियन - क्या वर्टेक्स का स्पेक्युलर रंग निर्यात किया जाए।
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
 ```
 
 
-वर्तमान सहेजें/लोड विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है।
+वर्तमान Save/Load विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है।
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -188,7 +188,7 @@ public FileSystem getFileSystem()
 ```
 
 
-लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने का तरीका उपयोगकर्ता को संभालने की अनुमति देता है।
+लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है।
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - Allow user to handle how to manage the external dependencies during load/save. **Example:** The default FileSystem is LocalFileSystem, it is not safe in environment like server side, But you can override the file system access by specifying a different implementation. Aspose.3D provides different FileSystem implementation like:
@@ -198,7 +198,7 @@ public FileSystem getFileSystem()
  *  Dummy file system
  *  Zip file system
 
-और आप अपनी स्वयं की इम्प्लीमेंटेशन भी उपयोग कर सकते हैं।
+और आप अपनी स्वयं की कार्यान्वयन भी उपयोग कर सकते हैं।
 
 ```
 Scene scene = new Scene();
@@ -222,7 +222,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem के लिए फ़ैक्टरी क्लास प्राप्त करता है। डिफ़ॉल्ट फ़ैक्टरी com.aspose.threed.LocalFileSystem बनाएगी जो सर्वर वातावरण के लिए उपयुक्त नहीं है।
+FileSystem के लिए फ़ैक्टरी क्लास प्राप्त करता है। डिफ़ॉल्ट फ़ैक्टरी com.aspose.threed.LocalFileSystem बनाएगी जो सर्वर पर्यावरण के लिए उपयुक्त नहीं है।
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -264,7 +264,7 @@ public ArrayList<String> getLookupPaths()
 OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को लोड करने के लिए बाहरी फ़ाइल खोजने की अनुमति देंगे।
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को बाहरी फ़ाइल लोड करने के लिए खोजने की अनुमति देंगे। **Example:** निम्नलिखित कोड दिखाता है कि कैसे मैन्युअली लुकअप टेक्सचर निर्दिष्ट करें, ताकि इम्पोर्टर उन्हें पा सके
+java.util.ArrayList<java.lang.String> - कुछ फ़ाइलें जैसे OBJ बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को बाहरी फ़ाइल खोजने और लोड करने की अनुमति देंगे। **Example:** निम्नलिखित कोड दिखाता है कि कैसे मैन्युअली लुकअप टेक्सचर निर्दिष्ट करें, ताकि इम्पोर्टर उन्हें पा सके
 
 ```
 var opt = new ObjLoadOptions();
@@ -279,10 +279,10 @@ public boolean getMeshCompression()
 ```
 
 
-क्या मेश डेटा संपीड़न सक्षम करना है, प्राप्त करता है।
+मेश डेटा संपीड़न सक्षम करना है या नहीं प्राप्त करता है।
 
 **Returns:**
-boolean - क्या मेष डेटा संपीड़न को सक्षम करना है।
+बूलियन - क्या मेष डेटा संपीड़न सक्षम किया जाए।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -328,7 +328,7 @@ public void setEncoding(Charset value)
 ```
 
 
-टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग सेट करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सी एन्कोडिंग उपयोग करनी है।
+टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग सेट करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सा एन्कोडिंग उपयोग किया जाए।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -341,7 +341,7 @@ public void setExportNormals(boolean value)
 ```
 
 
-नॉर्मल डेटा निर्यात करना है या नहीं, सेट करता है।
+नॉर्मल डेटा निर्यात करना है या नहीं सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -354,7 +354,7 @@ public void setExportTextureCoordinates(boolean value)
 ```
 
 
-टेक्सचर कोऑर्डिनेट्स निर्यात करना है या नहीं, सेट करता है।
+टेक्सचर कॉर्डिनेट्स निर्यात करना है या नहीं सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -367,7 +367,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-दृश्य में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें।
+सीन में उपयोग किए गए टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -380,7 +380,7 @@ public void setExportVertexDiffuse(boolean value)
 ```
 
 
-वर्टेक्स का डिफ्यूज़ रंग निर्यात करना है या नहीं, सेट करता है।
+वर्टेक्स के डिफ्यूज़ रंग को निर्यात करना है या नहीं सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -393,7 +393,7 @@ public void setExportVertexSpecular(boolean value)
 ```
 
 
-वर्टेक्स का स्पेक्यूलर रंग निर्यात करना है या नहीं, सेट करता है।
+वर्टेक्स के स्पेक्यूलर रंग को निर्यात करना है या नहीं सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -419,19 +419,19 @@ public void setFileSystem(FileSystem value)
 ```
 
 
-लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने का तरीका उपयोगकर्ता को संभालने की अनुमति देता है।
+लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | नई मान **Example:** डिफ़ॉल्ट FileSystem LocalFileSystem है, यह सर्वर-साइड जैसे वातावरण में सुरक्षित नहीं है, लेकिन आप अलग इम्प्लीमेंटेशन निर्दिष्ट करके फ़ाइल सिस्टम एक्सेस को ओवरराइड कर सकते हैं। Aspose.3D विभिन्न FileSystem इम्प्लीमेंटेशन प्रदान करता है जैसे: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | नया मान **Example:** डिफ़ॉल्ट FileSystem LocalFileSystem है, यह सर्वर-साइड जैसे पर्यावरण में सुरक्षित नहीं है, लेकिन आप फ़ाइल सिस्टम एक्सेस को अलग कार्यान्वयन निर्दिष्ट करके ओवरराइड कर सकते हैं। Aspose.3D विभिन्न FileSystem कार्यान्वयन प्रदान करता है जैसे: |
 
  *  Memory-based file system
  *  Directory-based file system
  *  Dummy file system
  *  Zip file system
 
-और आप अपनी स्वयं की इम्प्लीमेंटेशन भी उपयोग कर सकते हैं।
+और आप अपनी स्वयं की कार्यान्वयन भी उपयोग कर सकते हैं।
 
 ```
 Scene scene = new Scene();
@@ -456,12 +456,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem के लिए फ़ैक्टरी क्लास सेट करता है। डिफ़ॉल्ट फ़ैक्टरी com.aspose.threed.LocalFileSystem बनाएगी जो सर्वर वातावरण के लिए उपयुक्त नहीं है।
+FileSystem के लिए फ़ैक्टरी क्लास सेट करता है। डिफ़ॉल्ट फ़ैक्टरी com.aspose.threed.LocalFileSystem बनाएगी जो सर्वर पर्यावरण के लिए उपयुक्त नहीं है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | नई मान **Example:** SaveOptions/LoadOptions में डिफ़ॉल्ट FileSystem डायरेक्टरी-आधारित फ़ाइल सिस्टम है, आप इसे IOConfig.FileSystemFactory के माध्यम से निर्दिष्ट करके डिफ़ॉल्ट इम्प्लीमेंटेशन को ओवरराइड कर सकते हैं: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | नया मान **Example:** SaveOptions/LoadOptions में डिफ़ॉल्ट FileSystem डायरेक्टरी-आधारित फ़ाइल सिस्टम है, आप इसे IOConfig.FileSystemFactory के माध्यम से निर्दिष्ट करके डिफ़ॉल्ट कार्यान्वयन को ओवरराइड कर सकते हैं। |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -506,7 +506,7 @@ OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | मान | java.util.ArrayList<java.lang.String> | नई मान **Example:** निम्नलिखित कोड दिखाता है कि कैसे मैन्युअली लुकअप टेक्सचर निर्दिष्ट करें, ताकि इम्पोर्टर उन्हें पा सके |
+|  | मान | java.util.ArrayList<java.lang.String> | नया मान **Example:** निम्नलिखित कोड दिखाता है कि कैसे मैन्युअली लुकअप टेक्सचर निर्दिष्ट करें, ताकि इम्पोर्टर उन्हें पा सके |
 
 ```
 var opt = new ObjLoadOptions();
@@ -522,7 +522,7 @@ public void setMeshCompression(boolean value)
 ```
 
 
-मेश डेटा संपीड़न सक्षम करना है या नहीं, सेट करता है।
+मेश डेटा संपीड़न सक्षम करना है या नहीं सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,6 +1,6 @@
 ---
 title: "ITextureCodec"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "टेक्सचर के लिए कोडेक"
 type: docs
 weight: 254

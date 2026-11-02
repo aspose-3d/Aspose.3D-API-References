@@ -1,7 +1,7 @@
 ---
 title: "Int2D"
-second_title: "Aspose.3D for Java API Reference"
-description: "5/17/2017 को lexchou द्वारा बनाया गया।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "lexchou द्वारा 5/17/2017 को बनाया गया।"
 type: docs
 weight: 86
 url: /hi/java/com.aspose.threed/int2d/
@@ -14,9 +14,9 @@ public final class Int2D
 ```
 
 lexchou द्वारा 5/17/2017 को बनाया गया। 2-आयामी int एरे रैपर
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [Int2D(int rows, int columns)](#Int2D-int-int-) | डिफ़ॉल्ट डेटा आवंटन के साथ 2D int एरे बनाएं। |
 | [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | दिए गए डेटा के साथ 2D int एरे बनाएं |
@@ -163,7 +163,7 @@ public int length()
 इस 2D ऐरे की कुल लंबाई प्राप्त करता है
 
 **Returns:**
-int - इस 2D ऐरे में कुल फ्लोट्स की संख्या।
+int - इस 2D ऐरे में कुल फ़्लोट्स की संख्या।
 ### notify() {#notify--}
 ```
 public final native void notify()

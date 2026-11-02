@@ -1,6 +1,6 @@
 ---
 title: "ParseException"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "जब Aspose.3D इनपुट को पार्स करने में विफल रहा तो अपवाद।"
 type: docs
 weight: 118
@@ -14,11 +14,11 @@ public class ParseException extends Exception
 ```
 
 जब Aspose.3D इनपुट को पार्स करने में विफल रहा तो अपवाद।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [ParseException(String msg)](#ParseException-java.lang.String-) | का कंस्ट्रक्टर [ParseException](../../com.aspose.threed/parseexception) |
+| [ParseException(String msg)](#ParseException-java.lang.String-) | [ParseException](../../com.aspose.threed/parseexception) का कंस्ट्रक्टर |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -50,7 +50,7 @@ public ParseException(String msg)
 ```
 
 
-का कंस्ट्रक्टर [ParseException](../../com.aspose.threed/parseexception)
+[ParseException](../../com.aspose.threed/parseexception) का कंस्ट्रक्टर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

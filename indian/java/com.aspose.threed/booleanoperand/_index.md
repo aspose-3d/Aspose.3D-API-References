@@ -1,6 +1,6 @@
 ---
 title: "BooleanOperand"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "यह क्लास परिवर्तित मेष को बूलियन ऑपरेशन्स ऑपरेण्ड के रूप में संलग्न करती है।"
 type: docs
 weight: 22
@@ -13,21 +13,21 @@ java.lang.Object
 public class BooleanOperand
 ```
 
-यह क्लास परिवर्तित मेष को बूलियन ऑपरेशन के ऑपरेण्ड के रूप में संलग्न करती है।
+यह क्लास ट्रांसफ़ॉर्म्ड मेष को बूलियन ऑपरेशन के ऑपरेण्ड के रूप में संलग्न करती है।
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getOperand()](#getOperand--) | ऑपरेण्ड प्राप्त करता है, यह [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) या [Node](../../com.aspose.threed/node) का उदाहरण हो सकता है। |
+| [getOperand()](#getOperand--) | ऑपरेण्ड प्राप्त करता है, यह [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) या [Node](../../com.aspose.threed/node) का एक उदाहरण हो सकता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [of(Entity mesh)](#of-com.aspose.threed.Entity-) | एक बुनियादी [IMeshConvertible](../../com.aspose.threed/imeshconvertible) इंस्टेंस से एक [BooleanOperand](../../com.aspose.threed/booleanoperand) इंस्टेंस बनाएं। |
-| [of(Entity mesh, Matrix4 transform)](#of-com.aspose.threed.Entity-com.aspose.threed.Matrix4-) | एक [IMeshConvertible](../../com.aspose.threed/imeshconvertible) इंस्टेंस और निर्दिष्ट ट्रांसफ़ॉर्म से एक [BooleanOperand](../../com.aspose.threed/booleanoperand) इंस्टेंस बनाएं। |
-| [of(Node node)](#of-com.aspose.threed.Node-) | एक नोड से एक [BooleanOperand](../../com.aspose.threed/booleanoperand) इंस्टेंस बनाएं, एक वैध इकाई जो [IMeshConvertible](../../com.aspose.threed/imeshconvertible) को लागू करती है, आवश्यक है। |
-| [toString()](#toString--) | [BooleanOperand](../../com.aspose.threed/booleanoperand) का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
+| [of(Entity mesh)](#of-com.aspose.threed.Entity-) | एक [BooleanOperand](../../com.aspose.threed/booleanoperand) उदाहरण बनाएं एक साधारण [IMeshConvertible](../../com.aspose.threed/imeshconvertible) उदाहरण से। |
+| [of(Entity mesh, Matrix4 transform)](#of-com.aspose.threed.Entity-com.aspose.threed.Matrix4-) | एक [BooleanOperand](../../com.aspose.threed/booleanoperand) उदाहरण बनाएं एक [IMeshConvertible](../../com.aspose.threed/imeshconvertible) उदाहरण से और निर्दिष्ट ट्रांसफ़ॉर्म। |
+| [of(Node node)](#of-com.aspose.threed.Node-) | एक नोड से एक [BooleanOperand](../../com.aspose.threed/booleanoperand) उदाहरण बनाएं, एक वैध इकाई जो [IMeshConvertible](../../com.aspose.threed/imeshconvertible) को लागू करती है, आवश्यक है। |
+| [toString()](#toString--) | [BooleanOperand](../../com.aspose.threed/booleanoperand) की स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -62,7 +62,7 @@ public A3DObject getOperand()
 ```
 
 
-ऑपरेण्ड प्राप्त करता है, यह [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) या [Node](../../com.aspose.threed/node) का उदाहरण हो सकता है।
+ऑपरेण्ड प्राप्त करता है, यह [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) या [Node](../../com.aspose.threed/node) का एक उदाहरण हो सकता है।
 
 **Returns:**
 [A3DObject](../../com.aspose.threed/a3dobject) - the operand, it can be an instance of [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) or [Node](../../com.aspose.threed/node).
@@ -98,12 +98,12 @@ public static BooleanOperand of(Entity mesh)
 ```
 
 
-एक बुनियादी [IMeshConvertible](../../com.aspose.threed/imeshconvertible) इंस्टेंस से एक [BooleanOperand](../../com.aspose.threed/booleanoperand) इंस्टेंस बनाएं।
+एक [BooleanOperand](../../com.aspose.threed/booleanoperand) उदाहरण बनाएं एक साधारण [IMeshConvertible](../../com.aspose.threed/imeshconvertible) उदाहरण से।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| mesh | [Entity](../../com.aspose.threed/entity) | Boolean ऑपरेशन के ऑपरेण्ड के रूप में उपयोग किया जाने वाला मेष, यह [IMeshConvertible](../../com.aspose.threed/imeshconvertible) या [HalfSpace](../../com.aspose.threed/halfspace) का इंस्टेंस हो सकता है। |
+| mesh | [Entity](../../com.aspose.threed/entity) | बूलियन ऑपरेशन के ऑपरेण्ड के रूप में उपयोग किया गया मेष, यह [IMeshConvertible](../../com.aspose.threed/imeshconvertible) या [HalfSpace](../../com.aspose.threed/halfspace) का उदाहरण हो सकता है। |
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - An instance of [BooleanOperand](../../com.aspose.threed/booleanoperand)
@@ -113,13 +113,13 @@ public static BooleanOperand of(Entity mesh, Matrix4 transform)
 ```
 
 
-एक [IMeshConvertible](../../com.aspose.threed/imeshconvertible) इंस्टेंस और निर्दिष्ट ट्रांसफ़ॉर्म से एक [BooleanOperand](../../com.aspose.threed/booleanoperand) इंस्टेंस बनाएं।
+एक [BooleanOperand](../../com.aspose.threed/booleanoperand) उदाहरण बनाएं एक [IMeshConvertible](../../com.aspose.threed/imeshconvertible) उदाहरण से और निर्दिष्ट ट्रांसफ़ॉर्म।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| mesh | [Entity](../../com.aspose.threed/entity) | Boolean ऑपरेशन के ऑपरेण्ड के रूप में उपयोग किया जाने वाला मेष, यह [IMeshConvertible](../../com.aspose.threed/imeshconvertible) या [HalfSpace](../../com.aspose.threed/halfspace) का इंस्टेंस हो सकता है। |
-| transform | [Matrix4](../../com.aspose.threed/matrix4) | मे़ष ऑब्जेक्ट का ट्रांसफ़ॉर्म। |
+| mesh | [Entity](../../com.aspose.threed/entity) | बूलियन ऑपरेशन के ऑपरेण्ड के रूप में उपयोग किया गया मेष, यह [IMeshConvertible](../../com.aspose.threed/imeshconvertible) या [HalfSpace](../../com.aspose.threed/halfspace) का उदाहरण हो सकता है। |
+| transform | [Matrix4](../../com.aspose.threed/matrix4) | मेष ऑब्जेक्ट का ट्रांसफ़ॉर्म। |
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - An instance of [BooleanOperand](../../com.aspose.threed/booleanoperand)
@@ -129,12 +129,12 @@ public static BooleanOperand of(Node node)
 ```
 
 
-एक नोड से एक [BooleanOperand](../../com.aspose.threed/booleanoperand) इंस्टेंस बनाएं, एक वैध इकाई जो [IMeshConvertible](../../com.aspose.threed/imeshconvertible) को लागू करती है, आवश्यक है।
+एक नोड से एक [BooleanOperand](../../com.aspose.threed/booleanoperand) उदाहरण बनाएं, एक वैध इकाई जो [IMeshConvertible](../../com.aspose.threed/imeshconvertible) को लागू करती है, आवश्यक है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | एक वैध इकाई जो [IMeshConvertible](../../com.aspose.threed/imeshconvertible) को लागू करती है, के साथ एक [Node](../../com.aspose.threed/node) इंस्टेंस। |
+| node | [Node](../../com.aspose.threed/node) | एक [Node](../../com.aspose.threed/node) उदाहरण जिसमें एक वैध इकाई है जो [IMeshConvertible](../../com.aspose.threed/imeshconvertible) को लागू करती है। |
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - An instance of [BooleanOperand](../../com.aspose.threed/booleanoperand)
@@ -144,10 +144,10 @@ public String toString()
 ```
 
 
-[BooleanOperand](../../com.aspose.threed/booleanoperand) का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है।
+[BooleanOperand](../../com.aspose.threed/booleanoperand) की स्ट्रिंग प्रतिनिधित्व प्राप्त करता है।
 
 **Returns:**
-java.lang.String - [BooleanOperand](../../com.aspose.threed/booleanoperand) का स्ट्रिंग प्रतिनिधित्व
+java.lang.String - [BooleanOperand](../../com.aspose.threed/booleanoperand) की स्ट्रिंग प्रतिनिधित्व।
 ### wait() {#wait--}
 ```
 public final void wait()

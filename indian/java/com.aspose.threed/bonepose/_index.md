@@ -1,7 +1,7 @@
 ---
 title: "BonePose"
-second_title: "Aspose.3D for Java API Reference"
-description: "यह हड्डी नोड के लिए ट्रांसफ़ॉर्मेशन मैट्रिक्स रखता है"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "यह हड्डी नोड के लिए ट्रांसफ़ॉर्मेशन मैट्रिक्स शामिल करता है"
 type: docs
 weight: 21
 url: /hi/java/com.aspose.threed/bonepose/
@@ -13,10 +13,10 @@ java.lang.Object
 public class BonePose
 ```
 
-यह [BonePose](../../com.aspose.threed/bonepose) हड्डी नोड के लिए ट्रांसफ़ॉर्मेशन मैट्रिक्स रखता है
-## कंस्ट्रक्टर
+यह [BonePose](../../com.aspose.threed/bonepose) हड्डी नोड के लिए ट्रांसफ़ॉर्मेशन मैट्रिक्स शामिल करता है
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [BonePose()](#BonePose--) |  |
 ## विधियाँ

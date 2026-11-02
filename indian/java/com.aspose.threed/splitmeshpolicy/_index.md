@@ -1,7 +1,7 @@
 ---
 title: "SplitMeshPolicy"
-second_title: "Aspose.3D for Java API Reference"
-description: "सब-मे़श के बीच वर्टेक्स/कंट्रोल पॉइंट डेटा साझा करें या प्रत्येक सब-मे़श का अपना संकुचित डेटा हो।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "सब-मेष के बीच वर्टेक्स/कंट्रोल पॉइंट डेटा साझा करें या प्रत्येक सब-मेष का अपना संकुचित डेटा हो।"
 type: docs
 weight: 302
 url: /hi/java/com.aspose.threed/splitmeshpolicy/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum SplitMeshPolicy extends Enum<SplitMeshPolicy>
 ```
 
-सब-मे़श के बीच वर्टेक्स/कंट्रोल पॉइंट डेटा साझा करें या प्रत्येक सब-मे़श का अपना संकुचित डेटा हो।
+सब-मेष के बीच वर्टेक्स/कंट्रोल पॉइंट डेटा साझा करें या प्रत्येक सब-मेष का अपना संकुचित डेटा हो।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [CLONE_DATA](#CLONE-DATA) | नियंत्रण बिंदुओं और शीर्ष बिंदु तत्व डेटा की प्रतिलिपि बनाई जाएगी। |
-| [COMPACT_DATA](#COMPACT-DATA) | केवल उपयोग किए गए नियंत्रण बिंदुओं और शीर्ष बिंदु तत्व डेटा को उप-मे़ष में कॉपी किया जाएगा। |
+| [CLONE_DATA](#CLONE-DATA) | नियंत्रण बिंदुओं और शीर्ष बिंदु तत्व डेटा को क्लोन किया जाएगा |
+| [COMPACT_DATA](#COMPACT-DATA) | केवल उपयोग किए गए नियंत्रण बिंदुओं और शीर्ष बिंदु तत्व डेटा को sub-mesh में कॉपी किया जाएगा |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public static final SplitMeshPolicy CLONE_DATA
 ```
 
 
-नियंत्रण बिंदुओं और शीर्ष बिंदु तत्व डेटा की प्रतिलिपि बनाई जाएगी।
+नियंत्रण बिंदुओं और शीर्ष बिंदु तत्व डेटा को क्लोन किया जाएगा
 
 ### COMPACT_DATA {#COMPACT-DATA}
 ```
@@ -55,7 +55,7 @@ public static final SplitMeshPolicy COMPACT_DATA
 ```
 
 
-केवल उपयोग किए गए नियंत्रण बिंदुओं और शीर्ष बिंदु तत्व डेटा को उप-मे़ष में कॉपी किया जाएगा।
+केवल उपयोग किए गए नियंत्रण बिंदुओं और शीर्ष बिंदु तत्व डेटा को sub-mesh में कॉपी किया जाएगा
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

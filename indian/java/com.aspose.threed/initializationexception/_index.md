@@ -1,7 +1,7 @@
 ---
 title: "InitializationException"
-second_title: "Aspose.3D for Java API Reference"
-description: "रेंडर पाइपलाइन इनिशियलाइज़ेशन में अपवाद"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "रेंडर पाइपलाइन प्रारंभिककरण में अपवाद"
 type: docs
 weight: 85
 url: /hi/java/com.aspose.threed/initializationexception/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class InitializationException extends RuntimeException
 ```
 
-रेंडर पाइपलाइन इनिशियलाइज़ेशन में अपवाद
-## कंस्ट्रक्टर
+रेंडर पाइपलाइन प्रारंभिककरण में अपवाद
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [InitializationException()](#InitializationException--) | एक [InitializationException](../../com.aspose.threed/initializationexception) इंस्टेंस को इनिशियलाइज़ करें। |
-| [InitializationException(String msg)](#InitializationException-java.lang.String-) | निर्दिष्ट अपवाद संदेश के साथ एक [InitializationException](../../com.aspose.threed/initializationexception) इंस्टेंस को इनिशियलाइज़ करें। |
+| [InitializationException()](#InitializationException--) | एक [InitializationException](../../com.aspose.threed/initializationexception) उदाहरण प्रारंभ करें। |
+| [InitializationException(String msg)](#InitializationException-java.lang.String-) | निर्दिष्ट अपवाद संदेश के साथ एक [InitializationException](../../com.aspose.threed/initializationexception) उदाहरण प्रारंभ करें। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -51,7 +51,7 @@ public InitializationException()
 ```
 
 
-एक [InitializationException](../../com.aspose.threed/initializationexception) इंस्टेंस को इनिशियलाइज़ करें।
+एक [InitializationException](../../com.aspose.threed/initializationexception) उदाहरण प्रारंभ करें।
 
 ### InitializationException(String msg) {#InitializationException-java.lang.String-}
 ```
@@ -59,7 +59,7 @@ public InitializationException(String msg)
 ```
 
 
-निर्दिष्ट अपवाद संदेश के साथ एक [InitializationException](../../com.aspose.threed/initializationexception) इंस्टेंस को इनिशियलाइज़ करें।
+निर्दिष्ट अपवाद संदेश के साथ एक [InitializationException](../../com.aspose.threed/initializationexception) उदाहरण प्रारंभ करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,7 +1,7 @@
 ---
 title: "ExportException"
-second_title: "Aspose.3D for Java API Reference"
-description: "जब Aspose.3D दृश्य को फ़ाइल में निर्यात करने में विफल हो जाता है तो अपवाद"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "जब Aspose.3D दृश्य को फ़ाइल में निर्यात करने में विफल हो तो अपवाद"
 type: docs
 weight: 56
 url: /hi/java/com.aspose.threed/exportexception/
@@ -13,10 +13,10 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.io.IOException
 public class ExportException extends IOException
 ```
 
-जब Aspose.3D दृश्य को फ़ाइल में निर्यात करने में विफल हो जाता है तो अपवाद
-## कंस्ट्रक्टर
+जब Aspose.3D दृश्य को फ़ाइल में निर्यात करने में विफल हो तो अपवाद
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [ExportException(String msg)](#ExportException-java.lang.String-) | नया इंस्टेंस इनिशियलाइज़ करता है |
 ## विधियाँ

@@ -1,6 +1,6 @@
 ---
 title: "BooleanOperation"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "Meshs बूलियन ऑपरेशन"
 type: docs
 weight: 268
@@ -18,9 +18,9 @@ public enum BooleanOperation extends Enum<BooleanOperation>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [ADD](#ADD) | दो मेष जोड़ें और इनपुट का संघ गणना करें। |
-| [INTERSECT](#INTERSECT) | दो मेषों का प्रतिच्छेदन गणना करें। |
-| [SUB](#SUB) | एक मेष को दूसरे मेष से घटाएँ, इनपुट का अंतर गणना करें। |
+| [ADD](#ADD) | दो मेषेस जोड़ें और इनपुट्स का यूनियन गणना करें। |
+| [INTERSECT](#INTERSECT) | दो मेषेस का इंटरसेक्शन गणना करें। |
+| [SUB](#SUB) | एक मेष को दूसरे मेष से घटाएँ, इनपुट्स का अंतर गणना करें। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -48,7 +48,7 @@ public static final BooleanOperation ADD
 ```
 
 
-दो मेष जोड़ें और इनपुट का संघ गणना करें।
+दो मेषेस जोड़ें और इनपुट्स का यूनियन गणना करें।
 
 ### INTERSECT {#INTERSECT}
 ```
@@ -56,7 +56,7 @@ public static final BooleanOperation INTERSECT
 ```
 
 
-दो मेषों का प्रतिच्छेदन गणना करें।
+दो मेषेस का इंटरसेक्शन गणना करें।
 
 ### SUB {#SUB}
 ```
@@ -64,7 +64,7 @@ public static final BooleanOperation SUB
 ```
 
 
-एक मेष को दूसरे मेष से घटाएँ, इनपुट का अंतर गणना करें।
+एक मेष को दूसरे मेष से घटाएँ, इनपुट्स का अंतर गणना करें।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

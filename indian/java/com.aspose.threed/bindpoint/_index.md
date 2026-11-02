@@ -1,7 +1,7 @@
 ---
 title: "BindPoint"
-second_title: "Aspose.3D for Java API Reference"
-description: "आमतौर पर एक ऑब्जेक्ट की प्रॉपर्टी पर बनाया जाता है, कुछ प्रॉपर्टी प्रकारों में कई घटक फ़ील्ड होते हैं (जैसे Vector3 फ़ील्ड), जो प्रत्येक घटक फ़ील्ड के लिए एक चैनल उत्पन्न करेंगे और फ़ील्ड को एक या अधिक कीफ़्रेम सीक्वेंस इंस्टेंस के माध्यम से चैनलों से जोड़ते हैं।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक BindPoint आमतौर पर ऑब्जेक्ट की प्रॉपर्टी पर बनाया जाता है; कुछ प्रॉपर्टी प्रकारों में कई घटक फ़ील्ड होते हैं (जैसे एक Vector3 फ़ील्ड), जो प्रत्येक घटक फ़ील्ड के लिए चैनल उत्पन्न करेंगे और फ़ील्ड को एक या अधिक कीफ़्रेम सीक्वेंस इंस्टेंस के माध्यम से चैनलों से जोड़ेंगे।"
 type: docs
 weight: 19
 url: /hi/java/com.aspose.threed/bindpoint/
@@ -13,12 +13,12 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class BindPoint extends A3DObject
 ```
 
-एक [BindPoint](../../com.aspose.threed/bindpoint) आमतौर पर एक ऑब्जेक्ट की प्रॉपर्टी पर बनाया जाता है, कुछ प्रॉपर्टी प्रकारों में कई घटक फ़ील्ड होते हैं (जैसे Vector3 फ़ील्ड), [BindPoint](../../com.aspose.threed/bindpoint) प्रत्येक घटक फ़ील्ड के लिए चैनल उत्पन्न करेगा और फ़ील्ड को एक या अधिक कीफ़्रेम सीक्वेंस इंस्टेंस(स) के माध्यम से चैनलों से जोड़ता है।
-## कंस्ट्रक्टर
+एक [BindPoint](../../com.aspose.threed/bindpoint) आमतौर पर ऑब्जेक्ट की प्रॉपर्टी पर बनाया जाता है, कुछ प्रॉपर्टी प्रकारों में कई घटक फ़ील्ड होते हैं (जैसे एक Vector3 फ़ील्ड), [BindPoint](../../com.aspose.threed/bindpoint) प्रत्येक घटक फ़ील्ड के लिए चैनल उत्पन्न करेगा और फ़ील्ड को एक या अधिक कीफ़्रेम सीक्वेंस इंस्टेंस के माध्यम से चैनलों से जोड़ेगा।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [BindPoint(Scene scene, Property prop)](#BindPoint-com.aspose.threed.Scene-com.aspose.threed.Property-) | [BindPoint](../../com.aspose.threed/bindpoint) क्लास का नया इंस्टेंस आरंभ करता है। |
+| [BindPoint(Scene scene, Property prop)](#BindPoint-com.aspose.threed.Scene-com.aspose.threed.Property-) | नए [BindPoint](../../com.aspose.threed/bindpoint) क्लास का एक नया इंस्टेंस प्रारंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -36,7 +36,7 @@ public class BindPoint extends A3DObject
 | [getKeyframeSequence(String channelName)](#getKeyframeSequence-java.lang.String-) | निर्दिष्ट चैनल में पहला कीफ़्रेम सीक्वेंस प्राप्त करता है |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
-| [getProperty()](#getProperty--) | CurveMapping से जुड़ी प्रॉपर्टी प्राप्त करता है |
+| [getProperty()](#getProperty--) | CurveMapping से संबंधित प्रॉपर्टी प्राप्त करता है |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -45,7 +45,7 @@ public class BindPoint extends A3DObject
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
 | [resetChannels()](#resetChannels--) | इस एनीमेशन कर्व मैपिंग के प्रॉपर्टी चैनलों को खाली करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setProperty(Property value)](#setProperty-com.aspose.threed.Property-) | CurveMapping से जुड़ी प्रॉपर्टी प्राप्त करता है |
+| [setProperty(Property value)](#setProperty-com.aspose.threed.Property-) | CurveMapping से संबंधित प्रॉपर्टी प्राप्त करता है |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [toString()](#toString--) | ऑब्जेक्ट को स्ट्रिंग में फ़ॉर्मेट करता है |
 | [wait()](#wait--) |  |
@@ -57,12 +57,12 @@ public BindPoint(Scene scene, Property prop)
 ```
 
 
-[BindPoint](../../com.aspose.threed/bindpoint) क्लास का नया इंस्टेंस आरंभ करता है।
+नए [BindPoint](../../com.aspose.threed/bindpoint) क्लास का एक नया इंस्टेंस प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | एनीमेशन को सम्मिलित करने वाला सीन। |
+| scene | [Scene](../../com.aspose.threed/scene) | सीन जिसमें एनीमेशन शामिल है। |
 | prop | [Property](../../com.aspose.threed/property) | प्रॉपर्टी। |
 
 ### addChannel(String name, Class<?> type, Object value) {#addChannel-java.lang.String-java.lang.Class----java.lang.Object-}
@@ -78,7 +78,7 @@ public boolean addChannel(String name, Class<?> type, Object value)
 | --- | --- | --- |
 | नाम | java.lang.String | नाम। |
 | type | java.lang.Class<?> | टाइप। |
-| मान | java.lang.Object | वैल्यू। |
+| मान | java.lang.Object | मान। |
 
 **Returns:**
 बूलियन - true, यदि चैनल जोड़ा गया हो, अन्यथा false।
@@ -94,7 +94,7 @@ public boolean addChannel(String name, Object value)
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | नाम | java.lang.String | नाम। |
-| मान | java.lang.Object | वैल्यू। |
+| मान | java.lang.Object | मान। |
 
 **Returns:**
 बूलियन - true, यदि चैनल जोड़ा गया हो, अन्यथा false।
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -196,7 +196,7 @@ public int getChannelsCount()
 इस एनीमेशन कर्व मैपिंग में परिभाषित प्रॉपर्टी चैनलों की कुल संख्या प्राप्त करता है।
 
 **Returns:**
-int - चैनलों की संख्या।
+int - चैनलों की गिनती।
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -248,7 +248,7 @@ public Property getProperty()
 ```
 
 
-CurveMapping से जुड़ी प्रॉपर्टी प्राप्त करता है
+CurveMapping से संबंधित प्रॉपर्टी प्राप्त करता है
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - the property associated with the CurveMapping
@@ -350,7 +350,7 @@ public void setProperty(Property value)
 ```
 
 
-CurveMapping से जुड़ी प्रॉपर्टी प्राप्त करता है
+CurveMapping से संबंधित प्रॉपर्टी प्राप्त करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

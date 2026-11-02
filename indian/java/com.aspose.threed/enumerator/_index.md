@@ -1,7 +1,7 @@
 ---
 title: "एन्यूमरेटर"
-second_title: "Aspose.3D for Java API Reference"
-description: "टाइप T के संग्रह के लिए सामान्य एन्यूमरेटर"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "प्रकार T के संग्रह के लिए सामान्य एनोमरेटर"
 type: docs
 weight: 236
 url: /hi/java/com.aspose.threed/enumerator/
@@ -10,7 +10,7 @@ url: /hi/java/com.aspose.threed/enumerator/
 public interface Enumerator<T>
 ```
 
-टाइप T के संग्रह के लिए सामान्य एन्यूमरेटर
+प्रकार T के संग्रह के लिए सामान्य एनोमरेटर
 ## विधियाँ
 
 | विधि | विवरण |

@@ -1,6 +1,6 @@
 ---
-title: "Struct"
-second_title: "Aspose.3D for Java API Reference"
+title: "स्ट्रक्ट"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "lexchou द्वारा 13/11/2017 को बनाया गया।"
 type: docs
 weight: 262
@@ -18,16 +18,16 @@ lexchou द्वारा 13/11/2017 को बनाया गया।
 
 | विधि | विवरण |
 | --- | --- |
-| [<T>byVal(T value)](#-T-byVal-T-) | यदि यह Struct है तो इनपुट वैल्यू को कॉपी करने का प्रयास करें |
+| [<T>byVal(T value)](#-T-byVal-T-) | यदि यह स्ट्रक्ट है तो इनपुट वैल्यू को कॉपी करने का प्रयास करें |
 | [clone()](#clone--) | वर्तमान उदाहरण को क्लोन करें |
-| [copyFrom(T t)](#copyFrom-T-) | आर्ग्यूमेंट t से आंतरिक स्थिति कॉपी करें |
+| [copyFrom(T t)](#copyFrom-T-) | आर्ग्युमेंट t से आंतरिक स्थिति कॉपी करें |
 ### <T>byVal(T value) {#-T-byVal-T-}
 ```
 public static T <T>byVal(T value)
 ```
 
 
-यदि यह Struct है तो इनपुट वैल्यू को कॉपी करने का प्रयास करें
+यदि यह स्ट्रक्ट है तो इनपुट वैल्यू को कॉपी करने का प्रयास करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -52,7 +52,7 @@ public abstract void copyFrom(T t)
 ```
 
 
-आर्ग्यूमेंट t से आंतरिक स्थिति कॉपी करें
+आर्ग्युमेंट t से आंतरिक स्थिति कॉपी करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

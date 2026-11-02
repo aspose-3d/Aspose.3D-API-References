@@ -1,7 +1,7 @@
 ---
 title: "RenderResource"
-second_title: "Aspose.3D for Java API Reference"
-description: "सभी रेंडर संसाधनों की सारभूत वर्ग। सभी रेंडर संसाधनों को रेंडरर जारी होने पर नष्ट कर दिया जाएगा।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "सभी रेंडर संसाधनों की एब्स्ट्रैक्ट क्लास। सभी रेंडर संसाधनों को रेंडरर रिलीज़ होने पर नष्ट कर दिया जाएगा।"
 type: docs
 weight: 150
 url: /hi/java/com.aspose.threed/renderresource/
@@ -16,10 +16,10 @@ java.io.Closeable
 public abstract class RenderResource implements Closeable
 ```
 
-सभी रेंडर संसाधनों की सारभूत वर्ग। सभी रेंडर संसाधनों को रेंडरर जारी होने पर नष्ट कर दिया जाएगा। [Mesh](../../com.aspose.threed/mesh)/[Texture](../../com.aspose.threed/texture) जैसी कक्षाओं का एक संबंधित RenderResource होगा।
-## कंस्ट्रक्टर
+सभी रेंडर संसाधनों की एब्स्ट्रैक्ट क्लास। सभी रेंडर संसाधनों को रेंडरर रिलीज़ होने पर नष्ट कर दिया जाएगा। जैसे क्लासें [Mesh](../../com.aspose.threed/mesh)/[Texture](../../com.aspose.threed/texture) के पास एक संबंधित RenderResource होगा।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [RenderResource()](#RenderResource--) |  |
 ## विधियाँ

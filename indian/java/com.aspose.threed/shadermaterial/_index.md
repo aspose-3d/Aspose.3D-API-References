@@ -1,7 +1,7 @@
 ---
 title: "ShaderMaterial"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक शेडर मैटेरियल बाहरी रेंडरिंग इंजन या शेडर भाषा द्वारा सामग्री का वर्णन करने की अनुमति देता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक शेडर सामग्री बाहरी रेंडरिंग इंजन या शेडर भाषा द्वारा सामग्री का वर्णन करने की अनुमति देती है।"
 type: docs
 weight: 164
 url: /hi/java/com.aspose.threed/shadermaterial/
@@ -13,22 +13,22 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class ShaderMaterial extends Material
 ```
 
-एक शेडर सामग्री बाहरी रेंडरिंग इंजन या शेडर भाषा द्वारा सामग्री का वर्णन करने की अनुमति देती है। [ShaderMaterial](../../com.aspose.threed/shadermaterial) का उपयोग [ShaderTechnique](../../com.aspose.threed/shadertechnique) के द्वारा ठोस रेंडरिंग विवरण का वर्णन करने के लिए करता है, और सबसे उपयुक्त को अंतिम रेंडरिंग प्लेटफ़ॉर्म के अनुसार उपयोग किया जाएगा। उदाहरण के लिए, आपका [ShaderMaterial](../../com.aspose.threed/shadermaterial) उदाहरण दो तकनीकों रख सकता है, एक HLSL द्वारा परिभाषित, और दूसरा GLSL द्वारा परिभाषित। गैर-विंडो प्लेटफ़ॉर्म पर GLSL को HLSL के बजाय उपयोग किया जाना चाहिए।
-## कंस्ट्रक्टर
+एक शेडर मैटेरियल बाहरी रेंडरिंग इंजन या शेडर भाषा द्वारा सामग्री का वर्णन करने की अनुमति देता है। [ShaderMaterial](../../com.aspose.threed/shadermaterial) [ShaderTechnique](../../com.aspose.threed/shadertechnique) का उपयोग करके ठोस रेंडरिंग विवरण वर्णित करता है, और अंतिम रेंडरिंग प्लेटफ़ॉर्म के अनुसार सबसे उपयुक्त को उपयोग किया जाएगा। उदाहरण के लिए, आपका [ShaderMaterial](../../com.aspose.threed/shadermaterial) इंस्टेंस दो तकनीकों को रख सकता है, एक HLSL द्वारा परिभाषित, और दूसरा GLSL द्वारा परिभाषित। गैर-विंडो प्लेटफ़ॉर्म पर GLSL को HLSL के बजाय उपयोग किया जाना चाहिए
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [ShaderMaterial()](#ShaderMaterial--) | क्लास [ShaderMaterial](../../com.aspose.threed/shadermaterial) का एक नया उदाहरण प्रारंभ करता है। |
-| [ShaderMaterial(String name)](#ShaderMaterial-java.lang.String-) | क्लास [ShaderMaterial](../../com.aspose.threed/shadermaterial) का एक नया उदाहरण प्रारंभ करता है। |
+| [ShaderMaterial()](#ShaderMaterial--) | नए [ShaderMaterial](../../com.aspose.threed/shadermaterial) क्लास का एक नया उदाहरण प्रारंभ करता है। |
+| [ShaderMaterial(String name)](#ShaderMaterial-java.lang.String-) | नए [ShaderMaterial](../../com.aspose.threed/shadermaterial) क्लास का एक नया उदाहरण प्रारंभ करता है। |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक पर्यावरणीय टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक उत्सर्जक टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_NORMAL](#MAP-NORMAL) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक सामान्य टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_SPECULAR](#MAP-SPECULAR) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए। |
+| [MAP_AMBIENT](#MAP-AMBIENT) | एक ambient टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | एक diffuse टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | एक emissive टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_NORMAL](#MAP-NORMAL) | एक normal टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_SPECULAR](#MAP-SPECULAR) | एक specular टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -42,14 +42,14 @@ public class ShaderMaterial extends Material
 | [getTechniques()](#getTechniques--) | इस सामग्री में परिभाषित सभी उपलब्ध तकनीकों को प्राप्त करता है। |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | निर्दिष्ट स्लॉट से टेक्सचर प्राप्त करता है, यह सामग्री की प्रॉपर्टी नाम या शेडर के पैरामीटर नाम हो सकता है। |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एन्यूमरेटर प्राप्त करता है। |
+| [iterator()](#iterator--) | आंतरिक टेक्सचर स्लॉट्स को एने्यूमरेट करने के लिए एने्यूरेटर प्राप्त करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | निर्दिष्ट स्लॉट में टेक्सचर सेट करता है |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है |
 | [toString()](#toString--) | ऑब्जेक्ट को स्ट्रिंग में फ़ॉर्मेट करता है |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,7 +60,7 @@ public ShaderMaterial()
 ```
 
 
-क्लास [ShaderMaterial](../../com.aspose.threed/shadermaterial) का एक नया उदाहरण प्रारंभ करता है।
+नए [ShaderMaterial](../../com.aspose.threed/shadermaterial) क्लास का एक नया उदाहरण प्रारंभ करता है।
 
 ### ShaderMaterial(String name) {#ShaderMaterial-java.lang.String-}
 ```
@@ -68,7 +68,7 @@ public ShaderMaterial(String name)
 ```
 
 
-क्लास [ShaderMaterial](../../com.aspose.threed/shadermaterial) का एक नया उदाहरण प्रारंभ करता है।
+नए [ShaderMaterial](../../com.aspose.threed/shadermaterial) क्लास का एक नया उदाहरण प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -81,7 +81,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक पर्यावरणीय टेक्सचर मैपिंग असाइन करने के लिए।
+एक ambient टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -89,7 +89,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए।
+एक diffuse टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -97,7 +97,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक उत्सर्जक टेक्सचर मैपिंग असाइन करने के लिए।
+एक emissive टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -105,7 +105,7 @@ public static final String MAP_NORMAL
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक सामान्य टेक्सचर मैपिंग असाइन करने के लिए।
+एक normal टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -113,7 +113,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए।
+एक specular टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -136,7 +136,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -239,7 +239,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एन्यूमरेटर प्राप्त करता है।
+आंतरिक टेक्सचर स्लॉट्स को एने्यूमरेट करने के लिए एने्यूरेटर प्राप्त करता है।
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -322,7 +322,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-निर्दिष्ट स्लॉट में टेक्सचर सेट करता है
+टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

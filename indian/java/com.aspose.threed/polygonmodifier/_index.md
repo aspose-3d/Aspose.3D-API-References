@@ -1,6 +1,6 @@
 ---
 title: "PolygonModifier"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "पॉलीगॉन को संशोधित करने के यूटिलिटीज़"
 type: docs
 weight: 134
@@ -19,34 +19,34 @@ public class PolygonModifier
 | विधि | विवरण |
 | --- | --- |
 | [applyTransform(Node node, Matrix4 transform)](#applyTransform-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | सभी ज्यामितियों के कंट्रोल पॉइंट्स पर ट्रांसफ़ॉर्म मैट्रिक्स लागू करें |
-| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | यह मेष पर टैन्जेंट और बिनॉर्म बनाएगा। सामान्य (Normal) आवश्यक है, यदि मेष पर सामान्य मौजूद नहीं है, तो यह स्थिति से सामान्य डेटा भी बनाएगा। |
-| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | यह सीन के सभी मेषों पर टैन्जेंट और बिनॉर्म बनाएगा। सामान्य आवश्यक है, यदि मेष पर सामान्य मौजूद नहीं है, तो यह स्थिति से सामान्य डेटा भी बनाएगा। |
+| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | यह मेष पर टैन्जेंट और बिनॉर्म बनाएगा। सामान्य (नॉर्मल) आवश्यक है, यदि मेष पर नॉर्मल मौजूद नहीं है, तो यह पोज़िशन से नॉर्मल डेटा भी बनाएगा। |
+| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | यह सीन के सभी मेषों पर टैन्जेंट और बिनॉर्म बनाएगा। सामान्य (नॉर्मल) आवश्यक है, यदि मेष पर नॉर्मल मौजूद नहीं है, तो यह पोज़िशन से नॉर्मल डेटा भी बनाएगा। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | मेश परिभाषा से सामान्य डेटा उत्पन्न करें |
+| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | मे़ष परिभाषा से नॉर्मल डेटा उत्पन्न करें |
 | [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | दिए गए इनपुट मेष से UV डेटा उत्पन्न करें |
-| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | दिए गए इनपुट मेष और निर्दिष्ट सामान्य डेटा से UV डेटा उत्पन्न करें। |
+| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | दिए गए इनपुट मेष और निर्दिष्ट नॉर्मल डेटा से UV डेटा उत्पन्न करें। |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | पूरे नोड को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture coordinates अभी समर्थित नहीं हैं। |
-| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | पूरे दृश्य को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture coordinates अभी समर्थित नहीं हैं। |
-| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | पूरे नोड को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture coordinates अभी समर्थित नहीं हैं। |
+| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | पूरे नोड को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture निर्देशांक अभी समर्थित नहीं हैं। |
+| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | पूरे दृश्य को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture निर्देशांक अभी समर्थित नहीं हैं। |
+| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | पूरे नोड को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture निर्देशांक अभी समर्थित नहीं हैं। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | इस नोड में सभी ज्यामितियों को स्केल करें (ट्रांसफ़ॉर्मेशन मैट्रिक्स नहीं, कंट्रोल पॉइंट्स को स्केल करें)। |
 | [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | इस दृश्य में सभी ज्यामितियों को स्केल करें (ट्रांसफ़ॉर्मेशन मैट्रिक्स नहीं, कंट्रोल पॉइंट्स को स्केल करें)। |
-| [splitMesh(Mesh mesh, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Mesh-com.aspose.threed.SplitMeshPolicy-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप-मेश में विभाजित करें। |
-| [splitMesh(Node node, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप-मेश में विभाजित करें। |
-| [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप-मेश में विभाजित करें। |
-| [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-boolean-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप-मेश में विभाजित करें। |
-| [splitMesh(Scene scene, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप-मेश में विभाजित करें। |
-| [splitMesh(Scene scene, SplitMeshPolicy policy, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-boolean-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप-मेश में विभाजित करें। |
+| [splitMesh(Mesh mesh, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Mesh-com.aspose.threed.SplitMeshPolicy-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप‑मेश में विभाजित करें। |
+| [splitMesh(Node node, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप‑मेश में विभाजित करें। |
+| [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप‑मेश में विभाजित करें। |
+| [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-boolean-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप‑मेश में विभाजित करें। |
+| [splitMesh(Scene scene, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप‑मेश में विभाजित करें। |
+| [splitMesh(Scene scene, SplitMeshPolicy policy, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-boolean-) | मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप‑मेश में विभाजित करें। |
 | [toString()](#toString--) |  |
-| [triangulate(Mesh mesh)](#triangulate-com.aspose.threed.Mesh-) | बहुभुज-आधारित मेष को पूर्ण त्रिकोणीय मेष में बदलें। |
-| [triangulate(Scene scene)](#triangulate-com.aspose.threed.Scene-) | सभी बहुभुज-आधारित मेषों को पूर्ण त्रिकोणीय मेष में बदलें। |
-| [triangulate(List<Vector4> controlPoints)](#triangulate-java.util.List-com.aspose.threed.Vector4--) | बहुभुज को त्रिकोणों में बदलें, बहुभुज का क्रम `controlPoints` द्वारा परिभाषित होता है। |
-| [triangulate(List<Vector4> controlPoints, int[] polygon)](#triangulate-java.util.List-com.aspose.threed.Vector4--int---) | बहुभुज को त्रिकोणों में बदलें। |
-| [triangulate(List<Vector4> controlPoints, List<int[]> polygons)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----) | बहुभुज-आधारित मेष को त्रिकोणों में बदलें। |
-| [triangulate(List<Vector4> controlPoints, List<int[]> polygons, boolean generateNormals, Vector3[][] nor_out)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----boolean-com.aspose.threed.Vector3-----) | बहुभुज-आधारित मेष को पूर्ण त्रिकोणीय मेष में बदलें। |
+| [triangulate(Mesh mesh)](#triangulate-com.aspose.threed.Mesh-) | बहुभुज‑आधारित मेष को पूर्ण त्रिकोणीय मेष में बदलें। |
+| [triangulate(Scene scene)](#triangulate-com.aspose.threed.Scene-) | सभी बहुभुज‑आधारित मेषों को पूर्ण त्रिकोणीय मेष में बदलें। |
+| [triangulate(List<Vector4> controlPoints)](#triangulate-java.util.List-com.aspose.threed.Vector4--) | एक बहुभुज को त्रिकोणों में बदलें, बहुभुज का क्रम `controlPoints` द्वारा परिभाषित होता है। |
+| [triangulate(List<Vector4> controlPoints, int[] polygon)](#triangulate-java.util.List-com.aspose.threed.Vector4--int---) | एक बहुभुज को त्रिकोणों में बदलें। |
+| [triangulate(List<Vector4> controlPoints, List<int[]> polygons)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----) | बहुभुज‑आधारित मेष को त्रिकोणों में बदलें। |
+| [triangulate(List<Vector4> controlPoints, List<int[]> polygons, boolean generateNormals, Vector3[][] nor_out)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----boolean-com.aspose.threed.Vector3-----) | बहुभुज‑आधारित मेष को पूर्ण त्रिकोणीय मेष में बदलें। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -70,7 +70,7 @@ public static void buildTangentBinormal(Mesh mesh)
 ```
 
 
-यह मेष पर टैंजेंट और बाइनॉर्म बनाता है। Normal आवश्यक है; यदि मेष में Normal मौजूद नहीं है, तो यह स्थिति से Normal डेटा भी बनाता है। UV भी आवश्यक है, यदि कोई UV नहीं मिला तो अपवाद उत्पन्न होगा।
+यह मेष पर टैन्जेंट और बिनॉर्मल बनाएगा। mesh Normal आवश्यक है, यदि मेष में Normal मौजूद नहीं है, तो यह स्थिति से Normal डेटा भी बनाएगा। UV भी आवश्यक है, यदि कोई UV नहीं मिला तो एक अपवाद उठाया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -83,7 +83,7 @@ public static void buildTangentBinormal(Scene scene)
 ```
 
 
-यह दृश्य के सभी मेषों पर टैंजेंट और बाइनॉर्म बनाता है। Normal आवश्यक है; यदि मेष में Normal मौजूद नहीं है, तो यह स्थिति से Normal डेटा भी बनाता है। UV भी आवश्यक है; यदि कोई UV परिभाषित नहीं है तो मेष को अनदेखा किया जाएगा।
+यह दृश्य के सभी मेषों पर टैन्जेंट और बिनॉर्मल बनाएगा। mesh Normal आवश्यक है, यदि मेष में Normal मौजूद नहीं है, तो यह स्थिति से Normal डेटा भी बनाएगा। UV भी आवश्यक है, यदि कोई UV परिभाषित नहीं है तो मेष को अनदेखा किया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -111,7 +111,7 @@ public static VertexElementNormal generateNormal(Mesh mesh)
 ```
 
 
-मेश परिभाषा से सामान्य डेटा उत्पन्न करें
+मे़ष परिभाषा से नॉर्मल डेटा उत्पन्न करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -141,7 +141,7 @@ public static VertexElementUV generateUV(Mesh mesh, VertexElementNormal normals)
 ```
 
 
-दिए गए इनपुट मेष और निर्दिष्ट सामान्य डेटा से UV डेटा उत्पन्न करें।
+दिए गए इनपुट मेष और निर्दिष्ट नॉर्मल डेटा से UV डेटा उत्पन्न करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -177,12 +177,12 @@ public static Mesh mergeMesh(Node node)
 ```
 
 
-पूरे नोड को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture coordinates अभी समर्थित नहीं हैं।
+पूरे नोड को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture निर्देशांक अभी समर्थित नहीं हैं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | मर्ज करने के लिए नोड |
+| node | [Node](../../com.aspose.threed/node) | विलय करने के लिए नोड |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Merged mesh **Example:** The following code shows how to merge all objects from nodes into a single mesh.
@@ -202,12 +202,12 @@ public static Mesh mergeMesh(Scene scene)
 ```
 
 
-पूरे दृश्य को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture coordinates अभी समर्थित नहीं हैं।
+पूरे दृश्य को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture निर्देशांक अभी समर्थित नहीं हैं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | मर्ज करने के लिए दृश्य |
+| scene | [Scene](../../com.aspose.threed/scene) | विलय करने के लिए दृश्य |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The merged mesh **Example:** The following code shows how to merge all objects from a scene into a single mesh.
@@ -227,12 +227,12 @@ public static Mesh mergeMesh(List<Node> nodes)
 ```
 
 
-पूरे नोड को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture coordinates अभी समर्थित नहीं हैं।
+पूरे नोड को एकल परिवर्तित मेष में बदलें। Vertex तत्व जैसे normal/texture निर्देशांक अभी समर्थित नहीं हैं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| नोड्स | java.util.List<com.aspose.threed.Node> | मर्ज करने के नोड्स |
+| नोड्स | java.util.List<com.aspose.threed.Node> | विलय करने के नोड्स |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Merged mesh **Example:** The following code shows how to merge all objects from nodes into a single mesh.
@@ -274,7 +274,7 @@ public static void scale(Node node, Vector3 scale)
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) | स्केल करने के लिए नोड |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | स्केल फ़ैक्टर **Example:** निम्नलिखित कोड दर्शाता है कि दृश्य में सभी ज्यामितियों को 10 गुना कैसे स्केल किया जाए। |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | स्केल फैक्टर **Example:** निम्नलिखित कोड दिखाता है कि कैसे दृश्य में सभी ज्यामितियों को 10 गुना स्केल किया जाए। |
 
 ```
 //Load a test file for scaling
@@ -296,7 +296,7 @@ public static Scene scale(Scene scene, Vector3 scale)
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | scene | [Scene](../../com.aspose.threed/scene) | स्केल करने के लिए दृश्य |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | स्केल फ़ैक्टर **Example:** निम्नलिखित कोड दर्शाता है कि दृश्य में सभी ज्यामितियों को 10 गुना कैसे स्केल किया जाए। |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | स्केल फैक्टर **Example:** निम्नलिखित कोड दिखाता है कि कैसे दृश्य में सभी ज्यामितियों को 10 गुना स्केल किया जाए। |
 
 ```
 //Load a test file for scaling
@@ -314,7 +314,7 @@ public static Mesh[] splitMesh(Mesh mesh, SplitMeshPolicy policy)
 ```
 
 
-मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप-मेश में विभाजित करें। प्रत्येक उप-मेश केवल एक सामग्री का उपयोग करेगा। मूल मेष नहीं बदलेगा।
+मेश को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा उप‑मेश में विभाजित करें। प्रत्येक उप‑मेश केवल एक सामग्री का उपयोग करेगा। मूल मेष नहीं बदलेगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -323,7 +323,7 @@ public static Mesh[] splitMesh(Mesh mesh, SplitMeshPolicy policy)
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 
 **Returns:**
-com.aspose.threed.Mesh[] - नई विभाजित मेष **उदाहरण:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए।
+com.aspose.threed.Mesh[] - नई विभाजित मेष **Example:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए।
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -347,7 +347,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy)
 ```
 
 
-सबस्ट्रक्चर को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा विभाजित करें। प्रत्येक सब‑मेश केवल एक सामग्री का उपयोग करेगा। एक नोड पर मेष विभाजन करें **उदाहरण:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए।
+मेश को उप‑मेश में विभाजित करें [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा। प्रत्येक उप‑मेश केवल एक सामग्री का उपयोग करेगा। एक नोड पर मेश विभाजन करें **Example:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए।
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -378,14 +378,14 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-सबस्ट्रक्चर को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा विभाजित करें। प्रत्येक सब‑मेश केवल एक सामग्री का उपयोग करेगा। एक नोड पर मेष विभाजन करें
+मेश को उप‑मेश में विभाजित करें [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा। प्रत्येक उप‑मेश केवल एक सामग्री का उपयोग करेगा। एक नोड पर मेश विभाजन करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
-|  | createChildNodes | boolean | प्रत्येक सब‑मेश के लिए चाइल्ड नोड बनाएं। **उदाहरण:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए। |
+|  | createChildNodes | boolean | प्रत्येक उप‑मेश के लिए चाइल्ड नोड बनाएं। **Example:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए। |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -410,15 +410,15 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-सबस्ट्रक्चर को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा विभाजित करें। प्रत्येक सब‑मेश केवल एक सामग्री का उपयोग करेगा। एक नोड पर मेष विभाजन करें
+मेश को उप‑मेश में विभाजित करें [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा। प्रत्येक उप‑मेश केवल एक सामग्री का उपयोग करेगा। एक नोड पर मेश विभाजन करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
-| createChildNodes | boolean | प्रत्येक सब‑मेश के लिए चाइल्ड नोड बनाएं। |
-|  | removeOldMesh | boolean | विभाजन के बाद पुराना मेष हटाएँ, यदि यह पैरामीटर false है, तो पुराना और नया मेष दोनों मौजूद रहेंगे। **उदाहरण:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए। |
+| createChildNodes | boolean | प्रत्येक उप‑मेश के लिए चाइल्ड नोड बनाएं। |
+|  | removeOldMesh | boolean | विभाजन के बाद पुराना मेश हटाएँ, यदि यह पैरामीटर false है, तो पुराना और नया मेश दोनों मौजूद रहेंगे। **Example:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए। |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -443,7 +443,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy)
 ```
 
 
-सबस्ट्रक्चर को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा विभाजित करें। प्रत्येक सब‑मेश केवल एक सामग्री का उपयोग करेगा। दृश्य के सभी नोड्स पर मेष विभाजन करें **उदाहरण:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए।
+मेश को उप‑मेश में विभाजित करें [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा। प्रत्येक उप‑मेश केवल एक सामग्री का उपयोग करेगा। दृश्य के सभी नोड्स पर मेश विभाजन करें **Example:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए।
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -474,7 +474,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy, boolean remove
 ```
 
 
-सबस्ट्रक्चर को [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा विभाजित करें। प्रत्येक सब‑मेश केवल एक सामग्री का उपयोग करेगा। दृश्य के सभी नोड्स पर मेष विभाजन करें **उदाहरण:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए।
+मेश को उप‑मेश में विभाजित करें [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) द्वारा। प्रत्येक उप‑मेश केवल एक सामग्री का उपयोग करेगा। दृश्य के सभी नोड्स पर मेश विभाजन करें **Example:** निम्नलिखित कोड दिखाता है कि सामग्री सूचकांकों का उपयोग करके बॉक्स को उप‑मेश में कैसे विभाजित किया जाए।
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -516,12 +516,12 @@ public static Mesh triangulate(Mesh mesh)
 ```
 
 
-बहुभुज-आधारित मेष को पूर्ण त्रिकोणीय मेष में बदलें।
+बहुभुज‑आधारित मेष को पूर्ण त्रिकोणीय मेष में बदलें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | मूल गैर‑त्रिभुज मेष |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | मूल गैर‑त्रिभुज मेश |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The generated new triangle mesh **Example:** The following code shows how to merge all objects from a scene into a single mesh.
@@ -542,12 +542,12 @@ public static void triangulate(Scene scene)
 ```
 
 
-सभी बहुभुज-आधारित मेषों को पूर्ण त्रिकोणीय मेष में बदलें।
+सभी बहुभुज‑आधारित मेषों को पूर्ण त्रिकोणीय मेष में बदलें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | scene | [Scene](../../com.aspose.threed/scene) | प्रक्रिया करने के लिए दृश्य **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक दृश्य के सभी ऑब्जेक्ट्स को एकल मेष में मिलाया जाए। |
+|  | scene | [Scene](../../com.aspose.threed/scene) | प्रक्रिया करने के लिए दृश्य **Example:** निम्नलिखित कोड दिखाता है कि एक दृश्य से सभी वस्तुओं को एकल मेश में कैसे मिलाया जाए। |
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -566,7 +566,7 @@ public static int[][] triangulate(List<Vector4> controlPoints)
 ```
 
 
-बहुभुज को त्रिकोणों में बदलें, बहुभुज का क्रम `controlPoints` द्वारा परिभाषित होता है।
+एक बहुभुज को त्रिकोणों में बदलें, बहुभुज का क्रम `controlPoints` द्वारा परिभाषित होता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -574,7 +574,7 @@ public static int[][] triangulate(List<Vector4> controlPoints)
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | मेश के नियंत्रण बिंदु |
 
 **Returns:**
-int[][] - त्रिभुजों का एक सेट **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक दृश्य के सभी ऑब्जेक्ट्स को एकल मेष में मिलाया जाए।
+int[][] - त्रिकोणों का एक सेट **Example:** निम्नलिखित कोड दिखाता है कि एक दृश्य से सभी वस्तुओं को एकल मेश में कैसे मिलाया जाए।
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -592,16 +592,16 @@ public static int[][] triangulate(List<Vector4> controlPoints, int[] polygon)
 ```
 
 
-बहुभुज को त्रिकोणों में बदलें।
+एक बहुभुज को त्रिकोणों में बदलें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | मेश के नियंत्रण बिंदु |
-| polygon | int[] | बहुभुज फेस |
+| बहुभुज | int[] | बहुभुज का चेहरा |
 
 **Returns:**
-int[][] - त्रिभुजों का एक सेट **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक दृश्य के सभी ऑब्जेक्ट्स को एकल मेष में मिलाया जाए।
+int[][] - त्रिकोणों का एक सेट **Example:** निम्नलिखित कोड दिखाता है कि एक दृश्य से सभी वस्तुओं को एकल मेश में कैसे मिलाया जाए।
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -619,16 +619,16 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 ```
 
 
-बहुभुज-आधारित मेष को त्रिकोणों में बदलें।
+बहुभुज‑आधारित मेष को त्रिकोणों में बदलें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | मेश के नियंत्रण बिंदु |
-| polygons | java.util.List<int[]> | बहुभुज चेहरे |
+| बहुभुज | java.util.List<int[]> | बहुभुज चेहरे |
 
 **Returns:**
-int[][] - त्रिभुजों का एक सेट **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक दृश्य के सभी ऑब्जेक्ट्स को एकल मेष में मिलाया जाए।
+int[][] - त्रिकोणों का एक सेट **Example:** निम्नलिखित कोड दिखाता है कि एक दृश्य से सभी वस्तुओं को एकल मेश में कैसे मिलाया जाए।
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -646,18 +646,18 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 ```
 
 
-बहुभुज-आधारित मेष को पूर्ण त्रिकोणीय मेष में बदलें।
+बहुभुज‑आधारित मेष को पूर्ण त्रिकोणीय मेष में बदलें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | मेश के नियंत्रण बिंदु |
-| polygons | java.util.List<int[]> | बहुभुज चेहरे |
-| generateNormals | boolean | सामान्य वेक्टर उत्पन्न करें |
-| nor_out | [Vector3\[\]](../../com.aspose.threed/vector3) | प्रति‑नियंत्रण बिंदु सामान्य उत्पन्न किया गया |
+| बहुभुज | java.util.List<int[]> | बहुभुज चेहरे |
+| generateNormals | boolean | नॉर्मल्स उत्पन्न करें |
+| nor_out | [Vector3\[\]](../../com.aspose.threed/vector3) | प्रति‑नियंत्रण बिंदु नॉर्मल उत्पन्न किया गया |
 
 **Returns:**
-int[][] - त्रिभुजों का एक सेट **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक दृश्य के सभी ऑब्जेक्ट्स को एकल मेष में मिलाया जाए।
+int[][] - त्रिकोणों का एक सेट **Example:** निम्नलिखित कोड दिखाता है कि एक दृश्य से सभी वस्तुओं को एकल मेश में कैसे मिलाया जाए।
 
 ```
 var mesh = new Cylinder().toMesh();

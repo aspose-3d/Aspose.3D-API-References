@@ -1,7 +1,7 @@
 ---
 title: "Deformer"
-second_title: "Aspose.3D for Java API Reference"
-description: "के लिए बेस क्लास  और"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "के लिए बेस क्लास"
 type: docs
 weight: 41
 url: /hi/java/com.aspose.threed/deformer/
@@ -14,11 +14,11 @@ public abstract class Deformer extends A3DObject
 ```
 
 के लिए बेस क्लास [SkinDeformer](../../com.aspose.threed/skindeformer) और [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer)
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Deformer(String name)](#Deformer-java.lang.String-) | नए इंस्टेंस को इनिशियलाइज़ करता है [Deformer](../../com.aspose.threed/deformer) क्लास का। |
+| [Deformer(String name)](#Deformer-java.lang.String-) | [Deformer](../../com.aspose.threed/deformer) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -27,7 +27,7 @@ public abstract class Deformer extends A3DObject
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getOwner()](#getOwner--) | उस जियोमेट्री को प्राप्त करता है जो इस डीफ़ॉर्मर का स्वामी है |
+| [getOwner()](#getOwner--) | इस deformer का स्वामी जियोमेट्री को प्राप्त करता है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public Deformer(String name)
 ```
 
 
-नए इंस्टेंस को इनिशियलाइज़ करता है [Deformer](../../com.aspose.threed/deformer) क्लास का।
+[Deformer](../../com.aspose.threed/deformer) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -75,7 +75,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -110,7 +110,7 @@ public Geometry getOwner()
 ```
 
 
-उस जियोमेट्री को प्राप्त करता है जो इस डीफ़ॉर्मर का स्वामी है
+इस deformer का स्वामी जियोमेट्री को प्राप्त करता है
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer

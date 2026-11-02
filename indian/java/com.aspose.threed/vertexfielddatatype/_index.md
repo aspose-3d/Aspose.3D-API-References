@@ -1,6 +1,6 @@
 ---
 title: "VertexFieldDataType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "वर्टेक्स फ़ील्ड्स डेटा प्रकार"
 type: docs
 weight: 228
@@ -13,10 +13,10 @@ java.lang.Object
 public final class VertexFieldDataType
 ```
 
-वर्टेक्स फ़ील्ड का डेटा प्रकार
-## कंस्ट्रक्टर
+वर्टेक्स फ़ील्ड का डेटा टाइप
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [VertexFieldDataType()](#VertexFieldDataType--) |  |
 ## फ़ील्ड्स
@@ -24,18 +24,18 @@ public final class VertexFieldDataType
 | फ़ील्ड | विवरण |
 | --- | --- |
 | [BYTE_VECTOR4](#BYTE-VECTOR4) | byte[4] प्रकार, कम मेमोरी उपयोग के साथ रंग दर्शाने के लिए उपयोग किया जा सकता है। |
-| [DOUBLE](#DOUBLE) | double प्रकार |
-| [FLOAT](#FLOAT) | float प्रकार |
+| [DOUBLE](#DOUBLE) | डबल प्रकार |
+| [FLOAT](#FLOAT) | फ़्लोट प्रकार |
 | [F_VECTOR2](#F-VECTOR2) | [FVector2](../../com.aspose.threed/fvector2) प्रकार |
 | [F_VECTOR3](#F-VECTOR3) | [FVector3](../../com.aspose.threed/fvector3) प्रकार |
 | [F_VECTOR4](#F-VECTOR4) | [FVector4](../../com.aspose.threed/fvector4) प्रकार |
-| [INT16](#INT16) | short प्रकार |
-| [INT32](#INT32) | int प्रकार |
-| [INT64](#INT64) | long प्रकार |
-| [INT8](#INT8) | byte प्रकार |
+| [INT16](#INT16) | शॉर्ट प्रकार |
+| [INT32](#INT32) | इंट प्रकार |
+| [INT64](#INT64) | लॉन्ग प्रकार |
+| [INT8](#INT8) | बाइट प्रकार |
 | [VECTOR2](#VECTOR2) | [Vector2](../../com.aspose.threed/vector2) प्रकार |
-| [VECTOR3](#VECTOR3) | [Vector3](../../com.aspose.threed/vector3) का प्रकार |
-| [VECTOR4](#VECTOR4) | [Vector4](../../com.aspose.threed/vector4) का प्रकार |
+| [VECTOR3](#VECTOR3) | प्रकार [Vector3](../../com.aspose.threed/vector3) |
+| [VECTOR4](#VECTOR4) | प्रकार [Vector4](../../com.aspose.threed/vector4) |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -69,7 +69,7 @@ public static final int DOUBLE
 ```
 
 
-double प्रकार
+डबल प्रकार
 
 ### FLOAT {#FLOAT}
 ```
@@ -77,7 +77,7 @@ public static final int FLOAT
 ```
 
 
-float प्रकार
+फ़्लोट प्रकार
 
 ### F_VECTOR2 {#F-VECTOR2}
 ```
@@ -109,7 +109,7 @@ public static final int INT16
 ```
 
 
-short प्रकार
+शॉर्ट प्रकार
 
 ### INT32 {#INT32}
 ```
@@ -117,7 +117,7 @@ public static final int INT32
 ```
 
 
-int प्रकार
+इंट प्रकार
 
 ### INT64 {#INT64}
 ```
@@ -125,7 +125,7 @@ public static final int INT64
 ```
 
 
-long प्रकार
+लॉन्ग प्रकार
 
 ### INT8 {#INT8}
 ```
@@ -133,7 +133,7 @@ public static final int INT8
 ```
 
 
-byte प्रकार
+बाइट प्रकार
 
 ### VECTOR2 {#VECTOR2}
 ```
@@ -149,7 +149,7 @@ public static final int VECTOR3
 ```
 
 
-[Vector3](../../com.aspose.threed/vector3) का प्रकार
+प्रकार [Vector3](../../com.aspose.threed/vector3)
 
 ### VECTOR4 {#VECTOR4}
 ```
@@ -157,7 +157,7 @@ public static final int VECTOR4
 ```
 
 
-[Vector4](../../com.aspose.threed/vector4) का प्रकार
+प्रकार [Vector4](../../com.aspose.threed/vector4)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

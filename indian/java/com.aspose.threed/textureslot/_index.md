@@ -1,7 +1,7 @@
 ---
 title: "TextureSlot"
-second_title: "Aspose.3D for Java API Reference"
-description: "Texture slot को सामग्री उदाहरण के माध्यम से गिना जा सकता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "टेक्सचर स्लॉट को सामग्री उदाहरण के माध्यम से गिना जा सकता है।"
 type: docs
 weight: 188
 url: /hi/java/com.aspose.threed/textureslot/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureSlot
 ```
 
-Texture slot को [Material](../../com.aspose.threed/material) में, सामग्री उदाहरण के माध्यम से गिना जा सकता है। **Example:**
+टेक्सचर स्लॉट [Material](../../com.aspose.threed/material) में, सामग्री उदाहरण के माध्यम से गिना जा सकता है। **Example:**
 
 ```
 var mat = new LambertMaterial();

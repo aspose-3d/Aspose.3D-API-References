@@ -1,7 +1,7 @@
 ---
 title: "MemoryStream"
-second_title: "Aspose.3D for Java API Reference"
-description: "6/13/2017 को lexchou द्वारा बनाया गया।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "lexchou द्वारा 6/13/2017 को बनाया गया।"
 type: docs
 weight: 101
 url: /hi/java/com.aspose.threed/memorystream/
@@ -16,10 +16,10 @@ java.lang.AutoCloseable
 public class MemoryStream extends Stream implements AutoCloseable
 ```
 
-6/13/2017 को lexchou द्वारा बनाया गया।
-## कंस्ट्रक्टर
+lexchou द्वारा 6/13/2017 को बनाया गया।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [MemoryStream()](#MemoryStream--) |  |
 | [MemoryStream(int capacity)](#MemoryStream-int-) |  |
@@ -54,7 +54,7 @@ public class MemoryStream extends Stream implements AutoCloseable
 | [read(ByteSpan bytes)](#read-com.aspose.threed.ByteSpan-) |  |
 | [readByte()](#readByte--) |  |
 | [seek(long offset, int seek)](#seek-long-int-) |  |
-| [setCapacity(int cap)](#setCapacity-int-) | क्षमता को निर्दिष्ट मान पर सेट करता है |
+| [setCapacity(int cap)](#setCapacity-int-) | निर्दिष्ट मान पर क्षमता सेट करता है |
 | [setLength(long len)](#setLength-long-) |  |
 | [toArray()](#toArray--) |  |
 | [toString()](#toString--) |  |
@@ -335,12 +335,12 @@ public void setCapacity(int cap)
 ```
 
 
-क्षमता को निर्दिष्ट मान पर सेट करता है
+निर्दिष्ट मान पर क्षमता सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| cap | int | मेमोरी स्ट्रीम की नई क्षमता. |
+| cap | int | मेमोरी स्ट्रीम की नई क्षमता। |
 
 ### setLength(long len) {#setLength-long-}
 ```

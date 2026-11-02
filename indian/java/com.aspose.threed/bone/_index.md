@@ -1,6 +1,6 @@
 ---
 title: "बोन"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "एक बोन ज्योमेट्री के कंट्रोल पॉइंट के उपसमुच्चय को परिभाषित करता है और प्रत्येक कंट्रोल पॉइंट के लिए ब्लेंड वेट निर्धारित करता है।"
 type: docs
 weight: 20
@@ -14,12 +14,12 @@ public class Bone extends A3DObject
 ```
 
 एक बोन ज्योमेट्री के कंट्रोल पॉइंट के उपसमुच्चय को परिभाषित करता है, और प्रत्येक कंट्रोल पॉइंट के लिए ब्लेंड वेट निर्धारित करता है। [Bone](../../com.aspose.threed/bone) ऑब्जेक्ट को सीधे उपयोग नहीं किया जा सकता, एक [SkinDeformer](../../com.aspose.threed/skindeformer) इंस्टेंस का उपयोग ज्योमेट्री को विकृत करने के लिए किया जाता है, और [SkinDeformer](../../com.aspose.threed/skindeformer) कई बोंस के सेट के साथ आता है, प्रत्येक बोन एक नोड से जुड़ा होता है। नोट: एक ज्योमेट्री का कंट्रोल पॉइंट एक से अधिक बोंस से बंधा हो सकता है।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Bone(String name)](#Bone-java.lang.String-) | [Bone](../../com.aspose.threed/bone) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [Bone()](#Bone--) | [Bone](../../com.aspose.threed/bone) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Bone(String name)](#Bone-java.lang.String-) | [Bone](../../com.aspose.threed/bone) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Bone()](#Bone--) | [Bone](../../com.aspose.threed/bone) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -34,22 +34,22 @@ public class Bone extends A3DObject
 | [getNode()](#getNode--) | नोड प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getTransform()](#getTransform--) | हड्डी को शामिल करने वाले नोड का ट्रांसफ़ॉर्म मैट्रिक्स प्राप्त करता है। |
-| [getWeight(int index)](#getWeight-int-) | निर्दिष्ट इंडेक्स द्वारा नियंत्रक बिंदु के लिए वजन प्राप्त करता है |
+| [getTransform()](#getTransform--) | हड्डी को सम्मिलित करने वाले नोड का ट्रांसफ़ॉर्म मैट्रिक्स प्राप्त करता है। |
+| [getWeight(int index)](#getWeight-int-) | निर्दिष्ट इंडेक्स द्वारा नियंत्रण बिंदु के लिए वजन प्राप्त करता है |
 | [getWeightCount()](#getWeightCount--) | वजन की गिनती प्राप्त करता है, यह स्वचालित रूप से [setWeight](../../com.aspose.threed/bone\#setWeight) द्वारा विस्तारित किया जाता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [set(int index, double value)](#set-int-double-) | निर्दिष्ट नियंत्रक बिंदु का ब्लेंड वजन सेट करता है |
+| [set(int index, double value)](#set-int-double-) | निर्दिष्ट नियंत्रण बिंदु का ब्लेंड वजन सेट करता है |
 | [setBoneTransform(Matrix4 value)](#setBoneTransform-com.aspose.threed.Matrix4-) | हड्डी का ट्रांसफ़ॉर्म मैट्रिक्स सेट करता है। |
 | [setLinkMode(BoneLinkMode value)](#setLinkMode-com.aspose.threed.BoneLinkMode-) | हड्डी का लिंक मोड यह दर्शाता है कि हड्डी को पदानुक्रमित संरचना में उसके पैरेंट हड्डी से कैसे जोड़ा या लिंक किया जाता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setNode(Node value)](#setNode-com.aspose.threed.Node-) | नोड सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setTransform(Matrix4 value)](#setTransform-com.aspose.threed.Matrix4-) | हड्डी को शामिल करने वाले नोड का ट्रांसफ़ॉर्म मैट्रिक्स सेट करता है। |
-| [setWeight(int index, double weight)](#setWeight-int-double-) | इंडेक्स द्वारा निर्दिष्ट नियंत्रक बिंदु के लिए वजन सेट करता है |
+| [setTransform(Matrix4 value)](#setTransform-com.aspose.threed.Matrix4-) | हड्डी को सम्मिलित करने वाले नोड का ट्रांसफ़ॉर्म मैट्रिक्स सेट करता है। |
+| [setWeight(int index, double weight)](#setWeight-int-double-) | इंडेक्स द्वारा निर्दिष्ट नियंत्रण बिंदु के लिए वजन सेट करता है |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,7 +60,7 @@ public Bone(String name)
 ```
 
 
-[Bone](../../com.aspose.threed/bone) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है।
+[Bone](../../com.aspose.threed/bone) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -73,7 +73,7 @@ public Bone()
 ```
 
 
-[Bone](../../com.aspose.threed/bone) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है।
+[Bone](../../com.aspose.threed/bone) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -96,7 +96,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -166,7 +166,7 @@ public Node getNode()
 ```
 
 
-नोड प्राप्त करता है। हड्डी नोड वह हड्डी है जिससे त्वचा जुड़ी होती है, [SkinDeformer](../../com.aspose.threed/skindeformer) हड्डी नोड का उपयोग नियंत्रक बिंदुओं के विस्थापन को प्रभावित करने के लिए करेगा। हड्डी नोड आमतौर पर एक [Skeleton](../../com.aspose.threed/skeleton) से जुड़ा होता है, लेकिन यह आवश्यक नहीं है। जुड़ा हुआ [Skeleton](../../com.aspose.threed/skeleton) आमतौर पर DCC सॉफ़्टवेयर द्वारा उपयोगकर्ता को कंकाल दिखाने के लिए उपयोग किया जाता है।
+नोड प्राप्त करता है। हड्डी नोड वह हड्डी है जिससे त्वचा जुड़ी होती है, [SkinDeformer](../../com.aspose.threed/skindeformer) हड्डी नोड का उपयोग नियंत्रण बिंदुओं के विस्थापन को प्रभावित करने के लिए करेगा। हड्डी नोड आमतौर पर एक [Skeleton](../../com.aspose.threed/skeleton) से जुड़ा होता है, लेकिन यह आवश्यक नहीं है। जुड़ा हुआ [Skeleton](../../com.aspose.threed/skeleton) आमतौर पर DCC सॉफ़्टवेयर द्वारा उपयोगकर्ता को कंकाल दिखाने के लिए उपयोग किया जाता है।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the node. The bone node is the bone which skin attached to, the [SkinDeformer](../../com.aspose.threed/skindeformer) will use bone node to influence the displacement of the control points. Bone node usually has a [Skeleton](../../com.aspose.threed/skeleton) attached, but it's not required. Attached [Skeleton](../../com.aspose.threed/skeleton) is usually used by DCC software to show skeleton to user.
@@ -201,7 +201,7 @@ public Matrix4 getTransform()
 ```
 
 
-हड्डी को शामिल करने वाले नोड का ट्रांसफ़ॉर्म मैट्रिक्स प्राप्त करता है।
+हड्डी को सम्मिलित करने वाले नोड का ट्रांसफ़ॉर्म मैट्रिक्स प्राप्त करता है।
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix of the node containing the bone.
@@ -211,12 +211,12 @@ public double getWeight(int index)
 ```
 
 
-निर्दिष्ट इंडेक्स द्वारा नियंत्रक बिंदु के लिए वजन प्राप्त करता है
+निर्दिष्ट इंडेक्स द्वारा नियंत्रण बिंदु के लिए वजन प्राप्त करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| सूचकांक | int | नियंत्रक बिंदु का इंडेक्स |
+| सूचकांक | int | नियंत्रण बिंदु का इंडेक्स |
 
 **Returns:**
 double - निर्दिष्ट इंडेक्स पर वजन, या यदि इंडेक्स अमान्य है तो 0
@@ -292,7 +292,7 @@ public void set(int index, double value)
 ```
 
 
-निर्दिष्ट नियंत्रक बिंदु का ब्लेंड वजन सेट करता है
+निर्दिष्ट नियंत्रण बिंदु का ब्लेंड वजन सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -345,7 +345,7 @@ public void setNode(Node value)
 ```
 
 
-नोड सेट करता है। हड्डी नोड वह हड्डी है जिससे त्वचा जुड़ी होती है, [SkinDeformer](../../com.aspose.threed/skindeformer) हड्डी नोड का उपयोग नियंत्रक बिंदुओं के विस्थापन को प्रभावित करने के लिए करेगा। हड्डी नोड आमतौर पर एक [Skeleton](../../com.aspose.threed/skeleton) से जुड़ा होता है, लेकिन यह आवश्यक नहीं है। जुड़ा हुआ [Skeleton](../../com.aspose.threed/skeleton) आमतौर पर DCC सॉफ़्टवेयर द्वारा उपयोगकर्ता को कंकाल दिखाने के लिए उपयोग किया जाता है।
+नोड सेट करता है। हड्डी नोड वह हड्डी है जिससे त्वचा जुड़ी होती है, [SkinDeformer](../../com.aspose.threed/skindeformer) हड्डी नोड का उपयोग नियंत्रण बिंदुओं के विस्थापन को प्रभावित करने के लिए करेगा। हड्डी नोड आमतौर पर एक [Skeleton](../../com.aspose.threed/skeleton) से जुड़ा होता है, लेकिन यह आवश्यक नहीं है। जुड़ा हुआ [Skeleton](../../com.aspose.threed/skeleton) आमतौर पर DCC सॉफ़्टवेयर द्वारा उपयोगकर्ता को कंकाल दिखाने के लिए उपयोग किया जाता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -372,7 +372,7 @@ public void setTransform(Matrix4 value)
 ```
 
 
-हड्डी को शामिल करने वाले नोड का ट्रांसफ़ॉर्म मैट्रिक्स सेट करता है।
+हड्डी को सम्मिलित करने वाले नोड का ट्रांसफ़ॉर्म मैट्रिक्स सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -385,12 +385,12 @@ public void setWeight(int index, double weight)
 ```
 
 
-इंडेक्स द्वारा निर्दिष्ट नियंत्रक बिंदु के लिए वजन सेट करता है
+इंडेक्स द्वारा निर्दिष्ट नियंत्रण बिंदु के लिए वजन सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| सूचकांक | int | नियंत्रक बिंदु का इंडेक्स |
+| सूचकांक | int | नियंत्रण बिंदु का इंडेक्स |
 | वजन | double | नया वजन |
 
 ### toString() {#toString--}

@@ -1,7 +1,7 @@
 ---
 title: "KeyFrame"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक कीफ़्रेम मुख्यतः समय और मान द्वारा परिभाषित होता है; कुछ इंटरपोलेशन प्रकारों जैसे टैंजेंट/टेंशन/बायस/कंटिन्यूटी का उपयोग अंतिम सैंपल किए गए मान की गणना में भी किया जाता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक key frame मुख्यतः समय और मान द्वारा परिभाषित होता है; कुछ इंटरपोलेशन प्रकारों जैसे टैंजेंट/टेंशन/बायस/कंटीन्यूटी का उपयोग अंतिम सैंपल किए गए मान की गणना में भी किया जाता है।"
 type: docs
 weight: 89
 url: /hi/java/com.aspose.threed/keyframe/
@@ -13,49 +13,49 @@ java.lang.Object
 public class KeyFrame
 ```
 
-एक कीफ़्रेम मुख्यतः समय और मान द्वारा परिभाषित होता है, कुछ इंटरपोलेशन प्रकारों जैसे टैंजेंट/टेंशन/बायस/कंटिन्यूटी का उपयोग अंतिम सैंपल किए गए मान की गणना में भी किया जाता है। गैर-कीफ़्रेम समय स्थितियों में सैंपल किए गए मान पिछले और अगले कीफ़्रेम के बीच इंटरपोलेट किए जाते हैं। पहले/आखिरी कीफ़्रेम से पहले/बाद के मान को [Extrapolation](../../com.aspose.threed/extrapolation) क्लास द्वारा गणना किया जाता है।
-## कंस्ट्रक्टर
+एक key frame मुख्यतः समय और मान द्वारा परिभाषित होता है, कुछ इंटरपोलेशन प्रकारों के लिए टैंजेंट/टेंशन/बायस/कंटीन्यूटी का उपयोग अंतिम सैंपल किए गए मान की गणना में भी किया जाता है। गैर-key-frame समय स्थिति में सैंपल किए गए मानों को पिछले और अगले key-frames के बीच key-frames द्वारा इंटरपोलेट किया जाता है। पहले/अंतिम key-frame से पहले/बाद के मान को [Extrapolation](../../com.aspose.threed/extrapolation) क्लास द्वारा गणना किया जाता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [KeyFrame(KeyframeSequence curve, double time)](#KeyFrame-com.aspose.threed.KeyframeSequence-double-) | निर्दिष्ट वक्र पर एक नया कीफ़्रेम बनाएं। |
+| [KeyFrame(KeyframeSequence curve, double time)](#KeyFrame-com.aspose.threed.KeyframeSequence-double-) | निर्दिष्ट कर्व पर नया key frame बनाएं |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBias()](#getBias--) | TCB स्प्लाइन में उपयोग किया गया बायस प्राप्त करता है। |
+| [getBias()](#getBias--) | TCB स्प्लाइन में उपयोग किए गए बायस को प्राप्त करता है |
 | [getClass()](#getClass--) |  |
-| [getContinuity()](#getContinuity--) | TCB स्प्लाइन में उपयोग की गई कंटिन्यूटी प्राप्त करता है। |
-| [getFlat()](#getFlat--) | यदि कीफ़्रेम फ्लैट है तो उसे प्राप्त या सेट करें। |
-| [getIndependentTangent()](#getIndependentTangent--) | बाहरी और अगला इन टैंजेंट स्वतंत्र होते हैं, इसे प्राप्त करता है। |
-| [getInterpolation()](#getInterpolation--) | कीफ़्रेम का इंटरपोलेशन प्रकार प्राप्त करता है, list.data[index] निर्धारित करता है कि सैंपल किया गया मान कैसे गणना किया जाता है। |
-| [getNextInTangent()](#getNextInTangent--) | इस कीफ़्रेम पर अगला इन (बायाँ) टैंजेंट प्राप्त करता है। |
-| [getNextInWeight()](#getNextInWeight--) | इस कीफ़्रेम पर अगला इन (बायाँ) वज़न प्राप्त करता है। |
-| [getOutTangent()](#getOutTangent--) | इस कीफ़्रेम पर आउट (दायाँ) टैंजेंट प्राप्त करता है। |
-| [getOutWeight()](#getOutWeight--) | इस कीफ़्रेम पर आउट (दायाँ) वज़न प्राप्त करता है। |
-| [getStepMode()](#getStepMode--) | कीफ़्रेम का स्टेप मोड प्राप्त करता है। |
-| [getTangentWeightMode()](#getTangentWeightMode--) | कीफ़्रेम का टैंजेंट वज़न मोड प्राप्त करता है। |
-| [getTension()](#getTension--) | TCB स्प्लाइन में उपयोग किया गया टेंशन प्राप्त करता है। |
-| [getTime()](#getTime--) | list.data[index] कीफ़्रेम की समय स्थिति प्राप्त करता है, जिसे सेकंड में मापा जाता है। |
-| [getTimeIndependentTangent()](#getTimeIndependentTangent--) | टैंजेंट समय-स्वतंत्र है, इसे प्राप्त करता है। |
-| [getValue()](#getValue--) | कीफ़्रेम का मान प्राप्त करता है। |
+| [getContinuity()](#getContinuity--) | TCB स्प्लाइन में उपयोग की गई कंटीन्यूटी को प्राप्त करता है |
+| [getFlat()](#getFlat--) | यदि key frame सपाट है तो प्राप्त करें या सेट करें। |
+| [getIndependentTangent()](#getIndependentTangent--) | आउट और अगले इन टैंजेंट स्वतंत्र हैं या नहीं, इसे प्राप्त करता है। |
+| [getInterpolation()](#getInterpolation--) | key का इंटरपोलेशन प्रकार प्राप्त करता है, list.data[index] निर्धारित करता है कि सैंपल किया गया मान कैसे गणना किया जाता है। |
+| [getNextInTangent()](#getNextInTangent--) | इस key frame पर अगला इन (बायाँ) टैंजेंट प्राप्त करता है। |
+| [getNextInWeight()](#getNextInWeight--) | इस key frame पर अगला इन (बायाँ) वज़न प्राप्त करता है। |
+| [getOutTangent()](#getOutTangent--) | इस key frame पर आउट (दायाँ) टैंजेंट प्राप्त करता है। |
+| [getOutWeight()](#getOutWeight--) | इस key frame पर आउट (दायाँ) वज़न प्राप्त करता है। |
+| [getStepMode()](#getStepMode--) | key का स्टेप मोड प्राप्त करता है। |
+| [getTangentWeightMode()](#getTangentWeightMode--) | key का टैंजेंट वज़न मोड प्राप्त करता है। |
+| [getTension()](#getTension--) | TCB स्प्लाइन में उपयोग किए गए टेंशन को प्राप्त करता है |
+| [getTime()](#getTime--) | list.data[index] key frame का समय स्थिति प्राप्त करता है, जो सेकंड में मापा जाता है। |
+| [getTimeIndependentTangent()](#getTimeIndependentTangent--) | टैंजेंट समय-स्वतंत्र है, इसे प्राप्त करता है |
+| [getValue()](#getValue--) | key-frame का मान प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBias(float value)](#setBias-float-) | TCB स्प्लाइन में उपयोग किया गया बायस सेट करता है। |
-| [setContinuity(float value)](#setContinuity-float-) | TCB स्प्लाइन में उपयोग की गई कंटिन्यूटी सेट करता है। |
-| [setFlat(boolean value)](#setFlat-boolean-) | यदि कीफ़्रेम फ्लैट है तो उसे प्राप्त या सेट करें। |
-| [setIndependentTangent(boolean value)](#setIndependentTangent-boolean-) | आउट और अगले इन टैन्जेंट को स्वतंत्र सेट करता है। |
+| [setBias(float value)](#setBias-float-) | TCB स्प्लाइन में उपयोग किए गए बायस को सेट करता है |
+| [setContinuity(float value)](#setContinuity-float-) | TCB स्प्लाइन में उपयोग की गई कंटीन्यूटी को सेट करता है |
+| [setFlat(boolean value)](#setFlat-boolean-) | यदि key frame सपाट है तो प्राप्त करें या सेट करें। |
+| [setIndependentTangent(boolean value)](#setIndependentTangent-boolean-) | सेट करता है कि आउट और अगला इन टैन्जेंट स्वतंत्र हैं। |
 | [setInterpolation(Interpolation value)](#setInterpolation-com.aspose.threed.Interpolation-) | की की इंटरपोलेशन प्रकार सेट करता है, list.data[index] निर्धारित करता है कि सैंपल किया गया मान कैसे गणना किया जाता है। |
-| [setNextInTangent(Vector2 value)](#setNextInTangent-com.aspose.threed.Vector2-) | इस की फ्रेम पर अगले इन (बाएँ) टैन्जेंट को सेट करता है। |
-| [setNextInWeight(float value)](#setNextInWeight-float-) | इस की फ्रेम पर अगले इन (बाएँ) वजन को सेट करता है। |
-| [setOutTangent(Vector2 value)](#setOutTangent-com.aspose.threed.Vector2-) | इस की फ्रेम पर आउट (दाएँ) टैन्जेंट को सेट करता है। |
-| [setOutWeight(float value)](#setOutWeight-float-) | इस की फ्रेम पर आउट (दाएँ) वजन को सेट करता है। |
+| [setNextInTangent(Vector2 value)](#setNextInTangent-com.aspose.threed.Vector2-) | इस की फ्रेम पर अगला इन (बायाँ) टैन्जेंट सेट करता है। |
+| [setNextInWeight(float value)](#setNextInWeight-float-) | इस की फ्रेम पर अगला इन (बायाँ) वजन सेट करता है। |
+| [setOutTangent(Vector2 value)](#setOutTangent-com.aspose.threed.Vector2-) | इस की फ्रेम पर आउट (दायाँ) टैन्जेंट सेट करता है। |
+| [setOutWeight(float value)](#setOutWeight-float-) | इस की फ्रेम पर आउट (दायाँ) वजन सेट करता है। |
 | [setStepMode(StepMode value)](#setStepMode-com.aspose.threed.StepMode-) | की की स्टेप मोड सेट करता है। |
 | [setTangentWeightMode(int value)](#setTangentWeightMode-int-) | की की टैन्जेंट वजन मोड सेट करता है। |
 | [setTension(float value)](#setTension-float-) | TCB स्प्लाइन में उपयोग किए गए टेंशन को सेट करता है। |
-| [setTime(double value)](#setTime-double-) | list.data[index] की फ्रेम की समय स्थिति सेट करता है, जिसे सेकंड में मापा जाता है। |
+| [setTime(double value)](#setTime-double-) | list.data[index] की फ्रेम की समय स्थिति सेट करता है, जो सेकंड में मापी जाती है। |
 | [setTimeIndependentTangent(boolean value)](#setTimeIndependentTangent-boolean-) | टैन्जेंट को समय-स्वतंत्र सेट करता है। |
 | [setValue(float value)](#setValue-float-) | की-फ़्रेम का मान सेट करता है। |
 | [toString()](#toString--) | की फ्रेम का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
@@ -68,7 +68,7 @@ public KeyFrame(KeyframeSequence curve, double time)
 ```
 
 
-निर्दिष्ट वक्र पर एक नया कीफ़्रेम बनाएं।
+निर्दिष्ट कर्व पर नया key frame बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -97,10 +97,10 @@ public float getBias()
 ```
 
 
-TCB स्प्लाइन में उपयोग किया गया बायस प्राप्त करता है।
+TCB स्प्लाइन में उपयोग किए गए बायस को प्राप्त करता है
 
 **Returns:**
-float - TCB स्प्लाइन में उपयोग किया गया बायस।
+float - TCB स्प्लाइन में उपयोग किया गया बायस
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -117,37 +117,37 @@ public float getContinuity()
 ```
 
 
-TCB स्प्लाइन में उपयोग की गई कंटिन्यूटी प्राप्त करता है।
+TCB स्प्लाइन में उपयोग की गई कंटीन्यूटी को प्राप्त करता है
 
 **Returns:**
-float - TCB स्प्लाइन में उपयोग की गई निरंतरता।
+float - TCB स्प्लाइन में उपयोग की गई निरंतरता
 ### getFlat() {#getFlat--}
 ```
 public boolean getFlat()
 ```
 
 
-यदि की फ्रेम फ्लैट है तो प्राप्त करें या सेट करें। यदि अगले या पिछले की फ्रेम का मान समान है तो की फ्रेम फ्लैट होना चाहिए। फ्लैट की फ्रेम में फ्लैट टैन्जेंट और स्थिर इंटरपोलेशन होते हैं।
+की फ्रेम फ्लैट है या नहीं प्राप्त करें या सेट करें। यदि अगला या पिछला की फ्रेम समान मान रखता है तो की फ्रेम फ्लैट होना चाहिए। फ्लैट की फ्रेम के टैन्जेंट फ्लैट होते हैं और इंटरपोलेशन स्थिर होता है।
 
 **Returns:**
-boolean - यदि की फ्रेम फ्लैट है तो प्राप्त करें या सेट करें। यदि अगले या पिछले की फ्रेम का मान समान है तो की फ्रेम फ्लैट होना चाहिए। फ्लैट की फ्रेम में फ्लैट टैन्जेंट और स्थिर इंटरपोलेशन होते हैं।
+boolean - प्राप्त करें या सेट करें कि की फ्रेम फ्लैट है या नहीं। यदि अगला या पिछला की फ्रेम समान मान रखता है तो की फ्रेम फ्लैट होना चाहिए। फ्लैट की फ्रेम के टैन्जेंट फ्लैट होते हैं और इंटरपोलेशन स्थिर होता है।
 ### getIndependentTangent() {#getIndependentTangent--}
 ```
 public boolean getIndependentTangent()
 ```
 
 
-बाहरी और अगला इन टैंजेंट स्वतंत्र होते हैं, इसे प्राप्त करता है।
+आउट और अगले इन टैंजेंट स्वतंत्र हैं या नहीं, इसे प्राप्त करता है।
 
 **Returns:**
-boolean - आउट और अगले इन टैन्जेंट स्वतंत्र हैं।
+boolean - आउट और अगला इन टैन्जेंट स्वतंत्र हैं।
 ### getInterpolation() {#getInterpolation--}
 ```
 public Interpolation getInterpolation()
 ```
 
 
-कीफ़्रेम का इंटरपोलेशन प्रकार प्राप्त करता है, list.data[index] निर्धारित करता है कि सैंपल किया गया मान कैसे गणना किया जाता है।
+key का इंटरपोलेशन प्रकार प्राप्त करता है, list.data[index] निर्धारित करता है कि सैंपल किया गया मान कैसे गणना किया जाता है।
 
 **Returns:**
 [Interpolation](../../com.aspose.threed/interpolation) - the key's interpolation type, list.data[index] defines the algorithm how the sampled value is calculated.
@@ -157,7 +157,7 @@ public Vector2 getNextInTangent()
 ```
 
 
-इस कीफ़्रेम पर अगला इन (बायाँ) टैंजेंट प्राप्त करता है।
+इस key frame पर अगला इन (बायाँ) टैंजेंट प्राप्त करता है।
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the next in(left) tangent on this key frame.
@@ -167,17 +167,17 @@ public float getNextInWeight()
 ```
 
 
-इस कीफ़्रेम पर अगला इन (बायाँ) वज़न प्राप्त करता है।
+इस key frame पर अगला इन (बायाँ) वज़न प्राप्त करता है।
 
 **Returns:**
-float - इस की फ्रेम पर अगले इन (बाएँ) वजन।
+float - इस की फ्रेम पर अगला इन (बायाँ) वजन।
 ### getOutTangent() {#getOutTangent--}
 ```
 public Vector2 getOutTangent()
 ```
 
 
-इस कीफ़्रेम पर आउट (दायाँ) टैंजेंट प्राप्त करता है।
+इस key frame पर आउट (दायाँ) टैंजेंट प्राप्त करता है।
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the out(right) tangent on this key frame.
@@ -187,17 +187,17 @@ public float getOutWeight()
 ```
 
 
-इस कीफ़्रेम पर आउट (दायाँ) वज़न प्राप्त करता है।
+इस key frame पर आउट (दायाँ) वज़न प्राप्त करता है।
 
 **Returns:**
-float - इस की फ्रेम पर आउट (दाएँ) वजन।
+float - इस की फ्रेम पर आउट (दायाँ) वजन।
 ### getStepMode() {#getStepMode--}
 ```
 public StepMode getStepMode()
 ```
 
 
-की की स्टेप मोड प्राप्त करता है। यदि इंटरपोलेशन प्रकार [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT) है, तो list.data[index] तय करता है कि इंटरपोलेशन के दौरान कौन से की-फ़्रेम का मान उपयोग किया जाएगा। एक [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) का अर्थ है कि बाएँ की-फ़्रेम का मान उपयोग होगा। एक [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) का अर्थ है कि अगले दाएँ की-फ़्रेम का मान उपयोग होगा।
+की का स्टेप मोड प्राप्त करता है। यदि इंटरपोलेशन प्रकार [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT) है, तो list.data[index] तय करता है कि इंटरपोलेशन के दौरान कौन से की-फ़्रेम का मान उपयोग किया जाएगा। एक [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) का अर्थ है कि बायाँ की-फ़्रेम का मान उपयोग होगा। एक [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) का अर्थ है कि अगला दायाँ की-फ़्रेम का मान उपयोग होगा।
 
 **Returns:**
 [StepMode](../../com.aspose.threed/stepmode) - the key's step mode. If the interpolation type is [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT), list.data[index] decides which key-frame's value will be used during interpolation. A [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) means the left key-frame's value will be used A [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) means the next right key-frame's value will be used
@@ -207,17 +207,17 @@ public int getTangentWeightMode()
 ```
 
 
-की की टैन्जेंट वजन मोड प्राप्त करता है। आउट टैन्जेंट या अगले इन टैन्जेंट को सही [WeightedMode](../../com.aspose.threed/weightedmode) चुनकर कस्टमाइज़ किया जा सकता है।
+की का टैन्जेंट वजन मोड प्राप्त करता है। आउट टैन्जेंट या अगला इन टैन्जेंट सही [WeightedMode](../../com.aspose.threed/weightedmode) चुनकर कस्टमाइज़ किया जा सकता है।
 
 **Returns:**
-int - की की टैन्जेंट वजन मोड। आउट टैन्जेंट या अगले इन टैन्जेंट को सही [WeightedMode](../../com.aspose.threed/weightedmode) चुनकर कस्टमाइज़ किया जा सकता है।
+int - की का टैन्जेंट वजन मोड। आउट टैन्जेंट या अगला इन टैन्जेंट सही [WeightedMode](../../com.aspose.threed/weightedmode) चुनकर कस्टमाइज़ किया जा सकता है।
 ### getTension() {#getTension--}
 ```
 public float getTension()
 ```
 
 
-TCB स्प्लाइन में उपयोग किया गया टेंशन प्राप्त करता है।
+TCB स्प्लाइन में उपयोग किए गए टेंशन को प्राप्त करता है
 
 **Returns:**
 float - TCB स्प्लाइन में उपयोग किया गया तनाव
@@ -227,7 +227,7 @@ public double getTime()
 ```
 
 
-list.data[index] कीफ़्रेम की समय स्थिति प्राप्त करता है, जिसे सेकंड में मापा जाता है।
+list.data[index] key frame का समय स्थिति प्राप्त करता है, जो सेकंड में मापा जाता है।
 
 **Returns:**
 double - list.data[index] कुंजी फ्रेम का समय स्थिति, सेकंड में मापा गया।
@@ -237,7 +237,7 @@ public boolean getTimeIndependentTangent()
 ```
 
 
-टैंजेंट समय-स्वतंत्र है, इसे प्राप्त करता है।
+टैंजेंट समय-स्वतंत्र है, इसे प्राप्त करता है
 
 **Returns:**
 boolean - टैन्जेंट समय-स्वतंत्र है
@@ -247,7 +247,7 @@ public float getValue()
 ```
 
 
-कीफ़्रेम का मान प्राप्त करता है।
+key-frame का मान प्राप्त करता है।
 
 **Returns:**
 float - कुंजी-फ़्रेम का मान।
@@ -283,7 +283,7 @@ public void setBias(float value)
 ```
 
 
-TCB स्प्लाइन में उपयोग किया गया बायस सेट करता है।
+TCB स्प्लाइन में उपयोग किए गए बायस को सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -296,7 +296,7 @@ public void setContinuity(float value)
 ```
 
 
-TCB स्प्लाइन में उपयोग की गई कंटिन्यूटी सेट करता है।
+TCB स्प्लाइन में उपयोग की गई कंटीन्यूटी को सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -309,7 +309,7 @@ public void setFlat(boolean value)
 ```
 
 
-यदि की फ्रेम फ्लैट है तो प्राप्त करें या सेट करें। यदि अगले या पिछले की फ्रेम का मान समान है तो की फ्रेम फ्लैट होना चाहिए। फ्लैट की फ्रेम में फ्लैट टैन्जेंट और स्थिर इंटरपोलेशन होते हैं।
+की फ्रेम फ्लैट है या नहीं प्राप्त करें या सेट करें। यदि अगला या पिछला की फ्रेम समान मान रखता है तो की फ्रेम फ्लैट होना चाहिए। फ्लैट की फ्रेम के टैन्जेंट फ्लैट होते हैं और इंटरपोलेशन स्थिर होता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -322,7 +322,7 @@ public void setIndependentTangent(boolean value)
 ```
 
 
-आउट और अगले इन टैन्जेंट को स्वतंत्र सेट करता है।
+सेट करता है कि आउट और अगला इन टैन्जेंट स्वतंत्र हैं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -348,7 +348,7 @@ public void setNextInTangent(Vector2 value)
 ```
 
 
-इस की फ्रेम पर अगले इन (बाएँ) टैन्जेंट को सेट करता है।
+इस की फ्रेम पर अगला इन (बायाँ) टैन्जेंट सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -361,7 +361,7 @@ public void setNextInWeight(float value)
 ```
 
 
-इस की फ्रेम पर अगले इन (बाएँ) वजन को सेट करता है।
+इस की फ्रेम पर अगला इन (बायाँ) वजन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -374,7 +374,7 @@ public void setOutTangent(Vector2 value)
 ```
 
 
-इस की फ्रेम पर आउट (दाएँ) टैन्जेंट को सेट करता है।
+इस की फ्रेम पर आउट (दायाँ) टैन्जेंट सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -387,7 +387,7 @@ public void setOutWeight(float value)
 ```
 
 
-इस की फ्रेम पर आउट (दाएँ) वजन को सेट करता है।
+इस की फ्रेम पर आउट (दायाँ) वजन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -400,7 +400,7 @@ public void setStepMode(StepMode value)
 ```
 
 
-कुंजी की स्टेप मोड सेट करता है। यदि इंटरपोलेशन प्रकार [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT) है, तो list.data[index] तय करता है कि इंटरपोलेशन के दौरान कौन से कुंजी-फ़्रेम का मान उपयोग होगा। एक [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) का अर्थ है कि बाएँ कुंजी-फ़्रेम का मान उपयोग होगा। एक [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) का अर्थ है कि अगले दाएँ कुंजी-फ़्रेम का मान उपयोग होगा।
+कुंजी की स्टेप मोड सेट करता है। यदि इंटरपोलेशन प्रकार [Interpolation.CONSTANT](../../com.aspose.threed/interpolation\#CONSTANT) है, तो list.data[index] तय करता है कि इंटरपोलेशन के दौरान कौन सा कुंजी-फ़्रेम मान उपयोग किया जाएगा। एक [StepMode.PREVIOUS\_VALUE](../../com.aspose.threed/stepmode\#PREVIOUS-VALUE) का अर्थ है कि बायाँ कुंजी-फ़्रेम मान उपयोग होगा। एक [StepMode.NEXT\_VALUE](../../com.aspose.threed/stepmode\#NEXT-VALUE) का अर्थ है कि अगला दायाँ कुंजी-फ़्रेम मान उपयोग होगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -413,7 +413,7 @@ public void setTangentWeightMode(int value)
 ```
 
 
-कुंजी की टैन्जेंट वेट मोड सेट करता है। आउट टैन्जेंट या अगला इन टैन्जेंट सही [WeightedMode](../../com.aspose.threed/weightedmode) चुनकर अनुकूलित किया जा सकता है।
+कुंजी के टैन्जेंट वेट मोड को सेट करता है। आउट टैन्जेंट या अगला इन टैन्जेंट सही [WeightedMode](../../com.aspose.threed/weightedmode) चुनकर कस्टमाइज़ किया जा सकता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -439,7 +439,7 @@ public void setTime(double value)
 ```
 
 
-list.data[index] की फ्रेम की समय स्थिति सेट करता है, जिसे सेकंड में मापा जाता है।
+list.data[index] की फ्रेम की समय स्थिति सेट करता है, जो सेकंड में मापी जाती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

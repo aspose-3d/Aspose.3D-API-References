@@ -1,6 +1,6 @@
 ---
 title: "FbxLoadOptions"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "Fbx फ़ॉर्मेट के लिए लोड विकल्प।"
 type: docs
 weight: 62
@@ -14,12 +14,12 @@ public class FbxLoadOptions extends LoadOptions
 ```
 
 Fbx फ़ॉर्मेट के लिए लोड विकल्प।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [FbxLoadOptions(FileFormat format)](#FbxLoadOptions-com.aspose.threed.FileFormat-) | का कंस्ट्रक्टर [FbxLoadOptions](../../com.aspose.threed/fbxloadoptions) |
-| [FbxLoadOptions()](#FbxLoadOptions--) | का कंस्ट्रक्टर [FbxLoadOptions](../../com.aspose.threed/fbxloadoptions) |
+| [FbxLoadOptions(FileFormat format)](#FbxLoadOptions-com.aspose.threed.FileFormat-) | [FbxLoadOptions](../../com.aspose.threed/fbxloadoptions) का कंस्ट्रक्टर |
+| [FbxLoadOptions()](#FbxLoadOptions--) | [FbxLoadOptions](../../com.aspose.threed/fbxloadoptions) का कंस्ट्रक्टर |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -28,21 +28,21 @@ Fbx फ़ॉर्मेट के लिए लोड विकल्प।
 | [getClass()](#getClass--) |  |
 | [getCompatibleMode()](#getCompatibleMode--) | संगत मोड को सक्षम करना है या नहीं, प्राप्त करता है। |
 | [getEncoding()](#getEncoding--) | टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग प्राप्त करता है। |
-| [getFileFormat()](#getFileFormat--) | वर्तमान सहेजें/लोड विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है। |
-| [getFileName()](#getFileName--) | एक्सपोर्ट/इम्पोर्ट सीन का फ़ाइल नाम। |
-| [getFileSystem()](#getFileSystem--) | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने का तरीका उपयोगकर्ता को संभालने की अनुमति देता है। |
+| [getFileFormat()](#getFileFormat--) | वर्तमान Save/Load विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है। |
+| [getFileName()](#getFileName--) | एक्सपोर्ट/इम्पोर्ट सीन की फ़ाइल नाम। |
+| [getFileSystem()](#getFileSystem--) | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है। |
 | [getFileSystemFactory()](#getFileSystemFactory--) | FileSystem के लिए फ़ैक्टरी क्लास प्राप्त करता है। |
-| [getKeepBuiltinGlobalSettings()](#getKeepBuiltinGlobalSettings--) | GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, प्राप्त करता है, जिनका मूल प्रॉपर्टी प्रतिस्थापन [AssetInfo](../../com.aspose.threed/assetinfo) में है। |
+| [getKeepBuiltinGlobalSettings()](#getKeepBuiltinGlobalSettings--) | GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, जो [AssetInfo](../../com.aspose.threed/assetinfo) में मूल प्रॉपर्टी प्रतिस्थापन रखते हैं, प्राप्त करता है। |
 | [getLookupPaths()](#getLookupPaths--) | OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को लोड करने के लिए बाहरी फ़ाइल खोजने की अनुमति देंगे। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCompatibleMode(boolean value)](#setCompatibleMode-boolean-) | संगत मोड को सक्षम करना है या नहीं, सेट करता है। |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग सेट करता है। |
-| [setFileName(String value)](#setFileName-java.lang.String-) | एक्सपोर्ट/इम्पोर्ट सीन का फ़ाइल नाम। |
-| [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने का तरीका उपयोगकर्ता को संभालने की अनुमति देता है। |
+| [setFileName(String value)](#setFileName-java.lang.String-) | एक्सपोर्ट/इम्पोर्ट सीन की फ़ाइल नाम। |
+| [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है। |
 | [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | FileSystem के लिए फ़ैक्टरी क्लास सेट करता है। |
-| [setKeepBuiltinGlobalSettings(boolean value)](#setKeepBuiltinGlobalSettings-boolean-) | GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, सेट करता है, जिनका मूल प्रॉपर्टी प्रतिस्थापन [AssetInfo](../../com.aspose.threed/assetinfo) में है। |
+| [setKeepBuiltinGlobalSettings(boolean value)](#setKeepBuiltinGlobalSettings-boolean-) | GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, जो [AssetInfo](../../com.aspose.threed/assetinfo) में मूल प्रॉपर्टी प्रतिस्थापन रखते हैं, सेट करता है। |
 | [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को लोड करने के लिए बाहरी फ़ाइल खोजने की अनुमति देंगे। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -54,12 +54,12 @@ public FbxLoadOptions(FileFormat format)
 ```
 
 
-का कंस्ट्रक्टर [FbxLoadOptions](../../com.aspose.threed/fbxloadoptions)
+[FbxLoadOptions](../../com.aspose.threed/fbxloadoptions) का कंस्ट्रक्टर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| format | [FileFormat](../../com.aspose.threed/fileformat) | [getFileFormat](../../com.aspose.threed/fbxloadoptions\#getFileFormat) का उदाहरण, यह एक वैध FBX फ़ॉर्मेट होना चाहिए। |
+| format | [FileFormat](../../com.aspose.threed/fileformat) | [getFileFormat](../../com.aspose.threed/fbxloadoptions\#getFileFormat) का इंस्टेंस, यह एक वैध FBX फ़ॉर्मेट होना चाहिए। |
 
 ### FbxLoadOptions() {#FbxLoadOptions--}
 ```
@@ -67,7 +67,7 @@ public FbxLoadOptions()
 ```
 
 
-का कंस्ट्रक्टर [FbxLoadOptions](../../com.aspose.threed/fbxloadoptions)
+[FbxLoadOptions](../../com.aspose.threed/fbxloadoptions) का कंस्ट्रक्टर
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -110,17 +110,17 @@ public Charset getEncoding()
 ```
 
 
-टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग प्राप्त करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर उपयोग करने के लिए एन्कोडिंग तय करेगा।
+टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग प्राप्त करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सा एन्कोडिंग उपयोग किया जाए।
 
 **Returns:**
-java.nio.charset.Charset - टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर उपयोग करने के लिए एन्कोडिंग तय करेगा।
+java.nio.charset.Charset - टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सा एन्कोडिंग उपयोग किया जाए।
 ### getFileFormat() {#getFileFormat--}
 ```
 public FileFormat getFileFormat()
 ```
 
 
-वर्तमान सहेजें/लोड विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है।
+वर्तमान Save/Load विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है।
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -140,7 +140,7 @@ public FileSystem getFileSystem()
 ```
 
 
-लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने का तरीका उपयोगकर्ता को संभालने की अनुमति देता है।
+लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है।
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - Allow user to handle how to manage the external dependencies during load/save. **Example:** The default FileSystem is LocalFileSystem, it is not safe in environment like server side, But you can override the file system access by specifying a different implementation. Aspose.3D provides different FileSystem implementation like:
@@ -150,7 +150,7 @@ public FileSystem getFileSystem()
  *  Dummy file system
  *  Zip file system
 
-और आप अपनी स्वयं की इम्प्लीमेंटेशन भी उपयोग कर सकते हैं।
+और आप अपनी स्वयं की कार्यान्वयन भी उपयोग कर सकते हैं।
 
 ```
 Scene scene = new Scene();
@@ -174,7 +174,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-FileSystem के लिए फ़ैक्टरी क्लास प्राप्त करता है। डिफ़ॉल्ट फ़ैक्टरी com.aspose.threed.LocalFileSystem बनाएगी जो सर्वर वातावरण के लिए उपयुक्त नहीं है।
+FileSystem के लिए फ़ैक्टरी क्लास प्राप्त करता है। डिफ़ॉल्ट फ़ैक्टरी com.aspose.threed.LocalFileSystem बनाएगी जो सर्वर पर्यावरण के लिए उपयुक्त नहीं है।
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -203,10 +203,10 @@ public boolean getKeepBuiltinGlobalSettings()
 ```
 
 
-GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, प्राप्त करता है, जिनका मूल प्रॉपर्टी प्रतिस्थापन [AssetInfo](../../com.aspose.threed/assetinfo) में है। यदि आप GlobalSettings में सभी प्रॉपर्टीज़ चाहते हैं तो इसे true सेट करें। डिफ़ॉल्ट मान false है।
+GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, प्राप्त करता है, जो [AssetInfo](../../com.aspose.threed/assetinfo) में मूल प्रॉपर्टी प्रतिस्थापन रखते हैं। यदि आप GlobalSettings में सभी प्रॉपर्टीज़ चाहते हैं तो इसे true सेट करें। डिफ़ॉल्ट मान false है।
 
 **Returns:**
-बूलियन - GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, जिनका मूल प्रॉपर्टी प्रतिस्थापन [AssetInfo](../../com.aspose.threed/assetinfo) में है। यदि आप GlobalSettings में सभी प्रॉपर्टीज़ चाहते हैं तो इसे true सेट करें। डिफ़ॉल्ट मान false है।
+बूलियन - GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, जो [AssetInfo](../../com.aspose.threed/assetinfo) में मूल प्रॉपर्टी प्रतिस्थापन रखते हैं। यदि आप GlobalSettings में सभी प्रॉपर्टीज़ चाहते हैं तो इसे true सेट करें। डिफ़ॉल्ट मान false है।
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
@@ -216,7 +216,7 @@ public ArrayList<String> getLookupPaths()
 OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को लोड करने के लिए बाहरी फ़ाइल खोजने की अनुमति देंगे।
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को बाहरी फ़ाइल लोड करने के लिए खोजने की अनुमति देंगे। **Example:** निम्नलिखित कोड दिखाता है कि कैसे मैन्युअली लुकअप टेक्सचर निर्दिष्ट करें, ताकि इम्पोर्टर उन्हें पा सके
+java.util.ArrayList<java.lang.String> - कुछ फ़ाइलें जैसे OBJ बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को बाहरी फ़ाइल खोजने और लोड करने की अनुमति देंगे। **Example:** निम्नलिखित कोड दिखाता है कि कैसे मैन्युअली लुकअप टेक्सचर निर्दिष्ट करें, ताकि इम्पोर्टर उन्हें पा सके
 
 ```
 var opt = new ObjLoadOptions();
@@ -270,7 +270,7 @@ public void setEncoding(Charset value)
 ```
 
 
-टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग सेट करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सी एन्कोडिंग उपयोग करनी है।
+टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग सेट करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सा एन्कोडिंग उपयोग किया जाए।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -296,19 +296,19 @@ public void setFileSystem(FileSystem value)
 ```
 
 
-लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने का तरीका उपयोगकर्ता को संभालने की अनुमति देता है।
+लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | नई मान **Example:** डिफ़ॉल्ट FileSystem LocalFileSystem है, यह सर्वर-साइड जैसे वातावरण में सुरक्षित नहीं है, लेकिन आप अलग इम्प्लीमेंटेशन निर्दिष्ट करके फ़ाइल सिस्टम एक्सेस को ओवरराइड कर सकते हैं। Aspose.3D विभिन्न FileSystem इम्प्लीमेंटेशन प्रदान करता है जैसे: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | नया मान **Example:** डिफ़ॉल्ट FileSystem LocalFileSystem है, यह सर्वर-साइड जैसे पर्यावरण में सुरक्षित नहीं है, लेकिन आप फ़ाइल सिस्टम एक्सेस को अलग कार्यान्वयन निर्दिष्ट करके ओवरराइड कर सकते हैं। Aspose.3D विभिन्न FileSystem कार्यान्वयन प्रदान करता है जैसे: |
 
  *  Memory-based file system
  *  Directory-based file system
  *  Dummy file system
  *  Zip file system
 
-और आप अपनी स्वयं की इम्प्लीमेंटेशन भी उपयोग कर सकते हैं।
+और आप अपनी स्वयं की कार्यान्वयन भी उपयोग कर सकते हैं।
 
 ```
 Scene scene = new Scene();
@@ -333,12 +333,12 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-FileSystem के लिए फ़ैक्टरी क्लास सेट करता है। डिफ़ॉल्ट फ़ैक्टरी com.aspose.threed.LocalFileSystem बनाएगी जो सर्वर वातावरण के लिए उपयुक्त नहीं है।
+FileSystem के लिए फ़ैक्टरी क्लास सेट करता है। डिफ़ॉल्ट फ़ैक्टरी com.aspose.threed.LocalFileSystem बनाएगी जो सर्वर पर्यावरण के लिए उपयुक्त नहीं है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | नई मान **Example:** SaveOptions/LoadOptions में डिफ़ॉल्ट FileSystem डायरेक्टरी-आधारित फ़ाइल सिस्टम है, आप इसे IOConfig.FileSystemFactory के माध्यम से निर्दिष्ट करके डिफ़ॉल्ट इम्प्लीमेंटेशन को ओवरराइड कर सकते हैं: |
+|  | value | [FileSystemFactory](../../com.aspose.threed/filesystemfactory) | नया मान **Example:** SaveOptions/LoadOptions में डिफ़ॉल्ट FileSystem डायरेक्टरी-आधारित फ़ाइल सिस्टम है, आप इसे IOConfig.FileSystemFactory के माध्यम से निर्दिष्ट करके डिफ़ॉल्ट कार्यान्वयन को ओवरराइड कर सकते हैं। |
 
 ```
 IOConfig.setFileSystemFactory(new FileSystemFactory() {
@@ -365,7 +365,7 @@ public void setKeepBuiltinGlobalSettings(boolean value)
 ```
 
 
-GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, सेट करता है, जिनका मूल प्रॉपर्टी प्रतिस्थापन [AssetInfo](../../com.aspose.threed/assetinfo) में है। यदि आप GlobalSettings में सभी प्रॉपर्टीज़ चाहते हैं तो इसे true सेट करें। डिफ़ॉल्ट मान false है।
+GlobalSettings में अंतर्निहित प्रॉपर्टीज़ को रखना है या नहीं, सेट करता है, जो [AssetInfo](../../com.aspose.threed/assetinfo) में मूल प्रॉपर्टी प्रतिस्थापन रखते हैं। यदि आप GlobalSettings में सभी प्रॉपर्टीज़ चाहते हैं तो इसे true सेट करें। डिफ़ॉल्ट मान false है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -383,7 +383,7 @@ OBJ जैसी कुछ फ़ाइलें बाहरी फ़ाइल
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | मान | java.util.ArrayList<java.lang.String> | नई मान **Example:** निम्नलिखित कोड दिखाता है कि कैसे मैन्युअली लुकअप टेक्सचर निर्दिष्ट करें, ताकि इम्पोर्टर उन्हें पा सके |
+|  | मान | java.util.ArrayList<java.lang.String> | नया मान **Example:** निम्नलिखित कोड दिखाता है कि कैसे मैन्युअली लुकअप टेक्सचर निर्दिष्ट करें, ताकि इम्पोर्टर उन्हें पा सके |
 
 ```
 var opt = new ObjLoadOptions();

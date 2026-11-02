@@ -1,7 +1,7 @@
 ---
 title: "ImportException"
-second_title: "Aspose.3D for Java API Reference"
-description: "जब Aspose.3D निर्दिष्ट स्रोत खोलने में विफल रहा तो अपवाद"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "जब Aspose.3D निर्दिष्ट स्रोत को खोलने में विफल रहा तो अपवाद"
 type: docs
 weight: 84
 url: /hi/java/com.aspose.threed/importexception/
@@ -13,10 +13,10 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.io.IOException
 public class ImportException extends IOException
 ```
 
-जब Aspose.3D निर्दिष्ट स्रोत खोलने में विफल रहा तो अपवाद
-## कंस्ट्रक्टर
+जब Aspose.3D निर्दिष्ट स्रोत को खोलने में विफल रहा तो अपवाद
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [ImportException(String msg)](#ImportException-java.lang.String-) | नया इंस्टेंस इनिशियलाइज़ करता है |
 ## विधियाँ

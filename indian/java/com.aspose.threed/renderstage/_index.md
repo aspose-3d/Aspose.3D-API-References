@@ -1,6 +1,6 @@
 ---
 title: "RenderStage"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "रेंडर चरण"
 type: docs
 weight: 298
@@ -18,10 +18,10 @@ public enum RenderStage extends Enum<RenderStage>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [IDLE](#IDLE) | Renderer निष्क्रिय है |
-| [POST_PROCESSING](#POST-PROCESSING) | Renderer पोस्ट प्रोसेसिंग प्रभावों को रेंडर कर रहा है। |
-| [SCENE](#SCENE) | Renderer दृश्य को रेंडर कर रहा है। |
-| [SHADOW_MAP](#SHADOW-MAP) | Renderer शैडो मैप को रेंडर कर रहा है। |
+| [IDLE](#IDLE) | रेंडरर निष्क्रिय है |
+| [POST_PROCESSING](#POST-PROCESSING) | रेंडरर पोस्ट प्रोसेसिंग इफ़ेक्ट्स रेंडर कर रहा है। |
+| [SCENE](#SCENE) | रेंडरर दृश्य को रेंडर कर रहा है |
+| [SHADOW_MAP](#SHADOW-MAP) | रेंडरर शैडो मैप रेंडर कर रहा है |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -49,7 +49,7 @@ public static final RenderStage IDLE
 ```
 
 
-Renderer निष्क्रिय है
+रेंडरर निष्क्रिय है
 
 ### POST_PROCESSING {#POST-PROCESSING}
 ```
@@ -57,7 +57,7 @@ public static final RenderStage POST_PROCESSING
 ```
 
 
-Renderer पोस्ट प्रोसेसिंग प्रभावों को रेंडर कर रहा है।
+रेंडरर पोस्ट प्रोसेसिंग इफ़ेक्ट्स रेंडर कर रहा है।
 
 ### SCENE {#SCENE}
 ```
@@ -65,7 +65,7 @@ public static final RenderStage SCENE
 ```
 
 
-Renderer दृश्य को रेंडर कर रहा है।
+रेंडरर दृश्य को रेंडर कर रहा है
 
 ### SHADOW_MAP {#SHADOW-MAP}
 ```
@@ -73,7 +73,7 @@ public static final RenderStage SHADOW_MAP
 ```
 
 
-Renderer शैडो मैप को रेंडर कर रहा है।
+रेंडरर शैडो मैप रेंडर कर रहा है
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

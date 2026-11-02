@@ -1,6 +1,6 @@
 ---
 title: "EndPoint"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "वक्र को ट्रिम करने के लिए अंत बिंदु पैरामीटर मान या कार्टेशियन बिंदु हो सकता है।"
 type: docs
 weight: 51
@@ -16,10 +16,10 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class EndPoint implements Struct<EndPoint>, Serializable
 ```
 
-वक्र को ट्रिम करने के लिए अंत बिंदु, यह पैरामीटर मान या कार्टेशियन बिंदु हो सकता है।
-## कंस्ट्रक्टर
+वक्र को ट्रिम करने के लिए अंतिम बिंदु, जो पैरामीटर मान या कार्टेशियन बिंदु हो सकता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | एक कार्टेशियन बिंदु से एक [EndPoint](../../com.aspose.threed/endpoint) बनाएं। |
 | [EndPoint(double v)](#EndPoint-double-) | एक वास्तविक पैरामीटर से एक [EndPoint](../../com.aspose.threed/endpoint) बनाएं। |
@@ -125,7 +125,7 @@ public static EndPoint fromDegree(double degree)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| डिग्री | double | डिग्री में मान |
+| degree | double | डिग्री में मान |
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - An end point constructed from degree
@@ -140,7 +140,7 @@ public static EndPoint fromRadian(double degree)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| डिग्री | double | रेडियन में मान |
+| degree | double | रेडियन में मान |
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - An end point constructed from radian

@@ -1,7 +1,7 @@
 ---
 title: "FrontFace"
-second_title: "Aspose.3D for Java API Reference"
-description: "सामने और पीछे की ओर मुख वाले बहुभुजों को परिभाषित करें"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "सामने और पीछे की ओर मुख वाले बहुभुज निर्धारित करें"
 type: docs
 weight: 280
 url: /hi/java/com.aspose.threed/frontface/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum FrontFace extends Enum<FrontFace>
 ```
 
-सामने और पीछे की ओर मुख वाले बहुभुजों को परिभाषित करें
+सामने और पीछे की ओर मुख वाले बहुभुज निर्धारित करें
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [CLOCKWISE](#CLOCKWISE) | घड़ी की दिशा क्रम फ्रंट फेस है |
-| [COUNTER_CLOCKWISE](#COUNTER-CLOCKWISE) | विपरीत घड़ी दिशा क्रम फ्रंट फेस है |
+| [CLOCKWISE](#CLOCKWISE) | घड़ी की दिशा में क्रम फ्रंट फेस है |
+| [COUNTER_CLOCKWISE](#COUNTER-CLOCKWISE) | विपरीत घड़ी दिशा में क्रम फ्रंट फेस है |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public static final FrontFace CLOCKWISE
 ```
 
 
-घड़ी की दिशा क्रम फ्रंट फेस है
+घड़ी की दिशा में क्रम फ्रंट फेस है
 
 ### COUNTER_CLOCKWISE {#COUNTER-CLOCKWISE}
 ```
@@ -55,7 +55,7 @@ public static final FrontFace COUNTER_CLOCKWISE
 ```
 
 
-विपरीत घड़ी दिशा क्रम फ्रंट फेस है
+विपरीत घड़ी दिशा में क्रम फ्रंट फेस है
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

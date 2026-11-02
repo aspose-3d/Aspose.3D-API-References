@@ -1,6 +1,6 @@
 ---
 title: "Frustum"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "का बेस क्लास"
 type: docs
 weight: 69
@@ -16,31 +16,31 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public abstract class Frustum extends Entity implements IOrientable
 ```
 
-का बेस क्लास [Camera](../../com.aspose.threed/camera) और [Light](../../com.aspose.threed/light)
+[Camera](../../com.aspose.threed/camera) और [Light](../../com.aspose.threed/light) का बेस क्लास
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getAspect()](#getAspect--) | Frustum का आस्पेक्ट रेशियो प्राप्त करता है |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getAspect()](#getAspect--) | फ़्रस्टम का आस्पेक्ट रेशियो प्राप्त करता है |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
 | [getDirection()](#getDirection--) | कैमरा जिस दिशा में देख रहा है, वह दिशा प्राप्त करता है। |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
-| [getFarPlane()](#getFarPlane--) | Frustum की फार प्लेन दूरी प्राप्त करता है। |
-| [getLookAt()](#getLookAt--) | कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
+| [getFarPlane()](#getFarPlane--) | फ़्रस्टम की फार प्लेन दूरी प्राप्त करता है। |
+| [getLookAt()](#getLookAt--) | कैमरा जिस रुचिकर स्थिति को देख रहा है, उसे प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getNearPlane()](#getNearPlane--) | फ्रस्टम के निकट प्लेन की दूरी प्राप्त करता है। |
+| [getNearPlane()](#getNearPlane--) | फ्रस्टम की निकटतम प्लेन दूरी प्राप्त करता है। |
 | [getOrthoHeight()](#getOrthoHeight--) | ऑर्थोग्राफिक प्रोजेक्शन में फ्रस्टम की ऊँचाई प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [getRotationMode()](#getRotationMode--) | फ्रस्टम की अभिविन्यास मोड प्राप्त करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) null हो। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
-| [getTarget()](#getTarget--) | कैमरा जिस लक्ष्य की ओर देख रहा है, उसे प्राप्त करता है। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
+| [getTarget()](#getTarget--) | कैमरा जिस लक्ष्य को देख रहा है, उसे प्राप्त करता है। |
 | [getUp()](#getUp--) | कैमरा की ऊपर की दिशा प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -48,16 +48,16 @@ public abstract class Frustum extends Entity implements IOrientable
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
 | [setAspect(double value)](#setAspect-double-) | फ्रस्टम का आस्पेक्ट रेशियो सेट करता है। |
-| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | कैमरा जिस दिशा की ओर देख रहा है, उसे सेट करता है। |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
-| [setFarPlane(double value)](#setFarPlane-double-) | फ्रस्टम के दूरस्थ प्लेन की दूरी सेट करता है। |
-| [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे सेट करता है। |
+| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | कैमरा जिस दिशा को देख रहा है, उसे सेट करता है। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
+| [setFarPlane(double value)](#setFarPlane-double-) | फ्रस्टम की दूरस्थ प्लेन दूरी सेट करता है। |
+| [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | कैमरा जिस रुचिकर स्थिति को देख रहा है, उसे सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setNearPlane(double value)](#setNearPlane-double-) | फ़्रस्टम की निकटतम प्लेन दूरी सेट करता है। |
-| [setOrthoHeight(double value)](#setOrthoHeight-double-) | ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम के लिए ऊँचाई सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setOrthoHeight(double value)](#setOrthoHeight-double-) | ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम की ऊँचाई सेट करता है। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setRotationMode(RotationMode value)](#setRotationMode-com.aspose.threed.RotationMode-) | फ़्रस्टम की ओरिएंटेशन मोड सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) null हो। |
+| [setRotationMode(RotationMode value)](#setRotationMode-com.aspose.threed.RotationMode-) | फ़्रस्टम की अभिविन्यास मोड सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) शून्य हो। |
 | [setTarget(Node value)](#setTarget-com.aspose.threed.Node-) | कैमरा जिस लक्ष्य की ओर देख रहा है उसे सेट करता है। |
 | [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | कैमरा की ऊपर की दिशा सेट करता है। |
 | [toString()](#toString--) |  |
@@ -85,7 +85,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -100,17 +100,17 @@ public double getAspect()
 ```
 
 
-Frustum का आस्पेक्ट रेशियो प्राप्त करता है
+फ़्रस्टम का आस्पेक्ट रेशियो प्राप्त करता है
 
 **Returns:**
-double - फ़्रस्टम का आस्पेक्ट रेशियो
+डबल - फ़्रस्टम का अनुपात
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -147,7 +147,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -157,27 +157,27 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getFarPlane() {#getFarPlane--}
 ```
 public double getFarPlane()
 ```
 
 
-Frustum की फार प्लेन दूरी प्राप्त करता है।
+फ़्रस्टम की फार प्लेन दूरी प्राप्त करता है।
 
 **Returns:**
-double - फ़्रस्टम की दूरस्थ प्लेन दूरी।
+डबल - फ़्रस्टम की दूरस्थ प्लेन दूरी।
 ### getLookAt() {#getLookAt--}
 ```
 public Vector3 getLookAt()
 ```
 
 
-कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे प्राप्त करता है।
+कैमरा जिस रुचिकर स्थिति को देख रहा है, उसे प्राप्त करता है।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the the interested position that the camera is looking at.
@@ -197,10 +197,10 @@ public double getNearPlane()
 ```
 
 
-फ्रस्टम के निकट प्लेन की दूरी प्राप्त करता है।
+फ्रस्टम की निकटतम प्लेन दूरी प्राप्त करता है।
 
 **Returns:**
-double - फ़्रस्टम की निकटतम प्लेन दूरी।
+डबल - फ़्रस्टम की निकटतम प्लेन दूरी।
 ### getOrthoHeight() {#getOrthoHeight--}
 ```
 public double getOrthoHeight()
@@ -210,14 +210,14 @@ public double getOrthoHeight()
 ऑर्थोग्राफिक प्रोजेक्शन में फ्रस्टम की ऊँचाई प्राप्त करता है।
 
 **Returns:**
-double - ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम की ऊँचाई।
+डबल - ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम की ऊँचाई।
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -227,7 +227,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -262,7 +262,7 @@ public RotationMode getRotationMode()
 ```
 
 
-फ़्रस्टम की ओरिएंटेशन मोड प्राप्त करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) null हो। यदि मान [RotationMode.FIXED_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET) है, तो दिशा हमेशा प्रॉपर्टी [getLookAt](../../com.aspose.threed/frustum\#getLookAt) द्वारा गणना की जाती है। अन्यथा [getLookAt](../../com.aspose.threed/frustum\#getLookAt) हमेशा [getDirection](../../com.aspose.threed/frustum\#getDirection) द्वारा गणना की जाती है।
+फ़्रस्टम की अभिविन्यास मोड प्राप्त करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) शून्य हो। यदि मान [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET) है, तो दिशा हमेशा प्रॉपर्टी [getLookAt](../../com.aspose.threed/frustum\#getLookAt) द्वारा गणना की जाती है। अन्यथा [getLookAt](../../com.aspose.threed/frustum\#getLookAt) हमेशा [getDirection](../../com.aspose.threed/frustum\#getDirection) द्वारा गणना की जाती है।
 
 **Returns:**
 [RotationMode](../../com.aspose.threed/rotationmode) - the frustum's orientation mode This property only works when the [getTarget](../../com.aspose.threed/frustum\#getTarget) is null. If the value is [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), the direction is always calculated by the property [getLookAt](../../com.aspose.threed/frustum\#getLookAt) Otherwise the [getLookAt](../../com.aspose.threed/frustum\#getLookAt) is always calculated by the [getDirection](../../com.aspose.threed/frustum\#getDirection)
@@ -272,7 +272,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -384,7 +384,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -397,7 +397,7 @@ public void setFarPlane(double value)
 ```
 
 
-फ्रस्टम के दूरस्थ प्लेन की दूरी सेट करता है।
+फ्रस्टम की दूरस्थ प्लेन दूरी सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -410,7 +410,7 @@ public void setLookAt(Vector3 value)
 ```
 
 
-कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे सेट करता है।
+कैमरा जिस रुचिकर स्थिति को देख रहा है, उसे सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -449,7 +449,7 @@ public void setOrthoHeight(double value)
 ```
 
 
-ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम के लिए ऊँचाई सेट करता है।
+ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम की ऊँचाई सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -462,7 +462,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -489,7 +489,7 @@ public void setRotationMode(RotationMode value)
 ```
 
 
-फ़्रस्टम की ओरिएंटेशन मोड सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) null हो। यदि मान [RotationMode.FIXED_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET) है, तो दिशा हमेशा प्रॉपर्टी [getLookAt](../../com.aspose.threed/frustum\#getLookAt) द्वारा गणना की जाती है। अन्यथा [getLookAt](../../com.aspose.threed/frustum\#getLookAt) हमेशा [getDirection](../../com.aspose.threed/frustum\#getDirection) द्वारा गणना की जाती है।
+फ़्रस्टम की अभिविन्यास मोड सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) शून्य हो। यदि मान [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET) है, तो दिशा हमेशा प्रॉपर्टी [getLookAt](../../com.aspose.threed/frustum\#getLookAt) द्वारा गणना की जाती है। अन्यथा [getLookAt](../../com.aspose.threed/frustum\#getLookAt) हमेशा [getDirection](../../com.aspose.threed/frustum\#getDirection) द्वारा गणना की जाती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -502,7 +502,7 @@ public void setTarget(Node value)
 ```
 
 
-कैमरा जिस लक्ष्य की ओर देख रहा है, उसे सेट करता है। यदि उपयोगकर्ता इस प्रॉपर्टी का समर्थन करता है, तो यह [getLookAt](../../com.aspose.threed/frustum\#getLookAt) प्रॉपर्टी से पहले होना चाहिए।
+कैमरा जिस लक्ष्य को देख रहा है उसे सेट करता है। यदि उपयोगकर्ता इस प्रॉपर्टी का समर्थन करता है, तो यह [getLookAt](../../com.aspose.threed/frustum\\#getLookAt) प्रॉपर्टी से पहले होना चाहिए।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

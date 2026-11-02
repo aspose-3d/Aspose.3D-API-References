@@ -1,6 +1,6 @@
 ---
 title: "ShaderTechnique"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "एक शेडर तकनीक एक ठोस रेंडरिंग कार्यान्वयन का प्रतिनिधित्व करती है।"
 type: docs
 weight: 169
@@ -14,11 +14,11 @@ public class ShaderTechnique
 ```
 
 एक शेडर तकनीक एक ठोस रेंडरिंग कार्यान्वयन का प्रतिनिधित्व करती है।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [ShaderTechnique()](#ShaderTechnique--) | एक नया उदाहरण प्रारंभ करता है [ShaderTechnique](../../com.aspose.threed/shadertechnique) क्लास। |
+| [ShaderTechnique()](#ShaderTechnique--) | एक नया उदाहरण प्रारंभ करता है [ShaderTechnique](../../com.aspose.threed/shadertechnique) क्लास का। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -30,22 +30,22 @@ public class ShaderTechnique
 | [getRenderAPI()](#getRenderAPI--) | इस तकनीक द्वारा उपयोग किए गए रेंडरिंग API को प्राप्त करता है। |
 | [getRenderAPIVersion()](#getRenderAPIVersion--) | रेंडरिंग API का संस्करण प्राप्त करता है। |
 | [getShaderContent()](#getShaderContent--) | एक एम्बेडेड शेडर स्क्रिप्ट की सामग्री प्राप्त करता है। |
-| [getShaderEntry()](#getShaderEntry--) | शेडर का एंट्री पॉइंट प्राप्त करता है, कुछ शेडर जैसे HLSL में कस्टमाइज़्ड एंट्री हो सकती हैं। |
+| [getShaderEntry()](#getShaderEntry--) | शेडर का एंट्री पॉइंट प्राप्त करता है, कुछ शेडर जैसे HLSL में कस्टमाइज़्ड एंट्री हो सकते हैं। |
 | [getShaderFile()](#getShaderFile--) | बाहरी शेडर फ़ाइल का फ़ाइलनाम प्राप्त करता है। |
 | [getShaderLanguage()](#getShaderLanguage--) | इस तकनीक द्वारा उपयोग की गई शेडर भाषा प्राप्त करता है। |
 | [getShaderParameters()](#getShaderParameters--) | शेडर पैरामीटर परिभाषा प्राप्त करता है। |
-| [getShaderVersion()](#getShaderVersion--) | इस तकनीक द्वारा उपयोग किए गए शेडर संस्करण को प्राप्त करता है। |
+| [getShaderVersion()](#getShaderVersion--) | इस तकनीक द्वारा उपयोग किया गया शेडर संस्करण प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDescription(String value)](#setDescription-java.lang.String-) | इस तकनीक का विवरण सेट करता है |
-| [setRenderAPI(String value)](#setRenderAPI-java.lang.String-) | इस तकनीक द्वारा उपयोग किए गए रेंडरिंग API को सेट करता है |
+| [setRenderAPI(String value)](#setRenderAPI-java.lang.String-) | इस तकनीक द्वारा उपयोग किए जाने वाले रेंडरिंग API को सेट करता है |
 | [setRenderAPIVersion(String value)](#setRenderAPIVersion-java.lang.String-) | रेंडरिंग API का संस्करण सेट करता है। |
 | [setShaderContent(byte[] value)](#setShaderContent-byte---) | एक एम्बेडेड शेडर स्क्रिप्ट की सामग्री सेट करता है। |
-| [setShaderEntry(String value)](#setShaderEntry-java.lang.String-) | शेडर का एंट्री पॉइंट सेट करता है, कुछ शेडर जैसे HLSL में कस्टमाइज़्ड एंट्री हो सकते हैं। |
+| [setShaderEntry(String value)](#setShaderEntry-java.lang.String-) | शेडर का एंट्री पॉइंट सेट करता है, कुछ शेडर जैसे HLSL कस्टमाइज़्ड एंट्री पॉइंट रख सकते हैं। |
 | [setShaderFile(String value)](#setShaderFile-java.lang.String-) | बाहरी शेडर फ़ाइल का फ़ाइलनाम सेट करता है। |
-| [setShaderLanguage(String value)](#setShaderLanguage-java.lang.String-) | इस तकनीक द्वारा उपयोग की गई शेडर भाषा सेट करता है। |
-| [setShaderVersion(String value)](#setShaderVersion-java.lang.String-) | इस तकनीक द्वारा उपयोग किए गए शेडर संस्करण को सेट करता है। |
+| [setShaderLanguage(String value)](#setShaderLanguage-java.lang.String-) | इस तकनीक द्वारा उपयोग की जाने वाली शेडर भाषा सेट करता है। |
+| [setShaderVersion(String value)](#setShaderVersion-java.lang.String-) | इस तकनीक द्वारा उपयोग किया गया शेडर संस्करण सेट करता है। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,7 +56,7 @@ public ShaderTechnique()
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [ShaderTechnique](../../com.aspose.threed/shadertechnique) क्लास।
+एक नया उदाहरण प्रारंभ करता है [ShaderTechnique](../../com.aspose.threed/shadertechnique) क्लास का।
 
 ### addBinding(String property, String shaderParameter) {#addBinding-java.lang.String-java.lang.String-}
 ```
@@ -143,10 +143,10 @@ public String getShaderEntry()
 ```
 
 
-शेडर का एंट्री पॉइंट प्राप्त करता है, कुछ शेडर जैसे HLSL में कस्टमाइज़्ड एंट्री हो सकती हैं।
+शेडर का एंट्री पॉइंट प्राप्त करता है, कुछ शेडर जैसे HLSL में कस्टमाइज़्ड एंट्री हो सकते हैं।
 
 **Returns:**
-java.lang.String - शेडर का एंट्री पॉइंट, कुछ शेडर जैसे HLSL में कस्टमाइज़्ड एंट्री हो सकते हैं।
+java.lang.String - शेडर का एंट्री पॉइंट, कुछ शेडर जैसे HLSL कस्टमाइज़्ड एंट्री पॉइंट रख सकते हैं।
 ### getShaderFile() {#getShaderFile--}
 ```
 public String getShaderFile()
@@ -183,7 +183,7 @@ public String getShaderVersion()
 ```
 
 
-इस तकनीक द्वारा उपयोग किए गए शेडर संस्करण को प्राप्त करता है।
+इस तकनीक द्वारा उपयोग किया गया शेडर संस्करण प्राप्त करता है।
 
 **Returns:**
 java.lang.String - इस तकनीक द्वारा उपयोग किया गया शेडर संस्करण।
@@ -232,7 +232,7 @@ public void setRenderAPI(String value)
 ```
 
 
-इस तकनीक द्वारा उपयोग किए गए रेंडरिंग API को सेट करता है
+इस तकनीक द्वारा उपयोग किए जाने वाले रेंडरिंग API को सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -271,7 +271,7 @@ public void setShaderEntry(String value)
 ```
 
 
-शेडर का एंट्री पॉइंट सेट करता है, कुछ शेडर जैसे HLSL में कस्टमाइज़्ड एंट्री हो सकते हैं।
+शेडर का एंट्री पॉइंट सेट करता है, कुछ शेडर जैसे HLSL कस्टमाइज़्ड एंट्री पॉइंट रख सकते हैं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -297,7 +297,7 @@ public void setShaderLanguage(String value)
 ```
 
 
-इस तकनीक द्वारा उपयोग की गई शेडर भाषा सेट करता है।
+इस तकनीक द्वारा उपयोग की जाने वाली शेडर भाषा सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -310,7 +310,7 @@ public void setShaderVersion(String value)
 ```
 
 
-इस तकनीक द्वारा उपयोग किए गए शेडर संस्करण को सेट करता है।
+इस तकनीक द्वारा उपयोग किया गया शेडर संस्करण सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

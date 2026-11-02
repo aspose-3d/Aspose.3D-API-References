@@ -1,7 +1,7 @@
 ---
 title: "Vector3"
-second_title: "Aspose.3D for Java API Reference"
-description: "तीन घटकों वाला एक वेक्टर।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "तीन घटकों वाला वेक्टर।"
 type: docs
 weight: 202
 url: /hi/java/com.aspose.threed/vector3/
@@ -16,23 +16,23 @@ java.lang.Comparable, com.aspose.threed.Struct, java.io.Serializable
 public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Serializable
 ```
 
-तीन घटकों वाला एक वेक्टर।
-## कंस्ट्रक्टर
+तीन घटकों वाला वेक्टर।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Vector3(double x, double y, double z)](#Vector3-double-double-double-) | एक नया उदाहरण प्रारंभ करता है [Vector3](../../com.aspose.threed/vector3) संरचना का। |
-| [Vector3(FVector3 vec)](#Vector3-com.aspose.threed.FVector3-) | एक नया उदाहरण प्रारंभ करता है [Vector3](../../com.aspose.threed/vector3) संरचना का। |
-| [Vector3(double v)](#Vector3-double-) | एक नया उदाहरण प्रारंभ करता है [Vector3](../../com.aspose.threed/vector3) संरचना का। |
-| [Vector3(Vector4 vec4)](#Vector3-com.aspose.threed.Vector4-) | एक नया उदाहरण प्रारंभ करता है [Vector3](../../com.aspose.threed/vector3) संरचना का। |
+| [Vector3(double x, double y, double z)](#Vector3-double-double-double-) | एक नया उदाहरण बनाता है [Vector3](../../com.aspose.threed/vector3) संरचना का। |
+| [Vector3(FVector3 vec)](#Vector3-com.aspose.threed.FVector3-) | एक नया उदाहरण बनाता है [Vector3](../../com.aspose.threed/vector3) संरचना का। |
+| [Vector3(double v)](#Vector3-double-) | एक नया उदाहरण बनाता है [Vector3](../../com.aspose.threed/vector3) संरचना का। |
+| [Vector3(Vector4 vec4)](#Vector3-com.aspose.threed.Vector4-) | एक नया उदाहरण बनाता है [Vector3](../../com.aspose.threed/vector3) संरचना का। |
 | [Vector3()](#Vector3--) |  |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [x](#x) | The x component. |
-| [y](#y) | The y component. |
-| [z](#z) | The z component. |
+| [x](#x) | x घटक। |
+| [y](#y) | y घटक। |
+| [z](#z) | z घटक। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -44,25 +44,25 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 | [compareTo(Vector3 other)](#compareTo-com.aspose.threed.Vector3-) | वर्तमान वेक्टर की तुलना किसी अन्य उदाहरण से करें। |
 | [copyFrom(Vector3 src)](#copyFrom-com.aspose.threed.Vector3-) |  |
 | [cos()](#cos--) | प्रत्येक घटक पर कोसाइन की गणना करता है। |
-| [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | Vector3 को FVector3 में कास्ट करने के लिए स्पष्ट रूपांतरण ऑपरेटर। |
-| [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | दो वेक्टरों का क्रॉस प्रोडक्ट। |
-| [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग / के लिए। |
-| [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | ऑपरेटर ओवरलोडिंग / के लिए। |
-| [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है। |
-| [equals(Object obj)](#equals-java.lang.Object-) | जाँचें कि दो vector3 समान हैं या नहीं। |
+| [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | Vector3 को FVector3 में कास्ट करने के लिए स्पष्ट रूपांतरण ऑपरेटर |
+| [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | दो वेक्टरों का क्रॉस प्रोडक्ट |
+| [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग / के लिए |
+| [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | ऑपरेटर ओवरलोडिंग / के लिए |
+| [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है |
+| [equals(Object obj)](#equals-java.lang.Object-) | जाँचें कि दो vector3 बराबर हैं या नहीं |
 | [get(int idx)](#get-int-) | इंडेक्स द्वारा वेक्टर का घटक प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | इस वेक्टर की लंबाई प्राप्त करता है। |
 | [getLength2()](#getLength2--) | लंबाई का वर्ग प्राप्त करता है। |
-| [getOne()](#getOne--) | यूनिट वेक्टर (1, 1, 1) प्राप्त करता है। |
-| [getUnitX()](#getUnitX--) | यूनिट वेक्टर (1, 0, 0) प्राप्त करता है। |
-| [getUnitY()](#getUnitY--) | यूनिट वेक्टर (0, 1, 0) प्राप्त करता है। |
-| [getUnitZ()](#getUnitZ--) | यूनिट वेक्टर (0, 0, 1) प्राप्त करता है। |
-| [getZero()](#getZero--) | यूनिट वेक्टर (0, 0, 0) प्राप्त करता है। |
-| [hashCode()](#hashCode--) | Vector3 का हैश कोड प्राप्त करता है। |
-| [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
-| [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
-| [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
+| [getOne()](#getOne--) | यूनिट वेक्टर (1, 1, 1) प्राप्त करता है |
+| [getUnitX()](#getUnitX--) | यूनिट वेक्टर (1, 0, 0) प्राप्त करता है |
+| [getUnitY()](#getUnitY--) | यूनिट वेक्टर (0, 1, 0) प्राप्त करता है |
+| [getUnitZ()](#getUnitZ--) | यूनिट वेक्टर (0, 0, 1) प्राप्त करता है |
+| [getZero()](#getZero--) | यूनिट वेक्टर (0, 0, 0) प्राप्त करता है |
+| [hashCode()](#hashCode--) | Vector3 का हैश कोड प्राप्त करता है |
+| [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग \* के लिए |
+| [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | ऑपरेटर ओवरलोडिंग \* के लिए |
+| [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग \* के लिए |
 | [negative(Vector3 v)](#negative-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग के लिए - |
 | [normalize()](#normalize--) | इस उदाहरण को सामान्यीकृत करता है। |
 | [notify()](#notify--) |  |
@@ -71,7 +71,7 @@ public final class Vector3 implements Comparable<Vector3>, Struct<Vector3>, Seri
 | [op_ne(Vector3 lhs, Vector3 rhs)](#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Vector3 के लिए असमान ऑपरेटर |
 | [set(double newX, double newY, double newZ)](#set-double-double-double-) | एक कॉल में x/y/z घटक सेट करता है। |
 | [set(int idx, double value)](#set-int-double-) | इंडेक्स द्वारा वेक्टर का घटक सेट करता है। |
-| [sin()](#sin--) | प्रत्येक घटक पर साइन की गणना करता है। |
+| [sin()](#sin--) | प्रत्येक घटक पर साइन की गणना करता है |
 | [sub(Vector3 lhs, Vector3 rhs)](#sub-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग के लिए - (माइनस) |
 | [toString()](#toString--) | वर्तमान [Vector3](../../com.aspose.threed/vector3) को दर्शाने वाली java.lang.String लौटाता है। |
 | [wait()](#wait--) |  |
@@ -83,7 +83,7 @@ public Vector3(double x, double y, double z)
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [Vector3](../../com.aspose.threed/vector3) संरचना का।
+एक नया उदाहरण बनाता है [Vector3](../../com.aspose.threed/vector3) संरचना का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -98,7 +98,7 @@ public Vector3(FVector3 vec)
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [Vector3](../../com.aspose.threed/vector3) संरचना का।
+एक नया उदाहरण बनाता है [Vector3](../../com.aspose.threed/vector3) संरचना का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -111,7 +111,7 @@ public Vector3(double v)
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [Vector3](../../com.aspose.threed/vector3) संरचना का।
+एक नया उदाहरण बनाता है [Vector3](../../com.aspose.threed/vector3) संरचना का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -124,7 +124,7 @@ public Vector3(Vector4 vec4)
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [Vector3](../../com.aspose.threed/vector3) संरचना का।
+एक नया उदाहरण बनाता है [Vector3](../../com.aspose.threed/vector3) संरचना का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -143,7 +143,7 @@ public double x
 ```
 
 
-The x component.
+x घटक।
 
 ### y {#y}
 ```
@@ -151,7 +151,7 @@ public double y
 ```
 
 
-The y component.
+y घटक।
 
 ### z {#z}
 ```
@@ -159,7 +159,7 @@ public double z
 ```
 
 
-The z component.
+z घटक।
 
 ### add(Vector3 lhs, Vector3 rhs) {#add-com.aspose.threed.Vector3-com.aspose.threed.Vector3-}
 ```
@@ -262,7 +262,7 @@ public static FVector3 create(Vector3 v)
 ```
 
 
-Vector3 को FVector3 में कास्ट करने के लिए स्पष्ट रूपांतरण ऑपरेटर।
+Vector3 को FVector3 में कास्ट करने के लिए स्पष्ट रूपांतरण ऑपरेटर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -277,12 +277,12 @@ public Vector3 cross(Vector3 rhs)
 ```
 
 
-दो वेक्टरों का क्रॉस प्रोडक्ट।
+दो वेक्टरों का क्रॉस प्रोडक्ट
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | दाएँ हाथ का मान. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | दाएँ हाथ का मान। |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Cross product of two [Vector3](../../com.aspose.threed/vector3)s.
@@ -292,7 +292,7 @@ public static Vector3 div(Vector3 lhs, Vector3 rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग / के लिए।
+ऑपरेटर ओवरलोडिंग / के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -308,7 +308,7 @@ public static Vector3 div(Vector3 lhs, double rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग / के लिए।
+ऑपरेटर ओवरलोडिंग / के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -324,30 +324,30 @@ public double dot(Vector3 rhs)
 ```
 
 
-दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है।
+दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | दाएँ हाथ का मान. |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | दाएँ हाथ का मान। |
 
 **Returns:**
-double - दो वेक्टरों का डॉट प्रोडक्ट.
+double - दो वेक्टरों का डॉट प्रोडक्ट।
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-जाँचें कि दो vector3 समान हैं या नहीं।
+जाँचें कि दो vector3 बराबर हैं या नहीं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| obj | java.lang.Object | समानता जाँचने के लिए ऑब्जेक्ट. |
+| obj | java.lang.Object | समानता जांचने के लिए वस्तु। |
 
 **Returns:**
-boolean - यदि सभी घटक समान रूप से बराबर हों तो True.
+boolean - यदि सभी घटक समान रूप से बराबर हों तो सत्य।
 ### get(int idx) {#get-int-}
 ```
 public double get(int idx)
@@ -362,7 +362,7 @@ public double get(int idx)
 | idx | int |  |
 
 **Returns:**
-double - सूचकांक द्वारा वेक्टर का घटक.
+double - सूचकांक द्वारा वेक्टर का घटक।
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -382,7 +382,7 @@ public double getLength()
 इस वेक्टर की लंबाई प्राप्त करता है।
 
 **Returns:**
-double - इस वेक्टर की लंबाई.
+double - इस वेक्टर की लंबाई।
 ### getLength2() {#getLength2--}
 ```
 public double getLength2()
@@ -392,14 +392,14 @@ public double getLength2()
 लंबाई का वर्ग प्राप्त करता है।
 
 **Returns:**
-double - लंबाई का वर्ग.
+double - लंबाई का वर्ग।
 ### getOne() {#getOne--}
 ```
 public static Vector3 getOne()
 ```
 
 
-यूनिट वेक्टर (1, 1, 1) प्राप्त करता है।
+यूनिट वेक्टर (1, 1, 1) प्राप्त करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (1, 1, 1)
@@ -409,7 +409,7 @@ public static Vector3 getUnitX()
 ```
 
 
-यूनिट वेक्टर (1, 0, 0) प्राप्त करता है।
+यूनिट वेक्टर (1, 0, 0) प्राप्त करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (1, 0, 0)
@@ -419,7 +419,7 @@ public static Vector3 getUnitY()
 ```
 
 
-यूनिट वेक्टर (0, 1, 0) प्राप्त करता है।
+यूनिट वेक्टर (0, 1, 0) प्राप्त करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 1, 0)
@@ -429,7 +429,7 @@ public static Vector3 getUnitZ()
 ```
 
 
-यूनिट वेक्टर (0, 0, 1) प्राप्त करता है।
+यूनिट वेक्टर (0, 0, 1) प्राप्त करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 0, 1)
@@ -439,7 +439,7 @@ public static Vector3 getZero()
 ```
 
 
-यूनिट वेक्टर (0, 0, 0) प्राप्त करता है।
+यूनिट वेक्टर (0, 0, 0) प्राप्त करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 0, 0)
@@ -449,17 +449,17 @@ public int hashCode()
 ```
 
 
-Vector3 का हैश कोड प्राप्त करता है।
+Vector3 का हैश कोड प्राप्त करता है
 
 **Returns:**
-int - [Vector3](../../com.aspose.threed/vector3) का हैश कोड
+int - [Vector3](../../com.aspose.threed/vector3) का हैश कोड।
 ### mul(Vector3 lhs, Vector3 rhs) {#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-}
 ```
 public static Vector3 mul(Vector3 lhs, Vector3 rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -475,7 +475,7 @@ public static Vector3 mul(Vector3 lhs, double rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -491,12 +491,12 @@ public static Vector3 mul(double lhs, Vector3 rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | double | बाएँ स्केलर |
+| lhs | double | बायाँ स्केलर |
 | rhs | [Vector3](../../com.aspose.threed/vector3) | दायाँ वेक्टर |
 
 **Returns:**
@@ -553,11 +553,11 @@ Vector3 के लिए समान ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | बाएँ हाथ का मान. |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | दाएँ हाथ का मान. |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | बाएँ हाथ का मान। |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | दाएँ हाथ का मान। |
 
 **Returns:**
-boolean - यदि सभी घटक समान रूप से बराबर हों तो True.
+boolean - यदि सभी घटक समान रूप से बराबर हों तो सत्य।
 ### op_ne(Vector3 lhs, Vector3 rhs) {#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-}
 ```
 public static boolean op_ne(Vector3 lhs, Vector3 rhs)
@@ -569,11 +569,11 @@ Vector3 के लिए असमान ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | बाएँ हाथ का मान. |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | दाएँ हाथ का मान. |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | बाएँ हाथ का मान। |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | दाएँ हाथ का मान। |
 
 **Returns:**
-boolean - यदि दो वेक्टर बराबर न हों तो True.
+boolean - यदि दो वेक्टर बराबर न हों तो सत्य।
 ### set(double newX, double newY, double newZ) {#set-double-double-double-}
 ```
 public void set(double newX, double newY, double newZ)
@@ -585,9 +585,9 @@ public void set(double newX, double newY, double newZ)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| newX | double | The x component. |
-| newY | double | The y component. |
-| newZ | double | The z component. |
+| newX | double | x घटक। |
+| newY | double | y घटक। |
+| newZ | double | z घटक। |
 
 ### set(int idx, double value) {#set-int-double-}
 ```
@@ -609,7 +609,7 @@ public Vector3 sin()
 ```
 
 
-प्रत्येक घटक पर साइन की गणना करता है।
+प्रत्येक घटक पर साइन की गणना करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Calculated [Vector3](../../com.aspose.threed/vector3).
@@ -638,7 +638,7 @@ public String toString()
 वर्तमान [Vector3](../../com.aspose.threed/vector3) को दर्शाने वाली java.lang.String लौटाता है।
 
 **Returns:**
-java.lang.String - वर्तमान [Vector3](../../com.aspose.threed/vector3) को दर्शाने वाला java.lang.String.
+java.lang.String - एक java.lang.String जो वर्तमान [Vector3](../../com.aspose.threed/vector3) को दर्शाता है।
 ### wait() {#wait--}
 ```
 public final void wait()

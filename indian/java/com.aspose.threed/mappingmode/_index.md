@@ -1,6 +1,6 @@
 ---
 title: "MappingMode"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "निर्धारित करता है कि तत्व सतह पर कैसे मैप किया जाता है।"
 type: docs
 weight: 285
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum MappingMode extends Enum<MappingMode>
 ```
 
-निर्धारित करता है कि तत्व सतह पर कैसे मैप किया जाता है। यह [MappingMode](../../com.aspose.threed/mappingmode) निर्धारित करता है कि [VertexElement](../../com.aspose.threed/vertexelement) ज्यामिति की सतह पर कैसे मैप किया जाता है।
+निर्धारित करता है कि तत्व सतह पर कैसे मैप किया जाता है। [MappingMode](../../com.aspose.threed/mappingmode) परिभाषित करता है कि [VertexElement](../../com.aspose.threed/vertexelement) ज्यामिति की सतह पर कैसे मैप किया जाता है।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
@@ -22,7 +22,7 @@ public enum MappingMode extends Enum<MappingMode>
 | [CONTROL_POINT](#CONTROL-POINT) | प्रत्येक डेटा ज्यामिति के नियंत्रण बिंदु पर मैप किया जाता है। |
 | [EDGE](#EDGE) | डेटा किनारे पर मैप किया गया है। |
 | [POLYGON](#POLYGON) | डेटा बहुभुज पर मैप किया गया है। |
-| [POLYGON_VERTEX](#POLYGON-VERTEX) | डेटा बहुभुज के शीर्ष बिंदु पर मैप किया जाता है जब एक नियंत्रण बिंदु कई बहुभुजों द्वारा साझा किया जाता है, और डेटा को [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) के रूप में मैप किया जाता है, तो विभिन्न बहुभुज शीर्ष बिंदु के रूप में नियंत्रण बिंदु का अपना डेटा होगा। |
+| [POLYGON_VERTEX](#POLYGON-VERTEX) | डेटा बहुभुज के शीर्ष बिंदु पर मैप किया जाता है जब एक नियंत्रण बिंदु कई बहुभुजों द्वारा साझा किया जाता है, और डेटा को [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) के रूप में मैप किया जाता है, तो विभिन्न बहुभुज शीर्ष बिंदु के रूप में नियंत्रण बिंदु का अपना डेटा होगा |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -66,7 +66,7 @@ public static final MappingMode EDGE
 ```
 
 
-डेटा किनारे पर मैप किया गया है। जब मैपिंग [EDGE](../../com.aspose.threed/mappingmode\#EDGE) है, तो प्रत्येक किनारे के अंत बिंदु एक ही डेटा साझा करते हैं।
+डेटा किनारे पर मैप किया गया है। प्रत्येक किनारे के अंत बिंदु को वही डेटा साझा होता है जब मैपिंग [EDGE](../../com.aspose.threed/mappingmode\#EDGE) हो।
 
 ### POLYGON {#POLYGON}
 ```
@@ -74,7 +74,7 @@ public static final MappingMode POLYGON
 ```
 
 
-डेटा बहुभुज पर मैप किया गया है। जब मैपिंग मोड [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON) है, तो प्रत्येक बहुभुज शीर्ष बिंदु एक ही डेटा साझा करता है।
+डेटा बहुभुज पर मैप किया गया है। प्रत्येक बहुभुज शीर्ष बिंदु को वही डेटा साझा होता है जब मैपिंग मोड [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON) हो।
 
 ### POLYGON_VERTEX {#POLYGON-VERTEX}
 ```
@@ -82,7 +82,7 @@ public static final MappingMode POLYGON_VERTEX
 ```
 
 
-डेटा बहुभुज के शीर्ष बिंदु पर मैप किया जाता है जब एक नियंत्रण बिंदु कई बहुभुजों द्वारा साझा किया जाता है, और डेटा को [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) के रूप में मैप किया जाता है, तो विभिन्न बहुभुज शीर्ष बिंदु के रूप में नियंत्रण बिंदु का अपना डेटा होगा।
+डेटा बहुभुज के शीर्ष बिंदु पर मैप किया जाता है जब एक नियंत्रण बिंदु कई बहुभुजों द्वारा साझा किया जाता है, और डेटा को [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX) के रूप में मैप किया जाता है, तो विभिन्न बहुभुज शीर्ष बिंदु के रूप में नियंत्रण बिंदु का अपना डेटा होगा
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

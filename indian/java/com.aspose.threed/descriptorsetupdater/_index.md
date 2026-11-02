@@ -1,7 +1,7 @@
 ---
 title: "DescriptorSetUpdater"
-second_title: "Aspose.3D for Java API Reference"
-description: "यह क्लास चेन ऑपरेशन में  को अपडेट करने की अनुमति देती है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "यह वर्ग चेन ऑपरेशन में  को अपडेट करने की अनुमति देता है।"
 type: docs
 weight: 42
 url: /hi/java/com.aspose.threed/descriptorsetupdater/
@@ -16,7 +16,7 @@ java.io.Closeable
 public final class DescriptorSetUpdater implements Closeable
 ```
 
-यह क्लास चेन ऑपरेशन में [IDescriptorSet](../../com.aspose.threed/idescriptorset) को अपडेट करने की अनुमति देती है।
+यह वर्ग चेन ऑपरेशन में [IDescriptorSet](../../com.aspose.threed/idescriptorset) को अपडेट करने की अनुमति देता है।
 ## विधियाँ
 
 | विधि | विवरण |
@@ -27,7 +27,7 @@ public final class DescriptorSetUpdater implements Closeable
 | [bind(int binding, IBuffer buffer)](#bind-int-com.aspose.threed.IBuffer-) | निर्दिष्ट बाइंडिंग स्थान पर बफ़र को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें। |
 | [bind(int binding, IBuffer buffer, int offset, int size)](#bind-int-com.aspose.threed.IBuffer-int-int-) | निर्दिष्ट बाइंडिंग स्थान पर बफ़र को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें। |
 | [bind(int binding, ITextureUnit texture)](#bind-int-com.aspose.threed.ITextureUnit-) | टेक्सचर यूनिट को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें |
-| [close()](#close--) | अपडेटर को डिस्पोज़ करें और परिवर्तन को हार्डवेयर डिवाइस में कमिट करें। |
+| [close()](#close--) | अपडेटर को डिस्पोज़ करें और परिवर्तन को हार्डवेयर डिवाइस पर कमिट करें। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -112,7 +112,7 @@ public DescriptorSetUpdater bind(int binding, IBuffer buffer, int offset, int si
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | बाइंडिंग | int | बाइंडिंग स्थान |
-| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | बाइंड करने के बफ़र |
+| buffer | [IBuffer](../../com.aspose.threed/ibuffer) | बाइंड करने के लिए बफ़र |
 | ऑफ़सेट | int | बाइंड करने के लिए बफ़र का ऑफ़सेट |
 | आकार | int | बाइंड करने के लिए बफ़र का आकार |
 
@@ -140,7 +140,7 @@ public void close()
 ```
 
 
-अपडेटर को डिस्पोज़ करें और परिवर्तन को हार्डवेयर डिवाइस में कमिट करें।
+अपडेटर को डिस्पोज़ करें और परिवर्तन को हार्डवेयर डिवाइस पर कमिट करें।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "VertexElementType"
-second_title: "Aspose.3D for Java API Reference"
-description: "वर्टेक्स एलिमेंट का प्रकार यह निर्धारित करता है कि इसे मॉडलिंग में कैसे उपयोग किया जाएगा।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "वर्टेक्स तत्व का प्रकार निर्धारित करता है कि इसे मॉडलिंग में कैसे उपयोग किया जाएगा।"
 type: docs
 weight: 308
 url: /hi/java/com.aspose.threed/vertexelementtype/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum VertexElementType extends Enum<VertexElementType>
 ```
 
-वर्टेक्स एलिमेंट का प्रकार, यह परिभाषित करता है कि इसे मॉडलिंग में कैसे उपयोग किया जाएगा।
+वर्टेक्स एलिमेंट का प्रकार, जो यह निर्धारित करता है कि इसे मॉडलिंग में कैसे उपयोग किया जाएगा।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
@@ -24,11 +24,11 @@ public enum VertexElementType extends Enum<VertexElementType>
 | [MATERIAL](#MATERIAL) | मैटेरियल इंडेक्स, देखें [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) |
 | [NORMAL](#NORMAL) | नॉर्मल वेक्टर, देखें [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) |
 | [POLYGON_GROUP](#POLYGON-GROUP) | पॉलीगॉन समूह इंडेक्स, देखें [VertexElementPolygonGroup](../../com.aspose.threed/vertexelementpolygongroup) |
-| [SMOOTHING_GROUP](#SMOOTHING-GROUP) | स्मूदिंग ग्रुप, देखें [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) |
-| [SPECULAR](#SPECULAR) | स्पेक्यूलर रंग, देखें [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular) |
+| [SMOOTHING_GROUP](#SMOOTHING-GROUP) | स्मूदिंग समूह, देखें [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) |
+| [SPECULAR](#SPECULAR) | स्पेक्युलर रंग, देखें [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular) |
 | [TANGENT](#TANGENT) | टैन्जेंट वेक्टर, देखें [VertexElementTangent](../../com.aspose.threed/vertexelementtangent) |
-| [USER_DATA](#USER-DATA) | उपयोगकर्ता डेटा, आमतौर पर एप्लिकेशन-विशिष्ट उद्देश्यों के लिए, देखें [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
-| [UV](#UV) | टेक्सचर यूवी कॉर्डिनेट, देखें [VertexElementUV](../../com.aspose.threed/vertexelementuv) |
+| [USER_DATA](#USER-DATA) | उपयोगकर्ता डेटा, आमतौर पर एप्लिकेशन-विशिष्ट उद्देश्य के लिए, देखें [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
+| [UV](#UV) | टेक्सचर यूवी निर्देशांक, देखें [VertexElementUV](../../com.aspose.threed/vertexelementuv) |
 | [VERTEX_COLOR](#VERTEX-COLOR) | वर्टेक्स रंग, देखें [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) |
 | [VERTEX_CREASE](#VERTEX-CREASE) | वर्टेक्स क्रीज़, देखें [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) |
 | [VISIBILITY](#VISIBILITY) | घटक की दृश्यता, देखें [VertexElementVisibility](../../com.aspose.threed/vertexelementvisibility) |
@@ -108,7 +108,7 @@ public static final VertexElementType SMOOTHING_GROUP
 ```
 
 
-स्मूदिंग ग्रुप, देखें [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup)
+स्मूदिंग समूह, देखें [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup)
 
 ### SPECULAR {#SPECULAR}
 ```
@@ -116,7 +116,7 @@ public static final VertexElementType SPECULAR
 ```
 
 
-स्पेक्यूलर रंग, देखें [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular)
+स्पेक्युलर रंग, देखें [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular)
 
 ### TANGENT {#TANGENT}
 ```
@@ -132,7 +132,7 @@ public static final VertexElementType USER_DATA
 ```
 
 
-उपयोगकर्ता डेटा, आमतौर पर एप्लिकेशन-विशिष्ट उद्देश्यों के लिए, देखें [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata)
+उपयोगकर्ता डेटा, आमतौर पर एप्लिकेशन-विशिष्ट उद्देश्य के लिए, देखें [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata)
 
 ### UV {#UV}
 ```
@@ -140,7 +140,7 @@ public static final VertexElementType UV
 ```
 
 
-टेक्सचर यूवी कॉर्डिनेट, देखें [VertexElementUV](../../com.aspose.threed/vertexelementuv)
+टेक्सचर यूवी निर्देशांक, देखें [VertexElementUV](../../com.aspose.threed/vertexelementuv)
 
 ### VERTEX_COLOR {#VERTEX-COLOR}
 ```

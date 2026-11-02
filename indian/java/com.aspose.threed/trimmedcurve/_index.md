@@ -1,7 +1,7 @@
 ---
 title: "TrimmedCurve"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक सीमित वक्र जो दोनों सिरों पर बेसिस वक्र को ट्रिम करता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक सीमित कर्व जो दोनों सिरों पर बेसिस कर्व को ट्रिम करता है।"
 type: docs
 weight: 196
 url: /hi/java/com.aspose.threed/trimmedcurve/
@@ -13,47 +13,47 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class TrimmedCurve extends Curve
 ```
 
-एक सीमित वक्र जो दोनों सिरों पर बेसिस वक्र को ट्रिम करता है।
-## कंस्ट्रक्टर
+एक सीमित कर्व जो दोनों सिरों पर बेसिस कर्व को ट्रिम करता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [TrimmedCurve()](#TrimmedCurve--) | [TrimmedCurve](../../com.aspose.threed/trimmedcurve) का कन्स्ट्रक्टर। |
+| [TrimmedCurve()](#TrimmedCurve--) | [TrimmedCurve](../../com.aspose.threed/trimmedcurve) का कंस्ट्रक्टर। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBasisCurve()](#getBasisCurve--) | कटाई जाने वाली बेसिस कर्व। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getBasisCurve()](#getBasisCurve--) | कटे जाने वाले बेसिस कर्व। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
-| [getFirst()](#getFirst--) | पहला अंत बिंदु जिसे ट्रिम किया जाता है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है। |
+| [getColor()](#getColor--) | रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
+| [getFirst()](#getFirst--) | पहला अंत बिंदु जिसे ट्रिम किया जाना है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getSameDirection()](#getSameDirection--) | जाँचता है कि ट्रिम किया गया परिणाम आधार वक्र की समान दिशा का उपयोग करता है या नहीं। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
-| [getSecond()](#getSecond--) | दूसरा अंत बिंदु जिसे ट्रिम किया जाता है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है। |
+| [getSameDirection()](#getSameDirection--) | जाँचता है कि ट्रिम किया गया परिणाम आधार वक्र की वही दिशा उपयोग करता है या नहीं। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
+| [getSecond()](#getSecond--) | दूसरा अंत बिंदु जिसे ट्रिम किया जाना है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setBasisCurve(Curve value)](#setBasisCurve-com.aspose.threed.Curve-) | कटाई जाने वाली बेसिस कर्व। |
-| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
-| [setFirst(EndPoint value)](#setFirst-com.aspose.threed.EndPoint-) | पहला अंत बिंदु जिसे ट्रिम किया जाता है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है। |
+| [setBasisCurve(Curve value)](#setBasisCurve-com.aspose.threed.Curve-) | कटे जाने वाले बेसिस कर्व। |
+| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
+| [setFirst(EndPoint value)](#setFirst-com.aspose.threed.EndPoint-) | पहला अंत बिंदु जिसे ट्रिम किया जाना है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setSameDirection(boolean value)](#setSameDirection-boolean-) | सेट करता है कि ट्रिम किया गया परिणाम आधार वक्र की समान दिशा का उपयोग करता है या नहीं। |
-| [setSecond(EndPoint value)](#setSecond-com.aspose.threed.EndPoint-) | दूसरा अंत बिंदु जिसे ट्रिम किया जाता है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है। |
+| [setSameDirection(boolean value)](#setSameDirection-boolean-) | सेट करता है कि ट्रिम किया गया परिणाम आधार वक्र की वही दिशा उपयोग करता है या नहीं। |
+| [setSecond(EndPoint value)](#setSecond-com.aspose.threed.EndPoint-) | दूसरा अंत बिंदु जिसे ट्रिम किया जाना है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -64,7 +64,7 @@ public TrimmedCurve()
 ```
 
 
-[TrimmedCurve](../../com.aspose.threed/trimmedcurve) का कन्स्ट्रक्टर।
+[TrimmedCurve](../../com.aspose.threed/trimmedcurve) का कंस्ट्रक्टर।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -87,7 +87,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -102,7 +102,7 @@ public Curve getBasisCurve()
 ```
 
 
-कटाई जाने वाली बेसिस कर्व।
+कटे जाने वाले बेसिस कर्व।
 
 **Returns:**
 [Curve](../../com.aspose.threed/curve) - The basis curve to be trimmed.
@@ -112,7 +112,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -139,7 +139,7 @@ public Vector3 getColor()
 ```
 
 
-रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है
+रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the color of the line, default value is white(1, 1, 1)
@@ -149,7 +149,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -159,17 +159,17 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getFirst() {#getFirst--}
 ```
 public EndPoint getFirst()
 ```
 
 
-पहला अंत बिंदु जिसे ट्रिम किया जाता है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है।
+पहला अंत बिंदु जिसे ट्रिम किया जाना है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है।
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - The first end point to trim, can be a Cartesian point or a real parameter.
@@ -189,7 +189,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -199,7 +199,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -234,17 +234,17 @@ public boolean getSameDirection()
 ```
 
 
-जाँचता है कि ट्रिम किया गया परिणाम आधार वक्र की समान दिशा का उपयोग करता है या नहीं।
+जाँचता है कि ट्रिम किया गया परिणाम आधार वक्र की वही दिशा उपयोग करता है या नहीं।
 
 **Returns:**
-बूलियन - यह दर्शाता है कि ट्रिम किया गया परिणाम आधार वक्र की समान दिशा का उपयोग करता है या नहीं।
+बूलियन - यह दर्शाता है कि ट्रिम किया गया परिणाम आधार वक्र की वही दिशा उपयोग करता है या नहीं।
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -254,7 +254,7 @@ public EndPoint getSecond()
 ```
 
 
-दूसरा अंत बिंदु जिसे ट्रिम किया जाता है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है।
+दूसरा अंत बिंदु जिसे ट्रिम किया जाना है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है।
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - The second end point to trim, can be a Cartesian point or a real parameter.
@@ -320,7 +320,7 @@ public void setBasisCurve(Curve value)
 ```
 
 
-कटाई जाने वाली बेसिस कर्व।
+कटे जाने वाले बेसिस कर्व।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -333,7 +333,7 @@ public void setColor(Vector3 value)
 ```
 
 
-रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है
+रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -346,7 +346,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -359,7 +359,7 @@ public void setFirst(EndPoint value)
 ```
 
 
-पहला अंत बिंदु जिसे ट्रिम किया जाता है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है।
+पहला अंत बिंदु जिसे ट्रिम किया जाना है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -385,7 +385,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -412,7 +412,7 @@ public void setSameDirection(boolean value)
 ```
 
 
-सेट करता है कि ट्रिम किया गया परिणाम आधार वक्र की समान दिशा का उपयोग करता है या नहीं।
+सेट करता है कि ट्रिम किया गया परिणाम आधार वक्र की वही दिशा उपयोग करता है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -425,7 +425,7 @@ public void setSecond(EndPoint value)
 ```
 
 
-दूसरा अंत बिंदु जिसे ट्रिम किया जाता है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है।
+दूसरा अंत बिंदु जिसे ट्रिम किया जाना है, यह एक कार्टेशियन बिंदु या वास्तविक पैरामीटर हो सकता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

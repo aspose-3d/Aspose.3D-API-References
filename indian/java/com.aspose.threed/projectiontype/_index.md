@@ -1,6 +1,6 @@
 ---
 title: "ProjectionType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "कैमरों के प्रोजेक्शन प्रकार।"
 type: docs
 weight: 295
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum ProjectionType extends Enum<ProjectionType>
 ```
 
-कैमरा की प्रोजेक्शन प्रकार।
+कैमरा के प्रोजेक्शन प्रकार।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [ORTHOGRAPHIC](#ORTHOGRAPHIC) | कैमरा orthographic प्रोजेक्शन का उपयोग करता है। |
-| [PERSPECTIVE](#PERSPECTIVE) | कैमरा perspective प्रोजेक्शन का उपयोग करता है। |
+| [ORTHOGRAPHIC](#ORTHOGRAPHIC) | कैमरा ऑर्थोग्राफिक प्रोजेक्शन का उपयोग करता है। |
+| [PERSPECTIVE](#PERSPECTIVE) | कैमरा पर्स्पेक्टिव प्रोजेक्शन का उपयोग करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public static final ProjectionType ORTHOGRAPHIC
 ```
 
 
-कैमरा orthographic प्रोजेक्शन का उपयोग करता है।
+कैमरा ऑर्थोग्राफिक प्रोजेक्शन का उपयोग करता है।
 
 ### PERSPECTIVE {#PERSPECTIVE}
 ```
@@ -55,7 +55,7 @@ public static final ProjectionType PERSPECTIVE
 ```
 
 
-कैमरा perspective प्रोजेक्शन का उपयोग करता है।
+कैमरा पर्स्पेक्टिव प्रोजेक्शन का उपयोग करता है।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

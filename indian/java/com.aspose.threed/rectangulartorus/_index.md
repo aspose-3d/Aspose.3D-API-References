@@ -1,7 +1,7 @@
 ---
 title: "RectangularTorus"
-second_title: "Aspose.3D for Java API Reference"
-description: "पैरामीटराइज़्ड आयताकार टॉरस।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "पैरामीटरयुक्त आयताकार टॉरस।"
 type: docs
 weight: 146
 url: /hi/java/com.aspose.threed/rectangulartorus/
@@ -13,55 +13,55 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class RectangularTorus extends Primitive
 ```
 
-पैरामीटराइज़्ड आयताकार टॉरस।
-## कंस्ट्रक्टर
+पैरामीटरयुक्त आयताकार टॉरस।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [RectangularTorus()](#RectangularTorus--) | [RectangularTorus](../../com.aspose.threed/rectangulartorus) का कंस्ट्रक्टर |
-| [RectangularTorus(String name)](#RectangularTorus-java.lang.String-) | [RectangularTorus](../../com.aspose.threed/rectangulartorus) का कंस्ट्रक्टर |
+| [RectangularTorus()](#RectangularTorus--) | [RectangularTorus](../../com.aspose.threed/rectangulartorus) का कन्स्ट्रक्टर |
+| [RectangularTorus(String name)](#RectangularTorus-java.lang.String-) | [RectangularTorus](../../com.aspose.threed/rectangulartorus) का कन्स्ट्रक्टर |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getAngleStart()](#getAngleStart--) | वृत्तांश का प्रारंभिक कोण, रेडियन में मापा गया। |
-| [getArc()](#getArc--) | वृत्तांश का कुल कोण, रेडियन में मापा गया। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
-| [getCastShadows()](#getCastShadows--) | यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है |
+| [getAngleStart()](#getAngleStart--) | वक्र का प्रारंभिक कोण, रेडियन में मापा गया। |
+| [getArc()](#getArc--) | वक्र का कुल कोण, रेडियन में मापा गया। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getCastShadows()](#getCastShadows--) | यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getHeight()](#getHeight--) | आयताकार टॉरस की ऊँचाई। |
-| [getInnerRadius()](#getInnerRadius--) | आयताकार टॉरस की आंतरिक त्रिज्या, डिफ़ॉल्ट मान 17 है। |
+| [getInnerRadius()](#getInnerRadius--) | आयताकार टॉरस का आंतरिक त्रिज्या, डिफ़ॉल्ट मान 17 है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getOuterRadius()](#getOuterRadius--) | आयताकार टॉरस की बाहरी त्रिज्या, डिफ़ॉल्ट मान 20 है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getOuterRadius()](#getOuterRadius--) | आयताकार टॉरस का बाहरी त्रिज्या, डिफ़ॉल्ट मान 20 है। |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getRadialSegments()](#getRadialSegments--) | रेडियल खंड, डिफ़ॉल्ट मान 10 है। |
-| [getReceiveShadows()](#getReceiveShadows--) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getRadialSegments()](#getRadialSegments--) | रेडियल सेगमेंट, डिफ़ॉल्ट मान 10 है। |
+| [getReceiveShadows()](#getReceiveShadows--) | यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setAngleStart(double value)](#setAngleStart-double-) | वृत्तांश का प्रारंभिक कोण, रेडियन में मापा गया। |
-| [setArc(double value)](#setArc-double-) | वृत्तांश का कुल कोण, रेडियन में मापा गया। |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setAngleStart(double value)](#setAngleStart-double-) | वक्र का प्रारंभिक कोण, रेडियन में मापा गया। |
+| [setArc(double value)](#setArc-double-) | वक्र का कुल कोण, रेडियन में मापा गया। |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setHeight(double value)](#setHeight-double-) | आयताकार टॉरस की ऊँचाई। |
-| [setInnerRadius(double value)](#setInnerRadius-double-) | आयताकार टॉरस की आंतरिक त्रिज्या, डिफ़ॉल्ट मान 17 है। |
+| [setInnerRadius(double value)](#setInnerRadius-double-) | आयताकार टॉरस का आंतरिक त्रिज्या, डिफ़ॉल्ट मान 17 है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setOuterRadius(double value)](#setOuterRadius-double-) | आयताकार टॉरस की बाहरी त्रिज्या, डिफ़ॉल्ट मान 20 है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setOuterRadius(double value)](#setOuterRadius-double-) | आयताकार टॉरस का बाहरी त्रिज्या, डिफ़ॉल्ट मान 20 है। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setRadialSegments(int value)](#setRadialSegments-int-) | रेडियल खंड, डिफ़ॉल्ट मान 10 है। |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है। |
-| [toMesh()](#toMesh--) | इस प्रिमिटिव को [Mesh](../../com.aspose.threed/mesh) में परिवर्तित करें। |
+| [setRadialSegments(int value)](#setRadialSegments-int-) | रेडियल सेगमेंट, डिफ़ॉल्ट मान 10 है। |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [toMesh()](#toMesh--) | इस प्रिमिटिव को [Mesh](../../com.aspose.threed/mesh) में परिवर्तित करें |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -72,7 +72,7 @@ public RectangularTorus()
 ```
 
 
-[RectangularTorus](../../com.aspose.threed/rectangulartorus) का कंस्ट्रक्टर
+[RectangularTorus](../../com.aspose.threed/rectangulartorus) का कन्स्ट्रक्टर
 
 ### RectangularTorus(String name) {#RectangularTorus-java.lang.String-}
 ```
@@ -80,7 +80,7 @@ public RectangularTorus(String name)
 ```
 
 
-[RectangularTorus](../../com.aspose.threed/rectangulartorus) का कंस्ट्रक्टर
+[RectangularTorus](../../com.aspose.threed/rectangulartorus) का कन्स्ट्रक्टर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -108,7 +108,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -123,7 +123,7 @@ public double getAngleStart()
 ```
 
 
-वृत्तांश का प्रारंभिक कोण, रेडियन में मापा गया। डिफ़ॉल्ट मान 0 है।
+वक्र का प्रारंभिक कोण, रेडियन में मापा गया। डिफ़ॉल्ट मान 0 है।
 
 **Returns:**
 double - आर्क का प्रारंभिक कोण, रेडियन में मापा गया। डिफ़ॉल्ट मान 0 है।
@@ -143,7 +143,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -160,7 +160,7 @@ public boolean getCastShadows()
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है
+यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया डाल सकती है
@@ -180,7 +180,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -190,10 +190,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -210,10 +210,10 @@ public double getInnerRadius()
 ```
 
 
-आयताकार टॉरस की आंतरिक त्रिज्या, डिफ़ॉल्ट मान 17 है।
+आयताकार टॉरस का आंतरिक त्रिज्या, डिफ़ॉल्ट मान 17 है।
 
 **Returns:**
-double - आयताकार टोरस का आंतरिक त्रिज्या। डिफ़ॉल्ट मान 17 है।
+double - आयताकार टोरस की आंतरिक त्रिज्या। डिफ़ॉल्ट मान 17 है।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -230,17 +230,17 @@ public double getOuterRadius()
 ```
 
 
-आयताकार टॉरस की बाहरी त्रिज्या, डिफ़ॉल्ट मान 20 है।
+आयताकार टॉरस का बाहरी त्रिज्या, डिफ़ॉल्ट मान 20 है।
 
 **Returns:**
-double - आयताकार टोरस का बाहरी त्रिज्या। डिफ़ॉल्ट मान 20 है।
+double - आयताकार टोरस की बाहरी त्रिज्या। डिफ़ॉल्ट मान 20 है।
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -250,7 +250,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -285,7 +285,7 @@ public int getRadialSegments()
 ```
 
 
-रेडियल खंड, डिफ़ॉल्ट मान 10 है।
+रेडियल सेगमेंट, डिफ़ॉल्ट मान 10 है।
 
 **Returns:**
 int - रेडियल सेगमेंट्स, डिफ़ॉल्ट मान 10 है।
@@ -295,7 +295,7 @@ public boolean getReceiveShadows()
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है।
+यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया प्राप्त कर सकती है।
@@ -305,7 +305,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -371,7 +371,7 @@ public void setAngleStart(double value)
 ```
 
 
-वृत्तांश का प्रारंभिक कोण, रेडियन में मापा गया। डिफ़ॉल्ट मान 0 है।
+वक्र का प्रारंभिक कोण, रेडियन में मापा गया। डिफ़ॉल्ट मान 0 है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -397,7 +397,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है
+यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -410,7 +410,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -436,7 +436,7 @@ public void setInnerRadius(double value)
 ```
 
 
-आयताकार टॉरस की आंतरिक त्रिज्या, डिफ़ॉल्ट मान 17 है।
+आयताकार टॉरस का आंतरिक त्रिज्या, डिफ़ॉल्ट मान 17 है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -462,7 +462,7 @@ public void setOuterRadius(double value)
 ```
 
 
-आयताकार टॉरस की बाहरी त्रिज्या, डिफ़ॉल्ट मान 20 है।
+आयताकार टॉरस का बाहरी त्रिज्या, डिफ़ॉल्ट मान 20 है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -475,7 +475,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -502,7 +502,7 @@ public void setRadialSegments(int value)
 ```
 
 
-रेडियल खंड, डिफ़ॉल्ट मान 10 है।
+रेडियल सेगमेंट, डिफ़ॉल्ट मान 10 है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -515,7 +515,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है।
+यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -528,7 +528,7 @@ public Mesh toMesh()
 ```
 
 
-इस प्रिमिटिव को [Mesh](../../com.aspose.threed/mesh) में परिवर्तित करें।
+इस प्रिमिटिव को [Mesh](../../com.aspose.threed/mesh) में परिवर्तित करें
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh)

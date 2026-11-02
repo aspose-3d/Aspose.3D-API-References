@@ -1,7 +1,7 @@
 ---
 title: "DriverException"
-second_title: "Aspose.3D for Java API Reference"
-description: "आंतरिक रेंडरिंग ड्राइवरों द्वारा उत्पन्न अपवाद।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "आंतरिक रेंडरिंग ड्राइवरों द्वारा उठाई गई अपवाद।"
 type: docs
 weight: 48
 url: /hi/java/com.aspose.threed/driverexception/
@@ -13,10 +13,10 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 public class DriverException extends Exception
 ```
 
-आंतरिक रेंडरिंग ड्राइवरों द्वारा उत्पन्न अपवाद।
-## कंस्ट्रक्टर
+आंतरिक रेंडरिंग ड्राइवरों द्वारा उठाई गई अपवाद।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [DriverException(int code, String message)](#DriverException-int-java.lang.String-) | निर्दिष्ट मूल ड्राइवर त्रुटि कोड और संदेश के साथ [DriverException](../../com.aspose.threed/driverexception) का एक उदाहरण प्रारंभ करें। |
 ## विधियाँ
@@ -56,8 +56,8 @@ public DriverException(int code, String message)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| code | int |  |
-| message | java.lang.String |  |
+| कोड | int |  |
+| संदेश | java.lang.String |  |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

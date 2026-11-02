@@ -1,6 +1,6 @@
 ---
 title: "अक्ष"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "निर्देशांक अक्ष।"
 type: docs
 weight: 265

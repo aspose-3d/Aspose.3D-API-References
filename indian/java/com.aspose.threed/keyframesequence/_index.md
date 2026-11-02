@@ -1,7 +1,7 @@
 ---
 title: "KeyframeSequence"
-second_title: "Aspose.3D for Java API Reference"
-description: "कुंजी-फ़्रेमों की अनुक्रम यह वर्णन करता है कि एक नमूना मान समय के साथ कैसे रूपांतरित होता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "कीफ़्रेम की क्रम वह एक नमूना मान के समय के साथ परिवर्तन को वर्णित करता है।"
 type: docs
 weight: 90
 url: /hi/java/com.aspose.threed/keyframesequence/
@@ -16,36 +16,36 @@ java.lang.Iterable
 public class KeyframeSequence extends A3DObject implements Iterable<KeyFrame>
 ```
 
-कीफ़्रेम्स की क्रम, यह समय के साथ सैंपल किए गए मान के परिवर्तन का वर्णन करता है।
-## कंस्ट्रक्टर
+कीफ़्रेमों की अनुक्रम, यह समय के साथ सैंपल किए गए मान के परिवर्तन का वर्णन करता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [KeyframeSequence(String name)](#KeyframeSequence-java.lang.String-) | एक नया उदाहरण प्रारंभ करता है [KeyframeSequence](../../com.aspose.threed/keyframesequence) वर्ग का। |
-| [KeyframeSequence()](#KeyframeSequence--) | एक नया उदाहरण प्रारंभ करता है [KeyframeSequence](../../com.aspose.threed/keyframesequence) वर्ग का। |
+| [KeyframeSequence(String name)](#KeyframeSequence-java.lang.String-) | नया उदाहरण [KeyframeSequence](../../com.aspose.threed/keyframesequence) वर्ग को प्रारंभ करता है। |
+| [KeyframeSequence()](#KeyframeSequence--) | नया उदाहरण [KeyframeSequence](../../com.aspose.threed/keyframesequence) वर्ग को प्रारंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [add(double time, float value)](#add-double-float-) | निर्दिष्ट मान के साथ एक नया कुंजी फ़्रेम बनाएं |
-| [add(double time, float value, Interpolation interpolation)](#add-double-float-com.aspose.threed.Interpolation-) | निर्दिष्ट मान के साथ एक नया कुंजी फ़्रेम बनाएं |
+| [add(double time, float value)](#add-double-float-) | निर्दिष्ट मान के साथ नया की फ़्रेम बनाएं |
+| [add(double time, float value, Interpolation interpolation)](#add-double-float-com.aspose.threed.Interpolation-) | निर्दिष्ट मान के साथ नया की फ़्रेम बनाएं |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBindPoint()](#getBindPoint--) | उस प्रॉपर्टी बाइंड पॉइंट को प्राप्त करता है जो इस कर्व का स्वामित्व रखता है |
+| [getBindPoint()](#getBindPoint--) | उस प्रॉपर्टी बाइंड पॉइंट को प्राप्त करता है जो इस कर्व का स्वामी है |
 | [getClass()](#getClass--) |  |
-| [getKeyFrames()](#getKeyFrames--) | इस कर्व के कुंजी फ़्रेम प्राप्त करता है। |
+| [getKeyFrames()](#getKeyFrames--) | इस कर्व के कीफ़्रेम प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getPostBehavior()](#getPostBehavior--) | पोस्ट व्यवहार प्राप्त करता है जो दर्शाता है कि अंतिम कुंजी फ़्रेम के बाद नमूना मान क्या होना चाहिए। |
-| [getPreBehavior()](#getPreBehavior--) | प्रि व्यवहार प्राप्त करता है जो दर्शाता है कि पहले कुंजी फ़्रेम से पहले नमूना मान क्या होना चाहिए। |
+| [getPostBehavior()](#getPostBehavior--) | पोस्ट व्यवहार प्राप्त करता है जो दर्शाता है कि अंतिम कीफ़्रेम के बाद नमूना मान क्या होना चाहिए। |
+| [getPreBehavior()](#getPreBehavior--) | प्रि व्यवहार प्राप्त करता है जो दर्शाता है कि पहले कीफ़्रेम से पहले नमूना मान क्या होना चाहिए। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | सभी कुंजी फ़्रेमों को पार करने के लिए एन्यूमरेटर प्राप्त करता है। |
+| [iterator()](#iterator--) | सभी कीफ़्रेम को पार करने के लिए एन्यूमरेटर प्राप्त करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [reset()](#reset--) | सभी कुंजी फ़्रेमों को हटाता है और पोस्ट/प्रि व्यवहारों को रीसेट करता है। |
+| [reset()](#reset--) | सभी कीफ़्रेम हटाता है और पोस्ट/प्रि व्यवहारों को रीसेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [toString()](#toString--) |  |
@@ -58,7 +58,7 @@ public KeyframeSequence(String name)
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [KeyframeSequence](../../com.aspose.threed/keyframesequence) वर्ग का।
+नया उदाहरण [KeyframeSequence](../../com.aspose.threed/keyframesequence) वर्ग को प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -71,7 +71,7 @@ public KeyframeSequence()
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [KeyframeSequence](../../com.aspose.threed/keyframesequence) वर्ग का।
+नया उदाहरण [KeyframeSequence](../../com.aspose.threed/keyframesequence) वर्ग को प्रारंभ करता है।
 
 ### add(double time, float value) {#add-double-float-}
 ```
@@ -79,7 +79,7 @@ public void add(double time, float value)
 ```
 
 
-निर्दिष्ट मान के साथ एक नया कुंजी फ़्रेम बनाएं
+निर्दिष्ट मान के साथ नया की फ़्रेम बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -93,14 +93,14 @@ public void add(double time, float value, Interpolation interpolation)
 ```
 
 
-निर्दिष्ट मान के साथ एक नया कुंजी फ़्रेम बनाएं
+निर्दिष्ट मान के साथ नया की फ़्रेम बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | समय | double | समय स्थिति (सेकंड में मापी गई) |
 | मान | फ़्लोट | इस समय स्थिति पर मान |
-| interpolation | [Interpolation](../../com.aspose.threed/interpolation) | इस कुंजी फ़्रेम का इंटरपोलेशन प्रकार |
+| interpolation | [Interpolation](../../com.aspose.threed/interpolation) | इस कीफ़्रेम का इंटरपोलेशन प्रकार |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -123,7 +123,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -138,7 +138,7 @@ public BindPoint getBindPoint()
 ```
 
 
-उस प्रॉपर्टी बाइंड पॉइंट को प्राप्त करता है जो इस कर्व का स्वामित्व रखता है
+उस प्रॉपर्टी बाइंड पॉइंट को प्राप्त करता है जो इस कर्व का स्वामी है
 
 **Returns:**
 [BindPoint](../../com.aspose.threed/bindpoint) - the property bind point which owns this curve
@@ -158,10 +158,10 @@ public List<KeyFrame> getKeyFrames()
 ```
 
 
-इस कर्व के कुंजी फ़्रेम प्राप्त करता है।
+इस कर्व के कीफ़्रेम प्राप्त करता है।
 
 **Returns:**
-java.util.List<com.aspose.threed.KeyFrame> - इस कर्व के कुंजी फ़्रेम।
+java.util.List<com.aspose.threed.KeyFrame> - इस कर्व के कीफ़्रेम।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -178,7 +178,7 @@ public Extrapolation getPostBehavior()
 ```
 
 
-पोस्ट व्यवहार प्राप्त करता है जो दर्शाता है कि अंतिम कुंजी फ़्रेम के बाद नमूना मान क्या होना चाहिए।
+पोस्ट व्यवहार प्राप्त करता है जो दर्शाता है कि अंतिम कीफ़्रेम के बाद नमूना मान क्या होना चाहिए।
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the post behavior indicates what the sampled value should be after the last key frame.
@@ -188,7 +188,7 @@ public Extrapolation getPreBehavior()
 ```
 
 
-प्रि व्यवहार प्राप्त करता है जो दर्शाता है कि पहले कुंजी फ़्रेम से पहले नमूना मान क्या होना चाहिए।
+प्रि व्यवहार प्राप्त करता है जो दर्शाता है कि पहले कीफ़्रेम से पहले नमूना मान क्या होना चाहिए।
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the pre behavior indicates what the sampled value should be before the first key.
@@ -233,7 +233,7 @@ public Iterator<KeyFrame> iterator()
 ```
 
 
-सभी कुंजी फ़्रेमों को पार करने के लिए एन्यूमरेटर प्राप्त करता है।
+सभी कीफ़्रेम को पार करने के लिए एन्यूमरेटर प्राप्त करता है।
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.KeyFrame>
@@ -289,7 +289,7 @@ public void reset()
 ```
 
 
-सभी कुंजी फ़्रेमों को हटाता है और पोस्ट/प्रि व्यवहारों को रीसेट करता है।
+सभी कीफ़्रेम हटाता है और पोस्ट/प्रि व्यवहारों को रीसेट करता है।
 
 ### setName(String value) {#setName-java.lang.String-}
 ```

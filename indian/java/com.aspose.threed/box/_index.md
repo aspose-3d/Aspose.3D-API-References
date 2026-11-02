@@ -1,6 +1,6 @@
 ---
 title: "Box"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "बॉक्स।"
 type: docs
 weight: 26
@@ -14,9 +14,9 @@ public class Box extends Primitive
 ```
 
 बॉक्स।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [Box()](#Box--) | एक नया उदाहरण प्रारंभ करता है [Box](../../com.aspose.threed/box) क्लास का। |
 | [Box(double length, double width, double height)](#Box-double-double-double-) | एक नया उदाहरण प्रारंभ करता है [Box](../../com.aspose.threed/box) क्लास का। |
@@ -27,22 +27,22 @@ public class Box extends Primitive
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
-| [getCastShadows()](#getCastShadows--) | यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getCastShadows()](#getCastShadows--) | यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getHeight()](#getHeight--) | बॉक्स की ऊँचाई प्राप्त करता है जो y-अक्ष में संरेखित है। |
-| [getHeightSegments()](#getHeightSegments--) | ऊँचाई सेगमेंट को प्राप्त करता या सेट करता है। |
+| [getHeightSegments()](#getHeightSegments--) | ऊँचाई सेगमेंट को प्राप्त करता है या सेट करता है। |
 | [getLength()](#getLength--) | बॉक्स की लंबाई प्राप्त करता है जो z-अक्ष में संरेखित है। |
 | [getLengthSegments()](#getLengthSegments--) | लंबाई खंड प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getReceiveShadows()](#getReceiveShadows--) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getReceiveShadows()](#getReceiveShadows--) | यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [getWidth()](#getWidth--) | बॉक्स की चौड़ाई प्राप्त करता है जो x-अक्ष में संरेखित है। |
 | [getWidthSegments()](#getWidthSegments--) | चौड़ाई सेगमेंट प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
@@ -50,17 +50,17 @@ public class Box extends Primitive
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
-| [setHeight(double value)](#setHeight-double-) | बॉक्स की ऊँचाई सेट करता है जो y‑अक्ष में संरेखित है। |
-| [setHeightSegments(int value)](#setHeightSegments-int-) | ऊँचाई सेगमेंट को प्राप्त करता या सेट करता है। |
-| [setLength(double value)](#setLength-double-) | बॉक्स की लंबाई सेट करता है जो z‑अक्ष में संरेखित है। |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
+| [setHeight(double value)](#setHeight-double-) | y-अक्ष में संरेखित बॉक्स की ऊँचाई सेट करता है। |
+| [setHeightSegments(int value)](#setHeightSegments-int-) | ऊँचाई सेगमेंट को प्राप्त करता है या सेट करता है। |
+| [setLength(double value)](#setLength-double-) | z-अक्ष में संरेखित बॉक्स की लंबाई सेट करता है। |
 | [setLengthSegments(int value)](#setLengthSegments-int-) | लंबाई खंड सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है। |
-| [setWidth(double value)](#setWidth-double-) | बॉक्स की चौड़ाई सेट करता है जो x‑अक्ष में संरेखित है। |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [setWidth(double value)](#setWidth-double-) | x-अक्ष में संरेखित बॉक्स की चौड़ाई सेट करता है। |
 | [setWidthSegments(int value)](#setWidthSegments-int-) | चौड़ाई खंड सेट करता है |
 | [toMesh()](#toMesh--) | वर्तमान ऑब्जेक्ट को मेष में परिवर्तित करें |
 | [toString()](#toString--) |  |
@@ -86,9 +86,9 @@ public Box(double length, double width, double height)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| लंबाई | double | बॉक्स की लंबाई जो z‑अक्ष में संरेखित है। |
-| चौड़ाई | double | बॉक्स की चौड़ाई जो x‑अक्ष में संरेखित है। |
-| ऊँचाई | double | बॉक्स की ऊँचाई जो y‑अक्ष में संरेखित है। |
+| लंबाई | double | z-अक्ष में संरेखित बॉक्स की लंबाई। |
+| चौड़ाई | double | x-अक्ष में संरेखित बॉक्स की चौड़ाई। |
+| ऊँचाई | double | y-अक्ष में संरेखित बॉक्स की ऊँचाई। |
 
 ### Box(String name, double length, double width, double height, int lengthSegments, int widthSegments, int heightSegments) {#Box-java.lang.String-double-double-double-int-int-int-}
 ```
@@ -102,9 +102,9 @@ public Box(String name, double length, double width, double height, int lengthSe
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | नाम | java.lang.String | बॉक्स का नाम। |
-| लंबाई | double | बॉक्स की लंबाई जो z‑अक्ष में संरेखित है। |
-| चौड़ाई | double | बॉक्स की चौड़ाई जो x‑अक्ष में संरेखित है। |
-| ऊँचाई | double | बॉक्स की ऊँचाई जो y‑अक्ष में संरेखित है। |
+| लंबाई | double | z-अक्ष में संरेखित बॉक्स की लंबाई। |
+| चौड़ाई | double | x-अक्ष में संरेखित बॉक्स की चौड़ाई। |
+| ऊँचाई | double | y-अक्ष में संरेखित बॉक्स की ऊँचाई। |
 | lengthSegments | int | लंबाई खंड। |
 | widthSegments | int | चौड़ाई खंड। |
 | heightSegments | int | ऊँचाई खंड। |
@@ -130,7 +130,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -145,7 +145,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -162,7 +162,7 @@ public boolean getCastShadows()
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है
+यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया डाल सकती है
@@ -182,7 +182,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -192,10 +192,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -205,14 +205,14 @@ public double getHeight()
 बॉक्स की ऊँचाई प्राप्त करता है जो y-अक्ष में संरेखित है।
 
 **Returns:**
-double - बॉक्स की ऊँचाई जो y‑अक्ष में संरेखित है।
+double - y-अक्ष में संरेखित बॉक्स की ऊँचाई।
 ### getHeightSegments() {#getHeightSegments--}
 ```
 public int getHeightSegments()
 ```
 
 
-ऊँचाई सेगमेंट को प्राप्त करता या सेट करता है।
+ऊँचाई सेगमेंट को प्राप्त करता है या सेट करता है।
 
 **Returns:**
 int - ऊँचाई खंड प्राप्त करता है या सेट करता है।
@@ -225,7 +225,7 @@ public double getLength()
 बॉक्स की लंबाई प्राप्त करता है जो z-अक्ष में संरेखित है।
 
 **Returns:**
-double - बॉक्स की लंबाई जो z‑अक्ष में संरेखित है।
+double - z-अक्ष में संरेखित बॉक्स की लंबाई।
 ### getLengthSegments() {#getLengthSegments--}
 ```
 public int getLengthSegments()
@@ -252,7 +252,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -262,7 +262,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -297,7 +297,7 @@ public boolean getReceiveShadows()
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है।
+यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया प्राप्त कर सकती है।
@@ -307,7 +307,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -320,7 +320,7 @@ public double getWidth()
 बॉक्स की चौड़ाई प्राप्त करता है जो x-अक्ष में संरेखित है।
 
 **Returns:**
-double - बॉक्स की चौड़ाई जो x‑अक्ष में संरेखित है।
+double - x-अक्ष में संरेखित बॉक्स की चौड़ाई।
 ### getWidthSegments() {#getWidthSegments--}
 ```
 public int getWidthSegments()
@@ -393,7 +393,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है
+यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -406,7 +406,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -419,7 +419,7 @@ public void setHeight(double value)
 ```
 
 
-बॉक्स की ऊँचाई सेट करता है जो y‑अक्ष में संरेखित है।
+y-अक्ष में संरेखित बॉक्स की ऊँचाई सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -432,7 +432,7 @@ public void setHeightSegments(int value)
 ```
 
 
-ऊँचाई सेगमेंट को प्राप्त करता या सेट करता है।
+ऊँचाई सेगमेंट को प्राप्त करता है या सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -445,7 +445,7 @@ public void setLength(double value)
 ```
 
 
-बॉक्स की लंबाई सेट करता है जो z‑अक्ष में संरेखित है।
+z-अक्ष में संरेखित बॉक्स की लंबाई सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -484,7 +484,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -511,7 +511,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है।
+यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -524,7 +524,7 @@ public void setWidth(double value)
 ```
 
 
-बॉक्स की चौड़ाई सेट करता है जो x‑अक्ष में संरेखित है।
+x-अक्ष में संरेखित बॉक्स की चौड़ाई सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,7 +1,7 @@
 ---
 title: "ShaderSource"
-second_title: "Aspose.3D for Java API Reference"
-description: "शेडर का स्रोत कोड।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "शेडर का स्रोत कोड"
 type: docs
 weight: 167
 url: /hi/java/com.aspose.threed/shadersource/
@@ -13,10 +13,10 @@ java.lang.Object
 public abstract class ShaderSource
 ```
 
-शेडर का स्रोत कोड।
-## कंस्ट्रक्टर
+शेडर का स्रोत कोड
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [ShaderSource()](#ShaderSource--) |  |
 ## विधियाँ

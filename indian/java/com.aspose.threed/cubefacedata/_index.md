@@ -1,6 +1,6 @@
 ---
 title: "CubeFaceData"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "क्यूब मैप टेक्सचर के प्रत्येक फेस के लिए डेटा।"
 type: docs
 weight: 36
@@ -17,9 +17,9 @@ public final class CubeFaceData<T> implements Struct<CubeFaceData<T>>, Serializa
 ```
 
 क्यूब मैप टेक्सचर के प्रत्येक फेस के लिए डेटा।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [CubeFaceData()](#CubeFaceData--) |  |
 ## विधियाँ
@@ -29,20 +29,20 @@ public final class CubeFaceData<T> implements Struct<CubeFaceData<T>>, Serializa
 | [clone()](#clone--) |  |
 | [copyFrom(CubeFaceData<T> src)](#copyFrom-com.aspose.threed.CubeFaceData-T--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [get(CubeFace face)](#get-com.aspose.threed.CubeFace-) | निर्दिष्ट फेस के डेटा को प्राप्त करता है |
-| [getBack()](#getBack--) | +Z (बैक) फेस के डेटा को प्राप्त करता है |
-| [getBottom()](#getBottom--) | -Y (बॉटम) फेस के डेटा को प्राप्त करता है |
+| [get(CubeFace face)](#get-com.aspose.threed.CubeFace-) | निर्दिष्ट फेस के लिए डेटा प्राप्त करता है |
+| [getBack()](#getBack--) | +Z (बैक) फेस के लिए डेटा प्राप्त करता है |
+| [getBottom()](#getBottom--) | -Y (बॉटम) फेस के लिए डेटा प्राप्त करता है |
 | [getClass()](#getClass--) |  |
-| [getFront()](#getFront--) | -Z (फ्रंट) फेस के डेटा को प्राप्त करता है |
-| [getLeft()](#getLeft--) | +X (लेफ़्ट) फेस के डेटा को प्राप्त करता है |
-| [getNegativeX()](#getNegativeX--) | +X (लेफ़्ट) फेस के डेटा को प्राप्त करता है |
-| [getNegativeY()](#getNegativeY--) | -Y (बॉटम) फेस के डेटा को प्राप्त करता है |
-| [getNegativeZ()](#getNegativeZ--) | -Z (फ्रंट) फेस के डेटा को प्राप्त करता है |
-| [getPositiveX()](#getPositiveX--) | +X (राइट) फेस के डेटा को प्राप्त करता है |
-| [getPositiveY()](#getPositiveY--) | +Y (टॉप) फेस के डेटा को प्राप्त करता है |
-| [getPositiveZ()](#getPositiveZ--) | +Z (बैक) फेस के डेटा को प्राप्त करता है |
-| [getRight()](#getRight--) | +X (राइट) फेस के डेटा को प्राप्त करता है |
-| [getTop()](#getTop--) | +Y (टॉप) फेस के डेटा को प्राप्त करता है |
+| [getFront()](#getFront--) | -Z (फ्रंट) फेस के लिए डेटा प्राप्त करता है |
+| [getLeft()](#getLeft--) | +X (लेफ्ट) फेस के लिए डेटा प्राप्त करता है |
+| [getNegativeX()](#getNegativeX--) | +X (लेफ्ट) फेस के लिए डेटा प्राप्त करता है |
+| [getNegativeY()](#getNegativeY--) | -Y (बॉटम) फेस के लिए डेटा प्राप्त करता है |
+| [getNegativeZ()](#getNegativeZ--) | -Z (फ्रंट) फेस के लिए डेटा प्राप्त करता है |
+| [getPositiveX()](#getPositiveX--) | +X (राइट) फेस के लिए डेटा प्राप्त करता है |
+| [getPositiveY()](#getPositiveY--) | +Y (टॉप) फेस के लिए डेटा प्राप्त करता है |
+| [getPositiveZ()](#getPositiveZ--) | +Z (बैक) फेस के लिए डेटा प्राप्त करता है |
+| [getRight()](#getRight--) | +X (राइट) फेस के लिए डेटा प्राप्त करता है |
+| [getTop()](#getTop--) | +Y (टॉप) फेस के लिए डेटा प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -113,7 +113,7 @@ public T get(CubeFace face)
 ```
 
 
-निर्दिष्ट फेस के डेटा को प्राप्त करता है
+निर्दिष्ट फेस के लिए डेटा प्राप्त करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -128,7 +128,7 @@ public T getBack()
 ```
 
 
-+Z (बैक) फेस के डेटा को प्राप्त करता है
++Z (बैक) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - +Z(Back) फेस के लिए डेटा
@@ -138,7 +138,7 @@ public T getBottom()
 ```
 
 
--Y (बॉटम) फेस के डेटा को प्राप्त करता है
+-Y (बॉटम) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - -Y(Bottom) फेस के लिए डेटा
@@ -158,7 +158,7 @@ public T getFront()
 ```
 
 
--Z (फ्रंट) फेस के डेटा को प्राप्त करता है
+-Z (फ्रंट) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - -Z(Front) फेस के लिए डेटा
@@ -168,7 +168,7 @@ public T getLeft()
 ```
 
 
-+X (लेफ़्ट) फेस के डेटा को प्राप्त करता है
++X (लेफ्ट) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - +X(Left) फेस के लिए डेटा
@@ -178,7 +178,7 @@ public T getNegativeX()
 ```
 
 
-+X (लेफ़्ट) फेस के डेटा को प्राप्त करता है
++X (लेफ्ट) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - +X(Left) फेस के लिए डेटा
@@ -188,7 +188,7 @@ public T getNegativeY()
 ```
 
 
--Y (बॉटम) फेस के डेटा को प्राप्त करता है
+-Y (बॉटम) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - -Y(Bottom) फेस के लिए डेटा
@@ -198,7 +198,7 @@ public T getNegativeZ()
 ```
 
 
--Z (फ्रंट) फेस के डेटा को प्राप्त करता है
+-Z (फ्रंट) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - -Z(Front) फेस के लिए डेटा
@@ -208,7 +208,7 @@ public T getPositiveX()
 ```
 
 
-+X (राइट) फेस के डेटा को प्राप्त करता है
++X (राइट) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - +X(Right) फेस के लिए डेटा
@@ -218,7 +218,7 @@ public T getPositiveY()
 ```
 
 
-+Y (टॉप) फेस के डेटा को प्राप्त करता है
++Y (टॉप) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - +Y(Top) फेस के लिए डेटा
@@ -228,7 +228,7 @@ public T getPositiveZ()
 ```
 
 
-+Z (बैक) फेस के डेटा को प्राप्त करता है
++Z (बैक) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - +Z(Back) फेस के लिए डेटा
@@ -238,7 +238,7 @@ public T getRight()
 ```
 
 
-+X (राइट) फेस के डेटा को प्राप्त करता है
++X (राइट) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - +X(Right) फेस के लिए डेटा
@@ -248,7 +248,7 @@ public T getTop()
 ```
 
 
-+Y (टॉप) फेस के डेटा को प्राप्त करता है
++Y (टॉप) फेस के लिए डेटा प्राप्त करता है
 
 **Returns:**
 T - +Y(Top) फेस के लिए डेटा

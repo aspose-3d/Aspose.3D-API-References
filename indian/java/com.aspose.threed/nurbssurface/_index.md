@@ -1,7 +1,7 @@
 ---
 title: "NurbsSurface"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक सतह है जो NURBSNon-uniform rational basis spline द्वारा प्रतिनिधित्व की गई है  A  दो  और  द्वारा परिभाषित है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "NURBS (Non-uniform rational basis spline) द्वारा प्रतिनिधित्व किया गया एक सतह है। A दो  और  द्वारा परिभाषित है।"
 type: docs
 weight: 114
 url: /hi/java/com.aspose.threed/nurbssurface/
@@ -20,17 +20,17 @@ public class NurbsSurface extends Geometry implements IMeshConvertible
 
 
 [NURBS_Non-uniform rational basis spline]: https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [NurbsSurface()](#NurbsSurface--) | नए [NurbsSurface](../../com.aspose.threed/nurbssurface) वर्ग का एक नया उदाहरण आरंभ करता है। |
-| [NurbsSurface(String name)](#NurbsSurface-java.lang.String-) | नए [NurbsSurface](../../com.aspose.threed/nurbssurface) वर्ग का एक नया उदाहरण आरंभ करता है। |
+| [NurbsSurface()](#NurbsSurface--) | [NurbsSurface](../../com.aspose.threed/nurbssurface) वर्ग का एक नया उदाहरण आरंभ करता है। |
+| [NurbsSurface(String name)](#NurbsSurface-java.lang.String-) | [NurbsSurface](../../com.aspose.threed/nurbssurface) वर्ग का एक नया उदाहरण आरंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [<T>getDeformers2()](#-T-getDeformers2--) | निर्दिष्ट डिफॉर्मर प्रकारों के साथ सभी डिफॉर्मर प्राप्त करता है |
+| [<T>getDeformers2()](#-T-getDeformers2--) | निर्दिष्ट डीफ़ॉर्मर प्रकारों के साथ सभी डीफ़ॉर्मर प्राप्त करता है |
 | [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | वर्तमान ज्यामिति में मौजूदा शीर्ष बिंदु तत्व जोड़ता है |
 | [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | निर्दिष्ट प्रकार के साथ एक शीर्ष बिंदु तत्व बनाता है और उसे ज्यामिति में जोड़ता है। |
 | [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | निर्दिष्ट प्रकार के साथ एक शीर्ष बिंदु तत्व बनाता है और उसे ज्यामिति में जोड़ता है। |
@@ -38,38 +38,38 @@ public class NurbsSurface extends Geometry implements IMeshConvertible
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) बनाता है। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
-| [getCastShadows()](#getCastShadows--) | यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getCastShadows()](#getCastShadows--) | यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
 | [getClass()](#getClass--) |  |
-| [getControlPoints()](#getControlPoints--) | सभी नियंत्रण बिंदु प्राप्त करता है |
-| [getDeformers()](#getDeformers--) | इस जियोमेट्री से जुड़े सभी डिफॉर्मर प्राप्त करता है। |
-| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | निर्दिष्ट प्रकार के साथ एक वर्टेक्स तत्व प्राप्त करता है |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getControlPoints()](#getControlPoints--) | सभी नियंत्रण बिंदु प्राप्त करता है। |
+| [getDeformers()](#getDeformers--) | इस ज्यामिति से जुड़े सभी डिफॉर्मर प्राप्त करता है। |
+| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | निर्दिष्ट प्रकार के साथ एक वर्टेक्स एलिमेंट प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getReceiveShadows()](#getReceiveShadows--) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getReceiveShadows()](#getReceiveShadows--) | यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [getU()](#getU--) | NURBS सतह की U दिशा प्राप्त करता है |
 | [getV()](#getV--) | NURBS सतह की V दिशा प्राप्त करता है |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) इंस्टेंस प्राप्त करता है |
-| [getVertexElements()](#getVertexElements--) | सभी वर्टेक्स तत्व प्राप्त करता है |
-| [getVisible()](#getVisible--) | जियोमेट्री दृश्यमान है या नहीं प्राप्त करता है |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) इंस्टेंस प्राप्त करता है। |
+| [getVertexElements()](#getVertexElements--) | सभी वर्टेक्स एलिमेंट प्राप्त करता है। |
+| [getVisible()](#getVisible--) | जाँचता है कि ज्यामिति दृश्यमान है या नहीं। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है। |
-| [setVisible(boolean value)](#setVisible-boolean-) | जियोमेट्री दृश्यमान है या नहीं सेट करता है |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [setVisible(boolean value)](#setVisible-boolean-) | जैसे कि ज्यामिति दृश्यमान है या नहीं, सेट करता है। |
 | [toMesh()](#toMesh--) | NURBS सतह को मेष में परिवर्तित करें |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -81,7 +81,7 @@ public NurbsSurface()
 ```
 
 
-नए [NurbsSurface](../../com.aspose.threed/nurbssurface) वर्ग का एक नया उदाहरण आरंभ करता है।
+[NurbsSurface](../../com.aspose.threed/nurbssurface) वर्ग का एक नया उदाहरण आरंभ करता है।
 
 ### NurbsSurface(String name) {#NurbsSurface-java.lang.String-}
 ```
@@ -89,7 +89,7 @@ public NurbsSurface(String name)
 ```
 
 
-नए [NurbsSurface](../../com.aspose.threed/nurbssurface) वर्ग का एक नया उदाहरण आरंभ करता है।
+[NurbsSurface](../../com.aspose.threed/nurbssurface) वर्ग का एक नया उदाहरण आरंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -102,7 +102,7 @@ public Collection<T> <T>getDeformers2()
 ```
 
 
-निर्दिष्ट डिफॉर्मर प्रकारों के साथ सभी डिफॉर्मर प्राप्त करता है
+निर्दिष्ट डीफ़ॉर्मर प्रकारों के साथ सभी डीफ़ॉर्मर प्राप्त करता है
 
 **Returns:**
 java.util.Collection<T> - Deformer संग्रह
@@ -117,7 +117,7 @@ public void addElement(VertexElement element)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| element | [VertexElement](../../com.aspose.threed/vertexelement) | जोड़ने के लिए वर्टेक्स तत्व |
+| element | [VertexElement](../../com.aspose.threed/vertexelement) | जोड़ने के लिए शिखर तत्व |
 
 ### createElement(VertexElementType type) {#createElement-com.aspose.threed.VertexElementType-}
 ```
@@ -130,7 +130,7 @@ public VertexElement createElement(VertexElementType type)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | वर्टेक्स तत्व प्रकार |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | शिखर तत्व प्रकार |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -145,7 +145,7 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | वर्टेक्स तत्व प्रकार |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | शिखर तत्व प्रकार |
 | mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | डिफ़ॉल्ट मैपिंग मोड |
 | referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | डिफ़ॉल्ट रेफ़रेंस मोड |
 
@@ -204,7 +204,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -219,7 +219,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -236,7 +236,7 @@ public boolean getCastShadows()
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है
+यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया डाल सकती है
@@ -256,7 +256,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-सभी नियंत्रण बिंदु प्राप्त करता है
+सभी नियंत्रण बिंदु प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - सभी नियंत्रण बिंदु
@@ -266,7 +266,7 @@ public List<Deformer> getDeformers()
 ```
 
 
-इस जियोमेट्री से जुड़े सभी डिफॉर्मर प्राप्त करता है।
+इस ज्यामिति से जुड़े सभी डिफॉर्मर प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.Deformer> - इस ज्यामिति से जुड़े सभी डिफॉर्मर।
@@ -276,12 +276,12 @@ public VertexElement getElement(VertexElementType type)
 ```
 
 
-निर्दिष्ट प्रकार के साथ एक वर्टेक्स तत्व प्राप्त करता है
+निर्दिष्ट प्रकार के साथ एक वर्टेक्स एलिमेंट प्राप्त करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | कौन सा वर्टेक्स तत्व प्रकार खोजें |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | कौन सा वर्टेक्स तत्व प्रकार खोजा जाए |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - [VertexElement](../../com.aspose.threed/vertexelement) instance if found, otherwise null will be returned.
@@ -291,7 +291,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -301,10 +301,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -321,7 +321,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -331,7 +331,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -366,7 +366,7 @@ public boolean getReceiveShadows()
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है।
+यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया प्राप्त कर सकती है।
@@ -376,7 +376,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -406,7 +406,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) इंस्टेंस प्राप्त करता है
+दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) इंस्टेंस प्राप्त करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -421,7 +421,7 @@ public List<VertexElement> getVertexElements()
 ```
 
 
-सभी वर्टेक्स तत्व प्राप्त करता है
+सभी वर्टेक्स एलिमेंट प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.VertexElement> - सभी शीर्ष बिंदु तत्व
@@ -431,7 +431,7 @@ public boolean getVisible()
 ```
 
 
-जियोमेट्री दृश्यमान है या नहीं प्राप्त करता है
+जाँचता है कि ज्यामिति दृश्यमान है या नहीं।
 
 **Returns:**
 boolean - यदि ज्यामिति दृश्यमान है
@@ -497,7 +497,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है
+यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -510,7 +510,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -536,7 +536,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -563,7 +563,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है।
+यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -576,7 +576,7 @@ public void setVisible(boolean value)
 ```
 
 
-जियोमेट्री दृश्यमान है या नहीं सेट करता है
+जैसे कि ज्यामिति दृश्यमान है या नहीं, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

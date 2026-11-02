@@ -1,7 +1,7 @@
 ---
 title: "FMatrix4"
-second_title: "Aspose.3D for Java API Reference"
-description: "फ़्लोट प्रकार के सभी घटकों वाला 4x4 मैट्रिक्स"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "फ़्लोट प्रकार के सभी घटकों के साथ 4x4 मैट्रिक्स"
 type: docs
 weight: 58
 url: /hi/java/com.aspose.threed/fmatrix4/
@@ -16,12 +16,12 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FMatrix4 implements Struct<FMatrix4>, Serializable
 ```
 
-फ़्लोट प्रकार के सभी घटकों वाला 4x4 मैट्रिक्स
-## कंस्ट्रक्टर
+फ़्लोट प्रकार के सभी घटकों के साथ 4x4 मैट्रिक्स
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11, float m12, float m13, float m20, float m21, float m22, float m23, float m30, float m31, float m32, float m33)](#FMatrix4-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-) | [FMatrix4](../../com.aspose.threed/fmatrix4) का उदाहरण प्रारंभ करता है। |
+| [FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11, float m12, float m13, float m20, float m21, float m22, float m23, float m30, float m31, float m32, float m33)](#FMatrix4-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-) | [FMatrix4](../../com.aspose.threed/fmatrix4) का उदाहरण प्रारंभ करें |
 | [FMatrix4(Matrix4 mat)](#FMatrix4-com.aspose.threed.Matrix4-) | एक [Matrix4](../../com.aspose.threed/matrix4) इंस्टेंस से [FMatrix4](../../com.aspose.threed/fmatrix4) का इंस्टेंस प्रारंभ करें। |
 | [FMatrix4(FVector4 r0, FVector4 r1, FVector4 r2, FVector4 r3)](#FMatrix4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | 4 पंक्तियों से मैट्रिक्स बनाता है। |
 | [FMatrix4()](#FMatrix4--) |  |
@@ -29,37 +29,37 @@ public final class FMatrix4 implements Struct<FMatrix4>, Serializable
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [m00](#m00) | m00। |
-| [m01](#m01) | m01। |
-| [m02](#m02) | m02। |
-| [m03](#m03) | m03। |
-| [m10](#m10) | m10। |
-| [m11](#m11) | m11। |
-| [m12](#m12) | m12। |
-| [m13](#m13) | m13। |
-| [m20](#m20) | m20। |
-| [m21](#m21) | m21। |
-| [m22](#m22) | m22। |
-| [m23](#m23) | m23। |
-| [m30](#m30) | m30। |
-| [m31](#m31) | m31। |
-| [m32](#m32) | m32। |
-| [m33](#m33) | m33। |
+| [m00](#m00) | यह m00। |
+| [m01](#m01) | यह m01। |
+| [m02](#m02) | यह m02। |
+| [m03](#m03) | यह m03। |
+| [m10](#m10) | यह m10। |
+| [m11](#m11) | यह m11। |
+| [m12](#m12) | यह m12। |
+| [m13](#m13) | यह m13। |
+| [m20](#m20) | यह m20। |
+| [m21](#m21) | यह m21। |
+| [m22](#m22) | यह m22। |
+| [m23](#m23) | यह m23। |
+| [m30](#m30) | यह m30। |
+| [m31](#m31) | यह m31। |
+| [m32](#m32) | यह m32। |
+| [m33](#m33) | यह m33। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [concatenate(FMatrix4 m2)](#concatenate-com.aspose.threed.FMatrix4-) | दोनों मैट्रिक्स को जोड़ता है |
-| [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | दोनों मैट्रिक्स को जोड़ता है |
+| [concatenate(FMatrix4 m2)](#concatenate-com.aspose.threed.FMatrix4-) | दो मैट्रिक्स को जोड़ता है |
+| [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | दो मैट्रिक्स को जोड़ता है |
 | [copyFrom(FMatrix4 src)](#copyFrom-com.aspose.threed.FMatrix4-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getIdentity()](#getIdentity--) | आइडेंटिटी मैट्रिक्स |
+| [getIdentity()](#getIdentity--) | पहचान मैट्रिक्स |
 | [hashCode()](#hashCode--) |  |
 | [inverse()](#inverse--) | वर्तमान इंस्टेंस का इनवर्स मैट्रिक्स गणना करें। |
-| [mul(FMatrix4 left, FMatrix4 right)](#mul-com.aspose.threed.FMatrix4-com.aspose.threed.FMatrix4-) | दोनों मैट्रिक्स को जोड़ें |
-| [mul(FMatrix4 lhs, float v)](#mul-com.aspose.threed.FMatrix4-float-) | मैट्रिक्स को डबल मान से गुणा करें |
+| [mul(FMatrix4 left, FMatrix4 right)](#mul-com.aspose.threed.FMatrix4-com.aspose.threed.FMatrix4-) | दो मैट्रिक्स को जोड़ें |
+| [mul(FMatrix4 lhs, float v)](#mul-com.aspose.threed.FMatrix4-float-) | मैट्रिक्स और डबल मान को गुणा करें |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -73,7 +73,7 @@ public FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11
 ```
 
 
-[FMatrix4](../../com.aspose.threed/fmatrix4) का उदाहरण प्रारंभ करता है।
+[FMatrix4](../../com.aspose.threed/fmatrix4) का उदाहरण प्रारंभ करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -106,7 +106,7 @@ public FMatrix4(Matrix4 mat)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| mat | [Matrix4](../../com.aspose.threed/matrix4) | यह [Matrix4](../../com.aspose.threed/matrix4) उदाहरण। |
+| mat | [Matrix4](../../com.aspose.threed/matrix4) | यह [Matrix4](../../com.aspose.threed/matrix4) उदाहरण. |
 
 ### FMatrix4(FVector4 r0, FVector4 r1, FVector4 r2, FVector4 r3) {#FMatrix4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-com.aspose.threed.FVector4-}
 ```
@@ -136,7 +136,7 @@ public float m00
 ```
 
 
-m00।
+यह m00।
 
 ### m01 {#m01}
 ```
@@ -144,7 +144,7 @@ public float m01
 ```
 
 
-m01।
+यह m01।
 
 ### m02 {#m02}
 ```
@@ -152,7 +152,7 @@ public float m02
 ```
 
 
-m02।
+यह m02।
 
 ### m03 {#m03}
 ```
@@ -160,7 +160,7 @@ public float m03
 ```
 
 
-m03।
+यह m03।
 
 ### m10 {#m10}
 ```
@@ -168,7 +168,7 @@ public float m10
 ```
 
 
-m10।
+यह m10।
 
 ### m11 {#m11}
 ```
@@ -176,7 +176,7 @@ public float m11
 ```
 
 
-m11।
+यह m11।
 
 ### m12 {#m12}
 ```
@@ -184,7 +184,7 @@ public float m12
 ```
 
 
-m12।
+यह m12।
 
 ### m13 {#m13}
 ```
@@ -192,7 +192,7 @@ public float m13
 ```
 
 
-m13।
+यह m13।
 
 ### m20 {#m20}
 ```
@@ -200,7 +200,7 @@ public float m20
 ```
 
 
-m20।
+यह m20।
 
 ### m21 {#m21}
 ```
@@ -208,7 +208,7 @@ public float m21
 ```
 
 
-m21।
+यह m21।
 
 ### m22 {#m22}
 ```
@@ -216,7 +216,7 @@ public float m22
 ```
 
 
-m22।
+यह m22।
 
 ### m23 {#m23}
 ```
@@ -224,7 +224,7 @@ public float m23
 ```
 
 
-m23।
+यह m23।
 
 ### m30 {#m30}
 ```
@@ -232,7 +232,7 @@ public float m30
 ```
 
 
-m30।
+यह m30।
 
 ### m31 {#m31}
 ```
@@ -240,7 +240,7 @@ public float m31
 ```
 
 
-m31।
+यह m31।
 
 ### m32 {#m32}
 ```
@@ -248,7 +248,7 @@ public float m32
 ```
 
 
-m32।
+यह m32।
 
 ### m33 {#m33}
 ```
@@ -256,7 +256,7 @@ public float m33
 ```
 
 
-m33।
+यह m33।
 
 ### clone() {#clone--}
 ```
@@ -274,7 +274,7 @@ public FMatrix4 concatenate(FMatrix4 m2)
 ```
 
 
-दोनों मैट्रिक्स को जोड़ता है
+दो मैट्रिक्स को जोड़ता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -289,7 +289,7 @@ public FMatrix4 concatenate(Matrix4 m2)
 ```
 
 
-दोनों मैट्रिक्स को जोड़ता है
+दो मैट्रिक्स को जोड़ता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -342,7 +342,7 @@ public static FMatrix4 getIdentity()
 ```
 
 
-आइडेंटिटी मैट्रिक्स
+पहचान मैट्रिक्स
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - The identity matrix
@@ -372,13 +372,13 @@ public static FMatrix4 mul(FMatrix4 left, FMatrix4 right)
 ```
 
 
-दोनों मैट्रिक्स को जोड़ें
+दो मैट्रिक्स को जोड़ें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| left | [FMatrix4](../../com.aspose.threed/fmatrix4) | संयोजन के लिए बायाँ मैट्रिक्स |
-| right | [FMatrix4](../../com.aspose.threed/fmatrix4) | संयोजन के लिए दायाँ मैट्रिक्स |
+| left | [FMatrix4](../../com.aspose.threed/fmatrix4) | बाएँ मैट्रिक्स को संयोजित करने के लिए |
+| right | [FMatrix4](../../com.aspose.threed/fmatrix4) | दाएँ मैट्रिक्स को संयोजित करने के लिए |
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - The concatenated matrix.
@@ -388,7 +388,7 @@ public static FMatrix4 mul(FMatrix4 lhs, float v)
 ```
 
 
-मैट्रिक्स को डबल मान से गुणा करें
+मैट्रिक्स और डबल मान को गुणा करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

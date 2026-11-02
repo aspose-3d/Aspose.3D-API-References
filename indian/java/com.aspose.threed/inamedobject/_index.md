@@ -1,7 +1,7 @@
 ---
 title: "INamedObject"
-second_title: "Aspose.3D for Java API Reference"
-description: "जिसका नाम है वह वस्तु"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक नाम वाला ऑब्जेक्ट"
 type: docs
 weight: 245
 url: /hi/java/com.aspose.threed/inamedobject/
@@ -10,7 +10,7 @@ url: /hi/java/com.aspose.threed/inamedobject/
 public interface INamedObject
 ```
 
-जिसका नाम है वह वस्तु
+एक नाम वाला ऑब्जेक्ट
 ## विधियाँ
 
 | विधि | विवरण |

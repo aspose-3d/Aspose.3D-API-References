@@ -1,6 +1,6 @@
 ---
 title: "Rect"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "आयत को दर्शाने के लिए एक क्लास"
 type: docs
 weight: 144
@@ -17,11 +17,11 @@ public final class Rect implements Struct<Rect>, Serializable
 ```
 
 आयत को दर्शाने के लिए एक क्लास
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | क्लास [Rect](../../com.aspose.threed/rect) का कंस्ट्रक्टर। |
+| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | [Rect](../../com.aspose.threed/rect) वर्ग का कंस्ट्रक्टर |
 | [Rect()](#Rect--) |  |
 ## विधियाँ
 
@@ -31,12 +31,12 @@ public final class Rect implements Struct<Rect>, Serializable
 | [contains(int x, int y)](#contains-int-int-) | यदि दिया गया बिंदु आयत के भीतर है तो true लौटाएँ। |
 | [copyFrom(Rect src)](#copyFrom-com.aspose.threed.Rect-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getBottom()](#getBottom--) | आयत का नीचे प्राप्त करता है |
+| [getBottom()](#getBottom--) | आयत के नीचे का मान प्राप्त करता है |
 | [getClass()](#getClass--) |  |
 | [getHeight()](#getHeight--) | आकार की ऊँचाई प्राप्त करता है |
-| [getLeft()](#getLeft--) | आयत का बायाँ भाग प्राप्त करता है |
-| [getRight()](#getRight--) | आयत का दायाँ भाग प्राप्त करता है |
-| [getTop()](#getTop--) | आयत का ऊपर प्राप्त करता है |
+| [getLeft()](#getLeft--) | आयत के बाएँ भाग को प्राप्त करता है |
+| [getRight()](#getRight--) | आयत के दाएँ भाग को प्राप्त करता है |
+| [getTop()](#getTop--) | आयत के ऊपर का मान प्राप्त करता है |
 | [getWidth()](#getWidth--) | आकार की चौड़ाई प्राप्त करता है |
 | [getX()](#getX--) | आकार का x प्राप्त करता है |
 | [getY()](#getY--) | आकार का y प्राप्त करता है |
@@ -57,7 +57,7 @@ public Rect(int x, int y, int width, int height)
 ```
 
 
-क्लास [Rect](../../com.aspose.threed/rect) का कंस्ट्रक्टर।
+[Rect](../../com.aspose.threed/rect) वर्ग का कंस्ट्रक्टर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -133,10 +133,10 @@ public int getBottom()
 ```
 
 
-आयत का नीचे प्राप्त करता है
+आयत के नीचे का मान प्राप्त करता है
 
 **Returns:**
-int - आयत का नीचे
+int - आयत के नीचे का मान
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -163,7 +163,7 @@ public int getLeft()
 ```
 
 
-आयत का बायाँ भाग प्राप्त करता है
+आयत के बाएँ भाग को प्राप्त करता है
 
 **Returns:**
 int - आयत का बायाँ भाग
@@ -173,7 +173,7 @@ public int getRight()
 ```
 
 
-आयत का दायाँ भाग प्राप्त करता है
+आयत के दाएँ भाग को प्राप्त करता है
 
 **Returns:**
 int - आयत का दायाँ भाग
@@ -183,10 +183,10 @@ public int getTop()
 ```
 
 
-आयत का ऊपर प्राप्त करता है
+आयत के ऊपर का मान प्राप्त करता है
 
 **Returns:**
-int - आयत का ऊपर
+int - आयत का ऊपर का भाग
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()

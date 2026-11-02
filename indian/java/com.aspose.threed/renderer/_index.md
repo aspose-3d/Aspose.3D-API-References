@@ -1,7 +1,7 @@
 ---
 title: "Renderer"
-second_title: "Aspose.3D for Java API Reference"
-description: "रेंडरर के बारे में कॉन्टेक्स्ट।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "रेंडरर के बारे में संदर्भ।"
 type: docs
 weight: 152
 url: /hi/java/com.aspose.threed/renderer/
@@ -16,29 +16,29 @@ java.io.Closeable
 public abstract class Renderer implements Closeable
 ```
 
-रेंडरर के बारे में कॉन्टेक्स्ट।
+रेंडरर के बारे में संदर्भ।
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [clearCache()](#clearCache--) | मैन्युअली कैश को साफ़ करें। |
-| [close()](#close--) | डिस्पोज करें [Renderer](../../com.aspose.threed/renderer) और सभी संबंधित संसाधन। |
+| [clearCache()](#clearCache--) | कैश को मैन्युअली साफ़ करें। |
+| [close()](#close--) | [Renderer](../../com.aspose.threed/renderer) को डिस्पोज करें और सभी संबंधित संसाधनों को रिलीज़ करें। |
 | [createRenderer()](#createRenderer--) | डिफ़ॉल्ट प्रोफ़ाइल के साथ एक नया [Renderer](../../com.aspose.threed/renderer) बनाता है। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [execute(PostProcessing postProcessing, IRenderTarget result)](#execute-com.aspose.threed.PostProcessing-com.aspose.threed.IRenderTarget-) | निर्दिष्ट रेंडर टार्गेट पर पोस्ट प्रोसेसिंग निष्पादित करें। |
-| [getAssetDirectories()](#getAssetDirectories--) | बाहरी एसेट्स को संग्रहीत करने वाली डायरेक्टरीज़। |
+| [getAssetDirectories()](#getAssetDirectories--) | बाहरी एसेट्स को संग्रहीत करने वाले डायरेक्टरीज़। |
 | [getClass()](#getClass--) |  |
 | [getEnableShadows()](#getEnableShadows--) | छायाओं को सक्षम करने की स्थिति प्राप्त करता है। |
-| [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | जब इकाई के लिए कोई विशेष रेंडरर परिभाषित नहीं है, तो फॉलबैक एंटिटी रेंडरर प्राप्त करता है। |
+| [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | जब इकाई के लिए कोई विशेष रेंडरर परिभाषित न हो, तो फॉलबैक एंटिटी रेंडरर प्राप्त करता है। |
 | [getFrustum()](#getFrustum--) | व्यू मैट्रिक्स प्रदान करने के लिए उपयोग किए जाने वाले फ्रस्टम को प्राप्त करता है। |
 | [getMaterial()](#getMaterial--) | शेडर द्वारा उपयोग की जाने वाली सामग्री जानकारी प्रदान करने वाले मैटेरियल को प्राप्त करता है। |
 | [getNode()](#getNode--) | वर्ल्ड ट्रांसफ़ॉर्म मैट्रिक्स प्रदान करने के लिए उपयोग किए जाने वाले [getNode](../../com.aspose.threed/renderer\#getNode) इंस्टेंस को प्राप्त करता है। |
-| [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | रेंडरर द्वारा समर्थित बिल्ट-इन पोस्ट-प्रोसेसर को प्राप्त करता है। |
-| [getPostProcessings()](#getPostProcessings--) | सक्रिय पोस्ट-प्रोसेसिंग चेन |
+| [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | रेंडरर द्वारा समर्थित एक बिल्ट‑इन पोस्ट‑प्रोसेसर को प्राप्त करता है। |
+| [getPostProcessings()](#getPostProcessings--) | सक्रिय पोस्ट‑प्रोसेसिंग चेन |
 | [getPresetShaders()](#getPresetShaders--) | प्रीसेट शेडर सेट को प्राप्त करता है |
-| [getRenderFactory()](#getRenderFactory--) | रेंडर-संबंधित ऑब्जेक्ट्स बनाने के लिए फ़ैक्ट्री को प्राप्त करता है। |
+| [getRenderFactory()](#getRenderFactory--) | रेंडर‑संबंधित ऑब्जेक्ट्स बनाने के लिए फ़ैक्टरी को प्राप्त करता है। |
 | [getRenderStage()](#getRenderStage--) | वर्तमान रेंडर स्टेज को प्राप्त करता है। |
-| [getRenderTarget()](#getRenderTarget--) | रेंडर लक्ष्य निर्दिष्ट करें जिस पर निम्नलिखित रेंडर ऑपरेशन्स किए जाएंगे। |
+| [getRenderTarget()](#getRenderTarget--) | रेंडर लक्ष्य निर्दिष्ट करें जिस पर आगे की रेंडर ऑपरेशन्स निष्पादित होंगी। |
 | [getShader()](#getShader--) | ज्यामिति को रेंडर करने के लिए उपयोग किए जाने वाले शेडर इंस्टेंस को प्राप्त करता है। |
 | [getShaderSet()](#getShaderSet--) | सीन को रेंडर करने के लिए उपयोग किए जाने वाले शेडर सेट को प्राप्त करता है। |
 | [getVariables()](#getVariables--) | रेंडरिंग के लिए उपयोग किए जाने वाले आंतरिक वेरिएबल्स तक पहुँच |
@@ -47,8 +47,8 @@ public abstract class Renderer implements Closeable
 | [notifyAll()](#notifyAll--) |  |
 | [registerEntityRenderer(EntityRenderer renderer)](#registerEntityRenderer-com.aspose.threed.EntityRenderer-) | निर्दिष्ट इकाई के लिए एंटिटी रेंडरर को रजिस्टर करें |
 | [render(IRenderTarget renderTarget)](#render-com.aspose.threed.IRenderTarget-) | निर्दिष्ट लक्ष्य को रेंडर करें |
-| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | छायाओं को सक्षम करने की सेटिंग। |
-| [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | जब इकाई के लिए कोई विशेष रेंडरर परिभाषित नहीं है, तो फॉलबैक एंटिटी रेंडरर सेट करता है। |
+| [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | छायाओं को सक्षम करने की स्थिति सेट करता है। |
+| [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | जब इकाई के लिए कोई विशेष रेंडरर परिभाषित न हो, तो फॉलबैक एंटिटी रेंडरर सेट करता है। |
 | [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | व्यू मैट्रिक्स प्रदान करने के लिए उपयोग किए जाने वाले फ्रस्टम को सेट करता है। |
 | [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | शेडर द्वारा उपयोग की जाने वाली सामग्री जानकारी प्रदान करने वाले मैटेरियल को सेट करता है। |
 | [setNode(Node value)](#setNode-com.aspose.threed.Node-) | वर्ल्ड ट्रांसफ़ॉर्म मैट्रिक्स प्रदान करने के लिए उपयोग किए जाने वाले [getNode](../../com.aspose.threed/renderer\#getNode) इंस्टेंस को सेट करता है। |
@@ -65,7 +65,7 @@ public void clearCache()
 ```
 
 
-कैश को मैन्युअल रूप से साफ़ करें। Aspose.3D कुछ ऑब्जेक्ट्स जैसे मैटेरियल/ज्यामिति को रेंडर पाइपलाइन के साथ संगत आंतरिक प्रकारों में कैश करता है। यह तब मैन्युअल रूप से कॉल किया जाना चाहिए जब सीन में बड़े परिवर्तन हों।
+कैश को मैन्युअल रूप से साफ़ करें। Aspose.3D कुछ ऑब्जेक्ट्स जैसे मैटेरियल/ज्यामिति को रेंडर पाइपलाइन के साथ संगत आंतरिक प्रकारों में कैश करता है। सीन में बड़े बदलाव होने पर इसे मैन्युअल रूप से कॉल किया जाना चाहिए।
 
 ### close() {#close--}
 ```
@@ -73,7 +73,7 @@ public void close()
 ```
 
 
-डिस्पोज करें [Renderer](../../com.aspose.threed/renderer) और सभी संबंधित संसाधन।
+[Renderer](../../com.aspose.threed/renderer) को डिस्पोज करें और सभी संबंधित संसाधनों को रिलीज़ करें।
 
 ### createRenderer() {#createRenderer--}
 ```
@@ -120,10 +120,10 @@ public ArrayList<String> getAssetDirectories()
 ```
 
 
-बाहरी एसेट्स को संग्रहीत करने वाली डायरेक्टरीज़।
+बाहरी एसेट्स को संग्रहीत करने वाले डायरेक्टरीज़।
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - बाहरी एसेट्स संग्रहीत करने वाले डायरेक्टरीज़
+java.util.ArrayList<java.lang.String> - बाहरी एसेट्स को संग्रहीत करने वाले डायरेक्टरीज़
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -143,14 +143,14 @@ public boolean getEnableShadows()
 छायाओं को सक्षम करने की स्थिति प्राप्त करता है।
 
 **Returns:**
-boolean - छायाओं को सक्षम करने के बारे में।
+boolean - छायाओं को सक्षम करने के लिए.
 ### getFallbackEntityRenderer() {#getFallbackEntityRenderer--}
 ```
 public EntityRenderer getFallbackEntityRenderer()
 ```
 
 
-जब इकाई के लिए कोई विशेष रेंडरर परिभाषित नहीं है, तो फॉलबैक एंटिटी रेंडरर प्राप्त करता है।
+जब इकाई के लिए कोई विशेष रेंडरर परिभाषित न हो, तो फॉलबैक एंटिटी रेंडरर प्राप्त करता है।
 
 **Returns:**
 [EntityRenderer](../../com.aspose.threed/entityrenderer) - the fallback entity renderer when the entity has no special renderer defined.
@@ -190,7 +190,7 @@ public PostProcessing getPostProcessing(String name)
 ```
 
 
-रेंडरर द्वारा समर्थित बिल्ट-इन पोस्ट-प्रोसेसर को प्राप्त करता है।
+रेंडरर द्वारा समर्थित एक बिल्ट‑इन पोस्ट‑प्रोसेसर को प्राप्त करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -205,7 +205,7 @@ public List<PostProcessing> getPostProcessings()
 ```
 
 
-सक्रिय पोस्ट-प्रोसेसिंग चेन
+सक्रिय पोस्ट‑प्रोसेसिंग चेन
 
 **Returns:**
 java.util.List<com.aspose.threed.PostProcessing> - सक्रिय पोस्ट-प्रोसेसिंग श्रृंखला
@@ -225,7 +225,7 @@ public abstract RenderFactory getRenderFactory()
 ```
 
 
-रेंडर-संबंधित ऑब्जेक्ट्स बनाने के लिए फ़ैक्ट्री को प्राप्त करता है।
+रेंडर‑संबंधित ऑब्जेक्ट्स बनाने के लिए फ़ैक्टरी को प्राप्त करता है।
 
 **Returns:**
 [RenderFactory](../../com.aspose.threed/renderfactory) - the factory to build render-related objects.
@@ -245,7 +245,7 @@ public IRenderTarget getRenderTarget()
 ```
 
 
-रेंडर लक्ष्य निर्दिष्ट करें जिस पर निम्नलिखित रेंडर ऑपरेशन्स किए जाएंगे।
+रेंडर लक्ष्य निर्दिष्ट करें जिस पर आगे की रेंडर ऑपरेशन्स निष्पादित होंगी।
 
 **Returns:**
 [IRenderTarget](../../com.aspose.threed/irendertarget) - Specify the render target that the following render operations will be performed on.
@@ -337,7 +337,7 @@ public void setEnableShadows(boolean value)
 ```
 
 
-छायाओं को सक्षम करने की सेटिंग।
+छायाओं को सक्षम करने की स्थिति सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -350,7 +350,7 @@ public void setFallbackEntityRenderer(EntityRenderer value)
 ```
 
 
-जब इकाई के लिए कोई विशेष रेंडरर परिभाषित नहीं है, तो फॉलबैक एंटिटी रेंडरर सेट करता है।
+जब इकाई के लिए कोई विशेष रेंडरर परिभाषित न हो, तो फॉलबैक एंटिटी रेंडरर सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,7 +1,7 @@
 ---
-title: "Camera"
-second_title: "Aspose.3D for Java API Reference"
-description: "कैमरा दृश्य को देख रहे दर्शक के नेत्र बिंदु का वर्णन करता है।"
+title: "कैमरा"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "कैमरा दर्शक के नेत्र बिंदु का वर्णन करता है जो दृश्य को देख रहा है।"
 type: docs
 weight: 28
 url: /hi/java/com.aspose.threed/camera/
@@ -16,47 +16,47 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Camera extends Frustum implements IOrientable
 ```
 
-कैमरा दृश्य को देख रहे दर्शक के नेत्र बिंदु का वर्णन करता है।
-## कंस्ट्रक्टर
+कैमरा दर्शक के नेत्र बिंदु का वर्णन करता है जो दृश्य को देख रहा है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Camera()](#Camera--) | नए [Camera](../../com.aspose.threed/camera) वर्ग का एक नया उदाहरण आरंभ करता है। |
-| [Camera(ProjectionType projectionType)](#Camera-com.aspose.threed.ProjectionType-) | नए [Camera](../../com.aspose.threed/camera) वर्ग का एक नया उदाहरण आरंभ करता है। |
-| [Camera(String name)](#Camera-java.lang.String-) | नए [Camera](../../com.aspose.threed/camera) वर्ग का एक नया उदाहरण आरंभ करता है। |
-| [Camera(String name, ProjectionType projectionType)](#Camera-java.lang.String-com.aspose.threed.ProjectionType-) | नए [Camera](../../com.aspose.threed/camera) वर्ग का एक नया उदाहरण आरंभ करता है। |
+| [Camera()](#Camera--) | नए [Camera](../../com.aspose.threed/camera) क्लास का एक नया उदाहरण आरंभ करता है। |
+| [Camera(ProjectionType projectionType)](#Camera-com.aspose.threed.ProjectionType-) | नए [Camera](../../com.aspose.threed/camera) क्लास का एक नया उदाहरण आरंभ करता है। |
+| [Camera(String name)](#Camera-java.lang.String-) | नए [Camera](../../com.aspose.threed/camera) क्लास का एक नया उदाहरण आरंभ करता है। |
+| [Camera(String name, ProjectionType projectionType)](#Camera-java.lang.String-com.aspose.threed.ProjectionType-) | नए [Camera](../../com.aspose.threed/camera) क्लास का एक नया उदाहरण आरंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getApertureMode()](#getApertureMode--) | कैमरा का एपर्चर मोड प्राप्त करता है |
-| [getAspect()](#getAspect--) | Frustum का आस्पेक्ट रेशियो प्राप्त करता है |
+| [getApertureMode()](#getApertureMode--) | कैमरा की एपर्चर मोड प्राप्त करता है |
+| [getAspect()](#getAspect--) | फ़्रस्टम का आस्पेक्ट रेशियो प्राप्त करता है |
 | [getAspectRatio()](#getAspectRatio--) | व्यू प्लेन का आस्पेक्ट रेशियो प्राप्त करता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
 | [getDirection()](#getDirection--) | कैमरा जिस दिशा में देख रहा है, वह दिशा प्राप्त करता है। |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
-| [getFarPlane()](#getFarPlane--) | Frustum की फार प्लेन दूरी प्राप्त करता है। |
-| [getFieldOfView()](#getFieldOfView--) | कैमरा का फील्ड ऑफ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL) |
-| [getFieldOfViewX()](#getFieldOfViewX--) | कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) |
-| [getFieldOfViewY()](#getFieldOfViewY--) | कैमरा का वर्टिकल फील्ड ऑफ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
+| [getFarPlane()](#getFarPlane--) | फ़्रस्टम की फार प्लेन दूरी प्राप्त करता है। |
+| [getFieldOfView()](#getFieldOfView--) | कैमरा का फील्ड ऑफ़ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL) हो |
+| [getFieldOfViewX()](#getFieldOfViewX--) | कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ़ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो |
+| [getFieldOfViewY()](#getFieldOfViewY--) | कैमरा का वर्टिकल फील्ड ऑफ़ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो |
 | [getHeight()](#getHeight--) | व्यू प्लेन की ऊँचाई इंच में प्राप्त करता है |
-| [getLookAt()](#getLookAt--) | कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे प्राप्त करता है। |
-| [getMagnification()](#getMagnification--) | ऑर्थोग्राफिक कैमरा में उपयोग किए गए मैग्निफिकेशन को प्राप्त करता है |
+| [getLookAt()](#getLookAt--) | कैमरा जिस रुचिकर स्थिति को देख रहा है, उसे प्राप्त करता है। |
+| [getMagnification()](#getMagnification--) | ऑर्थोग्राफिक कैमरा में उपयोग किए गए मैग्नीफ़िकेशन को प्राप्त करता है |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getNearPlane()](#getNearPlane--) | फ्रस्टम के निकट प्लेन की दूरी प्राप्त करता है। |
+| [getNearPlane()](#getNearPlane--) | फ्रस्टम की निकटतम प्लेन दूरी प्राप्त करता है। |
 | [getOrthoHeight()](#getOrthoHeight--) | ऑर्थोग्राफिक प्रोजेक्शन में फ्रस्टम की ऊँचाई प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
-| [getProjectionType()](#getProjectionType--) | कैमरा का प्रोजेक्शन टाइप प्राप्त करता है। |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getProjectionType()](#getProjectionType--) | कैमरा के प्रोजेक्शन प्रकार को प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [getRotationMode()](#getRotationMode--) | फ्रस्टम की अभिविन्यास मोड प्राप्त करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) null हो। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
-| [getTarget()](#getTarget--) | कैमरा जिस लक्ष्य की ओर देख रहा है, उसे प्राप्त करता है। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
+| [getTarget()](#getTarget--) | कैमरा जिस लक्ष्य को देख रहा है, उसे प्राप्त करता है। |
 | [getUp()](#getUp--) | कैमरा की ऊपर की दिशा प्राप्त करता है। |
 | [getWidth()](#getWidth--) | व्यू प्लेन की चौड़ाई इंच में प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
@@ -65,25 +65,25 @@ public class Camera extends Frustum implements IOrientable
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setApertureMode(ApertureMode value)](#setApertureMode-com.aspose.threed.ApertureMode-) | कैमरा का एपर्चर मोड सेट करता है |
+| [setApertureMode(ApertureMode value)](#setApertureMode-com.aspose.threed.ApertureMode-) | कैमरा की एपर्चर मोड सेट करता है |
 | [setAspect(double value)](#setAspect-double-) | फ्रस्टम का आस्पेक्ट रेशियो सेट करता है। |
 | [setAspectRatio(double value)](#setAspectRatio-double-) | व्यू प्लेन का आस्पेक्ट रेशियो सेट करता है। |
-| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | कैमरा जिस दिशा की ओर देख रहा है, उसे सेट करता है। |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
-| [setFarPlane(double value)](#setFarPlane-double-) | फ्रस्टम के दूरस्थ प्लेन की दूरी सेट करता है। |
-| [setFieldOfView(double value)](#setFieldOfView-double-) | कैमरा का फील्ड ऑफ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL) |
-| [setFieldOfViewX(double value)](#setFieldOfViewX-double-) | कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) |
-| [setFieldOfViewY(double value)](#setFieldOfViewY-double-) | कैमरा का वर्टिकल फील्ड ऑफ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) |
+| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | कैमरा जिस दिशा को देख रहा है, उसे सेट करता है। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
+| [setFarPlane(double value)](#setFarPlane-double-) | फ्रस्टम की दूरस्थ प्लेन दूरी सेट करता है। |
+| [setFieldOfView(double value)](#setFieldOfView-double-) | कैमरा का फील्ड ऑफ़ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL) हो |
+| [setFieldOfViewX(double value)](#setFieldOfViewX-double-) | कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ़ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो |
+| [setFieldOfViewY(double value)](#setFieldOfViewY-double-) | कैमरा का वर्टिकल फील्ड ऑफ़ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो |
 | [setHeight(double value)](#setHeight-double-) | व्यू प्लेन की ऊँचाई इंच में सेट करता है |
-| [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे सेट करता है। |
-| [setMagnification(Vector2 value)](#setMagnification-com.aspose.threed.Vector2-) | ऑर्थोग्राफिक कैमरा में उपयोग किए गए मैग्निफिकेशन को सेट करता है |
+| [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | कैमरा जिस रुचिकर स्थिति को देख रहा है, उसे सेट करता है। |
+| [setMagnification(Vector2 value)](#setMagnification-com.aspose.threed.Vector2-) | ऑर्थोग्राफिक कैमरा में उपयोग किए गए मैग्नीफ़िकेशन को सेट करता है |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setNearPlane(double value)](#setNearPlane-double-) | फ़्रस्टम की निकटतम प्लेन दूरी सेट करता है। |
-| [setOrthoHeight(double value)](#setOrthoHeight-double-) | ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम के लिए ऊँचाई सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [setProjectionType(ProjectionType value)](#setProjectionType-com.aspose.threed.ProjectionType-) | कैमरा का प्रोजेक्शन टाइप सेट करता है। |
+| [setOrthoHeight(double value)](#setOrthoHeight-double-) | ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम की ऊँचाई सेट करता है। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setProjectionType(ProjectionType value)](#setProjectionType-com.aspose.threed.ProjectionType-) | कैमरा के प्रोजेक्शन प्रकार को सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setRotationMode(RotationMode value)](#setRotationMode-com.aspose.threed.RotationMode-) | फ़्रस्टम की ओरिएंटेशन मोड सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) null हो। |
+| [setRotationMode(RotationMode value)](#setRotationMode-com.aspose.threed.RotationMode-) | फ़्रस्टम की अभिविन्यास मोड सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) शून्य हो। |
 | [setTarget(Node value)](#setTarget-com.aspose.threed.Node-) | कैमरा जिस लक्ष्य की ओर देख रहा है उसे सेट करता है। |
 | [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | कैमरा की ऊपर की दिशा सेट करता है। |
 | [setWidth(double value)](#setWidth-double-) | व्यू प्लेन की चौड़ाई इंच में सेट करता है |
@@ -97,7 +97,7 @@ public Camera()
 ```
 
 
-नए [Camera](../../com.aspose.threed/camera) वर्ग का एक नया उदाहरण आरंभ करता है।
+नए [Camera](../../com.aspose.threed/camera) क्लास का एक नया उदाहरण आरंभ करता है।
 
 ### Camera(ProjectionType projectionType) {#Camera-com.aspose.threed.ProjectionType-}
 ```
@@ -105,12 +105,12 @@ public Camera(ProjectionType projectionType)
 ```
 
 
-नए [Camera](../../com.aspose.threed/camera) वर्ग का एक नया उदाहरण आरंभ करता है।
+नए [Camera](../../com.aspose.threed/camera) क्लास का एक नया उदाहरण आरंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| projectionType | [ProjectionType](../../com.aspose.threed/projectiontype) | प्रोजेक्शन टाइप। |
+| projectionType | [ProjectionType](../../com.aspose.threed/projectiontype) | प्रोजेक्शन प्रकार। |
 
 ### Camera(String name) {#Camera-java.lang.String-}
 ```
@@ -118,7 +118,7 @@ public Camera(String name)
 ```
 
 
-नए [Camera](../../com.aspose.threed/camera) वर्ग का एक नया उदाहरण आरंभ करता है।
+नए [Camera](../../com.aspose.threed/camera) क्लास का एक नया उदाहरण आरंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -131,13 +131,13 @@ public Camera(String name, ProjectionType projectionType)
 ```
 
 
-नए [Camera](../../com.aspose.threed/camera) वर्ग का एक नया उदाहरण आरंभ करता है।
+नए [Camera](../../com.aspose.threed/camera) क्लास का एक नया उदाहरण आरंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | नाम | java.lang.String | नाम। |
-| projectionType | [ProjectionType](../../com.aspose.threed/projectiontype) | प्रोजेक्शन टाइप। |
+| projectionType | [ProjectionType](../../com.aspose.threed/projectiontype) | प्रोजेक्शन प्रकार। |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -160,7 +160,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -175,7 +175,7 @@ public ApertureMode getApertureMode()
 ```
 
 
-कैमरा का एपर्चर मोड प्राप्त करता है
+कैमरा की एपर्चर मोड प्राप्त करता है
 
 **Returns:**
 [ApertureMode](../../com.aspose.threed/aperturemode) - the camera's aperture mode
@@ -185,10 +185,10 @@ public double getAspect()
 ```
 
 
-Frustum का आस्पेक्ट रेशियो प्राप्त करता है
+फ़्रस्टम का आस्पेक्ट रेशियो प्राप्त करता है
 
 **Returns:**
-double - फ़्रस्टम का आस्पेक्ट रेशियो
+डबल - फ़्रस्टम का अनुपात
 ### getAspectRatio() {#getAspectRatio--}
 ```
 public double getAspectRatio()
@@ -205,7 +205,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -242,7 +242,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -252,50 +252,50 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getFarPlane() {#getFarPlane--}
 ```
 public double getFarPlane()
 ```
 
 
-Frustum की फार प्लेन दूरी प्राप्त करता है।
+फ़्रस्टम की फार प्लेन दूरी प्राप्त करता है।
 
 **Returns:**
-double - फ़्रस्टम की दूरस्थ प्लेन दूरी।
+डबल - फ़्रस्टम की दूरस्थ प्लेन दूरी।
 ### getFieldOfView() {#getFieldOfView--}
 ```
 public double getFieldOfView()
 ```
 
 
-कैमरा का फील्ड ऑफ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL)
+कैमरा का फील्ड ऑफ़ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL) हो
 
 **Returns:**
-डबल - कैमरा का फील्ड ऑफ व्यू डिग्री में, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL)
+डबल - कैमरा का फील्ड ऑफ़ व्यू डिग्री में, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL) हो
 ### getFieldOfViewX() {#getFieldOfViewX--}
 ```
 public double getFieldOfViewX()
 ```
 
 
-कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT)
+कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ़ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो
 
 **Returns:**
-डबल - कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ व्यू डिग्री में, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT)
+डबल - कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ़ व्यू डिग्री में, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो
 ### getFieldOfViewY() {#getFieldOfViewY--}
 ```
 public double getFieldOfViewY()
 ```
 
 
-कैमरा का वर्टिकल फील्ड ऑफ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT)
+कैमरा का वर्टिकल फील्ड ऑफ़ व्यू डिग्री में प्राप्त करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो
 
 **Returns:**
-डबल - कैमरा का वर्टिकल फील्ड ऑफ व्यू डिग्री में, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT)
+डबल - कैमरा का वर्टिकल फील्ड ऑफ़ व्यू डिग्री में, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -305,14 +305,14 @@ public double getHeight()
 व्यू प्लेन की ऊँचाई इंच में प्राप्त करता है
 
 **Returns:**
-डबल - व्यू प्लेन की ऊँचाई इंच में।
+डबल - व्यू प्लेन की ऊँचाई इंच में
 ### getLookAt() {#getLookAt--}
 ```
 public Vector3 getLookAt()
 ```
 
 
-कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे प्राप्त करता है।
+कैमरा जिस रुचिकर स्थिति को देख रहा है, उसे प्राप्त करता है।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the the interested position that the camera is looking at.
@@ -322,7 +322,7 @@ public Vector2 getMagnification()
 ```
 
 
-ऑर्थोग्राफिक कैमरा में उपयोग किए गए मैग्निफिकेशन को प्राप्त करता है
+ऑर्थोग्राफिक कैमरा में उपयोग किए गए मैग्नीफ़िकेशन को प्राप्त करता है
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the magnification used in orthographic camera
@@ -342,10 +342,10 @@ public double getNearPlane()
 ```
 
 
-फ्रस्टम के निकट प्लेन की दूरी प्राप्त करता है।
+फ्रस्टम की निकटतम प्लेन दूरी प्राप्त करता है।
 
 **Returns:**
-double - फ़्रस्टम की निकटतम प्लेन दूरी।
+डबल - फ़्रस्टम की निकटतम प्लेन दूरी।
 ### getOrthoHeight() {#getOrthoHeight--}
 ```
 public double getOrthoHeight()
@@ -355,14 +355,14 @@ public double getOrthoHeight()
 ऑर्थोग्राफिक प्रोजेक्शन में फ्रस्टम की ऊँचाई प्राप्त करता है।
 
 **Returns:**
-double - ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम की ऊँचाई।
+डबल - ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम की ऊँचाई।
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -372,7 +372,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -382,7 +382,7 @@ public ProjectionType getProjectionType()
 ```
 
 
-कैमरा की प्रोजेक्शन प्रकार प्राप्त करता है। डिफ़ॉल्ट रूप से पर्स्पेक्टिव प्रोजेक्शन उपयोग किया जाता है।
+कैमरे के प्रोजेक्शन प्रकार को प्राप्त करता है। डिफ़ॉल्ट रूप से पर्स्पेक्टिव प्रोजेक्शन उपयोग किया जाता है।
 
 **Returns:**
 [ProjectionType](../../com.aspose.threed/projectiontype) - the camera's projection type. By default the perspective projection is used.
@@ -417,7 +417,7 @@ public RotationMode getRotationMode()
 ```
 
 
-फ़्रस्टम की ओरिएंटेशन मोड प्राप्त करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) null हो। यदि मान [RotationMode.FIXED_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET) है, तो दिशा हमेशा प्रॉपर्टी [getLookAt](../../com.aspose.threed/frustum\#getLookAt) द्वारा गणना की जाती है। अन्यथा [getLookAt](../../com.aspose.threed/frustum\#getLookAt) हमेशा [getDirection](../../com.aspose.threed/frustum\#getDirection) द्वारा गणना की जाती है।
+फ़्रस्टम की अभिविन्यास मोड प्राप्त करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) शून्य हो। यदि मान [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET) है, तो दिशा हमेशा प्रॉपर्टी [getLookAt](../../com.aspose.threed/frustum\#getLookAt) द्वारा गणना की जाती है। अन्यथा [getLookAt](../../com.aspose.threed/frustum\#getLookAt) हमेशा [getDirection](../../com.aspose.threed/frustum\#getDirection) द्वारा गणना की जाती है।
 
 **Returns:**
 [RotationMode](../../com.aspose.threed/rotationmode) - the frustum's orientation mode This property only works when the [getTarget](../../com.aspose.threed/frustum\#getTarget) is null. If the value is [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET), the direction is always calculated by the property [getLookAt](../../com.aspose.threed/frustum\#getLookAt) Otherwise the [getLookAt](../../com.aspose.threed/frustum\#getLookAt) is always calculated by the [getDirection](../../com.aspose.threed/frustum\#getDirection)
@@ -427,7 +427,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -536,7 +536,7 @@ public void setApertureMode(ApertureMode value)
 ```
 
 
-कैमरा का एपर्चर मोड सेट करता है
+कैमरा की एपर्चर मोड सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -588,7 +588,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -601,7 +601,7 @@ public void setFarPlane(double value)
 ```
 
 
-फ्रस्टम के दूरस्थ प्लेन की दूरी सेट करता है।
+फ्रस्टम की दूरस्थ प्लेन दूरी सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -614,7 +614,7 @@ public void setFieldOfView(double value)
 ```
 
 
-कैमरा का फील्ड ऑफ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL)
+कैमरा का फील्ड ऑफ़ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZONTAL](../../com.aspose.threed/aperturemode\#HORIZONTAL) या [ApertureMode.VERTICAL](../../com.aspose.threed/aperturemode\#VERTICAL) हो
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -627,7 +627,7 @@ public void setFieldOfViewX(double value)
 ```
 
 
-कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT)
+कैमरा का हॉरिज़ॉन्टल फील्ड ऑफ़ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -640,7 +640,7 @@ public void setFieldOfViewY(double value)
 ```
 
 
-कैमरा का वर्टिकल फील्ड ऑफ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode है [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT)
+कैमरा का वर्टिकल फील्ड ऑफ़ व्यू डिग्री में सेट करता है, यह प्रॉपर्टी केवल तब उपयोग की जाती है जब ApertureMode [ApertureMode.HORIZ\_AND\_VERT](../../com.aspose.threed/aperturemode\#HORIZ-AND-VERT) हो
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -666,7 +666,7 @@ public void setLookAt(Vector3 value)
 ```
 
 
-कैमरा जिस रुचिकर स्थिति की ओर देख रहा है, उसे सेट करता है।
+कैमरा जिस रुचिकर स्थिति को देख रहा है, उसे सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -679,7 +679,7 @@ public void setMagnification(Vector2 value)
 ```
 
 
-ऑर्थोग्राफिक कैमरा में उपयोग किए गए मैग्निफिकेशन को सेट करता है
+ऑर्थोग्राफिक कैमरा में उपयोग किए गए मैग्नीफ़िकेशन को सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -718,7 +718,7 @@ public void setOrthoHeight(double value)
 ```
 
 
-ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम के लिए ऊँचाई सेट करता है।
+ऑर्थोग्राफिक प्रोजेक्शन में फ़्रस्टम की ऊँचाई सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -731,7 +731,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -744,7 +744,7 @@ public void setProjectionType(ProjectionType value)
 ```
 
 
-कैमरा की प्रोजेक्शन प्रकार सेट करता है। डिफ़ॉल्ट रूप से पर्स्पेक्टिव प्रोजेक्शन उपयोग किया जाता है।
+कैमरे के प्रोजेक्शन प्रकार को सेट करता है। डिफ़ॉल्ट रूप से पर्स्पेक्टिव प्रोजेक्शन उपयोग किया जाता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -771,7 +771,7 @@ public void setRotationMode(RotationMode value)
 ```
 
 
-फ़्रस्टम की ओरिएंटेशन मोड सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) null हो। यदि मान [RotationMode.FIXED_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET) है, तो दिशा हमेशा प्रॉपर्टी [getLookAt](../../com.aspose.threed/frustum\#getLookAt) द्वारा गणना की जाती है। अन्यथा [getLookAt](../../com.aspose.threed/frustum\#getLookAt) हमेशा [getDirection](../../com.aspose.threed/frustum\#getDirection) द्वारा गणना की जाती है।
+फ़्रस्टम की अभिविन्यास मोड सेट करता है। यह प्रॉपर्टी केवल तब काम करती है जब [getTarget](../../com.aspose.threed/frustum\#getTarget) शून्य हो। यदि मान [RotationMode.FIXED\_TARGET](../../com.aspose.threed/rotationmode\#FIXED-TARGET) है, तो दिशा हमेशा प्रॉपर्टी [getLookAt](../../com.aspose.threed/frustum\#getLookAt) द्वारा गणना की जाती है। अन्यथा [getLookAt](../../com.aspose.threed/frustum\#getLookAt) हमेशा [getDirection](../../com.aspose.threed/frustum\#getDirection) द्वारा गणना की जाती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -784,7 +784,7 @@ public void setTarget(Node value)
 ```
 
 
-कैमरा जिस लक्ष्य की ओर देख रहा है, उसे सेट करता है। यदि उपयोगकर्ता इस प्रॉपर्टी का समर्थन करता है, तो यह [getLookAt](../../com.aspose.threed/frustum\#getLookAt) प्रॉपर्टी से पहले होना चाहिए।
+कैमरा जिस लक्ष्य को देख रहा है उसे सेट करता है। यदि उपयोगकर्ता इस प्रॉपर्टी का समर्थन करता है, तो यह [getLookAt](../../com.aspose.threed/frustum\\#getLookAt) प्रॉपर्टी से पहले होना चाहिए।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

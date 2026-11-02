@@ -1,7 +1,7 @@
 ---
 title: "Viewport"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक  दृश्य को रेंडर करने के लिए कम से कम एक viewport रखता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक में दृश्य को रेंडर करने के लिए कम से कम एक व्यूपोर्ट शामिल होता है।"
 type: docs
 weight: 229
 url: /hi/java/com.aspose.threed/viewport/
@@ -13,20 +13,20 @@ java.lang.Object
 public class Viewport
 ```
 
-एक [IRenderTarget](../../com.aspose.threed/irendertarget) दृश्य को रेंडर करने के लिए कम से कम एक viewport रखता है।
+एक [IRenderTarget](../../com.aspose.threed/irendertarget) में दृश्य को रेंडर करने के लिए कम से कम एक व्यूपोर्ट शामिल होता है।
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [clone()](#clone--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | render target में viewport का क्षेत्र प्राप्त करता है। |
-| [getBackgroundColor()](#getBackgroundColor--) | viewport का बैकग्राउंड रंग प्राप्त करता है। |
+| [getArea()](#getArea--) | रेंडर टारगेट में व्यूपोर्ट का क्षेत्र प्राप्त करता है। |
+| [getBackgroundColor()](#getBackgroundColor--) | व्यूपोर्ट का बैकग्राउंड रंग प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
-| [getDepthClear()](#getDepthClear--) | depth buffer बिट सेट होने पर viewport को साफ़ करने के लिए उपयोग किया गया depth मान प्राप्त करता है। |
-| [getEnabled()](#getEnabled--) | इस viewport को सक्षम या अक्षम करें। |
+| [getDepthClear()](#getDepthClear--) | डिप्थ बफ़र बिट सेट होने पर व्यूपोर्ट को साफ़ करते समय उपयोग किए जाने वाले गहराई मान को प्राप्त करता है। |
+| [getEnabled()](#getEnabled--) | इस व्यूपोर्ट को सक्षम या अक्षम करें। |
 | [getFrustum()](#getFrustum--) | इस [Viewport](../../com.aspose.threed/viewport) का कैमरा प्राप्त करता है। |
-| [getRenderTarget()](#getRenderTarget--) | इस viewport को बनाने वाले render target को प्राप्त करता है। |
+| [getRenderTarget()](#getRenderTarget--) | उस रेंडर टारगेट को प्राप्त करता है जिसने इस व्यूपोर्ट को बनाया। |
 | [getZOrder()](#getZOrder--) | व्यूपोर्ट का Z-ऑर्डर प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -34,7 +34,7 @@ public class Viewport
 | [setArea(RelativeRectangle value)](#setArea-com.aspose.threed.RelativeRectangle-) | रेंडर टार्गेट में व्यूपोर्ट का क्षेत्र सेट करता है। |
 | [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | व्यूपोर्ट की पृष्ठभूमि रंग सेट करता है। |
 | [setDepthClear(float value)](#setDepthClear-float-) | जब गहराई बफ़र बिट सेट हो तो व्यूपोर्ट को साफ़ करने के लिए उपयोग किया जाने वाला गहराई मान सेट करता है। |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | इस viewport को सक्षम या अक्षम करें। |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | इस व्यूपोर्ट को सक्षम या अक्षम करें। |
 | [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | इस [Viewport](../../com.aspose.threed/viewport) का कैमरा सेट करता है। |
 | [setZOrder(int value)](#setZOrder-int-) | व्यूपोर्ट का Z-ऑर्डर सेट करता है। |
 | [toString()](#toString--) |  |
@@ -72,7 +72,7 @@ public RelativeRectangle getArea()
 ```
 
 
-render target में viewport का क्षेत्र प्राप्त करता है।
+रेंडर टारगेट में व्यूपोर्ट का क्षेत्र प्राप्त करता है।
 
 **Returns:**
 [RelativeRectangle](../../com.aspose.threed/relativerectangle) - the area of the viewport in render target.
@@ -82,7 +82,7 @@ public Vector3 getBackgroundColor()
 ```
 
 
-viewport का बैकग्राउंड रंग प्राप्त करता है।
+व्यूपोर्ट का बैकग्राउंड रंग प्राप्त करता है।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the background color of the viewport.
@@ -102,17 +102,17 @@ public float getDepthClear()
 ```
 
 
-depth buffer बिट सेट होने पर viewport को साफ़ करने के लिए उपयोग किया गया depth मान प्राप्त करता है।
+डिप्थ बफ़र बिट सेट होने पर व्यूपोर्ट को साफ़ करते समय उपयोग किए जाने वाले गहराई मान को प्राप्त करता है।
 
 **Returns:**
-float - जब गहराई बफ़र बिट सेट हो तो व्यूपोर्ट को साफ़ करने के लिए उपयोग किया जाने वाला गहराई मान।
+float - गहराई बफ़र बिट सेट होने पर व्यूपोर्ट को साफ़ करने के लिए उपयोग किया जाने वाला गहराई मान।
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
 ```
 
 
-इस viewport को सक्षम या अक्षम करें।
+इस व्यूपोर्ट को सक्षम या अक्षम करें।
 
 **Returns:**
 boolean - इस व्यूपोर्ट को सक्षम या अक्षम करें।
@@ -132,7 +132,7 @@ public IRenderTarget getRenderTarget()
 ```
 
 
-इस viewport को बनाने वाले render target को प्राप्त करता है।
+उस रेंडर टारगेट को प्राप्त करता है जिसने इस व्यूपोर्ट को बनाया।
 
 **Returns:**
 [IRenderTarget](../../com.aspose.threed/irendertarget) - the render target that created this viewport.
@@ -217,7 +217,7 @@ public void setEnabled(boolean value)
 ```
 
 
-इस viewport को सक्षम या अक्षम करें।
+इस व्यूपोर्ट को सक्षम या अक्षम करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

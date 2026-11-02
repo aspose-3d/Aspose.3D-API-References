@@ -1,6 +1,6 @@
 ---
 title: "VertexElementUV"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "निर्दिष्ट घटकों के लिए यूवी निर्देशांक को परिभाषित करता है।"
 type: docs
 weight: 220
@@ -14,18 +14,18 @@ public class VertexElementUV extends VertexElementVector4
 ```
 
 निर्दिष्ट घटकों के लिए UV निर्देशांक को परिभाषित करता है। एक ज्यामिति में कई [VertexElementUV](../../com.aspose.threed/vertexelementuv) तत्व हो सकते हैं, और प्रत्येक का अलग [TextureMapping](../../com.aspose.threed/texturemapping) हो सकता है।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [VertexElementUV()](#VertexElementUV--) | नए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्ग का एक नया उदाहरण आरंभ करता है। |
-| [VertexElementUV(TextureMapping textureMapping)](#VertexElementUV-com.aspose.threed.TextureMapping-) | नए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्ग का एक नया उदाहरण आरंभ करता है। |
+| [VertexElementUV()](#VertexElementUV--) | नए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्ग का एक नया उदाहरण प्रारंभ करता है। |
+| [VertexElementUV(TextureMapping textureMapping)](#VertexElementUV-com.aspose.threed.TextureMapping-) | नए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्ग का एक नया उदाहरण प्रारंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [addData(Iterable<Vector2> data)](#addData-java.lang.Iterable-com.aspose.threed.Vector2--) | VertexElementUV.Data में [Vector2](../../com.aspose.threed/vector2) का एक सेट जोड़ें। |
-| [addData2(Iterable<Vector3> data)](#addData2-java.lang.Iterable-com.aspose.threed.Vector3--) | VertexElementUV.Data में [Vector3](../../com.aspose.threed/vector3) का एक सेट जोड़ें। |
+| [addData(Iterable<Vector2> data)](#addData-java.lang.Iterable-com.aspose.threed.Vector2--) | VertexElementUV.Data में एक सेट [Vector2](../../com.aspose.threed/vector2) जोड़ें। |
+| [addData2(Iterable<Vector3> data)](#addData2-java.lang.Iterable-com.aspose.threed.Vector3--) | VertexElementUV.Data में एक सेट [Vector3](../../com.aspose.threed/vector3) जोड़ें। |
 | [clear()](#clear--) | डायरेक्ट और इंडेक्स एरेज़ से सभी तत्वों को हटाता है। |
 | [clone(boolean withData)](#clone-boolean-) | वर्टेक्स तत्व की गहरी क्लोन बनाता है। |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
@@ -34,18 +34,18 @@ public class VertexElementUV extends VertexElementVector4
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | वर्टेक्स डेटा प्राप्त करता है। |
 | [getIndices()](#getIndices--) | इंडेक्स डेटा प्राप्त करता है। |
-| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, यह प्राप्त करता है। |
+| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है। |
+| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, प्राप्त करता है। |
 | [getVertexElementType()](#getVertexElementType--) | [VertexElement](../../com.aspose.threed/vertexelement) का प्रकार प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setData(Vector4[] data)](#setData-com.aspose.threed.Vector4---) | डेटा लोड करें |
 | [setIndices(int[] data)](#setIndices-int---) | इंडेक्स लोड करें |
-| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, यह सेट करता है। |
+| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, यह सेट करता है। |
+| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, सेट करता है। |
 | [toString()](#toString--) | वर्टेक्स तत्व का स्ट्रिंग प्रतिनिधित्व। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,7 +56,7 @@ public VertexElementUV()
 ```
 
 
-नए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्ग का एक नया उदाहरण आरंभ करता है। डिफ़ॉल्ट टेक्सचर मैपिंग प्रकार है [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE)।
+नए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्ग का एक नया उदाहरण प्रारंभ करता है। डिफ़ॉल्ट टेक्सचर मैपिंग प्रकार है [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE)।
 
 ### VertexElementUV(TextureMapping textureMapping) {#VertexElementUV-com.aspose.threed.TextureMapping-}
 ```
@@ -64,7 +64,7 @@ public VertexElementUV(TextureMapping textureMapping)
 ```
 
 
-नए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्ग का एक नया उदाहरण आरंभ करता है।
+नए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्ग का एक नया उदाहरण प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -77,7 +77,7 @@ public void addData(Iterable<Vector2> data)
 ```
 
 
-VertexElementUV.Data में [Vector2](../../com.aspose.threed/vector2) का एक सेट जोड़ें। यह एक शॉर्टकट है, यह विधि [Vector2](../../com.aspose.threed/vector2) को [Vector4](../../com.aspose.threed/vector4) में बदल देगी जहाँ z को 0 और w को 0 सेट किया जाएगा।
+VertexElementUV.Data में एक सेट [Vector2](../../com.aspose.threed/vector2) जोड़ें। यह एक शॉर्टकट है, यह विधि [Vector2](../../com.aspose.threed/vector2) को [Vector4](../../com.aspose.threed/vector4) में बदल देगा, जहाँ z को 0 और w को 0 सेट किया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -90,7 +90,7 @@ public void addData2(Iterable<Vector3> data)
 ```
 
 
-VertexElementUV.Data में [Vector3](../../com.aspose.threed/vector3) का एक सेट जोड़ें। यह एक शॉर्टकट है, यह विधि [Vector3](../../com.aspose.threed/vector3) को [Vector4](../../com.aspose.threed/vector4) में बदल देगी जहाँ w को 0 सेट किया जाएगा।
+VertexElementUV.Data में एक सेट [Vector3](../../com.aspose.threed/vector3) जोड़ें। यह एक शॉर्टकट है, यह विधि [Vector3](../../com.aspose.threed/vector3) को [Vector4](../../com.aspose.threed/vector4) में बदल देगा, जहाँ w को 0 सेट किया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -116,7 +116,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें। |
+| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -200,7 +200,7 @@ public MappingMode getMappingMode()
 ```
 
 
-तत्व कैसे मैप किया गया है, यह प्राप्त करता है।
+तत्व कैसे मैप किया गया है, प्राप्त करता है।
 
 **Returns:**
 [MappingMode](../../com.aspose.threed/mappingmode) - how the element is mapped.
@@ -220,7 +220,7 @@ public ReferenceMode getReferenceMode()
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है।
+तत्व कैसे संदर्भित किया गया है, प्राप्त करता है।
 
 **Returns:**
 [ReferenceMode](../../com.aspose.threed/referencemode) - how the element is referenced.
@@ -292,7 +292,7 @@ public void setMappingMode(MappingMode value)
 ```
 
 
-तत्व कैसे मैप किया गया है, यह सेट करता है।
+तत्व कैसे मैप किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -318,7 +318,7 @@ public void setReferenceMode(ReferenceMode value)
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह सेट करता है।
+तत्व कैसे संदर्भित किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,7 +1,7 @@
 ---
 title: "IRenderTarget"
-second_title: "Aspose.3D for Java API Reference"
-description: "रेंडर टार्गेट का बेस इंटरफ़ेस"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "रेंडर टार्गेट का बेस इंटरफ़ेस।"
 type: docs
 weight: 249
 url: /hi/java/com.aspose.threed/irendertarget/
@@ -13,17 +13,17 @@ java.io.Closeable
 public interface IRenderTarget extends Closeable
 ```
 
-रेंडर टार्गेट का बेस इंटरफ़ेस
+रेंडर टार्गेट का बेस इंटरफ़ेस।
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [createViewport(Camera camera)](#createViewport-com.aspose.threed.Camera-) | निर्दिष्ट कैमरा परिप्रेक्ष्य में एक व्यूपोर्ट बनाएं। |
 | [createViewport(Camera camera, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.RelativeRectangle-) | निर्दिष्ट कैमरा परिप्रेक्ष्य में स्थिति/आकार के साथ एक व्यूपोर्ट बनाएं। |
-| [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | निर्दिष्ट कैमरा परिप्रेक्ष्य में निर्दिष्ट पृष्ठभूमि रंग और स्थिति/आकार के साथ एक व्यूपोर्ट बनाएं। |
-| [getSize()](#getSize--) | रेंडर लक्ष्य का आकार प्राप्त करता है। |
-| [getViewports()](#getViewports--) | इस रेंडर लक्ष्य से जुड़े सभी व्यूपोर्ट प्राप्त करता है। |
-| [setSize(Vector2 value)](#setSize-com.aspose.threed.Vector2-) | रेंडर लक्ष्य का आकार निर्धारित करता है। |
+| [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | निर्दिष्ट कैमरा परिप्रेक्ष्य में निर्दिष्ट बैकग्राउंड रंग और स्थिति/आकार के साथ एक व्यूपोर्ट बनाएं। |
+| [getSize()](#getSize--) | रेंडर टार्गेट का आकार प्राप्त करता है। |
+| [getViewports()](#getViewports--) | इस रेंडर टार्गेट से जुड़े सभी व्यूपोर्ट प्राप्त करता है। |
+| [setSize(Vector2 value)](#setSize-com.aspose.threed.Vector2-) | रेंडर टार्गेट का आकार सेट करता है। |
 ### createViewport(Camera camera) {#createViewport-com.aspose.threed.Camera-}
 ```
 public abstract Viewport createViewport(Camera camera)
@@ -61,7 +61,7 @@ public abstract Viewport createViewport(Camera camera, Vector3 backgroundColor, 
 ```
 
 
-निर्दिष्ट कैमरा परिप्रेक्ष्य में निर्दिष्ट पृष्ठभूमि रंग और स्थिति/आकार के साथ एक व्यूपोर्ट बनाएं।
+निर्दिष्ट कैमरा परिप्रेक्ष्य में निर्दिष्ट बैकग्राउंड रंग और स्थिति/आकार के साथ एक व्यूपोर्ट बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -78,7 +78,7 @@ public abstract Vector2 getSize()
 ```
 
 
-रेंडर लक्ष्य का आकार प्राप्त करता है।
+रेंडर टार्गेट का आकार प्राप्त करता है।
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the size of the render target.
@@ -88,17 +88,17 @@ public abstract List<Viewport> getViewports()
 ```
 
 
-इस रेंडर लक्ष्य से जुड़े सभी व्यूपोर्ट प्राप्त करता है।
+इस रेंडर टार्गेट से जुड़े सभी व्यूपोर्ट प्राप्त करता है।
 
 **Returns:**
-java.util.List<com.aspose.threed.Viewport> - इस रेंडर लक्ष्य से जुड़े सभी व्यूपोर्ट।
+java.util.List<com.aspose.threed.Viewport> - सभी व्यूपोर्ट जो इस रेंडर टार्गेट से जुड़े हैं।
 ### setSize(Vector2 value) {#setSize-com.aspose.threed.Vector2-}
 ```
 public abstract void setSize(Vector2 value)
 ```
 
 
-रेंडर लक्ष्य का आकार निर्धारित करता है।
+रेंडर टार्गेट का आकार सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

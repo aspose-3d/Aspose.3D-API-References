@@ -1,6 +1,6 @@
 ---
 title: "PropertyCollection"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "प्रॉपर्टीज़ का संग्रह"
 type: docs
 weight: 140
@@ -27,13 +27,13 @@ public class PropertyCollection implements Iterable<Property>
 | [get(String property)](#get-java.lang.String-) | प्रॉपर्टी नाम द्वारा प्रॉपर्टी का मान प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | एक एनेमरेटर लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
+| [iterator()](#iterator--) | एक एन्यूमरेटर लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [set(String property, Object value)](#set-java.lang.String-java.lang.Object-) | प्रॉपर्टी नाम द्वारा प्रॉपर्टी का मान सेट करता है। |
-| [size()](#size--) | घोषित प्रॉपर्टियों की गिनती प्राप्त करता है। |
+| [size()](#size--) | घोषित प्रॉपर्टीज़ की गिनती प्राप्त करता है। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public Property findProperty(String property)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -124,7 +124,7 @@ public Iterator<Property> iterator()
 ```
 
 
-एक एनेमरेटर लौटाता है जो संग्रह के माध्यम से इटररेट करता है।
+एक एन्यूमरेटर लौटाता है जो संग्रह के माध्यम से इटररेट करता है।
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.Property>
@@ -194,7 +194,7 @@ public int size()
 ```
 
 
-घोषित प्रॉपर्टियों की गिनती प्राप्त करता है।
+घोषित प्रॉपर्टीज़ की गिनती प्राप्त करता है।
 
 **Returns:**
 int - घोषित गुणों की गिनती।

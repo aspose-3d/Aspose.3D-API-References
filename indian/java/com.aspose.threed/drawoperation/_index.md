@@ -1,6 +1,6 @@
 ---
 title: "DrawOperation"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "रेंडर करने के लिए मूल प्रकार"
 type: docs
 weight: 277
@@ -19,7 +19,7 @@ public enum DrawOperation extends Enum<DrawOperation>
 | फ़ील्ड | विवरण |
 | --- | --- |
 | [LINES](#LINES) | रेखाएँ |
-| [LINE_STRIP](#LINE-STRIP) | लाइन स्ट्रिप्स |
+| [LINE_STRIP](#LINE-STRIP) | रेखा स्ट्रिप्स |
 | [POINTS](#POINTS) | बिंदु |
 | [TRIANGLES](#TRIANGLES) | त्रिभुज |
 | [TRIANGLE_FAN](#TRIANGLE-FAN) | त्रिभुज फैन |
@@ -59,7 +59,7 @@ public static final DrawOperation LINE_STRIP
 ```
 
 
-लाइन स्ट्रिप्स
+रेखा स्ट्रिप्स
 
 ### POINTS {#POINTS}
 ```

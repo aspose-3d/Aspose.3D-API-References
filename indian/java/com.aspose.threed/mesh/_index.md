@@ -1,7 +1,7 @@
 ---
 title: "Mesh"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक मेष कई n-पक्षीय बहुभुजों से बना होता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक मेष कई n-भुजाओं वाले बहुभुजों से बना होता है।"
 type: docs
 weight: 102
 url: /hi/java/com.aspose.threed/mesh/
@@ -16,7 +16,7 @@ java.lang.Iterable, [com.aspose.threed.IMeshConvertible](../../com.aspose.threed
 public class Mesh extends Geometry implements Iterable<int[]>, IMeshConvertible
 ```
 
-एक जाल कई n-भुजाओं वाले बहुभुजों से बना होता है। **Example:** जाल में एक बहुभुज जोड़ने के लिए:
+एक मेष कई n-भुजाओं वाले बहुभुजों से बना होता है। **Example:** मेष में एक बहुभुज जोड़ने के लिए:
 
 ```
 Mesh mesh = new Mesh();
@@ -24,7 +24,7 @@ Mesh mesh = new Mesh();
   mesh.createPolygon(indices);
 ```
 
-जाल में सभी बहुभुजों पर यात्रा करें:
+मेष में सभी बहुभुजों के माध्यम से यात्रा करें:
 
 ```
 Mesh mesh = new Mesh();
@@ -33,79 +33,79 @@ Mesh mesh = new Mesh();
       //deal with polygon
   }
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Mesh()](#Mesh--) | नया उदाहरण प्रारंभ करता है [Mesh](../../com.aspose.threed/mesh) क्लास का। |
-| [Mesh(String name)](#Mesh-java.lang.String-) | नया उदाहरण प्रारंभ करता है [Mesh](../../com.aspose.threed/mesh) क्लास का। |
+| [Mesh()](#Mesh--) | एक नया [Mesh](../../com.aspose.threed/mesh) क्लास का उदाहरण प्रारंभ करता है। |
+| [Mesh(String name)](#Mesh-java.lang.String-) | एक नया [Mesh](../../com.aspose.threed/mesh) क्लास का उदाहरण प्रारंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [<T>getDeformers2()](#-T-getDeformers2--) | निर्दिष्ट डिफॉर्मर प्रकारों के साथ सभी डिफॉर्मर प्राप्त करता है |
-| [addControlPoint(double x, double y, double z)](#addControlPoint-double-double-double-) | जाल में एक नया नियंत्रण बिंदु जोड़ें, यह अधिक कुशल है। |
-| [addControlPoint(double x, double y, double z, double w)](#addControlPoint-double-double-double-double-) | जाल में एक नया नियंत्रण बिंदु जोड़ें, यह अधिक कुशल है। |
+| [<T>getDeformers2()](#-T-getDeformers2--) | निर्दिष्ट डीफ़ॉर्मर प्रकारों के साथ सभी डीफ़ॉर्मर प्राप्त करता है |
+| [addControlPoint(double x, double y, double z)](#addControlPoint-double-double-double-) | मेष में एक नया नियंत्रण बिंदु जोड़ें, यह अधिक कुशल है। |
+| [addControlPoint(double x, double y, double z, double w)](#addControlPoint-double-double-double-double-) | मेष में एक नया नियंत्रण बिंदु जोड़ें, यह अधिक कुशल है। |
 | [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | वर्तमान ज्यामिति में मौजूदा शीर्ष बिंदु तत्व जोड़ता है |
 | [clone()](#clone--) |  |
 | [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | निर्दिष्ट प्रकार के साथ एक शीर्ष बिंदु तत्व बनाता है और उसे ज्यामिति में जोड़ता है। |
 | [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | निर्दिष्ट प्रकार के साथ एक शीर्ष बिंदु तत्व बनाता है और उसे ज्यामिति में जोड़ता है। |
 | [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) बनाता है। |
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) बनाता है। |
-| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | 3 शीर्ष (त्रिभुज) के साथ एक बहुभुज बनाएं |
-| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | 4 शीर्ष (चतुर्भुज) के साथ एक बहुभुज बनाएं |
+| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | 3 शीर्षों (त्रिभुज) के साथ एक बहुभुज बनाएं। |
+| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | 4 शीर्षों (चतुर्भुज) के साथ एक बहुभुज बनाएं। |
 | [createPolygon(int[] indices)](#createPolygon-int---) | `indices` में परिभाषित सभी शीर्षों के साथ एक नया बहुभुज बनाता है। |
 | [createPolygon(int[] indices, int offset, int length)](#createPolygon-int---int-int-) | `indices` में परिभाषित सभी शीर्षों के साथ एक नया बहुभुज बनाता है। |
-| [difference(Mesh a, Mesh b)](#difference-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | दो मेषों का अंतर गणना करें |
-| [doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Mesh b, Matrix4 transformB)](#doBoolean-com.aspose.threed.BooleanOperation-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-) | दो मेषों पर बूलियन ऑपरेशन करें |
+| [difference(Mesh a, Mesh b)](#difference-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | दो मेषों का अंतर गणना करें। |
+| [doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Mesh b, Matrix4 transformB)](#doBoolean-com.aspose.threed.BooleanOperation-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-) | दो मेषों पर बूलियन ऑपरेशन करें। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
-| [getCastShadows()](#getCastShadows--) | यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getCastShadows()](#getCastShadows--) | यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
 | [getClass()](#getClass--) |  |
-| [getControlPoints()](#getControlPoints--) | सभी नियंत्रण बिंदु प्राप्त करता है |
-| [getDeformers()](#getDeformers--) | इस जियोमेट्री से जुड़े सभी डिफॉर्मर प्राप्त करता है। |
-| [getEdges()](#getEdges--) | मेश के किनारे प्राप्त करता है। |
-| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | निर्दिष्ट प्रकार के साथ एक वर्टेक्स तत्व प्राप्त करता है |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getControlPoints()](#getControlPoints--) | सभी नियंत्रण बिंदु प्राप्त करता है। |
+| [getDeformers()](#getDeformers--) | इस ज्यामिति से जुड़े सभी डिफॉर्मर प्राप्त करता है। |
+| [getEdges()](#getEdges--) | मेश की किनारों को प्राप्त करता है। |
+| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | निर्दिष्ट प्रकार के साथ एक वर्टेक्स एलिमेंट प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
-| [getPolygonCount()](#getPolygonCount--) | बहुभुजों की संख्या प्राप्त करता है |
-| [getPolygonSize(int index)](#getPolygonSize-int-) | निर्दिष्ट बहुभुज का वर्टेक्स गणना प्राप्त करता है। |
-| [getPolygons()](#getPolygons--) | मेश की बहुभुज परिभाषा प्राप्त करता है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getPolygonCount()](#getPolygonCount--) | बहुभुजों की संख्या प्राप्त करता है। |
+| [getPolygonSize(int index)](#getPolygonSize-int-) | निर्दिष्ट बहुभुज के वर्टेक्स की संख्या प्राप्त करता है। |
+| [getPolygons()](#getPolygons--) | मेश की बहुभुज परिभाषा प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getReceiveShadows()](#getReceiveShadows--) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) इंस्टेंस प्राप्त करता है |
-| [getVertexElements()](#getVertexElements--) | सभी वर्टेक्स तत्व प्राप्त करता है |
-| [getVisible()](#getVisible--) | जियोमेट्री दृश्यमान है या नहीं प्राप्त करता है |
+| [getReceiveShadows()](#getReceiveShadows--) | यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) इंस्टेंस प्राप्त करता है। |
+| [getVertexElements()](#getVertexElements--) | सभी वर्टेक्स एलिमेंट प्राप्त करता है। |
+| [getVisible()](#getVisible--) | जाँचता है कि ज्यामिति दृश्यमान है या नहीं। |
 | [hashCode()](#hashCode--) |  |
-| [intersect(Mesh a, Mesh b)](#intersect-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | दो मेषों का प्रतिच्छेदन गणना करें |
+| [intersect(Mesh a, Mesh b)](#intersect-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | दो मेषों का प्रतिच्छेदन गणना करें। |
 | [isManifold()](#isManifold--) | जाँचें कि वर्तमान मेष एक मैनिफोल्ड मेष है या नहीं। |
-| [iterator()](#iterator--) | प्रत्येक आंतरिक बहुभुज के लिए एन्यूमेरेटर प्राप्त करता है। |
+| [iterator()](#iterator--) | प्रत्येक आंतरिक बहुभुज के लिए एन्यूमरेटर प्राप्त करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [optimize(boolean vertexElements)](#optimize-boolean-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें |
-| [optimize(boolean vertexElements, float toleranceControlPoint)](#optimize-boolean-float-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें |
-| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal)](#optimize-boolean-float-float-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें |
-| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal, float toleranceUV)](#optimize-boolean-float-float-float-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें |
-| [optimize2(boolean vertexElements)](#optimize2-boolean-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें |
+| [optimize(boolean vertexElements)](#optimize-boolean-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें। |
+| [optimize(boolean vertexElements, float toleranceControlPoint)](#optimize-boolean-float-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें। |
+| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal)](#optimize-boolean-float-float-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें। |
+| [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal, float toleranceUV)](#optimize-boolean-float-float-float-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें। |
+| [optimize2(boolean vertexElements)](#optimize2-boolean-) | डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें। |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है। |
-| [setVisible(boolean value)](#setVisible-boolean-) | जियोमेट्री दृश्यमान है या नहीं सेट करता है |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [setVisible(boolean value)](#setVisible-boolean-) | जैसे कि ज्यामिति दृश्यमान है या नहीं, सेट करता है। |
 | [toMesh()](#toMesh--) | वर्तमान इकाई से Mesh इंस्टेंस प्राप्त करता है। |
 | [toString()](#toString--) |  |
-| [triangulate()](#triangulate--) | त्रिकोणीय mesh लौटाएँ |
-| [union(Mesh a, Mesh b)](#union-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | दो meshes का संघ गणना करें |
+| [triangulate()](#triangulate--) | त्रिकोणीय मेष लौटाता है |
+| [union(Mesh a, Mesh b)](#union-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | दो मेषों का संघ गणना करता है |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -115,7 +115,7 @@ public Mesh()
 ```
 
 
-नया उदाहरण प्रारंभ करता है [Mesh](../../com.aspose.threed/mesh) क्लास का।
+एक नया [Mesh](../../com.aspose.threed/mesh) क्लास का उदाहरण प्रारंभ करता है।
 
 ### Mesh(String name) {#Mesh-java.lang.String-}
 ```
@@ -123,7 +123,7 @@ public Mesh(String name)
 ```
 
 
-नया उदाहरण प्रारंभ करता है [Mesh](../../com.aspose.threed/mesh) क्लास का।
+एक नया [Mesh](../../com.aspose.threed/mesh) क्लास का उदाहरण प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -136,7 +136,7 @@ public Collection<T> <T>getDeformers2()
 ```
 
 
-निर्दिष्ट डिफॉर्मर प्रकारों के साथ सभी डिफॉर्मर प्राप्त करता है
+निर्दिष्ट डीफ़ॉर्मर प्रकारों के साथ सभी डीफ़ॉर्मर प्राप्त करता है
 
 **Returns:**
 java.util.Collection<T> - Deformer संग्रह
@@ -146,7 +146,7 @@ public void addControlPoint(double x, double y, double z)
 ```
 
 
-जाल में एक नया नियंत्रण बिंदु जोड़ें, यह अधिक कुशल है।
+मेष में एक नया नियंत्रण बिंदु जोड़ें, यह अधिक कुशल है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -161,7 +161,7 @@ public void addControlPoint(double x, double y, double z, double w)
 ```
 
 
-जाल में एक नया नियंत्रण बिंदु जोड़ें, यह अधिक कुशल है।
+मेष में एक नया नियंत्रण बिंदु जोड़ें, यह अधिक कुशल है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -182,7 +182,7 @@ public void addElement(VertexElement element)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| element | [VertexElement](../../com.aspose.threed/vertexelement) | जोड़ने के लिए वर्टेक्स तत्व |
+| element | [VertexElement](../../com.aspose.threed/vertexelement) | जोड़ने के लिए शिखर तत्व |
 
 ### clone() {#clone--}
 ```
@@ -205,7 +205,7 @@ public VertexElement createElement(VertexElementType type)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | वर्टेक्स तत्व प्रकार |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | शिखर तत्व प्रकार |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -220,7 +220,7 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | वर्टेक्स तत्व प्रकार |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | शिखर तत्व प्रकार |
 | mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | डिफ़ॉल्ट मैपिंग मोड |
 | referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | डिफ़ॉल्ट रेफ़रेंस मोड |
 
@@ -264,14 +264,14 @@ public void createPolygon(int v1, int v2, int v3)
 ```
 
 
-3 शीर्ष (त्रिभुज) के साथ एक बहुभुज बनाएं
+3 शीर्षों (त्रिभुज) के साथ एक बहुभुज बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| v1 | int | पहले वर्टेक्स का सूचकांक |
-| v2 | int | दूसरे वर्टेक्स का सूचकांक |
-|  | v3 | int | तीसरे वर्टेक्स का सूचकांक **Example:** निम्नलिखित कोड दर्शाता है कि नियंत्रण बिंदु के सूचकांकों के साथ नया बहुभुज कैसे बनाया जाए। |
+| v1 | int | पहले शिखर का अनुक्रमणिका |
+| v2 | int | दूसरे शिखर का अनुक्रमणिका |
+|  | v3 | int | तीसरे शिखर का अनुक्रमणिका **Example:** निम्नलिखित कोड दर्शाता है कि नियंत्रण बिंदु के अनुक्रमणिकाओं के साथ नया बहुभुज कैसे बनाया जाए। |
 
 ```
 Mesh mesh = new Mesh();
@@ -284,15 +284,15 @@ public void createPolygon(int v1, int v2, int v3, int v4)
 ```
 
 
-4 शीर्ष (चतुर्भुज) के साथ एक बहुभुज बनाएं
+4 शीर्षों (चतुर्भुज) के साथ एक बहुभुज बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| v1 | int | पहले वर्टेक्स का सूचकांक |
-| v2 | int | दूसरे वर्टेक्स का सूचकांक |
-| v3 | int | तीसरे वर्टेक्स का सूचकांक |
-|  | v4 | int | चौथे वर्टेक्स का सूचकांक **Example:** निम्नलिखित कोड दर्शाता है कि नियंत्रण बिंदु के सूचकांकों के साथ नया बहुभुज कैसे बनाया जाए। |
+| v1 | int | पहले शिखर का अनुक्रमणिका |
+| v2 | int | दूसरे शिखर का अनुक्रमणिका |
+| v3 | int | तीसरे शिखर का अनुक्रमणिका |
+|  | v4 | int | चौथे शिखर का अनुक्रमणिका **Example:** निम्नलिखित कोड दर्शाता है कि नियंत्रण बिंदु के अनुक्रमणिकाओं के साथ नया बहुभुज कैसे बनाया जाए। |
 
 ```
 Mesh mesh = new Mesh();
@@ -305,12 +305,12 @@ public void createPolygon(int[] indices)
 ```
 
 
-`indices` में परिभाषित सभी वर्टेक्स के साथ नया बहुभुज बनाता है। बहुभुज को वर्टेक्स दर वर्टेक्स बनाने के लिए, कृपया [PolygonBuilder](../../com.aspose.threed/polygonbuilder) का उपयोग करें।
+सभी शिखरों को `indices` में परिभाषित करके नया बहुभुज बनाता है। बहुभुज को शिखर दर शिखर बनाने के लिए, कृपया [PolygonBuilder](../../com.aspose.threed/polygonbuilder) का उपयोग करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | सूचकांक | int[] | बहुभुज सूचकांकों की सरणी, प्रत्येक सूचकांक एक नियंत्रण बिंदु की ओर इंगित करता है जो बहुभुज बनाता है। **Example:** |
+|  | सूचकांक | int[] | बहुभुज सूचकांकों की सरणी, प्रत्येक सूचकांक एक नियंत्रण बिंदु की ओर इशारा करता है जो बहुभुज बनाता है। **उदाहरण:** |
 
 ```
 Mesh mesh = new Mesh();
@@ -324,14 +324,14 @@ public void createPolygon(int[] indices, int offset, int length)
 ```
 
 
-`indices` में परिभाषित सभी वर्टेक्स के साथ नया बहुभुज बनाता है। बहुभुज को वर्टेक्स दर वर्टेक्स बनाने के लिए, कृपया [PolygonBuilder](../../com.aspose.threed/polygonbuilder) का उपयोग करें।
+सभी शिखरों को `indices` में परिभाषित करके नया बहुभुज बनाता है। बहुभुज को शिखर दर शिखर बनाने के लिए, कृपया [PolygonBuilder](../../com.aspose.threed/polygonbuilder) का उपयोग करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| सूचकांक | int[] | बहुभुज सूचकांकों की सरणी, प्रत्येक सूचकांक एक नियंत्रण बिंदु की ओर इंगित करता है जो बहुभुज बनाता है। |
-| ऑफ़सेट | int | पहले बहुभुज सूचकांक का ऑफसेट |
-|  | लंबाई | int | सूचकांकों की लंबाई **Example:** निम्नलिखित कोड दिखाता है कि नियंत्रण बिंदु के सूचकांकों के साथ नया बहुभुज कैसे बनाया जाए। |
+| सूचकांक | int[] | बहुभुज सूचकांकों की सरणी, प्रत्येक सूचकांक एक नियंत्रण बिंदु की ओर इशारा करता है जो बहुभुज बनाता है। |
+| ऑफ़सेट | int | पहले बहुभुज सूचकांक का ऑफ़सेट |
+|  | लंबाई | int | सूचकांकों की लंबाई **उदाहरण:** निम्नलिखित कोड दिखाता है कि नियंत्रण बिंदु के सूचकांकों के साथ नया बहुभुज कैसे बनाया जाए। |
 
 ```
 Mesh mesh = new Mesh();
@@ -345,7 +345,7 @@ public static Mesh difference(Mesh a, Mesh b)
 ```
 
 
-दो मेषों का अंतर गणना करें
+दो मेषों का अंतर गणना करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -361,7 +361,7 @@ public static Mesh doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Me
 ```
 
 
-दो मेषों पर बूलियन ऑपरेशन करें
+दो मेषों पर बूलियन ऑपरेशन करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -395,7 +395,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -410,7 +410,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -427,7 +427,7 @@ public boolean getCastShadows()
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है
+यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया डाल सकती है
@@ -447,7 +447,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-सभी नियंत्रण बिंदु प्राप्त करता है
+सभी नियंत्रण बिंदु प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - सभी नियंत्रण बिंदु
@@ -457,7 +457,7 @@ public List<Deformer> getDeformers()
 ```
 
 
-इस जियोमेट्री से जुड़े सभी डिफॉर्मर प्राप्त करता है।
+इस ज्यामिति से जुड़े सभी डिफॉर्मर प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.Deformer> - इस ज्यामिति से जुड़े सभी डिफॉर्मर।
@@ -477,12 +477,12 @@ public VertexElement getElement(VertexElementType type)
 ```
 
 
-निर्दिष्ट प्रकार के साथ एक वर्टेक्स तत्व प्राप्त करता है
+निर्दिष्ट प्रकार के साथ एक वर्टेक्स एलिमेंट प्राप्त करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | कौन सा वर्टेक्स तत्व प्रकार खोजें |
+| type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | कौन सा वर्टेक्स तत्व प्रकार खोजा जाए |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - [VertexElement](../../com.aspose.threed/vertexelement) instance if found, otherwise null will be returned.
@@ -492,7 +492,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -502,10 +502,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -522,7 +522,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -532,7 +532,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -542,10 +542,10 @@ public int getPolygonCount()
 ```
 
 
-बहुभुजों की संख्या प्राप्त करता है
+बहुभुजों की संख्या प्राप्त करता है।
 
 **Returns:**
-int - बहुभुजों की गिनती **Example:** निम्नलिखित कोड दिखाता है कि मेश के बहुभुजों की संख्या कैसे प्राप्त करें।
+int - बहुभुजों की गिनती **उदाहरण:** निम्नलिखित कोड दिखाता है कि मेश के बहुभुजों की संख्या कैसे प्राप्त की जाए।
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -557,7 +557,7 @@ public int getPolygonSize(int index)
 ```
 
 
-निर्दिष्ट बहुभुज का वर्टेक्स गणना प्राप्त करता है।
+निर्दिष्ट बहुभुज के वर्टेक्स की संख्या प्राप्त करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -572,10 +572,10 @@ public List<int[]> getPolygons()
 ```
 
 
-मेश की बहुभुज परिभाषा प्राप्त करता है
+मेश की बहुभुज परिभाषा प्राप्त करता है।
 
 **Returns:**
-java.util.List<int[]> - मेष की बहुभुज परिभाषा
+java.util.List<int[]> - जाल की बहुभुज परिभाषा
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -607,7 +607,7 @@ public boolean getReceiveShadows()
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है।
+यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया प्राप्त कर सकती है।
@@ -617,7 +617,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -627,7 +627,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) इंस्टेंस प्राप्त करता है
+दिए गए टेक्सचर मैपिंग प्रकार के साथ एक [VertexElementUV](../../com.aspose.threed/vertexelementuv) इंस्टेंस प्राप्त करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -642,7 +642,7 @@ public List<VertexElement> getVertexElements()
 ```
 
 
-सभी वर्टेक्स तत्व प्राप्त करता है
+सभी वर्टेक्स एलिमेंट प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.VertexElement> - सभी शीर्ष बिंदु तत्व
@@ -652,7 +652,7 @@ public boolean getVisible()
 ```
 
 
-जियोमेट्री दृश्यमान है या नहीं प्राप्त करता है
+जाँचता है कि ज्यामिति दृश्यमान है या नहीं।
 
 **Returns:**
 boolean - यदि ज्यामिति दृश्यमान है
@@ -672,7 +672,7 @@ public static Mesh intersect(Mesh a, Mesh b)
 ```
 
 
-दो मेषों का प्रतिच्छेदन गणना करें
+दो मेषों का प्रतिच्छेदन गणना करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -688,20 +688,20 @@ public boolean isManifold()
 ```
 
 
-जाँचें कि वर्तमान मेष एक manifold मेष है या नहीं। यह फ़ंक्शन manifold गणना परिणाम को कैश नहीं करेगा।
+जाँचें कि वर्तमान जाल एक manifold जाल है या नहीं। यह फ़ंक्शन manifold गणना परिणाम को कैश नहीं करेगा।
 
 **Returns:**
-boolean - true यदि मेष एक manifold मेष है।
+boolean - सही यदि जाल एक manifold जाल है।
 ### iterator() {#iterator--}
 ```
 public Iterator<int[]> iterator()
 ```
 
 
-प्रत्येक आंतरिक बहुभुज के लिए एन्यूमेरेटर प्राप्त करता है।
+प्रत्येक आंतरिक बहुभुज के लिए एन्यूमरेटर प्राप्त करता है।
 
 **Returns:**
-java.util.Iterator<int[]> - एनीमरेटर।
+java.util.Iterator<int[]> - एन्यूमरेटर।
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -724,7 +724,7 @@ public Mesh optimize(boolean vertexElements)
 ```
 
 
-डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें
+डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -746,7 +746,7 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint)
 ```
 
 
-डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें
+डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -762,14 +762,14 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint, float 
 ```
 
 
-डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें
+डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | vertexElements | boolean | डुप्लिकेटेड शीर्ष बिंदु तत्व डेटा को अनुकूलित करें |
 | toleranceControlPoint | फ़्लोट | नियंत्रण बिंदु के लिए सहनशीलता, डिफ़ॉल्ट मान 1e-9 है |
-| toleranceNormal | फ़्लोट | नॉर्मल/टैन्जेंट/बाइनॉर्मल के लिए सहनशीलता, डिफ़ॉल्ट मान 1e-9 है |
+| toleranceNormal | फ़्लोट | सामान्य/स्पर्शरेखा/बाइनॉर्मल के लिए सहनशीलता, डिफ़ॉल्ट मान 1e-9 है |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - New mesh instance with compact memory usage
@@ -779,14 +779,14 @@ public Mesh optimize(boolean vertexElements, float toleranceControlPoint, float 
 ```
 
 
-डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें
+डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | vertexElements | boolean | डुप्लिकेटेड शीर्ष बिंदु तत्व डेटा को अनुकूलित करें |
 | toleranceControlPoint | फ़्लोट | नियंत्रण बिंदु के लिए सहनशीलता, डिफ़ॉल्ट मान 1e-9 है |
-| toleranceNormal | फ़्लोट | नॉर्मल/टैन्जेंट/बाइनॉर्मल के लिए सहनशीलता, डिफ़ॉल्ट मान 1e-9 है |
+| toleranceNormal | फ़्लोट | सामान्य/स्पर्शरेखा/बाइनॉर्मल के लिए सहनशीलता, डिफ़ॉल्ट मान 1e-9 है |
 | toleranceUV | फ़्लोट | UV के लिए सहनशीलता, डिफ़ॉल्ट मान 1e-9 है |
 
 **Returns:**
@@ -797,7 +797,7 @@ public Mesh optimize2(boolean vertexElements)
 ```
 
 
-डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें
+डुप्लिकेट नियंत्रण बिंदुओं को हटाकर मेष की मेमोरी उपयोग को अनुकूलित करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -842,7 +842,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है
+यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -855,7 +855,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -881,7 +881,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -908,7 +908,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है।
+यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -921,7 +921,7 @@ public void setVisible(boolean value)
 ```
 
 
-जियोमेट्री दृश्यमान है या नहीं सेट करता है
+जैसे कि ज्यामिति दृश्यमान है या नहीं, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -954,7 +954,7 @@ public Mesh triangulate()
 ```
 
 
-त्रिकोणीय mesh लौटाएँ
+त्रिकोणीय मेष लौटाता है
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Current mesh if current mesh is already triangulated, otherwise a new triangulated mesh will be calculated and returned **Example:** The following code shows how to triangulate a mesh:
@@ -971,7 +971,7 @@ public static Mesh union(Mesh a, Mesh b)
 ```
 
 
-दो meshes का संघ गणना करें
+दो मेषों का संघ गणना करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,6 +1,6 @@
 ---
 title: "CompositeCurve.Segment"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "वक्र खंड"
 type: docs
 weight: 10
@@ -14,9 +14,9 @@ public static class CompositeCurve.Segment
 ```
 
 वक्र खंड
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [Segment()](#Segment--) |  |
 ## विधियाँ
@@ -25,13 +25,13 @@ public static class CompositeCurve.Segment
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCurve()](#getCurve--) | सेगमेंट में उपयोग किया गया वक्र |
-| [getSameDirection()](#getSameDirection--) | मूल वक्र की समान दिशा का उपयोग करें, या उल्टी दिशा का उपयोग करें |
+| [getCurve()](#getCurve--) | सेगमेंट में उपयोग किया गया कर्व |
+| [getSameDirection()](#getSameDirection--) | मूल कर्व की वही दिशा उपयोग करें, या उल्टी दिशा उपयोग करें |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCurve(Curve value)](#setCurve-com.aspose.threed.Curve-) | सेगमेंट में उपयोग किया गया वक्र |
-| [setSameDirection(boolean value)](#setSameDirection-boolean-) | मूल वक्र की समान दिशा का उपयोग करें, या उल्टी दिशा का उपयोग करें |
+| [setCurve(Curve value)](#setCurve-com.aspose.threed.Curve-) | सेगमेंट में उपयोग किया गया कर्व |
+| [setSameDirection(boolean value)](#setSameDirection-boolean-) | मूल कर्व की वही दिशा उपयोग करें, या उल्टी दिशा उपयोग करें |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public Curve getCurve()
 ```
 
 
-सेगमेंट में उपयोग किया गया वक्र
+सेगमेंट में उपयोग किया गया कर्व
 
 **Returns:**
 [Curve](../../com.aspose.threed/curve) - The curve used in the segment
@@ -83,10 +83,10 @@ public boolean getSameDirection()
 ```
 
 
-मूल वक्र की समान दिशा का उपयोग करें, या उल्टी दिशा का उपयोग करें
+मूल कर्व की वही दिशा उपयोग करें, या उल्टी दिशा उपयोग करें
 
 **Returns:**
-boolean - मूल वक्र की समान दिशा का उपयोग करें, या उल्टी दिशा का उपयोग करें
+boolean - मूल कर्व की वही दिशा उपयोग करें, या उल्टी दिशा उपयोग करें
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -119,7 +119,7 @@ public void setCurve(Curve value)
 ```
 
 
-सेगमेंट में उपयोग किया गया वक्र
+सेगमेंट में उपयोग किया गया कर्व
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -132,7 +132,7 @@ public void setSameDirection(boolean value)
 ```
 
 
-मूल वक्र की समान दिशा का उपयोग करें, या उल्टी दिशा का उपयोग करें
+मूल कर्व की वही दिशा उपयोग करें, या उल्टी दिशा उपयोग करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

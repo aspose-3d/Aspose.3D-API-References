@@ -1,6 +1,6 @@
 ---
 title: "MulticastEvent"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "lexchou द्वारा 24/04/2017 को बनाया गया।"
 type: docs
 weight: 109
@@ -14,9 +14,9 @@ public class MulticastEvent<EventArg>
 ```
 
 lexchou द्वारा 24/04/2017 को बनाया गया।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [MulticastEvent()](#MulticastEvent--) |  |
 ## विधियाँ

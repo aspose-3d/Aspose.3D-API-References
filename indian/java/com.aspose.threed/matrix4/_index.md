@@ -1,6 +1,6 @@
 ---
 title: "Matrix4"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "4x4 मैट्रिक्स कार्यान्वयन।"
 type: docs
 weight: 100
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class Matrix4 implements Struct<Matrix4>, Serializable
 ```
 
-4x4 मैट्रिक्स कार्यान्वयन। **उदाहरण:**
+4x4 मैट्रिक्स कार्यान्वयन. **Example:**
 
 ```
 Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
@@ -25,68 +25,68 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
       Vector4 pos = new Vector4(10, 9, 0, 1);
       Vector4 transformed = Matrix4.mul(transform, pos);
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [Matrix4(Vector4 r0, Vector4 r1, Vector4 r2, Vector4 r3)](#Matrix4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | 4 पंक्तियों से मैट्रिक्स बनाता है। |
-| [Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, double m13, double m20, double m21, double m22, double m23, double m30, double m31, double m32, double m33)](#Matrix4-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-) | नए [Matrix4](../../com.aspose.threed/matrix4) स्ट्रक्ट का एक नया उदाहरण प्रारंभ करता है। |
-| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | [Matrix4](../../com.aspose.threed/matrix4) को एक [FMatrix4](../../com.aspose.threed/fmatrix4) उदाहरण से बनाएं |
-| [Matrix4(double[] m)](#Matrix4-double---) | नए [Matrix4](../../com.aspose.threed/matrix4) स्ट्रक्ट का एक नया उदाहरण प्रारंभ करता है। |
+| [Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, double m13, double m20, double m21, double m22, double m23, double m30, double m31, double m32, double m33)](#Matrix4-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-) | एक नया उदाहरण प्रारंभ करता है [Matrix4](../../com.aspose.threed/matrix4) struct. |
+| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | निर्माण करें [Matrix4](../../com.aspose.threed/matrix4) को एक [FMatrix4](../../com.aspose.threed/fmatrix4) उदाहरण से |
+| [Matrix4(double[] m)](#Matrix4-double---) | एक नया उदाहरण प्रारंभ करता है [Matrix4](../../com.aspose.threed/matrix4) struct. |
 | [Matrix4()](#Matrix4--) |  |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [m00](#m00) | m00। |
-| [m01](#m01) | m01। |
-| [m02](#m02) | m02। |
-| [m03](#m03) | m03। |
-| [m10](#m10) | m10। |
-| [m11](#m11) | m11। |
-| [m12](#m12) | m12। |
-| [m13](#m13) | m13। |
-| [m20](#m20) | m20। |
-| [m21](#m21) | m21। |
-| [m22](#m22) | m22। |
-| [m23](#m23) | m23। |
-| [m30](#m30) | m30। |
-| [m31](#m31) | m31। |
-| [m32](#m32) | m32। |
-| [m33](#m33) | m33। |
+| [m00](#m00) | यह m00। |
+| [m01](#m01) | यह m01। |
+| [m02](#m02) | यह m02। |
+| [m03](#m03) | यह m03। |
+| [m10](#m10) | यह m10। |
+| [m11](#m11) | यह m11। |
+| [m12](#m12) | यह m12। |
+| [m13](#m13) | यह m13। |
+| [m20](#m20) | यह m20। |
+| [m21](#m21) | यह m21। |
+| [m22](#m22) | यह m22। |
+| [m23](#m23) | यह m23। |
+| [m30](#m30) | यह m30। |
+| [m31](#m31) | यह m31। |
+| [m32](#m32) | यह m32। |
+| [m33](#m33) | यह m33। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | दोनों मैट्रिक्स को जोड़ता है |
+| [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | दो मैट्रिक्स को जोड़ता है |
 | [copyFrom(Matrix4 src)](#copyFrom-com.aspose.threed.Matrix4-) |  |
-| [decompose(Vector3 translation, Vector3 scaling, Quaternion rotation)](#decompose-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | परिवर्तन मैट्रिक्स को विभाजित करें। |
+| [decompose(Vector3 translation, Vector3 scaling, Quaternion rotation)](#decompose-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | रूपांतरण मैट्रिक्स को विभाजित करें. |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDeterminant()](#getDeterminant--) | मैट्रिक्स का डिटरमिनेंट प्राप्त करता है। |
-| [getIdentity()](#getIdentity--) | पहचान मैट्रिक्स प्राप्त करता है। |
+| [getDeterminant()](#getDeterminant--) | मैट्रिक्स का निर्धारक प्राप्त करता है. |
+| [getIdentity()](#getIdentity--) | पहचान मैट्रिक्स प्राप्त करता है. |
 | [hashCode()](#hashCode--) |  |
-| [inverse()](#inverse--) | इस उदाहरण का प्रतिलोम निकालता है। |
+| [inverse()](#inverse--) | इस उदाहरण को उलटता है. |
 | [mul(Matrix4 lhs, Matrix4 rhs)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Matrix4-) | दोनों मैट्रिक्स को गुणा करें |
 | [mul(Matrix4 lhs, Vector3 v)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Vector3-) | मैट्रिक्स और vector3 को गुणा करें |
 | [mul(Matrix4 lhs, Vector4 v)](#mul-com.aspose.threed.Matrix4-com.aspose.threed.Vector4-) | मैट्रिक्स और vector4 को गुणा करें |
-| [mul(Matrix4 lhs, double v)](#mul-com.aspose.threed.Matrix4-double-) | मैट्रिक्स को डबल मान से गुणा करें |
+| [mul(Matrix4 lhs, double v)](#mul-com.aspose.threed.Matrix4-double-) | मैट्रिक्स और डबल मान को गुणा करें |
 | [normalize()](#normalize--) | इस उदाहरण को सामान्यीकृत करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | क्वाटरनियन से एक रोटेशन मैट्रिक्स बनाएं |
-| [rotate(double angle, Vector3 axis)](#rotate-double-com.aspose.threed.Vector3-) | रोटेशन कोण और अक्ष द्वारा रोटेशन मैट्रिक्स बनाएं |
-| [rotateFromEuler(Vector3 eul)](#rotateFromEuler-com.aspose.threed.Vector3-) | ऑयलर कोण से रोटेशन मैट्रिक्स बनाएं |
-| [rotateFromEuler(double rx, double ry, double rz)](#rotateFromEuler-double-double-double-) | ऑयलर कोण से रोटेशन मैट्रिक्स बनाएं |
-| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है। |
-| [scale(double s)](#scale-double-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है। |
-| [scale(double sx, double sy, double sz)](#scale-double-double-double-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है। |
-| [setTRS(Vector3 translation, Vector3 rotation, Vector3 scale)](#setTRS-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | मैट्रिक्स को ट्रांसलेशन/रोटेशन/स्केल के साथ प्रारंभ करता है |
-| [toArray()](#toArray--) | मैट्रिक्स को एरे में परिवर्तित करता है। |
-| [toString()](#toString--) | वर्तमान [Matrix4](../../com.aspose.threed/matrix4) को दर्शाने वाली java.lang.String लौटाता है। |
-| [translate(Vector3 t)](#translate-com.aspose.threed.Vector3-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ ट्रांसलेट करता है |
-| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ ट्रांसलेट करता है |
+| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | क्वाटरनियन से एक घूर्णन मैट्रिक्स बनाएं |
+| [rotate(double angle, Vector3 axis)](#rotate-double-com.aspose.threed.Vector3-) | घूर्णन कोण और अक्ष द्वारा घूर्णन मैट्रिक्स बनाएं |
+| [rotateFromEuler(Vector3 eul)](#rotateFromEuler-com.aspose.threed.Vector3-) | ऑयलर कोण से घूर्णन मैट्रिक्स बनाएं |
+| [rotateFromEuler(double rx, double ry, double rz)](#rotateFromEuler-double-double-double-) | ऑयलर कोण से घूर्णन मैट्रिक्स बनाएं |
+| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है. |
+| [scale(double s)](#scale-double-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है. |
+| [scale(double sx, double sy, double sz)](#scale-double-double-double-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है. |
+| [setTRS(Vector3 translation, Vector3 rotation, Vector3 scale)](#setTRS-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | मैट्रिक्स को अनुवाद/घूर्णन/स्केल के साथ प्रारंभ करता है |
+| [toArray()](#toArray--) | मैट्रिक्स को एरे में परिवर्तित करता है. |
+| [toString()](#toString--) | वर्तमान [Matrix4](../../com.aspose.threed/matrix4) को दर्शाने वाली java.lang.String लौटाता है. |
+| [translate(Vector3 t)](#translate-com.aspose.threed.Vector3-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ अनुवाद करता है |
+| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ अनुवाद करता है |
 | [transpose()](#transpose--) | इस इंस्टेंस को ट्रांसपोज़ करें। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -113,7 +113,7 @@ public Matrix4(double m00, double m01, double m02, double m03, double m10, doubl
 ```
 
 
-नए [Matrix4](../../com.aspose.threed/matrix4) स्ट्रक्ट का एक नया उदाहरण प्रारंभ करता है।
+एक नया उदाहरण प्रारंभ करता है [Matrix4](../../com.aspose.threed/matrix4) struct.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -151,7 +151,7 @@ public Matrix4(FMatrix4 m)
 ```
 
 
-[Matrix4](../../com.aspose.threed/matrix4) को एक [FMatrix4](../../com.aspose.threed/fmatrix4) उदाहरण से बनाएं
+निर्माण करें [Matrix4](../../com.aspose.threed/matrix4) को एक [FMatrix4](../../com.aspose.threed/fmatrix4) उदाहरण से
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -164,7 +164,7 @@ public Matrix4(double[] m)
 ```
 
 
-नए [Matrix4](../../com.aspose.threed/matrix4) स्ट्रक्ट का एक नया उदाहरण प्रारंभ करता है।
+एक नया उदाहरण प्रारंभ करता है [Matrix4](../../com.aspose.threed/matrix4) struct.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -183,7 +183,7 @@ public double m00
 ```
 
 
-m00।
+यह m00।
 
 ### m01 {#m01}
 ```
@@ -191,7 +191,7 @@ public double m01
 ```
 
 
-m01।
+यह m01।
 
 ### m02 {#m02}
 ```
@@ -199,7 +199,7 @@ public double m02
 ```
 
 
-m02।
+यह m02।
 
 ### m03 {#m03}
 ```
@@ -207,7 +207,7 @@ public double m03
 ```
 
 
-m03।
+यह m03।
 
 ### m10 {#m10}
 ```
@@ -215,7 +215,7 @@ public double m10
 ```
 
 
-m10।
+यह m10।
 
 ### m11 {#m11}
 ```
@@ -223,7 +223,7 @@ public double m11
 ```
 
 
-m11।
+यह m11।
 
 ### m12 {#m12}
 ```
@@ -231,7 +231,7 @@ public double m12
 ```
 
 
-m12।
+यह m12।
 
 ### m13 {#m13}
 ```
@@ -239,7 +239,7 @@ public double m13
 ```
 
 
-m13।
+यह m13।
 
 ### m20 {#m20}
 ```
@@ -247,7 +247,7 @@ public double m20
 ```
 
 
-m20।
+यह m20।
 
 ### m21 {#m21}
 ```
@@ -255,7 +255,7 @@ public double m21
 ```
 
 
-m21।
+यह m21।
 
 ### m22 {#m22}
 ```
@@ -263,7 +263,7 @@ public double m22
 ```
 
 
-m22।
+यह m22।
 
 ### m23 {#m23}
 ```
@@ -271,7 +271,7 @@ public double m23
 ```
 
 
-m23।
+यह m23।
 
 ### m30 {#m30}
 ```
@@ -279,7 +279,7 @@ public double m30
 ```
 
 
-m30।
+यह m30।
 
 ### m31 {#m31}
 ```
@@ -287,7 +287,7 @@ public double m31
 ```
 
 
-m31।
+यह m31।
 
 ### m32 {#m32}
 ```
@@ -295,7 +295,7 @@ public double m32
 ```
 
 
-m32।
+यह m32।
 
 ### m33 {#m33}
 ```
@@ -303,7 +303,7 @@ public double m33
 ```
 
 
-m33।
+यह m33।
 
 ### clone() {#clone--}
 ```
@@ -321,7 +321,7 @@ public Matrix4 concatenate(Matrix4 m2)
 ```
 
 
-दोनों मैट्रिक्स को जोड़ता है
+दो मैट्रिक्स को जोड़ता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -357,7 +357,7 @@ public boolean decompose(Vector3 translation, Vector3 scaling, Quaternion rotati
 ```
 
 
-परिवर्तन मैट्रिक्स को विभाजित करें।
+रूपांतरण मैट्रिक्स को विभाजित करें.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -367,7 +367,7 @@ public boolean decompose(Vector3 translation, Vector3 scaling, Quaternion rotati
 | rotation | [Quaternion](../../com.aspose.threed/quaternion) | रोटेशन। |
 
 **Returns:**
-boolean - सफलता पर True।
+boolean - True यदि सफल हुआ।
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -399,7 +399,7 @@ public double getDeterminant()
 ```
 
 
-मैट्रिक्स का डिटरमिनेंट प्राप्त करता है।
+मैट्रिक्स का निर्धारक प्राप्त करता है.
 
 **Returns:**
 double - मैट्रिक्स का निर्धारक।
@@ -409,7 +409,7 @@ public static Matrix4 getIdentity()
 ```
 
 
-पहचान मैट्रिक्स प्राप्त करता है।
+पहचान मैट्रिक्स प्राप्त करता है.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the identity matrix.
@@ -429,7 +429,7 @@ public Matrix4 inverse()
 ```
 
 
-इस उदाहरण का प्रतिलोम निकालता है।
+इस उदाहरण को उलटता है.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - Inverse matrix4 **Example:** The following code shows how to inverse a matrix
@@ -493,7 +493,7 @@ public static Matrix4 mul(Matrix4 lhs, double v)
 ```
 
 
-मैट्रिक्स को डबल मान से गुणा करें
+मैट्रिक्स और डबल मान को गुणा करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -535,12 +535,12 @@ public static Matrix4 rotate(Quaternion q)
 ```
 
 
-क्वाटरनियन से एक रोटेशन मैट्रिक्स बनाएं
+क्वाटरनियन से एक घूर्णन मैट्रिक्स बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | q | [Quaternion](../../com.aspose.threed/quaternion) | रोटेशन क्वाटरनियन **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे घुमाव ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
+|  | q | [Quaternion](../../com.aspose.threed/quaternion) | रोटेशन क्वाटरनियन **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे घुमाव ऑपरेशन के लिए एक मैट्रिक्स बनाया जाए। |
 
 ```
 var t = Matrix4.rotate(Quaternion.fromAngleAxis(Math.PI, Vector3.getUnitY()));
@@ -556,13 +556,13 @@ public static Matrix4 rotate(double angle, Vector3 axis)
 ```
 
 
-रोटेशन कोण और अक्ष द्वारा रोटेशन मैट्रिक्स बनाएं
+घूर्णन कोण और अक्ष द्वारा घूर्णन मैट्रिक्स बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | कोण | double | रैडियन में घुमाव कोण |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | रोटेशन अक्ष **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे घुमाव ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | रोटेशन अक्ष **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे घुमाव ऑपरेशन के लिए एक मैट्रिक्स बनाया जाए। |
 
 ```
 var t = Matrix4.rotate(Math.PI, new Vector3(0, 1, 0));
@@ -578,12 +578,12 @@ public static Matrix4 rotateFromEuler(Vector3 eul)
 ```
 
 
-ऑयलर कोण से रोटेशन मैट्रिक्स बनाएं
+ऑयलर कोण से घूर्णन मैट्रिक्स बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | eul | [Vector3](../../com.aspose.threed/vector3) | रैडियन में रोटेशन **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे घुमाव ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
+|  | eul | [Vector3](../../com.aspose.threed/vector3) | रैडियन में रोटेशन **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे घुमाव ऑपरेशन के लिए एक मैट्रिक्स बनाया जाए। |
 
 ```
 var t = Matrix4.rotateFromEuler(new Vector3(0, Math.PI, 0));
@@ -599,14 +599,14 @@ public static Matrix4 rotateFromEuler(double rx, double ry, double rz)
 ```
 
 
-ऑयलर कोण से रोटेशन मैट्रिक्स बनाएं
+ऑयलर कोण से घूर्णन मैट्रिक्स बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| rx | double | x-अक्ष पर घूर्णन रेडियन में |
-| ry | double | y-अक्ष पर घूर्णन रेडियन में |
-|  | rz | double | z-अक्ष पर घूर्णन रेडियन में **उदाहरण:** निम्नलिखित कोड दिखाता है कि घुमाव ऑपरेशन के लिए मैट्रिक्स कैसे बनाएं। |
+| rx | double | x अक्ष पर रेडियन में घूर्णन |
+| ry | double | y अक्ष पर रेडियन में घूर्णन |
+|  | rz | double | z अक्ष पर रेडियन में घूर्णन **Example:** निम्नलिखित कोड दिखाता है कि कैसे रोटेट ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
 
 ```
 var t = Matrix4.rotateFromEuler(0, Math.PI, 0);
@@ -622,12 +622,12 @@ public static Matrix4 scale(Vector3 s)
 ```
 
 
-एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है।
+एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | s | [Vector3](../../com.aspose.threed/vector3) | स्केलिंग फैक्टरीज़ x-अक्ष, y-अक्ष और z-अक्ष पर लागू होती हैं **उदाहरण:** निम्नलिखित कोड दिखाता है कि स्केल ऑपरेशन के लिए मैट्रिक्स कैसे बनाएं। |
+|  | s | [Vector3](../../com.aspose.threed/vector3) | स्केलिंग फैक्ट्रीज़ x-अक्ष, y-अक्ष और z-अक्ष पर लागू होती हैं **Example:** निम्नलिखित कोड दिखाता है कि कैसे स्केल ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
 
 ```
 var t = Matrix4.scale(new Vector3(10, 10, 10));
@@ -643,12 +643,12 @@ public static Matrix4 scale(double s)
 ```
 
 
-एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है।
+एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | s | double | स्केलिंग फैक्टरीज़ सभी अक्षों पर लागू होती हैं **उदाहरण:** निम्नलिखित कोड दिखाता है कि स्केल ऑपरेशन के लिए मैट्रिक्स कैसे बनाएं। |
+|  | s | double | स्केलिंग फैक्ट्रीज़ सभी अक्षों पर लागू होती हैं **Example:** निम्नलिखित कोड दिखाता है कि कैसे स्केल ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
 
 ```
 var t = Matrix4.scale(10);
@@ -664,14 +664,14 @@ public static Matrix4 scale(double sx, double sy, double sz)
 ```
 
 
-एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है।
+एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ स्केल करता है.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| sx | double | स्केलिंग फैक्टरीज़ x-अक्ष पर लागू होती हैं |
-| sy | double | स्केलिंग फैक्टरीज़ y-अक्ष पर लागू होती हैं |
-|  | sz | double | स्केलिंग फैक्टरीज़ z-अक्ष पर लागू होती हैं **उदाहरण:** निम्नलिखित कोड दिखाता है कि स्केल ऑपरेशन के लिए मैट्रिक्स कैसे बनाएं। |
+| sx | double | स्केलिंग फैक्ट्रीज़ x-अक्ष पर लागू होती हैं |
+| sy | double | स्केलिंग फैक्ट्रीज़ y-अक्ष पर लागू होती हैं |
+|  | sz | double | स्केलिंग फैक्ट्रीज़ z-अक्ष पर लागू होती हैं **Example:** निम्नलिखित कोड दिखाता है कि कैसे स्केल ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
 
 ```
 var t = Matrix4.scale(10, 20, 10);
@@ -687,13 +687,13 @@ public void setTRS(Vector3 translation, Vector3 rotation, Vector3 scale)
 ```
 
 
-मैट्रिक्स को ट्रांसलेशन/रोटेशन/स्केल के साथ प्रारंभ करता है
+मैट्रिक्स को अनुवाद/घूर्णन/स्केल के साथ प्रारंभ करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | translation | [Vector3](../../com.aspose.threed/vector3) | अनुवाद। |
-| rotation | [Vector3](../../com.aspose.threed/vector3) | घूर्णन के लिए यूलर कोण, फ़ील्ड डिग्री में हैं। |
+| rotation | [Vector3](../../com.aspose.threed/vector3) | घूर्णन के लिए यूलेर कोण, फ़ील्ड डिग्री में हैं। |
 | scale | [Vector3](../../com.aspose.threed/vector3) | स्केल। |
 
 ### toArray() {#toArray--}
@@ -702,7 +702,7 @@ public double[] toArray()
 ```
 
 
-मैट्रिक्स को एरे में परिवर्तित करता है।
+मैट्रिक्स को एरे में परिवर्तित करता है.
 
 **Returns:**
 double[] - एरे।
@@ -712,7 +712,7 @@ public String toString()
 ```
 
 
-वर्तमान [Matrix4](../../com.aspose.threed/matrix4) को दर्शाने वाली java.lang.String लौटाता है।
+वर्तमान [Matrix4](../../com.aspose.threed/matrix4) को दर्शाने वाली java.lang.String लौटाता है.
 
 **Returns:**
 java.lang.String - एक java.lang.String जो वर्तमान [Matrix4](../../com.aspose.threed/matrix4) को दर्शाता है।
@@ -722,12 +722,12 @@ public static Matrix4 translate(Vector3 t)
 ```
 
 
-एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ ट्रांसलेट करता है
+एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ अनुवाद करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | t | [Vector3](../../com.aspose.threed/vector3) | अनुवाद ऑफ़सेट **उदाहरण:** निम्नलिखित कोड दिखाता है कि अनुवाद ऑपरेशन के लिए मैट्रिक्स कैसे बनाएं। |
+|  | t | [Vector3](../../com.aspose.threed/vector3) | अनुवाद ऑफ़सेट **Example:** निम्नलिखित कोड दिखाता है कि कैसे ट्रांसलेट ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
 
 ```
 Matrix4 t = Matrix4.translate(new Vector3(10, 0, 0));
@@ -743,14 +743,14 @@ public static Matrix4 translate(double tx, double ty, double tz)
 ```
 
 
-एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ ट्रांसलेट करता है
+एक मैट्रिक्स बनाता है जो x-अक्ष, y-अक्ष और z-अक्ष के साथ अनुवाद करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | tx | double | X-निर्देशांक ऑफ़सेट |
 | ty | double | Y-निर्देशांक ऑफ़सेट |
-|  | tz | double | Z-coordinate offset **Example:** निम्नलिखित कोड दिखाता है कि कैसे अनुवाद ऑपरेशन के लिए मैट्रिक्स बनाया जाए। |
+|  | tz | double | Z-निर्देशांक ऑफ़सेट **Example:** निम्नलिखित कोड दिखाता है कि अनुवाद ऑपरेशन के लिए मैट्रिक्स कैसे बनाएं। |
 
 ```
 var t = Matrix4.translate(10, 0, 0);

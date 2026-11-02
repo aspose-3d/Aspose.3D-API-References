@@ -1,7 +1,7 @@
 ---
-title: "ग्रुप"
-second_title: "Aspose.3D for Java API Reference"
-description: "A  का प्रतिनिधित्व . की तार्किक संबंधों से करता है।"
+title: "समूह"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक  . के तार्किक संबंधों को दर्शाता है।"
 type: docs
 weight: 75
 url: /hi/java/com.aspose.threed/group/
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Group extends A3DObject
 ```
 
-A [Group](../../com.aspose.threed/group) [Node](../../com.aspose.threed/node) के तार्किक संबंधों का प्रतिनिधित्व करता है।
-## कंस्ट्रक्टर
+एक [Group](../../com.aspose.threed/group) [Node](../../com.aspose.threed/node) के तार्किक संबंधों को दर्शाता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Group(String name)](#Group-java.lang.String-) | नया उदाहरण बनाएं [Group](../../com.aspose.threed/group) का |
-| [Group()](#Group--) | नया उदाहरण बनाएं [Group](../../com.aspose.threed/group) का |
+| [Group(String name)](#Group-java.lang.String-) | नया [Group](../../com.aspose.threed/group) का उदाहरण बनाएं |
+| [Group()](#Group--) | नया [Group](../../com.aspose.threed/group) का उदाहरण बनाएं |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -27,10 +27,10 @@ A [Group](../../com.aspose.threed/group) [Node](../../com.aspose.threed/node) �
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
 | [getClass()](#getClass--) |  |
-| [getGroups()](#getGroups--) | उप-ग्रुप |
+| [getGroups()](#getGroups--) | उप-समूह |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getNodes()](#getNodes--) | इस ग्रुप में नोड्स |
-| [getParent()](#getParent--) | वर्तमान ग्रुप का पैरेंट ग्रुप |
+| [getNodes()](#getNodes--) | इस समूह में नोड्स |
+| [getParent()](#getParent--) | वर्तमान समूह का पैरेंट समूह |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [hashCode()](#hashCode--) |  |
@@ -50,7 +50,7 @@ public Group(String name)
 ```
 
 
-नया उदाहरण बनाएं [Group](../../com.aspose.threed/group) का
+नया [Group](../../com.aspose.threed/group) का उदाहरण बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -63,7 +63,7 @@ public Group()
 ```
 
 
-नया उदाहरण बनाएं [Group](../../com.aspose.threed/group) का
+नया [Group](../../com.aspose.threed/group) का उदाहरण बनाएं
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -86,7 +86,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -111,7 +111,7 @@ public List<Group> getGroups()
 ```
 
 
-उप-ग्रुप
+उप-समूह
 
 **Returns:**
 java.util.List<com.aspose.threed.Group> - उप-समूह
@@ -131,7 +131,7 @@ public List<Node> getNodes()
 ```
 
 
-इस ग्रुप में नोड्स
+इस समूह में नोड्स
 
 **Returns:**
 java.util.List<com.aspose.threed.Node> - इस समूह में नोड्स
@@ -141,7 +141,7 @@ public Group getParent()
 ```
 
 
-वर्तमान ग्रुप का पैरेंट ग्रुप
+वर्तमान समूह का पैरेंट समूह
 
 **Returns:**
 [Group](../../com.aspose.threed/group) - Parent group of current group

@@ -1,7 +1,7 @@
 ---
 title: "रद्दीकरण"
-second_title: "Aspose.3D for Java API Reference"
-description: "यह क्लास आपको लोड/सेव कार्य को मैन्युअल रूप से रोकने की अनुमति देती है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "यह क्लास आपको मैन्युअल रूप से लोड/सेव कार्य को रोकने की अनुमति देती है।"
 type: docs
 weight: 29
 url: /hi/java/com.aspose.threed/cancellation/
@@ -13,10 +13,10 @@ java.lang.Object
 public class Cancellation
 ```
 
-यह क्लास आपको लोड/सेव कार्य को मैन्युअल रूप से रोकने की अनुमति देती है।
-## कंस्ट्रक्टर
+यह क्लास आपको मैन्युअल रूप से लोड/सेव कार्य को रोकने की अनुमति देती है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [Cancellation()](#Cancellation--) |  |
 ## विधियाँ

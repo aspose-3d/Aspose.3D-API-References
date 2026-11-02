@@ -1,6 +1,6 @@
 ---
 title: "AnimationChannel"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "एक चैनल प्रॉपर्टी के कंपोनेंट फ़ील्ड को कीफ़्रेम अनुक्रमों के सेट से मैप करता है।"
 type: docs
 weight: 13
@@ -13,33 +13,33 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationChannel extends KeyframeSequence
 ```
 
-एक चैनल प्रॉपर्टी के कंपोनेंट फ़ील्ड को कीफ़्रेम सीक्वेंस के सेट से मैप करता है।
+एक चैनल प्रॉपर्टी के कंपोनेंट फ़ील्ड को कीफ़्रेम सीक्वेंसेज़ के सेट से मैप करता है।
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [add(double time, float value)](#add-double-float-) | निर्दिष्ट मान के साथ एक नया कुंजी फ़्रेम बनाएं |
-| [add(double time, float value, Interpolation interpolation)](#add-double-float-com.aspose.threed.Interpolation-) | निर्दिष्ट मान के साथ एक नया कुंजी फ़्रेम बनाएं |
+| [add(double time, float value)](#add-double-float-) | निर्दिष्ट मान के साथ नया की फ़्रेम बनाएं |
+| [add(double time, float value, Interpolation interpolation)](#add-double-float-com.aspose.threed.Interpolation-) | निर्दिष्ट मान के साथ नया की फ़्रेम बनाएं |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBindPoint()](#getBindPoint--) | उस प्रॉपर्टी बाइंड पॉइंट को प्राप्त करता है जो इस कर्व का स्वामित्व रखता है |
+| [getBindPoint()](#getBindPoint--) | उस प्रॉपर्टी बाइंड पॉइंट को प्राप्त करता है जो इस कर्व का स्वामी है |
 | [getClass()](#getClass--) |  |
 | [getComponentType()](#getComponentType--) | कंपोनेंट फ़ील्ड का प्रकार प्राप्त करता है। |
 | [getDefaultValue()](#getDefaultValue--) | चैनल का डिफ़ॉल्ट मान प्राप्त करता है। |
-| [getKeyFrames()](#getKeyFrames--) | इस कर्व के कुंजी फ़्रेम प्राप्त करता है। |
+| [getKeyFrames()](#getKeyFrames--) | इस कर्व के कीफ़्रेम प्राप्त करता है। |
 | [getKeyframeSequence()](#getKeyframeSequence--) | इस चैनल के भीतर संबंधित कीफ़्रेम अनुक्रम प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getPostBehavior()](#getPostBehavior--) | पोस्ट व्यवहार प्राप्त करता है जो दर्शाता है कि अंतिम कुंजी फ़्रेम के बाद नमूना मान क्या होना चाहिए। |
-| [getPreBehavior()](#getPreBehavior--) | प्रि व्यवहार प्राप्त करता है जो दर्शाता है कि पहले कुंजी फ़्रेम से पहले नमूना मान क्या होना चाहिए। |
+| [getPostBehavior()](#getPostBehavior--) | पोस्ट व्यवहार प्राप्त करता है जो दर्शाता है कि अंतिम कीफ़्रेम के बाद नमूना मान क्या होना चाहिए। |
+| [getPreBehavior()](#getPreBehavior--) | प्रि व्यवहार प्राप्त करता है जो दर्शाता है कि पहले कीफ़्रेम से पहले नमूना मान क्या होना चाहिए। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | सभी कुंजी फ़्रेमों को पार करने के लिए एन्यूमरेटर प्राप्त करता है। |
+| [iterator()](#iterator--) | सभी कीफ़्रेम को पार करने के लिए एन्यूमरेटर प्राप्त करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [reset()](#reset--) | सभी कुंजी फ़्रेमों को हटाता है और पोस्ट/प्रि व्यवहारों को रीसेट करता है। |
+| [reset()](#reset--) | सभी कीफ़्रेम हटाता है और पोस्ट/प्रि व्यवहारों को रीसेट करता है। |
 | [setDefaultValue(Object value)](#setDefaultValue-java.lang.Object-) | चैनल का डिफ़ॉल्ट मान सेट करता है। |
 | [setKeyframeSequence(KeyframeSequence value)](#setKeyframeSequence-com.aspose.threed.KeyframeSequence-) | इस चैनल के भीतर संबंधित कीफ़्रेम अनुक्रम प्राप्त करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
@@ -54,7 +54,7 @@ public void add(double time, float value)
 ```
 
 
-निर्दिष्ट मान के साथ एक नया कुंजी फ़्रेम बनाएं
+निर्दिष्ट मान के साथ नया की फ़्रेम बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -68,14 +68,14 @@ public void add(double time, float value, Interpolation interpolation)
 ```
 
 
-निर्दिष्ट मान के साथ एक नया कुंजी फ़्रेम बनाएं
+निर्दिष्ट मान के साथ नया की फ़्रेम बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | समय | double | समय स्थिति (सेकंड में मापी गई) |
 | मान | फ़्लोट | इस समय स्थिति पर मान |
-| interpolation | [Interpolation](../../com.aspose.threed/interpolation) | इस कुंजी फ़्रेम का इंटरपोलेशन प्रकार |
+| interpolation | [Interpolation](../../com.aspose.threed/interpolation) | इस कीफ़्रेम का इंटरपोलेशन प्रकार |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -113,7 +113,7 @@ public BindPoint getBindPoint()
 ```
 
 
-उस प्रॉपर्टी बाइंड पॉइंट को प्राप्त करता है जो इस कर्व का स्वामित्व रखता है
+उस प्रॉपर्टी बाइंड पॉइंट को प्राप्त करता है जो इस कर्व का स्वामी है
 
 **Returns:**
 [BindPoint](../../com.aspose.threed/bindpoint) - the property bind point which owns this curve
@@ -143,20 +143,20 @@ public Object getDefaultValue()
 ```
 
 
-चैनल का डिफ़ॉल्ट मान प्राप्त करता है। यदि किसी चैनल से कोई कीफ़्रेम अनुक्रम जुड़ा नहीं है, तो एनीमेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान उपयोग किया जाएगा। एक वास्तविक परिदृश्य: एनीमेशन केवल एक नोड के x निर्देशांक को एनीमेट करता है, y और z नहीं बदले जाते, तब पूर्ण ट्रांसलेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान उपयोग किया जाएगा।
+चैनल का डिफ़ॉल्ट मान प्राप्त करता है। यदि किसी चैनल से कोई कीफ़्रेम अनुक्रम जुड़ा नहीं है, तो एनीमेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान का उपयोग किया जाएगा। एक वास्तविक परिदृश्य: एनीमेशन केवल एक नोड के x निर्देशांक को एनीमेट करता है, y और z नहीं बदले जाते, तब पूर्ण ट्रांसलेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान का उपयोग किया जाएगा।
 
 **Returns:**
-java.lang.Object - चैनल का डिफ़ॉल्ट मान। यदि किसी चैनल से कोई कीफ़्रेम अनुक्रम जुड़ा नहीं है, तो एनीमेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान उपयोग किया जाएगा। एक वास्तविक परिदृश्य: एनीमेशन केवल एक नोड के x निर्देशांक को एनीमेट करता है, y और z नहीं बदले जाते, तब पूर्ण ट्रांसलेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान उपयोग किया जाएगा।
+java.lang.Object - चैनल का डिफ़ॉल्ट मान। यदि किसी चैनल से कोई कीफ़्रेम अनुक्रम जुड़ा नहीं है, तो एनीमेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान का उपयोग किया जाएगा। एक वास्तविक परिदृश्य: एनीमेशन केवल एक नोड के x निर्देशांक को एनीमेट करता है, y और z नहीं बदले जाते, तब पूर्ण ट्रांसलेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान का उपयोग किया जाएगा।
 ### getKeyFrames() {#getKeyFrames--}
 ```
 public List<KeyFrame> getKeyFrames()
 ```
 
 
-इस कर्व के कुंजी फ़्रेम प्राप्त करता है।
+इस कर्व के कीफ़्रेम प्राप्त करता है।
 
 **Returns:**
-java.util.List<com.aspose.threed.KeyFrame> - इस कर्व के कुंजी फ़्रेम।
+java.util.List<com.aspose.threed.KeyFrame> - इस कर्व के कीफ़्रेम।
 ### getKeyframeSequence() {#getKeyframeSequence--}
 ```
 public KeyframeSequence getKeyframeSequence()
@@ -183,7 +183,7 @@ public Extrapolation getPostBehavior()
 ```
 
 
-पोस्ट व्यवहार प्राप्त करता है जो दर्शाता है कि अंतिम कुंजी फ़्रेम के बाद नमूना मान क्या होना चाहिए।
+पोस्ट व्यवहार प्राप्त करता है जो दर्शाता है कि अंतिम कीफ़्रेम के बाद नमूना मान क्या होना चाहिए।
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the post behavior indicates what the sampled value should be after the last key frame.
@@ -193,7 +193,7 @@ public Extrapolation getPreBehavior()
 ```
 
 
-प्रि व्यवहार प्राप्त करता है जो दर्शाता है कि पहले कुंजी फ़्रेम से पहले नमूना मान क्या होना चाहिए।
+प्रि व्यवहार प्राप्त करता है जो दर्शाता है कि पहले कीफ़्रेम से पहले नमूना मान क्या होना चाहिए।
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the pre behavior indicates what the sampled value should be before the first key.
@@ -238,7 +238,7 @@ public Iterator<KeyFrame> iterator()
 ```
 
 
-सभी कुंजी फ़्रेमों को पार करने के लिए एन्यूमरेटर प्राप्त करता है।
+सभी कीफ़्रेम को पार करने के लिए एन्यूमरेटर प्राप्त करता है।
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.KeyFrame>
@@ -294,7 +294,7 @@ public void reset()
 ```
 
 
-सभी कुंजी फ़्रेमों को हटाता है और पोस्ट/प्रि व्यवहारों को रीसेट करता है।
+सभी कीफ़्रेम हटाता है और पोस्ट/प्रि व्यवहारों को रीसेट करता है।
 
 ### setDefaultValue(Object value) {#setDefaultValue-java.lang.Object-}
 ```
@@ -302,7 +302,7 @@ public void setDefaultValue(Object value)
 ```
 
 
-चैनल का डिफ़ॉल्ट मान सेट करता है। यदि किसी चैनल से कोई कीफ़्रेम अनुक्रम जुड़ा नहीं है, तो एनीमेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान उपयोग किया जाएगा। एक वास्तविक परिदृश्य: एनीमेशन केवल एक नोड के x निर्देशांक को एनीमेट करता है, y और z नहीं बदले जाते, तब पूर्ण ट्रांसलेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान उपयोग किया जाएगा।
+चैनल का डिफ़ॉल्ट मान सेट करता है। यदि किसी चैनल से कोई कीफ़्रेम अनुक्रम जुड़ा नहीं है, तो एनीमेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान का उपयोग किया जाएगा। एक वास्तविक परिदृश्य: एनीमेशन केवल एक नोड के x निर्देशांक को एनीमेट करता है, y और z नहीं बदले जाते, तब पूर्ण ट्रांसलेशन मूल्यांकन के दौरान डिफ़ॉल्ट मान का उपयोग किया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

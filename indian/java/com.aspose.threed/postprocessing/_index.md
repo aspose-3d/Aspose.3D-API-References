@@ -1,6 +1,6 @@
 ---
 title: "PostProcessing"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "पोस्ट-प्रोसेसिंग इफ़ेक्ट्स"
 type: docs
 weight: 136
@@ -14,9 +14,9 @@ public abstract class PostProcessing extends A3DObject
 ```
 
 पोस्ट-प्रोसेसिंग इफ़ेक्ट्स
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [PostProcessing()](#PostProcessing--) |  |
 ## विधियाँ
@@ -69,7 +69,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

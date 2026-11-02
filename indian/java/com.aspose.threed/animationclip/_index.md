@@ -1,7 +1,7 @@
 ---
 title: "AnimationClip"
-second_title: "Aspose.3D for Java API Reference"
-description: "एनिमेशन क्लिप एनिमेशनों का संग्रह है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एनिमेशन क्लिप एनिमेशन्स का संग्रह है।"
 type: docs
 weight: 14
 url: /hi/java/com.aspose.threed/animationclip/
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationClip extends SceneObject
 ```
 
-एनीमेशन क्लिप एनीमेशनों का संग्रह है। दृश्य में एक या अधिक एनीमेशन क्लिप हो सकते हैं।
-## कंस्ट्रक्टर
+एनीमेशन क्लिप एनीमेशन्स का संग्रह है। दृश्य में एक या अधिक एनीमेशन क्लिप हो सकते हैं।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [AnimationClip()](#AnimationClip--) | Initializes a new instance of the [AnimationClip](../../com.aspose.threed/animationclip) class. |
-| [AnimationClip(String name)](#AnimationClip-java.lang.String-) | Initializes a new instance of the [AnimationClip](../../com.aspose.threed/animationclip) class. |
+| [AnimationClip()](#AnimationClip--) | एक नया इंस्टेंस [AnimationClip](../../com.aspose.threed/animationclip) क्लास का इनिशियलाइज़ करता है। |
+| [AnimationClip(String name)](#AnimationClip-java.lang.String-) | एक नया इंस्टेंस [AnimationClip](../../com.aspose.threed/animationclip) क्लास का इनिशियलाइज़ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -27,13 +27,13 @@ public class AnimationClip extends SceneObject
 | [createAnimationNode(String nodeName)](#createAnimationNode-java.lang.String-) | वर्तमान क्लिप पर एनीमेशन नोड बनाने और रजिस्टर करने के लिए एक शॉर्टहैंड फ़ंक्शन। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getAnimations()](#getAnimations--) | क्लिप के भीतर मौजूद एनीमेशनों को प्राप्त करता है। |
+| [getAnimations()](#getAnimations--) | क्लिप के अंदर सम्मिलित एनीमेशन्स को प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
 | [getDescription()](#getDescription--) | इस एनीमेशन क्लिप का विवरण प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [getStart()](#getStart--) | क्लिप की शुरुआत का समय सेकंड में प्राप्त करता है। |
 | [getStop()](#getStop--) | क्लिप के अंत का समय सेकंड में प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
@@ -56,7 +56,7 @@ public AnimationClip()
 ```
 
 
-Initializes a new instance of the [AnimationClip](../../com.aspose.threed/animationclip) class.
+एक नया इंस्टेंस [AnimationClip](../../com.aspose.threed/animationclip) क्लास का इनिशियलाइज़ करता है।
 
 ### AnimationClip(String name) {#AnimationClip-java.lang.String-}
 ```
@@ -64,7 +64,7 @@ public AnimationClip(String name)
 ```
 
 
-Initializes a new instance of the [AnimationClip](../../com.aspose.threed/animationclip) class.
+एक नया इंस्टेंस [AnimationClip](../../com.aspose.threed/animationclip) क्लास का इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -107,7 +107,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -122,7 +122,7 @@ public List<AnimationNode> getAnimations()
 ```
 
 
-क्लिप के भीतर मौजूद एनीमेशनों को प्राप्त करता है।
+क्लिप के अंदर सम्मिलित एनीमेशन्स को प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.AnimationNode> - क्लिप के भीतर शामिल एनीमेशन।
@@ -187,7 +187,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to

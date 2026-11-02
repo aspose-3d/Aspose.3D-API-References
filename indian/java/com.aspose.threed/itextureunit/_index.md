@@ -1,7 +1,7 @@
 ---
 title: "ITextureUnit"
-second_title: "Aspose.3D for Java API Reference"
-description: "GPU और CPU के बीच साझा की गई मेमोरी में एक टेक्सचर को दर्शाता है और इसे shader द्वारा सैंपल किया जा सकता है जहाँ केवल एक बाहरी फ़ाइल का संदर्भ दर्शाता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "GPU और CPU के बीच साझा की गई मेमोरी में एक टेक्सचर का प्रतिनिधित्व करता है और शेडर द्वारा सैंपल किया जा सकता है जहाँ केवल एक बाहरी फ़ाइल का संदर्भ दर्शाता है।"
 type: docs
 weight: 258
 url: /hi/java/com.aspose.threed/itextureunit/
@@ -18,7 +18,7 @@ public interface ITextureUnit extends Closeable
 
 | विधि | विवरण |
 | --- | --- |
-| [getDepth()](#getDepth--) | इस टेक्सचर की ऊँचाई प्राप्त करता है, गैर‑3D टेक्सचर के लिए यह हमेशा 1 होता है। |
+| [getDepth()](#getDepth--) | इस टेक्सचर की ऊँचाई प्राप्त करता है, गैर-3D टेक्सचर के लिए यह हमेशा 1 होता है। |
 | [getHeight()](#getHeight--) | इस टेक्सचर की ऊँचाई प्राप्त करता है। |
 | [getMagnification()](#getMagnification--) | वृद्धि के लिए फ़िल्टर मोड प्राप्त करता है। |
 | [getMinification()](#getMinification--) | छोटा करने के लिए फ़िल्टर मोड प्राप्त करता है। |
@@ -44,10 +44,10 @@ public abstract int getDepth()
 ```
 
 
-इस टेक्सचर की ऊँचाई प्राप्त करता है, गैर‑3D टेक्सचर के लिए यह हमेशा 1 होता है।
+इस टेक्सचर की ऊँचाई प्राप्त करता है, गैर-3D टेक्सचर के लिए यह हमेशा 1 होता है।
 
 **Returns:**
-int - इस टेक्सचर की ऊँचाई, गैर‑3D टेक्सचर के लिए यह हमेशा 1 होता है।
+int - इस टेक्सचर की ऊँचाई, गैर-3D टेक्सचर के लिए यह हमेशा 1 होता है।
 ### getHeight() {#getHeight--}
 ```
 public abstract int getHeight()

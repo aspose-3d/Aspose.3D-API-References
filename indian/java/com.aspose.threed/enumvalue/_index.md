@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.EnumValue"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "एनम प्रकार के मान की परिभाषा।"
 type: docs
 weight: 12
@@ -14,9 +14,9 @@ public static class StructuralMetadata.EnumValue
 ```
 
 एनम प्रकार के मान की परिभाषा।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [EnumValue(String name, int value)](#EnumValue-java.lang.String-int-) | एक enum मान बनाएं। |
 ## विधियाँ
@@ -30,7 +30,7 @@ public static class StructuralMetadata.EnumValue
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | इस इंस्टेंस का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
+| [toString()](#toString--) | इस उदाहरण का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -125,7 +125,7 @@ public String toString()
 ```
 
 
-इस इंस्टेंस का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है।
+इस उदाहरण का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है।
 
 **Returns:**
 java.lang.String

@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "एसेट की जानकारी।"
 type: docs
 weight: 17
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AssetInfo extends A3DObject
 ```
 
-एसेट की जानकारी। एसेट जानकारी को एक [Scene](../../com.aspose.threed/scene) से संलग्न किया जा सकता है। चाइल्ड [Scene](../../com.aspose.threed/scene) अपनी स्वयं की [AssetInfo](../../com.aspose.threed/assetinfo) रख सकता है ताकि पैरेंट की परिभाषा को ओवरराइड किया जा सके। **Example:** निम्नलिखित कोड दिखाता है कि fbx फ़ाइल से एसेट जानकारी कैसे पढ़ी जाए:
+Asset की जानकारी। Asset जानकारी को एक [Scene](../../com.aspose.threed/scene) से जुड़ा जा सकता है। चाइल्ड [Scene](../../com.aspose.threed/scene) अपनी स्वयं की [AssetInfo](../../com.aspose.threed/assetinfo) रख सकता है ताकि माता-पिता की परिभाषा को ओवरराइड किया जा सके। **Example:** निम्नलिखित कोड दिखाता है कि fbx फ़ाइल से asset जानकारी कैसे पढ़ें:
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -22,48 +22,48 @@ Scene scene = Scene.fromFile("test.fbx");
           scene.getAssetInfo().getApplicationName(),
           scene.getAssetInfo().getApplicationVersion());
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [AssetInfo()](#AssetInfo--) | नए [AssetInfo](../../com.aspose.threed/assetinfo) क्लास का एक नया उदाहरण आरंभ करता है। |
-| [AssetInfo(String name)](#AssetInfo-java.lang.String-) | नए [AssetInfo](../../com.aspose.threed/assetinfo) क्लास का एक नया उदाहरण आरंभ करता है। |
+| [AssetInfo()](#AssetInfo--) | नए [AssetInfo](../../com.aspose.threed/assetinfo) वर्ग का एक नया उदाहरण प्रारंभ करता है। |
+| [AssetInfo(String name)](#AssetInfo-java.lang.String-) | नए [AssetInfo](../../com.aspose.threed/assetinfo) वर्ग का एक नया उदाहरण प्रारंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getAmbient()](#getAmbient--) | इस एसेट का डिफ़ॉल्ट एम्बिएंट रंग प्राप्त करता है या सेट करता है |
-| [getApplicationName()](#getApplicationName--) | इस एसेट को बनाने वाले एप्लिकेशन को प्राप्त करता है |
+| [getAmbient()](#getAmbient--) | इस asset का डिफ़ॉल्ट एम्बिएंट रंग प्राप्त करता है या सेट करता है |
+| [getApplicationName()](#getApplicationName--) | इस asset को बनाने वाले एप्लिकेशन को प्राप्त करता है |
 | [getApplicationVendor()](#getApplicationVendor--) | एप्लिकेशन विक्रेता का नाम प्राप्त करता है |
-| [getApplicationVersion()](#getApplicationVersion--) | इस एसेट को बनाने वाले एप्लिकेशन का संस्करण प्राप्त करता है। |
-| [getAuthor()](#getAuthor--) | इस एसेट के लेखक को प्राप्त करता है |
-| [getAxisSystem()](#getAxisSystem--) | एसेट जानकारी का कोऑर्डिनेट सिस्टम/अप वेक्टर/फ्रंट वेक्टर प्राप्त करता है। |
+| [getApplicationVersion()](#getApplicationVersion--) | इस asset को बनाने वाले एप्लिकेशन का संस्करण प्राप्त करता है। |
+| [getAuthor()](#getAuthor--) | इस asset के लेखक को प्राप्त करता है |
+| [getAxisSystem()](#getAxisSystem--) | asset जानकारी का कोऑर्डिनेट सिस्टम/अप वेक्टर/फ्रंट वेक्टर प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
-| [getComment()](#getComment--) | इस एसेट की टिप्पणी प्राप्त करता है। |
-| [getCoordinateSystem()](#getCoordinateSystem--) | इस एसेट में उपयोग किए गए कोऑर्डिनेट सिस्टम को प्राप्त करता है। |
+| [getComment()](#getComment--) | इस asset की टिप्पणी प्राप्त करता है। |
+| [getCoordinateSystem()](#getCoordinateSystem--) | इस asset में उपयोग किए गए कोऑर्डिनेट सिस्टम को प्राप्त करता है। |
 | [getCopyright()](#getCopyright--) | दस्तावेज़ का कॉपीराइट प्राप्त करता है |
 | [getCreationTime()](#getCreationTime--) | इस एसेट का निर्माण समय प्राप्त करता है या सेट करता है |
-| [getFrontVector()](#getFrontVector--) | इस एसेट में उपयोग किए गए फ्रंट-वेक्टर को प्राप्त करता है। |
+| [getFrontVector()](#getFrontVector--) | इस एसेट में उपयोग किया गया फ्रंट-वेक्टर प्राप्त करता है। |
 | [getKeywords()](#getKeywords--) | इस एसेट के कीवर्ड प्राप्त करता है |
 | [getModificationTime()](#getModificationTime--) | इस एसेट का संशोधन समय प्राप्त करता है या सेट करता है |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getRevision()](#getRevision--) | इस एसेट का रिवीजन नंबर प्राप्त करता है, जो आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग होता है। |
+| [getRevision()](#getRevision--) | इस एसेट का रिवीजन नंबर प्राप्त करता है, आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग किया जाता है। |
 | [getSubject()](#getSubject--) | इस एसेट का विषय प्राप्त करता है |
 | [getTitle()](#getTitle--) | इस एसेट का शीर्षक प्राप्त करता है |
 | [getUnitName()](#getUnitName--) | इस एसेट में उपयोग की गई लंबाई की इकाई प्राप्त करता है। |
 | [getUnitScaleFactor()](#getUnitScaleFactor--) | वास्तविक दुनिया के मीटर के लिए स्केल फैक्टर प्राप्त करता है। |
-| [getUpVector()](#getUpVector--) | इस एसेट में उपयोग किए गए अप-वेक्टर को प्राप्त करता है। |
+| [getUpVector()](#getUpVector--) | इस एसेट में उपयोग किया गया अप-वेक्टर प्राप्त करता है। |
 | [getUrl()](#getUrl--) | इस एसेट का URL प्राप्त करता है या सेट करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setAmbient(Vector4 value)](#setAmbient-com.aspose.threed.Vector4-) | इस एसेट का डिफ़ॉल्ट एम्बिएंट रंग प्राप्त करता है या सेट करता है |
+| [setAmbient(Vector4 value)](#setAmbient-com.aspose.threed.Vector4-) | इस asset का डिफ़ॉल्ट एम्बिएंट रंग प्राप्त करता है या सेट करता है |
 | [setApplicationName(String value)](#setApplicationName-java.lang.String-) | इस एसेट को बनाने वाले एप्लिकेशन को सेट करता है |
 | [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | एप्लिकेशन विक्रेता का नाम सेट करता है |
 | [setApplicationVersion(String value)](#setApplicationVersion-java.lang.String-) | इस एसेट को बनाने वाले एप्लिकेशन का संस्करण सेट करता है। |
@@ -73,16 +73,16 @@ Scene scene = Scene.fromFile("test.fbx");
 | [setCoordinateSystem(CoordinateSystem value)](#setCoordinateSystem-com.aspose.threed.CoordinateSystem-) | इस एसेट में उपयोग किए गए कोऑर्डिनेट सिस्टम को सेट करता है। |
 | [setCopyright(String value)](#setCopyright-java.lang.String-) | दस्तावेज़ का कॉपीराइट सेट करता है |
 | [setCreationTime(Calendar value)](#setCreationTime-java.util.Calendar-) | इस एसेट का निर्माण समय प्राप्त करता है या सेट करता है |
-| [setFrontVector(Axis value)](#setFrontVector-com.aspose.threed.Axis-) | इस एसेट में उपयोग किए गए फ्रंट-वेक्टर को सेट करता है। |
+| [setFrontVector(Axis value)](#setFrontVector-com.aspose.threed.Axis-) | इस एसेट में उपयोग किया गया फ्रंट-वेक्टर सेट करता है। |
 | [setKeywords(String value)](#setKeywords-java.lang.String-) | इस एसेट के कीवर्ड सेट करता है |
 | [setModificationTime(Calendar value)](#setModificationTime-java.util.Calendar-) | इस एसेट का संशोधन समय प्राप्त करता है या सेट करता है |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setRevision(String value)](#setRevision-java.lang.String-) | इस एसेट का रिवीजन नंबर सेट करता है, जो आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग होता है। |
+| [setRevision(String value)](#setRevision-java.lang.String-) | इस एसेट का रिवीजन नंबर सेट करता है, आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग किया जाता है। |
 | [setSubject(String value)](#setSubject-java.lang.String-) | इस एसेट का विषय सेट करता है |
 | [setTitle(String value)](#setTitle-java.lang.String-) | इस एसेट का शीर्षक सेट करता है |
 | [setUnitName(String value)](#setUnitName-java.lang.String-) | इस एसेट में उपयोग की गई लंबाई की इकाई सेट करता है। |
-| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | वास्तविक विश्व मीटर के लिए स्केल फैक्टर सेट करता है। |
+| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | वास्तविक दुनिया के मीटर के लिए स्केल फैक्टर सेट करता है। |
 | [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | इस एसेट में उपयोग किए जाने वाले अप-वेक्टर को सेट करता है। |
 | [setUrl(String value)](#setUrl-java.lang.String-) | इस एसेट का URL प्राप्त करता है या सेट करता है। |
 | [toString()](#toString--) |  |
@@ -95,7 +95,7 @@ public AssetInfo()
 ```
 
 
-नए [AssetInfo](../../com.aspose.threed/assetinfo) क्लास का एक नया उदाहरण आरंभ करता है।
+नए [AssetInfo](../../com.aspose.threed/assetinfo) वर्ग का एक नया उदाहरण प्रारंभ करता है।
 
 ### AssetInfo(String name) {#AssetInfo-java.lang.String-}
 ```
@@ -103,7 +103,7 @@ public AssetInfo(String name)
 ```
 
 
-नए [AssetInfo](../../com.aspose.threed/assetinfo) क्लास का एक नया उदाहरण आरंभ करता है।
+नए [AssetInfo](../../com.aspose.threed/assetinfo) वर्ग का एक नया उदाहरण प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -131,7 +131,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -146,7 +146,7 @@ public Vector4 getAmbient()
 ```
 
 
-इस एसेट का डिफ़ॉल्ट एम्बिएंट रंग प्राप्त करता है या सेट करता है
+इस asset का डिफ़ॉल्ट एम्बिएंट रंग प्राप्त करता है या सेट करता है
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4) - or Sets the default ambient color of this asset
@@ -156,10 +156,10 @@ public String getApplicationName()
 ```
 
 
-इस एसेट को बनाने वाले एप्लिकेशन को प्राप्त करता है
+इस asset को बनाने वाले एप्लिकेशन को प्राप्त करता है
 
 **Returns:**
-java.lang.String - वह एप्लिकेशन जो इस एसेट को बनाया है
+java.lang.String - इस एसेट को बनाने वाला एप्लिकेशन
 ### getApplicationVendor() {#getApplicationVendor--}
 ```
 public String getApplicationVendor()
@@ -176,17 +176,17 @@ public String getApplicationVersion()
 ```
 
 
-इस एसेट को बनाने वाले एप्लिकेशन का संस्करण प्राप्त करता है।
+इस asset को बनाने वाले एप्लिकेशन का संस्करण प्राप्त करता है।
 
 **Returns:**
-java.lang.String - वह एप्लिकेशन संस्करण जिसने इस एसेट को बनाया।
+java.lang.String - इस एसेट को बनाने वाले एप्लिकेशन का संस्करण।
 ### getAuthor() {#getAuthor--}
 ```
 public String getAuthor()
 ```
 
 
-इस एसेट के लेखक को प्राप्त करता है
+इस asset के लेखक को प्राप्त करता है
 
 **Returns:**
 java.lang.String - इस एसेट का लेखक
@@ -196,7 +196,7 @@ public AxisSystem getAxisSystem()
 ```
 
 
-एसेट जानकारी का कोऑर्डिनेट सिस्टम/अप वेक्टर/फ्रंट वेक्टर प्राप्त करता है।
+asset जानकारी का कोऑर्डिनेट सिस्टम/अप वेक्टर/फ्रंट वेक्टर प्राप्त करता है।
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - the coordinate system/up vector/front vector of the asset info.
@@ -216,7 +216,7 @@ public String getComment()
 ```
 
 
-इस एसेट की टिप्पणी प्राप्त करता है।
+इस asset की टिप्पणी प्राप्त करता है।
 
 **Returns:**
 java.lang.String - इस एसेट की टिप्पणी।
@@ -226,7 +226,7 @@ public CoordinateSystem getCoordinateSystem()
 ```
 
 
-इस एसेट में उपयोग किए गए कोऑर्डिनेट सिस्टम को प्राप्त करता है।
+इस asset में उपयोग किए गए कोऑर्डिनेट सिस्टम को प्राप्त करता है।
 
 **Returns:**
 [CoordinateSystem](../../com.aspose.threed/coordinatesystem) - the coordinate system used in this asset.
@@ -256,7 +256,7 @@ public Axis getFrontVector()
 ```
 
 
-इस एसेट में उपयोग किए गए फ्रंट-वेक्टर को प्राप्त करता है।
+इस एसेट में उपयोग किया गया फ्रंट-वेक्टर प्राप्त करता है।
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the front-vector used in this asset.
@@ -269,7 +269,7 @@ public String getKeywords()
 इस एसेट के कीवर्ड प्राप्त करता है
 
 **Returns:**
-java.lang.String - इस एसेट के कीवर्ड
+java.lang.String - इस एसेट के कीवर्ड्स
 ### getModificationTime() {#getModificationTime--}
 ```
 public Calendar getModificationTime()
@@ -321,7 +321,7 @@ public String getRevision()
 ```
 
 
-इस एसेट का रिवीजन नंबर प्राप्त करता है, जो आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग होता है।
+इस एसेट का रिवीजन नंबर प्राप्त करता है, आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग किया जाता है।
 
 **Returns:**
 java.lang.String - इस एसेट का रिवीजन नंबर, आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग किया जाता है।
@@ -351,10 +351,10 @@ public String getUnitName()
 ```
 
 
-इस एसेट में उपयोग की गई लंबाई इकाई प्राप्त करता है। उदाहरण: सेमी/मी/किमी/इंच/फ़ीट
+इस एसेट में उपयोग की गई लंबाई की इकाई प्राप्त करता है। उदाहरण: cm/m/km/inch/feet
 
 **Returns:**
-java.lang.String - इस एसेट में उपयोग की गई लंबाई इकाई। उदाहरण: सेमी/मी/किमी/इंच/फ़ीट
+java.lang.String - इस एसेट में उपयोग की गई लंबाई की इकाई। उदाहरण: cm/m/km/inch/feet
 ### getUnitScaleFactor() {#getUnitScaleFactor--}
 ```
 public double getUnitScaleFactor()
@@ -364,14 +364,14 @@ public double getUnitScaleFactor()
 वास्तविक दुनिया के मीटर के लिए स्केल फैक्टर प्राप्त करता है।
 
 **Returns:**
-double - वास्तविक विश्व मीटर के लिए स्केल फैक्टर। **Remarks:** यदि इकाई नाम null है तो यह सीरियलाइज़ेशन के दौरान अनदेखा किया जाता है।
+double - वास्तविक दुनिया के मीटर के लिए स्केल फैक्टर। **Remarks:** यदि यूनिट नाम null है तो यह सीरियलाइज़ेशन के दौरान अनदेखा किया जाता है।
 ### getUpVector() {#getUpVector--}
 ```
 public Axis getUpVector()
 ```
 
 
-इस एसेट में उपयोग किए गए अप-वेक्टर को प्राप्त करता है।
+इस एसेट में उपयोग किया गया अप-वेक्टर प्राप्त करता है।
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the up-vector used in this asset.
@@ -447,7 +447,7 @@ public void setAmbient(Vector4 value)
 ```
 
 
-इस एसेट का डिफ़ॉल्ट एम्बिएंट रंग प्राप्त करता है या सेट करता है
+इस asset का डिफ़ॉल्ट एम्बिएंट रंग प्राप्त करता है या सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -577,7 +577,7 @@ public void setFrontVector(Axis value)
 ```
 
 
-इस एसेट में उपयोग किए गए फ्रंट-वेक्टर को सेट करता है।
+इस एसेट में उपयोग किया गया फ्रंट-वेक्टर सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -643,7 +643,7 @@ public void setRevision(String value)
 ```
 
 
-इस एसेट का रिवीजन नंबर सेट करता है, जो आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग होता है।
+इस एसेट का रिवीजन नंबर सेट करता है, आमतौर पर संस्करण नियंत्रण प्रणाली में उपयोग किया जाता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -682,7 +682,7 @@ public void setUnitName(String value)
 ```
 
 
-इस एसेट में उपयोग की गई लंबाई इकाई सेट करता है। उदाहरण: सेमी/मी/किमी/इंच/फ़ीट
+इस एसेट में उपयोग की गई लंबाई की इकाई सेट करता है। उदाहरण: cm/m/km/inch/feet
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -695,12 +695,12 @@ public void setUnitScaleFactor(double value)
 ```
 
 
-वास्तविक विश्व मीटर के लिए स्केल फैक्टर सेट करता है।
+वास्तविक दुनिया के मीटर के लिए स्केल फैक्टर सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| मान | double | नई मान **Remarks:** यदि इकाई नाम null है तो यह सीरियलाइज़ेशन के दौरान अनदेखा किया जाता है। |
+| मान | double | नया मान **Remarks:** यदि यूनिट नाम null है तो यह सीरियलाइज़ेशन के दौरान अनदेखा किया जाता है। |
 
 ### setUpVector(Axis value) {#setUpVector-com.aspose.threed.Axis-}
 ```

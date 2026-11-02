@@ -1,7 +1,7 @@
 ---
 title: "PolygonBuilder"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक सहायक वर्ग जो बहुभुज बनाने के लिए है  Example"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक सहायक वर्ग जो  उदाहरण के लिए बहुभुज बनाता है।"
 type: docs
 weight: 133
 url: /hi/java/com.aspose.threed/polygonbuilder/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class PolygonBuilder
 ```
 
-पॉलीगॉन बनाने के लिए एक सहायक क्लास [Mesh](../../com.aspose.threed/mesh) **उदाहरण:**
+एक सहायक वर्ग जो [Mesh](../../com.aspose.threed/mesh) के लिए बहुभुज बनाता है **उदाहरण:**
 
 ```
 Mesh mesh = new Mesh();
@@ -25,7 +25,7 @@ Mesh mesh = new Mesh();
   builder.end();
 ```
 
-के बराबर :
+बराबर है :
 
 ```
 Mesh mesh = new Mesh();
@@ -34,18 +34,18 @@ Mesh mesh = new Mesh();
 ```
 
 यदि सभी सूचकांक उपयोग के लिए तैयार हैं, तो [Mesh](../../com.aspose.threed/mesh) को प्राथमिकता दी जाती है, अन्यथा [PolygonBuilder](../../com.aspose.threed/polygonbuilder) बेहतर विकल्प होगा।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [PolygonBuilder(Mesh mesh)](#PolygonBuilder-com.aspose.threed.Mesh-) | [PolygonBuilder](../../com.aspose.threed/polygonbuilder) क्लास का नया इंस्टेंस प्रारंभ करता है। |
+| [PolygonBuilder(Mesh mesh)](#PolygonBuilder-com.aspose.threed.Mesh-) | [PolygonBuilder](../../com.aspose.threed/polygonbuilder) वर्ग का नया उदाहरण आरंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [addVertex(int index)](#addVertex-int-) | पॉलीगॉन में एक वर्टेक्स इंडेक्स जोड़ता है |
-| [begin()](#begin--) | एक नया पॉलीगॉन जोड़ना शुरू करता है |
-| [end()](#end--) | पॉलीगॉन निर्माण समाप्त करता है |
+| [addVertex(int index)](#addVertex-int-) | बहुभुज में एक शीर्ष बिंदु सूचकांक जोड़ता है |
+| [begin()](#begin--) | एक नया बहुभुज जोड़ना शुरू करता है |
+| [end()](#end--) | बहुभुज निर्माण समाप्त करता है |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -61,12 +61,12 @@ public PolygonBuilder(Mesh mesh)
 ```
 
 
-[PolygonBuilder](../../com.aspose.threed/polygonbuilder) क्लास का नया इंस्टेंस प्रारंभ करता है।
+[PolygonBuilder](../../com.aspose.threed/polygonbuilder) वर्ग का नया उदाहरण आरंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | किस मेष पर पॉलीगॉन बनाना है। |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | किस मेष पर बहुभुज बनाना है। |
 
 ### addVertex(int index) {#addVertex-int-}
 ```
@@ -74,7 +74,7 @@ public void addVertex(int index)
 ```
 
 
-पॉलीगॉन में एक वर्टेक्स इंडेक्स जोड़ता है
+बहुभुज में एक शीर्ष बिंदु सूचकांक जोड़ता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -87,7 +87,7 @@ public void begin()
 ```
 
 
-एक नया पॉलीगॉन जोड़ना शुरू करता है
+एक नया बहुभुज जोड़ना शुरू करता है
 
 ### end() {#end--}
 ```
@@ -95,7 +95,7 @@ public void end()
 ```
 
 
-पॉलीगॉन निर्माण समाप्त करता है
+बहुभुज निर्माण समाप्त करता है
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

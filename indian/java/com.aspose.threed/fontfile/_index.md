@@ -1,7 +1,7 @@
 ---
 title: "FontFile"
-second_title: "Aspose.3D for Java API Reference"
-description: "फ़ॉन्ट फ़ाइल में ग्लिफ़्स के लिए परिभाषाएँ होती हैं, जिसका उपयोग टेक्स्ट प्रोफ़ाइल बनाने के लिए किया जाता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "फ़ॉन्ट फ़ाइल में ग्लिफ़्स की परिभाषाएँ होती हैं, जिसका उपयोग टेक्स्ट प्रोफ़ाइल बनाने के लिए किया जाता है।"
 type: docs
 weight: 68
 url: /hi/java/com.aspose.threed/fontfile/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public abstract class FontFile extends A3DObject
 ```
 
-फ़ॉन्ट फ़ाइल में ग्लिफ़्स के लिए परिभाषाएँ होती हैं, जिसका उपयोग टेक्स्ट प्रोफ़ाइल बनाने के लिए किया जाता है। **Example:** निम्नलिखित कोड दिखाता है कि निर्दिष्ट फ़ॉन्ट फ़ाइल का उपयोग करके टेक्स्ट से 3D मेष कैसे बनाया जाए।
+फ़ॉन्ट फ़ाइल में ग्लिफ़्स की परिभाषाएँ होती हैं, इसका उपयोग टेक्स्ट प्रोफ़ाइल बनाने के लिए किया जाता है। **उदाहरण:** निम्नलिखित कोड दिखाता है कि निर्दिष्ट फ़ॉन्ट फ़ाइल का उपयोग करके टेक्स्ट से 3D मेष कैसे बनाया जाए।
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -25,9 +25,9 @@ var font = FontFile.fromFile("CascadiaCode-Regular.otf");
              var scene = new Scene(linear);
              scene.save("test.stl");
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [FontFile()](#FontFile--) |  |
 ## विधियाँ
@@ -36,7 +36,7 @@ var font = FontFile.fromFile("CascadiaCode-Regular.otf");
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [fromFile(String fileName)](#fromFile-java.lang.String-) | फ़ाइल नाम से फ़ॉन्ट फ़ाइल लोड करें |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | फ़ाइल नाम से FontFile लोड करें |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
@@ -44,7 +44,7 @@ var font = FontFile.fromFile("CascadiaCode-Regular.otf");
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [parse(byte[] bytes)](#parse-byte---) | बाइट्स से फ़ॉन्ट फ़ाइल पार्स करें |
+| [parse(byte[] bytes)](#parse-byte---) | बाइट्स से FontFile पार्स करें |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
@@ -80,7 +80,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -95,7 +95,7 @@ public static FontFile fromFile(String fileName)
 ```
 
 
-फ़ाइल नाम से फ़ॉन्ट फ़ाइल लोड करें
+फ़ाइल नाम से FontFile लोड करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -181,7 +181,7 @@ public static FontFile parse(byte[] bytes)
 ```
 
 
-बाइट्स से फ़ॉन्ट फ़ाइल पार्स करें
+बाइट्स से FontFile पार्स करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

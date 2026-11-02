@@ -1,6 +1,6 @@
 ---
 title: "NurbsType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "NURBS प्रकार।"
 type: docs
 weight: 286
@@ -18,7 +18,7 @@ NURBS प्रकार।
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [CLOSED](#CLOSED) | यह [NurbsCurve](../../com.aspose.threed/nurbscurve) एक बंद वक्र है जिसका अंतिम नियंत्रण बिंदु पहला बिंदु के बराबर होता है। |
+| [CLOSED](#CLOSED) | यह [NurbsCurve](../../com.aspose.threed/nurbscurve) एक बंद वक्र है जिसका अंतिम नियंत्रण बिंदु पहला बिंदु के बराबर है। |
 | [OPEN](#OPEN) | यह [NurbsCurve](../../com.aspose.threed/nurbscurve) एक खुला वक्र है। |
 | [PERIODIC](#PERIODIC) | यह [NurbsCurve](../../com.aspose.threed/nurbscurve) एक आवधिक वक्र है। |
 ## विधियाँ
@@ -48,7 +48,7 @@ public static final NurbsType CLOSED
 ```
 
 
-यह [NurbsCurve](../../com.aspose.threed/nurbscurve) एक बंद वक्र है जिसका अंतिम नियंत्रण बिंदु पहला बिंदु के बराबर होता है।
+यह [NurbsCurve](../../com.aspose.threed/nurbscurve) एक बंद वक्र है जिसका अंतिम नियंत्रण बिंदु पहला बिंदु के बराबर है।
 
 ### OPEN {#OPEN}
 ```

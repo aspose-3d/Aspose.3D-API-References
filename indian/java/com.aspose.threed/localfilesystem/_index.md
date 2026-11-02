@@ -1,7 +1,7 @@
 ---
 title: "LocalFileSystem"
-second_title: "Aspose.3D for Java API Reference"
-description: "यह पढ़ने/लिखने के संचालन को स्थानीय निर्देशिका में मैप करेगा।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "यह  पढ़ने/लिखने के संचालन को स्थानीय निर्देशिका में मैप करेगा।"
 type: docs
 weight: 91
 url: /hi/java/com.aspose.threed/localfilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class LocalFileSystem extends FileSystem
 ```
 
-The [LocalFileSystem](../../com.aspose.threed/localfilesystem) स्थानीय निर्देशिका के लिए पढ़ने/लिखने के संचालन को मैप करेगा। **Example:** निम्नलिखित कोड दिखाता है कि फ़ाइल कैसे आयात करें, और दिए गए निर्देशिका में निर्भर फ़ाइलें कैसे प्रदान करें
+यह [LocalFileSystem](../../com.aspose.threed/localfilesystem) पढ़ने/लिखने के संचालन को स्थानीय निर्देशिका में मैप करेगा। **Example:** निम्नलिखित कोड दिखाता है कि फ़ाइल को कैसे आयात किया जाए, और दिए गए निर्देशिका में निर्भर फ़ाइलें कैसे प्रदान की जाएँ
 
 ```
 var inputFile = "input.fbx";
@@ -24,11 +24,11 @@ var inputFile = "input.fbx";
      //load the file
      var scene = Scene.fromFile(inputFile, opt);
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [LocalFileSystem(String directory)](#LocalFileSystem-java.lang.String-) | निर्दिष्ट बेस डायरेक्टरी के साथ नया [LocalFileSystem](../../com.aspose.threed/localfilesystem) प्रारंभ करें। |
+| [LocalFileSystem(String directory)](#LocalFileSystem-java.lang.String-) | निर्दिष्ट बेस निर्देशिका के साथ एक नया [LocalFileSystem](../../com.aspose.threed/localfilesystem) प्रारंभ करें। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -51,7 +51,7 @@ public LocalFileSystem(String directory)
 ```
 
 
-निर्दिष्ट बेस डायरेक्टरी के साथ नया [LocalFileSystem](../../com.aspose.threed/localfilesystem) प्रारंभ करें।
+निर्दिष्ट बेस निर्देशिका के साथ एक नया [LocalFileSystem](../../com.aspose.threed/localfilesystem) प्रारंभ करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

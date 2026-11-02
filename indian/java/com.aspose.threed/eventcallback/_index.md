@@ -1,6 +1,6 @@
 ---
 title: "EventCallback"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "lexchou द्वारा 24/04/2017 को बनाया गया।"
 type: docs
 weight: 237

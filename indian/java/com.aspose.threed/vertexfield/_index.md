@@ -1,7 +1,7 @@
 ---
 title: "VertexField"
-second_title: "Aspose.3D for Java API Reference"
-description: "Vertexs फ़ील्ड मेमोरी लेआउट विवरण।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "शीर्ष फ़ील्ड मेमोरी लेआउट विवरण।"
 type: docs
 weight: 227
 url: /hi/java/com.aspose.threed/vertexfield/
@@ -21,19 +21,19 @@ public class VertexField implements Comparable<VertexField>
 
 | विधि | विवरण |
 | --- | --- |
-| [compareTo(VertexField other)](#compareTo-com.aspose.threed.VertexField-) | इस इंस्टेंस की तुलना एक निर्दिष्ट ऑब्जेक्ट से करता है और उनके सापेक्ष मानों का संकेत लौटाता है। |
+| [compareTo(VertexField other)](#compareTo-com.aspose.threed.VertexField-) | इस इंस्टेंस की तुलना निर्दिष्ट वस्तु से करता है और उनके सापेक्ष मानों का संकेत लौटाता है। |
 | [equals(Object obj)](#equals-java.lang.Object-) | निर्धारित करता है कि यह इंस्टेंस और निर्दिष्ट ऑब्जेक्ट, जो भी एक [VertexField](../../com.aspose.threed/vertexfield) ऑब्जेक्ट होना चाहिए, का मान समान है या नहीं। |
 | [getAlias()](#getAlias--) | फ़ील्ड का उपनाम। |
 | [getClass()](#getClass--) |  |
 | [getDataType()](#getDataType--) | इस फ़ील्ड का डेटा प्रकार। |
-| [getIndex()](#getIndex--) | वर्टेक्स के लेआउट में समान सेमेंटिक के साथ इस फ़ील्ड का इंडेक्स। |
+| [getIndex()](#getIndex--) | समान सिमैंटिक वाले वर्टेक्स लेआउट में इस फ़ील्ड का इंडेक्स। |
 | [getOffset()](#getOffset--) | इस फ़ील्ड का बाइट्स में ऑफ़सेट। |
-| [getSemantic()](#getSemantic--) | इस फ़ील्ड का उपयोग सेमेंटिक। |
+| [getSemantic()](#getSemantic--) | इस फ़ील्ड का उपयोग सिमैंटिक। |
 | [getSize()](#getSize--) | इस फ़ील्ड का बाइट्स में आकार |
 | [hashCode()](#hashCode--) | इस स्ट्रिंग के लिए हैश कोड लौटाता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | [VertexField](../../com.aspose.threed/vertexfield) का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है |
+| [toString()](#toString--) | प्राप्त करता है [VertexField](../../com.aspose.threed/vertexfield) की स्ट्रिंग प्रतिनिधित्व। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -43,7 +43,7 @@ public int compareTo(VertexField other)
 ```
 
 
-इस इंस्टेंस की तुलना एक निर्दिष्ट ऑब्जेक्ट से करता है और उनके सापेक्ष मानों का संकेत लौटाता है।
+इस इंस्टेंस की तुलना निर्दिष्ट वस्तु से करता है और उनके सापेक्ष मानों का संकेत लौटाता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -103,10 +103,10 @@ public int getIndex()
 ```
 
 
-वर्टेक्स के लेआउट में समान सेमेंटिक के साथ इस फ़ील्ड का इंडेक्स।
+समान सिमैंटिक वाले वर्टेक्स लेआउट में इस फ़ील्ड का इंडेक्स।
 
 **Returns:**
-int - वर्टेक्स के लेआउट में समान सेमेंटिक के साथ इस फ़ील्ड का इंडेक्स।
+int - समान सिमैंटिक वाले वर्टेक्स लेआउट में इस फ़ील्ड का इंडेक्स।
 ### getOffset() {#getOffset--}
 ```
 public int getOffset()
@@ -123,7 +123,7 @@ public VertexFieldSemantic getSemantic()
 ```
 
 
-इस फ़ील्ड का उपयोग सेमेंटिक।
+इस फ़ील्ड का उपयोग सिमैंटिक।
 
 **Returns:**
 [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) - The usage semantic of this field.
@@ -146,7 +146,7 @@ public int hashCode()
 इस स्ट्रिंग के लिए हैश कोड लौटाता है।
 
 **Returns:**
-int - 32-बिट साइन्ड इंटीजर हैश कोड।
+int - 32-बिट साइन्ड इंटेजर हैश कोड।
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -169,7 +169,7 @@ public String toString()
 ```
 
 
-[VertexField](../../com.aspose.threed/vertexfield) का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है
+प्राप्त करता है [VertexField](../../com.aspose.threed/vertexfield) की स्ट्रिंग प्रतिनिधित्व।
 
 **Returns:**
 java.lang.String

@@ -1,6 +1,6 @@
 ---
 title: "TextureType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "का प्रकार"
 type: docs
 weight: 307

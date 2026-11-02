@@ -1,6 +1,6 @@
 ---
 title: "दृश्य"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: 
 type: docs
 weight: 161
@@ -12,11 +12,11 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 ```
 public class Scene extends SceneObject
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Scene(Entity entity)](#Scene-com.aspose.threed.Entity-) | [Scene](../../com.aspose.threed/scene) क्लास का नया उदाहरण एक इकाई को नई नोड से संलग्न करके प्रारंभ करता है। |
+| [Scene(Entity entity)](#Scene-com.aspose.threed.Entity-) | [Scene](../../com.aspose.threed/scene) क्लास का नया उदाहरण एक इकाई के साथ नई नोड से जुड़ा प्रारंभ करता है। |
 | [Scene(Scene parentScene, String name)](#Scene-com.aspose.threed.Scene-java.lang.String-) | [Scene](../../com.aspose.threed/scene) क्लास का नया उदाहरण उप-दृश्य के रूप में प्रारंभ करता है। |
 | [Scene()](#Scene--) | [Scene](../../com.aspose.threed/scene) क्लास का नया उदाहरण प्रारंभ करता है। |
 ## फ़ील्ड्स
@@ -28,62 +28,62 @@ public class Scene extends SceneObject
 
 | विधि | विवरण |
 | --- | --- |
-| [clear()](#clear--) | दृश्य की सामग्री साफ़ करता है और डिफ़ॉल्ट सेटिंग्स पुनर्स्थापित करता है। |
+| [clear()](#clear--) | दृश्य की सामग्री साफ़ करता है और डिफ़ॉल्ट सेटिंग्स को पुनर्स्थापित करता है। |
 | [createAnimationClip(String name)](#createAnimationClip-java.lang.String-) | एक शॉर्टहैंड फ़ंक्शन जो [AnimationClip](../../com.aspose.threed/animationclip) बनाता और पंजीकृत करता है। पहला [AnimationClip](../../com.aspose.threed/animationclip) को [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip) को सौंपा जाएगा। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
 | [fromFile(String fileName)](#fromFile-java.lang.String-) | दिए गए पथ से दृश्य खोलता है |
 | [fromFile(String fileName, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.Cancellation-) | दिए गए पथ से दृश्य खोलता है |
-| [fromFile(String fileName, FileFormat format)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [fromFile(String fileName, FileFormat format, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [fromFile(String fileName, LoadOptions options)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [fromFile(String fileName, LoadOptions options, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [fromFile(String fileName, FileFormat format)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [fromFile(String fileName, FileFormat format, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [fromFile(String fileName, LoadOptions options)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [fromFile(String fileName, LoadOptions options, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
 | [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | दिए गए स्ट्रीम से दृश्य खोलता है |
 | [fromStream(Stream stream, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | दिए गए स्ट्रीम से दृश्य खोलता है |
-| [fromStream(Stream stream, FileFormat format)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
-| [fromStream(Stream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [fromStream(Stream stream, FileFormat format)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [fromStream(Stream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [fromStream(Stream stream, LoadOptions options)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [fromStream(Stream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | दिए गए स्ट्रीम से दृश्य खोलता है |
 | [fromStream(InputStream stream, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.Cancellation-) | दिए गए स्ट्रीम से दृश्य खोलता है |
-| [fromStream(InputStream stream, FileFormat format)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
-| [fromStream(InputStream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [fromStream(InputStream stream, FileFormat format)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [fromStream(InputStream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [fromStream(InputStream stream, LoadOptions options)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [fromStream(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [getAnimationClip(String name)](#getAnimationClip-java.lang.String-) | नामित [AnimationClip](../../com.aspose.threed/animationclip) प्राप्त करता है |
 | [getAnimationClips()](#getAnimationClips--) | दृश्य में परिभाषित सभी [AnimationClip](../../com.aspose.threed/animationclip) प्राप्त करता है। |
-| [getAssetInfo()](#getAssetInfo--) | शीर्ष-स्तर की एसेट जानकारी प्राप्त करता है |
+| [getAssetInfo()](#getAssetInfo--) | शीर्ष-स्तर की संपत्ति जानकारी प्राप्त करता है |
 | [getClass()](#getClass--) |  |
 | [getCurrentAnimationClip()](#getCurrentAnimationClip--) | सक्रिय [AnimationClip](../../com.aspose.threed/animationclip) प्राप्त करता है |
-| [getLibrary()](#getLibrary--) | वे ऑब्जेक्ट जो दृश्य पदानुक्रम में सीधे उपयोग नहीं होते, लाइब्रेरी में परिभाषित किए जा सकते हैं। |
+| [getLibrary()](#getLibrary--) | ऐसे ऑब्जेक्ट जो दृश्य पदानुक्रम में सीधे उपयोग नहीं होते, लाइब्रेरी में परिभाषित किए जा सकते हैं। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getPoses()](#getPoses--) | इस दृश्य में उपयोग किए गए सभी [Pose](../../com.aspose.threed/pose) प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getRootNode()](#getRootNode--) | दृश्य का रूट नोड प्राप्त करता है। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getRootNode()](#getRootNode--) | दृश्य की मूल नोड प्राप्त करता है। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [getSubScenes()](#getSubScenes--) | सभी उप-दृश्य प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [open(Stream stream)](#open-com.aspose.threed.Stream-) | दिए गए स्ट्रीम से दृश्य खोलता है |
 | [open(Stream stream, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | दिए गए स्ट्रीम से दृश्य खोलता है |
-| [open(Stream stream, FileFormat format)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
-| [open(Stream stream, FileFormat format, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [open(Stream stream, FileFormat format)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [open(Stream stream, FileFormat format, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [open(Stream stream, LoadOptions options)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [open(Stream stream, LoadOptions options, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [open(InputStream stream)](#open-java.io.InputStream-) | दिए गए स्ट्रीम से दृश्य खोलता है |
 | [open(InputStream stream, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.Cancellation-) | दिए गए स्ट्रीम से दृश्य खोलता है |
-| [open(InputStream stream, FileFormat format)](#open-java.io.InputStream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
-| [open(InputStream stream, FileFormat format, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [open(InputStream stream, FileFormat format)](#open-java.io.InputStream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [open(InputStream stream, FileFormat format, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [open(InputStream stream, LoadOptions options)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [open(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
 | [open(String fileName)](#open-java.lang.String-) | दिए गए पथ से दृश्य खोलता है |
 | [open(String fileName, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.Cancellation-) | दिए गए पथ से दृश्य खोलता है |
-| [open(String fileName, FileFormat format)](#open-java.lang.String-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [open(String fileName, FileFormat format, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [open(String fileName, LoadOptions options)](#open-java.lang.String-com.aspose.threed.LoadOptions-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [open(String fileName, LoadOptions options, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [open(String fileName, FileFormat format)](#open-java.lang.String-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [open(String fileName, FileFormat format, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [open(String fileName, LoadOptions options)](#open-java.lang.String-com.aspose.threed.LoadOptions-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [open(String fileName, LoadOptions options, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
 | [render(Camera camera, TextureData bitmap)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में रेंडर करता है। |
@@ -91,21 +91,21 @@ public class Scene extends SceneObject
 | [render(Camera camera, String fileName)](#render-com.aspose.threed.Camera-java.lang.String-) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है। |
 | [render(Camera camera, String fileName, Vector2 size, String format)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है। |
 | [render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है। |
-| [save(Stream stream, FileFormat format)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
-| [save(Stream stream, FileFormat format, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
-| [save(Stream stream, SaveOptions options)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
-| [save(Stream stream, SaveOptions options, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
-| [save(OutputStream stream, FileFormat format)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
-| [save(OutputStream stream, FileFormat format, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
-| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
-| [save(OutputStream stream, SaveOptions options, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
-| [save(String fileName)](#save-java.lang.String-) | निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है। |
-| [save(String fileName, FileFormat format)](#save-java.lang.String-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है। |
-| [save(String fileName, FileFormat format, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है। |
-| [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.threed.SaveOptions-) | निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है। |
-| [save(String fileName, SaveOptions options, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है। |
-| [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | शीर्ष-स्तर की एसेट जानकारी सेट करता है |
-| [setCurrentAnimationClip(AnimationClip value)](#setCurrentAnimationClip-com.aspose.threed.AnimationClip-) | सक्रिय [AnimationClip](../../com.aspose.threed/animationclip) सेट करता है |
+| [save(Stream stream, FileFormat format)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [save(Stream stream, FileFormat format, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [save(Stream stream, SaveOptions options)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [save(Stream stream, SaveOptions options, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [save(OutputStream stream, FileFormat format)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [save(OutputStream stream, FileFormat format, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [save(OutputStream stream, SaveOptions options, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [save(String fileName)](#save-java.lang.String-) | निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है। |
+| [save(String fileName, FileFormat format)](#save-java.lang.String-com.aspose.threed.FileFormat-) | निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है। |
+| [save(String fileName, FileFormat format, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है। |
+| [save(String fileName, SaveOptions options)](#save-java.lang.String-com.aspose.threed.SaveOptions-) | निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है। |
+| [save(String fileName, SaveOptions options, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है। |
+| [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | शीर्ष-स्तर की एसेट जानकारी सेट करता है। |
+| [setCurrentAnimationClip(AnimationClip value)](#setCurrentAnimationClip-com.aspose.threed.AnimationClip-) | सक्रिय [AnimationClip](../../com.aspose.threed/animationclip) सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [toString()](#toString--) |  |
@@ -118,12 +118,12 @@ public Scene(Entity entity)
 ```
 
 
-[Scene](../../com.aspose.threed/scene) क्लास का नया उदाहरण एक इकाई को नई नोड से संलग्न करके प्रारंभ करता है।
+[Scene](../../com.aspose.threed/scene) क्लास का नया उदाहरण एक इकाई के साथ नई नोड से जुड़ा प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | entity | [Entity](../../com.aspose.threed/entity) | सीन से जुड़ी प्रारंभिक इकाई **Example:** निम्नलिखित कोड दिखाता है कि कैसे एक [getScene](../../com.aspose.threed/scene\#getScene) को सीधे एक [Entity](../../com.aspose.threed/entity) से बनाएं: |
+|  | entity | [Entity](../../com.aspose.threed/entity) | प्रारंभिक इकाई जो सीन से जुड़ी है **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक [getScene](../../com.aspose.threed/scene\#getScene) को सीधे एक [Entity](../../com.aspose.threed/entity) से बनाया जाए: |
 
 ```
 var scene = new Scene(new Box());
@@ -165,7 +165,7 @@ public void clear()
 ```
 
 
-दृश्य की सामग्री साफ़ करता है और डिफ़ॉल्ट सेटिंग्स पुनर्स्थापित करता है।
+दृश्य की सामग्री साफ़ करता है और डिफ़ॉल्ट सेटिंग्स को पुनर्स्थापित करता है।
 
 ### createAnimationClip(String name) {#createAnimationClip-java.lang.String-}
 ```
@@ -178,7 +178,7 @@ public AnimationClip createAnimationClip(String name)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| नाम | java.lang.String | एनिमेशन क्लिप का नाम |
+| नाम | java.lang.String | एनीमेशन क्लिप का नाम |
 
 **Returns:**
 [AnimationClip](../../com.aspose.threed/animationclip) - A new animation clip instance with given name
@@ -203,7 +203,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -249,7 +249,7 @@ public static Scene fromFile(String fileName, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -265,7 +265,7 @@ public static Scene fromFile(String fileName, FileFormat format, Cancellation ca
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -282,7 +282,7 @@ public static Scene fromFile(String fileName, LoadOptions options)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -298,7 +298,7 @@ public static Scene fromFile(String fileName, LoadOptions options, Cancellation 
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -346,7 +346,7 @@ public static Scene fromStream(Stream stream, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -362,7 +362,7 @@ public static Scene fromStream(Stream stream, FileFormat format, Cancellation ca
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -417,7 +417,7 @@ public static Scene fromStream(InputStream stream)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। **Example:** निम्नलिखित कोड दिखाता है कि कैसे एक कैंसलेशन टोकन स्रोत के साथ स्ट्रीम से सीन बनाया जाए |
+|  | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक कैंसलेशन टोकन सोर्स के साथ स्ट्रीम से सीन बनाया जाए |
 
 ```
 var cts = new Cancellation();    
@@ -440,7 +440,7 @@ public static Scene fromStream(InputStream stream, Cancellation cancellationToke
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | लोड टास्क के लिए कैंसलेशन टोकन **Example:** निम्नलिखित कोड दिखाता है कि कैसे एक कैंसलेशन टोकन स्रोत के साथ स्ट्रीम से सीन बनाया जाए |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | लोड टास्क के लिए कैंसलेशन टोकन **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक कैंसलेशन टोकन सोर्स के साथ स्ट्रीम से सीन बनाया जाए |
 
 ```
 var cts = new Cancellation();    
@@ -457,13 +457,13 @@ public static Scene fromStream(InputStream stream, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। |
-|  | format | [FileFormat](../../com.aspose.threed/fileformat) | फ़ाइल फ़ॉर्मेट। **Example:** निम्नलिखित कोड दिखाता है कि कैसे स्ट्रीम से सीन बनाया जाए |
+|  | format | [FileFormat](../../com.aspose.threed/fileformat) | फ़ाइल फ़ॉर्मेट। **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे स्ट्रीम से सीन बनाया जाए |
 
 ```
 try(InputStream input = new FileInputStream("input.fbx")) {    
@@ -479,14 +479,14 @@ public static Scene fromStream(InputStream stream, FileFormat format, Cancellati
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | फ़ाइल फ़ॉर्मेट। |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | लोड टास्क के लिए कैंसलेशन टोकन **Example:** निम्नलिखित कोड दिखाता है कि कैसे स्ट्रीम से सीन बनाया जाए |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | लोड टास्क के लिए कैंसलेशन टोकन **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे स्ट्रीम से सीन बनाया जाए |
 
 ```
 try(InputStream input = new FileInputStream("input.fbx")) {    
@@ -508,7 +508,7 @@ public static Scene fromStream(InputStream stream, LoadOptions options)
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। |
-|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | स्ट्रीम खोलने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। **Example:** निम्नलिखित कोड दिखाता है कि कैसे लोड विकल्पों के साथ स्ट्रीम से सीन बनाया जाए |
+|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | स्ट्रीम खोलने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे लोड विकल्पों के साथ स्ट्रीम से सीन बनाया जाए |
 
 ```
 var opts = new FbxLoadOptions();    
@@ -533,7 +533,7 @@ public static Scene fromStream(InputStream stream, LoadOptions options, Cancella
 | --- | --- | --- |
 | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। |
 | options | [LoadOptions](../../com.aspose.threed/loadoptions) | स्ट्रीम खोलने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | लोड टास्क के लिए कैंसलेशन टोकन **Example:** निम्नलिखित कोड दिखाता है कि कैसे लोड विकल्पों के साथ स्ट्रीम से सीन बनाया जाए |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | लोड टास्क के लिए कैंसलेशन टोकन **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे लोड विकल्पों के साथ स्ट्रीम से सीन बनाया जाए |
 
 ```
 var opts = new FbxLoadOptions();    
@@ -556,7 +556,7 @@ public AnimationClip getAnimationClip(String name)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| name | java.lang.String | देखने के लिए [AnimationClip](../../com.aspose.threed/animationclip) का नाम |
+| name | java.lang.String | [AnimationClip](../../com.aspose.threed/animationclip) का नाम खोजने के लिए |
 
 **Returns:**
 [AnimationClip](../../com.aspose.threed/animationclip) - Returned AnimationClip
@@ -576,7 +576,7 @@ public AssetInfo getAssetInfo()
 ```
 
 
-शीर्ष-स्तर की एसेट जानकारी प्राप्त करता है
+शीर्ष-स्तर की संपत्ति जानकारी प्राप्त करता है
 
 **Returns:**
 [AssetInfo](../../com.aspose.threed/assetinfo) - the top-level asset information **Example:** The following code shows how to read the application information from a FBX file:
@@ -613,10 +613,10 @@ public List<A3DObject> getLibrary()
 ```
 
 
-सीन पदानुक्रम में सीधे उपयोग नहीं किए गए ऑब्जेक्ट्स को लाइब्रेरी में परिभाषित किया जा सकता है। यह तब उपयोगी होता है जब आप सब-सीन्स का उपयोग कर रहे हों और पुन: उपयोग योग्य घटकों को सब-सीन्स के तहत रखें।
+ऑब्जेक्ट्स जो सीन पदानुक्रम में सीधे उपयोग नहीं होते, उन्हें लाइब्रेरी में परिभाषित किया जा सकता है। यह उपयोगी है जब आप सब-सीन का उपयोग कर रहे हों और पुन: उपयोग योग्य घटकों को सब-सीन के तहत रखें।
 
 **Returns:**
-java.util.List<com.aspose.threed.A3DObject> - सीन पदानुक्रम में सीधे उपयोग नहीं किए गए ऑब्जेक्ट्स को लाइब्रेरी में परिभाषित किया जा सकता है। यह तब उपयोगी होता है जब आप सब-सीन्स का उपयोग कर रहे हों और पुन: उपयोग योग्य घटकों को सब-सीन्स के तहत रखें।
+java.util.List<com.aspose.threed.A3DObject> - ऑब्जेक्ट्स जो सीन पदानुक्रम में सीधे उपयोग नहीं होते, उन्हें लाइब्रेरी में परिभाषित किया जा सकता है। यह उपयोगी है जब आप सब-सीन का उपयोग कर रहे हों और पुन: उपयोग योग्य घटकों को सब-सीन के तहत रखें।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -668,7 +668,7 @@ public Node getRootNode()
 ```
 
 
-दृश्य का रूट नोड प्राप्त करता है।
+दृश्य की मूल नोड प्राप्त करता है।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the root node of the scene. **Example:** The following code shows how to create a node with Box entity attached to the root node.
@@ -684,7 +684,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -697,7 +697,7 @@ public List<Scene> getSubScenes()
 सभी उप-दृश्य प्राप्त करता है
 
 **Returns:**
-java.util.List<com.aspose.threed.Scene> - सभी सब-सीन्स
+java.util.List<com.aspose.threed.Scene> - सभी सब-सीन
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -757,7 +757,7 @@ public void open(Stream stream, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -771,7 +771,7 @@ public void open(Stream stream, FileFormat format, Cancellation cancellationToke
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -820,7 +820,7 @@ public void open(InputStream stream)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। **Example:** निम्नलिखित कोड दिखाता है कि कैसे स्ट्रीम से सीन खोला जाए |
+|  | स्ट्रीम | java.io.InputStream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए जिम्मेदार है। **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे स्ट्रीम से सीन खोला जाए |
 
 ```
 var scene = new Scene();    
@@ -857,7 +857,7 @@ public void open(InputStream stream, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -878,7 +878,7 @@ public void open(InputStream stream, FileFormat format, Cancellation cancellatio
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -974,7 +974,7 @@ public void open(String fileName, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -988,7 +988,7 @@ public void open(String fileName, FileFormat format, Cancellation cancellationTo
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1003,7 +1003,7 @@ public void open(String fileName, LoadOptions options)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1017,7 +1017,7 @@ public void open(String fileName, LoadOptions options, Cancellation cancellation
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1091,7 +1091,7 @@ public void render(Camera camera, String fileName)
 ```
 
 
-दिए गए कैमरे के दृष्टिकोण से सीन को बाहरी फ़ाइल में रेंडर करें। डिफ़ॉल्ट आउटपुट आकार 1024x768 है और आउटपुट फ़ॉर्मेट png है
+दिए गए कैमरे के दृष्टिकोण से सीन को बाहरी फ़ाइल में रेंडर करें। डिफ़ॉल्ट आउटपुट आकार 1024x768 है और आउटपुट फ़ॉर्मेट png है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1138,7 +1138,7 @@ public void save(Stream stream, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1152,7 +1152,7 @@ public void save(Stream stream, FileFormat format, Cancellation cancellationToke
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1167,7 +1167,7 @@ public void save(Stream stream, SaveOptions options)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1181,7 +1181,7 @@ public void save(Stream stream, SaveOptions options, Cancellation cancellationTo
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1196,7 +1196,7 @@ public void save(OutputStream stream, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1218,7 +1218,7 @@ public void save(OutputStream stream, FileFormat format, Cancellation cancellati
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1242,7 +1242,7 @@ public void save(OutputStream stream, SaveOptions options)
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1266,7 +1266,7 @@ public void save(OutputStream stream, SaveOptions options, Cancellation cancella
 ```
 
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1292,7 +1292,7 @@ public void save(String fileName)
 ```
 
 
-निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है।
+निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1305,7 +1305,7 @@ public void save(String fileName, FileFormat format)
 ```
 
 
-निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है।
+निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1319,7 +1319,7 @@ public void save(String fileName, FileFormat format, Cancellation cancellationTo
 ```
 
 
-निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है।
+निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1334,7 +1334,7 @@ public void save(String fileName, SaveOptions options)
 ```
 
 
-निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है।
+निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1348,7 +1348,7 @@ public void save(String fileName, SaveOptions options, Cancellation cancellation
 ```
 
 
-निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके निर्दिष्ट पथ पर सीन को सहेजता है।
+निर्दिष्ट पथ पर निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को सहेजता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1363,7 +1363,7 @@ public void setAssetInfo(AssetInfo value)
 ```
 
 
-शीर्ष-स्तर की एसेट जानकारी सेट करता है
+शीर्ष-स्तर की एसेट जानकारी सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -1383,7 +1383,7 @@ public void setCurrentAnimationClip(AnimationClip value)
 ```
 
 
-सक्रिय [AnimationClip](../../com.aspose.threed/animationclip) सेट करता है
+सक्रिय [AnimationClip](../../com.aspose.threed/animationclip) सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

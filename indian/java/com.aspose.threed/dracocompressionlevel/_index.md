@@ -1,7 +1,7 @@
 ---
 title: "DracoCompressionLevel"
-second_title: "Aspose.3D for Java API Reference"
-description: "ड्रैको फ़ाइल के लिए संपीड़न स्तर"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "ड्रैको फ़ाइल के लिए संपीड़न स्तर।"
 type: docs
 weight: 276
 url: /hi/java/com.aspose.threed/dracocompressionlevel/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum DracoCompressionLevel extends Enum<DracoCompressionLevel>
 ```
 
-ड्रैको फ़ाइल के लिए संपीड़न स्तर
+ड्रैको फ़ाइल के लिए संपीड़न स्तर।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
@@ -21,7 +21,7 @@ public enum DracoCompressionLevel extends Enum<DracoCompressionLevel>
 | [FAST](#FAST) | एन्कोडर यथासंभव तेज़ी से संपीड़न करेगा। |
 | [NO_COMPRESSION](#NO-COMPRESSION) | कोई संपीड़न नहीं, इससे न्यूनतम एन्कोडिंग समय मिलेगा। |
 | [OPTIMAL](#OPTIMAL) | एन्कोडर दृश्य को इष्टतम रूप से संपीड़ित करेगा, जिससे समाप्त होने में अधिक समय लग सकता है। |
-| [STANDARD](#STANDARD) | मानक मोड, अच्छा संपीड़न और गति के साथ। |
+| [STANDARD](#STANDARD) | मानक मोड, अच्छी संपीड़न और गति के साथ। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -73,7 +73,7 @@ public static final DracoCompressionLevel STANDARD
 ```
 
 
-मानक मोड, अच्छा संपीड़न और गति के साथ।
+मानक मोड, अच्छी संपीड़न और गति के साथ।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

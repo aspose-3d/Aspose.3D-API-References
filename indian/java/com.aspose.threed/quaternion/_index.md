@@ -1,6 +1,6 @@
 ---
 title: "Quaternion"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "क्वाटरनियन का उपयोग आमतौर पर कंप्यूटर ग्राफिक्स में रोटेशन करने के लिए किया जाता है।"
 type: docs
 weight: 143
@@ -17,11 +17,11 @@ public final class Quaternion implements Struct<Quaternion>, Serializable
 ```
 
 क्वाटरनियन का उपयोग आमतौर पर कंप्यूटर ग्राफिक्स में रोटेशन करने के लिए किया जाता है।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Quaternion(double w, double x, double y, double z)](#Quaternion-double-double-double-double-) | एक नया उदाहरण प्रारंभ करता है [Quaternion](../../com.aspose.threed/quaternion) वर्ग का। |
+| [Quaternion(double w, double x, double y, double z)](#Quaternion-double-double-double-double-) | एक नया उदाहरण प्रारंभ करता है [Quaternion](../../com.aspose.threed/quaternion) क्लास। |
 | [Quaternion()](#Quaternion--) |  |
 ## फ़ील्ड्स
 
@@ -29,9 +29,9 @@ public final class Quaternion implements Struct<Quaternion>, Serializable
 | --- | --- |
 | [IDENTITY](#IDENTITY) | पहचान क्वाटरनियन। |
 | [w](#w) | w घटक। |
-| [x](#x) | The x component. |
-| [y](#y) | The y component. |
-| [z](#z) | The z component. |
+| [x](#x) | x घटक। |
+| [y](#y) | y घटक। |
+| [z](#z) | z घटक। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -41,33 +41,33 @@ public final class Quaternion implements Struct<Quaternion>, Serializable
 | [concat(Quaternion rhs)](#concat-com.aspose.threed.Quaternion-) | दो क्वाटरनियन को जोड़ें |
 | [conjugate()](#conjugate--) | वर्तमान क्वाटरनियन का संयुग्म क्वाटरनियन लौटाता है |
 | [copyFrom(Quaternion src)](#copyFrom-com.aspose.threed.Quaternion-) |  |
-| [div(Quaternion lhs, double rhs)](#div-com.aspose.threed.Quaternion-double-) | ऑपरेटर ओवरलोडिंग / के लिए। |
+| [div(Quaternion lhs, double rhs)](#div-com.aspose.threed.Quaternion-double-) | ऑपरेटर ओवरलोडिंग / के लिए |
 | [dot(Quaternion q)](#dot-com.aspose.threed.Quaternion-) | डॉट उत्पाद |
-| [equals(Object obj)](#equals-java.lang.Object-) | जाँचें कि दो क्वाटरनियन बराबर हैं |
-| [eulerAngles()](#eulerAngles--) | क्वाटरनियन को यूलेर कोणों द्वारा दर्शाए गए घूर्णन में बदलता है सभी घटक रेडियन में हैं |
-| [fromAngleAxis(double a, Vector3 axis)](#fromAngleAxis-double-com.aspose.threed.Vector3-) | दिए गए अक्ष के चारों ओर एक क्वाटरनियन बनाता है और घड़ी की दिशा में घुमाता है |
+| [equals(Object obj)](#equals-java.lang.Object-) | जाँचें कि दो क्वाटरनियन समान हैं |
+| [eulerAngles()](#eulerAngles--) | क्वाटरनियन को यूलेर कोणों द्वारा दर्शाए गए घूर्णन में परिवर्तित करता है सभी घटक रेडियन में हैं |
+| [fromAngleAxis(double a, Vector3 axis)](#fromAngleAxis-double-com.aspose.threed.Vector3-) | दिए गए अक्ष के चारों ओर क्वाटरनियन बनाता है और घड़ी की दिशा में घुमाता है |
 | [fromEulerAngle(Vector3 eulerAngle)](#fromEulerAngle-com.aspose.threed.Vector3-) | दिए गए यूलेर कोण से क्वाटरनियन बनाता है |
 | [fromEulerAngle(double pitch, double yaw, double roll)](#fromEulerAngle-double-double-double-) | दिए गए यूलेर कोण से क्वाटरनियन बनाता है |
 | [fromRotation(Vector3 orig, Vector3 dest)](#fromRotation-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | एक क्वाटरनियन बनाता है जो मूल दिशा से गंतव्य दिशा की ओर घुमता है |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | क्वाटरनियन की लंबाई प्राप्त करता है |
 | [hashCode()](#hashCode--) | क्वाटरनियन का हैश कोड प्राप्त करता है |
-| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | दिए गए क्वाटरनियन तर्कों के बीच अंतर्वर्ती मान के साथ इस क्वाटरनियन को भरता है, जहाँ t प्रारंभ और अंत के बीच है। |
-| [inverse()](#inverse--) | वर्तमान क्वाटरनियन का उलटा क्वाटरनियन लौटाता है |
-| [mul(Quaternion lhs, Quaternion rhs)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
-| [mul(Quaternion q, Vector3 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
-| [mul(Quaternion q, Vector4 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector4-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
-| [mul(Quaternion lhs, double rhs)](#mul-com.aspose.threed.Quaternion-double-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
-| [mul(Vector3 v, Quaternion q)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | ऑपरेटर ओवरलोडिंग \* के लिए। |
+| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | इस क्वाटरनियन को दिए गए क्वाटरनियन तर्कों के बीच इंटरपोलेटेड मान से भरता है, जहाँ t प्रारंभ और अंत के बीच होता है। |
+| [inverse()](#inverse--) | वर्तमान क्वाटरनियन का प्रतिलोम क्वाटरनियन लौटाता है |
+| [mul(Quaternion lhs, Quaternion rhs)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | ऑपरेटर ओवरलोडिंग \* के लिए |
+| [mul(Quaternion q, Vector3 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector3-) | ऑपरेटर ओवरलोडिंग \* के लिए |
+| [mul(Quaternion q, Vector4 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector4-) | ऑपरेटर ओवरलोडिंग \* के लिए |
+| [mul(Quaternion lhs, double rhs)](#mul-com.aspose.threed.Quaternion-double-) | ऑपरेटर ओवरलोडिंग \* के लिए |
+| [mul(Vector3 v, Quaternion q)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | ऑपरेटर ओवरलोडिंग \* के लिए |
 | [normalize()](#normalize--) | क्वाटरनियन को सामान्यीकृत करें |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_eq(Quaternion lhs, Quaternion rhs)](#op-eq-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | क्वाटरनियन के लिए समान ऑपरेटर |
 | [op_ne(Quaternion lhs, Quaternion rhs)](#op-ne-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | क्वाटरनियन के लिए असमान ऑपरेटर |
-| [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | दो मानों के बीच गोलाकार रैखिक अंतर्वर्तन करें |
+| [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | दो मानों के बीच गोलाकार रैखिक इंटरपोलेशन करें |
 | [toAngleAxis(double[] angle, Vector3 axis)](#toAngleAxis-double---com.aspose.threed.Vector3-) | क्वाटरनियन को कोण और अक्ष में विभाजित करें |
-| [toMatrix()](#toMatrix--) | क्वाटरनियन द्वारा प्रस्तुत घूर्णन को रूपांतरण मैट्रिक्स में बदलें। |
-| [toMatrix(Vector3 translation)](#toMatrix-com.aspose.threed.Vector3-) | क्वाटरनियन द्वारा प्रस्तुत घूर्णन को रूपांतरण मैट्रिक्स में बदलें। |
+| [toMatrix()](#toMatrix--) | क्वाटरनियन द्वारा प्रस्तुत घूर्णन को ट्रांसफ़ॉर्म मैट्रिक्स में बदलें। |
+| [toMatrix(Vector3 translation)](#toMatrix-com.aspose.threed.Vector3-) | क्वाटरनियन द्वारा प्रस्तुत घूर्णन को ट्रांसफ़ॉर्म मैट्रिक्स में बदलें। |
 | [toString()](#toString--) | क्वाटरनियन का स्ट्रिंग में प्रतिनिधित्व प्राप्त करता है |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,7 +78,7 @@ public Quaternion(double w, double x, double y, double z)
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [Quaternion](../../com.aspose.threed/quaternion) वर्ग का।
+एक नया उदाहरण प्रारंभ करता है [Quaternion](../../com.aspose.threed/quaternion) क्लास।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -116,7 +116,7 @@ public double x
 ```
 
 
-The x component.
+x घटक।
 
 ### y {#y}
 ```
@@ -124,7 +124,7 @@ public double y
 ```
 
 
-The y component.
+y घटक।
 
 ### z {#z}
 ```
@@ -132,7 +132,7 @@ public double z
 ```
 
 
-The z component.
+z घटक।
 
 ### add(Quaternion lhs, Quaternion rhs) {#add-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-}
 ```
@@ -204,7 +204,7 @@ public static Quaternion div(Quaternion lhs, double rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग / के लिए।
+ऑपरेटर ओवरलोडिंग / के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -228,29 +228,29 @@ public double dot(Quaternion q)
 | q | [Quaternion](../../com.aspose.threed/quaternion) | क्वाटरनियन |
 
 **Returns:**
-डबल - डॉट मान
+double - डॉट मान
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-जाँचें कि दो क्वाटरनियन बराबर हैं
+जाँचें कि दो क्वाटरनियन समान हैं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| obj | java.lang.Object | समानता जाँचने के लिए ऑब्जेक्ट. |
+| obj | java.lang.Object | समानता जांचने के लिए वस्तु। |
 
 **Returns:**
-boolean - यदि सभी घटक समान रूप से बराबर हों तो True.
+boolean - यदि सभी घटक समान रूप से बराबर हों तो सत्य।
 ### eulerAngles() {#eulerAngles--}
 ```
 public Vector3 eulerAngles()
 ```
 
 
-क्वाटरनियन को यूलेर कोणों द्वारा दर्शाए गए घूर्णन में बदलता है सभी घटक रेडियन में हैं
+क्वाटरनियन को यूलेर कोणों द्वारा दर्शाए गए घूर्णन में परिवर्तित करता है सभी घटक रेडियन में हैं
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -260,12 +260,12 @@ public static Quaternion fromAngleAxis(double a, Vector3 axis)
 ```
 
 
-दिए गए अक्ष के चारों ओर एक क्वाटरनियन बनाता है और घड़ी की दिशा में घुमाता है
+दिए गए अक्ष के चारों ओर क्वाटरनियन बनाता है और घड़ी की दिशा में घुमाता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| a | double | रैडियन में घड़ी की दिशा में घूर्णन |
+| a | double | घड़ी की दिशा में रैडियन में घुमाव |
 | axis | [Vector3](../../com.aspose.threed/vector3) | अक्ष |
 
 **Returns:**
@@ -281,7 +281,7 @@ public static Quaternion fromEulerAngle(Vector3 eulerAngle)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| eulerAngle | [Vector3](../../com.aspose.threed/vector3) | रैडियन में यूलेर कोण |
+| eulerAngle | [Vector3](../../com.aspose.threed/vector3) | रैडियन में यूलर कोण |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Created quaternion
@@ -337,7 +337,7 @@ public double getLength()
 क्वाटरनियन की लंबाई प्राप्त करता है
 
 **Returns:**
-डबल - क्वाटरनियन की लंबाई
+double - क्वाटरनियन की लंबाई
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -354,7 +354,7 @@ public static Quaternion interpolate(float t, Quaternion from, Quaternion to)
 ```
 
 
-दिए गए क्वाटरनियन तर्कों के बीच अंतर्वर्ती मान के साथ इस क्वाटरनियन को भरता है, जहाँ t प्रारंभ और अंत के बीच है।
+इस क्वाटरनियन को दिए गए क्वाटरनियन तर्कों के बीच इंटरपोलेटेड मान से भरता है, जहाँ t प्रारंभ और अंत के बीच होता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -371,7 +371,7 @@ public Quaternion inverse()
 ```
 
 
-वर्तमान क्वाटरनियन का उलटा क्वाटरनियन लौटाता है
+वर्तमान क्वाटरनियन का प्रतिलोम क्वाटरनियन लौटाता है
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Inverse quaternion.
@@ -381,7 +381,7 @@ public static Quaternion mul(Quaternion lhs, Quaternion rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -397,12 +397,12 @@ public static Vector3 mul(Quaternion q, Vector3 v)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | घूर्णन क्वाटरनियन |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | घुमाव क्वाटरनियन |
 | v | [Vector3](../../com.aspose.threed/vector3) | घुमाने के लिए वेक्टर |
 
 **Returns:**
@@ -413,12 +413,12 @@ public static Vector4 mul(Quaternion q, Vector4 v)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | घूर्णन क्वाटरनियन |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | घुमाव क्वाटरनियन |
 | v | [Vector4](../../com.aspose.threed/vector4) | घुमाने के लिए वेक्टर |
 
 **Returns:**
@@ -429,7 +429,7 @@ public static Quaternion mul(Quaternion lhs, double rhs)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -445,12 +445,12 @@ public static Vector3 mul(Vector3 v, Quaternion q)
 ```
 
 
-ऑपरेटर ओवरलोडिंग \* के लिए।
+ऑपरेटर ओवरलोडिंग \* के लिए
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| v | [Vector3](../../com.aspose.threed/vector3) | घूर्णन क्वाटरनियन |
+| v | [Vector3](../../com.aspose.threed/vector3) | घुमाव क्वाटरनियन |
 | q | [Quaternion](../../com.aspose.threed/quaternion) | घुमाने के लिए वेक्टर |
 
 **Returns:**
@@ -492,11 +492,11 @@ public static boolean op_eq(Quaternion lhs, Quaternion rhs)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | बाएँ हाथ का मान. |
-| rhs | [Quaternion](../../com.aspose.threed/quaternion) | दाएँ हाथ का मान. |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | बाएँ हाथ का मान। |
+| rhs | [Quaternion](../../com.aspose.threed/quaternion) | दाएँ हाथ का मान। |
 
 **Returns:**
-boolean - यदि सभी घटक समान रूप से बराबर हों तो True.
+boolean - यदि सभी घटक समान रूप से बराबर हों तो सत्य।
 ### op_ne(Quaternion lhs, Quaternion rhs) {#op-ne-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-}
 ```
 public static boolean op_ne(Quaternion lhs, Quaternion rhs)
@@ -508,8 +508,8 @@ public static boolean op_ne(Quaternion lhs, Quaternion rhs)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | बाएँ हाथ का मान. |
-| rhs | [Quaternion](../../com.aspose.threed/quaternion) | दाएँ हाथ का मान. |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | बाएँ हाथ का मान। |
+| rhs | [Quaternion](../../com.aspose.threed/quaternion) | दाएँ हाथ का मान। |
 
 **Returns:**
 बूलियन - सत्य यदि दो क्वाटरनियन समान नहीं हैं।
@@ -519,7 +519,7 @@ public static Quaternion slerp(double t, Quaternion v1, Quaternion v2)
 ```
 
 
-दो मानों के बीच गोलाकार रैखिक अंतर्वर्तन करें
+दो मानों के बीच गोलाकार रैखिक इंटरपोलेशन करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -541,8 +541,8 @@ public void toAngleAxis(double[] angle, Vector3 axis)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| कोण | double[] | घुमाने के लिए कोण, रेडियन में। |
-| axis | [Vector3](../../com.aspose.threed/vector3) | धुरी जिसके चारों ओर घुमाव होता है। |
+| कोण | double[] | घुमाने का कोण, रेडियन में। |
+| axis | [Vector3](../../com.aspose.threed/vector3) | वह अक्ष जिसके चारों ओर घुमाव होता है। |
 
 ### toMatrix() {#toMatrix--}
 ```
@@ -550,7 +550,7 @@ public Matrix4 toMatrix()
 ```
 
 
-क्वाटरनियन द्वारा प्रस्तुत घूर्णन को रूपांतरण मैट्रिक्स में बदलें।
+क्वाटरनियन द्वारा प्रस्तुत घूर्णन को ट्रांसफ़ॉर्म मैट्रिक्स में बदलें।
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - The matrix representation of current quaternion.
@@ -560,7 +560,7 @@ public Matrix4 toMatrix(Vector3 translation)
 ```
 
 
-क्वाटरनियन द्वारा प्रस्तुत घूर्णन को रूपांतरण मैट्रिक्स में बदलें।
+क्वाटरनियन द्वारा प्रस्तुत घूर्णन को ट्रांसफ़ॉर्म मैट्रिक्स में बदलें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

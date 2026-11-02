@@ -1,7 +1,7 @@
 ---
 title: "StencilAction"
-second_title: "Aspose.3D for Java API Reference"
-description: "स्टेंसिल टेस्ट क्रियाएँ"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "स्टेंसिल परीक्षण क्रियाएँ"
 type: docs
 weight: 303
 url: /hi/java/com.aspose.threed/stencilaction/
@@ -13,18 +13,18 @@ java.lang.Object, java.lang.Enum
 public enum StencilAction extends Enum<StencilAction>
 ```
 
-स्टेंसिल टेस्ट क्रियाएँ
+स्टेंसिल परीक्षण क्रियाएँ
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [DECREMENT](#DECREMENT) | वर्तमान स्टेंसिल बफ़र मान को बढ़ाता है, 0 पर क्लैंप करता है। |
-| [DECREMENT_WRAP](#DECREMENT-WRAP) | वर्तमान स्टेंसिल बफ़र मान को घटाता है और जब यह शून्य तक पहुँचता है तो इसे अधिकतम मान पर रैप करता है। |
-| [INCREMENT](#INCREMENT) | वर्तमान स्टेंसिल बफ़र मान को बढ़ाता है, अधिकतम मान पर क्लैंप करता है। |
-| [INCREMENT_WRAP](#INCREMENT-WRAP) | वर्तमान स्टेंसिल बफ़र मान को बढ़ाता है और जब यह अधिकतम मान तक पहुँचता है तो इसे शून्य पर रैप करता है। |
-| [INVERT](#INVERT) | बिट-वार वर्तमान स्टेंसिल बफ़र मान को उलटता है। |
+| [DECREMENT](#DECREMENT) | वर्तमान stencil buffer मान को बढ़ाता है, 0 पर क्लैंप करता है। |
+| [DECREMENT_WRAP](#DECREMENT-WRAP) | वर्तमान stencil buffer मान को घटाता है और जब यह शून्य तक पहुँचता है तो इसे अधिकतम मान पर रैप करता है। |
+| [INCREMENT](#INCREMENT) | वर्तमान stencil buffer मान को बढ़ाता है, अधिकतम मान पर क्लैंप करता है। |
+| [INCREMENT_WRAP](#INCREMENT-WRAP) | वर्तमान stencil buffer मान को बढ़ाता है और जब यह अधिकतम मान तक पहुँचता है तो इसे शून्य पर रैप करता है। |
+| [INVERT](#INVERT) | बिट-वार वर्तमान stencil buffer मान को उलटता है। |
 | [KEEP](#KEEP) | वर्तमान मान को रखें |
-| [REPLACE](#REPLACE) | स्टेंसिल बफ़र को ref पर सेट करता है जहाँ यह [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) में परिभाषित है। |
+| [REPLACE](#REPLACE) | stencil buffer को ref पर सेट करता है जहाँ यह [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) में परिभाषित है। |
 | [ZERO](#ZERO) | स्टेंसिल बफ़र मान को 0 पर सेट करता है |
 ## विधियाँ
 
@@ -53,7 +53,7 @@ public static final StencilAction DECREMENT
 ```
 
 
-वर्तमान स्टेंसिल बफ़र मान को बढ़ाता है, 0 पर क्लैंप करता है।
+वर्तमान stencil buffer मान को बढ़ाता है, 0 पर क्लैंप करता है।
 
 ### DECREMENT_WRAP {#DECREMENT-WRAP}
 ```
@@ -61,7 +61,7 @@ public static final StencilAction DECREMENT_WRAP
 ```
 
 
-वर्तमान स्टेंसिल बफ़र मान को घटाता है और जब यह शून्य तक पहुँचता है तो इसे अधिकतम मान पर रैप करता है।
+वर्तमान stencil buffer मान को घटाता है और जब यह शून्य तक पहुँचता है तो इसे अधिकतम मान पर रैप करता है।
 
 ### INCREMENT {#INCREMENT}
 ```
@@ -69,7 +69,7 @@ public static final StencilAction INCREMENT
 ```
 
 
-वर्तमान स्टेंसिल बफ़र मान को बढ़ाता है, अधिकतम मान पर क्लैंप करता है।
+वर्तमान stencil buffer मान को बढ़ाता है, अधिकतम मान पर क्लैंप करता है।
 
 ### INCREMENT_WRAP {#INCREMENT-WRAP}
 ```
@@ -77,7 +77,7 @@ public static final StencilAction INCREMENT_WRAP
 ```
 
 
-वर्तमान स्टेंसिल बफ़र मान को बढ़ाता है और जब यह अधिकतम मान तक पहुँचता है तो इसे शून्य पर रैप करता है।
+वर्तमान stencil buffer मान को बढ़ाता है और जब यह अधिकतम मान तक पहुँचता है तो इसे शून्य पर रैप करता है।
 
 ### INVERT {#INVERT}
 ```
@@ -85,7 +85,7 @@ public static final StencilAction INVERT
 ```
 
 
-बिट-वार वर्तमान स्टेंसिल बफ़र मान को उलटता है।
+बिट-वार वर्तमान stencil buffer मान को उलटता है।
 
 ### KEEP {#KEEP}
 ```
@@ -101,7 +101,7 @@ public static final StencilAction REPLACE
 ```
 
 
-स्टेंसिल बफ़र को ref पर सेट करता है जहाँ यह [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) में परिभाषित है।
+stencil buffer को ref पर सेट करता है जहाँ यह [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) में परिभाषित है।
 
 ### ZERO {#ZERO}
 ```

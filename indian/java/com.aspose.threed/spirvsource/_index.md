@@ -1,6 +1,6 @@
 ---
 title: "SPIRVSource"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "SPIR-V फ़ॉर्मेट में संकलित शेडर।"
 type: docs
 weight: 159
@@ -14,9 +14,9 @@ public final class SPIRVSource extends ShaderSource
 ```
 
 SPIR-V फ़ॉर्मेट में संकलित शेडर।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [SPIRVSource()](#SPIRVSource--) | SPIR-V आधारित शेडर स्रोतों का कंस्ट्रक्टर। |
 ## विधियाँ
@@ -25,19 +25,19 @@ SPIR-V फ़ॉर्मेट में संकलित शेडर।
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComputeShader()](#getComputeShader--) | कम्प्यूट शेडर का सोर्स कोड प्राप्त करता है। |
-| [getFragmentShader()](#getFragmentShader--) | फ़्रैगमेंट शेडर का सोर्स कोड प्राप्त करता है। |
-| [getGeometryShader()](#getGeometryShader--) | जियोमेट्री शेडर का सोर्स कोड प्राप्त करता है। |
-| [getMaximumDescriptorSets()](#getMaximumDescriptorSets--) | अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है। |
-| [getVertexShader()](#getVertexShader--) | वर्टेक्स शेडर का सोर्स कोड प्राप्त करता है। |
+| [getComputeShader()](#getComputeShader--) | कम्प्यूट शेडर का स्रोत कोड प्राप्त करता है। |
+| [getFragmentShader()](#getFragmentShader--) | फ़्रैगमेंट शेडर का स्रोत कोड प्राप्त करता है। |
+| [getGeometryShader()](#getGeometryShader--) | जियोमेट्री शेडर का स्रोत कोड प्राप्त करता है। |
+| [getMaximumDescriptorSets()](#getMaximumDescriptorSets--) | अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है |
+| [getVertexShader()](#getVertexShader--) | वर्टेक्स शेडर का स्रोत कोड प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComputeShader(byte[] value)](#setComputeShader-byte---) | कम्प्यूट शेडर का सोर्स कोड सेट करता है। |
-| [setFragmentShader(byte[] value)](#setFragmentShader-byte---) | फ़्रैगमेंट शेडर का सोर्स कोड सेट करता है। |
-| [setGeometryShader(byte[] value)](#setGeometryShader-byte---) | जियोमेट्री शेडर का सोर्स कोड सेट करता है। |
-| [setMaximumDescriptorSets(int value)](#setMaximumDescriptorSets-int-) | अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है। |
-| [setVertexShader(byte[] value)](#setVertexShader-byte---) | वर्टेक्स शेडर का सोर्स कोड सेट करता है। |
+| [setComputeShader(byte[] value)](#setComputeShader-byte---) | कम्प्यूट शेडर का स्रोत कोड सेट करता है। |
+| [setFragmentShader(byte[] value)](#setFragmentShader-byte---) | फ़्रैगमेंट शेडर का स्रोत कोड सेट करता है। |
+| [setGeometryShader(byte[] value)](#setGeometryShader-byte---) | जियोमेट्री शेडर का स्रोत कोड सेट करता है। |
+| [setMaximumDescriptorSets(int value)](#setMaximumDescriptorSets-int-) | अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है |
+| [setVertexShader(byte[] value)](#setVertexShader-byte---) | वर्टेक्स शेडर का स्रोत कोड सेट करता है |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -81,17 +81,17 @@ public byte[] getComputeShader()
 ```
 
 
-कम्प्यूट शेडर का सोर्स कोड प्राप्त करता है।
+कम्प्यूट शेडर का स्रोत कोड प्राप्त करता है।
 
 **Returns:**
-byte[] - कम्प्यूट शेडर का सोर्स कोड।
+byte[] - कम्प्यूट शेडर का स्रोत कोड।
 ### getFragmentShader() {#getFragmentShader--}
 ```
 public byte[] getFragmentShader()
 ```
 
 
-फ़्रैगमेंट शेडर का सोर्स कोड प्राप्त करता है।
+फ़्रैगमेंट शेडर का स्रोत कोड प्राप्त करता है।
 
 **Returns:**
 byte[] - फ्रैगमेंट शेडर का स्रोत कोड।
@@ -101,17 +101,17 @@ public byte[] getGeometryShader()
 ```
 
 
-जियोमेट्री शेडर का सोर्स कोड प्राप्त करता है।
+जियोमेट्री शेडर का स्रोत कोड प्राप्त करता है।
 
 **Returns:**
-byte[] - जियोमेट्री शेडर का स्रोत कोड।
+byte[] - ज्योमेट्री शेडर का स्रोत कोड।
 ### getMaximumDescriptorSets() {#getMaximumDescriptorSets--}
 ```
 public int getMaximumDescriptorSets()
 ```
 
 
-अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है।
+अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है
 
 **Returns:**
 int - अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है।
@@ -121,7 +121,7 @@ public byte[] getVertexShader()
 ```
 
 
-वर्टेक्स शेडर का सोर्स कोड प्राप्त करता है।
+वर्टेक्स शेडर का स्रोत कोड प्राप्त करता है
 
 **Returns:**
 byte[] - वर्टेक्स शेडर का स्रोत कोड।
@@ -157,7 +157,7 @@ public void setComputeShader(byte[] value)
 ```
 
 
-कम्प्यूट शेडर का सोर्स कोड सेट करता है।
+कम्प्यूट शेडर का स्रोत कोड सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -170,7 +170,7 @@ public void setFragmentShader(byte[] value)
 ```
 
 
-फ़्रैगमेंट शेडर का सोर्स कोड सेट करता है।
+फ़्रैगमेंट शेडर का स्रोत कोड सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -183,7 +183,7 @@ public void setGeometryShader(byte[] value)
 ```
 
 
-जियोमेट्री शेडर का सोर्स कोड सेट करता है।
+जियोमेट्री शेडर का स्रोत कोड सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -196,7 +196,7 @@ public void setMaximumDescriptorSets(int value)
 ```
 
 
-अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है।
+अधिकतम डिस्क्रिप्टर सेट, डिफ़ॉल्ट मान 10 है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -209,7 +209,7 @@ public void setVertexShader(byte[] value)
 ```
 
 
-वर्टेक्स शेडर का सोर्स कोड सेट करता है।
+वर्टेक्स शेडर का स्रोत कोड सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

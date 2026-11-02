@@ -1,7 +1,7 @@
 ---
 title: "TextureData"
-second_title: "Aspose.3D for Java API Reference"
-description: "यह क्लास टेक्सचर के कच्चे डेटा और फ़ॉर्मेट परिभाषा को समाहित करती है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "यह क्लास टेक्सचर के कच्चे डेटा और फ़ॉर्मेट परिभाषा को शामिल करती है।"
 type: docs
 weight: 187
 url: /hi/java/com.aspose.threed/texturedata/
@@ -13,31 +13,31 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class TextureData extends A3DObject
 ```
 
-यह क्लास टेक्सचर के कच्चे डेटा और फ़ॉर्मेट परिभाषा को समाहित करती है।
-## कंस्ट्रक्टर
+यह क्लास टेक्सचर के कच्चे डेटा और फ़ॉर्मेट परिभाषा को शामिल करती है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [TextureData(int width, int height, int stride, int bytesPerPixel, PixelFormat pixelFormat, byte[] data)](#TextureData-int-int-int-int-com.aspose.threed.PixelFormat-byte---) | [TextureData](../../com.aspose.threed/texturedata) का कंस्ट्रक्टर |
+| [TextureData(int width, int height, int stride, int bytesPerPixel, PixelFormat pixelFormat, byte[] data)](#TextureData-int-int-int-int-com.aspose.threed.PixelFormat-byte---) | [TextureData](../../com.aspose.threed/texturedata) का कन्स्ट्रक्टर |
 | [TextureData(int width, int height, PixelFormat pixelFormat)](#TextureData-int-int-com.aspose.threed.PixelFormat-) | एक नया [TextureData](../../com.aspose.threed/texturedata) बनाता है और पिक्सेल डेटा आवंटित करता है। |
-| [TextureData()](#TextureData--) | [TextureData](../../com.aspose.threed/texturedata) का कंस्ट्रक्टर |
+| [TextureData()](#TextureData--) | [TextureData](../../com.aspose.threed/texturedata) का कन्स्ट्रक्टर |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [fromFile(String fileName)](#fromFile-java.lang.String-) | फ़ाइल से टेक्सचर लोड करें |
-| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | स्ट्रीम से टेक्सचर लोड करें |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | फ़ाइल से एक टेक्सचर लोड करें |
+| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | स्ट्रीम से एक टेक्सचर लोड करें |
 | [getBytesPerPixel()](#getBytesPerPixel--) | पिक्सेल के बाइट्स की संख्या |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | पिक्सेल डेटा के कच्चे बाइट्स |
 | [getHeight()](#getHeight--) | ऊर्ध्वाधर पिक्सेल की संख्या |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getPixelFormat()](#getPixelFormat--) | पिक्सेल का प्रारूप |
+| [getPixelFormat()](#getPixelFormat--) | पिक्सेल का फ़ॉर्मेट |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getStride()](#getStride--) | स्कैनलाइन के बाइट्स की संख्या। |
+| [getStride()](#getStride--) | एक स्कैनलाइन के बाइट्स की संख्या। |
 | [getWidth()](#getWidth--) | क्षैतिज पिक्सेल की संख्या |
 | [hashCode()](#hashCode--) |  |
 | [mapPixels(PixelMapMode mapMode)](#mapPixels-com.aspose.threed.PixelMapMode-) | पढ़ने/लिखने के लिए सभी पिक्सेल को मैप करें |
@@ -63,14 +63,14 @@ public TextureData(int width, int height, int stride, int bytesPerPixel, PixelFo
 ```
 
 
-[TextureData](../../com.aspose.threed/texturedata) का कंस्ट्रक्टर
+[TextureData](../../com.aspose.threed/texturedata) का कन्स्ट्रक्टर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | चौड़ाई | int |  |
 | ऊँचाई | int |  |
-| स्ट्राइड | int |  |
+| stride | int |  |
 | bytesPerPixel | int |  |
 | pixelFormat | [PixelFormat](../../com.aspose.threed/pixelformat) |  |
 | डेटा | byte[] |  |
@@ -96,7 +96,7 @@ public TextureData()
 ```
 
 
-[TextureData](../../com.aspose.threed/texturedata) का कंस्ट्रक्टर
+[TextureData](../../com.aspose.threed/texturedata) का कन्स्ट्रक्टर
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -119,7 +119,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -134,7 +134,7 @@ public static TextureData fromFile(String fileName)
 ```
 
 
-फ़ाइल से टेक्सचर लोड करें
+फ़ाइल से एक टेक्सचर लोड करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -149,7 +149,7 @@ public static TextureData fromStream(Stream stream)
 ```
 
 
-स्ट्रीम से टेक्सचर लोड करें
+स्ट्रीम से एक टेक्सचर लोड करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -167,7 +167,7 @@ public int getBytesPerPixel()
 पिक्सेल के बाइट्स की संख्या
 
 **Returns:**
-int - पिक्सेल के बाइट्स की संख्या
+int - एक पिक्सेल के बाइट्स की संख्या
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -214,7 +214,7 @@ public PixelFormat getPixelFormat()
 ```
 
 
-पिक्सेल का प्रारूप
+पिक्सेल का फ़ॉर्मेट
 
 **Returns:**
 [PixelFormat](../../com.aspose.threed/pixelformat) - The pixel's format
@@ -249,10 +249,10 @@ public int getStride()
 ```
 
 
-स्कैनलाइन के बाइट्स की संख्या।
+एक स्कैनलाइन के बाइट्स की संख्या।
 
 **Returns:**
-int - स्कैनलाइन के बाइट्स की संख्या।
+int - एक स्कैनलाइन के बाइट्स की संख्या।
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
@@ -315,7 +315,7 @@ public PixelMapping mapPixels(Rect rect, PixelMapMode mapMode, PixelFormat forma
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| rect | [Rect](../../com.aspose.threed/rect) | पहुँचने वाले पिक्सेल का क्षेत्र |
+| rect | [Rect](../../com.aspose.threed/rect) | पहुंचे जाने वाले पिक्सेल का क्षेत्र |
 | mapMode | [PixelMapMode](../../com.aspose.threed/pixelmapmode) | मैप मोड |
 | format | [PixelFormat](../../com.aspose.threed/pixelformat) | पिक्सेल फ़ॉर्मेट |
 
@@ -378,7 +378,7 @@ public void save(Stream stream, String format)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | सहेजी गई इमेज को रखने वाली स्ट्रीम |
+| stream | [Stream](../../com.aspose.threed/stream) | सहेजी गई इमेज को रखने वाला स्ट्रीम |
 | फ़ॉर्मेट | java.lang.String | इमेज फ़ॉर्मेट, आमतौर पर फ़ाइल एक्सटेंशन |
 
 ### save(String fileName) {#save-java.lang.String-}

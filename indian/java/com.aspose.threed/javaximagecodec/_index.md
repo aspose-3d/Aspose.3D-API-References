@@ -1,6 +1,6 @@
 ---
 title: "JavaXImageCodec"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: 
 type: docs
 weight: 87
@@ -15,9 +15,9 @@ java.lang.Object
 ```
 public class JavaXImageCodec implements ITextureCodec, ITextureDecoder
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [JavaXImageCodec()](#JavaXImageCodec--) |  |
 ## विधियाँ
@@ -48,7 +48,7 @@ public TextureData decode(Stream stream, boolean reverseY)
 ```
 
 
-स्ट्रीम से टेक्सचर डिकोड करें, यदि डिकोड करने में विफल हों तो null लौटाएँ।
+स्ट्रीम से टेक्सचर डिकोड करें, यदि डिकोड करने में विफल हो तो null लौटाएँ।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

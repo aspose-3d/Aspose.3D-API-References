@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "यह क्लास केवल glTF में उपयोग किए जाने वाले EXT_structural_metadata के लिए समर्थन प्रदान करती है।"
 type: docs
 weight: 180
@@ -13,10 +13,10 @@ java.lang.Object
 public class StructuralMetadata
 ```
 
-यह क्लास EXT\\_structural\\_metadata के लिए समर्थन प्रदान करती है, जो केवल glTF में उपयोग होता है।
-## कंस्ट्रक्टर
+यह क्लास EXT\_structural\_metadata के लिए समर्थन प्रदान करती है, जो केवल glTF में उपयोग होती है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [StructuralMetadata()](#StructuralMetadata--) |  |
 ## विधियाँ
@@ -25,14 +25,14 @@ public class StructuralMetadata
 | --- | --- |
 | [attach(Scene scene)](#attach-com.aspose.threed.Scene-) | वर्तमान मेटा डेटा को निर्दिष्ट दृश्य से संलग्न करें |
 | [createClass(String name)](#createClass-java.lang.String-) | एक मेटा क्लास प्रकार बनाएं |
-| [createEnum(String name)](#createEnum-java.lang.String-) | एक एनम प्रकार बनाएं |
+| [createEnum(String name)](#createEnum-java.lang.String-) | एक enum प्रकार बनाएं |
 | [createPropertyTable(String name, StructuralMetadata.ClassType clazz)](#createPropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | दिए गए मेटा क्लास प्रकार के साथ एक नई प्रॉपर्टी टेबल बनाएं |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [from(Scene scene)](#from-com.aspose.threed.Scene-) | निर्दिष्ट दृश्य से संबंधित [StructuralMetadata](../../com.aspose.threed/structuralmetadata) प्राप्त करें। |
+| [from(Scene scene)](#from-com.aspose.threed.Scene-) | प्राप्त करें [StructuralMetadata](../../com.aspose.threed/structuralmetadata) निर्दिष्ट दृश्य के साथ संबद्ध। |
 | [getClass()](#getClass--) |  |
 | [getClasses()](#getClasses--) | क्लास परिभाषाएँ। |
-| [getEnums()](#getEnums--) | एनम प्रकार परिभाषाएँ |
-| [getPropertyTables()](#getPropertyTables--) | इस मेटाडेटा में प्रॉपर्टी टेबल्स। |
+| [getEnums()](#getEnums--) | enum प्रकार परिभाषाएँ |
+| [getPropertyTables()](#getPropertyTables--) | इस मेटाडाटा में प्रॉपर्टी टेबल्स। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -80,7 +80,7 @@ public StructuralMetadata.EnumType createEnum(String name)
 ```
 
 
-एक एनम प्रकार बनाएं
+एक enum प्रकार बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -126,12 +126,12 @@ public static StructuralMetadata from(Scene scene)
 ```
 
 
-निर्दिष्ट दृश्य से संबंधित [StructuralMetadata](../../com.aspose.threed/structuralmetadata) प्राप्त करें।
+प्राप्त करें [StructuralMetadata](../../com.aspose.threed/structuralmetadata) निर्दिष्ट दृश्य के साथ संबद्ध।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | संरचनात्मक मेटाडेटा के लिए कौन सा दृश्य देखना है |
+| scene | [Scene](../../com.aspose.threed/scene) | संरचनात्मक मेटाडाटा के लिए किस दृश्य को देखना है |
 
 **Returns:**
 [StructuralMetadata](../../com.aspose.threed/structuralmetadata) - A valid instance of [StructuralMetadata](../../com.aspose.threed/structuralmetadata) if its found in the scene, otherwise null returned
@@ -161,20 +161,20 @@ public HashMap<String,StructuralMetadata.EnumType> getEnums()
 ```
 
 
-एनम प्रकार परिभाषाएँ
+enum प्रकार परिभाषाएँ
 
 **Returns:**
-java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.EnumType> - enum प्रकार की परिभाषाएँ।
+java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.EnumType> - enum प्रकार की परिभाषाएँ
 ### getPropertyTables() {#getPropertyTables--}
 ```
 public ArrayList<StructuralMetadata.PropertyTable> getPropertyTables()
 ```
 
 
-इस मेटाडेटा में प्रॉपर्टी टेबल्स।
+इस मेटाडाटा में प्रॉपर्टी टेबल्स।
 
 **Returns:**
-java.util.ArrayList<com.aspose.threed.StructuralMetadata.PropertyTable> - इस मेटाडेटा में प्रॉपर्टी टेबल्स।
+java.util.ArrayList<com.aspose.threed.StructuralMetadata.PropertyTable> - इस मेटाडाटा में प्रॉपर्टी टेबल्स।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

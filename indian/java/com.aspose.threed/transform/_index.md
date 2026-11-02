@@ -1,7 +1,7 @@
 ---
-title: "ट्रांसफ़ॉर्म"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक ट्रांसफ़ॉर्म में ऐसी जानकारी होती है जो वस्तुओं के ट्रांसलेट/स्केल/रोटेशन या ट्रांसफ़ॉर्म मैट्रिक्स तक न्यूनतम लागत पर पहुँच प्रदान करती है। यह स्थानीय ट्रांसफ़ॉर्म द्वारा उपयोग किया जाता है।"
+title: "रूपांतरण"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक रूपांतरण में ऐसी जानकारी होती है जो वस्तुओं के अनुवाद/स्केल/घूर्णन या रूपांतरण मैट्रिक्स तक न्यूनतम लागत पर पहुँच प्रदान करती है। यह स्थानीय रूपांतरण द्वारा उपयोग किया जाता है।"
 type: docs
 weight: 190
 url: /hi/java/com.aspose.threed/transform/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Transform extends A3DObject
 ```
 
-एक ट्रांसफ़ॉर्म में ऐसी जानकारी होती है जो ऑब्जेक्ट के ट्रांसलेट/स्केल/रोटेशन या ट्रांसफ़ॉर्म मैट्रिक्स तक न्यूनतम लागत पर पहुँच प्रदान करती है। यह स्थानीय ट्रांसफ़ॉर्म द्वारा उपयोग किया जाता है। **Example:** निम्नलिखित कोड दिखाता है कि नोड का ट्रांसफ़ॉर्म कैसे बदलें:
+एक रूपांतरण में ऐसी जानकारी होती है जो ऑब्जेक्ट के अनुवाद/स्केल/घूर्णन या रूपांतरण मैट्रिक्स तक न्यूनतम लागत पर पहुँच प्रदान करती है। यह स्थानीय रूपांतरण द्वारा उपयोग किया जाता है। **Example:** निम्नलिखित कोड दिखाता है कि नोड का रूपांतरण कैसे बदलें:
 
 ```
 Scene scene = new Scene();
@@ -28,36 +28,36 @@ Scene scene = new Scene();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
 | [getClass()](#getClass--) |  |
-| [getEulerAngles()](#getEulerAngles--) | Euler कोणों में प्रदर्शित रोटेशन प्राप्त करता है, डिग्री में मापा गया |
-| [getGeometricRotation()](#getGeometricRotation--) | ज्यामितीय यूलेर घूर्णन (डिग्री में मापा) प्राप्त करता है। |
+| [getEulerAngles()](#getEulerAngles--) | प्राप्त करता है ईयूलर कोणों में दर्शाई गई घूर्णन, डिग्री में मापी गई। |
+| [getGeometricRotation()](#getGeometricRotation--) | ज्यामितीय यूलेर घूर्णन प्राप्त करता है (डिग्री में मापा गया)। |
 | [getGeometricScaling()](#getGeometricScaling--) | ज्यामितीय स्केलिंग प्राप्त करता है। |
-| [getGeometricTranslation()](#getGeometricTranslation--) | ज्यामितीय ट्रांसलेशन प्राप्त करता है। |
+| [getGeometricTranslation()](#getGeometricTranslation--) | ज्यामितीय अनुवाद प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getPostRotation()](#getPostRotation--) | डिग्री में दर्शाए गए पोस्ट-रोटेशन को प्राप्त करता है |
 | [getPreRotation()](#getPreRotation--) | डिग्री में दर्शाए गए प्री-रोटेशन को प्राप्त करता है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getRotation()](#getRotation--) | क्वाटरनियन में प्रदर्शित रोटेशन प्राप्त करता है। |
-| [getRotationOffset()](#getRotationOffset--) | रोटेशन ऑफ़सेट प्राप्त करता है |
+| [getRotation()](#getRotation--) | प्राप्त करता है क्वाटरनियन में दर्शाई गई घूर्णन। |
+| [getRotationOffset()](#getRotationOffset--) | घूर्णन ऑफ़सेट प्राप्त करता है |
 | [getRotationPivot()](#getRotationPivot--) | रोटेशन पिवट प्राप्त करता है |
 | [getScaling()](#getScaling--) | स्केलिंग प्राप्त करता है |
 | [getScalingOffset()](#getScalingOffset--) | स्केलिंग ऑफसेट प्राप्त करता है |
 | [getScalingPivot()](#getScalingPivot--) | स्केलिंग पिवट प्राप्त करता है |
-| [getTransformMatrix()](#getTransformMatrix--) | ट्रांसफ़ॉर्म मैट्रिक्स प्राप्त करता है। |
-| [getTranslation()](#getTranslation--) | ट्रांसलेशन प्राप्त करता है |
+| [getTransformMatrix()](#getTransformMatrix--) | प्राप्त करता है ट्रांसफ़ॉर्म मैट्रिक्स। |
+| [getTranslation()](#getTranslation--) | प्राप्त करता है ट्रांसलेशन |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setEulerAngles(Vector3 value)](#setEulerAngles-com.aspose.threed.Vector3-) | डिग्री में मापे गए यूलेर कोणों में दर्शाए गए रोटेशन को सेट करता है |
-| [setEulerAngles(double rx, double ry, double rz)](#setEulerAngles-double-double-double-) | वर्तमान ट्रांसफ़ॉर्म के डिग्री में यूलेर कोणों को सेट करता है। |
-| [setGeometricRotation(Vector3 value)](#setGeometricRotation-com.aspose.threed.Vector3-) | ज्यामितीय यूलेर रोटेशन (डिग्री में मापा गया) को सेट करता है। |
-| [setGeometricRotation(double rx, double ry, double rz)](#setGeometricRotation-double-double-double-) | ज्यामितीय यूलेर रोटेशन (डिग्री में मापा गया) को सेट करता है। |
-| [setGeometricScaling(Vector3 value)](#setGeometricScaling-com.aspose.threed.Vector3-) | ज्यामितीय स्केलिंग को सेट करता है। |
-| [setGeometricScaling(double sx, double sy, double sz)](#setGeometricScaling-double-double-double-) | ज्यामितीय स्केलिंग को सेट करता है। |
-| [setGeometricTranslation(Vector3 value)](#setGeometricTranslation-com.aspose.threed.Vector3-) | ज्यामितीय ट्रांसलेशन को सेट करता है। |
-| [setGeometricTranslation(double x, double y, double z)](#setGeometricTranslation-double-double-double-) | ज्यामितीय ट्रांसलेशन को सेट करता है। |
+| [setEulerAngles(Vector3 value)](#setEulerAngles-com.aspose.threed.Vector3-) | Euler कोणों में दर्शाए गए रोटेशन को सेट करता है, डिग्री में मापा गया |
+| [setEulerAngles(double rx, double ry, double rz)](#setEulerAngles-double-double-double-) | वर्तमान ट्रांसफ़ॉर्म के Euler कोणों को डिग्री में सेट करता है। |
+| [setGeometricRotation(Vector3 value)](#setGeometricRotation-com.aspose.threed.Vector3-) | ज्यामितीय Euler रोटेशन (डिग्री में मापा गया) सेट करता है। |
+| [setGeometricRotation(double rx, double ry, double rz)](#setGeometricRotation-double-double-double-) | ज्यामितीय Euler रोटेशन (डिग्री में मापा गया) सेट करता है। |
+| [setGeometricScaling(Vector3 value)](#setGeometricScaling-com.aspose.threed.Vector3-) | ज्यामितीय स्केलिंग सेट करता है। |
+| [setGeometricScaling(double sx, double sy, double sz)](#setGeometricScaling-double-double-double-) | ज्यामितीय स्केलिंग सेट करता है। |
+| [setGeometricTranslation(Vector3 value)](#setGeometricTranslation-com.aspose.threed.Vector3-) | ज्यामितीय ट्रांसलेशन सेट करता है। |
+| [setGeometricTranslation(double x, double y, double z)](#setGeometricTranslation-double-double-double-) | ज्यामितीय ट्रांसलेशन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setPostRotation(Vector3 value)](#setPostRotation-com.aspose.threed.Vector3-) | डिग्री में दर्शाए गए पोस्ट-रोटेशन को सेट करता है |
 | [setPostRotation(double rx, double ry, double rz)](#setPostRotation-double-double-double-) | डिग्री में दर्शाए गए पोस्ट-रोटेशन को सेट करता है **Example:** |
@@ -65,15 +65,15 @@ Scene scene = new Scene();
 | [setPreRotation(double rx, double ry, double rz)](#setPreRotation-double-double-double-) | डिग्री में दर्शाए गए प्री-रोटेशन को सेट करता है **Example:** |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [setRotation(Quaternion value)](#setRotation-com.aspose.threed.Quaternion-) | क्वाटरनियन में दर्शाए गए रोटेशन को सेट करता है। |
-| [setRotation(double rw, double rx, double ry, double rz)](#setRotation-double-double-double-double-) | वर्तमान ट्रांसफ़ॉर्म का रोटेशन (क्वाटरनियन घटकों के रूप में) को सेट करता है। |
-| [setRotationOffset(Vector3 value)](#setRotationOffset-com.aspose.threed.Vector3-) | रोटेशन ऑफसेट को सेट करता है |
-| [setRotationPivot(Vector3 value)](#setRotationPivot-com.aspose.threed.Vector3-) | रोटेशन पिवट को सेट करता है |
+| [setRotation(double rw, double rx, double ry, double rz)](#setRotation-double-double-double-double-) | वर्तमान ट्रांसफ़ॉर्म का रोटेशन (क्वाटरनियन घटकों के रूप में) सेट करता है। |
+| [setRotationOffset(Vector3 value)](#setRotationOffset-com.aspose.threed.Vector3-) | रोटेशन ऑफसेट सेट करता है |
+| [setRotationPivot(Vector3 value)](#setRotationPivot-com.aspose.threed.Vector3-) | रोटेशन पिवट सेट करता है |
 | [setScale(double sx, double sy, double sz)](#setScale-double-double-double-) | वर्तमान ट्रांसफ़ॉर्म का स्केल सेट करता है। |
-| [setScaling(Vector3 value)](#setScaling-com.aspose.threed.Vector3-) | स्केलिंग को सेट करता है |
-| [setScalingOffset(Vector3 value)](#setScalingOffset-com.aspose.threed.Vector3-) | स्केलिंग ऑफसेट को सेट करता है |
-| [setScalingPivot(Vector3 value)](#setScalingPivot-com.aspose.threed.Vector3-) | स्केलिंग पिवट को सेट करता है |
-| [setTransformMatrix(Matrix4 value)](#setTransformMatrix-com.aspose.threed.Matrix4-) | ट्रांसफ़ॉर्म मैट्रिक्स को सेट करता है। |
-| [setTranslation(Vector3 value)](#setTranslation-com.aspose.threed.Vector3-) | ट्रांसलेशन को सेट करता है |
+| [setScaling(Vector3 value)](#setScaling-com.aspose.threed.Vector3-) | स्केलिंग सेट करता है |
+| [setScalingOffset(Vector3 value)](#setScalingOffset-com.aspose.threed.Vector3-) | स्केलिंग ऑफसेट सेट करता है |
+| [setScalingPivot(Vector3 value)](#setScalingPivot-com.aspose.threed.Vector3-) | स्केलिंग पिवट सेट करता है |
+| [setTransformMatrix(Matrix4 value)](#setTransformMatrix-com.aspose.threed.Matrix4-) | ट्रांसफ़ॉर्म मैट्रिक्स सेट करता है। |
+| [setTranslation(Vector3 value)](#setTranslation-com.aspose.threed.Vector3-) | ट्रांसलेशन सेट करता है |
 | [setTranslation(double tx, double ty, double tz)](#setTranslation-double-double-double-) | वर्तमान ट्रांसफ़ॉर्म का ट्रांसलेशन सेट करता है। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -100,7 +100,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -125,7 +125,7 @@ public Vector3 getEulerAngles()
 ```
 
 
-Euler कोणों में प्रदर्शित रोटेशन प्राप्त करता है, डिग्री में मापा गया
+प्राप्त करता है ईयूलर कोणों में दर्शाई गई घूर्णन, डिग्री में मापी गई।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation represented in Euler angles, measured in degree **Example:**
@@ -140,7 +140,7 @@ public Vector3 getGeometricRotation()
 ```
 
 
-ज्यामितीय यूलेर रोटेशन (डिग्री में मापा गया) प्राप्त करता है। ज्यामितीय ट्रांसफ़ॉर्मेशन केवल जुड़े हुए एंटिटीज़ को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप ज्यामितीय ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मर्ज हो जाएगा।
+ज्यामितीय Euler रोटेशन (डिग्री में मापा गया) प्राप्त करता है। ज्यामितीय ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप ज्यामितीय ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric Euler rotation(measured in degree). Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it.
@@ -150,7 +150,7 @@ public Vector3 getGeometricScaling()
 ```
 
 
-जियोमेट्रिक स्केलिंग प्राप्त करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
+जियोमेट्रिक स्केलिंग प्राप्त करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अप्रभावित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric scaling. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -165,7 +165,7 @@ public Vector3 getGeometricTranslation()
 ```
 
 
-जियोमेट्रिक ट्रांसलेशन प्राप्त करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
+जियोमेट्रिक ट्रांसलेशन प्राप्त करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अप्रभावित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric translation. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -245,7 +245,7 @@ public Quaternion getRotation()
 ```
 
 
-क्वाटरनियन में प्रदर्शित रोटेशन प्राप्त करता है।
+प्राप्त करता है क्वाटरनियन में दर्शाई गई घूर्णन।
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - the rotation represented in quaternion. **Example:**
@@ -260,7 +260,7 @@ public Vector3 getRotationOffset()
 ```
 
 
-रोटेशन ऑफ़सेट प्राप्त करता है
+घूर्णन ऑफ़सेट प्राप्त करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation offset
@@ -315,7 +315,7 @@ public Matrix4 getTransformMatrix()
 ```
 
 
-ट्रांसफ़ॉर्म मैट्रिक्स प्राप्त करता है।
+प्राप्त करता है ट्रांसफ़ॉर्म मैट्रिक्स।
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix. **Remarks:** Assign on this will reset the [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) and [getRotation](../../com.aspose.threed/transform\#getRotation), the [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) and [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) will not be affected. **Example:**
@@ -330,7 +330,7 @@ public Vector3 getTranslation()
 ```
 
 
-ट्रांसलेशन प्राप्त करता है
+प्राप्त करता है ट्रांसलेशन
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the translation **Example:**
@@ -401,12 +401,12 @@ public void setEulerAngles(Vector3 value)
 ```
 
 
-डिग्री में मापे गए यूलेर कोणों में दर्शाए गए रोटेशन को सेट करता है
+Euler कोणों में दर्शाए गए रोटेशन को सेट करता है, डिग्री में मापा गया
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | नई मान **Example:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | नया मान **Example:** |
 
 ```
 Node node = new Node();
@@ -441,7 +441,7 @@ public void setGeometricRotation(Vector3 value)
 ```
 
 
-जियोमेट्रिक यूलेर रोटेशन (डिग्री में मापा गया) सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
+जियोमेट्रिक यूलेर रोटेशन (डिग्री में मापा गया) सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अप्रभावित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -454,7 +454,7 @@ public Transform setGeometricRotation(double rx, double ry, double rz)
 ```
 
 
-जियोमेट्रिक यूलेर रोटेशन (डिग्री में मापा गया) सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा। **Example:**
+जियोमेट्रिक यूलेर रोटेशन (डिग्री में मापा गया) सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अप्रभावित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा। **Example:**
 
 ```
 Node node = new Node();
@@ -476,12 +476,12 @@ public void setGeometricScaling(Vector3 value)
 ```
 
 
-जियोमेट्रिक स्केलिंग सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
+जियोमेट्रिक स्केलिंग सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अप्रभावित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | नई मान **Example:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | नया मान **Example:** |
 
 ```
 Node node = new Node();
@@ -494,7 +494,7 @@ public Transform setGeometricScaling(double sx, double sy, double sz)
 ```
 
 
-जियोमेट्रिक स्केलिंग सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा। **Example:**
+जियोमेट्रिक स्केलिंग सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अप्रभावित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा। **Example:**
 
 ```
 Node node = new Node();
@@ -516,12 +516,12 @@ public void setGeometricTranslation(Vector3 value)
 ```
 
 
-जियोमेट्रिक ट्रांसलेशन सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
+जियोमेट्रिक ट्रांसलेशन सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अप्रभावित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | नई मान **Example:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | नया मान **Example:** |
 
 ```
 Node node = new Node();
@@ -534,7 +534,7 @@ public Transform setGeometricTranslation(double x, double y, double z)
 ```
 
 
-जियोमेट्रिक ट्रांसलेशन सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अपरिवर्तित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा। **Example:**
+जियोमेट्रिक ट्रांसलेशन सेट करता है। जियोमेट्रिक ट्रांसफ़ॉर्मेशन केवल संलग्न इकाइयों को प्रभावित करता है और चाइल्ड नोड्स को अप्रभावित छोड़ता है। जब आप जियोमेट्रिक ट्रांसफ़ॉर्मेशन को उन फ़ाइल प्रकारों में निर्यात करते हैं जो इसे समर्थन नहीं करते, तो यह स्थानीय ट्रांसफ़ॉर्मेशन के रूप में मिलाया जाएगा। **Example:**
 
 ```
 Node node = new Node();
@@ -574,7 +574,7 @@ public void setPostRotation(Vector3 value)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | नई मान **Example:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | नया मान **Example:** |
 
 ```
 Node node = new Node();
@@ -614,7 +614,7 @@ public void setPreRotation(Vector3 value)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | नई मान **Example:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | नया मान **Example:** |
 
 ```
 Node node = new Node();
@@ -668,7 +668,7 @@ public void setRotation(Quaternion value)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Quaternion](../../com.aspose.threed/quaternion) | नई मान **Example:** |
+|  | value | [Quaternion](../../com.aspose.threed/quaternion) | नया मान **Example:** |
 
 ```
 Node node = new Node();
@@ -704,7 +704,7 @@ public void setRotationOffset(Vector3 value)
 ```
 
 
-रोटेशन ऑफसेट को सेट करता है
+रोटेशन ऑफसेट सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -717,7 +717,7 @@ public void setRotationPivot(Vector3 value)
 ```
 
 
-रोटेशन पिवट को सेट करता है
+रोटेशन पिवट सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -752,12 +752,12 @@ public void setScaling(Vector3 value)
 ```
 
 
-स्केलिंग को सेट करता है
+स्केलिंग सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | नई मान **Example:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | नया मान **Example:** |
 
 ```
 Node node = new Node();
@@ -770,7 +770,7 @@ public void setScalingOffset(Vector3 value)
 ```
 
 
-स्केलिंग ऑफसेट को सेट करता है
+स्केलिंग ऑफसेट सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -783,7 +783,7 @@ public void setScalingPivot(Vector3 value)
 ```
 
 
-स्केलिंग पिवट को सेट करता है
+स्केलिंग पिवट सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -796,12 +796,12 @@ public void setTransformMatrix(Matrix4 value)
 ```
 
 
-ट्रांसफ़ॉर्म मैट्रिक्स को सेट करता है।
+ट्रांसफ़ॉर्म मैट्रिक्स सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Matrix4](../../com.aspose.threed/matrix4) | नया मान **Remarks:** इस पर असाइन करने से [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) और [getRotation](../../com.aspose.threed/transform\#getRotation) रीसेट हो जाएंगे, जबकि [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) और [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) प्रभावित नहीं होंगे। **Example:** |
+|  | value | [Matrix4](../../com.aspose.threed/matrix4) | नया मान **Remarks:** इस पर असाइन करने से [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) और [getRotation](../../com.aspose.threed/transform\#getRotation), [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) और [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) प्रभावित नहीं होंगे। **Example:** |
 
 ```
 Node node = new Node();
@@ -814,12 +814,12 @@ public void setTranslation(Vector3 value)
 ```
 
 
-ट्रांसलेशन को सेट करता है
+ट्रांसलेशन सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | value | [Vector3](../../com.aspose.threed/vector3) | नई मान **Example:** |
+|  | value | [Vector3](../../com.aspose.threed/vector3) | नया मान **Example:** |
 
 ```
 Node node = new Node();

@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.ClassType"
-second_title: "Aspose.3D for Java API Reference"
-description: "मेटाडेटा में वर्ग परिभाषा"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "मेटाडेटा में क्लास परिभाषा"
 type: docs
 weight: 10
 url: /hi/java/com.aspose.threed/structuralmetadata.classtype/
@@ -13,10 +13,10 @@ java.lang.Object
 public static class StructuralMetadata.ClassType
 ```
 
-मेटाडेटा में वर्ग परिभाषा
-## कंस्ट्रक्टर
+मेटाडेटा में क्लास परिभाषा
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [ClassType(String name, String displayName, String description, ArrayList<StructuralMetadata.Property> properties)](#ClassType-java.lang.String-java.lang.String-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.Property--) | क्लास परिभाषा का कंस्ट्रक्टर |
 ## विधियाँ
@@ -36,14 +36,14 @@ public static class StructuralMetadata.ClassType
 | [getClass()](#getClass--) |  |
 | [getDescription()](#getDescription--) | क्लास का विवरण |
 | [getDisplayName()](#getDisplayName--) | क्लास का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है |
-| [getName()](#getName--) | क्लास का विशिष्ट नाम |
-| [getProperties()](#getProperties--) | इस क्लास में परिभाषित प्रॉपर्टीज़. |
+| [getName()](#getName--) | क्लास का अद्वितीय नाम |
+| [getProperties()](#getProperties--) | इस क्लास में परिभाषित प्रॉपर्टीज़। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDescription(String value)](#setDescription-java.lang.String-) | क्लास का विवरण |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | क्लास का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है |
-| [toString()](#toString--) | इस इंस्टेंस का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
+| [toString()](#toString--) | इस उदाहरण का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -58,7 +58,7 @@ public ClassType(String name, String displayName, String description, ArrayList<
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| नाम | java.lang.String | क्लास का विशिष्ट नाम |
+| नाम | java.lang.String | क्लास का अद्वितीय नाम |
 | displayName | java.lang.String | क्लास का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है |
 | description | java.lang.String | क्लास का विवरण |
 | प्रॉपर्टीज़ | java.util.ArrayList<com.aspose.threed.StructuralMetadata.Property> | इस क्लास में परिभाषित प्रॉपर्टीज़ |
@@ -89,7 +89,7 @@ public StructuralMetadata.Property addProperty(String name, StructuralMetadata.E
 | --- | --- | --- |
 | नाम | java.lang.String |  |
 | type | [EnumType](../../com.aspose.threed/enumtype) |  |
-| एरे | boolean |  |
+| ऐरे | boolean |  |
 
 **Returns:**
 [Property](../../com.aspose.threed/property)
@@ -106,7 +106,7 @@ public StructuralMetadata.Property addProperty(String name, StructuralMetadata.E
 | --- | --- | --- |
 | नाम | java.lang.String |  |
 | type | [EnumType](../../com.aspose.threed/enumtype) |  |
-| एरे | boolean |  |
+| ऐरे | boolean |  |
 | गणना | java.lang.Integer |  |
 
 **Returns:**
@@ -142,7 +142,7 @@ public StructuralMetadata.Property addProperty(String name, String displayName, 
 | displayName | java.lang.String |  |
 | description | java.lang.String |  |
 | type | [EnumType](../../com.aspose.threed/enumtype) |  |
-| एरे | boolean |  |
+| ऐरे | boolean |  |
 
 **Returns:**
 [Property](../../com.aspose.threed/property)
@@ -161,7 +161,7 @@ public StructuralMetadata.Property addProperty(String name, String displayName, 
 | displayName | java.lang.String |  |
 | description | java.lang.String |  |
 | type | [EnumType](../../com.aspose.threed/enumtype) |  |
-| एरे | boolean |  |
+| ऐरे | boolean |  |
 | गणना | java.lang.Integer |  |
 
 **Returns:**
@@ -274,20 +274,20 @@ public String getName()
 ```
 
 
-क्लास का विशिष्ट नाम
+क्लास का अद्वितीय नाम
 
 **Returns:**
-java.lang.String - क्लास का विशिष्ट नाम
+java.lang.String - क्लास का अद्वितीय नाम
 ### getProperties() {#getProperties--}
 ```
 public List<StructuralMetadata.Property> getProperties()
 ```
 
 
-इस क्लास में परिभाषित प्रॉपर्टीज़.
+इस क्लास में परिभाषित प्रॉपर्टीज़।
 
 **Returns:**
-java.util.List<com.aspose.threed.StructuralMetadata.Property> - इस क्लास में परिभाषित प्रॉपर्टीज़.
+java.util.List<com.aspose.threed.StructuralMetadata.Property> - इस क्लास में परिभाषित प्रॉपर्टीज़।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -346,7 +346,7 @@ public String toString()
 ```
 
 
-इस इंस्टेंस का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है।
+इस उदाहरण का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है।
 
 **Returns:**
 java.lang.String

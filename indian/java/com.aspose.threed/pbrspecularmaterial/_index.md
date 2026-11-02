@@ -1,7 +1,7 @@
 ---
 title: "PbrSpecularMaterial"
-second_title: "Aspose.3D for Java API Reference"
-description: "डिफ्यूज़ रंग/स्पेक्यूलर/ग्लॉसिनेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए सामग्री।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "डिफ्यूज़ रंग/स्पेक्युलर/ग्लॉसिनेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए सामग्री।"
 type: docs
 weight: 122
 url: /hi/java/com.aspose.threed/pbrspecularmaterial/
@@ -13,21 +13,21 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrSpecularMaterial extends Material
 ```
 
-डिफ्यूज़ रंग/स्पेक्यूलर/ग्लॉसिनेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए सामग्री।
-## कंस्ट्रक्टर
+डिफ्यूज़ रंग/स्पेक्युलर/ग्लॉसिनेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए सामग्री।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [PbrSpecularMaterial()](#PbrSpecularMaterial--) | [PbrSpecularMaterial](../../com.aspose.threed/pbrspecularmaterial) का कंस्ट्रक्टर |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक पर्यावरणीय टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक उत्सर्जक टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_NORMAL](#MAP-NORMAL) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक सामान्य टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_SPECULAR](#MAP-SPECULAR) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए। |
+| [MAP_AMBIENT](#MAP-AMBIENT) | एक ambient टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | एक diffuse टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | एक emissive टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_NORMAL](#MAP-NORMAL) | एक normal टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_SPECULAR](#MAP-SPECULAR) | एक specular टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
 | [MAP_SPECULAR_GLOSSINESS](#MAP-SPECULAR-GLOSSINESS) | स्पेक्युलर ग्लॉसिनेस के लिए टेक्सचर मैप |
 ## विधियाँ
 
@@ -50,7 +50,7 @@ public class PbrSpecularMaterial extends Material
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | निर्दिष्ट स्लॉट से टेक्सचर प्राप्त करता है, यह सामग्री की प्रॉपर्टी नाम या शेडर के पैरामीटर नाम हो सकता है। |
 | [getTransparency()](#getTransparency--) | पारदर्शिता कारक प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एन्यूमरेटर प्राप्त करता है। |
+| [iterator()](#iterator--) | आंतरिक टेक्सचर स्लॉट्स को एने्यूमरेट करने के लिए एने्यूरेटर प्राप्त करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
@@ -59,13 +59,13 @@ public class PbrSpecularMaterial extends Material
 | [setDiffuseTexture(TextureBase value)](#setDiffuseTexture-com.aspose.threed.TextureBase-) | डिफ्यूज़ के लिए टेक्सचर सेट करता है |
 | [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | एमिसिव रंग सेट करता है, डिफ़ॉल्ट मान (0, 0, 0) है |
 | [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | इमिसिव के लिए टेक्सचर सेट करता है |
-| [setGlossinessFactor(double value)](#setGlossinessFactor-double-) | सामग्री की चमक (स्मूदनेस) सेट करता है, 1 का मतलब पूरी तरह स्मूद और 0 का मतलब पूरी तरह रफ़ है, डिफ़ॉल्ट मान 1 है, रेंज [0, 1] है |
+| [setGlossinessFactor(double value)](#setGlossinessFactor-double-) | सामग्री की चमक (समतलता) सेट करता है, 1 का मतलब पूरी तरह स्मूद और 0 का मतलब पूरी तरह खुरदुरा है, डिफ़ॉल्ट मान 1 है, रेंज [0, 1] है |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | नॉर्मल मैपिंग का टेक्सचर सेट करता है |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setSpecular(Vector3 value)](#setSpecular-com.aspose.threed.Vector3-) | सामग्री का स्पेक्युलर रंग सेट करता है, डिफ़ॉल्ट मान (1, 1, 1) है। |
-| [setSpecularGlossinessTexture(TextureBase value)](#setSpecularGlossinessTexture-com.aspose.threed.TextureBase-) | स्पेक्युलर रंग के लिए टेक्सचर सेट करता है, चैनल RGB स्पेक्युलर रंग संग्रहीत करता है और चैनल A चमक संग्रहीत करता है। |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | निर्दिष्ट स्लॉट में टेक्सचर सेट करता है |
+| [setSpecular(Vector3 value)](#setSpecular-com.aspose.threed.Vector3-) | सामग्री का स्पेक्यूलर रंग सेट करता है, डिफ़ॉल्ट मान (1, 1, 1) है। |
+| [setSpecularGlossinessTexture(TextureBase value)](#setSpecularGlossinessTexture-com.aspose.threed.TextureBase-) | स्पेक्यूलर रंग के लिए टेक्सचर सेट करता है, चैनल RGB स्पेक्यूलर रंग संग्रहीत करता है और चैनल A चमक को संग्रहीत करता है। |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है |
 | [setTransparency(double value)](#setTransparency-double-) | पारदर्शिता कारक सेट करता है। |
 | [toString()](#toString--) | ऑब्जेक्ट को स्ट्रिंग में फ़ॉर्मेट करता है |
 | [wait()](#wait--) |  |
@@ -85,7 +85,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक पर्यावरणीय टेक्सचर मैपिंग असाइन करने के लिए।
+एक ambient टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -93,7 +93,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए।
+एक diffuse टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -101,7 +101,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक उत्सर्जक टेक्सचर मैपिंग असाइन करने के लिए।
+एक emissive टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -109,7 +109,7 @@ public static final String MAP_NORMAL
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक सामान्य टेक्सचर मैपिंग असाइन करने के लिए।
+एक normal टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -117,7 +117,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए।
+एक specular टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_SPECULAR_GLOSSINESS {#MAP-SPECULAR-GLOSSINESS}
 ```
@@ -148,7 +148,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -216,7 +216,7 @@ public double getGlossinessFactor()
 सामग्री की ग्लॉसिनेस (स्मूदनेस) प्राप्त करता है, 1 का मतलब पूरी तरह स्मूद और 0 का मतलब पूरी तरह रफ़ है, डिफ़ॉल्ट मान 1 है, रेंज [0, 1] है
 
 **Returns:**
-डबल - सामग्री की चमक (स्मूदनेस), 1 का मतलब पूरी तरह स्मूद और 0 का मतलब पूरी तरह रफ़ है, डिफ़ॉल्ट मान 1 है, रेंज [0, 1] है
+डबल - सामग्री की चमक (समतलता), 1 का मतलब पूरी तरह स्मूद और 0 का मतलब पूरी तरह खुरदुरा है, डिफ़ॉल्ट मान 1 है, रेंज [0, 1] है
 ### getName() {#getName--}
 ```
 public String getName()
@@ -311,10 +311,10 @@ public double getTransparency()
 ```
 
 
-पारदर्शिता कारक प्राप्त करता है। कारक 0 (0%, पूरी तरह अपारदर्शी) से 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
+पारदर्शिता कारक प्राप्त करता है। कारक 0 (0%, पूरी तरह अपारदर्शी) और 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
 
 **Returns:**
-double - पारदर्शिता कारक। कारक 0 (0%, पूरी तरह अपारदर्शी) से 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
+double - पारदर्शिता कारक। कारक 0 (0%, पूरी तरह अपारदर्शी) और 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -331,7 +331,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एन्यूमरेटर प्राप्त करता है।
+आंतरिक टेक्सचर स्लॉट्स को एने्यूमरेट करने के लिए एने्यूरेटर प्राप्त करता है।
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -439,7 +439,7 @@ public void setGlossinessFactor(double value)
 ```
 
 
-सामग्री की चमक (स्मूदनेस) सेट करता है, 1 का मतलब पूरी तरह स्मूद और 0 का मतलब पूरी तरह रफ़ है, डिफ़ॉल्ट मान 1 है, रेंज [0, 1] है
+सामग्री की चमक (समतलता) सेट करता है, 1 का मतलब पूरी तरह स्मूद और 0 का मतलब पूरी तरह खुरदुरा है, डिफ़ॉल्ट मान 1 है, रेंज [0, 1] है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -492,7 +492,7 @@ public void setSpecular(Vector3 value)
 ```
 
 
-सामग्री का स्पेक्युलर रंग सेट करता है, डिफ़ॉल्ट मान (1, 1, 1) है।
+सामग्री का स्पेक्यूलर रंग सेट करता है, डिफ़ॉल्ट मान (1, 1, 1) है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -505,7 +505,7 @@ public void setSpecularGlossinessTexture(TextureBase value)
 ```
 
 
-स्पेक्युलर रंग के लिए टेक्सचर सेट करता है, चैनल RGB स्पेक्युलर रंग संग्रहीत करता है और चैनल A चमक संग्रहीत करता है।
+स्पेक्यूलर रंग के लिए टेक्सचर सेट करता है, चैनल RGB स्पेक्यूलर रंग संग्रहीत करता है और चैनल A चमक को संग्रहीत करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -518,7 +518,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-निर्दिष्ट स्लॉट में टेक्सचर सेट करता है
+टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -539,7 +539,7 @@ public void setTransparency(double value)
 ```
 
 
-पारदर्शिता कारक सेट करता है। कारक 0 (0%, पूरी तरह अपारदर्शी) से 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
+पारदर्शिता कारक सेट करता है। कारक 0 (0%, पूरी तरह अपारदर्शी) और 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
