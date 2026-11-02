@@ -1,7 +1,7 @@
 ---
 title: "PushConstant"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een hulpprogramma om gegevens aan de shader te leveren via een push-constante."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een hulpprogramma om gegevens aan de shader te leveren via push-constante."
 type: docs
 weight: 141
 url: /nl/java/com.aspose.threed/pushconstant/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PushConstant
 ```
 
-Een hulpprogramma om gegevens aan de shader te leveren via een push-constante.
+Een hulpprogramma om gegevens aan de shader te leveren via push-constante.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -23,7 +23,7 @@ Een hulpprogramma om gegevens aan de shader te leveren via een push-constante.
 
 | Methode | Beschrijving |
 | --- | --- |
-| [commit(int stage, ICommandList commandList)](#commit-int-com.aspose.threed.ICommandList-) | Commit voorbereide gegevens naar de grafische pijplijn. |
+| [commit(int stage, ICommandList commandList)](#commit-int-com.aspose.threed.ICommandList-) | Commit voorbereide data naar de grafische pijplijn. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -33,12 +33,12 @@ Een hulpprogramma om gegevens aan de shader te leveren via een push-constante.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [write(FMatrix4 mat)](#write-com.aspose.threed.FMatrix4-) | Schrijf de matrix naar de constante. |
-| [write(FVector3 vec)](#write-com.aspose.threed.FVector3-) | Schrijf een 3-componenten vector naar de constante. |
-| [write(FVector4 vec)](#write-com.aspose.threed.FVector4-) | Schrijf een 4-componenten vector naar de constante. |
-| [write(float f)](#write-float-) | Schrijf een float-waarde naar de constante. |
-| [write(float x, float y, float z, float w)](#write-float-float-float-float-) | Schrijf een 4-componenten vector naar de constante. |
-| [write(int n)](#write-int-) | Schrijf een int-waarde naar de constante. |
+| [write(FMatrix4 mat)](#write-com.aspose.threed.FMatrix4-) | Schrijf de matrix naar de constante |
+| [write(FVector3 vec)](#write-com.aspose.threed.FVector3-) | Schrijf een 3-componentenvector naar de constante |
+| [write(FVector4 vec)](#write-com.aspose.threed.FVector4-) | Schrijf een 4-componentenvector naar de constante |
+| [write(float f)](#write-float-) | Schrijf een float-waarde naar de constante |
+| [write(float x, float y, float z, float w)](#write-float-float-float-float-) | Schrijf een 4-componentenvector naar de constante |
+| [write(int n)](#write-int-) | Schrijf een int-waarde naar de constante |
 ### PushConstant() {#PushConstant--}
 ```
 public PushConstant()
@@ -53,7 +53,7 @@ public PushConstant commit(int stage, ICommandList commandList)
 ```
 
 
-Commit voorbereide gegevens naar de grafische pijplijn.
+Commit voorbereide data naar de grafische pijplijn.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -165,7 +165,7 @@ public PushConstant write(FMatrix4 mat)
 ```
 
 
-Schrijf de matrix naar de constante.
+Schrijf de matrix naar de constante
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -180,7 +180,7 @@ public PushConstant write(FVector3 vec)
 ```
 
 
-Schrijf een 3-componenten vector naar de constante.
+Schrijf een 3-componentenvector naar de constante
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -195,7 +195,7 @@ public PushConstant write(FVector4 vec)
 ```
 
 
-Schrijf een 4-componenten vector naar de constante.
+Schrijf een 4-componentenvector naar de constante
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -210,7 +210,7 @@ public PushConstant write(float f)
 ```
 
 
-Schrijf een float-waarde naar de constante.
+Schrijf een float-waarde naar de constante
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -225,7 +225,7 @@ public PushConstant write(float x, float y, float z, float w)
 ```
 
 
-Schrijf een 4-componenten vector naar de constante.
+Schrijf een 4-componentenvector naar de constante
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -243,7 +243,7 @@ public PushConstant write(int n)
 ```
 
 
-Schrijf een int-waarde naar de constante.
+Schrijf een int-waarde naar de constante
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

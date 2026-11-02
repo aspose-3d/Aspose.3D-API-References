@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Informatie van asset."
 type: docs
 weight: 17
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AssetInfo extends A3DObject
 ```
 
-Informatie van asset. Assetinformatie kan worden gekoppeld aan een [Scene](../../com.aspose.threed/scene). Een onderliggende [Scene](../../com.aspose.threed/scene) kan zijn eigen [AssetInfo](../../com.aspose.threed/assetinfo) hebben om de definitie van de ouder te overschrijven. **Voorbeeld:** De volgende code laat zien hoe assetinformatie uit een fbx‑bestand kan worden gelezen:
+Informatie van het asset. Assetinformatie kan worden gekoppeld aan een [Scene](../../com.aspose.threed/scene). Een onderliggende [Scene](../../com.aspose.threed/scene) kan zijn eigen [AssetInfo](../../com.aspose.threed/assetinfo) hebben om de definitie van de ouder te overschrijven. **Voorbeeld:** De volgende code toont hoe assetinformatie uit een fbx-bestand kan worden gelezen:
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -36,53 +36,53 @@ Scene scene = Scene.fromFile("test.fbx");
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
 | [getAmbient()](#getAmbient--) | Haalt op of stelt de standaard omgevingskleur van dit asset in. |
 | [getApplicationName()](#getApplicationName--) | Haalt de applicatie op die dit asset heeft gemaakt. |
-| [getApplicationVendor()](#getApplicationVendor--) | Haalt de naam van de leverancier van de applicatie op. |
+| [getApplicationVendor()](#getApplicationVendor--) | Haalt de naam van de applicatieleverancier op. |
 | [getApplicationVersion()](#getApplicationVersion--) | Haalt de versie van de applicatie op die dit asset heeft gemaakt. |
 | [getAuthor()](#getAuthor--) | Haalt de auteur van dit asset op. |
-| [getAxisSystem()](#getAxisSystem--) | Haalt het coördinatensysteem/up‑vector/front‑vector van de assetinformatie op. |
+| [getAxisSystem()](#getAxisSystem--) | Haalt het coördinatensysteem/up-vector/front-vector van de assetinformatie op. |
 | [getClass()](#getClass--) |  |
 | [getComment()](#getComment--) | Haalt de opmerking van dit asset op. |
-| [getCoordinateSystem()](#getCoordinateSystem--) | Haalt het coördinatensysteem op dat in dit asset wordt gebruikt. |
+| [getCoordinateSystem()](#getCoordinateSystem--) | Haalt het gebruikte coördinatensysteem in dit asset op. |
 | [getCopyright()](#getCopyright--) | Haalt het auteursrecht van het document op. |
 | [getCreationTime()](#getCreationTime--) | Haalt op of stelt de creatietijd van dit asset in |
 | [getFrontVector()](#getFrontVector--) | Haalt de front-vector op die in dit asset wordt gebruikt. |
 | [getKeywords()](#getKeywords--) | Haalt de trefwoorden van dit asset op |
 | [getModificationTime()](#getModificationTime--) | Haalt op of stelt de wijzigingstijd van dit asset in |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getRevision()](#getRevision--) | Haalt het revisienummer van dit asset op, meestal gebruikt in versiebeheersystemen. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getRevision()](#getRevision--) | Haalt het revisienummer van dit asset op, meestal gebruikt in een versiebeheersysteem. |
 | [getSubject()](#getSubject--) | Haalt het onderwerp van dit asset op |
 | [getTitle()](#getTitle--) | Haalt de titel van dit asset op |
-| [getUnitName()](#getUnitName--) | Haalt de eenheid van lengte die in dit asset wordt gebruikt op. |
-| [getUnitScaleFactor()](#getUnitScaleFactor--) | Haalt de schaalfactor naar de echte meter op. |
+| [getUnitName()](#getUnitName--) | Haalt de lengteeenheid op die in dit asset wordt gebruikt. |
+| [getUnitScaleFactor()](#getUnitScaleFactor--) | Haalt de schaalfactor naar echte meters op. |
 | [getUpVector()](#getUpVector--) | Haalt de up-vector op die in dit asset wordt gebruikt. |
 | [getUrl()](#getUrl--) | Haalt op of stelt de URL van dit asset in. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setAmbient(Vector4 value)](#setAmbient-com.aspose.threed.Vector4-) | Haalt op of stelt de standaard omgevingskleur van dit asset in. |
-| [setApplicationName(String value)](#setApplicationName-java.lang.String-) | Stelt de applicatie in die dit asset heeft gemaakt. |
-| [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | Stelt de naam van de applicatieleverancier in. |
+| [setApplicationName(String value)](#setApplicationName-java.lang.String-) | Stelt de applicatie in die dit asset heeft gemaakt |
+| [setApplicationVendor(String value)](#setApplicationVendor-java.lang.String-) | Stelt de naam van de applicatieleverancier in |
 | [setApplicationVersion(String value)](#setApplicationVersion-java.lang.String-) | Stelt de versie van de applicatie in die dit asset heeft gemaakt. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Stelt de auteur van dit asset in. |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Stelt de auteur van dit asset in |
 | [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | Stelt het coördinatensysteem/up-vector/front-vector van de assetinformatie in. |
 | [setComment(String value)](#setComment-java.lang.String-) | Stelt de opmerking van dit asset in. |
 | [setCoordinateSystem(CoordinateSystem value)](#setCoordinateSystem-com.aspose.threed.CoordinateSystem-) | Stelt het coördinatensysteem in dat in dit asset wordt gebruikt. |
-| [setCopyright(String value)](#setCopyright-java.lang.String-) | Stelt het auteursrecht van het document in. |
+| [setCopyright(String value)](#setCopyright-java.lang.String-) | Stelt het auteursrecht van het document in |
 | [setCreationTime(Calendar value)](#setCreationTime-java.util.Calendar-) | Haalt op of stelt de creatietijd van dit asset in |
 | [setFrontVector(Axis value)](#setFrontVector-com.aspose.threed.Axis-) | Stelt de front-vector in die in dit asset wordt gebruikt. |
-| [setKeywords(String value)](#setKeywords-java.lang.String-) | Stelt de trefwoorden van dit asset in. |
+| [setKeywords(String value)](#setKeywords-java.lang.String-) | Stelt de trefwoorden van dit asset in |
 | [setModificationTime(Calendar value)](#setModificationTime-java.util.Calendar-) | Haalt op of stelt de wijzigingstijd van dit asset in |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setRevision(String value)](#setRevision-java.lang.String-) | Stelt het revisienummer van dit asset in, meestal gebruikt in versiebeheersystemen. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Stelt het onderwerp van dit asset in. |
-| [setTitle(String value)](#setTitle-java.lang.String-) | Stelt de titel van dit asset in. |
-| [setUnitName(String value)](#setUnitName-java.lang.String-) | Stelt de eenheid van lengte in die in dit asset wordt gebruikt. |
-| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | Stelt de schaalfactor in op echte meter. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setRevision(String value)](#setRevision-java.lang.String-) | Stelt het revisienummer van dit asset in, meestal gebruikt in een versiebeheersysteem. |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Stelt het onderwerp van dit asset in |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Stelt de titel van dit asset in |
+| [setUnitName(String value)](#setUnitName-java.lang.String-) | Stelt de lengteeenheid in die in dit asset wordt gebruikt. |
+| [setUnitScaleFactor(double value)](#setUnitScaleFactor-double-) | Stelt de schaalfactor in op de reële meter. |
 | [setUpVector(Axis value)](#setUpVector-com.aspose.threed.Axis-) | Stelt de up-vector in die in dit asset wordt gebruikt. |
 | [setUrl(String value)](#setUrl-java.lang.String-) | Haalt op of stelt de URL van dit asset in. |
 | [toString()](#toString--) |  |
@@ -136,7 +136,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -166,10 +166,10 @@ public String getApplicationVendor()
 ```
 
 
-Haalt de naam van de leverancier van de applicatie op.
+Haalt de naam van de applicatieleverancier op.
 
 **Returns:**
-java.lang.String - de naam van de leverancier van de applicatie
+java.lang.String - de naam van de applicatieleverancier
 ### getApplicationVersion() {#getApplicationVersion--}
 ```
 public String getApplicationVersion()
@@ -196,7 +196,7 @@ public AxisSystem getAxisSystem()
 ```
 
 
-Haalt het coördinatensysteem/up‑vector/front‑vector van de assetinformatie op.
+Haalt het coördinatensysteem/up-vector/front-vector van de assetinformatie op.
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - the coordinate system/up vector/front vector of the asset info.
@@ -226,7 +226,7 @@ public CoordinateSystem getCoordinateSystem()
 ```
 
 
-Haalt het coördinatensysteem op dat in dit asset wordt gebruikt.
+Haalt het gebruikte coördinatensysteem in dit asset op.
 
 **Returns:**
 [CoordinateSystem](../../com.aspose.threed/coordinatesystem) - the coordinate system used in this asset.
@@ -239,7 +239,7 @@ public String getCopyright()
 Haalt het auteursrecht van het document op.
 
 **Returns:**
-java.lang.String - het auteursrecht van het document
+java.lang.String - het copyright van het document
 ### getCreationTime() {#getCreationTime--}
 ```
 public Calendar getCreationTime()
@@ -249,7 +249,7 @@ public Calendar getCreationTime()
 Haalt op of stelt de creatietijd van dit asset in
 
 **Returns:**
-java.util.Calendar - of stelt de creatietijd van dit asset in
+java.util.Calendar - of Stelt de aanmaaktijd van dit asset in
 ### getFrontVector() {#getFrontVector--}
 ```
 public Axis getFrontVector()
@@ -279,7 +279,7 @@ public Calendar getModificationTime()
 Haalt op of stelt de wijzigingstijd van dit asset in
 
 **Returns:**
-java.util.Calendar - of stelt de wijzigingstijd van dit asset in
+java.util.Calendar - of Stelt de wijzigingstijd van dit asset in
 ### getName() {#getName--}
 ```
 public String getName()
@@ -296,7 +296,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -306,12 +306,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -321,7 +321,7 @@ public String getRevision()
 ```
 
 
-Haalt het revisienummer van dit asset op, meestal gebruikt in versiebeheersystemen.
+Haalt het revisienummer van dit asset op, meestal gebruikt in een versiebeheersysteem.
 
 **Returns:**
 java.lang.String - het revisienummer van dit asset, meestal gebruikt in versiebeheersystemen.
@@ -361,10 +361,10 @@ public double getUnitScaleFactor()
 ```
 
 
-Haalt de schaalfactor naar de echte meter op.
+Haalt de schaalfactor naar echte meters op.
 
 **Returns:**
-double - de schaalfactor naar echte meter. **Opmerkingen:** Dit wordt genegeerd tijdens serialisatie als de eenheidsnaam null is.
+double - de schaalfactor naar de reële meter. **Remarks:** Dit wordt genegeerd tijdens serialisatie als de eenheidsnaam null is.
 ### getUpVector() {#getUpVector--}
 ```
 public Axis getUpVector()
@@ -384,7 +384,7 @@ public String getUrl()
 Haalt op of stelt de URL van dit asset in.
 
 **Returns:**
-java.lang.String - of stelt de URL van dit asset in.
+java.lang.String - of Stelt de URL van dit asset in.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -432,7 +432,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -460,7 +460,7 @@ public void setApplicationName(String value)
 ```
 
 
-Stelt de applicatie in die dit asset heeft gemaakt.
+Stelt de applicatie in die dit asset heeft gemaakt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -473,7 +473,7 @@ public void setApplicationVendor(String value)
 ```
 
 
-Stelt de naam van de applicatieleverancier in.
+Stelt de naam van de applicatieleverancier in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -499,7 +499,7 @@ public void setAuthor(String value)
 ```
 
 
-Stelt de auteur van dit asset in.
+Stelt de auteur van dit asset in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -551,7 +551,7 @@ public void setCopyright(String value)
 ```
 
 
-Stelt het auteursrecht van het document in.
+Stelt het auteursrecht van het document in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -590,7 +590,7 @@ public void setKeywords(String value)
 ```
 
 
-Stelt de trefwoorden van dit asset in.
+Stelt de trefwoorden van dit asset in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -629,12 +629,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setRevision(String value) {#setRevision-java.lang.String-}
@@ -643,7 +643,7 @@ public void setRevision(String value)
 ```
 
 
-Stelt het revisienummer van dit asset in, meestal gebruikt in versiebeheersystemen.
+Stelt het revisienummer van dit asset in, meestal gebruikt in een versiebeheersysteem.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -656,7 +656,7 @@ public void setSubject(String value)
 ```
 
 
-Stelt het onderwerp van dit asset in.
+Stelt het onderwerp van dit asset in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -669,7 +669,7 @@ public void setTitle(String value)
 ```
 
 
-Stelt de titel van dit asset in.
+Stelt de titel van dit asset in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -695,12 +695,12 @@ public void setUnitScaleFactor(double value)
 ```
 
 
-Stelt de schaalfactor in op echte meter.
+Stelt de schaalfactor in op de reële meter.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| waarde | double | Nieuwe waarde **Opmerkingen:** Dit wordt genegeerd tijdens serialisatie als de eenheidsnaam null is. |
+| waarde | double | Nieuwe waarde **Remarks:** Dit wordt genegeerd tijdens serialisatie als de eenheidsnaam null is. |
 
 ### setUpVector(Axis value) {#setUpVector-com.aspose.threed.Axis-}
 ```

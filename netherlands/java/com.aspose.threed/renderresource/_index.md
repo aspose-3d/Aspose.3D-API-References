@@ -1,6 +1,6 @@
 ---
 title: "RenderResource"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De abstracte klasse van alle renderresources  Alle renderresources worden vrijgegeven wanneer de renderer wordt vrijgelaten."
 type: docs
 weight: 150

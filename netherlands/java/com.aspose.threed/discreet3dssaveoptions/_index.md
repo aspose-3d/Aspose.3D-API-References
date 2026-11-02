@@ -1,6 +1,6 @@
 ---
 title: "Discreet3dsSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Opslagopties voor 3DS-bestand."
 type: docs
 weight: 44
@@ -25,40 +25,40 @@ Opslagopties voor 3DS-bestand.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDuplicatedNameCounterBase()](#getDuplicatedNameCounterBase--) | De teller die wordt gebruikt bij het genereren van een nieuwe naam voor gedupliceerde namen, standaardwaarde is 2. |
-| [getDuplicatedNameCounterFormat()](#getDuplicatedNameCounterFormat--) | Het formaat van de gedupliceerde teller, standaardwaarde is een lege tekenreeks. |
-| [getDuplicatedNameSeparator()](#getDuplicatedNameSeparator--) | De scheidingsteken tussen de naam van het object en de gedupliceerde teller, standaardwaarde is "\_". |
+| [getDuplicatedNameCounterBase()](#getDuplicatedNameCounterBase--) | De teller die wordt gebruikt bij het genereren van een nieuwe naam voor dubbele namen, standaardwaarde is 2. |
+| [getDuplicatedNameCounterFormat()](#getDuplicatedNameCounterFormat--) | Het formaat van de dubbele teller, standaardwaarde is een lege tekenreeks. |
+| [getDuplicatedNameSeparator()](#getDuplicatedNameSeparator--) | De scheidingsteken tussen de naam van het object en de dubbele teller, standaardwaarde is "\_". |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportCamera()](#getExportCamera--) | Geeft aan of alle camera's in de scène geëxporteerd moeten worden. |
-| [getExportLight()](#getExportLight--) | Geeft aan of alle lichten in de scène geëxporteerd moeten worden. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportCamera()](#getExportCamera--) | Geeft aan of alle camera's in de scène worden geëxporteerd. |
+| [getExportLight()](#getExportLight--) | Geeft aan of alle lichten in de scène worden geëxporteerd. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
 | [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Haalt het omkeren van het coördinatensysteem van controlepunten/normaal op tijdens importeren/exporteren. |
-| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als dit op true wordt gezet, wordt de gamma-gecorrigeerde kleur gebruikt indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken. |
-| [getHighPreciseColor()](#getHighPreciseColor--) | Als dit true is, zal het gegenereerde 3ds-bestand een zeer precieze kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32-bit float is. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [getMasterScale()](#getMasterScale--) | Haalt de master-schaal op die bij het exporteren wordt gebruikt. |
+| [getGammaCorrectedColor()](#getGammaCorrectedColor--) | Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten, het instellen hiervan op true zal de gamma-gecorrigeerde kleur gebruiken indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken. |
+| [getHighPreciseColor()](#getHighPreciseColor--) | Als dit true is, zal het gegenereerde 3ds-bestand een zeer nauwkeurige kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32bit float is. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [getMasterScale()](#getMasterScale--) | Geeft de hoofdschaling terug die wordt gebruikt bij het exporteren. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDuplicatedNameCounterBase(int value)](#setDuplicatedNameCounterBase-int-) | De teller die wordt gebruikt bij het genereren van een nieuwe naam voor gedupliceerde namen, standaardwaarde is 2. |
-| [setDuplicatedNameCounterFormat(String value)](#setDuplicatedNameCounterFormat-java.lang.String-) | Het formaat van de gedupliceerde teller, standaardwaarde is een lege tekenreeks. |
-| [setDuplicatedNameSeparator(String value)](#setDuplicatedNameSeparator-java.lang.String-) | De scheidingsteken tussen de naam van het object en de gedupliceerde teller, standaardwaarde is "\_". |
+| [setDuplicatedNameCounterBase(int value)](#setDuplicatedNameCounterBase-int-) | De teller die wordt gebruikt bij het genereren van een nieuwe naam voor dubbele namen, standaardwaarde is 2. |
+| [setDuplicatedNameCounterFormat(String value)](#setDuplicatedNameCounterFormat-java.lang.String-) | Het formaat van de dubbele teller, standaardwaarde is een lege tekenreeks. |
+| [setDuplicatedNameSeparator(String value)](#setDuplicatedNameSeparator-java.lang.String-) | De scheidingsteken tussen de naam van het object en de dubbele teller, standaardwaarde is "\_". |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
 | [setExportCamera(boolean value)](#setExportCamera-boolean-) | Stelt in of alle camera's in de scène geëxporteerd moeten worden. |
 | [setExportLight(boolean value)](#setExportLight-boolean-) | Stelt in of alle lichten in de scène geëxporteerd moeten worden. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Stelt het omkeren van het coördinatensysteem van controlepunten/normaal in tijdens importeren/exporteren. |
-| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als dit op true wordt gezet, wordt de gamma-gecorrigeerde kleur gebruikt indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken. |
-| [setHighPreciseColor(boolean value)](#setHighPreciseColor-boolean-) | Als dit true is, zal het gegenereerde 3ds-bestand een zeer precieze kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32-bit float is. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [setMasterScale(double value)](#setMasterScale-double-) | Stelt de hoofdschaal in die wordt gebruikt bij het exporteren. |
+| [setGammaCorrectedColor(boolean value)](#setGammaCorrectedColor-boolean-) | Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten, het instellen hiervan op true zal de gamma-gecorrigeerde kleur gebruiken indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken. |
+| [setHighPreciseColor(boolean value)](#setHighPreciseColor-boolean-) | Als dit true is, zal het gegenereerde 3ds-bestand een zeer nauwkeurige kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32bit float is. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [setMasterScale(double value)](#setMasterScale-double-) | Stelt de hoofdschaling in die bij het exporteren wordt gebruikt. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -102,30 +102,30 @@ public int getDuplicatedNameCounterBase()
 ```
 
 
-De teller die wordt gebruikt bij het genereren van een nieuwe naam voor gedupliceerde namen, standaardwaarde is 2.
+De teller die wordt gebruikt bij het genereren van een nieuwe naam voor dubbele namen, standaardwaarde is 2.
 
 **Returns:**
-int - De teller die wordt gebruikt bij het genereren van een nieuwe naam voor gedupliceerde namen, standaardwaarde is 2.
+int - De teller die wordt gebruikt bij het genereren van een nieuwe naam voor dubbele namen, standaardwaarde is 2.
 ### getDuplicatedNameCounterFormat() {#getDuplicatedNameCounterFormat--}
 ```
 public String getDuplicatedNameCounterFormat()
 ```
 
 
-Het formaat van de gedupliceerde teller, standaardwaarde is een lege tekenreeks.
+Het formaat van de dubbele teller, standaardwaarde is een lege tekenreeks.
 
 **Returns:**
-java.lang.String - Het formaat van de gedupliceerde teller, standaardwaarde is een lege string.
+java.lang.String - Het formaat van de dubbele teller, standaardwaarde is een lege tekenreeks.
 ### getDuplicatedNameSeparator() {#getDuplicatedNameSeparator--}
 ```
 public String getDuplicatedNameSeparator()
 ```
 
 
-De scheidingsteken tussen de naam van het object en de gedupliceerde teller, standaardwaarde is "\_". Wanneer de scène objecten bevat die dezelfde naam gebruiken, zal de Aspose.3D 3DS-exporteur een andere naam voor het object genereren. Bijvoorbeeld er zijn twee knooppunten met de naam "Box", het eerste knooppunt krijgt de naam "Box", en het tweede knooppunt krijgt een nieuwe naam "Box\_2" met de standaardconfiguratie.
+De scheidingsteken tussen de naam van een object en de dubbele teller, standaardwaarde is "\_". Wanneer de scène objecten bevat die dezelfde naam gebruiken, zal de Aspose.3D 3DS-exporteur een andere naam voor het object genereren. Bijvoorbeeld, er zijn twee knooppunten met de naam "Box", het eerste knooppunt krijgt de naam "Box", en het tweede knooppunt krijgt een nieuwe naam "Box\_2" met de standaardconfiguratie.
 
 **Returns:**
-java.lang.String - De scheidingsteken tussen de naam van het object en de gedupliceerde teller, standaardwaarde is "\_". Wanneer de scène objecten bevat die dezelfde naam gebruiken, zal de Aspose.3D 3DS-exporteur een andere naam voor het object genereren. Bijvoorbeeld er zijn twee knooppunten met de naam "Box", het eerste knooppunt krijgt de naam "Box", en het tweede knooppunt krijgt een nieuwe naam "Box\_2" met de standaardconfiguratie.
+java.lang.String - De scheidingsteken tussen de naam van een object en de dubbele teller, standaardwaarde is "\_". Wanneer de scène objecten bevat die dezelfde naam gebruiken, zal de Aspose.3D 3DS-exporteur een andere naam voor het object genereren. Bijvoorbeeld, er zijn twee knooppunten met de naam "Box", het eerste knooppunt krijgt de naam "Box", en het tweede knooppunt krijgt een nieuwe naam "Box\_2" met de standaardconfiguratie.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -142,7 +142,7 @@ public boolean getExportCamera()
 ```
 
 
-Geeft aan of alle camera's in de scène geëxporteerd moeten worden.
+Geeft aan of alle camera's in de scène worden geëxporteerd.
 
 **Returns:**
 boolean - of alle camera's in de scène geëxporteerd moeten worden.
@@ -152,7 +152,7 @@ public boolean getExportLight()
 ```
 
 
-Geeft aan of alle lichten in de scène geëxporteerd moeten worden.
+Geeft aan of alle lichten in de scène worden geëxporteerd.
 
 **Returns:**
 boolean - of alle lichten in de scène geëxporteerd moeten worden.
@@ -162,7 +162,7 @@ public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -172,7 +172,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -182,10 +182,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -226,7 +226,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -265,30 +265,30 @@ public boolean getGammaCorrectedColor()
 ```
 
 
-Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als dit op true wordt gezet, wordt de gamma-gecorrigeerde kleur gebruikt indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken.
+Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten, het instellen hiervan op true zal de gamma-gecorrigeerde kleur gebruiken indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken.
 
 **Returns:**
-boolean - Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als dit op true wordt gezet, wordt de gamma-gecorrigeerde kleur gebruikt indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken.
+boolean - Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als dit op true wordt gezet, wordt de gamma-gecorrigeerde kleur gebruikt indien mogelijk, anders zal de Aspose.3D proberen de originele kleur te gebruiken.
 ### getHighPreciseColor() {#getHighPreciseColor--}
 ```
 public boolean getHighPreciseColor()
 ```
 
 
-Als dit true is, zal het gegenereerde 3ds-bestand een zeer precieze kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32‑bit float is. Anders zal het gegenereerde bestand een 24‑bit kleur gebruiken, elk kanaal een 8‑bit byte. De standaardwaarde is false, omdat niet alle applicaties de zeer precieze kleur ondersteunen.
+Als dit true is, zal het gegenereerde 3ds-bestand een zeer nauwkeurige kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32‑bit float is. Anders zal het gegenereerde bestand een 24‑bit kleur gebruiken, waarbij elk kanaal een 8‑bit byte is. De standaardwaarde is false, omdat niet alle toepassingen de zeer nauwkeurige kleur ondersteunen.
 
 **Returns:**
-boolean - Als dit true is, zal het gegenereerde 3ds-bestand een zeer precieze kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32‑bit float is. Anders zal het gegenereerde bestand een 24‑bit kleur gebruiken, elk kanaal een 8‑bit byte. De standaardwaarde is false, omdat niet alle applicaties de zeer precieze kleur ondersteunen.
+boolean - Als dit true is, zal het gegenereerde 3ds-bestand een zeer nauwkeurige kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32‑bit float is. Anders zal het gegenereerde bestand een 24‑bit kleur gebruiken, waarbij elk kanaal een 8‑bit byte is. De standaardwaarde is false, omdat niet alle toepassingen de zeer nauwkeurige kleur ondersteunen.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -303,10 +303,10 @@ public double getMasterScale()
 ```
 
 
-Haalt de master-schaal op die bij het exporteren wordt gebruikt.
+Geeft de hoofdschaling terug die wordt gebruikt bij het exporteren.
 
 **Returns:**
-double - de hoofdschaal die wordt gebruikt bij het exporteren.
+double - de hoofdschaling die bij het exporteren wordt gebruikt.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -339,7 +339,7 @@ public void setDuplicatedNameCounterBase(int value)
 ```
 
 
-De teller die wordt gebruikt bij het genereren van een nieuwe naam voor gedupliceerde namen, standaardwaarde is 2.
+De teller die wordt gebruikt bij het genereren van een nieuwe naam voor dubbele namen, standaardwaarde is 2.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -352,7 +352,7 @@ public void setDuplicatedNameCounterFormat(String value)
 ```
 
 
-Het formaat van de gedupliceerde teller, standaardwaarde is een lege tekenreeks.
+Het formaat van de dubbele teller, standaardwaarde is een lege tekenreeks.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -365,7 +365,7 @@ public void setDuplicatedNameSeparator(String value)
 ```
 
 
-De scheidingsteken tussen de naam van het object en de gedupliceerde teller, standaardwaarde is "\_". Wanneer de scène objecten bevat die dezelfde naam gebruiken, zal de Aspose.3D 3DS-exporteur een andere naam voor het object genereren. Bijvoorbeeld er zijn twee knooppunten met de naam "Box", het eerste knooppunt krijgt de naam "Box", en het tweede knooppunt krijgt een nieuwe naam "Box\_2" met de standaardconfiguratie.
+De scheidingsteken tussen de naam van een object en de dubbele teller, standaardwaarde is "\_". Wanneer de scène objecten bevat die dezelfde naam gebruiken, zal de Aspose.3D 3DS-exporteur een andere naam voor het object genereren. Bijvoorbeeld, er zijn twee knooppunten met de naam "Box", het eerste knooppunt krijgt de naam "Box", en het tweede knooppunt krijgt een nieuwe naam "Box\_2" met de standaardconfiguratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -417,7 +417,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -430,7 +430,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -448,7 +448,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -480,7 +480,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -525,7 +525,7 @@ public void setGammaCorrectedColor(boolean value)
 ```
 
 
-Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als dit op true wordt gezet, wordt de gamma-gecorrigeerde kleur gebruikt indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken.
+Een 3ds-bestand kan originele kleur en gamma-gecorrigeerde kleur voor hetzelfde attribuut bevatten, het instellen hiervan op true zal de gamma-gecorrigeerde kleur gebruiken indien mogelijk, anders zal Aspose.3D proberen de originele kleur te gebruiken.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -538,7 +538,7 @@ public void setHighPreciseColor(boolean value)
 ```
 
 
-Als dit true is, zal het gegenereerde 3ds-bestand een zeer precieze kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32‑bit float is. Anders zal het gegenereerde bestand een 24‑bit kleur gebruiken, elk kanaal een 8‑bit byte. De standaardwaarde is false, omdat niet alle applicaties de zeer precieze kleur ondersteunen.
+Als dit true is, zal het gegenereerde 3ds-bestand een zeer nauwkeurige kleur gebruiken, wat betekent dat elk kanaal van rood/groen/blauw een 32‑bit float is. Anders zal het gegenereerde bestand een 24‑bit kleur gebruiken, waarbij elk kanaal een 8‑bit byte is. De standaardwaarde is false, omdat niet alle toepassingen de zeer nauwkeurige kleur ondersteunen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -551,12 +551,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();
@@ -572,7 +572,7 @@ public void setMasterScale(double value)
 ```
 
 
-Stelt de hoofdschaal in die wordt gebruikt bij het exporteren.
+Stelt de hoofdschaling in die bij het exporteren wordt gebruikt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

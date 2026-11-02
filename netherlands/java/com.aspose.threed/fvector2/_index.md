@@ -1,7 +1,7 @@
 ---
 title: "FVector2"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een float-vector met twee componenten."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een floatvector met twee componenten."
 type: docs
 weight: 59
 url: /nl/java/com.aspose.threed/fvector2/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FVector2 implements Struct<FVector2>, Serializable
 ```
 
-Een float-vector met twee componenten.
+Een floatvector met twee componenten.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -34,21 +34,21 @@ Een float-vector met twee componenten.
 
 | Methode | Beschrijving |
 | --- | --- |
-| [add(FVector2 a, FVector2 b)](#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \+ Operatoroverbelasting |
+| [add(FVector2 a, FVector2 b)](#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \+ Operator overbelasting |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector2 src)](#copyFrom-com.aspose.threed.FVector2-) |  |
 | [create(FVector2 v)](#create-com.aspose.threed.FVector2-) | Expliciete conversie-operator om FVector2 naar Vector2 te casten |
-| [equals(FVector2 rhs)](#equals-com.aspose.threed.FVector2-) | Controleren of twee vectoren gelijk zijn |
-| [equals(Object obj)](#equals-java.lang.Object-) | Controleren of twee vectoren gelijk zijn |
+| [equals(FVector2 rhs)](#equals-com.aspose.threed.FVector2-) | Controleer of twee vectoren gelijk zijn |
+| [equals(Object obj)](#equals-java.lang.Object-) | Controleer of twee vectoren gelijk zijn |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) | Haalt de hashcode van deze instantie op |
-| [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* Operatoroverbelasting |
+| [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* operator overbelasting |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_eq(FVector2 a, FVector2 b)](#op-eq-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | == Operatoroverbelasting |
-| [op_ne(FVector2 a, FVector2 b)](#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | != Operatoroverbelasting |
-| [sub(FVector2 a, FVector2 b)](#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \- Operatoroverbelasting |
-| [toString()](#toString--) | Retourneert een string die de [FVector2](../../com.aspose.threed/fvector2) voorstelt |
+| [op_eq(FVector2 a, FVector2 b)](#op-eq-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | == Operator overbelasting |
+| [op_ne(FVector2 a, FVector2 b)](#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | != Operator overbelasting |
+| [sub(FVector2 a, FVector2 b)](#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \- Operator overbelasting |
+| [toString()](#toString--) | Retourneert een string die de [FVector2](../../com.aspose.threed/fvector2) vertegenwoordigt |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -107,7 +107,7 @@ public static FVector2 add(FVector2 a, FVector2 b)
 ```
 
 
-\+ Operatoroverbelasting
+\+ Operator overbelasting
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -161,7 +161,7 @@ public boolean equals(FVector2 rhs)
 ```
 
 
-Controleren of twee vectoren gelijk zijn
+Controleer of twee vectoren gelijk zijn
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -176,7 +176,7 @@ public boolean equals(Object obj)
 ```
 
 
-Controleren of twee vectoren gelijk zijn
+Controleer of twee vectoren gelijk zijn
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -211,7 +211,7 @@ public static FVector2 mul(FVector2 a, float b)
 ```
 
 
-\* Operatoroverbelasting
+\* operator overbelasting
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -243,7 +243,7 @@ public static boolean op_eq(FVector2 a, FVector2 b)
 ```
 
 
-== Operatoroverbelasting
+== Operator overbelasting
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -275,7 +275,7 @@ public static FVector2 sub(FVector2 a, FVector2 b)
 ```
 
 
-\- Operatoroverbelasting
+\- Operator overbelasting
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -291,7 +291,7 @@ public String toString()
 ```
 
 
-Retourneert een string die de [FVector2](../../com.aspose.threed/fvector2) voorstelt
+Retourneert een string die de [FVector2](../../com.aspose.threed/fvector2) vertegenwoordigt
 
 **Returns:**
 java.lang.String - Stringrepresentatie van de huidige vector.

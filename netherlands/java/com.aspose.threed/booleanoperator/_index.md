@@ -1,7 +1,7 @@
 ---
 title: "BooleanOperator"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Boolean-operator stelt je in staat om een Booleaanse bewerking toe te passen op twee instanties."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Boolean-operator stelt je in staat om een Boolean-bewerking toe te passen op twee instanties."
 type: docs
 weight: 23
 url: /nl/java/com.aspose.threed/booleanoperator/
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class BooleanOperator extends Entity implements IMeshConvertible
 ```
 
-Boolean-operator maakt het mogelijk om een Booleaanse bewerking toe te passen op twee [IMeshConvertible](../../com.aspose.threed/imeshconvertible) instanties.
+Boolean-operator stelt je in staat om een Boolean-bewerking toe te passen op twee [IMeshConvertible](../../com.aspose.threed/imeshconvertible) instanties.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -29,32 +29,32 @@ Boolean-operator maakt het mogelijk om een Booleaanse bewerking toe te passen op
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getFirst()](#getFirst--) | De eerste operand van de Boolean-operator |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getOperator()](#getOperator--) | De Boolean-operator die wordt gebruikt in de bewerking om het resulterende mesh te creëren. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getOperator()](#getOperator--) | De Boolean-operator die wordt gebruikt in de bewerking om het resulterende mesh te maken. |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [getSecond()](#getSecond--) | De tweede operand van de Boolean-operator |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setFirst(BooleanOperand value)](#setFirst-com.aspose.threed.BooleanOperand-) | De eerste operand van de Boolean-operator |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setOperator(BooleanOperation value)](#setOperator-com.aspose.threed.BooleanOperation-) | De Boolean-operator die wordt gebruikt in de bewerking om het resulterende mesh te creëren. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setOperator(BooleanOperation value)](#setOperator-com.aspose.threed.BooleanOperation-) | De Boolean-operator die wordt gebruikt in de bewerking om het resulterende mesh te maken. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [setSecond(BooleanOperand value)](#setSecond-com.aspose.threed.BooleanOperand-) | De tweede operand van de Boolean-operator |
-| [toMesh()](#toMesh--) | Voer de Booleaanse bewerking uit op twee operanden |
+| [toMesh()](#toMesh--) | Voer de Boolean-bewerking uit op twee operanden |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,9 +78,9 @@ Construeert een nieuw exemplaar van [BooleanOperator](../../com.aspose.threed/bo
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| operation | [BooleanOperation](../../com.aspose.threed/booleanoperation) | Soort Booleaanse bewerking |
-| first | [A3DObject](../../com.aspose.threed/a3dobject) | Instantie van [IMeshConvertible](../../com.aspose.threed/imeshconvertible), [HalfSpace](../../com.aspose.threed/halfspace) of [Node](../../com.aspose.threed/node) |
-| second | [A3DObject](../../com.aspose.threed/a3dobject) | Instantie van [IMeshConvertible](../../com.aspose.threed/imeshconvertible), [HalfSpace](../../com.aspose.threed/halfspace) of [Node](../../com.aspose.threed/node) |
+| operation | [BooleanOperation](../../com.aspose.threed/booleanoperation) | Soort Boolean-bewerking |
+| first | [A3DObject](../../com.aspose.threed/a3dobject) | Exemplaar van [IMeshConvertible](../../com.aspose.threed/imeshconvertible), [HalfSpace](../../com.aspose.threed/halfspace) of [Node](../../com.aspose.threed/node) |
+| second | [A3DObject](../../com.aspose.threed/a3dobject) | Exemplaar van [IMeshConvertible](../../com.aspose.threed/imeshconvertible), [HalfSpace](../../com.aspose.threed/halfspace) of [Node](../../com.aspose.threed/node) |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -108,7 +108,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -118,7 +118,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -145,7 +145,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -155,10 +155,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getFirst() {#getFirst--}
 ```
 public BooleanOperand getFirst()
@@ -185,7 +185,7 @@ public BooleanOperation getOperator()
 ```
 
 
-De Boolean-operator die wordt gebruikt in de bewerking om het resulterende mesh te creëren.
+De Boolean-operator die wordt gebruikt in de bewerking om het resulterende mesh te maken.
 
 **Returns:**
 [BooleanOperation](../../com.aspose.threed/booleanoperation) - The Boolean operator used in the operation to create the result mesh.
@@ -195,7 +195,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -205,7 +205,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -215,7 +215,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -225,12 +225,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -240,7 +240,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -301,7 +301,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -316,7 +316,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -355,7 +355,7 @@ public void setOperator(BooleanOperation value)
 ```
 
 
-De Boolean-operator die wordt gebruikt in de bewerking om het resulterende mesh te creëren.
+De Boolean-operator die wordt gebruikt in de bewerking om het resulterende mesh te maken.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -368,7 +368,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -381,12 +381,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setSecond(BooleanOperand value) {#setSecond-com.aspose.threed.BooleanOperand-}
@@ -408,7 +408,7 @@ public Mesh toMesh()
 ```
 
 
-Voer de Booleaanse bewerking uit op twee operanden
+Voer de Boolean-bewerking uit op twee operanden
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh)

@@ -1,7 +1,7 @@
 ---
 title: "PbrSpecularMaterial"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Materiaal voor fysiek gebaseerd renderen op basis van diffuse kleur/specular/glans"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Materiaal voor fysiek gebaseerd renderen op basis van diffuse kleur/specular/glans."
 type: docs
 weight: 122
 url: /nl/java/com.aspose.threed/pbrspecularmaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrSpecularMaterial extends Material
 ```
 
-Materiaal voor fysiek gebaseerd renderen op basis van diffuse kleur/specular/glans
+Materiaal voor fysiek gebaseerd renderen op basis van diffuse kleur/specular/glans.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -43,8 +43,8 @@ Materiaal voor fysiek gebaseerd renderen op basis van diffuse kleur/specular/gla
 | [getGlossinessFactor()](#getGlossinessFactor--) | Haalt de glans (gladheid) van het materiaal op, 1 betekent perfect glad en 0 betekent perfect ruw, standaardwaarde is 1, bereik is [0, 1] |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getNormalTexture()](#getNormalTexture--) | Haalt de textuur van normale mapping op |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getSpecular()](#getSpecular--) | Haalt de speculaire kleur van het materiaal op, standaardwaarde is (1, 1, 1). |
 | [getSpecularGlossinessTexture()](#getSpecularGlossinessTexture--) | Haalt de textuur voor speculaire kleur op, kanaal RGB slaat de speculaire kleur op en kanaal A slaat de glans op. |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Haalt de textuur op uit de opgegeven slot; dit kan de naam van een materiaaleigenschap of de naam van een shaderparameter zijn. |
@@ -54,18 +54,18 @@ Materiaal voor fysiek gebaseerd renderen op basis van diffuse kleur/specular/gla
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setDiffuse(Vector3 value)](#setDiffuse-com.aspose.threed.Vector3-) | Stelt de diffuse kleur van het materiaal in, standaardwaarde is (1, 1, 1) |
 | [setDiffuseTexture(TextureBase value)](#setDiffuseTexture-com.aspose.threed.TextureBase-) | Stelt de textuur voor diffuse in |
 | [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Stelt de emissieve kleur in, standaardwaarde is (0, 0, 0) |
 | [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | Stelt de textuur in voor emissief |
 | [setGlossinessFactor(double value)](#setGlossinessFactor-double-) | Stelt de glans (gladheid) van het materiaal in, 1 betekent perfect glad en 0 betekent perfect ruw, standaardwaarde is 1, bereik is [0, 1] |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | Stelt de textuur van normale mapping in |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | Stelt de textuur van normal mapping in |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [setSpecular(Vector3 value)](#setSpecular-com.aspose.threed.Vector3-) | Stelt de speculaire kleur van het materiaal in, standaardwaarde is (1, 1, 1). |
 | [setSpecularGlossinessTexture(TextureBase value)](#setSpecularGlossinessTexture-com.aspose.threed.TextureBase-) | Stelt de textuur voor speculaire kleur in, kanaal RGB slaat de speculaire kleur op en kanaal A slaat de glans op. |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Stelt de textuur in op de opgegeven slot |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Stelt de textuur in op de opgegeven slot. |
 | [setTransparency(double value)](#setTransparency-double-) | Stelt de transparantiefactor in. |
 | [toString()](#toString--) | Formatteert object naar string |
 | [wait()](#wait--) |  |
@@ -153,7 +153,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -243,7 +243,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -253,12 +253,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -372,7 +372,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -465,7 +465,7 @@ public void setNormalTexture(TextureBase value)
 ```
 
 
-Stelt de textuur van normale mapping in
+Stelt de textuur van normal mapping in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -478,12 +478,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setSpecular(Vector3 value) {#setSpecular-com.aspose.threed.Vector3-}
@@ -518,7 +518,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-Stelt de textuur in op de opgegeven slot
+Stelt de textuur in op de opgegeven slot.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -555,7 +555,7 @@ public String toString()
 Formatteert object naar string
 
 **Returns:**
-java.lang.String - Objecttekenreeks
+java.lang.String - Objectstring
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -1,6 +1,6 @@
 ---
 title: "NodeVisitor"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Een callback om door de volledige knooppunt-hiërarchie te reizen."
 type: docs
 weight: 261

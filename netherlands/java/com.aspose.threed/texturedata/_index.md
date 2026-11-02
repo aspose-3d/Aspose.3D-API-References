@@ -1,7 +1,7 @@
 ---
 title: "TextureData"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Deze klasse bevat de ruwe data en de formaatdefinitie van een textuur."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Deze klasse bevat de ruwe gegevens en de formaatdefinitie van een textuur."
 type: docs
 weight: 187
 url: /nl/java/com.aspose.threed/texturedata/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class TextureData extends A3DObject
 ```
 
-Deze klasse bevat de ruwe data en de formaatdefinitie van een textuur.
+Deze klasse bevat de ruwe gegevens en de formaatdefinitie van een textuur.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -27,17 +27,17 @@ Deze klasse bevat de ruwe data en de formaatdefinitie van een textuur.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [fromFile(String fileName)](#fromFile-java.lang.String-) | Laad een textuur vanaf bestand. |
-| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | Laad een textuur vanaf stream. |
-| [getBytesPerPixel()](#getBytesPerPixel--) | Aantal bytes van een pixel |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | Laad een texture uit een bestand |
+| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | Laad een texture uit een stream |
+| [getBytesPerPixel()](#getBytesPerPixel--) | Aantal bytes van een pixel. |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Ruwe bytes van pixelgegevens |
-| [getHeight()](#getHeight--) | Aantal verticale pixels |
+| [getData()](#getData--) | Ruwe bytes van pixelgegevens. |
+| [getHeight()](#getHeight--) | Aantal verticale pixels. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getPixelFormat()](#getPixelFormat--) | Het formaat van de pixel |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getStride()](#getStride--) | Aantal bytes van een scanregel. |
+| [getPixelFormat()](#getPixelFormat--) | Het formaat van de pixel. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getStride()](#getStride--) | Aantal bytes van een scanlijn. |
 | [getWidth()](#getWidth--) | Aantal horizontale pixels |
 | [hashCode()](#hashCode--) |  |
 | [mapPixels(PixelMapMode mapMode)](#mapPixels-com.aspose.threed.PixelMapMode-) | Alle pixels in kaart brengen voor lezen/schrijven |
@@ -46,12 +46,12 @@ Deze klasse bevat de ruwe data en de formaatdefinitie van een textuur.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [save(Stream stream, String format)](#save-com.aspose.threed.Stream-java.lang.String-) | Textuurgegevens opslaan in opgegeven afbeeldingsformaat |
 | [save(String fileName)](#save-java.lang.String-) | Textuurgegevens opslaan in afbeeldingsbestand |
 | [save(String fileName, String format)](#save-java.lang.String-java.lang.String-) | Textuurgegevens opslaan in afbeeldingsbestand |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [toString()](#toString--) |  |
 | [transformPixelFormat(PixelFormat pixelFormat)](#transformPixelFormat-com.aspose.threed.PixelFormat-) | Lay-out van pixel transformeren naar nieuw pixelformaat. |
 | [wait()](#wait--) |  |
@@ -124,7 +124,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -134,7 +134,7 @@ public static TextureData fromFile(String fileName)
 ```
 
 
-Laad een textuur vanaf bestand.
+Laad een texture uit een bestand
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -149,7 +149,7 @@ public static TextureData fromStream(Stream stream)
 ```
 
 
-Laad een textuur vanaf stream.
+Laad een texture uit een stream
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -164,7 +164,7 @@ public int getBytesPerPixel()
 ```
 
 
-Aantal bytes van een pixel
+Aantal bytes van een pixel.
 
 **Returns:**
 int - Aantal bytes van een pixel
@@ -184,7 +184,7 @@ public byte[] getData()
 ```
 
 
-Ruwe bytes van pixelgegevens
+Ruwe bytes van pixelgegevens.
 
 **Returns:**
 byte[] - Ruwe bytes van pixelgegevens
@@ -194,7 +194,7 @@ public int getHeight()
 ```
 
 
-Aantal verticale pixels
+Aantal verticale pixels.
 
 **Returns:**
 int - Aantal verticale pixels
@@ -214,7 +214,7 @@ public PixelFormat getPixelFormat()
 ```
 
 
-Het formaat van de pixel
+Het formaat van de pixel.
 
 **Returns:**
 [PixelFormat](../../com.aspose.threed/pixelformat) - The pixel's format
@@ -224,7 +224,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -234,12 +234,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -249,10 +249,10 @@ public int getStride()
 ```
 
 
-Aantal bytes van een scanregel.
+Aantal bytes van een scanlijn.
 
 **Returns:**
-int - Aantal bytes van een scanregel.
+int - Aantal bytes van een scanlijn.
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
@@ -358,7 +358,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -427,12 +427,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}

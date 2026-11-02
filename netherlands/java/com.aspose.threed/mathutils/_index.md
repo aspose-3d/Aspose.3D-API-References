@@ -1,7 +1,7 @@
 ---
 title: "MathUtils"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een verzameling nuttige wiskundige hulpprogramma's."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een set nuttige wiskundige hulpmiddelen."
 type: docs
 weight: 99
 url: /nl/java/com.aspose.threed/mathutils/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MathUtils
 ```
 
-Een verzameling nuttige wiskundige hulpprogramma's.
+Een set nuttige wiskundige hulpmiddelen.
 ## Methoden
 
 | Methode | Beschrijving |
@@ -26,8 +26,8 @@ Een verzameling nuttige wiskundige hulpprogramma's.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [pointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vector2 p2)](#pointInsideTriangle-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Controleer of punt p binnen de driehoek (p0, p1, p2) ligt |
-| [rayIntersect(Vector2 origin, Vector2 dir, Vector2 a, Vector2 b)](#rayIntersect-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Controleer of straal (origin, dir) intersecteert met lijnsegment(start, end) |
+| [pointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vector2 p2)](#pointInsideTriangle-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Controleer of punt p zich binnen de driehoek (p0, p1, p2) bevindt |
+| [rayIntersect(Vector2 origin, Vector2 dir, Vector2 a, Vector2 b)](#rayIntersect-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Controleer of straal (origin, dir) intersecteert met lijnsegment (start, end) |
 | [toDegree(Vector3 radian)](#toDegree-com.aspose.threed.Vector3-) | Converteer een [Vector3](../../com.aspose.threed/vector3) van radialen naar graden. |
 | [toDegree(double radian)](#toDegree-double-) | Converteer een getal van radialen naar graden |
 | [toDegree(double x, double y, double z)](#toDegree-double-double-double-) | Converteer een getal van radialen naar graden |
@@ -66,7 +66,7 @@ Beperk waarde tot bereik [min, max]
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| val | double | Waarde om te begrenzen. |
+| val | double | Waarde om te beperken. |
 | min | double | Minimumwaarde. |
 | max | double | Maximumwaarde. |
 
@@ -156,7 +156,7 @@ public static boolean pointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vec
 ```
 
 
-Controleer of punt p binnen de driehoek (p0, p1, p2) ligt
+Controleer of punt p zich binnen de driehoek (p0, p1, p2) bevindt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -174,7 +174,7 @@ public static Vector2 rayIntersect(Vector2 origin, Vector2 dir, Vector2 a, Vecto
 ```
 
 
-Controleer of straal (origin, dir) intersecteert met lijnsegment(start, end)
+Controleer of straal (origin, dir) intersecteert met lijnsegment (start, end)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -197,7 +197,7 @@ Converteer een [Vector3](../../com.aspose.threed/vector3) van radialen naar grad
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| radian | [Vector3](../../com.aspose.threed/vector3) | De radiale waarde. |
+| radian | [Vector3](../../com.aspose.threed/vector3) | De radianwaarde. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The degree value. **Example:**
@@ -217,7 +217,7 @@ Converteer een getal van radialen naar graden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| radiaal | double | De radiale waarde. |
+| radian | double | De radianwaarde. |
 
 **Returns:**
 double - De graadwaarde. **Example:**
@@ -237,9 +237,9 @@ Converteer een getal van radialen naar graden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| x | double | De x-component in radiale waarde. |
-| y | double | De y-component in radiale waarde. |
-| z | double | De z-component in radiale waarde. |
+| x | double | De x-component in radianwaarde. |
+| y | double | De y-component in radianwaarde. |
+| z | double | De z-component in radianwaarde. |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The degree value.
@@ -254,7 +254,7 @@ Converteer een getal van radialen naar graden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| radiaal | float | De radiale waarde. |
+| radian | float | De radianwaarde. |
 
 **Returns:**
 float - De graadwaarde. **Example:**
@@ -294,10 +294,10 @@ Converteer een getal van graad naar radiaal
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| graad | double | De graadwaarde. |
+| degree | double | De graadwaarde. |
 
 **Returns:**
-double - De radiale waarde. **Example:**
+double - De radianwaarde. **Example:**
 
 ```
 var rad = MathUtils.toRadian(0.3);
@@ -331,10 +331,10 @@ Converteer een getal van graad naar radiaal
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| graad | float | De graadwaarde. |
+| degree | float | De graadwaarde. |
 
 **Returns:**
-float - De radiale waarde. **Example:**
+float - De radianwaarde. **Example:**
 
 ```
 var rad = MathUtils.toRadian(0.3);

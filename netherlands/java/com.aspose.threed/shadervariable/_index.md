@@ -1,6 +1,6 @@
 ---
 title: "ShaderVariable"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Shadervariabele"
 type: docs
 weight: 170
@@ -59,7 +59,7 @@ Constructor van [ShaderVariable](../../com.aspose.threed/shadervariable)
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | naam | java.lang.String |  |
-| shaderStage | int | Welke shader stage zal voor deze variabele worden gebruikt |
+| shaderStage | int | Welke shaderstage zal voor deze variabele worden gebruikt |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

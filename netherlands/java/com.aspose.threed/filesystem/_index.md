@@ -1,7 +1,7 @@
 ---
 title: "FileSystem"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Encapsulatie van het bestandssysteem."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Bestandssysteem-encapsulatie."
 type: docs
 weight: 67
 url: /nl/java/com.aspose.threed/filesystem/
@@ -16,7 +16,7 @@ java.io.Closeable
 public abstract class FileSystem implements Closeable
 ```
 
-Bestandssysteem encapsulatie. Aspose.3D zal dit gebruiken om afhankelijkheden te lezen/schrijven. **Example:** De volgende code toont hoe een bestand te importeren, en afhankelijke bestanden in een opgegeven map te leveren.
+Bestandssysteem-encapsulatie. Aspose.3D zal dit gebruiken om afhankelijkheden te lezen/schrijven. **Example:** De volgende code laat zien hoe een bestand te importeren en afhankelijke bestanden in een opgegeven map te leveren.
 
 ```
 var inputFile = "input.fbx";
@@ -36,14 +36,14 @@ var inputFile = "input.fbx";
 
 | Methode | Beschrijving |
 | --- | --- |
-| [close()](#close--) | Maak het bestandssysteem vrij en geef de bronnen vrij. |
-| [createDummyFileSystem()](#createDummyFileSystem--) | Maak een dummy-bestandssysteem, lees-/schrijfbewerkingen zijn dummy-bewerkingen. |
+| [close()](#close--) | Dispose het bestandssysteem en geef de bronnen vrij. |
+| [createDummyFileSystem()](#createDummyFileSystem--) | Maak een dummy-bestandssysteem, lees-/schrijfoperaties zijn dummy-operaties. |
 | [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | Initialiseer een nieuw [FileSystem](../../com.aspose.threed/filesystem) dat alleen toegang heeft tot de lokale map. |
-| [createMemoryFileSystem()](#createMemoryFileSystem--) | Maak een geheugen-gebaseerd bestandssysteem dat de lees-/schrijfbewerkingen naar het geheugen mappt. |
-| [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | Maak een geheugen-gebaseerd bestandssysteem dat de lees-/schrijfbewerkingen naar het geheugen mappt. |
-| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | Maak een bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip-bestand of zip-stream. |
-| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | Maak een bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip-bestand of zip-stream. |
-| [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip‑bestand of zip‑stream. |
+| [createMemoryFileSystem()](#createMemoryFileSystem--) | Maak een geheugen-gebaseerd bestandssysteem dat de lees-/schrijfoperaties naar het geheugen mappt. |
+| [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | Maak een geheugen-gebaseerd bestandssysteem dat de lees-/schrijfoperaties naar het geheugen mappt. |
+| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | Maak een bestandssysteem om alleen-lezen toegang te bieden tot een gespecificeerd zip‑bestand of zip‑stream. |
+| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | Maak een bestandssysteem om alleen-lezen toegang te bieden tot een gespecificeerd zip‑bestand of zip‑stream. |
+| [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip-bestand of zip-stream. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -67,7 +67,7 @@ public void close()
 ```
 
 
-Maak het bestandssysteem vrij en geef de bronnen vrij.
+Dispose het bestandssysteem en geef de bronnen vrij.
 
 ### createDummyFileSystem() {#createDummyFileSystem--}
 ```
@@ -75,7 +75,7 @@ public static FileSystem createDummyFileSystem()
 ```
 
 
-Maak een dummy-bestandssysteem, lees-/schrijfbewerkingen zijn dummy-bewerkingen.
+Maak een dummy-bestandssysteem, lees-/schrijfoperaties zijn dummy-operaties.
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A dummy file system **Example:** The following code shows how to export file to memory, and ignore all dependent file generation.
@@ -101,12 +101,12 @@ public static FileSystem createLocalFileSystem(String directory)
 ```
 
 
-Initialiseer een nieuw [FileSystem](../../com.aspose.threed/filesystem) dat alleen toegang heeft tot de lokale map. Alle lees-/schrijfbewerkingen op deze FileSystem-instantie worden gemapt naar de opgegeven map.
+Initialiseer een nieuw [FileSystem](../../com.aspose.threed/filesystem) dat alleen toegang heeft tot de lokale map. Alle lees-/schrijfoperaties op dit FileSystem‑object worden naar de opgegeven map gemapt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| map | java.lang.String | De map in uw fysieke bestandssysteem als de virtuele hoofdmap. |
+| map | java.lang.String | De map in uw fysieke bestandssysteem als de virtuele root‑map. |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A new instance of file system to provide local file access
@@ -116,7 +116,7 @@ public static FileSystem createMemoryFileSystem()
 ```
 
 
-Maak een geheugen-gebaseerd bestandssysteem dat de lees-/schrijfbewerkingen naar het geheugen mappt.
+Maak een geheugen-gebaseerd bestandssysteem dat de lees-/schrijfoperaties naar het geheugen mappt.
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A memory-based file system **Example:** The following code shows how to export file to memory, includes the dependent file by using MemoryFileSystem.
@@ -144,7 +144,7 @@ public static FileSystem createMemoryFileSystem(HashMap<String,MemoryStream> fil
 ```
 
 
-Maak een geheugen-gebaseerd bestandssysteem dat de lees-/schrijfbewerkingen naar het geheugen mappt.
+Maak een geheugen-gebaseerd bestandssysteem dat de lees-/schrijfoperaties naar het geheugen mappt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -177,12 +177,12 @@ public static FileSystem createZipFileSystem(Stream stream)
 ```
 
 
-Maak een bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip-bestand of zip-stream. Het bestandssysteem wordt verwijderd na de open-/opslaanbewerking.
+Maak een bestandssysteem om alleen-lezen toegang te bieden tot een gespecificeerd zip‑bestand of zip‑stream. Het bestandssysteem wordt verwijderd na de open‑/save‑bewerking.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | De stream om toegang te krijgen tot het zip-bestand |
+| stream | [Stream](../../com.aspose.threed/stream) | De stream om toegang te krijgen tot het zip‑bestand |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A zip file system
@@ -192,13 +192,13 @@ public static FileSystem createZipFileSystem(Stream stream, String baseDir)
 ```
 
 
-Maak een bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip-bestand of zip-stream. Het bestandssysteem wordt verwijderd na de open-/opslaanbewerking.
+Maak een bestandssysteem om alleen-lezen toegang te bieden tot een gespecificeerd zip‑bestand of zip‑stream. Het bestandssysteem wordt verwijderd na de open‑/save‑bewerking.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | De stream om toegang te krijgen tot het zip-bestand |
-| baseDir | java.lang.String | De basismap binnen het zip-bestand. |
+| stream | [Stream](../../com.aspose.threed/stream) | De stream om toegang te krijgen tot het zip‑bestand |
+| baseDir | java.lang.String | De basismap binnen het zip‑bestand. |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A zip file system
@@ -208,12 +208,12 @@ public static FileSystem createZipFileSystem(String fileName)
 ```
 
 
-Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip-bestand of zip-stream. Het bestandssysteem wordt verwijderd na de open-/opslaanbewerking.
+Bestandssysteem om alleen-lezen toegang te bieden tot een gespecificeerd zip‑bestand of zip‑stream. Het bestandssysteem wordt verwijderd na de open‑/save‑bewerking.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| fileName | java.lang.String | Bestandsnaam van het zip-bestand. |
+| fileName | java.lang.String | Bestandsnaam van het zip‑bestand. |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A zip file system
@@ -280,7 +280,7 @@ Maak een stream aan voor het lezen van afhankelijkheden.
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | fileName | java.lang.String | Bestandsnaam om te openen voor lezen |
-| options | [IOConfig](../../com.aspose.threed/ioconfig) | Opslaan of laadopties |
+| options | [IOConfig](../../com.aspose.threed/ioconfig) | Opslaan- of laadopties |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream) - Stream for reading the file.
@@ -341,7 +341,7 @@ Maak een stream aan voor het schrijven van afhankelijkheden.
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | fileName | java.lang.String | De bestandsnaam om te openen voor schrijven |
-| options | [IOConfig](../../com.aspose.threed/ioconfig) | Opslaan of laadopties |
+| options | [IOConfig](../../com.aspose.threed/ioconfig) | Opslaan- of laadopties |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream) - Stream for writing the file

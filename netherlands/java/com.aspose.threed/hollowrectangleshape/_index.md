@@ -1,6 +1,6 @@
 ---
 title: "HollowRectangleShape"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde hoeken."
 type: docs
 weight: 79
@@ -25,36 +25,36 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getExtent()](#getExtent--) | Haalt de omvang in de x- en y-dimensie op. |
-| [getInnerFilletRadius()](#getInnerFilletRadius--) | De interne afrondingsstraal van de interne rechthoek. |
+| [getInnerFilletRadius()](#getInnerFilletRadius--) | De binnenste afrondingsstraal van de binnenste rechthoek. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getRoundingRadius()](#getRoundingRadius--) | Haalt de straal op van de cirkelbogen van alle vier hoeken, gemeten in graden. |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getRoundingRadius()](#getRoundingRadius--) | Haalt de straal van de cirkelbogen van alle vier hoeken op, gemeten in graden. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [getWallThickness()](#getWallThickness--) | De dikte tussen de rand van de rechthoek en het binnenste gat |
-| [getXDim()](#getXDim--) | Haalt de omvang op van de rechthoek in de richting van de x-as Standaardwaarde is 2,0 |
-| [getYDim()](#getYDim--) | Haalt de omvang op van de rechthoek in de richting van de y-as Standaardwaarde is 2,0 |
+| [getXDim()](#getXDim--) | Haalt de omvang van de rechthoek op in de richting van de x-as Standaardwaarde is 2.0 |
+| [getYDim()](#getYDim--) | Haalt de omvang van de rechthoek op in de richting van de y-as Standaardwaarde is 2.0 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
-| [setInnerFilletRadius(double value)](#setInnerFilletRadius-double-) | De interne afrondingsstraal van de interne rechthoek. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
+| [setInnerFilletRadius(double value)](#setInnerFilletRadius-double-) | De binnenste afrondingsstraal van de binnenste rechthoek. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setRoundingRadius(double value)](#setRoundingRadius-double-) | Stelt de straal in van de cirkelbogen van alle vier hoeken, gemeten in graden. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setRoundingRadius(double value)](#setRoundingRadius-double-) | Stelt de straal van de cirkelbogen van alle vier hoeken in, gemeten in graden. |
 | [setWallThickness(double value)](#setWallThickness-double-) | De dikte tussen de rand van de rechthoek en het binnenste gat |
-| [setXDim(double value)](#setXDim-double-) | Stelt de omvang in van de rechthoek in de richting van de x-as Standaardwaarde is 2,0 |
-| [setYDim(double value)](#setYDim-double-) | Stelt de omvang in van de rechthoek in de richting van de y-as Standaardwaarde is 2,0 |
+| [setXDim(double value)](#setXDim-double-) | Stelt de omvang van de rechthoek in de richting van de x-as in. Standaardwaarde is 2.0 |
+| [setYDim(double value)](#setYDim-double-) | Stelt de omvang van de rechthoek in de richting van de y-as in. Standaardwaarde is 2.0 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -91,7 +91,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -101,7 +101,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -128,7 +128,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -138,10 +138,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getExtent() {#getExtent--}
 ```
 public Vector2 getExtent()
@@ -158,10 +158,10 @@ public double getInnerFilletRadius()
 ```
 
 
-De interne afrondingsstraal van de interne rechthoek.
+De binnenste afrondingsstraal van de binnenste rechthoek.
 
 **Returns:**
-double - De interne afrondingsstraal van de interne rechthoek.
+double - De binnenste afrondingsstraal van de binnenste rechthoek.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -178,7 +178,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -188,7 +188,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -198,7 +198,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -208,12 +208,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -223,17 +223,17 @@ public double getRoundingRadius()
 ```
 
 
-Haalt de straal op van de cirkelbogen van alle vier hoeken, gemeten in graden. Standaardwaarde is 0,0
+Haalt de straal van de cirkelbogen van alle vier hoeken op, gemeten in graden. Standaardwaarde is 0.0
 
 **Returns:**
-double - de straal van de cirkelbogen van alle vier hoeken, gemeten in graden. Standaardwaarde is 0,0
+double - de straal van de cirkelbogen van alle vier hoeken, gemeten in graden. Standaardwaarde is 0.0
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -253,20 +253,20 @@ public double getXDim()
 ```
 
 
-Haalt de omvang op van de rechthoek in de richting van de x-as Standaardwaarde is 2,0
+Haalt de omvang van de rechthoek op in de richting van de x-as Standaardwaarde is 2.0
 
 **Returns:**
-double - de omvang van de rechthoek in de richting van de x-as Standaardwaarde is 2,0
+double - de omvang van de rechthoek in de richting van de x-as Standaardwaarde is 2.0
 ### getYDim() {#getYDim--}
 ```
 public double getYDim()
 ```
 
 
-Haalt de omvang op van de rechthoek in de richting van de y-as Standaardwaarde is 2,0
+Haalt de omvang van de rechthoek op in de richting van de y-as Standaardwaarde is 2.0
 
 **Returns:**
-double - de omvang van de rechthoek in de richting van de y-as Standaardwaarde is 2,0
+double - de omvang van de rechthoek in de richting van de y-as Standaardwaarde is 2.0
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -314,7 +314,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -329,7 +329,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -342,7 +342,7 @@ public void setInnerFilletRadius(double value)
 ```
 
 
-De interne afrondingsstraal van de interne rechthoek.
+De binnenste afrondingsstraal van de binnenste rechthoek.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -368,7 +368,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -381,12 +381,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setRoundingRadius(double value) {#setRoundingRadius-double-}
@@ -395,7 +395,7 @@ public void setRoundingRadius(double value)
 ```
 
 
-Stelt de straal in van de cirkelbogen van alle vier hoeken, gemeten in graden. Standaardwaarde is 0,0
+Stelt de straal van de cirkelbogen van alle vier hoeken in, gemeten in graden. Standaardwaarde is 0.0
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -421,7 +421,7 @@ public void setXDim(double value)
 ```
 
 
-Stelt de omvang in van de rechthoek in de richting van de x-as Standaardwaarde is 2,0
+Stelt de omvang van de rechthoek in de richting van de x-as in. Standaardwaarde is 2.0
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -434,7 +434,7 @@ public void setYDim(double value)
 ```
 
 
-Stelt de omvang in van de rechthoek in de richting van de y-as Standaardwaarde is 2,0
+Stelt de omvang van de rechthoek in de richting van de y-as in. Standaardwaarde is 2.0
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

@@ -1,7 +1,7 @@
 ---
-title: "PixelFormat"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Het pixelformaat dat wordt gebruikt in de texture-eenheid."
+title: "PixelFormaat"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Het pixelformaat dat wordt gebruikt in de textuurunit."
 type: docs
 weight: 290
 url: /nl/java/com.aspose.threed/pixelformat/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum PixelFormat extends Enum<PixelFormat>
 ```
 
-Het pixelformaat dat wordt gebruikt in de texture-eenheid.
+Het pixelformaat dat wordt gebruikt in de textuurunit.
 ## Velden
 
 | Veld | Beschrijving |
@@ -31,7 +31,7 @@ Het pixelformaat dat wordt gebruikt in de texture-eenheid.
 | [B8G8R8](#B8G8R8) | 24-bits pixelformaat, 8 bits voor blauw, groen en rood. |
 | [B8G8R8A8](#B8G8R8A8) | 32-bits pixelformaat, 8 bits voor blauw, groen, rood en alfa. |
 | [BYTE_LA](#BYTE-LA) | 2-byte pixelformaat, 1 byte luminantie, 1 byte alfa |
-| [DEPTH](#DEPTH) | Diepte-textureformaat. |
+| [DEPTH](#DEPTH) | Diepte-textuurformaat. |
 | [DXT1](#DXT1) | DDS (DirectDraw Surface) DXT1-formaat. |
 | [DXT2](#DXT2) | DDS (DirectDraw Surface) DXT2-formaat. |
 | [DXT3](#DXT3) | DDS (DirectDraw Surface) DXT3-formaat. |
@@ -60,8 +60,8 @@ Het pixelformaat dat wordt gebruikt in de texture-eenheid.
 | [SHORT_RGB](#SHORT-RGB) | 48-bit pixelindeling, 16 bits voor rood, groen en blauw |
 | [SHORT_RGBA](#SHORT-RGBA) | 64-bit pixelindeling, 16 bits voor rood, groen, blauw en alfa |
 | [UNKNOWN](#UNKNOWN) | Onbekende pixelindeling. |
-| [X8B8G8R8](#X8B8G8R8) | 32-bit pixelindeling, 8 bits voor blauw, 8 bits voor groen, 8 bits voor rood zoals A8B8G8R8, maar alfa wordt weggegooid |
-| [X8R8G8B8](#X8R8G8B8) | 32-bit pixelindeling, 8 bits voor rood, 8 bits voor groen, 8 bits voor blauw zoals A8R8G8B8, maar alfa wordt weggegooid |
+| [X8B8G8R8](#X8B8G8R8) | 32-bit pixelindeling, 8 bits voor blauw, 8 bits voor groen, 8 bits voor rood zoals A8B8G8R8, maar alfa wordt verwijderd |
+| [X8R8G8B8](#X8R8G8B8) | 32-bit pixelindeling, 8 bits voor rood, 8 bits voor groen, 8 bits voor blauw zoals A8R8G8B8, maar alfa wordt verwijderd |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -193,7 +193,7 @@ public static final PixelFormat DEPTH
 ```
 
 
-Diepte-textureformaat.
+Diepte-textuurformaat.
 
 ### DXT1 {#DXT1}
 ```
@@ -425,7 +425,7 @@ public static final PixelFormat X8B8G8R8
 ```
 
 
-32-bit pixelindeling, 8 bits voor blauw, 8 bits voor groen, 8 bits voor rood zoals A8B8G8R8, maar alfa wordt weggegooid
+32-bit pixelindeling, 8 bits voor blauw, 8 bits voor groen, 8 bits voor rood zoals A8B8G8R8, maar alfa wordt verwijderd
 
 ### X8R8G8B8 {#X8R8G8B8}
 ```
@@ -433,7 +433,7 @@ public static final PixelFormat X8R8G8B8
 ```
 
 
-32-bit pixelindeling, 8 bits voor rood, 8 bits voor groen, 8 bits voor blauw zoals A8R8G8B8, maar alfa wordt weggegooid
+32-bit pixelindeling, 8 bits voor rood, 8 bits voor groen, 8 bits voor blauw zoals A8R8G8B8, maar alfa wordt verwijderd
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

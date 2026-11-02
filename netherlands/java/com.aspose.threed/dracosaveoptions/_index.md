@@ -1,6 +1,6 @@
 ---
 title: "DracoSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Opslagopties voor Google Draco-bestanden"
 type: docs
 weight: 47
@@ -18,7 +18,7 @@ Opslagopties voor Google Draco-bestanden
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [DracoSaveOptions()](#DracoSaveOptions--) | Construeer een standaardconfiguratie voor het opslaan van draco-bestanden. |
+| [DracoSaveOptions()](#DracoSaveOptions--) | Stel een standaardconfiguratie samen voor het opslaan van draco-bestanden. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -29,12 +29,12 @@ Opslagopties voor Google Draco-bestanden
 | [getColorBits()](#getColorBits--) | Quantisatietbits voor vertexkleur, standaardwaarde is 10 |
 | [getCompressionLevel()](#getCompressionLevel--) | Compressieniveau, standaardwaarde is [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD) |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [getNormalBits()](#getNormalBits--) | Quantisatietbits voor normaalvectoren, standaardwaarde is 10 |
 | [getPointCloud()](#getPointCloud--) | Exporteer de scène als puntwolk, standaardwaarde is false. |
 | [getPositionBits()](#getPositionBits--) | Quantisatietbits voor positie, standaardwaarde is 14 |
@@ -46,11 +46,11 @@ Opslagopties voor Google Draco-bestanden
 | [setColorBits(int value)](#setColorBits-int-) | Quantisatietbits voor vertexkleur, standaardwaarde is 10 |
 | [setCompressionLevel(DracoCompressionLevel value)](#setCompressionLevel-com.aspose.threed.DracoCompressionLevel-) | Compressieniveau, standaardwaarde is [DracoCompressionLevel.STANDARD](../../com.aspose.threed/dracocompressionlevel\#STANDARD) |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [setNormalBits(int value)](#setNormalBits-int-) | Quantisatietbits voor normaalvectoren, standaardwaarde is 10 |
 | [setPointCloud(boolean value)](#setPointCloud-boolean-) | Exporteer de scène als puntwolk, standaardwaarde is false. |
 | [setPositionBits(int value)](#setPositionBits-int-) | Quantisatietbits voor positie, standaardwaarde is 14 |
@@ -65,7 +65,7 @@ public DracoSaveOptions()
 ```
 
 
-Construeer een standaardconfiguratie voor het opslaan van draco-bestanden.
+Stel een standaardconfiguratie samen voor het opslaan van draco-bestanden.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -138,7 +138,7 @@ public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -148,7 +148,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -158,10 +158,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -202,7 +202,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -231,10 +231,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -367,7 +367,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -380,7 +380,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -398,7 +398,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -430,7 +430,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -462,12 +462,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();

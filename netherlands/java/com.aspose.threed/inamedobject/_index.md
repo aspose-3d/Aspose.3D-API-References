@@ -1,6 +1,6 @@
 ---
 title: "INamedObject"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Object dat een naam heeft"
 type: docs
 weight: 245
@@ -15,14 +15,14 @@ Object dat een naam heeft
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getName()](#getName--) | Haalt de naam van het object op |
+| [getName()](#getName--) | Haalt de naam van het object op. |
 ### getName() {#getName--}
 ```
 public abstract String getName()
 ```
 
 
-Haalt de naam van het object op
+Haalt de naam van het object op.
 
 **Returns:**
-java.lang.String - de naam van het object
+java.lang.String - de naam van het object.

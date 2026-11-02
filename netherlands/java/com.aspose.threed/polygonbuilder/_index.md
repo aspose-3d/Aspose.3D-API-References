@@ -1,7 +1,7 @@
 ---
 title: "PolygonBuilder"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een helperklasse om een polygoon te bouwen voor  Example"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een hulpprogrammaklasse om polygonen te bouwen voor  Example"
 type: docs
 weight: 133
 url: /nl/java/com.aspose.threed/polygonbuilder/
@@ -33,7 +33,7 @@ Mesh mesh = new Mesh();
   mesh.createPolygon(indices);
 ```
 
-Als alle indices klaar zijn voor gebruik, heeft [Mesh](../../com.aspose.threed/mesh) de voorkeur, anders zou [PolygonBuilder](../../com.aspose.threed/polygonbuilder) een betere keuze zijn.
+Als alle indices klaar zijn voor gebruik, is [Mesh](../../com.aspose.threed/mesh) de voorkeur, anders zou [PolygonBuilder](../../com.aspose.threed/polygonbuilder) een betere keuze zijn.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -43,7 +43,7 @@ Als alle indices klaar zijn voor gebruik, heeft [Mesh](../../com.aspose.threed/m
 
 | Methode | Beschrijving |
 | --- | --- |
-| [addVertex(int index)](#addVertex-int-) | Voegt een vertex-index toe aan de polygoon |
+| [addVertex(int index)](#addVertex-int-) | Voegt een vertexindex toe aan de polygoon |
 | [begin()](#begin--) | Begint met het toevoegen van een nieuwe polygoon |
 | [end()](#end--) | Rondt de creatie van de polygoon af |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -74,7 +74,7 @@ public void addVertex(int index)
 ```
 
 
-Voegt een vertex-index toe aan de polygoon
+Voegt een vertexindex toe aan de polygoon
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

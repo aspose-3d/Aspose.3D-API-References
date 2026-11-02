@@ -1,7 +1,7 @@
 ---
 title: "Versie"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Gemaakt door lexchou op 17-4-2017."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Gemaakt door lexchou op 4/17/2017."
 type: docs
 weight: 204
 url: /nl/java/com.aspose.threed/version/
@@ -16,7 +16,7 @@ java.lang.Cloneable, java.io.Serializable
 public class Version implements Cloneable, Serializable
 ```
 
-Gemaakt door lexchou op 17-4-2017.
+Gemaakt door lexchou op 4/17/2017.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -52,7 +52,7 @@ public Version(int major, int minor, int build)
 | --- | --- | --- |
 | major | int |  |
 | klein | int |  |
-| build | int |  |
+| bouw | int |  |
 
 ### Version(int major, int minor) {#Version-int-int-}
 ```
@@ -75,7 +75,7 @@ public Version(String ver)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| versie | java.lang.String |  |
+| ver | java.lang.String |  |
 
 ### clone() {#clone--}
 ```

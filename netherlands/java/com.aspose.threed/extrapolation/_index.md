@@ -1,7 +1,7 @@
 ---
 title: "Extrapolation"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Extrapolatie definieert wat te doen wanneer een bemonsterde waarde buiten het bereik valt dat gedefinieerd is door de eerste en laatste keyframes."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Extrapolatie definieert hoe te handelen wanneer een bemonsterde waarde buiten het bereik valt dat is gedefinieerd door de eerste en laatste keyframes."
 type: docs
 weight: 57
 url: /nl/java/com.aspose.threed/extrapolation/
@@ -13,20 +13,20 @@ java.lang.Object
 public class Extrapolation
 ```
 
-Extrapolatie definieert wat te doen wanneer een bemonsterde waarde buiten het bereik valt dat gedefinieerd is door de eerste en laatste keyframes.
+Extrapolatie definieert hoe te handelen wanneer een bemonsterde waarde buiten het bereik valt dat is gedefinieerd door de eerste en laatste keyframes.
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getRepeatCount()](#getRepeatCount--) | Haalt op en stelt het aantal herhalingen van het extrapolatiepatroon in. |
-| [getType()](#getType--) | Haalt op en stelt het bemonsteringspatroon van extrapolatie in |
+| [getRepeatCount()](#getRepeatCount--) | Krijgt en stelt het aantal herhalingen van het extrapolatiepatroon in. |
+| [getType()](#getType--) | Krijgt en stelt het bemonsteringspatroon van extrapolatie in |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setRepeatCount(int value)](#setRepeatCount-int-) | Haalt op en stelt het aantal herhalingen van het extrapolatiepatroon in. |
-| [setType(ExtrapolationType value)](#setType-com.aspose.threed.ExtrapolationType-) | Haalt op en stelt het bemonsteringspatroon van extrapolatie in |
+| [setRepeatCount(int value)](#setRepeatCount-int-) | Krijgt en stelt het aantal herhalingen van het extrapolatiepatroon in. |
+| [setType(ExtrapolationType value)](#setType-com.aspose.threed.ExtrapolationType-) | Krijgt en stelt het bemonsteringspatroon van extrapolatie in |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public int getRepeatCount()
 ```
 
 
-Haalt op en stelt het aantal herhalingen van het extrapolatiepatroon in.
+Krijgt en stelt het aantal herhalingen van het extrapolatiepatroon in.
 
 **Returns:**
 int - en stelt het aantal herhalingen van het extrapolatiepatroon in.
@@ -72,7 +72,7 @@ public ExtrapolationType getType()
 ```
 
 
-Haalt op en stelt het bemonsteringspatroon van extrapolatie in
+Krijgt en stelt het bemonsteringspatroon van extrapolatie in
 
 **Returns:**
 [ExtrapolationType](../../com.aspose.threed/extrapolationtype) - and sets the sampling pattern of extrapolation
@@ -108,7 +108,7 @@ public void setRepeatCount(int value)
 ```
 
 
-Haalt op en stelt het aantal herhalingen van het extrapolatiepatroon in.
+Krijgt en stelt het aantal herhalingen van het extrapolatiepatroon in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -121,7 +121,7 @@ public void setType(ExtrapolationType value)
 ```
 
 
-Haalt op en stelt het bemonsteringspatroon van extrapolatie in
+Krijgt en stelt het bemonsteringspatroon van extrapolatie in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

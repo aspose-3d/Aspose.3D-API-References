@@ -1,6 +1,6 @@
 ---
 title: "Licentie"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Biedt methoden om het component te licentiëren."
 type: docs
 weight: 93
@@ -15,7 +15,7 @@ public class License
 
 Biedt methoden om het component te licentiëren.
 
-Voor meer informatie, bezoek het documentatie‑artikel **Licensing and Subscription**.
+Om meer te weten te komen, bezoek het **Licensing and Subscription** documentatie-artikel.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -30,8 +30,8 @@ Voor meer informatie, bezoek het documentatie‑artikel **Licensing and Subscrip
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licentieert het component. |
-| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licentieert het component. |
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licentieert de component. |
+| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licentieert de component. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -101,14 +101,14 @@ public void setLicense(InputStream stream)
 ```
 
 
-Licentieert het component.
+Licentieert de component.
 
 Gebruik deze methode om een licentie uit een stream te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Een stream die de licentie bevat. |
+| stroom | java.io.InputStream | Een stroom die de licentie bevat. |
 
 ### setLicense(String licenseName) {#setLicense-java.lang.String-}
 ```
@@ -116,7 +116,7 @@ public void setLicense(String licenseName)
 ```
 
 
-Licentieert het component.
+Licentieert de component.
 
 Probeert de licentie te vinden op de volgende locaties:
 

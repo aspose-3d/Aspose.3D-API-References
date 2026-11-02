@@ -1,7 +1,7 @@
 ---
 title: "CubeFace"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Elk vlak van de cube map-textuur."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Elk vlak van de cube map-textuur"
 type: docs
 weight: 274
 url: /nl/java/com.aspose.threed/cubeface/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CubeFace extends Enum<CubeFace>
 ```
 
-Elk vlak van de cube map-textuur.
+Elk vlak van de cube map-textuur
 ## Velden
 
 | Veld | Beschrijving |

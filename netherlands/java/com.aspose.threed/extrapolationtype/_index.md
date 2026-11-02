@@ -1,6 +1,6 @@
 ---
 title: "ExtrapolationType"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Extrapolatietype."
 type: docs
 weight: 278

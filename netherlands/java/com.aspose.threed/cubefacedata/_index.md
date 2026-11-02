@@ -1,7 +1,7 @@
 ---
 title: "CubeFaceData"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Gegevens voor elk gezicht van de cube map-textuur."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Gegevens voor elk vlak van de cubemap-textuur."
 type: docs
 weight: 36
 url: /nl/java/com.aspose.threed/cubefacedata/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class CubeFaceData<T> implements Struct<CubeFaceData<T>>, Serializable
 ```
 
-Gegevens voor elk gezicht van de cube map-textuur.
+Gegevens voor elk vlak van de cubemap-textuur.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -46,19 +46,19 @@ Gegevens voor elk gezicht van de cube map-textuur.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(CubeFace face, T value)](#set-com.aspose.threed.CubeFace-T-) | Stelt de gegevens in voor de opgegeven zijde |
-| [setBack(T value)](#setBack-T-) | Stelt de gegevens in voor de +Z(Achter) zijde |
-| [setBottom(T value)](#setBottom-T-) | Stelt de gegevens in voor de -Y(Onder) zijde |
-| [setFront(T value)](#setFront-T-) | Stelt de gegevens in voor de -Z(Voorkant) zijde |
-| [setLeft(T value)](#setLeft-T-) | Stelt de gegevens in voor de +X(Linker) zijde |
-| [setNegativeX(T value)](#setNegativeX-T-) | Stelt de gegevens in voor de +X(Linker) zijde |
-| [setNegativeY(T value)](#setNegativeY-T-) | Stelt de gegevens in voor de -Y(Onder) zijde |
-| [setNegativeZ(T value)](#setNegativeZ-T-) | Stelt de gegevens in voor de -Z(Voorkant) zijde |
-| [setPositiveX(T value)](#setPositiveX-T-) | Stelt de gegevens in voor de +X(Rechter) zijde |
-| [setPositiveY(T value)](#setPositiveY-T-) | Stelt de gegevens in voor de +Y(Boven) zijde |
-| [setPositiveZ(T value)](#setPositiveZ-T-) | Stelt de gegevens in voor de +Z(Achter) zijde |
-| [setRight(T value)](#setRight-T-) | Stelt de gegevens in voor de +X(Rechter) zijde |
-| [setTop(T value)](#setTop-T-) | Stelt de gegevens in voor de +Y(Boven) zijde |
+| [set(CubeFace face, T value)](#set-com.aspose.threed.CubeFace-T-) | Stelt de gegevens in voor gespecificeerd vlak |
+| [setBack(T value)](#setBack-T-) | Stelt de gegevens in voor +Z(Back) vlak |
+| [setBottom(T value)](#setBottom-T-) | Stelt de gegevens in voor -Y(Bottom) vlak |
+| [setFront(T value)](#setFront-T-) | Stelt de gegevens in voor -Z(Front) vlak |
+| [setLeft(T value)](#setLeft-T-) | Stelt de gegevens in voor +X(Left) vlak |
+| [setNegativeX(T value)](#setNegativeX-T-) | Stelt de gegevens in voor +X(Left) vlak |
+| [setNegativeY(T value)](#setNegativeY-T-) | Stelt de gegevens in voor -Y(Bottom) vlak |
+| [setNegativeZ(T value)](#setNegativeZ-T-) | Stelt de gegevens in voor -Z(Front) vlak |
+| [setPositiveX(T value)](#setPositiveX-T-) | Stelt de gegevens in voor +X(Right) vlak |
+| [setPositiveY(T value)](#setPositiveY-T-) | Stelt de gegevens in voor +Y(Top) vlak |
+| [setPositiveZ(T value)](#setPositiveZ-T-) | Stelt de gegevens in voor +Z(Back) vlak |
+| [setRight(T value)](#setRight-T-) | Stelt de gegevens in voor +X(Right) vlak |
+| [setTop(T value)](#setTop-T-) | Stelt de gegevens in voor +Y(Top) vlak |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -121,7 +121,7 @@ Haalt de gegevens op voor de opgegeven zijde.
 | face | [CubeFace](../../com.aspose.threed/cubeface) |  |
 
 **Returns:**
-T - de gegevens voor de opgegeven zijde
+T - de gegevens voor gespecificeerd vlak
 ### getBack() {#getBack--}
 ```
 public T getBack()
@@ -131,7 +131,7 @@ public T getBack()
 Haalt de gegevens op voor de +Z (Achter) zijde.
 
 **Returns:**
-T - de gegevens voor de +Z(Achter) zijde
+T - de gegevens voor +Z(Back) vlak
 ### getBottom() {#getBottom--}
 ```
 public T getBottom()
@@ -141,7 +141,7 @@ public T getBottom()
 Haalt de gegevens op voor de -Y (Onder) zijde.
 
 **Returns:**
-T - de gegevens voor de -Y(Onder) zijde
+T - de gegevens voor -Y(Bottom) vlak
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -161,7 +161,7 @@ public T getFront()
 Haalt de gegevens op voor de -Z (Voor) zijde.
 
 **Returns:**
-T - de gegevens voor de -Z(Voorkant) zijde
+T - de gegevens voor -Z(Front) vlak
 ### getLeft() {#getLeft--}
 ```
 public T getLeft()
@@ -171,7 +171,7 @@ public T getLeft()
 Haalt de gegevens op voor de +X (Links) zijde.
 
 **Returns:**
-T - de gegevens voor de +X(Linker) zijde
+T - de gegevens voor +X(Left) vlak
 ### getNegativeX() {#getNegativeX--}
 ```
 public T getNegativeX()
@@ -181,7 +181,7 @@ public T getNegativeX()
 Haalt de gegevens op voor de +X (Links) zijde.
 
 **Returns:**
-T - de gegevens voor de +X(Linker) zijde
+T - de gegevens voor +X(Left) vlak
 ### getNegativeY() {#getNegativeY--}
 ```
 public T getNegativeY()
@@ -191,7 +191,7 @@ public T getNegativeY()
 Haalt de gegevens op voor de -Y (Onder) zijde.
 
 **Returns:**
-T - de gegevens voor de -Y(Onder) zijde
+T - de gegevens voor -Y(Bottom) vlak
 ### getNegativeZ() {#getNegativeZ--}
 ```
 public T getNegativeZ()
@@ -201,7 +201,7 @@ public T getNegativeZ()
 Haalt de gegevens op voor de -Z (Voor) zijde.
 
 **Returns:**
-T - de gegevens voor de -Z(Voorkant) zijde
+T - de gegevens voor -Z(Front) vlak
 ### getPositiveX() {#getPositiveX--}
 ```
 public T getPositiveX()
@@ -211,7 +211,7 @@ public T getPositiveX()
 Haalt de gegevens op voor de +X (Rechts) zijde.
 
 **Returns:**
-T - de gegevens voor de +X(Rechter) zijde
+T - de gegevens voor +X(Right) vlak
 ### getPositiveY() {#getPositiveY--}
 ```
 public T getPositiveY()
@@ -221,7 +221,7 @@ public T getPositiveY()
 Haalt de gegevens op voor de +Y (Boven) zijde.
 
 **Returns:**
-T - de gegevens voor de +Y(Boven) zijde
+T - de gegevens voor +Y(Top) vlak
 ### getPositiveZ() {#getPositiveZ--}
 ```
 public T getPositiveZ()
@@ -231,7 +231,7 @@ public T getPositiveZ()
 Haalt de gegevens op voor de +Z (Achter) zijde.
 
 **Returns:**
-T - de gegevens voor de +Z(Achter) zijde
+T - de gegevens voor +Z(Back) vlak
 ### getRight() {#getRight--}
 ```
 public T getRight()
@@ -241,7 +241,7 @@ public T getRight()
 Haalt de gegevens op voor de +X (Rechts) zijde.
 
 **Returns:**
-T - de gegevens voor de +X(Rechter) zijde
+T - de gegevens voor +X(Right) vlak
 ### getTop() {#getTop--}
 ```
 public T getTop()
@@ -251,7 +251,7 @@ public T getTop()
 Haalt de gegevens op voor de +Y (Boven) zijde.
 
 **Returns:**
-T - de gegevens voor de +Y(Boven) zijde
+T - de gegevens voor +Y(Top) vlak
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -284,7 +284,7 @@ public void set(CubeFace face, T value)
 ```
 
 
-Stelt de gegevens in voor de opgegeven zijde
+Stelt de gegevens in voor gespecificeerd vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -298,7 +298,7 @@ public void setBack(T value)
 ```
 
 
-Stelt de gegevens in voor de +Z(Achter) zijde
+Stelt de gegevens in voor +Z(Back) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -311,7 +311,7 @@ public void setBottom(T value)
 ```
 
 
-Stelt de gegevens in voor de -Y(Onder) zijde
+Stelt de gegevens in voor -Y(Bottom) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -324,7 +324,7 @@ public void setFront(T value)
 ```
 
 
-Stelt de gegevens in voor de -Z(Voorkant) zijde
+Stelt de gegevens in voor -Z(Front) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -337,7 +337,7 @@ public void setLeft(T value)
 ```
 
 
-Stelt de gegevens in voor de +X(Linker) zijde
+Stelt de gegevens in voor +X(Left) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -350,7 +350,7 @@ public void setNegativeX(T value)
 ```
 
 
-Stelt de gegevens in voor de +X(Linker) zijde
+Stelt de gegevens in voor +X(Left) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -363,7 +363,7 @@ public void setNegativeY(T value)
 ```
 
 
-Stelt de gegevens in voor de -Y(Onder) zijde
+Stelt de gegevens in voor -Y(Bottom) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -376,7 +376,7 @@ public void setNegativeZ(T value)
 ```
 
 
-Stelt de gegevens in voor de -Z(Voorkant) zijde
+Stelt de gegevens in voor -Z(Front) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -389,7 +389,7 @@ public void setPositiveX(T value)
 ```
 
 
-Stelt de gegevens in voor de +X(Rechter) zijde
+Stelt de gegevens in voor +X(Right) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -402,7 +402,7 @@ public void setPositiveY(T value)
 ```
 
 
-Stelt de gegevens in voor de +Y(Boven) zijde
+Stelt de gegevens in voor +Y(Top) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -415,7 +415,7 @@ public void setPositiveZ(T value)
 ```
 
 
-Stelt de gegevens in voor de +Z(Achter) zijde
+Stelt de gegevens in voor +Z(Back) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -428,7 +428,7 @@ public void setRight(T value)
 ```
 
 
-Stelt de gegevens in voor de +X(Rechter) zijde
+Stelt de gegevens in voor +X(Right) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -441,7 +441,7 @@ public void setTop(T value)
 ```
 
 
-Stelt de gegevens in voor de +Y(Boven) zijde
+Stelt de gegevens in voor +Y(Top) vlak
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

@@ -1,7 +1,7 @@
 ---
 title: "CullFaceMode"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Welk gezicht te verwijderen"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Welk vlak te verwijderen"
 type: docs
 weight: 37
 url: /nl/java/com.aspose.threed/cullfacemode/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class CullFaceMode
 ```
 
-Welk gezicht te verwijderen
+Welk vlak te verwijderen
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -24,7 +24,7 @@ Welk gezicht te verwijderen
 | Veld | Beschrijving |
 | --- | --- |
 | [BACK](#BACK) | Alleen achterkantvlakken worden verwijderd |
-| [BOTH](#BOTH) | Zowel achterkant- als voorkantvlakken worden verwijderd, heeft geen invloed op lijn/punt rendering. |
+| [BOTH](#BOTH) | Zowel achterkant- als voorkantvlakken worden verwijderd, dit heeft geen invloed op lijn/punt rendering. |
 | [FRONT](#FRONT) | Alleen voorkantvlakken worden verwijderd |
 ## Methoden
 
@@ -59,7 +59,7 @@ public static final int BOTH
 ```
 
 
-Zowel achterkant- als voorkantvlakken worden verwijderd, heeft geen invloed op lijn/punt rendering.
+Zowel achterkant- als voorkantvlakken worden verwijderd, dit heeft geen invloed op lijn/punt rendering.
 
 ### FRONT {#FRONT}
 ```

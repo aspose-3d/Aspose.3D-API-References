@@ -1,7 +1,7 @@
 ---
 title: "MappingMode"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Bepaalt hoe het element wordt gemapt op een oppervlak."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Bepaalt hoe het element op een oppervlak wordt gemapt."
 type: docs
 weight: 285
 url: /nl/java/com.aspose.threed/mappingmode/
@@ -13,16 +13,16 @@ java.lang.Object, java.lang.Enum
 public enum MappingMode extends Enum<MappingMode>
 ```
 
-Bepaalt hoe het element op een oppervlak wordt gemapt. De [MappingMode](../../com.aspose.threed/mappingmode) definieert hoe [VertexElement](../../com.aspose.threed/vertexelement) op het oppervlak van geometrie wordt gemapt.
+Bepaalt hoe het element wordt gemapt op een oppervlak. De [MappingMode](../../com.aspose.threed/mappingmode) definieert hoe [VertexElement](../../com.aspose.threed/vertexelement) wordt gemapt op het oppervlak van geometrie.
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [ALL_SAME](#ALL-SAME) | Één data toegewezen aan het hele oppervlak. |
+| [ALL_SAME](#ALL-SAME) | Eén data toegewezen aan het gehele oppervlak. |
 | [CONTROL_POINT](#CONTROL-POINT) | Elke data wordt toegewezen aan het controlepunt van de geometrie. |
 | [EDGE](#EDGE) | De data wordt toegewezen aan de rand. |
-| [POLYGON](#POLYGON) | De data wordt toegewezen aan het polygon. |
-| [POLYGON_VERTEX](#POLYGON-VERTEX) | De data wordt toegewezen aan de vertex van het polygon. Wanneer een controlepunt wordt gedeeld door meerdere polygonen, en de data wordt toegewezen als [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX), zal het controlepunt als verschillende polygon-vertex zijn eigen data hebben. |
+| [POLYGON](#POLYGON) | De data wordt toegewezen aan de veelhoek. |
+| [POLYGON_VERTEX](#POLYGON-VERTEX) | De data wordt toegewezen aan de vertex van de veelhoek. Wanneer een controlepunt wordt gedeeld door meerdere veelhoeken, en de data wordt toegewezen als [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX), zal het controlepunt als verschillende veelhoek-vertex zijn eigen data hebben. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -50,7 +50,7 @@ public static final MappingMode ALL_SAME
 ```
 
 
-Één data toegewezen aan het hele oppervlak. Welke data ook wordt geïnterpreteerd als controlepunt/polygon-vertex/rand-eindpunten, de data is altijd hetzelfde als gedefinieerd door [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME).
+Eén data toegewezen aan het gehele oppervlak. Welke data ook wordt geïnterpreteerd als controlepunt/polygon-vertex/randpunten, de data is altijd hetzelfde zoals gedefinieerd door [ALL\_SAME](../../com.aspose.threed/mappingmode\#ALL-SAME).
 
 ### CONTROL_POINT {#CONTROL-POINT}
 ```
@@ -74,7 +74,7 @@ public static final MappingMode POLYGON
 ```
 
 
-De data wordt toegewezen aan het polygon. Elke polygon-vertex deelt dezelfde data wanneer de toewijzingsmodus [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON) is.
+De data wordt toegewezen aan de veelhoek. Elke veelhoek-vertex deelt dezelfde data wanneer de toewijzingsmodus [POLYGON](../../com.aspose.threed/mappingmode\#POLYGON) is.
 
 ### POLYGON_VERTEX {#POLYGON-VERTEX}
 ```
@@ -82,7 +82,7 @@ public static final MappingMode POLYGON_VERTEX
 ```
 
 
-De data wordt toegewezen aan de vertex van het polygon. Wanneer een controlepunt wordt gedeeld door meerdere polygonen, en de data wordt toegewezen als [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX), zal het controlepunt als verschillende polygon-vertex zijn eigen data hebben.
+De data wordt toegewezen aan de vertex van de veelhoek. Wanneer een controlepunt wordt gedeeld door meerdere veelhoeken, en de data wordt toegewezen als [POLYGON\_VERTEX](../../com.aspose.threed/mappingmode\#POLYGON-VERTEX), zal het controlepunt als verschillende veelhoek-vertex zijn eigen data hebben.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

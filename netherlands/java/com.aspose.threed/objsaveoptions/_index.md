@@ -1,7 +1,7 @@
 ---
 title: "ObjSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Opslagopties voor wavefront obj-bestand"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Opslagopties voor Wavefront OBJ-bestand"
 type: docs
 weight: 116
 url: /nl/java/com.aspose.threed/objsaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class ObjSaveOptions extends SaveOptions
 ```
 
-Opslagopties voor wavefront obj-bestand
+Opslagopties voor Wavefront OBJ-bestand
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -27,34 +27,34 @@ Opslagopties voor wavefront obj-bestand
 | [getApplyUnitScale()](#getApplyUnitScale--) | Pas [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) toe op de mesh. |
 | [getAxisSystem()](#getAxisSystem--) | Haalt het assenstelsel op in het geëxporteerde bestand. |
 | [getClass()](#getClass--) |  |
-| [getEnableMaterials()](#getEnableMaterials--) | Haalt op of materialen geïmporteerd/geëxporteerd worden voor elk object |
+| [getEnableMaterials()](#getEnableMaterials--) | Haalt op of materialen geïmporteerd/geëxporteerd moeten worden voor elk object |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Geeft aan of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Haalt op of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [getPointCloud()](#getPointCloud--) | Haalt de vlag op of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false |
-| [getSerializeW()](#getSerializeW--) | Haalt op of de W-component wordt geserialiseerd in de vertexpositie van het model. |
-| [getVerbose()](#getVerbose--) | Haalt op of er opmerkingen worden gegenereerd voor elke sectie. |
+| [getSerializeW()](#getSerializeW--) | Haalt op of de W-component moet worden geserialiseerd in de vertexpositie van het model. |
+| [getVerbose()](#getVerbose--) | Haalt op of er opmerkingen gegenereerd moeten worden voor elke sectie. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | Pas [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) toe op de mesh. |
 | [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | Stelt het assenstelsel in het geëxporteerde bestand in. |
-| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | Stelt in of materialen voor elk object worden geïmporteerd/geëxporteerd. |
+| [setEnableMaterials(boolean value)](#setEnableMaterials-boolean-) | Stelt in of materialen geïmporteerd/geëxporteerd moeten worden voor elk object. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Stelt in of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [setPointCloud(boolean value)](#setPointCloud-boolean-) | Stelt de vlag in of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false |
-| [setSerializeW(boolean value)](#setSerializeW-boolean-) | Stelt in of de W-component wordt geserialiseerd in de vertexpositie van het model. |
-| [setVerbose(boolean value)](#setVerbose-boolean-) | Stelt in of er opmerkingen worden gegenereerd voor elke sectie |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [setPointCloud(boolean value)](#setPointCloud-boolean-) | Stelt de vlag in of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false. |
+| [setSerializeW(boolean value)](#setSerializeW-boolean-) | Stelt in of de W-component moet worden geserialiseerd in de vertexpositie van het model. |
+| [setVerbose(boolean value)](#setVerbose-boolean-) | Stelt in of er opmerkingen gegenereerd moeten worden voor elke sectie |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -118,10 +118,10 @@ public boolean getEnableMaterials()
 ```
 
 
-Haalt op of materialen geïmporteerd/geëxporteerd worden voor elk object
+Haalt op of materialen geïmporteerd/geëxporteerd moeten worden voor elk object
 
 **Returns:**
-boolean - of materialen voor elk object worden geïmporteerd/geëxporteerd
+boolean - of materialen geïmporteerd/geëxporteerd moeten worden voor elk object
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -138,7 +138,7 @@ public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -148,7 +148,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -158,10 +158,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -202,7 +202,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -231,7 +231,7 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-Geeft aan of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren.
+Haalt op of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren.
 
 **Returns:**
 boolean - of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren.
@@ -241,10 +241,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -262,27 +262,27 @@ public boolean getPointCloud()
 Haalt de vlag op of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false
 
 **Returns:**
-boolean - de vlag of de exporteur de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false
+boolean - de vlag of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false
 ### getSerializeW() {#getSerializeW--}
 ```
 public boolean getSerializeW()
 ```
 
 
-Haalt op of de W-component wordt geserialiseerd in de vertexpositie van het model.
+Haalt op of de W-component moet worden geserialiseerd in de vertexpositie van het model.
 
 **Returns:**
-boolean - of de W-component wordt geserialiseerd in de vertexpositie van het model.
+boolean - of de W-component moet worden geserialiseerd in de vertexpositie van het model.
 ### getVerbose() {#getVerbose--}
 ```
 public boolean getVerbose()
 ```
 
 
-Haalt op of er opmerkingen worden gegenereerd voor elke sectie.
+Haalt op of er opmerkingen gegenereerd moeten worden voor elke sectie.
 
 **Returns:**
-boolean - of er opmerkingen worden gegenereerd voor elke sectie
+boolean - of er opmerkingen gegenereerd moeten worden voor elke sectie
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -341,7 +341,7 @@ public void setEnableMaterials(boolean value)
 ```
 
 
-Stelt in of materialen voor elk object worden geïmporteerd/geëxporteerd.
+Stelt in of materialen geïmporteerd/geëxporteerd moeten worden voor elk object.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -367,7 +367,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -380,7 +380,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -398,7 +398,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -430,7 +430,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -475,12 +475,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();
@@ -496,7 +496,7 @@ public void setPointCloud(boolean value)
 ```
 
 
-Stelt de vlag in of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false
+Stelt de vlag in of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -509,7 +509,7 @@ public void setSerializeW(boolean value)
 ```
 
 
-Stelt in of de W-component wordt geserialiseerd in de vertexpositie van het model.
+Stelt in of de W-component moet worden geserialiseerd in de vertexpositie van het model.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -522,7 +522,7 @@ public void setVerbose(boolean value)
 ```
 
 
-Stelt in of er opmerkingen worden gegenereerd voor elke sectie
+Stelt in of er opmerkingen gegenereerd moeten worden voor elke sectie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

@@ -1,6 +1,6 @@
 ---
 title: "Structs"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Basisklasse van struct-array"
 type: docs
 weight: 179
@@ -158,7 +158,7 @@ Schrijf de inhoud naar de opgegeven stream
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | Welke stream om de struct naartoe te schrijven |
+| stream | [Stream](../../com.aspose.threed/stream) | Welke stream om de struct naar te schrijven |
 
 ### writeTo(OutputStream stream) {#writeTo-java.io.OutputStream-}
 ```
@@ -171,5 +171,5 @@ public void writeTo(OutputStream stream)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream |  |
+| stroom | java.io.OutputStream |  |
 

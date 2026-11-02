@@ -1,6 +1,6 @@
 ---
 title: "Vector3"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Een vector met drie componenten."
 type: docs
 weight: 202
@@ -41,25 +41,25 @@ Een vector met drie componenten.
 | [angleBetween(Vector3 dir)](#angleBetween-com.aspose.threed.Vector3-) | Bereken de binnenhoek tussen twee richtingen. Twee richtingen kunnen niet-genormaliseerde vectoren zijn. |
 | [angleBetween(Vector3 dir, Vector3 up)](#angleBetween-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Bereken de binnenhoek tussen twee richtingen. Twee richtingen kunnen niet-genormaliseerde vectoren zijn. |
 | [clone()](#clone--) |  |
-| [compareTo(Vector3 other)](#compareTo-com.aspose.threed.Vector3-) | Vergelijk de huidige vector met een ander exemplaar. |
+| [compareTo(Vector3 other)](#compareTo-com.aspose.threed.Vector3-) | Vergelijk de huidige vector met een andere instantie. |
 | [copyFrom(Vector3 src)](#copyFrom-com.aspose.threed.Vector3-) |  |
-| [cos()](#cos--) | Berekent de cosinus voor elk component |
-| [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | Expliciete conversie‑operator om Vector3 te casten naar FVector3 |
-| [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | Kruisproduct van twee vectoren |
+| [cos()](#cos--) | Berekent de cosinus van elk component. |
+| [create(Vector3 v)](#create-com.aspose.threed.Vector3-) | Expliciete conversie-operator om Vector3 naar FVector3 te casten. |
+| [cross(Vector3 rhs)](#cross-com.aspose.threed.Vector3-) | Kruisproduct van twee vectoren. |
 | [div(Vector3 lhs, Vector3 rhs)](#div-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Operatoroverbelasting voor / |
 | [div(Vector3 lhs, double rhs)](#div-com.aspose.threed.Vector3-double-) | Operatoroverbelasting voor / |
 | [dot(Vector3 rhs)](#dot-com.aspose.threed.Vector3-) | Haalt het inproduct van twee vectoren op. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Controleer of twee vector3 gelijk zijn |
+| [equals(Object obj)](#equals-java.lang.Object-) | Controleer of twee vector3 gelijk zijn. |
 | [get(int idx)](#get-int-) | Haalt de component van de vector op op basis van index. |
 | [getClass()](#getClass--) |  |
 | [getLength()](#getLength--) | Haalt de lengte van deze vector op. |
 | [getLength2()](#getLength2--) | Haalt het kwadraat van de lengte op. |
-| [getOne()](#getOne--) | Haalt eenheidsvector (1, 1, 1) op |
-| [getUnitX()](#getUnitX--) | Haalt eenheidsvector (1, 0, 0) op |
-| [getUnitY()](#getUnitY--) | Haalt eenheidsvector (0, 1, 0) op |
-| [getUnitZ()](#getUnitZ--) | Haalt eenheidsvector (0, 0, 1) op |
-| [getZero()](#getZero--) | Haalt eenheidsvector (0, 0, 0) op |
-| [hashCode()](#hashCode--) | Haalt de hashcode van Vector3 op |
+| [getOne()](#getOne--) | Haalt een eenheidsvector (1, 1, 1) op. |
+| [getUnitX()](#getUnitX--) | Haalt een eenheidsvector (1, 0, 0) op. |
+| [getUnitY()](#getUnitY--) | Haalt een eenheidsvector (0, 1, 0) op. |
+| [getUnitZ()](#getUnitZ--) | Haalt een eenheidsvector (0, 0, 1) op. |
+| [getZero()](#getZero--) | Haalt een eenheidsvector (0, 0, 0) op. |
+| [hashCode()](#hashCode--) | Haalt de hashcode van Vector3 op. |
 | [mul(Vector3 lhs, Vector3 rhs)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Operatoroverbelasting voor \* |
 | [mul(Vector3 lhs, double rhs)](#mul-com.aspose.threed.Vector3-double-) | Operatoroverbelasting voor \* |
 | [mul(double lhs, Vector3 rhs)](#mul-double-com.aspose.threed.Vector3-) | Operatoroverbelasting voor \* |
@@ -70,8 +70,8 @@ Een vector met drie componenten.
 | [op_eq(Vector3 lhs, Vector3 rhs)](#op-eq-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Gelijke operator voor Vector3 |
 | [op_ne(Vector3 lhs, Vector3 rhs)](#op-ne-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Niet-gelijke operator voor Vector3 |
 | [set(double newX, double newY, double newZ)](#set-double-double-double-) | Stelt de x/y/z-component in één oproep in. |
-| [set(int idx, double value)](#set-int-double-) | Stelt de component van de vector in op index. |
-| [sin()](#sin--) | Berekent de sinus van elke component |
+| [set(int idx, double value)](#set-int-double-) | Stelt de component van de vector in via index. |
+| [sin()](#sin--) | Bereken de sinus van elk component |
 | [sub(Vector3 lhs, Vector3 rhs)](#sub-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Operatoroverbelasting voor - (minus) |
 | [toString()](#toString--) | Retourneert een java.lang.String die de huidige [Vector3](../../com.aspose.threed/vector3) vertegenwoordigt. |
 | [wait()](#wait--) |  |
@@ -172,8 +172,8 @@ Operatoroverbelasting voor +
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | De linker vector |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechter vector |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | De linkervector |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechtervector |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -188,7 +188,7 @@ Bereken de binnenhoek tussen twee richtingen. Twee richtingen kunnen niet-genorm
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| dir | [Vector3](../../com.aspose.threed/vector3) | De richtingsvector om mee te vergelijken |
+| dir | [Vector3](../../com.aspose.threed/vector3) | De richtingvector om mee te vergelijken |
 
 **Returns:**
 double - binnenhoek in radialen
@@ -203,8 +203,8 @@ Bereken de binnenhoek tussen twee richtingen. Twee richtingen kunnen niet-genorm
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| dir | [Vector3](../../com.aspose.threed/vector3) | De richtingsvector om mee te vergelijken |
-| up | [Vector3](../../com.aspose.threed/vector3) | De up-vector van het gedeelde vlak van de twee richtingen |
+| dir | [Vector3](../../com.aspose.threed/vector3) | De richtingvector om mee te vergelijken |
+| up | [Vector3](../../com.aspose.threed/vector3) | De opwaartse vector van het gedeelde vlak van de twee richtingen |
 
 **Returns:**
 double - binnenhoek in radialen
@@ -224,7 +224,7 @@ public int compareTo(Vector3 other)
 ```
 
 
-Vergelijk de huidige vector met een ander exemplaar.
+Vergelijk de huidige vector met een andere instantie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -252,7 +252,7 @@ public Vector3 cos()
 ```
 
 
-Berekent de cosinus voor elk component
+Berekent de cosinus van elk component.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Calculated [Vector3](../../com.aspose.threed/vector3).
@@ -262,7 +262,7 @@ public static FVector3 create(Vector3 v)
 ```
 
 
-Expliciete conversie‑operator om Vector3 te casten naar FVector3
+Expliciete conversie-operator om Vector3 naar FVector3 te casten.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -277,7 +277,7 @@ public Vector3 cross(Vector3 rhs)
 ```
 
 
-Kruisproduct van twee vectoren
+Kruisproduct van twee vectoren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -297,8 +297,8 @@ Operatoroverbelasting voor /
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | De linker vector |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechter vector |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | De linkervector |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechtervector |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -313,7 +313,7 @@ Operatoroverbelasting voor /
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | De linker vector |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | De linkervector |
 | rhs | double | De rechter double-waarde |
 
 **Returns:**
@@ -332,14 +332,14 @@ Haalt het inproduct van twee vectoren op.
 | rhs | [Vector3](../../com.aspose.threed/vector3) | Rechterkantwaarde. |
 
 **Returns:**
-double - Het dotproduct van de twee vectoren.
+double - Het inproduct van de twee vectoren.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-Controleer of twee vector3 gelijk zijn
+Controleer of twee vector3 gelijk zijn.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -399,7 +399,7 @@ public static Vector3 getOne()
 ```
 
 
-Haalt eenheidsvector (1, 1, 1) op
+Haalt een eenheidsvector (1, 1, 1) op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (1, 1, 1)
@@ -409,7 +409,7 @@ public static Vector3 getUnitX()
 ```
 
 
-Haalt eenheidsvector (1, 0, 0) op
+Haalt een eenheidsvector (1, 0, 0) op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (1, 0, 0)
@@ -419,7 +419,7 @@ public static Vector3 getUnitY()
 ```
 
 
-Haalt eenheidsvector (0, 1, 0) op
+Haalt een eenheidsvector (0, 1, 0) op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 1, 0)
@@ -429,7 +429,7 @@ public static Vector3 getUnitZ()
 ```
 
 
-Haalt eenheidsvector (0, 0, 1) op
+Haalt een eenheidsvector (0, 0, 1) op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 0, 1)
@@ -439,7 +439,7 @@ public static Vector3 getZero()
 ```
 
 
-Haalt eenheidsvector (0, 0, 0) op
+Haalt een eenheidsvector (0, 0, 0) op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - unit vector (0, 0, 0)
@@ -449,7 +449,7 @@ public int hashCode()
 ```
 
 
-Haalt de hashcode van Vector3 op
+Haalt de hashcode van Vector3 op.
 
 **Returns:**
 int - De hashcode van de [Vector3](../../com.aspose.threed/vector3)
@@ -464,8 +464,8 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | De linker vector |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechter vector |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | De linkervector |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechtervector |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -480,7 +480,7 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | De linker vector |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | De linkervector |
 | rhs | double | De rechter double-waarde |
 
 **Returns:**
@@ -496,8 +496,8 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | double | De linker scalar |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechter vector |
+| lhs | double | De linkse scalair |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechtervector |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -553,7 +553,7 @@ Gelijke operator voor Vector3
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | Linkerhandwaarde. |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | Linkerkantwaarde. |
 | rhs | [Vector3](../../com.aspose.threed/vector3) | Rechterkantwaarde. |
 
 **Returns:**
@@ -569,7 +569,7 @@ Niet-gelijke operator voor Vector3
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | Linkerhandwaarde. |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | Linkerkantwaarde. |
 | rhs | [Vector3](../../com.aspose.threed/vector3) | Rechterkantwaarde. |
 
 **Returns:**
@@ -595,7 +595,7 @@ public void set(int idx, double value)
 ```
 
 
-Stelt de component van de vector in op index.
+Stelt de component van de vector in via index.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -609,7 +609,7 @@ public Vector3 sin()
 ```
 
 
-Berekent de sinus van elke component
+Bereken de sinus van elk component
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Calculated [Vector3](../../com.aspose.threed/vector3).
@@ -624,8 +624,8 @@ Operatoroverbelasting voor - (minus)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector3](../../com.aspose.threed/vector3) | De linker vector |
-| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechter vector |
+| lhs | [Vector3](../../com.aspose.threed/vector3) | De linkervector |
+| rhs | [Vector3](../../com.aspose.threed/vector3) | De rechtervector |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector

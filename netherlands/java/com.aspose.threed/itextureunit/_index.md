@@ -1,7 +1,7 @@
 ---
 title: "ITextureUnit"
-second_title: "Aspose.3D for Java API-referentie"
-description: "vertegenwoordigt een textuur in het geheugen die gedeeld wordt tussen GPU en CPU en kan worden bemonsterd door de shader waarbij de  alleen een verwijzing naar een extern bestand vertegenwoordigt."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "vertegenwoordigt een textuur in het geheugen die gedeeld wordt tussen GPU en CPU en kan worden bemonsterd door de shader, waarbij de  alleen een verwijzing naar een extern bestand vertegenwoordigt."
 type: docs
 weight: 258
 url: /nl/java/com.aspose.threed/itextureunit/
@@ -25,19 +25,19 @@ public interface ITextureUnit extends Closeable
 | [getMipmap()](#getMipmap--) | Haalt de filtermodus voor mipmap op. |
 | [getScale()](#getScale--) | Haalt de schaal van de UV-coördinaat op. |
 | [getScroll()](#getScroll--) | Haalt de scroll van de UV-coördinaat op. |
-| [getType()](#getType--) | Haalt het type van deze texture‑eenheid op. |
-| [getUWrap()](#getUWrap--) | Haalt de wrap‑modus voor de U‑coördinaat van de textuur op. |
-| [getVWrap()](#getVWrap--) | Haalt de wrap‑modus voor de V‑coördinaat van de textuur op. |
-| [getWWrap()](#getWWrap--) | Haalt de wrap‑modus voor de W‑coördinaat van de textuur op. |
+| [getType()](#getType--) | Haalt het type van deze texture-eenheid op. |
+| [getUWrap()](#getUWrap--) | Haalt de wrap-modus voor de U-coördinaat van de textuur op. |
+| [getVWrap()](#getVWrap--) | Haalt de wrap-modus voor de V-coördinaat van de textuur op. |
+| [getWWrap()](#getWWrap--) | Haalt de wrap-modus voor de W-coördinaat van de textuur op. |
 | [getWidth()](#getWidth--) | Haalt de breedte van deze textuur op. |
 | [setMagnification(TextureFilter value)](#setMagnification-com.aspose.threed.TextureFilter-) | Stelt de filtermodus voor vergroting in. |
 | [setMinification(TextureFilter value)](#setMinification-com.aspose.threed.TextureFilter-) | Stelt de filtermodus voor verkleining in. |
 | [setMipmap(TextureFilter value)](#setMipmap-com.aspose.threed.TextureFilter-) | Stelt de filtermodus voor mipmap in. |
 | [setScale(Vector2 value)](#setScale-com.aspose.threed.Vector2-) | Stelt de schaal van de UV-coördinaat in. |
 | [setScroll(Vector2 value)](#setScroll-com.aspose.threed.Vector2-) | Stelt de scroll van de UV-coördinaat in. |
-| [setUWrap(WrapMode value)](#setUWrap-com.aspose.threed.WrapMode-) | Stelt de wrap‑modus voor de U‑coördinaat van de textuur in. |
-| [setVWrap(WrapMode value)](#setVWrap-com.aspose.threed.WrapMode-) | Stelt de wrap‑modus voor de V‑coördinaat van de textuur in. |
-| [setWWrap(WrapMode value)](#setWWrap-com.aspose.threed.WrapMode-) | Stelt de wrap‑modus voor de W‑coördinaat van de textuur in. |
+| [setUWrap(WrapMode value)](#setUWrap-com.aspose.threed.WrapMode-) | Stelt de wrap-modus voor de U-coördinaat van de textuur in. |
+| [setVWrap(WrapMode value)](#setVWrap-com.aspose.threed.WrapMode-) | Stelt de wrap-modus voor de V-coördinaat van de textuur in. |
+| [setWWrap(WrapMode value)](#setWWrap-com.aspose.threed.WrapMode-) | Stelt de wrap-modus voor de W-coördinaat van de textuur in. |
 ### getDepth() {#getDepth--}
 ```
 public abstract int getDepth()
@@ -114,7 +114,7 @@ public abstract TextureType getType()
 ```
 
 
-Haalt het type van deze texture‑eenheid op.
+Haalt het type van deze texture-eenheid op.
 
 **Returns:**
 [TextureType](../../com.aspose.threed/texturetype) - the type of this texture unit.
@@ -124,7 +124,7 @@ public abstract WrapMode getUWrap()
 ```
 
 
-Haalt de wrap‑modus voor de U‑coördinaat van de textuur op.
+Haalt de wrap-modus voor de U-coördinaat van de textuur op.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's U coordinate.
@@ -134,7 +134,7 @@ public abstract WrapMode getVWrap()
 ```
 
 
-Haalt de wrap‑modus voor de V‑coördinaat van de textuur op.
+Haalt de wrap-modus voor de V-coördinaat van de textuur op.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's V coordinate.
@@ -144,7 +144,7 @@ public abstract WrapMode getWWrap()
 ```
 
 
-Haalt de wrap‑modus voor de W‑coördinaat van de textuur op.
+Haalt de wrap-modus voor de W-coördinaat van de textuur op.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the wrap mode for texture's W coordinate.
@@ -229,7 +229,7 @@ public abstract void setUWrap(WrapMode value)
 ```
 
 
-Stelt de wrap‑modus voor de U‑coördinaat van de textuur in.
+Stelt de wrap-modus voor de U-coördinaat van de textuur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -242,7 +242,7 @@ public abstract void setVWrap(WrapMode value)
 ```
 
 
-Stelt de wrap‑modus voor de V‑coördinaat van de textuur in.
+Stelt de wrap-modus voor de V-coördinaat van de textuur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -255,7 +255,7 @@ public abstract void setWWrap(WrapMode value)
 ```
 
 
-Stelt de wrap‑modus voor de W‑coördinaat van de textuur in.
+Stelt de wrap-modus voor de W-coördinaat van de textuur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

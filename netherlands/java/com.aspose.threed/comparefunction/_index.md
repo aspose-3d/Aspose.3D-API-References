@@ -1,7 +1,7 @@
 ---
 title: "CompareFunction"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De vergelijkingsfunctie die wordt gebruikt bij depth/stencil testing."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De vergelijkingsfunctie die wordt gebruikt bij diepte-/stenciltesten."
 type: docs
 weight: 271
 url: /nl/java/com.aspose.threed/comparefunction/
@@ -13,19 +13,19 @@ java.lang.Object, java.lang.Enum
 public enum CompareFunction extends Enum<CompareFunction>
 ```
 
-De vergelijkingsfunctie die wordt gebruikt bij depth/stencil testing.
+De vergelijkingsfunctie die wordt gebruikt bij diepte-/stenciltesten.
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [ALWAYS](#ALWAYS) | Altijd geslaagd |
-| [EQUAL](#EQUAL) | Geslaagd als de binnenkomende waarde gelijk is aan de opgeslagen waarde. |
-| [GREATER](#GREATER) | Geslaagd als de binnenkomende waarde groter is dan de opgeslagen waarde. |
-| [G_EQUAL](#G-EQUAL) | Geslaagd als de binnenkomende waarde groter is dan of gelijk aan de opgeslagen waarde. |
-| [LESS](#LESS) | Geslaagd als de binnenkomende waarde kleiner is dan de opgeslagen waarde. |
-| [L_EQUAL](#L-EQUAL) | Geslaagd als de binnenkomende waarde kleiner is dan of gelijk aan de opgeslagen waarde. |
-| [NEVER](#NEVER) | Nooit geslaagd |
-| [NOT_EQUAL](#NOT-EQUAL) | Geslaagd als de binnenkomende waarde niet gelijk is aan de opgeslagen waarde. |
+| [ALWAYS](#ALWAYS) | Altijd slaagt |
+| [EQUAL](#EQUAL) | Slaag als de binnenkomende waarde gelijk is aan de opgeslagen waarde. |
+| [GREATER](#GREATER) | Slaag als de binnenkomende waarde groter is dan de opgeslagen waarde. |
+| [G_EQUAL](#G-EQUAL) | Slaag als de binnenkomende waarde groter is dan of gelijk aan de opgeslagen waarde. |
+| [LESS](#LESS) | Slaag als de binnenkomende waarde kleiner is dan de opgeslagen waarde. |
+| [L_EQUAL](#L-EQUAL) | Slaag als de binnenkomende waarde kleiner is dan of gelijk aan de opgeslagen waarde. |
+| [NEVER](#NEVER) | Nooit slaagt |
+| [NOT_EQUAL](#NOT-EQUAL) | Slaag als de binnenkomende waarde niet gelijk is aan de opgeslagen waarde. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -53,7 +53,7 @@ public static final CompareFunction ALWAYS
 ```
 
 
-Altijd geslaagd
+Altijd slaagt
 
 ### EQUAL {#EQUAL}
 ```
@@ -61,7 +61,7 @@ public static final CompareFunction EQUAL
 ```
 
 
-Geslaagd als de binnenkomende waarde gelijk is aan de opgeslagen waarde.
+Slaag als de binnenkomende waarde gelijk is aan de opgeslagen waarde.
 
 ### GREATER {#GREATER}
 ```
@@ -69,7 +69,7 @@ public static final CompareFunction GREATER
 ```
 
 
-Geslaagd als de binnenkomende waarde groter is dan de opgeslagen waarde.
+Slaag als de binnenkomende waarde groter is dan de opgeslagen waarde.
 
 ### G_EQUAL {#G-EQUAL}
 ```
@@ -77,7 +77,7 @@ public static final CompareFunction G_EQUAL
 ```
 
 
-Geslaagd als de binnenkomende waarde groter is dan of gelijk aan de opgeslagen waarde.
+Slaag als de binnenkomende waarde groter is dan of gelijk aan de opgeslagen waarde.
 
 ### LESS {#LESS}
 ```
@@ -85,7 +85,7 @@ public static final CompareFunction LESS
 ```
 
 
-Geslaagd als de binnenkomende waarde kleiner is dan de opgeslagen waarde.
+Slaag als de binnenkomende waarde kleiner is dan de opgeslagen waarde.
 
 ### L_EQUAL {#L-EQUAL}
 ```
@@ -93,7 +93,7 @@ public static final CompareFunction L_EQUAL
 ```
 
 
-Geslaagd als de binnenkomende waarde kleiner is dan of gelijk aan de opgeslagen waarde.
+Slaag als de binnenkomende waarde kleiner is dan of gelijk aan de opgeslagen waarde.
 
 ### NEVER {#NEVER}
 ```
@@ -101,7 +101,7 @@ public static final CompareFunction NEVER
 ```
 
 
-Nooit geslaagd
+Nooit slaagt
 
 ### NOT_EQUAL {#NOT-EQUAL}
 ```
@@ -109,7 +109,7 @@ public static final CompareFunction NOT_EQUAL
 ```
 
 
-Geslaagd als de binnenkomende waarde niet gelijk is aan de opgeslagen waarde.
+Slaag als de binnenkomende waarde niet gelijk is aan de opgeslagen waarde.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

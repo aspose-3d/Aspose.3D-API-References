@@ -1,6 +1,6 @@
 ---
 title: "ShaderStage"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Shaderfase"
 type: docs
 weight: 168
@@ -25,8 +25,8 @@ Shaderfase
 | --- | --- |
 | [COMPUTE_SHADER](#COMPUTE-SHADER) | Compute shader |
 | [FRAGMENT_SHADER](#FRAGMENT-SHADER) | Fragment shader |
-| [GEOMETRY_SHADER](#GEOMETRY-SHADER) | Geometrie shader |
-| [VERTEX_SHADER](#VERTEX-SHADER) | Vertex shader |
+| [GEOMETRY_SHADER](#GEOMETRY-SHADER) | Geometrie-shader |
+| [VERTEX_SHADER](#VERTEX-SHADER) | Vertexshader |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -68,7 +68,7 @@ public static final int GEOMETRY_SHADER
 ```
 
 
-Geometrie shader
+Geometrie-shader
 
 ### VERTEX_SHADER {#VERTEX-SHADER}
 ```
@@ -76,7 +76,7 @@ public static final int VERTEX_SHADER
 ```
 
 
-Vertex shader
+Vertexshader
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "FileContentType"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Bestandsinhoudtype"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Bestandinhoudtype"
 type: docs
 weight: 279
 url: /nl/java/com.aspose.threed/filecontenttype/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum FileContentType extends Enum<FileContentType>
 ```
 
-Bestandsinhoudtype
+Bestandinhoudtype
 ## Velden
 
 | Veld | Beschrijving |

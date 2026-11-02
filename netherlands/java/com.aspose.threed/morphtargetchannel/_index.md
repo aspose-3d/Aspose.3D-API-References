@@ -1,6 +1,6 @@
 ---
 title: "MorphTargetChannel"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Een MorphTargetChannel wordt gebruikt door  om de doelgeometrieën te organiseren."
 type: docs
 weight: 107
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetChannel extends A3DObject
 ```
 
-Een MorphTargetChannel wordt gebruikt door [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) om de doelgeometrieën te organiseren. Sommige bestandsformaten zoals FBX ondersteunen meerdere kanalen parallel. **Remarks:** Gewicht ligt tussen 0 en 1.0, en het standaardgewicht voor het doel is 0.0;
+Een MorphTargetChannel wordt gebruikt door [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) om de doelgeometrieën te organiseren. Sommige bestandsformaten zoals FBX ondersteunen meerdere kanalen parallel. **Remarks:** Weight is between 0 and 1.0, and default weight for target is 0.0;
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -24,33 +24,33 @@ Een MorphTargetChannel wordt gebruikt door [MorphTargetDeformer](../../com.aspos
 
 | Veld | Beschrijving |
 | --- | --- |
-| [DEFAULT_WEIGHT](#DEFAULT-WEIGHT) | Standaardgewicht voor morph-doelwit. |
+| [DEFAULT_WEIGHT](#DEFAULT-WEIGHT) | Standaardgewicht voor morph target. |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [get(Shape target)](#get-com.aspose.threed.Shape-) | Haalt het gewicht op voor de opgegeven geometrie |
-| [getChannelWeight()](#getChannelWeight--) | Haalt het deformer-gewicht op van dit kanaal. |
+| [get(Shape target)](#get-com.aspose.threed.Shape-) | Haalt het gewicht op voor de gespecificeerde geometrie. |
+| [getChannelWeight()](#getChannelWeight--) | Haalt het deformer-gewicht van dit kanaal op. |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getTargets()](#getTargets--) | Haalt alle doelwitten op die aan het kanaal zijn gekoppeld. |
-| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | Haalt het gewicht op voor het opgegeven doelwit; als het doelwit niet tot dit kanaal behoort, wordt de standaardwaarde 0 geretourneerd. |
-| [getWeights()](#getWeights--) | Haalt de volledige gewichtswaarden op van doelwitgeometrieën. |
+| [getWeight(Shape target)](#getWeight-com.aspose.threed.Shape-) | Haalt het gewicht op voor het gespecificeerde doelwit; als het doelwit niet tot dit kanaal behoort, wordt de standaardwaarde 0 geretourneerd. |
+| [getWeights()](#getWeights--) | Haalt de volledige gewichtswaarden van doelwitgeometrieën op. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | Stelt het gewicht in voor de opgegeven geometrie |
-| [setChannelWeight(double value)](#setChannelWeight-double-) | Stelt het deformer-gewicht in van dit kanaal. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [set(Shape target, double value)](#set-com.aspose.threed.Shape-double-) | Stelt het gewicht in voor de gespecificeerde geometrie. |
+| [setChannelWeight(double value)](#setChannelWeight-double-) | Stelt het deformer-gewicht van dit kanaal in. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setWeight(Shape target)](#setWeight-com.aspose.threed.Shape-) | Stelt het gewicht in voor het opgegeven doelwit, standaardwaarde is 1, bereik moet tussen 0~1 liggen |
-| [setWeight(Shape target, double weight)](#setWeight-com.aspose.threed.Shape-double-) | Stelt het gewicht in voor het opgegeven doelwit, standaardwaarde is 1, bereik moet tussen 0~1 liggen |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setWeight(Shape target)](#setWeight-com.aspose.threed.Shape-) | Stelt het gewicht in voor het gespecificeerde doelwit, standaardwaarde is 1, bereik moet tussen 0~1 liggen. |
+| [setWeight(Shape target, double weight)](#setWeight-com.aspose.threed.Shape-double-) | Stelt het gewicht in voor het gespecificeerde doelwit, standaardwaarde is 1, bereik moet tussen 0~1 liggen. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -82,7 +82,7 @@ public static final double DEFAULT_WEIGHT
 ```
 
 
-Standaardgewicht voor morph-doelwit.
+Standaardgewicht voor morph target.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -110,7 +110,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -120,7 +120,7 @@ public double get(Shape target)
 ```
 
 
-Haalt het gewicht op voor de opgegeven geometrie
+Haalt het gewicht op voor de gespecificeerde geometrie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -135,10 +135,10 @@ public double getChannelWeight()
 ```
 
 
-Haalt het deformer-gewicht op van dit kanaal. Het gewicht ligt tussen 0,0 en 1,0
+Haalt het deformer-gewicht van dit kanaal op. Het gewicht ligt tussen 0,0 en 1,0.
 
 **Returns:**
-double - het deformer-gewicht van dit kanaal. Het gewicht ligt tussen 0,0 en 1,0
+double - het deformer-gewicht van dit kanaal. Het gewicht ligt tussen 0,0 en 1,0.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -165,7 +165,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -175,12 +175,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -200,7 +200,7 @@ public double getWeight(Shape target)
 ```
 
 
-Haalt het gewicht op voor het opgegeven doelwit; als het doelwit niet tot dit kanaal behoort, wordt de standaardwaarde 0 geretourneerd.
+Haalt het gewicht op voor het gespecificeerde doelwit; als het doelwit niet tot dit kanaal behoort, wordt de standaardwaarde 0 geretourneerd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -215,7 +215,7 @@ public List<Double> getWeights()
 ```
 
 
-Haalt de volledige gewichtswaarden op van doelwitgeometrieën.
+Haalt de volledige gewichtswaarden van doelwitgeometrieën op.
 
 **Returns:**
 java.util.List<java.lang.Double> - de volledige gewichtswaarden van doelwitgeometrieën.
@@ -266,7 +266,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -281,7 +281,7 @@ public void set(Shape target, double value)
 ```
 
 
-Stelt het gewicht in voor de opgegeven geometrie
+Stelt het gewicht in voor de gespecificeerde geometrie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -295,7 +295,7 @@ public void setChannelWeight(double value)
 ```
 
 
-Stelt het deformer-gewicht in van dit kanaal. Het gewicht ligt tussen 0,0 en 1,0
+Stelt het deformer-gewicht van dit kanaal in. Het gewicht ligt tussen 0,0 en 1,0.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -321,12 +321,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setWeight(Shape target) {#setWeight-com.aspose.threed.Shape-}
@@ -335,7 +335,7 @@ public void setWeight(Shape target)
 ```
 
 
-Stelt het gewicht in voor het opgegeven doelwit, standaardwaarde is 1, bereik moet tussen 0~1 liggen
+Stelt het gewicht in voor het gespecificeerde doelwit, standaardwaarde is 1, bereik moet tussen 0~1 liggen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -348,7 +348,7 @@ public void setWeight(Shape target, double weight)
 ```
 
 
-Stelt het gewicht in voor het opgegeven doelwit, standaardwaarde is 1, bereik moet tussen 0~1 liggen
+Stelt het gewicht in voor het gespecificeerde doelwit, standaardwaarde is 1, bereik moet tussen 0~1 liggen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

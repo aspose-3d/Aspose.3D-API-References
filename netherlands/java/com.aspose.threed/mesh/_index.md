@@ -1,7 +1,7 @@
 ---
 title: "Mesh"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een mesh bestaat uit vele n-zijdige polygonen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een mesh bestaat uit veel n-zijdige polygonen."
 type: docs
 weight: 102
 url: /nl/java/com.aspose.threed/mesh/
@@ -16,7 +16,7 @@ java.lang.Iterable, [com.aspose.threed.IMeshConvertible](../../com.aspose.threed
 public class Mesh extends Geometry implements Iterable<int[]>, IMeshConvertible
 ```
 
-Een mesh bestaat uit veel n‑zijdige polygonen. **Example:** Om een polygoon toe te voegen aan de mesh:
+Een mesh bestaat uit veel n-zijdige polygonen. **Example:** Om een polygoon toe te voegen aan de mesh:
 
 ```
 Mesh mesh = new Mesh();
@@ -46,46 +46,46 @@ Mesh mesh = new Mesh();
 | [<T>getDeformers2()](#-T-getDeformers2--) | Haalt alle deformers op met opgegeven deformer-typen |
 | [addControlPoint(double x, double y, double z)](#addControlPoint-double-double-double-) | Voeg een nieuw controlepunt toe aan de mesh, dit is efficiënter. |
 | [addControlPoint(double x, double y, double z, double w)](#addControlPoint-double-double-double-double-) | Voeg een nieuw controlepunt toe aan de mesh, dit is efficiënter. |
-| [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | Voegt een bestaand vertex‑element toe aan de huidige geometrie |
+| [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | Voegt een bestaand vertex-element toe aan de huidige geometrie |
 | [clone()](#clone--) |  |
-| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Creëert een vertex‑element met opgegeven type en voegt het toe aan de geometrie. |
-| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Creëert een vertex‑element met opgegeven type en voegt het toe aan de geometrie. |
+| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Maakt een vertex-element met opgegeven type en voegt het toe aan de geometrie. |
+| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Maakt een vertex-element met opgegeven type en voegt het toe aan de geometrie. |
 | [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | Maakt een [VertexElementUV](../../com.aspose.threed/vertexelementuv) met het opgegeven textuurmappingtype. |
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Maakt een [VertexElementUV](../../com.aspose.threed/vertexelementuv) met het opgegeven textuurmappingtype. |
-| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | Maak een polygoon met 3 hoekpunten (driehoek) |
-| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | Maak een polygoon met 4 hoekpunten (vierkant) |
-| [createPolygon(int[] indices)](#createPolygon-int---) | Maakt een nieuwe polygoon met alle hoekpunten gedefinieerd in `indices`. |
-| [createPolygon(int[] indices, int offset, int length)](#createPolygon-int---int-int-) | Maakt een nieuwe polygoon met alle hoekpunten gedefinieerd in `indices`. |
+| [createPolygon(int v1, int v2, int v3)](#createPolygon-int-int-int-) | Maak een veelhoek met 3 hoekpunten(driehoek) |
+| [createPolygon(int v1, int v2, int v3, int v4)](#createPolygon-int-int-int-int-) | Maak een veelhoek met 4 hoekpunten(vierhoek) |
+| [createPolygon(int[] indices)](#createPolygon-int---) | Maakt een nieuwe veelhoek met alle hoekpunten gedefinieerd in `indices`. |
+| [createPolygon(int[] indices, int offset, int length)](#createPolygon-int---int-int-) | Maakt een nieuwe veelhoek met alle hoekpunten gedefinieerd in `indices`. |
 | [difference(Mesh a, Mesh b)](#difference-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | Bereken het verschil van twee meshes |
 | [doBoolean(BooleanOperation op, Mesh a, Matrix4 transformA, Mesh b, Matrix4 transformB)](#doBoolean-com.aspose.threed.BooleanOperation-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-com.aspose.threed.Mesh-com.aspose.threed.Matrix4-) | Voer een Booleaanse bewerking uit op twee meshes |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
-| [getCastShadows()](#getCastShadows--) | Geeft aan of deze geometrie schaduwen kan werpen |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
+| [getCastShadows()](#getCastShadows--) | Geeft of deze geometrie schaduw kan werpen |
 | [getClass()](#getClass--) |  |
-| [getControlPoints()](#getControlPoints--) | Geeft alle controlepunten terug |
-| [getDeformers()](#getDeformers--) | Geeft alle deformers die aan deze geometrie zijn gekoppeld terug. |
-| [getEdges()](#getEdges--) | Geeft de randen van de Mesh terug. |
-| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Geeft een vertex-element met het opgegeven type terug |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getControlPoints()](#getControlPoints--) | Geeft alle controlepunten |
+| [getDeformers()](#getDeformers--) | Geeft alle deformers die aan deze geometrie zijn gekoppeld. |
+| [getEdges()](#getEdges--) | Geeft de randen van de Mesh. |
+| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Geeft een vertex-element met opgegeven type |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getPolygonCount()](#getPolygonCount--) | Geeft het aantal polygonen terug |
-| [getPolygonSize(int index)](#getPolygonSize-int-) | Geeft het aantal hoekpunten van de opgegeven polygoon terug. |
-| [getPolygons()](#getPolygons--) | Geeft de definitie van de polygonen van de mesh terug |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getReceiveShadows()](#getReceiveShadows--) | Geeft aan of deze geometrie schaduwen kan ontvangen. |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Geeft een [VertexElementUV](../../com.aspose.threed/vertexelementuv) instantie met het opgegeven textuurmappingtype terug |
-| [getVertexElements()](#getVertexElements--) | Geeft alle vertex-elementen terug |
-| [getVisible()](#getVisible--) | Geeft aan of de geometrie zichtbaar is |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getPolygonCount()](#getPolygonCount--) | Geeft het aantal veelhoeken |
+| [getPolygonSize(int index)](#getPolygonSize-int-) | Geeft het aantal hoekpunten van de opgegeven veelhoek. |
+| [getPolygons()](#getPolygons--) | Geeft de definitie van de veelhoeken van de mesh |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getReceiveShadows()](#getReceiveShadows--) | Geeft of deze geometrie schaduw kan ontvangen. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Geeft een [VertexElementUV](../../com.aspose.threed/vertexelementuv) instantie met het opgegeven textuurmappingtype |
+| [getVertexElements()](#getVertexElements--) | Geeft alle vertex-elementen |
+| [getVisible()](#getVisible--) | Geeft of de geometrie zichtbaar is |
 | [hashCode()](#hashCode--) |  |
 | [intersect(Mesh a, Mesh b)](#intersect-com.aspose.threed.Mesh-com.aspose.threed.Mesh-) | Bereken de intersectie van twee meshes |
 | [isManifold()](#isManifold--) | Controleer of de huidige mesh een manifold-mesh is. |
-| [iterator()](#iterator--) | Geeft de enumerator voor elke interne polygoon terug. |
+| [iterator()](#iterator--) | Geeft de enumerator voor elke binnenste veelhoek. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [optimize(boolean vertexElements)](#optimize-boolean-) | Optimaliseer het geheugenverbruik van de mesh door dubbele controlepunten te verwijderen |
@@ -94,13 +94,13 @@ Mesh mesh = new Mesh();
 | [optimize(boolean vertexElements, float toleranceControlPoint, float toleranceNormal, float toleranceUV)](#optimize-boolean-float-float-float-) | Optimaliseer het geheugenverbruik van de mesh door dubbele controlepunten te verwijderen |
 | [optimize2(boolean vertexElements)](#optimize2-boolean-) | Optimaliseer het geheugenverbruik van de mesh door dubbele controlepunten te verwijderen |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Stelt in of deze geometrie schaduwen kan werpen |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Stelt in of deze geometrie schaduw kan werpen |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Stelt in of deze geometrie schaduwen kan ontvangen. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Stelt in of deze geometrie schaduw kan ontvangen. |
 | [setVisible(boolean value)](#setVisible-boolean-) | Stelt in of de geometrie zichtbaar is |
 | [toMesh()](#toMesh--) | Haalt de Mesh‑instantie op van de huidige entiteit. |
 | [toString()](#toString--) |  |
@@ -177,7 +177,7 @@ public void addElement(VertexElement element)
 ```
 
 
-Voegt een bestaand vertex‑element toe aan de huidige geometrie
+Voegt een bestaand vertex-element toe aan de huidige geometrie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -200,7 +200,7 @@ public VertexElement createElement(VertexElementType type)
 ```
 
 
-Creëert een vertex‑element met opgegeven type en voegt het toe aan de geometrie.
+Maakt een vertex-element met opgegeven type en voegt het toe aan de geometrie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -215,14 +215,14 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 ```
 
 
-Creëert een vertex‑element met opgegeven type en voegt het toe aan de geometrie.
+Maakt een vertex-element met opgegeven type en voegt het toe aan de geometrie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Vertex‑elementtype |
-| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Standaard‑mappingmodus |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Standaard‑referentiemodus |
+| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Standaard mapping‑modus |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Standaard referentiemodus |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -237,7 +237,7 @@ Maakt een [VertexElementUV](../../com.aspose.threed/vertexelementuv) met het opg
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | Welk textuur‑mappingtype te maken |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | Welk type textuur‑mapping moet worden gemaakt |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -252,9 +252,9 @@ Maakt een [VertexElementUV](../../com.aspose.threed/vertexelementuv) met het opg
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | Welk textuur‑mappingtype te maken |
-| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Standaard‑mappingmodus |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Standaard‑referentiemodus |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | Welk type textuur‑mapping moet worden gemaakt |
+| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Standaard mapping‑modus |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Standaard referentiemodus |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -264,14 +264,14 @@ public void createPolygon(int v1, int v2, int v3)
 ```
 
 
-Maak een polygoon met 3 hoekpunten (driehoek)
+Maak een veelhoek met 3 hoekpunten(driehoek)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | v1 | int | Index van de eerste vertex |
 | v2 | int | Index van de tweede vertex |
-|  | v3 | int | Index van de derde vertex **Example:** De volgende code laat zien hoe een nieuw polygon met de indices van het controlepunt te maken. |
+|  | v3 | int | Index van de derde vertex **Voorbeeld:** De volgende code toont hoe je een nieuw polygon maakt met de indices van de controlepunten. |
 
 ```
 Mesh mesh = new Mesh();
@@ -284,7 +284,7 @@ public void createPolygon(int v1, int v2, int v3, int v4)
 ```
 
 
-Maak een polygoon met 4 hoekpunten (vierkant)
+Maak een veelhoek met 4 hoekpunten(vierhoek)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -292,7 +292,7 @@ Maak een polygoon met 4 hoekpunten (vierkant)
 | v1 | int | Index van de eerste vertex |
 | v2 | int | Index van de tweede vertex |
 | v3 | int | Index van de derde vertex |
-|  | v4 | int | Index van de vierde vertex **Example:** De volgende code laat zien hoe een nieuw polygon met de indices van het controlepunt te maken. |
+|  | v4 | int | Index van de vierde vertex **Voorbeeld:** De volgende code toont hoe je een nieuw polygon maakt met de indices van de controlepunten. |
 
 ```
 Mesh mesh = new Mesh();
@@ -310,7 +310,7 @@ Maakt een nieuw polygon met alle vertices gedefinieerd in `indices`. Om een poly
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | indices | int[] | Array van de polygoonindices, elke index wijst naar een controlepunt dat de polygoon vormt. **Voorbeeld:** |
+|  | indexen | int[] | Array van de polygoonindexen, elke index wijst naar een controlepunt dat de polygoon vormt. **Voorbeeld:** |
 
 ```
 Mesh mesh = new Mesh();
@@ -329,9 +329,9 @@ Maakt een nieuw polygon met alle vertices gedefinieerd in `indices`. Om een poly
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| indices | int[] | Array van de polygoonindices, elke index wijst naar een controlepunt dat de polygoon vormt. |
+| indexen | int[] | Array van de polygoonindexen, elke index wijst naar een controlepunt dat de polygoon vormt. |
 | offset | int | De offset van de eerste polygoonindex |
-|  | length | int | De lengte van de indices **Voorbeeld:** De volgende code laat zien hoe je een nieuwe polygoon maakt met de indices van het controlepunt. |
+|  | lengte | int | De lengte van de indexen **Voorbeeld:** De volgende code toont hoe een nieuwe polygoon te maken met de indexen van de controlepunten. |
 
 ```
 Mesh mesh = new Mesh();
@@ -366,7 +366,7 @@ Voer een Booleaanse bewerking uit op twee meshes
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| op | [BooleanOperation](../../com.aspose.threed/booleanoperation) | Het Boolean-bewerkingstype. |
+| op | [BooleanOperation](../../com.aspose.threed/booleanoperation) | Het Booleaanse bewerkingstype. |
 | a | [Mesh](../../com.aspose.threed/mesh) | Eerste mesh om te bewerken. |
 | transformA | [Matrix4](../../com.aspose.threed/matrix4) | Transformatie matrix van de eerste mesh |
 | b | [Mesh](../../com.aspose.threed/mesh) | Tweede mesh om te bewerken |
@@ -400,7 +400,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -410,7 +410,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -427,10 +427,10 @@ public boolean getCastShadows()
 ```
 
 
-Geeft aan of deze geometrie schaduwen kan werpen
+Geeft of deze geometrie schaduw kan werpen
 
 **Returns:**
-boolean - of deze geometrie schaduw kan werpen
+boolean - of deze geometrie een schaduw kan werpen
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -447,7 +447,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-Geeft alle controlepunten terug
+Geeft alle controlepunten
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - alle controlepunten
@@ -457,7 +457,7 @@ public List<Deformer> getDeformers()
 ```
 
 
-Geeft alle deformers die aan deze geometrie zijn gekoppeld terug.
+Geeft alle deformers die aan deze geometrie zijn gekoppeld.
 
 **Returns:**
 java.util.List<com.aspose.threed.Deformer> - alle deformers die aan deze geometrie zijn gekoppeld.
@@ -477,7 +477,7 @@ public VertexElement getElement(VertexElementType type)
 ```
 
 
-Geeft een vertex-element met het opgegeven type terug
+Geeft een vertex-element met opgegeven type
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -492,7 +492,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -502,10 +502,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -522,7 +522,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -532,7 +532,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -542,10 +542,10 @@ public int getPolygonCount()
 ```
 
 
-Geeft het aantal polygonen terug
+Geeft het aantal veelhoeken
 
 **Returns:**
-int - het aantal polygonen **Voorbeeld:** De volgende code laat zien hoe je het aantal polygonen van de mesh krijgt.
+int - het aantal polygonen **Voorbeeld:** De volgende code toont hoe het aantal polygonen van de mesh te verkrijgen.
 
 ```
 Mesh mesh = (new Sphere()).toMesh();
@@ -557,7 +557,7 @@ public int getPolygonSize(int index)
 ```
 
 
-Geeft het aantal hoekpunten van de opgegeven polygoon terug.
+Geeft het aantal hoekpunten van de opgegeven veelhoek.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -572,7 +572,7 @@ public List<int[]> getPolygons()
 ```
 
 
-Geeft de definitie van de polygonen van de mesh terug
+Geeft de definitie van de veelhoeken van de mesh
 
 **Returns:**
 java.util.List<int[]> - de definitie van de polygonen van het mesh
@@ -582,7 +582,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -592,12 +592,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -607,7 +607,7 @@ public boolean getReceiveShadows()
 ```
 
 
-Geeft aan of deze geometrie schaduwen kan ontvangen.
+Geeft of deze geometrie schaduw kan ontvangen.
 
 **Returns:**
 boolean - of deze geometrie schaduw kan ontvangen.
@@ -617,7 +617,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -627,7 +627,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-Geeft een [VertexElementUV](../../com.aspose.threed/vertexelementuv) instantie met het opgegeven textuurmappingtype terug
+Geeft een [VertexElementUV](../../com.aspose.threed/vertexelementuv) instantie met het opgegeven textuurmappingtype
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -642,7 +642,7 @@ public List<VertexElement> getVertexElements()
 ```
 
 
-Geeft alle vertex-elementen terug
+Geeft alle vertex-elementen
 
 **Returns:**
 java.util.List<com.aspose.threed.VertexElement> - alle vertex-elementen
@@ -652,7 +652,7 @@ public boolean getVisible()
 ```
 
 
-Geeft aan of de geometrie zichtbaar is
+Geeft of de geometrie zichtbaar is
 
 **Returns:**
 boolean - of de geometrie zichtbaar is
@@ -688,17 +688,17 @@ public boolean isManifold()
 ```
 
 
-Controleer of de huidige mesh een manifold-mesh is. Deze functie zal het resultaat van de manifold-berekening niet cachen.
+Controleer of het huidige mesh een manifold-mesh is. Deze functie zal het resultaat van de manifold-berekening niet cachen.
 
 **Returns:**
-boolean - true als de mesh een manifold-mesh is.
+boolean - true als het mesh een manifold-mesh is.
 ### iterator() {#iterator--}
 ```
 public Iterator<int[]> iterator()
 ```
 
 
-Geeft de enumerator voor elke interne polygoon terug.
+Geeft de enumerator voor elke binnenste veelhoek.
 
 **Returns:**
 java.util.Iterator<int[]> - De enumerator.
@@ -827,7 +827,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -842,7 +842,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-Stelt in of deze geometrie schaduwen kan werpen
+Stelt in of deze geometrie schaduw kan werpen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -855,7 +855,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -881,7 +881,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -894,12 +894,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setReceiveShadows(boolean value) {#setReceiveShadows-boolean-}
@@ -908,7 +908,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-Stelt in of deze geometrie schaduwen kan ontvangen.
+Stelt in of deze geometrie schaduw kan ontvangen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

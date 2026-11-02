@@ -1,7 +1,7 @@
 ---
 title: "TextureFilter"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Filteropties tijdens textuur-sampling"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Filteropties tijdens textuurbemonstering."
 type: docs
 weight: 305
 url: /nl/java/com.aspose.threed/texturefilter/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum TextureFilter extends Enum<TextureFilter>
 ```
 
-Filteropties tijdens textuur-sampling
+Filteropties tijdens textuurbemonstering.
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [ANISOTROPIC](#ANISOTROPIC) | Gebruik anisotropische interpolatie voor bemonstering, dit wordt alleen gebruikt door het verkleinfilter. |
-| [LINEAR](#LINEAR) | Gebruik lineaire interpolatie voor bemonstering |
-| [NONE](#NONE) | Geen verkleining, dit wordt alleen gebruikt door het verkleinfilter. |
+| [ANISOTROPIC](#ANISOTROPIC) | Gebruik anisotropische interpolatie voor het bemonsteren, dit wordt alleen gebruikt door het verkleiningsfilter. |
+| [LINEAR](#LINEAR) | Gebruik lineaire interpolatie voor het bemonsteren |
+| [NONE](#NONE) | Geen verkleining, dit wordt alleen gebruikt door het verkleiningsfilter. |
 | [POINT](#POINT) | Gebruik puntbemonstering |
 ## Methoden
 
@@ -49,7 +49,7 @@ public static final TextureFilter ANISOTROPIC
 ```
 
 
-Gebruik anisotropische interpolatie voor bemonstering, dit wordt alleen gebruikt door het verkleinfilter.
+Gebruik anisotropische interpolatie voor het bemonsteren, dit wordt alleen gebruikt door het verkleiningsfilter.
 
 ### LINEAR {#LINEAR}
 ```
@@ -57,7 +57,7 @@ public static final TextureFilter LINEAR
 ```
 
 
-Gebruik lineaire interpolatie voor bemonstering
+Gebruik lineaire interpolatie voor het bemonsteren
 
 ### NONE {#NONE}
 ```
@@ -65,7 +65,7 @@ public static final TextureFilter NONE
 ```
 
 
-Geen verkleining, dit wordt alleen gebruikt door het verkleinfilter.
+Geen verkleining, dit wordt alleen gebruikt door het verkleiningsfilter.
 
 ### POINT {#POINT}
 ```

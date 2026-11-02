@@ -1,6 +1,6 @@
 ---
 title: "DescriptorSetUpdater"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Deze klasse maakt het mogelijk om de  bij te werken in een ketenoperatie."
 type: docs
 weight: 42
@@ -23,10 +23,10 @@ Deze klasse maakt het mogelijk om de [IDescriptorSet](../../com.aspose.threed/id
 | --- | --- |
 | [bind(IBuffer buffer)](#bind-com.aspose.threed.IBuffer-) | Koppel de volledige buffer aan de huidige descriptor |
 | [bind(IBuffer buffer, int offset, int size)](#bind-com.aspose.threed.IBuffer-int-int-) | Koppel de buffer aan de huidige descriptorset |
-| [bind(ITextureUnit texture)](#bind-com.aspose.threed.ITextureUnit-) | Koppel de texture-eenheid aan de huidige descriptorset |
+| [bind(ITextureUnit texture)](#bind-com.aspose.threed.ITextureUnit-) | Koppel de textuurunit aan de huidige descriptorset |
 | [bind(int binding, IBuffer buffer)](#bind-int-com.aspose.threed.IBuffer-) | Koppel de buffer aan de huidige descriptorset op de opgegeven bindlocatie. |
 | [bind(int binding, IBuffer buffer, int offset, int size)](#bind-int-com.aspose.threed.IBuffer-int-int-) | Koppel de buffer aan de huidige descriptorset op de opgegeven bindlocatie. |
-| [bind(int binding, ITextureUnit texture)](#bind-int-com.aspose.threed.ITextureUnit-) | Koppel de texture-eenheid aan de huidige descriptorset |
+| [bind(int binding, ITextureUnit texture)](#bind-int-com.aspose.threed.ITextureUnit-) | Koppel de textuurunit aan de huidige descriptorset |
 | [close()](#close--) | Maak de updater vrij en voer de wijzigingen door naar het hardwareapparaat. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -75,7 +75,7 @@ public DescriptorSetUpdater bind(ITextureUnit texture)
 ```
 
 
-Koppel de texture-eenheid aan de huidige descriptorset
+Koppel de textuurunit aan de huidige descriptorset
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -95,7 +95,7 @@ Koppel de buffer aan de huidige descriptorset op de opgegeven bindlocatie.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| binding | int | Bindinglocatie |
+| binding | int | Bindlocatie |
 | buffer | [IBuffer](../../com.aspose.threed/ibuffer) | De volledige buffer om te binden |
 
 **Returns:**
@@ -111,7 +111,7 @@ Koppel de buffer aan de huidige descriptorset op de opgegeven bindlocatie.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| binding | int | Bindinglocatie |
+| binding | int | Bindlocatie |
 | buffer | [IBuffer](../../com.aspose.threed/ibuffer) | De buffer om te binden |
 | offset | int | Offset van de te binden buffer |
 | grootte | int | Grootte van de te binden buffer |
@@ -124,12 +124,12 @@ public DescriptorSetUpdater bind(int binding, ITextureUnit texture)
 ```
 
 
-Koppel de texture-eenheid aan de huidige descriptorset
+Koppel de textuurunit aan de huidige descriptorset
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| binding | int | De bindinglocatie |
+| binding | int | De bindlocatie |
 | texture | [ITextureUnit](../../com.aspose.threed/itextureunit) | De texture-eenheid om te binden |
 
 **Returns:**

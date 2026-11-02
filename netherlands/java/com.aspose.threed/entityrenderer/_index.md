@@ -1,7 +1,7 @@
 ---
 title: "EntityRenderer"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Maak hiervan een subklasse om weergave voor verschillende soorten entiteiten te implementeren."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Subklasseer dit om weergave voor verschillende soorten entiteiten te implementeren."
 type: docs
 weight: 53
 url: /nl/java/com.aspose.threed/entityrenderer/
@@ -13,7 +13,7 @@ java.lang.Object
 public class EntityRenderer
 ```
 
-Maak hiervan een subklasse om weergave voor verschillende soorten entiteiten te implementeren.
+Subklasseer dit om weergave voor verschillende soorten entiteiten te implementeren.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -24,18 +24,18 @@ Maak hiervan een subklasse om weergave voor verschillende soorten entiteiten te 
 
 | Methode | Beschrijving |
 | --- | --- |
-| [dispose()](#dispose--) | De entity renderer wordt verwijderd, deelbare bronnen vrijgeven. |
+| [dispose()](#dispose--) | De entity renderer wordt verwijderd, gedeelde resources vrijgeven. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [frameBegin(Renderer renderer, IRenderQueue renderQueue)](#frameBegin-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-) | Begin met het renderen van een frame |
-| [frameEnd(Renderer renderer, IRenderQueue renderQueue)](#frameEnd-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-) | Beëindigt het renderen van een frame |
+| [frameEnd(Renderer renderer, IRenderQueue renderQueue)](#frameEnd-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-) | Eindigt met het renderen van een frame |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [initialize(Renderer renderer)](#initialize-com.aspose.threed.Renderer-) | Initialiseer de entity renderer |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [prepareRenderQueue(Renderer renderer, IRenderQueue queue, Node node, Entity entity)](#prepareRenderQueue-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-com.aspose.threed.Node-com.aspose.threed.Entity-) | Bereid renderopdrachten voor voor het opgegeven knooppunt/entity-paar. |
-| [renderEntity(Renderer renderer, ICommandList commandList, Node node, Object renderableResource, int subEntity)](#renderEntity-com.aspose.threed.Renderer-com.aspose.threed.ICommandList-com.aspose.threed.Node-java.lang.Object-int-) | Elke rendertaak die naar de [IRenderQueue](../../com.aspose.threed/irenderqueue) wordt gestuurd, zal een overeenkomstige RenderEntity‑aanroep hebben om de concrete rendertaak uit te voeren. |
-| [resetSceneCache()](#resetSceneCache--) | De scène is gewijzigd of verwijderd, er moeten scene‑niveau renderbronnen worden vrijgegeven in dit geval. |
+| [prepareRenderQueue(Renderer renderer, IRenderQueue queue, Node node, Entity entity)](#prepareRenderQueue-com.aspose.threed.Renderer-com.aspose.threed.IRenderQueue-com.aspose.threed.Node-com.aspose.threed.Entity-) | Bereid renderopdrachten voor voor opgegeven knoop/entity-paar. |
+| [renderEntity(Renderer renderer, ICommandList commandList, Node node, Object renderableResource, int subEntity)](#renderEntity-com.aspose.threed.Renderer-com.aspose.threed.ICommandList-com.aspose.threed.Node-java.lang.Object-int-) | Elke rendertaak die naar de [IRenderQueue](../../com.aspose.threed/irenderqueue) wordt gepusht, zal een overeenkomstige RenderEntity-aanroep hebben om de concrete rendertaak uit te voeren. |
+| [resetSceneCache()](#resetSceneCache--) | De scène is gewijzigd of verwijderd, er moeten scene-niveau renderresources worden vrijgegeven in dit geval. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -51,8 +51,8 @@ Constructor van [EntityRenderer](../../com.aspose.threed/entityrenderer)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| sleutel | java.lang.String | De sleutel van de entiteitrenderer |
-| functies | byte | De extra functies van de entiteitrenderer |
+| sleutel | java.lang.String | De sleutel van de entity renderer |
+| functies | byte | De extra functies van de entity renderer |
 
 ### EntityRenderer(String key) {#EntityRenderer-java.lang.String-}
 ```
@@ -65,7 +65,7 @@ Constructor van [EntityRenderer](../../com.aspose.threed/entityrenderer)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| sleutel | java.lang.String | De sleutel van de entiteitrenderer |
+| sleutel | java.lang.String | De sleutel van de entity renderer |
 
 ### dispose() {#dispose--}
 ```
@@ -73,7 +73,7 @@ public void dispose()
 ```
 
 
-De entity renderer wordt verwijderd, deelbare bronnen vrijgeven.
+De entity renderer wordt verwijderd, gedeelde resources vrijgeven.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -110,7 +110,7 @@ public void frameEnd(Renderer renderer, IRenderQueue renderQueue)
 ```
 
 
-Beëindigt het renderen van een frame
+Eindigt met het renderen van een frame
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -173,12 +173,12 @@ public void prepareRenderQueue(Renderer renderer, IRenderQueue queue, Node node,
 ```
 
 
-Bereid renderopdrachten voor voor het opgegeven knooppunt/entity-paar.
+Bereid renderopdrachten voor voor opgegeven knoop/entity-paar.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| renderer | [Renderer](../../com.aspose.threed/renderer) | De huidige rendererinstantie |
+| renderer | [Renderer](../../com.aspose.threed/renderer) | De huidige renderer-instantie |
 | queue | [IRenderQueue](../../com.aspose.threed/irenderqueue) | De renderwachtrij die wordt gebruikt om rendertaken te beheren |
 | node | [Node](../../com.aspose.threed/node) | Huidige knoop |
 | entity | [Entity](../../com.aspose.threed/entity) | De entiteit die moet worden gerenderd |
@@ -189,7 +189,7 @@ public void renderEntity(Renderer renderer, ICommandList commandList, Node node,
 ```
 
 
-Elke rendertaak die naar de [IRenderQueue](../../com.aspose.threed/irenderqueue) wordt gestuurd, zal een overeenkomstige RenderEntity‑aanroep hebben om de concrete rendertaak uit te voeren.
+Elke rendertaak die naar de [IRenderQueue](../../com.aspose.threed/irenderqueue) wordt gepusht, zal een overeenkomstige RenderEntity-aanroep hebben om de concrete rendertaak uit te voeren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -197,8 +197,8 @@ Elke rendertaak die naar de [IRenderQueue](../../com.aspose.threed/irenderqueue)
 | renderer | [Renderer](../../com.aspose.threed/renderer) | De renderer |
 | commandList | [ICommandList](../../com.aspose.threed/icommandlist) | De commandList die wordt gebruikt om de renderopdrachten vast te leggen |
 | node | [Node](../../com.aspose.threed/node) | Dezelfde knoop die is doorgegeven aan PrepareRenderQueue van de entiteit die zal worden gerenderd |
-| renderableResource | java.lang.Object | Het aangepaste object dat tijdens de PrepareRenderQueue aan IRenderQueue wordt doorgegeven |
-| subEntity | int | De index van de subentiteit die aan IRenderQueue wordt doorgegeven |
+| renderableResource | java.lang.Object | Het aangepaste object dat is doorgegeven aan IRenderQueue tijdens de PrepareRenderQueue |
+| subEntity | int | De index van de subentiteit die is doorgegeven aan IRenderQueue |
 
 ### resetSceneCache() {#resetSceneCache--}
 ```
@@ -206,7 +206,7 @@ public void resetSceneCache()
 ```
 
 
-De scène is gewijzigd of verwijderd, er moeten scene‑niveau renderbronnen worden vrijgegeven in dit geval.
+De scène is gewijzigd of verwijderd, er moeten scene-niveau renderresources worden vrijgegeven in dit geval.
 
 ### toString() {#toString--}
 ```

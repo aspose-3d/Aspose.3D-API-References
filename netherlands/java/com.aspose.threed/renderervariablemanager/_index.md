@@ -1,6 +1,6 @@
 ---
 title: "RendererVariableManager"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Deze klasse beheert variabelen die worden gebruikt bij het renderen"
 type: docs
 weight: 154

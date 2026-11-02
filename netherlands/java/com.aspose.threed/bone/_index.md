@@ -1,7 +1,7 @@
 ---
 title: "Bot"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een bot definieert de subset van de controlepunten van de geometrie en bepaalt het blendgewicht voor elk controlepunt."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een bot definieert de subset van de controlepunten van de geometrie en definieert het blend-gewicht voor elk controlepunt."
 type: docs
 weight: 20
 url: /nl/java/com.aspose.threed/bone/
@@ -13,43 +13,43 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Bone extends A3DObject
 ```
 
-Een bot definieert de subset van de controlepunten van de geometrie en bepaalt het blendgewicht voor elk controlepunt. Het [Bone](../../com.aspose.threed/bone)-object kan niet direct worden gebruikt; een [SkinDeformer](../../com.aspose.threed/skindeformer)-instantie wordt gebruikt om de geometrie te deformeren, en [SkinDeformer](../../com.aspose.threed/skindeformer) wordt geleverd met een set botten, elk bot gekoppeld aan een knoop. OPMERKING: Een controlepunt van een geometrie kan aan meer dan één bot worden gekoppeld.
+Een bot definieert de subset van de controlepunten van de geometrie, en definieert het blend-gewicht voor elk controlepunt. Het [Bone](../../com.aspose.threed/bone) object kan niet direct worden gebruikt, een [SkinDeformer](../../com.aspose.threed/skindeformer) instantie wordt gebruikt om de geometrie te deformereren, en [SkinDeformer](../../com.aspose.threed/skindeformer) wordt geleverd met een set botten, elk bot gekoppeld aan een node. OPMERKING: Een controlepunt van een geometrie kan aan meer dan één bot worden gekoppeld.
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [Bone(String name)](#Bone-java.lang.String-) | Initialiseert een nieuwe instantie van de [Bone](../../com.aspose.threed/bone)-klasse. |
-| [Bone()](#Bone--) | Initialiseert een nieuwe instantie van de [Bone](../../com.aspose.threed/bone)-klasse. |
+| [Bone(String name)](#Bone-java.lang.String-) | Initialiseert een nieuwe instantie van de [Bone](../../com.aspose.threed/bone) klasse. |
+| [Bone()](#Bone--) | Initialiseert een nieuwe instantie van de [Bone](../../com.aspose.threed/bone) klasse. |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [get(int index)](#get-int-) | Haalt het blendgewicht op van het opgegeven controlepunt |
+| [get(int index)](#get-int-) | Haalt het blend-gewicht op van het opgegeven controlepunt |
 | [getBoneTransform()](#getBoneTransform--) | Haalt de transformatiematrix op van het bot. |
 | [getClass()](#getClass--) |  |
 | [getLinkMode()](#getLinkMode--) | De linkmodus van een bot verwijst naar de manier waarop een bot is verbonden of gekoppeld aan zijn bovenliggende bot binnen een hiërarchische structuur. |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getNode()](#getNode--) | Haalt het knooppunt op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getTransform()](#getTransform--) | Haalt de transformatiematrix op van het knooppunt dat het bot bevat. |
-| [getWeight(int index)](#getWeight-int-) | Haalt het gewicht op voor het controlepunt gespecificeerd door index |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getTransform()](#getTransform--) | Haalt de transformatie-matrix op van het knooppunt dat het bot bevat. |
+| [getWeight(int index)](#getWeight-int-) | Haalt het gewicht op voor het controlepunt gespecificeerd door index. |
 | [getWeightCount()](#getWeightCount--) | Haalt het aantal gewichten op, dit wordt automatisch uitgebreid door [setWeight](../../com.aspose.threed/bone\#setWeight) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [set(int index, double value)](#set-int-double-) | Stelt het menggewicht in van het gespecificeerde controlepunt |
-| [setBoneTransform(Matrix4 value)](#setBoneTransform-com.aspose.threed.Matrix4-) | Stelt de transformatiematrix van het bot in. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [set(int index, double value)](#set-int-double-) | Stelt het blendgewicht in van het gespecificeerde controlepunt. |
+| [setBoneTransform(Matrix4 value)](#setBoneTransform-com.aspose.threed.Matrix4-) | Stelt de transformatie-matrix van het bot in. |
 | [setLinkMode(BoneLinkMode value)](#setLinkMode-com.aspose.threed.BoneLinkMode-) | De linkmodus van een bot verwijst naar de manier waarop een bot is verbonden of gekoppeld aan zijn bovenliggende bot binnen een hiërarchische structuur. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Stelt het knooppunt in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setTransform(Matrix4 value)](#setTransform-com.aspose.threed.Matrix4-) | Stelt de transformatiematrix in van het knooppunt dat het bot bevat. |
-| [setWeight(int index, double weight)](#setWeight-int-double-) | Stelt het gewicht in voor het controlepunt gespecificeerd door index |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setTransform(Matrix4 value)](#setTransform-com.aspose.threed.Matrix4-) | Stelt de transformatie-matrix in van het knooppunt dat het bot bevat. |
+| [setWeight(int index, double weight)](#setWeight-int-double-) | Stelt het gewicht in voor het controlepunt gespecificeerd door index. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,7 +60,7 @@ public Bone(String name)
 ```
 
 
-Initialiseert een nieuwe instantie van de [Bone](../../com.aspose.threed/bone)-klasse.
+Initialiseert een nieuwe instantie van de [Bone](../../com.aspose.threed/bone) klasse.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -73,7 +73,7 @@ public Bone()
 ```
 
 
-Initialiseert een nieuwe instantie van de [Bone](../../com.aspose.threed/bone)-klasse.
+Initialiseert een nieuwe instantie van de [Bone](../../com.aspose.threed/bone) klasse.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -101,7 +101,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -111,7 +111,7 @@ public double get(int index)
 ```
 
 
-Haalt het blendgewicht op van het opgegeven controlepunt
+Haalt het blend-gewicht op van het opgegeven controlepunt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -176,7 +176,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -186,12 +186,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -201,7 +201,7 @@ public Matrix4 getTransform()
 ```
 
 
-Haalt de transformatiematrix op van het knooppunt dat het bot bevat.
+Haalt de transformatie-matrix op van het knooppunt dat het bot bevat.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix of the node containing the bone.
@@ -211,7 +211,7 @@ public double getWeight(int index)
 ```
 
 
-Haalt het gewicht op voor het controlepunt gespecificeerd door index
+Haalt het gewicht op voor het controlepunt gespecificeerd door index.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -277,7 +277,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -292,7 +292,7 @@ public void set(int index, double value)
 ```
 
 
-Stelt het menggewicht in van het gespecificeerde controlepunt
+Stelt het blendgewicht in van het gespecificeerde controlepunt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -306,7 +306,7 @@ public void setBoneTransform(Matrix4 value)
 ```
 
 
-Stelt de transformatiematrix van het bot in.
+Stelt de transformatie-matrix van het bot in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -358,12 +358,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setTransform(Matrix4 value) {#setTransform-com.aspose.threed.Matrix4-}
@@ -372,7 +372,7 @@ public void setTransform(Matrix4 value)
 ```
 
 
-Stelt de transformatiematrix in van het knooppunt dat het bot bevat.
+Stelt de transformatie-matrix in van het knooppunt dat het bot bevat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -385,7 +385,7 @@ public void setWeight(int index, double weight)
 ```
 
 
-Stelt het gewicht in voor het controlepunt gespecificeerd door index
+Stelt het gewicht in voor het controlepunt gespecificeerd door index.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

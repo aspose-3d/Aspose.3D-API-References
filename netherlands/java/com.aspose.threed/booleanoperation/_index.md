@@ -1,7 +1,7 @@
 ---
 title: "BooleanOperation"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Boolean bewerking van meshes"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Meshs Booleaanse bewerking"
 type: docs
 weight: 268
 url: /nl/java/com.aspose.threed/booleanoperation/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum BooleanOperation extends Enum<BooleanOperation>
 ```
 
-Mesh's Booleaanse bewerking.
+Booleaanse bewerking van mesh
 ## Velden
 
 | Veld | Beschrijving |

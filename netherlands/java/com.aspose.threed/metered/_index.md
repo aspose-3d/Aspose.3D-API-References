@@ -1,6 +1,6 @@
 ---
 title: "Metered"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Biedt methoden om een gemeten sleutel in te stellen."
 type: docs
 weight: 103
@@ -25,8 +25,8 @@ Biedt methoden om een gemeten sleutel in te stellen.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getConsumptionCredit()](#getConsumptionCredit--) | Haalt verbruikskrediet op |
-| [getConsumptionQuantity()](#getConsumptionQuantity--) | Haalt verbruiksgrootte van bestand op |
+| [getConsumptionCredit()](#getConsumptionCredit--) | Haalt verbruikcredits op |
+| [getConsumptionQuantity()](#getConsumptionQuantity--) | Haalt de bestandsgrootte van het verbruik op |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -74,20 +74,20 @@ public static double getConsumptionCredit()
 ```
 
 
-Haalt verbruikskrediet op
+Haalt verbruikcredits op
 
 **Returns:**
-double - verbruikshoeveelheid
+double - verbruikhoeveelheid
 ### getConsumptionQuantity() {#getConsumptionQuantity--}
 ```
 public static double getConsumptionQuantity()
 ```
 
 
-Haalt verbruiksgrootte van bestand op
+Haalt de bestandsgrootte van het verbruik op
 
 **Returns:**
-double - verbruikshoeveelheid
+double - verbruikhoeveelheid
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -120,7 +120,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-Stelt de metered openbare en privésleutel in. Als u een metered‑licentie aanschaft, moet deze API bij het starten van de applicatie worden aangeroepen; normaal gesproken is dit voldoende. Echter, als het altijd mislukt om verbruiksgegevens te uploaden en de 24‑uur‑limiet wordt overschreden, wordt de licentie op evaluatiestatus gezet. Om zo’n geval te voorkomen, dient u regelmatig de licentiestatus te controleren; als deze op evaluatiestatus staat, roept u deze API opnieuw aan.
+Stelt de metered openbare en privésleutel in. Als u een metered-licentie aanschaft, moet deze API bij het starten van de applicatie worden aangeroepen; normaal gesproken is dit voldoende. Echter, als het uploaden van verbruiksgegevens steeds mislukt en 24 uur wordt overschreden, wordt de licentie op evaluatiestatus gezet. Om dit te voorkomen, dient u regelmatig de licentiestatus te controleren; als deze op evaluatiestatus staat, roept u deze API opnieuw aan.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

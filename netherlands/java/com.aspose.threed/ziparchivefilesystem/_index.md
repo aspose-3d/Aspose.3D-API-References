@@ -1,7 +1,7 @@
 ---
 title: "ZipArchiveFileSystem"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip‑bestand of zip‑stream."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip-bestand of zip-stream."
 type: docs
 weight: 221
 url: /nl/java/com.aspose.threed/ziparchivefilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class ZipArchiveFileSystem extends FileSystem
 ```
 
-Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip‑bestand of zip‑stream. Bestandssysteem wordt vrijgegeven na de open-/opslaoperatie. **Example:** De volgende code laat zien hoe een bestand te importeren en afhankelijke bestanden in een zip‑archiefbestand te leveren.
+Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip-bestand of zip-stream. Bestandssysteem wordt verwijderd na de open-/opslaan-bewerking. **Example:** De volgende code laat zien hoe een bestand te importeren en afhankelijke bestanden in een zip-archiefbestand te leveren.
 
 ```
 var inputFile = "input.fbx";
@@ -58,7 +58,7 @@ Construeer een [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesyst
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | com.aspose.csporter.helpers.Stream |  |
+| stroom | com.aspose.csporter.helpers.Stream |  |
 | baseDir | java.lang.String |  |
 
 ### ZipArchiveFileSystem(Stream stream) {#ZipArchiveFileSystem-com.aspose.csporter.helpers.Stream-}
@@ -72,7 +72,7 @@ Construeer een [ZipArchiveFileSystem](../../com.aspose.threed/ziparchivefilesyst
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | com.aspose.csporter.helpers.Stream |  |
+| stroom | com.aspose.csporter.helpers.Stream |  |
 
 ### ZipArchiveFileSystem(String fileName) {#ZipArchiveFileSystem-java.lang.String-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "TextureMapping"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Het textuurmappingtype voor  Beschrijft welk type textuurmapping wordt gebruikt."
 type: docs
 weight: 306
@@ -19,12 +19,12 @@ Het textuurmappingtype voor [VertexElementUV](../../com.aspose.threed/vertexelem
 | Veld | Beschrijving |
 | --- | --- |
 | [AMBIENT](#AMBIENT) | Omgevingskaarten |
-| [BUMP](#BUMP) | Bump-maps |
-| [DIFFUSE](#DIFFUSE) | Diffuse-kaarten |
-| [DISPLACEMENT](#DISPLACEMENT) | Displacement-kaarten |
+| [BUMP](#BUMP) | Bumpmaps |
+| [DIFFUSE](#DIFFUSE) | Diffuse kaarten |
+| [DISPLACEMENT](#DISPLACEMENT) | Verplaatsingskaarten |
 | [EMISSIVE](#EMISSIVE) | Emissieve kaarten |
-| [GLOW](#GLOW) | Glow-kaarten |
-| [NORMAL](#NORMAL) | Normal-kaarten |
+| [GLOW](#GLOW) | Glowkaarten |
+| [NORMAL](#NORMAL) | Normale kaarten |
 | [OPACITY](#OPACITY) | Opaciteitskaarten |
 | [REFLECTION](#REFLECTION) | Reflectiekaarten |
 | [SHADOW](#SHADOW) | Schaduwkaarten |
@@ -65,7 +65,7 @@ public static final TextureMapping BUMP
 ```
 
 
-Bump-maps
+Bumpmaps
 
 ### DIFFUSE {#DIFFUSE}
 ```
@@ -73,7 +73,7 @@ public static final TextureMapping DIFFUSE
 ```
 
 
-Diffuse-kaarten
+Diffuse kaarten
 
 ### DISPLACEMENT {#DISPLACEMENT}
 ```
@@ -81,7 +81,7 @@ public static final TextureMapping DISPLACEMENT
 ```
 
 
-Displacement-kaarten
+Verplaatsingskaarten
 
 ### EMISSIVE {#EMISSIVE}
 ```
@@ -97,7 +97,7 @@ public static final TextureMapping GLOW
 ```
 
 
-Glow-kaarten
+Glowkaarten
 
 ### NORMAL {#NORMAL}
 ```
@@ -105,7 +105,7 @@ public static final TextureMapping NORMAL
 ```
 
 
-Normal-kaarten
+Normale kaarten
 
 ### OPACITY {#OPACITY}
 ```

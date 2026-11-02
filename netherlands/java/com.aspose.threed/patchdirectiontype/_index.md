@@ -1,7 +1,7 @@
 ---
 title: "PatchDirectionType"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Patchrichtings types."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Patchrichtingt types."
 type: docs
 weight: 287
 url: /nl/java/com.aspose.threed/patchdirectiontype/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum PatchDirectionType extends Enum<PatchDirectionType>
 ```
 
-Typen van patchrichtingen.
+Patch-richtingstypen.
 ## Velden
 
 | Veld | Beschrijving |
@@ -22,7 +22,7 @@ Typen van patchrichtingen.
 
 
 [The patch direction is a basis spline.]: https://en.wikipedia.org/wiki/B-spline |
-|  | [BEZIER](#BEZIER) | [De patchrichting is een Bezier-curve.][] |
+|  | [BEZIER](#BEZIER) | [De patchrichting is een Béziercurve.][] |
 
 
 [The patch direction is a Bezier curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve |
@@ -31,7 +31,7 @@ Typen van patchrichtingen.
 
 
 [The patch direction is a linear curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Linear_curves |
-| [QUADRATIC_BEZIER](#QUADRATIC-BEZIER) | De kwadratische bezier-patch. |
+| [QUADRATIC_BEZIER](#QUADRATIC-BEZIER) | De kwadratische Bézierpatch. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -81,7 +81,7 @@ public static final PatchDirectionType CARDINAL_SPLINE
 ```
 
 
-cardinale patch. [De patchrichting is een cardinal spline.][]
+cardinale patch. [De patchrichting is een cardinale spline.][]
 
 
 [The patch direction is a cardinal spline.]: https://en.wikipedia.org/wiki/Cubic_Hermite_spline#Cardinal_spline
@@ -103,7 +103,7 @@ public static final PatchDirectionType QUADRATIC_BEZIER
 ```
 
 
-De kwadratische bezier-patch. [De patchrichting is een quadratic curve.][]
+De kwadratische Bézierpatch. [De patchrichting is een kwadratische curve.][]
 
 
 [The patch direction is a quadratic curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Quadratic_curves

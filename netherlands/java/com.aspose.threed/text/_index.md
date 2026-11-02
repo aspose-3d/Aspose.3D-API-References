@@ -1,6 +1,6 @@
 ---
 title: "Tekst"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Tekstprofiel dit profiel beschrijft contouren met behulp van lettertype en tekst."
 type: docs
 weight: 183
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Text extends Profile
 ```
 
-Tekstprofiel, dit profiel beschrijft contouren met behulp van lettertype en tekst. **Voorbeeld:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertype‑bestand.
+Tekstprofiel, dit profiel beschrijft contouren met behulp van lettertype en tekst. **Example:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertypebestand.
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -36,31 +36,31 @@ var font = FontFile.fromFile("CascadiaCode-Regular.otf");
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
 | [getClass()](#getClass--) |  |
 | [getContent()](#getContent--) | Inhoud van de tekst |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getFont()](#getFont--) | Het lettertype van de tekst. |
 | [getFontSize()](#getFontSize--) | Schaal van de lettergrootte. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setContent(String value)](#setContent-java.lang.String-) | Inhoud van de tekst |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setFont(FontFile value)](#setFont-com.aspose.threed.FontFile-) | Het lettertype van de tekst. |
 | [setFontSize(float value)](#setFontSize-float-) | Schaal van de lettergrootte. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -97,7 +97,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -107,7 +107,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -137,7 +137,7 @@ public String getContent()
 Inhoud van de tekst
 
 **Returns:**
-java.lang.String - Inhoud van de tekst **Voorbeeld:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertype‑bestand.
+java.lang.String - Inhoud van de tekst **Example:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertypebestand.
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -155,7 +155,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -165,10 +165,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getFont() {#getFont--}
 ```
 public FontFile getFont()
@@ -199,7 +199,7 @@ public float getFontSize()
 Schaal van de lettergrootte.
 
 **Returns:**
-float - Schaal van de lettergrootte. **Voorbeeld:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertype‑bestand.
+float - Schaal van de lettergrootte. **Example:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertypebestand.
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -227,7 +227,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -237,7 +237,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -247,7 +247,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -257,12 +257,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -272,7 +272,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -323,7 +323,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -343,7 +343,7 @@ Inhoud van de tekst
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.lang.String | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertype‑bestand. |
+|  | waarde | java.lang.String | Nieuwe waarde **Example:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertypebestand. |
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -362,7 +362,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -380,7 +380,7 @@ Het lettertype van de tekst.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FontFile](../../com.aspose.threed/fontfile) | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertype‑bestand. |
+|  | value | [FontFile](../../com.aspose.threed/fontfile) | Nieuwe waarde **Example:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertypebestand. |
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -404,7 +404,7 @@ Schaal van de lettergrootte.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | float | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertype‑bestand. |
+|  | waarde | float | Nieuwe waarde **Example:** De volgende code laat zien hoe je een 3D‑mesh maakt van tekst met een opgegeven lettertypebestand. |
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -436,7 +436,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -449,12 +449,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}

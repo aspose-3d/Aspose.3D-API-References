@@ -1,6 +1,6 @@
 ---
 title: "IIndexedVertexElement"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "VertexElement met indexgegevens."
 type: docs
 weight: 243
@@ -15,14 +15,14 @@ VertexElement met indexgegevens.
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getIndices()](#getIndices--) | Haalt de indexgegevens op. |
+| [getIndices()](#getIndices--) | Haalt de indexgegevens op |
 ### getIndices() {#getIndices--}
 ```
 public abstract List<Integer> getIndices()
 ```
 
 
-Haalt de indexgegevens op.
+Haalt de indexgegevens op
 
 **Returns:**
 java.util.List<java.lang.Integer> - de indexgegevens

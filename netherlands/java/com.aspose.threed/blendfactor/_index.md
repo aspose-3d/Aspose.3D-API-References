@@ -1,7 +1,7 @@
 ---
 title: "BlendFactor"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Blend factor specificeert pixelrekenkunde."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Blendfactor specificeert pixelrekenkunde."
 type: docs
 weight: 266
 url: /nl/java/com.aspose.threed/blendfactor/
@@ -13,18 +13,18 @@ java.lang.Object, java.lang.Enum
 public enum BlendFactor extends Enum<BlendFactor>
 ```
 
-Blend factor specificeert pixelrekenkunde.
+Blendfactor specificeert pixelrekenkunde.
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [CONSTANT_ALPHA](#CONSTANT-ALPHA) | De blendfactor is vec4(c.a) waarbij c wordt gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
-| [CONSTANT_COLOR](#CONSTANT-COLOR) | De blendfactor is c waarbij c wordt gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
+| [CONSTANT_ALPHA](#CONSTANT-ALPHA) | De blendfactor is vec4(c.a) waarbij c is gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
+| [CONSTANT_COLOR](#CONSTANT-COLOR) | De blendfactor is c waarbij c is gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
 | [DST_ALPHA](#DST-ALPHA) | De blendfactor is vec4(dst.a) |
 | [DST_COLOR](#DST-COLOR) | De blendfactor is dst.rgba |
 | [ONE](#ONE) | De blendfactor is vec4(1) |
-| [ONE_MINUS_CONSTANT_ALPHA](#ONE-MINUS-CONSTANT-ALPHA) | De blendfactor is vec4(1 - c.a) waarbij c wordt gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
-| [ONE_MINUS_CONSTANT_COLOR](#ONE-MINUS-CONSTANT-COLOR) | De blendfactor is vec4(1) - c waarbij c wordt gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
+| [ONE_MINUS_CONSTANT_ALPHA](#ONE-MINUS-CONSTANT-ALPHA) | De blendfactor is vec4(1 - c.a) waarbij c is gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
+| [ONE_MINUS_CONSTANT_COLOR](#ONE-MINUS-CONSTANT-COLOR) | De blendfactor is vec4(1) - c waarbij c is gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
 | [ONE_MINUS_DST_ALPHA](#ONE-MINUS-DST-ALPHA) | De blendfactor is vec4(1 - dst.a) |
 | [ONE_MINUS_DST_COLOR](#ONE-MINUS-DST-COLOR) | De blendfactor is vec4(1) - dst.rgba |
 | [ONE_MINUS_SRC_ALPHA](#ONE-MINUS-SRC-ALPHA) | De blendfactor is vec4(1 - src.a) |
@@ -60,7 +60,7 @@ public static final BlendFactor CONSTANT_ALPHA
 ```
 
 
-De blendfactor is vec4(c.a) waarbij c wordt gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
+De blendfactor is vec4(c.a) waarbij c is gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
 
 ### CONSTANT_COLOR {#CONSTANT-COLOR}
 ```
@@ -68,7 +68,7 @@ public static final BlendFactor CONSTANT_COLOR
 ```
 
 
-De blendfactor is c waarbij c wordt gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
+De blendfactor is c waarbij c is gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
 
 ### DST_ALPHA {#DST-ALPHA}
 ```
@@ -100,7 +100,7 @@ public static final BlendFactor ONE_MINUS_CONSTANT_ALPHA
 ```
 
 
-De blendfactor is vec4(1 - c.a) waarbij c wordt gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
+De blendfactor is vec4(1 - c.a) waarbij c is gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
 
 ### ONE_MINUS_CONSTANT_COLOR {#ONE-MINUS-CONSTANT-COLOR}
 ```
@@ -108,7 +108,7 @@ public static final BlendFactor ONE_MINUS_CONSTANT_COLOR
 ```
 
 
-De blendfactor is vec4(1) - c waarbij c wordt gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
+De blendfactor is vec4(1) - c waarbij c is gespecificeerd in [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
 
 ### ONE_MINUS_DST_ALPHA {#ONE-MINUS-DST-ALPHA}
 ```

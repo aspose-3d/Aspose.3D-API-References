@@ -1,6 +1,6 @@
 ---
 title: "Renderer"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De context over de renderer."
 type: docs
 weight: 152
@@ -30,31 +30,31 @@ De context over de renderer.
 | [getClass()](#getClass--) |  |
 | [getEnableShadows()](#getEnableShadows--) | Haalt op of schaduwen ingeschakeld moeten worden. |
 | [getFallbackEntityRenderer()](#getFallbackEntityRenderer--) | Haalt de fallback entity renderer op wanneer de entiteit geen speciale renderer heeft gedefinieerd. |
-| [getFrustum()](#getFrustum--) | Haalt de frustum op die werd gebruikt om de viewmatrix te leveren. |
+| [getFrustum()](#getFrustum--) | Haalt de frustum op die werd gebruikt om de view‑matrix te leveren. |
 | [getMaterial()](#getMaterial--) | Haalt het materiaal op dat werd gebruikt om materiaalinformatie te leveren die door shaders wordt gebruikt. |
-| [getNode()](#getNode--) | Haalt de [getNode](../../com.aspose.threed/renderer\#getNode) instantie op die wordt gebruikt om de wereldtransformatie-matrix te leveren. |
-| [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | Haalt een ingebouwde post-processor op die door de renderer wordt ondersteund. |
-| [getPostProcessings()](#getPostProcessings--) | Actieve post-processing keten |
-| [getPresetShaders()](#getPresetShaders--) | Haalt de vooraf ingestelde shaderset op |
-| [getRenderFactory()](#getRenderFactory--) | Haalt de fabriek op om render-gerelateerde objecten te bouwen. |
-| [getRenderStage()](#getRenderStage--) | Haalt de huidige renderfase op. |
-| [getRenderTarget()](#getRenderTarget--) | Specificeer het renderdoel waarop de volgende renderbewerkingen worden uitgevoerd. |
-| [getShader()](#getShader--) | Haalt de shaderinstantie op die wordt gebruikt voor het renderen van de geometrie. |
-| [getShaderSet()](#getShaderSet--) | Haalt de shaderset op die werd gebruikt om de scène te renderen |
-| [getVariables()](#getVariables--) | Toegang tot de interne variabelen die worden gebruikt voor rendering |
+| [getNode()](#getNode--) | Haalt de [getNode](../../com.aspose.threed/renderer\#getNode)‑instantie op die wordt gebruikt om de wereld‑transformatie‑matrix te leveren. |
+| [getPostProcessing(String name)](#getPostProcessing-java.lang.String-) | Haalt een ingebouwde post‑processor op die door de renderer wordt ondersteund. |
+| [getPostProcessings()](#getPostProcessings--) | Actieve post‑processing‑keten |
+| [getPresetShaders()](#getPresetShaders--) | Haalt de vooraf ingestelde shader‑set op |
+| [getRenderFactory()](#getRenderFactory--) | Haalt de fabriek op om render‑gerelateerde objecten te bouwen. |
+| [getRenderStage()](#getRenderStage--) | Haalt de huidige render‑fase op. |
+| [getRenderTarget()](#getRenderTarget--) | Specificeer het render‑doel waarop de volgende render‑bewerkingen zullen worden uitgevoerd. |
+| [getShader()](#getShader--) | Haalt de shader‑instantie op die wordt gebruikt voor het renderen van de geometrie. |
+| [getShaderSet()](#getShaderSet--) | Haalt de shader‑set op die werd gebruikt om de scène te renderen |
+| [getVariables()](#getVariables--) | Toegang tot de interne variabelen die voor rendering worden gebruikt |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [registerEntityRenderer(EntityRenderer renderer)](#registerEntityRenderer-com.aspose.threed.EntityRenderer-) | Registreer de entiteitrenderer voor de opgegeven entiteit |
+| [registerEntityRenderer(EntityRenderer renderer)](#registerEntityRenderer-com.aspose.threed.EntityRenderer-) | Registreer de entity‑renderer voor de opgegeven entiteit |
 | [render(IRenderTarget renderTarget)](#render-com.aspose.threed.IRenderTarget-) | Render het opgegeven doel |
 | [setEnableShadows(boolean value)](#setEnableShadows-boolean-) | Stelt in of schaduwen moeten worden ingeschakeld. |
 | [setFallbackEntityRenderer(EntityRenderer value)](#setFallbackEntityRenderer-com.aspose.threed.EntityRenderer-) | Stelt de fallback entity renderer in wanneer de entiteit geen speciale renderer heeft gedefinieerd. |
-| [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | Stelt de frustum in die werd gebruikt om de viewmatrix te leveren. |
+| [setFrustum(Frustum value)](#setFrustum-com.aspose.threed.Frustum-) | Stelt de frustum in die werd gebruikt om de view‑matrix te leveren. |
 | [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Stelt het materiaal in dat werd gebruikt om materiaalinformatie te leveren die door shaders wordt gebruikt. |
-| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Stelt de [getNode](../../com.aspose.threed/renderer\#getNode) instantie in die wordt gebruikt om de wereldtransformatie-matrix te leveren. |
-| [setPresetShaders(PresetShaders value)](#setPresetShaders-com.aspose.threed.PresetShaders-) | Stelt de vooraf ingestelde shaderset in |
-| [setShader(ShaderProgram value)](#setShader-com.aspose.threed.ShaderProgram-) | Stelt de shaderinstantie in die wordt gebruikt voor het renderen van de geometrie. |
-| [setShaderSet(ShaderSet value)](#setShaderSet-com.aspose.threed.ShaderSet-) | Stelt de shaderset in die werd gebruikt om de scène te renderen |
+| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Stelt de [getNode](../../com.aspose.threed/renderer\#getNode)‑instantie in die wordt gebruikt om de wereld‑transformatie‑matrix te leveren. |
+| [setPresetShaders(PresetShaders value)](#setPresetShaders-com.aspose.threed.PresetShaders-) | Stelt de vooraf ingestelde shader‑set in |
+| [setShader(ShaderProgram value)](#setShader-com.aspose.threed.ShaderProgram-) | Stelt de shader‑instantie in die wordt gebruikt voor het renderen van de geometrie. |
+| [setShaderSet(ShaderSet value)](#setShaderSet-com.aspose.threed.ShaderSet-) | Stelt de shader‑set in die werd gebruikt om de scène te renderen |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public void clearCache()
 ```
 
 
-Maak de cache handmatig leeg. Aspose.3D zal sommige objecten zoals materialen/geometrieën cachen in interne types die compatibel zijn met de renderpijplijn. Dit moet handmatig worden aangeroepen wanneer de scène grote wijzigingen ondergaat.
+Maak de cache handmatig leeg. Aspose.3D zal sommige objecten zoals materialen/geometrieën cachen in interne types die compatibel zijn met de render‑pipeline. Dit moet handmatig worden aangeroepen wanneer de scène grote wijzigingen ondergaat.
 
 ### close() {#close--}
 ```
@@ -160,7 +160,7 @@ public Frustum getFrustum()
 ```
 
 
-Haalt de frustum op die werd gebruikt om de viewmatrix te leveren.
+Haalt de frustum op die werd gebruikt om de view‑matrix te leveren.
 
 **Returns:**
 [Frustum](../../com.aspose.threed/frustum) - the frustum that used to provide view matrix.
@@ -180,7 +180,7 @@ public Node getNode()
 ```
 
 
-Haalt de [getNode](../../com.aspose.threed/renderer\#getNode) instantie op die wordt gebruikt om de wereldtransformatie-matrix te leveren.
+Haalt de [getNode](../../com.aspose.threed/renderer\#getNode)‑instantie op die wordt gebruikt om de wereld‑transformatie‑matrix te leveren.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the [getNode](../../com.aspose.threed/renderer\#getNode) instance used to provide world transform matrix.
@@ -190,7 +190,7 @@ public PostProcessing getPostProcessing(String name)
 ```
 
 
-Haalt een ingebouwde post-processor op die door de renderer wordt ondersteund.
+Haalt een ingebouwde post‑processor op die door de renderer wordt ondersteund.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -205,7 +205,7 @@ public List<PostProcessing> getPostProcessings()
 ```
 
 
-Actieve post-processing keten
+Actieve post‑processing‑keten
 
 **Returns:**
 java.util.List<com.aspose.threed.PostProcessing> - Actieve post-processing keten
@@ -215,7 +215,7 @@ public PresetShaders getPresetShaders()
 ```
 
 
-Haalt de vooraf ingestelde shaderset op
+Haalt de vooraf ingestelde shader‑set op
 
 **Returns:**
 [PresetShaders](../../com.aspose.threed/presetshaders) - the preset shader set
@@ -225,7 +225,7 @@ public abstract RenderFactory getRenderFactory()
 ```
 
 
-Haalt de fabriek op om render-gerelateerde objecten te bouwen.
+Haalt de fabriek op om render‑gerelateerde objecten te bouwen.
 
 **Returns:**
 [RenderFactory](../../com.aspose.threed/renderfactory) - the factory to build render-related objects.
@@ -235,7 +235,7 @@ public RenderStage getRenderStage()
 ```
 
 
-Haalt de huidige renderfase op.
+Haalt de huidige render‑fase op.
 
 **Returns:**
 [RenderStage](../../com.aspose.threed/renderstage) - the current render stage.
@@ -245,7 +245,7 @@ public IRenderTarget getRenderTarget()
 ```
 
 
-Specificeer het renderdoel waarop de volgende renderbewerkingen worden uitgevoerd.
+Specificeer het render‑doel waarop de volgende render‑bewerkingen zullen worden uitgevoerd.
 
 **Returns:**
 [IRenderTarget](../../com.aspose.threed/irendertarget) - Specify the render target that the following render operations will be performed on.
@@ -255,7 +255,7 @@ public ShaderProgram getShader()
 ```
 
 
-Haalt de shaderinstantie op die wordt gebruikt voor het renderen van de geometrie.
+Haalt de shader‑instantie op die wordt gebruikt voor het renderen van de geometrie.
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader instance used for rendering the geometry.
@@ -265,7 +265,7 @@ public ShaderSet getShaderSet()
 ```
 
 
-Haalt de shaderset op die werd gebruikt om de scène te renderen
+Haalt de shader‑set op die werd gebruikt om de scène te renderen
 
 **Returns:**
 [ShaderSet](../../com.aspose.threed/shaderset) - the shader set that used to render the scene
@@ -275,7 +275,7 @@ public RendererVariableManager getVariables()
 ```
 
 
-Toegang tot de interne variabelen die worden gebruikt voor rendering
+Toegang tot de interne variabelen die voor rendering worden gebruikt
 
 **Returns:**
 [RendererVariableManager](../../com.aspose.threed/renderervariablemanager) - Access to the internal variables used for rendering
@@ -311,7 +311,7 @@ public void registerEntityRenderer(EntityRenderer renderer)
 ```
 
 
-Registreer de entiteitrenderer voor de opgegeven entiteit
+Registreer de entity‑renderer voor de opgegeven entiteit
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -363,7 +363,7 @@ public void setFrustum(Frustum value)
 ```
 
 
-Stelt de frustum in die werd gebruikt om de viewmatrix te leveren.
+Stelt de frustum in die werd gebruikt om de view‑matrix te leveren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -389,7 +389,7 @@ public void setNode(Node value)
 ```
 
 
-Stelt de [getNode](../../com.aspose.threed/renderer\#getNode) instantie in die wordt gebruikt om de wereldtransformatie-matrix te leveren.
+Stelt de [getNode](../../com.aspose.threed/renderer\#getNode)‑instantie in die wordt gebruikt om de wereld‑transformatie‑matrix te leveren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -402,7 +402,7 @@ public void setPresetShaders(PresetShaders value)
 ```
 
 
-Stelt de vooraf ingestelde shaderset in
+Stelt de vooraf ingestelde shader‑set in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -415,7 +415,7 @@ public void setShader(ShaderProgram value)
 ```
 
 
-Stelt de shaderinstantie in die wordt gebruikt voor het renderen van de geometrie.
+Stelt de shader‑instantie in die wordt gebruikt voor het renderen van de geometrie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -428,7 +428,7 @@ public void setShaderSet(ShaderSet value)
 ```
 
 
-Stelt de shaderset in die werd gebruikt om de scène te renderen
+Stelt de shader‑set in die werd gebruikt om de scène te renderen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

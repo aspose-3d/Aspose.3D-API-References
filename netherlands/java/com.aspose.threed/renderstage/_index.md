@@ -1,6 +1,6 @@
 ---
 title: "RenderStage"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De renderfase"
 type: docs
 weight: 298
@@ -19,7 +19,7 @@ De renderfase
 | Veld | Beschrijving |
 | --- | --- |
 | [IDLE](#IDLE) | Renderer is inactief |
-| [POST_PROCESSING](#POST-PROCESSING) | Renderer rendert nabewerkings-effecten. |
+| [POST_PROCESSING](#POST-PROCESSING) | Renderer rendert post-processing effecten. |
 | [SCENE](#SCENE) | Renderer rendert de scène |
 | [SHADOW_MAP](#SHADOW-MAP) | Renderer rendert een schaduwkaart |
 ## Methoden
@@ -57,7 +57,7 @@ public static final RenderStage POST_PROCESSING
 ```
 
 
-Renderer rendert nabewerkings-effecten.
+Renderer rendert post-processing effecten.
 
 ### SCENE {#SCENE}
 ```

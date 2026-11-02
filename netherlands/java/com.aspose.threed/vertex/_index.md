@@ -1,6 +1,6 @@
 ---
 title: "Vertex"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Vertexreferentie gebruikt om de ruwe vertex te benaderen in ."
 type: docs
 weight: 205
@@ -26,19 +26,19 @@ Vertexreferentie, gebruikt om de ruwe vertex te benaderen in [TriMesh](../../com
 
 | Methode | Beschrijving |
 | --- | --- |
-| [compareTo(Vertex other)](#compareTo-com.aspose.threed.Vertex-) | Vergelijk de vertex met een andere vertex‑instantie |
+| [compareTo(Vertex other)](#compareTo-com.aspose.threed.Vertex-) | Vergelijk de vertex met een andere vertexinstantie |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readDouble(VertexField field)](#readDouble-com.aspose.threed.VertexField-) | Lees het double‑veld |
-| [readFVector2(VertexField field)](#readFVector2-com.aspose.threed.VertexField-) | Lees het vector2‑veld |
-| [readFVector3(VertexField field)](#readFVector3-com.aspose.threed.VertexField-) | Lees het vector3‑veld |
+| [readDouble(VertexField field)](#readDouble-com.aspose.threed.VertexField-) | Lees het double-veld |
+| [readFVector2(VertexField field)](#readFVector2-com.aspose.threed.VertexField-) | Lees het vector2-veld |
+| [readFVector3(VertexField field)](#readFVector3-com.aspose.threed.VertexField-) | Lees het vector3-veld |
 | [readFVector4(VertexField field)](#readFVector4-com.aspose.threed.VertexField-) | Lees het vector4-veld |
 | [readFloat(VertexField field)](#readFloat-com.aspose.threed.VertexField-) | Lees het float-veld |
-| [readVector2(VertexField field)](#readVector2-com.aspose.threed.VertexField-) | Lees het vector2‑veld |
-| [readVector3(VertexField field)](#readVector3-com.aspose.threed.VertexField-) | Lees het vector3‑veld |
+| [readVector2(VertexField field)](#readVector2-com.aspose.threed.VertexField-) | Lees het vector2-veld |
+| [readVector3(VertexField field)](#readVector3-com.aspose.threed.VertexField-) | Lees het vector3-veld |
 | [readVector4(VertexField field)](#readVector4-com.aspose.threed.VertexField-) | Lees het vector4-veld |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -56,7 +56,7 @@ public abstract int compareTo(Vertex other)
 ```
 
 
-Vergelijk de vertex met een andere vertex‑instantie
+Vergelijk de vertex met een andere vertexinstantie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -122,7 +122,7 @@ public double readDouble(VertexField field)
 ```
 
 
-Lees het double‑veld
+Lees het double-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -137,7 +137,7 @@ public FVector2 readFVector2(VertexField field)
 ```
 
 
-Lees het vector2‑veld
+Lees het vector2-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -152,7 +152,7 @@ public FVector3 readFVector3(VertexField field)
 ```
 
 
-Lees het vector3‑veld
+Lees het vector3-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -197,7 +197,7 @@ public Vector2 readVector2(VertexField field)
 ```
 
 
-Lees het vector2‑veld
+Lees het vector2-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -212,7 +212,7 @@ public Vector3 readVector3(VertexField field)
 ```
 
 
-Lees het vector3‑veld
+Lees het vector3-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

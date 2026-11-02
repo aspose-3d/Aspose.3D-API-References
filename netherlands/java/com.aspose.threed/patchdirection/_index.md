@@ -1,7 +1,7 @@
 ---
 title: "PatchDirection"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Richting U en V van de patch."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Patchs U en V richting."
 type: docs
 weight: 120
 url: /nl/java/com.aspose.threed/patchdirection/
@@ -27,14 +27,14 @@ U- en V-richting van Patch.
 | [getClass()](#getClass--) |  |
 | [getClosed()](#getClosed--) | Haalt een waarde op die aangeeft of deze [PatchDirection](../../com.aspose.threed/patchdirection) een gesloten curve is. |
 | [getControlPoints()](#getControlPoints--) | Haalt het aantal controlepunten op in de huidige richting. |
-| [getDivisions()](#getDivisions--) | Haalt het aantal onderverdelingen op tussen aangrenzende controlepunten. |
+| [getDivisions()](#getDivisions--) | Haalt het aantal verdelingen op tussen aangrenzende controlepunten. |
 | [getType()](#getType--) | Haalt het type van de patch op. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setClosed(boolean value)](#setClosed-boolean-) | Stelt een waarde in die aangeeft of deze [PatchDirection](../../com.aspose.threed/patchdirection) een gesloten curve is. |
 | [setControlPoints(int value)](#setControlPoints-int-) | Stelt het aantal controlepunten in de huidige richting in. |
-| [setDivisions(int value)](#setDivisions-int-) | Stelt het aantal onderverdelingen tussen aangrenzende controlepunten in. |
+| [setDivisions(int value)](#setDivisions-int-) | Stelt het aantal verdelingen tussen aangrenzende controlepunten in. |
 | [setType(PatchDirectionType value)](#setType-com.aspose.threed.PatchDirectionType-) | Stelt het type van de patch in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -97,10 +97,10 @@ public int getDivisions()
 ```
 
 
-Haalt het aantal onderverdelingen op tussen aangrenzende controlepunten.
+Haalt het aantal verdelingen op tussen aangrenzende controlepunten.
 
 **Returns:**
-int - het aantal onderverdelingen tussen aangrenzende controlepunten.
+int - het aantal verdelingen tussen aangrenzende controlepunten.
 ### getType() {#getType--}
 ```
 public PatchDirectionType getType()
@@ -169,7 +169,7 @@ public void setDivisions(int value)
 ```
 
 
-Stelt het aantal onderverdelingen tussen aangrenzende controlepunten in.
+Stelt het aantal verdelingen tussen aangrenzende controlepunten in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

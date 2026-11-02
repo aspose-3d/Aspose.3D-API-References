@@ -1,6 +1,6 @@
 ---
 title: "SkeletonType"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "s types."
 type: docs
 weight: 301
@@ -19,7 +19,7 @@ public enum SkeletonType extends Enum<SkeletonType>
 | Veld | Beschrijving |
 | --- | --- |
 | [BONE](#BONE) | De [Skeleton](../../com.aspose.threed/skeleton) is een botentiteit. |
-| [SKELETON](#SKELETON) | De [Skeleton](../../com.aspose.threed/skeleton) is een skeletentiteit, wat betekent dat de bijbehorende node de rootnode is van de hele skelettale hiërarchie. |
+| [SKELETON](#SKELETON) | De [Skeleton](../../com.aspose.threed/skeleton) is een skeletentiteit, wat betekent dat de bijbehorende knoop de wortelknoop is van de volledige skelet hiërarchie. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -55,7 +55,7 @@ public static final SkeletonType SKELETON
 ```
 
 
-De [Skeleton](../../com.aspose.threed/skeleton) is een skeletentiteit, wat betekent dat de bijbehorende node de rootnode is van de hele skelettale hiërarchie.
+De [Skeleton](../../com.aspose.threed/skeleton) is een skeletentiteit, wat betekent dat de bijbehorende knoop de wortelknoop is van de volledige skelet hiërarchie.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

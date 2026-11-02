@@ -1,6 +1,6 @@
 ---
 title: "BooleanOperand"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Deze klasse omvat het getransformeerde mesh als operand voor Booleaanse bewerkingen."
 type: docs
 weight: 22
@@ -20,14 +20,14 @@ Deze klasse encapsuleert het getransformeerde mesh als operand van een Booleanâ€
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getOperand()](#getOperand--) | Haalt de operand op; dit kan een instantie zijn van [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) of [Node](../../com.aspose.threed/node). |
+| [getOperand()](#getOperand--) | Haalt de operand op; deze kan een instantie zijn van [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) of [Node](../../com.aspose.threed/node). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [of(Entity mesh)](#of-com.aspose.threed.Entity-) | Maak een [BooleanOperand](../../com.aspose.threed/booleanoperand) instantie aan vanuit een kale [IMeshConvertible](../../com.aspose.threed/imeshconvertible) instantie. |
 | [of(Entity mesh, Matrix4 transform)](#of-com.aspose.threed.Entity-com.aspose.threed.Matrix4-) | Maak een [BooleanOperand](../../com.aspose.threed/booleanoperand) instantie aan vanuit een [IMeshConvertible](../../com.aspose.threed/imeshconvertible) instantie en een gespecificeerde transformatie. |
-| [of(Node node)](#of-com.aspose.threed.Node-) | Maak een [BooleanOperand](../../com.aspose.threed/booleanoperand) instantie aan vanuit een node, een geldige entiteit die [IMeshConvertible](../../com.aspose.threed/imeshconvertible) implementeert is vereist |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van [BooleanOperand](../../com.aspose.threed/booleanoperand) op. |
+| [of(Node node)](#of-com.aspose.threed.Node-) | Maak een [BooleanOperand](../../com.aspose.threed/booleanoperand) instantie aan vanuit een node; een geldige entiteit die [IMeshConvertible](../../com.aspose.threed/imeshconvertible) implementeert is vereist |
+| [toString()](#toString--) | Haalt de tekenreeksrepresentatie op van [BooleanOperand](../../com.aspose.threed/booleanoperand) |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -62,7 +62,7 @@ public A3DObject getOperand()
 ```
 
 
-Haalt de operand op; dit kan een instantie zijn van [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) of [Node](../../com.aspose.threed/node).
+Haalt de operand op; deze kan een instantie zijn van [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) of [Node](../../com.aspose.threed/node).
 
 **Returns:**
 [A3DObject](../../com.aspose.threed/a3dobject) - the operand, it can be an instance of [HalfSpace](../../com.aspose.threed/halfspace), [IMeshConvertible](../../com.aspose.threed/imeshconvertible) or [Node](../../com.aspose.threed/node).
@@ -103,7 +103,7 @@ Maak een [BooleanOperand](../../com.aspose.threed/booleanoperand) instantie aan 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| mesh | [Entity](../../com.aspose.threed/entity) | De mesh die wordt gebruikt als operand van de Booleaanse bewerking, kan een instantie zijn van [IMeshConvertible](../../com.aspose.threed/imeshconvertible) of [HalfSpace](../../com.aspose.threed/halfspace) |
+| mesh | [Entity](../../com.aspose.threed/entity) | De mesh die wordt gebruikt als operand van de Booleaanse bewerking, kan een instantie van [IMeshConvertible](../../com.aspose.threed/imeshconvertible) of [HalfSpace](../../com.aspose.threed/halfspace) zijn. |
 
 **Returns:**
 [BooleanOperand](../../com.aspose.threed/booleanoperand) - An instance of [BooleanOperand](../../com.aspose.threed/booleanoperand)
@@ -118,7 +118,7 @@ Maak een [BooleanOperand](../../com.aspose.threed/booleanoperand) instantie aan 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| mesh | [Entity](../../com.aspose.threed/entity) | De mesh die wordt gebruikt als operand van de Booleaanse bewerking, kan een instantie zijn van [IMeshConvertible](../../com.aspose.threed/imeshconvertible) of [HalfSpace](../../com.aspose.threed/halfspace) |
+| mesh | [Entity](../../com.aspose.threed/entity) | De mesh die wordt gebruikt als operand van de Booleaanse bewerking, kan een instantie van [IMeshConvertible](../../com.aspose.threed/imeshconvertible) of [HalfSpace](../../com.aspose.threed/halfspace) zijn. |
 | transform | [Matrix4](../../com.aspose.threed/matrix4) | De transformatie van het meshâ€‘object |
 
 **Returns:**
@@ -129,7 +129,7 @@ public static BooleanOperand of(Node node)
 ```
 
 
-Maak een [BooleanOperand](../../com.aspose.threed/booleanoperand) instantie aan vanuit een node, een geldige entiteit die [IMeshConvertible](../../com.aspose.threed/imeshconvertible) implementeert is vereist
+Maak een [BooleanOperand](../../com.aspose.threed/booleanoperand) instantie aan vanuit een node; een geldige entiteit die [IMeshConvertible](../../com.aspose.threed/imeshconvertible) implementeert is vereist
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -144,7 +144,7 @@ public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie van [BooleanOperand](../../com.aspose.threed/booleanoperand) op.
+Haalt de tekenreeksrepresentatie op van [BooleanOperand](../../com.aspose.threed/booleanoperand)
 
 **Returns:**
 java.lang.String - De tekenreeksrepresentatie van [BooleanOperand](../../com.aspose.threed/booleanoperand)

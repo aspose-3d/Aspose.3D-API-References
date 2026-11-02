@@ -1,6 +1,6 @@
 ---
 title: "WeightedMode"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Gewogen modus."
 type: docs
 weight: 231
@@ -23,10 +23,10 @@ Gewogen modus.
 
 | Veld | Beschrijving |
 | --- | --- |
-| [BOTH](#BOTH) | Zowel uitgaande als volgende binnenkomende tangenten zijn gewogen. |
-| [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | Volgende binnen (links) tangent is gewogen. |
-| [NONE](#NONE) | Zowel uitgaande als volgende binnen gewichten worden niet gebruikt. |
-| [OUT_WEIGHT](#OUT-WEIGHT) | Uitgaande (rechts) tangent is gewogen. |
+| [BOTH](#BOTH) | Zowel de uitgaande als de volgende binnenkomende tangenten zijn gewogen. |
+| [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | De volgende binnenkomende (linker) tangent is gewogen. |
+| [NONE](#NONE) | Zowel de uitgaande als de volgende binnenkomende gewichten worden niet gebruikt. |
+| [OUT_WEIGHT](#OUT-WEIGHT) | De uitgaande (rechter) tangent is gewogen. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -52,7 +52,7 @@ public static final int BOTH
 ```
 
 
-Zowel uitgaande als volgende binnenkomende tangenten zijn gewogen.
+Zowel de uitgaande als de volgende binnenkomende tangenten zijn gewogen.
 
 ### NEXT_IN_WEIGHT {#NEXT-IN-WEIGHT}
 ```
@@ -60,7 +60,7 @@ public static final int NEXT_IN_WEIGHT
 ```
 
 
-Volgende binnen (links) tangent is gewogen.
+De volgende binnenkomende (linker) tangent is gewogen.
 
 ### NONE {#NONE}
 ```
@@ -68,7 +68,7 @@ public static final int NONE
 ```
 
 
-Zowel uitgaande als volgende binnen gewichten worden niet gebruikt. Wanneer de berekening tangentinformatie nodig heeft, wordt de standaardwaarde (0.3333) gebruikt.
+Zowel de uitgaande als de volgende binnenkomende gewichten worden niet gebruikt. Wanneer de berekening tangentinformatie nodig heeft, wordt de standaardwaarde (0.3333) gebruikt.
 
 ### OUT_WEIGHT {#OUT-WEIGHT}
 ```
@@ -76,7 +76,7 @@ public static final int OUT_WEIGHT
 ```
 
 
-Uitgaande (rechts) tangent is gewogen.
+De uitgaande (rechter) tangent is gewogen.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

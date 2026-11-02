@@ -1,7 +1,7 @@
 ---
 title: "PbrMaterial"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Materiaal voor fysiek gebaseerd renderen op basis van albedo-kleur/metaal/ruwheid"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Materiaal voor fysiek gebaseerd renderen op basis van albedo-kleur/metallic/ruwheid."
 type: docs
 weight: 121
 url: /nl/java/com.aspose.threed/pbrmaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PbrMaterial extends Material
 ```
 
-Materiaal voor fysiek gebaseerd renderen op basis van albedo-kleur/metaal/ruwheid
+Materiaal voor fysiek gebaseerd renderen op basis van albedo-kleur/metallic/ruwheid.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -39,16 +39,16 @@ Materiaal voor fysiek gebaseerd renderen op basis van albedo-kleur/metaal/ruwhei
 | [getAlbedo()](#getAlbedo--) | Haalt de basiskleur van het materiaal op |
 | [getAlbedoTexture()](#getAlbedoTexture--) | Haalt de textuur voor albedo op |
 | [getClass()](#getClass--) |  |
-| [getEmissiveColor()](#getEmissiveColor--) | Haalt de emissieve kleur op |
+| [getEmissiveColor()](#getEmissiveColor--) | Haalt de emissieve kleur op. |
 | [getEmissiveTexture()](#getEmissiveTexture--) | Haalt de textuur voor emissief op |
-| [getMetallicFactor()](#getMetallicFactor--) | Haalt de metalness van het materiaal op, waarde van 1 betekent dat het materiaal een metaal is en waarde van 0 betekent dat het materiaal een diëlectrisch materiaal is. |
+| [getMetallicFactor()](#getMetallicFactor--) | Haalt de metaalheid van het materiaal op, een waarde van 1 betekent dat het materiaal een metaal is en een waarde van 0 betekent dat het materiaal een diëlektrisch is. |
 | [getMetallicRoughness()](#getMetallicRoughness--) | Haalt de textuur voor metallic (in R-kanaal) en roughness (in G-kanaal) op |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getNormalTexture()](#getNormalTexture--) | Haalt de textuur van normale mapping op |
 | [getOcclusionFactor()](#getOcclusionFactor--) | Haalt de factor van ambient occlusion op |
 | [getOcclusionTexture()](#getOcclusionTexture--) | Haalt de textuur voor ambient occlusion op |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getRoughnessFactor()](#getRoughnessFactor--) | Haalt de roughness van het materiaal op, een waarde van 1 betekent dat het materiaal volledig ruw is en een waarde van 0 betekent dat het materiaal volledig glad is |
 | [getSpecularTexture()](#getSpecularTexture--) | Haalt de textuur voor specular color op |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Haalt de textuur op uit de opgegeven slot; dit kan de naam van een materiaaleigenschap of de naam van een shaderparameter zijn. |
@@ -58,21 +58,21 @@ Materiaal voor fysiek gebaseerd renderen op basis van albedo-kleur/metaal/ruwhei
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setAlbedo(Vector3 value)](#setAlbedo-com.aspose.threed.Vector3-) | Stelt de basiskleur van het materiaal in |
-| [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | Stelt de textuur voor albedo in |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Stelt de emissieve kleur in |
+| [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | Stelt de textuur in voor albedo |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Stelt de emissieve kleur in. |
 | [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | Stelt de textuur in voor emissief |
-| [setMetallicFactor(double value)](#setMetallicFactor-double-) | Stelt de metaalheid van het materiaal in, een waarde van 1 betekent dat het materiaal een metaal is en een waarde van 0 betekent dat het materiaal een diëlektrisch is. |
+| [setMetallicFactor(double value)](#setMetallicFactor-double-) | Stelt de metaalheid van het materiaal in, een waarde van 1 betekent dat het materiaal een metaal is en een waarde van 0 betekent dat het materiaal een diëlectrisch materiaal is. |
 | [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | Stelt de textuur in voor metallic (in R-kanaal) en roughness (in G-kanaal) |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | Stelt de textuur van normale mapping in |
+| [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | Stelt de textuur van normal mapping in |
 | [setOcclusionFactor(double value)](#setOcclusionFactor-double-) | Stelt de factor van ambient occlusion in |
 | [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | Stelt de textuur in voor ambient occlusion |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [setRoughnessFactor(double value)](#setRoughnessFactor-double-) | Stelt de ruwheid van het materiaal in, een waarde van 1 betekent dat het materiaal volledig ruw is en een waarde van 0 betekent dat het materiaal volledig glad is. |
-| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | Stelt de textuur in voor speculaire kleur |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Stelt de textuur in op de opgegeven slot |
+| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | Stelt de textuur in voor specular color |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Stelt de textuur in op de opgegeven slot. |
 | [setTransparency(double value)](#setTransparency-double-) | Stelt de transparantiefactor in. |
 | [toString()](#toString--) | Formatteert object naar string |
 | [wait()](#wait--) |  |
@@ -165,7 +165,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -229,7 +229,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-Haalt de emissieve kleur op
+Haalt de emissieve kleur op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color
@@ -249,10 +249,10 @@ public double getMetallicFactor()
 ```
 
 
-Haalt de metalness van het materiaal op, waarde van 1 betekent dat het materiaal een metaal is en waarde van 0 betekent dat het materiaal een diëlectrisch materiaal is.
+Haalt de metaalheid van het materiaal op, een waarde van 1 betekent dat het materiaal een metaal is en een waarde van 0 betekent dat het materiaal een diëlektrisch is.
 
 **Returns:**
-double - de metaalheid van het materiaal, een waarde van 1 betekent dat het materiaal een metaal is en een waarde van 0 betekent dat het materiaal een diëlektrisch is.
+double - de metaalheid van het materiaal, een waarde van 1 betekent dat het materiaal een metaal is en een waarde van 0 betekent dat het materiaal een diëlectrisch materiaal is.
 ### getMetallicRoughness() {#getMetallicRoughness--}
 ```
 public TextureBase getMetallicRoughness()
@@ -309,7 +309,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -319,12 +319,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -438,7 +438,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -466,7 +466,7 @@ public void setAlbedoTexture(TextureBase value)
 ```
 
 
-Stelt de textuur voor albedo in
+Stelt de textuur in voor albedo
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -479,7 +479,7 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-Stelt de emissieve kleur in
+Stelt de emissieve kleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -505,7 +505,7 @@ public void setMetallicFactor(double value)
 ```
 
 
-Stelt de metaalheid van het materiaal in, een waarde van 1 betekent dat het materiaal een metaal is en een waarde van 0 betekent dat het materiaal een diëlektrisch is.
+Stelt de metaalheid van het materiaal in, een waarde van 1 betekent dat het materiaal een metaal is en een waarde van 0 betekent dat het materiaal een diëlectrisch materiaal is.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -544,7 +544,7 @@ public void setNormalTexture(TextureBase value)
 ```
 
 
-Stelt de textuur van normale mapping in
+Stelt de textuur van normal mapping in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -583,12 +583,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setRoughnessFactor(double value) {#setRoughnessFactor-double-}
@@ -610,7 +610,7 @@ public void setSpecularTexture(TextureBase value)
 ```
 
 
-Stelt de textuur in voor speculaire kleur
+Stelt de textuur in voor specular color
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -623,7 +623,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-Stelt de textuur in op de opgegeven slot
+Stelt de textuur in op de opgegeven slot.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -660,7 +660,7 @@ public String toString()
 Formatteert object naar string
 
 **Returns:**
-java.lang.String - Objecttekenreeks
+java.lang.String - Objectstring
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -1,7 +1,7 @@
 ---
 title: "CurveDimension"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De dimensie van de curven."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De dimensie van de krommen."
 type: docs
 weight: 275
 url: /nl/java/com.aspose.threed/curvedimension/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum CurveDimension extends Enum<CurveDimension>
 ```
 
-De dimensie van de curven.
+De dimensie van de krommen.
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [THREE_DIMENSIONAL](#THREE-DIMENSIONAL) | De curves zijn driedimensionale punten. |
-| [TWO_DIMENSIONAL](#TWO-DIMENSIONAL) | De curves zijn tweedimensionale punten. |
+| [THREE_DIMENSIONAL](#THREE-DIMENSIONAL) | De curven zijn driedimensionale punten. |
+| [TWO_DIMENSIONAL](#TWO-DIMENSIONAL) | De curven zijn tweedimensionale punten. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -47,7 +47,7 @@ public static final CurveDimension THREE_DIMENSIONAL
 ```
 
 
-De curves zijn driedimensionale punten.
+De curven zijn driedimensionale punten.
 
 ### TWO_DIMENSIONAL {#TWO-DIMENSIONAL}
 ```
@@ -55,7 +55,7 @@ public static final CurveDimension TWO_DIMENSIONAL
 ```
 
 
-De curves zijn tweedimensionale punten.
+De curven zijn tweedimensionale punten.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "TriMesh"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een TriMesh bevat ruwe gegevens die direct door de GPU kunnen worden gebruikt."
 type: docs
 weight: 194
 url: /nl/java/com.aspose.threed/trimesh/
@@ -16,7 +16,7 @@ java.lang.Iterable
 public class TriMesh extends Entity implements Iterable<Vertex>
 ```
 
-Een TriMesh bevat ruwe gegevens die direct door de GPU kunnen worden gebruikt. Deze klasse is een hulpprogramma om een mesh te construeren die alleen per‑vertex‑gegevens bevat. **Example:** De volgende code toont hoe je een TriMesh met een aangepaste geheugenindeling maakt en deze naar een bestand exporteert.
+Een TriMesh bevat ruwe gegevens die direct door de GPU kunnen worden gebruikt. Deze klasse is een hulpprogramma om een mesh te construeren die alleen per-vertex gegevens bevat. **Voorbeeld:** De volgende code toont hoe je een TriMesh met een aangepaste geheugenindeling maakt en deze naar een bestand exporteert.
 
 ```
 //Define a vertex declaration as {FVector3 Position; FVector3 Normal; FVector2 UV}
@@ -44,63 +44,63 @@ Een TriMesh bevat ruwe gegevens die direct door de GPU kunnen worden gebruikt. D
 | Methode | Beschrijving |
 | --- | --- |
 | [addTriangle(int a, int b, int c)](#addTriangle-int-int-int-) | Voeg een nieuwe driehoek toe |
-| [beginVertex()](#beginVertex--) | Begin met het toevoegen van een vertex |
-| [copyFrom(TriMesh input, VertexDeclaration vd)](#copyFrom-com.aspose.threed.TriMesh-com.aspose.threed.VertexDeclaration-) | Kopieer de [TriMesh](../../com.aspose.threed/trimesh) van de invoer met een nieuwe vertex‑indeling. |
-| [endVertex()](#endVertex--) | Beëindig het toevoegen van een vertex |
+| [beginVertex()](#beginVertex--) | Begin met het toevoegen van vertex |
+| [copyFrom(TriMesh input, VertexDeclaration vd)](#copyFrom-com.aspose.threed.TriMesh-com.aspose.threed.VertexDeclaration-) | Kopieer de [TriMesh](../../com.aspose.threed/trimesh) van de invoer met een nieuwe vertex-indeling |
+| [endVertex()](#endVertex--) | Beëindig het toevoegen van vertex |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [fromMesh(Mesh mesh)](#fromMesh-com.aspose.threed.Mesh-) | Maak een TriMesh van een gegeven mesh‑object, de vertex‑declaratie is gebaseerd op de structuur van de invoer‑mesh. |
-| [fromMesh(Mesh mesh, boolean useFloat)](#fromMesh-com.aspose.threed.Mesh-boolean-) | Maak een TriMesh van een gegeven mesh‑object, de vertex‑declaratie is gebaseerd op de structuur van de invoer‑mesh. |
-| [fromMesh(VertexDeclaration declaration, Mesh mesh)](#fromMesh-com.aspose.threed.VertexDeclaration-com.aspose.threed.Mesh-) | Maak een TriMesh van een gegeven mesh‑object met een opgegeven vertex‑indeling. |
+| [fromMesh(Mesh mesh)](#fromMesh-com.aspose.threed.Mesh-) | Maak een TriMesh van een gegeven mesh-object, de vertex-declaratie is gebaseerd op de structuur van de invoer-mesh. |
+| [fromMesh(Mesh mesh, boolean useFloat)](#fromMesh-com.aspose.threed.Mesh-boolean-) | Maak een TriMesh van een gegeven mesh-object, de vertex-declaratie is gebaseerd op de structuur van de invoer-mesh. |
+| [fromMesh(VertexDeclaration declaration, Mesh mesh)](#fromMesh-com.aspose.threed.VertexDeclaration-com.aspose.threed.Mesh-) | Maak een TriMesh van een gegeven mesh-object met een gegeven vertex-indeling. |
 | [fromRawData(VertexDeclaration vd, byte[] vertices, int[] indices, boolean generateVertexMapping)](#fromRawData-com.aspose.threed.VertexDeclaration-byte---int---boolean-) | Maak TriMesh van ruwe gegevens |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
 | [getCapacity()](#getCapacity--) | De capaciteit van vooraf toegewezen vertices. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getIndicesCount()](#getIndicesCount--) | Het aantal indexen in deze [TriMesh](../../com.aspose.threed/trimesh) |
-| [getIntIndices()](#getIntIndices--) | Converteer de indexen naar een 32‑bit geheelgetallen‑array |
+| [getIntIndices()](#getIntIndices--) | Converteer de indexen naar een 32-bit integer-array |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
-| [getShortIndices()](#getShortIndices--) | Converteer de indexen naar een 16‑bit geheelgetallen‑array |
-| [getUnmergedVerticesCount()](#getUnmergedVerticesCount--) | Het aantal niet‑samengevoegde vertices die zijn doorgegeven via [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) en [endVertex](../../com.aspose.threed/trimesh\#endVertex). |
-| [getVertexDeclaration()](#getVertexDeclaration--) | De vertex‑indeling van de [TriMesh](../../com.aspose.threed/trimesh). |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
+| [getShortIndices()](#getShortIndices--) | Converteer de indexen naar een 16-bit integer-array |
+| [getUnmergedVerticesCount()](#getUnmergedVerticesCount--) | Het aantal niet- samengevoegde vertices dat is doorgegeven door [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) en [endVertex](../../com.aspose.threed/trimesh\#endVertex). |
+| [getVertexDeclaration()](#getVertexDeclaration--) | De vertex-indeling van de [TriMesh](../../com.aspose.threed/trimesh). |
 | [getVerticesCount()](#getVerticesCount--) | Het aantal vertices in deze [TriMesh](../../com.aspose.threed/trimesh) |
 | [getVerticesSizeInBytes()](#getVerticesSizeInBytes--) | De totale grootte van alle vertices in bytes |
 | [hashCode()](#hashCode--) |  |
-| [indicesToArray(int[][] result)](#indicesToArray-int-----) | Converteer de indexen naar een 32‑bit geheelgetallen‑array |
-| [indicesToArray(short[][] result)](#indicesToArray-short-----) | Converteer de indexen naar een 16‑bit geheelgetallen‑array |
-| [iterator()](#iterator--) | Haal de enumerator op om [Vertex](../../com.aspose.threed/vertex) te enumereren |
-| [loadVerticesFromBytes(byte[] verticesInBytes)](#loadVerticesFromBytes-byte---) | Laad vertices vanuit bytes, de lengte van de bytes moet een geheel veelvoud zijn van de vertex‑grootte. |
+| [indicesToArray(int[][] result)](#indicesToArray-int-----) | Converteer de indexen naar een 32-bit integer-array |
+| [indicesToArray(short[][] result)](#indicesToArray-short-----) | Converteer de indexen naar een 16-bit integer-array |
+| [iterator()](#iterator--) | Verkrijg de enumerator om [Vertex](../../com.aspose.threed/vertex) te enumereren |
+| [loadVerticesFromBytes(byte[] verticesInBytes)](#loadVerticesFromBytes-byte---) | Laad vertices vanuit bytes, de lengte van de bytes moet een geheel veelvoud zijn van de vertex-grootte. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readDouble(int idx, VertexField field)](#readDouble-int-com.aspose.threed.VertexField-) | Lees het double‑veld |
-| [readFVector2(int idx, VertexField field)](#readFVector2-int-com.aspose.threed.VertexField-) | Lees het vector2‑veld |
-| [readFVector3(int idx, VertexField field)](#readFVector3-int-com.aspose.threed.VertexField-) | Lees het vector3‑veld |
+| [readDouble(int idx, VertexField field)](#readDouble-int-com.aspose.threed.VertexField-) | Lees het double-veld |
+| [readFVector2(int idx, VertexField field)](#readFVector2-int-com.aspose.threed.VertexField-) | Lees het vector2-veld |
+| [readFVector3(int idx, VertexField field)](#readFVector3-int-com.aspose.threed.VertexField-) | Lees het vector3-veld |
 | [readFVector4(int idx, VertexField field)](#readFVector4-int-com.aspose.threed.VertexField-) | Lees het vector4-veld |
 | [readFloat(int idx, VertexField field)](#readFloat-int-com.aspose.threed.VertexField-) | Lees het float-veld |
-| [readVector2(int idx, VertexField field)](#readVector2-int-com.aspose.threed.VertexField-) | Lees het vector2‑veld |
-| [readVector3(int idx, VertexField field)](#readVector3-int-com.aspose.threed.VertexField-) | Lees het vector3‑veld |
+| [readVector2(int idx, VertexField field)](#readVector2-int-com.aspose.threed.VertexField-) | Lees het vector2-veld |
+| [readVector3(int idx, VertexField field)](#readVector3-int-com.aspose.threed.VertexField-) | Lees het vector3-veld |
 | [readVector4(int idx, VertexField field)](#readVector4-int-com.aspose.threed.VertexField-) | Lees het vector4-veld |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie op van [TriMesh](../../com.aspose.threed/trimesh) |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [toString()](#toString--) | Haalt de stringrepresentatie op van [TriMesh](../../com.aspose.threed/trimesh) |
 | [verticesToArray()](#verticesToArray--) | Converteer de vertexgegevens naar een byte-array |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [write16bIndicesTo(Stream stream)](#write16bIndicesTo-com.aspose.threed.Stream-) | Schrijf de indexgegevens als 16‑bit integer naar de stream **Example:** |
-| [write16bIndicesTo(OutputStream stream)](#write16bIndicesTo-java.io.OutputStream-) | Schrijf de indexgegevens als 16‑bit integer naar de stream |
-| [write32bIndicesTo(Stream stream)](#write32bIndicesTo-com.aspose.threed.Stream-) | Schrijf de indexgegevens als 32‑bit integer naar de stream **Example:** |
-| [write32bIndicesTo(OutputStream stream)](#write32bIndicesTo-java.io.OutputStream-) | Schrijf de indexgegevens als 32‑bit integer naar de stream |
+| [write16bIndicesTo(Stream stream)](#write16bIndicesTo-com.aspose.threed.Stream-) | Schrijf de indexgegevens als 16-bit geheel getal naar de stream **Example:** |
+| [write16bIndicesTo(OutputStream stream)](#write16bIndicesTo-java.io.OutputStream-) | Schrijf de indexgegevens als 16-bit geheel getal naar de stream |
+| [write32bIndicesTo(Stream stream)](#write32bIndicesTo-com.aspose.threed.Stream-) | Schrijf de indexgegevens als 32-bit geheel getal naar de stream **Example:** |
+| [write32bIndicesTo(OutputStream stream)](#write32bIndicesTo-java.io.OutputStream-) | Schrijf de indexgegevens als 32-bit geheel getal naar de stream |
 | [writeVerticesTo(Stream stream)](#writeVerticesTo-com.aspose.threed.Stream-) | Schrijf vertexgegevens naar de opgegeven stream |
 | [writeVerticesTo(OutputStream stream)](#writeVerticesTo-java.io.OutputStream-) | Schrijf vertexgegevens naar de opgegeven stream |
 ### TriMesh(String name, VertexDeclaration declaration) {#TriMesh-java.lang.String-com.aspose.threed.VertexDeclaration-}
@@ -138,7 +138,7 @@ public Vertex beginVertex()
 ```
 
 
-Begin met het toevoegen van een vertex
+Begin met het toevoegen van vertex
 
 **Returns:**
 [Vertex](../../com.aspose.threed/vertex) - The reference of internal vertex object in type [Vertex](../../com.aspose.threed/vertex)
@@ -148,13 +148,13 @@ public static TriMesh copyFrom(TriMesh input, VertexDeclaration vd)
 ```
 
 
-Kopieer de [TriMesh](../../com.aspose.threed/trimesh) van de invoer met een nieuwe vertex‑indeling.
+Kopieer de [TriMesh](../../com.aspose.threed/trimesh) van de invoer met een nieuwe vertex-indeling
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| input | [TriMesh](../../com.aspose.threed/trimesh) | De invoer‑TriMesh voor kopiëren |
-| vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | De nieuwe vertexdeclaratie van de uitvoer‑TriMesh |
+| input | [TriMesh](../../com.aspose.threed/trimesh) | De invoer-TriMesh voor het kopiëren |
+| vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | De nieuwe vertexdeclaratie van de output-TriMesh |
 
 **Returns:**
 [TriMesh](../../com.aspose.threed/trimesh) - A new TriMesh instance with new vertex declaration. **Example:**
@@ -176,7 +176,7 @@ public int endVertex()
 ```
 
 
-Beëindig het toevoegen van een vertex
+Beëindig het toevoegen van vertex
 
 **Returns:**
 int
@@ -206,7 +206,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -216,7 +216,7 @@ public static TriMesh fromMesh(Mesh mesh)
 ```
 
 
-Maak een TriMesh van een gegeven mesh‑object, de vertex‑declaratie is gebaseerd op de structuur van de invoer‑mesh.
+Maak een TriMesh van een gegeven mesh-object, de vertex-declaratie is gebaseerd op de structuur van de invoer-mesh.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -248,13 +248,13 @@ public static TriMesh fromMesh(Mesh mesh, boolean useFloat)
 ```
 
 
-Maak een TriMesh van een gegeven mesh‑object, de vertex‑declaratie is gebaseerd op de structuur van de invoer‑mesh.
+Maak een TriMesh van een gegeven mesh-object, de vertex-declaratie is gebaseerd op de structuur van de invoer-mesh.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | mesh | [Mesh](../../com.aspose.threed/mesh) |  |
-| useFloat | boolean | Gebruik het float-type in plaats van het double-type voor elk vertex‑elementcomponent. |
+| useFloat | boolean | Gebruik het float-type in plaats van het double-type voor elk vertex-elementcomponent. |
 
 **Returns:**
 [TriMesh](../../com.aspose.threed/trimesh) - The [TriMesh](../../com.aspose.threed/trimesh) generated from given [Mesh](../../com.aspose.threed/mesh) **Example:** The following code shows how to create a TriMesh with custom memory layout, and export it to file.
@@ -281,13 +281,13 @@ public static TriMesh fromMesh(VertexDeclaration declaration, Mesh mesh)
 ```
 
 
-Maak een TriMesh van een gegeven mesh‑object met een opgegeven vertex‑indeling.
+Maak een TriMesh van een gegeven mesh-object met een gegeven vertex-indeling.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| declaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Type‑definitie van de vertex, of geheugenindeling |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | Bron‑mesh |
+| declaration | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Type-definitie van de vertex, of geheugenindeling |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | Bron-mesh |
 
 **Returns:**
 [TriMesh](../../com.aspose.threed/trimesh) - Instance of TriMesh converted from input mesh with specified vertex's memory layout **Example:** The following code shows how to create a TriMesh with custom memory layout, and export it to file.
@@ -321,7 +321,7 @@ Maak TriMesh van ruwe gegevens
 | --- | --- | --- |
 | vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | Vertexdeclaratie, moet minstens één veld bevatten. |
 | vertices | byte[] | De invoergegevens van de vertices, de minimale lengte van de vertices moet groter of gelijk zijn aan de grootte van de vertexdeclaratie |
-| indices | int[] | De driehoekindices |
+| indexen | int[] | De driehoekindices |
 | generateVertexMapping | boolean | Genereer [Vertex](../../com.aspose.threed/vertex) voor elke vertex, wat niet nodig is alleen voor serialisatie/deserialisatie. |
 
 **Returns:**
@@ -350,7 +350,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -387,7 +387,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -397,10 +397,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getIndicesCount() {#getIndicesCount--}
 ```
 public int getIndicesCount()
@@ -417,7 +417,7 @@ public int[] getIntIndices()
 ```
 
 
-Converteer de indexen naar een 32‑bit geheelgetallen‑array
+Converteer de indexen naar een 32-bit integer-array
 
 **Returns:**
 int[]
@@ -437,7 +437,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -447,7 +447,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -457,7 +457,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -467,12 +467,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -482,7 +482,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -492,7 +492,7 @@ public short[] getShortIndices()
 ```
 
 
-Converteer de indexen naar een 16‑bit geheelgetallen‑array
+Converteer de indexen naar een 16-bit integer-array
 
 **Returns:**
 short[]
@@ -502,17 +502,17 @@ public int getUnmergedVerticesCount()
 ```
 
 
-Het aantal niet‑samengevoegde vertices die zijn doorgegeven via [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) en [endVertex](../../com.aspose.threed/trimesh\#endVertex).
+Het aantal niet- samengevoegde vertices dat is doorgegeven door [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) en [endVertex](../../com.aspose.threed/trimesh\#endVertex).
 
 **Returns:**
-int - Het aantal niet-geharmoniseerde vertices die zijn doorgegeven door [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) en [endVertex](../../com.aspose.threed/trimesh\#endVertex).
+int - Het aantal niet-gesmolten vertices dat werd doorgegeven door [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) en [endVertex](../../com.aspose.threed/trimesh\#endVertex).
 ### getVertexDeclaration() {#getVertexDeclaration--}
 ```
 public VertexDeclaration getVertexDeclaration()
 ```
 
 
-De vertex‑indeling van de [TriMesh](../../com.aspose.threed/trimesh).
+De vertex-indeling van de [TriMesh](../../com.aspose.threed/trimesh).
 
 **Returns:**
 [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) - The vertex layout of the [TriMesh](../../com.aspose.threed/trimesh).
@@ -552,12 +552,12 @@ public void indicesToArray(int[][] result)
 ```
 
 
-Converteer de indexen naar een 32‑bit geheelgetallen‑array
+Converteer de indexen naar een 32-bit integer-array
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| result | int[][] |  |
+| resultaat | int[][] |  |
 
 ### indicesToArray(short[][] result) {#indicesToArray-short-----}
 ```
@@ -565,12 +565,12 @@ public void indicesToArray(short[][] result)
 ```
 
 
-Converteer de indexen naar een 16‑bit geheelgetallen‑array
+Converteer de indexen naar een 16-bit integer-array
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| result | short[][] |  |
+| resultaat | short[][] |  |
 
 ### iterator() {#iterator--}
 ```
@@ -578,7 +578,7 @@ public Iterator<Vertex> iterator()
 ```
 
 
-Haal de enumerator op om [Vertex](../../com.aspose.threed/vertex) te enumereren
+Verkrijg de enumerator om [Vertex](../../com.aspose.threed/vertex) te enumereren
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.Vertex>
@@ -588,7 +588,7 @@ public void loadVerticesFromBytes(byte[] verticesInBytes)
 ```
 
 
-Laad vertices vanuit bytes, de lengte van de bytes moet een geheel veelvoud zijn van de vertexgrootte. **Voorbeeld:** De volgende code toont hoe een lege TriMesh te maken en handmatig vertices te laden vanuit ruwe bytes.
+Laad vertices vanuit bytes, de lengte van de bytes moet een geheel veelvoud zijn van de vertexgrootte. **Example:** De volgende code toont hoe een lege TriMesh te maken en handmatig vertices te laden vanuit ruwe bytes.
 
 ```
 var indices = new int[] { 0,  1,  2 };
@@ -661,7 +661,7 @@ public double readDouble(int idx, VertexField field)
 ```
 
 
-Lees het double‑veld
+Lees het double-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -670,14 +670,14 @@ Lees het double‑veld
 | field | [VertexField](../../com.aspose.threed/vertexfield) | Het veld met een float/double compatibel gegevenstype |
 
 **Returns:**
-double - Dubbele waarde van het veld van de opgegeven vertex
+double - Double-waarde van het gespecificeerde vertexveld
 ### readFVector2(int idx, VertexField field) {#readFVector2-int-com.aspose.threed.VertexField-}
 ```
 public FVector2 readFVector2(int idx, VertexField field)
 ```
 
 
-Lees het vector2‑veld
+Lees het vector2-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -693,7 +693,7 @@ public FVector3 readFVector3(int idx, VertexField field)
 ```
 
 
-Lees het vector3‑veld
+Lees het vector3-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -734,14 +734,14 @@ Lees het float-veld
 | field | [VertexField](../../com.aspose.threed/vertexfield) | Het veld met een float/double compatibel gegevenstype |
 
 **Returns:**
-float - Floatwaarde van het veld van de opgegeven vertex
+float - Float-waarde van het gespecificeerde vertexveld
 ### readVector2(int idx, VertexField field) {#readVector2-int-com.aspose.threed.VertexField-}
 ```
 public Vector2 readVector2(int idx, VertexField field)
 ```
 
 
-Lees het vector2‑veld
+Lees het vector2-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -757,7 +757,7 @@ public Vector3 readVector3(int idx, VertexField field)
 ```
 
 
-Lees het vector3‑veld
+Lees het vector3-veld
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -804,7 +804,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -819,7 +819,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -845,7 +845,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -858,12 +858,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}
@@ -872,7 +872,7 @@ public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie op van [TriMesh](../../com.aspose.threed/trimesh)
+Haalt de stringrepresentatie op van [TriMesh](../../com.aspose.threed/trimesh)
 
 **Returns:**
 java.lang.String - De stringrepresentatie
@@ -927,7 +927,7 @@ public void write16bIndicesTo(Stream stream)
 ```
 
 
-Schrijf de indexgegevens als 16‑bit integer naar de stream **Example:**
+Schrijf de indexgegevens als 16-bit geheel getal naar de stream **Example:**
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh
@@ -953,12 +953,12 @@ public void write16bIndicesTo(OutputStream stream)
 ```
 
 
-Schrijf de indexgegevens als 16‑bit integer naar de stream
+Schrijf de indexgegevens als 16-bit geheel getal naar de stream
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | stream | java.io.OutputStream | **Voorbeeld:** |
+|  | stroom | java.io.OutputStream | **Voorbeeld:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    
@@ -977,7 +977,7 @@ public void write32bIndicesTo(Stream stream)
 ```
 
 
-Schrijf de indexgegevens als 32‑bit integer naar de stream **Example:**
+Schrijf de indexgegevens als 32-bit geheel getal naar de stream **Example:**
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh
@@ -1003,12 +1003,12 @@ public void write32bIndicesTo(OutputStream stream)
 ```
 
 
-Schrijf de indexgegevens als 32‑bit integer naar de stream
+Schrijf de indexgegevens als 32-bit geheel getal naar de stream
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | stream | java.io.OutputStream | **Voorbeeld:** |
+|  | stroom | java.io.OutputStream | **Voorbeeld:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    
@@ -1032,7 +1032,7 @@ Schrijf vertexgegevens naar de opgegeven stream
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | stream | [Stream](../../com.aspose.threed/stream) | De stream waar de vertexgegevens naartoe worden geschreven **Voorbeeld:** |
+|  | stream | [Stream](../../com.aspose.threed/stream) | De stream waarin de vertexgegevens worden geschreven **Voorbeeld:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh
@@ -1058,7 +1058,7 @@ Schrijf vertexgegevens naar de opgegeven stream
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | stream | java.io.OutputStream | De stream waar de vertexgegevens naartoe worden geschreven **Voorbeeld:** |
+|  | stroom | java.io.OutputStream | De stream waarin de vertexgegevens worden geschreven **Voorbeeld:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    

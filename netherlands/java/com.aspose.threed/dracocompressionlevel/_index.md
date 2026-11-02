@@ -1,7 +1,7 @@
 ---
 title: "DracoCompressionLevel"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Compressieniveau voor draco-bestand."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Compressieniveau voor draco-bestand"
 type: docs
 weight: 276
 url: /nl/java/com.aspose.threed/dracocompressionlevel/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum DracoCompressionLevel extends Enum<DracoCompressionLevel>
 ```
 
-Compressieniveau voor draco-bestand.
+Compressieniveau voor draco-bestand
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [FAST](#FAST) | Encoder zal een compressie zo snel mogelijk uitvoeren. |
-| [NO_COMPRESSION](#NO-COMPRESSION) | Geen compressie, dit resulteert in de minimale encodeertijd. |
-| [OPTIMAL](#OPTIMAL) | Encoder zal de scène optimaal comprimeren, wat langer kan duren om te voltooien. |
+| [FAST](#FAST) | Encoder zal een compressie uitvoeren zo snel mogelijk. |
+| [NO_COMPRESSION](#NO-COMPRESSION) | Geen compressie, dit zal resulteren in de minimale encodeertijd. |
+| [OPTIMAL](#OPTIMAL) | Encoder zal de scène optimaal comprimeren, wat kan leiden tot een langere verwerkingstijd. |
 | [STANDARD](#STANDARD) | Standaardmodus, met goede compressie en snelheid. |
 ## Methoden
 
@@ -49,7 +49,7 @@ public static final DracoCompressionLevel FAST
 ```
 
 
-Encoder zal een compressie zo snel mogelijk uitvoeren.
+Encoder zal een compressie uitvoeren zo snel mogelijk.
 
 ### NO_COMPRESSION {#NO-COMPRESSION}
 ```
@@ -57,7 +57,7 @@ public static final DracoCompressionLevel NO_COMPRESSION
 ```
 
 
-Geen compressie, dit resulteert in de minimale encodeertijd.
+Geen compressie, dit zal resulteren in de minimale encodeertijd.
 
 ### OPTIMAL {#OPTIMAL}
 ```
@@ -65,7 +65,7 @@ public static final DracoCompressionLevel OPTIMAL
 ```
 
 
-Encoder zal de scène optimaal comprimeren, wat langer kan duren om te voltooien.
+Encoder zal de scène optimaal comprimeren, wat kan leiden tot een langere verwerkingstijd.
 
 ### STANDARD {#STANDARD}
 ```

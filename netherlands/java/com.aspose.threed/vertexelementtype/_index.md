@@ -1,6 +1,6 @@
 ---
 title: "VertexElementType"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Het type van het vertex-element bepaalt hoe het wordt gebruikt bij modellering."
 type: docs
 weight: 308
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum VertexElementType extends Enum<VertexElementType>
 ```
 
-Het type van het vertex-element, gedefinieerd hoe het zal worden gebruikt bij modellering.
+Het type van het vertex-element, gedefinieerd hoe het wordt gebruikt in modellering.
 ## Velden
 
 | Veld | Beschrijving |
@@ -24,15 +24,15 @@ Het type van het vertex-element, gedefinieerd hoe het zal worden gebruikt bij mo
 | [MATERIAL](#MATERIAL) | Materiaalindex, zie [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) |
 | [NORMAL](#NORMAL) | Normale vector, zie [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) |
 | [POLYGON_GROUP](#POLYGON-GROUP) | Polygon-groepindex, zie [VertexElementPolygonGroup](../../com.aspose.threed/vertexelementpolygongroup) |
-| [SMOOTHING_GROUP](#SMOOTHING-GROUP) | Gladmakingsgroep, zie [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) |
+| [SMOOTHING_GROUP](#SMOOTHING-GROUP) | Smoothing-groep, Zie [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) |
 | [SPECULAR](#SPECULAR) | Speculaire kleuren, zie [VertexElementSpecular](../../com.aspose.threed/vertexelementspecular) |
-| [TANGENT](#TANGENT) | Tangentvector, zie [VertexElementTangent](../../com.aspose.threed/vertexelementtangent) |
-| [USER_DATA](#USER-DATA) | Gebruikersgegevens, meestal voor toepassingsspecifiek gebruik, zie [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
-| [UV](#UV) | Textuur UV-coördinaat, zie [VertexElementUV](../../com.aspose.threed/vertexelementuv) |
-| [VERTEX_COLOR](#VERTEX-COLOR) | Vertexkleur, zie [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) |
-| [VERTEX_CREASE](#VERTEX-CREASE) | Vertexvouw, zie [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) |
+| [TANGENT](#TANGENT) | Tangente vector, zie [VertexElementTangent](../../com.aspose.threed/vertexelementtangent) |
+| [USER_DATA](#USER-DATA) | Gebruikersgegevens, meestal voor toepassingsspecifiek doel, Zie [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) |
+| [UV](#UV) | Texture UV-coördinaat, zie [VertexElementUV](../../com.aspose.threed/vertexelementuv) |
+| [VERTEX_COLOR](#VERTEX-COLOR) | Vertex-kleur, zie [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor) |
+| [VERTEX_CREASE](#VERTEX-CREASE) | Vertex-vouw, Zie [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease) |
 | [VISIBILITY](#VISIBILITY) | Zichtbaarheid voor componenten, zie [VertexElementVisibility](../../com.aspose.threed/vertexelementvisibility) |
-| [WEIGHT](#WEIGHT) | Blendgewichten, zie [VertexElementWeight](../../com.aspose.threed/vertexelementweight) |
+| [WEIGHT](#WEIGHT) | Blend-gewichten, zie [VertexElementWeight](../../com.aspose.threed/vertexelementweight) |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -108,7 +108,7 @@ public static final VertexElementType SMOOTHING_GROUP
 ```
 
 
-Gladmakingsgroep, zie [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup)
+Smoothing-groep, Zie [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup)
 
 ### SPECULAR {#SPECULAR}
 ```
@@ -124,7 +124,7 @@ public static final VertexElementType TANGENT
 ```
 
 
-Tangentvector, zie [VertexElementTangent](../../com.aspose.threed/vertexelementtangent)
+Tangente vector, zie [VertexElementTangent](../../com.aspose.threed/vertexelementtangent)
 
 ### USER_DATA {#USER-DATA}
 ```
@@ -132,7 +132,7 @@ public static final VertexElementType USER_DATA
 ```
 
 
-Gebruikersgegevens, meestal voor toepassingsspecifiek gebruik, zie [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata)
+Gebruikersgegevens, meestal voor toepassingsspecifiek doel, Zie [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata)
 
 ### UV {#UV}
 ```
@@ -140,7 +140,7 @@ public static final VertexElementType UV
 ```
 
 
-Textuur UV-coördinaat, zie [VertexElementUV](../../com.aspose.threed/vertexelementuv)
+Texture UV-coördinaat, zie [VertexElementUV](../../com.aspose.threed/vertexelementuv)
 
 ### VERTEX_COLOR {#VERTEX-COLOR}
 ```
@@ -148,7 +148,7 @@ public static final VertexElementType VERTEX_COLOR
 ```
 
 
-Vertexkleur, zie [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor)
+Vertex-kleur, zie [VertexElementVertexColor](../../com.aspose.threed/vertexelementvertexcolor)
 
 ### VERTEX_CREASE {#VERTEX-CREASE}
 ```
@@ -156,7 +156,7 @@ public static final VertexElementType VERTEX_CREASE
 ```
 
 
-Vertexvouw, zie [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease)
+Vertex-vouw, Zie [VertexElementVertexCrease](../../com.aspose.threed/vertexelementvertexcrease)
 
 ### VISIBILITY {#VISIBILITY}
 ```
@@ -172,7 +172,7 @@ public static final VertexElementType WEIGHT
 ```
 
 
-Blendgewichten, zie [VertexElementWeight](../../com.aspose.threed/vertexelementweight)
+Blend-gewichten, zie [VertexElementWeight](../../com.aspose.threed/vertexelementweight)
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.EnumType"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De definitie van het enumtype"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De enum-type definitie"
 type: docs
 weight: 11
 url: /nl/java/com.aspose.threed/structuralmetadata.enumtype/
@@ -13,12 +13,12 @@ java.lang.Object
 public static class StructuralMetadata.EnumType
 ```
 
-De definitie van het enumtype
+De enum-type definitie
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [EnumType(String name, ArrayList<StructuralMetadata.EnumValue> values)](#EnumType-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.EnumValue--) | De constructor van het enumtype |
+| [EnumType(String name, ArrayList<StructuralMetadata.EnumValue> values)](#EnumType-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.EnumValue--) | De constructor van het enum-type |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -26,12 +26,12 @@ De definitie van het enumtype
 | [addValue(String name, int value)](#addValue-java.lang.String-int-) | Voeg een nieuw [EnumValue](../../com.aspose.threed/enumvalue) exemplaar toe met opgegeven naam en waarde |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getName()](#getName--) | De naam van het enumtype |
-| [getValues()](#getValues--) | De waarden van het enumtype |
+| [getName()](#getName--) | De naam van het enum-type |
+| [getValues()](#getValues--) | De waarden van het enum-type |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van dit exemplaar op. |
+| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van deze instantie op. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -41,12 +41,12 @@ public EnumType(String name, ArrayList<StructuralMetadata.EnumValue> values)
 ```
 
 
-De constructor van het enumtype
+De constructor van het enum-type
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| naam | java.lang.String | De naam van het enumtype |
+| naam | java.lang.String | De naam van het enum-type |
 | values | java.util.ArrayList<com.aspose.threed.StructuralMetadata.EnumValue> | De definitie van de waarden |
 
 ### addValue(String name, int value) {#addValue-java.lang.String-int-}
@@ -96,17 +96,17 @@ public String getName()
 ```
 
 
-De naam van het enumtype
+De naam van het enum-type
 
 **Returns:**
-java.lang.String - De naam van het enumtype
+java.lang.String - De naam van het enum-type
 ### getValues() {#getValues--}
 ```
 public List<StructuralMetadata.EnumValue> getValues()
 ```
 
 
-De waarden van het enumtype
+De waarden van het enum-type
 
 **Returns:**
 java.util.List<com.aspose.threed.StructuralMetadata.EnumValue> - De waarden van het enumtype
@@ -142,7 +142,7 @@ public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie van dit exemplaar op.
+Haalt de tekenreeksrepresentatie van deze instantie op.
 
 **Returns:**
 java.lang.String

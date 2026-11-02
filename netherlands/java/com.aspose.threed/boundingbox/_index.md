@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De as-uitgelijnde BoundingBox Voorbeeld  De volgende code laat zien hoe je een BoundingBox krijgt van een Entity‑instantie."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De as-uitgelijnde BoundingBox Voorbeeld  De volgende code laat zien hoe je een BoundingBox krijgt van een Entity-instantie."
 type: docs
 weight: 24
 url: /nl/java/com.aspose.threed/boundingbox/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox implements Struct<BoundingBox>, Serializable
 ```
 
-De as‑gealigneerde begrenzingsdoos **Example:** De volgende code laat zien hoe je een begrenzingsdoos krijgt van een Entity‑instantie.
+De as‑gealigneerde begrenzingsdoos **Example:** De volgende code toont hoe u een begrenzingsdoos kunt verkrijgen van een Entity‑instantie.
 
 ```
 var sphere = new Sphere();
@@ -27,8 +27,8 @@ var sphere = new Sphere();
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [BoundingBox(Vector3 minimum, Vector3 maximum)](#BoundingBox-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Initialiseer een eindige begrenzingsdoos met de opgegeven minimale en maximale hoek |
-| [BoundingBox(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)](#BoundingBox-double-double-double-double-double-double-) | Initialiseer een eindige begrenzingsdoos met de opgegeven minimale en maximale hoek |
+| [BoundingBox(Vector3 minimum, Vector3 maximum)](#BoundingBox-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Initialiseer een eindige begrenzingsvak met de opgegeven minimale en maximale hoek |
+| [BoundingBox(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)](#BoundingBox-double-double-double-double-double-double-) | Initialiseer een eindige begrenzingsvak met de opgegeven minimale en maximale hoek |
 | [BoundingBox()](#BoundingBox--) |  |
 ## Methoden
 
@@ -39,26 +39,26 @@ var sphere = new Sphere();
 | [contains(Vector3 p)](#contains-com.aspose.threed.Vector3-) | Controleer of punt p zich binnen de BoundingBox bevindt |
 | [copyFrom(BoundingBox src)](#copyFrom-com.aspose.threed.BoundingBox-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Bepaalt of twee objecten gelijk zijn |
-| [fromGeometry(Geometry geometry)](#fromGeometry-com.aspose.threed.Geometry-) | Construeer een BoundingBox van gegeven geometrie |
+| [fromGeometry(Geometry geometry)](#fromGeometry-com.aspose.threed.Geometry-) | Construeer een BoundingBox vanuit gegeven geometrie |
 | [getCenter()](#getCenter--) | Het midden van de BoundingBox. |
 | [getClass()](#getClass--) |  |
-| [getExtent()](#getExtent--) | Haalt de omvang van de begrenzingsdoos op. |
-| [getInfinite()](#getInfinite--) | De oneindige begrenzingsdoos |
-| [getMaximum()](#getMaximum--) | De maximale hoek van de begrenzingsdoos |
-| [getMinimum()](#getMinimum--) | De minimale hoek van de begrenzingsdoos |
-| [getNull()](#getNull--) | De nulbegrenzingsdoos |
+| [getExtent()](#getExtent--) | Haalt de omvang van de begrenzingsvak op. |
+| [getInfinite()](#getInfinite--) | De oneindige begrenzingsvak |
+| [getMaximum()](#getMaximum--) | De maximale hoek van de begrenzingsvak |
+| [getMinimum()](#getMinimum--) | De minimale hoek van de begrenzingsvak |
+| [getNull()](#getNull--) | De nulbegrenzingsvak |
 | [getSize()](#getSize--) | De grootte van de BoundingBox |
 | [hashCode()](#hashCode--) | Retourneert de hashcode voor deze instantie |
-| [merge(BoundingBox bb)](#merge-com.aspose.threed.BoundingBox-) | Voegt de nieuwe doos samen met de huidige begrenzingsdoos. |
-| [merge(Vector3 pt)](#merge-com.aspose.threed.Vector3-) | Voeg de huidige BoundingBox samen met het opgegeven punt |
-| [merge(Vector4 pt)](#merge-com.aspose.threed.Vector4-) | Voeg de huidige BoundingBox samen met het opgegeven punt |
-| [merge(double x, double y, double z)](#merge-double-double-double-) | Voeg de huidige BoundingBox samen met het opgegeven punt |
-| [mul(BoundingBox bbox, Matrix4 mat)](#mul-com.aspose.threed.BoundingBox-com.aspose.threed.Matrix4-) | Operatoroverloading voor vermenigvuldiging, de minimum- en maximumhoek van de nieuwe BoundingBox worden getransformeerd door de matrix. |
+| [merge(BoundingBox bb)](#merge-com.aspose.threed.BoundingBox-) | Voegt de nieuwe doos toe aan de huidige begrenzingsvak. |
+| [merge(Vector3 pt)](#merge-com.aspose.threed.Vector3-) | Voeg de huidige BoundingBox samen met het gegeven punt |
+| [merge(Vector4 pt)](#merge-com.aspose.threed.Vector4-) | Voeg de huidige BoundingBox samen met het gegeven punt |
+| [merge(double x, double y, double z)](#merge-double-double-double-) | Voeg de huidige BoundingBox samen met het gegeven punt |
+| [mul(BoundingBox bbox, Matrix4 mat)](#mul-com.aspose.threed.BoundingBox-com.aspose.threed.Matrix4-) | Operatoroverbelasting voor vermenigvuldiging, de minimum- en maximumhoek van de nieuwe BoundingBox worden getransformeerd door de matrix. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [overlapsWith(BoundingBox box)](#overlapsWith-com.aspose.threed.BoundingBox-) | Controleer of de huidige BoundingBox overlapt met de opgegeven BoundingBox. |
-| [scale()](#scale--) | Berekent de absolute grootste coördinaatwaarde van elk punt dat zich binnen bevindt. |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van de begrenzingsdoos op. |
+| [scale()](#scale--) | Berekent de absolute grootste coördinaatwaarde van elk punt dat erin zit. |
+| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van de begrenzingsvak op. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -68,13 +68,13 @@ public BoundingBox(Vector3 minimum, Vector3 maximum)
 ```
 
 
-Initialiseer een eindige begrenzingsdoos met de opgegeven minimale en maximale hoek
+Initialiseer een eindige begrenzingsvak met de opgegeven minimale en maximale hoek
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | minimum | [Vector3](../../com.aspose.threed/vector3) | De minimale hoek |
-|  | maximum | [Vector3](../../com.aspose.threed/vector3) | De maximale hoek **Example:** De volgende code laat zien hoe je een BoundingBox construeert van minimum- en maximumhoeken. |
+|  | maximum | [Vector3](../../com.aspose.threed/vector3) | De maximale hoek **Example:** De volgende code laat zien hoe je een BoundingBox construeert vanuit minimum- en maximale hoeken. |
 
 ```
 var minimum = new Vector3(0, 0, 0);
@@ -89,17 +89,17 @@ public BoundingBox(double minX, double minY, double minZ, double maxX, double ma
 ```
 
 
-Initialiseer een eindige begrenzingsdoos met de opgegeven minimale en maximale hoek
+Initialiseer een eindige begrenzingsvak met de opgegeven minimale en maximale hoek
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| minX | double | De X van de minimumhoek |
+| minX | double | De X van de minimale hoek |
 | minY | double | De Y van de minimale hoek |
 | minZ | double | De Z van de minimale hoek |
 | maxX | double | De X van de maximale hoek |
 | maxY | double | De Y van de maximale hoek |
-|  | maxZ | double | De Z van de maximale hoek **Voorbeeld:** De volgende code laat zien hoe je een bounding box kunt construeren vanuit de minimale en maximale hoeken. |
+|  | maxZ | double | De Z van de maximale hoek **Example:** De volgende code toont hoe een begrenzingsvak te construeren vanuit minimale en maximale hoeken. |
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -151,7 +151,7 @@ Controleer of punt p zich binnen de BoundingBox bevindt
 | p | [Vector3](../../com.aspose.threed/vector3) | Het punt om te testen |
 
 **Returns:**
-boolean - True if the point is inside the bounding box **Voorbeeld:** De volgende code laat zien hoe je controleert of een punt zich binnen de bounding box bevindt.
+boolean - Waar als het punt zich binnen de begrenzingsvak bevindt **Example:** De volgende code toont hoe te controleren of een punt zich binnen de begrenzingsvak bevindt.
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -185,19 +185,19 @@ Bepaalt of twee objecten gelijk zijn
 | obj | java.lang.Object | Het object om te vergelijken |
 
 **Returns:**
-boolean - true als twee objecten gelijk zijn
+boolean - waar als twee objecten gelijk zijn
 ### fromGeometry(Geometry geometry) {#fromGeometry-com.aspose.threed.Geometry-}
 ```
 public static BoundingBox fromGeometry(Geometry geometry)
 ```
 
 
-Construeer een BoundingBox van gegeven geometrie
+Construeer een BoundingBox vanuit gegeven geometrie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| geometry | [Geometry](../../com.aspose.threed/geometry) | De geometrie om de bounding box te berekenen |
+| geometry | [Geometry](../../com.aspose.threed/geometry) | De geometrie om de begrenzingsvak te berekenen |
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The bounding box of given geometry **Example:** The following code shows how to construct a bounding box from a geometry instance.
@@ -233,7 +233,7 @@ public BoundingBoxExtent getExtent()
 ```
 
 
-Haalt de omvang van de begrenzingsdoos op.
+Haalt de omvang van de begrenzingsvak op.
 
 **Returns:**
 [BoundingBoxExtent](../../com.aspose.threed/boundingboxextent) - the extent of the bounding box.
@@ -243,7 +243,7 @@ public static BoundingBox getInfinite()
 ```
 
 
-De oneindige begrenzingsdoos
+De oneindige begrenzingsvak
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The infinite bounding box
@@ -253,7 +253,7 @@ public Vector3 getMaximum()
 ```
 
 
-De maximale hoek van de begrenzingsdoos
+De maximale hoek van de begrenzingsvak
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The maximum corner of the bounding box
@@ -263,7 +263,7 @@ public Vector3 getMinimum()
 ```
 
 
-De minimale hoek van de begrenzingsdoos
+De minimale hoek van de begrenzingsvak
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The minimum corner of the bounding box
@@ -273,7 +273,7 @@ public static BoundingBox getNull()
 ```
 
 
-De nulbegrenzingsdoos
+De nulbegrenzingsvak
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The null bounding box
@@ -296,19 +296,19 @@ public int hashCode()
 Retourneert de hashcode voor deze instantie
 
 **Returns:**
-int - De hashcode van de bounding box
+int - De hashcode van de begrenzingsvak
 ### merge(BoundingBox bb) {#merge-com.aspose.threed.BoundingBox-}
 ```
 public void merge(BoundingBox bb)
 ```
 
 
-Voegt de nieuwe doos samen met de huidige begrenzingsdoos.
+Voegt de nieuwe doos toe aan de huidige begrenzingsvak.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| bb | [BoundingBox](../../com.aspose.threed/boundingbox) | De te combineren begrenzingsdoos |
+| bb | [BoundingBox](../../com.aspose.threed/boundingbox) | De te combineren begrenzingsvak |
 
 ### merge(Vector3 pt) {#merge-com.aspose.threed.Vector3-}
 ```
@@ -316,12 +316,12 @@ public void merge(Vector3 pt)
 ```
 
 
-Voeg de huidige BoundingBox samen met het opgegeven punt
+Voeg de huidige BoundingBox samen met het gegeven punt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | pt | [Vector3](../../com.aspose.threed/vector3) | Het punt dat moet worden samengevoegd met de bounding box **Voorbeeld:** De volgende code laat zien hoe je een punt met een bounding box samenvoegt. |
+|  | pt | [Vector3](../../com.aspose.threed/vector3) | Het punt dat moet worden samengevoegd met de begrenzingsvak **Example:** De volgende code toont hoe een punt te combineren met de begrenzingsvak. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -335,12 +335,12 @@ public void merge(Vector4 pt)
 ```
 
 
-Voeg de huidige BoundingBox samen met het opgegeven punt
+Voeg de huidige BoundingBox samen met het gegeven punt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | pt | [Vector4](../../com.aspose.threed/vector4) | Het punt dat moet worden samengevoegd met de bounding box **Voorbeeld:** De volgende code laat zien hoe je een punt met een bounding box samenvoegt. |
+|  | pt | [Vector4](../../com.aspose.threed/vector4) | Het punt dat moet worden samengevoegd met de begrenzingsvak **Example:** De volgende code toont hoe een punt te combineren met de begrenzingsvak. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -354,14 +354,14 @@ public void merge(double x, double y, double z)
 ```
 
 
-Voeg de huidige BoundingBox samen met het opgegeven punt
+Voeg de huidige BoundingBox samen met het gegeven punt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| x | double | Het punt dat moet worden samengevoegd met de bounding box |
-| y | double | Het punt dat moet worden samengevoegd met de bounding box |
-|  | z | double | Het punt dat moet worden samengevoegd met de bounding box **Voorbeeld:** De volgende code laat zien hoe je een punt met een bounding box samenvoegt. |
+| x | double | Het punt dat moet worden samengevoegd met de begrenzingsvak |
+| y | double | Het punt dat moet worden samengevoegd met de begrenzingsvak |
+|  | z | double | Het punt dat moet worden samengevoegd met de begrenzingsvak **Example:** De volgende code toont hoe een punt te combineren met de begrenzingsvak. |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -375,13 +375,13 @@ public static BoundingBox mul(BoundingBox bbox, Matrix4 mat)
 ```
 
 
-Operatoroverloading voor vermenigvuldiging, de minimum- en maximumhoek van de nieuwe BoundingBox worden getransformeerd door de matrix.
+Operatoroverbelasting voor vermenigvuldiging, de minimum- en maximumhoek van de nieuwe BoundingBox worden getransformeerd door de matrix.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| bbox | [BoundingBox](../../com.aspose.threed/boundingbox) | De invoer bounding box. |
-| mat | [Matrix4](../../com.aspose.threed/matrix4) | De matrix die wordt gebruikt om de hoeken van de bounding box te transformeren |
+| bbox | [BoundingBox](../../com.aspose.threed/boundingbox) | De invoerbegrenzingsvak. |
+| mat | [Matrix4](../../com.aspose.threed/matrix4) | De matrix die wordt gebruikt om de hoeken van de begrenzingsvak te transformeren |
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The product of bounding box and transform matrix.
@@ -412,10 +412,10 @@ Controleer of de huidige BoundingBox overlapt met de opgegeven BoundingBox.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| box | [BoundingBox](../../com.aspose.threed/boundingbox) | De andere bounding box om te testen |
+| box | [BoundingBox](../../com.aspose.threed/boundingbox) | De andere begrenzingsvak om te testen |
 
 **Returns:**
-boolean - True als de huidige bounding box overlapt met de opgegeven. **Voorbeeld:** De volgende code laat zien hoe je controleert of twee bounding boxes elkaar overlappen.
+boolean - Waar als de huidige begrenzingsvak overlapt met de opgegeven. **Example:** De volgende code toont hoe te controleren of twee begrenzingsvakken elkaar overlappen.
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -428,20 +428,20 @@ public double scale()
 ```
 
 
-Berekent de absolute grootste coördinaatwaarde van elk punt dat zich binnen bevindt.
+Berekent de absolute grootste coördinaatwaarde van elk punt dat erin zit.
 
 **Returns:**
-double - de berekende absolute grootste coördinaatwaarde van elk opgenomen punt.
+double - de berekende absolute grootste coördinaatwaarde van elk punt dat erin zit.
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie van de begrenzingsdoos op.
+Haalt de tekenreeksrepresentatie van de begrenzingsvak op.
 
 **Returns:**
-java.lang.String - De stringrepresentatie van de bounding box.
+java.lang.String - De tekenreeksrepresentatie van de begrenzingsvak.
 ### wait() {#wait--}
 ```
 public final void wait()

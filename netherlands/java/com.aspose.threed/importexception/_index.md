@@ -1,7 +1,7 @@
 ---
 title: "ImportException"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Uitzondering wanneer Aspose.3D er niet in slaagde de opgegeven bron te openen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Exceptie wanneer Aspose.3D de opgegeven bron niet kon openen"
 type: docs
 weight: 84
 url: /nl/java/com.aspose.threed/importexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.io.IOException
 public class ImportException extends IOException
 ```
 
-Uitzondering wanneer Aspose.3D er niet in slaagde de opgegeven bron te openen.
+Exceptie wanneer Aspose.3D de opgegeven bron niet kon openen
 ## Constructors
 
 | Constructor | Beschrijving |

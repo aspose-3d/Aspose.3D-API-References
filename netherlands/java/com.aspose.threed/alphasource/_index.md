@@ -1,6 +1,6 @@
 ---
 title: "AlphaSource"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Definieert of de texture het alfacanaal bevat."
 type: docs
 weight: 263
@@ -19,8 +19,8 @@ Definieert of de texture het alfacanaal bevat.
 | Veld | Beschrijving |
 | --- | --- |
 | [FIXED_VALUE](#FIXED-VALUE) | De Alpha is een vaste waarde die wordt gedefinieerd door [TextureBase.getAlpha](../../com.aspose.threed/texturebase\#getAlpha) |
-| [NONE](#NONE) | Er is geen alpha gedefinieerd in de texture |
-| [PIXEL_ALPHA](#PIXEL-ALPHA) | De alfa wordt gedefinieerd door het alfakanaal van de pixel |
+| [NONE](#NONE) | Er is geen alfa gedefinieerd in de textuur |
+| [PIXEL_ALPHA](#PIXEL-ALPHA) | De alpha wordt gedefinieerd door het alfakanaal van de pixel |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -56,7 +56,7 @@ public static final AlphaSource NONE
 ```
 
 
-Er is geen alpha gedefinieerd in de texture
+Er is geen alfa gedefinieerd in de textuur
 
 ### PIXEL_ALPHA {#PIXEL-ALPHA}
 ```
@@ -64,7 +64,7 @@ public static final AlphaSource PIXEL_ALPHA
 ```
 
 
-De alfa wordt gedefinieerd door het alfakanaal van de pixel
+De alpha wordt gedefinieerd door het alfakanaal van de pixel
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

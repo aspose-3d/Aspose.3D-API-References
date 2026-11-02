@@ -1,6 +1,6 @@
 ---
 title: "RenderQueueGroupId"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De groeps-ID van de renderwachtrij"
 type: docs
 weight: 297

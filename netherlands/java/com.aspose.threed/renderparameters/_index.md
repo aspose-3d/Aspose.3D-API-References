@@ -1,6 +1,6 @@
 ---
 title: "RenderParameters"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Beschrijf de parameters van het renderdoel"
 type: docs
 weight: 149
@@ -39,7 +39,7 @@ Beschrijf de parameters van het renderdoel
 | [notifyAll()](#notifyAll--) |  |
 | [setColorBits(int value)](#setColorBits-int-) | Stelt in hoeveel bits er door de kleurbuffer worden gebruikt. |
 | [setDepthBits(int value)](#setDepthBits-int-) | Stelt in hoeveel bits er door de dieptebuffer worden gebruikt. |
-| [setDoubleBuffering(boolean value)](#setDoubleBuffering-boolean-) | Stelt in of dubbelbuffer wordt gebruikt. |
+| [setDoubleBuffering(boolean value)](#setDoubleBuffering-boolean-) | Stelt in of dubbele buffering wordt gebruikt. |
 | [setStencilBits(int value)](#setStencilBits-int-) | Stelt in hoeveel bits er door de stencilbuffer worden gebruikt. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -175,7 +175,7 @@ public boolean getDoubleBuffering()
 Haalt op of dubbele buffer wordt gebruikt.
 
 **Returns:**
-boolean - of dubbelbuffer wordt gebruikt.
+boolean - of dubbele buffering wordt gebruikt.
 ### getStencilBits() {#getStencilBits--}
 ```
 public int getStencilBits()
@@ -244,7 +244,7 @@ public void setDoubleBuffering(boolean value)
 ```
 
 
-Stelt in of dubbelbuffer wordt gebruikt.
+Stelt in of dubbele buffering wordt gebruikt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

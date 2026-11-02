@@ -1,6 +1,6 @@
 ---
 title: "PolygonModifier"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Hulpmiddelen om polygonen te wijzigen"
 type: docs
 weight: 134
@@ -19,34 +19,34 @@ Hulpmiddelen om polygonen te wijzigen
 | Methode | Beschrijving |
 | --- | --- |
 | [applyTransform(Node node, Matrix4 transform)](#applyTransform-com.aspose.threed.Node-com.aspose.threed.Matrix4-) | Pas transformatie-matrix toe op controlepunten van alle geometrieën |
-| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | Dit maakt tangent en binormaal aan op het mesh. Normaal is vereist; als normaal niet bestaat op het mesh, wordt de normale data ook vanuit de positie aangemaakt. |
-| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | Dit maakt tangent en binormaal aan op alle meshes van de scène. Normaal is vereist; als normaal niet bestaat op het mesh, wordt de normale data ook vanuit de positie aangemaakt. |
+| [buildTangentBinormal(Mesh mesh)](#buildTangentBinormal-com.aspose.threed.Mesh-) | Dit zal tangent en binormaal creëren op het mesh. Normaal is vereist, als normaal niet bestaat op het mesh, wordt de normaalgegevens ook vanuit positie gecreëerd. |
+| [buildTangentBinormal(Scene scene)](#buildTangentBinormal-com.aspose.threed.Scene-) | Dit zal tangent en binormaal creëren op alle meshes van de scène. Normaal is vereist, als normaal niet bestaat op het mesh, wordt de normaalgegevens ook vanuit positie gecreëerd. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | Genereer normale data vanuit Mesh-definitie |
-| [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | Genereer UV-data vanuit het opgegeven invoer‑mesh |
-| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | Genereer UV-data vanuit het opgegeven invoer‑mesh en gespecificeerde normale data. |
+| [generateNormal(Mesh mesh)](#generateNormal-com.aspose.threed.Mesh-) | Genereer normaalgegevens vanuit Mesh-definitie |
+| [generateUV(Mesh mesh)](#generateUV-com.aspose.threed.Mesh-) | Genereer UV-gegevens vanuit de opgegeven invoer-mesh |
+| [generateUV(Mesh mesh, VertexElementNormal normals)](#generateUV-com.aspose.threed.Mesh-com.aspose.threed.VertexElementNormal-) | Genereer UV-gegevens vanuit de opgegeven invoer-mesh en gespecificeerde normaalgegevens. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | Converteer een heel knooppunt naar een enkele getransformeerde mesh Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund |
-| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | Converteer een hele scène naar een enkele getransformeerde mesh Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund |
-| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | Converteer een heel knooppunt naar een enkele getransformeerde mesh Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund |
+| [mergeMesh(Node node)](#mergeMesh-com.aspose.threed.Node-) | Converteer een volledige node naar één enkel getransformeerd mesh. Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund. |
+| [mergeMesh(Scene scene)](#mergeMesh-com.aspose.threed.Scene-) | Converteer een volledige scène naar één enkel getransformeerd mesh. Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund. |
+| [mergeMesh(List<Node> nodes)](#mergeMesh-java.util.List-com.aspose.threed.Node--) | Converteer een volledige node naar één enkel getransformeerd mesh. Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in dit knooppunt |
-| [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in deze scène |
-| [splitMesh(Mesh mesh, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Mesh-com.aspose.threed.SplitMeshPolicy-) | Splits mesh in sub-meshes via [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
-| [splitMesh(Node node, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-) | Splits mesh in sub-meshes via [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
-| [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-) | Splits mesh in sub-meshes via [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
-| [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-boolean-) | Splits mesh in sub-meshes via [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
-| [splitMesh(Scene scene, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-) | Splits mesh in sub-meshes via [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
-| [splitMesh(Scene scene, SplitMeshPolicy policy, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-boolean-) | Splits mesh in sub-meshes via [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
+| [scale(Node node, Vector3 scale)](#scale-com.aspose.threed.Node-com.aspose.threed.Vector3-) | Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in deze node. |
+| [scale(Scene scene, Vector3 scale)](#scale-com.aspose.threed.Scene-com.aspose.threed.Vector3-) | Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in deze scène. |
+| [splitMesh(Mesh mesh, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Mesh-com.aspose.threed.SplitMeshPolicy-) | Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
+| [splitMesh(Node node, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-) | Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
+| [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-) | Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
+| [splitMesh(Node node, SplitMeshPolicy policy, boolean createChildNodes, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Node-com.aspose.threed.SplitMeshPolicy-boolean-boolean-) | Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
+| [splitMesh(Scene scene, SplitMeshPolicy policy)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-) | Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
+| [splitMesh(Scene scene, SplitMeshPolicy policy, boolean removeOldMesh)](#splitMesh-com.aspose.threed.Scene-com.aspose.threed.SplitMeshPolicy-boolean-) | Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). |
 | [toString()](#toString--) |  |
-| [triangulate(Mesh mesh)](#triangulate-com.aspose.threed.Mesh-) | Converteer een op polygonen gebaseerd mesh naar een volledig driehoekmesh |
-| [triangulate(Scene scene)](#triangulate-com.aspose.threed.Scene-) | Converteer alle op polygonen gebaseerde meshes naar een volledig driehoekmesh |
-| [triangulate(List<Vector4> controlPoints)](#triangulate-java.util.List-com.aspose.threed.Vector4--) | Converteer een polygoon naar driehoeken, de volgorde van de polygoon wordt gedefinieerd door de `controlPoints` |
-| [triangulate(List<Vector4> controlPoints, int[] polygon)](#triangulate-java.util.List-com.aspose.threed.Vector4--int---) | Converteer een polygoon naar driehoeken |
-| [triangulate(List<Vector4> controlPoints, List<int[]> polygons)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----) | Converteer een op polygoon gebaseerd mesh naar driehoeken |
-| [triangulate(List<Vector4> controlPoints, List<int[]> polygons, boolean generateNormals, Vector3[][] nor_out)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----boolean-com.aspose.threed.Vector3-----) | Converteer een op polygonen gebaseerd mesh naar een volledig driehoekmesh |
+| [triangulate(Mesh mesh)](#triangulate-com.aspose.threed.Mesh-) | Converteer een op polygonen gebaseerd mesh naar een volledig driehoekmesh. |
+| [triangulate(Scene scene)](#triangulate-com.aspose.threed.Scene-) | Converteer alle op polygonen gebaseerde meshes naar een volledig driehoekmesh. |
+| [triangulate(List<Vector4> controlPoints)](#triangulate-java.util.List-com.aspose.threed.Vector4--) | Converteer een polygoon naar driehoeken, de volgorde van de polygoon wordt gedefinieerd door de `controlPoints`. |
+| [triangulate(List<Vector4> controlPoints, int[] polygon)](#triangulate-java.util.List-com.aspose.threed.Vector4--int---) | Converteer een polygoon naar driehoeken. |
+| [triangulate(List<Vector4> controlPoints, List<int[]> polygons)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----) | Converteer een op polygoon gebaseerd mesh naar driehoeken. |
+| [triangulate(List<Vector4> controlPoints, List<int[]> polygons, boolean generateNormals, Vector3[][] nor_out)](#triangulate-java.util.List-com.aspose.threed.Vector4--java.util.List-int----boolean-com.aspose.threed.Vector3-----) | Converteer een op polygonen gebaseerd mesh naar een volledig driehoekmesh. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -61,8 +61,8 @@ Pas transformatie-matrix toe op controlepunten van alle geometrieën
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Welke geometrieën van het knooppunt worden toegepast met de opgegeven transformatie |
-| transform | [Matrix4](../../com.aspose.threed/matrix4) | De transformatie-matrix die wordt toegepast op controlepunten. |
+| node | [Node](../../com.aspose.threed/node) | Welke geometrieën van de node zullen worden toegepast met de gegeven transformatie. |
+| transform | [Matrix4](../../com.aspose.threed/matrix4) | De transformatie-matrix die op de controlepunten zal worden toegepast. |
 
 ### buildTangentBinormal(Mesh mesh) {#buildTangentBinormal-com.aspose.threed.Mesh-}
 ```
@@ -70,7 +70,7 @@ public static void buildTangentBinormal(Mesh mesh)
 ```
 
 
-Dit maakt tangent en binormaal aan op de mesh. Normal is vereist; als normal niet bestaat op de mesh, wordt de normaldata ook aangemaakt vanuit positie. UV is ook vereist; er wordt een uitzondering opgegooid als er geen UV wordt gevonden.
+Dit zal tangent en binormaal op het mesh creëren. Normal is vereist; als Normal niet bestaat op het mesh, wordt de normal-gegevens ook gecreëerd vanuit de positie. UV is ook vereist; er wordt een uitzondering opgegooid als er geen UV wordt gevonden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -83,7 +83,7 @@ public static void buildTangentBinormal(Scene scene)
 ```
 
 
-Dit maakt tangent en binormaal aan op alle meshes van de scène. Normal is vereist; als normal niet bestaat op de mesh, wordt de normaldata ook aangemaakt vanuit positie. UV is ook vereist; de mesh wordt genegeerd als er geen UV is gedefinieerd.
+Dit zal tangent en binormaal op alle meshes van de scène creëren. Normal is vereist; als Normal niet bestaat op het mesh, wordt de normal-gegevens ook gecreëerd vanuit de positie. UV is ook vereist; de mesh wordt genegeerd als er geen UV is gedefinieerd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -111,7 +111,7 @@ public static VertexElementNormal generateNormal(Mesh mesh)
 ```
 
 
-Genereer normale data vanuit Mesh-definitie
+Genereer normaalgegevens vanuit Mesh-definitie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -126,12 +126,12 @@ public static VertexElementUV generateUV(Mesh mesh)
 ```
 
 
-Genereer UV-data vanuit het opgegeven invoer‑mesh
+Genereer UV-gegevens vanuit de opgegeven invoer-mesh
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | De invoer‑mesh |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | Het invoer‑mesh |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Generated UV data
@@ -141,13 +141,13 @@ public static VertexElementUV generateUV(Mesh mesh, VertexElementNormal normals)
 ```
 
 
-Genereer UV-data vanuit het opgegeven invoer‑mesh en gespecificeerde normale data.
+Genereer UV-gegevens vanuit de opgegeven invoer-mesh en gespecificeerde normaalgegevens.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | De invoer‑mesh |
-| normals | [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) | De normaldata |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | Het invoer‑mesh |
+| normals | [VertexElementNormal](../../com.aspose.threed/vertexelementnormal) | De normal-gegevens |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Generated UV data
@@ -177,12 +177,12 @@ public static Mesh mergeMesh(Node node)
 ```
 
 
-Converteer een heel knooppunt naar een enkele getransformeerde mesh Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund
+Converteer een volledige node naar één enkel getransformeerd mesh. Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Het knooppunt om te samenvoegen |
+| node | [Node](../../com.aspose.threed/node) | De te samenvoegen node |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Merged mesh **Example:** The following code shows how to merge all objects from nodes into a single mesh.
@@ -202,12 +202,12 @@ public static Mesh mergeMesh(Scene scene)
 ```
 
 
-Converteer een hele scène naar een enkele getransformeerde mesh Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund
+Converteer een volledige scène naar één enkel getransformeerd mesh. Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | De scène om samen te voegen |
+| scene | [Scene](../../com.aspose.threed/scene) | De te samenvoegen scène |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The merged mesh **Example:** The following code shows how to merge all objects from a scene into a single mesh.
@@ -227,12 +227,12 @@ public static Mesh mergeMesh(List<Node> nodes)
 ```
 
 
-Converteer een heel knooppunt naar een enkele getransformeerde mesh Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund
+Converteer een volledige node naar één enkel getransformeerd mesh. Vertex-elementen zoals normale/textuurcoördinaten worden nog niet ondersteund.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| knooppunten | java.util.List<com.aspose.threed.Node> | De knooppunten om samen te voegen |
+| knooppunten | java.util.List<com.aspose.threed.Node> | De te samenvoegen knooppunten |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - Merged mesh **Example:** The following code shows how to merge all objects from nodes into a single mesh.
@@ -268,13 +268,13 @@ public static void scale(Node node, Vector3 scale)
 ```
 
 
-Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in dit knooppunt
+Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in deze node.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Het knooppunt om te schalen |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | De schaalfactor **Example:** De volgende code laat zien hoe alle geometrieën in de scène met 10 keer worden geschaald. |
+| node | [Node](../../com.aspose.threed/node) | De te schalen node |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | De schaalfactor **Voorbeeld:** De volgende code laat zien hoe alle geometrieën in de scène met 10 keer worden geschaald. |
 
 ```
 //Load a test file for scaling
@@ -290,13 +290,13 @@ public static Scene scale(Scene scene, Vector3 scale)
 ```
 
 
-Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in deze scène
+Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in deze scène.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | De scène om te schalen |
-|  | scale | [Vector3](../../com.aspose.threed/vector3) | De schaalfactor **Example:** De volgende code laat zien hoe alle geometrieën in de scène met 10 keer worden geschaald. |
+| scene | [Scene](../../com.aspose.threed/scene) | De te schalen scène |
+|  | scale | [Vector3](../../com.aspose.threed/vector3) | De schaalfactor **Voorbeeld:** De volgende code laat zien hoe alle geometrieën in de scène met 10 keer worden geschaald. |
 
 ```
 //Load a test file for scaling
@@ -314,7 +314,7 @@ public static Mesh[] splitMesh(Mesh mesh, SplitMeshPolicy policy)
 ```
 
 
-Splits mesh in sub-meshes via [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elk sub-mesh zal slechts één materiaal gebruiken. De originele mesh wordt niet gewijzigd.
+Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh zal slechts één materiaal gebruiken. Het originele mesh zal niet worden gewijzigd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -323,7 +323,7 @@ Splits mesh in sub-meshes via [VertexElementMaterial](../../com.aspose.threed/ve
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
 
 **Returns:**
-com.aspose.threed.Mesh[] - Nieuwe gesplitste meshes **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in submeshes met behulp van materiaindexen.
+com.aspose.threed.Mesh[] - Nieuwe gesplitste meshes **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in sub meshes met behulp van materiaindexen.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -347,7 +347,7 @@ public static void splitMesh(Node node, SplitMeshPolicy policy)
 ```
 
 
-Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh zal slechts één materiaal gebruiken. Voer mesh-splitsing uit op een knooppunt **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in submeshes met behulp van materiaindexen.
+Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh gebruikt slechts één materiaal. Voer mesh-splitsing uit op een knooppunt **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in sub meshes met behulp van materiaindexen.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -378,14 +378,14 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh zal slechts één materiaal gebruiken. Voer mesh-splitsing uit op een knooppunt.
+Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh gebruikt slechts één materiaal. Voer mesh-splitsing uit op een knooppunt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
-|  | createChildNodes | boolean | Maak kindknooppunten aan voor elke sub-mesh. **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in submeshes met behulp van materiaindexen. |
+|  | createChildNodes | boolean | Maak kindknooppunten voor elke sub-mesh. **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in sub meshes met behulp van materiaindexen. |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -410,15 +410,15 @@ public static void splitMesh(Node node, SplitMeshPolicy policy, boolean createCh
 ```
 
 
-Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh zal slechts één materiaal gebruiken. Voer mesh-splitsing uit op een knooppunt.
+Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh gebruikt slechts één materiaal. Voer mesh-splitsing uit op een knooppunt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.threed/node) |  |
 | policy | [SplitMeshPolicy](../../com.aspose.threed/splitmeshpolicy) |  |
-| createChildNodes | boolean | Maak kindknooppunten aan voor elke sub-mesh. |
-|  | removeOldMesh | boolean | Verwijder de oude mesh na het splitsen; als deze parameter onwaar is, zullen de oude en nieuwe meshes naast elkaar bestaan. **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in submeshes met behulp van materiaindexen. |
+| createChildNodes | boolean | Maak kindknooppunten voor elke sub-mesh. |
+|  | removeOldMesh | boolean | Verwijder de oude mesh na het splitsen; als deze parameter onwaar is, bestaan de oude en nieuwe meshes naast elkaar. **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in sub meshes met behulp van materiaindexen. |
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -443,7 +443,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy)
 ```
 
 
-Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh zal slechts één materiaal gebruiken. Voer mesh-splitsing uit op alle knooppunten van de scène **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in submeshes met behulp van materiaindexen.
+Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh gebruikt slechts één materiaal. Voer mesh-splitsing uit op alle knooppunten van de scène. **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in sub meshes met behulp van materiaindexen.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -474,7 +474,7 @@ public static void splitMesh(Scene scene, SplitMeshPolicy policy, boolean remove
 ```
 
 
-Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh zal slechts één materiaal gebruiken. Voer mesh-splitsing uit op alle knooppunten van de scène **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in submeshes met behulp van materiaindexen.
+Splits mesh in sub-meshes met [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial). Elke sub-mesh gebruikt slechts één materiaal. Voer mesh-splitsing uit op alle knooppunten van de scène. **Voorbeeld:** De volgende code laat zien hoe een doos te splitsen in sub meshes met behulp van materiaindexen.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -516,12 +516,12 @@ public static Mesh triangulate(Mesh mesh)
 ```
 
 
-Converteer een op polygonen gebaseerd mesh naar een volledig driehoekmesh
+Converteer een op polygonen gebaseerd mesh naar een volledig driehoekmesh.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| mesh | [Mesh](../../com.aspose.threed/mesh) | De originele niet-driehoekige mesh |
+| mesh | [Mesh](../../com.aspose.threed/mesh) | De originele niet-driehoek mesh |
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The generated new triangle mesh **Example:** The following code shows how to merge all objects from a scene into a single mesh.
@@ -542,12 +542,12 @@ public static void triangulate(Scene scene)
 ```
 
 
-Converteer alle op polygonen gebaseerde meshes naar een volledig driehoekmesh
+Converteer alle op polygonen gebaseerde meshes naar een volledig driehoekmesh.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | scene | [Scene](../../com.aspose.threed/scene) | De scène om te verwerken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één enkele mesh. |
+|  | scene | [Scene](../../com.aspose.threed/scene) | De scène om te verwerken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één mesh. |
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -566,7 +566,7 @@ public static int[][] triangulate(List<Vector4> controlPoints)
 ```
 
 
-Converteer een polygoon naar driehoeken, de volgorde van de polygoon wordt gedefinieerd door de `controlPoints`
+Converteer een polygoon naar driehoeken, de volgorde van de polygoon wordt gedefinieerd door de `controlPoints`.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -574,7 +574,7 @@ Converteer een polygoon naar driehoeken, de volgorde van de polygoon wordt gedef
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Controlepunten van de mesh |
 
 **Returns:**
-int[][] - Een set van driehoeken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één enkele mesh.
+int[][] - Een set van driehoeken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één mesh.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -592,16 +592,16 @@ public static int[][] triangulate(List<Vector4> controlPoints, int[] polygon)
 ```
 
 
-Converteer een polygoon naar driehoeken
+Converteer een polygoon naar driehoeken.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Controlepunten van de mesh |
-| polygoon | int[] | Polygonvlak |
+| polygon | int[] | Polygonvlak |
 
 **Returns:**
-int[][] - Een set van driehoeken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één enkele mesh.
+int[][] - Een set van driehoeken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één mesh.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -619,16 +619,16 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 ```
 
 
-Converteer een op polygoon gebaseerd mesh naar driehoeken
+Converteer een op polygoon gebaseerd mesh naar driehoeken.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Controlepunten van de mesh |
-| polygonen | java.util.List<int[]> | Polygonvlakken |
+| polygons | java.util.List<int[]> | Polygonvlakken |
 
 **Returns:**
-int[][] - Een set van driehoeken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één enkele mesh.
+int[][] - Een set van driehoeken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één mesh.
 
 ```
 var mesh = new Cylinder().toMesh();
@@ -646,18 +646,18 @@ public static int[][] triangulate(List<Vector4> controlPoints, List<int[]> polyg
 ```
 
 
-Converteer een op polygonen gebaseerd mesh naar een volledig driehoekmesh
+Converteer een op polygonen gebaseerd mesh naar een volledig driehoekmesh.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | controlPoints | java.util.List<com.aspose.threed.Vector4> | Controlepunten van de mesh |
-| polygonen | java.util.List<int[]> | Polygonvlakken |
+| polygons | java.util.List<int[]> | Polygonvlakken |
 | generateNormals | boolean | Genereer normalen |
-| nor_out | [Vector3\[\]](../../com.aspose.threed/vector3) | Gegenereerde normaal per controlepunt |
+| nor_out | [Vector3\[\]](../../com.aspose.threed/vector3) | Gegenereerde normale per controlepunt |
 
 **Returns:**
-int[][] - Een set van driehoeken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één enkele mesh.
+int[][] - Een set van driehoeken **Voorbeeld:** De volgende code laat zien hoe alle objecten uit een scène te combineren tot één mesh.
 
 ```
 var mesh = new Cylinder().toMesh();

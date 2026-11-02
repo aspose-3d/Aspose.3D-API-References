@@ -1,6 +1,6 @@
 ---
 title: "ShaderProgram"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Het shaderprogramma"
 type: docs
 weight: 165

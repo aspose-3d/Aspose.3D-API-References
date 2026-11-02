@@ -1,6 +1,6 @@
 ---
 title: "GLSLSource"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De broncode van shaders in GLSL"
 type: docs
 weight: 70

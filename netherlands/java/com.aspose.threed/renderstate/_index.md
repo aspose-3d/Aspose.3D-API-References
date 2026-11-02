@@ -1,6 +1,6 @@
 ---
 title: "RenderState"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Renderstatus voor het bouwen van de pijplijn. De wijzigingen die op de renderstatus worden aangebracht, hebben geen invloed op de gemaakte pijplijn‑instanties."
 type: docs
 weight: 151
@@ -16,7 +16,7 @@ java.io.Closeable, java.lang.Comparable
 public class RenderState implements Closeable, Comparable<RenderState>
 ```
 
-Renderstatus voor het bouwen van de pipeline. De wijzigingen die op de renderstatus worden aangebracht, hebben geen invloed op de gemaakte pipeline-instanties.
+Renderstatus voor het bouwen van de pipeline De wijzigingen die op de renderstatus worden aangebracht, hebben geen invloed op de gemaakte pipeline-instanties.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -29,42 +29,42 @@ Renderstatus voor het bouwen van de pipeline. De wijzigingen die op de rendersta
 | [close()](#close--) | Verwijder de [RenderState](../../com.aspose.threed/renderstate) en geef alle interne bronnen vrij. |
 | [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | Vergelijk de renderstatus met een andere instantie |
 | [equals(Object obj)](#equals-java.lang.Object-) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven object. |
-| [getBlend()](#getBlend--) | Schakel het fragmentblenden in of uit. |
+| [getBlend()](#getBlend--) | Schakel de fragmentblending in of uit. |
 | [getBlendColor()](#getBlendColor--) | Haalt de blendkleur op die wordt gebruikt in [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
 | [getClass()](#getClass--) |  |
 | [getCullFace()](#getCullFace--) | Schakel cull face in of uit |
 | [getCullFaceMode()](#getCullFaceMode--) | Haalt op welke face wordt gecullt. |
-| [getDepthFunction()](#getDepthFunction--) | Haalt de vergelijkingsfunctie op die wordt gebruikt in de dieptetest |
-| [getDepthMask()](#getDepthMask--) | Schakel het schrijven van diepte in of uit. |
-| [getDepthTest()](#getDepthTest--) | Schakel de dieptetest in uit. |
+| [getDepthFunction()](#getDepthFunction--) | Haalt de vergelijkingsfunctie op die wordt gebruikt in diepte-test |
+| [getDepthMask()](#getDepthMask--) | Schakel de depth writing in of uit. |
+| [getDepthTest()](#getDepthTest--) | Schakel de depth test in of uit. |
 | [getDestinationBlendFactor()](#getDestinationBlendFactor--) | Haalt op hoe de kleur wordt gemengd. |
-| [getFrontFace()](#getFrontFace--) | Haalt op welke volgorde de front face is. |
+| [getFrontFace()](#getFrontFace--) | Haalt op welke volgorde de front face heeft. |
 | [getPolygonMode()](#getPolygonMode--) | Haalt de rendermodus van de polygoon op. |
-| [getScissorTest()](#getScissorTest--) | Schakel de scissortest in of uit. |
+| [getScissorTest()](#getScissorTest--) | Schakel de scissor test in of uit |
 | [getSourceBlendFactor()](#getSourceBlendFactor--) | Haalt op hoe de kleur wordt gemengd. |
 | [getStencilBackFace()](#getStencilBackFace--) | Haalt de stencilstatus op voor de back face. |
 | [getStencilFrontFace()](#getStencilFrontFace--) | Haalt de stencilstatus op voor de front face. |
-| [getStencilMask()](#getStencilMask--) | Haalt het masker op dat wordt ge-AND met zowel de referentie- als de opgeslagen stencilwaarde wanneer de test is voltooid. |
-| [getStencilReference()](#getStencilReference--) | Haalt de referentiewaarde op voor de stenciltest. |
-| [getStencilTest()](#getStencilTest--) | Schakel de stenciltest in of uit. |
+| [getStencilMask()](#getStencilMask--) | Haalt het masker op dat wordt AND-geïntegreerd met zowel de referentie- als de opgeslagen stencilwaarde wanneer de test is voltooid. |
+| [getStencilReference()](#getStencilReference--) | Haalt de referentiewaarde op voor de stencil test. |
+| [getStencilTest()](#getStencilTest--) | Schakel de stencil test in of uit. |
 | [hashCode()](#hashCode--) | Retourneert de hashcode voor deze instantie. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBlend(boolean value)](#setBlend-boolean-) | Schakel het fragmentblenden in of uit. |
+| [setBlend(boolean value)](#setBlend-boolean-) | Schakel de fragmentblending in of uit. |
 | [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | Stelt de blendkleur in die wordt gebruikt in [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
 | [setCullFace(boolean value)](#setCullFace-boolean-) | Schakel cull face in of uit |
 | [setCullFaceMode(int value)](#setCullFaceMode-int-) | Stelt in welke face wordt gecullt. |
-| [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | Stelt de vergelijkingsfunctie in die wordt gebruikt in de dieptetest |
-| [setDepthMask(boolean value)](#setDepthMask-boolean-) | Schakel het schrijven van diepte in of uit. |
-| [setDepthTest(boolean value)](#setDepthTest-boolean-) | Schakel de dieptetest in uit. |
+| [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | Stelt de vergelijkingsfunctie in die wordt gebruikt in depth test |
+| [setDepthMask(boolean value)](#setDepthMask-boolean-) | Schakel de depth writing in of uit. |
+| [setDepthTest(boolean value)](#setDepthTest-boolean-) | Schakel de depth test in of uit. |
 | [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | Stelt in hoe de kleur wordt gemengd. |
-| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | Stelt in welke volgorde de front face is. |
+| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | Stelt in welke volgorde de front face heeft. |
 | [setPolygonMode(PolygonMode value)](#setPolygonMode-com.aspose.threed.PolygonMode-) | Stelt de rendermodus van de polygoon in. |
-| [setScissorTest(boolean value)](#setScissorTest-boolean-) | Schakel de scissortest in of uit. |
+| [setScissorTest(boolean value)](#setScissorTest-boolean-) | Schakel de scissor test in of uit |
 | [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | Stelt in hoe de kleur wordt gemengd. |
-| [setStencilMask(int value)](#setStencilMask-int-) | Stelt het masker in dat wordt EN-gelijkt met zowel de referentiewaarde als de opgeslagen stencilwaarde wanneer de test is voltooid. |
+| [setStencilMask(int value)](#setStencilMask-int-) | Stelt het masker in dat wordt EN-geregeld met zowel de referentiewaarde als de opgeslagen stencilwaarde wanneer de test is voltooid. |
 | [setStencilReference(int value)](#setStencilReference-int-) | Stelt de referentiewaarde in voor de stenciltest. |
-| [setStencilTest(boolean value)](#setStencilTest-boolean-) | Schakel de stenciltest in of uit. |
+| [setStencilTest(boolean value)](#setStencilTest-boolean-) | Schakel de stencil test in of uit. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -121,10 +121,10 @@ public boolean getBlend()
 ```
 
 
-Schakel het fragmentblenden in of uit.
+Schakel de fragmentblending in of uit.
 
 **Returns:**
-boolean - Inschakelen of uitschakelen van fragmentblending.
+boolean - Schakel fragmentblending in of uit.
 ### getBlendColor() {#getBlendColor--}
 ```
 public FVector4 getBlendColor()
@@ -154,7 +154,7 @@ public boolean getCullFace()
 Schakel cull face in of uit
 
 **Returns:**
-boolean - Inschakelen of uitschakelen van cull face
+boolean - Schakel het afschermen van gezichten in of uit
 ### getCullFaceMode() {#getCullFaceMode--}
 ```
 public int getCullFaceMode()
@@ -164,14 +164,14 @@ public int getCullFaceMode()
 Haalt op welke face wordt gecullt.
 
 **Returns:**
-int - welke face zal worden geculld.
+int - welk gezicht zal worden afgeschermd.
 ### getDepthFunction() {#getDepthFunction--}
 ```
 public CompareFunction getDepthFunction()
 ```
 
 
-Haalt de vergelijkingsfunctie op die wordt gebruikt in de dieptetest
+Haalt de vergelijkingsfunctie op die wordt gebruikt in diepte-test
 
 **Returns:**
 [CompareFunction](../../com.aspose.threed/comparefunction) - the compare function used in depth test
@@ -181,20 +181,20 @@ public boolean getDepthMask()
 ```
 
 
-Schakel het schrijven van diepte in of uit.
+Schakel de depth writing in of uit.
 
 **Returns:**
-boolean - Inschakelen of uitschakelen van diepte‑schrijven.
+boolean - Schakel diepte‑schrijven in of uit.
 ### getDepthTest() {#getDepthTest--}
 ```
 public boolean getDepthTest()
 ```
 
 
-Schakel de dieptetest in uit.
+Schakel de depth test in of uit.
 
 **Returns:**
-boolean - Inschakelen of uitschakelen van dieptetest.
+boolean - Schakel de diepte‑test in of uit.
 ### getDestinationBlendFactor() {#getDestinationBlendFactor--}
 ```
 public BlendFactor getDestinationBlendFactor()
@@ -211,7 +211,7 @@ public FrontFace getFrontFace()
 ```
 
 
-Haalt op welke volgorde de front face is.
+Haalt op welke volgorde de front face heeft.
 
 **Returns:**
 [FrontFace](../../com.aspose.threed/frontface) - which order is front face.
@@ -231,10 +231,10 @@ public boolean getScissorTest()
 ```
 
 
-Schakel de scissortest in of uit.
+Schakel de scissor test in of uit
 
 **Returns:**
-boolean - Inschakelen of uitschakelen van scissortest
+boolean - Schakel de scissortest in of uit
 ### getSourceBlendFactor() {#getSourceBlendFactor--}
 ```
 public BlendFactor getSourceBlendFactor()
@@ -271,17 +271,17 @@ public int getStencilMask()
 ```
 
 
-Haalt het masker op dat wordt ge-AND met zowel de referentie- als de opgeslagen stencilwaarde wanneer de test is voltooid.
+Haalt het masker op dat wordt AND-geïntegreerd met zowel de referentie- als de opgeslagen stencilwaarde wanneer de test is voltooid.
 
 **Returns:**
-int - het masker dat wordt EN-gelijkt met zowel de referentiewaarde als de opgeslagen stencilwaarde wanneer de test is voltooid.
+int - het masker dat wordt EN-geregeld met zowel de referentiewaarde als de opgeslagen stencilwaarde wanneer de test is voltooid.
 ### getStencilReference() {#getStencilReference--}
 ```
 public int getStencilReference()
 ```
 
 
-Haalt de referentiewaarde op voor de stenciltest.
+Haalt de referentiewaarde op voor de stencil test.
 
 **Returns:**
 int - de referentiewaarde voor de stenciltest.
@@ -291,10 +291,10 @@ public boolean getStencilTest()
 ```
 
 
-Schakel de stenciltest in of uit.
+Schakel de stencil test in of uit.
 
 **Returns:**
-boolean - Inschakelen of uitschakelen van de stenciltest.
+boolean - Schakel de stenciltest in of uit.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -327,7 +327,7 @@ public void setBlend(boolean value)
 ```
 
 
-Schakel het fragmentblenden in of uit.
+Schakel de fragmentblending in of uit.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -379,7 +379,7 @@ public void setDepthFunction(CompareFunction value)
 ```
 
 
-Stelt de vergelijkingsfunctie in die wordt gebruikt in de dieptetest
+Stelt de vergelijkingsfunctie in die wordt gebruikt in depth test
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -392,7 +392,7 @@ public void setDepthMask(boolean value)
 ```
 
 
-Schakel het schrijven van diepte in of uit.
+Schakel de depth writing in of uit.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -405,7 +405,7 @@ public void setDepthTest(boolean value)
 ```
 
 
-Schakel de dieptetest in uit.
+Schakel de depth test in of uit.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -431,7 +431,7 @@ public void setFrontFace(FrontFace value)
 ```
 
 
-Stelt in welke volgorde de front face is.
+Stelt in welke volgorde de front face heeft.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -457,7 +457,7 @@ public void setScissorTest(boolean value)
 ```
 
 
-Schakel de scissortest in of uit.
+Schakel de scissor test in of uit
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -483,7 +483,7 @@ public void setStencilMask(int value)
 ```
 
 
-Stelt het masker in dat wordt EN-gelijkt met zowel de referentiewaarde als de opgeslagen stencilwaarde wanneer de test is voltooid.
+Stelt het masker in dat wordt EN-geregeld met zowel de referentiewaarde als de opgeslagen stencilwaarde wanneer de test is voltooid.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -509,7 +509,7 @@ public void setStencilTest(boolean value)
 ```
 
 
-Schakel de stenciltest in of uit.
+Schakel de stencil test in of uit.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

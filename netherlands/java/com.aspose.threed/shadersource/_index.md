@@ -1,6 +1,6 @@
 ---
 title: "ShaderSource"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De broncode van de shader"
 type: docs
 weight: 167

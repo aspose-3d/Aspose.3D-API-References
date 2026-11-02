@@ -1,7 +1,7 @@
 ---
 title: "StepMode"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Interpolatiestapmodus"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Interpolatiestapmodus."
 type: docs
 weight: 304
 url: /nl/java/com.aspose.threed/stepmode/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum StepMode extends Enum<StepMode>
 ```
 
-Interpolatiestapmodus
+Interpolatiestapmodus.
 ## Velden
 
 | Veld | Beschrijving |

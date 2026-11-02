@@ -1,7 +1,7 @@
 ---
 title: "MemoryStream"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Gemaakt door lexchou op 13-6-2017."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Gemaakt door lexchou op 6/13/2017."
 type: docs
 weight: 101
 url: /nl/java/com.aspose.threed/memorystream/
@@ -16,7 +16,7 @@ java.lang.AutoCloseable
 public class MemoryStream extends Stream implements AutoCloseable
 ```
 
-Gemaakt door lexchou op 13-6-2017.
+Gemaakt door lexchou op 6/13/2017.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -62,7 +62,7 @@ Gemaakt door lexchou op 13-6-2017.
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 | [wrap(InputStream stream)](#wrap-java.io.InputStream-) |  |
-| [wrap(OutputStream stream)](#wrap-java.io.OutputStream-) | Wikkel een OutputStream als Stream, de stream moet worden gesloten om gegevens naar de uitvoerstream te flushen. |
+| [wrap(OutputStream stream)](#wrap-java.io.OutputStream-) | Wikkel een OutputStream als Stream, de stream moet worden gesloten om gegevens naar de outputstream te spoelen. |
 | [write(byte[] buf)](#write-byte---) |  |
 | [write(byte[] buf, int start, int len)](#write-byte---int-int-) |  |
 | [write(ByteSpan bytes)](#write-com.aspose.threed.ByteSpan-) |  |
@@ -145,7 +145,7 @@ public void copyTo(OutputStream stream)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream |  |
+| stroom | java.io.OutputStream |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -283,7 +283,7 @@ public int read(byte[] buf, int start, int len)
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | buf | byte[] |  |
-| begin | int |  |
+| start | int |  |
 | len | int |  |
 
 **Returns:**
@@ -421,7 +421,7 @@ public static Stream wrap(InputStream stream)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream |  |
+| stroom | java.io.InputStream |  |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream)
@@ -431,12 +431,12 @@ public static Stream wrap(OutputStream stream)
 ```
 
 
-Wikkel een OutputStream als Stream, de stream moet worden gesloten om gegevens naar de uitvoerstream te flushen.
+Wikkel een OutputStream als Stream, de stream moet worden gesloten om gegevens naar de outputstream te spoelen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | output stream to wrap |
+| stroom | java.io.OutputStream | outputstream om te wikkelen |
 
 **Returns:**
 [Stream](../../com.aspose.threed/stream) - wrapped Stream instance
@@ -465,7 +465,7 @@ public void write(byte[] buf, int start, int len)
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | buf | byte[] |  |
-| begin | int |  |
+| start | int |  |
 | len | int |  |
 
 ### write(ByteSpan bytes) {#write-com.aspose.threed.ByteSpan-}

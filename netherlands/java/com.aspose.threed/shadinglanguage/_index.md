@@ -1,7 +1,7 @@
 ---
 title: "ShadingLanguage"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Veelgebruikte shading-talen"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Veelgebruikte shadingtalen"
 type: docs
 weight: 272
 url: /nl/java/com.aspose.threed/shadinglanguage/
@@ -13,24 +13,24 @@ java.lang.Object, java.lang.Enum
 public enum ShadingLanguage extends Enum<ShadingLanguage>
 ```
 
-Veelgebruikte shading-talen
+Veelgebruikte shadingtalen
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
 | [AGAL](#AGAL) | Adobe Graphics Assembly Language |
-| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | ARB-assemblage-taal is een low-level shading-taal die is gemaakt door de OpenGL Architecture Review Board om GPU-instructies te standaardiseren. |
+| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | ARB-assemblytaal is een low-level shadingtaal die is gemaakt door de OpenGL Architecture Review Board om GPU-instructies te standaardiseren. |
 | [CGFX](#CGFX) | NVIDIA Cg |
-| [DIRECTX_SHADER_ASSEMBLY](#DIRECTX-SHADER-ASSEMBLY) | De DirectX shader-assemblage-taal |
-| [GELATO](#GELATO) | De gelato shading-taal |
+| [DIRECTX_SHADER_ASSEMBLY](#DIRECTX-SHADER-ASSEMBLY) | De DirectX shader-assemblytaal |
+| [GELATO](#GELATO) | De Gelato shadingtaal |
 | [GLSL](#GLSL) | De GLSL |
 | [HLSL](#HLSL) | DirectX High-Level Shader-taal |
 | [HOUDINIVEX](#HOUDINIVEX) | Houdini VEX Shading-taal |
 | [MENTAL_RAY](#MENTAL-RAY) | Mental Ray Shader-taal |
 | [METAL](#METAL) | iOS Metal Shading-taal |
-| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | Open shading-taal is ontwikkeld door Sony Pictures Imageworks en wordt gebruikt in de Arnold-renderer. |
+| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | Open shadingtaal is ontwikkeld door Sony Pictures Imageworks en wordt gebruikt in de Arnold-renderer. |
 | [PSSL](#PSSL) | PlayStation Shader-taal |
-| [RENDER_MAN](#RENDER-MAN) | RenderMan shading-taal. |
+| [RENDER_MAN](#RENDER-MAN) | RenderMan shadingtaal. |
 | [SFX](#SFX) | SFX |
 ## Methoden
 
@@ -67,7 +67,7 @@ public static final ShadingLanguage ARB_ASSEMBLY
 ```
 
 
-ARB-assemblage-taal is een low-level shading-taal die is gemaakt door de OpenGL Architecture Review Board om GPU-instructies te standaardiseren.
+ARB-assemblytaal is een low-level shadingtaal die is gemaakt door de OpenGL Architecture Review Board om GPU-instructies te standaardiseren.
 
 ### CGFX {#CGFX}
 ```
@@ -83,7 +83,7 @@ public static final ShadingLanguage DIRECTX_SHADER_ASSEMBLY
 ```
 
 
-De DirectX shader-assemblage-taal
+De DirectX shader-assemblytaal
 
 ### GELATO {#GELATO}
 ```
@@ -91,7 +91,7 @@ public static final ShadingLanguage GELATO
 ```
 
 
-De gelato shading-taal
+De Gelato shadingtaal
 
 ### GLSL {#GLSL}
 ```
@@ -139,7 +139,7 @@ public static final ShadingLanguage OPEN_SHADING_LANGUAGE
 ```
 
 
-Open shading-taal is ontwikkeld door Sony Pictures Imageworks en wordt gebruikt in de Arnold-renderer.
+Open shadingtaal is ontwikkeld door Sony Pictures Imageworks en wordt gebruikt in de Arnold-renderer.
 
 ### PSSL {#PSSL}
 ```
@@ -155,7 +155,7 @@ public static final ShadingLanguage RENDER_MAN
 ```
 
 
-RenderMan shading-taal.
+RenderMan shadingtaal.
 
 ### SFX {#SFX}
 ```

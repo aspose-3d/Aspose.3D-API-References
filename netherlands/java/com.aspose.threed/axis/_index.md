@@ -1,6 +1,6 @@
 ---
 title: "As"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De coördinaat-as."
 type: docs
 weight: 265

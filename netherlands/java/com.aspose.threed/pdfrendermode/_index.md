@@ -1,7 +1,7 @@
 ---
 title: "PdfRenderMode"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Rendermodus specificeert de stijl waarin het 3D-kunstwerk wordt gerenderd."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Rendermodus specificeert de stijl waarin de 3D-illustratie wordt gerenderd."
 type: docs
 weight: 289
 url: /nl/java/com.aspose.threed/pdfrendermode/
@@ -13,24 +13,24 @@ java.lang.Object, java.lang.Enum
 public enum PdfRenderMode extends Enum<PdfRenderMode>
 ```
 
-Rendermodus specificeert de stijl waarin het 3D-kunstwerk wordt gerenderd.
+Rendermodus specificeert de stijl waarin de 3D-illustratie wordt gerenderd.
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
 | [BOUNDING_BOX](#BOUNDING-BOX) | Toont de randen van de begrenzingsdoos van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt. |
-| [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | Toont randen in één kleur, maar verwijdert naar achteren gerichte en verduisterde randen. |
-| [ILLUSTRATION](#ILLUSTRATION) | Toont silhouetranden met oppervlakken, verwijdert verduisterde lijnen. |
+| [HIDDEN_WIREFRAME](#HIDDEN-WIREFRAME) | Toont randen in één kleur, maar verwijdert naar achteren gerichte en verborgen randen. |
+| [ILLUSTRATION](#ILLUSTRATION) | Toont silhouetranden met oppervlakken, verwijdert verborgen lijnen. |
 | [SHADED_ILLUSTRATION](#SHADED-ILLUSTRATION) | Toont silhouetranden met verlichte en getextureerde oppervlakken en een extra emissieve term om slecht verlichte gebieden van het kunstwerk te verwijderen. |
 | [SHADED_VERTICES](#SHADED-VERTICES) | Toont alleen vertices, maar gebruikt hun vertexkleur en past verlichting toe. |
 | [SHADED_WIREFRAME](#SHADED-WIREFRAME) | Toont alleen randen, maar interpoleert hun kleur tussen hun twee vertices en past verlichting toe. |
 | [SOLID](#SOLID) | Toont getextureerde en verlichte geometrische vormen. |
-| [SOLID_OUTLINE](#SOLID-OUTLINE) | Toont silhouetranden met verlichte en getextureerde oppervlakken, verwijdert verduisterde lijnen. |
+| [SOLID_OUTLINE](#SOLID-OUTLINE) | Toont silhouetranden met verlichte en getextureerde oppervlakken, verwijdert verborgen lijnen. |
 | [SOLID_WIREFRAME](#SOLID-WIREFRAME) | Toont getextureerde en verlichte geometrische vormen (driehoeken) met randen in één kleur erboven. |
-| [TRANSPARENT](#TRANSPARENT) | Toont getextureerde en verlichte geometrische vormen (driehoeken) met een extra mate van transparantie. |
-| [TRANSPARENT_BOUNDING_BOX](#TRANSPARENT-BOUNDING-BOX) | Toont de vlakken van de begrenzingsdozen van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt, met een extra mate van transparantie. |
-| [TRANSPARENT_BOUNDING_BOX_OUTLINE](#TRANSPARENT-BOUNDING-BOX-OUTLINE) | Toont de randen en vlakken van de begrenzingsdozen van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt, met een extra mate van transparantie. |
-| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | Toont getextureerde en verlichte geometrische vormen (driehoeken) met een extra mate van transparantie, met randen in één kleur en ondoorzichtig erboven. |
+| [TRANSPARENT](#TRANSPARENT) | Toont getextureerde en verlichte geometrische vormen (driehoeken) met een extra transparantieniveau. |
+| [TRANSPARENT_BOUNDING_BOX](#TRANSPARENT-BOUNDING-BOX) | Toont de vlakken van de begrenzingsdozen van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt, met een extra transparantieniveau. |
+| [TRANSPARENT_BOUNDING_BOX_OUTLINE](#TRANSPARENT-BOUNDING-BOX-OUTLINE) | Toont de randen en vlakken van de begrenzingsdozen van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt, met een extra transparantieniveau. |
+| [TRANSPARENT_WIREFRAME](#TRANSPARENT-WIREFRAME) | Toont getextureerde en verlichte geometrische vormen (driehoeken) met een extra transparantieniveau, met ondoorzichtige randen in één kleur erboven. |
 | [VERTICES](#VERTICES) | Toont alleen vertices in één kleur. |
 | [WIREFRAME](#WIREFRAME) | Toont alleen randen in één kleur. |
 ## Methoden
@@ -68,7 +68,7 @@ public static final PdfRenderMode HIDDEN_WIREFRAME
 ```
 
 
-Toont randen in één kleur, maar verwijdert naar achteren gerichte en verduisterde randen.
+Toont randen in één kleur, maar verwijdert naar achteren gerichte en verborgen randen.
 
 ### ILLUSTRATION {#ILLUSTRATION}
 ```
@@ -76,7 +76,7 @@ public static final PdfRenderMode ILLUSTRATION
 ```
 
 
-Toont silhouetranden met oppervlakken, verwijdert verduisterde lijnen.
+Toont silhouetranden met oppervlakken, verwijdert verborgen lijnen.
 
 ### SHADED_ILLUSTRATION {#SHADED-ILLUSTRATION}
 ```
@@ -116,7 +116,7 @@ public static final PdfRenderMode SOLID_OUTLINE
 ```
 
 
-Toont silhouetranden met verlichte en getextureerde oppervlakken, verwijdert verduisterde lijnen.
+Toont silhouetranden met verlichte en getextureerde oppervlakken, verwijdert verborgen lijnen.
 
 ### SOLID_WIREFRAME {#SOLID-WIREFRAME}
 ```
@@ -132,7 +132,7 @@ public static final PdfRenderMode TRANSPARENT
 ```
 
 
-Toont getextureerde en verlichte geometrische vormen (driehoeken) met een extra mate van transparantie.
+Toont getextureerde en verlichte geometrische vormen (driehoeken) met een extra transparantieniveau.
 
 ### TRANSPARENT_BOUNDING_BOX {#TRANSPARENT-BOUNDING-BOX}
 ```
@@ -140,7 +140,7 @@ public static final PdfRenderMode TRANSPARENT_BOUNDING_BOX
 ```
 
 
-Toont de vlakken van de begrenzingsdozen van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt, met een extra mate van transparantie.
+Toont de vlakken van de begrenzingsdozen van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt, met een extra transparantieniveau.
 
 ### TRANSPARENT_BOUNDING_BOX_OUTLINE {#TRANSPARENT-BOUNDING-BOX-OUTLINE}
 ```
@@ -148,7 +148,7 @@ public static final PdfRenderMode TRANSPARENT_BOUNDING_BOX_OUTLINE
 ```
 
 
-Toont de randen en vlakken van de begrenzingsdozen van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt, met een extra mate van transparantie.
+Toont de randen en vlakken van de begrenzingsdozen van elk knooppunt, uitgelijnd met de assen van de lokale coördinatenruimte voor dat knooppunt, met een extra transparantieniveau.
 
 ### TRANSPARENT_WIREFRAME {#TRANSPARENT-WIREFRAME}
 ```
@@ -156,7 +156,7 @@ public static final PdfRenderMode TRANSPARENT_WIREFRAME
 ```
 
 
-Toont getextureerde en verlichte geometrische vormen (driehoeken) met een extra mate van transparantie, met randen in één kleur en ondoorzichtig erboven.
+Toont getextureerde en verlichte geometrische vormen (driehoeken) met een extra transparantieniveau, met ondoorzichtige randen in één kleur erboven.
 
 ### VERTICES {#VERTICES}
 ```

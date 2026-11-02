@@ -1,7 +1,7 @@
 ---
 title: "Rect"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een klasse om de rechthoek te vertegenwoordigen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een klasse om de rechthoek te vertegenwoordigen"
 type: docs
 weight: 144
 url: /nl/java/com.aspose.threed/rect/
@@ -16,19 +16,19 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class Rect implements Struct<Rect>, Serializable
 ```
 
-Een klasse om de rechthoek te vertegenwoordigen.
+Een klasse om de rechthoek te vertegenwoordigen
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | Constructor van de klasse [Rect](../../com.aspose.threed/rect). |
+| [Rect(int x, int y, int width, int height)](#Rect-int-int-int-int-) | Constructor van de klasse [Rect](../../com.aspose.threed/rect) |
 | [Rect()](#Rect--) |  |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [contains(int x, int y)](#contains-int-int-) | Retourneer true als het opgegeven punt zich binnen de rechthoek bevindt. |
+| [contains(int x, int y)](#contains-int-int-) | Retourneer true als het gegeven punt zich binnen de rechthoek bevindt. |
 | [copyFrom(Rect src)](#copyFrom-com.aspose.threed.Rect-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getBottom()](#getBottom--) | Haalt de onderkant van de rechthoek op |
@@ -57,7 +57,7 @@ public Rect(int x, int y, int width, int height)
 ```
 
 
-Constructor van de klasse [Rect](../../com.aspose.threed/rect).
+Constructor van de klasse [Rect](../../com.aspose.threed/rect)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -89,7 +89,7 @@ public boolean contains(int x, int y)
 ```
 
 
-Retourneer true als het opgegeven punt zich binnen de rechthoek bevindt.
+Retourneer true als het gegeven punt zich binnen de rechthoek bevindt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

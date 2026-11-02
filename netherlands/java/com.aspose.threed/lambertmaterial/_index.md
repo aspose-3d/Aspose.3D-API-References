@@ -1,7 +1,7 @@
 ---
 title: "LambertMaterial"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Materiaal voor het Lambert-shademodel."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Materiaal voor het Lambert-shadingmodel"
 type: docs
 weight: 92
 url: /nl/java/com.aspose.threed/lambertmaterial/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class LambertMaterial extends Material
 ```
 
-Materiaal voor het Lambert-shademodel.
+Materiaal voor het Lambert-shadingmodel
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -35,13 +35,13 @@ Materiaal voor het Lambert-shademodel.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getAmbientColor()](#getAmbientColor--) | Haalt de ambientkleur op |
+| [getAmbientColor()](#getAmbientColor--) | Haalt de ambientkleur op. |
 | [getClass()](#getClass--) |  |
-| [getDiffuseColor()](#getDiffuseColor--) | Haalt de diffuse kleur op |
-| [getEmissiveColor()](#getEmissiveColor--) | Haalt de emissieve kleur op |
+| [getDiffuseColor()](#getDiffuseColor--) | Haalt de diffuse kleur op. |
+| [getEmissiveColor()](#getEmissiveColor--) | Haalt de emissieve kleur op. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | Haalt de textuur op uit de opgegeven slot; dit kan de naam van een materiaaleigenschap of de naam van een shaderparameter zijn. |
 | [getTransparency()](#getTransparency--) | Haalt de transparantiefactor op. |
 | [getTransparentColor()](#getTransparentColor--) | Haalt de transparante kleur op. |
@@ -50,15 +50,15 @@ Materiaal voor het Lambert-shademodel.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setAmbientColor(Vector3 value)](#setAmbientColor-com.aspose.threed.Vector3-) | Stelt de ambientkleur in |
-| [setDiffuseColor(Vector3 value)](#setDiffuseColor-com.aspose.threed.Vector3-) | Stelt de diffuse kleur in |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Stelt de emissieve kleur in |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setAmbientColor(Vector3 value)](#setAmbientColor-com.aspose.threed.Vector3-) | Stelt de ambientkleur in. |
+| [setDiffuseColor(Vector3 value)](#setDiffuseColor-com.aspose.threed.Vector3-) | Stelt de diffuse kleur in. |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Stelt de emissieve kleur in. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Stelt de textuur in op de opgegeven slot |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Stelt de textuur in op de opgegeven slot. |
 | [setTransparency(double value)](#setTransparency-double-) | Stelt de transparantiefactor in. |
-| [setTransparentColor(Vector3 value)](#setTransparentColor-com.aspose.threed.Vector3-) | Stelt de transparante kleur in |
+| [setTransparentColor(Vector3 value)](#setTransparentColor-com.aspose.threed.Vector3-) | Stelt de transparante kleur in. |
 | [toString()](#toString--) | Formatteert object naar string |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -150,7 +150,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -160,7 +160,7 @@ public Vector3 getAmbientColor()
 ```
 
 
-Haalt de ambientkleur op
+Haalt de ambientkleur op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the ambient color
@@ -180,7 +180,7 @@ public Vector3 getDiffuseColor()
 ```
 
 
-Haalt de diffuse kleur op
+Haalt de diffuse kleur op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the diffuse color
@@ -190,7 +190,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-Haalt de emissieve kleur op
+Haalt de emissieve kleur op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color **Example:**
@@ -215,7 +215,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -225,12 +225,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -334,7 +334,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -349,7 +349,7 @@ public void setAmbientColor(Vector3 value)
 ```
 
 
-Stelt de ambientkleur in
+Stelt de ambientkleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -362,7 +362,7 @@ public void setDiffuseColor(Vector3 value)
 ```
 
 
-Stelt de diffuse kleur in
+Stelt de diffuse kleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -375,7 +375,7 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-Stelt de emissieve kleur in
+Stelt de emissieve kleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -406,12 +406,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setTexture(String slotName, TextureBase texture) {#setTexture-java.lang.String-com.aspose.threed.TextureBase-}
@@ -420,7 +420,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-Stelt de textuur in op de opgegeven slot
+Stelt de textuur in op de opgegeven slot.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -454,7 +454,7 @@ public void setTransparentColor(Vector3 value)
 ```
 
 
-Stelt de transparante kleur in
+Stelt de transparante kleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -470,7 +470,7 @@ public String toString()
 Formatteert object naar string
 
 **Returns:**
-java.lang.String - Objecttekenreeks
+java.lang.String - Objectstring
 ### wait() {#wait--}
 ```
 public final void wait()

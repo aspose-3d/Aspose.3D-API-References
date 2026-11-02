@@ -1,6 +1,6 @@
 ---
 title: "Vector2"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Een vector met twee componenten."
 type: docs
 weight: 201
@@ -38,21 +38,21 @@ Een vector met twee componenten.
 | --- | --- |
 | [add(Vector2 lhs, Vector2 rhs)](#add-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Additie-operator voor Vector2 |
 | [clone()](#clone--) |  |
-| [compareTo(Vector2 other)](#compareTo-com.aspose.threed.Vector2-) | Vergelijk de huidige vector met een ander exemplaar. |
+| [compareTo(Vector2 other)](#compareTo-com.aspose.threed.Vector2-) | Vergelijk de huidige vector met een andere instantie. |
 | [copyFrom(Vector2 src)](#copyFrom-com.aspose.threed.Vector2-) |  |
-| [create(Vector2 v)](#create-com.aspose.threed.Vector2-) | Expliciete conversie-operator om Vector2 naar FVector2 te casten. |
-| [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | Kruisproduct van twee vectoren |
-| [div(Vector2 lhs, double rhs)](#div-com.aspose.threed.Vector2-double-) | Delingsoperator voor Vector2. |
+| [create(Vector2 v)](#create-com.aspose.threed.Vector2-) | Expliciete conversie-operator om Vector2 naar FVector2 te casten |
+| [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | Kruisproduct van twee vectoren. |
+| [div(Vector2 lhs, double rhs)](#div-com.aspose.threed.Vector2-double-) | Delingsoperator voor Vector2 |
 | [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | Haalt het inproduct van twee vectoren op. |
-| [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | Controleer of twee vector2 gelijk zijn. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Controleer of twee vector2 gelijk zijn. |
+| [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | Controleer of twee vector2 gelijk zijn |
+| [equals(Object obj)](#equals-java.lang.Object-) | Controleer of twee vector2 gelijk zijn |
 | [getClass()](#getClass--) |  |
-| [getLength()](#getLength--) | Geeft de lengte terug. |
-| [getU()](#getU--) | Haalt de U-component op als de [Vector2](../../com.aspose.threed/vector2) wordt gebruikt als een mapping-coördinaat. |
-| [getV()](#getV--) | Haalt de V-component op als de [Vector2](../../com.aspose.threed/vector2) wordt gebruikt als een mapping-coördinaat. |
-| [hashCode()](#hashCode--) | Geeft de hashcode van Vector2 terug. |
-| [mul(Vector2 lhs, double rhs)](#mul-com.aspose.threed.Vector2-double-) | Multiplicatie-operator voor Vector2. |
-| [mul(double lhs, Vector2 rhs)](#mul-double-com.aspose.threed.Vector2-) | Multiplicatie-operator voor Vector2. |
+| [getLength()](#getLength--) | Haalt de lengte op. |
+| [getU()](#getU--) | Haalt de U-component op als de [Vector2](../../com.aspose.threed/vector2) wordt gebruikt als een mappingcoördinaat. |
+| [getV()](#getV--) | Haalt de V-component op als de [Vector2](../../com.aspose.threed/vector2) wordt gebruikt als een mappingcoördinaat. |
+| [hashCode()](#hashCode--) | Haalt de hashcode van Vector2 op |
+| [mul(Vector2 lhs, double rhs)](#mul-com.aspose.threed.Vector2-double-) | Multiplicatie-operator voor Vector2 |
+| [mul(double lhs, Vector2 rhs)](#mul-double-com.aspose.threed.Vector2-) | Multiplicatie-operator voor Vector2 |
 | [normalize()](#normalize--) | Normaliseert deze instantie. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -60,7 +60,7 @@ Een vector met twee componenten.
 | [op_ne(Vector2 lhs, Vector2 rhs)](#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Niet-gelijkheidsoperator voor Vector2 |
 | [setU(double value)](#setU-double-) | Stelt de U-component in als de [Vector2](../../com.aspose.threed/vector2) wordt gebruikt als een mappingcoördinaat. |
 | [setV(double value)](#setV-double-) | Stelt de V-component in als de [Vector2](../../com.aspose.threed/vector2) wordt gebruikt als een mappingcoördinaat. |
-| [sub(Vector2 lhs, Vector2 rhs)](#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Aftrekkingsoperator voor Vector2 |
+| [sub(Vector2 lhs, Vector2 rhs)](#sub-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Aftrekoperator voor Vector2 |
 | [toString()](#toString--) | Retourneert een java.lang.String die de huidige [Vector2](../../com.aspose.threed/vector2) vertegenwoordigt. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -151,7 +151,7 @@ Additie-operator voor Vector2
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerhandwaarde. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerkantwaarde. |
 | rhs | [Vector2](../../com.aspose.threed/vector2) | Rechterkantwaarde. |
 
 **Returns:**
@@ -172,7 +172,7 @@ public int compareTo(Vector2 other)
 ```
 
 
-Vergelijk de huidige vector met een ander exemplaar.
+Vergelijk de huidige vector met een andere instantie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -200,7 +200,7 @@ public static FVector2 create(Vector2 v)
 ```
 
 
-Expliciete conversie-operator om Vector2 naar FVector2 te casten.
+Expliciete conversie-operator om Vector2 naar FVector2 te casten
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -215,7 +215,7 @@ public double cross(Vector2 v)
 ```
 
 
-Kruisproduct van twee vectoren
+Kruisproduct van twee vectoren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -230,12 +230,12 @@ public static Vector2 div(Vector2 lhs, double rhs)
 ```
 
 
-Delingsoperator voor Vector2.
+Delingsoperator voor Vector2
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerhandwaarde. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerkantwaarde. |
 | rhs | double | Rechterkantwaarde. |
 
 **Returns:**
@@ -254,14 +254,14 @@ Haalt het inproduct van twee vectoren op.
 | rhs | [Vector2](../../com.aspose.threed/vector2) | Rechterkantwaarde. |
 
 **Returns:**
-double - Het dotproduct van de twee vectoren.
+double - Het inproduct van de twee vectoren.
 ### equals(Vector2 rhs) {#equals-com.aspose.threed.Vector2-}
 ```
 public boolean equals(Vector2 rhs)
 ```
 
 
-Controleer of twee vector2 gelijk zijn.
+Controleer of twee vector2 gelijk zijn
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -276,7 +276,7 @@ public boolean equals(Object obj)
 ```
 
 
-Controleer of twee vector2 gelijk zijn.
+Controleer of twee vector2 gelijk zijn
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -301,7 +301,7 @@ public double getLength()
 ```
 
 
-Geeft de lengte terug.
+Haalt de lengte op.
 
 **Returns:**
 double - de lengte.
@@ -331,7 +331,7 @@ public int hashCode()
 ```
 
 
-Geeft de hashcode van Vector2 terug.
+Haalt de hashcode van Vector2 op
 
 **Returns:**
 int - De hashcode van de [Vector2](../../com.aspose.threed/vector2)
@@ -341,12 +341,12 @@ public static Vector2 mul(Vector2 lhs, double rhs)
 ```
 
 
-Multiplicatie-operator voor Vector2.
+Multiplicatie-operator voor Vector2
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerhandwaarde. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerkantwaarde. |
 | rhs | double | Rechterkantwaarde. |
 
 **Returns:**
@@ -357,12 +357,12 @@ public static Vector2 mul(double lhs, Vector2 rhs)
 ```
 
 
-Multiplicatie-operator voor Vector2.
+Multiplicatie-operator voor Vector2
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | double | Linkerhandwaarde. |
+| lhs | double | Linkerkantwaarde. |
 | rhs | [Vector2](../../com.aspose.threed/vector2) | Rechterkantwaarde. |
 
 **Returns:**
@@ -404,7 +404,7 @@ Gelijkheidsoperator voor Vector2
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerhandwaarde. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerkantwaarde. |
 | rhs | [Vector2](../../com.aspose.threed/vector2) | Rechterkantwaarde. |
 
 **Returns:**
@@ -420,7 +420,7 @@ Niet-gelijkheidsoperator voor Vector2
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerhandwaarde. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerkantwaarde. |
 | rhs | [Vector2](../../com.aspose.threed/vector2) | Rechterkantwaarde. |
 
 **Returns:**
@@ -457,12 +457,12 @@ public static Vector2 sub(Vector2 lhs, Vector2 rhs)
 ```
 
 
-Aftrekkingsoperator voor Vector2
+Aftrekoperator voor Vector2
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerhandwaarde. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | Linkerkantwaarde. |
 | rhs | [Vector2](../../com.aspose.threed/vector2) | Rechterkantwaarde. |
 
 **Returns:**

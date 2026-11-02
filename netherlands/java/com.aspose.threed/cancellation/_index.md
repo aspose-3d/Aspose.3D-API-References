@@ -1,6 +1,6 @@
 ---
 title: "Annulering"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Deze klasse stelt je in staat om handmatig een laad-/opslagtaken te annuleren."
 type: docs
 weight: 29
@@ -23,7 +23,7 @@ Deze klasse stelt je in staat om handmatig een laad-/opslagtaken te annuleren.
 
 | Methode | Beschrijving |
 | --- | --- |
-| [cancel()](#cancel--) | Annuleer de laad-/opslagtaken |
+| [cancel()](#cancel--) | Annuleer de laad-/opslaattaak |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public void cancel()
 ```
 
 
-Annuleer de laad-/opslagtaken
+Annuleer de laad-/opslaattaak
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

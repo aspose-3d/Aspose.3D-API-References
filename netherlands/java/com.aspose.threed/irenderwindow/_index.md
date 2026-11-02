@@ -1,7 +1,7 @@
 ---
 title: "IRenderWindow"
-second_title: "Aspose.3D for Java API-referentie"
-description: "IRenderWindow vertegenwoordigt het native venster dat door het besturingssysteem wordt gecreëerd en rendering ondersteunt."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "IRenderWindow vertegenwoordigt het native venster dat door het besturingssysteem is gemaakt en rendering ondersteunt."
 type: docs
 weight: 251
 url: /nl/java/com.aspose.threed/irenderwindow/
@@ -13,4 +13,4 @@ url: /nl/java/com.aspose.threed/irenderwindow/
 public interface IRenderWindow extends IRenderTarget
 ```
 
-IRenderWindow vertegenwoordigt het native venster dat door het besturingssysteem wordt gecreëerd en rendering ondersteunt.
+IRenderWindow vertegenwoordigt het native venster dat door het besturingssysteem is gemaakt en rendering ondersteunt.

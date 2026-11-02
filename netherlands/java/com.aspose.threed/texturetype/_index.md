@@ -1,6 +1,6 @@
 ---
 title: "TextureType"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Het type van de"
 type: docs
 weight: 307
@@ -19,7 +19,7 @@ Het type van de [ITextureUnit](../../com.aspose.threed/itextureunit)
 | Veld | Beschrijving |
 | --- | --- |
 | [ARRAY2D](#ARRAY2D) | Meerdere sets van 2D-texturen |
-| [CUBE_MAP](#CUBE-MAP) | Cube‑maptextuur bevat 6 2D‑texturen |
+| [CUBE_MAP](#CUBE-MAP) | Cube map-textuur bevat 6 2D-texturen |
 | [TEXTURE1D](#TEXTURE1D) | 1-dimensionale textuur |
 | [TEXTURE2D](#TEXTURE2D) | 2-dimensionale textuur |
 | [TEXTURE3D](#TEXTURE3D) | 3-dimensionale textuur |
@@ -58,7 +58,7 @@ public static final TextureType CUBE_MAP
 ```
 
 
-Cube‑maptextuur bevat 6 2D‑texturen
+Cube map-textuur bevat 6 2D-texturen
 
 ### TEXTURE1D {#TEXTURE1D}
 ```

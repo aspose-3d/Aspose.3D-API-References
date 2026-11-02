@@ -1,7 +1,7 @@
 ---
 title: "FVector4"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een float-vector met vier componenten."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een floatvector met vier componenten."
 type: docs
 weight: 61
 url: /nl/java/com.aspose.threed/fvector4/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FVector4 implements Struct<FVector4>, Serializable
 ```
 
-Een float-vector met vier componenten.
+Een floatvector met vier componenten.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -32,7 +32,7 @@ Een float-vector met vier componenten.
 
 | Veld | Beschrijving |
 | --- | --- |
-| [w](#w) | De w‑component. |
+| [w](#w) | De w-component. |
 | [x](#x) | De x-component. |
 | [y](#y) | De y-component. |
 | [z](#z) | De z-component. |
@@ -43,7 +43,7 @@ Een float-vector met vier componenten.
 | [add(FVector4 lhs, FVector4 rhs)](#add-com.aspose.threed.FVector4-com.aspose.threed.FVector4-) | Operatoroverbelasting voor + |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector4 src)](#copyFrom-com.aspose.threed.FVector4-) |  |
-| [create(FVector4 v)](#create-com.aspose.threed.FVector4-) | Expliciete conversie‑operator om Vector4 te casten naar FVector4 |
+| [create(FVector4 v)](#create-com.aspose.threed.FVector4-) | Expliciete conversie‑operator om Vector4 naar FVector4 te casten. |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -66,10 +66,10 @@ Initialiseert een nieuw exemplaar van de [FVector4](../../com.aspose.threed/fvec
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| x | float | X‑component |
-| y | float | Y‑component |
-| z | float | Z‑component |
-| w | float | W‑component |
+| x | float | X-component |
+| y | float | Y-component |
+| z | float | Z-component |
+| w | float | W-component |
 
 ### FVector4(float x, float y, float z) {#FVector4-float-float-float-}
 ```
@@ -82,9 +82,9 @@ Initialiseert een nieuw exemplaar van de [FVector4](../../com.aspose.threed/fvec
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| x | float | X‑component |
-| y | float | Y‑component |
-| z | float | Z‑component |
+| x | float | X-component |
+| y | float | Y-component |
+| z | float | Z-component |
 
 ### FVector4(Color color) {#FVector4-java.awt.Color-}
 ```
@@ -151,7 +151,7 @@ public float w
 ```
 
 
-De w‑component.
+De w-component.
 
 ### x {#x}
 ```
@@ -188,8 +188,8 @@ Operatoroverbelasting voor +
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [FVector4](../../com.aspose.threed/fvector4) | De linker vector |
-| rhs | [FVector4](../../com.aspose.threed/fvector4) | De rechter vector |
+| lhs | [FVector4](../../com.aspose.threed/fvector4) | De linkervector |
+| rhs | [FVector4](../../com.aspose.threed/fvector4) | De rechtervector |
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4) - Result vector
@@ -222,7 +222,7 @@ public static Vector4 create(FVector4 v)
 ```
 
 
-Expliciete conversie‑operator om Vector4 te casten naar FVector4
+Expliciete conversie‑operator om Vector4 naar FVector4 te casten.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -277,8 +277,8 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [FVector4](../../com.aspose.threed/fvector4) | De linker vector |
-| rhs | [FVector4](../../com.aspose.threed/fvector4) | De rechter vector |
+| lhs | [FVector4](../../com.aspose.threed/fvector4) | De linkervector |
+| rhs | [FVector4](../../com.aspose.threed/fvector4) | De rechtervector |
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4) - Result vector
@@ -309,8 +309,8 @@ Operatoroverbelasting voor - (minus)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [FVector4](../../com.aspose.threed/fvector4) | De linker vector |
-| rhs | [FVector4](../../com.aspose.threed/fvector4) | De rechter vector |
+| lhs | [FVector4](../../com.aspose.threed/fvector4) | De linkervector |
+| rhs | [FVector4](../../com.aspose.threed/fvector4) | De rechtervector |
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4) - Result vector

@@ -1,6 +1,6 @@
 ---
 title: "PresetShaders"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Dit definieert de vooraf ingestelde interne shaders die door de renderer worden gebruikt."
 type: docs
 weight: 294

@@ -1,7 +1,7 @@
 ---
 title: "EntityRendererKey"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De sleutel van de geregistreerde entity renderer"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De sleutel van de geregistreerde entiteit-renderer"
 type: docs
 weight: 55
 url: /nl/java/com.aspose.threed/entityrendererkey/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class EntityRendererKey
 ```
 
-De sleutel van de geregistreerde entity renderer
+De sleutel van de geregistreerde entiteit-renderer
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -28,7 +28,7 @@ De sleutel van de geregistreerde entity renderer
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie op van de [EntityRendererKey](../../com.aspose.threed/entityrendererkey) |
+| [toString()](#toString--) | Haalt de stringrepresentatie van de [EntityRendererKey](../../com.aspose.threed/entityrendererkey) op |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -102,7 +102,7 @@ public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie op van de [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
+Haalt de stringrepresentatie van de [EntityRendererKey](../../com.aspose.threed/entityrendererkey) op
 
 **Returns:**
 java.lang.String

@@ -1,7 +1,7 @@
 ---
 title: "DummyFileSystem"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Lees-/schrijfbewerkingen zijn dummy-bewerkingen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Lees-/schrijfbewerkingen zijn dummybewerkingen."
 type: docs
 weight: 46
 url: /nl/java/com.aspose.threed/dummyfilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class DummyFileSystem extends FileSystem
 ```
 
-Lees-/schrijfbewerkingen zijn dummy-bewerkingen. **Voorbeeld:** De volgende code laat zien hoe een bestand naar het geheugen te exporteren, en alle afhankelijke bestandsgeneratie te negeren.
+Lees-/schrijfbewerkingen zijn dummybewerkingen. **Voorbeeld:** De volgende code laat zien hoe een bestand naar het geheugen te exporteren, en alle afhankelijke bestandsgeneratie te negeren.
 
 ```
 //create a scene with material
@@ -39,7 +39,7 @@ Lees-/schrijfbewerkingen zijn dummy-bewerkingen. **Voorbeeld:** De volgende code
 
 | Methode | Beschrijving |
 | --- | --- |
-| [close()](#close--) | Maak het bestandssysteem vrij en geef de bronnen vrij. |
+| [close()](#close--) | Dispose het bestandssysteem en geef de bronnen vrij. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -63,7 +63,7 @@ public void close()
 ```
 
 
-Maak het bestandssysteem vrij en geef de bronnen vrij.
+Dispose het bestandssysteem en geef de bronnen vrij.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

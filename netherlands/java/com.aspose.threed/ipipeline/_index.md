@@ -1,6 +1,6 @@
 ---
 title: "IPipeline"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De vooraf berekende reeks bewerkingen om te tekenen aan de GPU-kant."
 type: docs
 weight: 247

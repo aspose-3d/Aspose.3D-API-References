@@ -1,6 +1,6 @@
 ---
 title: "Light"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Het licht verlicht de scène."
 type: docs
 weight: 94
@@ -30,18 +30,18 @@ De formule om de totale demping van licht te berekenen is:  A = ConstantAttenuat
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
 | [getAspect()](#getAspect--) | Haalt de beeldverhouding van het frustum op |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
 | [getCastLight()](#getCastLight--) | Haalt op of de huidige Light‑instantie andere objecten kan verlichten. |
 | [getCastShadows()](#getCastShadows--) | Haalt op of het licht schaduwen kan werpen op andere objecten. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Haalt de kleur van het licht op |
 | [getConstantAttenuation()](#getConstantAttenuation--) | Haalt de constante demping op om de totale demping van het licht te berekenen |
 | [getDirection()](#getDirection--) | Haalt de richting op waar de camera naar kijkt. |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getFalloff()](#getFalloff--) | Haalt de afschuifhoek van de kegel op (in graden). |
 | [getFarPlane()](#getFarPlane--) | Haalt de afstand tot het verre vlak van het frustum op. |
-| [getHotSpot()](#getHotSpot--) | Haalt de kegelhoek van de hotspot op (in graden). |
+| [getHotSpot()](#getHotSpot--) | Haalt de hoek van de hot spot kegel op (in graden). |
 | [getIntensity()](#getIntensity--) | Haalt de intensiteit van het licht op, standaardwaarde is 100 |
 | [getLightType()](#getLightType--) | Haalt het type van het licht op |
 | [getLinearAttenuation()](#getLinearAttenuation--) | Haalt de lineaire demping op om de totale demping van het licht te berekenen |
@@ -49,45 +49,45 @@ De formule om de totale demping van licht te berekenen is:  A = ConstantAttenuat
 | [getName()](#getName--) | Haalt de naam op. |
 | [getNearPlane()](#getNearPlane--) | Haalt de afstand van het nabijvlak van de frustum op. |
 | [getOrthoHeight()](#getOrthoHeight--) | Haalt de hoogte op wanneer de frustum in orthografische projectie staat. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getQuadraticAttenuation()](#getQuadraticAttenuation--) | Haalt de kwadratische demping op om de totale demping van het licht te berekenen |
 | [getRotationMode()](#getRotationMode--) | Haalt de oriëntatiemodus van de frustum op. Deze eigenschap werkt alleen wanneer de [getTarget](../../com.aspose.threed/frustum\#getTarget) null is. |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [getShadowColor()](#getShadowColor--) | Haalt de kleur van de schaduw op. |
 | [getTarget()](#getTarget--) | Haalt het doel op waar de camera naar kijkt. |
-| [getUp()](#getUp--) | Haalt de opwaartse richting van de camera op. |
+| [getUp()](#getUp--) | Haalt de opwaartse richting van de camera op |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setAspect(double value)](#setAspect-double-) | Stelt de beeldverhouding van de frustum in |
 | [setCastLight(boolean value)](#setCastLight-boolean-) | Stelt in of de huidige lichtinstantie andere objecten kan verlichten. |
 | [setCastShadows(boolean value)](#setCastShadows-boolean-) | Stelt in of het licht schaduwen kan werpen op andere objecten. |
 | [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | Stelt de kleur van het licht in |
 | [setConstantAttenuation(double value)](#setConstantAttenuation-double-) | Stelt de constante demping in om de totale demping van het licht te berekenen |
 | [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | Stelt de richting in waar de camera naar kijkt. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
-| [setFalloff(double value)](#setFalloff-double-) | Stelt de afnemingskegelhoek in (in graden). |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
+| [setFalloff(double value)](#setFalloff-double-) | Stelt de afnemingshoek van de kegel in (in graden). |
 | [setFarPlane(double value)](#setFarPlane-double-) | Stelt de afstand van het verre vlak van de frustum in. |
-| [setHotSpot(double value)](#setHotSpot-double-) | Stelt de kegelhoek van de hotspot in (in graden). |
+| [setHotSpot(double value)](#setHotSpot-double-) | Stelt de hoek van de hot spot kegel in (in graden). |
 | [setIntensity(double value)](#setIntensity-double-) | Stelt de intensiteit van het licht in, standaardwaarde is 100 |
 | [setLightType(LightType value)](#setLightType-com.aspose.threed.LightType-) | Stelt het type van het licht in |
 | [setLinearAttenuation(double value)](#setLinearAttenuation-double-) | Stelt de lineaire demping in om de totale demping van het licht te berekenen |
 | [setLookAt(Vector3 value)](#setLookAt-com.aspose.threed.Vector3-) | Stelt de geïnteresseerde positie in waar de camera naar kijkt. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setNearPlane(double value)](#setNearPlane-double-) | Stelt de afstand van de near plane van de frustum in. |
+| [setNearPlane(double value)](#setNearPlane-double-) | Stelt de afstand van het nabijvlak van de frustum in. |
 | [setOrthoHeight(double value)](#setOrthoHeight-double-) | Stelt de hoogte in wanneer de frustum zich in orthografische projectie bevindt. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setQuadraticAttenuation(double value)](#setQuadraticAttenuation-double-) | Stelt de kwadratische demping in om de totale demping van het licht te berekenen |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setQuadraticAttenuation(double value)](#setQuadraticAttenuation-double-) | Stelt de kwadratische demping in om de totale demping van het licht te berekenen. |
 | [setRotationMode(RotationMode value)](#setRotationMode-com.aspose.threed.RotationMode-) | Stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer de [getTarget](../../com.aspose.threed/frustum\#getTarget) null is. |
 | [setShadowColor(Vector3 value)](#setShadowColor-com.aspose.threed.Vector3-) | Stelt de kleur van de schaduw in. |
 | [setTarget(Node value)](#setTarget-com.aspose.threed.Node-) | Stelt het doel in waar de camera naar kijkt. |
-| [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | Stelt de opwaartse richting van de camera in |
+| [setUp(Vector3 value)](#setUp-com.aspose.threed.Vector3-) | Stelt de opwaartse richting van de camera in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -153,7 +153,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -173,7 +173,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -203,7 +203,7 @@ public boolean getCastShadows()
 Haalt op of het licht schaduwen kan werpen op andere objecten.
 
 **Returns:**
-boolean - of het licht schaduwen kan werpen op andere objecten.
+boolean - of het licht schaduwen op andere objecten kan werpen.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -240,7 +240,7 @@ public Vector3 getDirection()
 ```
 
 
-Haalt de richting op waar de camera naar kijkt. Wijzigingen in deze eigenschap zullen ook de [getLookAt](../../com.aspose.threed/frustum\#getLookAt) en [getTarget](../../com.aspose.threed/frustum\#getTarget) beïnvloeden.
+Haalt de richting op waar de camera naar kijkt. Wijzigingen in deze eigenschap beïnvloeden ook de [getLookAt](../../com.aspose.threed/frustum\#getLookAt) en [getTarget](../../com.aspose.threed/frustum\#getTarget).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the direction that the camera is looking at. Changes on this property will also affects the [getLookAt](../../com.aspose.threed/frustum\#getLookAt) and [getTarget](../../com.aspose.threed/frustum\#getTarget).
@@ -250,7 +250,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -260,10 +260,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getFalloff() {#getFalloff--}
 ```
 public double getFalloff()
@@ -283,14 +283,14 @@ public double getFarPlane()
 Haalt de afstand tot het verre vlak van het frustum op.
 
 **Returns:**
-double - de afstand van het far plane van de frustum.
+double - de afstand van het verafgelegen vlak van de frustum.
 ### getHotSpot() {#getHotSpot--}
 ```
 public double getHotSpot()
 ```
 
 
-Haalt de kegelhoek van de hotspot op (in graden).
+Haalt de hoek van de hot spot kegel op (in graden).
 
 **Returns:**
 double - de hoek van de hotspotkegel (in graden).
@@ -353,7 +353,7 @@ public double getNearPlane()
 Haalt de afstand van het nabijvlak van de frustum op.
 
 **Returns:**
-double - de afstand van het near plane van de frustum.
+double - de afstand van het nabijvlak van de frustum.
 ### getOrthoHeight() {#getOrthoHeight--}
 ```
 public double getOrthoHeight()
@@ -370,7 +370,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -380,7 +380,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -390,7 +390,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -400,12 +400,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -435,7 +435,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -455,7 +455,7 @@ public Node getTarget()
 ```
 
 
-Haalt het doel op waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de [getLookAt](../../com.aspose.threed/frustum\#getLookAt) eigenschap komen.
+Haalt het doel op waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de eigenschap [getLookAt](../../com.aspose.threed/frustum\#getLookAt) komen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the target that the camera is looking at. If the user supports this property, it should be prior to [getLookAt](../../com.aspose.threed/frustum\#getLookAt) property.
@@ -465,7 +465,7 @@ public Vector3 getUp()
 ```
 
 
-Haalt de opwaartse richting van de camera op.
+Haalt de opwaartse richting van de camera op
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the up direction of the camera
@@ -516,7 +516,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -596,7 +596,7 @@ public void setDirection(Vector3 value)
 ```
 
 
-Stelt de richting in waar de camera naar kijkt. Wijzigingen in deze eigenschap zullen ook de [getLookAt](../../com.aspose.threed/frustum\#getLookAt) en [getTarget](../../com.aspose.threed/frustum\#getTarget) beïnvloeden.
+Stelt de richting in waar de camera naar kijkt. Wijzigingen in deze eigenschap beïnvloeden ook de [getLookAt](../../com.aspose.threed/frustum\#getLookAt) en [getTarget](../../com.aspose.threed/frustum\#getTarget).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -609,7 +609,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -622,7 +622,7 @@ public void setFalloff(double value)
 ```
 
 
-Stelt de afnemingskegelhoek in (in graden).
+Stelt de afnemingshoek van de kegel in (in graden).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -648,7 +648,7 @@ public void setHotSpot(double value)
 ```
 
 
-Stelt de kegelhoek van de hotspot in (in graden).
+Stelt de hoek van de hot spot kegel in (in graden).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -726,7 +726,7 @@ public void setNearPlane(double value)
 ```
 
 
-Stelt de afstand van de near plane van de frustum in.
+Stelt de afstand van het nabijvlak van de frustum in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -752,7 +752,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -765,12 +765,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setQuadraticAttenuation(double value) {#setQuadraticAttenuation-double-}
@@ -779,7 +779,7 @@ public void setQuadraticAttenuation(double value)
 ```
 
 
-Stelt de kwadratische demping in om de totale demping van het licht te berekenen
+Stelt de kwadratische demping in om de totale demping van het licht te berekenen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -818,7 +818,7 @@ public void setTarget(Node value)
 ```
 
 
-Stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de eigenschap [getLookAt](../../com.aspose.threed/frustum\#getLookAt) staan.
+Stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de [getLookAt](../../com.aspose.threed/frustum\#getLookAt) eigenschap staan.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -831,7 +831,7 @@ public void setUp(Vector3 value)
 ```
 
 
-Stelt de opwaartse richting van de camera in
+Stelt de opwaartse richting van de camera in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

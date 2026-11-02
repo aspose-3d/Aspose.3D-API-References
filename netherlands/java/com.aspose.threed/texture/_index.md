@@ -1,7 +1,7 @@
 ---
 title: "Textuur"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Deze klasse definieert de textuur uit een extern bestand."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Deze klasse definieert de textuur vanuit een extern bestand."
 type: docs
 weight: 184
 url: /nl/java/com.aspose.threed/texture/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Texture extends TextureBase
 ```
 
-Deze klasse definieert de textuur uit een extern bestand.
+Deze klasse definieert de textuur vanuit een extern bestand.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -27,47 +27,47 @@ Deze klasse definieert de textuur uit een extern bestand.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
 | [getAlpha()](#getAlpha--) | Haalt de standaard alfa-waarde van de textuur op. Dit is geldig wanneer de [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) is [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) Standaardwaarde is 1.0, geldig bereik is tussen 0 en 1. |
-| [getAlphaSource()](#getAlphaSource--) | Geeft aan of de textuur het alfac kanaal definieert. |
+| [getAlphaSource()](#getAlphaSource--) | Haalt op of de textuur het alphakanaal definieert. |
 | [getClass()](#getClass--) |  |
 | [getContent()](#getContent--) | Haalt de binaire inhoud van de textuur op. |
-| [getEnableMipMap()](#getEnableMipMap--) | Geeft aan of de mipmap is ingeschakeld voor deze textuur. |
+| [getEnableMipMap()](#getEnableMipMap--) | Haalt op of de mipmap voor deze textuur is ingeschakeld. |
 | [getFileName()](#getFileName--) | Haalt het gekoppelde textuurbestand op. |
 | [getMagFilter()](#getMagFilter--) | Haalt het filter voor vergroting op. |
 | [getMinFilter()](#getMinFilter--) | Haalt het filter voor verkleining op. |
 | [getMipFilter()](#getMipFilter--) | Haalt het filter voor mip-niveau sampling op. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getUVRotation()](#getUVRotation--) | Haalt de rotatie van de textuur op. |
 | [getUVScale()](#getUVScale--) | Haalt de UV-schaal op. |
 | [getUVTranslation()](#getUVTranslation--) | Haalt de UV-translatie op. |
-| [getWrapModeU()](#getWrapModeU--) | Haalt de textuur wrap-modi op in U. |
-| [getWrapModeV()](#getWrapModeV--) | Haalt de textuur wrap-modi op in V. |
-| [getWrapModeW()](#getWrapModeW--) | Haalt de textuur wrap-modi op in W. |
+| [getWrapModeU()](#getWrapModeU--) | Haalt de textuur wrap-modi in U op. |
+| [getWrapModeV()](#getWrapModeV--) | Haalt de textuur wrap-modi in V op. |
+| [getWrapModeW()](#getWrapModeW--) | Haalt de textuur wrap-modi in W op. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setAlpha(double value)](#setAlpha-double-) | Stelt de standaard alfa-waarde van de textuur in. Dit is geldig wanneer de [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) is [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) Standaardwaarde is 1.0, geldig bereik is tussen 0 en 1. |
-| [setAlphaSource(AlphaSource value)](#setAlphaSource-com.aspose.threed.AlphaSource-) | Stelt in of de textuur het alfac kanaal definieert. |
+| [setAlphaSource(AlphaSource value)](#setAlphaSource-com.aspose.threed.AlphaSource-) | Stelt in of de textuur het alphakanaal definieert. |
 | [setContent(byte[] value)](#setContent-byte---) | Stelt de binaire inhoud van de textuur in. |
-| [setEnableMipMap(boolean value)](#setEnableMipMap-boolean-) | Stelt in of de mipmap is ingeschakeld voor deze textuur |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Stelt het gekoppelde textuurbestand in. |
+| [setEnableMipMap(boolean value)](#setEnableMipMap-boolean-) | Stelt in of de mipmap is ingeschakeld voor deze textuur. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Stelt het bijbehorende textuurbestand in. |
 | [setMagFilter(TextureFilter value)](#setMagFilter-com.aspose.threed.TextureFilter-) | Stelt het filter voor vergroting in. |
 | [setMinFilter(TextureFilter value)](#setMinFilter-com.aspose.threed.TextureFilter-) | Stelt het filter voor verkleining in. |
 | [setMipFilter(TextureFilter value)](#setMipFilter-com.aspose.threed.TextureFilter-) | Stelt het filter voor mip-niveau sampling in. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [setRotation(double u, double v)](#setRotation-double-double-) | Stelt de UV-rotatie in. |
 | [setScale(double u, double v)](#setScale-double-double-) | Stelt de UV-schaal in. |
 | [setTranslation(double u, double v)](#setTranslation-double-double-) | Stelt de UV-translatie in. |
-| [setUVRotation(Vector3 value)](#setUVRotation-com.aspose.threed.Vector3-) | Stelt de rotatie van de textuur in |
+| [setUVRotation(Vector3 value)](#setUVRotation-com.aspose.threed.Vector3-) | Stelt de rotatie van de textuur in. |
 | [setUVScale(Vector2 value)](#setUVScale-com.aspose.threed.Vector2-) | Stelt de UV-schaal in. |
 | [setUVTranslation(Vector2 value)](#setUVTranslation-com.aspose.threed.Vector2-) | Stelt de UV-translatie in. |
-| [setWrapModeU(WrapMode value)](#setWrapModeU-com.aspose.threed.WrapMode-) | Stelt de textuur-wrappingmodi in U in. |
-| [setWrapModeV(WrapMode value)](#setWrapModeV-com.aspose.threed.WrapMode-) | Stelt de textuur-wrappingmodi in V in. |
-| [setWrapModeW(WrapMode value)](#setWrapModeW-com.aspose.threed.WrapMode-) | Stelt de textuur-wrappingmodi in W in. |
+| [setWrapModeU(WrapMode value)](#setWrapModeU-com.aspose.threed.WrapMode-) | Stelt de wrap-modus van de textuur in U in. |
+| [setWrapModeV(WrapMode value)](#setWrapModeV-com.aspose.threed.WrapMode-) | Stelt de wrap-modus van de textuur in V in. |
+| [setWrapModeW(WrapMode value)](#setWrapModeW-com.aspose.threed.WrapMode-) | Stelt de wrap-modus van de textuur in W in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -132,14 +132,14 @@ public double getAlpha()
 Haalt de standaard alfa-waarde van de textuur op. Dit is geldig wanneer de [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) is [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) Standaardwaarde is 1.0, geldig bereik is tussen 0 en 1.
 
 **Returns:**
-double - de standaard alfa-waarde van de textuur. Dit is geldig wanneer de [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) is [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA). Standaardwaarde is 1.0, geldig bereik is tussen 0 en 1.
+double - de standaard alfa-waarde van de textuur Dit is geldig wanneer de [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) is [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) Standaardwaarde is 1.0, geldig bereik is tussen 0 en 1
 ### getAlphaSource() {#getAlphaSource--}
 ```
 public AlphaSource getAlphaSource()
 ```
 
 
-Haalt op of de textuur het alfa-kanaal definieert. Standaardwaarde is [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE).
+Geeft aan of de textuur het alfac kanaal definieert. Standaardwaarde is [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE)
 
 **Returns:**
 [AlphaSource](../../com.aspose.threed/alphasource) - whether the texture defines the alpha channel. Default value is [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE)
@@ -159,17 +159,17 @@ public byte[] getContent()
 ```
 
 
-Haalt de binaire inhoud van de textuur op. De ingebedde textuurinhoud is optioneel; de gebruiker moet de textuur uit een extern bestand laden als deze ontbreekt.
+Haalt de binaire inhoud van de textuur op. De ingebedde textuurinhoud is optioneel, de gebruiker moet de textuur laden vanuit een extern bestand als deze ontbreekt.
 
 **Returns:**
-byte[] - de binaire inhoud van de textuur. De ingebedde textuurinhoud is optioneel; de gebruiker moet de textuur uit een extern bestand laden als deze ontbreekt.
+byte[] - de binaire inhoud van de textuur. De ingebedde textuurinhoud is optioneel, de gebruiker moet de textuur laden vanuit een extern bestand als deze ontbreekt.
 ### getEnableMipMap() {#getEnableMipMap--}
 ```
 public boolean getEnableMipMap()
 ```
 
 
-Geeft aan of de mipmap is ingeschakeld voor deze textuur.
+Haalt op of de mipmap voor deze textuur is ingeschakeld.
 
 **Returns:**
 boolean - of de mipmap is ingeschakeld voor deze textuur
@@ -182,7 +182,7 @@ public String getFileName()
 Haalt het gekoppelde textuurbestand op.
 
 **Returns:**
-java.lang.String - het gekoppelde textuurbestand.
+java.lang.String - het bijbehorende textuurbestand.
 ### getMagFilter() {#getMagFilter--}
 ```
 public TextureFilter getMagFilter()
@@ -229,7 +229,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -239,12 +239,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -284,7 +284,7 @@ public WrapMode getWrapModeU()
 ```
 
 
-Haalt de textuur wrap-modi op in U.
+Haalt de textuur wrap-modi in U op.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the texture wrap modes in U.
@@ -294,7 +294,7 @@ public WrapMode getWrapModeV()
 ```
 
 
-Haalt de textuur wrap-modi op in V.
+Haalt de textuur wrap-modi in V op.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the texture wrap modes in V.
@@ -304,7 +304,7 @@ public WrapMode getWrapModeW()
 ```
 
 
-Haalt de textuur wrap-modi op in W.
+Haalt de textuur wrap-modi in W op.
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the texture wrap modes in W.
@@ -355,7 +355,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -383,7 +383,7 @@ public void setAlphaSource(AlphaSource value)
 ```
 
 
-Stelt in of de textuur het alfa-kanaal definieert. Standaardwaarde is [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE).
+Stelt in of de textuur het alfac kanaal definieert. Standaardwaarde is [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -396,7 +396,7 @@ public void setContent(byte[] value)
 ```
 
 
-Stelt de binaire inhoud van de textuur in. De ingebedde textuurinhoud is optioneel; de gebruiker moet de textuur uit een extern bestand laden als deze ontbreekt.
+Stelt de binaire inhoud van de textuur in. De ingebedde textuurinhoud is optioneel, de gebruiker moet de textuur laden vanuit een extern bestand als deze ontbreekt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -409,7 +409,7 @@ public void setEnableMipMap(boolean value)
 ```
 
 
-Stelt in of de mipmap is ingeschakeld voor deze textuur
+Stelt in of de mipmap is ingeschakeld voor deze textuur.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -422,7 +422,7 @@ public void setFileName(String value)
 ```
 
 
-Stelt het gekoppelde textuurbestand in.
+Stelt het bijbehorende textuurbestand in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -487,12 +487,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setRotation(double u, double v) {#setRotation-double-double-}
@@ -543,7 +543,7 @@ public void setUVRotation(Vector3 value)
 ```
 
 
-Stelt de rotatie van de textuur in
+Stelt de rotatie van de textuur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -582,7 +582,7 @@ public void setWrapModeU(WrapMode value)
 ```
 
 
-Stelt de textuur-wrappingmodi in U in.
+Stelt de wrap-modus van de textuur in U in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -595,7 +595,7 @@ public void setWrapModeV(WrapMode value)
 ```
 
 
-Stelt de textuur-wrappingmodi in V in.
+Stelt de wrap-modus van de textuur in V in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -608,7 +608,7 @@ public void setWrapModeW(WrapMode value)
 ```
 
 
-Stelt de textuur-wrappingmodi in W in.
+Stelt de wrap-modus van de textuur in W in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

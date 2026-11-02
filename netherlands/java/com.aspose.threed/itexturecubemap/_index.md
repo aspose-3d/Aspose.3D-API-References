@@ -1,6 +1,6 @@
 ---
 title: "ITextureCubemap"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Cube map-textuur"
 type: docs
 weight: 255
@@ -19,12 +19,12 @@ Cube map-textuur
 | Methode | Beschrijving |
 | --- | --- |
 | [load(CubeFace face, TextureData data)](#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | Laad de gegevens in het opgegeven vlak |
-| [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Laad textuurinhoud van opgegeven [TextureData](../../com.aspose.threed/texturedata) |
+| [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Laad textuurinhoud van de opgegeven [TextureData](../../com.aspose.threed/texturedata) |
 | [loadFromFiles(CubeFaceData<String> fileNames)](#loadFromFiles-com.aspose.threed.CubeFaceData-java.lang.String--) | Laad textuurinhoud van opgegeven bestanden |
 | [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | Sla de opgegeven zijde op in het geheugen |
 | [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | Sla de textuurinhoud op in het geheugen. |
 | [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | Sla de textuurinhoud van de zijden van de kubus op in externe bestanden. |
-| [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | Converteer de texture‑eenheid naar een [TextureData](../../com.aspose.threed/texturedata) instantie |
+| [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | Converteer de texture-eenheid naar [TextureData](../../com.aspose.threed/texturedata) instantie |
 ### load(CubeFace face, TextureData data) {#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-}
 ```
 public abstract void load(CubeFace face, TextureData data)
@@ -45,7 +45,7 @@ public abstract void load(CubeFaceData<TextureData> data)
 ```
 
 
-Laad textuurinhoud van opgegeven [TextureData](../../com.aspose.threed/texturedata)
+Laad textuurinhoud van de opgegeven [TextureData](../../com.aspose.threed/texturedata)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -90,7 +90,7 @@ Sla de textuurinhoud op in het geheugen.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| bitmap | com.aspose.threed.CubeFaceData<com.aspose.threed.TextureData> | Resultaatbitmap om op te slaan. |
+| bitmap | com.aspose.threed.CubeFaceData<com.aspose.threed.TextureData> | Resultaat-bitmap om op te slaan. |
 
 ### save(CubeFaceData<String> path, String format) {#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-}
 ```
@@ -112,7 +112,7 @@ public abstract TextureData toBitmap(CubeFace side)
 ```
 
 
-Converteer de texture‑eenheid naar een [TextureData](../../com.aspose.threed/texturedata) instantie
+Converteer de texture-eenheid naar [TextureData](../../com.aspose.threed/texturedata) instantie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

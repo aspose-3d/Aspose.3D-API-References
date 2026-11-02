@@ -1,6 +1,6 @@
 ---
 title: "SPIRVSource"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De gecompileerde shader in SPIR-V-formaat."
 type: docs
 weight: 159
@@ -94,7 +94,7 @@ public byte[] getFragmentShader()
 Haalt de broncode op van de fragment shader.
 
 **Returns:**
-byte[] - de broncode van de fragment shader.
+byte[] - de broncode van de fragmentshader.
 ### getGeometryShader() {#getGeometryShader--}
 ```
 public byte[] getGeometryShader()
@@ -104,7 +104,7 @@ public byte[] getGeometryShader()
 Haalt de broncode op van de geometry shader.
 
 **Returns:**
-byte[] - de broncode van de geometry shader.
+byte[] - de broncode van de geometryshader.
 ### getMaximumDescriptorSets() {#getMaximumDescriptorSets--}
 ```
 public int getMaximumDescriptorSets()
@@ -114,7 +114,7 @@ public int getMaximumDescriptorSets()
 Maximum descriptor sets, standaardwaarde is 10
 
 **Returns:**
-int - Maximale descriptor sets, standaardwaarde is 10
+int - Maximale descriptorsets, standaardwaarde is 10
 ### getVertexShader() {#getVertexShader--}
 ```
 public byte[] getVertexShader()
@@ -124,7 +124,7 @@ public byte[] getVertexShader()
 Haalt de broncode op van de vertex shader
 
 **Returns:**
-byte[] - de broncode van de vertex shader
+byte[] - de broncode van de vertexshader
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

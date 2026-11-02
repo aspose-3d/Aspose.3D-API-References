@@ -1,7 +1,7 @@
 ---
 title: "AnimationNode"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Aspose.3Ds ondersteunt animatiehiërarchie; elke animatie kan worden samengesteld uit meerdere animaties en animatie‑key-frame‑definities."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Aspose.3Ds ondersteunt animatiehiërarchie; elke animatie kan worden samengesteld uit meerdere animaties en animatie‑keyframe‑definities."
 type: docs
 weight: 15
 url: /nl/java/com.aspose.threed/animationnode/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationNode extends A3DObject
 ```
 
-Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld uit meerdere animaties en de key-frame-definitie van animaties. [AnimationNode](../../com.aspose.threed/animationnode) definieert de transformatie van een eigenschapswaarde in de tijd; bijvoorbeeld, een animatienode kan worden gebruikt om de transformatie van een knoop of andere numerieke eigenschappen van een [A3DObject](../../com.aspose.threed/a3dobject) object te regelen.
+Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld uit meerdere animaties en de keyframe‑definitie van een animatie. [AnimationNode](../../com.aspose.threed/animationnode) definieert de transformatie van een eigenschapswaarde in de tijd; bijvoorbeeld kan een animatienode worden gebruikt om de transformatie van een knoop of andere numerieke eigenschappen van een [A3DObject](../../com.aspose.threed/a3dobject) object te regelen.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -32,18 +32,18 @@ Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld
 | [getBindPoints()](#getBindPoints--) | Haalt de huidige eigenschap‑bindpunten op. |
 | [getClass()](#getClass--) |  |
 | [getKeyframeSequence(A3DObject target, String propName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-boolean-) | Haalt de keyframe‑reeks op voor de opgegeven eigenschap. |
-| [getKeyframeSequence(A3DObject target, String propName, String channelName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-java.lang.String-boolean-) | Haalt de keyframe‑reeks op voor de opgegeven eigenschap en kanaal. |
+| [getKeyframeSequence(A3DObject target, String propName, String channelName, boolean create)](#getKeyframeSequence-com.aspose.threed.A3DObject-java.lang.String-java.lang.String-boolean-) | Haalt de keyframe-reeks op voor de opgegeven eigenschap en kanaal. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getSubAnimations()](#getSubAnimations--) | Haalt de sub‑animatienodes op onder de huidige animaties |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -81,7 +81,7 @@ Maakt een BindPoint aan op basis van het gegevenstype van de eigenschap.
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | obj | [A3DObject](../../com.aspose.threed/a3dobject) | Object. |
-| propName | java.lang.String | Eigenschapnaam. |
+| propName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [BindPoint](../../com.aspose.threed/bindpoint) - The bind point instance or null if the property is not defined.
@@ -127,7 +127,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -157,7 +157,7 @@ public List<BindPoint> getBindPoints()
 Haalt de huidige eigenschap‑bindpunten op.
 
 **Returns:**
-java.util.List<com.aspose.threed.BindPoint> - de huidige bindpunten van de eigenschap
+java.util.List<com.aspose.threed.BindPoint> - de huidige eigenschap‑bindpunten
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -191,14 +191,14 @@ public KeyframeSequence getKeyframeSequence(A3DObject target, String propName, S
 ```
 
 
-Haalt de keyframe‑reeks op voor de opgegeven eigenschap en kanaal.
+Haalt de keyframe-reeks op voor de opgegeven eigenschap en kanaal.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | target | [A3DObject](../../com.aspose.threed/a3dobject) | Op welke instantie de keyframe‑reeks moet worden aangemaakt. |
 | propName | java.lang.String | De naam van de eigenschap. |
-| channelName | java.lang.String | De naam van het kanaal. |
+| channelName | java.lang.String | De kanaalnaam. |
 | maken | boolean | Indien ingesteld op  true  maak de animatiereeks aan als deze niet bestaat. |
 
 **Returns:**
@@ -219,7 +219,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -229,12 +229,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -295,7 +295,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -323,12 +323,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}

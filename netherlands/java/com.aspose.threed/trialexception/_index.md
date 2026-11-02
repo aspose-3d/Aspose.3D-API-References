@@ -1,7 +1,7 @@
 ---
 title: "TrialException"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Dit wordt opgeworpen in Scene.Open/Scene.Save wanneer er geen licenties zijn toegepast."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Dit wordt opgegooid in Scene.Open/Scene.Save wanneer er geen licenties zijn toegepast."
 type: docs
 weight: 195
 url: /nl/java/com.aspose.threed/trialexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class TrialException extends RuntimeException
 ```
 
-Dit wordt opgegooid in Scene.Open/Scene.Save wanneer er geen licenties zijn toegepast. Je kunt deze uitzondering uitschakelen door SuppressTrialException op true te zetten.
+Dit wordt opgegeven in Scene.Open/Scene.Save wanneer er geen licenties zijn toegepast. Je kunt deze uitzondering uitschakelen door SuppressTrialException op true te zetten.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -32,7 +32,7 @@ Dit wordt opgegooid in Scene.Open/Scene.Save wanneer er geen licenties zijn toeg
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
-| [getSuppressTrialException()](#getSuppressTrialException--) | Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. |
+| [getSuppressTrialException()](#getSuppressTrialException--) | Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongelicentieerd gebruik, maar de beperkingen worden niet opgeheven. |
 | [getSuppressed()](#getSuppressed--) |  |
 | [hashCode()](#hashCode--) |  |
 | [initCause(Throwable arg0)](#initCause-java.lang.Throwable-) |  |
@@ -42,7 +42,7 @@ Dit wordt opgegooid in Scene.Open/Scene.Save wanneer er geen licenties zijn toeg
 | [printStackTrace(PrintStream arg0)](#printStackTrace-java.io.PrintStream-) |  |
 | [printStackTrace(PrintWriter arg0)](#printStackTrace-java.io.PrintWriter-) |  |
 | [setStackTrace(StackTraceElement[] arg0)](#setStackTrace-java.lang.StackTraceElement---) |  |
-| [setSuppressTrialException(boolean value)](#setSuppressTrialException-boolean-) | Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. |
+| [setSuppressTrialException(boolean value)](#setSuppressTrialException-boolean-) | Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongelicentieerd gebruik, maar de beperkingen worden niet opgeheven. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -162,10 +162,10 @@ public static boolean getSuppressTrialException()
 ```
 
 
-Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik een geldige licentie. En dit op true zetten betekent ook dat je je bewust bent van de ongeautoriseerde beperkingen.
+Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongelicentieerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik een geldige licentie. En dit op true zetten betekent ook dat je je bewust bent van de ongelicentieerde beperkingen.
 
 **Returns:**
-boolean - Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik een geldige licentie. En dit op true zetten betekent ook dat je je bewust bent van de ongeautoriseerde beperkingen.
+boolean - Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongelicentieerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik een geldige licentie. En dit op true zetten betekent ook dat je je bewust bent van de ongelicentieerde beperkingen.
 ### getSuppressed() {#getSuppressed--}
 ```
 public final synchronized Throwable[] getSuppressed()
@@ -270,7 +270,7 @@ public static void setSuppressTrialException(boolean value)
 ```
 
 
-Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik een geldige licentie. En dit op true zetten betekent ook dat je je bewust bent van de ongeautoriseerde beperkingen.
+Stelt dit in op true om de proefversie‑uitzondering te onderdrukken bij ongelicentieerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik een geldige licentie. En dit op true zetten betekent ook dat je je bewust bent van de ongelicentieerde beperkingen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

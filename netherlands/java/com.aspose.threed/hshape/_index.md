@@ -1,7 +1,7 @@
 ---
 title: "HShape"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De  biedt de definierende parameters van een H- of I-vorm."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De  biedt de bepalende parameters van een H‑ of I‑vorm."
 type: docs
 weight: 76
 url: /nl/java/com.aspose.threed/hshape/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class HShape extends ParameterizedProfile
 ```
 
-De [HShape](../../com.aspose.threed/hshape) biedt de definierende parameters van een 'H'- of 'I'-vorm.
+De [HShape](../../com.aspose.threed/hshape) biedt de bepalende parameters van een 'H'‑ of 'I'‑vorm.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -25,22 +25,22 @@ De [HShape](../../com.aspose.threed/hshape) biedt de definierende parameters van
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBottomFlangeEdgeRadius()](#getBottomFlangeEdgeRadius--) | Haalt de straal van de bovenste randen van de onderflens op. |
+| [getBottomFlangeEdgeRadius()](#getBottomFlangeEdgeRadius--) | Geeft de straal van de bovenste randen van de onderste flens. |
 | [getBottomFlangeFilletRadius()](#getBottomFlangeFilletRadius--) | Haalt de radius van de afronding tussen de web en de onderste rand op. |
-| [getBottomFlangeThickness()](#getBottomFlangeThickness--) | Haalt de dikte van de rand van H-vorm op. |
+| [getBottomFlangeThickness()](#getBottomFlangeThickness--) | Haalt de randdikte van H-vorm op. |
 | [getBottomFlangeWidth()](#getBottomFlangeWidth--) | Haalt de omvang van de breedte op. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getExtent()](#getExtent--) | Haalt de omvang in de x- en y-dimensie op. |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getOverallDepth()](#getOverallDepth--) | Haalt de omvang van de diepte op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [getTopFlangeEdgeRadius()](#getTopFlangeEdgeRadius--) | Haalt de radius van de onderste randen van de bovenste rand op. |
 | [getTopFlangeFilletRadius()](#getTopFlangeFilletRadius--) | Haalt de radius van de afronding tussen de web en de bovenste rand op. |
 | [getTopFlangeThickness()](#getTopFlangeThickness--) | Haalt de dikte van de bovenste rand op. |
@@ -50,16 +50,16 @@ De [HShape](../../com.aspose.threed/hshape) biedt de definierende parameters van
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setBottomFlangeEdgeRadius(double value)](#setBottomFlangeEdgeRadius-double-) | Stelt de radius van de bovenste randen van de onderste rand in. |
 | [setBottomFlangeFilletRadius(double value)](#setBottomFlangeFilletRadius-double-) | Stelt de radius van de afronding tussen de web en de onderste rand in. |
-| [setBottomFlangeThickness(double value)](#setBottomFlangeThickness-double-) | Stelt de dikte van de rand van H-vorm in. |
+| [setBottomFlangeThickness(double value)](#setBottomFlangeThickness-double-) | Stelt de randdikte van H-vorm in. |
 | [setBottomFlangeWidth(double value)](#setBottomFlangeWidth-double-) | Stelt de omvang van de breedte in. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setOverallDepth(double value)](#setOverallDepth-double-) | Stelt de omvang van de diepte in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [setTopFlangeEdgeRadius(double value)](#setTopFlangeEdgeRadius-double-) | Stelt de radius van de onderste randen van de bovenste rand in. |
 | [setTopFlangeFilletRadius(double value)](#setTopFlangeFilletRadius-double-) | Stelt de radius van de afronding tussen de web en de bovenste rand in. |
 | [setTopFlangeThickness(double value)](#setTopFlangeThickness-double-) | Stelt de dikte van de bovenste rand in. |
@@ -103,7 +103,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -113,10 +113,10 @@ public double getBottomFlangeEdgeRadius()
 ```
 
 
-Haalt de straal van de bovenste randen van de onderflens op.
+Geeft de straal van de bovenste randen van de onderste flens.
 
 **Returns:**
-double - de radius van de bovenste randen van de onderste rand
+double - de radius van de bovenste randen van de onderste rand.
 ### getBottomFlangeFilletRadius() {#getBottomFlangeFilletRadius--}
 ```
 public double getBottomFlangeFilletRadius()
@@ -126,17 +126,17 @@ public double getBottomFlangeFilletRadius()
 Haalt de radius van de afronding tussen de web en de onderste rand op.
 
 **Returns:**
-double - de radius van de afronding tussen de web en de onderste rand
+double - de radius van de afronding tussen de web en de onderste rand.
 ### getBottomFlangeThickness() {#getBottomFlangeThickness--}
 ```
 public double getBottomFlangeThickness()
 ```
 
 
-Haalt de dikte van de rand van H-vorm op.
+Haalt de randdikte van H-vorm op.
 
 **Returns:**
-double - de dikte van de rand van H-vorm
+double - de randdikte van H-vorm.
 ### getBottomFlangeWidth() {#getBottomFlangeWidth--}
 ```
 public double getBottomFlangeWidth()
@@ -146,14 +146,14 @@ public double getBottomFlangeWidth()
 Haalt de omvang van de breedte op.
 
 **Returns:**
-double - de omvang van de breedte
+double - de omvang van de breedte.
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -180,7 +180,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -190,10 +190,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getExtent() {#getExtent--}
 ```
 public Vector2 getExtent()
@@ -223,14 +223,14 @@ public double getOverallDepth()
 Haalt de omvang van de diepte op.
 
 **Returns:**
-double - de omvang van de diepte
+double - de omvang van de diepte.
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -240,7 +240,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -250,7 +250,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -260,12 +260,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -275,7 +275,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -288,7 +288,7 @@ public double getTopFlangeEdgeRadius()
 Haalt de radius van de onderste randen van de bovenste rand op.
 
 **Returns:**
-double - de radius van de onderste randen van de bovenste rand
+double - de radius van de onderste randen van de bovenste rand.
 ### getTopFlangeFilletRadius() {#getTopFlangeFilletRadius--}
 ```
 public double getTopFlangeFilletRadius()
@@ -298,7 +298,7 @@ public double getTopFlangeFilletRadius()
 Haalt de radius van de afronding tussen de web en de bovenste rand op.
 
 **Returns:**
-double - de radius van de afronding tussen de web en de bovenste flens.
+double - de radius van de afronding tussen de web en de bovenste rand.
 ### getTopFlangeThickness() {#getTopFlangeThickness--}
 ```
 public double getTopFlangeThickness()
@@ -308,7 +308,7 @@ public double getTopFlangeThickness()
 Haalt de dikte van de bovenste rand op.
 
 **Returns:**
-double - de dikte van de bovenste flens.
+double - de dikte van de bovenste rand.
 ### getTopFlangeWidth() {#getTopFlangeWidth--}
 ```
 public double getTopFlangeWidth()
@@ -318,7 +318,7 @@ public double getTopFlangeWidth()
 Haalt de breedte van de bovenste rand op.
 
 **Returns:**
-double - de breedte van de bovenste flens.
+double - de breedte van de bovenste rand.
 ### getWebThickness() {#getWebThickness--}
 ```
 public double getWebThickness()
@@ -376,7 +376,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -417,7 +417,7 @@ public void setBottomFlangeThickness(double value)
 ```
 
 
-Stelt de dikte van de rand van H-vorm in.
+Stelt de randdikte van H-vorm in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -443,7 +443,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -482,7 +482,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -495,12 +495,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setTopFlangeEdgeRadius(double value) {#setTopFlangeEdgeRadius-double-}

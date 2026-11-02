@@ -1,6 +1,6 @@
 ---
 title: "PlySaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Opslaanopties voor het exporteren van de scène als PLY-bestand."
 type: docs
 weight: 131
@@ -25,43 +25,43 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 | Methode | Beschrijving |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAxisSystem()](#getAxisSystem--) | Haalt het assenstelsel op in het geëxporteerde STL‑bestand. |
+| [getAxisSystem()](#getAxisSystem--) | Haalt het assysteem op in het geëxporteerde STL-bestand. |
 | [getClass()](#getClass--) |  |
-| [getColorComponents()](#getColorComponents--) | De componentnamen voor vertexkleur, standaardwaarde is ("red", "green", "blue") |
+| [getColorComponents()](#getColorComponents--) | De componentnamen voor vertexkleur, standaardwaarde is ("rood", "groen", "blauw") |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
 | [getFaceElement()](#getFaceElement--) | De elementnaam voor de gezichtsgegevens, standaardwaarde is "face" |
 | [getFaceProperty()](#getFaceProperty--) | De eigenschapsnaam voor de gezichtsgegevens, standaardwaarde is "vertex\_index" |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
 | [getFlipCoordinate()](#getFlipCoordinate--) | Draai de coördinaat om bij het opslaan van de scène, standaardwaarde is true |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [getNormalComponents()](#getNormalComponents--) | De componentnamen voor normale gegevens, standaardwaarde is ("nx", "ny", "nz") |
 | [getPointCloud()](#getPointCloud--) | Exporteer de scène als puntwolk, de standaardwaarde is false. |
-| [getPositionComponents()](#getPositionComponents--) | De componentnamen voor positiedata, standaardwaarde is ("x", "y", "z") |
+| [getPositionComponents()](#getPositionComponents--) | De componentnamen voor positiegegevens, standaardwaarde is ("x", "y", "z") |
 | [getTextureCoordinateComponents()](#getTextureCoordinateComponents--) | De componentnamen voor textuurcoördinaatgegevens, standaardwaarde is ("u", "v") |
-| [getVertexElement()](#getVertexElement--) | De elementnaam voor de vertexgegevens, standaardwaarde is "vertex" |
+| [getVertexElement()](#getVertexElement--) | De elementnaam voor de vertex-gegevens, standaardwaarde is "vertex" |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | Stelt het assysteem in het geëxporteerde STL‑bestand in. |
-| [setColorComponents(Tuple_3<String,String,String> value)](#setColorComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--) | De componentnamen voor vertexkleur, standaardwaarde is ("red", "green", "blue") |
+| [setAxisSystem(AxisSystem value)](#setAxisSystem-com.aspose.threed.AxisSystem-) | Stelt het assenstelsel in het geëxporteerde STL-bestand in. |
+| [setColorComponents(Tuple_3<String,String,String> value)](#setColorComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--) | De componentnamen voor vertexkleur, standaardwaarde is ("rood", "groen", "blauw") |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
 | [setFaceElement(String value)](#setFaceElement-java.lang.String-) | De elementnaam voor de gezichtsgegevens, standaardwaarde is "face" |
 | [setFaceProperty(String value)](#setFaceProperty-java.lang.String-) | De eigenschapsnaam voor de gezichtsgegevens, standaardwaarde is "vertex\_index" |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
 | [setFlipCoordinate(boolean value)](#setFlipCoordinate-boolean-) | Draai de coördinaat om bij het opslaan van de scène, standaardwaarde is true |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [setNormalComponents(Tuple_3<String,String,String> value)](#setNormalComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--) | De componentnamen voor normale gegevens, standaardwaarde is ("nx", "ny", "nz") |
 | [setPointCloud(boolean value)](#setPointCloud-boolean-) | Exporteer de scène als puntwolk, de standaardwaarde is false. |
-| [setPositionComponents(Tuple_3<String,String,String> value)](#setPositionComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--) | De componentnamen voor positiedata, standaardwaarde is ("x", "y", "z") |
+| [setPositionComponents(Tuple_3<String,String,String> value)](#setPositionComponents-com.aspose.threed.Tuple-3-java.lang.String-java.lang.String-java.lang.String--) | De componentnamen voor positiegegevens, standaardwaarde is ("x", "y", "z") |
 | [setTextureCoordinateComponents(Tuple_2<String,String> value)](#setTextureCoordinateComponents-com.aspose.threed.Tuple-2-java.lang.String-java.lang.String--) | De componentnamen voor textuurcoördinaatgegevens, standaardwaarde is ("u", "v") |
-| [setVertexElement(String value)](#setVertexElement-java.lang.String-) | De elementnaam voor de vertexgegevens, standaardwaarde is "vertex" |
+| [setVertexElement(String value)](#setVertexElement-java.lang.String-) | De elementnaam voor de vertex-gegevens, standaardwaarde is "vertex" |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -108,7 +108,7 @@ public AxisSystem getAxisSystem()
 ```
 
 
-Haalt het assenstelsel op in het geëxporteerde STL‑bestand.
+Haalt het assysteem op in het geëxporteerde STL-bestand.
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - the axis system in the exported stl file. **Remarks:** FlipCoordinateSystem must be enabled to utilize this feature.
@@ -128,7 +128,7 @@ public Tuple_3<String,String,String> getColorComponents()
 ```
 
 
-De componentnamen voor vertexkleur, standaardwaarde is ("red", "green", "blue")
+De componentnamen voor vertexkleur, standaardwaarde is ("rood", "groen", "blauw")
 
 **Returns:**
 com.aspose.threed.Tuple_3<java.lang.String,java.lang.String,java.lang.String> - De componentnamen voor vertexkleur, standaardwaarde is ("red", "green", "blue")
@@ -148,7 +148,7 @@ public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -178,7 +178,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -188,10 +188,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -232,7 +232,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -271,10 +271,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -309,10 +309,10 @@ public Tuple_3<String,String,String> getPositionComponents()
 ```
 
 
-De componentnamen voor positiedata, standaardwaarde is ("x", "y", "z")
+De componentnamen voor positiegegevens, standaardwaarde is ("x", "y", "z")
 
 **Returns:**
-com.aspose.threed.Tuple_3<java.lang.String,java.lang.String,java.lang.String> - De componentnamen voor positiedata, standaardwaarde is ("x", "y", "z")
+com.aspose.threed.Tuple_3<java.lang.String,java.lang.String,java.lang.String> - De componentnamen voor positiegegevens, standaardwaarde is ("x", "y", "z")
 ### getTextureCoordinateComponents() {#getTextureCoordinateComponents--}
 ```
 public Tuple_2<String,String> getTextureCoordinateComponents()
@@ -329,10 +329,10 @@ public String getVertexElement()
 ```
 
 
-De elementnaam voor de vertexgegevens, standaardwaarde is "vertex"
+De elementnaam voor de vertex-gegevens, standaardwaarde is "vertex"
 
 **Returns:**
-java.lang.String - De elementnaam voor de vertexgegevens, standaardwaarde is "vertex"
+java.lang.String - De elementnaam voor de vertex-gegevens, standaardwaarde is "vertex"
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -365,7 +365,7 @@ public void setAxisSystem(AxisSystem value)
 ```
 
 
-Stelt het assysteem in het geëxporteerde STL‑bestand in.
+Stelt het assenstelsel in het geëxporteerde STL-bestand in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -378,7 +378,7 @@ public void setColorComponents(Tuple_3<String,String,String> value)
 ```
 
 
-De componentnamen voor vertexkleur, standaardwaarde is ("red", "green", "blue")
+De componentnamen voor vertexkleur, standaardwaarde is ("rood", "groen", "blauw")
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -404,7 +404,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -443,7 +443,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -461,7 +461,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -493,7 +493,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -538,12 +538,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();
@@ -585,7 +585,7 @@ public void setPositionComponents(Tuple_3<String,String,String> value)
 ```
 
 
-De componentnamen voor positiedata, standaardwaarde is ("x", "y", "z")
+De componentnamen voor positiegegevens, standaardwaarde is ("x", "y", "z")
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -611,7 +611,7 @@ public void setVertexElement(String value)
 ```
 
 
-De elementnaam voor de vertexgegevens, standaardwaarde is "vertex"
+De elementnaam voor de vertex-gegevens, standaardwaarde is "vertex"
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

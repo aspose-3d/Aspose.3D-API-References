@@ -1,7 +1,7 @@
 ---
 title: "Pose"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometrie geskinnd is."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometrie is geskinnt."
 type: docs
 weight: 135
 url: /nl/java/com.aspose.threed/pose/
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Pose extends A3DObject
 ```
 
-De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometrie is geskinnd. De pose is een set van [BonePose](../../com.aspose.threed/bonepose), elke [BonePose](../../com.aspose.threed/bonepose) slaat de concrete transformatie-informatie van het botknooppunt op.
+De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometrie geskinnd is. De pose is een verzameling van [BonePose](../../com.aspose.threed/bonepose), elke [BonePose](../../com.aspose.threed/bonepose) slaat de concrete transformatie-informatie van het botknooppunt op.
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [Pose(String name)](#Pose-java.lang.String-) | Initialiseert een nieuw exemplaar van de klasse [Pose](../../com.aspose.threed/pose). |
-| [Pose()](#Pose--) | Initialiseert een nieuw exemplaar van de klasse [Pose](../../com.aspose.threed/pose). |
+| [Pose(String name)](#Pose-java.lang.String-) | Initialiseert een nieuw exemplaar van de [Pose](../../com.aspose.threed/pose) klasse. |
+| [Pose()](#Pose--) | Initialiseert een nieuw exemplaar van de [Pose](../../com.aspose.threed/pose) klasse. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -32,16 +32,16 @@ De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometr
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getPoseType()](#getPoseType--) | Haalt het type van de pose op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setPoseType(PoseType value)](#setPoseType-com.aspose.threed.PoseType-) | Stelt het type van de pose in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,7 @@ public Pose(String name)
 ```
 
 
-Initialiseert een nieuw exemplaar van de klasse [Pose](../../com.aspose.threed/pose).
+Initialiseert een nieuw exemplaar van de [Pose](../../com.aspose.threed/pose) klasse.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -65,7 +65,7 @@ public Pose()
 ```
 
 
-Initialiseert een nieuw exemplaar van de klasse [Pose](../../com.aspose.threed/pose).
+Initialiseert een nieuw exemplaar van de [Pose](../../com.aspose.threed/pose) klasse.
 
 ### addBonePose(Node node, Matrix4 matrix) {#addBonePose-com.aspose.threed.Node-com.aspose.threed.Matrix4-}
 ```
@@ -73,7 +73,7 @@ public void addBonePose(Node node, Matrix4 matrix)
 ```
 
 
-Slaat de pose-transformatiematrix op voor het opgegeven botknooppunt. De globale transformatiematrix wordt geïmpliceerd.
+Slaat pose-transformatiematrix op voor de opgegeven botknooppunt. Globale transformatiematrix wordt geïmpliceerd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -122,7 +122,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -172,7 +172,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -182,12 +182,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -238,7 +238,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -279,12 +279,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}

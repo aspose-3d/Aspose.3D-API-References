@@ -1,7 +1,7 @@
 ---
 title: "IOUtils"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Hulpmiddelen om matrix/vector naar een binaire writer te schrijven."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Hulpmiddelen om matrix/vector naar binaire schrijver te schrijven"
 type: docs
 weight: 77
 url: /nl/java/com.aspose.threed/ioutils/
@@ -13,7 +13,7 @@ java.lang.Object
 public class IOUtils
 ```
 
-Hulpmiddelen om matrix/vector naar een binaire writer te schrijven.
+Hulpmiddelen om matrix/vector naar binaire schrijver te schrijven
 ## Constructors
 
 | Constructor | Beschrijving |
