@@ -1,7 +1,7 @@
 ---
 title: "NotImplementedException"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Gemaakt door lexchou op 26/6/2017."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Gemaakt door lexchou op 26-06-2017."
 type: docs
 weight: 111
 url: /nl/java/com.aspose.threed/notimplementedexception/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class NotImplementedException extends RuntimeException
 ```
 
-Gemaakt door lexchou op 26/6/2017.
+Gemaakt door lexchou op 26-06-2017.
 ## Constructors
 
 | Constructor | Beschrijving |

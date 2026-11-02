@@ -1,7 +1,7 @@
 ---
 title: "VertexElementSmoothingGroup"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een gladmakingsgroep is een groep polygonen in een polygoonmesh die een glad oppervlak moet vormen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een gladstrijkgroep is een groep polygonen in een polygonnetwerk die een glad oppervlak moet vormen."
 type: docs
 weight: 216
 url: /nl/java/com.aspose.threed/vertexelementsmoothinggroup/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementSmoothingGroup extends VertexElementIntsTemplate
 ```
 
-Een smoothing group is een groep polygonen in een polygonmesh die een glad oppervlak moet vormen. Sommige vroege 3D-modelleringssoftware, zoals 3D Studio Max voor DOS, gebruikte smoothing groups om het opslaan van normale vectoren voor elk mesh‑vertex te vermijden.
+Een smoothing group is een groep polygonen in een polygonmesh die een glad oppervlak moet vormen. Sommige vroege 3D-modelleringssoftware, zoals 3D Studio Max voor DOS, gebruikte smoothing group om het opslaan van normale vectoren voor elke mesh-vertex te vermijden.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -24,22 +24,22 @@ Een smoothing group is een groep polygonen in een polygonmesh die een glad opper
 | Methode | Beschrijving |
 | --- | --- |
 | [clear()](#clear--) | Verwijdert alle elementen uit de directe en de indexarrays. |
-| [clone(boolean withData)](#clone-boolean-) | Maak een diepe kloon van het vertex-element. |
+| [clone(boolean withData)](#clone-boolean-) | Diepe kloon van het vertex-element |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
-| [copyTo(VertexElementIntsTemplate target)](#copyTo-com.aspose.threed.VertexElementIntsTemplate-) | Kopieert gegevens naar het opgegeven element. |
+| [copyTo(VertexElementIntsTemplate target)](#copyTo-com.aspose.threed.VertexElementIntsTemplate-) | Kopieert gegevens naar het opgegeven element |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Haalt de vertex-gegevens op. |
-| [getIndices()](#getIndices--) | Haalt de indexgegevens op. |
+| [getData()](#getData--) | Haalt de vertex-gegevens op |
+| [getIndices()](#getIndices--) | Haalt de indexgegevens op |
 | [getMappingMode()](#getMappingMode--) | Haalt op hoe het element is gemapt. |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getReferenceMode()](#getReferenceMode--) | Haalt op hoe het element wordt gerefereerd. |
-| [getVertexElementType()](#getVertexElementType--) | Haalt het type van de [VertexElement](../../com.aspose.threed/vertexelement) op. |
+| [getVertexElementType()](#getVertexElementType--) | Haalt het type op van de [VertexElement](../../com.aspose.threed/vertexelement) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(int[] data)](#setData-int---) | Laad gegevens. |
-| [setIndices(int[] data)](#setIndices-int---) | Laad indexen. |
+| [setData(int[] data)](#setData-int---) | Laad gegevens |
+| [setIndices(int[] data)](#setIndices-int---) | Laad indexen |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Stelt in hoe het element is gemapt. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | Stelt in hoe het element wordt gerefereerd. |
@@ -69,12 +69,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Maak een diepe kloon van het vertex-element.
+Diepe kloon van het vertex-element
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| withData | boolean | Kloon het vertex met directe en indexarray. |
+| withData | boolean | Kloon de vertex met directe en indexarray |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -100,7 +100,7 @@ public void copyTo(VertexElementIntsTemplate target)
 ```
 
 
-Kopieert gegevens naar het opgegeven element.
+Kopieert gegevens naar het opgegeven element
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -138,7 +138,7 @@ public List<Integer> getData()
 ```
 
 
-Haalt de vertex-gegevens op.
+Haalt de vertex-gegevens op
 
 **Returns:**
 java.util.List<java.lang.Integer> - de vertexgegevens
@@ -148,7 +148,7 @@ public List<Integer> getIndices()
 ```
 
 
-Haalt de indexgegevens op.
+Haalt de indexgegevens op
 
 **Returns:**
 java.util.List<java.lang.Integer> - de indexgegevens
@@ -188,7 +188,7 @@ public VertexElementType getVertexElementType()
 ```
 
 
-Haalt het type van de [VertexElement](../../com.aspose.threed/vertexelement) op.
+Haalt het type op van de [VertexElement](../../com.aspose.threed/vertexelement)
 
 **Returns:**
 [VertexElementType](../../com.aspose.threed/vertexelementtype) - the type of the [VertexElement](../../com.aspose.threed/vertexelement)
@@ -224,7 +224,7 @@ public void setData(int[] data)
 ```
 
 
-Laad gegevens.
+Laad gegevens
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -237,7 +237,7 @@ public void setIndices(int[] data)
 ```
 
 
-Laad indexen.
+Laad indexen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

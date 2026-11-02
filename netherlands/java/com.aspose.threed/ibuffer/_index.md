@@ -1,6 +1,6 @@
 ---
 title: "IBuffer"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De basisinterface van alle beheerde buffers die worden gebruikt bij het renderen"
 type: docs
 weight: 239

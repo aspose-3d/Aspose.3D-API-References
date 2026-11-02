@@ -1,6 +1,6 @@
 ---
 title: "Scène"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: 
 type: docs
 weight: 161
@@ -28,77 +28,77 @@ public class Scene extends SceneObject
 
 | Methode | Beschrijving |
 | --- | --- |
-| [clear()](#clear--) | Wis de scène-inhoud en herstel de standaardinstellingen. |
+| [clear()](#clear--) | Leegt de inhoud van de scene en herstelt de standaardinstellingen. |
 | [createAnimationClip(String name)](#createAnimationClip-java.lang.String-) | Een verkorte functie om de [AnimationClip](../../com.aspose.threed/animationclip) te maken en te registreren. De eerste [AnimationClip](../../com.aspose.threed/animationclip) wordt toegewezen aan de [getCurrentAnimationClip](../../com.aspose.threed/scene\#getCurrentAnimationClip) |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [fromFile(String fileName)](#fromFile-java.lang.String-) | Opent de scène vanaf het opgegeven pad |
-| [fromFile(String fileName, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.Cancellation-) | Opent de scène vanaf het opgegeven pad |
-| [fromFile(String fileName, FileFormat format)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-) | Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
-| [fromFile(String fileName, FileFormat format, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
-| [fromFile(String fileName, LoadOptions options)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-) | Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
-| [fromFile(String fileName, LoadOptions options, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
-| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | Opent de scène vanaf de opgegeven stream |
-| [fromStream(Stream stream, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream |
-| [fromStream(Stream stream, FileFormat format)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
-| [fromStream(Stream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
-| [fromStream(Stream stream, LoadOptions options)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie. |
-| [fromStream(Stream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie. |
-| [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Opent de scène vanaf de opgegeven stream |
-| [fromStream(InputStream stream, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream |
-| [fromStream(InputStream stream, FileFormat format)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-) | Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
-| [fromStream(InputStream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
-| [fromStream(InputStream stream, LoadOptions options)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-) | Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie. |
-| [fromStream(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie. |
-| [getAnimationClip(String name)](#getAnimationClip-java.lang.String-) | Haalt een benoemde [AnimationClip](../../com.aspose.threed/animationclip) op |
-| [getAnimationClips()](#getAnimationClips--) | Haalt alle [AnimationClip](../../com.aspose.threed/animationclip) op die in de scène zijn gedefinieerd. |
-| [getAssetInfo()](#getAssetInfo--) | Haalt de top‑niveau assetinformatie op |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | Opent de scene vanaf het opgegeven pad. |
+| [fromFile(String fileName, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.Cancellation-) | Opent de scene vanaf het opgegeven pad. |
+| [fromFile(String fileName, FileFormat format)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-) | Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
+| [fromFile(String fileName, FileFormat format, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
+| [fromFile(String fileName, LoadOptions options)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-) | Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
+| [fromFile(String fileName, LoadOptions options, Cancellation cancellationToken)](#fromFile-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
+| [fromStream(Stream stream)](#fromStream-com.aspose.threed.Stream-) | Opent de scene vanaf de opgegeven stream. |
+| [fromStream(Stream stream, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream. |
+| [fromStream(Stream stream, FileFormat format)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
+| [fromStream(Stream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
+| [fromStream(Stream stream, LoadOptions options)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie. |
+| [fromStream(Stream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie. |
+| [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Opent de scene vanaf de opgegeven stream. |
+| [fromStream(InputStream stream, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream. |
+| [fromStream(InputStream stream, FileFormat format)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-) | Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
+| [fromStream(InputStream stream, FileFormat format, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
+| [fromStream(InputStream stream, LoadOptions options)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-) | Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie. |
+| [fromStream(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#fromStream-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie. |
+| [getAnimationClip(String name)](#getAnimationClip-java.lang.String-) | Haalt een benoemde [AnimationClip](../../com.aspose.threed/animationclip) op. |
+| [getAnimationClips()](#getAnimationClips--) | Haalt alle [AnimationClip](../../com.aspose.threed/animationclip) op die in de scene zijn gedefinieerd. |
+| [getAssetInfo()](#getAssetInfo--) | Haalt de top-level assetinformatie op. |
 | [getClass()](#getClass--) |  |
-| [getCurrentAnimationClip()](#getCurrentAnimationClip--) | Haalt de actieve [AnimationClip](../../com.aspose.threed/animationclip) op |
-| [getLibrary()](#getLibrary--) | Objecten die niet direct in de scène‑hiërarchie worden gebruikt, kunnen in de Bibliotheek worden gedefinieerd. |
+| [getCurrentAnimationClip()](#getCurrentAnimationClip--) | Haalt de actieve [AnimationClip](../../com.aspose.threed/animationclip) op. |
+| [getLibrary()](#getLibrary--) | Objecten die niet direct in de scene-hiërarchie worden gebruikt, kunnen in de Bibliotheek worden gedefinieerd. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getPoses()](#getPoses--) | Haalt alle [Pose](../../com.aspose.threed/pose) op die in deze scène worden gebruikt. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getRootNode()](#getRootNode--) | Haalt het hoofd‑knooppunt van de scène op. |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
-| [getSubScenes()](#getSubScenes--) | Haalt alle sub‑scènes op |
+| [getPoses()](#getPoses--) | Haalt alle [Pose](../../com.aspose.threed/pose) op die in deze scene worden gebruikt. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getRootNode()](#getRootNode--) | Haalt het rootknooppunt van de scene op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
+| [getSubScenes()](#getSubScenes--) | Haalt alle subscènes op. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [open(Stream stream)](#open-com.aspose.threed.Stream-) | Opent de scène vanaf de opgegeven stream |
-| [open(Stream stream, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream |
-| [open(Stream stream, FileFormat format)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
-| [open(Stream stream, FileFormat format, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
-| [open(Stream stream, LoadOptions options)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie. |
-| [open(Stream stream, LoadOptions options, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie. |
-| [open(InputStream stream)](#open-java.io.InputStream-) | Opent de scène vanaf de opgegeven stream |
-| [open(InputStream stream, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream |
-| [open(InputStream stream, FileFormat format)](#open-java.io.InputStream-com.aspose.threed.FileFormat-) | Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
-| [open(InputStream stream, FileFormat format, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
-| [open(InputStream stream, LoadOptions options)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-) | Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie. |
-| [open(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie. |
-| [open(String fileName)](#open-java.lang.String-) | Opent de scène vanaf het opgegeven pad |
-| [open(String fileName, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.Cancellation-) | Opent de scène vanaf het opgegeven pad |
-| [open(String fileName, FileFormat format)](#open-java.lang.String-com.aspose.threed.FileFormat-) | Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
-| [open(String fileName, FileFormat format, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
-| [open(String fileName, LoadOptions options)](#open-java.lang.String-com.aspose.threed.LoadOptions-) | Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
-| [open(String fileName, LoadOptions options, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
+| [open(Stream stream)](#open-com.aspose.threed.Stream-) | Opent de scene vanaf de opgegeven stream. |
+| [open(Stream stream, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream. |
+| [open(Stream stream, FileFormat format)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
+| [open(Stream stream, FileFormat format, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
+| [open(Stream stream, LoadOptions options)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-) | Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie. |
+| [open(Stream stream, LoadOptions options, Cancellation cancellationToken)](#open-com.aspose.threed.Stream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie. |
+| [open(InputStream stream)](#open-java.io.InputStream-) | Opent de scene vanaf de opgegeven stream. |
+| [open(InputStream stream, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream. |
+| [open(InputStream stream, FileFormat format)](#open-java.io.InputStream-com.aspose.threed.FileFormat-) | Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
+| [open(InputStream stream, FileFormat format, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat. |
+| [open(InputStream stream, LoadOptions options)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-) | Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie. |
+| [open(InputStream stream, LoadOptions options, Cancellation cancellationToken)](#open-java.io.InputStream-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie. |
+| [open(String fileName)](#open-java.lang.String-) | Opent de scene vanaf het opgegeven pad. |
+| [open(String fileName, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.Cancellation-) | Opent de scene vanaf het opgegeven pad. |
+| [open(String fileName, FileFormat format)](#open-java.lang.String-com.aspose.threed.FileFormat-) | Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
+| [open(String fileName, FileFormat format, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
+| [open(String fileName, LoadOptions options)](#open-java.lang.String-com.aspose.threed.LoadOptions-) | Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
+| [open(String fileName, LoadOptions options, Cancellation cancellationToken)](#open-java.lang.String-com.aspose.threed.LoadOptions-com.aspose.threed.Cancellation-) | Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat. |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [render(Camera camera, TextureData bitmap)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-) | Render de scène naar een bitmap vanuit het perspectief van de opgegeven camera. |
-| [render(Camera camera, TextureData bitmap, ImageRenderOptions options)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-) | Render de scène naar een bitmap vanuit het perspectief van de opgegeven camera. |
-| [render(Camera camera, String fileName)](#render-com.aspose.threed.Camera-java.lang.String-) | Render de scène naar een extern bestand vanuit het perspectief van de opgegeven camera. |
-| [render(Camera camera, String fileName, Vector2 size, String format)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-) | Render de scène naar een extern bestand vanuit het perspectief van de opgegeven camera. |
-| [render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-) | Render de scène naar een extern bestand vanuit het perspectief van de opgegeven camera. |
-| [save(Stream stream, FileFormat format)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Slaat de scène op naar een stream met het gespecificeerde bestandsformaat. |
-| [save(Stream stream, FileFormat format, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Slaat de scène op naar een stream met het gespecificeerde bestandsformaat. |
-| [save(Stream stream, SaveOptions options)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-) | Slaat de scène op naar een stream met het gespecificeerde bestandsformaat. |
-| [save(Stream stream, SaveOptions options, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | Slaat de scène op naar een stream met het gespecificeerde bestandsformaat. |
-| [save(OutputStream stream, FileFormat format)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-) | Slaat de scène op naar een stream met het gespecificeerde bestandsformaat. |
-| [save(OutputStream stream, FileFormat format, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Slaat de scène op naar een stream met het gespecificeerde bestandsformaat. |
-| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-) | Slaat de scène op naar een stream met het gespecificeerde bestandsformaat. |
-| [save(OutputStream stream, SaveOptions options, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | Slaat de scène op naar een stream met het gespecificeerde bestandsformaat. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [render(Camera camera, TextureData bitmap)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-) | Render de scene naar een bitmap vanuit het perspectief van de opgegeven camera. |
+| [render(Camera camera, TextureData bitmap, ImageRenderOptions options)](#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-) | Render de scene naar een bitmap vanuit het perspectief van de opgegeven camera. |
+| [render(Camera camera, String fileName)](#render-com.aspose.threed.Camera-java.lang.String-) | Render de scene naar een extern bestand vanuit het perspectief van de opgegeven camera. |
+| [render(Camera camera, String fileName, Vector2 size, String format)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-) | Render de scene naar een extern bestand vanuit het perspectief van de opgegeven camera. |
+| [render(Camera camera, String fileName, Vector2 size, String format, ImageRenderOptions options)](#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-com.aspose.threed.ImageRenderOptions-) | Render de scene naar een extern bestand vanuit het perspectief van de opgegeven camera. |
+| [save(Stream stream, FileFormat format)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-) | Slaat de scene op in een stream met het gespecificeerde bestandsformaat. |
+| [save(Stream stream, FileFormat format, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Slaat de scene op in een stream met het gespecificeerde bestandsformaat. |
+| [save(Stream stream, SaveOptions options)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-) | Slaat de scene op in een stream met het gespecificeerde bestandsformaat. |
+| [save(Stream stream, SaveOptions options, Cancellation cancellationToken)](#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | Slaat de scene op in een stream met het gespecificeerde bestandsformaat. |
+| [save(OutputStream stream, FileFormat format)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-) | Slaat de scene op in een stream met het gespecificeerde bestandsformaat. |
+| [save(OutputStream stream, FileFormat format, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Slaat de scene op in een stream met het gespecificeerde bestandsformaat. |
+| [save(OutputStream stream, SaveOptions options)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-) | Slaat de scene op in een stream met het gespecificeerde bestandsformaat. |
+| [save(OutputStream stream, SaveOptions options, Cancellation cancellationToken)](#save-java.io.OutputStream-com.aspose.threed.SaveOptions-com.aspose.threed.Cancellation-) | Slaat de scene op in een stream met het gespecificeerde bestandsformaat. |
 | [save(String fileName)](#save-java.lang.String-) | Slaat de scène op naar het opgegeven pad met het opgegeven bestandsformaat. |
 | [save(String fileName, FileFormat format)](#save-java.lang.String-com.aspose.threed.FileFormat-) | Slaat de scène op naar het opgegeven pad met het opgegeven bestandsformaat. |
 | [save(String fileName, FileFormat format, Cancellation cancellationToken)](#save-java.lang.String-com.aspose.threed.FileFormat-com.aspose.threed.Cancellation-) | Slaat de scène op naar het opgegeven pad met het opgegeven bestandsformaat. |
@@ -107,7 +107,7 @@ public class Scene extends SceneObject
 | [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | Stelt de top-level asset-informatie in |
 | [setCurrentAnimationClip(AnimationClip value)](#setCurrentAnimationClip-com.aspose.threed.AnimationClip-) | Stelt de actieve [AnimationClip](../../com.aspose.threed/animationclip) in |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -123,7 +123,7 @@ Initialiseert een nieuw exemplaar van de klasse [Scene](../../com.aspose.threed/
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | entity | [Entity](../../com.aspose.threed/entity) | De initiële entiteit die aan de scène is gekoppeld **Voorbeeld:** De volgende code laat zien hoe je een [getScene](../../com.aspose.threed/scene\#getScene) direct van een [Entity](../../com.aspose.threed/entity) maakt: |
+|  | entity | [Entity](../../com.aspose.threed/entity) | De initiële entiteit die aan de scène is gekoppeld **Voorbeeld:** De volgende code laat zien hoe je een [getScene](../../com.aspose.threed/scene\#getScene) direct vanuit een [Entity](../../com.aspose.threed/entity) maakt: |
 
 ```
 var scene = new Scene(new Box());
@@ -165,7 +165,7 @@ public void clear()
 ```
 
 
-Wis de scène-inhoud en herstel de standaardinstellingen.
+Leegt de inhoud van de scene en herstelt de standaardinstellingen.
 
 ### createAnimationClip(String name) {#createAnimationClip-java.lang.String-}
 ```
@@ -208,7 +208,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -218,7 +218,7 @@ public static Scene fromFile(String fileName)
 ```
 
 
-Opent de scène vanaf het opgegeven pad
+Opent de scene vanaf het opgegeven pad.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -233,7 +233,7 @@ public static Scene fromFile(String fileName, Cancellation cancellationToken)
 ```
 
 
-Opent de scène vanaf het opgegeven pad
+Opent de scene vanaf het opgegeven pad.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -249,7 +249,7 @@ public static Scene fromFile(String fileName, FileFormat format)
 ```
 
 
-Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
+Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -265,7 +265,7 @@ public static Scene fromFile(String fileName, FileFormat format, Cancellation ca
 ```
 
 
-Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
+Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -282,7 +282,7 @@ public static Scene fromFile(String fileName, LoadOptions options)
 ```
 
 
-Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
+Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -298,7 +298,7 @@ public static Scene fromFile(String fileName, LoadOptions options, Cancellation 
 ```
 
 
-Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
+Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -315,7 +315,7 @@ public static Scene fromStream(Stream stream)
 ```
 
 
-Opent de scène vanaf de opgegeven stream
+Opent de scene vanaf de opgegeven stream.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -330,7 +330,7 @@ public static Scene fromStream(Stream stream, Cancellation cancellationToken)
 ```
 
 
-Opent de scène vanaf de opgegeven stream
+Opent de scene vanaf de opgegeven stream.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -346,7 +346,7 @@ public static Scene fromStream(Stream stream, FileFormat format)
 ```
 
 
-Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
+Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -362,7 +362,7 @@ public static Scene fromStream(Stream stream, FileFormat format, Cancellation ca
 ```
 
 
-Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
+Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -379,7 +379,7 @@ public static Scene fromStream(Stream stream, LoadOptions options)
 ```
 
 
-Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie.
+Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -395,7 +395,7 @@ public static Scene fromStream(Stream stream, LoadOptions options, Cancellation 
 ```
 
 
-Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie.
+Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -412,12 +412,12 @@ public static Scene fromStream(InputStream stream)
 ```
 
 
-Opent de scène vanaf de opgegeven stream
+Opent de scene vanaf de opgegeven stream.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. **Voorbeeld:** De volgende code laat zien hoe je een scène maakt vanuit een stream met een annulerings-tokenbron |
+|  | stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. **Voorbeeld:** De volgende code laat zien hoe je een scène maakt vanuit een stream met een annuleringstokenbron |
 
 ```
 var cts = new Cancellation();    
@@ -434,13 +434,13 @@ public static Scene fromStream(InputStream stream, Cancellation cancellationToke
 ```
 
 
-Opent de scène vanaf de opgegeven stream
+Opent de scene vanaf de opgegeven stream.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annuleringstoken voor de laadtaak **Voorbeeld:** De volgende code laat zien hoe je een scène maakt vanuit een stream met een annulerings-tokenbron |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annuleringstoken voor de laadtaak **Voorbeeld:** De volgende code laat zien hoe je een scène maakt vanuit een stream met een annuleringstokenbron |
 
 ```
 var cts = new Cancellation();    
@@ -457,12 +457,12 @@ public static Scene fromStream(InputStream stream, FileFormat format)
 ```
 
 
-Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
+Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 |  | format | [FileFormat](../../com.aspose.threed/fileformat) | Bestandsformaat. **Voorbeeld:** De volgende code laat zien hoe je een scène maakt vanuit een stream |
 
 ```
@@ -479,12 +479,12 @@ public static Scene fromStream(InputStream stream, FileFormat format, Cancellati
 ```
 
 
-Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
+Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | Bestandsformaat. |
 |  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annuleringstoken voor de laadtaak **Voorbeeld:** De volgende code laat zien hoe je een scène maakt vanuit een stream |
 
@@ -502,12 +502,12 @@ public static Scene fromStream(InputStream stream, LoadOptions options)
 ```
 
 
-Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie.
+Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 |  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | Gedetailleerdere configuratie om de stream te openen. **Voorbeeld:** De volgende code laat zien hoe je een scène maakt vanuit een stream met laadopties |
 
 ```
@@ -526,12 +526,12 @@ public static Scene fromStream(InputStream stream, LoadOptions options, Cancella
 ```
 
 
-Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie.
+Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 | options | [LoadOptions](../../com.aspose.threed/loadoptions) | Gedetailleerdere configuratie om de stream te openen. |
 |  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annuleringstoken voor de laadtaak **Voorbeeld:** De volgende code laat zien hoe je een scène maakt vanuit een stream met laadopties |
 
@@ -551,7 +551,7 @@ public AnimationClip getAnimationClip(String name)
 ```
 
 
-Haalt een benoemde [AnimationClip](../../com.aspose.threed/animationclip) op
+Haalt een benoemde [AnimationClip](../../com.aspose.threed/animationclip) op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -566,7 +566,7 @@ public List<AnimationClip> getAnimationClips()
 ```
 
 
-Haalt alle [AnimationClip](../../com.aspose.threed/animationclip) op die in de scène zijn gedefinieerd.
+Haalt alle [AnimationClip](../../com.aspose.threed/animationclip) op die in de scene zijn gedefinieerd.
 
 **Returns:**
 java.util.List<com.aspose.threed.AnimationClip> - alle [AnimationClip](../../com.aspose.threed/animationclip) gedefinieerd in de scène.
@@ -576,7 +576,7 @@ public AssetInfo getAssetInfo()
 ```
 
 
-Haalt de top‑niveau assetinformatie op
+Haalt de top-level assetinformatie op.
 
 **Returns:**
 [AssetInfo](../../com.aspose.threed/assetinfo) - the top-level asset information **Example:** The following code shows how to read the application information from a FBX file:
@@ -603,7 +603,7 @@ public AnimationClip getCurrentAnimationClip()
 ```
 
 
-Haalt de actieve [AnimationClip](../../com.aspose.threed/animationclip) op
+Haalt de actieve [AnimationClip](../../com.aspose.threed/animationclip) op.
 
 **Returns:**
 [AnimationClip](../../com.aspose.threed/animationclip) - the active [AnimationClip](../../com.aspose.threed/animationclip)
@@ -633,7 +633,7 @@ public Collection<Pose> getPoses()
 ```
 
 
-Haalt alle [Pose](../../com.aspose.threed/pose) op die in deze scène worden gebruikt.
+Haalt alle [Pose](../../com.aspose.threed/pose) op die in deze scene worden gebruikt.
 
 **Returns:**
 java.util.Collection<com.aspose.threed.Pose> - alle [Pose](../../com.aspose.threed/pose) gebruikt in deze scène.
@@ -643,7 +643,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -653,12 +653,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -668,7 +668,7 @@ public Node getRootNode()
 ```
 
 
-Haalt het hoofd‑knooppunt van de scène op.
+Haalt het rootknooppunt van de scene op.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the root node of the scene. **Example:** The following code shows how to create a node with Box entity attached to the root node.
@@ -684,7 +684,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -694,7 +694,7 @@ public List<Scene> getSubScenes()
 ```
 
 
-Haalt alle sub‑scènes op
+Haalt alle subscènes op.
 
 **Returns:**
 java.util.List<com.aspose.threed.Scene> - alle sub‑scènes
@@ -730,7 +730,7 @@ public void open(Stream stream)
 ```
 
 
-Opent de scène vanaf de opgegeven stream
+Opent de scene vanaf de opgegeven stream.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -743,7 +743,7 @@ public void open(Stream stream, Cancellation cancellationToken)
 ```
 
 
-Opent de scène vanaf de opgegeven stream
+Opent de scene vanaf de opgegeven stream.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -757,7 +757,7 @@ public void open(Stream stream, FileFormat format)
 ```
 
 
-Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
+Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -771,7 +771,7 @@ public void open(Stream stream, FileFormat format, Cancellation cancellationToke
 ```
 
 
-Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
+Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -786,7 +786,7 @@ public void open(Stream stream, LoadOptions options)
 ```
 
 
-Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie.
+Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -800,7 +800,7 @@ public void open(Stream stream, LoadOptions options, Cancellation cancellationTo
 ```
 
 
-Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie.
+Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -815,12 +815,12 @@ public void open(InputStream stream)
 ```
 
 
-Opent de scène vanaf de opgegeven stream
+Opent de scene vanaf de opgegeven stream.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. **Voorbeeld:** De volgende code laat zien hoe je een scène opent vanuit een stream |
+|  | stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. **Voorbeeld:** De volgende code laat zien hoe je een scène opent vanuit een stream |
 
 ```
 var scene = new Scene();    
@@ -835,13 +835,13 @@ public void open(InputStream stream, Cancellation cancellationToken)
 ```
 
 
-Opent de scène vanaf de opgegeven stream
+Opent de scene vanaf de opgegeven stream.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de laadtaak **Example:** De volgende code toont hoe een scène te openen vanuit een stream met een annulerings-token |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de laadtaak **Voorbeeld:** De volgende code laat zien hoe je een scène opent vanuit een stream met een annulerings-token |
 
 ```
 var scene = new Scene();    
@@ -857,13 +857,13 @@ public void open(InputStream stream, FileFormat format)
 ```
 
 
-Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
+Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
-|  | format | [FileFormat](../../com.aspose.threed/fileformat) | Bestandsformaat. **Example:** De volgende code toont hoe een scène te openen vanuit een stream |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+|  | format | [FileFormat](../../com.aspose.threed/fileformat) | Bestandsformaat. **Voorbeeld:** De volgende code laat zien hoe je een scène opent vanuit een stream |
 
 ```
 Scene scene = new Scene();    
@@ -878,14 +878,14 @@ public void open(InputStream stream, FileFormat format, Cancellation cancellatio
 ```
 
 
-Opent de scène vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
+Opent de scene vanaf de opgegeven stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | Bestandsformaat. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de laadtaak **Example:** De volgende code toont hoe een scène te openen vanuit een stream |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de laadtaak **Voorbeeld:** De volgende code laat zien hoe je een scène opent vanuit een stream |
 
 ```
 Scene scene = new Scene();    
@@ -900,13 +900,13 @@ public void open(InputStream stream, LoadOptions options)
 ```
 
 
-Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie.
+Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
-|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | Gedetailleerdere configuratie om de stream te openen. **Example:** De volgende code toont hoe een scène te openen vanuit een stream met extra laadopties |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+|  | options | [LoadOptions](../../com.aspose.threed/loadoptions) | Gedetailleerdere configuratie om de stream te openen. **Voorbeeld:** De volgende code laat zien hoe je een scène opent vanuit een stream met extra laadopties |
 
 ```
 Scene scene = new Scene();    
@@ -923,14 +923,14 @@ public void open(InputStream stream, LoadOptions options, Cancellation cancellat
 ```
 
 
-Opent de scène vanaf de opgegeven stream met de gespecificeerde I/O-configuratie.
+Opent de scene vanaf de opgegeven stream met de gespecificeerde IO-configuratie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+| stroom | java.io.InputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 | options | [LoadOptions](../../com.aspose.threed/loadoptions) | Gedetailleerdere configuratie om de stream te openen. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de laadtaak **Example:** De volgende code toont hoe een scène te openen vanuit een stream met extra laadopties |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de laadtaak **Voorbeeld:** De volgende code laat zien hoe je een scène opent vanuit een stream met extra laadopties |
 
 ```
 Scene scene = new Scene();    
@@ -947,7 +947,7 @@ public void open(String fileName)
 ```
 
 
-Opent de scène vanaf het opgegeven pad
+Opent de scene vanaf het opgegeven pad.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -960,7 +960,7 @@ public void open(String fileName, Cancellation cancellationToken)
 ```
 
 
-Opent de scène vanaf het opgegeven pad
+Opent de scene vanaf het opgegeven pad.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -974,7 +974,7 @@ public void open(String fileName, FileFormat format)
 ```
 
 
-Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
+Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -988,7 +988,7 @@ public void open(String fileName, FileFormat format, Cancellation cancellationTo
 ```
 
 
-Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
+Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -1003,7 +1003,7 @@ public void open(String fileName, LoadOptions options)
 ```
 
 
-Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
+Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -1017,7 +1017,7 @@ public void open(String fileName, LoadOptions options, Cancellation cancellation
 ```
 
 
-Opent de scène vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
+Opent de scene vanaf het opgegeven pad met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -1047,7 +1047,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -1062,12 +1062,12 @@ public void render(Camera camera, TextureData bitmap)
 ```
 
 
-Render de scène naar een bitmap vanuit het perspectief van de opgegeven camera.
+Render de scene naar een bitmap vanuit het perspectief van de opgegeven camera.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk cameraperspectief de scène moet worden gerenderd |
+| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk perspectief van de camera moet de scène worden gerenderd |
 | bitmap | [TextureData](../../com.aspose.threed/texturedata) | Doel van het gerenderde resultaat |
 
 ### render(Camera camera, TextureData bitmap, ImageRenderOptions options) {#render-com.aspose.threed.Camera-com.aspose.threed.TextureData-com.aspose.threed.ImageRenderOptions-}
@@ -1076,12 +1076,12 @@ public void render(Camera camera, TextureData bitmap, ImageRenderOptions options
 ```
 
 
-Render de scène naar een bitmap vanuit het perspectief van de opgegeven camera.
+Render de scene naar een bitmap vanuit het perspectief van de opgegeven camera.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk cameraperspectief de scène moet worden gerenderd |
+| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk perspectief van de camera moet de scène worden gerenderd |
 | bitmap | [TextureData](../../com.aspose.threed/texturedata) | Doel van het gerenderde resultaat |
 | options | [ImageRenderOptions](../../com.aspose.threed/imagerenderoptions) | De optie om enkele interne instellingen aan te passen. |
 
@@ -1091,12 +1091,12 @@ public void render(Camera camera, String fileName)
 ```
 
 
-Render de scène naar een extern bestand vanuit het opgegeven cameraperspectief. De standaard uitvoergrootte is 1024x768 en het uitvoerformaat is png
+Render de scène naar een extern bestand vanuit het gegeven cameraperspectief. De standaard uitvoergrootte is 1024x768 en het uitvoerformaat is png
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk cameraperspectief de scène moet worden gerenderd |
+| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk perspectief van de camera moet de scène worden gerenderd |
 | fileName | java.lang.String | De bestandsnaam van het uitvoerbestand |
 
 ### render(Camera camera, String fileName, Vector2 size, String format) {#render-com.aspose.threed.Camera-java.lang.String-com.aspose.threed.Vector2-java.lang.String-}
@@ -1105,12 +1105,12 @@ public void render(Camera camera, String fileName, Vector2 size, String format)
 ```
 
 
-Render de scène naar een extern bestand vanuit het perspectief van de opgegeven camera.
+Render de scene naar een extern bestand vanuit het perspectief van de opgegeven camera.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk cameraperspectief de scène moet worden gerenderd |
+| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk perspectief van de camera moet de scène worden gerenderd |
 | fileName | java.lang.String | De bestandsnaam van het uitvoerbestand |
 | size | [Vector2](../../com.aspose.threed/vector2) | De grootte van de uiteindelijke gerenderde afbeelding |
 | formaat | java.lang.String | Het afbeeldingsformaat van het uitvoerbestand |
@@ -1121,12 +1121,12 @@ public void render(Camera camera, String fileName, Vector2 size, String format, 
 ```
 
 
-Render de scène naar een extern bestand vanuit het perspectief van de opgegeven camera.
+Render de scene naar een extern bestand vanuit het perspectief van de opgegeven camera.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk cameraperspectief de scène moet worden gerenderd |
+| camera | [Camera](../../com.aspose.threed/camera) | Vanuit welk perspectief van de camera moet de scène worden gerenderd |
 | fileName | java.lang.String | De bestandsnaam van het uitvoerbestand |
 | size | [Vector2](../../com.aspose.threed/vector2) | De grootte van de uiteindelijke gerenderde afbeelding |
 | formaat | java.lang.String | Het afbeeldingsformaat van het uitvoerbestand |
@@ -1138,7 +1138,7 @@ public void save(Stream stream, FileFormat format)
 ```
 
 
-Slaat de scène op naar een stream met het gespecificeerde bestandsformaat.
+Slaat de scene op in een stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -1152,14 +1152,14 @@ public void save(Stream stream, FileFormat format, Cancellation cancellationToke
 ```
 
 
-Slaat de scène op naar een stream met het gespecificeerde bestandsformaat.
+Slaat de scene op in een stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | stream | [Stream](../../com.aspose.threed/stream) | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | Formaat. |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslagtaken |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslaataak |
 
 ### save(Stream stream, SaveOptions options) {#save-com.aspose.threed.Stream-com.aspose.threed.SaveOptions-}
 ```
@@ -1167,7 +1167,7 @@ public void save(Stream stream, SaveOptions options)
 ```
 
 
-Slaat de scène op naar een stream met het gespecificeerde bestandsformaat.
+Slaat de scene op in een stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -1181,14 +1181,14 @@ public void save(Stream stream, SaveOptions options, Cancellation cancellationTo
 ```
 
 
-Slaat de scène op naar een stream met het gespecificeerde bestandsformaat.
+Slaat de scene op in een stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | stream | [Stream](../../com.aspose.threed/stream) | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 | options | [SaveOptions](../../com.aspose.threed/saveoptions) | Gedetailleerdere configuratie om de stream op te slaan. |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslagtaken |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslaataak |
 
 ### save(OutputStream stream, FileFormat format) {#save-java.io.OutputStream-com.aspose.threed.FileFormat-}
 ```
@@ -1196,13 +1196,13 @@ public void save(OutputStream stream, FileFormat format)
 ```
 
 
-Slaat de scène op naar een stream met het gespecificeerde bestandsformaat.
+Slaat de scene op in een stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
-|  | format | [FileFormat](../../com.aspose.threed/fileformat) | Formaat. **Example:** De volgende code toont hoe de scène op te slaan |
+| stroom | java.io.OutputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+|  | format | [FileFormat](../../com.aspose.threed/fileformat) | Formaat. **Voorbeeld:** De volgende code laat zien hoe je een scène opslaat |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1218,14 +1218,14 @@ public void save(OutputStream stream, FileFormat format, Cancellation cancellati
 ```
 
 
-Slaat de scène op naar een stream met het gespecificeerde bestandsformaat.
+Slaat de scene op in een stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+| stroom | java.io.OutputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | Formaat. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslagtaken **Example:** De volgende code toont hoe de scène op te slaan |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslaataak **Voorbeeld:** De volgende code laat zien hoe je een scène opslaat |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1242,13 +1242,13 @@ public void save(OutputStream stream, SaveOptions options)
 ```
 
 
-Slaat de scène op naar een stream met het gespecificeerde bestandsformaat.
+Slaat de scene op in een stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
-|  | options | [SaveOptions](../../com.aspose.threed/saveoptions) | Gedetailleerdere configuratie om de stream op te slaan. **Example:** De volgende code toont hoe de scène op te slaan |
+| stroom | java.io.OutputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+|  | options | [SaveOptions](../../com.aspose.threed/saveoptions) | Gedetailleerdere configuratie om de stream op te slaan. **Voorbeeld:** De volgende code laat zien hoe je een scène opslaat |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1266,14 +1266,14 @@ public void save(OutputStream stream, SaveOptions options, Cancellation cancella
 ```
 
 
-Slaat de scène op naar een stream met het gespecificeerde bestandsformaat.
+Slaat de scene op in een stream met het gespecificeerde bestandsformaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| stream | java.io.OutputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
+| stroom | java.io.OutputStream | Invoerstroom, de gebruiker is verantwoordelijk voor het sluiten van de stream. |
 | options | [SaveOptions](../../com.aspose.threed/saveoptions) | Gedetailleerdere configuratie om de stream op te slaan. |
-|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslagtaken **Example:** De volgende code toont hoe de scène op te slaan |
+|  | cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslaataak **Voorbeeld:** De volgende code laat zien hoe je een scène opslaat |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");    
@@ -1326,7 +1326,7 @@ Slaat de scène op naar het opgegeven pad met het opgegeven bestandsformaat.
 | --- | --- | --- |
 | fileName | java.lang.String | Bestandsnaam. |
 | format | [FileFormat](../../com.aspose.threed/fileformat) | Formaat. |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslagtaken |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslaataak |
 
 ### save(String fileName, SaveOptions options) {#save-java.lang.String-com.aspose.threed.SaveOptions-}
 ```
@@ -1355,7 +1355,7 @@ Slaat de scène op naar het opgegeven pad met het opgegeven bestandsformaat.
 | --- | --- | --- |
 | fileName | java.lang.String | Bestandsnaam. |
 | options | [SaveOptions](../../com.aspose.threed/saveoptions) | Gedetailleerdere configuratie om de stream op te slaan. |
-| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslagtaken |
+| cancellationToken | [Cancellation](../../com.aspose.threed/cancellation) | Annulerings-token voor de opslaataak |
 
 ### setAssetInfo(AssetInfo value) {#setAssetInfo-com.aspose.threed.AssetInfo-}
 ```
@@ -1368,7 +1368,7 @@ Stelt de top-level asset-informatie in
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [AssetInfo](../../com.aspose.threed/assetinfo) | Nieuwe waarde **Example:** De volgende code toont hoe de toepassingsinformatie uit een FBX-bestand te lezen: |
+|  | value | [AssetInfo](../../com.aspose.threed/assetinfo) | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe je de toepassingsinformatie uit een FBX-bestand leest: |
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -1409,12 +1409,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}

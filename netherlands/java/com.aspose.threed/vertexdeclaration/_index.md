@@ -1,7 +1,7 @@
 ---
 title: "VertexDeclaration"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De declaratie van een aangepaste vertexstructuur."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De declaratie van een zelfgedefinieerde vertices-structuur."
 type: docs
 weight: 206
 url: /nl/java/com.aspose.threed/vertexdeclaration/
@@ -33,10 +33,10 @@ De declaratie van een aangepaste vertexstructuur
 | [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | Vergelijkt deze instantie met een opgegeven object en geeft een indicatie van hun relatieve waarden terug. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Bepaalt of deze instantie en een opgegeven object, dat ook een [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)-object moet zijn, dezelfde waarde hebben. |
 | [fromGeometry(Geometry geometry, boolean useFloat)](#fromGeometry-com.aspose.threed.Geometry-boolean-) | Maak een [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) op basis van de lay-out van een [Geometry](../../com.aspose.threed/geometry). |
-| [get(int index)](#get-int-) | Haalt het [VertexField](../../com.aspose.threed/vertexfield) op op index. |
+| [get(int index)](#get-int-) | Haalt de [VertexField](../../com.aspose.threed/vertexfield) op op index. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Haalt het aantal van alle velden op die zijn gedefinieerd in deze [VertexDeclaration](../../com.aspose.threed/vertexdeclaration). |
-| [getSealed()](#getSealed--) | Een [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) wordt verzegeld wanneer deze is gebruikt door [TriMesh](../../com.aspose.threed/trimesg), verdere wijzigingen zijn niet toegestaan. |
+| [getSealed()](#getSealed--) | Een [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) wordt verzegeld wanneer deze is gebruikt door [TriMesh](../../com.aspose.threed/trimesh); verdere wijzigingen zijn niet toegestaan. |
 | [getSize()](#getSize--) | De grootte in bytes van de vertexstructuur. |
 | [hashCode()](#hashCode--) | Retourneert de hashcode voor deze string. |
 | [iterator()](#iterator--) | Haalt een enumerator op om door alle vertexvelden in deze instantie te lopen. |
@@ -64,7 +64,7 @@ Voeg een nieuw vertexveld toe.
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | dataType | int | Het gegevenstype van het vertexveld. |
-| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Hoe zal dit veld worden gebruikt |
+| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Waar zal dit veld voor worden gebruikt |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield)
@@ -80,7 +80,7 @@ Voeg een nieuw vertexveld toe.
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | dataType | int | Het gegevenstype van het vertexveld. |
-| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Hoe zal dit veld worden gebruikt |
+| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Waar zal dit veld voor worden gebruikt |
 | index | int | De index voor dezelfde veldsemantiek, -1 voor automatische generatie |
 
 **Returns:**
@@ -97,7 +97,7 @@ Voeg een nieuw vertexveld toe.
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | dataType | int | Het gegevenstype van het vertexveld. |
-| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Hoe zal dit veld worden gebruikt |
+| semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | Waar zal dit veld voor worden gebruikt |
 | index | int | De index voor dezelfde veldsemantiek, -1 voor automatische generatie |
 | alias | java.lang.String | De aliasnaam van het veld |
 
@@ -163,7 +163,7 @@ public VertexField get(int index)
 ```
 
 
-Haalt het [VertexField](../../com.aspose.threed/vertexfield) op op index.
+Haalt de [VertexField](../../com.aspose.threed/vertexfield) op op index.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -198,10 +198,10 @@ public boolean getSealed()
 ```
 
 
-Een [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) wordt verzegeld wanneer deze is gebruikt door [TriMesh](../../com.aspose.threed/trimesg), verdere wijzigingen zijn niet toegestaan.
+Een [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) wordt verzegeld wanneer deze is gebruikt door [TriMesh](../../com.aspose.threed/trimesh); verdere wijzigingen zijn niet toegestaan.
 
 **Returns:**
-boolean - Een [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) wordt verzegeld wanneer deze is gebruikt door [TriMesh](../../com.aspose.threed/trimesh), verdere wijzigingen zijn niet toegestaan.
+boolean - Een [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) wordt verzegeld wanneer het is gebruikt door [TriMesh](../../com.aspose.threed/trimesh), verdere wijzigingen zijn niet toegestaan.
 ### getSize() {#getSize--}
 ```
 public int getSize()

@@ -1,7 +1,7 @@
 ---
 title: "BoneLinkMode"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een botkoppelingsmodus verwijst naar de manier waarop een bot is verbonden of gekoppeld aan zijn bovenliggende bot binnen een hiërarchische structuur."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een BoneLinkMode verwijst naar de manier waarop een bot is verbonden of gekoppeld aan zijn bovenliggende bot binnen een hiërarchische structuur."
 type: docs
 weight: 267
 url: /nl/java/com.aspose.threed/bonelinkmode/
@@ -18,7 +18,7 @@ De linkmodus van een bot verwijst naar de manier waarop een bot is verbonden of 
 
 | Veld | Beschrijving |
 | --- | --- |
-| [ADDITIVE](#ADDITIVE) | Additiemodus berekent de transformaties van kindbotten door hun eigen lokale transformaties toe te voegen aan die van hun bovenliggende botten. |
+| [ADDITIVE](#ADDITIVE) | Additieve modus berekent de transformaties van kindbotten door hun eigen lokale transformaties op te tellen bij die van hun bovenliggende botten. |
 | [NORMALIZE](#NORMALIZE) | In deze modus worden de transformaties van kindbotten genormaliseerd ten opzichte van de transformaties van hun bovenliggende bot. |
 | [TOTAL_ONE](#TOTAL-ONE) | Total One zorgt ervoor dat de gecombineerde transformaties van het bovenliggende en kindbot resulteren in een gecombineerde transformatie die schaalt tot een totale lengte van één eenheid. |
 ## Methoden
@@ -48,7 +48,7 @@ public static final BoneLinkMode ADDITIVE
 ```
 
 
-Additiemodus berekent de transformaties van kindbotten door hun eigen lokale transformaties toe te voegen aan die van hun bovenliggende botten.
+Additieve modus berekent de transformaties van kindbotten door hun eigen lokale transformaties op te tellen bij die van hun bovenliggende botten.
 
 ### NORMALIZE {#NORMALIZE}
 ```

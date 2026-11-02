@@ -1,6 +1,6 @@
 ---
 title: "DrawOperation"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De primitieve typen om te renderen"
 type: docs
 weight: 277

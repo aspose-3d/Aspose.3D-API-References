@@ -1,6 +1,6 @@
 ---
 title: "PoseType"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Pose-type."
 type: docs
 weight: 293
@@ -19,7 +19,7 @@ Pose-type.
 | Veld | Beschrijving |
 | --- | --- |
 | [BIND_POSE](#BIND-POSE) | De bindpose. |
-| [SNAPSHOT](#SNAPSHOT) | De restpose, betekent dat het een momentopname van de bindpose is. |
+| [SNAPSHOT](#SNAPSHOT) | De rustpose, betekent dat het een momentopname van de bindpose is. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -55,7 +55,7 @@ public static final PoseType SNAPSHOT
 ```
 
 
-De restpose, betekent dat het een momentopname van de bindpose is.
+De rustpose, betekent dat het een momentopname van de bindpose is.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

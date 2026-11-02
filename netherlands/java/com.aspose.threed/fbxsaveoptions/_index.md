@@ -1,7 +1,7 @@
 ---
 title: "FbxSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Opslagopties voor een Fbx-bestand."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Opslagopties voor Fbx-bestand."
 type: docs
 weight: 63
 url: /nl/java/com.aspose.threed/fbxsaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class FbxSaveOptions extends SaveOptions
 ```
 
-Opslagopties voor een Fbx-bestand.
+Opslagopties voor Fbx-bestand.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -29,16 +29,16 @@ Opslagopties voor een Fbx-bestand.
 | [getEmbedTextures()](#getEmbedTextures--) | Bepaalt of de textuur in het uiteindelijke uitvoerbestand moet worden ingebed. |
 | [getEnableCompression()](#getEnableCompression--) | Compressie van grote binaire gegevens in het FBX‑bestand (bijv. |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportLegacyMaterialProperties()](#getExportLegacyMaterialProperties--) | Bepaalt of verouderde materiaaleigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportLegacyMaterialProperties()](#getExportLegacyMaterialProperties--) | Bepaalt of legacy‑materiaal‑eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | Bepaalt of herhaalde curve‑gegevens opnieuw moeten worden gebruikt door de referentietelling van de laatste gegevens te verhogen |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getFoldRepeatedCurveData()](#getFoldRepeatedCurveData--) | Bepaalt of herhaald curve‑data moet worden hergebruikt door de referentietelling van de laatste data te verhogen |
 | [getGenerateVertexElementMaterial()](#getGenerateVertexElementMaterial--) | Bepaalt of er altijd een [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) moet worden gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | Herbruik het mesh voor de primitives met dezelfde parameters; dit zal de grootte van de FBX‑output aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD‑bestanden). |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [getReusePrimitiveMesh()](#getReusePrimitiveMesh--) | Herbruik het mesh voor de primitieve objecten met dezelfde parameters; dit zal de grootte van de FBX‑output aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (bijv. geïmporteerd uit CAD‑bestanden). |
 | [getVideoForTexture()](#getVideoForTexture--) | Bepaalt of er een Video‑instantie wordt gegenereerd voor [Texture](../../com.aspose.threed/texture) bij het exporteren als FBX. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -46,15 +46,15 @@ Opslagopties voor een Fbx-bestand.
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | Stelt in of de textuur in het uiteindelijke uitvoerbestand moet worden ingebed. |
 | [setEnableCompression(boolean value)](#setEnableCompression-boolean-) | Compressie van grote binaire gegevens in het FBX‑bestand (bijv. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
-| [setExportLegacyMaterialProperties(boolean value)](#setExportLegacyMaterialProperties-boolean-) | Stelt in of verouderde materiaaleigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExportLegacyMaterialProperties(boolean value)](#setExportLegacyMaterialProperties-boolean-) | Stelt in of legacy‑materiaal‑eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
-| [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | Stelt in of herhaalde curve‑gegevens opnieuw moeten worden gebruikt door de referentietelling van de laatste gegevens te verhogen |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
+| [setFoldRepeatedCurveData(Boolean value)](#setFoldRepeatedCurveData-java.lang.Boolean-) | Stelt in of herhaald curve‑data moet worden hergebruikt door de referentietelling van de laatste data te verhogen |
 | [setGenerateVertexElementMaterial(boolean value)](#setGenerateVertexElementMaterial-boolean-) | Stelt in of er altijd een [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) moet worden gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | Herbruik het mesh voor de primitives met dezelfde parameters; dit zal de grootte van de FBX‑output aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD‑bestanden). |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [setReusePrimitiveMesh(boolean value)](#setReusePrimitiveMesh-boolean-) | Herbruik het mesh voor de primitieve objecten met dezelfde parameters; dit zal de grootte van de FBX‑output aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (bijv. geïmporteerd uit CAD‑bestanden). |
 | [setVideoForTexture(boolean value)](#setVideoForTexture-boolean-) | Stelt in of er een Video‑instantie wordt gegenereerd voor [Texture](../../com.aspose.threed/texture) bij het exporteren als FBX. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -117,20 +117,20 @@ public boolean getEmbedTextures()
 ```
 
 
-Bepaalt of de textuur in het uiteindelijke uitvoerbestand moet worden ingebed. De FBX‑exporteur probeert de ruwe gegevens van de textuur te vinden via [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) en embedde het bestand in het uiteindelijke FBX‑bestand. Standaardwaarde is false.
+Bepaalt of de textuur in het uiteindelijke uitvoerbestand moet worden ingebed. De FBX‑exporteur zal proberen de ruwe gegevens van de textuur te vinden via [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) en het bestand in het uiteindelijke FBX‑bestand inbedden. Standaardwaarde is false.
 
 **Returns:**
-boolean - of de textuur in het uiteindelijke uitvoerbestand moet worden ingebed. De FBX‑exporteur probeert de ruwe gegevens van de textuur te vinden via [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) en embedde het bestand in het uiteindelijke FBX‑bestand. Standaardwaarde is false.
+boolean - of de textuur in het uiteindelijke uitvoerbestand moet worden ingebed. De FBX‑exporteur zal proberen de ruwe gegevens van de textuur te vinden via [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) en het bestand in het uiteindelijke FBX‑bestand inbedden. Standaardwaarde is false.
 ### getEnableCompression() {#getEnableCompression--}
 ```
 public boolean getEnableCompression()
 ```
 
 
-Compressie van grote binaire gegevens in het FBX‑bestand (bijv. animatiegegevens, controlepunten, vertex‑elementgegevens, indexen), standaardwaarde is true.
+Compressie van grote binaire gegevens in het FBX‑bestand (bijv. animatiegegevens, controlepunten, vertex‑element‑data, indexen), standaardwaarde is true.
 
 **Returns:**
-boolean - Compressie van grote binaire gegevens in het FBX‑bestand (bijv. animatiegegevens, controlepunten, vertex‑elementgegevens, indexen), standaardwaarde is true.
+boolean - Compressie van grote binaire gegevens in het FBX‑bestand (bijv. animatiegegevens, controlepunten, vertex‑element‑data, indexen), standaardwaarde is true.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -147,17 +147,17 @@ public boolean getExportLegacyMaterialProperties()
 ```
 
 
-Bepaalt of verouderde materiaaleigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie is standaard ingeschakeld.
+Bepaalt of legacy‑materiaal‑eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie staat standaard aan.
 
 **Returns:**
-boolean - of verouderde materiaaleigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie is standaard ingeschakeld.
+boolean - of legacy‑materiaal‑eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie staat standaard aan.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -167,7 +167,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -177,10 +177,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -221,7 +221,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -250,30 +250,30 @@ public Boolean getFoldRepeatedCurveData()
 ```
 
 
-Bepaalt of herhaalde curve‑gegevens opnieuw moeten worden gebruikt door de referentietelling van de laatste gegevens te verhogen
+Bepaalt of herhaald curve‑data moet worden hergebruikt door de referentietelling van de laatste data te verhogen
 
 **Returns:**
-java.lang.Boolean - of herhaalde curve‑gegevens opnieuw moeten worden gebruikt door de referentietelling van de laatste gegevens te verhogen
+java.lang.Boolean - of herhaald curve‑data moet worden hergebruikt door de referentietelling van de laatste data te verhogen
 ### getGenerateVertexElementMaterial() {#getGenerateVertexElementMaterial--}
 ```
 public boolean getGenerateVertexElementMaterial()
 ```
 
 
-Bepaalt of er altijd een [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) moet worden gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit is standaard uitgeschakeld.
+Bepaalt of er altijd een [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) moet worden gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit staat standaard uit.
 
 **Returns:**
-boolean - of er altijd een [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) moet worden gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit is standaard uitgeschakeld.
+boolean - of er altijd een [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) moet worden gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit staat standaard uit.
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -288,10 +288,10 @@ public boolean getReusePrimitiveMesh()
 ```
 
 
-Herbruik het mesh voor de primitives met dezelfde parameters; dit zal de grootte van de FBX‑output aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD‑bestanden). Standaardwaarde is false
+Herbruik het mesh voor de primitieve objecten met dezelfde parameters; dit zal de grootte van de FBX‑output aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (bijv. geïmporteerd uit CAD‑bestanden). Standaardwaarde is false
 
 **Returns:**
-boolean - Hergebruik het mesh voor de primitives met dezelfde parameters, dit zal de grootte van de FBX‑uitvoer aanzienlijk verkleinen, aangezien de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD‑bestanden). Standaardwaarde is false
+boolean - Hergebruik het mesh voor de primitives met dezelfde parameters, dit zal de grootte van de FBX-uitvoer aanzienlijk verkleinen, die scène werd geconstrueerd door een grote set primitieve vormen (zoals geïmporteerd uit CAD‑bestanden). Standaardwaarde is false
 ### getVideoForTexture() {#getVideoForTexture--}
 ```
 public boolean getVideoForTexture()
@@ -301,7 +301,7 @@ public boolean getVideoForTexture()
 Bepaalt of er een Video‑instantie wordt gegenereerd voor [Texture](../../com.aspose.threed/texture) bij het exporteren als FBX.
 
 **Returns:**
-boolean - of er een Video‑instantie wordt gegenereerd voor [Texture](../../com.aspose.threed/texture) bij het exporteren als FBX.
+boolean - of er een Video‑instantie wordt gegenereerd voor [Texture](../../com.aspose.threed/texture) wanneer geëxporteerd als FBX.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -334,7 +334,7 @@ public void setEmbedTextures(boolean value)
 ```
 
 
-Stelt in of de texture moet worden ingebed in het uiteindelijke uitvoerbestand. De FBX‑Exporter probeert de ruwe data van de texture te vinden via [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem) en embed het bestand in het definitieve FBX‑bestand. Standaardwaarde is false.
+Stelt in of de texture moet worden ingebed in het uiteindelijke uitvoerbestand. FBX Exporter zal proberen de ruwe gegevens van de texture te vinden via [IOConfig.getFileSystem](../../com.aspose.threed/ioconfig\#getFileSystem), en het bestand in het uiteindelijke FBX‑bestand inbedden. Standaardwaarde is false.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -347,7 +347,7 @@ public void setEnableCompression(boolean value)
 ```
 
 
-Compressie van grote binaire gegevens in het FBX‑bestand (bijv. animatiegegevens, controlepunten, vertex‑elementgegevens, indexen), standaardwaarde is true.
+Compressie van grote binaire gegevens in het FBX‑bestand (bijv. animatiegegevens, controlepunten, vertex‑element‑data, indexen), standaardwaarde is true.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -373,7 +373,7 @@ public void setExportLegacyMaterialProperties(boolean value)
 ```
 
 
-Stelt in of legacy‑materiaal‑eigenschappen worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie is standaard ingeschakeld.
+Stelt in of legacy‑materiaal‑eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie staat standaard aan.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -386,7 +386,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -399,7 +399,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -417,7 +417,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -449,7 +449,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -481,7 +481,7 @@ public void setFoldRepeatedCurveData(Boolean value)
 ```
 
 
-Stelt in of herhaalde curve‑gegevens opnieuw moeten worden gebruikt door de referentietelling van de laatste gegevens te verhogen
+Stelt in of herhaald curve‑data moet worden hergebruikt door de referentietelling van de laatste data te verhogen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -494,7 +494,7 @@ public void setGenerateVertexElementMaterial(boolean value)
 ```
 
 
-Stelt in of er altijd een [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) wordt gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit is standaard uitgeschakeld.
+Stelt in of er altijd een [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) wordt gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit staat standaard uit.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -507,12 +507,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();
@@ -528,7 +528,7 @@ public void setReusePrimitiveMesh(boolean value)
 ```
 
 
-Herbruik het mesh voor de primitives met dezelfde parameters; dit zal de grootte van de FBX‑output aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD‑bestanden). Standaardwaarde is false
+Herbruik het mesh voor de primitieve objecten met dezelfde parameters; dit zal de grootte van de FBX‑output aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (bijv. geïmporteerd uit CAD‑bestanden). Standaardwaarde is false
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

@@ -1,7 +1,7 @@
 ---
 title: "ColladaTransformStyle"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De transformatiestijl van het knooppunt"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De transformatie‑stijl van de node"
 type: docs
 weight: 270
 url: /nl/java/com.aspose.threed/colladatransformstyle/
@@ -13,13 +13,13 @@ java.lang.Object, java.lang.Enum
 public enum ColladaTransformStyle extends Enum<ColladaTransformStyle>
 ```
 
-De transformatiesstijl van het knooppunt.
+De transformatiestijl van het knooppunt
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [COMPONENTS](#COMPONENTS) | Exporteer de transformatie van het knooppunt als rotate/scale/translate |
-| [MATRIX](#MATRIX) | Exporteer de transformatie van het knooppunt als matrix |
+| [COMPONENTS](#COMPONENTS) | Exporteer de transformatie van de node als rotate/scale/translate |
+| [MATRIX](#MATRIX) | Exporteer de transformatie van de node als matrix |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -47,7 +47,7 @@ public static final ColladaTransformStyle COMPONENTS
 ```
 
 
-Exporteer de transformatie van het knooppunt als rotate/scale/translate
+Exporteer de transformatie van de node als rotate/scale/translate
 
 ### MATRIX {#MATRIX}
 ```
@@ -55,7 +55,7 @@ public static final ColladaTransformStyle MATRIX
 ```
 
 
-Exporteer de transformatie van het knooppunt als matrix
+Exporteer de transformatie van de node als matrix
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

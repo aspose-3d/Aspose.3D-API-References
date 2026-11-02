@@ -1,7 +1,7 @@
 ---
 title: "Sphere"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Geparameteriseerde bol."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Geparametriseerde bol."
 type: docs
 weight: 174
 url: /nl/java/com.aspose.threed/sphere/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Sphere extends Primitive
 ```
 
-Geparameteriseerde bol.
+Geparametriseerde bol.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -28,22 +28,22 @@ Geparameteriseerde bol.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
-| [getCastShadows()](#getCastShadows--) | Geeft aan of deze geometrie schaduwen kan werpen |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
+| [getCastShadows()](#getCastShadows--) | Geeft of deze geometrie schaduw kan werpen |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getHeightSegments()](#getHeightSegments--) | Haalt de hoogtesegmenten op. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
 | [getPhiLength()](#getPhiLength--) | Haalt de lengte van de phi op. |
 | [getPhiStart()](#getPhiStart--) | Haalt de phi-start op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getRadius()](#getRadius--) | Haalt de straal van de bol op. |
-| [getReceiveShadows()](#getReceiveShadows--) | Geeft aan of deze geometrie schaduwen kan ontvangen. |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getReceiveShadows()](#getReceiveShadows--) | Geeft of deze geometrie schaduw kan ontvangen. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [getThetaLength()](#getThetaLength--) | Haalt de lengte van de theta op. |
 | [getThetaStart()](#getThetaStart--) | Haalt de theta-start op. |
 | [getWidthSegments()](#getWidthSegments--) | Haalt de breedtesegmenten op. |
@@ -51,21 +51,21 @@ Geparameteriseerde bol.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Stelt in of deze geometrie schaduwen kan werpen |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Stelt in of deze geometrie schaduw kan werpen |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setHeightSegments(int value)](#setHeightSegments-int-) | Stelt de hoogte segmenten in. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
 | [setPhiLength(double value)](#setPhiLength-double-) | Stelt de lengte van de phi in. |
 | [setPhiStart(double value)](#setPhiStart-double-) | Stelt de phi start in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setRadius(double value)](#setRadius-double-) | Stelt de radius van de bol in. |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Stelt in of deze geometrie schaduwen kan ontvangen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setRadius(double value)](#setRadius-double-) | Stelt de straal van de bol in. |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Stelt in of deze geometrie schaduw kan ontvangen. |
 | [setThetaLength(double value)](#setThetaLength-double-) | Stelt de lengte van de theta in. |
 | [setThetaStart(double value)](#setThetaStart-double-) | Stelt de theta start in. |
 | [setWidthSegments(int value)](#setWidthSegments-int-) | Stelt de breedtesegmenten in. |
-| [toMesh()](#toMesh--) | Converteer huidig object naar mesh |
+| [toMesh()](#toMesh--) | Converteer het huidige object naar mesh |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -89,7 +89,7 @@ Initialiseert een nieuw exemplaar van de [Sphere](../../com.aspose.threed/sphere
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| radius | double | Radius. |
+| radius | double | Straal. |
 
 ### Sphere(double radius, int widthSegments, int heightSegments) {#Sphere-double-int-int-}
 ```
@@ -102,7 +102,7 @@ Initialiseert een nieuw exemplaar van de [Sphere](../../com.aspose.threed/sphere
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| radius | double | Radius van de bol. |
+| radius | double | Straal van de bol. |
 | widthSegments | int | Breedte segmenten. |
 | heightSegments | int | Hoogte segmenten. |
 
@@ -118,7 +118,7 @@ Initialiseert een nieuw exemplaar van de [Sphere](../../com.aspose.threed/sphere
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | naam | java.lang.String | Naam. |
-| radius | double | Radius van de bol. |
+| radius | double | Straal van de bol. |
 | widthSegments | int | Breedte segmenten. |
 | heightSegments | int | Hoogte segmenten. |
 | phiStart | double | Phi start. |
@@ -152,7 +152,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -162,7 +162,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -179,10 +179,10 @@ public boolean getCastShadows()
 ```
 
 
-Geeft aan of deze geometrie schaduwen kan werpen
+Geeft of deze geometrie schaduw kan werpen
 
 **Returns:**
-boolean - of deze geometrie schaduw kan werpen
+boolean - of deze geometrie een schaduw kan werpen
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -199,7 +199,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -209,10 +209,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getHeightSegments() {#getHeightSegments--}
 ```
 public int getHeightSegments()
@@ -239,7 +239,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -249,7 +249,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -279,7 +279,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -289,12 +289,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -307,14 +307,14 @@ public double getRadius()
 Haalt de straal van de bol op.
 
 **Returns:**
-double - de radius van de bol.
+double - de straal van de bol.
 ### getReceiveShadows() {#getReceiveShadows--}
 ```
 public boolean getReceiveShadows()
 ```
 
 
-Geeft aan of deze geometrie schaduwen kan ontvangen.
+Geeft of deze geometrie schaduw kan ontvangen.
 
 **Returns:**
 boolean - of deze geometrie schaduw kan ontvangen.
@@ -324,7 +324,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -405,7 +405,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -420,7 +420,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-Stelt in of deze geometrie schaduwen kan werpen
+Stelt in of deze geometrie schaduw kan werpen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -433,7 +433,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -472,7 +472,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -511,12 +511,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setRadius(double value) {#setRadius-double-}
@@ -525,7 +525,7 @@ public void setRadius(double value)
 ```
 
 
-Stelt de radius van de bol in.
+Stelt de straal van de bol in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -538,7 +538,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-Stelt in of deze geometrie schaduwen kan ontvangen.
+Stelt in of deze geometrie schaduw kan ontvangen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -590,7 +590,7 @@ public Mesh toMesh()
 ```
 
 
-Converteer huidig object naar mesh
+Converteer het huidige object naar mesh
 
 **Returns:**
 [Mesh](../../com.aspose.threed/mesh) - The mesh.

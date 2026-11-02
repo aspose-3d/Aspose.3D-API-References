@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.PropertyTable"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Eigenschapstabel."
 type: docs
 weight: 14
@@ -18,21 +18,21 @@ Eigenschapstabel.
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [PropertyTable(String name, StructuralMetadata.ClassType mclass)](#PropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | Constructor van de property table. |
+| [PropertyTable(String name, StructuralMetadata.ClassType mclass)](#PropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | Constructor van de eigenschapstabel. |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [addValue(StructuralMetadata.Property prop, Object value)](#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-) | Voeg een nieuwe eigenschap toe aan de property table. |
-| [addValue(String propName, Object value)](#addValue-java.lang.String-java.lang.Object-) | Voeg een nieuwe eigenschap toe aan de property table. |
-| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | Koppel de huidige property table aan de opgegeven gebruikersgegevens |
+| [addValue(StructuralMetadata.Property prop, Object value)](#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-) | Voeg een nieuwe eigenschap toe aan de eigenschapstabel. |
+| [addValue(String propName, Object value)](#addValue-java.lang.String-java.lang.Object-) | Voeg een nieuwe eigenschap toe aan de eigenschapstabel. |
+| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | Koppel de huidige eigenschapstabel aan de opgegeven gebruikersgegevens. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | Extraheer de gekoppelde property table uit de opgegeven gebruikersgegevens |
+| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | Extraheer de gekoppelde eigenschapstabel uit de opgegeven gebruikersgegevens. |
 | [getClass()](#getClass--) |  |
-| [getMetaClass()](#getMetaClass--) | De meta‑klasse van deze property table. |
-| [getName()](#getName--) | Naam van de property table. |
-| [getValue(String name)](#getValue-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschapsnaam |
-| [getValues()](#getValues--) | Waarden van de property table. |
+| [getMetaClass()](#getMetaClass--) | De meta‑klasse van deze eigenschapstabel. |
+| [getName()](#getName--) | Naam van de eigenschapstabel. |
+| [getValue(String name)](#getValue-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschapsnaam. |
+| [getValues()](#getValues--) | Waarden van de eigenschapstabel. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,13 +46,13 @@ public PropertyTable(String name, StructuralMetadata.ClassType mclass)
 ```
 
 
-Constructor van de property table.
+Constructor van de eigenschapstabel.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | naam | java.lang.String | De naam van deze tabelinstantie. |
-| mclass | [ClassType](../../com.aspose.threed/classtype) | De meta‑klassedefinitie van deze property table |
+| mclass | [ClassType](../../com.aspose.threed/classtype) | De definitie van de meta‑klasse van deze eigenschapstabel |
 
 ### addValue(StructuralMetadata.Property prop, Object value) {#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-}
 ```
@@ -60,7 +60,7 @@ public void addValue(StructuralMetadata.Property prop, Object value)
 ```
 
 
-Voeg een nieuwe eigenschap toe aan de property table.
+Voeg een nieuwe eigenschap toe aan de eigenschapstabel.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -74,7 +74,7 @@ public void addValue(String propName, Object value)
 ```
 
 
-Voeg een nieuwe eigenschap toe aan de property table.
+Voeg een nieuwe eigenschap toe aan de eigenschapstabel.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -88,7 +88,7 @@ public void attach(VertexElementUserData userData)
 ```
 
 
-Koppel de huidige property table aan de opgegeven gebruikersgegevens
+Koppel de huidige eigenschapstabel aan de opgegeven gebruikersgegevens.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -116,12 +116,12 @@ public static StructuralMetadata.PropertyTable from(VertexElementUserData userDa
 ```
 
 
-Extraheer de gekoppelde property table uit de opgegeven gebruikersgegevens
+Extraheer de gekoppelde eigenschapstabel uit de opgegeven gebruikersgegevens.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | De gebruikersgegevens die geassocieerd zijn met een property table |
+| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | De gebruikersgegevens die geassocieerd zijn met een eigenschapstabel |
 
 **Returns:**
 [PropertyTable](../../com.aspose.threed/propertytable) - The associated property table instance
@@ -141,7 +141,7 @@ public StructuralMetadata.ClassType getMetaClass()
 ```
 
 
-De meta‑klasse van deze property table.
+De meta‑klasse van deze eigenschapstabel.
 
 **Returns:**
 [ClassType](../../com.aspose.threed/classtype) - The meta class of this property table.
@@ -151,22 +151,22 @@ public String getName()
 ```
 
 
-Naam van de property table.
+Naam van de eigenschapstabel.
 
 **Returns:**
-java.lang.String - Naam van de property table.
+java.lang.String - Naam van de eigenschapstabel.
 ### getValue(String name) {#getValue-java.lang.String-}
 ```
 public Object getValue(String name)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschapsnaam
+Haalt de waarde op van de opgegeven eigenschapsnaam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| naam | java.lang.String | Naam van eigenschap |
+| naam | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - Eigenschapswaarde of null indien niet gevonden
@@ -176,10 +176,10 @@ public HashMap<String,Object> getValues()
 ```
 
 
-Waarden van de property table.
+Waarden van de eigenschapstabel.
 
 **Returns:**
-java.util.HashMap<java.lang.String,java.lang.Object> - Waarden van de property table.
+java.util.HashMap<java.lang.String,java.lang.Object> - Waarden van de eigenschapstabel.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

@@ -1,6 +1,6 @@
 ---
 title: "PropertyCollection"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De verzameling van eigenschappen"
 type: docs
 weight: 140
@@ -27,7 +27,7 @@ De verzameling van eigenschappen
 | [get(String property)](#get-java.lang.String-) | Haalt de waarde van de eigenschap op op basis van de eigenschapsnaam. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Retourneert een enumerator die door de collectie itereert. |
+| [iterator()](#iterator--) | Retourneert een enumerator die door de collectie iterereert. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
@@ -64,7 +64,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Eigenschapnaam. |
+| eigenschap | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -124,7 +124,7 @@ public Iterator<Property> iterator()
 ```
 
 
-Retourneert een enumerator die door de collectie itereert.
+Retourneert een enumerator die door de collectie iterereert.
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.Property>

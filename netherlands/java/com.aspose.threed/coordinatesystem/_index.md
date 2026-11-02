@@ -1,7 +1,7 @@
 ---
 title: "CoordinateSystem"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Het links- of rechtshandige coördinatensysteem."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Het linkshandige of rechtshandige coördinatensysteem."
 type: docs
 weight: 273
 url: /nl/java/com.aspose.threed/coordinatesystem/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CoordinateSystem extends Enum<CoordinateSystem>
 ```
 
-Het links- of rechtshandige coördinatensysteem.
+Het linkshandige of rechtshandige coördinatensysteem.
 ## Velden
 
 | Veld | Beschrijving |

@@ -1,7 +1,7 @@
 ---
 title: "ComposeOrder"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De volgorde om de transform matrix samen te stellen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De volgorde om de transformatie-matrix samen te stellen"
 type: docs
 weight: 272
 url: /nl/java/com.aspose.threed/composeorder/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum ComposeOrder extends Enum<ComposeOrder>
 ```
 
-De volgorde om de transform matrix samen te stellen.
+De volgorde om de transformatie-matrix samen te stellen
 ## Velden
 
 | Veld | Beschrijving |

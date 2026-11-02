@@ -1,6 +1,6 @@
 ---
 title: "MemoryFileSystem"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De  zal de lees-/schrijfbewerkingen naar het geheugen mappen."
 type: docs
 weight: 95
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class MemoryFileSystem extends FileSystem
 ```
 
-De [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem) zal de lees-/schrijfbewerkingen naar het geheugen mappen. **Example:** De volgende code laat zien hoe een bestand naar het geheugen te exporteren, inclusief het afhankelijke bestand door gebruik te maken van MemoryFileSystem.
+De [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem) zal de lees-/schrijfbewerkingen naar het geheugen mappen. **Voorbeeld:** De volgende code toont hoe een bestand naar het geheugen te exporteren, inclusief het afhankelijke bestand door gebruik te maken van MemoryFileSystem.
 
 ```
 //create a scene with material
@@ -41,7 +41,7 @@ De [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem) zal de lees-/sch
 
 | Methode | Beschrijving |
 | --- | --- |
-| [close()](#close--) | Maak het bestandssysteem vrij en geef de bronnen vrij. |
+| [close()](#close--) | Dispose het bestandssysteem en geef de bronnen vrij. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFileContent(String fileName)](#getFileContent-java.lang.String-) | Retourneert de ruwe inhoud van het opgegeven bestand. |
@@ -67,7 +67,7 @@ public void close()
 ```
 
 
-Maak het bestandssysteem vrij en geef de bronnen vrij.
+Dispose het bestandssysteem en geef de bronnen vrij.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

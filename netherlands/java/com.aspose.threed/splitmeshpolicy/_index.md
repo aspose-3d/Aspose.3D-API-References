@@ -1,6 +1,6 @@
 ---
 title: "SplitMeshPolicy"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Deel vertex-/controlpointgegevens tussen sub-meshes of heeft elke sub-mesh zijn eigen gecomprimeerde gegevens."
 type: docs
 weight: 302
@@ -18,8 +18,8 @@ Deel vertex-/controlpointgegevens tussen sub-meshes of heeft elke sub-mesh zijn 
 
 | Veld | Beschrijving |
 | --- | --- |
-| [CLONE_DATA](#CLONE-DATA) | Gegevens van controlepunten en vertexelementen worden gekloond |
-| [COMPACT_DATA](#COMPACT-DATA) | Alleen gebruikte controlepunten en vertexelementen worden gekopieerd naar de sub-mesh |
+| [CLONE_DATA](#CLONE-DATA) | Controlepunten en vertex-elementgegevens worden gekloond |
+| [COMPACT_DATA](#COMPACT-DATA) | Alleen gebruikte controlepunten en vertex-elementgegevens worden gekopieerd naar de submesh |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -47,7 +47,7 @@ public static final SplitMeshPolicy CLONE_DATA
 ```
 
 
-Gegevens van controlepunten en vertexelementen worden gekloond
+Controlepunten en vertex-elementgegevens worden gekloond
 
 ### COMPACT_DATA {#COMPACT-DATA}
 ```
@@ -55,7 +55,7 @@ public static final SplitMeshPolicy COMPACT_DATA
 ```
 
 
-Alleen gebruikte controlepunten en vertexelementen worden gekopieerd naar de sub-mesh
+Alleen gebruikte controlepunten en vertex-elementgegevens worden gekopieerd naar de submesh
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

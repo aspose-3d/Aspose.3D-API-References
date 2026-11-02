@@ -1,7 +1,7 @@
 ---
 title: "EntityRendererFeatures"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De extra functies die de entity renderer zal bieden"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De extra functies die de entiteit-renderer zal bieden"
 type: docs
 weight: 54
 url: /nl/java/com.aspose.threed/entityrendererfeatures/
@@ -13,7 +13,7 @@ java.lang.Object
 public final class EntityRendererFeatures
 ```
 
-De extra functies die de entity renderer zal bieden
+De extra functies die de entiteit-renderer zal bieden
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -24,8 +24,8 @@ De extra functies die de entity renderer zal bieden
 | Veld | Beschrijving |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | Geen extra functies |
-| [FRAME_BEGIN](#FRAME-BEGIN) | De [EntityRenderer](../../com.aspose.threed/entityrenderer) zal de FrameBegin callback observeren vóór het renderen van elk scènerame |
-| [FRAME_END](#FRAME-END) | De [EntityRenderer](../../com.aspose.threed/entityrenderer) zal de FrameBegin callback observeren na het renderen van elk scènerame |
+| [FRAME_BEGIN](#FRAME-BEGIN) | De [EntityRenderer](../../com.aspose.threed/entityrenderer) zal de FrameBegin callback observeren vóór het renderen van elk scèneframe |
+| [FRAME_END](#FRAME-END) | De [EntityRenderer](../../com.aspose.threed/entityrenderer) zal de FrameBegin callback observeren na het renderen van elk scèneframe |
 | [SHADOWMAP](#SHADOWMAP) | Deze renderer kan werken in shadowmap-modus |
 ## Methoden
 
@@ -60,7 +60,7 @@ public static final byte FRAME_BEGIN
 ```
 
 
-De [EntityRenderer](../../com.aspose.threed/entityrenderer) zal de FrameBegin callback observeren vóór het renderen van elk scènerame
+De [EntityRenderer](../../com.aspose.threed/entityrenderer) zal de FrameBegin callback observeren vóór het renderen van elk scèneframe
 
 ### FRAME_END {#FRAME-END}
 ```
@@ -68,7 +68,7 @@ public static final byte FRAME_END
 ```
 
 
-De [EntityRenderer](../../com.aspose.threed/entityrenderer) zal de FrameBegin callback observeren na het renderen van elk scènerame
+De [EntityRenderer](../../com.aspose.threed/entityrenderer) zal de FrameBegin callback observeren na het renderen van elk scèneframe
 
 ### SHADOWMAP {#SHADOWMAP}
 ```

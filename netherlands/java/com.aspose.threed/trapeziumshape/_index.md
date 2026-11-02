@@ -1,6 +1,6 @@
 ---
 title: "TrapeziumShape"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "IFC-compatibele trapeziumvorm gedefinieerd door parameters."
 type: docs
 weight: 193
@@ -25,34 +25,34 @@ IFC-compatibele trapeziumvorm gedefinieerd door parameters.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBottomXDim()](#getBottomXDim--) | Haalt de omvang van de onderste lijn op gemeten langs de x-as. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getBottomXDim()](#getBottomXDim--) | Haalt de omvang van de onderste lijn op, gemeten langs de x-as. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getExtent()](#getExtent--) | Haalt de omvang in de x- en y-dimensie op. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
-| [getTopXDim()](#getTopXDim--) | Haalt de omvang van de bovenste lijn op gemeten langs de x-as. |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
+| [getTopXDim()](#getTopXDim--) | Haalt de omvang van de bovenste lijn op, gemeten langs de x-as. |
 | [getTopXOffset()](#getTopXOffset--) | Haalt de offset op van het begin van de bovenste lijn tot de onderste lijn. |
-| [getYDim()](#getYDim--) | Haalt de afstand tussen de boven- en onderlijn op gemeten langs de y-as. |
+| [getYDim()](#getYDim--) | Haalt de afstand tussen de bovenste en onderste lijnen op, gemeten langs de y-as. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setBottomXDim(double value)](#setBottomXDim-double-) | Stelt de omvang van de onderste lijn in gemeten langs de x-as. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setBottomXDim(double value)](#setBottomXDim-double-) | Stelt de omvang van de onderste lijn in, gemeten langs de x-as. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setTopXDim(double value)](#setTopXDim-double-) | Stelt de omvang van de bovenste lijn in gemeten langs de x-as. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setTopXDim(double value)](#setTopXDim-double-) | Stelt de omvang van de bovenste lijn in, gemeten langs de x-as. |
 | [setTopXOffset(double value)](#setTopXOffset-double-) | Stelt de offset in van het begin van de bovenste lijn tot de onderste lijn. |
-| [setYDim(double value)](#setYDim-double-) | Stelt de afstand in tussen de boven- en onderlijn gemeten langs de y-as. |
+| [setYDim(double value)](#setYDim-double-) | Stelt de afstand tussen de bovenste en onderste lijnen in, gemeten langs de y-as. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -91,7 +91,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -101,17 +101,17 @@ public double getBottomXDim()
 ```
 
 
-Haalt de omvang van de onderste lijn op gemeten langs de x-as.
+Haalt de omvang van de onderste lijn op, gemeten langs de x-as.
 
 **Returns:**
-double - de omvang van de onderste lijn gemeten langs de x-as.
+double - de omvang van de onderste lijn, gemeten langs de x-as.
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -138,7 +138,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -148,10 +148,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getExtent() {#getExtent--}
 ```
 public Vector2 getExtent()
@@ -178,7 +178,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -188,7 +188,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -198,7 +198,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -208,12 +208,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -223,7 +223,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -233,10 +233,10 @@ public double getTopXDim()
 ```
 
 
-Haalt de omvang van de bovenste lijn op gemeten langs de x-as.
+Haalt de omvang van de bovenste lijn op, gemeten langs de x-as.
 
 **Returns:**
-double - de omvang van de bovenste lijn gemeten langs de x-as.
+double - de omvang van de bovenste lijn, gemeten langs de x-as.
 ### getTopXOffset() {#getTopXOffset--}
 ```
 public double getTopXOffset()
@@ -253,10 +253,10 @@ public double getYDim()
 ```
 
 
-Haalt de afstand tussen de boven- en onderlijn op gemeten langs de y-as.
+Haalt de afstand tussen de bovenste en onderste lijnen op, gemeten langs de y-as.
 
 **Returns:**
-double - de afstand tussen de boven- en onderlijn gemeten langs de y-as.
+double - de afstand tussen de bovenste en onderste lijnen, gemeten langs de y-as.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -304,7 +304,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -319,7 +319,7 @@ public void setBottomXDim(double value)
 ```
 
 
-Stelt de omvang van de onderste lijn in gemeten langs de x-as.
+Stelt de omvang van de onderste lijn in, gemeten langs de x-as.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -332,7 +332,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -358,7 +358,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -371,12 +371,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setTopXDim(double value) {#setTopXDim-double-}
@@ -385,7 +385,7 @@ public void setTopXDim(double value)
 ```
 
 
-Stelt de omvang van de bovenste lijn in gemeten langs de x-as.
+Stelt de omvang van de bovenste lijn in, gemeten langs de x-as.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -411,7 +411,7 @@ public void setYDim(double value)
 ```
 
 
-Stelt de afstand in tussen de boven- en onderlijn gemeten langs de y-as.
+Stelt de afstand tussen de bovenste en onderste lijnen in, gemeten langs de y-as.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

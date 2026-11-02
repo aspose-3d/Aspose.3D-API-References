@@ -1,6 +1,6 @@
 ---
 title: "IndexDataType"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Het gegevenstype van de elementen in"
 type: docs
 weight: 282
@@ -18,8 +18,8 @@ Het gegevenstype van de elementen in [IIndexBuffer](../../com.aspose.threed/iind
 
 | Veld | Beschrijving |
 | --- | --- |
-| [INT16](#INT16) | De elementen van de indexbuffer zijn 16-bit int |
-| [INT32](#INT32) | De elementen van de indexbuffer zijn 32-bit int |
+| [INT16](#INT16) | De elementen van de indexbuffer zijn 16bit int |
+| [INT32](#INT32) | De elementen van de indexbuffer zijn 32bit int |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -47,7 +47,7 @@ public static final IndexDataType INT16
 ```
 
 
-De elementen van de indexbuffer zijn 16-bit int
+De elementen van de indexbuffer zijn 16bit int
 
 ### INT32 {#INT32}
 ```
@@ -55,7 +55,7 @@ public static final IndexDataType INT32
 ```
 
 
-De elementen van de indexbuffer zijn 32-bit int
+De elementen van de indexbuffer zijn 32bit int
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

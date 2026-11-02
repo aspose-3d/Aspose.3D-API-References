@@ -1,6 +1,6 @@
 ---
 title: "TextureCodec"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Klasse om encoders en decoders voor texturen te beheren."
 type: docs
 weight: 186
@@ -23,15 +23,15 @@ Klasse om encoders en decoders voor texturen te beheren.
 
 | Methode | Beschrijving |
 | --- | --- |
-| [decode(Stream stream, boolean reverseY)](#decode-com.aspose.threed.Stream-boolean-) | Decodeer textuurgegevens van stream |
-| [encode(TextureData texture, Stream stream, String format)](#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-java.lang.String-) | Encodeer textuurgegevens naar stream met opgegeven formaat |
+| [decode(Stream stream, boolean reverseY)](#decode-com.aspose.threed.Stream-boolean-) | Decode texturegegevens uit de stream |
+| [encode(TextureData texture, Stream stream, String format)](#encode-com.aspose.threed.TextureData-com.aspose.threed.Stream-java.lang.String-) | Encode texturegegevens in de stream met het opgegeven formaat |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getSupportedEncoderFormats()](#getSupportedEncoderFormats--) | Haalt alle ondersteunde encoderformaten op |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [registerCodec(ITextureCodec codec)](#registerCodec-com.aspose.threed.ITextureCodec-) | Registreer een set van textuur-encoders en decoders |
+| [registerCodec(ITextureCodec codec)](#registerCodec-com.aspose.threed.ITextureCodec-) | Registreer een set van texture-encoders en decoders |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public static TextureData decode(Stream stream, boolean reverseY)
 ```
 
 
-Decodeer textuurgegevens van stream
+Decode texturegegevens uit de stream
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -64,12 +64,12 @@ public static void encode(TextureData texture, Stream stream, String format)
 ```
 
 
-Encodeer textuurgegevens naar stream met opgegeven formaat
+Encode texturegegevens in de stream met het opgegeven formaat
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| texture | [TextureData](../../com.aspose.threed/texturedata) | De textuur die moet worden gecodeerd |
+| texture | [TextureData](../../com.aspose.threed/texturedata) | De te coderen textuur |
 | stream | [Stream](../../com.aspose.threed/stream) | De uitvoerstroom |
 | formaat | java.lang.String | Het afbeeldingsformaat van gecodeerde gegevens, zoals png/jpg |
 
@@ -140,7 +140,7 @@ public static void registerCodec(ITextureCodec codec)
 ```
 
 
-Registreer een set van textuur-encoders en decoders
+Registreer een set van texture-encoders en decoders
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

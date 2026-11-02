@@ -1,7 +1,7 @@
 ---
 title: "BoundingBoxExtent"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De omvang van de begrenzingsdoos."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De omvang van de bounding box"
 type: docs
 weight: 269
 url: /nl/java/com.aspose.threed/boundingboxextent/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum BoundingBoxExtent extends Enum<BoundingBoxExtent>
 ```
 
-De omvang van de begrenzingsdoos.
+De omvang van de bounding box
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [FINITE](#FINITE) | Eindige begrenzingsbox |
-| [INFINITE](#INFINITE) | Oneindige begrenzingsbox |
-| [NULL](#NULL) | Null begrenzingsbox |
+| [FINITE](#FINITE) | Eindige begrenzingsvak |
+| [INFINITE](#INFINITE) | Oneindige begrenzingsvak |
+| [NULL](#NULL) | Null begrenzingsvak |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -48,7 +48,7 @@ public static final BoundingBoxExtent FINITE
 ```
 
 
-Eindige begrenzingsbox
+Eindige begrenzingsvak
 
 ### INFINITE {#INFINITE}
 ```
@@ -56,7 +56,7 @@ public static final BoundingBoxExtent INFINITE
 ```
 
 
-Oneindige begrenzingsbox
+Oneindige begrenzingsvak
 
 ### NULL {#NULL}
 ```
@@ -64,7 +64,7 @@ public static final BoundingBoxExtent NULL
 ```
 
 
-Null begrenzingsbox
+Null begrenzingsvak
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

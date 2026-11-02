@@ -1,6 +1,6 @@
 ---
 title: "ApertureMode"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Camera-diafragmamodi."
 type: docs
 weight: 264
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum ApertureMode extends Enum<ApertureMode>
 ```
 
-Camera-diafragmamodi. De diafragmamodus bepaalt welke waarden de camera-diafragma aansturen. Als de diafragmamodus HorizAndVert, Horizontal of Vertical is, wordt het gezichtsveld gebruikt. Als de diafragmamodus FocalLength is, wordt de brandpuntsafstand gebruikt.
+Camera-diafragma modi. De diafragma-modus bepaalt welke waarden de camera-diafragma aansturen. Als de diafragma-modus HorizAndVert, Horizontal of Vertical is, wordt het gezichtsveld gebruikt. Als de diafragma-modus FocalLength is, wordt de brandpuntsafstand gebruikt.
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
 | [FOCAL_LENGTH](#FOCAL-LENGTH) | Gebruik de brandpuntsafstand direct. |
 | [HORIZONTAL](#HORIZONTAL) | Stel alleen de horizontale hoek in. |
-| [HORIZ_AND_VERT](#HORIZ-AND-VERT) | Stel de hoekwaarden in voor zowel de horizontale als verticale instellingen. |
+| [HORIZ_AND_VERT](#HORIZ-AND-VERT) | Stel de hoekwaarden in voor zowel de horizontale als de verticale instellingen. |
 | [VERTICAL](#VERTICAL) | Stel alleen de verticale hoek in. |
 ## Methoden
 
@@ -65,7 +65,7 @@ public static final ApertureMode HORIZ_AND_VERT
 ```
 
 
-Stel de hoekwaarden in voor zowel de horizontale als verticale instellingen.
+Stel de hoekwaarden in voor zowel de horizontale als de verticale instellingen.
 
 ### VERTICAL {#VERTICAL}
 ```

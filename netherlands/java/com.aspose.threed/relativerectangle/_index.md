@@ -1,7 +1,7 @@
 ---
 title: "RelativeRectangle"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Relatieve rechthoek  De formule tussen een relatief component en een absolute waarde is  Scale  Reference Width  offset  Dus als we een absolute waarde willen weergeven, laat alle schaalvelden op nul staan en gebruik in plaats daarvan offset-velden."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Relative rectangle  De formule tussen een relatief component en een absolute waarde is  Scale  Reference Width  offset  Dus als we een absolute waarde willen weergeven, laat alle schaalvelden nul en gebruik offset-velden in plaats daarvan."
 type: docs
 weight: 147
 url: /nl/java/com.aspose.threed/relativerectangle/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class RelativeRectangle implements Struct<RelativeRectangle>, Serializable
 ```
 
-Relatieve rechthoek De formule tussen een relatief component en een absolute waarde is: Scale \* (Reference Width) + offset. Dus als we willen dat het een absolute waarde vertegenwoordigt, laat alle schaalvelden op nul staan en gebruik in plaats daarvan offset-velden.
+Relatieve rechthoek De formule tussen relatief component en absolute waarde is: Scale \* (Reference Width) + offset Dus als we het willen laten vertegenwoordigen als een absolute waarde, laat alle schaalvelden nul en gebruik in plaats daarvan offsetvelden.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -30,12 +30,12 @@ Relatieve rechthoek De formule tussen een relatief component en een absolute waa
 | [clone()](#clone--) |  |
 | [copyFrom(RelativeRectangle src)](#copyFrom-com.aspose.threed.RelativeRectangle-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | Construeer een [RelativeRectangle](../../com.aspose.threed/relativerectangle) met alle offset-velden op nul en scale-velden uit de opgegeven parameters. |
+| [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | Construeer een [RelativeRectangle](../../com.aspose.threed/relativerectangle) met alle offset fields nul en scale fields uit de gegeven parameters. |
 | [getClass()](#getClass--) |  |
-| [getOffsetHeight()](#getOffsetHeight--) | Haalt de offset voor hoogte op |
-| [getOffsetWidth()](#getOffsetWidth--) | Haalt de offset voor breedte op |
-| [getOffsetX()](#getOffsetX--) | Haalt de offset voor coördinaat X op |
-| [getOffsetY()](#getOffsetY--) | Haalt de offset voor coördinaat Y op |
+| [getOffsetHeight()](#getOffsetHeight--) | Haalt de offset op voor hoogte |
+| [getOffsetWidth()](#getOffsetWidth--) | Haalt de offset op voor breedte |
+| [getOffsetX()](#getOffsetX--) | Haalt de offset op voor coördinaat X |
+| [getOffsetY()](#getOffsetY--) | Haalt de offset op voor coördinaat Y |
 | [getScaleHeight()](#getScaleHeight--) | Relatieve hoogte |
 | [getScaleWidth()](#getScaleWidth--) | Relatieve breedte |
 | [getScaleX()](#getScaleX--) | Relatieve coördinaat X |
@@ -122,7 +122,7 @@ public static RelativeRectangle fromScale(float scaleX, float scaleY, float scal
 ```
 
 
-Construeer een [RelativeRectangle](../../com.aspose.threed/relativerectangle) met alle offset-velden op nul en scale-velden uit de opgegeven parameters.
+Construeer een [RelativeRectangle](../../com.aspose.threed/relativerectangle) met alle offset fields nul en scale fields uit de gegeven parameters.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -150,7 +150,7 @@ public int getOffsetHeight()
 ```
 
 
-Haalt de offset voor hoogte op
+Haalt de offset op voor hoogte
 
 **Returns:**
 int - de offset voor de hoogte
@@ -160,7 +160,7 @@ public int getOffsetWidth()
 ```
 
 
-Haalt de offset voor breedte op
+Haalt de offset op voor breedte
 
 **Returns:**
 int - de offset voor de breedte
@@ -170,7 +170,7 @@ public int getOffsetX()
 ```
 
 
-Haalt de offset voor coördinaat X op
+Haalt de offset op voor coördinaat X
 
 **Returns:**
 int - de offset voor coördinaat X
@@ -180,7 +180,7 @@ public int getOffsetY()
 ```
 
 
-Haalt de offset voor coördinaat Y op
+Haalt de offset op voor coördinaat Y
 
 **Returns:**
 int - de offset voor coördinaat Y

@@ -1,7 +1,7 @@
 ---
 title: "KeyframeSequence"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De reeks van key-frames beschrijft de transformatie van een bemonsterde waarde in de tijd."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De reeks van key-frames beschrijft de transformatie van een bemonsterde waarde over de tijd."
 type: docs
 weight: 90
 url: /nl/java/com.aspose.threed/keyframesequence/
@@ -27,27 +27,27 @@ De reeks keyframes beschrijft de transformatie van een bemonsterde waarde in de 
 
 | Methode | Beschrijving |
 | --- | --- |
-| [add(double time, float value)](#add-double-float-) | Maak een nieuw keyframe met opgegeven waarde. |
-| [add(double time, float value, Interpolation interpolation)](#add-double-float-com.aspose.threed.Interpolation-) | Maak een nieuw keyframe met opgegeven waarde. |
+| [add(double time, float value)](#add-double-float-) | Maak een nieuw keyframe met de opgegeven waarde. |
+| [add(double time, float value, Interpolation interpolation)](#add-double-float-com.aspose.threed.Interpolation-) | Maak een nieuw keyframe met de opgegeven waarde. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
 | [getBindPoint()](#getBindPoint--) | Haalt het eigenschap-bindpunt op dat deze curve bezit. |
 | [getClass()](#getClass--) |  |
 | [getKeyFrames()](#getKeyFrames--) | Haalt de keyframes van deze curve op. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getPostBehavior()](#getPostBehavior--) | Haalt het postgedrag op dat aangeeft wat de bemonsterde waarde moet zijn na het laatste keyframe. |
-| [getPreBehavior()](#getPreBehavior--) | Haalt het pregedrag op dat aangeeft wat de bemonsterde waarde moet zijn vóór het eerste keyframe. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getPostBehavior()](#getPostBehavior--) | Haalt het post-gedrag op, dat aangeeft wat de bemonsterde waarde moet zijn na het laatste keyframe. |
+| [getPreBehavior()](#getPreBehavior--) | Haalt het pre-gedrag op, dat aangeeft wat de bemonsterde waarde moet zijn vóór het eerste keyframe. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Haalt de enumerator op om alle keyframes te doorlopen. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [reset()](#reset--) | Verwijdert alle keyframes en reset de post-/pre-gedragingen. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -79,7 +79,7 @@ public void add(double time, float value)
 ```
 
 
-Maak een nieuw keyframe met opgegeven waarde.
+Maak een nieuw keyframe met de opgegeven waarde.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -93,7 +93,7 @@ public void add(double time, float value, Interpolation interpolation)
 ```
 
 
-Maak een nieuw keyframe met opgegeven waarde.
+Maak een nieuw keyframe met de opgegeven waarde.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -128,7 +128,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -178,7 +178,7 @@ public Extrapolation getPostBehavior()
 ```
 
 
-Haalt het postgedrag op dat aangeeft wat de bemonsterde waarde moet zijn na het laatste keyframe.
+Haalt het post-gedrag op, dat aangeeft wat de bemonsterde waarde moet zijn na het laatste keyframe.
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the post behavior indicates what the sampled value should be after the last key frame.
@@ -188,7 +188,7 @@ public Extrapolation getPreBehavior()
 ```
 
 
-Haalt het pregedrag op dat aangeeft wat de bemonsterde waarde moet zijn vóór het eerste keyframe.
+Haalt het pre-gedrag op, dat aangeeft wat de bemonsterde waarde moet zijn vóór het eerste keyframe.
 
 **Returns:**
 [Extrapolation](../../com.aspose.threed/extrapolation) - the pre behavior indicates what the sampled value should be before the first key.
@@ -198,7 +198,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -208,12 +208,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -274,7 +274,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -310,12 +310,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}

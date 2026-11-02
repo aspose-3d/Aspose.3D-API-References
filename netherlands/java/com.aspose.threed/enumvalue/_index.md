@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.EnumValue"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De waardedefinitie van het enumtype."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De waardedefinitie van de enum-type."
 type: docs
 weight: 12
 url: /nl/java/com.aspose.threed/structuralmetadata.enumvalue/
@@ -13,7 +13,7 @@ java.lang.Object
 public static class StructuralMetadata.EnumValue
 ```
 
-De waardedefinitie van het enumtype.
+De waardedefinitie van de enum-type.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -30,7 +30,7 @@ De waardedefinitie van het enumtype.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van dit exemplaar op. |
+| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van deze instantie op. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -125,7 +125,7 @@ public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie van dit exemplaar op.
+Haalt de tekenreeksrepresentatie van deze instantie op.
 
 **Returns:**
 java.lang.String

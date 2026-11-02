@@ -1,6 +1,6 @@
 ---
 title: "BonePose"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De  bevat de transformatie matrix voor een botknooppunt"
 type: docs
 weight: 21
@@ -25,15 +25,15 @@ De [BonePose](../../com.aspose.threed/bonepose) bevat de transformatie matrix vo
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMatrix()](#getMatrix--) | Haalt de transformatie matrix van het knooppunt in de huidige pose op. |
-| [getNode()](#getNode--) | Haalt het sceneknooppunt op, wijst naar een geskinnde skelettenknooppunt |
+| [getMatrix()](#getMatrix--) | Haalt de transformatie matrix van het knooppunt op in de huidige pose. |
+| [getNode()](#getNode--) | Haalt het scèneknooppunt op, wijst naar een geskinnde skelettenknooppunt |
 | [hashCode()](#hashCode--) |  |
 | [isLocal()](#isLocal--) | Haalt op of de matrix is gedefinieerd in lokale coördinaten. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setLocal(boolean value)](#setLocal-boolean-) | Stelt in of de matrix is gedefinieerd in lokale coördinaten. |
 | [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | Stelt de transformatie matrix van het knooppunt in de huidige pose in. |
-| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Stelt het sceneknooppunt in, wijst naar een geskinnde skelettenknooppunt |
+| [setNode(Node value)](#setNode-com.aspose.threed.Node-) | Stelt het scèneknooppunt in, wijst naar een geskinnde skelettenknooppunt |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,7 +75,7 @@ public Matrix4 getMatrix()
 ```
 
 
-Haalt de transformatie matrix van het knooppunt in de huidige pose op.
+Haalt de transformatie matrix van het knooppunt op in de huidige pose.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix of the node in current pose.
@@ -85,7 +85,7 @@ public Node getNode()
 ```
 
 
-Haalt het sceneknooppunt op, wijst naar een geskinnde skelettenknooppunt
+Haalt het scèneknooppunt op, wijst naar een geskinnde skelettenknooppunt
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the scene node, points to a skinned skeleton node
@@ -157,7 +157,7 @@ public void setNode(Node value)
 ```
 
 
-Stelt het sceneknooppunt in, wijst naar een geskinnde skelettenknooppunt
+Stelt het scèneknooppunt in, wijst naar een geskinnde skelettenknooppunt
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

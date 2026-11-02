@@ -1,7 +1,7 @@
 ---
 title: "StencilAction"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De stencil-testacties"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De stenciltestacties"
 type: docs
 weight: 303
 url: /nl/java/com.aspose.threed/stencilaction/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum StencilAction extends Enum<StencilAction>
 ```
 
-De stencil-testacties
+De stenciltestacties
 ## Velden
 
 | Veld | Beschrijving |
@@ -22,9 +22,9 @@ De stencil-testacties
 | [DECREMENT_WRAP](#DECREMENT-WRAP) | Verlaagt de huidige stencilbufferwaarde en wikkelt deze naar de maximale waarde wanneer deze nul bereikt. |
 | [INCREMENT](#INCREMENT) | Verhoogt de huidige stencilbufferwaarde, beperkt tot de maximale waarde. |
 | [INCREMENT_WRAP](#INCREMENT-WRAP) | Verhoogt de huidige stencilbufferwaarde en wikkelt deze naar nul wanneer de maximale waarde wordt bereikt. |
-| [INVERT](#INVERT) | Voert een bitwise inversie uit op de huidige stencilbufferwaarde. |
+| [INVERT](#INVERT) | Bitgewijs keert de huidige stencilbufferwaarde om. |
 | [KEEP](#KEEP) | Behoud de huidige waarde |
-| [REPLACE](#REPLACE) | Stelt de stencilbuffer in op ref waar gedefinieerd in [RenderState.getStencilReference](../../com.aspose.threed/renderstate\\#getStencilReference) |
+| [REPLACE](#REPLACE) | Stelt de stencilbuffer in op ref waar gedefinieerd in [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference) |
 | [ZERO](#ZERO) | Stelt de stencilbufferwaarde in op 0 |
 ## Methoden
 
@@ -85,7 +85,7 @@ public static final StencilAction INVERT
 ```
 
 
-Voert een bitwise inversie uit op de huidige stencilbufferwaarde.
+Bitgewijs keert de huidige stencilbufferwaarde om.
 
 ### KEEP {#KEEP}
 ```
@@ -101,7 +101,7 @@ public static final StencilAction REPLACE
 ```
 
 
-Stelt de stencilbuffer in op ref waar gedefinieerd in [RenderState.getStencilReference](../../com.aspose.threed/renderstate\\#getStencilReference)
+Stelt de stencilbuffer in op ref waar gedefinieerd in [RenderState.getStencilReference](../../com.aspose.threed/renderstate\#getStencilReference)
 
 ### ZERO {#ZERO}
 ```

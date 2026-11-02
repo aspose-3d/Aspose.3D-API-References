@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox2D"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De as-uitgelijnde begrenzingsdoos voor"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De as-uitgelijnde begrenzingskader voor"
 type: docs
 weight: 25
 url: /nl/java/com.aspose.threed/boundingbox2d/
@@ -16,19 +16,19 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox2D implements Struct<BoundingBox2D>, Serializable
 ```
 
-De as-uitgelijnde begrenzingsdoos voor [Vector2](../../com.aspose.threed/vector2)
+De as-uitgelijnde begrenzingsvak voor [Vector2](../../com.aspose.threed/vector2)
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Initialiseer een eindige begrenzingsdoos met de opgegeven minimale en maximale hoek |
+| [BoundingBox2D(Vector2 minimum, Vector2 maximum)](#BoundingBox2D-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | Initialiseer een eindige begrenzingsvak met de opgegeven minimale en maximale hoek |
 | [BoundingBox2D()](#BoundingBox2D--) |  |
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [INFINITE](#INFINITE) | De oneindige begrenzingsdoos |
-| [NULL](#NULL) | De nulbegrenzingsdoos |
+| [INFINITE](#INFINITE) | De oneindige begrenzingsvak |
+| [NULL](#NULL) | De nulbegrenzingsvak |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -37,15 +37,15 @@ De as-uitgelijnde begrenzingsdoos voor [Vector2](../../com.aspose.threed/vector2
 | [copyFrom(BoundingBox2D src)](#copyFrom-com.aspose.threed.BoundingBox2D-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExtent()](#getExtent--) | Haalt de omvang van de begrenzingsdoos op. |
-| [getMaximum()](#getMaximum--) | De maximale hoek van de begrenzingsdoos |
-| [getMinimum()](#getMinimum--) | De minimale hoek van de begrenzingsdoos |
+| [getExtent()](#getExtent--) | Haalt de omvang van de begrenzingsvak op. |
+| [getMaximum()](#getMaximum--) | De maximale hoek van de begrenzingsvak |
+| [getMinimum()](#getMinimum--) | De minimale hoek van de begrenzingsvak |
 | [hashCode()](#hashCode--) |  |
-| [merge(BoundingBox2D bb)](#merge-com.aspose.threed.BoundingBox2D-) | Voegt de nieuwe doos samen met de huidige begrenzingsdoos. |
-| [merge(Vector2 pt)](#merge-com.aspose.threed.Vector2-) | Voegt de nieuwe doos samen met de huidige begrenzingsdoos. |
+| [merge(BoundingBox2D bb)](#merge-com.aspose.threed.BoundingBox2D-) | Voegt de nieuwe doos toe aan de huidige begrenzingsvak. |
+| [merge(Vector2 pt)](#merge-com.aspose.threed.Vector2-) | Voegt de nieuwe doos toe aan de huidige begrenzingsvak. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van de begrenzingsdoos op. |
+| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van de begrenzingsvak op. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -55,7 +55,7 @@ public BoundingBox2D(Vector2 minimum, Vector2 maximum)
 ```
 
 
-Initialiseer een eindige begrenzingsdoos met de opgegeven minimale en maximale hoek
+Initialiseer een eindige begrenzingsvak met de opgegeven minimale en maximale hoek
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -75,7 +75,7 @@ public static final BoundingBox2D INFINITE
 ```
 
 
-De oneindige begrenzingsdoos
+De oneindige begrenzingsvak
 
 ### NULL {#NULL}
 ```
@@ -83,7 +83,7 @@ public static final BoundingBox2D NULL
 ```
 
 
-De nulbegrenzingsdoos
+De nulbegrenzingsvak
 
 ### clone() {#clone--}
 ```
@@ -139,7 +139,7 @@ public BoundingBoxExtent getExtent()
 ```
 
 
-Haalt de omvang van de begrenzingsdoos op.
+Haalt de omvang van de begrenzingsvak op.
 
 **Returns:**
 [BoundingBoxExtent](../../com.aspose.threed/boundingboxextent) - the extent of the bounding box.
@@ -149,7 +149,7 @@ public Vector2 getMaximum()
 ```
 
 
-De maximale hoek van de begrenzingsdoos
+De maximale hoek van de begrenzingsvak
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The maximum corner of the bounding box
@@ -159,7 +159,7 @@ public Vector2 getMinimum()
 ```
 
 
-De minimale hoek van de begrenzingsdoos
+De minimale hoek van de begrenzingsvak
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The minimum corner of the bounding box
@@ -179,12 +179,12 @@ public void merge(BoundingBox2D bb)
 ```
 
 
-Voegt de nieuwe doos samen met de huidige begrenzingsdoos.
+Voegt de nieuwe doos toe aan de huidige begrenzingsvak.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| bb | [BoundingBox2D](../../com.aspose.threed/boundingbox2d) | De te combineren begrenzingsdoos |
+| bb | [BoundingBox2D](../../com.aspose.threed/boundingbox2d) | De te combineren begrenzingsvak |
 
 ### merge(Vector2 pt) {#merge-com.aspose.threed.Vector2-}
 ```
@@ -192,7 +192,7 @@ public void merge(Vector2 pt)
 ```
 
 
-Voegt de nieuwe doos samen met de huidige begrenzingsdoos.
+Voegt de nieuwe doos toe aan de huidige begrenzingsvak.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -221,7 +221,7 @@ public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie van de begrenzingsdoos op.
+Haalt de tekenreeksrepresentatie van de begrenzingsvak op.
 
 **Returns:**
 java.lang.String

@@ -1,7 +1,7 @@
 ---
 title: "IRenderTarget"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De basisinterface van render target"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De basisinterface van renderdoel"
 type: docs
 weight: 249
 url: /nl/java/com.aspose.threed/irendertarget/
@@ -13,24 +13,24 @@ java.io.Closeable
 public interface IRenderTarget extends Closeable
 ```
 
-De basisinterface van render target
+De basisinterface van renderdoel
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [createViewport(Camera camera)](#createViewport-com.aspose.threed.Camera-) | Maak een viewport in de opgegeven cameraperspectief. |
-| [createViewport(Camera camera, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.RelativeRectangle-) | Maak een viewport met positie/grootte in de opgegeven cameraperspectief. |
-| [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | Maak een viewport met opgegeven achtergrondkleur en positie/grootte in de opgegeven cameraperspectief. |
-| [getSize()](#getSize--) | Haalt de grootte van het renderdoel op. |
+| [createViewport(Camera camera)](#createViewport-com.aspose.threed.Camera-) | Maak een viewport aan in de opgegeven cameraperspectief. |
+| [createViewport(Camera camera, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.RelativeRectangle-) | Maak een viewport aan met positie/grootte in de opgegeven cameraperspectief. |
+| [createViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)](#createViewport-com.aspose.threed.Camera-com.aspose.threed.Vector3-com.aspose.threed.RelativeRectangle-) | Maak een viewport aan met opgegeven achtergrondkleur en positie/grootte in de opgegeven cameraperspectief. |
+| [getSize()](#getSize--) | Haalt de grootte op van het renderdoel. |
 | [getViewports()](#getViewports--) | Haalt alle viewports op die geassocieerd zijn met dit renderdoel. |
-| [setSize(Vector2 value)](#setSize-com.aspose.threed.Vector2-) | Stelt de grootte van het renderdoel in. |
+| [setSize(Vector2 value)](#setSize-com.aspose.threed.Vector2-) | Stelt de grootte in van het renderdoel. |
 ### createViewport(Camera camera) {#createViewport-com.aspose.threed.Camera-}
 ```
 public abstract Viewport createViewport(Camera camera)
 ```
 
 
-Maak een viewport in de opgegeven cameraperspectief.
+Maak een viewport aan in de opgegeven cameraperspectief.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -45,7 +45,7 @@ public abstract Viewport createViewport(Camera camera, RelativeRectangle rect)
 ```
 
 
-Maak een viewport met positie/grootte in de opgegeven cameraperspectief.
+Maak een viewport aan met positie/grootte in de opgegeven cameraperspectief.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -61,7 +61,7 @@ public abstract Viewport createViewport(Camera camera, Vector3 backgroundColor, 
 ```
 
 
-Maak een viewport met opgegeven achtergrondkleur en positie/grootte in de opgegeven cameraperspectief.
+Maak een viewport aan met opgegeven achtergrondkleur en positie/grootte in de opgegeven cameraperspectief.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -78,7 +78,7 @@ public abstract Vector2 getSize()
 ```
 
 
-Haalt de grootte van het renderdoel op.
+Haalt de grootte op van het renderdoel.
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the size of the render target.
@@ -98,7 +98,7 @@ public abstract void setSize(Vector2 value)
 ```
 
 
-Stelt de grootte van het renderdoel in.
+Stelt de grootte in van het renderdoel.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

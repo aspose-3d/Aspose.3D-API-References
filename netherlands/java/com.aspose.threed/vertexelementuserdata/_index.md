@@ -1,6 +1,6 @@
 ---
 title: "VertexElementUserData"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Definieert aangepaste gebruikersgegevens voor gespecificeerde componenten."
 type: docs
 weight: 221
@@ -13,32 +13,32 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementUserData extends VertexElement
 ```
 
-Definieert aangepaste gebruikersgegevens voor opgegeven componenten. Meestal is het toepassingsspecifieke gegevens voor een speciaal doel.
+Definieert aangepaste gebruikersgegevens voor gespecificeerde componenten. Meestal is het toepassingsspecifieke gegevens voor een speciaal doel.
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [VertexElementUserData()](#VertexElementUserData--) | Initialiseert een nieuw exemplaar van de [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) klasse. |
+| [VertexElementUserData()](#VertexElementUserData--) | Initialiseert een nieuw exemplaar van de klasse [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata). |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [clear()](#clear--) | Verwijdert alle gegevens van dit vertex-element. |
-| [clone(boolean withData)](#clone-boolean-) | Maak een diepe kloon van het vertex-element. |
+| [clone(boolean withData)](#clone-boolean-) | Diepe kloon van het vertex-element |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | De gebruikersgegevens die aan dit element zijn gekoppeld |
-| [getIndices()](#getIndices--) | Haalt de indexgegevens op. |
+| [getIndices()](#getIndices--) | Haalt de indexgegevens op |
 | [getMappingMode()](#getMappingMode--) | Haalt op hoe het element is gemapt. |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getReferenceMode()](#getReferenceMode--) | Haalt op hoe het element wordt gerefereerd. |
-| [getVertexElementType()](#getVertexElementType--) | Haalt het type van de [VertexElement](../../com.aspose.threed/vertexelement) op. |
+| [getVertexElementType()](#getVertexElementType--) | Haalt het type op van de [VertexElement](../../com.aspose.threed/vertexelement) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setData(Object value)](#setData-java.lang.Object-) | De gebruikersgegevens die aan dit element zijn gekoppeld |
-| [setIndices(int[] data)](#setIndices-int---) | Laad indexen. |
+| [setIndices(int[] data)](#setIndices-int---) | Laad indexen |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Stelt in hoe het element is gemapt. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | Stelt in hoe het element wordt gerefereerd. |
@@ -52,7 +52,7 @@ public VertexElementUserData()
 ```
 
 
-Initialiseert een nieuw exemplaar van de [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) klasse.
+Initialiseert een nieuw exemplaar van de klasse [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata).
 
 ### clear() {#clear--}
 ```
@@ -68,12 +68,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Maak een diepe kloon van het vertex-element.
+Diepe kloon van het vertex-element
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| withData | boolean | Kloon het vertex met directe en indexarray. |
+| withData | boolean | Kloon de vertex met directe en indexarray |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -134,7 +134,7 @@ public List<Integer> getIndices()
 ```
 
 
-Haalt de indexgegevens op.
+Haalt de indexgegevens op
 
 **Returns:**
 java.util.List<java.lang.Integer> - de indexgegevens
@@ -174,7 +174,7 @@ public VertexElementType getVertexElementType()
 ```
 
 
-Haalt het type van de [VertexElement](../../com.aspose.threed/vertexelement) op.
+Haalt het type op van de [VertexElement](../../com.aspose.threed/vertexelement)
 
 **Returns:**
 [VertexElementType](../../com.aspose.threed/vertexelementtype) - the type of the [VertexElement](../../com.aspose.threed/vertexelement)
@@ -223,7 +223,7 @@ public void setIndices(int[] data)
 ```
 
 
-Laad indexen.
+Laad indexen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

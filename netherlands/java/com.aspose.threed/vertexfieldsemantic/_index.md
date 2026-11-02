@@ -1,6 +1,6 @@
 ---
 title: "VertexFieldSemantic"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De semantiek van het vertex-veld"
 type: docs
 weight: 309
@@ -19,9 +19,9 @@ De semantiek van het vertex-veld
 | Veld | Beschrijving |
 | --- | --- |
 | [BINORMAL](#BINORMAL) | Binormale vector |
-| [EDGE_CREASE](#EDGE-CREASE) | Randplooi |
-| [MORPH_NORMAL](#MORPH-NORMAL) | Normale gegevens voor morph-doelwit |
-| [MORPH_POSITION](#MORPH-POSITION) | Positiegegevens voor morph-doelwit |
+| [EDGE_CREASE](#EDGE-CREASE) | Randkromming |
+| [MORPH_NORMAL](#MORPH-NORMAL) | Normale gegevens voor morph-doel |
+| [MORPH_POSITION](#MORPH-POSITION) | Positiegegevens voor morph-doel |
 | [NORMAL](#NORMAL) | Normale vector |
 | [POSITION](#POSITION) | Positiegegevens |
 | [SPECULAR](#SPECULAR) | Speculaire kleuren |
@@ -67,7 +67,7 @@ public static final VertexFieldSemantic EDGE_CREASE
 ```
 
 
-Randplooi
+Randkromming
 
 ### MORPH_NORMAL {#MORPH-NORMAL}
 ```
@@ -75,7 +75,7 @@ public static final VertexFieldSemantic MORPH_NORMAL
 ```
 
 
-Normale gegevens voor morph-doelwit
+Normale gegevens voor morph-doel
 
 ### MORPH_POSITION {#MORPH-POSITION}
 ```
@@ -83,7 +83,7 @@ public static final VertexFieldSemantic MORPH_POSITION
 ```
 
 
-Positiegegevens voor morph-doelwit
+Positiegegevens voor morph-doel
 
 ### NORMAL {#NORMAL}
 ```

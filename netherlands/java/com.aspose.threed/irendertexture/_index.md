@@ -1,7 +1,7 @@
 ---
 title: "IRenderTexture"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De interface van render texture"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De interface van rendertexture"
 type: docs
 weight: 250
 url: /nl/java/com.aspose.threed/irendertexture/
@@ -13,12 +13,12 @@ url: /nl/java/com.aspose.threed/irendertexture/
 public interface IRenderTexture extends IRenderTarget
 ```
 
-De interface van render texture
+De interface van rendertexture
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getDepthTexture()](#getDepthTexture--) | Depth-buffertekstuur |
+| [getDepthTexture()](#getDepthTexture--) | Depth-buffertextuur |
 | [getTargets()](#getTargets--) | Kleuruitvoertargets. |
 ### getDepthTexture() {#getDepthTexture--}
 ```
@@ -26,7 +26,7 @@ public abstract ITextureUnit getDepthTexture()
 ```
 
 
-Depth-buffertekstuur
+Depth-buffertextuur
 
 **Returns:**
 [ITextureUnit](../../com.aspose.threed/itextureunit) - Depth buffer texture

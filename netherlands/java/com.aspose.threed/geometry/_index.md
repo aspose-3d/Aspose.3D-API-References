@@ -1,6 +1,6 @@
 ---
 title: "Geometry"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De basisklasse van alle renderbare geometrische objecten zoals    en enz."
 type: docs
 weight: 71
@@ -30,42 +30,42 @@ De basisklasse [Geometry](../../com.aspose.threed/geometry) ondersteunt:
 | Methode | Beschrijving |
 | --- | --- |
 | [<T>getDeformers2()](#-T-getDeformers2--) | Haalt alle deformers op met opgegeven deformer-typen |
-| [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | Voegt een bestaand vertex‑element toe aan de huidige geometrie |
-| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Creëert een vertex‑element met opgegeven type en voegt het toe aan de geometrie. |
-| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Creëert een vertex‑element met opgegeven type en voegt het toe aan de geometrie. |
+| [addElement(VertexElement element)](#addElement-com.aspose.threed.VertexElement-) | Voegt een bestaand vertex-element toe aan de huidige geometrie |
+| [createElement(VertexElementType type)](#createElement-com.aspose.threed.VertexElementType-) | Maakt een vertex-element met opgegeven type en voegt het toe aan de geometrie. |
+| [createElement(VertexElementType type, MappingMode mappingMode, ReferenceMode referenceMode)](#createElement-com.aspose.threed.VertexElementType-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Maakt een vertex-element met opgegeven type en voegt het toe aan de geometrie. |
 | [createElementUV(TextureMapping uvMapping)](#createElementUV-com.aspose.threed.TextureMapping-) | Maakt een [VertexElementUV](../../com.aspose.threed/vertexelementuv) met het opgegeven textuurmappingtype. |
 | [createElementUV(TextureMapping uvMapping, MappingMode mappingMode, ReferenceMode referenceMode)](#createElementUV-com.aspose.threed.TextureMapping-com.aspose.threed.MappingMode-com.aspose.threed.ReferenceMode-) | Maakt een [VertexElementUV](../../com.aspose.threed/vertexelementuv) met het opgegeven textuurmappingtype. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
-| [getCastShadows()](#getCastShadows--) | Geeft aan of deze geometrie schaduwen kan werpen |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
+| [getCastShadows()](#getCastShadows--) | Geeft of deze geometrie schaduw kan werpen |
 | [getClass()](#getClass--) |  |
-| [getControlPoints()](#getControlPoints--) | Geeft alle controlepunten terug |
-| [getDeformers()](#getDeformers--) | Geeft alle deformers die aan deze geometrie zijn gekoppeld terug. |
-| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Geeft een vertex-element met het opgegeven type terug |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getControlPoints()](#getControlPoints--) | Geeft alle controlepunten |
+| [getDeformers()](#getDeformers--) | Geeft alle deformers die aan deze geometrie zijn gekoppeld. |
+| [getElement(VertexElementType type)](#getElement-com.aspose.threed.VertexElementType-) | Geeft een vertex-element met opgegeven type |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getReceiveShadows()](#getReceiveShadows--) | Geeft aan of deze geometrie schaduwen kan ontvangen. |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
-| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Geeft een [VertexElementUV](../../com.aspose.threed/vertexelementuv) instantie met het opgegeven textuurmappingtype terug |
-| [getVertexElements()](#getVertexElements--) | Geeft alle vertex-elementen terug |
-| [getVisible()](#getVisible--) | Geeft aan of de geometrie zichtbaar is |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getReceiveShadows()](#getReceiveShadows--) | Geeft of deze geometrie schaduw kan ontvangen. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
+| [getVertexElementOfUV(TextureMapping textureMapping)](#getVertexElementOfUV-com.aspose.threed.TextureMapping-) | Geeft een [VertexElementUV](../../com.aspose.threed/vertexelementuv) instantie met het opgegeven textuurmappingtype |
+| [getVertexElements()](#getVertexElements--) | Geeft alle vertex-elementen |
+| [getVisible()](#getVisible--) | Geeft of de geometrie zichtbaar is |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Stelt in of deze geometrie schaduwen kan werpen |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | Stelt in of deze geometrie schaduw kan werpen |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Stelt in of deze geometrie schaduwen kan ontvangen. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | Stelt in of deze geometrie schaduw kan ontvangen. |
 | [setVisible(boolean value)](#setVisible-boolean-) | Stelt in of de geometrie zichtbaar is |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -100,7 +100,7 @@ public void addElement(VertexElement element)
 ```
 
 
-Voegt een bestaand vertex‑element toe aan de huidige geometrie
+Voegt een bestaand vertex-element toe aan de huidige geometrie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -113,7 +113,7 @@ public VertexElement createElement(VertexElementType type)
 ```
 
 
-Creëert een vertex‑element met opgegeven type en voegt het toe aan de geometrie.
+Maakt een vertex-element met opgegeven type en voegt het toe aan de geometrie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -128,14 +128,14 @@ public VertexElement createElement(VertexElementType type, MappingMode mappingMo
 ```
 
 
-Creëert een vertex‑element met opgegeven type en voegt het toe aan de geometrie.
+Maakt een vertex-element met opgegeven type en voegt het toe aan de geometrie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | type | [VertexElementType](../../com.aspose.threed/vertexelementtype) | Vertex‑elementtype |
-| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Standaard‑mappingmodus |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Standaard‑referentiemodus |
+| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Standaard mapping‑modus |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Standaard referentiemodus |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement) - Created element. **Remarks:** If type is [VertexElementType.UV](../../com.aspose.threed/vertexelementtype\#UV), a [VertexElementUV](../../com.aspose.threed/vertexelementuv) with texture mapping type to [TextureMapping.DIFFUSE](../../com.aspose.threed/texturemapping\#DIFFUSE) will be created.
@@ -150,7 +150,7 @@ Maakt een [VertexElementUV](../../com.aspose.threed/vertexelementuv) met het opg
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | Welk textuur‑mappingtype te maken |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | Welk type textuur‑mapping moet worden gemaakt |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -165,9 +165,9 @@ Maakt een [VertexElementUV](../../com.aspose.threed/vertexelementuv) met het opg
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | Welk textuur‑mappingtype te maken |
-| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Standaard‑mappingmodus |
-| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Standaard‑referentiemodus |
+| uvMapping | [TextureMapping](../../com.aspose.threed/texturemapping) | Welk type textuur‑mapping moet worden gemaakt |
+| mappingMode | [MappingMode](../../com.aspose.threed/mappingmode) | Standaard mapping‑modus |
+| referenceMode | [ReferenceMode](../../com.aspose.threed/referencemode) | Standaard referentiemodus |
 
 **Returns:**
 [VertexElementUV](../../com.aspose.threed/vertexelementuv) - Created element uv
@@ -197,7 +197,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -207,7 +207,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -224,10 +224,10 @@ public boolean getCastShadows()
 ```
 
 
-Geeft aan of deze geometrie schaduwen kan werpen
+Geeft of deze geometrie schaduw kan werpen
 
 **Returns:**
-boolean - of deze geometrie schaduw kan werpen
+boolean - of deze geometrie een schaduw kan werpen
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -244,7 +244,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-Geeft alle controlepunten terug
+Geeft alle controlepunten
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - alle controlepunten
@@ -254,7 +254,7 @@ public List<Deformer> getDeformers()
 ```
 
 
-Geeft alle deformers die aan deze geometrie zijn gekoppeld terug.
+Geeft alle deformers die aan deze geometrie zijn gekoppeld.
 
 **Returns:**
 java.util.List<com.aspose.threed.Deformer> - alle deformers die aan deze geometrie zijn gekoppeld.
@@ -264,7 +264,7 @@ public VertexElement getElement(VertexElementType type)
 ```
 
 
-Geeft een vertex-element met het opgegeven type terug
+Geeft een vertex-element met opgegeven type
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -279,7 +279,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -289,10 +289,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -309,7 +309,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -319,7 +319,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -329,7 +329,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -339,12 +339,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -354,7 +354,7 @@ public boolean getReceiveShadows()
 ```
 
 
-Geeft aan of deze geometrie schaduwen kan ontvangen.
+Geeft of deze geometrie schaduw kan ontvangen.
 
 **Returns:**
 boolean - of deze geometrie schaduw kan ontvangen.
@@ -364,7 +364,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -374,7 +374,7 @@ public VertexElementUV getVertexElementOfUV(TextureMapping textureMapping)
 ```
 
 
-Geeft een [VertexElementUV](../../com.aspose.threed/vertexelementuv) instantie met het opgegeven textuurmappingtype terug
+Geeft een [VertexElementUV](../../com.aspose.threed/vertexelementuv) instantie met het opgegeven textuurmappingtype
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -389,7 +389,7 @@ public List<VertexElement> getVertexElements()
 ```
 
 
-Geeft alle vertex-elementen terug
+Geeft alle vertex-elementen
 
 **Returns:**
 java.util.List<com.aspose.threed.VertexElement> - alle vertex-elementen
@@ -399,7 +399,7 @@ public boolean getVisible()
 ```
 
 
-Geeft aan of de geometrie zichtbaar is
+Geeft of de geometrie zichtbaar is
 
 **Returns:**
 boolean - of de geometrie zichtbaar is
@@ -450,7 +450,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -465,7 +465,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-Stelt in of deze geometrie schaduwen kan werpen
+Stelt in of deze geometrie schaduw kan werpen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -478,7 +478,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -504,7 +504,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -517,12 +517,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setReceiveShadows(boolean value) {#setReceiveShadows-boolean-}
@@ -531,7 +531,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-Stelt in of deze geometrie schaduwen kan ontvangen.
+Stelt in of deze geometrie schaduw kan ontvangen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

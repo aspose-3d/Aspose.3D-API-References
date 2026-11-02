@@ -1,6 +1,6 @@
 ---
 title: "ProjectionType"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Projectietypen van camera's."
 type: docs
 weight: 295

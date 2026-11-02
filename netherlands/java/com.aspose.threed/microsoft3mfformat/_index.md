@@ -1,6 +1,6 @@
 ---
 title: "Microsoft3MFFormat"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Bestandsformaatinstantie voor Microsoft 3MF met 3MF-gerelateerde hulpprogramma's."
 type: docs
 weight: 104
@@ -18,32 +18,32 @@ Bestandsformaatinstantie voor Microsoft 3MF met 3MF-gerelateerde hulpprogramma's
 
 | Veld | Beschrijving |
 | --- | --- |
-| [AMF](#AMF) | Bestandsformaat voor additive manufacturing |
+| [AMF](#AMF) | Bestandsformaat voor additieve productie |
 | [ASE](#ASE) | ASCII-scène-exportformaat van 3D Studio Max. |
 | [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Aspose.3D Web-formaat. |
-| [BLENDER](#BLENDER) | 3D-bestandsformaat van Blender |
-| [COLLADA](#COLLADA) | Collada-bestandsformaat |
-| [DISCREET3DS](#DISCREET3DS) | Bestandsformaat van 3D Studio |
+| [BLENDER](#BLENDER) | 3D-bestandformaat van Blender |
+| [COLLADA](#COLLADA) | Collada-bestandformaat |
+| [DISCREET3DS](#DISCREET3DS) | Bestandformaat van 3D Studio |
 | [DRACO](#DRACO) | Google Draco Mesh |
 | [DXF](#DXF) | AutoCAD DXF |
-| [FBX6100ASCII](#FBX6100ASCII) | ASCII FBX-bestandsformaat, versie 6.1.0 |
-| [FBX6100_BINARY](#FBX6100-BINARY) | Binaire FBX-bestandsformaat, versie 6.1.0 |
-| [FBX7200ASCII](#FBX7200ASCII) | ASCII FBX-bestandsformaat, versie 7.2.0 |
-| [FBX7200_BINARY](#FBX7200-BINARY) | Binaire FBX-bestandsformaat, versie 7.2.0 |
-| [FBX7300ASCII](#FBX7300ASCII) | ASCII FBX-bestandsformaat, versie 7.3.0 |
-| [FBX7300_BINARY](#FBX7300-BINARY) | Binaire FBX-bestandsformaat, versie 7.3.0 |
-| [FBX7400ASCII](#FBX7400ASCII) | ASCII FBX-bestandsformaat, versie 7.4.0 |
-| [FBX7400_BINARY](#FBX7400-BINARY) | Binaire FBX-bestandsformaat, versie 7.4.0 |
+| [FBX6100ASCII](#FBX6100ASCII) | ASCII FBX-bestandformaat, versie 6.1.0 |
+| [FBX6100_BINARY](#FBX6100-BINARY) | Binaire FBX-bestandformaat, versie 6.1.0 |
+| [FBX7200ASCII](#FBX7200ASCII) | ASCII FBX-bestandformaat, versie 7.2.0 |
+| [FBX7200_BINARY](#FBX7200-BINARY) | Binaire FBX-bestandformaat, versie 7.2.0 |
+| [FBX7300ASCII](#FBX7300ASCII) | ASCII FBX-bestandformaat, versie 7.3.0 |
+| [FBX7300_BINARY](#FBX7300-BINARY) | Binaire FBX-bestandformaat, versie 7.3.0 |
+| [FBX7400ASCII](#FBX7400ASCII) | ASCII FBX-bestandformaat, versie 7.4.0 |
+| [FBX7400_BINARY](#FBX7400-BINARY) | Binaire FBX-bestandformaat, versie 7.4.0 |
 | [FBX7500ASCII](#FBX7500ASCII) | ASCII FBX-bestandsformaat, met versie 7.5.0 |
 | [FBX7500_BINARY](#FBX7500-BINARY) | Binair FBX-bestandsformaat, met versie 7.5.0 |
 | [FBX7600ASCII](#FBX7600ASCII) | ASCII FBX-bestandsformaat, met versie 7.6.0 |
 | [FBX7600_BINARY](#FBX7600-BINARY) | Binair FBX-bestandsformaat, met versie 7.6.0 |
 | [FBX7700ASCII](#FBX7700ASCII) | ASCII FBX-bestandsformaat, met versie 7.7.0 |
 | [FBX7700_BINARY](#FBX7700-BINARY) | Binair FBX-bestandsformaat, met versie 7.7.0 |
-| [GLTF](#GLTF) | glTF van de Khronos Group |
-| [GLTF2](#GLTF2) | glTF versie 2.0 van de Khronos Group |
-| [GLTF2_BINARY](#GLTF2-BINARY) | glTF versie 2.0 van de Khronos Group |
-| [GLTF_BINARY](#GLTF-BINARY) | glTF van de Khronos Group in binair formaat |
+| [GLTF](#GLTF) | glTF van Khronos Group |
+| [GLTF2](#GLTF2) | glTF versie 2.0 van Khronos Group |
+| [GLTF2_BINARY](#GLTF2-BINARY) | glTF versie 2.0 van Khronos Group |
+| [GLTF_BINARY](#GLTF-BINARY) | glTF van Khronos Group in binair formaat |
 | [HTML5](#HTML5) | HTML5-bestand |
 | [IFC](#IFC) | ISO 16739-1 Industry Foundation Classes datamodel. |
 | [MAYAASCII](#MAYAASCII) | Autodesk Maya in ASCII-formaat |
@@ -65,38 +65,38 @@ Bestandsformaatinstantie voor Microsoft 3MF met 3MF-gerelateerde hulpprogramma's
 | [USDZ](#USDZ) | Gecomprimeerde Universele Scènebeschrijving |
 | [VRML](#VRML) | De Virtual Reality Modeling Language |
 | [WAVEFRONTOBJ](#WAVEFRONTOBJ) | Wavefront's Obj-bestandsformaat |
-| [XYZ](#XYZ) | Xyz-puntwolkbestand |
-| [X_BINARY](#X-BINARY) | DirectX X-bestand in binaire indeling |
-| [X_TEXT](#X-TEXT) | DirectX X-bestand in binaire indeling |
+| [XYZ](#XYZ) | Xyz-puntenwolkbestand |
+| [X_BINARY](#X-BINARY) | DirectX X-bestand in binair formaat |
+| [X_TEXT](#X-TEXT) | DirectX X-bestand in binair formaat |
 | [ZIP](#ZIP) | Zip-archief dat andere 3D-bestandsformaten bevat. |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [createLoadOptions()](#createLoadOptions--) | Maak standaard laadopties voor dit bestandsformaat |
-| [createSaveOptions()](#createSaveOptions--) | Maak standaard opslaanopties voor dit bestandsformaat |
-| [detect(Stream stream, String fileName)](#detect-com.aspose.threed.Stream-java.lang.String-) | Detecteer het bestandsformaat vanuit datastroom, bestandsnaam is optioneel voor het raden van typen die geen magic header hebben. |
-| [detect(String fileName)](#detect-java.lang.String-) | Detecteer het bestandsformaat vanuit bestandsnaam, bestand moet leesbaar zijn zodat Aspose.3D het bestandsformaat via de bestandsheader kan detecteren. |
+| [createSaveOptions()](#createSaveOptions--) | Maak standaard opslagopties voor dit bestandsformaat |
+| [detect(Stream stream, String fileName)](#detect-com.aspose.threed.Stream-java.lang.String-) | Detecteer het bestandsformaat vanuit datastroom, bestandsnaam is optioneel voor het raden van typen zonder magic header. |
+| [detect(String fileName)](#detect-java.lang.String-) | Detecteer het bestandsformaat op basis van bestandsnaam, bestand moet leesbaar zijn zodat Aspose.3D het bestandsformaat via de bestandsheader kan detecteren. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCanExport()](#getCanExport--) | Geeft aan of Aspose.3D export van scène naar het huidige bestandsformaat ondersteunt. |
-| [getCanImport()](#getCanImport--) | Geeft aan of Aspose.3D import van scène vanuit het huidige bestandsformaat ondersteunt. |
+| [getCanExport()](#getCanExport--) | Bepaalt of Aspose.3D export van scène naar het huidige bestandsformaat ondersteunt. |
+| [getCanImport()](#getCanImport--) | Bepaalt of Aspose.3D import van scène vanuit het huidige bestandsformaat ondersteunt. |
 | [getClass()](#getClass--) |  |
-| [getContentType()](#getContentType--) | Haalt het contenttype van het bestandsformaat op. |
+| [getContentType()](#getContentType--) | Haalt het inhoudstype van het bestandsformaat op |
 | [getExtension()](#getExtension--) | Haalt de extensienaam van dit type op. |
 | [getExtensions()](#getExtensions--) | Haalt de extensienamen van dit type op. |
-| [getFileFormatType()](#getFileFormatType--) | Haalt het bestandsformaattype op. |
+| [getFileFormatType()](#getFileFormatType--) | Haalt het bestandsformaattype op |
 | [getFormatByExtension(String extensionName)](#getFormatByExtension-java.lang.String-) | Haalt het voorkeursbestandsformaat op basis van de extensienaam. De extensienaam moet beginnen met een punt ('.'). |
 | [getFormats()](#getFormats--) | Toegang tot alle ondersteunde formaten |
-| [getObjectType(Node node)](#getObjectType-com.aspose.threed.Node-) | Haalt het modeltype op voor de opgegeven knoop. |
-| [getTransformForBuild(Node node)](#getTransformForBuild-com.aspose.threed.Node-) | Haal de transformatiematrix op voor de knoop die wordt gebruikt in de build. |
-| [getVersion()](#getVersion--) | Haalt de versie van het bestandsformaat op. |
+| [getObjectType(Node node)](#getObjectType-com.aspose.threed.Node-) | Haalt het modeltype op voor de opgegeven node. |
+| [getTransformForBuild(Node node)](#getTransformForBuild-com.aspose.threed.Node-) | Haal de transformatie‑matrix op voor de node die wordt gebruikt in de build. |
+| [getVersion()](#getVersion--) | Haalt de versie van het bestandsformaat op |
 | [hashCode()](#hashCode--) |  |
-| [isBuildable(Node node)](#isBuildable-com.aspose.threed.Node-) | Controleer of deze knoop is gemarkeerd als een build. |
+| [isBuildable(Node node)](#isBuildable-com.aspose.threed.Node-) | Controleer of deze node is gemarkeerd als een build. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBuildable(Node node, boolean value, Matrix4 transform)](#setBuildable-com.aspose.threed.Node-boolean-com.aspose.threed.Matrix4-) | Markeer een knoop voor build. |
-| [setObjectType(Node node, String modelType)](#setObjectType-com.aspose.threed.Node-java.lang.String-) | Stel het modeltype in voor de opgegeven knoop. |
-| [toString()](#toString--) | Formaten naar string |
+| [setBuildable(Node node, boolean value, Matrix4 transform)](#setBuildable-com.aspose.threed.Node-boolean-com.aspose.threed.Matrix4-) | Markeer een node voor build. |
+| [setObjectType(Node node, String modelType)](#setObjectType-com.aspose.threed.Node-java.lang.String-) | Stel het modeltype in voor de opgegeven node. |
+| [toString()](#toString--) | Formaten naar tekenreeks |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -106,7 +106,7 @@ public static final FileFormat AMF
 ```
 
 
-Bestandsformaat voor additive manufacturing
+Bestandsformaat voor additieve productie
 
 ### ASE {#ASE}
 ```
@@ -130,7 +130,7 @@ public static final FileFormat BLENDER
 ```
 
 
-3D-bestandsformaat van Blender
+3D-bestandformaat van Blender
 
 ### COLLADA {#COLLADA}
 ```
@@ -138,7 +138,7 @@ public static final FileFormat COLLADA
 ```
 
 
-Collada-bestandsformaat
+Collada-bestandformaat
 
 ### DISCREET3DS {#DISCREET3DS}
 ```
@@ -146,7 +146,7 @@ public static final FileFormat DISCREET3DS
 ```
 
 
-Bestandsformaat van 3D Studio
+Bestandformaat van 3D Studio
 
 ### DRACO {#DRACO}
 ```
@@ -170,7 +170,7 @@ public static final FileFormat FBX6100ASCII
 ```
 
 
-ASCII FBX-bestandsformaat, versie 6.1.0
+ASCII FBX-bestandformaat, versie 6.1.0
 
 ### FBX6100_BINARY {#FBX6100-BINARY}
 ```
@@ -178,7 +178,7 @@ public static final FileFormat FBX6100_BINARY
 ```
 
 
-Binaire FBX-bestandsformaat, versie 6.1.0
+Binaire FBX-bestandformaat, versie 6.1.0
 
 ### FBX7200ASCII {#FBX7200ASCII}
 ```
@@ -186,7 +186,7 @@ public static final FileFormat FBX7200ASCII
 ```
 
 
-ASCII FBX-bestandsformaat, versie 7.2.0
+ASCII FBX-bestandformaat, versie 7.2.0
 
 ### FBX7200_BINARY {#FBX7200-BINARY}
 ```
@@ -194,7 +194,7 @@ public static final FileFormat FBX7200_BINARY
 ```
 
 
-Binaire FBX-bestandsformaat, versie 7.2.0
+Binaire FBX-bestandformaat, versie 7.2.0
 
 ### FBX7300ASCII {#FBX7300ASCII}
 ```
@@ -202,7 +202,7 @@ public static final FileFormat FBX7300ASCII
 ```
 
 
-ASCII FBX-bestandsformaat, versie 7.3.0
+ASCII FBX-bestandformaat, versie 7.3.0
 
 ### FBX7300_BINARY {#FBX7300-BINARY}
 ```
@@ -210,7 +210,7 @@ public static final FileFormat FBX7300_BINARY
 ```
 
 
-Binaire FBX-bestandsformaat, versie 7.3.0
+Binaire FBX-bestandformaat, versie 7.3.0
 
 ### FBX7400ASCII {#FBX7400ASCII}
 ```
@@ -218,7 +218,7 @@ public static final FileFormat FBX7400ASCII
 ```
 
 
-ASCII FBX-bestandsformaat, versie 7.4.0
+ASCII FBX-bestandformaat, versie 7.4.0
 
 ### FBX7400_BINARY {#FBX7400-BINARY}
 ```
@@ -226,7 +226,7 @@ public static final FileFormat FBX7400_BINARY
 ```
 
 
-Binaire FBX-bestandsformaat, versie 7.4.0
+Binaire FBX-bestandformaat, versie 7.4.0
 
 ### FBX7500ASCII {#FBX7500ASCII}
 ```
@@ -282,7 +282,7 @@ public static final FileFormat GLTF
 ```
 
 
-glTF van de Khronos Group
+glTF van Khronos Group
 
 ### GLTF2 {#GLTF2}
 ```
@@ -290,7 +290,7 @@ public static final FileFormat GLTF2
 ```
 
 
-glTF versie 2.0 van de Khronos Group
+glTF versie 2.0 van Khronos Group
 
 ### GLTF2_BINARY {#GLTF2-BINARY}
 ```
@@ -298,7 +298,7 @@ public static final FileFormat GLTF2_BINARY
 ```
 
 
-glTF versie 2.0 van de Khronos Group
+glTF versie 2.0 van Khronos Group
 
 ### GLTF_BINARY {#GLTF-BINARY}
 ```
@@ -306,7 +306,7 @@ public static final FileFormat GLTF_BINARY
 ```
 
 
-glTF van de Khronos Group in binair formaat
+glTF van Khronos Group in binair formaat
 
 ### HTML5 {#HTML5}
 ```
@@ -482,7 +482,7 @@ public static final FileFormat XYZ
 ```
 
 
-Xyz-puntwolkbestand
+Xyz-puntenwolkbestand
 
 ### X_BINARY {#X-BINARY}
 ```
@@ -490,7 +490,7 @@ public static final FileFormat X_BINARY
 ```
 
 
-DirectX X-bestand in binaire indeling
+DirectX X-bestand in binair formaat
 
 ### X_TEXT {#X-TEXT}
 ```
@@ -498,7 +498,7 @@ public static final FileFormat X_TEXT
 ```
 
 
-DirectX X-bestand in binaire indeling
+DirectX X-bestand in binair formaat
 
 ### ZIP {#ZIP}
 ```
@@ -524,7 +524,7 @@ public SaveOptions createSaveOptions()
 ```
 
 
-Maak standaard opslaanopties voor dit bestandsformaat
+Maak standaard opslagopties voor dit bestandsformaat
 
 **Returns:**
 [SaveOptions](../../com.aspose.threed/saveoptions) - A default save option for current format
@@ -534,7 +534,7 @@ public static FileFormat detect(Stream stream, String fileName)
 ```
 
 
-Detecteer het bestandsformaat vanuit datastroom, bestandsnaam is optioneel voor het raden van typen die geen magic header hebben.
+Detecteer het bestandsformaat vanuit datastroom, bestandsnaam is optioneel voor het raden van typen zonder magic header.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -550,7 +550,7 @@ public static FileFormat detect(String fileName)
 ```
 
 
-Detecteer het bestandsformaat vanuit bestandsnaam, bestand moet leesbaar zijn zodat Aspose.3D het bestandsformaat via de bestandsheader kan detecteren.
+Detecteer het bestandsformaat op basis van bestandsnaam, bestand moet leesbaar zijn zodat Aspose.3D het bestandsformaat via de bestandsheader kan detecteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -580,10 +580,10 @@ public boolean getCanExport()
 ```
 
 
-Geeft aan of Aspose.3D export van scène naar het huidige bestandsformaat ondersteunt.
+Bepaalt of Aspose.3D export van scène naar het huidige bestandsformaat ondersteunt.
 
 **Returns:**
-boolean - of Aspose.3D ondersteuning biedt voor het exporteren van een scène naar het huidige bestandsformaat. **Voorbeeld:** De volgende code toont hoe te controleren of exporteren naar het opgegeven formaat wordt ondersteund.
+boolean - of Aspose.3D export van een scène naar het huidige bestandsformaat ondersteunt. **Voorbeeld:** De volgende code laat zien hoe u kunt controleren of exporteren naar het opgegeven formaat wordt ondersteund.
 
 ```
 var outputFormat = ".glb";
@@ -597,10 +597,10 @@ public boolean getCanImport()
 ```
 
 
-Geeft aan of Aspose.3D import van scène vanuit het huidige bestandsformaat ondersteunt.
+Bepaalt of Aspose.3D import van scène vanuit het huidige bestandsformaat ondersteunt.
 
 **Returns:**
-boolean - of Aspose.3D ondersteuning biedt voor het importeren van een scène vanuit het huidige bestandsformaat. **Voorbeeld:** De volgende code toont hoe te controleren of importeren vanuit het opgegeven formaat wordt ondersteund.
+boolean - of Aspose.3D import van een scène vanuit het huidige bestandsformaat ondersteunt. **Voorbeeld:** De volgende code laat zien hoe u kunt controleren of importeren vanuit het opgegeven formaat wordt ondersteund.
 
 ```
 var outputFormat = ".glb";
@@ -624,7 +624,7 @@ public FileContentType getContentType()
 ```
 
 
-Haalt het contenttype van het bestandsformaat op.
+Haalt het inhoudstype van het bestandsformaat op
 
 **Returns:**
 [FileContentType](../../com.aspose.threed/filecontenttype) - file format content type **Example:**
@@ -667,7 +667,7 @@ public FileFormatType getFileFormatType()
 ```
 
 
-Haalt het bestandsformaattype op.
+Haalt het bestandsformaattype op
 
 **Returns:**
 [FileFormatType](../../com.aspose.threed/fileformattype) - file format type
@@ -682,7 +682,7 @@ Haalt het voorkeursbestandsformaat op basis van de extensienaam. De extensienaam
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| extensionName | java.lang.String | De extensienaam begint met '.' om te zoeken. |
+| extensionName | java.lang.String | De extensienaam begint met '.' om op te vragen. |
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - Instance of [FileFormat](../../com.aspose.threed/fileformat), otherwise null returned. **Example:** The following code shows how to save scene to memory using specified format
@@ -710,7 +710,7 @@ public String getObjectType(Node node)
 ```
 
 
-Haalt het modeltype op voor de opgegeven knoop.
+Haalt het modeltype op voor de opgegeven node.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -718,19 +718,19 @@ Haalt het modeltype op voor de opgegeven knoop.
 | node | [Node](../../com.aspose.threed/node) |  |
 
 **Returns:**
-java.lang.String - 3MF‑objecttype voor de opgegeven knoop
+java.lang.String - het objecttype van 3MF voor de opgegeven node
 ### getTransformForBuild(Node node) {#getTransformForBuild-com.aspose.threed.Node-}
 ```
 public Matrix4 getTransformForBuild(Node node)
 ```
 
 
-Haal de transformatiematrix op voor de knoop die wordt gebruikt in de build.
+Haal de transformatie‑matrix op voor de node die wordt gebruikt in de build.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Welke knoop moet de transformatiematrix krijgen voor de 3MF‑build. |
+| node | [Node](../../com.aspose.threed/node) | Welke node moet de transformatie‑matrix krijgen voor de 3MF‑build. |
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - A transform matrix or null if not defined.
@@ -740,7 +740,7 @@ public Version getVersion()
 ```
 
 
-Haalt de versie van het bestandsformaat op.
+Haalt de versie van het bestandsformaat op
 
 **Returns:**
 [Version](../../com.aspose.threed/version) - file format version
@@ -760,12 +760,12 @@ public boolean isBuildable(Node node)
 ```
 
 
-Controleer of deze knoop is gemarkeerd als een build.
+Controleer of deze node is gemarkeerd als een build.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Welke knoop te controleren |
+| node | [Node](../../com.aspose.threed/node) | Welke node moet worden gecontroleerd |
 
 **Returns:**
 boolean - True als deze is gemarkeerd als een build
@@ -791,14 +791,14 @@ public void setBuildable(Node node, boolean value, Matrix4 transform)
 ```
 
 
-Markeer een knoop voor build.
+Markeer een node voor build.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.threed/node) | Welke knoop moet worden gemarkeerd als een build. |
+| node | [Node](../../com.aspose.threed/node) | Welke node moet worden gemarkeerd als een build. |
 | waarde | boolean |  |
-| transform | [Matrix4](../../com.aspose.threed/matrix4) | De transformatie van de knoop in de build. |
+| transform | [Matrix4](../../com.aspose.threed/matrix4) | De transformatie van de node in de build. |
 
 ### setObjectType(Node node, String modelType) {#setObjectType-com.aspose.threed.Node-java.lang.String-}
 ```
@@ -806,7 +806,7 @@ public void setObjectType(Node node, String modelType)
 ```
 
 
-Stel het modeltype in voor de opgegeven knoop. Mogelijke waarden: model surface solidsupport support other
+Stel het modeltype in voor de opgegeven node. Mogelijke waarde: model surface solidsupport support other
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -820,10 +820,10 @@ public String toString()
 ```
 
 
-Formaten naar string
+Formaten naar tekenreeks
 
 **Returns:**
-java.lang.String - Objecttekenreeks
+java.lang.String - Objectstring
 ### wait() {#wait--}
 ```
 public final void wait()

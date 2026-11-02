@@ -1,7 +1,7 @@
 ---
 title: "SkinDeformer"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een SkinDeformer bevat meerdere botten; elke bot mengt een deel van de geometrie op basis van de gewichten van controlepunten."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een skin deformer bevat meerdere botten; elke bot mengt een deel van de geometrie op basis van de gewichten van controlepunten."
 type: docs
 weight: 173
 url: /nl/java/com.aspose.threed/skindeformer/
@@ -26,19 +26,19 @@ Een skin-deformer bevat meerdere botten om te werken; elk bot mengt een deel van
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBones()](#getBones--) | Geeft alle botten die de SkinDeformer bevat. |
+| [getBones()](#getBones--) | Haalt alle botten op die de skin deformer bevat |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getOwner()](#getOwner--) | Geeft de geometrie die deze Deformer bezit. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getOwner()](#getOwner--) | Haalt de geometrie op die deze deformer bezit |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -90,7 +90,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -100,10 +100,10 @@ public List<Bone> getBones()
 ```
 
 
-Geeft alle botten die de SkinDeformer bevat.
+Haalt alle botten op die de skin deformer bevat
 
 **Returns:**
-java.util.List<com.aspose.threed.Bone> - alle botten die de SkinDeformer bevat
+java.util.List<com.aspose.threed.Bone> - alle botten die de skin deformer bevat
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -130,7 +130,7 @@ public Geometry getOwner()
 ```
 
 
-Geeft de geometrie die deze Deformer bezit.
+Haalt de geometrie op die deze deformer bezit
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer
@@ -140,7 +140,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -150,12 +150,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -206,7 +206,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -234,12 +234,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}

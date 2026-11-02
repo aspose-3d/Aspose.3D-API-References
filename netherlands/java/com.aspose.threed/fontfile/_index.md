@@ -1,7 +1,7 @@
 ---
 title: "FontFile"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Fontbestand bevat definities voor glyphs, dit wordt gebruikt om een tekstprofiel te maken."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Fontbestand bevat definities voor glyphs dit wordt gebruikt om een tekstprofiel te maken."
 type: docs
 weight: 68
 url: /nl/java/com.aspose.threed/fontfile/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public abstract class FontFile extends A3DObject
 ```
 
-Fontbestand bevat definities voor glyphs, dit wordt gebruikt om een tekstprofiel te maken. **Example:** De volgende code laat zien hoe je een 3D‑mesh uit tekst maakt met het opgegeven fontbestand.
+Fontbestand bevat definities voor glyphs, dit wordt gebruikt om een tekstprofiel te maken. **Example:** De volgende code laat zien hoe je een 3D-mesh van tekst maakt met het opgegeven fontbestand.
 
 ```
 var font = FontFile.fromFile("CascadiaCode-Regular.otf");
@@ -36,19 +36,19 @@ var font = FontFile.fromFile("CascadiaCode-Regular.otf");
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [fromFile(String fileName)](#fromFile-java.lang.String-) | Laad FontFile van bestandsnaam |
+| [fromFile(String fileName)](#fromFile-java.lang.String-) | Laad FontFile vanaf bestandsnaam |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [parse(byte[] bytes)](#parse-byte---) | Parse FontFile van bytes |
+| [parse(byte[] bytes)](#parse-byte---) | Parse FontFile uit bytes |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -85,7 +85,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -95,7 +95,7 @@ public static FontFile fromFile(String fileName)
 ```
 
 
-Laad FontFile van bestandsnaam
+Laad FontFile vanaf bestandsnaam
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -130,7 +130,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -140,12 +140,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -181,12 +181,12 @@ public static FontFile parse(byte[] bytes)
 ```
 
 
-Parse FontFile van bytes
+Parse FontFile uit bytes
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| bytes | byte[] | Ruwe inhoud van OTF-fontbestand |
+| bytes | byte[] | Ruwe inhoud van OTF fontbestand |
 
 **Returns:**
 [FontFile](../../com.aspose.threed/fontfile) - FontFile instance
@@ -211,7 +211,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -239,12 +239,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### toString() {#toString--}

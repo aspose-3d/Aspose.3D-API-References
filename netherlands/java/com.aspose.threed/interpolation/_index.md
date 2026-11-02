@@ -1,7 +1,7 @@
 ---
 title: "Interpolatie"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Het interpolatietype van de keyframes."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Het interpolatietype van de sleutelframes."
 type: docs
 weight: 283
 url: /nl/java/com.aspose.threed/interpolation/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum Interpolation extends Enum<Interpolation>
 ```
 
-Het interpolatietype van de keyframe.
+Het interpolatietype van het sleutelbeeld.
 ## Velden
 
 | Veld | Beschrijving |
 | --- | --- |
-| [BEZIER](#BEZIER) | Een Bézier- of Hermite‑splines. |
-| [B_SPLINE](#B-SPLINE) | Basis-splines worden gedefinieerd door een reeks controlepunten, waarvoor de curve gegarandeerd alleen door het eerste en het laatste punt loopt. |
-| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | Een cardinal spline is een kubieke Hermite spline waarvan de tangenten worden gedefinieerd door de eindpunten en een spanningparameter. |
+| [BEZIER](#BEZIER) | Een Bézier- of Hermite-spline. |
+| [B_SPLINE](#B-SPLINE) | Basis-splines worden gedefinieerd door een reeks controlepunten, waarbij de curve gegarandeerd alleen door het eerste en het laatste punt gaat. |
+| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | Een cardinal spline is een kubische Hermite spline waarvan de tangenten worden gedefinieerd door de eindpunten en een spanningparameter. |
 | [CONSTANT](#CONSTANT) | De waarde blijft constant gelijk aan de waarde van het eerste punt tot het volgende segment. |
 | [LINEAR](#LINEAR) | Lineaire interpolatie is een rechte lijn tussen twee punten. |
 | [TCB_SPLINE](#TCB-SPLINE) | Ook wel Kochanek-Bartels spline genoemd, wordt het gedrag van de tangent gedefinieerd door spanning/bias/continuïteit |
@@ -51,7 +51,7 @@ public static final Interpolation BEZIER
 ```
 
 
-Een Bézier- of Hermite‑splines.
+Een Bézier- of Hermite-spline.
 
 ### B_SPLINE {#B-SPLINE}
 ```
@@ -59,7 +59,7 @@ public static final Interpolation B_SPLINE
 ```
 
 
-Basis-splines worden gedefinieerd door een reeks controlepunten, waarvoor de curve gegarandeerd alleen door het eerste en het laatste punt loopt.
+Basis-splines worden gedefinieerd door een reeks controlepunten, waarbij de curve gegarandeerd alleen door het eerste en het laatste punt gaat.
 
 ### CARDINAL_SPLINE {#CARDINAL-SPLINE}
 ```
@@ -67,7 +67,7 @@ public static final Interpolation CARDINAL_SPLINE
 ```
 
 
-Een cardinal spline is een kubieke Hermite spline waarvan de tangenten worden gedefinieerd door de eindpunten en een spanningparameter.
+Een cardinal spline is een kubische Hermite spline waarvan de tangenten worden gedefinieerd door de eindpunten en een spanningparameter.
 
 ### CONSTANT {#CONSTANT}
 ```

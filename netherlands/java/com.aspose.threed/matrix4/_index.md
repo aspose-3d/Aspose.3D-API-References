@@ -1,6 +1,6 @@
 ---
 title: "Matrix4"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "4x4 matriximplementatie."
 type: docs
 weight: 100
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class Matrix4 implements Struct<Matrix4>, Serializable
 ```
 
-4x4 matriximplementatie. **Voorbeeld:**
+4x4 matriximplementatie. **Example:**
 
 ```
 Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
@@ -30,9 +30,9 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | Constructor | Beschrijving |
 | --- | --- |
 | [Matrix4(Vector4 r0, Vector4 r1, Vector4 r2, Vector4 r3)](#Matrix4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | Construeert matrix uit 4 rijen. |
-| [Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, double m13, double m20, double m21, double m22, double m23, double m30, double m31, double m32, double m33)](#Matrix4-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-) | Initialiseert een nieuw exemplaar van de struct [Matrix4](../../com.aspose.threed/matrix4). |
-| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | Construeer [Matrix4](../../com.aspose.threed/matrix4) vanuit een [FMatrix4](../../com.aspose.threed/fmatrix4) exemplaar |
-| [Matrix4(double[] m)](#Matrix4-double---) | Initialiseert een nieuw exemplaar van de struct [Matrix4](../../com.aspose.threed/matrix4). |
+| [Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, double m13, double m20, double m21, double m22, double m23, double m30, double m31, double m32, double m33)](#Matrix4-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-double-) | Initialiseert een nieuw exemplaar van de [Matrix4](../../com.aspose.threed/matrix4) struct. |
+| [Matrix4(FMatrix4 m)](#Matrix4-com.aspose.threed.FMatrix4-) | Construeer [Matrix4](../../com.aspose.threed/matrix4) van een [FMatrix4](../../com.aspose.threed/fmatrix4) instantie |
+| [Matrix4(double[] m)](#Matrix4-double---) | Initialiseert een nieuw exemplaar van de [Matrix4](../../com.aspose.threed/matrix4) struct. |
 | [Matrix4()](#Matrix4--) |  |
 ## Velden
 
@@ -61,7 +61,7 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | [clone()](#clone--) |  |
 | [concatenate(Matrix4 m2)](#concatenate-com.aspose.threed.Matrix4-) | Voegt de twee matrices samen |
 | [copyFrom(Matrix4 src)](#copyFrom-com.aspose.threed.Matrix4-) |  |
-| [decompose(Vector3 translation, Vector3 scaling, Quaternion rotation)](#decompose-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | Decomposeer de transformatiesmatrix. |
+| [decompose(Vector3 translation, Vector3 scaling, Quaternion rotation)](#decompose-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | Decomprimeer de transformatie-matrix. |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getDeterminant()](#getDeterminant--) | Haalt de determinant van de matrix op. |
@@ -79,14 +79,14 @@ Matrix4 mat = Matrix4.rotateFromEuler(90, 0, 0);
 | [rotate(double angle, Vector3 axis)](#rotate-double-com.aspose.threed.Vector3-) | Maak een rotatiematrix op basis van rotatiehoek en as |
 | [rotateFromEuler(Vector3 eul)](#rotateFromEuler-com.aspose.threed.Vector3-) | Maak een rotatiematrix van een Euler-hoek |
 | [rotateFromEuler(double rx, double ry, double rz)](#rotateFromEuler-double-double-double-) | Maak een rotatiematrix van een Euler-hoek |
-| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | Creëert een matrix die schaalt langs de x-as, de y-as en de z-as. |
-| [scale(double s)](#scale-double-) | Creëert een matrix die schaalt langs de x-as, de y-as en de z-as. |
-| [scale(double sx, double sy, double sz)](#scale-double-double-double-) | Creëert een matrix die schaalt langs de x-as, de y-as en de z-as. |
+| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | Maakt een matrix die schaalt langs de x-as, de y-as en de z-as. |
+| [scale(double s)](#scale-double-) | Maakt een matrix die schaalt langs de x-as, de y-as en de z-as. |
+| [scale(double sx, double sy, double sz)](#scale-double-double-double-) | Maakt een matrix die schaalt langs de x-as, de y-as en de z-as. |
 | [setTRS(Vector3 translation, Vector3 rotation, Vector3 scale)](#setTRS-com.aspose.threed.Vector3-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Initialiseert de matrix met translatie/rotatie/schaal |
 | [toArray()](#toArray--) | Converteert de matrix naar een array. |
 | [toString()](#toString--) | Retourneert een java.lang.String die de huidige [Matrix4](../../com.aspose.threed/matrix4) vertegenwoordigt. |
-| [translate(Vector3 t)](#translate-com.aspose.threed.Vector3-) | Creëert een matrix die translateert langs de x-as, de y-as en de z-as |
-| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | Creëert een matrix die translateert langs de x-as, de y-as en de z-as |
+| [translate(Vector3 t)](#translate-com.aspose.threed.Vector3-) | Maakt een matrix die translateert langs de x-as, de y-as en de z-as |
+| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | Maakt een matrix die translateert langs de x-as, de y-as en de z-as |
 | [transpose()](#transpose--) | Transponeert deze instantie. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -113,7 +113,7 @@ public Matrix4(double m00, double m01, double m02, double m03, double m10, doubl
 ```
 
 
-Initialiseert een nieuw exemplaar van de struct [Matrix4](../../com.aspose.threed/matrix4).
+Initialiseert een nieuw exemplaar van de [Matrix4](../../com.aspose.threed/matrix4) struct.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -151,7 +151,7 @@ public Matrix4(FMatrix4 m)
 ```
 
 
-Construeer [Matrix4](../../com.aspose.threed/matrix4) vanuit een [FMatrix4](../../com.aspose.threed/fmatrix4) exemplaar
+Construeer [Matrix4](../../com.aspose.threed/matrix4) van een [FMatrix4](../../com.aspose.threed/fmatrix4) instantie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -164,7 +164,7 @@ public Matrix4(double[] m)
 ```
 
 
-Initialiseert een nieuw exemplaar van de struct [Matrix4](../../com.aspose.threed/matrix4).
+Initialiseert een nieuw exemplaar van de [Matrix4](../../com.aspose.threed/matrix4) struct.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -357,7 +357,7 @@ public boolean decompose(Vector3 translation, Vector3 scaling, Quaternion rotati
 ```
 
 
-Decomposeer de transformatiesmatrix.
+Decomprimeer de transformatie-matrix.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -540,7 +540,7 @@ Maak een rotatiematrix van een quaternion
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | q | [Quaternion](../../com.aspose.threed/quaternion) | Rotation quaternion **Voorbeeld:** De volgende code toont hoe een matrix voor een rotatiebewerking te maken. |
+|  | q | [Quaternion](../../com.aspose.threed/quaternion) | Rotation quaternion **Voorbeeld:** De volgende code laat zien hoe een matrix voor een rotatiebewerking te creëren. |
 
 ```
 var t = Matrix4.rotate(Quaternion.fromAngleAxis(Math.PI, Vector3.getUnitY()));
@@ -562,7 +562,7 @@ Maak een rotatiematrix op basis van rotatiehoek en as
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | hoek | double | Rotatiehoek in radialen |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | Rotatie-as **Voorbeeld:** De volgende code toont hoe een matrix voor een rotatiebewerking te maken. |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | Rotatie-as **Voorbeeld:** De volgende code laat zien hoe een matrix voor een rotatiebewerking te creëren. |
 
 ```
 var t = Matrix4.rotate(Math.PI, new Vector3(0, 1, 0));
@@ -583,7 +583,7 @@ Maak een rotatiematrix van een Euler-hoek
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | eul | [Vector3](../../com.aspose.threed/vector3) | Rotatie in radialen **Voorbeeld:** De volgende code toont hoe een matrix voor een rotatiebewerking te maken. |
+|  | eul | [Vector3](../../com.aspose.threed/vector3) | Rotatie in radialen **Voorbeeld:** De volgende code laat zien hoe een matrix voor een rotatiebewerking te creëren. |
 
 ```
 var t = Matrix4.rotateFromEuler(new Vector3(0, Math.PI, 0));
@@ -604,9 +604,9 @@ Maak een rotatiematrix van een Euler-hoek
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| rx | double | Rotatie in de x-as in radialen |
-| ry | double | Rotatie in de y-as in radialen |
-|  | rz | double | Rotatie in de z-as in radialen **Example:** De volgende code laat zien hoe je een matrix maakt voor rotatiebewerking. |
+| rx | double | Rotatie in x-as in radialen |
+| ry | double | Rotatie in y-as in radialen |
+|  | rz | double | Rotatie in z-as in radialen **Voorbeeld:** De volgende code laat zien hoe je een matrix maakt voor een rotatiebewerking. |
 
 ```
 var t = Matrix4.rotateFromEuler(0, Math.PI, 0);
@@ -622,12 +622,12 @@ public static Matrix4 scale(Vector3 s)
 ```
 
 
-Creëert een matrix die schaalt langs de x-as, de y-as en de z-as.
+Maakt een matrix die schaalt langs de x-as, de y-as en de z-as.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | s | [Vector3](../../com.aspose.threed/vector3) | Schaalfactoren gelden voor de x-as, de y-as en de z-as **Example:** De volgende code laat zien hoe je een matrix maakt voor schaalbewerking. |
+|  | s | [Vector3](../../com.aspose.threed/vector3) | Schaalfactoren gelden voor de x-as, de y-as en de z-as **Voorbeeld:** De volgende code laat zien hoe je een matrix maakt voor een schaalbewerking. |
 
 ```
 var t = Matrix4.scale(new Vector3(10, 10, 10));
@@ -643,12 +643,12 @@ public static Matrix4 scale(double s)
 ```
 
 
-Creëert een matrix die schaalt langs de x-as, de y-as en de z-as.
+Maakt een matrix die schaalt langs de x-as, de y-as en de z-as.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | s | double | Schaalfactoren gelden voor alle assen **Example:** De volgende code laat zien hoe je een matrix maakt voor schaalbewerking. |
+|  | s | double | Schaalfactoren gelden voor alle assen **Voorbeeld:** De volgende code laat zien hoe je een matrix maakt voor een schaalbewerking. |
 
 ```
 var t = Matrix4.scale(10);
@@ -664,14 +664,14 @@ public static Matrix4 scale(double sx, double sy, double sz)
 ```
 
 
-Creëert een matrix die schaalt langs de x-as, de y-as en de z-as.
+Maakt een matrix die schaalt langs de x-as, de y-as en de z-as.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | sx | double | Schaalfactoren gelden voor de x-as |
 | sy | double | Schaalfactoren gelden voor de y-as |
-|  | sz | double | Schaalfactoren gelden voor de z-as **Example:** De volgende code laat zien hoe je een matrix maakt voor schaalbewerking. |
+|  | sz | double | Schaalfactoren gelden voor de z-as **Voorbeeld:** De volgende code laat zien hoe je een matrix maakt voor een schaalbewerking. |
 
 ```
 var t = Matrix4.scale(10, 20, 10);
@@ -692,7 +692,7 @@ Initialiseert de matrix met translatie/rotatie/schaal
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| translation | [Vector3](../../com.aspose.threed/vector3) | Vertaling. |
+| translation | [Vector3](../../com.aspose.threed/vector3) | Translatie. |
 | rotation | [Vector3](../../com.aspose.threed/vector3) | Eulerhoeken voor rotatie, velden zijn in graden. |
 | scale | [Vector3](../../com.aspose.threed/vector3) | Schaal. |
 
@@ -722,12 +722,12 @@ public static Matrix4 translate(Vector3 t)
 ```
 
 
-Creëert een matrix die translateert langs de x-as, de y-as en de z-as
+Maakt een matrix die translateert langs de x-as, de y-as en de z-as
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | t | [Vector3](../../com.aspose.threed/vector3) | Translatieverschuiving **Example:** De volgende code laat zien hoe je een matrix maakt voor translatiebewerking. |
+|  | t | [Vector3](../../com.aspose.threed/vector3) | Translatieverschuiving **Voorbeeld:** De volgende code laat zien hoe je een matrix maakt voor een translatiebewerking. |
 
 ```
 Matrix4 t = Matrix4.translate(new Vector3(10, 0, 0));
@@ -743,14 +743,14 @@ public static Matrix4 translate(double tx, double ty, double tz)
 ```
 
 
-Creëert een matrix die translateert langs de x-as, de y-as en de z-as
+Maakt een matrix die translateert langs de x-as, de y-as en de z-as
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | tx | double | X-coördinaatverschuiving |
 | ty | double | Y-coördinaatverschuiving |
-|  | tz | double | Z-coördinaat offset **Example:** De volgende code toont hoe je een matrix voor een vertaaloperatie maakt. |
+|  | tz | double | Z-coördinaat offset **Voorbeeld:** De volgende code laat zien hoe je een matrix voor een translatiebewerking maakt. |
 
 ```
 var t = Matrix4.translate(10, 0, 0);

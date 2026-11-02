@@ -1,7 +1,7 @@
 ---
 title: "IVertexBuffer"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De vertex buffer bevat de polygon-vertexgegevens die naar de renderingpipeline worden gestuurd."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De vertexbuffer bevat de polygon-vertexgegevens die naar de renderpijplijn worden gestuurd."
 type: docs
 weight: 259
 url: /nl/java/com.aspose.threed/ivertexbuffer/
@@ -13,22 +13,22 @@ url: /nl/java/com.aspose.threed/ivertexbuffer/
 public interface IVertexBuffer extends IBuffer
 ```
 
-De vertex buffer bevat de polygon-vertexgegevens die naar de renderingpipeline worden gestuurd.
+De vertexbuffer bevat de polygon-vertexgegevens die naar de renderpijplijn worden gestuurd.
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [getVertexDeclaration()](#getVertexDeclaration--) | Haalt de vertexdeclaratie op |
+| [getVertexDeclaration()](#getVertexDeclaration--) | Verkrijgt de vertexdeclaratie. |
 | [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | Laad vertexgegevens van [TriMesh](../../com.aspose.threed/trimesh) |
-| [loadData(Object array)](#loadData-java.lang.Object-) | Laad gegevens van een array. |
-| [loadData(long data, int size)](#loadData-long-int-) | Laad gegevens van de opgegeven positie. |
+| [loadData(Object array)](#loadData-java.lang.Object-) | Laad gegevens van array |
+| [loadData(long data, int size)](#loadData-long-int-) | Laad gegevens van gegeven positie |
 ### getVertexDeclaration() {#getVertexDeclaration--}
 ```
 public abstract VertexDeclaration getVertexDeclaration()
 ```
 
 
-Haalt de vertexdeclaratie op
+Verkrijgt de vertexdeclaratie.
 
 **Returns:**
 [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) - the vertex declaration
@@ -51,7 +51,7 @@ public abstract void loadData(Object array)
 ```
 
 
-Laad gegevens van een array.
+Laad gegevens van array
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -64,7 +64,7 @@ public abstract void loadData(long data, int size)
 ```
 
 
-Laad gegevens van de opgegeven positie.
+Laad gegevens van gegeven positie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

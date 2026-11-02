@@ -1,6 +1,6 @@
 ---
 title: "GlobalTransform"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Globale transformatie is vergelijkbaar met  maar is onveranderlijk terwijl het de uiteindelijk geëvalueerde transformatie vertegenwoordigt."
 type: docs
 weight: 72
@@ -13,7 +13,7 @@ java.lang.Object
 public class GlobalTransform
 ```
 
-Globale transformatie is vergelijkbaar met [Transform](../../com.aspose.threed/transform) maar is onveranderlijk terwijl het de uiteindelijk geëvalueerde transformatie vertegenwoordigt. Het rechtshandige coördinatensysteem wordt gebruikt bij het evalueren van de globale transformatie **Voorbeeld:** De volgende code laat zien hoe de globale transformatie van een knoop gelezen kan worden
+Globale transformatie is vergelijkbaar met [Transform](../../com.aspose.threed/transform) maar is onveranderlijk terwijl het de uiteindelijk geëvalueerde transformatie vertegenwoordigt. Het rechtshandige coördinatensysteem wordt gebruikt bij het evalueren van de globale transformatie **Voorbeeld:** De volgende code toont hoe de globale transformatie van een knoop te lezen
 
 ```
 Scene scene = new Scene();
@@ -32,7 +32,7 @@ Scene scene = new Scene();
 | [getEulerAngles()](#getEulerAngles--) | Haalt de rotatie op die wordt weergegeven in Euler-hoeken, gemeten in graden |
 | [getRotation()](#getRotation--) | Haalt de rotatie op die wordt weergegeven in een quaternion. |
 | [getScale()](#getScale--) | Haalt de schaal op |
-| [getTransformMatrix()](#getTransformMatrix--) | Haalt de transformatiematrix op. |
+| [getTransformMatrix()](#getTransformMatrix--) | Haalt de transformatie-matrix op. |
 | [getTranslation()](#getTranslation--) | Haalt de translatie op |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -120,7 +120,7 @@ public Matrix4 getTransformMatrix()
 ```
 
 
-Haalt de transformatiematrix op.
+Haalt de transformatie-matrix op.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix. **Example:**

@@ -1,6 +1,6 @@
 ---
 title: "PolygonMode"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De polygonrasterisatie-modus"
 type: docs
 weight: 292
@@ -19,8 +19,8 @@ De polygonrasterisatie-modus
 | Veld | Beschrijving |
 | --- | --- |
 | [FILL](#FILL) | Het binnenste van de polygoon is gevuld. |
-| [LINE](#LINE) | De randranden van de polygoon worden getekend als lijnsegmenten. |
-| [POINT](#POINT) | Polygoncontrolepunten worden getekend als punten. |
+| [LINE](#LINE) | De grensranden van de polygoon worden getekend als lijnsegmenten. |
+| [POINT](#POINT) | Polygon controlepunten worden getekend als punten. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -56,7 +56,7 @@ public static final PolygonMode LINE
 ```
 
 
-De randranden van de polygoon worden getekend als lijnsegmenten.
+De grensranden van de polygoon worden getekend als lijnsegmenten.
 
 ### POINT {#POINT}
 ```
@@ -64,7 +64,7 @@ public static final PolygonMode POINT
 ```
 
 
-Polygoncontrolepunten worden getekend als punten.
+Polygon controlepunten worden getekend als punten.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

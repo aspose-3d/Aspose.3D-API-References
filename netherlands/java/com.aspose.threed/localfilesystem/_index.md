@@ -1,7 +1,7 @@
 ---
 title: "LocalFileSystem"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De  zal de lees-/schrijfbewerkingen naar een lokale map mappen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De  zal de lees-/schrijfbewerkingen naar de lokale map afhandelen."
 type: docs
 weight: 91
 url: /nl/java/com.aspose.threed/localfilesystem/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class LocalFileSystem extends FileSystem
 ```
 
-De [LocalFileSystem](../../com.aspose.threed/localfilesystem) zal de lees-/schrijfbewerkingen naar een lokale map mappen. **Example:** De volgende code toont hoe je een bestand importeert en afhankelijkheidsbestanden in een opgegeven map levert.
+De [LocalFileSystem](../../com.aspose.threed/localfilesystem) zal de lees-/schrijfbewerkingen naar de lokale map afhandelen. **Voorbeeld:** De volgende code laat zien hoe je een bestand importeert en afhankelijke bestanden in een opgegeven map levert
 
 ```
 var inputFile = "input.fbx";
@@ -28,12 +28,12 @@ var inputFile = "input.fbx";
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [LocalFileSystem(String directory)](#LocalFileSystem-java.lang.String-) | Initialiseer een nieuwe [LocalFileSystem](../../com.aspose.threed/localfilesystem) met de opgegeven basismap. |
+| [LocalFileSystem(String directory)](#LocalFileSystem-java.lang.String-) | Initialiseer een nieuwe [LocalFileSystem](../../com.aspose.threed/localfilesystem) met de opgegeven basisdirectory. |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [close()](#close--) | Maak het bestandssysteem vrij en geef de bronnen vrij. |
+| [close()](#close--) | Dispose het bestandssysteem en geef de bronnen vrij. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -51,7 +51,7 @@ public LocalFileSystem(String directory)
 ```
 
 
-Initialiseer een nieuwe [LocalFileSystem](../../com.aspose.threed/localfilesystem) met de opgegeven basismap.
+Initialiseer een nieuwe [LocalFileSystem](../../com.aspose.threed/localfilesystem) met de opgegeven basisdirectory.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -64,7 +64,7 @@ public void close()
 ```
 
 
-Maak het bestandssysteem vrij en geef de bronnen vrij.
+Dispose het bestandssysteem en geef de bronnen vrij.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

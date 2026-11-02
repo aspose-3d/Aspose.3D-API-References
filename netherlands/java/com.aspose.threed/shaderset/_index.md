@@ -1,6 +1,6 @@
 ---
 title: "ShaderSet"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Shaderprogramma's voor elk type materiaal"
 type: docs
 weight: 166
@@ -21,12 +21,12 @@ Shaderprogramma's voor elk type materiaal
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [ShaderSet()](#ShaderSet--) | Maak de instantie van [ShaderSet](../../com.aspose.threed/shaderset) |
+| [ShaderSet()](#ShaderSet--) | Maak een instantie van [ShaderSet](../../com.aspose.threed/shaderset) |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
-| [close()](#close--) | Verwijder deze instantie en maak alle shaderprogramma's vrij. |
+| [close()](#close--) | Verwijder deze instantie en geef alle shaderprogramma's vrij. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFallback()](#getFallback--) | Haalt de fallback-shader op wanneer de vereiste shader niet beschikbaar is. |
@@ -50,7 +50,7 @@ public ShaderSet()
 ```
 
 
-Maak de instantie van [ShaderSet](../../com.aspose.threed/shaderset)
+Maak een instantie van [ShaderSet](../../com.aspose.threed/shaderset)
 
 ### close() {#close--}
 ```
@@ -58,7 +58,7 @@ public void close()
 ```
 
 
-Verwijder deze instantie en maak alle shaderprogramma's vrij.
+Verwijder deze instantie en geef alle shaderprogramma's vrij.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

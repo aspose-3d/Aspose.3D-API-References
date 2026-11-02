@@ -1,7 +1,7 @@
 ---
 title: "FVector3"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een float-vector met drie componenten."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een floatvector met drie componenten."
 type: docs
 weight: 60
 url: /nl/java/com.aspose.threed/fvector3/
@@ -16,7 +16,7 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class FVector3 implements Struct<FVector3>, Serializable
 ```
 
-Een float-vector met drie componenten.
+Een floatvector met drie componenten.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -36,23 +36,23 @@ Een float-vector met drie componenten.
 
 | Methode | Beschrijving |
 | --- | --- |
-| [add(FVector3 a, FVector3 b)](#add-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \+ Operatoroverbelasting |
+| [add(FVector3 a, FVector3 b)](#add-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \+ Operator overbelasting |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector3 src)](#copyFrom-com.aspose.threed.FVector3-) |  |
 | [create(FVector3 v)](#create-com.aspose.threed.FVector3-) | Expliciete conversie‑operator om FVector3 naar Vector3 te casten |
-| [cross(FVector3 rhs)](#cross-com.aspose.threed.FVector3-) | Kruisproduct van twee vectoren |
+| [cross(FVector3 rhs)](#cross-com.aspose.threed.FVector3-) | Kruisproduct van twee vectoren. |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getOne()](#getOne--) | De eenheids-schaalvector waarvan alle componenten 1 zijn |
+| [getOne()](#getOne--) | De eenheidsschaalvector waarvan alle componenten 1 zijn |
 | [getZero()](#getZero--) | De nulvector. |
 | [hashCode()](#hashCode--) |  |
 | [mul(FVector3 a, float b)](#mul-com.aspose.threed.FVector3-float-) | \* Operator overloading |
-| [negative(FVector3 a)](#negative-com.aspose.threed.FVector3-) | \- Operatoroverbelasting |
+| [negative(FVector3 a)](#negative-com.aspose.threed.FVector3-) | \- Operator overbelasting |
 | [normalize()](#normalize--) | Normaliseert deze instantie. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [sub(FVector3 a, FVector3 b)](#sub-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \- Operatoroverbelasting |
-| [toString()](#toString--) | Retourneert een string die de [FVector3](../../com.aspose.threed/fvector3) vertegenwoordigt |
+| [sub(FVector3 a, FVector3 b)](#sub-com.aspose.threed.FVector3-com.aspose.threed.FVector3-) | \- Operator overbelasting |
+| [toString()](#toString--) | Retourneert een string die de [FVector3](../../com.aspose.threed/fvector3) vertegenwoordigt. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -82,7 +82,7 @@ Initialiseert een nieuw exemplaar van de [FVector3](../../com.aspose.threed/fvec
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| vec | [Vector3](../../com.aspose.threed/vector3) | Vector3 van het type double |
+| vec | [Vector3](../../com.aspose.threed/vector3) | Vector3 in double-type |
 
 ### FVector3(Vector4 vec) {#FVector3-com.aspose.threed.Vector4-}
 ```
@@ -95,7 +95,7 @@ Initialiseert een nieuw exemplaar van de [FVector4](../../com.aspose.threed/fvec
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| vec | [Vector4](../../com.aspose.threed/vector4) | Vector4 van het type double |
+| vec | [Vector4](../../com.aspose.threed/vector4) | Vector4 in double-type |
 
 ### FVector3() {#FVector3--}
 ```
@@ -133,7 +133,7 @@ public static FVector3 add(FVector3 a, FVector3 b)
 ```
 
 
-\+ Operatoroverbelasting
+\+ Operator overbelasting
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -177,7 +177,7 @@ Expliciete conversie‑operator om FVector3 naar Vector3 te casten
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| v | [FVector3](../../com.aspose.threed/fvector3) | Vector3 van het type float |
+| v | [FVector3](../../com.aspose.threed/fvector3) | Vector3 in float-type |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3)
@@ -187,7 +187,7 @@ public FVector3 cross(FVector3 rhs)
 ```
 
 
-Kruisproduct van twee vectoren
+Kruisproduct van twee vectoren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -227,7 +227,7 @@ public static FVector3 getOne()
 ```
 
 
-De eenheids-schaalvector waarvan alle componenten 1 zijn
+De eenheidsschaalvector waarvan alle componenten 1 zijn
 
 **Returns:**
 [FVector3](../../com.aspose.threed/fvector3) - The unit scale vector with all components are all 1
@@ -273,7 +273,7 @@ public static FVector3 negative(FVector3 a)
 ```
 
 
-\- Operatoroverbelasting
+\- Operator overbelasting
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -314,7 +314,7 @@ public static FVector3 sub(FVector3 a, FVector3 b)
 ```
 
 
-\- Operatoroverbelasting
+\- Operator overbelasting
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -330,7 +330,7 @@ public String toString()
 ```
 
 
-Retourneert een string die de [FVector3](../../com.aspose.threed/fvector3) vertegenwoordigt
+Retourneert een string die de [FVector3](../../com.aspose.threed/fvector3) vertegenwoordigt.
 
 **Returns:**
 java.lang.String - Stringrepresentatie van deze vector.

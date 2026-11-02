@@ -1,6 +1,6 @@
 ---
 title: "RvmSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Opslaanopties voor Aveva PDMS RVM-bestand."
 type: docs
 weight: 158
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class RvmSaveOptions extends SaveOptions
 ```
 
-Opslagopties voor Aveva PDMS RVM‑bestand. **Voorbeeld:** De volgende code toont hoe een attribuut te exporteren in RVM.
+Opslagopties voor Aveva PDMS RVM-bestand. **Example:** De volgende code toont hoe een attribuut te exporteren in RVM.
 
 ```
 Scene scene = new Scene();
@@ -41,20 +41,20 @@ Scene scene = new Scene();
 | Methode | Beschrijving |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAttributeListFile()](#getAttributeListFile--) | Haalt de bestandsnaam van het attributenlijstbestand op; de exporter genereert een naam op basis van de .rvm‑bestandsnaam wanneer deze eigenschap niet is gedefinieerd, de standaardwaarde is null. |
-| [getAttributePrefix()](#getAttributePrefix--) | Haalt het voorvoegsel op van de attributen die geëxporteerd zullen worden; de geëxporteerde eigenschap bevat geen voorvoegsel, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, de standaardwaarde is 'rvm:'. |
+| [getAttributeListFile()](#getAttributeListFile--) | Haalt de bestandsnaam van het attribuutlijstbestand op, de exporter genereert een naam op basis van de .rvm-bestandsnaam wanneer deze eigenschap niet is gedefinieerd, standaardwaarde is null. |
+| [getAttributePrefix()](#getAttributePrefix--) | Haalt het voorvoegsel op van de attributen die geëxporteerd zullen worden, de geëxporteerde eigenschap bevat geen voorvoegsel, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. |
 | [getAuthor()](#getAuthor--) | Auteursinformatie, standaardwaarde is '3d@aspose' |
 | [getClass()](#getClass--) |  |
 | [getCreationTime()](#getCreationTime--) | De tijdstempel die dit bestand heeft geëxporteerd, standaardwaarde is de huidige tijd |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportAttributes()](#getExportAttributes--) | Bepaalt of de attributenlijst moet worden geëxporteerd naar een extern .att‑bestand, standaardwaarde is false. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportAttributes()](#getExportAttributes--) | Geeft aan of de attributenlijst moet worden geëxporteerd naar een extern .att‑bestand, standaardwaarde is false. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileNote()](#getFileNote--) | Bestandsopmerking in de bestandsheader. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -64,12 +64,12 @@ Scene scene = new Scene();
 | [setCreationTime(String value)](#setCreationTime-java.lang.String-) | De tijdstempel die dit bestand heeft geëxporteerd, standaardwaarde is de huidige tijd |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
 | [setExportAttributes(boolean value)](#setExportAttributes-boolean-) | Stelt in of de attributenlijst moet worden geëxporteerd naar een extern .att‑bestand, standaardwaarde is false. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileNote(String value)](#setFileNote-java.lang.String-) | Bestandsopmerking in de bestandsheader. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -116,10 +116,10 @@ public String getAttributeListFile()
 ```
 
 
-Haalt de bestandsnaam van het attributenlijstbestand op; de exporter genereert een naam op basis van de .rvm‑bestandsnaam wanneer deze eigenschap niet is gedefinieerd, de standaardwaarde is null.
+Haalt de bestandsnaam van het attribuutlijstbestand op, de exporter genereert een naam op basis van de .rvm-bestandsnaam wanneer deze eigenschap niet is gedefinieerd, standaardwaarde is null.
 
 **Returns:**
-java.lang.String - de bestandsnaam van het attributenlijstbestand, de exporter genereert een naam op basis van de .rvm‑bestandsnaam wanneer deze eigenschap niet is gedefinieerd, standaardwaarde is null. **Example:** De volgende code toont hoe een attribuut in RVM te exporteren.
+java.lang.String - de bestandsnaam van het attributenlijstbestand, de exporter genereert een naam op basis van de .rvm‑bestandsnaam wanneer deze eigenschap niet is gedefinieerd, standaardwaarde is null. **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren.
 
 ```
 Scene scene = new Scene();
@@ -142,10 +142,10 @@ public String getAttributePrefix()
 ```
 
 
-Bepaalt het voorvoegsel van de attributen die worden geëxporteerd, de geëxporteerde eigenschap bevat geen voorvoegsel, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. Bijvoorbeeld als een eigenschap rvm:Refno=345 is, wordt het geëxporteerde attribuut Refno = 345, het voorvoegsel wordt verwijderd.
+Geeft het voorvoegsel van de attributen die worden geëxporteerd, de geëxporteerde eigenschap bevat geen voorvoegsel, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. Bijvoorbeeld als een eigenschap rvm:Refno=345 is, wordt het geëxporteerde attribuut Refno = 345, het voorvoegsel wordt verwijderd.
 
 **Returns:**
-java.lang.String - het voorvoegsel van de attributen die worden geëxporteerd, de geëxporteerde eigenschap bevat geen voorvoegsel, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. Bijvoorbeeld als een eigenschap rvm:Refno=345 is, wordt het geëxporteerde attribuut Refno = 345, het voorvoegsel wordt verwijderd. **Example:** De volgende code toont hoe een attribuut in RVM te exporteren.
+java.lang.String - het voorvoegsel van de attributen die worden geëxporteerd, de geëxporteerde eigenschap bevat geen voorvoegsel, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. Bijvoorbeeld als een eigenschap rvm:Refno=345 is, wordt het geëxporteerde attribuut Refno = 345, het voorvoegsel wordt verwijderd. **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren.
 
 ```
 Scene scene = new Scene();
@@ -171,7 +171,7 @@ public String getAuthor()
 Auteursinformatie, standaardwaarde is '3d@aspose'
 
 **Returns:**
-java.lang.String - Auteursinformatie, standaardwaarde is '3d@aspose' **Example:** De volgende code toont hoe een attribuut in RVM te exporteren.
+java.lang.String - Auteursinformatie, standaardwaarde is '3d@aspose' **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren.
 
 ```
 Scene scene = new Scene();
@@ -224,10 +224,10 @@ public boolean getExportAttributes()
 ```
 
 
-Bepaalt of de attributenlijst moet worden geëxporteerd naar een extern .att‑bestand, standaardwaarde is false.
+Geeft aan of de attributenlijst moet worden geëxporteerd naar een extern .att‑bestand, standaardwaarde is false.
 
 **Returns:**
-boolean - of de attributenlijst moet worden geëxporteerd naar een extern .att‑bestand, standaardwaarde is false. **Example:** De volgende code toont hoe een attribuut in RVM te exporteren.
+boolean - of de attributenlijst moet worden geëxporteerd naar een extern .att‑bestand, standaardwaarde is false. **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren.
 
 ```
 Scene scene = new Scene();
@@ -250,7 +250,7 @@ public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -260,7 +260,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -270,10 +270,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileNote() {#getFileNote--}
 ```
 public String getFileNote()
@@ -283,7 +283,7 @@ public String getFileNote()
 Bestandsopmerking in de bestandsheader.
 
 **Returns:**
-java.lang.String - Bestandsopmerking in de bestandsheader. **Example:** De volgende code toont hoe een attribuut in RVM te exporteren.
+java.lang.String - Bestandsopmerking in de bestandsheader. **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren.
 
 ```
 Scene scene = new Scene();
@@ -340,7 +340,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -369,10 +369,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -418,7 +418,7 @@ Stelt de bestandsnaam van het attributenlijstbestand in, de exporter genereert e
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.lang.String | Nieuwe waarde **Example:** De volgende code toont hoe een attribuut in RVM te exporteren. |
+|  | waarde | java.lang.String | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren. |
 
 ```
 Scene scene = new Scene();
@@ -447,7 +447,7 @@ Stelt het voorvoegsel in van de attributen die worden geëxporteerd, de geëxpor
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.lang.String | Nieuwe waarde **Example:** De volgende code toont hoe een attribuut in RVM te exporteren. |
+|  | waarde | java.lang.String | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren. |
 
 ```
 Scene scene = new Scene();
@@ -476,7 +476,7 @@ Auteursinformatie, standaardwaarde is '3d@aspose'
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.lang.String | Nieuwe waarde **Example:** De volgende code toont hoe een attribuut in RVM te exporteren. |
+|  | waarde | java.lang.String | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren. |
 
 ```
 Scene scene = new Scene();
@@ -531,7 +531,7 @@ Stelt in of de attributenlijst moet worden geëxporteerd naar een extern .att‑
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | boolean | Nieuwe waarde **Example:** De volgende code toont hoe een attribuut in RVM te exporteren. |
+|  | waarde | boolean | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren. |
 
 ```
 Scene scene = new Scene();
@@ -555,7 +555,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -568,7 +568,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -586,7 +586,7 @@ Bestandsopmerking in de bestandsheader.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.lang.String | Nieuwe waarde **Example:** De volgende code toont hoe een attribuut in RVM te exporteren. |
+|  | waarde | java.lang.String | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe een attribuut in RVM te exporteren. |
 
 ```
 Scene scene = new Scene();
@@ -615,7 +615,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -647,7 +647,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -679,12 +679,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();

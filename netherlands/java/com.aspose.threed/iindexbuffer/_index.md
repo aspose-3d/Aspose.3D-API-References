@@ -1,6 +1,6 @@
 ---
 title: "IIndexBuffer"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De indexbuffer beschrijft de geometrie die wordt gebruikt in de renderpipeline."
 type: docs
 weight: 242
@@ -20,9 +20,9 @@ De indexbuffer beschrijft de geometrie die wordt gebruikt in de renderpipeline.
 | --- | --- |
 | [getCount()](#getCount--) | Haalt het aantal indexen in deze buffer op. |
 | [getIndexDataType()](#getIndexDataType--) | Haalt het gegevenstype van elk element op. |
-| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | Laad indice-gegevens van [TriMesh](../../com.aspose.threed/trimesh) |
-| [loadData(int[] indices)](#loadData-int---) | Laad indice-gegevens |
-| [loadData(short[] indices)](#loadData-short---) | Laad indice-gegevens |
+| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | Laad indexgegevens van [TriMesh](../../com.aspose.threed/trimesh) |
+| [loadData(int[] indices)](#loadData-int---) | Laad indexgegevens |
+| [loadData(short[] indices)](#loadData-short---) | Laad indexgegevens |
 ### getCount() {#getCount--}
 ```
 public abstract int getCount()
@@ -49,7 +49,7 @@ public abstract void loadData(TriMesh mesh)
 ```
 
 
-Laad indice-gegevens van [TriMesh](../../com.aspose.threed/trimesh)
+Laad indexgegevens van [TriMesh](../../com.aspose.threed/trimesh)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -62,12 +62,12 @@ public abstract void loadData(int[] indices)
 ```
 
 
-Laad indice-gegevens
+Laad indexgegevens
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| indices | int[] |  |
+| indexen | int[] |  |
 
 ### loadData(short[] indices) {#loadData-short---}
 ```
@@ -75,10 +75,10 @@ public abstract void loadData(short[] indices)
 ```
 
 
-Laad indice-gegevens
+Laad indexgegevens
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| indices | short[] |  |
+| indexen | short[] |  |
 

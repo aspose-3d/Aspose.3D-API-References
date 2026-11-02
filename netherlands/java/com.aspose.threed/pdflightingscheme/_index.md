@@ -1,7 +1,7 @@
 ---
 title: "PdfLightingScheme"
-second_title: "Aspose.3D for Java API-referentie"
-description: "LightingScheme specificeert de verlichting die op 3D-kunstwerken wordt toegepast."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "LightingScheme specificeert de verlichting die op 3D-illustraties moet worden toegepast."
 type: docs
 weight: 288
 url: /nl/java/com.aspose.threed/pdflightingscheme/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum PdfLightingScheme extends Enum<PdfLightingScheme>
 ```
 
-LightingScheme specificeert de verlichting die op 3D-kunstwerken wordt toegepast.
+LightingScheme specificeert de verlichting die op 3D-illustraties moet worden toegepast.
 ## Velden
 
 | Veld | Beschrijving |
@@ -29,7 +29,7 @@ LightingScheme specificeert de verlichting die op 3D-kunstwerken wordt toegepast
 | [NONE](#NONE) | Er worden geen lichten gebruikt. |
 | [PRIMARY](#PRIMARY) | Één rood, één groen en één blauw oneindig licht, geen omgevingsterm |
 | [RED](#RED) | Drie rode oneindige lichten, geen omgevingsterm |
-| [WHITE](#WHITE) | Drie blauwgrijze oneindige lichten, geen omgevingsterm |
+| [WHITE](#WHITE) | Drie blauw-grijze oneindige lichten, geen omgevingsterm |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -145,7 +145,7 @@ public static final PdfLightingScheme WHITE
 ```
 
 
-Drie blauwgrijze oneindige lichten, geen omgevingsterm
+Drie blauw-grijze oneindige lichten, geen omgevingsterm
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

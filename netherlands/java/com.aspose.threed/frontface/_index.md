@@ -1,6 +1,6 @@
 ---
 title: "FrontFace"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Definieer front- en backgerichte polygonen"
 type: docs
 weight: 280
@@ -18,8 +18,8 @@ Definieer front- en backgerichte polygonen
 
 | Veld | Beschrijving |
 | --- | --- |
-| [CLOCKWISE](#CLOCKWISE) | Kloksgewijze volgorde is frontface |
-| [COUNTER_CLOCKWISE](#COUNTER-CLOCKWISE) | Tegenkloksgewijze volgorde is frontface |
+| [CLOCKWISE](#CLOCKWISE) | Kloksgewijze volgorde is front face |
+| [COUNTER_CLOCKWISE](#COUNTER-CLOCKWISE) | Tegen de klok in volgorde is front face |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -47,7 +47,7 @@ public static final FrontFace CLOCKWISE
 ```
 
 
-Kloksgewijze volgorde is frontface
+Kloksgewijze volgorde is front face
 
 ### COUNTER_CLOCKWISE {#COUNTER-CLOCKWISE}
 ```
@@ -55,7 +55,7 @@ public static final FrontFace COUNTER_CLOCKWISE
 ```
 
 
-Tegenkloksgewijze volgorde is frontface
+Tegen de klok in volgorde is front face
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

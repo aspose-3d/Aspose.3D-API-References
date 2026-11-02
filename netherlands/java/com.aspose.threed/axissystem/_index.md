@@ -1,7 +1,7 @@
 ---
 title: "AxisSystem"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Asysteem is een combinatie van het coördinatensysteem, de up-vector en de front-vector."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Axissysteem is een combinatie van het coördinatensysteem, de opwaartse vector en de frontvector."
 type: docs
 weight: 18
 url: /nl/java/com.aspose.threed/axissystem/
@@ -18,9 +18,9 @@ Het assenstelsel is een combinatie van coördinatensysteem, up‑vector en front
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [AxisSystem(CoordinateSystem coordinateSystem, Axis up)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-) | Construeert een nieuw asysteem |
-| [AxisSystem(Axis up, Axis front)](#AxisSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | Construeert een nieuw asysteem |
-| [AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | Construeert een nieuw asysteem |
+| [AxisSystem(CoordinateSystem coordinateSystem, Axis up)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-) | Construeert een nieuw axissysteem |
+| [AxisSystem(Axis up, Axis front)](#AxisSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | Construeert een nieuw axissysteem |
+| [AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | Construeert een nieuw axissysteem |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -28,14 +28,14 @@ Het assenstelsel is een combinatie van coördinatensysteem, up‑vector en front
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromAssetInfo(AssetInfo assetInfo)](#fromAssetInfo-com.aspose.threed.AssetInfo-) | Maak [AxisSystem](../../com.aspose.threed/axissystem) van [AssetInfo](../../com.aspose.threed/assetinfo) |
 | [getClass()](#getClass--) |  |
-| [getCoordinateSystem()](#getCoordinateSystem--) | Haalt het coördinatensysteem op van dit asysteem. |
-| [getFront()](#getFront--) | Haalt de front-vector op van dit asysteem |
-| [getUp()](#getUp--) | Haalt de up-vector op van dit asysteem. |
+| [getCoordinateSystem()](#getCoordinateSystem--) | Haalt het coördinatensysteem op van dit axissysteem. |
+| [getFront()](#getFront--) | Haalt de frontvector op van dit axissysteem |
+| [getUp()](#getUp--) | Haalt de opwaartse vector op van dit axissysteem. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [transformTo(AxisSystem targetSystem)](#transformTo-com.aspose.threed.AxisSystem-) | Maak een matrix die wordt gebruikt om van het huidige asysteem naar het doel-asysteem te converteren. |
+| [transformTo(AxisSystem targetSystem)](#transformTo-com.aspose.threed.AxisSystem-) | Maak een matrix die wordt gebruikt om van het huidige axissysteem naar het doelaxissysteem te converteren. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -45,13 +45,13 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up)
 ```
 
 
-Construeert een nieuw asysteem
+Construeert een nieuw axissysteem
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | Het coördinatensysteem dat wordt gebruikt in dit asysteem |
-| up | [Axis](../../com.aspose.threed/axis) | De up-vector van het asysteem |
+| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | Het coördinatensysteem dat in dit axissysteem wordt gebruikt |
+| up | [Axis](../../com.aspose.threed/axis) | De opwaartse vector van het axissysteem |
 
 ### AxisSystem(Axis up, Axis front) {#AxisSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-}
 ```
@@ -59,13 +59,13 @@ public AxisSystem(Axis up, Axis front)
 ```
 
 
-Construeert een nieuw asysteem
+Construeert een nieuw axissysteem
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| up | [Axis](../../com.aspose.threed/axis) | De up-vector van het asysteem |
-| front | [Axis](../../com.aspose.threed/axis) | De front-vector van het asysteem |
+| up | [Axis](../../com.aspose.threed/axis) | De opwaartse vector van het axissysteem |
+| front | [Axis](../../com.aspose.threed/axis) | De frontvector van het axissysteem |
 
 ### AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front) {#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-}
 ```
@@ -73,14 +73,14 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)
 ```
 
 
-Construeert een nieuw asysteem
+Construeert een nieuw axissysteem
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | Het coördinatensysteem dat wordt gebruikt in dit asysteem |
-| up | [Axis](../../com.aspose.threed/axis) | De up-vector van het asysteem |
-| front | [Axis](../../com.aspose.threed/axis) | De front-vector van het asysteem |
+| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | Het coördinatensysteem dat in dit axissysteem wordt gebruikt |
+| up | [Axis](../../com.aspose.threed/axis) | De opwaartse vector van het axissysteem |
+| front | [Axis](../../com.aspose.threed/axis) | De frontvector van het axissysteem |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -108,7 +108,7 @@ Maak [AxisSystem](../../com.aspose.threed/axissystem) van [AssetInfo](../../com.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| assetInfo | [AssetInfo](../../com.aspose.threed/assetinfo) | Van welke assetinfo moet het coördinatensysteem, de up- en front-vector worden gelezen. |
+| assetInfo | [AssetInfo](../../com.aspose.threed/assetinfo) | Van welke asset‑info het coördinatensysteem, de opwaartse en de frontvector moeten worden gelezen. |
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - Axis system containg coordinate system, up, front from given asset info
@@ -128,7 +128,7 @@ public CoordinateSystem getCoordinateSystem()
 ```
 
 
-Haalt het coördinatensysteem op van dit asysteem.
+Haalt het coördinatensysteem op van dit axissysteem.
 
 **Returns:**
 [CoordinateSystem](../../com.aspose.threed/coordinatesystem) - the coordinate system of this axis system.
@@ -138,7 +138,7 @@ public Axis getFront()
 ```
 
 
-Haalt de front-vector op van dit asysteem
+Haalt de frontvector op van dit axissysteem
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the front vector of this axis system
@@ -148,7 +148,7 @@ public Axis getUp()
 ```
 
 
-Haalt de up-vector op van dit asysteem.
+Haalt de opwaartse vector op van dit axissysteem.
 
 **Returns:**
 [Axis](../../com.aspose.threed/axis) - the up vector of this axis system.
@@ -194,12 +194,12 @@ public Matrix4 transformTo(AxisSystem targetSystem)
 ```
 
 
-Maak een matrix die wordt gebruikt om van het huidige asysteem naar het doel-asysteem te converteren.
+Maak een matrix die wordt gebruikt om van het huidige axissysteem naar het doelaxissysteem te converteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| targetSystem | [AxisSystem](../../com.aspose.threed/axissystem) | Doel-asysteem |
+| targetSystem | [AxisSystem](../../com.aspose.threed/axissystem) | Doelaxissysteem |
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - A new transformation matrix to do the axis conversion

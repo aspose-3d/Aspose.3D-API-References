@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Bestandsformaattype"
 type: docs
 weight: 65
@@ -18,7 +18,7 @@ Bestandsformaattype
 
 | Veld | Beschrijving |
 | --- | --- |
-| [AMF](#AMF) | Bestandsformaat voor additive manufacturing |
+| [AMF](#AMF) | Bestandsformaat voor additieve productie |
 | [ASE](#ASE) | ASCII-scène-exportformaat van 3D Studio Max. |
 | [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Aspose.3D Web-formaat. |
 | [BLENDER](#BLENDER) | Blender-formattype |
@@ -27,11 +27,11 @@ Bestandsformaattype
 | [DRACO](#DRACO) | Google Draco Mesh |
 | [DXF](#DXF) | AutoCAD DXF |
 | [FBX](#FBX) | FBX-bestandsformaattype |
-| [GLTF](#GLTF) | glTF van de Khronos Group |
+| [GLTF](#GLTF) | glTF van Khronos Group |
 | [HTML5](#HTML5) | HTML5-bestand |
 | [IFC](#IFC) | ISO 16739-1 Industry Foundation Classes datamodel. |
 | [MAYA](#MAYA) | Autodesk Maya-formattype |
-| [MICROSOFT3MF](#MICROSOFT3MF) | 3D Manufacturing Format |
+| [MICROSOFT3MF](#MICROSOFT3MF) | 3D Manufacturing-formaat |
 | [PCD](#PCD) | Puntwolkgegevens gebruikt door Point Cloud Library |
 | [PDF](#PDF) | Portable Document Format |
 | [PLY](#PLY) | Polygon File Format of Stanford Triangle Format |
@@ -43,7 +43,7 @@ Bestandsformaattype
 | [VRML](#VRML) | De Virtual Reality Modeling Language |
 | [WAVEFRONTOBJ](#WAVEFRONTOBJ) | Wavefront OBJ-formattype |
 | [X](#X) | X-bestand van DirectX |
-| [XYZ](#XYZ) | Xyz-puntwolkbestand |
+| [XYZ](#XYZ) | Xyz-puntenwolkbestand |
 | [ZIP](#ZIP) | Zip-archief dat andere 3D-bestandsformaten bevat. |
 ## Methoden
 
@@ -55,7 +55,7 @@ Bestandsformaattype
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Haal de naam van dit bestandsformaattype op |
+| [toString()](#toString--) | Haal de naam op van dit bestandsformaattype |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -65,7 +65,7 @@ public static final FileFormatType AMF
 ```
 
 
-Bestandsformaat voor additive manufacturing
+Bestandsformaat voor additieve productie
 
 ### ASE {#ASE}
 ```
@@ -137,7 +137,7 @@ public static final FileFormatType GLTF
 ```
 
 
-glTF van de Khronos Group
+glTF van Khronos Group
 
 ### HTML5 {#HTML5}
 ```
@@ -169,7 +169,7 @@ public static final FileFormatType MICROSOFT3MF
 ```
 
 
-3D Manufacturing Format
+3D Manufacturing-formaat
 
 ### PCD {#PCD}
 ```
@@ -265,7 +265,7 @@ public static final FileFormatType XYZ
 ```
 
 
-Xyz-puntwolkbestand
+Xyz-puntenwolkbestand
 
 ### ZIP {#ZIP}
 ```
@@ -342,7 +342,7 @@ public String toString()
 ```
 
 
-Haal de naam van dit bestandsformaattype op
+Haal de naam op van dit bestandsformaattype
 
 **Returns:**
 java.lang.String - Een java.lang.String die de huidige [toString](../../com.aspose.threed/fileformattype\#toString) vertegenwoordigt.

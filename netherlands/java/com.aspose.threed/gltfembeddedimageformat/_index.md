@@ -1,7 +1,7 @@
 ---
 title: "GltfEmbeddedImageFormat"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Hoe de glTF-exporteur de textures zal insluiten tijdens het exporteren."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Hoe de glTF-exporteur de textures tijdens het exporteren zal insluiten."
 type: docs
 weight: 281
 url: /nl/java/com.aspose.threed/gltfembeddedimageformat/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum GltfEmbeddedImageFormat extends Enum<GltfEmbeddedImageFormat>
 ```
 
-Hoe de glTF-exporteur de textures zal insluiten tijdens het exporteren.
+Hoe de glTF-exporteur de textures tijdens het exporteren zal insluiten.
 ## Velden
 
 | Veld | Beschrijving |

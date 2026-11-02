@@ -1,6 +1,6 @@
 ---
 title: "AnimationClip"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De animatieclip is een verzameling animaties."
 type: docs
 weight: 14
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class AnimationClip extends SceneObject
 ```
 
-De animatieclip is een verzameling animaties. De scène kan één of meer animatieclips hebben.
+De animatie‑clip is een verzameling animaties. De scène kan één of meer animatie‑clips hebben.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -29,21 +29,21 @@ De animatieclip is een verzameling animaties. De scène kan één of meer animat
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
 | [getAnimations()](#getAnimations--) | Haalt de animaties op die in de clip zitten. |
 | [getClass()](#getClass--) |  |
-| [getDescription()](#getDescription--) | Haalt de beschrijving van deze animatieclip op |
+| [getDescription()](#getDescription--) | Haalt de beschrijving van deze animatie‑clip op |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [getStart()](#getStart--) | Haalt de tijd in seconden op van het begin van de clip. |
 | [getStop()](#getStop--) | Haalt de tijd in seconden op van het einde van de clip. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setDescription(String value)](#setDescription-java.lang.String-) | Stelt de beschrijving van deze animatieclip in |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setDescription(String value)](#setDescription-java.lang.String-) | Stelt de beschrijving van deze animatie‑clip in |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [setStart(double value)](#setStart-double-) | Stelt de tijd in seconden van het begin van de clip in. |
 | [setStop(double value)](#setStop-double-) | Stelt de tijd in seconden van het einde van de clip in. |
 | [toString()](#toString--) |  |
@@ -112,7 +112,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -125,7 +125,7 @@ public List<AnimationNode> getAnimations()
 Haalt de animaties op die in de clip zitten.
 
 **Returns:**
-java.util.List<com.aspose.threed.AnimationNode> - de animaties die zich in de clip bevinden.
+java.util.List<com.aspose.threed.AnimationNode> - de animaties die zich binnen de clip bevinden.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -142,7 +142,7 @@ public String getDescription()
 ```
 
 
-Haalt de beschrijving van deze animatieclip op
+Haalt de beschrijving van deze animatie‑clip op
 
 **Returns:**
 java.lang.String - de beschrijving van deze animatieclip
@@ -162,7 +162,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -172,12 +172,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -187,7 +187,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -258,7 +258,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -273,7 +273,7 @@ public void setDescription(String value)
 ```
 
 
-Stelt de beschrijving van deze animatieclip in
+Stelt de beschrijving van deze animatie‑clip in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -299,12 +299,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setStart(double value) {#setStart-double-}

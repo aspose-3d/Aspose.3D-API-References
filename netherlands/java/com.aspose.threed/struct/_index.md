@@ -1,6 +1,6 @@
 ---
 title: "Struct"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Gemaakt door lexchou op 13-11-2017."
 type: docs
 weight: 262
@@ -35,7 +35,7 @@ Probeer de invoerwaarde te kopiëren als het een Struct is
 | waarde | T | invoerwaarde om te klonen |
 
 **Returns:**
-T - null als invoer null is of gekloonde instantie
+T - null als de invoer null is of een gekloonde instantie
 ### clone() {#clone--}
 ```
 public abstract T clone()

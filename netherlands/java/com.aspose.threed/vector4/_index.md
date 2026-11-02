@@ -1,6 +1,6 @@
 ---
 title: "Vector4"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Een vector met vier componenten."
 type: docs
 weight: 203
@@ -31,7 +31,7 @@ Een vector met vier componenten.
 
 | Veld | Beschrijving |
 | --- | --- |
-| [w](#w) | De w‑component. |
+| [w](#w) | De w-component. |
 | [x](#x) | De x-component. |
 | [y](#y) | De y-component. |
 | [z](#z) | De z-component. |
@@ -41,10 +41,10 @@ Een vector met vier componenten.
 | --- | --- |
 | [add(Vector4 lhs, Vector4 rhs)](#add-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | Operatoroverbelasting voor + |
 | [clone()](#clone--) |  |
-| [compareTo(Vector4 other)](#compareTo-com.aspose.threed.Vector4-) | Vergelijk de huidige vector met een ander exemplaar. |
+| [compareTo(Vector4 other)](#compareTo-com.aspose.threed.Vector4-) | Vergelijk de huidige vector met een andere instantie. |
 | [copyFrom(Vector4 src)](#copyFrom-com.aspose.threed.Vector4-) |  |
-| [create(Vector4 v)](#create-com.aspose.threed.Vector4-) | Expliciete conversie‑operator om Vector4 te casten naar FVector4 |
-| [equals(Object obj)](#equals-java.lang.Object-) | Controleren of twee vectoren gelijk zijn |
+| [create(Vector4 v)](#create-com.aspose.threed.Vector4-) | Expliciete conversie‑operator om Vector4 naar FVector4 te casten. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Controleer of twee vectoren gelijk zijn |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) | Haalt de hashcode van deze vector op. |
 | [mul(Vector4 lhs, Vector4 rhs)](#mul-com.aspose.threed.Vector4-com.aspose.threed.Vector4-) | Operatoroverbelasting voor \* |
@@ -141,7 +141,7 @@ public double w
 ```
 
 
-De w‑component.
+De w-component.
 
 ### x {#x}
 ```
@@ -178,8 +178,8 @@ Operatoroverbelasting voor +
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector4](../../com.aspose.threed/vector4) | De linker vector |
-| rhs | [Vector4](../../com.aspose.threed/vector4) | De rechter vector |
+| lhs | [Vector4](../../com.aspose.threed/vector4) | De linkervector |
+| rhs | [Vector4](../../com.aspose.threed/vector4) | De rechtervector |
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4) - Result vector
@@ -199,7 +199,7 @@ public int compareTo(Vector4 other)
 ```
 
 
-Vergelijk de huidige vector met een ander exemplaar.
+Vergelijk de huidige vector met een andere instantie.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -227,7 +227,7 @@ public static FVector4 create(Vector4 v)
 ```
 
 
-Expliciete conversie‑operator om Vector4 te casten naar FVector4
+Expliciete conversie‑operator om Vector4 naar FVector4 te casten.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -242,7 +242,7 @@ public boolean equals(Object obj)
 ```
 
 
-Controleren of twee vectoren gelijk zijn
+Controleer of twee vectoren gelijk zijn
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -282,8 +282,8 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector4](../../com.aspose.threed/vector4) | De linker vector |
-| rhs | [Vector4](../../com.aspose.threed/vector4) | De rechter vector |
+| lhs | [Vector4](../../com.aspose.threed/vector4) | De linkervector |
+| rhs | [Vector4](../../com.aspose.threed/vector4) | De rechtervector |
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4) - Result vector
@@ -298,7 +298,7 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector4](../../com.aspose.threed/vector4) | De linker vector |
+| lhs | [Vector4](../../com.aspose.threed/vector4) | De linkervector |
 | rhs | double | De rechter double-waarde |
 
 **Returns:**
@@ -361,8 +361,8 @@ Operatoroverbelasting voor - (minus)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Vector4](../../com.aspose.threed/vector4) | De linker vector |
-| rhs | [Vector4](../../com.aspose.threed/vector4) | De rechter vector |
+| lhs | [Vector4](../../com.aspose.threed/vector4) | De linkervector |
+| rhs | [Vector4](../../com.aspose.threed/vector4) | De rechtervector |
 
 **Returns:**
 [Vector4](../../com.aspose.threed/vector4) - Result vector

@@ -1,7 +1,7 @@
 ---
 title: "TransformBuilder"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De  wordt gebruikt om een transformatiematrix op te bouwen via een keten van transformaties."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De  wordt gebruikt om een transformatiematrix te bouwen door een keten van transformaties."
 type: docs
 weight: 191
 url: /nl/java/com.aspose.threed/transformbuilder/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TransformBuilder
 ```
 
-De [TransformBuilder](../../com.aspose.threed/transformbuilder) wordt gebruikt om een transformatiematrix op te bouwen via een keten van transformaties. **Voorbeeld:** De volgende code laat zien hoe je een matrix maakt met een reeks bewerkingen
+De [TransformBuilder](../../com.aspose.threed/transformbuilder) wordt gebruikt om een transformatiematrix te bouwen door een keten van transformaties. **Voorbeeld:** De volgende code toont hoe een matrix te maken met een reeks bewerkingen
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -34,7 +34,7 @@ TransformBuilder tb = new TransformBuilder();
 | Methode | Beschrijving |
 | --- | --- |
 | [append(Matrix4 m)](#append-com.aspose.threed.Matrix4-) | Voeg de nieuwe transformatiematrix toe aan de transformatieketen. |
-| [compose(Matrix4 m)](#compose-com.aspose.threed.Matrix4-) | Voeg het argument toe of plaats het aan het begin van de interne matrix. |
+| [compose(Matrix4 m)](#compose-com.aspose.threed.Matrix4-) | Voeg het argument toe of plaats het ervoor in de interne matrix. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getComposeOrder()](#getComposeOrder--) | Haalt de samenvoegvolgorde van de keten op. |
@@ -42,25 +42,25 @@ TransformBuilder tb = new TransformBuilder();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [prepend(Matrix4 m)](#prepend-com.aspose.threed.Matrix4-) | Plaats de nieuwe transformatiematrix aan het begin van de transformatieketen. |
-| [rearrange(Axis newX, Axis newY, Axis newZ)](#rearrange-com.aspose.threed.Axis-com.aspose.threed.Axis-com.aspose.threed.Axis-) | Herordenen van de lay-out van de as. |
+| [prepend(Matrix4 m)](#prepend-com.aspose.threed.Matrix4-) | Plaats de nieuwe transformatiematrix vooraan in de transformatieketen. |
+| [rearrange(Axis newX, Axis newY, Axis newZ)](#rearrange-com.aspose.threed.Axis-com.aspose.threed.Axis-com.aspose.threed.Axis-) | Herschik de lay-out van de as. |
 | [reset()](#reset--) | Reset de transformatie naar de identiteitsmatrix |
-| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | Koppel een rotatie met een quaternion **Example:** |
-| [rotateDegree(Vector3 rot, RotationOrder order)](#rotateDegree-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Voeg rotatie toe met opgegeven volgorde |
-| [rotateDegree(double angle, Vector3 axis)](#rotateDegree-double-com.aspose.threed.Vector3-) | Koppel een rotatietransformatie in graden |
-| [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | Koppel een rotatie met Euler‑hoeken in graden **Example:** |
-| [rotateEulerRadian(Vector3 r)](#rotateEulerRadian-com.aspose.threed.Vector3-) | Koppel een rotatie met Euler‑hoeken in radialen **Example:** |
-| [rotateEulerRadian(double x, double y, double z)](#rotateEulerRadian-double-double-double-) | Koppel een rotatie met Euler‑hoeken in radialen **Example:** |
-| [rotateRadian(Vector3 rot, RotationOrder order)](#rotateRadian-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Voeg rotatie toe met opgegeven volgorde |
-| [rotateRadian(double angle, Vector3 axis)](#rotateRadian-double-com.aspose.threed.Vector3-) | Koppel een rotatietransformatie in radialen |
-| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | Koppel een schaaltransformatie **Example:** |
-| [scale(double s)](#scale-double-) | Koppel een schaaltransformatiematrix met een component geschaald met s **Example:** |
-| [scale(double x, double y, double z)](#scale-double-double-double-) | Koppel een schaaltransformatiematrix **Example:** |
+| [rotate(Quaternion q)](#rotate-com.aspose.threed.Quaternion-) | Koppel een rotatie met een quaternion **Voorbeeld:** |
+| [rotateDegree(Vector3 rot, RotationOrder order)](#rotateDegree-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Voeg rotatie toe met gespecificeerde volgorde |
+| [rotateDegree(double angle, Vector3 axis)](#rotateDegree-double-com.aspose.threed.Vector3-) | Koppel een rotatie-transformatie in graden |
+| [rotateEulerDegree(double degX, double degY, double degZ)](#rotateEulerDegree-double-double-double-) | Koppel een rotatie met Euler-hoeken in graden **Voorbeeld:** |
+| [rotateEulerRadian(Vector3 r)](#rotateEulerRadian-com.aspose.threed.Vector3-) | Koppel een rotatie met Euler-hoeken in radialen **Voorbeeld:** |
+| [rotateEulerRadian(double x, double y, double z)](#rotateEulerRadian-double-double-double-) | Koppel een rotatie met Euler-hoeken in radialen **Voorbeeld:** |
+| [rotateRadian(Vector3 rot, RotationOrder order)](#rotateRadian-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | Voeg rotatie toe met gespecificeerde volgorde |
+| [rotateRadian(double angle, Vector3 axis)](#rotateRadian-double-com.aspose.threed.Vector3-) | Koppel een rotatie-transformatie in radialen |
+| [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | Koppel een schaal-transformatie **Voorbeeld:** |
+| [scale(double s)](#scale-double-) | Koppel een schaal-transformatie matrix met een component geschaald met s **Voorbeeld:** |
+| [scale(double x, double y, double z)](#scale-double-double-double-) | Koppel een schaal-transformatie matrix **Voorbeeld:** |
 | [setComposeOrder(ComposeOrder value)](#setComposeOrder-com.aspose.threed.ComposeOrder-) | Stelt de samenstellingsvolgorde van de keten in. |
 | [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | Stelt de huidige matrixwaarde in |
 | [toString()](#toString--) |  |
-| [translate(Vector3 v)](#translate-com.aspose.threed.Vector3-) | Koppel een translatie‑transformatie **Example:** |
-| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | Koppel een translatie‑transformatie **Example:** |
+| [translate(Vector3 v)](#translate-com.aspose.threed.Vector3-) | Koppel een translatie-transformatie **Voorbeeld:** |
+| [translate(double tx, double ty, double tz)](#translate-double-double-double-) | Koppel een translatie-transformatie **Voorbeeld:** |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -120,7 +120,7 @@ public void compose(Matrix4 m)
 ```
 
 
-Voeg het argument toe of plaats het aan het begin van de interne matrix.
+Voeg het argument toe of plaats het ervoor in de interne matrix.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -204,7 +204,7 @@ public TransformBuilder prepend(Matrix4 m)
 ```
 
 
-Plaats de nieuwe transformatiematrix aan het begin van de transformatieketen.
+Plaats de nieuwe transformatiematrix vooraan in de transformatieketen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -219,14 +219,14 @@ public TransformBuilder rearrange(Axis newX, Axis newY, Axis newZ)
 ```
 
 
-Herordenen van de lay-out van de as.
+Herschik de lay-out van de as.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| newX | [Axis](../../com.aspose.threed/axis) | De nieuwe x‑componentbron |
-| newY | [Axis](../../com.aspose.threed/axis) | De nieuwe y‑componentbron |
-| newZ | [Axis](../../com.aspose.threed/axis) | De nieuwe z‑componentbron |
+| newX | [Axis](../../com.aspose.threed/axis) | De nieuwe x-componentbron |
+| newY | [Axis](../../com.aspose.threed/axis) | De nieuwe y-componentbron |
+| newZ | [Axis](../../com.aspose.threed/axis) | De nieuwe z-componentbron |
 
 **Returns:**
 [TransformBuilder](../../com.aspose.threed/transformbuilder)
@@ -244,7 +244,7 @@ public TransformBuilder rotate(Quaternion q)
 ```
 
 
-Koppel een rotatie met een quaternion **Example:**
+Koppel een rotatie met een quaternion **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -265,7 +265,7 @@ public void rotateDegree(Vector3 rot, RotationOrder order)
 ```
 
 
-Voeg rotatie toe met opgegeven volgorde
+Voeg rotatie toe met gespecificeerde volgorde
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -279,13 +279,13 @@ public TransformBuilder rotateDegree(double angle, Vector3 axis)
 ```
 
 
-Koppel een rotatietransformatie in graden
+Koppel een rotatie-transformatie in graden
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | hoek | double | De hoek om te roteren in graden |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | De as om te roteren **Example:** |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | De as om te roteren **Voorbeeld:** |
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -301,7 +301,7 @@ public TransformBuilder rotateEulerDegree(double degX, double degY, double degZ)
 ```
 
 
-Koppel een rotatie met Euler‑hoeken in graden **Example:**
+Koppel een rotatie met Euler-hoeken in graden **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -324,7 +324,7 @@ public TransformBuilder rotateEulerRadian(Vector3 r)
 ```
 
 
-Koppel een rotatie met Euler‑hoeken in radialen **Example:**
+Koppel een rotatie met Euler-hoeken in radialen **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -345,7 +345,7 @@ public TransformBuilder rotateEulerRadian(double x, double y, double z)
 ```
 
 
-Koppel een rotatie met Euler‑hoeken in radialen **Example:**
+Koppel een rotatie met Euler-hoeken in radialen **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -368,12 +368,12 @@ public void rotateRadian(Vector3 rot, RotationOrder order)
 ```
 
 
-Voeg rotatie toe met opgegeven volgorde
+Voeg rotatie toe met gespecificeerde volgorde
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | rot | [Vector3](../../com.aspose.threed/vector3) | Rotatie in radialen **Example:** |
+|  | rot | [Vector3](../../com.aspose.threed/vector3) | Rotatie in radialen **Voorbeeld:** |
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -388,13 +388,13 @@ public TransformBuilder rotateRadian(double angle, Vector3 axis)
 ```
 
 
-Koppel een rotatietransformatie in radialen
+Koppel een rotatie-transformatie in radialen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | hoek | double | De hoek om te roteren in radialen |
-|  | axis | [Vector3](../../com.aspose.threed/vector3) | De as om te roteren **Example:** |
+|  | axis | [Vector3](../../com.aspose.threed/vector3) | De as om te roteren **Voorbeeld:** |
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -410,7 +410,7 @@ public TransformBuilder scale(Vector3 s)
 ```
 
 
-Koppel een schaaltransformatie **Example:**
+Koppel een schaal-transformatie **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -431,7 +431,7 @@ public TransformBuilder scale(double s)
 ```
 
 
-Koppel een schaaltransformatiematrix met een component geschaald met s **Example:**
+Koppel een schaal-transformatie matrix met een component geschaald met s **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -452,7 +452,7 @@ public TransformBuilder scale(double x, double y, double z)
 ```
 
 
-Koppel een schaaltransformatiematrix **Example:**
+Koppel een schaal-transformatie matrix **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -511,7 +511,7 @@ public TransformBuilder translate(Vector3 v)
 ```
 
 
-Koppel een translatie‑transformatie **Example:**
+Koppel een translatie-transformatie **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -532,7 +532,7 @@ public TransformBuilder translate(double tx, double ty, double tz)
 ```
 
 
-Koppel een translatie‑transformatie **Example:**
+Koppel een translatie-transformatie **Voorbeeld:**
 
 ```
 TransformBuilder tb = new TransformBuilder();

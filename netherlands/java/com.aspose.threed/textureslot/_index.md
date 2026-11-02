@@ -1,6 +1,6 @@
 ---
 title: "TextureSlot"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Textuurslot in  kan worden opgesomd via materiaalinstantie."
 type: docs
 weight: 188

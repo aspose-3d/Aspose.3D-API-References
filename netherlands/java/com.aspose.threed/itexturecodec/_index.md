@@ -1,6 +1,6 @@
 ---
 title: "ITextureCodec"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Codec voor texturen"
 type: docs
 weight: 254
@@ -26,7 +26,7 @@ public abstract ITextureDecoder[] getDecoders()
 Haalt ondersteunde texture‑decoders op.
 
 **Returns:**
-com.aspose.threed.ITextureDecoder[] - Een array van ondersteunde texturedecoders
+com.aspose.threed.ITextureDecoder[] - Een array van ondersteunde textuurdecoders
 ### getEncoders() {#getEncoders--}
 ```
 public abstract ITextureEncoder[] getEncoders()

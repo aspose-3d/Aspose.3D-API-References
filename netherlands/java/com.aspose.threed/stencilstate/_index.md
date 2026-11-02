@@ -1,7 +1,7 @@
 ---
 title: "StencilState"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Stencil-toestanden per vlak."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Stenciltoestanden per vlak."
 type: docs
 weight: 175
 url: /nl/java/com.aspose.threed/stencilstate/
@@ -13,7 +13,7 @@ java.lang.Object
 public class StencilState
 ```
 
-Stencil-toestanden per vlak.
+Stenciltoestanden per vlak.
 ## Methoden
 
 | Methode | Beschrijving |
@@ -21,16 +21,16 @@ Stencil-toestanden per vlak.
 | [equals(Object obj)](#equals-java.lang.Object-) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven object. |
 | [getClass()](#getClass--) |  |
 | [getCompare()](#getCompare--) | Haalt de vergelijkingsfunctie op die wordt gebruikt in de stenciltest |
-| [getDepthFailAction()](#getDepthFailAction--) | Haalt de stencilactie op wanneer de stenciltest slaagt maar de dieptest faalt. |
+| [getDepthFailAction()](#getDepthFailAction--) | Haalt de stencilactie op wanneer de stenciltest slaagt maar de diepte-test faalt. |
 | [getFailAction()](#getFailAction--) | Haalt de stencilactie op wanneer de stenciltest faalt. |
-| [getPassAction()](#getPassAction--) | Haalt de stencilactie op wanneer zowel de stenciltest als de dieptest slagen. |
+| [getPassAction()](#getPassAction--) | Haalt de stencilactie op wanneer zowel de stenciltest als de diepte-test slagen. |
 | [hashCode()](#hashCode--) | Retourneert de hashcode voor deze instantie. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCompare(CompareFunction value)](#setCompare-com.aspose.threed.CompareFunction-) | Stelt de vergelijkingsfunctie in die wordt gebruikt in de stenciltest |
-| [setDepthFailAction(StencilAction value)](#setDepthFailAction-com.aspose.threed.StencilAction-) | Stelt de stencilactie in wanneer de stenciltest slaagt maar de dieptest faalt. |
+| [setDepthFailAction(StencilAction value)](#setDepthFailAction-com.aspose.threed.StencilAction-) | Stelt de stencilactie in wanneer de stenciltest slaagt maar de diepte-test faalt. |
 | [setFailAction(StencilAction value)](#setFailAction-com.aspose.threed.StencilAction-) | Stelt de stencilactie in wanneer de stenciltest faalt. |
-| [setPassAction(StencilAction value)](#setPassAction-com.aspose.threed.StencilAction-) | Stelt de stencilactie in wanneer zowel de stenciltest als de dieptest slagen. |
+| [setPassAction(StencilAction value)](#setPassAction-com.aspose.threed.StencilAction-) | Stelt de stencilactie in wanneer zowel de stenciltest als de diepte-test slagen. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -76,7 +76,7 @@ public StencilAction getDepthFailAction()
 ```
 
 
-Haalt de stencilactie op wanneer de stenciltest slaagt maar de dieptest faalt.
+Haalt de stencilactie op wanneer de stenciltest slaagt maar de diepte-test faalt.
 
 **Returns:**
 [StencilAction](../../com.aspose.threed/stencilaction) - the stencil action when stencil test pass but depth test fails.
@@ -96,7 +96,7 @@ public StencilAction getPassAction()
 ```
 
 
-Haalt de stencilactie op wanneer zowel de stenciltest als de dieptest slagen.
+Haalt de stencilactie op wanneer zowel de stenciltest als de diepte-test slagen.
 
 **Returns:**
 [StencilAction](../../com.aspose.threed/stencilaction) - the stencil action when both stencil test and depth test passes.
@@ -145,7 +145,7 @@ public void setDepthFailAction(StencilAction value)
 ```
 
 
-Stelt de stencilactie in wanneer de stenciltest slaagt maar de dieptest faalt.
+Stelt de stencilactie in wanneer de stenciltest slaagt maar de diepte-test faalt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -171,7 +171,7 @@ public void setPassAction(StencilAction value)
 ```
 
 
-Stelt de stencilactie in wanneer zowel de stenciltest als de dieptest slagen.
+Stelt de stencilactie in wanneer zowel de stenciltest als de diepte-test slagen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

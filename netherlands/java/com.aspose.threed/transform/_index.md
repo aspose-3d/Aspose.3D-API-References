@@ -1,7 +1,7 @@
 ---
-title: "Transformatie"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rotatie van objecten of de transformatiematrix tegen minimale kosten  Dit wordt gebruikt door lokale transformatie."
+title: "Transform"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een transform bevat informatie die toegang geeft tot de vertaling/schaal/rotatie van objecten of de transformatiematrix tegen minimale kosten.  Dit wordt gebruikt door lokale transformaties."
 type: docs
 weight: 190
 url: /nl/java/com.aspose.threed/transform/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Transform extends A3DObject
 ```
 
-Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rotatie van een object of de transformatiematrix tegen minimale kosten. Dit wordt gebruikt door lokale transformatie. **Example:** De volgende code toont hoe de transformatie van de node kan worden gewijzigd:
+Een transform bevat informatie die toegang geeft tot de vertaling/schaal/rotatie van een object of de transformatiematrix tegen minimale kosten. Dit wordt gebruikt door lokale transformaties. **Voorbeeld:** De volgende code laat zien hoe de transform van de node kan worden gewijzigd:
 
 ```
 Scene scene = new Scene();
@@ -35,21 +35,21 @@ Scene scene = new Scene();
 | [getName()](#getName--) | Haalt de naam op. |
 | [getPostRotation()](#getPostRotation--) | Haalt de post‑rotatie op, weergegeven in graden |
 | [getPreRotation()](#getPreRotation--) | Haalt de pre‑rotatie op, weergegeven in graden |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getRotation()](#getRotation--) | Haalt de rotatie op die wordt weergegeven in een quaternion. |
 | [getRotationOffset()](#getRotationOffset--) | Haalt de rotatie‑offset op |
-| [getRotationPivot()](#getRotationPivot--) | Haalt de rotatiepivot op |
+| [getRotationPivot()](#getRotationPivot--) | Haalt het rotatiepunt op |
 | [getScaling()](#getScaling--) | Haalt de schaal op |
 | [getScalingOffset()](#getScalingOffset--) | Haalt de schaalverschuiving op |
-| [getScalingPivot()](#getScalingPivot--) | Haalt de schaalpivot op |
-| [getTransformMatrix()](#getTransformMatrix--) | Haalt de transformatiematrix op. |
+| [getScalingPivot()](#getScalingPivot--) | Haalt het schaalpunt op |
+| [getTransformMatrix()](#getTransformMatrix--) | Haalt de transformatie-matrix op. |
 | [getTranslation()](#getTranslation--) | Haalt de translatie op |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setEulerAngles(Vector3 value)](#setEulerAngles-com.aspose.threed.Vector3-) | Stelt de rotatie in, weergegeven in Euler-hoeken, gemeten in graden |
 | [setEulerAngles(double rx, double ry, double rz)](#setEulerAngles-double-double-double-) | Stelt de Euler-hoeken in graden van de huidige transformatie in. |
 | [setGeometricRotation(Vector3 value)](#setGeometricRotation-com.aspose.threed.Vector3-) | Stelt de geometrische Euler-rotatie in (gemeten in graden). |
@@ -60,19 +60,19 @@ Scene scene = new Scene();
 | [setGeometricTranslation(double x, double y, double z)](#setGeometricTranslation-double-double-double-) | Stelt de geometrische translatie in. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setPostRotation(Vector3 value)](#setPostRotation-com.aspose.threed.Vector3-) | Stelt de post-rotatie in, weergegeven in graden |
-| [setPostRotation(double rx, double ry, double rz)](#setPostRotation-double-double-double-) | Stelt de post-rotatie in, weergegeven in graden **Voorbeeld:** |
+| [setPostRotation(double rx, double ry, double rz)](#setPostRotation-double-double-double-) | Stelt de post-rotatie in, weergegeven in graden **Example:** |
 | [setPreRotation(Vector3 value)](#setPreRotation-com.aspose.threed.Vector3-) | Stelt de pre-rotatie in, weergegeven in graden |
-| [setPreRotation(double rx, double ry, double rz)](#setPreRotation-double-double-double-) | Stelt de pre-rotatie in, weergegeven in graden **Voorbeeld:** |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setRotation(Quaternion value)](#setRotation-com.aspose.threed.Quaternion-) | Stelt de rotatie in, weergegeven in quaternion. |
+| [setPreRotation(double rx, double ry, double rz)](#setPreRotation-double-double-double-) | Stelt de pre-rotatie in, weergegeven in graden **Example:** |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setRotation(Quaternion value)](#setRotation-com.aspose.threed.Quaternion-) | Stelt de rotatie in, weergegeven in een quaternion. |
 | [setRotation(double rw, double rx, double ry, double rz)](#setRotation-double-double-double-double-) | Stelt de rotatie (als quaternioncomponenten) van de huidige transformatie in. |
 | [setRotationOffset(Vector3 value)](#setRotationOffset-com.aspose.threed.Vector3-) | Stelt de rotatieverschuiving in |
-| [setRotationPivot(Vector3 value)](#setRotationPivot-com.aspose.threed.Vector3-) | Stelt de rotatiepivot in |
+| [setRotationPivot(Vector3 value)](#setRotationPivot-com.aspose.threed.Vector3-) | Stelt het rotatiepunt in |
 | [setScale(double sx, double sy, double sz)](#setScale-double-double-double-) | Stelt de schaal van de huidige transformatie in. |
 | [setScaling(Vector3 value)](#setScaling-com.aspose.threed.Vector3-) | Stelt de schaal in |
 | [setScalingOffset(Vector3 value)](#setScalingOffset-com.aspose.threed.Vector3-) | Stelt de schaalverschuiving in |
-| [setScalingPivot(Vector3 value)](#setScalingPivot-com.aspose.threed.Vector3-) | Stelt de schaalpivot in |
-| [setTransformMatrix(Matrix4 value)](#setTransformMatrix-com.aspose.threed.Matrix4-) | Stelt de transformatiematrix in. |
+| [setScalingPivot(Vector3 value)](#setScalingPivot-com.aspose.threed.Vector3-) | Stelt het schaalpunt in |
+| [setTransformMatrix(Matrix4 value)](#setTransformMatrix-com.aspose.threed.Matrix4-) | Stelt de transformatiesmatrix in. |
 | [setTranslation(Vector3 value)](#setTranslation-com.aspose.threed.Vector3-) | Stelt de translatie in |
 | [setTranslation(double tx, double ty, double tz)](#setTranslation-double-double-double-) | Stelt de translatie van de huidige transformatie in. |
 | [toString()](#toString--) |  |
@@ -105,7 +105,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -140,7 +140,7 @@ public Vector3 getGeometricRotation()
 ```
 
 
-Haalt de geometrische Euler-rotatie op (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangedaan. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
+Haalt de geometrische Euler-rotatie op (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric Euler rotation(measured in degree). Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it.
@@ -150,7 +150,7 @@ public Vector3 getGeometricScaling()
 ```
 
 
-Haalt de geometrische schaal op. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
+Haalt de geometrische schaal op. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric scaling. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -165,7 +165,7 @@ public Vector3 getGeometricTranslation()
 ```
 
 
-Haalt de geometrische translatie op. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
+Haalt de geometrische translatie op. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the geometric translation. Geometric transformation only affects the entities attached and leave the child nodes unaffected. It will be merged as local transformation when you export the geometric transformation to file types that does not support it. **Example:**
@@ -220,7 +220,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -230,12 +230,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -270,7 +270,7 @@ public Vector3 getRotationPivot()
 ```
 
 
-Haalt de rotatiepivot op
+Haalt het rotatiepunt op
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation pivot
@@ -305,7 +305,7 @@ public Vector3 getScalingPivot()
 ```
 
 
-Haalt de schaalpivot op
+Haalt het schaalpunt op
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the scaling pivot
@@ -315,7 +315,7 @@ public Matrix4 getTransformMatrix()
 ```
 
 
-Haalt de transformatiematrix op.
+Haalt de transformatie-matrix op.
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix. **Remarks:** Assign on this will reset the [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) and [getRotation](../../com.aspose.threed/transform\#getRotation), the [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) and [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) will not be affected. **Example:**
@@ -386,7 +386,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -441,7 +441,7 @@ public void setGeometricRotation(Vector3 value)
 ```
 
 
-Stelt de geometrische Euler-rotatie in (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
+Stelt de geometrische Euler-rotatie in (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -454,7 +454,7 @@ public Transform setGeometricRotation(double rx, double ry, double rz)
 ```
 
 
-Stelt de geometrische Euler-rotatie in (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. **Voorbeeld:**
+Stelt de geometrische Euler-rotatie in (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. **Voorbeeld:**
 
 ```
 Node node = new Node();
@@ -476,7 +476,7 @@ public void setGeometricScaling(Vector3 value)
 ```
 
 
-Stelt de geometrische schaal in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
+Stelt de geometrische schaal in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -494,7 +494,7 @@ public Transform setGeometricScaling(double sx, double sy, double sz)
 ```
 
 
-Stelt de geometrische schaal in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. **Voorbeeld:**
+Stelt de geometrische schaal in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. **Voorbeeld:**
 
 ```
 Node node = new Node();
@@ -516,7 +516,7 @@ public void setGeometricTranslation(Vector3 value)
 ```
 
 
-Stelt de geometrische translatie in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
+Stelt de geometrische translatie in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -534,7 +534,7 @@ public Transform setGeometricTranslation(double x, double y, double z)
 ```
 
 
-Stelt de geometrische translatie in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. **Voorbeeld:**
+Stelt de geometrische translatie in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. **Voorbeeld:**
 
 ```
 Node node = new Node();
@@ -587,7 +587,7 @@ public Transform setPostRotation(double rx, double ry, double rz)
 ```
 
 
-Stelt de post-rotatie in, weergegeven in graden **Voorbeeld:**
+Stelt de post-rotatie in, weergegeven in graden **Example:**
 
 ```
 Node node = new Node();
@@ -627,7 +627,7 @@ public Transform setPreRotation(double rx, double ry, double rz)
 ```
 
 
-Stelt de pre-rotatie in, weergegeven in graden **Voorbeeld:**
+Stelt de pre-rotatie in, weergegeven in graden **Example:**
 
 ```
 Node node = new Node();
@@ -649,12 +649,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setRotation(Quaternion value) {#setRotation-com.aspose.threed.Quaternion-}
@@ -663,7 +663,7 @@ public void setRotation(Quaternion value)
 ```
 
 
-Stelt de rotatie in, weergegeven in quaternion.
+Stelt de rotatie in, weergegeven in een quaternion.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -717,7 +717,7 @@ public void setRotationPivot(Vector3 value)
 ```
 
 
-Stelt de rotatiepivot in
+Stelt het rotatiepunt in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -783,7 +783,7 @@ public void setScalingPivot(Vector3 value)
 ```
 
 
-Stelt de schaalpivot in
+Stelt het schaalpunt in
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -796,12 +796,12 @@ public void setTransformMatrix(Matrix4 value)
 ```
 
 
-Stelt de transformatiematrix in.
+Stelt de transformatiesmatrix in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [Matrix4](../../com.aspose.threed/matrix4) | Nieuwe waarde **Opmerkingen:** Toewijzing hiervan zal de [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) en [getRotation](../../com.aspose.threed/transform\#getRotation), de [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) en [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) niet worden beïnvloed. **Voorbeeld:** |
+|  | value | [Matrix4](../../com.aspose.threed/matrix4) | Nieuwe waarde **Opmerkingen:** Toewijzing hier zal de [getTranslation](../../com.aspose.threed/transform\#getTranslation), [getScaling](../../com.aspose.threed/transform\#getScaling) en [getRotation](../../com.aspose.threed/transform\#getRotation) resetten, de [getGeometricRotation](../../com.aspose.threed/transform\#getGeometricRotation), [getGeometricScaling](../../com.aspose.threed/transform\#getGeometricScaling) en [getGeometricTranslation](../../com.aspose.threed/transform\#getGeometricTranslation) zullen niet worden beïnvloed. **Voorbeeld:** |
 
 ```
 Node node = new Node();

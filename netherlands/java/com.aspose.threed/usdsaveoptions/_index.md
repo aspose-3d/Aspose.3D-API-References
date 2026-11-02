@@ -1,6 +1,6 @@
 ---
 title: "UsdSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Opslagopties voor USD/USDZ-formaten."
 type: docs
 weight: 200
@@ -18,8 +18,8 @@ Opslagopties voor USD/USDZ-formaten.
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [UsdSaveOptions()](#UsdSaveOptions--) | Initialiseer een nieuwe [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) met het [FileFormat.USD](../../com.aspose.threed/fileformat\#USD) formaat |
-| [UsdSaveOptions(FileFormat fileFormat)](#UsdSaveOptions-com.aspose.threed.FileFormat-) | Initialiseer een nieuwe [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) met het opgegeven USD/USDZ‑formaat. |
+| [UsdSaveOptions()](#UsdSaveOptions--) | Initialiseer een nieuw [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) met [FileFormat.USD](../../com.aspose.threed/fileformat\#USD) formaat |
+| [UsdSaveOptions(FileFormat fileFormat)](#UsdSaveOptions-com.aspose.threed.FileFormat-) | Initialiseer een nieuw [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) met het opgegeven USD/USDZ‑formaat. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -28,25 +28,25 @@ Opslagopties voor USD/USDZ-formaten.
 | [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
 | [getExportMetaData()](#getExportMetaData--) | Exporteer de eigenschappen van het knooppunt via het customData‑veld van USD. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [getMaterialConverter()](#getMaterialConverter--) | Aangepaste converter om het materiaal van de geometrie om te zetten naar PBR‑materiaal. Als dit niet is toegewezen, zal de USD‑exporter het standaardmateriaal automatisch omzetten naar PBR‑materiaal. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [getMaterialConverter()](#getMaterialConverter--) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR‑materiaal. Als dit niet is toegewezen, zal de USD‑exporteur het standaardmateriaal automatisch omzetten naar PBR‑materiaal. |
 | [getPrimitiveToMesh()](#getPrimitiveToMesh--) | Converteer de primitieve entiteiten naar een mesh tijdens het exporteren. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
 | [setExportMetaData(boolean value)](#setExportMetaData-boolean-) | Exporteer de eigenschappen van het knooppunt via het customData‑veld van USD. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | Aangepaste converter om het materiaal van de geometrie om te zetten naar PBR‑materiaal. Als dit niet is toegewezen, zal de USD‑exporter het standaardmateriaal automatisch omzetten naar PBR‑materiaal. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR‑materiaal. Als dit niet is toegewezen, zal de USD‑exporteur het standaardmateriaal automatisch omzetten naar PBR‑materiaal. |
 | [setPrimitiveToMesh(boolean value)](#setPrimitiveToMesh-boolean-) | Converteer de primitieve entiteiten naar een mesh tijdens het exporteren. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -58,7 +58,7 @@ public UsdSaveOptions()
 ```
 
 
-Initialiseer een nieuwe [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) met het [FileFormat.USD](../../com.aspose.threed/fileformat\#USD) formaat
+Initialiseer een nieuw [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) met [FileFormat.USD](../../com.aspose.threed/fileformat\#USD) formaat
 
 ### UsdSaveOptions(FileFormat fileFormat) {#UsdSaveOptions-com.aspose.threed.FileFormat-}
 ```
@@ -66,7 +66,7 @@ public UsdSaveOptions(FileFormat fileFormat)
 ```
 
 
-Initialiseer een nieuwe [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) met het opgegeven USD/USDZ‑formaat.
+Initialiseer een nieuw [UsdSaveOptions](../../com.aspose.threed/usdsaveoptions) met het opgegeven USD/USDZ‑formaat.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -124,7 +124,7 @@ public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -134,7 +134,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -144,10 +144,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -188,7 +188,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -217,10 +217,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -245,10 +245,10 @@ public boolean getPrimitiveToMesh()
 ```
 
 
-Converteer de primitieve entiteiten naar een mesh tijdens de export. Of codeer de primitieven direct naar het uitvoerbestand (er wordt de extensiedefinitie van Aspose gebruikt voor niet-officiële primitieven zoals Dish, Torus). Standaardwaarde is true.
+Converteer de primitieve entiteiten naar een mesh tijdens de export. Of codeer de primitives direct naar het uitvoerbestand (zal de extensiedefinitie van Aspose gebruiken voor niet‑officiële primitives zoals Dish, Torus). Standaardwaarde is true.
 
 **Returns:**
-boolean - Converteer de primitieve entiteiten naar een mesh tijdens de export. Of codeer de primitieven direct naar het uitvoerbestand (er wordt de extensiedefinitie van Aspose gebruikt voor niet-officiële primitieven zoals Dish, Torus). Standaardwaarde is true.
+boolean - Converteer de primitieve entiteiten naar een mesh tijdens de export. Of codeer de primitives direct naar het uitvoerbestand (zal de extensiedefinitie van Aspose gebruiken voor niet‑officiële primitives zoals Dish, Torus). Standaardwaarde is true.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -307,7 +307,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -320,7 +320,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -338,7 +338,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -370,7 +370,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -402,12 +402,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();
@@ -436,7 +436,7 @@ public void setPrimitiveToMesh(boolean value)
 ```
 
 
-Converteer de primitieve entiteiten naar een mesh tijdens de export. Of codeer de primitieven direct naar het uitvoerbestand (er wordt de extensiedefinitie van Aspose gebruikt voor niet-officiële primitieven zoals Dish, Torus). Standaardwaarde is true.
+Converteer de primitieve entiteiten naar een mesh tijdens de export. Of codeer de primitives direct naar het uitvoerbestand (zal de extensiedefinitie van Aspose gebruiken voor niet‑officiële primitives zoals Dish, Torus). Standaardwaarde is true.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

@@ -1,7 +1,7 @@
 ---
 title: "InitializationException"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Uitzonderingen bij initialisatie van de renderpijplijn."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Excepties bij initialisatie van de renderpijplijn"
 type: docs
 weight: 85
 url: /nl/java/com.aspose.threed/initializationexception/
@@ -13,12 +13,12 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class InitializationException extends RuntimeException
 ```
 
-Uitzonderingen bij initialisatie van de renderpijplijn.
+Excepties bij initialisatie van de renderpijplijn
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [InitializationException()](#InitializationException--) | Initialiseer een [InitializationException](../../com.aspose.threed/initializationexception) instantie |
+| [InitializationException()](#InitializationException--) | Initialiseer een [InitializationException](../../com.aspose.threed/initializationexception) instantie. |
 | [InitializationException(String msg)](#InitializationException-java.lang.String-) | Initialiseer een [InitializationException](../../com.aspose.threed/initializationexception) instantie met een opgegeven exceptiebericht. |
 ## Methoden
 
@@ -51,7 +51,7 @@ public InitializationException()
 ```
 
 
-Initialiseer een [InitializationException](../../com.aspose.threed/initializationexception) instantie
+Initialiseer een [InitializationException](../../com.aspose.threed/initializationexception) instantie.
 
 ### InitializationException(String msg) {#InitializationException-java.lang.String-}
 ```

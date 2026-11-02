@@ -1,7 +1,7 @@
 ---
 title: "WindowHandle"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Ingekapselde vensterhandle voor verschillende platformen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Ingekapselde vensterhandle voor verschillende platforms."
 type: docs
 weight: 232
 url: /nl/java/com.aspose.threed/windowhandle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WindowHandle
 ```
 
-Ingekapselde vensterhandle voor verschillende platformen.
+Ingekapselde vensterhandle voor verschillende platforms.
 ## Methoden
 
 | Methode | Beschrijving |
@@ -56,7 +56,7 @@ Maak een [WindowHandle](../../com.aspose.threed/windowhandle) van een Wayland-op
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| scherm | long | De display-instantie van de Wayland-server |
+| scherm | long | De scherminstantie van de Wayland-server |
 | oppervlak | long | De handle van het oppervlak |
 
 **Returns:**
@@ -87,7 +87,7 @@ Maak een [WindowHandle](../../com.aspose.threed/windowhandle) van een Xlib-venst
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| scherm | long | De display-instantie van de X-server |
+| scherm | long | De scherminstantie van de X-server |
 | venster | long | De handle van het venster |
 
 **Returns:**

@@ -1,6 +1,6 @@
 ---
 title: "VertexElementBinormal"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Definieert de binormale vectoren voor gespecificeerde componenten."
 type: docs
 weight: 208
@@ -18,28 +18,28 @@ Definieert de binormale vectoren voor gespecificeerde componenten.
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [VertexElementBinormal()](#VertexElementBinormal--) | Initialiseert een nieuw exemplaar van de klasse [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal). |
+| [VertexElementBinormal()](#VertexElementBinormal--) | Initialiseert een nieuw exemplaar van de [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal) klasse. |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [clear()](#clear--) | Verwijdert alle elementen uit de directe en de indexarrays. |
-| [clone(boolean withData)](#clone-boolean-) | Maak een diepe kloon van het vertex-element. |
+| [clone(boolean withData)](#clone-boolean-) | Diepe kloon van het vertex-element |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
-| [copyTo(VertexElementVector4 target)](#copyTo-com.aspose.threed.VertexElementVector4-) | Kopieert gegevens naar het opgegeven element. |
+| [copyTo(VertexElementVector4 target)](#copyTo-com.aspose.threed.VertexElementVector4-) | Kopieert gegevens naar het opgegeven element |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Haalt de vertex-gegevens op. |
-| [getIndices()](#getIndices--) | Haalt de indexgegevens op. |
+| [getData()](#getData--) | Haalt de vertex-gegevens op |
+| [getIndices()](#getIndices--) | Haalt de indexgegevens op |
 | [getMappingMode()](#getMappingMode--) | Haalt op hoe het element is gemapt. |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getReferenceMode()](#getReferenceMode--) | Haalt op hoe het element wordt gerefereerd. |
-| [getVertexElementType()](#getVertexElementType--) | Haalt het type van de [VertexElement](../../com.aspose.threed/vertexelement) op. |
+| [getVertexElementType()](#getVertexElementType--) | Haalt het type op van de [VertexElement](../../com.aspose.threed/vertexelement) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(Vector4[] data)](#setData-com.aspose.threed.Vector4---) | Laad gegevens. |
-| [setIndices(int[] data)](#setIndices-int---) | Laad indexen. |
+| [setData(Vector4[] data)](#setData-com.aspose.threed.Vector4---) | Laad gegevens |
+| [setIndices(int[] data)](#setIndices-int---) | Laad indexen |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Stelt in hoe het element is gemapt. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | Stelt in hoe het element wordt gerefereerd. |
@@ -53,7 +53,7 @@ public VertexElementBinormal()
 ```
 
 
-Initialiseert een nieuw exemplaar van de klasse [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal).
+Initialiseert een nieuw exemplaar van de [VertexElementBinormal](../../com.aspose.threed/vertexelementbinormal) klasse.
 
 ### clear() {#clear--}
 ```
@@ -69,12 +69,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Maak een diepe kloon van het vertex-element.
+Diepe kloon van het vertex-element
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| withData | boolean | Kloon het vertex met directe en indexarray. |
+| withData | boolean | Kloon de vertex met directe en indexarray |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -100,7 +100,7 @@ public void copyTo(VertexElementVector4 target)
 ```
 
 
-Kopieert gegevens naar het opgegeven element.
+Kopieert gegevens naar het opgegeven element
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -138,7 +138,7 @@ public List<Vector4> getData()
 ```
 
 
-Haalt de vertex-gegevens op.
+Haalt de vertex-gegevens op
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - de vertexgegevens
@@ -148,7 +148,7 @@ public List<Integer> getIndices()
 ```
 
 
-Haalt de indexgegevens op.
+Haalt de indexgegevens op
 
 **Returns:**
 java.util.List<java.lang.Integer> - de indexgegevens
@@ -188,7 +188,7 @@ public VertexElementType getVertexElementType()
 ```
 
 
-Haalt het type van de [VertexElement](../../com.aspose.threed/vertexelement) op.
+Haalt het type op van de [VertexElement](../../com.aspose.threed/vertexelement)
 
 **Returns:**
 [VertexElementType](../../com.aspose.threed/vertexelementtype) - the type of the [VertexElement](../../com.aspose.threed/vertexelement)
@@ -224,7 +224,7 @@ public void setData(Vector4[] data)
 ```
 
 
-Laad gegevens.
+Laad gegevens
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -237,7 +237,7 @@ public void setIndices(int[] data)
 ```
 
 
-Laad indexen.
+Laad indexen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

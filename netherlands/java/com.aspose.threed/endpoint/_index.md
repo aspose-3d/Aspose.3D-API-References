@@ -1,7 +1,7 @@
 ---
 title: "EndPoint"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Het eindpunt om de curve bij te snijden kan een parameterwaarde of een cartesisch punt zijn."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Het eindpunt om de curve bij te snijden kan een parameterwaarde of een Cartesiaans punt zijn."
 type: docs
 weight: 51
 url: /nl/java/com.aspose.threed/endpoint/
@@ -16,12 +16,12 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class EndPoint implements Struct<EndPoint>, Serializable
 ```
 
-Het eindpunt om de curve bij te snijden, kan een parameterwaarde of een Cartesiaans punt zijn.
+Het eindpunt om de curve bij te snijden, kan een parameterwaarde of een Cartesisch punt zijn.
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | Construeer een [EndPoint](../../com.aspose.threed/endpoint) vanuit een cartesisch punt. |
+| [EndPoint(Vector3 point)](#EndPoint-com.aspose.threed.Vector3-) | Construeer een [EndPoint](../../com.aspose.threed/endpoint) vanuit een Cartesiaans punt. |
 | [EndPoint(double v)](#EndPoint-double-) | Construeer een [EndPoint](../../com.aspose.threed/endpoint) vanuit een reële parameter. |
 | [EndPoint()](#EndPoint--) |  |
 ## Methoden
@@ -33,11 +33,11 @@ Het eindpunt om de curve bij te snijden, kan een parameterwaarde of een Cartesia
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [fromDegree(double degree)](#fromDegree-double-) | Maak een eindpunt gemeten in graden. |
 | [fromRadian(double degree)](#fromRadian-double-) | Maak een eindpunt gemeten in radialen. |
-| [getAsPoint()](#getAsPoint--) | Haal het eindpunt op als cartesisch punt, of gooi een uitzondering. |
-| [getAsValue()](#getAsValue--) | Haal het eindpunt op als een reële parameter, of gooi een uitzondering. |
+| [getAsPoint()](#getAsPoint--) | Haalt het eindpunt op als Cartesiaans punt, of gooit een uitzondering. |
+| [getAsValue()](#getAsValue--) | Haalt het eindpunt op als een reële parameter, of gooit een uitzondering. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [isCartesianPoint()](#isCartesianPoint--) | Is het eindpunt een cartesisch punt? |
+| [isCartesianPoint()](#isCartesianPoint--) | Is het eindpunt een Cartesiaans punt? |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | Retourneert een tekenreeksrepresentatie van het huidige eindpunt. |
@@ -50,7 +50,7 @@ public EndPoint(Vector3 point)
 ```
 
 
-Construeer een [EndPoint](../../com.aspose.threed/endpoint) vanuit een cartesisch punt.
+Construeer een [EndPoint](../../com.aspose.threed/endpoint) vanuit een Cartesiaans punt.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -125,7 +125,7 @@ Maak een eindpunt gemeten in graden.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| graad | double | De waarde in graden |
+| degree | double | De waarde in graden |
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - An end point constructed from degree
@@ -140,7 +140,7 @@ Maak een eindpunt gemeten in radialen.
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| graad | double | De waarde in radialen |
+| degree | double | De waarde in radialen |
 
 **Returns:**
 [EndPoint](../../com.aspose.threed/endpoint) - An end point constructed from radian
@@ -150,7 +150,7 @@ public Vector3 getAsPoint()
 ```
 
 
-Haal het eindpunt op als cartesisch punt, of gooi een uitzondering.
+Haalt het eindpunt op als Cartesiaans punt, of gooit een uitzondering.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the end point as Cartesian point, or thrown an exception.
@@ -160,10 +160,10 @@ public double getAsValue()
 ```
 
 
-Haal het eindpunt op als een reële parameter, of gooi een uitzondering.
+Haalt het eindpunt op als een reële parameter, of gooit een uitzondering.
 
 **Returns:**
-double - het eindpunt als een reële parameter, of gooi een uitzondering.
+double - het eindpunt als een reële parameter, of gooit een uitzondering.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -190,10 +190,10 @@ public boolean isCartesianPoint()
 ```
 
 
-Is het eindpunt een cartesisch punt?
+Is het eindpunt een Cartesiaans punt?
 
 **Returns:**
-boolean - Is het eindpunt een cartesisch punt?
+boolean - Is het eindpunt een Cartesiaans punt?
 ### notify() {#notify--}
 ```
 public final native void notify()

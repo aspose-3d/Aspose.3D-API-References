@@ -1,7 +1,7 @@
 ---
 title: "Viewport"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een  bevat minstens één viewport voor het renderen van de scène."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Een  bevat ten minste één viewport voor het renderen van de scène."
 type: docs
 weight: 229
 url: /nl/java/com.aspose.threed/viewport/
@@ -13,14 +13,14 @@ java.lang.Object
 public class Viewport
 ```
 
-Een [IRenderTarget](../../com.aspose.threed/irendertarget) bevat minstens één viewport voor het renderen van de scène.
+Een [IRenderTarget](../../com.aspose.threed/irendertarget) bevat ten minste één viewport voor het renderen van de scène.
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [clone()](#clone--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Haalt het gebied van de viewport in het renderdoel op. |
+| [getArea()](#getArea--) | Haalt het gebied van de viewport op in het renderdoel. |
 | [getBackgroundColor()](#getBackgroundColor--) | Haalt de achtergrondkleur van de viewport op. |
 | [getClass()](#getClass--) |  |
 | [getDepthClear()](#getDepthClear--) | Haalt de dieptewaarde op die wordt gebruikt bij het wissen van de viewport met de dieptebufferbit ingesteld. |
@@ -72,7 +72,7 @@ public RelativeRectangle getArea()
 ```
 
 
-Haalt het gebied van de viewport in het renderdoel op.
+Haalt het gebied van de viewport op in het renderdoel.
 
 **Returns:**
 [RelativeRectangle](../../com.aspose.threed/relativerectangle) - the area of the viewport in render target.
@@ -115,7 +115,7 @@ public boolean getEnabled()
 Schakel deze viewport in of uit.
 
 **Returns:**
-boolean - Schakel deze viewport in of uit.
+boolean - Schakel dit viewport in of uit.
 ### getFrustum() {#getFrustum--}
 ```
 public Frustum getFrustum()

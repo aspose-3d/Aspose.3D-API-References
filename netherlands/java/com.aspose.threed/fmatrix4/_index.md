@@ -1,6 +1,6 @@
 ---
 title: "FMatrix4"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Matrix 4x4 met alle componenten van het type float"
 type: docs
 weight: 58
@@ -58,7 +58,7 @@ Matrix 4x4 met alle componenten van het type float
 | [getIdentity()](#getIdentity--) | De identiteitsmatrix |
 | [hashCode()](#hashCode--) |  |
 | [inverse()](#inverse--) | Bereken de inverse matrix van de huidige instantie. |
-| [mul(FMatrix4 left, FMatrix4 right)](#mul-com.aspose.threed.FMatrix4-com.aspose.threed.FMatrix4-) | Concateneer de twee matrices |
+| [mul(FMatrix4 left, FMatrix4 right)](#mul-com.aspose.threed.FMatrix4-com.aspose.threed.FMatrix4-) | Voeg de twee matrices samen |
 | [mul(FMatrix4 lhs, float v)](#mul-com.aspose.threed.FMatrix4-float-) | Vermenigvuldig de matrix met een double-waarde |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -372,13 +372,13 @@ public static FMatrix4 mul(FMatrix4 left, FMatrix4 right)
 ```
 
 
-Concateneer de twee matrices
+Voeg de twee matrices samen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| left | [FMatrix4](../../com.aspose.threed/fmatrix4) | De linkermatrix om te concatenaten |
-| right | [FMatrix4](../../com.aspose.threed/fmatrix4) | De rechtermatrix om te concatenaten |
+| left | [FMatrix4](../../com.aspose.threed/fmatrix4) | De linkermatrix om te concatenëren |
+| right | [FMatrix4](../../com.aspose.threed/fmatrix4) | De rechtermatrix om te concatenëren |
 
 **Returns:**
 [FMatrix4](../../com.aspose.threed/fmatrix4) - The concatenated matrix.

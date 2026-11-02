@@ -1,6 +1,6 @@
 ---
 title: "ShaderTechnique"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Een shadertechniek vertegenwoordigt een concrete renderimplementatie."
 type: docs
 weight: 169
@@ -29,11 +29,11 @@ Een shadertechniek vertegenwoordigt een concrete renderimplementatie.
 | [getDescription()](#getDescription--) | Haalt de beschrijving van deze techniek op |
 | [getRenderAPI()](#getRenderAPI--) | Haalt de rendering-API op die door deze techniek wordt gebruikt |
 | [getRenderAPIVersion()](#getRenderAPIVersion--) | Haalt de versie van de rendering-API op. |
-| [getShaderContent()](#getShaderContent--) | Haalt de inhoud van een ingebed shader‑script op. |
-| [getShaderEntry()](#getShaderEntry--) | Haalt het entry point van de shader op, sommige shaders zoals HLSL kunnen aangepaste shader‑entries hebben. |
+| [getShaderContent()](#getShaderContent--) | Haalt de inhoud van een ingesloten shader‑script op. |
+| [getShaderEntry()](#getShaderEntry--) | Haalt het ingangspunt van de shader op, sommige shaders zoals HLSL kunnen aangepaste shader‑ingangen hebben. |
 | [getShaderFile()](#getShaderFile--) | Haalt de bestandsnaam van het externe shader‑bestand op. |
-| [getShaderLanguage()](#getShaderLanguage--) | Haalt de shader‑taal op die door deze techniek wordt gebruikt. |
-| [getShaderParameters()](#getShaderParameters--) | Haalt de shader‑parameterdefinitie op. |
+| [getShaderLanguage()](#getShaderLanguage--) | Haalt de door deze techniek gebruikte shader‑taal op. |
+| [getShaderParameters()](#getShaderParameters--) | Haalt de definitie van de shader‑parameter op. |
 | [getShaderVersion()](#getShaderVersion--) | Haalt de shaderversie op die door deze techniek wordt gebruikt. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -41,7 +41,7 @@ Een shadertechniek vertegenwoordigt een concrete renderimplementatie.
 | [setDescription(String value)](#setDescription-java.lang.String-) | Stelt de beschrijving van deze techniek in |
 | [setRenderAPI(String value)](#setRenderAPI-java.lang.String-) | Stelt de rendering-API in die door deze techniek wordt gebruikt |
 | [setRenderAPIVersion(String value)](#setRenderAPIVersion-java.lang.String-) | Stelt de versie van de rendering-API in. |
-| [setShaderContent(byte[] value)](#setShaderContent-byte---) | Stelt de inhoud van een ingebedde shader‑script in. |
+| [setShaderContent(byte[] value)](#setShaderContent-byte---) | Stelt de inhoud van een ingebed shader‑script in. |
 | [setShaderEntry(String value)](#setShaderEntry-java.lang.String-) | Stelt het ingangspunt van de shader in, sommige shaders zoals HLSL kunnen aangepaste shader‑ingangen hebben. |
 | [setShaderFile(String value)](#setShaderFile-java.lang.String-) | Stelt de bestandsnaam van het externe shader‑bestand in. |
 | [setShaderLanguage(String value)](#setShaderLanguage-java.lang.String-) | Stelt de shader‑taal in die door deze techniek wordt gebruikt. |
@@ -70,7 +70,7 @@ Bindt de dynamische eigenschap aan shaderparameter
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | eigenschap | java.lang.String | De naam van de dynamische eigenschap. |
-| shaderParameter | java.lang.String | De naam van de shader‑parameter. |
+| shaderParameter | java.lang.String | De naam van de shaderparameter. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -133,17 +133,17 @@ public byte[] getShaderContent()
 ```
 
 
-Haalt de inhoud op van een ingebedde shader‑script. Het kan een HLSL/GLSL shader‑bronbestand zijn.
+Haalt de inhoud op van een ingebed shader‑script. Het kan een HLSL/GLSL shader‑bronbestand zijn.
 
 **Returns:**
-byte[] - de inhoud van een ingebedde shader‑script. Het kan een HLSL/GLSL shader‑bronbestand zijn.
+byte[] - de inhoud van een ingebed shader‑script. Het kan een HLSL/GLSL shader‑bronbestand zijn.
 ### getShaderEntry() {#getShaderEntry--}
 ```
 public String getShaderEntry()
 ```
 
 
-Haalt het entry point van de shader op, sommige shaders zoals HLSL kunnen aangepaste shader‑entries hebben.
+Haalt het ingangspunt van de shader op, sommige shaders zoals HLSL kunnen aangepaste shader‑ingangen hebben.
 
 **Returns:**
 java.lang.String - het ingangspunt van de shader, sommige shaders zoals HLSL kunnen aangepaste shader‑ingangen hebben.
@@ -163,7 +163,7 @@ public String getShaderLanguage()
 ```
 
 
-Haalt de shader‑taal op die door deze techniek wordt gebruikt.
+Haalt de door deze techniek gebruikte shader‑taal op.
 
 **Returns:**
 java.lang.String - de shader‑taal die door deze techniek wordt gebruikt.
@@ -173,10 +173,10 @@ public Map<String,String> getShaderParameters()
 ```
 
 
-Haalt de definitie van de shader‑parameter op. De sleutel is de naam van de dynamische eigenschap, en de waarde is de shader‑parameternaam waaraan de eigenschap is gekoppeld.
+Haalt de definitie van de shaderparameter op. De sleutel is de naam van de dynamische eigenschap, en de waarde is de naam van de shaderparameter waaraan de eigenschap is gekoppeld.
 
 **Returns:**
-java.util.Map<java.lang.String,java.lang.String> - de shader‑parameterdefinitie. De sleutel is de naam van de dynamische eigenschap, en de waarde is de shader‑parameternaam waaraan de eigenschap is gekoppeld.
+java.util.Map<java.lang.String,java.lang.String> - de definitie van de shaderparameter. De sleutel is de naam van de dynamische eigenschap, en de waarde is de naam van de shaderparameter waaraan de eigenschap is gekoppeld.
 ### getShaderVersion() {#getShaderVersion--}
 ```
 public String getShaderVersion()
@@ -258,7 +258,7 @@ public void setShaderContent(byte[] value)
 ```
 
 
-Stelt de inhoud in van een ingebedde shader‑script. Het kan een HLSL/GLSL shader‑bronbestand zijn.
+Stelt de inhoud in van een ingebed shader‑script. Het kan een HLSL/GLSL shader‑bronbestand zijn.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

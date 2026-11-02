@@ -1,6 +1,6 @@
 ---
 title: "RotationOrder"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De volgorde bepaalt welke rx ry rz worden toegepast in de transformatie-matrix."
 type: docs
 weight: 300
@@ -21,9 +21,9 @@ De volgorde bepaalt welke rx ry rz worden toegepast in de transformatie-matrix.
 | [XYZ](#XYZ) | Roteer in X,Y,Z-volgorde |
 | [XZY](#XZY) | Roteer in X,Z,Y-volgorde |
 | [YXZ](#YXZ) | Roteer in Y,X,Z-volgorde |
-| [YZX](#YZX) | Roteer in Y,Z,X volgorde |
-| [ZXY](#ZXY) | Roteer in Z,X,Y volgorde |
-| [ZYX](#ZYX) | Roteer in Z,Y,X volgorde |
+| [YZX](#YZX) | Draai in Y,Z,X volgorde |
+| [ZXY](#ZXY) | Draai in Z,X,Y volgorde |
+| [ZYX](#ZYX) | Draai in Z,Y,X volgorde |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -75,7 +75,7 @@ public static final RotationOrder YZX
 ```
 
 
-Roteer in Y,Z,X volgorde
+Draai in Y,Z,X volgorde
 
 ### ZXY {#ZXY}
 ```
@@ -83,7 +83,7 @@ public static final RotationOrder ZXY
 ```
 
 
-Roteer in Z,X,Y volgorde
+Draai in Z,X,Y volgorde
 
 ### ZYX {#ZYX}
 ```
@@ -91,7 +91,7 @@ public static final RotationOrder ZYX
 ```
 
 
-Roteer in Z,Y,X volgorde
+Draai in Z,Y,X volgorde
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

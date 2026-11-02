@@ -1,6 +1,6 @@
 ---
 title: "RotationMode"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De rotatiemodus van de frustum"
 type: docs
 weight: 299

@@ -1,6 +1,6 @@
 ---
 title: "Enumerator"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Generieke enumerator voor collectie van type T"
 type: docs
 weight: 236

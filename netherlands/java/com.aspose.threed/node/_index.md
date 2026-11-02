@@ -1,6 +1,6 @@
 ---
 title: "Node"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Stelt een element in de scenegrafiek voor."
 type: docs
 weight: 110
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Node extends SceneObject
 ```
 
-Stelt een element in de scenegrafiek voor. Een scenegrafiek is een boom van Node‑objecten. De boombeheerdiensten zijn zelfvoorzienend in deze klasse. Merk op dat de Aspose.3D SDK de geldigheid van de geconstrueerde scenegrafiek niet test. Het is de verantwoordelijkheid van de aanroeper om ervoor te zorgen dat er geen cyclische grafieken in een node‑hiërarchie worden gegenereerd. Naast het boombeheer definieert deze klasse alle eigenschappen die nodig zijn om de positie van het object in de scène te beschrijven. Deze informatie omvat de basis‑Translation, Rotation en Scaling‑eigenschappen en de meer geavanceerde opties voor pivots, limits en IK‑joint‑attributen zoals stijfheid en demping. Wanneer het voor het eerst wordt aangemaakt, is het Node‑object "empty" (d.w.z.: het is een object zonder enige grafische weergave dat alleen de positiëlinformatie bevat). In deze toestand kan het worden gebruikt om ouders in de node‑boomstructuur te vertegenwoordigen, maar niet veel meer. Het normale gebruik van dit type objecten is om er een entiteit aan toe te voegen die de node specialiseert (zie de "Entity"). De entiteit is een object op zich en is verbonden met de Node. Dit betekent ook dat dezelfde entiteit kan worden gedeeld tussen meerdere nodes. Camera, Light, Mesh, enz... zijn allemaal entiteiten en ze zijn allemaal afgeleid van de basisklasse Entity.
+Stelt een element in de scenegrafiek voor. Een scenegrafiek is een boom van Node-objecten. De boom-beheerdiensten zijn zelfvoorzienend in deze klasse. Let op: de Aspose.3D SDK test de geldigheid van de geconstrueerde scenegrafiek niet. Het is de verantwoordelijkheid van de aanroeper om ervoor te zorgen dat er geen cyclische grafieken in een node-hiërarchie worden gegenereerd. Naast het boombeheer definieert deze klasse alle eigenschappen die nodig zijn om de positie van het object in de scène te beschrijven. Deze informatie omvat de basis-eigenschappen Translation, Rotation en Scaling en de meer geavanceerde opties voor pivots, limieten en IK-gewricht-attributen zoals stijfheid en demping. Wanneer het voor het eerst wordt aangemaakt, is het Node-object "leeg" (d.w.z.: het is een object zonder enige grafische weergave dat alleen de positie-informatie bevat). In deze toestand kan het worden gebruikt om ouders in de node-boomstructuur te vertegenwoordigen, maar niet veel meer. Het normale gebruik van dit type objecten is om er een entity aan toe te voegen die de node specialiseert (zie de "Entity"). De entity is een object op zich en is verbonden met de Node. Dit betekent ook dat dezelfde entity kan worden gedeeld door meerdere nodes. Camera, Light, Mesh, enz... zijn allemaal entities en ze zijn allemaal afgeleid van de basisklasse Entity.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -27,51 +27,51 @@ Stelt een element in de scenegrafiek voor. Een scenegrafiek is een boom van Node
 | --- | --- |
 | [accept(NodeVisitor visitor)](#accept-com.aspose.threed.NodeVisitor-) | Doorloopt alle afstammende nodes (inclusief de huidige node) en roept de bezoeker aan met de node. |
 | [addChildNode(Node node)](#addChildNode-com.aspose.threed.Node-) | Voeg een kindnode toe aan deze node |
-| [addEntity(Entity entity)](#addEntity-com.aspose.threed.Entity-) | Voeg een entiteit toe aan de node. |
-| [createChildNode()](#createChildNode--) | Maakt een kindknooppunt |
+| [addEntity(Entity entity)](#addEntity-com.aspose.threed.Entity-) | Voeg een entity toe aan de node. |
+| [createChildNode()](#createChildNode--) | Creëert een kindknooppunt |
 | [createChildNode(Entity entity)](#createChildNode-com.aspose.threed.Entity-) | Maak een nieuw kindknooppunt met de opgegeven entiteit gekoppeld |
-| [createChildNode(String nodeName)](#createChildNode-java.lang.String-) | Maak een nieuw kindknooppunt met de opgegeven knoopnaam |
-| [createChildNode(String nodeName, Entity entity)](#createChildNode-java.lang.String-com.aspose.threed.Entity-) | Maak een nieuw kindknooppunt met de opgegeven knoopnaam |
-| [createChildNode(String nodeName, Entity entity, Material material)](#createChildNode-java.lang.String-com.aspose.threed.Entity-com.aspose.threed.Material-) | Maak een nieuw kindknooppunt met de opgegeven knoopnaam en koppel de gespecificeerde entiteit en een materiaal |
+| [createChildNode(String nodeName)](#createChildNode-java.lang.String-) | Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam |
+| [createChildNode(String nodeName, Entity entity)](#createChildNode-java.lang.String-com.aspose.threed.Entity-) | Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam |
+| [createChildNode(String nodeName, Entity entity, Material material)](#createChildNode-java.lang.String-com.aspose.threed.Entity-com.aspose.threed.Material-) | Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam, en koppel de gespecificeerde entiteit en een materiaal |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [evaluateGlobalTransform(boolean withGeometricTransform)](#evaluateGlobalTransform-boolean-) | Evalueer de globale transformatie, al dan niet de geometrische transformatie opnemen. |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getAssetInfo()](#getAssetInfo--) | Per-knooppunt assetinformatie |
-| [getBoundingBox()](#getBoundingBox--) | Bereken het begrenzingsvak van de knoop. |
+| [getAssetInfo()](#getAssetInfo--) | Per-knooppunt activainformatie |
+| [getBoundingBox()](#getBoundingBox--) | Bereken de omhullende doos van het knooppunt |
 | [getChild(int index)](#getChild-int-) | Haalt het kindknooppunt op op de opgegeven index. |
-| [getChild(String nodeName)](#getChild-java.lang.String-) | Haalt het kindknooppunt op met de opgegeven naam. |
+| [getChild(String nodeName)](#getChild-java.lang.String-) | Haalt het kindknooppunt op met de opgegeven naam |
 | [getChildNodes()](#getChildNodes--) | Haalt de kindknooppunten op. |
 | [getClass()](#getClass--) |  |
-| [getEntities()](#getEntities--) | Haalt alle knoopentiteiten op. |
-| [getEntity()](#getEntity--) | Haalt de eerste entiteit op die aan deze knoop is gekoppeld; indien ingesteld, worden andere entiteiten gewist. |
-| [getExcluded()](#getExcluded--) | Haalt op of dit knoop en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren. |
+| [getEntities()](#getEntities--) | Haalt alle knooppunteenities op. |
+| [getEntity()](#getEntity--) | Haalt de eerste entiteit op die aan dit knooppunt is gekoppeld; indien ingesteld, worden andere entiteiten gewist. |
+| [getExcluded()](#getExcluded--) | Haalt op of dit knooppunt en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren. |
 | [getGlobalTransform()](#getGlobalTransform--) | Haalt de globale transformatie op. |
-| [getMaterial()](#getMaterial--) | Haalt het eerste materiaal op dat aan deze knoop is gekoppeld; indien ingesteld, worden andere materialen gewist. |
-| [getMaterials()](#getMaterials--) | Haalt de materialen op die aan deze knoop zijn gekoppeld. |
-| [getMetaDatas()](#getMetaDatas--) | Haalt de metagegevens op die in deze knoop zijn gedefinieerd. |
+| [getMaterial()](#getMaterial--) | Haalt het eerste materiaal op dat aan dit knooppunt is gekoppeld; indien ingesteld, worden andere materialen gewist. |
+| [getMaterials()](#getMaterials--) | Haalt de materialen op die aan dit knooppunt zijn gekoppeld. |
+| [getMetaDatas()](#getMetaDatas--) | Haalt de metagegevens op die in dit knooppunt zijn gedefinieerd. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de bovenliggende knoop op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getParentNode()](#getParentNode--) | Haalt het bovenliggende knooppunt op. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [getTransform()](#getTransform--) | Haalt de lokale transformatie op. |
-| [getVisible()](#getVisible--) | Haalt op om de knoop te tonen. |
+| [getVisible()](#getVisible--) | Haalt op om het knooppunt te tonen. |
 | [hashCode()](#hashCode--) |  |
-| [merge(Node node)](#merge-com.aspose.threed.Node-) | Ontkoppel alles onder de knoop en koppel het aan de huidige knoop. |
+| [merge(Node node)](#merge-com.aspose.threed.Node-) | Ontkoppel alles onder het knooppunt en koppel het aan het huidige knooppunt. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [selectObjects(String path)](#selectObjects-java.lang.String-) | Selecteer meerdere objecten onder de huidige knoop met XPath-achtige querysyntaxis. |
-| [selectSingleObject(String path)](#selectSingleObject-java.lang.String-) | Selecteer een enkel object onder de huidige knoop met XPath-achtige querysyntaxis. |
-| [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | Per-knooppunt assetinformatie |
-| [setEntity(Entity value)](#setEntity-com.aspose.threed.Entity-) | Stelt de eerste entiteit in die aan deze knoop is gekoppeld; indien ingesteld, worden andere entiteiten gewist. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of dit knoop en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren. |
-| [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Stelt het eerste materiaal in dat aan dit knooppunt is gekoppeld; als ingesteld, worden andere materialen gewist |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [selectObjects(String path)](#selectObjects-java.lang.String-) | Selecteer meerdere objecten onder het huidige knooppunt met XPath-achtige querysyntaxis. |
+| [selectSingleObject(String path)](#selectSingleObject-java.lang.String-) | Selecteer een enkel object onder het huidige knooppunt met XPath-achtige querysyntaxis. |
+| [setAssetInfo(AssetInfo value)](#setAssetInfo-com.aspose.threed.AssetInfo-) | Per-knooppunt activainformatie |
+| [setEntity(Entity value)](#setEntity-com.aspose.threed.Entity-) | Stelt de eerste entiteit in die aan dit knooppunt is gekoppeld; indien ingesteld, worden andere entiteiten gewist. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of dit knooppunt en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren. |
+| [setMaterial(Material value)](#setMaterial-com.aspose.threed.Material-) | Stelt het eerste materiaal in dat aan dit knooppunt is gekoppeld; indien ingesteld, worden andere materialen gewist |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt het bovenliggende knooppunt in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setVisible(boolean value)](#setVisible-boolean-) | Stelt in om het knooppunt te tonen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Stelt in om het knooppunt te tonen |
 | [toString()](#toString--) | Haalt de tekenreeksrepresentatie van dit knooppunt op. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,7 +96,7 @@ Initialiseert een nieuw exemplaar van de [Node](../../com.aspose.threed/node) kl
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | naam | java.lang.String | Naam. |
-| entity | [Entity](../../com.aspose.threed/entity) | Standaardentiteit. |
+| entity | [Entity](../../com.aspose.threed/entity) | Standaard entiteit. |
 
 ### Node(String name) {#Node-java.lang.String-}
 ```
@@ -117,15 +117,15 @@ public boolean accept(NodeVisitor visitor)
 ```
 
 
-Doorloopt alle afstammingsknooppunten (inclusief het huidige knooppunt) en roept de bezoeker aan met het knooppunt. De bezoeker kan de doorloop onderbreken door false te retourneren.
+Doorloopt alle afstammelingen knooppunten (inclusief het huidige knooppunt) en roept de Visitor aan met het knooppunt. Visitor kan de doorloop onderbreken door false te retourneren
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| visitor | [NodeVisitor](../../com.aspose.threed/nodevisitor) | Bezoekercallback om het knooppunt te bezoeken. |
+| visitor | [NodeVisitor](../../com.aspose.threed/nodevisitor) | Visitor callback om het knooppunt te bezoeken |
 
 **Returns:**
-boolean - true betekent dat de bezoeker de doorloop heeft onderbroken. **Voorbeeld:** De volgende code toont hoe alle meshes uit een scène kunnen worden opgehaald
+boolean - true betekent dat de visitor de doorloop heeft onderbroken. **Example:** De volgende code laat zien hoe alle meshes uit een scène worden opgehaald
 
 ```
 Scene scene = Scene.fromFile("input.fbx");
@@ -151,7 +151,7 @@ Voeg een kindnode toe aan deze node
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | node | [Node](../../com.aspose.threed/node) | Het kindknooppunt dat moet worden gekoppeld **Voorbeeld:** De volgende code toont hoe alle meshes uit een scène kunnen worden opgehaald |
+|  | node | [Node](../../com.aspose.threed/node) | Het kindknooppunt dat moet worden gekoppeld **Example:** De volgende code laat zien hoe alle meshes uit een scène worden opgehaald |
 
 ```
 Scene scene = Scene.fromFile("input.fbx");
@@ -166,7 +166,7 @@ public void addEntity(Entity entity)
 ```
 
 
-Voeg een entiteit toe aan de node.
+Voeg een entity toe aan de node.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -179,7 +179,7 @@ public Node createChildNode()
 ```
 
 
-Maakt een kindknooppunt
+Creëert een kindknooppunt
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The new child node. **Example:** The following code shows how to create a new child node under root node
@@ -201,7 +201,7 @@ Maak een nieuw kindknooppunt met de opgegeven entiteit gekoppeld
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| entity | [Entity](../../com.aspose.threed/entity) | Standaardentiteit gekoppeld aan het knooppunt |
+| entity | [Entity](../../com.aspose.threed/entity) | Standaard entiteit gekoppeld aan het knooppunt |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The new child node. **Example:** The following code shows how to create a new child node under root node
@@ -217,7 +217,7 @@ public Node createChildNode(String nodeName)
 ```
 
 
-Maak een nieuw kindknooppunt met de opgegeven knoopnaam
+Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -239,13 +239,13 @@ public Node createChildNode(String nodeName, Entity entity)
 ```
 
 
-Maak een nieuw kindknooppunt met de opgegeven knoopnaam
+Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | nodeName | java.lang.String | De naam van het nieuwe kindknooppunt |
-| entity | [Entity](../../com.aspose.threed/entity) | Standaardentiteit gekoppeld aan het knooppunt |
+| entity | [Entity](../../com.aspose.threed/entity) | Standaard entiteit gekoppeld aan het knooppunt |
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - The new child node.
@@ -255,13 +255,13 @@ public Node createChildNode(String nodeName, Entity entity, Material material)
 ```
 
 
-Maak een nieuw kindknooppunt met de opgegeven knoopnaam en koppel de gespecificeerde entiteit en een materiaal
+Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam, en koppel de gespecificeerde entiteit en een materiaal
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | nodeName | java.lang.String | De naam van het nieuwe kindknooppunt |
-| entity | [Entity](../../com.aspose.threed/entity) | Standaardentiteit gekoppeld aan het knooppunt |
+| entity | [Entity](../../com.aspose.threed/entity) | Standaard entiteit gekoppeld aan het knooppunt |
 | material | [Material](../../com.aspose.threed/material) | Het materiaal gekoppeld aan het knooppunt |
 
 **Returns:**
@@ -316,7 +316,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -326,7 +326,7 @@ public AssetInfo getAssetInfo()
 ```
 
 
-Per-knooppunt assetinformatie
+Per-knooppunt activainformatie
 
 **Returns:**
 [AssetInfo](../../com.aspose.threed/assetinfo) - Per-node asset info
@@ -336,7 +336,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Bereken het begrenzingsvak van de knoop.
+Bereken de omhullende doos van het knooppunt
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The bounding box of current node
@@ -367,7 +367,7 @@ public Node getChild(String nodeName)
 ```
 
 
-Haalt het kindknooppunt op met de opgegeven naam.
+Haalt het kindknooppunt op met de opgegeven naam
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -391,7 +391,7 @@ public List<Node> getChildNodes()
 Haalt de kindknooppunten op.
 
 **Returns:**
-java.util.List<com.aspose.threed.Node> - de kindknooppunten. **Voorbeeld:** De volgende code toont hoe kindknooppunten van het rootknooppunt kunnen worden opgesomd
+java.util.List<com.aspose.threed.Node> - de kindknooppunten. **Example:** De volgende code laat zien hoe kindknooppunten van het rootknooppunt worden opgesomd
 
 ```
 Scene scene = Scene.fromFile("test.fbx");
@@ -416,7 +416,7 @@ public List<Entity> getEntities()
 ```
 
 
-Haalt alle knoopentiteiten op.
+Haalt alle knooppunteenities op.
 
 **Returns:**
 java.util.List<com.aspose.threed.Entity> - alle knooppuntentiteiten.
@@ -426,7 +426,7 @@ public Entity getEntity()
 ```
 
 
-Haalt de eerste entiteit op die aan deze knoop is gekoppeld; indien ingesteld, worden andere entiteiten gewist.
+Haalt de eerste entiteit op die aan dit knooppunt is gekoppeld; indien ingesteld, worden andere entiteiten gewist.
 
 **Returns:**
 [Entity](../../com.aspose.threed/entity) - the first entity attached to this node, if sets, will clear other entities. **Example:** The following code shows how to create a new child node under root node
@@ -443,10 +443,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of dit knoop en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren.
+Haalt op of dit knooppunt en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of dit knooppunt en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren. **Voorbeeld:** De volgende code toont hoe een opgegeven knooppunt kan worden uitgesloten bij het exporteren
+boolean - of dit knooppunt en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren. **Example:** De volgende code laat zien hoe een specifiek knooppunt wordt uitgesloten bij exporteren
 
 ```
 Scene scene = new Scene();
@@ -479,7 +479,7 @@ public Material getMaterial()
 ```
 
 
-Haalt het eerste materiaal op dat aan deze knoop is gekoppeld; indien ingesteld, worden andere materialen gewist.
+Haalt het eerste materiaal op dat aan dit knooppunt is gekoppeld; indien ingesteld, worden andere materialen gewist.
 
 **Returns:**
 [Material](../../com.aspose.threed/material) - the first material associated with this node, if sets, will clear other materials **Example:**
@@ -495,7 +495,7 @@ public List<Material> getMaterials()
 ```
 
 
-Haalt de materialen op die aan deze knoop zijn gekoppeld.
+Haalt de materialen op die aan dit knooppunt zijn gekoppeld.
 
 **Returns:**
 java.util.List<com.aspose.threed.Material> - de materialen die aan dit knooppunt zijn gekoppeld.
@@ -505,7 +505,7 @@ public List<CustomObject> getMetaDatas()
 ```
 
 
-Haalt de metagegevens op die in deze knoop zijn gedefinieerd.
+Haalt de metagegevens op die in dit knooppunt zijn gedefinieerd.
 
 **Returns:**
 java.util.List<com.aspose.threed.CustomObject> - de metagegevens die in dit knooppunt zijn gedefinieerd.
@@ -525,7 +525,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de bovenliggende knoop op.
+Haalt het bovenliggende knooppunt op.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the parent node.
@@ -535,7 +535,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -545,12 +545,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -560,7 +560,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -587,10 +587,10 @@ public boolean getVisible()
 ```
 
 
-Haalt op om de knoop te tonen.
+Haalt op om het knooppunt te tonen.
 
 **Returns:**
-boolean - om het knooppunt weer te geven **Voorbeeld:** De volgende code toont hoe een onzichtbaar knooppunt kan worden gecreëerd
+boolean - om het knooppunt weer te geven **Example:** De volgende code laat zien hoe een onzichtbaar knooppunt wordt gemaakt
 
 ```
 Scene scene = new Scene();
@@ -614,7 +614,7 @@ public void merge(Node node)
 ```
 
 
-Ontkoppel alles onder het knooppunt en koppel het aan het huidige knooppunt. **Voorbeeld:** De volgende code toont hoe twee 3D-bestanden kunnen worden samengevoegd tot één bestand
+Ontkoppel alles onder het knooppunt en koppel het aan het huidige knooppunt. **Example:** De volgende code laat zien hoe twee 3D-bestanden worden samengevoegd tot één bestand
 
 ```
 Scene scene1 = Scene.fromFile("scene1.fbx");
@@ -665,7 +665,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -680,7 +680,7 @@ public ArrayList<Object> selectObjects(String path)
 ```
 
 
-Selecteer meerdere objecten onder de huidige knoop met XPath-achtige querysyntaxis.
+Selecteer meerdere objecten onder het huidige knooppunt met XPath-achtige querysyntaxis.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -695,7 +695,7 @@ public Object selectSingleObject(String path)
 ```
 
 
-Selecteer een enkel object onder de huidige knoop met XPath-achtige querysyntaxis.
+Selecteer een enkel object onder het huidige knooppunt met XPath-achtige querysyntaxis.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -703,14 +703,14 @@ Selecteer een enkel object onder de huidige knoop met XPath-achtige querysyntaxi
 | pad | java.lang.String | De XPath-achtige query |
 
 **Returns:**
-java.lang.Object - Object gevonden via de XPath-achtige query.
+java.lang.Object - Object gevonden door de XPath-achtige query.
 ### setAssetInfo(AssetInfo value) {#setAssetInfo-com.aspose.threed.AssetInfo-}
 ```
 public void setAssetInfo(AssetInfo value)
 ```
 
 
-Per-knooppunt assetinformatie
+Per-knooppunt activainformatie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -723,12 +723,12 @@ public void setEntity(Entity value)
 ```
 
 
-Stelt de eerste entiteit in die aan deze knoop is gekoppeld; indien ingesteld, worden andere entiteiten gewist.
+Stelt de eerste entiteit in die aan dit knooppunt is gekoppeld; indien ingesteld, worden andere entiteiten gewist.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [Entity](../../com.aspose.threed/entity) | Nieuwe waarde **Example:** De volgende code laat zien hoe je een nieuw kindknooppunt onder het rootknooppunt maakt. |
+|  | value | [Entity](../../com.aspose.threed/entity) | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe je een nieuw kindknooppunt onder het rootknooppunt maakt |
 
 ```
 Scene scene = new Scene();
@@ -743,12 +743,12 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of dit knoop en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren.
+Stelt in of dit knooppunt en alle kindknooppunten/entiteiten moeten worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | boolean | Nieuwe waarde **Example:** De volgende code toont hoe je een opgegeven knooppunt uitsluit van exporteren. |
+|  | waarde | boolean | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe je een opgegeven knooppunt uitsluit van exporteren |
 
 ```
 Scene scene = new Scene();
@@ -763,7 +763,7 @@ public void setMaterial(Material value)
 ```
 
 
-Stelt het eerste materiaal in dat aan dit knooppunt is gekoppeld; als ingesteld, worden andere materialen gewist
+Stelt het eerste materiaal in dat aan dit knooppunt is gekoppeld; indien ingesteld, worden andere materialen gewist
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -808,12 +808,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setVisible(boolean value) {#setVisible-boolean-}
@@ -822,12 +822,12 @@ public void setVisible(boolean value)
 ```
 
 
-Stelt in om het knooppunt te tonen.
+Stelt in om het knooppunt te tonen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | boolean | Nieuwe waarde **Example:** De volgende code toont hoe je een onzichtbaar knooppunt maakt. |
+|  | waarde | boolean | Nieuwe waarde **Voorbeeld:** De volgende code laat zien hoe je een onzichtbaar knooppunt maakt |
 
 ```
 Scene scene = new Scene();

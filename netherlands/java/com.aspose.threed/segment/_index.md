@@ -1,6 +1,6 @@
 ---
 title: "CompositeCurve.Segment"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Het curvesegment"
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.Property"
-second_title: "Aspose.3D for Java API-referentie"
-description: "De eigenschapsdefinitie in metadata‑klassen."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "De eigenschapsdefinitie in metadata‑klassen"
 type: docs
 weight: 13
 url: /nl/java/com.aspose.threed/structuralmetadata.property/
@@ -18,31 +18,31 @@ De eigenschapsdefinitie in de klassen van metadata
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [Property(String name, String displayName, String description, Class<?> type, boolean normalized, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----boolean-java.lang.Integer-) | Constructor van de eigenschap van metadata. |
-| [Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) | Constructor van de eigenschap van metadata. |
-| [Property(String name, Class<?> type)](#Property-java.lang.String-java.lang.Class----) | Constructor van de eigenschap van metadata. |
+| [Property(String name, String displayName, String description, Class<?> type, boolean normalized, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----boolean-java.lang.Integer-) | Constructor van de eigenschap van metadata |
+| [Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) | Constructor van de eigenschap van metadata |
+| [Property(String name, Class<?> type)](#Property-java.lang.String-java.lang.Class----) | Constructor van de eigenschap van metadata |
 ## Methoden
 
 | Methode | Beschrijving |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Aantal gegevens voor een array met vaste grootte. |
-| [getDescription()](#getDescription--) | De beschrijving van de eigenschap. |
+| [getCount()](#getCount--) | Aantal gegevens voor een vaste‑grootte‑array. |
+| [getDescription()](#getDescription--) | De beschrijving van de eigenschap |
 | [getDisplayName()](#getDisplayName--) | De naam van de eigenschap, gebruikt door de UI voor weergave. |
-| [getEnumType()](#getEnumType--) | Het enumtype. |
-| [getName()](#getName--) | De unieke naam van de eigenschap. |
+| [getEnumType()](#getEnumType--) | Het enum‑type |
+| [getName()](#getName--) | De unieke naam van de eigenschap |
 | [getNormalized()](#getNormalized--) | Is de data genormaliseerd. |
-| [getType()](#getType--) | Het gegevenstype van de eigenschap. |
+| [getType()](#getType--) | Het gegevenstype van de eigenschap |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCount(Integer value)](#setCount-java.lang.Integer-) | Aantal gegevens voor een array met vaste grootte. |
-| [setDescription(String value)](#setDescription-java.lang.String-) | De beschrijving van de eigenschap. |
+| [setCount(Integer value)](#setCount-java.lang.Integer-) | Aantal gegevens voor een vaste‑grootte‑array. |
+| [setDescription(String value)](#setDescription-java.lang.String-) | De beschrijving van de eigenschap |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | De naam van de eigenschap, gebruikt door de UI voor weergave. |
-| [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | Het enumtype. |
+| [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | Het enum‑type |
 | [setNormalized(boolean value)](#setNormalized-boolean-) | Is de data genormaliseerd. |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van dit exemplaar op. |
+| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van deze instantie op. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -52,14 +52,14 @@ public Property(String name, String displayName, String description, Class<?> ty
 ```
 
 
-Constructor van de eigenschap van metadata.
+Constructor van de eigenschap van metadata
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| naam | java.lang.String | De unieke naam van de eigenschap. |
+| naam | java.lang.String | De unieke naam van de eigenschap |
 | displayName | java.lang.String | De naam van de eigenschap, gebruikt door de UI voor weergave. |
-| description | java.lang.String | De beschrijving van de eigenschap. |
+| description | java.lang.String | De beschrijving van de eigenschap |
 | type | java.lang.Class<?> | Gegevenstype van de eigenschap |
 | normalized | boolean | Is de data genormaliseerd |
 | aantal | java.lang.Integer | Aantal gegevens voor een vaste-grootte array |
@@ -70,14 +70,14 @@ public Property(String name, String displayName, String description, StructuralM
 ```
 
 
-Constructor van de eigenschap van metadata.
+Constructor van de eigenschap van metadata
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| naam | java.lang.String | De unieke naam van de eigenschap. |
+| naam | java.lang.String | De unieke naam van de eigenschap |
 | displayName | java.lang.String | De naam van de eigenschap, gebruikt door de UI voor weergave. |
-| description | java.lang.String | De beschrijving van de eigenschap. |
+| description | java.lang.String | De beschrijving van de eigenschap |
 | type | [EnumType](../../com.aspose.threed/enumtype) | Gegevenstype van de eigenschap |
 | array | boolean | Is elke eigenschapswaarde een array of een scalair |
 | aantal | java.lang.Integer | Aantal gegevens voor een vaste-grootte array |
@@ -88,12 +88,12 @@ public Property(String name, Class<?> type)
 ```
 
 
-Constructor van de eigenschap van metadata.
+Constructor van de eigenschap van metadata
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| naam | java.lang.String | De unieke naam van de eigenschap. |
+| naam | java.lang.String | De unieke naam van de eigenschap |
 | type | java.lang.Class<?> | Gegevenstype van de eigenschap |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -127,7 +127,7 @@ public Integer getCount()
 ```
 
 
-Aantal gegevens voor een array met vaste grootte.
+Aantal gegevens voor een vaste‑grootte‑array.
 
 **Returns:**
 java.lang.Integer - Aantal gegevens voor een vaste-grootte array.
@@ -137,7 +137,7 @@ public String getDescription()
 ```
 
 
-De beschrijving van de eigenschap.
+De beschrijving van de eigenschap
 
 **Returns:**
 java.lang.String - De beschrijving van de eigenschap
@@ -157,7 +157,7 @@ public StructuralMetadata.EnumType getEnumType()
 ```
 
 
-Het enumtype.
+Het enum‑type
 
 **Returns:**
 [EnumType](../../com.aspose.threed/enumtype) - The enum type
@@ -167,7 +167,7 @@ public String getName()
 ```
 
 
-De unieke naam van de eigenschap.
+De unieke naam van de eigenschap
 
 **Returns:**
 java.lang.String - De unieke naam van de eigenschap
@@ -187,7 +187,7 @@ public Class<?> getType()
 ```
 
 
-Het gegevenstype van de eigenschap.
+Het gegevenstype van de eigenschap
 
 **Returns:**
 java.lang.Class<?> - Het gegevenstype van de eigenschap
@@ -223,7 +223,7 @@ public void setCount(Integer value)
 ```
 
 
-Aantal gegevens voor een array met vaste grootte.
+Aantal gegevens voor een vaste‑grootte‑array.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -236,7 +236,7 @@ public void setDescription(String value)
 ```
 
 
-De beschrijving van de eigenschap.
+De beschrijving van de eigenschap
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -262,7 +262,7 @@ public void setEnumType(StructuralMetadata.EnumType value)
 ```
 
 
-Het enumtype.
+Het enum‑type
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -288,7 +288,7 @@ public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie van dit exemplaar op.
+Haalt de tekenreeksrepresentatie van deze instantie op.
 
 **Returns:**
 java.lang.String

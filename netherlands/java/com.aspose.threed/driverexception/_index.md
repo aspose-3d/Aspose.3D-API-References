@@ -1,6 +1,6 @@
 ---
 title: "DriverException"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De uitzondering die wordt opgegooid door interne renderingsdrivers."
 type: docs
 weight: 48
@@ -18,7 +18,7 @@ De uitzondering die wordt opgegooid door interne renderingsdrivers.
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [DriverException(int code, String message)](#DriverException-int-java.lang.String-) | Initialiseer een instantie van [DriverException](../../com.aspose.threed/driverexception) met de opgegeven native driver-foutcode en -bericht. |
+| [DriverException(int code, String message)](#DriverException-int-java.lang.String-) | Initialiseer een instantie van [DriverException](../../com.aspose.threed/driverexception) met de opgegeven native driver-foutcode en bericht. |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -51,7 +51,7 @@ public DriverException(int code, String message)
 ```
 
 
-Initialiseer een instantie van [DriverException](../../com.aspose.threed/driverexception) met de opgegeven native driver-foutcode en -bericht.
+Initialiseer een instantie van [DriverException](../../com.aspose.threed/driverexception) met de opgegeven native driver-foutcode en bericht.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

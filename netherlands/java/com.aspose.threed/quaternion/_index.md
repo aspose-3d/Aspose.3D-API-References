@@ -1,6 +1,6 @@
 ---
 title: "Quaternion"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Quaternion wordt meestal gebruikt om rotatie uit te voeren in computergraphics."
 type: docs
 weight: 143
@@ -28,7 +28,7 @@ Quaternion wordt meestal gebruikt om rotatie uit te voeren in computergraphics.
 | Veld | Beschrijving |
 | --- | --- |
 | [IDENTITY](#IDENTITY) | De identiteitsquaternion. |
-| [w](#w) | De w‑component. |
+| [w](#w) | De w-component. |
 | [x](#x) | De x-component. |
 | [y](#y) | De y-component. |
 | [z](#z) | De z-component. |
@@ -38,37 +38,37 @@ Quaternion wordt meestal gebruikt om rotatie uit te voeren in computergraphics.
 | --- | --- |
 | [add(Quaternion lhs, Quaternion rhs)](#add-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Operatoroverbelasting voor + |
 | [clone()](#clone--) |  |
-| [concat(Quaternion rhs)](#concat-com.aspose.threed.Quaternion-) | Concateneer twee quaternionen |
-| [conjugate()](#conjugate--) | Retourneert een geconjugeerde quaternion van de huidige quaternion |
+| [concat(Quaternion rhs)](#concat-com.aspose.threed.Quaternion-) | Concateneer twee quaternionen. |
+| [conjugate()](#conjugate--) | Retourneert een geconjugeerde quaternion van de huidige quaternion. |
 | [copyFrom(Quaternion src)](#copyFrom-com.aspose.threed.Quaternion-) |  |
 | [div(Quaternion lhs, double rhs)](#div-com.aspose.threed.Quaternion-double-) | Operatoroverbelasting voor / |
 | [dot(Quaternion q)](#dot-com.aspose.threed.Quaternion-) | Dotproduct |
-| [equals(Object obj)](#equals-java.lang.Object-) | Controleer of twee quaternionen gelijk zijn |
-| [eulerAngles()](#eulerAngles--) | Converteert een quaternion naar een rotatie weergegeven door Euler-hoeken. Alle componenten zijn in radialen. |
-| [fromAngleAxis(double a, Vector3 axis)](#fromAngleAxis-double-com.aspose.threed.Vector3-) | Maakt een quaternion rond een gegeven as en roteert met de klok mee |
-| [fromEulerAngle(Vector3 eulerAngle)](#fromEulerAngle-com.aspose.threed.Vector3-) | Maakt een quaternion van een gegeven Euler-hoek |
-| [fromEulerAngle(double pitch, double yaw, double roll)](#fromEulerAngle-double-double-double-) | Maakt een quaternion van een gegeven Euler-hoek |
-| [fromRotation(Vector3 orig, Vector3 dest)](#fromRotation-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Maakt een quaternion die roteert van de oorspronkelijke naar de doelrichting |
+| [equals(Object obj)](#equals-java.lang.Object-) | Controleer of twee quaternionen gelijk zijn. |
+| [eulerAngles()](#eulerAngles--) | Converteert quaternion naar rotatie weergegeven door Eulerhoeken. Alle componenten zijn in radialen. |
+| [fromAngleAxis(double a, Vector3 axis)](#fromAngleAxis-double-com.aspose.threed.Vector3-) | Maakt een quaternion rond de gegeven as en roteert met de klok mee. |
+| [fromEulerAngle(Vector3 eulerAngle)](#fromEulerAngle-com.aspose.threed.Vector3-) | Maakt een quaternion van de gegeven Eulerhoek. |
+| [fromEulerAngle(double pitch, double yaw, double roll)](#fromEulerAngle-double-double-double-) | Maakt een quaternion van de gegeven Eulerhoek. |
+| [fromRotation(Vector3 orig, Vector3 dest)](#fromRotation-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | Maakt een quaternion die roteert van de oorspronkelijke naar de doelrichting. |
 | [getClass()](#getClass--) |  |
-| [getLength()](#getLength--) | Berekent de lengte van de quaternion |
-| [hashCode()](#hashCode--) | Berekent de hashcode van de Quaternion |
-| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Vult deze quaternion met de geïnterpoleerde waarde tussen de gegeven quaternion-argumenten voor een t tussen van en tot. |
-| [inverse()](#inverse--) | Retourneert een inverse quaternion van de huidige quaternion |
+| [getLength()](#getLength--) | Bepaalt de lengte van de quaternion. |
+| [hashCode()](#hashCode--) | Bepaalt de hashcode van de Quaternion. |
+| [interpolate(float t, Quaternion from, Quaternion to)](#interpolate-float-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Vult deze quaternion met de geïnterpoleerde waarde tussen de gegeven quaternionargumenten voor een t tussen van en tot. |
+| [inverse()](#inverse--) | Retourneert een inverse quaternion van de huidige quaternion. |
 | [mul(Quaternion lhs, Quaternion rhs)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Operatoroverbelasting voor \* |
 | [mul(Quaternion q, Vector3 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector3-) | Operatoroverbelasting voor \* |
 | [mul(Quaternion q, Vector4 v)](#mul-com.aspose.threed.Quaternion-com.aspose.threed.Vector4-) | Operatoroverbelasting voor \* |
 | [mul(Quaternion lhs, double rhs)](#mul-com.aspose.threed.Quaternion-double-) | Operatoroverbelasting voor \* |
 | [mul(Vector3 v, Quaternion q)](#mul-com.aspose.threed.Vector3-com.aspose.threed.Quaternion-) | Operatoroverbelasting voor \* |
-| [normalize()](#normalize--) | Normaliseer de quaternion |
+| [normalize()](#normalize--) | Normaliseer de quaternion. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [op_eq(Quaternion lhs, Quaternion rhs)](#op-eq-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Gelijkheidsoperator voor quaternion |
-| [op_ne(Quaternion lhs, Quaternion rhs)](#op-ne-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Niet-gelijkheidsoperator voor quaternion |
-| [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Voer sferische lineaire interpolatie uit tussen twee waarden |
-| [toAngleAxis(double[] angle, Vector3 axis)](#toAngleAxis-double---com.aspose.threed.Vector3-) | Decomposeer de quaternion in hoek en as |
+| [op_eq(Quaternion lhs, Quaternion rhs)](#op-eq-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Gelijkheidsoperator voor quaternion. |
+| [op_ne(Quaternion lhs, Quaternion rhs)](#op-ne-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Ongelijkheidsoperator voor quaternion. |
+| [slerp(double t, Quaternion v1, Quaternion v2)](#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-) | Voer sferische lineaire interpolatie uit tussen twee waarden. |
+| [toAngleAxis(double[] angle, Vector3 axis)](#toAngleAxis-double---com.aspose.threed.Vector3-) | Decomposeer de quaternion in hoek en as. |
 | [toMatrix()](#toMatrix--) | Converteer de door quaternion gepresenteerde rotatie naar een transformatiematrix. |
 | [toMatrix(Vector3 translation)](#toMatrix-com.aspose.threed.Vector3-) | Converteer de door quaternion gepresenteerde rotatie naar een transformatiematrix. |
-| [toString()](#toString--) | Berekent de weergave van de quaternion als string |
+| [toString()](#toString--) | Bepaalt de representatie van de quaternion als string. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -108,7 +108,7 @@ public double w
 ```
 
 
-De w‑component.
+De w-component.
 
 ### x {#x}
 ```
@@ -166,7 +166,7 @@ public Quaternion concat(Quaternion rhs)
 ```
 
 
-Concateneer twee quaternionen
+Concateneer twee quaternionen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -181,7 +181,7 @@ public Quaternion conjugate()
 ```
 
 
-Retourneert een geconjugeerde quaternion van de huidige quaternion
+Retourneert een geconjugeerde quaternion van de huidige quaternion.
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - The conjugate quaternion.
@@ -225,17 +225,17 @@ Dotproduct
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | Het quaternion |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | De quaternion |
 
 **Returns:**
-double - Dot‑waarde
+double - Dot-waarde
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-Controleer of twee quaternionen gelijk zijn
+Controleer of twee quaternionen gelijk zijn.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -250,7 +250,7 @@ public Vector3 eulerAngles()
 ```
 
 
-Converteert een quaternion naar een rotatie weergegeven door Euler-hoeken. Alle componenten zijn in radialen.
+Converteert quaternion naar rotatie weergegeven door Eulerhoeken. Alle componenten zijn in radialen.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Result vector
@@ -260,7 +260,7 @@ public static Quaternion fromAngleAxis(double a, Vector3 axis)
 ```
 
 
-Maakt een quaternion rond een gegeven as en roteert met de klok mee
+Maakt een quaternion rond de gegeven as en roteert met de klok mee.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -276,7 +276,7 @@ public static Quaternion fromEulerAngle(Vector3 eulerAngle)
 ```
 
 
-Maakt een quaternion van een gegeven Euler-hoek
+Maakt een quaternion van de gegeven Eulerhoek.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -291,7 +291,7 @@ public static Quaternion fromEulerAngle(double pitch, double yaw, double roll)
 ```
 
 
-Maakt een quaternion van een gegeven Euler-hoek
+Maakt een quaternion van de gegeven Eulerhoek.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -308,7 +308,7 @@ public static Quaternion fromRotation(Vector3 orig, Vector3 dest)
 ```
 
 
-Maakt een quaternion die roteert van de oorspronkelijke naar de doelrichting
+Maakt een quaternion die roteert van de oorspronkelijke naar de doelrichting.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -334,7 +334,7 @@ public double getLength()
 ```
 
 
-Berekent de lengte van de quaternion
+Bepaalt de lengte van de quaternion.
 
 **Returns:**
 double - de lengte van het quaternion
@@ -344,7 +344,7 @@ public int hashCode()
 ```
 
 
-Berekent de hashcode van de Quaternion
+Bepaalt de hashcode van de Quaternion.
 
 **Returns:**
 int - De hashcode van de [Quaternion](../../com.aspose.threed/quaternion)
@@ -354,14 +354,14 @@ public static Quaternion interpolate(float t, Quaternion from, Quaternion to)
 ```
 
 
-Vult deze quaternion met de geïnterpoleerde waarde tussen de gegeven quaternion-argumenten voor een t tussen van en tot.
+Vult deze quaternion met de geïnterpoleerde waarde tussen de gegeven quaternionargumenten voor een t tussen van en tot.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | t | float | De coëfficiënt om te interpoleren. |
-| from | [Quaternion](../../com.aspose.threed/quaternion) | Bron quaternion. |
-| to | [Quaternion](../../com.aspose.threed/quaternion) | Doel quaternion. |
+| from | [Quaternion](../../com.aspose.threed/quaternion) | Bron‑quaternion. |
+| to | [Quaternion](../../com.aspose.threed/quaternion) | Doel‑quaternion. |
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - The interpolated quaternion.
@@ -371,7 +371,7 @@ public Quaternion inverse()
 ```
 
 
-Retourneert een inverse quaternion van de huidige quaternion
+Retourneert een inverse quaternion van de huidige quaternion.
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Inverse quaternion.
@@ -402,7 +402,7 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | Het rotatiequaternion |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | De rotatie‑quaternion |
 | v | [Vector3](../../com.aspose.threed/vector3) | Vector om te roteren |
 
 **Returns:**
@@ -418,7 +418,7 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| q | [Quaternion](../../com.aspose.threed/quaternion) | Het rotatiequaternion |
+| q | [Quaternion](../../com.aspose.threed/quaternion) | De rotatie‑quaternion |
 | v | [Vector4](../../com.aspose.threed/vector4) | Vector om te roteren |
 
 **Returns:**
@@ -450,7 +450,7 @@ Operatoroverbelasting voor \*
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| v | [Vector3](../../com.aspose.threed/vector3) | Het rotatiequaternion |
+| v | [Vector3](../../com.aspose.threed/vector3) | De rotatie‑quaternion |
 | q | [Quaternion](../../com.aspose.threed/quaternion) | Vector om te roteren |
 
 **Returns:**
@@ -461,7 +461,7 @@ public Quaternion normalize()
 ```
 
 
-Normaliseer de quaternion
+Normaliseer de quaternion.
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - Normalized quaternion.
@@ -487,12 +487,12 @@ public static boolean op_eq(Quaternion lhs, Quaternion rhs)
 ```
 
 
-Gelijkheidsoperator voor quaternion
+Gelijkheidsoperator voor quaternion.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Linkerhandwaarde. |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Linkerkantwaarde. |
 | rhs | [Quaternion](../../com.aspose.threed/quaternion) | Rechterkantwaarde. |
 
 **Returns:**
@@ -503,23 +503,23 @@ public static boolean op_ne(Quaternion lhs, Quaternion rhs)
 ```
 
 
-Niet-gelijkheidsoperator voor quaternion
+Ongelijkheidsoperator voor quaternion.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Linkerhandwaarde. |
+| lhs | [Quaternion](../../com.aspose.threed/quaternion) | Linkerkantwaarde. |
 | rhs | [Quaternion](../../com.aspose.threed/quaternion) | Rechterkantwaarde. |
 
 **Returns:**
-boolean - Waar als twee quaternionen niet gelijk zijn.
+boolean - True als twee quaternionen niet gelijk zijn.
 ### slerp(double t, Quaternion v1, Quaternion v2) {#slerp-double-com.aspose.threed.Quaternion-com.aspose.threed.Quaternion-}
 ```
 public static Quaternion slerp(double t, Quaternion v1, Quaternion v2)
 ```
 
 
-Voer sferische lineaire interpolatie uit tussen twee waarden
+Voer sferische lineaire interpolatie uit tussen twee waarden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -536,7 +536,7 @@ public void toAngleAxis(double[] angle, Vector3 axis)
 ```
 
 
-Decomposeer de quaternion in hoek en as
+Decomposeer de quaternion in hoek en as.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -565,7 +565,7 @@ Converteer de door quaternion gepresenteerde rotatie naar een transformatiematri
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| translation | [Vector3](../../com.aspose.threed/vector3) | Het translatiedeel van de matrix. |
+| translation | [Vector3](../../com.aspose.threed/vector3) | Het translatiegedeelte van de matrix. |
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - The matrix representation of current quaternion.
@@ -575,10 +575,10 @@ public String toString()
 ```
 
 
-Berekent de weergave van de quaternion als string
+Bepaalt de representatie van de quaternion als string.
 
 **Returns:**
-java.lang.String - Objecttekenreeks
+java.lang.String - Objectstring
 ### wait() {#wait--}
 ```
 public final void wait()

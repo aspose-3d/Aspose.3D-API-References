@@ -1,6 +1,6 @@
 ---
 title: "LinearExtrusion"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Lineaire extrusie neemt een 2D-vorm als invoer en breidt de vorm uit in de derde dimensie."
 type: docs
 weight: 96
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class LinearExtrusion extends Entity implements IMeshConvertible
 ```
 
-Linear extrusion neemt een 2D-vorm als invoer en breidt de vorm uit in de derde dimensie. **Voorbeeld:** De volgende code laat zien hoe je LinearExtrusion gebruikt om een vorm tot een solide model te extruderen.
+Linear extrusion neemt een 2D-vorm als invoer en breidt de vorm uit in de derde dimensie. **Voorbeeld:** De volgende code laat zien hoe LinearExtrusion te gebruiken om een vorm tot een solide model te extruderen.
 
 ```
 //Create a new 3D scene
@@ -61,39 +61,39 @@ Linear extrusion neemt een 2D-vorm als invoer en breidt de vorm uit in de derde 
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
-| [getCenter()](#getCenter--) | Als deze waarde onwaar is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
+| [getCenter()](#getCenter--) | Als deze waarde false is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2. |
 | [getClass()](#getClass--) |  |
 | [getDirection()](#getDirection--) | De richting van de extrusie, standaardwaarde is (0, 0, 1) |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getHeight()](#getHeight--) | De hoogte van de geëxtrudeerde geometrie, standaardwaarde is 1.0 |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [getShape()](#getShape--) | De basisvorm die geëxtrudeerd moet worden. |
-| [getSlices()](#getSlices--) | De segmenten van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1. |
-| [getTwist()](#getTwist--) | Het aantal graden waardoor de vorm wordt geëxtrudeerd. |
-| [getTwistOffset()](#getTwistOffset--) | De offset die wordt gebruikt bij het draaien, standaardwaarde is (0, 0, 0). |
+| [getSlices()](#getSlices--) | De slices van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1. |
+| [getTwist()](#getTwist--) | Het aantal graden waarlangs de vorm wordt geëxtrudeerd. |
+| [getTwistOffset()](#getTwistOffset--) | De offset die wordt gebruikt bij draaien, standaardwaarde is (0, 0, 0). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setCenter(boolean value)](#setCenter-boolean-) | Als deze waarde onwaar is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2. |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setCenter(boolean value)](#setCenter-boolean-) | Als deze waarde false is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2. |
 | [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | De richting van de extrusie, standaardwaarde is (0, 0, 1) |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setHeight(double value)](#setHeight-double-) | De hoogte van de geëxtrudeerde geometrie, standaardwaarde is 1.0 |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [setShape(Profile value)](#setShape-com.aspose.threed.Profile-) | De basisvorm die geëxtrudeerd moet worden. |
-| [setSlices(int value)](#setSlices-int-) | De segmenten van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1. |
-| [setTwist(double value)](#setTwist-double-) | Het aantal graden waardoor de vorm wordt geëxtrudeerd. |
-| [setTwistOffset(Vector3 value)](#setTwistOffset-com.aspose.threed.Vector3-) | De offset die wordt gebruikt bij het draaien, standaardwaarde is (0, 0, 0). |
+| [setSlices(int value)](#setSlices-int-) | De slices van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1. |
+| [setTwist(double value)](#setTwist-double-) | Het aantal graden waarlangs de vorm wordt geëxtrudeerd. |
+| [setTwistOffset(Vector3 value)](#setTwistOffset-com.aspose.threed.Vector3-) | De offset die wordt gebruikt bij draaien, standaardwaarde is (0, 0, 0). |
 | [toMesh()](#toMesh--) | Converteer de extrusie naar een mesh. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -147,7 +147,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -157,7 +157,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -174,10 +174,10 @@ public boolean getCenter()
 ```
 
 
-Als deze waarde onwaar is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2.
+Als deze waarde false is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2.
 
 **Returns:**
-boolean - Als deze waarde onwaar is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2.
+boolean - Als deze waarde false is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -204,7 +204,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -214,10 +214,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -244,7 +244,7 @@ public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -254,7 +254,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -264,7 +264,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -274,12 +274,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -289,7 +289,7 @@ public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -309,27 +309,27 @@ public int getSlices()
 ```
 
 
-De segmenten van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1.
+De slices van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1.
 
 **Returns:**
-int - De segmenten van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1.
+int - De slices van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1.
 ### getTwist() {#getTwist--}
 ```
 public double getTwist()
 ```
 
 
-Het aantal graden waardoor de vorm wordt geëxtrudeerd.
+Het aantal graden waarlangs de vorm wordt geëxtrudeerd.
 
 **Returns:**
-double - Het aantal graden waardoor de vorm wordt geëxtrudeerd.
+double - Het aantal graden waarlangs de vorm wordt geëxtrudeerd.
 ### getTwistOffset() {#getTwistOffset--}
 ```
 public Vector3 getTwistOffset()
 ```
 
 
-De offset die wordt gebruikt bij het draaien, standaardwaarde is (0, 0, 0).
+De offset die wordt gebruikt bij draaien, standaardwaarde is (0, 0, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The offset that used in twisting, default value is (0, 0, 0).
@@ -380,7 +380,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -395,7 +395,7 @@ public void setCenter(boolean value)
 ```
 
 
-Als deze waarde onwaar is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2.
+Als deze waarde false is, is het Z-bereik van de lineaire extrusie van 0 tot hoogte, anders is het bereik van -hoogte/2 tot hoogte/2.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -421,7 +421,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -460,7 +460,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -473,12 +473,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setShape(Profile value) {#setShape-com.aspose.threed.Profile-}
@@ -500,7 +500,7 @@ public void setSlices(int value)
 ```
 
 
-De segmenten van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1.
+De slices van de gedraaide geëxtrudeerde geometrie, standaardwaarde is 1.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -513,7 +513,7 @@ public void setTwist(double value)
 ```
 
 
-Het aantal graden waardoor de vorm wordt geëxtrudeerd.
+Het aantal graden waarlangs de vorm wordt geëxtrudeerd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -526,7 +526,7 @@ public void setTwistOffset(Vector3 value)
 ```
 
 
-De offset die wordt gebruikt bij het draaien, standaardwaarde is (0, 0, 0).
+De offset die wordt gebruikt bij draaien, standaardwaarde is (0, 0, 0).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

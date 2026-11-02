@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.ClassType"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Klassedefinitie in metadata"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Klasse-definitie in metadata"
 type: docs
 weight: 10
 url: /nl/java/com.aspose.threed/structuralmetadata.classtype/
@@ -13,12 +13,12 @@ java.lang.Object
 public static class StructuralMetadata.ClassType
 ```
 
-Klassedefinitie in metadata
+Klasse-definitie in metadata
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [ClassType(String name, String displayName, String description, ArrayList<StructuralMetadata.Property> properties)](#ClassType-java.lang.String-java.lang.String-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.Property--) | Constructor van de klassedefinitie |
+| [ClassType(String name, String displayName, String description, ArrayList<StructuralMetadata.Property> properties)](#ClassType-java.lang.String-java.lang.String-java.lang.String-java.util.ArrayList-com.aspose.threed.StructuralMetadata.Property--) | Constructor van de klasse-definitie |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -43,7 +43,7 @@ Klassedefinitie in metadata
 | [notifyAll()](#notifyAll--) |  |
 | [setDescription(String value)](#setDescription-java.lang.String-) | De beschrijving van de klasse |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | De naam van de klasse, gebruikt door de UI voor weergave |
-| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van dit exemplaar op. |
+| [toString()](#toString--) | Haalt de tekenreeksrepresentatie van deze instantie op. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -53,7 +53,7 @@ public ClassType(String name, String displayName, String description, ArrayList<
 ```
 
 
-Constructor van de klassedefinitie
+Constructor van de klasse-definitie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -122,8 +122,8 @@ Voeg een nieuwe eigenschap toe met opgegeven type
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| naam | java.lang.String | Naam van de eigenschap |
-| type | java.lang.Class<?> | Datatype van de eigenschap |
+| naam | java.lang.String | Naam van eigenschap |
+| type | java.lang.Class<?> | Gegevenstype van eigenschap |
 
 **Returns:**
 [Property](../../com.aspose.threed/property)
@@ -346,7 +346,7 @@ public String toString()
 ```
 
 
-Haalt de tekenreeksrepresentatie van dit exemplaar op.
+Haalt de tekenreeksrepresentatie van deze instantie op.
 
 **Returns:**
 java.lang.String

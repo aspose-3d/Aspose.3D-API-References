@@ -1,7 +1,7 @@
 ---
 title: "Int2D"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Gemaakt door lexchou op 17-5-2017."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Gemaakt door lexchou op 5/17/2017."
 type: docs
 weight: 86
 url: /nl/java/com.aspose.threed/int2d/
@@ -13,13 +13,13 @@ java.lang.Object
 public final class Int2D
 ```
 
-Gemaakt door lexchou op 5/17/2017. 2-dimensionale int-array wrapper
+Gemaakt door lexchou op 17-5-2017. 2-dimensionale int-array wrapper
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
 | [Int2D(int rows, int columns)](#Int2D-int-int-) | Construeer een 2D int-array met standaard gegevensallocatie. |
-| [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | Construeer een 2D int-array met opgegeven gegevens |
+| [Int2D(int rows, int columns, int[] data)](#Int2D-int-int-int---) | Construeer een 2D int-array met gegeven gegevens |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -59,7 +59,7 @@ public Int2D(int rows, int columns, int[] data)
 ```
 
 
-Construeer een 2D int-array met opgegeven gegevens
+Construeer een 2D int-array met gegeven gegevens
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

@@ -1,7 +1,7 @@
 ---
 title: "FbxLoadOptions"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Laadopties voor het Fbx-formaat."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Laadopties voor Fbx-formaat."
 type: docs
 weight: 62
 url: /nl/java/com.aspose.threed/fbxloadoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class FbxLoadOptions extends LoadOptions
 ```
 
-Laadopties voor het Fbx-formaat.
+Laadopties voor Fbx-formaat.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -28,12 +28,12 @@ Laadopties voor het Fbx-formaat.
 | [getClass()](#getClass--) |  |
 | [getCompatibleMode()](#getCompatibleMode--) | Geeft aan of compatibele modus moet worden ingeschakeld. |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getKeepBuiltinGlobalSettings()](#getKeepBuiltinGlobalSettings--) | Geeft aan of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapsvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) moeten worden behouden. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getKeepBuiltinGlobalSettings()](#getKeepBuiltinGlobalSettings--) | Geeft aan of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) behouden moeten blijven. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -41,9 +41,9 @@ Laadopties voor het Fbx-formaat.
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
-| [setKeepBuiltinGlobalSettings(boolean value)](#setKeepBuiltinGlobalSettings-boolean-) | Stelt in of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapsvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) moeten worden behouden. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
+| [setKeepBuiltinGlobalSettings(boolean value)](#setKeepBuiltinGlobalSettings-boolean-) | Stelt in of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) behouden moeten blijven. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ Constructor van [FbxLoadOptions](../../com.aspose.threed/fbxloadoptions)
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| format | [FileFormat](../../com.aspose.threed/fileformat) | Instantie van [getFileFormat](../../com.aspose.threed/fbxloadoptions\#getFileFormat), dit moet een geldig FBX-formaat zijn. |
+| format | [FileFormat](../../com.aspose.threed/fileformat) | Instantie van [getFileFormat](../../com.aspose.threed/fbxloadoptions\#getFileFormat), het moet een geldig FBX-formaat zijn. |
 
 ### FbxLoadOptions() {#FbxLoadOptions--}
 ```
@@ -100,10 +100,10 @@ public boolean getCompatibleMode()
 ```
 
 
-Geeft aan of compatibele modus moet worden ingeschakeld. Compatibele modus probeert niet-standaard FBX-definities te ondersteunen, zoals PBR-materialen geëxporteerd door Blender. Standaardwaarde is false.
+Geeft aan of compatibele modus moet worden ingeschakeld. Compatibele modus probeert niet-standaard FBX-definities, zoals PBR-materialen geëxporteerd door Blender, te ondersteunen. Standaardwaarde is false.
 
 **Returns:**
-boolean - of compatibele modus moet worden ingeschakeld. Compatibele modus probeert niet-standaard FBX-definities te ondersteunen, zoals PBR-materialen geëxporteerd door Blender. Standaardwaarde is false.
+boolean - of compatibele modus moet worden ingeschakeld. Compatibele modus probeert niet-standaard FBX-definities, zoals PBR-materialen geëxporteerd door Blender, te ondersteunen. Standaardwaarde is false.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -120,7 +120,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -130,10 +130,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -174,7 +174,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -203,20 +203,20 @@ public boolean getKeepBuiltinGlobalSettings()
 ```
 
 
-Geeft aan of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapsvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) moeten worden behouden. Stel dit in op true als je de volledige eigenschappen in GlobalSettings wilt. Standaardwaarde is false
+Geeft aan of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) behouden moeten blijven. Stel dit in op true als je de volledige eigenschappen in GlobalSettings wilt. Standaardwaarde is false
 
 **Returns:**
-boolean - of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapsvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) moeten worden behouden. Stel dit in op true als je de volledige eigenschappen in GlobalSettings wilt. Standaardwaarde is false
+boolean - of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) behouden moeten blijven. Stel dit in op true als je de volledige eigenschappen in GlobalSettings wilt. Standaardwaarde is false
 ### getLookupPaths() {#getLookupPaths--}
 ```
 public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -257,7 +257,7 @@ public void setCompatibleMode(boolean value)
 ```
 
 
-Stelt in of compatibele modus moet worden ingeschakeld. Compatibele modus probeert niet-standaard FBX-definities te ondersteunen, zoals PBR-materialen geëxporteerd door Blender. Standaardwaarde is false.
+Stelt in of compatibele modus moet worden ingeschakeld. Compatibele modus probeert niet-standaard FBX-definities, zoals PBR-materialen geëxporteerd door Blender, te ondersteunen. Standaardwaarde is false.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -283,7 +283,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -301,7 +301,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -333,7 +333,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -365,7 +365,7 @@ public void setKeepBuiltinGlobalSettings(boolean value)
 ```
 
 
-Stelt in of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapsvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) moeten worden behouden. Stel dit in op true als je de volledige eigenschappen in GlobalSettings wilt. Standaardwaarde is false
+Stelt in of de ingebouwde eigenschappen in GlobalSettings die een native eigenschapvervanging hebben in [AssetInfo](../../com.aspose.threed/assetinfo) behouden moeten blijven. Stel dit in op true als je de volledige eigenschappen in GlobalSettings wilt. Standaardwaarde is false
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -378,12 +378,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();

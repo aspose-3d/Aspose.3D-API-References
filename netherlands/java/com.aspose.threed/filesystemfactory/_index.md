@@ -1,7 +1,7 @@
 ---
 title: "FileSystemFactory"
-second_title: "Aspose.3D for Java API-referentie"
-description: "en zal een com.aspose.threed.LocalFileSystem maken als standaard."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "en  zal een com.aspose.threed.LocalFileSystem maken als standaard."
 type: docs
 weight: 238
 url: /nl/java/com.aspose.threed/filesystemfactory/

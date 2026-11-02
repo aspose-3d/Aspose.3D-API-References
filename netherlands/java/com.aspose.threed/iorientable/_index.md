@@ -1,6 +1,6 @@
 ---
 title: "IOrientable"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Oriënteerbare entiteiten moeten deze interface implementeren."
 type: docs
 weight: 246

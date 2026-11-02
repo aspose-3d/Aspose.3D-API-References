@@ -1,6 +1,6 @@
 ---
 title: "ReferenceMode"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "definieert hoe mappinginformatie wordt opgeslagen en waarnaar wordt verwezen."
 type: docs
 weight: 296
@@ -18,9 +18,9 @@ public enum ReferenceMode extends Enum<ReferenceMode>
 
 | Veld | Beschrijving |
 | --- | --- |
-| [DIRECT](#DIRECT) | Data wordt direct gerefereerd |
-| [INDEX](#INDEX) | Data wordt gerefereerd via index |
-| [INDEX_TO_DIRECT](#INDEX-TO-DIRECT) | Data wordt gerefereerd via index, en vervolgens via index benaderd in de gegevenslijst van [VertexElement](../../com.aspose.threed/vertexelement). |
+| [DIRECT](#DIRECT) | Gegevens worden direct gerefereerd |
+| [INDEX](#INDEX) | Gegevens worden gerefereerd via index |
+| [INDEX_TO_DIRECT](#INDEX-TO-DIRECT) | Gegevens worden gerefereerd via index, vervolgens benaderd via index in de gegevenslijst van [VertexElement](../../com.aspose.threed/vertexelement). |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -48,7 +48,7 @@ public static final ReferenceMode DIRECT
 ```
 
 
-Data wordt direct gerefereerd
+Gegevens worden direct gerefereerd
 
 ### INDEX {#INDEX}
 ```
@@ -56,7 +56,7 @@ public static final ReferenceMode INDEX
 ```
 
 
-Data wordt gerefereerd via index
+Gegevens worden gerefereerd via index
 
 ### INDEX_TO_DIRECT {#INDEX-TO-DIRECT}
 ```
@@ -64,7 +64,7 @@ public static final ReferenceMode INDEX_TO_DIRECT
 ```
 
 
-Data wordt gerefereerd via index, en vervolgens via index benaderd in de gegevenslijst van [VertexElement](../../com.aspose.threed/vertexelement).
+Gegevens worden gerefereerd via index, vervolgens benaderd via index in de gegevenslijst van [VertexElement](../../com.aspose.threed/vertexelement).
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

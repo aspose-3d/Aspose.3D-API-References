@@ -1,7 +1,7 @@
 ---
 title: "VertexField"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Beschrijving van de geheugenindeling van het Vertexs field."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Beschrijving van de geheugenindeling van het Vertexs-veld."
 type: docs
 weight: 227
 url: /nl/java/com.aspose.threed/vertexfield/

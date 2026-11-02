@@ -1,7 +1,7 @@
 ---
 title: "GltfSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Opslagopties voor het glTF-formaat."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Opslagopties voor glTF-formaat."
 type: docs
 weight: 74
 url: /nl/java/com.aspose.threed/gltfsaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.IOConfig](../../com.aspose.threed/ioconfig)
 public class GltfSaveOptions extends SaveOptions
 ```
 
-Opslagopties voor het glTF-formaat.
+Opslagopties voor glTF-formaat.
 ## Constructors
 
 | Constructor | Beschrijving |
@@ -28,44 +28,44 @@ Opslagopties voor het glTF-formaat.
 | [getApplyUnitScale()](#getApplyUnitScale--) | Pas [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) toe op de mesh. |
 | [getBufferFile()](#getBufferFile--) | De bestandsnaam van het externe bufferbestand dat wordt gebruikt om binaire gegevens op te slaan. |
 | [getClass()](#getClass--) |  |
-| [getDracoCompression()](#getDracoCompression--) | Geeft of draco-compressie ingeschakeld moet worden. |
-| [getEmbedAssets()](#getEmbedAssets--) | Alle externe assets als base64 in één bestand insluiten in ASCII-modus, standaardwaarde is false. |
+| [getDracoCompression()](#getDracoCompression--) | Geeft aan of draco-compressie moet worden ingeschakeld |
+| [getEmbedAssets()](#getEmbedAssets--) | Alle externe assets als base64 insluiten in één bestand in ASCII-modus, standaardwaarde is false. |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getExternalDracoEncoder()](#getExternalDracoEncoder--) | Gebruik een externe draco-encoder om de compressiesnelheid van draco te versnellen. |
-| [getFallbackNormal()](#getFallbackNormal--) | Wanneer de GLTF2-exporteur een ongeldige normaal heeft gedetecteerd, wordt dit gebruikt in plaats van de oorspronkelijke waarde om de validatie te omzeilen. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getExternalDracoEncoder()](#getExternalDracoEncoder--) | Gebruik een externe draco-encoder om de draco-compressiesnelheid te versnellen. |
+| [getFallbackNormal()](#getFallbackNormal--) | Wanneer de GLTF2-exporteur een ongeldige normaal detecteert, wordt dit in plaats van de oorspronkelijke waarde gebruikt om de validatie te omzeilen. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getFlipTexCoordV()](#getFlipTexCoordV--) | Draai de textuurcoördinaat v(t)-component om, standaardwaarde is true. |
-| [getImageFormat()](#getImageFormat--) | Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat; deze optie geeft aan hoe Aspose.3D niet‑standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [getMaterialConverter()](#getMaterialConverter--) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR‑materiaal. Als dit niet is toegewezen, zal de glTF 2.0‑exporteur automatisch het standaardmateriaal converteren naar PBR‑materiaal. |
-| [getPrettyPrint()](#getPrettyPrint--) | De JSON‑inhoud van het GLTF‑bestand is ingesprongen voor menselijke leesbaarheid, standaardwaarde is false. |
-| [getSaveExtras()](#getSaveExtras--) | Sla de dynamische eigenschappen van het scène‑object op in 'extra'-velden in het gegenereerde glTF‑bestand. |
-| [getUseCommonMaterials()](#getUseCommonMaterials--) | Serialiseer materialen met behulp van KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getFlipTexCoordV()](#getFlipTexCoordV--) | Keer de textuurcoördinaat v(t)-component om, standaardwaarde is true. |
+| [getImageFormat()](#getImageFormat--) | Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat, deze optie geeft aan hoe Aspose.3D niet-standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [getMaterialConverter()](#getMaterialConverter--) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR-materiaal. Als dit niet is toegewezen, zal de glTF 2.0-exporteur automatisch het standaardmateriaal converteren naar PBR-materiaal. |
+| [getPrettyPrint()](#getPrettyPrint--) | De JSON-inhoud van het GLTF‑bestand is ingesprongen voor menselijk lezen, standaardwaarde is false. |
+| [getSaveExtras()](#getSaveExtras--) | Sla de dynamische eigenschappen van het scène‑object op in 'extra' velden in het gegenereerde glTF‑bestand. |
+| [getUseCommonMaterials()](#getUseCommonMaterials--) | Serialiseer materialen met KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setApplyUnitScale(boolean value)](#setApplyUnitScale-boolean-) | Pas [AssetInfo.getUnitScaleFactor](../../com.aspose.threed/assetinfo\#getUnitScaleFactor) toe op de mesh. |
 | [setBufferFile(String value)](#setBufferFile-java.lang.String-) | De bestandsnaam van het externe bufferbestand dat wordt gebruikt om binaire gegevens op te slaan. |
-| [setDracoCompression(boolean value)](#setDracoCompression-boolean-) | Stelt in of draco‑compressie moet worden ingeschakeld. |
-| [setEmbedAssets(boolean value)](#setEmbedAssets-boolean-) | Alle externe assets als base64 in één bestand insluiten in ASCII-modus, standaardwaarde is false. |
+| [setDracoCompression(boolean value)](#setDracoCompression-boolean-) | Stelt in of draco-compressie moet worden ingeschakeld. |
+| [setEmbedAssets(boolean value)](#setEmbedAssets-boolean-) | Alle externe assets als base64 insluiten in één bestand in ASCII-modus, standaardwaarde is false. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [setExternalDracoEncoder(String value)](#setExternalDracoEncoder-java.lang.String-) | Gebruik een externe draco-encoder om de compressiesnelheid van draco te versnellen. |
-| [setFallbackNormal(Vector3 value)](#setFallbackNormal-com.aspose.threed.Vector3-) | Wanneer de GLTF2-exporteur een ongeldige normaal heeft gedetecteerd, wordt dit gebruikt in plaats van de oorspronkelijke waarde om de validatie te omzeilen. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExternalDracoEncoder(String value)](#setExternalDracoEncoder-java.lang.String-) | Gebruik een externe draco-encoder om de draco-compressiesnelheid te versnellen. |
+| [setFallbackNormal(Vector3 value)](#setFallbackNormal-com.aspose.threed.Vector3-) | Wanneer de GLTF2-exporteur een ongeldige normaal detecteert, wordt dit in plaats van de oorspronkelijke waarde gebruikt om de validatie te omzeilen. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
-| [setFlipTexCoordV(boolean value)](#setFlipTexCoordV-boolean-) | Draai de textuurcoördinaat v(t)-component om, standaardwaarde is true. |
-| [setImageFormat(GltfEmbeddedImageFormat value)](#setImageFormat-com.aspose.threed.GltfEmbeddedImageFormat-) | Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat; deze optie geeft aan hoe Aspose.3D niet‑standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR‑materiaal. Als dit niet is toegewezen, zal de glTF 2.0‑exporteur automatisch het standaardmateriaal converteren naar PBR‑materiaal. |
-| [setPrettyPrint(boolean value)](#setPrettyPrint-boolean-) | De JSON‑inhoud van het GLTF‑bestand is ingesprongen voor menselijke leesbaarheid, standaardwaarde is false. |
-| [setSaveExtras(boolean value)](#setSaveExtras-boolean-) | Sla de dynamische eigenschappen van het scène‑object op in 'extra'-velden in het gegenereerde glTF‑bestand. |
-| [setUseCommonMaterials(boolean value)](#setUseCommonMaterials-boolean-) | Serialiseer materialen met behulp van KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
+| [setFlipTexCoordV(boolean value)](#setFlipTexCoordV-boolean-) | Keer de textuurcoördinaat v(t)-component om, standaardwaarde is true. |
+| [setImageFormat(GltfEmbeddedImageFormat value)](#setImageFormat-com.aspose.threed.GltfEmbeddedImageFormat-) | Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat, deze optie geeft aan hoe Aspose.3D niet-standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [setMaterialConverter(MaterialConverter value)](#setMaterialConverter-com.aspose.threed.MaterialConverter-) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR-materiaal. Als dit niet is toegewezen, zal de glTF 2.0-exporteur automatisch het standaardmateriaal converteren naar PBR-materiaal. |
+| [setPrettyPrint(boolean value)](#setPrettyPrint-boolean-) | De JSON-inhoud van het GLTF‑bestand is ingesprongen voor menselijk lezen, standaardwaarde is false. |
+| [setSaveExtras(boolean value)](#setSaveExtras-boolean-) | Sla de dynamische eigenschappen van het scène‑object op in 'extra' velden in het gegenereerde glTF‑bestand. |
+| [setUseCommonMaterials(boolean value)](#setUseCommonMaterials-boolean-) | Serialiseer materialen met KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -147,20 +147,20 @@ public boolean getDracoCompression()
 ```
 
 
-Geeft of draco-compressie ingeschakeld moet worden.
+Geeft aan of draco-compressie moet worden ingeschakeld
 
 **Returns:**
-boolean - of draco‑compressie moet worden ingeschakeld
+boolean - of draco-compressie moet worden ingeschakeld
 ### getEmbedAssets() {#getEmbedAssets--}
 ```
 public boolean getEmbedAssets()
 ```
 
 
-Alle externe assets als base64 in één bestand insluiten in ASCII-modus, standaardwaarde is false.
+Alle externe assets als base64 insluiten in één bestand in ASCII-modus, standaardwaarde is false.
 
 **Returns:**
-boolean - Alle externe assets als base64 in één bestand embedden in ASCII‑modus, standaardwaarde is false.
+boolean - Alle externe assets als base64 in één bestand insluiten in ASCII‑modus, standaardwaarde is false.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -177,7 +177,7 @@ public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -187,17 +187,17 @@ public String getExternalDracoEncoder()
 ```
 
 
-Gebruik een externe draco-encoder om de compressiesnelheid van draco te versnellen.
+Gebruik een externe draco-encoder om de draco-compressiesnelheid te versnellen.
 
 **Returns:**
-java.lang.String - Gebruik een externe draco‑encoder om de draco‑compressiesnelheid te versnellen. **Remarks:** Aspose.3D zal een nieuw subprocess maken om het mesh te coderen naar het draco‑formaat, gebruik op eigen risico.
+java.lang.String - Gebruik een externe draco‑encoder om de draco‑compressiesnelheid te versnellen. **Remarks:** Aspose.3D zal een nieuw subproces maken om het mesh te coderen naar het draco‑formaat, gebruik op eigen risico.
 ### getFallbackNormal() {#getFallbackNormal--}
 ```
 public Vector3 getFallbackNormal()
 ```
 
 
-Wanneer de GLTF2‑exporteur een ongeldige normaal detecteert, wordt dit gebruikt in plaats van de oorspronkelijke waarde om de validatie te omzeilen. Standaardwaarde is (0, 1, 0).
+Wanneer de GLTF2-exporteur een ongeldige normaal detecteert, wordt dit gebruikt in plaats van de oorspronkelijke waarde om de validatie te omzeilen. Standaardwaarde is (0, 1, 0).
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - When GLTF2 exporter detected an invalid normal, this will be used instead of its original value to bypass the validation. Default value is (0, 1, 0)
@@ -207,7 +207,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -217,10 +217,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -261,7 +261,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -290,7 +290,7 @@ public boolean getFlipTexCoordV()
 ```
 
 
-Draai de textuurcoördinaat v(t)-component om, standaardwaarde is true.
+Keer de textuurcoördinaat v(t)-component om, standaardwaarde is true.
 
 **Returns:**
 boolean - Draai de textuurcoördinaat v(t)-component om, standaardwaarde is true.
@@ -300,7 +300,7 @@ public GltfEmbeddedImageFormat getImageFormat()
 ```
 
 
-Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat; deze optie geeft aan hoe Aspose.3D niet‑standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. Standaardwaarde is [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
+Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat, deze optie geeft aan hoe Aspose.3D niet-standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. Standaardwaarde is [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
 
 **Returns:**
 [GltfEmbeddedImageFormat](../../com.aspose.threed/gltfembeddedimageformat) - Standard glTF only supports PNG/JPG as its texture format, this option will guide how Aspose.3D convert the non-standard images to supported format during the exporting. Default value is [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
@@ -310,10 +310,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -328,7 +328,7 @@ public MaterialConverter getMaterialConverter()
 ```
 
 
-Aangepaste converter om het materiaal van de geometrie te converteren naar PBR‑materiaal. Als dit niet is toegewezen, zal de glTF 2.0‑exporteur automatisch het standaardmateriaal converteren naar PBR‑materiaal. Standaardwaarde is null. Deze eigenschap wordt gebruikt bij het exporteren van een scène naar een glTF 2.0‑bestand.
+Aangepaste converter om het materiaal van de geometrie te converteren naar PBR-materiaal. Als dit niet is toegewezen, zal de glTF 2.0-exporteur automatisch het standaardmateriaal converteren naar PBR-materiaal. Standaardwaarde is null. Deze eigenschap wordt gebruikt bij het exporteren van een scène naar een glTF 2.0‑bestand.
 
 **Returns:**
 [MaterialConverter](../../com.aspose.threed/materialconverter) - Custom converter to convert the geometry's material to PBR material If this is unassigned, glTF 2.0 exporter will automatically convert the standard material to PBR material. Default value is null This property is used when exporting a scene to a glTF 2.0 file.
@@ -338,30 +338,30 @@ public boolean getPrettyPrint()
 ```
 
 
-De JSON‑inhoud van het GLTF‑bestand is ingesprongen voor menselijke leesbaarheid, standaardwaarde is false.
+De JSON-inhoud van het GLTF‑bestand is ingesprongen voor menselijk lezen, standaardwaarde is false.
 
 **Returns:**
-boolean - De JSON‑inhoud van het GLTF‑bestand is ingesprongen voor menselijke leesbaarheid, standaardwaarde is false
+boolean - De JSON-inhoud van het GLTF‑bestand is ingesprongen voor menselijk lezen, standaardwaarde is false.
 ### getSaveExtras() {#getSaveExtras--}
 ```
 public boolean getSaveExtras()
 ```
 
 
-Sla de dynamische eigenschappen van het scène‑object op in 'extra'-velden in het gegenereerde glTF‑bestand. Dit is nuttig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false.
+Sla de dynamische eigenschappen van het scène‑object op in 'extra' velden in het gegenereerde glTF‑bestand. Dit is nuttig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false.
 
 **Returns:**
-boolean - Sla de dynamische eigenschappen van het scène‑object op in 'extra'-velden in het gegenereerde glTF‑bestand. Dit is nuttig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false.
+boolean - Sla de dynamische eigenschappen van het scène‑object op in 'extra' velden in het gegenereerde glTF‑bestand. Dit is nuttig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false.
 ### getUseCommonMaterials() {#getUseCommonMaterials--}
 ```
 public boolean getUseCommonMaterials()
 ```
 
 
-Serialiseer materialen met behulp van KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. Als dit op false wordt gezet, zal Aspose.3D een set vertex-/fragment‑shaders exporteren als [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
+Serialiseer materialen met KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. Als dit op false wordt gezet, zal Aspose.3D een set vertex/fragment‑shaders exporteren als [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders).
 
 **Returns:**
-boolean - Serialiseer materialen met behulp van KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. Als dit op false wordt gezet, zal Aspose.3D een set vertex-/fragment‑shaders exporteren als [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) **Remarks:** Deze eigenschap werkt alleen voor glTF 1.0
+boolean - Serialiseer materialen met KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. Als dit op false wordt gezet, zal Aspose.3D een set vertex/fragment‑shaders exporteren als [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders) **Remarks:** Deze eigenschap werkt alleen voor glTF 1.0
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -420,7 +420,7 @@ public void setDracoCompression(boolean value)
 ```
 
 
-Stelt in of draco‑compressie moet worden ingeschakeld.
+Stelt in of draco-compressie moet worden ingeschakeld.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -433,7 +433,7 @@ public void setEmbedAssets(boolean value)
 ```
 
 
-Alle externe assets als base64 in één bestand insluiten in ASCII-modus, standaardwaarde is false.
+Alle externe assets als base64 insluiten in één bestand in ASCII-modus, standaardwaarde is false.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -459,7 +459,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -472,12 +472,12 @@ public void setExternalDracoEncoder(String value)
 ```
 
 
-Gebruik een externe draco-encoder om de compressiesnelheid van draco te versnellen.
+Gebruik een externe draco-encoder om de draco-compressiesnelheid te versnellen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| waarde | java.lang.String | Nieuwe waarde **Remarks:** Aspose.3D zal een nieuw subprocess maken om het mesh te coderen naar het draco‑formaat, gebruik op eigen risico. |
+| waarde | java.lang.String | Nieuwe waarde **Remarks:** Aspose.3D zal een nieuw subproces maken om het mesh te coderen naar het draco‑formaat, gebruik op eigen risico. |
 
 ### setFallbackNormal(Vector3 value) {#setFallbackNormal-com.aspose.threed.Vector3-}
 ```
@@ -485,7 +485,7 @@ public void setFallbackNormal(Vector3 value)
 ```
 
 
-Wanneer de GLTF2‑exporteur een ongeldige normaal detecteert, wordt dit gebruikt in plaats van de oorspronkelijke waarde om de validatie te omzeilen. Standaardwaarde is (0, 1, 0).
+Wanneer de GLTF2-exporteur een ongeldige normaal detecteert, wordt dit gebruikt in plaats van de oorspronkelijke waarde om de validatie te omzeilen. Standaardwaarde is (0, 1, 0).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -498,7 +498,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -516,7 +516,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -548,7 +548,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -580,7 +580,7 @@ public void setFlipTexCoordV(boolean value)
 ```
 
 
-Draai de textuurcoördinaat v(t)-component om, standaardwaarde is true.
+Keer de textuurcoördinaat v(t)-component om, standaardwaarde is true.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -593,7 +593,7 @@ public void setImageFormat(GltfEmbeddedImageFormat value)
 ```
 
 
-Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat; deze optie geeft aan hoe Aspose.3D niet‑standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. Standaardwaarde is [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
+Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat, deze optie geeft aan hoe Aspose.3D niet-standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. Standaardwaarde is [GltfEmbeddedImageFormat.PNG](../../com.aspose.threed/gltfembeddedimageformat\#PNG)
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -606,12 +606,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();
@@ -627,7 +627,7 @@ public void setMaterialConverter(MaterialConverter value)
 ```
 
 
-Aangepaste converter om het materiaal van de geometrie te converteren naar PBR‑materiaal. Als dit niet is toegewezen, zal de glTF 2.0‑exporteur automatisch het standaardmateriaal converteren naar PBR‑materiaal. Standaardwaarde is null. Deze eigenschap wordt gebruikt bij het exporteren van een scène naar een glTF 2.0‑bestand.
+Aangepaste converter om het materiaal van de geometrie te converteren naar PBR-materiaal. Als dit niet is toegewezen, zal de glTF 2.0-exporteur automatisch het standaardmateriaal converteren naar PBR-materiaal. Standaardwaarde is null. Deze eigenschap wordt gebruikt bij het exporteren van een scène naar een glTF 2.0‑bestand.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -640,7 +640,7 @@ public void setPrettyPrint(boolean value)
 ```
 
 
-De JSON‑inhoud van het GLTF‑bestand is ingesprongen voor menselijke leesbaarheid, standaardwaarde is false.
+De JSON-inhoud van het GLTF‑bestand is ingesprongen voor menselijk lezen, standaardwaarde is false.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -653,7 +653,7 @@ public void setSaveExtras(boolean value)
 ```
 
 
-Sla de dynamische eigenschappen van het scène‑object op in 'extra'-velden in het gegenereerde glTF‑bestand. Dit is nuttig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false.
+Sla de dynamische eigenschappen van het scène‑object op in 'extra' velden in het gegenereerde glTF‑bestand. Dit is nuttig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -666,7 +666,7 @@ public void setUseCommonMaterials(boolean value)
 ```
 
 
-Serialiseer materialen met behulp van KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. Als dit op false wordt gezet, zal Aspose.3D een set vertex-/fragment‑shaders exporteren als [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders)
+Serialiseer materialen met KHR‑gemeenschappelijke materiaalextensies, standaardwaarde is false. Als dit op false wordt gezet, zal Aspose.3D een set vertex/fragment‑shaders exporteren als [getExportShaders](../../com.aspose.threed/gltfsaveoptions\#getExportShaders).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

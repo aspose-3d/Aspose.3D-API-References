@@ -1,6 +1,6 @@
 ---
 title: "NurbsDirection"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Een 3D  heeft twee richtingen, de  en  de  definieert gegevens voor elke richting."
 type: docs
 weight: 113
@@ -18,7 +18,7 @@ Een 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) heeft twee richtinge
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [NurbsDirection()](#NurbsDirection--) | Maak een nieuw exemplaar van [NurbsDirection](../../com.aspose.threed/nurbsdirection) |
+| [NurbsDirection()](#NurbsDirection--) | Construeer een nieuw exemplaar van [NurbsDirection](../../com.aspose.threed/nurbsdirection) |
 ## Methoden
 
 | Methode | Beschrijving |
@@ -30,7 +30,7 @@ Een 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) heeft twee richtinge
 | [getDivisions()](#getDivisions--) | Haalt het aantal delingen tussen aangrenzende controlepunten op in de huidige richting. |
 | [getKnotVectors()](#getKnotVectors--) | Haalt de knoopvector op, dit is een reeks parameterwaarden die bepalen waar en hoe de controlepunten de NURBS-curve beïnvloeden. |
 | [getMultiplicity()](#getMultiplicity--) | Haalt de multipliciteit op. |
-| [getOrder()](#getOrder--) | Haalt de orde van een NURBS-curve op, dit definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden. |
+| [getOrder()](#getOrder--) | Haalt de orde van een NURBS-curve op, deze definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden. |
 | [getType()](#getType--) | Haalt het type van de huidige richting op. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -38,7 +38,7 @@ Een 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) heeft twee richtinge
 | [setCount(int value)](#setCount-int-) | Stelt het aantal controlepunten in de huidige richting in. |
 | [setDegree(int value)](#setDegree-int-) | Stelt de graad van een NURBS-curve in, de graad wordt gedefinieerd als Order - 1 |
 | [setDivisions(int value)](#setDivisions-int-) | Stelt het aantal delingen tussen aangrenzende controlepunten in de huidige richting in. |
-| [setOrder(int value)](#setOrder-int-) | Stelt de orde van een NURBS-curve in, dit definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden. |
+| [setOrder(int value)](#setOrder-int-) | Stelt de orde van een NURBS-curve in, deze definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden. |
 | [setType(NurbsType value)](#setType-com.aspose.threed.NurbsType-) | Stelt het type van de huidige richting in. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -50,7 +50,7 @@ public NurbsDirection()
 ```
 
 
-Maak een nieuw exemplaar van [NurbsDirection](../../com.aspose.threed/nurbsdirection)
+Construeer een nieuw exemplaar van [NurbsDirection](../../com.aspose.threed/nurbsdirection)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -133,10 +133,10 @@ public int getOrder()
 ```
 
 
-Haalt de orde van een NURBS-curve op, dit definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden.
+Haalt de orde van een NURBS-curve op, deze definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden.
 
 **Returns:**
-int - de orde van een NURBS-curve, deze definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden.
+int - de orde van een NURBS-curve, het definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden.
 ### getType() {#getType--}
 ```
 public NurbsType getType()
@@ -218,7 +218,7 @@ public void setOrder(int value)
 ```
 
 
-Stelt de orde van een NURBS-curve in, dit definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden.
+Stelt de orde van een NURBS-curve in, deze definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

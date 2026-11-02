@@ -1,6 +1,6 @@
 ---
 title: "U3dSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Opslagopties voor universele 3D"
 type: docs
 weight: 198
@@ -27,34 +27,34 @@ Opslagopties voor universele 3D
 | [getClass()](#getClass--) |  |
 | [getEmbedTextures()](#getEmbedTextures--) | Integreer de externe textures in het U3D-bestand, standaardwaarde is false. |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportNormals()](#getExportNormals--) | Geeft aan of normale gegevens geëxporteerd moeten worden. |
-| [getExportTextureCoordinates()](#getExportTextureCoordinates--) | Geeft aan of textuurcoördinaten geëxporteerd moeten worden. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getExportVertexDiffuse()](#getExportVertexDiffuse--) | Geeft aan of de diffuse kleur van de vertex geëxporteerd moet worden. |
-| [getExportVertexSpecular()](#getExportVertexSpecular--) | Geeft aan of de speculaire kleur van de vertex geëxporteerd moet worden. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportNormals()](#getExportNormals--) | Geeft aan of normale data moet worden geëxporteerd. |
+| [getExportTextureCoordinates()](#getExportTextureCoordinates--) | Geeft aan of texturecoördinaten moeten worden geëxporteerd. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getExportVertexDiffuse()](#getExportVertexDiffuse--) | Geeft aan of de diffuse kleur van de vertex moet worden geëxporteerd. |
+| [getExportVertexSpecular()](#getExportVertexSpecular--) | Geeft aan of de speculaire kleur van de vertex moet worden geëxporteerd. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Geeft aan of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [getMeshCompression()](#getMeshCompression--) | Geeft aan of mesh-gegevenscompressie ingeschakeld moet worden. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Haalt op of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [getMeshCompression()](#getMeshCompression--) | Geeft aan of mesh-gegevenscompressie moet worden ingeschakeld. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | Integreer de externe textures in het U3D-bestand, standaardwaarde is false. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
-| [setExportNormals(boolean value)](#setExportNormals-boolean-) | Stelt in of normale gegevens geëxporteerd moeten worden. |
-| [setExportTextureCoordinates(boolean value)](#setExportTextureCoordinates-boolean-) | Stelt in of textuurcoördinaten geëxporteerd moeten worden. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [setExportVertexDiffuse(boolean value)](#setExportVertexDiffuse-boolean-) | Stelt in of de diffuse kleur van de vertex geëxporteerd moet worden. |
-| [setExportVertexSpecular(boolean value)](#setExportVertexSpecular-boolean-) | Stelt in of de speculaire kleur van de vertex geëxporteerd moet worden. |
+| [setExportNormals(boolean value)](#setExportNormals-boolean-) | Stelt in of normale data moet worden geëxporteerd. |
+| [setExportTextureCoordinates(boolean value)](#setExportTextureCoordinates-boolean-) | Stelt in of texturecoördinaten moeten worden geëxporteerd. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setExportVertexDiffuse(boolean value)](#setExportVertexDiffuse-boolean-) | Stelt in of de diffuse kleur van de vertex moet worden geëxporteerd. |
+| [setExportVertexSpecular(boolean value)](#setExportVertexSpecular-boolean-) | Stelt in of de speculaire kleur van de vertex moet worden geëxporteerd. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Stelt in of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [setMeshCompression(boolean value)](#setMeshCompression-boolean-) | Stelt in of mesh-gegevenscompressie ingeschakeld moet worden. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [setMeshCompression(boolean value)](#setMeshCompression-boolean-) | Stelt in of mesh-gegevenscompressie moet worden ingeschakeld. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -118,27 +118,27 @@ public boolean getExportNormals()
 ```
 
 
-Geeft aan of normale gegevens geëxporteerd moeten worden.
+Geeft aan of normale data moet worden geëxporteerd.
 
 **Returns:**
-boolean - of normale gegevens geëxporteerd moeten worden.
+boolean - of normale data moet worden geëxporteerd.
 ### getExportTextureCoordinates() {#getExportTextureCoordinates--}
 ```
 public boolean getExportTextureCoordinates()
 ```
 
 
-Geeft aan of textuurcoördinaten geëxporteerd moeten worden.
+Geeft aan of texturecoördinaten moeten worden geëxporteerd.
 
 **Returns:**
-boolean - of textuurcoördinaten geëxporteerd moeten worden.
+boolean - of texturecoördinaten moeten worden geëxporteerd.
 ### getExportTextures() {#getExportTextures--}
 ```
 public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -148,7 +148,7 @@ public boolean getExportVertexDiffuse()
 ```
 
 
-Geeft aan of de diffuse kleur van de vertex geëxporteerd moet worden.
+Geeft aan of de diffuse kleur van de vertex moet worden geëxporteerd.
 
 **Returns:**
 boolean - of de diffuse kleur van het vertex moet worden geëxporteerd.
@@ -158,7 +158,7 @@ public boolean getExportVertexSpecular()
 ```
 
 
-Geeft aan of de speculaire kleur van de vertex geëxporteerd moet worden.
+Geeft aan of de speculaire kleur van de vertex moet worden geëxporteerd.
 
 **Returns:**
 boolean - of de speculaire kleur van het vertex moet worden geëxporteerd.
@@ -168,7 +168,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -178,10 +178,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -222,7 +222,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -251,7 +251,7 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-Geeft aan of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren.
+Haalt op of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren.
 
 **Returns:**
 boolean - of het coördinatensysteem van controlepunten/normaal wordt omgekeerd tijdens importeren/exporteren.
@@ -261,10 +261,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -279,7 +279,7 @@ public boolean getMeshCompression()
 ```
 
 
-Geeft aan of mesh-gegevenscompressie ingeschakeld moet worden.
+Geeft aan of mesh-gegevenscompressie moet worden ingeschakeld.
 
 **Returns:**
 boolean - of mesh-gegevenscompressie moet worden ingeschakeld.
@@ -341,7 +341,7 @@ public void setExportNormals(boolean value)
 ```
 
 
-Stelt in of normale gegevens geëxporteerd moeten worden.
+Stelt in of normale data moet worden geëxporteerd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -354,7 +354,7 @@ public void setExportTextureCoordinates(boolean value)
 ```
 
 
-Stelt in of textuurcoördinaten geëxporteerd moeten worden.
+Stelt in of texturecoördinaten moeten worden geëxporteerd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -367,7 +367,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -380,7 +380,7 @@ public void setExportVertexDiffuse(boolean value)
 ```
 
 
-Stelt in of de diffuse kleur van de vertex geëxporteerd moet worden.
+Stelt in of de diffuse kleur van de vertex moet worden geëxporteerd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -393,7 +393,7 @@ public void setExportVertexSpecular(boolean value)
 ```
 
 
-Stelt in of de speculaire kleur van de vertex geëxporteerd moet worden.
+Stelt in of de speculaire kleur van de vertex moet worden geëxporteerd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -406,7 +406,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -424,7 +424,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -456,7 +456,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -501,12 +501,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();
@@ -522,7 +522,7 @@ public void setMeshCompression(boolean value)
 ```
 
 
-Stelt in of mesh-gegevenscompressie ingeschakeld moet worden.
+Stelt in of mesh-gegevenscompressie moet worden ingeschakeld.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

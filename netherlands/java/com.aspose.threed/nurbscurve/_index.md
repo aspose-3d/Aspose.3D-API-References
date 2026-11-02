@@ -1,7 +1,7 @@
 ---
 title: "NurbsCurve"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Een NURBS-curve is een curve die wordt weergegeven door een NURBS Non-uniform rational basis spline. Een NURBS-curve wordt gedefinieerd door zijn een verzameling gewogen ... en een ... Het w‑component in het controlepunt wordt gebruikt als gewicht van het controlepunt, wat het ook moge zijn, of"
+second_title: "Aspose.3D voor Java API-referentie"
+description: "NURBS curve is een curve die wordt weergegeven door NURBSNon-uniform rational basis spline  Een NURBS curve wordt gedefinieerd door een set gewogen punten en een  De w-component in controlepunt wordt gebruikt als gewicht van controlepunten, wat het ook mag zijn, of"
 type: docs
 weight: 112
 url: /nl/java/com.aspose.threed/nurbscurve/
@@ -30,42 +30,42 @@ public class NurbsCurve extends Curve
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [evaluate()](#evaluate--) | Evalueer de NURBS-curve |
 | [evaluate(int steps)](#evaluate-int-) | Evalueer de NURBS-curve |
-| [evaluateAt(double u)](#evaluateAt-double-) | Evalueer het punt van de curve op de opgegeven positie |
+| [evaluateAt(double u)](#evaluateAt-double-) | Evalueer het punt van de curve op een gespecificeerde positie |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getBoundingBox()](#getBoundingBox--) | Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
+| [getBoundingBox()](#getBoundingBox--) | Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Haalt de kleur van de lijn op, standaardwaarde is wit(1, 1, 1) |
-| [getControlPoints()](#getControlPoints--) | Geeft alle controlepunten terug |
+| [getControlPoints()](#getControlPoints--) | Geeft alle controlepunten |
 | [getCurveType()](#getCurveType--) | Haalt het type van de curve op. |
 | [getDegree()](#getDegree--) | Haalt de graad van een NURBS-curve op, de graad wordt gedefinieerd als Order - 1 |
 | [getDimension()](#getDimension--) | Haalt de dimensie van de curve op. |
-| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer. |
-| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [getEntityRendererKey()](#getEntityRendererKey--) | Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer |
+| [getExcluded()](#getExcluded--) | Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [getKnotVectors()](#getKnotVectors--) | Haalt de knoopvector op, dit is een reeks parameterwaarden die bepalen waar en hoe de controlepunten de NURBS-curve beïnvloeden. |
 | [getMultiplicity()](#getMultiplicity--) | Haalt de multipliciteit op. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getOrder()](#getOrder--) | Haalt de orde van een NURBS-curve op, dit definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden. |
-| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
-| [getRational()](#getRational--) | Haalt op of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationele spline of een niet-rationele spline is. |
-| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort |
+| [getOrder()](#getOrder--) | Haalt de orde van een NURBS-curve op, deze definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden. |
+| [getParentNode()](#getParentNode--) | Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [getParentNodes()](#getParentNodes--) | Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering. |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
+| [getRational()](#getRational--) | Haalt op of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationale spline of een niet‑rationele spline is. |
+| [getScene()](#getScene--) | Haalt de scène op waartoe dit object behoort. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
 | [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | Stelt de kleur van de lijn in, standaardwaarde is wit(1, 1, 1) |
 | [setCurveType(NurbsType value)](#setCurveType-com.aspose.threed.NurbsType-) | Stelt het type van de curve in. |
 | [setDegree(int value)](#setDegree-int-) | Stelt de graad van een NURBS-curve in, de graad wordt gedefinieerd als Order - 1 |
 | [setDimension(CurveDimension value)](#setDimension-com.aspose.threed.CurveDimension-) | Stelt de dimensie van de curve in. |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren. |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setOrder(int value)](#setOrder-int-) | Stelt de orde van een NURBS-curve in, dit definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden. |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
-| [setRational(boolean value)](#setRational-boolean-) | Stelt in of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationele spline of een niet-rationele spline is. |
+| [setOrder(int value)](#setOrder-int-) | Stelt de orde van een NURBS-curve in, deze definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden. |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
+| [setRational(boolean value)](#setRational-boolean-) | Stelt in of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationale spline of een niet‑rationele spline is. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -137,7 +137,7 @@ public Vector4 evaluateAt(double u)
 ```
 
 
-Evalueer het punt van de curve op de opgegeven positie
+Evalueer het punt van de curve op een gespecificeerde positie
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -157,7 +157,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -167,7 +167,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-Haalt de omsluitende doos op van de huidige entiteit in zijn objectruimte‑coördinatensysteem.
+Haalt de omhullende doos van de huidige entiteit op in zijn objectruimte-coördinatensysteem.
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -204,7 +204,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-Geeft alle controlepunten terug
+Geeft alle controlepunten
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - alle controlepunten
@@ -244,7 +244,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer.
+Haalt de sleutel van de entiteit-renderer op die is geregistreerd in de renderer
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -254,10 +254,10 @@ public boolean getExcluded()
 ```
 
 
-Haalt op of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Haalt op of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Returns:**
-boolean - of deze entiteit moet worden uitgesloten tijdens het exporteren.
+boolean - of deze entiteit moet worden uitgesloten tijdens exporteren.
 ### getKnotVectors() {#getKnotVectors--}
 ```
 public List<Double> getKnotVectors()
@@ -294,17 +294,17 @@ public int getOrder()
 ```
 
 
-Haalt de orde van een NURBS-curve op, dit definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden.
+Haalt de orde van een NURBS-curve op, deze definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden.
 
 **Returns:**
-int - de orde van een NURBS-curve, deze definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden.
+int - de orde van een NURBS-curve, het definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden.
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-Haalt de eerste bovenliggende knoop op; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Haalt de eerste bovenliggende knoop op; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -314,7 +314,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie‑instantiatie.
+Haalt alle bovenliggende knopen op; een entiteit kan aan meerdere bovenliggende knopen worden gekoppeld voor geometrie-instantiering.
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - alle bovenliggende knooppunten, een entiteit kan aan meerdere bovenliggende knooppunten worden gekoppeld voor geometrie‑instantiatie
@@ -324,7 +324,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -334,12 +334,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -349,17 +349,17 @@ public boolean getRational()
 ```
 
 
-Geeft aan of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationele spline is of een niet-rationele spline. Niet-rationele B-spline is een speciaal geval van rationele B-splines.
+Geeft aan of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationele spline of een niet-rationele spline is. Een niet-rationele B-spline is een speciaal geval van rationele B-splines.
 
 **Returns:**
-boolean - of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationele spline is of een niet-rationele spline. Niet-rationele B-spline is een speciaal geval van rationele B-splines.
+boolean - of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationele spline of een niet-rationele spline is. Een niet-rationele B-spline is een speciaal geval van rationele B-splines.
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
 ```
 
 
-Haalt de scène op waartoe dit object behoort
+Haalt de scène op waartoe dit object behoort.
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -410,7 +410,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -477,7 +477,7 @@ public void setExcluded(boolean value)
 ```
 
 
-Stelt in of deze entiteit moet worden uitgesloten tijdens het exporteren.
+Stelt in of deze entiteit moet worden uitgesloten tijdens exporteren.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -503,7 +503,7 @@ public void setOrder(int value)
 ```
 
 
-Stelt de orde van een NURBS-curve in, dit definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden.
+Stelt de orde van een NURBS-curve in, deze definieert het aantal naburige controlepunten die elk punt op de curve beïnvloeden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -516,7 +516,7 @@ public void setParentNode(Node value)
 ```
 
 
-Stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
+Stelt de eerste bovenliggende knoop in; indien de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -529,12 +529,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setRational(boolean value) {#setRational-boolean-}
@@ -543,7 +543,7 @@ public void setRational(boolean value)
 ```
 
 
-Stelt in of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationele spline is of een niet-rationele spline. Niet-rationele B-spline is een speciaal geval van rationele B-splines.
+Stelt in of het rationaal is, deze waarde geeft aan of deze [NurbsCurve](../../com.aspose.threed/nurbscurve) een rationele spline of een niet-rationele spline is. Een niet-rationele B-spline is een speciaal geval van rationele B-splines.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

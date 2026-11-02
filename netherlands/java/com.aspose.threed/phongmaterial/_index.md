@@ -1,7 +1,7 @@
 ---
 title: "PhongMaterial"
-second_title: "Aspose.3D for Java API-referentie"
-description: "Materiaal voor het Blinn-Phong-shademodel."
+second_title: "Aspose.3D voor Java API-referentie"
+description: "Materiaal voor Blinn-Phong-shadingmodel."
 type: docs
 weight: 126
 url: /nl/java/com.aspose.threed/phongmaterial/
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class PhongMaterial extends LambertMaterial
 ```
 
-Materiaal voor het Blinn-Phong-shademodel.
+Materiaal voor Blinn-Phong-shadingmodel.
 ## Constructors
 
 | Constructor | Beschrijving |
 | --- | --- |
-| [PhongMaterial()](#PhongMaterial--) | Initialiseert een nieuw exemplaar van de [PhongMaterial](../../com.aspose.threed/phongmaterial) klasse. |
-| [PhongMaterial(String name)](#PhongMaterial-java.lang.String-) | Initialiseert een nieuw exemplaar van de [PhongMaterial](../../com.aspose.threed/phongmaterial) klasse. |
+| [PhongMaterial()](#PhongMaterial--) | Initialiseert een nieuw exemplaar van de klasse [PhongMaterial](../../com.aspose.threed/phongmaterial). |
+| [PhongMaterial(String name)](#PhongMaterial-java.lang.String-) | Initialiseert een nieuw exemplaar van de klasse [PhongMaterial](../../com.aspose.threed/phongmaterial). |
 ## Velden
 
 | Veld | Beschrijving |
@@ -35,13 +35,13 @@ Materiaal voor het Blinn-Phong-shademodel.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | Zoekt de eigenschap. |
-| [getAmbientColor()](#getAmbientColor--) | Haalt de ambientkleur op |
+| [getAmbientColor()](#getAmbientColor--) | Haalt de ambientkleur op. |
 | [getClass()](#getClass--) |  |
-| [getDiffuseColor()](#getDiffuseColor--) | Haalt de diffuse kleur op |
-| [getEmissiveColor()](#getEmissiveColor--) | Haalt de emissieve kleur op |
+| [getDiffuseColor()](#getDiffuseColor--) | Haalt de diffuse kleur op. |
+| [getEmissiveColor()](#getEmissiveColor--) | Haalt de emissieve kleur op. |
 | [getName()](#getName--) | Haalt de naam op. |
-| [getProperties()](#getProperties--) | Haalt de verzameling van alle eigenschappen op. |
-| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde op van de opgegeven eigenschap |
+| [getProperties()](#getProperties--) | Haalt de collectie van alle eigenschappen op. |
+| [getProperty(String property)](#getProperty-java.lang.String-) | Haalt de waarde van de opgegeven eigenschap op. |
 | [getReflectionColor()](#getReflectionColor--) | Haalt de reflectiekleur op. |
 | [getReflectionFactor()](#getReflectionFactor--) | Haalt de demping van de reflectiekleur op. |
 | [getShininess()](#getShininess--) | Haalt de glans op, dit bepaalt de grootte van de speculaire highlight. |
@@ -55,20 +55,20 @@ Materiaal voor het Blinn-Phong-shademodel.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | Verwijdert een dynamische eigenschap. |
-| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam |
-| [setAmbientColor(Vector3 value)](#setAmbientColor-com.aspose.threed.Vector3-) | Stelt de ambientkleur in |
-| [setDiffuseColor(Vector3 value)](#setDiffuseColor-com.aspose.threed.Vector3-) | Stelt de diffuse kleur in |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Stelt de emissieve kleur in |
+| [removeProperty(String property)](#removeProperty-java.lang.String-) | Verwijder de opgegeven eigenschap geïdentificeerd op naam. |
+| [setAmbientColor(Vector3 value)](#setAmbientColor-com.aspose.threed.Vector3-) | Stelt de ambientkleur in. |
+| [setDiffuseColor(Vector3 value)](#setDiffuseColor-com.aspose.threed.Vector3-) | Stelt de diffuse kleur in. |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | Stelt de emissieve kleur in. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
-| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde in van de opgegeven eigenschap |
+| [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | Stelt de waarde van de opgegeven eigenschap in. |
 | [setReflectionColor(Vector3 value)](#setReflectionColor-com.aspose.threed.Vector3-) | Stelt de reflectiekleur in. |
 | [setReflectionFactor(double value)](#setReflectionFactor-double-) | Stelt de demping van de reflectiekleur in. |
 | [setShininess(double value)](#setShininess-double-) | Stelt de glans in, dit bepaalt de grootte van de speculaire highlight. |
 | [setSpecularColor(Vector3 value)](#setSpecularColor-com.aspose.threed.Vector3-) | Stelt de speculaire kleur in. |
 | [setSpecularFactor(double value)](#setSpecularFactor-double-) | Stelt de speculaire factor in. |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Stelt de textuur in op de opgegeven slot |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | Stelt de textuur in op de opgegeven slot. |
 | [setTransparency(double value)](#setTransparency-double-) | Stelt de transparantiefactor in. |
-| [setTransparentColor(Vector3 value)](#setTransparentColor-com.aspose.threed.Vector3-) | Stelt de transparante kleur in |
+| [setTransparentColor(Vector3 value)](#setTransparentColor-com.aspose.threed.Vector3-) | Stelt de transparante kleur in. |
 | [toString()](#toString--) | Formatteert object naar string |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -79,7 +79,7 @@ public PhongMaterial()
 ```
 
 
-Initialiseert een nieuw exemplaar van de [PhongMaterial](../../com.aspose.threed/phongmaterial) klasse.
+Initialiseert een nieuw exemplaar van de klasse [PhongMaterial](../../com.aspose.threed/phongmaterial).
 
 ### PhongMaterial(String name) {#PhongMaterial-java.lang.String-}
 ```
@@ -87,7 +87,7 @@ public PhongMaterial(String name)
 ```
 
 
-Initialiseert een nieuw exemplaar van de [PhongMaterial](../../com.aspose.threed/phongmaterial) klasse.
+Initialiseert een nieuw exemplaar van de klasse [PhongMaterial](../../com.aspose.threed/phongmaterial).
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -160,7 +160,7 @@ Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (gemaakt door Create
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| propertyName | java.lang.String | Eigenschapnaam. |
+| propertyName | java.lang.String | Naam van de eigenschap. |
 
 **Returns:**
 [Property](../../com.aspose.threed/property) - The property.
@@ -170,7 +170,7 @@ public Vector3 getAmbientColor()
 ```
 
 
-Haalt de ambientkleur op
+Haalt de ambientkleur op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the ambient color
@@ -190,7 +190,7 @@ public Vector3 getDiffuseColor()
 ```
 
 
-Haalt de diffuse kleur op
+Haalt de diffuse kleur op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the diffuse color
@@ -200,7 +200,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-Haalt de emissieve kleur op
+Haalt de emissieve kleur op.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color **Example:**
@@ -225,7 +225,7 @@ public PropertyCollection getProperties()
 ```
 
 
-Haalt de verzameling van alle eigenschappen op.
+Haalt de collectie van alle eigenschappen op.
 
 **Returns:**
 [PropertyCollection](../../com.aspose.threed/propertycollection) - the collection of all properties.
@@ -235,12 +235,12 @@ public Object getProperty(String property)
 ```
 
 
-Haalt de waarde op van de opgegeven eigenschap
+Haalt de waarde van de opgegeven eigenschap op.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 
 **Returns:**
 java.lang.Object - De waarde van de gevonden eigenschap
@@ -394,7 +394,7 @@ public boolean removeProperty(String property)
 ```
 
 
-Verwijder de opgegeven eigenschap geïdentificeerd op naam
+Verwijder de opgegeven eigenschap geïdentificeerd op naam.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -409,7 +409,7 @@ public void setAmbientColor(Vector3 value)
 ```
 
 
-Stelt de ambientkleur in
+Stelt de ambientkleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -422,7 +422,7 @@ public void setDiffuseColor(Vector3 value)
 ```
 
 
-Stelt de diffuse kleur in
+Stelt de diffuse kleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -435,7 +435,7 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-Stelt de emissieve kleur in
+Stelt de emissieve kleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -466,12 +466,12 @@ public void setProperty(String property, Object value)
 ```
 
 
-Stelt de waarde in van de opgegeven eigenschap
+Stelt de waarde van de opgegeven eigenschap in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | java.lang.String | Naam van eigenschap |
+| eigenschap | java.lang.String | Naam van de eigenschap |
 | waarde | java.lang.Object | De waarde van de eigenschap |
 
 ### setReflectionColor(Vector3 value) {#setReflectionColor-com.aspose.threed.Vector3-}
@@ -545,7 +545,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-Stelt de textuur in op de opgegeven slot
+Stelt de textuur in op de opgegeven slot.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -579,7 +579,7 @@ public void setTransparentColor(Vector3 value)
 ```
 
 
-Stelt de transparante kleur in
+Stelt de transparante kleur in.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -595,7 +595,7 @@ public String toString()
 Formatteert object naar string
 
 **Returns:**
-java.lang.String - Objecttekenreeks
+java.lang.String - Objectstring
 ### wait() {#wait--}
 ```
 public final void wait()

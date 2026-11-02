@@ -1,6 +1,6 @@
 ---
 title: "PdfSaveOptions"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "De opslagopties bij PDF-export."
 type: docs
 weight: 125
@@ -25,36 +25,36 @@ De opslagopties bij PDF-export.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuxiliaryColor()](#getAuxiliaryColor--) | Haalt de hulpkleur op die wordt gebruikt bij het renderen van de 3D-inhoud. |
-| [getBackgroundColor()](#getBackgroundColor--) | Achtergrondkleur van de 3D-weergave in het PDF-bestand. |
+| [getBackgroundColor()](#getBackgroundColor--) | Achtergrondkleur van de 3D-weergave in PDF-bestand. |
 | [getClass()](#getClass--) |  |
 | [getEmbedTextures()](#getEmbedTextures--) | Integreer de externe texturen in het PDF-bestand, standaardwaarde is false. |
 | [getEncoding()](#getEncoding--) | Haalt de standaardcodering op voor tekstgebaseerde bestanden. |
-| [getExportTextures()](#getExportTextures--) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [getFaceColor()](#getFaceColor--) | Haalt de gezichts­kleur op die wordt gebruikt bij het renderen van de 3D-inhoud. |
-| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie. |
+| [getExportTextures()](#getExportTextures--) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [getFaceColor()](#getFaceColor--) | Haalt de vlakkleur op die wordt gebruikt bij het renderen van de 3D-inhoud. |
+| [getFileFormat()](#getFileFormat--) | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 | [getFileName()](#getFileName--) | De bestandsnaam van de exporterende/importerende scène. |
 | [getFileSystem()](#getFileSystem--) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabrieksklasse op voor FileSystem. |
-| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Haalt op om het coördinatensysteem van de scène tijdens het exporteren te draaien. |
-| [getLightingScheme()](#getLightingScheme--) | LightingScheme specificeert de verlichting die op 3D-kunstwerken wordt toegepast. |
-| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [getRenderMode()](#getRenderMode--) | Rendermodus specificeert de stijl waarin het 3D-kunstwerk wordt gerenderd. |
+| [getFileSystemFactory()](#getFileSystemFactory--) | Haalt de fabriekklasse op voor FileSystem. |
+| [getFlipCoordinateSystem()](#getFlipCoordinateSystem--) | Haalt op of het coördinatensysteem van de scène tijdens het exporteren moet worden gedraaid. |
+| [getLightingScheme()](#getLightingScheme--) | LightingScheme specificeert de verlichting die op 3D-illustraties moet worden toegepast. |
+| [getLookupPaths()](#getLookupPaths--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [getRenderMode()](#getRenderMode--) | Rendermodus specificeert de stijl waarin de 3D-illustratie wordt gerenderd. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAuxiliaryColor(Vector3 value)](#setAuxiliaryColor-com.aspose.threed.Vector3-) | Stelt de hulpkleur in die wordt gebruikt bij het renderen van de 3D-inhoud. |
-| [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | Achtergrondkleur van de 3D-weergave in het PDF-bestand. |
+| [setBackgroundColor(Vector3 value)](#setBackgroundColor-com.aspose.threed.Vector3-) | Achtergrondkleur van de 3D-weergave in PDF-bestand. |
 | [setEmbedTextures(boolean value)](#setEmbedTextures-boolean-) | Integreer de externe texturen in het PDF-bestand, standaardwaarde is false. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Stelt de standaardcodering in voor tekstgebaseerde bestanden. |
-| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
-| [setFaceColor(Vector3 value)](#setFaceColor-com.aspose.threed.Vector3-) | Stelt de gezichts­kleur in die wordt gebruikt bij het renderen van de 3D-inhoud. |
+| [setExportTextures(boolean value)](#setExportTextures-boolean-) | Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap. |
+| [setFaceColor(Vector3 value)](#setFaceColor-com.aspose.threed.Vector3-) | Stelt de vlakkleur in die wordt gebruikt bij het renderen van de 3D-inhoud. |
 | [setFileName(String value)](#setFileName-java.lang.String-) | De bestandsnaam van de exporterende/importerende scène. |
 | [setFileSystem(FileSystem value)](#setFileSystem-com.aspose.threed.FileSystem-) | Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
-| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabrieksklasse in voor FileSystem. |
+| [setFileSystemFactory(FileSystemFactory value)](#setFileSystemFactory-com.aspose.threed.FileSystemFactory-) | Stelt de fabriekklasse in voor FileSystem. |
 | [setFlipCoordinateSystem(boolean value)](#setFlipCoordinateSystem-boolean-) | Stelt in om het coördinatensysteem van de scène tijdens het exporteren te draaien. |
-| [setLightingScheme(PdfLightingScheme value)](#setLightingScheme-com.aspose.threed.PdfLightingScheme-) | LightingScheme specificeert de verlichting die op 3D-kunstwerken wordt toegepast. |
-| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
-| [setRenderMode(PdfRenderMode value)](#setRenderMode-com.aspose.threed.PdfRenderMode-) | Rendermodus specificeert de stijl waarin het 3D-kunstwerk wordt gerenderd. |
+| [setLightingScheme(PdfLightingScheme value)](#setLightingScheme-com.aspose.threed.PdfLightingScheme-) | LightingScheme specificeert de verlichting die op 3D-illustraties moet worden toegepast. |
+| [setLookupPaths(ArrayList<String> value)](#setLookupPaths-java.util.ArrayList-java.lang.String--) | Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden. |
+| [setRenderMode(PdfRenderMode value)](#setRenderMode-com.aspose.threed.PdfRenderMode-) | Rendermodus specificeert de stijl waarin de 3D-illustratie wordt gerenderd. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -98,7 +98,7 @@ public Vector3 getBackgroundColor()
 ```
 
 
-Achtergrondkleur van de 3D-weergave in het PDF-bestand.
+Achtergrondkleur van de 3D-weergave in PDF-bestand.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Background color of the 3D view in PDF file.
@@ -138,7 +138,7 @@ public boolean getExportTextures()
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Returns:**
 boolean - Probeer texturen die in de scène worden gebruikt naar de uitvoermap te kopiëren.
@@ -148,7 +148,7 @@ public Vector3 getFaceColor()
 ```
 
 
-Haalt de gezichts­kleur op die wordt gebruikt bij het renderen van de 3D-inhoud. Dit is alleen relevant wanneer de [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) een waarde van Illustration heeft.
+Haalt de vlakkleur op die wordt gebruikt bij het renderen van de 3D-inhoud. Dit is alleen relevant wanneer de [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) de waarde Illustration heeft.
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the face color to be used when rendering the 3D content. This is only relevant only when the [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) has a value of Illustration.
@@ -158,7 +158,7 @@ public FileFormat getFileFormat()
 ```
 
 
-Haalt het bestandsformaat op dat is gespecificeerd in de huidige opslaan/laden-optie.
+Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie.
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - the file format that specified in current Save/Load option.
@@ -168,10 +168,10 @@ public String getFileName()
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Returns:**
-java.lang.String - De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+java.lang.String - De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 ### getFileSystem() {#getFileSystem--}
 ```
 public FileSystem getFileSystem()
@@ -212,7 +212,7 @@ public static FileSystemFactory getFileSystemFactory()
 ```
 
 
-Haalt de fabrieksklasse voor FileSystem op. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Haalt de fabrieksklasse op voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Returns:**
 [FileSystemFactory](../../com.aspose.threed/filesystemfactory) - the factory class for FileSystem. The default factory will create com.aspose.threed.LocalFileSystem which is not suitable for server environment. **Example:** The default FileSystem in SaveOptions/LoadOptions is directory-based file system, You can override the default implementation by specify it through IOConfig.FileSystemFactory:
@@ -241,7 +241,7 @@ public boolean getFlipCoordinateSystem()
 ```
 
 
-Haalt op om het coördinatensysteem van de scène tijdens het exporteren te draaien.
+Haalt op of het coördinatensysteem van de scène tijdens het exporteren moet worden gedraaid.
 
 **Returns:**
 boolean - om het coördinatensysteem van de scène tijdens het exporteren te draaien.
@@ -251,7 +251,7 @@ public PdfLightingScheme getLightingScheme()
 ```
 
 
-LightingScheme specificeert de verlichting die op 3D-kunstwerken wordt toegepast.
+LightingScheme specificeert de verlichting die op 3D-illustraties moet worden toegepast.
 
 **Returns:**
 [PdfLightingScheme](../../com.aspose.threed/pdflightingscheme) - LightingScheme specifies the lighting to apply to 3D artwork.
@@ -261,10 +261,10 @@ public ArrayList<String> getLookupPaths()
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Returns:**
-java.util.ArrayList<java.lang.String> - Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden om te laden. **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden
+java.util.ArrayList<java.lang.String> - Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden
 
 ```
 var opt = new ObjLoadOptions();
@@ -279,7 +279,7 @@ public PdfRenderMode getRenderMode()
 ```
 
 
-Rendermodus specificeert de stijl waarin het 3D-kunstwerk wordt gerenderd.
+Rendermodus specificeert de stijl waarin de 3D-illustratie wordt gerenderd.
 
 **Returns:**
 [PdfRenderMode](../../com.aspose.threed/pdfrendermode) - Render mode specifies the style in which the 3D artwork is rendered.
@@ -328,7 +328,7 @@ public void setBackgroundColor(Vector3 value)
 ```
 
 
-Achtergrondkleur van de 3D-weergave in het PDF-bestand.
+Achtergrondkleur van de 3D-weergave in PDF-bestand.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -367,7 +367,7 @@ public void setExportTextures(boolean value)
 ```
 
 
-Probeer textures die in de scène worden gebruikt te kopiëren naar de uitvoermap.
+Probeer texturen die in de scène worden gebruikt te kopiëren naar de uitvoermap.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -380,7 +380,7 @@ public void setFaceColor(Vector3 value)
 ```
 
 
-Stelt de gezichts­kleur in die wordt gebruikt bij het renderen van de 3D-inhoud. Dit is alleen relevant wanneer de [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) een waarde van Illustration heeft.
+Stelt de vlakkleur in die wordt gebruikt bij het renderen van de 3D-inhoud. Dit is alleen relevant wanneer de [getRenderMode](../../com.aspose.threed/pdfsaveoptions\#getRenderMode) de waarde Illustration heeft.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -393,7 +393,7 @@ public void setFileName(String value)
 ```
 
 
-De bestandsnaam van de export‑/importscene. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ.
+De bestandsnaam van de exporteer-/importeer‑scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -411,7 +411,7 @@ Sta de gebruiker toe om te bepalen hoe de externe afhankelijkheden tijdens laden
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** De standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
+|  | value | [FileSystem](../../com.aspose.threed/filesystem) | Nieuwe waarde **Example:** Het standaard FileSystem is LocalFileSystem, dit is niet veilig in een omgeving zoals server-side, maar je kunt de bestandsysteemtoegang overschrijven door een andere implementatie op te geven. Aspose.3D biedt verschillende FileSystem-implementaties, zoals: |
 
  *  Memory-based file system
  *  Directory-based file system
@@ -443,7 +443,7 @@ public static void setFileSystemFactory(FileSystemFactory value)
 ```
 
 
-Stelt de fabrieksklasse voor FileSystem in. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
+Stelt de fabrieksklasse in voor FileSystem. De standaardfabriek maakt com.aspose.threed.LocalFileSystem aan, wat niet geschikt is voor een serveromgeving.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -488,7 +488,7 @@ public void setLightingScheme(PdfLightingScheme value)
 ```
 
 
-LightingScheme specificeert de verlichting die op 3D-kunstwerken wordt toegepast.
+LightingScheme specificeert de verlichting die op 3D-illustraties moet worden toegepast.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -501,12 +501,12 @@ public void setLookupPaths(ArrayList<String> value)
 ```
 
 
-Sommige bestanden zoals OBJ zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden.
+Sommige bestanden zoals OBJ zijn afhankelijk van een extern bestand; de zoekpaden stellen Aspose.3D in staat om naar het externe bestand te zoeken om te laden.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code laat zien hoe je handmatig de te zoeken textures opgeeft, zodat de importeur ze kan vinden |
+|  | waarde | java.util.ArrayList<java.lang.String> | Nieuwe waarde **Example:** De volgende code toont hoe je handmatig de opzoektexturen specificeert, zodat de importeur ze kan vinden |
 
 ```
 var opt = new ObjLoadOptions();
@@ -522,7 +522,7 @@ public void setRenderMode(PdfRenderMode value)
 ```
 
 
-Rendermodus specificeert de stijl waarin het 3D-kunstwerk wordt gerenderd.
+Rendermodus specificeert de stijl waarin de 3D-illustratie wordt gerenderd.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |

@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Deze klasse biedt ondersteuning voor EXT_structural_metadata, alleen gebruikt in glTF."
 type: docs
 weight: 180
@@ -23,15 +23,15 @@ Deze klasse biedt ondersteuning voor EXT\_structural\_metadata, alleen gebruikt 
 
 | Methode | Beschrijving |
 | --- | --- |
-| [attach(Scene scene)](#attach-com.aspose.threed.Scene-) | Huidige metagegevens aan de opgegeven scène koppelen |
-| [createClass(String name)](#createClass-java.lang.String-) | Een meta‑klassetype maken |
-| [createEnum(String name)](#createEnum-java.lang.String-) | Een enum‑type maken |
-| [createPropertyTable(String name, StructuralMetadata.ClassType clazz)](#createPropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | Een nieuwe eigenschapstabel maken met het opgegeven meta‑klassetype |
+| [attach(Scene scene)](#attach-com.aspose.threed.Scene-) | Koppel huidige metadata aan de opgegeven scène. |
+| [createClass(String name)](#createClass-java.lang.String-) | Maak een meta‑klas type aan. |
+| [createEnum(String name)](#createEnum-java.lang.String-) | Maak een enumtype aan. |
+| [createPropertyTable(String name, StructuralMetadata.ClassType clazz)](#createPropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | Maak een nieuwe eigenschapstabel met het opgegeven meta‑klas type. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [from(Scene scene)](#from-com.aspose.threed.Scene-) | Haalt [StructuralMetadata](../../com.aspose.threed/structuralmetadata) op die aan de opgegeven scène is gekoppeld. |
+| [from(Scene scene)](#from-com.aspose.threed.Scene-) | Haal [StructuralMetadata](../../com.aspose.threed/structuralmetadata) op die geassocieerd is met de opgegeven scène. |
 | [getClass()](#getClass--) |  |
-| [getClasses()](#getClasses--) | De klassedefinities. |
-| [getEnums()](#getEnums--) | De enum‑type-definities |
+| [getClasses()](#getClasses--) | De klasse‑definities. |
+| [getEnums()](#getEnums--) | De enum‑type‑definities |
 | [getPropertyTables()](#getPropertyTables--) | De eigenschapstabellen in deze metadata. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -52,7 +52,7 @@ public void attach(Scene scene)
 ```
 
 
-Huidige metagegevens aan de opgegeven scène koppelen
+Koppel huidige metadata aan de opgegeven scène.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -65,7 +65,7 @@ public StructuralMetadata.ClassType createClass(String name)
 ```
 
 
-Een meta‑klassetype maken
+Maak een meta‑klas type aan.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -80,7 +80,7 @@ public StructuralMetadata.EnumType createEnum(String name)
 ```
 
 
-Een enum‑type maken
+Maak een enumtype aan.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -95,13 +95,13 @@ public StructuralMetadata.PropertyTable createPropertyTable(String name, Structu
 ```
 
 
-Een nieuwe eigenschapstabel maken met het opgegeven meta‑klassetype
+Maak een nieuwe eigenschapstabel met het opgegeven meta‑klas type.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
 | naam | java.lang.String | De naam van de eigenschapstabel |
-| clazz | [ClassType](../../com.aspose.threed/classtype) | Het klassetype van de nieuwe eigenschapstabel |
+| clazz | [ClassType](../../com.aspose.threed/classtype) | Het classtype van de nieuwe eigenschapstabel |
 
 **Returns:**
 [PropertyTable](../../com.aspose.threed/propertytable) - The new instance of property table
@@ -126,7 +126,7 @@ public static StructuralMetadata from(Scene scene)
 ```
 
 
-Haalt [StructuralMetadata](../../com.aspose.threed/structuralmetadata) op die aan de opgegeven scène is gekoppeld.
+Haal [StructuralMetadata](../../com.aspose.threed/structuralmetadata) op die geassocieerd is met de opgegeven scène.
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
@@ -151,20 +151,20 @@ public HashMap<String,StructuralMetadata.ClassType> getClasses()
 ```
 
 
-De klassedefinities.
+De klasse‑definities.
 
 **Returns:**
-java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.ClassType> - De klasse-definities.
+java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.ClassType> - De klassedefinities.
 ### getEnums() {#getEnums--}
 ```
 public HashMap<String,StructuralMetadata.EnumType> getEnums()
 ```
 
 
-De enum‑type-definities
+De enum‑type‑definities
 
 **Returns:**
-java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.EnumType> - De enumtype-definities
+java.util.HashMap<java.lang.String,com.aspose.threed.StructuralMetadata.EnumType> - De enumtype-definities.
 ### getPropertyTables() {#getPropertyTables--}
 ```
 public ArrayList<StructuralMetadata.PropertyTable> getPropertyTables()

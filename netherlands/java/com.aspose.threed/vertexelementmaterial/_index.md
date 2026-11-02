@@ -1,6 +1,6 @@
 ---
 title: "VertexElementMaterial"
-second_title: "Aspose.3D for Java API-referentie"
+second_title: "Aspose.3D voor Java API-referentie"
 description: "Definieert materiaalindex voor gespecificeerde componenten."
 type: docs
 weight: 213
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementMaterial extends VertexElement
 ```
 
-Definieert materiaalindex voor opgegeven componenten. Een knooppunt kan meerdere materialen hebben; de [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) wordt gebruikt om verschillende delen van de geometrie in verschillende materialen te renderen. **Example:** De volgende code laat zien hoe je verschillende materialen toewijst aan verschillende vlakken van een doos.
+Definieert materiaalindex voor opgegeven componenten. Een knoop kan meerdere materialen hebben, de [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) wordt gebruikt om verschillende delen van de geometrie in verschillende materialen te renderen. **Example:** De volgende code laat zien hoe je verschillende materialen toewijst aan verschillende vlakken van een doos.
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -33,19 +33,19 @@ Definieert materiaalindex voor opgegeven componenten. Een knooppunt kan meerdere
 | Methode | Beschrijving |
 | --- | --- |
 | [clear()](#clear--) | Verwijdert alle elementen uit de directe en de indexarrays. |
-| [clone(boolean withData)](#clone-boolean-) | Maak een diepe kloon van het vertex-element. |
+| [clone(boolean withData)](#clone-boolean-) | Diepe kloon van het vertex-element |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getIndices()](#getIndices--) | Haalt de indexgegevens op. |
+| [getIndices()](#getIndices--) | Haalt de indexgegevens op |
 | [getMappingMode()](#getMappingMode--) | Haalt op hoe het element is gemapt. |
 | [getName()](#getName--) | Haalt de naam op. |
 | [getReferenceMode()](#getReferenceMode--) | Haalt op hoe het element wordt gerefereerd. |
-| [getVertexElementType()](#getVertexElementType--) | Haalt het type van de [VertexElement](../../com.aspose.threed/vertexelement) op. |
+| [getVertexElementType()](#getVertexElementType--) | Haalt het type op van de [VertexElement](../../com.aspose.threed/vertexelement) |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setIndices(int[] data)](#setIndices-int---) | Laad indexen. |
+| [setIndices(int[] data)](#setIndices-int---) | Laad indexen |
 | [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | Stelt in hoe het element is gemapt. |
 | [setName(String value)](#setName-java.lang.String-) | Stelt de naam in. |
 | [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | Stelt in hoe het element wordt gerefereerd. |
@@ -75,12 +75,12 @@ public VertexElement clone(boolean withData)
 ```
 
 
-Maak een diepe kloon van het vertex-element.
+Diepe kloon van het vertex-element
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| withData | boolean | Kloon het vertex met directe en indexarray. |
+| withData | boolean | Kloon de vertex met directe en indexarray |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -131,7 +131,7 @@ public List<Integer> getIndices()
 ```
 
 
-Haalt de indexgegevens op.
+Haalt de indexgegevens op
 
 **Returns:**
 java.util.List<java.lang.Integer> - de indexgegevens
@@ -171,7 +171,7 @@ public VertexElementType getVertexElementType()
 ```
 
 
-Haalt het type van de [VertexElement](../../com.aspose.threed/vertexelement) op.
+Haalt het type op van de [VertexElement](../../com.aspose.threed/vertexelement)
 
 **Returns:**
 [VertexElementType](../../com.aspose.threed/vertexelementtype) - the type of the [VertexElement](../../com.aspose.threed/vertexelement)
@@ -207,7 +207,7 @@ public void setIndices(int[] data)
 ```
 
 
-Laad indexen.
+Laad indexen
 
 **Parameters:**
 | Parameter | Type | Beschrijving |
