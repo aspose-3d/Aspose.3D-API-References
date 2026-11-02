@@ -1,6 +1,6 @@
 ---
 title: "BoundingBoxExtent"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "बाउंडिंग बॉक्स का विस्तार"
 type: docs
 weight: 269
@@ -20,7 +20,7 @@ public enum BoundingBoxExtent extends Enum<BoundingBoxExtent>
 | --- | --- |
 | [FINITE](#FINITE) | सीमित बाउंडिंग बॉक्स |
 | [INFINITE](#INFINITE) | अनंत बाउंडिंग बॉक्स |
-| [NULL](#NULL) | शून्य बाउंडिंग बॉक्स |
+| [NULL](#NULL) | नल बाउंडिंग बॉक्स |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -64,7 +64,7 @@ public static final BoundingBoxExtent NULL
 ```
 
 
-शून्य बाउंडिंग बॉक्स
+नल बाउंडिंग बॉक्स
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

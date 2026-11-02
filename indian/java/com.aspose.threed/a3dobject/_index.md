@@ -1,7 +1,7 @@
 ---
 title: "A3DObject"
-second_title: "Aspose.3D for Java API Reference"
-description: "सभी Aspose.ThreeD वस्तुओं की बेस क्लास, सभी उपवर्ग गतिशील गुणों का समर्थन करेंगे."
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "सभी Aspose.ThreeD वस्तुओं की बेस क्लास, सभी उपवर्ग गतिशील गुणों का समर्थन करेंगे।"
 type: docs
 weight: 10
 url: /hi/java/com.aspose.threed/a3dobject/
@@ -16,13 +16,13 @@ java.lang.Object
 public class A3DObject implements INamedObject
 ```
 
-सभी Aspose.ThreeD ऑब्जेक्ट्स की बेस क्लास, सभी सब क्लासेज़ डायनेमिक प्रॉपर्टीज़ का समर्थन करेंगे।
-## कंस्ट्रक्टर
+सभी Aspose.ThreeD ऑब्जेक्ट्स की बेस क्लास, सभी सब क्लासेज़ डायनामिक प्रॉपर्टीज़ का समर्थन करेंगे।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [A3DObject(String name)](#A3DObject-java.lang.String-) | एक नया उदाहरण प्रारंभ करता है [A3DObject](../../com.aspose.threed/a3dobject) क्लास का. |
-| [A3DObject()](#A3DObject--) | एक नया उदाहरण प्रारंभ करता है [A3DObject](../../com.aspose.threed/a3dobject) क्लास का बिना नाम के. |
+| [A3DObject(String name)](#A3DObject-java.lang.String-) | एक नया उदाहरण प्रारंभ करता है [A3DObject](../../com.aspose.threed/a3dobject) क्लास का। |
+| [A3DObject()](#A3DObject--) | एक नया उदाहरण प्रारंभ करता है [A3DObject](../../com.aspose.threed/a3dobject) क्लास का बिना नाम के। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -50,7 +50,7 @@ public A3DObject(String name)
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [A3DObject](../../com.aspose.threed/a3dobject) क्लास का.
+एक नया उदाहरण प्रारंभ करता है [A3DObject](../../com.aspose.threed/a3dobject) क्लास का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -63,7 +63,7 @@ public A3DObject()
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [A3DObject](../../com.aspose.threed/a3dobject) क्लास का बिना नाम के.
+एक नया उदाहरण प्रारंभ करता है [A3DObject](../../com.aspose.threed/a3dobject) क्लास का बिना नाम के।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -86,7 +86,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

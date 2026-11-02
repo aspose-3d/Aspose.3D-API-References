@@ -1,7 +1,7 @@
 ---
 title: "RenderState"
-second_title: "Aspose.3D for Java API Reference"
-description: "पाइपलाइन बनाने के लिए रेंडर स्थिति। रेंडर स्थिति पर किए गए परिवर्तन निर्मित पाइपलाइन इंस्टेंस को प्रभावित नहीं करेंगे।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "पाइपलाइन बनाने के लिए रेंडर स्थिति। रेंडर स्थिति में किए गए परिवर्तन निर्मित पाइपलाइन इंस्टेंस को प्रभावित नहीं करेंगे।"
 type: docs
 weight: 151
 url: /hi/java/com.aspose.threed/renderstate/
@@ -16,55 +16,55 @@ java.io.Closeable, java.lang.Comparable
 public class RenderState implements Closeable, Comparable<RenderState>
 ```
 
-पाइपलाइन बनाने के लिए रेंडर स्टेट। रेंडर स्टेट में किए गए बदलाव बनाए गए पाइपलाइन इंस्टेंस को प्रभावित नहीं करेंगे।
-## कंस्ट्रक्टर
+पाइपलाइन बनाने के लिए रेंडर स्टेट। रेंडर स्टेट पर किए गए बदलाव बनाए गए पाइपलाइन इंस्टेंसेज़ को प्रभावित नहीं करेंगे।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [RenderState()](#RenderState--) | का कंस्ट्रक्टर [RenderState](../../com.aspose.threed/renderstate) |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [close()](#close--) | नष्ट करें [RenderState](../../com.aspose.threed/renderstate) और सभी आंतरिक संसाधनों को मुक्त करें। |
-| [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | तुलना करें रेंडर स्टेट को अन्य इंस्टेंस के साथ |
+| [close()](#close--) | डिस्पोज़ करें [RenderState](../../com.aspose.threed/renderstate) और सभी आंतरिक संसाधनों को रिलीज़ करें। |
+| [compareTo(RenderState other)](#compareTo-com.aspose.threed.RenderState-) | रेंडर स्टेट की तुलना दूसरे इंस्टेंस से करें |
 | [equals(Object obj)](#equals-java.lang.Object-) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
-| [getBlend()](#getBlend--) | सक्षम या अक्षम करें फ्रैगमेंट ब्लेंडिंग। |
-| [getBlendColor()](#getBlendColor--) | प्राप्त करता है ब्लेंड रंग जहाँ उपयोग किया जाता है [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
+| [getBlend()](#getBlend--) | फ़्रैगमेंट ब्लेंडिंग को सक्षम या अक्षम करें। |
+| [getBlendColor()](#getBlendColor--) | ब्लेंड रंग प्राप्त करता है जहाँ उपयोग किया जाता है [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
 | [getClass()](#getClass--) |  |
-| [getCullFace()](#getCullFace--) | सक्षम या अक्षम करें cull face |
-| [getCullFaceMode()](#getCullFaceMode--) | प्राप्त करता है कौन सा फेस कटा जाएगा। |
-| [getDepthFunction()](#getDepthFunction--) | प्राप्त करता है तुलना फ़ंक्शन जो गहराई परीक्षण में उपयोग किया जाता है |
-| [getDepthMask()](#getDepthMask--) | सक्षम या अक्षम करें गहराई लेखन। |
-| [getDepthTest()](#getDepthTest--) | सक्षम या अक्षम करें गहराई परीक्षण। |
-| [getDestinationBlendFactor()](#getDestinationBlendFactor--) | प्राप्त करता है कि रंग कैसे मिश्रित होता है। |
-| [getFrontFace()](#getFrontFace--) | प्राप्त करता है कौन सा क्रम फ्रंट फेस है। |
-| [getPolygonMode()](#getPolygonMode--) | प्राप्त करता है बहुभुज का रेंडर मोड। |
-| [getScissorTest()](#getScissorTest--) | सक्षम या अक्षम करें scissor test |
-| [getSourceBlendFactor()](#getSourceBlendFactor--) | प्राप्त करता है कि रंग कैसे मिश्रित होता है। |
-| [getStencilBackFace()](#getStencilBackFace--) | प्राप्त करता है बैक फेस के लिए स्टेंसिल स्थिति। |
-| [getStencilFrontFace()](#getStencilFrontFace--) | प्राप्त करता है फ्रंट फेस के लिए स्टेंसिल स्थिति। |
-| [getStencilMask()](#getStencilMask--) | प्राप्त करता है वह मास्क जो परीक्षण समाप्त होने पर दोनों रेफ़रेंस और संग्रहीत स्टेंसिल मान के साथ AND किया जाता है। |
-| [getStencilReference()](#getStencilReference--) | प्राप्त करता है स्टेंसिल परीक्षण के लिए रेफ़रेंस मान। |
-| [getStencilTest()](#getStencilTest--) | सक्षम या अक्षम करें स्टेंसिल परीक्षण। |
+| [getCullFace()](#getCullFace--) | कुल फेस को सक्षम या अक्षम करें |
+| [getCullFaceMode()](#getCullFaceMode--) | कुल किया जाने वाला फेस प्राप्त करता है। |
+| [getDepthFunction()](#getDepthFunction--) | डेप्थ टेस्ट में उपयोग किए जाने वाले तुलना फ़ंक्शन को प्राप्त करता है। |
+| [getDepthMask()](#getDepthMask--) | डेप्थ राइटिंग को सक्षम या अक्षम करें। |
+| [getDepthTest()](#getDepthTest--) | डेप्थ टेस्ट को सक्षम या अक्षम करें। |
+| [getDestinationBlendFactor()](#getDestinationBlendFactor--) | रंग कैसे ब्लेंड किया जाता है, प्राप्त करता है। |
+| [getFrontFace()](#getFrontFace--) | कौन सा क्रम फ्रंट फेस है, प्राप्त करता है। |
+| [getPolygonMode()](#getPolygonMode--) | पॉलीगॉन का रेंडर मोड प्राप्त करता है। |
+| [getScissorTest()](#getScissorTest--) | सिज़र टेस्ट को सक्षम या अक्षम करें |
+| [getSourceBlendFactor()](#getSourceBlendFactor--) | रंग कैसे ब्लेंड किया जाता है, प्राप्त करता है। |
+| [getStencilBackFace()](#getStencilBackFace--) | बैक फेस के लिए स्टेंसिल स्टेट प्राप्त करता है। |
+| [getStencilFrontFace()](#getStencilFrontFace--) | फ्रंट फेस के लिए स्टेंसिल स्टेट प्राप्त करता है। |
+| [getStencilMask()](#getStencilMask--) | टेस्ट समाप्त होने पर रेफ़रेंस और संग्रहीत स्टेंसिल वैल्यू दोनों के साथ AND किया गया मास्क प्राप्त करता है। |
+| [getStencilReference()](#getStencilReference--) | स्टेंसिल टेस्ट के लिए रेफ़रेंस वैल्यू प्राप्त करता है। |
+| [getStencilTest()](#getStencilTest--) | स्टेंसिल टेस्ट को सक्षम या अक्षम करें। |
 | [hashCode()](#hashCode--) | इस इंस्टेंस के लिए हैश कोड लौटाता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBlend(boolean value)](#setBlend-boolean-) | सक्षम या अक्षम करें फ्रैगमेंट ब्लेंडिंग। |
-| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | सेट करता है ब्लेंड रंग जहाँ उपयोग किया जाता है [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
-| [setCullFace(boolean value)](#setCullFace-boolean-) | सक्षम या अक्षम करें cull face |
-| [setCullFaceMode(int value)](#setCullFaceMode-int-) | सेट करता है कौन सा फेस कटा जाएगा। |
-| [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | सेट करता है तुलना फ़ंक्शन जो गहराई परीक्षण में उपयोग किया जाता है |
-| [setDepthMask(boolean value)](#setDepthMask-boolean-) | सक्षम या अक्षम करें गहराई लेखन। |
-| [setDepthTest(boolean value)](#setDepthTest-boolean-) | सक्षम या अक्षम करें गहराई परीक्षण। |
-| [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | सेट करता है कि रंग कैसे मिश्रित होता है। |
-| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | सेट करता है कौन सा क्रम फ्रंट फेस है। |
-| [setPolygonMode(PolygonMode value)](#setPolygonMode-com.aspose.threed.PolygonMode-) | बहुभुज के रेंडर मोड को सेट करता है। |
-| [setScissorTest(boolean value)](#setScissorTest-boolean-) | सक्षम या अक्षम करें scissor test |
-| [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | सेट करता है कि रंग कैसे मिश्रित होता है। |
-| [setStencilMask(int value)](#setStencilMask-int-) | परीक्षण समाप्त होने पर संदर्भ और संग्रहीत स्टेंसिल मान दोनों के साथ AND किया गया मास्क सेट करता है। |
-| [setStencilReference(int value)](#setStencilReference-int-) | स्टेंसिल परीक्षण के लिए संदर्भ मान सेट करता है। |
-| [setStencilTest(boolean value)](#setStencilTest-boolean-) | सक्षम या अक्षम करें स्टेंसिल परीक्षण। |
+| [setBlend(boolean value)](#setBlend-boolean-) | फ़्रैगमेंट ब्लेंडिंग को सक्षम या अक्षम करें। |
+| [setBlendColor(FVector4 value)](#setBlendColor-com.aspose.threed.FVector4-) | ब्लेंड रंग सेट करता है जहाँ उपयोग किया जाता है [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR) |
+| [setCullFace(boolean value)](#setCullFace-boolean-) | कुल फेस को सक्षम या अक्षम करें |
+| [setCullFaceMode(int value)](#setCullFaceMode-int-) | कौन सा फेस कूल्ड किया जाएगा, सेट करता है। |
+| [setDepthFunction(CompareFunction value)](#setDepthFunction-com.aspose.threed.CompareFunction-) | डेप्थ टेस्ट में उपयोग किए जाने वाले तुलना फ़ंक्शन को सेट करता है। |
+| [setDepthMask(boolean value)](#setDepthMask-boolean-) | डेप्थ राइटिंग को सक्षम या अक्षम करें। |
+| [setDepthTest(boolean value)](#setDepthTest-boolean-) | डेप्थ टेस्ट को सक्षम या अक्षम करें। |
+| [setDestinationBlendFactor(BlendFactor value)](#setDestinationBlendFactor-com.aspose.threed.BlendFactor-) | रंग कैसे ब्लेंड किया जाता है, सेट करता है। |
+| [setFrontFace(FrontFace value)](#setFrontFace-com.aspose.threed.FrontFace-) | कौन सा क्रम फ्रंट फेस है, सेट करता है। |
+| [setPolygonMode(PolygonMode value)](#setPolygonMode-com.aspose.threed.PolygonMode-) | बहुभुज का रेंडर मोड सेट करता है। |
+| [setScissorTest(boolean value)](#setScissorTest-boolean-) | सिज़र टेस्ट को सक्षम या अक्षम करें |
+| [setSourceBlendFactor(BlendFactor value)](#setSourceBlendFactor-com.aspose.threed.BlendFactor-) | रंग कैसे ब्लेंड किया जाता है, सेट करता है। |
+| [setStencilMask(int value)](#setStencilMask-int-) | टेस्ट पूरा होने पर रेफ़रेंस और संग्रहीत स्टेंसिल मान दोनों के साथ AND किया गया मास्क सेट करता है। |
+| [setStencilReference(int value)](#setStencilReference-int-) | स्टेंसिल टेस्ट के लिए रेफ़रेंस मान सेट करता है। |
+| [setStencilTest(boolean value)](#setStencilTest-boolean-) | स्टेंसिल टेस्ट को सक्षम या अक्षम करें। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -83,7 +83,7 @@ public void close()
 ```
 
 
-नष्ट करें [RenderState](../../com.aspose.threed/renderstate) और सभी आंतरिक संसाधनों को मुक्त करें।
+डिस्पोज़ करें [RenderState](../../com.aspose.threed/renderstate) और सभी आंतरिक संसाधनों को रिलीज़ करें।
 
 ### compareTo(RenderState other) {#compareTo-com.aspose.threed.RenderState-}
 ```
@@ -91,12 +91,12 @@ public int compareTo(RenderState other)
 ```
 
 
-तुलना करें रेंडर स्टेट को अन्य इंस्टेंस के साथ
+रेंडर स्टेट की तुलना दूसरे इंस्टेंस से करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| other | [RenderState](../../com.aspose.threed/renderstate) | तुलना के लिए एक अन्य रेंडर स्थिति |
+| other | [RenderState](../../com.aspose.threed/renderstate) | तुलना के लिए एक अन्य रेंडर स्टेट |
 
 **Returns:**
 int
@@ -121,7 +121,7 @@ public boolean getBlend()
 ```
 
 
-सक्षम या अक्षम करें फ्रैगमेंट ब्लेंडिंग।
+फ़्रैगमेंट ब्लेंडिंग को सक्षम या अक्षम करें।
 
 **Returns:**
 boolean - फ्रैगमेंट ब्लेंडिंग को सक्षम या अक्षम करें।
@@ -131,7 +131,7 @@ public FVector4 getBlendColor()
 ```
 
 
-प्राप्त करता है ब्लेंड रंग जहाँ उपयोग किया जाता है [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
+ब्लेंड रंग प्राप्त करता है जहाँ उपयोग किया जाता है [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
 
 **Returns:**
 [FVector4](../../com.aspose.threed/fvector4) - the blend color where used in [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
@@ -151,7 +151,7 @@ public boolean getCullFace()
 ```
 
 
-सक्षम या अक्षम करें cull face
+कुल फेस को सक्षम या अक्षम करें
 
 **Returns:**
 boolean - कूल फेस को सक्षम या अक्षम करें
@@ -161,7 +161,7 @@ public int getCullFaceMode()
 ```
 
 
-प्राप्त करता है कौन सा फेस कटा जाएगा।
+कुल किया जाने वाला फेस प्राप्त करता है।
 
 **Returns:**
 int - कौन सा फेस कूल किया जाएगा।
@@ -171,7 +171,7 @@ public CompareFunction getDepthFunction()
 ```
 
 
-प्राप्त करता है तुलना फ़ंक्शन जो गहराई परीक्षण में उपयोग किया जाता है
+डेप्थ टेस्ट में उपयोग किए जाने वाले तुलना फ़ंक्शन को प्राप्त करता है।
 
 **Returns:**
 [CompareFunction](../../com.aspose.threed/comparefunction) - the compare function used in depth test
@@ -181,7 +181,7 @@ public boolean getDepthMask()
 ```
 
 
-सक्षम या अक्षम करें गहराई लेखन।
+डेप्थ राइटिंग को सक्षम या अक्षम करें।
 
 **Returns:**
 boolean - डेप्थ राइटिंग को सक्षम या अक्षम करें।
@@ -191,7 +191,7 @@ public boolean getDepthTest()
 ```
 
 
-सक्षम या अक्षम करें गहराई परीक्षण।
+डेप्थ टेस्ट को सक्षम या अक्षम करें।
 
 **Returns:**
 boolean - डेप्थ टेस्ट को सक्षम या अक्षम करें।
@@ -201,7 +201,7 @@ public BlendFactor getDestinationBlendFactor()
 ```
 
 
-प्राप्त करता है कि रंग कैसे मिश्रित होता है।
+रंग कैसे ब्लेंड किया जाता है, प्राप्त करता है।
 
 **Returns:**
 [BlendFactor](../../com.aspose.threed/blendfactor) - how the color is blended.
@@ -211,7 +211,7 @@ public FrontFace getFrontFace()
 ```
 
 
-प्राप्त करता है कौन सा क्रम फ्रंट फेस है।
+कौन सा क्रम फ्रंट फेस है, प्राप्त करता है।
 
 **Returns:**
 [FrontFace](../../com.aspose.threed/frontface) - which order is front face.
@@ -221,7 +221,7 @@ public PolygonMode getPolygonMode()
 ```
 
 
-प्राप्त करता है बहुभुज का रेंडर मोड।
+पॉलीगॉन का रेंडर मोड प्राप्त करता है।
 
 **Returns:**
 [PolygonMode](../../com.aspose.threed/polygonmode) - the polygon's render mode.
@@ -231,7 +231,7 @@ public boolean getScissorTest()
 ```
 
 
-सक्षम या अक्षम करें scissor test
+सिज़र टेस्ट को सक्षम या अक्षम करें
 
 **Returns:**
 boolean - सिज़र टेस्ट को सक्षम या अक्षम करें
@@ -241,7 +241,7 @@ public BlendFactor getSourceBlendFactor()
 ```
 
 
-प्राप्त करता है कि रंग कैसे मिश्रित होता है।
+रंग कैसे ब्लेंड किया जाता है, प्राप्त करता है।
 
 **Returns:**
 [BlendFactor](../../com.aspose.threed/blendfactor) - how the color is blended.
@@ -251,7 +251,7 @@ public StencilState getStencilBackFace()
 ```
 
 
-प्राप्त करता है बैक फेस के लिए स्टेंसिल स्थिति।
+बैक फेस के लिए स्टेंसिल स्टेट प्राप्त करता है।
 
 **Returns:**
 [StencilState](../../com.aspose.threed/stencilstate) - the stencil state for back face.
@@ -261,7 +261,7 @@ public StencilState getStencilFrontFace()
 ```
 
 
-प्राप्त करता है फ्रंट फेस के लिए स्टेंसिल स्थिति।
+फ्रंट फेस के लिए स्टेंसिल स्टेट प्राप्त करता है।
 
 **Returns:**
 [StencilState](../../com.aspose.threed/stencilstate) - the stencil state for front face.
@@ -271,27 +271,27 @@ public int getStencilMask()
 ```
 
 
-प्राप्त करता है वह मास्क जो परीक्षण समाप्त होने पर दोनों रेफ़रेंस और संग्रहीत स्टेंसिल मान के साथ AND किया जाता है।
+टेस्ट समाप्त होने पर रेफ़रेंस और संग्रहीत स्टेंसिल वैल्यू दोनों के साथ AND किया गया मास्क प्राप्त करता है।
 
 **Returns:**
-int - परीक्षण समाप्त होने पर संदर्भ और संग्रहीत स्टेंसिल मान दोनों के साथ AND किया गया मास्क।
+int - टेस्ट पूरा होने पर रेफ़रेंस और संग्रहीत स्टेंसिल मान दोनों के साथ AND किया गया मास्क।
 ### getStencilReference() {#getStencilReference--}
 ```
 public int getStencilReference()
 ```
 
 
-प्राप्त करता है स्टेंसिल परीक्षण के लिए रेफ़रेंस मान।
+स्टेंसिल टेस्ट के लिए रेफ़रेंस वैल्यू प्राप्त करता है।
 
 **Returns:**
-int - स्टेंसिल परीक्षण के लिए संदर्भ मान।
+int - स्टेंसिल टेस्ट के लिए रेफ़रेंस मान।
 ### getStencilTest() {#getStencilTest--}
 ```
 public boolean getStencilTest()
 ```
 
 
-सक्षम या अक्षम करें स्टेंसिल परीक्षण।
+स्टेंसिल टेस्ट को सक्षम या अक्षम करें।
 
 **Returns:**
 boolean - स्टेंसिल टेस्ट को सक्षम या अक्षम करें।
@@ -327,7 +327,7 @@ public void setBlend(boolean value)
 ```
 
 
-सक्षम या अक्षम करें फ्रैगमेंट ब्लेंडिंग।
+फ़्रैगमेंट ब्लेंडिंग को सक्षम या अक्षम करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -340,7 +340,7 @@ public void setBlendColor(FVector4 value)
 ```
 
 
-सेट करता है ब्लेंड रंग जहाँ उपयोग किया जाता है [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
+ब्लेंड रंग सेट करता है जहाँ उपयोग किया जाता है [BlendFactor.CONSTANT\_COLOR](../../com.aspose.threed/blendfactor\#CONSTANT-COLOR)
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -353,7 +353,7 @@ public void setCullFace(boolean value)
 ```
 
 
-सक्षम या अक्षम करें cull face
+कुल फेस को सक्षम या अक्षम करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -366,7 +366,7 @@ public void setCullFaceMode(int value)
 ```
 
 
-सेट करता है कौन सा फेस कटा जाएगा।
+कौन सा फेस कूल्ड किया जाएगा, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -379,7 +379,7 @@ public void setDepthFunction(CompareFunction value)
 ```
 
 
-सेट करता है तुलना फ़ंक्शन जो गहराई परीक्षण में उपयोग किया जाता है
+डेप्थ टेस्ट में उपयोग किए जाने वाले तुलना फ़ंक्शन को सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -392,7 +392,7 @@ public void setDepthMask(boolean value)
 ```
 
 
-सक्षम या अक्षम करें गहराई लेखन।
+डेप्थ राइटिंग को सक्षम या अक्षम करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -405,7 +405,7 @@ public void setDepthTest(boolean value)
 ```
 
 
-सक्षम या अक्षम करें गहराई परीक्षण।
+डेप्थ टेस्ट को सक्षम या अक्षम करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -418,7 +418,7 @@ public void setDestinationBlendFactor(BlendFactor value)
 ```
 
 
-सेट करता है कि रंग कैसे मिश्रित होता है।
+रंग कैसे ब्लेंड किया जाता है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -431,7 +431,7 @@ public void setFrontFace(FrontFace value)
 ```
 
 
-सेट करता है कौन सा क्रम फ्रंट फेस है।
+कौन सा क्रम फ्रंट फेस है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -444,7 +444,7 @@ public void setPolygonMode(PolygonMode value)
 ```
 
 
-बहुभुज के रेंडर मोड को सेट करता है।
+बहुभुज का रेंडर मोड सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -457,7 +457,7 @@ public void setScissorTest(boolean value)
 ```
 
 
-सक्षम या अक्षम करें scissor test
+सिज़र टेस्ट को सक्षम या अक्षम करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -470,7 +470,7 @@ public void setSourceBlendFactor(BlendFactor value)
 ```
 
 
-सेट करता है कि रंग कैसे मिश्रित होता है।
+रंग कैसे ब्लेंड किया जाता है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -483,7 +483,7 @@ public void setStencilMask(int value)
 ```
 
 
-परीक्षण समाप्त होने पर संदर्भ और संग्रहीत स्टेंसिल मान दोनों के साथ AND किया गया मास्क सेट करता है।
+टेस्ट पूरा होने पर रेफ़रेंस और संग्रहीत स्टेंसिल मान दोनों के साथ AND किया गया मास्क सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -496,7 +496,7 @@ public void setStencilReference(int value)
 ```
 
 
-स्टेंसिल परीक्षण के लिए संदर्भ मान सेट करता है।
+स्टेंसिल टेस्ट के लिए रेफ़रेंस मान सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -509,7 +509,7 @@ public void setStencilTest(boolean value)
 ```
 
 
-सक्षम या अक्षम करें स्टेंसिल परीक्षण।
+स्टेंसिल टेस्ट को सक्षम या अक्षम करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

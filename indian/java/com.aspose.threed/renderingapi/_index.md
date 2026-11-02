@@ -1,7 +1,7 @@
 ---
 title: "RenderingAPI"
-second_title: "Aspose.3D for Java API Reference"
-description: "आम तौर पर उपयोग किए जाने वाले रेंडरिंग API"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "आमतौर पर उपयोग किए जाने वाले रेंडरिंग API"
 type: docs
 weight: 269
 url: /hi/java/com.aspose.threed/renderingapi/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum RenderingAPI extends Enum<RenderingAPI>
 ```
 
-आम तौर पर उपयोग किए जाने वाले रेंडरिंग API
+आमतौर पर उपयोग किए जाने वाले रेंडरिंग API
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |

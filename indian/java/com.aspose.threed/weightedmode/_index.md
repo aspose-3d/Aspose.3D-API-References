@@ -1,6 +1,6 @@
 ---
 title: "WeightedMode"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "वेटेड मोड।"
 type: docs
 weight: 231
@@ -14,19 +14,19 @@ public final class WeightedMode
 ```
 
 वेटेड मोड।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [WeightedMode()](#WeightedMode--) |  |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [BOTH](#BOTH) | out और next in टैन्जेंट दोनों को वेट किया गया है। |
-| [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | Next in(left) टैन्जेंट को वेट किया गया है। |
-| [NONE](#NONE) | out और next in वेट्स दोनों का उपयोग नहीं किया जाता है। |
-| [OUT_WEIGHT](#OUT-WEIGHT) | Out(right) टैन्जेंट को वेट किया गया है। |
+| [BOTH](#BOTH) | बाहर और अगले इन टैन्जेंट दोनों को वेटेड किया गया है। |
+| [NEXT_IN_WEIGHT](#NEXT-IN-WEIGHT) | अगला इन (बायाँ) टैन्जेंट वेटेड है। |
+| [NONE](#NONE) | बाहर और अगले इन वेट्स दोनों का उपयोग नहीं किया गया है। |
+| [OUT_WEIGHT](#OUT-WEIGHT) | बाहर (दायाँ) टैन्जेंट वेटेड है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -52,7 +52,7 @@ public static final int BOTH
 ```
 
 
-out और next in टैन्जेंट दोनों को वेट किया गया है।
+बाहर और अगले इन टैन्जेंट दोनों को वेटेड किया गया है।
 
 ### NEXT_IN_WEIGHT {#NEXT-IN-WEIGHT}
 ```
@@ -60,7 +60,7 @@ public static final int NEXT_IN_WEIGHT
 ```
 
 
-Next in(left) टैन्जेंट को वेट किया गया है।
+अगला इन (बायाँ) टैन्जेंट वेटेड है।
 
 ### NONE {#NONE}
 ```
@@ -68,7 +68,7 @@ public static final int NONE
 ```
 
 
-out और next in वेट्स दोनों का उपयोग नहीं किया जाता है। जब गणना को टैन्जेंट जानकारी की आवश्यकता होती है, तो डिफ़ॉल्ट मान (0.3333) उपयोग किया जाएगा।
+बाहर और अगले इन वेट्स दोनों का उपयोग नहीं किया गया है। जब गणना को टैन्जेंट जानकारी की आवश्यकता होती है, तो डिफ़ॉल्ट मान (0.3333) उपयोग किया जाएगा।
 
 ### OUT_WEIGHT {#OUT-WEIGHT}
 ```
@@ -76,7 +76,7 @@ public static final int OUT_WEIGHT
 ```
 
 
-Out(right) टैन्जेंट को वेट किया गया है।
+बाहर (दायाँ) टैन्जेंट वेटेड है।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

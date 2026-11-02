@@ -1,6 +1,6 @@
 ---
 title: "Material"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "सामग्री ज्यामिति की दृश्य उपस्थिति के लिए आवश्यक पैरामीटरों को परिभाषित करती है।"
 type: docs
 weight: 98
@@ -16,7 +16,7 @@ java.lang.Iterable
 public abstract class Material extends A3DObject implements Iterable<TextureSlot>
 ```
 
-Material जियोमेट्री की दृश्य उपस्थिति के लिए आवश्यक पैरामीटर को परिभाषित करता है। Aspose.3D [LambertMaterial](../../com.aspose.threed/lambertmaterial), [PhongMaterial](../../com.aspose.threed/phongmaterial) और [ShaderMaterial](../../com.aspose.threed/shadermaterial) **Example:**
+Material ज्यामिति की दृश्य उपस्थिति के लिए आवश्यक पैरामीटर परिभाषित करता है। Aspose.3D [LambertMaterial](../../com.aspose.threed/lambertmaterial), [PhongMaterial](../../com.aspose.threed/phongmaterial) और [ShaderMaterial](../../com.aspose.threed/shadermaterial) के लिए शेडिंग मॉडल प्रदान करता है **Example:**
 
 ```
 var mat = new LambertMaterial();
@@ -32,11 +32,11 @@ var mat = new LambertMaterial();
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक पर्यावरणीय टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक उत्सर्जक टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_NORMAL](#MAP-NORMAL) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक सामान्य टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_SPECULAR](#MAP-SPECULAR) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए। |
+| [MAP_AMBIENT](#MAP-AMBIENT) | एक ambient टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | एक diffuse टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | एक emissive टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_NORMAL](#MAP-NORMAL) | एक normal टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_SPECULAR](#MAP-SPECULAR) | एक specular टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -49,14 +49,14 @@ var mat = new LambertMaterial();
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | निर्दिष्ट स्लॉट से टेक्सचर प्राप्त करता है, यह सामग्री की प्रॉपर्टी नाम या शेडर के पैरामीटर नाम हो सकता है। |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एन्यूमरेटर प्राप्त करता है। |
+| [iterator()](#iterator--) | आंतरिक टेक्सचर स्लॉट्स को एने्यूमरेट करने के लिए एने्यूरेटर प्राप्त करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | निर्दिष्ट स्लॉट में टेक्सचर सेट करता है |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है |
 | [toString()](#toString--) | ऑब्जेक्ट को स्ट्रिंग में फ़ॉर्मेट करता है |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -67,7 +67,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक पर्यावरणीय टेक्सचर मैपिंग असाइन करने के लिए।
+एक ambient टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -75,7 +75,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए।
+एक diffuse टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -83,7 +83,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक उत्सर्जक टेक्सचर मैपिंग असाइन करने के लिए।
+एक emissive टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -91,7 +91,7 @@ public static final String MAP_NORMAL
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक सामान्य टेक्सचर मैपिंग असाइन करने के लिए।
+एक normal टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -99,7 +99,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए।
+एक specular टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -122,7 +122,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -215,7 +215,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एन्यूमरेटर प्राप्त करता है।
+आंतरिक टेक्सचर स्लॉट्स को एने्यूमरेट करने के लिए एने्यूरेटर प्राप्त करता है।
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -298,7 +298,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-निर्दिष्ट स्लॉट में टेक्सचर सेट करता है
+टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,6 +1,6 @@
 ---
 title: "CustomObject"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "3D फ़ाइलों में उपयोग किए जाने वाले मेटा डेटा या कस्टम ऑब्जेक्ट्स इस क्लास द्वारा प्रबंधित होते हैं।"
 type: docs
 weight: 39
@@ -14,12 +14,12 @@ public class CustomObject extends A3DObject
 ```
 
 3D फ़ाइलों में उपयोग किए जाने वाले मेटा डेटा या कस्टम ऑब्जेक्ट्स इस क्लास द्वारा प्रबंधित होते हैं। सभी कस्टम प्रॉपर्टीज़ को डायनामिक प्रॉपर्टीज़ के रूप में सहेजा जाता है।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [CustomObject()](#CustomObject--) | क्लास [CustomObject](../../com.aspose.threed/customobject) का एक नया उदाहरण प्रारंभ करता है। |
-| [CustomObject(String name)](#CustomObject-java.lang.String-) | क्लास [CustomObject](../../com.aspose.threed/customobject) का एक नया उदाहरण प्रारंभ करता है। |
+| [CustomObject()](#CustomObject--) | नए [CustomObject](../../com.aspose.threed/customobject) क्लास का एक नया उदाहरण प्रारंभ करता है। |
+| [CustomObject(String name)](#CustomObject-java.lang.String-) | नए [CustomObject](../../com.aspose.threed/customobject) क्लास का एक नया उदाहरण प्रारंभ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public CustomObject()
 ```
 
 
-क्लास [CustomObject](../../com.aspose.threed/customobject) का एक नया उदाहरण प्रारंभ करता है।
+नए [CustomObject](../../com.aspose.threed/customobject) क्लास का एक नया उदाहरण प्रारंभ करता है।
 
 ### CustomObject(String name) {#CustomObject-java.lang.String-}
 ```
@@ -55,7 +55,7 @@ public CustomObject(String name)
 ```
 
 
-क्लास [CustomObject](../../com.aspose.threed/customobject) का एक नया उदाहरण प्रारंभ करता है।
+नए [CustomObject](../../com.aspose.threed/customobject) क्लास का एक नया उदाहरण प्रारंभ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -83,7 +83,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

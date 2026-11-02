@@ -1,7 +1,7 @@
 ---
 title: "PatchDirection"
-second_title: "Aspose.3D for Java API Reference"
-description: "Patch के U और V दिशा।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "Patchs के U और V दिशा।"
 type: docs
 weight: 120
 url: /hi/java/com.aspose.threed/patchdirection/
@@ -14,9 +14,9 @@ public class PatchDirection
 ```
 
 Patch की U और V दिशा।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [PatchDirection()](#PatchDirection--) |  |
 ## विधियाँ
@@ -25,14 +25,14 @@ Patch की U और V दिशा।
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getClosed()](#getClosed--) | यह मान प्राप्त करता है जो दर्शाता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं। |
+| [getClosed()](#getClosed--) | यह प्राप्त करता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं, दर्शाने वाला मान। |
 | [getControlPoints()](#getControlPoints--) | वर्तमान दिशा में नियंत्रण बिंदुओं की गिनती प्राप्त करता है। |
 | [getDivisions()](#getDivisions--) | सन्निकट नियंत्रण बिंदुओं के बीच विभाजनों की संख्या प्राप्त करता है। |
 | [getType()](#getType--) | पैच का प्रकार प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setClosed(boolean value)](#setClosed-boolean-) | यह मान सेट करता है जो दर्शाता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं। |
+| [setClosed(boolean value)](#setClosed-boolean-) | यह सेट करता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं, दर्शाने वाला मान। |
 | [setControlPoints(int value)](#setControlPoints-int-) | वर्तमान दिशा में नियंत्रण बिंदुओं की गिनती सेट करता है। |
 | [setDivisions(int value)](#setDivisions-int-) | सन्निकट नियंत्रण बिंदुओं के बीच विभाजनों की संख्या सेट करता है। |
 | [setType(PatchDirectionType value)](#setType-com.aspose.threed.PatchDirectionType-) | पैच का प्रकार सेट करता है। |
@@ -77,10 +77,10 @@ public boolean getClosed()
 ```
 
 
-यह मान प्राप्त करता है जो दर्शाता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं।
+यह प्राप्त करता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं, दर्शाने वाला मान।
 
 **Returns:**
-boolean - यह मान दर्शाता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं।
+boolean - यह दर्शाने वाला मान कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं।
 ### getControlPoints() {#getControlPoints--}
 ```
 public int getControlPoints()
@@ -143,7 +143,7 @@ public void setClosed(boolean value)
 ```
 
 
-यह मान सेट करता है जो दर्शाता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं।
+यह सेट करता है कि यह [PatchDirection](../../com.aspose.threed/patchdirection) बंद वक्र है या नहीं, दर्शाने वाला मान।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

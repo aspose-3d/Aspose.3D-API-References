@@ -1,7 +1,7 @@
 ---
 title: "AxisSystem"
-second_title: "Aspose.3D for Java API Reference"
-description: "Axis system निर्देशांक प्रणाली, अप वेक्टर और फ्रंट वेक्टर का संयोजन है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "Axis system कोऑर्डिनेट सिस्टम के अप वेक्टर और फ्रंट वेक्टर का संयोजन है।"
 type: docs
 weight: 18
 url: /hi/java/com.aspose.threed/axissystem/
@@ -14,9 +14,9 @@ public class AxisSystem
 ```
 
 एक्सिस सिस्टम कोऑर्डिनेट सिस्टम, अप वेक्टर और फ्रंट वेक्टर का संयोजन है।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [AxisSystem(CoordinateSystem coordinateSystem, Axis up)](#AxisSystem-com.aspose.threed.CoordinateSystem-com.aspose.threed.Axis-) | एक नया axis system बनाता है |
 | [AxisSystem(Axis up, Axis front)](#AxisSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-) | एक नया axis system बनाता है |
@@ -26,16 +26,16 @@ public class AxisSystem
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromAssetInfo(AssetInfo assetInfo)](#fromAssetInfo-com.aspose.threed.AssetInfo-) | बनाएँ [AxisSystem](../../com.aspose.threed/axissystem) from [AssetInfo](../../com.aspose.threed/assetinfo) |
+| [fromAssetInfo(AssetInfo assetInfo)](#fromAssetInfo-com.aspose.threed.AssetInfo-) | बनाएँ [AxisSystem](../../com.aspose.threed/axissystem) को [AssetInfo](../../com.aspose.threed/assetinfo) से |
 | [getClass()](#getClass--) |  |
-| [getCoordinateSystem()](#getCoordinateSystem--) | इस axis system का निर्देशांक प्रणाली प्राप्त करता है। |
+| [getCoordinateSystem()](#getCoordinateSystem--) | इस axis system का कोऑर्डिनेट सिस्टम प्राप्त करता है। |
 | [getFront()](#getFront--) | इस axis system का फ्रंट वेक्टर प्राप्त करता है |
 | [getUp()](#getUp--) | इस axis system का अप वेक्टर प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [transformTo(AxisSystem targetSystem)](#transformTo-com.aspose.threed.AxisSystem-) | वर्तमान axis system से लक्ष्य axis system में परिवर्तित करने के लिए उपयोग की जाने वाली मैट्रिक्स बनाएँ। |
+| [transformTo(AxisSystem targetSystem)](#transformTo-com.aspose.threed.AxisSystem-) | एक मैट्रिक्स बनाएँ जिसका उपयोग वर्तमान axis system से लक्ष्य axis system में रूपांतरण के लिए किया जाता है। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -50,7 +50,7 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | इस axis system में उपयोग किया गया निर्देशांक प्रणाली |
+| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | इस axis system में उपयोग किया गया कोऑर्डिनेट सिस्टम |
 | up | [Axis](../../com.aspose.threed/axis) | axis system का अप वेक्टर |
 
 ### AxisSystem(Axis up, Axis front) {#AxisSystem-com.aspose.threed.Axis-com.aspose.threed.Axis-}
@@ -78,7 +78,7 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | इस axis system में उपयोग किया गया निर्देशांक प्रणाली |
+| coordinateSystem | [CoordinateSystem](../../com.aspose.threed/coordinatesystem) | इस axis system में उपयोग किया गया कोऑर्डिनेट सिस्टम |
 | up | [Axis](../../com.aspose.threed/axis) | axis system का अप वेक्टर |
 | front | [Axis](../../com.aspose.threed/axis) | axis system का फ्रंट वेक्टर |
 
@@ -103,12 +103,12 @@ public static AxisSystem fromAssetInfo(AssetInfo assetInfo)
 ```
 
 
-बनाएँ [AxisSystem](../../com.aspose.threed/axissystem) from [AssetInfo](../../com.aspose.threed/assetinfo)
+बनाएँ [AxisSystem](../../com.aspose.threed/axissystem) को [AssetInfo](../../com.aspose.threed/assetinfo) से
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| assetInfo | [AssetInfo](../../com.aspose.threed/assetinfo) | किस एसेट जानकारी से निर्देशांक प्रणाली, अप और फ्रंट वेक्टर पढ़ना है। |
+| assetInfo | [AssetInfo](../../com.aspose.threed/assetinfo) | किस एसेट इन्फो से कोऑर्डिनेट सिस्टम, अप और फ्रंट वेक्टर पढ़े जाएँ। |
 
 **Returns:**
 [AxisSystem](../../com.aspose.threed/axissystem) - Axis system containg coordinate system, up, front from given asset info
@@ -128,7 +128,7 @@ public CoordinateSystem getCoordinateSystem()
 ```
 
 
-इस axis system का निर्देशांक प्रणाली प्राप्त करता है।
+इस axis system का कोऑर्डिनेट सिस्टम प्राप्त करता है।
 
 **Returns:**
 [CoordinateSystem](../../com.aspose.threed/coordinatesystem) - the coordinate system of this axis system.
@@ -194,7 +194,7 @@ public Matrix4 transformTo(AxisSystem targetSystem)
 ```
 
 
-वर्तमान axis system से लक्ष्य axis system में परिवर्तित करने के लिए उपयोग की जाने वाली मैट्रिक्स बनाएँ।
+एक मैट्रिक्स बनाएँ जिसका उपयोग वर्तमान axis system से लक्ष्य axis system में रूपांतरण के लिए किया जाता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

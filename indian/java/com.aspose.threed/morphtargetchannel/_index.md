@@ -1,6 +1,6 @@
 ---
 title: "MorphTargetChannel"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "एक MorphTargetChannel का उपयोग  द्वारा लक्ष्य ज्यामितियों को व्यवस्थित करने के लिए किया जाता है।"
 type: docs
 weight: 107
@@ -13,13 +13,13 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class MorphTargetChannel extends A3DObject
 ```
 
-एक MorphTargetChannel का उपयोग [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) द्वारा लक्ष्य ज्यामितियों को व्यवस्थित करने के लिए किया जाता है। FBX जैसे कुछ फ़ाइल स्वरूप समानांतर में कई चैनलों का समर्थन करते हैं। **Remarks:** वजन 0 और 1.0 के बीच है, और लक्ष्य के लिए डिफ़ॉल्ट वजन 0.0 है;
-## कंस्ट्रक्टर
+एक MorphTargetChannel का उपयोग [MorphTargetDeformer](../../com.aspose.threed/morphtargetdeformer) द्वारा लक्ष्य ज्यामितियों को व्यवस्थित करने के लिए किया जाता है। कुछ फ़ाइल फ़ॉर्मेट जैसे FBX समानांतर में कई चैनलों का समर्थन करते हैं। **Remarks:** वजन 0 और 1.0 के बीच है, और लक्ष्य के लिए डिफ़ॉल्ट वजन 0.0 है;
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [MorphTargetChannel(String name)](#MorphTargetChannel-java.lang.String-) | नए [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) वर्ग का एक नया उदाहरण आरंभ करता है। |
-| [MorphTargetChannel()](#MorphTargetChannel--) | नए [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) वर्ग का एक नया उदाहरण आरंभ करता है। |
+| [MorphTargetChannel(String name)](#MorphTargetChannel-java.lang.String-) | नया उदाहरण प्रारंभ करता है [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) क्लास का। |
+| [MorphTargetChannel()](#MorphTargetChannel--) | नया उदाहरण प्रारंभ करता है [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) क्लास का। |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
@@ -61,7 +61,7 @@ public MorphTargetChannel(String name)
 ```
 
 
-नए [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) वर्ग का एक नया उदाहरण आरंभ करता है।
+नया उदाहरण प्रारंभ करता है [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) क्लास का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -74,7 +74,7 @@ public MorphTargetChannel()
 ```
 
 
-नए [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) वर्ग का एक नया उदाहरण आरंभ करता है।
+नया उदाहरण प्रारंभ करता है [MorphTargetChannel](../../com.aspose.threed/morphtargetchannel) क्लास का।
 
 ### DEFAULT_WEIGHT {#DEFAULT-WEIGHT}
 ```
@@ -105,7 +105,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

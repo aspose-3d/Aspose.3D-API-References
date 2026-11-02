@@ -1,7 +1,7 @@
 ---
 title: "TextureCodec"
-second_title: "Aspose.3D for Java API Reference"
-description: "टेक्सचर के लिए एन्कोडर और डिकोडर प्रबंधित करने वाली क्लास।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "टेक्सचर के लिए एन्कोडर और डिकोडर को प्रबंधित करने वाली क्लास।"
 type: docs
 weight: 186
 url: /hi/java/com.aspose.threed/texturecodec/
@@ -13,10 +13,10 @@ java.lang.Object
 public class TextureCodec
 ```
 
-टेक्सचर के लिए एन्कोडर और डिकोडर प्रबंधित करने वाली क्लास।
-## कंस्ट्रक्टर
+टेक्सचर के लिए एन्कोडर और डिकोडर को प्रबंधित करने वाली क्लास।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [TextureCodec()](#TextureCodec--) |  |
 ## विधियाँ
@@ -31,7 +31,7 @@ public class TextureCodec
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [registerCodec(ITextureCodec codec)](#registerCodec-com.aspose.threed.ITextureCodec-) | टेक्सचर एन्कोडर और डिकोडर का एक सेट रजिस्टर करें |
+| [registerCodec(ITextureCodec codec)](#registerCodec-com.aspose.threed.ITextureCodec-) | टेक्सचर एन्कोडर और डिकोडर का एक सेट पंजीकृत करें |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -140,7 +140,7 @@ public static void registerCodec(ITextureCodec codec)
 ```
 
 
-टेक्सचर एन्कोडर और डिकोडर का एक सेट रजिस्टर करें
+टेक्सचर एन्कोडर और डिकोडर का एक सेट पंजीकृत करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

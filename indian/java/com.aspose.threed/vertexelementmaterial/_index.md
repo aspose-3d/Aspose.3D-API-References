@@ -1,6 +1,6 @@
 ---
 title: "VertexElementMaterial"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "निर्दिष्ट घटकों के लिए मैटेरियल इंडेक्स को परिभाषित करता है।"
 type: docs
 weight: 213
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementMaterial extends VertexElement
 ```
 
-निर्दिष्ट घटकों के लिए सामग्री सूचकांक निर्धारित करता है। एक नोड के पास कई सामग्री हो सकती हैं, [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) का उपयोग ज्यामिति के विभिन्न भागों को विभिन्न सामग्रियों में रेंडर करने के लिए किया जाता है। **Example:** निम्नलिखित कोड दिखाता है कि बॉक्स के विभिन्न चेहरों को विभिन्न सामग्री कैसे सौंपें।
+निर्दिष्ट घटकों के लिए सामग्री सूचकांक परिभाषित करता है। एक नोड में कई सामग्री हो सकती हैं, [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) का उपयोग ज्यामिति के विभिन्न भागों को विभिन्न सामग्रियों में रेंडर करने के लिए किया जाता है। **Example:** निम्नलिखित कोड दिखाता है कि बॉक्स के विभिन्न चेहरों को विभिन्न सामग्री कैसे सौंपें।
 
 ```
 // Create a mesh of box(A box is composed by 6 planes)
@@ -23,11 +23,11 @@ public class VertexElementMaterial extends VertexElement
              // And specify different material index for each plane
              mat.Indices.AddRange(new int[] { 0, 1, 2, 3, 4, 5 });
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [VertexElementMaterial()](#VertexElementMaterial--) | एक नया उदाहरण प्रारंभ करता है [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) क्लास का। |
+| [VertexElementMaterial()](#VertexElementMaterial--) | नया उदाहरण प्रारंभ करता है [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) क्लास का। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -38,17 +38,17 @@ public class VertexElementMaterial extends VertexElement
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getIndices()](#getIndices--) | इंडेक्स डेटा प्राप्त करता है। |
-| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, यह प्राप्त करता है। |
+| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है। |
+| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, प्राप्त करता है। |
 | [getVertexElementType()](#getVertexElementType--) | [VertexElement](../../com.aspose.threed/vertexelement) का प्रकार प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setIndices(int[] data)](#setIndices-int---) | इंडेक्स लोड करें |
-| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, यह सेट करता है। |
+| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, यह सेट करता है। |
+| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, सेट करता है। |
 | [toString()](#toString--) | वर्टेक्स तत्व का स्ट्रिंग प्रतिनिधित्व। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,7 +59,7 @@ public VertexElementMaterial()
 ```
 
 
-एक नया उदाहरण प्रारंभ करता है [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) क्लास का।
+नया उदाहरण प्रारंभ करता है [VertexElementMaterial](../../com.aspose.threed/vertexelementmaterial) क्लास का।
 
 ### clear() {#clear--}
 ```
@@ -80,7 +80,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें। |
+| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -141,7 +141,7 @@ public MappingMode getMappingMode()
 ```
 
 
-तत्व कैसे मैप किया गया है, यह प्राप्त करता है।
+तत्व कैसे मैप किया गया है, प्राप्त करता है।
 
 **Returns:**
 [MappingMode](../../com.aspose.threed/mappingmode) - how the element is mapped.
@@ -161,7 +161,7 @@ public ReferenceMode getReferenceMode()
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है।
+तत्व कैसे संदर्भित किया गया है, प्राप्त करता है।
 
 **Returns:**
 [ReferenceMode](../../com.aspose.threed/referencemode) - how the element is referenced.
@@ -220,7 +220,7 @@ public void setMappingMode(MappingMode value)
 ```
 
 
-तत्व कैसे मैप किया गया है, यह सेट करता है।
+तत्व कैसे मैप किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -246,7 +246,7 @@ public void setReferenceMode(ReferenceMode value)
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह सेट करता है।
+तत्व कैसे संदर्भित किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

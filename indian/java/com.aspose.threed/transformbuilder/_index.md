@@ -1,7 +1,7 @@
 ---
 title: "TransformBuilder"
-second_title: "Aspose.3D for Java API Reference"
-description: "यह ट्रांसफ़ॉर्म मैट्रिक्स को एक श्रृंखला के ट्रांसफ़ॉर्मेशन द्वारा बनाने के लिए उपयोग किया जाता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "यह ट्रांसफ़ॉर्म मैट्रिक्स को ट्रांसफ़ॉर्मेशन की श्रृंखला द्वारा बनाने के लिए उपयोग किया जाता है।"
 type: docs
 weight: 191
 url: /hi/java/com.aspose.threed/transformbuilder/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TransformBuilder
 ```
 
-The [TransformBuilder](../../com.aspose.threed/transformbuilder) का उपयोग ट्रांसफ़ॉर्म मैट्रिक्स को एक श्रृंखला के ट्रांसफ़ॉर्मेशन द्वारा बनाने के लिए किया जाता है। **Example:** निम्नलिखित कोड दिखाता है कि कैसे एक सेट ऑपरेशन द्वारा मैट्रिक्स बनाया जाए
+The [TransformBuilder](../../com.aspose.threed/transformbuilder) को ट्रांसफ़ॉर्मेशन की श्रृंखला द्वारा ट्रांसफ़ॉर्म मैट्रिक्स बनाने के लिए उपयोग किया जाता है। **Example:** निम्नलिखित कोड दिखाता है कि कैसे एक सेट ऑपरेशन द्वारा मैट्रिक्स बनाया जाए
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -22,13 +22,13 @@ TransformBuilder tb = new TransformBuilder();
      tb.rotateEulerDegree(90, 0, 0);
      System.out.printf("Transform Matrix: %s", tb.getMatrix());
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [TransformBuilder(Matrix4 initial, ComposeOrder order)](#TransformBuilder-com.aspose.threed.Matrix4-com.aspose.threed.ComposeOrder-) | एक प्रारंभिक ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट संयोजन क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं |
-| [TransformBuilder(ComposeOrder order)](#TransformBuilder-com.aspose.threed.ComposeOrder-) | एक प्रारंभिक आइडेंटिटी ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट संयोजन क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं |
-| [TransformBuilder()](#TransformBuilder--) | एक प्रारंभिक आइडेंटिटी ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट संयोजन क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं |
+| [TransformBuilder(Matrix4 initial, ComposeOrder order)](#TransformBuilder-com.aspose.threed.Matrix4-com.aspose.threed.ComposeOrder-) | प्रारंभिक ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट कंपोज़ क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं |
+| [TransformBuilder(ComposeOrder order)](#TransformBuilder-com.aspose.threed.ComposeOrder-) | प्रारंभिक आइडेंटिटी ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट कंपोज़ क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं |
+| [TransformBuilder()](#TransformBuilder--) | प्रारंभिक आइडेंटिटी ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट कंपोज़ क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -37,7 +37,7 @@ TransformBuilder tb = new TransformBuilder();
 | [compose(Matrix4 m)](#compose-com.aspose.threed.Matrix4-) | आर्ग्यूमेंट को आंतरिक मैट्रिक्स में जोड़ें या पहले रखें। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getComposeOrder()](#getComposeOrder--) | श्रृंखला के संयोजन क्रम को प्राप्त करता है। |
+| [getComposeOrder()](#getComposeOrder--) | श्रृंखला के कंपोज़ क्रम को प्राप्त करता है। |
 | [getMatrix()](#getMatrix--) | वर्तमान मैट्रिक्स मान प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -54,10 +54,10 @@ TransformBuilder tb = new TransformBuilder();
 | [rotateRadian(Vector3 rot, RotationOrder order)](#rotateRadian-com.aspose.threed.Vector3-com.aspose.threed.RotationOrder-) | निर्दिष्ट क्रम के साथ घूर्णन जोड़ें |
 | [rotateRadian(double angle, Vector3 axis)](#rotateRadian-double-com.aspose.threed.Vector3-) | रेडियन में घूर्णन रूपांतरण को श्रृंखलाबद्ध करें |
 | [scale(Vector3 s)](#scale-com.aspose.threed.Vector3-) | स्केल रूपांतरण को श्रृंखलाबद्ध करें **Example:** |
-| [scale(double s)](#scale-double-) | एक घटक को s द्वारा स्केल किए गए स्केलिंग रूपांतरण मैट्रिक्स को श्रृंखलाबद्ध करें **Example:** |
+| [scale(double s)](#scale-double-) | एक घटक को s द्वारा स्केल किए हुए स्केलिंग रूपांतरण मैट्रिक्स को श्रृंखलाबद्ध करें **Example:** |
 | [scale(double x, double y, double z)](#scale-double-double-double-) | स्केलिंग रूपांतरण मैट्रिक्स को श्रृंखलाबद्ध करें **Example:** |
-| [setComposeOrder(ComposeOrder value)](#setComposeOrder-com.aspose.threed.ComposeOrder-) | श्रृंखला संयोजन क्रम सेट करता है। |
-| [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | वर्तमान मैट्रिक्स मान सेट करता है |
+| [setComposeOrder(ComposeOrder value)](#setComposeOrder-com.aspose.threed.ComposeOrder-) | श्रृंखला संयोजन क्रम को सेट करता है। |
+| [setMatrix(Matrix4 value)](#setMatrix-com.aspose.threed.Matrix4-) | वर्तमान मैट्रिक्स मान को सेट करता है |
 | [toString()](#toString--) |  |
 | [translate(Vector3 v)](#translate-com.aspose.threed.Vector3-) | अनुवाद रूपांतरण को श्रृंखलाबद्ध करें **Example:** |
 | [translate(double tx, double ty, double tz)](#translate-double-double-double-) | अनुवाद रूपांतरण को श्रृंखलाबद्ध करें **Example:** |
@@ -70,7 +70,7 @@ public TransformBuilder(Matrix4 initial, ComposeOrder order)
 ```
 
 
-एक प्रारंभिक ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट संयोजन क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं
+प्रारंभिक ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट कंपोज़ क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -84,7 +84,7 @@ public TransformBuilder(ComposeOrder order)
 ```
 
 
-एक प्रारंभिक आइडेंटिटी ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट संयोजन क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं
+प्रारंभिक आइडेंटिटी ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट कंपोज़ क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -97,7 +97,7 @@ public TransformBuilder()
 ```
 
 
-एक प्रारंभिक आइडेंटिटी ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट संयोजन क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं
+प्रारंभिक आइडेंटिटी ट्रांसफ़ॉर्म मैट्रिक्स और निर्दिष्ट कंपोज़ क्रम के साथ एक [TransformBuilder](../../com.aspose.threed/transformbuilder) बनाएं
 
 ### append(Matrix4 m) {#append-com.aspose.threed.Matrix4-}
 ```
@@ -158,7 +158,7 @@ public ComposeOrder getComposeOrder()
 ```
 
 
-श्रृंखला के संयोजन क्रम को प्राप्त करता है।
+श्रृंखला के कंपोज़ क्रम को प्राप्त करता है।
 
 **Returns:**
 [ComposeOrder](../../com.aspose.threed/composeorder) - the chain compose order.
@@ -431,7 +431,7 @@ public TransformBuilder scale(double s)
 ```
 
 
-एक घटक को s द्वारा स्केल किए गए स्केलिंग रूपांतरण मैट्रिक्स को श्रृंखलाबद्ध करें **Example:**
+एक घटक को s द्वारा स्केल किए हुए स्केलिंग रूपांतरण मैट्रिक्स को श्रृंखलाबद्ध करें **Example:**
 
 ```
 TransformBuilder tb = new TransformBuilder();
@@ -475,7 +475,7 @@ public void setComposeOrder(ComposeOrder value)
 ```
 
 
-श्रृंखला संयोजन क्रम सेट करता है।
+श्रृंखला संयोजन क्रम को सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -488,7 +488,7 @@ public void setMatrix(Matrix4 value)
 ```
 
 
-वर्तमान मैट्रिक्स मान सेट करता है
+वर्तमान मैट्रिक्स मान को सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

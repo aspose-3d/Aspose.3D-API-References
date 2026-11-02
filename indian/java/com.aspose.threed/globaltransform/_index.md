@@ -1,7 +1,7 @@
 ---
 title: "GlobalTransform"
-second_title: "Aspose.3D for Java API Reference"
-description: "ग्लोबल ट्रांसफ़ॉर्म समान है लेकिन यह अपरिवर्तनीय है जबकि यह अंतिम मूल्यांकित ट्रांसफ़ॉर्मेशन को दर्शाता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "ग्लोबल ट्रांसफ़ॉर्म समान है  लेकिन यह अपरिवर्तनीय है जबकि यह अंतिम मूल्यांकित ट्रांसफ़ॉर्मेशन का प्रतिनिधित्व करता है।"
 type: docs
 weight: 72
 url: /hi/java/com.aspose.threed/globaltransform/
@@ -13,7 +13,7 @@ java.lang.Object
 public class GlobalTransform
 ```
 
-ग्लोबल ट्रांसफ़ॉर्म समान है [Transform](../../com.aspose.threed/transform) के साथ लेकिन यह अपरिवर्तनीय है जबकि यह अंतिम मूल्यांकित ट्रांसफ़ॉर्मेशन को दर्शाता है। ग्लोबल ट्रांसफ़ॉर्म का मूल्यांकन करते समय राइट-हैंड कोऑर्डिनेट सिस्टम का उपयोग किया जाता है **Example:** निम्नलिखित कोड दिखाता है कि नोड का ग्लोबल ट्रांसफ़ॉर्म कैसे पढ़ा जाए
+ग्लोबल ट्रांसफ़ॉर्म समान है [Transform](../../com.aspose.threed/transform) के, लेकिन यह अपरिवर्तनीय है जबकि यह अंतिम मूल्यांकित ट्रांसफ़ॉर्मेशन का प्रतिनिधित्व करता है। ग्लोबल ट्रांसफ़ॉर्म का मूल्यांकन करते समय दाएँ हाथ का कोऑर्डिनेट सिस्टम उपयोग किया जाता है **Example:** निम्नलिखित कोड दिखाता है कि नोड का ग्लोबल ट्रांसफ़ॉर्म कैसे पढ़ें
 
 ```
 Scene scene = new Scene();
@@ -29,11 +29,11 @@ Scene scene = new Scene();
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEulerAngles()](#getEulerAngles--) | Euler कोणों में प्रदर्शित रोटेशन प्राप्त करता है, डिग्री में मापा गया |
-| [getRotation()](#getRotation--) | क्वाटरनियन में प्रदर्शित रोटेशन प्राप्त करता है। |
-| [getScale()](#getScale--) | स्केल प्राप्त करता है |
-| [getTransformMatrix()](#getTransformMatrix--) | ट्रांसफ़ॉर्म मैट्रिक्स प्राप्त करता है। |
-| [getTranslation()](#getTranslation--) | ट्रांसलेशन प्राप्त करता है |
+| [getEulerAngles()](#getEulerAngles--) | प्राप्त करता है ईयूलर कोणों में दर्शाई गई घूर्णन, डिग्री में मापी गई। |
+| [getRotation()](#getRotation--) | प्राप्त करता है क्वाटरनियन में दर्शाई गई घूर्णन। |
+| [getScale()](#getScale--) | प्राप्त करता है स्केल |
+| [getTransformMatrix()](#getTransformMatrix--) | प्राप्त करता है ट्रांसफ़ॉर्म मैट्रिक्स। |
+| [getTranslation()](#getTranslation--) | प्राप्त करता है ट्रांसलेशन |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,7 +72,7 @@ public Vector3 getEulerAngles()
 ```
 
 
-Euler कोणों में प्रदर्शित रोटेशन प्राप्त करता है, डिग्री में मापा गया
+प्राप्त करता है ईयूलर कोणों में दर्शाई गई घूर्णन, डिग्री में मापी गई।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation represented in Euler angles, measured in degree **Example:**
@@ -88,7 +88,7 @@ public Quaternion getRotation()
 ```
 
 
-क्वाटरनियन में प्रदर्शित रोटेशन प्राप्त करता है।
+प्राप्त करता है क्वाटरनियन में दर्शाई गई घूर्णन।
 
 **Returns:**
 [Quaternion](../../com.aspose.threed/quaternion) - the rotation represented in quaternion. **Example:**
@@ -104,7 +104,7 @@ public Vector3 getScale()
 ```
 
 
-स्केल प्राप्त करता है
+प्राप्त करता है स्केल
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the scale **Example:**
@@ -120,7 +120,7 @@ public Matrix4 getTransformMatrix()
 ```
 
 
-ट्रांसफ़ॉर्म मैट्रिक्स प्राप्त करता है।
+प्राप्त करता है ट्रांसफ़ॉर्म मैट्रिक्स।
 
 **Returns:**
 [Matrix4](../../com.aspose.threed/matrix4) - the transform matrix. **Example:**
@@ -136,7 +136,7 @@ public Vector3 getTranslation()
 ```
 
 
-ट्रांसलेशन प्राप्त करता है
+प्राप्त करता है ट्रांसलेशन
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the translation **Example:**

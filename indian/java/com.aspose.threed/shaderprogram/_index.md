@@ -1,7 +1,7 @@
 ---
 title: "ShaderProgram"
-second_title: "Aspose.3D for Java API Reference"
-description: "शेडर प्रोग्राम।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "शेडर प्रोग्राम"
 type: docs
 weight: 165
 url: /hi/java/com.aspose.threed/shaderprogram/
@@ -16,7 +16,7 @@ java.io.Closeable
 public abstract class ShaderProgram implements Closeable
 ```
 
-शेडर प्रोग्राम।
+शेडर प्रोग्राम
 ## विधियाँ
 
 | विधि | विवरण |

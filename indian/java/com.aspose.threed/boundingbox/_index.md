@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox"
-second_title: "Aspose.3D for Java API Reference"
-description: "अक्ष-संरेखित बाउंडिंग बॉक्स उदाहरण  निम्नलिखित कोड दिखाता है कि एक Entity इंस्टेंस से बाउंडिंग बॉक्स कैसे प्राप्त किया जाए।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक्सिस-एलाइन्ड बाउंडिंग बॉक्स उदाहरण। निम्नलिखित कोड दिखाता है कि एक Entity इंस्टेंस से बाउंडिंग बॉक्स कैसे प्राप्त किया जाए।"
 type: docs
 weight: 24
 url: /hi/java/com.aspose.threed/boundingbox/
@@ -16,27 +16,27 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class BoundingBox implements Struct<BoundingBox>, Serializable
 ```
 
-The axis-aligned bounding box **Example:** निम्नलिखित कोड दिखाता है कि कैसे एक Entity इंस्टेंस से बाउंडिंग बॉक्स प्राप्त किया जाए।
+अक्ष-संरेखित बाउंडिंग बॉक्स **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक एंटिटी इंस्टेंस से बाउंडिंग बॉक्स प्राप्त किया जाए।
 
 ```
 var sphere = new Sphere();
       var boundingBox = sphere.getBoundingBox();
       System.out.println("Bounding box = " + boundingBox);
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [BoundingBox(Vector3 minimum, Vector3 maximum)](#BoundingBox-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को आरंभ करें |
-| [BoundingBox(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)](#BoundingBox-double-double-double-double-double-double-) | दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को आरंभ करें |
+| [BoundingBox(Vector3 minimum, Vector3 maximum)](#BoundingBox-com.aspose.threed.Vector3-com.aspose.threed.Vector3-) | दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को प्रारंभ करें |
+| [BoundingBox(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)](#BoundingBox-double-double-double-double-double-double-) | दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को प्रारंभ करें |
 | [BoundingBox()](#BoundingBox--) |  |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [contains(BoundingBox bbox)](#contains-com.aspose.threed.BoundingBox-) | वर्तमान बाउंडिंग बॉक्स के अंदर है या नहीं जाँचने के लिए बाउंडिंग बॉक्स। |
-| [contains(Vector3 p)](#contains-com.aspose.threed.Vector3-) | जाँचें कि बिंदु p बाउंडिंग बॉक्स के अंदर है या नहीं |
+| [contains(BoundingBox bbox)](#contains-com.aspose.threed.BoundingBox-) | वर्तमान बाउंडिंग बॉक्स के भीतर है या नहीं, यह जांचने के लिए बाउंडिंग बॉक्स। |
+| [contains(Vector3 p)](#contains-com.aspose.threed.Vector3-) | जाँचें कि बिंदु p बाउंडिंग बॉक्स के भीतर है या नहीं |
 | [copyFrom(BoundingBox src)](#copyFrom-com.aspose.threed.BoundingBox-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | निर्धारित करता है कि दो वस्तुएँ समान हैं या नहीं |
 | [fromGeometry(Geometry geometry)](#fromGeometry-com.aspose.threed.Geometry-) | दिए गए ज्यामिति से बाउंडिंग बॉक्स बनाएं |
@@ -50,9 +50,9 @@ var sphere = new Sphere();
 | [getSize()](#getSize--) | बाउंडिंग बॉक्स का आकार |
 | [hashCode()](#hashCode--) | इस इंस्टेंस के लिए हैश कोड लौटाता है |
 | [merge(BoundingBox bb)](#merge-com.aspose.threed.BoundingBox-) | नए बॉक्स को वर्तमान बाउंडिंग बॉक्स में मिलाता है। |
-| [merge(Vector3 pt)](#merge-com.aspose.threed.Vector3-) | दिए गए बिंदु के साथ वर्तमान बाउंडिंग बॉक्स को मिलाएँ |
-| [merge(Vector4 pt)](#merge-com.aspose.threed.Vector4-) | दिए गए बिंदु के साथ वर्तमान बाउंडिंग बॉक्स को मिलाएँ |
-| [merge(double x, double y, double z)](#merge-double-double-double-) | दिए गए बिंदु के साथ वर्तमान बाउंडिंग बॉक्स को मिलाएँ |
+| [merge(Vector3 pt)](#merge-com.aspose.threed.Vector3-) | वर्तमान बाउंडिंग बॉक्स को दिए गए बिंदु के साथ मिलाएँ |
+| [merge(Vector4 pt)](#merge-com.aspose.threed.Vector4-) | वर्तमान बाउंडिंग बॉक्स को दिए गए बिंदु के साथ मिलाएँ |
+| [merge(double x, double y, double z)](#merge-double-double-double-) | वर्तमान बाउंडिंग बॉक्स को दिए गए बिंदु के साथ मिलाएँ |
 | [mul(BoundingBox bbox, Matrix4 mat)](#mul-com.aspose.threed.BoundingBox-com.aspose.threed.Matrix4-) | गुणा के लिए ऑपरेटर ओवरलोडिंग, नई बाउंडिंग बॉक्स के न्यूनतम और अधिकतम कोने को मैट्रिक्स द्वारा परिवर्तित किया जाएगा। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -68,13 +68,13 @@ public BoundingBox(Vector3 minimum, Vector3 maximum)
 ```
 
 
-दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को आरंभ करें
+दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को प्रारंभ करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | minimum | [Vector3](../../com.aspose.threed/vector3) | न्यूनतम कोना |
-|  | maximum | [Vector3](../../com.aspose.threed/vector3) | अधिकतम कोना **Example:** निम्नलिखित कोड दिखाता है कि न्यूनतम और अधिकतम कोनों से बाउंडिंग बॉक्स कैसे बनाया जाए। |
+|  | maximum | [Vector3](../../com.aspose.threed/vector3) | अधिकतम कोना **उदाहरण:** निम्नलिखित कोड दिखाता है कि न्यूनतम और अधिकतम कोनों से बाउंडिंग बॉक्स कैसे बनाया जाए। |
 
 ```
 var minimum = new Vector3(0, 0, 0);
@@ -89,7 +89,7 @@ public BoundingBox(double minX, double minY, double minZ, double maxX, double ma
 ```
 
 
-दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को आरंभ करें
+दिए गए न्यूनतम और अधिकतम कोने के साथ एक सीमित बाउंडिंग बॉक्स को प्रारंभ करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -99,7 +99,7 @@ public BoundingBox(double minX, double minY, double minZ, double maxX, double ma
 | minZ | double | न्यूनतम कोने का Z |
 | maxX | double | अधिकतम कोने का X |
 | maxY | double | अधिकतम कोने का Y |
-|  | maxZ | double | अधिकतम कोने का Z **Example:** निम्नलिखित कोड दिखाता है कि न्यूनतम और अधिकतम कोनों से बाउंडिंग बॉक्स कैसे बनाएं। |
+|  | maxZ | double | अधिकतम कोने का Z **उदाहरण:** निम्नलिखित कोड दिखाता है कि न्यूनतम और अधिकतम कोनों से बाउंडिंग बॉक्स कैसे बनाया जाए। |
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -128,7 +128,7 @@ public boolean contains(BoundingBox bbox)
 ```
 
 
-वर्तमान बाउंडिंग बॉक्स के अंदर है या नहीं जाँचने के लिए बाउंडिंग बॉक्स।
+वर्तमान बाउंडिंग बॉक्स के भीतर है या नहीं, यह जांचने के लिए बाउंडिंग बॉक्स।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -143,7 +143,7 @@ public boolean contains(Vector3 p)
 ```
 
 
-जाँचें कि बिंदु p बाउंडिंग बॉक्स के अंदर है या नहीं
+जाँचें कि बिंदु p बाउंडिंग बॉक्स के भीतर है या नहीं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -151,7 +151,7 @@ public boolean contains(Vector3 p)
 | p | [Vector3](../../com.aspose.threed/vector3) | परीक्षण के लिए बिंदु |
 
 **Returns:**
-boolean - बिंदु बाउंडिंग बॉक्स के भीतर होने पर True **Example:** निम्नलिखित कोड दिखाता है कि बिंदु बाउंडिंग बॉक्स के भीतर है या नहीं जांचें।
+boolean - True यदि बिंदु बाउंडिंग बॉक्स के अंदर है **उदाहरण:** निम्नलिखित कोड दिखाता है कि बिंदु बाउंडिंग बॉक्स के अंदर है या नहीं।
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -185,7 +185,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | तुलना करने के लिए वस्तु |
 
 **Returns:**
-boolean - दो वस्तुएँ समान हों तो true
+boolean - true यदि दो वस्तुएँ समान हैं
 ### fromGeometry(Geometry geometry) {#fromGeometry-com.aspose.threed.Geometry-}
 ```
 public static BoundingBox fromGeometry(Geometry geometry)
@@ -308,7 +308,7 @@ public void merge(BoundingBox bb)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| bb | [BoundingBox](../../com.aspose.threed/boundingbox) | मर्ज करने के लिए बाउंडिंग बॉक्स |
+| bb | [BoundingBox](../../com.aspose.threed/boundingbox) | मिलाने के लिए बाउंडिंग बॉक्स |
 
 ### merge(Vector3 pt) {#merge-com.aspose.threed.Vector3-}
 ```
@@ -316,12 +316,12 @@ public void merge(Vector3 pt)
 ```
 
 
-दिए गए बिंदु के साथ वर्तमान बाउंडिंग बॉक्स को मिलाएँ
+वर्तमान बाउंडिंग बॉक्स को दिए गए बिंदु के साथ मिलाएँ
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | pt | [Vector3](../../com.aspose.threed/vector3) | बाउंडिंग बॉक्स में मिलाने के लिए बिंदु **Example:** निम्नलिखित कोड दिखाता है कि बिंदु को बाउंडिंग बॉक्स में कैसे मिलाया जाए। |
+|  | pt | [Vector3](../../com.aspose.threed/vector3) | बाउंडिंग बॉक्स में मिलाने के लिए बिंदु **उदाहरण:** निम्नलिखित कोड दिखाता है कि बिंदु को बाउंडिंग बॉक्स में कैसे मिलाया जाए। |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -335,12 +335,12 @@ public void merge(Vector4 pt)
 ```
 
 
-दिए गए बिंदु के साथ वर्तमान बाउंडिंग बॉक्स को मिलाएँ
+वर्तमान बाउंडिंग बॉक्स को दिए गए बिंदु के साथ मिलाएँ
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | pt | [Vector4](../../com.aspose.threed/vector4) | बाउंडिंग बॉक्स में मिलाने के लिए बिंदु **Example:** निम्नलिखित कोड दिखाता है कि बिंदु को बाउंडिंग बॉक्स में कैसे मिलाया जाए। |
+|  | pt | [Vector4](../../com.aspose.threed/vector4) | बाउंडिंग बॉक्स में मिलाने के लिए बिंदु **उदाहरण:** निम्नलिखित कोड दिखाता है कि बिंदु को बाउंडिंग बॉक्स में कैसे मिलाया जाए। |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -354,14 +354,14 @@ public void merge(double x, double y, double z)
 ```
 
 
-दिए गए बिंदु के साथ वर्तमान बाउंडिंग बॉक्स को मिलाएँ
+वर्तमान बाउंडिंग बॉक्स को दिए गए बिंदु के साथ मिलाएँ
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | x | double | बाउंडिंग बॉक्स में मिलाने के लिए बिंदु |
 | y | double | बाउंडिंग बॉक्स में मिलाने के लिए बिंदु |
-|  | z | double | बाउंडिंग बॉक्स में मिलाने के लिए बिंदु **Example:** निम्नलिखित कोड दिखाता है कि बिंदु को बाउंडिंग बॉक्स में कैसे मिलाया जाए। |
+|  | z | double | बाउंडिंग बॉक्स में मिलाने के लिए बिंदु **उदाहरण:** निम्नलिखित कोड दिखाता है कि बिंदु को बाउंडिंग बॉक्स में कैसे मिलाया जाए। |
 
 ```
 var boundingBox = BoundingBox.getNull();
@@ -381,7 +381,7 @@ public static BoundingBox mul(BoundingBox bbox, Matrix4 mat)
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | bbox | [BoundingBox](../../com.aspose.threed/boundingbox) | इनपुट बाउंडिंग बॉक्स। |
-| mat | [Matrix4](../../com.aspose.threed/matrix4) | बाउंडिंग बॉक्स के कोनों को बदलने के लिए प्रयुक्त मैट्रिक्स |
+| mat | [Matrix4](../../com.aspose.threed/matrix4) | बाउंडिंग बॉक्स के कोनों को रूपांतरित करने के लिए उपयोग की जाने वाली मैट्रिक्स |
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - The product of bounding box and transform matrix.
@@ -415,7 +415,7 @@ public boolean overlapsWith(BoundingBox box)
 | box | [BoundingBox](../../com.aspose.threed/boundingbox) | परीक्षण के लिए अन्य बाउंडिंग बॉक्स |
 
 **Returns:**
-boolean - वर्तमान बाउंडिंग बॉक्स दिए गए बॉक्स के साथ ओवरलैप करता है तो True. **Example:** निम्नलिखित कोड दिखाता है कि दो बाउंडिंग बॉक्स एक-दूसरे के साथ ओवरलैप होते हैं या नहीं जांचें।
+boolean - True यदि वर्तमान बाउंडिंग बॉक्स दिए गए बॉक्स के साथ ओवरलैप करता है **उदाहरण:** निम्नलिखित कोड दिखाता है कि दो बाउंडिंग बॉक्स एक-दूसरे के साथ ओवरलैप करते हैं या नहीं।
 
 ```
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);
@@ -431,7 +431,7 @@ public double scale()
 किसी भी सम्मिलित बिंदु के अधिकतम निरपेक्ष निर्देशांक मान की गणना करता है।
 
 **Returns:**
-double - किसी भी सम्मिलित बिंदु का गणना किया गया पूर्णतम सबसे बड़ा निर्देशांक मान।
+double - किसी भी सम्मिलित बिंदु के गणना किए गए निरपेक्ष सबसे बड़े निर्देशांक मान।
 ### toString() {#toString--}
 ```
 public String toString()

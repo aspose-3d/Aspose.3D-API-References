@@ -1,6 +1,6 @@
 ---
 title: "MathUtils"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "उपयोगी गणितीय उपयोगिताओं का एक सेट।"
 type: docs
 weight: 99
@@ -28,14 +28,14 @@ public class MathUtils
 | [notifyAll()](#notifyAll--) |  |
 | [pointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vector2 p2)](#pointInsideTriangle-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | जाँचें कि बिंदु p त्रिभुज (p0, p1, p2) के अंदर है या नहीं |
 | [rayIntersect(Vector2 origin, Vector2 dir, Vector2 a, Vector2 b)](#rayIntersect-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-com.aspose.threed.Vector2-) | जाँचें कि किरण (origin, dir) रेखा खंड (start, end) के साथ प्रतिच्छेद करती है या नहीं |
-| [toDegree(Vector3 radian)](#toDegree-com.aspose.threed.Vector3-) | [Vector3](../../com.aspose.threed/vector3) को रेडियन से डिग्री में बदलें। |
-| [toDegree(double radian)](#toDegree-double-) | संख्या को रेडियन से डिग्री में बदलें |
-| [toDegree(double x, double y, double z)](#toDegree-double-double-double-) | संख्या को रेडियन से डिग्री में बदलें |
-| [toDegree(float radian)](#toDegree-float-) | संख्या को रेडियन से डिग्री में बदलें |
-| [toRadian(Vector3 degree)](#toRadian-com.aspose.threed.Vector3-) | [Vector3](../../com.aspose.threed/vector3) को डिग्री से रेडियन में बदलें |
-| [toRadian(double degree)](#toRadian-double-) | डिग्री से रेडियन में संख्या परिवर्तित करें |
-| [toRadian(double x, double y, double z)](#toRadian-double-double-double-) | डिग्री से रेडियन में वेक्टर परिवर्तित करें |
-| [toRadian(float degree)](#toRadian-float-) | डिग्री से रेडियन में संख्या परिवर्तित करें |
+| [toDegree(Vector3 radian)](#toDegree-com.aspose.threed.Vector3-) | [Vector3](../../com.aspose.threed/vector3) को रैडियन से डिग्री में परिवर्तित करें। |
+| [toDegree(double radian)](#toDegree-double-) | संख्या को रैडियन से डिग्री में परिवर्तित करें |
+| [toDegree(double x, double y, double z)](#toDegree-double-double-double-) | संख्या को रैडियन से डिग्री में परिवर्तित करें |
+| [toDegree(float radian)](#toDegree-float-) | संख्या को रैडियन से डिग्री में परिवर्तित करें |
+| [toRadian(Vector3 degree)](#toRadian-com.aspose.threed.Vector3-) | [Vector3](../../com.aspose.threed/vector3) को डिग्री से रैडियन में परिवर्तित करें |
+| [toRadian(double degree)](#toRadian-double-) | डिग्री से रैडियन में संख्या परिवर्तित करें |
+| [toRadian(double x, double y, double z)](#toRadian-double-double-double-) | डिग्री से रैडियन में वेक्टर परिवर्तित करें |
+| [toRadian(float degree)](#toRadian-float-) | डिग्री से रैडियन में संख्या परिवर्तित करें |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public static double clamp(double val, double min, double max)
 | max | double | अधिकतम मान। |
 
 **Returns:**
-double - मान [min, max] के बीच **Example:**
+double - [min, max] के बीच का मान **उदाहरण:**
 
 ```
 double val = 195;
@@ -192,12 +192,12 @@ public static Vector3 toDegree(Vector3 radian)
 ```
 
 
-[Vector3](../../com.aspose.threed/vector3) को रेडियन से डिग्री में बदलें।
+[Vector3](../../com.aspose.threed/vector3) को रैडियन से डिग्री में परिवर्तित करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| radian | [Vector3](../../com.aspose.threed/vector3) | रेडियन मान। |
+| radian | [Vector3](../../com.aspose.threed/vector3) | रैडियन मान। |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The degree value. **Example:**
@@ -212,15 +212,15 @@ public static double toDegree(double radian)
 ```
 
 
-संख्या को रेडियन से डिग्री में बदलें
+संख्या को रैडियन से डिग्री में परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| रेडियन | double | रेडियन मान। |
+| radian | double | रैडियन मान। |
 
 **Returns:**
-double - डिग्री मान। **Example:**
+double - डिग्री मान। **उदाहरण:**
 
 ```
 var deg = MathUtils.toDegree(0.3);
@@ -232,14 +232,14 @@ public static Vector3 toDegree(double x, double y, double z)
 ```
 
 
-संख्या को रेडियन से डिग्री में बदलें
+संख्या को रैडियन से डिग्री में परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| x | double | रेडियन मान में x घटक। |
-| y | double | रेडियन मान में y घटक। |
-| z | double | रेडियन मान में z घटक। |
+| x | double | रैडियन मान में x घटक। |
+| y | double | रैडियन मान में y घटक। |
+| z | double | रैडियन मान में z घटक। |
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - The degree value.
@@ -249,15 +249,15 @@ public static float toDegree(float radian)
 ```
 
 
-संख्या को रेडियन से डिग्री में बदलें
+संख्या को रैडियन से डिग्री में परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| रेडियन | फ़्लोट | रेडियन मान। |
+| radian | फ़्लोट | रैडियन मान। |
 
 **Returns:**
-float - डिग्री मान। **Example:**
+float - डिग्री मान। **उदाहरण:**
 
 ```
 var deg = MathUtils.toDegree(0.3f);
@@ -269,7 +269,7 @@ public static Vector3 toRadian(Vector3 degree)
 ```
 
 
-[Vector3](../../com.aspose.threed/vector3) को डिग्री से रेडियन में बदलें
+[Vector3](../../com.aspose.threed/vector3) को डिग्री से रैडियन में परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -289,15 +289,15 @@ public static double toRadian(double degree)
 ```
 
 
-डिग्री से रेडियन में संख्या परिवर्तित करें
+डिग्री से रैडियन में संख्या परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| डिग्री | double | डिग्री मान। |
+| degree | double | डिग्री मान। |
 
 **Returns:**
-double - रेडियन मान। **Example:**
+double - रैडियन मान। **उदाहरण:**
 
 ```
 var rad = MathUtils.toRadian(0.3);
@@ -309,7 +309,7 @@ public static Vector3 toRadian(double x, double y, double z)
 ```
 
 
-डिग्री से रेडियन में वेक्टर परिवर्तित करें
+डिग्री से रैडियन में वेक्टर परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -326,15 +326,15 @@ public static float toRadian(float degree)
 ```
 
 
-डिग्री से रेडियन में संख्या परिवर्तित करें
+डिग्री से रैडियन में संख्या परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| डिग्री | फ़्लोट | डिग्री मान। |
+| degree | फ़्लोट | डिग्री मान। |
 
 **Returns:**
-float - रेडियन मान। **Example:**
+float - रैडियन मान। **उदाहरण:**
 
 ```
 var rad = MathUtils.toRadian(0.3);

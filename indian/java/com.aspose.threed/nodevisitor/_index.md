@@ -1,6 +1,6 @@
 ---
 title: "NodeVisitor"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "पूरे नोड पदानुक्रम के माध्यम से यात्रा करने के लिए एक कॉलबैक।"
 type: docs
 weight: 261

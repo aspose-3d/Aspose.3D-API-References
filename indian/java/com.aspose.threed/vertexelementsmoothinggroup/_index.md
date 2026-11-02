@@ -1,7 +1,7 @@
 ---
 title: "VertexElementSmoothingGroup"
-second_title: "Aspose.3D for Java API Reference"
-description: "स्मूदिंग ग्रुप एक बहुभुज मेष में बहुभुजों का समूह है जो एक स्मूथ सतह बनता हुआ दिखना चाहिए।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "स्मूदिंग ग्रुप एक बहुभुज मेष में बहुभुजों का समूह है जो एक स्मूद सतह बनता हुआ दिखना चाहिए।"
 type: docs
 weight: 216
 url: /hi/java/com.aspose.threed/vertexelementsmoothinggroup/
@@ -13,12 +13,12 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementSmoothingGroup extends VertexElementIntsTemplate
 ```
 
-स्मूथिंग ग्रुप एक बहुभुज जाल में बहुभुजों का समूह है जो एक स्मूथ सतह बनता हुआ प्रतीत होना चाहिए। कुछ शुरुआती 3D मॉडलिंग सॉफ़्टवेयर जैसे DOS के लिए 3D Studio Max ने प्रत्येक जाल वर्टेक्स के लिए सामान्य वेक्टर संग्रहीत करने से बचने के लिए स्मूथिंग ग्रुप का उपयोग किया था।
-## कंस्ट्रक्टर
+एक स्मूथिंग ग्रुप बहुभुज मेष में बहुभुजों का समूह होता है जो एक स्मूथ सतह बनता हुआ दिखना चाहिए। कुछ शुरुआती 3D मॉडलिंग सॉफ़्टवेयर जैसे DOS के लिए 3D Studio Max ने प्रत्येक मेष वर्टेक्स के लिए सामान्य वेक्टर को संग्रहीत करने से बचने के लिए स्मूथिंग ग्रुप का उपयोग किया था।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [VertexElementSmoothingGroup()](#VertexElementSmoothingGroup--) | नए [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) क्लास का एक नया उदाहरण प्रारंभ करता है। |
+| [VertexElementSmoothingGroup()](#VertexElementSmoothingGroup--) | नए उदाहरण को प्रारंभ करता है [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) क्लास का। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -31,18 +31,18 @@ public class VertexElementSmoothingGroup extends VertexElementIntsTemplate
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | वर्टेक्स डेटा प्राप्त करता है। |
 | [getIndices()](#getIndices--) | इंडेक्स डेटा प्राप्त करता है। |
-| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, यह प्राप्त करता है। |
+| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है। |
+| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, प्राप्त करता है। |
 | [getVertexElementType()](#getVertexElementType--) | [VertexElement](../../com.aspose.threed/vertexelement) का प्रकार प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setData(int[] data)](#setData-int---) | डेटा लोड करें |
 | [setIndices(int[] data)](#setIndices-int---) | इंडेक्स लोड करें |
-| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, यह सेट करता है। |
+| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, यह सेट करता है। |
+| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, सेट करता है। |
 | [toString()](#toString--) | वर्टेक्स तत्व का स्ट्रिंग प्रतिनिधित्व। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,7 +53,7 @@ public VertexElementSmoothingGroup()
 ```
 
 
-नए [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) क्लास का एक नया उदाहरण प्रारंभ करता है।
+नए उदाहरण को प्रारंभ करता है [VertexElementSmoothingGroup](../../com.aspose.threed/vertexelementsmoothinggroup) क्लास का।
 
 ### clear() {#clear--}
 ```
@@ -74,7 +74,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें। |
+| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -158,7 +158,7 @@ public MappingMode getMappingMode()
 ```
 
 
-तत्व कैसे मैप किया गया है, यह प्राप्त करता है।
+तत्व कैसे मैप किया गया है, प्राप्त करता है।
 
 **Returns:**
 [MappingMode](../../com.aspose.threed/mappingmode) - how the element is mapped.
@@ -178,7 +178,7 @@ public ReferenceMode getReferenceMode()
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है।
+तत्व कैसे संदर्भित किया गया है, प्राप्त करता है।
 
 **Returns:**
 [ReferenceMode](../../com.aspose.threed/referencemode) - how the element is referenced.
@@ -250,7 +250,7 @@ public void setMappingMode(MappingMode value)
 ```
 
 
-तत्व कैसे मैप किया गया है, यह सेट करता है।
+तत्व कैसे मैप किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -276,7 +276,7 @@ public void setReferenceMode(ReferenceMode value)
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह सेट करता है।
+तत्व कैसे संदर्भित किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

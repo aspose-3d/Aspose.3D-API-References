@@ -1,7 +1,7 @@
 ---
 title: "SkinDeformer"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक स्किन डीफ़ॉर्मर में कई हड्डियाँ होती हैं; प्रत्येक हड्डी कंट्रोल पॉइंट वेट्स द्वारा जियोमेट्री के एक भाग को मिश्रित करती है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक skin deformer कई हड्डियों को शामिल करता है; प्रत्येक हड्डी कंट्रोल पॉइंट वेट्स द्वारा जियोमेट्री के एक भाग को ब्लेंड करती है।"
 type: docs
 weight: 173
 url: /hi/java/com.aspose.threed/skindeformer/
@@ -13,23 +13,23 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class SkinDeformer extends Deformer
 ```
 
-एक स्किन डिफॉर्मर कई हड्डियों को कार्य करने के लिए रखता है, प्रत्येक हड्डी नियंत्रण बिंदु के वज़न द्वारा ज्यामिति के एक भाग को मिश्रित करती है।
-## कंस्ट्रक्टर
+एक स्किन डिफॉर्मर कई हड्डियों को काम करने के लिए रखता है, प्रत्येक हड्डी नियंत्रण बिंदुओं के वजन द्वारा ज्यामिति के एक भाग को मिश्रित करती है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [SkinDeformer(String name)](#SkinDeformer-java.lang.String-) | नया इंस्टेंस प्रारंभ करता है [SkinDeformer](../../com.aspose.threed/skindeformer) क्लास का। |
-| [SkinDeformer()](#SkinDeformer--) | नया इंस्टेंस प्रारंभ करता है [SkinDeformer](../../com.aspose.threed/skindeformer) क्लास का। |
+| [SkinDeformer(String name)](#SkinDeformer-java.lang.String-) | नया instance प्रारंभ करता है [SkinDeformer](../../com.aspose.threed/skindeformer) क्लास का। |
+| [SkinDeformer()](#SkinDeformer--) | नया instance प्रारंभ करता है [SkinDeformer](../../com.aspose.threed/skindeformer) क्लास का। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBones()](#getBones--) | स्किन डीफ़ॉर्मर में मौजूद सभी हड्डियों को प्राप्त करता है |
+| [getBones()](#getBones--) | skin deformer में मौजूद सभी हड्डियों को प्राप्त करता है |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getOwner()](#getOwner--) | उस जियोमेट्री को प्राप्त करता है जो इस डीफ़ॉर्मर का स्वामी है |
+| [getOwner()](#getOwner--) | इस deformer का स्वामी जियोमेट्री को प्राप्त करता है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [hashCode()](#hashCode--) |  |
@@ -49,7 +49,7 @@ public SkinDeformer(String name)
 ```
 
 
-नया इंस्टेंस प्रारंभ करता है [SkinDeformer](../../com.aspose.threed/skindeformer) क्लास का।
+नया instance प्रारंभ करता है [SkinDeformer](../../com.aspose.threed/skindeformer) क्लास का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -62,7 +62,7 @@ public SkinDeformer()
 ```
 
 
-नया इंस्टेंस प्रारंभ करता है [SkinDeformer](../../com.aspose.threed/skindeformer) क्लास का।
+नया instance प्रारंभ करता है [SkinDeformer](../../com.aspose.threed/skindeformer) क्लास का।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -85,7 +85,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -100,10 +100,10 @@ public List<Bone> getBones()
 ```
 
 
-स्किन डीफ़ॉर्मर में मौजूद सभी हड्डियों को प्राप्त करता है
+skin deformer में मौजूद सभी हड्डियों को प्राप्त करता है
 
 **Returns:**
-java.util.List<com.aspose.threed.Bone> - स्किन डीफ़ॉर्मर में मौजूद सभी हड्डियाँ
+java.util.List<com.aspose.threed.Bone> - सभी हड्डियाँ जो skin deformer में हैं
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -130,7 +130,7 @@ public Geometry getOwner()
 ```
 
 
-उस जियोमेट्री को प्राप्त करता है जो इस डीफ़ॉर्मर का स्वामी है
+इस deformer का स्वामी जियोमेट्री को प्राप्त करता है
 
 **Returns:**
 [Geometry](../../com.aspose.threed/geometry) - the geometry which owns this deformer

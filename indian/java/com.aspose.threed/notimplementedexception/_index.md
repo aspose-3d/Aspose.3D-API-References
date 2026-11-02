@@ -1,6 +1,6 @@
 ---
 title: "NotImplementedException"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "lexchou द्वारा 26/06/2017 को बनाया गया।"
 type: docs
 weight: 111
@@ -14,9 +14,9 @@ public class NotImplementedException extends RuntimeException
 ```
 
 lexchou द्वारा 26/06/2017 को बनाया गया।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [NotImplementedException()](#NotImplementedException--) |  |
 ## विधियाँ

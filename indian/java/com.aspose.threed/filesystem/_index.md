@@ -1,7 +1,7 @@
 ---
 title: "FileSystem"
-second_title: "Aspose.3D for Java API Reference"
-description: "फ़ाइल सिस्टम का एन्कैप्सुलेशन।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "फ़ाइल सिस्टम एन्कैप्सुलेशन।"
 type: docs
 weight: 67
 url: /hi/java/com.aspose.threed/filesystem/
@@ -16,7 +16,7 @@ java.io.Closeable
 public abstract class FileSystem implements Closeable
 ```
 
-फ़ाइल सिस्टम एन्कैप्सुलेशन। Aspose.3D इसका उपयोग निर्भरताओं को पढ़ने/लिखने के लिए करेगा। **Example:** निम्नलिखित कोड दिखाता है कि फ़ाइल को कैसे आयात करें, और दिए गए निर्देशिका में निर्भर फ़ाइलें प्रदान करें।
+फ़ाइल सिस्टम एन्कैप्सुलेशन। Aspose.3D इसका उपयोग निर्भरताओं को पढ़ने/लिखने के लिए करेगा। **उदाहरण:** निम्नलिखित कोड दिखाता है कि फ़ाइल को कैसे आयात करें, और दिए गए निर्देशिका में निर्भर फ़ाइलें प्रदान करें।
 
 ```
 var inputFile = "input.fbx";
@@ -27,9 +27,9 @@ var inputFile = "input.fbx";
      //load the file
      var scene = Scene.fromFile(inputFile, opt);
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [FileSystem()](#FileSystem--) |  |
 ## विधियाँ
@@ -37,13 +37,13 @@ var inputFile = "input.fbx";
 | विधि | विवरण |
 | --- | --- |
 | [close()](#close--) | फ़ाइल सिस्टम को नष्ट करें और उसके संसाधनों को मुक्त करें। |
-| [createDummyFileSystem()](#createDummyFileSystem--) | डमी फ़ाइल सिस्टम बनाएं, पढ़ने/लिखने के संचालन डमी संचालन हैं। |
-| [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | नया [FileSystem](../../com.aspose.threed/filesystem) प्रारंभ करें जो केवल स्थानीय निर्देशिका तक पहुंचता है। |
-| [createMemoryFileSystem()](#createMemoryFileSystem--) | एक मेमोरी-आधारित फ़ाइल सिस्टम बनाएं जो पढ़ने/लिखने के संचालन को मेमोरी में मैप करेगा। |
-| [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | एक मेमोरी-आधारित फ़ाइल सिस्टम बनाएं जो पढ़ने/लिखने के संचालन को मेमोरी में मैप करेगा। |
-| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | एक फ़ाइल सिस्टम बनाएं जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम के केवल-पढ़ने योग्य एक्सेस प्रदान करे। |
-| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | एक फ़ाइल सिस्टम बनाएं जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम के केवल-पढ़ने योग्य एक्सेस प्रदान करे। |
-| [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | फ़ाइल सिस्टम जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-पढ़ने योग्य पहुँच प्रदान करता है। |
+| [createDummyFileSystem()](#createDummyFileSystem--) | एक डमी फ़ाइल सिस्टम बनाएं, पढ़ने/लिखने के ऑपरेशन डमी ऑपरेशन हैं। |
+| [createLocalFileSystem(String directory)](#createLocalFileSystem-java.lang.String-) | एक नया [FileSystem](../../com.aspose.threed/filesystem) प्रारंभ करें जो केवल स्थानीय निर्देशिका तक पहुँचता है। |
+| [createMemoryFileSystem()](#createMemoryFileSystem--) | एक मेमोरी-आधारित फ़ाइल सिस्टम बनाएं जो पढ़ने/लिखने के ऑपरेशनों को मेमोरी में मैप करेगा। |
+| [createMemoryFileSystem(HashMap<String,MemoryStream> files)](#createMemoryFileSystem-java.util.HashMap-java.lang.String-com.aspose.threed.MemoryStream--) | एक मेमोरी-आधारित फ़ाइल सिस्टम बनाएं जो पढ़ने/लिखने के ऑपरेशनों को मेमोरी में मैप करेगा। |
+| [createZipFileSystem(Stream stream)](#createZipFileSystem-com.aspose.threed.Stream-) | एक फ़ाइल सिस्टम बनाएं जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-रीड एक्सेस प्रदान करे। |
+| [createZipFileSystem(Stream stream, String baseDir)](#createZipFileSystem-com.aspose.threed.Stream-java.lang.String-) | एक फ़ाइल सिस्टम बनाएं जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-रीड एक्सेस प्रदान करे। |
+| [createZipFileSystem(String fileName)](#createZipFileSystem-java.lang.String-) | फ़ाइल सिस्टम जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-पढ़ने की पहुँच प्रदान करता है। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -75,7 +75,7 @@ public static FileSystem createDummyFileSystem()
 ```
 
 
-डमी फ़ाइल सिस्टम बनाएं, पढ़ने/लिखने के संचालन डमी संचालन हैं।
+एक डमी फ़ाइल सिस्टम बनाएं, पढ़ने/लिखने के ऑपरेशन डमी ऑपरेशन हैं।
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A dummy file system **Example:** The following code shows how to export file to memory, and ignore all dependent file generation.
@@ -101,7 +101,7 @@ public static FileSystem createLocalFileSystem(String directory)
 ```
 
 
-नया [FileSystem](../../com.aspose.threed/filesystem) प्रारंभ करें जो केवल स्थानीय निर्देशिका तक पहुंचता है। इस FileSystem इंस्टेंस पर सभी फ़ाइल पढ़ने/लिखने को निर्दिष्ट निर्देशिका में मैप किया जाएगा।
+एक नया [FileSystem](../../com.aspose.threed/filesystem) प्रारंभ करें जो केवल स्थानीय निर्देशिका तक पहुँचता है। इस FileSystem इंस्टेंस पर सभी फ़ाइल पढ़ने/लिखने को निर्दिष्ट निर्देशिका में मैप किया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -116,7 +116,7 @@ public static FileSystem createMemoryFileSystem()
 ```
 
 
-एक मेमोरी-आधारित फ़ाइल सिस्टम बनाएं जो पढ़ने/लिखने के संचालन को मेमोरी में मैप करेगा।
+एक मेमोरी-आधारित फ़ाइल सिस्टम बनाएं जो पढ़ने/लिखने के ऑपरेशनों को मेमोरी में मैप करेगा।
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A memory-based file system **Example:** The following code shows how to export file to memory, includes the dependent file by using MemoryFileSystem.
@@ -144,12 +144,12 @@ public static FileSystem createMemoryFileSystem(HashMap<String,MemoryStream> fil
 ```
 
 
-एक मेमोरी-आधारित फ़ाइल सिस्टम बनाएं जो पढ़ने/लिखने के संचालन को मेमोरी में मैप करेगा।
+एक मेमोरी-आधारित फ़ाइल सिस्टम बनाएं जो पढ़ने/लिखने के ऑपरेशनों को मेमोरी में मैप करेगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| फ़ाइलें | java.util.HashMap<java.lang.String,com.aspose.threed.MemoryStream> | यह आपको वर्चुअल फ़ाइलें पढ़ने/लिखने की अनुमति देता है। |
+| फ़ाइलें | java.util.HashMap<java.lang.String,com.aspose.threed.MemoryStream> | यह आपको वर्चुअल फ़ाइलों को पढ़ने/लिखने की अनुमति देता है। |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A memory-based file system **Example:** The following code shows how to export file to memory, includes the dependent file by using MemoryFileSystem.
@@ -177,12 +177,12 @@ public static FileSystem createZipFileSystem(Stream stream)
 ```
 
 
-एक फ़ाइल सिस्टम बनाएं जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम के केवल-पढ़ने योग्य एक्सेस प्रदान करे। फ़ाइल सिस्टम को खोलने/सहेजने के ऑपरेशन के बाद नष्ट कर दिया जाएगा।
+एक फ़ाइल सिस्टम बनाएं जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-रीड एक्सेस प्रदान करे। फ़ाइल सिस्टम को खोलने/सहेजने के ऑपरेशन के बाद नष्ट कर दिया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | ज़िप फ़ाइल तक पहुंचने के लिए स्ट्रीम |
+| stream | [Stream](../../com.aspose.threed/stream) | ज़िप फ़ाइल तक पहुँचने के लिए स्ट्रीम |
 
 **Returns:**
 [FileSystem](../../com.aspose.threed/filesystem) - A zip file system
@@ -192,12 +192,12 @@ public static FileSystem createZipFileSystem(Stream stream, String baseDir)
 ```
 
 
-एक फ़ाइल सिस्टम बनाएं जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम के केवल-पढ़ने योग्य एक्सेस प्रदान करे। फ़ाइल सिस्टम को खोलने/सहेजने के ऑपरेशन के बाद नष्ट कर दिया जाएगा।
+एक फ़ाइल सिस्टम बनाएं जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-रीड एक्सेस प्रदान करे। फ़ाइल सिस्टम को खोलने/सहेजने के ऑपरेशन के बाद नष्ट कर दिया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | ज़िप फ़ाइल तक पहुंचने के लिए स्ट्रीम |
+| stream | [Stream](../../com.aspose.threed/stream) | ज़िप फ़ाइल तक पहुँचने के लिए स्ट्रीम |
 | baseDir | java.lang.String | ज़िप फ़ाइल के अंदर बेस निर्देशिका। |
 
 **Returns:**
@@ -208,7 +208,7 @@ public static FileSystem createZipFileSystem(String fileName)
 ```
 
 
-फ़ाइल सिस्टम जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम के केवल-पढ़ने योग्य एक्सेस प्रदान करता है। फ़ाइल सिस्टम को खोलने/सहेजने के ऑपरेशन के बाद नष्ट कर दिया जाएगा।
+फ़ाइल सिस्टम जो निर्दिष्ट ज़िप फ़ाइल या ज़िप स्ट्रीम तक केवल-रीड एक्सेस प्रदान करता है। फ़ाइल सिस्टम को खोलने/सहेजने के ऑपरेशन के बाद नष्ट कर दिया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -340,7 +340,7 @@ public abstract Stream writeFile(String fileName, IOConfig options)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fileName | java.lang.String | फ़ाइल का नाम लिखने के लिए खोलने हेतु |
+| fileName | java.lang.String | फ़ाइल का नाम जिसे लिखने के लिए खोलना है |
 | options | [IOConfig](../../com.aspose.threed/ioconfig) | सेव या लोड विकल्प |
 
 **Returns:**

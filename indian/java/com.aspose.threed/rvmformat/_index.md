@@ -1,6 +1,6 @@
 ---
 title: "RvmFormat"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "RVM फ़ॉर्मेट"
 type: docs
 weight: 156
@@ -18,8 +18,8 @@ RVM फ़ॉर्मेट
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [AMF](#AMF) | ऐडिटिव मैन्युफैक्चरिंग फ़ाइल फ़ॉर्मेट |
-| [ASE](#ASE) | 3D Studio Max का ASCII सीन एक्सपोर्टर फ़ॉर्मेट। |
+| [AMF](#AMF) | एडिटिव मैन्युफैक्चरिंग फ़ाइल फ़ॉर्मेट |
+| [ASE](#ASE) | 3D Studio Max का ASCII सीन निर्यातक फ़ॉर्मेट। |
 | [ASPOSE3D_WEB](#ASPOSE3D-WEB) | Aspose.3D वेब फ़ॉर्मेट। |
 | [BLENDER](#BLENDER) | Blender का 3D फ़ाइल फ़ॉर्मेट |
 | [COLLADA](#COLLADA) | Collada फ़ाइल फ़ॉर्मेट |
@@ -34,65 +34,65 @@ RVM फ़ॉर्मेट
 | [FBX7300_BINARY](#FBX7300-BINARY) | बाइनरी FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.3.0 के साथ |
 | [FBX7400ASCII](#FBX7400ASCII) | ASCII FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.4.0 के साथ |
 | [FBX7400_BINARY](#FBX7400-BINARY) | बाइनरी FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.4.0 के साथ |
-| [FBX7500ASCII](#FBX7500ASCII) | ASCII FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.5.0 के साथ |
-| [FBX7500_BINARY](#FBX7500-BINARY) | Binary FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.5.0 के साथ |
-| [FBX7600ASCII](#FBX7600ASCII) | ASCII FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.6.0 के साथ |
-| [FBX7600_BINARY](#FBX7600-BINARY) | Binary FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.6.0 के साथ |
-| [FBX7700ASCII](#FBX7700ASCII) | ASCII FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.7.0 के साथ |
-| [FBX7700_BINARY](#FBX7700-BINARY) | Binary FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.7.0 के साथ |
+| [FBX7500ASCII](#FBX7500ASCII) | ASCII FBX फ़ाइल प्रारूप, संस्करण 7.5.0 के साथ |
+| [FBX7500_BINARY](#FBX7500-BINARY) | Binary FBX फ़ाइल प्रारूप, संस्करण 7.5.0 के साथ |
+| [FBX7600ASCII](#FBX7600ASCII) | ASCII FBX फ़ाइल प्रारूप, संस्करण 7.6.0 के साथ |
+| [FBX7600_BINARY](#FBX7600-BINARY) | Binary FBX फ़ाइल प्रारूप, संस्करण 7.6.0 के साथ |
+| [FBX7700ASCII](#FBX7700ASCII) | ASCII FBX फ़ाइल प्रारूप, संस्करण 7.7.0 के साथ |
+| [FBX7700_BINARY](#FBX7700-BINARY) | Binary FBX फ़ाइल प्रारूप, संस्करण 7.7.0 के साथ |
 | [GLTF](#GLTF) | Khronos Group का glTF |
 | [GLTF2](#GLTF2) | Khronos Group का glTF संस्करण 2.0 |
 | [GLTF2_BINARY](#GLTF2-BINARY) | Khronos Group का glTF संस्करण 2.0 |
-| [GLTF_BINARY](#GLTF-BINARY) | Khronos Group का glTF बाइनरी फ़ॉर्मेट में |
+| [GLTF_BINARY](#GLTF-BINARY) | Khronos Group का glTF बाइनरी प्रारूप में |
 | [HTML5](#HTML5) | HTML5 फ़ाइल |
 | [IFC](#IFC) | ISO 16739-1 Industry Foundation Classes डेटा मॉडल। |
-| [MAYAASCII](#MAYAASCII) | Autodesk Maya ASCII फ़ॉर्मेट में |
-| [MAYA_BINARY](#MAYA-BINARY) | Autodesk Maya बाइनरी फ़ॉर्मेट में |
-| [MICROSOFT3MF](#MICROSOFT3MF) | Microsoft 3D Manufacturing फ़ॉर्मेट |
+| [MAYAASCII](#MAYAASCII) | Autodesk Maya ASCII प्रारूप में |
+| [MAYA_BINARY](#MAYA-BINARY) | Autodesk Maya बाइनरी प्रारूप में |
+| [MICROSOFT3MF](#MICROSOFT3MF) | Microsoft 3D मैन्युफैक्चरिंग फ़ॉर्मेट |
 | [PCD](#PCD) | PCL पॉइंट क्लाउड डेटा फ़ाइल ASCII मोड में |
 | [PCD_BINARY](#PCD-BINARY) | PCL पॉइंट क्लाउड डेटा फ़ाइल बाइनरी मोड में |
-| [PDF](#PDF) | Adobe का Portable Document Format |
-| [PLY](#PLY) | Polygon फ़ाइल फ़ॉर्मेट या Stanford Triangle फ़ॉर्मेट |
-| [RVM_BINARY](#RVM-BINARY) | AVEVA Plant Design Management System मॉडल बाइनरी फ़ॉर्मेट में |
-| [RVM_TEXT](#RVM-TEXT) | AVEVA Plant Design Management System मॉडल टेक्स्ट फ़ॉर्मेट में |
+| [PDF](#PDF) | Adobe का पोर्टेबल डॉक्यूमेंट फ़ॉर्मेट |
+| [PLY](#PLY) | पॉलीगॉन फ़ाइल फ़ॉर्मेट या स्टैनफ़र्ड ट्रायंगल फ़ॉर्मेट |
+| [RVM_BINARY](#RVM-BINARY) | AVEVA प्लांट डिज़ाइन मैनेजमेंट सिस्टम मॉडल बाइनरी फ़ॉर्मेट में |
+| [RVM_TEXT](#RVM-TEXT) | AVEVA प्लांट डिज़ाइन मैनेजमेंट सिस्टम मॉडल टेक्स्ट फ़ॉर्मेट में |
 | [SIEMENSJT8](#SIEMENSJT8) | Siemens JT फ़ाइल संस्करण 8 |
 | [SIEMENSJT9](#SIEMENSJT9) | Siemens JT फ़ाइल संस्करण 9 |
-| [STLASCII](#STLASCII) | ASCII STL फ़ाइल फ़ॉर्मेट |
-| [STL_BINARY](#STL-BINARY) | Binary STL फ़ाइल फ़ॉर्मेट |
-| [UNIVERSAL3D](#UNIVERSAL3D) | Universal3D फ़ाइल फ़ॉर्मेट |
+| [STLASCII](#STLASCII) | ASCII STL फ़ाइल प्रारूप |
+| [STL_BINARY](#STL-BINARY) | Binary STL फ़ाइल प्रारूप |
+| [UNIVERSAL3D](#UNIVERSAL3D) | Universal3D फ़ाइल प्रारूप |
 | [USD](#USD) | यूनिवर्सल सीन विवरण |
-| [USDA](#USDA) | ASCII फ़ॉर्मेट में यूनिवर्सल सीन विवरण। |
+| [USDA](#USDA) | ASCII फ़ॉर्मेट में यूनिवर्सल सीन विवरण. |
 | [USDZ](#USDZ) | संपीड़ित यूनिवर्सल सीन विवरण |
 | [VRML](#VRML) | वर्चुअल रियलिटी मॉडलिंग भाषा |
 | [WAVEFRONTOBJ](#WAVEFRONTOBJ) | Wavefront की Obj फ़ाइल फ़ॉर्मेट |
 | [XYZ](#XYZ) | Xyz पॉइंट क्लाउड फ़ाइल |
 | [X_BINARY](#X-BINARY) | बाइनरी फ़ॉर्मेट में DirectX X फ़ाइल |
 | [X_TEXT](#X-TEXT) | बाइनरी फ़ॉर्मेट में DirectX X फ़ाइल |
-| [ZIP](#ZIP) | ज़िप आर्काइव जिसमें अन्य 3D फ़ाइल फ़ॉर्मेट शामिल हैं। |
+| [ZIP](#ZIP) | Zip आर्काइव जिसमें अन्य 3D फ़ाइल फ़ॉर्मेट शामिल हैं. |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [createLoadOptions()](#createLoadOptions--) | इस फ़ाइल फ़ॉर्मेट के लिए डिफ़ॉल्ट लोड विकल्प बनाएं |
 | [createSaveOptions()](#createSaveOptions--) | इस फ़ाइल फ़ॉर्मेट के लिए डिफ़ॉल्ट सेव विकल्प बनाएं |
-| [detect(Stream stream, String fileName)](#detect-com.aspose.threed.Stream-java.lang.String-) | डेटा स्ट्रीम से फ़ाइल फ़ॉर्मेट का पता लगाएँ, फ़ाइल नाम वैकल्पिक है उन प्रकारों का अनुमान लगाने के लिए जिनमें कोई मैजिक हेडर नहीं है। |
-| [detect(String fileName)](#detect-java.lang.String-) | फ़ाइल नाम से फ़ाइल फ़ॉर्मेट का पता लगाएँ, फ़ाइल पढ़ने योग्य होनी चाहिए ताकि Aspose.3D फ़ाइल हेडर के माध्यम से फ़ॉर्मेट का पता लगा सके। |
+| [detect(Stream stream, String fileName)](#detect-com.aspose.threed.Stream-java.lang.String-) | डेटा स्ट्रीम से फ़ाइल फ़ॉर्मेट का पता लगाएँ, फ़ाइल नाम वैकल्पिक है उन प्रकारों का अनुमान लगाने के लिए जिनमें कोई मैजिक हेडर नहीं है. |
+| [detect(String fileName)](#detect-java.lang.String-) | फ़ाइल नाम से फ़ाइल फ़ॉर्मेट का पता लगाएँ, फ़ाइल पढ़ने योग्य होनी चाहिए ताकि Aspose.3D फ़ाइल हेडर के माध्यम से फ़ॉर्मेट का पता लगा सके. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCanExport()](#getCanExport--) | जाँचता है कि Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट में सीन निर्यात का समर्थन करता है या नहीं। |
-| [getCanImport()](#getCanImport--) | जाँचता है कि Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट से सीन आयात का समर्थन करता है या नहीं। |
+| [getCanExport()](#getCanExport--) | जाँचता है कि Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट में सीन निर्यात का समर्थन करता है या नहीं. |
+| [getCanImport()](#getCanImport--) | जाँचता है कि Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट से सीन आयात का समर्थन करता है या नहीं. |
 | [getClass()](#getClass--) |  |
 | [getContentType()](#getContentType--) | फ़ाइल फ़ॉर्मेट की कंटेंट टाइप प्राप्त करता है |
-| [getExtension()](#getExtension--) | इस प्रकार का एक्सटेंशन नाम प्राप्त करता है। |
-| [getExtensions()](#getExtensions--) | इस प्रकार के एक्सटेंशन नाम प्राप्त करता है। |
+| [getExtension()](#getExtension--) | इस प्रकार का एक्सटेंशन नाम प्राप्त करता है. |
+| [getExtensions()](#getExtensions--) | इस प्रकार के एक्सटेंशन नाम प्राप्त करता है. |
 | [getFileFormatType()](#getFileFormatType--) | फ़ाइल फ़ॉर्मेट प्रकार प्राप्त करता है |
-| [getFormatByExtension(String extensionName)](#getFormatByExtension-java.lang.String-) | फ़ाइल एक्सटेंशन नाम से पसंदीदा फ़ाइल फ़ॉर्मेट प्राप्त करता है। एक्सटेंशन नाम डॉट ('.') से शुरू होना चाहिए। |
-| [getFormats()](#getFormats--) | सभी समर्थित फ़ॉर्मेट तक पहुंच |
+| [getFormatByExtension(String extensionName)](#getFormatByExtension-java.lang.String-) | फ़ाइल एक्सटेंशन नाम से पसंदीदा फ़ाइल फ़ॉर्मेट प्राप्त करता है। एक्सटेंशन नाम डॉट ('.') से शुरू होना चाहिए. |
+| [getFormats()](#getFormats--) | सभी समर्थित फ़ॉर्मेट तक पहुँच |
 | [getVersion()](#getVersion--) | फ़ाइल फ़ॉर्मेट संस्करण प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
-| [loadAttributes(Scene scene, Stream stream)](#loadAttributes-com.aspose.threed.Scene-com.aspose.threed.Stream-) | निर्दिष्ट स्ट्रीम से एट्रिब्यूट लोड करें |
-| [loadAttributes(Scene scene, Stream stream, String prefix)](#loadAttributes-com.aspose.threed.Scene-com.aspose.threed.Stream-java.lang.String-) | निर्दिष्ट स्ट्रीम से एट्रिब्यूट लोड करें |
-| [loadAttributes(Scene scene, String fileName)](#loadAttributes-com.aspose.threed.Scene-java.lang.String-) | निर्दिष्ट फ़ाइल नाम से एट्रिब्यूट लोड करें |
-| [loadAttributes(Scene scene, String fileName, String prefix)](#loadAttributes-com.aspose.threed.Scene-java.lang.String-java.lang.String-) | निर्दिष्ट फ़ाइल नाम से एट्रिब्यूट लोड करें |
+| [loadAttributes(Scene scene, Stream stream)](#loadAttributes-com.aspose.threed.Scene-com.aspose.threed.Stream-) | निर्दिष्ट स्ट्रीम से एट्रिब्यूट्स लोड करें |
+| [loadAttributes(Scene scene, Stream stream, String prefix)](#loadAttributes-com.aspose.threed.Scene-com.aspose.threed.Stream-java.lang.String-) | निर्दिष्ट स्ट्रीम से एट्रिब्यूट्स लोड करें |
+| [loadAttributes(Scene scene, String fileName)](#loadAttributes-com.aspose.threed.Scene-java.lang.String-) | निर्दिष्ट फ़ाइल नाम से एट्रिब्यूट्स लोड करें |
+| [loadAttributes(Scene scene, String fileName, String prefix)](#loadAttributes-com.aspose.threed.Scene-java.lang.String-java.lang.String-) | निर्दिष्ट फ़ाइल नाम से एट्रिब्यूट्स लोड करें |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | फ़ॉर्मेट को स्ट्रिंग में बदलें |
@@ -105,7 +105,7 @@ public static final FileFormat AMF
 ```
 
 
-ऐडिटिव मैन्युफैक्चरिंग फ़ाइल फ़ॉर्मेट
+एडिटिव मैन्युफैक्चरिंग फ़ाइल फ़ॉर्मेट
 
 ### ASE {#ASE}
 ```
@@ -113,7 +113,7 @@ public static final FileFormat ASE
 ```
 
 
-3D Studio Max का ASCII सीन एक्सपोर्टर फ़ॉर्मेट।
+3D Studio Max का ASCII सीन निर्यातक फ़ॉर्मेट।
 
 ### ASPOSE3D_WEB {#ASPOSE3D-WEB}
 ```
@@ -233,7 +233,7 @@ public static final FileFormat FBX7500ASCII
 ```
 
 
-ASCII FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.5.0 के साथ
+ASCII FBX फ़ाइल प्रारूप, संस्करण 7.5.0 के साथ
 
 ### FBX7500_BINARY {#FBX7500-BINARY}
 ```
@@ -241,7 +241,7 @@ public static final FileFormat FBX7500_BINARY
 ```
 
 
-Binary FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.5.0 के साथ
+Binary FBX फ़ाइल प्रारूप, संस्करण 7.5.0 के साथ
 
 ### FBX7600ASCII {#FBX7600ASCII}
 ```
@@ -249,7 +249,7 @@ public static final FileFormat FBX7600ASCII
 ```
 
 
-ASCII FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.6.0 के साथ
+ASCII FBX फ़ाइल प्रारूप, संस्करण 7.6.0 के साथ
 
 ### FBX7600_BINARY {#FBX7600-BINARY}
 ```
@@ -257,7 +257,7 @@ public static final FileFormat FBX7600_BINARY
 ```
 
 
-Binary FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.6.0 के साथ
+Binary FBX फ़ाइल प्रारूप, संस्करण 7.6.0 के साथ
 
 ### FBX7700ASCII {#FBX7700ASCII}
 ```
@@ -265,7 +265,7 @@ public static final FileFormat FBX7700ASCII
 ```
 
 
-ASCII FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.7.0 के साथ
+ASCII FBX फ़ाइल प्रारूप, संस्करण 7.7.0 के साथ
 
 ### FBX7700_BINARY {#FBX7700-BINARY}
 ```
@@ -273,7 +273,7 @@ public static final FileFormat FBX7700_BINARY
 ```
 
 
-Binary FBX फ़ाइल फ़ॉर्मेट, संस्करण 7.7.0 के साथ
+Binary FBX फ़ाइल प्रारूप, संस्करण 7.7.0 के साथ
 
 ### GLTF {#GLTF}
 ```
@@ -305,7 +305,7 @@ public static final FileFormat GLTF_BINARY
 ```
 
 
-Khronos Group का glTF बाइनरी फ़ॉर्मेट में
+Khronos Group का glTF बाइनरी प्रारूप में
 
 ### HTML5 {#HTML5}
 ```
@@ -329,7 +329,7 @@ public static final FileFormat MAYAASCII
 ```
 
 
-Autodesk Maya ASCII फ़ॉर्मेट में
+Autodesk Maya ASCII प्रारूप में
 
 ### MAYA_BINARY {#MAYA-BINARY}
 ```
@@ -337,7 +337,7 @@ public static final FileFormat MAYA_BINARY
 ```
 
 
-Autodesk Maya बाइनरी फ़ॉर्मेट में
+Autodesk Maya बाइनरी प्रारूप में
 
 ### MICROSOFT3MF {#MICROSOFT3MF}
 ```
@@ -345,7 +345,7 @@ public static final Microsoft3MFFormat MICROSOFT3MF
 ```
 
 
-Microsoft 3D Manufacturing फ़ॉर्मेट
+Microsoft 3D मैन्युफैक्चरिंग फ़ॉर्मेट
 
 ### PCD {#PCD}
 ```
@@ -369,7 +369,7 @@ public static final PdfFormat PDF
 ```
 
 
-Adobe का Portable Document Format
+Adobe का पोर्टेबल डॉक्यूमेंट फ़ॉर्मेट
 
 ### PLY {#PLY}
 ```
@@ -377,7 +377,7 @@ public static final PlyFormat PLY
 ```
 
 
-Polygon फ़ाइल फ़ॉर्मेट या Stanford Triangle फ़ॉर्मेट
+पॉलीगॉन फ़ाइल फ़ॉर्मेट या स्टैनफ़र्ड ट्रायंगल फ़ॉर्मेट
 
 ### RVM_BINARY {#RVM-BINARY}
 ```
@@ -385,7 +385,7 @@ public static final RvmFormat RVM_BINARY
 ```
 
 
-AVEVA Plant Design Management System मॉडल बाइनरी फ़ॉर्मेट में
+AVEVA प्लांट डिज़ाइन मैनेजमेंट सिस्टम मॉडल बाइनरी फ़ॉर्मेट में
 
 ### RVM_TEXT {#RVM-TEXT}
 ```
@@ -393,7 +393,7 @@ public static final RvmFormat RVM_TEXT
 ```
 
 
-AVEVA Plant Design Management System मॉडल टेक्स्ट फ़ॉर्मेट में
+AVEVA प्लांट डिज़ाइन मैनेजमेंट सिस्टम मॉडल टेक्स्ट फ़ॉर्मेट में
 
 ### SIEMENSJT8 {#SIEMENSJT8}
 ```
@@ -417,7 +417,7 @@ public static final FileFormat STLASCII
 ```
 
 
-ASCII STL फ़ाइल फ़ॉर्मेट
+ASCII STL फ़ाइल प्रारूप
 
 ### STL_BINARY {#STL-BINARY}
 ```
@@ -425,7 +425,7 @@ public static final FileFormat STL_BINARY
 ```
 
 
-Binary STL फ़ाइल फ़ॉर्मेट
+Binary STL फ़ाइल प्रारूप
 
 ### UNIVERSAL3D {#UNIVERSAL3D}
 ```
@@ -433,7 +433,7 @@ public static final FileFormat UNIVERSAL3D
 ```
 
 
-Universal3D फ़ाइल फ़ॉर्मेट
+Universal3D फ़ाइल प्रारूप
 
 ### USD {#USD}
 ```
@@ -449,7 +449,7 @@ public static final FileFormat USDA
 ```
 
 
-ASCII फ़ॉर्मेट में यूनिवर्सल सीन विवरण।
+ASCII फ़ॉर्मेट में यूनिवर्सल सीन विवरण.
 
 ### USDZ {#USDZ}
 ```
@@ -505,7 +505,7 @@ public static final FileFormat ZIP
 ```
 
 
-ज़िप आर्काइव जिसमें अन्य 3D फ़ाइल फ़ॉर्मेट शामिल हैं।
+Zip आर्काइव जिसमें अन्य 3D फ़ाइल फ़ॉर्मेट शामिल हैं.
 
 ### createLoadOptions() {#createLoadOptions--}
 ```
@@ -533,13 +533,13 @@ public static FileFormat detect(Stream stream, String fileName)
 ```
 
 
-डेटा स्ट्रीम से फ़ाइल फ़ॉर्मेट का पता लगाएँ, फ़ाइल नाम वैकल्पिक है उन प्रकारों का अनुमान लगाने के लिए जिनमें कोई मैजिक हेडर नहीं है।
+डेटा स्ट्रीम से फ़ाइल फ़ॉर्मेट का पता लगाएँ, फ़ाइल नाम वैकल्पिक है उन प्रकारों का अनुमान लगाने के लिए जिनमें कोई मैजिक हेडर नहीं है.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | [Stream](../../com.aspose.threed/stream) | डेटा को पहचानने के लिए स्ट्रीम जिसमें डेटा है |
-| fileName | java.lang.String | डेटा का मूल फ़ाइल नाम, संकेत के रूप में उपयोग किया जाता है। |
+| stream | [Stream](../../com.aspose.threed/stream) | डेटा वाले स्ट्रीम का पता लगाने के लिए |
+| fileName | java.lang.String | डेटा का मूल फ़ाइल नाम, संकेत के रूप में उपयोग किया जाता है. |
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - The [FileFormat](../../com.aspose.threed/fileformat) instance of the detected type or null if failed.
@@ -549,12 +549,12 @@ public static FileFormat detect(String fileName)
 ```
 
 
-फ़ाइल नाम से फ़ाइल फ़ॉर्मेट का पता लगाएँ, फ़ाइल पढ़ने योग्य होनी चाहिए ताकि Aspose.3D फ़ाइल हेडर के माध्यम से फ़ॉर्मेट का पता लगा सके।
+फ़ाइल नाम से फ़ाइल फ़ॉर्मेट का पता लगाएँ, फ़ाइल पढ़ने योग्य होनी चाहिए ताकि Aspose.3D फ़ाइल हेडर के माध्यम से फ़ॉर्मेट का पता लगा सके.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fileName | java.lang.String | फ़ाइल फ़ॉर्मेट का पता लगाने के लिए फ़ाइल का पाथ। |
+| fileName | java.lang.String | फ़ाइल फ़ॉर्मेट का पता लगाने के लिए फ़ाइल का पाथ. |
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - The [FileFormat](../../com.aspose.threed/fileformat) instance of the detected type or null if failed.
@@ -579,10 +579,10 @@ public boolean getCanExport()
 ```
 
 
-जाँचता है कि Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट में सीन निर्यात का समर्थन करता है या नहीं।
+जाँचता है कि Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट में सीन निर्यात का समर्थन करता है या नहीं.
 
 **Returns:**
-boolean - क्या Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट में सीन निर्यात का समर्थन करता है। **उदाहरण:** निम्नलिखित कोड दिखाता है कि निर्दिष्ट फ़ॉर्मेट में निर्यात समर्थित है या नहीं।
+boolean - क्या Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट में सीन निर्यात का समर्थन करता है। **Example:** निम्नलिखित कोड दिखाता है कि निर्दिष्ट फ़ॉर्मेट में निर्यात का समर्थन है या नहीं।
 
 ```
 var outputFormat = ".glb";
@@ -596,10 +596,10 @@ public boolean getCanImport()
 ```
 
 
-जाँचता है कि Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट से सीन आयात का समर्थन करता है या नहीं।
+जाँचता है कि Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट से सीन आयात का समर्थन करता है या नहीं.
 
 **Returns:**
-boolean - क्या Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट से सीन आयात का समर्थन करता है। **उदाहरण:** निम्नलिखित कोड दिखाता है कि निर्दिष्ट फ़ॉर्मेट से आयात समर्थित है या नहीं।
+boolean - क्या Aspose.3D वर्तमान फ़ाइल फ़ॉर्मेट से सीन आयात का समर्थन करता है। **Example:** निम्नलिखित कोड दिखाता है कि निर्दिष्ट फ़ॉर्मेट से आयात का समर्थन है या नहीं।
 
 ```
 var outputFormat = ".glb";
@@ -641,10 +641,10 @@ public String getExtension()
 ```
 
 
-इस प्रकार का एक्सटेंशन नाम प्राप्त करता है।
+इस प्रकार का एक्सटेंशन नाम प्राप्त करता है.
 
 **Returns:**
-java.lang.String - इस प्रकार का एक्सटेंशन नाम। **उदाहरण:**
+java.lang.String - इस प्रकार का एक्सटेंशन नाम। **Example:**
 
 ```
 var format = FileFormat.MAYA_BINARY;
@@ -656,7 +656,7 @@ public String[] getExtensions()
 ```
 
 
-इस प्रकार के एक्सटेंशन नाम प्राप्त करता है।
+इस प्रकार के एक्सटेंशन नाम प्राप्त करता है.
 
 **Returns:**
 java.lang.String[] - इस प्रकार के एक्सटेंशन नाम।
@@ -676,12 +676,12 @@ public static FileFormat getFormatByExtension(String extensionName)
 ```
 
 
-फ़ाइल एक्सटेंशन नाम से पसंदीदा फ़ाइल फ़ॉर्मेट प्राप्त करता है। एक्सटेंशन नाम डॉट ('.') से शुरू होना चाहिए।
+फ़ाइल एक्सटेंशन नाम से पसंदीदा फ़ाइल फ़ॉर्मेट प्राप्त करता है। एक्सटेंशन नाम डॉट ('.') से शुरू होना चाहिए.
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| extensionName | java.lang.String | एक्सटेंशन नाम क्वेरी के लिए '.' से शुरू होता है। |
+| extensionName | java.lang.String | एक्सटेंशन नाम क्वेरी करने के लिए '.' से शुरू होता है। |
 
 **Returns:**
 [FileFormat](../../com.aspose.threed/fileformat) - Instance of [FileFormat](../../com.aspose.threed/fileformat), otherwise null returned. **Example:** The following code shows how to save scene to memory using specified format
@@ -699,10 +699,10 @@ public static List<FileFormat> getFormats()
 ```
 
 
-सभी समर्थित फ़ॉर्मेट तक पहुंच
+सभी समर्थित फ़ॉर्मेट तक पहुँच
 
 **Returns:**
-java.util.List<com.aspose.threed.FileFormat> - सभी समर्थित फ़ॉर्मेट तक पहुँच
+java.util.List<com.aspose.threed.FileFormat> - सभी समर्थित फ़ॉर्मेट्स तक पहुँच
 ### getVersion() {#getVersion--}
 ```
 public Version getVersion()
@@ -729,13 +729,13 @@ public void loadAttributes(Scene scene, Stream stream)
 ```
 
 
-निर्दिष्ट स्ट्रीम से एट्रिब्यूट लोड करें
+निर्दिष्ट स्ट्रीम से एट्रिब्यूट्स लोड करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | सीन जहाँ एट्रिब्यूट लागू किए जाएंगे |
-| stream | [Stream](../../com.aspose.threed/stream) | एट्रिब्यूट्स वाली स्ट्रीम |
+| scene | [Scene](../../com.aspose.threed/scene) | सीन जहाँ एट्रिब्यूट्स लागू किए जाएंगे |
+| stream | [Stream](../../com.aspose.threed/stream) | स्ट्रीम जिसमें एट्रिब्यूट्स हैं |
 
 ### loadAttributes(Scene scene, Stream stream, String prefix) {#loadAttributes-com.aspose.threed.Scene-com.aspose.threed.Stream-java.lang.String-}
 ```
@@ -743,13 +743,13 @@ public void loadAttributes(Scene scene, Stream stream, String prefix)
 ```
 
 
-निर्दिष्ट स्ट्रीम से एट्रिब्यूट लोड करें
+निर्दिष्ट स्ट्रीम से एट्रिब्यूट्स लोड करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | सीन जहाँ एट्रिब्यूट लागू किए जाएंगे |
-| stream | [Stream](../../com.aspose.threed/stream) | एट्रिब्यूट्स वाली स्ट्रीम |
+| scene | [Scene](../../com.aspose.threed/scene) | सीन जहाँ एट्रिब्यूट्स लागू किए जाएंगे |
+| stream | [Stream](../../com.aspose.threed/stream) | स्ट्रीम जिसमें एट्रिब्यूट्स हैं |
 | उपसर्ग | java.lang.String | नामों के टकराव से बचने के लिए उपयोग किए जाने वाले एट्रिब्यूट्स का उपसर्ग, डिफ़ॉल्ट मान "rvm:" है |
 
 ### loadAttributes(Scene scene, String fileName) {#loadAttributes-com.aspose.threed.Scene-java.lang.String-}
@@ -758,13 +758,13 @@ public void loadAttributes(Scene scene, String fileName)
 ```
 
 
-निर्दिष्ट फ़ाइल नाम से एट्रिब्यूट लोड करें
+निर्दिष्ट फ़ाइल नाम से एट्रिब्यूट्स लोड करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | सीन जहाँ एट्रिब्यूट लागू किए जाएंगे |
-| fileName | java.lang.String | एट्रिब्यूट्स वाली फ़ाइल का नाम |
+| scene | [Scene](../../com.aspose.threed/scene) | सीन जहाँ एट्रिब्यूट्स लागू किए जाएंगे |
+| fileName | java.lang.String | फ़ाइल का नाम जिसमें एट्रिब्यूट्स हैं |
 
 ### loadAttributes(Scene scene, String fileName, String prefix) {#loadAttributes-com.aspose.threed.Scene-java.lang.String-java.lang.String-}
 ```
@@ -772,13 +772,13 @@ public void loadAttributes(Scene scene, String fileName, String prefix)
 ```
 
 
-निर्दिष्ट फ़ाइल नाम से एट्रिब्यूट लोड करें
+निर्दिष्ट फ़ाइल नाम से एट्रिब्यूट्स लोड करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| scene | [Scene](../../com.aspose.threed/scene) | सीन जहाँ एट्रिब्यूट लागू किए जाएंगे |
-| fileName | java.lang.String | एट्रिब्यूट्स वाली फ़ाइल का नाम |
+| scene | [Scene](../../com.aspose.threed/scene) | सीन जहाँ एट्रिब्यूट्स लागू किए जाएंगे |
+| fileName | java.lang.String | फ़ाइल का नाम जिसमें एट्रिब्यूट्स हैं |
 | उपसर्ग | java.lang.String | नामों के टकराव से बचने के लिए उपयोग किए जाने वाले एट्रिब्यूट्स का उपसर्ग, डिफ़ॉल्ट मान "rvm:" है |
 
 ### notify() {#notify--}

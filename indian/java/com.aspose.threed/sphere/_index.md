@@ -1,6 +1,6 @@
 ---
 title: "Sphere"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "पैरामीटरयुक्त गोला।"
 type: docs
 weight: 174
@@ -14,36 +14,36 @@ public class Sphere extends Primitive
 ```
 
 पैरामीटरयुक्त गोला।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Sphere()](#Sphere--) | डिफ़ॉल्ट त्रिज्या 1 के साथ नया [Sphere](../../com.aspose.threed/sphere) का उदाहरण प्रारंभ करता है। |
-| [Sphere(double radius)](#Sphere-double-) | निर्दिष्ट त्रिज्या के साथ [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण प्रारंभ करता है। |
-| [Sphere(double radius, int widthSegments, int heightSegments)](#Sphere-double-int-int-) | निर्दिष्ट त्रिज्या, चौड़ाई सेगमेंट और ऊँचाई सेगमेंट के साथ [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण प्रारंभ करता है। |
-| [Sphere(String name, double radius, int widthSegments, int heightSegments, double phiStart, double phiLength, double thetaStart, double thetaLength)](#Sphere-java.lang.String-double-int-int-double-double-double-double-) | [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण प्रारंभ करता है। |
+| [Sphere()](#Sphere--) | डिफ़ॉल्ट त्रिज्या 1 के साथ [Sphere](../../com.aspose.threed/sphere) का नया उदाहरण इनिशियलाइज़ करता है। |
+| [Sphere(double radius)](#Sphere-double-) | निर्दिष्ट त्रिज्या के साथ [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण इनिशियलाइज़ करता है। |
+| [Sphere(double radius, int widthSegments, int heightSegments)](#Sphere-double-int-int-) | निर्दिष्ट त्रिज्या, चौड़ाई खंड और ऊँचाई खंड के साथ [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण इनिशियलाइज़ करता है। |
+| [Sphere(String name, double radius, int widthSegments, int heightSegments, double phiStart, double phiLength, double thetaStart, double thetaLength)](#Sphere-java.lang.String-double-int-int-double-double-double-double-) | [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण इनिशियलाइज़ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
-| [getCastShadows()](#getCastShadows--) | यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getCastShadows()](#getCastShadows--) | यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
-| [getHeightSegments()](#getHeightSegments--) | ऊँचाई सेगमेंट प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
+| [getHeightSegments()](#getHeightSegments--) | ऊँचाई खंड प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getPhiLength()](#getPhiLength--) | फी की लंबाई प्राप्त करता है। |
 | [getPhiStart()](#getPhiStart--) | फी की शुरुआत प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [getRadius()](#getRadius--) | स्फीयर की त्रिज्या प्राप्त करता है। |
-| [getReceiveShadows()](#getReceiveShadows--) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getReceiveShadows()](#getReceiveShadows--) | यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [getThetaLength()](#getThetaLength--) | थीटा की लंबाई प्राप्त करता है। |
 | [getThetaStart()](#getThetaStart--) | थीटा की शुरुआत प्राप्त करता है। |
 | [getWidthSegments()](#getWidthSegments--) | चौड़ाई खंड प्राप्त करता है। |
@@ -52,18 +52,18 @@ public class Sphere extends Primitive
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setHeightSegments(int value)](#setHeightSegments-int-) | ऊँचाई खंड सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [setPhiLength(double value)](#setPhiLength-double-) | फ़ी की लंबाई सेट करता है। |
-| [setPhiStart(double value)](#setPhiStart-double-) | फ़ी प्रारंभ सेट करता है। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setPhiLength(double value)](#setPhiLength-double-) | phi की लंबाई सेट करता है। |
+| [setPhiStart(double value)](#setPhiStart-double-) | phi की शुरुआत सेट करता है। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setRadius(double value)](#setRadius-double-) | गोले का त्रिज्या सेट करता है। |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है। |
+| [setRadius(double value)](#setRadius-double-) | स्फीयर की त्रिज्या सेट करता है। |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
 | [setThetaLength(double value)](#setThetaLength-double-) | थीटा की लंबाई सेट करता है। |
-| [setThetaStart(double value)](#setThetaStart-double-) | थीटा प्रारंभ सेट करता है। |
+| [setThetaStart(double value)](#setThetaStart-double-) | थीटा की शुरुआत सेट करता है। |
 | [setWidthSegments(int value)](#setWidthSegments-int-) | चौड़ाई खंड सेट करता है। |
 | [toMesh()](#toMesh--) | वर्तमान ऑब्जेक्ट को मेष में परिवर्तित करें |
 | [toString()](#toString--) |  |
@@ -76,7 +76,7 @@ public Sphere()
 ```
 
 
-डिफ़ॉल्ट त्रिज्या 1 के साथ नया [Sphere](../../com.aspose.threed/sphere) का उदाहरण प्रारंभ करता है।
+डिफ़ॉल्ट त्रिज्या 1 के साथ [Sphere](../../com.aspose.threed/sphere) का नया उदाहरण इनिशियलाइज़ करता है।
 
 ### Sphere(double radius) {#Sphere-double-}
 ```
@@ -84,7 +84,7 @@ public Sphere(double radius)
 ```
 
 
-निर्दिष्ट त्रिज्या के साथ [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण प्रारंभ करता है।
+निर्दिष्ट त्रिज्या के साथ [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -97,12 +97,12 @@ public Sphere(double radius, int widthSegments, int heightSegments)
 ```
 
 
-निर्दिष्ट त्रिज्या, चौड़ाई सेगमेंट और ऊँचाई सेगमेंट के साथ [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण प्रारंभ करता है।
+निर्दिष्ट त्रिज्या, चौड़ाई खंड और ऊँचाई खंड के साथ [Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| त्रिज्या | double | गोले की त्रिज्या। |
+| त्रिज्या | double | स्फीयर की त्रिज्या। |
 | widthSegments | int | चौड़ाई खंड। |
 | heightSegments | int | ऊँचाई खंड। |
 
@@ -112,19 +112,19 @@ public Sphere(String name, double radius, int widthSegments, int heightSegments,
 ```
 
 
-[Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण प्रारंभ करता है।
+[Sphere](../../com.aspose.threed/sphere) क्लास का नया उदाहरण इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | नाम | java.lang.String | नाम। |
-| त्रिज्या | double | गोले की त्रिज्या। |
+| त्रिज्या | double | स्फीयर की त्रिज्या। |
 | widthSegments | int | चौड़ाई खंड। |
 | heightSegments | int | ऊँचाई खंड। |
-| phiStart | double | फ़ी प्रारंभ। |
-| phiLength | double | फ़ी लंबाई। |
-| thetaStart | double | थीटा प्रारंभ। |
-| thetaLength | double | थीटा लंबाई। |
+| phiStart | double | Phi प्रारंभ। |
+| phiLength | double | Phi लंबाई। |
+| thetaStart | double | Theta प्रारंभ। |
+| thetaLength | double | Theta लंबाई। |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -147,7 +147,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -162,7 +162,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -179,7 +179,7 @@ public boolean getCastShadows()
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है
+यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया डाल सकती है
@@ -199,7 +199,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -209,17 +209,17 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getHeightSegments() {#getHeightSegments--}
 ```
 public int getHeightSegments()
 ```
 
 
-ऊँचाई सेगमेंट प्राप्त करता है।
+ऊँचाई खंड प्राप्त करता है।
 
 **Returns:**
 int - ऊँचाई खंड।
@@ -239,7 +239,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -249,7 +249,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -262,7 +262,7 @@ public double getPhiLength()
 फी की लंबाई प्राप्त करता है।
 
 **Returns:**
-double - फ़ी की लंबाई।
+double - phi की लंबाई।
 ### getPhiStart() {#getPhiStart--}
 ```
 public double getPhiStart()
@@ -272,7 +272,7 @@ public double getPhiStart()
 फी की शुरुआत प्राप्त करता है।
 
 **Returns:**
-double - फ़ी प्रारंभ।
+double - phi की शुरुआत।
 ### getProperties() {#getProperties--}
 ```
 public PropertyCollection getProperties()
@@ -307,14 +307,14 @@ public double getRadius()
 स्फीयर की त्रिज्या प्राप्त करता है।
 
 **Returns:**
-double - गोले की त्रिज्या।
+double - स्फीयर की त्रिज्या।
 ### getReceiveShadows() {#getReceiveShadows--}
 ```
 public boolean getReceiveShadows()
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है।
+यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया प्राप्त कर सकती है।
@@ -324,7 +324,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -347,7 +347,7 @@ public double getThetaStart()
 थीटा की शुरुआत प्राप्त करता है।
 
 **Returns:**
-double - थीटा प्रारंभ।
+double - थीटा की शुरुआत।
 ### getWidthSegments() {#getWidthSegments--}
 ```
 public int getWidthSegments()
@@ -420,7 +420,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है
+यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -433,7 +433,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -472,7 +472,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -485,7 +485,7 @@ public void setPhiLength(double value)
 ```
 
 
-फ़ी की लंबाई सेट करता है।
+phi की लंबाई सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -498,7 +498,7 @@ public void setPhiStart(double value)
 ```
 
 
-फ़ी प्रारंभ सेट करता है।
+phi की शुरुआत सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -525,7 +525,7 @@ public void setRadius(double value)
 ```
 
 
-गोले का त्रिज्या सेट करता है।
+स्फीयर की त्रिज्या सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -538,7 +538,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है।
+यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -564,7 +564,7 @@ public void setThetaStart(double value)
 ```
 
 
-थीटा प्रारंभ सेट करता है।
+थीटा की शुरुआत सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

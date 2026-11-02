@@ -1,6 +1,6 @@
 ---
 title: "FVector2"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "दो घटकों वाला फ़्लोट वेक्टर।"
 type: docs
 weight: 59
@@ -17,19 +17,19 @@ public final class FVector2 implements Struct<FVector2>, Serializable
 ```
 
 दो घटकों वाला फ़्लोट वेक्टर।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [FVector2(float x, float y)](#FVector2-float-float-) | [FVector2](../../com.aspose.threed/fvector2) का नया इंस्टेंस प्रारंभ करता है। |
-| [FVector2(Vector2 vec)](#FVector2-com.aspose.threed.Vector2-) | [FVector2](../../com.aspose.threed/fvector2) का नया इंस्टेंस प्रारंभ करता है। |
+| [FVector2(float x, float y)](#FVector2-float-float-) | एक नया इंस्टेंस प्रारंभ करता है [FVector2](../../com.aspose.threed/fvector2) का। |
+| [FVector2(Vector2 vec)](#FVector2-com.aspose.threed.Vector2-) | एक नया इंस्टेंस प्रारंभ करता है [FVector2](../../com.aspose.threed/fvector2) का। |
 | [FVector2()](#FVector2--) |  |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [x](#x) | The x component. |
-| [y](#y) | The y component. |
+| [x](#x) | x घटक। |
+| [y](#y) | y घटक। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -37,18 +37,18 @@ public final class FVector2 implements Struct<FVector2>, Serializable
 | [add(FVector2 a, FVector2 b)](#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \+ ऑपरेटर ओवरलोडिंग |
 | [clone()](#clone--) |  |
 | [copyFrom(FVector2 src)](#copyFrom-com.aspose.threed.FVector2-) |  |
-| [create(FVector2 v)](#create-com.aspose.threed.FVector2-) | Explicit रूपांतरण ऑपरेटर to cast FVector2 to Vector2 |
-| [equals(FVector2 rhs)](#equals-com.aspose.threed.FVector2-) | जाँचें कि दो वेक्टर समान हैं या नहीं |
-| [equals(Object obj)](#equals-java.lang.Object-) | जाँचें कि दो वेक्टर समान हैं या नहीं |
+| [create(FVector2 v)](#create-com.aspose.threed.FVector2-) | FVector2 को Vector2 में कास्ट करने के लिए स्पष्ट रूपांतरण ऑपरेटर |
+| [equals(FVector2 rhs)](#equals-com.aspose.threed.FVector2-) | जाँचें कि दो वेक्टर बराबर हैं |
+| [equals(Object obj)](#equals-java.lang.Object-) | जाँचें कि दो वेक्टर बराबर हैं |
 | [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) | इस इंस्टेंस का हैश कोड प्राप्त करता है |
+| [hashCode()](#hashCode--) | इस उदाहरण का हैश कोड प्राप्त करता है |
 | [mul(FVector2 a, float b)](#mul-com.aspose.threed.FVector2-float-) | \* ऑपरेटर ओवरलोडिंग |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_eq(FVector2 a, FVector2 b)](#op-eq-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | == ऑपरेटर ओवरलोडिंग |
 | [op_ne(FVector2 a, FVector2 b)](#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | != ऑपरेटर ओवरलोडिंग |
 | [sub(FVector2 a, FVector2 b)](#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-) | \- ऑपरेटर ओवरलोडिंग |
-| [toString()](#toString--) | एक स्ट्रिंग लौटाता है जो [FVector2](../../com.aspose.threed/fvector2) को दर्शाती है |
+| [toString()](#toString--) | एक स्ट्रिंग लौटाता है जो [FVector2](../../com.aspose.threed/fvector2) का प्रतिनिधित्व करती है |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -58,7 +58,7 @@ public FVector2(float x, float y)
 ```
 
 
-[FVector2](../../com.aspose.threed/fvector2) का नया इंस्टेंस प्रारंभ करता है।
+एक नया इंस्टेंस प्रारंभ करता है [FVector2](../../com.aspose.threed/fvector2) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -72,12 +72,12 @@ public FVector2(Vector2 vec)
 ```
 
 
-[FVector2](../../com.aspose.threed/fvector2) का नया इंस्टेंस प्रारंभ करता है।
+एक नया इंस्टेंस प्रारंभ करता है [FVector2](../../com.aspose.threed/fvector2) का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| vec | [Vector2](../../com.aspose.threed/vector2) | डबल प्रकार में Vector2 |
+| vec | [Vector2](../../com.aspose.threed/vector2) | डबल प्रकार का Vector2 |
 
 ### FVector2() {#FVector2--}
 ```
@@ -91,7 +91,7 @@ public float x
 ```
 
 
-The x component.
+x घटक।
 
 ### y {#y}
 ```
@@ -99,7 +99,7 @@ public float y
 ```
 
 
-The y component.
+y घटक।
 
 ### add(FVector2 a, FVector2 b) {#add-com.aspose.threed.FVector2-com.aspose.threed.FVector2-}
 ```
@@ -146,12 +146,12 @@ public static Vector2 create(FVector2 v)
 ```
 
 
-Explicit रूपांतरण ऑपरेटर to cast FVector2 to Vector2
+FVector2 को Vector2 में कास्ट करने के लिए स्पष्ट रूपांतरण ऑपरेटर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| v | [FVector2](../../com.aspose.threed/fvector2) | फ़्लोट प्रकार में Vector 2। |
+| v | [FVector2](../../com.aspose.threed/fvector2) | फ़्लोट प्रकार का Vector 2। |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2)
@@ -161,7 +161,7 @@ public boolean equals(FVector2 rhs)
 ```
 
 
-जाँचें कि दो वेक्टर समान हैं या नहीं
+जाँचें कि दो वेक्टर बराबर हैं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -169,14 +169,14 @@ public boolean equals(FVector2 rhs)
 | rhs | [FVector2](../../com.aspose.threed/fvector2) |  |
 
 **Returns:**
-बूलियन - यदि सभी घटक समान हों तो सत्य।
+बूलियन - यदि सभी घटक समान हैं तो सत्य।
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-जाँचें कि दो वेक्टर समान हैं या नहीं
+जाँचें कि दो वेक्टर बराबर हैं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -184,7 +184,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object |  |
 
 **Returns:**
-बूलियन - यदि इनपुट एक वेक्टर है और सभी घटक समान हों तो सत्य।
+बूलियन - यदि इनपुट एक वेक्टर है और सभी घटक समान हैं तो सत्य।
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -201,7 +201,7 @@ public int hashCode()
 ```
 
 
-इस इंस्टेंस का हैश कोड प्राप्त करता है
+इस उदाहरण का हैश कोड प्राप्त करता है
 
 **Returns:**
 इंट - वेक्टर का हैश कोड।
@@ -252,7 +252,7 @@ public static boolean op_eq(FVector2 a, FVector2 b)
 | b | [FVector2](../../com.aspose.threed/fvector2) | दूसरा वेक्टर |
 
 **Returns:**
-बूलियन - यदि सभी घटक समान हों तो सत्य।
+बूलियन - यदि सभी घटक समान हैं तो सत्य।
 ### op_ne(FVector2 a, FVector2 b) {#op-ne-com.aspose.threed.FVector2-com.aspose.threed.FVector2-}
 ```
 public static boolean op_ne(FVector2 a, FVector2 b)
@@ -268,7 +268,7 @@ public static boolean op_ne(FVector2 a, FVector2 b)
 | b | [FVector2](../../com.aspose.threed/fvector2) | दूसरा वेक्टर |
 
 **Returns:**
-बूलियन - यदि कोई भी घटक अलग हो तो सत्य।
+बूलियन - यदि कोई भी घटक अलग है तो सत्य।
 ### sub(FVector2 a, FVector2 b) {#sub-com.aspose.threed.FVector2-com.aspose.threed.FVector2-}
 ```
 public static FVector2 sub(FVector2 a, FVector2 b)
@@ -291,7 +291,7 @@ public String toString()
 ```
 
 
-एक स्ट्रिंग लौटाता है जो [FVector2](../../com.aspose.threed/fvector2) को दर्शाती है
+एक स्ट्रिंग लौटाता है जो [FVector2](../../com.aspose.threed/fvector2) का प्रतिनिधित्व करती है
 
 **Returns:**
 java.lang.String - वर्तमान वेक्टर का स्ट्रिंग प्रतिनिधित्व।

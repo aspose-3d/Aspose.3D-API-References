@@ -1,6 +1,6 @@
 ---
 title: "संस्करण"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "lexchou द्वारा 4/17/2017 को बनाया गया।"
 type: docs
 weight: 204
@@ -17,9 +17,9 @@ public class Version implements Cloneable, Serializable
 ```
 
 lexchou द्वारा 4/17/2017 को बनाया गया।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [Version(int major, int minor, int build)](#Version-int-int-int-) |  |
 | [Version(int major, int minor)](#Version-int-int-) |  |
@@ -51,8 +51,8 @@ public Version(int major, int minor, int build)
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | मुख्य | int |  |
-| छोटा | int |  |
-| निर्माण | int |  |
+| minor | int |  |
+| build | int |  |
 
 ### Version(int major, int minor) {#Version-int-int-}
 ```
@@ -64,7 +64,7 @@ public Version(int major, int minor)
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | मुख्य | int |  |
-| छोटा | int |  |
+| minor | int |  |
 
 ### Version(String ver) {#Version-java.lang.String-}
 ```
@@ -75,7 +75,7 @@ public Version(String ver)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| संस्करण | java.lang.String |  |
+| ver | java.lang.String |  |
 
 ### clone() {#clone--}
 ```

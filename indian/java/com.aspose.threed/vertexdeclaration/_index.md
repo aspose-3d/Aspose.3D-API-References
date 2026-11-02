@@ -1,6 +1,6 @@
 ---
 title: "VertexDeclaration"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "कस्टम परिभाषित वर्टेक्स संरचना की घोषणा"
 type: docs
 weight: 206
@@ -17,9 +17,9 @@ public final class VertexDeclaration implements Iterable<VertexField>, Comparabl
 ```
 
 कस्टम परिभाषित वर्टेक्स की संरचना की घोषणा
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [VertexDeclaration()](#VertexDeclaration--) |  |
 ## विधियाँ
@@ -29,17 +29,17 @@ public final class VertexDeclaration implements Iterable<VertexField>, Comparabl
 | [addField(int dataType, VertexFieldSemantic semantic)](#addField-int-com.aspose.threed.VertexFieldSemantic-) | एक नया वर्टेक्स फ़ील्ड जोड़ें |
 | [addField(int dataType, VertexFieldSemantic semantic, int index)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-) | एक नया वर्टेक्स फ़ील्ड जोड़ें |
 | [addField(int dataType, VertexFieldSemantic semantic, int index, String alias)](#addField-int-com.aspose.threed.VertexFieldSemantic-int-java.lang.String-) | एक नया वर्टेक्स फ़ील्ड जोड़ें |
-| [clear()](#clear--) | सभी फ़ील्ड साफ़ करें. |
-| [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | इस इंस्टेंस की तुलना एक निर्दिष्ट ऑब्जेक्ट से करता है और उनके सापेक्ष मानों का संकेत लौटाता है। |
-| [equals(Object obj)](#equals-java.lang.Object-) | निर्धारित करता है कि यह इंस्टेंस और एक निर्दिष्ट ऑब्जेक्ट, जो भी एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) ऑब्जेक्ट होना चाहिए, समान मान रखते हैं या नहीं. |
-| [fromGeometry(Geometry geometry, boolean useFloat)](#fromGeometry-com.aspose.threed.Geometry-boolean-) | एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) बनाएं जो एक [Geometry](../../com.aspose.threed/geometry) की लेआउट पर आधारित हो. |
+| [clear()](#clear--) | सभी फ़ील्ड साफ़ करें। |
+| [compareTo(VertexDeclaration other)](#compareTo-com.aspose.threed.VertexDeclaration-) | इस इंस्टेंस की तुलना निर्दिष्ट वस्तु से करता है और उनके सापेक्ष मानों का संकेत लौटाता है। |
+| [equals(Object obj)](#equals-java.lang.Object-) | निर्धारित करता है कि क्या यह इंस्टेंस और निर्दिष्ट ऑब्जेक्ट, जो कि एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) ऑब्जेक्ट भी होना चाहिए, समान मान रखते हैं। |
+| [fromGeometry(Geometry geometry, boolean useFloat)](#fromGeometry-com.aspose.threed.Geometry-boolean-) | एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) बनाएं जो एक [Geometry](../../com.aspose.threed/geometry) के लेआउट पर आधारित हो। |
 | [get(int index)](#get-int-) | इंडेक्स द्वारा [VertexField](../../com.aspose.threed/vertexfield) प्राप्त करता है |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | इस [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) में परिभाषित सभी फ़ील्ड की गिनती प्राप्त करता है |
-| [getSealed()](#getSealed--) | एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) को सील किया जाएगा जब इसे [TriMesh](../../com.aspose.threed/trimesg) द्वारा उपयोग किया गया हो, आगे कोई संशोधन की अनुमति नहीं है. |
-| [getSize()](#getSize--) | वर्टेक्स संरचना का बाइट में आकार. |
+| [getSealed()](#getSealed--) | एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) को सील कर दिया जाएगा जब इसे [TriMesh](../../com.aspose.threed/trimesh) द्वारा उपयोग किया गया हो, आगे कोई संशोधन अनुमति नहीं है। |
+| [getSize()](#getSize--) | वर्टेक्स संरचना का बाइट में आकार। |
 | [hashCode()](#hashCode--) | इस स्ट्रिंग के लिए हैश कोड लौटाता है। |
-| [iterator()](#iterator--) | इस इंस्टेंस में सभी वर्टेक्स फ़ील्ड को पार करने के लिए एक इनेमरेटर प्राप्त करता है. |
+| [iterator()](#iterator--) | इस इंस्टेंस में सभी वर्टेक्स फ़ील्ड के माध्यम से चलने के लिए एक एनेमरेटर प्राप्त करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) का स्ट्रिंग प्रतिनिधित्व |
@@ -81,7 +81,7 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic, int inde
 | --- | --- | --- |
 | dataType | int | वर्टेक्स फ़ील्ड का डेटा प्रकार |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | यह फ़ील्ड किस लिए उपयोग किया जाएगा |
-| सूचकांक | int | एक ही फ़ील्ड सेमांटिक के लिए सूचकांक, -1 स्वचालित निर्माण के लिए |
+| सूचकांक | int | एक ही फ़ील्ड सेमांटिक के लिए इंडेक्स, -1 स्वचालित जनरेशन के लिए |
 
 **Returns:**
 [VertexField](../../com.aspose.threed/vertexfield)
@@ -98,7 +98,7 @@ public VertexField addField(int dataType, VertexFieldSemantic semantic, int inde
 | --- | --- | --- |
 | dataType | int | वर्टेक्स फ़ील्ड का डेटा प्रकार |
 | semantic | [VertexFieldSemantic](../../com.aspose.threed/vertexfieldsemantic) | यह फ़ील्ड किस लिए उपयोग किया जाएगा |
-| सूचकांक | int | एक ही फ़ील्ड सेमांटिक के लिए सूचकांक, -1 स्वचालित निर्माण के लिए |
+| सूचकांक | int | एक ही फ़ील्ड सेमांटिक के लिए इंडेक्स, -1 स्वचालित जनरेशन के लिए |
 | उपनाम | java.lang.String | फ़ील्ड का उपनाम |
 
 **Returns:**
@@ -109,7 +109,7 @@ public void clear()
 ```
 
 
-सभी फ़ील्ड साफ़ करें.
+सभी फ़ील्ड साफ़ करें।
 
 ### compareTo(VertexDeclaration other) {#compareTo-com.aspose.threed.VertexDeclaration-}
 ```
@@ -117,7 +117,7 @@ public int compareTo(VertexDeclaration other)
 ```
 
 
-इस इंस्टेंस की तुलना एक निर्दिष्ट ऑब्जेक्ट से करता है और उनके सापेक्ष मानों का संकेत लौटाता है।
+इस इंस्टेंस की तुलना निर्दिष्ट वस्तु से करता है और उनके सापेक्ष मानों का संकेत लौटाता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -132,7 +132,7 @@ public boolean equals(Object obj)
 ```
 
 
-निर्धारित करता है कि यह इंस्टेंस और एक निर्दिष्ट ऑब्जेक्ट, जो भी एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) ऑब्जेक्ट होना चाहिए, समान मान रखते हैं या नहीं.
+निर्धारित करता है कि क्या यह इंस्टेंस और निर्दिष्ट ऑब्जेक्ट, जो कि एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) ऑब्जेक्ट भी होना चाहिए, समान मान रखते हैं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -147,13 +147,13 @@ public static VertexDeclaration fromGeometry(Geometry geometry, boolean useFloat
 ```
 
 
-एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) बनाएं जो एक [Geometry](../../com.aspose.threed/geometry) की लेआउट पर आधारित हो.
+एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) बनाएं जो एक [Geometry](../../com.aspose.threed/geometry) के लेआउट पर आधारित हो।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | geometry | [Geometry](../../com.aspose.threed/geometry) |  |
-| useFloat | boolean | डबल प्रकार के बजाय फ्लोट का उपयोग करें |
+| useFloat | boolean | डबल प्रकार के बजाय फ़्लोट का उपयोग करें |
 
 **Returns:**
 [VertexDeclaration](../../com.aspose.threed/vertexdeclaration)
@@ -198,17 +198,17 @@ public boolean getSealed()
 ```
 
 
-एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) को सील किया जाएगा जब इसे [TriMesh](../../com.aspose.threed/trimesg) द्वारा उपयोग किया गया हो, आगे कोई संशोधन की अनुमति नहीं है.
+एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) को सील कर दिया जाएगा जब इसे [TriMesh](../../com.aspose.threed/trimesh) द्वारा उपयोग किया गया हो, आगे कोई संशोधन अनुमति नहीं है।
 
 **Returns:**
-boolean - एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) को सील किया जाएगा जब इसे [TriMesh](../../com.aspose.threed/trimesh) द्वारा उपयोग किया गया हो, आगे कोई संशोधन की अनुमति नहीं है।
+boolean - एक [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) को [TriMesh](../../com.aspose.threed/trimesh) द्वारा उपयोग किए जाने पर सील किया जाएगा, आगे कोई संशोधन अनुमति नहीं है।
 ### getSize() {#getSize--}
 ```
 public int getSize()
 ```
 
 
-वर्टेक्स संरचना का बाइट में आकार.
+वर्टेक्स संरचना का बाइट में आकार।
 
 **Returns:**
 int - वर्टेक्स संरचना का बाइट में आकार।
@@ -221,14 +221,14 @@ public int hashCode()
 इस स्ट्रिंग के लिए हैश कोड लौटाता है।
 
 **Returns:**
-int - 32-बिट साइन्ड इंटीजर हैश कोड।
+int - 32-बिट साइन्ड इंटेजर हैश कोड।
 ### iterator() {#iterator--}
 ```
 public Iterator<VertexField> iterator()
 ```
 
 
-इस इंस्टेंस में सभी वर्टेक्स फ़ील्ड को पार करने के लिए एक इनेमरेटर प्राप्त करता है.
+इस इंस्टेंस में सभी वर्टेक्स फ़ील्ड के माध्यम से चलने के लिए एक एनेमरेटर प्राप्त करता है।
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.VertexField> - इटरेटर

@@ -1,6 +1,6 @@
 ---
 title: "TextureBase"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "सभी ठोस टेक्सचर के लिए बेस क्लास।"
 type: docs
 weight: 185
@@ -13,39 +13,39 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class TextureBase extends A3DObject
 ```
 
-सभी ठोस टेक्सचर के लिए बेस क्लास। टेक्सचर जियोमेट्री सतह की दिखावट और अनुभूति को परिभाषित करता है।
-## कंस्ट्रक्टर
+सभी ठोस टेक्सचर के लिए बेस क्लास। Texture जियोमेट्री सतह की रूप-रंग को परिभाषित करता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [TextureBase(String name)](#TextureBase-java.lang.String-) | नया इंस्टेंस प्रारंभ करता है [TextureBase](../../com.aspose.threed/texturebase) क्लास का। |
+| [TextureBase(String name)](#TextureBase-java.lang.String-) | नया instance प्रारंभ करता है [TextureBase](../../com.aspose.threed/texturebase) क्लास का। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getAlpha()](#getAlpha--) | टेक्सचर का डिफ़ॉल्ट अल्फा मान प्राप्त करता है। यह तब मान्य होता है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 से 1 के बीच है। |
+| [getAlpha()](#getAlpha--) | जाँचता है टेक्सचर का डिफ़ॉल्ट अल्फा मान। यह तब मान्य है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 से 1 के बीच है। |
 | [getAlphaSource()](#getAlphaSource--) | जाँचता है कि टेक्सचर अल्फा चैनल को परिभाषित करता है या नहीं। |
 | [getClass()](#getClass--) |  |
-| [getMagFilter()](#getMagFilter--) | वृद्धि के लिए फ़िल्टर प्राप्त करता है। |
-| [getMinFilter()](#getMinFilter--) | छोटा करने के लिए फ़िल्टर प्राप्त करता है। |
-| [getMipFilter()](#getMipFilter--) | मिप‑लेवल सैंपलिंग के लिए फ़िल्टर प्राप्त करता है। |
+| [getMagFilter()](#getMagFilter--) | जाँचता है आवर्धन के लिए फ़िल्टर। |
+| [getMinFilter()](#getMinFilter--) | जाँचता है संकुचन के लिए फ़िल्टर। |
+| [getMipFilter()](#getMipFilter--) | जाँचता है मिप-स्तर सैंपलिंग के लिए फ़िल्टर। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getUVRotation()](#getUVRotation--) | टेक्सचर का घूर्णन प्राप्त करता है। |
-| [getUVScale()](#getUVScale--) | UV स्केल प्राप्त करता है। |
-| [getUVTranslation()](#getUVTranslation--) | UV अनुवाद प्राप्त करता है। |
-| [getWrapModeU()](#getWrapModeU--) | U में टेक्सचर रैप मोड प्राप्त करता है। |
-| [getWrapModeV()](#getWrapModeV--) | V में टेक्सचर रैप मोड प्राप्त करता है। |
-| [getWrapModeW()](#getWrapModeW--) | W में टेक्सचर रैप मोड प्राप्त करता है। |
+| [getUVRotation()](#getUVRotation--) | जाँचता है टेक्सचर का घूर्णन। |
+| [getUVScale()](#getUVScale--) | जाँचता है UV स्केल। |
+| [getUVTranslation()](#getUVTranslation--) | जाँचता है UV अनुवाद। |
+| [getWrapModeU()](#getWrapModeU--) | जाँचता है U में टेक्सचर रैप मोड। |
+| [getWrapModeV()](#getWrapModeV--) | जाँचता है V में टेक्सचर रैप मोड। |
+| [getWrapModeW()](#getWrapModeW--) | जाँचता है W में टेक्सचर रैप मोड। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setAlpha(double value)](#setAlpha-double-) | टेक्सचर का डिफ़ॉल्ट अल्फा मान सेट करता है। यह तब मान्य होता है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 से 1 के बीच है। |
+| [setAlpha(double value)](#setAlpha-double-) | सेट करता है टेक्सचर का डिफ़ॉल्ट अल्फा मान। यह तब मान्य है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 से 1 के बीच है। |
 | [setAlphaSource(AlphaSource value)](#setAlphaSource-com.aspose.threed.AlphaSource-) | सेट करता है कि टेक्सचर अल्फा चैनल को परिभाषित करता है या नहीं। |
 | [setMagFilter(TextureFilter value)](#setMagFilter-com.aspose.threed.TextureFilter-) | वृद्धि के लिए फ़िल्टर सेट करता है। |
 | [setMinFilter(TextureFilter value)](#setMinFilter-com.aspose.threed.TextureFilter-) | संकुचन के लिए फ़िल्टर सेट करता है। |
@@ -71,7 +71,7 @@ public TextureBase(String name)
 ```
 
 
-नया इंस्टेंस प्रारंभ करता है [TextureBase](../../com.aspose.threed/texturebase) क्लास का।
+नया instance प्रारंभ करता है [TextureBase](../../com.aspose.threed/texturebase) क्लास का।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -99,7 +99,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -114,17 +114,17 @@ public double getAlpha()
 ```
 
 
-टेक्सचर का डिफ़ॉल्ट अल्फा मान प्राप्त करता है। यह तब मान्य होता है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 से 1 के बीच है।
+जाँचता है टेक्सचर का डिफ़ॉल्ट अल्फा मान। यह तब मान्य है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 से 1 के बीच है।
 
 **Returns:**
-double - टेक्सचर का डिफ़ॉल्ट अल्फा मान। यह तब मान्य है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 और 1 के बीच है।
+डबल - टेक्सचर का डिफ़ॉल्ट अल्फा मान यह तब मान्य है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) है। डिफ़ॉल्ट मान 1.0 है, वैध मान सीमा 0 से 1 के बीच है।
 ### getAlphaSource() {#getAlphaSource--}
 ```
 public AlphaSource getAlphaSource()
 ```
 
 
-टेक्सचर अल्फा चैनल को परिभाषित करता है या नहीं प्राप्त करता है। डिफ़ॉल्ट मान है [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE)
+टेक्सचर अल्फा चैनल को परिभाषित करता है या नहीं जाँचता है। डिफ़ॉल्ट मान है [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE)
 
 **Returns:**
 [AlphaSource](../../com.aspose.threed/alphasource) - whether the texture defines the alpha channel. Default value is [AlphaSource.NONE](../../com.aspose.threed/alphasource\#NONE)
@@ -144,7 +144,7 @@ public TextureFilter getMagFilter()
 ```
 
 
-वृद्धि के लिए फ़िल्टर प्राप्त करता है।
+जाँचता है आवर्धन के लिए फ़िल्टर।
 
 **Returns:**
 [TextureFilter](../../com.aspose.threed/texturefilter) - the filter for magnification.
@@ -154,7 +154,7 @@ public TextureFilter getMinFilter()
 ```
 
 
-छोटा करने के लिए फ़िल्टर प्राप्त करता है।
+जाँचता है संकुचन के लिए फ़िल्टर।
 
 **Returns:**
 [TextureFilter](../../com.aspose.threed/texturefilter) - the filter for minification.
@@ -164,7 +164,7 @@ public TextureFilter getMipFilter()
 ```
 
 
-मिप‑लेवल सैंपलिंग के लिए फ़िल्टर प्राप्त करता है।
+जाँचता है मिप-स्तर सैंपलिंग के लिए फ़िल्टर।
 
 **Returns:**
 [TextureFilter](../../com.aspose.threed/texturefilter) - the filter for mip-level sampling.
@@ -209,7 +209,7 @@ public Vector3 getUVRotation()
 ```
 
 
-टेक्सचर का घूर्णन प्राप्त करता है।
+जाँचता है टेक्सचर का घूर्णन।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the rotation of the texture
@@ -219,7 +219,7 @@ public Vector2 getUVScale()
 ```
 
 
-UV स्केल प्राप्त करता है।
+जाँचता है UV स्केल।
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the UV scale.
@@ -229,7 +229,7 @@ public Vector2 getUVTranslation()
 ```
 
 
-UV अनुवाद प्राप्त करता है।
+जाँचता है UV अनुवाद।
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - the UV translation.
@@ -239,7 +239,7 @@ public WrapMode getWrapModeU()
 ```
 
 
-U में टेक्सचर रैप मोड प्राप्त करता है।
+जाँचता है U में टेक्सचर रैप मोड।
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the texture wrap modes in U.
@@ -249,7 +249,7 @@ public WrapMode getWrapModeV()
 ```
 
 
-V में टेक्सचर रैप मोड प्राप्त करता है।
+जाँचता है V में टेक्सचर रैप मोड।
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the texture wrap modes in V.
@@ -259,7 +259,7 @@ public WrapMode getWrapModeW()
 ```
 
 
-W में टेक्सचर रैप मोड प्राप्त करता है।
+जाँचता है W में टेक्सचर रैप मोड।
 
 **Returns:**
 [WrapMode](../../com.aspose.threed/wrapmode) - the texture wrap modes in W.
@@ -325,7 +325,7 @@ public void setAlpha(double value)
 ```
 
 
-टेक्सचर का डिफ़ॉल्ट अल्फा मान सेट करता है। यह तब मान्य होता है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 से 1 के बीच है।
+सेट करता है टेक्सचर का डिफ़ॉल्ट अल्फा मान। यह तब मान्य है जब [getAlphaSource](../../com.aspose.threed/texturebase\#getAlphaSource) [AlphaSource.PIXEL\_ALPHA](../../com.aspose.threed/alphasource\#PIXEL-ALPHA) हो। डिफ़ॉल्ट मान 1.0 है, मान्य मान सीमा 0 से 1 के बीच है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,6 +1,6 @@
 ---
 title: "TriMesh"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "एक TriMesh में कच्चा डेटा होता है जिसे GPU सीधे उपयोग कर सकता है।"
 type: docs
 weight: 194
@@ -16,7 +16,7 @@ java.lang.Iterable
 public class TriMesh extends Entity implements Iterable<Vertex>
 ```
 
-एक TriMesh में कच्चा डेटा होता है जिसे GPU सीधे उपयोग कर सकता है। यह क्लास एक उपयोगिता है जो केवल प्रति-शिखर डेटा वाले मेष को बनाने में मदद करती है। **Example:** निम्नलिखित कोड दिखाता है कि कैसे कस्टम मेमोरी लेआउट के साथ एक TriMesh बनाया जाए, और इसे फ़ाइल में निर्यात किया जाए।
+एक TriMesh कच्चा डेटा रखता है जिसे GPU सीधे उपयोग कर सकता है। यह क्लास एक उपयोगिता है जो केवल प्रति-वर्टेक्स डेटा रखने वाले मेष को बनाने में मदद करती है। **Example:** निम्नलिखित कोड दिखाता है कि कस्टम मेमोरी लेआउट के साथ एक TriMesh कैसे बनाएं, और इसे फ़ाइल में निर्यात करें।
 
 ```
 //Define a vertex declaration as {FVector3 Position; FVector3 Normal; FVector2 UV}
@@ -34,47 +34,47 @@ public class TriMesh extends Entity implements Iterable<Vertex>
                   triMesh.write16bIndicesTo(s);
               }
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [TriMesh(String name, VertexDeclaration declaration)](#TriMesh-java.lang.String-com.aspose.threed.VertexDeclaration-) | एक [TriMesh](../../com.aspose.threed/trimesh) का उदाहरण आरंभ करें |
+| [TriMesh(String name, VertexDeclaration declaration)](#TriMesh-java.lang.String-com.aspose.threed.VertexDeclaration-) | एक [TriMesh](../../com.aspose.threed/trimesh) का उदाहरण प्रारंभ करें |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [addTriangle(int a, int b, int c)](#addTriangle-int-int-int-) | एक नया त्रिभुज जोड़ें |
 | [beginVertex()](#beginVertex--) | वर्टेक्स जोड़ना शुरू करें |
-| [copyFrom(TriMesh input, VertexDeclaration vd)](#copyFrom-com.aspose.threed.TriMesh-com.aspose.threed.VertexDeclaration-) | इनपुट से नया वर्टेक्स लेआउट के साथ [TriMesh](../../com.aspose.threed/trimesh) कॉपी करें |
+| [copyFrom(TriMesh input, VertexDeclaration vd)](#copyFrom-com.aspose.threed.TriMesh-com.aspose.threed.VertexDeclaration-) | इनपुट से नई वर्टेक्स लेआउट के साथ [TriMesh](../../com.aspose.threed/trimesh) कॉपी करें |
 | [endVertex()](#endVertex--) | वर्टेक्स जोड़ना समाप्त करें |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
 | [fromMesh(Mesh mesh)](#fromMesh-com.aspose.threed.Mesh-) | दिए गए मेष ऑब्जेक्ट से एक TriMesh बनाएं, वर्टेक्स घोषणा इनपुट मेष की संरचना पर आधारित है। |
 | [fromMesh(Mesh mesh, boolean useFloat)](#fromMesh-com.aspose.threed.Mesh-boolean-) | दिए गए मेष ऑब्जेक्ट से एक TriMesh बनाएं, वर्टेक्स घोषणा इनपुट मेष की संरचना पर आधारित है। |
-| [fromMesh(VertexDeclaration declaration, Mesh mesh)](#fromMesh-com.aspose.threed.VertexDeclaration-com.aspose.threed.Mesh-) | दिए गए मेष ऑब्जेक्ट से दिए गए वर्टेक्स लेआउट के साथ एक TriMesh बनाएं। |
+| [fromMesh(VertexDeclaration declaration, Mesh mesh)](#fromMesh-com.aspose.threed.VertexDeclaration-com.aspose.threed.Mesh-) | दिए गए मेष ऑब्जेक्ट और दिए गए वर्टेक्स लेआउट से एक TriMesh बनाएं। |
 | [fromRawData(VertexDeclaration vd, byte[] vertices, int[] indices, boolean generateVertexMapping)](#fromRawData-com.aspose.threed.VertexDeclaration-byte---int---boolean-) | कच्चे डेटा से TriMesh बनाएं |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getCapacity()](#getCapacity--) | पूर्व-आवंटित वर्टेक्स की क्षमता। |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
-| [getIndicesCount()](#getIndicesCount--) | इस [TriMesh](../../com.aspose.threed/trimesh) में सूचकांकों की संख्या। |
-| [getIntIndices()](#getIntIndices--) | सूचकांकों को 32-बिट पूर्णांक एरे में बदलें |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
+| [getIndicesCount()](#getIndicesCount--) | इस [TriMesh](../../com.aspose.threed/trimesh) में सूचकांकों की गिनती। |
+| [getIntIndices()](#getIntIndices--) | सूचकांकों को 32-बिट पूर्णांक एरे में परिवर्तित करें |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
-| [getShortIndices()](#getShortIndices--) | सूचकांकों को 16-बिट पूर्णांक एरे में बदलें |
-| [getUnmergedVerticesCount()](#getUnmergedVerticesCount--) | उस अनमर्ज्ड वर्टेक्स की संख्या जो [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) और [endVertex](../../com.aspose.threed/trimesh\#endVertex) द्वारा पास किए गए हैं। |
-| [getVertexDeclaration()](#getVertexDeclaration--) | [TriMesh](../../com.aspose.threed/trimesh) का वर्टेक्स लेआउट। |
-| [getVerticesCount()](#getVerticesCount--) | इस [TriMesh](../../com.aspose.threed/trimesh) में वर्टेक्स की संख्या। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
+| [getShortIndices()](#getShortIndices--) | सूचकांकों को 16-बिट पूर्णांक एरे में परिवर्तित करें |
+| [getUnmergedVerticesCount()](#getUnmergedVerticesCount--) | अविलीनित वर्टेक्स की गिनती जो [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) और [endVertex](../../com.aspose.threed/trimesh\#endVertex) द्वारा पास किए गए हैं। |
+| [getVertexDeclaration()](#getVertexDeclaration--) | इस [TriMesh](../../com.aspose.threed/trimesh) का वर्टेक्स लेआउट। |
+| [getVerticesCount()](#getVerticesCount--) | इस [TriMesh](../../com.aspose.threed/trimesh) में वर्टेक्स की गिनती। |
 | [getVerticesSizeInBytes()](#getVerticesSizeInBytes--) | सभी वर्टेक्स का कुल आकार बाइट्स में |
 | [hashCode()](#hashCode--) |  |
-| [indicesToArray(int[][] result)](#indicesToArray-int-----) | सूचकांकों को 32-बिट पूर्णांक एरे में बदलें |
-| [indicesToArray(short[][] result)](#indicesToArray-short-----) | सूचकांकों को 16-बिट पूर्णांक एरे में बदलें |
-| [iterator()](#iterator--) | [Vertex](../../com.aspose.threed/vertex) को क्रमबद्ध करने के लिए इनेमरेटर प्राप्त करें |
+| [indicesToArray(int[][] result)](#indicesToArray-int-----) | सूचकांकों को 32-बिट पूर्णांक एरे में परिवर्तित करें |
+| [indicesToArray(short[][] result)](#indicesToArray-short-----) | सूचकांकों को 16-बिट पूर्णांक एरे में परिवर्तित करें |
+| [iterator()](#iterator--) | [Vertex](../../com.aspose.threed/vertex) को क्रमबद्ध करने के लिए एन्यूमरेटर प्राप्त करें |
 | [loadVerticesFromBytes(byte[] verticesInBytes)](#loadVerticesFromBytes-byte---) | बाइट्स से वर्टेक्स लोड करें, बाइट्स की लंबाई वर्टेक्स आकार का पूर्णांक गुणज होना चाहिए। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -88,12 +88,12 @@ public class TriMesh extends Entity implements Iterable<Vertex>
 | [readVector4(int idx, VertexField field)](#readVector4-int-com.aspose.threed.VertexField-) | vector4 फ़ील्ड पढ़ें |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [toString()](#toString--) | प्राप्त करता है [TriMesh](../../com.aspose.threed/trimesh) का स्ट्रिंग प्रतिनिधित्व |
-| [verticesToArray()](#verticesToArray--) | वर्टिसेज डेटा को बाइट एरे में परिवर्तित करें |
+| [toString()](#toString--) | [TriMesh](../../com.aspose.threed/trimesh) का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है |
+| [verticesToArray()](#verticesToArray--) | वर्टिस डेटा को बाइट एरे में परिवर्तित करें |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -101,15 +101,15 @@ public class TriMesh extends Entity implements Iterable<Vertex>
 | [write16bIndicesTo(OutputStream stream)](#write16bIndicesTo-java.io.OutputStream-) | इंडेक्स डेटा को 16bit पूर्णांक के रूप में स्ट्रीम में लिखें |
 | [write32bIndicesTo(Stream stream)](#write32bIndicesTo-com.aspose.threed.Stream-) | इंडेक्स डेटा को 32bit पूर्णांक के रूप में स्ट्रीम में लिखें **Example:** |
 | [write32bIndicesTo(OutputStream stream)](#write32bIndicesTo-java.io.OutputStream-) | इंडेक्स डेटा को 32bit पूर्णांक के रूप में स्ट्रीम में लिखें |
-| [writeVerticesTo(Stream stream)](#writeVerticesTo-com.aspose.threed.Stream-) | निर्दिष्ट स्ट्रीम में वर्टिसेज डेटा लिखें |
-| [writeVerticesTo(OutputStream stream)](#writeVerticesTo-java.io.OutputStream-) | निर्दिष्ट स्ट्रीम में वर्टिसेज डेटा लिखें |
+| [writeVerticesTo(Stream stream)](#writeVerticesTo-com.aspose.threed.Stream-) | निर्दिष्ट स्ट्रीम में वर्टिस डेटा लिखें |
+| [writeVerticesTo(OutputStream stream)](#writeVerticesTo-java.io.OutputStream-) | निर्दिष्ट स्ट्रीम में वर्टिस डेटा लिखें |
 ### TriMesh(String name, VertexDeclaration declaration) {#TriMesh-java.lang.String-com.aspose.threed.VertexDeclaration-}
 ```
 public TriMesh(String name, VertexDeclaration declaration)
 ```
 
 
-एक [TriMesh](../../com.aspose.threed/trimesh) का उदाहरण आरंभ करें
+एक [TriMesh](../../com.aspose.threed/trimesh) का उदाहरण प्रारंभ करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -128,9 +128,9 @@ public void addTriangle(int a, int b, int c)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| a | int | पहले वर्टेक्स का इंडेक्स |
-| b | int | दूसरे वर्टेक्स का इंडेक्स |
-| c | int | तीसरे वर्टेक्स का इंडेक्स |
+| a | int | पहले वर्टेक्स का सूचकांक |
+| b | int | दूसरे वर्टेक्स का सूचकांक |
+| c | int | तीसरे वर्टेक्स का सूचकांक |
 
 ### beginVertex() {#beginVertex--}
 ```
@@ -148,7 +148,7 @@ public static TriMesh copyFrom(TriMesh input, VertexDeclaration vd)
 ```
 
 
-इनपुट से नया वर्टेक्स लेआउट के साथ [TriMesh](../../com.aspose.threed/trimesh) कॉपी करें
+इनपुट से नई वर्टेक्स लेआउट के साथ [TriMesh](../../com.aspose.threed/trimesh) कॉपी करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -201,7 +201,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -281,7 +281,7 @@ public static TriMesh fromMesh(VertexDeclaration declaration, Mesh mesh)
 ```
 
 
-दिए गए मेष ऑब्जेक्ट से दिए गए वर्टेक्स लेआउट के साथ एक TriMesh बनाएं।
+दिए गए मेष ऑब्जेक्ट और दिए गए वर्टेक्स लेआउट से एक TriMesh बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -320,9 +320,9 @@ public static TriMesh fromRawData(VertexDeclaration vd, byte[] vertices, int[] i
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | vd | [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) | वर्टेक्स घोषणा, कम से कम एक फ़ील्ड होना चाहिए। |
-| वर्टिसेज | byte[] | इनपुट वर्टेक्स डेटा, वर्टेक्स की न्यूनतम लंबाई वर्टेक्स घोषणा के आकार के बराबर या उससे अधिक होनी चाहिए |
+| vertices | byte[] | इनपुट वर्टेक्स डेटा, वर्टेक्स की न्यूनतम लंबाई वर्टेक्स घोषणा के आकार के बराबर या उससे अधिक होनी चाहिए |
 | सूचकांक | int[] | त्रिभुज सूचकांक |
-| generateVertexMapping | boolean | प्रत्येक वर्टेक्स के लिए [Vertex](../../com.aspose.threed/vertex) उत्पन्न करें, जो केवल सीरियलाइज़ेशन/डिसीरियलाइज़ेशन के लिए आवश्यक नहीं है। |
+| generateVertexMapping | boolean | प्रत्येक वर्टेक्स के लिए [Vertex](../../com.aspose.threed/vertex) उत्पन्न करें, जो केवल क्रमबद्धकरण/विसंक्रमण के लिए आवश्यक नहीं है। |
 
 **Returns:**
 [TriMesh](../../com.aspose.threed/trimesh) - The [TriMesh](../../com.aspose.threed/trimesh) instance that encapsulated the input byte array. **Remarks:** The returned TriMesh will not copy the input byte array for performance, external changes on the array will be reflected to this instance. **Example:** The following code shows how to construct a TriMesh from raw bytes, this is useful when build your own 3D format
@@ -350,7 +350,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -387,7 +387,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -397,27 +397,27 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getIndicesCount() {#getIndicesCount--}
 ```
 public int getIndicesCount()
 ```
 
 
-इस [TriMesh](../../com.aspose.threed/trimesh) में सूचकांकों की संख्या।
+इस [TriMesh](../../com.aspose.threed/trimesh) में सूचकांकों की गिनती।
 
 **Returns:**
-int - इस [TriMesh](../../com.aspose.threed/trimesh) में सूचकांकों की संख्या
+int - इस [TriMesh](../../com.aspose.threed/trimesh) में सूचकांकों की संख्या।
 ### getIntIndices() {#getIntIndices--}
 ```
 public int[] getIntIndices()
 ```
 
 
-सूचकांकों को 32-बिट पूर्णांक एरे में बदलें
+सूचकांकों को 32-बिट पूर्णांक एरे में परिवर्तित करें
 
 **Returns:**
 int[]
@@ -437,7 +437,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -447,7 +447,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -482,7 +482,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -492,7 +492,7 @@ public short[] getShortIndices()
 ```
 
 
-सूचकांकों को 16-बिट पूर्णांक एरे में बदलें
+सूचकांकों को 16-बिट पूर्णांक एरे में परिवर्तित करें
 
 **Returns:**
 short[]
@@ -502,17 +502,17 @@ public int getUnmergedVerticesCount()
 ```
 
 
-उस अनमर्ज्ड वर्टेक्स की संख्या जो [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) और [endVertex](../../com.aspose.threed/trimesh\#endVertex) द्वारा पास किए गए हैं।
+अविलीनित वर्टेक्स की गिनती जो [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) और [endVertex](../../com.aspose.threed/trimesh\#endVertex) द्वारा पास किए गए हैं।
 
 **Returns:**
-int - [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) और [endVertex](../../com.aspose.threed/trimesh\#endVertex) द्वारा पास किए गए अनमर्ज्ड वर्टेक्स की संख्या।
+int - उन अप्रयुक्त वर्टेक्स की संख्या जो [beginVertex](../../com.aspose.threed/trimesh\#beginVertex) और [endVertex](../../com.aspose.threed/trimesh\#endVertex) द्वारा पास किए गए हैं।
 ### getVertexDeclaration() {#getVertexDeclaration--}
 ```
 public VertexDeclaration getVertexDeclaration()
 ```
 
 
-[TriMesh](../../com.aspose.threed/trimesh) का वर्टेक्स लेआउट।
+इस [TriMesh](../../com.aspose.threed/trimesh) का वर्टेक्स लेआउट।
 
 **Returns:**
 [VertexDeclaration](../../com.aspose.threed/vertexdeclaration) - The vertex layout of the [TriMesh](../../com.aspose.threed/trimesh).
@@ -522,10 +522,10 @@ public int getVerticesCount()
 ```
 
 
-इस [TriMesh](../../com.aspose.threed/trimesh) में वर्टेक्स की संख्या।
+इस [TriMesh](../../com.aspose.threed/trimesh) में वर्टेक्स की गिनती।
 
 **Returns:**
-int - इस [TriMesh](../../com.aspose.threed/trimesh) में वर्टेक्स की संख्या
+int - इस [TriMesh](../../com.aspose.threed/trimesh) में वर्टेक्स की संख्या।
 ### getVerticesSizeInBytes() {#getVerticesSizeInBytes--}
 ```
 public int getVerticesSizeInBytes()
@@ -535,7 +535,7 @@ public int getVerticesSizeInBytes()
 सभी वर्टेक्स का कुल आकार बाइट्स में
 
 **Returns:**
-int - सभी वर्टेक्स का कुल आकार बाइट्स में
+int - सभी वर्टेक्स का कुल आकार बाइट्स में।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -552,7 +552,7 @@ public void indicesToArray(int[][] result)
 ```
 
 
-सूचकांकों को 32-बिट पूर्णांक एरे में बदलें
+सूचकांकों को 32-बिट पूर्णांक एरे में परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -565,7 +565,7 @@ public void indicesToArray(short[][] result)
 ```
 
 
-सूचकांकों को 16-बिट पूर्णांक एरे में बदलें
+सूचकांकों को 16-बिट पूर्णांक एरे में परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -578,7 +578,7 @@ public Iterator<Vertex> iterator()
 ```
 
 
-[Vertex](../../com.aspose.threed/vertex) को क्रमबद्ध करने के लिए इनेमरेटर प्राप्त करें
+[Vertex](../../com.aspose.threed/vertex) को क्रमबद्ध करने के लिए एन्यूमरेटर प्राप्त करें
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.Vertex>
@@ -588,7 +588,7 @@ public void loadVerticesFromBytes(byte[] verticesInBytes)
 ```
 
 
-बाइट्स से वर्टेक्स लोड करें, बाइट्स की लंबाई वर्टेक्स आकार का पूर्णांक गुणज होनी चाहिए। **उदाहरण:** निम्नलिखित कोड दिखाता है कि कैसे एक खाली TriMesh बनाया जाए और मैन्युअल रूप से कच्चे बाइट्स से वर्टेक्स लोड किए जाएँ।
+बाइट्स से वर्टेक्स लोड करें, बाइट्स की लंबाई वर्टेक्स आकार का पूर्णांक गुणज होनी चाहिए। **Example:** निम्नलिखित कोड दिखाता है कि कैसे एक खाली TriMesh बनाया जाए और मैन्युअल रूप से कच्चे बाइट्स से वर्टेक्स लोड किए जाएँ।
 
 ```
 var indices = new int[] { 0,  1,  2 };
@@ -819,7 +819,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -845,7 +845,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -872,7 +872,7 @@ public String toString()
 ```
 
 
-प्राप्त करता है [TriMesh](../../com.aspose.threed/trimesh) का स्ट्रिंग प्रतिनिधित्व
+[TriMesh](../../com.aspose.threed/trimesh) का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है
 
 **Returns:**
 java.lang.String - स्ट्रिंग प्रतिनिधित्व
@@ -882,7 +882,7 @@ public byte[] verticesToArray()
 ```
 
 
-वर्टिसेज डेटा को बाइट एरे में परिवर्तित करें
+वर्टिस डेटा को बाइट एरे में परिवर्तित करें
 
 **Returns:**
 byte[]
@@ -958,7 +958,7 @@ public void write16bIndicesTo(OutputStream stream)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | स्ट्रीम | java.io.OutputStream | **Example:** |
+|  | स्ट्रीम | java.io.OutputStream | **उदाहरण:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    
@@ -1008,7 +1008,7 @@ public void write32bIndicesTo(OutputStream stream)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | स्ट्रीम | java.io.OutputStream | **Example:** |
+|  | स्ट्रीम | java.io.OutputStream | **उदाहरण:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    
@@ -1027,12 +1027,12 @@ public void writeVerticesTo(Stream stream)
 ```
 
 
-निर्दिष्ट स्ट्रीम में वर्टिसेज डेटा लिखें
+निर्दिष्ट स्ट्रीम में वर्टिस डेटा लिखें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | stream | [Stream](../../com.aspose.threed/stream) | वर्टिस डेटा लिखे जाने वाली स्ट्रीम **Example:** |
+|  | stream | [Stream](../../com.aspose.threed/stream) | वह स्ट्रीम जिसमें वर्टिस डेटा लिखा जाएगा **Example:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh
@@ -1053,12 +1053,12 @@ public void writeVerticesTo(OutputStream stream)
 ```
 
 
-निर्दिष्ट स्ट्रीम में वर्टिसेज डेटा लिखें
+निर्दिष्ट स्ट्रीम में वर्टिस डेटा लिखें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-|  | स्ट्रीम | java.io.OutputStream | वर्टिस डेटा लिखे जाने वाली स्ट्रीम **Example:** |
+|  | स्ट्रीम | java.io.OutputStream | वह स्ट्रीम जिसमें वर्टिस डेटा लिखा जाएगा **Example:** |
 
 ```
 //convert a mesh to TriMesh, the layout is automatically inferred from input mesh    

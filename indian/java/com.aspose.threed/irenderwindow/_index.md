@@ -1,6 +1,6 @@
 ---
 title: "IRenderWindow"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "IRenderWindow वह मूल विंडो दर्शाता है जिसे ऑपरेटिंग सिस्टम द्वारा बनाया गया है और जो रेंडरिंग का समर्थन करता है।"
 type: docs
 weight: 251

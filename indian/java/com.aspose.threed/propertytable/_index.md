@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.PropertyTable"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "प्रॉपर्टी तालिका।"
 type: docs
 weight: 14
@@ -14,25 +14,25 @@ public static class StructuralMetadata.PropertyTable
 ```
 
 प्रॉपर्टी तालिका।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [PropertyTable(String name, StructuralMetadata.ClassType mclass)](#PropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | प्रॉपर्टी टेबल का कंस्ट्रक्टर। |
+| [PropertyTable(String name, StructuralMetadata.ClassType mclass)](#PropertyTable-java.lang.String-com.aspose.threed.StructuralMetadata.ClassType-) | property table का कंस्ट्रक्टर। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [addValue(StructuralMetadata.Property prop, Object value)](#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-) | प्रॉपर्टी टेबल में एक नई प्रॉपर्टी जोड़ें। |
-| [addValue(String propName, Object value)](#addValue-java.lang.String-java.lang.Object-) | प्रॉपर्टी टेबल में एक नई प्रॉपर्टी जोड़ें। |
-| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | वर्तमान प्रॉपर्टी टेबल को निर्दिष्ट यूज़र डेटा से संलग्न करें। |
+| [addValue(StructuralMetadata.Property prop, Object value)](#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-) | property table में एक नया प्रॉपर्टी जोड़ें। |
+| [addValue(String propName, Object value)](#addValue-java.lang.String-java.lang.Object-) | property table में एक नया प्रॉपर्टी जोड़ें। |
+| [attach(VertexElementUserData userData)](#attach-com.aspose.threed.VertexElementUserData-) | वर्तमान property table को निर्दिष्ट उपयोगकर्ता डेटा से संलग्न करें। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | निर्दिष्ट यूज़र डेटा से संलग्न प्रॉपर्टी टेबल निकालें। |
+| [from(VertexElementUserData userData)](#from-com.aspose.threed.VertexElementUserData-) | निर्दिष्ट उपयोगकर्ता डेटा से संलग्न property table निकालें। |
 | [getClass()](#getClass--) |  |
-| [getMetaClass()](#getMetaClass--) | इस प्रॉपर्टी टेबल की मेटा क्लास। |
-| [getName()](#getName--) | प्रॉपर्टी टेबल का नाम। |
-| [getValue(String name)](#getValue-java.lang.String-) | निर्दिष्ट प्रॉपर्टी नाम का मान प्राप्त करता है। |
-| [getValues()](#getValues--) | प्रॉपर्टी टेबल के मान। |
+| [getMetaClass()](#getMetaClass--) | इस property table की meta class। |
+| [getName()](#getName--) | property table का नाम। |
+| [getValue(String name)](#getValue-java.lang.String-) | निर्दिष्ट property नाम का मान प्राप्त करता है। |
+| [getValues()](#getValues--) | property table के मान। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,13 +46,13 @@ public PropertyTable(String name, StructuralMetadata.ClassType mclass)
 ```
 
 
-प्रॉपर्टी टेबल का कंस्ट्रक्टर।
+property table का कंस्ट्रक्टर।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | नाम | java.lang.String | इस टेबल इंस्टेंस का नाम। |
-| mclass | [ClassType](../../com.aspose.threed/classtype) | इस प्रॉपर्टी टेबल की मेटा क्लास परिभाषा। |
+| mclass | [ClassType](../../com.aspose.threed/classtype) | इस property table की meta class परिभाषा। |
 
 ### addValue(StructuralMetadata.Property prop, Object value) {#addValue-com.aspose.threed.StructuralMetadata.Property-java.lang.Object-}
 ```
@@ -60,13 +60,13 @@ public void addValue(StructuralMetadata.Property prop, Object value)
 ```
 
 
-प्रॉपर्टी टेबल में एक नई प्रॉपर्टी जोड़ें।
+property table में एक नया प्रॉपर्टी जोड़ें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| prop | [Property](../../com.aspose.threed/property) | कौन सी प्रॉपर्टी को मान के साथ जोड़ना है। |
-| मान | java.lang.Object | मानों की एरे। |
+| prop | [Property](../../com.aspose.threed/property) | किस प्रॉपर्टी को मान के साथ जोड़ना है। |
+| मान | java.lang.Object | मानों का एरे। |
 
 ### addValue(String propName, Object value) {#addValue-java.lang.String-java.lang.Object-}
 ```
@@ -74,13 +74,13 @@ public void addValue(String propName, Object value)
 ```
 
 
-प्रॉपर्टी टेबल में एक नई प्रॉपर्टी जोड़ें।
+property table में एक नया प्रॉपर्टी जोड़ें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| propName | java.lang.String | कौन सी प्रॉपर्टी को मान के साथ जोड़ना है। |
-| मान | java.lang.Object | मानों की एरे। |
+| propName | java.lang.String | किस प्रॉपर्टी को मान के साथ जोड़ना है। |
+| मान | java.lang.Object | मानों का एरे। |
 
 ### attach(VertexElementUserData userData) {#attach-com.aspose.threed.VertexElementUserData-}
 ```
@@ -88,7 +88,7 @@ public void attach(VertexElementUserData userData)
 ```
 
 
-वर्तमान प्रॉपर्टी टेबल को निर्दिष्ट यूज़र डेटा से संलग्न करें।
+वर्तमान property table को निर्दिष्ट उपयोगकर्ता डेटा से संलग्न करें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -116,12 +116,12 @@ public static StructuralMetadata.PropertyTable from(VertexElementUserData userDa
 ```
 
 
-निर्दिष्ट यूज़र डेटा से संलग्न प्रॉपर्टी टेबल निकालें।
+निर्दिष्ट उपयोगकर्ता डेटा से संलग्न property table निकालें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | यूज़र डेटा जो एक प्रॉपर्टी टेबल से जुड़ा है। |
+| userData | [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) | उपयोगकर्ता डेटा जो एक property table से जुड़ा है। |
 
 **Returns:**
 [PropertyTable](../../com.aspose.threed/propertytable) - The associated property table instance
@@ -141,7 +141,7 @@ public StructuralMetadata.ClassType getMetaClass()
 ```
 
 
-इस प्रॉपर्टी टेबल की मेटा क्लास।
+इस property table की meta class।
 
 **Returns:**
 [ClassType](../../com.aspose.threed/classtype) - The meta class of this property table.
@@ -151,17 +151,17 @@ public String getName()
 ```
 
 
-प्रॉपर्टी टेबल का नाम।
+property table का नाम।
 
 **Returns:**
-java.lang.String - प्रॉपर्टी टेबल का नाम।
+java.lang.String - property table का नाम।
 ### getValue(String name) {#getValue-java.lang.String-}
 ```
 public Object getValue(String name)
 ```
 
 
-निर्दिष्ट प्रॉपर्टी नाम का मान प्राप्त करता है।
+निर्दिष्ट property नाम का मान प्राप्त करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -169,17 +169,17 @@ public Object getValue(String name)
 | नाम | java.lang.String | प्रॉपर्टी नाम |
 
 **Returns:**
-java.lang.Object - प्रॉपर्टी मान या यदि न मिले तो null।
+java.lang.Object - प्रॉपर्टी मान या यदि न मिला तो null।
 ### getValues() {#getValues--}
 ```
 public HashMap<String,Object> getValues()
 ```
 
 
-प्रॉपर्टी टेबल के मान।
+property table के मान।
 
 **Returns:**
-java.util.HashMap<java.lang.String,java.lang.Object> - प्रॉपर्टी टेबल के मान।
+java.util.HashMap<java.lang.String,java.lang.Object> - property table के मान।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

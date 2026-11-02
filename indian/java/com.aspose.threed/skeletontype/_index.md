@@ -1,6 +1,6 @@
 ---
 title: "SkeletonType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "s प्रकार।"
 type: docs
 weight: 301
@@ -18,7 +18,7 @@ public enum SkeletonType extends Enum<SkeletonType>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [BONE](#BONE) | यह [Skeleton](../../com.aspose.threed/skeleton) एक हड्डी इकाई है। |
+| [BONE](#BONE) | यह [Skeleton](../../com.aspose.threed/skeleton) हड्डी इकाई है। |
 | [SKELETON](#SKELETON) | यह [Skeleton](../../com.aspose.threed/skeleton) एक कंकाल इकाई है, जिसका अर्थ है कि संबंधित नोड पूरे कंकाल पदानुक्रम का मूल नोड है। |
 ## विधियाँ
 
@@ -47,7 +47,7 @@ public static final SkeletonType BONE
 ```
 
 
-यह [Skeleton](../../com.aspose.threed/skeleton) एक हड्डी इकाई है।
+यह [Skeleton](../../com.aspose.threed/skeleton) हड्डी इकाई है।
 
 ### SKELETON {#SKELETON}
 ```

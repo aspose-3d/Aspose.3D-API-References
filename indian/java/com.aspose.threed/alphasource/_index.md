@@ -1,6 +1,6 @@
 ---
 title: "AlphaSource"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "परिभाषित करता है कि टेक्सचर में अल्फा चैनल है या नहीं।"
 type: docs
 weight: 263
@@ -18,9 +18,9 @@ public enum AlphaSource extends Enum<AlphaSource>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [FIXED_VALUE](#FIXED-VALUE) | The Alpha एक स्थिर मान है जो [TextureBase.getAlpha](../../com.aspose.threed/texturebase\#getAlpha) द्वारा परिभाषित है। |
+| [FIXED_VALUE](#FIXED-VALUE) | Alpha एक स्थिर मान है जिसे [TextureBase.getAlpha](../../com.aspose.threed/texturebase\\#getAlpha) द्वारा परिभाषित किया गया है। |
 | [NONE](#NONE) | टेक्सचर में कोई अल्फा परिभाषित नहीं है। |
-| [PIXEL_ALPHA](#PIXEL-ALPHA) | अल्फा को पिक्सेल के अल्फा चैनल द्वारा परिभाषित किया जाता है |
+| [PIXEL_ALPHA](#PIXEL-ALPHA) | अल्फा पिक्सेल के अल्फा चैनल द्वारा परिभाषित है |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -48,7 +48,7 @@ public static final AlphaSource FIXED_VALUE
 ```
 
 
-The Alpha एक स्थिर मान है जो [TextureBase.getAlpha](../../com.aspose.threed/texturebase\#getAlpha) द्वारा परिभाषित है।
+Alpha एक स्थिर मान है जिसे [TextureBase.getAlpha](../../com.aspose.threed/texturebase\\#getAlpha) द्वारा परिभाषित किया गया है।
 
 ### NONE {#NONE}
 ```
@@ -64,7 +64,7 @@ public static final AlphaSource PIXEL_ALPHA
 ```
 
 
-अल्फा को पिक्सेल के अल्फा चैनल द्वारा परिभाषित किया जाता है
+अल्फा पिक्सेल के अल्फा चैनल द्वारा परिभाषित है
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

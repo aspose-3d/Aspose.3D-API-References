@@ -1,7 +1,7 @@
 ---
 title: "पिरामिड"
-second_title: "Aspose.3D for Java API Reference"
-description: "पैरामीटराइज़्ड पिरामिड।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "पैरामीटरयुक्त पिरामिड।"
 type: docs
 weight: 142
 url: /hi/java/com.aspose.threed/pyramid/
@@ -13,52 +13,52 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Pyramid extends Primitive
 ```
 
-पैरामीटराइज़्ड पिरामिड।
-## कंस्ट्रक्टर
+पैरामीटरयुक्त पिरामिड।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Pyramid()](#Pyramid--) | डिफ़ॉल्ट नीचे के क्षेत्र (10, 10) और डिफ़ॉल्ट ऊँचाई (5) के साथ एक नया पिरामिड इंस्टेंस बनाएं |
-| [Pyramid(double xbottom, double ybottom, double height)](#Pyramid-double-double-double-) | निर्दिष्ट नीचे के क्षेत्र के साथ एक नया पिरामिड इंस्टेंस बनाएं |
-| [Pyramid(double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-double-double-double-double-double-) | निर्दिष्ट नीचे के क्षेत्र, ऊपर के क्षेत्र और ऊँचाई के साथ एक नया पिरामिड इंस्टेंस बनाएं। |
-| [Pyramid(String name, double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-java.lang.String-double-double-double-double-double-) | निर्दिष्ट नीचे के क्षेत्र, ऊपर के क्षेत्र और ऊँचाई के साथ एक नया पिरामिड इंस्टेंस बनाएं। |
+| [Pyramid()](#Pyramid--) | डिफ़ॉल्ट निचला क्षेत्र (10, 10) और डिफ़ॉल्ट ऊँचाई (5) के साथ नया पिरामिड इंस्टेंस बनाएं |
+| [Pyramid(double xbottom, double ybottom, double height)](#Pyramid-double-double-double-) | निर्दिष्ट निचले क्षेत्र के साथ नया पिरामिड इंस्टेंस बनाएं |
+| [Pyramid(double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-double-double-double-double-double-) | निर्दिष्ट निचले क्षेत्र, ऊपरी क्षेत्र और ऊँचाई के साथ नया पिरामिड इंस्टेंस बनाएं। |
+| [Pyramid(String name, double xbottom, double ybottom, double xtop, double ytop, double height)](#Pyramid-java.lang.String-double-double-double-double-double-) | निर्दिष्ट निचले क्षेत्र, ऊपरी क्षेत्र और ऊँचाई के साथ नया पिरामिड इंस्टेंस बनाएं। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBottomArea()](#getBottomArea--) | नीचे के कैप का क्षेत्रफल |
-| [getBottomOffset()](#getBottomOffset--) | नीचे के शीर्ष बिंदुओं के लिए ऑफ़सेट |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
-| [getCastShadows()](#getCastShadows--) | यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है |
+| [getBottomArea()](#getBottomArea--) | निचले कैप का क्षेत्रफल |
+| [getBottomOffset()](#getBottomOffset--) | निचले शीर्ष बिंदुओं के लिए ऑफसेट |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getCastShadows()](#getCastShadows--) | यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getHeight()](#getHeight--) | पिरामिड की ऊँचाई |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getReceiveShadows()](#getReceiveShadows--) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
-| [getTopArea()](#getTopArea--) | ऊपर के कैप का क्षेत्रफल |
+| [getReceiveShadows()](#getReceiveShadows--) | यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
+| [getTopArea()](#getTopArea--) | ऊपरी कैप का क्षेत्रफल |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setBottomArea(Vector2 value)](#setBottomArea-com.aspose.threed.Vector2-) | नीचे के कैप का क्षेत्रफल |
-| [setBottomOffset(Vector3 value)](#setBottomOffset-com.aspose.threed.Vector3-) | नीचे के शीर्ष बिंदुओं के लिए ऑफ़सेट |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setBottomArea(Vector2 value)](#setBottomArea-com.aspose.threed.Vector2-) | निचले कैप का क्षेत्रफल |
+| [setBottomOffset(Vector3 value)](#setBottomOffset-com.aspose.threed.Vector3-) | निचले शीर्ष बिंदुओं के लिए ऑफसेट |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setHeight(double value)](#setHeight-double-) | पिरामिड की ऊँचाई |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है। |
-| [setTopArea(Vector2 value)](#setTopArea-com.aspose.threed.Vector2-) | ऊपर के कैप का क्षेत्रफल |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [setTopArea(Vector2 value)](#setTopArea-com.aspose.threed.Vector2-) | ऊपरी कैप का क्षेत्रफल |
 | [toMesh()](#toMesh--) | वर्तमान ऑब्जेक्ट को मेष में परिवर्तित करें |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -70,7 +70,7 @@ public Pyramid()
 ```
 
 
-डिफ़ॉल्ट नीचे के क्षेत्र (10, 10) और डिफ़ॉल्ट ऊँचाई (5) के साथ एक नया पिरामिड इंस्टेंस बनाएं
+डिफ़ॉल्ट निचला क्षेत्र (10, 10) और डिफ़ॉल्ट ऊँचाई (5) के साथ नया पिरामिड इंस्टेंस बनाएं
 
 ### Pyramid(double xbottom, double ybottom, double height) {#Pyramid-double-double-double-}
 ```
@@ -78,13 +78,13 @@ public Pyramid(double xbottom, double ybottom, double height)
 ```
 
 
-निर्दिष्ट नीचे के क्षेत्र के साथ एक नया पिरामिड इंस्टेंस बनाएं
+निर्दिष्ट निचले क्षेत्र के साथ नया पिरामिड इंस्टेंस बनाएं
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| xbottom | double | नीचे की x-दिशा लंबाई |
-| ybottom | double | नीचे की y-दिशा लंबाई |
+| xbottom | double | निचले भाग की x-दिशा लंबाई |
+| ybottom | double | निचले भाग की y-दिशा लंबाई |
 | ऊँचाई | double | पिरामिड की ऊँचाई |
 
 ### Pyramid(double xbottom, double ybottom, double xtop, double ytop, double height) {#Pyramid-double-double-double-double-double-}
@@ -93,15 +93,15 @@ public Pyramid(double xbottom, double ybottom, double xtop, double ytop, double 
 ```
 
 
-निर्दिष्ट नीचे के क्षेत्र, ऊपर के क्षेत्र और ऊँचाई के साथ एक नया पिरामिड इंस्टेंस बनाएं।
+निर्दिष्ट निचले क्षेत्र, ऊपरी क्षेत्र और ऊँचाई के साथ नया पिरामिड इंस्टेंस बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| xbottom | double | नीचे के क्षेत्र की x-दिशा लंबाई |
-| ybottom | double | नीचे के क्षेत्र की y-दिशा लंबाई |
-| xtop | double | ऊपर के क्षेत्र की x-दिशा लंबाई |
-| ytop | double | ऊपर के क्षेत्र की y-दिशा लंबाई |
+| xbottom | double | निचले क्षेत्र की x-दिशा लंबाई |
+| ybottom | double | निचले क्षेत्र की y-दिशा लंबाई |
+| xtop | double | ऊपरी क्षेत्र की x-दिशा लंबाई |
+| ytop | double | ऊपरी क्षेत्र की y-दिशा लंबाई |
 | ऊँचाई | double | पिरामिड की ऊँचाई |
 
 ### Pyramid(String name, double xbottom, double ybottom, double xtop, double ytop, double height) {#Pyramid-java.lang.String-double-double-double-double-double-}
@@ -110,16 +110,16 @@ public Pyramid(String name, double xbottom, double ybottom, double xtop, double 
 ```
 
 
-निर्दिष्ट नीचे के क्षेत्र, ऊपर के क्षेत्र और ऊँचाई के साथ एक नया पिरामिड इंस्टेंस बनाएं।
+निर्दिष्ट निचले क्षेत्र, ऊपरी क्षेत्र और ऊँचाई के साथ नया पिरामिड इंस्टेंस बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | नाम | java.lang.String | पिरामिड का नाम |
-| xbottom | double | नीचे के क्षेत्र की x-दिशा लंबाई |
-| ybottom | double | नीचे के क्षेत्र की y-दिशा लंबाई |
-| xtop | double | ऊपर के क्षेत्र की x-दिशा लंबाई |
-| ytop | double | ऊपर के क्षेत्र की y-दिशा लंबाई |
+| xbottom | double | निचले क्षेत्र की x-दिशा लंबाई |
+| ybottom | double | निचले क्षेत्र की y-दिशा लंबाई |
+| xtop | double | ऊपरी क्षेत्र की x-दिशा लंबाई |
+| ytop | double | ऊपरी क्षेत्र की y-दिशा लंबाई |
 | ऊँचाई | double | पिरामिड की ऊँचाई |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -143,7 +143,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -158,7 +158,7 @@ public Vector2 getBottomArea()
 ```
 
 
-नीचे के कैप का क्षेत्रफल
+निचले कैप का क्षेत्रफल
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - Area of the bottom cap
@@ -168,7 +168,7 @@ public Vector3 getBottomOffset()
 ```
 
 
-नीचे के शीर्ष बिंदुओं के लिए ऑफ़सेट
+निचले शीर्ष बिंदुओं के लिए ऑफसेट
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - Offset for bottom vertices
@@ -178,7 +178,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -195,7 +195,7 @@ public boolean getCastShadows()
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है
+यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया डाल सकती है
@@ -215,7 +215,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -225,10 +225,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -255,7 +255,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -265,7 +265,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -300,7 +300,7 @@ public boolean getReceiveShadows()
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है।
+यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया प्राप्त कर सकती है।
@@ -310,7 +310,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -320,7 +320,7 @@ public Vector2 getTopArea()
 ```
 
 
-ऊपर के कैप का क्षेत्रफल
+ऊपरी कैप का क्षेत्रफल
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - Area of the top cap
@@ -386,7 +386,7 @@ public void setBottomArea(Vector2 value)
 ```
 
 
-नीचे के कैप का क्षेत्रफल
+निचले कैप का क्षेत्रफल
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -399,7 +399,7 @@ public void setBottomOffset(Vector3 value)
 ```
 
 
-नीचे के शीर्ष बिंदुओं के लिए ऑफ़सेट
+निचले शीर्ष बिंदुओं के लिए ऑफसेट
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -412,7 +412,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है
+यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -425,7 +425,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -464,7 +464,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -491,7 +491,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है।
+यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -504,7 +504,7 @@ public void setTopArea(Vector2 value)
 ```
 
 
-ऊपर के कैप का क्षेत्रफल
+ऊपरी कैप का क्षेत्रफल
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

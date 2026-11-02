@@ -1,6 +1,6 @@
 ---
 title: "FileStream"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "lexchou द्वारा 16/06/2017 को बनाया गया।"
 type: docs
 weight: 66
@@ -14,9 +14,9 @@ public class FileStream extends Stream
 ```
 
 lexchou द्वारा 16/06/2017 को बनाया गया।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [FileStream(String fileName, int fileMode, int fileAccess)](#FileStream-java.lang.String-int-int-) |  |
 | [FileStream(String fileName, int fileMode)](#FileStream-java.lang.String-int-) |  |

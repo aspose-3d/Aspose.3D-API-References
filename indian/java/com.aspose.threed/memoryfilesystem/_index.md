@@ -1,6 +1,6 @@
 ---
 title: "MemoryFileSystem"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "यह  पढ़ने/लिखने के संचालन को मेमोरी में मैप करेगा।"
 type: docs
 weight: 95
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.threed.FileSystem](../../com.aspose.threed/filesys
 public class MemoryFileSystem extends FileSystem
 ```
 
-यह [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem) पढ़ने/लिखने के संचालन को मेमोरी में मैप करेगा। **Example:** निम्नलिखित कोड दिखाता है कि फ़ाइल को मेमोरी में कैसे निर्यात किया जाए, और MemoryFileSystem का उपयोग करके निर्भर फ़ाइल को शामिल करता है।
+यह [MemoryFileSystem](../../com.aspose.threed/memoryfilesystem) पढ़ने/लिखने के संचालन को मेमोरी में मैप करेगा। **उदाहरण:** निम्नलिखित कोड दिखाता है कि फ़ाइल को मेमोरी में कैसे निर्यात किया जाए, और MemoryFileSystem का उपयोग करके निर्भर फ़ाइल को शामिल करता है।
 
 ```
 //create a scene with material
@@ -32,9 +32,9 @@ public class MemoryFileSystem extends FileSystem
      //the test.obj was written to variable ms, and we can also get the test.mtl file content by
      var materialFile = mfs.getFileContent("test.mtl");
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [MemoryFileSystem()](#MemoryFileSystem--) |  |
 ## विधियाँ

@@ -1,7 +1,7 @@
 ---
-title: "विस्तार"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक्सट्रापोलेशन यह निर्धारित करता है कि जब नमूना मान पहले और अंतिम की-फ़्रेम द्वारा परिभाषित सीमा से बाहर हो तो क्या किया जाए।"
+title: "Extrapolation"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक्सट्रापोलेशन यह निर्धारित करता है कि जब सैंपल किया गया मान पहले और अंतिम की-फ़्रेम द्वारा परिभाषित सीमा से बाहर हो तो क्या करना है।"
 type: docs
 weight: 57
 url: /hi/java/com.aspose.threed/extrapolation/
@@ -13,20 +13,20 @@ java.lang.Object
 public class Extrapolation
 ```
 
-एक्सट्रापोलेशन यह निर्धारित करता है कि जब नमूना मान पहले और अंतिम की-फ़्रेम द्वारा परिभाषित सीमा से बाहर हो तो क्या किया जाए।
+एक्सट्रापोलेशन यह निर्धारित करता है कि जब सैंपल किया गया मान पहले और अंतिम की-फ़्रेम द्वारा परिभाषित सीमा से बाहर हो तो क्या करना है।
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getRepeatCount()](#getRepeatCount--) | विस्तार पैटर्न की दोहराव बार को प्राप्त करता है और सेट करता है। |
-| [getType()](#getType--) | विस्तार के सैंपलिंग पैटर्न को प्राप्त करता है और सेट करता है। |
+| [getRepeatCount()](#getRepeatCount--) | एक्सट्रापोलेशन पैटर्न की दोहराव संख्या को प्राप्त करता है और सेट करता है। |
+| [getType()](#getType--) | एक्सट्रापोलेशन के सैंपलिंग पैटर्न को प्राप्त करता है और सेट करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setRepeatCount(int value)](#setRepeatCount-int-) | विस्तार पैटर्न की दोहराव बार को प्राप्त करता है और सेट करता है। |
-| [setType(ExtrapolationType value)](#setType-com.aspose.threed.ExtrapolationType-) | विस्तार के सैंपलिंग पैटर्न को प्राप्त करता है और सेट करता है। |
+| [setRepeatCount(int value)](#setRepeatCount-int-) | एक्सट्रापोलेशन पैटर्न की दोहराव संख्या को प्राप्त करता है और सेट करता है। |
+| [setType(ExtrapolationType value)](#setType-com.aspose.threed.ExtrapolationType-) | एक्सट्रापोलेशन के सैंपलिंग पैटर्न को प्राप्त करता है और सेट करता है |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,17 +62,17 @@ public int getRepeatCount()
 ```
 
 
-विस्तार पैटर्न की दोहराव बार को प्राप्त करता है और सेट करता है।
+एक्सट्रापोलेशन पैटर्न की दोहराव संख्या को प्राप्त करता है और सेट करता है।
 
 **Returns:**
-int - और विस्तार पैटर्न की दोहराव बार को सेट करता है।
+int - एक्सट्रापोलेशन पैटर्न की दोहराव संख्या को प्राप्त करता है और सेट करता है।
 ### getType() {#getType--}
 ```
 public ExtrapolationType getType()
 ```
 
 
-विस्तार के सैंपलिंग पैटर्न को प्राप्त करता है और सेट करता है।
+एक्सट्रापोलेशन के सैंपलिंग पैटर्न को प्राप्त करता है और सेट करता है
 
 **Returns:**
 [ExtrapolationType](../../com.aspose.threed/extrapolationtype) - and sets the sampling pattern of extrapolation
@@ -108,7 +108,7 @@ public void setRepeatCount(int value)
 ```
 
 
-विस्तार पैटर्न की दोहराव बार को प्राप्त करता है और सेट करता है।
+एक्सट्रापोलेशन पैटर्न की दोहराव संख्या को प्राप्त करता है और सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -121,7 +121,7 @@ public void setType(ExtrapolationType value)
 ```
 
 
-विस्तार के सैंपलिंग पैटर्न को प्राप्त करता है और सेट करता है।
+एक्सट्रापोलेशन के सैंपलिंग पैटर्न को प्राप्त करता है और सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

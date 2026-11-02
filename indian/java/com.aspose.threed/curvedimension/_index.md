@@ -1,6 +1,6 @@
 ---
 title: "CurveDimension"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "वक्रों का आयाम।"
 type: docs
 weight: 275
@@ -18,8 +18,8 @@ public enum CurveDimension extends Enum<CurveDimension>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [THREE_DIMENSIONAL](#THREE-DIMENSIONAL) | वक्र तीन-आयामी बिंदु हैं। |
-| [TWO_DIMENSIONAL](#TWO-DIMENSIONAL) | वक्र दो-आयामी बिंदु हैं। |
+| [THREE_DIMENSIONAL](#THREE-DIMENSIONAL) | वक्र तीन आयामी बिंदु हैं। |
+| [TWO_DIMENSIONAL](#TWO-DIMENSIONAL) | वक्र दो आयामी बिंदु हैं। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public static final CurveDimension THREE_DIMENSIONAL
 ```
 
 
-वक्र तीन-आयामी बिंदु हैं।
+वक्र तीन आयामी बिंदु हैं।
 
 ### TWO_DIMENSIONAL {#TWO-DIMENSIONAL}
 ```
@@ -55,7 +55,7 @@ public static final CurveDimension TWO_DIMENSIONAL
 ```
 
 
-वक्र दो-आयामी बिंदु हैं।
+वक्र दो आयामी बिंदु हैं।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,6 +1,6 @@
 ---
-title: "टॉरस"
-second_title: "Aspose.3D for Java API Reference"
+title: "Torus"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "पैरामीटरयुक्त टॉरस।"
 type: docs
 weight: 189
@@ -14,35 +14,35 @@ public class Torus extends Primitive
 ```
 
 पैरामीटरयुक्त टॉरस।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Torus()](#Torus--) | नए [Torus](../../com.aspose.threed/torus) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [Torus(double radius, double tube)](#Torus-double-double-) | नए [Torus](../../com.aspose.threed/torus) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [Torus(double radius, double tube, double arc)](#Torus-double-double-double-) | नए [Torus](../../com.aspose.threed/torus) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [Torus(String name, double radius, double tube, int radialSegments, int tubularSegments, double arc)](#Torus-java.lang.String-double-double-int-int-double-) | नए [Torus](../../com.aspose.threed/torus) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Torus()](#Torus--) | नया instance [Torus](../../com.aspose.threed/torus) क्लास का इनिशियलाइज़ करता है। |
+| [Torus(double radius, double tube)](#Torus-double-double-) | नया instance [Torus](../../com.aspose.threed/torus) क्लास का इनिशियलाइज़ करता है। |
+| [Torus(double radius, double tube, double arc)](#Torus-double-double-double-) | नया instance [Torus](../../com.aspose.threed/torus) क्लास का इनिशियलाइज़ करता है। |
+| [Torus(String name, double radius, double tube, int radialSegments, int tubularSegments, double arc)](#Torus-java.lang.String-double-double-int-int-double-) | नया instance [Torus](../../com.aspose.threed/torus) क्लास का इनिशियलाइज़ करता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getArc()](#getArc--) | आर्क प्राप्त करता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
-| [getCastShadows()](#getCastShadows--) | यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है |
+| [getArc()](#getArc--) | Arc प्राप्त करता है। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getCastShadows()](#getCastShadows--) | यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [getRadialSegments()](#getRadialSegments--) | रेडियल सेगमेंट्स प्राप्त करता है। |
-| [getRadius()](#getRadius--) | टॉरस की त्रिज्या प्राप्त करता है। |
-| [getReceiveShadows()](#getReceiveShadows--) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getRadius()](#getRadius--) | Torus का त्रिज्या प्राप्त करता है। |
+| [getReceiveShadows()](#getReceiveShadows--) | यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [getTube()](#getTube--) | ट्यूब की त्रिज्या प्राप्त करता है। |
 | [getTubularSegments()](#getTubularSegments--) | ट्यूब्युलर सेगमेंट्स प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
@@ -50,15 +50,15 @@ public class Torus extends Primitive
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setArc(double value)](#setArc-double-) | आर्क सेट करता है। |
-| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setArc(double value)](#setArc-double-) | Arc सेट करता है। |
+| [setCastShadows(boolean value)](#setCastShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [setRadialSegments(int value)](#setRadialSegments-int-) | रेडियल सेगमेंट्स सेट करता है। |
-| [setRadius(double value)](#setRadius-double-) | टॉरस की त्रिज्या सेट करता है। |
-| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है। |
+| [setRadius(double value)](#setRadius-double-) | Torus की त्रिज्या सेट करता है। |
+| [setReceiveShadows(boolean value)](#setReceiveShadows-boolean-) | यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं। |
 | [setTube(double value)](#setTube-double-) | ट्यूब की त्रिज्या सेट करता है। |
 | [setTubularSegments(int value)](#setTubularSegments-int-) | ट्यूब्युलर सेगमेंट्स सेट करता है। |
 | [toMesh()](#toMesh--) | वर्तमान ऑब्जेक्ट को मेष में परिवर्तित करें |
@@ -72,7 +72,7 @@ public Torus()
 ```
 
 
-नए [Torus](../../com.aspose.threed/torus) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है।
+नया instance [Torus](../../com.aspose.threed/torus) क्लास का इनिशियलाइज़ करता है।
 
 ### Torus(double radius, double tube) {#Torus-double-double-}
 ```
@@ -80,13 +80,13 @@ public Torus(double radius, double tube)
 ```
 
 
-नए [Torus](../../com.aspose.threed/torus) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है।
+नया instance [Torus](../../com.aspose.threed/torus) क्लास का इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| त्रिज्या | double | टॉरस की त्रिज्या। |
-| ट्यूब | double | टॉरस के ट्यूब की त्रिज्या। |
+| त्रिज्या | double | Torus की त्रिज्या। |
+| ट्यूब | double | Torus के ट्यूब की त्रिज्या। |
 
 ### Torus(double radius, double tube, double arc) {#Torus-double-double-double-}
 ```
@@ -94,14 +94,14 @@ public Torus(double radius, double tube, double arc)
 ```
 
 
-नए [Torus](../../com.aspose.threed/torus) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है।
+नया instance [Torus](../../com.aspose.threed/torus) क्लास का इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| त्रिज्या | double | टॉरस की त्रिज्या। |
-| ट्यूब | double | टॉरस के ट्यूब की त्रिज्या। |
-| आर्क | double | वक्र. |
+| त्रिज्या | double | Torus की त्रिज्या। |
+| ट्यूब | double | Torus के ट्यूब की त्रिज्या। |
+| आर्क | double | आर्क। |
 
 ### Torus(String name, double radius, double tube, int radialSegments, int tubularSegments, double arc) {#Torus-java.lang.String-double-double-int-int-double-}
 ```
@@ -109,17 +109,17 @@ public Torus(String name, double radius, double tube, int radialSegments, int tu
 ```
 
 
-नए [Torus](../../com.aspose.threed/torus) क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है।
+नया instance [Torus](../../com.aspose.threed/torus) क्लास का इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | नाम | java.lang.String | नाम। |
-| त्रिज्या | double | टॉरस की त्रिज्या। |
-| ट्यूब | double | टॉरस के ट्यूब की त्रिज्या। |
-| radialSegments | int | त्रिज्यीय खंड. |
-| tubularSegments | int | नली खंड. |
-| आर्क | double | वक्र. |
+| त्रिज्या | double | Torus की त्रिज्या। |
+| ट्यूब | double | Torus के ट्यूब की त्रिज्या। |
+| radialSegments | int | त्रिज्यात्मक खंड। |
+| tubularSegments | int | नली खंड। |
+| आर्क | double | आर्क। |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -142,7 +142,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -157,17 +157,17 @@ public double getArc()
 ```
 
 
-आर्क प्राप्त करता है।
+Arc प्राप्त करता है।
 
 **Returns:**
-डबल - वक्र.
+डबल - आर्क।
 ### getBoundingBox() {#getBoundingBox--}
 ```
 public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -184,7 +184,7 @@ public boolean getCastShadows()
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं प्राप्त करता है
+यह जाँचता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया डाल सकती है
@@ -204,7 +204,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey) - the key of the entity renderer registered in the renderer
@@ -214,10 +214,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -234,7 +234,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -244,7 +244,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -282,24 +282,24 @@ public int getRadialSegments()
 रेडियल सेगमेंट्स प्राप्त करता है।
 
 **Returns:**
-इंट - रेडियल सेगमेंट।
+int - रेडियल सेगमेंट।
 ### getRadius() {#getRadius--}
 ```
 public double getRadius()
 ```
 
 
-टॉरस की त्रिज्या प्राप्त करता है।
+Torus का त्रिज्या प्राप्त करता है।
 
 **Returns:**
-डबल - टॉरस की त्रिज्या.
+डबल - टॉरस की त्रिज्या।
 ### getReceiveShadows() {#getReceiveShadows--}
 ```
 public boolean getReceiveShadows()
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं प्राप्त करता है।
+यह जाँचता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Returns:**
 boolean - क्या यह ज्यामिति छाया प्राप्त कर सकती है।
@@ -309,7 +309,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -322,7 +322,7 @@ public double getTube()
 ट्यूब की त्रिज्या प्राप्त करता है।
 
 **Returns:**
-डबल - ट्यूब की त्रिज्या.
+डबल - ट्यूब की त्रिज्या।
 ### getTubularSegments() {#getTubularSegments--}
 ```
 public int getTubularSegments()
@@ -332,7 +332,7 @@ public int getTubularSegments()
 ट्यूब्युलर सेगमेंट्स प्राप्त करता है।
 
 **Returns:**
-इंट - नली खंड.
+इंट - नली खंड।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -395,7 +395,7 @@ public void setArc(double value)
 ```
 
 
-आर्क सेट करता है।
+Arc सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -408,7 +408,7 @@ public void setCastShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया डाल सकती है या नहीं सेट करता है
+यह निर्धारित करता है कि यह ज्यामिति छाया डाल सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -421,7 +421,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -447,7 +447,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -487,7 +487,7 @@ public void setRadius(double value)
 ```
 
 
-टॉरस की त्रिज्या सेट करता है।
+Torus की त्रिज्या सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -500,7 +500,7 @@ public void setReceiveShadows(boolean value)
 ```
 
 
-यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं सेट करता है।
+यह निर्धारित करता है कि यह ज्यामिति छाया प्राप्त कर सकती है या नहीं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

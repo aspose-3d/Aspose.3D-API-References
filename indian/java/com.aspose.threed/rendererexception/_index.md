@@ -1,6 +1,6 @@
 ---
 title: "RendererException"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: 
 type: docs
 weight: 153
@@ -12,9 +12,9 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 ```
 public class RendererException extends RuntimeException
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [RendererException(String msg)](#RendererException-java.lang.String-) |  |
 ## विधियाँ

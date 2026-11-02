@@ -1,6 +1,6 @@
 ---
 title: "PixelMapping"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: 
 type: docs
 weight: 127
@@ -19,7 +19,7 @@ public class PixelMapping implements Closeable
 
 | विधि | विवरण |
 | --- | --- |
-| [close()](#close--) | मैपिंग इंस्टेंस को डिस्पोज करें |
+| [close()](#close--) | मैपिंग इंस्टेंस को डिस्पोज करें। |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | पिक्सेल के मैप्ड बाइट्स। |
@@ -39,7 +39,7 @@ public void close()
 ```
 
 
-मैपिंग इंस्टेंस को डिस्पोज करें
+मैपिंग इंस्टेंस को डिस्पोज करें।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "CubeFace"
-second_title: "Aspose.3D for Java API Reference"
-description: "क्यूब मैप टेक्सचर का प्रत्येक चेहरा"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "क्यूब मैप टेक्सचर का प्रत्येक फेस"
 type: docs
 weight: 274
 url: /hi/java/com.aspose.threed/cubeface/
@@ -13,17 +13,17 @@ java.lang.Object, java.lang.Enum
 public enum CubeFace extends Enum<CubeFace>
 ```
 
-क्यूब मैप टेक्सचर का प्रत्येक चेहरा
+क्यूब मैप टेक्सचर का प्रत्येक फेस
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [NEGATIVEX](#NEGATIVEX) | यह -X फेस |
-| [NEGATIVEY](#NEGATIVEY) | यह -Y फेस |
-| [NEGATIVEZ](#NEGATIVEZ) | यह -Z फेस |
-| [POSITIVEX](#POSITIVEX) | यह +X फेस |
-| [POSITIVEY](#POSITIVEY) | यह +Y फेस |
-| [POSITIVEZ](#POSITIVEZ) | यह +Z फेस |
+| [NEGATIVEX](#NEGATIVEX) | यह -X चेहरा |
+| [NEGATIVEY](#NEGATIVEY) | यह -Y चेहरा |
+| [NEGATIVEZ](#NEGATIVEZ) | यह -Z चेहरा |
+| [POSITIVEX](#POSITIVEX) | यह +X चेहरा |
+| [POSITIVEY](#POSITIVEY) | यह +Y चेहरा |
+| [POSITIVEZ](#POSITIVEZ) | यह +Z चेहरा |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -51,7 +51,7 @@ public static final CubeFace NEGATIVEX
 ```
 
 
-यह -X फेस
+यह -X चेहरा
 
 ### NEGATIVEY {#NEGATIVEY}
 ```
@@ -59,7 +59,7 @@ public static final CubeFace NEGATIVEY
 ```
 
 
-यह -Y फेस
+यह -Y चेहरा
 
 ### NEGATIVEZ {#NEGATIVEZ}
 ```
@@ -67,7 +67,7 @@ public static final CubeFace NEGATIVEZ
 ```
 
 
-यह -Z फेस
+यह -Z चेहरा
 
 ### POSITIVEX {#POSITIVEX}
 ```
@@ -75,7 +75,7 @@ public static final CubeFace POSITIVEX
 ```
 
 
-यह +X फेस
+यह +X चेहरा
 
 ### POSITIVEY {#POSITIVEY}
 ```
@@ -83,7 +83,7 @@ public static final CubeFace POSITIVEY
 ```
 
 
-यह +Y फेस
+यह +Y चेहरा
 
 ### POSITIVEZ {#POSITIVEZ}
 ```
@@ -91,7 +91,7 @@ public static final CubeFace POSITIVEZ
 ```
 
 
-यह +Z फेस
+यह +Z चेहरा
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

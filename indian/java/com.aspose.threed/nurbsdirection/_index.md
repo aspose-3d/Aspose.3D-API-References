@@ -1,7 +1,7 @@
 ---
 title: "NurbsDirection"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक 3D  में दो दिशा होती हैं,  और ,  प्रत्येक दिशा के डेटा को परिभाषित करता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक 3D  में दो दिशा होती हैं,  और ,  प्रत्येक दिशा के लिए डेटा परिभाषित करता है।"
 type: docs
 weight: 113
 url: /hi/java/com.aspose.threed/nurbsdirection/
@@ -13,10 +13,10 @@ java.lang.Object
 public class NurbsDirection
 ```
 
-एक 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) में दो दिशा होती हैं, [NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) और [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV), और [NurbsDirection](../../com.aspose.threed/nurbsdirection) प्रत्येक दिशा के डेटा को परिभाषित करता है। एक दिशा वास्तव में एक NURBS कर्व है, जिसका मतलब है कि यह अपने [getOrder](../../com.aspose.threed/nurbsdirection\#getOrder), [getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors) और भारित कंट्रोल पॉइंट्स के सेट (जो [NurbsSurface](../../com.aspose.threed/nurbssurface) में परिभाषित हैं) द्वारा भी परिभाषित होती है।
-## कंस्ट्रक्टर
+एक 3D [NurbsSurface](../../com.aspose.threed/nurbssurface) में दो दिशा होती हैं, [NurbsSurface.getU](../../com.aspose.threed/nurbssurface\#getU) और [NurbsSurface.getV](../../com.aspose.threed/nurbssurface\#getV), [NurbsDirection](../../com.aspose.threed/nurbsdirection) प्रत्येक दिशा के लिए डेटा परिभाषित करता है। एक दिशा वास्तव में एक NURBS कर्व है, जिसका मतलब है कि यह अपने [getOrder](../../com.aspose.threed/nurbsdirection\#getOrder), एक [getKnotVectors](../../com.aspose.threed/nurbsdirection\#getKnotVectors), और एक सेट वेटेड कंट्रोल पॉइंट्स (जो [NurbsSurface](../../com.aspose.threed/nurbssurface) में परिभाषित हैं) द्वारा भी परिभाषित होती है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [NurbsDirection()](#NurbsDirection--) | एक नया [NurbsDirection](../../com.aspose.threed/nurbsdirection) का इंस्टेंस बनाएं |
 ## विधियाँ
@@ -26,7 +26,7 @@ public class NurbsDirection
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | वर्तमान दिशा में नियंत्रण बिंदुओं की गिनती प्राप्त करता है। |
-| [getDegree()](#getDegree--) | NURBS वक्र की डिग्री प्राप्त करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है |
+| [getDegree()](#getDegree--) | NURBS वक्र की डिग्री प्राप्त करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है। |
 | [getDivisions()](#getDivisions--) | वर्तमान दिशा में आसन्न कंट्रोल पॉइंट्स के बीच विभाजनों की संख्या प्राप्त करता है। |
 | [getKnotVectors()](#getKnotVectors--) | नॉट वेक्टर प्राप्त करता है, यह पैरामीटर मानों की एक श्रृंखला है जो निर्धारित करती है कि नियंत्रण बिंदु NURBS वक्र को कहाँ और कैसे प्रभावित करते हैं। |
 | [getMultiplicity()](#getMultiplicity--) | बहुलता प्राप्त करता है। |
@@ -36,7 +36,7 @@ public class NurbsDirection
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCount(int value)](#setCount-int-) | वर्तमान दिशा में नियंत्रण बिंदुओं की गिनती सेट करता है। |
-| [setDegree(int value)](#setDegree-int-) | NURBS वक्र की डिग्री सेट करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है |
+| [setDegree(int value)](#setDegree-int-) | NURBS वक्र की डिग्री सेट करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है। |
 | [setDivisions(int value)](#setDivisions-int-) | वर्तमान दिशा में आसन्न कंट्रोल पॉइंट्स के बीच विभाजनों की संख्या सेट करता है। |
 | [setOrder(int value)](#setOrder-int-) | NURBS वक्र का क्रम सेट करता है, यह निकटवर्ती नियंत्रण बिंदुओं की संख्या को परिभाषित करता है जो वक्र के किसी भी बिंदु को प्रभावित करते हैं। |
 | [setType(NurbsType value)](#setType-com.aspose.threed.NurbsType-) | वर्तमान दिशा का प्रकार सेट करता है। |
@@ -93,10 +93,10 @@ public int getDegree()
 ```
 
 
-NURBS वक्र की डिग्री प्राप्त करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है
+NURBS वक्र की डिग्री प्राप्त करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है।
 
 **Returns:**
-int - NURBS वक्र की डिग्री, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है
+int - NURBS वक्र की डिग्री, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है।
 ### getDivisions() {#getDivisions--}
 ```
 public int getDivisions()
@@ -136,7 +136,7 @@ public int getOrder()
 NURBS वक्र का क्रम प्राप्त करता है, यह निकटवर्ती नियंत्रण बिंदुओं की संख्या को परिभाषित करता है जो वक्र के किसी भी बिंदु को प्रभावित करते हैं।
 
 **Returns:**
-int - NURBS वक्र का क्रम, यह निकटवर्ती नियंत्रण बिंदुओं की संख्या निर्धारित करता है जो वक्र पर किसी भी बिंदु को प्रभावित करते हैं।
+int - NURBS वक्र का क्रम, यह वक्र पर किसी भी बिंदु को प्रभावित करने वाले निकटवर्ती नियंत्रण बिंदुओं की संख्या को परिभाषित करता है।
 ### getType() {#getType--}
 ```
 public NurbsType getType()
@@ -192,7 +192,7 @@ public void setDegree(int value)
 ```
 
 
-NURBS वक्र की डिग्री सेट करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है
+NURBS वक्र की डिग्री सेट करता है, डिग्री को क्रम - 1 के रूप में परिभाषित किया जाता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

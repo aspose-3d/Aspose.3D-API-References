@@ -1,7 +1,7 @@
 ---
 title: "CompareFunction"
-second_title: "Aspose.3D for Java API Reference"
-description: "डैप्थ/स्टेंसिल परीक्षण में उपयोग किया जाने वाला तुलना फ़ंक्शन।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "डेप्थ/स्टेंसिल परीक्षण में उपयोग किया जाने वाला तुलना फ़ंक्शन।"
 type: docs
 weight: 271
 url: /hi/java/com.aspose.threed/comparefunction/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum CompareFunction extends Enum<CompareFunction>
 ```
 
-डैप्थ/स्टेंसिल परीक्षण में उपयोग किया जाने वाला तुलना फ़ंक्शन।
+डेप्थ/स्टेंसिल परीक्षण में उपयोग किया जाने वाला तुलना फ़ंक्शन।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |

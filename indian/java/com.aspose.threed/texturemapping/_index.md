@@ -1,7 +1,7 @@
 ---
 title: "TextureMapping"
-second_title: "Aspose.3D for Java API Reference"
-description: "टेक्सचर मैपिंग प्रकार के लिए  वर्णन करता है कि कौन सा टेक्सचर मैपिंग उपयोग किया गया है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "टेक्सचर मैपिंग प्रकार के लिए  वर्णन करता है कि किस प्रकार की टेक्सचर मैपिंग उपयोग की गई है।"
 type: docs
 weight: 306
 url: /hi/java/com.aspose.threed/texturemapping/
@@ -13,23 +13,23 @@ java.lang.Object, java.lang.Enum
 public enum TextureMapping extends Enum<TextureMapping>
 ```
 
-टेक्सचर मैपिंग प्रकार के लिए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्णन करता है कि कौन सा टेक्सचर मैपिंग उपयोग किया गया है।
+टेक्सचर मैपिंग प्रकार के लिए [VertexElementUV](../../com.aspose.threed/vertexelementuv) वर्णन करता है कि किस प्रकार की टेक्सचर मैपिंग उपयोग की गई है।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [AMBIENT](#AMBIENT) | ऐम्बिएंट मैप्स |
-| [BUMP](#BUMP) | बम्प मैप्स |
-| [DIFFUSE](#DIFFUSE) | डिफ्यूज़ मैप्स |
-| [DISPLACEMENT](#DISPLACEMENT) | डिस्प्लेसमेंट मैप्स |
-| [EMISSIVE](#EMISSIVE) | एमिसिव मैप्स |
-| [GLOW](#GLOW) | ग्लो मैप्स |
-| [NORMAL](#NORMAL) | नॉर्मल मैप्स |
-| [OPACITY](#OPACITY) | ऑपेसिटी मैप्स |
-| [REFLECTION](#REFLECTION) | रिफ्लेक्शन मैप्स |
-| [SHADOW](#SHADOW) | शैडो मैप्स |
-| [SHININESS](#SHININESS) | चमक मैप्स |
-| [SPECULAR](#SPECULAR) | स्पेक्युलर मैप्स |
+| [AMBIENT](#AMBIENT) | एम्बिएंट मैप्स |
+| [BUMP](#BUMP) | बम्प मानचित्र |
+| [DIFFUSE](#DIFFUSE) | डिफ्यूज़ मानचित्र |
+| [DISPLACEMENT](#DISPLACEMENT) | विस्थापन मानचित्र |
+| [EMISSIVE](#EMISSIVE) | उत्सर्जक मानचित्र |
+| [GLOW](#GLOW) | ग्लो मानचित्र |
+| [NORMAL](#NORMAL) | नॉर्मल मानचित्र |
+| [OPACITY](#OPACITY) | अपारदर्शिता मानचित्र |
+| [REFLECTION](#REFLECTION) | परावर्तन मानचित्र |
+| [SHADOW](#SHADOW) | छाया मानचित्र |
+| [SHININESS](#SHININESS) | चमक मानचित्र |
+| [SPECULAR](#SPECULAR) | स्पेक्यूलर मानचित्र |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -57,7 +57,7 @@ public static final TextureMapping AMBIENT
 ```
 
 
-ऐम्बिएंट मैप्स
+एम्बिएंट मैप्स
 
 ### BUMP {#BUMP}
 ```
@@ -65,7 +65,7 @@ public static final TextureMapping BUMP
 ```
 
 
-बम्प मैप्स
+बम्प मानचित्र
 
 ### DIFFUSE {#DIFFUSE}
 ```
@@ -73,7 +73,7 @@ public static final TextureMapping DIFFUSE
 ```
 
 
-डिफ्यूज़ मैप्स
+डिफ्यूज़ मानचित्र
 
 ### DISPLACEMENT {#DISPLACEMENT}
 ```
@@ -81,7 +81,7 @@ public static final TextureMapping DISPLACEMENT
 ```
 
 
-डिस्प्लेसमेंट मैप्स
+विस्थापन मानचित्र
 
 ### EMISSIVE {#EMISSIVE}
 ```
@@ -89,7 +89,7 @@ public static final TextureMapping EMISSIVE
 ```
 
 
-एमिसिव मैप्स
+उत्सर्जक मानचित्र
 
 ### GLOW {#GLOW}
 ```
@@ -97,7 +97,7 @@ public static final TextureMapping GLOW
 ```
 
 
-ग्लो मैप्स
+ग्लो मानचित्र
 
 ### NORMAL {#NORMAL}
 ```
@@ -105,7 +105,7 @@ public static final TextureMapping NORMAL
 ```
 
 
-नॉर्मल मैप्स
+नॉर्मल मानचित्र
 
 ### OPACITY {#OPACITY}
 ```
@@ -113,7 +113,7 @@ public static final TextureMapping OPACITY
 ```
 
 
-ऑपेसिटी मैप्स
+अपारदर्शिता मानचित्र
 
 ### REFLECTION {#REFLECTION}
 ```
@@ -121,7 +121,7 @@ public static final TextureMapping REFLECTION
 ```
 
 
-रिफ्लेक्शन मैप्स
+परावर्तन मानचित्र
 
 ### SHADOW {#SHADOW}
 ```
@@ -129,7 +129,7 @@ public static final TextureMapping SHADOW
 ```
 
 
-शैडो मैप्स
+छाया मानचित्र
 
 ### SHININESS {#SHININESS}
 ```
@@ -137,7 +137,7 @@ public static final TextureMapping SHININESS
 ```
 
 
-चमक मैप्स
+चमक मानचित्र
 
 ### SPECULAR {#SPECULAR}
 ```
@@ -145,7 +145,7 @@ public static final TextureMapping SPECULAR
 ```
 
 
-स्पेक्युलर मैप्स
+स्पेक्यूलर मानचित्र
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

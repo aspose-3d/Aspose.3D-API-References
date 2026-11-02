@@ -1,6 +1,6 @@
 ---
 title: "PatchDirectionType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "पैच दिशा प्रकार।"
 type: docs
 weight: 287
@@ -18,16 +18,16 @@ public enum PatchDirectionType extends Enum<PatchDirectionType>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-|  | [BASIS_SPLINE](#BASIS-SPLINE) | [पैच दिशा एक बेसिस स्प्लाइन है.][] |
+|  | [BASIS_SPLINE](#BASIS-SPLINE) | [पैच दिशा एक बेसिस स्प्लाइन है।][] |
 
 
 [The patch direction is a basis spline.]: https://en.wikipedia.org/wiki/B-spline |
-|  | [BEZIER](#BEZIER) | [पैच दिशा एक बीज़ियर कर्व है.][] |
+|  | [BEZIER](#BEZIER) | [पैच दिशा एक बीज़ियर कर्व है।][] |
 
 
 [The patch direction is a Bezier curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve |
 | [CARDINAL_SPLINE](#CARDINAL-SPLINE) | कार्डिनल पैच। |
-|  | [LINEAR](#LINEAR) | [पैच दिशा एक रैखिक कर्व है.][] |
+|  | [LINEAR](#LINEAR) | [पैच दिशा एक रैखिक कर्व है।][] |
 
 
 [The patch direction is a linear curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Linear_curves |
@@ -81,7 +81,7 @@ public static final PatchDirectionType CARDINAL_SPLINE
 ```
 
 
-कार्डिनल पैच। [पैच दिशा एक कार्डिनल स्प्लाइन है.][]
+कार्डिनल पैच। [पैच दिशा एक कार्डिनल स्प्लाइन है।][]
 
 
 [The patch direction is a cardinal spline.]: https://en.wikipedia.org/wiki/Cubic_Hermite_spline#Cardinal_spline
@@ -103,7 +103,7 @@ public static final PatchDirectionType QUADRATIC_BEZIER
 ```
 
 
-क्वाड्रेटिक बीज़ियर पैच। [पैच दिशा एक क्वाड्रेटिक कर्व है.][]
+क्वाड्रेटिक बीज़ियर पैच। [पैच दिशा एक क्वाड्रेटिक कर्व है।][]
 
 
 [The patch direction is a quadratic curve.]: https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Quadratic_curves

@@ -1,6 +1,6 @@
 ---
 title: "IOrientable"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "ओरिएंटेबल इकाइयों को यह इंटरफ़ेस लागू करना चाहिए।"
 type: docs
 weight: 246
@@ -15,17 +15,17 @@ public interface IOrientable
 
 | विधि | विवरण |
 | --- | --- |
-| [getDirection()](#getDirection--) | इकाई जिस दिशा की ओर देख रही है, उसे प्राप्त करता है। |
-| [getTarget()](#getTarget--) | इकाई जिस लक्ष्य की ओर देख रही है, उसे प्राप्त करता है। |
-| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | इकाई जिस दिशा की ओर देख रही है, उसे सेट करता है। |
-| [setTarget(Node value)](#setTarget-com.aspose.threed.Node-) | इकाई जिस लक्ष्य की ओर देख रही है, उसे सेट करता है। |
+| [getDirection()](#getDirection--) | इकाई जिस दिशा को देख रही है, उसे प्राप्त करता है। |
+| [getTarget()](#getTarget--) | इकाई जिस लक्ष्य को देख रही है, उसे प्राप्त करता है। |
+| [setDirection(Vector3 value)](#setDirection-com.aspose.threed.Vector3-) | इकाई जिस दिशा को देख रही है, उसे सेट करता है। |
+| [setTarget(Node value)](#setTarget-com.aspose.threed.Node-) | इकाई जिस लक्ष्य को देख रही है, उसे सेट करता है। |
 ### getDirection() {#getDirection--}
 ```
 public abstract Vector3 getDirection()
 ```
 
 
-इकाई जिस दिशा की ओर देख रही है, उसे प्राप्त करता है।
+इकाई जिस दिशा को देख रही है, उसे प्राप्त करता है।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the direction that the entity is looking at.
@@ -35,7 +35,7 @@ public abstract Node getTarget()
 ```
 
 
-इकाई जिस लक्ष्य की ओर देख रही है, उसे प्राप्त करता है।
+इकाई जिस लक्ष्य को देख रही है, उसे प्राप्त करता है।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the target that the entity is looking at.
@@ -45,7 +45,7 @@ public abstract void setDirection(Vector3 value)
 ```
 
 
-इकाई जिस दिशा की ओर देख रही है, उसे सेट करता है।
+इकाई जिस दिशा को देख रही है, उसे सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -58,7 +58,7 @@ public abstract void setTarget(Node value)
 ```
 
 
-इकाई जिस लक्ष्य की ओर देख रही है, उसे सेट करता है।
+इकाई जिस लक्ष्य को देख रही है, उसे सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

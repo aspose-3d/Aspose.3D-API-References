@@ -1,6 +1,6 @@
 ---
 title: "PresetShaders"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "यह रेंडरर द्वारा उपयोग किए जाने वाले प्रीसेट आंतरिक शेडर को परिभाषित करता है।"
 type: docs
 weight: 294
@@ -19,7 +19,7 @@ public enum PresetShaders extends Enum<PresetShaders>
 | फ़ील्ड | विवरण |
 | --- | --- |
 | [CUSTOMIZED](#CUSTOMIZED) | उपयोगकर्ता का कस्टमाइज़्ड शेडर सेट |
-| [DEFAULT](#DEFAULT) | फॉन्ग/लैम्बर्ट/PBR सामग्री के लिए डिफ़ॉल्ट शेडर का उपयोग करें |
+| [DEFAULT](#DEFAULT) | फोंग/लैम्बर्ट/PBR सामग्री के लिए डिफ़ॉल्ट शेडर का उपयोग करें |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -55,7 +55,7 @@ public static final PresetShaders DEFAULT
 ```
 
 
-फॉन्ग/लैम्बर्ट/PBR सामग्री के लिए डिफ़ॉल्ट शेडर का उपयोग करें
+फोंग/लैम्बर्ट/PBR सामग्री के लिए डिफ़ॉल्ट शेडर का उपयोग करें
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "HollowRectangleShape"
-second_title: "Aspose.3D for Java API Reference"
-description: "IFC संगत खोखला आयताकार आकार जिसमें अंदर/बाहर दोनों गोल कोने हैं।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "IFC संगत खोखला आयताकार आकार जिसमें भीतरी/बाहरी गोल कोने हों।"
 type: docs
 weight: 79
 url: /hi/java/com.aspose.threed/hollowrectangleshape/
@@ -13,10 +13,10 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class HollowRectangleShape extends RectangleShape
 ```
 
-IFC संगत खोखला आयताकार आकार जिसमें अंदर/बाहर दोनों गोल कोने हैं।
-## कंस्ट्रक्टर
+IFC संगत खोखला आयताकार आकार जिसमें भीतरी/बाहरी गोल कोने हों।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [HollowRectangleShape()](#HollowRectangleShape--) |  |
 ## विधियाँ
@@ -25,36 +25,36 @@ IFC संगत खोखला आयताकार आकार जिसम
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getExtent()](#getExtent--) | x और y आयाम में विस्तार प्राप्त करता है। |
-| [getInnerFilletRadius()](#getInnerFilletRadius--) | आंतरिक आयत के अंदर की फ़िलेट त्रिज्या। |
+| [getInnerFilletRadius()](#getInnerFilletRadius--) | आंतरिक आयत के अंदर के फ़िलेट त्रिज्या। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [getRoundingRadius()](#getRoundingRadius--) | सभी चार कोनों के वृत्तीय चापों की त्रिज्या प्राप्त करता है, डिग्री में मापी गई। |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
-| [getWallThickness()](#getWallThickness--) | आयत की सीमा और आंतरिक छेद के बीच की मोटाई |
-| [getXDim()](#getXDim--) | x-अक्ष की दिशा में आयत का विस्तार प्राप्त करता है। डिफ़ॉल्ट मान 2.0 है। |
-| [getYDim()](#getYDim--) | y-अक्ष की दिशा में आयत का विस्तार प्राप्त करता है। डिफ़ॉल्ट मान 2.0 है। |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
+| [getWallThickness()](#getWallThickness--) | आयत की सीमा और अंदर के छेद के बीच की मोटाई |
+| [getXDim()](#getXDim--) | आयत का विस्तार x-अक्ष की दिशा में प्राप्त करता है डिफ़ॉल्ट मान 2.0 है |
+| [getYDim()](#getYDim--) | आयत का विस्तार y-अक्ष की दिशा में प्राप्त करता है डिफ़ॉल्ट मान 2.0 है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
-| [setInnerFilletRadius(double value)](#setInnerFilletRadius-double-) | आंतरिक आयत के अंदर की फ़िलेट त्रिज्या। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
+| [setInnerFilletRadius(double value)](#setInnerFilletRadius-double-) | आंतरिक आयत के अंदर के फ़िलेट त्रिज्या। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [setRoundingRadius(double value)](#setRoundingRadius-double-) | सभी चार कोनों के वृत्तीय चापों की त्रिज्या सेट करता है, डिग्री में मापी गई। |
-| [setWallThickness(double value)](#setWallThickness-double-) | आयत की सीमा और आंतरिक छेद के बीच की मोटाई |
-| [setXDim(double value)](#setXDim-double-) | x-अक्ष की दिशा में आयत का विस्तार सेट करता है। डिफ़ॉल्ट मान 2.0 है। |
-| [setYDim(double value)](#setYDim-double-) | y-अक्ष की दिशा में आयत का विस्तार सेट करता है। डिफ़ॉल्ट मान 2.0 है। |
+| [setWallThickness(double value)](#setWallThickness-double-) | आयत की सीमा और अंदर के छेद के बीच की मोटाई |
+| [setXDim(double value)](#setXDim-double-) | आयत का विस्तार x-अक्ष की दिशा में सेट करता है डिफ़ॉल्ट मान 2.0 है |
+| [setYDim(double value)](#setYDim-double-) | आयत का विस्तार y-अक्ष की दिशा में सेट करता है डिफ़ॉल्ट मान 2.0 है |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -86,7 +86,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -101,7 +101,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -128,7 +128,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -138,10 +138,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getExtent() {#getExtent--}
 ```
 public Vector2 getExtent()
@@ -158,10 +158,10 @@ public double getInnerFilletRadius()
 ```
 
 
-आंतरिक आयत के अंदर की फ़िलेट त्रिज्या।
+आंतरिक आयत के अंदर के फ़िलेट त्रिज्या।
 
 **Returns:**
-double - आंतरिक आयत के अंदर की फ़िलेट त्रिज्या।
+double - आंतरिक आयत के अंदर के फ़िलेट त्रिज्या।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -178,7 +178,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -188,7 +188,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -223,17 +223,17 @@ public double getRoundingRadius()
 ```
 
 
-सभी चार कोनों के वृत्तीय चापों की त्रिज्या प्राप्त करता है, डिग्री में मापी गई। डिफ़ॉल्ट मान 0.0 है।
+सभी चार कोनों के वृत्तीय चापों की त्रिज्या प्राप्त करता है, डिग्री में मापी गई। डिफ़ॉल्ट मान 0.0 है
 
 **Returns:**
-double - सभी चार कोनों के वृत्तीय चापों की त्रिज्या, डिग्री में मापी गई। डिफ़ॉल्ट मान 0.0 है।
+double - सभी चार कोनों के वृत्तीय चापों की त्रिज्या, डिग्री में मापी गई। डिफ़ॉल्ट मान 0.0 है
 ### getScene() {#getScene--}
 ```
 public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -243,30 +243,30 @@ public double getWallThickness()
 ```
 
 
-आयत की सीमा और आंतरिक छेद के बीच की मोटाई
+आयत की सीमा और अंदर के छेद के बीच की मोटाई
 
 **Returns:**
-double - आयत की सीमा और आंतरिक छेद के बीच की मोटाई
+double - आयत की सीमा और अंदर के छेद के बीच की मोटाई
 ### getXDim() {#getXDim--}
 ```
 public double getXDim()
 ```
 
 
-x-अक्ष की दिशा में आयत का विस्तार प्राप्त करता है। डिफ़ॉल्ट मान 2.0 है।
+आयत का विस्तार x-अक्ष की दिशा में प्राप्त करता है डिफ़ॉल्ट मान 2.0 है
 
 **Returns:**
-double - x-अक्ष की दिशा में आयत का विस्तार। डिफ़ॉल्ट मान 2.0 है।
+double - आयत का विस्तार x-अक्ष की दिशा में डिफ़ॉल्ट मान 2.0 है
 ### getYDim() {#getYDim--}
 ```
 public double getYDim()
 ```
 
 
-y-अक्ष की दिशा में आयत का विस्तार प्राप्त करता है। डिफ़ॉल्ट मान 2.0 है।
+आयत का विस्तार y-अक्ष की दिशा में प्राप्त करता है डिफ़ॉल्ट मान 2.0 है
 
 **Returns:**
-double - y-अक्ष की दिशा में आयत का विस्तार। डिफ़ॉल्ट मान 2.0 है।
+double - आयत का विस्तार y-अक्ष की दिशा में डिफ़ॉल्ट मान 2.0 है
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -329,7 +329,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -342,7 +342,7 @@ public void setInnerFilletRadius(double value)
 ```
 
 
-आंतरिक आयत के अंदर की फ़िलेट त्रिज्या।
+आंतरिक आयत के अंदर के फ़िलेट त्रिज्या।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -368,7 +368,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -395,7 +395,7 @@ public void setRoundingRadius(double value)
 ```
 
 
-सभी चार कोनों के वृत्तीय चापों की त्रिज्या सेट करता है, डिग्री में मापी गई। डिफ़ॉल्ट मान 0.0 है।
+सभी चार कोनों के वृत्तीय चापों की त्रिज्या सेट करता है, डिग्री में मापी गई। डिफ़ॉल्ट मान 0.0 है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -408,7 +408,7 @@ public void setWallThickness(double value)
 ```
 
 
-आयत की सीमा और आंतरिक छेद के बीच की मोटाई
+आयत की सीमा और अंदर के छेद के बीच की मोटाई
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -421,7 +421,7 @@ public void setXDim(double value)
 ```
 
 
-x-अक्ष की दिशा में आयत का विस्तार सेट करता है। डिफ़ॉल्ट मान 2.0 है।
+आयत का विस्तार x-अक्ष की दिशा में सेट करता है डिफ़ॉल्ट मान 2.0 है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -434,7 +434,7 @@ public void setYDim(double value)
 ```
 
 
-y-अक्ष की दिशा में आयत का विस्तार सेट करता है। डिफ़ॉल्ट मान 2.0 है।
+आयत का विस्तार y-अक्ष की दिशा में सेट करता है डिफ़ॉल्ट मान 2.0 है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

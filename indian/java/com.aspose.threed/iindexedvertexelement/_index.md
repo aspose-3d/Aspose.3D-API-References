@@ -1,6 +1,6 @@
 ---
 title: "IIndexedVertexElement"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "इंडेक्स डेटा वाला VertexElement।"
 type: docs
 weight: 243

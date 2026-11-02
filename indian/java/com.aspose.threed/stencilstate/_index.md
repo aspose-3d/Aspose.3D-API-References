@@ -1,7 +1,7 @@
 ---
 title: "StencilState"
-second_title: "Aspose.3D for Java API Reference"
-description: "प्रति फेस स्टेंसिल स्थितियां।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "प्रति फेस स्टेंसिल स्थितियाँ।"
 type: docs
 weight: 175
 url: /hi/java/com.aspose.threed/stencilstate/
@@ -13,7 +13,7 @@ java.lang.Object
 public class StencilState
 ```
 
-प्रति फेस स्टेंसिल स्थितियां।
+प्रति फेस स्टेंसिल स्थितियाँ।
 ## विधियाँ
 
 | विधि | विवरण |

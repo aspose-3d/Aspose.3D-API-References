@@ -1,7 +1,7 @@
 ---
 title: "RotationOrder"
-second_title: "Aspose.3D for Java API Reference"
-description: "क्रम नियंत्रित करता है कि ट्रांसफ़ॉर्मेशन मैट्रिक्स में कौन-से rx, ry, rz लागू होते हैं।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "क्रम नियंत्रित करता है कि परिवर्तन मैट्रिक्स में कौन-से rx ry rz लागू होते हैं।"
 type: docs
 weight: 300
 url: /hi/java/com.aspose.threed/rotationorder/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum RotationOrder extends Enum<RotationOrder>
 ```
 
-क्रम नियंत्रित करता है कि ट्रांसफ़ॉर्मेशन मैट्रिक्स में कौन-से rx, ry, rz लागू होते हैं।
+क्रम नियंत्रित करता है कि परिवर्तन मैट्रिक्स में कौन-से rx ry rz लागू होते हैं।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |

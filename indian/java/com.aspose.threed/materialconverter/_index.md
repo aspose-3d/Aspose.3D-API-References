@@ -1,7 +1,7 @@
 ---
 title: "MaterialConverter"
-second_title: "Aspose.3D for Java API Reference"
-description: "जियोमेट्री के मूल सामग्री को GLTF के PBR सामग्री में बदलने के लिए कस्टम कन्वर्टर।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "जियोमेट्री के मूल सामग्री को GLTF के PBR सामग्री में बदलने के लिए कस्टम कनवर्टर।"
 type: docs
 weight: 260
 url: /hi/java/com.aspose.threed/materialconverter/
@@ -27,7 +27,7 @@ public abstract Material call(Material mat)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| mat | [Material](../../com.aspose.threed/material) | पुरानी सामग्री का उदाहरण |
+| mat | [Material](../../com.aspose.threed/material) | पुरानी सामग्री इंस्टेंस |
 
 **Returns:**
 [Material](../../com.aspose.threed/material) - New material instance

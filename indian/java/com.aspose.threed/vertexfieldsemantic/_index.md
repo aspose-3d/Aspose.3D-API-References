@@ -1,7 +1,7 @@
 ---
 title: "VertexFieldSemantic"
-second_title: "Aspose.3D for Java API Reference"
-description: "वर्टेक्स फ़ील्ड का सेमेंटिक"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "वर्टेक्स फ़ील्ड का अर्थ"
 type: docs
 weight: 309
 url: /hi/java/com.aspose.threed/vertexfieldsemantic/
@@ -13,24 +13,24 @@ java.lang.Object, java.lang.Enum
 public enum VertexFieldSemantic extends Enum<VertexFieldSemantic>
 ```
 
-वर्टेक्स फ़ील्ड का सेमेंटिक
+वर्टेक्स फ़ील्ड का अर्थ
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
 | [BINORMAL](#BINORMAL) | बाइनॉर्मल वेक्टर |
 | [EDGE_CREASE](#EDGE-CREASE) | एज क्रीज़ |
-| [MORPH_NORMAL](#MORPH-NORMAL) | मॉर्फ टार्गेट के लिए सामान्य डेटा |
-| [MORPH_POSITION](#MORPH-POSITION) | मॉर्फ टार्गेट के लिए स्थिति डेटा |
+| [MORPH_NORMAL](#MORPH-NORMAL) | मॉर्फ़ लक्ष्य के लिए सामान्य डेटा |
+| [MORPH_POSITION](#MORPH-POSITION) | मॉर्फ़ लक्ष्य के लिए स्थिति डेटा |
 | [NORMAL](#NORMAL) | सामान्य वेक्टर |
 | [POSITION](#POSITION) | स्थिति डेटा |
-| [SPECULAR](#SPECULAR) | स्पेक्युलर रंग |
-| [TANGENT](#TANGENT) | स्पर्श वेक्टर |
+| [SPECULAR](#SPECULAR) | स्पेक्यूलर रंग |
+| [TANGENT](#TANGENT) | स्पर्शी वेक्टर |
 | [USER_DATA](#USER-DATA) | उपयोगकर्ता डेटा, आमतौर पर एप्लिकेशन-विशिष्ट उद्देश्य के लिए |
 | [UV](#UV) | टेक्सचर यूवी निर्देशांक |
 | [VERTEX_COLOR](#VERTEX-COLOR) | वर्टेक्स रंग |
-| [VERTEX_CREASE](#VERTEX-CREASE) | वर्टेक्स सिलवट |
-| [VISIBILITY](#VISIBILITY) | घटकों के लिए दृश्यता |
+| [VERTEX_CREASE](#VERTEX-CREASE) | वर्टेक्स क्रिज़ |
+| [VISIBILITY](#VISIBILITY) | घटक के लिए दृश्यता |
 | [WEIGHT](#WEIGHT) | ब्लेंड वज़न |
 ## विधियाँ
 
@@ -75,7 +75,7 @@ public static final VertexFieldSemantic MORPH_NORMAL
 ```
 
 
-मॉर्फ टार्गेट के लिए सामान्य डेटा
+मॉर्फ़ लक्ष्य के लिए सामान्य डेटा
 
 ### MORPH_POSITION {#MORPH-POSITION}
 ```
@@ -83,7 +83,7 @@ public static final VertexFieldSemantic MORPH_POSITION
 ```
 
 
-मॉर्फ टार्गेट के लिए स्थिति डेटा
+मॉर्फ़ लक्ष्य के लिए स्थिति डेटा
 
 ### NORMAL {#NORMAL}
 ```
@@ -107,7 +107,7 @@ public static final VertexFieldSemantic SPECULAR
 ```
 
 
-स्पेक्युलर रंग
+स्पेक्यूलर रंग
 
 ### TANGENT {#TANGENT}
 ```
@@ -115,7 +115,7 @@ public static final VertexFieldSemantic TANGENT
 ```
 
 
-स्पर्श वेक्टर
+स्पर्शी वेक्टर
 
 ### USER_DATA {#USER-DATA}
 ```
@@ -147,7 +147,7 @@ public static final VertexFieldSemantic VERTEX_CREASE
 ```
 
 
-वर्टेक्स सिलवट
+वर्टेक्स क्रिज़
 
 ### VISIBILITY {#VISIBILITY}
 ```
@@ -155,7 +155,7 @@ public static final VertexFieldSemantic VISIBILITY
 ```
 
 
-घटकों के लिए दृश्यता
+घटक के लिए दृश्यता
 
 ### WEIGHT {#WEIGHT}
 ```

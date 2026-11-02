@@ -1,6 +1,6 @@
 ---
 title: "PolygonMode"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "बहुभुज रास्टराइज़ेशन मोड"
 type: docs
 weight: 292
@@ -19,8 +19,8 @@ public enum PolygonMode extends Enum<PolygonMode>
 | फ़ील्ड | विवरण |
 | --- | --- |
 | [FILL](#FILL) | बहुभुज का अंदरूनी भाग भरा हुआ है। |
-| [LINE](#LINE) | बहुभुज की सीमा किनारे रेखा खंडों के रूप में खींचे जाते हैं। |
-| [POINT](#POINT) | बहुभुज नियंत्रण बिंदु बिंदुओं के रूप में खींचे जाते हैं। |
+| [LINE](#LINE) | बहुभुज की सीमा किनारे रेखा खंडों के रूप में चित्रित किए जाते हैं। |
+| [POINT](#POINT) | बहुभुज नियंत्रण बिंदु बिंदुओं के रूप में चित्रित होते हैं। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -56,7 +56,7 @@ public static final PolygonMode LINE
 ```
 
 
-बहुभुज की सीमा किनारे रेखा खंडों के रूप में खींचे जाते हैं।
+बहुभुज की सीमा किनारे रेखा खंडों के रूप में चित्रित किए जाते हैं।
 
 ### POINT {#POINT}
 ```
@@ -64,7 +64,7 @@ public static final PolygonMode POINT
 ```
 
 
-बहुभुज नियंत्रण बिंदु बिंदुओं के रूप में खींचे जाते हैं।
+बहुभुज नियंत्रण बिंदु बिंदुओं के रूप में चित्रित होते हैं।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

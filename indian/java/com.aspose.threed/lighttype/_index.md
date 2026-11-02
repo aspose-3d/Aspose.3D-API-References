@@ -1,6 +1,6 @@
 ---
 title: "LightType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "लाइट प्रकार।"
 type: docs
 weight: 284
@@ -18,9 +18,9 @@ public enum LightType extends Enum<LightType>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [AREA](#AREA) | एरिया लाइट। |
-| [DIRECTIONAL](#DIRECTIONAL) | डायरेक्शनल लाइट। |
-| [POINT](#POINT) | पॉइंट लाइट। |
+| [AREA](#AREA) | क्षेत्रीय प्रकाश। |
+| [DIRECTIONAL](#DIRECTIONAL) | दिशात्मक प्रकाश। |
+| [POINT](#POINT) | बिंदु प्रकाश। |
 | [SPOT](#SPOT) | स्पॉट लाइट। |
 | [VOLUME](#VOLUME) | वॉल्यूम लाइट। |
 ## विधियाँ
@@ -50,7 +50,7 @@ public static final LightType AREA
 ```
 
 
-एरिया लाइट।
+क्षेत्रीय प्रकाश।
 
 ### DIRECTIONAL {#DIRECTIONAL}
 ```
@@ -58,7 +58,7 @@ public static final LightType DIRECTIONAL
 ```
 
 
-डायरेक्शनल लाइट।
+दिशात्मक प्रकाश।
 
 ### POINT {#POINT}
 ```
@@ -66,7 +66,7 @@ public static final LightType POINT
 ```
 
 
-पॉइंट लाइट।
+बिंदु प्रकाश।
 
 ### SPOT {#SPOT}
 ```

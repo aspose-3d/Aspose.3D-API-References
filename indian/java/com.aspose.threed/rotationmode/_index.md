@@ -1,7 +1,7 @@
 ---
 title: "RotationMode"
-second_title: "Aspose.3D for Java API Reference"
-description: "फ़्रस्टम का घूर्णन मोड"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "फ़्रस्टम का घूर्णन मोड।"
 type: docs
 weight: 299
 url: /hi/java/com.aspose.threed/rotationmode/
@@ -18,8 +18,8 @@ public enum RotationMode extends Enum<RotationMode>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [FIXED_DIRECTION](#FIXED-DIRECTION) | दिशा स्थिर है, लुक एट दिशा द्वारा गणना किया जाता है |
-| [FIXED_TARGET](#FIXED-TARGET) | लक्ष्य स्थिर है, दिशा लुक एट लक्ष्य द्वारा गणना की जाती है |
+| [FIXED_DIRECTION](#FIXED-DIRECTION) | दिशा स्थिर है, लुक एट दिशा द्वारा गणना किया जाता है। |
+| [FIXED_TARGET](#FIXED-TARGET) | लक्ष्य स्थिर है, दिशा लुक एट लक्ष्य द्वारा गणना की जाती है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public static final RotationMode FIXED_DIRECTION
 ```
 
 
-दिशा स्थिर है, लुक एट दिशा द्वारा गणना किया जाता है
+दिशा स्थिर है, लुक एट दिशा द्वारा गणना किया जाता है।
 
 ### FIXED_TARGET {#FIXED-TARGET}
 ```
@@ -55,7 +55,7 @@ public static final RotationMode FIXED_TARGET
 ```
 
 
-लक्ष्य स्थिर है, दिशा लुक एट लक्ष्य द्वारा गणना की जाती है
+लक्ष्य स्थिर है, दिशा लुक एट लक्ष्य द्वारा गणना की जाती है।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

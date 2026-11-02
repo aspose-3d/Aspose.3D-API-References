@@ -1,6 +1,6 @@
 ---
 title: "ITextureCubemap"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "क्यूब मैप टेक्सचर"
 type: docs
 weight: 255
@@ -21,9 +21,9 @@ public interface ITextureCubemap extends ITextureUnit
 | [load(CubeFace face, TextureData data)](#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | निर्दिष्ट फेस में डेटा लोड करें |
 | [load(CubeFaceData<TextureData> data)](#load-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | निर्दिष्ट [TextureData](../../com.aspose.threed/texturedata) से टेक्सचर सामग्री लोड करें |
 | [loadFromFiles(CubeFaceData<String> fileNames)](#loadFromFiles-com.aspose.threed.CubeFaceData-java.lang.String--) | निर्दिष्ट फ़ाइलों से टेक्सचर सामग्री लोड करें |
-| [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | निर्दिष्ट साइड को मेमोरी में सहेजें |
+| [save(CubeFace side, TextureData bitmap)](#save-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-) | निर्दिष्ट पक्ष को मेमोरी में सहेजें |
 | [save(CubeFaceData<TextureData> bitmap)](#save-com.aspose.threed.CubeFaceData-com.aspose.threed.TextureData--) | टेक्सचर सामग्री को मेमोरी में सहेजें। |
-| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | क्यूब के साइड्स की टेक्सचर सामग्री को बाहरी फ़ाइलों में सहेजें। |
+| [save(CubeFaceData<String> path, String format)](#save-com.aspose.threed.CubeFaceData-java.lang.String--java.lang.String-) | क्यूब के पक्षों की टेक्सचर सामग्री को बाहरी फ़ाइलों में सहेजें। |
 | [toBitmap(CubeFace side)](#toBitmap-com.aspose.threed.CubeFace-) | टेक्सचर यूनिट को [TextureData](../../com.aspose.threed/texturedata) इंस्टेंस में बदलें |
 ### load(CubeFace face, TextureData data) {#load-com.aspose.threed.CubeFace-com.aspose.threed.TextureData-}
 ```
@@ -71,7 +71,7 @@ public abstract void save(CubeFace side, TextureData bitmap)
 ```
 
 
-निर्दिष्ट साइड को मेमोरी में सहेजें
+निर्दिष्ट पक्ष को मेमोरी में सहेजें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -98,7 +98,7 @@ public abstract void save(CubeFaceData<String> path, String format)
 ```
 
 
-क्यूब के साइड्स की टेक्सचर सामग्री को बाहरी फ़ाइलों में सहेजें।
+क्यूब के पक्षों की टेक्सचर सामग्री को बाहरी फ़ाइलों में सहेजें।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

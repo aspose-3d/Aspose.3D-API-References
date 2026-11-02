@@ -1,7 +1,7 @@
 ---
 title: "ColladaTransformStyle"
-second_title: "Aspose.3D for Java API Reference"
-description: "नोड का ट्रांसफ़ॉर्मेशन शैली"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "नोड की ट्रांसफ़ॉर्मेशन शैली"
 type: docs
 weight: 270
 url: /hi/java/com.aspose.threed/colladatransformstyle/
@@ -18,7 +18,7 @@ public enum ColladaTransformStyle extends Enum<ColladaTransformStyle>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [COMPONENTS](#COMPONENTS) | नोड की ट्रांसफ़ॉर्मेशन को rotate/scale/translate के रूप में निर्यात करें |
+| [COMPONENTS](#COMPONENTS) | नोड की ट्रांसफ़ॉर्मेशन को रोटेट/स्केल/ट्रांसलेट के रूप में निर्यात करें |
 | [MATRIX](#MATRIX) | नोड की ट्रांसफ़ॉर्मेशन को मैट्रिक्स के रूप में निर्यात करें |
 ## विधियाँ
 
@@ -47,7 +47,7 @@ public static final ColladaTransformStyle COMPONENTS
 ```
 
 
-नोड की ट्रांसफ़ॉर्मेशन को rotate/scale/translate के रूप में निर्यात करें
+नोड की ट्रांसफ़ॉर्मेशन को रोटेट/स्केल/ट्रांसलेट के रूप में निर्यात करें
 
 ### MATRIX {#MATRIX}
 ```

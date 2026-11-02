@@ -1,7 +1,7 @@
 ---
 title: "RelativeRectangle"
-second_title: "Aspose.3D for Java API Reference"
-description: "Relative rectangle  सापेक्ष घटक को निरपेक्ष मान में बदलने का सूत्र है  Scale  Reference Width  offset  इसलिए यदि हम इसे निरपेक्ष मान के रूप में प्रस्तुत करना चाहते हैं तो सभी scale फ़ील्ड को शून्य रखें और offset फ़ील्ड का उपयोग करें।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "रिलेटिव आयत  रिलेटिव घटक से एब्सोल्यूट मान के बीच का सूत्र है  Scale  Reference Width  offset  इसलिए यदि हम इसे एब्सोल्यूट मान के रूप में दर्शाना चाहते हैं तो सभी स्केल फ़ील्ड को शून्य रखें और इसके बजाय ऑफ़सेट फ़ील्ड का उपयोग करें।"
 type: docs
 weight: 147
 url: /hi/java/com.aspose.threed/relativerectangle/
@@ -16,10 +16,10 @@ com.aspose.threed.Struct, java.io.Serializable
 public final class RelativeRectangle implements Struct<RelativeRectangle>, Serializable
 ```
 
-रिलेटिव रेक्टैंगल। रिलेटिव घटक से एब्सोल्यूट वैल्यू के बीच का सूत्र है: Scale \* (Reference Width) + offset। इसलिए यदि हम इसे एब्सोल्यूट वैल्यू के रूप में दर्शाना चाहते हैं, तो सभी स्केल फ़ील्ड को शून्य रखें, और इसके बजाय ऑफ़सेट फ़ील्ड का उपयोग करें।
-## कंस्ट्रक्टर
+रिलेटिव आयत फ़ॉर्मूला रिलेटिव कंपोनेंट से एब्सोल्यूट वैल्यू के बीच है: Scale \* (Reference Width) + offset। इसलिए यदि हम इसे एब्सोल्यूट वैल्यू के रूप में दर्शाना चाहते हैं, तो सभी स्केल फ़ील्ड को शून्य रखें, और इसके बजाय ऑफ़सेट फ़ील्ड का उपयोग करें।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [RelativeRectangle(int left, int top, int width, int height)](#RelativeRectangle-int-int-int-int-) | एक [RelativeRectangle](../../com.aspose.threed/relativerectangle) बनाएं |
 | [RelativeRectangle()](#RelativeRectangle--) |  |
@@ -30,29 +30,29 @@ public final class RelativeRectangle implements Struct<RelativeRectangle>, Seria
 | [clone()](#clone--) |  |
 | [copyFrom(RelativeRectangle src)](#copyFrom-com.aspose.threed.RelativeRectangle-) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | सभी offset फ़ील्ड को शून्य और दिए गए पैरामीटर से scale फ़ील्ड के साथ एक [RelativeRectangle](../../com.aspose.threed/relativerectangle) बनाएं। |
+| [fromScale(float scaleX, float scaleY, float scaleWidth, float scaleHeight)](#fromScale-float-float-float-float-) | सभी ऑफ़सेट फ़ील्ड को शून्य और दिए गए पैरामीटरों से स्केल फ़ील्ड के साथ एक [RelativeRectangle](../../com.aspose.threed/relativerectangle) बनाएं। |
 | [getClass()](#getClass--) |  |
-| [getOffsetHeight()](#getOffsetHeight--) | ऊँचाई के लिए offset प्राप्त करता है |
-| [getOffsetWidth()](#getOffsetWidth--) | चौड़ाई के लिए offset प्राप्त करता है |
-| [getOffsetX()](#getOffsetX--) | निर्देशांक X के लिए offset प्राप्त करता है |
-| [getOffsetY()](#getOffsetY--) | निर्देशांक Y के लिए offset प्राप्त करता है |
-| [getScaleHeight()](#getScaleHeight--) | सापेक्ष ऊँचाई |
-| [getScaleWidth()](#getScaleWidth--) | सापेक्ष चौड़ाई |
-| [getScaleX()](#getScaleX--) | सापेक्ष निर्देशांक X |
-| [getScaleY()](#getScaleY--) | सापेक्ष निर्देशांक Y |
+| [getOffsetHeight()](#getOffsetHeight--) | ऊँचाई के लिए ऑफ़सेट प्राप्त करता है |
+| [getOffsetWidth()](#getOffsetWidth--) | चौड़ाई के लिए ऑफ़सेट प्राप्त करता है |
+| [getOffsetX()](#getOffsetX--) | निर्देशांक X के लिए ऑफ़सेट प्राप्त करता है |
+| [getOffsetY()](#getOffsetY--) | निर्देशांक Y के लिए ऑफ़सेट प्राप्त करता है |
+| [getScaleHeight()](#getScaleHeight--) | रिलेटिव ऊँचाई |
+| [getScaleWidth()](#getScaleWidth--) | रिलेटिव चौड़ाई |
+| [getScaleX()](#getScaleX--) | रिलेटिव निर्देशांक X |
+| [getScaleY()](#getScaleY--) | रिलेटिव निर्देशांक Y |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setOffsetHeight(int value)](#setOffsetHeight-int-) | ऊँचाई के लिए offset सेट करता है |
-| [setOffsetWidth(int value)](#setOffsetWidth-int-) | चौड़ाई के लिए offset सेट करता है |
-| [setOffsetX(int value)](#setOffsetX-int-) | निर्देशांक X के लिए offset सेट करता है |
-| [setOffsetY(int value)](#setOffsetY-int-) | निर्देशांक Y के लिए offset सेट करता है |
-| [setScaleHeight(float value)](#setScaleHeight-float-) | सापेक्ष ऊँचाई |
-| [setScaleWidth(float value)](#setScaleWidth-float-) | सापेक्ष चौड़ाई |
-| [setScaleX(float value)](#setScaleX-float-) | सापेक्ष निर्देशांक X |
-| [setScaleY(float value)](#setScaleY-float-) | सापेक्ष निर्देशांक Y |
-| [toAbsolute(int left, int top, int width, int height)](#toAbsolute-int-int-int-int-) | सापेक्ष आयत को निरपेक्ष आयत में बदलें |
-| [toString()](#toString--) | इस इंस्टेंस के मान को java.lang.String में बदलता है। |
+| [setOffsetHeight(int value)](#setOffsetHeight-int-) | ऊँचाई के लिए ऑफ़सेट सेट करता है |
+| [setOffsetWidth(int value)](#setOffsetWidth-int-) | चौड़ाई के लिए ऑफ़सेट सेट करता है |
+| [setOffsetX(int value)](#setOffsetX-int-) | निर्देशांक X के लिए ऑफ़सेट सेट करता है |
+| [setOffsetY(int value)](#setOffsetY-int-) | निर्देशांक Y के लिए ऑफ़सेट सेट करता है |
+| [setScaleHeight(float value)](#setScaleHeight-float-) | रिलेटिव ऊँचाई |
+| [setScaleWidth(float value)](#setScaleWidth-float-) | रिलेटिव चौड़ाई |
+| [setScaleX(float value)](#setScaleX-float-) | रिलेटिव निर्देशांक X |
+| [setScaleY(float value)](#setScaleY-float-) | रिलेटिव निर्देशांक Y |
+| [toAbsolute(int left, int top, int width, int height)](#toAbsolute-int-int-int-int-) | रिलेटिव आयत को एब्सोल्यूट आयत में परिवर्तित करें |
+| [toString()](#toString--) | इस इंस्टेंस के मान को java.lang.String में परिवर्तित करता है। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -122,7 +122,7 @@ public static RelativeRectangle fromScale(float scaleX, float scaleY, float scal
 ```
 
 
-सभी offset फ़ील्ड को शून्य और दिए गए पैरामीटर से scale फ़ील्ड के साथ एक [RelativeRectangle](../../com.aspose.threed/relativerectangle) बनाएं।
+सभी ऑफ़सेट फ़ील्ड को शून्य और दिए गए पैरामीटरों से स्केल फ़ील्ड के साथ एक [RelativeRectangle](../../com.aspose.threed/relativerectangle) बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -150,7 +150,7 @@ public int getOffsetHeight()
 ```
 
 
-ऊँचाई के लिए offset प्राप्त करता है
+ऊँचाई के लिए ऑफ़सेट प्राप्त करता है
 
 **Returns:**
 int - ऊँचाई के लिए ऑफ़सेट
@@ -160,7 +160,7 @@ public int getOffsetWidth()
 ```
 
 
-चौड़ाई के लिए offset प्राप्त करता है
+चौड़ाई के लिए ऑफ़सेट प्राप्त करता है
 
 **Returns:**
 int - चौड़ाई के लिए ऑफ़सेट
@@ -170,27 +170,27 @@ public int getOffsetX()
 ```
 
 
-निर्देशांक X के लिए offset प्राप्त करता है
+निर्देशांक X के लिए ऑफ़सेट प्राप्त करता है
 
 **Returns:**
-int - X निर्देशांक के लिए ऑफ़सेट
+int - निर्देशांक X के लिए ऑफ़सेट
 ### getOffsetY() {#getOffsetY--}
 ```
 public int getOffsetY()
 ```
 
 
-निर्देशांक Y के लिए offset प्राप्त करता है
+निर्देशांक Y के लिए ऑफ़सेट प्राप्त करता है
 
 **Returns:**
-int - Y निर्देशांक के लिए ऑफ़सेट
+int - निर्देशांक Y के लिए ऑफ़सेट
 ### getScaleHeight() {#getScaleHeight--}
 ```
 public float getScaleHeight()
 ```
 
 
-सापेक्ष ऊँचाई
+रिलेटिव ऊँचाई
 
 **Returns:**
 float - सापेक्ष ऊँचाई
@@ -200,7 +200,7 @@ public float getScaleWidth()
 ```
 
 
-सापेक्ष चौड़ाई
+रिलेटिव चौड़ाई
 
 **Returns:**
 float - सापेक्ष चौड़ाई
@@ -210,20 +210,20 @@ public float getScaleX()
 ```
 
 
-सापेक्ष निर्देशांक X
+रिलेटिव निर्देशांक X
 
 **Returns:**
-float - सापेक्ष X निर्देशांक
+float - सापेक्ष निर्देशांक X
 ### getScaleY() {#getScaleY--}
 ```
 public float getScaleY()
 ```
 
 
-सापेक्ष निर्देशांक Y
+रिलेटिव निर्देशांक Y
 
 **Returns:**
-float - सापेक्ष Y निर्देशांक
+float - सापेक्ष निर्देशांक Y
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -256,7 +256,7 @@ public void setOffsetHeight(int value)
 ```
 
 
-ऊँचाई के लिए offset सेट करता है
+ऊँचाई के लिए ऑफ़सेट सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -269,7 +269,7 @@ public void setOffsetWidth(int value)
 ```
 
 
-चौड़ाई के लिए offset सेट करता है
+चौड़ाई के लिए ऑफ़सेट सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -282,7 +282,7 @@ public void setOffsetX(int value)
 ```
 
 
-निर्देशांक X के लिए offset सेट करता है
+निर्देशांक X के लिए ऑफ़सेट सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -295,7 +295,7 @@ public void setOffsetY(int value)
 ```
 
 
-निर्देशांक Y के लिए offset सेट करता है
+निर्देशांक Y के लिए ऑफ़सेट सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -308,7 +308,7 @@ public void setScaleHeight(float value)
 ```
 
 
-सापेक्ष ऊँचाई
+रिलेटिव ऊँचाई
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -321,7 +321,7 @@ public void setScaleWidth(float value)
 ```
 
 
-सापेक्ष चौड़ाई
+रिलेटिव चौड़ाई
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -334,7 +334,7 @@ public void setScaleX(float value)
 ```
 
 
-सापेक्ष निर्देशांक X
+रिलेटिव निर्देशांक X
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -347,7 +347,7 @@ public void setScaleY(float value)
 ```
 
 
-सापेक्ष निर्देशांक Y
+रिलेटिव निर्देशांक Y
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -360,13 +360,13 @@ public Rect toAbsolute(int left, int top, int width, int height)
 ```
 
 
-सापेक्ष आयत को निरपेक्ष आयत में बदलें
+रिलेटिव आयत को एब्सोल्यूट आयत में परिवर्तित करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| बायाँ | int | आयत का बायाँ |
-| ऊपर | int | आयत का शीर्ष |
+| बायाँ | int | आयत का बायाँ भाग |
+| ऊपर | int | आयत का ऊपर वाला भाग |
 | चौड़ाई | int | आयत की चौड़ाई |
 | ऊँचाई | int | आयत की ऊँचाई |
 
@@ -378,7 +378,7 @@ public String toString()
 ```
 
 
-इस इंस्टेंस के मान को java.lang.String में बदलता है।
+इस इंस्टेंस के मान को java.lang.String में परिवर्तित करता है।
 
 **Returns:**
 java.lang.String

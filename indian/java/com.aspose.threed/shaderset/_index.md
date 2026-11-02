@@ -1,6 +1,6 @@
 ---
 title: "ShaderSet"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "प्रत्येक प्रकार की सामग्री के लिए शेडर प्रोग्राम।"
 type: docs
 weight: 166
@@ -17,9 +17,9 @@ public class ShaderSet implements Closeable
 ```
 
 प्रत्येक प्रकार की सामग्री के लिए शेडर प्रोग्राम।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [ShaderSet()](#ShaderSet--) | [ShaderSet](../../com.aspose.threed/shaderset) का इंस्टेंस बनाएं |
 ## विधियाँ
@@ -30,16 +30,16 @@ public class ShaderSet implements Closeable
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFallback()](#getFallback--) | जब आवश्यक शेडर उपलब्ध नहीं हो तो फॉलबैक शेडर प्राप्त करता है |
-| [getLambert()](#getLambert--) | लैम्बर्ट सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को प्राप्त करता है |
-| [getPbr()](#getPbr--) | PBR सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को प्राप्त करता है |
-| [getPhong()](#getPhong--) | फॉन्ग सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को प्राप्त करता है |
+| [getLambert()](#getLambert--) | लैम्बर्ट सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को प्राप्त करता है |
+| [getPbr()](#getPbr--) | PBR सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को प्राप्त करता है |
+| [getPhong()](#getPhong--) | फोंग सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को प्राप्त करता है |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setFallback(ShaderProgram value)](#setFallback-com.aspose.threed.ShaderProgram-) | जब आवश्यक शेडर उपलब्ध नहीं हो तो फॉलबैक शेडर सेट करता है |
-| [setLambert(ShaderProgram value)](#setLambert-com.aspose.threed.ShaderProgram-) | लैम्बर्ट सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को सेट करता है |
-| [setPbr(ShaderProgram value)](#setPbr-com.aspose.threed.ShaderProgram-) | PBR सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को सेट करता है |
-| [setPhong(ShaderProgram value)](#setPhong-com.aspose.threed.ShaderProgram-) | फॉन्ग सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को सेट करता है |
+| [setLambert(ShaderProgram value)](#setLambert-com.aspose.threed.ShaderProgram-) | लैम्बर्ट सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को सेट करता है |
+| [setPbr(ShaderProgram value)](#setPbr-com.aspose.threed.ShaderProgram-) | PBR सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को सेट करता है |
+| [setPhong(ShaderProgram value)](#setPhong-com.aspose.threed.ShaderProgram-) | फोंग सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को सेट करता है |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -101,7 +101,7 @@ public ShaderProgram getLambert()
 ```
 
 
-लैम्बर्ट सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को प्राप्त करता है
+लैम्बर्ट सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को प्राप्त करता है
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the lambert material
@@ -111,7 +111,7 @@ public ShaderProgram getPbr()
 ```
 
 
-PBR सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को प्राप्त करता है
+PBR सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को प्राप्त करता है
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the PBR material
@@ -121,7 +121,7 @@ public ShaderProgram getPhong()
 ```
 
 
-फॉन्ग सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को प्राप्त करता है
+फोंग सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को प्राप्त करता है
 
 **Returns:**
 [ShaderProgram](../../com.aspose.threed/shaderprogram) - the shader that used to render the phong material
@@ -170,7 +170,7 @@ public void setLambert(ShaderProgram value)
 ```
 
 
-लैम्बर्ट सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को सेट करता है
+लैम्बर्ट सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -183,7 +183,7 @@ public void setPbr(ShaderProgram value)
 ```
 
 
-PBR सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को सेट करता है
+PBR सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -196,7 +196,7 @@ public void setPhong(ShaderProgram value)
 ```
 
 
-फॉन्ग सामग्री को रेंडर करने के लिए उपयोग किए जाने वाले शेडर को सेट करता है
+फोंग सामग्री को रेंडर करने के लिए उपयोग किए गए शेडर को सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

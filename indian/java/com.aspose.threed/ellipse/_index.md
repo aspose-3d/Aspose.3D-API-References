@@ -1,7 +1,7 @@
 ---
-title: "दीर्घवृत्त"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक  बिंदुओं का सेट परिभाषित करता है जो दीर्घवृत्त का आकार बनाते हैं।"
+title: "अण्डवक्र"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक  बिंदुओं का सेट परिभाषित करता है जो अण्डवक्र का आकार बनाते हैं।"
 type: docs
 weight: 49
 url: /hi/java/com.aspose.threed/ellipse/
@@ -13,30 +13,30 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Ellipse extends Curve
 ```
 
-एक [Ellipse](../../com.aspose.threed/ellipse) बिंदुओं का सेट परिभाषित करता है जो दीर्घवृत्त का आकार बनाते हैं।
-## कंस्ट्रक्टर
+एक [Ellipse](../../com.aspose.threed/ellipse) बिंदुओं का सेट परिभाषित करता है जो अण्डवक्र का आकार बनाते हैं।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Ellipse()](#Ellipse--) | निर्माता [Ellipse](../../com.aspose.threed/ellipse) |
-| [Ellipse(double semiAxis1, double semiAxis2)](#Ellipse-double-double-) | निर्माता [Ellipse](../../com.aspose.threed/ellipse) |
+| [Ellipse()](#Ellipse--) | [Ellipse](../../com.aspose.threed/ellipse) का कंस्ट्रक्टर |
+| [Ellipse(double semiAxis1, double semiAxis2)](#Ellipse-double-double-) | [Ellipse](../../com.aspose.threed/ellipse) का कंस्ट्रक्टर |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getColor()](#getColor--) | रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
 | [getSemiAxis1()](#getSemiAxis1--) | X-अक्ष पर त्रिज्या |
 | [getSemiAxis2()](#getSemiAxis2--) | Y-अक्ष पर त्रिज्या |
 | [hashCode()](#hashCode--) |  |
@@ -44,10 +44,10 @@ public class Ellipse extends Curve
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 | [setSemiAxis1(double value)](#setSemiAxis1-double-) | X-अक्ष पर त्रिज्या |
 | [setSemiAxis2(double value)](#setSemiAxis2-double-) | Y-अक्ष पर त्रिज्या |
@@ -61,7 +61,7 @@ public Ellipse()
 ```
 
 
-निर्माता [Ellipse](../../com.aspose.threed/ellipse)
+[Ellipse](../../com.aspose.threed/ellipse) का कंस्ट्रक्टर
 
 ### Ellipse(double semiAxis1, double semiAxis2) {#Ellipse-double-double-}
 ```
@@ -69,7 +69,7 @@ public Ellipse(double semiAxis1, double semiAxis2)
 ```
 
 
-निर्माता [Ellipse](../../com.aspose.threed/ellipse)
+[Ellipse](../../com.aspose.threed/ellipse) का कंस्ट्रक्टर
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -98,7 +98,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -113,7 +113,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -140,7 +140,7 @@ public Vector3 getColor()
 ```
 
 
-रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है
+रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the color of the line, default value is white(1, 1, 1)
@@ -150,7 +150,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -160,10 +160,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -180,7 +180,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -190,7 +190,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -225,7 +225,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -311,7 +311,7 @@ public void setColor(Vector3 value)
 ```
 
 
-रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है
+रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -324,7 +324,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -350,7 +350,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

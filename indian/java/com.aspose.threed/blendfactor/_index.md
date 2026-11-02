@@ -1,6 +1,6 @@
 ---
-title: "ब्लेंडफ़ैक्टर"
-second_title: "Aspose.3D for Java API Reference"
+title: "BlendFactor"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "ब्लेंड फैक्टर पिक्सेल अंकगणित को निर्दिष्ट करता है।"
 type: docs
 weight: 266
@@ -18,19 +18,19 @@ public enum BlendFactor extends Enum<BlendFactor>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [CONSTANT_ALPHA](#CONSTANT-ALPHA) | ब्लेंड फ़ैक्टर है vec4(c.a) जहाँ c निर्दिष्ट किया गया है [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
-| [CONSTANT_COLOR](#CONSTANT-COLOR) | ब्लेंड फ़ैक्टर है c जहाँ c निर्दिष्ट किया गया है [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
-| [DST_ALPHA](#DST-ALPHA) | ब्लेंड फ़ैक्टर है vec4(dst.a) |
-| [DST_COLOR](#DST-COLOR) | ब्लेंड फ़ैक्टर है dst.rgba |
-| [ONE](#ONE) | ब्लेंड फ़ैक्टर है vec4(1) |
-| [ONE_MINUS_CONSTANT_ALPHA](#ONE-MINUS-CONSTANT-ALPHA) | ब्लेंड फ़ैक्टर है vec4(1 - c.a) जहाँ c निर्दिष्ट किया गया है [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
-| [ONE_MINUS_CONSTANT_COLOR](#ONE-MINUS-CONSTANT-COLOR) | ब्लेंड फ़ैक्टर है vec4(1) - c जहाँ c निर्दिष्ट किया गया है [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) |
-| [ONE_MINUS_DST_ALPHA](#ONE-MINUS-DST-ALPHA) | ब्लेंड फ़ैक्टर है vec4(1 - dst.a) |
-| [ONE_MINUS_DST_COLOR](#ONE-MINUS-DST-COLOR) | ब्लेंड फ़ैक्टर है vec4(1) - dst.rgba |
-| [ONE_MINUS_SRC_ALPHA](#ONE-MINUS-SRC-ALPHA) | ब्लेंड फ़ैक्टर है vec4(1 - src.a) |
-| [ONE_MINUS_SRC_COLOR](#ONE-MINUS-SRC-COLOR) | ब्लेंड फ़ैक्टर है vec4(1) - src.rgba |
-| [SRC_ALPHA](#SRC-ALPHA) | ब्लेंड फ़ैक्टर है vec4(src.a) |
-| [SRC_ALPHA_SATURATE](#SRC-ALPHA-SATURATE) | ब्लेंड फ़ैक्टर है min(src.a, 1 - dst.a) |
+| [CONSTANT_ALPHA](#CONSTANT-ALPHA) | ब्लेंड फ़ैक्टर vec4(c.a) है जहाँ c को [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) में निर्दिष्ट किया गया है। |
+| [CONSTANT_COLOR](#CONSTANT-COLOR) | ब्लेंड फ़ैक्टर c है जहाँ c को [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) में निर्दिष्ट किया गया है। |
+| [DST_ALPHA](#DST-ALPHA) | ब्लेंड फ़ैक्टर vec4(dst.a) है |
+| [DST_COLOR](#DST-COLOR) | ब्लेंड फ़ैक्टर dst.rgba है |
+| [ONE](#ONE) | ब्लेंड फ़ैक्टर vec4(1) है |
+| [ONE_MINUS_CONSTANT_ALPHA](#ONE-MINUS-CONSTANT-ALPHA) | ब्लेंड फ़ैक्टर vec4(1 - c.a) है जहाँ c को [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) में निर्दिष्ट किया गया है। |
+| [ONE_MINUS_CONSTANT_COLOR](#ONE-MINUS-CONSTANT-COLOR) | ब्लेंड फ़ैक्टर vec4(1) - c है जहाँ c को [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) में निर्दिष्ट किया गया है। |
+| [ONE_MINUS_DST_ALPHA](#ONE-MINUS-DST-ALPHA) | ब्लेंड फ़ैक्टर vec4(1 - dst.a) है |
+| [ONE_MINUS_DST_COLOR](#ONE-MINUS-DST-COLOR) | ब्लेंड फ़ैक्टर vec4(1) - dst.rgba है |
+| [ONE_MINUS_SRC_ALPHA](#ONE-MINUS-SRC-ALPHA) | ब्लेंड फ़ैक्टर vec4(1 - src.a) है |
+| [ONE_MINUS_SRC_COLOR](#ONE-MINUS-SRC-COLOR) | ब्लेंड फ़ैक्टर vec4(1) - src.rgba है |
+| [SRC_ALPHA](#SRC-ALPHA) | ब्लेंड फ़ैक्टर vec4(src.a) है |
+| [SRC_ALPHA_SATURATE](#SRC-ALPHA-SATURATE) | ब्लेंड फ़ैक्टर min(src.a, 1 - dst.a) है |
 | [SRC_COLOR](#SRC-COLOR) | ब्लेंड फैक्टर src.rgba है |
 | [ZERO](#ZERO) | ब्लेंड फैक्टर vec4(0) है |
 ## विधियाँ
@@ -60,7 +60,7 @@ public static final BlendFactor CONSTANT_ALPHA
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(c.a) जहाँ c निर्दिष्ट किया गया है [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
+ब्लेंड फ़ैक्टर vec4(c.a) है जहाँ c को [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) में निर्दिष्ट किया गया है।
 
 ### CONSTANT_COLOR {#CONSTANT-COLOR}
 ```
@@ -68,7 +68,7 @@ public static final BlendFactor CONSTANT_COLOR
 ```
 
 
-ब्लेंड फ़ैक्टर है c जहाँ c निर्दिष्ट किया गया है [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
+ब्लेंड फ़ैक्टर c है जहाँ c को [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) में निर्दिष्ट किया गया है।
 
 ### DST_ALPHA {#DST-ALPHA}
 ```
@@ -76,7 +76,7 @@ public static final BlendFactor DST_ALPHA
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(dst.a)
+ब्लेंड फ़ैक्टर vec4(dst.a) है
 
 ### DST_COLOR {#DST-COLOR}
 ```
@@ -84,7 +84,7 @@ public static final BlendFactor DST_COLOR
 ```
 
 
-ब्लेंड फ़ैक्टर है dst.rgba
+ब्लेंड फ़ैक्टर dst.rgba है
 
 ### ONE {#ONE}
 ```
@@ -92,7 +92,7 @@ public static final BlendFactor ONE
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(1)
+ब्लेंड फ़ैक्टर vec4(1) है
 
 ### ONE_MINUS_CONSTANT_ALPHA {#ONE-MINUS-CONSTANT-ALPHA}
 ```
@@ -100,7 +100,7 @@ public static final BlendFactor ONE_MINUS_CONSTANT_ALPHA
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(1 - c.a) जहाँ c निर्दिष्ट किया गया है [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
+ब्लेंड फ़ैक्टर vec4(1 - c.a) है जहाँ c को [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) में निर्दिष्ट किया गया है।
 
 ### ONE_MINUS_CONSTANT_COLOR {#ONE-MINUS-CONSTANT-COLOR}
 ```
@@ -108,7 +108,7 @@ public static final BlendFactor ONE_MINUS_CONSTANT_COLOR
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(1) - c जहाँ c निर्दिष्ट किया गया है [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor)
+ब्लेंड फ़ैक्टर vec4(1) - c है जहाँ c को [RenderState.getBlendColor](../../com.aspose.threed/renderstate\#getBlendColor) में निर्दिष्ट किया गया है।
 
 ### ONE_MINUS_DST_ALPHA {#ONE-MINUS-DST-ALPHA}
 ```
@@ -116,7 +116,7 @@ public static final BlendFactor ONE_MINUS_DST_ALPHA
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(1 - dst.a)
+ब्लेंड फ़ैक्टर vec4(1 - dst.a) है
 
 ### ONE_MINUS_DST_COLOR {#ONE-MINUS-DST-COLOR}
 ```
@@ -124,7 +124,7 @@ public static final BlendFactor ONE_MINUS_DST_COLOR
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(1) - dst.rgba
+ब्लेंड फ़ैक्टर vec4(1) - dst.rgba है
 
 ### ONE_MINUS_SRC_ALPHA {#ONE-MINUS-SRC-ALPHA}
 ```
@@ -132,7 +132,7 @@ public static final BlendFactor ONE_MINUS_SRC_ALPHA
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(1 - src.a)
+ब्लेंड फ़ैक्टर vec4(1 - src.a) है
 
 ### ONE_MINUS_SRC_COLOR {#ONE-MINUS-SRC-COLOR}
 ```
@@ -140,7 +140,7 @@ public static final BlendFactor ONE_MINUS_SRC_COLOR
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(1) - src.rgba
+ब्लेंड फ़ैक्टर vec4(1) - src.rgba है
 
 ### SRC_ALPHA {#SRC-ALPHA}
 ```
@@ -148,7 +148,7 @@ public static final BlendFactor SRC_ALPHA
 ```
 
 
-ब्लेंड फ़ैक्टर है vec4(src.a)
+ब्लेंड फ़ैक्टर vec4(src.a) है
 
 ### SRC_ALPHA_SATURATE {#SRC-ALPHA-SATURATE}
 ```
@@ -156,7 +156,7 @@ public static final BlendFactor SRC_ALPHA_SATURATE
 ```
 
 
-ब्लेंड फ़ैक्टर है min(src.a, 1 - dst.a)
+ब्लेंड फ़ैक्टर min(src.a, 1 - dst.a) है
 
 ### SRC_COLOR {#SRC-COLOR}
 ```

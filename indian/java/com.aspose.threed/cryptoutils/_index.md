@@ -1,6 +1,6 @@
 ---
 title: "CryptoUtils"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: 
 type: docs
 weight: 35
@@ -12,9 +12,9 @@ java.lang.Object
 ```
 public class CryptoUtils
 ```
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [CryptoUtils()](#CryptoUtils--) |  |
 ## विधियाँ

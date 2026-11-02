@@ -1,7 +1,7 @@
 ---
 title: "IOUtils"
-second_title: "Aspose.3D for Java API Reference"
-description: "मैट्रिक्स/वेक्टर को बाइनरी राइटर में लिखने के लिए उपयोगिताएँ"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "मैट्रिक्स/वेक्टर को बाइनरी राइटर में लिखने के उपयोगिताएँ"
 type: docs
 weight: 77
 url: /hi/java/com.aspose.threed/ioutils/
@@ -13,10 +13,10 @@ java.lang.Object
 public class IOUtils
 ```
 
-मैट्रिक्स/वेक्टर को बाइनरी राइटर में लिखने के लिए उपयोगिताएँ
-## कंस्ट्रक्टर
+मैट्रिक्स/वेक्टर को बाइनरी राइटर में लिखने के उपयोगिताएँ
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [IOUtils()](#IOUtils--) |  |
 ## विधियाँ

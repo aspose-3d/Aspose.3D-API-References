@@ -1,7 +1,7 @@
 ---
 title: "IIndexBuffer"
-second_title: "Aspose.3D for Java API Reference"
-description: "इंडेक्स बफ़र रेंडरिंग पाइपलाइन में उपयोग की गई ज्यामिति का वर्णन करता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "इंडेक्स बफ़र रेंडरिंग पाइपलाइन में उपयोग की जाने वाली ज्यामिति का वर्णन करता है।"
 type: docs
 weight: 242
 url: /hi/java/com.aspose.threed/iindexbuffer/
@@ -13,14 +13,14 @@ url: /hi/java/com.aspose.threed/iindexbuffer/
 public interface IIndexBuffer extends IBuffer
 ```
 
-इंडेक्स बफ़र रेंडरिंग पाइपलाइन में उपयोग की गई ज्यामिति का वर्णन करता है।
+इंडेक्स बफ़र रेंडरिंग पाइपलाइन में उपयोग की जाने वाली ज्यामिति का वर्णन करता है।
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [getCount()](#getCount--) | इस बफ़र में सूचकांक की संख्या प्राप्त करता है। |
+| [getCount()](#getCount--) | इस बफ़र में इंडेक्स की संख्या प्राप्त करता है। |
 | [getIndexDataType()](#getIndexDataType--) | प्रत्येक तत्व का डेटा प्रकार प्राप्त करता है। |
-| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | से [TriMesh](../../com.aspose.threed/trimesh) इंडिस डेटा लोड करें |
+| [loadData(TriMesh mesh)](#loadData-com.aspose.threed.TriMesh-) | [TriMesh](../../com.aspose.threed/trimesh) से इंडिस डेटा लोड करें |
 | [loadData(int[] indices)](#loadData-int---) | इंडिस डेटा लोड करें |
 | [loadData(short[] indices)](#loadData-short---) | इंडिस डेटा लोड करें |
 ### getCount() {#getCount--}
@@ -29,10 +29,10 @@ public abstract int getCount()
 ```
 
 
-इस बफ़र में सूचकांक की संख्या प्राप्त करता है।
+इस बफ़र में इंडेक्स की संख्या प्राप्त करता है।
 
 **Returns:**
-int - इस बफ़र में सूचकांक की संख्या।
+int - इस बफ़र में इंडेक्स की संख्या।
 ### getIndexDataType() {#getIndexDataType--}
 ```
 public abstract IndexDataType getIndexDataType()
@@ -49,7 +49,7 @@ public abstract void loadData(TriMesh mesh)
 ```
 
 
-से [TriMesh](../../com.aspose.threed/trimesh) इंडिस डेटा लोड करें
+[TriMesh](../../com.aspose.threed/trimesh) से इंडिस डेटा लोड करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

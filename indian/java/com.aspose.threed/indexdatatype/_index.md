@@ -1,6 +1,6 @@
 ---
 title: "IndexDataType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "तत्वों का डेटा प्रकार"
 type: docs
 weight: 282
@@ -18,8 +18,8 @@ public enum IndexDataType extends Enum<IndexDataType>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [INT16](#INT16) | इंडेक्स बफ़र के तत्व 16 बिट इंट हैं |
-| [INT32](#INT32) | इंडेक्स बफ़र के तत्व 32 बिट इंट हैं |
+| [INT16](#INT16) | इंडेक्स बफ़र के तत्व 16-बिट इंट हैं |
+| [INT32](#INT32) | इंडेक्स बफ़र के तत्व 32-बिट इंट हैं |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public static final IndexDataType INT16
 ```
 
 
-इंडेक्स बफ़र के तत्व 16 बिट इंट हैं
+इंडेक्स बफ़र के तत्व 16-बिट इंट हैं
 
 ### INT32 {#INT32}
 ```
@@ -55,7 +55,7 @@ public static final IndexDataType INT32
 ```
 
 
-इंडेक्स बफ़र के तत्व 32 बिट इंट हैं
+इंडेक्स बफ़र के तत्व 32-बिट इंट हैं
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

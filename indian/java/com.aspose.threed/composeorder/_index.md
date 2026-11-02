@@ -1,6 +1,6 @@
 ---
 title: "ComposeOrder"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "ट्रांसफ़ॉर्म मैट्रिक्स को संयोजित करने का क्रम"
 type: docs
 weight: 272

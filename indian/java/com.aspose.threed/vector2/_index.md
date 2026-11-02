@@ -1,7 +1,7 @@
 ---
 title: "Vector2"
-second_title: "Aspose.3D for Java API Reference"
-description: "दो घटकों वाला एक वेक्टर।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "दो घटकों वाला वेक्टर।"
 type: docs
 weight: 201
 url: /hi/java/com.aspose.threed/vector2/
@@ -16,22 +16,22 @@ java.lang.Comparable, com.aspose.threed.Struct, java.io.Serializable
 public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Serializable
 ```
 
-दो घटकों वाला एक वेक्टर।
-## कंस्ट्रक्टर
+दो घटकों वाला वेक्टर।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Vector2(double s)](#Vector2-double-) | [Vector2](../../com.aspose.threed/vector2) स्ट्रक्चर का नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [Vector2(Vector3 s)](#Vector2-com.aspose.threed.Vector3-) | [Vector2](../../com.aspose.threed/vector2) स्ट्रक्चर का नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [Vector2(FVector2 vec)](#Vector2-com.aspose.threed.FVector2-) | [Vector2](../../com.aspose.threed/vector2) स्ट्रक्चर का नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [Vector2(double x, double y)](#Vector2-double-double-) | [Vector2](../../com.aspose.threed/vector2) स्ट्रक्चर का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Vector2(double s)](#Vector2-double-) | [Vector2](../../com.aspose.threed/vector2) स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Vector2(Vector3 s)](#Vector2-com.aspose.threed.Vector3-) | [Vector2](../../com.aspose.threed/vector2) स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Vector2(FVector2 vec)](#Vector2-com.aspose.threed.FVector2-) | [Vector2](../../com.aspose.threed/vector2) स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Vector2(double x, double y)](#Vector2-double-double-) | [Vector2](../../com.aspose.threed/vector2) स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है। |
 | [Vector2()](#Vector2--) |  |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [x](#x) | The x component. |
-| [y](#y) | The y component. |
+| [x](#x) | x घटक। |
+| [y](#y) | y घटक। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -41,9 +41,9 @@ public final class Vector2 implements Comparable<Vector2>, Struct<Vector2>, Seri
 | [compareTo(Vector2 other)](#compareTo-com.aspose.threed.Vector2-) | वर्तमान वेक्टर की तुलना किसी अन्य उदाहरण से करें। |
 | [copyFrom(Vector2 src)](#copyFrom-com.aspose.threed.Vector2-) |  |
 | [create(Vector2 v)](#create-com.aspose.threed.Vector2-) | Vector2 को FVector2 में कास्ट करने के लिए स्पष्ट रूपांतरण ऑपरेटर |
-| [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | दो वेक्टरों का क्रॉस प्रोडक्ट। |
+| [cross(Vector2 v)](#cross-com.aspose.threed.Vector2-) | दो वेक्टरों का क्रॉस प्रोडक्ट |
 | [div(Vector2 lhs, double rhs)](#div-com.aspose.threed.Vector2-double-) | Vector2 के लिए विभाजन ऑपरेटर |
-| [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है। |
+| [dot(Vector2 rhs)](#dot-com.aspose.threed.Vector2-) | दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है |
 | [equals(Vector2 rhs)](#equals-com.aspose.threed.Vector2-) | जाँचें कि दो vector2 बराबर हैं या नहीं |
 | [equals(Object obj)](#equals-java.lang.Object-) | जाँचें कि दो vector2 बराबर हैं या नहीं |
 | [getClass()](#getClass--) |  |
@@ -71,7 +71,7 @@ public Vector2(double s)
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) स्ट्रक्चर का नया इंस्टेंस इनिशियलाइज़ करता है।
+[Vector2](../../com.aspose.threed/vector2) स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -84,7 +84,7 @@ public Vector2(Vector3 s)
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) स्ट्रक्चर का नया इंस्टेंस इनिशियलाइज़ करता है।
+[Vector2](../../com.aspose.threed/vector2) स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -97,7 +97,7 @@ public Vector2(FVector2 vec)
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) स्ट्रक्चर का नया इंस्टेंस इनिशियलाइज़ करता है।
+[Vector2](../../com.aspose.threed/vector2) स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -110,7 +110,7 @@ public Vector2(double x, double y)
 ```
 
 
-[Vector2](../../com.aspose.threed/vector2) स्ट्रक्चर का नया इंस्टेंस इनिशियलाइज़ करता है।
+[Vector2](../../com.aspose.threed/vector2) स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -130,7 +130,7 @@ public double x
 ```
 
 
-The x component.
+x घटक।
 
 ### y {#y}
 ```
@@ -138,7 +138,7 @@ public double y
 ```
 
 
-The y component.
+y घटक।
 
 ### add(Vector2 lhs, Vector2 rhs) {#add-com.aspose.threed.Vector2-com.aspose.threed.Vector2-}
 ```
@@ -151,8 +151,8 @@ Vector2 के लिए जोड़ ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान। |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान। |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of addition.
@@ -215,7 +215,7 @@ public double cross(Vector2 v)
 ```
 
 
-दो वेक्टरों का क्रॉस प्रोडक्ट।
+दो वेक्टरों का क्रॉस प्रोडक्ट
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -235,8 +235,8 @@ Vector2 के लिए विभाजन ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान. |
-| rhs | double | दाएँ हाथ का मान. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान। |
+| rhs | double | दाएँ हाथ का मान। |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of division.
@@ -246,15 +246,15 @@ public double dot(Vector2 rhs)
 ```
 
 
-दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है।
+दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान. |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान। |
 
 **Returns:**
-double - दो वेक्टरों का डॉट प्रोडक्ट.
+double - दो वेक्टरों का डॉट प्रोडक्ट।
 ### equals(Vector2 rhs) {#equals-com.aspose.threed.Vector2-}
 ```
 public boolean equals(Vector2 rhs)
@@ -266,10 +266,10 @@ public boolean equals(Vector2 rhs)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ की मान। |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान। |
 
 **Returns:**
-boolean - यदि सभी घटक समान रूप से बराबर हों तो True.
+boolean - यदि सभी घटक समान रूप से बराबर हों तो सत्य।
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -284,7 +284,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | तुलना करने के लिए वस्तु। |
 
 **Returns:**
-boolean - यदि सभी घटक समान रूप से बराबर हों तो True.
+boolean - यदि सभी घटक समान रूप से बराबर हों तो सत्य।
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -346,8 +346,8 @@ Vector2 के लिए गुणा ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान. |
-| rhs | double | दाएँ हाथ का मान. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान। |
+| rhs | double | दाएँ हाथ का मान। |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of multiply.
@@ -362,8 +362,8 @@ Vector2 के लिए गुणा ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | double | बाएँ हाथ का मान. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान. |
+| lhs | double | बाएँ हाथ का मान। |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान। |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of multiply.
@@ -404,11 +404,11 @@ Vector2 के लिए समान ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान। |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान। |
 
 **Returns:**
-boolean - यदि सभी घटक समान रूप से बराबर हों तो True.
+boolean - यदि सभी घटक समान रूप से बराबर हों तो सत्य।
 ### op_ne(Vector2 lhs, Vector2 rhs) {#op-ne-com.aspose.threed.Vector2-com.aspose.threed.Vector2-}
 ```
 public static boolean op_ne(Vector2 lhs, Vector2 rhs)
@@ -420,11 +420,11 @@ Vector2 के लिए असमान ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान। |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान। |
 
 **Returns:**
-boolean - यदि दो वेक्टर बराबर न हों तो True.
+boolean - यदि दो वेक्टर बराबर न हों तो सत्य।
 ### setU(double value) {#setU-double-}
 ```
 public void setU(double value)
@@ -462,8 +462,8 @@ Vector2 के लिए घटाव ऑपरेटर
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान. |
-| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान. |
+| lhs | [Vector2](../../com.aspose.threed/vector2) | बाएँ हाथ का मान। |
+| rhs | [Vector2](../../com.aspose.threed/vector2) | दाएँ हाथ का मान। |
 
 **Returns:**
 [Vector2](../../com.aspose.threed/vector2) - The result of substraction.

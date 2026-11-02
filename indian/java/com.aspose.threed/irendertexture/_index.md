@@ -1,7 +1,7 @@
 ---
 title: "IRenderTexture"
-second_title: "Aspose.3D for Java API Reference"
-description: "रेंडर टेक्सचर का इंटरफ़ेस"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "रेंडर टेक्सचर का इंटरफ़ेस।"
 type: docs
 weight: 250
 url: /hi/java/com.aspose.threed/irendertexture/
@@ -13,7 +13,7 @@ url: /hi/java/com.aspose.threed/irendertexture/
 public interface IRenderTexture extends IRenderTarget
 ```
 
-रेंडर टेक्सचर का इंटरफ़ेस
+रेंडर टेक्सचर का इंटरफ़ेस।
 ## विधियाँ
 
 | विधि | विवरण |

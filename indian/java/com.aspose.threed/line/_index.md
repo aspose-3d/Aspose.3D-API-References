@@ -1,7 +1,7 @@
 ---
-title: "लाइन"
-second_title: "Aspose.3D for Java API Reference"
-description: "एक पॉलीलाइन वह पथ है जो बिंदुओं के सेट द्वारा परिभाषित होती है और   द्वारा जुड़ी होती है, जिसका अर्थ है कि यह जुड़े हुए रेखा खंडों का सेट भी हो सकता है।"
+title: "Line"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक पॉलीलाइन वह पथ है जो बिंदुओं के सेट के साथ  और   द्वारा जुड़ा होता है, जिसका अर्थ है कि यह जुड़े हुए रेखा खंडों का सेट भी हो सकता है।"
 type: docs
 weight: 95
 url: /hi/java/com.aspose.threed/line/
@@ -13,10 +13,10 @@ java.lang.Object, [com.aspose.threed.A3DObject](../../com.aspose.threed/a3dobjec
 public class Line extends Curve
 ```
 
-एक पॉलीलाइन वह पथ है जो बिंदुओं के सेट द्वारा परिभाषित होती है जिसमें [Geometry.getControlPoints](../../com.aspose.threed/geometry\#getControlPoints) है, और [getSegments](../../com.aspose.threed/line\#getSegments) द्वारा जुड़ी होती है, जिसका अर्थ है कि यह जुड़े हुए रेखा खंडों का सेट भी हो सकता है। लाइन आमतौर पर एक रैखिक वस्तु होती है, जिसका अर्थ है कि इसे वक्र को दर्शाने के लिए उपयोग नहीं किया जा सकता, वक्र को दर्शाने के लिए, [NurbsCurve](../../com.aspose.threed/nurbscurve) का उपयोग करता है।
-## कंस्ट्रक्टर
+एक पॉलीलाइन वह पथ है जो बिंदुओं के सेट के साथ [Geometry.getControlPoints](../../com.aspose.threed/geometry\#getControlPoints) द्वारा परिभाषित होता है, और [getSegments](../../com.aspose.threed/line\#getSegments) द्वारा जुड़ा होता है, जिसका अर्थ है कि यह जुड़े हुए रेखा खंडों का सेट भी हो सकता है। रेखा आमतौर पर एक रैखिक वस्तु होती है, जिसका अर्थ है कि इसे वक्र को दर्शाने के लिए उपयोग नहीं किया जा सकता, वक्र को दर्शाने के लिए, [NurbsCurve](../../com.aspose.threed/nurbscurve) का उपयोग करता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [Line()](#Line--) | नए [Line](../../com.aspose.threed/line) वर्ग का एक नया उदाहरण आरंभ करता है। |
 | [Line(String name)](#Line-java.lang.String-) | नए [Line](../../com.aspose.threed/line) वर्ग का एक नया उदाहरण आरंभ करता है। |
@@ -26,33 +26,33 @@ public class Line extends Curve
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [fromPoints(Vector3[] points)](#fromPoints-com.aspose.threed.Vector3...-) | [Line](../../com.aspose.threed/line) का एक उदाहरण बिंदुओं के सेट से बनाएं। |
-| [getBoundingBox()](#getBoundingBox--) | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है। |
+| [fromPoints(Vector3[] points)](#fromPoints-com.aspose.threed.Vector3...-) | बिंदुओं के सेट से एक [Line](../../com.aspose.threed/line) उदाहरण बनाएं। |
+| [getBoundingBox()](#getBoundingBox--) | वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है |
-| [getControlPoints()](#getControlPoints--) | सभी नियंत्रण बिंदु प्राप्त करता है |
-| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
-| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है। |
+| [getColor()](#getColor--) | रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है। |
+| [getControlPoints()](#getControlPoints--) | सभी नियंत्रण बिंदु प्राप्त करता है। |
+| [getEntityRendererKey()](#getEntityRendererKey--) | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
+| [getExcluded()](#getExcluded--) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
+| [getParentNode()](#getParentNode--) | पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [getParentNodes()](#getParentNodes--) | सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getScene()](#getScene--) | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
-| [getSegments()](#getSegments--) | लाइन के खंड प्राप्त करता है |
-| [getVisible()](#getVisible--) | जियोमेट्री दृश्यमान है या नहीं प्राप्त करता है |
+| [getScene()](#getScene--) | इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है |
+| [getSegments()](#getSegments--) | रेखा के खंड प्राप्त करता है |
+| [getVisible()](#getVisible--) | जाँचता है कि ज्यामिति दृश्यमान है या नहीं। |
 | [hashCode()](#hashCode--) |  |
-| [makeDefaultIndices()](#makeDefaultIndices--) | क्रम 0,1,2,3....[Geometry.getControlPoints](../../com.aspose.threed/geometry\#getControlPoints).Length-1 उत्पन्न करें ताकि [getSegments](../../com.aspose.threed/line\#getSegments) के द्वारा ControlPoints को एकल लाइन के रूप में उपयोग किया जा सके। |
+| [makeDefaultIndices()](#makeDefaultIndices--) | क्रम 0,1,2,3....[Geometry.getControlPoints](../../com.aspose.threed/geometry\#getControlPoints).Length-1 उत्पन्न करें ताकि [getSegments](../../com.aspose.threed/line\#getSegments) किया जा सके और कंट्रोल पॉइंट्स को एकल रेखा के रूप में उपयोग किया जा सके। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है |
-| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है। |
+| [setColor(Vector3 value)](#setColor-com.aspose.threed.Vector3-) | रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है। |
+| [setExcluded(boolean value)](#setExcluded-boolean-) | निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [setParentNode(Node value)](#setParentNode-com.aspose.threed.Node-) | पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setVisible(boolean value)](#setVisible-boolean-) | जियोमेट्री दृश्यमान है या नहीं सेट करता है |
+| [setVisible(boolean value)](#setVisible-boolean-) | जैसे कि ज्यामिति दृश्यमान है या नहीं, सेट करता है। |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -99,7 +99,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -114,7 +114,7 @@ public static Line fromPoints(Vector3[] points)
 ```
 
 
-[Line](../../com.aspose.threed/line) का एक उदाहरण बिंदुओं के सेट से बनाएं।
+बिंदुओं के सेट से एक [Line](../../com.aspose.threed/line) उदाहरण बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -129,7 +129,7 @@ public BoundingBox getBoundingBox()
 ```
 
 
-वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कॉर्डिनेट सिस्टम में प्राप्त करता है।
+वर्तमान इकाई का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है।
 
 **Returns:**
 [BoundingBox](../../com.aspose.threed/boundingbox) - the bounding box of current entity in its object space coordinate system. **Example:** The following code shows how to calculate the bounding box of a shape
@@ -156,7 +156,7 @@ public Vector3 getColor()
 ```
 
 
-रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है
+रेखा का रंग प्राप्त करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है।
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the color of the line, default value is white(1, 1, 1)
@@ -166,7 +166,7 @@ public List<Vector4> getControlPoints()
 ```
 
 
-सभी नियंत्रण बिंदु प्राप्त करता है
+सभी नियंत्रण बिंदु प्राप्त करता है।
 
 **Returns:**
 java.util.List<com.aspose.threed.Vector4> - सभी नियंत्रण बिंदु
@@ -176,7 +176,7 @@ public EntityRendererKey getEntityRendererKey()
 ```
 
 
-रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है
+रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है
 
 **Returns:**
 [EntityRendererKey](../../com.aspose.threed/entityrendererkey)
@@ -186,10 +186,10 @@ public boolean getExcluded()
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में प्राप्त करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन प्राप्त करता है।
 
 **Returns:**
-बूलियन - निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में।
+बूलियन - निर्यात के दौरान इस इकाई को बाहर रखने का चयन।
 ### getName() {#getName--}
 ```
 public String getName()
@@ -206,7 +206,7 @@ public Node getParentNode()
 ```
 
 
-पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड प्राप्त करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Returns:**
 [Node](../../com.aspose.threed/node) - the first parent node, if set the first parent node, this entity will be detached from other parent nodes.
@@ -216,7 +216,7 @@ public ArrayList<Node> getParentNodes()
 ```
 
 
-सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
+सभी पैरेंट नोड्स प्राप्त करता है, एक इकाई ज्योमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जुड़ी हो सकती है
 
 **Returns:**
 java.util.ArrayList<com.aspose.threed.Node> - सभी पैरेंट नोड्स, एक इकाई को ज्यामिति इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है
@@ -251,7 +251,7 @@ public Scene getScene()
 ```
 
 
-उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है
+इस ऑब्जेक्ट से संबंधित सीन प्राप्त करता है
 
 **Returns:**
 [Scene](../../com.aspose.threed/scene) - the scene that this object belongs to
@@ -261,17 +261,17 @@ public List<int[]> getSegments()
 ```
 
 
-लाइन के खंड प्राप्त करता है
+रेखा के खंड प्राप्त करता है
 
 **Returns:**
-java.util.List<int[]> - लाइन के खंड
+java.util.List<int[]> - रेखा के खंड
 ### getVisible() {#getVisible--}
 ```
 public boolean getVisible()
 ```
 
 
-जियोमेट्री दृश्यमान है या नहीं प्राप्त करता है
+जाँचता है कि ज्यामिति दृश्यमान है या नहीं।
 
 **Returns:**
 boolean - यदि ज्यामिति दृश्यमान है
@@ -291,7 +291,7 @@ public void makeDefaultIndices()
 ```
 
 
-क्रम 0,1,2,3....[Geometry.getControlPoints](../../com.aspose.threed/geometry\#getControlPoints).Length-1 उत्पन्न करें ताकि [getSegments](../../com.aspose.threed/line\#getSegments) के द्वारा ControlPoints को एकल लाइन के रूप में उपयोग किया जा सके।
+क्रम 0,1,2,3....[Geometry.getControlPoints](../../com.aspose.threed/geometry\#getControlPoints).Length-1 उत्पन्न करें ताकि [getSegments](../../com.aspose.threed/line\#getSegments) किया जा सके और कंट्रोल पॉइंट्स को एकल रेखा के रूप में उपयोग किया जा सके।
 
 ### notify() {#notify--}
 ```
@@ -345,7 +345,7 @@ public void setColor(Vector3 value)
 ```
 
 
-रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है
+रेखा का रंग सेट करता है, डिफ़ॉल्ट मान सफ़ेद (1, 1, 1) है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -358,7 +358,7 @@ public void setExcluded(boolean value)
 ```
 
 
-निर्यात के दौरान इस एंटिटी को बाहर रखने के बारे में सेट करता है।
+निर्यात के दौरान इस इकाई को बाहर रखने का चयन सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -384,7 +384,7 @@ public void setParentNode(Node value)
 ```
 
 
-पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया गया है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी।
+पहला पैरेंट नोड सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -411,7 +411,7 @@ public void setVisible(boolean value)
 ```
 
 
-जियोमेट्री दृश्यमान है या नहीं सेट करता है
+जैसे कि ज्यामिति दृश्यमान है या नहीं, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

@@ -1,6 +1,6 @@
 ---
 title: "RenderQueueGroupId"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "रेंडर कतार का समूह आईडी"
 type: docs
 weight: 297

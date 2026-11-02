@@ -1,6 +1,6 @@
 ---
 title: "ReferenceMode"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "परिभाषित करता है कि मैपिंग जानकारी कैसे संग्रहीत और संदर्भित की जाती है।"
 type: docs
 weight: 296

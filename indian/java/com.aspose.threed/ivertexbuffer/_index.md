@@ -1,7 +1,7 @@
 ---
 title: "IVertexBuffer"
-second_title: "Aspose.3D for Java API Reference"
-description: "वर्टेक्स बफ़र वह बहुभुज वर्टेक्स डेटा रखता है जिसे रेंडरिंग पाइपलाइन में भेजा जाएगा।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "वर्टेक्स बफ़र वह बहुभुज वर्टेक्स डेटा रखता है जो रेंडरिंग पाइपलाइन को भेजा जाएगा।"
 type: docs
 weight: 259
 url: /hi/java/com.aspose.threed/ivertexbuffer/
@@ -13,7 +13,7 @@ url: /hi/java/com.aspose.threed/ivertexbuffer/
 public interface IVertexBuffer extends IBuffer
 ```
 
-वर्टेक्स बफ़र वह बहुभुज वर्टेक्स डेटा रखता है जिसे रेंडरिंग पाइपलाइन में भेजा जाएगा।
+वर्टेक्स बफ़र वह बहुभुज वर्टेक्स डेटा रखता है जो रेंडरिंग पाइपलाइन को भेजा जाएगा।
 ## विधियाँ
 
 | विधि | विवरण |
@@ -56,7 +56,7 @@ public abstract void loadData(Object array)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| एरे | java.lang.Object |  |
+| ऐरे | java.lang.Object |  |
 
 ### loadData(long data, int size) {#loadData-long-int-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "ShaderStage"
-second_title: "Aspose.3D for Java API Reference"
-description: "शेडर स्टेज।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "शेडर चरण"
 type: docs
 weight: 168
 url: /hi/java/com.aspose.threed/shaderstage/
@@ -13,10 +13,10 @@ java.lang.Object
 public final class ShaderStage
 ```
 
-शेडर स्टेज।
-## कंस्ट्रक्टर
+शेडर चरण
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [ShaderStage()](#ShaderStage--) |  |
 ## फ़ील्ड्स

@@ -1,7 +1,7 @@
 ---
 title: "ICommandList"
-second_title: "Aspose.3D for Java API Reference"
-description: "रेंडर करने के लिए GPU को भेजे जाने वाले कमांड्स की श्रृंखला को एन्कोड करता है।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "एक कमांड अनुक्रम को एन्कोड करता है जिसे रेंडर करने के लिए GPU को भेजा जाएगा।"
 type: docs
 weight: 240
 url: /hi/java/com.aspose.threed/icommandlist/
@@ -10,7 +10,7 @@ url: /hi/java/com.aspose.threed/icommandlist/
 public interface ICommandList
 ```
 
-रेंडर करने के लिए GPU को भेजे जाने वाले कमांड्स की श्रृंखला को एन्कोड करता है।
+एक कमांड अनुक्रम को एन्कोड करता है जिसे रेंडर करने के लिए GPU को भेजा जाएगा।
 ## विधियाँ
 
 | विधि | विवरण |
@@ -21,10 +21,10 @@ public interface ICommandList
 | [bindVertexBuffer(IVertexBuffer vertexBuffer)](#bindVertexBuffer-com.aspose.threed.IVertexBuffer-) | रेंडरिंग के लिए वर्टेक्स बफ़र को बाइंड करें |
 | [draw()](#draw--) | इंडेक्स बफ़र के बिना ड्रॉ करें |
 | [draw(int start, int count)](#draw-int-int-) | इंडेक्स बफ़र के बिना ड्रॉ करें |
-| [drawIndex()](#drawIndex--) | कमांड लिस्ट में एक इंडेक्स्ड ड्रॉ जारी करें |
-| [drawIndex(int start, int count)](#drawIndex-int-int-) | कमांड लिस्ट में एक इंडेक्स्ड ड्रॉ जारी करें |
-| [pushConstants(int stage, byte[] data)](#pushConstants-int-byte---) | कॉन्स्टेंट को पाइपलाइन में पुश करें |
-| [pushConstants(int stage, byte[] data, int size)](#pushConstants-int-byte---int-) | कॉन्स्टेंट को पाइपलाइन में पुश करें |
+| [drawIndex()](#drawIndex--) | कमांड सूची में एक इंडेक्स्ड ड्रॉ जारी करें |
+| [drawIndex(int start, int count)](#drawIndex-int-int-) | कमांड सूची में एक इंडेक्स्ड ड्रॉ जारी करें |
+| [pushConstants(int stage, byte[] data)](#pushConstants-int-byte---) | कॉनस्टेंट को पाइपलाइन में पुश करें |
+| [pushConstants(int stage, byte[] data, int size)](#pushConstants-int-byte---int-) | कॉनस्टेंट को पाइपलाइन में पुश करें |
 ### bindDescriptorSet(IDescriptorSet descriptorSet) {#bindDescriptorSet-com.aspose.threed.IDescriptorSet-}
 ```
 public abstract void bindDescriptorSet(IDescriptorSet descriptorSet)
@@ -105,7 +105,7 @@ public abstract void drawIndex()
 ```
 
 
-कमांड लिस्ट में एक इंडेक्स्ड ड्रॉ जारी करें
+कमांड सूची में एक इंडेक्स्ड ड्रॉ जारी करें
 
 ### drawIndex(int start, int count) {#drawIndex-int-int-}
 ```
@@ -113,7 +113,7 @@ public abstract void drawIndex(int start, int count)
 ```
 
 
-कमांड लिस्ट में एक इंडेक्स्ड ड्रॉ जारी करें
+कमांड सूची में एक इंडेक्स्ड ड्रॉ जारी करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -127,12 +127,12 @@ public abstract void pushConstants(int stage, byte[] data)
 ```
 
 
-कॉन्स्टेंट को पाइपलाइन में पुश करें
+कॉनस्टेंट को पाइपलाइन में पुश करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| स्टेज | int | कौन सा शेडर स्टेज कॉन्स्टेंट डेटा को उपभोग करेगा |
+| स्टेज | int | कौन सा शेडर स्टेज कॉन्स्टेंट डेटा का उपभोग करेगा |
 | डेटा | byte[] | डेटा जो शेडर को भेजा जाएगा |
 
 ### pushConstants(int stage, byte[] data, int size) {#pushConstants-int-byte---int-}
@@ -141,12 +141,12 @@ public abstract void pushConstants(int stage, byte[] data, int size)
 ```
 
 
-कॉन्स्टेंट को पाइपलाइन में पुश करें
+कॉनस्टेंट को पाइपलाइन में पुश करें
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| स्टेज | int | कौन सा शेडर स्टेज कॉन्स्टेंट डेटा को उपभोग करेगा |
+| स्टेज | int | कौन सा शेडर स्टेज कॉन्स्टेंट डेटा का उपभोग करेगा |
 | डेटा | byte[] | डेटा जो शेडर को भेजा जाएगा |
 | आकार | int | पाइपलाइन में लिखने के लिए बाइट्स |
 

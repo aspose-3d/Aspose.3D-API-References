@@ -1,6 +1,6 @@
 ---
 title: "StepMode"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "इंटरपोलेशन स्टेप मोड।"
 type: docs
 weight: 304
@@ -18,8 +18,8 @@ public enum StepMode extends Enum<StepMode>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [NEXT_VALUE](#NEXT-VALUE) | सेगमेंट का कर्व मान हमेशा अगले की फ्रेम से मान का उपयोग करता है. |
-| [PREVIOUS_VALUE](#PREVIOUS-VALUE) | सेगमेंट का कर्व मान हमेशा पिछले की फ्रेम से मान का उपयोग करता है. |
+| [NEXT_VALUE](#NEXT-VALUE) | सेगमेंट का कर्व मान हमेशा अगले की फ्रेम से मान का उपयोग करता है |
+| [PREVIOUS_VALUE](#PREVIOUS-VALUE) | सेगमेंट का कर्व मान हमेशा पिछले की फ्रेम से मान का उपयोग करता है |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -47,7 +47,7 @@ public static final StepMode NEXT_VALUE
 ```
 
 
-सेगमेंट का कर्व मान हमेशा अगले की फ्रेम से मान का उपयोग करता है.
+सेगमेंट का कर्व मान हमेशा अगले की फ्रेम से मान का उपयोग करता है
 
 ### PREVIOUS_VALUE {#PREVIOUS-VALUE}
 ```
@@ -55,7 +55,7 @@ public static final StepMode PREVIOUS_VALUE
 ```
 
 
-सेगमेंट का कर्व मान हमेशा पिछले की फ्रेम से मान का उपयोग करता है.
+सेगमेंट का कर्व मान हमेशा पिछले की फ्रेम से मान का उपयोग करता है
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

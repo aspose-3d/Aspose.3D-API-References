@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.Property"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "मेटा डेटा क्लासों में प्रॉपर्टी परिभाषा।"
 type: docs
 weight: 13
@@ -13,36 +13,36 @@ java.lang.Object
 public static class StructuralMetadata.Property
 ```
 
-मेटा डेटा की कक्षाओं में प्रॉपर्टी परिभाषा
-## कंस्ट्रक्टर
+मेटा डेटा की क्लासों में प्रॉपर्टी परिभाषा
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [Property(String name, String displayName, String description, Class<?> type, boolean normalized, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----boolean-java.lang.Integer-) | मेटा डेटा की प्रॉपर्टी का कंस्ट्रक्टर। |
-| [Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) | मेटा डेटा की प्रॉपर्टी का कंस्ट्रक्टर। |
-| [Property(String name, Class<?> type)](#Property-java.lang.String-java.lang.Class----) | मेटा डेटा की प्रॉपर्टी का कंस्ट्रक्टर। |
+| [Property(String name, String displayName, String description, Class<?> type, boolean normalized, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-java.lang.Class----boolean-java.lang.Integer-) | मेटा डेटा की प्रॉपर्टी का कन्स्ट्रक्टर। |
+| [Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count)](#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-) | मेटा डेटा की प्रॉपर्टी का कन्स्ट्रक्टर। |
+| [Property(String name, Class<?> type)](#Property-java.lang.String-java.lang.Class----) | मेटा डेटा की प्रॉपर्टी का कन्स्ट्रक्टर। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | स्थिर आकार की एरे के लिए डेटा की गिनती। |
+| [getCount()](#getCount--) | स्थिर आकार के एरे के लिए डेटा की गिनती। |
 | [getDescription()](#getDescription--) | प्रॉपर्टी का विवरण। |
 | [getDisplayName()](#getDisplayName--) | प्रॉपर्टी का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है। |
 | [getEnumType()](#getEnumType--) | एन्यूम प्रकार। |
 | [getName()](#getName--) | प्रॉपर्टी का अद्वितीय नाम। |
-| [getNormalized()](#getNormalized--) | क्या डेटा सामान्यीकृत है। |
+| [getNormalized()](#getNormalized--) | डेटा सामान्यीकृत है क्या। |
 | [getType()](#getType--) | प्रॉपर्टी का डेटा प्रकार। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCount(Integer value)](#setCount-java.lang.Integer-) | स्थिर आकार की एरे के लिए डेटा की गिनती। |
+| [setCount(Integer value)](#setCount-java.lang.Integer-) | स्थिर आकार के एरे के लिए डेटा की गिनती। |
 | [setDescription(String value)](#setDescription-java.lang.String-) | प्रॉपर्टी का विवरण। |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | प्रॉपर्टी का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है। |
 | [setEnumType(StructuralMetadata.EnumType value)](#setEnumType-com.aspose.threed.StructuralMetadata.EnumType-) | एन्यूम प्रकार। |
-| [setNormalized(boolean value)](#setNormalized-boolean-) | क्या डेटा सामान्यीकृत है। |
-| [toString()](#toString--) | इस इंस्टेंस का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
+| [setNormalized(boolean value)](#setNormalized-boolean-) | डेटा सामान्यीकृत है क्या। |
+| [toString()](#toString--) | इस उदाहरण का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -52,7 +52,7 @@ public Property(String name, String displayName, String description, Class<?> ty
 ```
 
 
-मेटा डेटा की प्रॉपर्टी का कंस्ट्रक्टर।
+मेटा डेटा की प्रॉपर्टी का कन्स्ट्रक्टर।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -61,8 +61,8 @@ public Property(String name, String displayName, String description, Class<?> ty
 | displayName | java.lang.String | प्रॉपर्टी का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है। |
 | description | java.lang.String | प्रॉपर्टी का विवरण। |
 | type | java.lang.Class<?> | प्रॉपर्टी का डेटा प्रकार। |
-| normalized | boolean | क्या डेटा सामान्यीकृत है |
-| गणना | java.lang.Integer | स्थिर आकार के एरे के लिए डेटा की गिनती |
+| normalized | boolean | डेटा सामान्यीकृत है क्या |
+| गणना | java.lang.Integer | स्थिर आकार की array के डेटा की गिनती |
 
 ### Property(String name, String displayName, String description, StructuralMetadata.EnumType type, boolean array, Integer count) {#Property-java.lang.String-java.lang.String-java.lang.String-com.aspose.threed.StructuralMetadata.EnumType-boolean-java.lang.Integer-}
 ```
@@ -70,7 +70,7 @@ public Property(String name, String displayName, String description, StructuralM
 ```
 
 
-मेटा डेटा की प्रॉपर्टी का कंस्ट्रक्टर।
+मेटा डेटा की प्रॉपर्टी का कन्स्ट्रक्टर।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -79,8 +79,8 @@ public Property(String name, String displayName, String description, StructuralM
 | displayName | java.lang.String | प्रॉपर्टी का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है। |
 | description | java.lang.String | प्रॉपर्टी का विवरण। |
 | type | [EnumType](../../com.aspose.threed/enumtype) | प्रॉपर्टी का डेटा प्रकार। |
-| एरे | boolean | क्या प्रत्येक प्रॉपर्टी मान एरे है या स्केलर |
-| गणना | java.lang.Integer | स्थिर आकार के एरे के लिए डेटा की गिनती |
+| ऐरे | boolean | क्या प्रत्येक property मान array है या scalar |
+| गणना | java.lang.Integer | स्थिर आकार की array के डेटा की गिनती |
 
 ### Property(String name, Class<?> type) {#Property-java.lang.String-java.lang.Class----}
 ```
@@ -88,7 +88,7 @@ public Property(String name, Class<?> type)
 ```
 
 
-मेटा डेटा की प्रॉपर्टी का कंस्ट्रक्टर।
+मेटा डेटा की प्रॉपर्टी का कन्स्ट्रक्टर।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -127,10 +127,10 @@ public Integer getCount()
 ```
 
 
-स्थिर आकार की एरे के लिए डेटा की गिनती।
+स्थिर आकार के एरे के लिए डेटा की गिनती।
 
 **Returns:**
-java.lang.Integer - स्थिर आकार के एरे के लिए डेटा की गिनती।
+java.lang.Integer - स्थिर आकार की array के डेटा की गिनती।
 ### getDescription() {#getDescription--}
 ```
 public String getDescription()
@@ -140,7 +140,7 @@ public String getDescription()
 प्रॉपर्टी का विवरण।
 
 **Returns:**
-java.lang.String - प्रॉपर्टी का विवरण
+java.lang.String - property का विवरण
 ### getDisplayName() {#getDisplayName--}
 ```
 public String getDisplayName()
@@ -150,7 +150,7 @@ public String getDisplayName()
 प्रॉपर्टी का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है।
 
 **Returns:**
-java.lang.String - प्रॉपर्टी का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है।
+java.lang.String - property का नाम, UI द्वारा प्रतिनिधित्व के लिए उपयोग किया जाता है।
 ### getEnumType() {#getEnumType--}
 ```
 public StructuralMetadata.EnumType getEnumType()
@@ -170,17 +170,17 @@ public String getName()
 प्रॉपर्टी का अद्वितीय नाम।
 
 **Returns:**
-java.lang.String - प्रॉपर्टी का अद्वितीय नाम
+java.lang.String - property का अद्वितीय नाम
 ### getNormalized() {#getNormalized--}
 ```
 public boolean getNormalized()
 ```
 
 
-क्या डेटा सामान्यीकृत है।
+डेटा सामान्यीकृत है क्या।
 
 **Returns:**
-boolean - क्या डेटा सामान्यीकृत है।
+boolean - डेटा सामान्यीकृत है या नहीं।
 ### getType() {#getType--}
 ```
 public Class<?> getType()
@@ -190,7 +190,7 @@ public Class<?> getType()
 प्रॉपर्टी का डेटा प्रकार।
 
 **Returns:**
-java.lang.Class<?> - प्रॉपर्टी का डेटा प्रकार
+java.lang.Class<?> - property का डेटा प्रकार
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -223,7 +223,7 @@ public void setCount(Integer value)
 ```
 
 
-स्थिर आकार की एरे के लिए डेटा की गिनती।
+स्थिर आकार के एरे के लिए डेटा की गिनती।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -275,7 +275,7 @@ public void setNormalized(boolean value)
 ```
 
 
-क्या डेटा सामान्यीकृत है।
+डेटा सामान्यीकृत है क्या।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -288,7 +288,7 @@ public String toString()
 ```
 
 
-इस इंस्टेंस का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है।
+इस उदाहरण का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है।
 
 **Returns:**
 java.lang.String

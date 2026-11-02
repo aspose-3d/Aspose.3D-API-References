@@ -1,6 +1,6 @@
 ---
 title: "PbrMaterial"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "अल्बेडो रंग/धातुता/रफ़नेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए सामग्री।"
 type: docs
 weight: 121
@@ -14,65 +14,65 @@ public class PbrMaterial extends Material
 ```
 
 अल्बेडो रंग/धातुता/रफ़नेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए सामग्री।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [PbrMaterial()](#PbrMaterial--) | डिफ़ॉल्ट PBR सामग्री का इंस्टेंस बनाएं |
-| [PbrMaterial(Vector3 albedo)](#PbrMaterial-com.aspose.threed.Vector3-) | निर्दिष्ट अल्बेडो रंग मान के साथ डिफ़ॉल्ट PBR सामग्री बनाएं। |
+| [PbrMaterial()](#PbrMaterial--) | डिफ़ॉल्ट PBR मैटेरियल इंस्टेंस बनाएं |
+| [PbrMaterial(Vector3 albedo)](#PbrMaterial-com.aspose.threed.Vector3-) | निर्दिष्ट अल्बेडो रंग मान के साथ डिफ़ॉल्ट PBR मैटेरियल बनाएं। |
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [MAP_AMBIENT](#MAP-AMBIENT) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक पर्यावरणीय टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_DIFFUSE](#MAP-DIFFUSE) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_EMISSIVE](#MAP-EMISSIVE) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक उत्सर्जक टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_NORMAL](#MAP-NORMAL) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक सामान्य टेक्सचर मैपिंग असाइन करने के लिए। |
-| [MAP_SPECULAR](#MAP-SPECULAR) | [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए। |
+| [MAP_AMBIENT](#MAP-AMBIENT) | एक ambient टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_DIFFUSE](#MAP-DIFFUSE) | एक diffuse टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_EMISSIVE](#MAP-EMISSIVE) | एक emissive टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_NORMAL](#MAP-NORMAL) | एक normal टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
+| [MAP_SPECULAR](#MAP-SPECULAR) | एक specular टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [findProperty(String propertyName)](#findProperty-java.lang.String-) | प्रॉपर्टी को खोजता है। |
-| [fromMaterial(Material material)](#fromMaterial-com.aspose.threed.Material-) | अन्य सामग्री को PbrMaterial में बदलने की अनुमति दें **Example:** |
-| [getAlbedo()](#getAlbedo--) | सामग्री का बेस रंग प्राप्त करता है |
+| [fromMaterial(Material material)](#fromMaterial-com.aspose.threed.Material-) | अन्य मैटेरियल को PbrMaterial में परिवर्तित करने की अनुमति दें **Example:** |
+| [getAlbedo()](#getAlbedo--) | मैटेरियल का बेस रंग प्राप्त करता है |
 | [getAlbedoTexture()](#getAlbedoTexture--) | अल्बेडो के लिए टेक्सचर प्राप्त करता है |
 | [getClass()](#getClass--) |  |
-| [getEmissiveColor()](#getEmissiveColor--) | उत्सर्जक रंग प्राप्त करता है |
+| [getEmissiveColor()](#getEmissiveColor--) | emissive रंग प्राप्त करता है |
 | [getEmissiveTexture()](#getEmissiveTexture--) | एमिसिव के लिए टेक्सचर प्राप्त करता है |
-| [getMetallicFactor()](#getMetallicFactor--) | सामग्री की धातुता प्राप्त करता है, 1 का मान मतलब सामग्री धातु है और 0 का मान मतलब सामग्री डाइइलेक्ट्रिक है। |
+| [getMetallicFactor()](#getMetallicFactor--) | मैटेरियल की धातुता प्राप्त करता है, मान 1 का मतलब है कि मैटेरियल धातु है और मान 0 का मतलब है कि मैटेरियल डाइइलेक्ट्रिक है। |
 | [getMetallicRoughness()](#getMetallicRoughness--) | धातुता (R चैनल में) और रफ़नेस (G चैनल में) के लिए टेक्सचर प्राप्त करता है |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
 | [getNormalTexture()](#getNormalTexture--) | नॉर्मल मैपिंग का टेक्सचर प्राप्त करता है |
-| [getOcclusionFactor()](#getOcclusionFactor--) | एंबिएंट ऑक्लूज़न का फैक्टर प्राप्त करता है |
-| [getOcclusionTexture()](#getOcclusionTexture--) | एंबिएंट ऑक्लूज़न के लिए टेक्सचर प्राप्त करता है |
+| [getOcclusionFactor()](#getOcclusionFactor--) | एम्बिएंट ऑक्लूज़न का फ़ैक्टर प्राप्त करता है |
+| [getOcclusionTexture()](#getOcclusionTexture--) | एम्बिएंट ऑक्लूज़न के लिए टेक्सचर प्राप्त करता है |
 | [getProperties()](#getProperties--) | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 | [getProperty(String property)](#getProperty-java.lang.String-) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
-| [getRoughnessFactor()](#getRoughnessFactor--) | सामग्री की रफ़नेस प्राप्त करता है, 1 का मान मतलब सामग्री पूरी तरह रफ़ है और 0 का मान मतलब सामग्री पूरी तरह स्मूद है। |
+| [getRoughnessFactor()](#getRoughnessFactor--) | मैटेरियल की रफ़नेस प्राप्त करता है, मान 1 का मतलब है कि मैटेरियल पूरी तरह खुरदुरा है और मान 0 का मतलब है कि मैटेरियल पूरी तरह स्मूद है। |
 | [getSpecularTexture()](#getSpecularTexture--) | स्पेक्युलर रंग के लिए टेक्सचर प्राप्त करता है |
 | [getTexture(String slotName)](#getTexture-java.lang.String-) | निर्दिष्ट स्लॉट से टेक्सचर प्राप्त करता है, यह सामग्री की प्रॉपर्टी नाम या शेडर के पैरामीटर नाम हो सकता है। |
 | [getTransparency()](#getTransparency--) | पारदर्शिता कारक प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एन्यूमरेटर प्राप्त करता है। |
+| [iterator()](#iterator--) | आंतरिक टेक्सचर स्लॉट्स को एने्यूमरेट करने के लिए एने्यूरेटर प्राप्त करता है। |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeProperty(Property property)](#removeProperty-com.aspose.threed.Property-) | डायनामिक प्रॉपर्टी को हटाता है। |
 | [removeProperty(String property)](#removeProperty-java.lang.String-) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
-| [setAlbedo(Vector3 value)](#setAlbedo-com.aspose.threed.Vector3-) | सामग्री का बेस रंग सेट करता है |
-| [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | अल्बीडो के लिए टेक्सचर सेट करता है |
-| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | उत्सर्जक रंग सेट करता है |
+| [setAlbedo(Vector3 value)](#setAlbedo-com.aspose.threed.Vector3-) | मैटेरियल का बेस रंग सेट करता है |
+| [setAlbedoTexture(TextureBase value)](#setAlbedoTexture-com.aspose.threed.TextureBase-) | Albedo के लिए टेक्सचर सेट करता है |
+| [setEmissiveColor(Vector3 value)](#setEmissiveColor-com.aspose.threed.Vector3-) | emissive रंग सेट करता है |
 | [setEmissiveTexture(TextureBase value)](#setEmissiveTexture-com.aspose.threed.TextureBase-) | इमिसिव के लिए टेक्सचर सेट करता है |
-| [setMetallicFactor(double value)](#setMetallicFactor-double-) | सामग्री की धातुता सेट करता है, मान 1 का अर्थ है सामग्री धातु है और मान 0 का अर्थ है सामग्री डाइइलेक्ट्रिक है। |
-| [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | धातुता (R चैनल में) और रफ़नेस (G चैनल में) के लिए टेक्सचर सेट करता है |
+| [setMetallicFactor(double value)](#setMetallicFactor-double-) | सामग्री की धातुता सेट करता है, मान 1 का अर्थ है कि सामग्री धातु है और मान 0 का अर्थ है कि सामग्री डाइइलेक्ट्रिक है। |
+| [setMetallicRoughness(TextureBase value)](#setMetallicRoughness-com.aspose.threed.TextureBase-) | Metallic (R चैनल में) और Roughness (G चैनल में) के लिए टेक्सचर सेट करता है |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
 | [setNormalTexture(TextureBase value)](#setNormalTexture-com.aspose.threed.TextureBase-) | नॉर्मल मैपिंग का टेक्सचर सेट करता है |
-| [setOcclusionFactor(double value)](#setOcclusionFactor-double-) | एम्बिएंट ऑक्लूज़न का फ़ैक्टर सेट करता है |
-| [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | एम्बिएंट ऑक्लूज़न के लिए टेक्सचर सेट करता है |
+| [setOcclusionFactor(double value)](#setOcclusionFactor-double-) | Ambient Occlusion का फैक्टर सेट करता है |
+| [setOcclusionTexture(TextureBase value)](#setOcclusionTexture-com.aspose.threed.TextureBase-) | Ambient Occlusion के लिए टेक्सचर सेट करता है |
 | [setProperty(String property, Object value)](#setProperty-java.lang.String-java.lang.Object-) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
-| [setRoughnessFactor(double value)](#setRoughnessFactor-double-) | सामग्री की रफ़नेस सेट करता है, मान 1 का अर्थ है सामग्री पूरी तरह रफ़ है और मान 0 का अर्थ है सामग्री पूरी तरह स्मूद है। |
-| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | स्पेक्यूलर रंग के लिए टेक्सचर सेट करता है |
-| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | निर्दिष्ट स्लॉट में टेक्सचर सेट करता है |
+| [setRoughnessFactor(double value)](#setRoughnessFactor-double-) | सामग्री की रफ़नेस सेट करता है, मान 1 का अर्थ है कि सामग्री पूरी तरह से रफ़ है और मान 0 का अर्थ है कि सामग्री पूरी तरह से स्मूद है। |
+| [setSpecularTexture(TextureBase value)](#setSpecularTexture-com.aspose.threed.TextureBase-) | Specular रंग के लिए टेक्सचर सेट करता है |
+| [setTexture(String slotName, TextureBase texture)](#setTexture-java.lang.String-com.aspose.threed.TextureBase-) | टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है |
 | [setTransparency(double value)](#setTransparency-double-) | पारदर्शिता कारक सेट करता है। |
 | [toString()](#toString--) | ऑब्जेक्ट को स्ट्रिंग में फ़ॉर्मेट करता है |
 | [wait()](#wait--) |  |
@@ -84,7 +84,7 @@ public PbrMaterial()
 ```
 
 
-डिफ़ॉल्ट PBR सामग्री का इंस्टेंस बनाएं
+डिफ़ॉल्ट PBR मैटेरियल इंस्टेंस बनाएं
 
 ### PbrMaterial(Vector3 albedo) {#PbrMaterial-com.aspose.threed.Vector3-}
 ```
@@ -92,12 +92,12 @@ public PbrMaterial(Vector3 albedo)
 ```
 
 
-निर्दिष्ट अल्बेडो रंग मान के साथ डिफ़ॉल्ट PBR सामग्री बनाएं।
+निर्दिष्ट अल्बेडो रंग मान के साथ डिफ़ॉल्ट PBR मैटेरियल बनाएं।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| albedo | [Vector3](../../com.aspose.threed/vector3) | डिफ़ॉल्ट अल्बीडो रंग मान |
+| albedo | [Vector3](../../com.aspose.threed/vector3) | डिफ़ॉल्ट Albedo रंग मान |
 
 ### MAP_AMBIENT {#MAP-AMBIENT}
 ```
@@ -105,7 +105,7 @@ public static final String MAP_AMBIENT
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक पर्यावरणीय टेक्सचर मैपिंग असाइन करने के लिए।
+एक ambient टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_DIFFUSE {#MAP-DIFFUSE}
 ```
@@ -113,7 +113,7 @@ public static final String MAP_DIFFUSE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए।
+एक diffuse टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_EMISSIVE {#MAP-EMISSIVE}
 ```
@@ -121,7 +121,7 @@ public static final String MAP_EMISSIVE
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक उत्सर्जक टेक्सचर मैपिंग असाइन करने के लिए।
+एक emissive टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_NORMAL {#MAP-NORMAL}
 ```
@@ -129,7 +129,7 @@ public static final String MAP_NORMAL
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक सामान्य टेक्सचर मैपिंग असाइन करने के लिए।
+एक normal टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### MAP_SPECULAR {#MAP-SPECULAR}
 ```
@@ -137,7 +137,7 @@ public static final String MAP_SPECULAR
 ```
 
 
-[setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है एक स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए।
+एक specular टेक्सचर मैपिंग असाइन करने के लिए [setTexture](../../com.aspose.threed/material\#setTexture) में उपयोग किया जाता है।
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -160,7 +160,7 @@ public Property findProperty(String propertyName)
 ```
 
 
-प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या नेटिव प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
+प्रॉपर्टी को खोजता है। यह एक डायनामिक प्रॉपर्टी (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (नाम द्वारा पहचानी गई) हो सकती है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -175,7 +175,7 @@ public static PbrMaterial fromMaterial(Material material)
 ```
 
 
-अन्य सामग्री को PbrMaterial में बदलने की अनुमति दें **Example:**
+अन्य मैटेरियल को PbrMaterial में परिवर्तित करने की अनुमति दें **Example:**
 
 ```
 var mat = new LambertMaterial();
@@ -199,7 +199,7 @@ public Vector3 getAlbedo()
 ```
 
 
-सामग्री का बेस रंग प्राप्त करता है
+मैटेरियल का बेस रंग प्राप्त करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the base color of the material
@@ -229,7 +229,7 @@ public Vector3 getEmissiveColor()
 ```
 
 
-उत्सर्जक रंग प्राप्त करता है
+emissive रंग प्राप्त करता है
 
 **Returns:**
 [Vector3](../../com.aspose.threed/vector3) - the emissive color
@@ -249,10 +249,10 @@ public double getMetallicFactor()
 ```
 
 
-सामग्री की धातुता प्राप्त करता है, 1 का मान मतलब सामग्री धातु है और 0 का मान मतलब सामग्री डाइइलेक्ट्रिक है।
+मैटेरियल की धातुता प्राप्त करता है, मान 1 का मतलब है कि मैटेरियल धातु है और मान 0 का मतलब है कि मैटेरियल डाइइलेक्ट्रिक है।
 
 **Returns:**
-डबल - सामग्री की धातुता, मान 1 का अर्थ है सामग्री धातु है और मान 0 का अर्थ है सामग्री डाइइलेक्ट्रिक है।
+double - सामग्री की धातुता, मान 1 का अर्थ है कि सामग्री धातु है और मान 0 का अर्थ है कि सामग्री डाइइलेक्ट्रिक है।
 ### getMetallicRoughness() {#getMetallicRoughness--}
 ```
 public TextureBase getMetallicRoughness()
@@ -289,17 +289,17 @@ public double getOcclusionFactor()
 ```
 
 
-एंबिएंट ऑक्लूज़न का फैक्टर प्राप्त करता है
+एम्बिएंट ऑक्लूज़न का फ़ैक्टर प्राप्त करता है
 
 **Returns:**
-डबल - एंबिएंट ऑक्लूज़न का फ़ैक्टर
+double - Ambient Occlusion का फैक्टर
 ### getOcclusionTexture() {#getOcclusionTexture--}
 ```
 public TextureBase getOcclusionTexture()
 ```
 
 
-एंबिएंट ऑक्लूज़न के लिए टेक्सचर प्राप्त करता है
+एम्बिएंट ऑक्लूज़न के लिए टेक्सचर प्राप्त करता है
 
 **Returns:**
 [TextureBase](../../com.aspose.threed/texturebase) - the texture for ambient occlusion
@@ -334,10 +334,10 @@ public double getRoughnessFactor()
 ```
 
 
-सामग्री की रफ़नेस प्राप्त करता है, 1 का मान मतलब सामग्री पूरी तरह रफ़ है और 0 का मान मतलब सामग्री पूरी तरह स्मूद है।
+मैटेरियल की रफ़नेस प्राप्त करता है, मान 1 का मतलब है कि मैटेरियल पूरी तरह खुरदुरा है और मान 0 का मतलब है कि मैटेरियल पूरी तरह स्मूद है।
 
 **Returns:**
-डबल - सामग्री की रफ़नेस, मान 1 का अर्थ है सामग्री पूरी तरह रफ़ है और मान 0 का अर्थ है सामग्री पूरी तरह स्मूद है।
+double - सामग्री की रफ़नेस, मान 1 का अर्थ है कि सामग्री पूरी तरह से रफ़ है और मान 0 का अर्थ है कि सामग्री पूरी तरह से स्मूद है।
 ### getSpecularTexture() {#getSpecularTexture--}
 ```
 public TextureBase getSpecularTexture()
@@ -377,10 +377,10 @@ public double getTransparency()
 ```
 
 
-पारदर्शिता कारक प्राप्त करता है। कारक 0 (0%, पूरी तरह अपारदर्शी) से 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
+पारदर्शिता कारक प्राप्त करता है। कारक 0 (0%, पूरी तरह अपारदर्शी) और 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
 
 **Returns:**
-double - पारदर्शिता कारक। कारक 0 (0%, पूरी तरह अपारदर्शी) से 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
+double - पारदर्शिता कारक। कारक 0 (0%, पूरी तरह अपारदर्शी) और 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -397,7 +397,7 @@ public Iterator<TextureSlot> iterator()
 ```
 
 
-आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एन्यूमरेटर प्राप्त करता है।
+आंतरिक टेक्सचर स्लॉट्स को एने्यूमरेट करने के लिए एने्यूरेटर प्राप्त करता है।
 
 **Returns:**
 java.util.Iterator<com.aspose.threed.TextureSlot>
@@ -453,7 +453,7 @@ public void setAlbedo(Vector3 value)
 ```
 
 
-सामग्री का बेस रंग सेट करता है
+मैटेरियल का बेस रंग सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -466,7 +466,7 @@ public void setAlbedoTexture(TextureBase value)
 ```
 
 
-अल्बीडो के लिए टेक्सचर सेट करता है
+Albedo के लिए टेक्सचर सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -479,7 +479,7 @@ public void setEmissiveColor(Vector3 value)
 ```
 
 
-उत्सर्जक रंग सेट करता है
+emissive रंग सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -505,7 +505,7 @@ public void setMetallicFactor(double value)
 ```
 
 
-सामग्री की धातुता सेट करता है, मान 1 का अर्थ है सामग्री धातु है और मान 0 का अर्थ है सामग्री डाइइलेक्ट्रिक है।
+सामग्री की धातुता सेट करता है, मान 1 का अर्थ है कि सामग्री धातु है और मान 0 का अर्थ है कि सामग्री डाइइलेक्ट्रिक है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -518,7 +518,7 @@ public void setMetallicRoughness(TextureBase value)
 ```
 
 
-धातुता (R चैनल में) और रफ़नेस (G चैनल में) के लिए टेक्सचर सेट करता है
+Metallic (R चैनल में) और Roughness (G चैनल में) के लिए टेक्सचर सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -557,7 +557,7 @@ public void setOcclusionFactor(double value)
 ```
 
 
-एम्बिएंट ऑक्लूज़न का फ़ैक्टर सेट करता है
+Ambient Occlusion का फैक्टर सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -570,7 +570,7 @@ public void setOcclusionTexture(TextureBase value)
 ```
 
 
-एम्बिएंट ऑक्लूज़न के लिए टेक्सचर सेट करता है
+Ambient Occlusion के लिए टेक्सचर सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -597,7 +597,7 @@ public void setRoughnessFactor(double value)
 ```
 
 
-सामग्री की रफ़नेस सेट करता है, मान 1 का अर्थ है सामग्री पूरी तरह रफ़ है और मान 0 का अर्थ है सामग्री पूरी तरह स्मूद है।
+सामग्री की रफ़नेस सेट करता है, मान 1 का अर्थ है कि सामग्री पूरी तरह से रफ़ है और मान 0 का अर्थ है कि सामग्री पूरी तरह से स्मूद है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -610,7 +610,7 @@ public void setSpecularTexture(TextureBase value)
 ```
 
 
-स्पेक्यूलर रंग के लिए टेक्सचर सेट करता है
+Specular रंग के लिए टेक्सचर सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -623,7 +623,7 @@ public void setTexture(String slotName, TextureBase texture)
 ```
 
 
-निर्दिष्ट स्लॉट में टेक्सचर सेट करता है
+टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -644,7 +644,7 @@ public void setTransparency(double value)
 ```
 
 
-पारदर्शिता कारक सेट करता है। कारक 0 (0%, पूरी तरह अपारदर्शी) से 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
+पारदर्शिता कारक सेट करता है। कारक 0 (0%, पूरी तरह अपारदर्शी) और 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य कारक मान को सीमित कर दिया जाएगा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |

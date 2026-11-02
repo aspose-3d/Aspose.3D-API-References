@@ -1,6 +1,6 @@
 ---
 title: "ShaderException"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "शेडर संबंधित अपवाद।"
 type: docs
 weight: 163
@@ -14,9 +14,9 @@ public class ShaderException extends Exception
 ```
 
 शेडर संबंधित अपवाद।
-## कंस्ट्रक्टर
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
 | [ShaderException(String message)](#ShaderException-java.lang.String-) | [ShaderException](../../com.aspose.threed/shaderexception) का कंस्ट्रक्टर |
 ## विधियाँ
@@ -55,7 +55,7 @@ public ShaderException(String message)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| message | java.lang.String |  |
+| संदेश | java.lang.String |  |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

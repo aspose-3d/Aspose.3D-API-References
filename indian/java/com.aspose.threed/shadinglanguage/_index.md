@@ -1,7 +1,7 @@
 ---
 title: "ShadingLanguage"
-second_title: "Aspose.3D for Java API Reference"
-description: "आम तौर पर उपयोग की जाने वाली शेडिंग भाषाएँ"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "आमतौर पर उपयोग किए जाने वाले शेडिंग भाषाएँ"
 type: docs
 weight: 272
 url: /hi/java/com.aspose.threed/shadinglanguage/
@@ -13,24 +13,24 @@ java.lang.Object, java.lang.Enum
 public enum ShadingLanguage extends Enum<ShadingLanguage>
 ```
 
-आम तौर पर उपयोग की जाने वाली शेडिंग भाषाएँ
+आमतौर पर उपयोग किए जाने वाले शेडिंग भाषाएँ
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [AGAL](#AGAL) | Adobe Graphics Assembly Language |
-| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | ARB असेंबली भाषा एक निम्न-स्तरीय शेडिंग भाषा है जिसे OpenGL आर्किटेक्चर रिव्यू बोर्ड द्वारा GPU निर्देशों को मानकीकृत करने के लिए बनाया गया है। |
+| [AGAL](#AGAL) | एडोब ग्राफ़िक्स असेंबली लैंग्वेज |
+| [ARB_ASSEMBLY](#ARB-ASSEMBLY) | ARB असेंबली लैंग्वेज एक लो-लेवल शेडिंग लैंग्वेज है जो OpenGL आर्किटेक्चर रिव्यू बोर्ड द्वारा GPU निर्देशों को मानकीकृत करने के लिए बनाई गई है। |
 | [CGFX](#CGFX) | NVIDIA Cg |
-| [DIRECTX_SHADER_ASSEMBLY](#DIRECTX-SHADER-ASSEMBLY) | DirectX शेडर असेंबली भाषा |
-| [GELATO](#GELATO) | जेलाटो शेडिंग भाषा |
+| [DIRECTX_SHADER_ASSEMBLY](#DIRECTX-SHADER-ASSEMBLY) | DirectX शेडर असेंबली लैंग्वेज |
+| [GELATO](#GELATO) | जेलाटो शेडिंग लैंग्वेज |
 | [GLSL](#GLSL) | GLSL |
-| [HLSL](#HLSL) | DirectX हाई-लेवल शेडर भाषा |
-| [HOUDINIVEX](#HOUDINIVEX) | Houdini VEX Shading language |
-| [MENTAL_RAY](#MENTAL-RAY) | Mental Ray Shader language |
-| [METAL](#METAL) | iOS Metal Shading language |
-| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | ओपन शेडिंग भाषा Sony Pictures Imageworks द्वारा विकसित की गई है और इसके Arnold रेंडरर में उपयोग की जाती है। |
-| [PSSL](#PSSL) | PlayStation Shader Language |
-| [RENDER_MAN](#RENDER-MAN) | RenderMan शेडिंग भाषा। |
+| [HLSL](#HLSL) | DirectX हाई-लेवल शेडर लैंग्वेज |
+| [HOUDINIVEX](#HOUDINIVEX) | हौडिनी VEX शेडिंग लैंग्वेज |
+| [MENTAL_RAY](#MENTAL-RAY) | मेंटल रे शेडर लैंग्वेज |
+| [METAL](#METAL) | iOS मेटल शेडिंग लैंग्वेज |
+| [OPEN_SHADING_LANGUAGE](#OPEN-SHADING-LANGUAGE) | ओपन शेडिंग लैंग्वेज Sony Pictures Imageworks द्वारा विकसित की गई है और इसके Arnold रेंडरर में उपयोग होती है। |
+| [PSSL](#PSSL) | प्लेस्टेशन शेडर लैंग्वेज |
+| [RENDER_MAN](#RENDER-MAN) | RenderMan शेडिंग लैंग्वेज। |
 | [SFX](#SFX) | SFX |
 ## विधियाँ
 
@@ -59,7 +59,7 @@ public static final ShadingLanguage AGAL
 ```
 
 
-Adobe Graphics Assembly Language
+एडोब ग्राफ़िक्स असेंबली लैंग्वेज
 
 ### ARB_ASSEMBLY {#ARB-ASSEMBLY}
 ```
@@ -67,7 +67,7 @@ public static final ShadingLanguage ARB_ASSEMBLY
 ```
 
 
-ARB असेंबली भाषा एक निम्न-स्तरीय शेडिंग भाषा है जिसे OpenGL आर्किटेक्चर रिव्यू बोर्ड द्वारा GPU निर्देशों को मानकीकृत करने के लिए बनाया गया है।
+ARB असेंबली लैंग्वेज एक लो-लेवल शेडिंग लैंग्वेज है जो OpenGL आर्किटेक्चर रिव्यू बोर्ड द्वारा GPU निर्देशों को मानकीकृत करने के लिए बनाई गई है।
 
 ### CGFX {#CGFX}
 ```
@@ -83,7 +83,7 @@ public static final ShadingLanguage DIRECTX_SHADER_ASSEMBLY
 ```
 
 
-DirectX शेडर असेंबली भाषा
+DirectX शेडर असेंबली लैंग्वेज
 
 ### GELATO {#GELATO}
 ```
@@ -91,7 +91,7 @@ public static final ShadingLanguage GELATO
 ```
 
 
-जेलाटो शेडिंग भाषा
+जेलाटो शेडिंग लैंग्वेज
 
 ### GLSL {#GLSL}
 ```
@@ -107,7 +107,7 @@ public static final ShadingLanguage HLSL
 ```
 
 
-DirectX हाई-लेवल शेडर भाषा
+DirectX हाई-लेवल शेडर लैंग्वेज
 
 ### HOUDINIVEX {#HOUDINIVEX}
 ```
@@ -115,7 +115,7 @@ public static final ShadingLanguage HOUDINIVEX
 ```
 
 
-Houdini VEX Shading language
+हौडिनी VEX शेडिंग लैंग्वेज
 
 ### MENTAL_RAY {#MENTAL-RAY}
 ```
@@ -123,7 +123,7 @@ public static final ShadingLanguage MENTAL_RAY
 ```
 
 
-Mental Ray Shader language
+मेंटल रे शेडर लैंग्वेज
 
 ### METAL {#METAL}
 ```
@@ -131,7 +131,7 @@ public static final ShadingLanguage METAL
 ```
 
 
-iOS Metal Shading language
+iOS मेटल शेडिंग लैंग्वेज
 
 ### OPEN_SHADING_LANGUAGE {#OPEN-SHADING-LANGUAGE}
 ```
@@ -139,7 +139,7 @@ public static final ShadingLanguage OPEN_SHADING_LANGUAGE
 ```
 
 
-ओपन शेडिंग भाषा Sony Pictures Imageworks द्वारा विकसित की गई है और इसके Arnold रेंडरर में उपयोग की जाती है।
+ओपन शेडिंग लैंग्वेज Sony Pictures Imageworks द्वारा विकसित की गई है और इसके Arnold रेंडरर में उपयोग होती है।
 
 ### PSSL {#PSSL}
 ```
@@ -147,7 +147,7 @@ public static final ShadingLanguage PSSL
 ```
 
 
-PlayStation Shader Language
+प्लेस्टेशन शेडर लैंग्वेज
 
 ### RENDER_MAN {#RENDER-MAN}
 ```
@@ -155,7 +155,7 @@ public static final ShadingLanguage RENDER_MAN
 ```
 
 
-RenderMan शेडिंग भाषा।
+RenderMan शेडिंग लैंग्वेज।
 
 ### SFX {#SFX}
 ```

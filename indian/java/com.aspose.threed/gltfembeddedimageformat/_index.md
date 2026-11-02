@@ -1,7 +1,7 @@
 ---
 title: "GltfEmbeddedImageFormat"
-second_title: "Aspose.3D for Java API Reference"
-description: "glTF एक्सपोर्टर निर्यात के दौरान टेक्सचर को कैसे एम्बेड करेगा।"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
+description: "ग्लTF निर्यातकर्ता निर्यात के दौरान टेक्सचर को कैसे एम्बेड करेगा।"
 type: docs
 weight: 281
 url: /hi/java/com.aspose.threed/gltfembeddedimageformat/
@@ -13,14 +13,14 @@ java.lang.Object, java.lang.Enum
 public enum GltfEmbeddedImageFormat extends Enum<GltfEmbeddedImageFormat>
 ```
 
-glTF एक्सपोर्टर निर्यात के दौरान टेक्सचर को कैसे एम्बेड करेगा।
+ग्लTF निर्यातकर्ता निर्यात के दौरान टेक्सचर को कैसे एम्बेड करेगा।
 ## फ़ील्ड्स
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [JPEG](#JPEG) | सभी असमर्थित छवि स्वरूपों को संभव हो तो jpeg में परिवर्तित किया जाएगा। |
-| [NO_CHANGE](#NO-CHANGE) | छवि को परिवर्तित न करें और जैसा है वैसा रखें। |
-| [PNG](#PNG) | सभी असमर्थित छवि स्वरूपों को संभव हो तो png में परिवर्तित किया जाएगा। |
+| [JPEG](#JPEG) | सभी असमर्थित चित्र स्वरूपों को संभव होने पर jpeg में परिवर्तित किया जाएगा। |
+| [NO_CHANGE](#NO-CHANGE) | चित्र को न बदलें और इसे जैसा है वैसा रखें। |
+| [PNG](#PNG) | सभी असमर्थित चित्र स्वरूपों को संभव होने पर png में परिवर्तित किया जाएगा। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -48,7 +48,7 @@ public static final GltfEmbeddedImageFormat JPEG
 ```
 
 
-सभी असमर्थित छवि स्वरूपों को संभव हो तो jpeg में परिवर्तित किया जाएगा।
+सभी असमर्थित चित्र स्वरूपों को संभव होने पर jpeg में परिवर्तित किया जाएगा।
 
 ### NO_CHANGE {#NO-CHANGE}
 ```
@@ -56,7 +56,7 @@ public static final GltfEmbeddedImageFormat NO_CHANGE
 ```
 
 
-छवि को परिवर्तित न करें और जैसा है वैसा रखें।
+चित्र को न बदलें और इसे जैसा है वैसा रखें।
 
 ### PNG {#PNG}
 ```
@@ -64,7 +64,7 @@ public static final GltfEmbeddedImageFormat PNG
 ```
 
 
-सभी असमर्थित छवि स्वरूपों को संभव हो तो png में परिवर्तित किया जाएगा।
+सभी असमर्थित चित्र स्वरूपों को संभव होने पर png में परिवर्तित किया जाएगा।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

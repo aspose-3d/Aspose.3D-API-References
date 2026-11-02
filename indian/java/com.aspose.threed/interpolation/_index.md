@@ -1,6 +1,6 @@
 ---
 title: "इंटरपोलेशन"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "की फ्रेम्स इंटरपोलेशन प्रकार।"
 type: docs
 weight: 283
@@ -19,11 +19,11 @@ public enum Interpolation extends Enum<Interpolation>
 | फ़ील्ड | विवरण |
 | --- | --- |
 | [BEZIER](#BEZIER) | एक बेज़ियर या हर्माइट स्प्लाइन। |
-| [B_SPLINE](#B-SPLINE) | बेसिस स्प्लाइन्स को नियंत्रण बिंदुओं की श्रृंखला द्वारा परिभाषित किया जाता है, जिसके लिए वक्र केवल पहले और अंतिम बिंदु से होकर गुजरने की गारंटी देता है। |
-| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | एक कार्डिनल स्प्लाइन एक क्यूबिक हर्माइट स्प्लाइन है जिसका टैन्जेंट एंडपॉइंट्स और एक टेंशन पैरामीटर द्वारा परिभाषित होता है। |
-| [CONSTANT](#CONSTANT) | मान अगले खंड तक पहले बिंदु के मान के समान स्थिर रहेगा। |
-| [LINEAR](#LINEAR) | लीनियर इंटरपोलेशन दो बिंदुओं के बीच एक सीधी रेखा है। |
-| [TCB_SPLINE](#TCB-SPLINE) | इसे कोकेनेक-बार्टेल्स स्प्लाइन भी कहा जाता है, टैन्जेंट का व्यवहार टेंशन/बायस/कंटिन्युटी द्वारा परिभाषित होता है। |
+| [B_SPLINE](#B-SPLINE) | बेसिस स्प्लाइन को नियंत्रण बिंदुओं की श्रृंखला द्वारा परिभाषित किया जाता है, जिसके लिए वक्र केवल पहले और अंतिम बिंदु से होकर ही गुजरता है, यह सुनिश्चित किया जाता है। |
+| [CARDINAL_SPLINE](#CARDINAL-SPLINE) | एक cardinal spline एक cubic Hermite spline है जिसका टैन्जेंट अंत बिंदुओं और एक tension पैरामीटर द्वारा परिभाषित किया जाता है। |
+| [CONSTANT](#CONSTANT) | मान अगले खंड तक पहले बिंदु के मान के बराबर स्थिर रहेगा। |
+| [LINEAR](#LINEAR) | Linear interpolation दो बिंदुओं के बीच एक सीधी रेखा है। |
+| [TCB_SPLINE](#TCB-SPLINE) | Kochanek-Bartels spline के रूप में भी जाना जाता है, टैन्जेंट का व्यवहार tension/bias/continuity द्वारा परिभाषित होता है। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -59,7 +59,7 @@ public static final Interpolation B_SPLINE
 ```
 
 
-बेसिस स्प्लाइन्स को नियंत्रण बिंदुओं की श्रृंखला द्वारा परिभाषित किया जाता है, जिसके लिए वक्र केवल पहले और अंतिम बिंदु से होकर गुजरने की गारंटी देता है।
+बेसिस स्प्लाइन को नियंत्रण बिंदुओं की श्रृंखला द्वारा परिभाषित किया जाता है, जिसके लिए वक्र केवल पहले और अंतिम बिंदु से होकर ही गुजरता है, यह सुनिश्चित किया जाता है।
 
 ### CARDINAL_SPLINE {#CARDINAL-SPLINE}
 ```
@@ -67,7 +67,7 @@ public static final Interpolation CARDINAL_SPLINE
 ```
 
 
-एक कार्डिनल स्प्लाइन एक क्यूबिक हर्माइट स्प्लाइन है जिसका टैन्जेंट एंडपॉइंट्स और एक टेंशन पैरामीटर द्वारा परिभाषित होता है।
+एक cardinal spline एक cubic Hermite spline है जिसका टैन्जेंट अंत बिंदुओं और एक tension पैरामीटर द्वारा परिभाषित किया जाता है।
 
 ### CONSTANT {#CONSTANT}
 ```
@@ -75,7 +75,7 @@ public static final Interpolation CONSTANT
 ```
 
 
-मान अगले खंड तक पहले बिंदु के मान के समान स्थिर रहेगा।
+मान अगले खंड तक पहले बिंदु के मान के बराबर स्थिर रहेगा।
 
 ### LINEAR {#LINEAR}
 ```
@@ -83,7 +83,7 @@ public static final Interpolation LINEAR
 ```
 
 
-लीनियर इंटरपोलेशन दो बिंदुओं के बीच एक सीधी रेखा है।
+Linear interpolation दो बिंदुओं के बीच एक सीधी रेखा है।
 
 ### TCB_SPLINE {#TCB-SPLINE}
 ```
@@ -91,7 +91,7 @@ public static final Interpolation TCB_SPLINE
 ```
 
 
-इसे कोकेनेक-बार्टेल्स स्प्लाइन भी कहा जाता है, टैन्जेंट का व्यवहार टेंशन/बायस/कंटिन्युटी द्वारा परिभाषित होता है।
+Kochanek-Bartels spline के रूप में भी जाना जाता है, टैन्जेंट का व्यवहार tension/bias/continuity द्वारा परिभाषित होता है।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

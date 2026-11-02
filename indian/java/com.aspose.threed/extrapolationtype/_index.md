@@ -1,6 +1,6 @@
 ---
 title: "ExtrapolationType"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "एक्सट्रापोलेशन प्रकार।"
 type: docs
 weight: 278
@@ -18,11 +18,11 @@ public enum ExtrapolationType extends Enum<ExtrapolationType>
 
 | फ़ील्ड | विवरण |
 | --- | --- |
-| [CONSTANT](#CONSTANT) | मान अंतिम मान के समान रहेगा |
+| [CONSTANT](#CONSTANT) | मान पिछले मान के समान रहेगा। |
 | [CYCLE](#CYCLE) | पुनरावृत्ति। |
-| [CYCLE_RELATIVE](#CYCLE-RELATIVE) | पिछले मान के आधार पर पूर्व पैटर्न दोहराएँ |
-| [GRADIENT](#GRADIENT) | मान समय के साथ समान ढाल रखेगा |
-| [OSCILLATE](#OSCILLATE) | मिरर पुनरावृत्ति। |
+| [CYCLE_RELATIVE](#CYCLE-RELATIVE) | पिछले मान के आधार पर पूर्व पैटर्न दोहराएँ। |
+| [GRADIENT](#GRADIENT) | मान समय के साथ समान ढाल बनाए रखेगा। |
+| [OSCILLATE](#OSCILLATE) | दर्पण पुनरावृत्ति। |
 ## विधियाँ
 
 | विधि | विवरण |
@@ -50,7 +50,7 @@ public static final ExtrapolationType CONSTANT
 ```
 
 
-मान अंतिम मान के समान रहेगा
+मान पिछले मान के समान रहेगा।
 
 ### CYCLE {#CYCLE}
 ```
@@ -66,7 +66,7 @@ public static final ExtrapolationType CYCLE_RELATIVE
 ```
 
 
-पिछले मान के आधार पर पूर्व पैटर्न दोहराएँ
+पिछले मान के आधार पर पूर्व पैटर्न दोहराएँ।
 
 ### GRADIENT {#GRADIENT}
 ```
@@ -74,7 +74,7 @@ public static final ExtrapolationType GRADIENT
 ```
 
 
-मान समय के साथ समान ढाल रखेगा
+मान समय के साथ समान ढाल बनाए रखेगा।
 
 ### OSCILLATE {#OSCILLATE}
 ```
@@ -82,7 +82,7 @@ public static final ExtrapolationType OSCILLATE
 ```
 
 
-मिरर पुनरावृत्ति।
+दर्पण पुनरावृत्ति।
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "VertexElementUserData"
-second_title: "Aspose.3D for Java API Reference"
+second_title: "Aspose.3D for Java API रेफ़रेंस"
 description: "निर्दिष्ट घटकों के लिए कस्टम उपयोगकर्ता डेटा को परिभाषित करता है।"
 type: docs
 weight: 221
@@ -13,35 +13,35 @@ java.lang.Object, [com.aspose.threed.VertexElement](../../com.aspose.threed/vert
 public class VertexElementUserData extends VertexElement
 ```
 
-निर्दिष्ट घटकों के लिए कस्टम उपयोगकर्ता डेटा परिभाषित करता है। आमतौर पर यह विशेष उद्देश्य के लिए एप्लिकेशन-विशिष्ट डेटा होता है।
-## कंस्ट्रक्टर
+निर्दिष्ट घटकों के लिए कस्टम उपयोगकर्ता डेटा परिभाषित करता है। आमतौर पर यह विशेष प्रयोजन के लिए एप्लिकेशन-विशिष्ट डेटा होता है।
+## निर्माता
 
-| कंस्ट्रक्टर | विवरण |
+| निर्माता | विवरण |
 | --- | --- |
-| [VertexElementUserData()](#VertexElementUserData--) | एक नया उदाहरण इनिशियलाइज़ करता है [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) क्लास का। |
+| [VertexElementUserData()](#VertexElementUserData--) | नए उदाहरण को प्रारंभ करता है [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) क्लास का। |
 ## विधियाँ
 
 | विधि | विवरण |
 | --- | --- |
-| [clear()](#clear--) | इस वर्टेक्स तत्व से सभी डेटा साफ़ करता है। |
+| [clear()](#clear--) | इस VertexElement से सभी डेटा साफ़ करता है। |
 | [clone(boolean withData)](#clone-boolean-) | वर्टेक्स तत्व की गहरी क्लोन बनाता है। |
 | [clone(boolean withDirect, boolean withIndice)](#clone-boolean-boolean-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getData()](#getData--) | इस तत्व में संलग्न उपयोगकर्ता डेटा |
+| [getData()](#getData--) | इस तत्व में संलग्न उपयोगकर्ता डेटा। |
 | [getIndices()](#getIndices--) | इंडेक्स डेटा प्राप्त करता है। |
-| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, यह प्राप्त करता है। |
+| [getMappingMode()](#getMappingMode--) | तत्व कैसे मैप किया गया है, प्राप्त करता है। |
 | [getName()](#getName--) | नाम प्राप्त करता है। |
-| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है। |
+| [getReferenceMode()](#getReferenceMode--) | तत्व कैसे संदर्भित किया गया है, प्राप्त करता है। |
 | [getVertexElementType()](#getVertexElementType--) | [VertexElement](../../com.aspose.threed/vertexelement) का प्रकार प्राप्त करता है। |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(Object value)](#setData-java.lang.Object-) | इस तत्व में संलग्न उपयोगकर्ता डेटा |
+| [setData(Object value)](#setData-java.lang.Object-) | इस तत्व में संलग्न उपयोगकर्ता डेटा। |
 | [setIndices(int[] data)](#setIndices-int---) | इंडेक्स लोड करें |
-| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, यह सेट करता है। |
+| [setMappingMode(MappingMode value)](#setMappingMode-com.aspose.threed.MappingMode-) | तत्व कैसे मैप किया गया है, सेट करता है। |
 | [setName(String value)](#setName-java.lang.String-) | नाम सेट करता है। |
-| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, यह सेट करता है। |
+| [setReferenceMode(ReferenceMode value)](#setReferenceMode-com.aspose.threed.ReferenceMode-) | तत्व कैसे संदर्भित किया गया है, सेट करता है। |
 | [toString()](#toString--) | वर्टेक्स तत्व का स्ट्रिंग प्रतिनिधित्व। |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,7 @@ public VertexElementUserData()
 ```
 
 
-एक नया उदाहरण इनिशियलाइज़ करता है [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) क्लास का।
+नए उदाहरण को प्रारंभ करता है [VertexElementUserData](../../com.aspose.threed/vertexelementuserdata) क्लास का।
 
 ### clear() {#clear--}
 ```
@@ -60,7 +60,7 @@ public void clear()
 ```
 
 
-इस वर्टेक्स तत्व से सभी डेटा साफ़ करता है।
+इस VertexElement से सभी डेटा साफ़ करता है।
 
 ### clone(boolean withData) {#clone-boolean-}
 ```
@@ -73,7 +73,7 @@ public VertexElement clone(boolean withData)
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें। |
+| withData | boolean | डायरेक्ट और इंडेक्स एरे के साथ वर्टेक्स को क्लोन करें |
 
 **Returns:**
 [VertexElement](../../com.aspose.threed/vertexelement)
@@ -124,10 +124,10 @@ public Object getData()
 ```
 
 
-इस तत्व में संलग्न उपयोगकर्ता डेटा
+इस तत्व में संलग्न उपयोगकर्ता डेटा।
 
 **Returns:**
-java.lang.Object - इस तत्व में संलग्न उपयोगकर्ता डेटा
+java.lang.Object - इस तत्व में संलग्न उपयोगकर्ता डेटा।
 ### getIndices() {#getIndices--}
 ```
 public List<Integer> getIndices()
@@ -144,7 +144,7 @@ public MappingMode getMappingMode()
 ```
 
 
-तत्व कैसे मैप किया गया है, यह प्राप्त करता है।
+तत्व कैसे मैप किया गया है, प्राप्त करता है।
 
 **Returns:**
 [MappingMode](../../com.aspose.threed/mappingmode) - how the element is mapped.
@@ -164,7 +164,7 @@ public ReferenceMode getReferenceMode()
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह प्राप्त करता है।
+तत्व कैसे संदर्भित किया गया है, प्राप्त करता है।
 
 **Returns:**
 [ReferenceMode](../../com.aspose.threed/referencemode) - how the element is referenced.
@@ -210,7 +210,7 @@ public void setData(Object value)
 ```
 
 
-इस तत्व में संलग्न उपयोगकर्ता डेटा
+इस तत्व में संलग्न उपयोगकर्ता डेटा।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -236,7 +236,7 @@ public void setMappingMode(MappingMode value)
 ```
 
 
-तत्व कैसे मैप किया गया है, यह सेट करता है।
+तत्व कैसे मैप किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
@@ -262,7 +262,7 @@ public void setReferenceMode(ReferenceMode value)
 ```
 
 
-तत्व कैसे संदर्भित किया गया है, यह सेट करता है।
+तत्व कैसे संदर्भित किया गया है, सेट करता है।
 
 **Parameters:**
 | पैरामीटर | प्रकार | विवरण |
