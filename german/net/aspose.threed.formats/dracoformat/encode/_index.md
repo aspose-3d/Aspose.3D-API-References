@@ -1,14 +1,14 @@
 ---
-title: Encode
-second_title: Aspose.3D für .NET-API-Referenz
-description: Codieren Sie die Entität in den angegebenen Stream
+title: "DracoFormat.Encode"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "DracoFormat-Methode. Kodiert die Entität in den angegebenen Stream."
 type: docs
 weight: 20
 url: /de/net/aspose.threed.formats/dracoformat/encode/
 ---
 ## Encode(Entity, Stream, DracoSaveOptions) {#encode_1}
 
-Codieren Sie die Entität in den angegebenen Stream
+Kodiert das Objekt in den angegebenen Stream
 
 ```csharp
 public void Encode(Entity entity, Stream stream, DracoSaveOptions options = null)
@@ -16,23 +16,41 @@ public void Encode(Entity entity, Stream stream, DracoSaveOptions options = null
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| entity | Entity | Die zu codierende Entität |
-| stream | Stream | Der Stream, in den codierte Daten geschrieben werden |
-| options | DracoSaveOptions | Zusätzliche Optionen zum Codieren der Punktwolke |
+| Entität | Entität | Die zu kodierende Entität |
+| Stream | Stream | Der Stream, in den die kodierten Daten geschrieben werden |
+| options | DracoSaveOptions | Zusätzliche Optionen zum Kodieren der Punktwolke |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| IOException | Wird ausgelöst, wenn das Lesen aus dem Stream fehlschlägt |
+
+## Beispiele
+
+Der folgende Code zeigt, wie man ein Mesh in ein Byte-Array kodiert und daraus dekodiert:
+
+```csharp
+Mesh mesh = (new Sphere()).ToMesh();
+//Mesh in Draco-Format kodieren
+byte[] draco = FileFormat.Draco.Encode(mesh);
+//Mesh aus Draco-Format dekodieren
+Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
+```
 
 ### Siehe auch
 
-* class [Entity](../../../aspose.threed/entity)
-* class [DracoSaveOptions](../../dracosaveoptions)
-* class [DracoFormat](../../dracoformat)
-* namensraum [Aspose.ThreeD.Formats](../../dracoformat)
-* Montage [Aspose.3D](../../../)
+* class [Entity](../../../aspose.threed/entity/)
+* class [DracoSaveOptions](../../dracosaveoptions/)
+* class [DracoFormat](../)
+* namespace [Aspose.ThreeD.Formats](../../dracoformat/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Encode(Entity, string, DracoSaveOptions) {#encode_2}
 
-Codieren Sie die Entität in die angegebene Datei
+Kodiert das Objekt in die angegebene Datei
 
 ```csharp
 public void Encode(Entity entity, string fileName, DracoSaveOptions options = null)
@@ -40,23 +58,41 @@ public void Encode(Entity entity, string fileName, DracoSaveOptions options = nu
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| entity | Entity | Die zu codierende Entität |
+| Entität | Entität | Die zu kodierende Entität |
 | fileName | String | Der zu schreibende Dateiname |
-| options | DracoSaveOptions | Zusätzliche Optionen zum Codieren der Punktwolke |
+| options | DracoSaveOptions | Zusätzliche Optionen zum Kodieren der Punktwolke |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| IOException | Wird ausgelöst, wenn das Lesen aus der Datei fehlschlägt. |
+
+## Beispiele
+
+Der folgende Code zeigt, wie man ein Mesh in ein Byte-Array kodiert und daraus dekodiert:
+
+```csharp
+Mesh mesh = (new Sphere()).ToMesh();
+//Mesh in Draco-Format kodieren
+byte[] draco = FileFormat.Draco.Encode(mesh);
+//Mesh aus Draco-Format dekodieren
+Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
+```
 
 ### Siehe auch
 
-* class [Entity](../../../aspose.threed/entity)
-* class [DracoSaveOptions](../../dracosaveoptions)
-* class [DracoFormat](../../dracoformat)
-* namensraum [Aspose.ThreeD.Formats](../../dracoformat)
-* Montage [Aspose.3D](../../../)
+* class [Entity](../../../aspose.threed/entity/)
+* class [DracoSaveOptions](../../dracosaveoptions/)
+* class [DracoFormat](../)
+* namespace [Aspose.ThreeD.Formats](../../dracoformat/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Encode(Entity, DracoSaveOptions) {#encode}
 
-Codieren Sie die Entität in Draco-Rohdaten
+Kodiert das Objekt in rohe Draco‑Daten
 
 ```csharp
 public byte[] Encode(Entity entity, DracoSaveOptions options = null)
@@ -64,19 +100,31 @@ public byte[] Encode(Entity entity, DracoSaveOptions options = null)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| entity | Entity | Die zu codierende Entität |
-| options | DracoSaveOptions | Zusätzliche Optionen zum Codieren der Punktwolke |
+| Entität | Entität | Die zu kodierende Entität |
+| options | DracoSaveOptions | Zusätzliche Optionen zum Kodieren der Punktwolke |
 
 ### Rückgabewert
 
-Die codierten Draco-Daten, dargestellt in Bytes
+Die kodierten Draco-Daten, dargestellt in Bytes
+
+## Beispiele
+
+Der folgende Code zeigt, wie man ein Mesh in ein Byte-Array kodiert und daraus dekodiert:
+
+```csharp
+Mesh mesh = (new Sphere()).ToMesh();
+//Mesh in Draco-Format kodieren
+byte[] draco = FileFormat.Draco.Encode(mesh);
+//Mesh aus Draco-Format dekodieren
+Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
+```
 
 ### Siehe auch
 
-* class [Entity](../../../aspose.threed/entity)
-* class [DracoSaveOptions](../../dracosaveoptions)
-* class [DracoFormat](../../dracoformat)
-* namensraum [Aspose.ThreeD.Formats](../../dracoformat)
-* Montage [Aspose.3D](../../../)
+* class [Entity](../../../aspose.threed/entity/)
+* class [DracoSaveOptions](../../dracosaveoptions/)
+* class [DracoFormat](../)
+* namespace [Aspose.ThreeD.Formats](../../dracoformat/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

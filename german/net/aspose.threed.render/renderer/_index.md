@@ -1,9 +1,9 @@
 ---
-title: Renderer
-second_title: Aspose.3D für .NET-API-Referenz
-description: Der Kontext zum Renderer.
+title: "Klasse Renderer"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Aspose.ThreeD.Render.Renderer Klasse. Der Kontext zum Renderer"
 type: docs
-weight: 2100
+weight: 2340
 url: /de/net/aspose.threed.render/renderer/
 ---
 ## Renderer class
@@ -18,36 +18,36 @@ public abstract class Renderer : IDisposable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AssetDirectories](../../aspose.threed.render/renderer/assetdirectories) { get; } | Verzeichnisse, die externe Assets gespeichert haben |
-| [EnableShadows](../../aspose.threed.render/renderer/enableshadows) { get; set; } | Ruft ab oder legt fest, ob Schatten aktiviert werden sollen. |
-| [FallbackEntityRenderer](../../aspose.threed.render/renderer/fallbackentityrenderer) { get; set; } | Ruft den Fallback-Entitätsrenderer ab oder legt ihn fest, wenn für die Entität kein spezieller Renderer definiert ist. |
-| virtual [Frustum](../../aspose.threed.render/renderer/frustum) { get; set; } | Ruft das Frustum ab oder legt es fest, das verwendet wurde, um die Ansichtsmatrix bereitzustellen. |
-| virtual [Material](../../aspose.threed.render/renderer/material) { get; set; } | Ruft das Material ab oder legt es fest, das verwendet wurde, um von Shadern verwendete Materialinformationen bereitzustellen. |
-| [Node](../../aspose.threed.render/renderer/node) { get; set; } | Ruft ab oder setzt die[`Node`](./node) Instanz, die verwendet wird, um die Welttransformationsmatrix bereitzustellen. |
-| [PostProcessings](../../aspose.threed.render/renderer/postprocessings) { get; } | Aktive Nachbearbeitungskette |
-| [PresetShaders](../../aspose.threed.render/renderer/presetshaders) { get; set; } | Holt oder setzt den voreingestellten Shader set |
-| abstract [RenderFactory](../../aspose.threed.render/renderer/renderfactory) { get; } | Ruft die Factory ab, um renderbezogene Objekte zu erstellen. |
-| [RenderStage](../../aspose.threed.render/renderer/renderstage) { get; } | Ruft die aktuelle Renderstufe ab. |
-| [RenderTarget](../../aspose.threed.render/renderer/rendertarget) { get; } | Geben Sie das Renderziel an, für das die folgenden Rendervorgänge ausgeführt werden. |
-| [Shader](../../aspose.threed.render/renderer/shader) { get; set; } | Ruft die zum Rendern der Geometrie verwendete Shader-Instanz ab oder legt sie fest. |
-| [ShaderSet](../../aspose.threed.render/renderer/shaderset) { get; set; } | Ruft das Shader-Set ab oder legt es fest, das zum Rendern der Szene verwendet wurde |
-| [Variables](../../aspose.threed.render/renderer/variables) { get; } | Zugriff auf die zum Rendern verwendeten internen Variablen |
+| [AssetDirectories](../../aspose.threed.render/renderer/assetdirectories/) { get; } | Verzeichnisse, die externe Assets speichern |
+| [EnableShadows](../../aspose.threed.render/renderer/enableshadows/) { get; set; } | Liest oder setzt, ob Schatten aktiviert werden sollen. |
+| [FallbackEntityRenderer](../../aspose.threed.render/renderer/fallbackentityrenderer/) { get; set; } | Liest oder setzt den Fallback-Entitätsrenderer, wenn für die Entität kein spezieller Renderer definiert ist. |
+| virtual [Frustum](../../aspose.threed.render/renderer/frustum/) { get; set; } | Liest oder setzt das Sichtvolumen, das zur Bereitstellung der Ansichtsmatrix verwendet wird. |
+| virtual [Material](../../aspose.threed.render/renderer/material/) { get; set; } | Liest oder setzt das Material, das zur Bereitstellung von Materialinformationen verwendet wird, die von Shadern genutzt werden. |
+| [Node](../../aspose.threed.render/renderer/node/) { get; set; } | Liest oder setzt die [`Node`](./node/) Instanz, die zur Bereitstellung der Welttransformationsmatrix verwendet wird. |
+| [PostProcessings](../../aspose.threed.render/renderer/postprocessings/) { get; } | Aktive Nachbearbeitungskette |
+| [PresetShaders](../../aspose.threed.render/renderer/presetshaders/) { get; set; } | Liest oder setzt das voreingestellte Shader-Set |
+| abstract [RenderFactory](../../aspose.threed.render/renderer/renderfactory/) { get; } | Liest die Fabrik zum Erzeugen renderbezogener Objekte. |
+| [RenderStage](../../aspose.threed.render/renderer/renderstage/) { get; } | Liest die aktuelle Renderstufe. |
+| [RenderTarget](../../aspose.threed.render/renderer/rendertarget/) { get; } | Geben Sie das Renderziel an, auf dem die folgenden Renderoperationen ausgeführt werden. |
+| [Shader](../../aspose.threed.render/renderer/shader/) { get; set; } | Liest oder setzt die Shader-Instanz, die zum Rendern der Geometrie verwendet wird. |
+| [ShaderSet](../../aspose.threed.render/renderer/shaderset/) { get; set; } | Liest oder setzt das Shader-Set, das zum Rendern der Szene verwendet wird |
+| [Variables](../../aspose.threed.render/renderer/variables/) { get; } | Zugriff auf die internen Variablen, die für das Rendern verwendet werden |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateRenderer](../../aspose.threed.render/renderer/createrenderer)() | Erstellt eine neue[`Renderer`](../renderer)mit Standardprofil. |
-| virtual [ClearCache](../../aspose.threed.render/renderer/clearcache)() | Leeren Sie den Cache manuell. Aspose.3D speichert einige Objekte wie Materialien/Geometrien in internen Typen, die mit der Renderpipeline kompatibel sind. Dies sollte manuell aufgerufen werden, wenn die Szene größere Änderungen aufweist. |
-| [Dispose](../../aspose.threed.render/renderer/dispose)() | Entsorgen Sie die[`Renderer`](../renderer) und alle zugehörigen Ressourcen |
-| abstract [Execute](../../aspose.threed.render/renderer/execute)(PostProcessing, IRenderTarget) | Führt eine Nachbearbeitung auf dem angegebenen Renderziel aus |
-| [GetPostProcessing](../../aspose.threed.render/renderer/getpostprocessing)(string) | Ruft einen integrierten Postprozessor ab, der vom Renderer unterstützt wird. |
-| virtual [RegisterEntityRenderer](../../aspose.threed.render/renderer/registerentityrenderer)(EntityRenderer) | Registrieren Sie den Entitäts-Renderer für die angegebene Entität |
-| virtual [Render](../../aspose.threed.render/renderer/render)(IRenderTarget) | Rendern des angegebenen Ziels |
+| static [CreateRenderer](../../aspose.threed.render/renderer/createrenderer/)() | Erstellt einen neuen `Renderer` mit dem Standardprofil. |
+| virtual [ClearCache](../../aspose.threed.render/renderer/clearcache/)() | Cache manuell leeren. Aspose.3D cached einige Objekte wie Materialien/Geometrien in internen Typen, die mit der Rendering-Pipeline kompatibel sind. Dies sollte manuell aufgerufen werden, wenn die Szene größere Änderungen erfährt. |
+| [Dispose](../../aspose.threed.render/renderer/dispose/)() | Entfernen Sie den `Renderer` und alle zugehörigen Ressourcen |
+| abstract [Execute](../../aspose.threed.render/renderer/execute/)(PostProcessing, IRenderTarget) | Führen Sie eine Nachbearbeitung auf dem angegebenen Renderziel aus |
+| [GetPostProcessing](../../aspose.threed.render/renderer/getpostprocessing/)(string) | Gibt einen integrierten Nachbearbeiter zurück, der vom Renderer unterstützt wird. |
+| virtual [RegisterEntityRenderer](../../aspose.threed.render/renderer/registerentityrenderer/)(EntityRenderer) | Registrieren Sie den Entity-Renderer für die angegebene Entität |
+| virtual [Render](../../aspose.threed.render/renderer/render/)(IRenderTarget) | Rendern Sie das angegebene Ziel |
 
 ### Siehe auch
 
-* namensraum [Aspose.ThreeD.Render](../../aspose.threed.render)
-* Montage [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

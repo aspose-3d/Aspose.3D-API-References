@@ -1,14 +1,14 @@
 ---
-title: Bind
-second_title: Aspose.3D für .NET-API-Referenz
-description: Binden Sie den Puffer an den aktuellen Deskriptor set
+title: "DescriptorSetUpdater.Bind"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "DescriptorSetUpdater Methode. Bindet den Puffer an das aktuelle Deskriptorset"
 type: docs
 weight: 10
 url: /de/net/aspose.threed.render/descriptorsetupdater/bind/
 ---
 ## Bind(IBuffer, int, int) {#bind_1}
 
-Binden Sie den Puffer an den aktuellen Deskriptor set
+Binden Sie den Puffer an das aktuelle Deskriptorset
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
@@ -16,20 +16,20 @@ public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| buffer | IBuffer | Welcher Puffer zu binden ist |
-| offset | Int32 | Offset des zu bindenden Puffers |
-| size | Int32 | Größe des zu bindenden Puffers |
+| Puffer | IBuffer | Welcher Puffer gebunden werden soll |
+| offset | Int32 | Versatz des zu bindenden Puffers |
+| Größe | Int32 | Größe des zu bindenden Puffers |
 
 ### Rückgabewert
 
-Gibt die aktuelle Instanz für den Verkettungsvorgang zurück
+Gibt die aktuelle Instanz für Verkettungsoperation zurück
 
 ### Siehe auch
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* namensraum [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Montage [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -43,24 +43,24 @@ public DescriptorSetUpdater Bind(IBuffer buffer)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| buffer | IBuffer |  |
+| Puffer | IBuffer |  |
 
 ### Rückgabewert
 
-Gibt die aktuelle Instanz für den Verkettungsvorgang zurück
+Gibt die aktuelle Instanz für Verkettungsoperation zurück
 
 ### Siehe auch
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* namensraum [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Montage [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer) {#bind_3}
 
-Binden Sie den Puffer an den aktuellen Deskriptorsatz an der angegebenen Bindungsstelle.
+Binden Sie den Puffer an das aktuelle Deskriptorset an der angegebenen Bindungsstelle.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
@@ -68,25 +68,25 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| binding | Int32 | Bindungsort |
-| buffer | IBuffer | Der gesamte zu bindende Puffer |
+| Bindung | Int32 | Bindungsort |
+| Puffer | IBuffer | Der gesamte zu bindende Puffer |
 
 ### Rückgabewert
 
-Gibt die aktuelle Instanz für den Verkettungsvorgang zurück
+Gibt die aktuelle Instanz für Verkettungsoperation zurück
 
 ### Siehe auch
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* namensraum [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Montage [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer, int, int) {#bind_4}
 
-Binden Sie den Puffer an den aktuellen Deskriptorsatz an der angegebenen Bindungsstelle.
+Binden Sie den Puffer an das aktuelle Deskriptorset an der angegebenen Bindungsstelle.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int size)
@@ -94,27 +94,27 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int si
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| binding | Int32 | Bindungsort |
-| buffer | IBuffer | Der zu bindende Puffer |
-| offset | Int32 | Offset des zu bindenden Puffers |
-| size | Int32 | Größe des zu bindenden Puffers |
+| Bindung | Int32 | Bindungsort |
+| Puffer | IBuffer | Der zu bindende Puffer |
+| offset | Int32 | Versatz des zu bindenden Puffers |
+| Größe | Int32 | Größe des zu bindenden Puffers |
 
 ### Rückgabewert
 
-Gibt die aktuelle Instanz für den Verkettungsvorgang zurück
+Gibt die aktuelle Instanz für Verkettungsoperation zurück
 
 ### Siehe auch
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* namensraum [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Montage [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(ITextureUnit) {#bind_2}
 
-Binden Sie die Textureinheit an den aktuellen Deskriptorsatz
+Binden Sie die Textureinheit an das aktuelle Deskriptorset
 
 ```csharp
 public DescriptorSetUpdater Bind(ITextureUnit texture)
@@ -126,20 +126,20 @@ public DescriptorSetUpdater Bind(ITextureUnit texture)
 
 ### Rückgabewert
 
-Gibt die aktuelle Instanz für den Verkettungsvorgang zurück
+Gibt die aktuelle Instanz für Verkettungsoperation zurück
 
 ### Siehe auch
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* namensraum [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Montage [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, ITextureUnit) {#bind_5}
 
-Binden Sie die Textureinheit an den aktuellen Deskriptorsatz
+Binden Sie die Textureinheit an das aktuelle Deskriptorset
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
@@ -147,18 +147,18 @@ public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| binding | Int32 | Der Bindungsort |
+| Bindung | Int32 | Der Bindungsort |
 | texture | ITextureUnit | Die zu bindende Textureinheit |
 
 ### Rückgabewert
 
-Gibt die aktuelle Instanz für den Verkettungsvorgang zurück
+Gibt die aktuelle Instanz für Verkettungsoperation zurück
 
 ### Siehe auch
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* namensraum [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Montage [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

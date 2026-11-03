@@ -1,7 +1,7 @@
 ---
-title: Write
-second_title: Aspose.3D für .NET-API-Referenz
-description: Schreibe die Matrix in den Binärschreiber
+title: "IOUtils.Write"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "IOUtils-Methode. Schreibt die Matrix in den BinaryWriter"
 type: docs
 weight: 10
 url: /de/net/aspose.threed.utilities/ioutils/write/
@@ -16,15 +16,15 @@ public static void Write(this BinaryWriter writer, Matrix4 mat)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| writer | BinaryWriter | Ziel-Binärschreiber |
-| mat | Matrix4 | Matrix zu schreiben |
+| Writer | BinaryWriter | Ziel-BinaryWriter |
+| mat | Matrix4 | Zu schreibende Matrix |
 
 ### Siehe auch
 
-* struct [Matrix4](../../matrix4)
-* class [IOUtils](../../ioutils)
-* namensraum [Aspose.ThreeD.Utilities](../../ioutils)
-* Montage [Aspose.3D](../../../)
+* struct [Matrix4](../../matrix4/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -38,15 +38,15 @@ public static void Write(this BinaryWriter writer, FMatrix4 mat)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| writer | BinaryWriter | Ziel-Binärschreiber |
-| mat | FMatrix4 | Matrix zu schreiben |
+| Writer | BinaryWriter | Ziel-BinaryWriter |
+| mat | FMatrix4 | Zu schreibende Matrix |
 
 ### Siehe auch
 
-* struct [FMatrix4](../../fmatrix4)
-* class [IOUtils](../../ioutils)
-* namensraum [Aspose.ThreeD.Utilities](../../ioutils)
-* Montage [Aspose.3D](../../../)
+* struct [FMatrix4](../../fmatrix4/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -60,15 +60,15 @@ public static void Write(this BinaryWriter writer, FVector2 v)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| writer | BinaryWriter | Ziel-Binärschreiber |
-| v | FVector2 | Vektor zum Schreiben |
+| Writer | BinaryWriter | Ziel-BinaryWriter |
+| v | FVector2 | Zu schreibender Vektor |
 
 ### Siehe auch
 
-* struct [FVector2](../../fvector2)
-* class [IOUtils](../../ioutils)
-* namensraum [Aspose.ThreeD.Utilities](../../ioutils)
-* Montage [Aspose.3D](../../../)
+* struct [FVector2](../../fvector2/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -82,15 +82,15 @@ public static void Write(this BinaryWriter writer, FVector3 v)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| writer | BinaryWriter | Ziel-Binärschreiber |
-| v | FVector3 | Vektor zum Schreiben |
+| Writer | BinaryWriter | Ziel-BinaryWriter |
+| v | FVector3 | Zu schreibender Vektor |
 
 ### Siehe auch
 
-* struct [FVector3](../../fvector3)
-* class [IOUtils](../../ioutils)
-* namensraum [Aspose.ThreeD.Utilities](../../ioutils)
-* Montage [Aspose.3D](../../../)
+* struct [FVector3](../../fvector3/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -104,15 +104,15 @@ public static void Write(this BinaryWriter writer, FVector4 v)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| writer | BinaryWriter | Ziel-Binärschreiber |
-| v | FVector4 | Vektor zum Schreiben |
+| Writer | BinaryWriter | Ziel-BinaryWriter |
+| v | FVector4 | Zu schreibender Vektor |
 
 ### Siehe auch
 
-* struct [FVector4](../../fvector4)
-* class [IOUtils](../../ioutils)
-* namensraum [Aspose.ThreeD.Utilities](../../ioutils)
-* Montage [Aspose.3D](../../../)
+* struct [FVector4](../../fvector4/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -126,15 +126,15 @@ public static void Write(this BinaryWriter writer, Vector2 v)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| writer | BinaryWriter | Ziel-Binärschreiber |
-| v | Vector2 | Vektor zum Schreiben |
+| Writer | BinaryWriter | Ziel-BinaryWriter |
+| v | Vector2 | Zu schreibender Vektor |
 
 ### Siehe auch
 
-* struct [Vector2](../../vector2)
-* class [IOUtils](../../ioutils)
-* namensraum [Aspose.ThreeD.Utilities](../../ioutils)
-* Montage [Aspose.3D](../../../)
+* struct [Vector2](../../vector2/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -148,15 +148,15 @@ public static void Write(this BinaryWriter writer, Vector3 v)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| writer | BinaryWriter | Ziel-Binärschreiber |
-| v | Vector3 | Vektor zum Schreiben |
+| Writer | BinaryWriter | Ziel-BinaryWriter |
+| v | Vector3 | Zu schreibender Vektor |
 
 ### Siehe auch
 
-* struct [Vector3](../../vector3)
-* class [IOUtils](../../ioutils)
-* namensraum [Aspose.ThreeD.Utilities](../../ioutils)
-* Montage [Aspose.3D](../../../)
+* struct [Vector3](../../vector3/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -170,14 +170,14 @@ public static void Write(this BinaryWriter writer, Vector4 v)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| writer | BinaryWriter | Ziel-Binärschreiber |
-| v | Vector4 | Vektor zum Schreiben |
+| Writer | BinaryWriter | Ziel-BinaryWriter |
+| v | Vector4 | Zu schreibender Vektor |
 
 ### Siehe auch
 
-* struct [Vector4](../../vector4)
-* class [IOUtils](../../ioutils)
-* namensraum [Aspose.ThreeD.Utilities](../../ioutils)
-* Montage [Aspose.3D](../../../)
+* struct [Vector4](../../vector4/)
+* class [IOUtils](../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

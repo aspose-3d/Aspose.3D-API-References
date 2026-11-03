@@ -1,78 +1,89 @@
 ---
-title: Aspose.ThreeD.Render
-second_title: Aspose.3D für .NET-API-Referenz
-description: Alle Renderingbezogenen Klassen sind in diesem Namensraum definiert
+title: "Aspose.ThreeD.Render"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Alle renderebezogenen Klassen sind in diesem Namensraum definiert"
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.threed.render/
 ---
-Alle Rendering-bezogenen Klassen sind in diesem Namensraum definiert
+Alle renderebezogenen Klassen sind in diesem Namensraum definiert
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [DescriptorSetUpdater](./descriptorsetupdater) | Diese Klasse ermöglicht die Aktualisierung der[`IDescriptorSet`](../aspose.threed.render/idescriptorset) in einer Kettenoperation. |
-| [DriverException](./driverexception) | Die von internen Rendering-Treibern ausgelöste Ausnahme. |
-| [EntityRenderer](./entityrenderer) | Unterklassifizieren Sie dies, um das Rendering für verschiedene Arten von Entitäten zu implementieren. |
-| [EntityRendererKey](./entityrendererkey) | Der Schlüssel der registrierten Entität renderer |
-| [GLSLSource](./glslsource) | Der Quellcode von Shadern in GLSL |
-| [InitializationException](./initializationexception) | Ausnahmen bei der Initialisierung der Renderpipeline |
-| [PostProcessing](./postprocessing) | Die Nachbearbeitungseffekte |
-| [PushConstant](./pushconstant) | Ein Dienstprogramm zur Bereitstellung von Daten für den Shader durch Push-Konstante. |
-| [Renderer](./renderer) | Der Kontext zum Renderer. |
-| [RendererVariableManager](./renderervariablemanager) | Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden. |
-| [RenderFactory](./renderfactory) | RenderFactory erstellt alle Ressourcen, die in der Rendering-Pipeline dargestellt werden. |
-| [RenderParameters](./renderparameters) | Beschreiben Sie die Parameter des Renderziels |
-| [RenderResource](./renderresource) | Die abstrakte Klasse aller Render-Ressourcen Alle Render-Ressourcen werden verworfen, wenn der Renderer veröffentlicht wird. Klassen wie[`Mesh`](../aspose.threed.entities/mesh)/[`Texture`](../aspose.threed.shading/texture) wird eine entsprechende RenderResource haben |
-| [RenderState](./renderstate) | Renderstatus zum Erstellen der Pipeline Die am Renderstatus vorgenommenen Änderungen wirken sich nicht auf die erstellten Pipelineinstanzen aus. |
-| [ShaderException](./shaderexception) | Shader-bezogene Ausnahmen |
-| [ShaderProgram](./shaderprogram) | Das Shader-Programm |
-| [ShaderSet](./shaderset) | Shader-Programme für jede Art von Materialien |
-| [ShaderSource](./shadersource) | Der Quellcode von shader |
-| [ShaderVariable](./shadervariable) | Shader-Variable |
-| [SPIRVSource](./spirvsource) | Der kompilierte Shader im SPIR-V-Format. |
-| [StencilState](./stencilstate) | Schablonenzustände pro Seite. |
-| [TextureData](./texturedata) | Diese Klasse enthält die Rohdaten und die Formatdefinition einer Textur. |
-| [Viewport](./viewport) | A[`IRenderTarget`](../aspose.threed.render/irendertarget) enthält mindestens ein Ansichtsfenster zum Rendern der Szene. |
-| [WindowHandle](./windowhandle) | Gekapselter Fenstergriff für verschiedene Plattformen. |
+| [DescriptorSetUpdater](./descriptorsetupdater/) | Diese Klasse ermöglicht das Aktualisieren des [`IDescriptorSet`](../aspose.threed.render/idescriptorset/) in einer Kettenoperation. |
+| [DriverException](./driverexception/) | Die von internen Rendering‑Treibern ausgelöste Ausnahme. |
+| [EntityRenderer](./entityrenderer/) | Erben Sie hiervon, um das Rendering für verschiedene Arten von Entitäten zu implementieren. |
+| [EntityRendererKey](./entityrendererkey/) | Der Schlüssel des registrierten Entitäts‑Renderers |
+| [GLSLSource](./glslsource/) | Der Quellcode von Shadern in GLSL |
+| [InitializationException](./initializationexception/) | Ausnahmen bei der Initialisierung der Rendering‑Pipeline |
+| [PixelMapping](./pixelmapping/) |  |
+| [PostProcessing](./postprocessing/) | Die Nachbearbeitungseffekte |
+| [PushConstant](./pushconstant/) | Ein Dienstprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln. |
+| [Renderer](./renderer/) | Der Kontext zum Renderer. |
+| [RendererVariableManager](./renderervariablemanager/) | Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden. |
+| [RenderFactory](./renderfactory/) | RenderFactory erstellt alle Ressourcen, die in der Rendering-Pipeline dargestellt werden. |
+| [RenderParameters](./renderparameters/) | Beschreibe die Parameter des Renderziels. |
+| [RenderResource](./renderresource/) | Die abstrakte Klasse aller Renderressourcen Alle Renderressourcen werden freigegeben, wenn der Renderer freigegeben wird. Klassen wie [`Mesh`](../aspose.threed.entities/mesh/)/[`Texture`](../aspose.threed.shading/texture/) haben ein entsprechendes RenderResource |
+| [RenderState](./renderstate/) | Renderzustand zum Aufbau der Pipeline Die Änderungen am Renderzustand wirken sich nicht auf die erstellten Pipeline-Instanzen aus. |
+| [ShaderException](./shaderexception/) | Shader-bezogene Ausnahmen |
+| [ShaderProgram](./shaderprogram/) | Das Shader-Programm |
+| [ShaderSet](./shaderset/) | Shader-Programme für jede Art von Materialien |
+| [ShaderSource](./shadersource/) | Der Quellcode des Shaders |
+| [ShaderVariable](./shadervariable/) | Shader-Variable |
+| [SPIRVSource](./spirvsource/) | Der kompilierte Shader im SPIR-V-Format. |
+| [StencilState](./stencilstate/) | Stencil-Zustände pro Seite. |
+| [TextureCodec](./texturecodec/) | Klasse zur Verwaltung von Encodern und Decodern für Texturen. |
+| [TextureData](./texturedata/) | Diese Klasse enthält die Rohdaten und die Formatdefinition einer Textur. |
+| [Viewport](./viewport/) | Ein [`IRenderTarget`](../aspose.threed.render/irendertarget/) enthält mindestens ein Viewport zum Rendern der Szene. |
+| [WindowHandle](./windowhandle/) | Kapselter Fenster-Handle für verschiedene Plattformen. |
+## Structures
+
+| Struktur | Beschreibung |
+| --- | --- |
+| [CubeFaceData&lt;T&gt;](./cubefacedata-1/) | Daten für jede Seite der Cube-Map-Textur. |
 ## Schnittstellen
 
 | Schnittstelle | Beschreibung |
 | --- | --- |
-| [IBuffer](./ibuffer) | Die Basisschnittstelle aller verwalteten Puffer, die beim Rendern verwendet werden |
-| [ICommandList](./icommandlist) | Codiert eine Folge von Befehlen, die zum Rendern an die GPU gesendet werden. |
-| [IDescriptorSet](./idescriptorset) | Die Deskriptorsätze beschreiben verschiedene Ressourcen, die zum Binden an die Renderpipeline verwendet werden können, wie Puffer, Texturen |
-| [IIndexBuffer](./iindexbuffer) | Der Indexpuffer beschreibt die Geometrie, die in der Rendering-Pipeline verwendet wird. |
-| [IPipeline](./ipipeline) | Die vorgebackene Abfolge von Vorgängen zum Zeichnen auf der GPU-Seite. |
-| [IRenderQueue](./irenderqueue) | Der Entity-Renderer verwendet diese Warteschlange, um Renderaufgaben zu verwalten. |
-| [IRenderTarget](./irendertarget) | Die Basisschnittstelle von render target |
-| [IRenderTexture](./irendertexture) | Die Oberfläche der Rendertextur |
-| [IRenderWindow](./irenderwindow) | IRenderWindow stellt das native Fenster dar, das vom Betriebssystem erstellt wird, das Rendering unterstützt. |
-| [ITexture1D](./itexture1d) | 1D-Textur |
-| [ITexture2D](./itexture2d) | 2D-Textur |
-| [ITextureCubemap](./itexturecubemap) | Würfelkartentextur |
-| [ITextureUnit](./itextureunit) | [`ITextureUnit`](../aspose.threed.render/itextureunit) stellt eine Textur im Speicher dar, die von GPU und CPU geteilt wird und vom Shader gesampelt werden kann, wobei die[`Texture`](../aspose.threed.shading/texture) stellt nur einen Verweis auf eine externe Datei dar. Weitere Details finden Sie unter https://en.wikipedia.org/wiki/Texture_mapping_unit |
-| [IVertexBuffer](./ivertexbuffer) | Der Vertex-Puffer enthält die Polygon-Vertex-Daten, die an die Rendering-Pipeline gesendet werden |
+| [IBuffer](./ibuffer/) | Die Basisschnittstelle aller verwalteten Puffer, die beim Rendern verwendet werden |
+| [ICommandList](./icommandlist/) | Kodiert eine Sequenz von Befehlen, die an die GPU zum Rendern gesendet werden. |
+| [IDescriptorSet](./idescriptorset/) | Die Deskriptorsätze beschreiben verschiedene Ressourcen, die an die Rendering-Pipeline gebunden werden können, wie Puffer, Texturen |
+| [IIndexBuffer](./iindexbuffer/) | Der Indexpuffer beschreibt die Geometrie, die in der Rendering-Pipeline verwendet wird. |
+| [IPipeline](./ipipeline/) | Die vorgefertigte Sequenz von Operationen zum Zeichnen auf GPU-Seite. |
+| [IRenderQueue](./irenderqueue/) | Der Entity-Renderer verwendet diese Warteschlange, um Renderaufgaben zu verwalten. |
+| [IRenderTarget](./irendertarget/) | Die Basisschnittstelle des Renderziels |
+| [IRenderTexture](./irendertexture/) | Die Schnittstelle der Render-Textur |
+| [IRenderWindow](./irenderwindow/) | IRenderWindow stellt das vom Betriebssystem erstellte native Fenster dar, das Rendering unterstützt. |
+| [ITexture1D](./itexture1d/) | 1D-Textur |
+| [ITexture2D](./itexture2d/) | 2D-Textur |
+| [ITextureCodec](./itexturecodec/) | Codec für Texturen |
+| [ITextureCubemap](./itexturecubemap/) | Cube-Map-Textur |
+| [ITextureDecoder](./itexturedecoder/) | Ein externer Texturdecoder sollte diese Schnittstelle für das Dekodieren implementieren. |
+| [ITextureEncoder](./itextureencoder/) | Ein externer Texturencoder sollte diese Schnittstelle für das Kodieren implementieren. |
+| [ITextureUnit](./itextureunit/) | [`ITextureUnit`](../aspose.threed.render/itextureunit/) repräsentiert eine Textur im Speicher, die zwischen GPU und CPU geteilt wird und vom Shader abgetastet werden kann, wobei [`Texture`](../aspose.threed.shading/texture/) nur einen Verweis auf eine externe Datei darstellt. Weitere Details finden Sie https://en.wikipedia.org/wiki/Texture_mapping_unit |
+| [IVertexBuffer](./ivertexbuffer/) | Der Vertex-Puffer enthält die Polygon-Vertex-Daten, die an die Rendering-Pipeline gesendet werden. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [BlendFactor](./blendfactor) | Mischfaktor gibt Pixelarithmetik an. |
-| [CompareFunction](./comparefunction) | Die Vergleichsfunktion, die beim Tiefen-/Schablonentest verwendet wird. |
-| [CubeFace](./cubeface) | Jede Fläche der Würfelkartentextur |
-| [CullFaceMode](./cullfacemode) | Welches Gesicht zu cull |
-| [DrawOperation](./drawoperation) | Die zu rendernden primitiven Typen |
-| [EntityRendererFeatures](./entityrendererfeatures) | Die zusätzlichen Funktionen, die der Entity-Renderer bereitstellt |
-| [FrontFace](./frontface) | Vorder- und Rückseitenpolygone definieren |
-| [IndexDataType](./indexdatatype) | Der Datentyp der Elemente in[`IIndexBuffer`](../aspose.threed.render/iindexbuffer) |
-| [PixelFormat](./pixelformat) | Das in der Textureinheit verwendete Pixelformat. |
-| [PolygonMode](./polygonmode) | Der Polygon-Rasterungsmodus |
-| [PresetShaders](./presetshaders) | Dies definiert die voreingestellten internen Shader, die vom Renderer verwendet werden. |
-| [RenderQueueGroupId](./renderqueuegroupid) | Die Gruppen-ID der Renderwarteschlange |
-| [RenderStage](./renderstage) | Die Renderstufe |
-| [ShaderStage](./shaderstage) | Shader-Bühne |
-| [StencilAction](./stencilaction) | Die Schablonentestaktionen |
-| [TextureType](./texturetype) | Der Typ der[`ITextureUnit`](../aspose.threed.render/itextureunit) |
+| [BlendFactor](./blendfactor/) | Der Blend-Faktor gibt die Pixelarithmetik an. |
+| [CompareFunction](./comparefunction/) | Die Vergleichsfunktion, die beim Tiefen-/Stencil-Test verwendet wird. |
+| [CubeFace](./cubeface/) | Jede Seite der Cube-Map-Textur |
+| [CullFaceMode](./cullfacemode/) | Welche Seite zu verwerfen ist |
+| [DrawOperation](./drawoperation/) | Die zu rendernden Primitive-Typen |
+| [EntityRendererFeatures](./entityrendererfeatures/) | Die zusätzlichen Funktionen, die der Entity-Renderer bereitstellt |
+| [FrontFace](./frontface/) | Definiert vorder- und rückseitige Polygone |
+| [IndexDataType](./indexdatatype/) | Der Datentyp der Elemente in [`IIndexBuffer`](../aspose.threed.render/iindexbuffer/) |
+| [PixelFormat](./pixelformat/) | Das Pixel-Format, das in der Textureinheit verwendet wird. |
+| [PixelMapMode](./pixelmapmode/) |  |
+| [PolygonMode](./polygonmode/) | Der Polygon-Rasterisierungsmodus |
+| [PresetShaders](./presetshaders/) | Dies definiert die vordefinierten internen Shader, die vom Renderer verwendet werden. |
+| [RenderQueueGroupId](./renderqueuegroupid/) | Die Gruppen-ID der Renderwarteschlange |
+| [RenderStage](./renderstage/) | Die Renderstufe |
+| [ShaderStage](./shaderstage/) | Shader-Stufe |
+| [StencilAction](./stencilaction/) | Die Stencil-Testaktionen |
+| [TextureType](./texturetype/) | Der Typ von [`ITextureUnit`](../aspose.threed.render/itextureunit/) |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

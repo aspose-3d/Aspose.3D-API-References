@@ -1,14 +1,14 @@
 ---
-title: FromFile
-second_title: Aspose.3D für .NET-API-Referenz
-description: Öffnet die Szene aus dem angegebenen Pfad unter Verwendung des angegebenen Dateiformats.
+title: "Scene.FromFile"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Scene-Methode. Öffnet die Szene vom angegebenen Pfad mit dem angegebenen Dateiformat."
 type: docs
 weight: 20
 url: /de/net/aspose.threed/scene/fromfile/
 ---
 ## FromFile(string, FileFormat, CancellationToken) {#fromfile_1}
 
-Öffnet die Szene aus dem angegebenen Pfad unter Verwendung des angegebenen Dateiformats.
+Öffnet die Szene vom angegebenen Pfad unter Verwendung des angegebenen Dateiformats.
 
 ```csharp
 public static Scene FromFile(string fileName, FileFormat format, 
@@ -18,21 +18,37 @@ public static Scene FromFile(string fileName, FileFormat format,
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Dateiname. |
-| format | FileFormat | Datei Format. |
-| cancellationToken | CancellationToken | Abbruchtoken für die Ladeaufgabe |
+| Format | FileFormat | Dateiformat. |
+| cancellationToken | CancellationToken | Abbruch-Token für den Ladevorgang |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| IOException | Wird ausgelöst, wenn das Lesen der Eingabe fehlschlägt |
+| [ImportException](../../importexception/) | Wird ausgelöst, wenn die Eingabe kein gültiges 3D-Format ist |
+
+## Beispiele
+
+Der folgende Code zeigt, wie man eine Szene aus einer Datei erstellt.
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = Scene.FromFile("input.fbx", FileFormat.FBX7400ASCII, cts.Token);
+```
 
 ### Siehe auch
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## FromFile(string, LoadOptions, CancellationToken) {#fromfile_2}
 
-Öffnet die Szene aus dem angegebenen Pfad unter Verwendung des angegebenen Dateiformats.
+Öffnet die Szene vom angegebenen Pfad unter Verwendung des angegebenen Dateiformats.
 
 ```csharp
 public static Scene FromFile(string fileName, LoadOptions options, 
@@ -43,20 +59,38 @@ public static Scene FromFile(string fileName, LoadOptions options,
 | --- | --- | --- |
 | fileName | String | Dateiname. |
 | options | LoadOptions | Detailliertere Konfiguration zum Öffnen des Streams. |
-| cancellationToken | CancellationToken | Abbruchtoken für die Ladeaufgabe |
+| cancellationToken | CancellationToken | Abbruch-Token für den Ladevorgang |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| IOException | Wird ausgelöst, wenn das Lesen der Eingabe fehlschlägt |
+| [ImportException](../../importexception/) | Wird ausgelöst, wenn die Eingabe kein gültiges 3D-Format ist |
+
+## Beispiele
+
+Der folgende Code zeigt, wie man eine Szene aus einer Datei erstellt.
+
+```csharp
+var cts = new CancellationTokenSource();
+var opt = new FbxLoadOptions();
+opt.LookupPaths.Add("textures");
+Scene scene = Scene.FromFile("input.fbx", opt, cts.Token);
+```
 
 ### Siehe auch
 
-* class [LoadOptions](../../../aspose.threed.formats/loadoptions)
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [LoadOptions](../../../aspose.threed.formats/loadoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## FromFile(string) {#fromfile}
 
-Öffnet die Szene vom angegebenen Pfad
+Öffnet die Szene vom angegebenen Pfad.
 
 ```csharp
 public static Scene FromFile(string fileName)
@@ -66,17 +100,32 @@ public static Scene FromFile(string fileName)
 | --- | --- | --- |
 | fileName | String | Dateiname. |
 
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| IOException | Wird ausgelöst, wenn das Lesen der Eingabe fehlschlägt |
+| [ImportException](../../importexception/) | Wird ausgelöst, wenn die Eingabe kein gültiges 3D-Format ist |
+
+## Beispiele
+
+Der folgende Code zeigt, wie man eine Szene aus einer Datei erstellt.
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+```
+
 ### Siehe auch
 
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## FromFile(string, CancellationToken) {#fromfile_3}
 
-Öffnet die Szene vom angegebenen Pfad
+Öffnet die Szene vom angegebenen Pfad.
 
 ```csharp
 public static Scene FromFile(string fileName, CancellationToken cancellationToken)
@@ -85,12 +134,28 @@ public static Scene FromFile(string fileName, CancellationToken cancellationToke
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Dateiname. |
-| cancellationToken | CancellationToken | Abbruchtoken für die Ladeaufgabe |
+| cancellationToken | CancellationToken | Abbruch-Token für den Ladevorgang |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| IOException | Wird ausgelöst, wenn das Lesen der Eingabe fehlschlägt |
+| [ImportException](../../importexception/) | Wird ausgelöst, wenn die Eingabe kein gültiges 3D-Format ist |
+
+## Beispiele
+
+Der folgende Code zeigt, wie man eine Szene aus einer Datei erstellt.
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = Scene.FromFile("input.fbx", cts.Token);
+```
 
 ### Siehe auch
 
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

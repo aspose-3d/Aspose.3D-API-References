@@ -1,9 +1,9 @@
 ---
-title: Html5SaveOptions
-second_title: Aspose.3D für .NET-API-Referenz
-description: Speicheroptionen für HTML5
+title: "Klasse Html5SaveOptions"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Aspose.ThreeD.Formats.Html5SaveOptions Klasse. Speicheroptionen für HTML5"
 type: docs
-weight: 1170
+weight: 1290
 url: /de/net/aspose.threed.formats/html5saveoptions/
 ---
 ## Html5SaveOptions class
@@ -14,36 +14,37 @@ Speicheroptionen für HTML5
 public class Html5SaveOptions : SaveOptions
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [Html5SaveOptions](html5saveoptions)() | Konstrukteur von[`Html5SaveOptions`](../html5saveoptions) mit allen Standardeinstellungen. |
+| [Html5SaveOptions](html5saveoptions/)() | Konstruktor von `Html5SaveOptions` mit allen Standardeinstellungen. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [CameraPosition](../../aspose.threed.formats/html5saveoptions/cameraposition) { get; set; } | Ruft die Anfangsposition der Kamera ab oder setzt sie, Standardwert ist (10, 10, 10) |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding) { get; set; } | Ruft die Standardcodierung für textbasierte Dateien ab oder legt sie fest. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Codierung verwendet wird. |
-| [FarPlane](../../aspose.threed.formats/html5saveoptions/farplane) { get; set; } | Ermittelt oder setzt die ferne Ebene der Kamera, Standardwert ist 1000. |
-| [FieldOfView](../../aspose.threed.formats/html5saveoptions/fieldofview) { get; set; } | Liest oder setzt das Sichtfeld, Standardwert ist 45, gemessen in Grad. |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat) { get; } | Ruft das Dateiformat ab, das in der aktuellen Option Speichern/Laden angegeben ist. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename) { get; set; } | Der Dateiname der Export-/Importszene. Dies ist optional, aber nützlich, wenn externe Assets wie OBJ-Material serialisiert werden. |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem) { get; set; } | Dem Benutzer erlauben, die externen Abhängigkeiten während des Ladens/Speicherns zu verwalten. |
-| [LookAt](../../aspose.threed.formats/html5saveoptions/lookat) { get; set; } | Ruft die Standard-Look-at-Position ab oder legt sie fest, der Standardwert ist (0, 0, 0) |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths) { get; set; } | Einige Dateien wie OBJ hängen von einer externen Datei ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
-| [NearPlane](../../aspose.threed.formats/html5saveoptions/nearplane) { get; set; } | Ermittelt oder setzt die Nahebene der Kamera, Standardwert ist 1 |
-| [OrientationBox](../../aspose.threed.formats/html5saveoptions/orientationbox) { get; set; } | Zeigt ein Orientierungsfeld an. Der Standardwert ist wahr. |
-| [ShowGrid](../../aspose.threed.formats/html5saveoptions/showgrid) { get; set; } | Zeigt ein Raster in der Szene an. Der Standardwert ist wahr. |
-| [ShowRulers](../../aspose.threed.formats/html5saveoptions/showrulers) { get; set; } | Lineale der x/y/z-Achsen in der Szene anzeigen, um das Modell zu messen. Der Standardwert ist „false“. |
-| [ShowUI](../../aspose.threed.formats/html5saveoptions/showui) { get; set; } | Zeigt eine einfache Benutzeroberfläche in der Szene an. Der Standardwert ist wahr. |
-| [UpVector](../../aspose.threed.formats/html5saveoptions/upvector) { get; set; } | Ruft den Aufwärtsvektor ab oder legt ihn fest, Wert kann "x"/"y"/"z" sein, Standardwert ist "y" |
+| [CameraPosition](../../aspose.threed.formats/html5saveoptions/cameraposition/) { get; set; } | Liest oder setzt die Anfangsposition der Kamera, Standardwert ist (10, 10, 10) |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | Versucht, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
+| [FarPlane](../../aspose.threed.formats/html5saveoptions/farplane/) { get; set; } | Liest oder setzt die Fernebene der Kamera, Standardwert ist 1000. |
+| [FieldOfView](../../aspose.threed.formats/html5saveoptions/fieldofview/) { get; set; } | Liest oder setzt das Sichtfeld, Standardwert ist 45, gemessen in Grad. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Der Dateiname der exportierenden/importierenden Szene. Dies ist optional, aber nützlich beim Serialisieren externer Assets wie dem Material von OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Ermöglicht dem Benutzer zu steuern, wie externe Abhängigkeiten während Laden/Speichern verwaltet werden. |
+| [LookAt](../../aspose.threed.formats/html5saveoptions/lookat/) { get; set; } | Liest oder setzt die Standard‑Look‑At‑Position, Standardwert ist (0, 0, 0) |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| [NearPlane](../../aspose.threed.formats/html5saveoptions/nearplane/) { get; set; } | Liest oder setzt die Nah‑Ebene der Kamera, Standardwert ist 1 |
+| [OrientationBox](../../aspose.threed.formats/html5saveoptions/orientationbox/) { get; set; } | Zeigt eine Orientierungsbox an. Standardwert ist true. |
+| [ShowGrid](../../aspose.threed.formats/html5saveoptions/showgrid/) { get; set; } | Zeigt ein Raster in der Szene an. Standardwert ist true. |
+| [ShowRulers](../../aspose.threed.formats/html5saveoptions/showrulers/) { get; set; } | Zeigt Lineale der x/y/z‑Achsen in der Szene an, um das Modell zu messen. Standardwert ist false. |
+| [ShowUI](../../aspose.threed.formats/html5saveoptions/showui/) { get; set; } | Zeigt eine einfache Benutzeroberfläche in der Szene an. Standardwert ist true. |
+| [UpVector](../../aspose.threed.formats/html5saveoptions/upvector/) { get; set; } | Liest oder setzt den Up‑Vektor, Wert kann "x"/"y"/"z" sein, Standardwert ist "y" |
 
 ### Siehe auch
 
-* class [SaveOptions](../saveoptions)
-* namensraum [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* Montage [Aspose.3D](../../)
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
