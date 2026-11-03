@@ -1,41 +1,41 @@
 ---
-title: RendererVariableManager
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: यह क्लस रेंडरंग में इस्तेमल कए गए वेरएबल्स क मैनेज करत है
+title: "क्लास RendererVariableManager"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Render.RendererVariableManager क्लास। यह क्लास रेंडरिंग में उपयोग किए जाने वाले वेरिएबल्स को प्रबंधित करती है।"
 type: docs
-weight: 2110
+weight: 2350
 url: /hi/net/aspose.threed.render/renderervariablemanager/
 ---
 ## RendererVariableManager class
 
-यह क्लास रेंडरिंग में इस्तेमाल किए गए वेरिएबल्स को मैनेज करती है
+यह क्लास रेंडरिंग में उपयोग होने वाले वेरिएबल्स को प्रबंधित करती है।
 
 ```csharp
 public abstract class RendererVariableManager
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [CameraPosition](../../aspose.threed.render/renderervariablemanager/cameraposition/) { get; set; } | विश्व समन्वय प्रणाली में कैमरे की स्थिति |
-| [DepthBias](../../aspose.threed.render/renderervariablemanager/depthbias/) { get; set; } | छाया मानचित्रण के लिए गहराई पूर्वाग्रह, डिफ़ॉल्ट मान 0.001 है |
-| [MatrixLightSpace](../../aspose.threed.render/renderervariablemanager/matrixlightspace/) { get; set; } | प्रकाश स्थान परिवर्तन के लिए मैट्रिक्स |
-| [MatrixProjection](../../aspose.threed.render/renderervariablemanager/matrixprojection/) { get; set; } | प्रक्षेपण परिवर्तन के लिए मैट्रिक्स |
-| [MatrixView](../../aspose.threed.render/renderervariablemanager/matrixview/) { get; set; } | दृश्य परिवर्तन के लिए मैट्रिक्स |
-| [MatrixViewProjection](../../aspose.threed.render/renderervariablemanager/matrixviewprojection/) { get; } | दृश्य और प्रक्षेपण परिवर्तन के लिए मैट्रिक्स। |
-| [MatrixWorld](../../aspose.threed.render/renderervariablemanager/matrixworld/) { get; } | विश्व परिवर्तन के लिए मैट्रिक्स |
-| [MatrixWorldNormal](../../aspose.threed.render/renderervariablemanager/matrixworldnormal/) { get; } | सामान्य को वस्तु से विश्व स्थान में परिवर्तित करने के लिए मैट्रिक्स। |
-| [MatrixWorldViewProjection](../../aspose.threed.render/renderervariablemanager/matrixworldviewprojection/) { get; } | विश्व दृश्य और प्रक्षेपण परिवर्तन के लिए मैट्रिक्स |
-| [ShadowCaster](../../aspose.threed.render/renderervariablemanager/shadowcaster/) { get; set; } | विश्व समन्वय प्रणाली में छाया ढलाईकार की स्थिति |
-| [Shadowmap](../../aspose.threed.render/renderervariablemanager/shadowmap/) { get; set; } | छाया मानचित्रण के लिए प्रयुक्त गहराई बनावट |
+| [CameraPosition](../../aspose.threed.render/renderervariablemanager/cameraposition/) { get; set; } | विश्व निर्देशांक प्रणाली में कैमरा की स्थिति |
+| [DepthBias](../../aspose.threed.render/renderervariablemanager/depthbias/) { get; set; } | शैडो मैपिंग के लिए डेप्थ बायस, डिफ़ॉल्ट मान 0.001 है |
+| [MatrixLightSpace](../../aspose.threed.render/renderervariablemanager/matrixlightspace/) { get; set; } | लाइट स्पेस ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
+| [MatrixProjection](../../aspose.threed.render/renderervariablemanager/matrixprojection/) { get; set; } | प्रोजेक्शन ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
+| [MatrixView](../../aspose.threed.render/renderervariablemanager/matrixview/) { get; set; } | व्यू ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
+| [MatrixViewProjection](../../aspose.threed.render/renderervariablemanager/matrixviewprojection/) { get; } | व्यू और प्रोजेक्शन ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स। |
+| [MatrixWorld](../../aspose.threed.render/renderervariablemanager/matrixworld/) { get; } | वर्ल्ड ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
+| [MatrixWorldNormal](../../aspose.threed.render/renderervariablemanager/matrixworldnormal/) { get; } | ऑब्जेक्ट से वर्ल्ड स्पेस में नॉर्मल को बदलने के लिए मैट्रिक्स। |
+| [MatrixWorldViewProjection](../../aspose.threed.render/renderervariablemanager/matrixworldviewprojection/) { get; } | वर्ल्ड व्यू और प्रोजेक्शन ट्रांसफ़ॉर्मेशन के लिए मैट्रिक्स |
+| [ShadowCaster](../../aspose.threed.render/renderervariablemanager/shadowcaster/) { get; set; } | विश्व निर्देशांक प्रणाली में शैडो कास्टर की स्थिति |
+| [Shadowmap](../../aspose.threed.render/renderervariablemanager/shadowmap/) { get; set; } | शैडो मैपिंग के लिए उपयोग की गई गहराई टेक्सचर |
 | [ViewportSize](../../aspose.threed.render/renderervariablemanager/viewportsize/) { get; } | व्यूपोर्ट का आकार, पिक्सेल में मापा गया |
-| [WorldAmbient](../../aspose.threed.render/renderervariablemanager/worldambient/) { get; } | व्यूपोर्ट में परिवेशी रंग परिभाषित किया गया है. |
-| [WorldTime](../../aspose.threed.render/renderervariablemanager/worldtime/) { get; } | सेकंड में समय |
+| [WorldAmbient](../../aspose.threed.render/renderervariablemanager/worldambient/) { get; } | व्यूपोर्ट में परिभाषित एंबिएंट रंग। |
+| [WorldTime](../../aspose.threed.render/renderervariablemanager/worldtime/) { get; } | समय सेकंड में |
 
-### यह सभी देखें
+### देखें भी
 
-* नाम स्थान [Aspose.ThreeD.Render](../../aspose.threed.render/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

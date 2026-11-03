@@ -1,47 +1,48 @@
 ---
-title: FbxSaveOptions
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: Fbx फ़इल के लए सहेजें वकल्प.
+title: "क्लास FbxSaveOptions"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Formats.FbxSaveOptions क्लास। Fbx फ़ाइल के लिए सहेजने के विकल्प।"
 type: docs
-weight: 1120
+weight: 1180
 url: /hi/net/aspose.threed.formats/fbxsaveoptions/
 ---
 ## FbxSaveOptions class
 
-Fbx फ़ाइल के लिए सहेजें विकल्प.
+Fbx फ़ाइल के लिए सहेजने के विकल्प।
 
 ```csharp
 public class FbxSaveOptions : SaveOptions
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [FbxSaveOptions](fbxsaveoptions/#constructor)(FileContentType) | प्रारंभ करें ए`FbxSaveOptions` नवीनतम समर्थित संस्करण का उपयोग कर रहा है। |
-| [FbxSaveOptions](fbxsaveoptions/#constructor_1)(FileFormat) | आरंभ करता है`FbxSaveOptions` |
+| [FbxSaveOptions](fbxsaveoptions/#constructor)(FileContentType) | नवीनतम समर्थित संस्करण का उपयोग करके `FbxSaveOptions` को प्रारंभ करें। |
+| [FbxSaveOptions](fbxsaveoptions/#constructor_1)(FileFormat) | `FbxSaveOptions` को प्रारंभ करता है। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [EmbedTextures](../../aspose.threed.formats/fbxsaveoptions/embedtextures/) { get; set; } | अंतिम आउटपुट फ़ाइल में बनावट को एम्बेड करना है या नहीं, यह सेट करता है या सेट करता है। FBX निर्यातक बनावट के कच्चे डेटा को खोजने का प्रयास करेगा[`FileSystem`](../ioconfig/filesystem/) , और फ़ाइल को अंतिम FBX फ़ाइल में एम्बेड करें. डिफ़ॉल्ट मान गलत है. |
-| [EnableCompression](../../aspose.threed.formats/fbxsaveoptions/enablecompression/) { get; set; } | FBX फ़ाइल में बड़े बाइनरी डेटा को कंप्रेशन करता है (उदाहरण के लिए एनिमेशन डेटा, कंट्रोल पॉइंट, वर्टेक्स एलिमेंट डेटा, इंडेक्स), डिफ़ॉल्ट मान सही है. |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग प्राप्त या सेट करता है। |
-| [ExportLegacyMaterialProperties](../../aspose.threed.formats/fbxsaveoptions/exportlegacymaterialproperties/) { get; set; } | बैक संगतता के लिए उपयोग की जाने वाली विरासत सामग्री गुणों को निर्यात करता है या सेट करता है। यह विकल्प डिफ़ॉल्ट रूप से चालू होता है। |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | वर्तमान सहेजें/लोड विकल्प में निर्दिष्ट फ़ाइल स्वरूप प्राप्त करता है। |
-| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | निर्यात/आयात करने वाले दृश्य का फ़ाइल नाम। यह वैकल्पिक है, लेकिन बाहरी संपत्ति जैसे ओबीजे की सामग्री को क्रमबद्ध करते समय उपयोगी है। |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को संभालने के लिए उपयोगकर्ता को अनुमति दें. |
-| [FoldRepeatedCurveData](../../aspose.threed.formats/fbxsaveoptions/foldrepeatedcurvedata/) { get; set; } | पिछले डेटा के रेफ काउंट को बढ़ाकर बार-बार वक्र डेटा का पुन: उपयोग करना है या नहीं, यह निर्धारित करता है या सेट करता है |
-| [GenerateVertexElementMaterial](../../aspose.threed.formats/fbxsaveoptions/generatevertexelementmaterial/) { get; set; } | हो जाता है या सेट करता है कि क्या हमेशा उत्पन्न होता है[`VertexElementMaterial`](../../aspose.threed.entities/vertexelementmaterial/) ज्यामिति के लिए यदि संलग्न नोड में सामग्री है। यह डिफ़ॉल्ट रूप से बंद है। |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | ओबीजे जैसी कुछ फाइलें बाहरी फाइल पर निर्भर करती हैं, लुकअप पथ Aspose.3D को लोड करने के लिए बाहरी फाइल देखने की अनुमति देगा। |
-| [ReusePrimitiveMesh](../../aspose.threed.formats/fbxsaveoptions/reuseprimitivemesh/) { get; set; } | समान पैरामीटर वाले प्रिमिटिव के लिए मेश का पुन: उपयोग करें, यह FBX आउटपुट के आकार को महत्वपूर्ण रूप से कम कर देगा, जो दृश्य आदिम आकृतियों के बड़े सेट द्वारा बनाया गया था (जैसे CAD फ़ाइलों से आयात किया गया)। डिफ़ॉल्ट मान false है |
-| [VideoForTexture](../../aspose.threed.formats/fbxsaveoptions/videofortexture/) { get; set; } | प्राप्त करता है या सेट करता है कि क्या इसके लिए एक वीडियो उदाहरण उत्पन्न होता है[`Texture`](../../aspose.threed.shading/texture/) FBX. के रूप में निर्यात करते समय |
+| [EmbedTextures](../../aspose.threed.formats/fbxsaveoptions/embedtextures/) { get; set; } | टेक्सचर को अंतिम आउटपुट फ़ाइल में एम्बेड करने के लिए प्राप्त या सेट करता है। FBX एक्सपोर्टर टेक्सचर के कच्चे डेटा को [`FileSystem`](../ioconfig/filesystem/) से खोजने की कोशिश करेगा, और फ़ाइल को अंतिम FBX फ़ाइल में एम्बेड करेगा। डिफ़ॉल्ट मान असत्य है। |
+| [EnableCompression](../../aspose.threed.formats/fbxsaveoptions/enablecompression/) { get; set; } | FBX फ़ाइल में बड़े बाइनरी डेटा (जैसे एनीमेशन डेटा, कंट्रोल पॉइंट्स, वर्टेक्स एलिमेंट डेटा, इंडेक्स) का संपीड़न, डिफ़ॉल्ट मान सत्य है। |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | टेक्स्ट-आधारित फ़ाइलों के लिए डिफ़ॉल्ट एन्कोडिंग प्राप्त करता है या सेट करता है। डिफ़ॉल्ट मान null है, जिसका अर्थ है कि इम्पोर्टर/एक्सपोर्टर तय करेगा कि कौन सा एन्कोडिंग उपयोग किया जाए। |
+| [ExportLegacyMaterialProperties](../../aspose.threed.formats/fbxsaveoptions/exportlegacymaterialproperties/) { get; set; } | निर्यात लेगेसी सामग्री गुणों को सेट या प्राप्त करता है, जो बैक संगतता के लिए उपयोग होते हैं। यह विकल्प डिफ़ॉल्ट रूप से चालू रहता है। |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | दृश्य में उपयोग की गई टेक्सचर को आउटपुट डायरेक्टरी में कॉपी करने का प्रयास करें। |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | वर्तमान Save/Load विकल्प में निर्दिष्ट फ़ाइल फ़ॉर्मेट प्राप्त करता है। |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | एक्सपोर्ट/इम्पोर्ट दृश्य का फ़ाइल नाम। यह वैकल्पिक है, लेकिन OBJ की सामग्री जैसे बाहरी एसेट्स को सीरियलाइज़ करने पर उपयोगी होता है। |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | लोड/सेव के दौरान बाहरी निर्भरताओं को प्रबंधित करने के तरीके को उपयोगकर्ता को संभालने की अनुमति देता है। |
+| [FoldRepeatedCurveData](../../aspose.threed.formats/fbxsaveoptions/foldrepeatedcurvedata/) { get; set; } | पिछले डेटा की रेफ़रेंस काउंट बढ़ाकर दोहराए गए कर्व डेटा को पुनः उपयोग करना सेट या प्राप्त करता है। |
+| [GenerateVertexElementMaterial](../../aspose.threed.formats/fbxsaveoptions/generatevertexelementmaterial/) { get; set; } | यदि संलग्न नोड में सामग्री मौजूद हैं तो ज्यामितियों के लिए हमेशा एक [`VertexElementMaterial`](../../aspose.threed.entities/vertexelementmaterial/) उत्पन्न करना सेट या प्राप्त करता है। यह डिफ़ॉल्ट रूप से बंद रहता है। |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | कुछ फ़ाइलें जैसे OBJ बाहरी फ़ाइल पर निर्भर करती हैं, लुकअप पाथ्स Aspose.3D को लोड करने के लिए बाहरी फ़ाइल खोजने की अनुमति देंगे। |
+| [ReusePrimitiveMesh](../../aspose.threed.formats/fbxsaveoptions/reuseprimitivemesh/) { get; set; } | एक ही पैरामीटर वाले प्रिमिटिव्स के लिए मेष को पुनः उपयोग करें, इससे FBX आउटपुट का आकार काफी घटेगा क्योंकि दृश्य बड़े प्रिमिटिव आकारों (जैसे CAD फ़ाइलों से आयातित) के सेट से बना है। डिफ़ॉल्ट मान false है। |
+| [VideoForTexture](../../aspose.threed.formats/fbxsaveoptions/videofortexture/) { get; set; } | FBX के रूप में निर्यात करते समय [`Texture`](../../aspose.threed.shading/texture/) के लिए एक Video इंस्टेंस उत्पन्न करना सेट या प्राप्त करता है। |
 
-### यह सभी देखें
+### देखें भी
 
 * class [SaveOptions](../saveoptions/)
-* नाम स्थान [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

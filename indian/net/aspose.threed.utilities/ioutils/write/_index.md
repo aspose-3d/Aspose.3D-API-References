@@ -1,7 +1,7 @@
 ---
-title: Write
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: मैट्रक्स क बइनर रइटर में लखें
+title: "IOUtils.Write"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "IOUtils मेथड। मैट्रिक्स को बाइनरी राइटर में लिखें"
 type: docs
 weight: 10
 url: /hi/net/aspose.threed.utilities/ioutils/write/
@@ -14,17 +14,17 @@ url: /hi/net/aspose.threed.utilities/ioutils/write/
 public static void Write(this BinaryWriter writer, Matrix4 mat)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| writer | BinaryWriter | लक्ष्य बाइनरी लेखक |
+| राइटर | BinaryWriter | लक्षित बाइनरी राइटर |
 | mat | Matrix4 | लिखने के लिए मैट्रिक्स |
 
-### यह सभी देखें
+### देखें भी
 
 * struct [Matrix4](../../matrix4/)
 * class [IOUtils](../)
-* नाम स्थान [Aspose.ThreeD.Utilities](../../ioutils/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -36,148 +36,148 @@ public static void Write(this BinaryWriter writer, Matrix4 mat)
 public static void Write(this BinaryWriter writer, FMatrix4 mat)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| writer | BinaryWriter | लक्ष्य बाइनरी लेखक |
+| राइटर | BinaryWriter | लक्षित बाइनरी राइटर |
 | mat | FMatrix4 | लिखने के लिए मैट्रिक्स |
 
-### यह सभी देखें
+### देखें भी
 
 * struct [FMatrix4](../../fmatrix4/)
 * class [IOUtils](../)
-* नाम स्थान [Aspose.ThreeD.Utilities](../../ioutils/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, FVector2) {#write_1}
 
-बाइनरी राइटर में वेक्टर लिखें
+वेक्टर को बाइनरी राइटर में लिखें
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector2 v)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| writer | BinaryWriter | लक्ष्य बाइनरी लेखक |
+| राइटर | BinaryWriter | लक्षित बाइनरी राइटर |
 | v | FVector2 | लिखने के लिए वेक्टर |
 
-### यह सभी देखें
+### देखें भी
 
 * struct [FVector2](../../fvector2/)
 * class [IOUtils](../)
-* नाम स्थान [Aspose.ThreeD.Utilities](../../ioutils/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, FVector3) {#write_2}
 
-बाइनरी राइटर में वेक्टर लिखें
+वेक्टर को बाइनरी राइटर में लिखें
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector3 v)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| writer | BinaryWriter | लक्ष्य बाइनरी लेखक |
+| राइटर | BinaryWriter | लक्षित बाइनरी राइटर |
 | v | FVector3 | लिखने के लिए वेक्टर |
 
-### यह सभी देखें
+### देखें भी
 
 * struct [FVector3](../../fvector3/)
 * class [IOUtils](../)
-* नाम स्थान [Aspose.ThreeD.Utilities](../../ioutils/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, FVector4) {#write_3}
 
-बाइनरी राइटर में वेक्टर लिखें
+वेक्टर को बाइनरी राइटर में लिखें
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector4 v)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| writer | BinaryWriter | लक्ष्य बाइनरी लेखक |
+| राइटर | BinaryWriter | लक्षित बाइनरी राइटर |
 | v | FVector4 | लिखने के लिए वेक्टर |
 
-### यह सभी देखें
+### देखें भी
 
 * struct [FVector4](../../fvector4/)
 * class [IOUtils](../)
-* नाम स्थान [Aspose.ThreeD.Utilities](../../ioutils/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, Vector2) {#write_5}
 
-बाइनरी राइटर में वेक्टर लिखें
+वेक्टर को बाइनरी राइटर में लिखें
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector2 v)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| writer | BinaryWriter | लक्ष्य बाइनरी लेखक |
+| राइटर | BinaryWriter | लक्षित बाइनरी राइटर |
 | v | Vector2 | लिखने के लिए वेक्टर |
 
-### यह सभी देखें
+### देखें भी
 
 * struct [Vector2](../../vector2/)
 * class [IOUtils](../)
-* नाम स्थान [Aspose.ThreeD.Utilities](../../ioutils/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, Vector3) {#write_6}
 
-बाइनरी राइटर में वेक्टर लिखें
+वेक्टर को बाइनरी राइटर में लिखें
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector3 v)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| writer | BinaryWriter | लक्ष्य बाइनरी लेखक |
+| राइटर | BinaryWriter | लक्षित बाइनरी राइटर |
 | v | Vector3 | लिखने के लिए वेक्टर |
 
-### यह सभी देखें
+### देखें भी
 
 * struct [Vector3](../../vector3/)
 * class [IOUtils](../)
-* नाम स्थान [Aspose.ThreeD.Utilities](../../ioutils/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Write(this BinaryWriter, Vector4) {#write_7}
 
-बाइनरी राइटर में वेक्टर लिखें
+वेक्टर को बाइनरी राइटर में लिखें
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector4 v)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| writer | BinaryWriter | लक्ष्य बाइनरी लेखक |
+| राइटर | BinaryWriter | लक्षित बाइनरी राइटर |
 | v | Vector4 | लिखने के लिए वेक्टर |
 
-### यह सभी देखें
+### देखें भी
 
 * struct [Vector4](../../vector4/)
 * class [IOUtils](../)
-* नाम स्थान [Aspose.ThreeD.Utilities](../../ioutils/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

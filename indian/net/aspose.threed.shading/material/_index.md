@@ -1,55 +1,68 @@
 ---
-title: Material
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: समग्र ज्यमत के दृश्य स्वरूप के लए आवश्यक मपदंडं क परभषत करत है Aspose.3D छयंकन मडल प्रदन करत हैLambertMaterial./lambertmaterial/ PhongMaterial./phongmaterial/ औरShaderMaterial./shadermaterial/
+title: "क्लास Material"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Shading.Material क्लास। सामग्री जियोमेट्री की दृश्य उपस्थिति के लिए आवश्यक पैरामीटर निर्धारित करती है। Aspose.3D लैम्बर्टमैटेरियल, PhongMaterial और ShaderMaterial के लिए शेडिंग मॉडल प्रदान करता है।"
 type: docs
-weight: 2290
+weight: 2540
 url: /hi/net/aspose.threed.shading/material/
 ---
 ## Material class
 
-सामग्री ज्यामिति के दृश्य स्वरूप के लिए आवश्यक मापदंडों को परिभाषित करती है। Aspose.3D छायांकन मॉडल प्रदान करता है[`LambertMaterial`](../lambertmaterial/) ,[`PhongMaterial`](../phongmaterial/) और[`ShaderMaterial`](../shadermaterial/)
+सामग्री जियोमेट्री की दृश्य उपस्थिति के लिए आवश्यक पैरामीटर निर्धारित करती है। Aspose.3D [`LambertMaterial`](../lambertmaterial/), [`PhongMaterial`](../phongmaterial/) और [`ShaderMaterial`](../shadermaterial/) के लिए शेडिंग मॉडल प्रदान करता है।
 
 ```csharp
 public abstract class Material : A3DObject, IEnumerable<TextureSlot>
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी संपत्तियों का संग्रह प्राप्त करता है। |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 
-## तरीकों
-
-| नाम | विवरण |
-| --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | संपत्ति ढूँढता है। यह एक गतिशील संपत्ति हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल संपत्ति (इसके नाम से पहचानी गई) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | गणनाकर्ता को आंतरिक बनावट स्लॉट की गणना करने के लिए मिलता है। |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट संपत्ति का मान प्राप्त करें |
-| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | निर्दिष्ट स्लॉट से बनावट प्राप्त करता है, यह सामग्री की संपत्ति का नाम या शेडर का पैरामीटर नाम हो सकता है |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक गतिशील संपत्ति को हटाता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट संपत्ति को हटाएं |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट संपत्ति का मान सेट करता है |
-| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | बनावट को निर्दिष्ट स्लॉट पर सेट करता है |
-| override [ToString](../../aspose.threed.shading/material/tostring/)() | ऑब्जेक्ट को string पर स्वरूपित करता है |
-
-## खेत
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| const [MapAmbient](../../aspose.threed.shading/material/mapambient/) | में प्रयुक्त[`SetTexture`](./settexture/) एक परिवेश बनावट मानचित्रण आवंटित करने के लिए. |
-| const [MapDiffuse](../../aspose.threed.shading/material/mapdiffuse/) | में प्रयुक्त[`SetTexture`](./settexture/) डिफ्यूज़ टेक्सचर मैपिंग असाइन करने के लिए. |
-| const [MapEmissive](../../aspose.threed.shading/material/mapemissive/) | में प्रयुक्त[`SetTexture`](./settexture/) एक एमिसिव टेक्सचर मैपिंग असाइन करने के लिए. |
-| const [MapNormal](../../aspose.threed.shading/material/mapnormal/) | में प्रयुक्त[`SetTexture`](./settexture/) एक सामान्य बनावट मैपिंग आवंटित करने के लिए. |
-| const [MapSpecular](../../aspose.threed.shading/material/mapspecular/) | में प्रयुक्त[`SetTexture`](./settexture/) स्पेक्युलर टेक्सचर मैपिंग असाइन करने के लिए. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (इसके नाम द्वारा पहचानी गई) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एनेमरेटर प्राप्त करता है। |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | निर्दिष्ट स्लॉट से टेक्सचर प्राप्त करता है, यह मैटेरियल की प्रॉपर्टी नाम या शेडर के पैरामीटर नाम हो सकता है |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | ऑब्जेक्ट को स्ट्रिंग में फॉर्मेट करता है |
 
-### यह सभी देखें
+## फ़ील्ड्स
+
+| नाम | विवरण |
+| --- | --- |
+| const [MapAmbient](../../aspose.threed.shading/material/mapambient/) | [`SetTexture`](./settexture/) में उपयोग किया जाता है ताकि एक एम्बिएंट टेक्सचर मैपिंग असाइन की जा सके। |
+| const [MapDiffuse](../../aspose.threed.shading/material/mapdiffuse/) | [`SetTexture`](./settexture/) में उपयोग किया जाता है ताकि एक डिफ्यूज़ टेक्सचर मैपिंग असाइन किया जा सके। |
+| const [MapEmissive](../../aspose.threed.shading/material/mapemissive/) | [`SetTexture`](./settexture/) में उपयोग किया जाता है ताकि एक इमिसिव टेक्सचर मैपिंग असाइन किया जा सके। |
+| const [MapNormal](../../aspose.threed.shading/material/mapnormal/) | [`SetTexture`](./settexture/) में उपयोग किया जाता है ताकि एक नॉर्मल टेक्सचर मैपिंग असाइन किया जा सके। |
+| const [MapSpecular](../../aspose.threed.shading/material/mapspecular/) | [`SetTexture`](./settexture/) में उपयोग किया जाता है ताकि एक स्पेक्यूलर टेक्सचर मैपिंग असाइन किया जा सके। |
+
+## उदाहरण
+
+```csharp
+var mat = new LambertMaterial();
+var tex = new Texture();
+tex.FileName = "diffuse.png";
+mat.SetTexture(Material.MapDiffuse, tex);
+foreach(var slot in mat)
+{
+    Console.WriteLine($"Texture slot {slot.SlotName} = {slot.Texture}");
+}
+```
+
+### देखें भी
 
 * class [A3DObject](../../aspose.threed/a3dobject/)
 * class [TextureSlot](../textureslot/)
-* नाम स्थान [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

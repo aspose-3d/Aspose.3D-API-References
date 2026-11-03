@@ -1,59 +1,59 @@
 ---
-title: ZShape
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: पैरमटर द्वर परभषत IFC संगत Zआकर प्रफ़इल
+title: "क्लास ZShape"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Profiles.ZShape क्लास। IFC संगत Zshape प्रोफ़ाइल जो पैरामीटरों द्वारा परिभाषित है"
 type: docs
-weight: 1660
+weight: 1850
 url: /hi/net/aspose.threed.profiles/zshape/
 ---
 ## ZShape class
 
-पैरामीटर द्वारा परिभाषित IFC संगत Z-आकार प्रोफ़ाइल।
+IFC संगत Z-आकार प्रोफ़ाइल पैरामीटर द्वारा परिभाषित।
 
 ```csharp
 public class ZShape : ParameterizedProfile
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [ZShape](zshape/)() | का निर्माता`ZShape` |
+| [ZShape](zshape/)() | `ZShape` का कन्स्ट्रक्टर |
 
-## गुण
-
-| नाम | विवरण |
-| --- | --- |
-| [Depth](../../aspose.threed.profiles/zshape/depth/) { get; set; } | वेब की लंबाई प्राप्त या सेट करता है। |
-| [EdgeRadius](../../aspose.threed.profiles/zshape/edgeradius/) { get; set; } | निकला हुआ किनारा किनारे की त्रिज्या प्राप्त या सेट करता है। |
-| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | हो जाता है या सेट करता है कि निर्यात के दौरान इस इकाई को बाहर करना है या नहीं। |
-| [FilletRadius](../../aspose.threed.profiles/zshape/filletradius/) { get; set; } | निकला हुआ किनारा और वेब के बीच पट्टिका की त्रिज्या प्राप्त या सेट करता है। |
-| [FlangeThickness](../../aspose.threed.profiles/zshape/flangethickness/) { get; set; } | निकला हुआ किनारा की मोटाई प्राप्त या सेट करता है। |
-| [FlangeWidth](../../aspose.threed.profiles/zshape/flangewidth/) { get; set; } | निकला हुआ किनारा की लंबाई प्राप्त या सेट करता है। |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | पहले पैरेंट नोड को प्राप्त या सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | सभी पैरेंट नोड्स प्राप्त करता है, ज्यामिति इंस्टेंसिंग के लिए एक इकाई को कई पैरेंट नोड्स से जोड़ा जा सकता है |
-| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी संपत्तियों का संग्रह प्राप्त करता है। |
-| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | दृश्य प्राप्त करता है कि यह वस्तु से संबंधित है |
-| [WebThickness](../../aspose.threed.profiles/zshape/webthickness/) { get; set; } | दीवार की मोटाई प्राप्त या सेट करता है। |
-
-## तरीकों
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | संपत्ति ढूँढता है। यह एक गतिशील संपत्ति हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल संपत्ति (इसके नाम से पहचानी गई) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | अपने ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में वर्तमान इकाई का बाउंडिंग बॉक्स प्राप्त करता है। |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
-| override [GetExtent](../../aspose.threed.profiles/zshape/getextent/)() | एक्स और वाई आयाम में सीमा प्राप्त करता है। |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट संपत्ति का मान प्राप्त करें |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक गतिशील संपत्ति को हटाता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट संपत्ति को हटाएं |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट संपत्ति का मान सेट करता है |
+| [Depth](../../aspose.threed.profiles/zshape/depth/) { get; set; } | वेब की लंबाई को प्राप्त करता है या सेट करता है। |
+| [EdgeRadius](../../aspose.threed.profiles/zshape/edgeradius/) { get; set; } | फ़्लैंज किनारे की त्रिज्या को प्राप्त करता है या सेट करता है। |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | निर्यात के दौरान इस एंटिटी को बाहर रखने के लिए प्राप्त करता है या सेट करता है। |
+| [FilletRadius](../../aspose.threed.profiles/zshape/filletradius/) { get; set; } | फ़्लैंज और वेब के बीच फ़िलेट की त्रिज्या को प्राप्त करता है या सेट करता है। |
+| [FlangeThickness](../../aspose.threed.profiles/zshape/flangethickness/) { get; set; } | फ़्लैंज की मोटाई को प्राप्त करता है या सेट करता है। |
+| [FlangeWidth](../../aspose.threed.profiles/zshape/flangewidth/) { get; set; } | फ़्लैंज की लंबाई को प्राप्त करता है या सेट करता है। |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | पहला पैरेंट नोड प्राप्त करता है या सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी को जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [WebThickness](../../aspose.threed.profiles/zshape/webthickness/) { get; set; } | दीवार की मोटाई को प्राप्त करता है या सेट करता है। |
 
-### यह सभी देखें
+## मेथड्स
+
+| नाम | विवरण |
+| --- | --- |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (इसके नाम द्वारा पहचानी गई) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
+| override [GetExtent](../../aspose.threed.profiles/zshape/getextent/)() | x और y आयाम में विस्तार प्राप्त करता है। |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
+
+### देखें भी
 
 * class [ParameterizedProfile](../parameterizedprofile/)
-* नाम स्थान [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

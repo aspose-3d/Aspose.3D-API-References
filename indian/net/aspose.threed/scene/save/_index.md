@@ -1,98 +1,180 @@
 ---
-title: Save
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: नर्दष्ट फ़इल प्ररूप क उपयग करके दृश्य क स्ट्रम करने के लए सहेजत है
+title: "Scene.Save"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Scene मेथड। निर्दिष्ट फ़ाइल फ़ॉर्मेट का उपयोग करके सीन को स्ट्रीम में सहेजता है"
 type: docs
 weight: 160
 url: /hi/net/aspose.threed/scene/save/
 ---
 ## Save(Stream, FileFormat) {#save}
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम करने के लिए सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 ```csharp
 public void Save(Stream stream, FileFormat format)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
 | stream | Stream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए ज़िम्मेदार है। |
-| format | FileFormat | प्रारूप। |
+| फ़ॉर्मेट | FileFormat | फ़ॉर्मेट। |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, FileFormat.USDZ);
+}
+```
+
+### देखें भी
 
 * class [FileFormat](../../fileformat/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, FileFormat, CancellationToken) {#save_1}
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम करने के लिए सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 ```csharp
 public void Save(Stream stream, FileFormat format, CancellationToken cancellationToken)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
 | stream | Stream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए ज़िम्मेदार है। |
-| format | FileFormat | प्रारूप। |
-| cancellationToken | CancellationToken | सेव टास्क के लिए कैंसिलेशन टोकन |
+| फ़ॉर्मेट | FileFormat | फ़ॉर्मेट। |
+| cancellationToken | CancellationToken | सेव टास्क के लिए कैंसलेशन टोकन |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var cts = new CancellationTokenSource();
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, FileFormat.USDZ, cts.Token);
+}
+```
+
+### देखें भी
 
 * class [FileFormat](../../fileformat/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, SaveOptions) {#save_2}
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम करने के लिए सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 ```csharp
 public void Save(Stream stream, SaveOptions options)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
 | stream | Stream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए ज़िम्मेदार है। |
-| options | SaveOptions | स्ट्रीम को बचाने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
+| options | SaveOptions | स्ट्रीम को सहेजने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var opt = new UsdSaveOptions();
+opt.PrimitiveToMesh = true;
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, opt);
+}
+```
+
+### देखें भी
 
 * class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, SaveOptions, CancellationToken) {#save_3}
 
-निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम करने के लिए सहेजता है।
+निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है।
 
 ```csharp
 public void Save(Stream stream, SaveOptions options, CancellationToken cancellationToken)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
 | stream | Stream | इनपुट स्ट्रीम, उपयोगकर्ता स्ट्रीम को बंद करने के लिए ज़िम्मेदार है। |
-| options | SaveOptions | स्ट्रीम को बचाने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
-| cancellationToken | CancellationToken | सेव टास्क के लिए कैंसिलेशन टोकन |
+| options | SaveOptions | स्ट्रीम को सहेजने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
+| cancellationToken | CancellationToken | सेव टास्क के लिए कैंसलेशन टोकन |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var cts = new CancellationTokenSource();
+var opt = new UsdSaveOptions();
+opt.PrimitiveToMesh = true;
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, opt, cts.Token);
+}
+```
+
+### देखें भी
 
 * class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -104,15 +186,31 @@ public void Save(Stream stream, SaveOptions options, CancellationToken cancellat
 public void Save(string fileName)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| fileName | String | फ़ाइल का नाम। |
+| fileName | String | फ़ाइल नाम। |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz");
+```
+
+### देखें भी
 
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -124,17 +222,33 @@ public void Save(string fileName)
 public void Save(string fileName, FileFormat format)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| fileName | String | फ़ाइल का नाम। |
-| format | FileFormat | प्रारूप। |
+| fileName | String | फ़ाइल नाम। |
+| फ़ॉर्मेट | FileFormat | फ़ॉर्मेट। |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz", FileFormat.USDZ);
+```
+
+### देखें भी
 
 * class [FileFormat](../../fileformat/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -146,18 +260,35 @@ public void Save(string fileName, FileFormat format)
 public void Save(string fileName, FileFormat format, CancellationToken cancellationToken)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| fileName | String | फ़ाइल का नाम। |
-| format | FileFormat | प्रारूप। |
-| cancellationToken | CancellationToken | सेव टास्क के लिए कैंसिलेशन टोकन |
+| fileName | String | फ़ाइल नाम। |
+| फ़ॉर्मेट | FileFormat | फ़ॉर्मेट। |
+| cancellationToken | CancellationToken | सेव टास्क के लिए कैंसलेशन टोकन |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz", FileFormat.USDZ, cts.Token);
+```
+
+### देखें भी
 
 * class [FileFormat](../../fileformat/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -169,17 +300,35 @@ public void Save(string fileName, FileFormat format, CancellationToken cancellat
 public void Save(string fileName, SaveOptions options)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| fileName | String | फ़ाइल का नाम। |
-| options | SaveOptions | स्ट्रीम को बचाने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
+| fileName | String | फ़ाइल नाम। |
+| options | SaveOptions | स्ट्रीम को सहेजने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+var scene = Scene.FromFile("input.fbx");
+var opts = new UsdSaveOptions();
+opts.PrimitiveToMesh = true;
+scene.Save("output.usdz", opts);
+```
+
+### देखें भी
 
 * class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -191,17 +340,36 @@ public void Save(string fileName, SaveOptions options)
 public void Save(string fileName, SaveOptions options, CancellationToken cancellationToken)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| fileName | String | फ़ाइल का नाम। |
-| options | SaveOptions | स्ट्रीम को बचाने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
-| cancellationToken | CancellationToken | सेव टास्क के लिए कैंसिलेशन टोकन |
+| fileName | String | फ़ाइल नाम। |
+| options | SaveOptions | स्ट्रीम को सहेजने के लिए अधिक विस्तृत कॉन्फ़िगरेशन। |
+| cancellationToken | CancellationToken | सेव टास्क के लिए कैंसलेशन टोकन |
 
-### यह सभी देखें
+### अपवाद
+
+| अपवाद | शर्त |
+| --- | --- |
+| IOException | इनपुट पढ़ने में विफल होने पर थ्रो किया जाता है |
+| [ExportException](../../exportexception/) | जब सीन को निर्दिष्ट 3D फ़ॉर्मेट में एक्सपोर्ट करने में विफलता हो तो थ्रो किया जाता है |
+
+## उदाहरण
+
+निम्नलिखित कोड दिखाता है कि सीन को कैसे सहेजा जाए
+
+```csharp
+var cts = new CancellationTokenSource();
+var scene = Scene.FromFile("input.fbx");
+var opts = new UsdSaveOptions();
+opts.PrimitiveToMesh = true;
+scene.Save("output.usdz", opts, cts.Token);
+```
+
+### देखें भी
 
 * class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

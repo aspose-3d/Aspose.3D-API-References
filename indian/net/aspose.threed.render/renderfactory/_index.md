@@ -1,39 +1,39 @@
 ---
-title: RenderFactory
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: RenderFactory सभ संसधन बनत है ज पइपलइन रेंडरंग में प्रतनधत्व करते हैं
+title: "क्लास RenderFactory"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Render.RenderFactory क्लास। RenderFactory रेंडरिंग पाइपलाइन में प्रतिनिधित्व किए गए सभी संसाधन बनाता है।"
 type: docs
-weight: 2040
+weight: 2280
 url: /hi/net/aspose.threed.render/renderfactory/
 ---
 ## RenderFactory class
 
-RenderFactory सभी संसाधन बनाता है जो पाइपलाइन रेंडरिंग में प्रतिनिधित्व करते हैं।
+RenderFactory रेंडरिंग पाइपलाइन में प्रतिनिधित्व किए गए सभी संसाधनों को बनाता है।
 
 ```csharp
 public abstract class RenderFactory
 ```
 
-## तरीकों
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| abstract [CreateCubeRenderTexture](../../aspose.threed.render/renderfactory/createcuberendertexture/)(RenderParameters, int, int) | एक रेंडर टारगेट बनाएं जिसमें 1 क्यूब टेक्सचर हो |
+| abstract [CreateCubeRenderTexture](../../aspose.threed.render/renderfactory/createcuberendertexture/)(RenderParameters, int, int) | 1 क्यूब टेक्सचर वाला एक रेंडर टार्गेट बनाएं |
 | abstract [CreateDescriptorSet](../../aspose.threed.render/renderfactory/createdescriptorset/)(ShaderProgram) | निर्दिष्ट शेडर प्रोग्राम के लिए डिस्क्रिप्टर सेट बनाएं। |
-| abstract [CreateIndexBuffer](../../aspose.threed.render/renderfactory/createindexbuffer/)() | एक बनाएं[`IIndexBuffer`](../iindexbuffer/) उदाहरण बहुभुज के चेहरे की जानकारी संग्रहीत करने के लिए। |
-| abstract [CreatePipeline](../../aspose.threed.render/renderfactory/createpipeline/)(ShaderProgram, RenderState, VertexDeclaration, DrawOperation) | पहले से कॉन्फ़िगर किए गए शेडर/रेंडर स्टेट/वर्टेक्स डिक्लेरेशन और ड्रा ऑपरेशंस के साथ एक प्रीकॉन्फ़िगर ग्राफिक्स पाइपलाइन बनाएं। |
-| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture/#createrendertexture)(RenderParameters, int, int) | एक रेंडर टारगेट बनाएं जिसमें 1 टारगेट हो जो टेक्सचर को रेंडर करता हो |
-| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture/#createrendertexture_1)(RenderParameters, int, int, int) | एक रेंडर टारगेट बनाएं जो टेक्सचर को रेंडर करता हो |
-| abstract [CreateRenderWindow](../../aspose.threed.render/renderfactory/createrenderwindow/)(RenderParameters, WindowHandle) | एक रेंडर टारगेट बनाएं जो नेटिव विंडो को रेंडर करे। |
-| abstract [CreateShaderProgram](../../aspose.threed.render/renderfactory/createshaderprogram/)(ShaderSource) | एक बनाएँ[`ShaderProgram`](../shaderprogram/) वस्तु |
-| [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit/#createtextureunit)() | एक 2D बनावट इकाई बनाएं जिसे शेडर द्वारा एक्सेस किया जा सके। |
-| abstract [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit/#createtextureunit_1)(TextureType) | एक बनावट इकाई बनाएं जिसे शेडर द्वारा एक्सेस किया जा सके। |
-| abstract [CreateUniformBuffer](../../aspose.threed.render/renderfactory/createuniformbuffer/)(int) | पूर्व-आवंटित आकार के साथ GPU साइड में एक नया यूनिफ़ॉर्म बफ़र बनाएँ। |
-| abstract [CreateVertexBuffer](../../aspose.threed.render/renderfactory/createvertexbuffer/)(VertexDeclaration) | एक बनाएं[`IVertexBuffer`](../ivertexbuffer/) पॉलीगॉन की शीर्ष जानकारी संग्रहीत करने का उदाहरण. |
+| abstract [CreateIndexBuffer](../../aspose.threed.render/renderfactory/createindexbuffer/)() | बहुभुज के फेस जानकारी को संग्रहीत करने के लिए एक [`IIndexBuffer`](../iindexbuffer/) इंस्टेंस बनाएं। |
+| abstract [CreatePipeline](../../aspose.threed.render/renderfactory/createpipeline/)(ShaderProgram, RenderState, VertexDeclaration, DrawOperation) | पूर्व-निर्धारित शेडर/रेंडर स्टेट/वर्टेक्स घोषणा और ड्रॉ ऑपरेशन्स के साथ एक पूर्व-कॉन्फ़िगर किया गया ग्राफ़िक्स पाइपलाइन बनाएं। |
+| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture/#createrendertexture)(RenderParameters, int, int) | टेक्सचर पर रेंडर करने वाले 1 टार्गेट वाला एक रेंडर टार्गेट बनाएं |
+| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture/#createrendertexture_1)(RenderParameters, int, int, int) | टेक्सचर पर रेंडर करने वाला एक रेंडर टार्गेट बनाएं |
+| abstract [CreateRenderWindow](../../aspose.threed.render/renderfactory/createrenderwindow/)(RenderParameters, WindowHandle) | नेटिव विंडो पर रेंडर करने वाला एक रेंडर टार्गेट बनाएं। |
+| abstract [CreateShaderProgram](../../aspose.threed.render/renderfactory/createshaderprogram/)(ShaderSource) | एक [`ShaderProgram`](../shaderprogram/) ऑब्जेक्ट बनाएं |
+| [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit/#createtextureunit)() | शेडर द्वारा एक्सेस किया जा सकने वाला 2D टेक्सचर यूनिट बनाएं। |
+| abstract [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit/#createtextureunit_1)(TextureType) | शेडर द्वारा एक्सेस किया जा सकने वाला टेक्सचर यूनिट बनाएं। |
+| abstract [CreateUniformBuffer](../../aspose.threed.render/renderfactory/createuniformbuffer/)(int) | GPU पक्ष में पूर्व-आवंटित आकार के साथ एक नया यूनिफ़ॉर्म बफ़र बनाएं। |
+| abstract [CreateVertexBuffer](../../aspose.threed.render/renderfactory/createvertexbuffer/)(VertexDeclaration) | बहुभुज के वर्टेक्स जानकारी को संग्रहीत करने के लिए एक [`IVertexBuffer`](../ivertexbuffer/) इंस्टेंस बनाएं। |
 
-### यह सभी देखें
+### देखें भी
 
-* नाम स्थान [Aspose.ThreeD.Render](../../aspose.threed.render/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

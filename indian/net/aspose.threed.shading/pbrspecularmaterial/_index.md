@@ -1,65 +1,65 @@
 ---
-title: PbrSpecularMaterial
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: वसरत रंग/स्पेक्युलर/चमक पर आधरत शररक रूप से आधरत रेंडरंग के लए समग्र
+title: "क्लास PbrSpecularMaterial"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Shading.PbrSpecularMaterial class. डिफ्यूज़ रंग/स्पेक्यूलर/ग्लॉसिनेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए सामग्री"
 type: docs
-weight: 2310
+weight: 2560
 url: /hi/net/aspose.threed.shading/pbrspecularmaterial/
 ---
 ## PbrSpecularMaterial class
 
-विसरित रंग/स्पेक्युलर/चमक पर आधारित शारीरिक रूप से आधारित रेंडरिंग के लिए सामग्री
+डिफ्यूज़ रंग/स्पेक्यूलर/ग्लॉसिनेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए मैटेरियल
 
 ```csharp
 public class PbrSpecularMaterial : Material
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [PbrSpecularMaterial](pbrspecularmaterial/)() | का निर्माता`PbrSpecularMaterial` |
+| [PbrSpecularMaterial](pbrspecularmaterial/)() | `PbrSpecularMaterial` का कंस्ट्रक्टर |
 
-## गुण
-
-| नाम | विवरण |
-| --- | --- |
-| [Diffuse](../../aspose.threed.shading/pbrspecularmaterial/diffuse/) { get; set; } | सामग्री के विसरित रंग को प्राप्त या सेट करता है, डिफ़ॉल्ट मान (1, 1, 1) है |
-| [DiffuseTexture](../../aspose.threed.shading/pbrspecularmaterial/diffusetexture/) { get; set; } | डिफ्यूज़ के लिए बनावट प्राप्त या सेट करता है |
-| [EmissiveColor](../../aspose.threed.shading/pbrspecularmaterial/emissivecolor/) { get; set; } | उत्सर्जक रंग प्राप्त या सेट करता है, डिफ़ॉल्ट मान है (0, 0, 0) |
-| [EmissiveTexture](../../aspose.threed.shading/pbrspecularmaterial/emissivetexture/) { get; set; } | एमिसिव के लिए बनावट प्राप्त या सेट करता है |
-| [GlossinessFactor](../../aspose.threed.shading/pbrspecularmaterial/glossinessfactor/) { get; set; } | सामग्री की चमक (चिकनाई) प्राप्त या सेट करता है, 1 का अर्थ है पूरी तरह से चिकना और 0 का अर्थ है पूरी तरह से मोटा, डिफ़ॉल्ट मान 1 है, सीमा [0, 1] है |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [NormalTexture](../../aspose.threed.shading/pbrspecularmaterial/normaltexture/) { get; set; } | सामान्य मैपिंग की बनावट प्राप्त या सेट करता है |
-| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी संपत्तियों का संग्रह प्राप्त करता है। |
-| [Specular](../../aspose.threed.shading/pbrspecularmaterial/specular/) { get; set; } | सामग्री का विशिष्ट रंग प्राप्त या सेट करता है, डिफ़ॉल्ट मान (1, 1, 1) है। |
-| [SpecularGlossinessTexture](../../aspose.threed.shading/pbrspecularmaterial/specularglossinesstexture/) { get; set; } | स्पेक्युलर कलर के लिए टेक्सचर प्राप्त या सेट करता है, चैनल आरजीबी स्पेक्युलर कलर को स्टोर करता है और चैनल A ग्लॉसीनेस को स्टोर करता है। |
-| [Transparency](../../aspose.threed.shading/pbrspecularmaterial/transparency/) { get; set; } | पारदर्शिता फ़ैक्टर प्राप्त या सेट करता है. फ़ैक्टर को 0(0%, पूरी तरह से अपारदर्शी) और 1(100%, पूरी तरह से पारदर्शी) के बीच होना चाहिए कोई भी अमान्य फ़ैक्टर मान क्लैम्प किया जाएगा. |
-
-## तरीकों
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | संपत्ति ढूँढता है। यह एक गतिशील संपत्ति हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल संपत्ति (इसके नाम से पहचानी गई) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | गणनाकर्ता को आंतरिक बनावट स्लॉट की गणना करने के लिए मिलता है। |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट संपत्ति का मान प्राप्त करें |
-| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | निर्दिष्ट स्लॉट से बनावट प्राप्त करता है, यह सामग्री की संपत्ति का नाम या शेडर का पैरामीटर नाम हो सकता है |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक गतिशील संपत्ति को हटाता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट संपत्ति को हटाएं |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट संपत्ति का मान सेट करता है |
-| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | बनावट को निर्दिष्ट स्लॉट पर सेट करता है |
-| override [ToString](../../aspose.threed.shading/material/tostring/)() | ऑब्जेक्ट को string पर स्वरूपित करता है |
+| [Diffuse](../../aspose.threed.shading/pbrspecularmaterial/diffuse/) { get; set; } | सामग्री का डिफ्यूज़ रंग प्राप्त करता है या सेट करता है, डिफ़ॉल्ट मान (1, 1, 1) है। |
+| [DiffuseTexture](../../aspose.threed.shading/pbrspecularmaterial/diffusetexture/) { get; set; } | डिफ्यूज़ के लिए टेक्सचर प्राप्त करता है या सेट करता है |
+| [EmissiveColor](../../aspose.threed.shading/pbrspecularmaterial/emissivecolor/) { get; set; } | एमिसिव रंग प्राप्त करता है या सेट करता है, डिफ़ॉल्ट मान (0, 0, 0) है |
+| [EmissiveTexture](../../aspose.threed.shading/pbrspecularmaterial/emissivetexture/) { get; set; } | एमिसिव के लिए टेक्सचर प्राप्त करता है या सेट करता है |
+| [GlossinessFactor](../../aspose.threed.shading/pbrspecularmaterial/glossinessfactor/) { get; set; } | सामग्री की चमक (स्मूदनेस) प्राप्त करता है या सेट करता है, 1 का मतलब पूरी तरह स्मूद और 0 का मतलब पूरी तरह रफ़ है, डिफ़ॉल्ट मान 1 है, सीमा [0, 1] है |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [NormalTexture](../../aspose.threed.shading/pbrspecularmaterial/normaltexture/) { get; set; } | नॉर्मल मैपिंग का टेक्सचर प्राप्त करता है या सेट करता है |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
+| [Specular](../../aspose.threed.shading/pbrspecularmaterial/specular/) { get; set; } | सामग्री के स्पेक्युलर रंग को प्राप्त करता है या सेट करता है, डिफ़ॉल्ट मान (1, 1, 1) है। |
+| [SpecularGlossinessTexture](../../aspose.threed.shading/pbrspecularmaterial/specularglossinesstexture/) { get; set; } | स्पेक्युलर रंग के लिए टेक्सचर प्राप्त करता है या सेट करता है, चैनल RGB स्पेक्युलर रंग संग्रहीत करता है और चैनल A चमक (ग्लॉसिनेस) संग्रहीत करता है। |
+| [Transparency](../../aspose.threed.shading/pbrspecularmaterial/transparency/) { get; set; } | ट्रांसपेरेंसी फैक्टर प्राप्त करता है या सेट करता है। फैक्टर 0 (0%, पूरी तरह अपारदर्शी) से 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य फैक्टर वैल्यू को क्लैंप किया जाएगा। |
 
-## खेत
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| const [MapSpecularGlossiness](../../aspose.threed.shading/pbrspecularmaterial/mapspecularglossiness/) | विशिष्ट चमक के लिए बनावट मानचित्र |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (इसके नाम द्वारा पहचानी गई) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एनेमरेटर प्राप्त करता है। |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | निर्दिष्ट स्लॉट से टेक्सचर प्राप्त करता है, यह मैटेरियल की प्रॉपर्टी नाम या शेडर के पैरामीटर नाम हो सकता है |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | ऑब्जेक्ट को स्ट्रिंग में फॉर्मेट करता है |
 
-### यह सभी देखें
+## फ़ील्ड्स
+
+| नाम | विवरण |
+| --- | --- |
+| const [MapSpecularGlossiness](../../aspose.threed.shading/pbrspecularmaterial/mapspecularglossiness/) | स्पेक्युलर चमक के लिए टेक्सचर मैप |
+
+### देखें भी
 
 * class [Material](../material/)
-* नाम स्थान [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
