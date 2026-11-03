@@ -1,14 +1,14 @@
 ---
-title: Open
-second_title: Aspose.3D για Αναφορά API .NET
-description: Ανοίγει τη σκηνή από τη δεδομένη ροή χρησιμοποιώντας καθορισμένη μορφή αρχείου.
+title: "Scene.Open"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Μέθοδος Scene. Ανοίγει τη σκηνή από το δοσμένο ρεύμα χρησιμοποιώντας το καθορισμένο μορφότυπο αρχείου."
 type: docs
 weight: 140
 url: /el/net/aspose.threed/scene/open/
 ---
 ## Open(Stream, FileFormat, CancellationToken) {#open_1}
 
-Ανοίγει τη σκηνή από τη δεδομένη ροή χρησιμοποιώντας καθορισμένη μορφή αρχείου.
+Ανοίγει τη σκηνή από το δοσμένο ρεύμα χρησιμοποιώντας το καθορισμένο μορφότυπο αρχείου.
 
 ```csharp
 public void Open(Stream stream, FileFormat format, CancellationToken cancellationToken = default)
@@ -16,22 +16,41 @@ public void Open(Stream stream, FileFormat format, CancellationToken cancellatio
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| stream | Stream | Ροή εισόδου, ο χρήστης είναι υπεύθυνος για το κλείσιμο της ροής. |
-| format | FileFormat | Μορφή αρχείου. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| stream | Stream | Ρεύμα εισόδου, ο χρήστης είναι υπεύθυνος για το κλείσιμο του ρεύματος. |
+| μορφή | FileFormat | Μορφότυπος αρχείου. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από ρεύμα.
+
+```csharp
+Scene scene = new Scene();
+using (var stream = new FileStream("input.fbx", FileMode.Open))
+{
+    scene.Open(stream, FileFormat.GLTF2);
+}
+```
 
 ### Δείτε επίσης
 
 * class [FileFormat](../../fileformat/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(Stream, LoadOptions, CancellationToken) {#open_2}
 
-Ανοίγει τη σκηνή από τη δεδομένη ροή χρησιμοποιώντας καθορισμένη διαμόρφωση IO.
+Ανοίγει τη σκηνή από το δοσμένο ρεύμα χρησιμοποιώντας την καθορισμένη διαμόρφωση I/O.
 
 ```csharp
 public void Open(Stream stream, LoadOptions options, CancellationToken cancellationToken = default)
@@ -39,22 +58,43 @@ public void Open(Stream stream, LoadOptions options, CancellationToken cancellat
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| stream | Stream | Ροή εισόδου, ο χρήστης είναι υπεύθυνος για το κλείσιμο της ροής. |
-| options | LoadOptions | Πιο λεπτομερής διαμόρφωση για το άνοιγμα της ροής. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| stream | Stream | Ρεύμα εισόδου, ο χρήστης είναι υπεύθυνος για το κλείσιμο του ρεύματος. |
+| επιλογές | LoadOptions | Πιο λεπτομερής διαμόρφωση για το άνοιγμα του ρεύματος. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από ρεύμα με επιπλέον επιλογές φόρτωσης.
+
+```csharp
+Scene scene = new Scene();
+using (var stream = new FileStream("input.fbx", FileMode.Open))
+{
+    var opt = new FbxLoadOptions();
+    opt.LookupPaths.Add("textures");
+    scene.Open(stream, opt);
+}
+```
 
 ### Δείτε επίσης
 
 * class [LoadOptions](../../../aspose.threed.formats/loadoptions/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(Stream) {#open}
 
-Ανοίγει τη σκηνή από τη δεδομένη ροή
+Ανοίγει τη σκηνή από το δοσμένο ρεύμα
 
 ```csharp
 public void Open(Stream stream)
@@ -62,19 +102,38 @@ public void Open(Stream stream)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| stream | Stream | Ροή εισόδου, ο χρήστης είναι υπεύθυνος για το κλείσιμο της ροής. |
+| stream | Stream | Ρεύμα εισόδου, ο χρήστης είναι υπεύθυνος για το κλείσιμο του ρεύματος. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από ρεύμα.
+
+```csharp
+Scene scene = new Scene();
+using (var stream = new FileStream("input.fbx", FileMode.Open))
+{
+    scene.Open(stream);
+}
+```
 
 ### Δείτε επίσης
 
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(Stream, CancellationToken) {#open_3}
 
-Ανοίγει τη σκηνή από τη δεδομένη ροή
+Ανοίγει τη σκηνή από το δοσμένο ρεύμα
 
 ```csharp
 public void Open(Stream stream, CancellationToken cancellationToken)
@@ -82,20 +141,40 @@ public void Open(Stream stream, CancellationToken cancellationToken)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| stream | Stream | Ροή εισόδου, ο χρήστης είναι υπεύθυνος για το κλείσιμο της ροής. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| stream | Stream | Ρεύμα εισόδου, ο χρήστης είναι υπεύθυνος για το κλείσιμο του ρεύματος. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από ρεύμα με διακριτικό ακύρωσης.
+
+```csharp
+Scene scene = new Scene();
+CancellationTokenSource cts = new CancellationTokenSource();
+using (var stream = new FileStream("input.fbx", FileMode.Open))
+{
+    scene.Open(stream, cts.Token);
+}
+```
 
 ### Δείτε επίσης
 
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(string, FileFormat, CancellationToken) {#open_5}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή χρησιμοποιώντας καθορισμένη μορφή αρχείου.
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι χρησιμοποιώντας το καθορισμένο μορφότυπο αρχείου.
 
 ```csharp
 public void Open(string fileName, FileFormat format, CancellationToken cancellationToken = default)
@@ -103,22 +182,40 @@ public void Open(string fileName, FileFormat format, CancellationToken cancellat
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
-| format | FileFormat | Μορφή αρχείου. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| fileName | String | Όνομα αρχείου. |
+| μορφή | FileFormat | Μορφότυπος αρχείου. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από όνομα αρχείου με διακριτικό ακύρωσης.
+
+```csharp
+Scene scene = new Scene();
+CancellationTokenSource cts = new CancellationTokenSource();
+scene.Open("input.fbx", FileFormat.FBX7400ASCII, cts.Token);
+
+```
 
 ### Δείτε επίσης
 
 * class [FileFormat](../../fileformat/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(string, LoadOptions) {#open_6}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή χρησιμοποιώντας καθορισμένη μορφή αρχείου.
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι χρησιμοποιώντας το καθορισμένο μορφότυπο αρχείου.
 
 ```csharp
 public void Open(string fileName, LoadOptions options)
@@ -126,21 +223,39 @@ public void Open(string fileName, LoadOptions options)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
-| options | LoadOptions | Πιο λεπτομερής διαμόρφωση για το άνοιγμα της ροής. |
+| fileName | String | Όνομα αρχείου. |
+| επιλογές | LoadOptions | Πιο λεπτομερής διαμόρφωση για το άνοιγμα του ρεύματος. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από όνομα αρχείου με επιπλέον επιλογές φόρτωσης.
+
+```csharp
+Scene scene = new Scene();
+var opts = new FbxLoadOptions();
+opts.LookupPaths.Add("textures");
+scene.Open("input.fbx", opts);
+```
 
 ### Δείτε επίσης
 
 * class [LoadOptions](../../../aspose.threed.formats/loadoptions/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(string, LoadOptions, CancellationToken) {#open_7}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή χρησιμοποιώντας καθορισμένη μορφή αρχείου.
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι χρησιμοποιώντας το καθορισμένο μορφότυπο αρχείου.
 
 ```csharp
 public void Open(string fileName, LoadOptions options, CancellationToken cancellationToken)
@@ -148,22 +263,41 @@ public void Open(string fileName, LoadOptions options, CancellationToken cancell
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
-| options | LoadOptions | Πιο λεπτομερής διαμόρφωση για το άνοιγμα της ροής. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| fileName | String | Όνομα αρχείου. |
+| επιλογές | LoadOptions | Πιο λεπτομερής διαμόρφωση για το άνοιγμα του ρεύματος. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από όνομα αρχείου με επιπλέον επιλογές φόρτωσης και διακριτικό ακύρωσης.
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = new Scene();
+var opts = new FbxLoadOptions();
+opts.LookupPaths.Add("textures");
+scene.Open("input.fbx", opts, cts.Token);
+```
 
 ### Δείτε επίσης
 
 * class [LoadOptions](../../../aspose.threed.formats/loadoptions/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(string) {#open_4}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι
 
 ```csharp
 public void Open(string fileName)
@@ -171,19 +305,35 @@ public void Open(string fileName)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
+| fileName | String | Όνομα αρχείου. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από όνομα αρχείου.
+
+```csharp
+Scene scene = new Scene();
+scene.Open("input.fbx");
+```
 
 ### Δείτε επίσης
 
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(string, CancellationToken) {#open_8}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι
 
 ```csharp
 public void Open(string fileName, CancellationToken cancellationToken)
@@ -191,13 +341,30 @@ public void Open(string fileName, CancellationToken cancellationToken)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| fileName | String | Όνομα αρχείου. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να ανοίξετε μια σκηνή από όνομα αρχείου και μια πηγή διακριτικού ακύρωσης.
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = new Scene();
+scene.Open("input.fbx", cts.Token);
+```
 
 ### Δείτε επίσης
 
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,34 +1,45 @@
 ---
-title: CreateChildNode
-second_title: Aspose.3D για Αναφορά API .NET
-description: Δημιουργεί έναν θυγατρικό κόμβο
+title: "Node.CreateChildNode"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Μέθοδος Node. Δημιουργεί έναν υποκόμβο."
 type: docs
 weight: 170
 url: /el/net/aspose.threed/node/createchildnode/
 ---
 ## CreateChildNode() {#createchildnode}
 
-Δημιουργεί έναν θυγατρικό κόμβο
+Δημιουργεί έναν υποκόμβο
 
 ```csharp
 public Node CreateChildNode()
 ```
 
-### Επιστρεφόμενη Αξία
+### Τιμή επιστροφής
 
-Ο νέος παιδικός κόμβος.
+Ο νέος υποκόμβος.
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε έναν νέο υποκόμβο κάτω από τον ριζικό κόμβο.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode();
+node.Entity = new Box();
+scene.Save("output.fbx");
+```
 
 ### Δείτε επίσης
 
 * class [Node](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../node/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(string) {#createchildnode_2}
 
-Δημιουργία νέου θυγατρικού κόμβου με δεδομένο node name
+Δημιουργεί έναν νέο υποκόμβο με το δεδομένο όνομα κόμβου
 
 ```csharp
 public Node CreateChildNode(string nodeName)
@@ -36,23 +47,34 @@ public Node CreateChildNode(string nodeName)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| nodeName | String | Το όνομα του νέου θυγατρικού κόμβου |
+| nodeName | String | Το όνομα του νέου υποκόμβου |
 
-### Επιστρεφόμενη Αξία
+### Τιμή επιστροφής
 
-Ο νέος παιδικός κόμβος.
+Ο νέος υποκόμβος.
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε έναν νέο υποκόμβο κάτω από τον ριζικό κόμβο.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode("new node");
+node.Entity = new Box();
+scene.Save("output.fbx");
+```
 
 ### Δείτε επίσης
 
 * class [Node](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../node/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(Entity) {#createchildnode_1}
 
-Δημιουργία νέου θυγατρικού κόμβου με δεδομένη οντότητα επισυναπτόμενη
+Δημιουργεί έναν νέο υποκόμβο με την δεδομένη οντότητα συνδεδεμένη
 
 ```csharp
 public Node CreateChildNode(Entity entity)
@@ -60,24 +82,34 @@ public Node CreateChildNode(Entity entity)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| entity | Entity | Προεπιλεγμένη οντότητα συνδεδεμένη στον κόμβο |
+| οντότητα | Οντότητα | Προεπιλεγμένη οντότητα συνδεδεμένη με τον κόμβο |
 
-### Επιστρεφόμενη Αξία
+### Τιμή επιστροφής
 
-Ο νέος παιδικός κόμβος.
+Ο νέος υποκόμβος.
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε έναν νέο υποκόμβο κάτω από τον ριζικό κόμβο.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode(new Box());
+scene.Save("output.fbx");
+```
 
 ### Δείτε επίσης
 
 * class [Entity](../../entity/)
 * class [Node](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../node/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(string, Entity) {#createchildnode_3}
 
-Δημιουργία νέου θυγατρικού κόμβου με δεδομένο node name
+Δημιουργεί έναν νέο υποκόμβο με το δεδομένο όνομα κόμβου
 
 ```csharp
 public Node CreateChildNode(string nodeName, Entity entity)
@@ -85,25 +117,25 @@ public Node CreateChildNode(string nodeName, Entity entity)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| nodeName | String | Το όνομα του νέου θυγατρικού κόμβου |
-| entity | Entity | Προεπιλεγμένη οντότητα συνδεδεμένη στον κόμβο |
+| nodeName | String | Το όνομα του νέου υποκόμβου |
+| οντότητα | Οντότητα | Προεπιλεγμένη οντότητα συνδεδεμένη με τον κόμβο |
 
-### Επιστρεφόμενη Αξία
+### Τιμή επιστροφής
 
-Ο νέος παιδικός κόμβος.
+Ο νέος υποκόμβος.
 
 ### Δείτε επίσης
 
 * class [Entity](../../entity/)
 * class [Node](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../node/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(string, Entity, Material) {#createchildnode_4}
 
-Δημιουργήστε έναν νέο θυγατρικό κόμβο με δεδομένο όνομα κόμβου και επισυνάψτε την καθορισμένη οντότητα και ένα υλικό
+Δημιουργεί έναν νέο υποκόμβο με το δεδομένο όνομα κόμβου και συνδέει την καθορισμένη οντότητα και ένα υλικό
 
 ```csharp
 public Node CreateChildNode(string nodeName, Entity entity, Material material)
@@ -111,20 +143,20 @@ public Node CreateChildNode(string nodeName, Entity entity, Material material)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| nodeName | String | Το όνομα του νέου θυγατρικού κόμβου |
-| entity | Entity | Προεπιλεγμένη οντότητα συνδεδεμένη στον κόμβο |
-| material | Material | Το υλικό που συνδέεται με τον κόμβο |
+| nodeName | String | Το όνομα του νέου υποκόμβου |
+| οντότητα | Οντότητα | Προεπιλεγμένη οντότητα συνδεδεμένη με τον κόμβο |
+| υλικό | Υλικό | Το υλικό συνδεδεμένο με τον κόμβο |
 
-### Επιστρεφόμενη Αξία
+### Τιμή επιστροφής
 
-Ο νέος παιδικός κόμβος.
+Ο νέος υποκόμβος.
 
 ### Δείτε επίσης
 
 * class [Entity](../../entity/)
 * class [Material](../../../aspose.threed.shading/material/)
 * class [Node](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../node/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

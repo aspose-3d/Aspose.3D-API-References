@@ -1,14 +1,14 @@
 ---
-title: Material
-second_title: Aspose.3D για Αναφορά API .NET
-description: Το Υλικό καθορίζει τις απαραίτητες παραμέτρους για την οπτική εμφάνιση της γεωμετρίας. Το Aspose.3D παρέχει μοντέλο σκίασης γιαLambertMaterial./lambertmaterial/ PhongMaterial./phongmaterial/ καιShaderMaterial./shadermaterial/
+title: "Κλάση Material"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Aspose.ThreeD.Shading.Material class. Το υλικό ορίζει τις παραμέτρους που απαιτούνται για την οπτική εμφάνιση της γεωμετρίας. Το Aspose.3D παρέχει μοντέλο σκίασης για LambertMaterial, PhongMaterial και ShaderMaterial"
 type: docs
-weight: 2290
+weight: 2540
 url: /el/net/aspose.threed.shading/material/
 ---
 ## Material class
 
-Το Υλικό καθορίζει τις απαραίτητες παραμέτρους για την οπτική εμφάνιση της γεωμετρίας. Το Aspose.3D παρέχει μοντέλο σκίασης για[`LambertMaterial`](../lambertmaterial/) ,[`PhongMaterial`](../phongmaterial/) και[`ShaderMaterial`](../shadermaterial/)
+Το υλικό ορίζει τις παραμέτρους που απαιτούνται για την οπτική εμφάνιση της γεωμετρίας. Το Aspose.3D παρέχει μοντέλο σκίασης για [`LambertMaterial`](../lambertmaterial/), [`PhongMaterial`](../phongmaterial/) και [`ShaderMaterial`](../shadermaterial/)
 
 ```csharp
 public abstract class Material : A3DObject, IEnumerable<TextureSlot>
@@ -16,40 +16,53 @@ public abstract class Material : A3DObject, IEnumerable<TextureSlot>
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Παίρνει ή ορίζει το όνομα. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Λαμβάνει ή ορίζει το όνομα. |
 | [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Λαμβάνει τη συλλογή όλων των ιδιοτήτων. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι μια δυναμική ιδιότητα (Δημιουργήθηκε από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται από το όνομά της) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | Βάζει τον απαριθμητή να απαριθμήσει εσωτερικές υποδοχές υφής. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι δυναμική ιδιότητα (Δημιουργείται από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται με το όνομά της) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | Λαμβάνει τον enumerator για την απαρίθμηση των εσωτερικών θέσεων texture. |
 | [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Λάβετε την τιμή της καθορισμένης ιδιότητας |
-| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | Λαμβάνει την υφή από την καθορισμένη υποδοχή, μπορεί να είναι το όνομα ιδιότητας του υλικού ή η παράμετρος shader name |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Καταργεί μια δυναμική ιδιότητα. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Καταργήστε την καθορισμένη ιδιότητα που προσδιορίζεται με όνομα |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | Λαμβάνει τη texture από την καθορισμένη θέση, μπορεί να είναι το όνομα ιδιότητας του material ή το όνομα παραμέτρου του shader. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Αφαιρεί μια δυναμική ιδιότητα. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Αφαιρέστε την καθορισμένη ιδιότητα που προσδιορίζεται με το όνομα |
 | [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Ορίζει την τιμή της καθορισμένης ιδιότητας |
-| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | Ορίζει την υφή σε καθορισμένο slot |
-| override [ToString](../../aspose.threed.shading/material/tostring/)() | Μορφοποιεί αντικείμενο σε string |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | Ορίζει τη texture στην καθορισμένη θέση. |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | Μετατρέπει το αντικείμενο σε συμβολοσειρά. |
 
 ## Πεδία
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| const [MapAmbient](../../aspose.threed.shading/material/mapambient/) | Χρησιμοποιείται σε[`SetTexture`](./settexture/) για να αντιστοιχίσετε μια αντιστοίχιση υφής περιβάλλοντος. |
-| const [MapDiffuse](../../aspose.threed.shading/material/mapdiffuse/) | Χρησιμοποιείται σε[`SetTexture`](./settexture/) για να ορίσετε μια διάχυτη αντιστοίχιση υφής. |
-| const [MapEmissive](../../aspose.threed.shading/material/mapemissive/) | Χρησιμοποιείται σε[`SetTexture`](./settexture/) για να αντιστοιχίσετε μια αντιστοίχιση υφής εκπομπής. |
-| const [MapNormal](../../aspose.threed.shading/material/mapnormal/) | Χρησιμοποιείται σε[`SetTexture`](./settexture/) για να αντιστοιχίσετε μια κανονική αντιστοίχιση υφής. |
-| const [MapSpecular](../../aspose.threed.shading/material/mapspecular/) | Χρησιμοποιείται σε[`SetTexture`](./settexture/) για να εκχωρήσετε μια κατοπτρική αντιστοίχιση υφής. |
+| const [MapAmbient](../../aspose.threed.shading/material/mapambient/) | Χρησιμοποιείται στο [`SetTexture`](./settexture/) για την ανάθεση μιας ατμοσφαιρικής χαρτογράφησης υφής. |
+| const [MapDiffuse](../../aspose.threed.shading/material/mapdiffuse/) | Χρησιμοποιείται στο [`SetTexture`](./settexture/) για την ανάθεση μιας διάχυτης απεικόνισης υφής. |
+| const [MapEmissive](../../aspose.threed.shading/material/mapemissive/) | Χρησιμοποιείται στο [`SetTexture`](./settexture/) για την ανάθεση μιας εκπεμπόμενης απεικόνισης υφής. |
+| const [MapNormal](../../aspose.threed.shading/material/mapnormal/) | Χρησιμοποιείται στο [`SetTexture`](./settexture/) για την ανάθεση μιας κανονικής απεικόνισης υφής. |
+| const [MapSpecular](../../aspose.threed.shading/material/mapspecular/) | Χρησιμοποιείται στο [`SetTexture`](./settexture/) για την ανάθεση μιας specular απεικόνισης υφής. |
+
+## Παραδείγματα
+
+```csharp
+var mat = new LambertMaterial();
+var tex = new Texture();
+tex.FileName = "diffuse.png";
+mat.SetTexture(Material.MapDiffuse, tex);
+foreach(var slot in mat)
+{
+    Console.WriteLine($"Texture slot {slot.SlotName} = {slot.Texture}");
+}
+```
 
 ### Δείτε επίσης
 
 * class [A3DObject](../../aspose.threed/a3dobject/)
 * class [TextureSlot](../textureslot/)
-* χώρος ονομάτων [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

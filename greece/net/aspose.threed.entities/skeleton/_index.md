@@ -1,14 +1,14 @@
 ---
-title: Skeleton
-second_title: Aspose.3D για Αναφορά API .NET
-description: ΤοSkeleton./skeleton/χρησιμοποιείται κυρίως από το λογισμικό CAD για να βοηθήσει τον σχεδιαστή να χειριστεί τον μετασχηματισμό της σκελετικής δομής είναι συνήθως άχρηστο έξω από τα λογισμικά CAD. Για να γίνει η ιεραρχία του σκελετού να λειτουργεί σαν ένα αντικείμενο στο λογισμικό CAD είναι απαραίτητο να σημειωθεί η κορυφήSkeleton./skeleton/ κόμβος ως ρίζα με τη ρύθμισηType./skeleton/type/ προς τηνSkeleton  και όλα τα παιδιά ρυθμίστηκαν σεBone
+title: "Κλάση Skeleton"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Κλάση Aspose.ThreeD.Entities.Skeleton. Το Skeleton χρησιμοποιείται κυρίως από λογισμικό CAD για να βοηθήσει τον σχεδιαστή να χειριστεί τη μετασχηματισμό της σκελετική δομής, συνήθως είναι άχρηστο εκτός των λογισμικών CAD. Για να λειτουργεί η ιεραρχία του σκελετού ως ένα αντικείμενο στο λογισμικό CAD, είναι απαραίτητο να σημειωθεί ο κορυφαίος κόμβος Skeleton ως ρίζα ορίζοντας το Type σε Skeleton και όλα τα παιδιά σε Bone."
 type: docs
-weight: 650
+weight: 710
 url: /el/net/aspose.threed.entities/skeleton/
 ---
 ## Skeleton class
 
-Το`Skeleton`χρησιμοποιείται κυρίως από το λογισμικό CAD για να βοηθήσει τον σχεδιαστή να χειριστεί τον μετασχηματισμό της σκελετικής δομής, είναι συνήθως άχρηστο έξω από τα λογισμικά CAD. Για να γίνει η ιεραρχία του σκελετού να λειτουργεί σαν ένα αντικείμενο στο λογισμικό CAD, είναι απαραίτητο να σημειωθεί η κορυφή`Skeleton` κόμβος ως ρίζα με τη ρύθμιση[`Type`](./type/) προς τηνSkeleton , και όλα τα παιδιά ρυθμίστηκαν σεBone
+Το `Skeleton` χρησιμοποιείται κυρίως από λογισμικό CAD για να βοηθήσει τον σχεδιαστή να χειριστεί τη μετασχηματισμό της σκελετική δομής, είναι συνήθως άχρηστο εκτός των λογισμικών CAD. Για να λειτουργεί η ιεραρχία του σκελετού ως ένα αντικείμενο στο λογισμικό CAD, είναι απαραίτητο να σημειωθεί ο κορυφαίος κόμβος `Skeleton` ως ρίζα ορίζοντας το [`Type`](./type/) σε Skeleton, και όλα τα παιδιά σε Bone.
 
 ```csharp
 public class Skeleton : Entity
@@ -16,40 +16,41 @@ public class Skeleton : Entity
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Skeleton](skeleton/#constructor)() | Αρχικοποιεί μια νέα παρουσία του`Skeleton` τάξη. |
-| [Skeleton](skeleton/#constructor_1)(string) | Αρχικοποιεί μια νέα παρουσία του`Skeleton` τάξη. |
+| [Skeleton](skeleton/#constructor)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `Skeleton`. |
+| [Skeleton](skeleton/#constructor_1)(string) | Αρχικοποιεί μια νέα παρουσία της κλάσης `Skeleton`. |
+| [Skeleton](skeleton/#constructor_2)(string, SkeletonType) | Αρχικοποιεί μια νέα παρουσία της κλάσης `Skeleton`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Λαμβάνει ή ορίζει εάν θα εξαιρεθεί αυτή η οντότητα κατά την εξαγωγή. |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Παίρνει ή ορίζει το όνομα. |
-| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Λαμβάνει ή ορίζει τον πρώτο γονικό κόμβο, εάν οριστεί ο πρώτος γονικός κόμβος, αυτή η οντότητα θα αποσπαστεί από άλλους γονικούς κόμβους. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Λαμβάνει όλους τους γονικούς κόμβους, μια οντότητα μπορεί να προσαρτηθεί σε πολλούς γονικούς κόμβους για γεωμετρία instancing |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Λαμβάνει ή ορίζει αν αυτή η οντότητα θα εξαιρεθεί κατά την εξαγωγή. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Λαμβάνει ή ορίζει το όνομα. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Λαμβάνει ή ορίζει τον πρώτο γονικό κόμβο· εάν οριστεί ο πρώτος γονικός κόμβος, αυτή η οντότητα θα αποσυνδεθεί από άλλους γονικούς κόμβους. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Λαμβάνει όλους τους γονικούς κόμβους, μια οντότητα μπορεί να προσαρτηθεί σε πολλούς γονικούς κόμβους για δημιουργία γεωμετρίας μέσω αντιγραφών |
 | [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Λαμβάνει τη συλλογή όλων των ιδιοτήτων. |
-| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Λαμβάνει τη σκηνή ότι αυτό το αντικείμενο ανήκει στο |
-| [Size](../../aspose.threed.entities/skeleton/size/) { get; set; } | Λαμβάνει ή ορίζει το μέγεθος του κόμβου του άκρου που χρησιμοποιείται στο λογισμικό CAD για να αντιπροσωπεύει το μέγεθος του οστού. |
-| [Type](../../aspose.threed.entities/skeleton/type/) { get; set; } | Παίρνει ή ορίζει τον τύπο του σκελετού. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Λαμβάνει τη σκηνή στην οποία ανήκει αυτό το αντικείμενο |
+| [Size](../../aspose.threed.entities/skeleton/size/) { get; set; } | Λαμβάνει ή ορίζει το μέγεθος του κόμβου άκρου που χρησιμοποιείται σε λογισμικό CAD για την αναπαράσταση του μεγέθους του οστού. |
+| [Type](../../aspose.threed.entities/skeleton/type/) { get; set; } | Λαμβάνει ή ορίζει τον τύπο του σκελετού. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι μια δυναμική ιδιότητα (Δημιουργήθηκε από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται από το όνομά της) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Λαμβάνει το πλαίσιο οριοθέτησης της τρέχουσας οντότητας στο σύστημα συντεταγμένων του χώρου αντικειμένου. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | Παίρνει το κλειδί του προγράμματος απόδοσης οντοτήτων που είναι καταχωρημένο στο πρόγραμμα απόδοσης |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι δυναμική ιδιότητα (Δημιουργείται από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται με το όνομά της) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Λαμβάνει το πλαίσιο περιβάλλοντος της τρέχουσας οντότητας στο σύστημα συντεταγμένων του χώρου αντικειμένου της. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | Λαμβάνει το κλειδί του αποτυπωτή οντότητας που είναι καταχωρημένο στον renderer |
 | [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Λάβετε την τιμή της καθορισμένης ιδιότητας |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Καταργεί μια δυναμική ιδιότητα. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Καταργήστε την καθορισμένη ιδιότητα που προσδιορίζεται με όνομα |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Αφαιρεί μια δυναμική ιδιότητα. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Αφαιρέστε την καθορισμένη ιδιότητα που προσδιορίζεται με το όνομα |
 | [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Ορίζει την τιμή της καθορισμένης ιδιότητας |
 
 ### Δείτε επίσης
 
 * class [Entity](../../aspose.threed/entity/)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: Renderer
-second_title: Aspose.3D για Αναφορά API .NET
-description: Το πλαίσιο σχετικά με το renderer.
+title: "Κλάση Renderer"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Κλάση Aspose.ThreeD.Render.Renderer. Το πλαίσιο σχετικά με τον αποδοχέα"
 type: docs
-weight: 2100
+weight: 2340
 url: /el/net/aspose.threed.render/renderer/
 ---
 ## Renderer class
 
-Το πλαίσιο σχετικά με το renderer.
+Το πλαίσιο σχετικά με τον αποτυπωτή.
 
 ```csharp
 public abstract class Renderer : IDisposable
@@ -16,38 +16,38 @@ public abstract class Renderer : IDisposable
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AssetDirectories](../../aspose.threed.render/renderer/assetdirectories/) { get; } | Κατάλογοι που αποθηκεύουν εξωτερικά στοιχεία |
-| [EnableShadows](../../aspose.threed.render/renderer/enableshadows/) { get; set; } | Λαμβάνει ή ορίζει εάν θα ενεργοποιηθούν οι σκιές. |
-| [FallbackEntityRenderer](../../aspose.threed.render/renderer/fallbackentityrenderer/) { get; set; } | Λαμβάνει ή ορίζει την εφεδρική απόδοση απόδοσης οντοτήτων όταν η οντότητα δεν έχει καθορισμένο ειδικό πρόγραμμα απόδοσης. |
-| virtual [Frustum](../../aspose.threed.render/renderer/frustum/) { get; set; } | Λαμβάνει ή ορίζει το frustum που χρησιμοποιήθηκε για την παροχή του πίνακα προβολής. |
-| virtual [Material](../../aspose.threed.render/renderer/material/) { get; set; } | Λαμβάνει ή ορίζει το υλικό που χρησιμοποιείται για την παροχή πληροφοριών υλικού που χρησιμοποιούνται από τα shaders. |
-| [Node](../../aspose.threed.render/renderer/node/) { get; set; } | Λαμβάνει ή ορίζει το[`Node`](./node/) παράδειγμα που χρησιμοποιείται για την παροχή πίνακα μετασχηματισμού κόσμου. |
-| [PostProcessings](../../aspose.threed.render/renderer/postprocessings/) { get; } | Ενεργή αλυσίδα μετά την επεξεργασία |
-| [PresetShaders](../../aspose.threed.render/renderer/presetshaders/) { get; set; } | Λαμβάνει ή ρυθμίζει το προκαθορισμένο shader set |
-| abstract [RenderFactory](../../aspose.threed.render/renderer/renderfactory/) { get; } | Αναλαμβάνει το εργοστάσιο να δημιουργήσει αντικείμενα που σχετίζονται με την απόδοση. |
+| [AssetDirectories](../../aspose.threed.render/renderer/assetdirectories/) { get; } | Κατάλογοι που αποθηκεύουν εξωτερικά περιουσιακά στοιχεία |
+| [EnableShadows](../../aspose.threed.render/renderer/enableshadows/) { get; set; } | Λαμβάνει ή ορίζει αν ενεργοποιηθούν οι σκιές. |
+| [FallbackEntityRenderer](../../aspose.threed.render/renderer/fallbackentityrenderer/) { get; set; } | Λαμβάνει ή ορίζει τον εναλλακτικό αποτυπωτή οντότητας όταν η οντότητα δεν έχει ορισμένο ειδικό αποτυπωτή. |
+| virtual [Frustum](../../aspose.threed.render/renderer/frustum/) { get; set; } | Λαμβάνει ή ορίζει το προβολικό που χρησιμοποιείται για την παροχή του πίνακα προβολής. |
+| virtual [Material](../../aspose.threed.render/renderer/material/) { get; set; } | Λαμβάνει ή ορίζει το υλικό που χρησιμοποιείται για την παροχή πληροφοριών υλικού που χρησιμοποιούν οι shaders. |
+| [Node](../../aspose.threed.render/renderer/node/) { get; set; } | Λαμβάνει ή ορίζει το στιγμιότυπο [`Node`](./node/) που χρησιμοποιείται για την παροχή του πίνακα μετασχηματισμού του κόσμου. |
+| [PostProcessings](../../aspose.threed.render/renderer/postprocessings/) { get; } | Ενεργή αλυσίδα μετα-επεξεργασίας |
+| [PresetShaders](../../aspose.threed.render/renderer/presetshaders/) { get; set; } | Λαμβάνει ή ορίζει το προκαθορισμένο σύνολο shaders |
+| abstract [RenderFactory](../../aspose.threed.render/renderer/renderfactory/) { get; } | Λαμβάνει το εργοστάσιο για τη δημιουργία αντικειμένων σχετικών με την απόδοση. |
 | [RenderStage](../../aspose.threed.render/renderer/renderstage/) { get; } | Λαμβάνει το τρέχον στάδιο απόδοσης. |
-| [RenderTarget](../../aspose.threed.render/renderer/rendertarget/) { get; } | Καθορίστε τον στόχο απόδοσης στον οποίο θα εκτελεστούν οι ακόλουθες λειτουργίες απόδοσης. |
+| [RenderTarget](../../aspose.threed.render/renderer/rendertarget/) { get; } | Καθορίστε τον προορισμό απόδοσης στον οποίο θα εκτελεστούν οι παρακάτω λειτουργίες απόδοσης. |
 | [Shader](../../aspose.threed.render/renderer/shader/) { get; set; } | Λαμβάνει ή ορίζει το στιγμιότυπο shader που χρησιμοποιείται για την απόδοση της γεωμετρίας. |
-| [ShaderSet](../../aspose.threed.render/renderer/shaderset/) { get; set; } | Λαμβάνει ή ορίζει το σύνολο shader που χρησιμοποιήθηκε για την απόδοση της σκηνής |
-| [Variables](../../aspose.threed.render/renderer/variables/) { get; } | Πρόσβαση στις εσωτερικές μεταβλητές που χρησιμοποιούνται για την απόδοση |
+| [ShaderSet](../../aspose.threed.render/renderer/shaderset/) { get; set; } | Λαμβάνει ή ορίζει το σύνολο shaders που χρησιμοποιείται για την απόδοση της σκηνής. |
+| [Variables](../../aspose.threed.render/renderer/variables/) { get; } | Πρόσβαση στις εσωτερικές μεταβλητές που χρησιμοποιούνται για την απόδοση. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [CreateRenderer](../../aspose.threed.render/renderer/createrenderer/)() | Δημιουργεί ένα νέο`Renderer`με προεπιλεγμένο προφίλ. |
-| virtual [ClearCache](../../aspose.threed.render/renderer/clearcache/)() | Μη αυτόματη εκκαθάριση της κρυφής μνήμης. Το Aspose.3D θα αποθηκεύσει ορισμένα αντικείμενα, όπως υλικά/γεωμετρίες, σε εσωτερικούς τύπους που είναι συμβατοί με τη διοχέτευση απόδοσης. Αυτό θα πρέπει να καλείται χειροκίνητα όταν η σκηνή έχει σημαντικές αλλαγές. |
-| [Dispose](../../aspose.threed.render/renderer/dispose/)() | Απορρίψτε το`Renderer` και όλοι οι σχετικοί πόροι |
-| abstract [Execute](../../aspose.threed.render/renderer/execute/)(PostProcessing, IRenderTarget) | Εκτελέστε μια επεξεργασία μετά τον καθορισμένο στόχο απόδοσης |
-| [GetPostProcessing](../../aspose.threed.render/renderer/getpostprocessing/)(string) | Αποκτά έναν ενσωματωμένο μετα-επεξεργαστή που υποστηρίζεται από τον renderer. |
-| virtual [RegisterEntityRenderer](../../aspose.threed.render/renderer/registerentityrenderer/)(EntityRenderer) | Καταχωρίστε την απόδοση απόδοσης οντοτήτων για καθορισμένη entity |
-| virtual [Render](../../aspose.threed.render/renderer/render/)(IRenderTarget) | Απόδοση του καθορισμένου target |
+| static [CreateRenderer](../../aspose.threed.render/renderer/createrenderer/)() | Δημιουργεί ένα νέο `Renderer` με προεπιλεγμένο προφίλ. |
+| virtual [ClearCache](../../aspose.threed.render/renderer/clearcache/)() | Καθαρίστε τη μνήμη cache χειροκίνητα. Το Aspose.3D θα αποθηκεύει σε cache ορισμένα αντικείμενα όπως υλικά/γεωμετρίες σε εσωτερικούς τύπους που είναι συμβατοί με τη γραμμή παραγωγής απόδοσης. Αυτό πρέπει να κληθεί χειροκίνητα όταν η σκηνή υποστεί σημαντικές αλλαγές. |
+| [Dispose](../../aspose.threed.render/renderer/dispose/)() | Αποδεσμεύστε το `Renderer` και όλους τους σχετικούς πόρους. |
+| abstract [Execute](../../aspose.threed.render/renderer/execute/)(PostProcessing, IRenderTarget) | Εκτελέστε μια μετα-επεξεργασία στον καθορισμένο προορισμό απόδοσης. |
+| [GetPostProcessing](../../aspose.threed.render/renderer/getpostprocessing/)(string) | Λαμβάνει έναν ενσωματωμένο μετα-επεξεργαστή που υποστηρίζεται από τον αποτυπωτή. |
+| virtual [RegisterEntityRenderer](../../aspose.threed.render/renderer/registerentityrenderer/)(EntityRenderer) | Καταχωρίστε τον αποτυπωτή οντότητας για την καθορισμένη οντότητα. |
+| virtual [Render](../../aspose.threed.render/renderer/render/)(IRenderTarget) | Αποδώστε τον καθορισμένο προορισμό. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.ThreeD.Render](../../aspose.threed.render/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

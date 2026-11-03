@@ -1,14 +1,14 @@
 ---
-title: Matrix4
-second_title: Aspose.3D για Αναφορά API .NET
-description: Υλοποίηση μήτρας 4x4.
+title: "Δομή Matrix4"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Δομή Aspose.ThreeD.Utilities.Matrix4. Υλοποίηση πίνακα 4x4"
 type: docs
-weight: 2560
+weight: 2790
 url: /el/net/aspose.threed.utilities/matrix4/
 ---
 ## Matrix4 structure
 
-Υλοποίηση μήτρας 4x4.
+Υλοποίηση πίνακα 4x4.
 
 ```csharp
 public struct Matrix4
@@ -16,46 +16,46 @@ public struct Matrix4
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Matrix4](matrix4/#constructor_3)(double[]) | Αρχικοποιεί μια νέα παρουσία του`Matrix4` struct. |
-| [Matrix4](matrix4/#constructor)(FMatrix4) | Κατασκευή`Matrix4` από ένα[`FMatrix4`](../fmatrix4/) instance |
-| [Matrix4](matrix4/#constructor_1)(Vector4, Vector4, Vector4, Vector4) | Κατασκευάζει μήτρα από 4 σειρές. |
-| [Matrix4](matrix4/#constructor_2)(double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double) | Αρχικοποιεί μια νέα παρουσία του`Matrix4` struct. |
+| [Matrix4](matrix4/#constructor_3)(double[]) | Αρχικοποιεί ένα νέο παράδειγμα της δομής `Matrix4`. |
+| [Matrix4](matrix4/#constructor)(FMatrix4) | Δημιουργεί το `Matrix4` από ένα παράδειγμα [`FMatrix4`](../fmatrix4/) |
+| [Matrix4](matrix4/#constructor_1)(Vector4, Vector4, Vector4, Vector4) | Δημιουργεί πίνακα από 4 σειρές. |
+| [Matrix4](matrix4/#constructor_2)(double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double) | Αρχικοποιεί ένα νέο παράδειγμα της δομής `Matrix4`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [Identity](../../aspose.threed.utilities/matrix4/identity/) { get; } | Λαμβάνει τον πίνακα ταυτότητας. |
-| [Determinant](../../aspose.threed.utilities/matrix4/determinant/) { get; } | Παίρνει την ορίζουσα του πίνακα. |
+| static [Identity](../../aspose.threed.utilities/matrix4/identity/) { get; } | Λαμβάνει τον μοναδιαίο πίνακα. |
+| [Determinant](../../aspose.threed.utilities/matrix4/determinant/) { get; } | Λαμβάνει το ορίζουσα του πίνακα. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [Rotate](../../aspose.threed.utilities/matrix4/rotate/#rotate)(Quaternion) | Δημιουργήστε έναν πίνακα περιστροφής από ένα τεταρτημόριο |
-| static [Rotate](../../aspose.threed.utilities/matrix4/rotate/#rotate_1)(double, Vector3) | Δημιουργήστε έναν πίνακα περιστροφής κατά γωνία περιστροφής και άξονα |
-| static [RotateFromEuler](../../aspose.threed.utilities/matrix4/rotatefromeuler/#rotatefromeuler)(Vector3) | Δημιουργία πίνακα περιστροφής από Euler angle |
-| static [RotateFromEuler](../../aspose.threed.utilities/matrix4/rotatefromeuler/#rotatefromeuler_1)(double, double, double) | Δημιουργία πίνακα περιστροφής από Euler angle |
-| static [Scale](../../aspose.threed.utilities/matrix4/scale/#scale_1)(double) | Δημιουργεί έναν πίνακα που κλιμακώνεται κατά μήκος του άξονα x, του άξονα y και του άξονα z. |
-| static [Scale](../../aspose.threed.utilities/matrix4/scale/#scale)(Vector3) | Δημιουργεί έναν πίνακα που κλιμακώνεται κατά μήκος του άξονα x, του άξονα y και του άξονα z. |
-| static [Scale](../../aspose.threed.utilities/matrix4/scale/#scale_2)(double, double, double) | Δημιουργεί έναν πίνακα που κλιμακώνεται κατά μήκος του άξονα x, του άξονα y και του άξονα z. |
-| static [Translate](../../aspose.threed.utilities/matrix4/translate/#translate)(Vector3) | Δημιουργεί έναν πίνακα που μεταφράζεται κατά μήκος του άξονα x, του άξονα y και του άξονα z |
-| static [Translate](../../aspose.threed.utilities/matrix4/translate/#translate_1)(double, double, double) | Δημιουργεί έναν πίνακα που μεταφράζεται κατά μήκος του άξονα x, του άξονα y και του άξονα z |
+| static [Rotate](../../aspose.threed.utilities/matrix4/rotate/#rotate)(Quaternion) | Δημιουργεί έναν πίνακα περιστροφής από ένα quaternion |
+| static [Rotate](../../aspose.threed.utilities/matrix4/rotate/#rotate_1)(double, Vector3) | Δημιουργεί έναν πίνακα περιστροφής με γωνία περιστροφής και άξονα |
+| static [RotateFromEuler](../../aspose.threed.utilities/matrix4/rotatefromeuler/#rotatefromeuler)(Vector3) | Δημιουργεί έναν πίνακα περιστροφής από γωνία Euler |
+| static [RotateFromEuler](../../aspose.threed.utilities/matrix4/rotatefromeuler/#rotatefromeuler_1)(double, double, double) | Δημιουργεί έναν πίνακα περιστροφής από γωνία Euler |
+| static [Scale](../../aspose.threed.utilities/matrix4/scale/#scale_1)(double) | Δημιουργεί έναν πίνακα που κλιμακώνει κατά τον άξονα x, τον άξονα y και τον άξονα z. |
+| static [Scale](../../aspose.threed.utilities/matrix4/scale/#scale)(Vector3) | Δημιουργεί έναν πίνακα που κλιμακώνει κατά τον άξονα x, τον άξονα y και τον άξονα z. |
+| static [Scale](../../aspose.threed.utilities/matrix4/scale/#scale_2)(double, double, double) | Δημιουργεί έναν πίνακα που κλιμακώνει κατά τον άξονα x, τον άξονα y και τον άξονα z. |
+| static [Translate](../../aspose.threed.utilities/matrix4/translate/#translate)(Vector3) | Δημιουργεί έναν πίνακα που μεταφράζει κατά τον άξονα x, τον άξονα y και τον άξονα z |
+| static [Translate](../../aspose.threed.utilities/matrix4/translate/#translate_1)(double, double, double) | Δημιουργεί έναν πίνακα που μεταφράζει κατά τον άξονα x, τον άξονα y και τον άξονα z |
 | [Concatenate](../../aspose.threed.utilities/matrix4/concatenate/)(Matrix4) | Συνενώνει τους δύο πίνακες |
 | [Decompose](../../aspose.threed.utilities/matrix4/decompose/)(out Vector3, out Vector3, out Quaternion) |  |
-| [Inverse](../../aspose.threed.utilities/matrix4/inverse/)() | Αντιστρέφει αυτήν την περίπτωση. |
-| [Normalize](../../aspose.threed.utilities/matrix4/normalize/)() | Κανονικοποιεί αυτό το στιγμιότυπο. |
+| [Inverse](../../aspose.threed.utilities/matrix4/inverse/)() | Αντιστρέφει αυτό το παράδειγμα. |
+| [Normalize](../../aspose.threed.utilities/matrix4/normalize/)() | Κανονικοποιεί αυτήν την παρουσία. |
 | [SetTRS](../../aspose.threed.utilities/matrix4/settrs/)(Vector3, Vector3, Vector3) | Αρχικοποιεί τον πίνακα με μετάφραση/περιστροφή/κλίμακα |
-| [ToArray](../../aspose.threed.utilities/matrix4/toarray/)() | Μετατρέπει τον πίνακα σε πίνακα. |
-| override [ToString](../../aspose.threed.utilities/matrix4/tostring/)() | Επιστρέφει αStringπου αντιπροσωπεύει το ρεύμα`Matrix4` . |
-| [Transpose](../../aspose.threed.utilities/matrix4/transpose/)() | Μεταφέρει αυτό το στιγμιότυπο. |
-| [operator *](../../aspose.threed.utilities/matrix4/op_multiply/#op_multiply) | Πολλαπλασιάστε τους δύο πίνακες (4 operators) |
+| [ToArray](../../aspose.threed.utilities/matrix4/toarray/)() | Μετατρέπει τον πίνακα σε σειρά. |
+| override [ToString](../../aspose.threed.utilities/matrix4/tostring/)() | Επιστρέφει ένα String που αντιπροσωπεύει το τρέχον `Matrix4`. |
+| [Transpose](../../aspose.threed.utilities/matrix4/transpose/)() | Κάνει transpose σε αυτό το στιγμιότυπο. |
+| [operator *](../../aspose.threed.utilities/matrix4/op_multiply/#op_multiply) | Πολλαπλασιάζει τους δύο πίνακες (4 τελεστές) |
 
 ## Πεδία
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [m00](../../aspose.threed.utilities/matrix4/m00/) | Το m00. |
 | [m01](../../aspose.threed.utilities/matrix4/m01/) | Το m01. |
@@ -74,9 +74,20 @@ public struct Matrix4
 | [m32](../../aspose.threed.utilities/matrix4/m32/) | Το m32. |
 | [m33](../../aspose.threed.utilities/matrix4/m33/) | Το m33. |
 
+## Παραδείγματα
+
+```csharp
+Matrix4 mat = Matrix4.RotateFromEuler(90, 0, 0);
+Matrix4 mat2 = Matrix4.Translate(0, 10, -50);
+Matrix4 transform = mat2 * mat;
+Vector4 pos = new Vector4(10, 9, 0, 1);
+Vector4 transformed = transform * pos;
+
+```
+
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

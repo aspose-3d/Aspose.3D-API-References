@@ -1,14 +1,14 @@
 ---
-title: DracoSaveOptions
-second_title: Aspose.3D για Αναφορά API .NET
-description: Αποθήκευση επιλογών για αρχεία Google draco
+title: "Κλάση DracoSaveOptions"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Κλάση Aspose.ThreeD.Formats.DracoSaveOptions. Επιλογές αποθήκευσης για αρχεία Google Draco"
 type: docs
-weight: 1100
+weight: 1160
 url: /el/net/aspose.threed.formats/dracosaveoptions/
 ---
 ## DracoSaveOptions class
 
-Αποθήκευση επιλογών για αρχεία Google draco
+Επιλογές αποθήκευσης για αρχεία Google draco
 
 ```csharp
 public class DracoSaveOptions : SaveOptions
@@ -16,30 +16,32 @@ public class DracoSaveOptions : SaveOptions
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [DracoSaveOptions](dracosaveoptions/)() | Κατασκευάστε μια προεπιλεγμένη διαμόρφωση για την αποθήκευση αρχείων draco. |
+| [DracoSaveOptions](dracosaveoptions/)() | Δημιουργία προεπιλεγμένης διαμόρφωσης για την αποθήκευση αρχείων draco. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ColorBits](../../aspose.threed.formats/dracosaveoptions/colorbits/) { get; set; } | Bit κβαντοποίησης για χρώμα κορυφής, η προεπιλεγμένη τιμή είναι 10 |
-| [CompressionLevel](../../aspose.threed.formats/dracosaveoptions/compressionlevel/) { get; set; } | Επίπεδο συμπίεσης, η προεπιλεγμένη τιμή είναιStandard |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Λαμβάνει ή ορίζει την προεπιλεγμένη κωδικοποίηση για αρχεία που βασίζονται σε κείμενο. Η προεπιλεγμένη τιμή είναι null, πράγμα που σημαίνει ότι ο εισαγωγέας/εξαγωγέας θα αποφασίσει ποια κωδικοποίηση θα χρησιμοποιήσει. |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Λαμβάνει τη μορφή αρχείου που καθορίζεται στην τρέχουσα επιλογή Αποθήκευση/Φόρτωση. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Το όνομα αρχείου της σκηνής εξαγωγής/εισαγωγής. Αυτό είναι προαιρετικό, αλλά χρήσιμο κατά τη σειριοποίηση εξωτερικών στοιχείων όπως το υλικό του OBJ. |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Να επιτρέπεται στον χρήστη να χειρίζεται τον τρόπο διαχείρισης των εξωτερικών εξαρτήσεων κατά τη φόρτωση/αποθήκευση. |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Ορισμένα αρχεία όπως το OBJ εξαρτώνται από εξωτερικό αρχείο, οι διαδρομές αναζήτησης θα επιτρέψουν στο Aspose.3D να αναζητήσει εξωτερικό αρχείο για φόρτωση. |
-| [NormalBits](../../aspose.threed.formats/dracosaveoptions/normalbits/) { get; set; } | Bit κβαντοποίησης για κανονικά διανύσματα, η προεπιλεγμένη τιμή είναι 10 |
-| [PointCloud](../../aspose.threed.formats/dracosaveoptions/pointcloud/) { get; set; } | Εξαγωγή της σκηνής ως σύννεφο σημείου, η προεπιλεγμένη τιμή είναι ψευδής. |
-| [PositionBits](../../aspose.threed.formats/dracosaveoptions/positionbits/) { get; set; } | Bits κβαντοποίησης για τη θέση, η προεπιλεγμένη τιμή είναι 14 |
-| [TextureCoordinateBits](../../aspose.threed.formats/dracosaveoptions/texturecoordinatebits/) { get; set; } | Bit κβαντοποίησης για συντεταγμένες υφής, η προεπιλεγμένη τιμή είναι 12 |
+| [ApplyUnitScale](../../aspose.threed.formats/dracosaveoptions/applyunitscale/) { get; set; } | Εφαρμόστε το [`UnitScaleFactor`](../../aspose.threed/assetinfo/unitscalefactor/) στο πλέγμα. Η προεπιλεγμένη τιμή είναι false. |
+| [ColorBits](../../aspose.threed.formats/dracosaveoptions/colorbits/) { get; set; } | Ψηφία κβαντισμού για το χρώμα κορυφής, η προεπιλεγμένη τιμή είναι 10 |
+| [CompressionLevel](../../aspose.threed.formats/dracosaveoptions/compressionlevel/) { get; set; } | Επίπεδο συμπίεσης, η προεπιλεγμένη τιμή είναι Standard |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Λαμβάνει ή ορίζει την προεπιλεγμένη κωδικοποίηση για αρχεία κειμένου. Η προεπιλεγμένη τιμή είναι null, που σημαίνει ότι ο εισαγωγέας/εξαγωγέας θα αποφασίσει ποια κωδικοποίηση θα χρησιμοποιηθεί. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | Προσπαθήστε να αντιγράψετε τις υφές που χρησιμοποιούνται στη σκηνή στον φάκελο εξόδου. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Λαμβάνει τη μορφή αρχείου που καθορίζεται στην τρέχουσα επιλογή Αποθήκευσης/Φόρτωσης. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Το όνομα αρχείου της εξαγόμενης/εισαγόμενης σκηνής. Αυτό είναι προαιρετικό, αλλά χρήσιμο όταν γίνεται σειριοποίηση εξωτερικών πόρων όπως το υλικό του OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Επιτρέπει στον χρήστη να διαχειριστεί πώς να διαχειρίζεται τις εξωτερικές εξαρτήσεις κατά τη φόρτωση/αποθήκευση. |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Ορισμένα αρχεία όπως το OBJ εξαρτώνται από εξωτερικό αρχείο, οι διαδρομές αναζήτησης θα επιτρέπουν στο Aspose.3D να ψάξει για το εξωτερικό αρχείο για φόρτωση. |
+| [NormalBits](../../aspose.threed.formats/dracosaveoptions/normalbits/) { get; set; } | Bits κβαντισμού για διανύσματα κανονικών, η προεπιλεγμένη τιμή είναι 10 |
+| [PointCloud](../../aspose.threed.formats/dracosaveoptions/pointcloud/) { get; set; } | Εξαγωγή της σκηνής ως σύννεφο σημείων, η προεπιλεγμένη τιμή είναι false. |
+| [PositionBits](../../aspose.threed.formats/dracosaveoptions/positionbits/) { get; set; } | Bits κβαντισμού για θέση, η προεπιλεγμένη τιμή είναι 14 |
+| [TextureCoordinateBits](../../aspose.threed.formats/dracosaveoptions/texturecoordinatebits/) { get; set; } | Bits κβαντισμού για συντεταγμένες υφής, η προεπιλεγμένη τιμή είναι 12 |
 
 ### Δείτε επίσης
 
 * class [SaveOptions](../saveoptions/)
-* χώρος ονομάτων [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

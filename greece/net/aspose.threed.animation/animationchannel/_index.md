@@ -1,39 +1,51 @@
 ---
-title: AnimationChannel
-second_title: Aspose.3D για Αναφορά API .NET
-description: Ένα κανάλι αντιστοιχίζει το πεδίο συνιστωσών της ιδιότητας σε ένα σύνολο ακολουθιών βασικών καρέ
+title: "Κλάση AnimationChannel"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Aspose.ThreeD.Animation.AnimationChannel κλάση. Ένα κανάλι αντιστοιχίζει το πεδίο συνιστώσας ιδιοτήτων σε ένα σύνολο ακολουθιών keyframe"
 type: docs
 weight: 20
 url: /el/net/aspose.threed.animation/animationchannel/
 ---
 ## AnimationChannel class
 
-Ένα κανάλι αντιστοιχίζει το πεδίο συνιστωσών της ιδιότητας σε ένα σύνολο ακολουθιών βασικών καρέ
+Ένα κανάλι αντιστοιχίζει το πεδίο συνιστώσας της ιδιότητας σε ένα σύνολο ακολουθιών keyframe
 
 ```csharp
-public class AnimationChannel : IEnumerable<KeyframeSequence>
+public class AnimationChannel : KeyframeSequence
 ```
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ComponentType](../../aspose.threed.animation/animationchannel/componenttype/) { get; } | Λαμβάνει τον τύπο του πεδίου στοιχείου |
-| [DefaultValue](../../aspose.threed.animation/animationchannel/defaultvalue/) { get; set; } | Λαμβάνει ή ορίζει την προεπιλεγμένη τιμή του καναλιού. Εάν ένα κανάλι δεν έχει συνδεδεμένες ακολουθίες καρέ-κλειδιού, η προεπιλεγμένη τιμή θα χρησιμοποιηθεί κατά την αξιολόγηση κινούμενων εικόνων. Ένα πραγματικό σενάριο: Η κίνηση κινείται μόνο τις συντεταγμένες x ενός κόμβου. δεν έχει αλλάξει, τότε η προεπιλεγμένη τιμή θα χρησιμοποιηθεί κατά την πλήρη αξιολόγηση της μετάφρασης. |
-| [KeyframeSequences](../../aspose.threed.animation/animationchannel/keyframesequences/) { get; } | Λαμβάνει όλες τις ακολουθίες βασικών καρέ μέσα σε αυτό το κανάλι |
-| [Name](../../aspose.threed.animation/animationchannel/name/) { get; } | Παίρνει το όνομα του καναλιού |
+| [BindPoint](../../aspose.threed.animation/keyframesequence/bindpoint/) { get; } | Αποκτά το σημείο σύνδεσης ιδιότητας που κατέχει αυτή η καμπύλη. |
+| [ComponentType](../../aspose.threed.animation/animationchannel/componenttype/) { get; } | Λαμβάνει τον τύπο του πεδίου συνιστώσας |
+| [DefaultValue](../../aspose.threed.animation/animationchannel/defaultvalue/) { get; set; } | Λαμβάνει ή ορίζει την Default τιμή του καναλιού. Εάν ένα κανάλι δεν έχει συνδεδεμένες ακολουθίες keyframe, η προεπιλεγμένη τιμή θα χρησιμοποιηθεί κατά την αξιολόγηση της animation. Ένα πραγματικό σενάριο: Η animation αναπαριστά μόνο τη συντεταγμένη x ενός κόμβου, οι y και z δεν αλλάζουν, τότε η προεπιλεγμένη τιμή θα χρησιμοποιηθεί κατά την πλήρη αξιολόγηση της μετάφρασης. |
+| [KeyFrames](../../aspose.threed.animation/keyframesequence/keyframes/) { get; } | Αποκτά τα key frames αυτής της καμπύλης. |
+| [KeyframeSequence](../../aspose.threed.animation/animationchannel/keyframesequence/) { get; set; } | Λαμβάνει τη συνδεδεμένη ακολουθία keyframe μέσα σε αυτό το κανάλι |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Λαμβάνει ή ορίζει το όνομα. |
+| [PostBehavior](../../aspose.threed.animation/keyframesequence/postbehavior/) { get; } | Αποκτά τη μεταγενέστερη συμπεριφορά που υποδεικνύει τι πρέπει να είναι η δειγματοληπτική τιμή μετά το τελευταίο key frame. |
+| [PreBehavior](../../aspose.threed.animation/keyframesequence/prebehavior/) { get; } | Αποκτά τη προγενέστερη συμπεριφορά που υποδεικνύει τι πρέπει να είναι η δειγματοληπτική τιμή πριν το πρώτο key. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Λαμβάνει τη συλλογή όλων των ιδιοτήτων. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AddKeyframeSequence](../../aspose.threed.animation/animationchannel/addkeyframesequence/)(KeyframeSequence) | Προσθέτει τη σειρά βασικών καρέ σε αυτό το κανάλι |
-| [GetEnumerator](../../aspose.threed.animation/animationchannel/getenumerator/)() | Λαμβάνει έναν απαριθμητή για να περιηγηθεί σε όλες τις ακολουθίες βασικών καρέ μέσα σε αυτό το κανάλι |
+| [Add](../../aspose.threed.animation/keyframesequence/add/)(double, float) | Δημιουργήστε ένα νέο key frame με την καθορισμένη τιμή. |
+| [Add](../../aspose.threed.animation/keyframesequence/add/)(double, float, Interpolation) | Δημιουργήστε ένα νέο key frame με την καθορισμένη τιμή. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι δυναμική ιδιότητα (Δημιουργείται από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται με το όνομά της) |
+| [GetEnumerator](../../aspose.threed.animation/keyframesequence/getenumerator/)() | Αποκτά τον απαριθμητή για τη διαπέραση όλων των key frames. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Λάβετε την τιμή της καθορισμένης ιδιότητας |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Αφαιρεί μια δυναμική ιδιότητα. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Αφαιρέστε την καθορισμένη ιδιότητα που προσδιορίζεται με το όνομα |
+| [Reset](../../aspose.threed.animation/keyframesequence/reset/)() | Αφαιρεί όλα τα key frames και επαναφέρει τις μεταγενέστερες/προγενέστερες συμπεριφορές. |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Ορίζει την τιμή της καθορισμένης ιδιότητας |
 
 ### Δείτε επίσης
 
 * class [KeyframeSequence](../keyframesequence/)
-* χώρος ονομάτων [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

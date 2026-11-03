@@ -1,9 +1,9 @@
 ---
-title: Vector2
-second_title: Aspose.3D για Αναφορά API .NET
-description: Ένα διάνυσμα με δύο συνιστώσες.
+title: "Δομή Vector2"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Δομή Aspose.ThreeD.Utilities.Vector2. Ένα διάνυσμα με δύο συνιστώσες"
 type: docs
-weight: 2640
+weight: 2870
 url: /el/net/aspose.threed.utilities/vector2/
 ---
 ## Vector2 structure
@@ -16,50 +16,51 @@ public struct Vector2 : IComparable<Vector2>
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Vector2](vector2/#constructor_1)(double) | Αρχικοποιεί μια νέα παρουσία του`Vector2` struct. |
-| [Vector2](vector2/#constructor)(FVector2) | Αρχικοποιεί μια νέα παρουσία του`Vector2` struct. |
-| [Vector2](vector2/#constructor_2)(double, double) | Αρχικοποιεί μια νέα παρουσία του`Vector2` struct. |
+| [Vector2](vector2/#constructor_2)(double) | Αρχικοποιεί μια νέα παρουσία της δομής `Vector2`. |
+| [Vector2](vector2/#constructor)(FVector2) | Αρχικοποιεί μια νέα παρουσία της δομής `Vector2`. |
+| [Vector2](vector2/#constructor_1)(Vector3) | Αρχικοποιεί μια νέα παρουσία της δομής `Vector2`. |
+| [Vector2](vector2/#constructor_3)(double, double) | Αρχικοποιεί μια νέα παρουσία της δομής `Vector2`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Length](../../aspose.threed.utilities/vector2/length/) { get; } | Παίρνει το μήκος. |
-| [U](../../aspose.threed.utilities/vector2/u/) { get; set; } | Λαμβάνει ή ορίζει το στοιχείο U εάν το`Vector2` χρησιμοποιείται ως συντεταγμένη αντιστοίχισης. Είναι ψευδώνυμο του στοιχείου x. |
-| [V](../../aspose.threed.utilities/vector2/v/) { get; set; } | Λαμβάνει ή ορίζει το στοιχείο V εάν το`Vector2` χρησιμοποιείται ως συντεταγμένη αντιστοίχισης. Είναι ψευδώνυμο του στοιχείου y. |
+| [Length](../../aspose.threed.utilities/vector2/length/) { get; } | Λαμβάνει το μήκος. |
+| [U](../../aspose.threed.utilities/vector2/u/) { get; set; } | Λαμβάνει ή ορίζει το συστατικό U εάν το `Vector2` χρησιμοποιείται ως συντεταγμένη χαρτογράφησης. Είναι ψευδώνυμο του συστατικού x. |
+| [V](../../aspose.threed.utilities/vector2/v/) { get; set; } | Λαμβάνει ή ορίζει το συστατικό V εάν το `Vector2` χρησιμοποιείται ως συντεταγμένη χαρτογράφησης. Είναι ψευδώνυμο του συστατικού y. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CompareTo](../../aspose.threed.utilities/vector2/compareto/)(Vector2) | Συγκρίνετε το τρέχον διάνυσμα με ένα άλλο στιγμιότυπο. |
-| [Cross](../../aspose.threed.utilities/vector2/cross/)(Vector2) | Διασταυρούμενο γινόμενο δύο διανυσμάτων |
-| [Dot](../../aspose.threed.utilities/vector2/dot/)(Vector2) | Παίρνει το γινόμενο κουκίδων δύο διανυσμάτων |
-| override [Equals](../../aspose.threed.utilities/vector2/equals/#equals_1)(object) | Ελέγξτε αν δύο διανύσματα 2 ισούνται με |
-| [Equals](../../aspose.threed.utilities/vector2/equals/#equals)(Vector2) | Ελέγξτε αν δύο διανύσματα 2 ισούνται με |
+| [CompareTo](../../aspose.threed.utilities/vector2/compareto/)(Vector2) | Συγκρίνει το τρέχον διάνυσμα με μια άλλη παρουσία. |
+| [Cross](../../aspose.threed.utilities/vector2/cross/)(Vector2) | Γινόμενο διανυσματικού δύο διανυσμάτων |
+| [Dot](../../aspose.threed.utilities/vector2/dot/)(Vector2) | Λαμβάνει το εσωτερικό γινόμενο δύο διανυσμάτων |
+| override [Equals](../../aspose.threed.utilities/vector2/equals/#equals_1)(object) | Ελέγξτε αν δύο vector2 είναι ίσα |
+| [Equals](../../aspose.threed.utilities/vector2/equals/#equals)(Vector2) | Ελέγξτε αν δύο vector2 είναι ίσα |
 | override [GetHashCode](../../aspose.threed.utilities/vector2/gethashcode/)() | Λαμβάνει τον κωδικό κατακερματισμού του Vector2 |
-| [Normalize](../../aspose.threed.utilities/vector2/normalize/)() | Κανονικοποιεί αυτό το στιγμιότυπο. |
-| override [ToString](../../aspose.threed.utilities/vector2/tostring/)() | Επιστρέφει αStringπου αντιπροσωπεύει το ρεύμα`Vector2` . |
-| [operator +](../../aspose.threed.utilities/vector2/op_addition/) | Τελεστή προσθήκης για Vector2 |
-| [operator /](../../aspose.threed.utilities/vector2/op_division/) | Χειριστής διαίρεσης για Vector2 |
-| [operator ==](../../aspose.threed.utilities/vector2/op_equality/) | Ίσος τελεστής για Vector2 |
+| [Normalize](../../aspose.threed.utilities/vector2/normalize/)() | Κανονικοποιεί αυτήν την παρουσία. |
+| override [ToString](../../aspose.threed.utilities/vector2/tostring/)() | Επιστρέφει ένα String που αντιπροσωπεύει το τρέχον `Vector2`. |
+| [operator +](../../aspose.threed.utilities/vector2/op_addition/) | Τελεστής πρόσθεσης για Vector2 |
+| [operator /](../../aspose.threed.utilities/vector2/op_division/) | Τελεστής διαίρεσης για Vector2 |
+| [operator ==](../../aspose.threed.utilities/vector2/op_equality/) | Τελεστής ισότητας για Vector2 |
 | [explicit operator](../../aspose.threed.utilities/vector2/op_explicit/) |  |
-| [operator !=](../../aspose.threed.utilities/vector2/op_inequality/) | Μη ίσος τελεστής για Vector2 |
-| [operator *](../../aspose.threed.utilities/vector2/op_multiply/#op_multiply) | Πολλαπλασιασμός τελεστή για Vector2 (2 operators) |
-| [operator -](../../aspose.threed.utilities/vector2/op_subtraction/) | Τελεστή αφαίρεσης για Vector2 |
+| [operator !=](../../aspose.threed.utilities/vector2/op_inequality/) | Τελεστής ανισότητας για Vector2 |
+| [operator *](../../aspose.threed.utilities/vector2/op_multiply/#op_multiply) | Τελεστής πολλαπλασιασμού για Vector2 (2 τελεστές) |
+| [operator -](../../aspose.threed.utilities/vector2/op_subtraction/) | Τελεστής αφαίρεσης για Vector2 |
 
 ## Πεδία
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [x](../../aspose.threed.utilities/vector2/x/) | Η συνιστώσα x. |
-| [y](../../aspose.threed.utilities/vector2/y/) | Η συνιστώσα y. |
+| [X](../../aspose.threed.utilities/vector2/x/) | Το συστατικό x. |
+| [Y](../../aspose.threed.utilities/vector2/y/) | Το συστατικό y. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: FromFile
-second_title: Aspose.3D για Αναφορά API .NET
-description: Ανοίγει τη σκηνή από τη δεδομένη διαδρομή χρησιμοποιώντας καθορισμένη μορφή αρχείου.
+title: "Scene.FromFile"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Μέθοδος Scene. Ανοίγει τη σκηνή από το δοσμένο μονοπάτι χρησιμοποιώντας το καθορισμένο μορφότυπο αρχείου"
 type: docs
 weight: 20
 url: /el/net/aspose.threed/scene/fromfile/
 ---
 ## FromFile(string, FileFormat, CancellationToken) {#fromfile_1}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή χρησιμοποιώντας καθορισμένη μορφή αρχείου.
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι χρησιμοποιώντας το καθορισμένο μορφότυπο αρχείου.
 
 ```csharp
 public static Scene FromFile(string fileName, FileFormat format, 
@@ -17,22 +17,38 @@ public static Scene FromFile(string fileName, FileFormat format,
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
-| format | FileFormat | Μορφή αρχείου. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| fileName | String | Όνομα αρχείου. |
+| μορφή | FileFormat | Μορφότυπος αρχείου. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε μια σκηνή από ένα αρχείο
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = Scene.FromFile("input.fbx", FileFormat.FBX7400ASCII, cts.Token);
+```
 
 ### Δείτε επίσης
 
 * class [FileFormat](../../fileformat/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## FromFile(string, LoadOptions, CancellationToken) {#fromfile_2}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή χρησιμοποιώντας καθορισμένη μορφή αρχείου.
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι χρησιμοποιώντας το καθορισμένο μορφότυπο αρχείου.
 
 ```csharp
 public static Scene FromFile(string fileName, LoadOptions options, 
@@ -41,22 +57,40 @@ public static Scene FromFile(string fileName, LoadOptions options,
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
-| options | LoadOptions | Πιο λεπτομερής διαμόρφωση για το άνοιγμα της ροής. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| fileName | String | Όνομα αρχείου. |
+| επιλογές | LoadOptions | Πιο λεπτομερής διαμόρφωση για το άνοιγμα του ρεύματος. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε μια σκηνή από ένα αρχείο
+
+```csharp
+var cts = new CancellationTokenSource();
+var opt = new FbxLoadOptions();
+opt.LookupPaths.Add("textures");
+Scene scene = Scene.FromFile("input.fbx", opt, cts.Token);
+```
 
 ### Δείτε επίσης
 
 * class [LoadOptions](../../../aspose.threed.formats/loadoptions/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## FromFile(string) {#fromfile}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι
 
 ```csharp
 public static Scene FromFile(string fileName)
@@ -64,19 +98,34 @@ public static Scene FromFile(string fileName)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
+| fileName | String | Όνομα αρχείου. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε μια σκηνή από ένα αρχείο
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+```
 
 ### Δείτε επίσης
 
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## FromFile(string, CancellationToken) {#fromfile_3}
 
-Ανοίγει τη σκηνή από τη δεδομένη διαδρομή
+Ανοίγει τη σκηνή από το δοσμένο μονοπάτι
 
 ```csharp
 public static Scene FromFile(string fileName, CancellationToken cancellationToken)
@@ -84,13 +133,29 @@ public static Scene FromFile(string fileName, CancellationToken cancellationToke
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Ονομα αρχείου. |
-| cancellationToken | CancellationToken | Διακριτικό ακύρωσης στην εργασία φόρτωσης |
+| fileName | String | Όνομα αρχείου. |
+| cancellationToken | CancellationToken | Διακριτικό ακύρωσης για την εργασία φόρτωσης. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| IOException | Εκτοπίζεται όταν αποτύχει η ανάγνωση της εισόδου. |
+| [ImportException](../../importexception/) | Εκτοπίζεται όταν η είσοδος δεν είναι έγκυρος 3D μορφότυπος. |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να δημιουργήσετε μια σκηνή από ένα αρχείο
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = Scene.FromFile("input.fbx", cts.Token);
+```
 
 ### Δείτε επίσης
 
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

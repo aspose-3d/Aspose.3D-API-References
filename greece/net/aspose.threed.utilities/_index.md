@@ -1,60 +1,57 @@
 ---
-title: Aspose.ThreeD.Utilities
-second_title: Aspose.3D για Αναφορά API .NET
-description: Όλες οι κατηγορίες βοηθητικών προγραμμάτων ορίζονται σε αυτόν τον χώρο ονομάτων.
+title: "Aspose.ThreeD.Utilities"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Όλες οι βοηθητικές κλάσεις ορίζονται σε αυτόν τον χώρο ονομάτων"
 type: docs
-weight: 90
+weight: 100
 url: /el/net/aspose.threed.utilities/
 ---
-Όλες οι κατηγορίες βοηθητικών προγραμμάτων ορίζονται σε αυτόν τον χώρο ονομάτων.
+Όλες οι βοηθητικές κλάσεις ορίζονται σε αυτόν τον χώρο ονομάτων
 
-## Τάξεις
+## Κλάσεις
 
-| Τάξη | Περιγραφή |
+| Κλάση | Περιγραφή |
 | --- | --- |
-| [DummyFileSystem](./dummyfilesystem/) | Οι πράξεις ανάγνωσης/εγγραφής είναι εικονικές πράξεις. |
-| [FileSystem](./filesystem/) | Ενθυλάκωση συστήματος αρχείων. Το Aspose.3D θα το χρησιμοποιήσει για την ανάγνωση/εγγραφή εξαρτήσεων. |
-| [IOUtils](./ioutils/) | Βοηθητικά προγράμματα για εγγραφή μήτρας/διανύσματος σε δυαδικό πρόγραμμα εγγραφής |
-| [LocalFileSystem](./localfilesystem/) | Το[`LocalFileSystem`](../aspose.threed.utilities/localfilesystem/) θα αντιστοιχίσει τις λειτουργίες ανάγνωσης/εγγραφής στον τοπικό κατάλογο. |
+| [FileSystem](./filesystem/) | Ενσωμάτωση του συστήματος αρχείων. Το Aspose.3D θα το χρησιμοποιήσει για ανάγνωση/εγγραφή εξαρτήσεων. |
+| [IOExtension](./ioextension/) | Βοηθητικά προγράμματα για εγγραφή πίνακα/διανύσματος σε binary writer |
 | [MathUtils](./mathutils/) | Ένα σύνολο χρήσιμων μαθηματικών βοηθητικών προγραμμάτων. |
-| [MemoryFileSystem](./memoryfilesystem/) | Το[`MemoryFileSystem`](../aspose.threed.utilities/memoryfilesystem/)θα αντιστοιχίσει τις λειτουργίες ανάγνωσης/εγγραφής στη μνήμη. |
 | [ParseException](./parseexception/) | Εξαίρεση όταν το Aspose.3D απέτυχε να αναλύσει την είσοδο. |
-| [SemanticAttribute](./semanticattribute/) | Να επιτρέπεται στον χρήστη να χρησιμοποιεί τη δική του δομή για στατική δήλωση[`VertexDeclaration`](../aspose.threed.utilities/vertexdeclaration/) |
-| [TransformBuilder](./transformbuilder/) | Το[`TransformBuilder`](../aspose.threed.utilities/transformbuilder/) χρησιμοποιείται για τη δημιουργία πίνακα μετασχηματισμού από μια αλυσίδα μετασχηματισμών. |
-| [Vertex](./vertex/) | Αναφορά κορυφής, που χρησιμοποιείται για πρόσβαση στην ακατέργαστη κορυφή[`TriMesh`](../aspose.threed.entities/trimesh/) . |
+| [SemanticAttribute](./semanticattribute/) | Επιτρέψτε στον χρήστη να χρησιμοποιήσει τη δική του δομή για τη στατική δήλωση του [`VertexDeclaration`](../aspose.threed.utilities/vertexdeclaration/) |
+| [TransformBuilder](./transformbuilder/) | Το [`TransformBuilder`](../aspose.threed.utilities/transformbuilder/) χρησιμοποιείται για την κατασκευή πίνακα μετασχηματισμού μέσω μιας αλυσίδας μετασχηματισμών. |
+| [Vertex](./vertex/) | Αναφορά κορυφής, που χρησιμοποιείται για πρόσβαση στην ακατέργαστη κορυφή στο [`TriMesh`](../aspose.threed.entities/trimesh/). |
 | [VertexDeclaration](./vertexdeclaration/) | Η δήλωση μιας προσαρμοσμένης δομής κορυφής |
-| [VertexField](./vertexfield/) | Περιγραφή διάταξης μνήμης πεδίου του Vertex. |
-| [Watermark](./watermark/) | Βοηθητικό πρόγραμμα για την κωδικοποίηση/αποκωδικοποίηση τυφλού υδατογραφήματος προς/από ένα πλέγμα. |
-| [ZipArchiveFileSystem](./ziparchivefilesystem/) | Σύστημα αρχείων για παροχή πρόσβασης μόνο για ανάγνωση σε καθορισμένο αρχείο zip ή ροή zip. Το σύστημα αρχείων θα απορριφθεί μετά τη λειτουργία ανοίγματος/αποθήκευσης. |
-## Δομές
+| [VertexField](./vertexfield/) | Περιγραφή της διάταξης μνήμης πεδίου της κορυφής. |
+| [Watermark](./watermark/) | Βοηθητικό πρόγραμμα για κωδικοποίηση/αποκωδικοποίηση τυφλού υδατογραφήματος σε/από ένα πλέγμα. |
+## Structures
 
 | Δομή | Περιγραφή |
 | --- | --- |
-| [BoundingBox](./boundingbox/) | Το πλαίσιο οριοθέτησης ευθυγραμμισμένο με άξονα |
-| [BoundingBox2D](./boundingbox2d/) | Το πλαίσιο οριοθέτησης ευθυγραμμισμένου άξονα για[`Vector2`](../aspose.threed.utilities/vector2/) |
-| [FMatrix4](./fmatrix4/) | Matrix 4x4 με όλο το στοιχείο σε float type |
-| [FVector2](./fvector2/) | Ένα float διάνυσμα με δύο συνιστώσες. |
-| [FVector3](./fvector3/) | Ένα διάνυσμα float με τρεις συνιστώσες. |
-| [FVector4](./fvector4/) | Ένα διάνυσμα float με τέσσερα συστατικά. |
-| [Matrix4](./matrix4/) | Υλοποίηση μήτρας 4x4. |
-| [Quaternion](./quaternion/) | Το Quaternion χρησιμοποιείται συνήθως για την εκτέλεση περιστροφής στα γραφικά υπολογιστή. |
-| [RelativeRectangle](./relativerectangle/) | Σχετικό ορθογώνιο Ο τύπος μεταξύ της σχετικής συνιστώσας στην απόλυτη τιμή είναι: Κλίμακα * (Πλάτος αναφοράς) + offset Επομένως, αν θέλουμε να αντιπροσωπεύει μια απόλυτη τιμή, αφήστε όλα τα πεδία κλίμακας μηδέν και χρησιμοποιήστε αντί αυτού πεδία μετατόπισης. |
+| [BoundingBox](./boundingbox/) | Το πλαίσιο οριοθέτησης ευθυγραμμισμένο με άξονες |
+| [BoundingBox2D](./boundingbox2d/) | Το πλαίσιο οριοθέτησης ευθυγραμμισμένο με άξονες για το [`Vector2`](../aspose.threed.utilities/vector2/) |
+| [FMatrix4](./fmatrix4/) | Πίνακας 4x4 με όλα τα στοιχεία τύπου float |
+| [FVector2](./fvector2/) | Διάνυσμα float με δύο στοιχεία. |
+| [FVector3](./fvector3/) | Διάνυσμα float με τρία στοιχεία. |
+| [FVector4](./fvector4/) | Διάνυσμα float με τέσσερα στοιχεία. |
+| [Matrix4](./matrix4/) | Υλοποίηση πίνακα 4x4. |
+| [Quaternion](./quaternion/) | Το Quaternion συνήθως χρησιμοποιείται για την εκτέλεση περιστροφής στην υπολογιστική γραφική. |
+| [Rect](./rect/) | Μία κλάση για την αναπαράσταση του ορθογωνίου |
+| [RelativeRectangle](./relativerectangle/) | Σχετικό ορθογώνιο. Ο τύπος μεταξύ του σχετικού στοιχείου και της απόλυτης τιμής είναι: Scale * (Reference Width) + offset. Έτσι, αν θέλουμε να αντιπροσωπεύει μια απόλυτη τιμή, αφήστε όλα τα πεδία κλίμακας στο μηδέν και χρησιμοποιήστε τα πεδία offset αντί αυτού. |
 | [Vector2](./vector2/) | Ένα διάνυσμα με δύο συνιστώσες. |
-| [Vector3](./vector3/) | Ένα διάνυσμα με τρία συστατικά. |
-| [Vector4](./vector4/) | Ένα διάνυσμα με τέσσερα συστατικά. |
+| [Vector3](./vector3/) | Ένα διάνυσμα με τρεις συνιστώσες. |
+| [Vector4](./vector4/) | Ένα διάνυσμα με τέσσερις συνιστώσες. |
 ## Διεπαφές
 
 | Διεπαφή | Περιγραφή |
 | --- | --- |
-| [IArrayList&lt;T&gt;](./iarraylist-1/) | Το Aspose.3D έχει τη δική του εξαιρετικά βελτιστοποιημένη εφαρμογήList για καλύτερη φόρτωση/εξοικονόμηση performance Μόνο αυτή η διεπαφή εκτίθεται για χρήστη μεIList συμβατές και παρόμοιες διεπαφές. |
+| [IArrayList&lt;T&gt;](./iarraylist-1/) | Το Aspose.3D διαθέτει τη δική του ιδιαίτερα βελτιστοποιημένη υλοποίηση της List για καλύτερη απόδοση φόρτωσης/αποθήκευσης. Μόνο αυτή η διεπαφή εκτίθεται στον χρήστη με συμβατότητα IList και παρόμοιες διεπαφές. |
 ## Απαρίθμηση
 
 | Απαρίθμηση | Περιγραφή |
 | --- | --- |
-| [BoundingBoxExtent](./boundingboxextent/) | Η έκταση του πλαισίου οριοθέτησης |
-| [ComposeOrder](./composeorder/) | Η σειρά σύνθεσης μετασχηματισμού matrix |
-| [RotationOrder](./rotationorder/) | Τα στοιχεία ελέγχου σειράς που rx ry rz εφαρμόζονται στον πίνακα μετασχηματισμού. |
-| [VertexFieldDataType](./vertexfielddatatype/) | Τύπος δεδομένων πεδίου κορυφής |
-| [VertexFieldSemantic](./vertexfieldsemantic/) | Η σημασιολογία του πεδίου κορυφής |
+| [BoundingBoxExtent](./boundingboxextent/) | Η έκταση του bounding box |
+| [ComposeOrder](./composeorder/) | Η σειρά για τη σύνθεση του transform matrix |
+| [RotationOrder](./rotationorder/) | Η σειρά ελέγχει ποια rx ry rz εφαρμόζονται στον transformation matrix. |
+| [VertexFieldDataType](./vertexfielddatatype/) | Τύπος δεδομένων του Vertex field |
+| [VertexFieldSemantic](./vertexfieldsemantic/) | Η σημασιολογία του vertex field |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

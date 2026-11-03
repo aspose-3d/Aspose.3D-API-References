@@ -1,14 +1,14 @@
 ---
-title: Cylinder
-second_title: Aspose.3D για Αναφορά API .NET
-description: Αρχικοποιεί μια νέα παρουσία τουCylinderaspose.threed.entities/cylinder/ τάξη.
+title: "Cylinder.Cylinder"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Κατασκευαστής Cylinder. Αρχικοποιεί μια νέα παρουσία της κλάσης Cylinder"
 type: docs
 weight: 10
 url: /el/net/aspose.threed.entities/cylinder/cylinder/
 ---
 ## Cylinder() {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`Cylinder`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`Cylinder`](../).
 
 ```csharp
 public Cylinder()
@@ -17,14 +17,14 @@ public Cylinder()
 ### Δείτε επίσης
 
 * class [Cylinder](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../cylinder/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`Cylinder`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radius, double height)
@@ -32,20 +32,20 @@ public Cylinder(double radius, double height)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| radius | Double | Ακτίνα του πάνω και του κάτω καλύμματος. |
-| height | Double | Υψος. |
+| ακτίνα | Διπλό | Ακτίνα του άνω και του κάτω καπάκιου. |
+| ύψος | Διπλό | Ύψος. |
 
 ### Δείτε επίσης
 
 * class [Cylinder](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../cylinder/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double) {#constructor_2}
 
-Αρχικοποιεί μια νέα παρουσία του[`Cylinder`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height)
@@ -53,21 +53,21 @@ public Cylinder(double radiusTop, double radiusBottom, double height)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| radiusTop | Double | Κορυφή ακτίνας. |
-| radiusBottom | Double | Ακτίνα κάτω. |
-| height | Double | Υψος. |
+| radiusTop | Διπλό | Ακτίνα άνω. |
+| radiusBottom | Διπλό | Ακτίνα κάτω. |
+| ύψος | Διπλό | Ύψος. |
 
 ### Δείτε επίσης
 
 * class [Cylinder](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../cylinder/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double, int, int, bool) {#constructor_3}
 
-Αρχικοποιεί μια νέα παρουσία του[`Cylinder`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height, int radialSegments, 
@@ -76,24 +76,24 @@ public Cylinder(double radiusTop, double radiusBottom, double height, int radial
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| radiusTop | Double | Ακτίνα του άνω καλύμματος του κυλίνδρου. |
-| radiusBottom | Double | Ακτίνα του κάτω καλύμματος του κυλίνδρου. |
-| height | Double | Ύψος κυλίνδρου. |
-| radialSegments | Int32 | Ακτινικά τμήματα και των άνω και κάτω κύκλων.. |
+| radiusTop | Διπλό | Ακτίνα του άνω καπάκιου του κυλίνδρου. |
+| radiusBottom | Διπλό | Ακτίνα του κάτω καπάκιου του κυλίνδρου. |
+| ύψος | Διπλό | Ύψος του κυλίνδρου. |
+| radialSegments | Int32 | Ακτινικά τμήματα τόσο του πάνω όσο και του κάτω κύκλου.. |
 | heightSegments | Int32 | Τμήματα ύψους. |
-| openEnded | Boolean | Εάν έχει οριστεί σε`αληθής` ο κύλινδρος δεν θα έχει κάτω/πάνω καπάκια.. |
+| openEnded | Boolean | Εάν οριστεί σε `true`, ο κύλινδρος δεν θα έχει καπάκια κάτω/πάνω.. |
 
 ### Δείτε επίσης
 
 * class [Cylinder](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../cylinder/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(string, double, double, double, int, int, bool, double, double) {#constructor_4}
 
-Αρχικοποιεί μια νέα παρουσία του[`Cylinder`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`Cylinder`](../).
 
 ```csharp
 public Cylinder(string name, double radiusTop, double radiusBottom, double height, 
@@ -102,20 +102,20 @@ public Cylinder(string name, double radiusTop, double radiusBottom, double heigh
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα αυτού του αντικειμένου |
-| radiusTop | Double | Ακτίνα του άνω καλύμματος του κυλίνδρου. |
-| radiusBottom | Double | Ακτίνα του κάτω καλύμματος του κυλίνδρου. |
-| height | Double | Ύψος κυλίνδρου. |
-| radialSegments | Int32 | Ακτινικά τμήματα και των άνω και κάτω κύκλων.. |
+| όνομα | String | Το όνομα αυτού του αντικειμένου |
+| radiusTop | Διπλό | Ακτίνα του άνω καπάκιου του κυλίνδρου. |
+| radiusBottom | Διπλό | Ακτίνα του κάτω καπάκιου του κυλίνδρου. |
+| ύψος | Διπλό | Ύψος του κυλίνδρου. |
+| radialSegments | Int32 | Ακτινικά τμήματα τόσο του πάνω όσο και του κάτω κύκλου.. |
 | heightSegments | Int32 | Τμήματα ύψους. |
-| openEnded | Boolean | Εάν έχει οριστεί σε`αληθής` ο κύλινδρος δεν θα έχει κάτω/πάνω καπάκια.. |
-| thetaStart | Double | Έναρξη θήτα. |
-| thetaLength | Double | Μήκος Θήτα. |
+| openEnded | Boolean | Εάν οριστεί σε `true`, ο κύλινδρος δεν θα έχει καπάκια κάτω/πάνω.. |
+| thetaStart | Διπλό | Αρχή Θήτα. |
+| thetaLength | Διπλό | Μήκος Θήτα. |
 
 ### Δείτε επίσης
 
 * class [Cylinder](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../cylinder/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

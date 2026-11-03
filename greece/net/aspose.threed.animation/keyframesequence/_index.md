@@ -1,14 +1,14 @@
 ---
-title: KeyframeSequence
-second_title: Aspose.3D για Αναφορά API .NET
-description: Η ακολουθία βασικών καρέ περιγράφει τον μετασχηματισμό μιας τιμής δειγματοληψίας με την πάροδο του χρόνου.
+title: "Κλάση KeyframeSequence"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Κλάση Aspose.ThreeD.Animation.KeyframeSequence. Η ακολουθία των keyframes περιγράφει τη μεταβολή μιας δειγματοληπτικής τιμής με την πάροδο του χρόνου."
 type: docs
 weight: 100
 url: /el/net/aspose.threed.animation/keyframesequence/
 ---
 ## KeyframeSequence class
 
-Η ακολουθία βασικών καρέ, περιγράφει τον μετασχηματισμό μιας τιμής δειγματοληψίας με την πάροδο του χρόνου.
+Η ακολουθία των key-frames, περιγράφει τη μετασχηματισμό μιας δειγματοληπτικής τιμής με την πάροδο του χρόνου.
 
 ```csharp
 public class KeyframeSequence : A3DObject, IEnumerable<KeyFrame>
@@ -16,41 +16,41 @@ public class KeyframeSequence : A3DObject, IEnumerable<KeyFrame>
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [KeyframeSequence](keyframesequence/#constructor)() | Αρχικοποιεί μια νέα παρουσία του`KeyframeSequence` τάξη. |
-| [KeyframeSequence](keyframesequence/#constructor_1)(string) | Αρχικοποιεί μια νέα παρουσία του`KeyframeSequence` τάξη. |
+| [KeyframeSequence](keyframesequence/#constructor)() | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης `KeyframeSequence`. |
+| [KeyframeSequence](keyframesequence/#constructor_1)(string) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης `KeyframeSequence`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [BindPoint](../../aspose.threed.animation/keyframesequence/bindpoint/) { get; } | Λαμβάνει το σημείο δέσμευσης ιδιοτήτων στο οποίο ανήκει αυτή η καμπύλη |
-| [KeyFrames](../../aspose.threed.animation/keyframesequence/keyframes/) { get; } | Λαμβάνει τα βασικά πλαίσια αυτής της καμπύλης. |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Παίρνει ή ορίζει το όνομα. |
-| [PostBehavior](../../aspose.threed.animation/keyframesequence/postbehavior/) { get; } | Λαμβάνει τη συμπεριφορά ανάρτησης που υποδεικνύει ποια θα πρέπει να είναι η τιμή του δείγματος μετά το τελευταίο πλαίσιο κλειδιού. |
-| [PreBehavior](../../aspose.threed.animation/keyframesequence/prebehavior/) { get; } | Λαμβάνει την προ-συμπεριφορά υποδεικνύει ποια θα πρέπει να είναι η τιμή του δείγματος πριν από το πρώτο κλειδί. |
+| [BindPoint](../../aspose.threed.animation/keyframesequence/bindpoint/) { get; } | Αποκτά το σημείο σύνδεσης ιδιότητας που κατέχει αυτή η καμπύλη. |
+| [KeyFrames](../../aspose.threed.animation/keyframesequence/keyframes/) { get; } | Αποκτά τα key frames αυτής της καμπύλης. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Λαμβάνει ή ορίζει το όνομα. |
+| [PostBehavior](../../aspose.threed.animation/keyframesequence/postbehavior/) { get; } | Αποκτά τη μεταγενέστερη συμπεριφορά που υποδεικνύει τι πρέπει να είναι η δειγματοληπτική τιμή μετά το τελευταίο key frame. |
+| [PreBehavior](../../aspose.threed.animation/keyframesequence/prebehavior/) { get; } | Αποκτά τη προγενέστερη συμπεριφορά που υποδεικνύει τι πρέπει να είναι η δειγματοληπτική τιμή πριν το πρώτο key. |
 | [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Λαμβάνει τη συλλογή όλων των ιδιοτήτων. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Add](../../aspose.threed.animation/keyframesequence/add/#add)(double, float) | Δημιουργήστε ένα νέο πλαίσιο κλειδιού με καθορισμένη τιμή |
-| [Add](../../aspose.threed.animation/keyframesequence/add/#add_1)(double, float, Interpolation) | Δημιουργήστε ένα νέο πλαίσιο κλειδιού με καθορισμένη τιμή |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι μια δυναμική ιδιότητα (Δημιουργήθηκε από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται από το όνομά της) |
-| [GetEnumerator](../../aspose.threed.animation/keyframesequence/getenumerator/)() | Βάζει τον απαριθμητή να διασχίζει όλα τα βασικά πλαίσια. |
+| [Add](../../aspose.threed.animation/keyframesequence/add/#add)(double, float) | Δημιουργήστε ένα νέο key frame με την καθορισμένη τιμή. |
+| [Add](../../aspose.threed.animation/keyframesequence/add/#add_1)(double, float, Interpolation) | Δημιουργήστε ένα νέο key frame με την καθορισμένη τιμή. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι δυναμική ιδιότητα (Δημιουργείται από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται με το όνομά της) |
+| [GetEnumerator](../../aspose.threed.animation/keyframesequence/getenumerator/)() | Αποκτά τον απαριθμητή για τη διαπέραση όλων των key frames. |
 | [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Λάβετε την τιμή της καθορισμένης ιδιότητας |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Καταργεί μια δυναμική ιδιότητα. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Καταργήστε την καθορισμένη ιδιότητα που προσδιορίζεται με όνομα |
-| [Reset](../../aspose.threed.animation/keyframesequence/reset/)() | Αφαιρεί όλα τα βασικά πλαίσια και επαναφέρει τις συμπεριφορές ανάρτησης/προ. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Αφαιρεί μια δυναμική ιδιότητα. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Αφαιρέστε την καθορισμένη ιδιότητα που προσδιορίζεται με το όνομα |
+| [Reset](../../aspose.threed.animation/keyframesequence/reset/)() | Αφαιρεί όλα τα key frames και επαναφέρει τις μεταγενέστερες/προγενέστερες συμπεριφορές. |
 | [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Ορίζει την τιμή της καθορισμένης ιδιότητας |
 
 ### Δείτε επίσης
 
 * class [A3DObject](../../aspose.threed/a3dobject/)
 * class [KeyFrame](../keyframe/)
-* χώρος ονομάτων [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

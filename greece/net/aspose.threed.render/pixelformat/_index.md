@@ -1,69 +1,71 @@
 ---
-title: PixelFormat
-second_title: Aspose.3D για Αναφορά API .NET
-description: Η μορφή του εικονοστοιχείου που χρησιμοποιείται στη μονάδα υφής.
+title: "Απαρίθμηση PixelFormat"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Απαρίθμηση Aspose.ThreeD.Render.PixelFormat. Η μορφή pixel που χρησιμοποιείται στη μονάδα υφής."
 type: docs
-weight: 1990
+weight: 2210
 url: /el/net/aspose.threed.render/pixelformat/
 ---
 ## PixelFormat enumeration
 
-Η μορφή του εικονοστοιχείου που χρησιμοποιείται στη μονάδα υφής.
+Η μορφή του pixel που χρησιμοποιείται στη μονάδα υφής.
 
 ```csharp
 public enum PixelFormat
 ```
 
-### Αξίες
+### Τιμές
 
-| Ονομα | αξία | Περιγραφή |
+| Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
 | Unknown | `0` | Άγνωστη μορφή pixel. |
-| L8 | `1` | Μορφή pixel 8 bit, φωτεινότητα όλων των bit. |
-| L16 | `2` | Μορφή pixel 16 bit, φωτεινότητα όλων των bit. |
-| A8 | `3` | Μορφή pixel 8 bit, όλα τα bit alpha. |
-| A4L4 | `4` | Μορφή pixel 8 bit, άλφα 4 bit, φωτεινότητα 4 bit. |
-| BYTE_LA | `5` | 2 byte μορφή pixel, 1 byte φωτεινότητα, 1 byte alpha |
-| R5G6B5 | `6` | Μορφή pixel 16 bit, 5 bit κόκκινο, 6 bit πράσινο, 5 bit μπλε. |
-| B5G6R5 | `7` | Μορφή pixel 16 bit, 5 bit κόκκινο, 6 bit πράσινο, 5 bit μπλε. |
-| R3G3B2 | `8` | Μορφή pixel 8 bit, 2 bit μπλε, 3 bit πράσινο, 3 bit κόκκινο. |
-| A4R4G4B4 | `9` | Μορφή pixel 16 bit, 4 bit για άλφα, κόκκινο, πράσινο και μπλε. |
-| A1R5G5B5 | `10` | Μορφή pixel 16 bit, 5 bit για μπλε, πράσινο, κόκκινο και 1 για άλφα. |
-| R8G8B8 | `11` | Μορφή pixel 24 bit, 8 bit για κόκκινο, πράσινο και μπλε. |
-| B8G8R8 | `12` | Μορφή pixel 24 bit, 8 bit για μπλε, πράσινο και κόκκινο. |
-| A8R8G8B8 | `13` | Μορφή pixel 32 bit, 8 bit για άλφα, κόκκινο, πράσινο και μπλε. |
-| A8B8G8R8 | `14` | Μορφή pixel 32 bit, 8 bit για μπλε, πράσινο, κόκκινο και άλφα. |
-| B8G8R8A8 | `15` | Μορφή pixel 32 bit, 8 bit για μπλε, πράσινο, κόκκινο και άλφα. |
-| R8G8B8A8 | `16` | Μορφή pixel 32 bit, 8 bit για κόκκινο, πράσινο, μπλε και άλφα. |
-| X8R8G8B8 | `17` | Μορφή pixel 32 bit, 8 bit για το κόκκινο, 8 bit για το πράσινο, 8 bit για το μπλε όπως το A8R8G8B8, αλλά το alpha θα απορριφθεί |
-| X8B8G8R8 | `18` | Μορφή pixel 32 bit, 8 bit για το μπλε, 8 bit για το πράσινο, 8 bit για το κόκκινο όπως το A8B8G8R8, αλλά το alpha θα απορριφθεί |
-| A2R10G10B10 | `19` | Μορφή pixel 32 bit, 2 bit για άλφα, 10 bit για κόκκινο, πράσινο και μπλε. |
-| A2B10G10R10 | `20` | Μορφή pixel 32 bit, 10 bit για μπλε, πράσινο και κόκκινο, 2 bit για άλφα. |
-| DXT1 | `21` | Μορφή DDS (DirectDraw Surface) DXT1. |
-| DXT2 | `22` | Μορφή DDS (DirectDraw Surface) DXT2. |
-| DXT3 | `23` | Μορφή DDS (DirectDraw Surface) DXT3. |
-| DXT4 | `24` | Μορφή DDS (DirectDraw Surface) DXT4. |
-| DXT5 | `25` | Μορφή DDS (DirectDraw Surface) DXT5. |
-| FLOAT16_R | `26` | Μορφή pixel 16 bit, 16 bit (float) για κόκκινο |
-| FLOAT16_RGB | `27` | Μορφή pixel 48 bit, 16 bit (float) για κόκκινο, 16 bit (float) για πράσινο, 16 bit (float) για μπλε |
-| FLOAT16_RGBA | `28` | Μορφή pixel 64 bit, 16 bit (float) για κόκκινο, 16 bit (float) για πράσινο, 16 bit (float) για μπλε, 16 bit (float) για άλφα |
-| FLOAT32_R | `29` | Μορφή pixel 32 bit, 32 bit (float) για κόκκινο |
-| FLOAT32_RGB | `30` | Μορφή pixel 96 bit, 32 bit (float) για κόκκινο, 32 bit (float) για πράσινο, 32 bit (float) για μπλε |
-| FLOAT32_RGBA | `31` | Μορφή pixel 128 bit, 32 bit (float) για κόκκινο, 32 bit (float) για πράσινο, 32 bit (float) για μπλε, 32 bit (float) για άλφα |
-| FLOAT16_GR | `32` | Μορφή pixel 32 bit, 2 καναλιών s10e5 κινητής υποδιαστολής, πράσινο 16 bit, κόκκινο 16 bit |
-| FLOAT32_GR | `33` | Μορφή pixel 64 bit, 2 καναλιών κινητής υποδιαστολής, πράσινο 32 bit, κόκκινο 32 bit |
-| DEPTH | `34` | Μορφή υφής βάθους. |
-| SHORT_RGBA | `35` | Μορφή pixel 64 bit, 16 bit για κόκκινο, πράσινο, μπλε και άλφα |
-| SHORT_GR | `36` | Μορφή pixel 32 bit, πράσινο 16 bit, κόκκινο 16 bit |
-| SHORT_RGB | `37` | Μορφή pixel 48 bit, 16 bit για κόκκινο, πράσινο και μπλε |
-| R32_UINT | `38` | Μορφή pixel 32 bit, κόκκινο 32 bit (ανυπόγραφο int). |
-| R32G32_UINT | `39` | Μορφή pixel 64 bit, 32 bit κόκκινο (ανυπόγραφο int), 32 bit μπλε (unsigned int). |
-| R32G32B32A32_UINT | `40` | Μορφή pixel 128 bit, 32 bit κόκκινο (ανυπόγραφο int), 32 bit μπλε (unsigned int), 32 bit πράσινο (unsigned int), 32 bit alpha (unsigned int). |
-| R8 | `41` | Μορφή pixel 8 bit, όλα τα bit κόκκινα. |
+| L8 | `1` | 8-bit μορφή pixel, όλα τα bits φωτεινότητας. |
+| L16 | `2` | 16-bit μορφή pixel, όλα τα bits φωτεινότητας. |
+| A8 | `3` | 8-bit μορφή pixel, όλα τα bits αλφα. |
+| A4L4 | `4` | 8-bit μορφή pixel, 4 bits αλφα, 4 bits φωτεινότητα. |
+| BYTE_LA | `5` | 2 byte μορφή pixel, 1 byte φωτεινότητα, 1 byte αλφα |
+| R5G6B5 | `6` | 16-bit μορφή pixel, 5 bits κόκκινο, 6 bits πράσινο, 5 bits μπλε. |
+| B5G6R5 | `7` | 16-bit μορφή pixel, 5 bits κόκκινο, 6 bits πράσινο, 5 bits μπλε. |
+| R3G3B2 | `8` | 8-bit μορφή pixel, 2 bits μπλε, 3 bits πράσινο, 3 bits κόκκινο. |
+| A4R4G4B4 | `9` | 16-bit μορφή pixel, 4 bits για αλφα, κόκκινο, πράσινο και μπλε. |
+| A1R5G5B5 | `10` | 16-bit μορφή pixel, 5 bits για μπλε, πράσινο, κόκκινο και 1 για αλφα. |
+| R8G8B8 | `11` | 24-bit μορφή pixel, 8 bits για κόκκινο, πράσινο και μπλε. |
+| B8G8R8 | `12` | 24-bit μορφή pixel, 8 bits για μπλε, πράσινο και κόκκινο. |
+| A8R8G8B8 | `13` | 32-bit μορφή pixel, 8 bits για αλφα, κόκκινο, πράσινο και μπλε. |
+| A8B8G8R8 | `14` | 32-bit μορφή pixel, 8 bits για μπλε, πράσινο, κόκκινο και αλφα. |
+| B8G8R8A8 | `15` | 32-bit μορφή pixel, 8 bits για μπλε, πράσινο, κόκκινο και αλφα. |
+| R8G8B8A8 | `16` | 32-bit μορφή pixel, 8 bits για κόκκινο, πράσινο, μπλε και αλφα. |
+| X8R8G8B8 | `17` | 32-bit μορφή pixel, 8 bits για κόκκινο, 8 bits για πράσινο, 8 bits για μπλε όπως A8R8G8B8, αλλά το αλφα θα απορριφθεί. |
+| X8B8G8R8 | `18` | 32-bit μορφή pixel, 8 bits για μπλε, 8 bits για πράσινο, 8 bits για κόκκινο όπως A8B8G8R8, αλλά το αλφα θα απορριφθεί. |
+| A2R10G10B10 | `19` | 32-bit μορφή pixel, 2 bits για αλφα, 10 bits για κόκκινο, πράσινο και μπλε. |
+| A2B10G10R10 | `20` | 32-bit μορφή pixel, 10 bits για μπλε, πράσινο και κόκκινο, 2 bits για αλφα. |
+| DXT1 | `21` | DDS (DirectDraw Surface) μορφή DXT1. |
+| DXT2 | `22` | DDS (DirectDraw Surface) μορφή DXT2. |
+| DXT3 | `23` | DDS (DirectDraw Surface) μορφή DXT3. |
+| DXT4 | `24` | DDS (DirectDraw Surface) μορφή DXT4. |
+| DXT5 | `25` | DDS (DirectDraw Surface) μορφή DXT5. |
+| FLOAT16_R | `26` | 16-bit μορφή pixel, 16 bits (float) για κόκκινο |
+| FLOAT16_RGB | `27` | 48-bit μορφή pixel, 16 bits (float) για κόκκινο, 16 bits (float) για πράσινο, 16 bits (float) για μπλε |
+| FLOAT16_RGBA | `28` | 64-bit μορφή pixel, 16 bits (float) για κόκκινο, 16 bits (float) για πράσινο, 16 bits (float) για μπλε, 16 bits (float) για αλφα |
+| FLOAT32_R | `29` | 32-bit μορφή pixel, 32 bits (float) για κόκκινο |
+| FLOAT32_RGB | `30` | μορφή pixel 96-bit, 32 bit (float) για το κόκκινο, 32 bit (float) για το πράσινο, 32 bit (float) για το μπλε |
+| FLOAT32_RGBA | `31` | μορφή pixel 128-bit, 32 bit (float) για το κόκκινο, 32 bit (float) για το πράσινο, 32 bit (float) για το μπλε, 32 bit (float) για το άλφα |
+| FLOAT16_GR | `32` | μορφή pixel 32-bit, 2-κανάλι s10e5 floating point, 16-bit πράσινο, 16-bit κόκκινο |
+| FLOAT32_GR | `33` | μορφή pixel 64-bit, 2-κανάλι floating point, 32-bit πράσινο, 32-bit κόκκινο |
+| DEPTH | `34` | μορφή υφής βάθους. |
+| SHORT_RGBA | `35` | μορφή pixel 64-bit, 16 bit για το κόκκινο, πράσινο, μπλε και άλφα |
+| SHORT_GR | `36` | μορφή pixel 32-bit, 16-bit πράσινο, 16-bit κόκκινο |
+| SHORT_RGB | `37` | μορφή pixel 48-bit, 16 bit για το κόκκινο, πράσινο και μπλε |
+| R32_UINT | `38` | μορφή pixel 32-bit, 32 bit κόκκινο (unsigned int). |
+| R32G32_UINT | `39` | μορφή pixel 64-bit, 32 bit κόκκινο (unsigned int), 32 bit μπλε (unsigned int). |
+| R32G32B32A32_UINT | `40` | μορφή pixel 128-bit, 32 bit κόκκινο (unsigned int), 32 bit μπλε (unsigned int), 32 bit πράσινο (unsigned int), 32 bit άλφα (unsigned int). |
+| R8 | `41` | μορφή pixel 8-bit, όλα τα bit κόκκινο. |
+| G8 | `42` | μορφή pixel 8-bit, όλα τα bit πράσινο. |
+| B8 | `43` | μορφή pixel 8-bit, όλα τα bit μπλε. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.ThreeD.Render](../../aspose.threed.render/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

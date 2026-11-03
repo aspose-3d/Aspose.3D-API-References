@@ -1,14 +1,14 @@
 ---
-title: UsdSaveOptions
-second_title: Aspose.3D για Αναφορά API .NET
-description: Αποθήκευση επιλογών για μορφές USD/USDZ.
+title: "Κλάση UsdSaveOptions"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Aspose.ThreeD.Formats.UsdSaveOptions κλάση. Επιλογές αποθήκευσης για μορφές USD/USDZ"
 type: docs
-weight: 1390
+weight: 1540
 url: /el/net/aspose.threed.formats/usdsaveoptions/
 ---
 ## UsdSaveOptions class
 
-Αποθήκευση επιλογών για μορφές USD/USDZ.
+Επιλογές αποθήκευσης για μορφές USD/USDZ.
 
 ```csharp
 public class UsdSaveOptions : SaveOptions
@@ -16,28 +16,29 @@ public class UsdSaveOptions : SaveOptions
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [UsdSaveOptions](usdsaveoptions/#constructor)() | Εκκινήστε ένα νέο`UsdSaveOptions` με[`USD`](../../aspose.threed/fileformat/usd/) μορφή |
-| [UsdSaveOptions](usdsaveoptions/#constructor_1)(FileFormat) | Εκκινήστε ένα νέο`UsdSaveOptions` με καθορισμένη μορφή USD/USDZ. |
+| [UsdSaveOptions](usdsaveoptions/#constructor)() | Αρχικοποιήστε ένα νέο `UsdSaveOptions` με μορφή [`USD`](../../aspose.threed/fileformat/usd/) |
+| [UsdSaveOptions](usdsaveoptions/#constructor_1)(FileFormat) | Αρχικοποιήστε ένα νέο `UsdSaveOptions` με την καθορισμένη μορφή USD/USDZ. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Λαμβάνει ή ορίζει την προεπιλεγμένη κωδικοποίηση για αρχεία που βασίζονται σε κείμενο. Η προεπιλεγμένη τιμή είναι null, πράγμα που σημαίνει ότι ο εισαγωγέας/εξαγωγέας θα αποφασίσει ποια κωδικοποίηση θα χρησιμοποιήσει. |
-| [ExportMetaData](../../aspose.threed.formats/usdsaveoptions/exportmetadata/) { get; set; } | Εξαγωγή ιδιοτήτων κόμβου μέσω του πεδίου προσαρμοσμένων δεδομένων του USD. |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Λαμβάνει τη μορφή αρχείου που καθορίζεται στην τρέχουσα επιλογή Αποθήκευση/Φόρτωση. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Το όνομα αρχείου της σκηνής εξαγωγής/εισαγωγής. Αυτό είναι προαιρετικό, αλλά χρήσιμο κατά τη σειριοποίηση εξωτερικών στοιχείων όπως το υλικό του OBJ. |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Να επιτρέπεται στον χρήστη να χειρίζεται τον τρόπο διαχείρισης των εξωτερικών εξαρτήσεων κατά τη φόρτωση/αποθήκευση. |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Ορισμένα αρχεία όπως το OBJ εξαρτώνται από εξωτερικό αρχείο, οι διαδρομές αναζήτησης θα επιτρέψουν στο Aspose.3D να αναζητήσει εξωτερικό αρχείο για φόρτωση. |
-| [MaterialConverter](../../aspose.threed.formats/usdsaveoptions/materialconverter/) { get; set; } | Προσαρμοσμένος μετατροπέας για τη μετατροπή του υλικού της γεωμετρίας σε υλικό PBR Εάν δεν εκχωρηθεί, ο εξαγωγέας USD θα μετατρέψει αυτόματα το τυπικό υλικό σε υλικό PBR. Η προεπιλεγμένη τιμή είναι null |
-| [PrimitiveToMesh](../../aspose.threed.formats/usdsaveoptions/primitivetomesh/) { get; set; } | Μετατρέψτε τις πρωτόγονες οντότητες σε πλέγμα κατά την εξαγωγή. Ή κωδικοποιήστε απευθείας τις πρωτόγονες οντότητες στο αρχείο εξόδου (θα χρησιμοποιήσει τον ορισμό επέκτασης του Aspose για ανεπίσημα πρωτόγονα όπως Dish, Torus) Η προεπιλεγμένη τιμή είναι αληθής. |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Λαμβάνει ή ορίζει την προεπιλεγμένη κωδικοποίηση για αρχεία κειμένου. Η προεπιλεγμένη τιμή είναι null, που σημαίνει ότι ο εισαγωγέας/εξαγωγέας θα αποφασίσει ποια κωδικοποίηση θα χρησιμοποιηθεί. |
+| [ExportMetaData](../../aspose.threed.formats/usdsaveoptions/exportmetadata/) { get; set; } | Εξαγωγή των ιδιοτήτων του κόμβου μέσω του πεδίου customData του USD. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | Προσπαθήστε να αντιγράψετε τις υφές που χρησιμοποιούνται στη σκηνή στον φάκελο εξόδου. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Λαμβάνει τη μορφή αρχείου που καθορίζεται στην τρέχουσα επιλογή Αποθήκευσης/Φόρτωσης. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Το όνομα αρχείου της εξαγόμενης/εισαγόμενης σκηνής. Αυτό είναι προαιρετικό, αλλά χρήσιμο όταν γίνεται σειριοποίηση εξωτερικών πόρων όπως το υλικό του OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Επιτρέπει στον χρήστη να διαχειριστεί πώς να διαχειρίζεται τις εξωτερικές εξαρτήσεις κατά τη φόρτωση/αποθήκευση. |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Ορισμένα αρχεία όπως το OBJ εξαρτώνται από εξωτερικό αρχείο, οι διαδρομές αναζήτησης θα επιτρέπουν στο Aspose.3D να ψάξει για το εξωτερικό αρχείο για φόρτωση. |
+| [MaterialConverter](../../aspose.threed.formats/usdsaveoptions/materialconverter/) { get; set; } | Προσαρμοσμένος μετατροπέας για τη μετατροπή του υλικού της γεωμετρίας σε υλικό PBR. Εάν δεν έχει οριστεί, ο εξαγωγέας USD θα μετατρέπει αυτόματα το τυπικό υλικό σε υλικό PBR. Η προεπιλεγμένη τιμή είναι null. |
+| [PrimitiveToMesh](../../aspose.threed.formats/usdsaveoptions/primitivetomesh/) { get; set; } | Μετατρέψτε τις πρωτόγονες οντότητες σε πλέγμα κατά την εξαγωγή. Ή κωδικοποιήστε απευθείας τις πρωτόγονες στο αρχείο εξόδου (θα χρησιμοποιηθεί ο ορισμός επέκτασης της Aspose για ανεπίσημες πρωτόγονες όπως Dish, Torus). Η προεπιλεγμένη τιμή είναι true. |
 
 ### Δείτε επίσης
 
 * class [SaveOptions](../saveoptions/)
-* χώρος ονομάτων [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
