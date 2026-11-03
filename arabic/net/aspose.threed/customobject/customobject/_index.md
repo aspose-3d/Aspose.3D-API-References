@@ -1,6 +1,6 @@
 ---
 title: "CustomObject.CustomObject"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ CustomObject. يهيئ نسخة جديدة من فئة CustomObject"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/customobject/customobject/
 ---
 ## CustomObject() {#constructor}
 
-يهيئ نسخة جديدة من الفئة [`CustomObject`](../).
+يهيئ نسخة جديدة من فئة [`CustomObject`](../).
 
 ```csharp
 public CustomObject()
@@ -24,7 +24,7 @@ public CustomObject()
 
 ## CustomObject(string) {#constructor_1}
 
-يهيئ نسخة جديدة من الفئة [`CustomObject`](../).
+يهيئ نسخة جديدة من فئة [`CustomObject`](../).
 
 ```csharp
 public CustomObject(string name)
@@ -32,7 +32,7 @@ public CustomObject(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 

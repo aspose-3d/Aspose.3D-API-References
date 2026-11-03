@@ -1,6 +1,6 @@
 ---
 title: "PointCloud.FromGeometry"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة PointCloud. إنشاء نسخة جديدة من PointCloud من كائن هندسي"
 type: docs
 weight: 20
@@ -29,7 +29,7 @@ public static PointCloud FromGeometry(Geometry g)
 
 ## FromGeometry(Geometry, int) {#fromgeometry_1}
 
-إنشاء نسخة جديدة من سحابة النقاط من كائن هندسي. الكثافة هي عدد النقاط لكل مثلث وحدة (المثلث الوحدة هو المثلث ذو أكبر مساحة سطحية من الشبكة).
+إنشاء نسخة جديدة من سحابة النقاط من كائن هندسي. الكثافة هي عدد النقاط لكل مثلث وحدة (المثلث الوحدة هو المثلث الذي له أكبر مساحة سطح من الشبكة).
 
 ```csharp
 public static PointCloud FromGeometry(Geometry g, int density)
@@ -37,7 +37,7 @@ public static PointCloud FromGeometry(Geometry g, int density)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| g | هندسة | شبكة أو نسخة هندسية أخرى |
+| g | هندسة | مثيل Mesh أو كائن هندسي آخر |
 | الكثافة | Int32 | عدد النقاط لكل مثلث وحدة |
 
 ### انظر أيضًا

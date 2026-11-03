@@ -1,7 +1,7 @@
 ---
 title: "Light.ConstantAttenuation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Light. تحصل أو تعيين التوهين الثابت لحساب التوهين الكلي للضوء"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Light. يحصل أو يضبط التوهين الثابت لحساب التوهين الكلي للضوء"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/light/constantattenuation/

@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.Author"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "AssetInfo خاصية. يحصل أو يضبط مؤلف هذا الأصل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AssetInfo. تحصل أو تعين مؤلف هذا الأصل"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed/assetinfo/author/
 ---
 ## AssetInfo.Author property
 
-الحصول أو تعيين مؤلف هذا الأصل
+تحصل أو تعين مؤلف هذا الأصل
 
 ```csharp
 public string Author { get; set; }

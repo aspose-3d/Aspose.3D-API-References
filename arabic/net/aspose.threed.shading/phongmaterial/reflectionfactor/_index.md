@@ -1,14 +1,14 @@
 ---
 title: "PhongMaterial.ReflectionFactor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PhongMaterial. تحصل أو تعيين تخفيض لون الانعكاس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PhongMaterial. يحصل أو يضبط تخفيف لون الانعكاس"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.shading/phongmaterial/reflectionfactor/
 ---
 ## PhongMaterial.ReflectionFactor property
 
-يحصل أو يعيّن تخفيف لون الانعكاس.
+يحصل أو يضبط تخفيف لون الانعكاس.
 
 ```csharp
 public double ReflectionFactor { get; set; }

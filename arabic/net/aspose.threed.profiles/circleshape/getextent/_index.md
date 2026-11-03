@@ -1,6 +1,6 @@
 ---
 title: "CircleShape.GetExtent"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة CircleShape. تحصل على الامتداد في بعدي x و y"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/circleshape/getextent/
 ---
 ## CircleShape.GetExtent method
 
-يحصل على الامتداد في بعدي x و y.
+تحصل على الامتداد في بعدي x و y.
 
 ```csharp
 public override Vector2 GetExtent()

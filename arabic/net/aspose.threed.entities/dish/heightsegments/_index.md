@@ -1,6 +1,6 @@
 ---
 title: "Dish.HeightSegments"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Dish. الحصول أو تعيين مقاطع الارتفاع"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/dish/heightsegments/
 ---
 ## Dish.HeightSegments property
 
-يحصل أو يضبط مقاطع الارتفاع
+الحصول أو تعيين مقاطع الارتفاع
 
 ```csharp
 public int HeightSegments { get; set; }

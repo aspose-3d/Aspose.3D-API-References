@@ -1,6 +1,6 @@
 ---
 title: "FileFormat.Blender"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل FileFormat. تنسيق ملف 3D الخاص بـ Blender"
 type: docs
 weight: 40

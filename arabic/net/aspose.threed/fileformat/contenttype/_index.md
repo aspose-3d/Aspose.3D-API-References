@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.ContentType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية FileFormat. يحصل على نوع محتوى تنسيق الملف"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormat خاصية. يحصل على نوع محتوى تنسيق الملف"
 type: docs
 weight: 500
 url: /ar/net/aspose.threed/fileformat/contenttype/

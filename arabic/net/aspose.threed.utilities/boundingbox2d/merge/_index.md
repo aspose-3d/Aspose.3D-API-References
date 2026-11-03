@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox2D.Merge"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BoundingBox2D. يدمج الصندوق الجديد في مربع الحد الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BoundingBox2D. يدمج المربع الجديد في المربع الحالي للحد"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/boundingbox2d/merge/
 ---
 ## Merge(Vector2) {#merge_1}
 
-يدمج الصندوق الجديد في صندوق الإحاطة الحالي.
+يدمج الصندوق الجديد في صندوق الحدود الحالي.
 
 ```csharp
 public void Merge(Vector2 pt)
@@ -29,7 +29,7 @@ public void Merge(Vector2 pt)
 
 ## Merge(BoundingBox2D) {#merge}
 
-يدمج الصندوق الجديد في صندوق الإحاطة الحالي.
+يدمج الصندوق الجديد في صندوق الحدود الحالي.
 
 ```csharp
 public void Merge(BoundingBox2D bb)
@@ -37,7 +37,7 @@ public void Merge(BoundingBox2D bb)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| bb | BoundingBox2D | مربع الحد للدمج |
+| bb | BoundingBox2D | صندوق الحدود للدمج |
 
 ### انظر أيضًا
 

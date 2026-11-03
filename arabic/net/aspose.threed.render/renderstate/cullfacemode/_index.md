@@ -1,14 +1,14 @@
 ---
 title: "RenderState.CullFaceMode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RenderState. الحصول على أو تعيين الوجه الذي سيتم قصه"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "RenderState خاصية. الحصول أو تعيين الوجه الذي سيتم إزالته"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/renderstate/cullfacemode/
 ---
 ## RenderState.CullFaceMode property
 
-يحصل أو يعيّن أي وجه سيتم استبعاده.
+يحصل أو يضبط الوجه الذي سيتم إزالته.
 
 ```csharp
 public CullFaceMode CullFaceMode { get; set; }

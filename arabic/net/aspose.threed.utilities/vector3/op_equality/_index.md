@@ -1,6 +1,6 @@
 ---
 title: "Vector3.op_Equality"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Vector3. عامل المساواة لـ Vector3"
 type: docs
 weight: 260
@@ -16,12 +16,12 @@ public static bool operator ==(Vector3 lhs, Vector3 rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| lhs | Vector3 | قيمة الطرف الأيسر. |
-| rhs | Vector3 | قيمة الطرف الأيمن. |
+| lhs | Vector3 | قيمة الجانب الأيسر. |
+| rhs | Vector3 | قيمة الجانب الأيمن. |
 
 ### قيمة الإرجاع
 
-صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+صحيح إذا كانت جميع المكونات متساوية تمامًا.
 
 ### انظر أيضًا
 

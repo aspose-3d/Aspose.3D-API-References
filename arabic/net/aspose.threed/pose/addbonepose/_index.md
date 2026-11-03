@@ -1,14 +1,14 @@
 ---
 title: "Pose.AddBonePose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Pose. حفظ مصفوفة تحويل الوضع لعقدة العظم المحددة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Pose. تحفظ مصفوفة التحويل الوضعية للعظام المحددة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/pose/addbonepose/
 ---
 ## AddBonePose(Node, Matrix4, bool) {#addbonepose_1}
 
-يحفظ مصفوفة تحويل الوضعية لعقدة العظم المحددة.
+تحفظ مصفوفة التحويل الوضعية للعظام المحددة.
 
 ```csharp
 public void AddBonePose(Node node, Matrix4 matrix, bool localMatrix)
@@ -16,7 +16,7 @@ public void AddBonePose(Node node, Matrix4 matrix, bool localMatrix)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة | عقدة العظم. |
+| العقدة | Node | عقدة العظام. |
 | مصفوفة | Matrix4 | مصفوفة التحويل. |
 | localMatrix | Boolean | إذا تم تعيينه إلى `true` يعني استخدام المصفوفة المحلية وإلا يعني المصفوفة العامة. |
 
@@ -32,7 +32,7 @@ public void AddBonePose(Node node, Matrix4 matrix, bool localMatrix)
 
 ## AddBonePose(Node, Matrix4) {#addbonepose}
 
-يحفظ مصفوفة تحويل الوضعية لعقدة العظم المحددة. يُفترض وجود مصفوفة تحويل عالمية.
+تحفظ مصفوفة التحويل الوضعية للعظام المحددة. تُفترض مصفوفة التحويل العامة.
 
 ```csharp
 public void AddBonePose(Node node, Matrix4 matrix)
@@ -40,7 +40,7 @@ public void AddBonePose(Node node, Matrix4 matrix)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة | عقدة العظم. |
+| العقدة | Node | عقدة العظام. |
 | مصفوفة | Matrix4 | مصفوفة التحويل. |
 
 ### انظر أيضًا

@@ -1,14 +1,14 @@
 ---
 title: "Vector3.Vector3"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Vector3 constructor. ينشئ مثيلًا جديدًا للهيكل Vector3"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Vector3. يهيئ نسخة جديدة من بنية Vector3"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/vector3/vector3/
 ---
 ## Vector3(double, double, double) {#constructor_3}
 
-ينشئ مثيلًا جديدًا للهيكل [`Vector3`](../).
+يهيئ نسخة جديدة من البنية [`Vector3`](../).
 
 ```csharp
 public Vector3(double x, double y, double z)
@@ -16,9 +16,9 @@ public Vector3(double x, double y, double z)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| x | Double | الإحداثي x. |
-| y | Double | الإحداثي y. |
-| z | Double | الإحداثي z. |
+| x | مضاعف | الإحداثي x. |
+| y | مضاعف | الإحداثي y. |
+| z | مضاعف | الإحداثي z. |
 
 ### انظر أيضًا
 
@@ -30,7 +30,7 @@ public Vector3(double x, double y, double z)
 
 ## Vector3(FVector3) {#constructor}
 
-ينشئ مثيلًا جديدًا للهيكل [`Vector3`](../).
+يهيئ نسخة جديدة من البنية [`Vector3`](../).
 
 ```csharp
 public Vector3(FVector3 vec)
@@ -51,7 +51,7 @@ public Vector3(FVector3 vec)
 
 ## Vector3(double) {#constructor_2}
 
-ينشئ مثيلًا جديدًا للهيكل [`Vector3`](../).
+يهيئ نسخة جديدة من البنية [`Vector3`](../).
 
 ```csharp
 public Vector3(double v)
@@ -59,7 +59,7 @@ public Vector3(double v)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| v | Double | V. |
+| v | مضاعف | V. |
 
 ### انظر أيضًا
 
@@ -71,7 +71,7 @@ public Vector3(double v)
 
 ## Vector3(Vector4) {#constructor_1}
 
-ينشئ مثيلًا جديدًا للهيكل [`Vector3`](../).
+يهيئ نسخة جديدة من البنية [`Vector3`](../).
 
 ```csharp
 public Vector3(Vector4 vec4)

@@ -1,14 +1,14 @@
 ---
 title: "StencilState.Equals"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة StencilState. تُرجع قيمة تشير إلى ما إذا كان هذا المثيل مساويًا لكائن محدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة StencilState. تُرجع قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/stencilstate/equals/
 ---
 ## StencilState.Equals method
 
-يرجع قيمة تشير إلى ما إذا كانت هذه النسخة مساوية لكائن محدد.
+تُرجع قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public override bool Equals(object obj)

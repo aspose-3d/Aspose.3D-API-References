@@ -1,7 +1,7 @@
 ---
 title: "RectangularTorus.RectangularTorus"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ RectangularTorus. منشئ RectangularTorus"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ RectangularTorus. منشئ لـ RectangularTorus"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/rectangulartorus/rectangulartorus/

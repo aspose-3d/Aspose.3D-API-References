@@ -1,14 +1,14 @@
 ---
 title: "PdfSaveOptions.FaceColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PdfSaveOptions. يحصل أو يضبط لون الوجه الذي يُستخدم عند عرض المحتوى ثلاثي الأبعاد. هذا ذو صلة فقط عندما يكون RenderMode بقيمة Illustration"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PdfSaveOptions. يحصل أو يضبط لون الوجه الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. هذا ذو صلة فقط عندما تكون قيمة RenderMode هي Illustration"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.formats/pdfsaveoptions/facecolor/
 ---
 ## PdfSaveOptions.FaceColor property
 
-يحصل أو يضبط لون الوجه الذي يُستخدم عند عرض المحتوى ثلاثي الأبعاد. هذا ذو صلة فقط عندما يكون [`RenderMode`](../rendermode/) بقيمة Illustration.
+يحصل أو يضبط لون الوجه الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. هذا ذو صلة فقط عندما تكون قيمة [`RenderMode`](../rendermode/) هي Illustration.
 
 ```csharp
 public Vector3 FaceColor { get; set; }

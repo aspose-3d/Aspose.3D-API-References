@@ -1,14 +1,14 @@
 ---
 title: "BooleanOperand.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BooleanOperand. تحصل على تمثيل النصي لـ BooleanOperand"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BooleanOperand. تحصل على تمثيل النص لـ BooleanOperand"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/booleanoperand/tostring/
 ---
 ## BooleanOperand.ToString method
 
-يحصل على تمثيل النصي لـ [`BooleanOperand`](../)
+تحصل على تمثيل النص لـ [`BooleanOperand`](../)
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-التمثيل النصي لـ [`BooleanOperand`](../)
+تمثيل النص لـ [`BooleanOperand`](../)
 
 ### انظر أيضًا
 

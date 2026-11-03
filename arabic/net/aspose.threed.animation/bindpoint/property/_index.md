@@ -1,6 +1,6 @@
 ---
 title: "BindPoint.Property"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية BindPoint. يحصل على الخاصية المرتبطة بـ CurveMapping"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/bindpoint/property/
 ---
 ## BindPoint.Property property
 
-يحصل على الخاصية المرتبطة بـ CurveMapping.
+يحصل على الخاصية المرتبطة بـ CurveMapping
 
 ```csharp
 public Property Property { get; }

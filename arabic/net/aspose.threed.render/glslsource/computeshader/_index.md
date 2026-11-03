@@ -1,14 +1,14 @@
 ---
 title: "GLSLSource.ComputeShader"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GLSLSource. الحصول على أو تعيين شفرة المصدر للظل الحوسبي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية GLSLSource. الحصول على أو تعيين شفرة المصدر للـ compute shader"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/glslsource/computeshader/
 ---
 ## GLSLSource.ComputeShader property
 
-يحصل أو يحدد شفرة المصدر للمظلّل الحاسوبي.
+تحصل أو تعين شفرة المصدر لمعالج الحوسبة.
 
 ```csharp
 public string ComputeShader { get; set; }

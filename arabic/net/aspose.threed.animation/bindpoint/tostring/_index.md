@@ -1,14 +1,14 @@
 ---
 title: "BindPoint.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BindPoint. تنسق الكائن إلى سلسلة نصية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BindPoint. تنسق الكائن إلى سلسلة"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.animation/bindpoint/tostring/
 ---
 ## BindPoint.ToString method
 
-يحوّل الكائن إلى سلسلة
+تنسق الكائن إلى سلسلة
 
 ```csharp
 public override string ToString()

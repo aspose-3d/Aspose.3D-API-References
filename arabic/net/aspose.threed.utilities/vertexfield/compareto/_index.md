@@ -1,14 +1,14 @@
 ---
 title: "VertexField.CompareTo"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة VertexField. تقارن هذه المثيلة بكائن محدد وتعيد مؤشرًا على قيمهما النسبية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "VertexField طريقة. يقارن هذه العينة مع كائن محدد ويعيد إشارة إلى القيم النسبية لهما"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/vertexfield/compareto/
 ---
 ## VertexField.CompareTo method
 
-يقارن هذه الحالة مع كائن محدد ويعيد إشارة إلى قيمهما النسبية.
+يقارن هذه العينة مع كائن محدد ويعيد إشارة إلى القيم النسبية لهما.
 
 ```csharp
 public int CompareTo(VertexField other)

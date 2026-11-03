@@ -1,14 +1,14 @@
 ---
 title: "PhongMaterial.Shininess"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PhongMaterial. تحصل أو تعيين اللمعان هذا يتحكم في حجم البقع اللامعة. صيغة اللمعان SpecularColor  SpecularFactor  N dot H  Shininess"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PhongMaterial. يتم الحصول على أو تعيين اللمعان الذي يتحكم في حجم الإضاءات اللامعة. صيغة اللمعان: SpecularColor  SpecularFactor  N dot H  Shininess"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.shading/phongmaterial/shininess/
 ---
 ## PhongMaterial.Shininess property
 
-يحصل أو يعيّن اللمعان، هذا يتحكم في حجم الإبراز الانعكاسي. صيغة الانعكاس: SpecularColor * SpecularFactor * (N dot H) ^ Shininess
+يتم الحصول على أو تعيين اللمعان، هذا يتحكم في حجم الإضاءة اللامعة. صيغة اللمعان: SpecularColor * SpecularFactor * (N dot H) ^ Shininess
 
 ```csharp
 public double Shininess { get; set; }

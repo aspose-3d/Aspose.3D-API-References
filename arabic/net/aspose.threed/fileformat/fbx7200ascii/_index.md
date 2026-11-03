@@ -1,6 +1,6 @@
 ---
 title: "FileFormat.FBX7200ASCII"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل FileFormat. تنسيق ملف FBX ASCII بالإصدار 7.2.0"
 type: docs
 weight: 100
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/fileformat/fbx7200ascii/
 ---
 ## FileFormat.FBX7200ASCII field
 
-تنسيق ملف FBX بنص ASCII، بالإصدار 7.2.0
+تنسيق ملف FBX ASCII، بالإصدار 7.2.0
 
 ```csharp
 public static readonly FileFormat FBX7200ASCII;

@@ -1,7 +1,7 @@
 ---
 title: "ITexture1D.Save"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ITexture1D. حفظ محتوى القوام إلى ملف خارجي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ITexture1D. حفظ محتوى الملمس إلى ملف خارجي"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/itexture1d/save/
@@ -16,10 +16,10 @@ public void Save(string path, string format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| path | سلسلة | اسم الملف للحفظ. |
-| تنسيق | سلسلة | تنسيق الصورة |
+| المسار | String | اسم الملف للحفظ. |
+| تنسيق | String | تنسيق الصورة |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
@@ -43,7 +43,7 @@ public void Save(TextureData bitmap)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| صورة نقطية | TextureData | صورة bitmap الناتجة للحفظ. |
+| صورة نقطية | TextureData | الـ bitmap الناتج للحفظ. |
 
 ### انظر أيضًا
 

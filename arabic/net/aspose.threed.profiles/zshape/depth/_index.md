@@ -1,14 +1,14 @@
 ---
 title: "ZShape.Depth"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ZShape. يسترجع أو يعيّن طول الويب"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ZShape. تحصل أو تضبط طول الويب"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/zshape/depth/
 ---
 ## ZShape.Depth property
 
-يحصل أو يضبط طول الويب.
+تحصل أو تضبط طول الويب.
 
 ```csharp
 public double Depth { get; set; }

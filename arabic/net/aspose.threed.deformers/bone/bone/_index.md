@@ -1,6 +1,6 @@
 ---
 title: "Bone.Bone"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Bone. يهيئ نسخة جديدة من فئة Bone"
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ public Bone(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 

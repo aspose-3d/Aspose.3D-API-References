@@ -1,14 +1,14 @@
 ---
 title: "TransformBuilder.RotateEulerDegree"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TransformBuilder. ربط تدوير بزاوية أويلر بالدرجات"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TransformBuilder. Chain دوران بواسطة زوايا أويلر بالدرجة"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.utilities/transformbuilder/rotateeulerdegree/
 ---
 ## TransformBuilder.RotateEulerDegree method
 
-سلسلة دوران باستخدام زوايا أويلر بالدرجات
+Chain دوران بواسطة زوايا أويلر بالدرجة
 
 ```csharp
 public TransformBuilder RotateEulerDegree(double degX, double degY, double degZ)
@@ -16,9 +16,9 @@ public TransformBuilder RotateEulerDegree(double degX, double degY, double degZ)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| degX | Double |  |
-| degY | Double |  |
-| degZ | Double |  |
+| degX | مضاعف |  |
+| degY | مضاعف |  |
+| degZ | مضاعف |  |
 
 ## أمثلة
 

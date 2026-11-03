@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. يحصل على تمثيل الكواترنيون كسلسلة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. يحصل على تمثيل الرباعية كسلسلة"
 type: docs
 weight: 230
 url: /ar/net/aspose.threed.utilities/quaternion/tostring/
 ---
 ## Quaternion.ToString method
 
-يحصل على تمثيل الكواتيرنيون كسلسلة نصية
+يحصل على تمثيل الرباعية كسلسلة
 
 ```csharp
 public override string ToString()

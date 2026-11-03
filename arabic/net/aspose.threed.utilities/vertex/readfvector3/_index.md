@@ -1,7 +1,7 @@
 ---
 title: "Vertex.ReadFVector3"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vertex. اقرأ حقل vector3"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vertex. قراءة حقل vector3"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.utilities/vertex/readfvector3/
@@ -16,7 +16,7 @@ public FVector3 ReadFVector3(VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| حقل | VertexField | الحقل من نوع بيانات Vector3/FVector3 |
+| حقل | VertexField | الحقل بنوع بيانات Vector3/FVector3 |
 
 ### انظر أيضًا
 

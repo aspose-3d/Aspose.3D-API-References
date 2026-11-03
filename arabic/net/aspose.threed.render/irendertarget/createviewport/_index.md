@@ -1,14 +1,14 @@
 ---
 title: "IRenderTarget.CreateViewport"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة IRenderTarget. إنشاء نافذة عرض بلون خلفية محدد وموقع/حجم في منظور كاميرا محدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة IRenderTarget. إنشاء منطقة عرض بلون خلفية محدد وموقع/حجم في منظور كاميرا محدد"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/irendertarget/createviewport/
 ---
 ## CreateViewport(Camera, Vector3, RelativeRectangle) {#createviewport_2}
 
-إنشاء نافذة عرض مع لون خلفية محدد والموضع/الحجم في منظور الكاميرا المحدد.
+إنشاء منطقة عرض بلون خلفية محدد وموقع/حجم في منظور كاميرا محدد.
 
 ```csharp
 public Viewport CreateViewport(Camera camera, Vector3 backgroundColor, RelativeRectangle rect)
@@ -17,8 +17,8 @@ public Viewport CreateViewport(Camera camera, Vector3 backgroundColor, RelativeR
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | كاميرا | كاميرا | الكاميرا |
-| backgroundColor | Vector3 | خلفية نافذة العرض |
-| مستطيل | RelativeRectangle | الموضع والحجم لمنطقة العرض |
+| backgroundColor | Vector3 | خلفية منطقة العرض |
+| مستطيل | RelativeRectangle | موقع وحجم منطقة العرض |
 
 ### انظر أيضًا
 
@@ -34,7 +34,7 @@ public Viewport CreateViewport(Camera camera, Vector3 backgroundColor, RelativeR
 
 ## CreateViewport(Camera, RelativeRectangle) {#createviewport_1}
 
-إنشاء نافذة عرض مع الموضع/الحجم في منظور الكاميرا المحدد.
+إنشاء منطقة عرض بموقع/حجم في منظور كاميرا محدد.
 
 ```csharp
 public Viewport CreateViewport(Camera camera, RelativeRectangle rect)
@@ -43,7 +43,7 @@ public Viewport CreateViewport(Camera camera, RelativeRectangle rect)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | كاميرا | كاميرا | الكاميرا |
-| مستطيل | RelativeRectangle | الموضع والحجم لمنطقة العرض |
+| مستطيل | RelativeRectangle | موقع وحجم منطقة العرض |
 
 ### انظر أيضًا
 
@@ -58,7 +58,7 @@ public Viewport CreateViewport(Camera camera, RelativeRectangle rect)
 
 ## CreateViewport(Camera) {#createviewport}
 
-إنشاء نافذة عرض في منظور الكاميرا المحدد.
+إنشاء منطقة عرض في منظور كاميرا محدد.
 
 ```csharp
 public Viewport CreateViewport(Camera camera)

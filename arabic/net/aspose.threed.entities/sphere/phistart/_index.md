@@ -1,14 +1,14 @@
 ---
 title: "Sphere.PhiStart"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Sphere. يحصل أو يضبط بداية الفاي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Sphere. تحصل أو تعين بداية الفاي"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/sphere/phistart/
 ---
 ## Sphere.PhiStart property
 
-يحصل أو يضبط بداية phi.
+تحصل أو تعين بداية الفاي.
 
 ```csharp
 public double PhiStart { get; set; }

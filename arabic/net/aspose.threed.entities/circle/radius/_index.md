@@ -1,7 +1,7 @@
 ---
 title: "Circle.Radius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Circle. نصف القطر لمنحنى الدائرة القيمة الافتراضية هي 10"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Circle. نصف قطر منحنى الدائرة القيمة الافتراضية هي 10"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/circle/radius/

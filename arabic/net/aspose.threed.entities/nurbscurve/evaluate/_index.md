@@ -1,7 +1,7 @@
 ---
 title: "NurbsCurve.Evaluate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة NurbsCurve. تقييم منحنى NURBS."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة NurbsCurve. تقييم منحنى NURBS"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.entities/nurbscurve/evaluate/
@@ -16,11 +16,11 @@ public Vector4[] Evaluate(int steps = 20)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| خطوات | Int32 | تردد التقييم بين عقدتين متجاورتين، القيمة الافتراضية هي 20. |
+| خطوات | Int32 | تردد التقييم بين عقدتين متجاورتين، القيمة الافتراضية هي 20 |
 
 ### قيمة الإرجاع
 
-نقاط على المنحنى
+نقاط في المنحنى
 
 ### انظر أيضًا
 

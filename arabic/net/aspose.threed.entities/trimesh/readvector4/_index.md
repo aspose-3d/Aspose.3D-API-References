@@ -1,6 +1,6 @@
 ---
 title: "TriMesh.ReadVector4"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TriMesh. قراءة حقل vector4"
 type: docs
 weight: 240
@@ -16,8 +16,8 @@ public Vector4 ReadVector4(int idx, VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| idx | Int32 | فهرس الرأس المراد قراءته |
-| حقل | VertexField | الحقل من نوع بيانات Vector4/FVector4 |
+| idx | Int32 | فهرس الرأس للقراءة |
+| حقل | VertexField | الحقل بنوع بيانات Vector4/FVector4 |
 
 ### انظر أيضًا
 

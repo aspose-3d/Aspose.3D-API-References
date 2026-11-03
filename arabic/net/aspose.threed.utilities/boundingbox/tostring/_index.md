@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BoundingBox. يحصل على تمثيل النص لمربع الحدود."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BoundingBox. تحصل على تمثيل النص لمربع الحد"
 type: docs
 weight: 160
 url: /ar/net/aspose.threed.utilities/boundingbox/tostring/
 ---
 ## BoundingBox.ToString method
 
-يحصل على تمثيل النص لصندوق الإحاطة.
+يحصل على تمثيل النص لصندوق الحدود.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-تمثيل النص لمربع الحدود.
+تمثيل النص لمربع الحد.
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.Draco"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat حقل. شبكة Google Draco"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. Google Draco Mesh"
 type: docs
 weight: 590
 url: /ar/net/aspose.threed/fileformat/draco/
 ---
 ## FileFormat.Draco field
 
-شبكة Google Draco
+Google Draco Mesh
 
 ```csharp
 public static readonly DracoFormat Draco;

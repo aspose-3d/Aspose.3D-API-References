@@ -1,14 +1,14 @@
 ---
 title: "RectangularTorus.InnerRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RectangularTorus. نصف القطر الداخلي للدوامة المستطيلة القيمة الافتراضية هي 17"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RectangularTorus. نصف القطر الداخلي للدوامة المستطيلة. القيمة الافتراضية هي 17"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/rectangulartorus/innerradius/
 ---
 ## RectangularTorus.InnerRadius property
 
-نصف القطر الداخلي للتوروس المستطيل القيمة الافتراضية هي 17
+نصف القطر الداخلي للدوامة المستطيلة. القيمة الافتراضية هي 17
 
 ```csharp
 public double InnerRadius { get; set; }

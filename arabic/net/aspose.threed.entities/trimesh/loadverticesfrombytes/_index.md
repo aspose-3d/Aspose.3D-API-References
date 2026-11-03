@@ -1,7 +1,7 @@
 ---
 title: "TriMesh.LoadVerticesFromBytes"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TriMesh. تحميل الرؤوس من بايتات؛ يجب أن يكون طول البايتات مضاعفًا صحيحًا لحجم الرأس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TriMesh. تحميل الرؤوس من بايتات يجب أن يكون طول البايتات مضاعفًا صحيحًا لحجم الرأس"
 type: docs
 weight: 160
 url: /ar/net/aspose.threed.entities/trimesh/loadverticesfrombytes/
@@ -18,7 +18,7 @@ public void LoadVerticesFromBytes(byte[] verticesInBytes)
 | --- | --- | --- |
 | verticesInBytes | Byte[] |  |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
@@ -27,7 +27,7 @@ public void LoadVerticesFromBytes(byte[] verticesInBytes)
 
 ## أمثلة
 
-يعرض الكود التالي كيفية إنشاء TriMesh فارغ وتحميل الرؤوس يدويًا من بايتات خام.
+يعرض الشيفرة التالية كيفية إنشاء TriMesh فارغ وتحميل الرؤوس يدويًا من بايتات خام.
 
 ```csharp
 var indices = new int[] { 0,  1,  2 };

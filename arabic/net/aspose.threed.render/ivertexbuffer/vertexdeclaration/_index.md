@@ -1,14 +1,14 @@
 ---
 title: "IVertexBuffer.VertexDeclaration"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "IVertexBuffer خاصية. يحصل على تعريف الرأس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية IVertexBuffer. يحصل على تعريف الرأس"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/ivertexbuffer/vertexdeclaration/
 ---
 ## IVertexBuffer.VertexDeclaration property
 
-يحصل على تعريف القمة
+يحصل على تعريف الرأس
 
 ```csharp
 public VertexDeclaration VertexDeclaration { get; }

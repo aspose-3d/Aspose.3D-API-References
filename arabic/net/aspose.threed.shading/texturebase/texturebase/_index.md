@@ -1,14 +1,14 @@
 ---
 title: "TextureBase.TextureBase"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ TextureBase. يهيئ نسخة جديدة من الفئة TextureBase"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ TextureBase. يهيئ مثيلاً جديداً من فئة TextureBase"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.shading/texturebase/texturebase/
 ---
 ## TextureBase constructor
 
-يهيئ نسخة جديدة من الفئة [`TextureBase`](../).
+يهيئ مثيلاً جديداً من الفئة [`TextureBase`](../).
 
 ```csharp
 public TextureBase(string name)
@@ -16,7 +16,7 @@ public TextureBase(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 

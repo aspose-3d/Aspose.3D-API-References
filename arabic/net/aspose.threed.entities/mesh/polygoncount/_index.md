@@ -1,6 +1,6 @@
 ---
 title: "Mesh.PolygonCount"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Mesh. تحصل على عدد المضلعات"
 type: docs
 weight: 40
@@ -20,7 +20,7 @@ public int PolygonCount { get; }
 
 ## أمثلة
 
-الكود التالي يوضح كيفية الحصول على عدد مضلعات mesh.
+الكود التالي يوضح كيفية الحصول على عدد مضلعات الشبكة.
 
 ```csharp
 var mesh = (new Sphere()).ToMesh();

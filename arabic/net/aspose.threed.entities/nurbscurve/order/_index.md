@@ -1,14 +1,14 @@
 ---
 title: "NurbsCurve.Order"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsCurve. تحصل أو تعين رتبة منحنى NURBS؛ فهي تحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة على المنحنى."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsCurve. يحصل أو يعيّن ترتيب منحنى NURBS؛ يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/nurbscurve/order/
 ---
 ## NurbsCurve.Order property
 
-الحصول على أو تعيين ترتيب منحنى NURBS، حيث يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
+يحصل أو يعيّن ترتيب منحنى NURBS، وهو يحدد عدد نقاط التحكم القريبة التي تؤثر على أي نقطة معينة في المنحنى.
 
 ```csharp
 public int Order { get; set; }
@@ -16,7 +16,7 @@ public int Order { get; set; }
 
 ### Property Value
 
-الرتبة.
+الترتيب.
 
 ### انظر أيضًا
 

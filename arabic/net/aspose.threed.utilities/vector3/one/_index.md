@@ -1,6 +1,6 @@
 ---
 title: "Vector3.One"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Vector3. يحصل على المتجه الوحدوي 1 1 1"
 type: docs
 weight: 20

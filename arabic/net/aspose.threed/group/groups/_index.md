@@ -1,7 +1,7 @@
 ---
 title: "Group.Groups"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Group. المجموعات الفرعية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية المجموعة. المجموعات الفرعية"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/group/groups/

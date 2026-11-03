@@ -1,14 +1,14 @@
 ---
 title: "Entity.Excluded"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Entity. يحصل أو يحدد ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Entity. تحصل أو تعين ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/entity/excluded/
 ---
 ## Entity.Excluded property
 
-يحصل أو يضبط ما إذا كان يجب استبعاد هذا الكيان أثناء التصدير.
+يحصل أو يعيّن ما إذا كان يجب استبعاد هذا الكائن أثناء التصدير.
 
 ```csharp
 public bool Excluded { get; set; }

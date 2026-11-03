@@ -1,14 +1,14 @@
 ---
 title: "TriMesh.CopyFrom"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TriMesh. نسخ الـ TriMesh من الإدخال مع تخطيط رأس جديد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TriMesh. نسخ TriMesh من الإدخال مع تخطيط قمة جديد"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/trimesh/copyfrom/
 ---
 ## TriMesh.CopyFrom method
 
-نسخ الـ [`TriMesh`](../) من الإدخال مع تخطيط رأس جديد
+انسخ الـ [`TriMesh`](../) من الإدخال مع تخطيط قمة جديد
 
 ```csharp
 public static TriMesh CopyFrom(TriMesh input, VertexDeclaration vd)
@@ -16,17 +16,17 @@ public static TriMesh CopyFrom(TriMesh input, VertexDeclaration vd)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| input | TriMesh | TriMesh الإدخال للنسخ |
-| vd | VertexDeclaration | إعلان الرأس الجديد للـ TriMesh الناتج |
+| إدخال | TriMesh | TriMesh الإدخال للنسخ |
+| vd | VertexDeclaration | إعلان القمة الجديد لـ TriMesh الناتج |
 
 ### قيمة الإرجاع
 
-كائن جديد من TriMesh مع إعلان رأس جديد.
+مثال جديد من TriMesh مع تعريف رأس جديد.
 
 ## أمثلة
 
 ```csharp
-//عرّف إعلان الرأس كـ {FVector3 Position; FVector3 Normal; FVector2 UV}
+//عرّف إعلان القمة كالتالي {FVector3 Position; FVector3 Normal; FVector2 UV}
 VertexDeclaration vd = new VertexDeclaration();
 vd.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vd.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);

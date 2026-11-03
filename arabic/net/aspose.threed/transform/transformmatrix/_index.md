@@ -1,14 +1,14 @@
 ---
 title: "Transform.TransformMatrix"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Transform. تحصل أو تعيّن مصفوفة التحويل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Transform. تحصل أو تعين مصفوفة التحويل"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed/transform/transformmatrix/
 ---
 ## Transform.TransformMatrix property
 
-يحصل أو يعيّن مصفوفة التحويل.
+تحصل أو تعين مصفوفة التحويل.
 
 ```csharp
 public Matrix4 TransformMatrix { get; set; }
@@ -16,7 +16,7 @@ public Matrix4 TransformMatrix { get; set; }
 
 ## ملاحظات
 
-سيؤدي التعيين على هذا إلى إعادة ضبط [`Translation`](../translation/)، [`Scaling`](../scaling/) و [`Rotation`](../rotation/)، بينما لن تتأثر [`GeometricRotation`](../geometricrotation/)، [`GeometricScaling`](../geometricscaling/) و [`GeometricTranslation`](../geometrictranslation/).
+التعيين على هذا سيعيد ضبط [`Translation`](../translation/)، [`Scaling`](../scaling/) و[`Rotation`](../rotation/)، بينما لن تتأثر [`GeometricRotation`](../geometricrotation/)، [`GeometricScaling`](../geometricscaling/) و[`GeometricTranslation`](../geometrictranslation/).
 
 ## أمثلة
 

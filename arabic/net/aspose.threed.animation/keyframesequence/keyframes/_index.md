@@ -1,14 +1,14 @@
 ---
 title: "KeyframeSequence.KeyFrames"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية KeyframeSequence. يحصل على الإطارات الرئيسية لهذا المنحنى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية KeyframeSequence. تحصل على الإطارات الرئيسية لهذا المنحنى"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.animation/keyframesequence/keyframes/
 ---
 ## KeyframeSequence.KeyFrames property
 
-يحصل على الإطارات المفتاحية لهذا المنحنى.
+يحصل على الإطارات الرئيسية لهذا المنحنى.
 
 ```csharp
 public IList<KeyFrame> KeyFrames { get; }

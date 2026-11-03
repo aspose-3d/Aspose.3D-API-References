@@ -1,14 +1,14 @@
 ---
 title: "PatchDirection.ControlPoints"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PatchDirection. تحصل أو تعين عدد نقاط التحكم في الاتجاه الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PatchDirection. يحصل أو يضبط عدد نقاط التحكم في الاتجاه الحالي"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/patchdirection/controlpoints/
 ---
 ## PatchDirection.ControlPoints property
 
-يحصل أو يعيّن عدد نقاط التحكم في الاتجاه الحالي.
+يحصل أو يضبط عدد نقاط التحكم في الاتجاه الحالي.
 
 ```csharp
 public int ControlPoints { get; set; }

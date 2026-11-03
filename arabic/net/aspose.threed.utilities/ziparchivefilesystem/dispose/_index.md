@@ -1,14 +1,14 @@
 ---
 title: "ZipArchiveFileSystem.Dispose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ZipArchiveFileSystem. حرّر ZipArchiveFileSystem وأطلق موارده الداخلية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ZipArchiveFileSystem. استدعاء Dispose على ZipArchiveFileSystem وإطلاق موارده الداخلية"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/ziparchivefilesystem/dispose/
 ---
 ## ZipArchiveFileSystem.Dispose method
 
-تخلص من ZipArchiveFileSystem وأطلق موارده الداخلية.
+استدعاء Dispose على ZipArchiveFileSystem وإطلاق موارده الداخلية.
 
 ```csharp
 public override void Dispose()

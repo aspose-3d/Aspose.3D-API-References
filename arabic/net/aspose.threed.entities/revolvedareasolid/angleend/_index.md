@@ -1,14 +1,14 @@
 ---
 title: "RevolvedAreaSolid.AngleEnd"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RevolvedAreaSolid. يحصل أو يضبط زاوية النهاية لإجراء الدوران مقاسة بالراديان القيمة الافتراضية هي pi"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RevolvedAreaSolid. تسترجع أو تعين زاوية النهاية لإجراء الدوران مقاسة بالراديان، القيمة الافتراضية هي π"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/revolvedareasolid/angleend/
 ---
 ## RevolvedAreaSolid.AngleEnd property
 
-يحصل أو يضبط زاوية النهاية لإجراء التدوير، مقاسة بالراديان، القيمة الافتراضية هي π.
+تسترجع أو تعين زاوية النهاية لإجراء الدوران، مقاسة بالراديان، القيمة الافتراضية هي π.
 
 ```csharp
 public double AngleEnd { get; set; }

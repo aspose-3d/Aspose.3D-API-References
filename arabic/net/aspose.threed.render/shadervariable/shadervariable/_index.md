@@ -1,14 +1,14 @@
 ---
 title: "ShaderVariable.ShaderVariable"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ ShaderVariable. منشئ ShaderVariable"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ ShaderVariable. منشئ لـ ShaderVariable"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/shadervariable/shadervariable/
 ---
 ## ShaderVariable(string) {#constructor}
 
-منشئ [`ShaderVariable`](../)
+منشئ لـ [`ShaderVariable`](../)
 
 ```csharp
 public ShaderVariable(string name)
@@ -16,7 +16,7 @@ public ShaderVariable(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة |  |
+| الاسم | String |  |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public ShaderVariable(string name)
 
 ## ShaderVariable(string, ShaderStage) {#constructor_1}
 
-منشئ [`ShaderVariable`](../)
+منشئ لـ [`ShaderVariable`](../)
 
 ```csharp
 public ShaderVariable(string name, ShaderStage shaderStage)
@@ -36,8 +36,8 @@ public ShaderVariable(string name, ShaderStage shaderStage)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة |  |
-| shaderStage | ShaderStage | في أي مرحلة من مراحل التظليل سيُستخدم هذا المتغيّر |
+| الاسم | String |  |
+| shaderStage | ShaderStage | في أي مرحلة تظليل سيُستخدم هذا المتغيّر |
 
 ### انظر أيضًا
 

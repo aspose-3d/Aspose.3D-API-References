@@ -1,6 +1,6 @@
 ---
 title: "Renderer.EnableShadows"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Renderer. يحصل أو يضبط ما إذا كان سيتم تمكين الظلال"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/renderer/enableshadows/
 ---
 ## Renderer.EnableShadows property
 
-يحصل أو يضبط ما إذا كان يجب تمكين الظلال.
+يحصل أو يضبط ما إذا كان سيتم تمكين الظلال.
 
 ```csharp
 public bool EnableShadows { get; set; }

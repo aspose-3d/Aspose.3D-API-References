@@ -1,7 +1,7 @@
 ---
 title: "Plane.Plane"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Plane. يهيئ نسخة جديدة من Plane بالحجم الافتراضي 1x1."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Plane. يهيئ نسخة جديدة من Plane بالحجم الافتراضي 1x1"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/plane/plane/
@@ -32,8 +32,8 @@ public Plane(double length, double width)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الطول | Double | طول المستوى. |
-| العرض | Double | عرض المستوى. |
+| الطول | مضاعف | طول السطح. |
+| العرض | مضاعف | عرض السطح. |
 
 ### انظر أيضًا
 
@@ -53,11 +53,11 @@ public Plane(string name, double length, double width, int lengthSegments, int w
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
-| الطول | Double | طول المستوى. |
-| العرض | Double | عرض المستوى. |
-| lengthSegments | Int32 | مقاطع الطول. |
-| widthSegments | Int32 | مقاطع العرض. |
+| الاسم | String | الاسم. |
+| الطول | مضاعف | طول السطح. |
+| العرض | مضاعف | عرض السطح. |
+| lengthSegments | Int32 | قطاعات الطول. |
+| widthSegments | Int32 | قطاعات العرض. |
 
 ### انظر أيضًا
 

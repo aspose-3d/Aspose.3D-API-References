@@ -1,14 +1,14 @@
 ---
 title: "PbrMaterial.MetallicRoughness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrMaterial. يحصل أو يضبط القوام للمعادن في قناة R والخشونة في قناة G"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrMaterial. تحصل أو تعين النسيج للمعادن في قناة R وللخشونة في قناة G"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.shading/pbrmaterial/metallicroughness/
 ---
 ## PbrMaterial.MetallicRoughness property
 
-يحصل أو يضبط النسيج للمعدن (في قناة R) والخشونة (في قناة G)
+تحصل أو تعين النسيج للمعادن (في قناة R) وللخشونة (في قناة G)
 
 ```csharp
 public TextureBase MetallicRoughness { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "DescriptorSetUpdater.Dispose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة DescriptorSetUpdater. إلغاء تحديث المُحدّث وتطبيق التغييرات على جهاز العتاد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة DescriptorSetUpdater. حرّر المحدث وطبق التغييرات على جهاز العتاد"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/descriptorsetupdater/dispose/
 ---
 ## DescriptorSetUpdater.Dispose method
 
-إلغاء كائن التحديث وتطبيق التغييرات على الجهاز المادي.
+حرّر المحدث وطبق التغييرات على جهاز العتاد.
 
 ```csharp
 public void Dispose()

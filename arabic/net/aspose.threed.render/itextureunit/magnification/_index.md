@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.Magnification"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل أو يضبط وضع الفلتر للتكبير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. تحصل أو تضبط وضع الفلتر للتكبير"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/itextureunit/magnification/
 ---
 ## ITextureUnit.Magnification property
 
-الحصول أو تعيين وضع الفلتر للتكبير.
+يحصل أو يضبط وضع الفلتر للتكبير.
 
 ```csharp
 public TextureFilter Magnification { get; set; }

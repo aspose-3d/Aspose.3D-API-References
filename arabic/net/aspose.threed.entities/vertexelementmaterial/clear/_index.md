@@ -1,7 +1,7 @@
 ---
 title: "VertexElementMaterial.Clear"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElementMaterial method. تزيل جميع العناصر من المصفوفات المباشرة ومصفوفات الفهرس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexElementMaterial. يزيل جميع العناصر من مصفوفات الـ direct والـ index"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/vertexelementmaterial/clear/

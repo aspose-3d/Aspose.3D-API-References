@@ -1,7 +1,7 @@
 ---
 title: "Matrix4.Concatenate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. تدمج المصفوفتين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Matrix4. تجمع المصفوفتين"
 type: docs
 weight: 240
 url: /ar/net/aspose.threed.utilities/matrix4/concatenate/
@@ -20,7 +20,7 @@ public Matrix4 Concatenate(Matrix4 m2)
 
 ### قيمة الإرجاع
 
-مصفوفة4 جديدة
+جديدة matrix4
 
 ## أمثلة
 

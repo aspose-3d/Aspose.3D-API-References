@@ -1,7 +1,7 @@
 ---
 title: "PlySaveOptions.PositionComponents"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PlySaveOptions. أسماء المكونات لبيانات الموقع القيمة الافتراضية هي x y z"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PlySaveOptions. أسماء المكوّنات لبيانات الموقع القيمة الافتراضية هي x y z"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.formats/plysaveoptions/positioncomponents/

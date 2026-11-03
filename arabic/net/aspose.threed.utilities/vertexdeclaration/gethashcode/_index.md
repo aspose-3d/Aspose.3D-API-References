@@ -1,14 +1,14 @@
 ---
 title: "VertexDeclaration.GetHashCode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة VertexDeclaration. تُرجع رمز التجزئة لهذا النص"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexDeclaration. تُرجع رمز التجزئة لهذه السلسلة"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.utilities/vertexdeclaration/gethashcode/
 ---
 ## VertexDeclaration.GetHashCode method
 
-يعيد رمز التجزئة لهذا النص.
+تُرجع قيمة التجزئة لهذا النص.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-رمز تجزئة عدد صحيح موقع 32‑بت.
+قيمة تجزئة صحيحة موقعة 32‑بت.
 
 ### انظر أيضًا
 

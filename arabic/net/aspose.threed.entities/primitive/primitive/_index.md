@@ -1,7 +1,7 @@
 ---
 title: "Primitive.Primitive"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Primitive. يهيئ نسخة جديدة من فئة Primitive"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Primitive. يهيئ نسخة جديدة من الفئة Primitive"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/primitive/primitive/
@@ -16,7 +16,7 @@ public Primitive(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "EndPoint.FromDegree"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة EndPoint. إنشاء نقطة نهائية مقاسة بالدرجة"
 type: docs
 weight: 20
@@ -16,7 +16,7 @@ public static EndPoint FromDegree(double degree)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| درجة | Double | القيمة بالدرجة |
+| درجة | مضاعف | القيمة بالدرجة |
 
 ### قيمة الإرجاع
 

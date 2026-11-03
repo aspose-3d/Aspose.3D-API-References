@@ -1,7 +1,7 @@
 ---
 title: "Scene.Poses"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Scene. تحصل على جميع Pose المستخدمة في هذا المشهد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية المشهد. يحصل على جميع الوضعيات المستخدمة في هذا المشهد"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed/scene/poses/

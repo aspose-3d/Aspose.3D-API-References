@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo.CreationTime"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية AssetInfo. تحصل أو تعين وقت إنشاء هذا الأصل"
 type: docs
 weight: 110
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/assetinfo/creationtime/
 ---
 ## AssetInfo.CreationTime property
 
-الحصول أو تعيين وقت إنشاء هذا الأصل
+تحصل أو تعين وقت إنشاء هذا الأصل
 
 ```csharp
 public DateTime? CreationTime { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "RenderFactory.CreateCubeRenderTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderFactory. إنشاء هدف عرض يحتوي على قوام مكعب واحد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RenderFactory. إنشاء هدف تصيير يحتوي على نسيج مكعب واحد"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/renderfactory/createcuberendertexture/
 ---
 ## RenderFactory.CreateCubeRenderTexture method
 
-إنشاء هدف عرض يحتوي على نسيج مكعب واحد
+إنشاء هدف تصيير يحتوي على نسيج مكعب واحد
 
 ```csharp
 public abstract IRenderTexture CreateCubeRenderTexture(RenderParameters parameters, int width, 

@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.FromRotation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. تُنشئ كواتيرنيون يدور من الاتجاه الأصلي إلى الاتجاه الوجهة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. تنشئ رباعية تدور من الاتجاه الأصلي إلى الاتجاه الوجهة"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.utilities/quaternion/fromrotation/
 ---
 ## Quaternion.FromRotation method
 
-ينشئ كواتيرنيون يدور من الاتجاه الأصلي إلى الاتجاه الوجهة
+تنشئ رباعية تدور من الاتجاه الأصلي إلى الاتجاه الوجهة
 
 ```csharp
 public static Quaternion FromRotation(Vector3 orig, Vector3 dest)
@@ -21,7 +21,7 @@ public static Quaternion FromRotation(Vector3 orig, Vector3 dest)
 
 ### قيمة الإرجاع
 
-الـ quaternion المُنشأ
+الكواتيرنيون المُنشأ
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: "IOConfig.FileSystemFactory"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية IOConfig. تحصل أو تعين فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ LocalFileSystem الذي لا يناسب بيئة الخادم."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية IOConfig. تحصل أو تعيّن فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ LocalFileSystem وهو غير مناسب لبيئة الخادم"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.formats/ioconfig/filesystemfactory/
 ---
 ## IOConfig.FileSystemFactory property
 
-يحصل أو يعيّن فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ LocalFileSystem الذي لا يناسب بيئة الخادم.
+تحصل أو تعيّن فئة المصنع لنظام الملفات. المصنع الافتراضي سيُنشئ LocalFileSystem وهو غير مناسب لبيئة الخادم.
 
 ```csharp
 public static FileSystemFactory FileSystemFactory { get; set; }
@@ -16,7 +16,7 @@ public static FileSystemFactory FileSystemFactory { get; set; }
 
 ## أمثلة
 
-نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي بتحديده عبر IOConfig.FileSystemFactory:
+نظام الملفات الافتراضي في SaveOptions/LoadOptions هو نظام ملفات قائم على الدليل، يمكنك تجاوز التنفيذ الافتراضي عن طريق تحديده عبر IOConfig.FileSystemFactory:
 
 ```csharp
 IOConfig.FileSystemFactory = () => {
@@ -28,7 +28,7 @@ var material = new PhongMaterial();
 var boxNode = scene.RootNode.CreateChildNode(new Box());
 boxNode.Material = material;
 
-//سيصبح opt.FileSystem نظام ملفات تجريبي الآن.
+//سيصبح opt.FileSystem نظام ملفات تجريبي الآن
 var opt = new ObjSaveOptions();
 using var output = new MemoryStream();
 opt.FileName = "output.obj";

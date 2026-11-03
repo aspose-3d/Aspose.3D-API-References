@@ -1,14 +1,14 @@
 ---
 title: "TextureCodec.Decode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TextureCodec. فك شفرة بيانات القوام من الدفق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TextureCodec. فكّ ترميز بيانات القوام من الدفق"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/texturecodec/decode/
 ---
 ## TextureCodec.Decode method
 
-فك تشفير بيانات القوام من الدفق
+فكّ ترميز بيانات القوام من الدفق
 
 ```csharp
 public static TextureData Decode(Stream stream, bool reverseY)
@@ -16,7 +16,7 @@ public static TextureData Decode(Stream stream, bool reverseY)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream |  |
+| تدفق | تدفق |  |
 | reverseY | Boolean |  |
 
 ### انظر أيضًا

@@ -1,7 +1,7 @@
 ---
 title: "U3dSaveOptions.ExportTextureCoordinates"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "U3dSaveOptions property. يحصل أو يضبط ما إذا كان سيتم تصدير إحداثيات النسيج"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية U3dSaveOptions. يحصل أو يضبط ما إذا كان سيتم تصدير إحداثيات القوام"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.formats/u3dsaveoptions/exporttexturecoordinates/

@@ -1,14 +1,14 @@
 ---
 title: "Box.HeightSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Box. تحصل أو تعيين مقاطع الارتفاع"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Box. تحصل أو تعيّن مقاطع الارتفاع"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/box/heightsegments/
 ---
 ## Box.HeightSegments property
 
-يحصل أو يعيّن مقاطع الارتفاع.
+تحصل أو تعيّن مقاطع الارتفاع.
 
 ```csharp
 public int HeightSegments { get; set; }

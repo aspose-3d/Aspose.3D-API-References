@@ -1,7 +1,7 @@
 ---
 title: "Matrix4.Decompose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Matrix4 طريقة."
 type: docs
 weight: 250
 url: /ar/net/aspose.threed.utilities/matrix4/decompose/

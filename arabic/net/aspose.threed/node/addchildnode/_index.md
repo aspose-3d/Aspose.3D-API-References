@@ -1,6 +1,6 @@
 ---
 title: "Node.AddChildNode"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Node. أضف عقدة فرعية إلى هذه العقدة"
 type: docs
 weight: 150
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/node/addchildnode/
 ---
 ## Node.AddChildNode method
 
-إضافة عقدة فرعية إلى هذه العقدة
+أضف عقدة فرعية إلى هذه العقدة
 
 ```csharp
 public void AddChildNode(Node node)
@@ -16,11 +16,11 @@ public void AddChildNode(Node node)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة | العقدة الفرعية المراد إرفاقها |
+| العقدة | Node | العقدة الفرعية التي سيتم إرفاقها |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية الحصول على جميع الشبكات من المشهد
+الكود التالي يوضح كيفية الحصول على جميع المجسمات من المشهد
 
 ```csharp
 Scene scene = Scene.FromFile("input.fbx");

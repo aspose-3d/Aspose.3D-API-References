@@ -1,14 +1,14 @@
 ---
 title: "NurbsSurface.NurbsSurface"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ NurbsSurface. يهيئ نسخة جديدة من فئة NurbsSurface"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ NurbsSurface. يهيئ مثيلاً جديداً من فئة NurbsSurface"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/nurbssurface/nurbssurface/
 ---
 ## NurbsSurface() {#constructor}
 
-يهيئ نسخة جديدة من الفئة [`NurbsSurface`](../).
+يهيئ مثيلاً جديداً من الفئة [`NurbsSurface`](../).
 
 ```csharp
 public NurbsSurface()
@@ -24,7 +24,7 @@ public NurbsSurface()
 
 ## NurbsSurface(string) {#constructor_1}
 
-يهيئ نسخة جديدة من الفئة [`NurbsSurface`](../).
+يهيئ مثيلاً جديداً من الفئة [`NurbsSurface`](../).
 
 ```csharp
 public NurbsSurface(string name)
@@ -32,7 +32,7 @@ public NurbsSurface(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 

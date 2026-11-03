@@ -1,6 +1,6 @@
 ---
 title: "Material.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Material. تنسق الكائن إلى سلسلة"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.shading/material/tostring/
 ---
 ## Material.ToString method
 
-يحوّل الكائن إلى سلسلة
+تنسق الكائن إلى سلسلة
 
 ```csharp
 public override string ToString()

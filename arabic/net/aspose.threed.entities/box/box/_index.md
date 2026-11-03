@@ -1,14 +1,14 @@
 ---
 title: "Box.Box"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Box. يهيئ مثيلاً جديداً لفئة Box"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Box. يُنشئ مثلاً جديدًا من الفئة Box"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/box/box/
 ---
 ## Box() {#constructor}
 
-يهيئ مثيلاً جديداً للفئة [`Box`](../).
+يُنشئ مثلاً جديدًا من الفئة [`Box`](../).
 
 ```csharp
 public Box()
@@ -24,7 +24,7 @@ public Box()
 
 ## Box(double, double, double) {#constructor_1}
 
-يهيئ مثيلاً جديداً للفئة [`Box`](../).
+يُنشئ مثلاً جديدًا من الفئة [`Box`](../).
 
 ```csharp
 public Box(double length, double width, double height)
@@ -32,9 +32,9 @@ public Box(double length, double width, double height)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الطول | Double | طول الصندوق المتراص على المحور z. |
-| العرض | Double | عرض الصندوق المتراص على المحور x. |
-| الارتفاع | Double | ارتفاع الصندوق المتراص على المحور y. |
+| الطول | مضاعف | طول الصندوق المتّجه على المحور z. |
+| العرض | مضاعف | عرض الصندوق المتّجه على المحور x. |
+| الارتفاع | مضاعف | ارتفاع الصندوق المتّجه على المحور y. |
 
 ### انظر أيضًا
 
@@ -46,7 +46,7 @@ public Box(double length, double width, double height)
 
 ## Box(string, double, double, double, int, int, int) {#constructor_2}
 
-يهيئ مثيلاً جديداً للفئة [`Box`](../).
+يُنشئ مثلاً جديدًا من الفئة [`Box`](../).
 
 ```csharp
 public Box(string name, double length, double width, double height, int lengthSegments, 
@@ -55,13 +55,13 @@ public Box(string name, double length, double width, double height, int lengthSe
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم الصندوق. |
-| الطول | Double | طول الصندوق المتراص على المحور z. |
-| العرض | Double | عرض الصندوق المتراص على المحور x. |
-| الارتفاع | Double | ارتفاع الصندوق المتراص على المحور y. |
-| lengthSegments | Int32 | مقاطع الطول. |
-| widthSegments | Int32 | مقاطع العرض. |
-| heightSegments | Int32 | مقاطع الارتفاع. |
+| الاسم | String | اسم الصندوق. |
+| الطول | مضاعف | طول الصندوق المتّجه على المحور z. |
+| العرض | مضاعف | عرض الصندوق المتّجه على المحور x. |
+| الارتفاع | مضاعف | ارتفاع الصندوق المتّجه على المحور y. |
+| lengthSegments | Int32 | قطاعات الطول. |
+| widthSegments | Int32 | قطاعات العرض. |
+| heightSegments | Int32 | شرائح الارتفاع. |
 
 ### انظر أيضًا
 

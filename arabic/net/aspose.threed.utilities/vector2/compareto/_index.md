@@ -1,14 +1,14 @@
 ---
 title: "Vector2.CompareTo"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector2. مقارنة المتجه الحالي بمتجه آخر"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector2. قارن المتجه الحالي بنسخة أخرى"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/vector2/compareto/
 ---
 ## Vector2.CompareTo method
 
-قارن المتجه الحالي بمثيل آخر.
+قارن المتجه الحالي بمتجه آخر.
 
 ```csharp
 public int CompareTo(Vector2 other)

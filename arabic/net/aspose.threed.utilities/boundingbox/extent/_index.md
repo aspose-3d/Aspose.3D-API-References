@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.Extent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BoundingBox. تحصّل على امتداد الصندوق الحدودي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية BoundingBox. يحصل على مدى مربع الحد"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.utilities/boundingbox/extent/
 ---
 ## BoundingBox.Extent property
 
-يحصل على مدى صندوق الإحاطة.
+يحصل على مدى صندوق الحدود.
 
 ```csharp
 public BoundingBoxExtent Extent { get; }

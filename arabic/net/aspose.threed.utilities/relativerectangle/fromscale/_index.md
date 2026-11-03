@@ -1,14 +1,14 @@
 ---
 title: "RelativeRectangle.FromScale"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RelativeRectangle. إنشاء RelativeRectangle مع جميع حقول الإزاحة صفر وحقول المقياس من المعلمات المعطاة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RelativeRectangle. إنشاء RelativeRectangle بجميع حقول الإزاحة صفرية وحقول المقياس من المعلمات المعطاة"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/relativerectangle/fromscale/
 ---
 ## RelativeRectangle.FromScale method
 
-إنشاء [`RelativeRectangle`](../) مع جميع حقول الإزاحة صفر وحقول المقياس من المعلمات المعطاة.
+إنشاء [`RelativeRectangle`](../) بجميع حقول الإزاحة صفرية وحقول المقياس من المعلمات المعطاة.
 
 ```csharp
 public static RelativeRectangle FromScale(float scaleX, float scaleY, float scaleWidth, 

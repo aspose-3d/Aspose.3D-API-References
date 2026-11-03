@@ -1,6 +1,6 @@
 ---
 title: "ArbitraryProfile.ArbitraryProfile"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ ArbitraryProfile. منشئ ArbitraryProfile"
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ public ArbitraryProfile()
 
 ## ArbitraryProfile(Curve) {#constructor_1}
 
-منشئ [`ArbitraryProfile`](../) بمنحنى أولي.
+منشئ [`ArbitraryProfile`](../) مع منحنى أولي.
 
 ```csharp
 public ArbitraryProfile(Curve curve)
@@ -32,7 +32,7 @@ public ArbitraryProfile(Curve curve)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| منحنى | منحنى | المنحنى الأولي للملف |
+| منحنى | منحنى | المنحنى الأولي للملف الشخصي |
 
 ### انظر أيضًا
 

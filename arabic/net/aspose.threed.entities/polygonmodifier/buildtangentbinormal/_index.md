@@ -1,14 +1,14 @@
 ---
 title: "PolygonModifier.BuildTangentBinormal"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PolygonModifier. سيقوم هذا بإنشاء المتجه المماس والبينورمال على جميع الشبكات في المشهد. يتطلب وجود الـ Normal؛ إذا لم يكن الـ normal موجودًا على الشبكة فسيتم أيضًا إنشاء بيانات الـ normal من الموضع. الـ UV مطلوب أيضًا؛ سيتم تجاهل الشبكة إذا لم يتم تعريف أي UV."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PolygonModifier. سيقوم هذا بإنشاء المتجه المماس والبيينورمال على جميع الشبكات في المشهد. المتجه العادي مطلوب؛ إذا لم يكن المتجه العادي موجودًا في الشبكة، سيُنشئ أيضًا بيانات المتجه العادي من الموضع. المتجه UV مطلوب أيضًا؛ سيتم تجاهل الشبكة إذا لم يتم تعريف UV."
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/polygonmodifier/buildtangentbinormal/
 ---
 ## BuildTangentBinormal(Scene) {#buildtangentbinormal_1}
 
-سيتم إنشاء المماس والبيّنورمال على جميع الشبكات في المشهد. الـNormal مطلوب، إذا لم يكن الـNormal موجوداً على الشبكة، سيتم أيضاً إنشاء بيانات الـNormal من الموضع. الـUV مطلوب أيضاً، سيتم تجاهل الشبكة إذا لم يتم تعريف UV.
+سيقوم هذا بإنشاء المتجه المماس والبيينورمال على جميع الشبكات في المشهد. المتجه العادي مطلوب؛ إذا لم يكن المتجه العادي موجودًا في الشبكة، سيُنشئ أيضًا بيانات المتجه العادي من الموضع. المتجه UV مطلوب أيضًا؛ سيتم تجاهل الشبكة إذا لم يتم تعريف UV.
 
 ```csharp
 public static void BuildTangentBinormal(Scene scene)
@@ -25,7 +25,7 @@ public static void BuildTangentBinormal(Scene scene)
 
 ## BuildTangentBinormal(Mesh) {#buildtangentbinormal}
 
-سيتم إنشاء المماس والبيّنورمال على الشبكة. الـNormal مطلوب، إذا لم يكن الـNormal موجوداً على الشبكة، سيتم أيضاً إنشاء بيانات الـNormal من الموضع. الـUV مطلوب أيضاً، سيُرفع استثناء إذا لم يتم العثور على UV.
+سيقوم هذا بإنشاء المتجه المماس والبيينورمال على الشبكة. المتجه العادي مطلوب؛ إذا لم يكن المتجه العادي موجودًا في الشبكة، سيُنشئ أيضًا بيانات المتجه العادي من الموضع. المتجه UV مطلوب أيضًا؛ سيتم رفع استثناء إذا لم يتم العثور على UV.
 
 ```csharp
 public static void BuildTangentBinormal(Mesh mesh)

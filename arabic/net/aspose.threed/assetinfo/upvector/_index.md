@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo.UpVector"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية AssetInfo. تحصل أو تعين المتجه العلوي المستخدم في هذا الأصل"
 type: docs
 weight: 200
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/assetinfo/upvector/
 ---
 ## AssetInfo.UpVector property
 
-الحصول أو تعيين متجه الارتفاع المستخدم في هذا الأصل.
+تحصل أو تعين المتجه العلوي المستخدم في هذا الأصل.
 
 ```csharp
 public Axis? UpVector { get; set; }

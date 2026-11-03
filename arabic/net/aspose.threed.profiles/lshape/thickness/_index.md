@@ -1,14 +1,14 @@
 ---
 title: "LShape.Thickness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية LShape. تحصل أو تعين سمك الجدار الثابت"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية LShape. يحصل أو يضبط سمك الجدار الثابت"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.profiles/lshape/thickness/
 ---
 ## LShape.Thickness property
 
-الحصول أو تعيين سمك الجدار الثابت.
+يحصل أو يضبط سمك الجدار الثابت.
 
 ```csharp
 public double Thickness { get; set; }

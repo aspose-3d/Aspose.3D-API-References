@@ -1,6 +1,6 @@
 ---
 title: "Renderer.RenderTarget"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Renderer. حدد هدف العرض الذي ستُجرى عليه عمليات العرض التالية"
 type: docs
 weight: 120

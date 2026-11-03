@@ -1,7 +1,7 @@
 ---
 title: "AnimationNode.GetBindPoint"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة AnimationNode. يحصل على نقطة ربط الرسوم المتحركة للخاصية المعطاة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة AnimationNode. يحصل على نقطة ربط الرسوم المتحركة للخاصية المحددة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.animation/animationnode/getbindpoint/
@@ -17,8 +17,8 @@ public BindPoint GetBindPoint(A3DObject target, string propName, bool create)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | الهدف | A3DObject | على أي كائن يتم إنشاء نقطة الربط. |
-| propName | سلسلة | اسم الخاصية. |
-| إنشاء | Boolean | إذا تم تعيينه إلى `true` أنشئ نقطة الربط إذا لم تكن موجودة. |
+| propName | String | اسم الخاصية. |
+| إنشاء | Boolean | إذا تم ضبطه على `true` أنشئ نقطة الربط إذا لم تكن موجودة. |
 
 ### قيمة الإرجاع
 

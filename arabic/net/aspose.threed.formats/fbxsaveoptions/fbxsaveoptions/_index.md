@@ -1,7 +1,7 @@
 ---
 title: "FbxSaveOptions.FbxSaveOptions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ FbxSaveOptions. يهيئ كائن FbxSaveOptions"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ FbxSaveOptions. يهيئ كائن FbxSaveOptions."
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats/fbxsaveoptions/fbxsaveoptions/
@@ -16,7 +16,7 @@ public FbxSaveOptions(FileFormat format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| format | FileFormat | كائن من [`FileFormat`](../../../aspose.threed/fileformat/)، يجب أن يكون تنسيق FBX صالحًا. |
+| format | FileFormat | مثيل من [`FileFormat`](../../../aspose.threed/fileformat/)، يجب أن يكون تنسيق FBX صالحًا. |
 
 ### انظر أيضًا
 
@@ -37,7 +37,7 @@ public FbxSaveOptions(FileContentType contentType)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| contentType | FileContentType | ثنائي أو ASCII |
+| contentType | FileContentType | ثنائي أو نصي |
 
 ### انظر أيضًا
 

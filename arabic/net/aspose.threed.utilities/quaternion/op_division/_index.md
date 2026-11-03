@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.op_Division"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. تحميل المشغل للـ /"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. تجاوز المشغل لـ /"
 type: docs
 weight: 250
 url: /ar/net/aspose.threed.utilities/quaternion/op_division/
 ---
 ## Quaternion Division operator
 
-إعادة تعريف العامل /
+إعادة تعريف المشغل لـ /
 
 ```csharp
 public static Quaternion operator /(Quaternion lhs, double rhs)
@@ -16,12 +16,12 @@ public static Quaternion operator /(Quaternion lhs, double rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| lhs | كواترنيون | الكواتيرنيون الأيسر |
-| rhs | Double | الكواتيرنيون الأيمن |
+| lhs | كواتيرنيون | الكواترنيون الأيسر |
+| rhs | مضاعف | الكواترنيون الأيمن |
 
 ### قيمة الإرجاع
 
-نتيجة الكواترنيون
+الكواترنيون الناتج
 
 ### انظر أيضًا
 

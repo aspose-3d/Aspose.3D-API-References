@@ -1,6 +1,6 @@
 ---
 title: "Vertex.ReadDouble"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Vertex. قراءة حقل double"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/vertex/readdouble/
 ---
 ## Vertex.ReadDouble method
 
-اقرأ الحقل من نوع double
+قراءة الحقل المزدوج
 
 ```csharp
 public double ReadDouble(VertexField field)
@@ -16,7 +16,7 @@ public double ReadDouble(VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| حقل | VertexField | الحقل من نوع بيانات متوافق مع float/double |
+| حقل | VertexField | الحقل بنوع بيانات متوافق مع float/double |
 
 ### انظر أيضًا
 

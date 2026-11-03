@@ -1,7 +1,7 @@
 ---
 title: "Microsoft3MFFormat.GetObjectType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Microsoft3MFFormat. تحصل على نوع النموذج للعقدة المحددة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Microsoft3MFFormat. يحصل على نوع النموذج للعقدة المحددة"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats/microsoft3mfformat/getobjecttype/
@@ -16,7 +16,7 @@ public string GetObjectType(Node node)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة |  |
+| العقدة | Node |  |
 
 ### قيمة الإرجاع
 

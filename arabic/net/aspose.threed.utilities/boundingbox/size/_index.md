@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.Size"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BoundingBox. حجم مربع الحدود."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية BoundingBox. حجم مربع الحد"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.utilities/boundingbox/size/
 ---
 ## BoundingBox.Size property
 
-حجم صندوق الحدود
+حجم صندوق الحدود.
 
 ```csharp
 public Vector3 Size { get; }

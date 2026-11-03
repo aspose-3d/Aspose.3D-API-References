@@ -1,14 +1,14 @@
 ---
 title: "FVector2.Equals"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FVector2. تحقق مما إذا كان المتجهان متساويان"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector2. تحقق مما إذا كان متجهان متساويان"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/fvector2/equals/
 ---
 ## Equals(FVector2) {#equals}
 
-تحقق مما إذا كان المتجهان متساويين
+تحقق مما إذا كان متجهان متساويان
 
 ```csharp
 public bool Equals(FVector2 rhs)
@@ -32,7 +32,7 @@ public bool Equals(FVector2 rhs)
 
 ## Equals(object) {#equals_1}
 
-تحقق مما إذا كان المتجهان متساويين
+تحقق مما إذا كان متجهان متساويان
 
 ```csharp
 public override bool Equals(object obj)

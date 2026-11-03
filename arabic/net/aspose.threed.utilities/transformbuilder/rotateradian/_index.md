@@ -1,7 +1,7 @@
 ---
 title: "TransformBuilder.RotateRadian"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TransformBuilder. ربط تحويل تدوير بالراديان"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TransformBuilder. سلسلة تحويل دوران بالراديان"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.utilities/transformbuilder/rotateradian/
@@ -16,8 +16,8 @@ public TransformBuilder RotateRadian(double angle, Vector3 axis)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| زاوية | Double | الزاوية للتدوير بالراديان |
-| محور | Vector3 | المحور للتدوير |
+| زاوية | مضاعف | الزاوية للدوران بالراديان |
+| محور | Vector3 | المحور للدوران |
 
 ## أمثلة
 
@@ -38,7 +38,7 @@ Console.WriteLine($"Transform Matrix: {tb.Matrix}");
 
 ## RotateRadian(Vector3, RotationOrder) {#rotateradian_1}
 
-إلحاق دوران بترتيب محدد
+إلحاق دوران بالترتيب المحدد
 
 ```csharp
 public void RotateRadian(Vector3 rot, RotationOrder order)
@@ -46,8 +46,8 @@ public void RotateRadian(Vector3 rot, RotationOrder order)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| rot | Vector3 | دوران بالراديان |
-| ترتيب | RotationOrder |  |
+| rot | Vector3 | الدوران بالراديان |
+| order | RotationOrder |  |
 
 ## أمثلة
 

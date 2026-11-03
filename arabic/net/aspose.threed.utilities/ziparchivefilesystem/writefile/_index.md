@@ -1,6 +1,6 @@
 ---
 title: "ZipArchiveFileSystem.WriteFile"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة ZipArchiveFileSystem. فتح ملف للكتابة غير مُنفّذ في هذه الفئة"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/ziparchivefilesystem/writefile/
 ---
 ## ZipArchiveFileSystem.WriteFile method
 
-فتح الملف للكتابة، غير مُنفّذ في هذه الفئة.
+فتح ملف للكتابة، غير مُنفّذ في هذه الفئة.
 
 ```csharp
 public override Stream WriteFile(string fileName, IOConfig options)
@@ -16,14 +16,14 @@ public override Stream WriteFile(string fileName, IOConfig options)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة |  |
-| خيارات | IOConfig |  |
+| fileName | String |  |
+| الخيارات | IOConfig |  |
 
 ### قيمة الإرجاع
 
 لا إرجاع، هذا نظام ملفات للقراءة فقط.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

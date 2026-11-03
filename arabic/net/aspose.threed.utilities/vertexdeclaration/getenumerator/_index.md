@@ -1,14 +1,14 @@
 ---
 title: "VertexDeclaration.GetEnumerator"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexDeclaration طريقة. يحصل على عداد للتجول عبر جميع حقول القمم في هذا الكائن"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexDeclaration. يحصل على عداد للتنقل عبر جميع حقول الرأس في هذه الحالة"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed.utilities/vertexdeclaration/getenumerator/
 ---
 ## VertexDeclaration.GetEnumerator method
 
-يحصل على مُعدِّد للتجول عبر جميع حقول الرأس في هذا الكائن.
+يحصل على عداد للتنقل عبر جميع حقول الرأس في هذه الحالة.
 
 ```csharp
 public IEnumerator<VertexField> GetEnumerator()

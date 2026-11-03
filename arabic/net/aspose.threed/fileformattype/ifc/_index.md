@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType.IFC"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "FileFormatType حقل. نموذج بيانات ISO 167391 Industry Foundation Classes"
 type: docs
 weight: 120
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/fileformattype/ifc/
 ---
 ## FileFormatType.IFC field
 
-نموذج بيانات فئات الأساس الصناعي ISO 16739-1.
+نموذج بيانات ISO 16739-1 Industry Foundation Classes.
 
 ```csharp
 public static readonly FileFormatType IFC;

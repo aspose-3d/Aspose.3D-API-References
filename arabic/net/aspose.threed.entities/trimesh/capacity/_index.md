@@ -1,14 +1,14 @@
 ---
 title: "TriMesh.Capacity"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TriMesh. سعة الرؤوس المخصصة مسبقًا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TriMesh. سعة القمم المخصصة مسبقًا"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/trimesh/capacity/
 ---
 ## TriMesh.Capacity property
 
-السعة المخصصة مسبقًا للرؤوس.
+السعة للقمم المخصصة مسبقًا.
 
 ```csharp
 public int Capacity { get; }

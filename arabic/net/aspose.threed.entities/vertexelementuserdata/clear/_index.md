@@ -1,7 +1,7 @@
 ---
 title: "VertexElementUserData.Clear"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة VertexElementUserData. تمسح جميع البيانات من عنصر القمة هذا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexElementUserData. تمسح جميع البيانات من هذا العنصر القمة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/vertexelementuserdata/clear/

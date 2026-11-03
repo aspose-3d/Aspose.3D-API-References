@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.Width"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل على عرض هذا الملمس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. تحصل على عرض هذا الملمس"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.render/itextureunit/width/
 ---
 ## ITextureUnit.Width property
 
-يحصل على عرض هذا الملمس.
+تحصل على عرض هذا الملمس.
 
 ```csharp
 public int Width { get; }

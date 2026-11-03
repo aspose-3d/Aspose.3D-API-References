@@ -1,6 +1,6 @@
 ---
 title: "RenderParameters.RenderParameters"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ RenderParameters. تهيئة نسخة من PixelFormat"
 type: docs
 weight: 10

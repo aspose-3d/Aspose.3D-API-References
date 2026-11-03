@@ -1,14 +1,14 @@
 ---
 title: "EllipseShape.GetExtent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة EllipseShape. يحصل على الامتداد في بعدي x و y"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة EllipseShape. تحصل على الامتداد في بعدي x و y"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.profiles/ellipseshape/getextent/
 ---
 ## EllipseShape.GetExtent method
 
-يحصل على الامتداد في بعدي x و y.
+تحصل على الامتداد في بعدي x و y.
 
 ```csharp
 public override Vector2 GetExtent()

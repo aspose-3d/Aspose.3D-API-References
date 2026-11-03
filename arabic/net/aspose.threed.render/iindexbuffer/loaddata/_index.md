@@ -1,6 +1,6 @@
 ---
 title: "IIndexBuffer.LoadData"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة IIndexBuffer. تحميل بيانات الفهارس من TriMesh"
 type: docs
 weight: 30
@@ -37,7 +37,7 @@ public void LoadData(int[] indices)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المؤشرات | Int32[] |  |
+| indices | Int32[] |  |
 
 ### انظر أيضًا
 
@@ -57,7 +57,7 @@ public void LoadData(uint[] indices)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المؤشرات | UInt32[] |  |
+| indices | UInt32[] |  |
 
 ### انظر أيضًا
 
@@ -77,7 +77,7 @@ public void LoadData(short[] indices)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المؤشرات | Int16[] |  |
+| indices | Int16[] |  |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: "CircleShape.Radius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية CircleShape. تحصّل أو تُعيّن نصف قطر الدائرة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية CircleShape. تحصل أو تعين نصف قطر الدائرة"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/circleshape/radius/
 ---
 ## CircleShape.Radius property
 
-يحصل أو يعيّن نصف قطر الدائرة.
+تحصل أو تعين نصف قطر الدائرة.
 
 ```csharp
 public double Radius { get; set; }

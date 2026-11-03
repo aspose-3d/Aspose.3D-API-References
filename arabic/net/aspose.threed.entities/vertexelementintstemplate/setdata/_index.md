@@ -1,7 +1,7 @@
 ---
 title: "VertexElementIntsTemplate.SetData"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة VertexElementIntsTemplate. تحميل البيانات"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexElementIntsTemplate. يحمّل البيانات"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/vertexelementintstemplate/setdata/

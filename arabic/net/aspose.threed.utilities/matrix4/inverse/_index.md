@@ -1,7 +1,7 @@
 ---
 title: "Matrix4.Inverse"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. تعكس هذه الحالة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Matrix4. يعكس هذا الكائن"
 type: docs
 weight: 260
 url: /ar/net/aspose.threed.utilities/matrix4/inverse/
@@ -16,7 +16,7 @@ public Matrix4 Inverse()
 
 ### قيمة الإرجاع
 
-مصفوفة عكسية 4
+مصفوفة العكس 4
 
 ## أمثلة
 

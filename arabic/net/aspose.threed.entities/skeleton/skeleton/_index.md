@@ -1,7 +1,7 @@
 ---
 title: "Skeleton.Skeleton"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Skeleton. يهيئ نسخة جديدة من فئة Skeleton"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Skeleton. يهيئ نسخة جديدة من الفئة Skeleton"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/skeleton/skeleton/
@@ -32,7 +32,7 @@ public Skeleton(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 
@@ -52,8 +52,8 @@ public Skeleton(string name, SkeletonType type)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم الكيان. |
-| type | SkeletonType | نوع Skeleton |
+| الاسم | String | اسم الكيان. |
+| نوع | SkeletonType | نوع Skeleton |
 
 ### انظر أيضًا
 

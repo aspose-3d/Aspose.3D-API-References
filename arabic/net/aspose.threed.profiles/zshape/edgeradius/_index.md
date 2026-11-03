@@ -1,14 +1,14 @@
 ---
 title: "ZShape.EdgeRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ZShape. يسترجع أو يعيّن نصف قطر حافة الحافة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ZShape. تحصل أو تضبط نصف قطر حافة الحافة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.profiles/zshape/edgeradius/
 ---
 ## ZShape.EdgeRadius property
 
-يحصل أو يضبط نصف قطر حافة الشفة.
+تحصل أو تضبط نصف قطر حافة الحافة.
 
 ```csharp
 public double EdgeRadius { get; set; }

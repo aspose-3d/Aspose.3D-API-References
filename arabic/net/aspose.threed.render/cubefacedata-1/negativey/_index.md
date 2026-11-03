@@ -1,14 +1,14 @@
 ---
 title: "CubeFaceData1.NegativeY"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية CubeFaceData. تحصل أو تعيّن البيانات للوجه YBottom"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية CubeFaceData. يحصل أو يضبط البيانات للوجه YBottom"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.render/cubefacedata-1/negativey/
 ---
 ## CubeFaceData&lt;T&gt;.NegativeY property
 
-يحصل أو يعيّن البيانات للوجه -Y (القاع)
+يحصل أو يضبط البيانات للوجه -Y(Bottom)
 
 ```csharp
 public T NegativeY { get; set; }

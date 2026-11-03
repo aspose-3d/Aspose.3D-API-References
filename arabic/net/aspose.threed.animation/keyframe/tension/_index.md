@@ -1,6 +1,6 @@
 ---
 title: "KeyFrame.Tension"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية KeyFrame. يحصل أو يضبط الشد المستخدم في منحنى TCB"
 type: docs
 weight: 130
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/keyframe/tension/
 ---
 ## KeyFrame.Tension property
 
-يحصل أو يضبط التوتر المستخدم في منحنى TCB.
+يحصل أو يضبط الشد المستخدم في منحنى TCB
 
 ```csharp
 public float Tension { get; set; }

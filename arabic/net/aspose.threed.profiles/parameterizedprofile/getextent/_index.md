@@ -1,14 +1,14 @@
 ---
 title: "ParameterizedProfile.GetExtent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ParameterizedProfile. يحصل على الامتداد في بعدي x و y"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ParameterizedProfile. تحصل على الامتداد في بعدي x و y"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.profiles/parameterizedprofile/getextent/
 ---
 ## ParameterizedProfile.GetExtent method
 
-يحصل على الامتداد في بعدي x و y.
+تحصل على الامتداد في بعدي x و y.
 
 ```csharp
 public abstract Vector2 GetExtent()
@@ -16,7 +16,7 @@ public abstract Vector2 GetExtent()
 
 ### قيمة الإرجاع
 
-امتداد الملف الشخصي
+امتداد الملف التعريفي
 
 ### انظر أيضًا
 

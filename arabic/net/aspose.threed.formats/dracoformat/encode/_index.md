@@ -1,14 +1,14 @@
 ---
 title: "DracoFormat.Encode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة DracoFormat. تشفير الكيان إلى الدفق المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة DracoFormat. ترميز الكيان إلى الدفق المحدد"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/dracoformat/encode/
 ---
 ## Encode(Entity, Stream, DracoSaveOptions) {#encode_1}
 
-ترميز الكيان إلى التدفق المحدد
+ترميز الكيان إلى الدفق المحدد
 
 ```csharp
 public void Encode(Entity entity, Stream stream, DracoSaveOptions options = null)
@@ -16,15 +16,15 @@ public void Encode(Entity entity, Stream stream, DracoSaveOptions options = null
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان المراد ترميزه |
-| stream | Stream | الدفق الذي سيُكتب إليه البيانات المشفرة |
-| خيارات | DracoSaveOptions | خيارات إضافية لترميز سحابة النقاط |
+| الكيان | الكيان | الكيان المراد ترميزه |
+| تدفق | تدفق | الدفق الذي ستُكتب إليه البيانات المشفرة |
+| الخيارات | DracoSaveOptions | خيارات إضافية لترميز سحابة النقاط |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يُرمى عند الفشل في القراءة من الدفق |
+| IOException | يُرمى عندما يفشل القراءة من الدفق |
 
 ## أمثلة
 
@@ -32,9 +32,9 @@ public void Encode(Entity entity, Stream stream, DracoSaveOptions options = null
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//ترميز الشبكة إلى تنسيق Draco
+//ترميز mesh إلى صيغة Draco
 byte[] draco = FileFormat.Draco.Encode(mesh);
-//فك ترميز الشبكة من تنسيق Draco
+//فك ترميز mesh من صيغة Draco
 Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
 ```
 
@@ -58,15 +58,15 @@ public void Encode(Entity entity, string fileName, DracoSaveOptions options = nu
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان المراد ترميزه |
-| fileName | سلسلة | اسم الملف الذي سيُكتب |
-| خيارات | DracoSaveOptions | خيارات إضافية لترميز سحابة النقاط |
+| الكيان | الكيان | الكيان المراد ترميزه |
+| fileName | String | اسم الملف المراد كتابته |
+| الخيارات | DracoSaveOptions | خيارات إضافية لترميز سحابة النقاط |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يُطرح عندما يفشل القراءة من الملف |
+| IOException | يُرمى عندما يفشل القراءة من الملف |
 
 ## أمثلة
 
@@ -74,9 +74,9 @@ public void Encode(Entity entity, string fileName, DracoSaveOptions options = nu
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//ترميز الشبكة إلى تنسيق Draco
+//ترميز mesh إلى صيغة Draco
 byte[] draco = FileFormat.Draco.Encode(mesh);
-//فك ترميز الشبكة من تنسيق Draco
+//فك ترميز mesh من صيغة Draco
 Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
 ```
 
@@ -92,7 +92,7 @@ Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
 
 ## Encode(Entity, DracoSaveOptions) {#encode}
 
-ترميز الكيان إلى بيانات Draco الخام
+ترميز الكيان إلى بيانات دراكو الخام
 
 ```csharp
 public byte[] Encode(Entity entity, DracoSaveOptions options = null)
@@ -100,12 +100,12 @@ public byte[] Encode(Entity entity, DracoSaveOptions options = null)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان المراد ترميزه |
-| خيارات | DracoSaveOptions | خيارات إضافية لترميز سحابة النقاط |
+| الكيان | الكيان | الكيان المراد ترميزه |
+| الخيارات | DracoSaveOptions | خيارات إضافية لترميز سحابة النقاط |
 
 ### قيمة الإرجاع
 
-بيانات الدراكو المشفرة ممثلة بالبايتات
+بيانات دراكو المشفرة ممثلة بالبايتات
 
 ## أمثلة
 
@@ -113,9 +113,9 @@ public byte[] Encode(Entity entity, DracoSaveOptions options = null)
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//ترميز الشبكة إلى تنسيق Draco
+//ترميز mesh إلى صيغة Draco
 byte[] draco = FileFormat.Draco.Encode(mesh);
-//فك ترميز الشبكة من تنسيق Draco
+//فك ترميز mesh من صيغة Draco
 Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
 ```
 

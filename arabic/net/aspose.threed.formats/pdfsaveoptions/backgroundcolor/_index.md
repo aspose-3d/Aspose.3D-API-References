@@ -1,14 +1,14 @@
 ---
 title: "PdfSaveOptions.BackgroundColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PdfSaveOptions. لون الخلفية للعرض ثلاثي الأبعاد في ملف PDF"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PdfSaveOptions. لون الخلفية لعرض ثلاثي الأبعاد في ملف PDF"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/pdfsaveoptions/backgroundcolor/
 ---
 ## PdfSaveOptions.BackgroundColor property
 
-لون الخلفية للعرض ثلاثي الأبعاد في ملف PDF.
+لون الخلفية لعرض ثلاثي الأبعاد في ملف PDF.
 
 ```csharp
 public Vector3 BackgroundColor { get; set; }

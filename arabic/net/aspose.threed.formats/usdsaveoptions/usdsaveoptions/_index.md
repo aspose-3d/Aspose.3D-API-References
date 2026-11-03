@@ -1,14 +1,14 @@
 ---
 title: "UsdSaveOptions.UsdSaveOptions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ UsdSaveOptions. تهيئة UsdSaveOptions جديد بصيغة USD"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ UsdSaveOptions. تهيئة UsdSaveOptions جديد بتنسيق USD"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats/usdsaveoptions/usdsaveoptions/
 ---
 ## UsdSaveOptions() {#constructor}
 
-تهيئة [`UsdSaveOptions`](../) جديد مع تنسيق [`USD`](../../../aspose.threed/fileformat/usd/)
+تهيئة جديد [`UsdSaveOptions`](../) باستخدام تنسيق [`USD`](../../../aspose.threed/fileformat/usd/)
 
 ```csharp
 public UsdSaveOptions()
@@ -24,7 +24,7 @@ public UsdSaveOptions()
 
 ## UsdSaveOptions(FileFormat) {#constructor_1}
 
-تهيئة [`UsdSaveOptions`](../) جديد مع تنسيق USD/USDZ المحدد.
+تهيئة جديد [`UsdSaveOptions`](../) باستخدام تنسيق USD/USDZ المحدد.
 
 ```csharp
 public UsdSaveOptions(FileFormat fileFormat)

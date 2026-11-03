@@ -1,6 +1,6 @@
 ---
 title: "Quaternion.Quaternion"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Quaternion. يهيئ نسخة جديدة من فئة Quaternion"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/quaternion/quaternion/
 ---
 ## Quaternion constructor
 
-يُنشئ مثيلاً جديدًا من الفئة [`Quaternion`](../).
+يهيئ نسخة جديدة من الفئة [`Quaternion`](../).
 
 ```csharp
 public Quaternion(double w, double x, double y, double z)
@@ -16,10 +16,10 @@ public Quaternion(double w, double x, double y, double z)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| w | Double | المكوّن w للـ quaternion |
-| x | Double | المكوّن x للـ quaternion |
-| y | Double | المكوّن y للـ quaternion |
-| z | Double | المكوّن z للـ quaternion |
+| w | مضاعف | المكوّن w للكواتيرنيون |
+| x | مضاعف | المكوّن x للـ quaternion |
+| y | مضاعف | المكوّن y للـ quaternion |
+| z | مضاعف | المكوّن z للـ quaternion |
 
 ### انظر أيضًا
 

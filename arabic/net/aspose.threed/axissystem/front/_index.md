@@ -1,14 +1,14 @@
 ---
 title: "AxisSystem.Front"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AxisSystem. يحصل على المتجه الأمامي لهذا نظام المحاور"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AxisSystem. يسترجع المتجه الأمامي لهذا نظام المحاور"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/axissystem/front/
 ---
 ## AxisSystem.Front property
 
-يحصل على متجه الأمام لهذا نظام المحاور
+يسترجع المتجه الأمامي لهذا نظام المحاور
 
 ```csharp
 public Axis Front { get; }

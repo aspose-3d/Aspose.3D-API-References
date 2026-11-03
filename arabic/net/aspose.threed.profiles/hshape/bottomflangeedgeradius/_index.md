@@ -1,14 +1,14 @@
 ---
 title: "HShape.BottomFlangeEdgeRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HShape. تحصل أو تعيين نصف قطر الحواف العليا للشفة السفلية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HShape. يحصل أو يضبط نصف قطر الحواف العليا للفلانج السفلي"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/hshape/bottomflangeedgeradius/
 ---
 ## HShape.BottomFlangeEdgeRadius property
 
-الحصول أو تعيين نصف قطر الحواف العليا للشفرة السفلية.
+يحصل أو يضبط نصف قطر الحواف العليا للفلانج السفلي.
 
 ```csharp
 public double BottomFlangeEdgeRadius { get; set; }

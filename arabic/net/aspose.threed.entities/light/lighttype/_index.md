@@ -1,7 +1,7 @@
 ---
 title: "Light.LightType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Light. تحصل أو تعيين نوع الضوء"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Light. يحصل أو يضبط نوع الضوء"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.entities/light/lighttype/

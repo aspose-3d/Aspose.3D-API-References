@@ -1,14 +1,14 @@
 ---
 title: "Frustum.Up"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Frustum. تحصل أو تعين اتجاه الأعلى للكاميرا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Frustum. تحصل أو تعين الاتجاه العلوي للكاميرا"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.entities/frustum/up/
 ---
 ## Frustum.Up property
 
-يحصل أو يضبط اتجاه الأعلى للكاميرا
+تحصل أو تعين الاتجاه العلوي للكاميرا
 
 ```csharp
 public Vector3 Up { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "RevolvedAreaSolid.ToMesh"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RevolvedAreaSolid. تحويل RevolvedAreaSolid إلى شبكة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RevolvedAreaSolid. تحويل RevolvedAreaSolid إلى مجسم"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.entities/revolvedareasolid/tomesh/
 ---
 ## RevolvedAreaSolid.ToMesh method
 
-تحويل [`RevolvedAreaSolid`](../) إلى شبكة.
+تحويل [`RevolvedAreaSolid`](../) إلى مجسم.
 
 ```csharp
 public Mesh ToMesh()

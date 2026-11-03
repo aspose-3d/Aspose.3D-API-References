@@ -1,7 +1,7 @@
 ---
 title: "GlobalTransform.TransformMatrix"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GlobalTransform. تحصل على مصفوفة التحويل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "GlobalTransform خاصية. يحصل على مصفوفة التحويل"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/globaltransform/transformmatrix/

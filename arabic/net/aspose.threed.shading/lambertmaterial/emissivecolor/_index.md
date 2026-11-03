@@ -1,14 +1,14 @@
 ---
 title: "LambertMaterial.EmissiveColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية LambertMaterial. يحصل أو يضبط اللون الانبعاثي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية LambertMaterial. يسترجع أو يعيّن اللون الانبعاثي"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.shading/lambertmaterial/emissivecolor/
 ---
 ## LambertMaterial.EmissiveColor property
 
-يحصل أو يضبط اللون المنبعث
+يسترجع أو يعيّن اللون الانبعاثي
 
 ```csharp
 public Vector3 EmissiveColor { get; set; }

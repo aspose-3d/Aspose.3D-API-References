@@ -1,6 +1,6 @@
 ---
 title: "RenderState.ScissorTest"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RenderState. تمكين أو تعطيل اختبار القص"
 type: docs
 weight: 120
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/renderstate/scissortest/
 ---
 ## RenderState.ScissorTest property
 
-تمكين أو تعطيل اختبار المقص
+تمكين أو تعطيل اختبار القص
 
 ```csharp
 public bool ScissorTest { get; set; }

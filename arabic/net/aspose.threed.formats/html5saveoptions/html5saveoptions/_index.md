@@ -1,6 +1,6 @@
 ---
 title: "Html5SaveOptions.Html5SaveOptions"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Html5SaveOptions. منشئ Html5SaveOptions مع جميع الإعدادات الافتراضية"
 type: docs
 weight: 10

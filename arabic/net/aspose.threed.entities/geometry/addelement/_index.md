@@ -1,7 +1,7 @@
 ---
 title: "Geometry.AddElement"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Geometry. يضيف عنصر رأس موجود إلى الشكل الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Geometry. يضيف عنصر رأس موجود إلى الهندسة الحالية"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/geometry/addelement/
@@ -16,7 +16,7 @@ public void AddElement(VertexElement element)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عنصر | VertexElement | عنصر الرأس المراد إضافته |
+| عنصر | VertexElement | عنصر الرأس للإضافة |
 
 ### انظر أيضًا
 

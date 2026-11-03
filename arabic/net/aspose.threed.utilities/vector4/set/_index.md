@@ -1,14 +1,14 @@
 ---
 title: "Vector4.Set"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector4. تُعيّن مكوّنات المتجه xyz مرة واحدة وسيتم تعيين w إلى 1"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector4. تعيين مكوّنات المتجه xyz مرة واحدة، سيتم تعيين w إلى 1"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.utilities/vector4/set/
 ---
 ## Set(double, double, double) {#set}
 
-يضبط مكونات xyz للمتجه مرة واحدة، وسيتم ضبط w إلى 1
+تعيين مكوّنات المتجه xyz في آن واحد، سيتم تعيين w إلى 1
 
 ```csharp
 public void Set(double newX, double newY, double newZ)
@@ -16,9 +16,9 @@ public void Set(double newX, double newY, double newZ)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| newX | Double | مكوّن X الجديد. |
-| newY | Double | مكوّن Y الجديد. |
-| newZ | Double | مكوّن Z الجديد. |
+| newX | مضاعف | المكوّن X الجديد. |
+| newY | مضاعف | المكوّن Y الجديد. |
+| newZ | مضاعف | مكوّن Z الجديد. |
 
 ### انظر أيضًا
 
@@ -30,7 +30,7 @@ public void Set(double newX, double newY, double newZ)
 
 ## Set(double, double, double, double) {#set_1}
 
-يضبط جميع مكونات المتجه مرة واحدة
+يضبط جميع مكوّنات المتجه في وقت واحد
 
 ```csharp
 public void Set(double newX, double newY, double newZ, double newW)
@@ -38,10 +38,10 @@ public void Set(double newX, double newY, double newZ, double newW)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| newX | Double | مكوّن X الجديد. |
-| newY | Double | مكوّن Y الجديد. |
-| newZ | Double | مكوّن Z الجديد. |
-| newW | Double | المكوّن W الجديد. |
+| newX | مضاعف | المكوّن X الجديد. |
+| newY | مضاعف | المكوّن Y الجديد. |
+| newZ | مضاعف | مكوّن Z الجديد. |
+| newW | مضاعف | مكوّن W الجديد. |
 
 ### انظر أيضًا
 

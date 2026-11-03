@@ -1,14 +1,14 @@
 ---
 title: "RevolvedAreaSolid.Shape"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RevolvedAreaSolid. يحصل أو يضبط ملف التعريف الأساسي المستخدم للدوران"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RevolvedAreaSolid. تسترجع أو تعين الملف الأساسي المستخدم للدوران"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/revolvedareasolid/shape/
 ---
 ## RevolvedAreaSolid.Shape property
 
-يحصل أو يعيّن ملف التعريف الأساسي المستخدم للدوران.
+تسترجع أو تعين الملف الأساسي المستخدم للدوران.
 
 ```csharp
 public Profile Shape { get; set; }

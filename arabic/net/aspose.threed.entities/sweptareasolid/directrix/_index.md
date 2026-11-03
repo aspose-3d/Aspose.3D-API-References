@@ -1,14 +1,14 @@
 ---
 title: "SweptAreaSolid.Directrix"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية SweptAreaSolid. الخط المستقيم الذي تُسحب المساحة الممسوحة على طوله."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية SweptAreaSolid. الخط المستقيم الذي تُسحب المنطقة المتحركة على طولها"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/sweptareasolid/directrix/
 ---
 ## SweptAreaSolid.Directrix property
 
-الdirectrix الذي يتم مسح المنطقة المتحركة على طولها.
+الخط المستقيم الذي تُسحب المنطقة المتحركة على طولها.
 
 ```csharp
 public Curve Directrix { get; set; }

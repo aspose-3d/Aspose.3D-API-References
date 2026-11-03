@@ -1,14 +1,14 @@
 ---
 title: "BonePose.Matrix"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BonePose. تحصل أو تعين مصفوفة التحويل للعقدة في الوضع الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "BonePose خاصية. يحصل أو يضبط مصفوفة التحويل للعقدة في الوضع الحالي"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/bonepose/matrix/
 ---
 ## BonePose.Matrix property
 
-يحصل أو يعيّن مصفوفة التحويل للعقدة في الوضع الحالي.
+يحصل أو يضبط مصفوفة التحويل للعقدة في الوضع الحالي.
 
 ```csharp
 public Matrix4 Matrix { get; set; }

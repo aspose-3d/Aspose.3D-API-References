@@ -1,14 +1,14 @@
 ---
 title: "Box.LengthSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Box. تحصل أو تعيين مقاطع الطول"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Box. تحصل أو تعيّن مقاطع الطول"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/box/lengthsegments/
 ---
 ## Box.LengthSegments property
 
-الحصول على أو تعيين مقاطع الطول.
+يحصل أو يضبط مقاطع الطول.
 
 ```csharp
 public int LengthSegments { get; set; }

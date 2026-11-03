@@ -1,14 +1,14 @@
 ---
-title: "المندوب MaterialConverter"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "محول مخصص لتحويل المادة الأصلية للجيومتري إلى مادة PBR الخاصة بـ GLTFs"
+title: "مفوض MaterialConverter"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "محول مخصص لتحويل المادة الأصلية للجيومتري إلى مادة GLTFs PBR"
 type: docs
 weight: 1330
 url: /ar/net/aspose.threed.formats/materialconverter/
 ---
 ## MaterialConverter delegate
 
-محول مخصص لتحويل مادة الشكل الأصلية إلى مادة PBR الخاصة بـ GLTF.
+محول مخصص لتحويل المادة الأصلية للجيومتري إلى مادة PBR الخاصة بـ GLTF.
 
 ```csharp
 public delegate Material MaterialConverter(Material mat);
@@ -16,11 +16,11 @@ public delegate Material MaterialConverter(Material mat);
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| mat | المادة | مثيل المادة القديمة |
+| mat | المادة | مثيل المادة القديم |
 
 ### قيمة الإرجاع
 
-مثيل المادة الجديدة
+مثيل مادة جديد
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "PointCloud.GetEntityRendererKey"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة PointCloud. تحصل على المفتاح الخاص بعارض الكيان المسجل في العارض"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/pointcloud/getentityrendererkey/
 ---
 ## PointCloud.GetEntityRendererKey method
 
-يحصل على مفتاح عارض الكيان المسجل في العارض
+يحصل على مفتاح عارض الكيان المسجل في العارض.
 
 ```csharp
 public override EntityRendererKey GetEntityRendererKey()

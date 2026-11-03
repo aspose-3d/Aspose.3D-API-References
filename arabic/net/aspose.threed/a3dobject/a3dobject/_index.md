@@ -1,14 +1,14 @@
 ---
 title: "A3DObject.A3DObject"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ A3DObject. يهيئ مثيلاً جديداً من فئة A3DObject"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ A3DObject. يقوم بتهيئة نسخة جديدة من فئة A3DObject"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/a3dobject/a3dobject/
 ---
 ## A3DObject(string) {#constructor_1}
 
-تهيئة مثيل جديد من الفئة [`A3DObject`](../).
+يقوم بإنشاء نسخة جديدة من الفئة [`A3DObject`](../).
 
 ```csharp
 public A3DObject(string name)
@@ -16,7 +16,7 @@ public A3DObject(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public A3DObject(string name)
 
 ## A3DObject() {#constructor}
 
-تهيئة مثيل جديد من الفئة [`A3DObject`](../) بدون اسم.
+يقوم بإنشاء نسخة جديدة من الفئة [`A3DObject`](../) بدون اسم.
 
 ```csharp
 public A3DObject()

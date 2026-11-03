@@ -1,7 +1,7 @@
 ---
 title: "Group.Nodes"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Group. العقد في هذه المجموعة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية المجموعة. العقد في هذه المجموعة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/group/nodes/

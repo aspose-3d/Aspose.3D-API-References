@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.Matrix4"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Matrix4 مُنشئ. يبني مصفوفة من 4 صفوف"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Matrix4. يبني مصفوفة من 4 صفوف"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/matrix4/matrix4/
 ---
 ## Matrix4(Vector4, Vector4, Vector4, Vector4) {#constructor_1}
 
-يبني المصفوفة من 4 صفوف.
+يبني مصفوفة من 4 صفوف.
 
 ```csharp
 public Matrix4(Vector4 r0, Vector4 r1, Vector4 r2, Vector4 r3)
@@ -32,7 +32,7 @@ public Matrix4(Vector4 r0, Vector4 r1, Vector4 r2, Vector4 r3)
 
 ## Matrix4(double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double) {#constructor_2}
 
-ينشئ نسخة جديدة من [`Matrix4`](../) بنية.
+يُنشئ نسخة جديدة من البنية [`Matrix4`](../).
 
 ```csharp
 public Matrix4(double m00, double m01, double m02, double m03, double m10, double m11, double m12, 
@@ -42,22 +42,22 @@ public Matrix4(double m00, double m01, double m02, double m03, double m10, doubl
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| m00 | Double | M00. |
-| m01 | Double | M01. |
-| m02 | Double | M02. |
-| m03 | Double | M03. |
-| m10 | Double | M10. |
-| m11 | Double | M11. |
-| m12 | Double | M12. |
-| m13 | Double | M13. |
-| m20 | Double | M20. |
-| m21 | Double | M21. |
-| m22 | Double | M22. |
-| m23 | Double | M23. |
-| m30 | Double | M30. |
-| m31 | Double | M31. |
-| m32 | Double | M32. |
-| m33 | Double | M33. |
+| m00 | مضاعف | M00. |
+| m01 | مضاعف | M01. |
+| m02 | مضاعف | M02. |
+| m03 | مضاعف | M03. |
+| m10 | مضاعف | M10. |
+| m11 | مضاعف | M11. |
+| m12 | مضاعف | M12. |
+| m13 | مضاعف | M13. |
+| m20 | مضاعف | M20. |
+| m21 | مضاعف | M21. |
+| m22 | مضاعف | M22. |
+| m23 | مضاعف | M23. |
+| m30 | مضاعف | M30. |
+| m31 | مضاعف | M31. |
+| m32 | مضاعف | M32. |
+| m33 | مضاعف | M33. |
 
 ## أمثلة
 
@@ -81,7 +81,7 @@ var transformed = mat * pos;
 
 ## Matrix4(FMatrix4) {#constructor}
 
-إنشاء [`Matrix4`](../) من مثال [`FMatrix4`](../../fmatrix4/)
+إنشاء [`Matrix4`](../) من كائن [`FMatrix4`](../../fmatrix4/)
 
 ```csharp
 public Matrix4(FMatrix4 m)
@@ -102,7 +102,7 @@ public Matrix4(FMatrix4 m)
 
 ## Matrix4(double[]) {#constructor_3}
 
-ينشئ نسخة جديدة من [`Matrix4`](../) بنية.
+يُنشئ نسخة جديدة من البنية [`Matrix4`](../).
 
 ```csharp
 public Matrix4(double[] m)

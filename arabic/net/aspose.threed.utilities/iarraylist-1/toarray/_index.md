@@ -1,6 +1,6 @@
 ---
 title: "IArrayList1.ToArray"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة IArrayList. تحول جميع العناصر في القائمة إلى مصفوفة"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/iarraylist-1/toarray/
 ---
 ## IArrayList&lt;T&gt;.ToArray method
 
-يحول جميع العناصر في القائمة إلى مصفوفة
+يحوّل جميع العناصر في القائمة إلى مصفوفة
 
 ```csharp
 public T[] ToArray()

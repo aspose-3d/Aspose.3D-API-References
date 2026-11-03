@@ -1,7 +1,7 @@
 ---
 title: "FVector2.GetHashCode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FVector2. تحصّل على رمز التجزئة لهذه النسخة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector2. يحصل على رمز التجزئة لهذه النسخة"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.utilities/fvector2/gethashcode/

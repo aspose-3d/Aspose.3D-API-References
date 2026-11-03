@@ -1,14 +1,14 @@
 ---
 title: "Renderer.Shader"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Renderer. تحصل أو تعين نسخة الـ shader المستخدمة في رسم الهندسة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Renderer. الحصول على أو تعيين نسخة shader المستخدمة في رسم الهندسة"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.render/renderer/shader/
 ---
 ## Renderer.Shader property
 
-يحصل أو يضبط مثيل المُظلِّل المستخدم لتصوير الهندسة.
+الحصول على أو تعيين نسخة shader المستخدمة في رسم الهندسة.
 
 ```csharp
 public ShaderProgram Shader { get; set; }

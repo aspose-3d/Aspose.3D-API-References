@@ -1,14 +1,14 @@
 ---
 title: "Vector3.Cos"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector3. يحسب جيب التمام لكل مكوّن"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector3. تحسب جيب التمام لكل مكوّن"
 type: docs
 weight: 150
 url: /ar/net/aspose.threed.utilities/vector3/cos/
 ---
 ## Vector3.Cos method
 
-يحسب جيب التمام لكل مكوّن
+تحسب جيب التمام لكل مكوّن
 
 ```csharp
 public Vector3 Cos()
@@ -16,7 +16,7 @@ public Vector3 Cos()
 
 ### قيمة الإرجاع
 
-تم حساب [`Vector3`](../).
+تم حساب الـ [`Vector3`](../).
 
 ### انظر أيضًا
 

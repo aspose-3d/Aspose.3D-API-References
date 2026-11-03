@@ -1,14 +1,14 @@
 ---
 title: "RendererVariableManager.MatrixWorldNormal"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RendererVariableManager. مصفوفة لتحويل المتجه العادي من الفضاء الكائني إلى الفضاء العالمي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RendererVariableManager. مصفوفة لتحويل المتجه العادي من الكائن إلى الفضاء العالمي"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.render/renderervariablemanager/matrixworldnormal/
 ---
 ## RendererVariableManager.MatrixWorldNormal property
 
-مصفوفة لتحويل المتجه العمودي من الكائن إلى مساحة العالم.
+مصفوفة لتحويل المتجه العادي من الكائن إلى الفضاء العالمي.
 
 ```csharp
 public FMatrix4 MatrixWorldNormal { get; }

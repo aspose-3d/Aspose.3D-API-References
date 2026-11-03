@@ -1,14 +1,14 @@
 ---
 title: "Renderer.RenderStage"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Renderer. تحصل على مرحلة الرندر الحالية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Renderer. الحصول على مرحلة العرض الحالية"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.render/renderer/renderstage/
 ---
 ## Renderer.RenderStage property
 
-يحصل على مرحلة العرض الحالية.
+الحصول على مرحلة العرض الحالية.
 
 ```csharp
 public RenderStage RenderStage { get; }

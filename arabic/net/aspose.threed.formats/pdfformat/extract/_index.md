@@ -1,6 +1,6 @@
 ---
 title: "PdfFormat.Extract"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة PdfFormat. استخراج المحتوى ثلاثي الأبعاد الخام من ملف PDF"
 type: docs
 weight: 10
@@ -16,8 +16,8 @@ public List<byte[]> Extract(string fileName, byte[] password = null)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم ملف PDF الإدخال |
-| password | Byte[] | كلمة مرور ملف PDF |
+| fileName | String | اسم ملف PDF الإدخال |
+| كلمة مرور | Byte[] | كلمة مرور ملف PDF |
 
 ### قيمة الإرجاع
 
@@ -53,8 +53,8 @@ public List<byte[]> Extract(Stream stream, byte[] password = null)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق ملف PDF الإدخال |
-| password | Byte[] | كلمة مرور ملف PDF |
+| تدفق | تدفق | تدفق ملف PDF الإدخال |
+| كلمة مرور | Byte[] | كلمة مرور ملف PDF |
 
 ### قيمة الإرجاع
 

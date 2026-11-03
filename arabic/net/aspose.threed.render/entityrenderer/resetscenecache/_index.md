@@ -1,14 +1,14 @@
 ---
 title: "EntityRenderer.ResetSceneCache"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة EntityRenderer. المشهد قد تغير أو أُزيل، لذا يلزم التخلص من موارد العرض على مستوى المشهد في هذا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة EntityRenderer. المشهد تغير أو أزيل، تحتاج إلى التخلص من موارد العرض على مستوى المشهد في هذا"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.render/entityrenderer/resetscenecache/
 ---
 ## EntityRenderer.ResetSceneCache method
 
-المشهد تغير أو أزيل، يلزم التخلص من موارد العرض على مستوى المشهد في هذا.
+المشهد تغير أو أزيل، تحتاج إلى التخلص من موارد العرض على مستوى المشهد في هذا
 
 ```csharp
 public virtual void ResetSceneCache()

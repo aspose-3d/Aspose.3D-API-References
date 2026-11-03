@@ -1,6 +1,6 @@
 ---
 title: "ITextureCubemap.Load"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة ITextureCubemap."
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ public void Load(CubeFace face, TextureData data)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الوجه | CubeFace |  |
+| وجه | CubeFace |  |
 | بيانات | TextureData |  |
 
 ### انظر أيضًا

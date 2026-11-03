@@ -1,6 +1,6 @@
 ---
 title: "LambertMaterial.TransparentColor"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية LambertMaterial. يحصل أو يضبط اللون الشفاف"
 type: docs
 weight: 60

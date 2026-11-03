@@ -1,14 +1,14 @@
 ---
 title: "UShape.FilletRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية UShape. تحصل أو تعين نصف قطر الانحناء بين الحافة والويب"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية UShape. تحصل أو تعين نصف قطر الحافة المدورة بين الحافة والويب"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.profiles/ushape/filletradius/
 ---
 ## UShape.FilletRadius property
 
-يحصل أو يضبط نصف قطر القطع الدائري بين الشفة والويب.
+تحصل أو تضبط نصف قطر القطع بين الحافة والويب.
 
 ```csharp
 public double FilletRadius { get; set; }

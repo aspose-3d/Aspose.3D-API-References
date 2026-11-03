@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType.Rvm"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل FileFormatType. نموذج نظام إدارة تصميم مصنع AVEVA"
 type: docs
 weight: 180

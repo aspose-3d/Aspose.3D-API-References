@@ -1,14 +1,14 @@
 ---
 title: "TransformBuilder.ComposeOrder"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TransformBuilder. الحصول على أو تعيين ترتيب تركيب السلسلة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TransformBuilder. يحصل على أو يضبط ترتيب تركيب السلسلة"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/transformbuilder/composeorder/
 ---
 ## TransformBuilder.ComposeOrder property
 
-الحصول أو تعيين ترتيب تجميع السلسلة.
+يحصل على أو يضبط ترتيب تركيب السلسلة.
 
 ```csharp
 public ComposeOrder ComposeOrder { get; set; }

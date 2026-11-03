@@ -1,14 +1,14 @@
 ---
 title: "PushConstant.Commit"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PushConstant. إيداع البيانات المُحضرة إلى خط أنابيب الرسومات"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PushConstant. إلتزام البيانات المُحضرة إلى خط أنابيب الرسومات"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/pushconstant/commit/
 ---
 ## PushConstant.Commit method
 
-تأكيد البيانات المُحضرة إلى خط أنابيب الرسومات.
+إلتزام البيانات المُحضرة إلى خط أنابيب الرسومات.
 
 ```csharp
 public PushConstant Commit(ShaderStage stage, ICommandList commandList)
@@ -16,8 +16,8 @@ public PushConstant Commit(ShaderStage stage, ICommandList commandList)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stage | ShaderStage |  |
-| قائمة الأوامر | ICommandList |  |
+| المرحلة | ShaderStage |  |
+| commandList | ICommandList |  |
 
 ### انظر أيضًا
 

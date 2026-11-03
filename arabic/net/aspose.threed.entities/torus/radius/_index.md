@@ -1,14 +1,14 @@
 ---
 title: "Torus.Radius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Torus. الحصول على نصف القطر أو تعيينه"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Torus. يحصل أو يضبط نصف قطر الـ torus"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/torus/radius/
 ---
 ## Torus.Radius property
 
-يحصل أو يضبط نصف قطر torus.
+يحصل أو يضبط نصف قطر الـ torus.
 
 ```csharp
 public double Radius { get; set; }

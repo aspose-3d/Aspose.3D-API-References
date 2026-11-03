@@ -1,7 +1,7 @@
 ---
 title: "LinearExtrusion.TwistOffset"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية LinearExtrusion. الإزاحة المستخدمة في الالتواء القيمة الافتراضية هي 0 0 0"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية LinearExtrusion. الإزاحة المستخدمة في الالتواء، القيمة الافتراضية هي 0 0 0"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/linearextrusion/twistoffset/

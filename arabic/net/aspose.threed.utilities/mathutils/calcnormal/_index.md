@@ -1,7 +1,7 @@
 ---
 title: "MathUtils.CalcNormal"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "MathUtils طريقة."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة MathUtils."
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/mathutils/calcnormal/

@@ -1,14 +1,14 @@
 ---
 title: "FVector3.One"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية FVector3. متجه مقياس الوحدة حيث جميع المكوّنات تساوي 1"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية FVector3. المتجه الوحدوي مع جميع المكونات تساوي 1"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/fvector3/one/
 ---
 ## FVector3.One property
 
-متجه مقياس الوحدة حيث جميع المكونات تساوي 1
+المتجه الوحدوي مع جميع المكونات تساوي 1
 
 ```csharp
 public static FVector3 One { get; }

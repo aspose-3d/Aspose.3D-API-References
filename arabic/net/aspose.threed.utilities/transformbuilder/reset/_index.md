@@ -1,14 +1,14 @@
 ---
 title: "TransformBuilder.Reset"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TransformBuilder. أعد تعيين التحويل إلى مصفوفة الهوية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TransformBuilder. Reset التحويل إلى مصفوفة الهوية"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.utilities/transformbuilder/reset/
 ---
 ## TransformBuilder.Reset method
 
-إعادة تعيين التحويل إلى مصفوفة الهوية
+Reset التحويل إلى مصفوفة الهوية
 
 ```csharp
 public void Reset()

@@ -1,7 +1,7 @@
 ---
 title: "U3dSaveOptions.MeshCompression"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "U3dSaveOptions property. يحصل أو يضبط ما إذا كان سيتم تمكين ضغط بيانات الشبكة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية U3dSaveOptions. يحصل أو يضبط ما إذا كان سيتم تمكين ضغط بيانات الشبكة"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.formats/u3dsaveoptions/meshcompression/

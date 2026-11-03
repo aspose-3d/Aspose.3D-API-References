@@ -1,6 +1,6 @@
 ---
 title: "RectangularTorus.AngleStart"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RectangularTorus. زاوية البداية للقوس مقاسة بالراديان. القيمة الافتراضية هي 0"
 type: docs
 weight: 20

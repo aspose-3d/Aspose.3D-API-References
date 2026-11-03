@@ -1,6 +1,6 @@
 ---
 title: "TriMesh.TriMesh"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ TriMesh. تهيئة نسخة من TriMesh"
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ public TriMesh(string name, VertexDeclaration declaration)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم هذا TriMesh |
+| الاسم | String | اسم هذا TriMesh |
 | الإعلان | VertexDeclaration | إعلان الـ vertex |
 
 ### انظر أيضًا

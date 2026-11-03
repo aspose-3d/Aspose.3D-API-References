@@ -1,6 +1,6 @@
 ---
 title: "WindowHandle.FromWayland"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة WindowHandle. إنشاء WindowHandle من سطح Wayland"
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public static WindowHandle FromWayland(IntPtr display, IntPtr surface)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | العرض | IntPtr | مثيل العرض لخادم Wayland |
-| السطح | IntPtr | مقبض السطح |
+| سطح | IntPtr | مقبض السطح |
 
 ### انظر أيضًا
 

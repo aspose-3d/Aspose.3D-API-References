@@ -1,6 +1,6 @@
 ---
 title: "A3DObject.FindProperty"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة A3DObject. تجد الخاصية. يمكن أن تكون خاصية ديناميكية تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty أو خاصية أصلية تم التعرف عليها باسمها"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/a3dobject/findproperty/
 ---
 ## A3DObject.FindProperty method
 
-يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها).
 
 ```csharp
 public Property FindProperty(string propertyName)
@@ -16,7 +16,7 @@ public Property FindProperty(string propertyName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| propertyName | سلسلة | اسم الخاصية. |
+| propertyName | String | اسم الخاصية. |
 
 ### قيمة الإرجاع
 

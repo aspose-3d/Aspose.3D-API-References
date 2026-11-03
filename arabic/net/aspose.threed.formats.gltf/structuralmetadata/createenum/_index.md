@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.CreateEnum"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة StructuralMetadata. إنشاء نوع تعداد"
 type: docs
 weight: 80
@@ -16,13 +16,13 @@ public EnumType CreateEnum(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم نوع التعداد |
+| الاسم | String | اسم نوع التعداد |
 
 ### قيمة الإرجاع
 
-مثال على نوع التعداد
+مثيل نوع التعداد
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

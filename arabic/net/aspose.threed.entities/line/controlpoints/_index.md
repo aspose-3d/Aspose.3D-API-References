@@ -1,7 +1,7 @@
 ---
 title: "Line.ControlPoints"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Line. تحصل على جميع نقاط التحكم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Line. يحصل على جميع نقاط التحكم"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/line/controlpoints/

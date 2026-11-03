@@ -1,6 +1,6 @@
 ---
 title: "FMatrix4.FMatrix4"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ FMatrix4. تهيئة نسخة من FMatrix4"
 type: docs
 weight: 10
@@ -18,10 +18,10 @@ public FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| m00 | Single | ال m[0, 0] |
-| m01 | Single | ال m[0, 1] |
-| m02 | Single | ال m[0, 2] |
-| m03 | Single | ال m[0, 3] |
+| m00 | Single | الـ m[0, 0] |
+| m01 | Single | الـ m[0, 1] |
+| m02 | Single | الـ m[0, 2] |
+| m03 | Single | الـ m[0, 3] |
 | m10 | Single | ال m[1, 0] |
 | m11 | Single | ال m[1, 1] |
 | m12 | Single | ال m[1, 2] |
@@ -45,7 +45,7 @@ public FMatrix4(float m00, float m01, float m02, float m03, float m10, float m11
 
 ## FMatrix4(Matrix4) {#constructor_1}
 
-تهيئة كائن من [`FMatrix4`](../) من كائن [`Matrix4`](../../matrix4/).
+تهيئة المثال من [`FMatrix4`](../) من مثال [`Matrix4`](../../matrix4/).
 
 ```csharp
 public FMatrix4(Matrix4 mat)
@@ -53,7 +53,7 @@ public FMatrix4(Matrix4 mat)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| mat | Matrix4 | الكائن [`Matrix4`](../../matrix4/). |
+| mat | Matrix4 | ال [`Matrix4`](../../matrix4/) مثال. |
 
 ### انظر أيضًا
 
@@ -66,7 +66,7 @@ public FMatrix4(Matrix4 mat)
 
 ## FMatrix4(FVector4, FVector4, FVector4, FVector4) {#constructor}
 
-يبني المصفوفة من 4 صفوف.
+يبني مصفوفة من 4 صفوف.
 
 ```csharp
 public FMatrix4(FVector4 r0, FVector4 r1, FVector4 r2, FVector4 r3)

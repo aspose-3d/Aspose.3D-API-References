@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.EnumValue.EnumValue"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ EnumValue."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "EnumValue منشئ."
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata.enumvalue/enumvalue/

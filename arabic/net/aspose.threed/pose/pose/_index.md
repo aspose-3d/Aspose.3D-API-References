@@ -1,14 +1,14 @@
 ---
 title: "Pose.Pose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Pose. يهيئ مثيلاً جديداً لفئة Pose"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Pose. يُنشئ مثيلًا جديدًا من فئة Pose"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/pose/pose/
 ---
 ## Pose(string) {#constructor_1}
 
-يهيئ مثيلاً جديداً للفئة [`Pose`](../).
+يُنشئ مثيلًا جديدًا من [`Pose`](../) الفئة.
 
 ```csharp
 public Pose(string name)
@@ -16,7 +16,7 @@ public Pose(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public Pose(string name)
 
 ## Pose() {#constructor}
 
-يهيئ مثيلاً جديداً للفئة [`Pose`](../).
+يُنشئ مثيلًا جديدًا من [`Pose`](../) الفئة.
 
 ```csharp
 public Pose()

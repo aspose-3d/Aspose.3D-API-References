@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.PropertyTable.From"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PropertyTable."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "PropertyTable طريقة."
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata.propertytable/from/

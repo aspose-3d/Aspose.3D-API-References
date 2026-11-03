@@ -1,14 +1,14 @@
 ---
 title: "ICommandList.BindPipeline"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ICommandList. ربط نسخة الخط الأنابيب للتصوير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ICommandList. ربط مثال خط الأنابيب للتصيير"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/icommandlist/bindpipeline/
 ---
 ## ICommandList.BindPipeline method
 
-ربط نسخة الخط الأنابيب للعرض
+ربط مثال خط الأنابيب للتصيير
 
 ```csharp
 public void BindPipeline(IPipeline pipeline)

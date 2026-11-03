@@ -1,6 +1,6 @@
 ---
 title: "TriMesh.FromRawData"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TriMesh. إنشاء TriMesh من بيانات خام"
 type: docs
 weight: 40
@@ -18,21 +18,21 @@ public static TriMesh FromRawData(VertexDeclaration vd, byte[] vertices, int[] i
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | vd | VertexDeclaration | إعلان الـ Vertex، يجب أن يحتوي على حقل واحد على الأقل. |
-| الرؤوس | Byte[] | بيانات الـ vertex المدخلة، الحد الأدنى لطول الـ vertices يجب أن يكون أكبر أو يساوي حجم إعلان الـ vertex |
-| المؤشرات | Int32[] | مؤشرات المثلثات |
-| generateVertexMapping | Boolean | إنشاء [`Vertex`](../../../aspose.threed.utilities/vertex/) لكل vertex، وهو غير ضروري للتسلسل/إلغاء التسلسل فقط. |
+| الرؤوس | Byte[] | بيانات الـ vertex المدخلة، الحد الأدنى لطول الرؤوس يجب أن يكون أكبر أو يساوي حجم إعلان الـ vertex |
+| indices | Int32[] | فهارس المثلثات |
+| generateVertexMapping | Boolean | إنشاء [`Vertex`](../../../aspose.threed.utilities/vertex/) لكل رأس، وهذا غير ضروري فقط للتسلسل/إلغاء التسلسل. |
 
 ### قيمة الإرجاع
 
-المثيل [`TriMesh`](../) الذي يضم مصفوفة الـ byte المدخلة.
+الـ [`TriMesh`](../) التي احتوت مصفوفة البايت المدخلة.
 
 ## ملاحظات
 
-الـ TriMesh المرتجع لن ينسخ مصفوفة الـ byte المدخلة لأداء أفضل، وستنعكس التغييرات الخارجية على المصفوفة على هذا المثيل.
+الـ TriMesh المعاد لن ينسخ مصفوفة البايت المدخلة لأداء أفضل، وستنعكس التغييرات الخارجية على المصفوفة على هذه النسخة.
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إنشاء TriMesh من بايتات خام، وهذا مفيد عند بناء تنسيق 3D الخاص بك
+الكود التالي يوضح كيفية إنشاء TriMesh من بايتات خام، وهذا مفيد عند بناء تنسيق 3D الخاص بك.
 
 ```csharp
 var indices = new int[] { 0,  1,  2 };

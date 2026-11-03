@@ -1,6 +1,6 @@
 ---
 title: "WindowHandle.FromXlib"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة WindowHandle. إنشاء WindowHandle من نافذة Xlib"
 type: docs
 weight: 50

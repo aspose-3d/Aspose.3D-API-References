@@ -1,7 +1,7 @@
 ---
-title: "Class StructuralMetadata.PropertyTable"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "فئة Aspose.ThreeD.Formats.GLTF.StructuralMetadataPropertyTable."
+title: "الفئة StructuralMetadata.PropertyTable"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Aspose.ThreeD.Formats.GLTF.StructuralMetadataPropertyTable فئة."
 type: docs
 weight: 1250
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata.propertytable/

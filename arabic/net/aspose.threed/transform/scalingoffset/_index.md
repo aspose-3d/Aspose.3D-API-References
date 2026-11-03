@@ -1,14 +1,14 @@
 ---
 title: "Transform.ScalingOffset"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Transform. تحصل أو تعين إزاحة القياس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Transform. تحصل أو تعين إزاحة التحجيم"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed/transform/scalingoffset/
 ---
 ## Transform.ScalingOffset property
 
-يحصل أو يعيّن إزاحة التحجيم
+يحصل أو يعيّن إزاحة القياس
 
 ```csharp
 public Vector3 ScalingOffset { get; set; }

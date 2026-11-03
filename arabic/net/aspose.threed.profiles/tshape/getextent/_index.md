@@ -1,14 +1,14 @@
 ---
 title: "TShape.GetExtent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TShape. يسترجع الامتداد في بعدي x و y"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TShape. يسترجع الامتداد في البعدين x و y"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.profiles/tshape/getextent/
 ---
 ## TShape.GetExtent method
 
-يحصل على الامتداد في بعدي x و y.
+تحصل على الامتداد في بعدي x و y.
 
 ```csharp
 public override Vector2 GetExtent()

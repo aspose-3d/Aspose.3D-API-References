@@ -1,14 +1,14 @@
 ---
 title: "VertexElementVisibility.VertexElementVisibility"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ VertexElementVisibility. يهيئ مثالاً جديداً من فئة VertexElementVisibility"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ VertexElementVisibility. يهيئ مثيلاً جديداً من الفئة VertexElementVisibility"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/vertexelementvisibility/vertexelementvisibility/
 ---
 ## VertexElementVisibility constructor
 
-يهيئ مثالاً جديداً من الفئة [`VertexElementVisibility`](../).
+يهيئ مثيلاً جديداً من الفئة [`VertexElementVisibility`](../).
 
 ```csharp
 public VertexElementVisibility()

@@ -1,14 +1,14 @@
 ---
 title: "FVector4.FVector4"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ FVector4. يهيئ مثلاً جديداً من الـ FVector4"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ FVector4. يهيئ نسخة جديدة من الـ FVector4"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/fvector4/fvector4/
 ---
 ## FVector4(float, float, float, float) {#constructor_4}
 
-يهيئ مثلاً جديداً من [`FVector4`](../).
+يهيئ نسخة جديدة من الـ [`FVector4`](../).
 
 ```csharp
 public FVector4(float x, float y, float z, float w)
@@ -31,7 +31,7 @@ public FVector4(float x, float y, float z, float w)
 
 ## FVector4(float, float, float) {#constructor_3}
 
-يهيئ مثلاً جديداً من [`FVector4`](../).
+يهيئ نسخة جديدة من الـ [`FVector4`](../).
 
 ```csharp
 public FVector4(float x, float y, float z)
@@ -53,7 +53,7 @@ public FVector4(float x, float y, float z)
 
 ## FVector4(Vector4) {#constructor_2}
 
-يهيئ مثلاً جديداً من [`FVector4`](../).
+يهيئ نسخة جديدة من الـ [`FVector4`](../).
 
 ```csharp
 public FVector4(Vector4 vec)
@@ -70,7 +70,7 @@ public FVector4(Vector4 vec)
 
 ## FVector4(Vector3) {#constructor}
 
-يهيئ مثلاً جديداً من [`FVector4`](../).
+يهيئ نسخة جديدة من الـ [`FVector4`](../).
 
 ```csharp
 public FVector4(Vector3 vec)
@@ -87,7 +87,7 @@ public FVector4(Vector3 vec)
 
 ## FVector4(Vector3, float) {#constructor_1}
 
-يهيئ مثلاً جديداً من [`FVector4`](../).
+يهيئ نسخة جديدة من الـ [`FVector4`](../).
 
 ```csharp
 public FVector4(Vector3 vec, float w)

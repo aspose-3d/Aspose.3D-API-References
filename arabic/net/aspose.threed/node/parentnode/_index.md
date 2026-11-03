@@ -1,14 +1,14 @@
 ---
 title: "Node.ParentNode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Node. تحصل أو تعين العقدة الأم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Node. تحصل أو تعيّن العقدة الأم"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed/node/parentnode/
 ---
 ## Node.ParentNode property
 
-يحصل أو يعيّن عقدة الأصل.
+تحصل أو تعيّن العقدة الأم.
 
 ```csharp
 public Node ParentNode { get; set; }

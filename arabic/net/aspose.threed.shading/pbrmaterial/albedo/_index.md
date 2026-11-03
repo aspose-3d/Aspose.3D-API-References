@@ -1,14 +1,14 @@
 ---
 title: "PbrMaterial.Albedo"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrMaterial. يحصل أو يضبط اللون الأساسي للمادة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrMaterial. تحصل أو تعين اللون الأساسي للمادة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.shading/pbrmaterial/albedo/
 ---
 ## PbrMaterial.Albedo property
 
-يحصل أو يضبط اللون الأساسي للمادة
+تحصل أو تعين اللون الأساسي للمادة
 
 ```csharp
 public Vector3 Albedo { get; set; }

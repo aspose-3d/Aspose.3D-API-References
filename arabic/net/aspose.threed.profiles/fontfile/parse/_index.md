@@ -1,6 +1,6 @@
 ---
 title: "FontFile.Parse"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة FontFile. تحليل FontFile من البايتات"
 type: docs
 weight: 20
@@ -16,7 +16,7 @@ public static FontFile Parse(byte[] bytes)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| بايتات | Byte[] | محتوى الخط OTF الخام |
+| بايتات | Byte[] | محتوى خام لملف الخط OTF |
 
 ### قيمة الإرجاع
 

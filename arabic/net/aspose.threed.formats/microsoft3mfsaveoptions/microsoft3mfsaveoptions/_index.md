@@ -1,6 +1,6 @@
 ---
 title: "Microsoft3MFSaveOptions.Microsoft3MFSaveOptions"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Microsoft3MFSaveOptions. إنشاء Microsoft3MFSaveOptions"
 type: docs
 weight: 10

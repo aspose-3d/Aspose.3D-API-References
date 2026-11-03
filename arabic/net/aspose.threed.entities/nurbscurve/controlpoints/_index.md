@@ -1,7 +1,7 @@
 ---
 title: "NurbsCurve.ControlPoints"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsCurve. تحصل على جميع نقاط التحكم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsCurve. يحصل على جميع نقاط التحكم"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/nurbscurve/controlpoints/

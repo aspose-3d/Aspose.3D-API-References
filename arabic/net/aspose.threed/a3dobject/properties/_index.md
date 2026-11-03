@@ -1,7 +1,7 @@
 ---
 title: "A3DObject.Properties"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية A3DObject. الحصول على مجموعة جميع الخصائص"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية A3DObject. يحصل على مجموعة جميع الخصائص"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/a3dobject/properties/

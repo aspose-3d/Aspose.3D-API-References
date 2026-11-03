@@ -1,14 +1,14 @@
 ---
 title: "SPIRVSource.GeometryShader"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية SPIRVSource. تحصّل أو تعيين شفرة المصدر لبرنامج الظل الهندسي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية SPIRVSource. تحصل أو تعين شفرة المصدر لمعالج الهندسة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.render/spirvsource/geometryshader/
 ---
 ## SPIRVSource.GeometryShader property
 
-يحصل أو يحدد شفرة المصدر للمظلّل الهندسي.
+تحصل أو تعين شفرة المصدر لمعالج الهندسة.
 
 ```csharp
 public byte[] GeometryShader { get; set; }

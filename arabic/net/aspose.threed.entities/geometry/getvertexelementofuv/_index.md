@@ -1,14 +1,14 @@
 ---
 title: "Geometry.GetVertexElementOfUV"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Geometry. تحصل على مثيل VertexElementUV بنوع تخطيط النسيج المعطى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Geometry. يحصل على نسخة VertexElementUV بنوع تخطيط النسيج المعطى"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.entities/geometry/getvertexelementofuv/
 ---
 ## Geometry.GetVertexElementOfUV method
 
-يحصل على مثيل [`VertexElementUV`](../../vertexelementuv/) بنوع تخطيط النسيج المعطى
+يحصل على نسخة [`VertexElementUV`](../../vertexelementuv/) بنوع تخطيط النسيج المعطى
 
 ```csharp
 public VertexElementUV GetVertexElementOfUV(TextureMapping textureMapping)
@@ -20,7 +20,7 @@ public VertexElementUV GetVertexElementOfUV(TextureMapping textureMapping)
 
 ### قيمة الإرجاع
 
-VertexElementUV مع نوع تخطيط القوام
+VertexElementUV بنوع تخطيط النسيج
 
 ### انظر أيضًا
 

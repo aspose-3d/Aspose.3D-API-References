@@ -1,7 +1,7 @@
 ---
 title: "VertexDeclaration.Count"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexDeclaration خاصية. يحصل على عدد جميع الحقول المعرفة في هذا VertexDeclaration"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية VertexDeclaration. يحصل على عدد جميع الحقول المعرفة في هذا VertexDeclaration"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/vertexdeclaration/count/

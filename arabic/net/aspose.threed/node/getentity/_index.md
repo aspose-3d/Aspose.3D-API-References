@@ -1,7 +1,7 @@
 ---
 title: "Node.GetEntity"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Node."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Node طريقة."
 type: docs
 weight: 210
 url: /ar/net/aspose.threed/node/getentity/

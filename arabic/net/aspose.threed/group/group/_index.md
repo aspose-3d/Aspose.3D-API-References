@@ -1,14 +1,14 @@
 ---
 title: "Group.Group"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Group. إنشاء نسخة جديدة من Group"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Group. يبني نسخة جديدة من Group"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/group/group/
 ---
 ## Group constructor
 
-إنشاء نسخة جديدة من [`Group`](../)
+أنشئ نسخة جديدة من [`Group`](../)
 
 ```csharp
 public Group(string name = "")
@@ -16,7 +16,7 @@ public Group(string name = "")
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم Group |
+| الاسم | String | اسم Group |
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "Node.Node"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Node. يهيئ نسخة جديدة من فئة Node"
 type: docs
 weight: 10
@@ -32,8 +32,8 @@ public Node(string name, Entity entity)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
-| كيان | كيان | الكيان الافتراضي. |
+| الاسم | String | الاسم. |
+| الكيان | الكيان | الكيان الافتراضي. |
 
 ### انظر أيضًا
 
@@ -54,7 +54,7 @@ public Node(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 

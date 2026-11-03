@@ -1,7 +1,7 @@
 ---
 title: "TriMesh.BeginVertex"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TriMesh. ابدأ إضافة رأس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TriMesh. بدء إضافة رأس"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed.entities/trimesh/beginvertex/

@@ -1,14 +1,14 @@
 ---
 title: "Sphere.Sphere"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Sphere. يهيئ نسخة جديدة من Sphere بنصف قطر افتراضي 1"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Sphere. يهيئ مثيلاً جديداً من Sphere مع نصف قطر افتراضي 1"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/sphere/sphere/
 ---
 ## Sphere() {#constructor}
 
-يهيئ نسخة جديدة من [`Sphere`](../) بنصف قطر افتراضي 1.
+يهيئ مثيلاً جديداً من [`Sphere`](../) مع نصف قطر افتراضي 1.
 
 ```csharp
 public Sphere()
@@ -24,7 +24,7 @@ public Sphere()
 
 ## Sphere(double) {#constructor_1}
 
-يهيئ نسخة جديدة من الفئة [`Sphere`](../) بالقطر المحدد.
+يقوم بتهيئة نسخة جديدة من الفئة [`Sphere`](../) مع نصف قطر محدد.
 
 ```csharp
 public Sphere(double radius)
@@ -32,7 +32,7 @@ public Sphere(double radius)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نصف القطر | Double | نصف القطر. |
+| radius | مضاعف | نصف القطر. |
 
 ### انظر أيضًا
 
@@ -44,7 +44,7 @@ public Sphere(double radius)
 
 ## Sphere(double, int, int) {#constructor_2}
 
-يهيئ نسخة جديدة من الفئة [`Sphere`](../) بالقطر المحدد، مقاطع العرض ومقاطع الارتفاع.
+يقوم بتهيئة نسخة جديدة من الفئة [`Sphere`](../) مع نصف قطر محدد، وشرائح العرض وشرائح الارتفاع.
 
 ```csharp
 public Sphere(double radius, int widthSegments, int heightSegments)
@@ -52,9 +52,9 @@ public Sphere(double radius, int widthSegments, int heightSegments)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نصف القطر | Double | نصف قطر الكرة. |
-| widthSegments | Int32 | مقاطع العرض. |
-| heightSegments | Int32 | مقاطع الارتفاع. |
+| radius | مضاعف | نصف قطر الكرة. |
+| widthSegments | Int32 | قطاعات العرض. |
+| heightSegments | Int32 | شرائح الارتفاع. |
 
 ### انظر أيضًا
 
@@ -66,7 +66,7 @@ public Sphere(double radius, int widthSegments, int heightSegments)
 
 ## Sphere(string, double, int, int, double, double, double, double) {#constructor_3}
 
-يهيئ نسخة جديدة من الفئة [`Sphere`](../).
+يقوم بتهيئة نسخة جديدة من الفئة [`Sphere`](../).
 
 ```csharp
 public Sphere(string name, double radius, int widthSegments, int heightSegments, double phiStart, 
@@ -75,14 +75,14 @@ public Sphere(string name, double radius, int widthSegments, int heightSegments,
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
-| نصف القطر | Double | نصف قطر الكرة. |
-| widthSegments | Int32 | مقاطع العرض. |
-| heightSegments | Int32 | مقاطع الارتفاع. |
-| phiStart | Double | بداية phi. |
-| phiLength | Double | طول phi. |
-| thetaStart | Double | بداية theta. |
-| thetaLength | Double | طول theta. |
+| الاسم | String | الاسم. |
+| radius | مضاعف | نصف قطر الكرة. |
+| widthSegments | Int32 | قطاعات العرض. |
+| heightSegments | Int32 | شرائح الارتفاع. |
+| phiStart | مضاعف | بداية الفا. |
+| phiLength | مضاعف | طول الفا. |
+| thetaStart | مضاعف | بداية الثيتا. |
+| thetaLength | مضاعف | طول الثيتا. |
 
 ### انظر أيضًا
 

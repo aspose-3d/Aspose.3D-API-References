@@ -1,6 +1,6 @@
 ---
 title: "RelativeRectangle.RelativeRectangle"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ RelativeRectangle. إنشاء RelativeRectangle"
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ public RelativeRectangle(int left, int top, int width, int height)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| اليسار | Int32 |  |
+| يسار | Int32 |  |
 | أعلى | Int32 |  |
 | العرض | Int32 |  |
 | الارتفاع | Int32 |  |

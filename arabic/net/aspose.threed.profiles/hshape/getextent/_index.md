@@ -1,6 +1,6 @@
 ---
 title: "HShape.GetExtent"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة HShape. تحصل على الامتداد في بعدي x و y"
 type: docs
 weight: 120
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/hshape/getextent/
 ---
 ## HShape.GetExtent method
 
-يحصل على الامتداد في بعدي x و y.
+تحصل على الامتداد في بعدي x و y.
 
 ```csharp
 public override Vector2 GetExtent()

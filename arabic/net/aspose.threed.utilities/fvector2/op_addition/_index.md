@@ -1,14 +1,14 @@
 ---
 title: "FVector2.op_Addition"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FVector2. إعادة تعريف المشغل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector2. إعادة تحميل المشغل"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/fvector2/op_addition/
 ---
 ## FVector2 Addition operator
 
-+ تحميل المشغل
++ إعادة تحميل المشغل
 
 ```csharp
 public static FVector2 operator +(FVector2 a, FVector2 b)

@@ -1,14 +1,14 @@
 ---
 title: "Html5SaveOptions.ShowRulers"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Html5SaveOptions property. عرض مساطر المحاور x/y/z في المشهد لقياس النموذج. القيمة الافتراضية false"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Html5SaveOptions. عرض مساطر المحاور x/y/z في المشهد لقياس النموذج. القيمة الافتراضية هي false"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.formats/html5saveoptions/showrulers/
 ---
 ## Html5SaveOptions.ShowRulers property
 
-عرض مساطر محاور x/y/z في المشهد لقياس النموذج. القيمة الافتراضية هي false.
+عرض مساطر المحاور x/y/z في المشهد لقياس النموذج. القيمة الافتراضية هي false.
 
 ```csharp
 public bool ShowRulers { get; set; }

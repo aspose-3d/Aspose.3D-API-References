@@ -1,7 +1,7 @@
 ---
 title: "Geometry.CreateElement"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Geometry method. تنشئ عنصر رأس بالنوع المحدد وتضيفه إلى الشكل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Geometry. تنشئ عنصر رأس بالنوع المحدد وتضيفه إلى الهندسة"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.entities/geometry/createelement/
@@ -16,7 +16,7 @@ public VertexElement CreateElement(VertexElementType type)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| type | VertexElementType | نوع عنصر الرأس |
+| نوع | VertexElementType | نوع عنصر الرأس |
 
 ### قيمة الإرجاع
 
@@ -47,9 +47,9 @@ public VertexElement CreateElement(VertexElementType type, MappingMode mappingMo
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| type | VertexElementType | نوع عنصر الرأس |
-| mappingMode | MappingMode | وضع التخطيط الافتراضي |
-| referenceMode | ReferenceMode | وضع المرجع الافتراضي |
+| نوع | VertexElementType | نوع عنصر الرأس |
+| mappingMode | MappingMode | نمط التخطيط الافتراضي |
+| referenceMode | ReferenceMode | نمط الإشارة الافتراضي |
 
 ### قيمة الإرجاع
 

@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.USDZ"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل FileFormat. وصف المشهد العالمي المضغوط"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormat حقل. وصف المشهد العالمي المضغوط"
 type: docs
 weight: 390
 url: /ar/net/aspose.threed/fileformat/usdz/
 ---
 ## FileFormat.USDZ field
 
-وصف المشهد الشامل المضغوط
+وصف المشهد العالمي المضغوط
 
 ```csharp
 public static readonly FileFormat USDZ;

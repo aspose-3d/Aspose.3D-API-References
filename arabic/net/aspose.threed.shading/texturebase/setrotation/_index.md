@@ -1,14 +1,14 @@
 ---
 title: "TextureBase.SetRotation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TextureBase. يضبط دوران UV"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TextureBase. يعيّن دوران UV"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.shading/texturebase/setrotation/
 ---
 ## TextureBase.SetRotation method
 
-يعيّن دوران الـ UV.
+يعيّن دوران UV.
 
 ```csharp
 public void SetRotation(double u, double v)
@@ -16,8 +16,8 @@ public void SetRotation(double u, double v)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| u | Double | U. |
-| v | Double | V. |
+| u | مضاعف | U. |
+| v | مضاعف | V. |
 
 ### انظر أيضًا
 

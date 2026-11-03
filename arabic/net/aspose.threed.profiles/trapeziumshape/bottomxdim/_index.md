@@ -1,14 +1,14 @@
 ---
 title: "TrapeziumShape.BottomXDim"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TrapeziumShape. تحصل أو تعين مدى الخط السفلي المقاس على طول المحور السيني"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TrapeziumShape. يحصل أو يعيّن مدى الخط السفلي المقاس على طول محور x"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/trapeziumshape/bottomxdim/
 ---
 ## TrapeziumShape.BottomXDim property
 
-الحصول أو تعيين امتداد الخط السفلي المقاس على محور x.
+يحصل أو يعيّن مدى الخط السفلي المقاس على طول محور x.
 
 ```csharp
 public double BottomXDim { get; set; }

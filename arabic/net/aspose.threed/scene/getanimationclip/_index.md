@@ -1,7 +1,7 @@
 ---
 title: "Scene.GetAnimationClip"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Scene. تحصل على AnimationClip مسمى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Scene. يحصل على AnimationClip مسمى"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed/scene/getanimationclip/
@@ -16,11 +16,11 @@ public AnimationClip GetAnimationClip(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| name | String | اسم [`AnimationClip`](../../../aspose.threed.animation/animationclip/) للبحث عنه |
+| name | String | اسم الـ[`AnimationClip`](../../../aspose.threed.animation/animationclip/) للبحث عنه |
 
 ### قيمة الإرجاع
 
-AnimationClip المرجع
+AnimationClip المرتجع
 
 ### انظر أيضًا
 

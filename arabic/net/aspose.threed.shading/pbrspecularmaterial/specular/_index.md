@@ -1,14 +1,14 @@
 ---
 title: "PbrSpecularMaterial.Specular"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrSpecularMaterial. تحصل أو تعين اللون الانعكاسي للمادة. القيمة الافتراضية هي 1 1 1"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrSpecularMaterial. يحصل أو يعيّن لون الانعكاس للمادة القيمة الافتراضية هي 1 1 1"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.shading/pbrspecularmaterial/specular/
 ---
 ## PbrSpecularMaterial.Specular property
 
-يحصل أو يعيّن اللون الانعكاسي للمادة، القيمة الافتراضية هي (1, 1, 1).
+يحصل أو يعيّن لون الانعكاس للمادة، القيمة الافتراضية هي (1, 1, 1).
 
 ```csharp
 public Vector3 Specular { get; set; }

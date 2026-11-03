@@ -1,7 +1,7 @@
 ---
 title: "Quaternion.X"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل Quaternion. العنصر x"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل Quaternion. المكوّن x"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.utilities/quaternion/x/

@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.SiemensJT8"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل FileFormat. نسخة ملف Siemens JT الإصدار 8"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. ملف Siemens JT الإصدار 8"
 type: docs
 weight: 320
 url: /ar/net/aspose.threed/fileformat/siemensjt8/

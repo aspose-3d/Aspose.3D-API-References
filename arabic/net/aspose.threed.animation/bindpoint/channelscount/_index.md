@@ -1,7 +1,7 @@
 ---
 title: "BindPoint.ChannelsCount"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BindPoint. يحصل على العدد الإجمالي لقنوات الخاصية المعرفة في تخطيط منحنى التحريك هذا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية BindPoint. تحصل على العدد الإجمالي لقنوات الخاصية المعرفة في هذا تخطيط منحنى الرسوم المتحركة"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.animation/bindpoint/channelscount/

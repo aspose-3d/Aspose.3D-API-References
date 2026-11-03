@@ -1,14 +1,14 @@
 ---
 title: "VertexElement.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElement method. تمثيل نصي لعنصر القمة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexElement. تمثيل نصي لعنصر الرأس"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/vertexelement/tostring/
 ---
 ## VertexElement.ToString method
 
-تمثيل نصي لعنصر الرأس.
+تمثيل نصي لعنصر الـ vertex.
 
 ```csharp
 public override string ToString()

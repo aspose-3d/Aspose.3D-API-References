@@ -1,14 +1,14 @@
 ---
 title: "EndPoint.AsPoint"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية EndPoint. تحصل على نقطة النهاية كنقطة ديكارتية أو تُرمى استثناء"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية EndPoint. يحصل على النقطة النهائية كنقطة ديكارتية أو يطرح استثناء"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/endpoint/aspoint/
 ---
 ## EndPoint.AsPoint property
 
-يحصل على نقطة النهاية كنقطة إحداثية، أو يطرح استثناءً.
+يحصل على النقطة النهائية كنقطة ديكارتية، أو يطرح استثناء.
 
 ```csharp
 public Vector3 AsPoint { get; }

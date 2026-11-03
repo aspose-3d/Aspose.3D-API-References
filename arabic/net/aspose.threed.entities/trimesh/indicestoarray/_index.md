@@ -1,6 +1,6 @@
 ---
 title: "TriMesh.IndicesToArray"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TriMesh."
 type: docs
 weight: 150

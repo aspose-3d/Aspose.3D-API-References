@@ -1,14 +1,14 @@
 ---
 title: "PhongMaterial.PhongMaterial"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ PhongMaterial. يهيئ نسخة جديدة من فئة PhongMaterial"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ PhongMaterial. يهيئ مثيلاً جديداً من فئة PhongMaterial"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.shading/phongmaterial/phongmaterial/
 ---
 ## PhongMaterial() {#constructor}
 
-يهيئ نسخة جديدة من الفئة [`PhongMaterial`](../).
+يهيئ مثيلاً جديداً من الفئة [`PhongMaterial`](../).
 
 ```csharp
 public PhongMaterial()
@@ -24,7 +24,7 @@ public PhongMaterial()
 
 ## PhongMaterial(string) {#constructor_1}
 
-يهيئ نسخة جديدة من الفئة [`PhongMaterial`](../).
+يهيئ مثيلاً جديداً من الفئة [`PhongMaterial`](../).
 
 ```csharp
 public PhongMaterial(string name)
@@ -32,7 +32,7 @@ public PhongMaterial(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: "Node.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Node. تحصل على تمثيل النص لهذه العقدة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Node. يحصل على تمثيل السلسلة لهذه العقدة"
 type: docs
 weight: 250
 url: /ar/net/aspose.threed/node/tostring/
 ---
 ## Node.ToString method
 
-الحصول على تمثيل النص لهذه العقدة.
+يحصل على تمثيل السلسلة لهذه العقدة.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-تمثيل النص لهذه العقدة للتصحيح.
+تمثيل السلسلة لهذه العقدة لأغراض التصحيح.
 
 ### انظر أيضًا
 

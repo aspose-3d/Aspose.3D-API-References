@@ -1,6 +1,6 @@
 ---
 title: "Vertex.ReadFloat"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Vertex. قراءة حقل float"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/vertex/readfloat/
 ---
 ## Vertex.ReadFloat method
 
-اقرأ الحقل من نوع float
+قراءة الحقل العائم
 
 ```csharp
 public float ReadFloat(VertexField field)
@@ -16,7 +16,7 @@ public float ReadFloat(VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| حقل | VertexField | الحقل من نوع بيانات متوافق مع float/double |
+| حقل | VertexField | الحقل بنوع بيانات متوافق مع float/double |
 
 ### انظر أيضًا
 

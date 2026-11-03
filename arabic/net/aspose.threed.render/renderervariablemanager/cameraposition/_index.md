@@ -1,6 +1,6 @@
 ---
 title: "RendererVariableManager.CameraPosition"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RendererVariableManager. موضع الكاميرا في نظام إحداثيات العالم"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/renderervariablemanager/cameraposition/
 ---
 ## RendererVariableManager.CameraPosition property
 
-موضع الكاميرا في نظام الإحداثيات العالمي
+موضع الكاميرا في نظام إحداثيات العالم
 
 ```csharp
 public FVector3 CameraPosition { get; set; }

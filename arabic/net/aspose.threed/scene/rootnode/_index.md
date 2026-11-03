@@ -1,14 +1,14 @@
 ---
 title: "Scene.RootNode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Scene. تحصل على العقدة الجذرية للمشهد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Scene. يحصل على العقدة الجذرية للمشهد"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed/scene/rootnode/
 ---
 ## Scene.RootNode property
 
-يحصل على عقدة الجذر للمشهد.
+يحصل على العقدة الجذرية للمشهد.
 
 ```csharp
 public Node RootNode { get; }

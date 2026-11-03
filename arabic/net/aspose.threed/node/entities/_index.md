@@ -1,6 +1,6 @@
 ---
 title: "Node.Entities"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Node. تحصل على جميع كيانات العقدة"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/node/entities/
 ---
 ## Node.Entities property
 
-يحصل على جميع كيانات العقدة.
+تحصل على جميع كيانات العقدة.
 
 ```csharp
 public IList<Entity> Entities { get; }

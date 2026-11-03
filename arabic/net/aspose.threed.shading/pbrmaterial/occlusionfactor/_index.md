@@ -1,14 +1,14 @@
 ---
 title: "PbrMaterial.OcclusionFactor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrMaterial. يحصل أو يضبط عامل الحجب المحيطي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrMaterial. تحصل أو تعين عامل الإخفاء المحيطي"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.shading/pbrmaterial/occlusionfactor/
 ---
 ## PbrMaterial.OcclusionFactor property
 
-يحصل أو يضبط عامل الإغلاق المحيطي
+تحصل أو تعين عامل الإخفاء المحيطي
 
 ```csharp
 public double OcclusionFactor { get; set; }

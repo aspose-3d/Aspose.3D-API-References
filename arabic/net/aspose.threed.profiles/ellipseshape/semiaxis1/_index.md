@@ -1,14 +1,14 @@
 ---
 title: "EllipseShape.SemiAxis1"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية EllipseShape. يحصل أو يضبط نصف القطر الأول للقطع الناقص المقاس في اتجاه محور x"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية EllipseShape. يحصل أو يحدد نصف القطر الأول للقطع الناقص المقاس في اتجاه محور x"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/ellipseshape/semiaxis1/
 ---
 ## EllipseShape.SemiAxis1 property
 
-يحصل أو يضبط نصف القطر الأول للإهليلج المقاس في اتجاه محور x.
+يحصل أو يحدد نصف القطر الأول للقطع الناقص المقاس في اتجاه محور x.
 
 ```csharp
 public double SemiAxis1 { get; set; }

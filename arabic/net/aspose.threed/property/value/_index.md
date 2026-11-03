@@ -1,7 +1,7 @@
 ---
 title: "Property.Value"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية property. يحصل أو يحدد القيمة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Property. يحصل على أو يضبط القيمة"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/property/value/

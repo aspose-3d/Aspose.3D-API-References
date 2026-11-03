@@ -1,6 +1,6 @@
 ---
 title: "FVector2.op_Explicit"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة FVector2."
 type: docs
 weight: 90

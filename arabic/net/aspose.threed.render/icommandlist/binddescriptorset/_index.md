@@ -1,7 +1,7 @@
 ---
 title: "ICommandList.BindDescriptorSet"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ICommandList. ربط descriptor set بالخط الأنابيب الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ICommandList. ربط مجموعة الوصف بالخط الأنابيب الحالي"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/icommandlist/binddescriptorset/

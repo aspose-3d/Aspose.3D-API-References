@@ -1,6 +1,6 @@
 ---
 title: "ShaderTechnique.ShaderFile"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية ShaderTechnique. يحصل أو يضبط اسم ملف الظل الخارجي"
 type: docs
 weight: 70
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.shading/shadertechnique/shaderfile/
 ---
 ## ShaderTechnique.ShaderFile property
 
-يحصل أو يضبط اسم ملف التظليل الخارجي.
+يحصل أو يضبط اسم ملف الظل الخارجي.
 
 ```csharp
 public string ShaderFile { get; set; }

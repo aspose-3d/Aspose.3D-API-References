@@ -1,7 +1,7 @@
 ---
 title: "FVector3.op_Subtraction"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FVector3.  إعادة تعريف المشغل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector3. إعادة تعريف المشغل"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.utilities/fvector3/op_subtraction/

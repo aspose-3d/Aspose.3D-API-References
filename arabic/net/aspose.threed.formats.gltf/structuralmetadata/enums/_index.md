@@ -1,14 +1,14 @@
 ---
 title: "StructuralMetadata.Enums"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية StructuralMetadata. تعريفات نوع التعداد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية StructuralMetadata. تعريفات أنواع التعداد"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata/enums/
 ---
 ## StructuralMetadata.Enums property
 
-تعريفات نوع التعداد
+تعريفات أنواع التعداد
 
 ```csharp
 public Dictionary<string, EnumType> Enums { get; }

@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. تُرجع سلسلة تمثل Matrix4 الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Matrix4 طريقة. تُرجِع String تمثِّل الـ Matrix4 الحالي"
 type: docs
 weight: 300
 url: /ar/net/aspose.threed.utilities/matrix4/tostring/
 ---
 ## Matrix4.ToString method
 
-تُرجع سلسلة تمثل [`Matrix4`](../) الحالي.
+تُرجِع String تمثِّل الـ [`Matrix4`](../) الحالي.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-سلسلة تمثل [`Matrix4`](../) الحالي.
+String تمثِّل الـ [`Matrix4`](../) الحالي.
 
 ### انظر أيضًا
 

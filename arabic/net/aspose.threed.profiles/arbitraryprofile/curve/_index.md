@@ -1,14 +1,14 @@
 ---
 title: "ArbitraryProfile.Curve"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ArbitraryProfile. المنحنى المستخدم لإنشاء الملف."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ArbitraryProfile. المنحنى المستخدم لإنشاء الملف الشخصي"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/arbitraryprofile/curve/
 ---
 ## ArbitraryProfile.Curve property
 
-المنحنى المستخدم لإنشاء الملف
+المنحنى المستخدم لإنشاء الملف الشخصي
 
 ```csharp
 public Curve Curve { get; set; }

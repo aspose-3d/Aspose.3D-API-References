@@ -1,7 +1,7 @@
 ---
 title: "PbrSpecularMaterial.Diffuse"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrSpecularMaterial. تحصل أو تعيين لون الانتشار للمادة القيمة الافتراضية هي 1 1 1"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrSpecularMaterial. يحصل أو يضبط اللون المنتشر للمادة القيمة الافتراضية هي 1 1 1"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.shading/pbrspecularmaterial/diffuse/

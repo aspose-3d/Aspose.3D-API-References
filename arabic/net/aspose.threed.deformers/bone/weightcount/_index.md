@@ -1,7 +1,7 @@
 ---
 title: "Bone.WeightCount"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Bone. تحصل على عدد الأوزان التي يتم توسيعها تلقائيًا بواسطة SetWeight"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Bone. تحصل على عدد الأوزان ويتم توسيعها تلقائيًا بواسطة SetWeight"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.deformers/bone/weightcount/

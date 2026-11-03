@@ -1,6 +1,6 @@
 ---
 title: "RectangleShape.RectangleShape"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ RectangleShape. منشئ RectangleShape"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/rectangleshape/rectangleshape/
 ---
 ## RectangleShape() {#constructor}
 
-منشئ لـ [`RectangleShape`](../)
+منشئ [`RectangleShape`](../)
 
 ```csharp
 public RectangleShape()
@@ -24,7 +24,7 @@ public RectangleShape()
 
 ## RectangleShape(double, double) {#constructor_1}
 
-منشئ لـ [`RectangleShape`](../) بأبعاد محددة على محور x و y.
+منشئ [`RectangleShape`](../) مع أبعاد محددة على المحور x والمحور y.
 
 ```csharp
 public RectangleShape(double xdim, double ydim)

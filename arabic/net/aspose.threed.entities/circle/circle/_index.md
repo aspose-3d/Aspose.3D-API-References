@@ -1,6 +1,6 @@
 ---
 title: "Circle.Circle"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Circle. منشئ Circle"
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ public Circle(double radius)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نصف القطر | Double | نصف القطر لمنحنى الدائرة. |
+| radius | مضاعف | نصف قطر منحنى الدائرة. |
 
 ### انظر أيضًا
 

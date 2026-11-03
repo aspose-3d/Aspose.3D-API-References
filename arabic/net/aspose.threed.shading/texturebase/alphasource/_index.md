@@ -1,14 +1,14 @@
 ---
 title: "TextureBase.AlphaSource"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TextureBase. يحصل أو يضبط ما إذا كانت الخامة تُعرّف قناة ألفا. القيمة الافتراضية هي None"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TextureBase. يسترجع أو يعيّن ما إذا كانت القوام تحدد قناة ألفا. القيمة الافتراضية هي None"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.shading/texturebase/alphasource/
 ---
 ## TextureBase.AlphaSource property
 
-يحصل أو يعيّن ما إذا كان الملمس يحدد قناة ألفا. القيمة الافتراضية هي لا شيء
+يسترجع أو يعيّن ما إذا كانت القوام تحدد قناة ألفا. القيمة الافتراضية هي None
 
 ```csharp
 public AlphaSource AlphaSource { get; set; }

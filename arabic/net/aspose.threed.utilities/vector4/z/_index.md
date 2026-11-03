@@ -1,6 +1,6 @@
 ---
 title: "Vector4.Z"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل Vector4. المكوّن z"
 type: docs
 weight: 50

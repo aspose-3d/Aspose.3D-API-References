@@ -1,14 +1,14 @@
 ---
 title: "MorphTargetChannel.Weights"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية MorphTargetChannel. يحصل على قيم الوزن الكاملة لأشكال الهدف"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية MorphTargetChannel. يحصل على قيم الوزن الكاملة لأشكال الأهداف"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.deformers/morphtargetchannel/weights/
 ---
 ## MorphTargetChannel.Weights property
 
-يحصل على قيم الوزن الكاملة للهندسات الهدف.
+يحصل على قيم الوزن الكاملة لأشكال الأهداف.
 
 ```csharp
 public IList<double> Weights { get; }

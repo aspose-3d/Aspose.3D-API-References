@@ -1,14 +1,14 @@
 ---
 title: "DescriptorSetUpdater.Bind"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة DescriptorSetUpdater. اربط الـ buffer بمجموعة الوصف الحالية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة DescriptorSetUpdater. اربط المخزن المؤقت بمجموعة الوصف الحالية"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/descriptorsetupdater/bind/
 ---
 ## Bind(IBuffer, int, int) {#bind_1}
 
-ربط المخزن المؤقت بمجموعة الوصف الحالية
+اربط المخزن المؤقت بمجموعة الوصف الحالية
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
@@ -16,13 +16,13 @@ public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| buffer | IBuffer | أي buffer لربطه |
-| الإزاحة | Int32 | الإزاحة للـ buffer المراد ربطه |
-| الحجم | Int32 | حجم الـ buffer المراد ربطه |
+| المخزن المؤقت | IBuffer | أي مخزن مؤقت للربط |
+| offset | Int32 | إزاحة المخزن المؤقت للربط |
+| الحجم | Int32 | حجم المخزن المؤقت للربط |
 
 ### قيمة الإرجاع
 
-أرجع النسخة الحالية لتسلسل العمليات
+أرجع الكائن الحالي لتسلسل العملية
 
 ### انظر أيضًا
 
@@ -35,7 +35,7 @@ public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 
 ## Bind(IBuffer) {#bind}
 
-ربط كامل المخزن المؤقت بالوصف الحالي
+اربط كامل المخزن المؤقت بمجموعة الوصف الحالية
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer)
@@ -43,11 +43,11 @@ public DescriptorSetUpdater Bind(IBuffer buffer)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| buffer | IBuffer |  |
+| المخزن المؤقت | IBuffer |  |
 
 ### قيمة الإرجاع
 
-أرجع النسخة الحالية لتسلسل العمليات
+أرجع الكائن الحالي لتسلسل العملية
 
 ### انظر أيضًا
 
@@ -60,7 +60,7 @@ public DescriptorSetUpdater Bind(IBuffer buffer)
 
 ## Bind(int, IBuffer) {#bind_3}
 
-ربط المخزن المؤقت بمجموعة الوصف الحالية في موقع الربط المحدد.
+اربط المخزن المؤقت بمجموعة الوصف الحالية في موقع الربط المحدد.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
@@ -69,11 +69,11 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | ربط | Int32 | موقع الربط |
-| buffer | IBuffer | الـ buffer الكامل للربط |
+| المخزن المؤقت | IBuffer | المخزن المؤقت الكامل للربط |
 
 ### قيمة الإرجاع
 
-أرجع النسخة الحالية لتسلسل العمليات
+أرجع الكائن الحالي لتسلسل العملية
 
 ### انظر أيضًا
 
@@ -86,7 +86,7 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 
 ## Bind(int, IBuffer, int, int) {#bind_4}
 
-ربط المخزن المؤقت بمجموعة الوصف الحالية في موقع الربط المحدد.
+اربط المخزن المؤقت بمجموعة الوصف الحالية في موقع الربط المحدد.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int size)
@@ -95,13 +95,13 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int si
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | ربط | Int32 | موقع الربط |
-| buffer | IBuffer | المخزن للربط |
-| الإزاحة | Int32 | الإزاحة للـ buffer المراد ربطه |
-| الحجم | Int32 | حجم الـ buffer المراد ربطه |
+| المخزن المؤقت | IBuffer | المخزن المؤقت للربط |
+| offset | Int32 | إزاحة المخزن المؤقت للربط |
+| الحجم | Int32 | حجم المخزن المؤقت للربط |
 
 ### قيمة الإرجاع
 
-أرجع النسخة الحالية لتسلسل العمليات
+أرجع الكائن الحالي لتسلسل العملية
 
 ### انظر أيضًا
 
@@ -114,7 +114,7 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int si
 
 ## Bind(ITextureUnit) {#bind_2}
 
-ربط وحدة النسيج بمجموعة الوصف الحالية
+اربط وحدة النسيج بمجموعة الوصف الحالية
 
 ```csharp
 public DescriptorSetUpdater Bind(ITextureUnit texture)
@@ -122,11 +122,11 @@ public DescriptorSetUpdater Bind(ITextureUnit texture)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نسيج | ITextureUnit | وحدة القوام للربط |
+| نسيج | ITextureUnit | وحدة النسيج للربط |
 
 ### قيمة الإرجاع
 
-أرجع النسخة الحالية لتسلسل العمليات
+أرجع الكائن الحالي لتسلسل العملية
 
 ### انظر أيضًا
 
@@ -139,7 +139,7 @@ public DescriptorSetUpdater Bind(ITextureUnit texture)
 
 ## Bind(int, ITextureUnit) {#bind_5}
 
-ربط وحدة النسيج بمجموعة الوصف الحالية
+اربط وحدة النسيج بمجموعة الوصف الحالية
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
@@ -148,11 +148,11 @@ public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | ربط | Int32 | موقع الربط |
-| نسيج | ITextureUnit | وحدة القوام للربط |
+| نسيج | ITextureUnit | وحدة النسيج للربط |
 
 ### قيمة الإرجاع
 
-أرجع النسخة الحالية لتسلسل العمليات
+أرجع الكائن الحالي لتسلسل العملية
 
 ### انظر أيضًا
 

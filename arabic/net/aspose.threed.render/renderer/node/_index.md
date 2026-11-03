@@ -1,14 +1,14 @@
 ---
 title: "Renderer.Node"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Renderer. يحصل أو يضبط نسخة Node المستخدمة لتوفير مصفوفة التحويل العالمي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Renderer. يحصل أو يضبط كائن Node المستخدم لتوفير مصفوفة التحويل العالمي"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.render/renderer/node/
 ---
 ## Renderer.Node property
 
-يحصل أو يضبط نسخة `Node` المستخدمة لتوفير مصفوفة التحويل العالمي.
+يحصل أو يضبط كائن `Node` المستخدم لتوفير مصفوفة التحويل العالمي.
 
 ```csharp
 public Node Node { get; set; }

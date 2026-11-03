@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.Property.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Property."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Property طريقة."
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata.property/tostring/

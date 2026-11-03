@@ -1,14 +1,14 @@
 ---
 title: "Entity.ParentNode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Entity. تحصل أو تعيين أول عقدة أصل إذا تم تعيين أول عقدة أصل، سيتم فصل هذا الكيان عن عقد الأصل الأخرى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Entity. تحصل أو تعين أول عقدة أب إذا تم تعيين أول عقدة أب سيتم فصل هذا الكيان عن عقد الأب الأخرى"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/entity/parentnode/
 ---
 ## Entity.ParentNode property
 
-يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكيان عن العقد الأصلية الأخرى.
+يحصل أو يعيّن العقدة الأصلية الأولى، إذا تم تعيين العقدة الأصلية الأولى، سيتم فصل هذا الكائن عن العقد الأصلية الأخرى.
 
 ```csharp
 public Node ParentNode { get; set; }

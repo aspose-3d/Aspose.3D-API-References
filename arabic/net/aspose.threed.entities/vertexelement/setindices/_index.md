@@ -1,7 +1,7 @@
 ---
 title: "VertexElement.SetIndices"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElement method. تحميل الفهارس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexElement. تحميل الفهارس"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.entities/vertexelement/setindices/

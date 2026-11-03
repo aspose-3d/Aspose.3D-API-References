@@ -1,7 +1,7 @@
 ---
 title: "Transform.SetEulerAngles"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Transform. تعين زوايا أويلر بالدرجات للتحويل الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Transform. يضبط زوايا أويلر بالدرجات للتحويل الحالي"
 type: docs
 weight: 150
 url: /ar/net/aspose.threed/transform/seteulerangles/
@@ -16,9 +16,9 @@ public Transform SetEulerAngles(double rx, double ry, double rz)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| rx | Double |  |
-| ry | Double |  |
-| rz | Double |  |
+| rx | مضاعف |  |
+| ry | مضاعف |  |
+| rz | مضاعف |  |
 
 ## أمثلة
 

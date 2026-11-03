@@ -1,7 +1,7 @@
 ---
-title: "Class StructuralMetadata.ClassType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Aspose.ThreeD.Formats.GLTF.StructuralMetadataClassType class."
+title: "الفئة StructuralMetadata.ClassType"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Aspose.ThreeD.Formats.GLTF.StructuralMetadataClassType فئة."
 type: docs
 weight: 1210
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata.classtype/

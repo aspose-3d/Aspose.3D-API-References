@@ -1,7 +1,7 @@
 ---
 title: "PlySaveOptions.VertexElement"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PlySaveOptions. اسم العنصر لبيانات القمم القيمة الافتراضية هي vertex"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PlySaveOptions. اسم العنصر لبيانات القمة القيمة الافتراضية هو vertex"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.formats/plysaveoptions/vertexelement/

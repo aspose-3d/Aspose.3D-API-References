@@ -1,14 +1,14 @@
 ---
 title: "Sphere.PhiLength"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Sphere. يحصل على أو يضبط طول phi"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Sphere. تحصل أو تعين طول phi"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/sphere/philength/
 ---
 ## Sphere.PhiLength property
 
-يحصل أو يضبط طول phi.
+تحصل أو تعين طول phi.
 
 ```csharp
 public double PhiLength { get; set; }

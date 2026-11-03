@@ -1,14 +1,14 @@
 ---
 title: "MathUtils.PointInsideTriangle"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "MathUtils طريقة. التحقق مما إذا كانت النقطة p داخل المثلث p0 p1 p2"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة MathUtils. التحقق مما إذا كانت النقطة p داخل المثلث p0 p1 p2"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/mathutils/pointinsidetriangle/
 ---
 ## MathUtils.PointInsideTriangle method
 
-تحقق مما إذا كانت النقطة p داخل المثلث (p0, p1, p2)
+التحقق مما إذا كانت النقطة p داخل المثلث (p0, p1, p2)
 
 ```csharp
 public static bool PointInsideTriangle(Vector2 p, Vector2 p0, Vector2 p1, Vector2 p2)

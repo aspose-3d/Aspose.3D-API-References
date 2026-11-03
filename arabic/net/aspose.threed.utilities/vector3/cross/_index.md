@@ -1,7 +1,7 @@
 ---
 title: "Vector3.Cross"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector3. حاصل الضرب المتقاطع لاثنين من المتجهات"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector3. حاصل الضرب المتقاطع لمتجهين"
 type: docs
 weight: 160
 url: /ar/net/aspose.threed.utilities/vector3/cross/
@@ -16,11 +16,11 @@ public Vector3 Cross(Vector3 rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| rhs | Vector3 | قيمة الطرف الأيمن. |
+| rhs | Vector3 | قيمة الجانب الأيمن. |
 
 ### قيمة الإرجاع
 
-حاصل الضرب المتقاطع لاثنين [`Vector3`](../)s.
+حاصل الضرب المتقاطع لاثنين من [`Vector3`](../)s.
 
 ### انظر أيضًا
 

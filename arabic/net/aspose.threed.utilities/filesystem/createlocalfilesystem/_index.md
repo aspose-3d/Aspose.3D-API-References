@@ -1,14 +1,14 @@
 ---
 title: "FileSystem.CreateLocalFileSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FileSystem. تهيئة FileSystem جديد يقتصر على الوصول إلى الدليل المحلي. جميع عمليات قراءة/كتابة الملفات على هذه النسخة من FileSystem سيتم توجيهها إلى الدليل المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FileSystem. تهيئة FileSystem جديد يمكنه الوصول فقط إلى الدليل المحلي. جميع عمليات قراءة/كتابة الملفات على هذا المثال من FileSystem سيتم ربطها بالدليل المحدد"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/filesystem/createlocalfilesystem/
 ---
 ## FileSystem.CreateLocalFileSystem method
 
-تهيئة نظام ملفات جديد [`FileSystem`](../) يقتصر على الوصول إلى الدليل المحلي. جميع عمليات قراءة/كتابة الملفات على مثيل FileSystem هذا سيتم توجيهها إلى الدليل المحدد.
+تهيئة [`FileSystem`](../) جديد يمكنه الوصول فقط إلى الدليل المحلي. جميع عمليات قراءة/كتابة الملفات على هذا المثال من FileSystem سيتم ربطها بالدليل المحدد.
 
 ```csharp
 public static FileSystem CreateLocalFileSystem(string directory)
@@ -16,29 +16,29 @@ public static FileSystem CreateLocalFileSystem(string directory)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| دليل | سلسلة | الدليل في نظام الملفات الفعلي الخاص بك كدليل جذري افتراضي. |
+| دليل | String | الدليل في نظام الملفات الفعلي الخاص بك كدليل الجذر الافتراضي. |
 
 ### قيمة الإرجاع
 
 مثال جديد لنظام الملفات لتوفير الوصول إلى الملفات المحلية
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| FileNotFoundException | يتم إلقاؤه عندما لا يمكن العثور على الدليل. |
+| FileNotFoundException | يُرمى عندما لا يمكن العثور على الدليل. |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية استيراد الملف وتوفير الملفات التابعة في دليل معين
+يعرض الكود التالي كيفية استيراد الملف وتوفير الملفات التابعة في دليل معين.
 
 ```csharp
 var inputFile = "input.fbx";
 var format = FileFormat.Detect(inputFile);
-//إنشاء مثيل خيارات التحميل وتحديد نظام ملفات محلي
+//إنشاء مثال خيارات التحميل وتحديد نظام ملفات محلي
 var opt = format.CreateLoadOptions();
 opt.FileSystem = FileSystem.CreateLocalFileSystem("textures/");
-//تحميل الملف
+//تحميل الملف.
 var scene = Scene.FromFile(inputFile, opt);
 ```
 

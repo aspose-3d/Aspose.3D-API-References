@@ -1,14 +1,14 @@
 ---
 title: "Cylinder.RadiusBottom"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Cylinder. يحصل أو يعيّن نصف قطر الغطاء السفلي للأسطوانة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Cylinder. تحصل أو تعين نصف قطر الغطاء السفلي للأسطوانة"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.entities/cylinder/radiusbottom/
 ---
 ## Cylinder.RadiusBottom property
 
-الحصول أو تعيين نصف قطر غطاء أسفل الأسطوانة.
+تحصل أو تعين نصف قطر الغطاء السفلي للأسطوانة.
 
 ```csharp
 public double RadiusBottom { get; set; }

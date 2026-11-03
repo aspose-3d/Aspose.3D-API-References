@@ -1,14 +1,14 @@
 ---
 title: "Vector2.V"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Vector2. تحصل أو تعين المكوّن V إذا كان الـ Vector2 يُستخدم كإحداثي تخطيط. هو اسم مستعار للمكوّن y"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Vector2. تحصل أو تعين المكوّن V إذا تم استخدام الـ Vector2 كإحداثيات تخطيطية. هو اسم مستعار للمكوّن y"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/vector2/v/
 ---
 ## Vector2.V property
 
-تحصل أو تعين المكوّن V إذا كان الـ [`Vector2`](../) يُستخدم كإحداثي تخطيط. هو اسم مستعار للمكوّن y.
+تحصل أو تعين المكوّن V إذا تم استخدام الـ [`Vector2`](../) كإحداثيات تخطيطية. هو اسم مستعار للمكوّن y.
 
 ```csharp
 public double V { get; set; }

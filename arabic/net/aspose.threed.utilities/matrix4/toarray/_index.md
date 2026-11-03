@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.ToArray"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. تحول المصفوفة إلى مصفوفة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Matrix4 طريقة. يحوِّل المصفوفة إلى مصفوفة"
 type: docs
 weight: 290
 url: /ar/net/aspose.threed.utilities/matrix4/toarray/
 ---
 ## Matrix4.ToArray method
 
-يحوّل المصفوفة إلى مصفوفة.
+يحوِّل المصفوفة إلى مصفوفة.
 
 ```csharp
 public double[] ToArray()

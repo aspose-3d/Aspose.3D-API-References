@@ -1,14 +1,14 @@
 ---
 title: "PlyLoadOptions.PlyLoadOptions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ PlyLoadOptions. منشئ PlyLoadOptions"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ PlyLoadOptions. منشئ لـ PlyLoadOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats/plyloadoptions/plyloadoptions/
 ---
 ## PlyLoadOptions constructor
 
-منشئ لـ [`PlyLoadOptions`](../)
+منشئ [`PlyLoadOptions`](../)
 
 ```csharp
 public PlyLoadOptions()

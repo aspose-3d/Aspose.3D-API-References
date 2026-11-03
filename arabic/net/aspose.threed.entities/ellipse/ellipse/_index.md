@@ -1,6 +1,6 @@
 ---
 title: "Ellipse.Ellipse"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Ellipse. منشئ Ellipse"
 type: docs
 weight: 10
@@ -32,8 +32,8 @@ public Ellipse(double semiAxis1, double semiAxis2)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| semiAxis1 | Double | طول نصف المحور الأول |
-| semiAxis2 | Double | طول نصف المحور الثاني |
+| semiAxis1 | مضاعف | طول المحور النصفي الأول |
+| semiAxis2 | مضاعف | طول المحور النصفي الثاني |
 
 ### انظر أيضًا
 

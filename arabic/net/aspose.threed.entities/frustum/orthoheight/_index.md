@@ -1,14 +1,14 @@
 ---
 title: "Frustum.OrthoHeight"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Frustum. يحصل أو يضبط الارتفاع عندما يكون الـ frustum في الإسقاط المتعامد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Frustum. يحصل أو يضبط الارتفاع عندما يكون الفرستوم في إسقاط متعامد"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/frustum/orthoheight/
 ---
 ## Frustum.OrthoHeight property
 
-يحصل أو يضبط الارتفاع عندما يكون المقاطع في الإسقاط المتعامد.
+يحصل أو يضبط الارتفاع عندما يكون الفرستوم في إسقاط متعامد.
 
 ```csharp
 public double OrthoHeight { get; set; }

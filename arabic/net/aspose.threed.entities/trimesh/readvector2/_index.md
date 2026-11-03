@@ -1,6 +1,6 @@
 ---
 title: "TriMesh.ReadVector2"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TriMesh. قراءة حقل vector2"
 type: docs
 weight: 220
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/trimesh/readvector2/
 ---
 ## TriMesh.ReadVector2 method
 
-اقرأ الحقل من نوع vector2
+قراءة حقل vector2
 
 ```csharp
 public Vector2 ReadVector2(int idx, VertexField field)
@@ -16,12 +16,12 @@ public Vector2 ReadVector2(int idx, VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| idx | Int32 | فهرس الرأس المراد قراءته |
-| حقل | VertexField | الحقل من نوع بيانات Vector2/FVector2 |
+| idx | Int32 | فهرس الرأس للقراءة |
+| حقل | VertexField | الحقل بنوع بيانات Vector2/FVector2 |
 
 ### قيمة الإرجاع
 
-Vector2 لحقل الرأس المحدد
+Vector2 لحقل القمة المحددة
 
 ### انظر أيضًا
 

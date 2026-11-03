@@ -1,14 +1,14 @@
 ---
 title: "Cylinder.RadiusTop"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Cylinder. يحصل أو يضبط نصف قطر الغطاء العلوي للأسطوانة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Cylinder. تحصل أو تعيين نصف قطر الغطاء العلوي للأسطوانة"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.entities/cylinder/radiustop/
 ---
 ## Cylinder.RadiusTop property
 
-الحصول أو تعيين نصف قطر غطاء أعلى الأسطوانة.
+تحصل أو تعيين نصف قطر الغطاء العلوي للأسطوانة.
 
 ```csharp
 public double RadiusTop { get; set; }

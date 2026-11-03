@@ -1,6 +1,6 @@
 ---
 title: "VertexElementSmoothingGroup.VertexElementSmoothingGroup"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ VertexElementSmoothingGroup. يهيئ مثيلًا جديدًا من الفئة VertexElementSmoothingGroup"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/vertexelementsmoothinggroup/vertexelementsmo
 ---
 ## VertexElementSmoothingGroup constructor
 
-يُنشئ مثيلاً جديدًا للفئة [`VertexElementSmoothingGroup`](../).
+يهيئ مثيلًا جديدًا من الفئة [`VertexElementSmoothingGroup`](../).
 
 ```csharp
 public VertexElementSmoothingGroup()

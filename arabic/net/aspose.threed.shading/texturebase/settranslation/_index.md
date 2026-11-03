@@ -1,14 +1,14 @@
 ---
 title: "TextureBase.SetTranslation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TextureBase. يضبط ترجمة UV"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TextureBase. يعيّن ترجمة UV"
 type: docs
 weight: 150
 url: /ar/net/aspose.threed.shading/texturebase/settranslation/
 ---
 ## TextureBase.SetTranslation method
 
-يعيّن إزاحة الـ UV.
+يعيّن ترجمة UV.
 
 ```csharp
 public void SetTranslation(double u, double v)
@@ -16,8 +16,8 @@ public void SetTranslation(double u, double v)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| u | Double | U. |
-| v | Double | V. |
+| u | مضاعف | U. |
+| v | مضاعف | V. |
 
 ### انظر أيضًا
 

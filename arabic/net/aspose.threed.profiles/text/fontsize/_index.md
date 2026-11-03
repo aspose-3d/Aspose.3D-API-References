@@ -1,6 +1,6 @@
 ---
 title: "Text.FontSize"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Text. مقياس حجم الخط"
 type: docs
 weight: 40

@@ -1,7 +1,7 @@
 ---
 title: "ShaderTechnique.ShaderContent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ShaderTechnique. يحصل أو يضبط محتوى برنامج ظل مدمج. يمكن أن يكون ملف مصدر ظل HLSL/GLSL"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ShaderTechnique. يحصل أو يضبط محتوى نص تظليل مضمّن. يمكن أن يكون ملف مصدر تظليل HLSL/GLSL"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.shading/shadertechnique/shadercontent/

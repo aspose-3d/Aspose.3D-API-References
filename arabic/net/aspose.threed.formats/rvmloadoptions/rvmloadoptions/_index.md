@@ -1,14 +1,14 @@
 ---
 title: "RvmLoadOptions.RvmLoadOptions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ RvmLoadOptions. إنشاء مثيل RvmLoadOptions"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ RvmLoadOptions. إنشاء نسخة من RvmLoadOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats/rvmloadoptions/rvmloadoptions/
 ---
 ## RvmLoadOptions(FileContentType) {#constructor_1}
 
-إنشاء مثيل [`RvmLoadOptions`](../)
+إنشاء نسخة من [`RvmLoadOptions`](../)
 
 ```csharp
 public RvmLoadOptions(FileContentType contentType)
@@ -29,7 +29,7 @@ public RvmLoadOptions(FileContentType contentType)
 
 ## RvmLoadOptions() {#constructor}
 
-إنشاء مثيل [`RvmLoadOptions`](../)
+إنشاء نسخة من [`RvmLoadOptions`](../)
 
 ```csharp
 public RvmLoadOptions()

@@ -1,6 +1,6 @@
 ---
 title: "Vector3.Set"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Vector3. تُعيّن مكوّن x/y/z في استدعاء واحد"
 type: docs
 weight: 210
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/vector3/set/
 ---
 ## Vector3.Set method
 
-يضبط مكوّن x/y/z في استدعاء واحد.
+يُعيّن مكوّن x/y/z في استدعاء واحد.
 
 ```csharp
 public void Set(double newX, double newY, double newZ)
@@ -16,9 +16,9 @@ public void Set(double newX, double newY, double newZ)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| newX | Double | المكوّن x. |
-| newY | Double | المكوّن y. |
-| newZ | Double | المكوّن z. |
+| newX | مضاعف | المكوّن x. |
+| newY | مضاعف | المكوّن y. |
+| newZ | مضاعف | المكوّن z. |
 
 ### انظر أيضًا
 

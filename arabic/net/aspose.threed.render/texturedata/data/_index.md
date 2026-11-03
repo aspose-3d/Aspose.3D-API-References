@@ -1,14 +1,14 @@
 ---
 title: "TextureData.Data"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TextureData. البايتات الخام لبيانات البكسل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TextureData. بايتات خام لبيانات البكسل"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/texturedata/data/
 ---
 ## TextureData.Data property
 
-البايتات الخام لبيانات البكسل
+بايتات خام لبيانات البكسل
 
 ```csharp
 public byte[] Data { get; }

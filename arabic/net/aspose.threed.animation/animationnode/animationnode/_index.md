@@ -1,14 +1,14 @@
 ---
 title: "AnimationNode.AnimationNode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ AnimationNode. يهيئ مثيلًا جديدًا من فئة AnimationNode"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ AnimationNode. يهيئ نسخة جديدة من فئة AnimationNode"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.animation/animationnode/animationnode/
 ---
 ## AnimationNode(string) {#constructor_1}
 
-يهيئ مثيلًا جديدًا من الفئة [`AnimationNode`](../).
+يهيئ نسخة جديدة من الفئة [`AnimationNode`](../).
 
 ```csharp
 public AnimationNode(string name)
@@ -16,7 +16,7 @@ public AnimationNode(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public AnimationNode(string name)
 
 ## AnimationNode() {#constructor}
 
-يهيئ مثيلًا جديدًا من الفئة [`AnimationNode`](../).
+يهيئ نسخة جديدة من الفئة [`AnimationNode`](../).
 
 ```csharp
 public AnimationNode()

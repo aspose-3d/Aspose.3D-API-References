@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.Conjugate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. تُرجِع كواترنيون متمم للكواترنيون الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. تُرجِع رباعية مرافقة للرباعية الحالية"
 type: docs
 weight: 140
 url: /ar/net/aspose.threed.utilities/quaternion/conjugate/
 ---
 ## Quaternion.Conjugate method
 
-يرجع كواتيرنيون مرافق للكواتيرنيون الحالي
+تُرجِع رباعية مرافقة للرباعية الحالية
 
 ```csharp
 public Quaternion Conjugate()
@@ -16,7 +16,7 @@ public Quaternion Conjugate()
 
 ### قيمة الإرجاع
 
-الكواترنيون المتمم.
+الرباعية المرافقة.
 
 ### انظر أيضًا
 

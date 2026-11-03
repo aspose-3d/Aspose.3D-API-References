@@ -1,14 +1,14 @@
 ---
 title: "FMatrix4.m33"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FMatrix4 حقل. الـ m33"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FMatrix4. الـ m33"
 type: docs
 weight: 180
 url: /ar/net/aspose.threed.utilities/fmatrix4/m33/
 ---
 ## FMatrix4.m33 field
 
-ال m33.
+الـ m33.
 
 ```csharp
 public float m33;

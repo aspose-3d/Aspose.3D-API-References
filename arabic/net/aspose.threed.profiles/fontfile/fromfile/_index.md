@@ -1,6 +1,6 @@
 ---
 title: "FontFile.FromFile"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة FontFile. تحميل FontFile من اسم الملف"
 type: docs
 weight: 10
@@ -16,13 +16,13 @@ public static FontFile FromFile(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | المسار إلى ملف الخط |
+| fileName | String | مسار ملف الخط |
 
 ### قيمة الإرجاع
 
 مثيل FontFile
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

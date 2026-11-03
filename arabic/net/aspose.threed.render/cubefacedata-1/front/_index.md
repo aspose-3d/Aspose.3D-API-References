@@ -1,14 +1,14 @@
 ---
 title: "CubeFaceData1.Front"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية CubeFaceData. تحصل أو تعيّن البيانات للوجه ZFront"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية CubeFaceData. يحصل أو يضبط البيانات للوجه ZFront"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/cubefacedata-1/front/
 ---
 ## CubeFaceData&lt;T&gt;.Front property
 
-يحصل أو يعيّن البيانات للوجه -Z (الأمام)
+يحصل أو يضبط البيانات للوجه -Z(Front)
 
 ```csharp
 public T Front { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: "CubeFaceData1.PositiveY"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية CubeFaceData. تحصل أو تعيّن البيانات للوجه YTop"
 type: docs
 weight: 100
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/cubefacedata-1/positivey/
 ---
 ## CubeFaceData&lt;T&gt;.PositiveY property
 
-يحصل أو يعيّن البيانات للوجه +Y (الأعلى)
+يحصل أو يضبط البيانات للوجه +Y(Top)
 
 ```csharp
 public T PositiveY { get; set; }

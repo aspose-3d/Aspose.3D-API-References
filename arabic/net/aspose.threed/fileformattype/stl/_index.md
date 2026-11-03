@@ -1,7 +1,7 @@
 ---
 title: "FileFormatType.STL"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormatType حقل. نوع تنسيق ملف STL"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormatType. نوع تنسيق ملف STL"
 type: docs
 weight: 200
 url: /ar/net/aspose.threed/fileformattype/stl/

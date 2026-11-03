@@ -1,14 +1,14 @@
 ---
 title: "NurbsDirection.Divisions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsDirection. يحصل أو يضبط عدد الأقسام بين نقاط التحكم المتجاورة في الاتجاه الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsDirection. يحصل على أو يضبط عدد الأقسام بين نقاط التحكم المتجاورة في الاتجاه الحالي"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/nurbsdirection/divisions/
 ---
 ## NurbsDirection.Divisions property
 
-يحصل أو يعيّن عدد الأقسام بين نقاط التحكم المتجاورة في الاتجاه الحالي.
+يسترجع أو يعيّن عدد الأقسام بين نقاط التحكم المتجاورة في الاتجاه الحالي.
 
 ```csharp
 public int Divisions { get; set; }

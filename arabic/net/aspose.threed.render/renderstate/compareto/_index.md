@@ -1,7 +1,7 @@
 ---
 title: "RenderState.CompareTo"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderState. مقارنة حالة العرض مع نسخة أخرى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "RenderState طريقة. قارن حالة العرض مع نسخة أخرى"
 type: docs
 weight: 190
 url: /ar/net/aspose.threed.render/renderstate/compareto/

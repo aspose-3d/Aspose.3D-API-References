@@ -1,7 +1,7 @@
 ---
 title: "Torus.Tube"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Torus. الحصول أو تعيين نصف قطر الأنبوب"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Torus. يحصل أو يضبط نصف قطر الأنبوب"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/torus/tube/

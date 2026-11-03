@@ -1,14 +1,14 @@
 ---
 title: "Plane.Length"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Plane. تحصل أو تعين طول المستوى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Plane. يحصل أو يضبط طول المستوى"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/plane/length/
 ---
 ## Plane.Length property
 
-الحصول على أو تعيين طول السطح.
+يحصل أو يضبط طول المستوى.
 
 ```csharp
 public double Length { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.Subject"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AssetInfo. تحصل أو تعين موضوع هذا الأصل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "AssetInfo property. يحصل أو يعيّن موضوع هذا الأصل"
 type: docs
 weight: 160
 url: /ar/net/aspose.threed/assetinfo/subject/
 ---
 ## AssetInfo.Subject property
 
-الحصول أو تعيين موضوع هذا الأصل
+يحصل أو يعيّن موضوع هذا الأصل
 
 ```csharp
 public string Subject { get; set; }

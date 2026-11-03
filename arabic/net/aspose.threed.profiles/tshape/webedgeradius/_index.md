@@ -1,14 +1,14 @@
 ---
 title: "TShape.WebEdgeRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TShape. يسترجع أو يعيّن نصف قطر حافة الويب"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TShape. يحصل أو يحدد نصف قطر حافة الويب"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.profiles/tshape/webedgeradius/
 ---
 ## TShape.WebEdgeRadius property
 
-يحصل أو يعيّن نصف قطر حافة الشبكة.
+يحصل أو يحدد نصف قطر حافة الويب.
 
 ```csharp
 public double WebEdgeRadius { get; set; }

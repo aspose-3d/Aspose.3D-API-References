@@ -1,14 +1,14 @@
 ---
 title: "Cylinder.ThetaStart"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Cylinder. يحصل أو يعيّن بدء الثيتا. القيمة الافتراضية هي 0"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Cylinder. تحصل أو تعين بداية الثيتا. القيمة الافتراضية هي 0"
 type: docs
 weight: 140
 url: /ar/net/aspose.threed.entities/cylinder/thetastart/
 ---
 ## Cylinder.ThetaStart property
 
-الحصول أو تعيين بداية الثيتا. القيمة الافتراضية هي 0.
+تحصل أو تعين بداية الثيتا. القيمة الافتراضية هي 0.
 
 ```csharp
 public double ThetaStart { get; set; }

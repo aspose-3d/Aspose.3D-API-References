@@ -1,14 +1,14 @@
 ---
 title: "Transform.PostRotation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Transform. تحصل أو تعين ما بعد الدوران الممثل بالدرجة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Transform. يحصل أو يضبط دوران ما بعد التمثيل بالدرجة"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed/transform/postrotation/
 ---
 ## Transform.PostRotation property
 
-يحصل أو يعيّن الدوران اللاحق الممثّل بالدرجة
+يحصل أو يضبط الدوران ما بعد التمثيل بالدرجة
 
 ```csharp
 public Vector3 PostRotation { get; set; }

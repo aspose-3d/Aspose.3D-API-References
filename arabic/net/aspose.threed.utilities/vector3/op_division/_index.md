@@ -1,14 +1,14 @@
 ---
 title: "Vector3.op_Division"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector3. تحميل عامل التشغيل لـ /"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector3. إعادة تعريف المشغل لـ /"
 type: docs
 weight: 250
 url: /ar/net/aspose.threed.utilities/vector3/op_division/
 ---
 ## operator / {#op_division_1}
 
-إعادة تعريف العامل /
+إعادة تعريف المشغل لـ /
 
 ```csharp
 public static Vector3 operator /(Vector3 lhs, double rhs)
@@ -17,7 +17,7 @@ public static Vector3 operator /(Vector3 lhs, double rhs)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | lhs | Vector3 | المتجه الأيسر |
-| rhs | Double | القيمة المزدوجة اليمنى |
+| rhs | مضاعف | القيمة المزدوجة اليمنى |
 
 ### قيمة الإرجاع
 
@@ -33,7 +33,7 @@ public static Vector3 operator /(Vector3 lhs, double rhs)
 
 ## operator / {#op_division}
 
-إعادة تعريف العامل /
+إعادة تعريف المشغل لـ /
 
 ```csharp
 public static Vector3 operator /(Vector3 lhs, Vector3 rhs)

@@ -1,14 +1,14 @@
 ---
 title: "NurbsCurve.Degree"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsCurve. تحصل أو تعين درجة منحنى NURBS حيث تُعرف الدرجة بأنها الترتيب 1"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsCurve. يحصل أو يعيّن درجة منحنى NURBS حيث تُعرّف الدرجة كـ Order  1"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/nurbscurve/degree/
 ---
 ## NurbsCurve.Degree property
 
-الحصول على أو تعيين درجة منحنى NURBS، حيث تُعرّف الدرجة بأنها الترتيب - 1.
+يحصل أو يعيّن درجة منحنى NURBS، حيث تُعرّف الدرجة كـ Order - 1
 
 ```csharp
 public int Degree { get; set; }

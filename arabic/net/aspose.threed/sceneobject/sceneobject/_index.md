@@ -1,6 +1,6 @@
 ---
 title: "SceneObject.SceneObject"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ SceneObject. يهيئ كائن SceneObject باسم افتراضي"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/sceneobject/sceneobject/
 ---
 ## SceneObject(string) {#constructor_1}
 
-تهيئة SceneObject باسم افتراضي
+تهيئ كائن SceneObject باسم افتراضي
 
 ```csharp
 public SceneObject(string name)
@@ -16,7 +16,7 @@ public SceneObject(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم هذا المثيل |
+| الاسم | String | اسم هذا المثيل |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public SceneObject(string name)
 
 ## SceneObject() {#constructor}
 
-تهيئة SceneObject.
+تهيئ كائن SceneObject.
 
 ```csharp
 public SceneObject()

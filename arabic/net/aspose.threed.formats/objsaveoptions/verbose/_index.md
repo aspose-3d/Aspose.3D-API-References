@@ -1,14 +1,14 @@
 ---
 title: "ObjSaveOptions.Verbose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ObjSaveOptions. يحصل أو يضبط ما إذا كان يتم إنشاء تعليقات لكل قسم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ObjSaveOptions. يحصل أو يعيّن ما إذا كان يتم توليد تعليقات لكل قسم"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.formats/objsaveoptions/verbose/
 ---
 ## ObjSaveOptions.Verbose property
 
-يحصل أو يعيّن ما إذا كان سيتم إنشاء تعليقات لكل قسم.
+يحصل أو يعيّن ما إذا كان يتم توليد تعليقات لكل قسم
 
 ```csharp
 public bool Verbose { get; set; }

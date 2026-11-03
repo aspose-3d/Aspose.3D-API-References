@@ -1,14 +1,14 @@
 ---
 title: "Camera.Width"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Camera. تحصل أو تعيين عرض طائرات العرض مقاسًا بالبوصة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Camera. يحصل أو يضبط عرض سطح العرض مقاسًا بالبوصة"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.entities/camera/width/
 ---
 ## Camera.Width property
 
-يحصل أو يعيّن عرض مستوى العرض مقاسًا بالبوصة
+يحصل أو يضبط عرض سطح العرض مقاسًا بالبوصة
 
 ```csharp
 public double Width { get; set; }

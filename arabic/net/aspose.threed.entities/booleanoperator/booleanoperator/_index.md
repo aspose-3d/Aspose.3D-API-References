@@ -1,6 +1,6 @@
 ---
 title: "BooleanOperator.BooleanOperator"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ BooleanOperator. منشئ BooleanOperator"
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ public BooleanOperator()
 
 ## BooleanOperator(BooleanOperation, A3DObject, A3DObject) {#constructor_1}
 
-ينشئ مثيلاً جديدًا من [`BooleanOperator`](../) مع معاملين
+ينشئ مثيلاً جديداً من [`BooleanOperator`](../) مع مُعاملين
 
 ```csharp
 public BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject second)
@@ -32,9 +32,9 @@ public BooleanOperator(BooleanOperation operation, A3DObject first, A3DObject se
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عملية | BooleanOperation | نوع عملية Boolean |
-| first | A3DObject | مثيل من [`IMeshConvertible`](../../imeshconvertible/), [`HalfSpace`](../../halfspace/) أو [`Node`](../../../aspose.threed/node/) |
-| second | A3DObject | مثيل من [`IMeshConvertible`](../../imeshconvertible/), [`HalfSpace`](../../halfspace/) أو [`Node`](../../../aspose.threed/node/) |
+| عملية | BooleanOperation | نوع العملية البوليانية |
+| first | A3DObject | مثيل من [`IMeshConvertible`](../../imeshconvertible/)، [`HalfSpace`](../../halfspace/) أو [`Node`](../../../aspose.threed/node/) |
+| second | A3DObject | مثيل من [`IMeshConvertible`](../../imeshconvertible/)، [`HalfSpace`](../../halfspace/) أو [`Node`](../../../aspose.threed/node/) |
 
 ### انظر أيضًا
 

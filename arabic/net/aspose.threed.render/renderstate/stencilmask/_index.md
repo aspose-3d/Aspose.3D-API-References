@@ -1,14 +1,14 @@
 ---
 title: "RenderState.StencilMask"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RenderState. الحصول على أو تعيين القناع الذي يتم دمجه (AND) مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند انتهاء الاختبار"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RenderState. يحصل أو يضبط القناع الذي يتم دمجه (AND) مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند الانتهاء من الاختبار"
 type: docs
 weight: 160
 url: /ar/net/aspose.threed.render/renderstate/stencilmask/
 ---
 ## RenderState.StencilMask property
 
-يحصل أو يعيّن القناع الذي يُجرى معه عملية AND مع كل من القيمة المرجعية والقيمة المخزنة للقالب عند إكمال الاختبار.
+يحصل أو يضبط القناع الذي يتم دمجه (AND) مع كل من القيمة المرجعية والقيمة المخزنة للستينسل عند الانتهاء من الاختبار.
 
 ```csharp
 public uint StencilMask { get; set; }

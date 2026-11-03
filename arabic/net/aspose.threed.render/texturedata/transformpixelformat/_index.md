@@ -1,6 +1,6 @@
 ---
 title: "TextureData.TransformPixelFormat"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TextureData. تحويل تخطيط البكسلات إلى تنسيق بكسل جديد"
 type: docs
 weight: 120
@@ -16,13 +16,13 @@ public void TransformPixelFormat(PixelFormat pixelFormat)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| pixelFormat | PixelFormat | تنسيق البكسل الوجهة |
+| pixelFormat | PixelFormat | تنسيق البكسل الهدف |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| NotSupportedException | عندما لا يكون تنسيق البكسل المصدر أو الوجهة مدعومًا |
+| NotSupportedException | عند عدم دعم تنسيق البكسل المصدر أو الهدف |
 
 ### انظر أيضًا
 

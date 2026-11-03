@@ -1,14 +1,14 @@
 ---
 title: "Box.Width"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Box. تحصل أو تعيين عرض الصندوق المتراص على المحور x"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Box. تحصل أو تعيّن عرض الصندوق المتجه على محور x"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/box/width/
 ---
 ## Box.Width property
 
-يحصل أو يعيّن عرض الصندوق المتّ align على محور x.
+تحصل أو تعيّن عرض الصندوق المتجه على محور x.
 
 ```csharp
 public double Width { get; set; }
@@ -16,7 +16,7 @@ public double Width { get; set; }
 
 ### Property Value
 
-العرض المتراص على المحور x.
+العرض المتجه على محور x.
 
 ### انظر أيضًا
 

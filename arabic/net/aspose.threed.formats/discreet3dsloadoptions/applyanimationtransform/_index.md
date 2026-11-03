@@ -1,6 +1,6 @@
 ---
 title: "Discreet3dsLoadOptions.ApplyAnimationTransform"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Discreet3dsLoadOptions. يحصل أو يضبط ما إذا كان سيتم استخدام التحويل المحدد في الإطار الأول لمسار الرسوم المتحركة"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats/discreet3dsloadoptions/applyanimationtransfor
 ---
 ## Discreet3dsLoadOptions.ApplyAnimationTransform property
 
-يحصل أو يعيّن ما إذا كان سيتم استخدام التحويل المحدد في الإطار الأول لمسار الرسوم المتحركة.
+يحصل أو يضبط ما إذا كان سيتم استخدام التحويل المحدد في الإطار الأول لمسار الرسوم المتحركة.
 
 ```csharp
 public bool ApplyAnimationTransform { get; set; }

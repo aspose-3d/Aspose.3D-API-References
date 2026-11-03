@@ -1,14 +1,14 @@
 ---
 title: "Sphere.WidthSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Sphere. يحصل أو يضبط مقاطع العرض"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Sphere. يحصل أو يضبط شرائح العرض"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/sphere/widthsegments/
 ---
 ## Sphere.WidthSegments property
 
-الحصول على أو تعيين مقاطع العرض.
+يحصل أو يضبط مقاطع العرض.
 
 ```csharp
 public int WidthSegments { get; set; }

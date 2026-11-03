@@ -1,6 +1,6 @@
 ---
 title: "RvmLoadOptions.GenerateMaterials"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RvmLoadOptions. إنشاء مواد بألوان عشوائية لكل كائن في المشهد إذا لم يتم تصدير جدول الألوان داخل ملف RVM. القيمة الافتراضية هي true"
 type: docs
 weight: 70

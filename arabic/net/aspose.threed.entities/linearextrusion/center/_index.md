@@ -1,14 +1,14 @@
 ---
 title: "LinearExtrusion.Center"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية LinearExtrusion. إذا كانت هذه القيمة false فإن نطاق Z للامتداد الخطي يكون من 0 إلى الارتفاع وإلا يكون النطاق من height/2 إلى height/2"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية LinearExtrusion. إذا كانت هذه القيمة خاطئة فإن نطاق Z للبثق الخطي يكون من 0 إلى الارتفاع، وإلا يكون النطاق من الارتفاع/2 إلى الارتفاع/2"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/linearextrusion/center/
 ---
 ## LinearExtrusion.Center property
 
-إذا كانت هذه القيمة خاطئة، يكون نطاق Z للاستطالة الخطية من 0 إلى الارتفاع، وإلا يكون النطاق من -height/2 إلى height/2.
+إذا كانت هذه القيمة خاطئة، فإن نطاق Z للبثق الخطي يكون من 0 إلى الارتفاع، وإلا يكون النطاق من -الارتفاع/2 إلى الارتفاع/2.
 
 ```csharp
 public bool Center { get; set; }

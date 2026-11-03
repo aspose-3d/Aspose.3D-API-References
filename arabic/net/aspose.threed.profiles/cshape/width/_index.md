@@ -1,14 +1,14 @@
 ---
 title: "CShape.Width"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية CShape. يسترجع أو يعيّن عرض الملف"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية CShape. يحصل أو يضبط عرض الملف الشخصي"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.profiles/cshape/width/
 ---
 ## CShape.Width property
 
-يحصل أو يضبط عرض الملف التعريفي.
+يحصل أو يضبط عرض الملف الشخصي.
 
 ```csharp
 public double Width { get; set; }

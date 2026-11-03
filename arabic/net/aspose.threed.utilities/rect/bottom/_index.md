@@ -1,14 +1,14 @@
 ---
 title: "Rect.Bottom"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Rect. تسترجع أسفل المستطيل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Rect. تحصل على الجزء السفلي من المستطيل"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/rect/bottom/
 ---
 ## Rect.Bottom property
 
-يسترجع أسفل المستطيل
+تحصل على الجزء السفلي من المستطيل
 
 ```csharp
 public int Bottom { get; }

@@ -1,14 +1,14 @@
 ---
 title: "TShape.FlangeWidth"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TShape. يسترجع أو يعيّن طول الوشي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TShape. يسترجع أو يعيّن طول الشفة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.profiles/tshape/flangewidth/
 ---
 ## TShape.FlangeWidth property
 
-يحصل أو يعيّن طول الشفة.
+يسترجع أو يعيّن طول الشفة.
 
 ```csharp
 public double FlangeWidth { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "HShape.WebThickness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HShape. تحصل أو تعيين سمك الويب لـ HShape"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HShape. تحصل أو تعين سمك الجدار لشكل Hshape"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.profiles/hshape/webthickness/
 ---
 ## HShape.WebThickness property
 
-يحصل أو يضبط سمك الجدار الداخلي لشكل H.
+تحصل أو تعين سمك الجدار لشكل H-shape.
 
 ```csharp
 public double WebThickness { get; set; }

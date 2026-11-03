@@ -1,14 +1,14 @@
 ---
 title: "TextureData.Save"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TextureData. حفظ بيانات النسيج بتنسيق صورة محدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TextureData. حفظ بيانات النسيج إلى تنسيق صورة محدد"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.render/texturedata/save/
 ---
 ## Save(Stream, string) {#save}
 
-حفظ بيانات القوام في تنسيق صورة محدد
+حفظ بيانات النسيج إلى تنسيق صورة محدد
 
 ```csharp
 public void Save(Stream stream, string format)
@@ -16,8 +16,8 @@ public void Save(Stream stream, string format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | الدفق الذي يحتوي على الصورة المحفوظة |
-| تنسيق | سلسلة | تنسيق الصورة، عادةً ما يكون امتداد الملف |
+| تدفق | تدفق | الدفق الذي يحتوي على الصورة المحفوظة |
+| تنسيق | String | تنسيق الصورة، عادةً ما يكون امتداد الملف |
 
 ### انظر أيضًا
 
@@ -29,7 +29,7 @@ public void Save(Stream stream, string format)
 
 ## Save(string) {#save_1}
 
-حفظ بيانات القوام في ملف صورة
+حفظ بيانات النسيج إلى ملف صورة
 
 ```csharp
 public void Save(string fileName)
@@ -37,7 +37,7 @@ public void Save(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف حيث سيتم حفظ الصورة. |
+| fileName | String | اسم الملف الذي سيتم حفظ الصورة فيه. |
 
 ### انظر أيضًا
 
@@ -49,7 +49,7 @@ public void Save(string fileName)
 
 ## Save(string, string) {#save_2}
 
-حفظ بيانات القوام في ملف صورة
+حفظ بيانات النسيج إلى ملف صورة
 
 ```csharp
 public void Save(string fileName, string format)
@@ -57,8 +57,8 @@ public void Save(string fileName, string format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف حيث سيتم حفظ الصورة. |
-| تنسيق | سلسلة | تنسيق الصورة للملف الناتج. |
+| fileName | String | اسم الملف الذي سيتم حفظ الصورة فيه. |
+| تنسيق | String | تنسيق الصورة لملف الإخراج. |
 
 ### انظر أيضًا
 

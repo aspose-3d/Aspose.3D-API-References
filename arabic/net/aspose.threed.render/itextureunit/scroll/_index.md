@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.Scroll"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل أو يضبط تمرير إحداثيات UV"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. تحصل أو تضبط تمرير إحداثيات UV"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.render/itextureunit/scroll/
 ---
 ## ITextureUnit.Scroll property
 
-الحصول أو تعيين تمرير إحداثيات UV.
+تحصل أو تضبط تمرير إحداثيات UV.
 
 ```csharp
 public Vector2 Scroll { get; set; }

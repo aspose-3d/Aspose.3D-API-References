@@ -1,7 +1,7 @@
 ---
 title: "TransformBuilder.Compose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TransformBuilder. أضف أو أدرج الوسيط إلى المصفوفة الداخلية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TransformBuilder. إلحاق أو إلحاق مسبق للمعامل إلى المصفوفة الداخلية"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.utilities/transformbuilder/compose/

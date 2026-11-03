@@ -1,14 +1,14 @@
 ---
 title: "RenderState.BlendColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RenderState. الحصول على أو تعيين لون الدمج حيث يُستخدم في ConstantColor"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "RenderState خاصية. الحصول أو تعيين لون المزج حيث يُستخدم في ConstantColor"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/renderstate/blendcolor/
 ---
 ## RenderState.BlendColor property
 
-يحصل أو يعيّن لون الدمج حيث يُستخدم في ConstantColor
+يحصل أو يضبط لون المزج حيث يُستخدم في ConstantColor
 
 ```csharp
 public FVector4 BlendColor { get; set; }

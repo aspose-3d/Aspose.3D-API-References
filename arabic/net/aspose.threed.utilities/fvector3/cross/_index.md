@@ -1,7 +1,7 @@
 ---
 title: "FVector3.Cross"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FVector3. حاصل الضرب المتقاطع لاثنين من المتجهات"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector3. حاصل الضرب المتقاطع لمتجهين"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/fvector3/cross/
@@ -16,11 +16,11 @@ public FVector3 Cross(FVector3 rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| rhs | FVector3 | قيمة الطرف الأيمن. |
+| rhs | FVector3 | قيمة الجانب الأيمن. |
 
 ### قيمة الإرجاع
 
-حاصل الضرب المتقاطع لاثنين من [`FVector3`](../)s.
+حاصل الضرب المتقاطع لمتجهين من [`FVector3`](../).
 
 ### انظر أيضًا
 

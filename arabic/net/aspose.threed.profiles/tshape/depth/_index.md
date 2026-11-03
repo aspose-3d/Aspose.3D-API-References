@@ -1,6 +1,6 @@
 ---
 title: "TShape.Depth"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية TShape. يسترجع أو يعيّن طول الويب"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/tshape/depth/
 ---
 ## TShape.Depth property
 
-يحصل أو يعيّن طول الشبكة.
+يسترجع أو يعيّن طول الويب.
 
 ```csharp
 public double Depth { get; set; }

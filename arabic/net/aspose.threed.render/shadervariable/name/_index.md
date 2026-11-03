@@ -1,6 +1,6 @@
 ---
 title: "ShaderVariable.Name"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية ShaderVariable. تحصل على اسم هذا المتغيّر"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/shadervariable/name/
 ---
 ## ShaderVariable.Name property
 
-يحصل على اسم هذا المتغير
+تحصل على اسم هذا المتغيّر
 
 ```csharp
 public string Name { get; }

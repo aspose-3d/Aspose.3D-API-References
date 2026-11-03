@@ -1,14 +1,14 @@
 ---
 title: "BooleanOperand.Operand"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BooleanOperand. تحصل على المعامل؛ يمكن أن يكون مثيلاً من HalfSpace أو IMeshConvertible أو Node."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية BooleanOperand. تسترجع المعامل؛ يمكن أن يكون مثالًا من HalfSpace أو IMeshConvertible أو Node"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/booleanoperand/operand/
 ---
 ## BooleanOperand.Operand property
 
-يحصل على المعامل، يمكن أن يكون مثيلاً من [`HalfSpace`](../../halfspace/)، [`IMeshConvertible`](../../imeshconvertible/) أو [`Node`](../../../aspose.threed/node/).
+تسترجع المعامل، يمكن أن يكون مثالًا لـ [`HalfSpace`](../../halfspace/)، [`IMeshConvertible`](../../imeshconvertible/) أو [`Node`](../../../aspose.threed/node/).
 
 ```csharp
 public A3DObject Operand { get; }

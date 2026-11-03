@@ -1,7 +1,7 @@
 ---
 title: "Shape.Indices"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Shape. تحصل على الفهارس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Shape. يحصل على الفهارس"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/shape/indices/

@@ -1,6 +1,6 @@
 ---
 title: "TransformBuilder.Rearrange"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TransformBuilder. إعادة ترتيب تخطيط المحور"
 type: docs
 weight: 70
@@ -16,9 +16,9 @@ public TransformBuilder Rearrange(Axis newX, Axis newY, Axis newZ)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| newX | المحور | مصدر المكوّن x الجديد |
-| newY | المحور | مصدر المكوّن y الجديد |
-| newZ | المحور | مصدر المكوّن z الجديد |
+| newX | المحور | مصدر العنصر x الجديد |
+| newY | المحور | مصدر العنصر y الجديد |
+| newZ | المحور | مصدر العنصر z الجديد |
 
 ### انظر أيضًا
 

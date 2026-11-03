@@ -1,14 +1,14 @@
 ---
 title: "Scene.CreateAnimationClip"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Scene. دالة مختصرة لإنشاء وتسجيل الـAnimationClip. سيتم تعيين أول AnimationClip إلى الـCurrentAnimationClip."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Scene. دالة مختصرة لإنشاء وتسجيل الـ AnimationClip. سيتم تعيين أول AnimationClip إلى CurrentAnimationClip"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed/scene/createanimationclip/
 ---
 ## Scene.CreateAnimationClip method
 
-دالة مختصرة لإنشاء وتسجيل الـ[`AnimationClip`](../../../aspose.threed.animation/animationclip/). أول [`AnimationClip`](../../../aspose.threed.animation/animationclip/) سيتم تعيينه إلى الـ[`CurrentAnimationClip`](../currentanimationclip/).
+دالة مختصرة لإنشاء وتسجيل الـ[`AnimationClip`](../../../aspose.threed.animation/animationclip/) سيتم تعيين الـ[`AnimationClip`](../../../aspose.threed.animation/animationclip/) الأول إلى الـ[`CurrentAnimationClip`](../currentanimationclip/)
 
 ```csharp
 public AnimationClip CreateAnimationClip(string name)
@@ -16,11 +16,11 @@ public AnimationClip CreateAnimationClip(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم مقطع الرسوم المتحركة |
+| الاسم | String | اسم مقطع الرسوم المتحركة |
 
 ### قيمة الإرجاع
 
-مثيل جديد لمقطع الرسوم المتحركة بالاسم المحدد.
+مثيل جديد لمقطع الرسوم المتحركة بالاسم المعطى
 
 ### انظر أيضًا
 

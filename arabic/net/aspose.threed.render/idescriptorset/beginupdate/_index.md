@@ -1,6 +1,6 @@
 ---
 title: "IDescriptorSet.BeginUpdate"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة IDescriptorSet. ابدأ بتحديث مجموعة الوصف"
 type: docs
 weight: 10

@@ -1,6 +1,6 @@
 ---
 title: "EntityRenderer.EntityRenderer"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ EntityRenderer. منشئ EntityRenderer"
 type: docs
 weight: 10
@@ -16,8 +16,8 @@ public EntityRenderer(string key, EntityRendererFeatures features)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المفتاح | سلسلة | المفتاح الخاص بـ entity renderer |
-| الميزات | EntityRendererFeatures | الميزات الإضافية لمُعالج الكيان |
+| المفتاح | String | المفتاح الخاص بـ entity renderer |
+| الميزات | EntityRendererFeatures | الميزات الإضافية لمُظهر الكيان |
 
 ### انظر أيضًا
 
@@ -38,7 +38,7 @@ public EntityRenderer(string key)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المفتاح | سلسلة | المفتاح الخاص بـ entity renderer |
+| المفتاح | String | المفتاح الخاص بـ entity renderer |
 
 ### انظر أيضًا
 

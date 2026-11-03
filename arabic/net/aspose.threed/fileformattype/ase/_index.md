@@ -1,7 +1,7 @@
 ---
 title: "FileFormatType.ASE"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormatType حقل. تنسيق مُصدّر المشهد ASCII لبرنامج 3D Studio Max"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormatType حقل. تنسيق مصدر ASCII لمُصدّر المشهد لبرنامج 3D Studio Max"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/fileformattype/ase/

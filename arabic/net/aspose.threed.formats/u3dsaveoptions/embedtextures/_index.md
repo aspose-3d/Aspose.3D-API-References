@@ -1,6 +1,6 @@
 ---
 title: "U3dSaveOptions.EmbedTextures"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية U3dSaveOptions. تضمين القوام الخارجية في ملف U3D القيمة الافتراضية هي false"
 type: docs
 weight: 20

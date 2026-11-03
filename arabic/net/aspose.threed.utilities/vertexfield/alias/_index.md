@@ -1,14 +1,14 @@
 ---
 title: "VertexField.Alias"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية VertexField. الاسم المستعار مُعَلَّم بالخاصية SemanticAttribute"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "VertexField خاصية. الاسم المستعار موضح بواسطة السمة SemanticAttribute"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/vertexfield/alias/
 ---
 ## VertexField.Alias property
 
-الاسم المستعار مُعَلَّم بالخاصية [`SemanticAttribute`](../../semanticattribute/)
+الاسم المستعار موضح بواسطة السمة [`SemanticAttribute`](../../semanticattribute/)
 
 ```csharp
 public string Alias { get; }

@@ -1,14 +1,14 @@
 ---
 title: "VertexElementVector4.Data"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية VertexElementVector4. تحصل على بيانات القمة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية VertexElementVector4. تسترجع بيانات الرأس"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/vertexelementvector4/data/
 ---
 ## VertexElementVector4.Data property
 
-يحصل على بيانات الرأس
+يحصل على بيانات الرؤوس
 
 ```csharp
 public IArrayList<Vector4> Data { get; }

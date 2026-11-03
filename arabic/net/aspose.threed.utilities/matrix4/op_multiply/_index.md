@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.op_Multiply"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. ضرب المصفوفتين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Matrix4. اضرب المصفوفتين"
 type: docs
 weight: 320
 url: /ar/net/aspose.threed.utilities/matrix4/op_multiply/
 ---
 ## operator * {#op_multiply}
 
-ضرب المصفوفتين
+اضرب المصفوفتين
 
 ```csharp
 public static Matrix4 operator *(Matrix4 lhs, Matrix4 rhs)
@@ -17,7 +17,7 @@ public static Matrix4 operator *(Matrix4 lhs, Matrix4 rhs)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | lhs | Matrix4 | الجهة اليسرى. |
-| rhs | Matrix4 | Rhs. |
+| rhs | Matrix4 | الطرف الأيمن. |
 
 ### قيمة الإرجاع
 
@@ -33,7 +33,7 @@ public static Matrix4 operator *(Matrix4 lhs, Matrix4 rhs)
 
 ## operator * {#op_multiply_2}
 
-ضرب المصفوفة والمتجه3
+اضرب المصفوفة والمتجه3
 
 ```csharp
 public static Vector3 operator *(Matrix4 lhs, Vector3 v)
@@ -59,7 +59,7 @@ public static Vector3 operator *(Matrix4 lhs, Vector3 v)
 
 ## operator * {#op_multiply_3}
 
-ضرب المصفوفة والمتجه4
+اضرب المصفوفة والمتجه4
 
 ```csharp
 public static Vector4 operator *(Matrix4 lhs, Vector4 v)
@@ -85,7 +85,7 @@ public static Vector4 operator *(Matrix4 lhs, Vector4 v)
 
 ## operator * {#op_multiply_1}
 
-ضرب المصفوفة والقيمة المزدوجة
+اضرب المصفوفة والقيمة المزدوجة
 
 ```csharp
 public static Matrix4 operator *(Matrix4 lhs, double v)
@@ -94,7 +94,7 @@ public static Matrix4 operator *(Matrix4 lhs, double v)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | lhs | Matrix4 | الجهة اليسرى. |
-| v | Double | V. |
+| v | مضاعف | V. |
 
 ### قيمة الإرجاع
 

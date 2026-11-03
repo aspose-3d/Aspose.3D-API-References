@@ -1,7 +1,7 @@
 ---
 title: "Vector2.Length"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Vector2 خاصية. يحصل على الطول"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Vector2. يحصل على الطول"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/vector2/length/

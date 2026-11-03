@@ -1,6 +1,6 @@
 ---
 title: "Texture.Texture"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Texture. يهيئ نسخة جديدة من فئة Texture"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.shading/texture/texture/
 ---
 ## Texture() {#constructor}
 
-يهيئ نسخة جديدة من الفئة [`Texture`](../).
+يهيئ نسخة جديدة من فئة [`Texture`](../).
 
 ```csharp
 public Texture()
@@ -24,7 +24,7 @@ public Texture()
 
 ## Texture(string) {#constructor_1}
 
-يهيئ نسخة جديدة من الفئة [`Texture`](../).
+يهيئ نسخة جديدة من فئة [`Texture`](../).
 
 ```csharp
 public Texture(string name)
@@ -32,7 +32,7 @@ public Texture(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "Renderer.AssetDirectories"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Renderer. الأدلة التي تخزن الأصول الخارجية"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/renderer/assetdirectories/
 ---
 ## Renderer.AssetDirectories property
 
-الدلائل التي تخزن الأصول الخارجية
+الأدلة التي تخزن الأصول الخارجية
 
 ```csharp
 public List<string> AssetDirectories { get; }

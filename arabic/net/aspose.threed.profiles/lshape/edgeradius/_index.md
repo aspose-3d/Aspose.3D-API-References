@@ -1,6 +1,6 @@
 ---
 title: "LShape.EdgeRadius"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية LShape. تحصل أو تعين نصف قطر الحافة"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/lshape/edgeradius/
 ---
 ## LShape.EdgeRadius property
 
-يحصل أو يضبط نصف قطر الحافة.
+تحصل أو تعين نصف قطر الحافة.
 
 ```csharp
 public double EdgeRadius { get; set; }

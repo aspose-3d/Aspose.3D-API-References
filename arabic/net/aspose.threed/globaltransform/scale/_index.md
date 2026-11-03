@@ -1,7 +1,7 @@
 ---
 title: "GlobalTransform.Scale"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GlobalTransform. تحصل على المقياس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "GlobalTransform خاصية. يحصل على المقياس"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/globaltransform/scale/

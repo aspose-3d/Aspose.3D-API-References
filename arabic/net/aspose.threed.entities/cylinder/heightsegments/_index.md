@@ -1,14 +1,14 @@
 ---
 title: "Cylinder.HeightSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Cylinder. يحصل أو يضبط مقاطع الارتفاع"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Cylinder. تحصل أو تعيين مقاطع الارتفاع"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/cylinder/heightsegments/
 ---
 ## Cylinder.HeightSegments property
 
-يحصل أو يضبط مقاطع الارتفاع.
+يحصل أو يضبط شرائح الارتفاع.
 
 ```csharp
 public int HeightSegments { get; set; }
@@ -16,7 +16,7 @@ public int HeightSegments { get; set; }
 
 ### Property Value
 
-مقاطع الارتفاع.
+شرائح الارتفاع.
 
 ### انظر أيضًا
 

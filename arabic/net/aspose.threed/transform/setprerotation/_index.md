@@ -1,6 +1,6 @@
 ---
 title: "Transform.SetPreRotation"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Transform. تعين ما قبل الدوران الممثل بالدرجة"
 type: docs
 weight: 200
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/transform/setprerotation/
 ---
 ## Transform.SetPreRotation method
 
-يضبط الدوران السابق الممثّل بالدرجة
+تعيّن ما قبل الدوران الممثل بالدرجة
 
 ```csharp
 public Transform SetPreRotation(double rx, double ry, double rz)

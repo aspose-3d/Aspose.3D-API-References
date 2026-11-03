@@ -1,6 +1,6 @@
 ---
 title: "BindPoint.AddChannel"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة BindPoint."
 type: docs
 weight: 50
@@ -30,12 +30,12 @@ public bool AddChannel(string name, object value)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 | القيمة | كائن | القيمة. |
 
 ### قيمة الإرجاع
 
-true، إذا تمت إضافة القناة، false خلاف ذلك.
+صحيح إذا تمت إضافة القناة، خطأ خلاف ذلك.
 
 ### انظر أيضًا
 
@@ -55,13 +55,13 @@ public bool AddChannel(string name, Type type, object value)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
-| type | النوع | النوع. |
+| الاسم | String | الاسم. |
+| نوع | النوع | النوع. |
 | القيمة | كائن | القيمة. |
 
 ### قيمة الإرجاع
 
-true، إذا تمت إضافة القناة، false خلاف ذلك.
+صحيح إذا تمت إضافة القناة، خطأ خلاف ذلك.
 
 ### انظر أيضًا
 

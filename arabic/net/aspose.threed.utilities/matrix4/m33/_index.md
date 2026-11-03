@@ -1,6 +1,6 @@
 ---
 title: "Matrix4.m33"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل Matrix4. الـ m33"
 type: docs
 weight: 230
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/matrix4/m33/
 ---
 ## Matrix4.m33 field
 
-ال m33.
+الـ m33.
 
 ```csharp
 public double m33;

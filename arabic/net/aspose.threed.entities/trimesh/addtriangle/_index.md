@@ -1,7 +1,7 @@
 ---
 title: "TriMesh.AddTriangle"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TriMesh. أضف مثلثًا جديدًا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TriMesh. إضافة مثلث جديد"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.entities/trimesh/addtriangle/

@@ -1,6 +1,6 @@
 ---
 title: "TextureData.TextureData"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ TextureData. منشئ لـ TextureData"
 type: docs
 weight: 10
@@ -35,7 +35,7 @@ public TextureData(int width, int height, int stride, int bytesPerPixel, PixelFo
 
 ## TextureData(int, int, PixelFormat) {#constructor_1}
 
-ينشئ كائنًا جديدًا [`TextureData`](../) ويخصص بيانات البكسل.
+إنشاء [`TextureData`](../) جديد وتخصيص بيانات البكسل.
 
 ```csharp
 public TextureData(int width, int height, PixelFormat pixelFormat)

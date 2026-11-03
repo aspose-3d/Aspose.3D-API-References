@@ -1,7 +1,7 @@
 ---
 title: "U3dSaveOptions.U3dSaveOptions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "U3dSaveOptions constructor. منشئ U3dSaveOptions"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ U3dSaveOptions. منشئ U3dSaveOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats/u3dsaveoptions/u3dsaveoptions/

@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.Minification"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل أو يضبط وضع الفلتر للتقليل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. تحصل أو تضبط وضع الفلتر للتصغير"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.render/itextureunit/minification/
 ---
 ## ITextureUnit.Minification property
 
-الحصول أو تعيين وضع الفلتر للتصغير.
+تحصل أو تضبط وضع الفلتر للتصغير.
 
 ```csharp
 public TextureFilter Minification { get; set; }

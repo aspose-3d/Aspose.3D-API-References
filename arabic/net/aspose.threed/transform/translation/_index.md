@@ -1,6 +1,6 @@
 ---
 title: "Transform.Translation"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Transform. تحصل أو تعين الترجمة"
 type: docs
 weight: 140
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/transform/translation/
 ---
 ## Transform.Translation property
 
-يحصل أو يعيّن الترجمة
+تحصل أو تعين الترجمة
 
 ```csharp
 public Vector3 Translation { get; set; }

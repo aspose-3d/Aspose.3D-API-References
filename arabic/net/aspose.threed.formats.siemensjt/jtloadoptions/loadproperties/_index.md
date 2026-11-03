@@ -1,7 +1,7 @@
 ---
 title: "JtLoadOptions.LoadProperties"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية JtLoadOptions. تحميل الخصائص من جدول خصائص JT كخصائص Aspose.3D. القيمة الافتراضية هي false"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية JtLoadOptions. تحميل الخصائص من جدول خصائص JT كخصائص Aspose.3D. القيمة الافتراضية هي false."
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats.siemensjt/jtloadoptions/loadproperties/

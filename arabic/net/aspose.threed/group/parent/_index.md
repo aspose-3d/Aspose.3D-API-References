@@ -1,14 +1,14 @@
 ---
 title: "Group.Parent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Group. المجموعة الأصلية للمجموعة الحالية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Group. مجموعة الأب للمجموعة الحالية"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/group/parent/
 ---
 ## Group.Parent property
 
-المجموعة الأصلية للمجموعة الحالية
+مجموعة الأب للمجموعة الحالية
 
 ```csharp
 public Group Parent { get; }

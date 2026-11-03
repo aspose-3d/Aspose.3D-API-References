@@ -1,7 +1,7 @@
 ---
 title: "Scene.SubScenes"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Scene. تحصل على جميع المشاهد الفرعية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية المشهد. تحصل على جميع المشاهد الفرعية"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed/scene/subscenes/

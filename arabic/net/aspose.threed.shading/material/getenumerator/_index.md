@@ -1,14 +1,14 @@
 ---
 title: "Material.GetEnumerator"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Material. يحصل على المُعدِّد لتعداد فتحات النسيج الداخلية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Material. يحصل على المُعدِّد لتعداد فتحات النسيج الداخلية"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.shading/material/getenumerator/
 ---
 ## Material.GetEnumerator method
 
-يحصل على المُعدِّد لتعداد فتحات القوام الداخلية.
+يحصل على المُعدِّد لتعداد فتحات النسيج الداخلية.
 
 ```csharp
 public IEnumerator<TextureSlot> GetEnumerator()

@@ -1,7 +1,7 @@
 ---
 title: "XLoadOptions.FlipCoordinateSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "XLoadOptions property. عكس نظام الإحداثيات هذا صحيح بشكل افتراضي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية XLoadOptions. عكس نظام الإحداثيات هذا صحيح بشكل افتراضي"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/xloadoptions/flipcoordinatesystem/

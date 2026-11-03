@@ -1,14 +1,14 @@
 ---
 title: "TShape.WebThickness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TShape. يسترجع أو يعيّن سماكة جدار الويب"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TShape. يسترجع أو يعيّن سمك جدار الويب"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.profiles/tshape/webthickness/
 ---
 ## TShape.WebThickness property
 
-يحصل أو يعيّن سماكة جدار الشبكة.
+يسترجع أو يعيّن سمك جدار الويب.
 
 ```csharp
 public double WebThickness { get; set; }

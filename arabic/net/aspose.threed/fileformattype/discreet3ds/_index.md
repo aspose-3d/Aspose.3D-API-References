@@ -1,7 +1,7 @@
 ---
 title: "FileFormatType.Discreet3DS"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormatType حقل. تنسيق ملف Discreet 3D Studios"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormatType. تنسيق ملف Discreet 3D Studios"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed/fileformattype/discreet3ds/

@@ -1,14 +1,14 @@
 ---
 title: "Renderer.Material"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Renderer. تحصل أو تعين المادة التي تُستخدم لتوفير معلومات المادة المستخدمة من قبل الـ shaders"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Renderer. الحصول على أو تعيين المادة المستخدمة لتوفير معلومات المادة التي يستخدمها shaders"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.render/renderer/material/
 ---
 ## Renderer.Material property
 
-يحصل أو يضبط المادة التي تُستخدم لتوفير معلومات المادة المستخدمة بواسطة المُظللات.
+الحصول على أو تعيين المادة المستخدمة لتوفير معلومات المادة التي يستخدمها shaders.
 
 ```csharp
 public virtual Material Material { get; set; }

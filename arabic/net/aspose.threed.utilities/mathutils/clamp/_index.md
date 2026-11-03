@@ -1,14 +1,14 @@
 ---
 title: "MathUtils.Clamp"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة MathUtils. تقيد القيمة إلى النطاق الحد الأدنى والحد الأقصى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة MathUtils. قيد القيمة إلى النطاق الحد الأدنى الحد الأقصى"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/mathutils/clamp/
 ---
 ## MathUtils.Clamp method
 
-تقييد القيمة إلى النطاق [min, max]
+قيد القيمة إلى النطاق [الحد الأدنى، الحد الأقصى]
 
 ```csharp
 public static double Clamp(double val, double min, double max)
@@ -16,13 +16,13 @@ public static double Clamp(double val, double min, double max)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| val | Double | القيمة لتقيدها. |
-| min | Double | القيمة الدنيا. |
-| max | Double | القيمة القصوى. |
+| val | مضاعف | القيمة لتقييدها. |
+| min | مضاعف | القيمة الدنيا. |
+| max | مضاعف | القيمة القصوى. |
 
 ### قيمة الإرجاع
 
-القيمة بين [min, max]
+القيمة بين [الحد الأدنى، الحد الأقصى]
 
 ## أمثلة
 
@@ -30,7 +30,7 @@ public static double Clamp(double val, double min, double max)
 var val = 195;
 //قيد القيمة إلى [0, 100]
 var clampedValue = MathUtils.Clamp(val, 0, 100);
-//سيتم إخراج 100
+//سيعرض هذا 100
 Console.WriteLine($"Value = {val}");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.Concat"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. دمج كواترنيونين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. دمج رباعيتين"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.utilities/quaternion/concat/
 ---
 ## Quaternion.Concat method
 
-ادمج كواتيرنيونين
+دمج رباعيتين
 
 ```csharp
 public Quaternion Concat(Quaternion rhs)
@@ -16,7 +16,7 @@ public Quaternion Concat(Quaternion rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| rhs | كواترنيون |  |
+| rhs | كواتيرنيون |  |
 
 ### انظر أيضًا
 

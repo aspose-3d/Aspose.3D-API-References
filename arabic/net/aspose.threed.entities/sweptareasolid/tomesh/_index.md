@@ -1,7 +1,7 @@
 ---
 title: "SweptAreaSolid.ToMesh"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة SweptAreaSolid. تحويل الكائن الحالي إلى شبكة."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة SweptAreaSolid. تحويل الكائن الحالي إلى شبكة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/sweptareasolid/tomesh/

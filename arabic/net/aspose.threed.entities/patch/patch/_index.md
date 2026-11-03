@@ -1,7 +1,7 @@
 ---
 title: "Patch.Patch"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Patch constructor. يهيئ نسخة جديدة من الفئة Patch"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Patch. يهيئ نسخة جديدة من الفئة Patch"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/patch/patch/
@@ -32,7 +32,7 @@ public Patch(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: "SkinDeformer.SkinDeformer"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ SkinDeformer. ينشئ مثيلًا جديدًا من الفئة SkinDeformer"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ SkinDeformer. يهيئ مثيلًا جديدًا من فئة SkinDeformer"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.deformers/skindeformer/skindeformer/
 ---
 ## SkinDeformer(string) {#constructor_1}
 
-ينشئ مثيلًا جديدًا من الفئة [`SkinDeformer`](../).
+يهيئ مثيلًا جديدًا من الفئة [`SkinDeformer`](../).
 
 ```csharp
 public SkinDeformer(string name)
@@ -16,7 +16,7 @@ public SkinDeformer(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public SkinDeformer(string name)
 
 ## SkinDeformer() {#constructor}
 
-ينشئ مثيلًا جديدًا من الفئة [`SkinDeformer`](../).
+يهيئ مثيلًا جديدًا من الفئة [`SkinDeformer`](../).
 
 ```csharp
 public SkinDeformer()

@@ -1,14 +1,14 @@
 ---
 title: "Geometry.ReceiveShadows"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Geometry. يحصل أو يضبط ما إذا كان يمكن لهذا الشكل استلام الظل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Geometry. يحصل أو يعيّن ما إذا كانت هذه الهندسة يمكنها تلقي الظل"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/geometry/receiveshadows/
 ---
 ## Geometry.ReceiveShadows property
 
-يحصل أو يعيّن ما إذا كانت هذه الهندسة يمكنها استقبال الظل.
+يحصل أو يضبط ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل.
 
 ```csharp
 public bool ReceiveShadows { get; set; }

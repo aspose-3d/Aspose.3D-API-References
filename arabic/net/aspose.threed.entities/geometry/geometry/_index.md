@@ -1,14 +1,14 @@
 ---
 title: "Geometry.Geometry"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Geometry. يهيئ مثيلاً جديداً من فئة Geometry"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Geometry. يهيئ نسخة جديدة من فئة Geometry"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/geometry/geometry/
 ---
 ## Geometry constructor
 
-يهيئ مثيلاً جديداً من فئة [`Geometry`](../).
+يهيئ نسخة جديدة من فئة [`Geometry`](../).
 
 ```csharp
 public Geometry(string name)
@@ -16,7 +16,7 @@ public Geometry(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 

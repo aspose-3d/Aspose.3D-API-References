@@ -1,14 +1,14 @@
 ---
 title: "Cylinder.Height"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Cylinder. يحصل أو يعيّن ارتفاع الأسطوانة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Cylinder. تحصل أو تعين ارتفاع الأسطوانة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/cylinder/height/
 ---
 ## Cylinder.Height property
 
-يحصل أو يعيّن ارتفاع الأسطوانة.
+تحصل أو تعين ارتفاع الأسطوانة.
 
 ```csharp
 public double Height { get; set; }

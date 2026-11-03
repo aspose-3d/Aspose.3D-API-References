@@ -1,7 +1,7 @@
 ---
 title: "HollowCircleShape.WallThickness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HollowCircleShape. يحصل أو يعيّن الفرق بين نصف القطر الخارجي والداخلي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HollowCircleShape. يحصل أو يضبط الفرق بين نصف القطر الخارجي والداخلي"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/hollowcircleshape/wallthickness/

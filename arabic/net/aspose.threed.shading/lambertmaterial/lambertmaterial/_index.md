@@ -1,7 +1,7 @@
 ---
 title: "LambertMaterial.LambertMaterial"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ LambertMaterial. يهيئ نسخة جديدة من الفئة LambertMaterial"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ LambertMaterial. يهيئ نسخة جديدة من فئة LambertMaterial"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.shading/lambertmaterial/lambertmaterial/
@@ -32,7 +32,7 @@ public LambertMaterial(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 

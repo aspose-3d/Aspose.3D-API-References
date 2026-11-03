@@ -1,14 +1,14 @@
 ---
 title: "PolygonModifier.ApplyTransform"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PolygonModifier. تطبيق مصفوفة التحويل على نقاط التحكم لجميع الأشكال الهندسية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PolygonModifier. تطبيق مصفوفة التحويل على نقاط التحكم في جميع الهندسات"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/polygonmodifier/applytransform/
 ---
 ## PolygonModifier.ApplyTransform method
 
-طبق مصفوفة التحويل على نقاط التحكم في جميع الأشكال الهندسية
+تطبيق مصفوفة التحويل على نقاط التحكم في جميع الهندسات
 
 ```csharp
 public static void ApplyTransform(Node node, Matrix4 transform)
@@ -16,8 +16,8 @@ public static void ApplyTransform(Node node, Matrix4 transform)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة | أي أشكال هندسية للعقدة ستُطبق عليها التحويل المعطى |
-| تحويل | Matrix4 | مصفوفة التحويل التي ستُطبق على نقاط التحكم. |
+| العقدة | Node | ما هي هندسات العقدة التي سيتم تطبيق التحويل المحدد عليها |
+| transform | Matrix4 | مصفوفة التحويل التي سيتم تطبيقها على نقاط التحكم. |
 
 ### انظر أيضًا
 

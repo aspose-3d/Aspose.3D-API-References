@@ -1,14 +1,14 @@
 ---
 title: "VertexElementPolygonGroup.VertexElementPolygonGroup"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ VertexElementPolygonGroup. يهيئ مثيلاً جديدًا من الفئة VertexElementPolygonGroup"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ VertexElementPolygonGroup. يهيئ نسخة جديدة من فئة VertexElementPolygonGroup"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/vertexelementpolygongroup/vertexelementpolygongroup/
 ---
 ## VertexElementPolygonGroup constructor
 
-يهيئ مثيلاً جديدًا من الفئة [`VertexElementPolygonGroup`](../).
+يهيئ نسخة جديدة من الفئة [`VertexElementPolygonGroup`](../).
 
 ```csharp
 public VertexElementPolygonGroup()

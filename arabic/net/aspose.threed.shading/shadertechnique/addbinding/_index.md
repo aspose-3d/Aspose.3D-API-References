@@ -1,14 +1,14 @@
 ---
 title: "ShaderTechnique.AddBinding"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ShaderTechnique. تربط الخاصية الديناميكية بمعامل الظل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ShaderTechnique. تربط الخاصية الديناميكية بمعامل التظليل"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.shading/shadertechnique/addbinding/
 ---
 ## ShaderTechnique.AddBinding method
 
-يربط الخاصية الديناميكية بمعلمة التظليل
+تربط الخاصية الديناميكية بمعامل التظليل
 
 ```csharp
 public void AddBinding(string property, string shaderParameter)
@@ -16,8 +16,8 @@ public void AddBinding(string property, string shaderParameter)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| خاصية | سلسلة | اسم الخاصية الديناميكية. |
-| shaderParameter | سلسلة | اسم معامل الظل. |
+| خاصية | String | اسم الخاصية الديناميكية. |
+| shaderParameter | String | اسم معامل التظليل. |
 
 ### انظر أيضًا
 

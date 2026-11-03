@@ -1,6 +1,6 @@
 ---
 title: "Html5SaveOptions.OrientationBox"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Html5SaveOptions. عرض صندوق توجيه. القيمة الافتراضية هي true"
 type: docs
 weight: 70
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats/html5saveoptions/orientationbox/
 ---
 ## Html5SaveOptions.OrientationBox property
 
-عرض صندوق التوجيه. القيمة الافتراضية هي true.
+عرض صندوق توجيه. القيمة الافتراضية هي true.
 
 ```csharp
 public bool OrientationBox { get; set; }

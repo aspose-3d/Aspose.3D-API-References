@@ -1,6 +1,6 @@
 ---
 title: "ITextureCubemap.Save"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة ITextureCubemap."
 type: docs
 weight: 30
@@ -47,7 +47,7 @@ public void Save(CubeFace side, TextureData bitmap)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الجانب | CubeFace |  |
+| جانب | CubeFace |  |
 | صورة نقطية | TextureData |  |
 
 ### انظر أيضًا

@@ -1,14 +1,14 @@
 ---
 title: "TriMesh.VerticesCount"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TriMesh. عدد الـ vertices في هذا الـ TriMesh"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TriMesh. عدد الرؤوس في هذا TriMesh"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.entities/trimesh/verticescount/
 ---
 ## TriMesh.VerticesCount property
 
-عدد الـ vertices في هذا [`TriMesh`](../)
+عدد الرؤوس في هذا [`TriMesh`](../)
 
 ```csharp
 public int VerticesCount { get; }

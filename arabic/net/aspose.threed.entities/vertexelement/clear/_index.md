@@ -1,7 +1,7 @@
 ---
 title: "VertexElement.Clear"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElement method. يمسح جميع البيانات من عنصر القمة هذا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexElement. تمسح جميع البيانات من عنصر الرأس هذا"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/vertexelement/clear/

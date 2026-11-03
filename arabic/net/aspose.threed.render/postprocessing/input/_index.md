@@ -1,6 +1,6 @@
 ---
 title: "PostProcessing.Input"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية PostProcessing. مدخل هذا المعالجة اللاحقة"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/postprocessing/input/
 ---
 ## PostProcessing.Input property
 
-مدخلات هذه المعالجة اللاحقة
+إدخال هذه المعالجة اللاحقة
 
 ```csharp
 public abstract ITextureUnit Input { get; set; }

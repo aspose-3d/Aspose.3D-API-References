@@ -1,6 +1,6 @@
 ---
 title: "TriMesh.IndicesCount"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية TriMesh. عدد الفهارس في هذا TriMesh"
 type: docs
 weight: 60

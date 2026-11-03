@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.PDF"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat الحقل. تنسيق المستندات القابل للنقل من أدوبي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. تنسيق المستند القابل للنقل من Adobe"
 type: docs
 weight: 610
 url: /ar/net/aspose.threed/fileformat/pdf/
 ---
 ## FileFormat.PDF field
 
-تنسيق المستند القابل للنقل من Adobe
+تنسيق المستندات القابل للنقل من Adobe
 
 ```csharp
 public static readonly PdfFormat PDF;

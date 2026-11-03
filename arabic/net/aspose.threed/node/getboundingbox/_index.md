@@ -1,14 +1,14 @@
 ---
 title: "Node.GetBoundingBox"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Node. احسب صندوق الحدود للعقدة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Node. احسب صندوق الحد لهذه العقدة"
 type: docs
 weight: 190
 url: /ar/net/aspose.threed/node/getboundingbox/
 ---
 ## Node.GetBoundingBox method
 
-حساب صندوق الحدود للعقدة
+احسب صندوق الحد لهذه العقدة
 
 ```csharp
 public BoundingBox GetBoundingBox()
@@ -16,7 +16,7 @@ public BoundingBox GetBoundingBox()
 
 ### قيمة الإرجاع
 
-صندوق الحدود للعقدة الحالية
+صندوق الحد للعقدة الحالية
 
 ### انظر أيضًا
 

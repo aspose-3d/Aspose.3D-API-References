@@ -1,14 +1,14 @@
 ---
 title: "FileFormatType.Zip"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormatType حقل. أرشيف Zip يحتوي على تنسيقات ملفات 3d أخرى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormatType حقل. أرشيف Zip يحتوي على تنسيقات ملفات ثلاثية الأبعاد أخرى"
 type: docs
 weight: 270
 url: /ar/net/aspose.threed/fileformattype/zip/
 ---
 ## FileFormatType.Zip field
 
-أرشيف Zip يحتوي على تنسيقات ملفات 3D أخرى.
+أرشيف Zip يحتوي على صيغ ملفات ثلاثية الأبعاد أخرى.
 
 ```csharp
 public static readonly FileFormatType Zip;

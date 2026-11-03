@@ -1,14 +1,14 @@
 ---
 title: "VertexElementTangent.VertexElementTangent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ VertexElementTangent. يهيئ مثيلاً جديدًا من الفئة VertexElementTangent"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ VertexElementTangent. يهيئ نسخة جديدة من فئة VertexElementTangent"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/vertexelementtangent/vertexelementtangent/
 ---
 ## VertexElementTangent constructor
 
-يهيئ مثيلاً جديدًا من الفئة [`VertexElementTangent`](../).
+يهيئ نسخة جديدة من الفئة [`VertexElementTangent`](../).
 
 ```csharp
 public VertexElementTangent()

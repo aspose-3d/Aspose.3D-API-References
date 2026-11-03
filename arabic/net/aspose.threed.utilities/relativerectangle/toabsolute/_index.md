@@ -1,6 +1,6 @@
 ---
 title: "RelativeRectangle.ToAbsolute"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة RelativeRectangle. تحويل المستطيل النسبي إلى مستطيل مطلق"
 type: docs
 weight: 110
@@ -16,7 +16,7 @@ public Rect ToAbsolute(int left, int top, int width, int height)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| اليسار | Int32 | يسار المستطيل |
+| يسار | Int32 | اليسار من المستطيل |
 | أعلى | Int32 | أعلى المستطيل |
 | العرض | Int32 | عرض المستطيل |
 | الارتفاع | Int32 | ارتفاع المستطيل |

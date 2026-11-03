@@ -1,6 +1,6 @@
 ---
 title: "TransformBuilder.Prepend"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TransformBuilder. إلحاق مصفوفة التحويل الجديدة بسلسلة التحويل"
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/transformbuilder/prepend/
 ---
 ## TransformBuilder.Prepend method
 
-إلحاق مسبق للمصفوفة التحويلية الجديدة إلى سلسلة التحويل.
+إلحاق مصفوفة التحويل الجديدة بسلسلة التحويل.
 
 ```csharp
 public TransformBuilder Prepend(Matrix4 m)

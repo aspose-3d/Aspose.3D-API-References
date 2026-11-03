@@ -1,7 +1,7 @@
 ---
 title: "VertexElement.Name"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElement property. يحصل أو يضبط الاسم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية VertexElement. تحصل أو تعين الاسم"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/vertexelement/name/

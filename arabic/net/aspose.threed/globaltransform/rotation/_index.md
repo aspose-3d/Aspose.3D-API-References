@@ -1,14 +1,14 @@
 ---
 title: "GlobalTransform.Rotation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GlobalTransform. تحصل على الدوران الممثل بالكوaternion"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "GlobalTransform خاصية. يحصل على الدوران الممثل بالكوaternion"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/globaltransform/rotation/
 ---
 ## GlobalTransform.Rotation property
 
-الحصول على الدوران الممثّل بالـ quaternion.
+يحصل على الدوران الممثل بالكوaternion.
 
 ```csharp
 public Quaternion Rotation { get; }

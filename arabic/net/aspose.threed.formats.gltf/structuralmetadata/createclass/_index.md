@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.CreateClass"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة StructuralMetadata. إنشاء نوع فئة ميتا"
 type: docs
 weight: 70
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats.gltf/structuralmetadata/createclass/
 ---
 ## StructuralMetadata.CreateClass method
 
-إنشاء نوع فئة وصفية
+إنشاء نوع فئة ميتا
 
 ```csharp
 public ClassType CreateClass(string name)
@@ -16,17 +16,17 @@ public ClassType CreateClass(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم الفئة |
+| الاسم | String | اسم الفئة |
 
 ### قيمة الإرجاع
 
 مثيل الفئة الميتا
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| ArgumentException | يتم رفعه عندما يكون اسم الفئة فارغًا أو تم استخدام الاسم مسبقًا. |
+| ArgumentException | يُرفع عندما يكون اسم الفئة فارغًا أو تم استخدام الاسم مسبقًا. |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: "RevolvedAreaSolid.Origin"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RevolvedAreaSolid. يحصل أو يضبط نقطة الأصل للدوران القيمة الافتراضية هي 0 0 0"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RevolvedAreaSolid. تحصل أو تعيين نقطة الأصل للدوران القيمة الافتراضية هي 0 0 0"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/revolvedareasolid/origin/
 ---
 ## RevolvedAreaSolid.Origin property
 
-يحصل أو يعيّن نقطة الأصل للدوران، القيمة الافتراضية هي (0, 0, 0).
+تحصل أو تعيين نقطة الأصل للدوران، القيمة الافتراضية هي (0, 0, 0).
 
 ```csharp
 public Vector3 Origin { get; set; }

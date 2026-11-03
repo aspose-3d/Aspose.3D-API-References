@@ -1,14 +1,14 @@
 ---
 title: "ShaderTechnique.ShaderLanguage"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ShaderTechnique. تحصل أو تعين لغة الظل المستخدمة في هذه التقنية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ShaderTechnique. يحصل أو يضبط لغة الظل المستخدمة بهذه التقنية"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.shading/shadertechnique/shaderlanguage/
 ---
 ## ShaderTechnique.ShaderLanguage property
 
-يحصل أو يضبط لغة التظليل المستخدمة في هذه التقنية.
+يحصل أو يضبط لغة الظل المستخدمة بهذه التقنية.
 
 ```csharp
 public string ShaderLanguage { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "PointCloud.PointCloud"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ PointCloud. منشئ PointCloud"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ PointCloud. منشئ لـ PointCloud"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/pointcloud/pointcloud/
 ---
 ## PointCloud(string) {#constructor_1}
 
-منشئ [`PointCloud`](../)
+منشئ لـ [`PointCloud`](../)
 
 ```csharp
 public PointCloud(string name)
@@ -16,7 +16,7 @@ public PointCloud(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم هذا الكيان |
+| الاسم | String | اسم هذا الكيان |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public PointCloud(string name)
 
 ## PointCloud() {#constructor}
 
-منشئ [`PointCloud`](../)
+منشئ لـ [`PointCloud`](../)
 
 ```csharp
 public PointCloud()

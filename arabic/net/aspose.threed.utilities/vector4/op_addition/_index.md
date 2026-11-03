@@ -1,14 +1,14 @@
 ---
 title: "Vector4.op_Addition"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector4. تحميل المشغل لـ"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector4. إعادة تعريف المشغل لـ"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.utilities/vector4/op_addition/
 ---
 ## Vector4 Addition operator
 
-إعادة تحميل العامل للـ +
+إعادة تعريف المشغل لـ +
 
 ```csharp
 public static Vector4 operator +(Vector4 lhs, Vector4 rhs)

@@ -1,6 +1,6 @@
 ---
 title: "PolygonBuilder.AddVertex"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة PolygonBuilder. تضيف فهرس رأس إلى المضلع"
 type: docs
 weight: 20
@@ -16,7 +16,7 @@ public void AddVertex(int index)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المؤشر | Int32 |  |
+| index | Int32 |  |
 
 ### انظر أيضًا
 

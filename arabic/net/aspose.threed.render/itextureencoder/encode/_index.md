@@ -1,14 +1,14 @@
 ---
 title: "ITextureEncoder.Encode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ITextureEncoder. ترميز بيانات النسيج إلى التدفق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ITextureEncoder. ترميز بيانات القوام إلى الدفق"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/itextureencoder/encode/
 ---
 ## ITextureEncoder.Encode method
 
-ترميز بيانات القوام إلى التدفق
+ترميز بيانات القوام إلى الدفق
 
 ```csharp
 public void Encode(TextureData texture, Stream stream)
@@ -16,14 +16,14 @@ public void Encode(TextureData texture, Stream stream)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نسيج | TextureData | بيانات النسيج التي سيتم ترميزها |
-| stream | Stream | دفق الإخراج |
+| نسيج | TextureData | بيانات القوام التي سيتم ترميزها |
+| تدفق | تدفق | دفق الإخراج |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يُرمى عندما يفشل كتابة النسيج المشفر إلى التدفق |
+| IOException | يُطرح عندما يفشل كتابة القوام المشفر إلى الدفق |
 
 ### انظر أيضًا
 

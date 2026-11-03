@@ -1,7 +1,7 @@
 ---
 title: "Vector2.Cross"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector2. حاصل الضرب المتقاطع لمتجهين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector2. حاصل الضرب المتقاطع لاثنين من المتجهات"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.utilities/vector2/cross/

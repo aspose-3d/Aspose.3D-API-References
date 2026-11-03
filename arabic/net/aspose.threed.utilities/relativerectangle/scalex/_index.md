@@ -1,6 +1,6 @@
 ---
 title: "RelativeRectangle.ScaleX"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RelativeRectangle. الإحداثي النسبي X"
 type: docs
 weight: 90
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/relativerectangle/scalex/
 ---
 ## RelativeRectangle.ScaleX property
 
-الإحداثي X النسبي
+الإحداثي النسبي X
 
 ```csharp
 public float ScaleX { get; set; }

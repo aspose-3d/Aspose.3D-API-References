@@ -1,14 +1,14 @@
 ---
 title: "CubeFaceData1.NegativeZ"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية CubeFaceData. تحصل أو تعيّن البيانات للوجه ZFront"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية CubeFaceData. يحصل أو يضبط البيانات للوجه ZFront"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.render/cubefacedata-1/negativez/
 ---
 ## CubeFaceData&lt;T&gt;.NegativeZ property
 
-يحصل أو يعيّن البيانات للوجه -Z (الأمام)
+يحصل أو يضبط البيانات للوجه -Z(Front)
 
 ```csharp
 public T NegativeZ { get; set; }

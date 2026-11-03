@@ -1,14 +1,14 @@
 ---
 title: "Pose.BonePoses"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Pose. الحصول على جميع BonePose"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Pose. يحصل على جميع BonePose"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/pose/boneposes/
 ---
 ## Pose.BonePoses property
 
-الحصول على جميع [`BonePose`](../../bonepose/).
+يحصل على جميع [`BonePose`](../../bonepose/).
 
 ```csharp
 public IList<BonePose> BonePoses { get; }

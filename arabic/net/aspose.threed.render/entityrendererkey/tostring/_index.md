@@ -1,14 +1,14 @@
 ---
 title: "EntityRendererKey.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة EntityRendererKey. يحصل على تمثيل النص لـ EntityRendererKey"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة EntityRendererKey. يحصل على التمثيل النصي لـ EntityRendererKey"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/entityrendererkey/tostring/
 ---
 ## EntityRendererKey.ToString method
 
-يحصل على تمثيل النص لـ [`EntityRendererKey`](../)
+يحصل على التمثيل النصي لـ [`EntityRendererKey`](../)
 
 ```csharp
 public override string ToString()

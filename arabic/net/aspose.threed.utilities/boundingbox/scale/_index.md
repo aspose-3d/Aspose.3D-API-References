@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox.Scale"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BoundingBox. تحسب القيمة المطلقة الأكبر لإحداثيات أي نقطة محتواة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BoundingBox. تحسب القيمة المطلقة الأكبر لإحداثي أي نقطة محتواة"
 type: docs
 weight: 150
 url: /ar/net/aspose.threed.utilities/boundingbox/scale/
@@ -16,7 +16,7 @@ public double Scale()
 
 ### قيمة الإرجاع
 
-القيمة المطلقة الأكبر المحسوبة لإحداثيات أي نقطة محتواة.
+القيمة المطلقة الأكبر المحسوبة لإحداثي أي نقطة محتواة.
 
 ### انظر أيضًا
 

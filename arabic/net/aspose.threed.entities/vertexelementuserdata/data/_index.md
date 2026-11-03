@@ -1,7 +1,7 @@
 ---
 title: "VertexElementUserData.Data"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية VertexElementUserData. البيانات المستخدمة المرفقة في هذا العنصر"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية VertexElementUserData. بيانات المستخدم المرفقة في هذا العنصر"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/vertexelementuserdata/data/

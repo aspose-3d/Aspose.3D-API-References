@@ -1,14 +1,14 @@
 ---
 title: "Camera.ApertureMode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Camera. تحصل أو تعين وضع فتحة الكاميرا."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Camera. الحصول على أو تعيين وضع فتحة الكاميرا"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/camera/aperturemode/
 ---
 ## Camera.ApertureMode property
 
-يحصل أو يعيّن وضع فتحة الكاميرا
+يحصل أو يضبط وضع فتحة الكاميرا
 
 ```csharp
 public ApertureMode ApertureMode { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: "TextureData.MapPixels"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TextureData. تعيين جميع البكسلات للقراءة/الكتابة"
 type: docs
 weight: 100
@@ -16,7 +16,7 @@ public PixelMapping MapPixels(PixelMapMode mapMode)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| mapMode | PixelMapMode | وضع التعيين |
+| mapMode | PixelMapMode | وضع الخريطة |
 
 ### انظر أيضًا
 
@@ -30,7 +30,7 @@ public PixelMapping MapPixels(PixelMapMode mapMode)
 
 ## MapPixels(PixelMapMode, PixelFormat) {#mappixels_1}
 
-تعيين جميع البكسلات للقراءة/الكتابة بتنسيق بكسل محدد
+تعيين جميع البكسلات للقراءة/الكتابة بالتنسيق البكسلي المحدد
 
 ```csharp
 public PixelMapping MapPixels(PixelMapMode mapMode, PixelFormat format)
@@ -38,7 +38,7 @@ public PixelMapping MapPixels(PixelMapMode mapMode, PixelFormat format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| mapMode | PixelMapMode | وضع التعيين |
+| mapMode | PixelMapMode | وضع الخريطة |
 | تنسيق | PixelFormat | تنسيق البكسل |
 
 ### انظر أيضًا
@@ -54,7 +54,7 @@ public PixelMapping MapPixels(PixelMapMode mapMode, PixelFormat format)
 
 ## MapPixels(Rect, PixelMapMode, PixelFormat) {#mappixels_2}
 
-تعيين البكسلات المحددة بالمستطيل للقراءة/الكتابة بتنسيق بكسل محدد
+تعيين البكسلات التي يحددها المستطيل للقراءة/الكتابة بالتنسيق البكسلي المحدد
 
 ```csharp
 public PixelMapping MapPixels(Rect rect, PixelMapMode mapMode, PixelFormat format)
@@ -63,14 +63,14 @@ public PixelMapping MapPixels(Rect rect, PixelMapMode mapMode, PixelFormat forma
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | مستطيل | مستطيل | منطقة البكسلات التي سيتم الوصول إليها |
-| mapMode | PixelMapMode | وضع التعيين |
+| mapMode | PixelMapMode | وضع الخريطة |
 | تنسيق | PixelFormat | تنسيق البكسل |
 
 ### قيمة الإرجاع
 
-يرجع كائن تخطيط، يجب التخلص منه عندما لا يكون مطلوبًا.
+يرجع كائن تعيين، يجب تحريره عندما لا يكون مطلوبًا بعد ذلك.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

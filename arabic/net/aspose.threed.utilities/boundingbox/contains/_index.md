@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.Contains"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BoundingBox. تحقق مما إذا كانت النقطة p داخل الصندوق الحدودي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BoundingBox. تحقق مما إذا كانت النقطة p داخل مربع الحد"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.utilities/boundingbox/contains/
 ---
 ## Contains(Vector3) {#contains_1}
 
-تحقق مما إذا كانت النقطة p داخل صندوق الحدود
+تحقق مما إذا كانت النقطة p داخل صندوق الحدود.
 
 ```csharp
 public bool Contains(Vector3 p)
@@ -20,11 +20,11 @@ public bool Contains(Vector3 p)
 
 ### قيمة الإرجاع
 
-صحيح إذا كانت النقطة داخل الصندوق الحدودي
+صحيح إذا كانت النقطة داخل مربع الحد
 
 ## أمثلة
 
-الكود التالي يوضح كيفية التحقق مما إذا كانت نقطة داخل الصندوق الحدودي.
+الكود التالي يوضح كيفية التحقق مما إذا كانت نقطة داخل مربع الحد.
 
 ```csharp
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);

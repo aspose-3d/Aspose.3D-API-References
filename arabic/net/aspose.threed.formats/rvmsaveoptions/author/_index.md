@@ -1,7 +1,7 @@
 ---
 title: "RvmSaveOptions.Author"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RvmSaveOptions. القيمة الافتراضية لمعلومات المؤلف هي 3daspose"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RvmSaveOptions. معلومات المؤلف القيمة الافتراضية هي 3daspose"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.formats/rvmsaveoptions/author/
@@ -26,7 +26,7 @@ var boxNode = scene.RootNode.CreateChildNode("box", box);
 boxNode.SetProperty("rvm:Price", 12.0);
 boxNode.SetProperty("rvm:Weight", 30.0);
 var opt = new RvmSaveOptions();
-//الخصائص ذات البادئة rvm: سيتم تصديرها.
+//الخصائص التي لها بادئة rvm: سيتم تصديرها.
 opt.ExportAttributes = true;
 opt.AttributePrefix = "rvm:";
 opt.Author = "Aspose.3D";

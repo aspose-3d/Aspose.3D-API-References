@@ -1,6 +1,6 @@
 ---
 title: "TextureData.PixelFormat"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية TextureData. تنسيق البكسلات"
 type: docs
 weight: 70

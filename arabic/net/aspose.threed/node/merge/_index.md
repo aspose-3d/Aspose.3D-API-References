@@ -1,14 +1,14 @@
 ---
 title: "Node.Merge"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Node. فك كل شيء تحت العقدة وإرفاقه بالعقدة الحالية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Node. افصل كل شيء تحت العقدة وأرفقه بالعقدة الحالية"
 type: docs
 weight: 220
 url: /ar/net/aspose.threed/node/merge/
 ---
 ## Node.Merge method
 
-فصل كل شيء تحت العقدة وإرفاقه إلى العقدة الحالية.
+افصل كل شيء تحت العقدة وأرفقه بالعقدة الحالية.
 
 ```csharp
 public void Merge(Node node)
@@ -16,11 +16,11 @@ public void Merge(Node node)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة |  |
+| العقدة | Node |  |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية دمج ملفين ثلاثيين الأبعاد في ملف واحد
+الكود التالي يوضح كيفية دمج ملفين ثلاثي الأبعاد في ملف واحد
 
 ```csharp
 Scene scene1 = Scene.FromFile("scene1.fbx");

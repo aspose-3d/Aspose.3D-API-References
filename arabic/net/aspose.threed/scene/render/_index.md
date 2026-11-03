@@ -1,14 +1,14 @@
 ---
 title: "Scene.Render"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Scene. تصيير المشهد إلى ملف خارجي من منظور الكاميرا المحددة. حجم الإخراج الافتراضي هو 1024x768 وتنسيق الإخراج هو png"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Scene. تقوم بتصوير المشهد إلى ملف خارجي من منظور الكاميرا المحددة. حجم الإخراج الافتراضي هو 1024x768 وتنسيق الإخراج هو png"
 type: docs
 weight: 150
 url: /ar/net/aspose.threed/scene/render/
 ---
 ## Render(Camera, string) {#render_2}
 
-يُصوّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة. حجم الإخراج الافتراضي هو 1024x768 وتنسيق الإخراج هو png
+صوّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة. حجم الإخراج الافتراضي هو 1024x768 وتنسيق الإخراج هو png
 
 ```csharp
 public void Render(Camera camera, string fileName)
@@ -16,8 +16,8 @@ public void Render(Camera camera, string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كاميرا | كاميرا | من أي منظور للكاميرا يتم تصيير المشهد |
-| fileName | سلسلة | اسم ملف الإخراج |
+| كاميرا | كاميرا | من منظور أي كاميرا لتصوير المشهد |
+| fileName | String | اسم ملف الإخراج |
 
 ### انظر أيضًا
 
@@ -30,7 +30,7 @@ public void Render(Camera camera, string fileName)
 
 ## Render(Camera, string, Vector2, string) {#render_3}
 
-يُصوّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة.
+إخراج المشهد إلى ملف خارجي من منظور الكاميرا المحددة.
 
 ```csharp
 public void Render(Camera camera, string fileName, Vector2 size, string format)
@@ -38,10 +38,10 @@ public void Render(Camera camera, string fileName, Vector2 size, string format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كاميرا | كاميرا | من أي منظور للكاميرا يتم تصيير المشهد |
-| fileName | سلسلة | اسم ملف الإخراج |
-| الحجم | Vector2 | حجم الصورة المصورة النهائية |
-| تنسيق | سلسلة | تنسيق الصورة لملف الإخراج |
+| كاميرا | كاميرا | من منظور أي كاميرا لتصوير المشهد |
+| fileName | String | اسم ملف الإخراج |
+| الحجم | Vector2 | حجم الصورة المصدرة النهائية |
+| تنسيق | String | تنسيق الصورة لملف الإخراج |
 
 ### انظر أيضًا
 
@@ -55,7 +55,7 @@ public void Render(Camera camera, string fileName, Vector2 size, string format)
 
 ## Render(Camera, string, Vector2, string, ImageRenderOptions) {#render_4}
 
-يُصوّر المشهد إلى ملف خارجي من منظور الكاميرا المحددة.
+إخراج المشهد إلى ملف خارجي من منظور الكاميرا المحددة.
 
 ```csharp
 public void Render(Camera camera, string fileName, Vector2 size, string format, 
@@ -64,11 +64,11 @@ public void Render(Camera camera, string fileName, Vector2 size, string format,
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كاميرا | كاميرا | من أي منظور للكاميرا يتم تصيير المشهد |
-| fileName | سلسلة | اسم ملف الإخراج |
-| الحجم | Vector2 | حجم الصورة المصورة النهائية |
-| تنسيق | سلسلة | تنسيق الصورة لملف الإخراج |
-| خيارات | ImageRenderOptions | الخيار لتخصيص بعض الإعدادات الداخلية. |
+| كاميرا | كاميرا | من منظور أي كاميرا لتصوير المشهد |
+| fileName | String | اسم ملف الإخراج |
+| الحجم | Vector2 | حجم الصورة المصدرة النهائية |
+| تنسيق | String | تنسيق الصورة لملف الإخراج |
+| الخيارات | ImageRenderOptions | الخيار لتخصيص بعض الإعدادات الداخلية. |
 
 ### انظر أيضًا
 
@@ -83,7 +83,7 @@ public void Render(Camera camera, string fileName, Vector2 size, string format,
 
 ## Render(Camera, TextureData) {#render}
 
-يُصوّر المشهد إلى صورة نقطية من منظور الكاميرا المحددة.
+إخراج المشهد إلى صورة نقطية من منظور الكاميرا المحددة.
 
 ```csharp
 public void Render(Camera camera, TextureData bitmap)
@@ -91,8 +91,8 @@ public void Render(Camera camera, TextureData bitmap)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كاميرا | كاميرا | من أي منظور للكاميرا يتم تصيير المشهد |
-| صورة نقطية | TextureData | هدف النتيجة المصورة |
+| كاميرا | كاميرا | من منظور أي كاميرا لتصوير المشهد |
+| صورة نقطية | TextureData | هدف النتيجة المصدرة |
 
 ### انظر أيضًا
 
@@ -106,7 +106,7 @@ public void Render(Camera camera, TextureData bitmap)
 
 ## Render(Camera, TextureData, ImageRenderOptions) {#render_1}
 
-يُصوّر المشهد إلى صورة نقطية من منظور الكاميرا المحددة.
+إخراج المشهد إلى صورة نقطية من منظور الكاميرا المحددة.
 
 ```csharp
 public void Render(Camera camera, TextureData bitmap, ImageRenderOptions options)
@@ -114,9 +114,9 @@ public void Render(Camera camera, TextureData bitmap, ImageRenderOptions options
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كاميرا | كاميرا | من أي منظور للكاميرا يتم تصيير المشهد |
-| صورة نقطية | TextureData | هدف النتيجة المصورة |
-| خيارات | ImageRenderOptions | الخيار لتخصيص بعض الإعدادات الداخلية. |
+| كاميرا | كاميرا | من منظور أي كاميرا لتصوير المشهد |
+| صورة نقطية | TextureData | هدف النتيجة المصدرة |
+| الخيارات | ImageRenderOptions | الخيار لتخصيص بعض الإعدادات الداخلية. |
 
 ### انظر أيضًا
 

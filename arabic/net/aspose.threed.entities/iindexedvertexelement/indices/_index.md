@@ -1,6 +1,6 @@
 ---
 title: "IIndexedVertexElement.Indices"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية IIndexedVertexElement. تحصل على بيانات الفهارس"
 type: docs
 weight: 10

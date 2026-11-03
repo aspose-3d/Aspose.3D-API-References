@@ -1,7 +1,7 @@
 ---
 title: "Material.MapAmbient"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل Material. يُستخدم في SetTexture لتعيين خريطة نسيج محيطي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل Material. يُستخدم في SetTexture لتعيين تخطيط نسيج محيطي"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.shading/material/mapambient/

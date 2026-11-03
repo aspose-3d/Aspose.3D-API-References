@@ -1,14 +1,14 @@
 ---
 title: "Sphere.HeightSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Sphere. يحصل على أو يضبط مقاطع الارتفاع"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Sphere. يحصل أو يضبط شرائح الارتفاع"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/sphere/heightsegments/
 ---
 ## Sphere.HeightSegments property
 
-يحصل أو يضبط مقاطع الارتفاع.
+يحصل أو يضبط شرائح الارتفاع.
 
 ```csharp
 public int HeightSegments { get; set; }
@@ -16,7 +16,7 @@ public int HeightSegments { get; set; }
 
 ### Property Value
 
-مقاطع الارتفاع.
+شرائح الارتفاع.
 
 ### انظر أيضًا
 

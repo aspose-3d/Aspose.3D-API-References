@@ -1,6 +1,6 @@
 ---
 title: "KeyFrame.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة KeyFrame. يحصل على تمثيل النص لإطار المفتاح"
 type: docs
 weight: 170
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/keyframe/tostring/
 ---
 ## KeyFrame.ToString method
 
-يحصل على التمثيل النصي لإطار المفتاح.
+يحصل على تمثيل النص لإطار المفتاح
 
 ```csharp
 public override string ToString()

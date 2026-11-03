@@ -1,7 +1,7 @@
 ---
 title: "AnimationClip.Animations"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AnimationClip. تحصل على الرسوم المتحركة الموجودة داخل المقطع"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AnimationClip. يحصل على الرسوم المتحركة الموجودة داخل المقطع"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.animation/animationclip/animations/

@@ -1,14 +1,14 @@
 ---
 title: "CompositeCurve.AddSegment"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة CompositeCurve. أضف مقطعًا جديدًا إلى المنحنى الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة CompositeCurve. أضف جزءًا جديدًا إلى المنحنى الحالي"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/compositecurve/addsegment/
 ---
 ## CompositeCurve.AddSegment method
 
-أضف مقطعاً جديداً إلى المنحنى الحالي.
+أضف جزءًا جديدًا إلى المنحنى الحالي.
 
 ```csharp
 public void AddSegment(Curve curve, bool sameDirection = true)
@@ -16,7 +16,7 @@ public void AddSegment(Curve curve, bool sameDirection = true)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| منحنى | منحنى | المنحنى للإضافة |
+| منحنى | منحنى | المنحنى المراد إضافته |
 | sameDirection | Boolean | نفس الاتجاه مع المنحنى الحالي. |
 
 ### انظر أيضًا

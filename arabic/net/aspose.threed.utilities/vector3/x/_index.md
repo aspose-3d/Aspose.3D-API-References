@@ -1,6 +1,6 @@
 ---
 title: "Vector3.X"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل Vector3. المكوّن x"
 type: docs
 weight: 100

@@ -1,14 +1,14 @@
 ---
 title: "HShape.OverallDepth"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HShape. تحصل أو تعيين امتداد العمق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HShape. تحصل أو تعين امتداد العمق"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.profiles/hshape/overalldepth/
 ---
 ## HShape.OverallDepth property
 
-الحصول أو تعيين امتداد العمق.
+تحصل أو تعين امتداد العمق.
 
 ```csharp
 public double OverallDepth { get; set; }

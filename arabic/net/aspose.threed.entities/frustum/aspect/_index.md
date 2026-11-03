@@ -1,6 +1,6 @@
 ---
 title: "Frustum.Aspect"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Frustum. تحصل أو تعين نسبة العرض إلى الارتفاع للفرستوم"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/frustum/aspect/
 ---
 ## Frustum.Aspect property
 
-الحصول على أو تعيين نسبة العرض إلى الارتفاع للمخروط.
+تحصل أو تعين نسبة العرض إلى الارتفاع للفرستوم
 
 ```csharp
 public double Aspect { get; set; }

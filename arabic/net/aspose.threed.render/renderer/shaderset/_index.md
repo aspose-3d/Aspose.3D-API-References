@@ -1,14 +1,14 @@
 ---
 title: "Renderer.ShaderSet"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Renderer. يحصل أو يضبط مجموعة الـ shader المستخدمة في عرض المشهد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Renderer. يحصل أو يضبط مجموعة التظليل المستخدمة لتصوير المشهد"
 type: docs
 weight: 140
 url: /ar/net/aspose.threed.render/renderer/shaderset/
 ---
 ## Renderer.ShaderSet property
 
-يحصل أو يضبط مجموعة المُظلِّلات التي تُستخدم لتصوير المشهد
+يحصل أو يضبط مجموعة التظليل المستخدمة لتصوير المشهد
 
 ```csharp
 public ShaderSet ShaderSet { get; set; }

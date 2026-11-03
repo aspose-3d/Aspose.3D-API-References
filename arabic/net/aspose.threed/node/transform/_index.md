@@ -1,6 +1,6 @@
 ---
 title: "Node.Transform"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Node. تحصل على التحويل المحلي"
 type: docs
 weight: 120
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/node/transform/
 ---
 ## Node.Transform property
 
-يحصل على التحويل المحلي.
+تحصل على التحويل المحلي.
 
 ```csharp
 public Transform Transform { get; }
@@ -20,7 +20,7 @@ public Transform Transform { get; }
 
 ## أمثلة
 
-يعرض الكود التالي كيفية تغيير تحويل العقدة:
+الكود التالي يوضح كيفية تغيير تحويل العقدة:
 
 ```csharp
 Scene scene = new Scene();

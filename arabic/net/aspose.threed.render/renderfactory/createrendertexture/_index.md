@@ -1,14 +1,14 @@
 ---
 title: "RenderFactory.CreateRenderTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderFactory. إنشاء هدف عرض يُرسم إلى الملمس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RenderFactory. إنشاء هدف عرض يرسم إلى الملمس"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/renderfactory/createrendertexture/
 ---
 ## CreateRenderTexture(RenderParameters, int, int, int) {#createrendertexture_1}
 
-إنشاء هدف عرض يُرسم إلى النسيج
+إنشاء هدف عرض يرسم إلى الملمس
 
 ```csharp
 public abstract IRenderTexture CreateRenderTexture(RenderParameters parameters, int targets, 
@@ -18,7 +18,7 @@ public abstract IRenderTexture CreateRenderTexture(RenderParameters parameters, 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | المعلمات | RenderParameters | معلمات العرض لإنشاء الملمس |
-| الأهداف | Int32 | كم عدد أهداف الإخراج اللونية |
+| الأهداف | Int32 | عدد أهداف الإخراج اللونية |
 | العرض | Int32 | عرض الملمس |
 | الارتفاع | Int32 | ارتفاع الملمس |
 
@@ -34,7 +34,7 @@ public abstract IRenderTexture CreateRenderTexture(RenderParameters parameters, 
 
 ## CreateRenderTexture(RenderParameters, int, int) {#createrendertexture}
 
-إنشاء هدف عرض يحتوي على هدف واحد يُرسم إلى النسيج
+إنشاء هدف عرض يحتوي على هدف واحد يرسم إلى الملمس
 
 ```csharp
 public abstract IRenderTexture CreateRenderTexture(RenderParameters parameters, int width, 

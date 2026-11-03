@@ -1,7 +1,7 @@
 ---
 title: "Property.GetKeyframeSequence"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Property. يحصل على تسلسل الإطارات المفتاحية على نسخة الرسوم المتحركة المحددة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Property. يحصل على تسلسل الإطارات المفتاحية في نسخة الرسوم المتحركة المحددة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed/property/getkeyframesequence/
@@ -21,7 +21,7 @@ public KeyframeSequence GetKeyframeSequence(AnimationNode anim, bool create)
 
 ### قيمة الإرجاع
 
-تسلسل الإطارات المفتاحية على نسخة الرسوم المتحركة المحددة
+تسلسل الإطارات المفتاحية في نسخة الرسوم المتحركة المحددة
 
 ### انظر أيضًا
 

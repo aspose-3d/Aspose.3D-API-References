@@ -1,14 +1,14 @@
 ---
 title: "GlobalTransform.Translation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GlobalTransform. تحصل على الإزاحة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "GlobalTransform property. يحصل على الترجمة"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed/globaltransform/translation/
 ---
 ## GlobalTransform.Translation property
 
-يحصل على الإزاحة
+يحصل على الترجمة
 
 ```csharp
 public Vector3 Translation { get; }

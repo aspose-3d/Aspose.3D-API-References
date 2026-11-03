@@ -1,6 +1,6 @@
 ---
 title: "CircleShape.CircleShape"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ CircleShape. إنشاء ملف تعريف CircleShape بنصف قطر افتراضي 5"
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ public CircleShape(double radius)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نصف القطر | Double | نصف قطر الدائرة |
+| radius | مضاعف | نصف قطر الدائرة |
 
 ### انظر أيضًا
 

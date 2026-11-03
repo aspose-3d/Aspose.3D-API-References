@@ -1,14 +1,14 @@
 ---
 title: "PixelMapping.Dispose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PixelMapping. إلغاء كائن التخطيط"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PixelMapping. حرّر مثيل الخريطة"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/pixelmapping/dispose/
 ---
 ## PixelMapping.Dispose method
 
-إلغاء كائن الخريطة
+حرّر مثيل الخريطة
 
 ```csharp
 public void Dispose()

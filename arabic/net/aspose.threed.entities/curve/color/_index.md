@@ -1,6 +1,6 @@
 ---
 title: "Curve.Color"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Curve. تحصل أو تعين لون الخط القيمة الافتراضية هي white1 1 1"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/curve/color/
 ---
 ## Curve.Color property
 
-يحصل أو يضبط لون الخط، القيمة الافتراضية هي أبيض (1, 1, 1)
+تحصل أو تعين لون الخط، القيمة الافتراضية هي white(1, 1, 1)
 
 ```csharp
 public Vector3 Color { get; set; }

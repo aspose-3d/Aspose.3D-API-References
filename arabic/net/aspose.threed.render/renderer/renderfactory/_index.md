@@ -1,14 +1,14 @@
 ---
 title: "Renderer.RenderFactory"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Renderer. تحصل على المصنع لبناء الكائنات المتعلقة بالرندر"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Renderer. الحصول على المصنع لبناء الكائنات المتعلقة بالعرض"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.render/renderer/renderfactory/
 ---
 ## Renderer.RenderFactory property
 
-يحصل على المصنع لبناء الكائنات المتعلقة بالعرض.
+الحصول على المصنع لبناء الكائنات المتعلقة بالعرض.
 
 ```csharp
 public abstract RenderFactory RenderFactory { get; }

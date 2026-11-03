@@ -1,6 +1,6 @@
 ---
 title: "BoundingBox.Equals"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة BoundingBox. تحدد ما إذا كان كائنان متساويان"
 type: docs
 weight: 110
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/boundingbox/equals/
 ---
 ## BoundingBox.Equals method
 
-يحدد ما إذا كان الكائنان متساويين
+يحدد ما إذا كان الكائنان متساويين.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-صحيح إذا كان كائنان متساويان
+صحيح إذا كان الكائنان متساويان
 
 ### انظر أيضًا
 

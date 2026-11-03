@@ -1,14 +1,14 @@
 ---
 title: "TriMesh.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TriMesh. يحصل على تمثيل السلسلة لـ TriMesh"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TriMesh. يحصل على تمثيل النص لـ TriMesh"
 type: docs
 weight: 250
 url: /ar/net/aspose.threed.entities/trimesh/tostring/
 ---
 ## TriMesh.ToString method
 
-يحصل على تمثيل السلسلة لـ [`TriMesh`](../)
+يحصل على تمثيل النص لـ [`TriMesh`](../)
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-تمثيل السلسلة
+تمثيل النص
 
 ### انظر أيضًا
 

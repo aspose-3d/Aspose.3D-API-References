@@ -1,6 +1,6 @@
 ---
 title: "ImageRenderOptions.AssetDirectories"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية ImageRenderOptions. الأدلة التي تخزن الأصول الخارجية مثل القوام"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/imagerenderoptions/assetdirectories/
 ---
 ## ImageRenderOptions.AssetDirectories property
 
-الدلائل التي تخزن الأصول الخارجية (مثل القوام)
+الأدلة التي تخزن الأصول الخارجية (مثل القوام)
 
 ```csharp
 public List<string> AssetDirectories { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "LShape.GetExtent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة LShape. تحصل على الامتداد في بعدي x و y"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة LShape. يحصل على الامتداد في البعدين x و y"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.profiles/lshape/getextent/
 ---
 ## LShape.GetExtent method
 
-يحصل على الامتداد في بعدي x و y.
+تحصل على الامتداد في بعدي x و y.
 
 ```csharp
 public override Vector2 GetExtent()

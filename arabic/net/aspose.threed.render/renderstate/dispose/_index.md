@@ -1,7 +1,7 @@
 ---
 title: "RenderState.Dispose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderState. إلغاء تخصيص RenderState وإطلاق جميع الموارد الداخلية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "RenderState طريقة. إلغاء تخصيص RenderState وإطلاق جميع الموارد الداخلية"
 type: docs
 weight: 200
 url: /ar/net/aspose.threed.render/renderstate/dispose/

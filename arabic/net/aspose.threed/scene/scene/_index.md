@@ -1,14 +1,14 @@
 ---
 title: "Scene.Scene"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Scene. يخلق مثيلاً جديداً من فئة Scene"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Scene. يهيئ نسخة جديدة من فئة Scene."
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/scene/scene/
 ---
 ## Scene() {#constructor}
 
-ينشئ مثيلاً جديداً من فئة [`Scene`](../).
+يُهيئ نسخة جديدة من الفئة [`Scene`](../).
 
 ```csharp
 public Scene()
@@ -24,7 +24,7 @@ public Scene()
 
 ## Scene(Entity) {#constructor_1}
 
-ينشئ مثيلاً جديداً من فئة [`Scene`](../) مع كيان مرتبط بعقدة جديدة.
+يُهيئ نسخة جديدة من الفئة [`Scene`](../) مع كيان مرفق بعقدة جديدة.
 
 ```csharp
 public Scene(Entity entity)
@@ -32,7 +32,7 @@ public Scene(Entity entity)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان الأولي المرتبط بالمشهد |
+| الكيان | الكيان | الكيان الأولي المرفق بالمشهد |
 
 ## أمثلة
 
@@ -53,7 +53,7 @@ var scene = new Scene(new Box());
 
 ## Scene(Scene, string) {#constructor_2}
 
-ينشئ مثيلاً جديداً من فئة [`Scene`](../) كمشهد فرعي.
+يُهيئ نسخة جديدة من الفئة [`Scene`](../) كمشهد فرعي.
 
 ```csharp
 public Scene(Scene parentScene, string name)
@@ -61,8 +61,8 @@ public Scene(Scene parentScene, string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| parentScene | Scene | المشهد الأب. |
-| الاسم | سلسلة | اسم المشهد. |
+| parentScene | المشهد | المشهد الأب. |
+| الاسم | String | اسم المشهد. |
 
 ### انظر أيضًا
 

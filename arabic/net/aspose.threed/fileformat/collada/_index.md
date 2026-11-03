@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.Collada"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل FileFormat. تنسيق ملف Collada"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormat حقل. تنسيق ملف Collada"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed/fileformat/collada/

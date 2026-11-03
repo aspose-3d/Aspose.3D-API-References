@@ -1,14 +1,14 @@
 ---
 title: "ObjSaveOptions.SerializeW"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ObjSaveOptions. يحصل أو يضبط ما إذا كان يتم تسلسل المكوّن W في موضع رأس النموذج"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ObjSaveOptions. يحصل أو يضبط ما إذا كان سيتم تسلسل المكوّن W في موضع رأس النموذج"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.formats/objsaveoptions/serializew/
 ---
 ## ObjSaveOptions.SerializeW property
 
-يحصل أو يعيّن ما إذا كان سيتم تسلسل المكوّن W في موضع رأس النموذج.
+يحصل أو يضبط ما إذا كان سيتم تسلسل المكوّن W في موضع رأس النموذج.
 
 ```csharp
 public bool SerializeW { get; set; }

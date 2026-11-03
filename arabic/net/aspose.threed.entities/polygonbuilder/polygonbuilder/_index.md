@@ -1,14 +1,14 @@
 ---
 title: "PolygonBuilder.PolygonBuilder"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ PolygonBuilder. يهيئ نسخة جديدة من فئة PolygonBuilder"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ PolygonBuilder. يهيئ مثالًا جديدًا من فئة PolygonBuilder"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/polygonbuilder/polygonbuilder/
 ---
 ## PolygonBuilder constructor
 
-يهيئ نسخة جديدة من الفئة [`PolygonBuilder`](../).
+يهيئ مثالًا جديدًا من فئة [`PolygonBuilder`](../).
 
 ```csharp
 public PolygonBuilder(Mesh mesh)
@@ -16,7 +16,7 @@ public PolygonBuilder(Mesh mesh)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| شبكة | Mesh | على أي شبكة يتم بناء المضلع. |
+| شبكة | شبكة | على أي شبكة يتم بناء المضلع. |
 
 ### انظر أيضًا
 

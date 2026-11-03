@@ -1,14 +1,14 @@
 ---
 title: "RevolvedAreaSolid.Axis"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RevolvedAreaSolid. يحصل أو يضبط اتجاه المحور القيمة الافتراضية هي 0 1 0"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RevolvedAreaSolid. تحصل أو تعيين اتجاه المحور القيمة الافتراضية هي 0 1 0"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/revolvedareasolid/axis/
 ---
 ## RevolvedAreaSolid.Axis property
 
-يحصل أو يضبط اتجاه المحور، القيمة الافتراضية هي (0, 1, 0).
+تحصل أو تعيين اتجاه المحور، القيمة الافتراضية هي (0, 1, 0).
 
 ```csharp
 public Vector3 Axis { get; set; }

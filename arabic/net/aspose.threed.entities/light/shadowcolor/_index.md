@@ -1,7 +1,7 @@
 ---
 title: "Light.ShadowColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Light. تحصل أو تعيين لون الظلال"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Light. يحصل أو يضبط لون الظلال"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed.entities/light/shadowcolor/

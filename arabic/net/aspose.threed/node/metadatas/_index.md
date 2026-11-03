@@ -1,6 +1,6 @@
 ---
 title: "Node.MetaDatas"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Node. تحصل على البيانات الوصفية المعرفة في هذه العقدة"
 type: docs
 weight: 100

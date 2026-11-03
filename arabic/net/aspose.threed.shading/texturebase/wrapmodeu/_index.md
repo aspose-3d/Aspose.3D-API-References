@@ -1,6 +1,6 @@
 ---
 title: "TextureBase.WrapModeU"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية TextureBase. يحصل أو يضبط أوضاع لف الملمس في U"
 type: docs
 weight: 100
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.shading/texturebase/wrapmodeu/
 ---
 ## TextureBase.WrapModeU property
 
-يسترجع أو يعيّن أوضاع لف القوام في الاتجاه U.
+يحصل أو يضبط أوضاع لف الملمس في U.
 
 ```csharp
 public WrapMode WrapModeU { get; set; }

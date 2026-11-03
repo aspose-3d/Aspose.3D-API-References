@@ -1,6 +1,6 @@
 ---
 title: "UShape.FlangeWidth"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية UShape. تحصل أو تعين طول الحافة"
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/ushape/flangewidth/
 ---
 ## UShape.FlangeWidth property
 
-يحصل أو يضبط طول الشفة.
+تحصل أو تضبط طول الحافة.
 
 ```csharp
 public double FlangeWidth { get; set; }

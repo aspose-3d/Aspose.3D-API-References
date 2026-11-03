@@ -1,6 +1,6 @@
 ---
 title: "Skeleton.Size"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Skeleton. تحصل أو تعين حجم عقدة الطرف الذي يُستخدم في برنامج CAD لتمثيل حجم العظم"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/skeleton/size/
 ---
 ## Skeleton.Size property
 
-يحصل أو يضبط حجم عقدة الطرف المستخدمة في برامج CAD لتمثيل حجم العظم.
+تحصل أو تعين حجم عقدة الطرف الذي يُستخدم في برنامج CAD لتمثيل حجم العظم.
 
 ```csharp
 public double Size { get; set; }

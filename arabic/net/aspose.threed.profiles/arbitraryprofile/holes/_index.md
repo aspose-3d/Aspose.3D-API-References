@@ -1,14 +1,14 @@
 ---
 title: "ArbitraryProfile.Holes"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ArbitraryProfile. ثقوب الملف ممثلة أيضًا كمنحنى."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ArbitraryProfile. ثقوب الملف الشخصي ممثلة أيضًا كمنحنى"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.profiles/arbitraryprofile/holes/
 ---
 ## ArbitraryProfile.Holes property
 
-ثقوب الملف، تم تمثيلها أيضًا كمنحنى
+ثقوب الملف الشخصي، ممثلة أيضًا كمنحنى
 
 ```csharp
 public List<Curve> Holes { get; }

@@ -1,6 +1,6 @@
 ---
 title: "TransformBuilder.RotateEulerRadian"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TransformBuilder. ربط دوران بزوايا أويلر بالراديان"
 type: docs
 weight: 120
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/transformbuilder/rotateeulerradian/
 ---
 ## RotateEulerRadian(double, double, double) {#rotateeulerradian_1}
 
-سلسلة دوران باستخدام زوايا أويلر بالراديان
+ربط دوران بزوايا أويلر بالراديان
 
 ```csharp
 public TransformBuilder RotateEulerRadian(double x, double y, double z)
@@ -16,9 +16,9 @@ public TransformBuilder RotateEulerRadian(double x, double y, double z)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| x | Double |  |
-| y | Double |  |
-| z | Double |  |
+| x | مضاعف |  |
+| y | مضاعف |  |
+| z | مضاعف |  |
 
 ## أمثلة
 
@@ -38,7 +38,7 @@ Console.WriteLine($"Transform Matrix: {tb.Matrix}");
 
 ## RotateEulerRadian(Vector3) {#rotateeulerradian}
 
-سلسلة دوران باستخدام زوايا أويلر بالراديان
+ربط دوران بزوايا أويلر بالراديان
 
 ```csharp
 public TransformBuilder RotateEulerRadian(Vector3 r)

@@ -1,6 +1,6 @@
 ---
 title: "Frustum.LookAt"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Frustum. تحصل أو تعين الموضع المستهدف الذي تنظر إليه الكاميرا"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/frustum/lookat/
 ---
 ## Frustum.LookAt property
 
-يحصل أو يضبط الموضع المستهدف الذي تنظر إليه الكاميرا.
+تحصل أو تعين الموضع المستهدف الذي تنظر إليه الكاميرا.
 
 ```csharp
 public Vector3 LookAt { get; set; }

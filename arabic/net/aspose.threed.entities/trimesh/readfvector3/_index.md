@@ -1,6 +1,6 @@
 ---
 title: "TriMesh.ReadFVector3"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TriMesh. قراءة حقل vector3"
 type: docs
 weight: 200
@@ -16,8 +16,8 @@ public FVector3 ReadFVector3(int idx, VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| idx | Int32 | فهرس الرأس المراد قراءته |
-| حقل | VertexField | الحقل من نوع بيانات Vector3/FVector3 |
+| idx | Int32 | فهرس الرأس للقراءة |
+| حقل | VertexField | الحقل بنوع بيانات Vector3/FVector3 |
 
 ### انظر أيضًا
 

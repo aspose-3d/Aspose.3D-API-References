@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.Version"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية FileFormat. الحصول على إصدار تنسيق الملف"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية FileFormat. الحصول على إصدار صيغة الملف"
 type: docs
 weight: 540
 url: /ar/net/aspose.threed/fileformat/version/
 ---
 ## FileFormat.Version property
 
-يحصل على إصدار تنسيق الملف
+يحصل على إصدار صيغة الملف
 
 ```csharp
 public Version Version { get; }

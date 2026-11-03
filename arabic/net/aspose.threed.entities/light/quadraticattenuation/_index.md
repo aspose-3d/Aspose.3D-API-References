@@ -1,6 +1,6 @@
 ---
 title: "Light.QuadraticAttenuation"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Light. تحصل أو تعيين التوهين التربيعي لحساب التوهين الكلي للضوء"
 type: docs
 weight: 110
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/light/quadraticattenuation/
 ---
 ## Light.QuadraticAttenuation property
 
-يحصل أو يضبط التوهين التربيعي لحساب التوهين الكلي للضوء
+تحصل أو تعيين التوهين التربيعي لحساب التوهين الكلي للضوء
 
 ```csharp
 public double QuadraticAttenuation { get; set; }

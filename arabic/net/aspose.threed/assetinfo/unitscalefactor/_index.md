@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.UnitScaleFactor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AssetInfo. تحصل أو تعين عامل التحويل إلى المتر الحقيقي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "AssetInfo property. يحصل أو يعيّن معامل التحجيم إلى متر العالم الحقيقي"
 type: docs
 weight: 190
 url: /ar/net/aspose.threed/assetinfo/unitscalefactor/
 ---
 ## AssetInfo.UnitScaleFactor property
 
-الحصول أو تعيين معامل التحجيم إلى المتر في العالم الحقيقي.
+يحصل أو يعيّن معامل التحجيم إلى متر العالم الحقيقي.
 
 ```csharp
 public double UnitScaleFactor { get; set; }

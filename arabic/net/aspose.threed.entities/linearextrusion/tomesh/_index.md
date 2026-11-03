@@ -1,6 +1,6 @@
 ---
 title: "LinearExtrusion.ToMesh"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة LinearExtrusion. تحويل البثق إلى شبكة"
 type: docs
 weight: 90
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/linearextrusion/tomesh/
 ---
 ## LinearExtrusion.ToMesh method
 
-حوّل الاستطالة إلى شبكة.
+تحويل البثق إلى شبكة.
 
 ```csharp
 public Mesh ToMesh()

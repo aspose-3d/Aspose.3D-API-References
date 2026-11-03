@@ -1,14 +1,14 @@
 ---
 title: "FbxSaveOptions.EnableCompression"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية FbxSaveOptions. ضغط البيانات الثنائية الكبيرة في ملف FBX، مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عناصر الرؤوس، الفهارس. القيمة الافتراضية هي true"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية FbxSaveOptions. ضغط البيانات الثنائية الكبيرة في ملف FBX مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عناصر الرأس، الفهارس. القيمة الافتراضية هي true."
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/fbxsaveoptions/enablecompression/
 ---
 ## FbxSaveOptions.EnableCompression property
 
-ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عناصر الرؤوس، الفهارس)، القيمة الافتراضية هي true.
+ضغط البيانات الثنائية الكبيرة في ملف FBX (مثل بيانات الرسوم المتحركة، نقاط التحكم، بيانات عناصر الرأس، الفهارس)، القيمة الافتراضية هي true.
 
 ```csharp
 public bool EnableCompression { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.STLASCII"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat الحقل. تنسيق ملف STL ASCII"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormat حقل. تنسيق ملف STL النصي"
 type: docs
 weight: 340
 url: /ar/net/aspose.threed/fileformat/stlascii/
 ---
 ## FileFormat.STLASCII field
 
-تنسيق ملف STL ASCII
+تنسيق ملف STL النصي
 
 ```csharp
 public static readonly FileFormat STLASCII;

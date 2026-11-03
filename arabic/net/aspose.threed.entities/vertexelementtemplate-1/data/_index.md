@@ -1,6 +1,6 @@
 ---
 title: "VertexElementTemplate1.Data"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية VertexElementTemplate. تحصل على بيانات الرؤوس"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/vertexelementtemplate-1/data/
 ---
 ## VertexElementTemplate&lt;T&gt;.Data property
 
-يحصل على بيانات الرأس
+يحصل على بيانات الرؤوس
 
 ```csharp
 public IArrayList<T> Data { get; }

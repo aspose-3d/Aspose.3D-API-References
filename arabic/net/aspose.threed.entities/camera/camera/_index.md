@@ -1,6 +1,6 @@
 ---
 title: "Camera.Camera"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Camera. يهيئ نسخة جديدة من فئة Camera"
 type: docs
 weight: 10
@@ -53,7 +53,7 @@ public Camera(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 
@@ -73,7 +73,7 @@ public Camera(string name, ProjectionType projectionType)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 | projectionType | ProjectionType | نوع الإسقاط. |
 
 ### انظر أيضًا

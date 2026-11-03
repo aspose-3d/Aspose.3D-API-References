@@ -1,7 +1,7 @@
 ---
 title: "MathUtils.ToRadian"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "MathUtils طريقة. تحويل Vector3 من الدرجة إلى الراديان"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة MathUtils. تحويل Vector3 من الدرجة إلى الراديان"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/mathutils/toradian/
@@ -79,7 +79,7 @@ public static double ToRadian(double degree)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| درجة | Double | قيمة الدرجة. |
+| درجة | مضاعف | قيمة الدرجة. |
 
 ### قيمة الإرجاع
 
@@ -110,9 +110,9 @@ public static Vector3 ToRadian(double x, double y, double z)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| x | Double | المكوّن x في قيمة الدرجة. |
-| y | Double | المكوّن y في قيمة الدرجة. |
-| z | Double | المكوّن z في قيمة الدرجة. |
+| x | مضاعف | المكوّن x في قيمة الدرجة. |
+| y | مضاعف | المكوّن y في قيمة الدرجة. |
+| z | مضاعف | المكوّن z في قيمة الدرجة. |
 
 ### قيمة الإرجاع
 

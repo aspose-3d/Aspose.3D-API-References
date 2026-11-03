@@ -1,7 +1,7 @@
 ---
 title: "Vector2.Dot"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector2. يحصل على حاصل الضرب النقطي لمتجهين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector2. يحصل على حاصل الضرب النقطي لاثنين من المتجهات"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.utilities/vector2/dot/
@@ -16,7 +16,7 @@ public double Dot(Vector2 rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| rhs | Vector2 | قيمة الطرف الأيمن. |
+| rhs | Vector2 | قيمة الجانب الأيمن. |
 
 ### قيمة الإرجاع
 

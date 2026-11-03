@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.Detect"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FileFormat. اكتشاف تنسيق الملف من تدفق البيانات؛ اسم الملف اختياري لتخمين الأنواع التي لا تحتوي على رأس سحري"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FileFormat. اكتشف تنسيق الملف من تدفق البيانات اسم الملف اختياري لتخمين الأنواع التي لا تحتوي على رأس سحري"
 type: docs
 weight: 460
 url: /ar/net/aspose.threed/fileformat/detect/
 ---
 ## Detect(Stream, string) {#detect}
 
-اكتشاف تنسيق الملف من تدفق البيانات، اسم الملف اختياري لتخمين الأنواع التي لا تحتوي على رأس سحري.
+اكتشف تنسيق الملف من تدفق البيانات، اسم الملف اختياري لتخمين الأنواع التي لا تحتوي على رأس سحري.
 
 ```csharp
 public static FileFormat Detect(Stream stream, string fileName)
@@ -16,14 +16,14 @@ public static FileFormat Detect(Stream stream, string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق يحتوي على البيانات للكشف |
-| fileName | سلسلة | اسم الملف الأصلي للبيانات، يُستخدم كدليل. |
+| تدفق | تدفق | تدفق يحتوي على البيانات للكشف |
+| fileName | String | اسم الملف الأصلي للبيانات، يُستخدم كإشارة. |
 
 ### قيمة الإرجاع
 
-مثيل [`FileFormat`](../) للنمط المكتشف أو null إذا فشل.
+ال [`FileFormat`](../) المثيل للنّوع المكتشف أو null إذا فشل.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
@@ -47,7 +47,7 @@ Console.WriteLine($"Input data format: {fmt}");
 
 ## Detect(string) {#detect_1}
 
-اكتشاف تنسيق الملف من اسم الملف، يجب أن يكون الملف قابلاً للقراءة حتى يتمكن Aspose.3D من اكتشاف تنسيق الملف عبر رأس الملف.
+اكتشف تنسيق الملف من اسم الملف، يجب أن يكون الملف قابلاً للقراءة حتى يتمكن Aspose.3D من اكتشاف تنسيق الملف عبر رأس الملف.
 
 ```csharp
 public static FileFormat Detect(string fileName)
@@ -55,13 +55,13 @@ public static FileFormat Detect(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | المسار إلى الملف لاكتشاف تنسيق الملف. |
+| fileName | String | المسار إلى الملف لاكتشاف تنسيق الملف. |
 
 ### قيمة الإرجاع
 
-مثيل [`FileFormat`](../) للنمط المكتشف أو null إذا فشل.
+ال [`FileFormat`](../) المثيل للنّوع المكتشف أو null إذا فشل.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

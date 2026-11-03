@@ -1,14 +1,14 @@
 ---
 title: "EndPoint.IsCartesianPoint"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية EndPoint. هل نقطة النهاية هي نقطة ديكارتية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية EndPoint. هل النقطة النهائية نقطة ديكارتية"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/endpoint/iscartesianpoint/
 ---
 ## EndPoint.IsCartesianPoint property
 
-هل نقطة النهاية هي نقطة إحداثية؟
+هل النقطة النهائية نقطة ديكارتية؟
 
 ```csharp
 public bool IsCartesianPoint { get; }

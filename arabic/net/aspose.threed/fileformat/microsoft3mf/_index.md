@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.Microsoft3MF"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل FileFormat. تنسيق التصنيع ثلاثي الأبعاد من Microsoft"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. Microsoft 3D Manufacturing Format"
 type: docs
 weight: 600
 url: /ar/net/aspose.threed/fileformat/microsoft3mf/
 ---
 ## FileFormat.Microsoft3MF field
 
-تنسيق Microsoft لتصنيع 3D
+Microsoft تنسيق التصنيع ثلاثي الأبعاد
 
 ```csharp
 public static readonly Microsoft3MFFormat Microsoft3MF;

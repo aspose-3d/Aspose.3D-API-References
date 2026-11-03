@@ -1,14 +1,14 @@
 ---
 title: "FVector4.op_Addition"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FVector4. إعادة تعريف المشغل لـ"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector4. تحميل المشغل لـ"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/fvector4/op_addition/
 ---
 ## FVector4 Addition operator
 
-إعادة تحميل العامل للـ +
+إعادة تعريف المشغل لـ +
 
 ```csharp
 public static FVector4 operator +(FVector4 lhs, FVector4 rhs)

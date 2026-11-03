@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.PcdBinary"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل FileFormat. ملف PCL Point Cloud Data في الوضع الثنائي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormat field. ملف بيانات سحابة النقاط PCL في الوضع الثنائي"
 type: docs
 weight: 310
 url: /ar/net/aspose.threed/fileformat/pcdbinary/
 ---
 ## FileFormat.PcdBinary field
 
-ملف PCL Point Cloud Data في وضع ثنائي
+ملف بيانات سحابة النقاط PCL في الوضع الثنائي
 
 ```csharp
 public static readonly FileFormat PcdBinary;

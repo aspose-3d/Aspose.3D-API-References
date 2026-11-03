@@ -1,6 +1,6 @@
 ---
 title: "ParseException.ParseException"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ ParseException. منشئ ParseException"
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ public ParseException(string msg)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| رسالة | سلسلة |  |
+| msg | String |  |
 
 ### انظر أيضًا
 

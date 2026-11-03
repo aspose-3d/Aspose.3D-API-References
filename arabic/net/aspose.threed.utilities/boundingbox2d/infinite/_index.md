@@ -1,6 +1,6 @@
 ---
 title: "BoundingBox2D.Infinite"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل BoundingBox2D. مربع الحد اللانهائي"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/boundingbox2d/infinite/
 ---
 ## BoundingBox2D.Infinite field
 
-صندوق الإحاطة اللانهائي
+صندوق الحدود اللانهائي.
 
 ```csharp
 public static readonly BoundingBox2D Infinite;

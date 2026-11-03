@@ -1,6 +1,6 @@
 ---
 title: "PlySaveOptions.FlipCoordinate"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية PlySaveOptions. عكس الإحداثيات أثناء حفظ المشهد القيمة الافتراضية هي true"
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats/plysaveoptions/flipcoordinate/
 ---
 ## PlySaveOptions.FlipCoordinate property
 
-قلب الإحداثيات أثناء حفظ المشهد، القيمة الافتراضية هي true
+عكس الإحداثيات أثناء حفظ المشهد، القيمة الافتراضية هي true
 
 ```csharp
 public bool FlipCoordinate { get; set; }

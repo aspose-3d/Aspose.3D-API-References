@@ -1,14 +1,14 @@
 ---
 title: "PbrMaterial.EmissiveColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrMaterial. يحصل أو يضبط اللون الانبعاثي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrMaterial. تحصل أو تعين اللون الانبعاثي"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.shading/pbrmaterial/emissivecolor/
 ---
 ## PbrMaterial.EmissiveColor property
 
-يحصل أو يضبط اللون المنبعث
+يسترجع أو يعيّن اللون الانبعاثي
 
 ```csharp
 public Vector3 EmissiveColor { get; set; }
