@@ -1,64 +1,64 @@
 ---
-title: PbrMaterial
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: अल्बेड रंग/धत्वक/खुरदरपन के आधर पर भतक रूप से आधरत प्रतपदन के लए समग्र
+title: "क्लास PbrMaterial"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Shading.PbrMaterial क्लास। अल्बीडो रंग/धातुता/रफ़नेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए सामग्री।"
 type: docs
-weight: 2300
+weight: 2550
 url: /hi/net/aspose.threed.shading/pbrmaterial/
 ---
 ## PbrMaterial class
 
-अल्बेडो रंग/धात्विक/खुरदरापन के आधार पर भौतिक रूप से आधारित प्रतिपादन के लिए सामग्री
+अल्बीडो रंग/धातु/रफ़नेस पर आधारित फिज़िकली बेस्ड रेंडरिंग के लिए मैटेरियल
 
 ```csharp
 public class PbrMaterial : Material
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [PbrMaterial](pbrmaterial/#constructor)() | एक डिफ़ॉल्ट पीबीआर सामग्री उदाहरण बनाएं |
-| [PbrMaterial](pbrmaterial/#constructor_1)(Color) | निर्दिष्ट अल्बेडो रंग मान के साथ एक डिफ़ॉल्ट पीबीआर सामग्री का निर्माण करें। |
+| [PbrMaterial](pbrmaterial/#constructor)() | डिफ़ॉल्ट PBR सामग्री इंस्टेंस बनाएं |
+| [PbrMaterial](pbrmaterial/#constructor_1)(Vector3) | निर्दिष्ट अल्बीडो रंग मान के साथ डिफ़ॉल्ट PBR सामग्री बनाएं। |
 
-## गुण
-
-| नाम | विवरण |
-| --- | --- |
-| [Albedo](../../aspose.threed.shading/pbrmaterial/albedo/) { get; set; } | सामग्री का आधार रंग प्राप्त या सेट करता है |
-| [AlbedoTexture](../../aspose.threed.shading/pbrmaterial/albedotexture/) { get; set; } | अल्बेडो के लिए बनावट प्राप्त या सेट करता है |
-| [EmissiveColor](../../aspose.threed.shading/pbrmaterial/emissivecolor/) { get; set; } | उत्सर्जक रंग प्राप्त या सेट करता है |
-| [EmissiveTexture](../../aspose.threed.shading/pbrmaterial/emissivetexture/) { get; set; } | एमिसिव के लिए बनावट प्राप्त या सेट करता है |
-| [MetallicFactor](../../aspose.threed.shading/pbrmaterial/metallicfactor/) { get; set; } | सामग्री की धातुता को प्राप्त या सेट करता है, 1 के मान का अर्थ है कि सामग्री एक धातु है और 0 के मान का अर्थ है कि सामग्री एक ढांकता हुआ है। |
-| [MetallicRoughness](../../aspose.threed.shading/pbrmaterial/metallicroughness/) { get; set; } | धातु (आर चैनल में) और खुरदरापन (जी चैनल में) के लिए बनावट प्राप्त या सेट करता है |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [NormalTexture](../../aspose.threed.shading/pbrmaterial/normaltexture/) { get; set; } | सामान्य मैपिंग की बनावट प्राप्त या सेट करता है |
-| [OcclusionFactor](../../aspose.threed.shading/pbrmaterial/occlusionfactor/) { get; set; } | परिवेश रोड़ा के कारक को प्राप्त या सेट करता है |
-| [OcclusionTexture](../../aspose.threed.shading/pbrmaterial/occlusiontexture/) { get; set; } | परिवेश रोड़ा के लिए बनावट प्राप्त या सेट करता है |
-| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी संपत्तियों का संग्रह प्राप्त करता है। |
-| [RoughnessFactor](../../aspose.threed.shading/pbrmaterial/roughnessfactor/) { get; set; } | सामग्री की खुरदरापन प्राप्त या सेट करता है, 1 के मान का अर्थ है कि सामग्री पूरी तरह से खुरदरी है और 0 के मान का अर्थ है कि सामग्री पूरी तरह से चिकनी है |
-| [SpecularTexture](../../aspose.threed.shading/pbrmaterial/speculartexture/) { get; set; } | स्पेक्युलर कलर के लिए टेक्सचर प्राप्त या सेट करता है |
-| [Transparency](../../aspose.threed.shading/pbrmaterial/transparency/) { get; set; } | पारदर्शिता फ़ैक्टर प्राप्त या सेट करता है. फ़ैक्टर को 0(0%, पूरी तरह से अपारदर्शी) और 1(100%, पूरी तरह से पारदर्शी) के बीच होना चाहिए कोई भी अमान्य फ़ैक्टर मान क्लैम्प किया जाएगा. |
-
-## तरीकों
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| static [FromMaterial](../../aspose.threed.shading/pbrmaterial/frommaterial/)(Material) | अन्य सामग्री को PbrMaterial में बदलने की अनुमति दें |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | संपत्ति ढूँढता है। यह एक गतिशील संपत्ति हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल संपत्ति (इसके नाम से पहचानी गई) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | गणनाकर्ता को आंतरिक बनावट स्लॉट की गणना करने के लिए मिलता है। |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट संपत्ति का मान प्राप्त करें |
-| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | निर्दिष्ट स्लॉट से बनावट प्राप्त करता है, यह सामग्री की संपत्ति का नाम या शेडर का पैरामीटर नाम हो सकता है |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक गतिशील संपत्ति को हटाता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट संपत्ति को हटाएं |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट संपत्ति का मान सेट करता है |
-| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | बनावट को निर्दिष्ट स्लॉट पर सेट करता है |
-| override [ToString](../../aspose.threed.shading/material/tostring/)() | ऑब्जेक्ट को string पर स्वरूपित करता है |
+| [Albedo](../../aspose.threed.shading/pbrmaterial/albedo/) { get; set; } | सामग्री का बेस रंग प्राप्त करता है या सेट करता है |
+| [AlbedoTexture](../../aspose.threed.shading/pbrmaterial/albedotexture/) { get; set; } | अल्बीडो के लिए टेक्सचर प्राप्त करता है या सेट करता है |
+| [EmissiveColor](../../aspose.threed.shading/pbrmaterial/emissivecolor/) { get; set; } | एमिसिव रंग प्राप्त करता है या सेट करता है |
+| [EmissiveTexture](../../aspose.threed.shading/pbrmaterial/emissivetexture/) { get; set; } | एमिसिव के लिए टेक्सचर प्राप्त करता है या सेट करता है |
+| [MetallicFactor](../../aspose.threed.shading/pbrmaterial/metallicfactor/) { get; set; } | सामग्री की धातुता प्राप्त करता है या सेट करता है, 1 का मान मतलब सामग्री धातु है और 0 का मान मतलब सामग्री डाइइलेक्ट्रिक है। |
+| [MetallicRoughness](../../aspose.threed.shading/pbrmaterial/metallicroughness/) { get; set; } | धातुता (R चैनल में) और रफ़नेस (G चैनल में) के लिए टेक्सचर प्राप्त करता है या सेट करता है |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [NormalTexture](../../aspose.threed.shading/pbrmaterial/normaltexture/) { get; set; } | नॉर्मल मैपिंग का टेक्सचर प्राप्त करता है या सेट करता है |
+| [OcclusionFactor](../../aspose.threed.shading/pbrmaterial/occlusionfactor/) { get; set; } | ऐम्बिएंट ऑक्लूज़न का फैक्टर प्राप्त करता है या सेट करता है |
+| [OcclusionTexture](../../aspose.threed.shading/pbrmaterial/occlusiontexture/) { get; set; } | ऐम्बिएंट ऑक्लूज़न के लिए टेक्सचर प्राप्त करता है या सेट करता है |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
+| [RoughnessFactor](../../aspose.threed.shading/pbrmaterial/roughnessfactor/) { get; set; } | सामग्री की रफ़नेस प्राप्त करता है या सेट करता है, 1 का मान मतलब सामग्री पूरी तरह रफ़ है और 0 का मान मतलब सामग्री पूरी तरह स्मूद है। |
+| [SpecularTexture](../../aspose.threed.shading/pbrmaterial/speculartexture/) { get; set; } | स्पेक्यूलर रंग के लिए टेक्सचर प्राप्त करता है या सेट करता है |
+| [Transparency](../../aspose.threed.shading/pbrmaterial/transparency/) { get; set; } | ट्रांसपेरेंसी फैक्टर प्राप्त करता है या सेट करता है। फैक्टर 0 (0%, पूरी तरह अपारदर्शी) से 1 (100%, पूरी तरह पारदर्शी) के बीच होना चाहिए। कोई भी अमान्य फैक्टर वैल्यू को क्लैंप किया जाएगा। |
 
-### यह सभी देखें
+## मेथड्स
+
+| नाम | विवरण |
+| --- | --- |
+| static [FromMaterial](../../aspose.threed.shading/pbrmaterial/frommaterial/)(Material) | अन्य सामग्री को PbrMaterial में परिवर्तित करने की अनुमति दें |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (इसके नाम द्वारा पहचानी गई) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | आंतरिक टेक्सचर स्लॉट्स को सूचीबद्ध करने के लिए एनेमरेटर प्राप्त करता है। |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | निर्दिष्ट स्लॉट से टेक्सचर प्राप्त करता है, यह मैटेरियल की प्रॉपर्टी नाम या शेडर के पैरामीटर नाम हो सकता है |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | टेक्सचर को निर्दिष्ट स्लॉट में सेट करता है |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | ऑब्जेक्ट को स्ट्रिंग में फॉर्मेट करता है |
+
+### देखें भी
 
 * class [Material](../material/)
-* नाम स्थान [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

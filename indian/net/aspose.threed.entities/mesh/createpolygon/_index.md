@@ -1,108 +1,130 @@
 ---
-title: CreatePolygon
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: में परभषत सभ शर्षं के सथ एक नय बहुभुज बनत हैindices . वर्टेक्स द्वर पलगन वर्टेक्स बनने के लए कृपय उपयग करेंPolygonBuilderaspose.threed.entities/polygonbuilder/ .
+title: "Mesh.CreatePolygon"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Mesh मेथड। सभी वर्टिसेज़ को इंडेक्स में परिभाषित करके एक नया पॉलीगॉन बनाता है। पॉलीगॉन को वर्टेक्स दर वर्टेक्स बनाने के लिए कृपया PolygonBuilder का उपयोग करें।"
 type: docs
-weight: 50
+weight: 60
 url: /hi/net/aspose.threed.entities/mesh/createpolygon/
 ---
 ## CreatePolygon(int[], int, int) {#createpolygon_3}
 
-में परिभाषित सभी शीर्षों के साथ एक नया बहुभुज बनाता है*indices* . वर्टेक्स द्वारा पॉलीगॉन वर्टेक्स बनाने के लिए, कृपया उपयोग करें[`PolygonBuilder`](../../polygonbuilder/) .
+सभी शीर्ष बिंदु *indices* में परिभाषित एक नया बहुभुज बनाता है। बहुभुज को बिंदु दर बिंदु बनाने के लिए, कृपया [`PolygonBuilder`](../../polygonbuilder/) का उपयोग करें।
 
 ```csharp
 public void CreatePolygon(int[] indices, int offset, int length)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| indices | Int32[] | बहुभुज सूचकांकों की सरणी, प्रत्येक सूचकांक एक नियंत्रण बिंदु की ओर इशारा करता है जो बहुभुज बनाता है। |
-| offset | Int32 | पहले बहुभुज सूचकांक का ऑफसेट |
-| length | Int32 | सूचकांकों की लंबाई |
+| सूचकांक | Int32[] | बहुभुज के सूचकांकों की सरणी, प्रत्येक सूचकांक एक नियंत्रण बिंदु की ओर संकेत करता है जो बहुभुज बनाता है। |
+| ऑफ़सेट | Int32 | पहले बहुभुज सूचकांक का ऑफ़सेट |
+| लंबाई | Int32 | सूचकांकों की लंबाई |
 
-### उदाहरण
+## उदाहरण
+
+निम्नलिखित कोड दर्शाता है कि नियंत्रण बिंदुओं के सूचकांकों के साथ नया बहुभुज कैसे बनाया जाए।
 
 ```csharp
+var mesh = new Mesh();
 int[] indices = new int[] {0, 1, 2};
 mesh.CreatePolygon(indices);
 ```
 
-### यह सभी देखें
+### देखें भी
 
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreatePolygon(int[]) {#createpolygon_2}
 
-में परिभाषित सभी शीर्षों के साथ एक नया बहुभुज बनाता है*indices* . वर्टेक्स द्वारा पॉलीगॉन वर्टेक्स बनाने के लिए, कृपया उपयोग करें[`PolygonBuilder`](../../polygonbuilder/) .
+सभी शीर्ष बिंदु *indices* में परिभाषित एक नया बहुभुज बनाता है। बहुभुज को बिंदु दर बिंदु बनाने के लिए, कृपया [`PolygonBuilder`](../../polygonbuilder/) का उपयोग करें।
 
 ```csharp
 public void CreatePolygon(int[] indices)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| indices | Int32[] | बहुभुज सूचकांकों की सरणी, प्रत्येक सूचकांक एक नियंत्रण बिंदु की ओर इशारा करता है जो बहुभुज बनाता है। |
+| सूचकांक | Int32[] | बहुभुज के सूचकांकों की सरणी, प्रत्येक सूचकांक एक नियंत्रण बिंदु की ओर संकेत करता है जो बहुभुज बनाता है। |
 
-### उदाहरण
+## उदाहरण
 
 ```csharp
+var mesh = new Mesh();
 int[] indices = new int[] {0, 1, 2};
 mesh.CreatePolygon(indices);
 ```
 
-### यह सभी देखें
+### देखें भी
 
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreatePolygon(int, int, int, int) {#createpolygon_1}
 
-4 कोने (क्वाड) के साथ एक बहुभुज बनाएं
+4 वर्टेक्स (चतुर्भुज) के साथ एक बहुभुज बनाएं
 
 ```csharp
 public void CreatePolygon(int v1, int v2, int v3, int v4)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| v1 | Int32 | पहले शीर्ष का सूचकांक |
-| v2 | Int32 | दूसरे शीर्ष का सूचकांक |
-| v3 | Int32 | तीसरे शीर्ष का सूचकांक |
-| v4 | Int32 | चौथे शीर्ष का सूचकांक |
+| v1 | Int32 | पहले शीर्ष बिंदु का सूचकांक |
+| v2 | Int32 | दूसरे शीर्ष बिंदु का सूचकांक |
+| v3 | Int32 | तीसरे शीर्ष बिंदु का सूचकांक |
+| v4 | Int32 | चौथे शीर्ष बिंदु का सूचकांक |
 
-### यह सभी देखें
+## उदाहरण
+
+निम्नलिखित कोड दर्शाता है कि नियंत्रण बिंदुओं के सूचकांकों के साथ नया बहुभुज कैसे बनाया जाए।
+
+```csharp
+var mesh = new Mesh();
+mesh.CreatePolygon(0, 1, 2, 3);
+```
+
+### देखें भी
 
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreatePolygon(int, int, int) {#createpolygon}
 
-3 कोने (त्रिकोण) के साथ एक बहुभुज बनाएँ
+3 वर्टेक्स (त्रिभुज) के साथ एक बहुभुज बनाएं
 
 ```csharp
 public void CreatePolygon(int v1, int v2, int v3)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| v1 | Int32 | पहले शीर्ष का सूचकांक |
-| v2 | Int32 | दूसरे शीर्ष का सूचकांक |
-| v3 | Int32 | तीसरे शीर्ष का सूचकांक |
+| v1 | Int32 | पहले शीर्ष बिंदु का सूचकांक |
+| v2 | Int32 | दूसरे शीर्ष बिंदु का सूचकांक |
+| v3 | Int32 | तीसरे शीर्ष बिंदु का सूचकांक |
 
-### यह सभी देखें
+## उदाहरण
+
+निम्नलिखित कोड दर्शाता है कि नियंत्रण बिंदुओं के सूचकांकों के साथ नया बहुभुज कैसे बनाया जाए।
+
+```csharp
+var mesh = new Mesh();
+mesh.CreatePolygon(0, 1, 2);
+```
+
+### देखें भी
 
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

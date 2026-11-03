@@ -1,164 +1,164 @@
 ---
-title: Bind
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: बफर क वर्तमन डस्क्रप्टर सेट से बंधें
+title: "DescriptorSetUpdater.Bind"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "DescriptorSetUpdater method. बफ़र को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें"
 type: docs
 weight: 10
 url: /hi/net/aspose.threed.render/descriptorsetupdater/bind/
 ---
 ## Bind(IBuffer, int, int) {#bind_1}
 
-बफर को वर्तमान डिस्क्रिप्टर सेट से बांधें
+बफ़र को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| buffer | IBuffer | कौन सा बफर बांधना है |
-| offset | Int32 | बाइंड करने के लिए बफ़र का ऑफ़सेट |
-| size | Int32 | बाँधने के लिए बफ़र का आकार |
+| बफ़र | IBuffer | कौन सा बफ़र बाइंड करना है |
+| ऑफ़सेट | Int32 | बाइंड करने के लिए बफ़र का ऑफ़सेट |
+| आकार | Int32 | बाइंड करने के लिए बफ़र का आकार |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-चेनिंग ऑपरेशन के लिए वर्तमान उदाहरण लौटाएं
+चेनिंग ऑपरेशन के लिए वर्तमान इंस्टेंस लौटाएँ
 
-### यह सभी देखें
+### देखें भी
 
 * interface [IBuffer](../../ibuffer/)
 * class [DescriptorSetUpdater](../)
-* नाम स्थान [Aspose.ThreeD.Render](../../descriptorsetupdater/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(IBuffer) {#bind}
 
-पूरे बफर को वर्तमान डिस्क्रिप्टर से बांधें
+पूरा बफ़र वर्तमान डिस्क्रिप्टर से बाइंड करें
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| buffer | IBuffer |  |
+| बफ़र | IBuffer |  |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-चेनिंग ऑपरेशन के लिए वर्तमान उदाहरण लौटाएं
+चेनिंग ऑपरेशन के लिए वर्तमान इंस्टेंस लौटाएँ
 
-### यह सभी देखें
+### देखें भी
 
 * interface [IBuffer](../../ibuffer/)
 * class [DescriptorSetUpdater](../)
-* नाम स्थान [Aspose.ThreeD.Render](../../descriptorsetupdater/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer) {#bind_3}
 
-बफ़र को निर्दिष्ट बाइंडिंग स्थान पर वर्तमान डिस्क्रिप्टर सेट से बाँधें।
+निर्दिष्ट बाइंडिंग लोकेशन पर बफ़र को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें।
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| binding | Int32 | बंधन स्थान |
-| buffer | IBuffer | बाइंड करने के लिए पूरा बफर |
+| बाइंडिंग | Int32 | बाइंडिंग स्थान |
+| बफ़र | IBuffer | बाइंड करने के लिए पूरी बफ़र |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-चेनिंग ऑपरेशन के लिए वर्तमान उदाहरण लौटाएं
+चेनिंग ऑपरेशन के लिए वर्तमान इंस्टेंस लौटाएँ
 
-### यह सभी देखें
+### देखें भी
 
 * interface [IBuffer](../../ibuffer/)
 * class [DescriptorSetUpdater](../)
-* नाम स्थान [Aspose.ThreeD.Render](../../descriptorsetupdater/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer, int, int) {#bind_4}
 
-बफ़र को निर्दिष्ट बाइंडिंग स्थान पर वर्तमान डिस्क्रिप्टर सेट से बाँधें।
+निर्दिष्ट बाइंडिंग लोकेशन पर बफ़र को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें।
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int size)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| binding | Int32 | बंधन स्थान |
-| buffer | IBuffer | बाइंड करने के लिए बफर |
-| offset | Int32 | बाइंड करने के लिए बफ़र का ऑफ़सेट |
-| size | Int32 | बाँधने के लिए बफ़र का आकार |
+| बाइंडिंग | Int32 | बाइंडिंग स्थान |
+| बफ़र | IBuffer | बाइंड करने के लिए बफ़र |
+| ऑफ़सेट | Int32 | बाइंड करने के लिए बफ़र का ऑफ़सेट |
+| आकार | Int32 | बाइंड करने के लिए बफ़र का आकार |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-चेनिंग ऑपरेशन के लिए वर्तमान उदाहरण लौटाएं
+चेनिंग ऑपरेशन के लिए वर्तमान इंस्टेंस लौटाएँ
 
-### यह सभी देखें
+### देखें भी
 
 * interface [IBuffer](../../ibuffer/)
 * class [DescriptorSetUpdater](../)
-* नाम स्थान [Aspose.ThreeD.Render](../../descriptorsetupdater/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(ITextureUnit) {#bind_2}
 
-बनावट इकाई को वर्तमान डिस्क्रिप्टर सेट से बांधें
+टेक्सचर यूनिट को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें
 
 ```csharp
 public DescriptorSetUpdater Bind(ITextureUnit texture)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| texture | ITextureUnit | बाँधने के लिए बनावट इकाई |
+| texture | ITextureUnit | बाइंड करने के लिए टेक्सचर यूनिट |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-चेनिंग ऑपरेशन के लिए वर्तमान उदाहरण लौटाएं
+चेनिंग ऑपरेशन के लिए वर्तमान इंस्टेंस लौटाएँ
 
-### यह सभी देखें
+### देखें भी
 
 * interface [ITextureUnit](../../itextureunit/)
 * class [DescriptorSetUpdater](../)
-* नाम स्थान [Aspose.ThreeD.Render](../../descriptorsetupdater/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, ITextureUnit) {#bind_5}
 
-बनावट इकाई को वर्तमान डिस्क्रिप्टर सेट से बांधें
+टेक्सचर यूनिट को वर्तमान डिस्क्रिप्टर सेट से बाइंड करें
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| binding | Int32 | बाध्यकारी स्थान |
-| texture | ITextureUnit | बाँधने के लिए बनावट इकाई |
+| बाइंडिंग | Int32 | बाइंडिंग स्थान |
+| texture | ITextureUnit | बाइंड करने के लिए टेक्सचर यूनिट |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-चेनिंग ऑपरेशन के लिए वर्तमान उदाहरण लौटाएं
+चेनिंग ऑपरेशन के लिए वर्तमान इंस्टेंस लौटाएँ
 
-### यह सभी देखें
+### देखें भी
 
 * interface [ITextureUnit](../../itextureunit/)
 * class [DescriptorSetUpdater](../)
-* नाम स्थान [Aspose.ThreeD.Render](../../descriptorsetupdater/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

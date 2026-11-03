@@ -1,9 +1,9 @@
 ---
-title: Vector3
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: तन घटकं वल एक वेक्टर
+title: "स्ट्रक्ट Vector3"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Utilities.Vector3 स्ट्रक्ट। तीन घटकों वाला एक वेक्टर।"
 type: docs
-weight: 2650
+weight: 2880
 url: /hi/net/aspose.threed.utilities/vector3/
 ---
 ## Vector3 structure
@@ -14,63 +14,63 @@ url: /hi/net/aspose.threed.utilities/vector3/
 public struct Vector3 : IComparable<Vector3>
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Vector3](vector3/#constructor_4)(Color) | का एक नया उदाहरण प्रारंभ करता है`Vector3` संरचना. |
-| [Vector3](vector3/#constructor_2)(double) | का एक नया उदाहरण प्रारंभ करता है`Vector3` संरचना. |
-| [Vector3](vector3/#constructor)(FVector3) | का एक नया उदाहरण प्रारंभ करता है`Vector3` संरचना. |
-| [Vector3](vector3/#constructor_1)(Vector4) | का एक नया उदाहरण प्रारंभ करता है`Vector3` संरचना. |
-| [Vector3](vector3/#constructor_3)(double, double, double) | का एक नया उदाहरण प्रारंभ करता है`Vector3` संरचना. |
+| [Vector3](vector3/#constructor_2)(double) | `Vector3` स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Vector3](vector3/#constructor)(FVector3) | `Vector3` स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Vector3](vector3/#constructor_1)(Vector4) | `Vector3` स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Vector3](vector3/#constructor_3)(double, double, double) | `Vector3` स्ट्रक्ट का नया इंस्टेंस इनिशियलाइज़ करता है। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
+| static [One](../../aspose.threed.utilities/vector3/one/) { get; } | यूनिट वेक्टर (1, 1, 1) प्राप्त करता है |
+| static [UnitX](../../aspose.threed.utilities/vector3/unitx/) { get; } | यूनिट वेक्टर (1, 0, 0) प्राप्त करता है |
+| static [UnitY](../../aspose.threed.utilities/vector3/unity/) { get; } | यूनिट वेक्टर (0, 1, 0) प्राप्त करता है |
+| static [UnitZ](../../aspose.threed.utilities/vector3/unitz/) { get; } | इकाई वेक्टर (0, 0, 1) प्राप्त करता है |
+| static [Zero](../../aspose.threed.utilities/vector3/zero/) { get; } | इकाई वेक्टर (0, 0, 0) प्राप्त करता है |
+| [Item](../../aspose.threed.utilities/vector3/item/) { get; set; } |  |
 | [Length](../../aspose.threed.utilities/vector3/length/) { get; } | इस वेक्टर की लंबाई प्राप्त करता है। |
 | [Length2](../../aspose.threed.utilities/vector3/length2/) { get; } | लंबाई का वर्ग प्राप्त करता है। |
 
-## तरीकों
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [AngleBetween](../../aspose.threed.utilities/vector3/anglebetween/#anglebetween)(Vector3) | दो दिशाओं के बीच आंतरिक कोण की गणना करें दो दिशाएं गैर-सामान्यीकृत वैक्टर हो सकती हैं |
-| [AngleBetween](../../aspose.threed.utilities/vector3/anglebetween/#anglebetween_1)(Vector3, Vector3) | दो दिशाओं के बीच आंतरिक कोण की गणना करें दो दिशाएं गैर-सामान्यीकृत वैक्टर हो सकती हैं |
+| [AngleBetween](../../aspose.threed.utilities/vector3/anglebetween/#anglebetween)(Vector3) | दो दिशाओं के बीच का आंतरिक कोण गणना करें। दो दिशाएँ गैर-नॉर्मलाइज़्ड वेक्टर हो सकती हैं। |
+| [AngleBetween](../../aspose.threed.utilities/vector3/anglebetween/#anglebetween_1)(Vector3, Vector3) | दो दिशाओं के बीच का आंतरिक कोण गणना करें। दो दिशाएँ गैर-नॉर्मलाइज़्ड वेक्टर हो सकती हैं। |
 | [CompareTo](../../aspose.threed.utilities/vector3/compareto/)(Vector3) | वर्तमान वेक्टर की तुलना किसी अन्य उदाहरण से करें। |
-| [Cos](../../aspose.threed.utilities/vector3/cos/)() | प्रत्येक घटक पर कोसाइन की गणना करता है |
-| [Cross](../../aspose.threed.utilities/vector3/cross/)(Vector3) | दो सदिशों का क्रॉस उत्पाद |
-| [Dot](../../aspose.threed.utilities/vector3/dot/)(Vector3) | दो वैक्टर का डॉट उत्पाद प्राप्त करता है |
-| override [Equals](../../aspose.threed.utilities/vector3/equals/)(object) | जांचें कि क्या दो वेक्टर3 बराबर हैं |
-| override [GetHashCode](../../aspose.threed.utilities/vector3/gethashcode/)() | वेक्टर3 का हैश कोड प्राप्त करता है |
-| [Normalize](../../aspose.threed.utilities/vector3/normalize/)() | इस उदाहरण को सामान्य करता है। |
-| [Set](../../aspose.threed.utilities/vector3/set/)(double, double, double) | x/y/z घटक को एक कॉल में सेट करता है। |
-| [Sin](../../aspose.threed.utilities/vector3/sin/)() | प्रत्येक घटक पर साइन की गणना करता है |
-| override [ToString](../../aspose.threed.utilities/vector3/tostring/)() | रिटर्न एStringजो वर्तमान का प्रतिनिधित्व करता है`Vector3` . |
-| [operator +](../../aspose.threed.utilities/vector3/op_addition/) | ऑपरेटर ओवरलोडिंग के लिए + |
-| [operator /](../../aspose.threed.utilities/vector3/op_division/) | / के लिए ऑपरेटर ओवरलोडिंग |
-| [operator ==](../../aspose.threed.utilities/vector3/op_equality/) | वेक्टर3 के लिए समान ऑपरेटर |
+| [Cos](../../aspose.threed.utilities/vector3/cos/)() | प्रत्येक घटक पर कोसाइन की गणना करता है। |
+| [Cross](../../aspose.threed.utilities/vector3/cross/)(Vector3) | दो वेक्टरों का क्रॉस प्रोडक्ट |
+| [Dot](../../aspose.threed.utilities/vector3/dot/)(Vector3) | दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है। |
+| override [Equals](../../aspose.threed.utilities/vector3/equals/)(object) | जाँचें कि दो vector3 बराबर हैं या नहीं |
+| override [GetHashCode](../../aspose.threed.utilities/vector3/gethashcode/)() | Vector3 का हैश कोड प्राप्त करता है। |
+| [Normalize](../../aspose.threed.utilities/vector3/normalize/)() | इस उदाहरण को सामान्यीकृत करता है। |
+| [Set](../../aspose.threed.utilities/vector3/set/)(double, double, double) | एक कॉल में x/y/z घटक सेट करता है। |
+| [Sin](../../aspose.threed.utilities/vector3/sin/)() | प्रत्येक घटक पर साइन की गणना करता है। |
+| override [ToString](../../aspose.threed.utilities/vector3/tostring/)() | वर्तमान `Vector3` को दर्शाने वाली एक स्ट्रिंग लौटाता है। |
+| [operator +](../../aspose.threed.utilities/vector3/op_addition/) | + के लिए ऑपरेटर ओवरलोडिंग |
+| [operator /](../../aspose.threed.utilities/vector3/op_division/#op_division_1) | / के लिए ऑपरेटर ओवरलोडिंग (2 ऑपरेटर्स) |
+| [operator ==](../../aspose.threed.utilities/vector3/op_equality/) | Vector3 के लिए समानता ऑपरेटर |
 | [explicit operator](../../aspose.threed.utilities/vector3/op_explicit/) |  |
-| [operator !=](../../aspose.threed.utilities/vector3/op_inequality/) | वेक्टर3 के लिए बराबर नहीं ऑपरेटर |
-| [operator *](../../aspose.threed.utilities/vector3/op_multiply/#op_multiply) | ऑपरेटर ओवरलोडिंग के लिए * (3 operators) |
-| [operator -](../../aspose.threed.utilities/vector3/op_subtraction/) | - के लिए ऑपरेटर ओवरलोडिंग (2 operators) |
+| [operator !=](../../aspose.threed.utilities/vector3/op_inequality/) | Vector3 के लिए असमानता ऑपरेटर |
+| [operator *](../../aspose.threed.utilities/vector3/op_multiply/#op_multiply) | * के लिए ऑपरेटर ओवरलोडिंग (3 ऑपरेटर्स) |
+| [operator -](../../aspose.threed.utilities/vector3/op_subtraction/) | - के लिए ऑपरेटर ओवरलोडिंग (2 ऑपरेटर्स) |
 
-## खेत
+## फ़ील्ड्स
 
 | नाम | विवरण |
 | --- | --- |
-| static readonly [Origin](../../aspose.threed.utilities/vector3/origin/) | मूल स्थिति प्राप्त करता है। |
-| static readonly [UnitScale](../../aspose.threed.utilities/vector3/unitscale/) | यूनिट स्केल वेक्टर प्राप्त करता है। |
-| static readonly [XAxis](../../aspose.threed.utilities/vector3/xaxis/) | एक्स अक्ष प्राप्त करता है। |
-| static readonly [YAxis](../../aspose.threed.utilities/vector3/yaxis/) | वाई अक्ष प्राप्त करता है। |
-| static readonly [ZAxis](../../aspose.threed.utilities/vector3/zaxis/) | Z अक्ष प्राप्त करता है। |
-| [x](../../aspose.threed.utilities/vector3/x/) | एक्स घटक। |
-| [y](../../aspose.threed.utilities/vector3/y/) | वाई घटक। |
-| [z](../../aspose.threed.utilities/vector3/z/) | जेड घटक। |
+| [X](../../aspose.threed.utilities/vector3/x/) | x घटक। |
+| [Y](../../aspose.threed.utilities/vector3/y/) | y घटक। |
+| [Z](../../aspose.threed.utilities/vector3/z/) | z घटक। |
 
-### यह सभी देखें
+### देखें भी
 
-* नाम स्थान [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

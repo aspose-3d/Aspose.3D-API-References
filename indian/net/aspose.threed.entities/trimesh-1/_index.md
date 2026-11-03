@@ -1,14 +1,14 @@
 ---
-title: TriMeshT
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: क समन्य संस्करणTriMesh./trimesh/ उपयगकर्त के स्थैतकपरभषत शर्ष प्रकर के लए
+title: "क्लास TriMeshT"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Entities.TriMesh1T क्लास। उपयोगकर्ताओं के स्थैतिक-परिभाषित वर्टेक्स प्रकार के लिए TriMesh का सामान्य संस्करण।"
 type: docs
-weight: 740
+weight: 800
 url: /hi/net/aspose.threed.entities/trimesh-1/
 ---
 ## TriMesh&lt;T&gt; class
 
-का सामान्य संस्करण[`TriMesh`](../trimesh/) उपयोगकर्ता के स्थैतिक-परिभाषित शीर्ष प्रकार के लिए
+[`TriMesh`](../trimesh/) का सामान्य संस्करण उपयोगकर्ता के स्थैतिक-परिभाषित वर्टेक्स प्रकार के लिए
 
 ```csharp
 public class TriMesh<T> : TriMesh
@@ -19,66 +19,67 @@ public class TriMesh<T> : TriMesh
 | --- | --- |
 | T |  |
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [TriMesh](trimesh/)(string) | का एक उदाहरण प्रारंभ करें[`TriMesh`](../trimesh/) |
+| [TriMesh](trimesh/)(string) | [`TriMesh`](../trimesh/) का एक इंस्टेंस प्रारंभ करें |
 
-## गुण
-
-| नाम | विवरण |
-| --- | --- |
-| [Capacity](../../aspose.threed.entities/trimesh/capacity/) { get; } | पूर्व-आवंटित शीर्षों की क्षमता. |
-| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | हो जाता है या सेट करता है कि निर्यात के दौरान इस इकाई को बाहर करना है या नहीं। |
-| [IndicesCount](../../aspose.threed.entities/trimesh/indicescount/) { get; } | इसमें सूचकांकों की संख्या[`TriMesh`](../trimesh/) |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | पहले पैरेंट नोड को प्राप्त या सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | सभी पैरेंट नोड्स प्राप्त करता है, ज्यामिति इंस्टेंसिंग के लिए एक इकाई को कई पैरेंट नोड्स से जोड़ा जा सकता है |
-| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी संपत्तियों का संग्रह प्राप्त करता है। |
-| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | दृश्य प्राप्त करता है कि यह वस्तु से संबंधित है |
-| [UnmergedVerticesCount](../../aspose.threed.entities/trimesh/unmergedverticescount/) { get; } | मर्ज न किए गए शीर्षों की संख्या जो इससे होकर गुजरे हैं[`BeginVertex`](../trimesh/beginvertex/) और[`EndVertex`](../trimesh/endvertex/) . |
-| [VertexDeclaration](../../aspose.threed.entities/trimesh/vertexdeclaration/) { get; } | का वर्टेक्स लेआउट[`TriMesh`](../trimesh/) . |
-| [VerticesCount](../../aspose.threed.entities/trimesh/verticescount/) { get; } | इसमें शीर्षों की संख्या[`TriMesh`](../trimesh/) |
-| [VerticesSizeInBytes](../../aspose.threed.entities/trimesh/verticessizeinbytes/) { get; } | बाइट्स में सभी कोने का कुल आकार |
-
-## तरीकों
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| static [FromMesh](../../aspose.threed.entities/trimesh-1/frommesh/)(Mesh) | स्वचालित रूप से जेनरेट किए गए शीर्ष लेआउट के साथ दिए गए मेश ऑब्जेक्ट से एक ट्राइमेश बनाएं। |
+| [Capacity](../../aspose.threed.entities/trimesh/capacity/) { get; } | प्री-एलोकेटेड वर्टेक्स की क्षमता। |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | निर्यात के दौरान इस एंटिटी को बाहर रखने के लिए प्राप्त करता है या सेट करता है। |
+| [IndicesCount](../../aspose.threed.entities/trimesh/indicescount/) { get; } | इस [`TriMesh`](../trimesh/) में इंडेक्स की गिनती |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | पहला पैरेंट नोड प्राप्त करता है या सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी को जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [UnmergedVerticesCount](../../aspose.threed.entities/trimesh/unmergedverticescount/) { get; } | [`BeginVertex`](../trimesh/beginvertex/) और [`EndVertex`](../trimesh/endvertex/) द्वारा पास किए गए अनमर्ज्ड वर्टिसेज़ की गिनती। |
+| [VertexDeclaration](../../aspose.threed.entities/trimesh/vertexdeclaration/) { get; } | [`TriMesh`](../trimesh/) का वर्टेक्स लेआउट। |
+| [VerticesCount](../../aspose.threed.entities/trimesh/verticescount/) { get; } | इस [`TriMesh`](../trimesh/) में वर्टिसेज़ की गिनती |
+| [VerticesSizeInBytes](../../aspose.threed.entities/trimesh/verticessizeinbytes/) { get; } | सभी वर्टेक्स का कुल आकार बाइट्स में |
+
+## मेथड्स
+
+| नाम | विवरण |
+| --- | --- |
+| static [FromMesh](../../aspose.threed.entities/trimesh-1/frommesh/)(Mesh) | दिए गए मेष ऑब्जेक्ट से स्वचालित रूप से उत्पन्न वर्टेक्स लेआउट के साथ एक TriMesh बनाएं। |
+| [AddTriangle](../../aspose.threed.entities/trimesh/addtriangle/)(int, int, int) | एक नया त्रिभुज जोड़ें |
 | [BeginVertex](../../aspose.threed.entities/trimesh/beginvertex/)() | वर्टेक्स जोड़ना शुरू करें |
 | [EndVertex](../../aspose.threed.entities/trimesh/endvertex/)() | वर्टेक्स जोड़ना समाप्त करें |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | संपत्ति ढूँढता है। यह एक गतिशील संपत्ति हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल संपत्ति (इसके नाम से पहचानी गई) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | अपने ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में वर्तमान इकाई का बाउंडिंग बॉक्स प्राप्त करता है। |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
-| [GetEnumerator](../../aspose.threed.entities/trimesh/getenumerator/)() | गणना करने के लिए एन्यूमरेटर प्राप्त करें[`Vertex`](../../aspose.threed.utilities/vertex/) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट संपत्ति का मान प्राप्त करें |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (इसके नाम द्वारा पहचानी गई) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
+| [GetEnumerator](../../aspose.threed.entities/trimesh/getenumerator/)() | [`Vertex`](../../aspose.threed.utilities/vertex/) को क्रमबद्ध करने के लिए एन्यूमरेटर प्राप्त करें |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [IndicesToArray](../../aspose.threed.entities/trimesh/indicestoarray/)(out int[]) |  |
 | [IndicesToArray](../../aspose.threed.entities/trimesh/indicestoarray/)(out ushort[]) |  |
-| [LoadVerticesFromBytes](../../aspose.threed.entities/trimesh/loadverticesfrombytes/)(byte[]) | बाइट्स से वर्टिकल लोड करें, बाइट्स की लंबाई वर्टेक्स आकार का पूर्णांक मल्टीपल होना चाहिए। |
-| [ReadDouble](../../aspose.threed.entities/trimesh/readdouble/)(int, VertexField) | दोहरा क्षेत्र पढ़ें |
-| [ReadFloat](../../aspose.threed.entities/trimesh/readfloat/)(int, VertexField) | फ्लोट फ़ील्ड पढ़ें |
-| [ReadFVector2](../../aspose.threed.entities/trimesh/readfvector2/)(int, VertexField) | वेक्टर2 फ़ील्ड पढ़ें |
-| [ReadFVector3](../../aspose.threed.entities/trimesh/readfvector3/)(int, VertexField) | वेक्टर3 फ़ील्ड पढ़ें |
-| [ReadFVector4](../../aspose.threed.entities/trimesh/readfvector4/)(int, VertexField) | वेक्टर4 फ़ील्ड पढ़ें |
-| [ReadVector2](../../aspose.threed.entities/trimesh/readvector2/)(int, VertexField) | वेक्टर2 फ़ील्ड पढ़ें |
-| [ReadVector3](../../aspose.threed.entities/trimesh/readvector3/)(int, VertexField) | वेक्टर3 फ़ील्ड पढ़ें |
-| [ReadVector4](../../aspose.threed.entities/trimesh/readvector4/)(int, VertexField) | वेक्टर4 फ़ील्ड पढ़ें |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक गतिशील संपत्ति को हटाता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट संपत्ति को हटाएं |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट संपत्ति का मान सेट करता है |
-| override [ToString](../../aspose.threed.entities/trimesh/tostring/)() | का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है[`TriMesh`](../trimesh/) |
-| [VerticesToArray](../../aspose.threed.entities/trimesh/verticestoarray/)() | वर्टिकल डेटा को बाइट array में बदलें |
-| [VerticesToTypedArray](../../aspose.threed.entities/trimesh-1/verticestotypedarray/)() | वर्टिकल डेटा को टाइप किए गए array में बदलें |
-| [Write16bIndicesTo](../../aspose.threed.entities/trimesh/write16bindicesto/)(Stream) | सूचकांक डेटा को स्ट्रीम के 16 बिट पूर्णांक के रूप में लिखें |
-| [Write32bIndicesTo](../../aspose.threed.entities/trimesh/write32bindicesto/)(Stream) | सूचकांक डेटा को स्ट्रीम के 32 बिट पूर्णांक के रूप में लिखें |
-| [WriteVerticesTo](../../aspose.threed.entities/trimesh/writeverticesto/)(Stream) | वर्टिकल डेटा को निर्दिष्ट स्ट्रीम में लिखें |
+| [LoadVerticesFromBytes](../../aspose.threed.entities/trimesh/loadverticesfrombytes/)(byte[]) | बाइट्स से वर्टेक्स लोड करें, बाइट्स की लंबाई वर्टेक्स आकार का पूर्णांक गुणज होना चाहिए। |
+| [ReadDouble](../../aspose.threed.entities/trimesh/readdouble/)(int, VertexField) | डबल फ़ील्ड पढ़ें |
+| [ReadFloat](../../aspose.threed.entities/trimesh/readfloat/)(int, VertexField) | फ़्लोट फ़ील्ड पढ़ें |
+| [ReadFVector2](../../aspose.threed.entities/trimesh/readfvector2/)(int, VertexField) | vector2 फ़ील्ड पढ़ें |
+| [ReadFVector3](../../aspose.threed.entities/trimesh/readfvector3/)(int, VertexField) | vector3 फ़ील्ड पढ़ें |
+| [ReadFVector4](../../aspose.threed.entities/trimesh/readfvector4/)(int, VertexField) | vector4 फ़ील्ड पढ़ें |
+| [ReadVector2](../../aspose.threed.entities/trimesh/readvector2/)(int, VertexField) | vector2 फ़ील्ड पढ़ें |
+| [ReadVector3](../../aspose.threed.entities/trimesh/readvector3/)(int, VertexField) | vector3 फ़ील्ड पढ़ें |
+| [ReadVector4](../../aspose.threed.entities/trimesh/readvector4/)(int, VertexField) | vector4 फ़ील्ड पढ़ें |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
+| override [ToString](../../aspose.threed.entities/trimesh/tostring/)() | [`TriMesh`](../trimesh/) का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है। |
+| [VerticesToArray](../../aspose.threed.entities/trimesh/verticestoarray/)() | वर्टेक्स डेटा को बाइट एरे में परिवर्तित करें |
+| [VerticesToTypedArray](../../aspose.threed.entities/trimesh-1/verticestotypedarray/)() | वर्टिसेज़ डेटा को टाइप्ड एरे में परिवर्तित करें। |
+| [Write16bIndicesTo](../../aspose.threed.entities/trimesh/write16bindicesto/)(Stream) | इंडेक्स डेटा को 16-बिट पूर्णांक के रूप में स्ट्रीम में लिखें |
+| [Write32bIndicesTo](../../aspose.threed.entities/trimesh/write32bindicesto/)(Stream) | इंडेक्स डेटा को 32‑बिट पूर्णांक के रूप में स्ट्रीम में लिखें |
+| [WriteVerticesTo](../../aspose.threed.entities/trimesh/writeverticesto/)(Stream) | निर्दिष्ट स्ट्रीम में वर्टिस डेटा लिखें |
 
-### यह सभी देखें
+### देखें भी
 
 * class [TriMesh](../trimesh/)
-* नाम स्थान [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

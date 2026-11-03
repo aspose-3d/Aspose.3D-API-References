@@ -1,126 +1,130 @@
 ---
-title: Render
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: दए गए कैमरे के दृष्टकण से दृश्य क बहर फ़इल में प्रस्तुत करें डफ़ल्ट आउटपुट आकर 1024x768 है और आउटपुट स्वरूप png है
+title: "Scene.Render"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Scene मेथड। दिए गए कैमरों के दृष्टिकोण से सीन को बाहरी फ़ाइल में रेंडर करता है। डिफ़ॉल्ट आउटपुट आकार 1024x768 है और आउटपुट फ़ॉर्मेट png है।"
 type: docs
 weight: 150
 url: /hi/net/aspose.threed/scene/render/
 ---
 ## Render(Camera, string) {#render_2}
 
-दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में प्रस्तुत करें। डिफ़ॉल्ट आउटपुट आकार 1024x768 है और आउटपुट स्वरूप png है
+दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है। डिफ़ॉल्ट आउटपुट आकार 1024x768 है और आउटपुट स्वरूप png है।
 
 ```csharp
 public void Render(Camera camera, string fileName)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| camera | Camera | किस कैमरे के नजरिए से सीन को रेंडर करना है |
-| fileName | String | आउटपुट फ़ाइल का फ़ाइल नाम |
+| कैमरा | कैमरा | किस कैमरे के दृष्टिकोण से सीन को रेंडर किया जाए |
+| fileName | String | आउटपुट फ़ाइल का नाम |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Camera](../../../aspose.threed.entities/camera/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, string, Size, ImageFormat) {#render_3}
+## Render(Camera, string, Vector2, string) {#render_3}
 
-दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में प्रस्तुत करें।
+दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है।
 
 ```csharp
-public void Render(Camera camera, string fileName, Size size, ImageFormat format)
+public void Render(Camera camera, string fileName, Vector2 size, string format)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| camera | Camera | किस कैमरे के नजरिए से सीन को रेंडर करना है |
-| fileName | String | आउटपुट फ़ाइल का फ़ाइल नाम |
-| size | Size | अंतिम प्रदान की गई छवि का आकार |
-| format | ImageFormat | आउटपुट फ़ाइल का छवि प्रारूप |
+| कैमरा | कैमरा | किस कैमरे के दृष्टिकोण से सीन को रेंडर किया जाए |
+| fileName | String | आउटपुट फ़ाइल का नाम |
+| आकार | Vector2 | अंतिम रेंडर की गई छवि का आकार |
+| फ़ॉर्मेट | String | आउटपुट फ़ाइल का छवि फ़ॉर्मेट |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Camera](../../../aspose.threed.entities/camera/)
+* struct [Vector2](../../../aspose.threed.utilities/vector2/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, string, Size, ImageFormat, ImageRenderOptions) {#render_4}
+## Render(Camera, string, Vector2, string, ImageRenderOptions) {#render_4}
 
-दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में प्रस्तुत करें।
+दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है।
 
 ```csharp
-public void Render(Camera camera, string fileName, Size size, ImageFormat format, 
+public void Render(Camera camera, string fileName, Vector2 size, string format, 
     ImageRenderOptions options)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| camera | Camera | किस कैमरे के नजरिए से सीन को रेंडर करना है |
-| fileName | String | आउटपुट फ़ाइल का फ़ाइल नाम |
-| size | Size | अंतिम प्रदान की गई छवि का आकार |
-| format | ImageFormat | आउटपुट फ़ाइल का छवि प्रारूप |
+| कैमरा | कैमरा | किस कैमरे के दृष्टिकोण से सीन को रेंडर किया जाए |
+| fileName | String | आउटपुट फ़ाइल का नाम |
+| आकार | Vector2 | अंतिम रेंडर की गई छवि का आकार |
+| फ़ॉर्मेट | String | आउटपुट फ़ाइल का छवि फ़ॉर्मेट |
 | options | ImageRenderOptions | कुछ आंतरिक सेटिंग्स को अनुकूलित करने का विकल्प। |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Camera](../../../aspose.threed.entities/camera/)
+* struct [Vector2](../../../aspose.threed.utilities/vector2/)
 * class [ImageRenderOptions](../../imagerenderoptions/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, Bitmap) {#render}
+## Render(Camera, TextureData) {#render}
 
-दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में प्रस्तुत करें।
+दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में रेंडर करता है।
 
 ```csharp
-public void Render(Camera camera, Bitmap bitmap)
+public void Render(Camera camera, TextureData bitmap)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| camera | Camera | किस कैमरे के नजरिए से सीन को रेंडर करना है |
-| bitmap | Bitmap | प्रदान किए गए परिणाम का लक्ष्य |
+| कैमरा | कैमरा | किस कैमरे के दृष्टिकोण से सीन को रेंडर किया जाए |
+| bitmap | TextureData | रेंडर किए गए परिणाम का लक्ष्य |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Camera](../../../aspose.threed.entities/camera/)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, Bitmap, ImageRenderOptions) {#render_1}
+## Render(Camera, TextureData, ImageRenderOptions) {#render_1}
 
-दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में प्रस्तुत करें।
+दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में रेंडर करता है।
 
 ```csharp
-public void Render(Camera camera, Bitmap bitmap, ImageRenderOptions options)
+public void Render(Camera camera, TextureData bitmap, ImageRenderOptions options)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| camera | Camera | किस कैमरे के नजरिए से सीन को रेंडर करना है |
-| bitmap | Bitmap | प्रदान किए गए परिणाम का लक्ष्य |
+| कैमरा | कैमरा | किस कैमरे के दृष्टिकोण से सीन को रेंडर किया जाए |
+| bitmap | TextureData | रेंडर किए गए परिणाम का लक्ष्य |
 | options | ImageRenderOptions | कुछ आंतरिक सेटिंग्स को अनुकूलित करने का विकल्प। |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Camera](../../../aspose.threed.entities/camera/)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * class [ImageRenderOptions](../../imagerenderoptions/)
 * class [Scene](../)
-* नाम स्थान [Aspose.ThreeD](../../scene/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

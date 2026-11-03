@@ -1,53 +1,53 @@
 ---
-title: VertexElementUV
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: नर्दष्ट घटकं के लए यूव नर्देशंक परभषत करत है एक ज्यमत में एकधक ह सकते हैंVertexElementUV./vertexelementuv/ तत्व और हर एक अलग हैTextureMapping./texturemapping/ s.
+title: "क्लास VertexElementUV"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Entities.VertexElementUV क्लास. निर्दिष्ट घटकों के लिए UV निर्देशांक को परिभाषित करता है। एक ज्यामिति में कई VertexElementUV तत्व हो सकते हैं और प्रत्येक का अलग TextureMappings होता है।"
 type: docs
-weight: 900
+weight: 960
 url: /hi/net/aspose.threed.entities/vertexelementuv/
 ---
 ## VertexElementUV class
 
-निर्दिष्ट घटकों के लिए यूवी निर्देशांक परिभाषित करता है। एक ज्यामिति में एकाधिक हो सकते हैं`VertexElementUV` तत्व, और हर एक अलग है[`TextureMapping`](../texturemapping/) s.
+निर्दिष्ट घटकों के लिए UV निर्देशांक को परिभाषित करता है। एक ज्यामिति में कई `VertexElementUV` तत्व हो सकते हैं, और प्रत्येक का अलग [`TextureMapping`](../texturemapping/) होता है।
 
 ```csharp
 public class VertexElementUV : VertexElementVector4
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [VertexElementUV](vertexelementuv/#constructor)() | का एक नया उदाहरण प्रारंभ करता है`VertexElementUV` class. डिफ़ॉल्ट बनावट मैपिंग प्रकार हैDiffuse |
-| [VertexElementUV](vertexelementuv/#constructor_1)(TextureMapping) | का एक नया उदाहरण प्रारंभ करता है`VertexElementUV` वर्ग. |
+| [VertexElementUV](vertexelementuv/#constructor)() | नया उदाहरण `VertexElementUV` क्लास का आरंभ करता है। डिफ़ॉल्ट टेक्सचर मैपिंग प्रकार Diffuse है। |
+| [VertexElementUV](vertexelementuv/#constructor_1)(TextureMapping) | नया उदाहरण `VertexElementUV` क्लास का आरंभ करता है। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Data](../../aspose.threed.entities/vertexelementvector4/data/) { get; } | शीर्ष डेटा प्राप्त करता है |
-| [Indices](../../aspose.threed.entities/vertexelement/indices/) { get; } | सूचकांक डेटा प्राप्त करता है |
-| [MappingMode](../../aspose.threed.entities/vertexelement/mappingmode/) { get; set; } | तत्व को कैसे मैप किया जाता है या सेट करता है। |
-| [Name](../../aspose.threed.entities/vertexelement/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [ReferenceMode](../../aspose.threed.entities/vertexelement/referencemode/) { get; set; } | तत्व को कैसे संदर्भित किया जाता है या सेट करता है। |
-| [VertexElementType](../../aspose.threed.entities/vertexelement/vertexelementtype/) { get; } | का प्रकार प्राप्त करता है[`VertexElement`](../vertexelement/) |
+| [Data](../../aspose.threed.entities/vertexelementvector4/data/) { get; } | वर्टेक्स डेटा प्राप्त करता है |
+| [Indices](../../aspose.threed.entities/vertexelement/indices/) { get; } | इंडेक्स डेटा प्राप्त करता है |
+| [MappingMode](../../aspose.threed.entities/vertexelement/mappingmode/) { get; set; } | तत्व कैसे मैप किया गया है, इसे प्राप्त या सेट करता है। |
+| [Name](../../aspose.threed.entities/vertexelement/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [ReferenceMode](../../aspose.threed.entities/vertexelement/referencemode/) { get; set; } | तत्व कैसे संदर्भित किया गया है, इसे प्राप्त या सेट करता है। |
+| [VertexElementType](../../aspose.threed.entities/vertexelement/vertexelementtype/) { get; } | [`VertexElement`](../vertexelement/) का प्रकार प्राप्त करता है |
 
-## तरीकों
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [AddData](../../aspose.threed.entities/vertexelementuv/adddata/#adddata)(IEnumerable&lt;Vector2&gt;) |  |
 | [AddData](../../aspose.threed.entities/vertexelementuv/adddata/#adddata_1)(IEnumerable&lt;Vector3&gt;) |  |
-| override [Clear](../../aspose.threed.entities/vertexelementvector4/clear/)() | प्रत्यक्ष और अनुक्रमणिका सरणियों से सभी तत्वों को हटाता है। |
+| override [Clear](../../aspose.threed.entities/vertexelementvector4/clear/)() | डायरेक्ट और इंडेक्स एरेज़ से सभी तत्वों को हटा देता है। |
 | [CopyTo](../../aspose.threed.entities/vertexelementvector4/copyto/)(VertexElementVector4) | डेटा को निर्दिष्ट तत्व में कॉपी करता है |
-| [SetData](../../aspose.threed.entities/vertexelementvector4/setdata/)(Vector4[]) | लोड डेटा |
-| [SetIndices](../../aspose.threed.entities/vertexelement/setindices/)(int[]) | लोड सूचकांक |
-| override [ToString](../../aspose.threed.entities/vertexelement/tostring/)() | शीर्ष तत्व का स्ट्रिंग प्रतिनिधित्व। |
+| [SetData](../../aspose.threed.entities/vertexelementvector4/setdata/)(Vector4[]) | डेटा लोड करें |
+| [SetIndices](../../aspose.threed.entities/vertexelement/setindices/)(int[]) | इंडेक्स लोड करें |
+| override [ToString](../../aspose.threed.entities/vertexelement/tostring/)() | वर्टेक्स तत्व का स्ट्रिंग प्रतिनिधित्व। |
 
-### यह सभी देखें
+### देखें भी
 
 * class [VertexElementVector4](../vertexelementvector4/)
-* नाम स्थान [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

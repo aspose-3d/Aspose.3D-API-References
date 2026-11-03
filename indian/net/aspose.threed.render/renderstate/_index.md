@@ -1,60 +1,59 @@
 ---
-title: RenderState
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: पइपलइन के नर्मण के लए रेंडर स्टेट रेंडर स्टेट पर कए गए बदलव बनए गए पइपलइन इंस्टेंसेस क प्रभवत नहं करेंगे
+title: "क्लास RenderState"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Render.RenderState क्लास। पाइपलाइन बनाने के लिए रेंडर स्टेट। रेंडर स्टेट पर किए गए परिवर्तन निर्मित पाइपलाइन इंस्टेंसेज़ को प्रभावित नहीं करेंगे।"
 type: docs
-weight: 2090
+weight: 2330
 url: /hi/net/aspose.threed.render/renderstate/
 ---
 ## RenderState class
 
-पाइपलाइन के निर्माण के लिए रेंडर स्टेट रेंडर स्टेट पर किए गए बदलाव बनाए गए पाइपलाइन इंस्टेंसेस को प्रभावित नहीं करेंगे।
+पाइपलाइन बनाने के लिए रेंडर स्टेट। रेंडर स्टेट पर किए गए परिवर्तन बनाए गए पाइपलाइन इंस्टेंसेज़ को प्रभावित नहीं करेंगे।
 
 ```csharp
 public class RenderState : IComparable<RenderState>, IDisposable
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [RenderState](renderstate/)() | का निर्माता`RenderState` |
+| [RenderState](renderstate/)() | `RenderState` का कंस्ट्रक्टर |
 
-## गुण
-
-| नाम | विवरण |
-| --- | --- |
-| [Blend](../../aspose.threed.render/renderstate/blend/) { get; set; } | खंड सम्मिश्रण को सक्षम या अक्षम करें। |
-| [BlendColor](../../aspose.threed.render/renderstate/blendcolor/) { get; set; } | जहां उपयोग किया जाता है वहां मिश्रण रंग प्राप्त या सेट करता हैConstantColor |
-| [CullFace](../../aspose.threed.render/renderstate/cullface/) { get; set; } | कट फेस को सक्षम या अक्षम करें |
-| [CullFaceMode](../../aspose.threed.render/renderstate/cullfacemode/) { get; set; } | हो जाता है या सेट करता है कि कौन सा चेहरा खींचा जाएगा। |
-| [DepthFunction](../../aspose.threed.render/renderstate/depthfunction/) { get; set; } | गहराई परीक्षण में उपयोग किए गए तुलना फ़ंक्शन को प्राप्त या सेट करता है |
-| [DepthMask](../../aspose.threed.render/renderstate/depthmask/) { get; set; } | डेप्थ राइटिंग को सक्षम या अक्षम करें। |
-| [DepthTest](../../aspose.threed.render/renderstate/depthtest/) { get; set; } | गहराई परीक्षण सक्षम या अक्षम करें. |
-| [DestinationBlendFactor](../../aspose.threed.render/renderstate/destinationblendfactor/) { get; set; } | रंग कैसे मिलाया जाता है या सेट करता है। |
-| [FrontFace](../../aspose.threed.render/renderstate/frontface/) { get; set; } | हो जाता है या सेट करता है कि कौन सा क्रम सामने वाला है। |
-| [PolygonMode](../../aspose.threed.render/renderstate/polygonmode/) { get; set; } | बहुभुज के रेंडर मोड को प्राप्त या सेट करता है। |
-| [ScissorBox](../../aspose.threed.render/renderstate/scissorbox/) { get; set; } | कैंची बॉक्स प्राप्त करता है या सेट करता है |
-| [ScissorTest](../../aspose.threed.render/renderstate/scissortest/) { get; set; } | कैंची परीक्षण को सक्षम या अक्षम करें |
-| [SourceBlendFactor](../../aspose.threed.render/renderstate/sourceblendfactor/) { get; set; } | रंग कैसे मिलाया जाता है या सेट करता है। |
-| [StencilBackFace](../../aspose.threed.render/renderstate/stencilbackface/) { get; } | बैक फेस के लिए स्टैंसिल स्थिति प्राप्त करता है। |
-| [StencilFrontFace](../../aspose.threed.render/renderstate/stencilfrontface/) { get; } | सामने वाले चेहरे के लिए स्टैंसिल स्थिति प्राप्त करता है. |
-| [StencilMask](../../aspose.threed.render/renderstate/stencilmask/) { get; set; } | उस मास्क को प्राप्त या सेट करता है जो संदर्भ और संग्रहीत स्टैंसिल मान दोनों के साथ एंडेड है जब परीक्षण किया जाता है। |
-| [StencilReference](../../aspose.threed.render/renderstate/stencilreference/) { get; set; } | स्टैंसिल परीक्षण के लिए संदर्भ मान प्राप्त या सेट करता है। |
-| [StencilTest](../../aspose.threed.render/renderstate/stenciltest/) { get; set; } | स्टैंसिल परीक्षण को सक्षम या अक्षम करें. |
-
-## तरीकों
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [CompareTo](../../aspose.threed.render/renderstate/compareto/)(RenderState) | रेंडर स्थिति की तुलना अन्य उदाहरण से करें |
-| [Dispose](../../aspose.threed.render/renderstate/dispose/)() | निपटान करें`RenderState` और सभी आंतरिक संसाधन जारी करें. |
-| override [Equals](../../aspose.threed.render/renderstate/equals/)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण किसी निर्दिष्ट वस्तु के बराबर है या नहीं। |
-| override [GetHashCode](../../aspose.threed.render/renderstate/gethashcode/)() | इस उदाहरण के लिए गड़बड़ गुप्त भाषा लौटाता है। |
+| [Blend](../../aspose.threed.render/renderstate/blend/) { get; set; } | फ़्रैगमेंट ब्लेंडिंग को सक्षम या अक्षम करें। |
+| [BlendColor](../../aspose.threed.render/renderstate/blendcolor/) { get; set; } | ConstantColor में उपयोग किए जाने वाले ब्लेंड रंग को प्राप्त करता है या सेट करता है |
+| [CullFace](../../aspose.threed.render/renderstate/cullface/) { get; set; } | कुल फेस को सक्षम या अक्षम करें |
+| [CullFaceMode](../../aspose.threed.render/renderstate/cullfacemode/) { get; set; } | कौन सा फेस कूल किया जाएगा, इसे प्राप्त करता है या सेट करता है। |
+| [DepthFunction](../../aspose.threed.render/renderstate/depthfunction/) { get; set; } | गहराई परीक्षण में उपयोग किए जाने वाले तुलना फ़ंक्शन को प्राप्त करता है या सेट करता है |
+| [DepthMask](../../aspose.threed.render/renderstate/depthmask/) { get; set; } | गहराई लेखन को सक्षम या अक्षम करें। |
+| [DepthTest](../../aspose.threed.render/renderstate/depthtest/) { get; set; } | गहराई परीक्षण को सक्षम या अक्षम करें। |
+| [DestinationBlendFactor](../../aspose.threed.render/renderstate/destinationblendfactor/) { get; set; } | रंग कैसे ब्लेंड किया जाता है, इसे प्राप्त करता है या सेट करता है। |
+| [FrontFace](../../aspose.threed.render/renderstate/frontface/) { get; set; } | कौन सा क्रम फ्रंट फेस है, इसे प्राप्त करता है या सेट करता है। |
+| [PolygonMode](../../aspose.threed.render/renderstate/polygonmode/) { get; set; } | पॉलिगॉन के रेंडर मोड को प्राप्त करता है या सेट करता है। |
+| [ScissorTest](../../aspose.threed.render/renderstate/scissortest/) { get; set; } | सिज़र परीक्षण को सक्षम या अक्षम करें |
+| [SourceBlendFactor](../../aspose.threed.render/renderstate/sourceblendfactor/) { get; set; } | रंग कैसे ब्लेंड किया जाता है, इसे प्राप्त करता है या सेट करता है। |
+| [StencilBackFace](../../aspose.threed.render/renderstate/stencilbackface/) { get; } | बैक फेस के लिए स्टेंसिल स्टेट को प्राप्त करता है। |
+| [StencilFrontFace](../../aspose.threed.render/renderstate/stencilfrontface/) { get; } | फ्रंट फेस के लिए स्टेंसिल स्टेट को प्राप्त करता है। |
+| [StencilMask](../../aspose.threed.render/renderstate/stencilmask/) { get; set; } | परीक्षण समाप्त होने पर दोनों रेफ़रेंस और संग्रहीत स्टेंसिल मान के साथ AND किया जाने वाला मास्क को प्राप्त करता है या सेट करता है। |
+| [StencilReference](../../aspose.threed.render/renderstate/stencilreference/) { get; set; } | स्टेंसिल परीक्षण के लिए रेफ़रेंस मान को प्राप्त करता है या सेट करता है। |
+| [StencilTest](../../aspose.threed.render/renderstate/stenciltest/) { get; set; } | स्टेंसिल परीक्षण को सक्षम या अक्षम करें। |
 
-### यह सभी देखें
+## मेथड्स
 
-* नाम स्थान [Aspose.ThreeD.Render](../../aspose.threed.render/)
-* सभा [Aspose.3D](../../)
+| नाम | विवरण |
+| --- | --- |
+| [CompareTo](../../aspose.threed.render/renderstate/compareto/)(RenderState) | रेंडर स्टेट की तुलना किसी अन्य इंस्टेंस से करें |
+| [Dispose](../../aspose.threed.render/renderstate/dispose/)() | `RenderState` को नष्ट करें और सभी आंतरिक संसाधनों को मुक्त करें। |
+| override [Equals](../../aspose.threed.render/renderstate/equals/)(object) | एक मान लौटाता है जो दर्शाता है कि यह इंस्टेंस निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
+| override [GetHashCode](../../aspose.threed.render/renderstate/gethashcode/)() | इस इंस्टेंस के लिए हैश कोड लौटाता है। |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+### देखें भी
+
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
+
+

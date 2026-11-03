@@ -1,70 +1,72 @@
 ---
-title: Quaternion
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: Quaternion आमतर पर कंप्यूटर ग्रफक्स में रटेशन करने के लए उपयग कय जत है
+title: "संरचना Quaternion"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Utilities.Quaternion संरचना। क्वाटरनियन आमतौर पर कंप्यूटर ग्राफिक्स में घूर्णन करने के लिए उपयोग किया जाता है"
 type: docs
-weight: 2590
+weight: 2810
 url: /hi/net/aspose.threed.utilities/quaternion/
 ---
 ## Quaternion structure
 
-Quaternion आमतौर पर कंप्यूटर ग्राफिक्स में रोटेशन करने के लिए उपयोग किया जाता है।
+क्वाटरनियन का सामान्यतः कंप्यूटर ग्राफ़िक्स में रोटेशन करने के लिए उपयोग किया जाता है।
 
 ```csharp
 public struct Quaternion
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Quaternion](quaternion/)(double, double, double, double) | का एक नया उदाहरण प्रारंभ करता है`Quaternion` वर्ग. |
+| [Quaternion](quaternion/)(double, double, double, double) | `Quaternion` क्लास का नया उदाहरण प्रारंभ करता है। |
 
-## गुण
-
-| नाम | विवरण |
-| --- | --- |
-| [Length](../../aspose.threed.utilities/quaternion/length/) { get; } | चतुर्धातुक की लंबाई प्राप्त करता है |
-
-## तरीकों
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| static [FromAngleAxis](../../aspose.threed.utilities/quaternion/fromangleaxis/)(double, Vector3) | दिए गए अक्ष के चारों ओर एक चतुष्कोण बनाता है और घड़ी की दिशा में घुमाता है |
-| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle)(Vector3) | दिए गए यूलर कोण से चतुष्कोण बनाता है |
-| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle_1)(double, double, double) | दिए गए यूलर कोण से चतुष्कोण बनाता है |
-| static [FromRotation](../../aspose.threed.utilities/quaternion/fromrotation/)(Vector3, Vector3) | एक चतुष्कोण बनाता है जो मूल से गंतव्य दिशा तक घूमता है |
-| static [Interpolate](../../aspose.threed.utilities/quaternion/interpolate/)(float, Quaternion, Quaternion) | इस चतुर्धातुक को दिए गए चतुष्कोणीय तर्कों के बीच से और से के बीच प्रक्षेपित मान के साथ पॉप्युलेट करता है। |
-| [Concat](../../aspose.threed.utilities/quaternion/concat/)(Quaternion) | दो चतुष्कोणों को जोड़ना |
-| [Conjugate](../../aspose.threed.utilities/quaternion/conjugate/)() | वर्तमान चतुर्धातुक का संयुग्मी चतुर्भुज लौटाता है |
-| [Dot](../../aspose.threed.utilities/quaternion/dot/)(Quaternion) | डॉट्स उत्पाद |
-| override [Equals](../../aspose.threed.utilities/quaternion/equals/)(object) | जांचें कि क्या दो चतुर्भुज बराबर हैं |
-| [EulerAngles](../../aspose.threed.utilities/quaternion/eulerangles/)() | चतुष्कोण को यूलर कोणों द्वारा दर्शाए गए रोटेशन में परिवर्तित करता है सभी घटक रेडियन में हैं |
-| override [GetHashCode](../../aspose.threed.utilities/quaternion/gethashcode/)() | Quaternion का हैश कोड प्राप्त करता है |
-| [Inverse](../../aspose.threed.utilities/quaternion/inverse/)() | वर्तमान चतुर्धातुक का प्रतिलोम चतुर्भुज लौटाता है |
-| [Normalize](../../aspose.threed.utilities/quaternion/normalize/)() | चतुष्कोण को सामान्य करें |
+| [Length](../../aspose.threed.utilities/quaternion/length/) { get; } | क्वाटरनियन की लंबाई प्राप्त करता है |
+
+## मेथड्स
+
+| नाम | विवरण |
+| --- | --- |
+| static [FromAngleAxis](../../aspose.threed.utilities/quaternion/fromangleaxis/)(double, Vector3) | दिए गए अक्ष के चारों ओर एक क्वाटरनियन बनाता है और घड़ी की दिशा में घुमाता है |
+| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle)(Vector3) | दिए गए यूलेर कोण से क्वाटरनियन बनाता है |
+| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle_1)(double, double, double) | दिए गए यूलेर कोण से क्वाटरनियन बनाता है |
+| static [FromRotation](../../aspose.threed.utilities/quaternion/fromrotation/)(Vector3, Vector3) | मूल दिशा से गंतव्य दिशा की ओर घुमाने वाला क्वाटरनियन बनाता है |
+| static [Interpolate](../../aspose.threed.utilities/quaternion/interpolate/)(float, Quaternion, Quaternion) | इस क्वाटरनियन को दिए गए क्वाटरनियन तर्कों के बीच इंटरपोलेटेड मान से भरता है, जहाँ t प्रारंभ से अंत तक होता है। |
+| static [Slerp](../../aspose.threed.utilities/quaternion/slerp/)(double, Quaternion, Quaternion) | दो मानों के बीच गोलाकार रैखिक इंटरपोलेशन करता है |
+| [Concat](../../aspose.threed.utilities/quaternion/concat/)(Quaternion) | दो क्वाटरनियनों को जोड़ता है |
+| [Conjugate](../../aspose.threed.utilities/quaternion/conjugate/)() | वर्तमान क्वाटरनियन का संयुग्म क्वाटरनियन लौटाता है |
+| [Dot](../../aspose.threed.utilities/quaternion/dot/)(Quaternion) | डॉट उत्पाद |
+| override [Equals](../../aspose.threed.utilities/quaternion/equals/)(object) | जाँचें कि दो क्वाटरनियन बराबर हैं या नहीं |
+| [EulerAngles](../../aspose.threed.utilities/quaternion/eulerangles/)() | क्वाटरनियन को यूलेर कोणों द्वारा दर्शाए गए घूर्णन में परिवर्तित करता है। सभी घटक रेडियन में हैं। |
+| override [GetHashCode](../../aspose.threed.utilities/quaternion/gethashcode/)() | क्वाटरनियन का हैश कोड प्राप्त करता है |
+| [Inverse](../../aspose.threed.utilities/quaternion/inverse/)() | वर्तमान क्वाटरनियन का उलटा क्वाटरनियन लौटाता है |
+| [Normalize](../../aspose.threed.utilities/quaternion/normalize/)() | क्वाटरनियन को सामान्यीकृत करें |
 | [ToAngleAxis](../../aspose.threed.utilities/quaternion/toangleaxis/)(out double, out Vector3) |  |
-| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix/)() | मैट्रिक्स को बदलने के लिए चतुष्कोण द्वारा प्रस्तुत रोटेशन को परिवर्तित करें। |
-| override [ToString](../../aspose.threed.utilities/quaternion/tostring/)() | string में चतुर्धातुक का प्रतिनिधित्व प्राप्त करता है |
-| [operator +](../../aspose.threed.utilities/quaternion/op_addition/) | ऑपरेटर ओवरलोडिंग के लिए + |
+| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix/#tomatrix)() | क्वाटरनियन द्वारा प्रस्तुत घूर्णन को ट्रांसफ़ॉर्म मैट्रिक्स में परिवर्तित करें। |
+| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix/#tomatrix_1)(Vector3) | क्वाटरनियन द्वारा प्रस्तुत घूर्णन को ट्रांसफ़ॉर्म मैट्रिक्स में परिवर्तित करें। |
+| override [ToString](../../aspose.threed.utilities/quaternion/tostring/)() | क्वाटरनियन का स्ट्रिंग में प्रतिनिधित्व प्राप्त करता है |
+| [operator +](../../aspose.threed.utilities/quaternion/op_addition/) | + के लिए ऑपरेटर ओवरलोडिंग |
 | [operator /](../../aspose.threed.utilities/quaternion/op_division/) | / के लिए ऑपरेटर ओवरलोडिंग |
-| [operator ==](../../aspose.threed.utilities/quaternion/op_equality/) | Quaternion के लिए समान ऑपरेटर |
-| [operator !=](../../aspose.threed.utilities/quaternion/op_inequality/) | Quaternion के लिए बराबर नहीं ऑपरेटर |
-| [operator *](../../aspose.threed.utilities/quaternion/op_multiply/#op_multiply_1) | ऑपरेटर ओवरलोडिंग के लिए * (5 operators) |
+| [operator ==](../../aspose.threed.utilities/quaternion/op_equality/) | क्वाटरनियन के लिए समानता ऑपरेटर |
+| [operator !=](../../aspose.threed.utilities/quaternion/op_inequality/) | क्वाटरनियन के लिए असमानता ऑपरेटर |
+| [operator *](../../aspose.threed.utilities/quaternion/op_multiply/#op_multiply_1) | * के लिए ऑपरेटर ओवरलोडिंग (5 ऑपरेटर) |
 
-## खेत
+## फ़ील्ड्स
 
 | नाम | विवरण |
 | --- | --- |
-| static readonly [Identity](../../aspose.threed.utilities/quaternion/identity/) | पहचान चतुर्भुज। |
-| [w](../../aspose.threed.utilities/quaternion/w/) | डब्ल्यू घटक। |
-| [x](../../aspose.threed.utilities/quaternion/x/) | एक्स घटक। |
-| [y](../../aspose.threed.utilities/quaternion/y/) | वाई घटक। |
-| [z](../../aspose.threed.utilities/quaternion/z/) | जेड घटक। |
+| static readonly [Identity](../../aspose.threed.utilities/quaternion/identity/) | पहचान क्वाटरनियन। |
+| [W](../../aspose.threed.utilities/quaternion/w/) | w घटक। |
+| [X](../../aspose.threed.utilities/quaternion/x/) | x घटक। |
+| [Y](../../aspose.threed.utilities/quaternion/y/) | y घटक। |
+| [Z](../../aspose.threed.utilities/quaternion/z/) | z घटक। |
 
-### यह सभी देखें
+### देखें भी
 
-* नाम स्थान [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

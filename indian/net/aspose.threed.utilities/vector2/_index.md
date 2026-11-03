@@ -1,9 +1,9 @@
 ---
-title: Vector2
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: द घटकं वल एक वेक्टर
+title: "संरचना Vector2"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Utilities.Vector2 संरचना। दो घटकों वाला वेक्टर"
 type: docs
-weight: 2640
+weight: 2870
 url: /hi/net/aspose.threed.utilities/vector2/
 ---
 ## Vector2 structure
@@ -14,52 +14,53 @@ url: /hi/net/aspose.threed.utilities/vector2/
 public struct Vector2 : IComparable<Vector2>
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Vector2](vector2/#constructor_1)(double) | का एक नया उदाहरण प्रारंभ करता है`Vector2` संरचना. |
-| [Vector2](vector2/#constructor)(FVector2) | का एक नया उदाहरण प्रारंभ करता है`Vector2` संरचना. |
-| [Vector2](vector2/#constructor_2)(double, double) | का एक नया उदाहरण प्रारंभ करता है`Vector2` संरचना. |
+| [Vector2](vector2/#constructor_2)(double) | `Vector2` संरचना का नया उदाहरण प्रारंभ करता है। |
+| [Vector2](vector2/#constructor)(FVector2) | `Vector2` संरचना का नया उदाहरण प्रारंभ करता है। |
+| [Vector2](vector2/#constructor_1)(Vector3) | `Vector2` संरचना का नया उदाहरण प्रारंभ करता है। |
+| [Vector2](vector2/#constructor_3)(double, double) | `Vector2` संरचना का नया उदाहरण प्रारंभ करता है। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
 | [Length](../../aspose.threed.utilities/vector2/length/) { get; } | लंबाई प्राप्त करता है। |
-| [U](../../aspose.threed.utilities/vector2/u/) { get; set; } | यू घटक प्राप्त या सेट करता है यदि`Vector2` मैपिंग निर्देशांक के रूप में प्रयोग किया जाता है। यह x घटक का उपनाम है। |
-| [V](../../aspose.threed.utilities/vector2/v/) { get; set; } | वी घटक प्राप्त या सेट करता है यदि`Vector2` मैपिंग निर्देशांक के रूप में प्रयोग किया जाता है। यह वाई घटक का उपनाम है। |
+| [U](../../aspose.threed.utilities/vector2/u/) { get; set; } | `Vector2` को मैपिंग निर्देशांक के रूप में उपयोग किया जाता है तो U घटक को प्राप्त करता है या सेट करता है। यह x घटक का उपनाम है। |
+| [V](../../aspose.threed.utilities/vector2/v/) { get; set; } | यदि `Vector2` को मैपिंग निर्देशांक के रूप में उपयोग किया जाता है तो V घटक को प्राप्त करता है या सेट करता है। यह y घटक का उपनाम है। |
 
-## तरीकों
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [CompareTo](../../aspose.threed.utilities/vector2/compareto/)(Vector2) | वर्तमान वेक्टर की तुलना किसी अन्य उदाहरण से करें। |
-| [Cross](../../aspose.threed.utilities/vector2/cross/)(Vector2) | दो सदिशों का क्रॉस उत्पाद |
-| [Dot](../../aspose.threed.utilities/vector2/dot/)(Vector2) | दो वैक्टर का डॉट उत्पाद प्राप्त करता है |
-| override [Equals](../../aspose.threed.utilities/vector2/equals/#equals_1)(object) | जांचें कि क्या दो वेक्टर2 बराबर हैं |
-| [Equals](../../aspose.threed.utilities/vector2/equals/#equals)(Vector2) | जांचें कि क्या दो वेक्टर2 बराबर हैं |
-| override [GetHashCode](../../aspose.threed.utilities/vector2/gethashcode/)() | वेक्टर2 का हैश कोड प्राप्त करता है |
-| [Normalize](../../aspose.threed.utilities/vector2/normalize/)() | इस उदाहरण को सामान्य करता है। |
-| override [ToString](../../aspose.threed.utilities/vector2/tostring/)() | रिटर्न एStringजो वर्तमान का प्रतिनिधित्व करता है`Vector2` . |
-| [operator +](../../aspose.threed.utilities/vector2/op_addition/) | वेक्टर2 के लिए अतिरिक्त ऑपरेटर |
-| [operator /](../../aspose.threed.utilities/vector2/op_division/) | वेक्टर2 के लिए डिवीजन ऑपरेटर |
-| [operator ==](../../aspose.threed.utilities/vector2/op_equality/) | वेक्टर2 के लिए समान ऑपरेटर |
+| [Cross](../../aspose.threed.utilities/vector2/cross/)(Vector2) | दो वेक्टरों का क्रॉस प्रोडक्ट |
+| [Dot](../../aspose.threed.utilities/vector2/dot/)(Vector2) | दो वेक्टरों का डॉट प्रोडक्ट प्राप्त करता है। |
+| override [Equals](../../aspose.threed.utilities/vector2/equals/#equals_1)(object) | जाँचें कि दो vector2 बराबर हैं। |
+| [Equals](../../aspose.threed.utilities/vector2/equals/#equals)(Vector2) | जाँचें कि दो vector2 बराबर हैं। |
+| override [GetHashCode](../../aspose.threed.utilities/vector2/gethashcode/)() | Vector2 का हैश कोड प्राप्त करता है। |
+| [Normalize](../../aspose.threed.utilities/vector2/normalize/)() | इस उदाहरण को सामान्यीकृत करता है। |
+| override [ToString](../../aspose.threed.utilities/vector2/tostring/)() | वर्तमान `Vector2` का प्रतिनिधित्व करने वाली स्ट्रिंग लौटाता है। |
+| [operator +](../../aspose.threed.utilities/vector2/op_addition/) | Vector2 के लिए जोड़ ऑपरेटर |
+| [operator /](../../aspose.threed.utilities/vector2/op_division/) | Vector2 के लिए भाग ऑपरेटर |
+| [operator ==](../../aspose.threed.utilities/vector2/op_equality/) | Vector2 के लिए बराबर ऑपरेटर |
 | [explicit operator](../../aspose.threed.utilities/vector2/op_explicit/) |  |
-| [operator !=](../../aspose.threed.utilities/vector2/op_inequality/) | वेक्टर2 के लिए बराबर नहीं ऑपरेटर |
-| [operator *](../../aspose.threed.utilities/vector2/op_multiply/#op_multiply) | वेक्टर2 के लिए गुणा ऑपरेटर (2 operators) |
-| [operator -](../../aspose.threed.utilities/vector2/op_subtraction/) | वेक्टर2 के लिए घटाव ऑपरेटर |
+| [operator !=](../../aspose.threed.utilities/vector2/op_inequality/) | Vector2 के लिए असमान ऑपरेटर |
+| [operator *](../../aspose.threed.utilities/vector2/op_multiply/#op_multiply) | Vector2 के लिए गुणा ऑपरेटर (2 ऑपरेटर) |
+| [operator -](../../aspose.threed.utilities/vector2/op_subtraction/) | Vector2 के लिए घटाव ऑपरेटर |
 
-## खेत
+## फ़ील्ड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [x](../../aspose.threed.utilities/vector2/x/) | एक्स घटक। |
-| [y](../../aspose.threed.utilities/vector2/y/) | वाई घटक। |
+| [X](../../aspose.threed.utilities/vector2/x/) | x घटक। |
+| [Y](../../aspose.threed.utilities/vector2/y/) | y घटक। |
 
-### यह सभी देखें
+### देखें भी
 
-* नाम स्थान [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

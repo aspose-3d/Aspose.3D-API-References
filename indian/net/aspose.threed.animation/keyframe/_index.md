@@ -1,54 +1,54 @@
 ---
-title: KeyFrame
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: एक मुख्य फ़्रेम क मुख्य रूप से एक समय और एक मन द्वर परभषत कय जत है कुछ प्रक्षेप प्रकरं के लए स्पर्शरेख/तनव/पूर्वग्रह/नरंतरत क उपयग अंतम नमून मूल्य क गणन करके भ कय जत है पछले और अगले keyframes के बच के कफ़्रेम द्वर पहले/आखर कफ़्रेम से पहले/बद के मन क गणन क जत हैExtrapolation./extrapolation/ वर्ग.
+title: "क्लास KeyFrame"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Animation.KeyFrame class. एक कुंजी फ्रेम मुख्यतः समय और मान द्वारा परिभाषित होती है; कुछ इंटरपोलेशन प्रकारों के लिए टैंजेंट/तनाव/पक्षपात/सततता का उपयोग अंतिम सैंपल्ड मान की गणना में भी किया जाता है। गैर-कीफ़्रेम समय स्थिति में सैंपल्ड मान पिछले और अगले कीफ़्रेम के बीच इंटरपोलेट किए जाते हैं। पहले/अंतिम कीफ़्रेम से पहले/बाद का मान Extrapolation class द्वारा गणना किया जाता है।"
 type: docs
 weight: 90
 url: /hi/net/aspose.threed.animation/keyframe/
 ---
 ## KeyFrame class
 
-एक मुख्य फ़्रेम को मुख्य रूप से एक समय और एक मान द्वारा परिभाषित किया जाता है, कुछ प्रक्षेप प्रकारों के लिए, स्पर्शरेखा/तनाव/पूर्वाग्रह/निरंतरता का उपयोग अंतिम नमूना मूल्य की गणना करके भी किया जाता है। पिछले और अगले key-frames के बीच के की-फ़्रेम द्वारा पहले/आखिरी की-फ़्रेम से पहले/बाद के मान की गणना की जाती है[`Extrapolation`](../extrapolation/) वर्ग.
+एक कुंजी फ्रेम मुख्यतः समय और मान द्वारा परिभाषित होती है, कुछ इंटरपोलेशन प्रकारों के लिए टैंजेंट/तनाव/पक्षपात/सततता का उपयोग अंतिम सैंपल्ड मान की गणना में भी किया जाता है। गैर-कीफ़्रेम समय स्थिति में सैंपल्ड मान पिछले और अगले कीफ़्रेम के बीच इंटरपोलेट किए जाते हैं। पहले/अंतिम कीफ़्रेम से पहले/बाद का मान [`Extrapolation`](../extrapolation/) क्लास द्वारा गणना किया जाता है।
 
 ```csharp
 public class KeyFrame
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [KeyFrame](keyframe/)(KeyframeSequence, double) | निर्दिष्ट वक्र पर एक नया मुख्य फ्रेम बनाएं |
+| [KeyFrame](keyframe/)(KeyframeSequence, double) | निर्दिष्ट वक्र पर एक नया कीफ़्रेम बनाएं |
 
-## गुण
-
-| नाम | विवरण |
-| --- | --- |
-| [Bias](../../aspose.threed.animation/keyframe/bias/) { get; set; } | टीसीबी स्पलाइन में उपयोग किए गए पूर्वाग्रह को प्राप्त या सेट करता है |
-| [Continuity](../../aspose.threed.animation/keyframe/continuity/) { get; set; } | टीसीबी स्पलाइन में उपयोग की जाने वाली निरंतरता को प्राप्त या सेट करता है |
-| [Flat](../../aspose.threed.animation/keyframe/flat/) { get; set; } | यदि मुख्य फ्रेम समतल है तो प्राप्त करें या सेट करें। कुंजी फ्रेम फ्लैट होना चाहिए यदि अगले या पिछले कुंजी फ्रेम का समान मान है। फ्लैट कुंजी फ्रेम में फ्लैट स्पर्शरेखा और फिक्स्ड इंटरपोलेशन है। |
-| [IndependentTangent](../../aspose.threed.animation/keyframe/independenttangent/) { get; set; } | टैंगेंट में आउट और नेक्स्ट हो जाता है या सेट हो जाता है। |
-| [Interpolation](../../aspose.threed.animation/keyframe/interpolation/) { get; set; } | कुंजी के इंटरपोलेशन प्रकार को प्राप्त या सेट करता है, सूची.डेटा [अनुक्रमणिका] एल्गोरिदम को परिभाषित करता है कि नमूना मूल्य की गणना कैसे की जाती है। |
-| [NextInTangent](../../aspose.threed.animation/keyframe/nextintangent/) { get; set; } | इस कुंजी फ्रेम पर अगले (बाएं) स्पर्शरेखा को प्राप्त या सेट करता है। |
-| [NextInWeight](../../aspose.threed.animation/keyframe/nextinweight/) { get; set; } | इस मुख्य फ्रेम पर अगले (बाएं) वजन को प्राप्त या सेट करता है। |
-| [OutTangent](../../aspose.threed.animation/keyframe/outtangent/) { get; set; } | इस कुंजी फ़्रेम पर आउट (दाएं) स्पर्शरेखा प्राप्त या सेट करता है। |
-| [OutWeight](../../aspose.threed.animation/keyframe/outweight/) { get; set; } | इस कुंजी फ्रेम पर आउट (दाएं) वजन प्राप्त या सेट करता है। |
-| [StepMode](../../aspose.threed.animation/keyframe/stepmode/) { get; set; } | कुंजी का चरण मोड प्राप्त या सेट करता है। यदि इंटरपोलेशन प्रकार हैConstant , list.data[index] यह तय करता है कि प्रक्षेप के दौरान किस कुंजी-फ़्रेम का मान उपयोग किया जाएगा। एPreviousValue इसका मतलब है कि बाएं कुंजी-फ़्रेम का मान उपयोग किया जाएगा ANextValueइसका अर्थ है कि दाएँ दाएँ कुंजी-फ़्रेम का मान उपयोग किया जाएगा |
-| [TangentWeightMode](../../aspose.threed.animation/keyframe/tangentweightmode/) { get; set; } | कुंजी के स्पर्शरेखा वजन मोड को प्राप्त या सेट करता है। बाहर स्पर्शरेखा या अगले स्पर्शरेखा को सही का चयन करके अनुकूलित किया जा सकता है[`WeightedMode`](../weightedmode/) |
-| [Tension](../../aspose.threed.animation/keyframe/tension/) { get; set; } | टीसीबी स्पलाइन में उपयोग किए जाने वाले तनाव को प्राप्त या सेट करता है |
-| [Time](../../aspose.threed.animation/keyframe/time/) { get; set; } | सूची की समय स्थिति प्राप्त या सेट करता है। डेटा [अनुक्रमणिका] कुंजी फ्रेम, सेकंड में मापा जाता है। |
-| [TimeIndependentTangent](../../aspose.threed.animation/keyframe/timeindependenttangent/) { get; set; } | टेंगेंट को समय-स्वतंत्र प्राप्त या सेट करता है |
-| [Value](../../aspose.threed.animation/keyframe/value/) { get; set; } | कुंजी-फ़्रेम का मान प्राप्त या सेट करता है. |
-
-## तरीकों
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| override [ToString](../../aspose.threed.animation/keyframe/tostring/)() | कुंजी फ्रेम का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है |
+| [Bias](../../aspose.threed.animation/keyframe/bias/) { get; set; } | TCB स्प्लाइन में उपयोग किए जाने वाले पक्षपात को प्राप्त करता है या सेट करता है |
+| [Continuity](../../aspose.threed.animation/keyframe/continuity/) { get; set; } | TCB स्प्लाइन में उपयोग की जाने वाली सततता को प्राप्त करता है या सेट करता है |
+| [Flat](../../aspose.threed.animation/keyframe/flat/) { get; set; } | यदि कीफ़्रेम सपाट है तो प्राप्त करें या सेट करें। यदि अगला या पिछला कीफ़्रेम समान मान रखता है तो कीफ़्रेम सपाट होना चाहिए। सपाट कीफ़्रेम की टैंजेंट्स सपाट होती हैं और इंटरपोलेशन स्थिर रहता है। |
+| [IndependentTangent](../../aspose.threed.animation/keyframe/independenttangent/) { get; set; } | आउट और अगले इन टैंजेंट्स को स्वतंत्र होने के रूप में प्राप्त करता है या सेट करता है। |
+| [Interpolation](../../aspose.threed.animation/keyframe/interpolation/) { get; set; } | की का इंटरपोलेशन प्रकार प्राप्त करता है या सेट करता है, list.data[index] निर्धारित करता है कि सैंपल्ड मान कैसे गणना किया जाता है। |
+| [NextInTangent](../../aspose.threed.animation/keyframe/nextintangent/) { get; set; } | इस कीफ़्रेम पर अगले इन (बाएँ) टैंजेंट को प्राप्त करता है या सेट करता है। |
+| [NextInWeight](../../aspose.threed.animation/keyframe/nextinweight/) { get; set; } | इस कीफ़्रेम पर अगले इन (बाएँ) वजन को प्राप्त करता है या सेट करता है। |
+| [OutTangent](../../aspose.threed.animation/keyframe/outtangent/) { get; set; } | इस कीफ़्रेम पर आउट (दाएँ) टैंजेंट को प्राप्त करता है या सेट करता है। |
+| [OutWeight](../../aspose.threed.animation/keyframe/outweight/) { get; set; } | इस कीफ़्रेम पर आउट (दाएँ) वजन को प्राप्त करता है या सेट करता है। |
+| [StepMode](../../aspose.threed.animation/keyframe/stepmode/) { get; set; } | की का स्टेप मोड प्राप्त करता है या सेट करता है। यदि इंटरपोलेशन प्रकार स्थिर है, तो list.data[index] तय करता है कि इंटरपोलेशन के दौरान कौन से कीफ़्रेम का मान उपयोग किया जाएगा। एक PreviousValue का अर्थ है कि बाएँ कीफ़्रेम का मान उपयोग होगा। एक NextValue का अर्थ है कि अगला दाएँ कीफ़्रेम का मान उपयोग होगा। |
+| [TangentWeightMode](../../aspose.threed.animation/keyframe/tangentweightmode/) { get; set; } | की का टैंजेंट वजन मोड प्राप्त करता है या सेट करता है। आउट टैंजेंट या अगले इन टैंजेंट को सही [`WeightedMode`](../weightedmode/) चुनकर अनुकूलित किया जा सकता है। |
+| [Tension](../../aspose.threed.animation/keyframe/tension/) { get; set; } | TCB स्प्लाइन में उपयोग किए जाने वाले तनाव को प्राप्त करता है या सेट करता है |
+| [Time](../../aspose.threed.animation/keyframe/time/) { get; set; } | list.data[index] कीफ़्रेम की समय स्थिति को सेकंड में मापते हुए प्राप्त करता है या सेट करता है। |
+| [TimeIndependentTangent](../../aspose.threed.animation/keyframe/timeindependenttangent/) { get; set; } | टैंजेंट को समय-स्वतंत्र होने के रूप में प्राप्त करता है या सेट करता है |
+| [Value](../../aspose.threed.animation/keyframe/value/) { get; set; } | की-फ़्रेम का मान प्राप्त करता है या सेट करता है। |
 
-### यह सभी देखें
+## मेथड्स
 
-* नाम स्थान [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
-* सभा [Aspose.3D](../../)
+| नाम | विवरण |
+| --- | --- |
+| override [ToString](../../aspose.threed.animation/keyframe/tostring/)() | की फ्रेम का स्ट्रिंग प्रतिनिधित्व प्राप्त करता है |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+### देखें भी
+
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
+
+

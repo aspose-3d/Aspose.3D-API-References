@@ -1,50 +1,50 @@
 ---
-title: MorphTargetDeformer
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: MorphTargetDeformer प्रतशर्ष एनमेशन प्रदन करत है MorphTargetDeformer सभ लक्ष्यं क व्यवस्थत करत हैMorphTargetChannel./morphtargetchannel/  प्रत्येक चैनल कई लक्ष्यं क व्यवस्थत कर सकत है मर्फ टरगेट डफर्मर क एक समन्य उपयग एक चरत्र के लए चेहरे क अभव्यक्त क लगू करन है अधक ववरण https//en.wikipedia.org/wiki/Morph_target_animation पर पय ज सकत है
+title: "क्लास MorphTargetDeformer"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Deformers.MorphTargetDeformer क्लास। MorphTargetDeformer प्रति-वर्टेक्स एनीमेशन प्रदान करता है। MorphTargetDeformer सभी लक्ष्यों को MorphTargetChannel के माध्यम से व्यवस्थित करता है, प्रत्येक चैनल कई लक्ष्यों को व्यवस्थित कर सकता है। morph target deformer का एक सामान्य उपयोग किसी चरित्र पर चेहरे की अभिव्यक्ति लागू करना है। अधिक विवरण https//en.wikipedia.org/wiki/Morph_target_animation पर पाया जा सकता है।"
 type: docs
-weight: 210
+weight: 230
 url: /hi/net/aspose.threed.deformers/morphtargetdeformer/
 ---
 ## MorphTargetDeformer class
 
-MorphTargetDeformer प्रति-शीर्ष एनीमेशन प्रदान करता है। MorphTargetDeformer सभी लक्ष्यों को व्यवस्थित करता है[`MorphTargetChannel`](../morphtargetchannel/) , प्रत्येक चैनल कई लक्ष्यों को व्यवस्थित कर सकता है। मॉर्फ टारगेट डिफॉर्मर का एक सामान्य उपयोग एक चरित्र के लिए चेहरे की अभिव्यक्ति को लागू करना है। अधिक विवरण https://en.wikipedia.org/wiki/Morph_target_animation पर पाया जा सकता है।
+MorphTargetDeformer प्रति-वर्टेक्स एनीमेशन प्रदान करता है। MorphTargetDeformer सभी लक्ष्यों को [`MorphTargetChannel`](../morphtargetchannel/) के माध्यम से व्यवस्थित करता है, प्रत्येक चैनल कई लक्ष्यों को व्यवस्थित कर सकता है। morph target deformer का एक सामान्य उपयोग किसी चरित्र पर चेहरे की अभिव्यक्ति लागू करना है। अधिक विवरण https://en.wikipedia.org/wiki/Morph_target_animation पर पाया जा सकता है।
 
 ```csharp
 public class MorphTargetDeformer : Deformer
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [MorphTargetDeformer](morphtargetdeformer/#constructor)() | का एक नया उदाहरण प्रारंभ करता है`MorphTargetDeformer` वर्ग. |
-| [MorphTargetDeformer](morphtargetdeformer/#constructor_1)(string) | का एक नया उदाहरण प्रारंभ करता है`MorphTargetDeformer` वर्ग. |
+| [MorphTargetDeformer](morphtargetdeformer/#constructor)() | `MorphTargetDeformer` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [MorphTargetDeformer](morphtargetdeformer/#constructor_1)(string) | `MorphTargetDeformer` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Channels](../../aspose.threed.deformers/morphtargetdeformer/channels/) { get; } | इस डिफॉर्मर में निहित सभी चैनल प्राप्त करता है |
+| [Channels](../../aspose.threed.deformers/morphtargetdeformer/channels/) { get; } | इस डिफॉर्मर में शामिल सभी चैनलों को प्राप्त करता है |
 | [Item](../../aspose.threed.deformers/morphtargetdeformer/item/) { get; set; } |  |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [Owner](../../aspose.threed.deformers/deformer/owner/) { get; } | उस ज्यामिति को प्राप्त करता है जो इस deformer का स्वामी है |
-| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी संपत्तियों का संग्रह प्राप्त करता है। |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [Owner](../../aspose.threed.deformers/deformer/owner/) { get; } | उस ज्योमेट्री को प्राप्त करता है जो इस डीफ़ॉर्मर का मालिक है |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
 
-## तरीकों
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | संपत्ति ढूँढता है। यह एक गतिशील संपत्ति हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल संपत्ति (इसके नाम से पहचानी गई) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट संपत्ति का मान प्राप्त करें |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक गतिशील संपत्ति को हटाता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट संपत्ति को हटाएं |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट संपत्ति का मान सेट करता है |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (इसके नाम द्वारा पहचानी गई) |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Deformer](../deformer/)
-* नाम स्थान [Aspose.ThreeD.Deformers](../../aspose.threed.deformers/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Deformers](../../aspose.threed.deformers/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

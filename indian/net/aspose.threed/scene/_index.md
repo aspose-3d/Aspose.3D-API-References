@@ -1,89 +1,95 @@
 ---
-title: Scene
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: एक दृश्य एक शर्षस्तरय वस्तु है जसमें नड्स ज्यमत समग्र बनवट एनमेशन पज़ उपदृश्य और आद शमल हैं दृश्य में उपदृश्य ह सकते हैं कलड/ब्लेंडर जैस फ़इलं में बहुदस्तवेज़ समर्थन के रूप में कर्य करत है /fbx नड पदनुक्रम के मध्यम से पहुँच ज सकत हैRootNode./scene/rootnode/Library./scene/library/ क्रमंकन जैसे मेट डेट य कस्टम ऑब्जेक्ट के दरन अनसक्त वस्तुओं क संदर्भ रखने के लए उपयग कय जत है इसलए इसे पुस्तकलय के रूप में उपयग कय ज सकत है
+title: "क्लास Scene"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Scene क्लास। एक सीन एक टॉप-लेवल ऑब्जेक्ट है जो नोड्स, ज्योमेट्रीज़, मैटेरियल्स, टेक्सचर, एनीमेशन, पोज़, सबसीन्स आदि को शामिल करता है। सीन में सबसीन्स हो सकते हैं और यह collada/blender/fbx जैसी फ़ाइलों में मल्टी-डॉक्यूमेंट समर्थन के रूप में कार्य करता है। नोड पदानुक्रम को RootNodeLibrary के माध्यम से एक्सेस किया जा सकता है। यह सीरियलाइज़ेशन के दौरान अनअटैच्ड ऑब्जेक्ट्स (जैसे मेटा डेटा या कस्टम ऑब्जेक्ट्स) का रेफ़रेंस रखने के लिए उपयोग किया जाता है, इसलिए इसे लाइब्रेरी के रूप में इस्तेमाल किया जा सकता है।"
 type: docs
-weight: 2250
+weight: 2500
 url: /hi/net/aspose.threed/scene/
 ---
 ## Scene class
 
-एक दृश्य एक शीर्ष-स्तरीय वस्तु है जिसमें नोड्स, ज्यामिति, सामग्री, बनावट, एनीमेशन, पोज़, उप-दृश्य और आदि शामिल हैं। दृश्य में उप-दृश्य हो सकते हैं, कोलाडा/ब्लेंडर जैसी फ़ाइलों में बहु-दस्तावेज़ समर्थन के रूप में कार्य करता है /fbx नोड पदानुक्रम के माध्यम से पहुँचा जा सकता है[`RootNode`](./rootnode/)[`Library`](./library/) क्रमांकन (जैसे मेटा डेटा या कस्टम ऑब्जेक्ट) के दौरान अनासक्त वस्तुओं का संदर्भ रखने के लिए उपयोग किया जाता है, इसलिए इसे पुस्तकालय के रूप में उपयोग किया जा सकता है।
+एक सीन एक टॉप-लेवल ऑब्जेक्ट है जो नोड्स, ज्योमेट्रीज़, मैटेरियल्स, टेक्सचर, एनीमेशन, पोज़, सब-सीन्स आदि को शामिल करता है। सीन में सब-सीन्स हो सकते हैं, और यह collada/blender/fbx जैसी फ़ाइलों में मल्टीपल-डॉक्यूमेंट समर्थन के रूप में कार्य करता है। नोड पदानुक्रम को [`RootNode`](./rootnode/)[`Library`](./library/) के माध्यम से एक्सेस किया जा सकता है। यह अनअटैच्ड ऑब्जेक्ट्स (जैसे मेटा डेटा या कस्टम ऑब्जेक्ट्स) का रेफ़रेंस रखने के लिए सीरियलाइज़ेशन के दौरान उपयोग किया जाता है, इसलिए इसे लाइब्रेरी के रूप में इस्तेमाल किया जा सकता है।
 
 ```csharp
 public class Scene : SceneObject
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Scene](scene/#constructor)() | का एक नया उदाहरण प्रारंभ करता है`Scene` वर्ग. |
-| [Scene](scene/#constructor_1)(Entity) | का एक नया उदाहरण प्रारंभ करता है`Scene` एक नए नोड से जुड़ी इकाई के साथ वर्ग। |
-| [Scene](scene/#constructor_2)(Scene, string) | का एक नया उदाहरण प्रारंभ करता है`Scene`उप-दृश्य के रूप में वर्ग। |
+| [Scene](scene/#constructor)() | `Scene` क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [Scene](scene/#constructor_1)(Entity) | `Scene` क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है जिसमें एक नई नोड से एंटिटी संलग्न है। |
+| [Scene](scene/#constructor_2)(Scene, string) | एक नई उप-दृश्य के रूप में `Scene` वर्ग का नया उदाहरण आरंभ करता है। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [AnimationClips](../../aspose.threed/scene/animationclips/) { get; } | सब हो जाता है[`AnimationClip`](../../aspose.threed.animation/animationclip/) दृश्य में परिभाषित. |
-| [AssetInfo](../../aspose.threed/scene/assetinfo/) { get; set; } | शीर्ष-स्तरीय संपत्ति जानकारी प्राप्त या सेट करता है |
-| [CurrentAnimationClip](../../aspose.threed/scene/currentanimationclip/) { get; set; } | सक्रिय हो जाता है या सेट करता है[`AnimationClip`](../../aspose.threed.animation/animationclip/) |
-| [Library](../../aspose.threed/scene/library/) { get; } | दृश्य पदानुक्रम में प्रत्यक्ष रूप से उपयोग नहीं की जाने वाली वस्तुओं को लाइब्रेरी में परिभाषित किया जा सकता है। यह तब उपयोगी होता है जब आप उप-दृश्यों का उपयोग कर रहे हों और पुन: प्रयोज्य घटकों को उप-दृश्यों के अंतर्गत रखें। |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [Poses](../../aspose.threed/scene/poses/) { get; } | सब हो जाता है[`Pose`](../pose/) इस सीन में इस्तेमाल किया गया है. |
-| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी संपत्तियों का संग्रह प्राप्त करता है। |
-| [RootNode](../../aspose.threed/scene/rootnode/) { get; } | सीन का रूट नोड प्राप्त करता है। |
-| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | दृश्य प्राप्त करता है कि यह वस्तु से संबंधित है |
-| [SubScenes](../../aspose.threed/scene/subscenes/) { get; } | सभी उप-दृश्यों को प्राप्त करता है |
+| [AnimationClips](../../aspose.threed/scene/animationclips/) { get; } | दृश्य में परिभाषित सभी [`AnimationClip`](../../aspose.threed.animation/animationclip/) प्राप्त करता है। |
+| [AssetInfo](../../aspose.threed/scene/assetinfo/) { get; set; } | शीर्ष-स्तर की संपत्ति जानकारी प्राप्त करता या सेट करता है |
+| [CurrentAnimationClip](../../aspose.threed/scene/currentanimationclip/) { get; set; } | सक्रिय [`AnimationClip`](../../aspose.threed.animation/animationclip/) प्राप्त करता या सेट करता है |
+| [Library](../../aspose.threed/scene/library/) { get; } | वे वस्तुएँ जो दृश्य पदानुक्रम में सीधे उपयोग नहीं होतीं, लाइब्रेरी में परिभाषित की जा सकती हैं। यह तब उपयोगी है जब आप उप-दृश्यों का उपयोग करते हैं और पुन: उपयोग योग्य घटकों को उप-दृश्यों के तहत रखते हैं। |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [Poses](../../aspose.threed/scene/poses/) { get; } | इस दृश्य में उपयोग किए गए सभी [`Pose`](../pose/) प्राप्त करता है। |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
+| [RootNode](../../aspose.threed/scene/rootnode/) { get; } | दृश्य का मूल नोड प्राप्त करता है। |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
+| [SubScenes](../../aspose.threed/scene/subscenes/) { get; } | सभी उप-दृश्य प्राप्त करता है |
 
-## तरीकों
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | static [FromFile](../../aspose.threed/scene/fromfile/#fromfile)(string) | दिए गए पथ से दृश्य खोलता है |
 | static [FromFile](../../aspose.threed/scene/fromfile/#fromfile_3)(string, CancellationToken) | दिए गए पथ से दृश्य खोलता है |
-| static [FromFile](../../aspose.threed/scene/fromfile/#fromfile_1)(string, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| static [FromFile](../../aspose.threed/scene/fromfile/#fromfile_2)(string, LoadOptions, CancellationToken) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| static [FromFile](../../aspose.threed/scene/fromfile/#fromfile_1)(string, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| static [FromFile](../../aspose.threed/scene/fromfile/#fromfile_2)(string, LoadOptions, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
 | static [FromStream](../../aspose.threed/scene/fromstream/#fromstream_2)(Stream, CancellationToken) | दिए गए स्ट्रीम से दृश्य खोलता है |
-| static [FromStream](../../aspose.threed/scene/fromstream/#fromstream)(Stream, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
-| static [FromStream](../../aspose.threed/scene/fromstream/#fromstream_1)(Stream, LoadOptions, CancellationToken) | निर्दिष्ट IO कॉन्फ़िगरेशन का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
-| [Clear](../../aspose.threed/scene/clear/)() | दृश्य सामग्री को साफ़ करता है और डिफ़ॉल्ट सेटिंग्स को पुनर्स्थापित करता है। |
-| [CreateAnimationClip](../../aspose.threed/scene/createanimationclip/)(string) | बनाने और पंजीकृत करने के लिए एक आशुलिपि समारोह[`AnimationClip`](../../aspose.threed.animation/animationclip/) पहला[`AnimationClip`](../../aspose.threed.animation/animationclip/) को सौंपा जाएगा[`CurrentAnimationClip`](./currentanimationclip/) |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | संपत्ति ढूँढता है। यह एक गतिशील संपत्ति हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल संपत्ति (इसके नाम से पहचानी गई) |
-| [GetAnimationClip](../../aspose.threed/scene/getanimationclip/)(string) | नाम हो जाता है[`AnimationClip`](../../aspose.threed.animation/animationclip/) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट संपत्ति का मान प्राप्त करें |
+| static [FromStream](../../aspose.threed/scene/fromstream/#fromstream)(Stream, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| static [FromStream](../../aspose.threed/scene/fromstream/#fromstream_1)(Stream, LoadOptions, CancellationToken) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [Clear](../../aspose.threed/scene/clear/)() | दृश्य की सामग्री साफ़ करता है और डिफ़ॉल्ट सेटिंग्स को पुनर्स्थापित करता है। |
+| [CreateAnimationClip](../../aspose.threed/scene/createanimationclip/)(string) | [`AnimationClip`](../../aspose.threed.animation/animationclip/) बनाने और पंजीकृत करने के लिए एक संक्षिप्त फ़ंक्शन। पहला [`AnimationClip`](../../aspose.threed.animation/animationclip/) को [`CurrentAnimationClip`](./currentanimationclip/) को सौंपा जाएगा। |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (इसके नाम द्वारा पहचानी गई) |
+| [GetAnimationClip](../../aspose.threed/scene/getanimationclip/)(string) | नामित [`AnimationClip`](../../aspose.threed.animation/animationclip/) प्राप्त करता है |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
 | [Open](../../aspose.threed/scene/open/#open)(Stream) | दिए गए स्ट्रीम से दृश्य खोलता है |
 | [Open](../../aspose.threed/scene/open/#open_4)(string) | दिए गए पथ से दृश्य खोलता है |
 | [Open](../../aspose.threed/scene/open/#open_3)(Stream, CancellationToken) | दिए गए स्ट्रीम से दृश्य खोलता है |
 | [Open](../../aspose.threed/scene/open/#open_8)(string, CancellationToken) | दिए गए पथ से दृश्य खोलता है |
-| [Open](../../aspose.threed/scene/open/#open_6)(string, LoadOptions) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [Open](../../aspose.threed/scene/open/#open_1)(Stream, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
-| [Open](../../aspose.threed/scene/open/#open_2)(Stream, LoadOptions, CancellationToken) | निर्दिष्ट IO कॉन्फ़िगरेशन का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
-| [Open](../../aspose.threed/scene/open/#open_5)(string, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [Open](../../aspose.threed/scene/open/#open_7)(string, LoadOptions, CancellationToken) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक गतिशील संपत्ति को हटाता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट संपत्ति को हटाएं |
-| [Render](../../aspose.threed/scene/render/#render)(Camera, Bitmap) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में प्रस्तुत करें। |
-| [Render](../../aspose.threed/scene/render/#render_2)(Camera, string) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में प्रस्तुत करें। डिफ़ॉल्ट आउटपुट आकार 1024x768 है और आउटपुट स्वरूप png है |
-| [Render](../../aspose.threed/scene/render/#render_1)(Camera, Bitmap, ImageRenderOptions) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में प्रस्तुत करें। |
-| [Render](../../aspose.threed/scene/render/#render_3)(Camera, string, Size, ImageFormat) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में प्रस्तुत करें। |
-| [Render](../../aspose.threed/scene/render/#render_4)(Camera, string, Size, ImageFormat, ImageRenderOptions) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में प्रस्तुत करें। |
+| [Open](../../aspose.threed/scene/open/#open_6)(string, LoadOptions) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [Open](../../aspose.threed/scene/open/#open_1)(Stream, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [Open](../../aspose.threed/scene/open/#open_2)(Stream, LoadOptions, CancellationToken) | निर्दिष्ट IO कॉन्फ़िग का उपयोग करके दिए गए स्ट्रीम से दृश्य खोलता है। |
+| [Open](../../aspose.threed/scene/open/#open_5)(string, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [Open](../../aspose.threed/scene/open/#open_7)(string, LoadOptions, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दिए गए पथ से दृश्य खोलता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+| [Render](../../aspose.threed/scene/render/#render_2)(Camera, string) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है। डिफ़ॉल्ट आउटपुट आकार 1024x768 है और आउटपुट स्वरूप png है। |
+| [Render](../../aspose.threed/scene/render/#render)(Camera, TextureData) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में रेंडर करता है। |
+| [Render](../../aspose.threed/scene/render/#render_1)(Camera, TextureData, ImageRenderOptions) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बिटमैप में रेंडर करता है। |
+| [Render](../../aspose.threed/scene/render/#render_3)(Camera, string, Vector2, string) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है। |
+| [Render](../../aspose.threed/scene/render/#render_4)(Camera, string, Vector2, string, ImageRenderOptions) | दिए गए कैमरे के दृष्टिकोण से दृश्य को बाहरी फ़ाइल में रेंडर करता है। |
 | [Save](../../aspose.threed/scene/save/#save_4)(string) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को निर्दिष्ट पथ पर सहेजता है। |
-| [Save](../../aspose.threed/scene/save/#save)(Stream, FileFormat) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम करने के लिए सहेजता है। |
-| [Save](../../aspose.threed/scene/save/#save_2)(Stream, SaveOptions) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम करने के लिए सहेजता है। |
+| [Save](../../aspose.threed/scene/save/#save)(Stream, FileFormat) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [Save](../../aspose.threed/scene/save/#save_2)(Stream, SaveOptions) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
 | [Save](../../aspose.threed/scene/save/#save_5)(string, FileFormat) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को निर्दिष्ट पथ पर सहेजता है। |
 | [Save](../../aspose.threed/scene/save/#save_7)(string, SaveOptions) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को निर्दिष्ट पथ पर सहेजता है। |
-| [Save](../../aspose.threed/scene/save/#save_1)(Stream, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम करने के लिए सहेजता है। |
-| [Save](../../aspose.threed/scene/save/#save_3)(Stream, SaveOptions, CancellationToken) | निर्दिष्ट फ़ाइल प्रारूप का उपयोग करके दृश्य को स्ट्रीम करने के लिए सहेजता है। |
+| [Save](../../aspose.threed/scene/save/#save_1)(Stream, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
+| [Save](../../aspose.threed/scene/save/#save_3)(Stream, SaveOptions, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को स्ट्रीम में सहेजता है। |
 | [Save](../../aspose.threed/scene/save/#save_6)(string, FileFormat, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को निर्दिष्ट पथ पर सहेजता है। |
 | [Save](../../aspose.threed/scene/save/#save_8)(string, SaveOptions, CancellationToken) | निर्दिष्ट फ़ाइल स्वरूप का उपयोग करके दृश्य को निर्दिष्ट पथ पर सहेजता है। |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट संपत्ति का मान सेट करता है |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
 
-### यह सभी देखें
+## फ़ील्ड्स
+
+| नाम | विवरण |
+| --- | --- |
+| const [Version](../../aspose.threed/scene/version/) | वर्तमान रिलीज़ संस्करण प्राप्त करता है |
+
+### देखें भी
 
 * class [SceneObject](../sceneobject/)
-* नाम स्थान [Aspose.ThreeD](../../aspose.threed/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD](../../aspose.threed/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,108 +1,111 @@
 ---
-title: Mesh
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: क एक नय उदहरण प्ररंभ करत हैMeshaspose.threed.entities/mesh/ वर्ग.
+title: "Mesh.Mesh"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Mesh कंस्ट्रक्टर। Mesh क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।"
 type: docs
 weight: 10
 url: /hi/net/aspose.threed.entities/mesh/mesh/
 ---
 ## Mesh() {#constructor}
 
-का एक नया उदाहरण प्रारंभ करता है[`Mesh`](../) वर्ग.
+[`Mesh`](../) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 ```csharp
 public Mesh()
 ```
 
-### यह सभी देखें
+### देखें भी
 
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap) {#constructor_1}
+## Mesh(TextureData) {#constructor_1}
 
-निर्दिष्ट ऊंचाई मानचित्र का उपयोग करके जाल का निर्माण करें, यदि ऊंचाई मानचित्र के पिक्सेल प्रारूप में एकाधिक घटक होते हैं, तो पहले (आमतौर पर लाल) घटक का उपयोग ऊंचाई मान के रूप में किया जाएगा (z) नियंत्रण बिंदु के x और y घटक सामान्यीकृत पिक्सेल समन्वय होते हैं .
+निर्दिष्ट हाइट मैप का उपयोग करके एक मेष बनाएं, यदि हाइट मैप के पिक्सेल फ़ॉर्मेट में कई घटक हैं, तो पहला (आमतौर पर लाल) घटक हाइट वैल्यू (z) के रूप में उपयोग किया जाएगा। कंट्रोल पॉइंट के x और y घटक सामान्यीकृत पिक्सेल निर्देशांक होते हैं।
 
 ```csharp
-public Mesh(Bitmap heightMap)
+public Mesh(TextureData heightMap)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| heightMap | Bitmap | इनपुट ऊंचाई नक्शा |
+| heightMap | TextureData | इनपुट ऊँचाई मानचित्र |
 
-### यह सभी देखें
+### देखें भी
 
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, Matrix4) {#constructor_2}
+## Mesh(TextureData, Matrix4) {#constructor_2}
 
-निर्दिष्ट ऊंचाई मानचित्र का उपयोग करके जाल का निर्माण करें, यदि ऊंचाई मानचित्र के पिक्सेल प्रारूप में एकाधिक घटक होते हैं, तो पहले (आमतौर पर लाल) घटक का उपयोग ऊंचाई मान के रूप में किया जाएगा (z) नियंत्रण बिंदु के x और y घटक सामान्यीकृत पिक्सेल समन्वय होते हैं .
+निर्दिष्ट हाइट मैप का उपयोग करके एक मेष बनाएं, यदि हाइट मैप के पिक्सेल फ़ॉर्मेट में कई घटक हैं, तो पहला (आमतौर पर लाल) घटक हाइट वैल्यू (z) के रूप में उपयोग किया जाएगा। कंट्रोल पॉइंट के x और y घटक सामान्यीकृत पिक्सेल निर्देशांक होते हैं।
 
 ```csharp
-public Mesh(Bitmap heightMap, Matrix4 transform)
+public Mesh(TextureData heightMap, Matrix4 transform)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| heightMap | Bitmap | इनपुट ऊंचाई नक्शा |
-| transform | Matrix4 | परिवर्तन जो नियंत्रण बिंदुओं पर लागू होता है |
+| heightMap | TextureData | इनपुट ऊँचाई मानचित्र |
+| transform | Matrix4 | कंट्रोल पॉइंट्स पर लागू किया गया ट्रांसफ़ॉर्म। |
 
-### यह सभी देखें
+### देखें भी
 
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, bool, Matrix4) {#constructor_3}
+## Mesh(TextureData, bool, Matrix4) {#constructor_3}
 
-निर्दिष्ट ऊंचाई मानचित्र का उपयोग करके जाल का निर्माण करें, यदि ऊंचाई मानचित्र के पिक्सेल प्रारूप में एकाधिक घटक होते हैं, तो पहले (आमतौर पर लाल) घटक का उपयोग ऊंचाई मान के रूप में किया जाएगा (z) नियंत्रण बिंदु के x और y घटक सामान्यीकृत पिक्सेल समन्वय होते हैं .
+निर्दिष्ट हाइट मैप का उपयोग करके एक मेष बनाएं, यदि हाइट मैप के पिक्सेल फ़ॉर्मेट में कई घटक हैं, तो पहला (आमतौर पर लाल) घटक हाइट वैल्यू (z) के रूप में उपयोग किया जाएगा। कंट्रोल पॉइंट के x और y घटक सामान्यीकृत पिक्सेल निर्देशांक होते हैं।
 
 ```csharp
-public Mesh(Bitmap heightMap, bool triMesh, Matrix4 transform)
+public Mesh(TextureData heightMap, bool triMesh, Matrix4 transform)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| heightMap | Bitmap | इनपुट ऊंचाई नक्शा |
+| heightMap | TextureData | इनपुट ऊँचाई मानचित्र |
 | triMesh | Boolean |  |
-| transform | Matrix4 | परिवर्तन जो नियंत्रण बिंदुओं पर लागू होता है |
+| transform | Matrix4 | कंट्रोल पॉइंट्स पर लागू किया गया ट्रांसफ़ॉर्म। |
 
-### यह सभी देखें
+### देखें भी
 
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Mesh(string) {#constructor_4}
 
-का एक नया उदाहरण प्रारंभ करता है[`Mesh`](../) वर्ग.
+[`Mesh`](../) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 ```csharp
 public Mesh(string name)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| name | String | नाम। |
+| नाम | String | नाम। |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Mesh](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../mesh/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

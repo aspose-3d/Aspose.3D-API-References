@@ -1,121 +1,121 @@
 ---
-title: Cylinder
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: क एक नय उदहरण प्ररंभ करत हैCylinderaspose.threed.entities/cylinder/ वर्ग.
+title: "Cylinder.Cylinder"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Cylinder कंस्ट्रक्टर। सिलिंडर क्लास का नया इंस्टेंस इनिशियलाइज़ करता है"
 type: docs
 weight: 10
 url: /hi/net/aspose.threed.entities/cylinder/cylinder/
 ---
 ## Cylinder() {#constructor}
 
-का एक नया उदाहरण प्रारंभ करता है[`Cylinder`](../) वर्ग.
+[`Cylinder`](../) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 ```csharp
 public Cylinder()
 ```
 
-### यह सभी देखें
+### देखें भी
 
 * class [Cylinder](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../cylinder/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double) {#constructor_1}
 
-का एक नया उदाहरण प्रारंभ करता है[`Cylinder`](../) वर्ग.
+[`Cylinder`](../) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 ```csharp
 public Cylinder(double radius, double height)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| radius | Double | ऊपर और नीचे की टोपी की त्रिज्या। |
-| height | Double | ऊंचाई। |
+| त्रिज्या | डबल | शीर्ष और नीचे कैप की त्रिज्या। |
+| ऊँचाई | डबल | ऊँचाई। |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Cylinder](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../cylinder/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double) {#constructor_2}
 
-का एक नया उदाहरण प्रारंभ करता है[`Cylinder`](../) वर्ग.
+[`Cylinder`](../) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| radiusTop | Double | त्रिज्या शीर्ष। |
-| radiusBottom | Double | त्रिज्या तल। |
-| height | Double | ऊंचाई। |
+| radiusTop | डबल | ऊपरी त्रिज्या। |
+| radiusBottom | डबल | निचली त्रिज्या। |
+| ऊँचाई | डबल | ऊँचाई। |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Cylinder](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../cylinder/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double, int, int, bool) {#constructor_3}
 
-का एक नया उदाहरण प्रारंभ करता है[`Cylinder`](../) वर्ग.
+[`Cylinder`](../) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height, int radialSegments, 
     int heightSegments, bool openEnded)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| radiusTop | Double | सिलेंडर की शीर्ष टोपी का त्रिज्या। |
-| radiusBottom | Double | सिलेंडर के निचले ढक्कन की त्रिज्या। |
-| height | Double | सिलेंडर की ऊंचाई। |
-| radialSegments | Int32 | ऊपर और नीचे दोनों मंडलियों के रेडियल सेगमेंट .. |
-| heightSegments | Int32 | ऊंचाई खंड। |
-| openEnded | Boolean | अगर सेट है`सत्य` सिलेंडर का कोई निचला/शीर्ष कैप नहीं होगा .. |
+| radiusTop | डबल | सिलिंडर के शीर्ष कैप की त्रिज्या। |
+| radiusBottom | डबल | सिलिंडर के नीचे कैप की त्रिज्या। |
+| ऊँचाई | डबल | सिलिंडर की ऊँचाई। |
+| radialSegments | Int32 | ऊपरी और निचले दोनों वृत्तों के रेडियल खंड.. |
+| heightSegments | Int32 | ऊँचाई खंड। |
+| openEnded | Boolean | यदि `true` सेट किया गया तो सिलेंडर के नीचे/ऊपर के कैप नहीं होंगे.. |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Cylinder](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../cylinder/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(string, double, double, double, int, int, bool, double, double) {#constructor_4}
 
-का एक नया उदाहरण प्रारंभ करता है[`Cylinder`](../) वर्ग.
+[`Cylinder`](../) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
 
 ```csharp
 public Cylinder(string name, double radiusTop, double radiusBottom, double height, 
     int radialSegments, int heightSegments, bool openEnded, double thetaStart, double thetaLength)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| पैरामीटर | टाइप | विवरण |
 | --- | --- | --- |
-| name | String | इस वस्तु का नाम |
-| radiusTop | Double | सिलेंडर की शीर्ष टोपी का त्रिज्या। |
-| radiusBottom | Double | सिलेंडर के निचले ढक्कन की त्रिज्या। |
-| height | Double | सिलेंडर की ऊंचाई। |
-| radialSegments | Int32 | ऊपर और नीचे दोनों मंडलियों के रेडियल सेगमेंट .. |
-| heightSegments | Int32 | ऊंचाई खंड। |
-| openEnded | Boolean | अगर सेट है`सत्य` सिलेंडर का कोई निचला/शीर्ष कैप नहीं होगा .. |
-| thetaStart | Double | थीटा प्रारंभ। |
-| thetaLength | Double | थीटा लंबाई। |
+| नाम | String | इस वस्तु का नाम |
+| radiusTop | डबल | सिलिंडर के शीर्ष कैप की त्रिज्या। |
+| radiusBottom | डबल | सिलिंडर के नीचे कैप की त्रिज्या। |
+| ऊँचाई | डबल | सिलिंडर की ऊँचाई। |
+| radialSegments | Int32 | ऊपरी और निचले दोनों वृत्तों के रेडियल खंड.. |
+| heightSegments | Int32 | ऊँचाई खंड। |
+| openEnded | Boolean | यदि `true` सेट किया गया तो सिलेंडर के नीचे/ऊपर के कैप नहीं होंगे.. |
+| thetaStart | डबल | Theta प्रारंभ। |
+| thetaLength | डबल | Theta लंबाई। |
 
-### यह सभी देखें
+### देखें भी
 
 * class [Cylinder](../)
-* नाम स्थान [Aspose.ThreeD.Entities](../../cylinder/)
-* सभा [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

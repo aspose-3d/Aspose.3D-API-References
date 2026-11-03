@@ -1,62 +1,62 @@
 ---
-title: RectangularTorus
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: पैरमटरयुक्त आयतकर टरस.
+title: "क्लास RectangularTorus"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "Aspose.ThreeD.Entities.RectangularTorus क्लास। पैरामीटरयुक्त आयताकार टॉरस"
 type: docs
-weight: 600
+weight: 660
 url: /hi/net/aspose.threed.entities/rectangulartorus/
 ---
 ## RectangularTorus class
 
-पैरामीटरयुक्त आयताकार टोरस.
+पैरामीटरयुक्त आयताकार टॉरस।
 
 ```csharp
 public class RectangularTorus : Primitive
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [RectangularTorus](rectangulartorus/#constructor)() | का निर्माता`RectangularTorus` |
-| [RectangularTorus](rectangulartorus/#constructor_1)(string) | का निर्माता`RectangularTorus` |
+| [RectangularTorus](rectangulartorus/#constructor)() | `RectangularTorus` का कंस्ट्रक्टर |
+| [RectangularTorus](rectangulartorus/#constructor_1)(string) | `RectangularTorus` का कंस्ट्रक्टर |
 
-## गुण
-
-| नाम | विवरण |
-| --- | --- |
-| [AngleStart](../../aspose.threed.entities/rectangulartorus/anglestart/) { get; set; } | चाप का प्रारंभ कोण, रेडियन में मापा जाता है। डिफ़ॉल्ट मान 0 है |
-| [Arc](../../aspose.threed.entities/rectangulartorus/arc/) { get; set; } | चाप का कुल कोण, रेडियन में मापा जाता है। डिफ़ॉल्ट मान PI है |
-| [CastShadows](../../aspose.threed.entities/primitive/castshadows/) { get; set; } | हो जाता है या सेट करता है कि क्या यह ज्यामिति छाया डाल सकती है |
-| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | हो जाता है या सेट करता है कि निर्यात के दौरान इस इकाई को बाहर करना है या नहीं। |
-| [Height](../../aspose.threed.entities/rectangulartorus/height/) { get; set; } | आयताकार टोरस की ऊंचाई. डिफ़ॉल्ट मान 20 है |
-| [InnerRadius](../../aspose.threed.entities/rectangulartorus/innerradius/) { get; set; } | आयताकार टोरस की आंतरिक त्रिज्या डिफ़ॉल्ट मान 17 है |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम प्राप्त या सेट करता है। |
-| [OuterRadius](../../aspose.threed.entities/rectangulartorus/outerradius/) { get; set; } | आयताकार टोरस की बाहरी त्रिज्या डिफ़ॉल्ट मान 20 है |
-| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | पहले पैरेंट नोड को प्राप्त या सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह इकाई अन्य पैरेंट नोड्स से अलग हो जाएगी। |
-| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | सभी पैरेंट नोड्स प्राप्त करता है, ज्यामिति इंस्टेंसिंग के लिए एक इकाई को कई पैरेंट नोड्स से जोड़ा जा सकता है |
-| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी संपत्तियों का संग्रह प्राप्त करता है। |
-| [RadialSegments](../../aspose.threed.entities/rectangulartorus/radialsegments/) { get; set; } | रेडियल सेगमेंट, डिफ़ॉल्ट मान 10 है |
-| [ReceiveShadows](../../aspose.threed.entities/primitive/receiveshadows/) { get; set; } | हो जाता है या सेट करता है कि क्या यह ज्यामिति छाया प्राप्त कर सकती है। |
-| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | दृश्य प्राप्त करता है कि यह वस्तु से संबंधित है |
-
-## तरीकों
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | संपत्ति ढूँढता है। यह एक गतिशील संपत्ति हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल संपत्ति (इसके नाम से पहचानी गई) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | अपने ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में वर्तमान इकाई का बाउंडिंग बॉक्स प्राप्त करता है। |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | रेंडरर में पंजीकृत इकाई रेंडरर की कुंजी प्राप्त करता है |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट संपत्ति का मान प्राप्त करें |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक गतिशील संपत्ति को हटाता है। |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट संपत्ति को हटाएं |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट संपत्ति का मान सेट करता है |
-| override [ToMesh](../../aspose.threed.entities/rectangulartorus/tomesh/)() | इस प्रिमिटिव को कन्वर्ट करें[`Mesh`](../mesh/) |
+| [AngleStart](../../aspose.threed.entities/rectangulartorus/anglestart/) { get; set; } | आर्क का प्रारंभिक कोण, रेडियन में मापा गया। डिफ़ॉल्ट मान 0 है। |
+| [Arc](../../aspose.threed.entities/rectangulartorus/arc/) { get; set; } | आर्क का कुल कोण, रेडियन में मापा गया। डिफ़ॉल्ट मान PI है। |
+| [CastShadows](../../aspose.threed.entities/primitive/castshadows/) { get; set; } | प्राप्त करता है या सेट करता है कि यह ज्योमेट्री शैडो कास्ट कर सकती है या नहीं |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | निर्यात के दौरान इस एंटिटी को बाहर रखने के लिए प्राप्त करता है या सेट करता है। |
+| [Height](../../aspose.threed.entities/rectangulartorus/height/) { get; set; } | आयताकार टॉरस की ऊँचाई। डिफ़ॉल्ट मान 20 है। |
+| [InnerRadius](../../aspose.threed.entities/rectangulartorus/innerradius/) { get; set; } | आयताकार टॉरस का आंतरिक त्रिज्या। डिफ़ॉल्ट मान 17 है। |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | नाम को प्राप्त करता है या सेट करता है। |
+| [OuterRadius](../../aspose.threed.entities/rectangulartorus/outerradius/) { get; set; } | आयताकार टॉरस का बाहरी त्रिज्या। डिफ़ॉल्ट मान 20 है। |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | पहला पैरेंट नोड प्राप्त करता है या सेट करता है, यदि पहला पैरेंट नोड सेट किया जाता है, तो यह एंटिटी अन्य पैरेंट नोड्स से अलग हो जाएगी। |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | सभी पैरेंट नोड्स प्राप्त करता है, एक एंटिटी को जियोमेट्री इंस्टेंसिंग के लिए कई पैरेंट नोड्स से जोड़ा जा सकता है |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | सभी प्रॉपर्टीज़ का संग्रह प्राप्त करता है। |
+| [RadialSegments](../../aspose.threed.entities/rectangulartorus/radialsegments/) { get; set; } | रेडियल सेगमेंट्स, डिफ़ॉल्ट मान 10 है। |
+| [ReceiveShadows](../../aspose.threed.entities/primitive/receiveshadows/) { get; set; } | प्राप्त करता है या सेट करता है कि यह जियोमेट्री छाया प्राप्त कर सकती है या नहीं। |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | उस सीन को प्राप्त करता है जिससे यह ऑब्जेक्ट संबंधित है |
 
-### यह सभी देखें
+## मेथड्स
+
+| नाम | विवरण |
+| --- | --- |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | प्रॉपर्टी को खोजता है। यह एक डायनेमिक प्रॉपर्टी हो सकती है (CreateDynamicProperty/SetProperty द्वारा बनाई गई) या मूल प्रॉपर्टी (इसके नाम द्वारा पहचानी गई) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | वर्तमान एंटिटी का बाउंडिंग बॉक्स उसके ऑब्जेक्ट स्पेस कोऑर्डिनेट सिस्टम में प्राप्त करता है। |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | रेंडरर में पंजीकृत एंटिटी रेंडरर की कुंजी प्राप्त करता है |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | निर्दिष्ट प्रॉपर्टी का मान प्राप्त करें |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | एक डायनेमिक प्रॉपर्टी को हटाता है। |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | नाम द्वारा पहचानी गई निर्दिष्ट प्रॉपर्टी को हटाएँ |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | निर्दिष्ट प्रॉपर्टी का मान सेट करता है |
+| override [ToMesh](../../aspose.threed.entities/rectangulartorus/tomesh/)() | इस प्रिमिटिव को [`Mesh`](../mesh/) में बदलें |
+
+### देखें भी
 
 * class [Primitive](../primitive/)
-* नाम स्थान [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
-* सभा [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

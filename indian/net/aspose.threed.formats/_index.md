@@ -1,59 +1,62 @@
 ---
-title: Aspose.ThreeD.Formats
-second_title: .NET API संदर्भ के लिए Aspose.3D
-description: IO संबंधत अनुकूलन इस नमस्थन में परभषत कय गय है
+title: "Aspose.ThreeD.Formats"
+second_title: "Aspose.3D के लिए .NET API संदर्भ"
+description: "IO संबंधित कस्टमाइज़ेशन इस नेमस्पेस में परिभाषित हैं।"
 type: docs
 weight: 50
 url: /hi/net/aspose.threed.formats/
 ---
-IO संबंधित अनुकूलन इस नामस्थान में परिभाषित किया गया है।
+IO संबंधित अनुकूलन इस नामस्थान में परिभाषित हैं।
 
-## कक्षाओं
+## क्लासेस
 
-| कक्षा | विवरण |
+| क्लास | विवरण |
 | --- | --- |
-| [A3dwSaveOptions](./a3dwsaveoptions/) | A3DW प्रारूप के लिए विकल्प सहेजें। |
-| [AmfSaveOptions](./amfsaveoptions/) | AMF के लिए विकल्प सहेजें |
-| [ColladaSaveOptions](./colladasaveoptions/) | कोलाडा के लिए विकल्प सहेजें |
-| [Discreet3dsLoadOptions](./discreet3dsloadoptions/) | 3DS फ़ाइल के लिए लोड विकल्प. |
-| [Discreet3dsSaveOptions](./discreet3dssaveoptions/) | 3DS फ़ाइल के लिए सहेजें विकल्प. |
-| [DracoFormat](./dracoformat/) | Google ड्रेको प्रारूप |
-| [DracoSaveOptions](./dracosaveoptions/) | Google ड्रेको फ़ाइलों के लिए सहेजें विकल्प |
-| [FbxLoadOptions](./fbxloadoptions/) | Fbx प्रारूप के लिए लोड विकल्प. |
-| [FbxSaveOptions](./fbxsaveoptions/) | Fbx फ़ाइल के लिए सहेजें विकल्प. |
-| [FileSystemFactory](./filesystemfactory/) | [`SaveOptions`](../aspose.threed.formats/saveoptions/) और[`LoadOptions`](../aspose.threed.formats/loadoptions/) एक बना देगा[`LocalFileSystem`](../aspose.threed.utilities/localfilesystem/) डिफ़ॉल्ट के लिए. यह सर्वर वातावरण में एक सुरक्षा समस्या हो सकती है. अपना स्वयं का उपयोग करें[`FileSystemFactory`](../aspose.threed.formats/filesystemfactory/) को[`FileSystemFactory`](../aspose.threed.formats/ioconfig/filesystemfactory/) सर्वर साइड सुरक्षा में सुधार करने के लिए. |
-| [GltfLoadOptions](./gltfloadoptions/) | जीएलटीएफ प्रारूप के लिए लोड विकल्प |
-| [GltfSaveOptions](./gltfsaveoptions/) | जीएलटीएफ प्रारूप के लिए विकल्प सहेजें। |
-| [Html5SaveOptions](./html5saveoptions/) | HTML5 के लिए विकल्प सहेजें |
-| [IOConfig](./ioconfig/) | IO कॉन्फिगरेशन फॉर सीरियलाइजेशन/डिसेरिएलाइजेशन. यूजर डिपेंडेंसी लुक-अप पाथ या फॉर्मेट से संबंधित कॉन्फिग यहां जैसे विस्तृत कॉन्फिगरेशन निर्दिष्ट कर सकते हैं |
-| [LoadOptions](./loadoptions/) | विभिन्न प्रकारों के लिए फ़ाइल लोडिंग में विकल्पों को कॉन्फ़िगर करने के लिए आधार वर्ग |
-| [MaterialConverter](./materialconverter/) | जीएलटीएफ की पीबीआर सामग्री में ज्यामिति की मूल सामग्री को बदलने के लिए कस्टम कनवर्टर। |
-| [ObjLoadOptions](./objloadoptions/) | वेवफ़्रंट obj के लिए लोड विकल्प |
-| [ObjSaveOptions](./objsaveoptions/) | वेवफ़्रंट ओबीजे फ़ाइल के लिए विकल्प सहेजें |
-| [PdfFormat](./pdfformat/) | एडोब का पोर्टेबल दस्तावेज़ प्रारूप |
-| [PdfLoadOptions](./pdfloadoptions/) | पीडीएफ लोडिंग के लिए विकल्प |
-| [PdfSaveOptions](./pdfsaveoptions/) | PDF निर्यात करने में सहेजें विकल्प. |
-| [PlyFormat](./plyformat/) | PLY प्रारूप। |
-| [PlyLoadOptions](./plyloadoptions/) | पीएलवाई फाइलों के लिए लोड विकल्प |
-| [PlySaveOptions](./plysaveoptions/) | दृश्य को PLY फ़ाइल के रूप में निर्यात करने के लिए विकल्प सहेजें। |
-| [RvmFormat](./rvmformat/) | आरवीएम प्रारूप |
-| [RvmLoadOptions](./rvmloadoptions/) | AVEVA प्लांट डिज़ाइन मैनेजमेंट सिस्टम की RVM फ़ाइल के लिए लोड विकल्प। |
-| [RvmSaveOptions](./rvmsaveoptions/) | एवेवा पीडीएमएस आरवीएम फ़ाइल के लिए विकल्प सहेजें। |
-| [SaveOptions](./saveoptions/) | विभिन्न प्रकारों के लिए फ़ाइल बचत में विकल्पों को कॉन्फ़िगर करने के लिए आधार वर्ग |
-| [StlLoadOptions](./stlloadoptions/) | एसटीएल के लिए लोड विकल्प |
-| [StlSaveOptions](./stlsaveoptions/) | STL के लिए विकल्प सहेजें |
-| [U3dLoadOptions](./u3dloadoptions/) | यूनिवर्सल 3d के लिए लोड विकल्प |
-| [U3dSaveOptions](./u3dsaveoptions/) | यूनिवर्सल 3d के लिए विकल्प सहेजें |
-| [UsdSaveOptions](./usdsaveoptions/) | USD/USDZ प्रारूपों के लिए विकल्प सहेजें। |
-| [XLoadOptions](./xloadoptions/) | डायरेक्टएक्स फाइलों के लिए लोड विकल्प। |
-## गणना
+| [A3dwSaveOptions](./a3dwsaveoptions/) | A3DW फ़ॉर्मेट के लिए सहेजने विकल्प। |
+| [AmfSaveOptions](./amfsaveoptions/) | AMF के लिए सहेजने विकल्प |
+| [ColladaSaveOptions](./colladasaveoptions/) | collada के लिए सहेजने विकल्प |
+| [Discreet3dsLoadOptions](./discreet3dsloadoptions/) | 3DS फ़ाइल के लिए लोड विकल्प। |
+| [Discreet3dsSaveOptions](./discreet3dssaveoptions/) | 3DS फ़ाइल के लिए सहेजने विकल्प। |
+| [DracoFormat](./dracoformat/) | Google Draco फ़ॉर्मेट |
+| [DracoSaveOptions](./dracosaveoptions/) | Google Draco फ़ाइलों के लिए सहेजने के विकल्प |
+| [FbxLoadOptions](./fbxloadoptions/) | Fbx फ़ॉर्मेट के लिए लोड विकल्प। |
+| [FbxSaveOptions](./fbxsaveoptions/) | Fbx फ़ाइल के लिए सहेजने के विकल्प। |
+| [FileSystemFactory](./filesystemfactory/) | [`SaveOptions`](../aspose.threed.formats/saveoptions/) and [`LoadOptions`](../aspose.threed.formats/loadoptions/) डिफ़ॉल्ट के लिए एक LocalFileSystem बनाएगा। यह सर्वर पर्यावरण में सुरक्षा समस्या हो सकती है। सर्वर साइड सुरक्षा को बेहतर बनाने के लिए अपने स्वयं के [`FileSystemFactory`](../aspose.threed.formats/filesystemfactory/) को [`FileSystemFactory`](../aspose.threed.formats/ioconfig/filesystemfactory/) का उपयोग करें। |
+| [GltfLoadOptions](./gltfloadoptions/) | glTF फ़ॉर्मेट के लिए लोड विकल्प |
+| [GltfSaveOptions](./gltfsaveoptions/) | glTF फ़ॉर्मेट के लिए सहेजने के विकल्प। |
+| [Html5SaveOptions](./html5saveoptions/) | HTML5 के लिए सहेजने के विकल्प |
+| [IOConfig](./ioconfig/) | सीरियलाइज़ेशन/डिसीरियलाइज़ेशन के लिए IO कॉन्फ़िग। उपयोगकर्ता यहाँ निर्भरता लुक-अप पाथ या फ़ॉर्मेट-संबंधित कॉन्फ़िगरेशन जैसी विस्तृत सेटिंग्स निर्दिष्ट कर सकता है। |
+| [JtLoadOptions](./jtloadoptions/) | Siemens JT के लिए लोड विकल्प |
+| [LoadOptions](./loadoptions/) | विभिन्न प्रकारों के लिए फ़ाइल लोडिंग में विकल्प कॉन्फ़िगर करने की बेस क्लास |
+| [MaterialConverter](./materialconverter/) | ज्यामिति की मूल सामग्री को GLTF के PBR सामग्री में बदलने के लिए कस्टम कनवर्टर। |
+| [Microsoft3MFFormat](./microsoft3mfformat/) | Microsoft 3MF के लिए फ़ाइल फ़ॉर्मेट इंस्टेंस, जिसमें 3MF संबंधित उपयोगिताएँ शामिल हैं। |
+| [Microsoft3MFSaveOptions](./microsoft3mfsaveoptions/) | Microsoft 3MF फ़ाइल के लिए सहेजने के विकल्प। |
+| [ObjLoadOptions](./objloadoptions/) | wavefront obj के लिए लोड विकल्प |
+| [ObjSaveOptions](./objsaveoptions/) | wavefront obj फ़ाइल के लिए सहेजने के विकल्प |
+| [PdfFormat](./pdfformat/) | Adobe का पोर्टेबल डॉक्यूमेंट फ़ॉर्मेट |
+| [PdfLoadOptions](./pdfloadoptions/) | PDF लोडिंग के विकल्प |
+| [PdfSaveOptions](./pdfsaveoptions/) | PDF निर्यात में सहेजने के विकल्प। |
+| [PlyFormat](./plyformat/) | PLY फ़ॉर्मेट। |
+| [PlyLoadOptions](./plyloadoptions/) | PLY फ़ाइलों के लिए लोड विकल्प |
+| [PlySaveOptions](./plysaveoptions/) | सीन को PLY फ़ाइल के रूप में निर्यात करने के लिए सहेजने के विकल्प। |
+| [RvmFormat](./rvmformat/) | RVM फ़ॉर्मेट |
+| [RvmLoadOptions](./rvmloadoptions/) | AVEVA Plant Design Management System की RVM फ़ाइल के लिए लोड विकल्प। |
+| [RvmSaveOptions](./rvmsaveoptions/) | Aveva PDMS RVM फ़ाइल के लिए सहेजने के विकल्प। |
+| [SaveOptions](./saveoptions/) | विभिन्न प्रकारों के लिए फ़ाइल सहेजने में विकल्प कॉन्फ़िगर करने की बेस क्लास |
+| [StlLoadOptions](./stlloadoptions/) | STL के लिए लोड विकल्प |
+| [StlSaveOptions](./stlsaveoptions/) | STL के लिए सहेजने के विकल्प |
+| [U3dLoadOptions](./u3dloadoptions/) | यूनिवर्सल 3D के लिए लोड विकल्प |
+| [U3dSaveOptions](./u3dsaveoptions/) | यूनिवर्सल 3D के लिए सहेजने के विकल्प |
+| [UsdSaveOptions](./usdsaveoptions/) | USD/USDZ फ़ॉर्मैट्स के लिए सहेजने के विकल्प। |
+| [XLoadOptions](./xloadoptions/) | DirectX X फ़ाइलों के लिए लोड विकल्प। |
+## एन्यूमरेशन
 
-| गणना | विवरण |
+| एन्यूमरेशन | विवरण |
 | --- | --- |
-| [ColladaTransformStyle](./colladatransformstyle/) | नोड की परिवर्तन शैली node |
-| [DracoCompressionLevel](./dracocompressionlevel/) | ड्रेको फ़ाइल के लिए संपीड़न स्तर |
-| [GltfEmbeddedImageFormat](./gltfembeddedimageformat/) | कैसे जीएलटीएफ निर्यातक निर्यात के दौरान बनावट को एम्बेड करेगा। |
-| [PdfLightingScheme](./pdflightingscheme/) | LightingScheme 3D कलाकृति पर लागू होने वाली प्रकाश व्यवस्था को निर्दिष्ट करता है। |
-| [PdfRenderMode](./pdfrendermode/) | रेंडर मोड उस शैली को निर्दिष्ट करता है जिसमें 3डी आर्टवर्क प्रस्तुत किया जाता है। |
+| [ColladaTransformStyle](./colladatransformstyle/) | नोड की ट्रांसफ़ॉर्मेशन शैली |
+| [DracoCompressionLevel](./dracocompressionlevel/) | ड्रैको फ़ाइल के लिए संपीड़न स्तर |
+| [GltfEmbeddedImageFormat](./gltfembeddedimageformat/) | glTF निर्यातक निर्यात के दौरान टेक्सचर को कैसे एम्बेड करेगा। |
+| [PdfLightingScheme](./pdflightingscheme/) | LightingScheme 3D कलाकृति पर लागू होने वाली लाइटिंग को निर्दिष्ट करता है। |
+| [PdfRenderMode](./pdfrendermode/) | Render mode उस शैली को निर्दिष्ट करता है जिसमें 3D कलाकृति रेंडर की जाती है। |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
