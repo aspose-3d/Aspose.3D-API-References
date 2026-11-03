@@ -1,14 +1,14 @@
 ---
-title: ITextureUnit
-second_title: Aspose.3D für .NET-API-Referenz
-description: ITextureUnit./itextureunit stellt eine Textur im Speicher dar die von GPU und CPU geteilt wird und vom Shader gesampelt werden kann wobei dieTexture../aspose.threed.shading/texture stellt nur einen Verweis auf eine externe Datei dar. Weitere Details finden Sie unter https//en.wikipedia.org/wiki/Texture_mapping_unit
+title: "Schnittstelle ITextureUnit"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Aspose.ThreeD.Render.ITextureUnit interface. ITextureUnit stellt eine Textur im Speicher dar, die zwischen GPU und CPU gemeinsam genutzt wird und vom Shader abgetastet werden kann, wobei die Texture nur einen Verweis auf eine externe Datei darstellt. Weitere Details finden Sie unter https//en.wikipedia.org/wiki/Texture_mapping_unit"
 type: docs
-weight: 1950
+weight: 2170
 url: /de/net/aspose.threed.render/itextureunit/
 ---
 ## ITextureUnit interface
 
-[`ITextureUnit`](../itextureunit) stellt eine Textur im Speicher dar, die von GPU und CPU geteilt wird und vom Shader gesampelt werden kann, wobei die[`Texture`](../../aspose.threed.shading/texture) stellt nur einen Verweis auf eine externe Datei dar. Weitere Details finden Sie unter https://en.wikipedia.org/wiki/Texture_mapping_unit
+`ITextureUnit` stellt eine Textur im Speicher dar, die zwischen GPU und CPU gemeinsam genutzt wird und vom Shader abgetastet werden kann, wobei die [`Texture`](../../aspose.threed.shading/texture/) nur einen Verweis auf eine externe Datei darstellt. Weitere Details finden Sie unter https://en.wikipedia.org/wiki/Texture_mapping_unit
 
 ```csharp
 public interface ITextureUnit : IDisposable
@@ -18,22 +18,22 @@ public interface ITextureUnit : IDisposable
 
 | Name | Beschreibung |
 | --- | --- |
-| [Depth](../../aspose.threed.render/itextureunit/depth) { get; } | Ruft die Höhe dieser Textur ab, für Nicht-3D-Texturen ist es immer 1. |
-| [Height](../../aspose.threed.render/itextureunit/height) { get; } | Ruft die Höhe dieser Textur ab. |
-| [Magnification](../../aspose.threed.render/itextureunit/magnification) { get; set; } | Ruft den Filtermodus für die Vergrößerung ab oder setzt ihn. |
-| [Minification](../../aspose.threed.render/itextureunit/minification) { get; set; } | Ruft den Filtermodus für die Minimierung ab oder legt ihn fest. |
-| [Mipmap](../../aspose.threed.render/itextureunit/mipmap) { get; set; } | Ruft den Filtermodus für Mipmap ab oder legt ihn fest. |
-| [Scale](../../aspose.threed.render/itextureunit/scale) { get; set; } | Ruft die Skala der UV-Koordinate ab oder legt sie fest. |
-| [Scroll](../../aspose.threed.render/itextureunit/scroll) { get; set; } | Holt oder setzt den Scroll der UV-Koordinate. |
-| [Type](../../aspose.threed.render/itextureunit/type) { get; } | Ruft den Typ dieser Textureinheit ab. |
-| [UWrap](../../aspose.threed.render/itextureunit/uwrap) { get; set; } | Ruft den Umbruchmodus für die U-Koordinate der Textur ab oder legt ihn fest. |
-| [VWrap](../../aspose.threed.render/itextureunit/vwrap) { get; set; } | Ruft den Umbruchmodus für die V-Koordinate der Textur ab oder legt ihn fest. |
-| [Width](../../aspose.threed.render/itextureunit/width) { get; } | Ruft die Breite dieser Textur ab. |
-| [WWrap](../../aspose.threed.render/itextureunit/wwrap) { get; set; } | Ruft den Umbruchmodus für die W-Koordinate der Textur ab oder legt ihn fest. |
+| [Depth](../../aspose.threed.render/itextureunit/depth/) { get; } | Liefert die Höhe dieser Textur, bei nicht‑3D‑Texturen ist sie immer 1. |
+| [Height](../../aspose.threed.render/itextureunit/height/) { get; } | Liefert die Höhe dieser Textur. |
+| [Magnification](../../aspose.threed.render/itextureunit/magnification/) { get; set; } | Liefert oder setzt den Filtermodus für Vergrößerung. |
+| [Minification](../../aspose.threed.render/itextureunit/minification/) { get; set; } | Liefert oder setzt den Filtermodus für Verkleinerung. |
+| [Mipmap](../../aspose.threed.render/itextureunit/mipmap/) { get; set; } | Liefert oder setzt den Filtermodus für Mipmap. |
+| [Scale](../../aspose.threed.render/itextureunit/scale/) { get; set; } | Liefert oder setzt die Skalierung der UV‑Koordinate. |
+| [Scroll](../../aspose.threed.render/itextureunit/scroll/) { get; set; } | Liefert oder setzt das Scrollen der UV‑Koordinate. |
+| [Type](../../aspose.threed.render/itextureunit/type/) { get; } | Liefert den Typ dieser Textureinheit. |
+| [UWrap](../../aspose.threed.render/itextureunit/uwrap/) { get; set; } | Liefert oder setzt den Wrap‑Modus für die U‑Koordinate der Textur. |
+| [VWrap](../../aspose.threed.render/itextureunit/vwrap/) { get; set; } | Liefert oder setzt den Wrap‑Modus für die V‑Koordinate der Textur. |
+| [Width](../../aspose.threed.render/itextureunit/width/) { get; } | Liefert die Breite dieser Textur. |
+| [WWrap](../../aspose.threed.render/itextureunit/wwrap/) { get; set; } | Liefert oder setzt den Wrap‑Modus für die W‑Koordinate der Textur. |
 
 ### Siehe auch
 
-* namensraum [Aspose.ThreeD.Render](../../aspose.threed.render)
-* Montage [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: Frustum
-second_title: Aspose.3D für .NET-API-Referenz
-description: Die Basisklasse vonCamera./camera undLight./light
+title: "Klasse Frustum"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Aspose.ThreeD.Entities.Frustum Klasse. Die Basisklasse von Camera und Light"
 type: docs
-weight: 350
+weight: 400
 url: /de/net/aspose.threed.entities/frustum/
 ---
 ## Frustum class
 
-Die Basisklasse von[`Camera`](../camera) und[`Light`](../light)
+Die Basisklasse von [`Camera`](../camera/) und [`Light`](../light/)
 
 ```csharp
 public abstract class Frustum : Entity, IOrientable
@@ -18,39 +18,39 @@ public abstract class Frustum : Entity, IOrientable
 
 | Name | Beschreibung |
 | --- | --- |
-| [Aspect](../../aspose.threed.entities/frustum/aspect) { get; set; } | Ruft das Seitenverhältnis von frustum ab oder legt es fest |
-| [Direction](../../aspose.threed.entities/frustum/direction) { get; set; } | Ruft die Richtung ab, in die die Kamera blickt, oder legt sie fest. Änderungen an dieser Eigenschaft wirken sich auch auf die aus[`LookAt`](./lookat) und[`Target`](./target) . |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Ruft ab oder legt fest, ob diese Entität während des Exports ausgeschlossen werden soll. |
-| [FarPlane](../../aspose.threed.entities/frustum/farplane) { get; set; } | Ruft den Abstand der fernen Ebene des Kegelstumpfs ab oder legt ihn fest. |
-| [LookAt](../../aspose.threed.entities/frustum/lookat) { get; set; } | Ruft die interessante Position ab, auf die die Kamera blickt, oder legt sie fest. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Ruft den Namen ab oder legt ihn fest. |
-| [NearPlane](../../aspose.threed.entities/frustum/nearplane) { get; set; } | Ruft den Nahebenenabstand des Kegelstumpfs ab oder legt ihn fest. |
-| [OrthoHeight](../../aspose.threed.entities/frustum/orthoheight) { get; set; } | Ruft die Höhe ab oder legt sie fest, wenn der Kegelstumpf in der orthografischen Projektion steht. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Ruft den ersten übergeordneten Knoten ab oder legt ihn fest. Wenn der erste übergeordnete Knoten festgelegt wird, wird diese Entität von anderen übergeordneten Knoten getrennt. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Ruft alle übergeordneten Knoten ab, eine Entität kann an mehrere übergeordnete Knoten angehängt werden, um Geometrie zu instanziieren |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Ruft die Sammlung aller Eigenschaften ab. |
-| [RotationMode](../../aspose.threed.entities/frustum/rotationmode) { get; set; } | Ruft die Ausrichtung des Kegelstumpfs ab oder legt sie fest. mode Diese Eigenschaft funktioniert nur, wenn die[`Target`](./target) ist null. Wenn der Wert istFixedTarget , wird die Richtung immer von der Eigenschaft berechnet[`LookAt`](./lookat) Ansonsten die[`LookAt`](./lookat)wird immer von der berechnet[`Direction`](./direction) |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Ruft die Szene ab, zu der dieses Objekt gehört |
-| [Target](../../aspose.threed.entities/frustum/target) { get; set; } | Ruft das Ziel ab, auf das die Kamera blickt, oder legt es fest. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor ihr liegen[`LookAt`](./lookat) Eigentum. |
-| [Up](../../aspose.threed.entities/frustum/up) { get; set; } | Ruft die Aufwärtsrichtung der Kamera ab oder legt sie fest |
+| [Aspect](../../aspose.threed.entities/frustum/aspect/) { get; set; } | Liest oder setzt das Seitenverhältnis des Frustums |
+| [Direction](../../aspose.threed.entities/frustum/direction/) { get; set; } | Liest oder setzt die Richtung, in die die Kamera blickt. Änderungen an dieser Eigenschaft wirken sich auch auf [`LookAt`](./lookat/) und [`Target`](./target/) aus. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Liest oder setzt, ob diese Entität beim Exportieren ausgeschlossen werden soll. |
+| [FarPlane](../../aspose.threed.entities/frustum/farplane/) { get; set; } | Liest oder setzt die Entfernung der fernen Ebene des Frustums. |
+| [LookAt](../../aspose.threed.entities/frustum/lookat/) { get; set; } | Liest oder setzt die interessierende Position, auf die die Kamera blickt. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Liest oder setzt den Namen. |
+| [NearPlane](../../aspose.threed.entities/frustum/nearplane/) { get; set; } | Liest oder setzt die Entfernung der nahen Ebene des Frustums. |
+| [OrthoHeight](../../aspose.threed.entities/frustum/orthoheight/) { get; set; } | Liest oder setzt die Höhe, wenn das Frustum in orthografischer Projektion ist. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Liest oder setzt den ersten übergeordneten Knoten; wird der erste übergeordnete Knoten gesetzt, wird diese Entität von anderen übergeordneten Knoten getrennt. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Liest alle übergeordneten Knoten, eine Entität kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Gibt die Sammlung aller Eigenschaften zurück. |
+| [RotationMode](../../aspose.threed.entities/frustum/rotationmode/) { get; set; } | Liest oder setzt den Orientierungmodus des Frustums. Diese Eigenschaft funktioniert nur, wenn [`Target`](./target/) null ist. Ist der Wert FixedTarget, wird die Richtung stets über die Eigenschaft [`LookAt`](./lookat/) berechnet; andernfalls wird [`LookAt`](./lookat/) stets über [`Direction`](./direction/) berechnet. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Liest die Szene, zu der dieses Objekt gehört. |
+| [Target](../../aspose.threed.entities/frustum/target/) { get; set; } | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der [`LookAt`](./lookat/)-Eigenschaft liegen. |
+| [Up](../../aspose.threed.entities/frustum/up/) { get; set; } | Liest oder setzt die Aufwärtsrichtung der Kamera |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft sein (erstellt von CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Ruft den Begrenzungsrahmen des aktuellen Objekts in seinem Objektraum-Koordinatensystem ab. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | Ruft den Schlüssel des Entity-Renderers ab, der im Renderer registriert ist |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Holen Sie sich den Wert der angegebenen Eigenschaft |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Entfernt eine dynamische Eigenschaft. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Entfernt die angegebene Eigenschaft identifiziert durch name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Legt den Wert der angegebenen Eigenschaft fest |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert über ihren Namen). |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Ermittelt die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | Ermittelt den Schlüssel des Entity-Renderers, der im Renderer registriert ist |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Liefert den Wert der angegebenen Eigenschaft |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Entfernt eine dynamische Eigenschaft. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Entfernt die angegebene, nach Namen identifizierte Eigenschaft |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Setzt den Wert der angegebenen Eigenschaft |
 
 ### Siehe auch
 
-* class [Entity](../../aspose.threed/entity)
-* interface [IOrientable](../iorientable)
-* namensraum [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* Montage [Aspose.3D](../../)
+* class [Entity](../../aspose.threed/entity/)
+* interface [IOrientable](../iorientable/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

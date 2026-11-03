@@ -1,31 +1,31 @@
 ---
-title: Aspose.ThreeD.Animation
-second_title: Aspose.3D für .NET-API-Referenz
-description: Der Animationsnamensraum von Aspose.3D alle animationsbezogenen Klassen sind in diesem Namensraum definiert
+title: "Aspose.ThreeD.Animation"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Der Animations-Namespace von Aspose.3D, in dem alle animationsbezogenen Klassen definiert sind"
 type: docs
 weight: 20
 url: /de/net/aspose.threed.animation/
 ---
-Der Animationsnamensraum von Aspose.3D, alle animationsbezogenen Klassen sind in diesem Namensraum definiert
+Der Animations‑Namensraum von Aspose.3D, alle animationsbezogenen Klassen sind in diesem Namensraum definiert
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [AnimationChannel](./animationchannel) | Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einem Satz von Keyframe-Sequenzen zu |
-| [AnimationClip](./animationclip) | Der Animationsclip ist eine Sammlung von Animationen. Die Szene kann einen oder mehrere Animationsclips enthalten. |
-| [AnimationNode](./animationnode) | Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehreren Animationen und der Keyframe-Definition der Animation bestehen. [`AnimationNode`](../aspose.threed.animation/animationnode) definiert die Transformation eines Eigenschaftswerts im Laufe der Zeit, z. B. kann ein Animationsknoten verwendet werden, um die Transformation eines Knotens oder anderes zu steuern[`A3DObject`](../aspose.threed/a3dobject) Numerische Eigenschaften des Objekts. |
-| [BindPoint](./bindpoint) | A[`BindPoint`](../aspose.threed.animation/bindpoint)wird normalerweise auf der Eigenschaft eines Objekts erstellt, einige Eigenschaftstypen enthalten mehrere Komponentenfelder (wie ein Vector3-Feld), [`BindPoint`](../aspose.threed.animation/bindpoint) generiert einen Kanal für jedes Komponentenfeld und verbindet das Feld über die Kanäle mit einer oder mehreren Keyframe-Sequenzinstanzen. |
-| [Extrapolation](./extrapolation) | Extrapolation definiert, was zu tun ist, wenn der abgetastete Wert außerhalb des Bereichs liegt, der durch das erste und letzte Schlüsselbild definiert ist. |
-| [KeyFrame](./keyframe) | Ein Keyframe wird hauptsächlich durch eine Zeit und einen Wert definiert, bei einigen Interpolationstypen wird auch Tangente/Spannung/Bias/Kontinuität verwendet, um den endgültigen Abtastwert zu berechnen. Abtastwerte in einer Nicht-Keyframe-Zeitposition werden interpoliert durch Schlüsselbilder zwischen dem vorherigen und nächsten Schlüsselbild Werte vor/nach dem ersten/letzten Schlüsselbild werden von berechnet[`Extrapolation`](../aspose.threed.animation/extrapolation) Klasse. |
-| [KeyframeSequence](./keyframesequence) | Die Folge von Keyframes, sie beschreibt die Transformation eines abgetasteten Wertes über die Zeit. |
+| [AnimationChannel](./animationchannel/) | Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einer Menge von Keyframe‑Sequenzen zu |
+| [AnimationClip](./animationclip/) | Der Animationsclip ist eine Sammlung von Animationen. Die Szene kann einen oder mehrere Animationsclips enthalten. |
+| [AnimationNode](./animationnode/) | Aspose.3D unterstützt eine Animationshierarchie, jede Animation kann aus mehreren Animationen und der Keyframe‑Definition einer Animation zusammengesetzt werden. [`AnimationNode`](../aspose.threed.animation/animationnode/) definiert die Transformation eines Eigenschaftswerts über die Zeit, zum Beispiel kann ein Animationsknoten verwendet werden, um die Transformation eines Knotens oder andere numerische Eigenschaften eines [`A3DObject`](../aspose.threed/a3dobject/) zu steuern. |
+| [BindPoint](./bindpoint/) | Ein [`BindPoint`](../aspose.threed.animation/bindpoint/) wird normalerweise auf einer Eigenschaft eines Objekts erstellt; einige Eigenschaftstypen enthalten mehrere Komponentenfelder (wie ein Vector3‑Feld). [`BindPoint`](../aspose.threed.animation/bindpoint/) erzeugt für jedes Komponentenfeld einen Kanal und verbindet das Feld über die Kanäle mit einer oder mehreren Keyframe‑Sequenz‑Instanz(en). |
+| [Extrapolation](./extrapolation/) | Extrapolation definiert, wie vorzugehen ist, wenn ein abgetasteter Wert außerhalb des durch den ersten und letzten Keyframe definierten Bereichs liegt. |
+| [KeyFrame](./keyframe/) | Ein Keyframe wird hauptsächlich durch eine Zeit und einen Wert definiert; bei einigen Interpolationstypen werden Tangente/Spannung/Bias/Kontinuität ebenfalls zur Berechnung des endgültigen abgetasteten Wertes verwendet. Abgetastete Werte an einer Zeitposition ohne Keyframe werden durch die Keyframes zwischen dem vorherigen und dem nächsten Keyframe interpoliert. Werte vor/nach dem ersten/letzten Keyframe werden von der Klasse [`Extrapolation`](../aspose.threed.animation/extrapolation/) berechnet. |
+| [KeyframeSequence](./keyframesequence/) | Die Sequenz von Keyframes beschreibt die Transformation eines abgetasteten Wertes über die Zeit. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [ExtrapolationType](./extrapolationtype) | Hochrechnungstyp. |
-| [Interpolation](./interpolation) | Der Interpolationstyp des Keyframes. |
-| [StepMode](./stepmode) | Interpolationsschrittmodus. |
-| [WeightedMode](./weightedmode) | Gewichteter Modus. |
+| [ExtrapolationType](./extrapolationtype/) | Extrapolationstyp. |
+| [Interpolation](./interpolation/) | Der Interpolationstyp des Keyframes. |
+| [StepMode](./stepmode/) | Interpolations‑Schrittmodus. |
+| [WeightedMode](./weightedmode/) | Gewichteter Modus. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

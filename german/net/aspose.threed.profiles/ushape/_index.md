@@ -1,59 +1,59 @@
 ---
-title: UShape
-second_title: Aspose.3D für .NET-API-Referenz
-description: IFCkompatible UForm definiert durch Parameter.
+title: "Klasse UShape"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Aspose.ThreeD.Profiles.UShape Klasse. IFC-kompatibles Ushape, das durch Parameter definiert ist."
 type: docs
-weight: 1650
+weight: 1840
 url: /de/net/aspose.threed.profiles/ushape/
 ---
 ## UShape class
 
-IFC-kompatible U-Form definiert durch Parameter.
+IFC kompatible U-förmige Form, definiert durch Parameter.
 
 ```csharp
 public class UShape : ParameterizedProfile
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [UShape](ushape)() | Konstrukteur von[`UShape`](../ushape) |
+| [UShape](ushape/)() | Konstruktor von `UShape` |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Depth](../../aspose.threed.profiles/ushape/depth) { get; set; } | Ruft die Länge des Webs ab oder legt sie fest. |
-| [EdgeRadius](../../aspose.threed.profiles/ushape/edgeradius) { get; set; } | Ruft den Radius der Kante in der Kante des Flanschs ab oder legt ihn fest. |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Ruft ab oder legt fest, ob diese Entität während des Exports ausgeschlossen werden soll. |
-| [FilletRadius](../../aspose.threed.profiles/ushape/filletradius) { get; set; } | Ruft den Rundungsradius zwischen Flansch und Steg ab oder legt ihn fest. |
-| [FlangeThickness](../../aspose.threed.profiles/ushape/flangethickness) { get; set; } | Ruft die Dicke des Flansches ab oder legt sie fest. |
-| [FlangeWidth](../../aspose.threed.profiles/ushape/flangewidth) { get; set; } | Ruft die Länge des Flansches ab oder legt sie fest. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Ruft den Namen ab oder legt ihn fest. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Ruft den ersten übergeordneten Knoten ab oder legt ihn fest. Wenn der erste übergeordnete Knoten festgelegt wird, wird diese Entität von anderen übergeordneten Knoten getrennt. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Ruft alle übergeordneten Knoten ab, eine Entität kann an mehrere übergeordnete Knoten angehängt werden, um Geometrie zu instanziieren |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Ruft die Sammlung aller Eigenschaften ab. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Ruft die Szene ab, zu der dieses Objekt gehört |
-| [WebThickness](../../aspose.threed.profiles/ushape/webthickness) { get; set; } | Ruft die Dicke der Bahn ab oder legt sie fest. |
+| [Depth](../../aspose.threed.profiles/ushape/depth/) { get; set; } | Liest oder setzt die Länge des Stegs. |
+| [EdgeRadius](../../aspose.threed.profiles/ushape/edgeradius/) { get; set; } | Liest oder setzt den Radius der Kante im Flanschrand. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Liest oder setzt, ob diese Entität beim Exportieren ausgeschlossen werden soll. |
+| [FilletRadius](../../aspose.threed.profiles/ushape/filletradius/) { get; set; } | Liest oder setzt den Radius der Rundung zwischen Flansch und Steg. |
+| [FlangeThickness](../../aspose.threed.profiles/ushape/flangethickness/) { get; set; } | Liest oder setzt die Dicke des Flansches. |
+| [FlangeWidth](../../aspose.threed.profiles/ushape/flangewidth/) { get; set; } | Liest oder setzt die Länge des Flansches. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Liest oder setzt den Namen. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Liest oder setzt den ersten übergeordneten Knoten; wird der erste übergeordnete Knoten gesetzt, wird diese Entität von anderen übergeordneten Knoten getrennt. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Liest alle übergeordneten Knoten, eine Entität kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Gibt die Sammlung aller Eigenschaften zurück. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Liest die Szene, zu der dieses Objekt gehört. |
+| [WebThickness](../../aspose.threed.profiles/ushape/webthickness/) { get; set; } | Liest oder setzt die Dicke des Stegs. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft sein (erstellt von CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Ruft den Begrenzungsrahmen des aktuellen Objekts in seinem Objektraum-Koordinatensystem ab. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey)() | Ruft den Schlüssel des Entity-Renderers ab, der im Renderer registriert ist |
-| override [GetExtent](../../aspose.threed.profiles/ushape/getextent)() | Ruft die Ausdehnung in x- und y-Dimension ab. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Holen Sie sich den Wert der angegebenen Eigenschaft |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Entfernt eine dynamische Eigenschaft. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Entfernt die angegebene Eigenschaft identifiziert durch name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Legt den Wert der angegebenen Eigenschaft fest |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert über ihren Namen). |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Ermittelt die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | Ermittelt den Schlüssel des Entity-Renderers, der im Renderer registriert ist |
+| override [GetExtent](../../aspose.threed.profiles/ushape/getextent/)() | Ermittelt den Umfang in x- und y-Richtung. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Liefert den Wert der angegebenen Eigenschaft |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Entfernt eine dynamische Eigenschaft. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Entfernt die angegebene, nach Namen identifizierte Eigenschaft |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Setzt den Wert der angegebenen Eigenschaft |
 
 ### Siehe auch
 
-* class [ParameterizedProfile](../parameterizedprofile)
-* namensraum [Aspose.ThreeD.Profiles](../../aspose.threed.profiles)
-* Montage [Aspose.3D](../../)
+* class [ParameterizedProfile](../parameterizedprofile/)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

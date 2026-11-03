@@ -1,59 +1,59 @@
 ---
-title: Line
-second_title: Aspose.3D für .NET-API-Referenz
-description: Eine Polylinie ist ein Pfad der durch eine Reihe von Punkten mit definiert wirdControlPoints./geometry/controlpoints  und verbunden durchSegments./line/segments  was bedeutet dass es sich auch um eine Menge verbundener Liniensegmente handeln kann. Die Linie ist normalerweise ein lineares Objekt was bedeutet dass sie nicht verwendet werden kann um eine Kurve darzustellen um eine Kurve darzustellen verwendetNurbsCurve./nurbscurve .
+title: "Klasse Line"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Aspose.ThreeD.Entities.Line Klasse. Eine Polylinie ist ein Pfad, der durch eine Menge von Punkten mit ControlPoints definiert wird und durch Segments verbunden ist, was bedeutet, dass sie auch eine Menge verbundener Liniensegmente sein kann. Die Linie ist normalerweise ein lineares Objekt, was bedeutet, dass sie nicht verwendet werden kann, um eine Kurve darzustellen; um eine Kurve darzustellen, wird NurbsCurve verwendet."
 type: docs
-weight: 420
+weight: 480
 url: /de/net/aspose.threed.entities/line/
 ---
 ## Line class
 
-Eine Polylinie ist ein Pfad, der durch eine Reihe von Punkten mit definiert wird[`ControlPoints`](../geometry/controlpoints) , und verbunden durch[`Segments`](./segments) , was bedeutet, dass es sich auch um eine Menge verbundener Liniensegmente handeln kann. Die Linie ist normalerweise ein lineares Objekt, was bedeutet, dass sie nicht verwendet werden kann, um eine Kurve darzustellen, um eine Kurve darzustellen, verwendet[`NurbsCurve`](../nurbscurve) .
+Eine Polylinie ist ein Pfad, der durch eine Menge von Punkten mit [`ControlPoints`](../geometry/controlpoints/) definiert wird und durch [`Segments`](./segments/) verbunden ist, was bedeutet, dass sie auch eine Menge verbundener Liniensegmente sein kann. Die Linie ist normalerweise ein lineares Objekt, was bedeutet, dass sie nicht verwendet werden kann, um eine Kurve darzustellen; um eine Kurve darzustellen, wird [`NurbsCurve`](../nurbscurve/) verwendet.
 
 ```csharp
 public class Line : Curve
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [Line](line#constructor)() | Initialisiert eine neue Instanz von[`Line`](../line) Klasse. |
-| [Line](line#constructor_1)(string) | Initialisiert eine neue Instanz von[`Line`](../line) Klasse. |
+| [Line](line/#constructor)() | Initialisiert eine neue Instanz der `Line` Klasse. |
+| [Line](line/#constructor_1)(string) | Initialisiert eine neue Instanz der `Line` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Color](../../aspose.threed.entities/curve/color) { get; set; } | Liest oder setzt die Farbe der Linie, Standardwert ist weiß(1, 1, 1) |
-| [ControlPoints](../../aspose.threed.entities/line/controlpoints) { get; } | Ruft alle Kontrollpunkte ab |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Ruft ab oder legt fest, ob diese Entität während des Exports ausgeschlossen werden soll. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Ruft den Namen ab oder legt ihn fest. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Ruft den ersten übergeordneten Knoten ab oder legt ihn fest. Wenn der erste übergeordnete Knoten festgelegt wird, wird diese Entität von anderen übergeordneten Knoten getrennt. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Ruft alle übergeordneten Knoten ab, eine Entität kann an mehrere übergeordnete Knoten angehängt werden, um Geometrie zu instanziieren |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Ruft die Sammlung aller Eigenschaften ab. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Ruft die Szene ab, zu der dieses Objekt gehört |
-| [Segments](../../aspose.threed.entities/line/segments) { get; } | Ruft die Segmente der Linie ab |
-| [Visible](../../aspose.threed.entities/line/visible) { get; set; } | Ruft ab oder legt fest, ob die Geometrie sichtbar ist |
+| [Color](../../aspose.threed.entities/curve/color/) { get; set; } | Liest oder setzt die Farbe der Linie, Standardwert ist weiß(1, 1, 1) |
+| [ControlPoints](../../aspose.threed.entities/line/controlpoints/) { get; } | Liest alle Kontrollpunkte |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Liest oder setzt, ob diese Entität beim Exportieren ausgeschlossen werden soll. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Liest oder setzt den Namen. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Liest oder setzt den ersten übergeordneten Knoten; wird der erste übergeordnete Knoten gesetzt, wird diese Entität von anderen übergeordneten Knoten getrennt. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Liest alle übergeordneten Knoten, eine Entität kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Gibt die Sammlung aller Eigenschaften zurück. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Liest die Szene, zu der dieses Objekt gehört. |
+| [Segments](../../aspose.threed.entities/line/segments/) { get; } | Gibt die Segmente der Linie zurück. |
+| [Visible](../../aspose.threed.entities/line/visible/) { get; set; } | Liest oder setzt, ob die Geometrie sichtbar ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [FromPoints](../../aspose.threed.entities/line/frompoints)(params Vector3[]) | Konstruiere a[`Line`](../line) Instanz aus einer Reihe von Punkten. |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft sein (erstellt von CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Ruft den Begrenzungsrahmen des aktuellen Objekts in seinem Objektraum-Koordinatensystem ab. |
-| override [GetEntityRendererKey](../../aspose.threed.entities/curve/getentityrendererkey)() | Ruft den Schlüssel des Entity-Renderers ab, der im Renderer registriert ist |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Holen Sie sich den Wert der angegebenen Eigenschaft |
-| [MakeDefaultIndices](../../aspose.threed.entities/line/makedefaultindices)() | Erzeuge die Folge 0,1,2,3....[`ControlPoints`](../geometry/controlpoints) .Länge-1 bis[`Segments`](./segments) damit die Kontrollpunkte als einzelne Linie verwendet werden können |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Entfernt eine dynamische Eigenschaft. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Entfernt die angegebene Eigenschaft identifiziert durch name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Legt den Wert der angegebenen Eigenschaft fest |
+| static [FromPoints](../../aspose.threed.entities/line/frompoints/)(params Vector3[]) | Erstellt eine `Line` Instanz aus einer Menge von Punkten. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert über ihren Namen). |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Ermittelt die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| override [GetEntityRendererKey](../../aspose.threed.entities/curve/getentityrendererkey/)() | Ermittelt den Schlüssel des Entity-Renderers, der im Renderer registriert ist |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Liefert den Wert der angegebenen Eigenschaft |
+| [MakeDefaultIndices](../../aspose.threed.entities/line/makedefaultindices/)() | Erzeuge die Sequenz 0,1,2,3....[`ControlPoints`](../geometry/controlpoints/).Length-1 zu [`Segments`](./segments/), damit die ControlPoints als einzelne Linie verwendet werden können. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Entfernt eine dynamische Eigenschaft. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Entfernt die angegebene, nach Namen identifizierte Eigenschaft |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Setzt den Wert der angegebenen Eigenschaft |
 
 ### Siehe auch
 
-* class [Curve](../curve)
-* namensraum [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* Montage [Aspose.3D](../../)
+* class [Curve](../curve/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

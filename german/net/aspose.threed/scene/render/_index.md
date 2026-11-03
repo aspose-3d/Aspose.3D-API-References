@@ -1,14 +1,14 @@
 ---
-title: Render
-second_title: Aspose.3D für .NET-API-Referenz
-description: Rendert die Szene aus der gegebenen Kameraperspektive in eine externe Datei. Die Standardausgabegröße ist 1024x768 und das Ausgabeformat ist png
+title: "Scene.Render"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Scene-Methode. Rendert die Szene in eine externe Datei aus der Perspektive der angegebenen Kamera. Die Standardausgabegröße ist 1024x768 und das Ausgabeformat ist png."
 type: docs
 weight: 150
 url: /de/net/aspose.threed/scene/render/
 ---
 ## Render(Camera, string) {#render_2}
 
-Rendert die Szene aus der gegebenen Kameraperspektive in eine externe Datei. Die Standardausgabegröße ist 1024x768 und das Ausgabeformat ist png
+Rendert die Szene aus der Sicht der angegebenen Kamera in eine externe Datei. Die Standardausgabegröße beträgt 1024x768 und das Ausgabeformat ist png.
 
 ```csharp
 public void Render(Camera camera, string fileName)
@@ -16,111 +16,115 @@ public void Render(Camera camera, string fileName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Camera | Aus welcher Kameraperspektive soll die Szene gerendert werden |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
 | fileName | String | Der Dateiname der Ausgabedatei |
 
 ### Siehe auch
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, string, Size, ImageFormat) {#render_3}
+## Render(Camera, string, Vector2, string) {#render_3}
 
-Rendert die Szene aus der gegebenen Kameraperspektive in eine externe Datei.
+Rendert die Szene aus der Sicht der angegebenen Kamera in eine externe Datei.
 
 ```csharp
-public void Render(Camera camera, string fileName, Size size, ImageFormat format)
+public void Render(Camera camera, string fileName, Vector2 size, string format)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Camera | Aus welcher Kameraperspektive soll die Szene gerendert werden |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
 | fileName | String | Der Dateiname der Ausgabedatei |
-| size | Size | Die Größe des endgültig gerenderten Bildes |
-| format | ImageFormat | Das Bildformat der Ausgabedatei |
+| Größe | Vector2 | Die Größe des final gerenderten Bildes |
+| Format | String | Das Bildformat der Ausgabedatei |
 
 ### Siehe auch
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* struct [Vector2](../../../aspose.threed.utilities/vector2/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, string, Size, ImageFormat, ImageRenderOptions) {#render_4}
+## Render(Camera, string, Vector2, string, ImageRenderOptions) {#render_4}
 
-Rendert die Szene aus der gegebenen Kameraperspektive in eine externe Datei.
+Rendert die Szene aus der Sicht der angegebenen Kamera in eine externe Datei.
 
 ```csharp
-public void Render(Camera camera, string fileName, Size size, ImageFormat format, 
+public void Render(Camera camera, string fileName, Vector2 size, string format, 
     ImageRenderOptions options)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Camera | Aus welcher Kameraperspektive soll die Szene gerendert werden |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
 | fileName | String | Der Dateiname der Ausgabedatei |
-| size | Size | Die Größe des endgültig gerenderten Bildes |
-| format | ImageFormat | Das Bildformat der Ausgabedatei |
+| Größe | Vector2 | Die Größe des final gerenderten Bildes |
+| Format | String | Das Bildformat der Ausgabedatei |
 | options | ImageRenderOptions | Die Option, einige interne Einstellungen anzupassen. |
 
 ### Siehe auch
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [ImageRenderOptions](../../imagerenderoptions)
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* struct [Vector2](../../../aspose.threed.utilities/vector2/)
+* class [ImageRenderOptions](../../imagerenderoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, Bitmap) {#render}
+## Render(Camera, TextureData) {#render}
 
-Rendert die Szene aus der gegebenen Kameraperspektive als Bitmap.
+Rendert die Szene aus der Sicht der angegebenen Kamera in ein Bitmap.
 
 ```csharp
-public void Render(Camera camera, Bitmap bitmap)
+public void Render(Camera camera, TextureData bitmap)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Camera | Aus welcher Kameraperspektive soll die Szene gerendert werden |
-| bitmap | Bitmap | Ziel des gerenderten Ergebnisses |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
+| Bitmap | TextureData | Ziel des gerenderten Ergebnisses |
 
 ### Siehe auch
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, Bitmap, ImageRenderOptions) {#render_1}
+## Render(Camera, TextureData, ImageRenderOptions) {#render_1}
 
-Rendert die Szene aus der gegebenen Kameraperspektive als Bitmap.
+Rendert die Szene aus der Sicht der angegebenen Kamera in ein Bitmap.
 
 ```csharp
-public void Render(Camera camera, Bitmap bitmap, ImageRenderOptions options)
+public void Render(Camera camera, TextureData bitmap, ImageRenderOptions options)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Camera | Aus welcher Kameraperspektive soll die Szene gerendert werden |
-| bitmap | Bitmap | Ziel des gerenderten Ergebnisses |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
+| Bitmap | TextureData | Ziel des gerenderten Ergebnisses |
 | options | ImageRenderOptions | Die Option, einige interne Einstellungen anzupassen. |
 
 ### Siehe auch
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [ImageRenderOptions](../../imagerenderoptions)
-* class [Scene](../../scene)
-* namensraum [Aspose.ThreeD](../../scene)
-* Montage [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* class [ImageRenderOptions](../../imagerenderoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: RenderFactory
-second_title: Aspose.3D für .NET-API-Referenz
-description: RenderFactory erstellt alle Ressourcen die in der RenderingPipeline dargestellt werden.
+title: "Klasse RenderFactory"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Aspose.ThreeD.Render.RenderFactory Klasse. RenderFactory erstellt alle Ressourcen, die in der Rendering-Pipeline dargestellt werden."
 type: docs
-weight: 2040
+weight: 2280
 url: /de/net/aspose.threed.render/renderfactory/
 ---
 ## RenderFactory class
@@ -18,22 +18,22 @@ public abstract class RenderFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| abstract [CreateCubeRenderTexture](../../aspose.threed.render/renderfactory/createcuberendertexture)(RenderParameters, int, int) | Renderziel erstellen enthält 1 Würfeltextur |
-| abstract [CreateDescriptorSet](../../aspose.threed.render/renderfactory/createdescriptorset)(ShaderProgram) | Erstellen Sie den Deskriptorsatz für das angegebene Shader-Programm. |
-| abstract [CreateIndexBuffer](../../aspose.threed.render/renderfactory/createindexbuffer)() | Erstellen Sie eine[`IIndexBuffer`](../iindexbuffer) Instanz zum Speichern der Gesichtsinformationen des Polygons. |
-| abstract [CreatePipeline](../../aspose.threed.render/renderfactory/createpipeline)(ShaderProgram, RenderState, VertexDeclaration, DrawOperation) | Erstellen Sie eine vorkonfigurierte Grafikpipeline mit vorkonfigurierten Shader-/Renderstatus-/Scheitelpunktdeklarationen und Zeichenoperationen. |
-| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture#createrendertexture)(RenderParameters, int, int) | Erstellen eines Renderziels enthält 1 Ziele, die mit der Textur gerendert werden |
-| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture#createrendertexture_1)(RenderParameters, int, int, int) | Erstellen Sie ein Renderziel, das mit der Textur gerendert wird |
-| abstract [CreateRenderWindow](../../aspose.threed.render/renderfactory/createrenderwindow)(RenderParameters, WindowHandle) | Erstellen Sie ein Renderziel, das im nativen Fenster gerendert wird. |
-| abstract [CreateShaderProgram](../../aspose.threed.render/renderfactory/createshaderprogram)(ShaderSource) | Erstellen Sie a[`ShaderProgram`](../shaderprogram) Objekt |
-| [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit#createtextureunit)() | Erstellen Sie eine 2D-Textureinheit, auf die der Shader zugreifen kann. |
-| abstract [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit#createtextureunit_1)(TextureType) | Erstellen Sie eine Textureinheit, auf die der Shader zugreifen kann. |
-| abstract [CreateUniformBuffer](../../aspose.threed.render/renderfactory/createuniformbuffer)(int) | Erstellen Sie einen neuen einheitlichen Puffer auf der GPU-Seite mit vorab zugewiesener Größe. |
-| abstract [CreateVertexBuffer](../../aspose.threed.render/renderfactory/createvertexbuffer)(VertexDeclaration) | Erstellen Sie eine[`IVertexBuffer`](../ivertexbuffer) Instanz zum Speichern der Scheitelpunktinformationen des Polygons. |
+| abstract [CreateCubeRenderTexture](../../aspose.threed.render/renderfactory/createcuberendertexture/)(RenderParameters, int, int) | Erstellt ein Renderziel, das 1 Würfeltextur enthält. |
+| abstract [CreateDescriptorSet](../../aspose.threed.render/renderfactory/createdescriptorset/)(ShaderProgram) | Erstellt das Deskriptorset für das angegebene Shader-Programm. |
+| abstract [CreateIndexBuffer](../../aspose.threed.render/renderfactory/createindexbuffer/)() | Erstellt eine [`IIndexBuffer`](../iindexbuffer/) Instanz, um die Flächeninformationen des Polygons zu speichern. |
+| abstract [CreatePipeline](../../aspose.threed.render/renderfactory/createpipeline/)(ShaderProgram, RenderState, VertexDeclaration, DrawOperation) | Erstellt eine vorkonfigurierte Grafikpipeline mit vorkonfiguriertem Shader-/Renderzustand/Vertex-Deklaration und Zeichenoperationen. |
+| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture/#createrendertexture)(RenderParameters, int, int) | Erstellt ein Renderziel, das ein Ziel enthält, das in die Textur rendert. |
+| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture/#createrendertexture_1)(RenderParameters, int, int, int) | Erstellt ein Renderziel, das in die Textur rendert. |
+| abstract [CreateRenderWindow](../../aspose.threed.render/renderfactory/createrenderwindow/)(RenderParameters, WindowHandle) | Erstellt ein Renderziel, das in das native Fenster rendert. |
+| abstract [CreateShaderProgram](../../aspose.threed.render/renderfactory/createshaderprogram/)(ShaderSource) | Erstellt ein [`ShaderProgram`](../shaderprogram/) Objekt |
+| [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit/#createtextureunit)() | Erstellt eine 2D-Textureinheit, die vom Shader aus zugänglich ist. |
+| abstract [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit/#createtextureunit_1)(TextureType) | Erstelle eine Textureinheit, die vom Shader aus zugänglich ist. |
+| abstract [CreateUniformBuffer](../../aspose.threed.render/renderfactory/createuniformbuffer/)(int) | Erstelle einen neuen Uniform-Puffer auf der GPU-Seite mit vorab zugewiesener Größe. |
+| abstract [CreateVertexBuffer](../../aspose.threed.render/renderfactory/createvertexbuffer/)(VertexDeclaration) | Erstelle eine [`IVertexBuffer`](../ivertexbuffer/) Instanz, um die Scheitelpunktinformationen des Polygons zu speichern. |
 
 ### Siehe auch
 
-* namensraum [Aspose.ThreeD.Render](../../aspose.threed.render)
-* Montage [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

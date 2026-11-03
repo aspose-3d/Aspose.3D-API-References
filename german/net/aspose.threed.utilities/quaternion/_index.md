@@ -1,70 +1,72 @@
 ---
-title: Quaternion
-second_title: Aspose.3D für .NET-API-Referenz
-description: Quaternion wird normalerweise verwendet um Rotationen in der Computergrafik durchzuführen.
+title: "Struktur Quaternion"
+second_title: "Aspose.3D für .NET API-Referenz"
+description: "Aspose.ThreeD.Utilities.Quaternion Struktur. Quaternion wird üblicherweise verwendet, um Rotationen in der Computergrafik durchzuführen"
 type: docs
-weight: 2590
+weight: 2810
 url: /de/net/aspose.threed.utilities/quaternion/
 ---
 ## Quaternion structure
 
-Quaternion wird normalerweise verwendet, um Rotationen in der Computergrafik durchzuführen.
+Quaternion wird üblicherweise verwendet, um Rotationen in der Computergrafik durchzuführen.
 
 ```csharp
 public struct Quaternion
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [Quaternion](quaternion)(double, double, double, double) | Initialisiert eine neue Instanz von[`Quaternion`](../quaternion) Klasse. |
+| [Quaternion](quaternion/)(double, double, double, double) | Initialisiert eine neue Instanz der `Quaternion` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Length](../../aspose.threed.utilities/quaternion/length) { get; } | Ruft die Länge der Quaternion ab |
+| [Length](../../aspose.threed.utilities/quaternion/length/) { get; } | Gibt die Länge des Quaternions zurück |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [FromAngleAxis](../../aspose.threed.utilities/quaternion/fromangleaxis)(double, Vector3) | Erzeugt eine Quaternion um die angegebene Achse und rotiert im Uhrzeigersinn |
-| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle#fromeulerangle)(Vector3) | Erstellt Quaternion aus gegebenem Euler-Winkel |
-| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle#fromeulerangle_1)(double, double, double) | Erstellt Quaternion aus gegebenem Euler-Winkel |
-| static [FromRotation](../../aspose.threed.utilities/quaternion/fromrotation)(Vector3, Vector3) | Erstellt eine Quaternion, die sich von der ursprünglichen in die Zielrichtung dreht |
-| static [Interpolate](../../aspose.threed.utilities/quaternion/interpolate)(float, Quaternion, Quaternion) | Füllt diese Quaternion mit dem interpolierten Wert zwischen den gegebenen Quaternion-Argumenten für at between from and to. |
-| [Concat](../../aspose.threed.utilities/quaternion/concat)(Quaternion) | Zwei Quaternionen verketten |
-| [Conjugate](../../aspose.threed.utilities/quaternion/conjugate)() | Gibt eine konjugierte Quaternion der aktuellen Quaternion zurück |
-| [Dot](../../aspose.threed.utilities/quaternion/dot)(Quaternion) | Punkte Produkt |
-| override [Equals](../../aspose.threed.utilities/quaternion/equals)(object) | Prüfe, ob zwei Quaternionen gleich sind |
-| [EulerAngles](../../aspose.threed.utilities/quaternion/eulerangles)() | Wandelt Quaternion in Drehung um, dargestellt durch Euler-Winkel Alle Komponenten sind im Bogenmaß |
-| override [GetHashCode](../../aspose.threed.utilities/quaternion/gethashcode)() | Ruft den Hash-Code von Quaternion ab |
-| [Inverse](../../aspose.threed.utilities/quaternion/inverse)() | Gibt eine inverse Quaternion der aktuellen Quaternion zurück |
-| [Normalize](../../aspose.threed.utilities/quaternion/normalize)() | Quaternion normalisieren |
-| [ToAngleAxis](../../aspose.threed.utilities/quaternion/toangleaxis)(out double, out Vector3) |  |
-| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix)() | Konvertieren Sie die durch Quaternion dargestellte Rotation in eine Transformationsmatrix. |
-| override [ToString](../../aspose.threed.utilities/quaternion/tostring)() | Ruft die Darstellung der Quaternion in string ab |
-| [operator +](../../aspose.threed.utilities/quaternion/op_addition) | Operatorüberladung für + |
-| [operator /](../../aspose.threed.utilities/quaternion/op_division) | Operatorüberladung für / |
-| [operator ==](../../aspose.threed.utilities/quaternion/op_equality) | Gleichheitsoperator für Quaternion |
-| [operator !=](../../aspose.threed.utilities/quaternion/op_inequality) | Ungleich-Operator für Quaternion |
-| [operator *](../../aspose.threed.utilities/quaternion/op_multiply#op_multiply_1) | Operatorüberladung für * (5 operators) |
+| static [FromAngleAxis](../../aspose.threed.utilities/quaternion/fromangleaxis/)(double, Vector3) | Erstellt ein Quaternion um die gegebene Achse und rotiert im Uhrzeigersinn |
+| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle)(Vector3) | Erstellt ein Quaternion aus dem gegebenen Eulerwinkel |
+| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle_1)(double, double, double) | Erstellt ein Quaternion aus dem gegebenen Eulerwinkel |
+| static [FromRotation](../../aspose.threed.utilities/quaternion/fromrotation/)(Vector3, Vector3) | Erstellt ein Quaternion, das von der ursprünglichen zur Zielrichtung rotiert |
+| static [Interpolate](../../aspose.threed.utilities/quaternion/interpolate/)(float, Quaternion, Quaternion) | Füllt dieses Quaternion mit dem interpolierten Wert zwischen den angegebenen Quaternion-Argumenten für ein t zwischen von und bis. |
+| static [Slerp](../../aspose.threed.utilities/quaternion/slerp/)(double, Quaternion, Quaternion) | Führt eine sphärische lineare Interpolation zwischen zwei Werten durch |
+| [Concat](../../aspose.threed.utilities/quaternion/concat/)(Quaternion) | Verkettet zwei Quaternionen |
+| [Conjugate](../../aspose.threed.utilities/quaternion/conjugate/)() | Gibt ein konjugiertes Quaternion des aktuellen Quaternion zurück |
+| [Dot](../../aspose.threed.utilities/quaternion/dot/)(Quaternion) | Skalarprodukt |
+| override [Equals](../../aspose.threed.utilities/quaternion/equals/)(object) | Prüft, ob zwei Quaternionen gleich sind |
+| [EulerAngles](../../aspose.threed.utilities/quaternion/eulerangles/)() | Konvertiert ein Quaternion in eine Rotation, die durch Eulerwinkel dargestellt wird. Alle Komponenten sind in Radiant. |
+| override [GetHashCode](../../aspose.threed.utilities/quaternion/gethashcode/)() | Gibt den Hashcode des Quaternion zurück |
+| [Inverse](../../aspose.threed.utilities/quaternion/inverse/)() | Gibt ein inverses Quaternion des aktuellen Quaternion zurück |
+| [Normalize](../../aspose.threed.utilities/quaternion/normalize/)() | Normalisiert das Quaternion |
+| [ToAngleAxis](../../aspose.threed.utilities/quaternion/toangleaxis/)(out double, out Vector3) |  |
+| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix/#tomatrix)() | Konvertiert die von einem Quaternion dargestellte Rotation in eine Transformationsmatrix. |
+| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix/#tomatrix_1)(Vector3) | Konvertiert die von einem Quaternion dargestellte Rotation in eine Transformationsmatrix. |
+| override [ToString](../../aspose.threed.utilities/quaternion/tostring/)() | Gibt die Darstellung des Quaternion als Zeichenkette zurück |
+| [operator +](../../aspose.threed.utilities/quaternion/op_addition/) | Operatorüberladung für + |
+| [operator /](../../aspose.threed.utilities/quaternion/op_division/) | Operatorüberladung für / |
+| [operator ==](../../aspose.threed.utilities/quaternion/op_equality/) | Gleichheitsoperator für Quaternion |
+| [operator !=](../../aspose.threed.utilities/quaternion/op_inequality/) | Ungleichheitsoperator für Quaternion |
+| [operator *](../../aspose.threed.utilities/quaternion/op_multiply/#op_multiply_1) | Operatorüberladung für * (5 Operatoren) |
 
 ## Felder
 
 | Name | Beschreibung |
 | --- | --- |
-| static readonly [Identity](../../aspose.threed.utilities/quaternion/identity) | Die Identitätsquaternion. |
-| [w](../../aspose.threed.utilities/quaternion/w) | Die w-Komponente. |
-| [x](../../aspose.threed.utilities/quaternion/x) | Die x-Komponente. |
-| [y](../../aspose.threed.utilities/quaternion/y) | Die y-Komponente. |
-| [z](../../aspose.threed.utilities/quaternion/z) | Die z-Komponente. |
+| static readonly [Identity](../../aspose.threed.utilities/quaternion/identity/) | Das Identitäts-Quaternion. |
+| [W](../../aspose.threed.utilities/quaternion/w/) | Die w-Komponente. |
+| [X](../../aspose.threed.utilities/quaternion/x/) | Die x-Komponente. |
+| [Y](../../aspose.threed.utilities/quaternion/y/) | Die y-Komponente. |
+| [Z](../../aspose.threed.utilities/quaternion/z/) | Die z-Komponente. |
 
 ### Siehe auch
 
-* namensraum [Aspose.ThreeD.Utilities](../../aspose.threed.utilities)
-* Montage [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
