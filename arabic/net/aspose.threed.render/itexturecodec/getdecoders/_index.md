@@ -1,6 +1,6 @@
 ---
 title: "ITextureCodec.GetDecoders"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة ITextureCodec. يحصل على محولات القوام المدعومة"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/itexturecodec/getdecoders/
 ---
 ## ITextureCodec.GetDecoders method
 
-يحصل على مفككات الترميز للملمس المدعومة
+يحصل على محولات القوام المدعومة.
 
 ```csharp
 public ITextureDecoder[] GetDecoders()

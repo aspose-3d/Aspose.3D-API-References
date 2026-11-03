@@ -1,14 +1,14 @@
 ---
 title: "Mesh.CreatePolygon"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Mesh. تنشئ مضلعًا جديدًا بجميع الرؤوس المحددة في المؤشرات. لإنشاء المضلع رأسًا برأس، يرجى استخدام PolygonBuilder"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Mesh. تنشئ مضلعًا جديدًا بجميع الرؤوس المعرفة في الفهارس. لإنشاء المضلع رأسًا برأس يرجى استخدام PolygonBuilder"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/mesh/createpolygon/
 ---
 ## CreatePolygon(int[], int, int) {#createpolygon_3}
 
-ينشئ مضلعًا جديدًا بجميع الرؤوس المحددة في *indices*. لإنشاء المضلع رأسًا برأس، يرجى استخدام [`PolygonBuilder`](../../polygonbuilder/).
+ينشئ مضلعًا جديدًا بجميع الرؤوس المعرفة في *indices*. لإنشاء المضلع رأسًا برأس، يرجى استخدام [`PolygonBuilder`](../../polygonbuilder/).
 
 ```csharp
 public void CreatePolygon(int[] indices, int offset, int length)
@@ -16,13 +16,13 @@ public void CreatePolygon(int[] indices, int offset, int length)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المؤشرات | Int32[] | مصفوفة مؤشرات المضلع، كل مؤشر يشير إلى نقطة تحكم تُكوّن المضلع. |
-| الإزاحة | Int32 | إزاحة المؤشر الأول للمضلع |
-| الطول | Int32 | طول المؤشرات |
+| indices | Int32[] | مصفوفة فهارس المضلع، كل فهرس يشير إلى نقطة تحكم تشكل المضلع. |
+| offset | Int32 | الإزاحة للفهارس الأول للمضلع |
+| الطول | Int32 | طول الفهارس |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إنشاء مضلع جديد باستخدام مؤشرات نقاط التحكم.
+الكود التالي يوضح كيفية إنشاء مضلع جديد باستخدام فهارس نقاط التحكم.
 
 ```csharp
 var mesh = new Mesh();
@@ -40,7 +40,7 @@ mesh.CreatePolygon(indices);
 
 ## CreatePolygon(int[]) {#createpolygon_2}
 
-ينشئ مضلعًا جديدًا بجميع الرؤوس المحددة في *indices*. لإنشاء المضلع رأسًا برأس، يرجى استخدام [`PolygonBuilder`](../../polygonbuilder/).
+ينشئ مضلعًا جديدًا بجميع الرؤوس المعرفة في *indices*. لإنشاء المضلع رأسًا برأس، يرجى استخدام [`PolygonBuilder`](../../polygonbuilder/).
 
 ```csharp
 public void CreatePolygon(int[] indices)
@@ -48,7 +48,7 @@ public void CreatePolygon(int[] indices)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المؤشرات | Int32[] | مصفوفة مؤشرات المضلع، كل مؤشر يشير إلى نقطة تحكم تُكوّن المضلع. |
+| indices | Int32[] | مصفوفة فهارس المضلع، كل فهرس يشير إلى نقطة تحكم تشكل المضلع. |
 
 ## أمثلة
 
@@ -68,7 +68,7 @@ mesh.CreatePolygon(indices);
 
 ## CreatePolygon(int, int, int, int) {#createpolygon_1}
 
-إنشاء مضلع بـ 4 رؤوس (رباعي)
+إنشاء مضلع بأربعة رؤوس(quad)
 
 ```csharp
 public void CreatePolygon(int v1, int v2, int v3, int v4)
@@ -76,14 +76,14 @@ public void CreatePolygon(int v1, int v2, int v3, int v4)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| v1 | Int32 | مؤشر الرأس الأول |
-| v2 | Int32 | مؤشر الرأس الثاني |
-| v3 | Int32 | مؤشر الرأس الثالث |
-| v4 | Int32 | مؤشر الرأس الرابع |
+| v1 | Int32 | فهرس الرأسة الأولى |
+| v2 | Int32 | فهرس الرأسة الثانية |
+| v3 | Int32 | فهرس الرأسة الثالثة |
+| v4 | Int32 | فهرس الرأسة الرابعة |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إنشاء مضلع جديد باستخدام مؤشرات نقاط التحكم.
+الكود التالي يوضح كيفية إنشاء مضلع جديد باستخدام فهارس نقاط التحكم.
 
 ```csharp
 var mesh = new Mesh();
@@ -100,7 +100,7 @@ mesh.CreatePolygon(0, 1, 2, 3);
 
 ## CreatePolygon(int, int, int) {#createpolygon}
 
-إنشاء مضلع بـ 3 رؤوس (مثلث)
+إنشاء مضلع بثلاث رؤوس(مثلث)
 
 ```csharp
 public void CreatePolygon(int v1, int v2, int v3)
@@ -108,13 +108,13 @@ public void CreatePolygon(int v1, int v2, int v3)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| v1 | Int32 | مؤشر الرأس الأول |
-| v2 | Int32 | مؤشر الرأس الثاني |
-| v3 | Int32 | مؤشر الرأس الثالث |
+| v1 | Int32 | فهرس الرأسة الأولى |
+| v2 | Int32 | فهرس الرأسة الثانية |
+| v3 | Int32 | فهرس الرأسة الثالثة |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إنشاء مضلع جديد باستخدام مؤشرات نقاط التحكم.
+الكود التالي يوضح كيفية إنشاء مضلع جديد باستخدام فهارس نقاط التحكم.
 
 ```csharp
 var mesh = new Mesh();

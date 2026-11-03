@@ -1,6 +1,6 @@
 ---
 title: "IIndexBuffer.IndexDataType"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية IIndexBuffer. تحصل على نوع البيانات لكل عنصر"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/iindexbuffer/indexdatatype/
 ---
 ## IIndexBuffer.IndexDataType property
 
-يحصل على نوع البيانات لكل عنصر.
+تحصل على نوع البيانات لكل عنصر.
 
 ```csharp
 public IndexDataType IndexDataType { get; }

@@ -1,14 +1,14 @@
 ---
 title: "Vector3.op_Subtraction"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector3. تحميل عامل التشغيل لـ"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector3. إعادة تعريف المشغل لـ"
 type: docs
 weight: 300
 url: /ar/net/aspose.threed.utilities/vector3/op_subtraction/
 ---
 ## operator -
 
-إعادة تعريف العامل للـ -
+تجاوز المشغل لـ -
 
 ```csharp
 public static Vector3 operator -(Vector3 v)
@@ -32,7 +32,7 @@ public static Vector3 operator -(Vector3 v)
 
 ## operator -
 
-إعادة تعريف العامل لـ - (ناقص)
+تجاوز المشغل لـ - (ناقص)
 
 ```csharp
 public static Vector3 operator -(Vector3 lhs, Vector3 rhs)

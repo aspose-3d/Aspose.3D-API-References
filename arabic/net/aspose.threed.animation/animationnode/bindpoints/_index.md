@@ -1,6 +1,6 @@
 ---
 title: "AnimationNode.BindPoints"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية AnimationNode. يحصل على نقاط الربط الحالية للخاصية"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/animationnode/bindpoints/
 ---
 ## AnimationNode.BindPoints property
 
-يحصل على نقاط ربط الخاصية الحالية.
+يحصل على نقاط الربط الحالية للخاصية
 
 ```csharp
 public IList<BindPoint> BindPoints { get; }

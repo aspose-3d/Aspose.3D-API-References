@@ -1,14 +1,14 @@
 ---
 title: "Sphere.Radius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Sphere. يحصل أو يضبط نصف قطر الكرة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Sphere. تحصل أو تعين نصف قطر الكرة"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/sphere/radius/
 ---
 ## Sphere.Radius property
 
-يحصل أو يضبط نصف قطر الكرة.
+تحصل أو تعين نصف قطر الكرة.
 
 ```csharp
 public double Radius { get; set; }

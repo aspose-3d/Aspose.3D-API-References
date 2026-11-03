@@ -1,14 +1,14 @@
 ---
 title: "HollowRectangleShape.InnerFilletRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HollowRectangleShape. نصف قطر التدوير الداخلي للمستطيل الداخلي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HollowRectangleShape. نصف القطر الداخلي للمنحنى الداخلي للمستطيل"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/hollowrectangleshape/innerfilletradius/
 ---
 ## HollowRectangleShape.InnerFilletRadius property
 
-نصف قطر التدوير الداخلي للمستطيل الداخلي.
+نصف القطر الداخلي للمنحنى الداخلي للمستطيل.
 
 ```csharp
 public double InnerFilletRadius { get; set; }

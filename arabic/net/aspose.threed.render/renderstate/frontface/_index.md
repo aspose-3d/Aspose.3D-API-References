@@ -1,6 +1,6 @@
 ---
 title: "RenderState.FrontFace"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RenderState. يحصل أو يضبط أي ترتيب هو الوجه الأمامي"
 type: docs
 weight: 100
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/renderstate/frontface/
 ---
 ## RenderState.FrontFace property
 
-يحصل أو يعيّن أي ترتيب هو الوجه الأمامي.
+يحصل أو يضبط أي ترتيب هو الوجه الأمامي.
 
 ```csharp
 public FrontFace FrontFace { get; set; }

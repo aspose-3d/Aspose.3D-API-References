@@ -1,14 +1,14 @@
 ---
 title: "BooleanOperand.Of"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BooleanOperand. أنشئ مثيلاً من BooleanOperand من عقدة، يلزم وجود كيان صالح يطبق IMeshConvertible"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BooleanOperand. أنشئ مثيلاً من BooleanOperand من عقدة؛ يتطلب كيانًا صالحًا ينفذ IMeshConvertible"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/booleanoperand/of/
 ---
 ## Of(Node) {#of_2}
 
-أنشئ مثيلاً من [`BooleanOperand`](../) من عقدة، يلزم وجود كيان صالح يطبق [`IMeshConvertible`](../../imeshconvertible/)
+أنشئ مثيلاً من [`BooleanOperand`](../) من عقدة، يتطلب كيانًا صالحًا ينفذ [`IMeshConvertible`](../../imeshconvertible/)
 
 ```csharp
 public static BooleanOperand Of(Node node)
@@ -16,18 +16,18 @@ public static BooleanOperand Of(Node node)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| node | Node | مثيل من [`Node`](../../../aspose.threed/node/) مع كيان صالح يطبق [`IMeshConvertible`](../../imeshconvertible/) |
+| node | Node | كائن [`Node`](../../../aspose.threed/node/) مع كيان صالح يطبق [`IMeshConvertible`](../../imeshconvertible/) |
 
 ### قيمة الإرجاع
 
-مثيل من [`BooleanOperand`](../)
+مثال لـ [`BooleanOperand`](../)
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | يُرفع عندما تكون *node* فارغة. |
-| InvalidOperationException | يُرفع عندما لا يُعثر على أي كيان يطبق [`IMeshConvertible`](../../imeshconvertible/) تحت هذه العقدة |
+| ArgumentNullException | يتم رفع الاستثناء عندما تكون *node* null. |
+| InvalidOperationException | يتم رفع الاستثناء عندما لا يتم العثور على أي كيان يطبق [`IMeshConvertible`](../../imeshconvertible/) تحت هذه العقدة. |
 
 ### انظر أيضًا
 
@@ -40,7 +40,7 @@ public static BooleanOperand Of(Node node)
 
 ## Of(Entity) {#of}
 
-أنشئ مثيلاً من [`BooleanOperand`](../) من مثيل [`IMeshConvertible`](../../imeshconvertible/) مجرد.
+إنشاء مثال [`BooleanOperand`](../) من مثال [`IMeshConvertible`](../../imeshconvertible/) فارغ.
 
 ```csharp
 public static BooleanOperand Of(Entity mesh)
@@ -48,17 +48,17 @@ public static BooleanOperand Of(Entity mesh)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| mesh | Entity | الشبكة المستخدمة كمعامل عملية Boolean، يمكن أن تكون مثيلاً من [`IMeshConvertible`](../../imeshconvertible/) أو [`HalfSpace`](../../halfspace/). |
+| mesh | Entity | المجسم المستخدم كمعامل عملية Boolean، يمكن أن يكون مثالًا لـ [`IMeshConvertible`](../../imeshconvertible/) أو [`HalfSpace`](../../halfspace/). |
 
 ### قيمة الإرجاع
 
-مثيل من [`BooleanOperand`](../)
+مثال لـ [`BooleanOperand`](../)
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | يُرفع عندما تكون *mesh* فارغة. |
+| ArgumentNullException | يتم رفع الاستثناء عندما تكون *mesh* null. |
 
 ### انظر أيضًا
 

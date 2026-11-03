@@ -1,6 +1,6 @@
 ---
 title: "Scene.FromFile"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Scene. تفتح المشهد من المسار المحدد باستخدام تنسيق الملف المحدد"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/scene/fromfile/
 ---
 ## FromFile(string, FileFormat, CancellationToken) {#fromfile_1}
 
-يفتح المشهد من المسار المحدد باستخدام تنسيق الملف المحدد.
+يفتح المشهد من المسار المعطى باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public static Scene FromFile(string fileName, FileFormat format, 
@@ -17,16 +17,16 @@ public static Scene FromFile(string fileName, FileFormat format,
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
+| fileName | String | اسم الملف. |
 | تنسيق | FileFormat | تنسيق الملف. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
@@ -48,7 +48,7 @@ Scene scene = Scene.FromFile("input.fbx", FileFormat.FBX7400ASCII, cts.Token);
 
 ## FromFile(string, LoadOptions, CancellationToken) {#fromfile_2}
 
-يفتح المشهد من المسار المحدد باستخدام تنسيق الملف المحدد.
+يفتح المشهد من المسار المعطى باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public static Scene FromFile(string fileName, LoadOptions options, 
@@ -57,16 +57,16 @@ public static Scene FromFile(string fileName, LoadOptions options,
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
-| خيارات | LoadOptions | إعدادات أكثر تفصيلاً لفتح الدفق. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| fileName | String | اسم الملف. |
+| الخيارات | LoadOptions | تكوين أكثر تفصيلاً لفتح التدفق. |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
@@ -90,7 +90,7 @@ Scene scene = Scene.FromFile("input.fbx", opt, cts.Token);
 
 ## FromFile(string) {#fromfile}
 
-يفتح المشهد من المسار المحدد
+يفتح المشهد من المسار المعطى
 
 ```csharp
 public static Scene FromFile(string fileName)
@@ -98,14 +98,14 @@ public static Scene FromFile(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
+| fileName | String | اسم الملف. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
@@ -125,7 +125,7 @@ Scene scene = Scene.FromFile("input.fbx");
 
 ## FromFile(string, CancellationToken) {#fromfile_3}
 
-يفتح المشهد من المسار المحدد
+يفتح المشهد من المسار المعطى
 
 ```csharp
 public static Scene FromFile(string fileName, CancellationToken cancellationToken)
@@ -133,15 +133,15 @@ public static Scene FromFile(string fileName, CancellationToken cancellationToke
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| fileName | String | اسم الملف. |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 

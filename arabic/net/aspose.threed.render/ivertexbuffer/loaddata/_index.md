@@ -1,14 +1,14 @@
 ---
 title: "IVertexBuffer.LoadData"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "IVertexBuffer طريقة. حمّل بيانات الرأس من TriMesh"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة IVertexBuffer. تحميل بيانات الرأس من TriMesh"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/ivertexbuffer/loaddata/
 ---
 ## LoadData(TriMesh) {#loaddata}
 
-تحميل بيانات القمم من [`TriMesh`](../../../aspose.threed.entities/trimesh/)
+تحميل بيانات الرأس من [`TriMesh`](../../../aspose.threed.entities/trimesh/)
 
 ```csharp
 public void LoadData(TriMesh mesh)

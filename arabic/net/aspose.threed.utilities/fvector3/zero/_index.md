@@ -1,6 +1,6 @@
 ---
 title: "FVector3.Zero"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية FVector3. المتجه الصفري"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/fvector3/zero/
 ---
 ## FVector3.Zero property
 
-متجه الصفر.
+المتجه الصفري.
 
 ```csharp
 public static FVector3 Zero { get; }

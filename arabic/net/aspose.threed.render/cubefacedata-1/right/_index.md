@@ -1,6 +1,6 @@
 ---
 title: "CubeFaceData1.Right"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية CubeFaceData. يحصل أو يضبط البيانات للوجه XRight"
 type: docs
 weight: 120
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/cubefacedata-1/right/
 ---
 ## CubeFaceData&lt;T&gt;.Right property
 
-يحصل أو يعيّن البيانات للوجه +X (اليمين)
+يحصل أو يضبط البيانات للوجه +X(Right)
 
 ```csharp
 public T Right { get; set; }

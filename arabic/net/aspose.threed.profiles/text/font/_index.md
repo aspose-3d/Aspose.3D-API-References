@@ -1,7 +1,7 @@
 ---
 title: "Text.Font"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Text. الخط الخاص بالنص"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Text. خط النص"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.profiles/text/font/

@@ -1,6 +1,6 @@
 ---
 title: "Cylinder.Cylinder"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Cylinder. يهيئ نسخة جديدة من فئة Cylinder"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/cylinder/cylinder/
 ---
 ## Cylinder() {#constructor}
 
-يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../) class.
 
 ```csharp
 public Cylinder()
@@ -24,7 +24,7 @@ public Cylinder()
 
 ## Cylinder(double, double) {#constructor_1}
 
-يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../) class.
 
 ```csharp
 public Cylinder(double radius, double height)
@@ -32,8 +32,8 @@ public Cylinder(double radius, double height)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نصف القطر | Double | نصف قطر الغطاء العلوي والسفلي. |
-| الارتفاع | Double | الارتفاع. |
+| radius | مضاعف | نصف قطر الغطاء العلوي والسفلي. |
+| الارتفاع | مضاعف | الارتفاع. |
 
 ### انظر أيضًا
 
@@ -45,7 +45,7 @@ public Cylinder(double radius, double height)
 
 ## Cylinder(double, double, double) {#constructor_2}
 
-يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../) class.
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height)
@@ -53,9 +53,9 @@ public Cylinder(double radiusTop, double radiusBottom, double height)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| radiusTop | Double | نصف قطر العلوي. |
-| radiusBottom | Double | نصف قطر السفلي. |
-| الارتفاع | Double | الارتفاع. |
+| radiusTop | مضاعف | نصف القطر العلوي. |
+| radiusBottom | مضاعف | نصف القطر السفلي. |
+| الارتفاع | مضاعف | الارتفاع. |
 
 ### انظر أيضًا
 
@@ -67,7 +67,7 @@ public Cylinder(double radiusTop, double radiusBottom, double height)
 
 ## Cylinder(double, double, double, int, int, bool) {#constructor_3}
 
-يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../) class.
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height, int radialSegments, 
@@ -76,11 +76,11 @@ public Cylinder(double radiusTop, double radiusBottom, double height, int radial
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| radiusTop | Double | نصف قطر الغطاء العلوي للأسطوانة. |
-| radiusBottom | Double | نصف قطر الغطاء السفلي للأسطوانة. |
-| الارتفاع | Double | ارتفاع الأسطوانة. |
-| radialSegments | Int32 | قطاعات شعاعية لكل من الدائرتين العلوية والسفلية.. |
-| heightSegments | Int32 | مقاطع الارتفاع. |
+| radiusTop | مضاعف | نصف قطر الغطاء العلوي للأسطوانة. |
+| radiusBottom | مضاعف | نصف قطر الغطاء السفلي للأسطوانة. |
+| الارتفاع | مضاعف | ارتفاع الأسطوانة. |
+| radialSegments | Int32 | الأقسام الشعاعية للدوائر العلوية والسفلية.. |
+| heightSegments | Int32 | شرائح الارتفاع. |
 | openEnded | Boolean | إذا تم تعيينه إلى `true` فإن الأسطوانة لن تحتوي على أغطية سفلية/علوية.. |
 
 ### انظر أيضًا
@@ -93,7 +93,7 @@ public Cylinder(double radiusTop, double radiusBottom, double height, int radial
 
 ## Cylinder(string, double, double, double, int, int, bool, double, double) {#constructor_4}
 
-يهيئ نسخة جديدة من الفئة [`Cylinder`](../).
+يهيئ نسخة جديدة من الفئة [`Cylinder`](../) class.
 
 ```csharp
 public Cylinder(string name, double radiusTop, double radiusBottom, double height, 
@@ -102,15 +102,15 @@ public Cylinder(string name, double radiusTop, double radiusBottom, double heigh
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم هذا الكائن |
-| radiusTop | Double | نصف قطر الغطاء العلوي للأسطوانة. |
-| radiusBottom | Double | نصف قطر الغطاء السفلي للأسطوانة. |
-| الارتفاع | Double | ارتفاع الأسطوانة. |
-| radialSegments | Int32 | قطاعات شعاعية لكل من الدائرتين العلوية والسفلية.. |
-| heightSegments | Int32 | مقاطع الارتفاع. |
+| الاسم | String | اسم هذا الكائن |
+| radiusTop | مضاعف | نصف قطر الغطاء العلوي للأسطوانة. |
+| radiusBottom | مضاعف | نصف قطر الغطاء السفلي للأسطوانة. |
+| الارتفاع | مضاعف | ارتفاع الأسطوانة. |
+| radialSegments | Int32 | الأقسام الشعاعية للدوائر العلوية والسفلية.. |
+| heightSegments | Int32 | شرائح الارتفاع. |
 | openEnded | Boolean | إذا تم تعيينه إلى `true` فإن الأسطوانة لن تحتوي على أغطية سفلية/علوية.. |
-| thetaStart | Double | بداية theta. |
-| thetaLength | Double | طول theta. |
+| thetaStart | مضاعف | بداية الثيتا. |
+| thetaLength | مضاعف | طول الثيتا. |
 
 ### انظر أيضًا
 

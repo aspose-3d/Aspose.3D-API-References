@@ -1,14 +1,14 @@
 ---
 title: "TransformBuilder.Scale"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TransformBuilder. ربط مصفوفة تحويل قياس مع مكوّن مُقاس بـ s"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TransformBuilder. سلسلة مصفوفة تحويل قياس مع مكوّن مقاس بـ s"
 type: docs
 weight: 140
 url: /ar/net/aspose.threed.utilities/transformbuilder/scale/
 ---
 ## Scale(double) {#scale_1}
 
-سلسلة مصفوفة تحويل قياس مع مكوّن مُقاس بـ s
+سلسلة مصفوفة تحويل قياس مع مكوّن مقاس بـ s
 
 ```csharp
 public TransformBuilder Scale(double s)
@@ -16,7 +16,7 @@ public TransformBuilder Scale(double s)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| s | Double |  |
+| s | مضاعف |  |
 
 ## أمثلة
 
@@ -44,9 +44,9 @@ public TransformBuilder Scale(double x, double y, double z)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| x | Double |  |
-| y | Double |  |
-| z | Double |  |
+| x | مضاعف |  |
+| y | مضاعف |  |
+| z | مضاعف |  |
 
 ## أمثلة
 

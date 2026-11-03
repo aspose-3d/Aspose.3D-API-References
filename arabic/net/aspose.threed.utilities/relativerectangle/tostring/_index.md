@@ -1,14 +1,14 @@
 ---
 title: "RelativeRectangle.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RelativeRectangle. يحول قيمة هذا الكائن إلى سلسلة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RelativeRectangle. يحول قيمة هذه الحالة إلى سلسلة"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed.utilities/relativerectangle/tostring/
 ---
 ## RelativeRectangle.ToString method
 
-يحوّل قيمة هذا الكائن إلى سلسلة.
+يحول قيمة هذه الحالة إلى سلسلة.
 
 ```csharp
 public override string ToString()

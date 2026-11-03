@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.Inverse"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. تُعيد كواتيرنيون عكسي للـ quaternion الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. تُعيد رباعية معكوسة للرباعية الحالية"
 type: docs
 weight: 190
 url: /ar/net/aspose.threed.utilities/quaternion/inverse/
 ---
 ## Quaternion.Inverse method
 
-يرجع كواتيرنيون معكوس للكواتيرنيون الحالي
+تُعيد رباعية معكوسة للرباعية الحالية
 
 ```csharp
 public Quaternion Inverse()
@@ -16,7 +16,7 @@ public Quaternion Inverse()
 
 ### قيمة الإرجاع
 
-كواتيرنيون عكسي.
+رباعية معكوسة.
 
 ### انظر أيضًا
 

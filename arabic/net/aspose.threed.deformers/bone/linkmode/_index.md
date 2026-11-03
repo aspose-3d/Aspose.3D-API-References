@@ -1,14 +1,14 @@
 ---
 title: "Bone.LinkMode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Bone. وضع ارتباط العظام يشير إلى الطريقة التي يتم بها ربط العظمة بعظمتها الأصلية ضمن هيكل هرمي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Bone. وضع ربط العظام يشير إلى الطريقة التي يتم بها ربط العظم بعظمه الأب داخل هيكل هرمي"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.deformers/bone/linkmode/
 ---
 ## Bone.LinkMode property
 
-تشير وضعية ربط العظام إلى الطريقة التي يتم بها ربط العظام بعظامها الأصلية داخل هيكل هرمي.
+وضع ارتباط العظم يشير إلى الطريقة التي يتم بها ربط العظم أو ربطه بعظم الوالد داخل بنية هرمية.
 
 ```csharp
 public BoneLinkMode LinkMode { get; set; }

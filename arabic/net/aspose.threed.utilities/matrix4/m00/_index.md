@@ -1,7 +1,7 @@
 ---
 title: "Matrix4.m00"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل Matrix4. الـ m00"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Matrix4 حقل. الـ m00"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.utilities/matrix4/m00/

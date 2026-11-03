@@ -1,6 +1,6 @@
 ---
 title: "TextureBase.MagFilter"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية TextureBase. يحصل أو يضبط الفلتر للتكبير"
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.shading/texturebase/magfilter/
 ---
 ## TextureBase.MagFilter property
 
-يحصل أو يعيّن الفلتر للتكبير.
+يحصل أو يضبط الفلتر للتكبير.
 
 ```csharp
 public TextureFilter MagFilter { get; set; }

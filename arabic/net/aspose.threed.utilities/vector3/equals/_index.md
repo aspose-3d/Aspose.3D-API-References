@@ -1,14 +1,14 @@
 ---
 title: "Vector3.Equals"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector3. تحقق مما إذا كان المتجهان من نوع Vector3 متساويين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector3. تحقق مما إذا كان متجهان vector3 متساويان"
 type: docs
 weight: 180
 url: /ar/net/aspose.threed.utilities/vector3/equals/
 ---
 ## Vector3.Equals method
 
-تحقق مما إذا كان المتجهان Vector3 متساويين
+تحقق مما إذا كان متجهان vector3 متساويان
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+صحيح إذا كانت جميع المكونات متساوية تمامًا.
 
 ### انظر أيضًا
 

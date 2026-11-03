@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.Transpose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. تعكس هذه العينة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Matrix4. تنقل هذا المثيل"
 type: docs
 weight: 310
 url: /ar/net/aspose.threed.utilities/matrix4/transpose/
 ---
 ## Matrix4.Transpose method
 
-يقلب هذه النسخة.
+تعكس هذه الحالة.
 
 ```csharp
 public Matrix4 Transpose()
@@ -20,7 +20,7 @@ public Matrix4 Transpose()
 
 ## أمثلة
 
-الكود التالي يوضح كيفية عكس مصفوفة
+الكود التالي يوضح كيفية نقل مصفوفة
 
 ```csharp
 var t = Matrix4.Translate(0, 10, 9);

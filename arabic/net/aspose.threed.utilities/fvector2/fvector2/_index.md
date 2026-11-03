@@ -1,6 +1,6 @@
 ---
 title: "FVector2.FVector2"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ FVector2. يهيئ نسخة جديدة من FVector2"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/fvector2/fvector2/
 ---
 ## FVector2(float, float) {#constructor_1}
 
-تهيئ نسخة جديدة من [`FVector2`](../).
+يهيئ نسخة جديدة من الـ [`FVector2`](../).
 
 ```csharp
 public FVector2(float x, float y)
@@ -29,7 +29,7 @@ public FVector2(float x, float y)
 
 ## FVector2(Vector2) {#constructor}
 
-تهيئ نسخة جديدة من [`FVector2`](../).
+يهيئ نسخة جديدة من الـ [`FVector2`](../).
 
 ```csharp
 public FVector2(Vector2 vec)

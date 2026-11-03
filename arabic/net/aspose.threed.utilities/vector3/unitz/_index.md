@@ -1,6 +1,6 @@
 ---
 title: "Vector3.UnitZ"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Vector3. يحصل على المتجه الوحدوي 0 0 1"
 type: docs
 weight: 50

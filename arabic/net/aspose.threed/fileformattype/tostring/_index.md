@@ -1,7 +1,7 @@
 ---
 title: "FileFormatType.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormatType طريقة. احصل على اسم نوع تنسيق الملف هذا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FileFormatType. احصل على اسم نوع تنسيق الملف هذا"
 type: docs
 weight: 280
 url: /ar/net/aspose.threed/fileformattype/tostring/

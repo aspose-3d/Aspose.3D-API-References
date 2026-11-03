@@ -1,14 +1,14 @@
 ---
 title: "HalfSpace.Position"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HalfSpace. أي نقطة على سطح الانقسام حيث يُعرّف السطح كـ N  P  D  0 حيث N هو المتجه العمودي و P هي أي نقطة على السطح"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HalfSpace. أي نقطة على سطح الانقسام يُعرّف السطح كـ N P D 0 حيث N هو المتجه العمودي وP هي أي نقطة على السطح"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/halfspace/position/
 ---
 ## HalfSpace.Position property
 
-أي نقطة على المستوى المقسَّم، يُعرَّف المستوى بالمعادلة N * P + D = 0 حيث N هو المتجه العمودي وP هو أي نقطة على المستوى.
+أي نقطة على سطح الانقسام، يُعرّف السطح كـ N * P + D = 0 حيث N هو المتجه العمودي وP هي أي نقطة على السطح.
 
 ```csharp
 public Vector3 Position { get; set; }

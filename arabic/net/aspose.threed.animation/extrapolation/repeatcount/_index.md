@@ -1,14 +1,14 @@
 ---
 title: "Extrapolation.RepeatCount"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Extrapolation. يحصل أو يضبط عدد مرات التكرار لنمط الاستدلال"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Extrapolation. يحصل أو يضبط عدد مرات التكرار لنمط الإستقراء"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.animation/extrapolation/repeatcount/
 ---
 ## Extrapolation.RepeatCount property
 
-يحصل أو يضبط عدد مرات التكرار لنمط الاستدراك.
+يحصل أو يضبط عدد مرات التكرار لنمط الإستقراء.
 
 ```csharp
 public int RepeatCount { get; set; }

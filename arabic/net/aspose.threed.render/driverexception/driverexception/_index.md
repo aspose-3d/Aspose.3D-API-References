@@ -1,14 +1,14 @@
 ---
 title: "DriverException.DriverException"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ DriverException. تهيئة نسخة من DriverException باستخدام رمز خطأ السائق الأصلي المحدد والرسالة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ DriverException. إنشاء نسخة من DriverException باستخدام رمز الخطأ الأصلي للسائق والرسالة المحددة"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/driverexception/driverexception/
 ---
 ## DriverException constructor
 
-تهيئة نسخة من [`DriverException`](../) باستخدام رمز خطأ السائق الأصلي المحدد والرسالة.
+إنشاء نسخة من [`DriverException`](../) باستخدام رمز الخطأ الأصلي للسائق والرسالة المحددة.
 
 ```csharp
 public DriverException(uint code, string message)
@@ -16,8 +16,8 @@ public DriverException(uint code, string message)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الرمز | UInt32 |  |
-| الرسالة | سلسلة |  |
+| رمز | UInt32 |  |
+| رسالة | String |  |
 
 ### انظر أيضًا
 

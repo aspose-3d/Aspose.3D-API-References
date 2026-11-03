@@ -1,6 +1,6 @@
 ---
 title: "PbrSpecularMaterial.PbrSpecularMaterial"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ PbrSpecularMaterial. منشئ الـ PbrSpecularMaterial"
 type: docs
 weight: 10

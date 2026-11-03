@@ -1,14 +1,14 @@
 ---
 title: "AnimationChannel.GetEnumerator"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة AnimationChannel. يحصل على مُعدِّد للتنقل عبر جميع تسلسلات الإطار الرئيسي داخل هذه القناة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة AnimationChannel. يحصل على عداد للتنقل عبر جميع تسلسلات الإطارات الرئيسية داخل هذه القناة"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.animation/animationchannel/getenumerator/
 ---
 ## AnimationChannel.GetEnumerator method
 
-يحصل على مُعدِّد للتنقل عبر جميع تسلسلات الإطار الرئيسي داخل هذه القناة
+يحصل على عداد للتنقل عبر جميع تسلسلات الإطارات الرئيسية داخل هذه القناة
 
 ```csharp
 public IEnumerator<KeyframeSequence> GetEnumerator()

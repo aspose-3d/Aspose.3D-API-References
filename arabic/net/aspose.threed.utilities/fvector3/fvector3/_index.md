@@ -1,6 +1,6 @@
 ---
 title: "FVector3.FVector3"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ FVector3. يهيئ نسخة جديدة من FVector3"
 type: docs
 weight: 10

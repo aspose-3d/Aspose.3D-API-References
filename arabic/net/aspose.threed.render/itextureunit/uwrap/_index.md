@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.UWrap"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل أو يضبط وضع الالتفاف لإحداثيات U للملمس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. تحصل أو تضبط وضع الالتفاف لإحداثيات U للملمس"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.render/itextureunit/uwrap/
 ---
 ## ITextureUnit.UWrap property
 
-الحصول أو تعيين وضع الالتفاف لإحداثية U للنسيج.
+تحصل أو تضبط وضع الالتفاف لإحداثيات U للملمس.
 
 ```csharp
 public WrapMode UWrap { get; set; }

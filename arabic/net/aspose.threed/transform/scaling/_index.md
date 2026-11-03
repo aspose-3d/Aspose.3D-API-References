@@ -1,6 +1,6 @@
 ---
 title: "Transform.Scaling"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Transform. تحصل أو تعين التحجيم"
 type: docs
 weight: 100
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/transform/scaling/
 ---
 ## Transform.Scaling property
 
-يحصل أو يعيّن التحجيم
+تحصل أو تعين التحجيم
 
 ```csharp
 public Vector3 Scaling { get; set; }

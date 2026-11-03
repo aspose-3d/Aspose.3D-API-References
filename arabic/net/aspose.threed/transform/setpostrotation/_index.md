@@ -1,6 +1,6 @@
 ---
 title: "Transform.SetPostRotation"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Transform. تعين ما بعد الدوران الممثل بالدرجة"
 type: docs
 weight: 190
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/transform/setpostrotation/
 ---
 ## Transform.SetPostRotation method
 
-يضبط الدوران اللاحق الممثّل بالدرجة
+تعيّن ما بعد الدوران الممثل بالدرجة
 
 ```csharp
 public Transform SetPostRotation(double rx, double ry, double rz)

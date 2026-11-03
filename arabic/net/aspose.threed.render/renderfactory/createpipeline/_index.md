@@ -1,14 +1,14 @@
 ---
 title: "RenderFactory.CreatePipeline"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderFactory. إنشاء خط أنابيب رسومي مُسبق التكوين مع shader/render state/vertex declaration وعمليات الرسم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RenderFactory. إنشاء خط أنابيب رسومي مُعد مسبقًا مع shader/حالة عرض/إعلان رأس مُعد مسبقًا وعمليات رسم"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.render/renderfactory/createpipeline/
 ---
 ## RenderFactory.CreatePipeline method
 
-إنشاء خط أنابيب رسومي مُكوَّن مسبقًا مع ظل/حالة عرض/إعلان رأس مُكوَّن مسبقًا وعمليات رسم.
+إنشاء خط أنابيب رسومي مُعد مسبقًا مع shader/حالة عرض/إعلان رأس مُعد مسبقًا وعمليات رسم.
 
 ```csharp
 public abstract IPipeline CreatePipeline(ShaderProgram shader, RenderState renderState, 
@@ -17,14 +17,14 @@ public abstract IPipeline CreatePipeline(ShaderProgram shader, RenderState rende
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| shader | ShaderProgram | الـ shader المستخدم في العرض |
-| renderState | RenderState | حالة العرض المستخدمة في عملية العرض |
+| shader | ShaderProgram | الـ shader المستخدم في عملية التصيير |
+| renderState | RenderState | حالة العرض المستخدمة في عملية التصيير |
 | vertexDeclaration | VertexDeclaration | إعلان القمة لبيانات القمة المدخلة |
 | drawOperation | DrawOperation | عملية الرسم |
 
 ### قيمة الإرجاع
 
-مثيل خط أنابيب جديد
+مثيل جديد للخط الأنابيب
 
 ### انظر أيضًا
 

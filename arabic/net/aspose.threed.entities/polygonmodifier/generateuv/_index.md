@@ -1,14 +1,14 @@
 ---
 title: "PolygonModifier.GenerateUV"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PolygonModifier. توليد بيانات UV من الشبكة المدخلة المعطاة والبيانات العادية المحددة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PolygonModifier. توليد بيانات UV من الشبكة المدخلة المحددة والبيانات العادية المحددة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/polygonmodifier/generateuv/
 ---
 ## GenerateUV(Mesh, VertexElementNormal) {#generateuv_1}
 
-إنشاء بيانات الـUV من الشبكة المدخلة المعطاة وبيانات الـNormal المحددة.
+توليد بيانات UV من الشبكة المدخلة المحددة والبيانات العادية المحددة.
 
 ```csharp
 public static VertexElementUV GenerateUV(Mesh mesh, VertexElementNormal normals)
@@ -16,8 +16,8 @@ public static VertexElementUV GenerateUV(Mesh mesh, VertexElementNormal normals)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| شبكة | Mesh | شبكة الإدخال |
-| normals | VertexElementNormal | بيانات العادي |
+| شبكة | شبكة | الشبكة المدخلة |
+| المتجهات العمودية | VertexElementNormal | بيانات المتجه العمودي |
 
 ### قيمة الإرجاع
 
@@ -36,7 +36,7 @@ public static VertexElementUV GenerateUV(Mesh mesh, VertexElementNormal normals)
 
 ## GenerateUV(Mesh) {#generateuv}
 
-إنشاء بيانات الـUV من الشبكة المدخلة المعطاة
+توليد بيانات UV من الشبكة المدخلة المحددة
 
 ```csharp
 public static VertexElementUV GenerateUV(Mesh mesh)
@@ -44,7 +44,7 @@ public static VertexElementUV GenerateUV(Mesh mesh)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| شبكة | Mesh | شبكة الإدخال |
+| شبكة | شبكة | الشبكة المدخلة |
 
 ### قيمة الإرجاع
 

@@ -1,7 +1,7 @@
 ---
 title: "Vector2.op_Addition"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Vector2 طريقة. عامل الجمع لـ Vector2"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector2. عامل الجمع لـ Vector2"
 type: docs
 weight: 140
 url: /ar/net/aspose.threed.utilities/vector2/op_addition/
@@ -16,8 +16,8 @@ public static Vector2 operator +(Vector2 lhs, Vector2 rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| lhs | Vector2 | قيمة الطرف الأيسر. |
-| rhs | Vector2 | قيمة الطرف الأيمن. |
+| lhs | Vector2 | قيمة الجانب الأيسر. |
+| rhs | Vector2 | قيمة الجانب الأيمن. |
 
 ### قيمة الإرجاع
 

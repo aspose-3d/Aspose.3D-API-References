@@ -1,7 +1,7 @@
 ---
 title: "CenterLineProfile.Thickness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية CenterLineProfile. يتم تطبيق السمك على طول الخط المركزي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية CenterLineProfile. السُمك المطبق على طول الخط المركزي"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.profiles/centerlineprofile/thickness/

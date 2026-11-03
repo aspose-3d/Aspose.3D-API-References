@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.FBX7300Binary"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat الحقل. تنسيق ملف FBX الثنائي مع الإصدار 7.3.0"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. تنسيق ملف FBX الثنائي مع الإصدار 7.3.0"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed/fileformat/fbx7300binary/
 ---
 ## FileFormat.FBX7300Binary field
 
-تنسيق ملف FBX بصيغة ثنائية، بالإصدار 7.3.0
+تنسيق ملف FBX الثنائي، مع الإصدار 7.3.0
 
 ```csharp
 public static readonly FileFormat FBX7300Binary;

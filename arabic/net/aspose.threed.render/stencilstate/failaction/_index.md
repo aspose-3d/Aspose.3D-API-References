@@ -1,14 +1,14 @@
 ---
 title: "StencilState.FailAction"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية StencilState. يحصل أو يضبط إجراء الستنسل عند فشل اختبار الستنسل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "StencilState خاصية. يحصل أو يضبط إجراء الستنسل عندما يفشل اختبار الستنسل"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/stencilstate/failaction/
 ---
 ## StencilState.FailAction property
 
-يحصل أو يضبط إجراء القالب عندما يفشل اختبار القالب.
+يحصل أو يضبط إجراء الستنسل عندما يفشل اختبار الستنسل.
 
 ```csharp
 public StencilAction FailAction { get; set; }

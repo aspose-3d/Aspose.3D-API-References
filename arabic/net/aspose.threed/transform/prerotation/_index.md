@@ -1,14 +1,14 @@
 ---
 title: "Transform.PreRotation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Transform. تحصل أو تعيّن ما قبل الدوران الممثّل بالدرجة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Transform. تحصل أو تعين ما قبل الدوران الممثلة بالدرجة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed/transform/prerotation/
 ---
 ## Transform.PreRotation property
 
-يحصل أو يعيّن الدوران السابق الممثّل بالدرجة
+تحصل أو تعين ما قبل الدوران الممثلة بالدرجة
 
 ```csharp
 public Vector3 PreRotation { get; set; }

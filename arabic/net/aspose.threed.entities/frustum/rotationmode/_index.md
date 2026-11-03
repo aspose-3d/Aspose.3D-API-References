@@ -1,14 +1,14 @@
 ---
 title: "Frustum.RotationMode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Frustum. يحصل أو يضبط وضعية توجيه الـ frustum. هذه الخاصية تعمل فقط عندما يكون Target فارغًا. إذا كانت القيمة FixedTarget فإن الاتجاه يُحسب دائمًا بواسطة الخاصية LookAt وإلا فإن LookAt يُحسب دائمًا بواسطة الخاصية Direction"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Frustum. يحصل أو يضبط وضعية توجيه الفرستوم. هذه الخاصية تعمل فقط عندما يكون الـTarget فارغًا. إذا كانت القيمة FixedTarget، يتم حساب الاتجاه دائمًا بواسطة الخاصية LookAt. وإلا يتم حساب LookAt دائمًا بواسطة الخاصية Direction"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.entities/frustum/rotationmode/
 ---
 ## Frustum.RotationMode property
 
-يحصل أو يضبط وضعية توجيه الـ frustum. هذه الخاصية تعمل فقط عندما يكون [`Target`](../target/) فارغًا. إذا كانت القيمة FixedTarget، فإن الاتجاه يُحسب دائمًا بواسطة الخاصية [`LookAt`](../lookat/). وإلا فإن [`LookAt`](../lookat/) يُحسب دائمًا بواسطة [`Direction`](../direction/)
+يحصل أو يضبط وضعية توجيه الفرستوم. هذه الخاصية تعمل فقط عندما يكون [`Target`](../target/) فارغًا. إذا كانت القيمة FixedTarget، يتم حساب الاتجاه دائمًا بواسطة الخاصية [`LookAt`](../lookat/). وإلا يتم حساب [`LookAt`](../lookat/) دائمًا بواسطة [`Direction`](../direction/)
 
 ```csharp
 public RotationMode RotationMode { get; set; }

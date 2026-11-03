@@ -1,14 +1,14 @@
 ---
 title: "ZShape.FlangeThickness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ZShape. يسترجع أو يعيّن سمك الحافة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ZShape. تحصل أو تضبط سمك الحافة"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.profiles/zshape/flangethickness/
 ---
 ## ZShape.FlangeThickness property
 
-يحصل أو يضبط سمك الشفة.
+تحصل أو تضبط سمك الحافة.
 
 ```csharp
 public double FlangeThickness { get; set; }

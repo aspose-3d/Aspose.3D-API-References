@@ -1,7 +1,7 @@
 ---
 title: "Patch.U"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Patch property. تحصل على اتجاه u"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Patch. يحصل على اتجاه u"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/patch/u/

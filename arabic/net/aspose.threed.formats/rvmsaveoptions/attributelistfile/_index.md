@@ -1,14 +1,14 @@
 ---
 title: "RvmSaveOptions.AttributeListFile"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RvmSaveOptions. الحصول أو تعيين اسم ملف قائمة السمات؛ سيولد المصدّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة؛ القيمة الافتراضية هي null"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RvmSaveOptions. الحصول أو تعيين اسم ملف قائمة السمات، سيولد المصدر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/rvmsaveoptions/attributelistfile/
 ---
 ## RvmSaveOptions.AttributeListFile property
 
-يحصل أو يعيّن اسم ملف قائمة السمات، سيولد المصدّر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null.
+الحصول أو تعيين اسم ملف قائمة السمات، سيولد المصدر اسمًا بناءً على اسم ملف .rvm عندما تكون هذه الخاصية غير معرفة، القيمة الافتراضية هي null.
 
 ```csharp
 public string AttributeListFile { get; set; }
@@ -26,7 +26,7 @@ var boxNode = scene.RootNode.CreateChildNode("box", box);
 boxNode.SetProperty("rvm:Price", 12.0);
 boxNode.SetProperty("rvm:Weight", 30.0);
 var opt = new RvmSaveOptions();
-//الخصائص ذات البادئة rvm: سيتم تصديرها.
+//الخصائص التي لها بادئة rvm: سيتم تصديرها.
 opt.ExportAttributes = true;
 opt.AttributePrefix = "rvm:";
 opt.Author = "Aspose.3D";

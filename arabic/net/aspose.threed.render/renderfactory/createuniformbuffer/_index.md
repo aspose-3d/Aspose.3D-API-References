@@ -1,14 +1,14 @@
 ---
 title: "RenderFactory.CreateUniformBuffer"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderFactory. إنشاء مخزن موحد جديد على جانب وحدة معالجة الرسومات بحجم مخصص مسبقًا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RenderFactory. إنشاء مخزن موحد جديد على جانب GPU بحجم مخصص مسبقًا"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.render/renderfactory/createuniformbuffer/
 ---
 ## RenderFactory.CreateUniformBuffer method
 
-إنشاء مخزن موحد جديد على جانب وحدة معالجة الرسوميات بحجم مُخصص مسبقًا.
+إنشاء مخزن موحد جديد على جانب GPU بحجم مخصص مسبقًا.
 
 ```csharp
 public abstract IBuffer CreateUniformBuffer(int size)

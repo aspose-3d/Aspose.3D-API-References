@@ -1,14 +1,14 @@
 ---
 title: "Scene.Save"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Scene. تحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Scene. تحفظ المشهد إلى تدفق باستخدام تنسيق الملف المحدد"
 type: docs
 weight: 160
 url: /ar/net/aspose.threed/scene/save/
 ---
 ## Save(Stream, FileFormat) {#save}
 
-يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد.
+يحفظ المشهد إلى تدفق باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Save(Stream stream, FileFormat format)
@@ -16,14 +16,14 @@ public void Save(Stream stream, FileFormat format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | تنسيق | FileFormat | التنسيق. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة
@@ -49,7 +49,7 @@ using(var ms = new MemoryStream())
 
 ## Save(Stream, FileFormat, CancellationToken) {#save_1}
 
-يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد.
+يحفظ المشهد إلى تدفق باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Save(Stream stream, FileFormat format, CancellationToken cancellationToken)
@@ -57,15 +57,15 @@ public void Save(Stream stream, FileFormat format, CancellationToken cancellatio
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | تنسيق | FileFormat | التنسيق. |
 | cancellationToken | CancellationToken | رمز الإلغاء لمهمة الحفظ |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة
@@ -92,7 +92,7 @@ using(var ms = new MemoryStream())
 
 ## Save(Stream, SaveOptions) {#save_2}
 
-يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد.
+يحفظ المشهد إلى تدفق باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options)
@@ -100,14 +100,14 @@ public void Save(Stream stream, SaveOptions options)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| خيارات | SaveOptions | إعدادات أكثر تفصيلاً لحفظ الدفق. |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| الخيارات | SaveOptions | تكوين أكثر تفصيلاً لحفظ التدفق. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة
@@ -135,7 +135,7 @@ using(var ms = new MemoryStream())
 
 ## Save(Stream, SaveOptions, CancellationToken) {#save_3}
 
-يحفظ المشهد إلى الدفق باستخدام تنسيق الملف المحدد.
+يحفظ المشهد إلى تدفق باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options, CancellationToken cancellationToken)
@@ -143,15 +143,15 @@ public void Save(Stream stream, SaveOptions options, CancellationToken cancellat
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| خيارات | SaveOptions | إعدادات أكثر تفصيلاً لحفظ الدفق. |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| الخيارات | SaveOptions | تكوين أكثر تفصيلاً لحفظ التدفق. |
 | cancellationToken | CancellationToken | رمز الإلغاء لمهمة الحفظ |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة
@@ -188,13 +188,13 @@ public void Save(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
+| fileName | String | اسم الملف. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة
@@ -224,14 +224,14 @@ public void Save(string fileName, FileFormat format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
+| fileName | String | اسم الملف. |
 | تنسيق | FileFormat | التنسيق. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة
@@ -262,15 +262,15 @@ public void Save(string fileName, FileFormat format, CancellationToken cancellat
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
+| fileName | String | اسم الملف. |
 | تنسيق | FileFormat | التنسيق. |
 | cancellationToken | CancellationToken | رمز الإلغاء لمهمة الحفظ |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة
@@ -302,14 +302,14 @@ public void Save(string fileName, SaveOptions options)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
-| خيارات | SaveOptions | إعدادات أكثر تفصيلاً لحفظ الدفق. |
+| fileName | String | اسم الملف. |
+| الخيارات | SaveOptions | تكوين أكثر تفصيلاً لحفظ التدفق. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة
@@ -342,15 +342,15 @@ public void Save(string fileName, SaveOptions options, CancellationToken cancell
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
-| خيارات | SaveOptions | إعدادات أكثر تفصيلاً لحفظ الدفق. |
+| fileName | String | اسم الملف. |
+| الخيارات | SaveOptions | تكوين أكثر تفصيلاً لحفظ التدفق. |
 | cancellationToken | CancellationToken | رمز الإلغاء لمهمة الحفظ |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
 | [ExportException](../../exportexception/) | يُرمى عندما يفشل تصدير المشهد إلى التنسيق الثلاثي الأبعاد المحدد |
 
 ## أمثلة

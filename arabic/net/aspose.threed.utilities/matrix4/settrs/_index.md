@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.SetTRS"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. تهيئ المصفوفة بالإزاحة/الدوران/التحجيم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Matrix4. تهيئ المصفوفة بالترجمة/الدوران/التحجيم"
 type: docs
 weight: 280
 url: /ar/net/aspose.threed.utilities/matrix4/settrs/
 ---
 ## Matrix4.SetTRS method
 
-يُهيئ المصفوفة بالترجمة/الدوران/التحجيم
+تهيئ المصفوفة بالترجمة/الدوران/التحجيم
 
 ```csharp
 public void SetTRS(Vector3 translation, Vector3 rotation, Vector3 scale)

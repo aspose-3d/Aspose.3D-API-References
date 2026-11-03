@@ -1,14 +1,14 @@
 ---
 title: "TransformedCurve.TransformedCurve"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ TransformedCurve. المنشئ الخاص بـ TransformedCurve"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ TransformedCurve. المُنشئ الخاص بـ TransformedCurve"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/transformedcurve/transformedcurve/
 ---
 ## TransformedCurve() {#constructor}
 
-المنشئ الخاص بـ [`TransformedCurve`](../)
+المُنشئ لـ [`TransformedCurve`](../)
 
 ```csharp
 public TransformedCurve()
@@ -24,7 +24,7 @@ public TransformedCurve()
 
 ## TransformedCurve(Curve, Matrix4) {#constructor_1}
 
-المنشئ الخاص بـ [`TransformedCurve`](../)
+المُنشئ لـ [`TransformedCurve`](../)
 
 ```csharp
 public TransformedCurve(Curve basisCurve, Matrix4 transformation)

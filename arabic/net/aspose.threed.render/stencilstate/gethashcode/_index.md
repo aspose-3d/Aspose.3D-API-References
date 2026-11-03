@@ -1,14 +1,14 @@
 ---
 title: "StencilState.GetHashCode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة StencilState. تُرجع رمز التجزئة لهذا المثيل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة StencilState. تُرجع رمز التجزئة لهذه الحالة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.render/stencilstate/gethashcode/
 ---
 ## StencilState.GetHashCode method
 
-يرجع رمز التجزئة لهذه النسخة.
+تُرجع رمز التجزئة لهذه الحالة.
 
 ```csharp
 public override int GetHashCode()

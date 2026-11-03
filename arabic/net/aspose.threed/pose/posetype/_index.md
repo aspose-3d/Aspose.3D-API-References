@@ -1,14 +1,14 @@
 ---
 title: "Pose.PoseType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Pose. الحصول على أو تعيين نوع الوضع"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Pose. يحصل أو يضبط نوع الوضع"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/pose/posetype/
 ---
 ## Pose.PoseType property
 
-يحصل أو يحدد نوع الوضعية.
+يحصل أو يضبط نوع الوضع.
 
 ```csharp
 public PoseType PoseType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "NurbsSurface.V"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "NurbsSurface property. يحصل على اتجاه V لسطوح NURBS"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsSurface. يحصل على اتجاه V لسطح NURBS"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/nurbssurface/v/
 ---
 ## NurbsSurface.V property
 
-يحصل على اتجاه V لسطح NURBS.
+يحصل على اتجاه V لسطح NURBS
 
 ```csharp
 public NurbsDirection V { get; }

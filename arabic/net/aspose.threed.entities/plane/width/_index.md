@@ -1,14 +1,14 @@
 ---
 title: "Plane.Width"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Plane. تحصل أو تعين عرض المستوى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Plane. يحصل أو يضبط عرض المستوى"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/plane/width/
 ---
 ## Plane.Width property
 
-الحصول على أو تعيين عرض السطح.
+يحصل أو يضبط عرض المستوى.
 
 ```csharp
 public double Width { get; set; }

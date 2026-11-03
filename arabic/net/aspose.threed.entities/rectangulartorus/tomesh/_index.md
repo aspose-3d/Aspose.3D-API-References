@@ -1,14 +1,14 @@
 ---
 title: "RectangularTorus.ToMesh"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RectangularTorus. تحويل هذا البدائي إلى Mesh"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RectangularTorus. تحويل هذا الكائن الأولي إلى Mesh"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/rectangulartorus/tomesh/
 ---
 ## RectangularTorus.ToMesh method
 
-تحويل هذا البدائي إلى [`Mesh`](../../mesh/)
+تحويل هذا الكائن الأولي إلى [`Mesh`](../../mesh/)
 
 ```csharp
 public override Mesh ToMesh()

@@ -1,14 +1,14 @@
 ---
 title: "Rect.Y"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Rect. تسترجع أو تعين y للحجم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Rect. تُرجع أو تُعيّن قيمة y للحجم"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.utilities/rect/y/
 ---
 ## Rect.Y property
 
-يسترجع أو يضبط y للحجم
+تُرجع أو تُعيّن قيمة y للحجم
 
 ```csharp
 public int Y { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: "AxisSystem.AxisSystem"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ AxisSystem. يُنشئ نظام محاور جديد"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/axissystem/axissystem/
 ---
 ## AxisSystem(CoordinateSystem, Axis, Axis) {#constructor_2}
 
-ينشئ نظام محاور جديد
+يُنشئ نظام محاور جديد
 
 ```csharp
 public AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)
@@ -17,7 +17,7 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | coordinateSystem | CoordinateSystem | نظام الإحداثيات المستخدم في هذا نظام المحاور |
-| up | المحور | المتجه العلوي لنظام المحاور |
+| أعلى | المحور | المتجه العلوي لنظام المحاور |
 | front | المحور | المتجه الأمامي لنظام المحاور |
 
 ### انظر أيضًا
@@ -32,7 +32,7 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up, Axis front)
 
 ## AxisSystem(CoordinateSystem, Axis) {#constructor_1}
 
-ينشئ نظام محاور جديد
+يُنشئ نظام محاور جديد
 
 ```csharp
 public AxisSystem(CoordinateSystem coordinateSystem, Axis up)
@@ -41,7 +41,7 @@ public AxisSystem(CoordinateSystem coordinateSystem, Axis up)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | coordinateSystem | CoordinateSystem | نظام الإحداثيات المستخدم في هذا نظام المحاور |
-| up | المحور | المتجه العلوي لنظام المحاور |
+| أعلى | المحور | المتجه العلوي لنظام المحاور |
 
 ### انظر أيضًا
 

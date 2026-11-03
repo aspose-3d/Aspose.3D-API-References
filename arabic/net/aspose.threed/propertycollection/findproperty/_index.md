@@ -1,14 +1,14 @@
 ---
 title: "PropertyCollection.FindProperty"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PropertyCollection. تجد الخاصية. يمكن أن تكون خاصية ديناميكية تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty أو خاصية أصلية تم التعرف عليها باسمها"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PropertyCollection. تبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty أو خاصية أصلية يتم التعرف عليها باسمها."
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/propertycollection/findproperty/
 ---
 ## PropertyCollection.FindProperty method
 
-يجد الخاصية. يمكن أن تكون خاصية ديناميكية (Created by CreateDynamicProperty/SetProperty) أو خاصية أصلية (Identified by its name)
+يبحث عن الخاصية. يمكن أن تكون خاصية ديناميكية (تم إنشاؤها بواسطة CreateDynamicProperty/SetProperty) أو خاصية أصلية (محددة باسمها).
 
 ```csharp
 public Property FindProperty(string property)
@@ -16,7 +16,7 @@ public Property FindProperty(string property)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| خاصية | سلسلة | اسم الخاصية. |
+| خاصية | String | اسم الخاصية. |
 
 ### قيمة الإرجاع
 

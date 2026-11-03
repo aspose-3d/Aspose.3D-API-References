@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.Title"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "AssetInfo خاصية. يحصل أو يضبط عنوان هذا الأصل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AssetInfo. يحصل أو يضبط عنوان هذا الأصل"
 type: docs
 weight: 170
 url: /ar/net/aspose.threed/assetinfo/title/
 ---
 ## AssetInfo.Title property
 
-الحصول أو تعيين عنوان هذا الأصل
+يحصل أو يضبط عنوان هذا الأصل
 
 ```csharp
 public string Title { get; set; }

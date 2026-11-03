@@ -1,7 +1,7 @@
 ---
 title: "Light.Color"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Light. تحصل أو تعيين لون الضوء"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Light. يحصل أو يضبط لون الضوء"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/light/color/

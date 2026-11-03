@@ -1,6 +1,6 @@
 ---
 title: "Sphere.ThetaLength"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Sphere. يحصل أو يضبط طول الثيتا"
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/sphere/thetalength/
 ---
 ## Sphere.ThetaLength property
 
-يحصل أو يضبط طول theta.
+يحصل أو يضبط طول الثيتا.
 
 ```csharp
 public double ThetaLength { get; set; }

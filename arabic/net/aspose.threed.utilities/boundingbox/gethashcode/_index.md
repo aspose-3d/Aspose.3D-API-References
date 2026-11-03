@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.GetHashCode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BoundingBox. تُعيد رمز التجزئة لهذا المثال"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BoundingBox. تُرجع رمز التجزئة لهذه الحالة"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed.utilities/boundingbox/gethashcode/
 ---
 ## BoundingBox.GetHashCode method
 
-يعيد قيمة التجزئة لهذا الكائن
+يعيد رمز التجزئة لهذا الكائن.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-رمز التجزئة للصندوق الحدودي
+رمز التجزئة لمربع الحدود
 
 ### انظر أيضًا
 

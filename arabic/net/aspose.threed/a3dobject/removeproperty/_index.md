@@ -1,7 +1,7 @@
 ---
 title: "A3DObject.RemoveProperty"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة A3DObject. إزالة خاصية ديناميكية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة A3DObject. يزيل خاصية ديناميكية"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed/a3dobject/removeproperty/
@@ -33,7 +33,7 @@ public bool RemoveProperty(Property property)
 
 ## RemoveProperty(string) {#removeproperty_1}
 
-إزالة الخاصية المحددة بالاسم
+إزالة الخاصية المحددة التي تم التعرف عليها بالاسم
 
 ```csharp
 public bool RemoveProperty(string property)
@@ -41,7 +41,7 @@ public bool RemoveProperty(string property)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| خاصية | سلسلة | أي خاصية لإزالتها |
+| خاصية | String | أي خاصية لإزالتها |
 
 ### قيمة الإرجاع
 

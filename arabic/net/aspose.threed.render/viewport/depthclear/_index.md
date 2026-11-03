@@ -1,14 +1,14 @@
 ---
 title: "Viewport.DepthClear"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Viewport. يحصل أو يضبط قيمة العمق المستخدمة عند مسح الـ viewport مع تعيين بت مخزن العمق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Viewport. الحصول أو تعيين قيمة العمق المستخدمة عند مسح الviewport مع تعيين بت مخزن العمق"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/viewport/depthclear/
 ---
 ## Viewport.DepthClear property
 
-يحصل أو يضبط قيمة العمق المستخدمة عند مسح منفذ العرض مع تعيين بت مخزن العمق.
+الحصول أو تعيين قيمة العمق المستخدمة عند مسح الviewport مع تعيين بت مخزن العمق.
 
 ```csharp
 public float DepthClear { get; set; }

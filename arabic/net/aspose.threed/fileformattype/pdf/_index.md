@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType.PDF"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "FileFormatType حقل. تنسيق المستند المحمول"
 type: docs
 weight: 160
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/fileformattype/pdf/
 ---
 ## FileFormatType.PDF field
 
-تنسيق المستندات القابلة للنقل
+تنسيق المستند المحمول
 
 ```csharp
 public static readonly FileFormatType PDF;

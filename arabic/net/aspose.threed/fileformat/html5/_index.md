@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.HTML5"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat الحقل. ملف HTML5"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. ملف HTML5"
 type: docs
 weight: 260
 url: /ar/net/aspose.threed/fileformat/html5/

@@ -1,14 +1,14 @@
 ---
 title: "Node.Material"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Node. تحصل أو تعيين المادة الأولى المرتبطة بهذه العقدة؛ إذا تم التعيين سيُمسح باقي المواد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Node. تحصل أو تعين المادة الأولى المرتبطة بهذه العقدة؛ إذا تم التعيين سيُمسح باقي المواد"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed/node/material/
 ---
 ## Node.Material property
 
-يحصل أو يعيّن المادة الأولى المرتبطة بهذه العقدة، إذا تم التعيين، سيُمسح المواد الأخرى
+تحصل أو تعين المادة الأولى المرتبطة بهذه العقدة؛ إذا تم التعيين، سيُمسح باقي المواد
 
 ```csharp
 public Material Material { get; set; }

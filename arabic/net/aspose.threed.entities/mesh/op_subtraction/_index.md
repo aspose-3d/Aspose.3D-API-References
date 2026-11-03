@@ -1,6 +1,6 @@
 ---
 title: "Mesh.op_Subtraction"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Mesh. احسب الفرق بين شبكتين"
 type: docs
 weight: 150
@@ -16,12 +16,12 @@ public static Mesh operator -(Mesh a, Mesh b)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| a | Mesh | الـ mesh الأول |
-| b | Mesh | الـ mesh الثاني |
+| a | شبكة | الشبكة الأولى |
+| b | شبكة | الشبكة الثانية |
 
 ### قيمة الإرجاع
 
-نتيجة الشبكة
+شبكة النتيجة
 
 ## أمثلة
 

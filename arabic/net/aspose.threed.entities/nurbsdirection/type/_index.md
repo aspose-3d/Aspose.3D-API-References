@@ -1,14 +1,14 @@
 ---
 title: "NurbsDirection.Type"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsDirection. يحصل أو يضبط نوع الاتجاه الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsDirection. يسترجع أو يعيّن نوع الاتجاه الحالي"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/nurbsdirection/type/
 ---
 ## NurbsDirection.Type property
 
-يحصل أو يعيّن نوع الاتجاه الحالي.
+يسترجع أو يعيّن نوع الاتجاه الحالي.
 
 ```csharp
 public NurbsType Type { get; set; }

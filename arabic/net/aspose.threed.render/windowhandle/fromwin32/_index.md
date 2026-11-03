@@ -1,7 +1,7 @@
 ---
 title: "WindowHandle.FromWin32"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة WindowHandle. نسخة HWND الأصلية في بيئة Windows"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة WindowHandle. مثيل HWND الأصلي في بيئة Windows"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/windowhandle/fromwin32/
@@ -16,7 +16,7 @@ public static WindowHandle FromWin32(IntPtr hWnd)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| hWnd | IntPtr | مقبض النافذة الأصلية Win32 |
+| hWnd | IntPtr | مقبض نافذة Win32 الأصلية |
 
 ### انظر أيضًا
 

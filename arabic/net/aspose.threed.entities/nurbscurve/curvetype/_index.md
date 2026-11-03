@@ -1,14 +1,14 @@
 ---
 title: "NurbsCurve.CurveType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsCurve. تحصل أو تعين نوع المنحنى."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsCurve. يحصل أو يضبط نوع المنحنى"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/nurbscurve/curvetype/
 ---
 ## NurbsCurve.CurveType property
 
-الحصول على أو تعيين نوع المنحنى.
+يحصل أو يضبط نوع المنحنى.
 
 ```csharp
 public NurbsType CurveType { get; set; }

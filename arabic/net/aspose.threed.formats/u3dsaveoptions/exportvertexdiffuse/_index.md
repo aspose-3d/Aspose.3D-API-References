@@ -1,14 +1,14 @@
 ---
 title: "U3dSaveOptions.ExportVertexDiffuse"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "U3dSaveOptions property. يحصل أو يضبط ما إذا كان سيتم تصدير لون الانتشار للقمم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية U3dSaveOptions. الحصول أو تعيين ما إذا كان سيتم تصدير لون الانتشار للرؤوس"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.formats/u3dsaveoptions/exportvertexdiffuse/
 ---
 ## U3dSaveOptions.ExportVertexDiffuse property
 
-يحصل أو يضبط ما إذا كان سيتم تصدير لون الانتشار للقمّة.
+الحصول أو تعيين ما إذا كان سيتم تصدير لون الانتشار للرؤوس.
 
 ```csharp
 public bool ExportVertexDiffuse { get; set; }

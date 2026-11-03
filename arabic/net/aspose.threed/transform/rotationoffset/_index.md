@@ -1,14 +1,14 @@
 ---
 title: "Transform.RotationOffset"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Transform. تحصل أو تعيّن إزاحة الدوران"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Transform. يحصل أو يضبط إزاحة الدوران"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed/transform/rotationoffset/
 ---
 ## Transform.RotationOffset property
 
-يحصل أو يعيّن إزاحة الدوران
+يحصل أو يضبط إزاحة الدوران
 
 ```csharp
 public Vector3 RotationOffset { get; set; }

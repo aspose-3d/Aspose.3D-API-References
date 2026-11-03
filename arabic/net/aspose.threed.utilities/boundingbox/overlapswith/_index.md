@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.OverlapsWith"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BoundingBox. تحقق مما إذا كان الصندوق الحدودي الحالي يتقاطع مع الصندوق الحدودي المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BoundingBox. تحقق مما إذا كان مربع الحد الحالي يتقاطع مع مربع الحد المحدد"
 type: docs
 weight: 140
 url: /ar/net/aspose.threed.utilities/boundingbox/overlapswith/
 ---
 ## BoundingBox.OverlapsWith method
 
-تحقق مما إذا كان صندوق الحدود الحالي يتقاطع مع صندوق الحدود المحدد.
+تحقق مما إذا كان صندوق الحدود الحالي يتداخل مع صندوق الحدود المحدد.
 
 ```csharp
 public bool OverlapsWith(BoundingBox box)
@@ -16,15 +16,15 @@ public bool OverlapsWith(BoundingBox box)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| صندوق | BoundingBox | الصندوق الحدودي الآخر للاختبار |
+| box | BoundingBox | مربع الحد الآخر للاختبار |
 
 ### قيمة الإرجاع
 
-صحيح إذا كان الصندوق الحدودي الحالي يتقاطع مع الصندوق المحدد.
+صحيح إذا كان مربع الحد الحالي يتقاطع مع المربع المعطى.
 
 ## أمثلة
 
-الكود التالي يوضح كيفية التحقق مما إذا كان صندوقان حدّيان يتقاطعان مع بعضهما البعض.
+الكود التالي يوضح كيفية التحقق مما إذا كان مربعا الحد يتقاطعان مع بعضهما البعض.
 
 ```csharp
 var boundingBox = new BoundingBox(0, 0, 0, 10, 10, 10);

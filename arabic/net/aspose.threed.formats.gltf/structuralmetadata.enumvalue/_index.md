@@ -1,7 +1,7 @@
 ---
-title: "Class StructuralMetadata.EnumValue"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Aspose.ThreeD.Formats.GLTF.StructuralMetadataEnumValue class."
+title: "الفئة StructuralMetadata.EnumValue"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Aspose.ThreeD.Formats.GLTF.StructuralMetadataEnumValue فئة."
 type: docs
 weight: 1230
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata.enumvalue/

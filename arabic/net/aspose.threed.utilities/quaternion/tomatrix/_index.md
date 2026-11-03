@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.ToMatrix"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. تحويل الدوران الممثَّل بالـ quaternion إلى مصفوفة تحويل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. تحويل الدوران الممثل بالكواتيرنيون إلى مصفوفة تحويل"
 type: docs
 weight: 220
 url: /ar/net/aspose.threed.utilities/quaternion/tomatrix/
 ---
 ## ToMatrix() {#tomatrix}
 
-حوّل الدوران الممثل بالكواتيرنيون إلى مصفوفة تحويل.
+تحويل الدوران الممثل بالكواتيرنيون إلى مصفوفة تحويل.
 
 ```csharp
 public Matrix4 ToMatrix()
@@ -16,7 +16,7 @@ public Matrix4 ToMatrix()
 
 ### قيمة الإرجاع
 
-تمثيل المصفوفة للـ quaternion الحالي.
+تمثيل المصفوفة للكواتيرنيون الحالي.
 
 ### انظر أيضًا
 
@@ -29,7 +29,7 @@ public Matrix4 ToMatrix()
 
 ## ToMatrix(Vector3) {#tomatrix_1}
 
-حوّل الدوران الممثل بالكواتيرنيون إلى مصفوفة تحويل.
+تحويل الدوران الممثل بالكواتيرنيون إلى مصفوفة تحويل.
 
 ```csharp
 public Matrix4 ToMatrix(Vector3 translation)
@@ -37,11 +37,11 @@ public Matrix4 ToMatrix(Vector3 translation)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| إزاحة | Vector3 | الجزء المتعلق بالترجمة في المصفوفة. |
+| إزاحة | Vector3 | جزء الترجمة من المصفوفة. |
 
 ### قيمة الإرجاع
 
-تمثيل المصفوفة للـ quaternion الحالي.
+تمثيل المصفوفة للكواتيرنيون الحالي.
 
 ### انظر أيضًا
 

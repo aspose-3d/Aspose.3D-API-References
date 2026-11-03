@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.EnumValue.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة EnumValue."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "EnumValue طريقة."
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata.enumvalue/tostring/

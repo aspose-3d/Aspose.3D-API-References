@@ -1,6 +1,6 @@
 ---
 title: "PlyFormat.Decode"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة PlyFormat. فك تشفير سحابة نقاط أو شبكة من الدفق المحدد"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats/plyformat/decode/
 ---
 ## Decode(string) {#decode_2}
 
-فك تشفير سحابة نقطية أو شبكة من الدفق المحدد.
+فك تشفير سحابة نقاط أو شبكة من الدفق المحدد.
 
 ```csharp
 public Geometry Decode(string fileName)
@@ -16,7 +16,7 @@ public Geometry Decode(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | دفق الإدخال |
+| fileName | String | دفق الإدخال |
 
 ### قيمة الإرجاع
 
@@ -44,7 +44,7 @@ var mesh = (Mesh)FileFormat.PLY.Decode("sphere.ply")
 
 ## Decode(string, PlyLoadOptions) {#decode_3}
 
-فك تشفير سحابة نقطية أو شبكة من الدفق المحدد.
+فك تشفير سحابة نقاط أو شبكة من الدفق المحدد.
 
 ```csharp
 public Geometry Decode(string fileName, PlyLoadOptions opt)
@@ -52,7 +52,7 @@ public Geometry Decode(string fileName, PlyLoadOptions opt)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | دفق الإدخال |
+| fileName | String | دفق الإدخال |
 | opt | PlyLoadOptions | خيار التحميل لتنسيق PLY |
 
 ### قيمة الإرجاع
@@ -82,7 +82,7 @@ var mesh = (Mesh)FileFormat.PLY.Decode("sphere.ply")
 
 ## Decode(Stream) {#decode}
 
-فك تشفير سحابة نقطية أو شبكة من الدفق المحدد.
+فك تشفير سحابة نقاط أو شبكة من الدفق المحدد.
 
 ```csharp
 public Geometry Decode(Stream stream)
@@ -90,7 +90,7 @@ public Geometry Decode(Stream stream)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال |
+| تدفق | تدفق | دفق الإدخال |
 
 ### قيمة الإرجاع
 
@@ -118,7 +118,7 @@ var mesh = (Mesh)FileFormat.PLY.Decode("sphere.ply")
 
 ## Decode(Stream, PlyLoadOptions) {#decode_1}
 
-فك تشفير سحابة نقطية أو شبكة من الدفق المحدد.
+فك تشفير سحابة نقاط أو شبكة من الدفق المحدد.
 
 ```csharp
 public Geometry Decode(Stream stream, PlyLoadOptions opt)
@@ -126,7 +126,7 @@ public Geometry Decode(Stream stream, PlyLoadOptions opt)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال |
+| تدفق | تدفق | دفق الإدخال |
 | opt | PlyLoadOptions | خيار التحميل لتنسيق PLY |
 
 ### قيمة الإرجاع

@@ -1,14 +1,14 @@
 ---
 title: "Texture.EnableMipMap"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Texture. يحصل أو يضبط ما إذا كان الـ mipmap مفعلاً لهذا النسيج"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Texture. يحصل أو يضبط ما إذا كان mipmap مفعلاً لهذه القوام"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.shading/texture/enablemipmap/
 ---
 ## Texture.EnableMipMap property
 
-يحصل أو يعيّن ما إذا كان mipmap مفعلاً لهذا الملمس
+يحصل أو يضبط ما إذا كان mipmap مفعلاً لهذه القوام
 
 ```csharp
 public bool EnableMipMap { get; set; }

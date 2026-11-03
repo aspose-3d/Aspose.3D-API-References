@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType.COLLADA"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "FileFormatType حقل. تنسيق ملف Collada لمجموعة Khronos"
 type: docs
 weight: 50
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/fileformattype/collada/
 ---
 ## FileFormatType.COLLADA field
 
-تنسيق ملف Collada الخاص بـ Khronos Group.
+تنسيق ملف Collada لمجموعة Khronos.
 
 ```csharp
 public static readonly FileFormatType COLLADA;

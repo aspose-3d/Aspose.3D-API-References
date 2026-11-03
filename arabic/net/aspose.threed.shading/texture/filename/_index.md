@@ -1,14 +1,14 @@
 ---
 title: "Texture.FileName"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Texture. يحصل أو يضبط ملف النسيج المرتبط"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Texture. يحصل أو يضبط ملف القوام المرتبط"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.shading/texture/filename/
 ---
 ## Texture.FileName property
 
-يحصل أو يعيّن ملف الملمس المرتبط.
+يحصل أو يضبط ملف القوام المرتبط.
 
 ```csharp
 public string FileName { get; set; }

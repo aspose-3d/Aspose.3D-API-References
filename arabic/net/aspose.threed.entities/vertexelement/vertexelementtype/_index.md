@@ -1,14 +1,14 @@
 ---
 title: "VertexElement.VertexElementType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElement property. يحصل على نوع VertexElement"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية VertexElement. تحصل على نوع VertexElement"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/vertexelement/vertexelementtype/
 ---
 ## VertexElement.VertexElementType property
 
-يحصل على نوع الـ [`VertexElement`](../)
+يحصل على نوع [`VertexElement`](../)
 
 ```csharp
 public VertexElementType VertexElementType { get; }

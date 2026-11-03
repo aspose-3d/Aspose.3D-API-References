@@ -1,14 +1,14 @@
 ---
 title: "ICommandList.BindVertexBuffer"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ICommandList. ربط مخزن القمم للتصيير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ICommandList. ربط مخزن الرؤوس للتصيير"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.render/icommandlist/bindvertexbuffer/
 ---
 ## ICommandList.BindVertexBuffer method
 
-ربط مخزن الرؤوس للعرض
+ربط مخزن الرؤوس للتصيير
 
 ```csharp
 public void BindVertexBuffer(IVertexBuffer vertexBuffer)

@@ -1,6 +1,6 @@
 ---
 title: "Light.Falloff"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Light. تحصل أو تعيين زاوية مخروط الانخفاض بالدرجات"
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/light/falloff/
 ---
 ## Light.Falloff property
 
-يحصل أو يضبط زاوية مخروط التلاشي (بالدرجات).
+تحصل أو تعيين زاوية مخروط الانخفاض (بالدرجات).
 
 ```csharp
 public double Falloff { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: "Renderer.CreateRenderer"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Renderer. تنشئ Renderer جديدًا باستخدام ملف تعريف افتراضي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Renderer. تنشئ كائن Renderer جديد مع ملف تعريف افتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/renderer/createrenderer/
@@ -14,7 +14,7 @@ url: /ar/net/aspose.threed.render/renderer/createrenderer/
 public static Renderer CreateRenderer()
 ```
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

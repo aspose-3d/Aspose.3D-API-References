@@ -1,6 +1,6 @@
 ---
 title: "Quaternion.Dot"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Quaternion. حاصل الضرب النقطي"
 type: docs
 weight: 150
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/quaternion/dot/
 ---
 ## Quaternion.Dot method
 
-ناتج الضرب النقطي
+حاصل الضرب النقطي
 
 ```csharp
 public double Dot(Quaternion q)
@@ -16,7 +16,7 @@ public double Dot(Quaternion q)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| q | كواترنيون | الـ quaternion |
+| q | كواتيرنيون | الرباعية |
 
 ### قيمة الإرجاع
 

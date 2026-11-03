@@ -1,14 +1,14 @@
 ---
 title: "VertexElementUV.VertexElementUV"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ VertexElementUV. يهيئ مثالا جديدا من فئة VertexElementUV. نوع تخطيط النسيج الافتراضي هو Diffuse"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ VertexElementUV. يُنشئ مثلاً جديدًا من الفئة VertexElementUV. نوع تخطيط النسيج الافتراضي هو Diffuse"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/vertexelementuv/vertexelementuv/
 ---
 ## VertexElementUV() {#constructor}
 
-يهيئ مثالا جديدا من الفئة [`VertexElementUV`](../). نوع تخطيط النسيج الافتراضي هو Diffuse
+يُنشئ مثلاً جديدًا من الفئة [`VertexElementUV`](../). نوع تخطيط النسيج الافتراضي هو Diffuse
 
 ```csharp
 public VertexElementUV()
@@ -24,7 +24,7 @@ public VertexElementUV()
 
 ## VertexElementUV(TextureMapping) {#constructor_1}
 
-يهيئ مثالا جديدا من الفئة [`VertexElementUV`](../).
+يُنشئ مثلاً جديدًا من الفئة [`VertexElementUV`](../).
 
 ```csharp
 public VertexElementUV(TextureMapping textureMapping)

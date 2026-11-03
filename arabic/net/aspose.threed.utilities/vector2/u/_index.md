@@ -1,14 +1,14 @@
 ---
 title: "Vector2.U"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Vector2. تحصل أو تعين المكوّن U إذا كان الـ Vector2 يُستخدم كإحداثي تخطيط. هو اسم مستعار للمكوّن x."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Vector2. تحصل أو تعين المكوّن U إذا تم استخدام الـ Vector2 كإحداثيات تخطيطية. هو اسم مستعار للمكوّن x"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.utilities/vector2/u/
 ---
 ## Vector2.U property
 
-تحصل أو تعين المكوّن U إذا كان الـ [`Vector2`](../) يُستخدم كإحداثي تخطيط. هو اسم مستعار للمكوّن x.
+يحصل أو يعيّن المكوّن U إذا تم استخدام [`Vector2`](../) كإحداثي تخطيط. إنه مرادف للمكوّن x.
 
 ```csharp
 public double U { get; set; }

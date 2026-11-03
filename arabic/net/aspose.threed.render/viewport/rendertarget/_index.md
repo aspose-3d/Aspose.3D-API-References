@@ -1,14 +1,14 @@
 ---
 title: "Viewport.RenderTarget"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Viewport. تحصل على هدف العرض الذي أنشأ هذه المنطقة العرضية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Viewport. الحصول على هدف العرض الذي أنشأ هذا الviewport"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.render/viewport/rendertarget/
 ---
 ## Viewport.RenderTarget property
 
-يحصل على هدف العرض الذي أنشأ هذا منفذ العرض.
+الحصول على هدف العرض الذي أنشأ هذا الviewport.
 
 ```csharp
 public IRenderTarget RenderTarget { get; }

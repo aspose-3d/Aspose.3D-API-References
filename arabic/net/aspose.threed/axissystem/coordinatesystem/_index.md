@@ -1,14 +1,14 @@
 ---
 title: "AxisSystem.CoordinateSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AxisSystem. يحصل على نظام الإحداثيات لهذا نظام المحاور"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AxisSystem. يسترجع نظام الإحداثيات لهذا نظام المحاور"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/axissystem/coordinatesystem/
 ---
 ## AxisSystem.CoordinateSystem property
 
-يحصل على نظام الإحداثيات لهذا نظام المحاور.
+يسترجع نظام الإحداثيات لهذا نظام المحاور.
 
 ```csharp
 public CoordinateSystem CoordinateSystem { get; }

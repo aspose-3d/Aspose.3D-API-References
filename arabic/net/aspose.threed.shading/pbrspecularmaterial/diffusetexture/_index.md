@@ -1,14 +1,14 @@
 ---
 title: "PbrSpecularMaterial.DiffuseTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrSpecularMaterial. تحصل أو تعيين الملمس للانتشار"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrSpecularMaterial. يحصل أو يضبط القوام للانتشار"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.shading/pbrspecularmaterial/diffusetexture/
 ---
 ## PbrSpecularMaterial.DiffuseTexture property
 
-يحصل أو يعيّن النسيج للانتشار
+يحصل أو يضبط القوام للانتشار
 
 ```csharp
 public TextureBase DiffuseTexture { get; set; }

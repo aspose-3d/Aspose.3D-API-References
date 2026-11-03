@@ -1,14 +1,14 @@
 ---
 title: "HalfSpace.HalfSpace"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ HalfSpace. ينشئ نسخة جديدة من HalfSpace"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ HalfSpace. ينشئ مثالًا جديدًا من HalfSpace"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/halfspace/halfspace/
 ---
 ## HalfSpace() {#constructor}
 
-ينشئ نسخة جديدة من [`HalfSpace`](../)
+ينشئ مثالًا جديدًا من فئة [`HalfSpace`](../).
 
 ```csharp
 public HalfSpace()
@@ -24,7 +24,7 @@ public HalfSpace()
 
 ## HalfSpace(Vector3, Vector3) {#constructor_1}
 
-ينشئ نسخة جديدة من [`HalfSpace`](../) باستخدام المتجه العمودي المعطى وموقع على سطح القطع؛
+ينشئ مثالًا جديدًا من [`HalfSpace`](../) باستخدام المتجه العمودي المعطى وموقع على سطح القطع؛
 
 ```csharp
 public HalfSpace(Vector3 normal, Vector3 position)

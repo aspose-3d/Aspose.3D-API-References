@@ -1,14 +1,14 @@
 ---
 title: "Rect.Top"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Rect. تسترجع أعلى المستطيل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Rect. تُرجع أعلى المستطيل"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.utilities/rect/top/
 ---
 ## Rect.Top property
 
-يسترجع أعلى المستطيل
+يُرجع أعلى المستطيل
 
 ```csharp
 public int Top { get; }

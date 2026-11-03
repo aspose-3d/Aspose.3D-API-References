@@ -1,7 +1,7 @@
 ---
 title: "TextureCodec.Encode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TextureCodec. شفّر بيانات القوام إلى الدفق باستخدام الصيغة المحددة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TextureCodec. ترميز بيانات القوام إلى الدفق باستخدام الصيغة المحددة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/texturecodec/encode/
@@ -16,11 +16,11 @@ public static void Encode(TextureData texture, Stream stream, string format)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نسيج | TextureData | القوام المراد شفّرته |
-| stream | Stream | دفق الإخراج |
-| تنسيق | سلسلة | صيغة الصورة للبيانات المشفرة، مثل png/jpg |
+| نسيج | TextureData | القوام المراد ترميزه |
+| تدفق | تدفق | دفق الإخراج |
+| تنسيق | String | صيغة الصورة للبيانات المرمّزة، مثل png/jpg |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

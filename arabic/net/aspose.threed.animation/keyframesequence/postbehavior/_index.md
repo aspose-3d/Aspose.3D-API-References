@@ -1,14 +1,14 @@
 ---
 title: "KeyframeSequence.PostBehavior"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية KeyframeSequence. يحصل على سلوك ما بعد الإطار المفتاح الذي يحدد ما يجب أن تكون عليه القيمة المعيّنة بعد الإطار المفتاح الأخير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية KeyframeSequence. يحصل على سلوك ما بعد الإطار الأخير الذي يحدد ما يجب أن تكون عليه القيمة المعيّنة بعد آخر إطار مفتاح"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.animation/keyframesequence/postbehavior/
 ---
 ## KeyframeSequence.PostBehavior property
 
-يحصل على سلوك ما بعد الذي يحدد ما يجب أن تكون عليه القيمة المُعينة بعد الإطار المفتاحي الأخير.
+يحصل على سلوك ما بعد الإطار الأخير الذي يحدد ما يجب أن تكون عليه القيمة المعيّنة بعد آخر إطار مفتاح.
 
 ```csharp
 public Extrapolation PostBehavior { get; }

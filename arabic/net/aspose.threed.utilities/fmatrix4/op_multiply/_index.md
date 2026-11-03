@@ -1,7 +1,7 @@
 ---
 title: "FMatrix4.op_Multiply"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FMatrix4 طريقة. دمج المصفوفتين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FMatrix4. دمج المصفوفتين"
 type: docs
 weight: 220
 url: /ar/net/aspose.threed.utilities/fmatrix4/op_multiply/
@@ -16,8 +16,8 @@ public static FMatrix4 operator *(FMatrix4 left, FMatrix4 right)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| اليسار | FMatrix4 | المصفوفة اليسرى للدمج |
-| اليمين | FMatrix4 | المصفوفة اليمنى للدمج |
+| يسار | FMatrix4 | المصفوفة اليسرى للدمج |
+| يمين | FMatrix4 | المصفوفة اليمنى للدمج |
 
 ### قيمة الإرجاع
 
@@ -33,7 +33,7 @@ public static FMatrix4 operator *(FMatrix4 left, FMatrix4 right)
 
 ## operator * {#op_multiply_1}
 
-ضرب المصفوفة والقيمة المزدوجة
+اضرب المصفوفة والقيمة المزدوجة
 
 ```csharp
 public static FMatrix4 operator *(FMatrix4 lhs, float v)

@@ -1,14 +1,14 @@
 ---
 title: "PhongMaterial.SpecularColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PhongMaterial. يحصل أو يعيّن لون الانعكاس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PhongMaterial. يتم الحصول على أو تعيين لون اللمعان"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.shading/phongmaterial/specularcolor/
 ---
 ## PhongMaterial.SpecularColor property
 
-يحصل أو يعيّن اللون الانعكاسي.
+يتم الحصول على أو تعيين لون اللمعان.
 
 ```csharp
 public Vector3 SpecularColor { get; set; }

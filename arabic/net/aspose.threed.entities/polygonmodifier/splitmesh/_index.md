@@ -1,14 +1,14 @@
 ---
 title: "PolygonModifier.SplitMesh"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PolygonModifier. تقسيم الشبكة إلى شبكات فرعية باستخدام VertexElementMaterial. كل شبكة فرعية ستستخدم مادة واحدة فقط. تنفيذ تقسيم الشبكة على عقدة."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PolygonModifier. تقسيم الشبكة إلى شبكات فرعية حسب VertexElementMaterial. كل شبكة فرعية ستستخدم مادة واحدة فقط. تنفيذ تقسيم الشبكة على عقدة"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.entities/polygonmodifier/splitmesh/
 ---
 ## SplitMesh(Node, SplitMeshPolicy, bool, bool) {#splitmesh_1}
 
-تقسيم الشبكة إلى شبكات فرعية باستخدام [`VertexElementMaterial`](../../vertexelementmaterial/). كل شبكة فرعية ستستخدم مادة واحدة فقط. تنفيذ تقسيم الشبكة على عقدة.
+تقسيم الشبكة إلى شبكات فرعية حسب [`VertexElementMaterial`](../../vertexelementmaterial/). كل شبكة فرعية ستستخدم مادة واحدة فقط. تنفيذ تقسيم الشبكة على عقدة
 
 ```csharp
 public static void SplitMesh(Node node, SplitMeshPolicy policy, bool createChildNodes = false, 
@@ -17,30 +17,30 @@ public static void SplitMesh(Node node, SplitMeshPolicy policy, bool createChild
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة |  |
+| العقدة | Node |  |
 | سياسة | SplitMeshPolicy |  |
-| createChildNodes | Boolean | إنشاء عقد فرعية لكل شبكة فرعية. |
-| removeOldMesh | Boolean | إزالة الشبكة القديمة بعد التقسيم، إذا كان هذا المعامل false، ستتواجد الشبكتان القديمة والجديدة معًا. |
+| createChildNodes | Boolean | إنشاء عقد فرعية لكل sub-mesh. |
+| removeOldMesh | Boolean | إزالة mesh القديمة بعد الانقسام، إذا كان هذا المعامل خاطئًا، فإن mesh القديمة والجديدة ستتواجدان معًا. |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
+الكود التالي يوضح كيفية تقسيم صندوق إلى sub meshes باستخدام مؤشرات المواد.
 
 ```csharp
-// إنشاء شبكة لصندوق (الصندوق يتكون من 6 مستويات)
+// إنشاء mesh لصندوق (الصندوق يتكون من 6 مستويات)
 Mesh box = (new Box()).ToMesh();
-// إنشاء عنصر مادة على هذه الشبكة
+// إنشاء عنصر مادة على هذا mesh
 VertexElementMaterial mat = (VertexElementMaterial)box.CreateElement(VertexElementType.Material, MappingMode.Polygon, ReferenceMode.Index);
-// وتحديد فهرس مادة مختلف لكل مستوى
+// وتحديد مؤشر مادة مختلف لكل مستوى
 mat.Indices.AddRange(new int[] { 0, 1, 2, 3, 4, 5 });
-// الآن قسّمه إلى 6 شبكات فرعية، حددنا 6 مواد مختلفة على كل سطح، كل سطح سيصبح شبكة فرعية.
-// استخدمنا سياسة CloneData، كل سطح سيحصل على نفس معلومات نقطة التحكم أو معلومات عنصر الرأس القائم على نقطة التحكم.
+// الآن نقسمه إلى 6 sub meshes، لقد حددنا 6 مواد مختلفة لكل مستوى، كل مستوى سيصبح sub mesh.
+// استخدمنا سياسة CloneData، كل مستوى سيحصل على نفس معلومات نقطة التحكم أو معلومات عنصر القمة المستندة إلى نقطة التحكم.
 Mesh[] planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CloneData);
 
-// الآن قسّمه إلى شبكتين فرعيتين، الشبكة الأولى ستحتوي على الأسطح 0/1/2، والشبكة الثانية ستحتوي على الأسطح 3/4/5.
+// الآن نقسمه إلى 2 sub meshes، الشبكة الأولى ستحتوي على المستويات 0/1/2، والشبكة الثانية ستحتوي على المستويات 3/4/5.
 mat.Indices.Clear();
 mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
-// استخدمنا سياسة CompactData، كل سطح سيحصل على معلومات نقطة التحكم الخاصة به أو معلومات عنصر الرأس القائم على نقطة التحكم.
+// استخدمنا سياسة CompactData، كل مستوى سيحصل على معلومات نقطة التحكم الخاصة به أو معلومات عنصر القمة المستندة إلى نقطة التحكم.
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 
@@ -56,7 +56,7 @@ planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 
 ## SplitMesh(Scene, SplitMeshPolicy, bool) {#splitmesh_2}
 
-تقسيم الشبكة إلى شبكات فرعية باستخدام [`VertexElementMaterial`](../../vertexelementmaterial/). كل شبكة فرعية ستستخدم مادة واحدة فقط. تنفيذ تقسيم الشبكة على جميع عقد المشهد.
+تقسيم mesh إلى sub-meshes باستخدام [`VertexElementMaterial`](../../vertexelementmaterial/). كل sub-mesh سيستخدم مادة واحدة فقط. تنفيذ تقسيم mesh على جميع العقد في المشهد.
 
 ```csharp
 public static void SplitMesh(Scene scene, SplitMeshPolicy policy, bool removeOldMesh = true)
@@ -64,29 +64,29 @@ public static void SplitMesh(Scene scene, SplitMeshPolicy policy, bool removeOld
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| scene | Scene |  |
+| المشهد | المشهد |  |
 | سياسة | SplitMeshPolicy |  |
 | removeOldMesh | Boolean |  |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
+الكود التالي يوضح كيفية تقسيم صندوق إلى sub meshes باستخدام مؤشرات المواد.
 
 ```csharp
-// إنشاء شبكة لصندوق (الصندوق يتكون من 6 مستويات)
+// إنشاء mesh لصندوق (الصندوق يتكون من 6 مستويات)
 Mesh box = (new Box()).ToMesh();
-// إنشاء عنصر مادة على هذه الشبكة
+// إنشاء عنصر مادة على هذا mesh
 VertexElementMaterial mat = (VertexElementMaterial)box.CreateElement(VertexElementType.Material, MappingMode.Polygon, ReferenceMode.Index);
-// وتحديد فهرس مادة مختلف لكل مستوى
+// وتحديد مؤشر مادة مختلف لكل مستوى
 mat.Indices.AddRange(new int[] { 0, 1, 2, 3, 4, 5 });
-// الآن قسّمه إلى 6 شبكات فرعية، حددنا 6 مواد مختلفة على كل سطح، كل سطح سيصبح شبكة فرعية.
-// استخدمنا سياسة CloneData، كل سطح سيحصل على نفس معلومات نقطة التحكم أو معلومات عنصر الرأس القائم على نقطة التحكم.
+// الآن نقسمه إلى 6 sub meshes، لقد حددنا 6 مواد مختلفة لكل مستوى، كل مستوى سيصبح sub mesh.
+// استخدمنا سياسة CloneData، كل مستوى سيحصل على نفس معلومات نقطة التحكم أو معلومات عنصر القمة المستندة إلى نقطة التحكم.
 Mesh[] planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CloneData);
 
-// الآن قسّمه إلى شبكتين فرعيتين، الشبكة الأولى ستحتوي على الأسطح 0/1/2، والشبكة الثانية ستحتوي على الأسطح 3/4/5.
+// الآن نقسمه إلى 2 sub meshes، الشبكة الأولى ستحتوي على المستويات 0/1/2، والشبكة الثانية ستحتوي على المستويات 3/4/5.
 mat.Indices.Clear();
 mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
-// استخدمنا سياسة CompactData، كل سطح سيحصل على معلومات نقطة التحكم الخاصة به أو معلومات عنصر الرأس القائم على نقطة التحكم.
+// استخدمنا سياسة CompactData، كل مستوى سيحصل على معلومات نقطة التحكم الخاصة به أو معلومات عنصر القمة المستندة إلى نقطة التحكم.
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 
@@ -102,7 +102,7 @@ planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 
 ## SplitMesh(Mesh, SplitMeshPolicy) {#splitmesh}
 
-تقسيم الشبكة إلى شبكات فرعية باستخدام [`VertexElementMaterial`](../../vertexelementmaterial/). كل شبكة فرعية ستستخدم مادة واحدة فقط. الشبكة الأصلية لن تتغير.
+تقسيم mesh إلى sub-meshes باستخدام [`VertexElementMaterial`](../../vertexelementmaterial/). كل sub-mesh سيستخدم مادة واحدة فقط. mesh الأصلي لن يتغير.
 
 ```csharp
 public static Mesh[] SplitMesh(Mesh mesh, SplitMeshPolicy policy)
@@ -114,23 +114,23 @@ public static Mesh[] SplitMesh(Mesh mesh, SplitMeshPolicy policy)
 
 ## أمثلة
 
-الكود التالي يوضح كيفية تقسيم صندوق إلى شبكات فرعية باستخدام مؤشرات المواد.
+الكود التالي يوضح كيفية تقسيم صندوق إلى sub meshes باستخدام مؤشرات المواد.
 
 ```csharp
-// إنشاء شبكة لصندوق (الصندوق يتكون من 6 مستويات)
+// إنشاء mesh لصندوق (الصندوق يتكون من 6 مستويات)
 Mesh box = (new Box()).ToMesh();
-// إنشاء عنصر مادة على هذه الشبكة
+// إنشاء عنصر مادة على هذا mesh
 VertexElementMaterial mat = (VertexElementMaterial)box.CreateElement(VertexElementType.Material, MappingMode.Polygon, ReferenceMode.Index);
-// وتحديد فهرس مادة مختلف لكل مستوى
+// وتحديد مؤشر مادة مختلف لكل مستوى
 mat.Indices.AddRange(new int[] { 0, 1, 2, 3, 4, 5 });
-// الآن قسّمه إلى 6 شبكات فرعية، حددنا 6 مواد مختلفة على كل سطح، كل سطح سيصبح شبكة فرعية.
-// استخدمنا سياسة CloneData، كل سطح سيحصل على نفس معلومات نقطة التحكم أو معلومات عنصر الرأس القائم على نقطة التحكم.
+// الآن نقسمه إلى 6 sub meshes، لقد حددنا 6 مواد مختلفة لكل مستوى، كل مستوى سيصبح sub mesh.
+// استخدمنا سياسة CloneData، كل مستوى سيحصل على نفس معلومات نقطة التحكم أو معلومات عنصر القمة المستندة إلى نقطة التحكم.
 Mesh[] planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CloneData);
 
-// الآن قسّمه إلى شبكتين فرعيتين، الشبكة الأولى ستحتوي على الأسطح 0/1/2، والشبكة الثانية ستحتوي على الأسطح 3/4/5.
+// الآن نقسمه إلى 2 sub meshes، الشبكة الأولى ستحتوي على المستويات 0/1/2، والشبكة الثانية ستحتوي على المستويات 3/4/5.
 mat.Indices.Clear();
 mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
-// استخدمنا سياسة CompactData، كل سطح سيحصل على معلومات نقطة التحكم الخاصة به أو معلومات عنصر الرأس القائم على نقطة التحكم.
+// استخدمنا سياسة CompactData، كل مستوى سيحصل على معلومات نقطة التحكم الخاصة به أو معلومات عنصر القمة المستندة إلى نقطة التحكم.
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 

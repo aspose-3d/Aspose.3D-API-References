@@ -1,14 +1,14 @@
 ---
 title: "TextureBase.MinFilter"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TextureBase. يحصل أو يضبط المرشح للتصغير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TextureBase. يحصل أو يضبط الفلتر للتصغير"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.shading/texturebase/minfilter/
 ---
 ## TextureBase.MinFilter property
 
-يسترجع أو يعيّن الفلتر للتقليل.
+يحصل أو يضبط الفلتر للتصغير.
 
 ```csharp
 public TextureFilter MinFilter { get; set; }

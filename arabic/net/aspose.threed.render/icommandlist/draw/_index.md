@@ -1,14 +1,14 @@
 ---
 title: "ICommandList.Draw"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ICommandList. رسم بدون index buffer"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ICommandList. رسم بدون مخزن الفهرس"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/icommandlist/draw/
 ---
 ## Draw(int, int) {#draw_1}
 
-ارسم بدون مخزن الفهارس
+رسم بدون مخزن الفهرس
 
 ```csharp
 public void Draw(int start, int count)
@@ -16,8 +16,8 @@ public void Draw(int start, int count)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| start | Int32 |  |
-| count | Int32 |  |
+| بدء | Int32 |  |
+| عدد | Int32 |  |
 
 ### انظر أيضًا
 
@@ -29,7 +29,7 @@ public void Draw(int start, int count)
 
 ## Draw() {#draw}
 
-ارسم بدون مخزن الفهارس
+رسم بدون مخزن الفهرس
 
 ```csharp
 public void Draw()

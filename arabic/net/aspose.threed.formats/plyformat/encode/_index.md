@@ -1,6 +1,6 @@
 ---
 title: "PlyFormat.Encode"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة PlyFormat. تشفير الكيان وحفظ النتيجة في الدفق"
 type: docs
 weight: 20
@@ -16,8 +16,8 @@ public void Encode(Entity entity, Stream stream)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان المراد تشفيره |
-| stream | Stream | الدفق للكتابة إليه، هذه الطريقة لن تغلق هذا الدفق |
+| الكيان | الكيان | الكيان للتشفير |
+| تدفق | تدفق | الدفق للكتابة إليه، هذه الطريقة لن تغلق هذا الدفق |
 
 ## أمثلة
 
@@ -25,7 +25,7 @@ public void Encode(Entity entity, Stream stream)
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//تشفير شبكة إلى صيغة PLY
+//ترميز الشبكة إلى تنسيق PLY
 FileFormat.PLY.Encode(mesh, "sphere.ply");
 ```
 
@@ -48,8 +48,8 @@ public void Encode(Entity entity, Stream stream, PlySaveOptions opt)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان المراد تشفيره |
-| stream | Stream | الدفق للكتابة إليه، هذه الطريقة لن تغلق هذا الدفق |
+| الكيان | الكيان | الكيان للتشفير |
+| تدفق | تدفق | الدفق للكتابة إليه، هذه الطريقة لن تغلق هذا الدفق |
 | opt | PlySaveOptions | خيارات الحفظ |
 
 ## أمثلة
@@ -58,7 +58,7 @@ public void Encode(Entity entity, Stream stream, PlySaveOptions opt)
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//تشفير شبكة إلى صيغة PLY
+//ترميز الشبكة إلى تنسيق PLY
 FileFormat.PLY.Encode(mesh, "sphere.ply");
 ```
 
@@ -74,7 +74,7 @@ FileFormat.PLY.Encode(mesh, "sphere.ply");
 
 ## Encode(Entity, string) {#encode_2}
 
-تشفير الكيان وحفظ النتيجة في ملف خارجي.
+ترميز الكيان وحفظ النتيجة في ملف خارجي.
 
 ```csharp
 public void Encode(Entity entity, string fileName)
@@ -82,8 +82,8 @@ public void Encode(Entity entity, string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان المراد تشفيره |
-| fileName | سلسلة | الملف المراد الكتابة إليه |
+| الكيان | الكيان | الكيان للتشفير |
+| fileName | String | الملف الذي سيُكتب إليه |
 
 ## أمثلة
 
@@ -91,7 +91,7 @@ public void Encode(Entity entity, string fileName)
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//تشفير شبكة إلى صيغة PLY
+//ترميز الشبكة إلى تنسيق PLY
 FileFormat.PLY.Encode(mesh, "sphere.ply");
 ```
 
@@ -106,7 +106,7 @@ FileFormat.PLY.Encode(mesh, "sphere.ply");
 
 ## Encode(Entity, string, PlySaveOptions) {#encode_3}
 
-تشفير الكيان وحفظ النتيجة في ملف خارجي.
+ترميز الكيان وحفظ النتيجة في ملف خارجي.
 
 ```csharp
 public void Encode(Entity entity, string fileName, PlySaveOptions opt)
@@ -114,8 +114,8 @@ public void Encode(Entity entity, string fileName, PlySaveOptions opt)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان المراد تشفيره |
-| fileName | سلسلة | الملف المراد الكتابة إليه |
+| الكيان | الكيان | الكيان للتشفير |
+| fileName | String | الملف الذي سيُكتب إليه |
 | opt | PlySaveOptions | خيارات الحفظ |
 
 ## أمثلة
@@ -124,7 +124,7 @@ public void Encode(Entity entity, string fileName, PlySaveOptions opt)
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//تشفير شبكة إلى صيغة PLY
+//ترميز الشبكة إلى تنسيق PLY
 FileFormat.PLY.Encode(mesh, "sphere.ply");
 ```
 

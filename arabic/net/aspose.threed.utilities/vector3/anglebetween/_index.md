@@ -1,6 +1,6 @@
 ---
 title: "Vector3.AngleBetween"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Vector3. احسب الزاوية الداخلية بين اتجاهين. يمكن أن يكون الاتجاهان متجهات غير مُعَدَّلة"
 type: docs
 weight: 130
@@ -16,8 +16,8 @@ public double AngleBetween(Vector3 dir, Vector3 up)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| dir | Vector3 | متجه الاتجاه للمقارنة معه |
-| up | Vector3 | متجه الصعود للسطح المشترك بين الاتجاهين |
+| dir | Vector3 | متجه الاتجاه للمقارنة به |
+| أعلى | Vector3 | متجه الأعلى للسطح المشترك بين الاتجاهين |
 
 ### قيمة الإرجاع
 
@@ -41,7 +41,7 @@ public double AngleBetween(Vector3 dir)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| dir | Vector3 | متجه الاتجاه للمقارنة معه |
+| dir | Vector3 | متجه الاتجاه للمقارنة به |
 
 ### قيمة الإرجاع
 

@@ -1,7 +1,7 @@
 ---
 title: "Quaternion.Normalize"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. قم بتطبيع الـ quaternion"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. قم بتطبيع الكواتيرنيون"
 type: docs
 weight: 200
 url: /ar/net/aspose.threed.utilities/quaternion/normalize/
@@ -16,7 +16,7 @@ public Quaternion Normalize()
 
 ### قيمة الإرجاع
 
-الـ quaternion المُطَبَّع.
+الكواتيرنيون المطبع.
 
 ### انظر أيضًا
 

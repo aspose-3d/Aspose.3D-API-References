@@ -1,14 +1,14 @@
 ---
 title: "Node.EvaluateGlobalTransform"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Node. تقييم التحويل العالمي تشمل التحويل الهندسي أم لا"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Node. قيم التحويل العالمي بما في ذلك التحويل الهندسي أم لا"
 type: docs
 weight: 180
 url: /ar/net/aspose.threed/node/evaluateglobaltransform/
 ---
 ## Node.EvaluateGlobalTransform method
 
-تقييم التحويل العالمي، تضمين التحويل الهندسي أم لا.
+قُم بتقييم التحويل العالمي، تضمّن التحويل الهندسي أم لا.
 
 ```csharp
 public Matrix4 EvaluateGlobalTransform(bool withGeometricTransform)
@@ -24,7 +24,7 @@ public Matrix4 EvaluateGlobalTransform(bool withGeometricTransform)
 
 ## أمثلة
 
-يعرض الكود التالي كيفية قراءة مصفوفة التحويل العالمي للعقدة.
+الكود التالي يوضح كيفية قراءة مصفوفة التحويل العالمي للعقدة.
 
 ```csharp
 Scene scene = new Scene();

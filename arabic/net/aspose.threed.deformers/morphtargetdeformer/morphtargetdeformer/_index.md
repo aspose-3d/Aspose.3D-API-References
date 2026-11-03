@@ -1,14 +1,14 @@
 ---
 title: "MorphTargetDeformer.MorphTargetDeformer"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ MorphTargetDeformer. يهيئ مثيلاً جديداً من فئة MorphTargetDeformer"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ MorphTargetDeformer. يهيئ نسخة جديدة من فئة MorphTargetDeformer"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.deformers/morphtargetdeformer/morphtargetdeformer/
 ---
 ## MorphTargetDeformer(string) {#constructor_1}
 
-يهيئ مثيلاً جديداً من الفئة [`MorphTargetDeformer`](../).
+يهيئ نسخة جديدة من الفئة [`MorphTargetDeformer`](../).
 
 ```csharp
 public MorphTargetDeformer(string name)
@@ -16,7 +16,7 @@ public MorphTargetDeformer(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public MorphTargetDeformer(string name)
 
 ## MorphTargetDeformer() {#constructor}
 
-يهيئ مثيلاً جديداً من الفئة [`MorphTargetDeformer`](../).
+يهيئ نسخة جديدة من الفئة [`MorphTargetDeformer`](../).
 
 ```csharp
 public MorphTargetDeformer()

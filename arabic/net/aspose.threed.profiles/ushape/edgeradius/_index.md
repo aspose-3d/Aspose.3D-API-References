@@ -1,14 +1,14 @@
 ---
 title: "UShape.EdgeRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية UShape. تحصل أو تعين نصف قطر الحافة في حافة الفلانج"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية UShape. يحصل أو يعيّن نصف قطر الحافة في حافة الفلانج"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.profiles/ushape/edgeradius/
 ---
 ## UShape.EdgeRadius property
 
-الحصول أو تعيين نصف قطر الحافة في حافة الشفة.
+يحصل أو يعيّن نصف قطر الحافة في حافة الفلانج.
 
 ```csharp
 public double EdgeRadius { get; set; }

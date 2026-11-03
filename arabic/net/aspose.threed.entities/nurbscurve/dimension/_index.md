@@ -1,14 +1,14 @@
 ---
 title: "NurbsCurve.Dimension"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsCurve. تحصل أو تعين أبعاد المنحنى."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsCurve. يحصل أو يضبط بُعد المنحنى"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/nurbscurve/dimension/
 ---
 ## NurbsCurve.Dimension property
 
-الحصول على أو تعيين أبعاد المنحنى.
+يحصل أو يضبط بُعد المنحنى.
 
 ```csharp
 public CurveDimension Dimension { get; set; }
@@ -16,7 +16,7 @@ public CurveDimension Dimension { get; set; }
 
 ## ملاحظات
 
-بالنسبة لمنحنى ثنائي الأبعاد، المكوّن z في نقطة التحكم غير مستخدم.
+بالنسبة لمنحنى ثنائي الأبعاد، مكوّن z في نقطة التحكم غير مستخدم.
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "Metered.Metered"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Metered. يهيئ نسخة جديدة من هذه الفئة"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/metered/metered/
 ---
 ## Metered constructor
 
-يُهيئ نسخة جديدة من هذه الفئة.
+يهيئ نسخة جديدة من هذه الفئة.
 
 ```csharp
 public Metered()

@@ -1,14 +1,14 @@
 ---
 title: "TextureCodec.RegisterCodec"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TextureCodec. سجل مجموعة من مشفرات ومفككات القوام"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TextureCodec. سجّل مجموعة من مشفرات وفكّ مشفرات القوام"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/texturecodec/registercodec/
 ---
 ## TextureCodec.RegisterCodec method
 
-تسجيل مجموعة من مشفرات ومفككات القوام
+سجّل مجموعة من مشفرات وفكّ مشفرات القوام
 
 ```csharp
 public static void RegisterCodec(ITextureCodec codec)
@@ -16,9 +16,9 @@ public static void RegisterCodec(ITextureCodec codec)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| مشفر | ITextureCodec |  |
+| الترميز | ITextureCodec |  |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

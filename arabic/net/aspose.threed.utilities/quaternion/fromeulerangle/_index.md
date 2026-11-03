@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.FromEulerAngle"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. تُنشئ كواتيرنيون من زاوية إيلر المعطاة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. تنشئ quaternion من زاوية إيلر المعطاة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/quaternion/fromeulerangle/
 ---
 ## FromEulerAngle(double, double, double) {#fromeulerangle_1}
 
-ينشئ Quaternion من زاوية إيلر المحددة
+تنشئ quaternion من زاوية إيلر المعطاة
 
 ```csharp
 public static Quaternion FromEulerAngle(double pitch, double yaw, double roll)
@@ -16,13 +16,13 @@ public static Quaternion FromEulerAngle(double pitch, double yaw, double roll)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الارتفاع | Double | الانحدار بالراديان |
-| yaw | Double | الانحراف بالراديان |
-| roll | Double | التدحرج بالراديان |
+| الارتفاع | مضاعف | الارتفاع بالراديان |
+| الانحراف | مضاعف | الانحراف بالراديان |
+| الدوران | مضاعف | الدوران بالراديان |
 
 ### قيمة الإرجاع
 
-الـ quaternion المُنشأ
+الكواتيرنيون المُنشأ
 
 ### انظر أيضًا
 
@@ -34,7 +34,7 @@ public static Quaternion FromEulerAngle(double pitch, double yaw, double roll)
 
 ## FromEulerAngle(Vector3) {#fromeulerangle}
 
-ينشئ Quaternion من زاوية إيلر المحددة
+تنشئ quaternion من زاوية إيلر المعطاة
 
 ```csharp
 public static Quaternion FromEulerAngle(Vector3 eulerAngle)
@@ -42,11 +42,11 @@ public static Quaternion FromEulerAngle(Vector3 eulerAngle)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| eulerAngle | Vector3 | زاوية أويلر بالراديان |
+| eulerAngle | Vector3 | زاوية إيلر بالراديان |
 
 ### قيمة الإرجاع
 
-الـ quaternion المُنشأ
+الكواتيرنيون المُنشأ
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: "StlSaveOptions.FlipCoordinateSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية StlSaveOptions. يحصل أو يعيّن ما إذا كان سيتم عكس نظام الإحداثيات لنقاط التحكم/المتجهات العادية أثناء التصدير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية StlSaveOptions. يحصل أو يضبط ما إذا كان يتم عكس نظام إحداثيات نقاط التحكم/العادي أثناء التصدير"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/stlsaveoptions/flipcoordinatesystem/
 ---
 ## StlSaveOptions.FlipCoordinateSystem property
 
-يحصل أو يضبط ما إذا كان يتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء التصدير.
+يحصل أو يضبط ما إذا كان يتم عكس نظام إحداثيات نقاط التحكم/العادي أثناء التصدير.
 
 ```csharp
 public bool FlipCoordinateSystem { get; set; }

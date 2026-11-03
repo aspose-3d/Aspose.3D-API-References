@@ -1,14 +1,14 @@
 ---
 title: "Vector2.Equals"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Vector2. تحقق مما إذا كان متجهان من النوع vector2 متساويين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Vector2. تحقق مما إذا كان المتجهان متساويين"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.utilities/vector2/equals/
 ---
 ## Equals(Vector2) {#equals}
 
-تحقق مما إذا كان متجهان Vector2 متساويين
+تحقق مما إذا كان المتجهان متساويين
 
 ```csharp
 public bool Equals(Vector2 rhs)
@@ -20,7 +20,7 @@ public bool Equals(Vector2 rhs)
 
 ### قيمة الإرجاع
 
-صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+صحيح إذا كانت جميع المكونات متساوية تمامًا.
 
 ### انظر أيضًا
 
@@ -32,7 +32,7 @@ public bool Equals(Vector2 rhs)
 
 ## Equals(object) {#equals_1}
 
-تحقق مما إذا كان متجهان Vector2 متساويين
+تحقق مما إذا كان المتجهان متساويين
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-صحيح إذا كانت جميع المكوّنات متساوية تمامًا.
+صحيح إذا كانت جميع المكونات متساوية تمامًا.
 
 ### انظر أيضًا
 

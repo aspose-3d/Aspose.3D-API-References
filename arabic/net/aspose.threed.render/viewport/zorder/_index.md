@@ -1,14 +1,14 @@
 ---
 title: "Viewport.ZOrder"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Viewport. تحصل أو تعيين ترتيب Z للمنطقة العرضية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Viewport. الحصول أو تعيين Zorder للviewport"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.render/viewport/zorder/
 ---
 ## Viewport.ZOrder property
 
-يحصل أو يضبط ترتيب Z لمنفذ العرض.
+الحصول أو تعيين Z-order للviewport.
 
 ```csharp
 public int ZOrder { get; set; }

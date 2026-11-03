@@ -1,7 +1,7 @@
 ---
 title: "Property.ValueType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Property. تحصل على نوع قيمة الخاصية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Property. يحصل على نوع قيمة الخاصية"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/property/valuetype/

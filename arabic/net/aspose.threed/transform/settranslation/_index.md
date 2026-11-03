@@ -1,14 +1,14 @@
 ---
 title: "Transform.SetTranslation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Transform. تقوم بتعيين الإزاحة للـ Transform الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Transform. يضبط إزاحة التحويل الحالي"
 type: docs
 weight: 230
 url: /ar/net/aspose.threed/transform/settranslation/
 ---
 ## Transform.SetTranslation method
 
-يضبط ترجمة التحويل الحالي.
+يضبط إزاحة التحويل الحالي.
 
 ```csharp
 public Transform SetTranslation(double tx, double ty, double tz)
@@ -16,9 +16,9 @@ public Transform SetTranslation(double tx, double ty, double tz)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| tx | Double |  |
-| ty | Double |  |
-| tz | Double |  |
+| tx | مضاعف |  |
+| ty | مضاعف |  |
+| tz | مضاعف |  |
 
 ## أمثلة
 

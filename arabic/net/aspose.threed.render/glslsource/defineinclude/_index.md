@@ -1,14 +1,14 @@
 ---
 title: "GLSLSource.DefineInclude"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة GLSLSource. تعريف ملف افتراضي للتضمين في كود مصدر GLSL"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة GLSLSource. تعريف ملف افتراضي للإدراج في شفرة مصدر GLSL"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.render/glslsource/defineinclude/
 ---
 ## GLSLSource.DefineInclude method
 
-تعريف ملف افتراضي لتضمين #include في شفرة مصدر GLSL
+تعريف ملف افتراضي لـ #include في شفرة مصدر GLSL
 
 ```csharp
 public void DefineInclude(string fileName, string content)
@@ -16,8 +16,8 @@ public void DefineInclude(string fileName, string content)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف للملف الافتراضي |
-| المحتوى | سلسلة |  |
+| fileName | String | اسم الملف للملف الافتراضي |
+| المحتوى | String |  |
 
 ### انظر أيضًا
 

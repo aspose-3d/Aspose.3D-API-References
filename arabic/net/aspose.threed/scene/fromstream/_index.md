@@ -1,14 +1,14 @@
 ---
 title: "Scene.FromStream"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Scene. تفتح المشهد من الدفق المعطى باستخدام تنسيق الملف المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Scene. يفتح المشهد من الدفق المعطى باستخدام تنسيق الملف المحدد"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed/scene/fromstream/
 ---
 ## FromStream(Stream, FileFormat, CancellationToken) {#fromstream}
 
-يفتح المشهد من الدفق المحدد باستخدام تنسيق الملف المحدد.
+يفتح المشهد من الدفق المعطى باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public static Scene FromStream(Stream stream, FileFormat format, 
@@ -17,20 +17,20 @@ public static Scene FromStream(Stream stream, FileFormat format,
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | تنسيق | FileFormat | تنسيق الملف. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إنشاء مشهد من تدفق.
+الكود التالي يوضح كيفية إنشاء مشهد من تدفق
 
 ```csharp
 using(var stream = new FileStream("input.fbx", FileMode.Open))
@@ -50,7 +50,7 @@ using(var stream = new FileStream("input.fbx", FileMode.Open))
 
 ## FromStream(Stream, LoadOptions, CancellationToken) {#fromstream_1}
 
-يفتح المشهد من الدفق المحدد باستخدام تكوين الإدخال/الإخراج المحدد.
+يفتح المشهد من التدفق المعطى باستخدام تكوين الإدخال/الإخراج المحدد.
 
 ```csharp
 public static Scene FromStream(Stream stream, LoadOptions options, 
@@ -59,20 +59,20 @@ public static Scene FromStream(Stream stream, LoadOptions options,
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| خيارات | LoadOptions | إعدادات أكثر تفصيلاً لفتح الدفق. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| الخيارات | LoadOptions | تكوين أكثر تفصيلاً لفتح التدفق. |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إنشاء مشهد من تدفق مع خيارات التحميل.
+الكود التالي يوضح كيفية إنشاء مشهد من تدفق مع خيارات التحميل
 
 ```csharp
 var opts = new FbxLoadOptions();
@@ -94,7 +94,7 @@ using(var stream = new FileStream("input.fbx", FileMode.Open))
 
 ## FromStream(Stream, CancellationToken) {#fromstream_2}
 
-يفتح المشهد من الدفق المحدد
+يفتح المشهد من التدفق المعطى
 
 ```csharp
 public static Scene FromStream(Stream stream, CancellationToken cancellationToken = default)
@@ -102,19 +102,19 @@ public static Scene FromStream(Stream stream, CancellationToken cancellationToke
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إنشاء مشهد من تدفق مع مصدر رمز إلغاء.
+الكود التالي يوضح كيفية إنشاء مشهد من تدفق مع مصدر رمز الإلغاء
 
 ```csharp
 var cts = new CancellationTokenSource();

@@ -1,14 +1,14 @@
 ---
 title: "VertexField.Semantic"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية VertexField. الدلالة الاستخدامية لهذا الحقل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "VertexField خاصية. الدلالة الاستخدامية لهذا الحقل"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.utilities/vertexfield/semantic/
 ---
 ## VertexField.Semantic property
 
-دلالة الاستخدام لهذا الحقل.
+الدلالة الاستخدامية لهذا الحقل.
 
 ```csharp
 public VertexFieldSemantic Semantic { get; }

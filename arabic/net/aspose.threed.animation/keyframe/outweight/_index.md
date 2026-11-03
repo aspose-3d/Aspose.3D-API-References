@@ -1,14 +1,14 @@
 ---
 title: "KeyFrame.OutWeight"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية KeyFrame. يحصل أو يضبط الوزن الصريح لهذا الإطار الرئيسي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية KeyFrame. يحصل أو يضبط الوزن الصريح على هذا الإطار"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.animation/keyframe/outweight/
 ---
 ## KeyFrame.OutWeight property
 
-يحصل أو يضبط الوزن الخارج (اليمين) على هذا الإطار المفتاح.
+يحصل أو يضبط الوزن الخارج (يمين) في هذا الإطار الرئيسي.
 
 ```csharp
 public float OutWeight { get; set; }

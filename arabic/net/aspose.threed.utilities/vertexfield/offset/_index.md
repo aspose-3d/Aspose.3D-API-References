@@ -1,14 +1,14 @@
 ---
 title: "VertexField.Offset"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية VertexField. الإزاحة بالبايتات لهذا الحقل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "VertexField خاصية. الإزاحة بالبايت لهذا الحقل"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/vertexfield/offset/
 ---
 ## VertexField.Offset property
 
-الإزاحة بالبايتات لهذا الحقل.
+الإزاحة بالبايت لهذا الحقل.
 
 ```csharp
 public int Offset { get; }

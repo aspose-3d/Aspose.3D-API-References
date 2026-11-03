@@ -1,7 +1,7 @@
 ---
 title: "Line.MakeDefaultIndices"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Line. توليد التسلسل 0123....ControlPoints.Length1 إلى Segments بحيث يمكن استخدام ControlPoints كخط واحد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Line. توليد التسلسل 0123....ControlPoints.Length1 إلى Segments حتى يمكن استخدام ControlPoints كخط واحد"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/line/makedefaultindices/

@@ -1,7 +1,7 @@
 ---
 title: "SceneObject.Scene"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية SceneObject. تحصل على المشهد الذي ينتمي إليه هذا الكائن"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية SceneObject. يحصل على المشهد الذي ينتمي إليه هذا الكائن"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/sceneobject/scene/

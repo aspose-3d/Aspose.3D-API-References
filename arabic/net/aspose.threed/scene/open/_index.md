@@ -1,14 +1,14 @@
 ---
 title: "Scene.Open"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Scene. تفتح المشهد من الدفق المعطى باستخدام تنسيق الملف المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Scene. يفتح المشهد من الدفق المعطى باستخدام تنسيق الملف المحدد"
 type: docs
 weight: 140
 url: /ar/net/aspose.threed/scene/open/
 ---
 ## Open(Stream, FileFormat, CancellationToken) {#open_1}
 
-يفتح المشهد من الدفق المحدد باستخدام تنسيق الملف المحدد.
+يفتح المشهد من الدفق المعطى باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Open(Stream stream, FileFormat format, CancellationToken cancellationToken = default)
@@ -16,20 +16,20 @@ public void Open(Stream stream, FileFormat format, CancellationToken cancellatio
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 | تنسيق | FileFormat | تنسيق الملف. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من الدفق
+الكود التالي يوضح كيفية فتح مشهد من تدفق
 
 ```csharp
 Scene scene = new Scene();
@@ -50,7 +50,7 @@ using (var stream = new FileStream("input.fbx", FileMode.Open))
 
 ## Open(Stream, LoadOptions, CancellationToken) {#open_2}
 
-يفتح المشهد من الدفق المحدد باستخدام تكوين الإدخال/الإخراج المحدد.
+يفتح المشهد من التدفق المعطى باستخدام تكوين الإدخال/الإخراج المحدد.
 
 ```csharp
 public void Open(Stream stream, LoadOptions options, CancellationToken cancellationToken = default)
@@ -58,20 +58,20 @@ public void Open(Stream stream, LoadOptions options, CancellationToken cancellat
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| خيارات | LoadOptions | إعدادات أكثر تفصيلاً لفتح الدفق. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| الخيارات | LoadOptions | تكوين أكثر تفصيلاً لفتح التدفق. |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من الدفق مع خيارات تحميل إضافية
+الكود التالي يوضح كيفية فتح مشهد من تدفق مع خيارات تحميل إضافية
 
 ```csharp
 Scene scene = new Scene();
@@ -94,7 +94,7 @@ using (var stream = new FileStream("input.fbx", FileMode.Open))
 
 ## Open(Stream) {#open}
 
-يفتح المشهد من الدفق المحدد
+يفتح المشهد من التدفق المعطى
 
 ```csharp
 public void Open(Stream stream)
@@ -102,18 +102,18 @@ public void Open(Stream stream)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من الدفق
+الكود التالي يوضح كيفية فتح مشهد من تدفق
 
 ```csharp
 Scene scene = new Scene();
@@ -133,7 +133,7 @@ using (var stream = new FileStream("input.fbx", FileMode.Open))
 
 ## Open(Stream, CancellationToken) {#open_3}
 
-يفتح المشهد من الدفق المحدد
+يفتح المشهد من التدفق المعطى
 
 ```csharp
 public void Open(Stream stream, CancellationToken cancellationToken)
@@ -141,19 +141,19 @@ public void Open(Stream stream, CancellationToken cancellationToken)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| تدفق | تدفق | دفق الإدخال، المستخدم مسؤول عن إغلاق الدفق. |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من الدفق مع رمز إلغاء
+الكود التالي يوضح كيفية فتح مشهد من تدفق مع رمز إلغاء
 
 ```csharp
 Scene scene = new Scene();
@@ -174,7 +174,7 @@ using (var stream = new FileStream("input.fbx", FileMode.Open))
 
 ## Open(string, FileFormat, CancellationToken) {#open_5}
 
-يفتح المشهد من المسار المحدد باستخدام تنسيق الملف المحدد.
+يفتح المشهد من المسار المعطى باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Open(string fileName, FileFormat format, CancellationToken cancellationToken = default)
@@ -182,20 +182,20 @@ public void Open(string fileName, FileFormat format, CancellationToken cancellat
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
+| fileName | String | اسم الملف. |
 | تنسيق | FileFormat | تنسيق الملف. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من اسم الملف باستخدام رمز إلغاء.
+الكود التالي يوضح كيفية فتح مشهد من اسم ملف مع رمز إلغاء
 
 ```csharp
 Scene scene = new Scene();
@@ -215,7 +215,7 @@ scene.Open("input.fbx", FileFormat.FBX7400ASCII, cts.Token);
 
 ## Open(string, LoadOptions) {#open_6}
 
-يفتح المشهد من المسار المحدد باستخدام تنسيق الملف المحدد.
+يفتح المشهد من المسار المعطى باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Open(string fileName, LoadOptions options)
@@ -223,19 +223,19 @@ public void Open(string fileName, LoadOptions options)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
-| خيارات | LoadOptions | إعدادات أكثر تفصيلاً لفتح الدفق. |
+| fileName | String | اسم الملف. |
+| الخيارات | LoadOptions | تكوين أكثر تفصيلاً لفتح التدفق. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من اسم الملف مع خيارات تحميل إضافية.
+الكود التالي يوضح كيفية فتح مشهد من اسم ملف مع خيارات تحميل إضافية
 
 ```csharp
 Scene scene = new Scene();
@@ -255,7 +255,7 @@ scene.Open("input.fbx", opts);
 
 ## Open(string, LoadOptions, CancellationToken) {#open_7}
 
-يفتح المشهد من المسار المحدد باستخدام تنسيق الملف المحدد.
+يفتح المشهد من المسار المعطى باستخدام تنسيق الملف المحدد.
 
 ```csharp
 public void Open(string fileName, LoadOptions options, CancellationToken cancellationToken)
@@ -263,20 +263,20 @@ public void Open(string fileName, LoadOptions options, CancellationToken cancell
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
-| خيارات | LoadOptions | إعدادات أكثر تفصيلاً لفتح الدفق. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| fileName | String | اسم الملف. |
+| الخيارات | LoadOptions | تكوين أكثر تفصيلاً لفتح التدفق. |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من اسم الملف مع خيارات تحميل إضافية ورمز إلغاء.
+الكود التالي يوضح كيفية فتح مشهد من اسم ملف مع خيارات تحميل إضافية ورمز إلغاء
 
 ```csharp
 var cts = new CancellationTokenSource();
@@ -297,7 +297,7 @@ scene.Open("input.fbx", opts, cts.Token);
 
 ## Open(string) {#open_4}
 
-يفتح المشهد من المسار المحدد
+يفتح المشهد من المسار المعطى
 
 ```csharp
 public void Open(string fileName)
@@ -305,18 +305,18 @@ public void Open(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
+| fileName | String | اسم الملف. |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من اسم الملف.
+الكود التالي يوضح كيفية فتح مشهد من اسم ملف
 
 ```csharp
 Scene scene = new Scene();
@@ -333,7 +333,7 @@ scene.Open("input.fbx");
 
 ## Open(string, CancellationToken) {#open_8}
 
-يفتح المشهد من المسار المحدد
+يفتح المشهد من المسار المعطى
 
 ```csharp
 public void Open(string fileName, CancellationToken cancellationToken)
@@ -341,19 +341,19 @@ public void Open(string fileName, CancellationToken cancellationToken)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف. |
-| cancellationToken | CancellationToken | رمز إلغاء لمهمة التحميل |
+| fileName | String | اسم الملف. |
+| cancellationToken | CancellationToken | رمز الإلغاء لمهمة التحميل |
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يتم إلقاؤه عندما يفشل قراءة الإدخال |
-| [ImportException](../../importexception/) | يتم إلقاؤه عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
+| IOException | يُرمى عند الفشل في قراءة الإدخال |
+| [ImportException](../../importexception/) | يُرمى عندما لا يكون الإدخال بتنسيق ثلاثي الأبعاد صالح |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية فتح مشهد من اسم الملف ومصدر رمز إلغاء.
+الكود التالي يوضح كيفية فتح مشهد من اسم ملف ومصدر رمز إلغاء
 
 ```csharp
 var cts = new CancellationTokenSource();

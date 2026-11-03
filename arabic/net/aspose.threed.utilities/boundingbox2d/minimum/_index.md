@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox2D.Minimum"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "BoundingBox2D خاصية. الزاوية الدنيا لمربع الحد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية BoundingBox2D. الزاوية الدنيا لمربع الحد"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.utilities/boundingbox2d/minimum/
 ---
 ## BoundingBox2D.Minimum property
 
-الزاوية الدنيا لصندوق الإحاطة
+الزاوية الدنيا لصندوق الحدود.
 
 ```csharp
 public Vector2 Minimum { get; }

@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.op_Multiply"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. تحميل المشغل لـ"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. تجاوز المشغل لـ"
 type: docs
 weight: 280
 url: /ar/net/aspose.threed.utilities/quaternion/op_multiply/
 ---
 ## operator * {#op_multiply_1}
 
-إعادة تعريف العامل لـ *
+إعادة تعريف المشغل لـ *
 
 ```csharp
 public static Quaternion operator *(Quaternion lhs, double rhs)
@@ -16,12 +16,12 @@ public static Quaternion operator *(Quaternion lhs, double rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| lhs | كواترنيون | الكواتيرنيون الأيسر |
-| rhs | Double | الكواتيرنيون الأيمن |
+| lhs | كواتيرنيون | الكواترنيون الأيسر |
+| rhs | مضاعف | الكواترنيون الأيمن |
 
 ### قيمة الإرجاع
 
-نتيجة الكواترنيون
+الكواترنيون الناتج
 
 ### انظر أيضًا
 
@@ -33,7 +33,7 @@ public static Quaternion operator *(Quaternion lhs, double rhs)
 
 ## operator * {#op_multiply}
 
-إعادة تعريف العامل لـ *
+إعادة تعريف المشغل لـ *
 
 ```csharp
 public static Quaternion operator *(Quaternion lhs, Quaternion rhs)
@@ -41,12 +41,12 @@ public static Quaternion operator *(Quaternion lhs, Quaternion rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| lhs | كواترنيون | الكواتيرنيون الأيسر |
-| rhs | كواترنيون | الكواتيرنيون الأيمن |
+| lhs | كواتيرنيون | الكواترنيون الأيسر |
+| rhs | كواتيرنيون | الكواترنيون الأيمن |
 
 ### قيمة الإرجاع
 
-نتيجة الكواترنيون
+الكواترنيون الناتج
 
 ### انظر أيضًا
 
@@ -58,7 +58,7 @@ public static Quaternion operator *(Quaternion lhs, Quaternion rhs)
 
 ## operator * {#op_multiply_2}
 
-إعادة تعريف العامل لـ *
+إعادة تعريف المشغل لـ *
 
 ```csharp
 public static Vector3 operator *(Quaternion q, Vector3 v)
@@ -66,8 +66,8 @@ public static Vector3 operator *(Quaternion q, Vector3 v)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| q | كواترنيون | الكواترنيون الدوراني |
-| v | Vector3 | المتجه للتدوير |
+| q | كواتيرنيون | الكواترنيون الدوراني |
+| v | Vector3 | المتجه المراد تدويره |
 
 ### قيمة الإرجاع
 
@@ -84,7 +84,7 @@ public static Vector3 operator *(Quaternion q, Vector3 v)
 
 ## operator * {#op_multiply_4}
 
-إعادة تعريف العامل لـ *
+إعادة تعريف المشغل لـ *
 
 ```csharp
 public static Vector4 operator *(Quaternion q, Vector4 v)
@@ -92,8 +92,8 @@ public static Vector4 operator *(Quaternion q, Vector4 v)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| q | كواترنيون | الكواترنيون الدوراني |
-| v | Vector4 | المتجه للتدوير |
+| q | كواتيرنيون | الكواترنيون الدوراني |
+| v | Vector4 | المتجه المراد تدويره |
 
 ### قيمة الإرجاع
 
@@ -110,7 +110,7 @@ public static Vector4 operator *(Quaternion q, Vector4 v)
 
 ## operator * {#op_multiply_3}
 
-إعادة تعريف العامل لـ *
+إعادة تعريف المشغل لـ *
 
 ```csharp
 public static Vector3 operator *(Vector3 v, Quaternion q)
@@ -119,7 +119,7 @@ public static Vector3 operator *(Vector3 v, Quaternion q)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | v | Vector3 | الكواترنيون الدوراني |
-| q | كواترنيون | المتجه للتدوير |
+| q | كواتيرنيون | المتجه المراد تدويره |
 
 ### قيمة الإرجاع
 

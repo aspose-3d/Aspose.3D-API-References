@@ -1,14 +1,14 @@
 ---
 title: "Torus.TubularSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Torus. الحصول أو تعيين مقاطع الأنابيب"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Torus. الحصول أو تعيين المقاطع الأنبوبيّة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/torus/tubularsegments/
 ---
 ## Torus.TubularSegments property
 
-يحصل أو يضبط مقاطع الأنبوب.
+يحصل أو يضبط مقاطع الأنابيب.
 
 ```csharp
 public int TubularSegments { get; set; }

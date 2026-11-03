@@ -1,14 +1,14 @@
 ---
 title: "RenderFactory.CreateRenderWindow"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderFactory. إنشاء هدف عرض يُرسم إلى النافذة الأصلية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RenderFactory. إنشاء هدف عرض يرسم إلى النافذة الأصلية"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.render/renderfactory/createrenderwindow/
 ---
 ## RenderFactory.CreateRenderWindow method
 
-إنشاء هدف عرض يُرسم إلى النافذة الأصلية.
+إنشاء هدف تصيير يُظهر إلى النافذة الأصلية.
 
 ```csharp
 public abstract IRenderWindow CreateRenderWindow(RenderParameters parameters, WindowHandle handle)
@@ -16,8 +16,8 @@ public abstract IRenderWindow CreateRenderWindow(RenderParameters parameters, Wi
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المعلمات | RenderParameters | معلمات العرض لإنشاء نافذة العرض |
-| المقبض | WindowHandle | المقبض الخاص بالنافذة للعرض |
+| المعلمات | RenderParameters | معلمات التصيير لإنشاء نافذة التصيير |
+| مقبض | WindowHandle | مقبض النافذة للتصيير |
 
 ### انظر أيضًا
 

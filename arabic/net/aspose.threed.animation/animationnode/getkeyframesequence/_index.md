@@ -1,14 +1,14 @@
 ---
 title: "AnimationNode.GetKeyframeSequence"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة AnimationNode. يحصل على تسلسل الإطارات المفتاحية على الخاصية والقناة المحددة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة AnimationNode. تحصل على تسلسل الإطارات المفتاحية للخاصية والقناة المحددة"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.animation/animationnode/getkeyframesequence/
 ---
 ## GetKeyframeSequence(A3DObject, string, string, bool) {#getkeyframesequence_1}
 
-يحصل على تسلسل الإطار الرئيسي للخاصية والقناة المحددة.
+تحصل على تسلسل الإطارات المفتاحية للخاصية والقناة المحددة.
 
 ```csharp
 public KeyframeSequence GetKeyframeSequence(A3DObject target, string propName, string channelName, 
@@ -17,9 +17,9 @@ public KeyframeSequence GetKeyframeSequence(A3DObject target, string propName, s
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الهدف | A3DObject | على أي مثيل يتم إنشاء تسلسل الإطارات المفتاحية. |
-| propName | سلسلة | اسم الخاصية. |
-| channelName | سلسلة | اسم القناة. |
+| الهدف | A3DObject | على أي نسخة إنشاء تسلسل الإطارات المفتاحية. |
+| propName | String | اسم الخاصية. |
+| channelName | String | اسم القناة. |
 | إنشاء | Boolean | إذا تم تعيينه إلى `true` أنشئ تسلسل الرسوم المتحركة إذا لم يكن موجودًا. |
 
 ### قيمة الإرجاع
@@ -38,7 +38,7 @@ public KeyframeSequence GetKeyframeSequence(A3DObject target, string propName, s
 
 ## GetKeyframeSequence(A3DObject, string, bool) {#getkeyframesequence}
 
-يحصل على تسلسل الإطار الرئيسي للخاصية المحددة.
+تحصل على تسلسل الإطارات المفتاحية للخاصية المحددة.
 
 ```csharp
 public KeyframeSequence GetKeyframeSequence(A3DObject target, string propName, bool create)
@@ -46,8 +46,8 @@ public KeyframeSequence GetKeyframeSequence(A3DObject target, string propName, b
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الهدف | A3DObject | على أي مثيل يتم إنشاء تسلسل الإطارات المفتاحية. |
-| propName | سلسلة | اسم الخاصية. |
+| الهدف | A3DObject | على أي نسخة إنشاء تسلسل الإطارات المفتاحية. |
+| propName | String | اسم الخاصية. |
 | إنشاء | Boolean | إذا تم تعيينه إلى `true`، أنشئ التسلسل إذا لم يكن موجودًا. |
 
 ### قيمة الإرجاع

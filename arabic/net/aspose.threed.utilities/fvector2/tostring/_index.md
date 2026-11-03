@@ -1,14 +1,14 @@
 ---
 title: "FVector2.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FVector2. تُعيد سلسلة تمثّل FVector2"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector2. تُرجع سلسلة تمثّل كائن FVector2"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.utilities/fvector2/tostring/
 ---
 ## FVector2.ToString method
 
-تُعيد سلسلة تمثّل [`FVector2`](../)
+يعيد سلسلة تمثل الـ [`FVector2`](../)
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-تمثيل نصي للمتجه الحالي.
+تمثيل النص للمتجه الحالي.
 
 ### انظر أيضًا
 

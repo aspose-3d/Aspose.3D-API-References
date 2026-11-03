@@ -1,14 +1,14 @@
 ---
 title: "Scene.AssetInfo"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Scene. تحصل أو تعين معلومات الأصل ذات المستوى الأعلى."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Scene. تحصل أو تعين معلومات الأصل المستوى الأعلى"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed/scene/assetinfo/
 ---
 ## Scene.AssetInfo property
 
-يحصل أو يعيّن معلومات الأصل ذات المستوى الأعلى
+تحصل أو تعين معلومات الأصل المستوى الأعلى
 
 ```csharp
 public AssetInfo AssetInfo { get; set; }

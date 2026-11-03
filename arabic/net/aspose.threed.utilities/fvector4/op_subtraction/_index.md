@@ -1,14 +1,14 @@
 ---
 title: "FVector4.op_Subtraction"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FVector4 طريقة. تحميل المشغل للطرح"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector4. تحميل المشغل للطرح"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.utilities/fvector4/op_subtraction/
 ---
 ## FVector4 Subtraction operator
 
-إعادة تعريف العامل لـ - (ناقص)
+تجاوز المشغل لـ - (ناقص)
 
 ```csharp
 public static FVector4 operator -(FVector4 lhs, FVector4 rhs)

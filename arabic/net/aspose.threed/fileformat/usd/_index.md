@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.USD"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل FileFormat. Universal Scene Description"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. وصف المشهد العالمي"
 type: docs
 weight: 370
 url: /ar/net/aspose.threed/fileformat/usd/
 ---
 ## FileFormat.USD field
 
-وصف المشهد الشامل
+وصف المشهد العالمي
 
 ```csharp
 public static readonly FileFormat USD;

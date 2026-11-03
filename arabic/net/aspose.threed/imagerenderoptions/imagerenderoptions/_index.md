@@ -1,6 +1,6 @@
 ---
 title: "ImageRenderOptions.ImageRenderOptions"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ ImageRenderOptions. يهيئ نسخة من ImageRenderOptions"
 type: docs
 weight: 10

@@ -1,14 +1,14 @@
 ---
 title: "SPIRVSource.SPIRVSource"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ SPIRVSource. منشئ مصادر الظل المعتمدة على SPIRV"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ SPIRVSource. منشئ لمصادر الشادر المستندة إلى SPIRV"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/spirvsource/spirvsource/
 ---
 ## SPIRVSource constructor
 
-منشئ مصادر المظللات المعتمدة على SPIR-V.
+منشئ لمصادر الشادر المستندة إلى SPIR-V.
 
 ```csharp
 public SPIRVSource()

@@ -1,7 +1,7 @@
 ---
 title: "DracoSaveOptions.NormalBits"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية DracoSaveOptions. عدد بتات الكمّية للمتجهات العادية القيمة الافتراضية هي 10"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية DracoSaveOptions. بتات التكميم للمتجهات العادية القيمة الافتراضية هي 10"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.formats/dracosaveoptions/normalbits/

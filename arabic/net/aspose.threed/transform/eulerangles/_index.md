@@ -1,14 +1,14 @@
 ---
 title: "Transform.EulerAngles"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Transform. تحصل أو تعين الدوران الممثل بزاوية أويلر مقاسة بالدرجة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Transform. تحصل أو تعين الدوران الممثل بزايا أويلر مقاسة بالدرجة"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/transform/eulerangles/
 ---
 ## Transform.EulerAngles property
 
-يحصل أو يعيّن الدوران الممثّل بزاويا أويلر، مقاسًا بالدرجة
+تحصل أو تعين الدوران الممثل بزايا أويلر، مقاسًا بالدرجة
 
 ```csharp
 public Vector3 EulerAngles { get; set; }

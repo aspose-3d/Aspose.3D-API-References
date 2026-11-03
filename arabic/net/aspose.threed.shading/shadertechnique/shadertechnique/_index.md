@@ -1,14 +1,14 @@
 ---
 title: "ShaderTechnique.ShaderTechnique"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ ShaderTechnique. يهيئ نسخة جديدة من الفئة ShaderTechnique"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ ShaderTechnique. يهيئ نسخة جديدة من فئة ShaderTechnique"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.shading/shadertechnique/shadertechnique/
 ---
 ## ShaderTechnique constructor
 
-يهيئ نسخة جديدة من الفئة [`ShaderTechnique`](../).
+يُهيئ نسخة جديدة من الفئة [`ShaderTechnique`](../).
 
 ```csharp
 public ShaderTechnique()

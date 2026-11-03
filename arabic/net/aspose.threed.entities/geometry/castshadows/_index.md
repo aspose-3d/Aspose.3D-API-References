@@ -1,7 +1,7 @@
 ---
 title: "Geometry.CastShadows"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Geometry property. تحصل أو تعين ما إذا كان هذا الشكل يمكنه إلقاء الظل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Geometry. يحصل أو يضبط ما إذا كانت هذه الهندسة يمكنها إلقاء الظل"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/geometry/castshadows/

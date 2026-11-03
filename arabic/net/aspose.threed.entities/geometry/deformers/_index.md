@@ -1,14 +1,14 @@
 ---
 title: "Geometry.Deformers"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Geometry property. تحصل على جميع المشوهات المرتبطة بهذا الشكل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Geometry. يحصل على جميع المشوهات المرتبطة بهذه الهندسة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/geometry/deformers/
 ---
 ## Geometry.Deformers property
 
-يحصل على جميع المغيرات المرتبطة بهذا الشكل الهندسي.
+يحصل على جميع المشوهات المرتبطة بهذه الهندسة.
 
 ```csharp
 public IList<Deformer> Deformers { get; }

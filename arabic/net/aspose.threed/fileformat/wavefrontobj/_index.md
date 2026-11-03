@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.WavefrontOBJ"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat حقل. تنسيق ملف Wavefronts Obj"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. تنسيق ملف Wavefronts Obj"
 type: docs
 weight: 410
 url: /ar/net/aspose.threed/fileformat/wavefrontobj/
 ---
 ## FileFormat.WavefrontOBJ field
 
-تنسيق ملف Obj الخاص بـ Wavefront
+تنسيق ملف Wavefront's Obj
 
 ```csharp
 public static readonly FileFormat WavefrontOBJ;

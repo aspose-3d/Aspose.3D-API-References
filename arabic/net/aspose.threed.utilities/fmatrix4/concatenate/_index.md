@@ -1,7 +1,7 @@
 ---
 title: "FMatrix4.Concatenate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FMatrix4 طريقة. يجمع المصفوفتين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FMatrix4. يجمع المصفوفتين"
 type: docs
 weight: 190
 url: /ar/net/aspose.threed.utilities/fmatrix4/concatenate/
@@ -20,7 +20,7 @@ public FMatrix4 Concatenate(FMatrix4 m2)
 
 ### قيمة الإرجاع
 
-مصفوفة4 جديدة
+جديدة matrix4
 
 ### انظر أيضًا
 
@@ -44,7 +44,7 @@ public FMatrix4 Concatenate(Matrix4 m2)
 
 ### قيمة الإرجاع
 
-مصفوفة4 جديدة
+جديدة matrix4
 
 ### انظر أيضًا
 

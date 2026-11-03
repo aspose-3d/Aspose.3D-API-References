@@ -1,6 +1,6 @@
 ---
 title: "RvmSaveOptions.FileNote"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RvmSaveOptions. ملاحظة الملف في رأس الملف"
 type: docs
 weight: 70
@@ -26,7 +26,7 @@ var boxNode = scene.RootNode.CreateChildNode("box", box);
 boxNode.SetProperty("rvm:Price", 12.0);
 boxNode.SetProperty("rvm:Weight", 30.0);
 var opt = new RvmSaveOptions();
-//الخصائص ذات البادئة rvm: سيتم تصديرها.
+//الخصائص التي لها بادئة rvm: سيتم تصديرها.
 opt.ExportAttributes = true;
 opt.AttributePrefix = "rvm:";
 opt.Author = "Aspose.3D";

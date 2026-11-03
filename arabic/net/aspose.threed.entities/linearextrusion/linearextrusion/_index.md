@@ -1,14 +1,14 @@
 ---
 title: "LinearExtrusion.LinearExtrusion"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ LinearExtrusion. منشئ مثيل LinearExtrusion"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ LinearExtrusion. منشئ كائن LinearExtrusion"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/linearextrusion/linearextrusion/
 ---
 ## LinearExtrusion() {#constructor}
 
-منشئ مثيل [`LinearExtrusion`](../).
+منشئ كائن [`LinearExtrusion`](../).
 
 ```csharp
 public LinearExtrusion()
@@ -24,7 +24,7 @@ public LinearExtrusion()
 
 ## LinearExtrusion(Profile, double) {#constructor_1}
 
-منشئ مثيل [`LinearExtrusion`](../).
+منشئ كائن [`LinearExtrusion`](../).
 
 ```csharp
 public LinearExtrusion(Profile shape, double height)

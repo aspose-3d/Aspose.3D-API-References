@@ -1,7 +1,7 @@
 ---
 title: "IMeshConvertible.ToMesh"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة IMeshConvertible. تحويل الكائن الحالي إلى شبكة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة IMeshConvertible. حوّل الكائن الحالي إلى شبكة"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/imeshconvertible/tomesh/

@@ -1,7 +1,7 @@
 ---
 title: "ShaderMaterial.Techniques"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ShaderMaterial. تحصل على جميع التقنيات المتاحة المعرفة في هذه المادة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ShaderMaterial. يحصل على جميع التقنيات المتاحة المعرفة في هذه المادة"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.shading/shadermaterial/techniques/

@@ -1,6 +1,6 @@
 ---
 title: "ExportException.ExportException"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ ExportException. يهيئ نسخة جديدة"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/exportexception/exportexception/
 ---
 ## ExportException constructor
 
-يُنشئ مثيلًا جديدًا
+يهيئ نسخة جديدة
 
 ```csharp
 public ExportException(string msg)
@@ -16,7 +16,7 @@ public ExportException(string msg)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| رسالة | سلسلة | رسالة الخطأ |
+| msg | String | رسالة الخطأ |
 
 ### انظر أيضًا
 

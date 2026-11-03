@@ -1,6 +1,6 @@
 ---
 title: "KeyFrame.Time"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية KeyFrame. يحصل أو يضبط موضع الوقت لإطار المفتاح list.dataindex مقاسًا بالثواني"
 type: docs
 weight: 140

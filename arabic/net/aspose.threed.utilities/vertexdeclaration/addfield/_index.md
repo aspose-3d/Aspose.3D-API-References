@@ -1,14 +1,14 @@
 ---
 title: "VertexDeclaration.AddField"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة VertexDeclaration. أضف حقل رأس جديد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexDeclaration. إضافة حقل رأس جديد"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.utilities/vertexdeclaration/addfield/
 ---
 ## VertexDeclaration.AddField method
 
-أضف حقل رأس جديد
+إضافة حقل رأس جديد
 
 ```csharp
 public VertexField AddField(VertexFieldDataType dataType, VertexFieldSemantic semantic, 
@@ -19,8 +19,8 @@ public VertexField AddField(VertexFieldDataType dataType, VertexFieldSemantic se
 | --- | --- | --- |
 | dataType | VertexFieldDataType | نوع البيانات لحقل الرأس |
 | دلالي | VertexFieldSemantic | كيف سيُستخدم هذا الحقل |
-| المؤشر | Int32 | الفهرس للمعنى نفسه للحقل، -1 للتوليد التلقائي |
-| اسم مستعار | سلسلة | الاسم المستعار للحقل |
+| index | Int32 | الفهرس للمعنى نفسه للحقل، -1 للتوليد التلقائي |
+| الاسم المستعار | String | الاسم المستعار للحقل |
 
 ### انظر أيضًا
 

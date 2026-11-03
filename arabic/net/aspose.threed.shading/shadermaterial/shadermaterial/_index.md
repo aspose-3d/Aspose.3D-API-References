@@ -1,6 +1,6 @@
 ---
 title: "ShaderMaterial.ShaderMaterial"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ ShaderMaterial. يهيئ نسخة جديدة من فئة ShaderMaterial"
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ public ShaderMaterial(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 

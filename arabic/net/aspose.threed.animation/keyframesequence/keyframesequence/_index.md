@@ -1,14 +1,14 @@
 ---
 title: "KeyframeSequence.KeyframeSequence"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ KeyframeSequence. يهيئ مثالًا جديدًا من فئة KeyframeSequence"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "المُنشئ KeyframeSequence. يهيئ مثيلًا جديدًا من فئة KeyframeSequence"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.animation/keyframesequence/keyframesequence/
 ---
 ## KeyframeSequence(string) {#constructor_1}
 
-يهيئ مثالًا جديدًا من فئة [`KeyframeSequence`](../).
+يُهيئ مثيلًا جديدًا من الفئة [`KeyframeSequence`](../).
 
 ```csharp
 public KeyframeSequence(string name)
@@ -16,7 +16,7 @@ public KeyframeSequence(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public KeyframeSequence(string name)
 
 ## KeyframeSequence() {#constructor}
 
-يهيئ مثالًا جديدًا من فئة [`KeyframeSequence`](../).
+يُهيئ مثيلًا جديدًا من الفئة [`KeyframeSequence`](../).
 
 ```csharp
 public KeyframeSequence()

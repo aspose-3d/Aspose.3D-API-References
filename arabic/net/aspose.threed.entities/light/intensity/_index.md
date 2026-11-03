@@ -1,7 +1,7 @@
 ---
 title: "Light.Intensity"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Light. تحصل أو تعيين شدة الضوء القيمة الافتراضية هي 100"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Light. يحصل أو يضبط شدة الضوء القيمة الافتراضية هي 100"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/light/intensity/

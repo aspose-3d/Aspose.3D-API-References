@@ -1,14 +1,14 @@
 ---
 title: "Viewport.Area"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Viewport. يحصل أو يضبط مساحة الـ viewport في هدف العرض"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Viewport. الحصول أو تعيين مساحة الviewport في هدف العرض"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/viewport/area/
 ---
 ## Viewport.Area property
 
-يحصل أو يضبط مساحة منفذ العرض في هدف العرض.
+الحصول أو تعيين مساحة الviewport في هدف العرض.
 
 ```csharp
 public RelativeRectangle Area { get; set; }

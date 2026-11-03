@@ -1,14 +1,14 @@
 ---
 title: "PdfSaveOptions.AuxiliaryColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PdfSaveOptions. يحصل أو يضبط اللون المساعد الذي يُستخدم عند عرض المحتوى ثلاثي الأبعاد. تفسير هذا اللون يعتمد على RenderMode"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PdfSaveOptions. يحصل أو يضبط اللون المساعد الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. تفسير هذا اللون يعتمد على RenderMode"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/pdfsaveoptions/auxiliarycolor/
 ---
 ## PdfSaveOptions.AuxiliaryColor property
 
-يحصل أو يضبط اللون المساعد الذي يُستخدم عند عرض المحتوى ثلاثي الأبعاد. تفسير هذا اللون يعتمد على [`RenderMode`](../rendermode/)
+يحصل أو يضبط اللون المساعد الذي سيُستخدم عند عرض المحتوى ثلاثي الأبعاد. تفسير هذا اللون يعتمد على [`RenderMode`](../rendermode/)
 
 ```csharp
 public Vector3 AuxiliaryColor { get; set; }

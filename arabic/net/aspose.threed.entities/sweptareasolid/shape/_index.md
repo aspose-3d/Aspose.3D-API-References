@@ -1,14 +1,14 @@
 ---
 title: "SweptAreaSolid.Shape"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية SweptAreaSolid. الملف الأساسي لإنشاء الهندسة."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية SweptAreaSolid. الملف الأساسي لإنشاء الهندسة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/sweptareasolid/shape/
 ---
 ## SweptAreaSolid.Shape property
 
-ملف التعريف الأساسي لإنشاء الهندسة.
+الملف الأساسي لإنشاء الهندسة.
 
 ```csharp
 public Profile Shape { get; set; }

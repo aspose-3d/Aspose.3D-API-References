@@ -1,7 +1,7 @@
 ---
-title: "Metered.GetConsumptionQuantity"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Metered. يحصل على حجم ملف الاستهلاك"
+title: "طريقة Metered. يحصل على حجم ملف الاستهلاك"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة مقنّاة. يحصل على حجم ملف الاستهلاك"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/metered/getconsumptionquantity/

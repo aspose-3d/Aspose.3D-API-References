@@ -1,14 +1,14 @@
 ---
 title: "PbrSpecularMaterial.SpecularGlossinessTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrSpecularMaterial. تحصل أو تعين النسيج لقناة اللون الانعكاسي. قناة RGB تخزن اللون الانعكاسي وقناة A تخزن اللمعان"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrSpecularMaterial. يحصل أو يعيّن النسيج للون الانعكاس، القناة RGB تخزن لون الانعكاس والقناة A تخزن اللمعان"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.shading/pbrspecularmaterial/specularglossinesstexture/
 ---
 ## PbrSpecularMaterial.SpecularGlossinessTexture property
 
-يحصل أو يعيّن النسيج للون الانعكاسي، القناة RGB تخزن اللون الانعكاسي والقناة A تخزن اللمعان.
+يحصل أو يعيّن النسيج للون الانعكاس، القناة RGB تخزن لون الانعكاس والقناة A تخزن اللمعان.
 
 ```csharp
 public TextureBase SpecularGlossinessTexture { get; set; }

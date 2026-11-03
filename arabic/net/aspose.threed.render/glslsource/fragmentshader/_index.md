@@ -1,14 +1,14 @@
 ---
 title: "GLSLSource.FragmentShader"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GLSLSource. تحصل أو تعيين كود المصدر لظل التجزئة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية GLSLSource. الحصول على أو تعيين شفرة المصدر للـ fragment shader"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/glslsource/fragmentshader/
 ---
 ## GLSLSource.FragmentShader property
 
-يحصل أو يحدد شفرة المصدر للمظلّل الجزئي.
+تحصل أو تعين شفرة المصدر لمعالج القطع.
 
 ```csharp
 public string FragmentShader { get; set; }

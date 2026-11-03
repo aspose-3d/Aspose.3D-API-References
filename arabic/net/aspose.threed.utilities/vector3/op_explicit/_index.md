@@ -1,6 +1,6 @@
 ---
 title: "Vector3.op_Explicit"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Vector3."
 type: docs
 weight: 270

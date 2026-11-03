@@ -1,14 +1,14 @@
 ---
 title: "TShape.FlangeEdgeRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TShape. يسترجع أو يعيّن نصف قطر حافة الوشي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TShape. يسترجع أو يعيّن نصف قطر حافة الشفة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.profiles/tshape/flangeedgeradius/
 ---
 ## TShape.FlangeEdgeRadius property
 
-يحصل أو يعيّن نصف قطر حافة الشفة.
+يسترجع أو يعيّن نصف قطر حافة الشفة.
 
 ```csharp
 public double FlangeEdgeRadius { get; set; }

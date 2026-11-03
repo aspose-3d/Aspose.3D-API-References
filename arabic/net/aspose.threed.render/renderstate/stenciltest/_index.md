@@ -1,7 +1,7 @@
 ---
 title: "RenderState.StencilTest"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RenderState. تمكين أو تعطيل اختبار الستينسل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "RenderState خاصية. تمكين أو تعطيل اختبار القالب"
 type: docs
 weight: 180
 url: /ar/net/aspose.threed.render/renderstate/stenciltest/

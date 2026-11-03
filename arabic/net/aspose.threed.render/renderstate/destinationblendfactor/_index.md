@@ -1,14 +1,14 @@
 ---
 title: "RenderState.DestinationBlendFactor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RenderState. يحصل أو يضبط كيفية دمج اللون"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RenderState. يحصل أو يضبط كيفية خلط اللون"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.render/renderstate/destinationblendfactor/
 ---
 ## RenderState.DestinationBlendFactor property
 
-يحصل أو يعيّن طريقة دمج اللون.
+يحصل أو يضبط كيفية خلط اللون.
 
 ```csharp
 public BlendFactor DestinationBlendFactor { get; set; }

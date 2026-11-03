@@ -1,14 +1,14 @@
 ---
 title: "RvmLoadOptions.AttributePrefix"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RvmLoadOptions. الحصول على أو تعيين بادئة السمات التي تم تعريفها في ملفات السمات الخارجية. تُستخدم البادئة لتجنب تعارض الأسماء. القيمة الافتراضية هي rvm"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RvmLoadOptions. الحصول على أو تعيين بادئة السمات التي تم تعريفها في ملفات السمات الخارجية. تُستخدم البادئة لتجنب تعارض الأسماء، القيمة الافتراضية هي rvm"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/rvmloadoptions/attributeprefix/
 ---
 ## RvmLoadOptions.AttributePrefix property
 
-يحصل أو يعيّن بادئة السمات التي تم تعريفها في ملفات السمات الخارجية، تُستخدم البادئة لتجنب تعارض الأسماء، القيمة الافتراضية هي "rvm:"
+الحصول على أو تعيين بادئة السمات التي تم تعريفها في ملفات السمات الخارجية، تُستخدم البادئة لتجنب تعارض الأسماء، القيمة الافتراضية هي "rvm:"
 
 ```csharp
 public string AttributePrefix { get; set; }

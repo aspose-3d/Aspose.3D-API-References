@@ -1,6 +1,6 @@
 ---
 title: "A3dwSaveOptions.A3dwSaveOptions"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ A3dwSaveOptions. منشئ A3dwSaveOptions"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats/a3dwsaveoptions/a3dwsaveoptions/
 ---
 ## A3dwSaveOptions constructor
 
-منشئ لـ [`A3dwSaveOptions`](../)
+منشئ [`A3dwSaveOptions`](../)
 
 ```csharp
 public A3dwSaveOptions()

@@ -1,6 +1,6 @@
 ---
 title: "Frustum.Target"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Frustum. يحصل أو يضبط الهدف الذي تنظر إليه الكاميرا. إذا كان المستخدم يدعم هذه الخاصية يجب أن تكون قبل خاصية LookAt"
 type: docs
 weight: 80

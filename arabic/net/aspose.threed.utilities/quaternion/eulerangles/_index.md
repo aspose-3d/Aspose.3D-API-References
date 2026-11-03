@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.EulerAngles"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. يحول الكواتيرنيون إلى دوران ممثل بزاوئ إيلر. جميع المكونات بالراديان"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. تحول الكواترنيون إلى دوران ممثل بزاويات أويلر. جميع المكونات بالراديان"
 type: docs
 weight: 170
 url: /ar/net/aspose.threed.utilities/quaternion/eulerangles/
 ---
 ## Quaternion.EulerAngles method
 
-يحول الكواتيرنيون إلى دوران ممثل بزايا أويلر. جميع المكونات بالراديان
+تحول الكواترنيون إلى دوران ممثل بزاويات أويلر. جميع المكونات بالراديان
 
 ```csharp
 public Vector3 EulerAngles()

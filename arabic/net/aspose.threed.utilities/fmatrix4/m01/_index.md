@@ -1,7 +1,7 @@
 ---
 title: "FMatrix4.m01"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FMatrix4 حقل. الـ m01"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FMatrix4 حقل. ال m01"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/fmatrix4/m01/

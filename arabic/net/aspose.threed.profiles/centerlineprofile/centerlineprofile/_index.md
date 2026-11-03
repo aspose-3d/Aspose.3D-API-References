@@ -1,14 +1,14 @@
 ---
 title: "CenterLineProfile.CenterLineProfile"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ CenterLineProfile. ينشئ CenterLineProfile جديد بمنحنى محدد كخط مركزي."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ CenterLineProfile. ينشئ CenterLineProfile جديدًا بالمنحنى المحدد كخط مركزي"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.profiles/centerlineprofile/centerlineprofile/
 ---
 ## CenterLineProfile constructor
 
-ينشئ [`CenterLineProfile`](../) جديد بمنحنى محدد كخط مركزي.
+ينشئ [`CenterLineProfile`](../) جديدًا بالمنحنى المحدد كخط مركزي.
 
 ```csharp
 public CenterLineProfile(Curve curve, double thickness = 1m)
@@ -17,7 +17,7 @@ public CenterLineProfile(Curve curve, double thickness = 1m)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | منحنى | منحنى | منحنى الخط المركزي |
-| السماكة | Double | السُمك المطبق على طول الخط المركزي |
+| السُمك | مضاعف | السُمك المطبق على طول الخط المركزي |
 
 ### انظر أيضًا
 

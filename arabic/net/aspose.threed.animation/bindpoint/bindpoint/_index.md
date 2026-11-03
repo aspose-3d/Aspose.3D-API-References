@@ -1,6 +1,6 @@
 ---
 title: "BindPoint.BindPoint"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ BindPoint. يهيئ نسخة جديدة من فئة BindPoint"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/bindpoint/bindpoint/
 ---
 ## BindPoint constructor
 
-يهيئ نسخة جديدة من الفئة [`BindPoint`](../).
+يُهيئ نسخة جديدة من الفئة [`BindPoint`](../).
 
 ```csharp
 public BindPoint(Scene scene, Property prop)
@@ -16,8 +16,8 @@ public BindPoint(Scene scene, Property prop)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| scene | Scene | المشهد الذي يحتوي على الرسوم المتحركة. |
-| prop | خاصية | خاصية. |
+| المشهد | المشهد | المشهد الذي يحتوي على الرسوم المتحركة. |
+| خاصية | خاصية | خاصية. |
 
 ### انظر أيضًا
 

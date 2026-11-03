@@ -1,7 +1,7 @@
 ---
 title: "RendererVariableManager.ViewportSize"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RendererVariableManager. حجم مساحة العرض مقاسًا بالبكسل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RendererVariableManager. حجم نافذة العرض مقاسًا بالبكسل"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed.render/renderervariablemanager/viewportsize/

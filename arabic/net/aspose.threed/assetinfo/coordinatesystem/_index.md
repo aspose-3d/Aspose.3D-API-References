@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.CoordinateSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "AssetInfo خاصية. يحصل أو يضبط نظام الإحداثيات المستخدم في هذا الأصل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AssetInfo. يحصل أو يضبط نظام الإحداثيات المستخدم في هذا الأصل"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed/assetinfo/coordinatesystem/
 ---
 ## AssetInfo.CoordinateSystem property
 
-الحصول أو تعيين نظام الإحداثيات المستخدم في هذا الأصل.
+يحصل أو يضبط نظام الإحداثيات المستخدم في هذا الأصل.
 
 ```csharp
 public CoordinateSystem? CoordinateSystem { get; set; }

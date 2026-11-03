@@ -1,14 +1,14 @@
 ---
 title: "KeyFrame.NextInWeight"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية KeyFrame. يحصل أو يضبط الوزن الداخلي التالي لهذا إطار المفتاح"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية KeyFrame. يحصل أو يضبط الوزن التالي داخل اليسار على هذا الإطار"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.animation/keyframe/nextinweight/
 ---
 ## KeyFrame.NextInWeight property
 
-يحصل أو يضبط الوزن الداخل (اليسار) التالي على هذا الإطار المفتاح.
+يحصل أو يضبط الوزن التالي داخل (اليسار) على هذا الإطار.
 
 ```csharp
 public float NextInWeight { get; set; }

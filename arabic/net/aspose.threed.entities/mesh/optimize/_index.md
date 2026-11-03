@@ -1,14 +1,14 @@
 ---
 title: "Mesh.Optimize"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Mesh. تحسين استخدام الذاكرة للـ meshs عن طريق إزالة duplicated control points"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Mesh. تحسين استخدام الذاكرة للشبكة عن طريق إزالة نقاط التحكم المكررة"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.entities/mesh/optimize/
 ---
 ## Optimize(bool) {#optimize}
 
-حسّن استخدام الذاكرة للشبكة عن طريق إزالة نقاط التحكم المكررة
+تحسين استخدام الذاكرة للشبكة عن طريق إزالة نقاط التحكم المكررة
 
 ```csharp
 public Mesh Optimize(bool vertexElements)
@@ -20,16 +20,16 @@ public Mesh Optimize(bool vertexElements)
 
 ### قيمة الإرجاع
 
-مثيل mesh جديد باستخدام ذاكرة مضغوطة
+مثيل شبكة جديد باستخدام ذاكرة مدمجة
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إزالة duplicated control points من mesh غير محسّن:
+الكود التالي يوضح كيفية إزالة نقاط التحكم المكررة من شبكة غير مُحسّنة:
 
 ```csharp
-//Sphere.ToMesh يولد 117 control points
+//Sphere.ToMesh يولد 117 نقطة تحكم
 var mesh = (new Sphere()).ToMesh();
-//بعد التحسين، لا يتبقّى سوى 86 control points، كما تم إعادة تعيين مؤشرات المضلع.
+//بعد التحسين، لا توجد سوى 86 نقطة تحكم، كما تم إعادة تعيين مؤشرات المضلعات.
 var optimized = mesh.Optimize(true);
 ```
 
@@ -43,7 +43,7 @@ var optimized = mesh.Optimize(true);
 
 ## Optimize(bool, float, float, float) {#optimize_1}
 
-حسّن استخدام الذاكرة للشبكة عن طريق إزالة نقاط التحكم المكررة
+تحسين استخدام الذاكرة للشبكة عن طريق إزالة نقاط التحكم المكررة
 
 ```csharp
 public Mesh Optimize(bool vertexElements, float toleranceControlPoint = 1E-09, 
@@ -54,12 +54,12 @@ public Mesh Optimize(bool vertexElements, float toleranceControlPoint = 1E-09,
 | --- | --- | --- |
 | vertexElements | Boolean | تحسين بيانات عناصر الرؤوس المكررة |
 | toleranceControlPoint | Single | التحمل لنقطة التحكم، القيمة الافتراضية هي 1e-9 |
-| toleranceNormal | Single | التحمل للـ normal/tangent/binormal، القيمة الافتراضية هي 1e-9 |
+| toleranceNormal | Single | التحمل للمتجه العادي/المماس/الثنائي القاعدة، القيمة الافتراضية هي 1e-9 |
 | toleranceUV | Single | التحمل للـ uv، القيمة الافتراضية هي 1e-9 |
 
 ### قيمة الإرجاع
 
-مثيل mesh جديد باستخدام ذاكرة مضغوطة
+مثيل شبكة جديد باستخدام ذاكرة مدمجة
 
 ### انظر أيضًا
 

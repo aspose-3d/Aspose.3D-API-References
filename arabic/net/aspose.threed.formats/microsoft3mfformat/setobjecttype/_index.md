@@ -1,14 +1,14 @@
 ---
 title: "Microsoft3MFFormat.SetObjectType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Microsoft3MFFormat. تعيين نوع النموذج للعقدة المحددة. القيم الممكنة model surface solidsupport support other"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Microsoft3MFFormat. ضبط نوع النموذج للعقدة المحددة. القيم الممكنة: model surface solidsupport support other"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.formats/microsoft3mfformat/setobjecttype/
 ---
 ## Microsoft3MFFormat.SetObjectType method
 
-حدد نوع النموذج للعقدة المحددة. القيم الممكنة: model surface solidsupport support other
+ضبط نوع النموذج للعقدة المحددة. القيم الممكنة: model surface solidsupport support other
 
 ```csharp
 public void SetObjectType(Node node, string modelType)
@@ -16,8 +16,8 @@ public void SetObjectType(Node node, string modelType)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة |  |
-| modelType | سلسلة |  |
+| العقدة | Node |  |
+| modelType | String |  |
 
 ### انظر أيضًا
 

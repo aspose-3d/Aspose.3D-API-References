@@ -1,6 +1,6 @@
 ---
 title: "Deformer.Owner"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Deformer. يحصل على الهندسة التي تملك هذا المشوه"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.deformers/deformer/owner/
 ---
 ## Deformer.Owner property
 
-يحصل على الهندسة التي تملك هذا المشكّل
+يحصل على الهندسة التي تملك هذا المشوه
 
 ```csharp
 public Geometry Owner { get; }

@@ -1,6 +1,6 @@
 ---
 title: "AnimationClip.AnimationClip"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ AnimationClip. يهيئ مثالًا جديدًا من فئة AnimationClip"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/animationclip/animationclip/
 ---
 ## AnimationClip() {#constructor}
 
-يهيئ مثالًا جديدًا من فئة [`AnimationClip`](../).
+يهيئ مثالًا جديدًا من الفئة [`AnimationClip`](../).
 
 ```csharp
 public AnimationClip()
@@ -24,7 +24,7 @@ public AnimationClip()
 
 ## AnimationClip(string) {#constructor_1}
 
-يهيئ مثالًا جديدًا من فئة [`AnimationClip`](../).
+يهيئ مثالًا جديدًا من الفئة [`AnimationClip`](../).
 
 ```csharp
 public AnimationClip(string name)
@@ -32,7 +32,7 @@ public AnimationClip(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 

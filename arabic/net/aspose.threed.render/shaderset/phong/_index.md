@@ -1,14 +1,14 @@
 ---
 title: "ShaderSet.Phong"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ShaderSet. الحصول أو تعيين المظلل المستخدم لتصيير مادة Phong"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ShaderSet. تحصل أو تعين المظلّل الذي يُستخدم لتصيير مادة الفونغ"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/shaderset/phong/
 ---
 ## ShaderSet.Phong property
 
-يحصل أو يعيّن المُظلل المستخدم لتصوير مادة فونغ
+تحصل أو تعين المظلّل الذي يُستخدم لتصيير مادة الفونغ
 
 ```csharp
 public ShaderProgram Phong { get; set; }

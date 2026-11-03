@@ -1,7 +1,7 @@
 ---
 title: "VertexField.DataType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية VertexField. نوع البيانات لهذا الحقل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "VertexField خاصية. نوع البيانات لهذا الحقل"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/vertexfield/datatype/

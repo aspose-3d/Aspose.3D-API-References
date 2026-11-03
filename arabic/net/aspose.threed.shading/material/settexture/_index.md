@@ -1,14 +1,14 @@
 ---
 title: "Material.SetTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Material. يضبط النسيج في الفتحة المحددة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Material. يعيّن النسيج إلى الفتحة المحددة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.shading/material/settexture/
 ---
 ## Material.SetTexture method
 
-يعيّن القوام إلى الفتحة المحددة
+يعيّن النسيج إلى الفتحة المحددة
 
 ```csharp
 public void SetTexture(string slotName, TextureBase texture)
@@ -16,8 +16,8 @@ public void SetTexture(string slotName, TextureBase texture)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| slotName | سلسلة | اسم الفتحة. |
-| نسيج | TextureBase | Texture. |
+| slotName | String | اسم الفتحة. |
+| نسيج | TextureBase | نسيج. |
 
 ## أمثلة
 

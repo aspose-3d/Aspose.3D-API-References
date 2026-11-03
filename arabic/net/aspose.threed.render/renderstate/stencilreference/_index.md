@@ -1,14 +1,14 @@
 ---
 title: "RenderState.StencilReference"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RenderState. يحصل أو يضبط القيمة المرجعية لاختبار القالب"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "RenderState خاصية. الحصول أو تعيين قيمة المرجع لاختبار القالب"
 type: docs
 weight: 170
 url: /ar/net/aspose.threed.render/renderstate/stencilreference/
 ---
 ## RenderState.StencilReference property
 
-يحصل أو يعيّن القيمة المرجعية لاختبار القالب.
+يحصل أو يضبط قيمة المرجع لاختبار القالب.
 
 ```csharp
 public int StencilReference { get; set; }

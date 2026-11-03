@@ -1,14 +1,14 @@
 ---
 title: "ShaderSet.Lambert"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ShaderSet. الحصول أو تعيين المظلل المستخدم لتصيير مادة Lambert"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ShaderSet. تحصل أو تعين المظلّل الذي يُستخدم لتصيير مادة لامبرت"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/shaderset/lambert/
 ---
 ## ShaderSet.Lambert property
 
-يحصل أو يعيّن المُظلل المستخدم لتصوير مادة لامبرت
+تحصل أو تعين المظلّل الذي يُستخدم لتصيير مادة لامبرت
 
 ```csharp
 public ShaderProgram Lambert { get; set; }

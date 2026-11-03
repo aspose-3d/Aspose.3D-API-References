@@ -1,14 +1,14 @@
 ---
 title: "Light.CastLight"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Light. تحصل أو تعيين ما إذا كان مثيل الضوء الحالي يمكنه إضاءة كائنات أخرى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Light. يحصل أو يضبط ما إذا كانت عينة الضوء الحالية يمكنها إضاءة كائنات أخرى"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/light/castlight/
 ---
 ## Light.CastLight property
 
-الحصول على أو تعيين ما إذا كان مثال الضوء الحالي يمكنه إضاءة كائنات أخرى.
+يحصل أو يضبط ما إذا كانت عينة الضوء الحالية يمكنها إضاءة كائنات أخرى.
 
 ```csharp
 public bool CastLight { get; set; }

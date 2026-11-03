@@ -1,6 +1,6 @@
 ---
 title: "Vertex.ReadVector4"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Vertex. قراءة حقل vector4"
 type: docs
 weight: 90
@@ -16,7 +16,7 @@ public Vector4 ReadVector4(VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| حقل | VertexField | الحقل من نوع بيانات Vector4/FVector4 |
+| حقل | VertexField | الحقل بنوع بيانات Vector4/FVector4 |
 
 ### انظر أيضًا
 

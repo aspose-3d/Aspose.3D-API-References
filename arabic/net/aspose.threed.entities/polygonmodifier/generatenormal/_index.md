@@ -1,14 +1,14 @@
 ---
 title: "PolygonModifier.GenerateNormal"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PolygonModifier. توليد بيانات العادي من تعريف Mesh"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PolygonModifier. أنشئ بيانات عادية من تعريف الشبكة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/polygonmodifier/generatenormal/
 ---
 ## PolygonModifier.GenerateNormal method
 
-إنشاء بيانات الـNormal من تعريف الـMesh
+أنشئ بيانات عادية من تعريف الشبكة
 
 ```csharp
 public static VertexElementNormal GenerateNormal(Mesh mesh)

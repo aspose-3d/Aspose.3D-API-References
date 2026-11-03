@@ -1,7 +1,7 @@
 ---
 title: "PbrSpecularMaterial.EmissiveColor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrSpecularMaterial. تحصل أو تعين اللون المنبعث. القيمة الافتراضية هي 0 0 0"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrSpecularMaterial. يحصل أو يعيّن اللون الانبعاثي القيمة الافتراضية هي 0 0 0"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.shading/pbrspecularmaterial/emissivecolor/

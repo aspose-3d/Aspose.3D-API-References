@@ -1,7 +1,7 @@
 ---
 title: "DracoSaveOptions.PositionBits"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية DracoSaveOptions. عدد بتات الكمّية للموقع القيمة الافتراضية هي 14"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية DracoSaveOptions. بتات التكميم للموقع القيمة الافتراضية هي 14"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.formats/dracosaveoptions/positionbits/

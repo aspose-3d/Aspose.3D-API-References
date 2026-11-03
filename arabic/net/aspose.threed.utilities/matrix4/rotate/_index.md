@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.Rotate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. إنشاء مصفوفة دوران بزاوية ومحور"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Matrix4 طريقة. إنشاء مصفوفة دوران بواسطة زاوية الدوران والمحور"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.utilities/matrix4/rotate/
 ---
 ## Rotate(double, Vector3) {#rotate_1}
 
-إنشاء مصفوفة دوران بزاوية الدوران والمحور
+إنشاء مصفوفة دوران بواسطة زاوية الدوران والمحور
 
 ```csharp
 public static Matrix4 Rotate(double angle, Vector3 axis)
@@ -16,7 +16,7 @@ public static Matrix4 Rotate(double angle, Vector3 axis)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| زاوية | Double | زاوية الدوران بالراديان |
+| زاوية | مضاعف | زاوية الدوران بالراديان |
 | محور | Vector3 | محور الدوران |
 
 ## أمثلة
@@ -40,7 +40,7 @@ Console.WriteLine($"Transformed: {t * pos}");
 
 ## Rotate(Quaternion) {#rotate}
 
-إنشاء مصفوفة دوران من رباعية
+إنشاء مصفوفة دوران من كواتيرنيون
 
 ```csharp
 public static Matrix4 Rotate(Quaternion q)
@@ -48,7 +48,7 @@ public static Matrix4 Rotate(Quaternion q)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| q | كواترنيون | كواترنيون الدوران |
+| q | كواتيرنيون | كواتيرنيون الدوران |
 
 ## أمثلة
 

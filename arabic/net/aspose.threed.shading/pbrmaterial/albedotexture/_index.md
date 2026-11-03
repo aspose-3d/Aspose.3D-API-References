@@ -1,14 +1,14 @@
 ---
 title: "PbrMaterial.AlbedoTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrMaterial. يحصل أو يضبط القوام للألبدو"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrMaterial. تحصل أو تعين النسيج للالبدو"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.shading/pbrmaterial/albedotexture/
 ---
 ## PbrMaterial.AlbedoTexture property
 
-يحصل أو يضبط النسيج للـ albedo
+تحصل أو تعين النسيج للالبدو
 
 ```csharp
 public TextureBase AlbedoTexture { get; set; }

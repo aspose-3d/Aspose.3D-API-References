@@ -1,14 +1,14 @@
 ---
 title: "Transform.SetRotation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Transform. تقوم بتعيين الدوران كمكوّنات رباعية للـ Transform الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Transform. يضبط الدوران كمكوّنات رباعية للتحويل الحالي"
 type: docs
 weight: 210
 url: /ar/net/aspose.threed/transform/setrotation/
 ---
 ## Transform.SetRotation method
 
-يضبط الدوران (كمكوّنات كواترنيون) للتحويل الحالي.
+يضبط الدوران (كمكوّنات رباعية) للتحويل الحالي.
 
 ```csharp
 public Transform SetRotation(double rw, double rx, double ry, double rz)
@@ -16,10 +16,10 @@ public Transform SetRotation(double rw, double rx, double ry, double rz)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| rw | Double |  |
-| rx | Double |  |
-| ry | Double |  |
-| rz | Double |  |
+| rw | مضاعف |  |
+| rx | مضاعف |  |
+| ry | مضاعف |  |
+| rz | مضاعف |  |
 
 ## أمثلة
 

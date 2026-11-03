@@ -1,14 +1,14 @@
 ---
 title: "Cylinder.ThetaLength"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Cylinder. يحصل أو يضبط طول الثيتا. القيمة الافتراضية هي 2π"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Cylinder. تحصل أو تعيين طول الثيتا. القيمة الافتراضية هي 2π"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.entities/cylinder/thetalength/
 ---
 ## Cylinder.ThetaLength property
 
-الحصول أو تعيين طول الثيتا. القيمة الافتراضية هي 2π.
+تحصل أو تعيين طول الثيتا. القيمة الافتراضية هي 2π.
 
 ```csharp
 public double ThetaLength { get; set; }

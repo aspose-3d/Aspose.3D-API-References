@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.Infinite"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BoundingBox. صندوق الحدود اللانهائي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية BoundingBox. مربع الحد اللانهائي"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/boundingbox/infinite/
 ---
 ## BoundingBox.Infinite property
 
-صندوق الإحاطة اللانهائي
+صندوق الحدود اللانهائي.
 
 ```csharp
 public static BoundingBox Infinite { get; }

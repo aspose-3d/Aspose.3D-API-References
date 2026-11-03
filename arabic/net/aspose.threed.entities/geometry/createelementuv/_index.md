@@ -1,7 +1,7 @@
 ---
 title: "Geometry.CreateElementUV"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Geometry. تنشئ VertexElementUV بنوع تخطيط النسيج المعطى"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Geometry. تنشئ VertexElementUV بنوع تخطيط النسيج المعطى."
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.entities/geometry/createelementuv/
@@ -16,11 +16,11 @@ public VertexElementUV CreateElementUV(TextureMapping uvMapping)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| uvMapping | TextureMapping | ما هو نوع تخطيط النسيج الذي سيتم إنشاؤه |
+| uvMapping | TextureMapping | ما هو نوع تخطيط النسيج لإنشائه |
 
 ### قيمة الإرجاع
 
-تم إنشاء العنصر uv
+تم إنشاء عنصر uv
 
 ### انظر أيضًا
 
@@ -43,13 +43,13 @@ public VertexElementUV CreateElementUV(TextureMapping uvMapping, MappingMode map
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| uvMapping | TextureMapping | ما هو نوع تخطيط النسيج الذي سيتم إنشاؤه |
-| mappingMode | MappingMode | وضع التخطيط الافتراضي |
-| referenceMode | ReferenceMode | وضع المرجع الافتراضي |
+| uvMapping | TextureMapping | ما هو نوع تخطيط النسيج لإنشائه |
+| mappingMode | MappingMode | نمط التخطيط الافتراضي |
+| referenceMode | ReferenceMode | نمط الإشارة الافتراضي |
 
 ### قيمة الإرجاع
 
-تم إنشاء العنصر uv
+تم إنشاء عنصر uv
 
 ### انظر أيضًا
 

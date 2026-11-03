@@ -1,7 +1,7 @@
 ---
 title: "A3DObject.SetProperty"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة A3DObject. تعيين قيمة الخاصية المحددة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة A3DObject. يضبط قيمة الخاصية المحددة"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed/a3dobject/setproperty/
@@ -16,7 +16,7 @@ public void SetProperty(string property, object value)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| خاصية | سلسلة | اسم الخاصية |
+| خاصية | String | اسم الخاصية |
 | القيمة | كائن | قيمة الخاصية |
 
 ### انظر أيضًا

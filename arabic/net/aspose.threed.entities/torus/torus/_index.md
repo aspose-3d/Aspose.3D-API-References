@@ -1,6 +1,6 @@
 ---
 title: "Torus.Torus"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Torus. يهيئ نسخة جديدة من الفئة Torus"
 type: docs
 weight: 10
@@ -32,8 +32,8 @@ public Torus(double radius, double tube)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نصف القطر | Double | نصف قطر torus. |
-| أنبوب | Double | نصف قطر أنبوب torus. |
+| radius | مضاعف | نصف قطر الحلقة. |
+| أنبوب | مضاعف | نصف قطر أنبوب الحلقة. |
 
 ### انظر أيضًا
 
@@ -53,9 +53,9 @@ public Torus(double radius, double tube, double arc)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نصف القطر | Double | نصف قطر torus. |
-| أنبوب | Double | نصف قطر أنبوب torus. |
-| قوس | Double | قوس. |
+| radius | مضاعف | نصف قطر الحلقة. |
+| أنبوب | مضاعف | نصف قطر أنبوب الحلقة. |
+| قوس | مضاعف | قوس. |
 
 ### انظر أيضًا
 
@@ -76,12 +76,12 @@ public Torus(string name, double radius, double tube, int radialSegments, int tu
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
-| نصف القطر | Double | نصف قطر torus. |
-| أنبوب | Double | نصف قطر أنبوب torus. |
-| radialSegments | Int32 | قطاعات شعاعية. |
-| tubularSegments | Int32 | قطاعات أنبوبية. |
-| قوس | Double | قوس. |
+| الاسم | String | الاسم. |
+| radius | مضاعف | نصف قطر الحلقة. |
+| أنبوب | مضاعف | نصف قطر أنبوب الحلقة. |
+| radialSegments | Int32 | المقاطع الشعاعية. |
+| tubularSegments | Int32 | مقاطع الأنابيب. |
+| قوس | مضاعف | قوس. |
 
 ### انظر أيضًا
 

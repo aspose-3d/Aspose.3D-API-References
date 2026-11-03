@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.STLBinary"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat حقل. تنسيق ملف STL الثنائي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. تنسيق ملف STL ثنائي"
 type: docs
 weight: 350
 url: /ar/net/aspose.threed/fileformat/stlbinary/

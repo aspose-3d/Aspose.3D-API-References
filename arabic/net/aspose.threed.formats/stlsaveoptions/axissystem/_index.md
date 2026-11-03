@@ -1,14 +1,14 @@
 ---
 title: "StlSaveOptions.AxisSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية StlSaveOptions. يحصل أو يعيّن نظام المحاور في ملف stl المُصدّر"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية StlSaveOptions. تحصل أو تعيّن نظام المحاور في ملف STL المُصدّر"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/stlsaveoptions/axissystem/
 ---
 ## StlSaveOptions.AxisSystem property
 
-يحصل أو يضبط نظام المحاور في ملف STL المُصدَّر.
+يحصل أو يضبط نظام المحاور في ملف stl المُصدَّر.
 
 ```csharp
 public AxisSystem AxisSystem { get; set; }

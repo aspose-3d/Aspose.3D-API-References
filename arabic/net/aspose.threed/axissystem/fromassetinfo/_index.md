@@ -1,6 +1,6 @@
 ---
 title: "AxisSystem.FromAssetInfo"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة AxisSystem. إنشاء AxisSystem من AssetInfo"
 type: docs
 weight: 20
@@ -16,11 +16,11 @@ public static AxisSystem FromAssetInfo(AssetInfo assetInfo)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| assetInfo | AssetInfo | من أي asset info لقراءة نظام الإحداثيات، المتجه العلوي والمتجه الأمامي. |
+| assetInfo | AssetInfo | من أي asset info لقراءة نظام الإحداثيات، المتجه العلوي والأمامي. |
 
 ### قيمة الإرجاع
 
-نظام المحاور يحتوي على نظام الإحداثيات، الأعلى، الأمام من معلومات الأصل المعطاة
+نظام Axis يحتوي على نظام الإحداثيات، المتجه العلوي، والأمامي من asset info المعطى.
 
 ### انظر أيضًا
 

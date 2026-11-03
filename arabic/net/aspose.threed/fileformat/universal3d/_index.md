@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.Universal3D"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat الحقل. تنسيق ملف Universal3D"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. تنسيق ملف Universal3D"
 type: docs
 weight: 360
 url: /ar/net/aspose.threed/fileformat/universal3d/

@@ -1,6 +1,6 @@
 ---
 title: "RenderFactory.CreateShaderProgram"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة RenderFactory. إنشاء كائن ShaderProgram"
 type: docs
 weight: 70
@@ -16,7 +16,7 @@ public abstract ShaderProgram CreateShaderProgram(ShaderSource shaderSource)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| shaderSource | ShaderSource | كود المصدر للظل |
+| shaderSource | ShaderSource | الكود المصدري للـ shader |
 
 ### انظر أيضًا
 

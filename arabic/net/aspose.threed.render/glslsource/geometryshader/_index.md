@@ -1,14 +1,14 @@
 ---
 title: "GLSLSource.GeometryShader"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GLSLSource. تحصل أو تعيين كود المصدر لظل الهندسة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية GLSLSource. الحصول على أو تعيين شفرة المصدر للـ geometry shader"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.render/glslsource/geometryshader/
 ---
 ## GLSLSource.GeometryShader property
 
-يحصل أو يحدد شفرة المصدر للمظلّل الهندسي.
+تحصل أو تعين شفرة المصدر لمعالج الهندسة.
 
 ```csharp
 public string GeometryShader { get; set; }

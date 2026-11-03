@@ -1,6 +1,6 @@
 ---
 title: "UShape.FlangeThickness"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية UShape. تحصل أو تعين سمك الحافة"
 type: docs
 weight: 50
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/ushape/flangethickness/
 ---
 ## UShape.FlangeThickness property
 
-يحصل أو يضبط سمك الشفة.
+تحصل أو تضبط سمك الحافة.
 
 ```csharp
 public double FlangeThickness { get; set; }

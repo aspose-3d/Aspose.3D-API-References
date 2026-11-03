@@ -1,14 +1,14 @@
 ---
 title: "RenderParameters.DoubleBuffering"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RenderParameters. تحصل أو تعين ما إذا كان يتم استخدام التخزين المزدوج"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RenderParameters. يحصل أو يضبط ما إذا كان يتم استخدام المخزن المزدوج"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.render/renderparameters/doublebuffering/
 ---
 ## RenderParameters.DoubleBuffering property
 
-الحصول أو تعيين ما إذا كان يتم استخدام المخزن المزدوج.
+يحصل أو يضبط ما إذا كان يتم استخدام المخزن المزدوج.
 
 ```csharp
 public bool DoubleBuffering { get; set; }

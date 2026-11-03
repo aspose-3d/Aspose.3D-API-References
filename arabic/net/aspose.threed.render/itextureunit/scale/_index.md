@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.Scale"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل أو يضبط مقياس إحداثيات UV"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. تحصل أو تضبط مقياس إحداثيات UV"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.render/itextureunit/scale/
 ---
 ## ITextureUnit.Scale property
 
-الحصول أو تعيين مقياس إحداثيات UV.
+تحصل أو تضبط مقياس إحداثيات UV.
 
 ```csharp
 public Vector2 Scale { get; set; }

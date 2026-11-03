@@ -1,7 +1,7 @@
 ---
 title: "VertexElementVector4.SetData"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة VertexElementVector4. يحمّل البيانات"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexElementVector4. تحميل البيانات"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/vertexelementvector4/setdata/

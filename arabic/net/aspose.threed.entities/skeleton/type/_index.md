@@ -1,14 +1,14 @@
 ---
 title: "Skeleton.Type"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Skeleton. تحصل أو تعين نوع Skeleton"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Skeleton. تحصل أو تعين نوع الهيكل العظمي"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/skeleton/type/
 ---
 ## Skeleton.Type property
 
-يحصل أو يضبط نوع الهيكل العظمي.
+تحصل أو تعين نوع الهيكل العظمي.
 
 ```csharp
 public SkeletonType Type { get; set; }
@@ -16,7 +16,7 @@ public SkeletonType Type { get; set; }
 
 ### Property Value
 
-نوع Skeleton.
+نوع الهيكل العظمي.
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.ApplicationVersion"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AssetInfo. تحصل أو تعين إصدار التطبيق الذي أنشأ هذا الأصل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "AssetInfo property. يحصل أو يعيّن نسخة التطبيق الذي أنشأ هذا الأصل"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed/assetinfo/applicationversion/
 ---
 ## AssetInfo.ApplicationVersion property
 
-الحصول أو تعيين نسخة التطبيق الذي أنشأ هذا الأصل.
+يحصل أو يعيّن نسخة التطبيق الذي أنشأ هذا الأصل.
 
 ```csharp
 public string ApplicationVersion { get; set; }

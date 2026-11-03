@@ -1,14 +1,14 @@
 ---
 title: "TriMesh.WriteVerticesTo"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TriMesh. كتابة بيانات الرؤوس إلى الدفق المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TriMesh. كتابة بيانات القمم إلى الدفق المحدد"
 type: docs
 weight: 290
 url: /ar/net/aspose.threed.entities/trimesh/writeverticesto/
 ---
 ## TriMesh.WriteVerticesTo method
 
-اكتب بيانات الرؤوس إلى الدفق المحدد
+كتابة بيانات الرؤوس إلى الدفق المحدد
 
 ```csharp
 public void WriteVerticesTo(Stream stream)
@@ -16,14 +16,14 @@ public void WriteVerticesTo(Stream stream)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | المجرى الذي سيتم كتابة بيانات الرؤوس إليه |
+| تدفق | تدفق | الدفق الذي ستُكتب إليه بيانات القمم |
 
 ## أمثلة
 
 ```csharp
 //تحويل شبكة إلى TriMesh، يتم استنتاج التخطيط تلقائيًا من الشبكة المدخلة
 var triMesh = TriMesh.FromMesh(new Sphere().ToMesh());
-//احفظه إلى الدفق، 115 رأسًا * 32 بايت لكل رأس
+//احفظه إلى دفق، 115 رأسًا * 32 بايت لكل رأس
 var stream = new MemoryStream();
 triMesh.WriteVerticesTo(stream);
 //احفظ الفهارس كـ ushort إلى الدفق، 504 فهرس * 2 بايت لكل فهرس

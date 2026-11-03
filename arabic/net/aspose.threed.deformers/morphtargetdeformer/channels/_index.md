@@ -1,6 +1,6 @@
 ---
 title: "MorphTargetDeformer.Channels"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية MorphTargetDeformer. يحصل على جميع القنوات الموجودة في هذا المشوه"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.deformers/morphtargetdeformer/channels/
 ---
 ## MorphTargetDeformer.Channels property
 
-يحصل على جميع القنوات الموجودة في هذا المحول
+يحصل على جميع القنوات الموجودة في هذا المشوه
 
 ```csharp
 public IList<MorphTargetChannel> Channels { get; }

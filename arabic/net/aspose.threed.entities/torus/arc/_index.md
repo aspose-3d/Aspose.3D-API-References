@@ -1,7 +1,7 @@
 ---
 title: "Torus.Arc"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Torus. الحصول على القوس أو تعيينه"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Torus. يحصل أو يضبط القوس"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/torus/arc/

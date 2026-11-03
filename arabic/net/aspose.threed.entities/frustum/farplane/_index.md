@@ -1,14 +1,14 @@
 ---
 title: "Frustum.FarPlane"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Frustum. تحصل أو تعين مسافة المستوى البعيد للفرستوم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Frustum. يحصل أو يضبط مسافة المستوى البعيد للفرستوم"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/frustum/farplane/
 ---
 ## Frustum.FarPlane property
 
-يحصل أو يضبط مسافة المستوى البعيد للمقاطع.
+يحصل أو يضبط مسافة المستوى البعيد للفرستوم.
 
 ```csharp
 public double FarPlane { get; set; }

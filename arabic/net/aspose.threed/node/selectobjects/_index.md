@@ -1,6 +1,6 @@
 ---
 title: "Node.SelectObjects"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Node. حدد عدة كائنات تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath"
 type: docs
 weight: 230
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/node/selectobjects/
 ---
 ## Node.SelectObjects method
 
-اختيار عدة كائنات تحت العقدة الحالية باستخدام صياغة استعلام شبيهة بـ XPath.
+حدد عدة كائنات تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath.
 
 ```csharp
 public List<object> SelectObjects(string path)
@@ -16,21 +16,21 @@ public List<object> SelectObjects(string path)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| path | سلسلة | استعلام XPath-like |
+| المسار | String | استعلام شبيه بـ XPath |
 
 ### قيمة الإرجاع
 
-تطابق عدة كائنات مع استعلام شبيه بـ XPath.
+يتطابق عدة كائنات مع استعلام شبيه بـ XPath.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| [ParseException](../../../aspose.threed.utilities/parseexception/) | سيتم إلقاء استثناء ParseException إذا كان المسار يحتوي على استعلام غير صالح. |
+| [ParseException](../../../aspose.threed.utilities/parseexception/) | سيتم رمي استثناء ParseException إذا كان المسار يحتوي على استعلام غير صالح. |
 
 ## أمثلة
 
-حدد عقدة واحدة باستخدام تعبير شبيه بـ XPath
+اختر عقدة واحدة باستخدام تعبير شبيه بـ XPath
 
 ```csharp
 //إنشاء مشهد للاختبار

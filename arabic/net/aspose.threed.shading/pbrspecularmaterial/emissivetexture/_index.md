@@ -1,14 +1,14 @@
 ---
 title: "PbrSpecularMaterial.EmissiveTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrSpecularMaterial. تحصل أو تعيين الملمس للإنبعاث"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrSpecularMaterial. يحصل أو يضبط القوام للانبعاث"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.shading/pbrspecularmaterial/emissivetexture/
 ---
 ## PbrSpecularMaterial.EmissiveTexture property
 
-يحصل أو يعيّن النسيج للانبعاثي
+يحصل أو يضبط القوام للانبعاث
 
 ```csharp
 public TextureBase EmissiveTexture { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "Geometry.GetElement"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Geometry. تحصل على عنصر رأس بالنوع المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Geometry. يحصل على عنصر رأس بنوع محدد"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed.entities/geometry/getelement/
 ---
 ## Geometry.GetElement method
 
-يحصل على عنصر رأس بالنوع المحدد
+يحصل على عنصر رأس بنوع محدد
 
 ```csharp
 public VertexElement GetElement(VertexElementType type)
@@ -16,7 +16,7 @@ public VertexElement GetElement(VertexElementType type)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| type | VertexElementType | أي نوع من عناصر الرأس للبحث عنه |
+| نوع | VertexElementType | ما هو نوع عنصر الرأس للعثور عليه |
 
 ### قيمة الإرجاع
 

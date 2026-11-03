@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.AMF"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل FileFormat. تنسيق ملف التصنيع الإضافي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormat حقل. تنسيق ملف التصنيع الإضافي"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/fileformat/amf/

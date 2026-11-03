@@ -1,6 +1,6 @@
 ---
 title: "ImportException.ImportException"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ ImportException. يهيئ نسخة جديدة"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/importexception/importexception/
 ---
 ## ImportException constructor
 
-يُنشئ مثيلًا جديدًا
+يهيئ نسخة جديدة
 
 ```csharp
 public ImportException(string msg)
@@ -16,7 +16,7 @@ public ImportException(string msg)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| رسالة | سلسلة | رسالة الخطأ |
+| msg | String | رسالة الخطأ |
 
 ### انظر أيضًا
 

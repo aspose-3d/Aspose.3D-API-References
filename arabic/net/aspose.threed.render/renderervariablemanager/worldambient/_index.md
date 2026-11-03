@@ -1,14 +1,14 @@
 ---
 title: "RendererVariableManager.WorldAmbient"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RendererVariableManager. اللون المحيط المحدد في مساحة العرض"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RendererVariableManager. اللون المحيط المحدد في نافذة العرض"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed.render/renderervariablemanager/worldambient/
 ---
 ## RendererVariableManager.WorldAmbient property
 
-لون الإضاءة المحيطة المحدد في نافذة العرض.
+اللون المحيط المحدد في نافذة العرض.
 
 ```csharp
 public FVector3 WorldAmbient { get; }

@@ -1,6 +1,6 @@
 ---
 title: "RenderFactory.CreateTextureUnit"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة RenderFactory. إنشاء وحدة نسيج يمكن الوصول إليها بواسطة المظلل"
 type: docs
 weight: 80
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/renderfactory/createtextureunit/
 ---
 ## CreateTextureUnit(TextureType) {#createtextureunit_1}
 
-إنشاء وحدة نسيج يمكن للظل الوصول إليها.
+إنشاء وحدة نسيج يمكن الوصول إليها بواسطة المظلل.
 
 ```csharp
 public abstract ITextureUnit CreateTextureUnit(TextureType textureType)
@@ -16,7 +16,7 @@ public abstract ITextureUnit CreateTextureUnit(TextureType textureType)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| textureType | TextureType | نوع النسيج |
+| textureType | TextureType | نوع القوام |
 
 ### انظر أيضًا
 
@@ -30,7 +30,7 @@ public abstract ITextureUnit CreateTextureUnit(TextureType textureType)
 
 ## CreateTextureUnit() {#createtextureunit}
 
-إنشاء وحدة نسيج ثنائية الأبعاد يمكن للظل الوصول إليها.
+إنشاء وحدة نسيج ثنائية الأبعاد يمكن الوصول إليها بواسطة الـ shader.
 
 ```csharp
 public ITextureUnit CreateTextureUnit()

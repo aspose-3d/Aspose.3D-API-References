@@ -1,14 +1,14 @@
 ---
 title: "VertexDeclaration.Size"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexDeclaration خاصية. الحجم بالبايت للهيكل القمم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية VertexDeclaration. حجم البايت للهيكلية الرؤوس"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/vertexdeclaration/size/
 ---
 ## VertexDeclaration.Size property
 
-حجم بنية الرأس بالبايت.
+حجم البايت للهيكلية الرؤوس.
 
 ```csharp
 public int Size { get; }

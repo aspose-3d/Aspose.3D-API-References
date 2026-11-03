@@ -1,14 +1,14 @@
 ---
 title: "EntityRenderer.FrameBegin"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة EntityRenderer. بدء عرض إطار."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة EntityRenderer. بدء رسم إطار"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/entityrenderer/framebegin/
 ---
 ## EntityRenderer.FrameBegin method
 
-ابدأ عرض إطار
+بدء رسم إطار
 
 ```csharp
 public virtual void FrameBegin(Renderer renderer, IRenderQueue renderQueue)
@@ -16,7 +16,7 @@ public virtual void FrameBegin(Renderer renderer, IRenderQueue renderQueue)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المُصَدِّر | المُصَدِّر | المُصَدِّر الحالي |
+| المُعالج | المُعالج | المُعالج الحالي |
 | renderQueue | IRenderQueue | طابور العرض |
 
 ### انظر أيضًا

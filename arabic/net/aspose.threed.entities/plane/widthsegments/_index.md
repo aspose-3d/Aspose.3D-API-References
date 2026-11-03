@@ -1,14 +1,14 @@
 ---
 title: "Plane.WidthSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Plane. تحصل أو تعين مقاطع العرض"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Plane. يحصل أو يضبط مقاطع العرض"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/plane/widthsegments/
 ---
 ## Plane.WidthSegments property
 
-الحصول على أو تعيين مقاطع العرض.
+يحصل أو يضبط مقاطع العرض.
 
 ```csharp
 public int WidthSegments { get; set; }

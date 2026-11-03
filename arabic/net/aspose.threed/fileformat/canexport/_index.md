@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.CanExport"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية FileFormat. تُعيد ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية FileFormat. يحصل على ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي"
 type: docs
 weight: 480
 url: /ar/net/aspose.threed/fileformat/canexport/
 ---
 ## FileFormat.CanExport property
 
-يحصل ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي.
+يحصل على ما إذا كان Aspose.3D يدعم تصدير المشهد إلى تنسيق الملف الحالي.
 
 ```csharp
 public bool CanExport { get; }

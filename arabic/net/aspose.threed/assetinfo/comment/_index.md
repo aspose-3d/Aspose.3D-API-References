@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.Comment"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AssetInfo. تحصل أو تعين تعليق هذا الأصل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "AssetInfo property. يحصل أو يعيّن التعليق لهذا الأصل"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed/assetinfo/comment/
 ---
 ## AssetInfo.Comment property
 
-الحصول أو تعيين تعليق هذا الأصل.
+يحصل أو يعيّن التعليق لهذا الأصل.
 
 ```csharp
 public string Comment { get; set; }

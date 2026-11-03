@@ -1,7 +1,7 @@
 ---
 title: "Mesh.op_BitwiseOr"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Mesh. حساب اتحاد meshين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Mesh. حساب اتحاد شبكتين"
 type: docs
 weight: 140
 url: /ar/net/aspose.threed.entities/mesh/op_bitwiseor/
@@ -16,12 +16,12 @@ public static Mesh operator |(Mesh a, Mesh b)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| a | Mesh | الـ mesh الأول |
-| b | Mesh | الـ mesh الثاني |
+| a | شبكة | الشبكة الأولى |
+| b | شبكة | الشبكة الثانية |
 
 ### قيمة الإرجاع
 
-نتيجة الشبكة
+شبكة النتيجة
 
 ## أمثلة
 

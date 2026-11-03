@@ -1,14 +1,14 @@
 ---
 title: "PlySaveOptions.AxisSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PlySaveOptions. يحصل أو يعيّن نظام المحاور في ملف STL المُصدَّر"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PlySaveOptions. يحصل أو يضبط نظام المحاور في ملف STL المُصدّر"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/plysaveoptions/axissystem/
 ---
 ## PlySaveOptions.AxisSystem property
 
-يحصل أو يضبط نظام المحاور في ملف STL المُصدَّر.
+يحصل أو يضبط نظام المحاور في ملف stl المُصدَّر.
 
 ```csharp
 public AxisSystem AxisSystem { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "VertexField.GetHashCode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة VertexField. تُعيد رمز التجزئة لهذا النص"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexField. تُرجع قيمة التجزئة لهذا النص"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.utilities/vertexfield/gethashcode/
 ---
 ## VertexField.GetHashCode method
 
-يعيد رمز التجزئة لهذا النص.
+تُرجع قيمة التجزئة لهذا النص.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-رمز تجزئة عدد صحيح موقع 32‑بت.
+قيمة تجزئة صحيحة موقعة 32‑بت.
 
 ### انظر أيضًا
 

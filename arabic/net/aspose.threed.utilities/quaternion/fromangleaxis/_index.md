@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.FromAngleAxis"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. تنشئ quaternion حول المحور المعطى وتدور في اتجاه عقارب الساعة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. ينشئ كواتيرنيون حول المحور المحدد ويدور باتجاه عقارب الساعة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.utilities/quaternion/fromangleaxis/
 ---
 ## Quaternion.FromAngleAxis method
 
-ينشئ Quaternion حول المحور المحدد ويدور في اتجاه عقارب الساعة
+ينشئ كواتيرنيون حول المحور المحدد ويدور باتجاه عقارب الساعة
 
 ```csharp
 public static Quaternion FromAngleAxis(double a, Vector3 axis)
@@ -16,12 +16,12 @@ public static Quaternion FromAngleAxis(double a, Vector3 axis)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| a | Double | دوران باتجاه عقارب الساعة بالراديان |
+| a | مضاعف | دوران باتجاه عقارب الساعة بالراديان |
 | محور | Vector3 | المحور |
 
 ### قيمة الإرجاع
 
-الـ quaternion المُنشأ
+الكواتيرنيون المُنشأ
 
 ### انظر أيضًا
 

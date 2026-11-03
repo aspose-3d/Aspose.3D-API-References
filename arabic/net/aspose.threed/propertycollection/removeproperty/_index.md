@@ -1,7 +1,7 @@
 ---
 title: "PropertyCollection.RemoveProperty"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PropertyCollection. تُزيل خاصية ديناميكية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PropertyCollection. تُزيل خاصية ديناميكية."
 type: docs
 weight: 50
 url: /ar/net/aspose.threed/propertycollection/removeproperty/
@@ -41,7 +41,7 @@ public bool RemoveProperty(string property)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| خاصية | سلسلة | أي خاصية لإزالتها |
+| خاصية | String | أي خاصية لإزالتها |
 
 ### قيمة الإرجاع
 

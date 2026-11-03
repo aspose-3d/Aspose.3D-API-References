@@ -1,14 +1,14 @@
 ---
 title: "HShape.BottomFlangeThickness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HShape. تحصل أو تعيين سمك الشفة لـ HShape"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HShape. تحصل أو تعين سمك الحافة لشكل Hshape"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.profiles/hshape/bottomflangethickness/
 ---
 ## HShape.BottomFlangeThickness property
 
-الحصول أو تعيين سمك الشفرة لشكل H.
+تحصل أو تعين سمك الحافة لشكل H-shape.
 
 ```csharp
 public double BottomFlangeThickness { get; set; }

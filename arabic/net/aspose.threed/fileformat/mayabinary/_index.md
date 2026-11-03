@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.MayaBinary"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل FileFormat. Autodesk Maya بصيغة ثنائية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. Autodesk Maya بالتنسيق الثنائي"
 type: docs
 weight: 290
 url: /ar/net/aspose.threed/fileformat/mayabinary/
 ---
 ## FileFormat.MayaBinary field
 
-Autodesk Maya بصيغة ثنائية
+Autodesk Maya بالتنسيق الثنائي
 
 ```csharp
 public static readonly FileFormat MayaBinary;

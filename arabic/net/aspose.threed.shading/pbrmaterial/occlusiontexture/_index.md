@@ -1,14 +1,14 @@
 ---
 title: "PbrMaterial.OcclusionTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrMaterial. يحصل أو يضبط النسيج للحجب المحيطي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrMaterial. تحصل أو تعين النسيج للإخفاء المحيطي"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.shading/pbrmaterial/occlusiontexture/
 ---
 ## PbrMaterial.OcclusionTexture property
 
-يحصل أو يضبط النسيج للإغلاق المحيطي
+تحصل أو تعين النسيج للإخفاء المحيطي
 
 ```csharp
 public TextureBase OcclusionTexture { get; set; }

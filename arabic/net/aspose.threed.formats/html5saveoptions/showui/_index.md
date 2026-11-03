@@ -1,6 +1,6 @@
 ---
 title: "Html5SaveOptions.ShowUI"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Html5SaveOptions. عرض واجهة مستخدم بسيطة في المشهد. القيمة الافتراضية هي true"
 type: docs
 weight: 100

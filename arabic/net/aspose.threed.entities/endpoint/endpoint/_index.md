@@ -1,6 +1,6 @@
 ---
 title: "EndPoint.EndPoint"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ EndPoint. إنشاء EndPoint من نقطة ديكارتية"
 type: docs
 weight: 10
@@ -37,7 +37,7 @@ public EndPoint(double v)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| v | Double | معامل الرقم الحقيقي لإنشاء نقطة النهاية |
+| v | مضاعف | معامل العدد الحقيقي لإنشاء نقطة نهائية |
 
 ### انظر أيضًا
 

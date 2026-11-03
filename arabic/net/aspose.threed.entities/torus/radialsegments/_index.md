@@ -1,14 +1,14 @@
 ---
 title: "Torus.RadialSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Torus. الحصول أو تعيين المقاطع الشعاعية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Torus. يحصل أو يضبط المقاطع الشعاعية"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/torus/radialsegments/
 ---
 ## Torus.RadialSegments property
 
-الحصول أو تعيين القطاعات الشعاعية.
+يحصل أو يضبط القطاعات الشعاعية.
 
 ```csharp
 public int RadialSegments { get; set; }
@@ -16,7 +16,7 @@ public int RadialSegments { get; set; }
 
 ### Property Value
 
-المقاطع الشعاعية.
+القطاعات الشعاعية.
 
 ### انظر أيضًا
 

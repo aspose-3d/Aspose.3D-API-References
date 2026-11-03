@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.Scale"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. ينشئ مصفوفة تقوم بالتحجيم على طول المحور x والمحور y والمحور z"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Matrix4 طريقة. ينشئ مصفوفة تقوم بالتوسيع على طول xaxis و yaxis و zaxis"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.utilities/matrix4/scale/
 ---
 ## Scale(Vector3) {#scale}
 
-ينشئ مصفوفة تقوم بالتحجيم على طول المحور x، والمحور y، والمحور z.
+ينشئ مصفوفة تقوم بالتوسيع على طول x-axis، y-axis و z-axis.
 
 ```csharp
 public static Matrix4 Scale(Vector3 s)
@@ -16,7 +16,7 @@ public static Matrix4 Scale(Vector3 s)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| s | Vector3 | تطبيقات التحجيم تنطبق على المحور x، والمحور y، والمحور z |
+| s | Vector3 | تطبيقات التحجيم تنطبق على x-axis، y-axis و z-axis |
 
 ## أمثلة
 
@@ -39,7 +39,7 @@ Console.WriteLine($"Transformed: {t * pos}");
 
 ## Scale(double) {#scale_1}
 
-ينشئ مصفوفة تقوم بالتحجيم على طول المحور x، والمحور y، والمحور z.
+ينشئ مصفوفة تقوم بالتوسيع على طول x-axis، y-axis و z-axis.
 
 ```csharp
 public static Matrix4 Scale(double s)
@@ -47,7 +47,7 @@ public static Matrix4 Scale(double s)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| s | Double | تطبيقات التحجيم تنطبق على جميع المحاور |
+| s | مضاعف | تطبيقات التحجيم تنطبق على جميع المحاور |
 
 ## أمثلة
 
@@ -69,7 +69,7 @@ Console.WriteLine($"Transformed: {t * pos}");
 
 ## Scale(double, double, double) {#scale_2}
 
-ينشئ مصفوفة تقوم بالتحجيم على طول المحور x، والمحور y، والمحور z.
+ينشئ مصفوفة تقوم بالتوسيع على طول x-axis، y-axis و z-axis.
 
 ```csharp
 public static Matrix4 Scale(double sx, double sy, double sz)
@@ -77,9 +77,9 @@ public static Matrix4 Scale(double sx, double sy, double sz)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| sx | Double | تطبيق مقياس المصانع على المحور x |
-| sy | Double | تطبيق مقياس المصانع على المحور y |
-| sz | Double | تطبيق مقياس المصانع على المحور z |
+| sx | مضاعف | تطبيقات التحجيم تنطبق على x-axis |
+| sy | مضاعف | تطبيقات التحجيم تنطبق على y-axis |
+| sz | مضاعف | تطبيقات التحجيم تنطبق على z-axis |
 
 ## أمثلة
 

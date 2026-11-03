@@ -1,14 +1,14 @@
 ---
 title: "FileSystem.WriteFile"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FileSystem. إنشاء تدفق لكتابة التبعيات"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FileSystem. إنشاء تدفق لكتابة الاعتمادات"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/filesystem/writefile/
 ---
 ## FileSystem.WriteFile method
 
-أنشئ تدفقاً لكتابة الاعتمادات.
+إنشاء تدفق لكتابة التبعيات.
 
 ```csharp
 public abstract Stream WriteFile(string fileName, IOConfig options)
@@ -16,18 +16,18 @@ public abstract Stream WriteFile(string fileName, IOConfig options)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف لفتحه للكتابة |
-| خيارات | IOConfig | خيارات الحفظ أو التحميل |
+| fileName | String | اسم الملف للفتح للكتابة |
+| الخيارات | IOConfig | خيارات الحفظ أو التحميل |
 
 ### قيمة الإرجاع
 
 تدفق لكتابة الملف
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | تم الإلقاء عندما فشل فتح تدفق للكتابة |
+| IOException | يُطرح عندما يفشل فتح التدفق للكتابة |
 
 ### انظر أيضًا
 

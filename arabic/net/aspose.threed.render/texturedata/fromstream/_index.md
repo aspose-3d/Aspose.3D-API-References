@@ -1,6 +1,6 @@
 ---
 title: "TextureData.FromStream"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TextureData. تحميل نسيج من الدفق"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/texturedata/fromstream/
 ---
 ## TextureData.FromStream method
 
-تحميل قوام من تدفق
+تحميل نسيج من الدفق
 
 ```csharp
 public static TextureData FromStream(Stream stream)
@@ -16,7 +16,7 @@ public static TextureData FromStream(Stream stream)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream |  |
+| تدفق | تدفق |  |
 
 ### انظر أيضًا
 

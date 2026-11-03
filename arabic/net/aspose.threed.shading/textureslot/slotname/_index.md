@@ -1,14 +1,14 @@
 ---
 title: "TextureSlot.SlotName"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TextureSlot. اسم الفتحة الذي يشير إلى المكان الذي سيتم ربط هذا الملمس به"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TextureSlot. اسم الفتحة الذي يشير إلى المكان الذي سيُربط فيه هذا القوام"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.shading/textureslot/slotname/
 ---
 ## TextureSlot.SlotName property
 
-اسم الفتحة الذي يحدد إلى أين سيتم ربط هذا القوام.
+اسم الفتحة الذي يشير إلى المكان الذي سيُربط فيه هذا القوام.
 
 ```csharp
 public string SlotName { get; }

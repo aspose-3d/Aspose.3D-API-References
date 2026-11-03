@@ -1,6 +1,6 @@
 ---
 title: "PbrSpecularMaterial.MapSpecularGlossiness"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل PbrSpecularMaterial. خريطة النسيج لللمعان الانعكاسي"
 type: docs
 weight: 110
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.shading/pbrspecularmaterial/mapspecularglossiness/
 ---
 ## PbrSpecularMaterial.MapSpecularGlossiness field
 
-خريطة النسيج لللمعان الانعكاسي
+خريطة القوام لللمعان الانعكاسي
 
 ```csharp
 public const string MapSpecularGlossiness;

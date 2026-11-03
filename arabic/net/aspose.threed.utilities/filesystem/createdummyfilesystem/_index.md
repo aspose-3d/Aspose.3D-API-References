@@ -1,14 +1,14 @@
 ---
 title: "FileSystem.CreateDummyFileSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FileSystem. إنشاء نظام ملفات تجريبي، عمليات القراءة/الكتابة هي عمليات تجريبية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FileSystem. إنشاء نظام ملفات وهمي عمليات القراءة/الكتابة هي عمليات وهمية"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/filesystem/createdummyfilesystem/
 ---
 ## FileSystem.CreateDummyFileSystem method
 
-إنشاء نظام ملفات تجريبي، عمليات القراءة/الكتابة هي عمليات تجريبية.
+إنشاء نظام ملفات وهمي، عمليات القراءة/الكتابة هي عمليات وهمية.
 
 ```csharp
 public static FileSystem CreateDummyFileSystem()
@@ -16,17 +16,17 @@ public static FileSystem CreateDummyFileSystem()
 
 ### قيمة الإرجاع
 
-نظام ملفات تجريبي
+نظام ملفات وهمي
 
 ## أمثلة
 
-الكود التالي يوضح كيفية تصدير الملف إلى الذاكرة، وتجاهل جميع توليد الملفات التابعة.
+يظهر الكود التالي كيفية تصدير الملف إلى الذاكرة، وتجاهل جميع توليد الملفات التابعة.
 
 ```csharp
-//أنشئ مشهداً بمواد
+//إنشاء مشهد بمواد
 Scene scene = new Scene();
 scene.RootNode.CreateChildNode(new Box()).Material = new LambertMaterial();
-//أنشئ خيار حفظ وحدد نظام الملفات، بحيث يُكتب الملف التابع إلى الذاكرة
+//إنشاء خيار حفظ وتحديد نظام الملفات، بحيث يُكتب الملف التابع إلى الذاكرة.
 var opt = FileFormat.WavefrontOBJ.CreateSaveOptions();
 var dfs = FileSystem.CreateDummyFileSystem();
 opt.FileSystem = dfs;

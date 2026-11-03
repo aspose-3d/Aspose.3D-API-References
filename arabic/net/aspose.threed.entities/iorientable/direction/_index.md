@@ -1,14 +1,14 @@
 ---
 title: "IOrientable.Direction"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية IOrientable. تحصل أو تعين الاتجاه الذي تنظر إليه الكيان"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية IOrientable. يحصل أو تضبط الاتجاه الذي ينظر إليه الكيان"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/iorientable/direction/
 ---
 ## IOrientable.Direction property
 
-يحصل أو يضبط الاتجاه الذي تنظر إليه الكيان.
+تحصل أو تضبط الاتجاه الذي ينظر إليه الكيان.
 
 ```csharp
 public Vector3 Direction { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "VertexDeclaration.CompareTo"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexDeclaration طريقة. يقارن هذا الكائن مع كائن محدد ويعيد إشارة إلى قيمهما النسبية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexDeclaration. تقارن هذا المثيل بكائن محدد وتعيد إشارة إلى قيمهما النسبية"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.utilities/vertexdeclaration/compareto/
 ---
 ## VertexDeclaration.CompareTo method
 
-يقارن هذه الحالة مع كائن محدد ويعيد إشارة إلى قيمهما النسبية.
+يقارن هذه العينة مع كائن محدد ويعيد إشارة إلى القيم النسبية لهما.
 
 ```csharp
 public int CompareTo(VertexDeclaration other)

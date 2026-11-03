@@ -1,7 +1,7 @@
 ---
 title: "BoundingBox.Center"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BoundingBox. مركز الصندوق الحدودي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية BoundingBox. مركز مربع الحدود"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.utilities/boundingbox/center/

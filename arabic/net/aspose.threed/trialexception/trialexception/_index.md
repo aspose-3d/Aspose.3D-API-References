@@ -1,7 +1,7 @@
 ---
 title: "TrialException.TrialException"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ TrialException. منشئ الـ TrialException"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ TrialException. منشئ TrialException"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/trialexception/trialexception/
@@ -16,7 +16,7 @@ public TrialException(string msg)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| رسالة | سلسلة |  |
+| msg | String |  |
 
 ### انظر أيضًا
 

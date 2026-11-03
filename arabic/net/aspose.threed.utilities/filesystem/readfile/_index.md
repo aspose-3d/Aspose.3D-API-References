@@ -1,14 +1,14 @@
 ---
 title: "FileSystem.ReadFile"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FileSystem. إنشاء تدفق لقراءة التبعيات"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FileSystem. إنشاء تدفق لقراءة الاعتمادات"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.utilities/filesystem/readfile/
 ---
 ## FileSystem.ReadFile method
 
-أنشئ تدفقاً لقراءة الاعتمادات.
+إنشاء تدفق لقراءة التبعيات.
 
 ```csharp
 public abstract Stream ReadFile(string fileName, IOConfig options)
@@ -16,18 +16,18 @@ public abstract Stream ReadFile(string fileName, IOConfig options)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف للفتح للقراءة |
-| خيارات | IOConfig | خيارات الحفظ أو التحميل |
+| fileName | String | اسم الملف للفتح للقراءة |
+| الخيارات | IOConfig | خيارات الحفظ أو التحميل |
 
 ### قيمة الإرجاع
 
-تدفق لقراءة الملف.
+دفق لقراءة الملف.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | تطرح التنفيذ هذا الاستثناء عندما يفشل في فتح الملف للقراءة. |
+| IOException | التنفيذ يرمي هذا الاستثناء عندما يفشل في فتح الملف للقراءة. |
 
 ### انظر أيضًا
 

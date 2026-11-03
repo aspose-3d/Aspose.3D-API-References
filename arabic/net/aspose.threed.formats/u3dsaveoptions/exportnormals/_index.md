@@ -1,14 +1,14 @@
 ---
 title: "U3dSaveOptions.ExportNormals"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "U3dSaveOptions property. يحصل أو يضبط ما إذا كان سيتم تصدير بيانات العادي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية U3dSaveOptions. الحصول أو تعيين ما إذا كان سيتم تصدير بيانات المتجهات العادية"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/u3dsaveoptions/exportnormals/
 ---
 ## U3dSaveOptions.ExportNormals property
 
-يحصل أو يضبط ما إذا كان سيتم تصدير بيانات العادي.
+الحصول أو تعيين ما إذا كان سيتم تصدير بيانات المتجهات العادية.
 
 ```csharp
 public bool ExportNormals { get; set; }

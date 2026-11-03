@@ -1,14 +1,14 @@
 ---
 title: "Primitive.ReceiveShadows"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية بدائية. تحصل أو تعين ما إذا كان هذا الشكل يمكنه استقبال الظل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Primitive. يحصل أو يضبط ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/primitive/receiveshadows/
 ---
 ## Primitive.ReceiveShadows property
 
-يحصل أو يعيّن ما إذا كانت هذه الهندسة يمكنها استقبال الظل.
+يحصل أو يضبط ما إذا كان هذا الشكل الهندسي يمكنه استقبال الظل.
 
 ```csharp
 public bool ReceiveShadows { get; set; }

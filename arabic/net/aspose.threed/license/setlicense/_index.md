@@ -1,7 +1,7 @@
 ---
 title: "License.SetLicense"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة License. تمنح الترخيص للمكوّن"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة License. ترخص المكوّن"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/license/setlicense/
@@ -22,17 +22,17 @@ public void SetLicense(string licenseName)
 
 2. المجلد الذي يحتوي على تجميع مكوّن Aspose.
 
-3. المجلد الذي يحتوي على تجميع الاستدعاء للعميل.
+3. المجلد الذي يحتوي على تجميع استدعاء العميل.
 
 4. المجلد الذي يحتوي على تجميع الدخول (بدء التشغيل).
 
-5. مورد مدمج في تجميع الاستدعاء للعميل.
+5. مورد مدمج في تجميع استدعاء العميل.
 
 **Note:**On the .NET Compact Framework, tries to find the license only in these locations:
 
 1. مسار صريح.
 
-2. مورد مدمج في تجميع الاستدعاء للعميل.
+2. مورد مدمج في تجميع استدعاء العميل.
 
 2. المجلد الذي يحتوي على ملف JAR لمكوّن Aspose.
 
@@ -40,7 +40,7 @@ public void SetLicense(string licenseName)
 
 ## أمثلة
 
-في هذا المثال، سيُجرى محاولة للعثور على ملف ترخيص يُدعى MyLicense.lic في المجلد الذي يحتوي على المكوّن، وفي المجلد الذي يحتوي على التجميع المستدعي، وفي مجلد التجميع الرئيسي، ثم في الموارد المدمجة للتجميع المستدعي.
+في هذا المثال، سيتم محاولة العثور على ملف ترخيص باسم MyLicense.lic في المجلد الذي يحتوي على المكوّن، في المجلد الذي يحتوي على تجميع الاستدعاء، في مجلد تجميع الدخول، ثم في الموارد المدمجة لتجميع الاستدعاء.
 
 ```csharp
 [C#]
@@ -55,7 +55,7 @@ Dim license As License = New License
 license.SetLicense("MyLicense.lic")
 ```
 
-ملف jar المكوّن:
+ملف JAR للمكوّن:
 
 ```csharp
 License license = new License();
@@ -82,7 +82,7 @@ public void SetLicense(Stream stream)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق يحتوي على الترخيص. |
+| تدفق | تدفق | دفق يحتوي على الترخيص. |
 
 ## ملاحظات
 

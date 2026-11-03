@@ -1,14 +1,14 @@
 ---
 title: "PropertyCollection.GetEnumerator"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PropertyCollection. تُرجع عدّادًا يتجول عبر المجموعة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PropertyCollection. تُرجع مُعدِّدًا يتنقل عبر المجموعة."
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/propertycollection/getenumerator/
 ---
 ## PropertyCollection.GetEnumerator method
 
-يعيد عدّادًا يتنقل عبر المجموعة.
+تُرجع مُعدِّدًا يتنقل عبر المجموعة.
 
 ```csharp
 public IEnumerator<Property> GetEnumerator()

@@ -1,6 +1,6 @@
 ---
 title: "LinearExtrusion.Twist"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية LinearExtrusion. عدد الدرجات التي يتم بسط الشكل من خلالها"
 type: docs
 weight: 70
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/linearextrusion/twist/
 ---
 ## LinearExtrusion.Twist property
 
-عدد الدرجات التي يُستطَل عبرها الشكل.
+عدد الدرجات التي يتم بسط الشكل من خلالها.
 
 ```csharp
 public double Twist { get; set; }

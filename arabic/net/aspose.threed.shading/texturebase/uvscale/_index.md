@@ -1,6 +1,6 @@
 ---
 title: "TextureBase.UVScale"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية TextureBase. يحصل أو يضبط مقياس UV"
 type: docs
 weight: 80
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.shading/texturebase/uvscale/
 ---
 ## TextureBase.UVScale property
 
-يسترجع أو يعيّن مقياس الـ UV.
+يحصل أو يضبط مقياس UV.
 
 ```csharp
 public Vector2 UVScale { get; set; }

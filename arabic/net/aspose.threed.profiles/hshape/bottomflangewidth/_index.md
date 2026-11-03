@@ -1,14 +1,14 @@
 ---
 title: "HShape.BottomFlangeWidth"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HShape. تحصل أو تعيين امتداد العرض"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HShape. يحصل أو يضبط مدى العرض"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.profiles/hshape/bottomflangewidth/
 ---
 ## HShape.BottomFlangeWidth property
 
-الحصول أو تعيين امتداد العرض.
+يحصل أو يضبط مدى العرض.
 
 ```csharp
 public double BottomFlangeWidth { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: "StructuralMetadata.Property.Property"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Property."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Property منشئ."
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats.gltf/structuralmetadata.property/property/

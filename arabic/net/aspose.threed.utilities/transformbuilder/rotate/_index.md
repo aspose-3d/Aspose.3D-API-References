@@ -1,14 +1,14 @@
 ---
 title: "TransformBuilder.Rotate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TransformBuilder. ربط تدوير بواسطة كواترنيون"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TransformBuilder. سلسلة دوران بواسطة رباعية"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.utilities/transformbuilder/rotate/
 ---
 ## TransformBuilder.Rotate method
 
-سلسلة دوران باستخدام رباعية
+سلسلة دوران بواسطة رباعية
 
 ```csharp
 public TransformBuilder Rotate(Quaternion q)
@@ -16,7 +16,7 @@ public TransformBuilder Rotate(Quaternion q)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| q | كواترنيون |  |
+| q | كواتيرنيون |  |
 
 ## أمثلة
 

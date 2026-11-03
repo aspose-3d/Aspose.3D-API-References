@@ -1,7 +1,7 @@
 ---
 title: "Line.Segments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Line. تحصل على مقاطع الخط"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Line. يحصل على مقاطع الخط"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/line/segments/

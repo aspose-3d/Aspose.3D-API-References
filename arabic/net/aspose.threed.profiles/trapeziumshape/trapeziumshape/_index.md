@@ -1,6 +1,6 @@
 ---
 title: "TrapeziumShape.TrapeziumShape"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ TrapeziumShape. منشئ TrapeziumShape"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/trapeziumshape/trapeziumshape/
 ---
 ## TrapeziumShape constructor
 
-منشئ لـ [`TrapeziumShape`](../)
+منشئ [`TrapeziumShape`](../)
 
 ```csharp
 public TrapeziumShape()

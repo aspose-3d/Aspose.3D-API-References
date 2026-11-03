@@ -1,14 +1,14 @@
 ---
 title: "ICommandList.BindIndexBuffer"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ICommandList. ربط index buffer للتصوير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ICommandList. ربط مخزن الفهرس للعرض"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/icommandlist/bindindexbuffer/
 ---
 ## ICommandList.BindIndexBuffer method
 
-ربط مخزن الفهارس للعرض
+ربط مخزن الفهرس للعرض
 
 ```csharp
 public void BindIndexBuffer(IIndexBuffer indexBuffer)

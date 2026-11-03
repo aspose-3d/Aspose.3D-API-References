@@ -1,7 +1,7 @@
 ---
 title: "VertexElement.ReferenceMode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElement property. يحصل أو يضبط كيفية الإشارة إلى العنصر"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية VertexElement. تحصل أو تعين كيفية الإشارة إلى العنصر"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/vertexelement/referencemode/

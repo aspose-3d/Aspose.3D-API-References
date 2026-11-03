@@ -1,7 +1,7 @@
 ---
 title: "TextureBase.UVRotation"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TextureBase. يحصل أو يضبط دوران الخامة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TextureBase. يسترجع أو يعيّن دوران القوام"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.shading/texturebase/uvrotation/

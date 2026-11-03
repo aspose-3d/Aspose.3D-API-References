@@ -1,14 +1,14 @@
 ---
 title: "PatchDirection.Closed"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PatchDirection. تحصل أو تعين قيمة تشير إلى ما إذا كان هذا PatchDirection منحنى مغلق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PatchDirection. يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا PatchDirection منحنى مغلق"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/patchdirection/closed/
 ---
 ## PatchDirection.Closed property
 
-تحصل أو تعين قيمة تشير إلى ما إذا كان هذا [`PatchDirection`](../) منحنى مغلق.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا [`PatchDirection`](../) منحنى مغلق.
 
 ```csharp
 public bool Closed { get; set; }

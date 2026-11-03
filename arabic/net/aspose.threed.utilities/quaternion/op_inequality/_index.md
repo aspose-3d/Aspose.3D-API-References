@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.op_Inequality"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Quaternion. مشغل عدم المساواة للكواترنيون"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Quaternion. عامل عدم المساواة للرباعية"
 type: docs
 weight: 270
 url: /ar/net/aspose.threed.utilities/quaternion/op_inequality/
 ---
 ## Quaternion Inequality operator
 
-عامل عدم المساواة للكواتيرنيون
+عامل عدم المساواة للرباعية
 
 ```csharp
 public static bool operator !=(Quaternion lhs, Quaternion rhs)
@@ -16,12 +16,12 @@ public static bool operator !=(Quaternion lhs, Quaternion rhs)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| lhs | كواترنيون | قيمة الطرف الأيسر. |
-| rhs | كواترنيون | قيمة الطرف الأيمن. |
+| lhs | كواتيرنيون | قيمة الجانب الأيسر. |
+| rhs | كواتيرنيون | قيمة الجانب الأيمن. |
 
 ### قيمة الإرجاع
 
-صحيح إذا كان كواترنيونان غير متساويين.
+صحيح إذا كانت رباعيتان غير متساويتين.
 
 ### انظر أيضًا
 

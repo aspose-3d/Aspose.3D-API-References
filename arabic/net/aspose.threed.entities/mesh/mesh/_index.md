@@ -1,14 +1,14 @@
 ---
 title: "Mesh.Mesh"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Mesh. يهيئ كائنًا جديدًا من الفئة Mesh"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Mesh. يهيئ نسخة جديدة من فئة Mesh"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/mesh/mesh/
 ---
 ## Mesh() {#constructor}
 
-تهيئة كائن جديد من الفئة [`Mesh`](../).
+يهيئ نسخة جديدة من الفئة [`Mesh`](../).
 
 ```csharp
 public Mesh()
@@ -24,7 +24,7 @@ public Mesh()
 
 ## Mesh(TextureData) {#constructor_1}
 
-أنشئ شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات إحداثيات x و y لنقطة التحكم هي إحداثيات بكسل مُطَبَّقة.
+قم بإنشاء شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات x و y لنقطة التحكم هي إحداثيات بكسل مُعَدلَة.
 
 ```csharp
 public Mesh(TextureData heightMap)
@@ -32,7 +32,7 @@ public Mesh(TextureData heightMap)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| heightMap | TextureData | خريطة الارتفاع المدخلة |
+| heightMap | TextureData | خريطة ارتفاع الإدخال |
 
 ### انظر أيضًا
 
@@ -45,7 +45,7 @@ public Mesh(TextureData heightMap)
 
 ## Mesh(TextureData, Matrix4) {#constructor_2}
 
-أنشئ شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات إحداثيات x و y لنقطة التحكم هي إحداثيات بكسل مُطَبَّقة.
+قم بإنشاء شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات x و y لنقطة التحكم هي إحداثيات بكسل مُعَدلَة.
 
 ```csharp
 public Mesh(TextureData heightMap, Matrix4 transform)
@@ -53,8 +53,8 @@ public Mesh(TextureData heightMap, Matrix4 transform)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| heightMap | TextureData | خريطة الارتفاع المدخلة |
-| تحويل | Matrix4 | التحويل الذي يُطبق على نقاط التحكم |
+| heightMap | TextureData | خريطة ارتفاع الإدخال |
+| transform | Matrix4 | التحويل الذي يُطبق على نقاط التحكم |
 
 ### انظر أيضًا
 
@@ -68,7 +68,7 @@ public Mesh(TextureData heightMap, Matrix4 transform)
 
 ## Mesh(TextureData, bool, Matrix4) {#constructor_3}
 
-أنشئ شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات إحداثيات x و y لنقطة التحكم هي إحداثيات بكسل مُطَبَّقة.
+قم بإنشاء شبكة باستخدام خريطة الارتفاع المحددة، إذا كان تنسيق بكسل خريطة الارتفاع يحتوي على مكونات متعددة، سيتم استخدام المكون الأول (عادةً الأحمر) كقيمة الارتفاع (z). مكونات x و y لنقطة التحكم هي إحداثيات بكسل مُعَدلَة.
 
 ```csharp
 public Mesh(TextureData heightMap, bool triMesh, Matrix4 transform)
@@ -76,9 +76,9 @@ public Mesh(TextureData heightMap, bool triMesh, Matrix4 transform)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| heightMap | TextureData | خريطة الارتفاع المدخلة |
+| heightMap | TextureData | خريطة ارتفاع الإدخال |
 | triMesh | Boolean |  |
-| تحويل | Matrix4 | التحويل الذي يُطبق على نقاط التحكم |
+| transform | Matrix4 | التحويل الذي يُطبق على نقاط التحكم |
 
 ### انظر أيضًا
 
@@ -92,7 +92,7 @@ public Mesh(TextureData heightMap, bool triMesh, Matrix4 transform)
 
 ## Mesh(string) {#constructor_4}
 
-تهيئة كائن جديد من الفئة [`Mesh`](../).
+يهيئ نسخة جديدة من الفئة [`Mesh`](../).
 
 ```csharp
 public Mesh(string name)
@@ -100,7 +100,7 @@ public Mesh(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 

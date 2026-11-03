@@ -1,14 +1,14 @@
 ---
 title: "StlSaveOptions.StlSaveOptions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ StlSaveOptions. يهيئ كائنًا جديدًا من StlSaveOptions"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ StlSaveOptions. يهيئ نسخة جديدة من كائن StlSaveOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.formats/stlsaveoptions/stlsaveoptions/
 ---
 ## StlSaveOptions() {#constructor}
 
-يهيئ نسخة جديدة من [`StlSaveOptions`](../).
+تهيئة نسخة جديدة من كائن [`StlSaveOptions`](../).
 
 ```csharp
 public StlSaveOptions()
@@ -24,7 +24,7 @@ public StlSaveOptions()
 
 ## StlSaveOptions(FileContentType) {#constructor_1}
 
-يهيئ نسخة جديدة من [`StlSaveOptions`](../).
+تهيئة نسخة جديدة من كائن [`StlSaveOptions`](../).
 
 ```csharp
 public StlSaveOptions(FileContentType contentType)

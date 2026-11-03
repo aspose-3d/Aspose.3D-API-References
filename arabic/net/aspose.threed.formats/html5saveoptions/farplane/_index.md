@@ -1,14 +1,14 @@
 ---
 title: "Html5SaveOptions.FarPlane"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Html5SaveOptions. يحصل أو يضبط المستوى البعيد للكاميرا القيمة الافتراضية هي 1000"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Html5SaveOptions. تحصل أو تعين المستوى البعيد للكاميرا القيمة الافتراضية هي 1000"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/html5saveoptions/farplane/
 ---
 ## Html5SaveOptions.FarPlane property
 
-يحصل أو يعيّن المستوى البعيد للكاميرا، القيمة الافتراضية هي 1000.
+تحصل أو تعين المستوى البعيد للكاميرا، القيمة الافتراضية هي 1000.
 
 ```csharp
 public double FarPlane { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.VWrap"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل أو يضبط وضع الالتفاف لإحداثيات V للملمس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. تحصل أو تضبط وضع الالتفاف لإحداثيات V للملمس"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.render/itextureunit/vwrap/
 ---
 ## ITextureUnit.VWrap property
 
-يحصل أو يضبط وضع الالتفاف لإحداثي V للملمس.
+تحصل أو تضبط وضع الالتفاف لإحداثيات V للملمس.
 
 ```csharp
 public WrapMode VWrap { get; set; }

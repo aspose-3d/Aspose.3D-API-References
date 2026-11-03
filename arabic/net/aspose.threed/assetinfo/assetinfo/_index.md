@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo.AssetInfo"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ AssetInfo. يهيئ نسخة جديدة من فئة AssetInfo"
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ public AssetInfo(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 

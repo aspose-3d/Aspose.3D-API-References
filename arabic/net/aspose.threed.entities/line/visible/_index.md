@@ -1,14 +1,14 @@
 ---
 title: "Line.Visible"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Line. تحصل أو تعين ما إذا كان الشكل مرئياً"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Line. يحصل أو تضبط ما إذا كان الشكل مرئيًا"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/line/visible/
 ---
 ## Line.Visible property
 
-يحصل أو يعيّن ما إذا كانت الهندسة مرئية
+تحصل أو تعين ما إذا كانت الهندسة مرئية
 
 ```csharp
 public bool Visible { get; set; }

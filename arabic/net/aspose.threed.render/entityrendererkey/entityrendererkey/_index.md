@@ -1,14 +1,14 @@
 ---
 title: "EntityRendererKey.EntityRendererKey"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ EntityRendererKey. منشئ EntityRendererKey"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ EntityRendererKey. مُنشئ EntityRendererKey"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/entityrendererkey/entityrendererkey/
 ---
 ## EntityRendererKey constructor
 
-منشئ [`EntityRendererKey`](../)
+منشئ لـ [`EntityRendererKey`](../)
 
 ```csharp
 public EntityRendererKey(string name)
@@ -16,7 +16,7 @@ public EntityRendererKey(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة |  |
+| الاسم | String |  |
 
 ### انظر أيضًا
 

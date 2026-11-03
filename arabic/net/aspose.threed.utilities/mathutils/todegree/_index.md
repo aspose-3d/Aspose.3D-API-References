@@ -1,7 +1,7 @@
 ---
 title: "MathUtils.ToDegree"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "MathUtils طريقة. تحويل Vector3 من الراديان إلى الدرجة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة MathUtils. تحويل Vector3 من الراديان إلى الدرجة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.utilities/mathutils/todegree/
@@ -79,7 +79,7 @@ public static double ToDegree(double radian)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| راديان | Double | قيمة الراديان. |
+| راديان | مضاعف | قيمة الراديان. |
 
 ### قيمة الإرجاع
 
@@ -110,9 +110,9 @@ public static Vector3 ToDegree(double x, double y, double z)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| x | Double | المكوّن x في قيمة الراديان. |
-| y | Double | المكوّن y في قيمة الراديان. |
-| z | Double | المكوّن z في قيمة الراديان. |
+| x | مضاعف | المكوّن x في قيمة الراديان. |
+| y | مضاعف | المكوّن y في قيمة الراديان. |
+| z | مضاعف | المكوّن z في قيمة الراديان. |
 
 ### قيمة الإرجاع
 

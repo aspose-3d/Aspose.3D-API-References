@@ -1,14 +1,14 @@
 ---
 title: "Vector2.Vector2"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Vector2 منشئ. يهيئ مثيلاً جديداً من بنية Vector2"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Vector2. يهيئ نسخة جديدة من بنية Vector2"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/vector2/vector2/
 ---
 ## Vector2(double) {#constructor_2}
 
-يهيئ مثيلاً جديداً من بنية [`Vector2`](../).
+يهيئ نسخة جديدة من بنية [`Vector2`](../).
 
 ```csharp
 public Vector2(double s)
@@ -16,7 +16,7 @@ public Vector2(double s)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| s | Double | S. |
+| s | مضاعف | S. |
 
 ### انظر أيضًا
 
@@ -28,7 +28,7 @@ public Vector2(double s)
 
 ## Vector2(Vector3) {#constructor_1}
 
-يهيئ مثيلاً جديداً من بنية [`Vector2`](../).
+يهيئ نسخة جديدة من بنية [`Vector2`](../).
 
 ```csharp
 public Vector2(Vector3 s)
@@ -49,7 +49,7 @@ public Vector2(Vector3 s)
 
 ## Vector2(FVector2) {#constructor}
 
-يهيئ مثيلاً جديداً من بنية [`Vector2`](../).
+يهيئ نسخة جديدة من بنية [`Vector2`](../).
 
 ```csharp
 public Vector2(FVector2 vec)
@@ -57,7 +57,7 @@ public Vector2(FVector2 vec)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| vec | FVector2 | متجه من نوع float. |
+| vec | FVector2 | متجه بنوع float. |
 
 ### انظر أيضًا
 
@@ -70,7 +70,7 @@ public Vector2(FVector2 vec)
 
 ## Vector2(double, double) {#constructor_3}
 
-يهيئ مثيلاً جديداً من بنية [`Vector2`](../).
+يهيئ نسخة جديدة من بنية [`Vector2`](../).
 
 ```csharp
 public Vector2(double x, double y)
@@ -78,8 +78,8 @@ public Vector2(double x, double y)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| x | Double | الإحداثي x. |
-| y | Double | الإحداثي y. |
+| x | مضاعف | الإحداثي x. |
+| y | مضاعف | الإحداثي y. |
 
 ### انظر أيضًا
 

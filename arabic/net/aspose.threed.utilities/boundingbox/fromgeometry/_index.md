@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.FromGeometry"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BoundingBox. إنشاء صندوق حدود من الهندسة المعطاة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BoundingBox. إنشاء مربع حد من الشكل الهندسي المعطى"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/boundingbox/fromgeometry/
 ---
 ## BoundingBox.FromGeometry method
 
-إنشاء صندوق حدود من الهندسة المعطاة
+إنشاء صندوق حدود من الهندسة المعطاة.
 
 ```csharp
 public static BoundingBox FromGeometry(Geometry geometry)
@@ -16,15 +16,15 @@ public static BoundingBox FromGeometry(Geometry geometry)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| هندسة | هندسة | الهندسة لحساب صندوق الحدود |
+| هندسة | هندسة | الشكل الهندسي لحساب مربع الحد |
 
 ### قيمة الإرجاع
 
-صندوق الحدود للهندسة المعطاة
+مربع الحد للشكل الهندسي المعطى
 
 ## أمثلة
 
-الكود التالي يوضح كيفية إنشاء صندوق حدود من كائن هندسة.
+الكود التالي يوضح كيفية إنشاء مربع حد من كائن الشكل الهندسي.
 
 ```csharp
 var sphere = (new Sphere()).ToMesh();

@@ -1,6 +1,6 @@
 ---
 title: "RenderResource.Dispose"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة RenderResource. تحرير الموارد الداخلية المستخدمة بواسطة RenderResource"
 type: docs
 weight: 10

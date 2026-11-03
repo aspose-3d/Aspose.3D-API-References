@@ -1,14 +1,14 @@
 ---
 title: "TriMesh.ReadFloat"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TriMesh. قراءة حقل float"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TriMesh. اقرأ حقل الفاصلة العائمة"
 type: docs
 weight: 180
 url: /ar/net/aspose.threed.entities/trimesh/readfloat/
 ---
 ## TriMesh.ReadFloat method
 
-اقرأ الحقل من نوع float
+قراءة الحقل العائم
 
 ```csharp
 public float ReadFloat(int idx, VertexField field)
@@ -16,12 +16,12 @@ public float ReadFloat(int idx, VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| idx | Int32 | فهرس الرأس المراد قراءته |
-| حقل | VertexField | الحقل من نوع بيانات متوافق مع float/double |
+| idx | Int32 | فهرس الرأس للقراءة |
+| حقل | VertexField | الحقل بنوع بيانات متوافق مع float/double |
 
 ### قيمة الإرجاع
 
-قيمة float لحقل الرأس المحدد
+قيمة الفاصلة العائمة لحقل الرأس المحدد
 
 ### انظر أيضًا
 

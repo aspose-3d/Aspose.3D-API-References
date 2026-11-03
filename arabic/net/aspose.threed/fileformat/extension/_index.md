@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.Extension"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية FileFormat. تُعيد اسم الامتداد لهذا النوع"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية FileFormat. يحصل على اسم الامتداد لهذا النوع"
 type: docs
 weight: 510
 url: /ar/net/aspose.threed/fileformat/extension/

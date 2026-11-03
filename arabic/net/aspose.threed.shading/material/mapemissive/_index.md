@@ -1,14 +1,14 @@
 ---
 title: "Material.MapEmissive"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "حقل Material. يُستخدم في SetTexture لتعيين تخطيط نسيج إشعاعي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل Material. يُستخدم في SetTexture لتعيين تخطيط نسيج انبعاثي"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.shading/material/mapemissive/
 ---
 ## Material.MapEmissive field
 
-يُستخدم في [`SetTexture`](../settexture/) لتعيين تخطيط نسيج إشعاعي.
+يُستخدم في [`SetTexture`](../settexture/) لتعيين تخطيط نسيج انبعاثي.
 
 ```csharp
 public const string MapEmissive;

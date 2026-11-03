@@ -1,14 +1,14 @@
 ---
 title: "PolygonModifier.Triangulate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة PolygonModifier. تحويل جميع الشبكات القائمة على المضلع إلى شبكة مثلثية كاملة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة PolygonModifier. حوّل جميع الشبكات القائمة على المضلعات إلى شبكة مثلثية كاملة"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/polygonmodifier/triangulate/
 ---
 ## Triangulate(Scene) {#triangulate_5}
 
-حوّل جميع الشبكات المبنية على مضلعات إلى شبكة مثلثية كاملة
+حوّل جميع الشبكات القائمة على المضلعات إلى شبكة مثلثية كاملة
 
 ```csharp
 public static void Triangulate(Scene scene)
@@ -16,16 +16,16 @@ public static void Triangulate(Scene scene)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| scene | Scene | المشهد المراد معالجته |
+| المشهد | المشهد | المشهد المراد معالجته |
 
 ## أمثلة
 
-الكود التالي يوضح كيفية دمج جميع الكائنات من المشهد في شبكة واحدة.
+يظهر الكود التالي كيفية دمج جميع الكائنات من المشهد في شبكة واحدة.
 
 ```csharp
 var mesh = new Cylinder().ToMesh();
 
-//قم بتحويل هذه الشبكة القائمة على رباعيات إلى شبكة قائمة على مثلثات
+//تحويل هذه الشبكة القائمة على رباعيات إلى شبكة قائمة على مثلثات 
 mesh = PolygonModifier.Triangulate(mesh);
 
 var scene = new Scene(mesh);
@@ -44,7 +44,7 @@ var scene = new Scene(mesh);
 
 ## Triangulate(Mesh) {#triangulate}
 
-حوّل شبكة مبنية على مضلعات إلى شبكة مثلثية كاملة
+تحويل شبكة قائمة على مضلعات إلى شبكة مثلثية كاملة
 
 ```csharp
 public static Mesh Triangulate(Mesh mesh)
@@ -52,20 +52,20 @@ public static Mesh Triangulate(Mesh mesh)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| شبكة | Mesh | الشبكة الأصلية غير المثلثية |
+| شبكة | شبكة | الشبكة الأصلية غير المثلثية |
 
 ### قيمة الإرجاع
 
-الشبكة المثلثية الجديدة المولدة
+الشكة المثلثية الجديدة التي تم إنشاؤها
 
 ## أمثلة
 
-الكود التالي يوضح كيفية دمج جميع الكائنات من المشهد في شبكة واحدة.
+يظهر الكود التالي كيفية دمج جميع الكائنات من المشهد في شبكة واحدة.
 
 ```csharp
 var mesh = new Cylinder().ToMesh();
 
-//قم بتحويل هذه الشبكة القائمة على رباعيات إلى شبكة قائمة على مثلثات
+//تحويل هذه الشبكة القائمة على رباعيات إلى شبكة قائمة على مثلثات 
 mesh = PolygonModifier.Triangulate(mesh);
 
 var scene = new Scene(mesh);

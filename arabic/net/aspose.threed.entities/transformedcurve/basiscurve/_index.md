@@ -1,6 +1,6 @@
 ---
 title: "TransformedCurve.BasisCurve"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية TransformedCurve. المنحنى الأساسي"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/transformedcurve/basiscurve/
 ---
 ## TransformedCurve.BasisCurve property
 
-منحنى الأساس.
+المنحنى الأساسي.
 
 ```csharp
 public Curve BasisCurve { get; set; }

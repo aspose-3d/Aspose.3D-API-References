@@ -1,7 +1,7 @@
 ---
 title: "EndPoint.FromRadian"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة EndPoint. إنشاء نقطة نهاية مقاسة بالراديان"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة EndPoint. إنشاء نقطة نهائية مقاسة بالراديان"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/endpoint/fromradian/
@@ -16,11 +16,11 @@ public static EndPoint FromRadian(double degree)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| درجة | Double | القيمة بالراديان |
+| درجة | مضاعف | القيمة بالراديان |
 
 ### قيمة الإرجاع
 
-نقطة نهاية مُنشأة من الراديان
+نقطة نهائية مُنشأة من الراديان
 
 ### انظر أيضًا
 

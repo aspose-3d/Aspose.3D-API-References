@@ -1,6 +1,6 @@
 ---
 title: "CubeFaceData1.PositiveX"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية CubeFaceData. يحصل أو يضبط البيانات للوجه XRight"
 type: docs
 weight: 90
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/cubefacedata-1/positivex/
 ---
 ## CubeFaceData&lt;T&gt;.PositiveX property
 
-يحصل أو يعيّن البيانات للوجه +X (اليمين)
+يحصل أو يضبط البيانات للوجه +X(Right)
 
 ```csharp
 public T PositiveX { get; set; }

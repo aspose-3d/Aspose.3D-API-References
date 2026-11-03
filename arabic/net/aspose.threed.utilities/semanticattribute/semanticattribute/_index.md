@@ -1,6 +1,6 @@
 ---
 title: "SemanticAttribute.SemanticAttribute"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ SemanticAttribute. تهيئة SemanticAttribute"
 type: docs
 weight: 10
@@ -38,7 +38,7 @@ public SemanticAttribute(VertexFieldSemantic semantic, string alias)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | دلالي | VertexFieldSemantic | الدلالي لحقل البنية. |
-| اسم مستعار | سلسلة | اسم مستعار للحقل. |
+| الاسم المستعار | String | الاسم المستعار للحقل. |
 
 ### انظر أيضًا
 

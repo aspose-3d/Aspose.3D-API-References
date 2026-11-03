@@ -1,14 +1,14 @@
 ---
 title: "TrapeziumShape.TopXDim"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TrapeziumShape. تحصل أو تعين مدى الخط العلوي المقاس على طول المحور السيني"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TrapeziumShape. يحصل أو يعيّن مدى الخط العلوي المقاس على طول محور x"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.profiles/trapeziumshape/topxdim/
 ---
 ## TrapeziumShape.TopXDim property
 
-الحصول أو تعيين امتداد الخط العلوي المقاس على محور x.
+يحصل أو يعيّن مدى الخط العلوي المقاس على طول محور x.
 
 ```csharp
 public double TopXDim { get; set; }

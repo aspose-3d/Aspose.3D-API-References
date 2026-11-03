@@ -1,7 +1,7 @@
 ---
 title: "Entity.GetBoundingBox"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Entity. تحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Entity. تحصل على صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة كائنه."
 type: docs
 weight: 50
 url: /ar/net/aspose.threed/entity/getboundingbox/
@@ -16,11 +16,11 @@ public BoundingBox GetBoundingBox()
 
 ### قيمة الإرجاع
 
-صندوق الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاصة به.
+مربع الحدود للكيان الحالي في نظام إحداثيات مساحة الكائن الخاص به.
 
 ## أمثلة
 
-الكود التالي يوضح كيفية حساب صندوق الحدود لشكل
+يعرض الكود التالي كيفية حساب مربع الحدود لشكل
 
 ```csharp
 Entity entity = new Sphere() { Radius = 10 };

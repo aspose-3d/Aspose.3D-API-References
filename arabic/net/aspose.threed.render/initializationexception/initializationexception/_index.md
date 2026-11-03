@@ -1,14 +1,14 @@
 ---
 title: "InitializationException.InitializationException"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ InitializationException. تهيئة نسخة من InitializationException"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "المُنشئ InitializationException. إنشاء مثيل من InitializationException"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/initializationexception/initializationexception/
 ---
 ## InitializationException() {#constructor}
 
-تهيئة نسخة من [`InitializationException`](../)
+إنشاء مثيل من [`InitializationException`](../)
 
 ```csharp
 public InitializationException()
@@ -24,7 +24,7 @@ public InitializationException()
 
 ## InitializationException(string) {#constructor_1}
 
-تهيئة نسخة من [`InitializationException`](../) مع رسالة استثناء محددة.
+إنشاء مثيل من [`InitializationException`](../) مع رسالة استثناء محددة.
 
 ```csharp
 public InitializationException(string msg)

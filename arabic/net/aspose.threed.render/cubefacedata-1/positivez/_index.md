@@ -1,6 +1,6 @@
 ---
 title: "CubeFaceData1.PositiveZ"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية CubeFaceData. تحصل أو تعيّن البيانات للوجه ZBack"
 type: docs
 weight: 110
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/cubefacedata-1/positivez/
 ---
 ## CubeFaceData&lt;T&gt;.PositiveZ property
 
-يحصل أو يعيّن البيانات للوجه +Z (الخلف)
+يحصل أو يضبط البيانات للوجه +Z(Back)
 
 ```csharp
 public T PositiveZ { get; set; }

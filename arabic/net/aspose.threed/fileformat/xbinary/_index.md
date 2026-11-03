@@ -1,6 +1,6 @@
 ---
 title: "FileFormat.XBinary"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "حقل FileFormat. ملف DirectX X بصيغة ثنائية"
 type: docs
 weight: 420
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/fileformat/xbinary/
 ---
 ## FileFormat.XBinary field
 
-ملف DirectX X بتنسيق ثنائي
+ملف DirectX X بصيغة ثنائية
 
 ```csharp
 public static readonly FileFormat XBinary;

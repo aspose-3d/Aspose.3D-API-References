@@ -1,14 +1,14 @@
 ---
 title: "Cylinder.RadialSegments"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Cylinder. يحصل أو يضبط المقاطع الشعاعية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية الأسطوانة. يحصل أو يضبط القطاعات الشعاعية"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.entities/cylinder/radialsegments/
 ---
 ## Cylinder.RadialSegments property
 
-الحصول أو تعيين القطاعات الشعاعية.
+يحصل أو يضبط القطاعات الشعاعية.
 
 ```csharp
 public int RadialSegments { get; set; }
@@ -16,7 +16,7 @@ public int RadialSegments { get; set; }
 
 ### Property Value
 
-المقاطع الشعاعية.
+القطاعات الشعاعية.
 
 ### انظر أيضًا
 

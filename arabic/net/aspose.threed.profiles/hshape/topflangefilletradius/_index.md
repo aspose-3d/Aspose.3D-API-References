@@ -1,14 +1,14 @@
 ---
 title: "HShape.TopFlangeFilletRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HShape. تحصل أو تعيين نصف قطر القطع بين الويب والشفة العلوية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HShape. تحصل أو تعين نصف قطر القطع الدائري بين الجدار والحافة العلوية"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.profiles/hshape/topflangefilletradius/
 ---
 ## HShape.TopFlangeFilletRadius property
 
-الحصول أو تعيين نصف قطر القوس بين الويب والشفرة العلوية.
+تحصل أو تعين نصف قطر القطع الدائري بين الجدار والحافة العلوية.
 
 ```csharp
 public double TopFlangeFilletRadius { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "TriMesh.ReadDouble"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TriMesh. قراءة الحقل من نوع double"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TriMesh. اقرأ حقل المضاعف"
 type: docs
 weight: 170
 url: /ar/net/aspose.threed.entities/trimesh/readdouble/
 ---
 ## TriMesh.ReadDouble method
 
-اقرأ الحقل من نوع double
+قراءة الحقل المزدوج
 
 ```csharp
 public double ReadDouble(int idx, VertexField field)
@@ -16,12 +16,12 @@ public double ReadDouble(int idx, VertexField field)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| idx | Int32 | فهرس الرأس المراد قراءته |
-| حقل | VertexField | الحقل من نوع بيانات متوافق مع float/double |
+| idx | Int32 | فهرس الرأس للقراءة |
+| حقل | VertexField | الحقل بنوع بيانات متوافق مع float/double |
 
 ### قيمة الإرجاع
 
-قيمة double للحقل الخاص بالرأس المحدد
+قيمة المضاعف لحقل الرأس المحدد
 
 ### انظر أيضًا
 

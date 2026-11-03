@@ -1,14 +1,14 @@
 ---
 title: "Viewport.Frustum"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Viewport. تحصل أو تعيين الكاميرا لهذه المنطقة العرضية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Viewport. الحصول أو تعيين الكاميرا لهذا الViewport"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/viewport/frustum/
 ---
 ## Viewport.Frustum property
 
-يحصل أو يضبط الكاميرا لهذا [`Viewport`](../)
+الحصول أو تعيين الكاميرا لهذا [`Viewport`](../)
 
 ```csharp
 public Frustum Frustum { get; set; }

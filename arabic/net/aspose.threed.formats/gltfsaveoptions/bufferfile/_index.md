@@ -1,14 +1,14 @@
 ---
 title: "GltfSaveOptions.BufferFile"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GltfSaveOptions. اسم ملف المخزن الخارجي المستخدم لتخزين البيانات الثنائية. إذا لم يتم تحديد هذا الملف، سيقوم Aspose.3D بإنشاء اسم لك. يتم تجاهل هذا عند تصدير glTF في الوضع الثنائي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية GltfSaveOptions. اسم ملف المخزن المؤقت الخارجي المستخدم لتخزين البيانات الثنائية. إذا لم يتم تحديد هذا الملف سيقوم Aspose.3D بإنشاء اسم لك. يتم تجاهل هذا عند تصدير glTF في الوضع الثنائي"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/gltfsaveoptions/bufferfile/
 ---
 ## GltfSaveOptions.BufferFile property
 
-اسم ملف المخزن المؤقت الخارجي المستخدم لتخزين البيانات الثنائية. إذا لم يتم تحديد هذا الملف، سيقوم Aspose.3D بإنشاء اسم لك. يتم تجاهل ذلك عند تصدير glTF في الوضع الثنائي.
+اسم ملف المخزن المؤقت الخارجي المستخدم لتخزين البيانات الثنائية. إذا لم يتم تحديد هذا الملف، سيقوم Aspose.3D بإنشاء اسم لك. يتم تجاهل هذا عند تصدير glTF في الوضع الثنائي.
 
 ```csharp
 public string BufferFile { get; set; }

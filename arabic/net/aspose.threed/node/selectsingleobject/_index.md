@@ -1,14 +1,14 @@
 ---
 title: "Node.SelectSingleObject"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Node. اختر كائنًا واحدًا تحت العقدة الحالية باستخدام صياغة استعلام شبيهة بـ XPath"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Node. اختر كائنًا واحدًا تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath"
 type: docs
 weight: 240
 url: /ar/net/aspose.threed/node/selectsingleobject/
 ---
 ## Node.SelectSingleObject method
 
-اختيار كائن واحد تحت العقدة الحالية باستخدام صياغة استعلام شبيهة بـ XPath.
+اختر كائنًا واحدًا تحت العقدة الحالية باستخدام صيغة استعلام شبيهة بـ XPath.
 
 ```csharp
 public object SelectSingleObject(string path)
@@ -16,21 +16,21 @@ public object SelectSingleObject(string path)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| path | سلسلة | استعلام XPath-like |
+| المسار | String | استعلام شبيه بـ XPath |
 
 ### قيمة الإرجاع
 
-الكائن الموجود بواسطة استعلام شبيه بـ XPath.
+الكائن المحدد بواسطة استعلام شبيه بـ XPath.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| [ParseException](../../../aspose.threed.utilities/parseexception/) | سيتم إلقاء استثناء ParseException إذا كان المسار يحتوي على استعلام غير صالح. |
+| [ParseException](../../../aspose.threed.utilities/parseexception/) | سيتم رمي استثناء ParseException إذا كان المسار يحتوي على استعلام غير صالح. |
 
 ## أمثلة
 
-حدد عقدة واحدة باستخدام تعبير شبيه بـ XPath
+اختر عقدة واحدة باستخدام تعبير شبيه بـ XPath
 
 ```csharp
 //إنشاء مشهد للاختبار
@@ -42,11 +42,11 @@ s.RootNode.CreateChildNode("b");
 var c = s.RootNode.CreateChildNode("c");
 c.CreateChildNode("c1").AddEntity(new Camera("cam"));
 c.CreateChildNode("c2").AddEntity(new Light("light"));
-//حدد كائن الكاميرا الفردي تحت العقد الفرعية للعقدة المسماة 'c' تحت العقدة الجذرية
+//اختر كائن كاميرا واحد تحت العقد الفرعية للعقدة المسماة 'c' تحت العقدة الجذرية
 var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
-// حدد العقدة المسماة 'a1' تحت العقدة الجذرية، حتى إذا لم تكن 'a1' عقدة فرعية مباشرة لل
+// اختر العقدة المسماة 'a1' تحت العقدة الجذرية، حتى إذا لم تكن 'a1' عقدة فرعية مباشرة لـ
 var obj = s.RootNode.SelectSingleObject("a1");
-//حدد العقدة نفسها، لأن '/' يتم اختياره مباشرةً على العقدة الجذرية، وبالتالي يتم اختيار العقدة الجذرية.
+//اختر العقدة نفسها، لأن '/' يتم اختياره مباشرةً على العقدة الجذرية، لذا يتم اختيار العقدة الجذرية.
 obj = s.RootNode.SelectSingleObject("/");
 ```
 

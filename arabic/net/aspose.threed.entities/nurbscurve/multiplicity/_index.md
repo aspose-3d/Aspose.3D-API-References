@@ -1,14 +1,14 @@
 ---
 title: "NurbsCurve.Multiplicity"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsCurve. تحصل على التعددية."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsCurve. يحصل على التعددية"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.entities/nurbscurve/multiplicity/
 ---
 ## NurbsCurve.Multiplicity property
 
-الحصول على التعددية.
+يحصل على التعددية.
 
 ```csharp
 public IArrayList<int> Multiplicity { get; }

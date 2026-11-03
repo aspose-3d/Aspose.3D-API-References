@@ -1,6 +1,6 @@
 ---
 title: "CompositeCurve.Segment.Segment"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Segment. المنشئ الافتراضي"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/compositecurve.segment/segment/
 ---
 ## CompositeCurve.Segment constructor
 
-المنشئ الافتراضي.
+المُنشئ الافتراضي.
 
 ```csharp
 public Segment()

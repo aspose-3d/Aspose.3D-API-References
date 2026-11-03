@@ -1,14 +1,14 @@
 ---
 title: "FMatrix4.Inverse"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FMatrix4 طريقة. احسب مصفوفة العكس للنسخة الحالية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FMatrix4. احسب مصفوفة العكس للنسخة الحالية"
 type: docs
 weight: 200
 url: /ar/net/aspose.threed.utilities/fmatrix4/inverse/
 ---
 ## FMatrix4.Inverse method
 
-احسب المصفوفة العكسية للنسخة الحالية.
+احسب مصفوفة العكس للنسخة الحالية.
 
 ```csharp
 public FMatrix4 Inverse()
@@ -16,7 +16,7 @@ public FMatrix4 Inverse()
 
 ### قيمة الإرجاع
 
-مصفوفة عكسية 4
+مصفوفة العكس 4
 
 ### انظر أيضًا
 

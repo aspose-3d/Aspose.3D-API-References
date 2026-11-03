@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.CreateLoadOptions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FileFormat. إنشاء خيارات تحميل افتراضية لهذا تنسيق الملف"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FileFormat. إنشاء خيارات تحميل افتراضية لهذه الصيغة"
 type: docs
 weight: 550
 url: /ar/net/aspose.threed/fileformat/createloadoptions/
 ---
 ## FileFormat.CreateLoadOptions method
 
-إنشاء خيارات تحميل افتراضية لهذا التنسيق
+إنشاء خيارات تحميل افتراضية لهذه الصيغة
 
 ```csharp
 public LoadOptions CreateLoadOptions()
@@ -16,7 +16,7 @@ public LoadOptions CreateLoadOptions()
 
 ### قيمة الإرجاع
 
-خيار تحميل افتراضي للتنسيق الحالي
+خيار تحميل افتراضي للصيغة الحالية
 
 ### انظر أيضًا
 

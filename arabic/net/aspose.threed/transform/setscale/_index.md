@@ -1,14 +1,14 @@
 ---
 title: "Transform.SetScale"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Transform. تحدد مقياس التحويل الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Transform. تعين مقياس التحويل الحالي"
 type: docs
 weight: 220
 url: /ar/net/aspose.threed/transform/setscale/
 ---
 ## Transform.SetScale method
 
-يضبط مقياس التحويل الحالي.
+يعين مقياس التحويل الحالي.
 
 ```csharp
 public Transform SetScale(double sx, double sy, double sz)
@@ -16,9 +16,9 @@ public Transform SetScale(double sx, double sy, double sz)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| sx | Double |  |
-| sy | Double |  |
-| sz | Double |  |
+| sx | مضاعف |  |
+| sy | مضاعف |  |
+| sz | مضاعف |  |
 
 ## أمثلة
 

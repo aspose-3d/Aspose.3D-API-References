@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.ApplicationVendor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "AssetInfo خاصية. يحصل أو يضبط اسم بائع التطبيق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AssetInfo. يحصل أو يضبط اسم بائع التطبيق"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/assetinfo/applicationvendor/
 ---
 ## AssetInfo.ApplicationVendor property
 
-الحصول أو تعيين اسم بائع التطبيق
+يحصل أو يضبط اسم بائع التطبيق
 
 ```csharp
 public string ApplicationVendor { get; set; }

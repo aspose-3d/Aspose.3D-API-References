@@ -1,14 +1,14 @@
 ---
 title: "Camera.FieldOfViewX"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Camera. تحصل أو تعيين مجال الرؤية الأفقي للكاميرا بالدرجات تُستخدم هذه الخاصية فقط عندما تكون ApertureMode هي HorizAndVert"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Camera. يحصل أو يضبط مجال الرؤية الأفقي للكاميرا بالدرجات، تُستخدم هذه الخاصية فقط عندما يكون ApertureMode هو HorizAndVert"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/camera/fieldofviewx/
 ---
 ## Camera.FieldOfViewX property
 
-يحصل أو يعيّن المجال الأفقي لرؤية الكاميرا بالدرجات، تُستخدم هذه الخاصية فقط عندما يكون ApertureMode HorizAndVert
+يحصل أو يضبط المجال الأفقي للرؤية للكاميرا بالدرجات، تُستخدم هذه الخاصية فقط عندما يكون ApertureMode هو HorizAndVert
 
 ```csharp
 public double FieldOfViewX { get; set; }

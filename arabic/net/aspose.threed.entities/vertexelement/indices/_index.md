@@ -1,7 +1,7 @@
 ---
 title: "VertexElement.Indices"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElement property. يحصل على بيانات الفهارس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية VertexElement. تحصل على بيانات الفهارس"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/vertexelement/indices/

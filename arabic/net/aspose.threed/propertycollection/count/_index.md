@@ -1,7 +1,7 @@
 ---
 title: "PropertyCollection.Count"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PropertyCollection. تحصل على عدد الخصائص المعلنة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PropertyCollection. تحصل على عدد الخصائص المعلنة."
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/propertycollection/count/

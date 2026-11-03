@@ -1,6 +1,6 @@
 ---
 title: "Transform.Rotation"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية Transform. تحصل أو تعين الدوران الممثل بالكواتيرنيون"
 type: docs
 weight: 70
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/transform/rotation/
 ---
 ## Transform.Rotation property
 
-يحصل أو يعيّن الدوران الممثّل بالكواترنيون.
+تحصل أو تعين الدوران الممثل بالكواتيرنيون.
 
 ```csharp
 public Quaternion Rotation { get; set; }

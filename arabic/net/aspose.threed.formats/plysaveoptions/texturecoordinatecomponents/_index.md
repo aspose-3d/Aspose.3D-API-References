@@ -1,7 +1,7 @@
 ---
 title: "PlySaveOptions.TextureCoordinateComponents"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PlySaveOptions. أسماء المكوّنات لبيانات إحداثيات القوام، القيمة الافتراضية هي u v"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PlySaveOptions. أسماء المكوّنات لبيانات إحداثيات النسيج القيمة الافتراضية هي u v"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.formats/plysaveoptions/texturecoordinatecomponents/

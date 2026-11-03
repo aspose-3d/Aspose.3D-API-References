@@ -1,7 +1,7 @@
 ---
 title: "ObjSaveOptions.ApplyUnitScale"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ObjSaveOptions. تطبيق UnitScaleFactor على الشبكة. القيمة الافتراضية هي false."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ObjSaveOptions. تطبيق UnitScaleFactor على الشبكة. القيمة الافتراضية هي false"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/objsaveoptions/applyunitscale/

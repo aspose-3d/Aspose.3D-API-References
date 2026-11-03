@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.Determinant"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Matrix4. يحصل على محدد المصفوفة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Matrix4 خاصية. يحصل على محدد المصفوفة"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.utilities/matrix4/determinant/
 ---
 ## Matrix4.Determinant property
 
-يسترجع محدد المصفوفة.
+يحصل على محدد المصفوفة.
 
 ```csharp
 public double Determinant { get; }

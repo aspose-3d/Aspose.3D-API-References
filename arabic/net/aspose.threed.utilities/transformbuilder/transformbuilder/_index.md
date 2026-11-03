@@ -1,14 +1,14 @@
 ---
 title: "TransformBuilder.TransformBuilder"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ TransformBuilder. إنشاء TransformBuilder بمصفوفة تحويل أولية وترتيب تركيب محدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ TransformBuilder. إنشاء TransformBuilder بمصفوفة تحويل أولية وترتيب تجميع محدد"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/transformbuilder/transformbuilder/
 ---
 ## TransformBuilder(Matrix4, ComposeOrder) {#constructor_1}
 
-إنشاء [`TransformBuilder`](../) بمصفوفة تحويل أولية وترتيب تركيب محدد
+إنشاء [`TransformBuilder`](../) بمصفوفة تحويل أولية وترتيب تجميع محدد
 
 ```csharp
 public TransformBuilder(Matrix4 initial, ComposeOrder order)
@@ -16,8 +16,8 @@ public TransformBuilder(Matrix4 initial, ComposeOrder order)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| أولي | Matrix4 |  |
-| ترتيب | ComposeOrder |  |
+| الأولي | Matrix4 |  |
+| order | ComposeOrder |  |
 
 ### انظر أيضًا
 
@@ -31,7 +31,7 @@ public TransformBuilder(Matrix4 initial, ComposeOrder order)
 
 ## TransformBuilder(ComposeOrder) {#constructor}
 
-إنشاء [`TransformBuilder`](../) بمصفوفة تحويل هوية أولية وترتيب تركيب محدد
+إنشاء [`TransformBuilder`](../) بمصفوفة تحويل هوية أولية وترتيب تجميع محدد
 
 ```csharp
 public TransformBuilder(ComposeOrder order = ComposeOrder.Append)
@@ -39,7 +39,7 @@ public TransformBuilder(ComposeOrder order = ComposeOrder.Append)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| ترتيب | ComposeOrder |  |
+| order | ComposeOrder |  |
 
 ### انظر أيضًا
 

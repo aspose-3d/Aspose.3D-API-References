@@ -1,14 +1,14 @@
 ---
 title: "TrapeziumShape.GetExtent"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TrapeziumShape. تحصل على المدى في بعدي x و y"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TrapeziumShape. يحصل على المدى في بعدي x و y"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.profiles/trapeziumshape/getextent/
 ---
 ## TrapeziumShape.GetExtent method
 
-يحصل على الامتداد في بعدي x و y.
+تحصل على الامتداد في بعدي x و y.
 
 ```csharp
 public override Vector2 GetExtent()

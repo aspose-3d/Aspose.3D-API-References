@@ -1,14 +1,14 @@
 ---
 title: "NurbsCurve.Rational"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية NurbsCurve. تحصل أو تعين ما إذا كان عقلانياً؛ هذه القيمة تشير إلى ما إذا كان هذا NurbsCurve هو منحنى عقلاني أو منحنى غير عقلاني. الـ Bspline غير العقلاني هو حالة خاصة من الـ Bsplines العقلانية."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية NurbsCurve. يحصل أو يعيّن ما إذا كان منطقيًا؛ هذه القيمة تشير إلى ما إذا كان هذا NurbsCurve هو منحنى منطقي أو منحنى غير منطقي. الـ Nonrational Bspline هو حالة خاصة من الـ rational Bsplines"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.entities/nurbscurve/rational/
 ---
 ## NurbsCurve.Rational property
 
-تحصل أو تعين ما إذا كان عقلانياً، هذه القيمة تشير إلى ما إذا كان هذا [`NurbsCurve`](../) منحنى عقلاني أو منحنى غير عقلاني. الـ B-spline غير العقلاني هو حالة خاصة من الـ B-splines العقلانية.
+يحصل أو يعيّن ما إذا كان منطقيًا، هذه القيمة تشير إلى ما إذا كان هذا [`NurbsCurve`](../) هو منحنى منطقي أو منحنى غير منطقي. الـ Non-rational B-spline هو حالة خاصة من الـ rational B-splines.
 
 ```csharp
 public bool Rational { get; set; }
@@ -16,7 +16,7 @@ public bool Rational { get; set; }
 
 ### Property Value
 
-صحيح إذا كان منحنى عقلاني؛ وإلا، خطأ إذا كان منحنى غير عقلاني.
+صحيح إذا كان منحنى منطقي؛ وإلا، يكون خاطئًا وهو منحنى غير منطقي.
 
 ### انظر أيضًا
 

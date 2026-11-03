@@ -1,14 +1,14 @@
 ---
 title: "RenderState.GetHashCode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderState. تُرجع رمز التجزئة لهذه المثيلة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RenderState. تُعيد رمز التجزئة لهذا الكائن"
 type: docs
 weight: 220
 url: /ar/net/aspose.threed.render/renderstate/gethashcode/
 ---
 ## RenderState.GetHashCode method
 
-يرجع رمز التجزئة لهذه النسخة.
+تُرجع رمز التجزئة لهذه الحالة.
 
 ```csharp
 public override int GetHashCode()

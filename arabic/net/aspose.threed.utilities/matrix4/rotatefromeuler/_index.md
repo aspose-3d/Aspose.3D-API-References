@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.RotateFromEuler"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. إنشاء مصفوفة دوران من زاوية أويلر"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Matrix4. أنشئ مصفوفة دوران من زاوية أويلر"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.utilities/matrix4/rotatefromeuler/
 ---
 ## RotateFromEuler(Vector3) {#rotatefromeuler}
 
-إنشاء مصفوفة دوران من زاوية أويلر
+أنشئ مصفوفة دوران من زاوية أويلر
 
 ```csharp
 public static Matrix4 RotateFromEuler(Vector3 eul)
@@ -16,7 +16,7 @@ public static Matrix4 RotateFromEuler(Vector3 eul)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| eul | Vector3 | دوران بالراديان |
+| eul | Vector3 | الدوران بالراديان |
 
 ## أمثلة
 
@@ -39,7 +39,7 @@ Console.WriteLine($"Transformed: {t * pos}");
 
 ## RotateFromEuler(double, double, double) {#rotatefromeuler_1}
 
-إنشاء مصفوفة دوران من زاوية أويلر
+أنشئ مصفوفة دوران من زاوية أويلر
 
 ```csharp
 public static Matrix4 RotateFromEuler(double rx, double ry, double rz)
@@ -47,9 +47,9 @@ public static Matrix4 RotateFromEuler(double rx, double ry, double rz)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| rx | Double | دوران حول محور x بالراديان |
-| ry | Double | دوران حول محور y بالراديان |
-| rz | Double | دوران حول محور z بالراديان |
+| rx | مضاعف | الدوران حول محور x بالراديان |
+| ry | مضاعف | الدوران حول محور y بالراديان |
+| rz | مضاعف | الدوران حول محور z بالراديان |
 
 ## أمثلة
 

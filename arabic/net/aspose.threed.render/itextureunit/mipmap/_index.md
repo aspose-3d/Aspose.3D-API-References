@@ -1,7 +1,7 @@
 ---
 title: "ITextureUnit.Mipmap"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ITextureUnit. الحصول على أو تعيين وضع الفلتر للـ mipmap"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. الحصول أو تعيين وضع الفلتر للـ mipmap"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/itextureunit/mipmap/

@@ -1,6 +1,6 @@
 ---
 title: "AnimationNode.FindBindPoint"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة AnimationNode. يجد نقطة الربط حسب الهدف والاسم"
 type: docs
 weight: 50
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/animationnode/findbindpoint/
 ---
 ## AnimationNode.FindBindPoint method
 
-يبحث عن نقطة الربط حسب الهدف والاسم.
+يجد نقطة الربط حسب الهدف والاسم.
 
 ```csharp
 public BindPoint FindBindPoint(A3DObject target, string name)
@@ -16,8 +16,8 @@ public BindPoint FindBindPoint(A3DObject target, string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الهدف | A3DObject | هدف نقطة الربط للبحث عنه. |
-| الاسم | سلسلة | اسم نقطة الربط للبحث عنه. |
+| الهدف | A3DObject | الهدف لنقطة الربط للعثور عليه. |
+| الاسم | String | اسم نقطة الربط للعثور عليه. |
 
 ### قيمة الإرجاع
 

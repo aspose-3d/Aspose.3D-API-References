@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.Classes"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية StructuralMetadata. تعريفات الفئات"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats.gltf/structuralmetadata/classes/
 ---
 ## StructuralMetadata.Classes property
 
-تعريفات الفئة.
+تعريفات الفئات .
 
 ```csharp
 public Dictionary<string, ClassType> Classes { get; }

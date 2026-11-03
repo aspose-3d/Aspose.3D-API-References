@@ -1,14 +1,14 @@
 ---
 title: "VertexDeclaration.VertexDeclaration"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexDeclaration منشئ. المنشئ الافتراضي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ VertexDeclaration. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.utilities/vertexdeclaration/vertexdeclaration/
 ---
 ## VertexDeclaration constructor
 
-المنشئ الافتراضي.
+المُنشئ الافتراضي.
 
 ```csharp
 public VertexDeclaration()

@@ -1,7 +1,7 @@
 ---
 title: "DriverException.ErrorCode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية DriverException. يحصل على رمز الخطأ الأصلي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "DriverException خاصية. يحصل على رمز الخطأ الأصلي"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/driverexception/errorcode/

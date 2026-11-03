@@ -1,14 +1,14 @@
 ---
 title: "Bone.GetWeight"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Bone. تحصل على الوزن لنقطة التحكم المحددة بالمؤشر"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Bone. يحصل على الوزن لنقطة التحكم المحددة بالـ index"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.deformers/bone/getweight/
 ---
 ## Bone.GetWeight method
 
-يحصل على الوزن لنقطة التحكم المحددة بالفهرس.
+يحصل على الوزن لنقطة التحكم المحددة بالـ index
 
 ```csharp
 public double GetWeight(int index)
@@ -16,11 +16,11 @@ public double GetWeight(int index)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المؤشر | Int32 | مؤشر نقطة التحكم |
+| index | Int32 | فهرس نقطة التحكم |
 
 ### قيمة الإرجاع
 
-الوزن عند المؤشر المحدد، أو 0 إذا كان المؤشر غير صالح
+الوزن عند الفهرس المحدد، أو 0 إذا كان الفهرس غير صالح
 
 ### انظر أيضًا
 

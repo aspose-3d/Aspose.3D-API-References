@@ -1,6 +1,6 @@
 ---
 title: "TextureBase.UVTranslation"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية TextureBase. يحصل أو يضبط ترجمة UV"
 type: docs
 weight: 90
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.shading/texturebase/uvtranslation/
 ---
 ## TextureBase.UVTranslation property
 
-يسترجع أو يعيّن إزاحة الـ UV.
+يحصل أو يضبط ترجمة UV.
 
 ```csharp
 public Vector2 UVTranslation { get; set; }

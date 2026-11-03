@@ -1,7 +1,7 @@
 ---
 title: "DracoSaveOptions.TextureCoordinateBits"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية DracoSaveOptions. عدد بتات الكمّية لإحداثيات القوام القيمة الافتراضية هي 12"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية DracoSaveOptions. بتات التكميم لإحداثيات النسيج القيمة الافتراضية هي 12"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.formats/dracosaveoptions/texturecoordinatebits/

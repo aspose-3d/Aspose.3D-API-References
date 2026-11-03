@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo.ApplicationName"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية AssetInfo. تحصل أو تعين التطبيق الذي أنشأ هذا الأصل"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/assetinfo/applicationname/
 ---
 ## AssetInfo.ApplicationName property
 
-الحصول أو تعيين التطبيق الذي أنشأ هذا الأصل
+تحصل أو تعين التطبيق الذي أنشأ هذا الأصل
 
 ```csharp
 public string ApplicationName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "Node.GlobalTransform"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Node. تحصل على التحويل العالمي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Node. يسترجع التحويل العالمي"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed/node/globaltransform/
 ---
 ## Node.GlobalTransform property
 
-يحصل على التحويل العالمي.
+يسترجع التحويل العالمي.
 
 ```csharp
 public GlobalTransform GlobalTransform { get; }

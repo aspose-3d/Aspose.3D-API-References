@@ -1,14 +1,14 @@
 ---
 title: "ShaderTechnique.RenderAPI"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ShaderTechnique. يحصل أو يضبط واجهة برمجة تطبيقات العرض المستخدمة في هذه التقنية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ShaderTechnique. يحصل أو يضبط واجهة برمجة تطبيقات العرض المستخدمة بواسطة هذه التقنية"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.shading/shadertechnique/renderapi/
 ---
 ## ShaderTechnique.RenderAPI property
 
-يحصل أو يضبط API التصيير المستخدم في هذه التقنية
+يحصل أو يضبط واجهة برمجة تطبيقات العرض المستخدمة بواسطة هذه التقنية
 
 ```csharp
 public string RenderAPI { get; set; }

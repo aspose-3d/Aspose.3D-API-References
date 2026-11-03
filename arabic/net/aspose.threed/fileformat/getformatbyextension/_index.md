@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.GetFormatByExtension"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat الطريقة. يحصل على تنسيق الملف المفضل من اسم امتداد الملف. يجب أن يبدأ اسم الامتداد بنقطة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormat طريقة. يحصل على تنسيق الملف المفضل من اسم امتداد الملف. يجب أن يبدأ اسم الامتداد بنقطة"
 type: docs
 weight: 470
 url: /ar/net/aspose.threed/fileformat/getformatbyextension/
 ---
 ## FileFormat.GetFormatByExtension method
 
-يحصل على تنسيق الملف المفضّل من اسم امتداد الملف. يجب أن يبدأ اسم الامتداد بنقطة ('.').
+يحصل على تنسيق الملف المفضل من اسم امتداد الملف. يجب أن يبدأ اسم الامتداد بنقطة('.').
 
 ```csharp
 public static FileFormat GetFormatByExtension(string extensionName)
@@ -16,7 +16,7 @@ public static FileFormat GetFormatByExtension(string extensionName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| extensionName | سلسلة | اسم الامتداد يبدأ بـ '.' للاستعلام. |
+| extensionName | String | اسم الامتداد يبدأ بـ '.' للاستعلام. |
 
 ### قيمة الإرجاع
 

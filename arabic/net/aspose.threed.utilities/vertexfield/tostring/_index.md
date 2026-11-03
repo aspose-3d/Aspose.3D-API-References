@@ -1,14 +1,14 @@
 ---
 title: "VertexField.ToString"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة VertexField. يحصل على تمثيل السلسلة لـ VertexField"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "VertexField طريقة. يحصل على تمثيل النص لـ VertexField"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.utilities/vertexfield/tostring/
 ---
 ## VertexField.ToString method
 
-يحصل على تمثيل السلسلة لـ [`VertexField`](../)
+يحصل على تمثيل النص لـ [`VertexField`](../)
 
 ```csharp
 public override string ToString()

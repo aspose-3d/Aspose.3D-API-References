@@ -1,14 +1,14 @@
 ---
 title: "FMatrix4.Transpose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FMatrix4 طريقة. يعكس هذا الكائن"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FMatrix4. تعكس هذه الحالة"
 type: docs
 weight: 210
 url: /ar/net/aspose.threed.utilities/fmatrix4/transpose/
 ---
 ## FMatrix4.Transpose method
 
-يقلب هذه النسخة.
+تعكس هذه الحالة.
 
 ```csharp
 public FMatrix4 Transpose()

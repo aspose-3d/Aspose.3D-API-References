@@ -1,6 +1,6 @@
 ---
 title: "SaveOptions.ExportTextures"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية SaveOptions. حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats/saveoptions/exporttextures/
 ---
 ## SaveOptions.ExportTextures property
 
-محاولة نسخ القوام المستخدمة في المشهد إلى دليل الإخراج.
+حاول نسخ القوام المستخدمة في المشهد إلى دليل الإخراج.
 
 ```csharp
 public bool ExportTextures { get; set; }

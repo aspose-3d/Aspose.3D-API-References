@@ -1,14 +1,14 @@
 ---
 title: "Matrix4.Translate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Matrix4. تنشئ مصفوفة تُترجم على طول المحور x والمحور y والمحور z"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "Matrix4 طريقة. ينشئ مصفوفة تقوم بالترجمة على طول xaxis و yaxis و zaxis"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.utilities/matrix4/translate/
 ---
 ## Translate(Vector3) {#translate}
 
-ينشئ مصفوفة تقوم بالترجمة على طول المحور x، والمحور y، والمحور z
+ينشئ مصفوفة تقوم بالترجمة على طول x-axis، y-axis و z-axis.
 
 ```csharp
 public static Matrix4 Translate(Vector3 t)
@@ -39,7 +39,7 @@ Console.WriteLine($"Transformed: {t * pos}");
 
 ## Translate(double, double, double) {#translate_1}
 
-ينشئ مصفوفة تقوم بالترجمة على طول المحور x، والمحور y، والمحور z
+ينشئ مصفوفة تقوم بالترجمة على طول x-axis، y-axis و z-axis.
 
 ```csharp
 public static Matrix4 Translate(double tx, double ty, double tz)
@@ -47,9 +47,9 @@ public static Matrix4 Translate(double tx, double ty, double tz)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| tx | Double | إزاحة إحداثي X |
-| ty | Double | إزاحة إحداثي Y |
-| tz | Double | إزاحة إحداثي Z |
+| tx | مضاعف | إزاحة إحداثي X |
+| ty | مضاعف | إزاحة إحداثي Y |
+| tz | مضاعف | إزاحة إحداثي Z |
 
 ## أمثلة
 

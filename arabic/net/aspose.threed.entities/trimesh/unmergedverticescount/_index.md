@@ -1,14 +1,14 @@
 ---
 title: "TriMesh.UnmergedVerticesCount"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TriMesh. عدد الرؤوس غير المدمجة التي تم تمريرها عبر BeginVertex و EndVertex"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TriMesh. عدد الرؤوس غير المدمجة التي تم تمريرها بواسطة BeginVertex و EndVertex"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.entities/trimesh/unmergedverticescount/
 ---
 ## TriMesh.UnmergedVerticesCount property
 
-عدد الرؤوس غير المدمجة التي تم تمريرها عبر [`BeginVertex`](../beginvertex/) و [`EndVertex`](../endvertex/).
+عدد الرؤوس غير المدمجة التي تم تمريرها بواسطة [`BeginVertex`](../beginvertex/) و [`EndVertex`](../endvertex/).
 
 ```csharp
 public int UnmergedVerticesCount { get; }

@@ -1,6 +1,6 @@
 ---
 title: "BooleanOperator.Operator"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية BooleanOperator. المشغل البولياني المستخدم في العملية لإنشاء شبكة النتيجة"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/booleanoperator/operator/
 ---
 ## BooleanOperator.Operator property
 
-المشغل البولياني المستخدم في العملية لإنشاء شبكة النتائج.
+المشغل البولياني المستخدم في العملية لإنشاء شبكة النتيجة.
 
 ```csharp
 public BooleanOperation Operator { get; set; }

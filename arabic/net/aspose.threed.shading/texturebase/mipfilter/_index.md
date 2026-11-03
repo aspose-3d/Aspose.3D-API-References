@@ -1,14 +1,14 @@
 ---
 title: "TextureBase.MipFilter"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TextureBase. يحصل أو يضبط الفلتر لأخذ عينات مستويات الميبيل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TextureBase. يحصل أو يضبط الفلتر لأخذ عينات مستويات الميب"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.shading/texturebase/mipfilter/
 ---
 ## TextureBase.MipFilter property
 
-يسترجع أو يعيّن الفلتر لأخذ عينات مستوى الميب.
+يحصل أو يضبط الفلتر لأخذ عينات مستوى الميب.
 
 ```csharp
 public TextureFilter MipFilter { get; set; }

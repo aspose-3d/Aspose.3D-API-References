@@ -1,14 +1,14 @@
 ---
 title: "HShape.TopFlangeEdgeRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HShape. تحصل أو تعيين نصف قطر الحواف السفلية للشفة العلوية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HShape. تحصل أو تعين نصف قطر الحواف السفلية للحافة العلوية"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.profiles/hshape/topflangeedgeradius/
 ---
 ## HShape.TopFlangeEdgeRadius property
 
-الحصول أو تعيين نصف قطر الحواف السفلية للشفرة العلوية.
+تحصل أو تعين نصف قطر الحواف السفلية للحافة العلوية.
 
 ```csharp
 public double TopFlangeEdgeRadius { get; set; }

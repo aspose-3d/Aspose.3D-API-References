@@ -1,6 +1,6 @@
 ---
 title: "Node.AddEntity"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Node. أضف كيانًا إلى العقدة"
 type: docs
 weight: 160
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/node/addentity/
 ---
 ## Node.AddEntity method
 
-إضافة كيان إلى العقدة.
+أضف كيانًا إلى العقدة.
 
 ```csharp
 public void AddEntity(Entity entity)
@@ -16,7 +16,7 @@ public void AddEntity(Entity entity)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| كيان | كيان | الكيان المراد إرفاقه بالعقدة |
+| الكيان | الكيان | الكيان الذي سيتم ربطه بالعقدة |
 
 ### انظر أيضًا
 

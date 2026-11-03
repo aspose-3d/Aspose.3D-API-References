@@ -1,6 +1,6 @@
 ---
 title: "TextureData.FromFile"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TextureData. تحميل نسيج من ملف"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/texturedata/fromfile/
 ---
 ## TextureData.FromFile method
 
-تحميل قوام من ملف
+تحميل نسيج من ملف
 
 ```csharp
 public static TextureData FromFile(string fileName)
@@ -16,7 +16,7 @@ public static TextureData FromFile(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة |  |
+| fileName | String |  |
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.Attach"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة StructuralMetadata. إرفاق البيانات الوصفية الحالية بالمشهد المحدد"
 type: docs
 weight: 60
@@ -16,7 +16,7 @@ public void Attach(Scene scene)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| scene | Scene |  |
+| المشهد | المشهد |  |
 
 ### انظر أيضًا
 

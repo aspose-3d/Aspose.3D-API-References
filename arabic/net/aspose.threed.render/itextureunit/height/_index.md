@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.Height"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل على ارتفاع هذا الملمس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. يحصل على ارتفاع هذا الملمس"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/itextureunit/height/
 ---
 ## ITextureUnit.Height property
 
-الحصول على ارتفاع هذا النسيج.
+يحصل على ارتفاع هذا الملمس.
 
 ```csharp
 public int Height { get; }

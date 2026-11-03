@@ -1,14 +1,14 @@
 ---
 title: "GlobalTransform.EulerAngles"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GlobalTransform. تحصل على الدوران الممثل بزوايا أويلر مقاسة بالدرجة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "GlobalTransform property. يحصل على الدوران الممثّل بزايا أويلر مقاسة بالدرجة"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/globaltransform/eulerangles/
 ---
 ## GlobalTransform.EulerAngles property
 
-الحصول على الدوران الممثّل بزايا أويلر، مقاسًا بالدرجة
+يحصل على الدوران الممثل بزايا أويلر، مقاسًا بالدرجة
 
 ```csharp
 public Vector3 EulerAngles { get; }

@@ -1,7 +1,7 @@
 ---
 title: "Patch.V"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Patch property. تحصل على اتجاه v"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Patch. يحصل على اتجاه v"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/patch/v/

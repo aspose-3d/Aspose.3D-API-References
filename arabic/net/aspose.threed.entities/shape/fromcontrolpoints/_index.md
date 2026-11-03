@@ -1,6 +1,6 @@
 ---
 title: "Shape.FromControlPoints"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Shape. أنشئ شكلاً بنقاط تحكم محددة مع فهارس افتراضية"
 type: docs
 weight: 20

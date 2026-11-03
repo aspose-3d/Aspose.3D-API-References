@@ -1,14 +1,14 @@
 ---
 title: "TShape.FilletRadius"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TShape. يسترجع أو يعيّن نصف قطر التدوير بين الويب والوشي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TShape. يسترجع أو يعيّن نصف قطر القطع الدائري بين الويب والشفة"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.profiles/tshape/filletradius/
 ---
 ## TShape.FilletRadius property
 
-يحصل أو يعيّن نصف قطر التدوير بين الشبكة والحافة.
+يسترجع أو يعيّن نصف قطر القطع الدائري بين الويب والشفة.
 
 ```csharp
 public double FilletRadius { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: "RenderFactory.CreateDescriptorSet"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة RenderFactory. إنشاء مجموعة الوصف لبرنامج الظل المحدد"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة RenderFactory. إنشاء مجموعة الوصف للبرنامج التظليل المحدد"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.render/renderfactory/createdescriptorset/
 ---
 ## RenderFactory.CreateDescriptorSet method
 
-إنشاء مجموعة الوصف للبرنامج الظلي المحدد.
+إنشاء مجموعة الوصف للبرنامج التظليل المحدد.
 
 ```csharp
 public abstract IDescriptorSet CreateDescriptorSet(ShaderProgram shader)
@@ -16,7 +16,7 @@ public abstract IDescriptorSet CreateDescriptorSet(ShaderProgram shader)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| shader | ShaderProgram | برنامج الظلّ |
+| shader | ShaderProgram | برنامج الظل |
 
 ### قيمة الإرجاع
 

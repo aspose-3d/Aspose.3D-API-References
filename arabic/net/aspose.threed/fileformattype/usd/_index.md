@@ -1,14 +1,14 @@
 ---
 title: "FileFormatType.USD"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormatType حقل. وصف المشهد العالمي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormatType حقل. وصف المشهد الشامل"
 type: docs
 weight: 220
 url: /ar/net/aspose.threed/fileformattype/usd/
 ---
 ## FileFormatType.USD field
 
-وصف المشهد الشامل
+وصف المشهد العالمي
 
 ```csharp
 public static readonly FileFormatType USD;

@@ -1,14 +1,14 @@
 ---
 title: "RvmSaveOptions.AttributePrefix"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RvmSaveOptions. الحصول أو تعيين بادئة السمات التي سيتم تصديرها؛ الخاصية المصدرة لن تحتوي على بادئة؛ الخصائص المخصصة ذات البادئة المختلفة لن يتم تصديرها؛ القيمة الافتراضية هي rvm. على سبيل المثال إذا كانت الخاصية rvmRefno345 فإن السمة المصدرة ستكون Refno 345؛ تم إزالة البادئة."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية RvmSaveOptions. يحصل أو يضبط بادئة السمات التي سيتم تصديرها؛ الخاصية المصدرة لن تحتوي على بادئة. الخصائص المخصصة ذات البادئة المختلفة لن يتم تصديرها. القيمة الافتراضية هي rvm. على سبيل المثال، إذا كانت الخاصية rvmRefno345 فإن السمة المصدرة ستكون Refno 345؛ تم إزالة البادئة."
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/rvmsaveoptions/attributeprefix/
 ---
 ## RvmSaveOptions.AttributePrefix property
 
-يحصل أو يعيّن البادئة للسمات التي سيتم تصديرها، الخاصية المصدّرة لن تحتوي على بادئة، السمات المخصصة ذات البادئة المختلفة لن تُصدّر، القيمة الافتراضية هي 'rvm:'. على سبيل المثال إذا كانت الخاصية rvm:Refno=345، فإن السمة المصدّرة ستكون Refno = 345، تُزال البادئة.
+الحصول أو تعيين البادئة للسمات التي سيتم تصديرها، الخاصية المصدرة لن تحتوي على بادئة، الخصائص المخصصة ذات البادئة المختلفة لن يتم تصديرها، القيمة الافتراضية هي 'rvm:'. على سبيل المثال إذا كانت الخاصية rvm:Refno=345، فإن السمة المصدرة ستكون Refno = 345، يتم إزالة البادئة.
 
 ```csharp
 public string AttributePrefix { get; set; }
@@ -26,7 +26,7 @@ var boxNode = scene.RootNode.CreateChildNode("box", box);
 boxNode.SetProperty("rvm:Price", 12.0);
 boxNode.SetProperty("rvm:Weight", 30.0);
 var opt = new RvmSaveOptions();
-//الخصائص ذات البادئة rvm: سيتم تصديرها.
+//الخصائص التي لها بادئة rvm: سيتم تصديرها.
 opt.ExportAttributes = true;
 opt.AttributePrefix = "rvm:";
 opt.Author = "Aspose.3D";

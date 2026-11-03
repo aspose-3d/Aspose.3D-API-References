@@ -1,7 +1,7 @@
 ---
 title: "PlySaveOptions.FaceElement"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PlySaveOptions. اسم العنصر لبيانات الوجه القيمة الافتراضية هي face"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PlySaveOptions. اسم العنصر لبيانات الوجه القيمة الافتراضية هو face"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.formats/plysaveoptions/faceelement/

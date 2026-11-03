@@ -1,6 +1,6 @@
 ---
 title: "PushConstant.Write"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة PushConstant. كتابة المصفوفة إلى الثابت"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/pushconstant/write/
 ---
 ## Write(FMatrix4) {#write}
 
-كتابة المصفوفة إلى الثابت
+اكتب المصفوفة إلى الثابت
 
 ```csharp
 public PushConstant Write(FMatrix4 mat)
@@ -16,7 +16,7 @@ public PushConstant Write(FMatrix4 mat)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| mat | FMatrix4 | المصفوفة التي سيتم كتابتها |
+| mat | FMatrix4 | المصفوفة للكتابة |
 
 ### انظر أيضًا
 
@@ -29,7 +29,7 @@ public PushConstant Write(FMatrix4 mat)
 
 ## Write(int) {#write_3}
 
-كتابة قيمة عدد صحيح إلى الثابت
+اكتب قيمة int إلى الثابت
 
 ```csharp
 public PushConstant Write(int n)
@@ -49,7 +49,7 @@ public PushConstant Write(int n)
 
 ## Write(float) {#write_4}
 
-كتابة قيمة عائمة إلى الثابت
+اكتب قيمة float إلى الثابت
 
 ```csharp
 public PushConstant Write(float f)
@@ -69,7 +69,7 @@ public PushConstant Write(float f)
 
 ## Write(FVector4) {#write_2}
 
-كتابة متجه رباعي المكونات إلى الثابت
+اكتب متجهًا مكوّنًا من 4 عناصر إلى الثابت
 
 ```csharp
 public PushConstant Write(FVector4 vec)
@@ -90,7 +90,7 @@ public PushConstant Write(FVector4 vec)
 
 ## Write(FVector3) {#write_1}
 
-كتابة متجه ثلاثي المكونات إلى الثابت
+اكتب متجهًا مكوّنًا من 3 عناصر إلى الثابت
 
 ```csharp
 public PushConstant Write(FVector3 vec)
@@ -111,7 +111,7 @@ public PushConstant Write(FVector3 vec)
 
 ## Write(float, float, float, float) {#write_5}
 
-كتابة متجه رباعي المكونات إلى الثابت
+اكتب متجهًا مكوّنًا من 4 عناصر إلى الثابت
 
 ```csharp
 public PushConstant Write(float x, float y, float z, float w)

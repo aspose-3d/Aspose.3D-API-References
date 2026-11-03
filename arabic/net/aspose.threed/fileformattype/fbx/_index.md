@@ -1,7 +1,7 @@
 ---
 title: "FileFormatType.FBX"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormatType حقل. FBX نوع تنسيق الملف"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormatType حقل. نوع تنسيق ملف FBX"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed/fileformattype/fbx/

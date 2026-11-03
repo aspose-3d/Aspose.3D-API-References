@@ -1,14 +1,14 @@
 ---
 title: "SPIRVSource.FragmentShader"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية SPIRVSource. تحصّل أو تعيين شفرة المصدر لبرنامج الظل الجزئي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية SPIRVSource. تحصل أو تعين شفرة المصدر لمعالج القطع"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/spirvsource/fragmentshader/
 ---
 ## SPIRVSource.FragmentShader property
 
-يحصل أو يحدد شفرة المصدر للمظلّل الجزئي.
+تحصل أو تعين شفرة المصدر لمعالج القطع.
 
 ```csharp
 public byte[] FragmentShader { get; set; }

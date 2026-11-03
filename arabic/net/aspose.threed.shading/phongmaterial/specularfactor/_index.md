@@ -1,14 +1,14 @@
 ---
 title: "PhongMaterial.SpecularFactor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PhongMaterial. يحصل أو يعيّن عامل الانعكاس. صيغة الانعكاس SpecularColor  SpecularFactor  N dot H  Shininess"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PhongMaterial. يتم الحصول على أو تعيين عامل اللمعان. صيغة اللمعان SpecularColor  SpecularFactor  N dot H  Shininess"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.shading/phongmaterial/specularfactor/
 ---
 ## PhongMaterial.SpecularFactor property
 
-يحصل أو يعيّن عامل الانعكاس. صيغة الانعكاس: SpecularColor * SpecularFactor * (N dot H) ^ Shininess
+يتم الحصول على أو تعيين عامل اللمعان. صيغة اللمعان: SpecularColor * SpecularFactor * (N dot H) ^ Shininess
 
 ```csharp
 public double SpecularFactor { get; set; }

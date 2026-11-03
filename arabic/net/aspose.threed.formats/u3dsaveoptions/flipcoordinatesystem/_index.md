@@ -1,14 +1,14 @@
 ---
 title: "U3dSaveOptions.FlipCoordinateSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "U3dSaveOptions property. يحصل أو يضبط ما إذا كان يتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء الاستيراد/التصدير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية U3dSaveOptions. الحصول أو تعيين ما إذا كان يتم عكس نظام إحداثيات نقاط التحكم/العمود أثناء الاستيراد/التصدير"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.formats/u3dsaveoptions/flipcoordinatesystem/
 ---
 ## U3dSaveOptions.FlipCoordinateSystem property
 
-يحصل أو يضبط ما إذا كان يتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء الاستيراد/التصدير.
+تحصل أو تعيّن ما إذا كان سيتم عكس نظام الإحداثيات لنقاط التحكم/العمود أثناء الاستيراد/التصدير.
 
 ```csharp
 public bool FlipCoordinateSystem { get; set; }

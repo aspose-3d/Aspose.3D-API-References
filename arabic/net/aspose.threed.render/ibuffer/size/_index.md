@@ -1,6 +1,6 @@
 ---
 title: "IBuffer.Size"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية IBuffer. حجم هذا المخزن بالبايت"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/ibuffer/size/
 ---
 ## IBuffer.Size property
 
-حجم هذا المخزن بالبايت
+حجم هذا المخزن المؤقت بالبايت
 
 ```csharp
 public int Size { get; }

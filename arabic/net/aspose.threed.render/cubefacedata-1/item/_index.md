@@ -1,6 +1,6 @@
 ---
 title: "CubeFaceData1.Item"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية CubeFaceData."
 type: docs
 weight: 40

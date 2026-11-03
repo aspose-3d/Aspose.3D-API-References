@@ -1,6 +1,6 @@
 ---
 title: "KeyFrame.Continuity"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية KeyFrame. يحصل أو يضبط الاستمرارية المستخدمة في منحنى TCB"
 type: docs
 weight: 30

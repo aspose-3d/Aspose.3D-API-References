@@ -1,14 +1,14 @@
 ---
 title: "Line.Line"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Line. يهيئ مثيلاً جديداً من الفئة Line"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Line. يهيئ مثيلاً جديدًا من الفئة Line"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/line/line/
 ---
 ## Line() {#constructor}
 
-يهيئ مثيلاً جديداً من الفئة [`Line`](../).
+يهيئ مثيلاً جديدًا من الفئة [`Line`](../).
 
 ```csharp
 public Line()
@@ -24,7 +24,7 @@ public Line()
 
 ## Line(string) {#constructor_1}
 
-يهيئ مثيلاً جديداً من الفئة [`Line`](../).
+يهيئ مثيلاً جديدًا من الفئة [`Line`](../).
 
 ```csharp
 public Line(string name)
@@ -32,7 +32,7 @@ public Line(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم. |
+| الاسم | String | الاسم. |
 
 ### انظر أيضًا
 

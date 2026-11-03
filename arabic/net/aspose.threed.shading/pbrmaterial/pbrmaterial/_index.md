@@ -1,6 +1,6 @@
 ---
 title: "PbrMaterial.PbrMaterial"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ PbrMaterial. إنشاء نسخة مادة PBR افتراضية"
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ public PbrMaterial()
 
 ## PbrMaterial(Vector3) {#constructor_1}
 
-إنشاء مادة PBR افتراضية مع قيمة لون الألبيدو المحددة.
+إنشاء مادة PBR افتراضية مع قيمة لون albedo محددة.
 
 ```csharp
 public PbrMaterial(Vector3 albedo)
@@ -32,7 +32,7 @@ public PbrMaterial(Vector3 albedo)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| ألبدو | Vector3 | قيمة لون ألبدو الافتراضية |
+| albedo | Vector3 | قيمة لون albedo الافتراضية |
 
 ### انظر أيضًا
 

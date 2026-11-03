@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.CanImport"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية FileFormat. يحصل على ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FileFormat property. يحدد ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي"
 type: docs
 weight: 490
 url: /ar/net/aspose.threed/fileformat/canimport/
 ---
 ## FileFormat.CanImport property
 
-يحصل على ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي.
+يحدد ما إذا كان Aspose.3D يدعم استيراد المشهد من تنسيق الملف الحالي.
 
 ```csharp
 public bool CanImport { get; }
@@ -16,7 +16,7 @@ public bool CanImport { get; }
 
 ## أمثلة
 
-الكود التالي يوضح كيفية التحقق مما إذا كان استيراد التنسيق المحدد مدعومًا.
+الكود التالي يوضح كيفية التحقق مما إذا كان الاستيراد من التنسيق المحدد مدعومًا.
 
 ```csharp
 var outputFormat = ".glb";

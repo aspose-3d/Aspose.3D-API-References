@@ -1,14 +1,14 @@
 ---
 title: "Camera.FieldOfView"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Camera. تحصل أو تعيين مجال رؤية الكاميرا بالدرجات تُستخدم هذه الخاصية فقط عندما تكون ApertureMode هي Horizontal أو Vertical"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Camera. يحصل أو يضبط مجال الرؤية للكاميرا بالدرجات، تُستخدم هذه الخاصية فقط عندما يكون ApertureMode هو Horizontal أو Vertical"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.entities/camera/fieldofview/
 ---
 ## Camera.FieldOfView property
 
-يحصل أو يعيّن مجال رؤية الكاميرا بالدرجات، تُستخدم هذه الخاصية فقط عندما يكون ApertureMode أفقيًا أو عموديًا
+يحصل أو يضبط مجال الرؤية للكاميرا بالدرجات، تُستخدم هذه الخاصية فقط عندما يكون ApertureMode هو Horizontal أو Vertical
 
 ```csharp
 public double FieldOfView { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: "INamedObject.Name"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية INamedObject. تحصل على اسم الكائن"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية INamedObject. يحصل على اسم الكائن"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed/inamedobject/name/

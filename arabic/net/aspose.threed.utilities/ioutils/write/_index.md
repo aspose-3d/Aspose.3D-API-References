@@ -1,6 +1,6 @@
 ---
 title: "IOUtils.Write"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة IOUtils. كتابة المصفوفة إلى كاتب الثنائي"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/ioutils/write/
 ---
 ## Write(this BinaryWriter, Matrix4) {#write_4}
 
-اكتب المصفوفة إلى كاتب ثنائي
+اكتب المصفوفة إلى كاتب الثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, Matrix4 mat)
@@ -30,7 +30,7 @@ public static void Write(this BinaryWriter writer, Matrix4 mat)
 
 ## Write(this BinaryWriter, FMatrix4) {#write}
 
-اكتب المصفوفة إلى كاتب ثنائي
+اكتب المصفوفة إلى كاتب الثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, FMatrix4 mat)
@@ -52,7 +52,7 @@ public static void Write(this BinaryWriter writer, FMatrix4 mat)
 
 ## Write(this BinaryWriter, FVector2) {#write_1}
 
-اكتب المتجه إلى كاتب ثنائي
+اكتب المتجه إلى كاتب الثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector2 v)
@@ -74,7 +74,7 @@ public static void Write(this BinaryWriter writer, FVector2 v)
 
 ## Write(this BinaryWriter, FVector3) {#write_2}
 
-اكتب المتجه إلى كاتب ثنائي
+اكتب المتجه إلى كاتب الثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector3 v)
@@ -96,7 +96,7 @@ public static void Write(this BinaryWriter writer, FVector3 v)
 
 ## Write(this BinaryWriter, FVector4) {#write_3}
 
-اكتب المتجه إلى كاتب ثنائي
+اكتب المتجه إلى كاتب الثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, FVector4 v)
@@ -118,7 +118,7 @@ public static void Write(this BinaryWriter writer, FVector4 v)
 
 ## Write(this BinaryWriter, Vector2) {#write_5}
 
-اكتب المتجه إلى كاتب ثنائي
+اكتب المتجه إلى كاتب الثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector2 v)
@@ -140,7 +140,7 @@ public static void Write(this BinaryWriter writer, Vector2 v)
 
 ## Write(this BinaryWriter, Vector3) {#write_6}
 
-اكتب المتجه إلى كاتب ثنائي
+اكتب المتجه إلى كاتب الثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector3 v)
@@ -162,7 +162,7 @@ public static void Write(this BinaryWriter writer, Vector3 v)
 
 ## Write(this BinaryWriter, Vector4) {#write_7}
 
-اكتب المتجه إلى كاتب ثنائي
+اكتب المتجه إلى كاتب الثنائي
 
 ```csharp
 public static void Write(this BinaryWriter writer, Vector4 v)

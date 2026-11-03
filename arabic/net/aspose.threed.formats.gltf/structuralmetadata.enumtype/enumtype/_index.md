@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.EnumType.EnumType"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ EnumType."
 type: docs
 weight: 10

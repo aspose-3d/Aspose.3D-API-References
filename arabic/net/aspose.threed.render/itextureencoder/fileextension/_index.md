@@ -1,6 +1,6 @@
 ---
 title: "ITextureEncoder.FileExtension"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية ITextureEncoder. اسم امتداد الملف بدون نقطة لهذا المشفر"
 type: docs
 weight: 10

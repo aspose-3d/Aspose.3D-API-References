@@ -1,7 +1,7 @@
 ---
 title: "VertexElementUV.AddData"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "VertexElementUV طريقة."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة VertexElementUV."
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/vertexelementuv/adddata/

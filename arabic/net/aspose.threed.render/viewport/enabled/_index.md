@@ -1,14 +1,14 @@
 ---
 title: "Viewport.Enabled"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Viewport. تمكين أو تعطيل هذه المنطقة العرضية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Viewport. تمكين أو تعطيل هذا الviewport"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed.render/viewport/enabled/
 ---
 ## Viewport.Enabled property
 
-تمكين أو تعطيل هذا منفذ العرض.
+تمكين أو تعطيل هذا الviewport.
 
 ```csharp
 public bool Enabled { get; set; }

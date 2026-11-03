@@ -1,7 +1,7 @@
 ---
 title: "ITexture1D.ToBitmap"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ITexture1D. تحويل وحدة القوام إلى كائن TextureData"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ITexture1D. تحويل وحدة الملمس إلى كائن TextureData"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.render/itexture1d/tobitmap/

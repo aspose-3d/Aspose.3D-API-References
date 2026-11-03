@@ -1,14 +1,14 @@
 ---
 title: "BoundingBox.Null"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BoundingBox. صندوق الحدود الفارغ"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية BoundingBox. مربع الحدود الفارغ"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.utilities/boundingbox/null/
 ---
 ## BoundingBox.Null property
 
-صندوق الإحاطة الفارغ
+صندوق الحدود الفارغ.
 
 ```csharp
 public static BoundingBox Null { get; }

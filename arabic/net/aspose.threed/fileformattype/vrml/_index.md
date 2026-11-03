@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType.VRML"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "FileFormatType حقل. لغة نمذجة الواقع الافتراضي"
 type: docs
 weight: 230

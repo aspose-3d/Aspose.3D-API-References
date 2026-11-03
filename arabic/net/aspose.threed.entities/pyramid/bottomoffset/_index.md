@@ -1,14 +1,14 @@
 ---
 title: "Pyramid.BottomOffset"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Pyramid. إزاحة لرؤوس القاعدة السفلية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Pyramid. إزاحة للقمم السفلية"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/pyramid/bottomoffset/
 ---
 ## Pyramid.BottomOffset property
 
-الإزاحة للقمم السفلية
+إزاحة للقمم السفلية
 
 ```csharp
 public Vector3 BottomOffset { get; set; }

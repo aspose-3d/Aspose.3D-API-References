@@ -1,6 +1,6 @@
 ---
 title: "StructuralMetadata.From"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة StructuralMetadata. الحصول على StructuralMetadata المرتبط بالمشهد المحدد"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats.gltf/structuralmetadata/from/
 ---
 ## StructuralMetadata.From method
 
-احصل على [`StructuralMetadata`](../) المرتبطة بالمشهد المحدد.
+احصل على [`StructuralMetadata`](../) المرتبط بالمشهد المحدد.
 
 ```csharp
 public static StructuralMetadata From(Scene scene)
@@ -16,11 +16,11 @@ public static StructuralMetadata From(Scene scene)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| scene | Scene | أي مشهد للبحث عن البيانات الوصفية الهيكلية |
+| المشهد | المشهد | أي مشهد للبحث عن البيانات الوصفية الهيكلية |
 
 ### قيمة الإرجاع
 
-مثيل صالح من [`StructuralMetadata`](../) إذا تم العثور عليه في المشهد، وإلا يتم إرجاع null.
+مثيل صالح من [`StructuralMetadata`](../) إذا تم العثور عليه في المشهد، وإلا يتم إرجاع null
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "DracoFormat.Decode"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة DracoFormat. فك تشفير سحابة النقاط أو الشبكة من اسم الملف المحدد"
 type: docs
 weight: 10
@@ -16,17 +16,17 @@ public Geometry Decode(string fileName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة | اسم الملف يحتوي على ملف drc |
+| fileName | String | اسم الملف يحتوي على ملف drc |
 
 ### قيمة الإرجاع
 
-مثيل [`Mesh`](../../../aspose.threed.entities/mesh/) أو [`PointCloud`](../../../aspose.threed.entities/pointcloud/) يعتمد على محتوى الملف
+مثال [`Mesh`](../../../aspose.threed.entities/mesh/) أو [`PointCloud`](../../../aspose.threed.entities/pointcloud/) يعتمد على محتوى الملف
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| IOException | يُطرح عندما يفشل القراءة من الملف |
+| IOException | يُرمى عندما يفشل القراءة من الملف |
 
 ## أمثلة
 
@@ -34,9 +34,9 @@ public Geometry Decode(string fileName)
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//ترميز الشبكة إلى تنسيق Draco
+//ترميز mesh إلى صيغة Draco
 byte[] draco = FileFormat.Draco.Encode(mesh);
-//فك ترميز الشبكة من تنسيق Draco
+//فك ترميز mesh من صيغة Draco
 Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
 ```
 
@@ -51,7 +51,7 @@ Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
 
 ## Decode(byte[]) {#decode}
 
-فك تشفير سحابة النقاط أو الشبكة من بيانات الذاكرة
+فك تشفير سحابة النقاط أو mesh من بيانات الذاكرة
 
 ```csharp
 public Geometry Decode(byte[] data)
@@ -59,17 +59,17 @@ public Geometry Decode(byte[] data)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| بيانات | Byte[] | البايتات الخام للـ drc |
+| بيانات | Byte[] | البتات الخام من drc |
 
 ### قيمة الإرجاع
 
-مثيل [`Mesh`](../../../aspose.threed.entities/mesh/) أو [`PointCloud`](../../../aspose.threed.entities/pointcloud/) يعتمد على المحتوى
+مثال [`Mesh`](../../../aspose.threed.entities/mesh/) أو [`PointCloud`](../../../aspose.threed.entities/pointcloud/) يعتمد على المحتوى
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
-| [ImportException](../../../aspose.threed/importexception/) | يُطرح عندما تكون البيانات مشوهة. |
+| [ImportException](../../../aspose.threed/importexception/) | يُرمى عندما تكون البيانات غير صالحة. |
 
 ## أمثلة
 
@@ -77,9 +77,9 @@ public Geometry Decode(byte[] data)
 
 ```csharp
 Mesh mesh = (new Sphere()).ToMesh();
-//ترميز الشبكة إلى تنسيق Draco
+//ترميز mesh إلى صيغة Draco
 byte[] draco = FileFormat.Draco.Encode(mesh);
-//فك ترميز الشبكة من تنسيق Draco
+//فك ترميز mesh من صيغة Draco
 Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
 ```
 

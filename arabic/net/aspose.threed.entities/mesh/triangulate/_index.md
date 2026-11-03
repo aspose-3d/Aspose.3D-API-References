@@ -1,7 +1,7 @@
 ---
 title: "Mesh.Triangulate"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Mesh. تُعيد شبكة مُمثلّثة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Mesh. إرجاع شبكة مُثلثة"
 type: docs
 weight: 120
 url: /ar/net/aspose.threed.entities/mesh/triangulate/
@@ -16,16 +16,16 @@ public Mesh Triangulate()
 
 ### قيمة الإرجاع
 
-الشبكة الحالية إذا كانت مُمثلّثة بالفعل، وإلا سيتم حساب وإرجاع شبكة مُمثلّثة جديدة
+الشبكة الحالية إذا كانت الشبكة الحالية مُمثلّثة بالفعل، وإلا سيتم حساب شبكة مُمثلّثة جديدة وإرجاعها
 
 ## أمثلة
 
-الكود التالي يوضح كيفية تقسيم mesh إلى مثلثات:
+الكود التالي يوضح كيفية تمثيل شبكة:
 
 ```csharp
-//شبكة plane mesh لديها مضلع واحد فقط مع 4 control points
+//شبكة السطح تحتوي على مضلع واحد فقط مع 4 نقاط تحكم
 var mesh = (new Plane()).ToMesh();
-//بعد التقسيم إلى مثلثات، سيصبح مستطيل mesh الجديد مكوّنًا من مثلثين.
+//بعد التمثيل، سيتحول مستطيل الشبكة الجديدة إلى مثلثين.
 var triangulated = mesh.Triangulate();
 ```
 

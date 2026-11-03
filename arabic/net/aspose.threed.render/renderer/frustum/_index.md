@@ -1,7 +1,7 @@
 ---
 title: "Renderer.Frustum"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Renderer. يحصل أو يضبط الـ frustum المستخدم لتوفير مصفوفة العرض"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Renderer. يحصل أو يضبط المخروط الذي يُستخدم لتوفير مصفوفة العرض"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/renderer/frustum/

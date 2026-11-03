@@ -1,6 +1,6 @@
 ---
 title: "PolygonBuilder.Begin"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة PolygonBuilder. تبدأ في إضافة مضلع جديد"
 type: docs
 weight: 30
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/polygonbuilder/begin/
 ---
 ## PolygonBuilder.Begin method
 
-يبدأ بإضافة مضلع جديد
+تبدأ في إضافة مضلع جديد
 
 ```csharp
 public void Begin()

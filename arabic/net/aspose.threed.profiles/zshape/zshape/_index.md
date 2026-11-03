@@ -1,7 +1,7 @@
 ---
 title: "ZShape.ZShape"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ ZShape. مُنشئ ZShape"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ ZShape. منشئ ZShape"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.profiles/zshape/zshape/

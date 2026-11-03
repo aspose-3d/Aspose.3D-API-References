@@ -1,14 +1,14 @@
 ---
 title: "الواجهة IArrayListT"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "الواجهة Aspose.ThreeD.Utilities.IArrayList1T. تمتلك Aspose.3D تنفيذًا عالي التحسين للقائمة لتحسين أداء التحميل/الحفظ. تُعرض هذه الواجهة فقط للمستخدم مع واجهات متوافقة مع IList ومشابهة."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "واجهة Aspose.ThreeD.Utilities.IArrayList1T. يمتلك Aspose.3D تنفيذًا محسنًا للغاية لقائمة List لتحسين أداء التحميل/الحفظ. يتم كشف هذه الواجهة فقط للمستخدم مع واجهات متوافقة مع IList ومثيلة لها."
 type: docs
 weight: 2760
 url: /ar/net/aspose.threed.utilities/iarraylist-1/
 ---
 ## IArrayList&lt;T&gt; interface
 
-Aspose.3D لديها تنفيذ مُحسّن للغاية لقائمة List لتحسين أداء التحميل/الحفظ. يتم إتاحة هذه الواجهة فقط للمستخدم مع توافق IList والواجهات المشابهة.
+تحتوي Aspose.3D على تنفيذ خاص عالي التحسين لقائمة List لتحسين أداء التحميل/الحفظ. يتم فقط كشف هذه الواجهة للمستخدم مع توافق IList والواجهات المشابهة.
 
 ```csharp
 public interface IArrayList<T> : IList<T>
@@ -24,7 +24,7 @@ public interface IArrayList<T> : IList<T>
 | --- | --- |
 | [AddRange](../../aspose.threed.utilities/iarraylist-1/addrange/#addrange)(IEnumerable&lt;T&gt;) |  |
 | [AddRange](../../aspose.threed.utilities/iarraylist-1/addrange/#addrange_1)(IList&lt;T&gt;) |  |
-| [ToArray](../../aspose.threed.utilities/iarraylist-1/toarray/)() | يحول جميع العناصر في القائمة إلى مصفوفة |
+| [ToArray](../../aspose.threed.utilities/iarraylist-1/toarray/)() | يحوّل جميع العناصر في القائمة إلى مصفوفة |
 
 ### انظر أيضًا
 

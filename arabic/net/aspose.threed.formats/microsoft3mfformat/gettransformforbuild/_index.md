@@ -1,6 +1,6 @@
 ---
 title: "Microsoft3MFFormat.GetTransformForBuild"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Microsoft3MFFormat. الحصول على مصفوفة التحويل للعقدة المستخدمة في البناء"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats/microsoft3mfformat/gettransformforbuild/
 ---
 ## Microsoft3MFFormat.GetTransformForBuild method
 
-احصل على مصفوفة التحويل للعقدة المستخدمة في البناء.
+الحصول على مصفوفة التحويل للعقدة المستخدمة في البناء.
 
 ```csharp
 public Matrix4? GetTransformForBuild(Node node)
@@ -16,7 +16,7 @@ public Matrix4? GetTransformForBuild(Node node)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| عقدة | عقدة | أي عقدة للحصول على مصفوفة التحويل لبناء 3MF. |
+| العقدة | Node | أي عقدة للحصول على مصفوفة التحويل لبناء 3MF. |
 
 ### قيمة الإرجاع
 

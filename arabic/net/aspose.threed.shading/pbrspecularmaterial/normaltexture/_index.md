@@ -1,14 +1,14 @@
 ---
 title: "PbrSpecularMaterial.NormalTexture"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrSpecularMaterial. تحصل أو تعين نسيج خريطة العادي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrSpecularMaterial. يحصل أو يعيّن نسيج خريطة العادي"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.shading/pbrspecularmaterial/normaltexture/
 ---
 ## PbrSpecularMaterial.NormalTexture property
 
-يحصل أو يعيّن نسيج تمثيل العادي
+يحصل أو يعيّن نسيج خريطة العادي
 
 ```csharp
 public TextureBase NormalTexture { get; set; }

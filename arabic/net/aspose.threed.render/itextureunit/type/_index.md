@@ -1,14 +1,14 @@
 ---
 title: "ITextureUnit.Type"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "ITextureUnit خاصية. يحصل على نوع وحدة الملمس هذه"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ITextureUnit. تحصل على نوع وحدة الملمس هذه"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.render/itextureunit/type/
 ---
 ## ITextureUnit.Type property
 
-الحصول على نوع وحدة النسيج هذه.
+تحصل على نوع وحدة الملمس هذه.
 
 ```csharp
 public TextureType Type { get; }

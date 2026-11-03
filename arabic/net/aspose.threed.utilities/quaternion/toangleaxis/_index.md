@@ -1,6 +1,6 @@
 ---
 title: "Quaternion.ToAngleAxis"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Quaternion."
 type: docs
 weight: 210

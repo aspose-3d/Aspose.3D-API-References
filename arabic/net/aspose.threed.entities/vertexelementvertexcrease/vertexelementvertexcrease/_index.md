@@ -1,14 +1,14 @@
 ---
 title: "VertexElementVertexCrease.VertexElementVertexCrease"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ VertexElementVertexCrease. يهيئ مثيلاً جديداً من الفئة VertexElementVertexCrease"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ VertexElementVertexCrease. يهيئ مثالًا جديدًا من الفئة VertexElementVertexCrease"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/vertexelementvertexcrease/vertexelementvertexcrease/
 ---
 ## VertexElementVertexCrease constructor
 
-يهيئ مثيلاً جديداً من الفئة [`VertexElementVertexCrease`](../).
+يهيئ مثالًا جديدًا من الفئة [`VertexElementVertexCrease`](../).
 
 ```csharp
 public VertexElementVertexCrease()

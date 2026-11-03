@@ -1,14 +1,14 @@
 ---
 title: "Quaternion.Length"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Quaternion. يحصل على طول الكواتيرنيون"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Quaternion. الحصول على طول الكواترنيون"
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.utilities/quaternion/length/
 ---
 ## Quaternion.Length property
 
-يحصل على طول الـ Quaternion
+الحصول على طول الكواترنيون
 
 ```csharp
 public double Length { get; }

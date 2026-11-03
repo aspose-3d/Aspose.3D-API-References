@@ -1,7 +1,7 @@
 ---
 title: "ZipArchiveFileSystem.ReadFile"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ZipArchiveFileSystem. افتح الملف للقراءة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ZipArchiveFileSystem. فتح الملف للقراءة"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/ziparchivefilesystem/readfile/
@@ -16,8 +16,8 @@ public override Stream ReadFile(string fileName, IOConfig options)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| fileName | سلسلة |  |
-| خيارات | IOConfig |  |
+| fileName | String |  |
+| الخيارات | IOConfig |  |
 
 ### انظر أيضًا
 

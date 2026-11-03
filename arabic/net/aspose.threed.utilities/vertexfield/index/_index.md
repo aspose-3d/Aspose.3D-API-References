@@ -1,6 +1,6 @@
 ---
 title: "VertexField.Index"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية VertexField. فهرس هذا الحقل في تخطيط الرؤوس مع نفس الدلالة"
 type: docs
 weight: 30

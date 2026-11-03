@@ -1,14 +1,14 @@
 ---
 title: "Rect.Height"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Rect. تسترجع أو تعين ارتفاع الحجم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Rect. تحصل أو تعين ارتفاع الحجم"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.utilities/rect/height/
 ---
 ## Rect.Height property
 
-يسترجع أو يضبط ارتفاع الحجم
+تحصل أو تعين ارتفاع الحجم
 
 ```csharp
 public int Height { get; set; }

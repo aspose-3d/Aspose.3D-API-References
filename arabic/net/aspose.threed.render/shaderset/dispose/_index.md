@@ -1,14 +1,14 @@
 ---
 title: "ShaderSet.Dispose"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ShaderSet. إلغاء هذه النسخة وإطلاق جميع برامج التظليل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ShaderSet. حرّر هذه المثيلة وأطلق جميع برامج التظليل"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.render/shaderset/dispose/
 ---
 ## ShaderSet.Dispose method
 
-تخلص من هذه النسخة وأطلق جميع برامج التظليل.
+حرّر هذه المثيلة وأطلق جميع برامج التظليل.
 
 ```csharp
 public void Dispose()

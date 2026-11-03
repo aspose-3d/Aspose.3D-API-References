@@ -1,14 +1,14 @@
 ---
 title: "RenderState.DepthFunction"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية RenderState. الحصول على أو تعيين دالة المقارنة المستخدمة في اختبار العمق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "RenderState خاصية. الحصول أو تعيين دالة المقارنة المستخدمة في اختبار العمق"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.render/renderstate/depthfunction/
 ---
 ## RenderState.DepthFunction property
 
-يحصل أو يعيّن دالة المقارنة المستخدمة في اختبار العمق
+يحصل أو يضبط دالة المقارنة المستخدمة في اختبار العمق
 
 ```csharp
 public CompareFunction DepthFunction { get; set; }

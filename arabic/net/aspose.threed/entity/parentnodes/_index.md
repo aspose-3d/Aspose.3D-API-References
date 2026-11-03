@@ -1,14 +1,14 @@
 ---
 title: "Entity.ParentNodes"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Entity. يحصل على جميع العقد الأصلية التي يمكن إرفاق كيان بها إلى عقد أصلية متعددة لتجسيد الهندسة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Entity. تحصل على جميع عقد الأب التي يمكن إرفاق كيان بها إلى عقد أب متعددة لتجسيد الهندسة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/entity/parentnodes/
 ---
 ## Entity.ParentNodes property
 
-يحصل على جميع العقد الأصلية، يمكن إرفاق كيان بعدة عقد أصلية لتكرار الهندسة.
+يحصل على جميع العقد الأصلية، يمكن ربط كائن بعدة عقد أصلية لتكرار الهندسة.
 
 ```csharp
 public List<Node> ParentNodes { get; }

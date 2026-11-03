@@ -1,14 +1,14 @@
 ---
 title: "BonePose.Node"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية BonePose. تحصل أو تعين عقدة المشهد التي تشير إلى عقدة هيكلية مكسوة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "BonePose خاصية. يحصل أو يضبط عقدة المشهد التي تشير إلى عقدة هيكلية مكسوة"
 type: docs
 weight: 40
 url: /ar/net/aspose.threed/bonepose/node/
 ---
 ## BonePose.Node property
 
-يحصل أو يعيّن عقدة المشهد، تشير إلى عقدة هيكلية مكسوة
+يحصل أو يضبط عقدة المشهد، التي تشير إلى عقدة هيكلية مكسوة
 
 ```csharp
 public Node Node { get; set; }

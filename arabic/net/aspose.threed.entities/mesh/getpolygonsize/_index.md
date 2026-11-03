@@ -1,6 +1,6 @@
 ---
 title: "Mesh.GetPolygonSize"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Mesh. يحصل على عدد الرؤوس للمضلع المحدد"
 type: docs
 weight: 80
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/mesh/getpolygonsize/
 ---
 ## Mesh.GetPolygonSize method
 
-يحصل على عدد رؤوس المضلع المحدد.
+يحصل على عدد الرؤوس للمضلع المحدد.
 
 ```csharp
 public int GetPolygonSize(int index)
@@ -16,7 +16,7 @@ public int GetPolygonSize(int index)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| المؤشر | Int32 | الفهرس. |
+| index | Int32 | الفهرس. |
 
 ### قيمة الإرجاع
 

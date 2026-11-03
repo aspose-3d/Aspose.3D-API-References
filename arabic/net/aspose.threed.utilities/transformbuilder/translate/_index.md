@@ -1,6 +1,6 @@
 ---
 title: "TransformBuilder.Translate"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة TransformBuilder. ربط تحويل إزاحة"
 type: docs
 weight: 150
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.utilities/transformbuilder/translate/
 ---
 ## Translate(double, double, double) {#translate_1}
 
-سلسلة تحويل إزاحة
+ربط تحويل إزاحة
 
 ```csharp
 public TransformBuilder Translate(double tx, double ty, double tz)
@@ -16,9 +16,9 @@ public TransformBuilder Translate(double tx, double ty, double tz)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| tx | Double |  |
-| ty | Double |  |
-| tz | Double |  |
+| tx | مضاعف |  |
+| ty | مضاعف |  |
+| tz | مضاعف |  |
 
 ## أمثلة
 
@@ -38,7 +38,7 @@ Console.WriteLine($"Transform Matrix: {tb.Matrix}");
 
 ## Translate(Vector3) {#translate}
 
-سلسلة تحويل إزاحة
+ربط تحويل إزاحة
 
 ```csharp
 public TransformBuilder Translate(Vector3 v)

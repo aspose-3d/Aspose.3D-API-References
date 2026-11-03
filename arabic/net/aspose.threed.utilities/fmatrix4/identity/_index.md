@@ -1,14 +1,14 @@
 ---
 title: "FMatrix4.Identity"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FMatrix4 خاصية. مصفوفة الهوية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "FMatrix4 خاصية. ال مصفوفة الهوية"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/fmatrix4/identity/
 ---
 ## FMatrix4.Identity property
 
-المصفوفة الهوية
+ال مصفوفة الهوية
 
 ```csharp
 public static FMatrix4 Identity { get; }

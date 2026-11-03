@@ -1,14 +1,14 @@
 ---
 title: "Geometry.VertexElements"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Geometry. يحصل على جميع عناصر الرأس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Geometry. تحصل على جميع عناصر الرؤوس"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.entities/geometry/vertexelements/
 ---
 ## Geometry.VertexElements property
 
-يحصل على جميع عناصر الرأس
+تحصل على جميع عناصر الرؤوس
 
 ```csharp
 public IList<VertexElement> VertexElements { get; }

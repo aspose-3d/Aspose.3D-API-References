@@ -1,6 +1,6 @@
 ---
 title: "PlySaveOptions.FaceProperty"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية PlySaveOptions. اسم الخاصية لبيانات الوجه القيمة الافتراضية هي vertex_index"
 type: docs
 weight: 50

@@ -1,14 +1,14 @@
 ---
 title: "VertexElementSpecular.VertexElementSpecular"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ VertexElementSpecular. يُنشئ مثيلاً جديدًا للفئة VertexElementSpecular."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ VertexElementSpecular. يهيئ مثيلًا جديدًا من الفئة VertexElementSpecular"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/vertexelementspecular/vertexelementspecular/
 ---
 ## VertexElementSpecular constructor
 
-يُنشئ مثيلاً جديدًا للفئة [`VertexElementSpecular`](../).
+يهيئ مثيلًا جديدًا من الفئة [`VertexElementSpecular`](../).
 
 ```csharp
 public VertexElementSpecular()

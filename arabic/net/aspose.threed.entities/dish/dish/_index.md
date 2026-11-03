@@ -1,6 +1,6 @@
 ---
 title: "Dish.Dish"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Dish. إنشاء نسخة جديدة من الطبق مع نصف قطر افتراضي 10 وارتفاع افتراضي 5"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.entities/dish/dish/
 ---
 ## Dish() {#constructor}
 
-إنشاء كائن Dish جديد بنصف قطر افتراضي (10) وارتفاع افتراضي (5)
+إنشاء نسخة جديدة من الطبق مع نصف قطر افتراضي (10) وارتفاع افتراضي (5)
 
 ```csharp
 public Dish()
@@ -24,7 +24,7 @@ public Dish()
 
 ## Dish(double, double) {#constructor_1}
 
-إنشاء كائن Dish جديد بنصف قطر وارتفاع محددين
+إنشاء نسخة جديدة من الطبق مع نصف قطر وارتفاع محددين
 
 ```csharp
 public Dish(double radius, double height)
@@ -32,8 +32,8 @@ public Dish(double radius, double height)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| نصف القطر | Double | نصف قطر الطبق |
-| الارتفاع | Double | ارتفاع الطبق |
+| radius | مضاعف | نصف قطر الطبق |
+| الارتفاع | مضاعف | ارتفاع الطبق |
 
 ### انظر أيضًا
 
@@ -45,7 +45,7 @@ public Dish(double radius, double height)
 
 ## Dish(string, double, double, int, int) {#constructor_2}
 
-إنشاء كائن Dish جديد بنصف قطر وارتفاع محددين
+إنشاء نسخة جديدة من الطبق مع نصف قطر وارتفاع محددين
 
 ```csharp
 public Dish(string name, double radius, double height, int widthSegments, int heightSegments)
@@ -53,9 +53,9 @@ public Dish(string name, double radius, double height, int widthSegments, int he
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | اسم الطبق |
-| نصف القطر | Double | نصف قطر الطبق |
-| الارتفاع | Double | ارتفاع الطبق |
+| الاسم | String | اسم الطبق |
+| radius | مضاعف | نصف قطر الطبق |
+| الارتفاع | مضاعف | ارتفاع الطبق |
 | widthSegments | Int32 | مقطع العرض للطبق |
 | heightSegments | Int32 | مقطع الارتفاع للطبق |
 

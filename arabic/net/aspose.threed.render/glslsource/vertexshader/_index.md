@@ -1,14 +1,14 @@
 ---
 title: "GLSLSource.VertexShader"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية GLSLSource. تحصل أو تعيين كود المصدر لظل الرأس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية GLSLSource. الحصول على أو تعيين شفرة المصدر للـ vertex shader"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.render/glslsource/vertexshader/
 ---
 ## GLSLSource.VertexShader property
 
-يحصل أو يحدد شفرة المصدر للمظلّل القمم
+تحصل أو تعين شفرة المصدر لمعالج الرأس
 
 ```csharp
 public string VertexShader { get; set; }

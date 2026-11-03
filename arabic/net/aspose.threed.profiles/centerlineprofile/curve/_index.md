@@ -1,14 +1,14 @@
 ---
 title: "CenterLineProfile.Curve"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية CenterLineProfile. منحنى الخط المركزي للملف الشخصي"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية CenterLineProfile. منحنى الخط المركزي للملف التعريفي"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.profiles/centerlineprofile/curve/
 ---
 ## CenterLineProfile.Curve property
 
-منحنى الخط المركزي للملف
+منحنى الخط المركزي للملف التعريفي
 
 ```csharp
 public Curve Curve { get; set; }

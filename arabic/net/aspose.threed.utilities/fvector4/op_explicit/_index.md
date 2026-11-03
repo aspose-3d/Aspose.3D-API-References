@@ -1,7 +1,7 @@
 ---
 title: "FVector4.op_Explicit"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FVector4 طريقة."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector4."
 type: docs
 weight: 80
 url: /ar/net/aspose.threed.utilities/fvector4/op_explicit/

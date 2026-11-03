@@ -1,6 +1,6 @@
 ---
 title: "MirroredProfile.MirroredProfile"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ MirroredProfile. أنشئ MirroredProfile جديدًا من ملف تعريف موجود"
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ public MirroredProfile(Profile baseProfile)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| baseProfile | Profile | ملف التعريف الأساسي الذي سيُعكس. |
+| baseProfile | Profile | ملف التعريف الأساسي الذي سيتم عكسه. |
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "TShape.TShape"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ TShape. منشئ TShape"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.profiles/tshape/tshape/
 ---
 ## TShape constructor
 
-منشئ [`TShape`](../)
+منشئ لـ [`TShape`](../)
 
 ```csharp
 public TShape()

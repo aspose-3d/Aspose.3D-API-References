@@ -1,7 +1,7 @@
 ---
 title: "Geometry.ControlPoints"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Geometry property. تحصل على جميع نقاط التحكم"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية Geometry. يحصل على جميع نقاط التحكم"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.entities/geometry/controlpoints/

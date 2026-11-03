@@ -1,14 +1,14 @@
 ---
 title: "SemanticAttribute.Semantic"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية SemanticAttribute. دلالي لحقل الرأس"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية SemanticAttribute. الدلالة لحقل الرأس"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.utilities/semanticattribute/semantic/
 ---
 ## SemanticAttribute.Semantic property
 
-السيمانتك لحقل الرأس
+دلالة حقل الرأس
 
 ```csharp
 public VertexFieldSemantic Semantic { get; }

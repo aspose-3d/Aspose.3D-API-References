@@ -1,14 +1,14 @@
 ---
 title: "Watermark.EncodeWatermark"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Watermark. تشفير نص في علامة مائية عمياء على الشبكة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Watermark. تشفير نص في علامة مائية عمياء للشبكة"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/watermark/encodewatermark/
 ---
 ## EncodeWatermark(Mesh, string) {#encodewatermark}
 
-تشفير نص في العلامة المائية العمياء للشبكة.
+تشفير نص في علامة مائية عمياء للشبكة.
 
 ```csharp
 public static Mesh EncodeWatermark(Mesh input, string text)
@@ -16,8 +16,8 @@ public static Mesh EncodeWatermark(Mesh input, string text)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| input | Mesh | شبكة لتشفير علامة مائية عمياء |
-| text | سلسلة | النص لتشفيره إلى الشبكة |
+| إدخال | شبكة | شبكة لتشفير علامة مائية عمياء |
+| نص | String | النص لتشفيره في الشبكة |
 
 ### قيمة الإرجاع
 
@@ -25,7 +25,7 @@ public static Mesh EncodeWatermark(Mesh input, string text)
 
 ## ملاحظات
 
-كلا من `EncodeWatermark` و[`DecodeWatermark`](../decodewatermark/) سيقومان بالتحقق من الترخيص. استخدام النسخة التجريبية سيؤدي إلى رمي استثناء، يمكنك استخدام [`SuppressTrialException`](../../../aspose.threed/trialexception/suppresstrialexception/) لكتم الاستثناء، لكن ذلك لن يرفع القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود.
+كلا من `EncodeWatermark` و [`DecodeWatermark`](../decodewatermark/) سيقومان بالتحقق من الترخيص. الاستخدام التجريبي سيسبب استثناءً، يمكنك استخدام [`SuppressTrialException`](../../../aspose.threed/trialexception/suppresstrialexception/) لكتم الاستثناء، لكنه لن يزيل القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود.
 
 ## أمثلة
 
@@ -48,7 +48,7 @@ new Scene(encodedMesh).Save("test.ply");
 
 ## EncodeWatermark(Mesh, string, string) {#encodewatermark_1}
 
-تشفير نص في العلامة المائية العمياء للشبكة.
+تشفير نص في علامة مائية عمياء للشبكة.
 
 ```csharp
 public static Mesh EncodeWatermark(Mesh input, string text, string password)
@@ -56,9 +56,9 @@ public static Mesh EncodeWatermark(Mesh input, string text, string password)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| input | Mesh | شبكة لتشفير علامة مائية عمياء |
-| text | سلسلة | النص لتشفيره إلى الشبكة |
-| password | سلسلة | كلمة المرور لحماية العلامة المائية، وهي اختيارية |
+| إدخال | شبكة | شبكة لتشفير علامة مائية عمياء |
+| نص | String | النص لتشفيره في الشبكة |
+| كلمة مرور | String | كلمة مرور لحماية العلامة المائية، وهي اختيارية |
 
 ### قيمة الإرجاع
 
@@ -66,7 +66,7 @@ public static Mesh EncodeWatermark(Mesh input, string text, string password)
 
 ## ملاحظات
 
-كلا من `EncodeWatermark` و[`DecodeWatermark`](../decodewatermark/) سيقومان بالتحقق من الترخيص. استخدام النسخة التجريبية سيؤدي إلى رمي استثناء، يمكنك استخدام [`SuppressTrialException`](../../../aspose.threed/trialexception/suppresstrialexception/) لكتم الاستثناء، لكن ذلك لن يرفع القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود.
+كلا من `EncodeWatermark` و [`DecodeWatermark`](../decodewatermark/) سيقومان بالتحقق من الترخيص. الاستخدام التجريبي سيسبب استثناءً، يمكنك استخدام [`SuppressTrialException`](../../../aspose.threed/trialexception/suppresstrialexception/) لكتم الاستثناء، لكنه لن يزيل القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود.
 
 ## أمثلة
 
@@ -89,7 +89,7 @@ new Scene(encodedMesh).Save("test.ply");
 
 ## EncodeWatermark(Mesh, string, string, bool) {#encodewatermark_2}
 
-تشفير نص في العلامة المائية العمياء للشبكة.
+تشفير نص في علامة مائية عمياء للشبكة.
 
 ```csharp
 public static Mesh EncodeWatermark(Mesh input, string text, string password, bool permanent)
@@ -97,10 +97,10 @@ public static Mesh EncodeWatermark(Mesh input, string text, string password, boo
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| input | Mesh | شبكة لتشفير علامة مائية عمياء |
-| text | سلسلة | النص لتشفيره إلى الشبكة |
-| password | سلسلة | كلمة المرور لحماية العلامة المائية، وهي اختيارية |
-| دائم | Boolean | العلامة المائية الدائمة لن يتم استبدالها أو إزالتها. |
+| إدخال | شبكة | شبكة لتشفير علامة مائية عمياء |
+| نص | String | النص لتشفيره في الشبكة |
+| كلمة مرور | String | كلمة مرور لحماية العلامة المائية، وهي اختيارية |
+| دائم | Boolean | العلامة المائية الدائمة لن يتم الكتابة فوقها أو إزالتها. |
 
 ### قيمة الإرجاع
 
@@ -108,7 +108,7 @@ public static Mesh EncodeWatermark(Mesh input, string text, string password, boo
 
 ## ملاحظات
 
-كلا من `EncodeWatermark` و[`DecodeWatermark`](../decodewatermark/) سيقومان بالتحقق من الترخيص. استخدام النسخة التجريبية سيؤدي إلى رمي استثناء، يمكنك استخدام [`SuppressTrialException`](../../../aspose.threed/trialexception/suppresstrialexception/) لكتم الاستثناء، لكن ذلك لن يرفع القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود.
+كلا من `EncodeWatermark` و [`DecodeWatermark`](../decodewatermark/) سيقومان بالتحقق من الترخيص. الاستخدام التجريبي سيسبب استثناءً، يمكنك استخدام [`SuppressTrialException`](../../../aspose.threed/trialexception/suppresstrialexception/) لكتم الاستثناء، لكنه لن يزيل القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود.
 
 ## أمثلة
 

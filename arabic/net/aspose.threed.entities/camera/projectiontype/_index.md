@@ -1,14 +1,14 @@
 ---
 title: "Camera.ProjectionType"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية Camera. تحصل أو تعيين نوع إسقاط الكاميرا. بشكل افتراضي يُستخدم إسقاط المنظور"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية الكاميرا. يحصل أو يضبط نوع إسقاط الكاميرا. بشكل افتراضي يُستخدم الإسقاط المنظوري"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.entities/camera/projectiontype/
 ---
 ## Camera.ProjectionType property
 
-يحصل أو يعيّن نوع إسقاط الكاميرا. بشكل افتراضي يُستخدم الإسقاط المنظوري.
+يحصل أو يضبط نوع إسقاط الكاميرا. بشكل افتراضي يُستخدم الإسقاط المنظوري.
 
 ```csharp
 public ProjectionType ProjectionType { get; set; }

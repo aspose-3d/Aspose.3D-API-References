@@ -1,14 +1,14 @@
 ---
 title: "HalfSpace.Normal"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HalfSpace. المتجه العمودي لسطح الانقسام حيث يُعرّف السطح كـ N  P  D  0 حيث N هو المتجه العمودي و P هي أي نقطة على السطح"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HalfSpace. المتجه العمودي لسطح الانقسام يُعرّف السطح كـ N P D 0 حيث N هو المتجه العمودي وP هي أي نقطة على السطح"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.entities/halfspace/normal/
 ---
 ## HalfSpace.Normal property
 
-متجه العمودي للمستوى المقسَّم، يُعرَّف المستوى بالمعادلة N * P + D = 0 حيث N هو المتجه العمودي وP هو أي نقطة على المستوى.
+المتجه العمودي لسطح الانقسام، يُعرّف السطح كـ N * P + D = 0 حيث N هو المتجه العمودي وP هي أي نقطة على السطح.
 
 ```csharp
 public Vector3 Normal { get; set; }

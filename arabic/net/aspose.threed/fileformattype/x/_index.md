@@ -1,7 +1,7 @@
 ---
 title: "FileFormatType.X"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormatType حقل. ملف DirectXs X"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormatType. ملف DirectXs X"
 type: docs
 weight: 250
 url: /ar/net/aspose.threed/fileformattype/x/

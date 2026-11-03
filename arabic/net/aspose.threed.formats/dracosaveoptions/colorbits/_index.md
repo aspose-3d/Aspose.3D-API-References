@@ -1,14 +1,14 @@
 ---
 title: "DracoSaveOptions.ColorBits"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية DracoSaveOptions. عدد بتات التكميم للون القمة القيمة الافتراضية هي 10"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية DracoSaveOptions. عدد بتات التكميم للون القمم القيمة الافتراضية هي 10"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/dracosaveoptions/colorbits/
 ---
 ## DracoSaveOptions.ColorBits property
 
-بتات التكميم للون القمة، القيمة الافتراضية هي 10
+بتات التكميم للون القمم، القيمة الافتراضية هي 10
 
 ```csharp
 public int ColorBits { get; set; }

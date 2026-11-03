@@ -1,7 +1,7 @@
 ---
 title: "Vector2.X"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "Vector2 حقل. المكوّن x"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل Vector2. المكوّن x"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.utilities/vector2/x/

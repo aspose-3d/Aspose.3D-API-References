@@ -1,6 +1,6 @@
 ---
 title: "Watermark.DecodeWatermark"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة Watermark. فك تشفير العلامة المائية من شبكة"
 type: docs
 weight: 10
@@ -16,13 +16,13 @@ public static string DecodeWatermark(Mesh input)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| input | Mesh | الشبكة لاستخراج العلامة المائية |
+| إدخال | شبكة | الشبكة لاستخراج العلامة المائية |
 
 ### قيمة الإرجاع
 
 علامة مائية عمياء أو null إذا لم يتم فك تشفير أي علامة مائية.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |
@@ -30,7 +30,7 @@ public static string DecodeWatermark(Mesh input)
 
 ## ملاحظات
 
-كلا من [`EncodeWatermark`](../encodewatermark/) و `DecodeWatermark` سيقومان بالتحقق من الترخيص. الاستخدام التجريبي سيؤدي إلى رمي استثناء، يمكنك استخدام [`SuppressTrialException`](../../../aspose.threed/trialexception/suppresstrialexception/) لكتم الاستثناء، ولكن ذلك لن يرفع القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود.
+كلا من [`EncodeWatermark`](../encodewatermark/) و `DecodeWatermark` سيقومان بالتحقق من الترخيص. الاستخدام التجريبي سيسبب استثناءً، يمكنك استخدام [`SuppressTrialException`](../../../aspose.threed/trialexception/suppresstrialexception/) لكتم الاستثناء، لكنه لن يزيل القيد هنا. يلزم وجود ترخيص صالح لاستخدام هذه الميزات دون أي قيود.
 
 ## أمثلة
 
@@ -60,14 +60,14 @@ public static string DecodeWatermark(Mesh input, string password)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| input | Mesh | الشبكة لاستخراج العلامة المائية |
-| password | سلسلة | كلمة المرور لفك تشفير العلامة المائية |
+| إدخال | شبكة | الشبكة لاستخراج العلامة المائية |
+| كلمة مرور | String | كلمة المرور لفك تشفير العلامة المائية |
 
 ### قيمة الإرجاع
 
 علامة مائية عمياء أو null إذا لم يتم فك تشفير أي علامة مائية.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: "KeyFrame.Value"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية KeyFrame. يحصل أو يضبط قيمة الإطارات الرئيسية"
 type: docs
 weight: 160
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/keyframe/value/
 ---
 ## KeyFrame.Value property
 
-يحصل أو يضبط قيمة إطار المفتاح.
+يحصل أو يضبط قيمة الإطار الرئيسي.
 
 ```csharp
 public float Value { get; set; }

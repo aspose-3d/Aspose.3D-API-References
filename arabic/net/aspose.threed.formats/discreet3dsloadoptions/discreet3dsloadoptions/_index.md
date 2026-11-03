@@ -1,6 +1,6 @@
 ---
 title: "Discreet3dsLoadOptions.Discreet3dsLoadOptions"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "منشئ Discreet3dsLoadOptions. منشئ Discreet3dsLoadOptions"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.formats/discreet3dsloadoptions/discreet3dsloadoptions
 ---
 ## Discreet3dsLoadOptions constructor
 
-منشئ [`Discreet3dsLoadOptions`](../)
+منشئ لـ [`Discreet3dsLoadOptions`](../)
 
 ```csharp
 public Discreet3dsLoadOptions()

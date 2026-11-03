@@ -1,14 +1,14 @@
 ---
 title: "ZShape.FlangeWidth"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ZShape. تحصّل أو تُعيّن طول flange"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ZShape. تحصل أو تضبط طول الحافة"
 type: docs
 weight: 60
 url: /ar/net/aspose.threed.profiles/zshape/flangewidth/
 ---
 ## ZShape.FlangeWidth property
 
-يحصل أو يضبط طول الشفة.
+تحصل أو تضبط طول الحافة.
 
 ```csharp
 public double FlangeWidth { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: "RenderState.StencilFrontFace"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RenderState. يحصل على حالة القالب للوجه الأمامي"
 type: docs
 weight: 150

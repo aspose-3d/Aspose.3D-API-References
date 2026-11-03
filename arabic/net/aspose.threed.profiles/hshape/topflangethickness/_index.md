@@ -1,14 +1,14 @@
 ---
 title: "HShape.TopFlangeThickness"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية HShape. تحصل أو تعيين سمك الشفة العلوية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية HShape. تحصل أو تعين سمك الحافة العلوية"
 type: docs
 weight: 90
 url: /ar/net/aspose.threed.profiles/hshape/topflangethickness/
 ---
 ## HShape.TopFlangeThickness property
 
-الحصول أو تعيين سمك الشفرة العلوية.
+تحصل أو تعين سمك الحافة العلوية.
 
 ```csharp
 public double TopFlangeThickness { get; set; }

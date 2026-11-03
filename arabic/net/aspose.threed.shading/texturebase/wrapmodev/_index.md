@@ -1,14 +1,14 @@
 ---
 title: "TextureBase.WrapModeV"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية TextureBase. يحصل أو يضبط أوضاع لفّ الخامة في V"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية TextureBase. يسترجع أو يعيّن أوضاع لف القوام في V"
 type: docs
 weight: 110
 url: /ar/net/aspose.threed.shading/texturebase/wrapmodev/
 ---
 ## TextureBase.WrapModeV property
 
-يسترجع أو يعيّن أوضاع لف القوام في الاتجاه V.
+يسترجع أو يعيّن أوضاع لف القوام في V.
 
 ```csharp
 public WrapMode WrapModeV { get; set; }

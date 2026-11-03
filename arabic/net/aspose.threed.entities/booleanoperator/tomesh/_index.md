@@ -1,14 +1,14 @@
 ---
 title: "BooleanOperator.ToMesh"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة BooleanOperator. تنفيذ العملية البوليانية على معاملين"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة BooleanOperator. نفّذ العملية البوليانية على مُعاملين"
 type: docs
 weight: 50
 url: /ar/net/aspose.threed.entities/booleanoperator/tomesh/
 ---
 ## BooleanOperator.ToMesh method
 
-نفّذ عملية Boolean على معاملين
+نفّذ العملية البوليانية على مُعاملين
 
 ```csharp
 public Mesh ToMesh()

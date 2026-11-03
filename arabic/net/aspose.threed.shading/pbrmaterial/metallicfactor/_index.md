@@ -1,14 +1,14 @@
 ---
 title: "PbrMaterial.MetallicFactor"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية PbrMaterial. يحصل أو يضبط معدنية المادة؛ القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية PbrMaterial. تحصل أو تعين المعدنية للمادة؛ القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة"
 type: docs
 weight: 70
 url: /ar/net/aspose.threed.shading/pbrmaterial/metallicfactor/
 ---
 ## PbrMaterial.MetallicFactor property
 
-يحصل أو يضبط معدنية المادة، قيمة 1 تعني أن المادة معدن وقيمة 0 تعني أن المادة عازلة.
+تحصل أو تعين معدنية المادة، القيمة 1 تعني أن المادة معدن والقيمة 0 تعني أن المادة عازلة.
 
 ```csharp
 public double MetallicFactor { get; set; }

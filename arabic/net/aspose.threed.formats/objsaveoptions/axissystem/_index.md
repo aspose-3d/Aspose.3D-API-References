@@ -1,14 +1,14 @@
 ---
 title: "ObjSaveOptions.AxisSystem"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية ObjSaveOptions. تحصل أو تعين نظام المحاور في الملف المُصدّر."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية ObjSaveOptions. يحصل أو يعيّن نظام المحاور في الملف المُصدّر"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.formats/objsaveoptions/axissystem/
 ---
 ## ObjSaveOptions.AxisSystem property
 
-يحصل أو يعيّن نظام المحاور في الملف المُصدَّر.
+يحصل أو يعيّن نظام المحاور في الملف المُصدّر.
 
 ```csharp
 public AxisSystem AxisSystem { get; set; }

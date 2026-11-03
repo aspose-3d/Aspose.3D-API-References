@@ -1,14 +1,14 @@
 ---
 title: "FileFormat.CreateSaveOptions"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FileFormat. إنشاء خيارات حفظ افتراضية لهذا التنسيق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FileFormat. إنشاء خيارات حفظ افتراضية لهذا تنسيق الملف"
 type: docs
 weight: 560
 url: /ar/net/aspose.threed/fileformat/createsaveoptions/
 ---
 ## FileFormat.CreateSaveOptions method
 
-إنشاء خيارات حفظ افتراضية لهذا التنسيق
+إنشاء خيارات حفظ افتراضية لهذا تنسيق الملف
 
 ```csharp
 public SaveOptions CreateSaveOptions()

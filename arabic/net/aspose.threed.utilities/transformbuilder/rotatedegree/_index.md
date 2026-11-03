@@ -1,14 +1,14 @@
 ---
 title: "TransformBuilder.RotateDegree"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة TransformBuilder. ربط تحويل دوران بالدرجة"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة TransformBuilder. سلسلة تحويل دوران بالدرجة"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.utilities/transformbuilder/rotatedegree/
 ---
 ## RotateDegree(double, Vector3) {#rotatedegree}
 
-سلسلة تحويل دوران بالدرجات
+ربط تحويل دوران بالدرجة
 
 ```csharp
 public TransformBuilder RotateDegree(double angle, Vector3 axis)
@@ -16,8 +16,8 @@ public TransformBuilder RotateDegree(double angle, Vector3 axis)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| زاوية | Double | الزاوية لتدوير بالدرجة |
-| محور | Vector3 | المحور للتدوير |
+| زاوية | مضاعف | الزاوية للدوران بالدرجة |
+| محور | Vector3 | المحور للدوران |
 
 ## أمثلة
 
@@ -38,7 +38,7 @@ Console.WriteLine($"Transform Matrix: {tb.Matrix}");
 
 ## RotateDegree(Vector3, RotationOrder) {#rotatedegree_1}
 
-إلحاق دوران بترتيب محدد
+إلحاق دوران بالترتيب المحدد
 
 ```csharp
 public void RotateDegree(Vector3 rot, RotationOrder order)
@@ -47,7 +47,7 @@ public void RotateDegree(Vector3 rot, RotationOrder order)
 | معامل | النوع | الوصف |
 | --- | --- | --- |
 | rot | Vector3 | الدوران بالدرجات |
-| ترتيب | RotationOrder |  |
+| order | RotationOrder |  |
 
 ### انظر أيضًا
 

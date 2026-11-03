@@ -1,14 +1,14 @@
 ---
 title: "AnimationNode.SubAnimations"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AnimationNode. يحصل على عقد التحريك الفرعية تحت التحريكات الحالية"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AnimationNode. تحصل على عقد الرسوم المتحركة الفرعية تحت الرسوم المتحركة الحالية"
 type: docs
 weight: 30
 url: /ar/net/aspose.threed.animation/animationnode/subanimations/
 ---
 ## AnimationNode.SubAnimations property
 
-يحصل على عقد الرسوم المتحركة الفرعية تحت الرسوم المتحركة الحالية
+تحصل على عقد الرسوم المتحركة الفرعية تحت الرسوم المتحركة الحالية.
 
 ```csharp
 public IList<AnimationNode> SubAnimations { get; }

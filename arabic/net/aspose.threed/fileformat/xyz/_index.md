@@ -1,7 +1,7 @@
 ---
 title: "FileFormat.Xyz"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FileFormat حقل. ملف سحابة نقاط Xyz"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FileFormat. ملف سحابة نقاط Xyz"
 type: docs
 weight: 440
 url: /ar/net/aspose.threed/fileformat/xyz/

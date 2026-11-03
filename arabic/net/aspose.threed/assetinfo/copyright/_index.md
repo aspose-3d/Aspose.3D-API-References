@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.Copyright"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "AssetInfo خاصية. يحصل أو يضبط حقوق النشر للوثائق"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AssetInfo. يحصل أو يضبط حقوق النشر للوثيقة"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed/assetinfo/copyright/
 ---
 ## AssetInfo.Copyright property
 
-الحصول أو تعيين حقوق النشر للوثيقة
+يحصل أو يضبط حقوق النشر للوثيقة
 
 ```csharp
 public string Copyright { get; set; }

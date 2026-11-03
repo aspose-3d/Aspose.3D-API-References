@@ -1,6 +1,6 @@
 ---
 title: "RenderState.PolygonMode"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "خاصية RenderState. يحصل أو يضبط وضع عرض المضلعات"
 type: docs
 weight: 110
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.render/renderstate/polygonmode/
 ---
 ## RenderState.PolygonMode property
 
-يحصل أو يعيّن وضع عرض المضلع.
+يحصل أو يضبط وضع عرض المضلع.
 
 ```csharp
 public PolygonMode PolygonMode { get; set; }

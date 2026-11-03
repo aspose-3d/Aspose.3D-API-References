@@ -1,14 +1,14 @@
 ---
 title: "SweptAreaSolid.SweptAreaSolid"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ SweptAreaSolid. المنشئ الافتراضي."
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ SweptAreaSolid. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/sweptareasolid/sweptareasolid/
 ---
 ## SweptAreaSolid constructor
 
-المنشئ الافتراضي.
+المُنشئ الافتراضي.
 
 ```csharp
 public SweptAreaSolid()

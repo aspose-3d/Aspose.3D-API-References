@@ -1,14 +1,14 @@
 ---
 title: "ITextureDecoder.Decode"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة ITextureDecoder. فك تشفير القوام من الدفق تُعيد null إذا فشل في فك التشفير"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة ITextureDecoder. فك تشفير الملمس من الدفق إرجاع null إذا فشل فك التشفير"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.render/itexturedecoder/decode/
 ---
 ## ITextureDecoder.Decode method
 
-فك تشفير القوام من الدفق، إرجاع null إذا فشل في فك التشفير.
+فك تشفير الملمس من الدفق، إرجاع null إذا فشل فك التشفير.
 
 ```csharp
 public TextureData Decode(Stream stream, bool reverseY)
@@ -16,14 +16,14 @@ public TextureData Decode(Stream stream, bool reverseY)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق مصدر بيانات القوام |
-| reverseY | Boolean | قلب القوام |
+| تدفق | تدفق | دفق مصدر بيانات الملمس |
+| reverseY | Boolean | قلب الملمس |
 
 ### قيمة الإرجاع
 
-بيانات القوام المفكوكة أو null إذا لم يكن مدعومًا.
+بيانات الملمس المفكوكة أو null إذا لم يكن مدعومًا.
 
-### استثناءات
+### الاستثناءات
 
 | استثناء | شرط |
 | --- | --- |

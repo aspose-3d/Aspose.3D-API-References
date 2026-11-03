@@ -1,14 +1,14 @@
 ---
 title: "Renderer.GetPostProcessing"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة Renderer. تحصل على معالج ما بعد مدمج يدعمه الـ renderer"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة Renderer. الحصول على معالج ما بعد مدمج يدعمه renderer"
 type: docs
 weight: 190
 url: /ar/net/aspose.threed.render/renderer/getpostprocessing/
 ---
 ## Renderer.GetPostProcessing method
 
-يحصل على معالج لاحق مدمج يدعمه المُصنِّف.
+الحصول على معالج ما بعد مدمج يدعمه renderer.
 
 ```csharp
 public PostProcessing GetPostProcessing(string name)
@@ -16,7 +16,7 @@ public PostProcessing GetPostProcessing(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة |  |
+| الاسم | String |  |
 
 ### انظر أيضًا
 

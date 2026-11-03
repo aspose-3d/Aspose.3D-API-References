@@ -1,7 +1,7 @@
 ---
 title: "FVector4.W"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "FVector4 حقل. المكوّن w"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "حقل FVector4. المكوّن w"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.utilities/fvector4/w/

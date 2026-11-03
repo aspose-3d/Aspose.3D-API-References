@@ -1,7 +1,7 @@
 ---
 title: "FVector2.op_Inequality"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "طريقة FVector2. إعادة تعريف المشغل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "طريقة FVector2. إعادة تحميل المشغل"
 type: docs
 weight: 100
 url: /ar/net/aspose.threed.utilities/fvector2/op_inequality/

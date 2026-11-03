@@ -1,14 +1,14 @@
 ---
 title: "StlLoadOptions.RecalculateNormal"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية StlLoadOptions. تجاهل بيانات العمود المخزنة في ملف STL وإعادة حساب بيانات العمود بناءً على موضع الرأس. القيمة الافتراضية هي false"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية StlLoadOptions. تجاهل بيانات العادي المخزنة في ملف STL وإعادة حساب بيانات العادي بناءً على موضع الرؤوس. القيمة الافتراضية هي false"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed.formats/stlloadoptions/recalculatenormal/
 ---
 ## StlLoadOptions.RecalculateNormal property
 
-تجاهل بيانات السطح المخزنة في ملف STL وإعادة حساب بيانات السطح بناءً على موضع الرؤوس. القيمة الافتراضية هي false.
+تجاهل بيانات العادي المخزنة في ملف STL وإعادة حساب بيانات العادي بناءً على موضع الرؤوس. القيمة الافتراضية هي false
 
 ```csharp
 public bool RecalculateNormal { get; set; }

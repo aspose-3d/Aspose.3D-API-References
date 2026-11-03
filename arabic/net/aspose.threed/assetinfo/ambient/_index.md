@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.Ambient"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "خاصية AssetInfo. تحصل أو تعين اللون المحيط الافتراضي لهذا الأصل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AssetInfo. تحصل أو تعين اللون المحيطي الافتراضي لهذا الأصل"
 type: docs
 weight: 20
 url: /ar/net/aspose.threed/assetinfo/ambient/
 ---
 ## AssetInfo.Ambient property
 
-يحصل أو يعيّن اللون المحيطي الافتراضي لهذا الأصل
+تحصل أو تعين اللون المحيطي الافتراضي لهذا الأصل
 
 ```csharp
 public Vector4? Ambient { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: "AnimationClip.CreateAnimationNode"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "طريقة AnimationClip. دالة مختصرة لإنشاء وتسجيل عقدة الرسوم المتحركة على المقطع الحالي"
 type: docs
 weight: 60
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed.animation/animationclip/createanimationnode/
 ---
 ## AnimationClip.CreateAnimationNode method
 
-دالة مختصرة لإنشاء وتسجيل عقدة الرسوم المتحركة في المقطع الحالي.
+دالة مختصرة لإنشاء وتسجيل عقدة الرسوم المتحركة على المقطع الحالي.
 
 ```csharp
 public AnimationNode CreateAnimationNode(string nodeName)
@@ -16,7 +16,7 @@ public AnimationNode CreateAnimationNode(string nodeName)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| nodeName | سلسلة | اسم عقدة الرسوم المتحركة الجديدة |
+| nodeName | String | اسم عقدة الرسوم المتحركة الجديدة |
 
 ### قيمة الإرجاع
 

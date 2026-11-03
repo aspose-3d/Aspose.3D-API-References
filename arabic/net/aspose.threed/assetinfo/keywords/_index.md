@@ -1,14 +1,14 @@
 ---
 title: "AssetInfo.Keywords"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "AssetInfo خاصية. يحصل أو يضبط الكلمات المفتاحية لهذا الأصل"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "خاصية AssetInfo. تحصل أو تعين الكلمات المفتاحية لهذا الأصل"
 type: docs
 weight: 130
 url: /ar/net/aspose.threed/assetinfo/keywords/
 ---
 ## AssetInfo.Keywords property
 
-الحصول أو تعيين الكلمات المفتاحية لهذا الأصل
+تحصل أو تعين الكلمات المفتاحية لهذا الأصل
 
 ```csharp
 public string Keywords { get; set; }

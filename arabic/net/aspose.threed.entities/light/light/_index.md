@@ -1,14 +1,14 @@
 ---
 title: "Light.Light"
-second_title: "مرجع Aspose.3D for .NET API"
-description: "منشئ Light. يهيئ مثلاً جديداً من الفئة Light"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
+description: "منشئ Light. يهيئ نسخة جديدة من فئة Light"
 type: docs
 weight: 10
 url: /ar/net/aspose.threed.entities/light/light/
 ---
 ## Light() {#constructor}
 
-يهيئ مثلاً جديداً من الفئة [`Light`](../).
+يهيئ نسخة جديدة من الفئة [`Light`](../).
 
 ```csharp
 public Light()
@@ -24,7 +24,7 @@ public Light()
 
 ## Light(string) {#constructor_1}
 
-يهيئ مثلاً جديداً من الفئة [`Light`](../).
+يهيئ نسخة جديدة من الفئة [`Light`](../).
 
 ```csharp
 public Light(string name)
@@ -32,7 +32,7 @@ public Light(string name)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
+| الاسم | String | الاسم |
 
 ### انظر أيضًا
 
@@ -44,7 +44,7 @@ public Light(string name)
 
 ## Light(string, LightType) {#constructor_2}
 
-يهيئ مثلاً جديداً من الفئة [`Light`](../).
+يهيئ نسخة جديدة من الفئة [`Light`](../).
 
 ```csharp
 public Light(string name, LightType type)
@@ -52,8 +52,8 @@ public Light(string name, LightType type)
 
 | معامل | النوع | الوصف |
 | --- | --- | --- |
-| الاسم | سلسلة | الاسم |
-| type | LightType | نوع الضوء الجديد |
+| الاسم | String | الاسم |
+| نوع | LightType | نوع الضوء الجديد |
 
 ### انظر أيضًا
 

@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType.GLTF"
-second_title: "مرجع Aspose.3D for .NET API"
+second_title: "مرجع واجهة برمجة تطبيقات Aspose.3D لـ .NET"
 description: "FileFormatType حقل. مجموعة Khronos glTF"
 type: docs
 weight: 100
@@ -8,7 +8,7 @@ url: /ar/net/aspose.threed/fileformattype/gltf/
 ---
 ## FileFormatType.GLTF field
 
-glTF الخاص بمجموعة Khronos
+مجموعة Khronos glTF
 
 ```csharp
 public static readonly FileFormatType GLTF;
