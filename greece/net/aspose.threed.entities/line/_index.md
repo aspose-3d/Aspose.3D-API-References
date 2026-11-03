@@ -1,14 +1,14 @@
 ---
-title: Line
-second_title: Aspose.3D για Αναφορά API .NET
-description: Μια πολύγραμμη είναι μια διαδρομή που ορίζεται από ένα σύνολο σημείων μεControlPoints./geometry/controlpoints/  και συνδέεται μεSegments./line/segments/  που σημαίνει ότι μπορεί επίσης να είναι ένα σύνολο συνδεδεμένων τμημάτων γραμμής. Η γραμμή είναι συνήθως ένα γραμμικό αντικείμενο που σημαίνει ότι δεν μπορεί να χρησιμοποιηθεί για να αναπαραστήσει μια καμπύλη για να αναπαραστήσει μια καμπύλη χρησιμοποιείNurbsCurve./nurbscurve/ .
+title: "Κλάση Line"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Κλάση Aspose.ThreeD.Entities.Line. Μια πολυγραμμή είναι μια διαδρομή που ορίζεται από ένα σύνολο σημείων με ControlPoints και συνδέεται από Segments, πράγμα που σημαίνει ότι μπορεί επίσης να είναι ένα σύνολο συνδεδεμένων τμημάτων γραμμής. Η γραμμή είναι συνήθως ένα γραμμικό αντικείμενο, πράγμα που σημαίνει ότι δεν μπορεί να χρησιμοποιηθεί για την αναπαράσταση μιας καμπύλης· για την αναπαράσταση μιας καμπύλης χρησιμοποιείται NurbsCurve."
 type: docs
-weight: 420
+weight: 480
 url: /el/net/aspose.threed.entities/line/
 ---
 ## Line class
 
-Μια πολύγραμμη είναι μια διαδρομή που ορίζεται από ένα σύνολο σημείων με[`ControlPoints`](../geometry/controlpoints/) , και συνδέεται με[`Segments`](./segments/) , που σημαίνει ότι μπορεί επίσης να είναι ένα σύνολο συνδεδεμένων τμημάτων γραμμής. Η γραμμή είναι συνήθως ένα γραμμικό αντικείμενο, που σημαίνει ότι δεν μπορεί να χρησιμοποιηθεί για να αναπαραστήσει μια καμπύλη, για να αναπαραστήσει μια καμπύλη, χρησιμοποιεί[`NurbsCurve`](../nurbscurve/) .
+Μια πολυγραμμή είναι μια διαδρομή που ορίζεται από ένα σύνολο σημείων με [`ControlPoints`](../geometry/controlpoints/), και συνδέεται από [`Segments`](./segments/), πράγμα που σημαίνει ότι μπορεί επίσης να είναι ένα σύνολο συνδεδεμένων τμημάτων γραμμής. Η γραμμή είναι συνήθως ένα γραμμικό αντικείμενο, πράγμα που σημαίνει ότι δεν μπορεί να χρησιμοποιηθεί για την αναπαράσταση μιας καμπύλης· για την αναπαράσταση μιας καμπύλης, χρησιμοποιείται [`NurbsCurve`](../nurbscurve/).
 
 ```csharp
 public class Line : Curve
@@ -16,44 +16,44 @@ public class Line : Curve
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Line](line/#constructor)() | Αρχικοποιεί μια νέα παρουσία του`Line` τάξη. |
-| [Line](line/#constructor_1)(string) | Αρχικοποιεί μια νέα παρουσία του`Line` τάξη. |
+| [Line](line/#constructor)() | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `Line`. |
+| [Line](line/#constructor_1)(string) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `Line`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Color](../../aspose.threed.entities/curve/color/) { get; set; } | Λαμβάνει ή ορίζει το χρώμα της γραμμής, η προεπιλεγμένη τιμή είναι λευκό(1, 1, 1) |
+| [Color](../../aspose.threed.entities/curve/color/) { get; set; } | Λαμβάνει ή ορίζει το χρώμα της γραμμής, η προεπιλεγμένη τιμή είναι λευκό (1, 1, 1) |
 | [ControlPoints](../../aspose.threed.entities/line/controlpoints/) { get; } | Λαμβάνει όλα τα σημεία ελέγχου |
-| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Λαμβάνει ή ορίζει εάν θα εξαιρεθεί αυτή η οντότητα κατά την εξαγωγή. |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Παίρνει ή ορίζει το όνομα. |
-| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Λαμβάνει ή ορίζει τον πρώτο γονικό κόμβο, εάν οριστεί ο πρώτος γονικός κόμβος, αυτή η οντότητα θα αποσπαστεί από άλλους γονικούς κόμβους. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Λαμβάνει όλους τους γονικούς κόμβους, μια οντότητα μπορεί να προσαρτηθεί σε πολλούς γονικούς κόμβους για γεωμετρία instancing |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Λαμβάνει ή ορίζει αν αυτή η οντότητα θα εξαιρεθεί κατά την εξαγωγή. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Λαμβάνει ή ορίζει το όνομα. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Λαμβάνει ή ορίζει τον πρώτο γονικό κόμβο· εάν οριστεί ο πρώτος γονικός κόμβος, αυτή η οντότητα θα αποσυνδεθεί από άλλους γονικούς κόμβους. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Λαμβάνει όλους τους γονικούς κόμβους, μια οντότητα μπορεί να προσαρτηθεί σε πολλούς γονικούς κόμβους για δημιουργία γεωμετρίας μέσω αντιγραφών |
 | [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Λαμβάνει τη συλλογή όλων των ιδιοτήτων. |
-| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Λαμβάνει τη σκηνή ότι αυτό το αντικείμενο ανήκει στο |
-| [Segments](../../aspose.threed.entities/line/segments/) { get; } | Παίρνει τα τμήματα της γραμμής |
-| [Visible](../../aspose.threed.entities/line/visible/) { get; set; } | Λαμβάνει ή ορίζει εάν η γεωμετρία είναι ορατή |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Λαμβάνει τη σκηνή στην οποία ανήκει αυτό το αντικείμενο |
+| [Segments](../../aspose.threed.entities/line/segments/) { get; } | Λαμβάνει τα τμήματα της γραμμής. |
+| [Visible](../../aspose.threed.entities/line/visible/) { get; set; } | Λαμβάνει ή ορίζει αν η γεωμετρία είναι ορατή |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [FromPoints](../../aspose.threed.entities/line/frompoints/)(params Vector3[]) | Κατασκευάστε α`Line` παράδειγμα από ένα σύνολο σημείων. |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι μια δυναμική ιδιότητα (Δημιουργήθηκε από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται από το όνομά της) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Λαμβάνει το πλαίσιο οριοθέτησης της τρέχουσας οντότητας στο σύστημα συντεταγμένων του χώρου αντικειμένου. |
-| override [GetEntityRendererKey](../../aspose.threed.entities/curve/getentityrendererkey/)() | Παίρνει το κλειδί του προγράμματος απόδοσης οντοτήτων που είναι καταχωρημένο στο πρόγραμμα απόδοσης |
+| static [FromPoints](../../aspose.threed.entities/line/frompoints/)(params Vector3[]) | Δημιουργήστε ένα αντικείμενο `Line` από ένα σύνολο σημείων. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι δυναμική ιδιότητα (Δημιουργείται από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται με το όνομά της) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Λαμβάνει το πλαίσιο περιβάλλοντος της τρέχουσας οντότητας στο σύστημα συντεταγμένων του χώρου αντικειμένου της. |
+| override [GetEntityRendererKey](../../aspose.threed.entities/curve/getentityrendererkey/)() | Λαμβάνει το κλειδί του αποτυπωτή οντότητας που είναι καταχωρημένο στον renderer |
 | [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Λάβετε την τιμή της καθορισμένης ιδιότητας |
-| [MakeDefaultIndices](../../aspose.threed.entities/line/makedefaultindices/)() | Δημιουργήστε την ακολουθία 0,1,2,3....[`ControlPoints`](../geometry/controlpoints/) .Μήκος-1 έως[`Segments`](./segments/) έτσι τα σημεία ελέγχου μπορούν να χρησιμοποιηθούν ως μία γραμμή |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Καταργεί μια δυναμική ιδιότητα. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Καταργήστε την καθορισμένη ιδιότητα που προσδιορίζεται με όνομα |
+| [MakeDefaultIndices](../../aspose.threed.entities/line/makedefaultindices/)() | Δημιουργήστε τη σειρά 0,1,2,3....[`ControlPoints`](../geometry/controlpoints/).Length-1 προς [`Segments`](./segments/) ώστε τα ControlPoints να μπορούν να χρησιμοποιηθούν ως μία ενιαία γραμμή |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Αφαιρεί μια δυναμική ιδιότητα. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Αφαιρέστε την καθορισμένη ιδιότητα που προσδιορίζεται με το όνομα |
 | [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Ορίζει την τιμή της καθορισμένης ιδιότητας |
 
 ### Δείτε επίσης
 
 * class [Curve](../curve/)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

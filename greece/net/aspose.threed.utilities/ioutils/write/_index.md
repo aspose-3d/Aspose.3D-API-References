@@ -1,7 +1,7 @@
 ---
-title: Write
-second_title: Aspose.3D για Αναφορά API .NET
-description: Γράψτε τον πίνακα στο δυαδικό writer
+title: "IOUtils.Write"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Μέθοδος IOUtils. Γράψτε τη μήτρα στον δυαδικό γράφτη"
 type: docs
 weight: 10
 url: /el/net/aspose.threed.utilities/ioutils/write/
@@ -16,15 +16,15 @@ public static void Write(this BinaryWriter writer, Matrix4 mat)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| writer | BinaryWriter | Στόχος δυαδικής εγγραφής |
-| mat | Matrix4 | Matrix για να γράψετε |
+| writer | BinaryWriter | Στόχος δυαδικού γράφτη |
+| mat | Matrix4 | Μήτρα προς εγγραφή |
 
 ### Δείτε επίσης
 
 * struct [Matrix4](../../matrix4/)
 * class [IOUtils](../)
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../ioutils/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -38,15 +38,15 @@ public static void Write(this BinaryWriter writer, FMatrix4 mat)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| writer | BinaryWriter | Στόχος δυαδικής εγγραφής |
-| mat | FMatrix4 | Matrix για να γράψετε |
+| writer | BinaryWriter | Στόχος δυαδικού γράφτη |
+| mat | FMatrix4 | Μήτρα προς εγγραφή |
 
 ### Δείτε επίσης
 
 * struct [FMatrix4](../../fmatrix4/)
 * class [IOUtils](../)
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../ioutils/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -60,15 +60,15 @@ public static void Write(this BinaryWriter writer, FVector2 v)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| writer | BinaryWriter | Στόχος δυαδικής εγγραφής |
-| v | FVector2 | Διάνυσμα για να γράψετε |
+| writer | BinaryWriter | Στόχος δυαδικού γράφτη |
+| v | FVector2 | Διάνυσμα προς εγγραφή |
 
 ### Δείτε επίσης
 
 * struct [FVector2](../../fvector2/)
 * class [IOUtils](../)
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../ioutils/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -82,15 +82,15 @@ public static void Write(this BinaryWriter writer, FVector3 v)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| writer | BinaryWriter | Στόχος δυαδικής εγγραφής |
-| v | FVector3 | Διάνυσμα για να γράψετε |
+| writer | BinaryWriter | Στόχος δυαδικού γράφτη |
+| v | FVector3 | Διάνυσμα προς εγγραφή |
 
 ### Δείτε επίσης
 
 * struct [FVector3](../../fvector3/)
 * class [IOUtils](../)
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../ioutils/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -104,15 +104,15 @@ public static void Write(this BinaryWriter writer, FVector4 v)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| writer | BinaryWriter | Στόχος δυαδικής εγγραφής |
-| v | FVector4 | Διάνυσμα για να γράψετε |
+| writer | BinaryWriter | Στόχος δυαδικού γράφτη |
+| v | FVector4 | Διάνυσμα προς εγγραφή |
 
 ### Δείτε επίσης
 
 * struct [FVector4](../../fvector4/)
 * class [IOUtils](../)
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../ioutils/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -126,15 +126,15 @@ public static void Write(this BinaryWriter writer, Vector2 v)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| writer | BinaryWriter | Στόχος δυαδικής εγγραφής |
-| v | Vector2 | Διάνυσμα για να γράψετε |
+| writer | BinaryWriter | Στόχος δυαδικού γράφτη |
+| v | Vector2 | Διάνυσμα προς εγγραφή |
 
 ### Δείτε επίσης
 
 * struct [Vector2](../../vector2/)
 * class [IOUtils](../)
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../ioutils/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -148,15 +148,15 @@ public static void Write(this BinaryWriter writer, Vector3 v)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| writer | BinaryWriter | Στόχος δυαδικής εγγραφής |
-| v | Vector3 | Διάνυσμα για να γράψετε |
+| writer | BinaryWriter | Στόχος δυαδικού γράφτη |
+| v | Vector3 | Διάνυσμα προς εγγραφή |
 
 ### Δείτε επίσης
 
 * struct [Vector3](../../vector3/)
 * class [IOUtils](../)
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../ioutils/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -170,14 +170,14 @@ public static void Write(this BinaryWriter writer, Vector4 v)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| writer | BinaryWriter | Στόχος δυαδικής εγγραφής |
-| v | Vector4 | Διάνυσμα για να γράψετε |
+| writer | BinaryWriter | Στόχος δυαδικού γράφτη |
+| v | Vector4 | Διάνυσμα προς εγγραφή |
 
 ### Δείτε επίσης
 
 * struct [Vector4](../../vector4/)
 * class [IOUtils](../)
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../ioutils/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Utilities](../../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

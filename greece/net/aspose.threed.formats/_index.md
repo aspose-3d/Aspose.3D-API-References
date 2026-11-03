@@ -1,59 +1,62 @@
 ---
-title: Aspose.ThreeD.Formats
-second_title: Aspose.3D για Αναφορά API .NET
-description: Η προσαρμογή που σχετίζεται με το IO ορίζεται σε αυτόν τον χώρο ονομάτων.
+title: "Aspose.ThreeD.Formats"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Οι προσαρμογές σχετικές με το IO ορίζονται σε αυτό το namespace"
 type: docs
 weight: 50
 url: /el/net/aspose.threed.formats/
 ---
-Η προσαρμογή που σχετίζεται με το IO ορίζεται σε αυτόν τον χώρο ονομάτων.
+Οι προσαρμογές σχετικές με το IO ορίζονται σε αυτόν τον χώρο ονομάτων.
 
-## Τάξεις
+## Κλάσεις
 
-| Τάξη | Περιγραφή |
+| Κλάση | Περιγραφή |
 | --- | --- |
-| [A3dwSaveOptions](./a3dwsaveoptions/) | Αποθήκευση επιλογών για μορφή A3DW. |
-| [AmfSaveOptions](./amfsaveoptions/) | Αποθήκευση επιλογών για AMF |
-| [ColladaSaveOptions](./colladasaveoptions/) | Αποθήκευση επιλογών για collada |
-| [Discreet3dsLoadOptions](./discreet3dsloadoptions/) | Φόρτωση επιλογών για αρχείο 3DS. |
-| [Discreet3dsSaveOptions](./discreet3dssaveoptions/) | Αποθήκευση επιλογών για αρχείο 3DS. |
+| [A3dwSaveOptions](./a3dwsaveoptions/) | Επιλογές αποθήκευσης για τη μορφή A3DW. |
+| [AmfSaveOptions](./amfsaveoptions/) | Επιλογές αποθήκευσης για AMF |
+| [ColladaSaveOptions](./colladasaveoptions/) | Επιλογές αποθήκευσης για collada |
+| [Discreet3dsLoadOptions](./discreet3dsloadoptions/) | Επιλογές φόρτωσης για αρχείο 3DS. |
+| [Discreet3dsSaveOptions](./discreet3dssaveoptions/) | Επιλογές αποθήκευσης για αρχείο 3DS. |
 | [DracoFormat](./dracoformat/) | Μορφή Google Draco |
-| [DracoSaveOptions](./dracosaveoptions/) | Αποθήκευση επιλογών για αρχεία Google draco |
+| [DracoSaveOptions](./dracosaveoptions/) | Επιλογές αποθήκευσης για αρχεία Google draco |
 | [FbxLoadOptions](./fbxloadoptions/) | Επιλογές φόρτωσης για μορφή Fbx. |
-| [FbxSaveOptions](./fbxsaveoptions/) | Αποθήκευση επιλογών για αρχείο Fbx. |
-| [FileSystemFactory](./filesystemfactory/) | [`SaveOptions`](../aspose.threed.formats/saveoptions/) και[`LoadOptions`](../aspose.threed.formats/loadoptions/) θα δημιουργήσει ένα[`LocalFileSystem`](../aspose.threed.utilities/localfilesystem/) για προεπιλογή. Αυτό μπορεί να είναι ένα ζήτημα ασφαλείας στο περιβάλλον διακομιστή. Χρησιμοποιήστε το δικό σας[`FileSystemFactory`](../aspose.threed.formats/filesystemfactory/) προς την[`FileSystemFactory`](../aspose.threed.formats/ioconfig/filesystemfactory/) για τη βελτίωση της ασφάλειας από την πλευρά του διακομιστή. |
+| [FbxSaveOptions](./fbxsaveoptions/) | Επιλογές αποθήκευσης για αρχείο Fbx. |
+| [FileSystemFactory](./filesystemfactory/) | [`SaveOptions`](../aspose.threed.formats/saveoptions/) and [`LoadOptions`](../aspose.threed.formats/loadoptions/) θα δημιουργήσουν ένα LocalFileSystem ως προεπιλογή. Αυτό μπορεί να αποτελεί πρόβλημα ασφαλείας σε περιβάλλον διακομιστή. Χρησιμοποιήστε το δικό σας [`FileSystemFactory`](../aspose.threed.formats/filesystemfactory/) στο [`FileSystemFactory`](../aspose.threed.formats/ioconfig/filesystemfactory/) για να βελτιώσετε την ασφάλεια στην πλευρά του διακομιστή. |
 | [GltfLoadOptions](./gltfloadoptions/) | Επιλογές φόρτωσης για μορφή glTF |
-| [GltfSaveOptions](./gltfsaveoptions/) | Αποθήκευση επιλογών για μορφή glTF. |
-| [Html5SaveOptions](./html5saveoptions/) | Αποθήκευση επιλογών για HTML5 |
-| [IOConfig](./ioconfig/) | IO config για σειριοποίηση/αποσειριοποίηση. Ο χρήστης μπορεί να καθορίσει λεπτομερείς διαμορφώσεις όπως διαδρομή αναζήτησης εξάρτησης Ή διαμορφώσεις που σχετίζονται με τη μορφή εδώ |
-| [LoadOptions](./loadoptions/) | Η βασική κλάση για τη διαμόρφωση των επιλογών στη φόρτωση αρχείων για διαφορετικούς τύπους |
-| [MaterialConverter](./materialconverter/) | Προσαρμοσμένος μετατροπέας για μετατροπή του αρχικού υλικού της γεωμετρίας σε υλικό PBR της GLTF. |
-| [ObjLoadOptions](./objloadoptions/) | Επιλογές φόρτωσης για μέτωπο κύματος obj |
-| [ObjSaveOptions](./objsaveoptions/) | Αποθήκευση επιλογών για wavefront obj file |
-| [PdfFormat](./pdfformat/) | Μορφή φορητού εγγράφου της Adobe |
+| [GltfSaveOptions](./gltfsaveoptions/) | Επιλογές αποθήκευσης για μορφή glTF. |
+| [Html5SaveOptions](./html5saveoptions/) | Επιλογές αποθήκευσης για HTML5 |
+| [IOConfig](./ioconfig/) | Διαμόρφωση IO για σειριοποίηση/αποσειριοποίηση. Ο χρήστης μπορεί να καθορίσει λεπτομερείς ρυθμίσεις όπως διαδρομή αναζήτησης εξαρτήσεων ή ρυθμίσεις σχετικές με τη μορφή εδώ. |
+| [JtLoadOptions](./jtloadoptions/) | Επιλογές φόρτωσης για Siemens JT |
+| [LoadOptions](./loadoptions/) | Η βασική κλάση για τη διαμόρφωση επιλογών στη φόρτωση αρχείων για διαφορετικούς τύπους |
+| [MaterialConverter](./materialconverter/) | Προσαρμοσμένος μετατροπέας για τη μετατροπή του αρχικού υλικού της γεωμετρίας σε υλικό PBR του GLTF. |
+| [Microsoft3MFFormat](./microsoft3mfformat/) | Παράδειγμα μορφής αρχείου για Microsoft 3MF με εργαλεία σχετιζόμενα με 3MF. |
+| [Microsoft3MFSaveOptions](./microsoft3mfsaveoptions/) | Επιλογές αποθήκευσης για αρχείο Microsoft 3MF. |
+| [ObjLoadOptions](./objloadoptions/) | Επιλογές φόρτωσης για wavefront obj |
+| [ObjSaveOptions](./objsaveoptions/) | Επιλογές αποθήκευσης για αρχείο wavefront obj |
+| [PdfFormat](./pdfformat/) | Φορμάτ Φορητών Εγγράφων της Adobe |
 | [PdfLoadOptions](./pdfloadoptions/) | Επιλογές για φόρτωση PDF |
 | [PdfSaveOptions](./pdfsaveoptions/) | Οι επιλογές αποθήκευσης στην εξαγωγή PDF. |
 | [PlyFormat](./plyformat/) | Η μορφή PLY. |
 | [PlyLoadOptions](./plyloadoptions/) | Επιλογές φόρτωσης για αρχεία PLY |
-| [PlySaveOptions](./plysaveoptions/) | Αποθήκευση επιλογών για εξαγωγή σκηνής ως αρχείο PLY. |
-| [RvmFormat](./rvmformat/) | Μορφή RVM |
-| [RvmLoadOptions](./rvmloadoptions/) | Φόρτωση επιλογών για το αρχείο RVM του AVEVA Plant Design Management System. |
-| [RvmSaveOptions](./rvmsaveoptions/) | Αποθήκευση επιλογών για το αρχείο Aveva PDMS RVM. |
-| [SaveOptions](./saveoptions/) | Η βασική κλάση για τη διαμόρφωση των επιλογών στην αποθήκευση αρχείων για διαφορετικούς τύπους |
+| [PlySaveOptions](./plysaveoptions/) | Επιλογές αποθήκευσης για εξαγωγή σκηνής ως αρχείο PLY. |
+| [RvmFormat](./rvmformat/) | Η μορφή RVM |
+| [RvmLoadOptions](./rvmloadoptions/) | Επιλογές φόρτωσης για το αρχείο RVM του AVEVA Plant Design Management System. |
+| [RvmSaveOptions](./rvmsaveoptions/) | Επιλογές αποθήκευσης για το αρχείο Aveva PDMS RVM. |
+| [SaveOptions](./saveoptions/) | Η βασική κλάση για τη διαμόρφωση επιλογών στην αποθήκευση αρχείων για διαφορετικούς τύπους |
 | [StlLoadOptions](./stlloadoptions/) | Επιλογές φόρτωσης για STL |
-| [StlSaveOptions](./stlsaveoptions/) | Αποθήκευση επιλογών για STL |
-| [U3dLoadOptions](./u3dloadoptions/) | Επιλογές φόρτωσης για universal 3d |
-| [U3dSaveOptions](./u3dsaveoptions/) | Αποθήκευση επιλογών για καθολική 3d |
-| [UsdSaveOptions](./usdsaveoptions/) | Αποθήκευση επιλογών για μορφές USD/USDZ. |
+| [StlSaveOptions](./stlsaveoptions/) | Επιλογές αποθήκευσης για STL |
+| [U3dLoadOptions](./u3dloadoptions/) | Επιλογές φόρτωσης για καθολικό 3d |
+| [U3dSaveOptions](./u3dsaveoptions/) | Επιλογές αποθήκευσης για καθολικό 3d |
+| [UsdSaveOptions](./usdsaveoptions/) | Επιλογές αποθήκευσης για μορφές USD/USDZ. |
 | [XLoadOptions](./xloadoptions/) | Οι επιλογές φόρτωσης για αρχεία DirectX X. |
 ## Απαρίθμηση
 
 | Απαρίθμηση | Περιγραφή |
 | --- | --- |
-| [ColladaTransformStyle](./colladatransformstyle/) | Το στυλ μετασχηματισμού του κόμβου του node |
-| [DracoCompressionLevel](./dracocompressionlevel/) | Επίπεδο συμπίεσης για draco file |
-| [GltfEmbeddedImageFormat](./gltfembeddedimageformat/) | Πώς ο εξαγωγέας glTF θα ενσωματώσει τις υφές κατά την εξαγωγή. |
-| [PdfLightingScheme](./pdflightingscheme/) | Το LightingScheme καθορίζει τον φωτισμό που θα εφαρμοστεί σε τρισδιάστατα έργα τέχνης. |
-| [PdfRenderMode](./pdfrendermode/) | Η λειτουργία απόδοσης καθορίζει το στυλ με το οποίο αποδίδεται το τρισδιάστατο έργο τέχνης. |
+| [ColladaTransformStyle](./colladatransformstyle/) | Το στυλ μετασχηματισμού του κόμβου |
+| [DracoCompressionLevel](./dracocompressionlevel/) | Επίπεδο συμπίεσης για αρχείο draco |
+| [GltfEmbeddedImageFormat](./gltfembeddedimageformat/) | Πώς ο εξαγωγέας glTF θα ενσωματώσει τις υφές κατά τη διάρκεια της εξαγωγής. |
+| [PdfLightingScheme](./pdflightingscheme/) | Το LightingScheme καθορίζει τον φωτισμό που θα εφαρμοστεί στο 3D έργο. |
+| [PdfRenderMode](./pdfrendermode/) | Η λειτουργία απόδοσης καθορίζει το στυλ με το οποίο αποδίδεται το 3D έργο. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

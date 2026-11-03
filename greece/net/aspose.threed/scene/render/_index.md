@@ -1,14 +1,14 @@
 ---
-title: Render
-second_title: Aspose.3D για Αναφορά API .NET
-description: Αποδώστε τη σκηνή σε εξωτερικό αρχείο από την οπτική γωνία της συγκεκριμένης κάμερας. Το προεπιλεγμένο μέγεθος εξόδου είναι 1024x768 και η μορφή εξόδου είναι png
+title: "Scene.Render"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Μέθοδος Scene. Αποδίδει τη σκηνή σε εξωτερικό αρχείο από την προοπτική της δοσμένης κάμερας. Το προεπιλεγμένο μέγεθος εξόδου είναι 1024x768 και η μορφή εξόδου είναι png"
 type: docs
 weight: 150
 url: /el/net/aspose.threed/scene/render/
 ---
 ## Render(Camera, string) {#render_2}
 
-Αποδώστε τη σκηνή σε εξωτερικό αρχείο από την οπτική γωνία της συγκεκριμένης κάμερας. Το προεπιλεγμένο μέγεθος εξόδου είναι 1024x768 και η μορφή εξόδου είναι png
+Αποδίδει τη σκηνή σε εξωτερικό αρχείο από την προοπτική της δοσμένης κάμερας. Το προεπιλεγμένο μέγεθος εξόδου είναι 1024x768 και η μορφή εξόδου είναι png
 
 ```csharp
 public void Render(Camera camera, string fileName)
@@ -16,111 +16,115 @@ public void Render(Camera camera, string fileName)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| camera | Camera | Από ποια οπτική γωνία κάμερας να αποδοθεί η σκηνή |
+| κάμερα | Κάμερα | Από την προοπτική ποιας κάμερας θα αποδοθεί η σκηνή |
 | fileName | String | Το όνομα αρχείου του αρχείου εξόδου |
 
 ### Δείτε επίσης
 
 * class [Camera](../../../aspose.threed.entities/camera/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, string, Size, ImageFormat) {#render_3}
+## Render(Camera, string, Vector2, string) {#render_3}
 
-Αποδώστε τη σκηνή σε εξωτερικό αρχείο από την οπτική γωνία της συγκεκριμένης κάμερας.
+Αποδίδει τη σκηνή σε εξωτερικό αρχείο από την προοπτική της δοσμένης κάμερας.
 
 ```csharp
-public void Render(Camera camera, string fileName, Size size, ImageFormat format)
+public void Render(Camera camera, string fileName, Vector2 size, string format)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| camera | Camera | Από ποια οπτική γωνία κάμερας να αποδοθεί η σκηνή |
+| κάμερα | Κάμερα | Από την προοπτική ποιας κάμερας θα αποδοθεί η σκηνή |
 | fileName | String | Το όνομα αρχείου του αρχείου εξόδου |
-| size | Size | Το μέγεθος της τελικής απόδοσης εικόνας |
-| format | ImageFormat | Η μορφή εικόνας του αρχείου εξόδου |
+| μέγεθος | Vector2 | Το μέγεθος της τελικής αποδιδόμενης εικόνας |
+| μορφή | String | Η μορφή εικόνας του αρχείου εξόδου |
 
 ### Δείτε επίσης
 
 * class [Camera](../../../aspose.threed.entities/camera/)
+* struct [Vector2](../../../aspose.threed.utilities/vector2/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, string, Size, ImageFormat, ImageRenderOptions) {#render_4}
+## Render(Camera, string, Vector2, string, ImageRenderOptions) {#render_4}
 
-Αποδώστε τη σκηνή σε εξωτερικό αρχείο από την οπτική γωνία της συγκεκριμένης κάμερας.
+Αποδίδει τη σκηνή σε εξωτερικό αρχείο από την προοπτική της δοσμένης κάμερας.
 
 ```csharp
-public void Render(Camera camera, string fileName, Size size, ImageFormat format, 
+public void Render(Camera camera, string fileName, Vector2 size, string format, 
     ImageRenderOptions options)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| camera | Camera | Από ποια οπτική γωνία κάμερας να αποδοθεί η σκηνή |
+| κάμερα | Κάμερα | Από την προοπτική ποιας κάμερας θα αποδοθεί η σκηνή |
 | fileName | String | Το όνομα αρχείου του αρχείου εξόδου |
-| size | Size | Το μέγεθος της τελικής απόδοσης εικόνας |
-| format | ImageFormat | Η μορφή εικόνας του αρχείου εξόδου |
-| options | ImageRenderOptions | Η επιλογή προσαρμογής ορισμένων εσωτερικών ρυθμίσεων. |
+| μέγεθος | Vector2 | Το μέγεθος της τελικής αποδιδόμενης εικόνας |
+| μορφή | String | Η μορφή εικόνας του αρχείου εξόδου |
+| επιλογές | ImageRenderOptions | Η επιλογή για προσαρμογή ορισμένων εσωτερικών ρυθμίσεων. |
 
 ### Δείτε επίσης
 
 * class [Camera](../../../aspose.threed.entities/camera/)
+* struct [Vector2](../../../aspose.threed.utilities/vector2/)
 * class [ImageRenderOptions](../../imagerenderoptions/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, Bitmap) {#render}
+## Render(Camera, TextureData) {#render}
 
-Αποδώστε τη σκηνή σε bitmap από την οπτική γωνία της συγκεκριμένης κάμερας.
+Αποδίδει τη σκηνή σε bitmap από την προοπτική της δοσμένης κάμερας.
 
 ```csharp
-public void Render(Camera camera, Bitmap bitmap)
+public void Render(Camera camera, TextureData bitmap)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| camera | Camera | Από ποια οπτική γωνία κάμερας να αποδοθεί η σκηνή |
-| bitmap | Bitmap | Στόχος του αποδοθέντος αποτελέσματος |
+| κάμερα | Κάμερα | Από την προοπτική ποιας κάμερας θα αποδοθεί η σκηνή |
+| bitmap | TextureData | Στόχος του αποδιδόμενου αποτελέσματος |
 
 ### Δείτε επίσης
 
 * class [Camera](../../../aspose.threed.entities/camera/)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, Bitmap, ImageRenderOptions) {#render_1}
+## Render(Camera, TextureData, ImageRenderOptions) {#render_1}
 
-Αποδώστε τη σκηνή σε bitmap από την οπτική γωνία της συγκεκριμένης κάμερας.
+Αποδίδει τη σκηνή σε bitmap από την προοπτική της δοσμένης κάμερας.
 
 ```csharp
-public void Render(Camera camera, Bitmap bitmap, ImageRenderOptions options)
+public void Render(Camera camera, TextureData bitmap, ImageRenderOptions options)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| camera | Camera | Από ποια οπτική γωνία κάμερας να αποδοθεί η σκηνή |
-| bitmap | Bitmap | Στόχος του αποδοθέντος αποτελέσματος |
-| options | ImageRenderOptions | Η επιλογή προσαρμογής ορισμένων εσωτερικών ρυθμίσεων. |
+| κάμερα | Κάμερα | Από την προοπτική ποιας κάμερας θα αποδοθεί η σκηνή |
+| bitmap | TextureData | Στόχος του αποδιδόμενου αποτελέσματος |
+| επιλογές | ImageRenderOptions | Η επιλογή για προσαρμογή ορισμένων εσωτερικών ρυθμίσεων. |
 
 ### Δείτε επίσης
 
 * class [Camera](../../../aspose.threed.entities/camera/)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * class [ImageRenderOptions](../../imagerenderoptions/)
 * class [Scene](../)
-* χώρος ονομάτων [Aspose.ThreeD](../../scene/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

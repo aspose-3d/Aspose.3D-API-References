@@ -1,14 +1,14 @@
 ---
-title: Mesh
-second_title: Aspose.3D για Αναφορά API .NET
-description: Αρχικοποιεί μια νέα παρουσία τουMeshaspose.threed.entities/mesh/ τάξη.
+title: "Mesh.Mesh"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Κατασκευαστής Mesh. Αρχικοποιεί ένα νέο αντικείμενο της κλάσης Mesh."
 type: docs
 weight: 10
 url: /el/net/aspose.threed.entities/mesh/mesh/
 ---
 ## Mesh() {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`Mesh`](../) τάξη.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`Mesh`](../).
 
 ```csharp
 public Mesh()
@@ -17,79 +17,82 @@ public Mesh()
 ### Δείτε επίσης
 
 * class [Mesh](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../mesh/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap) {#constructor_1}
+## Mesh(TextureData) {#constructor_1}
 
-Κατασκευάστε ένα πλέγμα χρησιμοποιώντας καθορισμένο χάρτη ύψους, εάν η μορφή pixel του χάρτη ύψους περιέχει πολλά στοιχεία, το πρώτο (συνήθως το κόκκινο) στοιχείο θα χρησιμοποιηθεί ως τιμή ύψους(z) Τα στοιχεία x και y του σημείου ελέγχου είναι κανονικοποιημένες συντεταγμένες pixel .
+Δημιουργήστε ένα πλέγμα χρησιμοποιώντας τον καθορισμένο χάρτη υψών· εάν η μορφή εικονοστοιχείων του χάρτη υψών περιέχει πολλαπλά συστατικά, το πρώτο (συνήθως το κόκκινο) συστατικό θα χρησιμοποιηθεί ως τιμή ύψους (z). Τα συστατικά x και y του σημείου ελέγχου είναι κανονικοποιημένες συντεταγμένες εικονοστοιχείου.
 
 ```csharp
-public Mesh(Bitmap heightMap)
+public Mesh(TextureData heightMap)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| heightMap | Bitmap | Χάρτης ύψους εισόδου |
+| heightMap | TextureData | Χάρτης υψών εισόδου |
 
 ### Δείτε επίσης
 
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * class [Mesh](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../mesh/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, Matrix4) {#constructor_2}
+## Mesh(TextureData, Matrix4) {#constructor_2}
 
-Κατασκευάστε ένα πλέγμα χρησιμοποιώντας καθορισμένο χάρτη ύψους, εάν η μορφή pixel του χάρτη ύψους περιέχει πολλά στοιχεία, το πρώτο (συνήθως το κόκκινο) στοιχείο θα χρησιμοποιηθεί ως τιμή ύψους(z) Τα στοιχεία x και y του σημείου ελέγχου είναι κανονικοποιημένες συντεταγμένες pixel .
+Δημιουργήστε ένα πλέγμα χρησιμοποιώντας τον καθορισμένο χάρτη υψών· εάν η μορφή εικονοστοιχείων του χάρτη υψών περιέχει πολλαπλά συστατικά, το πρώτο (συνήθως το κόκκινο) συστατικό θα χρησιμοποιηθεί ως τιμή ύψους (z). Τα συστατικά x και y του σημείου ελέγχου είναι κανονικοποιημένες συντεταγμένες εικονοστοιχείου.
 
 ```csharp
-public Mesh(Bitmap heightMap, Matrix4 transform)
+public Mesh(TextureData heightMap, Matrix4 transform)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| heightMap | Bitmap | Χάρτης ύψους εισόδου |
-| transform | Matrix4 | Ο μετασχηματισμός που εφαρμόστηκε στα σημεία ελέγχου |
+| heightMap | TextureData | Χάρτης υψών εισόδου |
+| transform | Matrix4 | Ο μετασχηματισμός που εφαρμόζεται στα σημεία ελέγχου. |
 
 ### Δείτε επίσης
 
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
 * class [Mesh](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../mesh/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, bool, Matrix4) {#constructor_3}
+## Mesh(TextureData, bool, Matrix4) {#constructor_3}
 
-Κατασκευάστε ένα πλέγμα χρησιμοποιώντας καθορισμένο χάρτη ύψους, εάν η μορφή pixel του χάρτη ύψους περιέχει πολλά στοιχεία, το πρώτο (συνήθως το κόκκινο) στοιχείο θα χρησιμοποιηθεί ως τιμή ύψους(z) Τα στοιχεία x και y του σημείου ελέγχου είναι κανονικοποιημένες συντεταγμένες pixel .
+Δημιουργήστε ένα πλέγμα χρησιμοποιώντας τον καθορισμένο χάρτη υψών· εάν η μορφή εικονοστοιχείων του χάρτη υψών περιέχει πολλαπλά συστατικά, το πρώτο (συνήθως το κόκκινο) συστατικό θα χρησιμοποιηθεί ως τιμή ύψους (z). Τα συστατικά x και y του σημείου ελέγχου είναι κανονικοποιημένες συντεταγμένες εικονοστοιχείου.
 
 ```csharp
-public Mesh(Bitmap heightMap, bool triMesh, Matrix4 transform)
+public Mesh(TextureData heightMap, bool triMesh, Matrix4 transform)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| heightMap | Bitmap | Χάρτης ύψους εισόδου |
+| heightMap | TextureData | Χάρτης υψών εισόδου |
 | triMesh | Boolean |  |
-| transform | Matrix4 | Ο μετασχηματισμός που εφαρμόστηκε στα σημεία ελέγχου |
+| transform | Matrix4 | Ο μετασχηματισμός που εφαρμόζεται στα σημεία ελέγχου. |
 
 ### Δείτε επίσης
 
+* class [TextureData](../../../aspose.threed.render/texturedata/)
 * struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
 * class [Mesh](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../mesh/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Mesh(string) {#constructor_4}
 
-Αρχικοποιεί μια νέα παρουσία του[`Mesh`](../) τάξη.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`Mesh`](../).
 
 ```csharp
 public Mesh(string name)
@@ -97,12 +100,12 @@ public Mesh(string name)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Ονομα. |
+| όνομα | String | Όνομα. |
 
 ### Δείτε επίσης
 
 * class [Mesh](../)
-* χώρος ονομάτων [Aspose.ThreeD.Entities](../../mesh/)
-* συνέλευση [Aspose.3D](../../../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

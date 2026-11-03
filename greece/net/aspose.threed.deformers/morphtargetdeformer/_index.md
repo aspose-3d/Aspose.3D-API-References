@@ -1,14 +1,14 @@
 ---
-title: MorphTargetDeformer
-second_title: Aspose.3D για Αναφορά API .NET
-description: Το MorphTargetDeformer παρέχει animation ανά κορυφή. MorphTargetDeformer οργανώνει όλους τους στόχους μέσωMorphTargetChannel./morphtargetchannel/  κάθε κανάλι μπορεί να οργανώσει πολλούς στόχους. Μια κοινή χρήση του παραμορφωτή στόχου μορφοποίησης είναι η εφαρμογή έκφρασης προσώπου σε έναν χαρακτήρα. Περισσότερες λεπτομέρειες μπορείτε να βρείτε στη διεύθυνση https//en.wikipedia.org/wiki/Morph_target_animation
+title: "Κλάση MorphTargetDeformer"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Aspose.ThreeD.Deformers.MorphTargetDeformer class. Το MorphTargetDeformer παρέχει animation pervertex. Το MorphTargetDeformer οργανώνει όλα τα στόχους μέσω MorphTargetChannel, κάθε κανάλι μπορεί να οργανώσει πολλαπλούς στόχους. Μία κοινή χρήση του morph target deformer είναι η εφαρμογή εκφράσεων προσώπου σε έναν χαρακτήρα. Περισσότερες λεπτομέρειες μπορούν να βρεθούν στο https//en.wikipedia.org/wiki/Morph_target_animation"
 type: docs
-weight: 210
+weight: 230
 url: /el/net/aspose.threed.deformers/morphtargetdeformer/
 ---
 ## MorphTargetDeformer class
 
-Το MorphTargetDeformer παρέχει animation ανά κορυφή. MorphTargetDeformer οργανώνει όλους τους στόχους μέσω[`MorphTargetChannel`](../morphtargetchannel/) , κάθε κανάλι μπορεί να οργανώσει πολλούς στόχους. Μια κοινή χρήση του παραμορφωτή στόχου μορφοποίησης είναι η εφαρμογή έκφρασης προσώπου σε έναν χαρακτήρα. Περισσότερες λεπτομέρειες μπορείτε να βρείτε στη διεύθυνση https://en.wikipedia.org/wiki/Morph_target_animation
+Το MorphTargetDeformer παρέχει animation per-vertex. Το MorphTargetDeformer οργανώνει όλα τα στόχους μέσω [`MorphTargetChannel`](../morphtargetchannel/), κάθε κανάλι μπορεί να οργανώσει πολλαπλούς στόχους. Μία κοινή χρήση του morph target deformer είναι η εφαρμογή εκφράσεων προσώπου σε έναν χαρακτήρα. Περισσότερες λεπτομέρειες μπορούν να βρεθούν στο https://en.wikipedia.org/wiki/Morph_target_animation
 
 ```csharp
 public class MorphTargetDeformer : Deformer
@@ -16,35 +16,35 @@ public class MorphTargetDeformer : Deformer
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [MorphTargetDeformer](morphtargetdeformer/#constructor)() | Αρχικοποιεί μια νέα παρουσία του`MorphTargetDeformer` τάξη. |
-| [MorphTargetDeformer](morphtargetdeformer/#constructor_1)(string) | Αρχικοποιεί μια νέα παρουσία του`MorphTargetDeformer` τάξη. |
+| [MorphTargetDeformer](morphtargetdeformer/#constructor)() | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `MorphTargetDeformer`. |
+| [MorphTargetDeformer](morphtargetdeformer/#constructor_1)(string) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `MorphTargetDeformer`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Channels](../../aspose.threed.deformers/morphtargetdeformer/channels/) { get; } | Λαμβάνει όλα τα κανάλια που περιέχονται σε αυτό το deformer |
+| [Channels](../../aspose.threed.deformers/morphtargetdeformer/channels/) { get; } | Λαμβάνει όλα τα κανάλια που περιέχονται σε αυτόν τον deformer |
 | [Item](../../aspose.threed.deformers/morphtargetdeformer/item/) { get; set; } |  |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Παίρνει ή ορίζει το όνομα. |
-| [Owner](../../aspose.threed.deformers/deformer/owner/) { get; } | Λαμβάνει τη γεωμετρία στην οποία ανήκει αυτό το deformer |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Λαμβάνει ή ορίζει το όνομα. |
+| [Owner](../../aspose.threed.deformers/deformer/owner/) { get; } | Λαμβάνει τη γεωμετρία που κατέχει αυτόν τον μετασχηματιστή |
 | [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Λαμβάνει τη συλλογή όλων των ιδιοτήτων. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι μια δυναμική ιδιότητα (Δημιουργήθηκε από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται από το όνομά της) |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι δυναμική ιδιότητα (Δημιουργείται από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται με το όνομά της) |
 | [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Λάβετε την τιμή της καθορισμένης ιδιότητας |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Καταργεί μια δυναμική ιδιότητα. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Καταργήστε την καθορισμένη ιδιότητα που προσδιορίζεται με όνομα |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Αφαιρεί μια δυναμική ιδιότητα. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Αφαιρέστε την καθορισμένη ιδιότητα που προσδιορίζεται με το όνομα |
 | [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Ορίζει την τιμή της καθορισμένης ιδιότητας |
 
 ### Δείτε επίσης
 
 * class [Deformer](../deformer/)
-* χώρος ονομάτων [Aspose.ThreeD.Deformers](../../aspose.threed.deformers/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Deformers](../../aspose.threed.deformers/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

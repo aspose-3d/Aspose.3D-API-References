@@ -1,9 +1,9 @@
 ---
-title: DracoFormat
-second_title: Aspose.3D για Αναφορά API .NET
-description: Μορφή Google Draco
+title: "Κλάση DracoFormat"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Aspose.ThreeD.Formats.DracoFormat κλάση. Μορφή Google Draco"
 type: docs
-weight: 1090
+weight: 1150
 url: /el/net/aspose.threed.formats/dracoformat/
 ---
 ## DracoFormat class
@@ -16,33 +16,45 @@ public class DracoFormat : FileFormat
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CanExport](../../aspose.threed/fileformat/canexport/) { get; } | Λαμβάνει εάν το Aspose.3D υποστηρίζει εξαγωγή σκηνής στην τρέχουσα μορφή αρχείου. |
-| [CanImport](../../aspose.threed/fileformat/canimport/) { get; } | Βρίσκει εάν το Aspose.3D υποστηρίζει σκηνή εισαγωγής από την τρέχουσα μορφή αρχείου. |
-| [ContentType](../../aspose.threed/fileformat/contenttype/) { get; } | Λαμβάνει μορφή αρχείου τύπου περιεχομένου |
+| [CanExport](../../aspose.threed/fileformat/canexport/) { get; } | Λαμβάνει αν το Aspose.3D υποστηρίζει την εξαγωγή σκηνής στην τρέχουσα μορφή αρχείου. |
+| [CanImport](../../aspose.threed/fileformat/canimport/) { get; } | Λαμβάνει αν το Aspose.3D υποστηρίζει την εισαγωγή σκηνής από την τρέχουσα μορφή αρχείου. |
+| [ContentType](../../aspose.threed/fileformat/contenttype/) { get; } | Λαμβάνει τον τύπο περιεχομένου της μορφής αρχείου |
 | [Extension](../../aspose.threed/fileformat/extension/) { get; } | Λαμβάνει το όνομα επέκτασης αυτού του τύπου. |
-| [Extensions](../../aspose.threed/fileformat/extensions/) { get; } | Λαμβάνει τα ονόματα των επεκτάσεων αυτού του τύπου. |
-| [FileFormatType](../../aspose.threed/fileformat/fileformattype/) { get; } | Λαμβάνει μορφή αρχείου type |
-| [Version](../../aspose.threed/fileformat/version/) { get; } | Λαμβάνει μορφή αρχείου version |
+| [Extensions](../../aspose.threed/fileformat/extensions/) { get; } | Λαμβάνει τα ονόματα επεκτάσεων αυτού του τύπου. |
+| [FileFormatType](../../aspose.threed/fileformat/fileformattype/) { get; } | Λαμβάνει τον τύπο μορφής αρχείου |
+| [Version](../../aspose.threed/fileformat/version/) { get; } | Λαμβάνει την έκδοση της μορφής αρχείου |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CreateLoadOptions](../../aspose.threed/fileformat/createloadoptions/)() | Δημιουργήστε προεπιλεγμένες επιλογές φόρτωσης για αυτήν τη μορφή αρχείου |
-| [CreateSaveOptions](../../aspose.threed/fileformat/createsaveoptions/)() | Δημιουργήστε προεπιλεγμένες επιλογές αποθήκευσης για αυτήν τη μορφή αρχείου |
-| [Decode](../../aspose.threed.formats/dracoformat/decode/#decode)(byte[]) | Αποκωδικοποιήστε το νέφος σημείων ή το πλέγμα από δεδομένα μνήμης |
-| [Decode](../../aspose.threed.formats/dracoformat/decode/#decode_1)(string) | Αποκωδικοποιήστε το νέφος σημείων ή το πλέγμα από το καθορισμένο όνομα αρχείου |
-| [Encode](../../aspose.threed.formats/dracoformat/encode/#encode)(Entity, DracoSaveOptions) | Κωδικοποιήστε την οντότητα σε Draco raw data |
-| [Encode](../../aspose.threed.formats/dracoformat/encode/#encode_1)(Entity, Stream, DracoSaveOptions) | Κωδικοποιήστε την οντότητα στην καθορισμένη ροή |
-| [Encode](../../aspose.threed.formats/dracoformat/encode/#encode_2)(Entity, string, DracoSaveOptions) | Κωδικοποιήστε την οντότητα στο καθορισμένο file |
-| override [ToString](../../aspose.threed/fileformat/tostring/)() | Μορφοποιεί σε string |
+| [CreateLoadOptions](../../aspose.threed/fileformat/createloadoptions/)() | Δημιουργήστε προεπιλεγμένες επιλογές φόρτωσης για αυτή τη μορφή αρχείου |
+| [CreateSaveOptions](../../aspose.threed/fileformat/createsaveoptions/)() | Δημιουργήστε προεπιλεγμένες επιλογές αποθήκευσης για αυτή τη μορφή αρχείου |
+| [Decode](../../aspose.threed.formats/dracoformat/decode/#decode)(byte[]) | Αποκωδικοποίηση του νέφους σημείων ή του πλέγματος από δεδομένα μνήμης |
+| [Decode](../../aspose.threed.formats/dracoformat/decode/#decode_1)(string) | Αποκωδικοποίηση του νέφους σημείων ή του πλέγματος από το καθορισμένο όνομα αρχείου |
+| [Encode](../../aspose.threed.formats/dracoformat/encode/#encode)(Entity, DracoSaveOptions) | Κωδικοποίηση της οντότητας σε ακατέργαστα δεδομένα Draco |
+| [Encode](../../aspose.threed.formats/dracoformat/encode/#encode_1)(Entity, Stream, DracoSaveOptions) | Κωδικοποίηση της οντότητας σε καθορισμένη ροή |
+| [Encode](../../aspose.threed.formats/dracoformat/encode/#encode_2)(Entity, string, DracoSaveOptions) | Κωδικοποίηση της οντότητας σε καθορισμένο αρχείο |
+| override [ToString](../../aspose.threed/fileformat/tostring/)() | Μετατρέπει σε συμβολοσειρά |
+
+## Παραδείγματα
+
+Ο παρακάτω κώδικας δείχνει πώς να κωδικοποιήσετε και να αποκωδικοποιήσετε ένα Mesh σε/από πίνακα byte:
+
+```csharp
+Mesh mesh = (new Sphere()).ToMesh();
+//κωδικοποίηση πλέγματος σε μορφή Draco
+byte[] draco = FileFormat.Draco.Encode(mesh);
+//αποκωδικοποίηση πλέγματος από μορφή Draco
+Mesh decodedMesh = (Mesh)FileFormat.Draco.Decode(draco);
+```
 
 ### Δείτε επίσης
 
 * class [FileFormat](../../aspose.threed/fileformat/)
-* χώρος ονομάτων [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

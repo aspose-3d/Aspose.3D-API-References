@@ -1,14 +1,14 @@
 ---
-title: BoundingBox
-second_title: Aspose.3D για Αναφορά API .NET
-description: Το πλαίσιο οριοθέτησης ευθυγραμμισμένο με άξονα
+title: "Δομή BoundingBox"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Δομή Aspose.ThreeD.Utilities.BoundingBox. Το πλαίσιο περιβλήματος ευθυγραμμισμένο στον άξονα."
 type: docs
-weight: 2420
+weight: 2670
 url: /el/net/aspose.threed.utilities/boundingbox/
 ---
 ## BoundingBox structure
 
-Το πλαίσιο οριοθέτησης ευθυγραμμισμένο με άξονα
+Το πλαίσιο οριοθέτησης ευθυγραμμισμένο με άξονες
 
 ```csharp
 public struct BoundingBox
@@ -16,41 +16,54 @@ public struct BoundingBox
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [BoundingBox](boundingbox/#constructor)(Vector3, Vector3) | Αρχικοποιήστε ένα πεπερασμένο πλαίσιο οριοθέτησης με δεδομένη ελάχιστη και μέγιστη γωνία |
-| [BoundingBox](boundingbox/#constructor_1)(double, double, double, double, double, double) | Αρχικοποιήστε ένα πεπερασμένο πλαίσιο οριοθέτησης με δεδομένη ελάχιστη και μέγιστη γωνία |
+| [BoundingBox](boundingbox/#constructor)(Vector3, Vector3) | Αρχικοποιήστε ένα πεπερασμένο πλαίσιο περιορισμού με δεδομένες ελάχιστες και μέγιστες γωνίες |
+| [BoundingBox](boundingbox/#constructor_1)(double, double, double, double, double, double) | Αρχικοποιήστε ένα πεπερασμένο πλαίσιο περιορισμού με δεδομένες ελάχιστες και μέγιστες γωνίες |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Center](../../aspose.threed.utilities/boundingbox/center/) { get; } | Το κέντρο του πλαισίου οριοθέτησης. |
-| [Extent](../../aspose.threed.utilities/boundingbox/extent/) { get; } | Λαμβάνει την έκταση του πλαισίου οριοθέτησης. |
-| [Maximum](../../aspose.threed.utilities/boundingbox/maximum/) { get; } | Η μέγιστη γωνία του πλαισίου οριοθέτησης |
-| [Minimum](../../aspose.threed.utilities/boundingbox/minimum/) { get; } | Η ελάχιστη γωνία του πλαισίου οριοθέτησης |
-| [Size](../../aspose.threed.utilities/boundingbox/size/) { get; } | Το μέγεθος του πλαισίου οριοθέτησης |
+| static [Infinite](../../aspose.threed.utilities/boundingbox/infinite/) { get; } | Το άπειρο πλαίσιο περιορισμού |
+| static [Null](../../aspose.threed.utilities/boundingbox/null/) { get; } | Το μηδενικό πλαίσιο περιορισμού |
+| [Center](../../aspose.threed.utilities/boundingbox/center/) { get; } | Το κέντρο του πλαισίου περιβλήματος. |
+| [Extent](../../aspose.threed.utilities/boundingbox/extent/) { get; } | Λαμβάνει το εύρος του πλαισίου περιορισμού. |
+| [Maximum](../../aspose.threed.utilities/boundingbox/maximum/) { get; } | Η μέγιστη γωνία του πλαισίου περιορισμού |
+| [Minimum](../../aspose.threed.utilities/boundingbox/minimum/) { get; } | Η ελάχιστη γωνία του πλαισίου περιορισμού |
+| [Size](../../aspose.threed.utilities/boundingbox/size/) { get; } | Το μέγεθος του πλαισίου περιβλήματος |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [FromGeometry](../../aspose.threed.utilities/boundingbox/fromgeometry/)(Geometry) | Κατασκευάστε ένα πλαίσιο οριοθέτησης από τη δεδομένη γεωμετρία |
+| static [FromGeometry](../../aspose.threed.utilities/boundingbox/fromgeometry/)(Geometry) | Δημιουργήστε ένα πλαίσιο περιβλήματος από τη δεδομένη γεωμετρία |
+| [Contains](../../aspose.threed.utilities/boundingbox/contains/#contains)(BoundingBox) | Το πλαίσιο περιβλήματος για να ελέγξει αν βρίσκεται μέσα στο τρέχον πλαίσιο περιβλήματος. |
+| [Contains](../../aspose.threed.utilities/boundingbox/contains/#contains_1)(Vector3) | Ελέγξτε αν το σημείο p βρίσκεται μέσα στο πλαίσιο περιβλήματος |
 | override [Equals](../../aspose.threed.utilities/boundingbox/equals/)(object) | Καθορίζει αν δύο αντικείμενα είναι ίσα |
-| override [GetHashCode](../../aspose.threed.utilities/boundingbox/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτό το instance |
-| override [ToString](../../aspose.threed.utilities/boundingbox/tostring/)() | Λαμβάνει την παράσταση συμβολοσειράς του πλαισίου οριοθέτησης. |
-| [operator *](../../aspose.threed.utilities/boundingbox/op_multiply/) | Υπερφόρτωση χειριστή για multiply |
+| override [GetHashCode](../../aspose.threed.utilities/boundingbox/gethashcode/)() | Επιστρέφει τον κωδικό κατακερματισμού για αυτήν την παρουσία. |
+| [Merge](../../aspose.threed.utilities/boundingbox/merge/#merge)(BoundingBox) | Συγχωνεύει το νέο πλαίσιο στο τρέχον πλαίσιο περιορισμού. |
+| [Merge](../../aspose.threed.utilities/boundingbox/merge/#merge_1)(Vector3) | Συγχωνεύστε το τρέχον πλαίσιο περιβλήματος με το δεδομένο σημείο |
+| [Merge](../../aspose.threed.utilities/boundingbox/merge/#merge_2)(Vector4) | Συγχωνεύστε το τρέχον πλαίσιο περιβλήματος με το δεδομένο σημείο |
+| [Merge](../../aspose.threed.utilities/boundingbox/merge/#merge_3)(double, double, double) | Συγχωνεύστε το τρέχον πλαίσιο περιβλήματος με το δεδομένο σημείο |
+| [OverlapsWith](../../aspose.threed.utilities/boundingbox/overlapswith/)(BoundingBox) | Ελέγξτε αν το τρέχον πλαίσιο περιγράμματος επικαλύπτεται με το καθορισμένο πλαίσιο περιγράμματος. |
+| [Scale](../../aspose.threed.utilities/boundingbox/scale/)() | Υπολογίζει την απόλυτη μεγαλύτερη τιμή συντεταγμένης οποιουδήποτε περιεχόμενου σημείου. |
+| override [ToString](../../aspose.threed.utilities/boundingbox/tostring/)() | Λαμβάνει την αναπαράσταση συμβολοσειράς του πλαισίου περιορισμού. |
+| [operator *](../../aspose.threed.utilities/boundingbox/op_multiply/) | Υπερφόρτωση τελεστή για πολλαπλασιασμό, η ελάχιστη και η μέγιστη γωνία του νέου πλαισίου περιγράμματος θα μετατραπούν από τον πίνακα. |
 
-## Πεδία
+## Παραδείγματα
 
-| Ονομα | Περιγραφή |
-| --- | --- |
-| static readonly [Infinite](../../aspose.threed.utilities/boundingbox/infinite/) | Το άπειρο πλαίσιο οριοθέτησης |
-| static readonly [Null](../../aspose.threed.utilities/boundingbox/null/) | Το μηδενικό πλαίσιο οριοθέτησης |
+Ο παρακάτω κώδικας δείχνει πώς να λάβετε ένα πλαίσιο περιγράμματος από μια παρουσία Entity.
+
+```csharp
+var sphere = new Sphere();
+var boundingBox = sphere.GetBoundingBox();
+Console.WriteLine("Bounding box = " + boundingBox);
+```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

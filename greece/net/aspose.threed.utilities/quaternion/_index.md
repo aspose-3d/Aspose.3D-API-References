@@ -1,14 +1,14 @@
 ---
-title: Quaternion
-second_title: Aspose.3D για Αναφορά API .NET
-description: Το Quaternion χρησιμοποιείται συνήθως για την εκτέλεση περιστροφής στα γραφικά υπολογιστή.
+title: "Δομή Quaternion"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Δομή Aspose.ThreeD.Utilities.Quaternion. Το Quaternion χρησιμοποιείται συνήθως για την εκτέλεση περιστροφής στην υπολογιστική γραφική"
 type: docs
-weight: 2590
+weight: 2810
 url: /el/net/aspose.threed.utilities/quaternion/
 ---
 ## Quaternion structure
 
-Το Quaternion χρησιμοποιείται συνήθως για την εκτέλεση περιστροφής στα γραφικά υπολογιστή.
+Το Quaternion συνήθως χρησιμοποιείται για την εκτέλεση περιστροφής στην υπολογιστική γραφική.
 
 ```csharp
 public struct Quaternion
@@ -16,55 +16,57 @@ public struct Quaternion
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Quaternion](quaternion/)(double, double, double, double) | Αρχικοποιεί μια νέα παρουσία του`Quaternion` τάξη. |
+| [Quaternion](quaternion/)(double, double, double, double) | Αρχικοποιεί μια νέα παρουσία της κλάσης `Quaternion`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Length](../../aspose.threed.utilities/quaternion/length/) { get; } | Παίρνει το μήκος του τεταρτοταγούς |
+| [Length](../../aspose.threed.utilities/quaternion/length/) { get; } | Λαμβάνει το μήκος του quaternion |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [FromAngleAxis](../../aspose.threed.utilities/quaternion/fromangleaxis/)(double, Vector3) | Δημιουργεί ένα τεταρτοταγές γύρω από δεδομένο άξονα και περιστρέφεται δεξιόστροφα |
-| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle)(Vector3) | Δημιουργεί τεταρτοταγές από δεδομένη γωνία Euler |
-| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle_1)(double, double, double) | Δημιουργεί τεταρτοταγές από δεδομένη γωνία Euler |
-| static [FromRotation](../../aspose.threed.utilities/quaternion/fromrotation/)(Vector3, Vector3) | Δημιουργεί ένα τεταρτοταγές που περιστρέφεται από την αρχική προς την κατεύθυνση προορισμού |
-| static [Interpolate](../../aspose.threed.utilities/quaternion/interpolate/)(float, Quaternion, Quaternion) | Συμπληρώνει αυτό το τεταρτοταγές με την παρεμβαλλόμενη τιμή μεταξύ των δεδομένων ορισμάτων τεταρτοταγούς για μεταξύ από και έως. |
-| [Concat](../../aspose.threed.utilities/quaternion/concat/)(Quaternion) | Συνδέστε δύο τεταρτημόρια |
-| [Conjugate](../../aspose.threed.utilities/quaternion/conjugate/)() | Επιστρέφει ένα συζυγές τεταρτοταγές του τρέχοντος τεταρτοταγούς |
-| [Dot](../../aspose.threed.utilities/quaternion/dot/)(Quaternion) | Dots product |
-| override [Equals](../../aspose.threed.utilities/quaternion/equals/)(object) | Ελέγξτε αν δύο τεταρτημόρια ισούνται με |
-| [EulerAngles](../../aspose.threed.utilities/quaternion/eulerangles/)() | Μετατρέπει το τεταρτοταγές σε περιστροφή που αντιπροσωπεύεται από γωνίες Euler Όλα τα στοιχεία είναι σε radian |
+| static [FromAngleAxis](../../aspose.threed.utilities/quaternion/fromangleaxis/)(double, Vector3) | Δημιουργεί ένα quaternion γύρω από τον δοσμένο άξονα και περιστρέφει δεξιόστροφα |
+| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle)(Vector3) | Δημιουργεί quaternion από τη δοσμένη γωνία Euler |
+| static [FromEulerAngle](../../aspose.threed.utilities/quaternion/fromeulerangle/#fromeulerangle_1)(double, double, double) | Δημιουργεί quaternion από τη δοσμένη γωνία Euler |
+| static [FromRotation](../../aspose.threed.utilities/quaternion/fromrotation/)(Vector3, Vector3) | Δημιουργεί ένα quaternion που περιστρέφει από την αρχική προς την κατεύθυνση προορισμού |
+| static [Interpolate](../../aspose.threed.utilities/quaternion/interpolate/)(float, Quaternion, Quaternion) | Γεμίζει αυτό το quaternion με την παρεμβαλλόμενη τιμή μεταξύ των δοσμένων ορισμάτων quaternion για μια τιμή t μεταξύ του από και του προς. |
+| static [Slerp](../../aspose.threed.utilities/quaternion/slerp/)(double, Quaternion, Quaternion) | Εκτελεί σφαιρική γραμμική παρεμβολή μεταξύ δύο τιμών |
+| [Concat](../../aspose.threed.utilities/quaternion/concat/)(Quaternion) | Συνενώνει δύο quaternions |
+| [Conjugate](../../aspose.threed.utilities/quaternion/conjugate/)() | Επιστρέφει ένα συζυγές quaternion του τρέχοντος quaternion |
+| [Dot](../../aspose.threed.utilities/quaternion/dot/)(Quaternion) | Προϊόν σημείων |
+| override [Equals](../../aspose.threed.utilities/quaternion/equals/)(object) | Ελέγχει αν δύο quaternions είναι ίσα |
+| [EulerAngles](../../aspose.threed.utilities/quaternion/eulerangles/)() | Μετατρέπει το quaternion σε περιστροφή που αναπαρίσταται από γωνίες Euler. Όλα τα συστατικά είναι σε ακτίνια |
 | override [GetHashCode](../../aspose.threed.utilities/quaternion/gethashcode/)() | Λαμβάνει τον κωδικό κατακερματισμού του Quaternion |
-| [Inverse](../../aspose.threed.utilities/quaternion/inverse/)() | Επιστρέφει ένα αντίστροφο τεταρτοταγές του τρέχοντος τεταρτοταγούς |
-| [Normalize](../../aspose.threed.utilities/quaternion/normalize/)() | Κανονικοποίηση του τεταρτοταγούς |
+| [Inverse](../../aspose.threed.utilities/quaternion/inverse/)() | Επιστρέφει ένα αντίστροφο quaternion του τρέχοντος quaternion |
+| [Normalize](../../aspose.threed.utilities/quaternion/normalize/)() | Κανονικοποιεί το quaternion |
 | [ToAngleAxis](../../aspose.threed.utilities/quaternion/toangleaxis/)(out double, out Vector3) |  |
-| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix/)() | Μετατρέψτε την περιστροφή που παρουσιάζεται από τεταρτοταγές σε πίνακα μετασχηματισμού. |
-| override [ToString](../../aspose.threed.utilities/quaternion/tostring/)() | Παίρνει την αναπαράσταση του τεταρτοταγούς στη συμβολοσειρά |
-| [operator +](../../aspose.threed.utilities/quaternion/op_addition/) | Υπερφόρτωση χειριστή για + |
-| [operator /](../../aspose.threed.utilities/quaternion/op_division/) | Υπερφόρτωση χειριστή για / |
-| [operator ==](../../aspose.threed.utilities/quaternion/op_equality/) | Ίσος τελεστής για quaternion |
-| [operator !=](../../aspose.threed.utilities/quaternion/op_inequality/) | Μη ίσος τελεστής για τεταρτημόριο |
-| [operator *](../../aspose.threed.utilities/quaternion/op_multiply/#op_multiply_1) | Υπερφόρτωση χειριστή για * (5 operators) |
+| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix/#tomatrix)() | Μετατρέπει τη περιστροφή που παρουσιάζεται από το quaternion σε πίνακα μετασχηματισμού. |
+| [ToMatrix](../../aspose.threed.utilities/quaternion/tomatrix/#tomatrix_1)(Vector3) | Μετατρέπει τη περιστροφή που παρουσιάζεται από το quaternion σε πίνακα μετασχηματισμού. |
+| override [ToString](../../aspose.threed.utilities/quaternion/tostring/)() | Λαμβάνει την αναπαράσταση του quaternion ως συμβολοσειρά |
+| [operator +](../../aspose.threed.utilities/quaternion/op_addition/) | Υπερφόρτωση τελεστή για + |
+| [operator /](../../aspose.threed.utilities/quaternion/op_division/) | Υπερφόρτωση τελεστή για / |
+| [operator ==](../../aspose.threed.utilities/quaternion/op_equality/) | Τελεστής ισότητας για quaternion |
+| [operator !=](../../aspose.threed.utilities/quaternion/op_inequality/) | Τελεστής ανισότητας για quaternion |
+| [operator *](../../aspose.threed.utilities/quaternion/op_multiply/#op_multiply_1) | Υπερφόρτωση τελεστή για * (5 τελεστές) |
 
 ## Πεδία
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static readonly [Identity](../../aspose.threed.utilities/quaternion/identity/) | The Identity quaternion. |
-| [w](../../aspose.threed.utilities/quaternion/w/) | Το συστατικό w. |
-| [x](../../aspose.threed.utilities/quaternion/x/) | Η συνιστώσα x. |
-| [y](../../aspose.threed.utilities/quaternion/y/) | Η συνιστώσα y. |
-| [z](../../aspose.threed.utilities/quaternion/z/) | Το συστατικό z. |
+| static readonly [Identity](../../aspose.threed.utilities/quaternion/identity/) | Το quaternion ταυτότητας. |
+| [W](../../aspose.threed.utilities/quaternion/w/) | Το συστατικό w. |
+| [X](../../aspose.threed.utilities/quaternion/x/) | Το συστατικό x. |
+| [Y](../../aspose.threed.utilities/quaternion/y/) | Το συστατικό y. |
+| [Z](../../aspose.threed.utilities/quaternion/z/) | Το συστατικό z. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

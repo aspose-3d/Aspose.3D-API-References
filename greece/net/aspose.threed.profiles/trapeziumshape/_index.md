@@ -1,14 +1,14 @@
 ---
-title: TrapeziumShape
-second_title: Aspose.3D για Αναφορά API .NET
-description: Σχήμα τραπεζίου συμβατό με IFC που ορίζεται από παραμέτρους.
+title: "Κλάση TrapeziumShape"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Aspose.ThreeD.Profiles.TrapeziumShape κλάση. Συμβατό με IFC σχήμα Trapezium που ορίζεται από παραμέτρους"
 type: docs
-weight: 1640
+weight: 1830
 url: /el/net/aspose.threed.profiles/trapeziumshape/
 ---
 ## TrapeziumShape class
 
-Σχήμα τραπεζίου συμβατό με IFC που ορίζεται από παραμέτρους.
+Συμβατό με IFC σχήμα τραπεζίου ορισμένο από παραμέτρους.
 
 ```csharp
 public class TrapeziumShape : ParameterizedProfile
@@ -16,42 +16,42 @@ public class TrapeziumShape : ParameterizedProfile
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [TrapeziumShape](trapeziumshape/)() | Κατασκευαστής του`TrapeziumShape` |
+| [TrapeziumShape](trapeziumshape/)() | Κατασκευαστής του `TrapeziumShape` |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [BottomXDim](../../aspose.threed.profiles/trapeziumshape/bottomxdim/) { get; set; } | Λαμβάνει ή ορίζει την έκταση της κατώτατης γραμμής που μετράται κατά μήκος του άξονα x. |
-| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Λαμβάνει ή ορίζει εάν θα εξαιρεθεί αυτή η οντότητα κατά την εξαγωγή. |
-| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Παίρνει ή ορίζει το όνομα. |
-| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Λαμβάνει ή ορίζει τον πρώτο γονικό κόμβο, εάν οριστεί ο πρώτος γονικός κόμβος, αυτή η οντότητα θα αποσπαστεί από άλλους γονικούς κόμβους. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Λαμβάνει όλους τους γονικούς κόμβους, μια οντότητα μπορεί να προσαρτηθεί σε πολλούς γονικούς κόμβους για γεωμετρία instancing |
+| [BottomXDim](../../aspose.threed.profiles/trapeziumshape/bottomxdim/) { get; set; } | Λαμβάνει ή ορίζει το εύρος της κάτω γραμμής μετρημένο κατά τον άξονα x. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Λαμβάνει ή ορίζει αν αυτή η οντότητα θα εξαιρεθεί κατά την εξαγωγή. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Λαμβάνει ή ορίζει το όνομα. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Λαμβάνει ή ορίζει τον πρώτο γονικό κόμβο· εάν οριστεί ο πρώτος γονικός κόμβος, αυτή η οντότητα θα αποσυνδεθεί από άλλους γονικούς κόμβους. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Λαμβάνει όλους τους γονικούς κόμβους, μια οντότητα μπορεί να προσαρτηθεί σε πολλούς γονικούς κόμβους για δημιουργία γεωμετρίας μέσω αντιγραφών |
 | [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Λαμβάνει τη συλλογή όλων των ιδιοτήτων. |
-| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Λαμβάνει τη σκηνή ότι αυτό το αντικείμενο ανήκει στο |
-| [TopXDim](../../aspose.threed.profiles/trapeziumshape/topxdim/) { get; set; } | Λαμβάνει ή ορίζει την έκταση της άνω γραμμής που μετράται κατά μήκος του άξονα x. |
-| [TopXOffset](../../aspose.threed.profiles/trapeziumshape/topxoffset/) { get; set; } | Λαμβάνει ή ορίζει τη μετατόπιση από την αρχή της επάνω γραμμής στην κάτω γραμμή. |
-| [YDim](../../aspose.threed.profiles/trapeziumshape/ydim/) { get; set; } | Λαμβάνει ή ορίζει την απόσταση μεταξύ της επάνω και της κάτω γραμμής που μετράται κατά μήκος του άξονα y. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Λαμβάνει τη σκηνή στην οποία ανήκει αυτό το αντικείμενο |
+| [TopXDim](../../aspose.threed.profiles/trapeziumshape/topxdim/) { get; set; } | Λαμβάνει ή ορίζει το εύρος της πάνω γραμμής μετρημένο κατά τον άξονα x. |
+| [TopXOffset](../../aspose.threed.profiles/trapeziumshape/topxoffset/) { get; set; } | Λαμβάνει ή ορίζει τη μετατόπιση από την αρχή της πάνω γραμμής στην κάτω γραμμή. |
+| [YDim](../../aspose.threed.profiles/trapeziumshape/ydim/) { get; set; } | Λαμβάνει ή ορίζει την απόσταση μεταξύ της πάνω και της κάτω γραμμής μετρημένη κατά τον άξονα y. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι μια δυναμική ιδιότητα (Δημιουργήθηκε από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται από το όνομά της) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Λαμβάνει το πλαίσιο οριοθέτησης της τρέχουσας οντότητας στο σύστημα συντεταγμένων του χώρου αντικειμένου. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | Παίρνει το κλειδί του προγράμματος απόδοσης οντοτήτων που είναι καταχωρημένο στο πρόγραμμα απόδοσης |
-| override [GetExtent](../../aspose.threed.profiles/trapeziumshape/getextent/)() | Λαμβάνει την έκταση σε διάσταση x και y. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Βρίσκει την ιδιότητα. Μπορεί να είναι δυναμική ιδιότητα (Δημιουργείται από CreateDynamicProperty/SetProperty) ή εγγενής ιδιότητα (Αναγνωρίζεται με το όνομά της) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Λαμβάνει το πλαίσιο περιβάλλοντος της τρέχουσας οντότητας στο σύστημα συντεταγμένων του χώρου αντικειμένου της. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | Λαμβάνει το κλειδί του αποτυπωτή οντότητας που είναι καταχωρημένο στον renderer |
+| override [GetExtent](../../aspose.threed.profiles/trapeziumshape/getextent/)() | Λαμβάνει την έκταση στις διαστάσεις x και y. |
 | [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Λάβετε την τιμή της καθορισμένης ιδιότητας |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Καταργεί μια δυναμική ιδιότητα. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Καταργήστε την καθορισμένη ιδιότητα που προσδιορίζεται με όνομα |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Αφαιρεί μια δυναμική ιδιότητα. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Αφαιρέστε την καθορισμένη ιδιότητα που προσδιορίζεται με το όνομα |
 | [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Ορίζει την τιμή της καθορισμένης ιδιότητας |
 
 ### Δείτε επίσης
 
 * class [ParameterizedProfile](../parameterizedprofile/)
-* χώρος ονομάτων [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

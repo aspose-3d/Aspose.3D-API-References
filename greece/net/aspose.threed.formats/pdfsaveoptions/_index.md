@@ -1,9 +1,9 @@
 ---
-title: PdfSaveOptions
-second_title: Aspose.3D για Αναφορά API .NET
-description: Οι επιλογές αποθήκευσης στην εξαγωγή PDF.
+title: "Κλάση PdfSaveOptions"
+second_title: "Αναφορά API Aspose.3D για .NET"
+description: "Κλάση Aspose.ThreeD.Formats.PdfSaveOptions. Οι επιλογές αποθήκευσης κατά την εξαγωγή σε PDF"
 type: docs
-weight: 1270
+weight: 1420
 url: /el/net/aspose.threed.formats/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -16,31 +16,32 @@ public class PdfSaveOptions : SaveOptions
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions/)() | Κατασκευαστής του`PdfSaveOptions` |
+| [PdfSaveOptions](pdfsaveoptions/)() | Κατασκευαστής του `PdfSaveOptions` |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AuxiliaryColor](../../aspose.threed.formats/pdfsaveoptions/auxiliarycolor/) { get; set; } | Λαμβάνει ή ορίζει το βοηθητικό χρώμα που θα χρησιμοποιηθεί κατά την απόδοση του περιεχομένου 3D. Η ερμηνεία αυτού του χρώματος εξαρτάται από το[`RenderMode`](./rendermode/) |
-| [BackgroundColor](../../aspose.threed.formats/pdfsaveoptions/backgroundcolor/) { get; set; } | Χρώμα φόντου της τρισδιάστατης προβολής σε αρχείο PDF. |
+| [AuxiliaryColor](../../aspose.threed.formats/pdfsaveoptions/auxiliarycolor/) { get; set; } | Λαμβάνει ή ορίζει το βοηθητικό χρώμα που θα χρησιμοποιηθεί κατά την απόδοση του 3D περιεχομένου. Η ερμηνεία αυτού του χρώματος εξαρτάται από το [`RenderMode`](./rendermode/) |
+| [BackgroundColor](../../aspose.threed.formats/pdfsaveoptions/backgroundcolor/) { get; set; } | Χρώμα φόντου της 3D προβολής στο αρχείο PDF. |
 | [EmbedTextures](../../aspose.threed.formats/pdfsaveoptions/embedtextures/) { get; set; } | Ενσωματώστε τις εξωτερικές υφές στο αρχείο PDF, η προεπιλεγμένη τιμή είναι ψευδής. |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Λαμβάνει ή ορίζει την προεπιλεγμένη κωδικοποίηση για αρχεία που βασίζονται σε κείμενο. Η προεπιλεγμένη τιμή είναι null, πράγμα που σημαίνει ότι ο εισαγωγέας/εξαγωγέας θα αποφασίσει ποια κωδικοποίηση θα χρησιμοποιήσει. |
-| [FaceColor](../../aspose.threed.formats/pdfsaveoptions/facecolor/) { get; set; } | Λαμβάνει ή ορίζει το χρώμα προσώπου που θα χρησιμοποιηθεί κατά την απόδοση του τρισδιάστατου περιεχομένου. Αυτό ισχύει μόνο όταν το[`RenderMode`](./rendermode/) έχει τιμή Illustration. |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Λαμβάνει τη μορφή αρχείου που καθορίζεται στην τρέχουσα επιλογή Αποθήκευση/Φόρτωση. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Το όνομα αρχείου της σκηνής εξαγωγής/εισαγωγής. Αυτό είναι προαιρετικό, αλλά χρήσιμο κατά τη σειριοποίηση εξωτερικών στοιχείων όπως το υλικό του OBJ. |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Να επιτρέπεται στον χρήστη να χειρίζεται τον τρόπο διαχείρισης των εξωτερικών εξαρτήσεων κατά τη φόρτωση/αποθήκευση. |
-| [FlipCoordinateSystem](../../aspose.threed.formats/pdfsaveoptions/flipcoordinatesystem/) { get; set; } | Λήψη ή ρύθμιση για αναστροφή του συστήματος συντεταγμένων της σκηνής κατά την εξαγωγή. |
-| [LightingScheme](../../aspose.threed.formats/pdfsaveoptions/lightingscheme/) { get; set; } | Το LightingScheme καθορίζει τον φωτισμό που θα εφαρμοστεί σε τρισδιάστατα έργα τέχνης. |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Ορισμένα αρχεία όπως το OBJ εξαρτώνται από εξωτερικό αρχείο, οι διαδρομές αναζήτησης θα επιτρέψουν στο Aspose.3D να αναζητήσει εξωτερικό αρχείο για φόρτωση. |
-| [RenderMode](../../aspose.threed.formats/pdfsaveoptions/rendermode/) { get; set; } | Η λειτουργία απόδοσης καθορίζει το στυλ με το οποίο αποδίδεται το τρισδιάστατο έργο τέχνης. |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Λαμβάνει ή ορίζει την προεπιλεγμένη κωδικοποίηση για αρχεία κειμένου. Η προεπιλεγμένη τιμή είναι null, που σημαίνει ότι ο εισαγωγέας/εξαγωγέας θα αποφασίσει ποια κωδικοποίηση θα χρησιμοποιηθεί. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | Προσπαθήστε να αντιγράψετε τις υφές που χρησιμοποιούνται στη σκηνή στον φάκελο εξόδου. |
+| [FaceColor](../../aspose.threed.formats/pdfsaveoptions/facecolor/) { get; set; } | Λαμβάνει ή ορίζει το χρώμα προσώπου που θα χρησιμοποιηθεί κατά την απόδοση του 3D περιεχομένου. Αυτό είναι σχετικό μόνο όταν το [`RenderMode`](./rendermode/) έχει τιμή Illustration. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Λαμβάνει τη μορφή αρχείου που καθορίζεται στην τρέχουσα επιλογή Αποθήκευσης/Φόρτωσης. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Το όνομα αρχείου της εξαγόμενης/εισαγόμενης σκηνής. Αυτό είναι προαιρετικό, αλλά χρήσιμο όταν γίνεται σειριοποίηση εξωτερικών πόρων όπως το υλικό του OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Επιτρέπει στον χρήστη να διαχειριστεί πώς να διαχειρίζεται τις εξωτερικές εξαρτήσεις κατά τη φόρτωση/αποθήκευση. |
+| [FlipCoordinateSystem](../../aspose.threed.formats/pdfsaveoptions/flipcoordinatesystem/) { get; set; } | Λαμβάνει ή ορίζει την αντιστροφή του συστήματος συντεταγμένων της σκηνής κατά την εξαγωγή. |
+| [LightingScheme](../../aspose.threed.formats/pdfsaveoptions/lightingscheme/) { get; set; } | Το LightingScheme καθορίζει τον φωτισμό που θα εφαρμοστεί στο 3D έργο. |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Ορισμένα αρχεία όπως το OBJ εξαρτώνται από εξωτερικό αρχείο, οι διαδρομές αναζήτησης θα επιτρέπουν στο Aspose.3D να ψάξει για το εξωτερικό αρχείο για φόρτωση. |
+| [RenderMode](../../aspose.threed.formats/pdfsaveoptions/rendermode/) { get; set; } | Η λειτουργία απόδοσης καθορίζει το στυλ με το οποίο αποδίδεται το 3D έργο. |
 
 ### Δείτε επίσης
 
 * class [SaveOptions](../saveoptions/)
-* χώρος ονομάτων [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
-* συνέλευση [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
