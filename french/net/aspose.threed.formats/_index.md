@@ -1,59 +1,62 @@
 ---
-title: Aspose.ThreeD.Formats
-second_title: Référence de l'API Aspose.3D pour .NET
-description: La personnalisation liée aux E/S est définie dans cet espace de noms.
+title: "Aspose.ThreeD.Formats"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Les personnalisations liées aux entrées/sorties sont définies dans cet espace de noms."
 type: docs
 weight: 50
 url: /fr/net/aspose.threed.formats/
 ---
-La personnalisation liée aux E/S est définie dans cet espace de noms.
+Les personnalisations liées aux entrées/sorties sont définies dans cet espace de noms.
 
-## Des classes
+## Classes
 
-| Classer | La description |
+| Classe | Description |
 | --- | --- |
-| [A3dwSaveOptions](./a3dwsaveoptions) | Enregistrer les options pour le format A3DW. |
-| [AmfSaveOptions](./amfsaveoptions) | Enregistrer les options pour AMF |
-| [ColladaSaveOptions](./colladasaveoptions) | Enregistrer les options pour collada |
-| [Discreet3dsLoadOptions](./discreet3dsloadoptions) | Charger les options pour le fichier 3DS. |
-| [Discreet3dsSaveOptions](./discreet3dssaveoptions) | Enregistrer les options pour le fichier 3DS. |
-| [DracoFormat](./dracoformat) | Format Google Draco |
-| [DracoSaveOptions](./dracosaveoptions) | Enregistrer les options pour les fichiers Google draco |
-| [FbxLoadOptions](./fbxloadoptions) | Charger les options pour le format Fbx. |
-| [FbxSaveOptions](./fbxsaveoptions) | Enregistrer les options pour le fichier Fbx. |
-| [FileSystemFactory](./filesystemfactory) | [`SaveOptions`](../aspose.threed.formats/saveoptions) et[`LoadOptions`](../aspose.threed.formats/loadoptions) va créer un[`LocalFileSystem`](../aspose.threed.utilities/localfilesystem) par défaut. Cela peut être un problème de sécurité dans l'environnement du serveur. Utilisez votre propre[`FileSystemFactory`](../aspose.threed.formats/filesystemfactory) à[`FileSystemFactory`](../aspose.threed.formats/ioconfig/filesystemfactory) pour améliorer la sécurité côté serveur. |
-| [GltfLoadOptions](./gltfloadoptions) | Charger les options pour le format glTF |
-| [GltfSaveOptions](./gltfsaveoptions) | Enregistrer les options pour le format glTF. |
-| [Html5SaveOptions](./html5saveoptions) | Enregistrer les options pour HTML5 |
-| [IOConfig](./ioconfig) | Config IO pour la sérialisation/désérialisation. L'utilisateur peut spécifier des configurations détaillées telles que le chemin de recherche de dépendance ou des configurations liées au format ici |
-| [LoadOptions](./loadoptions) | La classe de base pour configurer les options de chargement de fichiers pour différents types |
-| [MaterialConverter](./materialconverter) | Convertisseur personnalisé pour convertir le matériau d'origine de la géométrie en matériau PBR de GLTF. |
-| [ObjLoadOptions](./objloadoptions) | Charger les options pour le front d'onde obj |
-| [ObjSaveOptions](./objsaveoptions) | Enregistrer les options pour le fichier obj wavefront |
-| [PdfFormat](./pdfformat) | Format de document portable d'Adobe |
-| [PdfLoadOptions](./pdfloadoptions) | Options de chargement PDF |
-| [PdfSaveOptions](./pdfsaveoptions) | Les options d'enregistrement dans l'exportation PDF. |
-| [PlyFormat](./plyformat) | Le format PLY. |
-| [PlyLoadOptions](./plyloadoptions) | Charger les options pour les fichiers PLY |
-| [PlySaveOptions](./plysaveoptions) | Enregistrer les options d'exportation de la scène en tant que fichier PLY. |
-| [RvmFormat](./rvmformat) | Le format RVM |
-| [RvmLoadOptions](./rvmloadoptions) | Options de chargement du fichier RVM du système de gestion de la conception d'usine AVEVA. |
-| [RvmSaveOptions](./rvmsaveoptions) | Enregistrer les options pour le fichier Aveva PDMS RVM. |
-| [SaveOptions](./saveoptions) | La classe de base pour configurer les options d'enregistrement de fichiers pour différents types |
-| [StlLoadOptions](./stlloadoptions) | Charger les options pour STL |
-| [StlSaveOptions](./stlsaveoptions) | Enregistrer les options pour STL |
-| [U3dLoadOptions](./u3dloadoptions) | Options de chargement pour 3d universel |
-| [U3dSaveOptions](./u3dsaveoptions) | Enregistrer les options pour la 3d universelle |
-| [UsdSaveOptions](./usdsaveoptions) | Enregistrer les options pour les formats USD/USDZ. |
-| [XLoadOptions](./xloadoptions) | Les options de chargement pour les fichiers DirectX X. |
+| [A3dwSaveOptions](./a3dwsaveoptions/) | Options d'enregistrement pour le format A3DW. |
+| [AmfSaveOptions](./amfsaveoptions/) | Options d'enregistrement pour AMF |
+| [ColladaSaveOptions](./colladasaveoptions/) | Options d'enregistrement pour collada |
+| [Discreet3dsLoadOptions](./discreet3dsloadoptions/) | Options de chargement pour le fichier 3DS. |
+| [Discreet3dsSaveOptions](./discreet3dssaveoptions/) | Options d'enregistrement pour le fichier 3DS. |
+| [DracoFormat](./dracoformat/) | Format Google Draco |
+| [DracoSaveOptions](./dracosaveoptions/) | Options d'enregistrement pour les fichiers Google draco |
+| [FbxLoadOptions](./fbxloadoptions/) | Options de chargement pour le format Fbx. |
+| [FbxSaveOptions](./fbxsaveoptions/) | Options d'enregistrement pour le fichier Fbx. |
+| [FileSystemFactory](./filesystemfactory/) | [`SaveOptions`](../aspose.threed.formats/saveoptions/) et [`LoadOptions`](../aspose.threed.formats/loadoptions/) créeront un LocalFileSystem par défaut. Cela peut poser un problème de sécurité dans un environnement serveur. Utilisez votre propre [`FileSystemFactory`](../aspose.threed.formats/filesystemfactory/) à [`FileSystemFactory`](../aspose.threed.formats/ioconfig/filesystemfactory/) pour améliorer la sécurité côté serveur. |
+| [GltfLoadOptions](./gltfloadoptions/) | Options de chargement pour le format glTF |
+| [GltfSaveOptions](./gltfsaveoptions/) | Options d'enregistrement pour le format glTF. |
+| [Html5SaveOptions](./html5saveoptions/) | Options d'enregistrement pour HTML5 |
+| [IOConfig](./ioconfig/) | Configuration d'E/S pour la sérialisation/désérialisation. L'utilisateur peut spécifier des configurations détaillées comme le chemin de recherche des dépendances ou les configurations liées au format ici. |
+| [JtLoadOptions](./jtloadoptions/) | Options de chargement pour Siemens JT |
+| [LoadOptions](./loadoptions/) | La classe de base pour configurer les options de chargement de fichiers pour différents types |
+| [MaterialConverter](./materialconverter/) | Convertisseur personnalisé pour transformer le matériau d'origine de la géométrie en matériau PBR de GLTF. |
+| [Microsoft3MFFormat](./microsoft3mfformat/) | Instance de format de fichier pour Microsoft 3MF avec les utilitaires liés à 3MF. |
+| [Microsoft3MFSaveOptions](./microsoft3mfsaveoptions/) | Options d'enregistrement pour le fichier Microsoft 3MF. |
+| [ObjLoadOptions](./objloadoptions/) | Options de chargement pour wavefront obj |
+| [ObjSaveOptions](./objsaveoptions/) | Options d'enregistrement pour le fichier wavefront obj |
+| [PdfFormat](./pdfformat/) | Format de document portable d'Adobe |
+| [PdfLoadOptions](./pdfloadoptions/) | Options de chargement PDF |
+| [PdfSaveOptions](./pdfsaveoptions/) | Les options d'enregistrement lors de l'exportation PDF. |
+| [PlyFormat](./plyformat/) | Le format PLY. |
+| [PlyLoadOptions](./plyloadoptions/) | Options de chargement pour les fichiers PLY |
+| [PlySaveOptions](./plysaveoptions/) | Options d'enregistrement pour exporter la scène au format PLY. |
+| [RvmFormat](./rvmformat/) | Le format RVM |
+| [RvmLoadOptions](./rvmloadoptions/) | Options de chargement pour le fichier RVM du système de gestion de conception d'usine AVEVA. |
+| [RvmSaveOptions](./rvmsaveoptions/) | Options d'enregistrement pour le fichier RVM Aveva PDMS. |
+| [SaveOptions](./saveoptions/) | La classe de base pour configurer les options d'enregistrement de fichiers pour différents types |
+| [StlLoadOptions](./stlloadoptions/) | Options de chargement pour STL |
+| [StlSaveOptions](./stlsaveoptions/) | Options d'enregistrement pour STL |
+| [U3dLoadOptions](./u3dloadoptions/) | Options de chargement pour le 3D universel |
+| [U3dSaveOptions](./u3dsaveoptions/) | Options d'enregistrement pour le 3D universel |
+| [UsdSaveOptions](./usdsaveoptions/) | Options d'enregistrement pour les formats USD/USDZ. |
+| [XLoadOptions](./xloadoptions/) | Les options de chargement pour les fichiers DirectX X. |
 ## Énumération
 
-| Énumération | La description |
+| Énumération | Description |
 | --- | --- |
-| [ColladaTransformStyle](./colladatransformstyle) | Le style de transformation du nœud de node |
-| [DracoCompressionLevel](./dracocompressionlevel) | Niveau de compression pour le fichier draco |
-| [GltfEmbeddedImageFormat](./gltfembeddedimageformat) | Comment l'exportateur glTF intégrera les textures lors de l'exportation. |
-| [PdfLightingScheme](./pdflightingscheme) | LightingScheme spécifie l'éclairage à appliquer aux illustrations 3D. |
-| [PdfRenderMode](./pdfrendermode) | Mode de rendu spécifie le style dans lequel l'illustration 3D est rendue. |
+| [ColladaTransformStyle](./colladatransformstyle/) | Le style de transformation du nœud |
+| [DracoCompressionLevel](./dracocompressionlevel/) | Niveau de compression pour le fichier draco |
+| [GltfEmbeddedImageFormat](./gltfembeddedimageformat/) | Comment l'exportateur glTF intégrera les textures pendant l'exportation. |
+| [PdfLightingScheme](./pdflightingscheme/) | LightingScheme spécifie l'éclairage à appliquer aux œuvres 3D. |
+| [PdfRenderMode](./pdfrendermode/) | Le mode de rendu spécifie le style dans lequel l'œuvre 3D est rendue. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

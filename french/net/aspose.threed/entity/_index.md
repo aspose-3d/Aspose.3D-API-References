@@ -1,14 +1,14 @@
 ---
-title: Entity
-second_title: Référence de l'API Aspose.3D pour .NET
-description: La classe de base de toutes les entités. Entity représente un objet concret attaché sous un nœud commeLight../aspose.threed.entities/light/Geometry../aspose.threed.entities/geometry .
+title: "Classe Entity"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Entity. La classe de base de toutes les entités. Entity représente un objet concret attaché sous un nœud tel que Light/Geometry."
 type: docs
-weight: 970
+weight: 1030
 url: /fr/net/aspose.threed/entity/
 ---
 ## Entity class
 
-La classe de base de toutes les entités. Entity représente un objet concret attaché sous un nœud comme[`Light`](../../aspose.threed.entities/light)/[`Geometry`](../../aspose.threed.entities/geometry) .
+La classe de base de toutes les entités. Entity représente un objet concret attaché sous un nœud tel que [`Light`](../../aspose.threed.entities/light/)/[`Geometry`](../../aspose.threed.entities/geometry/).
 
 ```csharp
 public abstract class Entity : SceneObject
@@ -16,37 +16,37 @@ public abstract class Entity : SceneObject
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Entity](entity)(string) | Initialise une nouvelle instance du[`Entity`](../entity) classe. |
+| [Entity](entity/)(string) | Initialise une nouvelle instance de la classe `Entity`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Obtient ou définit s'il faut exclure cette entité lors de l'exportation. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Obtient ou définit le nom. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Obtient ou définit le premier nœud parent, si défini le premier nœud parent, cette entité sera détachée des autres nœuds parents. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Obtient tous les nœuds parents, une entité peut être attachée à plusieurs nœuds parents pour l'instanciation de la géométrie |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Obtient la collection de toutes les propriétés. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Obtient la scène à laquelle cet objet appartient |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Obtient ou définit si cette entité doit être exclue lors de l'exportation. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtient ou définit le nom. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Obtient ou définit le premier nœud parent, si le premier nœud parent est défini, cette entité sera détachée des autres nœuds parents. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Obtient tous les nœuds parents, une entité peut être attachée à plusieurs nœuds parents pour l'instanciation de géométrie |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtient la collection de toutes les propriétés. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Obtient la scène à laquelle cet objet appartient |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Trouve la propriété. Il peut s'agir d'une propriété dynamique (créée par CreateDynamicProperty/SetProperty) ou d'une propriété native (identifiée par son nom) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Obtient la boîte englobante de l'entité actuelle dans son système de coordonnées de l'espace objet. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | Obtient la clé du rendu d'entité enregistré dans le rendu |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Obtenir la valeur de la propriété spécifiée |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Supprime une propriété dynamique. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Supprimer la propriété spécifiée identifiée par name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Définit la valeur de la propriété spécifiée |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Trouve la propriété. Elle peut être une propriété dynamique (Créée par CreateDynamicProperty/SetProperty) ou une propriété native (Identifiée par son nom) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Obtient la boîte englobante de l'entité actuelle dans son système de coordonnées en espace objet. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | Obtient la clé du rendu d'entité enregistrée dans le moteur de rendu |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtenir la valeur de la propriété spécifiée |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Supprime une propriété dynamique. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Supprime la propriété spécifiée identifiée par son nom |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Définit la valeur de la propriété spécifiée |
 
-### Voir également
+### Voir aussi
 
-* class [SceneObject](../sceneobject)
-* espace de noms [Aspose.ThreeD](../../aspose.threed)
-* Assemblée [Aspose.3D](../../)
+* class [SceneObject](../sceneobject/)
+* namespace [Aspose.ThreeD](../../aspose.threed/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

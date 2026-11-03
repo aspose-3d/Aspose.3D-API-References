@@ -1,14 +1,14 @@
 ---
-title: KeyFrame
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Une image clé est principalement définie par un temps et une valeur pour certains types dinterpolation tangente/tension/biais/continuité est également utilisé en calculant la valeur finale échantillonnée. Les valeurs échantillonnées dans une position temporelle non clé sont interpolées par images clés entre les images clés précédentes et suivantes Les valeurs avant/après la première/dernière image clé sont calculées par leExtrapolation./extrapolation classe.
+title: "Classe KeyFrame"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Aspose.ThreeD.Animation.KeyFrame class. Une image clé est principalement définie par un temps et une valeur ; pour certains types d'interpolation, la tangente/la tension/le biais/la continuité sont également utilisés pour calculer la valeur échantillonnée finale. Les valeurs échantillonnées à une position temporelle non-image-clé sont interpolées par les images clés entre les images clés précédentes et suivantes. La valeur avant/après la première/dernière image clé est calculée par la classe Extrapolation."
 type: docs
 weight: 90
 url: /fr/net/aspose.threed.animation/keyframe/
 ---
 ## KeyFrame class
 
-Une image clé est principalement définie par un temps et une valeur, pour certains types d'interpolation, tangente/tension/biais/continuité est également utilisé en calculant la valeur finale échantillonnée. Les valeurs échantillonnées dans une position temporelle non clé sont interpolées par images clés entre les images clés précédentes et suivantes Les valeurs avant/après la première/dernière image clé sont calculées par le[`Extrapolation`](../extrapolation) classe.
+Une image clé est principalement définie par un temps et une valeur ; pour certains types d'interpolation, la tangente/la tension/le biais/la continuité sont également utilisés pour calculer la valeur échantillonnée finale. Les valeurs échantillonnées à une position temporelle non-image-clé sont interpolées par les images-clés entre les images-clés précédentes et suivantes. La valeur avant/après la première/dernière image-clé est calculée par la classe [`Extrapolation`](../extrapolation/).
 
 ```csharp
 public class KeyFrame
@@ -16,39 +16,39 @@ public class KeyFrame
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [KeyFrame](keyframe)(KeyframeSequence, double) | Créer une nouvelle image clé sur la courbe spécifiée |
+| [KeyFrame](keyframe/)(KeyframeSequence, double) | Créer une nouvelle image clé sur la courbe spécifiée |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Bias](../../aspose.threed.animation/keyframe/bias) { get; set; } | Obtient ou définit le biais utilisé dans TCB spline |
-| [Continuity](../../aspose.threed.animation/keyframe/continuity) { get; set; } | Obtient ou définit la continuité utilisée dans TCB spline |
-| [Flat](../../aspose.threed.animation/keyframe/flat) { get; set; } | Obtenir ou définir si l'image clé est plate. L'image clé doit être plate si l'image clé suivante ou précédente a la même valeur. L'image clé plate a des tangentes plates et une interpolation fixe. |
-| [IndependentTangent](../../aspose.threed.animation/keyframe/independenttangent) { get; set; } | Obtient ou définit les tangentes out et next in sont indépendantes. |
-| [Interpolation](../../aspose.threed.animation/keyframe/interpolation) { get; set; } | Obtient ou définit le type d'interpolation de la clé, list.data[index] définit l'algorithme de calcul de la valeur échantillonnée. |
-| [NextInTangent](../../aspose.threed.animation/keyframe/nextintangent) { get; set; } | Obtient ou définit la tangente in(left) suivante sur cette image clé. |
-| [NextInWeight](../../aspose.threed.animation/keyframe/nextinweight) { get; set; } | Obtient ou définit le poids suivant (à gauche) sur cette image clé. |
-| [OutTangent](../../aspose.threed.animation/keyframe/outtangent) { get; set; } | Obtient ou définit la tangente extérieure (droite) sur cette image clé. |
-| [OutWeight](../../aspose.threed.animation/keyframe/outweight) { get; set; } | Obtient ou définit le poids extérieur (droit) sur cette image clé. |
-| [StepMode](../../aspose.threed.animation/keyframe/stepmode) { get; set; } | Obtient ou définit le mode pas à pas de la clé. Si le type d'interpolation estConstant , list.data[index] décide de la valeur de l'image clé qui sera utilisée lors de l'interpolation. APreviousValue signifie que la valeur de l'image clé de gauche sera utilisée ANextValuesignifie que la valeur de l'image clé suivante à droite sera utilisée |
-| [TangentWeightMode](../../aspose.threed.animation/keyframe/tangentweightmode) { get; set; } | Obtient ou définit le mode de pondération de la tangente de la clé. La tangente extérieure ou la tangente suivante peut être personnalisée en sélectionnant correct[`WeightedMode`](../weightedmode) |
-| [Tension](../../aspose.threed.animation/keyframe/tension) { get; set; } | Obtient ou définit la tension utilisée dans TCB spline |
-| [Time](../../aspose.threed.animation/keyframe/time) { get; set; } | Obtient ou définit la position temporelle de l'image clé list.data[index], mesurée en secondes. |
-| [TimeIndependentTangent](../../aspose.threed.animation/keyframe/timeindependenttangent) { get; set; } | Obtient ou définit la tangente est indépendante du temps |
-| [Value](../../aspose.threed.animation/keyframe/value) { get; set; } | Obtient ou définit la valeur de l'image clé. |
+| [Bias](../../aspose.threed.animation/keyframe/bias/) { get; set; } | Obtient ou définit le biais utilisé dans la spline TCB |
+| [Continuity](../../aspose.threed.animation/keyframe/continuity/) { get; set; } | Obtient ou définit la continuité utilisée dans la spline TCB |
+| [Flat](../../aspose.threed.animation/keyframe/flat/) { get; set; } | Obtient ou définit si l'image clé est plate. L'image clé doit être plate si l'image clé suivante ou précédente a la même valeur. Une image clé plate possède des tangentes plates et une interpolation fixe. |
+| [IndependentTangent](../../aspose.threed.animation/keyframe/independenttangent/) { get; set; } | Obtient ou définit que les tangentes de sortie et d'entrée suivante sont indépendantes. |
+| [Interpolation](../../aspose.threed.animation/keyframe/interpolation/) { get; set; } | Obtient ou définit le type d'interpolation de l'image clé, list.data[index] définit l'algorithme de calcul de la valeur échantillonnée. |
+| [NextInTangent](../../aspose.threed.animation/keyframe/nextintangent/) { get; set; } | Obtient ou définit la tangente d'entrée suivante (gauche) sur cette image clé. |
+| [NextInWeight](../../aspose.threed.animation/keyframe/nextinweight/) { get; set; } | Obtient ou définit le poids d'entrée suivant (gauche) sur cette image clé. |
+| [OutTangent](../../aspose.threed.animation/keyframe/outtangent/) { get; set; } | Obtient ou définit la tangente de sortie (droite) sur cette image clé. |
+| [OutWeight](../../aspose.threed.animation/keyframe/outweight/) { get; set; } | Obtient ou définit le poids de sortie (droite) sur cette image clé. |
+| [StepMode](../../aspose.threed.animation/keyframe/stepmode/) { get; set; } | Obtient ou définit le mode d'étape de l'image clé. Si le type d'interpolation est Constant, list.data[index] détermine quelle valeur d'image clé sera utilisée pendant l'interpolation. Une PreviousValue signifie que la valeur de l'image clé de gauche sera utilisée. Une NextValue signifie que la valeur de l'image clé de droite suivante sera utilisée. |
+| [TangentWeightMode](../../aspose.threed.animation/keyframe/tangentweightmode/) { get; set; } | Obtient ou définit le mode de poids de la tangente de l'image clé. La tangente de sortie ou la tangente d'entrée suivante peuvent être personnalisées en sélectionnant le [`WeightedMode`](../weightedmode/) correct. |
+| [Tension](../../aspose.threed.animation/keyframe/tension/) { get; set; } | Obtient ou définit la tension utilisée dans la spline TCB |
+| [Time](../../aspose.threed.animation/keyframe/time/) { get; set; } | Obtient ou définit la position temporelle de l'image clé list.data[index], mesurée en secondes. |
+| [TimeIndependentTangent](../../aspose.threed.animation/keyframe/timeindependenttangent/) { get; set; } | Obtient ou définit que la tangente est indépendante du temps |
+| [Value](../../aspose.threed.animation/keyframe/value/) { get; set; } | Obtient ou définit la valeur de l'image clé. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| override [ToString](../../aspose.threed.animation/keyframe/tostring)() | Obtient la représentation sous forme de chaîne de l'image clé |
+| override [ToString](../../aspose.threed.animation/keyframe/tostring/)() | Obtient la représentation sous forme de chaîne de l'image clé |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.ThreeD.Animation](../../aspose.threed.animation)
-* Assemblée [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

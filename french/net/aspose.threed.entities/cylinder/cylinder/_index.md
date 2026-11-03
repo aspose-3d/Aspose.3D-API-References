@@ -1,121 +1,121 @@
 ---
-title: Cylinder
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Initialise une nouvelle instance duCylinderaspose.threed.entities/cylinder classe.
+title: "Cylinder.Cylinder"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Constructeur Cylinder. Initialise une nouvelle instance de la classe Cylinder"
 type: docs
 weight: 10
 url: /fr/net/aspose.threed.entities/cylinder/cylinder/
 ---
 ## Cylinder() {#constructor}
 
-Initialise une nouvelle instance du[`Cylinder`](../../cylinder) classe.
+Initialise une nouvelle instance de la classe [`Cylinder`](../).
 
 ```csharp
 public Cylinder()
 ```
 
-### Voir également
+### Voir aussi
 
-* class [Cylinder](../../cylinder)
-* espace de noms [Aspose.ThreeD.Entities](../../cylinder)
-* Assemblée [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double) {#constructor_1}
 
-Initialise une nouvelle instance du[`Cylinder`](../../cylinder) classe.
+Initialise une nouvelle instance de la classe [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radius, double height)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| radius | Double | Rayon du capuchon supérieur et inférieur. |
-| height | Double | Hauteur. |
+| rayon | Double | Rayon du chapeau supérieur et inférieur. |
+| hauteur | Double | Hauteur. |
 
-### Voir également
+### Voir aussi
 
-* class [Cylinder](../../cylinder)
-* espace de noms [Aspose.ThreeD.Entities](../../cylinder)
-* Assemblée [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double) {#constructor_2}
 
-Initialise une nouvelle instance du[`Cylinder`](../../cylinder) classe.
+Initialise une nouvelle instance de la classe [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| radiusTop | Double | Haut de rayon. |
+| radiusTop | Double | Rayon supérieur. |
 | radiusBottom | Double | Rayon inférieur. |
-| height | Double | Hauteur. |
+| hauteur | Double | Hauteur. |
 
-### Voir également
+### Voir aussi
 
-* class [Cylinder](../../cylinder)
-* espace de noms [Aspose.ThreeD.Entities](../../cylinder)
-* Assemblée [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double, int, int, bool) {#constructor_3}
 
-Initialise une nouvelle instance du[`Cylinder`](../../cylinder) classe.
+Initialise une nouvelle instance de la classe [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height, int radialSegments, 
     int heightSegments, bool openEnded)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| radiusTop | Double | Rayon du capuchon supérieur du cylindre. |
+| radiusTop | Double | Rayon du chapeau supérieur du cylindre. |
 | radiusBottom | Double | Rayon du chapeau inférieur du cylindre. |
-| height | Double | Hauteur du cylindre. |
-| radialSegments | Int32 | Segments radiaux des cercles supérieur et inférieur. |
+| hauteur | Double | Hauteur du cylindre. |
+| radialSegments | Int32 | Segments radiaux des cercles supérieur et inférieur.. |
 | heightSegments | Int32 | Segments de hauteur. |
-| openEnded | Boolean | Si réglé sur`vrai` le cylindre n'aurait pas de bouchons inférieurs/supérieurs. |
+| openEnded | Boolean | Si défini sur `true`, le cylindre n'aura pas de couvercles supérieur/inférieur.. |
 
-### Voir également
+### Voir aussi
 
-* class [Cylinder](../../cylinder)
-* espace de noms [Aspose.ThreeD.Entities](../../cylinder)
-* Assemblée [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(string, double, double, double, int, int, bool, double, double) {#constructor_4}
 
-Initialise une nouvelle instance du[`Cylinder`](../../cylinder) classe.
+Initialise une nouvelle instance de la classe [`Cylinder`](../).
 
 ```csharp
 public Cylinder(string name, double radiusTop, double radiusBottom, double height, 
     int radialSegments, int heightSegments, bool openEnded, double thetaStart, double thetaLength)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| name | String | Le nom de cet objet |
-| radiusTop | Double | Rayon du capuchon supérieur du cylindre. |
+| nom | String | Le nom de cet objet |
+| radiusTop | Double | Rayon du chapeau supérieur du cylindre. |
 | radiusBottom | Double | Rayon du chapeau inférieur du cylindre. |
-| height | Double | Hauteur du cylindre. |
-| radialSegments | Int32 | Segments radiaux des cercles supérieur et inférieur. |
+| hauteur | Double | Hauteur du cylindre. |
+| radialSegments | Int32 | Segments radiaux des cercles supérieur et inférieur.. |
 | heightSegments | Int32 | Segments de hauteur. |
-| openEnded | Boolean | Si réglé sur`vrai` le cylindre n'aurait pas de bouchons inférieurs/supérieurs. |
-| thetaStart | Double | Début thêta. |
-| thetaLength | Double | Longueur thêta. |
+| openEnded | Boolean | Si défini sur `true`, le cylindre n'aura pas de couvercles supérieur/inférieur.. |
+| thetaStart | Double | Début theta. |
+| thetaLength | Double | Longueur theta. |
 
-### Voir également
+### Voir aussi
 
-* class [Cylinder](../../cylinder)
-* espace de noms [Aspose.ThreeD.Entities](../../cylinder)
-* Assemblée [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

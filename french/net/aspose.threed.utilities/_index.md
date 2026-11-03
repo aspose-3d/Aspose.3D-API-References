@@ -1,43 +1,57 @@
 ---
-title: Aspose.ThreeD.Utilities
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Toutes les classes dutilitaires sont définies dans cet espace de noms.
+title: "Aspose.ThreeD.Utilities"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Toutes les classes utilitaires sont définies dans cet espace de noms"
 type: docs
-weight: 90
+weight: 100
 url: /fr/net/aspose.threed.utilities/
 ---
-Toutes les classes d'utilitaires sont définies dans cet espace de noms.
+Toutes les classes utilitaires sont définies dans cet espace de noms.
 
-## Des classes
+## Classes
 
-| Classer | La description |
+| Classe | Description |
 | --- | --- |
-| [DummyFileSystem](./dummyfilesystem) | Les opérations de lecture/écriture sont des opérations factices. |
-| [FileSystem](./filesystem) | Encapsulation du système de fichiers. Aspose.3D l'utilisera pour lire/écrire les dépendances. |
-| [IOUtils](./ioutils) | Utilitaires pour écrire une matrice/un vecteur sur un graveur binaire |
-| [LocalFileSystem](./localfilesystem) | Le[`LocalFileSystem`](../aspose.threed.utilities/localfilesystem) mappera les opérations de lecture/écriture sur le répertoire local. |
-| [MathUtils](./mathutils) | Un ensemble d'utilitaires mathématiques utiles. |
-| [MemoryFileSystem](./memoryfilesystem) | Le[`MemoryFileSystem`](../aspose.threed.utilities/memoryfilesystem)mappera les opérations de lecture/écriture sur la mémoire. |
-| [ParseException](./parseexception) | Exception lorsque Aspose.3D n'a pas réussi à analyser l'entrée. |
-| [SemanticAttribute](./semanticattribute) | Autoriser l'utilisateur à utiliser sa propre structure pour la déclaration statique de[`VertexDeclaration`](../aspose.threed.utilities/vertexdeclaration) |
-| [TransformBuilder](./transformbuilder) | Le[`TransformBuilder`](../aspose.threed.utilities/transformbuilder) est utilisé pour construire la matrice de transformation par une chaîne de transformations. |
-| [Vertex](./vertex) | Référence de sommet, utilisée pour accéder au sommet brut dans[`TriMesh`](../aspose.threed.entities/trimesh) . |
-| [VertexDeclaration](./vertexdeclaration) | La déclaration d'une structure de sommet personnalisée |
-| [VertexField](./vertexfield) | Description de la disposition de la mémoire de champ de Vertex. |
-| [Watermark](./watermark) | Utilitaire pour encoder/décoder un filigrane aveugle vers/depuis un maillage. |
-| [ZipArchiveFileSystem](./ziparchivefilesystem) | Système de fichiers à fournir à l'accès en lecture seule au fichier zip ou au flux zip spécifié. Le système de fichiers sera supprimé après l'opération d'ouverture/d'enregistrement. |
+| [FileSystem](./filesystem/) | Encapsulation du système de fichiers. Aspose.3D utilisera cela pour lire/écrire les dépendances. |
+| [IOExtension](./ioextension/) | Utilitaires pour écrire une matrice/ un vecteur dans un écrivain binaire |
+| [MathUtils](./mathutils/) | Un ensemble d'utilitaires mathématiques utiles. |
+| [ParseException](./parseexception/) | Exception lorsque Aspose.3D n'a pas pu analyser l'entrée. |
+| [SemanticAttribute](./semanticattribute/) | Autoriser l'utilisateur à utiliser sa propre structure pour la déclaration statique de [`VertexDeclaration`](../aspose.threed.utilities/vertexdeclaration/) |
+| [TransformBuilder](./transformbuilder/) | Le [`TransformBuilder`](../aspose.threed.utilities/transformbuilder/) est utilisé pour construire une matrice de transformation par une chaîne de transformations. |
+| [Vertex](./vertex/) | Référence de sommet, utilisée pour accéder au sommet brut dans [`TriMesh`](../aspose.threed.entities/trimesh/). |
+| [VertexDeclaration](./vertexdeclaration/) | La déclaration de la structure d'un sommet défini sur mesure |
+| [VertexField](./vertexfield/) | Description de la disposition mémoire des champs du sommet. |
+| [Watermark](./watermark/) | Utilitaire pour encoder/décoder un filigrane invisible vers/de un maillage. |
+## Structures
+
+| Structure | Description |
+| --- | --- |
+| [BoundingBox](./boundingbox/) | La boîte englobante alignée sur les axes |
+| [BoundingBox2D](./boundingbox2d/) | La boîte englobante alignée sur les axes pour [`Vector2`](../aspose.threed.utilities/vector2/) |
+| [FMatrix4](./fmatrix4/) | Matrice 4x4 avec tous les composants de type flottant |
+| [FVector2](./fvector2/) | Un vecteur flottant à deux composants. |
+| [FVector3](./fvector3/) | Un vecteur flottant à trois composants. |
+| [FVector4](./fvector4/) | Un vecteur flottant à quatre composants. |
+| [Matrix4](./matrix4/) | Implémentation d'une matrice 4x4. |
+| [Quaternion](./quaternion/) | Le quaternion est généralement utilisé pour effectuer des rotations en infographie. |
+| [Rect](./rect/) | Une classe pour représenter le rectangle |
+| [RelativeRectangle](./relativerectangle/) | Rectangle relatif La formule entre le composant relatif et la valeur absolue est : Échelle * (Largeur de référence) + décalage. Ainsi, si nous voulons qu'il représente une valeur absolue, laissez tous les champs d'échelle à zéro et utilisez les champs de décalage à la place. |
+| [Vector2](./vector2/) | Un vecteur à deux composantes. |
+| [Vector3](./vector3/) | Un vecteur à trois composantes. |
+| [Vector4](./vector4/) | Un vecteur à quatre composantes. |
 ## Interfaces
 
-| Interface | La description |
+| Interface | Description |
 | --- | --- |
-| [IArrayList&lt;T&gt;](./iarraylist-1) | Aspose.3D a sa propre implémentation hautement optimisée deList pour une meilleure performance de chargement/sauvegarde Seule cette interface est exposée pour l'utilisateur avecIList interfaces compatibles et similaires. |
+| [IArrayList&lt;T&gt;](./iarraylist-1/) | Aspose.3D possède sa propre implémentation hautement optimisée de List pour de meilleures performances de chargement/enregistrement. Seule cette interface est exposée à l'utilisateur avec des interfaces compatibles IList et similaires. |
 ## Énumération
 
-| Énumération | La description |
+| Énumération | Description |
 | --- | --- |
-| [BoundingBoxExtent](./boundingboxextent) | L'étendue de la boîte englobante |
-| [ComposeOrder](./composeorder) | L'ordre de composition de la matrice de transformation |
-| [VertexFieldDataType](./vertexfielddatatype) | Type de données du champ Vertex |
-| [VertexFieldSemantic](./vertexfieldsemantic) | La sémantique du champ vertex |
+| [BoundingBoxExtent](./boundingboxextent/) | L'étendue de la boîte englobante |
+| [ComposeOrder](./composeorder/) | L'ordre pour composer la matrice de transformation |
+| [RotationOrder](./rotationorder/) | L'ordre contrôle quels rx ry rz sont appliqués dans la matrice de transformation. |
+| [VertexFieldDataType](./vertexfielddatatype/) | Type de données du champ de sommet |
+| [VertexFieldSemantic](./vertexfieldsemantic/) | La sémantique du champ de sommet |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

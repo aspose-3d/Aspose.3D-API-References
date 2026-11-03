@@ -1,164 +1,164 @@
 ---
-title: Bind
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Lier le tampon au descripteur actuel set
+title: "DescriptorSetUpdater.Bind"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Méthode DescriptorSetUpdater. Lie le tampon au jeu de descripteurs actuel"
 type: docs
 weight: 10
 url: /fr/net/aspose.threed.render/descriptorsetupdater/bind/
 ---
 ## Bind(IBuffer, int, int) {#bind_1}
 
-Lier le tampon au descripteur actuel set
+Lier le tampon au jeu de descripteurs actuel
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| buffer | IBuffer | Quel tampon lier |
+| tampon | IBuffer | Quel tampon lier |
 | offset | Int32 | Décalage du tampon à lier |
-| size | Int32 | Taille du tampon à lier |
+| taille | Int32 | Taille du tampon à lier |
 
-### Return_Value
+### Valeur de retour
 
-Renvoie l'instance actuelle pour l'opération de chaînage
+Renvoie l'instance actuelle pour l'opération en chaîne
 
-### Voir également
+### Voir aussi
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espace de noms [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Assemblée [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(IBuffer) {#bind}
 
-Lier le tampon entier au descripteur actuel
+Lier le tampon complet au descripteur actuel
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| buffer | IBuffer |  |
+| tampon | IBuffer |  |
 
-### Return_Value
+### Valeur de retour
 
-Renvoie l'instance actuelle pour l'opération de chaînage
+Renvoie l'instance actuelle pour l'opération en chaîne
 
-### Voir également
+### Voir aussi
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espace de noms [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Assemblée [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer) {#bind_3}
 
-Liez le tampon au descripteur actuel défini à l'emplacement de liaison spécifié.
+Lier le tampon au jeu de descripteurs actuel à l'emplacement de liaison spécifié.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| binding | Int32 | Lieu de reliure |
-| buffer | IBuffer | Le tampon entier à lier |
+| liaison | Int32 | Emplacement de liaison |
+| tampon | IBuffer | Le tampon complet à lier |
 
-### Return_Value
+### Valeur de retour
 
-Renvoie l'instance actuelle pour l'opération de chaînage
+Renvoie l'instance actuelle pour l'opération en chaîne
 
-### Voir également
+### Voir aussi
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espace de noms [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Assemblée [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer, int, int) {#bind_4}
 
-Liez le tampon au descripteur actuel défini à l'emplacement de liaison spécifié.
+Lier le tampon au jeu de descripteurs actuel à l'emplacement de liaison spécifié.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int size)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| binding | Int32 | Lieu de reliure |
-| buffer | IBuffer | Le tampon à lier |
+| liaison | Int32 | Emplacement de liaison |
+| tampon | IBuffer | Le tampon à lier |
 | offset | Int32 | Décalage du tampon à lier |
-| size | Int32 | Taille du tampon à lier |
+| taille | Int32 | Taille du tampon à lier |
 
-### Return_Value
+### Valeur de retour
 
-Renvoie l'instance actuelle pour l'opération de chaînage
+Renvoie l'instance actuelle pour l'opération en chaîne
 
-### Voir également
+### Voir aussi
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espace de noms [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Assemblée [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(ITextureUnit) {#bind_2}
 
-Lier l'unité de texture à l'ensemble de descripteurs actuel
+Lier l'unité de texture au jeu de descripteurs actuel
 
 ```csharp
 public DescriptorSetUpdater Bind(ITextureUnit texture)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | texture | ITextureUnit | L'unité de texture à lier |
 
-### Return_Value
+### Valeur de retour
 
-Renvoie l'instance actuelle pour l'opération de chaînage
+Renvoie l'instance actuelle pour l'opération en chaîne
 
-### Voir également
+### Voir aussi
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espace de noms [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Assemblée [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, ITextureUnit) {#bind_5}
 
-Lier l'unité de texture à l'ensemble de descripteurs actuel
+Lier l'unité de texture au jeu de descripteurs actuel
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| binding | Int32 | Le lieu de reliure |
+| liaison | Int32 | L'emplacement de liaison |
 | texture | ITextureUnit | L'unité de texture à lier |
 
-### Return_Value
+### Valeur de retour
 
-Renvoie l'instance actuelle pour l'opération de chaînage
+Renvoie l'instance actuelle pour l'opération en chaîne
 
-### Voir également
+### Voir aussi
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espace de noms [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* Assemblée [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

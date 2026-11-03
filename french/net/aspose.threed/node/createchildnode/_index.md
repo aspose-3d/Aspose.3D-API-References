@@ -1,7 +1,7 @@
 ---
-title: CreateChildNode
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Crée un nœud enfant
+title: "Node.CreateChildNode"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Méthode Node. Crée un nœud enfant."
 type: docs
 weight: 170
 url: /fr/net/aspose.threed/node/createchildnode/
@@ -14,15 +14,26 @@ Crée un nœud enfant
 public Node CreateChildNode()
 ```
 
-### Return_Value
+### Valeur de retour
 
 Le nouveau nœud enfant.
 
-### Voir également
+## Exemples
 
-* class [Node](../../node)
-* espace de noms [Aspose.ThreeD](../../node)
-* Assemblée [Aspose.3D](../../../)
+Le code suivant montre comment créer un nouveau nœud enfant sous le nœud racine.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode();
+node.Entity = new Box();
+scene.Save("output.fbx");
+```
+
+### Voir aussi
+
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -34,44 +45,65 @@ Créer un nouveau nœud enfant avec le nom de nœud donné
 public Node CreateChildNode(string nodeName)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | nodeName | String | Le nom du nouveau nœud enfant |
 
-### Return_Value
+### Valeur de retour
 
 Le nouveau nœud enfant.
 
-### Voir également
+## Exemples
 
-* class [Node](../../node)
-* espace de noms [Aspose.ThreeD](../../node)
-* Assemblée [Aspose.3D](../../../)
+Le code suivant montre comment créer un nouveau nœud enfant sous le nœud racine.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode("new node");
+node.Entity = new Box();
+scene.Save("output.fbx");
+```
+
+### Voir aussi
+
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(Entity) {#createchildnode_1}
 
-Créer un nouveau nœud enfant avec une entité donnée attachée
+Créer un nouveau nœud enfant avec l'entité donnée attachée
 
 ```csharp
 public Node CreateChildNode(Entity entity)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| entity | Entity | Entité par défaut attachée au nœud |
+| entité | Entité | Entité par défaut attachée au node |
 
-### Return_Value
+### Valeur de retour
 
 Le nouveau nœud enfant.
 
-### Voir également
+## Exemples
 
-* class [Entity](../../entity)
-* class [Node](../../node)
-* espace de noms [Aspose.ThreeD](../../node)
-* Assemblée [Aspose.3D](../../../)
+Le code suivant montre comment créer un nouveau nœud enfant sous le nœud racine.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode(new Box());
+scene.Save("output.fbx");
+```
+
+### Voir aussi
+
+* class [Entity](../../entity/)
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -83,48 +115,48 @@ Créer un nouveau nœud enfant avec le nom de nœud donné
 public Node CreateChildNode(string nodeName, Entity entity)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | nodeName | String | Le nom du nouveau nœud enfant |
-| entity | Entity | Entité par défaut attachée au nœud |
+| entité | Entité | Entité par défaut attachée au node |
 
-### Return_Value
+### Valeur de retour
 
 Le nouveau nœud enfant.
 
-### Voir également
+### Voir aussi
 
-* class [Entity](../../entity)
-* class [Node](../../node)
-* espace de noms [Aspose.ThreeD](../../node)
-* Assemblée [Aspose.3D](../../../)
+* class [Entity](../../entity/)
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(string, Entity, Material) {#createchildnode_4}
 
-Créez un nouveau nœud enfant avec un nom de nœud donné et attachez l'entité spécifiée et un matériau
+Créer un nouveau nœud enfant avec le nom de nœud donné, et attacher l'entité spécifiée ainsi qu'un matériau
 
 ```csharp
 public Node CreateChildNode(string nodeName, Entity entity, Material material)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | nodeName | String | Le nom du nouveau nœud enfant |
-| entity | Entity | Entité par défaut attachée au nœud |
-| material | Material | Le matériel attaché au nœud |
+| entité | Entité | Entité par défaut attachée au node |
+| matériau | Matériau | Le matériau attaché au node |
 
-### Return_Value
+### Valeur de retour
 
 Le nouveau nœud enfant.
 
-### Voir également
+### Voir aussi
 
-* class [Entity](../../entity)
-* class [Material](../../../aspose.threed.shading/material)
-* class [Node](../../node)
-* espace de noms [Aspose.ThreeD](../../node)
-* Assemblée [Aspose.3D](../../../)
+* class [Entity](../../entity/)
+* class [Material](../../../aspose.threed.shading/material/)
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

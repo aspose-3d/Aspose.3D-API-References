@@ -1,14 +1,14 @@
 ---
-title: AnimationNode
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Aspose.3D prend en charge la hiérarchie des animations chaque animation peut être composée de plusieurs animations et de la définition dimage clé de lanimation. AnimationNode./animationnode définit la transformation dune valeur de propriété dans le temps par exemple le nœud danimation peut être utilisé pour contrôler la transformation dun nœud ou autreA3DObject../aspose.threed/a3dobject propriétés numériques de lobjet.
+title: "Classe AnimationNode"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Animation.AnimationNode. Aspose.3Ds prend en charge la hiérarchie d'animation ; chaque animation peut être composée de plusieurs animations et de la définition des images clés d'animation. AnimationNode définit la transformation d'une valeur de propriété au fil du temps, par exemple le nœud d'animation peut être utilisé pour contrôler la transformation d'un nœud ou d'autres propriétés numériques d'objets A3DObject."
 type: docs
 weight: 40
 url: /fr/net/aspose.threed.animation/animationnode/
 ---
 ## AnimationNode class
 
-Aspose.3D prend en charge la hiérarchie des animations, chaque animation peut être composée de plusieurs animations et de la définition d'image clé de l'animation. [`AnimationNode`](../animationnode) définit la transformation d'une valeur de propriété dans le temps, par exemple, le nœud d'animation peut être utilisé pour contrôler la transformation d'un nœud ou autre[`A3DObject`](../../aspose.threed/a3dobject) propriétés numériques de l'objet.
+Aspose.3D prend en charge la hiérarchie d'animation, chaque animation pouvant être composée de plusieurs animations et de la définition des images clés d'animation. `AnimationNode` définit la transformation d'une valeur de propriété au fil du temps, par exemple, le nœud d'animation peut être utilisé pour contrôler la transformation d'un nœud ou d'autres propriétés numériques d'objets [`A3DObject`](../../aspose.threed/a3dobject/).
 
 ```csharp
 public class AnimationNode : A3DObject
@@ -16,39 +16,39 @@ public class AnimationNode : A3DObject
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AnimationNode](animationnode#constructor)() | Initialise une nouvelle instance du[`AnimationNode`](../animationnode) classe. |
-| [AnimationNode](animationnode#constructor_1)(string) | Initialise une nouvelle instance du[`AnimationNode`](../animationnode) classe. |
+| [AnimationNode](animationnode/#constructor)() | Initialise une nouvelle instance de la classe `AnimationNode`. |
+| [AnimationNode](animationnode/#constructor_1)(string) | Initialise une nouvelle instance de la classe `AnimationNode`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [BindPoints](../../aspose.threed.animation/animationnode/bindpoints) { get; } | Obtient les points de liaison de la propriété actuelle |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Obtient ou définit le nom. |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Obtient la collection de toutes les propriétés. |
-| [SubAnimations](../../aspose.threed.animation/animationnode/subanimations) { get; } | Obtient les nœuds de sous-animation sous les animations actuelles |
+| [BindPoints](../../aspose.threed.animation/animationnode/bindpoints/) { get; } | Obtient les points de liaison de propriété actuels |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtient ou définit le nom. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtient la collection de toutes les propriétés. |
+| [SubAnimations](../../aspose.threed.animation/animationnode/subanimations/) { get; } | Obtient les nœuds de sous-animation sous les animations actuelles |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [CreateBindPoint](../../aspose.threed.animation/animationnode/createbindpoint)(A3DObject, string) | Crée un BindPoint basé sur le type de données de la propriété. |
-| [FindBindPoint](../../aspose.threed.animation/animationnode/findbindpoint)(string) | Trouve le point de liaison par nom. |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Trouve la propriété. Il peut s'agir d'une propriété dynamique (créée par CreateDynamicProperty/SetProperty) ou d'une propriété native (identifiée par son nom) |
-| [GetBindPoint](../../aspose.threed.animation/animationnode/getbindpoint)(A3DObject, string, bool) | Obtient le point de liaison de l'animation sur la propriété donnée. |
-| [GetKeyframeSequence](../../aspose.threed.animation/animationnode/getkeyframesequence#getkeyframesequence)(A3DObject, string, bool) | Obtient la séquence d'images clés sur la propriété donnée. |
-| [GetKeyframeSequence](../../aspose.threed.animation/animationnode/getkeyframesequence#getkeyframesequence_1)(A3DObject, string, string, bool) | Obtient la séquence d'images clés sur une propriété et un canal donnés. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Obtenir la valeur de la propriété spécifiée |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Supprime une propriété dynamique. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Supprimer la propriété spécifiée identifiée par name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Définit la valeur de la propriété spécifiée |
+| [CreateBindPoint](../../aspose.threed.animation/animationnode/createbindpoint/)(A3DObject, string) | Crée un BindPoint basé sur le type de données de la propriété. |
+| [FindBindPoint](../../aspose.threed.animation/animationnode/findbindpoint/)(A3DObject, string) | Trouve le point de liaison par cible et nom. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Trouve la propriété. Elle peut être une propriété dynamique (Créée par CreateDynamicProperty/SetProperty) ou une propriété native (Identifiée par son nom) |
+| [GetBindPoint](../../aspose.threed.animation/animationnode/getbindpoint/)(A3DObject, string, bool) | Obtient le point de liaison d'animation sur la propriété donnée. |
+| [GetKeyframeSequence](../../aspose.threed.animation/animationnode/getkeyframesequence/#getkeyframesequence)(A3DObject, string, bool) | Obtient la séquence d'images clés sur la propriété donnée. |
+| [GetKeyframeSequence](../../aspose.threed.animation/animationnode/getkeyframesequence/#getkeyframesequence_1)(A3DObject, string, string, bool) | Obtient la séquence d'images clés sur la propriété et le canal donnés. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtenir la valeur de la propriété spécifiée |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Supprime une propriété dynamique. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Supprime la propriété spécifiée identifiée par son nom |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Définit la valeur de la propriété spécifiée |
 
-### Voir également
+### Voir aussi
 
-* class [A3DObject](../../aspose.threed/a3dobject)
-* espace de noms [Aspose.ThreeD.Animation](../../aspose.threed.animation)
-* Assemblée [Aspose.3D](../../)
+* class [A3DObject](../../aspose.threed/a3dobject/)
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

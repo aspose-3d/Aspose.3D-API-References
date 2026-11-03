@@ -1,108 +1,130 @@
 ---
-title: CreatePolygon
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Crée un nouveau polygone avec tous les sommets définis dansindices . Pour créer un polygone sommet par sommet veuillez utiliserPolygonBuilderaspose.threed.entities/polygonbuilder .
+title: "Mesh.CreatePolygon"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Méthode Mesh. Crée un nouveau polygone avec tous les sommets définis dans les indices. Pour créer le polygone sommet par sommet, veuillez utiliser PolygonBuilder."
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.threed.entities/mesh/createpolygon/
 ---
 ## CreatePolygon(int[], int, int) {#createpolygon_3}
 
-Crée un nouveau polygone avec tous les sommets définis dans*indices* . Pour créer un polygone sommet par sommet, veuillez utiliser[`PolygonBuilder`](../../polygonbuilder) .
+Crée un nouveau polygone avec tous les sommets définis dans *indices*. Pour créer le polygone sommet par sommet, veuillez utiliser [`PolygonBuilder`](../../polygonbuilder/).
 
 ```csharp
 public void CreatePolygon(int[] indices, int offset, int length)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| indices | Int32[] | Tableau des indices de polygone, chaque index pointe vers un point de contrôle qui forme le polygone. |
-| offset | Int32 | Le décalage du premier index de polygone |
+| indices | Int32[] | Tableau des indices du polygone, chaque indice pointe vers un point de contrôle qui forme le polygone. |
+| offset | Int32 | Le décalage du premier indice du polygone |
 | length | Int32 | La longueur des indices |
 
-### Exemples
+## Exemples
+
+Le code suivant montre comment créer un nouveau polygone avec les indices des points de contrôle.
 
 ```csharp
+var mesh = new Mesh();
 int[] indices = new int[] {0, 1, 2};
 mesh.CreatePolygon(indices);
 ```
 
-### Voir également
+### Voir aussi
 
-* class [Mesh](../../mesh)
-* espace de noms [Aspose.ThreeD.Entities](../../mesh)
-* Assemblée [Aspose.3D](../../../)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreatePolygon(int[]) {#createpolygon_2}
 
-Crée un nouveau polygone avec tous les sommets définis dans*indices* . Pour créer un polygone sommet par sommet, veuillez utiliser[`PolygonBuilder`](../../polygonbuilder) .
+Crée un nouveau polygone avec tous les sommets définis dans *indices*. Pour créer le polygone sommet par sommet, veuillez utiliser [`PolygonBuilder`](../../polygonbuilder/).
 
 ```csharp
 public void CreatePolygon(int[] indices)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| indices | Int32[] | Tableau des indices de polygone, chaque index pointe vers un point de contrôle qui forme le polygone. |
+| indices | Int32[] | Tableau des indices du polygone, chaque indice pointe vers un point de contrôle qui forme le polygone. |
 
-### Exemples
+## Exemples
 
 ```csharp
+var mesh = new Mesh();
 int[] indices = new int[] {0, 1, 2};
 mesh.CreatePolygon(indices);
 ```
 
-### Voir également
+### Voir aussi
 
-* class [Mesh](../../mesh)
-* espace de noms [Aspose.ThreeD.Entities](../../mesh)
-* Assemblée [Aspose.3D](../../../)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreatePolygon(int, int, int, int) {#createpolygon_1}
 
-Créer un polygone à 4 vertices (quadruple)
+Crée un polygone avec 4 sommets (quad)
 
 ```csharp
 public void CreatePolygon(int v1, int v2, int v3, int v4)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| v1 | Int32 | Index du premier sommet |
+| v1 | Int32 | Indice du premier sommet |
 | v2 | Int32 | Indice du deuxième sommet |
-| v3 | Int32 | Index du troisième sommet |
-| v4 | Int32 | Index du quatrième sommet |
+| v3 | Int32 | Indice du troisième sommet |
+| v4 | Int32 | Indice du quatrième sommet |
 
-### Voir également
+## Exemples
 
-* class [Mesh](../../mesh)
-* espace de noms [Aspose.ThreeD.Entities](../../mesh)
-* Assemblée [Aspose.3D](../../../)
+Le code suivant montre comment créer un nouveau polygone avec les indices des points de contrôle.
+
+```csharp
+var mesh = new Mesh();
+mesh.CreatePolygon(0, 1, 2, 3);
+```
+
+### Voir aussi
+
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreatePolygon(int, int, int) {#createpolygon}
 
-Créer un polygone à 3 sommets (triangle)
+Crée un polygone avec 3 sommets (triangle)
 
 ```csharp
 public void CreatePolygon(int v1, int v2, int v3)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| v1 | Int32 | Index du premier sommet |
+| v1 | Int32 | Indice du premier sommet |
 | v2 | Int32 | Indice du deuxième sommet |
-| v3 | Int32 | Index du troisième sommet |
+| v3 | Int32 | Indice du troisième sommet |
 
-### Voir également
+## Exemples
 
-* class [Mesh](../../mesh)
-* espace de noms [Aspose.ThreeD.Entities](../../mesh)
-* Assemblée [Aspose.3D](../../../)
+Le code suivant montre comment créer un nouveau polygone avec les indices des points de contrôle.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+var mesh = new Mesh();
+mesh.CreatePolygon(0, 1, 2);
+```
+
+### Voir aussi
+
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
+
+

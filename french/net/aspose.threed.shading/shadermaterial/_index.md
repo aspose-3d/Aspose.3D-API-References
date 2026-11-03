@@ -1,14 +1,14 @@
 ---
-title: ShaderMaterial
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Un matériau de shader permet de décrire le matériau par un moteur de rendu externe ou un langage de shader. ShaderMaterial./shadermaterial les usagesShaderTechnique./shadertechniquepour décrire les détails du rendu concret et le plus adapté sera utilisé en fonction de la plateforme de rendu finale. Par exemple votreShaderMaterial./shadermaterial linstance peut avoir deux techniques une est définie par HLSL et une autre est définie par GLSL Sous une plateforme nonfenêtre le GLSL doit être utilisé à la place de HLSL
+title: "Classe ShaderMaterial"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Shading.ShaderMaterial. Un matériau shader permet de décrire le matériau via un moteur de rendu externe ou un langage de shader. ShaderMaterial utilise ShaderTechnique pour décrire les détails concrets du rendu et le plus approprié sera utilisé selon la plateforme de rendu finale. Par exemple, votre instance ShaderMaterial peut avoir deux techniques, l'une définie par HLSL et l'autre définie par GLSL. Sur une plateforme non‑window, le GLSL doit être utilisé à la place du HLSL."
 type: docs
-weight: 2330
+weight: 2580
 url: /fr/net/aspose.threed.shading/shadermaterial/
 ---
 ## ShaderMaterial class
 
-Un matériau de shader permet de décrire le matériau par un moteur de rendu externe ou un langage de shader. [`ShaderMaterial`](../shadermaterial) les usages[`ShaderTechnique`](../shadertechnique)pour décrire les détails du rendu concret, et le plus adapté sera utilisé en fonction de la plateforme de rendu finale. Par exemple, votre[`ShaderMaterial`](../shadermaterial) l'instance peut avoir deux techniques, une est définie par HLSL, et une autre est définie par GLSL Sous une plate-forme non-fenêtre, le GLSL doit être utilisé à la place de HLSL
+Un matériau shader permet de décrire le matériau via un moteur de rendu externe ou un langage de shader. `ShaderMaterial` utilise [`ShaderTechnique`](../shadertechnique/) pour décrire les détails concrets du rendu, et le plus approprié sera utilisé selon la plateforme de rendu finale. Par exemple, votre instance `ShaderMaterial` peut avoir deux techniques, l'une définie par HLSL, et l'autre définie par GLSL. Sur une plateforme non‑window, le GLSL doit être utilisé à la place du HLSL.
 
 ```csharp
 public class ShaderMaterial : Material
@@ -16,37 +16,37 @@ public class ShaderMaterial : Material
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ShaderMaterial](shadermaterial#constructor)() | Initialise une nouvelle instance du[`ShaderMaterial`](../shadermaterial) classe. |
-| [ShaderMaterial](shadermaterial#constructor_1)(string) | Initialise une nouvelle instance du[`ShaderMaterial`](../shadermaterial) classe. |
+| [ShaderMaterial](shadermaterial/#constructor)() | Initialise une nouvelle instance de la classe `ShaderMaterial`. |
+| [ShaderMaterial](shadermaterial/#constructor_1)(string) | Initialise une nouvelle instance de la classe `ShaderMaterial`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Obtient ou définit le nom. |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Obtient la collection de toutes les propriétés. |
-| [Techniques](../../aspose.threed.shading/shadermaterial/techniques) { get; } | Obtient toutes les techniques disponibles définies dans ce matériau. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtient ou définit le nom. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtient la collection de toutes les propriétés. |
+| [Techniques](../../aspose.threed.shading/shadermaterial/techniques/) { get; } | Obtient toutes les techniques disponibles définies dans ce matériau. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Trouve la propriété. Il peut s'agir d'une propriété dynamique (créée par CreateDynamicProperty/SetProperty) ou d'une propriété native (identifiée par son nom) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator)() | Obtient l'énumérateur pour énumérer les emplacements de texture internes. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Obtenir la valeur de la propriété spécifiée |
-| [GetTexture](../../aspose.threed.shading/material/gettexture)(string) | Obtient la texture à partir de l'emplacement spécifié, il peut s'agir du nom de la propriété du matériau ou du nom du paramètre du shader |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Supprime une propriété dynamique. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Supprimer la propriété spécifiée identifiée par name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Définit la valeur de la propriété spécifiée |
-| [SetTexture](../../aspose.threed.shading/material/settexture)(string, TextureBase) | Définit la texture à l'emplacement spécifié |
-| override [ToString](../../aspose.threed.shading/material/tostring)() | Formate l'objet en string |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Trouve la propriété. Elle peut être une propriété dynamique (Créée par CreateDynamicProperty/SetProperty) ou une propriété native (Identifiée par son nom) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | Obtient l'énumérateur pour énumérer les slots de texture internes. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtenir la valeur de la propriété spécifiée |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | Obtient la texture du slot spécifié, cela peut être le nom de la propriété du matériau ou le nom du paramètre du shader. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Supprime une propriété dynamique. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Supprime la propriété spécifiée identifiée par son nom |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Définit la valeur de la propriété spécifiée |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | Définit la texture au slot spécifié |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | Formate l'objet en chaîne |
 
-### Voir également
+### Voir aussi
 
-* class [Material](../material)
-* espace de noms [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* Assemblée [Aspose.3D](../../)
+* class [Material](../material/)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

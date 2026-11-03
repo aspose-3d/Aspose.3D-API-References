@@ -1,14 +1,14 @@
 ---
-title: PdfRenderMode
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Mode de rendu spécifie le style dans lequel lillustration 3D est rendue.
+title: "Enum PdfRenderMode"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Enum Aspose.ThreeD.Formats.PdfRenderMode. Le mode de rendu spécifie le style dans lequel l'œuvre 3D est rendue"
 type: docs
-weight: 1260
+weight: 1410
 url: /fr/net/aspose.threed.formats/pdfrendermode/
 ---
 ## PdfRenderMode enumeration
 
-Mode de rendu spécifie le style dans lequel l'illustration 3D est rendue.
+Le mode de rendu spécifie le style dans lequel l'œuvre 3D est rendue.
 
 ```csharp
 public enum PdfRenderMode
@@ -16,27 +16,27 @@ public enum PdfRenderMode
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
 | Solid | `0` | Affiche des formes géométriques texturées et éclairées. |
-| SolidWireframe | `1` | Affiche des formes géométriques texturées et éclairées (triangles) avec des bords d'une seule couleur au-dessus d'eux. |
-| Transparent | `2` | Affiche des formes géométriques texturées et éclairées (triangles) avec un niveau de transparence supplémentaire. |
-| TransparentWireframe | `3` | Affiche des formes géométriques texturées et éclairées (triangles) avec un niveau de transparence supplémentaire, avec des bords opaques d'une seule couleur par-dessus. |
-| BoundingBox | `4` | Affiche les bords de la boîte englobante de chaque nœud, alignés avec les axes de l'espace de coordonnées local pour ce nœud. |
-| TransparentBoundingBox | `5` | Affiche les faces des boîtes englobantes de chaque nœud, alignées sur les axes de l'espace de coordonnées local pour ce nœud, avec un niveau de transparence supplémentaire. |
-| TransparentBoundingBoxOutline | `6` | Affiche les bords et les faces des boîtes englobantes de chaque nœud, alignés sur les axes de l'espace de coordonnées local pour ce nœud, avec un niveau de transparence supplémentaire. |
-| Wireframe | `7` | Affiche uniquement les bords dans une seule couleur. |
-| ShadedWireframe | `8` | Affiche uniquement les arêtes, mais interpole leur couleur entre leurs deux sommets et applique un éclairage. |
-| HiddenWireframe | `9` | Affiche les bords dans une seule couleur, mais supprime les bords orientés vers l'arrière et obscurcis. |
-| Vertices | `10` | Affiche uniquement les sommets dans une seule couleur. |
-| ShadedVertices | `11` | Affiche uniquement les sommets, mais utilise leur couleur de sommet et applique l'éclairage. |
-| Illustration | `12` | Affiche les arêtes de silhouette avec des surfaces, supprime les lignes masquées. |
-| SolidOutline | `13` | Affiche les bords de la silhouette avec des surfaces éclairées et texturées, supprime les lignes obscurcies. |
-| ShadedIllustration | `14` | Affiche les bords de la silhouette avec des surfaces éclairées et texturées et un terme émissif supplémentaire pour supprimer les zones mal éclairées de l'illustration. |
+| SolidWireframe | `1` | Affiche des formes géométriques texturées et éclairées (triangles) avec des arêtes d’une seule couleur au-dessus. |
+| Transparent | `2` | Affiche des formes géométriques texturées et éclairées (triangles) avec un niveau supplémentaire de transparence. |
+| TransparentWireframe | `3` | Affiche des formes géométriques texturées et éclairées (triangles) avec un niveau supplémentaire de transparence, avec des arêtes opaques d’une seule couleur au-dessus. |
+| BoundingBox | `4` | Affiche les arêtes de la boîte englobante de chaque nœud, alignées avec les axes de l'espace de coordonnées local de ce nœud. |
+| TransparentBoundingBox | `5` | Affiche les faces des boîtes englobantes de chaque nœud, alignées avec les axes de l'espace de coordonnées local de ce nœud, avec un niveau supplémentaire de transparence. |
+| TransparentBoundingBoxOutline | `6` | Affiche les arêtes et les faces des boîtes englobantes de chaque nœud, alignées avec les axes de l'espace de coordonnées local de ce nœud, avec un niveau supplémentaire de transparence. |
+| Wireframe | `7` | Affiche uniquement les arêtes d’une seule couleur. |
+| ShadedWireframe | `8` | Affiche uniquement les arêtes, tout en interpolant leur couleur entre leurs deux sommets et en appliquant l’éclairage. |
+| HiddenWireframe | `9` | Affiche les arêtes d’une seule couleur, tout en supprimant les arêtes orientées vers l’arrière et les arêtes occultées. |
+| Vertices | `10` | Affiche uniquement les sommets d’une seule couleur. |
+| ShadedVertices | `11` | Affiche uniquement les sommets, tout en utilisant leur couleur de sommet et en appliquant l’éclairage. |
+| Illustration | `12` | Affiche les arêtes de silhouette avec les surfaces, supprime les lignes occultées. |
+| SolidOutline | `13` | Affiche les arêtes de silhouette avec des surfaces éclairées et texturées, supprime les lignes occultées. |
+| ShadedIllustration | `14` | Affiche les arêtes de silhouette avec des surfaces éclairées et texturées ainsi qu’un terme émissif supplémentaire pour éliminer les zones mal éclairées de l’œuvre. |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* Assemblée [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
