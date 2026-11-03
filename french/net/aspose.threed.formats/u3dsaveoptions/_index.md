@@ -1,14 +1,14 @@
 ---
-title: U3dSaveOptions
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Enregistrer les options pour la 3d universelle
+title: "Classe U3dSaveOptions"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Formats.U3dSaveOptions. Options d'enregistrement pour le 3D universel"
 type: docs
-weight: 1380
+weight: 1530
 url: /fr/net/aspose.threed.formats/u3dsaveoptions/
 ---
 ## U3dSaveOptions class
 
-Enregistrer les options pour la 3d universelle
+Options d'enregistrement pour le 3D universel
 
 ```csharp
 public class U3dSaveOptions : SaveOptions
@@ -16,31 +16,32 @@ public class U3dSaveOptions : SaveOptions
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [U3dSaveOptions](u3dsaveoptions)() | Constructeur de[`U3dSaveOptions`](../u3dsaveoptions) |
+| [U3dSaveOptions](u3dsaveoptions/)() | Constructeur de `U3dSaveOptions` |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [EmbedTextures](../../aspose.threed.formats/u3dsaveoptions/embedtextures) { get; set; } | Incorporer les textures externes dans le fichier U3D, la valeur par défaut est false. |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding) { get; set; } | Obtient ou définit l'encodage par défaut pour les fichiers texte. La valeur par défaut est nulle, ce qui signifie que l'importateur/exportateur décidera quel encodage utiliser. |
-| [ExportNormals](../../aspose.threed.formats/u3dsaveoptions/exportnormals) { get; set; } | Obtient ou définit s'il faut exporter des données normales. |
-| [ExportTextureCoordinates](../../aspose.threed.formats/u3dsaveoptions/exporttexturecoordinates) { get; set; } | Obtient ou définit s'il faut exporter les coordonnées de texture. |
-| [ExportVertexDiffuse](../../aspose.threed.formats/u3dsaveoptions/exportvertexdiffuse) { get; set; } | Obtient ou définit s'il faut exporter la couleur diffuse du sommet. |
-| [ExportVertexSpecular](../../aspose.threed.formats/u3dsaveoptions/exportvertexspecular) { get; set; } | Obtient ou définit s'il faut exporter la couleur spéculaire du sommet. |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat) { get; } | Obtient le format de fichier spécifié dans l'option Enregistrer/Charger actuelle. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename) { get; set; } | Le nom de fichier de la scène d'exportation/importation. Ceci est facultatif, mais utile lors de la sérialisation de ressources externes comme le matériel d'OBJ. |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem) { get; set; } | Autoriser l'utilisateur à gérer la gestion des dépendances externes lors du chargement/sauvegarde. |
-| [FlipCoordinateSystem](../../aspose.threed.formats/u3dsaveoptions/flipcoordinatesystem) { get; set; } | Obtient ou définit si le système de coordonnées d'inversion des points de contrôle/normal lors de l'importation/exportation. |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths) { get; set; } | Certains fichiers comme OBJ dépendent d'un fichier externe, les chemins de recherche permettront à Aspose.3D de rechercher un fichier externe à charger. |
-| [MeshCompression](../../aspose.threed.formats/u3dsaveoptions/meshcompression) { get; set; } | Obtient ou définit s'il faut activer la compression des données de maillage. |
+| [EmbedTextures](../../aspose.threed.formats/u3dsaveoptions/embedtextures/) { get; set; } | Intègre les textures externes dans le fichier U3D, la valeur par défaut est false. |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Obtient ou définit l'encodage par défaut pour les fichiers texte. La valeur par défaut est null, ce qui signifie que l'importateur/exportateur décidera de l'encodage à utiliser. |
+| [ExportNormals](../../aspose.threed.formats/u3dsaveoptions/exportnormals/) { get; set; } | Obtient ou définit si les données normales doivent être exportées. |
+| [ExportTextureCoordinates](../../aspose.threed.formats/u3dsaveoptions/exporttexturecoordinates/) { get; set; } | Obtient ou définit si les coordonnées de texture doivent être exportées. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | Essaye de copier les textures utilisées dans la scène vers le répertoire de sortie. |
+| [ExportVertexDiffuse](../../aspose.threed.formats/u3dsaveoptions/exportvertexdiffuse/) { get; set; } | Obtient ou définit si la couleur diffuse des sommets doit être exportée. |
+| [ExportVertexSpecular](../../aspose.threed.formats/u3dsaveoptions/exportvertexspecular/) { get; set; } | Obtient ou définit si la couleur spéculaire du sommet doit être exportée. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Obtient le format de fichier spécifié dans l'option Enregistrement/Chargement actuelle. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Le nom de fichier de la scène exportée/importée. Ceci est optionnel, mais utile lors de la sérialisation d'actifs externes comme le matériau d'OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Permet à l'utilisateur de gérer la façon de gérer les dépendances externes pendant le chargement/enregistrement. |
+| [FlipCoordinateSystem](../../aspose.threed.formats/u3dsaveoptions/flipcoordinatesystem/) { get; set; } | Obtient ou définit si le système de coordonnées des points de contrôle/normales doit être inversé lors de l'importation/exportation. |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Certains fichiers comme OBJ dépendent d'un fichier externe, les chemins de recherche permettront à Aspose.3D de rechercher le fichier externe à charger. |
+| [MeshCompression](../../aspose.threed.formats/u3dsaveoptions/meshcompression/) { get; set; } | Obtient ou définit si la compression des données de maillage doit être activée. |
 
-### Voir également
+### Voir aussi
 
-* class [SaveOptions](../saveoptions)
-* espace de noms [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* Assemblée [Aspose.3D](../../)
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

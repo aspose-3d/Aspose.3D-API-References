@@ -1,14 +1,14 @@
 ---
-title: DracoSaveOptions
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Enregistrer les options pour les fichiers Google draco
+title: "Classe DracoSaveOptions"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Formats.DracoSaveOptions. Options d'enregistrement pour les fichiers Google Draco."
 type: docs
-weight: 1100
+weight: 1160
 url: /fr/net/aspose.threed.formats/dracosaveoptions/
 ---
 ## DracoSaveOptions class
 
-Enregistrer les options pour les fichiers Google draco
+Options d'enregistrement pour les fichiers Google draco
 
 ```csharp
 public class DracoSaveOptions : SaveOptions
@@ -16,30 +16,32 @@ public class DracoSaveOptions : SaveOptions
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [DracoSaveOptions](dracosaveoptions)() | Construire une configuration par défaut pour enregistrer les fichiers draco. |
+| [DracoSaveOptions](dracosaveoptions/)() | Construire une configuration par défaut pour l'enregistrement des fichiers Draco. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ColorBits](../../aspose.threed.formats/dracosaveoptions/colorbits) { get; set; } | Bits de quantification pour la couleur du sommet, la valeur par défaut est 10 |
-| [CompressionLevel](../../aspose.threed.formats/dracosaveoptions/compressionlevel) { get; set; } | Niveau de compression, la valeur par défaut estStandard |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding) { get; set; } | Obtient ou définit l'encodage par défaut pour les fichiers texte. La valeur par défaut est nulle, ce qui signifie que l'importateur/exportateur décidera quel encodage utiliser. |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat) { get; } | Obtient le format de fichier spécifié dans l'option Enregistrer/Charger actuelle. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename) { get; set; } | Le nom de fichier de la scène d'exportation/importation. Ceci est facultatif, mais utile lors de la sérialisation de ressources externes comme le matériel d'OBJ. |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem) { get; set; } | Autoriser l'utilisateur à gérer la gestion des dépendances externes lors du chargement/sauvegarde. |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths) { get; set; } | Certains fichiers comme OBJ dépendent d'un fichier externe, les chemins de recherche permettront à Aspose.3D de rechercher un fichier externe à charger. |
-| [NormalBits](../../aspose.threed.formats/dracosaveoptions/normalbits) { get; set; } | Bits de quantification pour les vecteurs normaux, la valeur par défaut est 10 |
-| [PointCloud](../../aspose.threed.formats/dracosaveoptions/pointcloud) { get; set; } | Exporter la scène sous forme de nuage de points, la valeur par défaut est false. |
-| [PositionBits](../../aspose.threed.formats/dracosaveoptions/positionbits) { get; set; } | Bits de quantification pour la position, la valeur par défaut est 14 |
-| [TextureCoordinateBits](../../aspose.threed.formats/dracosaveoptions/texturecoordinatebits) { get; set; } | Bits de quantification pour les coordonnées de texture, la valeur par défaut est 12 |
+| [ApplyUnitScale](../../aspose.threed.formats/dracosaveoptions/applyunitscale/) { get; set; } | Appliquer [`UnitScaleFactor`](../../aspose.threed/assetinfo/unitscalefactor/) au maillage. La valeur par défaut est false. |
+| [ColorBits](../../aspose.threed.formats/dracosaveoptions/colorbits/) { get; set; } | Bits de quantification pour la couleur des sommets, la valeur par défaut est 10 |
+| [CompressionLevel](../../aspose.threed.formats/dracosaveoptions/compressionlevel/) { get; set; } | Niveau de compression, la valeur par défaut est Standard |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Obtient ou définit l'encodage par défaut pour les fichiers texte. La valeur par défaut est null, ce qui signifie que l'importateur/exportateur décidera de l'encodage à utiliser. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | Essaye de copier les textures utilisées dans la scène vers le répertoire de sortie. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Obtient le format de fichier spécifié dans l'option Enregistrement/Chargement actuelle. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Le nom de fichier de la scène exportée/importée. Ceci est optionnel, mais utile lors de la sérialisation d'actifs externes comme le matériau d'OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Permet à l'utilisateur de gérer la façon de gérer les dépendances externes pendant le chargement/enregistrement. |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Certains fichiers comme OBJ dépendent d'un fichier externe, les chemins de recherche permettront à Aspose.3D de rechercher le fichier externe à charger. |
+| [NormalBits](../../aspose.threed.formats/dracosaveoptions/normalbits/) { get; set; } | Bits de quantification pour les vecteurs normaux, la valeur par défaut est 10 |
+| [PointCloud](../../aspose.threed.formats/dracosaveoptions/pointcloud/) { get; set; } | Exporter la scène en nuage de points, la valeur par défaut est false. |
+| [PositionBits](../../aspose.threed.formats/dracosaveoptions/positionbits/) { get; set; } | Bits de quantification pour la position, la valeur par défaut est 14 |
+| [TextureCoordinateBits](../../aspose.threed.formats/dracosaveoptions/texturecoordinatebits/) { get; set; } | Bits de quantification pour les coordonnées de texture, la valeur par défaut est 12 |
 
-### Voir également
+### Voir aussi
 
-* class [SaveOptions](../saveoptions)
-* espace de noms [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* Assemblée [Aspose.3D](../../)
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: Skeleton
-second_title: Référence de l'API Aspose.3D pour .NET
-description: LeSkeleton./skeletonest principalement utilisé par les logiciels de CAO pour aider le concepteur à manipuler la transformation de la structure du squelette il est généralement inutile en dehors des logiciels de CAO. Pour que la hiérarchie du squelette agisse comme un seul objet dans le logiciel de CAO il est nécessaire de marquer le hautSkeleton./skeleton nœud comme racine en définissantType./skeleton/type àSkeleton  et tous les enfants définis surBone
+title: "Classe Skeleton"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Entities.Skeleton. Le Skeleton est principalement utilisé par les logiciels CAD pour aider le concepteur à manipuler la transformation de la structure squelettique, il est généralement inutile en dehors des logiciels CAD. Pour que la hiérarchie du squelette se comporte comme un seul objet dans le logiciel CAD, il est nécessaire de marquer le nœud Skeleton supérieur comme racine en définissant Type sur Skeleton et tous les enfants sur Bone."
 type: docs
-weight: 650
+weight: 710
 url: /fr/net/aspose.threed.entities/skeleton/
 ---
 ## Skeleton class
 
-Le[`Skeleton`](../skeleton)est principalement utilisé par les logiciels de CAO pour aider le concepteur à manipuler la transformation de la structure du squelette, il est généralement inutile en dehors des logiciels de CAO. Pour que la hiérarchie du squelette agisse comme un seul objet dans le logiciel de CAO, il est nécessaire de marquer le haut[`Skeleton`](../skeleton) nœud comme racine en définissant[`Type`](./type) àSkeleton , et tous les enfants définis surBone
+Le `Skeleton` est principalement utilisé par les logiciels CAD pour aider le concepteur à manipuler la transformation de la structure squelettique, il est généralement inutile en dehors des logiciels CAD. Pour que la hiérarchie du squelette se comporte comme un seul objet dans le logiciel CAD, il est nécessaire de marquer le nœud `Skeleton` supérieur comme racine en définissant [`Type`](./type/) sur Skeleton, et tous les enfants sur Bone.
 
 ```csharp
 public class Skeleton : Entity
@@ -16,40 +16,41 @@ public class Skeleton : Entity
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Skeleton](skeleton#constructor)() | Initialise une nouvelle instance du[`Skeleton`](../skeleton) classe. |
-| [Skeleton](skeleton#constructor_1)(string) | Initialise une nouvelle instance du[`Skeleton`](../skeleton) classe. |
+| [Skeleton](skeleton/#constructor)() | Initialise une nouvelle instance de la classe `Skeleton`. |
+| [Skeleton](skeleton/#constructor_1)(string) | Initialise une nouvelle instance de la classe `Skeleton`. |
+| [Skeleton](skeleton/#constructor_2)(string, SkeletonType) | Initialise une nouvelle instance de la classe `Skeleton`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Obtient ou définit s'il faut exclure cette entité lors de l'exportation. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Obtient ou définit le nom. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Obtient ou définit le premier nœud parent, si défini le premier nœud parent, cette entité sera détachée des autres nœuds parents. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Obtient tous les nœuds parents, une entité peut être attachée à plusieurs nœuds parents pour l'instanciation de la géométrie |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Obtient la collection de toutes les propriétés. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Obtient la scène à laquelle cet objet appartient |
-| [Size](../../aspose.threed.entities/skeleton/size) { get; set; } | Obtient ou définit la taille du nœud du membre utilisée dans le logiciel de CAO pour représenter la taille de l'os. |
-| [Type](../../aspose.threed.entities/skeleton/type) { get; set; } | Obtient ou définit le type du squelette. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Obtient ou définit si cette entité doit être exclue lors de l'exportation. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtient ou définit le nom. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Obtient ou définit le premier nœud parent, si le premier nœud parent est défini, cette entité sera détachée des autres nœuds parents. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Obtient tous les nœuds parents, une entité peut être attachée à plusieurs nœuds parents pour l'instanciation de géométrie |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtient la collection de toutes les propriétés. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Obtient la scène à laquelle cet objet appartient |
+| [Size](../../aspose.threed.entities/skeleton/size/) { get; set; } | Obtient ou définit la taille du nœud de membre utilisée dans les logiciels CAD pour représenter la taille de l'os. |
+| [Type](../../aspose.threed.entities/skeleton/type/) { get; set; } | Obtient ou définit le type du squelette. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Trouve la propriété. Il peut s'agir d'une propriété dynamique (créée par CreateDynamicProperty/SetProperty) ou d'une propriété native (identifiée par son nom) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Obtient la boîte englobante de l'entité actuelle dans son système de coordonnées de l'espace objet. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | Obtient la clé du rendu d'entité enregistré dans le rendu |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Obtenir la valeur de la propriété spécifiée |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Supprime une propriété dynamique. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Supprimer la propriété spécifiée identifiée par name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Définit la valeur de la propriété spécifiée |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Trouve la propriété. Elle peut être une propriété dynamique (Créée par CreateDynamicProperty/SetProperty) ou une propriété native (Identifiée par son nom) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Obtient la boîte englobante de l'entité actuelle dans son système de coordonnées en espace objet. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | Obtient la clé du rendu d'entité enregistrée dans le moteur de rendu |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtenir la valeur de la propriété spécifiée |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Supprime une propriété dynamique. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Supprime la propriété spécifiée identifiée par son nom |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Définit la valeur de la propriété spécifiée |
 
-### Voir également
+### Voir aussi
 
-* class [Entity](../../aspose.threed/entity)
-* espace de noms [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* Assemblée [Aspose.3D](../../)
+* class [Entity](../../aspose.threed/entity/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

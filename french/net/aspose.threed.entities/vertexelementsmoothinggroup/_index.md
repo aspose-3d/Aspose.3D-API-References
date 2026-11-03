@@ -1,14 +1,14 @@
 ---
-title: VertexElementSmoothingGroup
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Un groupe de lissage est un groupe de polygones dans un maillage de polygone qui devrait apparaître pour former une surface lisse. Certains premiers logiciels de modélisation 3D comme 3D studio max pour DOS utilisaient un groupe de lissage pour éviter de stocker le vecteur normal pour chaque sommet de maillage.
+title: "Classe VertexElementSmoothingGroup"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Entities.VertexElementSmoothingGroup. Un groupe de lissage est un groupe de polygones dans un maillage polygonal qui doit apparaître comme une surface lisse. Certains logiciels de modélisation 3D anciens, comme 3D Studio Max pour DOS, utilisaient le groupe de lissage pour éviter de stocker le vecteur normal pour chaque sommet du maillage."
 type: docs
-weight: 850
+weight: 910
 url: /fr/net/aspose.threed.entities/vertexelementsmoothinggroup/
 ---
 ## VertexElementSmoothingGroup class
 
-Un groupe de lissage est un groupe de polygones dans un maillage de polygone qui devrait apparaître pour former une surface lisse. Certains premiers logiciels de modélisation 3D comme 3D studio max pour DOS utilisaient un groupe de lissage pour éviter de stocker le vecteur normal pour chaque sommet de maillage.
+Un groupe de lissage est un groupe de polygones dans un maillage polygonal qui doit apparaître comme une surface lisse. Certains logiciels de modélisation 3D anciens, comme 3D Studio Max pour DOS, utilisaient le groupe de lissage pour éviter de stocker le vecteur normal pour chaque sommet du maillage.
 
 ```csharp
 public class VertexElementSmoothingGroup : VertexElementIntsTemplate
@@ -16,35 +16,35 @@ public class VertexElementSmoothingGroup : VertexElementIntsTemplate
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [VertexElementSmoothingGroup](vertexelementsmoothinggroup)() | Initialise une nouvelle instance du[`VertexElementSmoothingGroup`](../vertexelementsmoothinggroup) classe. |
+| [VertexElementSmoothingGroup](vertexelementsmoothinggroup/)() | Initialise une nouvelle instance de la classe `VertexElementSmoothingGroup`. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Data](../../aspose.threed.entities/vertexelementintstemplate/data) { get; } | Obtient les données de sommet |
-| [Indices](../../aspose.threed.entities/vertexelement/indices) { get; } | Obtient les indices data |
-| [MappingMode](../../aspose.threed.entities/vertexelement/mappingmode) { get; set; } | Obtient ou définit la façon dont l'élément est mappé. |
-| [Name](../../aspose.threed.entities/vertexelement/name) { get; set; } | Obtient ou définit le nom. |
-| [ReferenceMode](../../aspose.threed.entities/vertexelement/referencemode) { get; set; } | Obtient ou définit la façon dont l'élément est référencé. |
-| [VertexElementType](../../aspose.threed.entities/vertexelement/vertexelementtype) { get; } | Obtient le type du[`VertexElement`](../vertexelement) |
+| [Data](../../aspose.threed.entities/vertexelementintstemplate/data/) { get; } | Obtient les données du sommet |
+| [Indices](../../aspose.threed.entities/vertexelement/indices/) { get; } | Obtient les données des indices |
+| [MappingMode](../../aspose.threed.entities/vertexelement/mappingmode/) { get; set; } | Obtient ou définit comment l'élément est mappé. |
+| [Name](../../aspose.threed.entities/vertexelement/name/) { get; set; } | Obtient ou définit le nom. |
+| [ReferenceMode](../../aspose.threed.entities/vertexelement/referencemode/) { get; set; } | Obtient ou définit comment l'élément est référencé. |
+| [VertexElementType](../../aspose.threed.entities/vertexelement/vertexelementtype/) { get; } | Obtient le type du [`VertexElement`](../vertexelement/) |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| override [Clear](../../aspose.threed.entities/vertexelementintstemplate/clear)() | Supprime tous les éléments des tableaux directs et d'index. |
-| [CopyTo](../../aspose.threed.entities/vertexelementintstemplate/copyto)(VertexElementIntsTemplate) | Copie les données vers l'élément spécifié |
-| [SetData](../../aspose.threed.entities/vertexelementintstemplate/setdata)(int[]) | Charger les données |
-| [SetIndices](../../aspose.threed.entities/vertexelement/setindices)(int[]) | Charger les indices |
-| override [ToString](../../aspose.threed.entities/vertexelement/tostring)() | Représentation sous forme de chaîne de l'élément de sommet. |
+| override [Clear](../../aspose.threed.entities/vertexelementintstemplate/clear/)() | Supprime tous les éléments des tableaux direct et index. |
+| [CopyTo](../../aspose.threed.entities/vertexelementintstemplate/copyto/)(VertexElementIntsTemplate) | Copie les données vers l'élément spécifié |
+| [SetData](../../aspose.threed.entities/vertexelementintstemplate/setdata/)(int[]) | Charger les données |
+| [SetIndices](../../aspose.threed.entities/vertexelement/setindices/)(int[]) | Charger les indices |
+| override [ToString](../../aspose.threed.entities/vertexelement/tostring/)() | Représentation sous forme de chaîne de l'élément de sommet. |
 
-### Voir également
+### Voir aussi
 
-* class [VertexElementIntsTemplate](../vertexelementintstemplate)
-* espace de noms [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* Assemblée [Aspose.3D](../../)
+* class [VertexElementIntsTemplate](../vertexelementintstemplate/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

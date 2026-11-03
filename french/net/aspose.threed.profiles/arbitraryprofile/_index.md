@@ -1,14 +1,14 @@
 ---
-title: ArbitraryProfile
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Cette classe vous permet de construire un profil 2D directement à partir dune courbe arbitraire.
+title: "Classe ArbitraryProfile"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Profiles.ArbitraryProfile. Cette classe vous permet de créer un profil 2D directement à partir d'une courbe arbitraire"
 type: docs
-weight: 1510
+weight: 1670
 url: /fr/net/aspose.threed.profiles/arbitraryprofile/
 ---
 ## ArbitraryProfile class
 
-Cette classe vous permet de construire un profil 2D directement à partir d'une courbe arbitraire.
+Cette classe vous permet de créer un profil 2D directement à partir d'une courbe arbitraire.
 
 ```csharp
 public class ArbitraryProfile : Profile
@@ -16,39 +16,40 @@ public class ArbitraryProfile : Profile
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ArbitraryProfile](arbitraryprofile#constructor)() | Constructeur de[`ArbitraryProfile`](../arbitraryprofile) |
-| [ArbitraryProfile](arbitraryprofile#constructor_1)(Curve) | Constructeur de[`ArbitraryProfile`](../arbitraryprofile) avec une courbe initiale. |
+| [ArbitraryProfile](arbitraryprofile/#constructor)() | Constructeur de `ArbitraryProfile` |
+| [ArbitraryProfile](arbitraryprofile/#constructor_1)(Curve) | Constructeur de `ArbitraryProfile` avec une courbe initiale. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Curve](../../aspose.threed.profiles/arbitraryprofile/curve) { get; set; } | La courbe utilisée pour construire le profil |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Obtient ou définit s'il faut exclure cette entité lors de l'exportation. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Obtient ou définit le nom. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Obtient ou définit le premier nœud parent, si défini le premier nœud parent, cette entité sera détachée des autres nœuds parents. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Obtient tous les nœuds parents, une entité peut être attachée à plusieurs nœuds parents pour l'instanciation de la géométrie |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Obtient la collection de toutes les propriétés. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Obtient la scène à laquelle cet objet appartient |
+| [Curve](../../aspose.threed.profiles/arbitraryprofile/curve/) { get; set; } | La courbe utilisée pour construire le profil |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Obtient ou définit si cette entité doit être exclue lors de l'exportation. |
+| [Holes](../../aspose.threed.profiles/arbitraryprofile/holes/) { get; } | Trous du profil, également représentés comme courbe |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtient ou définit le nom. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Obtient ou définit le premier nœud parent, si le premier nœud parent est défini, cette entité sera détachée des autres nœuds parents. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Obtient tous les nœuds parents, une entité peut être attachée à plusieurs nœuds parents pour l'instanciation de géométrie |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtient la collection de toutes les propriétés. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Obtient la scène à laquelle cet objet appartient |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Trouve la propriété. Il peut s'agir d'une propriété dynamique (créée par CreateDynamicProperty/SetProperty) ou d'une propriété native (identifiée par son nom) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Obtient la boîte englobante de l'entité actuelle dans son système de coordonnées de l'espace objet. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey)() | Obtient la clé du rendu d'entité enregistré dans le rendu |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Obtenir la valeur de la propriété spécifiée |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Supprime une propriété dynamique. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Supprimer la propriété spécifiée identifiée par name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Définit la valeur de la propriété spécifiée |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Trouve la propriété. Elle peut être une propriété dynamique (Créée par CreateDynamicProperty/SetProperty) ou une propriété native (Identifiée par son nom) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Obtient la boîte englobante de l'entité actuelle dans son système de coordonnées en espace objet. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | Obtient la clé du rendu d'entité enregistrée dans le moteur de rendu |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtenir la valeur de la propriété spécifiée |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Supprime une propriété dynamique. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Supprime la propriété spécifiée identifiée par son nom |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Définit la valeur de la propriété spécifiée |
 
-### Voir également
+### Voir aussi
 
-* class [Profile](../profile)
-* espace de noms [Aspose.ThreeD.Profiles](../../aspose.threed.profiles)
-* Assemblée [Aspose.3D](../../)
+* class [Profile](../profile/)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

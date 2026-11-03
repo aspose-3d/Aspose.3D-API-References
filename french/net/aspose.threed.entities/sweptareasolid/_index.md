@@ -1,14 +1,14 @@
 ---
-title: SweptAreaSolid
-second_title: Référence de l'API Aspose.3D pour .NET
-description: ASweptAreaSolid./sweptareasolid construit une géométrie en balayant un profil le long dune directrice.
+title: "Classe SweptAreaSolid"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Entities.SweptAreaSolid. Un SweptAreaSolid construit une géométrie en balayant un profil le long d'une directrice."
 type: docs
-weight: 690
+weight: 750
 url: /fr/net/aspose.threed.entities/sweptareasolid/
 ---
 ## SweptAreaSolid class
 
-A[`SweptAreaSolid`](../sweptareasolid) construit une géométrie en balayant un profil le long d'une directrice.
+Un `SweptAreaSolid` construit une géométrie en balayant un profil le long d’une directrice.
 
 ```csharp
 public class SweptAreaSolid : Entity, IMeshConvertible
@@ -16,43 +16,64 @@ public class SweptAreaSolid : Entity, IMeshConvertible
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [SweptAreaSolid](sweptareasolid)() | Default_Constructor |
+| [SweptAreaSolid](sweptareasolid/)() | Le constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Directrix](../../aspose.threed.entities/sweptareasolid/directrix) { get; set; } | La directrice avec laquelle la zone balayée balaie. |
-| [EndPoint](../../aspose.threed.entities/sweptareasolid/endpoint) { get; set; } | Le point final de la directrice. |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Obtient ou définit s'il faut exclure cette entité lors de l'exportation. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Obtient ou définit le nom. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Obtient ou définit le premier nœud parent, si défini le premier nœud parent, cette entité sera détachée des autres nœuds parents. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Obtient tous les nœuds parents, une entité peut être attachée à plusieurs nœuds parents pour l'instanciation de la géométrie |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Obtient la collection de toutes les propriétés. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Obtient la scène à laquelle cet objet appartient |
-| [Shape](../../aspose.threed.entities/sweptareasolid/shape) { get; set; } | Le profil de base pour construire la géométrie. |
-| [StartPoint](../../aspose.threed.entities/sweptareasolid/startpoint) { get; set; } | Le point de départ de la directrice. |
+| [Directrix](../../aspose.threed.entities/sweptareasolid/directrix/) { get; set; } | La directrice le long de laquelle la zone balayée se déplace. |
+| [EndPoint](../../aspose.threed.entities/sweptareasolid/endpoint/) { get; set; } | Le point final de la directrice. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Obtient ou définit si cette entité doit être exclue lors de l'exportation. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtient ou définit le nom. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Obtient ou définit le premier nœud parent, si le premier nœud parent est défini, cette entité sera détachée des autres nœuds parents. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Obtient tous les nœuds parents, une entité peut être attachée à plusieurs nœuds parents pour l'instanciation de géométrie |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtient la collection de toutes les propriétés. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Obtient la scène à laquelle cet objet appartient |
+| [Shape](../../aspose.threed.entities/sweptareasolid/shape/) { get; set; } | Le profil de base pour construire la géométrie. |
+| [StartPoint](../../aspose.threed.entities/sweptareasolid/startpoint/) { get; set; } | Le point de départ de la directrice. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Trouve la propriété. Il peut s'agir d'une propriété dynamique (créée par CreateDynamicProperty/SetProperty) ou d'une propriété native (identifiée par son nom) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Obtient la boîte englobante de l'entité actuelle dans son système de coordonnées de l'espace objet. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | Obtient la clé du rendu d'entité enregistré dans le rendu |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Obtenir la valeur de la propriété spécifiée |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Supprime une propriété dynamique. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Supprimer la propriété spécifiée identifiée par name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Définit la valeur de la propriété spécifiée |
-| [ToMesh](../../aspose.threed.entities/sweptareasolid/tomesh)() | Convertir l'objet actuel en mesh |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Trouve la propriété. Elle peut être une propriété dynamique (Créée par CreateDynamicProperty/SetProperty) ou une propriété native (Identifiée par son nom) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Obtient la boîte englobante de l'entité actuelle dans son système de coordonnées en espace objet. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | Obtient la clé du rendu d'entité enregistrée dans le moteur de rendu |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtenir la valeur de la propriété spécifiée |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Supprime une propriété dynamique. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Supprime la propriété spécifiée identifiée par son nom |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Définit la valeur de la propriété spécifiée |
+| [ToMesh](../../aspose.threed.entities/sweptareasolid/tomesh/)() | Convertir l'objet actuel en maillage |
 
-### Voir également
+## Exemples
 
-* class [Entity](../../aspose.threed/entity)
-* interface [IMeshConvertible](../imeshconvertible)
-* espace de noms [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* Assemblée [Aspose.3D](../../)
+Le code suivant montre comment modéliser une entité solide en balayant une forme en C sur un cercle.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+var directrix = new Circle(20);
+var shape = new CShape();
+
+var swept = new SweptAreaSolid()
+{
+  Shape = shape,
+  Directrix = directrix,
+  StartPoint = EndPoint.FromDegree(0),
+  EndPoint = EndPoint.FromDegree(130)
+};
+
+var scene = new Scene();
+scene.RootNode.CreateChildNode(swept);
+scene.Save("swept.obj");
+```
+
+### Voir aussi
+
+* class [Entity](../../aspose.threed/entity/)
+* interface [IMeshConvertible](../imeshconvertible/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
+
+

@@ -1,14 +1,14 @@
 ---
-title: UsdSaveOptions
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Enregistrer les options pour les formats USD/USDZ.
+title: "Classe UsdSaveOptions"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Aspose.ThreeD.Formats.UsdSaveOptions classe. Options d'enregistrement pour les formats USD/USDZ"
 type: docs
-weight: 1390
+weight: 1540
 url: /fr/net/aspose.threed.formats/usdsaveoptions/
 ---
 ## UsdSaveOptions class
 
-Enregistrer les options pour les formats USD/USDZ.
+Options d'enregistrement pour les formats USD/USDZ.
 
 ```csharp
 public class UsdSaveOptions : SaveOptions
@@ -16,28 +16,29 @@ public class UsdSaveOptions : SaveOptions
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [UsdSaveOptions](usdsaveoptions#constructor)() | Initialiser un nouveau[`UsdSaveOptions`](../usdsaveoptions) avec[`USD`](../../aspose.threed/fileformat/usd) format |
-| [UsdSaveOptions](usdsaveoptions#constructor_1)(FileFormat) | Initialiser un nouveau[`UsdSaveOptions`](../usdsaveoptions) avec le format USD/USDZ spécifié. |
+| [UsdSaveOptions](usdsaveoptions/#constructor)() | Initialisez un nouveau `UsdSaveOptions` avec le format [`USD`](../../aspose.threed/fileformat/usd/) |
+| [UsdSaveOptions](usdsaveoptions/#constructor_1)(FileFormat) | Initialisez un nouveau `UsdSaveOptions` avec le format USD/USDZ spécifié. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding) { get; set; } | Obtient ou définit l'encodage par défaut pour les fichiers texte. La valeur par défaut est nulle, ce qui signifie que l'importateur/exportateur décidera quel encodage utiliser. |
-| [ExportMetaData](../../aspose.threed.formats/usdsaveoptions/exportmetadata) { get; set; } | Exporter les propriétés du nœud via le champ customData d'USD. |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat) { get; } | Obtient le format de fichier spécifié dans l'option Enregistrer/Charger actuelle. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename) { get; set; } | Le nom de fichier de la scène d'exportation/importation. Ceci est facultatif, mais utile lors de la sérialisation de ressources externes comme le matériel d'OBJ. |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem) { get; set; } | Autoriser l'utilisateur à gérer la gestion des dépendances externes lors du chargement/sauvegarde. |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths) { get; set; } | Certains fichiers comme OBJ dépendent d'un fichier externe, les chemins de recherche permettront à Aspose.3D de rechercher un fichier externe à charger. |
-| [MaterialConverter](../../aspose.threed.formats/usdsaveoptions/materialconverter) { get; set; } | Convertisseur personnalisé pour convertir le matériau de la géométrie en matériau PBR Si cela n'est pas attribué, l'exportateur USD convertira automatiquement le matériau standard en matériau PBR. La valeur par défaut est null |
-| [PrimitiveToMesh](../../aspose.threed.formats/usdsaveoptions/primitivetomesh) { get; set; } | Convertissez les entités primitives en maillage lors de l'exportation. Ou encodez directement les primitives dans le fichier de sortie (utilisera la définition d'extension d'Aspose pour les primitives non officielles comme Dish, Torus) La valeur par défaut est true. |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Obtient ou définit l'encodage par défaut pour les fichiers texte. La valeur par défaut est null, ce qui signifie que l'importateur/exportateur décidera de l'encodage à utiliser. |
+| [ExportMetaData](../../aspose.threed.formats/usdsaveoptions/exportmetadata/) { get; set; } | Exportez les propriétés du nœud via le champ customData d'USD. |
+| [ExportTextures](../../aspose.threed.formats/saveoptions/exporttextures/) { get; set; } | Essaye de copier les textures utilisées dans la scène vers le répertoire de sortie. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Obtient le format de fichier spécifié dans l'option Enregistrement/Chargement actuelle. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Le nom de fichier de la scène exportée/importée. Ceci est optionnel, mais utile lors de la sérialisation d'actifs externes comme le matériau d'OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Permet à l'utilisateur de gérer la façon de gérer les dépendances externes pendant le chargement/enregistrement. |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Certains fichiers comme OBJ dépendent d'un fichier externe, les chemins de recherche permettront à Aspose.3D de rechercher le fichier externe à charger. |
+| [MaterialConverter](../../aspose.threed.formats/usdsaveoptions/materialconverter/) { get; set; } | Convertisseur personnalisé pour convertir le matériau de la géométrie en matériau PBR. Si cela n'est pas assigné, l'exportateur USD convertira automatiquement le matériau standard en matériau PBR. Valeur par défaut : null |
+| [PrimitiveToMesh](../../aspose.threed.formats/usdsaveoptions/primitivetomesh/) { get; set; } | Convertissez les entités primitives en maillage lors de l'exportation. Ou encodez directement les primitives dans le fichier de sortie (utilisera la définition d'extension d'Aspose pour les primitives non officielles comme Dish, Torus). Valeur par défaut : true. |
 
-### Voir également
+### Voir aussi
 
-* class [SaveOptions](../saveoptions)
-* espace de noms [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* Assemblée [Aspose.3D](../../)
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,207 +1,375 @@
 ---
-title: Save
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Enregistre la scène à diffuser en utilisant le format de fichier spécifié.
+title: "Scene.Save"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Méthode Scene. Enregistre la scène dans le flux en utilisant le format de fichier spécifié"
 type: docs
 weight: 160
 url: /fr/net/aspose.threed/scene/save/
 ---
 ## Save(Stream, FileFormat) {#save}
 
-Enregistre la scène à diffuser en utilisant le format de fichier spécifié.
+Enregistre la scène dans le flux en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(Stream stream, FileFormat format)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Flux d'entrée, l'utilisateur est responsable de la fermeture du flux. |
+| flux | Flux | Flux d'entrée, l'utilisateur est responsable de fermer le flux. |
 | format | FileFormat | Format. |
 
-### Voir également
+### Exceptions
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
+
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, FileFormat.USDZ);
+}
+```
+
+### Voir aussi
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, FileFormat, CancellationToken) {#save_1}
 
-Enregistre la scène à diffuser en utilisant le format de fichier spécifié.
+Enregistre la scène dans le flux en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(Stream stream, FileFormat format, CancellationToken cancellationToken)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Flux d'entrée, l'utilisateur est responsable de la fermeture du flux. |
+| flux | Flux | Flux d'entrée, l'utilisateur est responsable de fermer le flux. |
 | format | FileFormat | Format. |
-| cancellationToken | CancellationToken | Jeton d'annulation à la tâche de sauvegarde |
+| cancellationToken | CancellationToken | Jeton d'annulation pour la tâche d'enregistrement |
 
-### Voir également
+### Exceptions
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
+
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var cts = new CancellationTokenSource();
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, FileFormat.USDZ, cts.Token);
+}
+```
+
+### Voir aussi
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, SaveOptions) {#save_2}
 
-Enregistre la scène à diffuser en utilisant le format de fichier spécifié.
+Enregistre la scène dans le flux en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Flux d'entrée, l'utilisateur est responsable de la fermeture du flux. |
+| flux | Flux | Flux d'entrée, l'utilisateur est responsable de fermer le flux. |
 | options | SaveOptions | Configuration plus détaillée pour enregistrer le flux. |
 
-### Voir également
+### Exceptions
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
+
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var opt = new UsdSaveOptions();
+opt.PrimitiveToMesh = true;
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, opt);
+}
+```
+
+### Voir aussi
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(Stream, SaveOptions, CancellationToken) {#save_3}
 
-Enregistre la scène à diffuser en utilisant le format de fichier spécifié.
+Enregistre la scène dans le flux en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(Stream stream, SaveOptions options, CancellationToken cancellationToken)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Flux d'entrée, l'utilisateur est responsable de la fermeture du flux. |
+| flux | Flux | Flux d'entrée, l'utilisateur est responsable de fermer le flux. |
 | options | SaveOptions | Configuration plus détaillée pour enregistrer le flux. |
-| cancellationToken | CancellationToken | Jeton d'annulation à la tâche de sauvegarde |
+| cancellationToken | CancellationToken | Jeton d'annulation pour la tâche d'enregistrement |
 
-### Voir également
+### Exceptions
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
+
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var cts = new CancellationTokenSource();
+var opt = new UsdSaveOptions();
+opt.PrimitiveToMesh = true;
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, opt, cts.Token);
+}
+```
+
+### Voir aussi
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(string) {#save_4}
 
-Enregistre la scène dans le chemin spécifié en utilisant le format de fichier spécifié.
+Enregistre la scène au chemin spécifié en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(string fileName)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | fileName | String | Nom de fichier. |
 
-### Voir également
+### Exceptions
 
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
+
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz");
+```
+
+### Voir aussi
+
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(string, FileFormat) {#save_5}
 
-Enregistre la scène dans le chemin spécifié en utilisant le format de fichier spécifié.
+Enregistre la scène au chemin spécifié en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(string fileName, FileFormat format)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | fileName | String | Nom de fichier. |
 | format | FileFormat | Format. |
 
-### Voir également
+### Exceptions
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
+
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz", FileFormat.USDZ);
+```
+
+### Voir aussi
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(string, FileFormat, CancellationToken) {#save_6}
 
-Enregistre la scène dans le chemin spécifié en utilisant le format de fichier spécifié.
+Enregistre la scène au chemin spécifié en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(string fileName, FileFormat format, CancellationToken cancellationToken)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | fileName | String | Nom de fichier. |
 | format | FileFormat | Format. |
-| cancellationToken | CancellationToken | Jeton d'annulation à la tâche de sauvegarde |
+| cancellationToken | CancellationToken | Jeton d'annulation pour la tâche d'enregistrement |
 
-### Voir également
+### Exceptions
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
+
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz", FileFormat.USDZ, cts.Token);
+```
+
+### Voir aussi
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(string, SaveOptions) {#save_7}
 
-Enregistre la scène dans le chemin spécifié en utilisant le format de fichier spécifié.
+Enregistre la scène au chemin spécifié en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(string fileName, SaveOptions options)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | fileName | String | Nom de fichier. |
 | options | SaveOptions | Configuration plus détaillée pour enregistrer le flux. |
 
-### Voir également
+### Exceptions
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
+
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+var scene = Scene.FromFile("input.fbx");
+var opts = new UsdSaveOptions();
+opts.PrimitiveToMesh = true;
+scene.Save("output.usdz", opts);
+```
+
+### Voir aussi
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Save(string, SaveOptions, CancellationToken) {#save_8}
 
-Enregistre la scène dans le chemin spécifié en utilisant le format de fichier spécifié.
+Enregistre la scène au chemin spécifié en utilisant le format de fichier spécifié.
 
 ```csharp
 public void Save(string fileName, SaveOptions options, CancellationToken cancellationToken)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | fileName | String | Nom de fichier. |
 | options | SaveOptions | Configuration plus détaillée pour enregistrer le flux. |
-| cancellationToken | CancellationToken | Jeton d'annulation à la tâche de sauvegarde |
+| cancellationToken | CancellationToken | Jeton d'annulation pour la tâche d'enregistrement |
 
-### Voir également
+### Exceptions
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* espace de noms [Aspose.ThreeD](../../scene)
-* Assemblée [Aspose.3D](../../../)
+| exception | condition |
+| --- | --- |
+| IOException | Lancé lorsqu'il échoue à lire l'entrée |
+| [ExportException](../../exportexception/) | Lancée lorsqu'il échoue à exporter la scène vers le format 3D spécifié |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+## Exemples
+
+Le code suivant montre comment enregistrer la scène
+
+```csharp
+var cts = new CancellationTokenSource();
+var scene = Scene.FromFile("input.fbx");
+var opts = new UsdSaveOptions();
+opts.PrimitiveToMesh = true;
+scene.Save("output.usdz", opts, cts.Token);
+```
+
+### Voir aussi
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
+
+

@@ -1,14 +1,14 @@
 ---
-title: ObjLoadOptions
-second_title: Référence de l'API Aspose.3D pour .NET
-description: Charger les options pour le front donde obj
+title: "Classe ObjLoadOptions"
+second_title: "Référence de l'API Aspose.3D pour .NET"
+description: "Classe Aspose.ThreeD.Formats.ObjLoadOptions. Options de chargement pour le obj wavefront"
 type: docs
-weight: 1210
+weight: 1360
 url: /fr/net/aspose.threed.formats/objloadoptions/
 ---
 ## ObjLoadOptions class
 
-Charger les options pour le front d'onde obj
+Options de chargement pour wavefront obj
 
 ```csharp
 public class ObjLoadOptions : LoadOptions
@@ -16,28 +16,28 @@ public class ObjLoadOptions : LoadOptions
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ObjLoadOptions](objloadoptions)() | Constructeur de[`ObjLoadOptions`](../objloadoptions) |
+| [ObjLoadOptions](objloadoptions/)() | Constructeur de `ObjLoadOptions` |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [EnableMaterials](../../aspose.threed.formats/objloadoptions/enablematerials) { get; set; } | Obtient ou définit si les matériaux d'importation pour chaque objet |
-| [Encoding](../../aspose.threed.formats/ioconfig/encoding) { get; set; } | Obtient ou définit l'encodage par défaut pour les fichiers texte. La valeur par défaut est nulle, ce qui signifie que l'importateur/exportateur décidera quel encodage utiliser. |
-| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat) { get; } | Obtient le format de fichier spécifié dans l'option Enregistrer/Charger actuelle. |
-| [FileName](../../aspose.threed.formats/ioconfig/filename) { get; set; } | Le nom de fichier de la scène d'exportation/importation. Ceci est facultatif, mais utile lors de la sérialisation de ressources externes comme le matériel d'OBJ. |
-| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem) { get; set; } | Autoriser l'utilisateur à gérer la gestion des dépendances externes lors du chargement/sauvegarde. |
-| [FlipCoordinateSystem](../../aspose.threed.formats/objloadoptions/flipcoordinatesystem) { get; set; } | Obtient ou définit si le système de coordonnées d'inversion des points de contrôle/normal lors de l'importation |
-| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths) { get; set; } | Certains fichiers comme OBJ dépendent d'un fichier externe, les chemins de recherche permettront à Aspose.3D de rechercher un fichier externe à charger. |
-| [NormalizeNormal](../../aspose.threed.formats/objloadoptions/normalizenormal) { get; set; } | Obtient ou définit s'il faut normaliser le vecteur normal pendant le chargement. La valeur par défaut est true. |
-| [Scale](../../aspose.threed.formats/objloadoptions/scale) { get; set; } | Échelle sur l'axe x/y/z, la valeur par défaut est 1.0 |
+| [EnableMaterials](../../aspose.threed.formats/objloadoptions/enablematerials/) { get; set; } | Obtient ou définit si les matériaux sont importés pour chaque objet |
+| [Encoding](../../aspose.threed.formats/ioconfig/encoding/) { get; set; } | Obtient ou définit l'encodage par défaut pour les fichiers texte. La valeur par défaut est null, ce qui signifie que l'importateur/exportateur décidera de l'encodage à utiliser. |
+| [FileFormat](../../aspose.threed.formats/ioconfig/fileformat/) { get; } | Obtient le format de fichier spécifié dans l'option Enregistrement/Chargement actuelle. |
+| [FileName](../../aspose.threed.formats/ioconfig/filename/) { get; set; } | Le nom de fichier de la scène exportée/importée. Ceci est optionnel, mais utile lors de la sérialisation d'actifs externes comme le matériau d'OBJ. |
+| [FileSystem](../../aspose.threed.formats/ioconfig/filesystem/) { get; set; } | Permet à l'utilisateur de gérer la façon de gérer les dépendances externes pendant le chargement/enregistrement. |
+| [FlipCoordinateSystem](../../aspose.threed.formats/objloadoptions/flipcoordinatesystem/) { get; set; } | Obtient ou définit si le système de coordonnées des points de contrôle/normal doit être inversé lors de l'importation. |
+| [LookupPaths](../../aspose.threed.formats/ioconfig/lookuppaths/) { get; set; } | Certains fichiers comme OBJ dépendent d'un fichier externe, les chemins de recherche permettront à Aspose.3D de rechercher le fichier externe à charger. |
+| [NormalizeNormal](../../aspose.threed.formats/objloadoptions/normalizenormal/) { get; set; } | Obtient ou définit si le vecteur normal doit être normalisé pendant le chargement. La valeur par défaut est true. |
+| [Scale](../../aspose.threed.formats/objloadoptions/scale/) { get; set; } | Échelles sur les axes x/y/z, la valeur par défaut est 1.0 |
 
-### Voir également
+### Voir aussi
 
-* class [LoadOptions](../loadoptions)
-* espace de noms [Aspose.ThreeD.Formats](../../aspose.threed.formats)
-* Assemblée [Aspose.3D](../../)
+* class [LoadOptions](../loadoptions/)
+* namespace [Aspose.ThreeD.Formats](../../aspose.threed.formats/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
