@@ -1,14 +1,14 @@
 ---
-title: Primitive
-second_title: Справочник по Aspose.3D для .NET API
-description: Базовый класс для всех примитивов
+title: "Класс Primitive"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Entities.Primitive. Базовый класс для всех примитивов"
 type: docs
-weight: 570
+weight: 630
 url: /ru/net/aspose.threed.entities/primitive/
 ---
 ## Primitive class
 
-Базовый класс для всех примитивов
+Базовый класс для всех примитивов.
 
 ```csharp
 public abstract class Primitive : Entity, IMeshConvertible
@@ -18,39 +18,39 @@ public abstract class Primitive : Entity, IMeshConvertible
 
 | Имя | Описание |
 | --- | --- |
-| [Primitive](primitive)(string) | Инициализирует новый экземпляр[`Primitive`](../primitive) класс. |
+| [Primitive](primitive/)(string) | Инициализирует новый экземпляр класса `Primitive`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CastShadows](../../aspose.threed.entities/primitive/castshadows) { get; set; } | Получает или задает, может ли эта геометрия отбрасывать тень |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Получает или задает, следует ли исключить этот объект при экспорте. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Получает или задает первый родительский узел, если задан первый родительский узел, этот объект будет отсоединен от других родительских узлов. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для экземпляра геометрии |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
-| [ReceiveShadows](../../aspose.threed.entities/primitive/receiveshadows) { get; set; } | Получает или задает, может ли эта геометрия получать тени. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Получает сцену, которой принадлежит этот объект |
+| [CastShadows](../../aspose.threed.entities/primitive/castshadows/) { get; set; } | Получает или задает, может ли эта геометрия отбрасывать тень |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Получает или задает, следует ли исключать эту сущность при экспорте. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Получает или задает первый родительский узел; если установлен первый родительский узел, эта сущность будет отсоединена от остальных родительских узлов. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для инстанцирования геометрии |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
+| [ReceiveShadows](../../aspose.threed.entities/primitive/receiveshadows/) { get; set; } | Получает или задает, может ли эта геометрия принимать тени. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Получает сцену, к которой принадлежит этот объект |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Получает ограничивающую рамку текущего объекта в его системе координат объектного пространства. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | Получает ключ средства визуализации объектов, зарегистрированного в средстве визуализации |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
-| abstract [ToMesh](../../aspose.threed.entities/primitive/tomesh)() | Преобразовать текущий объект в mesh |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Получает ограничивающий параллелепипед текущей сущности в её системе координат объектного пространства. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | Получает ключ рендерера сущности, зарегистрированного в рендерере |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
+| abstract [ToMesh](../../aspose.threed.entities/primitive/tomesh/)() | Преобразовать текущий объект в сетку |
 
-### Смотрите также
+### См. также
 
-* class [Entity](../../aspose.threed/entity)
-* interface [IMeshConvertible](../imeshconvertible)
-* пространство имен [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* сборка [Aspose.3D](../../)
+* class [Entity](../../aspose.threed/entity/)
+* interface [IMeshConvertible](../imeshconvertible/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

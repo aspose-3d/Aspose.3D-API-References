@@ -1,9 +1,9 @@
 ---
-title: Vector2
-second_title: Справочник по Aspose.3D для .NET API
-description: Вектор с двумя компонентами.
+title: "Структура Vector2"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Структура Aspose.ThreeD.Utilities.Vector2. Вектор с двумя компонентами"
 type: docs
-weight: 2630
+weight: 2870
 url: /ru/net/aspose.threed.utilities/vector2/
 ---
 ## Vector2 structure
@@ -18,48 +18,49 @@ public struct Vector2 : IComparable<Vector2>
 
 | Имя | Описание |
 | --- | --- |
-| [Vector2](vector2#constructor_1)(double) | Инициализирует новый экземпляр[`Vector2`](../vector2) структура. |
-| [Vector2](vector2#constructor)(FVector2) | Инициализирует новый экземпляр[`Vector2`](../vector2) структура. |
-| [Vector2](vector2#constructor_2)(double, double) | Инициализирует новый экземпляр[`Vector2`](../vector2) структура. |
+| [Vector2](vector2/#constructor_2)(double) | Инициализирует новый экземпляр структуры `Vector2`. |
+| [Vector2](vector2/#constructor)(FVector2) | Инициализирует новый экземпляр структуры `Vector2`. |
+| [Vector2](vector2/#constructor_1)(Vector3) | Инициализирует новый экземпляр структуры `Vector2`. |
+| [Vector2](vector2/#constructor_3)(double, double) | Инициализирует новый экземпляр структуры `Vector2`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Length](../../aspose.threed.utilities/vector2/length) { get; } | Получает длину. |
-| [U](../../aspose.threed.utilities/vector2/u) { get; set; } | Получает или задает компонент U, если[`Vector2`](../vector2) используется как координата отображения. Это псевдоним компонента x. |
-| [V](../../aspose.threed.utilities/vector2/v) { get; set; } | Получает или задает компонент V, если[`Vector2`](../vector2)используется как координата отображения. Это псевдоним компонента y. |
+| [Length](../../aspose.threed.utilities/vector2/length/) { get; } | Получает длину. |
+| [U](../../aspose.threed.utilities/vector2/u/) { get; set; } | Получает или задает компонент U, если `Vector2` используется как координата отображения. Это псевдоним компонента x. |
+| [V](../../aspose.threed.utilities/vector2/v/) { get; set; } | Получает или задает компонент V, если `Vector2` используется как координата отображения. Это псевдоним компонента y. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.threed.utilities/vector2/compareto)(Vector2) | Сравнить текущий вектор с другим экземпляром. |
-| [Cross](../../aspose.threed.utilities/vector2/cross)(Vector2) | Перекрестное произведение двух векторов |
-| [Dot](../../aspose.threed.utilities/vector2/dot)(Vector2) | Получает скалярное произведение двух векторов |
-| override [Equals](../../aspose.threed.utilities/vector2/equals#equals_1)(object) | Проверить, равны ли два вектора2 |
-| [Equals](../../aspose.threed.utilities/vector2/equals#equals)(Vector2) | Проверить, равны ли два вектора2 |
-| override [GetHashCode](../../aspose.threed.utilities/vector2/gethashcode)() | Получает хэш-код Vector2 |
-| [Normalize](../../aspose.threed.utilities/vector2/normalize)() | Нормализует этот экземпляр. |
-| override [ToString](../../aspose.threed.utilities/vector2/tostring)() | ВозвращаетStringкоторый представляет текущий[`Vector2`](../vector2) . |
-| [operator +](../../aspose.threed.utilities/vector2/op_addition) | Оператор сложения для Vector2 |
-| [operator /](../../aspose.threed.utilities/vector2/op_division) | Оператор деления для Vector2 |
-| [operator ==](../../aspose.threed.utilities/vector2/op_equality) | Оператор равенства для Vector2 |
-| [explicit operator](../../aspose.threed.utilities/vector2/op_explicit) |  |
-| [operator !=](../../aspose.threed.utilities/vector2/op_inequality) | Оператор не равенства для Vector2 |
-| [operator *](../../aspose.threed.utilities/vector2/op_multiply#op_multiply) | Оператор умножения для Vector2 (2 operators) |
-| [operator -](../../aspose.threed.utilities/vector2/op_subtraction) | Оператор вычитания для Vector2 |
+| [CompareTo](../../aspose.threed.utilities/vector2/compareto/)(Vector2) | Сравнивает текущий вектор с другим экземпляром. |
+| [Cross](../../aspose.threed.utilities/vector2/cross/)(Vector2) | Векторное произведение двух векторов |
+| [Dot](../../aspose.threed.utilities/vector2/dot/)(Vector2) | Получает скалярное произведение двух векторов |
+| override [Equals](../../aspose.threed.utilities/vector2/equals/#equals_1)(object) | Проверьте, равны ли два vector2 |
+| [Equals](../../aspose.threed.utilities/vector2/equals/#equals)(Vector2) | Проверьте, равны ли два vector2 |
+| override [GetHashCode](../../aspose.threed.utilities/vector2/gethashcode/)() | Получает хеш-код Vector2 |
+| [Normalize](../../aspose.threed.utilities/vector2/normalize/)() | Нормализует этот экземпляр. |
+| override [ToString](../../aspose.threed.utilities/vector2/tostring/)() | Возвращает строку, представляющую текущий `Vector2`. |
+| [operator +](../../aspose.threed.utilities/vector2/op_addition/) | Оператор сложения для Vector2 |
+| [operator /](../../aspose.threed.utilities/vector2/op_division/) | Оператор деления для Vector2 |
+| [operator ==](../../aspose.threed.utilities/vector2/op_equality/) | Оператор равенства для Vector2 |
+| [explicit operator](../../aspose.threed.utilities/vector2/op_explicit/) |  |
+| [operator !=](../../aspose.threed.utilities/vector2/op_inequality/) | Оператор неравенства для Vector2 |
+| [operator *](../../aspose.threed.utilities/vector2/op_multiply/#op_multiply) | Оператор умножения для Vector2 (2 оператора) |
+| [operator -](../../aspose.threed.utilities/vector2/op_subtraction/) | Оператор вычитания для Vector2 |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| [x](../../aspose.threed.utilities/vector2/x) | Компонент x. |
-| [y](../../aspose.threed.utilities/vector2/y) | Компонент y. |
+| [X](../../aspose.threed.utilities/vector2/x/) | Компонента x. |
+| [Y](../../aspose.threed.utilities/vector2/y/) | Компонента y. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.ThreeD.Utilities](../../aspose.threed.utilities)
-* сборка [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

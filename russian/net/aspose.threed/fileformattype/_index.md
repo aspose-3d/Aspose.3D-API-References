@@ -1,9 +1,9 @@
 ---
-title: FileFormatType
-second_title: Справочник по Aspose.3D для .NET API
-description: Тип формата файла
+title: "Класс FileFormatType"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Aspose.ThreeD.FileFormatType класс. Тип формата файла"
 type: docs
-weight: 1010
+weight: 1070
 url: /ru/net/aspose.threed/fileformattype/
 ---
 ## FileFormatType class
@@ -18,40 +18,43 @@ public sealed class FileFormatType
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.threed/fileformattype/tostring)() | Получить имя этого формата файла type |
+| override [ToString](../../aspose.threed/fileformattype/tostring/)() | Получить имя этого типа формата файла |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| static readonly [AMF](../../aspose.threed/fileformattype/amf) | Формат файла аддитивного производства |
-| static readonly [ASE](../../aspose.threed/fileformattype/ase) | Формат экспортера сцен ASCII 3D Studio Max. |
-| static readonly [Aspose3DWeb](../../aspose.threed/fileformattype/aspose3dweb) | Aspose.3D веб-формат. |
-| static readonly [COLLADA](../../aspose.threed/fileformattype/collada) | Формат файла Collada от Khronos Group. |
-| static readonly [Discreet3DS](../../aspose.threed/fileformattype/discreet3ds) | Формат файла Discreet 3D Studio |
-| static readonly [Draco](../../aspose.threed/fileformattype/draco) | Сетка Google Драко |
-| static readonly [DXF](../../aspose.threed/fileformattype/dxf) | AutoCAD DXF |
-| static readonly [FBX](../../aspose.threed/fileformattype/fbx) | Формат файла FBX type |
-| static readonly [GLTF](../../aspose.threed/fileformattype/gltf) | glTF группы Khronos |
-| static readonly [HTML5](../../aspose.threed/fileformattype/html5) | Файл HTML5 |
-| static readonly [Microsoft3MF](../../aspose.threed/fileformattype/microsoft3mf) | Формат производства 3D |
-| static readonly [Pcd](../../aspose.threed/fileformattype/pcd) | Данные облака точек, используемые библиотекой облаков точек |
-| static readonly [PDF](../../aspose.threed/fileformattype/pdf) | Формат переносимых документов |
-| static readonly [PLY](../../aspose.threed/fileformattype/ply) | Формат файла многоугольника или формат Стэнфордского треугольника |
-| static readonly [Rvm](../../aspose.threed/fileformattype/rvm) | Модель системы управления проектированием предприятия AVEVA. |
-| static readonly [SiemensJT](../../aspose.threed/fileformattype/siemensjt) | Файл JT от Siemens PLM Software NX |
-| static readonly [STL](../../aspose.threed/fileformattype/stl) | Формат файла STL type |
-| static readonly [Universal3D](../../aspose.threed/fileformattype/universal3d) | Универсальный формат файла 3D type |
-| static readonly [USD](../../aspose.threed/fileformattype/usd) | Описание универсальной сцены |
-| static readonly [VRML](../../aspose.threed/fileformattype/vrml) | Язык моделирования виртуальной реальности |
-| static readonly [WavefrontOBJ](../../aspose.threed/fileformattype/wavefrontobj) | Тип формата Wavefront OBJ |
-| static readonly [X](../../aspose.threed/fileformattype/x) | X-файл DirectX |
-| static readonly [Xyz](../../aspose.threed/fileformattype/xyz) | Файл облака точек Xyz |
-| static readonly [Zip](../../aspose.threed/fileformattype/zip) | Zip-архив, содержащий 3D-файлы другого формата. |
+| static readonly [AMF](../../aspose.threed/fileformattype/amf/) | Формат файла аддитивного производства |
+| static readonly [ASE](../../aspose.threed/fileformattype/ase/) | Формат ASCII Scene Exporter программы 3D Studio Max. |
+| static readonly [Aspose3DWeb](../../aspose.threed/fileformattype/aspose3dweb/) | Веб-формат Aspose.3D. |
+| static readonly [Blender](../../aspose.threed/fileformattype/blender/) | Тип формата Blender |
+| static readonly [COLLADA](../../aspose.threed/fileformattype/collada/) | Формат файла Collada группы Khronos. |
+| static readonly [Discreet3DS](../../aspose.threed/fileformattype/discreet3ds/) | Формат файла Discreet 3D Studio |
+| static readonly [Draco](../../aspose.threed/fileformattype/draco/) | Сетка Google Draco |
+| static readonly [DXF](../../aspose.threed/fileformattype/dxf/) | AutoCAD DXF |
+| static readonly [FBX](../../aspose.threed/fileformattype/fbx/) | Тип формата файла FBX |
+| static readonly [GLTF](../../aspose.threed/fileformattype/gltf/) | glTF группы Khronos |
+| static readonly [HTML5](../../aspose.threed/fileformattype/html5/) | Файл HTML5 |
+| static readonly [IFC](../../aspose.threed/fileformattype/ifc/) | Модель данных Industry Foundation Classes ISO 16739-1. |
+| static readonly [Maya](../../aspose.threed/fileformattype/maya/) | Тип формата Autodesk Maya |
+| static readonly [Microsoft3MF](../../aspose.threed/fileformattype/microsoft3mf/) | Формат 3D Manufacturing |
+| static readonly [Pcd](../../aspose.threed/fileformattype/pcd/) | Данные облака точек, используемые библиотекой Point Cloud Library |
+| static readonly [PDF](../../aspose.threed/fileformattype/pdf/) | Переносимый формат документа |
+| static readonly [PLY](../../aspose.threed/fileformattype/ply/) | Формат файлов Polygon или Stanford Triangle |
+| static readonly [Rvm](../../aspose.threed/fileformattype/rvm/) | Модель AVEVA Plant Design Management System. |
+| static readonly [SiemensJT](../../aspose.threed/fileformattype/siemensjt/) | JT-файл Siemens PLM Software NX |
+| static readonly [STL](../../aspose.threed/fileformattype/stl/) | Тип формата файла STL |
+| static readonly [Universal3D](../../aspose.threed/fileformattype/universal3d/) | Тип формата Universal 3D |
+| static readonly [USD](../../aspose.threed/fileformattype/usd/) | Универсальное описание сцены |
+| static readonly [VRML](../../aspose.threed/fileformattype/vrml/) | Виртуальный язык моделирования реальности |
+| static readonly [WavefrontOBJ](../../aspose.threed/fileformattype/wavefrontobj/) | Тип формата Wavefront OBJ |
+| static readonly [X](../../aspose.threed/fileformattype/x/) | X-файл DirectX |
+| static readonly [Xyz](../../aspose.threed/fileformattype/xyz/) | Файл облака точек Xyz |
+| static readonly [Zip](../../aspose.threed/fileformattype/zip/) | ZIP-архив, содержащий другие 3D форматы файлов. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.ThreeD](../../aspose.threed)
-* сборка [Aspose.3D](../../)
+* namespace [Aspose.ThreeD](../../aspose.threed/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

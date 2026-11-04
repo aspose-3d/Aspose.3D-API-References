@@ -1,14 +1,14 @@
 ---
-title: ShaderMaterial
-second_title: Справочник по Aspose.3D для .NET API
-description: Материал шейдера позволяет описать материал внешним механизмом рендеринга или языком шейдера. ShaderMaterial./shadermaterial используетShaderTechnique./shadertechniqueчтобы описать конкретные детали рендеринга и наиболее подходящий будет использоваться в соответствии с конечной платформой рендеринга. Например вашShaderMaterial./shadermaterial Экземпляр может иметь два метода один определяется HLSL а другой определяется GLSL На платформах отличных от Windows следует использовать GLSL вместо HLSL
+title: "Класс ShaderMaterial"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Shading.ShaderMaterial. Шейдерный материал позволяет описать материал с помощью внешнего движка рендеринга или языка шейдеров. ShaderMaterial использует ShaderTechnique для описания конкретных деталей рендеринга, и будет использован наиболее подходящий вариант в зависимости от конечной платформы рендеринга. Например, ваш экземпляр ShaderMaterial может иметь две техники: одна определена в HLSL, другая — в GLSL. На платформе без окна следует использовать GLSL вместо HLSL."
 type: docs
-weight: 2330
+weight: 2580
 url: /ru/net/aspose.threed.shading/shadermaterial/
 ---
 ## ShaderMaterial class
 
-Материал шейдера позволяет описать материал внешним механизмом рендеринга или языком шейдера. [`ShaderMaterial`](../shadermaterial) использует[`ShaderTechnique`](../shadertechnique)чтобы описать конкретные детали рендеринга, и наиболее подходящий будет использоваться в соответствии с конечной платформой рендеринга. Например, ваш[`ShaderMaterial`](../shadermaterial) Экземпляр может иметь два метода, один определяется HLSL, а другой определяется GLSL На платформах, отличных от Windows, следует использовать GLSL вместо HLSL
+Шейдерный материал позволяет описать материал с помощью внешнего движка рендеринга или языка шейдеров. `ShaderMaterial` использует [`ShaderTechnique`](../shadertechnique/) для описания конкретных деталей рендеринга, и будет выбран наиболее подходящий вариант в зависимости от конечной платформы рендеринга. Например, ваш экземпляр `ShaderMaterial` может иметь две техники: одна определена в HLSL, а другая — в GLSL. На платформе без окна следует использовать GLSL вместо HLSL.
 
 ```csharp
 public class ShaderMaterial : Material
@@ -18,35 +18,35 @@ public class ShaderMaterial : Material
 
 | Имя | Описание |
 | --- | --- |
-| [ShaderMaterial](shadermaterial#constructor)() | Инициализирует новый экземпляр[`ShaderMaterial`](../shadermaterial) класс. |
-| [ShaderMaterial](shadermaterial#constructor_1)(string) | Инициализирует новый экземпляр[`ShaderMaterial`](../shadermaterial) класс. |
+| [ShaderMaterial](shadermaterial/#constructor)() | Инициализирует новый экземпляр класса `ShaderMaterial`. |
+| [ShaderMaterial](shadermaterial/#constructor_1)(string) | Инициализирует новый экземпляр класса `ShaderMaterial`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
-| [Techniques](../../aspose.threed.shading/shadermaterial/techniques) { get; } | Получает все доступные техники, определенные в этом материале. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
+| [Techniques](../../aspose.threed.shading/shadermaterial/techniques/) { get; } | Получает все доступные техники, определённые в этом материале. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator)() | Получает перечислитель для перечисления внутренних слотов текстур. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [GetTexture](../../aspose.threed.shading/material/gettexture)(string) | Получает текстуру из указанного слота, это может быть имя свойства материала или параметр шейдера name |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
-| [SetTexture](../../aspose.threed.shading/material/settexture)(string, TextureBase) | Устанавливает текстуру в указанный слот |
-| override [ToString](../../aspose.threed.shading/material/tostring)() | Форматирует объект в string |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | Получает перечислитель для перечисления внутренних слотов текстур. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | Получает текстуру из указанного слота; это может быть имя свойства материала или имя параметра шейдера. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | Устанавливает текстуру в указанный слот |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | Преобразует объект в строку |
 
-### Смотрите также
+### См. также
 
-* class [Material](../material)
-* пространство имен [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* сборка [Aspose.3D](../../)
+* class [Material](../material/)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

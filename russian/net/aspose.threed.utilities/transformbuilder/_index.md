@@ -1,14 +1,14 @@
 ---
-title: TransformBuilder
-second_title: Справочник по Aspose.3D для .NET API
-description: TransformBuilder./transformbuilder используется для построения матрицы преобразования по цепочке преобразований.
+title: "Класс TransformBuilder"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Utilities.TransformBuilder. TransformBuilder используется для построения матрицы преобразования цепочкой трансформаций"
 type: docs
-weight: 2620
+weight: 2860
 url: /ru/net/aspose.threed.utilities/transformbuilder/
 ---
 ## TransformBuilder class
 
-[`TransformBuilder`](../transformbuilder) используется для построения матрицы преобразования по цепочке преобразований.
+`TransformBuilder` используется для построения матрицы преобразования цепочкой трансформаций.
 
 ```csharp
 public class TransformBuilder
@@ -18,40 +18,54 @@ public class TransformBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [TransformBuilder](transformbuilder#constructor)(ComposeOrder) | Построить[`TransformBuilder`](../transformbuilder) с исходной матрицей преобразования идентичности и указанным составом order |
-| [TransformBuilder](transformbuilder#constructor_1)(Matrix4, ComposeOrder) | Построить[`TransformBuilder`](../transformbuilder)с исходной матрицей преобразования и указанным составом order |
+| [TransformBuilder](transformbuilder/#constructor)(ComposeOrder) | Создайте `TransformBuilder` с начальной единичной матрицей преобразования и указанным порядком композиции |
+| [TransformBuilder](transformbuilder/#constructor_1)(Matrix4, ComposeOrder) | Создайте `TransformBuilder` с начальной матрицей преобразования и указанным порядком композиции |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [ComposeOrder](../../aspose.threed.utilities/transformbuilder/composeorder) { get; set; } | Получает или задает порядок создания цепочки. |
-| [Matrix](../../aspose.threed.utilities/transformbuilder/matrix) { get; set; } | Получает или задает текущее значение матрицы |
+| [ComposeOrder](../../aspose.threed.utilities/transformbuilder/composeorder/) { get; set; } | Получает или задает порядок композиции цепочки. |
+| [Matrix](../../aspose.threed.utilities/transformbuilder/matrix/) { get; set; } | Получает или задает текущее значение матрицы |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Append](../../aspose.threed.utilities/transformbuilder/append)(Matrix4) | Добавить новую матрицу преобразования в цепочку преобразования. |
-| [Compose](../../aspose.threed.utilities/transformbuilder/compose)(Matrix4) | Добавить или добавить аргумент к внутренней матрице. |
-| [Prepend](../../aspose.threed.utilities/transformbuilder/prepend)(Matrix4) | Добавить новую матрицу преобразования в цепочку преобразования. |
-| [Rearrange](../../aspose.threed.utilities/transformbuilder/rearrange)(Axis, Axis, Axis) | Переставить компоновку оси. |
-| [Reset](../../aspose.threed.utilities/transformbuilder/reset)() | Сбросить преобразование в идентификационную матрицу |
-| [Rotate](../../aspose.threed.utilities/transformbuilder/rotate)(Quaternion) | Цепь поворота кватернионом |
-| [RotateDegree](../../aspose.threed.utilities/transformbuilder/rotatedegree)(double, Vector3) | Цепь преобразования вращения в градусах |
-| [RotateEulerDegree](../../aspose.threed.utilities/transformbuilder/rotateeulerdegree)(double, double, double) | Цепочка поворотов на углы Эйлера в градусах |
-| [RotateEulerRadian](../../aspose.threed.utilities/transformbuilder/rotateeulerradian#rotateeulerradian)(Vector3) | Цепь вращения на углы Эйлера в радианах |
-| [RotateEulerRadian](../../aspose.threed.utilities/transformbuilder/rotateeulerradian#rotateeulerradian_1)(double, double, double) | Цепь вращения на углы Эйлера в радианах |
-| [RotateRadian](../../aspose.threed.utilities/transformbuilder/rotateradian)(double, Vector3) | Цепь преобразования вращения в радианах |
-| [Scale](../../aspose.threed.utilities/transformbuilder/scale#scale_1)(double) | Соединить матрицу преобразования масштабирования с компонентом, масштабируемым на s |
-| [Scale](../../aspose.threed.utilities/transformbuilder/scale#scale)(Vector3) | Цепь шкалы transform |
-| [Scale](../../aspose.threed.utilities/transformbuilder/scale#scale_2)(double, double, double) | Связать матрицу преобразования масштабирования |
-| [Translate](../../aspose.threed.utilities/transformbuilder/translate#translate)(Vector3) | Цепь перевода transform |
-| [Translate](../../aspose.threed.utilities/transformbuilder/translate#translate_1)(double, double, double) | Цепь перевода transform |
+| [Append](../../aspose.threed.utilities/transformbuilder/append/)(Matrix4) | Добавьте новую матрицу преобразования в цепочку преобразований. |
+| [Compose](../../aspose.threed.utilities/transformbuilder/compose/)(Matrix4) | Добавьте или вставьте аргумент во внутреннюю матрицу. |
+| [Prepend](../../aspose.threed.utilities/transformbuilder/prepend/)(Matrix4) | Вставьте новую матрицу преобразования в начало цепочки преобразований. |
+| [Rearrange](../../aspose.threed.utilities/transformbuilder/rearrange/)(Axis, Axis, Axis) | Перестройте расположение осей. |
+| [Reset](../../aspose.threed.utilities/transformbuilder/reset/)() | Сбросьте преобразование к единичной матрице |
+| [Rotate](../../aspose.threed.utilities/transformbuilder/rotate/)(Quaternion) | Добавьте вращение с помощью кватерниона |
+| [RotateDegree](../../aspose.threed.utilities/transformbuilder/rotatedegree/#rotatedegree)(double, Vector3) | Добавьте вращение в градусах |
+| [RotateDegree](../../aspose.threed.utilities/transformbuilder/rotatedegree/#rotatedegree_1)(Vector3, RotationOrder) | Добавить вращение с указанным порядком |
+| [RotateEulerDegree](../../aspose.threed.utilities/transformbuilder/rotateeulerdegree/)(double, double, double) | Сцепить вращение по углам Эйлера в градусах |
+| [RotateEulerRadian](../../aspose.threed.utilities/transformbuilder/rotateeulerradian/#rotateeulerradian)(Vector3) | Сцепить вращение по углам Эйлера в радианах |
+| [RotateEulerRadian](../../aspose.threed.utilities/transformbuilder/rotateeulerradian/#rotateeulerradian_1)(double, double, double) | Сцепить вращение по углам Эйлера в радианах |
+| [RotateRadian](../../aspose.threed.utilities/transformbuilder/rotateradian/#rotateradian)(double, Vector3) | Сцепить преобразование вращения в радианах |
+| [RotateRadian](../../aspose.threed.utilities/transformbuilder/rotateradian/#rotateradian_1)(Vector3, RotationOrder) | Добавить вращение с указанным порядком |
+| [Scale](../../aspose.threed.utilities/transformbuilder/scale/#scale_1)(double) | Сцепить матрицу масштабирующего преобразования, где компонент масштабирован на s |
+| [Scale](../../aspose.threed.utilities/transformbuilder/scale/#scale)(Vector3) | Сцепить масштабирующее преобразование |
+| [Scale](../../aspose.threed.utilities/transformbuilder/scale/#scale_2)(double, double, double) | Сцепить матрицу масштабирующего преобразования |
+| [Translate](../../aspose.threed.utilities/transformbuilder/translate/#translate)(Vector3) | Сцепить преобразование переноса |
+| [Translate](../../aspose.threed.utilities/transformbuilder/translate/#translate_1)(double, double, double) | Сцепить преобразование переноса |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.ThreeD.Utilities](../../aspose.threed.utilities)
-* сборка [Aspose.3D](../../)
+Следующий код показывает, как создать матрицу с помощью набора операций
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+TransformBuilder tb = new TransformBuilder();
+tb.Translate(10, 20, 0);
+tb.Scale(10, 10, 10);
+tb.RotateEulerDegree(90, 0, 0);
+Console.WriteLine($"Transform Matrix: {tb.Matrix}");
+```
+
+### См. также
+
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
+
+

@@ -1,55 +1,68 @@
 ---
-title: Material
-second_title: Справочник по Aspose.3D для .NET API
-description: Материал определяет параметры необходимые для внешнего вида геометрии. Aspose.3D предоставляет модель затенения дляLambertMaterial./lambertmaterial PhongMaterial./phongmaterial а такжеShaderMaterial./shadermaterial
+title: "Класс Material"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Shading.Material. Material определяет параметры, необходимые для визуального отображения геометрии. Aspose.3D предоставляет модели освещения для LambertMaterial, PhongMaterial и ShaderMaterial."
 type: docs
-weight: 2290
+weight: 2540
 url: /ru/net/aspose.threed.shading/material/
 ---
 ## Material class
 
-Материал определяет параметры, необходимые для внешнего вида геометрии. Aspose.3D предоставляет модель затенения для[`LambertMaterial`](../lambertmaterial) ,[`PhongMaterial`](../phongmaterial) а также[`ShaderMaterial`](../shadermaterial)
+Material определяет параметры, необходимые для визуального отображения геометрии. Aspose.3D предоставляет модели освещения для [`LambertMaterial`](../lambertmaterial/), [`PhongMaterial`](../phongmaterial/) и [`ShaderMaterial`](../shadermaterial/).
 
 ```csharp
 public abstract class Material : A3DObject, IEnumerable<TextureSlot>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator)() | Получает перечислитель для перечисления внутренних слотов текстур. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [GetTexture](../../aspose.threed.shading/material/gettexture)(string) | Получает текстуру из указанного слота, это может быть имя свойства материала или параметр шейдера name |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
-| [SetTexture](../../aspose.threed.shading/material/settexture)(string, TextureBase) | Устанавливает текстуру в указанный слот |
-| override [ToString](../../aspose.threed.shading/material/tostring)() | Форматирует объект в string |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | Получает перечислитель для перечисления внутренних слотов текстур. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | Получает текстуру из указанного слота; это может быть имя свойства материала или имя параметра шейдера. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | Устанавливает текстуру в указанный слот |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | Преобразует объект в строку |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| const [MapAmbient](../../aspose.threed.shading/material/mapambient) | Используется в[`SetTexture`](./settexture) чтобы назначить наложение текстуры окружающей среды. |
-| const [MapDiffuse](../../aspose.threed.shading/material/mapdiffuse) | Используется в[`SetTexture`](./settexture) назначить диффузное наложение текстуры. |
-| const [MapEmissive](../../aspose.threed.shading/material/mapemissive) | Используется в[`SetTexture`](./settexture) чтобы назначить эмиссионное наложение текстуры. |
-| const [MapNormal](../../aspose.threed.shading/material/mapnormal) | Используется в[`SetTexture`](./settexture) назначить нормальное наложение текстуры. |
-| const [MapSpecular](../../aspose.threed.shading/material/mapspecular) | Используется в[`SetTexture`](./settexture) чтобы назначить зеркальное отображение текстуры. |
+| const [MapAmbient](../../aspose.threed.shading/material/mapambient/) | Используется в [`SetTexture`](./settexture/) для назначения амбиентного текстурного отображения. |
+| const [MapDiffuse](../../aspose.threed.shading/material/mapdiffuse/) | Используется в [`SetTexture`](./settexture/) для назначения диффузного отображения текстуры. |
+| const [MapEmissive](../../aspose.threed.shading/material/mapemissive/) | Используется в [`SetTexture`](./settexture/) для назначения эмиссивного отображения текстуры. |
+| const [MapNormal](../../aspose.threed.shading/material/mapnormal/) | Используется в [`SetTexture`](./settexture/) для назначения нормального отображения текстуры. |
+| const [MapSpecular](../../aspose.threed.shading/material/mapspecular/) | Используется в [`SetTexture`](./settexture/) для назначения спекулярного отображения текстуры. |
 
-### Смотрите также
+## Примеры
 
-* class [A3DObject](../../aspose.threed/a3dobject)
-* class [TextureSlot](../textureslot)
-* пространство имен [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* сборка [Aspose.3D](../../)
+```csharp
+var mat = new LambertMaterial();
+var tex = new Texture();
+tex.FileName = "diffuse.png";
+mat.SetTexture(Material.MapDiffuse, tex);
+foreach(var slot in mat)
+{
+    Console.WriteLine($"Texture slot {slot.SlotName} = {slot.Texture}");
+}
+```
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+### См. также
+
+* class [A3DObject](../../aspose.threed/a3dobject/)
+* class [TextureSlot](../textureslot/)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
+
+

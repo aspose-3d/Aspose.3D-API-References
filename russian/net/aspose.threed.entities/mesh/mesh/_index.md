@@ -1,95 +1,98 @@
 ---
-title: Mesh
-second_title: Справочник по Aspose.3D для .NET API
-description: Инициализирует новый экземплярMeshaspose.threed.entities/mesh класс.
+title: "Mesh.Mesh"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Конструктор Mesh. Инициализирует новый экземпляр класса Mesh."
 type: docs
 weight: 10
 url: /ru/net/aspose.threed.entities/mesh/mesh/
 ---
 ## Mesh() {#constructor}
 
-Инициализирует новый экземпляр[`Mesh`](../../mesh) класс.
+Инициализирует новый экземпляр класса [`Mesh`](../).
 
 ```csharp
 public Mesh()
 ```
 
-### Смотрите также
+### См. также
 
-* class [Mesh](../../mesh)
-* пространство имен [Aspose.ThreeD.Entities](../../mesh)
-* сборка [Aspose.3D](../../../)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap) {#constructor_1}
+## Mesh(TextureData) {#constructor_1}
 
-Построить сетку, используя указанную карту высот, если пиксельный формат карты высот содержит несколько компонентов, первый (обычно красный) компонент будет использоваться как значение высоты (z) Компоненты x и y контрольной точки являются нормализованными координатами пикселя .
+Создать сетку, используя указанную карту высот; если формат пикселей карты высот содержит несколько компонентов, первый (обычно красный) компонент будет использоваться как значение высоты (z). Компоненты x и y контрольной точки являются нормализованными координатами пикселя.
 
 ```csharp
-public Mesh(Bitmap heightMap)
+public Mesh(TextureData heightMap)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| heightMap | Bitmap | Введите карту высот |
+| heightMap | TextureData | Входная карта высот |
 
-### Смотрите также
+### См. также
 
-* class [Mesh](../../mesh)
-* пространство имен [Aspose.ThreeD.Entities](../../mesh)
-* сборка [Aspose.3D](../../../)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, Matrix4) {#constructor_2}
+## Mesh(TextureData, Matrix4) {#constructor_2}
 
-Построить сетку, используя указанную карту высот, если пиксельный формат карты высот содержит несколько компонентов, первый (обычно красный) компонент будет использоваться как значение высоты (z) Компоненты x и y контрольной точки являются нормализованными координатами пикселя .
+Создать сетку, используя указанную карту высот; если формат пикселей карты высот содержит несколько компонентов, первый (обычно красный) компонент будет использоваться как значение высоты (z). Компоненты x и y контрольной точки являются нормализованными координатами пикселя.
 
 ```csharp
-public Mesh(Bitmap heightMap, Matrix4 transform)
+public Mesh(TextureData heightMap, Matrix4 transform)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| heightMap | Bitmap | Введите карту высот |
-| transform | Matrix4 | Преобразование, примененное к контрольным точкам |
+| heightMap | TextureData | Входная карта высот |
+| transform | Matrix4 | Трансформация, применяемая к контрольным точкам. |
 
-### Смотрите также
+### См. также
 
-* struct [Matrix4](../../../aspose.threed.utilities/matrix4)
-* class [Mesh](../../mesh)
-* пространство имен [Aspose.ThreeD.Entities](../../mesh)
-* сборка [Aspose.3D](../../../)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, bool, Matrix4) {#constructor_3}
+## Mesh(TextureData, bool, Matrix4) {#constructor_3}
 
-Построить сетку, используя указанную карту высот, если пиксельный формат карты высот содержит несколько компонентов, первый (обычно красный) компонент будет использоваться как значение высоты (z) Компоненты x и y контрольной точки являются нормализованными координатами пикселя .
+Создать сетку, используя указанную карту высот; если формат пикселей карты высот содержит несколько компонентов, первый (обычно красный) компонент будет использоваться как значение высоты (z). Компоненты x и y контрольной точки являются нормализованными координатами пикселя.
 
 ```csharp
-public Mesh(Bitmap heightMap, bool triMesh, Matrix4 transform)
+public Mesh(TextureData heightMap, bool triMesh, Matrix4 transform)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| heightMap | Bitmap | Введите карту высот |
+| heightMap | TextureData | Входная карта высот |
 | triMesh | Boolean |  |
-| transform | Matrix4 | Преобразование, примененное к контрольным точкам |
+| transform | Matrix4 | Трансформация, применяемая к контрольным точкам. |
 
-### Смотрите также
+### См. также
 
-* struct [Matrix4](../../../aspose.threed.utilities/matrix4)
-* class [Mesh](../../mesh)
-* пространство имен [Aspose.ThreeD.Entities](../../mesh)
-* сборка [Aspose.3D](../../../)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Mesh(string) {#constructor_4}
 
-Инициализирует новый экземпляр[`Mesh`](../../mesh) класс.
+Инициализирует новый экземпляр класса [`Mesh`](../).
 
 ```csharp
 public Mesh(string name)
@@ -99,10 +102,10 @@ public Mesh(string name)
 | --- | --- | --- |
 | name | String | Имя. |
 
-### Смотрите также
+### См. также
 
-* class [Mesh](../../mesh)
-* пространство имен [Aspose.ThreeD.Entities](../../mesh)
-* сборка [Aspose.3D](../../../)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

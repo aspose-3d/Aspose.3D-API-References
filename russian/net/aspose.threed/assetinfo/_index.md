@@ -1,14 +1,14 @@
 ---
-title: AssetInfo
-second_title: Справочник по Aspose.3D для .NET API
-description: Информация об активе. Информация об активе может быть прикреплена кScene./scene . РебенокScene./scene может иметь свойAssetInfo./assetinfo переопределить определение родителя.
+title: "Класс AssetInfo"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.AssetInfo. Информация об объекте. Информацию об объекте можно прикрепить к Scene. Дочерняя Scene может иметь собственный AssetInfo, чтобы переопределить определение родителя"
 type: docs
 weight: 130
 url: /ru/net/aspose.threed/assetinfo/
 ---
 ## AssetInfo class
 
-Информация об активе. Информация об активе может быть прикреплена к[`Scene`](../scene) . Ребенок[`Scene`](../scene) может иметь свой[`AssetInfo`](../assetinfo) переопределить определение родителя.
+Информация об объекте. Информацию об объекте можно прикрепить к [`Scene`](../scene/). Дочерняя [`Scene`](../scene/) может иметь собственный `AssetInfo`, чтобы переопределить определение родителя.
 
 ```csharp
 public class AssetInfo : A3DObject
@@ -18,48 +18,59 @@ public class AssetInfo : A3DObject
 
 | Имя | Описание |
 | --- | --- |
-| [AssetInfo](assetinfo#constructor)() | Инициализирует новый экземпляр[`AssetInfo`](../assetinfo) класс. |
-| [AssetInfo](assetinfo#constructor_1)(string) | Инициализирует новый экземпляр[`AssetInfo`](../assetinfo) класс. |
+| [AssetInfo](assetinfo/#constructor)() | Инициализирует новый экземпляр класса `AssetInfo`. |
+| [AssetInfo](assetinfo/#constructor_1)(string) | Инициализирует новый экземпляр класса `AssetInfo`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Ambient](../../aspose.threed/assetinfo/ambient) { get; set; } | Получает или задает фоновый цвет по умолчанию для этого актива |
-| [ApplicationName](../../aspose.threed/assetinfo/applicationname) { get; set; } | Получает или задает приложение, создавшее этот актив |
-| [ApplicationVendor](../../aspose.threed/assetinfo/applicationvendor) { get; set; } | Получает или задает имя поставщика приложения |
-| [ApplicationVersion](../../aspose.threed/assetinfo/applicationversion) { get; set; } | Получает или задает версию приложения, создавшего этот актив. |
-| [Author](../../aspose.threed/assetinfo/author) { get; set; } | Получает или устанавливает автора этого ресурса |
-| [Comment](../../aspose.threed/assetinfo/comment) { get; set; } | Получает или задает комментарий к этому ресурсу. |
-| [CoordinatedSystem](../../aspose.threed/assetinfo/coordinatedsystem) { get; set; } | Получает или задает систему координат, используемую в этом активе. |
-| [Copyright](../../aspose.threed/assetinfo/copyright) { get; set; } | Получает или устанавливает авторские права документа |
-| [CreationTime](../../aspose.threed/assetinfo/creationtime) { get; set; } | Получает или устанавливает время создания этого актива |
-| [Keywords](../../aspose.threed/assetinfo/keywords) { get; set; } | Получает или задает ключевые слова этого ресурса |
-| [ModificationTime](../../aspose.threed/assetinfo/modificationtime) { get; set; } | Получает или устанавливает время модификации этого актива |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
-| [Revision](../../aspose.threed/assetinfo/revision) { get; set; } | Получает или задает номер версии этого актива, обычно используемый в системе контроля версий. |
-| [Subject](../../aspose.threed/assetinfo/subject) { get; set; } | Получает или задает тему этого актива |
-| [Title](../../aspose.threed/assetinfo/title) { get; set; } | Получает или задает заголовок этого актива |
-| [UnitName](../../aspose.threed/assetinfo/unitname) { get; set; } | Получает или задает единицу длины, используемую в этом активе. например, см/м/км/дюйм/фут |
-| [UnitScaleFactor](../../aspose.threed/assetinfo/unitscalefactor) { get; set; } | Получает или задает коэффициент масштабирования для реального метра. |
-| [UpVector](../../aspose.threed/assetinfo/upvector) { get; set; } | Получает или задает восходящий вектор, используемый в этом активе. |
-| [Url](../../aspose.threed/assetinfo/url) { get; set; } | Получает или задает URL этого актива. |
+| [Ambient](../../aspose.threed/assetinfo/ambient/) { get; set; } | Получает или задает цвет окружающего освещения по умолчанию для этого объекта |
+| [ApplicationName](../../aspose.threed/assetinfo/applicationname/) { get; set; } | Получает или задает приложение, создавшее этот объект |
+| [ApplicationVendor](../../aspose.threed/assetinfo/applicationvendor/) { get; set; } | Получает или задает название поставщика приложения |
+| [ApplicationVersion](../../aspose.threed/assetinfo/applicationversion/) { get; set; } | Получает или задает версию приложения, создавшего этот объект. |
+| [Author](../../aspose.threed/assetinfo/author/) { get; set; } | Получает или задает автора этого объекта |
+| [AxisSystem](../../aspose.threed/assetinfo/axissystem/) { get; set; } | Получает или задает систему координат, вектор вверх и вектор передней части информации об объекте. |
+| [Comment](../../aspose.threed/assetinfo/comment/) { get; set; } | Получает или задает комментарий к этому объекту. |
+| [CoordinateSystem](../../aspose.threed/assetinfo/coordinatesystem/) { get; set; } | Получает или задает систему координат, используемую в этом объекте. |
+| [Copyright](../../aspose.threed/assetinfo/copyright/) { get; set; } | Получает или задает авторские права документа |
+| [CreationTime](../../aspose.threed/assetinfo/creationtime/) { get; set; } | Получает или задает время создания этого объекта |
+| [FrontVector](../../aspose.threed/assetinfo/frontvector/) { get; set; } | Получает или задает вектор передней части, используемый в этом объекте. |
+| [Keywords](../../aspose.threed/assetinfo/keywords/) { get; set; } | Получает или задает ключевые слова этого объекта |
+| [ModificationTime](../../aspose.threed/assetinfo/modificationtime/) { get; set; } | Получает или задает время изменения этого объекта |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
+| [Revision](../../aspose.threed/assetinfo/revision/) { get; set; } | Получает или задает номер ревизии этого объекта, обычно используемый в системе контроля версий. |
+| [Subject](../../aspose.threed/assetinfo/subject/) { get; set; } | Получает или задает тему этого объекта |
+| [Title](../../aspose.threed/assetinfo/title/) { get; set; } | Получает или задает заголовок этого объекта |
+| [UnitName](../../aspose.threed/assetinfo/unitname/) { get; set; } | Получает или задает единицу длины, используемую в этом объекте, например: см/м/км/дюйм/фут |
+| [UnitScaleFactor](../../aspose.threed/assetinfo/unitscalefactor/) { get; set; } | Получает или задает коэффициент масштабирования к реальному метру. |
+| [UpVector](../../aspose.threed/assetinfo/upvector/) { get; set; } | Получает или задает вектор вверх, используемый в этом объекте. |
+| [Url](../../aspose.threed/assetinfo/url/) { get; set; } | Получает или задает URL этого объекта. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
 
-### Смотрите также
+## Примеры
 
-* class [A3DObject](../a3dobject)
-* пространство имен [Aspose.ThreeD](../../aspose.threed)
-* сборка [Aspose.3D](../../)
+Следующий код показывает, как прочитать информацию об объекте из файла fbx:
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+Scene scene = Scene.FromFile("test.fbx");
+Console.WriteLine($"The file is created at {scene.AssetInfo.CreationTime} by {scene.AssetInfo.ApplicationName} {scene.AssetInfo.ApplicationVersion} ");
+```
+
+### См. также
+
+* class [A3DObject](../a3dobject/)
+* namespace [Aspose.ThreeD](../../aspose.threed/)
+* assembly [Aspose.3D](../../)
+
+

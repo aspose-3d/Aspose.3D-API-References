@@ -1,14 +1,14 @@
 ---
-title: Open
-second_title: Справочник по Aspose.3D для .NET API
-description: Открывает сцену из данного потока используя указанный формат файла.
+title: "Scene.Open"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Метод Scene. Открывает сцену из заданного потока, используя указанный формат файла"
 type: docs
 weight: 140
 url: /ru/net/aspose.threed/scene/open/
 ---
 ## Open(Stream, FileFormat, CancellationToken) {#open_1}
 
-Открывает сцену из данного потока, используя указанный формат файла.
+Открывает сцену из указанного потока, используя указанный формат файла.
 
 ```csharp
 public void Open(Stream stream, FileFormat format, CancellationToken cancellationToken = default)
@@ -16,22 +16,41 @@ public void Open(Stream stream, FileFormat format, CancellationToken cancellatio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Входной поток, пользователь отвечает за закрытие потока. |
-| format | FileFormat | Формат файла. |
-| cancellationToken | CancellationToken | Токен отмены задачи загрузки |
+| stream | Stream | Входной поток, пользователь отвечает за его закрытие. |
+| формат | FileFormat | Формат файла. |
+| cancellationToken | CancellationToken | Токен отмены для задачи загрузки |
 
-### Смотрите также
+### Исключения
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
+
+## Примеры
+
+Следующий код показывает, как открыть сцену из потока
+
+```csharp
+Scene scene = new Scene();
+using (var stream = new FileStream("input.fbx", FileMode.Open))
+{
+    scene.Open(stream, FileFormat.GLTF2);
+}
+```
+
+### См. также
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(Stream, LoadOptions, CancellationToken) {#open_2}
 
-Открывает сцену из данного потока, используя указанную конфигурацию ввода-вывода.
+Открывает сцену из указанного потока, используя указанную конфигурацию ввода-вывода.
 
 ```csharp
 public void Open(Stream stream, LoadOptions options, CancellationToken cancellationToken = default)
@@ -39,22 +58,43 @@ public void Open(Stream stream, LoadOptions options, CancellationToken cancellat
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Входной поток, пользователь отвечает за закрытие потока. |
-| options | LoadOptions | Более подробная настройка для открытия потока. |
-| cancellationToken | CancellationToken | Токен отмены задачи загрузки |
+| stream | Stream | Входной поток, пользователь отвечает за его закрытие. |
+| options | LoadOptions | Более подробная конфигурация для открытия потока. |
+| cancellationToken | CancellationToken | Токен отмены для задачи загрузки |
 
-### Смотрите также
+### Исключения
 
-* class [LoadOptions](../../../aspose.threed.formats/loadoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
+
+## Примеры
+
+Следующий код показывает, как открыть сцену из потока с дополнительными параметрами загрузки
+
+```csharp
+Scene scene = new Scene();
+using (var stream = new FileStream("input.fbx", FileMode.Open))
+{
+    var opt = new FbxLoadOptions();
+    opt.LookupPaths.Add("textures");
+    scene.Open(stream, opt);
+}
+```
+
+### См. также
+
+* class [LoadOptions](../../../aspose.threed.formats/loadoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(Stream) {#open}
 
-Открывает сцену из заданного потока
+Открывает сцену из указанного потока
 
 ```csharp
 public void Open(Stream stream)
@@ -62,19 +102,38 @@ public void Open(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Входной поток, пользователь отвечает за закрытие потока. |
+| stream | Stream | Входной поток, пользователь отвечает за его закрытие. |
 
-### Смотрите также
+### Исключения
 
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
+
+## Примеры
+
+Следующий код показывает, как открыть сцену из потока
+
+```csharp
+Scene scene = new Scene();
+using (var stream = new FileStream("input.fbx", FileMode.Open))
+{
+    scene.Open(stream);
+}
+```
+
+### См. также
+
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Open(Stream, CancellationToken) {#open_3}
 
-Открывает сцену из заданного потока
+Открывает сцену из указанного потока
 
 ```csharp
 public void Open(Stream stream, CancellationToken cancellationToken)
@@ -82,14 +141,34 @@ public void Open(Stream stream, CancellationToken cancellationToken)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Входной поток, пользователь отвечает за закрытие потока. |
-| cancellationToken | CancellationToken | Токен отмены задачи загрузки |
+| stream | Stream | Входной поток, пользователь отвечает за его закрытие. |
+| cancellationToken | CancellationToken | Токен отмены для задачи загрузки |
 
-### Смотрите также
+### Исключения
 
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
+
+## Примеры
+
+Следующий код показывает, как открыть сцену из потока с токеном отмены
+
+```csharp
+Scene scene = new Scene();
+CancellationTokenSource cts = new CancellationTokenSource();
+using (var stream = new FileStream("input.fbx", FileMode.Open))
+{
+    scene.Open(stream, cts.Token);
+}
+```
+
+### См. также
+
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -104,15 +183,33 @@ public void Open(string fileName, FileFormat format, CancellationToken cancellat
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| format | FileFormat | Формат файла. |
-| cancellationToken | CancellationToken | Токен отмены задачи загрузки |
+| формат | FileFormat | Формат файла. |
+| cancellationToken | CancellationToken | Токен отмены для задачи загрузки |
 
-### Смотрите также
+### Исключения
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
+
+## Примеры
+
+Следующий код показывает, как открыть сцену по имени файла с токеном отмены
+
+```csharp
+Scene scene = new Scene();
+CancellationTokenSource cts = new CancellationTokenSource();
+scene.Open("input.fbx", FileFormat.FBX7400ASCII, cts.Token);
+
+```
+
+### См. также
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -127,14 +224,32 @@ public void Open(string fileName, LoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| options | LoadOptions | Более подробная настройка для открытия потока. |
+| options | LoadOptions | Более подробная конфигурация для открытия потока. |
 
-### Смотрите также
+### Исключения
 
-* class [LoadOptions](../../../aspose.threed.formats/loadoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
+
+## Примеры
+
+Следующий код показывает, как открыть сцену по имени файла с дополнительными параметрами загрузки
+
+```csharp
+Scene scene = new Scene();
+var opts = new FbxLoadOptions();
+opts.LookupPaths.Add("textures");
+scene.Open("input.fbx", opts);
+```
+
+### См. также
+
+* class [LoadOptions](../../../aspose.threed.formats/loadoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -149,15 +264,34 @@ public void Open(string fileName, LoadOptions options, CancellationToken cancell
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| options | LoadOptions | Более подробная настройка для открытия потока. |
-| cancellationToken | CancellationToken | Токен отмены задачи загрузки |
+| options | LoadOptions | Более подробная конфигурация для открытия потока. |
+| cancellationToken | CancellationToken | Токен отмены для задачи загрузки |
 
-### Смотрите также
+### Исключения
 
-* class [LoadOptions](../../../aspose.threed.formats/loadoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
+
+## Примеры
+
+Следующий код показывает, как открыть сцену по имени файла с дополнительными параметрами загрузки и токеном отмены
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = new Scene();
+var opts = new FbxLoadOptions();
+opts.LookupPaths.Add("textures");
+scene.Open("input.fbx", opts, cts.Token);
+```
+
+### См. также
+
+* class [LoadOptions](../../../aspose.threed.formats/loadoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -173,11 +307,27 @@ public void Open(string fileName)
 | --- | --- | --- |
 | fileName | String | Имя файла. |
 
-### Смотрите также
+### Исключения
 
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
+
+## Примеры
+
+Следующий код показывает, как открыть сцену по имени файла
+
+```csharp
+Scene scene = new Scene();
+scene.Open("input.fbx");
+```
+
+### См. также
+
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -192,12 +342,29 @@ public void Open(string fileName, CancellationToken cancellationToken)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| cancellationToken | CancellationToken | Токен отмены задачи загрузки |
+| cancellationToken | CancellationToken | Токен отмены для задачи загрузки |
 
-### Смотрите также
+### Исключения
 
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ImportException](../../importexception/) | Выбрасывается, если входные данные не являются допустимым 3D-форматом |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+## Примеры
+
+Следующий код показывает, как открыть сцену по имени файла и источник токена отмены
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = new Scene();
+scene.Open("input.fbx", cts.Token);
+```
+
+### См. также
+
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
+
+
