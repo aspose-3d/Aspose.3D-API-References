@@ -1,14 +1,14 @@
 ---
-title: TrapeziumShape
-second_title: Справочник по Aspose.3D для .NET API
-description: Совместимость с IFC Форма трапеции определяемая параметрами.
+title: "Класс TrapeziumShape"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Profiles.TrapeziumShape. Совместимая с IFC форма Trapezium, определяемая параметрами"
 type: docs
-weight: 1640
+weight: 1830
 url: /ru/net/aspose.threed.profiles/trapeziumshape/
 ---
 ## TrapeziumShape class
 
-Совместимость с IFC Форма трапеции, определяемая параметрами.
+Трапецеидальная форма, совместимая с IFC, определённая параметрами.
 
 ```csharp
 public class TrapeziumShape : ParameterizedProfile
@@ -18,40 +18,40 @@ public class TrapeziumShape : ParameterizedProfile
 
 | Имя | Описание |
 | --- | --- |
-| [TrapeziumShape](trapeziumshape)() | Конструктор[`TrapeziumShape`](../trapeziumshape) |
+| [TrapeziumShape](trapeziumshape/)() | Конструктор `TrapeziumShape` |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BottomXDim](../../aspose.threed.profiles/trapeziumshape/bottomxdim) { get; set; } | Получает или задает протяженность нижней линии, измеренной по оси x. |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Получает или задает, следует ли исключить этот объект при экспорте. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Получает или задает первый родительский узел, если задан первый родительский узел, этот объект будет отсоединен от других родительских узлов. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для экземпляра геометрии |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Получает сцену, которой принадлежит этот объект |
-| [TopXDim](../../aspose.threed.profiles/trapeziumshape/topxdim) { get; set; } | Получает или задает протяженность верхней линии, измеренной по оси x. |
-| [TopXOffset](../../aspose.threed.profiles/trapeziumshape/topxoffset) { get; set; } | Получает или задает смещение от начала верхней строки до нижней строки. |
-| [YDim](../../aspose.threed.profiles/trapeziumshape/ydim) { get; set; } | Получает или задает расстояние между верхней и нижней линиями, измеренное по оси Y. |
+| [BottomXDim](../../aspose.threed.profiles/trapeziumshape/bottomxdim/) { get; set; } | Получает или задает протяжённость нижней линии, измеренную вдоль оси x. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Получает или задает, следует ли исключать эту сущность при экспорте. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Получает или задает первый родительский узел; если установлен первый родительский узел, эта сущность будет отсоединена от остальных родительских узлов. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для инстанцирования геометрии |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Получает сцену, к которой принадлежит этот объект |
+| [TopXDim](../../aspose.threed.profiles/trapeziumshape/topxdim/) { get; set; } | Получает или задает протяжённость верхней линии, измеренную вдоль оси x. |
+| [TopXOffset](../../aspose.threed.profiles/trapeziumshape/topxoffset/) { get; set; } | Получает или задает смещение от начала верхней линии до нижней линии. |
+| [YDim](../../aspose.threed.profiles/trapeziumshape/ydim/) { get; set; } | Получает или задает расстояние между верхней и нижней линиями, измеренное вдоль оси y. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Получает ограничивающую рамку текущего объекта в его системе координат объектного пространства. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey)() | Получает ключ средства визуализации объектов, зарегистрированного в средстве визуализации |
-| override [GetExtent](../../aspose.threed.profiles/trapeziumshape/getextent)() | Получает экстент в измерениях x и y. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Получает ограничивающий параллелепипед текущей сущности в её системе координат объектного пространства. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | Получает ключ рендерера сущности, зарегистрированного в рендерере |
+| override [GetExtent](../../aspose.threed.profiles/trapeziumshape/getextent/)() | Получает размеры в измерениях x и y. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
 
-### Смотрите также
+### См. также
 
-* class [ParameterizedProfile](../parameterizedprofile)
-* пространство имен [Aspose.ThreeD.Profiles](../../aspose.threed.profiles)
-* сборка [Aspose.3D](../../)
+* class [ParameterizedProfile](../parameterizedprofile/)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

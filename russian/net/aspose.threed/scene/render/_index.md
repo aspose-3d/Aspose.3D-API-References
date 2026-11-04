@@ -1,14 +1,14 @@
 ---
-title: Render
-second_title: Справочник по Aspose.3D для .NET API
-description: Рендеринг сцены во внешний файл с точки зрения данной камеры. Размер вывода по умолчанию  1024x768 а формат вывода  png
+title: "Scene.Render"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Метод Scene. Рендерит сцену во внешний файл с точки зрения указанной камеры. Размер вывода по умолчанию 1024x768, а формат вывода — png"
 type: docs
 weight: 150
 url: /ru/net/aspose.threed/scene/render/
 ---
 ## Render(Camera, string) {#render_2}
 
-Рендеринг сцены во внешний файл с точки зрения данной камеры. Размер вывода по умолчанию — 1024x768, а формат вывода — png
+Рендерит сцену во внешний файл с точки зрения заданной камеры. Размер вывода по умолчанию — 1024x768, а формат вывода — png.
 
 ```csharp
 public void Render(Camera camera, string fileName)
@@ -16,111 +16,115 @@ public void Render(Camera camera, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| camera | Camera | С точки зрения какой камеры рендерить сцену |
-| fileName | String | Имя файла выходного файла |
+| камера | Камера | С какой точки зрения камеры рендерить сцену |
+| fileName | String | Имя выходного файла |
 
-### Смотрите также
+### См. также
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, string, Size, ImageFormat) {#render_3}
+## Render(Camera, string, Vector2, string) {#render_3}
 
-Рендеринг сцены во внешний файл с точки зрения данной камеры.
+Рендерит сцену во внешний файл с точки зрения заданной камеры.
 
 ```csharp
-public void Render(Camera camera, string fileName, Size size, ImageFormat format)
+public void Render(Camera camera, string fileName, Vector2 size, string format)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| camera | Camera | С точки зрения какой камеры рендерить сцену |
-| fileName | String | Имя файла выходного файла |
-| size | Size | Размер конечного визуализированного изображения |
-| format | ImageFormat | Формат изображения выходного файла |
+| камера | Камера | С какой точки зрения камеры рендерить сцену |
+| fileName | String | Имя выходного файла |
+| размер | Vector2 | Размер окончательного отрисованного изображения |
+| формат | String | Формат изображения выходного файла |
 
-### Смотрите также
+### См. также
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* struct [Vector2](../../../aspose.threed.utilities/vector2/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, string, Size, ImageFormat, ImageRenderOptions) {#render_4}
+## Render(Camera, string, Vector2, string, ImageRenderOptions) {#render_4}
 
-Рендеринг сцены во внешний файл с точки зрения данной камеры.
+Рендерит сцену во внешний файл с точки зрения заданной камеры.
 
 ```csharp
-public void Render(Camera camera, string fileName, Size size, ImageFormat format, 
+public void Render(Camera camera, string fileName, Vector2 size, string format, 
     ImageRenderOptions options)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| camera | Camera | С точки зрения какой камеры рендерить сцену |
-| fileName | String | Имя файла выходного файла |
-| size | Size | Размер конечного визуализированного изображения |
-| format | ImageFormat | Формат изображения выходного файла |
-| options | ImageRenderOptions | Возможность настроить некоторые внутренние параметры. |
+| камера | Камера | С какой точки зрения камеры рендерить сцену |
+| fileName | String | Имя выходного файла |
+| размер | Vector2 | Размер окончательного отрисованного изображения |
+| формат | String | Формат изображения выходного файла |
+| options | ImageRenderOptions | Опция для настройки некоторых внутренних параметров. |
 
-### Смотрите также
+### См. также
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [ImageRenderOptions](../../imagerenderoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* struct [Vector2](../../../aspose.threed.utilities/vector2/)
+* class [ImageRenderOptions](../../imagerenderoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, Bitmap) {#render}
+## Render(Camera, TextureData) {#render}
 
-Визуализация сцены в растровое изображение с точки зрения данной камеры.
+Рендерит сцену в bitmap с точки зрения заданной камеры.
 
 ```csharp
-public void Render(Camera camera, Bitmap bitmap)
+public void Render(Camera camera, TextureData bitmap)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| camera | Camera | С точки зрения какой камеры рендерить сцену |
-| bitmap | Bitmap | Цель визуализированного результата |
+| камера | Камера | С какой точки зрения камеры рендерить сцену |
+| bitmap | TextureData | Цель отрисованного результата |
 
-### Смотрите также
+### См. также
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Render(Camera, Bitmap, ImageRenderOptions) {#render_1}
+## Render(Camera, TextureData, ImageRenderOptions) {#render_1}
 
-Визуализация сцены в растровое изображение с точки зрения данной камеры.
+Рендерит сцену в bitmap с точки зрения заданной камеры.
 
 ```csharp
-public void Render(Camera camera, Bitmap bitmap, ImageRenderOptions options)
+public void Render(Camera camera, TextureData bitmap, ImageRenderOptions options)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| camera | Camera | С точки зрения какой камеры рендерить сцену |
-| bitmap | Bitmap | Цель визуализированного результата |
-| options | ImageRenderOptions | Возможность настроить некоторые внутренние параметры. |
+| камера | Камера | С какой точки зрения камеры рендерить сцену |
+| bitmap | TextureData | Цель отрисованного результата |
+| options | ImageRenderOptions | Опция для настройки некоторых внутренних параметров. |
 
-### Смотрите также
+### См. также
 
-* class [Camera](../../../aspose.threed.entities/camera)
-* class [ImageRenderOptions](../../imagerenderoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+* class [Camera](../../../aspose.threed.entities/camera/)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* class [ImageRenderOptions](../../imagerenderoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

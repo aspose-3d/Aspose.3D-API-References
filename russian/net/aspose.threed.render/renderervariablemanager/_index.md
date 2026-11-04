@@ -1,41 +1,41 @@
 ---
-title: RendererVariableManager
-second_title: Справочник по Aspose.3D для .NET API
-description: Этот класс управляет переменными используемыми в rendering
+title: "Класс RendererVariableManager"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Render.RendererVariableManager. Этот класс управляет переменными, используемыми при рендеринге."
 type: docs
-weight: 2110
+weight: 2350
 url: /ru/net/aspose.threed.render/renderervariablemanager/
 ---
 ## RendererVariableManager class
 
-Этот класс управляет переменными, используемыми в rendering
+Этот класс управляет переменными, используемыми в рендеринге
 
 ```csharp
 public abstract class RendererVariableManager
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CameraPosition](../../aspose.threed.render/renderervariablemanager/cameraposition) { get; set; } | Положение камеры в мировой системе координат |
-| [DepthBias](../../aspose.threed.render/renderervariablemanager/depthbias) { get; set; } | Смещение глубины для отображения теней, значение по умолчанию 0,001 |
-| [MatrixLightSpace](../../aspose.threed.render/renderervariablemanager/matrixlightspace) { get; set; } | Матрица трансформации светового пространства |
-| [MatrixProjection](../../aspose.threed.render/renderervariablemanager/matrixprojection) { get; set; } | Матрица преобразования проекций |
-| [MatrixView](../../aspose.threed.render/renderervariablemanager/matrixview) { get; set; } | Матрица преобразования вида |
-| [MatrixViewProjection](../../aspose.threed.render/renderervariablemanager/matrixviewprojection) { get; } | Матрица преобразования видов и проекций. |
-| [MatrixWorld](../../aspose.threed.render/renderervariablemanager/matrixworld) { get; } | Матрица трансформации мира |
-| [MatrixWorldNormal](../../aspose.threed.render/renderervariablemanager/matrixworldnormal) { get; } | Матрица преобразования нормалей из объекта в мировое пространство. |
-| [MatrixWorldViewProjection](../../aspose.threed.render/renderervariablemanager/matrixworldviewprojection) { get; } | Матрица преобразования мировоззрения и проекции |
-| [ShadowCaster](../../aspose.threed.render/renderervariablemanager/shadowcaster) { get; set; } | Положение отбрасывателя тени в мировой системе координат |
-| [Shadowmap](../../aspose.threed.render/renderervariablemanager/shadowmap) { get; set; } | Текстура глубины, используемая для отображения теней |
-| [ViewportSize](../../aspose.threed.render/renderervariablemanager/viewportsize) { get; } | Размер окна просмотра, измеренный в пикселях |
-| [WorldAmbient](../../aspose.threed.render/renderervariablemanager/worldambient) { get; } | Цвет окружающей среды, определенный в окне просмотра. |
-| [WorldTime](../../aspose.threed.render/renderervariablemanager/worldtime) { get; } | Время в секундах |
+| [CameraPosition](../../aspose.threed.render/renderervariablemanager/cameraposition/) { get; set; } | Позиция камеры в мировой системе координат |
+| [DepthBias](../../aspose.threed.render/renderervariablemanager/depthbias/) { get; set; } | Смещение глубины для теневого отображения, значение по умолчанию — 0,001. |
+| [MatrixLightSpace](../../aspose.threed.render/renderervariablemanager/matrixlightspace/) { get; set; } | Матрица преобразования светового пространства |
+| [MatrixProjection](../../aspose.threed.render/renderervariablemanager/matrixprojection/) { get; set; } | Матрица проекционного преобразования |
+| [MatrixView](../../aspose.threed.render/renderervariablemanager/matrixview/) { get; set; } | Матрица преобразования вида |
+| [MatrixViewProjection](../../aspose.threed.render/renderervariablemanager/matrixviewprojection/) { get; } | Матрица преобразования вида и проекции. |
+| [MatrixWorld](../../aspose.threed.render/renderervariablemanager/matrixworld/) { get; } | Матрица преобразования мира |
+| [MatrixWorldNormal](../../aspose.threed.render/renderervariablemanager/matrixworldnormal/) { get; } | Матрица преобразования нормали из объектного в мировое пространство. |
+| [MatrixWorldViewProjection](../../aspose.threed.render/renderervariablemanager/matrixworldviewprojection/) { get; } | Матрица преобразования мирового вида и проекции |
+| [ShadowCaster](../../aspose.threed.render/renderervariablemanager/shadowcaster/) { get; set; } | Позиция источника тени в мировой системе координат |
+| [Shadowmap](../../aspose.threed.render/renderervariablemanager/shadowmap/) { get; set; } | Текстура глубины, используемая для теневого отображения |
+| [ViewportSize](../../aspose.threed.render/renderervariablemanager/viewportsize/) { get; } | Размер области просмотра, измеренный в пикселях |
+| [WorldAmbient](../../aspose.threed.render/renderervariablemanager/worldambient/) { get; } | Фоновый цвет, определённый в области просмотра. |
+| [WorldTime](../../aspose.threed.render/renderervariablemanager/worldtime/) { get; } | Время в секундах |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.ThreeD.Render](../../aspose.threed.render)
-* сборка [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

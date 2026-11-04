@@ -1,14 +1,14 @@
 ---
-title: CircleShape
-second_title: Справочник по Aspose.3D для .NET API
-description: Круговой профиль совместимый с IFC который можно использовать для построения сетки посредствомLinearExtrusion../aspose.threed.entities/linearextrusion
+title: "Класс CircleShape"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Profiles.CircleShape. Совместимый с IFC круговой профиль, который может быть использован для построения сетки с помощью LinearExtrusion"
 type: docs
-weight: 1530
+weight: 1700
 url: /ru/net/aspose.threed.profiles/circleshape/
 ---
 ## CircleShape class
 
-Круговой профиль, совместимый с IFC, который можно использовать для построения сетки посредством[`LinearExtrusion`](../../aspose.threed.entities/linearextrusion)
+Совместимый с IFC круговой профиль, который может быть использован для построения сетки через [`LinearExtrusion`](../../aspose.threed.entities/linearextrusion/)
 
 ```csharp
 public class CircleShape : ParameterizedProfile
@@ -18,38 +18,38 @@ public class CircleShape : ParameterizedProfile
 
 | Имя | Описание |
 | --- | --- |
-| [CircleShape](circleshape#constructor)() | Построить[`CircleShape`](../circleshape) профиль с радиусом по умолчанию (5). |
-| [CircleShape](circleshape#constructor_1)(double) | Построить[`CircleShape`](../circleshape) профиль с указанным радиусом. |
+| [CircleShape](circleshape/#constructor)() | Создайте профиль `CircleShape` с радиусом по умолчанию (5). |
+| [CircleShape](circleshape/#constructor_1)(double) | Создайте профиль `CircleShape` с указанным радиусом. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Получает или задает, следует ли исключить этот объект при экспорте. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Получает или задает первый родительский узел, если задан первый родительский узел, этот объект будет отсоединен от других родительских узлов. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для экземпляра геометрии |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
-| [Radius](../../aspose.threed.profiles/circleshape/radius) { get; set; } | Получает или задает радиус окружности. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Получает сцену, которой принадлежит этот объект |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Получает или задает, следует ли исключать эту сущность при экспорте. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Получает или задает первый родительский узел; если установлен первый родительский узел, эта сущность будет отсоединена от остальных родительских узлов. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для инстанцирования геометрии |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
+| [Radius](../../aspose.threed.profiles/circleshape/radius/) { get; set; } | Получает или задает радиус круга. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Получает сцену, к которой принадлежит этот объект |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Получает ограничивающую рамку текущего объекта в его системе координат объектного пространства. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey)() | Получает ключ средства визуализации объектов, зарегистрированного в средстве визуализации |
-| override [GetExtent](../../aspose.threed.profiles/circleshape/getextent)() | Получает экстент в измерениях x и y. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Получает ограничивающий параллелепипед текущей сущности в её системе координат объектного пространства. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | Получает ключ рендерера сущности, зарегистрированного в рендерере |
+| override [GetExtent](../../aspose.threed.profiles/circleshape/getextent/)() | Получает размеры в измерениях x и y. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
 
-### Смотрите также
+### См. также
 
-* class [ParameterizedProfile](../parameterizedprofile)
-* пространство имен [Aspose.ThreeD.Profiles](../../aspose.threed.profiles)
-* сборка [Aspose.3D](../../)
+* class [ParameterizedProfile](../parameterizedprofile/)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

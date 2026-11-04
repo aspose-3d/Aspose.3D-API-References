@@ -1,14 +1,14 @@
 ---
-title: SweptAreaSolid
-second_title: Справочник по Aspose.3D для .NET API
-description: АSweptAreaSolid./sweptareasolid строит геометрию проводя профиль по направляющей.
+title: "Класс SweptAreaSolid"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Entities.SweptAreaSolid. SweptAreaSolid создает геометрию, вытягивая профиль вдоль директрисы"
 type: docs
-weight: 690
+weight: 750
 url: /ru/net/aspose.threed.entities/sweptareasolid/
 ---
 ## SweptAreaSolid class
 
-А[`SweptAreaSolid`](../sweptareasolid) строит геометрию, проводя профиль по направляющей.
+Объект `SweptAreaSolid` создает геометрию, вытягивая профиль вдоль директивы.
 
 ```csharp
 public class SweptAreaSolid : Entity, IMeshConvertible
@@ -18,41 +18,62 @@ public class SweptAreaSolid : Entity, IMeshConvertible
 
 | Имя | Описание |
 | --- | --- |
-| [SweptAreaSolid](sweptareasolid)() | Конструктор по умолчанию. |
+| [SweptAreaSolid](sweptareasolid/)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Directrix](../../aspose.threed.entities/sweptareasolid/directrix) { get; set; } | Направляющая, по которой перемещается область сканирования. |
-| [EndPoint](../../aspose.threed.entities/sweptareasolid/endpoint) { get; set; } | Конечная точка направляющей. |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Получает или задает, следует ли исключить этот объект при экспорте. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Получает или задает первый родительский узел, если задан первый родительский узел, этот объект будет отсоединен от других родительских узлов. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для экземпляра геометрии |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Получает сцену, которой принадлежит этот объект |
-| [Shape](../../aspose.threed.entities/sweptareasolid/shape) { get; set; } | Базовый профиль для построения геометрии. |
-| [StartPoint](../../aspose.threed.entities/sweptareasolid/startpoint) { get; set; } | Начальная точка направляющей. |
+| [Directrix](../../aspose.threed.entities/sweptareasolid/directrix/) { get; set; } | Директива, вдоль которой происходит вытягивание области. |
+| [EndPoint](../../aspose.threed.entities/sweptareasolid/endpoint/) { get; set; } | Конечная точка директивы. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Получает или задает, следует ли исключать эту сущность при экспорте. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Получает или задает первый родительский узел; если установлен первый родительский узел, эта сущность будет отсоединена от остальных родительских узлов. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для инстанцирования геометрии |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Получает сцену, к которой принадлежит этот объект |
+| [Shape](../../aspose.threed.entities/sweptareasolid/shape/) { get; set; } | Базовый профиль для построения геометрии. |
+| [StartPoint](../../aspose.threed.entities/sweptareasolid/startpoint/) { get; set; } | Начальная точка директивы. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Получает ограничивающую рамку текущего объекта в его системе координат объектного пространства. |
-| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey)() | Получает ключ средства визуализации объектов, зарегистрированного в средстве визуализации |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
-| [ToMesh](../../aspose.threed.entities/sweptareasolid/tomesh)() | Преобразовать текущий объект в mesh |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Получает ограничивающий параллелепипед текущей сущности в её системе координат объектного пространства. |
+| virtual [GetEntityRendererKey](../../aspose.threed/entity/getentityrendererkey/)() | Получает ключ рендерера сущности, зарегистрированного в рендерере |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
+| [ToMesh](../../aspose.threed.entities/sweptareasolid/tomesh/)() | Преобразовать текущий объект в сетку |
 
-### Смотрите также
+## Примеры
 
-* class [Entity](../../aspose.threed/entity)
-* interface [IMeshConvertible](../imeshconvertible)
-* пространство имен [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* сборка [Aspose.3D](../../)
+Следующий код показывает, как моделировать твердый объект, вытягивая C-образную форму по окружности.
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+```csharp
+var directrix = new Circle(20);
+var shape = new CShape();
+
+var swept = new SweptAreaSolid()
+{
+  Shape = shape,
+  Directrix = directrix,
+  StartPoint = EndPoint.FromDegree(0),
+  EndPoint = EndPoint.FromDegree(130)
+};
+
+var scene = new Scene();
+scene.RootNode.CreateChildNode(swept);
+scene.Save("swept.obj");
+```
+
+### См. также
+
+* class [Entity](../../aspose.threed/entity/)
+* interface [IMeshConvertible](../imeshconvertible/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
+
+

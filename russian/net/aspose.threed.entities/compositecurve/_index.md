@@ -1,14 +1,14 @@
 ---
-title: CompositeCurve
-second_title: Справочник по Aspose.3D для .NET API
-description: АCompositeCurve./compositecurve состоит из нескольких сегментов кривой.
+title: "Класс CompositeCurve"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Entities.CompositeCurve. CompositeCurve состоит из нескольких сегментов кривой"
 type: docs
-weight: 270
+weight: 320
 url: /ru/net/aspose.threed.entities/compositecurve/
 ---
 ## CompositeCurve class
 
-А[`CompositeCurve`](../compositecurve) состоит из нескольких сегментов кривой.
+`CompositeCurve` состоит из нескольких сегментов кривой.
 
 ```csharp
 public class CompositeCurve : Curve
@@ -18,44 +18,44 @@ public class CompositeCurve : Curve
 
 | Имя | Описание |
 | --- | --- |
-| [CompositeCurve](compositecurve)() | Конструктор[`CompositeCurve`](../compositecurve) |
+| [CompositeCurve](compositecurve/)() | Конструктор `CompositeCurve` |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.threed.entities/curve/color) { get; set; } | Получает или задает цвет линии, значение по умолчанию — белый (1, 1, 1) |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Получает или задает, следует ли исключить этот объект при экспорте. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Получает или задает первый родительский узел, если задан первый родительский узел, этот объект будет отсоединен от других родительских узлов. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для экземпляра геометрии |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Получает сцену, которой принадлежит этот объект |
-| [Segments](../../aspose.threed.entities/compositecurve/segments) { get; } | Сегменты кривой. |
+| [Color](../../aspose.threed.entities/curve/color/) { get; set; } | Получает или задает цвет линии, значение по умолчанию — белый (1, 1, 1) |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Получает или задает, следует ли исключать эту сущность при экспорте. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Получает или задает первый родительский узел; если установлен первый родительский узел, эта сущность будет отсоединена от остальных родительских узлов. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Получает все родительские узлы, сущность может быть присоединена к нескольким родительским узлам для инстанцирования геометрии |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Получает сцену, к которой принадлежит этот объект |
+| [Segments](../../aspose.threed.entities/compositecurve/segments/) { get; } | Сегменты кривой. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddSegment](../../aspose.threed.entities/compositecurve/addsegment)(Curve, bool) |  |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Получает ограничивающую рамку текущего объекта в его системе координат объектного пространства. |
-| override [GetEntityRendererKey](../../aspose.threed.entities/curve/getentityrendererkey)() | Получает ключ средства визуализации объектов, зарегистрированного в средстве визуализации |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
+| [AddSegment](../../aspose.threed.entities/compositecurve/addsegment/)(Curve, bool) | Добавить новый сегмент к текущей кривой. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Получает ограничивающий параллелепипед текущей сущности в её системе координат объектного пространства. |
+| override [GetEntityRendererKey](../../aspose.threed.entities/curve/getentityrendererkey/)() | Получает ключ рендерера сущности, зарегистрированного в рендерере |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
 
 ## Другие члены
 
 | Имя | Описание |
 | --- | --- |
-| class [Segment](compositecurve.segment) |  |
+| class [Segment](../../aspose.threed.entities/compositecurve.segment) |  |
 
-### Смотрите также
+### См. также
 
-* class [Curve](../curve)
-* пространство имен [Aspose.ThreeD.Entities](../../aspose.threed.entities)
-* сборка [Aspose.3D](../../)
+* class [Curve](../curve/)
+* namespace [Aspose.ThreeD.Entities](../../aspose.threed.entities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

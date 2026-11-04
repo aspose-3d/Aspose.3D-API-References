@@ -1,7 +1,7 @@
 ---
-title: Save
-second_title: Справочник по Aspose.3D для .NET API
-description: Сохраняет сцену в поток используя указанный формат файла.
+title: "Scene.Save"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Метод Scene. Сохраняет сцену в поток, используя указанный формат файла"
 type: docs
 weight: 160
 url: /ru/net/aspose.threed/scene/save/
@@ -16,15 +16,34 @@ public void Save(Stream stream, FileFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Входной поток, пользователь отвечает за закрытие потока. |
-| format | FileFormat | Формат. |
+| stream | Stream | Входной поток, пользователь отвечает за его закрытие. |
+| формат | FileFormat | Формат. |
 
-### Смотрите также
+### Исключения
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
+
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, FileFormat.USDZ);
+}
+```
+
+### См. также
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -38,16 +57,36 @@ public void Save(Stream stream, FileFormat format, CancellationToken cancellatio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Входной поток, пользователь отвечает за закрытие потока. |
-| format | FileFormat | Формат. |
+| stream | Stream | Входной поток, пользователь отвечает за его закрытие. |
+| формат | FileFormat | Формат. |
 | cancellationToken | CancellationToken | Токен отмены для задачи сохранения |
 
-### Смотрите также
+### Исключения
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
+
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var cts = new CancellationTokenSource();
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, FileFormat.USDZ, cts.Token);
+}
+```
+
+### См. также
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -61,15 +100,36 @@ public void Save(Stream stream, SaveOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Входной поток, пользователь отвечает за закрытие потока. |
-| options | SaveOptions | Более подробная настройка для сохранения потока. |
+| stream | Stream | Входной поток, пользователь отвечает за его закрытие. |
+| options | SaveOptions | Более подробная конфигурация для сохранения потока. |
 
-### Смотрите также
+### Исключения
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
+
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var opt = new UsdSaveOptions();
+opt.PrimitiveToMesh = true;
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, opt);
+}
+```
+
+### См. также
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -83,16 +143,38 @@ public void Save(Stream stream, SaveOptions options, CancellationToken cancellat
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Входной поток, пользователь отвечает за закрытие потока. |
-| options | SaveOptions | Более подробная настройка для сохранения потока. |
+| stream | Stream | Входной поток, пользователь отвечает за его закрытие. |
+| options | SaveOptions | Более подробная конфигурация для сохранения потока. |
 | cancellationToken | CancellationToken | Токен отмены для задачи сохранения |
 
-### Смотрите также
+### Исключения
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
+
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+var cts = new CancellationTokenSource();
+var opt = new UsdSaveOptions();
+opt.PrimitiveToMesh = true;
+using(var ms = new MemoryStream())
+{
+    scene.Save(ms, opt, cts.Token);
+}
+```
+
+### См. также
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -108,11 +190,27 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Имя файла. |
 
-### Смотрите также
+### Исключения
 
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
+
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz");
+```
+
+### См. также
+
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -127,14 +225,30 @@ public void Save(string fileName, FileFormat format)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| format | FileFormat | Формат. |
+| формат | FileFormat | Формат. |
 
-### Смотрите также
+### Исключения
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
+
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz", FileFormat.USDZ);
+```
+
+### См. также
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -149,15 +263,32 @@ public void Save(string fileName, FileFormat format, CancellationToken cancellat
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| format | FileFormat | Формат. |
+| формат | FileFormat | Формат. |
 | cancellationToken | CancellationToken | Токен отмены для задачи сохранения |
 
-### Смотрите также
+### Исключения
 
-* class [FileFormat](../../fileformat)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
+
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+var cts = new CancellationTokenSource();
+Scene scene = Scene.FromFile("input.fbx");
+scene.Save("output.usdz", FileFormat.USDZ, cts.Token);
+```
+
+### См. также
+
+* class [FileFormat](../../fileformat/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -172,14 +303,32 @@ public void Save(string fileName, SaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| options | SaveOptions | Более подробная настройка для сохранения потока. |
+| options | SaveOptions | Более подробная конфигурация для сохранения потока. |
 
-### Смотрите также
+### Исключения
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
+
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+var scene = Scene.FromFile("input.fbx");
+var opts = new UsdSaveOptions();
+opts.PrimitiveToMesh = true;
+scene.Save("output.usdz", opts);
+```
+
+### См. также
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -194,14 +343,33 @@ public void Save(string fileName, SaveOptions options, CancellationToken cancell
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| options | SaveOptions | Более подробная настройка для сохранения потока. |
+| options | SaveOptions | Более подробная конфигурация для сохранения потока. |
 | cancellationToken | CancellationToken | Токен отмены для задачи сохранения |
 
-### Смотрите также
+### Исключения
 
-* class [SaveOptions](../../../aspose.threed.formats/saveoptions)
-* class [Scene](../../scene)
-* пространство имен [Aspose.ThreeD](../../scene)
-* сборка [Aspose.3D](../../../)
+| исключение | условие |
+| --- | --- |
+| IOException | Выбрасывается при ошибке чтения входных данных |
+| [ExportException](../../exportexception/) | Выбрасывается при неудачной попытке экспортировать сцену в указанный 3D‑формат |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+## Примеры
+
+Следующий код показывает, как сохранить сцену
+
+```csharp
+var cts = new CancellationTokenSource();
+var scene = Scene.FromFile("input.fbx");
+var opts = new UsdSaveOptions();
+opts.PrimitiveToMesh = true;
+scene.Save("output.usdz", opts, cts.Token);
+```
+
+### См. также
+
+* class [SaveOptions](../../../aspose.threed.formats/saveoptions/)
+* class [Scene](../)
+* namespace [Aspose.ThreeD](../../scene/)
+* assembly [Aspose.3D](../../../)
+
+

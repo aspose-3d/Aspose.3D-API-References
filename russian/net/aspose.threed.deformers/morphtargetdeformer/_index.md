@@ -1,14 +1,14 @@
 ---
-title: MorphTargetDeformer
-second_title: Справочник по Aspose.3D для .NET API
-description: MorphTargetDeformer обеспечивает повершинную анимацию. MorphTargetDeformer организует все цели черезMorphTargetChannel./morphtargetchannel  каждый канал может организовать несколько целей. Обычно деформатор цели морфинга используется для применения выражения лица к персонажу. Более подробную информацию можно найти на https//en.wikipedia.org/wiki/Morph_target_animation
+title: "Класс MorphTargetDeformer"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Класс Aspose.ThreeD.Deformers.MorphTargetDeformer. MorphTargetDeformer обеспечивает покоординатную анимацию. MorphTargetDeformer организует все таргеты через MorphTargetChannel, каждый канал может содержать несколько таргетов. Распространённое применение деформера морф-таргетов — применение выражений лица к персонажу. Подробнее можно узнать по адресу https//en.wikipedia.org/wiki/Morph_target_animation"
 type: docs
-weight: 210
+weight: 230
 url: /ru/net/aspose.threed.deformers/morphtargetdeformer/
 ---
 ## MorphTargetDeformer class
 
-MorphTargetDeformer обеспечивает повершинную анимацию. MorphTargetDeformer организует все цели через[`MorphTargetChannel`](../morphtargetchannel) , каждый канал может организовать несколько целей. Обычно деформатор цели морфинга используется для применения выражения лица к персонажу. Более подробную информацию можно найти на https://en.wikipedia.org/wiki/Morph_target_animation
+MorphTargetDeformer обеспечивает покоординатную анимацию. MorphTargetDeformer организует все таргеты через [`MorphTargetChannel`](../morphtargetchannel/), каждый канал может содержать несколько таргетов. Распространённое применение деформера морф-таргетов — применение выражений лица к персонажу. Подробнее можно узнать по адресу https://en.wikipedia.org/wiki/Morph_target_animation
 
 ```csharp
 public class MorphTargetDeformer : Deformer
@@ -18,33 +18,33 @@ public class MorphTargetDeformer : Deformer
 
 | Имя | Описание |
 | --- | --- |
-| [MorphTargetDeformer](morphtargetdeformer#constructor)() | Инициализирует новый экземпляр[`MorphTargetDeformer`](../morphtargetdeformer) класс. |
-| [MorphTargetDeformer](morphtargetdeformer#constructor_1)(string) | Инициализирует новый экземпляр[`MorphTargetDeformer`](../morphtargetdeformer) класс. |
+| [MorphTargetDeformer](morphtargetdeformer/#constructor)() | Инициализирует новый экземпляр класса `MorphTargetDeformer`. |
+| [MorphTargetDeformer](morphtargetdeformer/#constructor_1)(string) | Инициализирует новый экземпляр класса `MorphTargetDeformer`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Channels](../../aspose.threed.deformers/morphtargetdeformer/channels) { get; } | Получает все каналы, содержащиеся в этом деформаторе |
-| [Item](../../aspose.threed.deformers/morphtargetdeformer/item) { get; set; } |  |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Получает или задает имя. |
-| [Owner](../../aspose.threed.deformers/deformer/owner) { get; } | Получает геометрию, которой принадлежит этот деформатор |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Получает коллекцию всех свойств. |
+| [Channels](../../aspose.threed.deformers/morphtargetdeformer/channels/) { get; } | Получает все каналы, содержащиеся в этом деформере |
+| [Item](../../aspose.threed.deformers/morphtargetdeformer/item/) { get; set; } |  |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Получает или задает имя. |
+| [Owner](../../aspose.threed.deformers/deformer/owner/) { get; } | Получает геометрию, которой принадлежит этот деформер |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Получает коллекцию всех свойств. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Находит свойство. Это может быть динамическое свойство (созданное CreateDynamicProperty/SetProperty) или родное свойство (идентифицированное по имени) |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Получить значение указанного свойства |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Удаляет динамическое свойство. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Удалить указанное свойство с именем name |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Устанавливает значение указанного свойства |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Находит свойство. Это может быть динамическое свойство (Созданное с помощью CreateDynamicProperty/SetProperty) или нативное свойство(Определяемое по его имени) |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Получить значение указанного свойства |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Удаляет динамическое свойство. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Удалить указанное свойство, определяемое по имени |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Устанавливает значение указанного свойства |
 
-### Смотрите также
+### См. также
 
-* class [Deformer](../deformer)
-* пространство имен [Aspose.ThreeD.Deformers](../../aspose.threed.deformers)
-* сборка [Aspose.3D](../../)
+* class [Deformer](../deformer/)
+* namespace [Aspose.ThreeD.Deformers](../../aspose.threed.deformers/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

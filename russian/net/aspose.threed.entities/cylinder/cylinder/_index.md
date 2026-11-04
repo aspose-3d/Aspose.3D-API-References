@@ -1,30 +1,30 @@
 ---
-title: Cylinder
-second_title: Справочник по Aspose.3D для .NET API
-description: Инициализирует новый экземплярCylinderaspose.threed.entities/cylinder класс.
+title: "Cylinder.Cylinder"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Конструктор Cylinder. Инициализирует новый экземпляр класса Cylinder"
 type: docs
 weight: 10
 url: /ru/net/aspose.threed.entities/cylinder/cylinder/
 ---
 ## Cylinder() {#constructor}
 
-Инициализирует новый экземпляр[`Cylinder`](../../cylinder) класс.
+Инициализирует новый экземпляр класса [`Cylinder`](../).
 
 ```csharp
 public Cylinder()
 ```
 
-### Смотрите также
+### См. также
 
-* class [Cylinder](../../cylinder)
-* пространство имен [Aspose.ThreeD.Entities](../../cylinder)
-* сборка [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double) {#constructor_1}
 
-Инициализирует новый экземпляр[`Cylinder`](../../cylinder) класс.
+Инициализирует новый экземпляр класса [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radius, double height)
@@ -32,20 +32,20 @@ public Cylinder(double radius, double height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| radius | Double | Радиус верхней и нижней крышки. |
-| height | Double | Высота. |
+| радиус | Double | Радиус верхней и нижней крышки. |
+| высота | Double | Высота. |
 
-### Смотрите также
+### См. также
 
-* class [Cylinder](../../cylinder)
-* пространство имен [Aspose.ThreeD.Entities](../../cylinder)
-* сборка [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double) {#constructor_2}
 
-Инициализирует новый экземпляр[`Cylinder`](../../cylinder) класс.
+Инициализирует новый экземпляр класса [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height)
@@ -53,21 +53,21 @@ public Cylinder(double radiusTop, double radiusBottom, double height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| radiusTop | Double | Радиус сверху. |
-| radiusBottom | Double | Радиус дна. |
-| height | Double | Высота. |
+| radiusTop | Double | Радиус верхней крышки. |
+| radiusBottom | Double | Радиус нижней крышки. |
+| высота | Double | Высота. |
 
-### Смотрите также
+### См. также
 
-* class [Cylinder](../../cylinder)
-* пространство имен [Aspose.ThreeD.Entities](../../cylinder)
-* сборка [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(double, double, double, int, int, bool) {#constructor_3}
 
-Инициализирует новый экземпляр[`Cylinder`](../../cylinder) класс.
+Инициализирует новый экземпляр класса [`Cylinder`](../).
 
 ```csharp
 public Cylinder(double radiusTop, double radiusBottom, double height, int radialSegments, 
@@ -78,22 +78,22 @@ public Cylinder(double radiusTop, double radiusBottom, double height, int radial
 | --- | --- | --- |
 | radiusTop | Double | Радиус верхней крышки цилиндра. |
 | radiusBottom | Double | Радиус нижней крышки цилиндра. |
-| height | Double | Высота цилиндра. |
-| radialSegments | Int32 | Радиальные сегменты верхней и нижней окружностей. |
+| высота | Double | Высота цилиндра. |
+| radialSegments | Int32 | Радиальные сегменты как верхних, так и нижних кругов.. |
 | heightSegments | Int32 | Сегменты высоты. |
-| openEnded | Boolean | Если установлено`истинный` цилиндр не будет иметь нижние/верхние крышки.. |
+| openEnded | Boolean | Если установить в `true`, цилиндр не будет иметь нижних/верхних крышек.. |
 
-### Смотрите также
+### См. также
 
-* class [Cylinder](../../cylinder)
-* пространство имен [Aspose.ThreeD.Entities](../../cylinder)
-* сборка [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Cylinder(string, double, double, double, int, int, bool, double, double) {#constructor_4}
 
-Инициализирует новый экземпляр[`Cylinder`](../../cylinder) класс.
+Инициализирует новый экземпляр класса [`Cylinder`](../).
 
 ```csharp
 public Cylinder(string name, double radiusTop, double radiusBottom, double height, 
@@ -105,17 +105,17 @@ public Cylinder(string name, double radiusTop, double radiusBottom, double heigh
 | name | String | Имя этого объекта |
 | radiusTop | Double | Радиус верхней крышки цилиндра. |
 | radiusBottom | Double | Радиус нижней крышки цилиндра. |
-| height | Double | Высота цилиндра. |
-| radialSegments | Int32 | Радиальные сегменты верхней и нижней окружностей. |
+| высота | Double | Высота цилиндра. |
+| radialSegments | Int32 | Радиальные сегменты как верхних, так и нижних кругов.. |
 | heightSegments | Int32 | Сегменты высоты. |
-| openEnded | Boolean | Если установлено`истинный` цилиндр не будет иметь нижние/верхние крышки.. |
-| thetaStart | Double | Тета начало. |
-| thetaLength | Double | Длина теты. |
+| openEnded | Boolean | Если установить в `true`, цилиндр не будет иметь нижних/верхних крышек.. |
+| thetaStart | Double | Начало theta. |
+| thetaLength | Double | Длина theta. |
 
-### Смотрите также
+### См. также
 
-* class [Cylinder](../../cylinder)
-* пространство имен [Aspose.ThreeD.Entities](../../cylinder)
-* сборка [Aspose.3D](../../../)
+* class [Cylinder](../)
+* namespace [Aspose.ThreeD.Entities](../../cylinder/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

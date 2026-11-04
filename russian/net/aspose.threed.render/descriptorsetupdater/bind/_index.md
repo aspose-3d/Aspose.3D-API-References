@@ -1,14 +1,14 @@
 ---
-title: Bind
-second_title: Справочник по Aspose.3D для .NET API
-description: Привязать буфер к текущему дескриптору set
+title: "DescriptorSetUpdater.Bind"
+second_title: "Справочник API Aspose.3D для .NET"
+description: "Метод DescriptorSetUpdater. Привязывает буфер к текущему набору дескрипторов"
 type: docs
 weight: 10
 url: /ru/net/aspose.threed.render/descriptorsetupdater/bind/
 ---
 ## Bind(IBuffer, int, int) {#bind_1}
 
-Привязать буфер к текущему дескриптору set
+Привязать буфер к текущему набору дескрипторов
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
@@ -16,20 +16,20 @@ public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| buffer | IBuffer | Какой буфер привязать |
-| offset | Int32 | Смещение буфера для привязки |
-| size | Int32 | Размер буфера для привязки |
+| буфер | IBuffer | Какой буфер привязать |
+| смещение | Int32 | Смещение буфера для привязки |
+| размер | Int32 | Размер буфера для привязки |
 
 ### Возвращаемое значение
 
-Возвращает текущий экземпляр для цепочки операций
+Возвращает текущий экземпляр для цепочечных вызовов
 
-### Смотрите также
+### См. также
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* пространство имен [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* сборка [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -43,18 +43,18 @@ public DescriptorSetUpdater Bind(IBuffer buffer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| buffer | IBuffer |  |
+| буфер | IBuffer |  |
 
 ### Возвращаемое значение
 
-Возвращает текущий экземпляр для цепочки операций
+Возвращает текущий экземпляр для цепочечных вызовов
 
-### Смотрите также
+### См. также
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* пространство имен [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* сборка [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -68,19 +68,19 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| binding | Int32 | Место привязки |
-| buffer | IBuffer | Весь буфер для привязки |
+| привязка | Int32 | Местоположение привязки |
+| буфер | IBuffer | Весь буфер для привязки |
 
 ### Возвращаемое значение
 
-Возвращает текущий экземпляр для цепочки операций
+Возвращает текущий экземпляр для цепочечных вызовов
 
-### Смотрите также
+### См. также
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* пространство имен [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* сборка [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
@@ -94,27 +94,27 @@ public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int si
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| binding | Int32 | Место привязки |
-| buffer | IBuffer | Буфер для привязки |
-| offset | Int32 | Смещение буфера для привязки |
-| size | Int32 | Размер буфера для привязки |
+| привязка | Int32 | Местоположение привязки |
+| буфер | IBuffer | Буфер для привязки |
+| смещение | Int32 | Смещение буфера для привязки |
+| размер | Int32 | Размер буфера для привязки |
 
 ### Возвращаемое значение
 
-Возвращает текущий экземпляр для цепочки операций
+Возвращает текущий экземпляр для цепочечных вызовов
 
-### Смотрите также
+### См. также
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* пространство имен [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* сборка [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(ITextureUnit) {#bind_2}
 
-Привязать блок текстуры к текущему дескриптору set
+Привязать текстурный юнит к текущему набору дескрипторов
 
 ```csharp
 public DescriptorSetUpdater Bind(ITextureUnit texture)
@@ -122,24 +122,24 @@ public DescriptorSetUpdater Bind(ITextureUnit texture)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| texture | ITextureUnit | Текстурный блок для привязки |
+| текстура | ITextureUnit | Текстурный юнит для привязки |
 
 ### Возвращаемое значение
 
-Возвращает текущий экземпляр для цепочки операций
+Возвращает текущий экземпляр для цепочечных вызовов
 
-### Смотрите также
+### См. также
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* пространство имен [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* сборка [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, ITextureUnit) {#bind_5}
 
-Привязать блок текстуры к текущему дескриптору set
+Привязать текстурный юнит к текущему набору дескрипторов
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
@@ -147,18 +147,18 @@ public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| binding | Int32 | Место привязки |
-| texture | ITextureUnit | Текстурный блок для привязки |
+| привязка | Int32 | Местоположение привязки |
+| текстура | ITextureUnit | Текстурный юнит для привязки |
 
 ### Возвращаемое значение
 
-Возвращает текущий экземпляр для цепочки операций
+Возвращает текущий экземпляр для цепочечных вызовов
 
-### Смотрите также
+### См. также
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* пространство имен [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* сборка [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
