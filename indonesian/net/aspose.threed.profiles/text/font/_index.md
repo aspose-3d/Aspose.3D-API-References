@@ -1,0 +1,39 @@
+---
+title: "Text.Font"
+second_title: "Referensi API Aspose.3D untuk .NET"
+description: "Properti Text. Font teks"
+type: docs
+weight: 30
+url: /id/net/aspose.threed.profiles/text/font/
+---
+## Text.Font property
+
+Font teks.
+
+```csharp
+public FontFile Font { get; set; }
+```
+
+## Contoh
+
+Kode berikut menunjukkan cara membuat mesh 3D dari teks menggunakan file font yang ditentukan.
+
+```csharp
+var font = FontFile.FromFile(@"CascadiaCode-Regular.otf");
+var text = new Text();
+text.Font = font;
+text.Content = "ABC";
+text.FontSize = 10;
+var linear = new LinearExtrusion(text, 10).ToMesh();
+var scene = new Scene(linear);
+scene.Save(@"test.stl");
+```
+
+### Lihat Juga
+
+* class [FontFile](../../fontfile/)
+* class [Text](../)
+* namespace [Aspose.ThreeD.Profiles](../../text/)
+* assembly [Aspose.3D](../../../)
+
+
