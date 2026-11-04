@@ -1,14 +1,14 @@
 ---
-title: KeyFrame
-second_title: Referencia de API de Aspose.3D para .NET
-description: Un cuadro clave se define principalmente por un tiempo y un valor para algunos tipos de interpolación la tangente/tensión/sesgo/continuidad también se usa para calcular el valor final de la muestra. Los valores muestreados en una posición de tiempo que no es un cuadro clave se interpolan por fotogramas clave entre los fotogramas clave anterior y siguiente Los valores antes/después del primer/último fotograma clave son calculados por elExtrapolation./extrapolation clase.
+title: "Clase KeyFrame"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Aspose.ThreeD.Animation.KeyFrame class. Un fotograma clave se define principalmente por un tiempo y un valor; para algunos tipos de interpolación, tangente/ tensión/ sesgo/ continuidad también se utilizan al calcular el valor muestreado final. Los valores muestreados en una posición de tiempo sin fotograma clave se interpolan mediante fotogramas clave entre el fotograma clave anterior y el siguiente. El valor antes/después del primer/último fotograma clave se calcula mediante la clase Extrapolation."
 type: docs
 weight: 90
 url: /es/net/aspose.threed.animation/keyframe/
 ---
 ## KeyFrame class
 
-Un cuadro clave se define principalmente por un tiempo y un valor, para algunos tipos de interpolación, la tangente/tensión/sesgo/continuidad también se usa para calcular el valor final de la muestra. Los valores muestreados en una posición de tiempo que no es un cuadro clave se interpolan por fotogramas clave entre los fotogramas clave anterior y siguiente Los valores antes/después del primer/último fotograma clave son calculados por el[`Extrapolation`](../extrapolation) clase.
+Un fotograma clave se define principalmente por un tiempo y un valor; para algunos tipos de interpolación, tangente/ tensión/ sesgo/ continuidad también se utilizan al calcular el valor muestreado final. Los valores muestreados en una posición de tiempo sin fotograma clave se interpolan mediante fotogramas clave entre el fotograma clave anterior y el siguiente. El valor antes/después del primer/último fotograma clave se calcula mediante la clase [`Extrapolation`](../extrapolation/).
 
 ```csharp
 public class KeyFrame
@@ -18,37 +18,37 @@ public class KeyFrame
 
 | Nombre | Descripción |
 | --- | --- |
-| [KeyFrame](keyframe)(KeyframeSequence, double) | Crear un nuevo fotograma clave en la curva especificada |
+| [KeyFrame](keyframe/)(KeyframeSequence, double) | Crear un nuevo fotograma clave en la curva especificada |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bias](../../aspose.threed.animation/keyframe/bias) { get; set; } | Obtiene o establece el sesgo utilizado en TCB spline |
-| [Continuity](../../aspose.threed.animation/keyframe/continuity) { get; set; } | Obtiene o establece la continuidad utilizada en TCB spline |
-| [Flat](../../aspose.threed.animation/keyframe/flat) { get; set; } | Obtener o establecer si el fotograma clave es plano. El fotograma clave debe ser plano si el siguiente o el anterior tienen el mismo valor. El fotograma clave plano tiene tangentes planas e interpolación fija. |
-| [IndependentTangent](../../aspose.threed.animation/keyframe/independenttangent) { get; set; } | Obtiene o establece las tangentes out y next in son independientes. |
-| [Interpolation](../../aspose.threed.animation/keyframe/interpolation) { get; set; } | Obtiene o establece el tipo de interpolación de la clave, list.data[index] define el algoritmo de cómo se calcula el valor muestreado. |
-| [NextInTangent](../../aspose.threed.animation/keyframe/nextintangent) { get; set; } | Obtiene o establece la siguiente tangente de entrada (izquierda) en este cuadro clave. |
-| [NextInWeight](../../aspose.threed.animation/keyframe/nextinweight) { get; set; } | Obtiene o establece el siguiente peso de entrada (izquierda) en este cuadro clave. |
-| [OutTangent](../../aspose.threed.animation/keyframe/outtangent) { get; set; } | Obtiene o establece la tangente de salida (derecha) en este fotograma clave. |
-| [OutWeight](../../aspose.threed.animation/keyframe/outweight) { get; set; } | Obtiene o establece el peso de salida (derecha) en este cuadro clave. |
-| [StepMode](../../aspose.threed.animation/keyframe/stepmode) { get; set; } | Obtiene o establece el modo de paso de la tecla. Si el tipo de interpolación esConstant , list.data[index] decide qué valor de fotograma clave se usará durante la interpolación. APreviousValue significa que se utilizará el valor del fotograma clave izquierdo ANextValuesignifica que se utilizará el siguiente valor del fotograma clave derecho |
-| [TangentWeightMode](../../aspose.threed.animation/keyframe/tangentweightmode) { get; set; } | Obtiene o establece el modo de peso de la tangente de la clave. La tangente de salida o la siguiente tangente de entrada se puede personalizar seleccionando la correcta[`WeightedMode`](../weightedmode) |
-| [Tension](../../aspose.threed.animation/keyframe/tension) { get; set; } | Obtiene o establece la tensión utilizada en TCB spline |
-| [Time](../../aspose.threed.animation/keyframe/time) { get; set; } | Obtiene o establece la posición de tiempo del cuadro clave list.data[index], medida en segundos. |
-| [TimeIndependentTangent](../../aspose.threed.animation/keyframe/timeindependenttangent) { get; set; } | Obtiene o establece que la tangente es independiente del tiempo |
-| [Value](../../aspose.threed.animation/keyframe/value) { get; set; } | Obtiene o establece el valor del fotograma clave. |
+| [Bias](../../aspose.threed.animation/keyframe/bias/) { get; set; } | Obtiene o establece el sesgo usado en la spline TCB |
+| [Continuity](../../aspose.threed.animation/keyframe/continuity/) { get; set; } | Obtiene o establece la continuidad usada en la spline TCB |
+| [Flat](../../aspose.threed.animation/keyframe/flat/) { get; set; } | Obtiene o establece si el fotograma clave es plano. El fotograma clave debe ser plano si el siguiente o el anterior fotograma clave tiene el mismo valor. Un fotograma clave plano tiene tangentes planas e interpolación fija. |
+| [IndependentTangent](../../aspose.threed.animation/keyframe/independenttangent/) { get; set; } | Obtiene o establece si las tangentes de salida y la siguiente de entrada son independientes. |
+| [Interpolation](../../aspose.threed.animation/keyframe/interpolation/) { get; set; } | Obtiene o establece el tipo de interpolación de la clave, list.data[index] define el algoritmo de cómo se calcula el valor muestreado. |
+| [NextInTangent](../../aspose.threed.animation/keyframe/nextintangent/) { get; set; } | Obtiene o establece la siguiente tangente de entrada (izquierda) en este fotograma clave. |
+| [NextInWeight](../../aspose.threed.animation/keyframe/nextinweight/) { get; set; } | Obtiene o establece el siguiente peso de entrada (izquierda) en este fotograma clave. |
+| [OutTangent](../../aspose.threed.animation/keyframe/outtangent/) { get; set; } | Obtiene o establece la tangente de salida (derecha) en este fotograma clave. |
+| [OutWeight](../../aspose.threed.animation/keyframe/outweight/) { get; set; } | Obtiene o establece el peso de salida (derecha) en este fotograma clave. |
+| [StepMode](../../aspose.threed.animation/keyframe/stepmode/) { get; set; } | Obtiene o establece el modo de paso de la clave. Si el tipo de interpolación es Constante, list.data[index] decide qué valor de fotograma clave se usará durante la interpolación. Un PreviousValue significa que se usará el valor del fotograma clave izquierdo. Un NextValue significa que se usará el valor del siguiente fotograma clave derecho. |
+| [TangentWeightMode](../../aspose.threed.animation/keyframe/tangentweightmode/) { get; set; } | Obtiene o establece el modo de peso de la tangente de la clave. La tangente de salida o la siguiente tangente de entrada pueden personalizarse seleccionando el [`WeightedMode`](../weightedmode/) correcto. |
+| [Tension](../../aspose.threed.animation/keyframe/tension/) { get; set; } | Obtiene o establece la tensión usada en la spline TCB |
+| [Time](../../aspose.threed.animation/keyframe/time/) { get; set; } | Obtiene o establece la posición temporal del fotograma clave list.data[index], medida en segundos. |
+| [TimeIndependentTangent](../../aspose.threed.animation/keyframe/timeindependenttangent/) { get; set; } | Obtiene o establece que la tangente es independiente del tiempo |
+| [Value](../../aspose.threed.animation/keyframe/value/) { get; set; } | Obtiene o establece el valor del fotograma clave. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [ToString](../../aspose.threed.animation/keyframe/tostring)() | Obtiene la representación de cadena del fotograma clave |
+| override [ToString](../../aspose.threed.animation/keyframe/tostring/)() | Obtiene la representación en cadena del fotograma clave |
 
 ### Ver también
 
-* espacio de nombres [Aspose.ThreeD.Animation](../../aspose.threed.animation)
-* asamblea [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

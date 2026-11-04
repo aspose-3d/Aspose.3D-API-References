@@ -1,14 +1,14 @@
 ---
-title: Mesh
-second_title: Referencia de API de Aspose.3D para .NET
-description: Inicializa una nueva instancia delMeshaspose.threed.entities/mesh clase.
+title: "Mesh.Mesh"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Constructor de Mesh. Inicializa una nueva instancia de la clase Mesh."
 type: docs
 weight: 10
 url: /es/net/aspose.threed.entities/mesh/mesh/
 ---
 ## Mesh() {#constructor}
 
-Inicializa una nueva instancia del[`Mesh`](../../mesh) clase.
+Inicializa una nueva instancia de la clase [`Mesh`](../).
 
 ```csharp
 public Mesh()
@@ -16,93 +16,96 @@ public Mesh()
 
 ### Ver también
 
-* class [Mesh](../../mesh)
-* espacio de nombres [Aspose.ThreeD.Entities](../../mesh)
-* asamblea [Aspose.3D](../../../)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap) {#constructor_1}
+## Mesh(TextureData) {#constructor_1}
 
-Construya una malla utilizando el mapa de altura especificado, si el formato de píxel del mapa de altura contiene varios componentes, el primer componente (normalmente el rojo) se utilizará como valor de altura (z) Los componentes x e y del punto de control son coordenadas de píxel normalizadas .
+Construye una malla usando el mapa de alturas especificado; si el formato de píxel del mapa de alturas contiene múltiples componentes, el primero (normalmente el rojo) se usará como el valor de altura (z). Los componentes x e y del punto de control son coordenadas de píxel normalizadas.
 
 ```csharp
-public Mesh(Bitmap heightMap)
+public Mesh(TextureData heightMap)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| heightMap | Bitmap | Mapa de altura de entrada |
+| heightMap | TextureData | Mapa de altura de entrada |
 
 ### Ver también
 
-* class [Mesh](../../mesh)
-* espacio de nombres [Aspose.ThreeD.Entities](../../mesh)
-* asamblea [Aspose.3D](../../../)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, Matrix4) {#constructor_2}
+## Mesh(TextureData, Matrix4) {#constructor_2}
 
-Construya una malla utilizando el mapa de altura especificado, si el formato de píxel del mapa de altura contiene varios componentes, el primer componente (normalmente el rojo) se utilizará como valor de altura (z) Los componentes x e y del punto de control son coordenadas de píxel normalizadas .
+Construye una malla usando el mapa de alturas especificado; si el formato de píxel del mapa de alturas contiene múltiples componentes, el primero (normalmente el rojo) se usará como el valor de altura (z). Los componentes x e y del punto de control son coordenadas de píxel normalizadas.
 
 ```csharp
-public Mesh(Bitmap heightMap, Matrix4 transform)
+public Mesh(TextureData heightMap, Matrix4 transform)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| heightMap | Bitmap | Mapa de altura de entrada |
-| transform | Matrix4 | La transformación que aplicó en los puntos de control. |
+| heightMap | TextureData | Mapa de altura de entrada |
+| transform | Matrix4 | La transformación que se aplica a los puntos de control |
 
 ### Ver también
 
-* struct [Matrix4](../../../aspose.threed.utilities/matrix4)
-* class [Mesh](../../mesh)
-* espacio de nombres [Aspose.ThreeD.Entities](../../mesh)
-* asamblea [Aspose.3D](../../../)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
-## Mesh(Bitmap, bool, Matrix4) {#constructor_3}
+## Mesh(TextureData, bool, Matrix4) {#constructor_3}
 
-Construya una malla utilizando el mapa de altura especificado, si el formato de píxel del mapa de altura contiene varios componentes, el primer componente (normalmente el rojo) se utilizará como valor de altura (z) Los componentes x e y del punto de control son coordenadas de píxel normalizadas .
+Construye una malla usando el mapa de alturas especificado; si el formato de píxel del mapa de alturas contiene múltiples componentes, el primero (normalmente el rojo) se usará como el valor de altura (z). Los componentes x e y del punto de control son coordenadas de píxel normalizadas.
 
 ```csharp
-public Mesh(Bitmap heightMap, bool triMesh, Matrix4 transform)
+public Mesh(TextureData heightMap, bool triMesh, Matrix4 transform)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| heightMap | Bitmap | Mapa de altura de entrada |
+| heightMap | TextureData | Mapa de altura de entrada |
 | triMesh | Boolean |  |
-| transform | Matrix4 | La transformación que aplicó en los puntos de control. |
+| transform | Matrix4 | La transformación que se aplica a los puntos de control |
 
 ### Ver también
 
-* struct [Matrix4](../../../aspose.threed.utilities/matrix4)
-* class [Mesh](../../mesh)
-* espacio de nombres [Aspose.ThreeD.Entities](../../mesh)
-* asamblea [Aspose.3D](../../../)
+* class [TextureData](../../../aspose.threed.render/texturedata/)
+* struct [Matrix4](../../../aspose.threed.utilities/matrix4/)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Mesh(string) {#constructor_4}
 
-Inicializa una nueva instancia del[`Mesh`](../../mesh) clase.
+Inicializa una nueva instancia de la clase [`Mesh`](../).
 
 ```csharp
 public Mesh(string name)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre. |
+| nombre | String | Nombre. |
 
 ### Ver también
 
-* class [Mesh](../../mesh)
-* espacio de nombres [Aspose.ThreeD.Entities](../../mesh)
-* asamblea [Aspose.3D](../../../)
+* class [Mesh](../)
+* namespace [Aspose.ThreeD.Entities](../../mesh/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

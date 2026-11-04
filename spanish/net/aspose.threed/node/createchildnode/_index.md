@@ -1,7 +1,7 @@
 ---
-title: CreateChildNode
-second_title: Referencia de API de Aspose.3D para .NET
-description: Crea un nodo hijo
+title: "Node.CreateChildNode"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Método del nodo. Crea un nodo hijo."
 type: docs
 weight: 170
 url: /es/net/aspose.threed/node/createchildnode/
@@ -14,117 +14,149 @@ Crea un nodo hijo
 public Node CreateChildNode()
 ```
 
-### Valor_devuelto
+### Valor de retorno
 
-El nuevo nodo secundario.
+El nuevo nodo hijo.
+
+## Ejemplos
+
+El siguiente código muestra cómo crear un nuevo nodo hijo bajo el nodo raíz.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode();
+node.Entity = new Box();
+scene.Save("output.fbx");
+```
 
 ### Ver también
 
-* class [Node](../../node)
-* espacio de nombres [Aspose.ThreeD](../../node)
-* asamblea [Aspose.3D](../../../)
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(string) {#createchildnode_2}
 
-Crear un nuevo nodo secundario con el nombre de nodo dado
+Crear un nuevo nodo hijo con el nombre de nodo dado
 
 ```csharp
 public Node CreateChildNode(string nodeName)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| nodeName | String | El nombre del nuevo nodo secundario |
+| nodeName | String | El nombre del nuevo nodo hijo. |
 
-### Valor_devuelto
+### Valor de retorno
 
-El nuevo nodo secundario.
+El nuevo nodo hijo.
+
+## Ejemplos
+
+El siguiente código muestra cómo crear un nuevo nodo hijo bajo el nodo raíz.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode("new node");
+node.Entity = new Box();
+scene.Save("output.fbx");
+```
 
 ### Ver también
 
-* class [Node](../../node)
-* espacio de nombres [Aspose.ThreeD](../../node)
-* asamblea [Aspose.3D](../../../)
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(Entity) {#createchildnode_1}
 
-Crear un nuevo nodo secundario con la entidad dada adjunta
+Crear un nuevo nodo hijo con la entidad dada adjunta
 
 ```csharp
 public Node CreateChildNode(Entity entity)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| entity | Entity | Entidad predeterminada adjunta al nodo |
+| entidad | Entidad | Entidad predeterminada adjunta al nodo |
 
-### Valor_devuelto
+### Valor de retorno
 
-El nuevo nodo secundario.
+El nuevo nodo hijo.
+
+## Ejemplos
+
+El siguiente código muestra cómo crear un nuevo nodo hijo bajo el nodo raíz.
+
+```csharp
+Scene scene = new Scene();
+Node node = scene.RootNode.CreateChildNode(new Box());
+scene.Save("output.fbx");
+```
 
 ### Ver también
 
-* class [Entity](../../entity)
-* class [Node](../../node)
-* espacio de nombres [Aspose.ThreeD](../../node)
-* asamblea [Aspose.3D](../../../)
+* class [Entity](../../entity/)
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(string, Entity) {#createchildnode_3}
 
-Crear un nuevo nodo secundario con el nombre de nodo dado
+Crear un nuevo nodo hijo con el nombre de nodo dado
 
 ```csharp
 public Node CreateChildNode(string nodeName, Entity entity)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| nodeName | String | El nombre del nuevo nodo secundario |
-| entity | Entity | Entidad predeterminada adjunta al nodo |
+| nodeName | String | El nombre del nuevo nodo hijo. |
+| entidad | Entidad | Entidad predeterminada adjunta al nodo |
 
-### Valor_devuelto
+### Valor de retorno
 
-El nuevo nodo secundario.
+El nuevo nodo hijo.
 
 ### Ver también
 
-* class [Entity](../../entity)
-* class [Node](../../node)
-* espacio de nombres [Aspose.ThreeD](../../node)
-* asamblea [Aspose.3D](../../../)
+* class [Entity](../../entity/)
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## CreateChildNode(string, Entity, Material) {#createchildnode_4}
 
-Crear un nuevo nodo secundario con el nombre de nodo dado y adjuntar la entidad especificada y un material
+Crear un nuevo nodo hijo con el nombre de nodo dado, y adjuntar la entidad especificada y un material
 
 ```csharp
 public Node CreateChildNode(string nodeName, Entity entity, Material material)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| nodeName | String | El nombre del nuevo nodo secundario |
-| entity | Entity | Entidad predeterminada adjunta al nodo |
-| material | Material | El material adjunto al nodo. |
+| nodeName | String | El nombre del nuevo nodo hijo. |
+| entidad | Entidad | Entidad predeterminada adjunta al nodo |
+| material | Material | El material adjunto al nodo |
 
-### Valor_devuelto
+### Valor de retorno
 
-El nuevo nodo secundario.
+El nuevo nodo hijo.
 
 ### Ver también
 
-* class [Entity](../../entity)
-* class [Material](../../../aspose.threed.shading/material)
-* class [Node](../../node)
-* espacio de nombres [Aspose.ThreeD](../../node)
-* asamblea [Aspose.3D](../../../)
+* class [Entity](../../entity/)
+* class [Material](../../../aspose.threed.shading/material/)
+* class [Node](../)
+* namespace [Aspose.ThreeD](../../node/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

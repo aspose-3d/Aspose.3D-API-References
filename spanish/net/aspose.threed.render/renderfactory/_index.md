@@ -1,14 +1,14 @@
 ---
-title: RenderFactory
-second_title: Referencia de API de Aspose.3D para .NET
-description: RenderFactory crea todos los recursos representados en la canalización de representación.
+title: "Clase RenderFactory"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Clase Aspose.ThreeD.Render.RenderFactory. RenderFactory crea todos los recursos que se representan en la canalización de renderizado"
 type: docs
-weight: 2040
+weight: 2280
 url: /es/net/aspose.threed.render/renderfactory/
 ---
 ## RenderFactory class
 
-RenderFactory crea todos los recursos representados en la canalización de representación.
+RenderFactory crea todos los recursos que se representan en el pipeline de renderizado.
 
 ```csharp
 public abstract class RenderFactory
@@ -18,22 +18,22 @@ public abstract class RenderFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| abstract [CreateCubeRenderTexture](../../aspose.threed.render/renderfactory/createcuberendertexture)(RenderParameters, int, int) | Crear un destino de representación contiene 1 cubo textura |
-| abstract [CreateDescriptorSet](../../aspose.threed.render/renderfactory/createdescriptorset)(ShaderProgram) | Crea el conjunto de descriptores para el programa de sombreado especificado. |
-| abstract [CreateIndexBuffer](../../aspose.threed.render/renderfactory/createindexbuffer)() | Crear un[`IIndexBuffer`](../iindexbuffer) instancia para almacenar la información de la cara del polígono. |
-| abstract [CreatePipeline](../../aspose.threed.render/renderfactory/createpipeline)(ShaderProgram, RenderState, VertexDeclaration, DrawOperation) | Cree una canalización de gráficos preconfigurada con sombreado preconfigurado/estado de representación/declaración de vértices y operaciones de dibujo. |
-| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture#createrendertexture)(RenderParameters, int, int) | Crear un objetivo de representación contiene 1 objetivos que representan la textura |
-| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture#createrendertexture_1)(RenderParameters, int, int, int) | Crear un objetivo de renderizado que renderice a la textura |
-| abstract [CreateRenderWindow](../../aspose.threed.render/renderfactory/createrenderwindow)(RenderParameters, WindowHandle) | Cree un destino de renderizado que renderice en la ventana nativa. |
-| abstract [CreateShaderProgram](../../aspose.threed.render/renderfactory/createshaderprogram)(ShaderSource) | Crear un[`ShaderProgram`](../shaderprogram) objeto |
-| [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit#createtextureunit)() | Crea una unidad de textura 2D a la que se puede acceder mediante shader. |
-| abstract [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit#createtextureunit_1)(TextureType) | Crea una unidad de textura a la que se puede acceder mediante shader. |
-| abstract [CreateUniformBuffer](../../aspose.threed.render/renderfactory/createuniformbuffer)(int) | Crear un nuevo búfer uniforme en el lado de la GPU con un tamaño preasignado. |
-| abstract [CreateVertexBuffer](../../aspose.threed.render/renderfactory/createvertexbuffer)(VertexDeclaration) | Crear un[`IVertexBuffer`](../ivertexbuffer) instancia para almacenar información de vértice del polígono. |
+| abstract [CreateCubeRenderTexture](../../aspose.threed.render/renderfactory/createcuberendertexture/)(RenderParameters, int, int) | Cree un objetivo de renderizado que contiene 1 textura cúbica |
+| abstract [CreateDescriptorSet](../../aspose.threed.render/renderfactory/createdescriptorset/)(ShaderProgram) | Cree el conjunto de descriptores para el programa de sombreado especificado. |
+| abstract [CreateIndexBuffer](../../aspose.threed.render/renderfactory/createindexbuffer/)() | Cree una instancia de [`IIndexBuffer`](../iindexbuffer/) para almacenar la información de caras del polígono. |
+| abstract [CreatePipeline](../../aspose.threed.render/renderfactory/createpipeline/)(ShaderProgram, RenderState, VertexDeclaration, DrawOperation) | Cree una canalización gráfica preconfigurada con sombreado/estado de renderizado/declaración de vértices preconfigurados y operaciones de dibujo. |
+| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture/#createrendertexture)(RenderParameters, int, int) | Cree un objetivo de renderizado que contiene 1 objetivo que renderiza a la textura |
+| abstract [CreateRenderTexture](../../aspose.threed.render/renderfactory/createrendertexture/#createrendertexture_1)(RenderParameters, int, int, int) | Cree un objetivo de renderizado que renderiza a la textura |
+| abstract [CreateRenderWindow](../../aspose.threed.render/renderfactory/createrenderwindow/)(RenderParameters, WindowHandle) | Cree un objetivo de renderizado que renderiza a la ventana nativa. |
+| abstract [CreateShaderProgram](../../aspose.threed.render/renderfactory/createshaderprogram/)(ShaderSource) | Cree un objeto [`ShaderProgram`](../shaderprogram/) |
+| [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit/#createtextureunit)() | Cree una unidad de textura 2D que pueda ser accedida por el sombreado. |
+| abstract [CreateTextureUnit](../../aspose.threed.render/renderfactory/createtextureunit/#createtextureunit_1)(TextureType) | Cree una unidad de textura que pueda ser accedida por el sombreado. |
+| abstract [CreateUniformBuffer](../../aspose.threed.render/renderfactory/createuniformbuffer/)(int) | Cree un nuevo búfer uniforme en el GPU con tamaño preasignado. |
+| abstract [CreateVertexBuffer](../../aspose.threed.render/renderfactory/createvertexbuffer/)(VertexDeclaration) | Cree una instancia de [`IVertexBuffer`](../ivertexbuffer/) para almacenar la información de vértices del polígono. |
 
 ### Ver también
 
-* espacio de nombres [Aspose.ThreeD.Render](../../aspose.threed.render)
-* asamblea [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Render](../../aspose.threed.render/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
