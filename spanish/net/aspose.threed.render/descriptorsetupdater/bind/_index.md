@@ -1,164 +1,164 @@
 ---
-title: Bind
-second_title: Referencia de API de Aspose.3D para .NET
-description: Vincula el búfer al descriptor actual set
+title: "DescriptorSetUpdater.Bind"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Método DescriptorSetUpdater. Vincula el búfer al conjunto de descriptores actual"
 type: docs
 weight: 10
 url: /es/net/aspose.threed.render/descriptorsetupdater/bind/
 ---
 ## Bind(IBuffer, int, int) {#bind_1}
 
-Vincula el búfer al descriptor actual set
+Vincular el búfer al conjunto de descriptores actual
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer, int offset, int size)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| buffer | IBuffer | Qué búfer enlazar |
-| offset | Int32 | Desplazamiento del búfer para enlazar |
-| size | Int32 | Tamaño del búfer a enlazar |
+| búfer | IBuffer | Qué búfer vincular |
+| offset | Int32 | Desplazamiento del búfer a vincular |
+| tamaño | Int32 | Tamaño del búfer a vincular |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devuelve la instancia actual para la operación de encadenamiento
+Devuelve la instancia actual para operaciones encadenadas
 
 ### Ver también
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espacio de nombres [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* asamblea [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(IBuffer) {#bind}
 
-Vincula todo el búfer al descriptor actual
+Vincular todo el búfer al descriptor actual
 
 ```csharp
 public DescriptorSetUpdater Bind(IBuffer buffer)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| buffer | IBuffer |  |
+| búfer | IBuffer |  |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devuelve la instancia actual para la operación de encadenamiento
+Devuelve la instancia actual para operaciones encadenadas
 
 ### Ver también
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espacio de nombres [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* asamblea [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer) {#bind_3}
 
-Vincula el búfer al conjunto de descriptores actual en la ubicación de vinculación especificada.
+Vincular el búfer al conjunto de descriptores actual en la ubicación de enlace especificada.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| binding | Int32 | Ubicación de enlace |
-| buffer | IBuffer | Todo el búfer para enlazar |
+| vinculación | Int32 | Ubicación de enlace |
+| búfer | IBuffer | Todo el buffer a enlazar |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devuelve la instancia actual para la operación de encadenamiento
+Devuelve la instancia actual para operaciones encadenadas
 
 ### Ver también
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espacio de nombres [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* asamblea [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, IBuffer, int, int) {#bind_4}
 
-Vincula el búfer al conjunto de descriptores actual en la ubicación de vinculación especificada.
+Vincular el búfer al conjunto de descriptores actual en la ubicación de enlace especificada.
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, IBuffer buffer, int offset, int size)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| binding | Int32 | Ubicación de enlace |
-| buffer | IBuffer | El búfer para unir |
-| offset | Int32 | Desplazamiento del búfer para enlazar |
-| size | Int32 | Tamaño del búfer a enlazar |
+| vinculación | Int32 | Ubicación de enlace |
+| búfer | IBuffer | El buffer a enlazar |
+| offset | Int32 | Desplazamiento del búfer a vincular |
+| tamaño | Int32 | Tamaño del búfer a vincular |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devuelve la instancia actual para la operación de encadenamiento
+Devuelve la instancia actual para operaciones encadenadas
 
 ### Ver también
 
-* interface [IBuffer](../../ibuffer)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espacio de nombres [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* asamblea [Aspose.3D](../../../)
+* interface [IBuffer](../../ibuffer/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(ITextureUnit) {#bind_2}
 
-Vincula la unidad de textura al descriptor actual set
+Vincular la unidad de textura al conjunto de descriptores actual
 
 ```csharp
 public DescriptorSetUpdater Bind(ITextureUnit texture)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| texture | ITextureUnit | La unidad de textura para enlazar |
+| textura | ITextureUnit | La unidad de textura a enlazar |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devuelve la instancia actual para la operación de encadenamiento
+Devuelve la instancia actual para operaciones encadenadas
 
 ### Ver también
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espacio de nombres [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* asamblea [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
 ---
 
 ## Bind(int, ITextureUnit) {#bind_5}
 
-Vincula la unidad de textura al descriptor actual set
+Vincular la unidad de textura al conjunto de descriptores actual
 
 ```csharp
 public DescriptorSetUpdater Bind(int binding, ITextureUnit texture)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| binding | Int32 | La ubicación de unión |
-| texture | ITextureUnit | La unidad de textura para enlazar |
+| vinculación | Int32 | La ubicación de enlace |
+| textura | ITextureUnit | La unidad de textura a enlazar |
 
-### Valor_devuelto
+### Valor de retorno
 
-Devuelve la instancia actual para la operación de encadenamiento
+Devuelve la instancia actual para operaciones encadenadas
 
 ### Ver también
 
-* interface [ITextureUnit](../../itextureunit)
-* class [DescriptorSetUpdater](../../descriptorsetupdater)
-* espacio de nombres [Aspose.ThreeD.Render](../../descriptorsetupdater)
-* asamblea [Aspose.3D](../../../)
+* interface [ITextureUnit](../../itextureunit/)
+* class [DescriptorSetUpdater](../)
+* namespace [Aspose.ThreeD.Render](../../descriptorsetupdater/)
+* assembly [Aspose.3D](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

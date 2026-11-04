@@ -1,7 +1,7 @@
 ---
-title: AnimationChannel
-second_title: Referencia de API de Aspose.3D para .NET
-description: Un canal asigna el campo de componente de la propiedad a un conjunto de secuencias de fotogramas clave
+title: "Clase AnimationChannel"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Clase Aspose.ThreeD.Animation.AnimationChannel. Un canal asigna el campo de componente de propiedades a un conjunto de secuencias de fotogramas clave"
 type: docs
 weight: 20
 url: /es/net/aspose.threed.animation/animationchannel/
@@ -11,29 +11,41 @@ url: /es/net/aspose.threed.animation/animationchannel/
 Un canal asigna el campo de componente de la propiedad a un conjunto de secuencias de fotogramas clave
 
 ```csharp
-public class AnimationChannel : IEnumerable<KeyframeSequence>
+public class AnimationChannel : KeyframeSequence
 ```
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [ComponentType](../../aspose.threed.animation/animationchannel/componenttype) { get; } | Obtiene el tipo de campo del componente |
-| [DefaultValue](../../aspose.threed.animation/animationchannel/defaultvalue) { get; set; } | Obtiene o establece el valor predeterminado del canal. Si un canal no tiene secuencias de fotogramas clave conectadas, el valor predeterminado se utilizará durante la evaluación de la animación. Un escenario real: la animación solo anima la coordenada x de un nodo, la y y la z son no cambiado, entonces se usará el valor predeterminado durante la evaluación de traducción completa. |
-| [KeyframeSequences](../../aspose.threed.animation/animationchannel/keyframesequences) { get; } | Obtiene todas las secuencias de fotogramas clave dentro de este canal |
-| [Name](../../aspose.threed.animation/animationchannel/name) { get; } | Obtiene el nombre del canal |
+| [BindPoint](../../aspose.threed.animation/keyframesequence/bindpoint/) { get; } | Obtiene el punto de enlace de la propiedad que posee esta curva |
+| [ComponentType](../../aspose.threed.animation/animationchannel/componenttype/) { get; } | Obtiene el tipo del campo del componente |
+| [DefaultValue](../../aspose.threed.animation/animationchannel/defaultvalue/) { get; set; } | Obtiene o establece el valor predeterminado del canal. Si un canal no tiene secuencias de fotogramas clave conectadas, se utilizará el valor predeterminado durante la evaluación de la animación. Un caso real: la animación solo anima la coordenada x de un nodo, las coordenadas y y z no se modifican, entonces se usará el valor predeterminado durante la evaluación completa de la traducción. |
+| [KeyFrames](../../aspose.threed.animation/keyframesequence/keyframes/) { get; } | Obtiene los fotogramas clave de esta curva. |
+| [KeyframeSequence](../../aspose.threed.animation/animationchannel/keyframesequence/) { get; set; } | Obtiene la secuencia de fotogramas clave asociada dentro de este canal |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtiene o establece el nombre. |
+| [PostBehavior](../../aspose.threed.animation/keyframesequence/postbehavior/) { get; } | Obtiene el comportamiento posterior que indica cuál debe ser el valor muestreado después del último fotograma clave. |
+| [PreBehavior](../../aspose.threed.animation/keyframesequence/prebehavior/) { get; } | Obtiene el comportamiento previo que indica cuál debe ser el valor muestreado antes del primer fotograma clave. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtiene la colección de todas las propiedades. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddKeyframeSequence](../../aspose.threed.animation/animationchannel/addkeyframesequence)(KeyframeSequence) | Agrega una secuencia de fotogramas clave a este canal |
-| [GetEnumerator](../../aspose.threed.animation/animationchannel/getenumerator)() | Obtiene un enumerador para recorrer todas las secuencias de fotogramas clave dentro de este canal |
+| [Add](../../aspose.threed.animation/keyframesequence/add/)(double, float) | Crea un nuevo fotograma clave con el valor especificado |
+| [Add](../../aspose.threed.animation/keyframesequence/add/)(double, float, Interpolation) | Crea un nuevo fotograma clave con el valor especificado |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Encuentra la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre) |
+| [GetEnumerator](../../aspose.threed.animation/keyframesequence/getenumerator/)() | Obtiene el enumerador para recorrer todos los fotogramas clave. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtén el valor de la propiedad especificada |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Elimina una propiedad dinámica. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Elimina la propiedad especificada identificada por nombre |
+| [Reset](../../aspose.threed.animation/keyframesequence/reset/)() | Elimina todos los fotogramas clave y restablece los comportamientos posterior y previo. |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Establece el valor de la propiedad especificada |
 
 ### Ver también
 
-* class [KeyframeSequence](../keyframesequence)
-* espacio de nombres [Aspose.ThreeD.Animation](../../aspose.threed.animation)
-* asamblea [Aspose.3D](../../)
+* class [KeyframeSequence](../keyframesequence/)
+* namespace [Aspose.ThreeD.Animation](../../aspose.threed.animation/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

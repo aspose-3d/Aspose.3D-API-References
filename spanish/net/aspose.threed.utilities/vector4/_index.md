@@ -1,9 +1,9 @@
 ---
-title: Vector4
-second_title: Referencia de API de Aspose.3D para .NET
-description: Un vector con cuatro componentes.
+title: "Estructura Vector4"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Estructura Aspose.ThreeD.Utilities.Vector4. Un vector con cuatro componentes"
 type: docs
-weight: 2650
+weight: 2890
 url: /es/net/aspose.threed.utilities/vector4/
 ---
 ## Vector4 structure
@@ -18,40 +18,39 @@ public struct Vector4 : IComparable<Vector4>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Vector4](vector4#constructor_5)(Color) | Inicializa una nueva instancia del[`Vector4`](../vector4) estructura. |
-| [Vector4](vector4#constructor)(FVector4) | Inicializa una nueva instancia del[`Vector4`](../vector4) estructura. |
-| [Vector4](vector4#constructor_1)(Vector3) | Inicializa una nueva instancia del[`Vector4`](../vector4) estructura. |
-| [Vector4](vector4#constructor_2)(Vector3, double) | Inicializa una nueva instancia del[`Vector4`](../vector4) estructura. |
-| [Vector4](vector4#constructor_3)(double, double, double) | Inicializa una nueva instancia del[`Vector4`](../vector4) estructura. |
-| [Vector4](vector4#constructor_4)(double, double, double, double) | Inicializa una nueva instancia del[`Vector4`](../vector4) estructura. |
+| [Vector4](vector4/#constructor)(FVector4) | Inicializa una nueva instancia de la estructura `Vector4`. |
+| [Vector4](vector4/#constructor_1)(Vector3) | Inicializa una nueva instancia de la estructura `Vector4`. |
+| [Vector4](vector4/#constructor_2)(Vector3, double) | Inicializa una nueva instancia de la estructura `Vector4`. |
+| [Vector4](vector4/#constructor_3)(double, double, double) | Inicializa una nueva instancia de la estructura `Vector4`. |
+| [Vector4](vector4/#constructor_4)(double, double, double, double) | Inicializa una nueva instancia de la estructura `Vector4`. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [CompareTo](../../aspose.threed.utilities/vector4/compareto)(Vector4) | Compara el vector actual con otra instancia. |
-| override [Equals](../../aspose.threed.utilities/vector4/equals)(object) | Comprobar si dos vectores son iguales |
-| override [GetHashCode](../../aspose.threed.utilities/vector4/gethashcode)() | Obtiene el código hash de este vector |
-| [Set](../../aspose.threed.utilities/vector4/set#set)(double, double, double) | Establece los componentes xyz del vector a la vez, w se establecerá en 1 |
-| [Set](../../aspose.threed.utilities/vector4/set#set_1)(double, double, double, double) | Establece todos los componentes del vector a la vez |
-| override [ToString](../../aspose.threed.utilities/vector4/tostring)() | Devuelve unStringque representa la corriente[`Vector4`](../vector4) . |
-| [operator +](../../aspose.threed.utilities/vector4/op_addition) | Sobrecarga del operador para + |
-| [explicit operator](../../aspose.threed.utilities/vector4/op_explicit) |  |
-| [operator *](../../aspose.threed.utilities/vector4/op_multiply#op_multiply) | Sobrecarga de operadores para * (2 operators) |
-| [operator -](../../aspose.threed.utilities/vector4/op_subtraction) | Sobrecarga del operador para - (menos) |
+| [CompareTo](../../aspose.threed.utilities/vector4/compareto/)(Vector4) | Compara el vector actual con otra instancia. |
+| override [Equals](../../aspose.threed.utilities/vector4/equals/)(object) | Comprueba si dos vectores son iguales |
+| override [GetHashCode](../../aspose.threed.utilities/vector4/gethashcode/)() | Obtiene el código hash de este vector |
+| [Set](../../aspose.threed.utilities/vector4/set/#set)(double, double, double) | Establece los componentes xyz del vector de una vez, w se establecerá en 1 |
+| [Set](../../aspose.threed.utilities/vector4/set/#set_1)(double, double, double, double) | Establece todos los componentes del vector de una vez |
+| override [ToString](../../aspose.threed.utilities/vector4/tostring/)() | Devuelve una cadena que representa el `Vector4` actual. |
+| [operator +](../../aspose.threed.utilities/vector4/op_addition/) | Sobrecarga de operador para + |
+| [explicit operator](../../aspose.threed.utilities/vector4/op_explicit/) |  |
+| [operator *](../../aspose.threed.utilities/vector4/op_multiply/#op_multiply) | Sobrecarga de operador para * (2 operadores) |
+| [operator -](../../aspose.threed.utilities/vector4/op_subtraction/) | Sobrecarga de operador para - (menos) |
 
 ## Campos
 
 | Nombre | Descripción |
 | --- | --- |
-| [w](../../aspose.threed.utilities/vector4/w) | El componente w. |
-| [x](../../aspose.threed.utilities/vector4/x) | El componente x. |
-| [y](../../aspose.threed.utilities/vector4/y) | La componente y. |
-| [z](../../aspose.threed.utilities/vector4/z) | La componente z. |
+| [W](../../aspose.threed.utilities/vector4/w/) | El componente w. |
+| [X](../../aspose.threed.utilities/vector4/x/) | El componente x. |
+| [Y](../../aspose.threed.utilities/vector4/y/) | El componente y. |
+| [Z](../../aspose.threed.utilities/vector4/z/) | El componente z. |
 
 ### Ver también
 
-* espacio de nombres [Aspose.ThreeD.Utilities](../../aspose.threed.utilities)
-* asamblea [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Utilities](../../aspose.threed.utilities/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

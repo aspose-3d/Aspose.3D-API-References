@@ -1,14 +1,14 @@
 ---
-title: ShaderTechnique
-second_title: Referencia de API de Aspose.3D para .NET
-description: Una técnica de sombreado representa una implementación de renderizado concreta.
+title: "Clase ShaderTechnique"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Clase Aspose.ThreeD.Shading.ShaderTechnique. Una técnica de shader representa una implementación concreta de renderizado"
 type: docs
-weight: 2340
+weight: 2590
 url: /es/net/aspose.threed.shading/shadertechnique/
 ---
 ## ShaderTechnique class
 
-Una técnica de sombreado representa una implementación de renderizado concreta.
+Una técnica de shader representa una implementación concreta de renderizado.
 
 ```csharp
 public class ShaderTechnique
@@ -18,31 +18,31 @@ public class ShaderTechnique
 
 | Nombre | Descripción |
 | --- | --- |
-| [ShaderTechnique](shadertechnique)() | Inicializa una nueva instancia del[`ShaderTechnique`](../shadertechnique) clase. |
+| [ShaderTechnique](shadertechnique/)() | Inicializa una nueva instancia de la clase `ShaderTechnique`. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Description](../../aspose.threed.shading/shadertechnique/description) { get; set; } | Obtiene o establece la descripción de esta técnica |
-| [RenderAPI](../../aspose.threed.shading/shadertechnique/renderapi) { get; set; } | Obtiene o establece la API de representación utilizada por esta técnica |
-| [RenderAPIVersion](../../aspose.threed.shading/shadertechnique/renderapiversion) { get; set; } | Obtiene o establece la versión de la API de renderizado. |
-| [ShaderContent](../../aspose.threed.shading/shadertechnique/shadercontent) { get; set; } | Obtiene o establece el contenido de un script de sombreado incrustado. Podría ser un archivo fuente de sombreado HLSL/GLSL. |
-| [ShaderEntry](../../aspose.threed.shading/shadertechnique/shaderentry) { get; set; } | Obtiene o establece el punto de entrada del shader, algunos shaders como HLSL pueden tener entradas de shader personalizadas. |
-| [ShaderFile](../../aspose.threed.shading/shadertechnique/shaderfile) { get; set; } | Obtiene o establece el nombre del archivo del sombreador externo. |
-| [ShaderLanguage](../../aspose.threed.shading/shadertechnique/shaderlanguage) { get; set; } | Obtiene o establece el lenguaje de sombreado utilizado por esta técnica. |
-| [ShaderParameters](../../aspose.threed.shading/shadertechnique/shaderparameters) { get; } | Obtiene la definición del parámetro de sombreado. La clave es el nombre de la propiedad dinámica y el valor es el nombre del parámetro de sombreado al que se conecta la propiedad. |
-| [ShaderVersion](../../aspose.threed.shading/shadertechnique/shaderversion) { get; set; } | Obtiene o establece la versión de shader utilizada por esta técnica. |
+| [Description](../../aspose.threed.shading/shadertechnique/description/) { get; set; } | Obtiene o establece la descripción de esta técnica |
+| [RenderAPI](../../aspose.threed.shading/shadertechnique/renderapi/) { get; set; } | Obtiene o establece la API de renderizado utilizada por esta técnica |
+| [RenderAPIVersion](../../aspose.threed.shading/shadertechnique/renderapiversion/) { get; set; } | Obtiene o establece la versión de la API de renderizado. |
+| [ShaderContent](../../aspose.threed.shading/shadertechnique/shadercontent/) { get; set; } | Obtiene o establece el contenido de un script de shader incrustado. Puede ser un archivo fuente de shader HLSL/GLSL. |
+| [ShaderEntry](../../aspose.threed.shading/shadertechnique/shaderentry/) { get; set; } | Obtiene o establece el punto de entrada del shader, algunos shaders como HLSL pueden tener entradas de shader personalizadas. |
+| [ShaderFile](../../aspose.threed.shading/shadertechnique/shaderfile/) { get; set; } | Obtiene o establece el nombre de archivo del shader externo. |
+| [ShaderLanguage](../../aspose.threed.shading/shadertechnique/shaderlanguage/) { get; set; } | Obtiene o establece el lenguaje de shader utilizado por esta técnica. |
+| [ShaderParameters](../../aspose.threed.shading/shadertechnique/shaderparameters/) { get; } | Obtiene la definición del parámetro del shader. La clave es el nombre de la propiedad dinámica, y el valor es el nombre del parámetro del shader al que la propiedad está conectada. |
+| [ShaderVersion](../../aspose.threed.shading/shadertechnique/shaderversion/) { get; set; } | Obtiene o establece la versión del shader utilizada por esta técnica. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddBinding](../../aspose.threed.shading/shadertechnique/addbinding)(string, string) | Vincula la propiedad dinámica al parámetro de sombreado |
+| [AddBinding](../../aspose.threed.shading/shadertechnique/addbinding/)(string, string) | Vincula la propiedad dinámica al parámetro del shader |
 
 ### Ver también
 
-* espacio de nombres [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* asamblea [Aspose.3D](../../)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: PbrMaterial
-second_title: Referencia de API de Aspose.3D para .NET
-description: Material para representación física basada en albedo color/metálico/rugosidad
+title: "Clase PbrMaterial"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Clase Aspose.ThreeD.Shading.PbrMaterial. Material para renderizado basado en física basado en color albedo, metalicidad y rugosidad."
 type: docs
-weight: 2300
+weight: 2550
 url: /es/net/aspose.threed.shading/pbrmaterial/
 ---
 ## PbrMaterial class
 
-Material para representación física basada en albedo color/metálico/rugosidad
+Material para renderizado basado en física basado en color albedo/metallic/roughness.
 
 ```csharp
 public class PbrMaterial : Material
@@ -18,46 +18,47 @@ public class PbrMaterial : Material
 
 | Nombre | Descripción |
 | --- | --- |
-| [PbrMaterial](pbrmaterial#constructor)() | Construir una instancia de material PBR predeterminada |
-| [PbrMaterial](pbrmaterial#constructor_1)(Color) | Construya un material PBR predeterminado con un valor de color de albedo especificado. |
+| [PbrMaterial](pbrmaterial/#constructor)() | Construir una instancia de material PBR predeterminada. |
+| [PbrMaterial](pbrmaterial/#constructor_1)(Vector3) | Construir un material PBR predeterminado con el valor de color albedo especificado. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Albedo](../../aspose.threed.shading/pbrmaterial/albedo) { get; set; } | Obtiene o establece el color base del material |
-| [AlbedoTexture](../../aspose.threed.shading/pbrmaterial/albedotexture) { get; set; } | Obtiene o establece la textura para albedo |
-| [EmissiveColor](../../aspose.threed.shading/pbrmaterial/emissivecolor) { get; set; } | Obtiene o establece el color emisivo |
-| [EmissiveTexture](../../aspose.threed.shading/pbrmaterial/emissivetexture) { get; set; } | Obtiene o establece la textura para emissive |
-| [MetallicFactor](../../aspose.threed.shading/pbrmaterial/metallicfactor) { get; set; } | Obtiene o establece la metalidad del material, el valor de 1 significa que el material es un metal y el valor de 0 significa que el material es un dieléctrico. |
-| [MetallicRoughness](../../aspose.threed.shading/pbrmaterial/metallicroughness) { get; set; } | Obtiene o establece la textura metálica (en el canal R) y la rugosidad (en el canal G) |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Obtiene o establece el nombre. |
-| [NormalTexture](../../aspose.threed.shading/pbrmaterial/normaltexture) { get; set; } | Obtiene o establece la textura del mapeo normal |
-| [OcclusionFactor](../../aspose.threed.shading/pbrmaterial/occlusionfactor) { get; set; } | Obtiene o establece el factor de oclusión ambiental |
-| [OcclusionTexture](../../aspose.threed.shading/pbrmaterial/occlusiontexture) { get; set; } | Obtiene o establece la textura para la oclusión ambiental |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Obtiene la colección de todas las propiedades. |
-| [RoughnessFactor](../../aspose.threed.shading/pbrmaterial/roughnessfactor) { get; set; } | Obtiene o establece la rugosidad del material, el valor de 1 significa que el material es completamente rugoso y el valor de 0 significa que el material es completamente liso |
-| [SpecularTexture](../../aspose.threed.shading/pbrmaterial/speculartexture) { get; set; } | Obtiene o establece la textura para el color especular |
-| [Transparency](../../aspose.threed.shading/pbrmaterial/transparency) { get; set; } | Obtiene o establece el factor de transparencia. El factor debe oscilar entre 0 (0 %, completamente opaco) y 1 (100 %, completamente transparente) Se restringirá cualquier valor de factor no válido. |
+| [Albedo](../../aspose.threed.shading/pbrmaterial/albedo/) { get; set; } | Obtiene o establece el color base del material. |
+| [AlbedoTexture](../../aspose.threed.shading/pbrmaterial/albedotexture/) { get; set; } | Obtiene o establece la textura para albedo. |
+| [EmissiveColor](../../aspose.threed.shading/pbrmaterial/emissivecolor/) { get; set; } | Obtiene o establece el color emisivo |
+| [EmissiveTexture](../../aspose.threed.shading/pbrmaterial/emissivetexture/) { get; set; } | Obtiene o establece la textura para emisiva |
+| [MetallicFactor](../../aspose.threed.shading/pbrmaterial/metallicfactor/) { get; set; } | Obtiene o establece la metalicidad del material, un valor de 1 indica que el material es un metal y un valor de 0 indica que el material es un dieléctrico. |
+| [MetallicRoughness](../../aspose.threed.shading/pbrmaterial/metallicroughness/) { get; set; } | Obtiene o establece la textura para metalicidad (en el canal R) y rugosidad (en el canal G). |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtiene o establece el nombre. |
+| [NormalTexture](../../aspose.threed.shading/pbrmaterial/normaltexture/) { get; set; } | Obtiene o establece la textura del mapeo normal |
+| [OcclusionFactor](../../aspose.threed.shading/pbrmaterial/occlusionfactor/) { get; set; } | Obtiene o establece el factor de oclusión ambiental. |
+| [OcclusionTexture](../../aspose.threed.shading/pbrmaterial/occlusiontexture/) { get; set; } | Obtiene o establece la textura para oclusión ambiental. |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtiene la colección de todas las propiedades. |
+| [RoughnessFactor](../../aspose.threed.shading/pbrmaterial/roughnessfactor/) { get; set; } | Obtiene o establece la rugosidad del material, un valor de 1 indica que el material es completamente rugoso y un valor de 0 indica que el material es completamente liso. |
+| [SpecularTexture](../../aspose.threed.shading/pbrmaterial/speculartexture/) { get; set; } | Obtiene o establece la textura para el color especular. |
+| [Transparency](../../aspose.threed.shading/pbrmaterial/transparency/) { get; set; } | Obtiene o establece el factor de transparencia. El factor debe estar en el rango entre 0 (0%, totalmente opaco) y 1 (100%, totalmente transparente). Cualquier valor de factor no válido será limitado. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Encuentra la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre) |
-| [GetEnumerator](../../aspose.threed.shading/material/getenumerator)() | Obtiene el enumerador para enumerar ranuras de texturas internas. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Obtener el valor de la propiedad especificada |
-| [GetTexture](../../aspose.threed.shading/material/gettexture)(string) | Obtiene la textura de la ranura especificada, puede ser el nombre de la propiedad del material o el nombre del parámetro del shader |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Elimina una propiedad dinámica. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Eliminar la propiedad especificada identificada por nombre |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Establece el valor de la propiedad especificada |
-| [SetTexture](../../aspose.threed.shading/material/settexture)(string, TextureBase) | Establece la textura en la ranura especificada |
-| override [ToString](../../aspose.threed.shading/material/tostring)() | Da formato al objeto a string |
+| static [FromMaterial](../../aspose.threed.shading/pbrmaterial/frommaterial/)(Material) | Permite convertir otro material a PbrMaterial. |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Encuentra la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre) |
+| [GetEnumerator](../../aspose.threed.shading/material/getenumerator/)() | Obtiene el enumerador para enumerar las ranuras de textura internas. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtén el valor de la propiedad especificada |
+| [GetTexture](../../aspose.threed.shading/material/gettexture/)(string) | Obtiene la textura de la ranura especificada, puede ser el nombre de una propiedad del material o el nombre de un parámetro del shader. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Elimina una propiedad dinámica. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Elimina la propiedad especificada identificada por nombre |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Establece el valor de la propiedad especificada |
+| [SetTexture](../../aspose.threed.shading/material/settexture/)(string, TextureBase) | Establece la textura en la ranura especificada |
+| override [ToString](../../aspose.threed.shading/material/tostring/)() | Formatea el objeto a cadena |
 
 ### Ver también
 
-* class [Material](../material)
-* espacio de nombres [Aspose.ThreeD.Shading](../../aspose.threed.shading)
-* asamblea [Aspose.3D](../../)
+* class [Material](../material/)
+* namespace [Aspose.ThreeD.Shading](../../aspose.threed.shading/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+

@@ -1,9 +1,9 @@
 ---
-title: HollowCircleShape
-second_title: Referencia de API de Aspose.3D para .NET
-description: Perfil de círculo hueco compatible con IFC.
+title: "Clase HollowCircleShape"
+second_title: "Referencia de la API de Aspose.3D para .NET"
+description: "Clase Aspose.ThreeD.Profiles.HollowCircleShape. Perfil circular hueco compatible con IFC"
 type: docs
-weight: 1560
+weight: 1740
 url: /es/net/aspose.threed.profiles/hollowcircleshape/
 ---
 ## HollowCircleShape class
@@ -18,38 +18,38 @@ public class HollowCircleShape : CircleShape
 
 | Nombre | Descripción |
 | --- | --- |
-| [HollowCircleShape](hollowcircleshape)() | Constructor predeterminado |
+| [HollowCircleShape](hollowcircleshape/)() | El constructor predeterminado. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Excluded](../../aspose.threed/entity/excluded) { get; set; } | Obtiene o establece si se excluye esta entidad durante la exportación. |
-| virtual [Name](../../aspose.threed/a3dobject/name) { get; set; } | Obtiene o establece el nombre. |
-| [ParentNode](../../aspose.threed/entity/parentnode) { get; set; } | Obtiene o establece el primer nodo principal; si se establece el primer nodo principal, esta entidad se separará de otros nodos principales. |
-| [ParentNodes](../../aspose.threed/entity/parentnodes) { get; } | Obtiene todos los nodos principales, una entidad se puede adjuntar a varios nodos principales para crear instancias de geometría |
-| [Properties](../../aspose.threed/a3dobject/properties) { get; } | Obtiene la colección de todas las propiedades. |
-| [Radius](../../aspose.threed.profiles/circleshape/radius) { get; set; } | Obtiene o establece el radio del círculo. |
-| [Scene](../../aspose.threed/sceneobject/scene) { get; } | Obtiene la escena a la que pertenece este objeto |
-| [WallThickness](../../aspose.threed.profiles/hollowcircleshape/wallthickness) { get; set; } | Obtiene o establece la diferencia entre el radio exterior e interior. |
+| [Excluded](../../aspose.threed/entity/excluded/) { get; set; } | Obtiene o establece si excluir esta entidad durante la exportación. |
+| virtual [Name](../../aspose.threed/a3dobject/name/) { get; set; } | Obtiene o establece el nombre. |
+| [ParentNode](../../aspose.threed/entity/parentnode/) { get; set; } | Obtiene o establece el primer nodo padre; si se establece el primer nodo padre, esta entidad se desacoplará de los demás nodos padres. |
+| [ParentNodes](../../aspose.threed/entity/parentnodes/) { get; } | Obtiene todos los nodos padre, una entidad puede estar adjunta a varios nodos padre para la instanciación de geometría |
+| [Properties](../../aspose.threed/a3dobject/properties/) { get; } | Obtiene la colección de todas las propiedades. |
+| [Radius](../../aspose.threed.profiles/circleshape/radius/) { get; set; } | Obtiene o establece el radio del círculo. |
+| [Scene](../../aspose.threed/sceneobject/scene/) { get; } | Obtiene la escena a la que pertenece este objeto |
+| [WallThickness](../../aspose.threed.profiles/hollowcircleshape/wallthickness/) { get; set; } | Obtiene o establece la diferencia entre el radio exterior y el interior. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [FindProperty](../../aspose.threed/a3dobject/findproperty)(string) | Encuentra la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre) |
-| [GetBoundingBox](../../aspose.threed/entity/getboundingbox)() | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objetos. |
-| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey)() | Obtiene la clave del renderizador de entidades registrado en el renderizador |
-| override [GetExtent](../../aspose.threed.profiles/circleshape/getextent)() | Obtiene la extensión en dimensión xey. |
-| [GetProperty](../../aspose.threed/a3dobject/getproperty)(string) | Obtener el valor de la propiedad especificada |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(Property) | Elimina una propiedad dinámica. |
-| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty)(string) | Eliminar la propiedad especificada identificada por nombre |
-| [SetProperty](../../aspose.threed/a3dobject/setproperty)(string, object) | Establece el valor de la propiedad especificada |
+| [FindProperty](../../aspose.threed/a3dobject/findproperty/)(string) | Encuentra la propiedad. Puede ser una propiedad dinámica (Creada por CreateDynamicProperty/SetProperty) o una propiedad nativa (Identificada por su nombre) |
+| [GetBoundingBox](../../aspose.threed/entity/getboundingbox/)() | Obtiene el cuadro delimitador de la entidad actual en su sistema de coordenadas de espacio de objeto. |
+| override [GetEntityRendererKey](../../aspose.threed.profiles/profile/getentityrendererkey/)() | Obtiene la clave del renderizador de entidad registrado en el renderizador |
+| override [GetExtent](../../aspose.threed.profiles/circleshape/getextent/)() | Obtiene la extensión en las dimensiones x e y. |
+| [GetProperty](../../aspose.threed/a3dobject/getproperty/)(string) | Obtén el valor de la propiedad especificada |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(Property) | Elimina una propiedad dinámica. |
+| [RemoveProperty](../../aspose.threed/a3dobject/removeproperty/)(string) | Elimina la propiedad especificada identificada por nombre |
+| [SetProperty](../../aspose.threed/a3dobject/setproperty/)(string, object) | Establece el valor de la propiedad especificada |
 
 ### Ver también
 
-* class [CircleShape](../circleshape)
-* espacio de nombres [Aspose.ThreeD.Profiles](../../aspose.threed.profiles)
-* asamblea [Aspose.3D](../../)
+* class [CircleShape](../circleshape/)
+* namespace [Aspose.ThreeD.Profiles](../../aspose.threed.profiles/)
+* assembly [Aspose.3D](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.3D.dll -->
+
