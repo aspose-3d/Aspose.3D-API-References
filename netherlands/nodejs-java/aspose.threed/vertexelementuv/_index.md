@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/vertexelementuv/
 ---
 ## VertexElementUV class
 
-Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan meerdere VertexElementUV-elementen hebben, en elk heeft verschillende TextureMappings.
+Definieert de UV-coördinaten voor gespecificeerde componenten. Een geometrie kan meerdere VertexElementUV-elementen hebben, en elk heeft verschillende TextureMappings.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan mee
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de VertexElementUV-klasse. Het standaard textuur-mappingtype is TextureMapping.DIFFUSE |
+| constructor() | Initialiseert een nieuw exemplaar van de VertexElementUV‑klasse. Het standaard textuur‑mappingtype is TextureMapping.DIFFUSE |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan mee
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(textureMapping) | Initialiseert een nieuw exemplaar van de VertexElementUV-klasse. |
+| constructor_overload(textureMapping) | Initialiseert een nieuw exemplaar van de VertexElementUV‑klasse. |
 
  **Parameters:**
 
@@ -62,7 +62,7 @@ Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan mee
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElementType() | Haalt het type van de VertexElement op. De waarde van de eigenschap is de integer-constante VertexElementType. |
+| getVertexElementType() | Haalt het type van het VertexElement op. De waarde van de eigenschap is de VertexElementType integer-constante. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan mee
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan mee
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan mee
 
 | Naam | Beschrijving |
 | --- | --- |
-| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan mee
 
 | Naam | Beschrijving |
 | --- | --- |
-| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -166,13 +166,13 @@ Definieert de UV-coördinaten voor opgegeven componenten.  Een geometrie kan mee
 
 | Naam | Beschrijving |
 | --- | --- |
-| copyTo(target) | Kopieert gegevens naar opgegeven element |
+| copyTo(target) | Kopieert gegevens naar het opgegeven element |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| target | VertexElementVector4 | Target. |
+| target | VertexElementVector4 | Doelwit. |
 
  **Result:**
 

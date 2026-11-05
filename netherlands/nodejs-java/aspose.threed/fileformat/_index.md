@@ -1,5 +1,5 @@
 ---
-title: "Bestandsformaat"
+title: "FileFormat"
 second_title: "Aspose.3D voor Node.js via Java API-referentie"
 description: 
 type: docs
@@ -11,7 +11,7 @@ url: /nl/nodejs-java/aspose.threed/fileformat/
 Bestandsformaatdefinitie @hideconstructor
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -19,26 +19,26 @@ Bestandsformaatdefinitie @hideconstructor
 | STL_BINARY | Binair STL-bestandsformaat |
 | STLASCII | ASCII STL-bestandsformaat |
 | COLLADA | Collada-bestandsformaat |
-| GLTF | glTF van Khronos Group |
-| GLTF_BINARY | glTF van Khronos Group in binair formaat |
+| GLTF | glTF van de Khronos Group |
+| GLTF_BINARY | glTF van de Khronos Group in binair formaat |
 | PDF | Portable Document Format van Adobe |
 | DXF | AutoCAD DXF |
 | PLY | Polygon File Format of Stanford Triangle Format |
 | X_BINARY | DirectX X-bestand in binair formaat |
 | X_TEXT | DirectX X-bestand in binair formaat |
 | DRACO | Google Draco Mesh |
-| RVM_TEXT | AVEVA Plant Design Management System Model in tekstformaat |
-| RVM_BINARY | AVEVA Plant Design Management System Model in binair formaat |
-| ASE | 3D Studio Max's ASCII Scene Exporter-formaat. |
+| RVM_TEXT | AVEVA Plant Design Management System-model in tekstformaat |
+| RVM_BINARY | AVEVA Plant Design Management System-model in binair formaat |
+| ASE | 3D Studio Max's ASCII-scène-exportformaat. |
 | IFC | ISO 16739-1 Industry Foundation Classes-gegevensmodel. |
-| AMF | Additive manufacturing-bestandformaat |
+| AMF | Bestandformaat voor additieve productie |
 | VRML | De Virtual Reality Modeling Language |
-| ZIP | Zip-archief dat andere 3d-bestandsformaten bevat. |
-| USD | Universele Scenebeschrijving |
-| USDZ | Gecomprimeerde Universele Scenebeschrijving |
-| XYZ | Xyz-puntwolkbestand |
+| ZIP | Zip-archief dat andere 3d-bestandsformaat bevat. |
+| USD | Universele Scene Beschrijving |
+| USDZ | Gecomprimeerde Universele Scene Beschrijving |
+| XYZ | Xyz-puntenwolkbestand |
 | PCD | PCL Point Cloud Data-bestand in ASCII-modus |
-| PCD_BINARY | PCL Point Cloud Data-bestand in binaire modus |
+| PCD_BINARY | PCL Point Cloud Data-bestand in Binaire modus |
 
 ## Methoden
 
@@ -85,7 +85,7 @@ Bestandsformaatdefinitie @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getContentType() | Haalt bestandsformaatinhoudstype op. De waarde van de eigenschap is de integer‑constante FileContentType. |
+| getContentType() | Haalt het inhoudstype van het bestandsformaat op. De waarde van de eigenschap is de gehele constante FileContentType. |
 
  **Result:**
 
@@ -98,7 +98,7 @@ Bestandsformaatdefinitie @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormatType() | Haalt bestandsformaattype op |
+| getFileFormatType() | Haalt bestandsformaattype op. |
 
  **Result:**
 
@@ -111,7 +111,7 @@ Bestandsformaatdefinitie @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFormatByExtension(extensionName) | Haalt het voorkeursbestandsformaat op basis van de bestandsextensie. De extensienaam moet beginnen met een punt ('.'). |
+| getFormatByExtension(extensionName) | Haalt het voorkeursbestandsformaat op basis van de extensienaam. De extensienaam moet beginnen met een punt ('.'). |
 
  **Parameters:**
 
@@ -120,7 +120,7 @@ Bestandsformaatdefinitie @hideconstructor
 | extensionNam | String | null |
 
  **Result:**
-Bestandsformaat
+FileFormat
 
 
 ---
@@ -139,7 +139,7 @@ Bestandsformaat
 | fileNam | String | null |
 
  **Result:**
-Bestandsformaat
+FileFormat
 
 
 ---
@@ -149,7 +149,7 @@ Bestandsformaat
 
 | Naam | Beschrijving |
 | --- | --- |
-| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat. |
+| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat |
 
  **Result:**
 LoadOptions
@@ -162,7 +162,7 @@ LoadOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| createSaveOptions() | Maak standaard opslagopties voor dit bestandsformaat. |
+| createSaveOptions() | Maak standaard opslaanopties voor dit bestandsformaat |
 
  **Result:**
 SaveOptions

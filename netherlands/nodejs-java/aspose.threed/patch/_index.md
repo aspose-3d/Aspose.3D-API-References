@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/patch/
 ---
 ## Patch class
 
-Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurface, het wordt ook gedefinieerd door twee PatchDirection, de U en V. Maar het verschil tussen Patch en NurbsSurface is dat de PatchDirection-curve een van PatchDirectionType.BEZIER, PatchDirectionType.QUADRATIC_BEZIER, PatchDirectionType.BASIS_SPLINE, PatchDirectionType.CARDINAL_SPLINE en PatchDirectionType.LINEAR kan zijn.
+Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurface, het wordt ook gedefinieerd door twee PatchDirection, de U en V. Het verschil tussen Patch en NurbsSurface is echter dat de PatchDirection‑curve een van PatchDirectionType.BEZIER, PatchDirectionType.QUADRATIC_BEZIER, PatchDirectionType.BASIS_SPLINE, PatchDirectionType.CARDINAL_SPLINE of PatchDirectionType.LINEAR kan zijn.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de Patch‑klasse. |
+| constructor() | Initialiseert een nieuwe instantie van de Patch-klasse. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(name) | Initialiseert een nieuw exemplaar van de Patch‑klasse. |
+| constructor_overload(name) | Initialiseert een nieuwe instantie van de Patch-klasse. |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| getU() | Haalt de u‑richting op. |
+| getU() | Haalt de u-richting op. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| getV() | Haalt de v‑richting op. De v. |
+| getV() | Haalt de v-richting op. De v. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastShadows() | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| getCastShadows() | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Een Patch is een parametrisch modelleringsoppervlak, vergelijkbaar met NurbsSurf
 
 | Naam | Beschrijving |
 | --- | --- |
-| getElement(type) | Haalt een vertex‑element op met het opgegeven type. |
+| getElement(type) | Haalt een vertex‑element op met opgegeven type |
 
  **Parameters:**
 
@@ -328,7 +328,7 @@ VertexElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElementOfUV(textureMapping) | Haalt een VertexElementUV‑instantie op met het opgegeven texture‑mapping‑type. |
+| getVertexElementOfUV(textureMapping) | Haalt een VertexElementUV‑instantie op met gegeven texture‑mapping type |
 
  **Parameters:**
 
@@ -347,7 +347,7 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| createElement(type) | Maakt een vertex‑element met het opgegeven type aan en voegt het toe aan de geometrie. Als het type VertexElementType.UV is, wordt een VertexElementUV met texture‑mapping‑type TextureMapping.DIFFUSE aangemaakt. |
+| createElement(type) | Maakt een vertex‑element met opgegeven type en voegt het toe aan de geometrie. Als type VertexElementType.UV is, wordt een VertexElementUV met texture‑mapping type naar TextureMapping.DIFFUSE aangemaakt. |
 
  **Parameters:**
 
@@ -366,13 +366,13 @@ VertexElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| addElement(element) | Voegt een bestaand vertex‑element toe aan de huidige geometrie. |
+| addElement(element) | Voegt een bestaand vertex‑element toe aan de huidige geometrie |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| element | VertexElement | Het toe te voegen vertex‑element. |
+| element | VertexElement | Het vertex‑element om toe te voegen |
 
  **Result:**
 VertexElement
@@ -385,7 +385,7 @@ VertexElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| createElement(type, mappingMode, referenceMode) | Maakt een vertex‑element met het opgegeven type aan en voegt het toe aan de geometrie. Als het type VertexElementType.UV is, wordt een VertexElementUV met texture‑mapping‑type TextureMapping.DIFFUSE aangemaakt. |
+| createElement(type, mappingMode, referenceMode) | Maakt een vertex‑element met opgegeven type en voegt het toe aan de geometrie. Als type VertexElementType.UV is, wordt een VertexElementUV met texture‑mapping type naar TextureMapping.DIFFUSE aangemaakt. |
 
  **Parameters:**
 
@@ -446,7 +446,7 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 VertexElementUV
@@ -459,7 +459,7 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -478,7 +478,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -497,7 +497,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -516,7 +516,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -535,8 +535,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -549,7 +549,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

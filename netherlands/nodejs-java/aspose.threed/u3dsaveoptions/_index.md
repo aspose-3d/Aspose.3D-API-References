@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/u3dsaveoptions/
 ---
 ## U3dSaveOptions class
 
-Opslaanopties voor universele 3D
+Opslagopties voor universele 3D
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlipCoordinateSystem() | Haalt op of stelt in of het coördinatensysteem van controlepunten/normaal moet worden omgekeerd tijdens importeren/exporteren. |
+| getFlipCoordinateSystem() | Haalt op of stelt in of het coördinatensysteem van control points/normal moet worden omgekeerd tijdens importeren/exporteren. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Haalt op of stelt in of het coördinatensysteem van controlepunten/normaal moet worden omgekeerd tijdens importeren/exporteren. |
+| setFlipCoordinateSystem(value) | Haalt op of stelt in of het coördinatensysteem van control points/normal moet worden omgekeerd tijdens importeren/exporteren. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMeshCompression() | Geeft of stelt in of mesh-gegevenscompressie moet worden ingeschakeld. |
+| getMeshCompression() | Haalt op of stelt in of mesh-gegevenscompressie moet worden ingeschakeld. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMeshCompression(value) | Geeft of stelt in of mesh-gegevenscompressie moet worden ingeschakeld. |
+| setMeshCompression(value) | Haalt op of stelt in of mesh-gegevenscompressie moet worden ingeschakeld. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExportNormals() | Geeft of stelt in of normale gegevens moeten worden geëxporteerd. |
+| getExportNormals() | Haalt op of stelt in of normale gegevens moeten worden geëxporteerd. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| setExportNormals(value) | Geeft of stelt in of normale gegevens moeten worden geëxporteerd. |
+| setExportNormals(value) | Haalt op of stelt in of normale gegevens moeten worden geëxporteerd. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExportTextureCoordinates() | Geeft of stelt in of texture-coördinaten moeten worden geëxporteerd. |
+| getExportTextureCoordinates() | Haalt op of stelt in of textuurcoördinaten moeten worden geëxporteerd. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| setExportTextureCoordinates(value) | Geeft of stelt in of texture-coördinaten moeten worden geëxporteerd. |
+| setExportTextureCoordinates(value) | Haalt op of stelt in of textuurcoördinaten moeten worden geëxporteerd. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExportVertexDiffuse() | Haalt op of stelt in of de diffuse kleur van de vertex moet worden geëxporteerd. |
+| getExportVertexDiffuse() | Haalt op of stelt in of de diffuse kleur van het vertex moet worden geëxporteerd. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| setExportVertexDiffuse(value) | Haalt op of stelt in of de diffuse kleur van de vertex moet worden geëxporteerd. |
+| setExportVertexDiffuse(value) | Haalt op of stelt in of de diffuse kleur van het vertex moet worden geëxporteerd. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExportVertexSpecular() | Haalt op of stelt in of de speculaire kleur van de vertex moet worden geëxporteerd. |
+| getExportVertexSpecular() | Haalt op of stelt in of de speculaire kleur van het vertex moet worden geëxporteerd. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| setExportVertexSpecular(value) | Haalt op of stelt in of de speculaire kleur van de vertex moet worden geëxporteerd. |
+| setExportVertexSpecular(value) | Haalt op of stelt in of de speculaire kleur van het vertex moet worden geëxporteerd. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Opslaanopties voor universele 3D
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

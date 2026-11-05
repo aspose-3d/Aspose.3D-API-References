@@ -43,7 +43,7 @@ Deze klasse beheert variabelen die worden gebruikt bij het renderen  @hideconstr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShadowCaster() | Positie van de schaduwwerper in het wereldcoördinatensysteem |
+| getShadowCaster() | Positie van de schaduwwerper in wereldcoördinatensysteem |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Deze klasse beheert variabelen die worden gebruikt bij het renderen  @hideconstr
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShadowCaster(value) | Positie van de schaduwwerper in het wereldcoördinatensysteem |
+| setShadowCaster(value) | Positie van de schaduwwerper in wereldcoördinatensysteem |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Deze klasse beheert variabelen die worden gebruikt bij het renderen  @hideconstr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDepthBias() | Depth bias voor schaduwmapping, standaardwaarde is 0,001 |
+| getDepthBias() | Depth bias voor schaduwmapping, standaardwaarde is 0.001 |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Deze klasse beheert variabelen die worden gebruikt bij het renderen  @hideconstr
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDepthBias(value) | Depth bias voor schaduwmapping, standaardwaarde is 0,001 |
+| setDepthBias(value) | Depth bias voor schaduwmapping, standaardwaarde is 0.001 |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Deze klasse beheert variabelen die worden gebruikt bij het renderen  @hideconstr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getViewportSize() | Grootte van de viewport, gemeten in pixels |
+| getViewportSize() | Grootte van het viewport, gemeten in pixels |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Deze klasse beheert variabelen die worden gebruikt bij het renderen  @hideconstr
 
 | Naam | Beschrijving |
 | --- | --- |
-| setViewportSize(value) | Grootte van de viewport, gemeten in pixels |
+| setViewportSize(value) | Grootte van het viewport, gemeten in pixels |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Deze klasse beheert variabelen die worden gebruikt bij het renderen  @hideconstr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWorldAmbient() | Omgevingskleur gedefinieerd in de viewport. |
+| getWorldAmbient() | Ambientkleur gedefinieerd in het viewport. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Deze klasse beheert variabelen die worden gebruikt bij het renderen  @hideconstr
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWorldAmbient(value) | Omgevingskleur gedefinieerd in de viewport. |
+| setWorldAmbient(value) | Ambientkleur gedefinieerd in het viewport. |
 
  **Result:**
 

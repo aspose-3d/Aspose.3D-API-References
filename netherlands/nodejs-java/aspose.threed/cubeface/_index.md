@@ -8,6 +8,6 @@ url: /nl/nodejs-java/aspose.threed/cubeface/
 ---
 ## CubeFace class
 
-Hulpprogrammaklasse die constanten bevat.  Elk gezicht van de cube‑map‑textuur  @hideconstructor
+Utility‑klasse met constanten.  Elke zijde van de cubemap‑textuur  @hideconstructor
 
 

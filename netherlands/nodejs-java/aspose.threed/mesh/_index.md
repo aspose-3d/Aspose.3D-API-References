@@ -17,7 +17,7 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de Mesh-klasse. |
+| constructor() | Initialiseert een nieuwe instantie van de Mesh-klasse. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(name) | Initialiseert een nieuw exemplaar van de Mesh-klasse. |
+| constructor_overload(name) | Initialiseert een nieuwe instantie van de Mesh-klasse. |
 
  **Parameters:**
 
@@ -140,7 +140,7 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastShadows() | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| getCastShadows() | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -322,16 +322,16 @@ Een mesh bestaat uit vele n-zijdige polygonen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPolygonSize(index) | Haalt het aantal hoekpunten op van de opgegeven polygon. |
+| getPolygonSize(index) | Haalt het aantal vertices op van de opgegeven polygon. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| index | Number | Index. |
+| index | Nummer | Index. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -341,18 +341,18 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| createPolygon(indices, offset, length) | Maakt een nieuwe polygon met alle hoekpunten gedefinieerd in indices. Om een polygon hoekpunt voor hoekpunt te maken, gebruik dan PolygonBuilder. |
+| createPolygon(indices, offset, length) | Maakt een nieuwe polygon met alle vertices gedefinieerd in indices. Om een polygon vertex voor vertex te maken, gebruik alstublieft PolygonBuilder. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| indices | Number[] | Array van de polygon-indexen, elk index wijst naar een controlepunt dat de polygon vormt. |
-| offset | Number | De offset van de eerste polygon-index |
-| length | Number | De lengte van de indexen |
+| indices | Number[] | Array van de polygon-indices, elke index wijst naar een controlepunt dat de polygon vormt. |
+| offset | Nummer | De offset van de eerste polygon-index |
+| length | Nummer | De lengte van de indices |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -362,16 +362,16 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| createPolygon(indices) | Maakt een nieuwe polygon met alle hoekpunten gedefinieerd in indices. Om een polygon hoekpunt voor hoekpunt te maken, gebruik dan PolygonBuilder. |
+| createPolygon(indices) | Maakt een nieuwe polygon met alle vertices gedefinieerd in indices. Om een polygon vertex voor vertex te maken, gebruik alstublieft PolygonBuilder. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| indices | Number[] | Array van de polygon-indexen, elk index wijst naar een controlepunt dat de polygon vormt. |
+| indices | Number[] | Array van de polygon-indices, elke index wijst naar een controlepunt dat de polygon vormt. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -381,19 +381,19 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| createPolygon(v1, v2, v3, v4) | Maak een polygon met 4 hoekpunten (quad) |
+| createPolygon(v1, v2, v3, v4) | Maak een polygon met 4 vertices (quad) |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| v1 | Number | Index van het eerste hoekpunt |
-| v2 | Number | Index van het tweede hoekpunt |
-| v3 | Number | Index van het derde hoekpunt |
-| v4 | Number | Index van het vierde hoekpunt |
+| v1 | Nummer | Index van de eerste vertex |
+| v2 | Nummer | Index van de tweede vertex |
+| v3 | Nummer | Index van de derde vertex |
+| v4 | Nummer | Index van de vierde vertex |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -403,18 +403,18 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| createPolygon(v1, v2, v3) | Maak een polygoon met 3 hoekpunten (driehoek) |
+| createPolygon(v1, v2, v3) | Maak een polygon met 3 vertices(driehoek) |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| v1 | Number | Index van het eerste hoekpunt |
-| v2 | Number | Index van het tweede hoekpunt |
-| v3 | Number | Index van het derde hoekpunt |
+| v1 | Nummer | Index van de eerste vertex |
+| v2 | Nummer | Index van de tweede vertex |
+| v3 | Nummer | Index van de derde vertex |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -437,7 +437,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getElement(type) | Haalt een vertex‑element op met het opgegeven type. |
+| getElement(type) | Haalt een vertex‑element op met opgegeven type |
 
  **Parameters:**
 
@@ -456,7 +456,7 @@ VertexElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElementOfUV(textureMapping) | Haalt een VertexElementUV‑instantie op met het opgegeven texture‑mapping‑type. |
+| getVertexElementOfUV(textureMapping) | Haalt een VertexElementUV‑instantie op met gegeven texture‑mapping type |
 
  **Parameters:**
 
@@ -475,7 +475,7 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| createElement(type) | Maakt een vertex‑element met het opgegeven type aan en voegt het toe aan de geometrie. Als het type VertexElementType.UV is, wordt een VertexElementUV met texture‑mapping‑type TextureMapping.DIFFUSE aangemaakt. |
+| createElement(type) | Maakt een vertex‑element met opgegeven type en voegt het toe aan de geometrie. Als type VertexElementType.UV is, wordt een VertexElementUV met texture‑mapping type naar TextureMapping.DIFFUSE aangemaakt. |
 
  **Parameters:**
 
@@ -494,13 +494,13 @@ VertexElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| addElement(element) | Voegt een bestaand vertex‑element toe aan de huidige geometrie. |
+| addElement(element) | Voegt een bestaand vertex‑element toe aan de huidige geometrie |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| element | VertexElement | Het toe te voegen vertex‑element. |
+| element | VertexElement | Het vertex‑element om toe te voegen |
 
  **Result:**
 VertexElement
@@ -513,7 +513,7 @@ VertexElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| createElement(type, mappingMode, referenceMode) | Maakt een vertex‑element met het opgegeven type aan en voegt het toe aan de geometrie. Als het type VertexElementType.UV is, wordt een VertexElementUV met texture‑mapping‑type TextureMapping.DIFFUSE aangemaakt. |
+| createElement(type, mappingMode, referenceMode) | Maakt een vertex‑element met opgegeven type en voegt het toe aan de geometrie. Als type VertexElementType.UV is, wordt een VertexElementUV met texture‑mapping type naar TextureMapping.DIFFUSE aangemaakt. |
 
  **Parameters:**
 
@@ -574,7 +574,7 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 VertexElementUV
@@ -587,7 +587,7 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -606,7 +606,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -625,7 +625,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -644,7 +644,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -663,8 +663,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -677,7 +677,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

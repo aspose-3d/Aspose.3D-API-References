@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/animationclip/
 ---
 ## AnimationClip class
 
-De animatie‑clip is een verzameling animaties.  De scène kan één of meer animatie‑clips hebben.
+De animatie‑clip is een verzameling animaties.  De scène kan één of meer animatie‑clips bevatten.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de klasse AnimationClip. |
+| constructor() | Initialiseert een nieuw exemplaar van de AnimationClip-klasse. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(name) | Initialiseert een nieuw exemplaar van de klasse AnimationClip. |
+| constructor_overload(name) | Initialiseert een nieuw exemplaar van de AnimationClip-klasse. |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAnimations() | Haalt de animaties op die zich binnen de clip bevinden. De lagen. |
+| getAnimations() | Haalt de animaties op die in de clip zitten. De lagen. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDescription() | Haalt de beschrijving op of stelt deze in van deze animatieclip |
+| getDescription() | Haalt op of stelt de beschrijving van deze animatieclip in |
 
  **Result:**
 
@@ -75,7 +75,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDescription(value) | Haalt de beschrijving op of stelt deze in van deze animatieclip |
+| setDescription(value) | Haalt op of stelt de beschrijving van deze animatieclip in |
 
  **Result:**
 
@@ -88,7 +88,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| getStart() | Haalt de tijd in seconden op of stelt deze in voor het begin van de clip. |
+| getStart() | Haalt op of stelt de tijd in seconden van het begin van de clip in. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| setStart(value) | Haalt de tijd in seconden op of stelt deze in voor het begin van de clip. |
+| setStart(value) | Haalt op of stelt de tijd in seconden van het begin van de clip in. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| getStop() | Haalt de tijd in seconden op of stelt deze in voor het einde van de clip. |
+| getStop() | Haalt op of stelt de tijd in seconden van het einde van de clip in. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| setStop(value) | Haalt de tijd in seconden op of stelt deze in voor het einde van de clip. |
+| setStop(value) | Haalt op of stelt de tijd in seconden van het einde van de clip in. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -179,7 +179,7 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -192,13 +192,13 @@ De animatie‑clip is een verzameling animaties.  De scène kan één of meer an
 
 | Naam | Beschrijving |
 | --- | --- |
-| createAnimationNode(nodeName) | Een verkorte functie om de animatieknoop te maken en te registreren op de huidige clip. |
+| createAnimationNode(nodeName) | Een verkorte functie om het animatieknooppunt op de huidige clip te maken en te registreren. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| nodeName | String | Naam van de nieuwe animatieknoop |
+| nodeName | String | Naam van nieuw animatieknooppunt |
 
  **Result:**
 AnimationNode
@@ -217,7 +217,7 @@ AnimationNode
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -236,7 +236,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -255,7 +255,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -274,8 +274,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -288,7 +288,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

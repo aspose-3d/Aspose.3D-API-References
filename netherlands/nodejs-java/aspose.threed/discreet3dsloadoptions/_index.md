@@ -30,7 +30,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGammaCorrectedColor() | Een 3ds‑bestand kan de originele kleur en de gamma‑gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als u dit op true zet, wordt de gamma‑gecorrigeerde kleur gebruikt indien mogelijk; anders zal Aspose.3D proberen de originele kleur te gebruiken. |
+| getGammaCorrectedColor() | Een 3ds‑bestand kan originele kleur en gamma‑gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als u dit instelt op true, wordt de gamma‑gecorrigeerde kleur gebruikt indien mogelijk; anders zal Aspose.3D proberen de originele kleur te gebruiken. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGammaCorrectedColor(value) | Een 3ds‑bestand kan de originele kleur en de gamma‑gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als u dit op true zet, wordt de gamma‑gecorrigeerde kleur gebruikt indien mogelijk; anders zal Aspose.3D proberen de originele kleur te gebruiken. |
+| setGammaCorrectedColor(value) | Een 3ds‑bestand kan originele kleur en gamma‑gecorrigeerde kleur voor hetzelfde attribuut bevatten. Als u dit instelt op true, wordt de gamma‑gecorrigeerde kleur gebruikt indien mogelijk; anders zal Aspose.3D proberen de originele kleur te gebruiken. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlipCoordinateSystem() | Geeft of stelt het flip-coördinatensysteem van controlepunten/normaal in tijdens importeren/exporteren. |
+| getFlipCoordinateSystem() | Haalt op of stelt het omkeren van het coördinatensysteem van controlepunten/normaal in tijdens importeren/exporteren. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Geeft of stelt het flip-coördinatensysteem van controlepunten/normaal in tijdens importeren/exporteren. |
+| setFlipCoordinateSystem(value) | Haalt op of stelt het omkeren van het coördinatensysteem van controlepunten/normaal in tijdens importeren/exporteren. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getApplyAnimationTransform() | Haalt op of stelt in of de transformatie die is gedefinieerd in het eerste frame van het animatietrack moet worden gebruikt. |
+| getApplyAnimationTransform() | Haalt op of stelt in of de transformatie gedefinieerd in het eerste frame van het animatietrack moet worden gebruikt. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setApplyAnimationTransform(value) | Haalt op of stelt in of de transformatie die is gedefinieerd in het eerste frame van het animatietrack moet worden gebruikt. |
+| setApplyAnimationTransform(value) | Haalt op of stelt in of de transformatie gedefinieerd in het eerste frame van het animatietrack moet worden gebruikt. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Laadopties voor 3DS-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

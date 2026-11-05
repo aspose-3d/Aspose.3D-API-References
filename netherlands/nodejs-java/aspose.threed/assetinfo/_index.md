@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/assetinfo/
 ---
 ## AssetInfo class
 
-Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  Een onderliggende Scene kan zijn eigen AssetInfo hebben om de definitie van de ouder te overschrijven.
+Informatie over een asset.  Asset‑informatie kan aan een scène worden gekoppeld.  Een onderliggende scène kan zijn eigen AssetInfo hebben om de definitie van de bovenliggende scène te overschrijven.
 
 
 ## Methoden
@@ -49,7 +49,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCreationTime() | Haalt op of stelt de aanmaaktijd van dit asset in |
+| getCreationTime() | Haalt op of stelt de aanmaaktijd van dit asset in. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getModificationTime() | Haalt op of stelt de wijzigingstijd van dit asset in |
+| getModificationTime() | Haalt op of stelt de wijzigingstijd van dit asset in. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAmbient() | Haalt op of stelt de standaard omgevingskleur van dit asset in |
+| getAmbient() | Haalt op of stelt de standaard omgevingskleur van dit asset in. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getApplicationVendor() | Haalt op of stelt de naam van de applicatieleverancier in |
+| getApplicationVendor() | Haalt op of stelt de naam van de applicatieleverancier in. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setApplicationVendor(value) | Haalt op of stelt de naam van de applicatieleverancier in |
+| setApplicationVendor(value) | Haalt op of stelt de naam van de applicatieleverancier in. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCopyright() | Haalt op of stelt het copyright van het document in |
+| getCopyright() | Haalt op of stelt het auteursrecht van het document in. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCopyright(value) | Haalt op of stelt het copyright van het document in |
+| setCopyright(value) | Haalt op of stelt het auteursrecht van het document in. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getApplicationName() | Haalt op of stelt de applicatie die dit asset heeft aangemaakt in |
+| getApplicationName() | Haalt de applicatie op of stelt deze in die dit asset heeft aangemaakt |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setApplicationName(value) | Haalt op of stelt de applicatie die dit asset heeft aangemaakt in |
+| setApplicationName(value) | Haalt de applicatie op of stelt deze in die dit asset heeft aangemaakt |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getApplicationVersion() | Haalt op of stelt de versie van de applicatie die dit asset heeft aangemaakt in. |
+| getApplicationVersion() | Haalt de versie van de applicatie op of stelt deze in die dit asset heeft aangemaakt. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setApplicationVersion(value) | Haalt op of stelt de versie van de applicatie die dit asset heeft aangemaakt in. |
+| setApplicationVersion(value) | Haalt de versie van de applicatie op of stelt deze in die dit asset heeft aangemaakt. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTitle() | Haalt op of stelt de titel van dit asset in |
+| getTitle() | Haalt de titel van dit asset op of stelt deze in |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTitle(value) | Haalt op of stelt de titel van dit asset in |
+| setTitle(value) | Haalt de titel van dit asset op of stelt deze in |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSubject() | Haalt op of stelt het onderwerp van dit asset in |
+| getSubject() | Haalt het onderwerp van dit asset op of stelt dit in |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSubject(value) | Haalt op of stelt het onderwerp van dit asset in |
+| setSubject(value) | Haalt het onderwerp van dit asset op of stelt dit in |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAuthor() | Haalt op of stelt de auteur van dit asset in |
+| getAuthor() | Haalt de auteur van dit asset op of stelt deze in |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAuthor(value) | Haalt op of stelt de auteur van dit asset in |
+| setAuthor(value) | Haalt de auteur van dit asset op of stelt deze in |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getKeywords() | Haalt op of stelt de trefwoorden van dit asset in |
+| getKeywords() | Haalt de trefwoorden van dit asset op of stelt deze in |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setKeywords(value) | Haalt op of stelt de trefwoorden van dit asset in |
+| setKeywords(value) | Haalt de trefwoorden van dit asset op of stelt deze in |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRevision() | Haalt op of stelt het revisienummer van dit asset in, meestal gebruikt in versiebeheersystemen. |
+| getRevision() | Haalt het revisienummer van dit asset op of stelt dit in, meestal gebruikt in een versiebeheersysteem. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRevision(value) | Haalt op of stelt het revisienummer van dit asset in, meestal gebruikt in versiebeheersystemen. |
+| setRevision(value) | Haalt het revisienummer van dit asset op of stelt dit in, meestal gebruikt in een versiebeheersysteem. |
 
  **Result:**
 
@@ -348,7 +348,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getComment() | Haalt op of stelt de opmerking van dit asset in. |
+| getComment() | Haalt de opmerking van dit asset op of stelt deze in. |
 
  **Result:**
 
@@ -361,7 +361,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setComment(value) | Haalt op of stelt de opmerking van dit asset in. |
+| setComment(value) | Haalt de opmerking van dit asset op of stelt deze in. |
 
  **Result:**
 
@@ -374,7 +374,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUnitName() | Haalt op of stelt de lengte-eenheid in die in dit asset wordt gebruikt. bijv. cm/m/km/inch/feet |
+| getUnitName() | Haalt de eenheid van lengte op of stelt deze in voor dit asset. bijv. cm/m/km/inch/feet |
 
  **Result:**
 
@@ -387,7 +387,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setUnitName(value) | Haalt op of stelt de lengte-eenheid in die in dit asset wordt gebruikt. bijv. cm/m/km/inch/feet |
+| setUnitName(value) | Haalt de eenheid van lengte op of stelt deze in voor dit asset. bijv. cm/m/km/inch/feet |
 
  **Result:**
 
@@ -400,7 +400,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUnitScaleFactor() | Haalt op of stelt de schaalfactor naar de echte meter in. Dit wordt genegeerd tijdens serialisatie als de eenheidsnaam null is. |
+| getUnitScaleFactor() | Haalt de schaalfactor naar de echte meter op of stelt deze in. Dit wordt genegeerd tijdens serialisatie als de eenheidsnaam null is. |
 
  **Result:**
 
@@ -413,7 +413,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| setUnitScaleFactor(value) | Haalt op of stelt de schaalfactor naar de echte meter in. Dit wordt genegeerd tijdens serialisatie als de eenheidsnaam null is. |
+| setUnitScaleFactor(value) | Haalt de schaalfactor naar de echte meter op of stelt deze in. Dit wordt genegeerd tijdens serialisatie als de eenheidsnaam null is. |
 
  **Result:**
 
@@ -426,7 +426,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCoordinatedSystem() | Haalt op of stelt het coördinatensysteem in dat in dit asset wordt gebruikt. |
+| getCoordinatedSystem() | Haalt het coördinatensysteem op of stelt het in dat in dit asset wordt gebruikt. |
 
  **Result:**
 
@@ -439,7 +439,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUpVector() | Haalt op of stelt de up-vector in die in dit asset wordt gebruikt. |
+| getUpVector() | Haalt de up-vector op of stelt deze in die in dit asset wordt gebruikt. |
 
  **Result:**
 
@@ -478,7 +478,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -497,7 +497,7 @@ Informatie over asset.  Asset‑informatie kan aan een Scene worden gekoppeld.  
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -516,7 +516,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -535,7 +535,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -554,8 +554,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -568,7 +568,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

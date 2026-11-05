@@ -17,14 +17,14 @@ Hulpmiddel om een blinde watermerk te coderen/decoderen naar/van een mesh.  @hid
 
 | Naam | Beschrijving |
 | --- | --- |
-| encodeWatermark(input, text) | Encodeer een tekst in een blinde watermerk van het mesh. |
+| encodeWatermark(input, text) | Codeer een tekst in een blinde watermerk van het mesh. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| input | Mesh | Mesh om een blinde watermerk te coderen. |
-| text | String | Tekst om te coderen in het mesh |
+| input | Mesh | Mesh om een blinde watermerk te coderen |
+| text | String | Tekst om te coderen naar het mesh |
 
  **Result:**
 Mesh
@@ -37,15 +37,15 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| encodeWatermark(input, text, password) | Encodeer een tekst in een blinde watermerk van het mesh. |
+| encodeWatermark(input, text, password) | Codeer een tekst in een blinde watermerk van het mesh. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| input | Mesh | Mesh om een blinde watermerk te coderen. |
-| text | String | Tekst om te coderen in het mesh |
-| password | String | Wachtwoord om het watermerk te beschermen, is optioneel |
+| input | Mesh | Mesh om een blinde watermerk te coderen |
+| text | String | Tekst om te coderen naar het mesh |
+| password | String | Wachtwoord om het watermerk te beschermen, optioneel |
 
  **Result:**
 Mesh
@@ -64,7 +64,7 @@ Mesh
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| input | Mesh | Het mesh om het watermerk te extraheren |
+| input | Mesh | De mesh om het watermerk te extraheren |
 
  **Result:**
 String
@@ -83,8 +83,8 @@ String
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| input | Mesh | Het mesh om het watermerk te extraheren |
-| password | String | Het wachtwoord om het watermerk te ontsleutelen |
+| input | Mesh | De mesh om het watermerk te extraheren |
+| password | String | Het wachtwoord om het watermerk te ontcijferen |
 
  **Result:**
 String

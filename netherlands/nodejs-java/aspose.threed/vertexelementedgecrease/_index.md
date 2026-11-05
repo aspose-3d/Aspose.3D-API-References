@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/vertexelementedgecrease/
 ---
 ## VertexElementEdgeCrease class
 
-Definieert de randvouw voor opgegeven componenten
+Definieert de randkruising voor gespecificeerde componenten
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Definieert de randvouw voor opgegeven componenten
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de VertexElementEdgeCrease-klasse. |
+| constructor() | Initialiseert een nieuwe instantie van de klasse VertexElementEdgeCrease. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Definieert de randvouw voor opgegeven componenten
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElementType() | Haalt het type van de VertexElement op. De waarde van de eigenschap is de integer-constante VertexElementType. |
+| getVertexElementType() | Haalt het type van het VertexElement op. De waarde van de eigenschap is de VertexElementType integer-constante. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Definieert de randvouw voor opgegeven componenten
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Definieert de randvouw voor opgegeven componenten
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Definieert de randvouw voor opgegeven componenten
 
 | Naam | Beschrijving |
 | --- | --- |
-| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Definieert de randvouw voor opgegeven componenten
 
 | Naam | Beschrijving |
 | --- | --- |
-| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -147,13 +147,13 @@ Definieert de randvouw voor opgegeven componenten
 
 | Naam | Beschrijving |
 | --- | --- |
-| copyTo(target) | Kopieert gegevens naar opgegeven element |
+| copyTo(target) | Kopieert gegevens naar het opgegeven element |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| target | VertexElementDoublesTemplate | Target. |
+| target | VertexElementDoublesTemplate | Doelwit. |
 
  **Result:**
 

@@ -69,7 +69,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getColor() | Geeft de kleur van het licht terug of stelt deze in |
+| getColor() | Haalt op of stelt de kleur van het licht in |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setColor(value) | Geeft de kleur van het licht terug of stelt deze in |
+| setColor(value) | Haalt op of stelt de kleur van het licht in |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLightType() | Geeft het type van het licht terug of stelt dit in. De waarde van de eigenschap is een LightType‑integerconstante. |
+| getLightType() | Haalt op of stelt het type van het licht in. De waarde van de eigenschap is een LightType integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLightType(value) | Geeft het type van het licht terug of stelt dit in. De waarde van de eigenschap is een LightType‑integerconstante. |
+| setLightType(value) | Haalt op of stelt het type van het licht in. De waarde van de eigenschap is een LightType integer-constante. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastLight() | Geeft terug of stelt in of de huidige lichtinstantie andere objecten kan verlichten. |
+| getCastLight() | Geeft of stelt in of de huidige lichtinstantie andere objecten kan verlichten. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastLight(value) | Geeft terug of stelt in of de huidige lichtinstantie andere objecten kan verlichten. |
+| setCastLight(value) | Geeft of stelt in of de huidige lichtinstantie andere objecten kan verlichten. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getIntensity() | Geeft de intensiteit van het licht terug of stelt deze in, standaardwaarde is 100 |
+| getIntensity() | Geeft of stelt de intensiteit van het licht in, standaardwaarde is 100 |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setIntensity(value) | Geeft de intensiteit van het licht terug of stelt deze in, standaardwaarde is 100 |
+| setIntensity(value) | Geeft of stelt de intensiteit van het licht in, standaardwaarde is 100 |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getHotSpot() | Haalt op of stelt de kegelhoek van de hotspot(in graden). |
+| getHotSpot() | Geeft of stelt de kegelhoek van de hotspot in (in graden). |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setHotSpot(value) | Haalt op of stelt de kegelhoek van de hotspot(in graden). |
+| setHotSpot(value) | Geeft of stelt de kegelhoek van de hotspot in (in graden). |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFalloff() | Haalt op of stelt de kegelhoek van de afschuiving (in graden). |
+| getFalloff() | Geeft of stelt de afnamekegelhoek in (in graden). |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFalloff(value) | Haalt op of stelt de kegelhoek van de afschuiving (in graden). |
+| setFalloff(value) | Geeft of stelt de afnamekegelhoek in (in graden). |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getConstantAttenuation() | Haalt op of stelt de constante demping in om de totale demping van het licht te berekenen |
+| getConstantAttenuation() | Geeft of stelt de constante demping in om de totale demping van het licht te berekenen. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setConstantAttenuation(value) | Haalt op of stelt de constante demping in om de totale demping van het licht te berekenen |
+| setConstantAttenuation(value) | Geeft of stelt de constante demping in om de totale demping van het licht te berekenen. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLinearAttenuation() | Haalt op of stelt de lineaire demping in om de totale demping van het licht te berekenen |
+| getLinearAttenuation() | Geeft of stelt de lineaire demping in om de totale demping van het licht te berekenen. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLinearAttenuation(value) | Haalt op of stelt de lineaire demping in om de totale demping van het licht te berekenen |
+| setLinearAttenuation(value) | Geeft of stelt de lineaire demping in om de totale demping van het licht te berekenen. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getQuadraticAttenuation() | Haalt op of stelt de kwadratische demping in om de totale demping van het licht te berekenen |
+| getQuadraticAttenuation() | Geeft of stelt de kwadratische demping in om de totale demping van het licht te berekenen. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setQuadraticAttenuation(value) | Haalt op of stelt de kwadratische demping in om de totale demping van het licht te berekenen |
+| setQuadraticAttenuation(value) | Geeft of stelt de kwadratische demping in om de totale demping van het licht te berekenen. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastShadows() | Haalt op of stelt in of het licht schaduwen kan werpen op andere objecten. |
+| getCastShadows() | Geeft of stelt in of het licht schaduwen kan werpen op andere objecten. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastShadows(value) | Haalt op of stelt in of het licht schaduwen kan werpen op andere objecten. |
+| setCastShadows(value) | Geeft of stelt in of het licht schaduwen kan werpen op andere objecten. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShadowColor() | Haalt op of stelt de kleur van de schaduw in. |
+| getShadowColor() | Geeft of stelt de kleur van de schaduw in. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShadowColor(value) | Haalt op of stelt de kleur van de schaduw in. |
+| setShadowColor(value) | Geeft of stelt de kleur van de schaduw in. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRotationMode() | Haalt op of stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer Target null is. Als de waarde RotationMode.FIXED_TARGET is, wordt de richting altijd berekend door de eigenschap LookAt. Anders wordt LookAt altijd berekend door de Direction. De waarde van de eigenschap is de integer-constante RotationMode. |
+| getRotationMode() | Haalt op of stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer de Target null is. Als de waarde RotationMode.FIXED_TARGET is, wordt de richting altijd berekend door de eigenschap LookAt. Anders wordt de LookAt altijd berekend door de Direction. De waarde van de eigenschap is een integer-constante van RotationMode. |
 
  **Result:**
 
@@ -368,7 +368,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRotationMode(value) | Haalt op of stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer Target null is. Als de waarde RotationMode.FIXED_TARGET is, wordt de richting altijd berekend door de eigenschap LookAt. Anders wordt LookAt altijd berekend door de Direction. De waarde van de eigenschap is de integer-constante RotationMode. |
+| setRotationMode(value) | Haalt op of stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer de Target null is. Als de waarde RotationMode.FIXED_TARGET is, wordt de richting altijd berekend door de eigenschap LookAt. Anders wordt de LookAt altijd berekend door de Direction. De waarde van de eigenschap is een integer-constante van RotationMode. |
 
  **Result:**
 
@@ -407,7 +407,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFarPlane() | Haalt op of stelt de afstand van het verafgelegen vlak van de frustum in. |
+| getFarPlane() | Haalt op of stelt de afstand van het verafvlak van de frustum in. |
 
  **Result:**
 
@@ -420,7 +420,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFarPlane(value) | Haalt op of stelt de afstand van het verafgelegen vlak van de frustum in. |
+| setFarPlane(value) | Haalt op of stelt de afstand van het verafvlak van de frustum in. |
 
  **Result:**
 
@@ -433,7 +433,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAspect() | Haalt op of stelt de beeldverhouding van de frustum in |
+| getAspect() | Haalt op of stelt de beeldverhouding van de frustum in. |
 
  **Result:**
 
@@ -446,7 +446,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAspect(value) | Haalt op of stelt de beeldverhouding van de frustum in |
+| setAspect(value) | Haalt op of stelt de beeldverhouding van de frustum in. |
 
  **Result:**
 
@@ -459,7 +459,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOrthoHeight() | Haalt op of stelt de hoogte in wanneer de frustum zich in orthografische projectie bevindt. |
+| getOrthoHeight() | Haalt op of stelt de hoogte in wanneer de frustum in orthografische projectie staat. |
 
  **Result:**
 
@@ -472,7 +472,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOrthoHeight(value) | Haalt op of stelt de hoogte in wanneer de frustum zich in orthografische projectie bevindt. |
+| setOrthoHeight(value) | Haalt op of stelt de hoogte in wanneer de frustum in orthografische projectie staat. |
 
  **Result:**
 
@@ -485,7 +485,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUp() | Haalt op of stelt de omhoogrichting van de camera in |
+| getUp() | Haalt op of stelt de opwaartse richting van de camera in. |
 
  **Result:**
 
@@ -498,7 +498,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setUp(value) | Haalt op of stelt de omhoogrichting van de camera in |
+| setUp(value) | Haalt op of stelt de opwaartse richting van de camera in. |
 
  **Result:**
 
@@ -511,7 +511,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookAt() | Haalt op of stelt de interessante positie in waar de camera naar kijkt. |
+| getLookAt() | Haalt op of stelt de gewenste positie in waar de camera naar kijkt. |
 
  **Result:**
 
@@ -524,7 +524,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLookAt(value) | Haalt op of stelt de interessante positie in waar de camera naar kijkt. |
+| setLookAt(value) | Haalt op of stelt de gewenste positie in waar de camera naar kijkt. |
 
  **Result:**
 
@@ -563,7 +563,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTarget() | Haalt op of stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de LookAt property staan. |
+| getTarget() | Haalt op of stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de LookAt‑eigenschap worden ingesteld. |
 
  **Result:**
 
@@ -576,7 +576,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTarget(value) | Haalt op of stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de LookAt property staan. |
+| setTarget(value) | Haalt op of stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de LookAt‑eigenschap worden ingesteld. |
 
  **Result:**
 
@@ -628,7 +628,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -641,7 +641,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -654,7 +654,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -693,7 +693,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -706,7 +706,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 
@@ -719,7 +719,7 @@ Het licht verlicht de scène.  De formule om de totale demping van licht te bere
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -738,7 +738,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -757,7 +757,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -776,7 +776,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -795,8 +795,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -809,7 +809,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

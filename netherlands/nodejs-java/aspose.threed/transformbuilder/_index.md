@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/transformbuilder/
 ---
 ## TransformBuilder class
 
-De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen via een keten van transformaties.
+De TransformBuilder wordt gebruikt om een transformatiesmatrix op te bouwen via een keten van transformaties.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor(initial, order) | Construeer een TransformBuilder met een initiële transformatiematrix en een gespecificeerde compose-volgorde |
+| constructor(initial, order) | Construeer een TransformBuilder met een initiële transformatiematrix en de opgegeven samenstelvolgorde |
 
  **Parameters:**
 
@@ -37,7 +37,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(order) | Construeer een TransformBuilder met een initiële identiteits-transformatiematrix en een gespecificeerde compose-volgorde |
+| constructor_overload(order) | Construeer een TransformBuilder met een initiële identiteits-transformatiematrix en de opgegeven samenstelvolgorde |
 
  **Parameters:**
 
@@ -56,7 +56,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMatrix() | Haalt de huidige matrixwaarde op of stelt deze in |
+| getMatrix() | Haalt op of stelt de huidige matrixwaarde in |
 
  **Result:**
 
@@ -69,7 +69,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMatrix(value) | Haalt de huidige matrixwaarde op of stelt deze in |
+| setMatrix(value) | Haalt op of stelt de huidige matrixwaarde in |
 
  **Result:**
 
@@ -82,7 +82,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| getComposeOrder() | Haalt de compose-volgorde van de keten op of stelt deze in. De waarde van de eigenschap is een integer-constante ComposeOrder. |
+| getComposeOrder() | Haalt op of stelt de keten-samenstelvolgorde in. De waarde van de eigenschap is een ComposeOrder integer-constante. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| setComposeOrder(value) | Haalt de compose-volgorde van de keten op of stelt deze in. De waarde van de eigenschap is een integer-constante ComposeOrder. |
+| setComposeOrder(value) | Haalt op of stelt de keten-samenstelvolgorde in. De waarde van de eigenschap is een ComposeOrder integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| compose(m) | Voeg het argument toe aan het einde of het begin van de interne matrix. |
+| compose(m) | Voeg het argument toe of plaats het voor de interne matrix. |
 
  **Parameters:**
 
@@ -127,7 +127,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| append(m) | Voeg de nieuwe transformatiematrix toe aan de transformketen. |
+| append(m) | Voeg de nieuwe transformatiematrix toe aan de transformatie-keten. |
 
  **Parameters:**
 
@@ -146,7 +146,7 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| prepend(m) | Voeg de nieuwe transformatie-matrix toe aan de transformatie-keten. |
+| prepend(m) | Plaats de nieuwe transformatiematrix voor de transformatie-keten. |
 
  **Parameters:**
 
@@ -186,13 +186,13 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| scale(s) | Koppel een schaaltransformatie-matrix met een component geschaald met s |
+| scale(s) | Koppel een schaals-transformatiematrix met een component geschaald met s |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
+|  | Nummer | null |
 
  **Result:**
 
@@ -205,15 +205,15 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Beschrijving |
 | --- | --- |
-| scale(x, y, z) | Koppel een schaaltransformatie-matrix |
+| scale(x, y, z) | Koppel een schaals-transformatiematrix |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Nummer | null |
+|  | Nummer | null |
+|  | Nummer | null |
 
  **Result:**
 
@@ -251,8 +251,8 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| hoek | Number | De hoek om te roteren in graden |
-| as | Vector3 | De as om te roteren |
+| angle | Nummer | De hoek om te roteren in graden |
+| axis | Vector3 | De as om te roteren |
 
  **Result:**
 
@@ -271,8 +271,8 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| hoek | Number | De hoek om te roteren in radialen |
-| as | Vector3 | De as om te roteren |
+| angle | Nummer | De hoek om te roteren in radialen |
+| axis | Vector3 | De as om te roteren |
 
  **Result:**
 
@@ -310,9 +310,9 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| deg | Number | null |
-| deg | Number | null |
-| deg | Number | null |
+| deg | Nummer | null |
+| deg | Nummer | null |
+| deg | Nummer | null |
 
  **Result:**
 
@@ -331,9 +331,9 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Nummer | null |
+|  | Nummer | null |
+|  | Nummer | null |
 
  **Result:**
 
@@ -371,9 +371,9 @@ De TransformBuilder wordt gebruikt om een transformatie‑matrix op te bouwen vi
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| t | Number | null |
-| t | Number | null |
-| t | Number | null |
+| t | Nummer | null |
+| t | Nummer | null |
+| t | Nummer | null |
 
  **Result:**
 

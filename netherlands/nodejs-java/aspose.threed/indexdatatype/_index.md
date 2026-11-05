@@ -8,6 +8,6 @@ url: /nl/nodejs-java/aspose.threed/indexdatatype/
 ---
 ## IndexDataType class
 
-Hulpprogrammaklasse die constanten bevat.  Het gegevenstype van de elementen in com.aspose.threed.IIndexBuffer  @hideconstructor
+Utility‑klasse met constanten.  Het gegevenstype van de elementen in com.aspose.threed.IIndexBuffer  @hideconstructor
 
 

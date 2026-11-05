@@ -56,7 +56,7 @@ url: /nl/nodejs-java/aspose.threed/pixelmapping/
 
 | Naam | Beschrijving |
 | --- | --- |
-| getData() | De gemapte bytes van pixels. |
+| getData() | De toegewezen bytes van pixels. |
 
  **Result:**
 

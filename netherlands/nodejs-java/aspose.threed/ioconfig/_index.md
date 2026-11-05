@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/ioconfig/
 ---
 ## IOConfig class
 
-IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde configuraties opgeven, zoals het pad voor afhankelijkheidsopzoeking, of hier formatgerelateerde configuraties @hideconstructor
+IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde configuraties opgeven, zoals het pad voor afhankelijkheidsopzoeking of formatgerelateerde configuraties hier @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystemFactory() | Haalt op of stelt de fabriekklasse voor FileSystem in. De standaardfabriek maakt LocalFileSystem aan, wat niet geschikt is voor serveromgevingen. |
+| getFileSystemFactory() | Haalt of stelt de fabrieksklasse voor FileSystem. De standaardfabriek maakt LocalFileSystem aan, die niet geschikt is voor een serveromgeving. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystemFactory(value) | Haalt op of stelt de fabriekklasse voor FileSystem in. De standaardfabriek maakt LocalFileSystem aan, wat niet geschikt is voor serveromgevingen. |
+| setFileSystemFactory(value) | Haalt of stelt de fabrieksklasse voor FileSystem. De standaardfabriek maakt LocalFileSystem aan, die niet geschikt is voor een serveromgeving. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ IO-configuratie voor serialisatie/deserialisatie.  Gebruiker kan gedetailleerde 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

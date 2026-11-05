@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/shadertechnique/
 ---
 ## ShaderTechnique class
 
-Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
+Een shadertechniek vertegenwoordigt een concrete renderingsimplementatie.
 
 
 ## Methoden
@@ -56,7 +56,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShaderLanguage() | Haalt de shader-taal op die door deze techniek wordt gebruikt of stelt deze in. |
+| getShaderLanguage() | Haalt de shader-taal die door deze techniek wordt gebruikt op of stelt deze in |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShaderLanguage(value) | Haalt de shader-taal op die door deze techniek wordt gebruikt of stelt deze in. |
+| setShaderLanguage(value) | Haalt de shader-taal die door deze techniek wordt gebruikt op of stelt deze in |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShaderVersion() | Haalt de shader-versie op die door deze techniek wordt gebruikt of stelt deze in. |
+| getShaderVersion() | Haalt de shader-versie die door deze techniek wordt gebruikt op of stelt deze in |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShaderVersion(value) | Haalt de shader-versie op die door deze techniek wordt gebruikt of stelt deze in. |
+| setShaderVersion(value) | Haalt de shader-versie die door deze techniek wordt gebruikt op of stelt deze in |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShaderFile() | Haalt de bestandsnaam van het externe shaderbestand op of stelt deze in. |
+| getShaderFile() | Haalt de bestandsnaam van het externe shaderbestand op of stelt deze in |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShaderFile(value) | Haalt de bestandsnaam van het externe shaderbestand op of stelt deze in. |
+| setShaderFile(value) | Haalt de bestandsnaam van het externe shaderbestand op of stelt deze in |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShaderContent() | Haalt de inhoud van een ingebed shader‑script op of stelt deze in. Het kan een HLSL/GLSL shader‑bronbestand zijn. |
+| getShaderContent() | Haalt de inhoud van een ingebed shader-script op of stelt deze in. Het kan een HLSL/GLSL shader-bronbestand zijn. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShaderContent(value) | Haalt de inhoud van een ingebed shader‑script op of stelt deze in. Het kan een HLSL/GLSL shader‑bronbestand zijn. |
+| setShaderContent(value) | Haalt de inhoud van een ingebed shader-script op of stelt deze in. Het kan een HLSL/GLSL shader-bronbestand zijn. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShaderEntry() | Haalt het entry‑point van de shader op of stelt dit in; sommige shaders zoals HLSL kunnen aangepaste entry‑points hebben. |
+| getShaderEntry() | Haalt op of stelt het ingangspunt van de shader in, sommige shaders zoals HLSL kunnen aangepaste shader‑ingangen hebben. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShaderEntry(value) | Haalt het entry‑point van de shader op of stelt dit in; sommige shaders zoals HLSL kunnen aangepaste entry‑points hebben. |
+| setShaderEntry(value) | Haalt op of stelt het ingangspunt van de shader in, sommige shaders zoals HLSL kunnen aangepaste shader‑ingangen hebben. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRenderAPI() | Haalt de rendering‑API op die door deze techniek wordt gebruikt of stelt deze in |
+| getRenderAPI() | Haalt op of stelt de rendering‑API in die door deze techniek wordt gebruikt |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRenderAPI(value) | Haalt de rendering‑API op die door deze techniek wordt gebruikt of stelt deze in |
+| setRenderAPI(value) | Haalt op of stelt de rendering‑API in die door deze techniek wordt gebruikt |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRenderAPIVersion() | Haalt de versie van de rendering‑API op of stelt deze in. |
+| getRenderAPIVersion() | Haalt op of stelt de versie van de rendering‑API in. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRenderAPIVersion(value) | Haalt de versie van de rendering‑API op of stelt deze in. |
+| setRenderAPIVersion(value) | Haalt op of stelt de versie van de rendering‑API in. |
 
  **Result:**
 
@@ -251,13 +251,13 @@ Een shader‑techniek vertegenwoordigt een concrete renderimplementatie.
 
 | Naam | Beschrijving |
 | --- | --- |
-| addBinding(property, shaderParameter) | Koppelt de dynamische eigenschap aan de shader‑parameter. |
+| addBinding(property, shaderParameter) | Koppelt de dynamische eigenschap aan de shader‑parameter |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | De naam van de dynamische eigenschap. |
+| property | String | De naam van de dynamische eigenschap. |
 | shaderParameter | String | De naam van de shader‑parameter. |
 
  **Result:**

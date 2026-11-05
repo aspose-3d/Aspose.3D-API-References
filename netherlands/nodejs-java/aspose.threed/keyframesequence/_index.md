@@ -49,7 +49,7 @@ De reeks van keyframes, die de transformatie van een bemonsterde waarde over tij
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBindPoint() | Haalt het bindpunt van de eigenschap op dat deze curve bezit |
+| getBindPoint() | Haalt het bindpunt van de eigenschap op dat deze curve bezit. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ De reeks van keyframes, die de transformatie van een bemonsterde waarde over tij
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPostBehavior() | Haalt het postgedrag op, dat aangeeft wat de bemonsterde waarde moet zijn na het laatste keyframe. |
+| getPostBehavior() | Haalt het postgedrag op dat aangeeft wat de bemonsterde waarde moet zijn na het laatste keyframe. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ De reeks van keyframes, die de transformatie van een bemonsterde waarde over tij
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPreBehavior() | Haalt het pregedrag op, dat aangeeft wat de bemonsterde waarde moet zijn vóór de eerste sleutel. |
+| getPreBehavior() | Haalt het pregedrag op dat aangeeft wat de bemonsterde waarde moet zijn vóór de eerste sleutel. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ De reeks van keyframes, die de transformatie van een bemonsterde waarde over tij
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -146,8 +146,8 @@ De reeks van keyframes, die de transformatie van een bemonsterde waarde over tij
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| tijd | Number | Tijdpositie(gemeten in seconden) |
-| value | Number | De waarde op deze tijdpositie |
+| time | Nummer | Tijdpositie (gemeten in seconden) |
+| waarde | Nummer | De waarde op deze tijdpositie |
 
  **Result:**
 
@@ -166,9 +166,9 @@ De reeks van keyframes, die de transformatie van een bemonsterde waarde over tij
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| tijd | Number | Tijdpositie(gemeten in seconden) |
-| value | Number | De waarde op deze tijdpositie |
-| interpolatie | Interpolatie | Interpolatie |
+| time | Nummer | Tijdpositie (gemeten in seconden) |
+| waarde | Nummer | De waarde op deze tijdpositie |
+| interpolation | Interpolatie | Interpolatie |
 
  **Result:**
 
@@ -181,7 +181,7 @@ De reeks van keyframes, die de transformatie van een bemonsterde waarde over tij
 
 | Naam | Beschrijving |
 | --- | --- |
-| reset() | Verwijdert alle keyframes en reset de post/pre-gedragingen. |
+| reset() | Verwijdert alle keyframes en reset het post-/pre-gedrag. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ De reeks van keyframes, die de transformatie van een bemonsterde waarde over tij
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -219,7 +219,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -238,7 +238,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -257,8 +257,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -271,7 +271,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

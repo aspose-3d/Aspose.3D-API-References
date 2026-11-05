@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/objsaveoptions/
 ---
 ## ObjSaveOptions class
 
-Opslaanopties voor Wavefront OBJ-bestand
+Opslaanopties voor wavefront obj‑bestand
 
 
 ## Methoden
@@ -56,7 +56,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPointCloud() | Geeft of stelt de vlag in of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false |
+| getPointCloud() | Haalt op of stelt de vlag in die aangeeft of de exporter de scène moet exporteren als een puntwolk (zonder topologische structuur), standaardwaarde is false |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPointCloud(value) | Geeft of stelt de vlag in of de exporter de scène moet exporteren als puntwolk (zonder topologische structuur), standaardwaarde is false |
+| setPointCloud(value) | Haalt op of stelt de vlag in die aangeeft of de exporter de scène moet exporteren als een puntwolk (zonder topologische structuur), standaardwaarde is false |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVerbose() | Geeft of stelt in of er opmerkingen worden gegenereerd voor elke sectie |
+| getVerbose() | Haalt op of stelt in of er opmerkingen gegenereerd moeten worden voor elke sectie |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| setVerbose(value) | Geeft of stelt in of er opmerkingen worden gegenereerd voor elke sectie |
+| setVerbose(value) | Haalt op of stelt in of er opmerkingen gegenereerd moeten worden voor elke sectie |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSerializeW() | Geeft of stelt in of de W-component wordt geserialiseerd in de vertexpositie van het model. |
+| getSerializeW() | Haalt op of stelt in of de W-component in de vertexpositie van het model moet worden geserializeerd. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSerializeW(value) | Geeft of stelt in of de W-component wordt geserialiseerd in de vertexpositie van het model. |
+| setSerializeW(value) | Haalt op of stelt in of de W-component in de vertexpositie van het model moet worden geserializeerd. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEnableMaterials() | Geeft of stelt in of materialen worden geïmporteerd/geëxporteerd voor elk object |
+| getEnableMaterials() | Haalt op of stelt in of materialen voor elk object geïmporteerd/geëxporteerd moeten worden |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEnableMaterials(value) | Geeft of stelt in of materialen worden geïmporteerd/geëxporteerd voor elk object |
+| setEnableMaterials(value) | Haalt op of stelt in of materialen voor elk object geïmporteerd/geëxporteerd moeten worden |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlipCoordinateSystem() | Haalt op of stelt in of het coördinatensysteem van controlepunten/normaal moet worden omgekeerd tijdens importeren/exporteren. |
+| getFlipCoordinateSystem() | Haalt op of stelt in of het coördinatensysteem van control points/normal moet worden omgekeerd tijdens importeren/exporteren. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Haalt op of stelt in of het coördinatensysteem van controlepunten/normaal moet worden omgekeerd tijdens importeren/exporteren. |
+| setFlipCoordinateSystem(value) | Haalt op of stelt in of het coördinatensysteem van control points/normal moet worden omgekeerd tijdens importeren/exporteren. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Opslaanopties voor Wavefront OBJ-bestand
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

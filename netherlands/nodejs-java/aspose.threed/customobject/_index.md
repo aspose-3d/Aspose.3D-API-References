@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/customobject/
 ---
 ## CustomObject class
 
-Metadata of aangepaste objecten die in 3D-bestanden worden gebruikt, worden beheerd door deze klasse. Alle aangepaste eigenschappen worden opgeslagen als dynamische eigenschappen.
+Metadata of aangepaste objecten die in 3D-bestanden worden gebruikt, worden beheerd door deze klasse.  Alle aangepaste eigenschappen worden opgeslagen als dynamische eigenschappen.
 
 
 ## Methoden
@@ -75,7 +75,7 @@ Metadata of aangepaste objecten die in 3D-bestanden worden gebruikt, worden behe
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Metadata of aangepaste objecten die in 3D-bestanden worden gebruikt, worden behe
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -113,7 +113,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -132,7 +132,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -151,8 +151,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -165,7 +165,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/vertexelementuserdata/
 ---
 ## VertexElementUserData class
 
-Definieert aangepaste gebruikersgegevens voor opgegeven componenten.  Meestal zijn het toepassingsspecifieke gegevens voor een speciaal doel.
+Definieert aangepaste gebruikersgegevens voor gespecificeerde componenten. Meestal is het toepassingsspecifieke gegevens voor een speciaal doel.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Definieert aangepaste gebruikersgegevens voor opgegeven componenten.  Meestal zi
 
 | Naam | Beschrijving |
 | --- | --- |
-| getData() | De gebruikersgegevens die aan dit element zijn gekoppeld |
+| getData() | De gebruikersgegevens die aan dit element zijn gekoppeld. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Definieert aangepaste gebruikersgegevens voor opgegeven componenten.  Meestal zi
 
 | Naam | Beschrijving |
 | --- | --- |
-| setData(value) | De gebruikersgegevens die aan dit element zijn gekoppeld |
+| setData(value) | De gebruikersgegevens die aan dit element zijn gekoppeld. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Definieert aangepaste gebruikersgegevens voor opgegeven componenten.  Meestal zi
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElementType() | Haalt het type van de VertexElement op. De waarde van de eigenschap is de integer-constante VertexElementType. |
+| getVertexElementType() | Haalt het type van het VertexElement op. De waarde van de eigenschap is de VertexElementType integer-constante. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Definieert aangepaste gebruikersgegevens voor opgegeven componenten.  Meestal zi
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Definieert aangepaste gebruikersgegevens voor opgegeven componenten.  Meestal zi
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Definieert aangepaste gebruikersgegevens voor opgegeven componenten.  Meestal zi
 
 | Naam | Beschrijving |
 | --- | --- |
-| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Definieert aangepaste gebruikersgegevens voor opgegeven componenten.  Meestal zi
 
 | Naam | Beschrijving |
 | --- | --- |
-| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 

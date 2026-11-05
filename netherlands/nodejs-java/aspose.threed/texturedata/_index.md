@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/texturedata/
 ---
 ## TextureData class
 
-Deze klasse bevat de ruwe data en formatdefinitie van een textuur.
+Deze klasse bevat de ruwe gegevens en de formaatdefinitie van een textuur.
 
 
 ## Methoden
@@ -23,10 +23,10 @@ Deze klasse bevat de ruwe data en formatdefinitie van een textuur.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| widt | Number | null |
-| heigh | Number | null |
-| strid | Number | null |
-| bytesPerPixe | Number | null |
+| breedte | Nummer | null |
+| hoogte | Nummer | null |
+| strid | Nummer | null |
+| bytesPerPixe | Nummer | null |
 | pixelFormat | PixelFormat | PixelFormat |
 | dat | byte[] | null |
 
@@ -47,8 +47,8 @@ Deze klasse bevat de ruwe data en formatdefinitie van een textuur.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| widt | Number | null |
-| heigh | Number | null |
+| breedte | Nummer | null |
+| hoogte | Nummer | null |
 | pixelFormat | PixelFormat | PixelFormat |
 
  **Result:**
@@ -140,7 +140,7 @@ Deze klasse bevat de ruwe data en formatdefinitie van een textuur.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPixelFormat() | Het formaat van de pixel. De waarde van de eigenschap is PixelFormat integer-constante. |
+| getPixelFormat() | Het pixelformaat De waarde van de eigenschap is een PixelFormat integer-constante. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Deze klasse bevat de ruwe data en formatdefinitie van een textuur.
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromFile(fileName) | Laad een texture uit een bestand |
+| fromFile(fileName) | Laad een textuur vanuit bestand |
 
  **Parameters:**
 
@@ -250,7 +250,7 @@ PixelMapping
 
 | Naam | Beschrijving |
 | --- | --- |
-| mapPixels(rect, mapMode, format) | Map pixels die worden aangeduid door rect voor lezen/schrijven in het opgegeven pixelformaat |
+| mapPixels(rect, mapMode, format) | Map pixels aangeduid door rect voor lezen/schrijven in het opgegeven pixelformaat |
 
  **Parameters:**
 

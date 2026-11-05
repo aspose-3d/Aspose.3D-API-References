@@ -17,7 +17,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de Sphere met standaardstraal 1. |
+| constructor() | Initialiseert een nieuw exemplaar van de Sphere met een standaardstraal van 1. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(radius) | Initialiseert een nieuw exemplaar van de Sphere-klasse met opgegeven straal. |
+| constructor_overload(radius) | Initialiseert een nieuw exemplaar van de Sphere-klasse met de opgegeven straal. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| radius | Number | Straal. |
+| radius | Nummer | Straal. |
 
  **Result:**
 
@@ -49,15 +49,15 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload2(radius, widthSegments, heightSegments) | Initialiseert een nieuw exemplaar van de Sphere-klasse met opgegeven straal, breedtesegmenten en hoogtesegmenten. |
+| constructor_overload2(radius, widthSegments, heightSegments) | Initialiseert een nieuw exemplaar van de Sphere-klasse met de opgegeven straal, breedtesegmenten en hoogtesegmenten. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| radius | Number | Straal van de Sphere. |
-| widthSegments | Number | Breedte segmenten. |
-| heightSegments | Number | Hoogtesegmenten. |
+| radius | Nummer | Straal van de bol. |
+| widthSegments | Nummer | Breedte segmenten. |
+| heightSegments | Nummer | Hoogtesegmenten. |
 
  **Result:**
 
@@ -77,13 +77,13 @@ Geparametriseerde bol.
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | name | String | Naam. |
-| radius | Number | Straal van de Sphere. |
-| widthSegments | Number | Breedte segmenten. |
-| heightSegments | Number | Hoogtesegmenten. |
-| phiStart | Number | Phi start. |
-| phiLength | Number | Phi lengte. |
-| thetaStart | Number | Theta start. |
-| thetaLength | Number | Theta lengte. |
+| radius | Nummer | Straal van de bol. |
+| widthSegments | Nummer | Breedte segmenten. |
+| heightSegments | Nummer | Hoogtesegmenten. |
+| phiStart | Nummer | Phi-start. |
+| phiLength | Nummer | Phi-lengte. |
+| thetaStart | Nummer | Theta-start. |
+| thetaLength | Nummer | Theta lengte. |
 
  **Result:**
 
@@ -96,7 +96,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWidthSegments() | Haalt of stelt de breedte segmenten in. De breedte segmenten. |
+| getWidthSegments() | Haalt op of stelt de breedte segmenten in. De breedte segmenten. |
 
  **Result:**
 
@@ -109,7 +109,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWidthSegments(value) | Haalt of stelt de breedte segmenten in. De breedte segmenten. |
+| setWidthSegments(value) | Haalt op of stelt de breedte segmenten in. De breedte segmenten. |
 
  **Result:**
 
@@ -122,7 +122,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getHeightSegments() | Haalt op of stelt de hoogtesegmenten in. De hoogtesegmenten. |
+| getHeightSegments() | Haalt op of stelt de hoogte‑segmenten in. De hoogte‑segmenten. |
 
  **Result:**
 
@@ -135,7 +135,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setHeightSegments(value) | Haalt op of stelt de hoogtesegmenten in. De hoogtesegmenten. |
+| setHeightSegments(value) | Haalt op of stelt de hoogte‑segmenten in. De hoogte‑segmenten. |
 
  **Result:**
 
@@ -148,7 +148,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPhiStart() | Haalt op of stelt de phi-start in. De phi-start. |
+| getPhiStart() | Haalt op of stelt de phi‑start in. De phi‑start. |
 
  **Result:**
 
@@ -161,7 +161,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPhiStart(value) | Haalt op of stelt de phi-start in. De phi-start. |
+| setPhiStart(value) | Haalt op of stelt de phi‑start in. De phi‑start. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getThetaStart() | Haalt op of stelt de theta-start in. De theta-start. |
+| getThetaStart() | Haalt op of stelt de theta‑start in. De theta‑start. |
 
  **Result:**
 
@@ -213,7 +213,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setThetaStart(value) | Haalt op of stelt de theta-start in. De theta-start. |
+| setThetaStart(value) | Haalt op of stelt de theta‑start in. De theta‑start. |
 
  **Result:**
 
@@ -278,7 +278,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastShadows() | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| getCastShadows() | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -291,7 +291,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -369,7 +369,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -382,7 +382,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -395,7 +395,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -434,7 +434,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -447,7 +447,7 @@ Geparametriseerde bol.
 
 | Naam | Beschrijving |
 | --- | --- |
-| toMesh() | Converteer huidig object naar mesh |
+| toMesh() | Converteer het huidige object naar een mesh |
 
  **Result:**
 Mesh
@@ -460,7 +460,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 Mesh
@@ -473,7 +473,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -492,7 +492,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -511,7 +511,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -530,7 +530,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -549,8 +549,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -563,7 +563,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

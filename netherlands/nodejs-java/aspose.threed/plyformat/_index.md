@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/plyformat/
 ---
 ## PlyFormat class
 
-Het PLY-formaat.  @hideconstructor
+Het PLY‑formaat.  @hideconstructor
 
 
 ## Methoden
@@ -56,7 +56,7 @@ Het PLY-formaat.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getContentType() | Haalt bestandsformaatinhoudstype op. De waarde van de eigenschap is de integer‑constante FileContentType. |
+| getContentType() | Haalt het inhoudstype van het bestandsformaat op. De waarde van de eigenschap is de gehele constante FileContentType. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Het PLY-formaat.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormatType() | Haalt bestandsformaattype op |
+| getFileFormatType() | Haalt bestandsformaattype op. |
 
  **Result:**
 
@@ -82,13 +82,13 @@ Het PLY-formaat.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| encode(entity, fileName) | Encodeer de entiteit en sla het resultaat op in een extern bestand. |
+| encode(entity, fileName) | Encodeer de entity en sla het resultaat op in een extern bestand. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| entity | Entity | De te coderen entiteit |
+| entiteit | Entiteit | De te encoderen entity |
 | fileName | String | Het bestand om naar te schrijven |
 
  **Result:**
@@ -102,13 +102,13 @@ Het PLY-formaat.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| encode(entity, fileName, opt) | Encodeer de entiteit en sla het resultaat op in een extern bestand. |
+| encode(entity, fileName, opt) | Encodeer de entity en sla het resultaat op in een extern bestand. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| entity | Entity | De te coderen entiteit |
+| entiteit | Entiteit | De te encoderen entity |
 | fileName | String | Het bestand om naar te schrijven |
 | opt | PlySaveOptions | Opslagopties |
 
@@ -123,16 +123,16 @@ Het PLY-formaat.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| decode(fileName) | Decodeer een puntenwolk of mesh van de opgegeven stream. |
+| decode(fileName) | Decodeer een puntwolk of mesh van de opgegeven stream. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| fileName | String | De invoerstream |
+| fileName | String | De invoerstroom |
 
  **Result:**
-Geometrie
+Geometry
 
 
 ---
@@ -142,17 +142,17 @@ Geometrie
 
 | Naam | Beschrijving |
 | --- | --- |
-| decode(fileName, opt) | Decodeer een puntenwolk of mesh van de opgegeven stream. |
+| decode(fileName, opt) | Decodeer een puntwolk of mesh van de opgegeven stream. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| fileName | String | De invoerstream |
+| fileName | String | De invoerstroom |
 | opt | PlyLoadOptions | De laadoptie van het PLY-formaat |
 
  **Result:**
-Geometrie
+Geometry
 
 
 ---
@@ -162,7 +162,7 @@ Geometrie
 
 | Naam | Beschrijving |
 | --- | --- |
-| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat. |
+| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat |
 
  **Result:**
 LoadOptions
@@ -175,7 +175,7 @@ LoadOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| createSaveOptions() | Maak standaard opslagopties voor dit bestandsformaat. |
+| createSaveOptions() | Maak standaard opslaanopties voor dit bestandsformaat |
 
  **Result:**
 SaveOptions

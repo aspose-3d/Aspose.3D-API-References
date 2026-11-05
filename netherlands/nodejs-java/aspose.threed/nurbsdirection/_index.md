@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/nurbsdirection/
 ---
 ## NurbsDirection class
 
-Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; de NurbsDirection definieert gegevens voor elke richting. Een richting is eigenlijk een NURBS-curve, wat betekent dat deze ook wordt gedefinieerd door zijn Order, een KnotVectors en een reeks gewogen controlepunten (gedefinieerd in NurbsSurface).
+Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V, de NurbsDirection definieert gegevens voor elke richting.  Een richting is eigenlijk een NURBS-curve, wat betekent dat deze ook wordt gedefinieerd door zijn Order, een KnotVectors, en een reeks gewogen controlepunten (gedefinieerd in NurbsSurface).
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getKnotVectors() | Haalt de knotvector op, dit is een reeks parameterwaarden die bepaalt waar en hoe de controlepunten de NURBS-curve beïnvloeden. |
+| getKnotVectors() | Geeft de knooppuntvector terug; dit is een reeks parameterwaarden die bepalen waar en hoe de controlepunten de NURBS-curve beïnvloeden. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOrder() | Haalt of stelt de orde van een NURBS-curve in, het definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden. |
+| getOrder() | Haalt op of stelt de orde van een NURBS-curve in, het bepaalt het aantal nabije controlepunten die elk punt op de curve beïnvloeden. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOrder(value) | Haalt of stelt de orde van een NURBS-curve in, het definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden. |
+| setOrder(value) | Haalt op of stelt de orde van een NURBS-curve in, het bepaalt het aantal nabije controlepunten die elk punt op de curve beïnvloeden. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDivisions() | Haalt of stelt het aantal onderverdelingen tussen aangrenzende controlepunten in de huidige richting in. De stap. |
+| getDivisions() | Haalt op of stelt het aantal onderverdelingen tussen aangrenzende controlepunten in de huidige richting in. De stap. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDivisions(value) | Haalt of stelt het aantal onderverdelingen tussen aangrenzende controlepunten in de huidige richting in. De stap. |
+| setDivisions(value) | Haalt op of stelt het aantal onderverdelingen tussen aangrenzende controlepunten in de huidige richting in. De stap. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getType() | Haalt of stelt het type van de huidige richting in. De waarde van de eigenschap is een NurbsType integer-constante. |
+| getType() | Haalt op of stelt het type van de huidige richting in. De waarde van de eigenschap is de NurbsType gehele constante. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setType(value) | Haalt of stelt het type van de huidige richting in. De waarde van de eigenschap is een NurbsType integer-constante. |
+| setType(value) | Haalt op of stelt het type van de huidige richting in. De waarde van de eigenschap is de NurbsType gehele constante. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCount() | Haalt of stelt het aantal controlepunten in de huidige richting in. Het aantal. |
+| getCount() | Haalt op of stelt het aantal controlepunten in de huidige richting in. Het aantal. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Een 3D NurbsSurface heeft twee richtingen, de NurbsSurface.U en NurbsSurface.V; 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCount(value) | Haalt of stelt het aantal controlepunten in de huidige richting in. Het aantal. |
+| setCount(value) | Haalt op of stelt het aantal controlepunten in de huidige richting in. Het aantal. |
 
  **Result:**
 

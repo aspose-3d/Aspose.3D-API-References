@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/skindeformer/
 ---
 ## SkinDeformer class
 
-Een skin‑deformer bevat meerdere botten om te werken; elk bot mengt een deel van de geometrie via de gewichten van controlepunten.
+Een huiddeformer bevat meerdere botten om te werken, elke bot blendt een deel van de geometrie met behulp van de gewichten van de controlepunten.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Een skin‑deformer bevat meerdere botten om te werken; elk bot mengt een deel v
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor(name) | Initialiseert een nieuw exemplaar van de SkinDeformer-klasse. |
+| constructor(name) | Initialiseert een nieuw exemplaar van de SkinDeformer‑klasse. |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ Een skin‑deformer bevat meerdere botten om te werken; elk bot mengt een deel v
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload() | Initialiseert een nieuw exemplaar van de SkinDeformer-klasse. |
+| constructor_overload() | Initialiseert een nieuw exemplaar van de SkinDeformer‑klasse. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Een skin‑deformer bevat meerdere botten om te werken; elk bot mengt een deel v
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ Een skin‑deformer bevat meerdere botten om te werken; elk bot mengt een deel v
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -139,7 +139,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -158,7 +158,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -177,8 +177,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -191,7 +191,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

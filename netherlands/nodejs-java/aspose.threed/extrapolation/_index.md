@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/extrapolation/
 ---
 ## Extrapolation class
 
-Extrapolatie definieert hoe te handelen wanneer een bemonsterde waarde buiten het bereik valt dat gedefinieerd is door de eerste en laatste keyframes.  @hideconstructor
+Extrapolatie definieert wat te doen wanneer een bemonsterde waarde buiten het bereik valt dat wordt gedefinieerd door het eerste en laatste key-frames.  @hideconstructor
 
 
 ## Methoden

@@ -11,7 +11,7 @@ url: /nl/nodejs-java/aspose.threed/morphtargetchannel/
 Een MorphTargetChannel wordt gebruikt door MorphTargetDeformer om de doelgeometrieën te organiseren.  Sommige bestandsformaten zoals FBX ondersteunen meerdere kanalen parallel.  Gewicht ligt tussen 0 en 1.0, en het standaardgewicht voor het doel is 0.0;
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -94,7 +94,7 @@ Een MorphTargetChannel wordt gebruikt door MorphTargetDeformer om de doelgeometr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTargets() | Haalt alle doelen op die aan het kanaal zijn gekoppeld. |
+| getTargets() | Haalt alle doelwitten op die aan het kanaal zijn gekoppeld. |
 
  **Result:**
 
@@ -133,7 +133,7 @@ Een MorphTargetChannel wordt gebruikt door MorphTargetDeformer om de doelgeometr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Een MorphTargetChannel wordt gebruikt door MorphTargetDeformer om de doelgeometr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWeight(target) | Haalt het gewicht op voor het opgegeven doel, als het doel niet tot dit kanaal behoort, wordt de standaardwaarde 0 geretourneerd. |
+| getWeight(target) | Haalt het gewicht op voor het opgegeven doelwit; als het doelwit niet tot dit kanaal behoort, wordt de standaardwaarde 0 geretourneerd. |
 
  **Parameters:**
 
@@ -181,7 +181,7 @@ Een MorphTargetChannel wordt gebruikt door MorphTargetDeformer om de doelgeometr
 | targe | Shape | null |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -191,17 +191,17 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWeight(target, weight) | Stelt het gewicht in voor het opgegeven doel, de standaardwaarde is 1, het bereik moet tussen 0 en 1 liggen. |
+| setWeight(target, weight) | Stelt het gewicht in voor het opgegeven doelwit, standaardwaarde is 1, bereik moet tussen 0 en 1 liggen. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | targe | Shape | null |
-| weigh | Number | null |
+| weigh | Nummer | null |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -217,7 +217,7 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -236,7 +236,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -255,7 +255,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -274,8 +274,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -288,7 +288,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/globaltransform/
 ---
 ## GlobalTransform class
 
-Globale transformatie is vergelijkbaar met Transform, maar is onveranderlijk terwijl het de uiteindelijk geëvalueerde transformatie vertegenwoordigt.  Er wordt een rechtshandig coördinatensysteem gebruikt bij het evalueren van de globale transformatie @hideconstructor
+Globale transformatie is vergelijkbaar met Transform maar is onveranderlijk terwijl het de uiteindelijk geëvalueerde transformatie vertegenwoordigt.  Er wordt een rechtshandig coördinatensysteem gebruikt bij het evalueren van de globale transformatie @hideconstructor
 
 
 ## Methoden
@@ -69,7 +69,7 @@ Globale transformatie is vergelijkbaar met Transform, maar is onveranderlijk ter
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTransformMatrix() | Haalt de transformatiematrix op. |
+| getTransformMatrix() | Haalt de transformatie-matrix op. |
 
  **Result:**
 

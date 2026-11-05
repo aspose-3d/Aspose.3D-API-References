@@ -11,12 +11,12 @@ url: /nl/nodejs-java/aspose.threed/boundingbox2d/
 De as‑gealigneerde begrenzingsbox voor Vector2
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| NULL | De null begrenzingsvak |
-| INFINITE | De oneindige begrenzingsvak |
+| NULL | De null-bounding box |
+| INFINITE | De oneindige bounding box |
 
 ## Methoden
 
@@ -37,7 +37,7 @@ De as‑gealigneerde begrenzingsbox voor Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(minimum, maximum) | Initialiseer een eindige begrenzingsvak met de opgegeven minimum- en maximumhoek |
+| constructor_overload(minimum, maximum) | Initialiseer een eindige bounding box met gegeven minimum- en maximumhoek |
 
  **Parameters:**
 
@@ -57,7 +57,7 @@ De as‑gealigneerde begrenzingsbox voor Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExtent() | Haalt de omvang van de begrenzingsvak op. De waarde van de eigenschap is de gehele constante BoundingBoxExtent. |
+| getExtent() | Haalt de omvang van de bounding box op. De waarde van de eigenschap is BoundingBoxExtent integer‑constante. |
 
  **Result:**
 
@@ -70,7 +70,7 @@ De as‑gealigneerde begrenzingsbox voor Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMinimum() | De minimumhoek van de begrenzingsvak |
+| getMinimum() | De minimumhoek van de bounding box |
 
  **Result:**
 
@@ -83,7 +83,7 @@ De as‑gealigneerde begrenzingsbox voor Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMaximum() | De maximumhoek van de begrenzingsvak |
+| getMaximum() | De maximale hoek van de begrenzingsvak |
 
  **Result:**
 
@@ -96,7 +96,7 @@ De as‑gealigneerde begrenzingsbox voor Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| merge(pt) | Voegt de nieuwe doos samen met de huidige begrenzingsvak. |
+| merge(pt) | Voegt de nieuwe doos toe aan de huidige begrenzingsvak. |
 
  **Parameters:**
 
@@ -115,7 +115,7 @@ De as‑gealigneerde begrenzingsbox voor Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| merge(bb) | Voegt de nieuwe doos samen met de huidige begrenzingsvak. |
+| merge(bb) | Voegt de nieuwe doos toe aan de huidige begrenzingsvak. |
 
  **Parameters:**
 
@@ -134,7 +134,7 @@ De as‑gealigneerde begrenzingsbox voor Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Haalt de tekenreeksrepresentatie van de begrenzingsvak op. |
+| toString() | Haalt de stringrepresentatie van de begrenzingsvak op. |
 
  **Result:**
 String

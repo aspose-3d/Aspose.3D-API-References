@@ -17,7 +17,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFrustum() | Haalt op of stelt de camera van deze Viewport in. |
+| getFrustum() | Haalt de camera op of stelt deze in voor deze Viewport |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFrustum(value) | Haalt op of stelt de camera van deze Viewport in. |
+| setFrustum(value) | Haalt de camera op of stelt deze in voor deze Viewport |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEnabled() | Schakel deze viewport in of uit. |
+| getEnabled() | Schakel dit viewport in of uit. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEnabled(value) | Schakel deze viewport in of uit. |
+| setEnabled(value) | Schakel dit viewport in of uit. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRenderTarget() | Haalt het renderdoel op dat deze viewport heeft gemaakt. |
+| getRenderTarget() | Haalt het renderdoel op dat dit viewport heeft gecreëerd. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| getArea() | Haalt op of stelt het gebied van de viewport in het renderdoel in. |
+| getArea() | Haalt het gebied op of stelt het gebied van het viewport in het renderdoel in. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| setArea(value) | Haalt op of stelt het gebied van de viewport in het renderdoel in. |
+| setArea(value) | Haalt het gebied op of stelt het gebied van het viewport in het renderdoel in. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| getZOrder() | Haalt op of stelt de Z-volgorde van de viewport in. |
+| getZOrder() | Haalt de Z-orde op of stelt de Z-orde van het viewport in. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| setZOrder(value) | Haalt op of stelt de Z-volgorde van de viewport in. |
+| setZOrder(value) | Haalt de Z-orde op of stelt de Z-orde van het viewport in. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBackgroundColor() | Haalt op of stelt de achtergrondkleur van de viewport in. |
+| getBackgroundColor() | Haalt de achtergrondkleur op of stelt de achtergrondkleur van het viewport in. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| setBackgroundColor(value) | Haalt op of stelt de achtergrondkleur van de viewport in. |
+| setBackgroundColor(value) | Haalt de achtergrondkleur op of stelt de achtergrondkleur van het viewport in. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDepthClear() | Haalt op of stelt de dieptewaarde in die wordt gebruikt wanneer de viewport wordt gewist met de dieptebufferbit ingesteld. |
+| getDepthClear() | Haalt de dieptewaarde op of stelt de dieptewaarde in die wordt gebruikt bij het wissen van het viewport met de dieptebufferbit ingesteld. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Een com.aspose.threed.IRenderTarget bevat ten minste één viewport voor het ren
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDepthClear(value) | Haalt op of stelt de dieptewaarde in die wordt gebruikt wanneer de viewport wordt gewist met de dieptebufferbit ingesteld. |
+| setDepthClear(value) | Haalt de dieptewaarde op of stelt de dieptewaarde in die wordt gebruikt bij het wissen van het viewport met de dieptebufferbit ingesteld. |
 
  **Result:**
 

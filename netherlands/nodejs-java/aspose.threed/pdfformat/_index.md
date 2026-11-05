@@ -56,7 +56,7 @@ Adobe's Portable Document Format  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getContentType() | Haalt bestandsformaatinhoudstype op. De waarde van de eigenschap is de integer‑constante FileContentType. |
+| getContentType() | Haalt het inhoudstype van het bestandsformaat op. De waarde van de eigenschap is de gehele constante FileContentType. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Adobe's Portable Document Format  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormatType() | Haalt bestandsformaattype op |
+| getFileFormatType() | Haalt bestandsformaattype op. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Adobe's Portable Document Format  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| extract(fileName, password) | Extraheer ruwe 3D-inhoud uit PDF-bestand. |
+| extract(fileName, password) | Extraheer ruwe 3D-inhoud uit een PDF-bestand. |
 
  **Parameters:**
 
@@ -102,7 +102,7 @@ Adobe's Portable Document Format  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| extractScene(fileName) | Extraheer 3D-scènes uit PDF-bestand. |
+| extractScene(fileName) | Extraheer 3D-scènes uit een PDF-bestand. |
 
  **Parameters:**
 
@@ -121,7 +121,7 @@ Adobe's Portable Document Format  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| extractScene(fileName, password) | Extraheer 3D-scènes uit PDF-bestand. |
+| extractScene(fileName, password) | Extraheer 3D-scènes uit een PDF-bestand. |
 
  **Parameters:**
 
@@ -141,7 +141,7 @@ Adobe's Portable Document Format  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat. |
+| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat |
 
  **Result:**
 LoadOptions
@@ -154,7 +154,7 @@ LoadOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| createSaveOptions() | Maak standaard opslagopties voor dit bestandsformaat. |
+| createSaveOptions() | Maak standaard opslaanopties voor dit bestandsformaat |
 
  **Result:**
 SaveOptions

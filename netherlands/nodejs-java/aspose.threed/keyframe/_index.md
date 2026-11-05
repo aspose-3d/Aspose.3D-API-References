@@ -23,8 +23,8 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| curve | KeyframeSequence | De curve waarop het key frame wordt aangemaakt |
-| tijd | Number | De tijdpositie van het key frame |
+| curve | KeyframeSequence | De curve waarop het keyframe wordt aangemaakt. |
+| time | Nummer | De tijdpositie van het keyframe. |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTime() | Haalt of stelt de tijdpositie van list.data[index] key frame in, gemeten in seconden. De tijd. |
+| getTime() | Haalt of stelt de tijdpositie van list.data[index] keyframe in, gemeten in seconden. De tijd. |
 
  **Result:**
 
@@ -50,7 +50,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTime(value) | Haalt of stelt de tijdpositie van list.data[index] key frame in, gemeten in seconden. De tijd. |
+| setTime(value) | Haalt of stelt de tijdpositie van list.data[index] keyframe in, gemeten in seconden. De tijd. |
 
  **Result:**
 
@@ -63,7 +63,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getValue() | Haalt of stelt de waarde van de key-frame in. De waarde. |
+| getValue() | Haalt of stelt de waarde van het keyframe in. De waarde. |
 
  **Result:**
 
@@ -76,7 +76,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setValue(value) | Haalt of stelt de waarde van de key-frame in. De waarde. |
+| setValue(value) | Haalt of stelt de waarde van het keyframe in. De waarde. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getInterpolation() | Haalt of stelt het interpolatietype van de key in, list.data[index] definieert het algoritme hoe de bemonsterde waarde wordt berekend. De waarde van de eigenschap is een Interpolation integer-constante. De interpolatie. |
+| getInterpolation() | Haalt of stelt het interpolatietype van de key in, list.data[index] definieert het algoritme hoe de bemonsterde waarde wordt berekend. De waarde van de eigenschap is Interpolation integer constant. De interpolatie. |
 
  **Result:**
 
@@ -102,7 +102,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setInterpolation(value) | Haalt of stelt het interpolatietype van de key in, list.data[index] definieert het algoritme hoe de bemonsterde waarde wordt berekend. De waarde van de eigenschap is een Interpolation integer-constante. De interpolatie. |
+| setInterpolation(value) | Haalt of stelt het interpolatietype van de key in, list.data[index] definieert het algoritme hoe de bemonsterde waarde wordt berekend. De waarde van de eigenschap is Interpolation integer constant. De interpolatie. |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTangentWeightMode() | Haalt of stelt de tangentgewichtmodus van de key in. De uitgaande tangent of de volgende binnenkomende tangent kan worden aangepast door de juiste WeightedMode te selecteren. De waarde van de eigenschap is een WeightedMode integer-constante. De tangentgewichtmodus. |
+| getTangentWeightMode() | Haalt of stelt de tangentgewichtsmodus van de key in. De uit-tangent of de volgende in-tangent kan worden aangepast door de juiste WeightedMode te selecteren. De waarde van de eigenschap is WeightedMode integer constant. De tangentgewichtsmodus. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTangentWeightMode(value) | Haalt of stelt de tangentgewichtmodus van de key in. De uitgaande tangent of de volgende binnenkomende tangent kan worden aangepast door de juiste WeightedMode te selecteren. De waarde van de eigenschap is een WeightedMode integer-constante. De tangentgewichtmodus. |
+| setTangentWeightMode(value) | Haalt of stelt de tangentgewichtsmodus van de key in. De uit-tangent of de volgende in-tangent kan worden aangepast door de juiste WeightedMode te selecteren. De waarde van de eigenschap is WeightedMode integer constant. De tangentgewichtsmodus. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getStepMode() | Haalt of stelt de stapmodus van de key in. Als het interpolatietype Interpolation.CONSTANT is, bepaalt list.data[index] welke key-frame waarde wordt gebruikt tijdens interpolatie. Een StepMode.PREVIOUS_VALUE betekent dat de waarde van de linkse key-frame wordt gebruikt. Een StepMode.NEXT_VALUE betekent dat de waarde van de volgende rechter key-frame wordt gebruikt. De waarde van de eigenschap is een StepMode integer-constante. De stapmodus. |
+| getStepMode() | Haalt of stelt de stapmodus van de key in. Als het interpolatietype Interpolation.CONSTANT is, bepaalt list.data[index] welke keyframe-waarde wordt gebruikt tijdens interpolatie. Een StepMode.PREVIOUS_VALUE betekent dat de waarde van het linkse keyframe wordt gebruikt. Een StepMode.NEXT_VALUE betekent dat de waarde van het rechtse keyframe wordt gebruikt. De waarde van de eigenschap is StepMode integer constant. De stapmodus. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setStepMode(value) | Haalt of stelt de stapmodus van de key in. Als het interpolatietype Interpolation.CONSTANT is, bepaalt list.data[index] welke key-frame waarde wordt gebruikt tijdens interpolatie. Een StepMode.PREVIOUS_VALUE betekent dat de waarde van de linkse key-frame wordt gebruikt. Een StepMode.NEXT_VALUE betekent dat de waarde van de volgende rechter key-frame wordt gebruikt. De waarde van de eigenschap is een StepMode integer-constante. De stapmodus. |
+| setStepMode(value) | Haalt of stelt de stapmodus van de key in. Als het interpolatietype Interpolation.CONSTANT is, bepaalt list.data[index] welke keyframe-waarde wordt gebruikt tijdens interpolatie. Een StepMode.PREVIOUS_VALUE betekent dat de waarde van het linkse keyframe wordt gebruikt. Een StepMode.NEXT_VALUE betekent dat de waarde van het rechtse keyframe wordt gebruikt. De waarde van de eigenschap is StepMode integer constant. De stapmodus. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getNextInTangent() | Haalt of stelt de volgende binnen (linker) tangent op dit key frame in. |
+| getNextInTangent() | Haalt of stelt de volgende in (linker) tangent op dit keyframe in. |
 
  **Result:**
 
@@ -180,7 +180,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setNextInTangent(value) | Haalt of stelt de volgende binnen (linker) tangent op dit key frame in. |
+| setNextInTangent(value) | Haalt of stelt de volgende in (linker) tangent op dit keyframe in. |
 
  **Result:**
 
@@ -193,7 +193,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOutTangent() | Haalt of stelt de uitgaande (rechter) tangent op dit key frame in. |
+| getOutTangent() | Haalt of stelt de uit (rechter) tangent op dit keyframe in. |
 
  **Result:**
 
@@ -206,7 +206,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOutTangent(value) | Haalt of stelt de uitgaande (rechter) tangent op dit key frame in. |
+| setOutTangent(value) | Haalt of stelt de uit (rechter) tangent op dit keyframe in. |
 
  **Result:**
 
@@ -219,7 +219,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOutWeight() | Haalt of stelt het uitgaande (rechter) gewicht op dit key frame in. |
+| getOutWeight() | Haalt op of stelt het uit (rechts) gewicht in voor dit keyframe. |
 
  **Result:**
 
@@ -232,7 +232,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOutWeight(value) | Haalt of stelt het uitgaande (rechter) gewicht op dit key frame in. |
+| setOutWeight(value) | Haalt op of stelt het uit (rechts) gewicht in voor dit keyframe. |
 
  **Result:**
 
@@ -245,7 +245,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getNextInWeight() | Haalt op of stelt het volgende in (links) gewicht van dit keyframe in. |
+| getNextInWeight() | Haalt op of stelt het volgende in (links) gewicht in voor dit keyframe. |
 
  **Result:**
 
@@ -258,7 +258,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setNextInWeight(value) | Haalt op of stelt het volgende in (links) gewicht van dit keyframe in. |
+| setNextInWeight(value) | Haalt op of stelt het volgende in (links) gewicht in voor dit keyframe. |
 
  **Result:**
 
@@ -271,7 +271,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTension() | Haalt op of stelt de spanning in die wordt gebruikt in de TCB-spline. |
+| getTension() | Haalt op of stelt de spanning in die wordt gebruikt in TCB-spline |
 
  **Result:**
 
@@ -284,7 +284,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTension(value) | Haalt op of stelt de spanning in die wordt gebruikt in de TCB-spline. |
+| setTension(value) | Haalt op of stelt de spanning in die wordt gebruikt in TCB-spline |
 
  **Result:**
 
@@ -297,7 +297,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getContinuity() | Haalt op of stelt de continuïteit in die wordt gebruikt in de TCB-spline. |
+| getContinuity() | Haalt op of stelt de continuïteit in die wordt gebruikt in TCB-spline |
 
  **Result:**
 
@@ -310,7 +310,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setContinuity(value) | Haalt op of stelt de continuïteit in die wordt gebruikt in de TCB-spline. |
+| setContinuity(value) | Haalt op of stelt de continuïteit in die wordt gebruikt in TCB-spline |
 
  **Result:**
 
@@ -323,7 +323,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBias() | Haalt op of stelt de bias in die wordt gebruikt in de TCB-spline. |
+| getBias() | Haalt op of stelt de bias in die wordt gebruikt in TCB-spline |
 
  **Result:**
 
@@ -336,7 +336,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setBias(value) | Haalt op of stelt de bias in die wordt gebruikt in de TCB-spline. |
+| setBias(value) | Haalt op of stelt de bias in die wordt gebruikt in TCB-spline |
 
  **Result:**
 
@@ -349,7 +349,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getIndependentTangent() | Haalt op of stelt in dat de uit- en volgende in-tangenten onafhankelijk zijn. |
+| getIndependentTangent() | Haalt op of stelt in of de uit- en volgende in-tangenten onafhankelijk zijn. |
 
  **Result:**
 
@@ -362,7 +362,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setIndependentTangent(value) | Haalt op of stelt in dat de uit- en volgende in-tangenten onafhankelijk zijn. |
+| setIndependentTangent(value) | Haalt op of stelt in of de uit- en volgende in-tangenten onafhankelijk zijn. |
 
  **Result:**
 
@@ -401,7 +401,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTimeIndependentTangent() | Haalt op of stelt in dat de tangent tijdsonafhankelijk is. |
+| getTimeIndependentTangent() | Haalt op of stelt in of de tangent tijdsonafhankelijk is |
 
  **Result:**
 
@@ -414,7 +414,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTimeIndependentTangent(value) | Haalt op of stelt in dat de tangent tijdsonafhankelijk is. |
+| setTimeIndependentTangent(value) | Haalt op of stelt in of de tangent tijdsonafhankelijk is |
 
  **Result:**
 
@@ -427,7 +427,7 @@ Een keyframe wordt voornamelijk gedefinieerd door een tijd en een waarde; voor s
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Haalt de tekenreeksrepresentatie van het keyframe op. |
+| toString() | Haalt de tekenreeksrepresentatie van de keyframe op |
 
  **Result:**
 String

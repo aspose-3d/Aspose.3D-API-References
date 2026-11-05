@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/propertycollection/
 ---
 ## PropertyCollection class
 
-De verzameling van eigenschappen  @hideconstructor
+De collectie van eigenschappen  @hideconstructor
 
 
 ## Methoden
@@ -56,13 +56,13 @@ De verzameling van eigenschappen  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(property) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(property) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap. |
+| property | String | Naam van eigenschap. |
 
  **Result:**
 Eigenschap
@@ -81,7 +81,7 @@ Eigenschap
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -100,7 +100,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Welke eigenschap moet worden verwijderd |
+| property | String | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/objloadoptions/
 ---
 ## ObjLoadOptions class
 
-Laadopties voor Wavefront OBJ
+Laadopties voor wavefront obj
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlipCoordinateSystem() | Haalt op of stelt in of het coördinatensysteem van controlepunten/normaal moet worden omgekeerd tijdens het importeren |
+| getFlipCoordinateSystem() | Haalt op of stelt in of het coördinatensysteem van controlepunten/normaal moet worden omgekeerd tijdens het importeren. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Haalt op of stelt in of het coördinatensysteem van controlepunten/normaal moet worden omgekeerd tijdens het importeren |
+| setFlipCoordinateSystem(value) | Haalt op of stelt in of het coördinatensysteem van controlepunten/normaal moet worden omgekeerd tijdens het importeren. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEnableMaterials() | Haalt op of stelt in of materialen voor elk object moeten worden geïmporteerd |
+| getEnableMaterials() | Haalt op of stelt in of materialen voor elk object moeten worden geïmporteerd. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEnableMaterials(value) | Haalt op of stelt in of materialen voor elk object moeten worden geïmporteerd |
+| setEnableMaterials(value) | Haalt op of stelt in of materialen voor elk object moeten worden geïmporteerd. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScale() | Schaalt op de x/y/z-as, de standaardwaarde is 1.0 |
+| getScale() | Schaalt op de x/y/z-as, standaardwaarde is 1.0. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| setScale(value) | Schaalt op de x/y/z-as, de standaardwaarde is 1.0 |
+| setScale(value) | Schaalt op de x/y/z-as, standaardwaarde is 1.0. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getNormalizeNormal() | Haalt op of stelt in of de normale vector moet worden genormaliseerd tijdens het laden. De standaardwaarde is true. |
+| getNormalizeNormal() | Haalt op of stelt in of de normaalvector moet worden genormaliseerd tijdens het laden. Standaardwaarde is true. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| setNormalizeNormal(value) | Haalt op of stelt in of de normale vector moet worden genormaliseerd tijdens het laden. De standaardwaarde is true. |
+| setNormalizeNormal(value) | Haalt op of stelt in of de normaalvector moet worden genormaliseerd tijdens het laden. Standaardwaarde is true. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Laadopties voor Wavefront OBJ
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

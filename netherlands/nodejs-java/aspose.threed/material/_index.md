@@ -8,10 +8,10 @@ url: /nl/nodejs-java/aspose.threed/material/
 ---
 ## Material class
 
-Materiaal definieert de parameters die nodig zijn voor het visuele uiterlijk van geometrie.  Aspose.3D biedt shadingmodellen voor LambertMaterial, PhongMaterial en ShaderMaterial  @hideconstructor
+Materiaal definieert de parameters die nodig zijn voor het visuele uiterlijk van geometrie.  Aspose.3D biedt shading model voor LambertMaterial, PhongMaterial en ShaderMaterial  @hideconstructor
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -53,7 +53,7 @@ Materiaal definieert de parameters die nodig zijn voor het visuele uiterlijk van
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -66,7 +66,7 @@ Materiaal definieert de parameters die nodig zijn voor het visuele uiterlijk van
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTexture(slotName) | Haalt de textuur op uit de opgegeven slot, dit kan de naam van een materiaaleigenschap of de naam van een shaderparameter zijn. |
+| getTexture(slotName) | Haalt de textuur op uit de opgegeven slot, dit kan de eigenschapsnaam van het materiaal of de parameternaam van de shader zijn. |
 
  **Parameters:**
 
@@ -85,7 +85,7 @@ TextureBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTexture(slotName, texture) | Stelt de textuur in op de opgegeven slot |
+| setTexture(slotName, texture) | Stelt de textuur in voor de opgegeven slot. |
 
  **Parameters:**
 
@@ -105,7 +105,7 @@ TextureBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Formatteert object naar string |
+| toString() | Formatteert object naar string. |
 
  **Result:**
 String
@@ -124,7 +124,7 @@ String
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -143,7 +143,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -162,7 +162,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -181,8 +181,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -195,7 +195,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

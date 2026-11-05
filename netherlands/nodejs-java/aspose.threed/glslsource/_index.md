@@ -30,7 +30,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| getComputeShader() | Geeft of stelt de broncode van de compute shader in. |
+| getComputeShader() | Haalt op of stelt de broncode van de compute shader in. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| setComputeShader(value) | Geeft of stelt de broncode van de compute shader in. |
+| setComputeShader(value) | Haalt op of stelt de broncode van de compute shader in. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGeometryShader() | Geeft of stelt de broncode van de geometry shader in. |
+| getGeometryShader() | Haalt op of stelt de broncode van de geometry shader in. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGeometryShader(value) | Geeft of stelt de broncode van de geometry shader in. |
+| setGeometryShader(value) | Haalt op of stelt de broncode van de geometry shader in. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexShader() | Geeft of stelt de broncode van de vertex shader in |
+| getVertexShader() | Haalt de broncode van de vertexshader op of stelt deze in |
 
  **Result:**
 
@@ -95,7 +95,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| setVertexShader(value) | Geeft of stelt de broncode van de vertex shader in |
+| setVertexShader(value) | Haalt de broncode van de vertexshader op of stelt deze in |
 
  **Result:**
 
@@ -108,7 +108,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFragmentShader() | Haalt de broncode van de fragmentshader op of stelt deze in. |
+| getFragmentShader() | Haalt de broncode van de fragmentshader op of stelt deze in |
 
  **Result:**
 
@@ -121,7 +121,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFragmentShader(value) | Haalt de broncode van de fragmentshader op of stelt deze in. |
+| setFragmentShader(value) | Haalt de broncode van de fragmentshader op of stelt deze in |
 
  **Result:**
 
@@ -134,7 +134,7 @@ De broncode van shaders in GLSL
 
 | Naam | Beschrijving |
 | --- | --- |
-| defineInclude(fileName, content) | Definieer virtueel bestand voor #include in GLSL-broncode |
+| defineInclude(fileName, content) | Definieer een virtueel bestand voor #include in GLSL-broncode |
 
  **Parameters:**
 

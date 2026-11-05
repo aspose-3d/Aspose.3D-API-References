@@ -1,5 +1,5 @@
 ---
-title: "Transformatie"
+title: "Transform"
 second_title: "Aspose.3D voor Node.js via Java API-referentie"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/transform/
 ---
 ## Transform class
 
-Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rotatie van een object of de transformatie‑matrix tegen minimale kosten.  Dit wordt gebruikt door lokale transformatie.  @hideconstructor
+Een transformatie bevat informatie die toegang tot de vertaling/schaal/rotatie of transformatie‑matrix van een object mogelijk maakt tegen minimale kosten  Dit wordt gebruikt door lokale transformatie.  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGeometricTranslation() | Haalt de geometrische translatie op of stelt deze in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Deze wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| getGeometricTranslation() | Haalt de geometrische translatie op of stelt deze in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Deze wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGeometricTranslation(value) | Haalt de geometrische translatie op of stelt deze in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Deze wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| setGeometricTranslation(value) | Haalt de geometrische translatie op of stelt deze in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Deze wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGeometricScaling() | Haalt de geometrische schaal op of stelt deze in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Deze wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| getGeometricScaling() | Haalt of stelt de geometrische schaal in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGeometricScaling(value) | Haalt de geometrische schaal op of stelt deze in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Deze wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| setGeometricScaling(value) | Haalt of stelt de geometrische schaal in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGeometricRotation() | Haalt de geometrische Euler-rotatie op (gemeten in graden) of stelt deze in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Deze wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| getGeometricRotation() | Haalt of stelt de geometrische Euler-rotatie in (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGeometricRotation(value) | Haalt de geometrische Euler-rotatie op (gemeten in graden) of stelt deze in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Deze wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| setGeometricRotation(value) | Haalt of stelt de geometrische Euler-rotatie in (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTranslation() | Haalt of stelt de translatie in |
+| getTranslation() | Haalt of stelt de translatie in. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTranslation(value) | Haalt of stelt de translatie in |
+| setTranslation(value) | Haalt of stelt de translatie in. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScale() | Haalt of stelt de schaal in |
+| getScale() | Haalt of stelt de schaal in. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setScale(value) | Haalt of stelt de schaal in |
+| setScale(value) | Haalt of stelt de schaal in. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTransformMatrix() | Haalt of stelt de transformatiematrix in. Toewijzing hiervan zal de Translatie, Schaal en Rotatie resetten, de GeometricRotation, GeometricScaling en GeometricTranslation worden niet beïnvloed. |
+| getTransformMatrix() | Haalt of stelt de transformatie-matrix in. Toewijzing hiervan zal de Translation, Scale en Rotation resetten; de GeometricRotation, GeometricScaling en GeometricTranslation blijven onaangedaan. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTransformMatrix(value) | Haalt of stelt de transformatiematrix in. Toewijzing hiervan zal de Translatie, Schaal en Rotatie resetten, de GeometricRotation, GeometricScaling en GeometricTranslation worden niet beïnvloed. |
+| setTransformMatrix(value) | Haalt of stelt de transformatie-matrix in. Toewijzing hiervan zal de Translation, Scale en Rotation resetten; de GeometricRotation, GeometricScaling en GeometricTranslation blijven onaangedaan. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGeometricTranslation(x, y, z) | Stelt de geometrische translatie in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangedaan. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| setGeometricTranslation(x, y, z) | Stelt de geometrische translatie in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGeometricScaling(sx, sy, sz) | Stelt de geometrische schaal in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangedaan. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| setGeometricScaling(sx, sy, sz) | Stelt de geometrische schaal in. Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGeometricRotation(rx, ry, rz) | Stelt de geometrische Euler-rotatie in (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangedaan. Het wordt samengevoegd als lokale transformatie wanneer u de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
+| setGeometricRotation(rx, ry, rz) | Stelt de geometrische Euler-rotatie in (gemeten in graden). Geometrische transformatie beïnvloedt alleen de gekoppelde entiteiten en laat de onderliggende knooppunten onaangetast. Het wordt samengevoegd als lokale transformatie wanneer je de geometrische transformatie exporteert naar bestandstypen die dit niet ondersteunen. |
 
  **Result:**
 
@@ -361,12 +361,12 @@ Een transformatie bevat informatie die toegang biedt tot de vertaling/schaal/rot
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| t | Number | null |
-| t | Number | null |
-| t | Number | null |
+| t | Nummer | null |
+| t | Nummer | null |
+| t | Nummer | null |
 
  **Result:**
-Transformatie
+Transform
 
 
 ---
@@ -382,12 +382,12 @@ Transformatie
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| s | Number | null |
-| s | Number | null |
-| s | Number | null |
+| s | Nummer | null |
+| s | Nummer | null |
+| s | Nummer | null |
 
  **Result:**
-Transformatie
+Transform
 
 
 ---
@@ -397,18 +397,18 @@ Transformatie
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEulerAngles(rx, ry, rz) | Stelt de Euler‑hoeken in graden van de huidige transformatie in. |
+| setEulerAngles(rx, ry, rz) | Stelt de Euler-hoeken in graden van de huidige transformatie in. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
+| r | Nummer | null |
+| r | Nummer | null |
+| r | Nummer | null |
 
  **Result:**
-Transformatie
+Transform
 
 
 ---
@@ -424,13 +424,13 @@ Transformatie
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
+| r | Nummer | null |
+| r | Nummer | null |
+| r | Nummer | null |
+| r | Nummer | null |
 
  **Result:**
-Transformatie
+Transform
 
 
 ---
@@ -440,10 +440,10 @@ Transformatie
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPreRotation(rx, ry, rz) | Stelt de pre‑rotatie in, weergegeven in graden |
+| setPreRotation(rx, ry, rz) | Stelt de pre-rotatie, weergegeven in graden, in. |
 
  **Result:**
-Transformatie
+Transform
 
 
 ---
@@ -453,10 +453,10 @@ Transformatie
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPostRotation(rx, ry, rz) | Stelt de post‑rotatie in, weergegeven in graden |
+| setPostRotation(rx, ry, rz) | Stelt de post-rotatie, weergegeven in graden, in. |
 
  **Result:**
-Transformatie
+Transform
 
 
 ---
@@ -472,7 +472,7 @@ Transformatie
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -491,7 +491,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -510,7 +510,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -529,8 +529,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -543,7 +543,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

@@ -11,7 +11,7 @@ url: /nl/nodejs-java/aspose.threed/fvector2/
 Een floatvector met twee componenten.
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -114,10 +114,10 @@ boolean
 
 | Naam | Beschrijving |
 | --- | --- |
-| hashCode() | Haalt de hashcode van deze instantie op |
+| hashCode() | Haalt de hashcode van dit exemplaar op |
 
  **Result:**
-Number
+Nummer
 
 
 ---

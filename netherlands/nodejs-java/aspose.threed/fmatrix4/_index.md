@@ -11,7 +11,7 @@ url: /nl/nodejs-java/aspose.threed/fmatrix4/
 Matrix 4x4 met alle componenten van het type float
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -58,22 +58,22 @@ Matrix 4x4 met alle componenten van het type float
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| m0 | Number | null |
-| m0 | Number | null |
-| m0 | Number | null |
-| m0 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
+| m0 | Nummer | null |
+| m0 | Nummer | null |
+| m0 | Nummer | null |
+| m0 | Nummer | null |
+| m1 | Nummer | null |
+| m1 | Nummer | null |
+| m1 | Nummer | null |
+| m1 | Nummer | null |
+| m2 | Nummer | null |
+| m2 | Nummer | null |
+| m2 | Nummer | null |
+| m2 | Nummer | null |
+| m3 | Nummer | null |
+| m3 | Nummer | null |
+| m3 | Nummer | null |
+| m3 | Nummer | null |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Matrix 4x4 met alle componenten van het type float
 
 | Naam | Beschrijving |
 | --- | --- |
-| concatenate(m2) | Concateneert de twee matrices. |
+| concatenate(m2) | Concateneert de twee matrices |
 
  **Parameters:**
 
@@ -146,7 +146,7 @@ FMatrix4
 
 | Naam | Beschrijving |
 | --- | --- |
-| concatenate(m2) | Concateneert de twee matrices. |
+| concatenate(m2) | Concateneert de twee matrices |
 
  **Parameters:**
 

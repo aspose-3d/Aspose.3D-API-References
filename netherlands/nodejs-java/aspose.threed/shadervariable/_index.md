@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/shadervariable/
 ---
 ## ShaderVariable class
 
-Shader‑variabele
+Shadervariabele
 
 
 ## Methoden
@@ -43,7 +43,7 @@ Shader‑variabele
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | nam | String | null |
-| shaderStage | Number | ShaderStage |
+| shaderStage | Nummer | ShaderStage |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Shader‑variabele
 
 | Naam | Beschrijving |
 | --- | --- |
-| getName() | Geeft de naam van deze variabele terug |
+| getName() | Haalt de naam van deze variabele op |
 
  **Result:**
 

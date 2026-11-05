@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/lshape/
 ---
 ## LShape class
 
-IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
+IFC-compatibel L-vormprofiel dat gedefinieerd is door parameters.
 
 
 ## Methoden
@@ -82,7 +82,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getThickness() | Haalt of stelt de dikte van de constante wand in. |
+| getThickness() | Haalt de dikte op of stelt de dikte in van de constante wand. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setThickness(value) | Haalt of stelt de dikte van de constante wand in. |
+| setThickness(value) | Haalt de dikte op of stelt de dikte in van de constante wand. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFilletRadius() | Haalt of stelt de straal van de afronding in. |
+| getFilletRadius() | Haalt de straal op of stelt de straal in van de afronding. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFilletRadius(value) | Haalt of stelt de straal van de afronding in. |
+| setFilletRadius(value) | Haalt de straal op of stelt de straal in van de afronding. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEdgeRadius() | Haalt of stelt de straal van de rand in. |
+| getEdgeRadius() | Haalt de straal op of stelt de straal in van de rand. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEdgeRadius(value) | Haalt of stelt de straal van de rand in. |
+| setEdgeRadius(value) | Haalt de straal op of stelt de straal in van de rand. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -264,7 +264,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ IFC-compatibel L-vormprofiel dat wordt gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExtent() | Geeft de omvang in de x- en y-dimensie terug |
+| getExtent() | Haalt de omvang in x- en y-dimensie op. |
 
  **Result:**
 Vector2
@@ -290,7 +290,7 @@ Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -303,7 +303,7 @@ EntityRendererKey
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 EntityRendererKey
@@ -322,7 +322,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -341,7 +341,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -360,7 +360,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -379,8 +379,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -393,7 +393,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

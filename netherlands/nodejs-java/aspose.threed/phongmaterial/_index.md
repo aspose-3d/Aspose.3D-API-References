@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/phongmaterial/
 ---
 ## PhongMaterial class
 
-Materiaal voor het Blinn-Phong shading-model.
+Materiaal voor het Blinn‑Phong shading‑model.
 
 
 ## Methoden
@@ -179,7 +179,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEmissiveColor() | Haalt op of stelt de emissieve kleur in |
+| getEmissiveColor() | Haalt of stelt de emissieve kleur in |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEmissiveColor(value) | Haalt op of stelt de emissieve kleur in |
+| setEmissiveColor(value) | Haalt of stelt de emissieve kleur in |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAmbientColor() | Haalt op of stelt de omgevingskleur in. Het voorbeeld: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambient. |
+| getAmbientColor() | Haalt of stelt de omgevingskleur in Voorbeeld: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambient. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAmbientColor(value) | Haalt op of stelt de omgevingskleur in. Het voorbeeld: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambient. |
+| setAmbientColor(value) | Haalt of stelt de omgevingskleur in Voorbeeld: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambient. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDiffuseColor() | Haalt de diffuse kleur op of stelt deze in Het voorbeeld: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuus. |
+| getDiffuseColor() | Haalt of stelt de diffuse kleur in Voorbeeld: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuse. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDiffuseColor(value) | Haalt de diffuse kleur op of stelt deze in Het voorbeeld: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuus. |
+| setDiffuseColor(value) | Haalt of stelt de diffuse kleur in Voorbeeld: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuse. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTransparentColor() | Haalt de transparante kleur op of stelt deze in. Het voorbeeld: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); kleur van de transparante. |
+| getTransparentColor() | Haalt of stelt de transparante kleur in. Voorbeeld: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); kleur van de transparante. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTransparentColor(value) | Haalt de transparante kleur op of stelt deze in. Het voorbeeld: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); kleur van de transparante. |
+| setTransparentColor(value) | Haalt of stelt de transparante kleur in. Voorbeeld: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); kleur van de transparante. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTransparency() | Haalt de transparantiefactor op of stelt deze in. De factor moet liggen tussen 0 (0%, volledig ondoorzichtig) en 1 (100%, volledig transparant). Elke ongeldige factorwaarde wordt begrensd. Het voorbeeld: var mat = new LambertMaterial(); mat.Transparency = 0.3; transparantiefactor. |
+| getTransparency() | Haalt of stelt de transparantiefactor in. De factor moet liggen tussen 0 (0%, volledig ondoorzichtig) en 1 (100%, volledig transparant). Elke ongeldige factorwaarde wordt begrensd. Voorbeeld: var mat = new LambertMaterial(); mat.Transparency = 0.3; transparantiefactor. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTransparency(value) | Haalt de transparantiefactor op of stelt deze in. De factor moet liggen tussen 0 (0%, volledig ondoorzichtig) en 1 (100%, volledig transparant). Elke ongeldige factorwaarde wordt begrensd. Het voorbeeld: var mat = new LambertMaterial(); mat.Transparency = 0.3; transparantiefactor. |
+| setTransparency(value) | Haalt of stelt de transparantiefactor in. De factor moet liggen tussen 0 (0%, volledig ondoorzichtig) en 1 (100%, volledig transparant). Elke ongeldige factorwaarde wordt begrensd. Voorbeeld: var mat = new LambertMaterial(); mat.Transparency = 0.3; transparantiefactor. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -348,7 +348,7 @@ Materiaal voor het Blinn-Phong shading-model.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTexture(slotName) | Haalt de textuur op uit de opgegeven slot, dit kan de naam van een materiaaleigenschap of de naam van een shaderparameter zijn. |
+| getTexture(slotName) | Haalt de textuur op uit de opgegeven slot, dit kan de eigenschapsnaam van het materiaal of de parameternaam van de shader zijn. |
 
  **Parameters:**
 
@@ -367,7 +367,7 @@ TextureBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTexture(slotName, texture) | Stelt de textuur in op de opgegeven slot |
+| setTexture(slotName, texture) | Stelt de textuur in voor de opgegeven slot. |
 
  **Parameters:**
 
@@ -387,7 +387,7 @@ TextureBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Formatteert object naar string |
+| toString() | Formatteert object naar string. |
 
  **Result:**
 String
@@ -406,7 +406,7 @@ String
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -425,7 +425,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -444,7 +444,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -463,8 +463,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -477,7 +477,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

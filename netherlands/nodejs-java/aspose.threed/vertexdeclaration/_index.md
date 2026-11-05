@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/vertexdeclaration/
 ---
 ## VertexDeclaration class
 
-De declaratie van een aangepast gedefinieerde vertex-structuur
+De declaratie van een op maat gedefinieerde vertexstructuur.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ De declaratie van een aangepast gedefinieerde vertex-structuur
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSealed() | Een VertexDeclaration wordt verzegeld wanneer deze is gebruikt door com.aspose.threed.TriMesh`1 of TriMesh; verdere wijzigingen zijn niet toegestaan. |
+| getSealed() | Een VertexDeclaration wordt verzegeld wanneer deze is gebruikt door com.aspose.threed.TriMesh`1 of TriMesh; verdere wijzigingen zijn niet meer toegestaan. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ De declaratie van een aangepast gedefinieerde vertex-structuur
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCount() | Haalt het aantal van alle velden op die zijn gedefinieerd in deze VertexDeclaration. |
+| getCount() | Haalt het aantal van alle velden op die zijn gedefinieerd in deze VertexDeclaration |
 
  **Result:**
 
@@ -101,10 +101,10 @@ De declaratie van een aangepast gedefinieerde vertex-structuur
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| dataType | Number | VertexFieldDataType |
+| dataType | Nummer | VertexFieldDataType |
 | semantic | VertexFieldSemantic | VertexFieldSemantic |
-| index | Number | De index voor dezelfde veldsemantic, -1 voor automatische generatie. |
-| alias | String | De aliasnaam van het veld. |
+| index | Nummer | De index voor dezelfde veldsemantic, -1 voor automatische generatie |
+| alias | String | De aliasnaam van het veld |
 
  **Result:**
 
@@ -123,8 +123,8 @@ De declaratie van een aangepast gedefinieerde vertex-structuur
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| geometr | Geometrie | null |
-| useFloat | boolean | Gebruik float in plaats van het type double. |
+| geometrie | Geometry | null |
+| useFloat | boolean | Gebruik float in plaats van double type |
 
  **Result:**
 VertexDeclaration
@@ -166,7 +166,7 @@ String
 | hashCode() |  |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -179,7 +179,7 @@ Number
 | equals(obj) | Bepaalt of deze instantie en een opgegeven object, dat ook een VertexDeclaration-object moet zijn, dezelfde waarde hebben. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -192,7 +192,7 @@ Number
 | iterator() | Gereserveerd voor intern gebruik. |
 
  **Result:**
-Number
+Nummer
 
 
 ---

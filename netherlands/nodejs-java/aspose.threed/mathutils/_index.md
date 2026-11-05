@@ -23,12 +23,12 @@ Een set nuttige wiskundige hulpprogramma's.  @hideconstructor
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| val | Number | Waarde om te beperken. |
-| min | Number | Minimumwaarde. |
-| max | Number | Maximumwaarde. |
+| val | Nummer | Waarde om te beperken. |
+| min | Nummer | Minimumwaarde. |
+| max | Nummer | Maximumwaarde. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -82,10 +82,10 @@ Vector3
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| radian | Number | De radialenwaarde. |
+| radian | Nummer | De radialenwaarde. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -101,10 +101,10 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| radian | Number | De radialenwaarde. |
+| radian | Nummer | De radialenwaarde. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -120,9 +120,9 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| x | Number | De x-component in radialenwaarde. |
-| y | Number | De y-component in radialenwaarde. |
-| z | Number | De z-component in radialenwaarde. |
+| x | Nummer | De x-component in radiale waarde. |
+| y | Nummer | De y-component in radiale waarde. |
+| z | Nummer | De z-component in radiale waarde. |
 
  **Result:**
 Vector3
@@ -141,10 +141,10 @@ Vector3
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| degree | Number | De gradenwaarde. |
+| degree | Nummer | De gradenwaarde. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -160,10 +160,10 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| degree | Number | De gradenwaarde. |
+| degree | Nummer | De gradenwaarde. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -179,9 +179,9 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| x | Number | De x-component in graadwaarde. |
-| y | Number | De y-component in graadwaarde. |
-| z | Number | De z-component in graadwaarde. |
+| x | Nummer | De x-component in gradenwaarde. |
+| y | Nummer | De y-component in gradenwaarde. |
+| z | Nummer | De z-component in gradenwaarde. |
 
  **Result:**
 Vector3

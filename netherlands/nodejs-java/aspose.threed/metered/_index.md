@@ -30,13 +30,13 @@ Biedt methoden om een gemeten sleutel in te stellen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMeteredKey(publicKey, privateKey) | Stelt de metered public en private key in. Als u een metered-licentie aanschaft, moet deze API bij het starten van de applicatie worden aangeroepen; normaal gesproken is dit voldoende. Als het echter steeds mislukt om consumptiegegevens te uploaden en de 24 uur overschrijdt, wordt de licentie op evaluatiestatus gezet. Om dit te voorkomen, moet u regelmatig de licentiestatus controleren; als deze op evaluatiestatus staat, roept u deze API opnieuw aan. |
+| setMeteredKey(publicKey, privateKey) | Stelt de gemeten publieke en private sleutel in. Als u een gemeten licentie aanschaft, moet deze API bij het starten van de applicatie worden aangeroepen; normaal is dit voldoende. Echter, als het steeds mislukt om verbruiksgegevens te uploaden en de 24 uur overschrijdt, wordt de licentie op evaluatiestatus gezet. Om zo'n geval te voorkomen, dient u regelmatig de licentiestatus te controleren; als deze op evaluatiestatus staat, roept u deze API opnieuw aan. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| publicKey | String | public key |
+| publicKey | String | publieke sleutel |
 | privateKey | String | privésleutel |
 
  **Result:**
@@ -63,7 +63,7 @@ BigDecimal
 
 | Naam | Beschrijving |
 | --- | --- |
-| getConsumptionCredit() | Haalt consumptietegoed op |
+| getConsumptionCredit() | Haalt het verbruikscrediet op |
 
  **Result:**
 BigDecimal

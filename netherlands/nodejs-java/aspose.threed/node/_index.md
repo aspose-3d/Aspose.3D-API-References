@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/node/
 ---
 ## Node class
 
-Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van Node-objecten. De boombeheer‑services zijn zelfvoorzienend in deze klasse. Let op: de Aspose.3D SDK test de geldigheid van de geconstrueerde scenegraph niet. Het is de verantwoordelijkheid van de aanroeper om ervoor te zorgen dat er geen cyclische grafen in een node‑hiërarchie worden gegenereerd. Naast het boombeheer definieert deze klasse alle eigenschappen die nodig zijn om de positie van het object in de scène te beschrijven. Deze informatie omvat de basis‑eigenschappen Translation, Rotation en Scaling en de meer geavanceerde opties voor pivots, limits en IK‑gewrichts‑attributen zoals stijfheid en demping. Wanneer het voor het eerst wordt aangemaakt, is het Node‑object "empty" (d.w.z.: het is een object zonder enige grafische weergave dat alleen de positiëlinformatie bevat). In deze toestand kan het worden gebruikt om ouders in de node‑boomstructuur te vertegenwoordigen, maar niet veel meer. Het normale gebruik van dit type objecten is om er een entiteit aan toe te voegen die de node specialiseert (zie "Entity"). De entiteit is een object op zichzelf en is verbonden met de Node. Dit betekent ook dat dezelfde entiteit kan worden gedeeld tussen meerdere nodes. Camera, Light, Mesh, enz... zijn allemaal entiteiten en ze zijn allemaal afgeleid van de basisklasse Entity.
+Stelt een element in de scenegraph voor.  Een scenegraph is een boom van Node-objecten. De boombeheerservices zijn zelfvoorzienend in deze klasse.  Merk op dat de Aspose.3D SDK de geldigheid van de geconstrueerde scenegraph niet test. Het is de verantwoordelijkheid van de aanroeper om ervoor te zorgen dat er geen cyclische grafen worden gegenereerd in een node-hiërarchie.  Naast het boombeheer definieert deze klasse alle eigenschappen die nodig zijn om de positie van het object in de scène te beschrijven. Deze informatie omvat de basis Translation-, Rotation- en Scaling-eigenschappen en de meer geavanceerde opties voor pivots, limits en IK-joint-attributen zoals stiffness en dampening.  Wanneer het voor het eerst wordt aangemaakt, is het Node-object "empty" (d.w.z.: het is een object zonder enige grafische weergave dat alleen de positiebepaling bevat). In deze toestand kan het worden gebruikt om ouders in de node-boomstructuur te vertegenwoordigen, maar niet veel meer. Het normale gebruik van dit type objecten is om ze een entity toe te voegen die de node specialiseert (zie de "Entity").  De entity is een object op zich en is verbonden met de Node. Dit betekent ook dat dezelfde entity kan worden gedeeld tussen meerdere nodes. Camera, Light, Mesh, enz... zijn allemaal entities en ze zijn allemaal afgeleid van de basisklasse Entity.
 
 
 ## Methoden
@@ -37,7 +37,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | name | String | Naam. |
-| entity | Entity | Standaard entiteit. |
+| entiteit | Entiteit | Standaard entiteit. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAssetInfo() | Per-node assetinformatie |
+| getAssetInfo() | Assetinformatie per node |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAssetInfo(value) | Per-node assetinformatie |
+| setAssetInfo(value) | Assetinformatie per node |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVisible() | Haalt op of stelt in om de node te tonen |
+| getVisible() | Krijgt of stelt in om de node te tonen |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| setVisible(value) | Haalt op of stelt in om de node te tonen |
+| setVisible(value) | Krijgt of stelt in om de node te tonen |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMaterial() | Haalt het eerste materiaal op dat aan deze node is gekoppeld, of stelt dit in; bij instellen worden andere materialen gewist. Het materiaal. |
+| getMaterial() | Haalt op of stelt het eerste materiaal in dat aan dit knooppunt is gekoppeld; bij instellen worden andere materialen gewist. Het materiaal. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMaterial(value) | Haalt het eerste materiaal op dat aan deze node is gekoppeld, of stelt dit in; bij instellen worden andere materialen gewist. Het materiaal. |
+| setMaterial(value) | Haalt op of stelt het eerste materiaal in dat aan dit knooppunt is gekoppeld; bij instellen worden andere materialen gewist. Het materiaal. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt de bovenliggende node op of stelt deze in. De bovenliggende node. |
+| getParentNode() | Haalt op of stelt het bovenliggende knooppunt in. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt de bovenliggende node op of stelt deze in. De bovenliggende node. |
+| setParentNode(value) | Haalt op of stelt het bovenliggende knooppunt in. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Vertegenwoordigt een element in de scenegraph. Een scenegraph is een boom van No
 
 | Naam | Beschrijving |
 | --- | --- |
-| createChildNode() | Maakt een kindknooppunt |
+| createChildNode() | Maakt een onderliggend knooppunt aan |
 
  **Result:**
 Node
@@ -368,7 +368,7 @@ Node
 
 | Naam | Beschrijving |
 | --- | --- |
-| merge(node) | Ontkoppel alles onder het knooppunt en koppel ze aan het huidige knooppunt. |
+| merge(node) | Ontkoppel alles onder het knooppunt en koppel het aan het huidige knooppunt. |
 
  **Parameters:**
 
@@ -387,13 +387,13 @@ Node
 
 | Naam | Beschrijving |
 | --- | --- |
-| createChildNode(nodeName) | Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam |
+| createChildNode(nodeName) | Maak een nieuw onderliggend knooppunt met de opgegeven knooppuntnaam |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| nodeName | String | De naam van het nieuwe kindknooppunt |
+| nodeName | String | De naam van het nieuwe onderliggende knooppunt |
 
  **Result:**
 Node
@@ -406,13 +406,13 @@ Node
 
 | Naam | Beschrijving |
 | --- | --- |
-| createChildNode(entity) | Maak een nieuw kindknooppunt met de opgegeven entiteit gekoppeld |
+| createChildNode(entity) | Maak een nieuw onderliggend knooppunt met de opgegeven entiteit gekoppeld |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| entity | Entity | Standaard entiteit gekoppeld aan het knooppunt |
+| entiteit | Entiteit | Standaard entiteit gekoppeld aan het knooppunt |
 
  **Result:**
 Node
@@ -425,14 +425,14 @@ Node
 
 | Naam | Beschrijving |
 | --- | --- |
-| createChildNode(nodeName, entity) | Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam |
+| createChildNode(nodeName, entity) | Maak een nieuw onderliggend knooppunt met de opgegeven knooppuntnaam |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| nodeName | String | De naam van het nieuwe kindknooppunt |
-| entity | Entity | Standaard entiteit gekoppeld aan het knooppunt |
+| nodeName | String | De naam van het nieuwe onderliggende knooppunt |
+| entiteit | Entiteit | Standaard entiteit gekoppeld aan het knooppunt |
 
  **Result:**
 Node
@@ -445,15 +445,15 @@ Node
 
 | Naam | Beschrijving |
 | --- | --- |
-| createChildNode(nodeName, entity, material) | Maak een nieuw kindknooppunt met de opgegeven knooppuntnaam, en koppel de gespecificeerde entiteit en een materiaal |
+| createChildNode(nodeName, entity, material) | Maak een nieuw onderliggend knooppunt met de opgegeven knooppuntnaam en koppel de gespecificeerde entiteit en een materiaal |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| nodeName | String | De naam van het nieuwe kindknooppunt |
-| entity | Entity | Standaard entiteit gekoppeld aan het knooppunt |
-| material | Materiaal | Het materiaal gekoppeld aan het knooppunt |
+| nodeName | String | De naam van het nieuwe onderliggende knooppunt |
+| entiteit | Entiteit | Standaard entiteit gekoppeld aan het knooppunt |
+| material | Materiaal | Het materiaal dat aan het knooppunt is gekoppeld |
 
  **Result:**
 Node
@@ -466,7 +466,7 @@ Node
 
 | Naam | Beschrijving |
 | --- | --- |
-| evaluateGlobalTransform(withGeometricTransform) | Evalueer de globale transformatie, al dan niet inclusief de geometrische transformatie. |
+| evaluateGlobalTransform(withGeometricTransform) | Evalueer de globale transformatie, al dan niet de geometrische transformatie opnemen. |
 
  **Parameters:**
 
@@ -491,7 +491,7 @@ Matrix4
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| index | Number | Index. |
+| index | Nummer | Index. |
 
  **Result:**
 Node
@@ -504,7 +504,7 @@ Node
 
 | Naam | Beschrijving |
 | --- | --- |
-| getChild(nodeName) | Haalt het kindknooppunt op met de opgegeven naam. |
+| getChild(nodeName) | Haalt het kindknooppunt op met de opgegeven naam |
 
  **Parameters:**
 
@@ -523,13 +523,13 @@ Node
 
 | Naam | Beschrijving |
 | --- | --- |
-| accept(visitor) | Doorloopt alle afstammingsknooppunten (inclusief het huidige knooppunt) en roept de visitor aan met het knooppunt. Visitor kan de doorloop onderbreken door false te retourneren. |
+| accept(visitor) | Doorloopt alle afstammingsknooppunten (inclusief het huidige knooppunt) en roept de bezoeker aan met het knooppunt. De bezoeker kan de doorloop onderbreken door false te retourneren. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| visitor | NodeVisitor | Visitor callback om het knooppunt te bezoeken |
+| visitor | NodeVisitor | Bezoeker-callback om het knooppunt te bezoeken |
 
  **Result:**
 boolean
@@ -555,7 +555,7 @@ String
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Bereken het begrenzingsvak van het knooppunt |
+| getBoundingBox() | Bereken de omhullende rechthoek van het knooppunt |
 
  **Result:**
 BoundingBox
@@ -574,7 +574,7 @@ BoundingBox
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| entity | Entity | De entiteit die aan het knooppunt moet worden gekoppeld |
+| entiteit | Entiteit | De entiteit die aan het knooppunt moet worden gekoppeld |
 
  **Result:**
 BoundingBox
@@ -606,7 +606,7 @@ BoundingBox
 
 | Naam | Beschrijving |
 | --- | --- |
-| selectSingleObject(path) | Selecteer een enkel object onder het huidige knooppunt met behulp van XPath-achtige querysyntaxis. |
+| selectSingleObject(path) | Selecteer één enkel object onder het huidige knooppunt met XPath-achtige querysyntaxis. |
 
  **Parameters:**
 
@@ -625,7 +625,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| selectObjects(path) | Selecteer meerdere objecten onder het huidige knooppunt met behulp van XPath-achtige querysyntaxis. |
+| selectObjects(path) | Selecteer meerdere objecten onder het huidige knooppunt met XPath-achtige querysyntaxis. |
 
  **Parameters:**
 
@@ -650,7 +650,7 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -669,7 +669,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -688,7 +688,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -707,8 +707,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -721,7 +721,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

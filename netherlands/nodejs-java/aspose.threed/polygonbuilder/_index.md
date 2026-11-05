@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/polygonbuilder/
 ---
 ## PolygonBuilder class
 
-Een helperklasse om polygonen voor Mesh te bouwen.
+Een hulpprogrammaclasse om polygonen voor Mesh te bouwen
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Een helperklasse om polygonen voor Mesh te bouwen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor(mesh) | Initialiseert een nieuw exemplaar van de PolygonBuilder-klasse. |
+| constructor(mesh) | Initialiseert een nieuw exemplaar van de PolygonBuilder‑klasse. |
 
  **Parameters:**
 
@@ -49,13 +49,13 @@ Een helperklasse om polygonen voor Mesh te bouwen.
 
 | Naam | Beschrijving |
 | --- | --- |
-| addVertex(index) | Voegt een vertex-index toe aan het polygoon |
+| addVertex(index) | Voegt een vertex‑index toe aan het polygoon |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| inde | Number | null |
+| inde | Nummer | null |
 
  **Result:**
 

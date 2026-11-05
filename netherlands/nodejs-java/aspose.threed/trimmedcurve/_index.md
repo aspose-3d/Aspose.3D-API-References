@@ -30,7 +30,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBasisCurve() | De basiscurve die moet worden bijgesneden. |
+| getBasisCurve() | De basiscurve die getrimd moet worden. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setBasisCurve(value) | De basiscurve die moet worden bijgesneden. |
+| setBasisCurve(value) | De basiscurve die getrimd moet worden. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFirst() | Het eerste eindpunt om bij te snijden, kan een Cartesisch punt of een reële parameter zijn. |
+| getFirst() | Het eerste eindpunt om bij te snijden, kan een Cartesiaans punt of een reëel parameter zijn. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFirst(value) | Het eerste eindpunt om bij te snijden, kan een Cartesisch punt of een reële parameter zijn. |
+| setFirst(value) | Het eerste eindpunt om bij te snijden, kan een Cartesiaans punt of een reëel parameter zijn. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSecond() | Het tweede eindpunt om bij te snijden, kan een Cartesisch punt of een reëel parameter zijn. |
+| getSecond() | Het tweede eindpunt om bij te snijden, kan een Cartesiaans punt of een reëel parameter zijn. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSecond(value) | Het tweede eindpunt om bij te snijden, kan een Cartesisch punt of een reëel parameter zijn. |
+| setSecond(value) | Het tweede eindpunt om bij te snijden, kan een Cartesiaans punt of een reëel parameter zijn. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSameDirection() | Haalt op of stelt in of het bijgesneden resultaat dezelfde richting van de basiscurve gebruikt. |
+| getSameDirection() | Krijgt of stelt in of het bijgesneden resultaat dezelfde richting van de basiscurve gebruikt. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSameDirection(value) | Haalt op of stelt in of het bijgesneden resultaat dezelfde richting van de basiscurve gebruikt. |
+| setSameDirection(value) | Krijgt of stelt in of het bijgesneden resultaat dezelfde richting van de basiscurve gebruikt. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getColor() | Haalt op of stelt de kleur van de lijn in, standaardwaarde is wit(1, 1, 1) |
+| getColor() | Geeft de kleur van de lijn terug of stelt deze in, standaardwaarde is wit(1, 1, 1) |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setColor(value) | Haalt op of stelt de kleur van de lijn in, standaardwaarde is wit(1, 1, 1) |
+| setColor(value) | Geeft de kleur van de lijn terug of stelt deze in, standaardwaarde is wit(1, 1, 1) |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Een begrensde curve die de basiscurve aan beide uiteinden bijsnijdt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -290,7 +290,7 @@ EntityRendererKey
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 EntityRendererKey
@@ -309,7 +309,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -328,7 +328,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -347,7 +347,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -366,8 +366,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -380,7 +380,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

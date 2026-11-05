@@ -30,7 +30,7 @@ Het eindpunt om de curve bij te snijden, kan een parameterwaarde of een cartesia
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(point) | Construeer een EndPoint vanuit een Cartesiaans punt. |
+| constructor_overload(point) | Maak een EndPoint aan vanuit een Cartesisch punt. |
 
  **Parameters:**
 
@@ -49,13 +49,13 @@ Het eindpunt om de curve bij te snijden, kan een parameterwaarde of een cartesia
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload2(v) | Construeer een EndPoint vanuit een reële parameter. |
+| constructor_overload2(v) | Construeer een EndPoint vanuit een reëel parameter. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
+|  | Nummer | null |
 
  **Result:**
 
@@ -68,7 +68,7 @@ Het eindpunt om de curve bij te snijden, kan een parameterwaarde of een cartesia
 
 | Naam | Beschrijving |
 | --- | --- |
-| isCartesianPoint() | Is het eindpunt een Cartesiaans punt? |
+| isCartesianPoint() | Is het eindpunt een cartesiaans punt? |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Het eindpunt om de curve bij te snijden, kan een parameterwaarde of een cartesia
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAsPoint() | Haalt het eindpunt op als Cartesiaans punt, of werpt een uitzondering. |
+| getAsPoint() | Haalt het eindpunt op als cartesiaans punt, of werpt een uitzondering. |
 
  **Result:**
 
@@ -113,7 +113,7 @@ Het eindpunt om de curve bij te snijden, kan een parameterwaarde of een cartesia
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| graad | Number | null |
+| graad | Nummer | null |
 
  **Result:**
 EndPoint
@@ -132,7 +132,7 @@ EndPoint
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| graad | Number | null |
+| graad | Nummer | null |
 
  **Result:**
 EndPoint

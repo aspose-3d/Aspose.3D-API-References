@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/bindpoint/
 ---
 ## BindPoint class
 
-Een BindPoint wordt meestal aangemaakt op een eigenschap van een object; sommige eigenschapstypen bevatten meerdere componentvelden (zoals een Vector3‑veld).  BindPoint genereert een kanaal voor elk componentveld en verbindt het veld met een of meer keyframe‑sequentie‑instantie(s) via de kanalen.
+Een BindPoint wordt meestal aangemaakt op een eigenschap van een object; sommige eigenschapstypen bevatten meerdere componentvelden (zoals een Vector3‑veld).  BindPoint genereert een kanaal voor elk componentveld en verbindt het veld via de kanalen met één of meer keyframe‑sequentie‑instanties.
 
 
 ## Methoden
@@ -17,13 +17,13 @@ Een BindPoint wordt meestal aangemaakt op een eigenschap van een object; sommige
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor(scene, prop) | Initialiseert een nieuw exemplaar van de BindPoint-klasse. |
+| constructor(scene, prop) | Initialiseert een nieuw exemplaar van de BindPoint‑klasse. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| scene | Scene | De scene die de animatie bevat. |
+| scene | Scene | De scène die de animatie bevat. |
 | prop | Eigenschap | Eigenschap. |
 
  **Result:**
@@ -63,10 +63,10 @@ Een BindPoint wordt meestal aangemaakt op een eigenschap van een object; sommige
 
 | Naam | Beschrijving |
 | --- | --- |
-| getChannelsCount() | Haalt het totale aantal eigenschapskanalen op dat gedefinieerd is in deze animatie-curve-mapping. |
+| getChannelsCount() | Haalt het totale aantal eigenschapskanalen op dat is gedefinieerd in deze animatiecurve-mapping. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -79,7 +79,7 @@ Number
 | getName() | Haalt de naam op of stelt deze in. De naam. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -92,7 +92,7 @@ Number
 | setName(value) | Haalt de naam op of stelt deze in. De naam. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -102,10 +102,10 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -118,7 +118,7 @@ Number
 | get(channelName) |  |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -191,7 +191,7 @@ KeyframeSequence
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| channelName | String | Welk kanaal de keyframe-reeks zal worden gekoppeld |
+| channelName | String | Welk kanaal de keyframe-reeks aan gekoppeld zal worden |
 | reeks | KeyframeSequence | De te koppelen keyframe-reeks |
 
  **Result:**
@@ -231,7 +231,7 @@ AnimationChannel
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | name | String | Naam. |
-| value | Object | Waarde. |
+| waarde | Object | Waarde. |
 
  **Result:**
 boolean
@@ -252,7 +252,7 @@ boolean
 | --- | --- | --- |
 | name | String | Naam. |
 | type | Klasse | Type. |
-| value | Object | Waarde. |
+| waarde | Object | Waarde. |
 
  **Result:**
 boolean
@@ -265,7 +265,7 @@ boolean
 
 | Naam | Beschrijving |
 | --- | --- |
-| resetChannels() | Leegt de eigenschapskanalen van deze animatie-curve-mapping. |
+| resetChannels() | Leegt de eigenschap channels van deze animatiecurve-mapping. |
 
  **Result:**
 boolean
@@ -278,7 +278,7 @@ boolean
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Formatteert object naar string |
+| toString() | Formatteert object naar string. |
 
  **Result:**
 String
@@ -297,7 +297,7 @@ String
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -316,7 +316,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -335,7 +335,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -354,8 +354,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -368,7 +368,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

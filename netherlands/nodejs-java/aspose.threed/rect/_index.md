@@ -36,10 +36,10 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-| widt | Number | null |
-| heigh | Number | null |
+|  | Nummer | null |
+|  | Nummer | null |
+| breedte | Nummer | null |
+| hoogte | Nummer | null |
 
  **Result:**
 
@@ -52,7 +52,7 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWidth() | Haalt de breedte op of stelt de breedte in |
+| getWidth() | Haalt op of stelt de breedte van de grootte in |
 
  **Result:**
 
@@ -65,7 +65,7 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWidth(value) | Haalt de breedte op of stelt de breedte in |
+| setWidth(value) | Haalt op of stelt de breedte van de grootte in |
 
  **Result:**
 
@@ -78,7 +78,7 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Beschrijving |
 | --- | --- |
-| getHeight() | Haalt de hoogte op of stelt de hoogte in |
+| getHeight() | Haalt de hoogte van de grootte op of stelt deze in |
 
  **Result:**
 
@@ -91,7 +91,7 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Beschrijving |
 | --- | --- |
-| setHeight(value) | Haalt de hoogte op of stelt de hoogte in |
+| setHeight(value) | Haalt de hoogte van de grootte op of stelt deze in |
 
  **Result:**
 
@@ -104,7 +104,7 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Beschrijving |
 | --- | --- |
-| getX() | Haalt of stelt de x van de grootte op |
+| getX() | Haalt de x van de grootte op of stelt deze in |
 
  **Result:**
 
@@ -117,7 +117,7 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Beschrijving |
 | --- | --- |
-| setX(value) | Haalt of stelt de x van de grootte op |
+| setX(value) | Haalt de x van de grootte op of stelt deze in |
 
  **Result:**
 
@@ -130,7 +130,7 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Beschrijving |
 | --- | --- |
-| getY() | Haalt of stelt de y van de grootte op |
+| getY() | Haalt de y van de grootte op of stelt deze in |
 
  **Result:**
 
@@ -143,7 +143,7 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Beschrijving |
 | --- | --- |
-| setY(value) | Haalt of stelt de y van de grootte op |
+| setY(value) | Haalt de y van de grootte op of stelt deze in |
 
  **Result:**
 
@@ -214,8 +214,8 @@ Een klasse om de rechthoek te vertegenwoordigen
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
+|  | Nummer | null |
+|  | Nummer | null |
 
  **Result:**
 boolean

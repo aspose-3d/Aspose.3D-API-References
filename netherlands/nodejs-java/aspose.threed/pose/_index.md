@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/pose/
 ---
 ## Pose class
 
-De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometrie geskinnd is. De pose is een verzameling van BonePose; elke BonePose slaat de concrete transformatie-informatie van de botknoop op.
+De pose wordt gebruikt om de transformatie‑matrix op te slaan wanneer de geometrie geskinnt is. De pose is een verzameling BonePose; elke BonePose slaat de concrete transformatie‑informatie van het botknooppunt op.
 
 
 ## Methoden
@@ -49,7 +49,7 @@ De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPoseType() | Haalt het type van de pose op of stelt dit in. De waarde van de eigenschap is de PoseType-integerconstante. Het type van de pose. |
+| getPoseType() | Haalt het type van de pose op of stelt dit in. De waarde van de eigenschap is PoseType integerconstante. Het type van de pose. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometr
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPoseType(value) | Haalt het type van de pose op of stelt dit in. De waarde van de eigenschap is de PoseType-integerconstante. Het type van de pose. |
+| setPoseType(value) | Haalt het type van de pose op of stelt dit in. De waarde van de eigenschap is PoseType integerconstante. Het type van de pose. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometr
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -127,14 +127,14 @@ De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometr
 
 | Naam | Beschrijving |
 | --- | --- |
-| addBonePose(node, matrix, localMatrix) | Slaat de pose-transformatie-matrix op voor de opgegeven botknooppunt. |
+| addBonePose(node, matrix, localMatrix) | Slaat de pose-transformatiematrix op voor het opgegeven botknooppunt. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | node | Node | Botknooppunt. |
-| matrix | Matrix4 | Transformatie-matrix. |
+| matrix | Matrix4 | Transformatiematrix. |
 | localMatrix | boolean | Indien ingesteld op |
 
  **Result:**
@@ -148,14 +148,14 @@ De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometr
 
 | Naam | Beschrijving |
 | --- | --- |
-| addBonePose(node, matrix) | Slaat de pose-transformatiematrix op voor de opgegeven botknoop. De globale transformatiematrix wordt geïmpliceerd. |
+| addBonePose(node, matrix) | Slaat de pose-transformatiematrix op voor het opgegeven botknooppunt. Globale transformatiematrix wordt geïmpliceerd. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | node | Node | Botknooppunt. |
-| matrix | Matrix4 | Transformatie-matrix. |
+| matrix | Matrix4 | Transformatiematrix. |
 
  **Result:**
 
@@ -174,7 +174,7 @@ De pose wordt gebruikt om de transformatie-matrix op te slaan wanneer de geometr
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -193,7 +193,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -212,7 +212,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -231,8 +231,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -245,7 +245,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

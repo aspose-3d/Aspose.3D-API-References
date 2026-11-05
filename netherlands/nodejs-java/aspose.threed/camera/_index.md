@@ -17,7 +17,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de Camera-klasse. |
+| constructor() | Initialiseert een nieuwe instantie van de Camera-klasse. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(projectionType) | Initialiseert een nieuw exemplaar van de Camera-klasse. |
+| constructor_overload(projectionType) | Initialiseert een nieuwe instantie van de Camera-klasse. |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload2(name) | Initialiseert een nieuw exemplaar van de Camera-klasse. |
+| constructor_overload2(name) | Initialiseert een nieuwe instantie van de Camera-klasse. |
 
  **Parameters:**
 
@@ -68,7 +68,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload3(name, projectionType) | Initialiseert een nieuw exemplaar van de Camera-klasse. |
+| constructor_overload3(name, projectionType) | Initialiseert een nieuwe instantie van de Camera-klasse. |
 
  **Parameters:**
 
@@ -88,7 +88,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getApertureMode() | Haalt of stelt de diafragma-modus van de camera in. De waarde van de eigenschap is een geheel getal constant van ApertureMode. |
+| getApertureMode() | Haalt de diafragmamodus van de camera op of stelt deze in. De waarde van de eigenschap is een geheel getal constant van ApertureMode. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setApertureMode(value) | Haalt of stelt de diafragma-modus van de camera in. De waarde van de eigenschap is een geheel getal constant van ApertureMode. |
+| setApertureMode(value) | Haalt de diafragmamodus van de camera op of stelt deze in. De waarde van de eigenschap is een geheel getal constant van ApertureMode. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFieldOfView() | Haalt of stelt het gezichtsveld van de camera in graden in, deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZONTAL of ApertureMode.VERTICAL |
+| getFieldOfView() | Haalt het gezichtsveld van de camera op in graden of stelt dit in; deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZONTAL of ApertureMode.VERTICAL. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFieldOfView(value) | Haalt of stelt het gezichtsveld van de camera in graden in, deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZONTAL of ApertureMode.VERTICAL |
+| setFieldOfView(value) | Haalt het gezichtsveld van de camera op in graden of stelt dit in; deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZONTAL of ApertureMode.VERTICAL. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFieldOfViewX() | Haalt of stelt het horizontale gezichtsveld van de camera in graden in, deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZ_AND_VERT |
+| getFieldOfViewX() | Haalt het horizontale gezichtsveld van de camera op in graden of stelt dit in; deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZ_AND_VERT. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFieldOfViewX(value) | Haalt of stelt het horizontale gezichtsveld van de camera in graden in, deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZ_AND_VERT |
+| setFieldOfViewX(value) | Haalt het horizontale gezichtsveld van de camera op in graden of stelt dit in; deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZ_AND_VERT. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFieldOfViewY() | Haalt of stelt het verticale gezichtsveld van de camera in graden in, deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZ_AND_VERT |
+| getFieldOfViewY() | Haalt het verticale gezichtsveld van de camera op in graden of stelt dit in; deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZ_AND_VERT. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFieldOfViewY(value) | Haalt of stelt het verticale gezichtsveld van de camera in graden in, deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZ_AND_VERT |
+| setFieldOfViewY(value) | Haalt het verticale gezichtsveld van de camera op in graden of stelt dit in; deze eigenschap wordt alleen gebruikt wanneer ApertureMode gelijk is aan ApertureMode.HORIZ_AND_VERT. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWidth() | Haalt of stelt de breedte van het kijkvlak in inches in. |
+| getWidth() | Haalt de breedte van het kijkvlak op in inches of stelt deze in. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWidth(value) | Haalt of stelt de breedte van het kijkvlak in inches in. |
+| setWidth(value) | Haalt de breedte van het kijkvlak op in inches of stelt deze in. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getHeight() | Haalt of stelt de hoogte van het kijkvlak in inches in. |
+| getHeight() | Haalt de hoogte van het kijkvlak op in inches of stelt deze in. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setHeight(value) | Haalt of stelt de hoogte van het kijkvlak in inches in. |
+| setHeight(value) | Haalt de hoogte van het kijkvlak op in inches of stelt deze in. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAspectRatio() | Haalt of stelt de beeldverhouding van het kijkvlak in. |
+| getAspectRatio() | Haalt op of stelt de beeldvlak-aspectverhouding in. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAspectRatio(value) | Haalt of stelt de beeldverhouding van het kijkvlak in. |
+| setAspectRatio(value) | Haalt op of stelt de beeldvlak-aspectverhouding in. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMagnification() | Haalt of stelt de vergroting in die wordt gebruikt in een orthografische camera. |
+| getMagnification() | Haalt op of stelt de vergroting in die wordt gebruikt in een orthografische camera. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMagnification(value) | Haalt of stelt de vergroting in die wordt gebruikt in een orthografische camera. |
+| setMagnification(value) | Haalt op of stelt de vergroting in die wordt gebruikt in een orthografische camera. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProjectionType() | Haalt op of stelt het projectietype van de camera in. Standaard wordt de perspectiefprojectie gebruikt. De waarde van de eigenschap is de integer-constante ProjectionType. |
+| getProjectionType() | Haalt op of stelt het projectietype van de camera in. Standaard wordt de perspectiefprojectie gebruikt. De waarde van de eigenschap is de gehele constante ProjectionType. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setProjectionType(value) | Haalt op of stelt het projectietype van de camera in. Standaard wordt de perspectiefprojectie gebruikt. De waarde van de eigenschap is de integer-constante ProjectionType. |
+| setProjectionType(value) | Haalt op of stelt het projectietype van de camera in. Standaard wordt de perspectiefprojectie gebruikt. De waarde van de eigenschap is de gehele constante ProjectionType. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRotationMode() | Haalt op of stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer Target null is. Als de waarde RotationMode.FIXED_TARGET is, wordt de richting altijd berekend door de eigenschap LookAt. Anders wordt LookAt altijd berekend door de Direction. De waarde van de eigenschap is de integer-constante RotationMode. |
+| getRotationMode() | Haalt op of stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer de Target null is. Als de waarde RotationMode.FIXED_TARGET is, wordt de richting altijd berekend door de eigenschap LookAt. Anders wordt de LookAt altijd berekend door de Direction. De waarde van de eigenschap is een integer-constante van RotationMode. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRotationMode(value) | Haalt op of stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer Target null is. Als de waarde RotationMode.FIXED_TARGET is, wordt de richting altijd berekend door de eigenschap LookAt. Anders wordt LookAt altijd berekend door de Direction. De waarde van de eigenschap is de integer-constante RotationMode. |
+| setRotationMode(value) | Haalt op of stelt de oriëntatiemodus van de frustum in. Deze eigenschap werkt alleen wanneer de Target null is. Als de waarde RotationMode.FIXED_TARGET is, wordt de richting altijd berekend door de eigenschap LookAt. Anders wordt de LookAt altijd berekend door de Direction. De waarde van de eigenschap is een integer-constante van RotationMode. |
 
  **Result:**
 
@@ -374,7 +374,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFarPlane() | Haalt op of stelt de afstand van het verafgelegen vlak van de frustum in. |
+| getFarPlane() | Haalt op of stelt de afstand van het verafvlak van de frustum in. |
 
  **Result:**
 
@@ -387,7 +387,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFarPlane(value) | Haalt op of stelt de afstand van het verafgelegen vlak van de frustum in. |
+| setFarPlane(value) | Haalt op of stelt de afstand van het verafvlak van de frustum in. |
 
  **Result:**
 
@@ -400,7 +400,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAspect() | Haalt op of stelt de beeldverhouding van de frustum in |
+| getAspect() | Haalt op of stelt de beeldverhouding van de frustum in. |
 
  **Result:**
 
@@ -413,7 +413,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAspect(value) | Haalt op of stelt de beeldverhouding van de frustum in |
+| setAspect(value) | Haalt op of stelt de beeldverhouding van de frustum in. |
 
  **Result:**
 
@@ -426,7 +426,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOrthoHeight() | Haalt op of stelt de hoogte in wanneer de frustum zich in orthografische projectie bevindt. |
+| getOrthoHeight() | Haalt op of stelt de hoogte in wanneer de frustum in orthografische projectie staat. |
 
  **Result:**
 
@@ -439,7 +439,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOrthoHeight(value) | Haalt op of stelt de hoogte in wanneer de frustum zich in orthografische projectie bevindt. |
+| setOrthoHeight(value) | Haalt op of stelt de hoogte in wanneer de frustum in orthografische projectie staat. |
 
  **Result:**
 
@@ -452,7 +452,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUp() | Haalt op of stelt de omhoogrichting van de camera in |
+| getUp() | Haalt op of stelt de opwaartse richting van de camera in. |
 
  **Result:**
 
@@ -465,7 +465,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setUp(value) | Haalt op of stelt de omhoogrichting van de camera in |
+| setUp(value) | Haalt op of stelt de opwaartse richting van de camera in. |
 
  **Result:**
 
@@ -478,7 +478,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookAt() | Haalt op of stelt de interessante positie in waar de camera naar kijkt. |
+| getLookAt() | Haalt op of stelt de gewenste positie in waar de camera naar kijkt. |
 
  **Result:**
 
@@ -491,7 +491,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLookAt(value) | Haalt op of stelt de interessante positie in waar de camera naar kijkt. |
+| setLookAt(value) | Haalt op of stelt de gewenste positie in waar de camera naar kijkt. |
 
  **Result:**
 
@@ -530,7 +530,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTarget() | Haalt op of stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de LookAt property staan. |
+| getTarget() | Haalt op of stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de LookAt‑eigenschap worden ingesteld. |
 
  **Result:**
 
@@ -543,7 +543,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTarget(value) | Haalt op of stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de LookAt property staan. |
+| setTarget(value) | Haalt op of stelt het doel in waar de camera naar kijkt. Als de gebruiker deze eigenschap ondersteunt, moet deze vóór de LookAt‑eigenschap worden ingesteld. |
 
  **Result:**
 
@@ -595,7 +595,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -608,7 +608,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -621,7 +621,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -660,7 +660,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -673,13 +673,13 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| moveForward(distance) | Verplaats de camera naar voren in de richting van zijn kijkrichting of doel. |
+| moveForward(distance) | Verplaats de camera naar voren in de richting van zijn oriëntatie of doel. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| afstand | Number | Hoe ver moet er naar voren worden bewogen |
+| afstand | Nummer | Hoe ver naar voren te bewegen |
 
  **Result:**
 
@@ -692,7 +692,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 
@@ -705,7 +705,7 @@ De camera beschrijft het oogpunt van de kijker die naar de scène kijkt.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -724,7 +724,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -743,7 +743,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -762,7 +762,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -781,8 +781,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -795,7 +795,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

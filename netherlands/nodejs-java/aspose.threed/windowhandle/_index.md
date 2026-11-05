@@ -8,6 +8,6 @@ url: /nl/nodejs-java/aspose.threed/windowhandle/
 ---
 ## WindowHandle class
 
-Ingekapselde vensterhandle voor verschillende platforms.  @hideconstructor
+Ingesloten vensterhandvat voor verschillende platforms.  @hideconstructor
 
 

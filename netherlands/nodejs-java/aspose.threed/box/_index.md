@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/box/
 ---
 ## Box class
 
-Doos.
+Box.
 
 
 ## Methoden
@@ -36,9 +36,9 @@ Doos.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| length | Number | Lengte van de doos uitgelijnd langs de z-as. |
-| breedte | Number | Breedte van de doos uitgelijnd langs de x-as. |
-| height | Number | Hoogte van de doos uitgelijnd langs de y-as. |
+| length | Nummer | Lengte van de doos uitgelijnd langs de z-as. |
+| width | Nummer | Breedte van de doos uitgelijnd langs de x-as. |
+| height | Nummer | Hoogte van de doos uitgelijnd langs de y-as. |
 
  **Result:**
 
@@ -58,12 +58,12 @@ Doos.
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | name | String | Naam van de doos. |
-| length | Number | Lengte van de doos uitgelijnd langs de z-as. |
-| breedte | Number | Breedte van de doos uitgelijnd langs de x-as. |
-| height | Number | Hoogte van de doos uitgelijnd langs de y-as. |
-| lengthSegments | Number | Lengte segmenten. |
-| widthSegments | Number | Breedte segmenten. |
-| heightSegments | Number | Hoogtesegmenten. |
+| length | Nummer | Lengte van de doos uitgelijnd langs de z-as. |
+| width | Nummer | Breedte van de doos uitgelijnd langs de x-as. |
+| height | Nummer | Hoogte van de doos uitgelijnd langs de y-as. |
+| lengthSegments | Nummer | Lengte segmenten. |
+| widthSegments | Nummer | Breedte segmenten. |
+| heightSegments | Nummer | Hoogtesegmenten. |
 
  **Result:**
 
@@ -76,7 +76,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLengthSegments() | Krijgt of stelt de lengtesegmenten in. |
+| getLengthSegments() | Haalt of stelt de lengtesegmenten in. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLengthSegments(value) | Krijgt of stelt de lengtesegmenten in. |
+| setLengthSegments(value) | Haalt of stelt de lengtesegmenten in. |
 
  **Result:**
 
@@ -102,7 +102,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWidthSegments() | Krijgt of stelt de breedtesegmenten in. |
+| getWidthSegments() | Haalt of stelt de breedtesegmenten in. |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWidthSegments(value) | Krijgt of stelt de breedtesegmenten in. |
+| setWidthSegments(value) | Haalt of stelt de breedtesegmenten in. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getHeightSegments() | krijgt of stelt de hoogtesegmenten in. |
+| getHeightSegments() | Haalt of stelt de hoogtesegmenten in. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setHeightSegments(value) | krijgt of stelt de hoogtesegmenten in. |
+| setHeightSegments(value) | Haalt of stelt de hoogtesegmenten in. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLength() | Krijgt of stelt de lengte van de doos uitgelijnd langs de z-as in. De lengte uitgelijnd langs de z-as. |
+| getLength() | Haalt of stelt de lengte van de doos uitgelijnd op de z-as in. De lengte uitgelijnd op de z-as. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLength(value) | Krijgt of stelt de lengte van de doos uitgelijnd langs de z-as in. De lengte uitgelijnd langs de z-as. |
+| setLength(value) | Haalt of stelt de lengte van de doos uitgelijnd op de z-as in. De lengte uitgelijnd op de z-as. |
 
  **Result:**
 
@@ -180,7 +180,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWidth() | Haalt de breedte van de doos op de x-as op of stelt deze in. De breedte op de x-as. |
+| getWidth() | Haalt of stelt de breedte van de doos uitgelijnd op de x-as in. De breedte uitgelijnd op de x-as. |
 
  **Result:**
 
@@ -193,7 +193,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWidth(value) | Haalt de breedte van de doos op de x-as op of stelt deze in. De breedte op de x-as. |
+| setWidth(value) | Haalt of stelt de breedte van de doos uitgelijnd op de x-as in. De breedte uitgelijnd op de x-as. |
 
  **Result:**
 
@@ -206,7 +206,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getHeight() | Haalt de hoogte van de doos op de y-as op of stelt deze in. De hoogte op de y-as. |
+| getHeight() | Haalt of stelt de hoogte van de doos uitgelijnd op de y-as in. De hoogte uitgelijnd op de y-as. |
 
  **Result:**
 
@@ -219,7 +219,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setHeight(value) | Haalt de hoogte van de doos op de y-as op of stelt deze in. De hoogte op de y-as. |
+| setHeight(value) | Haalt of stelt de hoogte van de doos uitgelijnd op de y-as in. De hoogte uitgelijnd op de y-as. |
 
  **Result:**
 
@@ -232,7 +232,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastShadows() | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| getCastShadows() | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -245,7 +245,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -323,7 +323,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -336,7 +336,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -349,7 +349,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -388,7 +388,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -401,7 +401,7 @@ Doos.
 
 | Naam | Beschrijving |
 | --- | --- |
-| toMesh() | Converteer huidig object naar mesh |
+| toMesh() | Converteer het huidige object naar een mesh |
 
  **Result:**
 Mesh
@@ -414,7 +414,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 Mesh
@@ -427,7 +427,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -446,7 +446,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -465,7 +465,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -484,7 +484,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -503,8 +503,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -517,7 +517,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/ziparchivefilesystem/
 ---
 ## ZipArchiveFileSystem class
 
-Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip‑bestand of zip‑stream.  Het bestandssysteem wordt verwijderd na de open-/opslaoperatie.
+Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip‑bestand of zip‑stream.  Het bestandssysteem wordt verwijderd na de open-/opslaan‑bewerking.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip‑bestan
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor(fileName) | Construeer een ZipArchiveFileSystem via een bestandsnaam. |
+| constructor(fileName) | Construeer een ZipArchiveFileSystem met een bestandsnaam. |
 
  **Parameters:**
 
@@ -43,10 +43,10 @@ Bestandssysteem om alleen-lezen toegang te bieden tot een opgegeven zip‑bestan
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | fileNam | String | null |
-| option | IOConfig | null |
+| optie | IOConfig | null |
 
  **Result:**
-Stream
+Stroom
 
 
 ---
@@ -63,10 +63,10 @@ Stream
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | fileNam | String | null |
-| option | IOConfig | null |
+| optie | IOConfig | null |
 
  **Result:**
-Stream
+Stroom
 
 
 ---

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/nurbscurve/
 ---
 ## NurbsCurve class
 
-NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational basis spline). Een NURBS-curve wordt gedefinieerd door zijn Order, een reeks gewogen Geometry.ControlPoints en een KnotVectors. Het w‑component in het controlepunt wordt gebruikt als gewicht van het controlepunt, ongeacht of het een CurveDimension.TWO_DIMENSIONAL of CurveDimension.THREE_DIMENSIONAL is.
+NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational basis spline),  Een NURBS-curve wordt gedefinieerd door zijn Order, een reeks gewogen Geometry.ControlPoints en een KnotVectors.  Het w-component in het controlepunt wordt gebruikt als het gewicht van het controlepunt, ongeacht of het een CurveDimension.TWO_DIMENSIONAL of CurveDimension.THREE_DIMENSIONAL is.
 
 
 ## Methoden
@@ -75,7 +75,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOrder() | Haalt of stelt de orde van een NURBS-curve in, deze definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden. De orde. |
+| getOrder() | Geeft de orde van een NURBS-curve terug of stelt deze in; het definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden. De orde. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOrder(value) | Haalt of stelt de orde van een NURBS-curve in, deze definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden. De orde. |
+| setOrder(value) | Geeft de orde van een NURBS-curve terug of stelt deze in; het definieert het aantal nabije controlepunten die elk punt op de curve beïnvloeden. De orde. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDimension() | Haalt of stelt de dimensie van de curve in. De waarde van de eigenschap is de CurveDimension integer-constante. Voor een CurveDimension.TWO_DIMENSIONAL-curve wordt de z-component in control point niet gebruikt. |
+| getDimension() | Geeft de dimensie van de curve terug of stelt deze in. De waarde van de eigenschap is een CurveDimension integer-constante. Voor een CurveDimension.TWO_DIMENSIONAL-curve wordt de z-component in het controlepunt niet gebruikt. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDimension(value) | Haalt of stelt de dimensie van de curve in. De waarde van de eigenschap is de CurveDimension integer-constante. Voor een CurveDimension.TWO_DIMENSIONAL-curve wordt de z-component in control point niet gebruikt. |
+| setDimension(value) | Geeft de dimensie van de curve terug of stelt deze in. De waarde van de eigenschap is een CurveDimension integer-constante. Voor een CurveDimension.TWO_DIMENSIONAL-curve wordt de z-component in het controlepunt niet gebruikt. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCurveType() | Haalt op of stelt het type van de curve in. De waarde van de eigenschap is de NurbsType gehele getal constante. Het type van de curve. |
+| getCurveType() | Geeft het type van de curve terug of stelt dit in. De waarde van de eigenschap is een NurbsType integer-constante. Het type van de curve. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCurveType(value) | Haalt op of stelt het type van de curve in. De waarde van de eigenschap is de NurbsType gehele getal constante. Het type van de curve. |
+| setCurveType(value) | Geeft het type van de curve terug of stelt dit in. De waarde van de eigenschap is een NurbsType integer-constante. Het type van de curve. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getKnotVectors() | Haalt de knotvector op, dit is een reeks parameterwaarden die bepaalt waar en hoe de controlepunten de NURBS-curve beïnvloeden. |
+| getKnotVectors() | Geeft de knooppuntvector terug; dit is een reeks parameterwaarden die bepalen waar en hoe de controlepunten de NURBS-curve beïnvloeden. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRational() | Haalt op of stelt in of het rationaal is, deze waarde geeft aan of deze NurbsCurve een rationele spline of een niet-rationele spline is. Een niet-rationele B-spline is een speciaal geval van rationele B-splines. true als het een rationele spline is; anders is false een niet-rationele spline. |
+| getRational() | Geeft aan of deze rationaal is of stelt dit in; deze waarde geeft aan of deze NurbsCurve een rationale spline of een niet‑rationele spline is. Een niet‑rationele B-spline is een speciaal geval van rationale B-splines. true als het een rationale spline is; anders, false als het een niet‑rationele spline is. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRational(value) | Haalt op of stelt in of het rationaal is, deze waarde geeft aan of deze NurbsCurve een rationele spline of een niet-rationele spline is. Een niet-rationele B-spline is een speciaal geval van rationele B-splines. true als het een rationele spline is; anders is false een niet-rationele spline. |
+| setRational(value) | Geeft aan of deze rationaal is of stelt dit in; deze waarde geeft aan of deze NurbsCurve een rationale spline of een niet‑rationele spline is. Een niet‑rationele B-spline is een speciaal geval van rationale B-splines. true als het een rationale spline is; anders, false als het een niet‑rationele spline is. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getColor() | Haalt op of stelt de kleur van de lijn in, standaardwaarde is wit(1, 1, 1) |
+| getColor() | Geeft de kleur van de lijn terug of stelt deze in, standaardwaarde is wit(1, 1, 1) |
 
  **Result:**
 
@@ -205,7 +205,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setColor(value) | Haalt op of stelt de kleur van de lijn in, standaardwaarde is wit(1, 1, 1) |
+| setColor(value) | Geeft de kleur van de lijn terug of stelt deze in, standaardwaarde is wit(1, 1, 1) |
 
  **Result:**
 
@@ -257,7 +257,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -322,7 +322,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -341,7 +341,7 @@ NURBS-curve is een curve die wordt weergegeven door NURBS (Non-uniform rational 
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| steps | Number | De evaluatiefrequentie tussen twee aangrenzende knots, standaardwaarde is 20 |
+| steps | Nummer | De evaluatiefrequentie tussen twee aangrenzende knooppunten, standaardwaarde is 20 |
 
  **Result:**
 Vector4[]
@@ -360,7 +360,7 @@ Vector4[]
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| u | Number | De positie in de curve, tussen 0 en 1 |
+| u | Nummer | De positie in de curve, tussen 0 en 1 |
 
  **Result:**
 Vector4
@@ -373,7 +373,7 @@ Vector4
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -386,7 +386,7 @@ EntityRendererKey
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 EntityRendererKey
@@ -405,7 +405,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -424,7 +424,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -443,7 +443,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -462,8 +462,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -476,7 +476,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

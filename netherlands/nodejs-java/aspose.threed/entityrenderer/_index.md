@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/entityrenderer/
 ---
 ## EntityRenderer class
 
-Maak hier een subklasse van om rendering te implementeren voor verschillende soorten entiteiten.
+Maak een subklasse hiervan om rendering te implementeren voor verschillende soorten entiteiten.
 
 
 ## Methoden
@@ -75,7 +75,7 @@ Maak hier een subklasse van om rendering te implementeren voor verschillende soo
 
 | Naam | Beschrijving |
 | --- | --- |
-| resetSceneCache() | De scène is gewijzigd of verwijderd, er moeten renderbronnen op scenenniveau worden vrijgegeven in dit |
+| resetSceneCache() | De scène is gewijzigd of verwijderd, moet scene-level render resources hierin vrijgeven |
 
  **Result:**
 
@@ -135,9 +135,9 @@ Maak hier een subklasse van om rendering te implementeren voor verschillende soo
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | renderer | Renderer | De huidige renderer-instantie |
-| queue | IRenderQueue | De renderwachtrij die wordt gebruikt om rendertaken te beheren |
+| queue | IRenderQueue | De render queue die wordt gebruikt om rendertaken te beheren |
 | node | Node | Huidige node |
-| entity | Entity | De entiteit die moet worden gerenderd |
+| entiteit | Entiteit | De entiteit die moet worden gerenderd |
 
  **Result:**
 
@@ -150,17 +150,17 @@ Maak hier een subklasse van om rendering te implementeren voor verschillende soo
 
 | Naam | Beschrijving |
 | --- | --- |
-| renderEntity(renderer, commandList, node, renderableResource, subEntity) | Elke rendertaak die naar de com.aspose.threed.IRenderQueue wordt gepusht, krijgt een overeenkomstige RenderEntity-aanroep om de concrete rendertaak uit te voeren. |
+| renderEntity(renderer, commandList, node, renderableResource, subEntity) | Elke rendertaak die naar com.aspose.threed.IRenderQueue wordt gepusht, zal een overeenkomstige RenderEntity-aanroep hebben om de concrete rendertaak uit te voeren. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | renderer | Renderer | De renderer |
-| commandList | ICommandList | De commandList die wordt gebruikt om de renderopdrachten op te nemen |
+| commandList | ICommandList | De commandList die wordt gebruikt om de renderopdrachten vast te leggen |
 | node | Node | Dezelfde node die is doorgegeven aan PrepareRenderQueue van de entiteit die zal worden gerenderd |
 | renderableResource | Object | Het aangepaste object dat is doorgegeven aan IRenderQueue tijdens de PrepareRenderQueue |
-| subEntity | Number | De index van de sub entity die is doorgegeven aan IRenderQueue |
+| subEntity | Nummer | De index van de sub entity die is doorgegeven aan IRenderQueue |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Maak hier een subklasse van om rendering te implementeren voor verschillende soo
 
 | Naam | Beschrijving |
 | --- | --- |
-| dispose() | De entity renderer wordt verwijderd, maak gedeelde bronnen vrij. |
+| dispose() | De entiteit-renderer wordt verwijderd, gedeelde resources vrijgeven. |
 
  **Result:**
 

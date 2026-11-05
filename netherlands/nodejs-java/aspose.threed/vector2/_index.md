@@ -11,7 +11,7 @@ url: /nl/nodejs-java/aspose.threed/vector2/
 Een vector met twee componenten.
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -37,13 +37,13 @@ Een vector met twee componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(s) | Initialiseert een nieuw exemplaar van de Vector2-structuur. |
+| constructor_overload(s) | Initialiseert een nieuw exemplaar van de struct Vector2. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| s | Number | S. |
+| s | Nummer | S. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Een vector met twee componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload2(vec) | Initialiseert een nieuw exemplaar van de Vector2-structuur. |
+| constructor_overload2(vec) | Initialiseert een nieuw exemplaar van de struct Vector2. |
 
  **Parameters:**
 
@@ -75,14 +75,14 @@ Een vector met twee componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload3(x, y) | Initialiseert een nieuw exemplaar van de Vector2-structuur. |
+| constructor_overload3(x, y) | Initialiseert een nieuw exemplaar van de struct Vector2. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| x | Number | De x-coördinaat. |
-| y | Number | De y-coördinaat. |
+| x | Nummer | De x-coördinaat. |
+| y | Nummer | De y-coördinaat. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Een vector met twee componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| `setU(value)` | Haalt de U-component op of stelt deze in als de Vector2 wordt gebruikt als een mappingcoördinaat. Het is een alias van de x-component. |
+| setU(value) | Haalt de U-component op of stelt deze in als de Vector2 wordt gebruikt als een mappingcoördinaat. Het is een alias van de x-component. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Een vector met twee componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getV() | Haalt de V-component op of stelt deze in als de Vector2 wordt gebruikt als een mappingcoördinaat. Het is een alias van de y-component. |
+| getV() | Haalt de V-component op als de Vector2 wordt gebruikt als een mappingcoördinaat. Het is een alias van de y-component. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Een vector met twee componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| `setV(value)` | Haalt de V-component op of stelt deze in als de Vector2 wordt gebruikt als een mappingcoördinaat. Het is een alias van de y-component. |
+| setV(value) | Haalt de V-component op als de Vector2 wordt gebruikt als een mappingcoördinaat. Het is een alias van de y-component. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Een vector met twee componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| dot(rhs) | Haalt het inproduct van twee vectoren op |
+| dot(rhs) | Haalt het inproduct op van twee vectoren |
 
  **Parameters:**
 
@@ -169,7 +169,7 @@ Een vector met twee componenten.
 | rhs | Vector2 | Waarde van de rechterkant. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -198,10 +198,10 @@ boolean
 
 | Naam | Beschrijving |
 | --- | --- |
-| hashCode() | Haalt de hashcode van Vector2 op |
+| hashCode() | Haalt de hashcode op van Vector2 |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -252,7 +252,7 @@ String
 |  | Vector2 | null |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -284,7 +284,7 @@ Vector2
 | othe | Vector2 | null |
 
  **Result:**
-Number
+Nummer
 
 
 ---

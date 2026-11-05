@@ -11,12 +11,12 @@ url: /nl/nodejs-java/aspose.threed/boundingbox/
 De as‑gealigneerde begrenzingsbox
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| NULL | De null begrenzingsvak |
-| INFINITE | De oneindige begrenzingsvak |
+| NULL | De null-bounding box |
+| INFINITE | De oneindige bounding box |
 
 ## Methoden
 
@@ -37,7 +37,7 @@ De as‑gealigneerde begrenzingsbox
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(minimum, maximum) | Initialiseer een eindige begrenzingsvak met de opgegeven minimum- en maximumhoek |
+| constructor_overload(minimum, maximum) | Initialiseer een eindige bounding box met gegeven minimum- en maximumhoek |
 
  **Parameters:**
 
@@ -57,7 +57,7 @@ De as‑gealigneerde begrenzingsbox
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload2(minX, minY, minZ, maxX, maxY, maxZ) | Initialiseer een eindige begrenzingsvak met de opgegeven minimum- en maximumhoek |
+| constructor_overload2(minX, minY, minZ, maxX, maxY, maxZ) | Initialiseer een eindige bounding box met gegeven minimum- en maximumhoek |
 
  **Result:**
 
@@ -70,7 +70,7 @@ De as‑gealigneerde begrenzingsbox
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExtent() | Haalt de omvang van de begrenzingsvak op. De waarde van de eigenschap is de gehele constante BoundingBoxExtent. |
+| getExtent() | Haalt de omvang van de bounding box op. De waarde van de eigenschap is BoundingBoxExtent integer‑constante. |
 
  **Result:**
 
@@ -83,7 +83,7 @@ De as‑gealigneerde begrenzingsbox
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMinimum() | De minimumhoek van de begrenzingsvak |
+| getMinimum() | De minimumhoek van de bounding box |
 
  **Result:**
 
@@ -96,7 +96,7 @@ De as‑gealigneerde begrenzingsbox
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMaximum() | De maximumhoek van de begrenzingsvak |
+| getMaximum() | De maximale hoek van de begrenzingsvak |
 
  **Result:**
 
@@ -109,7 +109,7 @@ De as‑gealigneerde begrenzingsbox
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSize() | De grootte van het begrenzingsvak |
+| getSize() | De grootte van de begrenzingsdoos |
 
  **Result:**
 
@@ -122,7 +122,7 @@ De as‑gealigneerde begrenzingsbox
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCenter() | Het midden van het begrenzingsvak. |
+| getCenter() | Het midden van de begrenzingsdoos. |
 
  **Result:**
 
@@ -135,13 +135,13 @@ De as‑gealigneerde begrenzingsbox
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromGeometry(geometry) | Construeer een begrenzingsvak vanuit de gegeven geometrie |
+| fromGeometry(geometry) | Construeer een begrenzingsdoos vanuit de gegeven geometrie |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| geometr | Geometrie | null |
+| geometrie | Geometry | null |
 
  **Result:**
 BoundingBox
@@ -154,7 +154,7 @@ BoundingBox
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Haalt de tekenreeksrepresentatie van de begrenzingsvak op. |
+| toString() | Haalt de stringrepresentatie van de begrenzingsvak op. |
 
  **Result:**
 String
@@ -170,7 +170,7 @@ String
 | hashCode() | Retourneert de hashcode voor deze instantie |
 
  **Result:**
-Number
+Nummer
 
 
 ---

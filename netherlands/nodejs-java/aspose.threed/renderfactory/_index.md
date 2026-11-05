@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/renderfactory/
 ---
 ## RenderFactory class
 
-RenderFactory maakt alle bronnen die worden weergegeven in de renderpipeline.  @hideconstructor
+RenderFactory maakt alle bronnen aan die worden weergegeven in de renderpipeline.  @hideconstructor
 
 
 ## Methoden
@@ -17,16 +17,16 @@ RenderFactory maakt alle bronnen die worden weergegeven in de renderpipeline.  @
 
 | Naam | Beschrijving |
 | --- | --- |
-| createRenderTexture(parameters, targets, width, height) | Maak een renderdoel dat naar de texture rendert |
+| createRenderTexture(parameters, targets, width, height) | Maak een renderdoel dat naar de textuur rendert |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| parameters | RenderParameters | Renderparameters om de rendertexture te maken |
-| targets | Number | Hoeveel kleuruitvoertargets |
-| breedte | Number | De breedte van de rendertexture |
-| height | Number | De hoogte van de rendertexture |
+| parameters | RenderParameters | Renderparameters om de rendertextuur te maken |
+| targets | Nummer | Hoeveel kleuruitvoertargets |
+| width | Nummer | De breedte van de rendertextuur |
+| height | Nummer | De hoogte van de rendertextuur |
 
  **Result:**
 IRenderTexture
@@ -39,15 +39,15 @@ IRenderTexture
 
 | Naam | Beschrijving |
 | --- | --- |
-| createRenderTexture(parameters, width, height) | Maak een renderdoel dat 1 target bevat en naar de texture rendert |
+| createRenderTexture(parameters, width, height) | Maak een renderdoel dat 1 target bevat en naar de textuur rendert |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| parameters | RenderParameters | Renderparameters om de rendertexture te maken |
-| breedte | Number | De breedte van de rendertexture |
-| height | Number | De hoogte van de rendertexture |
+| parameters | RenderParameters | Renderparameters om de rendertextuur te maken |
+| width | Nummer | De breedte van de rendertextuur |
+| height | Nummer | De hoogte van de rendertextuur |
 
  **Result:**
 IRenderTexture
@@ -60,13 +60,13 @@ IRenderTexture
 
 | Naam | Beschrijving |
 | --- | --- |
-| createDescriptorSet(shader) | Maak de descriptorset voor het opgegeven shaderprogramma. |
+| createDescriptorSet(shader) | Maak de descriptorset voor het opgegeven shader‑programma. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| shader | ShaderProgram | Het shaderprogramma |
+| shader | ShaderProgram | Het shader‑programma |
 
  **Result:**
 IDescriptorSet
@@ -79,15 +79,15 @@ IDescriptorSet
 
 | Naam | Beschrijving |
 | --- | --- |
-| createCubeRenderTexture(parameters, width, height) | Maak een renderdoel dat 1 cube texture bevat |
+| createCubeRenderTexture(parameters, width, height) | Maak een renderdoel dat 1 cube‑textuur bevat |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| parameters | RenderParameters | Renderparameters om de rendertexture te maken |
-| breedte | Number | De breedte van de rendertexture |
-| height | Number | De hoogte van de rendertexture |
+| parameters | RenderParameters | Renderparameters om de rendertextuur te maken |
+| width | Nummer | De breedte van de rendertextuur |
+| height | Nummer | De hoogte van de rendertextuur |
 
  **Result:**
 IRenderTexture
@@ -100,7 +100,7 @@ IRenderTexture
 
 | Naam | Beschrijving |
 | --- | --- |
-| createRenderWindow(parameters, handle) | Maak een renderdoel dat naar het native venster rendert. |
+| createRenderWindow(parameters, handle) | Maak een renderdoel dat rendert naar het native venster. |
 
  **Parameters:**
 
@@ -120,7 +120,7 @@ IRenderWindow
 
 | Naam | Beschrijving |
 | --- | --- |
-| createVertexBuffer(declaration) | Maak een com.aspose.threed.IVertexBuffer instance om de vertexinformatie van de polygoon op te slaan. |
+| createVertexBuffer(declaration) | Maak een com.aspose.threed.IVertexBuffer-instantie om de vertex-informatie van het polygon op te slaan. |
 
  **Parameters:**
 
@@ -139,7 +139,7 @@ IVertexBuffer
 
 | Naam | Beschrijving |
 | --- | --- |
-| createIndexBuffer() | Maak een com.aspose.threed.IIndexBuffer instance om de gezichtsinformatie van de polygoon op te slaan. |
+| createIndexBuffer() | Maak een com.aspose.threed.IIndexBuffer-instantie om de vlak-informatie van het polygon op te slaan. |
 
  **Result:**
 IIndexBuffer
@@ -152,7 +152,7 @@ IIndexBuffer
 
 | Naam | Beschrijving |
 | --- | --- |
-| createTextureUnit(textureType) | Maak een texture unit die door de shader kan worden benaderd. |
+| createTextureUnit(textureType) | Maak een texture-eenheid die toegankelijk is voor de shader. |
 
  **Parameters:**
 
@@ -171,7 +171,7 @@ ITextureUnit
 
 | Naam | Beschrijving |
 | --- | --- |
-| createTextureUnit() | Maak een 2D texture unit die door de shader kan worden benaderd. |
+| createTextureUnit() | Maak een 2D-texture-eenheid die toegankelijk is voor de shader. |
 
  **Result:**
 ITextureUnit
@@ -203,15 +203,15 @@ ShaderProgram
 
 | Naam | Beschrijving |
 | --- | --- |
-| createPipeline(shader, renderState, vertexDeclaration, drawOperation) | Maak een vooraf geconfigureerde graphics-pijplijn met vooraf geconfigureerde shader/render state/vertex declaration en draw operations. |
+| createPipeline(shader, renderState, vertexDeclaration, drawOperation) | Maak een vooraf geconfigureerde graphics-pipeline met vooraf geconfigureerde shader/render-state/vertex-declaratie en teken-operaties. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| shader | ShaderProgram | De shader die wordt gebruikt bij het renderen. |
-| renderState | RenderState | De render state die wordt gebruikt bij het renderen. |
-| vertexDeclaration | VertexDeclaration | De vertex declaration van de invoer vertexgegevens. |
+| shader | ShaderProgram | De shader die wordt gebruikt bij het renderen |
+| renderState | RenderState | De renderstatus die wordt gebruikt bij het renderen |
+| vertexDeclaration | VertexDeclaration | De vertexdeclaratie van invoer-vertexgegevens |
 | drawOperation | DrawOperation | DrawOperation |
 
  **Result:**
@@ -225,13 +225,13 @@ IPipeline
 
 | Naam | Beschrijving |
 | --- | --- |
-| createUniformBuffer(size) | Maak een nieuwe uniforme buffer aan de GPU‑kant met vooraf toegewezen grootte. |
+| createUniformBuffer(size) | Maak een nieuwe uniforme buffer aan de GPU-kant met vooraf toegewezen grootte. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| grootte | Number | De grootte van de uniforme buffer |
+| grootte | Nummer | De grootte van de uniforme buffer |
 
  **Result:**
 IBuffer

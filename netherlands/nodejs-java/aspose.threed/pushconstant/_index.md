@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/pushconstant/
 ---
 ## PushConstant class
 
-Een hulpmiddel om gegevens aan de shader te leveren via een push-constante.
+Een hulpprogramma om gegevens aan de shader te leveren via een push-constante.
 
 
 ## Methoden
@@ -55,7 +55,7 @@ Een hulpmiddel om gegevens aan de shader te leveren via een push-constante.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
+|  | Nummer | null |
 
  **Result:**
 
@@ -74,7 +74,7 @@ Een hulpmiddel om gegevens aan de shader te leveren via een push-constante.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
+|  | Nummer | null |
 
  **Result:**
 
@@ -131,10 +131,10 @@ Een hulpmiddel om gegevens aan de shader te leveren via een push-constante.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Nummer | null |
+|  | Nummer | null |
+|  | Nummer | null |
+|  | Nummer | null |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Een hulpmiddel om gegevens aan de shader te leveren via een push-constante.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| stage | Number | ShaderStage |
+| stage | Nummer | ShaderStage |
 | commandLis | ICommandList | null |
 
  **Result:**
