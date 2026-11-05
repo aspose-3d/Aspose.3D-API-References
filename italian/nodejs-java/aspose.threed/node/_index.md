@@ -1,6 +1,6 @@
 ---
 title: "Nodo"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/node/
 ---
 ## Node class
 
-Rappresenta un elemento nel grafo della scena.  Un grafo della scena è un albero di oggetti Node. I servizi di gestione dell'albero sono contenuti in questa classe.  Nota che l'Aspose.3D SDK non verifica la validità del grafo della scena costruito. È responsabilità del chiamante assicurarsi che non vengano generati grafi ciclici nella gerarchia dei nodi.  Oltre alla gestione dell'albero, questa classe definisce tutte le proprietà necessarie per descrivere la posizione dell'oggetto nella scena. Queste informazioni includono le proprietà di base Traslazione, Rotazione e Scala e le opzioni più avanzate per pivot, limiti e attributi delle giunture IK come rigidità e smorzamento.  Quando viene creato per la prima volta, l'oggetto Node è "vuoto" (cioè è un oggetto senza alcuna rappresentazione grafica che contiene solo le informazioni di posizione). In questo stato, può essere usato per rappresentare i genitori nella struttura ad albero dei nodi ma non molto altro. L'uso normale di questo tipo di oggetti è aggiungere loro un'entità che specializzerà il nodo (vedi "Entity").  L'entità è un oggetto a sé stante ed è collegata al Node. Questo significa anche che la stessa entità può essere condivisa tra più nodi. Camera, Light, Mesh, ecc... sono tutte entità e derivano tutte dalla classe base Entity.
+Rappresenta un elemento nel grafo della scena.  Un grafo della scena è un albero di oggetti Node. I servizi di gestione dell'albero sono contenuti in questa classe.  Nota che l'SDK Aspose.3D non verifica la validità del grafo della scena costruito. È responsabilità del chiamante assicurarsi che non vengano generati grafi ciclici nella gerarchia dei nodi.  Oltre alla gestione dell'albero, questa classe definisce tutte le proprietà necessarie per descrivere la posizione dell'oggetto nella scena. Queste informazioni includono le proprietà di base Traslazione, Rotazione e Scala e le opzioni più avanzate per pivot, limiti e attributi delle articolazioni IK come rigidità e smorzamento.  Quando viene creato per la prima volta, l'oggetto Node è "vuoto" (cioè è un oggetto senza alcuna rappresentazione grafica che contiene solo le informazioni di posizione). In questo stato, può essere usato per rappresentare genitori nella struttura ad albero dei nodi ma non molto altro. L'uso normale di questo tipo di oggetti è aggiungerli a un'entità che specializzerà il nodo (vedi "Entity").  L'entità è un oggetto a sé stante ed è collegata al Node. Questo significa anche che la stessa entità può essere condivisa tra più nodi. Telecamera, Luce, Mesh, ecc... sono tutte entità e derivano dalla classe base Entity.
 
 
 ## Metodi
@@ -36,8 +36,8 @@ Rappresenta un elemento nel grafo della scena.  Un grafo della scena è un alber
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
-| entity | Entità | Entità predefinita. |
+| name | String | Nome. |
+| entità | Entità | Entità predefinita. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Rappresenta un elemento nel grafo della scena.  Un grafo della scena è un alber
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
+| name | String | Nome. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Rappresenta un elemento nel grafo della scena.  Un grafo della scena è un alber
 
 | Nome | Descrizione |
 | --- | --- |
-| getAssetInfo() | Informazioni sull'asset per nodo |
+| getAssetInfo() | Informazioni risorsa per nodo |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Rappresenta un elemento nel grafo della scena.  Un grafo della scena è un alber
 
 | Nome | Descrizione |
 | --- | --- |
-| setAssetInfo(value) | Informazioni sull'asset per nodo |
+| setAssetInfo(value) | Informazioni risorsa per nodo |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Rappresenta un elemento nel grafo della scena.  Un grafo della scena è un alber
 
 | Nome | Descrizione |
 | --- | --- |
-| getVisible() | Ottiene o imposta la visualizzazione del nodo |
+| getVisible() | Ottiene o imposta per mostrare il nodo |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Rappresenta un elemento nel grafo della scena.  Un grafo della scena è un alber
 
 | Nome | Descrizione |
 | --- | --- |
-| setVisible(value) | Ottiene o imposta la visualizzazione del nodo |
+| setVisible(value) | Ottiene o imposta per mostrare il nodo |
 
  **Result:**
 
@@ -368,13 +368,13 @@ Nodo
 
 | Nome | Descrizione |
 | --- | --- |
-| merge(node) | Stacca tutto sotto il nodo e li collega al nodo corrente. |
+| merge(node) | Stacca tutto sotto il nodo e lo collega al nodo corrente. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nod | Nodo | null |
+| nodo | Nodo | null |
 
  **Result:**
 Nodo
@@ -393,7 +393,7 @@ Nodo
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nodeName | Stringa | Il nome del nuovo nodo figlio |
+| nodeName | String | Il nome del nuovo nodo figlio |
 
  **Result:**
 Nodo
@@ -412,7 +412,7 @@ Nodo
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| entity | Entità | Entità predefinita allegata al nodo |
+| entità | Entità | Entità predefinita allegata al nodo |
 
  **Result:**
 Nodo
@@ -431,8 +431,8 @@ Nodo
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nodeName | Stringa | Il nome del nuovo nodo figlio |
-| entity | Entità | Entità predefinita allegata al nodo |
+| nodeName | String | Il nome del nuovo nodo figlio |
+| entità | Entità | Entità predefinita allegata al nodo |
 
  **Result:**
 Nodo
@@ -445,15 +445,15 @@ Nodo
 
 | Nome | Descrizione |
 | --- | --- |
-| createChildNode(nodeName, entity, material) | Crea un nuovo nodo figlio con il nome del nodo fornito e collega l'entità specificata e un materiale |
+| createChildNode(nodeName, entity, material) | Crea un nuovo nodo figlio con il nome del nodo fornito e allega l'entità specificata e un materiale |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nodeName | Stringa | Il nome del nuovo nodo figlio |
-| entity | Entità | Entità predefinita allegata al nodo |
-| material | Materiale | Il materiale allegato al nodo |
+| nodeName | String | Il nome del nuovo nodo figlio |
+| entità | Entità | Entità predefinita allegata al nodo |
+| materiale | Materiale | Il materiale allegato al nodo |
 
  **Result:**
 Nodo
@@ -491,7 +491,7 @@ Matrix4
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| indice | Numero | Indice. |
+| index | Numero | Indice. |
 
  **Result:**
 Nodo
@@ -510,7 +510,7 @@ Nodo
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nodeName | Stringa | Il nome del nodo figlio da trovare. |
+| nodeName | String | Il nome del figlio da trovare. |
 
  **Result:**
 Nodo
@@ -523,13 +523,13 @@ Nodo
 
 | Nome | Descrizione |
 | --- | --- |
-| accept(visitor) | Scorre tutti i nodi discendenti (incluso il nodo corrente) e chiama il visitatore con il nodo. Il visitatore può interrompere l'attraversamento restituendo false |
+| accept(visitor) | Scorre tutti i nodi discendenti (incluso il nodo corrente) e chiama il visitor con il nodo. Il visitor può interrompere il percorso restituendo false. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | NodeVisitor | Callback del visitatore per visitare il nodo |
+| visitor | NodeVisitor | Callback del visitor per visitare il nodo |
 
  **Result:**
 boolean
@@ -545,7 +545,7 @@ boolean
 | toString() | Restituisce la rappresentazione stringa di questo nodo. |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -555,7 +555,7 @@ Stringa
 
 | Nome | Descrizione |
 | --- | --- |
-| getBoundingBox() | Calcola il riquadro di delimitazione del nodo |
+| getBoundingBox() | Calcola il BoundingBox del nodo |
 
  **Result:**
 BoundingBox
@@ -574,7 +574,7 @@ BoundingBox
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| entity | Entità | L'entità da allegare al nodo |
+| entità | Entità | L'entità da allegare al nodo |
 
  **Result:**
 BoundingBox
@@ -593,7 +593,7 @@ BoundingBox
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| node | Nodo | Il nodo figlio da allegare |
+| nodo | Nodo | Il nodo figlio da allegare |
 
  **Result:**
 BoundingBox
@@ -612,10 +612,10 @@ BoundingBox
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| pat | Stringa | null |
+| pat | String | null |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -631,7 +631,7 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| pat | Stringa | null |
+| pat | String | null |
 
  **Result:**
 0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
@@ -650,7 +650,7 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -669,7 +669,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -688,10 +688,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -707,11 +707,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -721,16 +721,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

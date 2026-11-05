@@ -1,6 +1,6 @@
 ---
 title: "PdfSaveOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -134,7 +134,7 @@ Le opzioni di salvataggio nell'esportazione PDF.
 
 | Nome | Descrizione |
 | --- | --- |
-| getAuxiliaryColor() | Ottiene o imposta il colore ausiliario da utilizzare durante il rendering del contenuto 3D. L'interpretazione di questo colore dipende da RenderMode. |
+| getAuxiliaryColor() | Ottiene o imposta il colore ausiliario da utilizzare durante il rendering del contenuto 3D. L'interpretazione di questo colore dipende da RenderMode |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Le opzioni di salvataggio nell'esportazione PDF.
 
 | Nome | Descrizione |
 | --- | --- |
-| setAuxiliaryColor(value) | Ottiene o imposta il colore ausiliario da utilizzare durante il rendering del contenuto 3D. L'interpretazione di questo colore dipende da RenderMode. |
+| setAuxiliaryColor(value) | Ottiene o imposta il colore ausiliario da utilizzare durante il rendering del contenuto 3D. L'interpretazione di questo colore dipende da RenderMode |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Le opzioni di salvataggio nell'esportazione PDF.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Le opzioni di salvataggio nell'esportazione PDF.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Le opzioni di salvataggio nell'esportazione PDF.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

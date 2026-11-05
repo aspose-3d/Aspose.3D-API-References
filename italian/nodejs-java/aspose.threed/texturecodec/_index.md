@@ -1,6 +1,6 @@
 ---
 title: "TextureCodec"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -30,7 +30,7 @@ Classe per gestire encoder e decoder per le texture.
 
 | Nome | Descrizione |
 | --- | --- |
-| getSupportedEncoderFormats() | Restituisce tutti i formati di codifica supportati |
+| getSupportedEncoderFormats() | Ottiene tutti i formati di codifica supportati |
 
  **Result:**
 String[]

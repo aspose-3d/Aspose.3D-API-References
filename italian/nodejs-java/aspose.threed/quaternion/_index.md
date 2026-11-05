@@ -1,6 +1,6 @@
 ---
-title: "Quaternione"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "Quaternion"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -16,8 +16,8 @@ Il quaternione è solitamente usato per eseguire rotazioni nella grafica compute
 | Nome | Descrizione |
 | --- | --- |
 | w | Il componente w. |
-| x | Il componente x. |
-| y | Il componente y. |
+| x | La componente x. |
+| y | La componente y. |
 | z | Il componente z. |
 | IDENTITY | Il quaternione di identità. |
 
@@ -46,10 +46,10 @@ Il quaternione è solitamente usato per eseguire rotazioni nella grafica compute
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| w | Numero | componente w del quaternione |
-| x | Numero | componente x del quaternione |
-| y | Numero | componente y del quaternione |
-| z | Numero | componente z del quaternione |
+| w | Numero | Componente w del quaternione |
+| x | Numero | Componente x del quaternione |
+| y | Numero | Componente y del quaternione |
+| z | Numero | Componente z del quaternione |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Il quaternione è solitamente usato per eseguire rotazioni nella grafica compute
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Oggetto | L'oggetto da verificare l'uguaglianza. |
+| obj | Object | L'oggetto per verificare l'uguaglianza. |
 
  **Result:**
 boolean
@@ -94,7 +94,7 @@ boolean
 
 | Nome | Descrizione |
 | --- | --- |
-| hashCode() | Restituisce il codice hash del Quaternion |
+| hashCode() | Ottiene il codice hash del Quaternion |
 
  **Result:**
 Numero
@@ -107,10 +107,10 @@ Numero
 
 | Nome | Descrizione |
 | --- | --- |
-| conjugate() | Restituisce un quaternione coniugato del quaternione corrente |
+| conjugate() | Restituisce un quaternion coniugato del quaternion corrente |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---
@@ -120,10 +120,10 @@ Quaternione
 
 | Nome | Descrizione |
 | --- | --- |
-| inverse() | Restituisce un quaternione inverso del quaternione corrente |
+| inverse() | Restituisce un quaternion inverso del quaternion corrente |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---
@@ -133,13 +133,13 @@ Quaternione
 
 | Nome | Descrizione |
 | --- | --- |
-| dot(q) | Prodotto dei punti |
+| dot(q) | Prodotto scalare |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| q | Quaternione | Il quaternione |
+| q | Quaternion | Il quaternion |
 
  **Result:**
 Numero
@@ -152,7 +152,7 @@ Numero
 
 | Nome | Descrizione |
 | --- | --- |
-| eulerAngles() | Converte il quaternione in rotazione rappresentata da angoli di Eulero. Tutte le componenti sono in radianti |
+| eulerAngles() | Converte il quaternion in rotazione rappresentata da angoli di Eulero. Tutte le componenti sono in radianti |
 
  **Result:**
 Vector3
@@ -165,10 +165,10 @@ Vector3
 
 | Nome | Descrizione |
 | --- | --- |
-| normalize() | Normalizza il quaternione |
+| normalize() | Normalizza il quaternion |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---
@@ -184,10 +184,10 @@ Quaternione
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| rh | Quaternione | null |
+| rh | Quaternion | null |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---
@@ -197,17 +197,17 @@ Quaternione
 
 | Nome | Descrizione |
 | --- | --- |
-| fromAngleAxis(a, axis) | Crea un quaternione attorno all'asse dato e ruota in senso orario |
+| fromAngleAxis(a, axis) | Crea un quaternion attorno all'asse fornito e ruota in senso orario |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | a | Numero | Rotazione in senso orario in radianti |
-| asse | Vector3 | Asse |
+| axis | Vector3 | Asse |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---
@@ -217,7 +217,7 @@ Quaternione
 
 | Nome | Descrizione |
 | --- | --- |
-| fromRotation(orig, dest) | Crea un quaternione che ruota dalla direzione originale a quella di destinazione |
+| fromRotation(orig, dest) | Crea un quaternion che ruota dalla direzione originale a quella di destinazione |
 
  **Parameters:**
 
@@ -227,7 +227,7 @@ Quaternione
 | dest | Vector3 | Direzione di destinazione |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---
@@ -237,18 +237,18 @@ Quaternione
 
 | Nome | Descrizione |
 | --- | --- |
-| fromEulerAngle(pitch, yaw, roll) | Crea un quaternione dall'angolo di Eulero fornito |
+| fromEulerAngle(pitch, yaw, roll) | Crea un quaternion dall'angolo di Eulero fornito |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| pitch | Numero | pitch in radianti |
-| yaw | Numero | Yaw in radianti |
-| rotazione | Numero | Rotazione in radianti |
+| inclinazione | Numero | Inclinazione in radianti |
+| imbardata | Numero | Imbardata in radianti |
+| rollio | Numero | Rollio in radianti |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---
@@ -258,7 +258,7 @@ Quaternione
 
 | Nome | Descrizione |
 | --- | --- |
-| fromEulerAngle(eulerAngle) | Crea un quaternione dall'angolo di Eulero fornito |
+| fromEulerAngle(eulerAngle) | Crea un quaternion dall'angolo di Eulero fornito |
 
  **Parameters:**
 
@@ -267,7 +267,7 @@ Quaternione
 | eulerAngle | Vector3 | Angolo di Eulero in radianti |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---
@@ -290,10 +290,10 @@ Matrix4
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Ottiene la rappresentazione del quaternion in una stringa |
+| toString() | Ottiene la rappresentazione del quaternion in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -310,11 +310,11 @@ Stringa
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | t | Numero | Il coefficiente da interpolare. |
-| from | Quaternione | Quaternion di origine. |
-| to | Quaternione | Quaternion di destinazione. |
+| da | Quaternion | Quaternion di origine. |
+| a | Quaternion | Quaternion di destinazione. |
 
  **Result:**
-Quaternione
+Quaternion
 
 
 ---

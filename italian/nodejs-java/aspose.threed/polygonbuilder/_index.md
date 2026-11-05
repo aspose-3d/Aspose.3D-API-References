@@ -1,6 +1,6 @@
 ---
 title: "PolygonBuilder"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Una classe di supporto per costruire poligoni per Mesh
 
 | Nome | Descrizione |
 | --- | --- |
-| costruttore(mesh) | Inizializza una nuova istanza della classe PolygonBuilder. |
+| constructor(mesh) | Inizializza una nuova istanza della classe PolygonBuilder. |
 
  **Parameters:**
 

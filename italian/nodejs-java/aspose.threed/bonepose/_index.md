@@ -1,6 +1,6 @@
 ---
 title: "BonePose"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/bonepose/
 ---
 ## BonePose class
 
-Il BonePose contiene la matrice di trasformazione per un nodo bone
+Il BonePose contiene la matrice di trasformazione per un nodo osso
 
 
 ## Metodi
@@ -30,7 +30,7 @@ Il BonePose contiene la matrice di trasformazione per un nodo bone
 
 | Nome | Descrizione |
 | --- | --- |
-| getNode() | Ottiene o imposta il nodo della scena, che punta a un nodo scheletro con skin |
+| getNode() | Ottiene o imposta il nodo della scena, punta a un nodo scheletro con skin |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Il BonePose contiene la matrice di trasformazione per un nodo bone
 
 | Nome | Descrizione |
 | --- | --- |
-| setNode(value) | Ottiene o imposta il nodo della scena, che punta a un nodo scheletro con skin |
+| setNode(value) | Ottiene o imposta il nodo della scena, punta a un nodo scheletro con skin |
 
  **Result:**
 

@@ -1,6 +1,6 @@
 ---
-title: "Scene"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "Scena"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/scene/
 ---
 ## Scene class
 
-Una scena è un oggetto di livello superiore che contiene nodi, geometrie, materiali, texture, animazioni, pose, sotto-scene ecc.  La scena può avere sotto-scene, funge da supporto multi-documento in file come collada/blender/fbx.  La gerarchia dei nodi è accessibile tramite RootNodeLibrary, che viene utilizzata per mantenere un riferimento agli oggetti non collegati durante la serializzazione (come metadati o oggetti personalizzati) così da poter essere usata come libreria.
+Una scena è un oggetto di livello superiore che contiene i nodi, le geometrie, i materiali, le texture, l'animazione, le pose, le sotto-scene, ecc.  La scena può avere sotto-scene, funge da supporto multi-documento in file come collada/blender/fbx.  La gerarchia dei nodi è accessibile tramite RootNodeLibrary, che viene utilizzata per mantenere un riferimento agli oggetti non allegati durante la serializzazione (come metadati o oggetti personalizzati) in modo da poterla usare come libreria.
 
 
 ## Metodi
@@ -17,7 +17,7 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor() | Inizializza una nuova istanza della classe Scene. |
+| constructor() | Inizializza una nuova istanza della classe Scena. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload(entity) | Inizializza una nuova istanza della classe Scene con un'entità collegata a un nuovo nodo. |
+| constructor_overload(entity) | Inizializza una nuova istanza della classe Scena con un'entità collegata a un nuovo nodo. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| entity | Entità | L'entità iniziale che è stata collegata alla scena |
+| entità | Entità | L'entità iniziale che è collegata alla scena |
 
  **Result:**
 
@@ -49,14 +49,14 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload2(parentScene, name) | Inizializza una nuova istanza della classe Scene come sotto-scena. |
+| constructor_overload2(parentScene, name) | Inizializza una nuova istanza della classe Scena come sotto-scena. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| parentScene | Scene | La scena padre. |
-| name | Stringa | Nome della scena. |
+| parentScene | Scena | La scena genitore. |
+| name | String | Nome della scena. |
 
  **Result:**
 
@@ -69,13 +69,13 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload3(fileName) | Inizializza una nuova istanza della classe Scene e apre il file immediatamente. Questo è un costruttore obsoleto, si prega di utilizzare #Error Cref: M:Aspose.ThreeD.Scene.FromFile(System.String,System.Threading.CancellationToken). |
+| constructor_overload3(fileName) | Inizializza una nuova istanza della classe Scena e apre immediatamente il file. Questo è un costruttore obsoleto, si prega di utilizzare #Error Cref: M:Aspose.ThreeD.Scene.FromFile(System.String,System.Threading.CancellationToken). |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Nome del file da aprire. |
+| fileName | String | Nome del file da aprire. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| getCurrentAnimationClip() | Ottiene o imposta l'AnimationClip attivo |
+| getCurrentAnimationClip() | Restituisce o imposta l'AnimationClip attivo |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| setCurrentAnimationClip(value) | Ottiene o imposta l'AnimationClip attivo |
+| setCurrentAnimationClip(value) | Restituisce o imposta l'AnimationClip attivo |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| getAssetInfo() | Ottiene o imposta le informazioni dell'asset di livello superiore. Le informazioni del documento. |
+| getAssetInfo() | Restituisce o imposta le informazioni dell'asset di livello superiore. Le informazioni del documento. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| setAssetInfo(value) | Ottiene o imposta le informazioni dell'asset di livello superiore. Le informazioni del documento. |
+| setAssetInfo(value) | Restituisce o imposta le informazioni dell'asset di livello superiore. Le informazioni del documento. |
 
  **Result:**
 
@@ -257,13 +257,13 @@ Una scena è un oggetto di livello superiore che contiene nodi, geometrie, mater
 
 | Nome | Descrizione |
 | --- | --- |
-| getAnimationClip(name) | Restituisce un AnimationClip nominato |
+| getAnimationClip(name) | Restituisce un AnimationClip con nome |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Il |
+| name | String | Il |
 
  **Result:**
 AnimationClip
@@ -289,13 +289,13 @@ AnimationClip
 
 | Nome | Descrizione |
 | --- | --- |
-| createAnimationClip(name) | Una funzione abbreviata per creare e registrare l'AnimationClip Il primo AnimationClip sarà assegnato al CurrentAnimationClip |
+| createAnimationClip(name) | Una funzione abbreviata per creare e registrare l'AnimationClip. Il primo AnimationClip sarà assegnato al CurrentAnimationClip |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome del clip di animazione |
+| name | String | Nome dell'Animation clip |
 
  **Result:**
 AnimationClip
@@ -308,13 +308,13 @@ AnimationClip
 
 | Nome | Descrizione |
 | --- | --- |
-| open(fileName, options) | Apre la scena dal percorso fornito utilizzando il formato file specificato. |
+| open(fileName, options) | Apre la scena dal percorso fornito usando il formato file specificato. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Nome file. |
+| fileName | String | Nome file. |
 | opzioni | LoadOptions | Configurazione più dettagliata per aprire lo stream. |
 
  **Result:**
@@ -334,7 +334,7 @@ AnimationClip
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Nome file. |
+| fileName | String | Nome file. |
 
  **Result:**
 AnimationClip
@@ -353,7 +353,7 @@ AnimationClip
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Nome file. |
+| fileName | String | Nome file. |
 
  **Result:**
 AnimationClip
@@ -366,13 +366,13 @@ AnimationClip
 
 | Nome | Descrizione |
 | --- | --- |
-| save(fileName) | Salva la scena nel percorso specificato utilizzando il formato file specificato. |
+| save(fileName) | Salva la scena nel percorso specificato usando il formato file specificato. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Nome file. |
+| fileName | String | Nome file. |
 
  **Result:**
 AnimationClip
@@ -385,14 +385,14 @@ AnimationClip
 
 | Nome | Descrizione |
 | --- | --- |
-| save(fileName, format) | Salva la scena nel percorso specificato utilizzando il formato file specificato. |
+| save(fileName, format) | Salva la scena nel percorso specificato usando il formato file specificato. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Nome file. |
-| format | FormatoFile | Formato. |
+| fileName | String | Nome file. |
+| format | FileFormat | Formato. |
 
  **Result:**
 AnimationClip
@@ -405,13 +405,13 @@ AnimationClip
 
 | Nome | Descrizione |
 | --- | --- |
-| save(fileName, options) | Salva la scena nel percorso specificato utilizzando il formato file specificato. |
+| save(fileName, options) | Salva la scena nel percorso specificato usando il formato file specificato. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Nome file. |
+| fileName | String | Nome file. |
 | opzioni | SaveOptions | Configurazione più dettagliata per salvare lo stream. |
 
  **Result:**
@@ -425,14 +425,14 @@ AnimationClip
 
 | Nome | Descrizione |
 | --- | --- |
-| render(camera, fileName) | Renderizza la scena in un file esterno dalla prospettiva della telecamera fornita. La dimensione di output predefinita è 1024x768 e il formato di output è png. |
+| render(camera, fileName) | Renderizza la scena in un file esterno dalla prospettiva della camera specificata. La dimensione di output predefinita è 1024x768 e il formato di output è png |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| telecamera | Telecamera | Da quale prospettiva della telecamera renderizzare la scena |
-| fileName | Stringa | Il nome file del file di output |
+| camera | Camera | Da quale prospettiva della camera renderizzare la scena |
+| fileName | String | Il nome del file di output |
 
  **Result:**
 AnimationClip
@@ -451,10 +451,10 @@ AnimationClip
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| telecamera | Telecamera | Da quale prospettiva della telecamera renderizzare la scena |
-| fileName | Stringa | Il nome file del file di output |
-| dimensione | Vector2 | La dimensione dell'immagine renderizzata finale |
-| format | Stringa | Il formato immagine del file di output |
+| camera | Camera | Da quale prospettiva della camera renderizzare la scena |
+| fileName | String | Il nome del file di output |
+| dimensione | Vector2 | La dimensione dell'immagine finale renderizzata |
+| format | String | Il formato immagine del file di output |
 
  **Result:**
 AnimationClip
@@ -473,10 +473,10 @@ AnimationClip
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| telecamera | Telecamera | Da quale prospettiva della telecamera renderizzare la scena |
-| fileName | Stringa | Il nome file del file di output |
-| dimensione | Vector2 | La dimensione dell'immagine renderizzata finale |
-| format | Stringa | Il formato immagine del file di output |
+| camera | Camera | Da quale prospettiva della camera renderizzare la scena |
+| fileName | String | Il nome del file di output |
+| dimensione | Vector2 | La dimensione dell'immagine finale renderizzata |
+| format | String | Il formato immagine del file di output |
 | opzioni | ImageRenderOptions | L'opzione per personalizzare alcune impostazioni interne. |
 
  **Result:**
@@ -490,13 +490,13 @@ AnimationClip
 
 | Nome | Descrizione |
 | --- | --- |
-| render(camera, bitmap) | Renderizza la scena in bitmap dalla prospettiva della fotocamera fornita. |
+| render(camera, bitmap) | Renderizza la scena in un bitmap dalla prospettiva della telecamera fornita. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| telecamera | Telecamera | Da quale prospettiva della telecamera renderizzare la scena |
+| camera | Camera | Da quale prospettiva della camera renderizzare la scena |
 | bitmap | TextureData | Destinazione del risultato renderizzato |
 
  **Result:**
@@ -510,13 +510,13 @@ AnimationClip
 
 | Nome | Descrizione |
 | --- | --- |
-| render(camera, bitmap, options) | Renderizza la scena in bitmap dalla prospettiva della fotocamera fornita. |
+| render(camera, bitmap, options) | Renderizza la scena in un bitmap dalla prospettiva della telecamera fornita. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| telecamera | Telecamera | Da quale prospettiva della telecamera renderizzare la scena |
+| camera | Camera | Da quale prospettiva della camera renderizzare la scena |
 | bitmap | TextureData | Destinazione del risultato renderizzato |
 | opzioni | ImageRenderOptions | L'opzione per personalizzare alcune impostazioni interne. |
 
@@ -537,7 +537,7 @@ AnimationClip
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -556,7 +556,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -575,10 +575,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -594,11 +594,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -608,16 +608,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

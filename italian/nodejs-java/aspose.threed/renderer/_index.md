@@ -1,6 +1,6 @@
 ---
 title: "Renderer"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -82,7 +82,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getRenderFactory() | Ottiene la factory per creare oggetti correlati al rendering. |
+| getRenderFactory() | Ottiene la fabbrica per creare oggetti relativi al rendering. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getPostProcessings() | Catena di post-processing attiva |
+| getPostProcessings() | Catena di post-elaborazione attiva |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getRenderTarget() | Specifica il target di rendering su cui verranno eseguite le successive operazioni di rendering. |
+| getRenderTarget() | Specifica il target di rendering su cui verranno eseguite le operazioni di rendering successive. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getNode() | Ottiene o imposta l'istanza Node utilizzata per fornire la matrice di trasformazione mondiale. |
+| getNode() | Ottiene o imposta l'istanza Node utilizzata per fornire la matrice di trasformazione del mondo. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setNode(value) | Ottiene o imposta l'istanza Node utilizzata per fornire la matrice di trasformazione mondiale. |
+| setNode(value) | Ottiene o imposta l'istanza Node utilizzata per fornire la matrice di trasformazione del mondo. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getRenderStage() | Ottiene lo stato di rendering corrente. Il valore della proprietà è la costante intera RenderStage. |
+| getRenderStage() | Ottiene lo stage di rendering corrente. Il valore della proprietà è la costante intera RenderStage. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getMaterial() | Ottiene o imposta il materiale utilizzato per fornire le informazioni sui materiali usate dagli shader. |
+| getMaterial() | Ottiene o imposta il materiale utilizzato per fornire le informazioni sul materiale usate dagli shader. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setMaterial(value) | Ottiene o imposta il materiale utilizzato per fornire le informazioni sui materiali usate dagli shader. |
+| setMaterial(value) | Ottiene o imposta il materiale utilizzato per fornire le informazioni sul materiale usate dagli shader. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getFallbackEntityRenderer() | Ottiene o imposta il renderer di fallback dell'entità quando l'entità non ha un renderer speciale definito. |
+| getFallbackEntityRenderer() | Ottiene o imposta il renderer di fallback per l'entità quando l'entità non ha un renderer speciale definito. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setFallbackEntityRenderer(value) | Ottiene o imposta il renderer di fallback dell'entità quando l'entità non ha un renderer speciale definito. |
+| setFallbackEntityRenderer(value) | Ottiene o imposta il renderer di fallback per l'entità quando l'entità non ha un renderer speciale definito. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| clearCache() | Cancella manualmente la cache. Aspose.3D memorizzerà nella cache alcuni oggetti come materiali/geometrie in tipi interni compatibili con la pipeline di rendering. Questo dovrebbe essere chiamato manualmente quando la scena subisce cambiamenti importanti. |
+| clearCache() | Cancella manualmente la cache. Aspose.3D memorizzerà nella cache alcuni oggetti come materiali/geometrie in tipi interni compatibili con la pipeline di rendering. Questo dovrebbe essere chiamato manualmente quando la scena subisce modifiche importanti. |
 
  **Result:**
 
@@ -316,13 +316,13 @@ Il contesto relativo al renderer.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getPostProcessing(name) | Ottiene un post-processore integrato supportato dal renderer. |
+| getPostProcessing(name) | Ottiene un post‑processore integrato supportato dal renderer. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nam | Stringa | null |
+| nam | String | null |
 
  **Result:**
 PostProcessing
@@ -335,7 +335,7 @@ PostProcessing
 
 | Nome | Descrizione |
 | --- | --- |
-| execute(postProcessing, result) | Esegue un post-processing sul target di rendering specificato |
+| execute(postProcessing, result) | Esegue un post‑processing sul target di rendering specificato. |
 
  **Result:**
 PostProcessing
@@ -361,7 +361,7 @@ Renderer
 
 | Nome | Descrizione |
 | --- | --- |
-| registerEntityRenderer(renderer) | Registra il renderer dell'entità per l'entità specificata |
+| registerEntityRenderer(renderer) | Registra il renderer dell'entità per l'entità specificata. |
 
  **Parameters:**
 
@@ -380,7 +380,7 @@ Renderer
 
 | Nome | Descrizione |
 | --- | --- |
-| render(renderTarget) | Esegui il rendering del target specificato |
+| render(renderTarget) | Esegue il rendering del target specificato. |
 
  **Parameters:**
 

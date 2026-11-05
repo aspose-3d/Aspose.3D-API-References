@@ -1,6 +1,6 @@
 ---
 title: "Matrix4"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -266,7 +266,7 @@ Number[]
 | toString() | Restituisce una java.lang.String che rappresenta l'attuale Matrix4. |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -282,7 +282,7 @@ Stringa
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| t | Vector3 | Offset di traslazione |
+| t | Vector3 | Trasla offset |
 
  **Result:**
 Matrix4
@@ -375,7 +375,7 @@ Matrix4
 
 | Nome | Descrizione |
 | --- | --- |
-| rotateFromEuler(eul) | Crea una matrice di rotazione da un angolo di Eulero |
+| rotateFromEuler(eul) | Crea una matrice di rotazione da un angolo di Euler |
 
  **Parameters:**
 
@@ -394,7 +394,7 @@ Matrix4
 
 | Nome | Descrizione |
 | --- | --- |
-| rotateFromEuler(rx, ry, rz) | Crea una matrice di rotazione da un angolo di Eulero |
+| rotateFromEuler(rx, ry, rz) | Crea una matrice di rotazione da un angolo di Euler |
 
  **Parameters:**
 
@@ -421,8 +421,8 @@ Matrix4
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| angolo | Numero | Angolo di rotazione in radianti |
-| asse | Vector3 | Asse di rotazione |
+| angle | Numero | Angolo di rotazione in radianti |
+| axis | Vector3 | Asse di rotazione |
 
  **Result:**
 Matrix4
@@ -441,7 +441,7 @@ Matrix4
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| q | Quaternione | Quaternione di rotazione |
+| q | Quaternion | Quaternione di rotazione |
 
  **Result:**
 Matrix4

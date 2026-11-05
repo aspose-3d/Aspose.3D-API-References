@@ -1,6 +1,6 @@
 ---
 title: "ShaderTechnique"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/shadertechnique/
 ---
 ## ShaderTechnique class
 
-Una tecnica shader rappresenta un'implementazione concreta di rendering.
+Una tecnica shader rappresenta un'implementazione di rendering concreta.
 
 
 ## Metodi
@@ -160,7 +160,7 @@ Una tecnica shader rappresenta un'implementazione concreta di rendering.
 
 | Nome | Descrizione |
 | --- | --- |
-| getShaderEntry() | Ottiene o imposta il punto di ingresso dello shader; alcuni shader come HLSL possono avere ingressi shader personalizzati. |
+| getShaderEntry() | Ottiene o imposta il punto di ingresso dello shader, alcuni shader come HLSL possono avere voci di shader personalizzate. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Una tecnica shader rappresenta un'implementazione concreta di rendering.
 
 | Nome | Descrizione |
 | --- | --- |
-| setShaderEntry(value) | Ottiene o imposta il punto di ingresso dello shader; alcuni shader come HLSL possono avere ingressi shader personalizzati. |
+| setShaderEntry(value) | Ottiene o imposta il punto di ingresso dello shader, alcuni shader come HLSL possono avere voci di shader personalizzate. |
 
  **Result:**
 
@@ -257,8 +257,8 @@ Una tecnica shader rappresenta un'implementazione concreta di rendering.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Il nome della proprietà dinamica. |
-| shaderParameter | Stringa | Il nome del parametro shader. |
+| proprietà | String | Il nome della proprietà dinamica. |
+| shaderParameter | String | Il nome del parametro shader. |
 
  **Result:**
 

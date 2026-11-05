@@ -1,6 +1,6 @@
 ---
 title: "ExportException"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/exportexception/
 ---
 ## ExportException class
 
-Eccezioni quando Aspose.3D non riesce a esportare la scena in un file
+Eccezioni quando Aspose.3D non riesce a esportare la scena su file
 
 
 ## Metodi
@@ -23,7 +23,7 @@ Eccezioni quando Aspose.3D non riesce a esportare la scena in un file
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| msg | Stringa | Messaggio di errore |
+| msg | String | Messaggio di errore |
 
  **Result:**
 

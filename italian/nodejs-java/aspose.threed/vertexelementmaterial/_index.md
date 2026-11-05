@@ -1,6 +1,6 @@
 ---
 title: "VertexElementMaterial"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/vertexelementmaterial/
 ---
 ## VertexElementMaterial class
 
-Definisce l'indice del materiale per le componenti specificate.  Un nodo può avere più materiali, il VertexElementMaterial è usato per renderizzare parti diverse della geometria con materiali differenti.
+Definisce l'indice del materiale per i componenti specificati. Un nodo può avere più materiali, il VertexElementMaterial è usato per renderizzare parti diverse della geometria con materiali differenti.
 
 
 ## Metodi
@@ -121,7 +121,7 @@ Definisce l'indice del materiale per le componenti specificate.  Un nodo può av
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndices() | Ottiene i dati degli indici. L'array di indici. |
+| getIndices() | Ottiene i dati degli indici. L'array degli indici. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Definisce l'indice del materiale per le componenti specificate.  Un nodo può av
 
 | Nome | Descrizione |
 | --- | --- |
-| clear() | Rimuove tutti gli elementi dagli array direct e index. |
+| clear() | Rimuove tutti gli elementi dagli array diretti e di indice. |
 
  **Result:**
 
@@ -166,10 +166,10 @@ Definisce l'indice del materiale per le componenti specificate.  Un nodo può av
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Rappresentazione stringa dell'elemento vertex. |
+| toString() | Rappresentazione stringa dell'elemento vertice. |
 
  **Result:**
-Stringa
+String
 
 
 ---

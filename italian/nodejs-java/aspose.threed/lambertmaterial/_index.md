@@ -1,6 +1,6 @@
 ---
 title: "LambertMaterial"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -36,7 +36,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome |
+| name | String | Nome |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Descrizione |
 | --- | --- |
-| getAmbientColor() | Ottiene o imposta il colore ambientale L'esempio: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambient. |
+| getAmbientColor() | Ottiene o imposta il colore ambientale L'esempio: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambientale. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Descrizione |
 | --- | --- |
-| setAmbientColor(value) | Ottiene o imposta il colore ambientale L'esempio: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambient. |
+| setAmbientColor(value) | Ottiene o imposta il colore ambientale L'esempio: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambientale. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Descrizione |
 | --- | --- |
-| getDiffuseColor() | Ottiene o imposta il colore diffuso. Esempio: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuso. |
+| getDiffuseColor() | Ottiene o imposta il colore diffuso L'esempio: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuso. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Descrizione |
 | --- | --- |
-| setDiffuseColor(value) | Ottiene o imposta il colore diffuso. Esempio: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuso. |
+| setDiffuseColor(value) | Ottiene o imposta il colore diffuso L'esempio: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuso. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Descrizione |
 | --- | --- |
-| getTransparentColor() | Ottiene o imposta il colore trasparente. Esempio: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); colore del trasparente. |
+| getTransparentColor() | Ottiene o imposta il colore trasparente. L'esempio: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); colore della trasparenza. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Descrizione |
 | --- | --- |
-| setTransparentColor(value) | Ottiene o imposta il colore trasparente. Esempio: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); colore del trasparente. |
+| setTransparentColor(value) | Ottiene o imposta il colore trasparente. L'esempio: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); colore della trasparenza. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Descrizione |
 | --- | --- |
-| getTransparency() | Ottiene o imposta il fattore di trasparenza. Il fattore deve essere compreso tra 0 (0%, completamente opaco) e 1 (100%, completamente trasparente). Qualsiasi valore di fattore non valido verrà limitato. Esempio: var mat = new LambertMaterial(); mat.Transparency = 0.3; fattore di trasparenza. |
+| getTransparency() | Ottiene o imposta il fattore di trasparenza. Il fattore deve essere compreso tra 0 (0%, completamente opaco) e 1 (100%, completamente trasparente). Qualsiasi valore di fattore non valido verrà limitato. L'esempio: var mat = new LambertMaterial(); mat.Transparency = 0.3; fattore di trasparenza. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Descrizione |
 | --- | --- |
-| setTransparency(value) | Ottiene o imposta il fattore di trasparenza. Il fattore deve essere compreso tra 0 (0%, completamente opaco) e 1 (100%, completamente trasparente). Qualsiasi valore di fattore non valido verrà limitato. Esempio: var mat = new LambertMaterial(); mat.Transparency = 0.3; fattore di trasparenza. |
+| setTransparency(value) | Ottiene o imposta il fattore di trasparenza. Il fattore deve essere compreso tra 0 (0%, completamente opaco) e 1 (100%, completamente trasparente). Qualsiasi valore di fattore non valido verrà limitato. L'esempio: var mat = new LambertMaterial(); mat.Transparency = 0.3; fattore di trasparenza. |
 
  **Result:**
 
@@ -224,7 +224,7 @@ Materiale per il modello di shading Lambert
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| slotName | Stringa | Nome slot. |
+| slotName | String | Nome slot. |
 
  **Result:**
 TextureBase
@@ -243,7 +243,7 @@ TextureBase
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| slotName | Stringa | Nome slot. |
+| slotName | String | Nome slot. |
 | texture | TextureBase | Texture. |
 
  **Result:**
@@ -260,7 +260,7 @@ TextureBase
 | toString() | Formatta l'oggetto in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -276,7 +276,7 @@ Stringa
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -295,7 +295,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -314,10 +314,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -333,11 +333,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -347,16 +347,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---
@@ -369,7 +369,7 @@ Property
 | iterator() | Riservato per uso interno. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

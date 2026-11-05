@@ -1,6 +1,6 @@
 ---
 title: "RenderParameters"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Descrivi i parametri del render target
 
 | Nome | Descrizione |
 | --- | --- |
-| costruttore(doubleBuffering, colorBits, depthBits, stencilBits) | Inizializza un'istanza di PixelFormat |
+| constructor(doubleBuffering, colorBits, depthBits, stencilBits) | Inizializza un'istanza di PixelFormat |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Descrivi i parametri del render target
 
 | Nome | Descrizione |
 | --- | --- |
-| getDoubleBuffering() | Ottiene o imposta se il double buffer è utilizzato. |
+| getDoubleBuffering() | Ottiene o imposta se viene utilizzato il double buffer. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Descrivi i parametri del render target
 
 | Nome | Descrizione |
 | --- | --- |
-| setDoubleBuffering(value) | Ottiene o imposta se il double buffer è utilizzato. |
+| setDoubleBuffering(value) | Ottiene o imposta se viene utilizzato il double buffer. |
 
  **Result:**
 

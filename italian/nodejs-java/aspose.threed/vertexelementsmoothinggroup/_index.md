@@ -1,6 +1,6 @@
 ---
 title: "VertexElementSmoothingGroup"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/vertexelementsmoothinggroup/
 ---
 ## VertexElementSmoothingGroup class
 
-Un gruppo di smussatura è un gruppo di poligoni in una mesh poligonale che dovrebbe apparire come una superficie liscia.  Alcuni primi software di modellazione 3D come 3D Studio Max per DOS usavano il gruppo di smussatura per evitare di memorizzare il vettore normale per ogni vertice della mesh.
+Un gruppo di smoothing è un gruppo di poligoni in una mesh poligonale che dovrebbe apparire come una superficie liscia. Alcuni primi software di modellazione 3d come 3D Studio Max per DOS usavano il gruppo di smoothing per evitare di memorizzare il vettore normale per ogni vertice della mesh.
 
 
 ## Metodi
@@ -134,7 +134,7 @@ Un gruppo di smussatura è un gruppo di poligoni in una mesh poligonale che dovr
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndices() | Ottiene i dati degli indici. L'array di indici. |
+| getIndices() | Ottiene i dati degli indici. L'array degli indici. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Un gruppo di smussatura è un gruppo di poligoni in una mesh poligonale che dovr
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| target | VertexElementIntsTemplate | Target. |
+| target | VertexElementIntsTemplate | Obiettivo. |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Un gruppo di smussatura è un gruppo di poligoni in una mesh poligonale che dovr
 
 | Nome | Descrizione |
 | --- | --- |
-| clear() | Rimuove tutti gli elementi dagli array direct e index. |
+| clear() | Rimuove tutti gli elementi dagli array diretti e di indice. |
 
  **Result:**
 
@@ -217,10 +217,10 @@ Un gruppo di smussatura è un gruppo di poligoni in una mesh poligonale che dovr
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Rappresentazione stringa dell'elemento vertex. |
+| toString() | Rappresentazione stringa dell'elemento vertice. |
 
  **Result:**
-Stringa
+String
 
 
 ---

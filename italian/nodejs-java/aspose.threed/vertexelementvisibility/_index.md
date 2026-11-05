@@ -1,6 +1,6 @@
 ---
 title: "VertexElementVisibility"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/vertexelementvisibility/
 ---
 ## VertexElementVisibility class
 
-Definisce se le componenti specificate sono visibili
+Definisce se i componenti specificati sono visibili
 
 
 ## Metodi
@@ -134,7 +134,7 @@ Definisce se le componenti specificate sono visibili
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndices() | Ottiene i dati degli indici. L'array di indici. |
+| getIndices() | Ottiene i dati degli indici. L'array degli indici. |
 
  **Result:**
 
@@ -179,10 +179,10 @@ Definisce se le componenti specificate sono visibili
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Rappresentazione stringa dell'elemento vertex. |
+| toString() | Rappresentazione stringa dell'elemento vertice. |
 
  **Result:**
-Stringa
+String
 
 
 ---

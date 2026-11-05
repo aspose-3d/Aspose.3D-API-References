@@ -1,6 +1,6 @@
 ---
 title: "KeyFrame"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/keyframe/
 ---
 ## KeyFrame class
 
-Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi di interpolazione, tangente/tensione/bias/continuità sono anche usati nel calcolo del valore campionato finale.  I valori campionati in una posizione temporale non key-frame sono interpolati dai key-frame tra il key-frame precedente e quello successivo.  I valori prima/dopo il primo/ultimo key-frame sono calcolati dalla classe Extrapolation.
+Un fotogramma chiave è principalmente definito da un tempo e un valore; per alcuni tipi di interpolazione, tangente/tensione/bias/continuità sono anche usati nel calcolo del valore campionato finale.  I valori campionati in una posizione temporale non appartenente a un fotogramma chiave sono interpolati dai fotogrammi chiave tra il precedente e il successivo.  Il valore prima/dopo il primo/ultimo fotogramma chiave è calcolato dalla classe Extrapolation.
 
 
 ## Metodi
@@ -23,8 +23,8 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| curve | KeyframeSequence | La curva su cui verrà creato il fotogramma chiave |
-| time | Numero | La posizione temporale del fotogramma chiave |
+| curva | KeyframeSequence | La curva su cui verrà creato il key frame |
+| time | Numero | La posizione temporale del key frame |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getTime() | Ottiene o imposta la posizione temporale del fotogramma chiave list.data[index], misurata in secondi. Il tempo. |
+| getTime() | Ottiene o imposta la posizione temporale del key frame list.data[index], misurata in secondi. Il tempo. |
 
  **Result:**
 
@@ -50,7 +50,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setTime(value) | Ottiene o imposta la posizione temporale del fotogramma chiave list.data[index], misurata in secondi. Il tempo. |
+| setTime(value) | Ottiene o imposta la posizione temporale del key frame list.data[index], misurata in secondi. Il tempo. |
 
  **Result:**
 
@@ -63,7 +63,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getValue() | Ottiene o imposta il valore del fotogramma chiave. Il valore. |
+| getValue() | Ottiene o imposta il valore del key-frame. Il valore. |
 
  **Result:**
 
@@ -76,7 +76,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setValue(value) | Ottiene o imposta il valore del fotogramma chiave. Il valore. |
+| setValue(value) | Ottiene o imposta il valore del key-frame. Il valore. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getInterpolation() | Ottiene o imposta il tipo di interpolazione del fotogramma chiave, list.data[index] definisce l'algoritmo con cui viene calcolato il valore campionato. Il valore della proprietà è la costante intera Interpolation. L'interpolazione. |
+| getInterpolation() | Ottiene o imposta il tipo di interpolazione del key, list.data[index] definisce l'algoritmo con cui il valore campionato è calcolato. Il valore della proprietà è la costante intera Interpolation. L'interpolazione. |
 
  **Result:**
 
@@ -102,7 +102,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setInterpolation(value) | Ottiene o imposta il tipo di interpolazione del fotogramma chiave, list.data[index] definisce l'algoritmo con cui viene calcolato il valore campionato. Il valore della proprietà è la costante intera Interpolation. L'interpolazione. |
+| setInterpolation(value) | Ottiene o imposta il tipo di interpolazione del key, list.data[index] definisce l'algoritmo con cui il valore campionato è calcolato. Il valore della proprietà è la costante intera Interpolation. L'interpolazione. |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getTangentWeightMode() | Ottiene o imposta la modalità di peso della tangente del fotogramma chiave. La tangente di uscita o la successiva tangente di ingresso possono essere personalizzate selezionando il WeightedMode corretto. Il valore della proprietà è la costante intera WeightedMode. La modalità di peso della tangente. |
+| getTangentWeightMode() | Ottiene o imposta la modalità di peso della tangente del key. La tangente di uscita o la successiva tangente di ingresso possono essere personalizzate selezionando il WeightedMode corretto. Il valore della proprietà è la costante intera WeightedMode. La modalità di peso della tangente. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setTangentWeightMode(value) | Ottiene o imposta la modalità di peso della tangente del fotogramma chiave. La tangente di uscita o la successiva tangente di ingresso possono essere personalizzate selezionando il WeightedMode corretto. Il valore della proprietà è la costante intera WeightedMode. La modalità di peso della tangente. |
+| setTangentWeightMode(value) | Ottiene o imposta la modalità di peso della tangente del key. La tangente di uscita o la successiva tangente di ingresso possono essere personalizzate selezionando il WeightedMode corretto. Il valore della proprietà è la costante intera WeightedMode. La modalità di peso della tangente. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getStepMode() | Ottiene o imposta la modalità di passo del fotogramma chiave. Se il tipo di interpolazione è Interpolation.CONSTANT, list.data[index] decide quale valore del fotogramma chiave verrà utilizzato durante l'interpolazione. Un valore StepMode.PREVIOUS_VALUE indica che verrà usato il valore del fotogramma chiave a sinistra. Un valore StepMode.NEXT_VALUE indica che verrà usato il valore del fotogramma chiave a destra. Il valore della proprietà è la costante intera StepMode. La modalità di passo. |
+| getStepMode() | Ottiene o imposta la modalità step del key. Se il tipo di interpolazione è Interpolation.CONSTANT, list.data[index] decide quale valore del key-frame verrà usato durante l'interpolazione. Un valore StepMode.PREVIOUS_VALUE significa che verrà usato il valore del key-frame a sinistra. Un valore StepMode.NEXT_VALUE significa che verrà usato il valore del key-frame a destra. Il valore della proprietà è la costante intera StepMode. La modalità step. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setStepMode(value) | Ottiene o imposta la modalità di passo del fotogramma chiave. Se il tipo di interpolazione è Interpolation.CONSTANT, list.data[index] decide quale valore del fotogramma chiave verrà utilizzato durante l'interpolazione. Un valore StepMode.PREVIOUS_VALUE indica che verrà usato il valore del fotogramma chiave a sinistra. Un valore StepMode.NEXT_VALUE indica che verrà usato il valore del fotogramma chiave a destra. Il valore della proprietà è la costante intera StepMode. La modalità di passo. |
+| setStepMode(value) | Ottiene o imposta la modalità step del key. Se il tipo di interpolazione è Interpolation.CONSTANT, list.data[index] decide quale valore del key-frame verrà usato durante l'interpolazione. Un valore StepMode.PREVIOUS_VALUE significa che verrà usato il valore del key-frame a sinistra. Un valore StepMode.NEXT_VALUE significa che verrà usato il valore del key-frame a destra. Il valore della proprietà è la costante intera StepMode. La modalità step. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getNextInTangent() | Ottiene o imposta la prossima tangente di ingresso (sinistra) su questo fotogramma chiave. |
+| getNextInTangent() | Ottiene o imposta la prossima tangente di ingresso (sinistra) su questo key frame. |
 
  **Result:**
 
@@ -180,7 +180,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setNextInTangent(value) | Ottiene o imposta la prossima tangente di ingresso (sinistra) su questo fotogramma chiave. |
+| setNextInTangent(value) | Ottiene o imposta la prossima tangente di ingresso (sinistra) su questo key frame. |
 
  **Result:**
 
@@ -193,7 +193,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getOutTangent() | Ottiene o imposta la tangente di uscita (destra) su questo fotogramma chiave. |
+| getOutTangent() | Ottiene o imposta la tangente di uscita (destra) su questo key frame. |
 
  **Result:**
 
@@ -206,7 +206,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setOutTangent(value) | Ottiene o imposta la tangente di uscita (destra) su questo fotogramma chiave. |
+| setOutTangent(value) | Ottiene o imposta la tangente di uscita (destra) su questo key frame. |
 
  **Result:**
 
@@ -219,7 +219,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getOutWeight() | Ottiene o imposta il peso di uscita (destra) su questo fotogramma chiave. |
+| getOutWeight() | Ottiene o imposta il peso out(right) su questo fotogramma chiave. |
 
  **Result:**
 
@@ -232,7 +232,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setOutWeight(value) | Ottiene o imposta il peso di uscita (destra) su questo fotogramma chiave. |
+| setOutWeight(value) | Ottiene o imposta il peso out(right) su questo fotogramma chiave. |
 
  **Result:**
 
@@ -245,7 +245,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getNextInWeight() | Ottiene o imposta il peso successivo in (sinistra) su questo fotogramma chiave. |
+| getNextInWeight() | Ottiene o imposta il peso next in(left) su questo fotogramma chiave. |
 
  **Result:**
 
@@ -258,7 +258,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setNextInWeight(value) | Ottiene o imposta il peso successivo in (sinistra) su questo fotogramma chiave. |
+| setNextInWeight(value) | Ottiene o imposta il peso next in(left) su questo fotogramma chiave. |
 
  **Result:**
 
@@ -349,7 +349,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndependentTangent() | Ottiene o imposta se le tangenti di uscita e la successiva in sono indipendenti. |
+| getIndependentTangent() | Ottiene o imposta che le tangenti out e next in siano indipendenti. |
 
  **Result:**
 
@@ -362,7 +362,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setIndependentTangent(value) | Ottiene o imposta se le tangenti di uscita e la successiva in sono indipendenti. |
+| setIndependentTangent(value) | Ottiene o imposta che le tangenti out e next in siano indipendenti. |
 
  **Result:**
 
@@ -401,7 +401,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| getTimeIndependentTangent() | Ottiene o imposta se la tangente è indipendente dal tempo |
+| getTimeIndependentTangent() | Ottiene o imposta che la tangente sia indipendente dal tempo. |
 
  **Result:**
 
@@ -414,7 +414,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 
 | Nome | Descrizione |
 | --- | --- |
-| setTimeIndependentTangent(value) | Ottiene o imposta se la tangente è indipendente dal tempo |
+| setTimeIndependentTangent(value) | Ottiene o imposta che la tangente sia indipendente dal tempo. |
 
  **Result:**
 
@@ -430,7 +430,7 @@ Un key frame è principalmente definito da un tempo e un valore; per alcuni tipi
 | toString() | Ottiene la rappresentazione stringa del fotogramma chiave |
 
  **Result:**
-Stringa
+String
 
 
 ---

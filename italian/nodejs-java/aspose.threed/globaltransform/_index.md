@@ -1,6 +1,6 @@
 ---
 title: "GlobalTransform"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/globaltransform/
 ---
 ## GlobalTransform class
 
-La trasformazione globale è simile a Transform ma è immutabile mentre rappresenta la trasformazione finale valutata.  Viene utilizzato un sistema di coordinate destro durante la valutazione della trasformazione globale  @hideconstructor
+La trasformazione globale è simile a Transform ma è immutabile poiché rappresenta la trasformazione finale valutata.  Viene utilizzato un sistema di coordinate destro durante la valutazione della trasformazione globale  @hideconstructor
 
 
 ## Metodi
@@ -17,7 +17,7 @@ La trasformazione globale è simile a Transform ma è immutabile mentre rapprese
 
 | Nome | Descrizione |
 | --- | --- |
-| getTranslation() | Ottiene la traslazione |
+| getTranslation() | Ottiene la traduzione |
 
  **Result:**
 
@@ -56,7 +56,7 @@ La trasformazione globale è simile a Transform ma è immutabile mentre rapprese
 
 | Nome | Descrizione |
 | --- | --- |
-| getRotation() | Restituisce la rotazione rappresentata in quaternion. |
+| getRotation() | Ottiene la rotazione rappresentata in quaternione. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ La trasformazione globale è simile a Transform ma è immutabile mentre rapprese
 
 | Nome | Descrizione |
 | --- | --- |
-| getTransformMatrix() | Restituisce la matrice di trasformazione. |
+| getTransformMatrix() | Ottiene la matrice di trasformazione. |
 
  **Result:**
 

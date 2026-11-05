@@ -1,6 +1,6 @@
 ---
 title: "DracoFormat"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Formato Google Draco  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getVersion() | Ottiene la versione del formato file |
+| getVersion() | Restituisce la versione del formato file |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Formato Google Draco  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getExtension() | Ottiene il nome dell'estensione di questo tipo. |
+| getExtension() | Restituisce il nome dell'estensione di questo tipo. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Formato Google Draco  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getExtensions() | Ottiene i nomi delle estensioni di questo tipo. |
+| getExtensions() | Restituisce i nomi delle estensioni di questo tipo. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Formato Google Draco  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getContentType() | Ottiene il tipo di contenuto del formato file. Il valore della proprietà è la costante intera FileContentType. |
+| getContentType() | Restituisce il tipo di contenuto del formato file. Il valore della proprietà è la costante intera FileContentType. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Formato Google Draco  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileFormatType() | Ottiene il tipo di formato file |
+| getFileFormatType() | Restituisce il tipo di formato file |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Formato Google Draco  @hideconstructor
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Il nome file contiene il file drc |
+| fileName | String | Il nome del file contiene il file drc |
 
  **Result:**
 Geometry
@@ -126,8 +126,8 @@ Geometry
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| entity | Entità | L'entità da codificare |
-| fileName | Stringa | Il nome file da scrivere |
+| entità | Entità | L'entità da codificare |
+| fileName | String | Il nome del file da scrivere |
 | opzioni | DracoSaveOptions | Opzioni extra per la codifica della nuvola di punti |
 
  **Result:**
@@ -141,13 +141,13 @@ Geometry
 
 | Nome | Descrizione |
 | --- | --- |
-| encode(entity, options) | Codifica l'entità nei dati grezzi Draco |
+| encode(entity, options) | Codifica l'entità nei dati raw di Draco |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| entity | Entità | L'entità da codificare |
+| entità | Entità | L'entità da codificare |
 | opzioni | DracoSaveOptions | Opzioni extra per la codifica della nuvola di punti |
 
  **Result:**
@@ -161,7 +161,7 @@ byte[]
 
 | Nome | Descrizione |
 | --- | --- |
-| createLoadOptions() | Crea le opzioni di caricamento predefinite per questo formato file |
+| createLoadOptions() | Crea un'opzione di caricamento predefinita per questo formato file |
 
  **Result:**
 LoadOptions
@@ -174,7 +174,7 @@ LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| createSaveOptions() | Crea le opzioni di salvataggio predefinite per questo formato file |
+| createSaveOptions() | Crea un'opzione di salvataggio predefinita per questo formato file |
 
  **Result:**
 SaveOptions
@@ -190,7 +190,7 @@ SaveOptions
 | toString() | Formati in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---

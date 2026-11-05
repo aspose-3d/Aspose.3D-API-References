@@ -1,6 +1,6 @@
 ---
 title: "VertexElementUV"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/vertexelementuv/
 ---
 ## VertexElementUV class
 
-Definisce le coordinate UV per le componenti specificate.  Una geometria può avere più elementi VertexElementUV, e ciascuno ha diverse TextureMappings.
+Definisce le coordinate UV per i componenti specificati. Una geometria può avere più elementi VertexElementUV, e ciascuno ha diverse TextureMappings.
 
 
 ## Metodi
@@ -153,7 +153,7 @@ Definisce le coordinate UV per le componenti specificate.  Una geometria può av
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndices() | Ottiene i dati degli indici. L'array di indici. |
+| getIndices() | Ottiene i dati degli indici. L'array degli indici. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Definisce le coordinate UV per le componenti specificate.  Una geometria può av
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| target | VertexElementVector4 | Target. |
+| target | VertexElementVector4 | Obiettivo. |
 
  **Result:**
 
@@ -204,7 +204,7 @@ Definisce le coordinate UV per le componenti specificate.  Una geometria può av
 
 | Nome | Descrizione |
 | --- | --- |
-| clear() | Rimuove tutti gli elementi dagli array direct e index. |
+| clear() | Rimuove tutti gli elementi dagli array diretti e di indice. |
 
  **Result:**
 
@@ -236,10 +236,10 @@ Definisce le coordinate UV per le componenti specificate.  Una geometria può av
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Rappresentazione stringa dell'elemento vertex. |
+| toString() | Rappresentazione stringa dell'elemento vertice. |
 
  **Result:**
-Stringa
+String
 
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "TextureBase"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/texturebase/
 ---
 ## TextureBase class
 
-Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una superficie geometrica.
+Classe base per tutte le texture concrete.  Texture definisce l'aspetto e la sensazione di una superficie geometrica.
 
 
 ## Metodi
@@ -23,7 +23,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
+| name | String | Nome. |
 
  **Result:**
 
@@ -36,7 +36,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| getAlpha() | Ottiene o imposta il valore alfa predefinito della texture. Questo è valido quando AlphaSource è AlphaSource.PIXEL_ALPHA. Il valore predefinito è 1.0, l'intervallo di valori validi è compreso tra 0 e 1. |
+| getAlpha() | Ottiene o imposta il valore alfa predefinito della texture. Questo è valido quando AlphaSource è AlphaSource.PIXEL_ALPHA. Il valore predefinito è 1,0, l'intervallo di valori valido è compreso tra 0 e 1. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setAlpha(value) | Ottiene o imposta il valore alfa predefinito della texture. Questo è valido quando AlphaSource è AlphaSource.PIXEL_ALPHA. Il valore predefinito è 1.0, l'intervallo di valori validi è compreso tra 0 e 1. |
+| setAlpha(value) | Ottiene o imposta il valore alfa predefinito della texture. Questo è valido quando AlphaSource è AlphaSource.PIXEL_ALPHA. Il valore predefinito è 1,0, l'intervallo di valori valido è compreso tra 0 e 1. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| getAlphaSource() | Ottiene o imposta se la texture definisce il canale alfa. Il valore predefinito è AlphaSource.NONE. Il valore della proprietà è la costante intera AlphaSource. |
+| getAlphaSource() | Ottiene o imposta se la texture definisce il canale alfa. Il valore predefinito è AlphaSource.NONE. Il valore della proprietà è una costante intera di AlphaSource. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setAlphaSource(value) | Ottiene o imposta se la texture definisce il canale alfa. Il valore predefinito è AlphaSource.NONE. Il valore della proprietà è la costante intera AlphaSource. |
+| setAlphaSource(value) | Ottiene o imposta se la texture definisce il canale alfa. Il valore predefinito è AlphaSource.NONE. Il valore della proprietà è una costante intera di AlphaSource. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| getWrapModeU() | Ottiene o imposta le modalità di avvolgimento della texture in U. Il valore della proprietà è la costante intera WrapMode. |
+| getWrapModeU() | Ottiene o imposta le modalità di avvolgimento della texture in U. Il valore della proprietà è una costante intera di WrapMode. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setWrapModeU(value) | Ottiene o imposta le modalità di avvolgimento della texture in U. Il valore della proprietà è la costante intera WrapMode. |
+| setWrapModeU(value) | Ottiene o imposta le modalità di avvolgimento della texture in U. Il valore della proprietà è una costante intera di WrapMode. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| getWrapModeV() | Ottiene o imposta le modalità di avvolgimento della texture in V. Il valore della proprietà è la costante intera WrapMode. |
+| getWrapModeV() | Ottiene o imposta le modalità di avvolgimento della texture in V. Il valore della proprietà è una costante intera di WrapMode. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setWrapModeV(value) | Ottiene o imposta le modalità di avvolgimento della texture in V. Il valore della proprietà è la costante intera WrapMode. |
+| setWrapModeV(value) | Ottiene o imposta le modalità di avvolgimento della texture in V. Il valore della proprietà è una costante intera di WrapMode. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| getWrapModeW() | Ottiene o imposta le modalità di avvolgimento della texture in W. Il valore della proprietà è la costante intera WrapMode. |
+| getWrapModeW() | Ottiene o imposta le modalità di avvolgimento della texture in W. Il valore della proprietà è una costante intera di WrapMode. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setWrapModeW(value) | Ottiene o imposta le modalità di avvolgimento della texture in W. Il valore della proprietà è la costante intera WrapMode. |
+| setWrapModeW(value) | Ottiene o imposta le modalità di avvolgimento della texture in W. Il valore della proprietà è una costante intera di WrapMode. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| getMagFilter() | Ottiene o imposta il filtro per l'ingrandimento. Il valore della proprietà è una costante intera TextureFilter. |
+| getMagFilter() | Ottiene o imposta il filtro per l'ingrandimento. Il valore della proprietà è la costante intera TextureFilter. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setMagFilter(value) | Ottiene o imposta il filtro per l'ingrandimento. Il valore della proprietà è una costante intera TextureFilter. |
+| setMagFilter(value) | Ottiene o imposta il filtro per l'ingrandimento. Il valore della proprietà è la costante intera TextureFilter. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| getMipFilter() | Ottiene o imposta il filtro per il campionamento a livello di mip. Il valore della proprietà è una costante intera TextureFilter. |
+| getMipFilter() | Ottiene o imposta il filtro per il campionamento a livello di mip. Il valore della proprietà è la costante intera TextureFilter. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setMipFilter(value) | Ottiene o imposta il filtro per il campionamento a livello di mip. Il valore della proprietà è una costante intera TextureFilter. |
+| setMipFilter(value) | Ottiene o imposta il filtro per il campionamento a livello di mip. Il valore della proprietà è la costante intera TextureFilter. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| getUVTranslation() | Ottiene o imposta la traslazione UV. La traslazione UV. |
+| getUVTranslation() | Ottiene o imposta la traduzione UV. La traduzione UV. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setUVTranslation(value) | Ottiene o imposta la traslazione UV. La traslazione UV. |
+| setUVTranslation(value) | Ottiene o imposta la traduzione UV. La traduzione UV. |
 
  **Result:**
 
@@ -361,7 +361,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Descrizione |
 | --- | --- |
-| setTranslation(u, v) | Imposta la traslazione UV. |
+| setTranslation(u, v) | Imposta la traduzione UV. |
 
  **Parameters:**
 
@@ -427,7 +427,7 @@ Classe base per tutte le texture concrete.  Texture definisce l'aspetto di una s
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -446,7 +446,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -465,10 +465,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -484,11 +484,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -498,16 +498,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

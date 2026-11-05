@@ -1,6 +1,6 @@
 ---
 title: "AnimationChannel"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -43,7 +43,7 @@ Un canale mappa il campo componente della proprietà a un insieme di sequenze di
 
 | Nome | Descrizione |
 | --- | --- |
-| getDefaultValue() | Ottiene o imposta il valore predefinito del canale. Se un canale non ha sequenze di fotogrammi chiave collegate, il valore predefinito verrà utilizzato durante la valutazione dell'animazione. Un caso reale: l'animazione anima solo la coordinata x di un nodo, le coordinate y e z non vengono modificate, quindi il valore predefinito verrà usato durante la valutazione completa della traduzione. |
+| getDefaultValue() | Ottiene o imposta il valore predefinito del canale. Se un canale non ha sequenze di fotogrammi chiave collegate, il valore predefinito verrà utilizzato durante la valutazione dell'animazione. Uno scenario reale: l'animazione anima solo la coordinata x di un nodo, le coordinate y e z non vengono modificate, quindi il valore predefinito verrà utilizzato durante la valutazione completa della traduzione. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Un canale mappa il campo componente della proprietà a un insieme di sequenze di
 
 | Nome | Descrizione |
 | --- | --- |
-| setDefaultValue(value) | Ottiene o imposta il valore predefinito del canale. Se un canale non ha sequenze di fotogrammi chiave collegate, il valore predefinito verrà utilizzato durante la valutazione dell'animazione. Un caso reale: l'animazione anima solo la coordinata x di un nodo, le coordinate y e z non vengono modificate, quindi il valore predefinito verrà usato durante la valutazione completa della traduzione. |
+| setDefaultValue(value) | Ottiene o imposta il valore predefinito del canale. Se un canale non ha sequenze di fotogrammi chiave collegate, il valore predefinito verrà utilizzato durante la valutazione dell'animazione. Uno scenario reale: l'animazione anima solo la coordinata x di un nodo, le coordinate y e z non vengono modificate, quindi il valore predefinito verrà utilizzato durante la valutazione completa della traduzione. |
 
  **Result:**
 

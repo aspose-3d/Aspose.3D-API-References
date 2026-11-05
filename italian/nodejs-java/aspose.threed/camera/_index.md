@@ -1,6 +1,6 @@
 ---
-title: "Telecamera"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "Camera"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -55,7 +55,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
+| name | String | Nome. |
 
  **Result:**
 
@@ -74,7 +74,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
+| name | String | Nome. |
 | projectionType | ProjectionType | ProjectionType |
 
  **Result:**
@@ -114,7 +114,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFieldOfView() | Ottiene o imposta il campo visivo della fotocamera in gradi, questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZONTAL o ApertureMode.VERTICAL. |
+| getFieldOfView() | Ottiene o imposta il campo visivo della fotocamera in gradi; questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZONTAL o ApertureMode.VERTICAL |
 
  **Result:**
 
@@ -127,7 +127,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFieldOfView(value) | Ottiene o imposta il campo visivo della fotocamera in gradi, questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZONTAL o ApertureMode.VERTICAL. |
+| setFieldOfView(value) | Ottiene o imposta il campo visivo della fotocamera in gradi; questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZONTAL o ApertureMode.VERTICAL |
 
  **Result:**
 
@@ -140,7 +140,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFieldOfViewX() | Ottiene o imposta il campo visivo orizzontale della fotocamera in gradi, questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZ_AND_VERT. |
+| getFieldOfViewX() | Ottiene o imposta il campo visivo orizzontale della fotocamera in gradi; questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZ_AND_VERT |
 
  **Result:**
 
@@ -153,7 +153,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFieldOfViewX(value) | Ottiene o imposta il campo visivo orizzontale della fotocamera in gradi, questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZ_AND_VERT. |
+| setFieldOfViewX(value) | Ottiene o imposta il campo visivo orizzontale della fotocamera in gradi; questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZ_AND_VERT |
 
  **Result:**
 
@@ -166,7 +166,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFieldOfViewY() | Ottiene o imposta il campo visivo verticale della fotocamera in gradi, questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZ_AND_VERT. |
+| getFieldOfViewY() | Ottiene o imposta il campo visivo verticale della fotocamera in gradi; questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZ_AND_VERT |
 
  **Result:**
 
@@ -179,7 +179,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFieldOfViewY(value) | Ottiene o imposta il campo visivo verticale della fotocamera in gradi, questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZ_AND_VERT. |
+| setFieldOfViewY(value) | Ottiene o imposta il campo visivo verticale della fotocamera in gradi; questa proprietà è usata solo quando ApertureMode è ApertureMode.HORIZ_AND_VERT |
 
  **Result:**
 
@@ -270,7 +270,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getMagnification() | Ottiene o imposta l'ingrandimento usato nella fotocamera ortografica. |
+| getMagnification() | Ottiene o imposta l'ingrandimento usato nella telecamera ortografica |
 
  **Result:**
 
@@ -283,7 +283,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| setMagnification(value) | Ottiene o imposta l'ingrandimento usato nella fotocamera ortografica. |
+| setMagnification(value) | Ottiene o imposta l'ingrandimento usato nella telecamera ortografica |
 
  **Result:**
 
@@ -296,7 +296,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getProjectionType() | Ottiene o imposta il tipo di proiezione della fotocamera. Per impostazione predefinita viene utilizzata la proiezione prospettica. Il valore della proprietà è la costante intera ProjectionType. |
+| getProjectionType() | Ottiene o imposta il tipo di proiezione della telecamera. Per impostazione predefinita viene utilizzata la proiezione prospettica. Il valore della proprietà è la costante intera ProjectionType. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| setProjectionType(value) | Ottiene o imposta il tipo di proiezione della fotocamera. Per impostazione predefinita viene utilizzata la proiezione prospettica. Il valore della proprietà è la costante intera ProjectionType. |
+| setProjectionType(value) | Ottiene o imposta il tipo di proiezione della telecamera. Per impostazione predefinita viene utilizzata la proiezione prospettica. Il valore della proprietà è la costante intera ProjectionType. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getRotationMode() | Ottiene o imposta la modalità di orientamento del frustum. Questa proprietà funziona solo quando il Target è nullo. Se il valore è RotationMode.FIXED_TARGET, la direzione è sempre calcolata dalla proprietà LookAt. Altrimenti LookAt è sempre calcolata dalla Direction. Il valore della proprietà è la costante intera RotationMode. |
+| getRotationMode() | Ottiene o imposta la modalità di orientamento del frustum. Questa proprietà funziona solo quando il Target è nullo. Se il valore è RotationMode.FIXED_TARGET, la direzione è sempre calcolata dalla proprietà LookAt. Altrimenti LookAt è sempre calcolato dalla Direction. Il valore della proprietà è la costante intera RotationMode. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| setRotationMode(value) | Ottiene o imposta la modalità di orientamento del frustum. Questa proprietà funziona solo quando il Target è nullo. Se il valore è RotationMode.FIXED_TARGET, la direzione è sempre calcolata dalla proprietà LookAt. Altrimenti LookAt è sempre calcolata dalla Direction. Il valore della proprietà è la costante intera RotationMode. |
+| setRotationMode(value) | Ottiene o imposta la modalità di orientamento del frustum. Questa proprietà funziona solo quando il Target è nullo. Se il valore è RotationMode.FIXED_TARGET, la direzione è sempre calcolata dalla proprietà LookAt. Altrimenti LookAt è sempre calcolato dalla Direction. Il valore della proprietà è la costante intera RotationMode. |
 
  **Result:**
 
@@ -530,7 +530,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getTarget() | Ottiene o imposta il bersaglio verso cui la fotocamera è rivolta. Se l'utente supporta questa proprietà, dovrebbe essere impostata prima della proprietà LookAt. |
+| getTarget() | Ottiene o imposta il target verso cui la fotocamera è rivolta. Se l'utente supporta questa proprietà, dovrebbe essere impostata prima della proprietà LookAt. |
 
  **Result:**
 
@@ -543,7 +543,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| setTarget(value) | Ottiene o imposta il bersaglio verso cui la fotocamera è rivolta. Se l'utente supporta questa proprietà, dovrebbe essere impostata prima della proprietà LookAt. |
+| setTarget(value) | Ottiene o imposta il target verso cui la fotocamera è rivolta. Se l'utente supporta questa proprietà, dovrebbe essere impostata prima della proprietà LookAt. |
 
  **Result:**
 
@@ -556,7 +556,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -595,7 +595,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -608,7 +608,7 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -673,13 +673,13 @@ La telecamera descrive il punto di vista dell'osservatore che guarda la scena.
 
 | Nome | Descrizione |
 | --- | --- |
-| moveForward(distance) | Sposta la fotocamera in avanti verso la sua direzione o il suo bersaglio. |
+| moveForward(distance) | Sposta la telecamera in avanti verso la sua direzione o il suo bersaglio. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| distanza | Numero | Quanto tempo spostarsi in avanti |
+| distance | Numero | Quanto lontano spostarsi in avanti |
 
  **Result:**
 
@@ -724,7 +724,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -743,7 +743,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -762,10 +762,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -781,11 +781,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -795,16 +795,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

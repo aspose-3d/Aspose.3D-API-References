@@ -1,6 +1,6 @@
 ---
 title: "TextureSlot"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/textureslot/
 ---
 ## TextureSlot class
 
-Slot della texture in Material, può essere enumerato tramite l'istanza del materiale.  @hideconstructor
+Slot texture in Material, può essere enumerato tramite l'istanza del materiale.  @hideconstructor
 
 
 ## Metodi
@@ -17,7 +17,7 @@ Slot della texture in Material, può essere enumerato tramite l'istanza del mate
 
 | Nome | Descrizione |
 | --- | --- |
-| getSlotName() | Il nome dello slot che indica a dove sarà vincolata questa texture. |
+| getSlotName() | Il nome dello slot che indica dove questa texture sarà vincolata a. |
 
  **Result:**
 

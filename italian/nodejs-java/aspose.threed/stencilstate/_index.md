@@ -1,6 +1,6 @@
 ---
 title: "StencilState"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Stati stencil per faccia.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getCompare() | Ottiene o imposta la funzione di confronto usata nel test stencil. Il valore della proprietà è la costante intera CompareFunction. |
+| getCompare() | Ottiene o imposta la funzione di confronto utilizzata nel test stencil. Il valore della proprietà è la costante intera CompareFunction. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Stati stencil per faccia.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setCompare(value) | Ottiene o imposta la funzione di confronto usata nel test stencil. Il valore della proprietà è la costante intera CompareFunction. |
+| setCompare(value) | Ottiene o imposta la funzione di confronto utilizzata nel test stencil. Il valore della proprietà è la costante intera CompareFunction. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Stati stencil per faccia.  @hideconstructor
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| ob | Oggetto | null |
+| ob | Object | null |
 
  **Result:**
 boolean

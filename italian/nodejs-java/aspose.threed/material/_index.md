@@ -1,6 +1,6 @@
 ---
 title: "Materiale"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Il materiale definisce i parametri necessari per l'aspetto visivo della geometri
 | --- | --- |
 | MAP_SPECULAR | Usato in setTexture(java.lang.String, com.aspose.threed.TextureBase) per assegnare una mappatura di texture speculare. |
 | MAP_DIFFUSE | Usato in setTexture(java.lang.String, com.aspose.threed.TextureBase) per assegnare una mappatura di texture diffusa. |
-| MAP_EMISSIVE | Usato in setTexture(java.lang.String, com.aspose.threed.TextureBase) per assegnare una mappatura di texture emisiva. |
+| MAP_EMISSIVE | Usato in setTexture(java.lang.String, com.aspose.threed.TextureBase) per assegnare una mappatura di texture emissiva. |
 | MAP_AMBIENT | Usato in setTexture(java.lang.String, com.aspose.threed.TextureBase) per assegnare una mappatura di texture ambientale. |
 | MAP_NORMAL | Usato in setTexture(java.lang.String, com.aspose.threed.TextureBase) per assegnare una mappatura di texture normale. |
 
@@ -72,7 +72,7 @@ Il materiale definisce i parametri necessari per l'aspetto visivo della geometri
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| slotName | Stringa | Nome slot. |
+| slotName | String | Nome slot. |
 
  **Result:**
 TextureBase
@@ -91,7 +91,7 @@ TextureBase
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| slotName | Stringa | Nome slot. |
+| slotName | String | Nome slot. |
 | texture | TextureBase | Texture. |
 
  **Result:**
@@ -108,7 +108,7 @@ TextureBase
 | toString() | Formatta l'oggetto in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -124,7 +124,7 @@ Stringa
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -143,7 +143,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -162,10 +162,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -181,11 +181,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -195,16 +195,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---
@@ -217,7 +217,7 @@ Property
 | iterator() | Riservato per uso interno. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

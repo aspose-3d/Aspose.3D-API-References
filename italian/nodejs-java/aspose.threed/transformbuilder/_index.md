@@ -1,6 +1,6 @@
 ---
 title: "TransformBuilder"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/transformbuilder/
 ---
 ## TransformBuilder class
 
-Il TransformBuilder è usato per costruire la matrice di trasformazione tramite una catena di trasformazioni.
+Il TransformBuilder è usato per costruire la matrice di trasformazione mediante una catena di trasformazioni.
 
 
 ## Metodi
@@ -17,14 +17,14 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor(initial, order) | Costruisce un TransformBuilder con la matrice di trasformazione iniziale e l'ordine di composizione specificato |
+| constructor(initial, order) | Crea un TransformBuilder con la matrice di trasformazione iniziale e l'ordine di composizione specificato |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | initia | Matrix4 | null |
-| ordine | ComposeOrder | ComposeOrder |
+| order | ComposeOrder | ComposeOrder |
 
  **Result:**
 
@@ -37,13 +37,13 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload(order) | Costruisce un TransformBuilder con la matrice di trasformazione identità iniziale e l'ordine di composizione specificato |
+| constructor_overload(order) | Crea un TransformBuilder con la matrice di trasformazione identità iniziale e l'ordine di composizione specificato |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| ordine | ComposeOrder | ComposeOrder |
+| order | ComposeOrder | ComposeOrder |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| getMatrix() | Ottiene o imposta il valore della matrice corrente |
+| getMatrix() | Ottiene o imposta il valore corrente della matrice |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| setMatrix(value) | Ottiene o imposta il valore della matrice corrente |
+| setMatrix(value) | Ottiene o imposta il valore corrente della matrice |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| compose(m) | Aggiunge o pre-pone l'argomento alla matrice interna. |
+| compose(m) | Aggiungi o anteponi l'argomento alla matrice interna. |
 
  **Parameters:**
 
@@ -127,7 +127,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| append(m) | Aggiunge la nuova matrice di trasformazione alla catena di trasformazione. |
+| append(m) | Aggiungi la nuova matrice di trasformazione alla catena di trasformazione. |
 
  **Parameters:**
 
@@ -146,7 +146,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| prepend(m) | Anteporre la nuova matrice di trasformazione alla catena di trasformazioni. |
+| prepend(m) | Anteponi la nuova matrice di trasformazione alla catena di trasformazione. |
 
  **Parameters:**
 
@@ -186,7 +186,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| scale(s) | Collega una matrice di trasformazione di scala con un componente scalato di s |
+| scale(s) | Collega una matrice di trasformazione di scala con una componente scalata di s |
 
  **Parameters:**
 
@@ -251,8 +251,8 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| angolo | Numero | L'angolo da ruotare in gradi |
-| asse | Vector3 | L'asse da ruotare |
+| angle | Numero | L'angolo da ruotare in gradi |
+| axis | Vector3 | L'asse da ruotare |
 
  **Result:**
 
@@ -271,8 +271,8 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| angolo | Numero | L'angolo da ruotare in radianti |
-| asse | Vector3 | L'asse da ruotare |
+| angle | Numero | L'angolo da ruotare in radianti |
+| axis | Vector3 | L'asse da ruotare |
 
  **Result:**
 
@@ -291,7 +291,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-|  | Quaternione | null |
+|  | Quaternion | null |
 
  **Result:**
 
@@ -310,9 +310,9 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| deg | Numero | null |
-| deg | Numero | null |
-| deg | Numero | null |
+| gradi | Numero | null |
+| gradi | Numero | null |
+| gradi | Numero | null |
 
  **Result:**
 
@@ -325,7 +325,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| rotateEulerRadian(x, y, z) | Collega una rotazione mediante angoli di Eulero in radianti |
+| rotateEulerRadian(x, y, z) | Concatena una rotazione per angoli di Eulero in radianti |
 
  **Parameters:**
 
@@ -346,7 +346,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| rotateEulerRadian(r) | Collega una rotazione mediante angoli di Eulero in radianti |
+| rotateEulerRadian(r) | Concatena una rotazione per angoli di Eulero in radianti |
 
  **Parameters:**
 
@@ -365,7 +365,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| translate(tx, ty, tz) | Collega una trasformazione di traslazione |
+| translate(tx, ty, tz) | Concatena una trasformazione di traslazione |
 
  **Parameters:**
 
@@ -386,7 +386,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| translate(v) | Collega una trasformazione di traslazione |
+| translate(v) | Concatena una trasformazione di traslazione |
 
  **Parameters:**
 
@@ -405,7 +405,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 
 | Nome | Descrizione |
 | --- | --- |
-| reset() | Reimposta la trasformazione alla matrice identità |
+| reset() | Ripristina la trasformazione alla matrice identità |
 
  **Result:**
 
@@ -425,7 +425,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | rot | Vector3 | Rotazione in gradi |
-| ordine | RotationOrder | RotationOrder |
+| order | RotationOrder | RotationOrder |
 
  **Result:**
 
@@ -445,7 +445,7 @@ Il TransformBuilder è usato per costruire la matrice di trasformazione tramite 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | rot | Vector3 | Rotazione in radianti |
-| ordine | RotationOrder | RotationOrder |
+| order | RotationOrder | RotationOrder |
 
  **Result:**
 

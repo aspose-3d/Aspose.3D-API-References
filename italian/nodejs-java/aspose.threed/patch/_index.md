@@ -1,6 +1,6 @@
 ---
 title: "Patch"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/patch/
 ---
 ## Patch class
 
-Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, è anche definita da due PatchDirection, l'U e la V. Ma la differenza tra Patch e NurbsSurface è che la curva PatchDirection può essere una di PatchDirectionType.BEZIER, PatchDirectionType.QUADRATIC_BEZIER, PatchDirectionType.BASIS_SPLINE, PatchDirectionType.CARDINAL_SPLINE e PatchDirectionType.LINEAR
+Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, è anche definita da due PatchDirection, U e V.  Ma la differenza tra Patch e NurbsSurface è che la curva PatchDirection può essere una di PatchDirectionType.BEZIER, PatchDirectionType.QUADRATIC_BEZIER, PatchDirectionType.BASIS_SPLINE, PatchDirectionType.CARDINAL_SPLINE e PatchDirectionType.LINEAR
 
 
 ## Metodi
@@ -36,7 +36,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
+| name | String | Nome. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| getU() | Restituisce la direzione u. |
+| getU() | Ottiene la direzione u. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| getV() | Restituisce la direzione v. Il v. |
+| getV() | Ottiene la direzione v. Il v. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombre |
+| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombre |
+| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombre. |
+| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombre. |
+| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Un Patch è una superficie di modellazione parametrica, simile a NurbsSurface, �
 
 | Nome | Descrizione |
 | --- | --- |
-| getElement(type) | Ottiene un elemento di vertice con il tipo specificato |
+| getElement(type) | Ottiene un elemento vertice con il tipo specificato |
 
  **Parameters:**
 
@@ -347,7 +347,7 @@ VertexElementUV
 
 | Nome | Descrizione |
 | --- | --- |
-| createElement(type) | Crea un elemento di vertice con il tipo specificato e lo aggiunge alla geometria. Se il tipo è VertexElementType.UV, verrà creato un VertexElementUV con il tipo di mappatura texture impostato su TextureMapping.DIFFUSE. |
+| createElement(type) | Crea un elemento vertice con il tipo specificato e lo aggiunge alla geometria. Se il tipo è VertexElementType.UV, verrà creato un VertexElementUV con il tipo di mappatura texture impostato a TextureMapping.DIFFUSE. |
 
  **Parameters:**
 
@@ -366,13 +366,13 @@ VertexElement
 
 | Nome | Descrizione |
 | --- | --- |
-| addElement(element) | Aggiunge un elemento di vertice esistente alla geometria corrente |
+| addElement(element) | Aggiunge un elemento vertice esistente alla geometria corrente |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| element | VertexElement | L'elemento di vertice da aggiungere |
+| element | VertexElement | L'elemento vertice da aggiungere |
 
  **Result:**
 VertexElement
@@ -385,7 +385,7 @@ VertexElement
 
 | Nome | Descrizione |
 | --- | --- |
-| createElement(type, mappingMode, referenceMode) | Crea un elemento di vertice con il tipo specificato e lo aggiunge alla geometria. Se il tipo è VertexElementType.UV, verrà creato un VertexElementUV con il tipo di mappatura texture impostato su TextureMapping.DIFFUSE. |
+| createElement(type, mappingMode, referenceMode) | Crea un elemento vertice con il tipo specificato e lo aggiunge alla geometria. Se il tipo è VertexElementType.UV, verrà creato un VertexElementUV con il tipo di mappatura texture impostato a TextureMapping.DIFFUSE. |
 
  **Parameters:**
 
@@ -406,7 +406,7 @@ VertexElement
 
 | Nome | Descrizione |
 | --- | --- |
-| createElementUV(uvMapping) | Crea un VertexElementUV con il tipo di mappatura della texture fornito. |
+| createElementUV(uvMapping) | Crea un VertexElementUV con il tipo di mappatura della texture specificato. |
 
  **Parameters:**
 
@@ -425,7 +425,7 @@ VertexElementUV
 
 | Nome | Descrizione |
 | --- | --- |
-| createElementUV(uvMapping, mappingMode, referenceMode) | Crea un VertexElementUV con il tipo di mappatura della texture fornito. |
+| createElementUV(uvMapping, mappingMode, referenceMode) | Crea un VertexElementUV con il tipo di mappatura della texture specificato. |
 
  **Parameters:**
 
@@ -478,7 +478,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -497,7 +497,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -516,10 +516,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -535,11 +535,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -549,16 +549,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

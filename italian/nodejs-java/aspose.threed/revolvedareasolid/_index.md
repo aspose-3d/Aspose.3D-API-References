@@ -1,6 +1,6 @@
 ---
 title: "RevolvedAreaSolid"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -30,7 +30,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| getAngleStart() | Ottiene o imposta l'angolo iniziale della procedura di rotazione, misurato in radianti, il valore predefinito è 0. |
+| getAngleStart() | Ottiene o imposta l'angolo iniziale della procedura di rotazione, misurato in radianti, valore predefinito è 0. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| setAngleStart(value) | Ottiene o imposta l'angolo iniziale della procedura di rotazione, misurato in radianti, il valore predefinito è 0. |
+| setAngleStart(value) | Ottiene o imposta l'angolo iniziale della procedura di rotazione, misurato in radianti, valore predefinito è 0. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| getAngleEnd() | Ottiene o imposta l'angolo finale della procedura di rotazione, misurato in radianti, il valore predefinito è pi. |
+| getAngleEnd() | Ottiene o imposta l'angolo finale della procedura di rotazione, misurato in radianti, valore predefinito è π. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| setAngleEnd(value) | Ottiene o imposta l'angolo finale della procedura di rotazione, misurato in radianti, il valore predefinito è pi. |
+| setAngleEnd(value) | Ottiene o imposta l'angolo finale della procedura di rotazione, misurato in radianti, valore predefinito è π. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| getAxis() | Ottiene o imposta la direzione dell'asse, il valore predefinito è (0, 1, 0). |
+| getAxis() | Ottiene o imposta la direzione dell'asse, valore predefinito è (0, 1, 0). |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| setAxis(value) | Ottiene o imposta la direzione dell'asse, il valore predefinito è (0, 1, 0). |
+| setAxis(value) | Ottiene o imposta la direzione dell'asse, valore predefinito è (0, 1, 0). |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| getOrigin() | Ottiene o imposta il punto di origine della rotazione, il valore predefinito è (0, 0, 0). |
+| getOrigin() | Ottiene o imposta il punto di origine della rotazione, valore predefinito è (0, 0, 0). |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| setOrigin(value) | Ottiene o imposta il punto di origine della rotazione, il valore predefinito è (0, 0, 0). |
+| setOrigin(value) | Ottiene o imposta il punto di origine della rotazione, valore predefinito è (0, 0, 0). |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| getShape() | Ottiene o imposta il profilo di base usato per la rotazione. |
+| getShape() | Ottiene o imposta il profilo di base usato per la rivoluzione. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| setShape(value) | Ottiene o imposta il profilo di base usato per la rotazione. |
+| setShape(value) | Ottiene o imposta il profilo di base usato per la rivoluzione. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Questa classe rappresenta un modello solido ruotando una sezione trasversale for
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -341,7 +341,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -360,10 +360,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -379,11 +379,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -393,16 +393,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

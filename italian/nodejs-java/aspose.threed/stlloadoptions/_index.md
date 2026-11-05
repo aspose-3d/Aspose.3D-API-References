@@ -1,6 +1,6 @@
 ---
 title: "StlLoadOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -75,7 +75,7 @@ Opzioni di caricamento per STL
 
 | Nome | Descrizione |
 | --- | --- |
-| getRecalculateNormal() | Ignora i dati normali memorizzati nel file STL e ricalcola i dati normali in base alla posizione dei vertici. Il valore predefinito è false. |
+| getRecalculateNormal() | Ignora i dati delle normali memorizzati nel file STL e ricalcola i dati delle normali in base alla posizione dei vertici. Il valore predefinito è false |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Opzioni di caricamento per STL
 
 | Nome | Descrizione |
 | --- | --- |
-| setRecalculateNormal(value) | Ignora i dati normali memorizzati nel file STL e ricalcola i dati normali in base alla posizione dei vertici. Il valore predefinito è false. |
+| setRecalculateNormal(value) | Ignora i dati delle normali memorizzati nel file STL e ricalcola i dati delle normali in base alla posizione dei vertici. Il valore predefinito è false |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Opzioni di caricamento per STL
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Opzioni di caricamento per STL
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Opzioni di caricamento per STL
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

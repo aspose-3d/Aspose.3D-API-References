@@ -1,6 +1,6 @@
 ---
 title: "RectangularTorus"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -43,7 +43,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getInnerRadius() | Il raggio interno del toro rettangolare. Il valore predefinito è 17 |
+| getInnerRadius() | Il raggio interno del toro rettangolare. Valore predefinito è 17 |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| setInnerRadius(value) | Il raggio interno del toro rettangolare. Il valore predefinito è 17 |
+| setInnerRadius(value) | Il raggio interno del toro rettangolare. Valore predefinito è 17 |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getOuterRadius() | Il raggio esterno del toro rettangolare. Il valore predefinito è 20 |
+| getOuterRadius() | Il raggio esterno del toro rettangolare. Valore predefinito è 20 |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| setOuterRadius(value) | Il raggio esterno del toro rettangolare. Il valore predefinito è 20 |
+| setOuterRadius(value) | Il raggio esterno del toro rettangolare. Valore predefinito è 20 |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getHeight() | L'altezza del toro rettangolare. Il valore predefinito è 20 |
+| getHeight() | L'altezza del toro rettangolare. Valore predefinito è 20 |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| setHeight(value) | L'altezza del toro rettangolare. Il valore predefinito è 20 |
+| setHeight(value) | L'altezza del toro rettangolare. Valore predefinito è 20 |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getAngleStart() | L'angolo di partenza dell'arco, misurato in radianti. Il valore predefinito è 0 |
+| getAngleStart() | L'angolo iniziale dell'arco, misurato in radianti. Il valore predefinito è 0 |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| setAngleStart(value) | L'angolo di partenza dell'arco, misurato in radianti. Il valore predefinito è 0 |
+| setAngleStart(value) | L'angolo iniziale dell'arco, misurato in radianti. Il valore predefinito è 0 |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getRadialSegments() | I segmenti radiali, valore predefinito è 10 |
+| getRadialSegments() | I segmenti radiali, il valore predefinito è 10 |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| setRadialSegments(value) | I segmenti radiali, valore predefinito è 10 |
+| setRadialSegments(value) | I segmenti radiali, il valore predefinito è 10 |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombre |
+| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombre |
+| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombre. |
+| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombre. |
+| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Toro rettangolare parametrizzato.
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -413,7 +413,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -432,7 +432,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -451,10 +451,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -470,11 +470,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -484,16 +484,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

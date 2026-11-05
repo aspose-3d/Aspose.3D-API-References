@@ -1,6 +1,6 @@
 ---
-title: "Scheletro"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "Skeleton"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/skeleton/
 ---
 ## Skeleton class
 
-Lo Skeleton è principalmente usato dal software CAD per aiutare il progettista a manipolare la trasformazione della struttura scheletrica, è solitamente inutile al di fuori dei software CAD. Per far sì che la gerarchia dello scheletro agisca come un unico oggetto nel software CAD, è necessario contrassegnare il nodo Skeleton superiore come radice impostando Type su SkeletonType.SKELETON e tutti i figli su SkeletonType.BONE.
+Lo scheletro è principalmente usato dal software CAD per aiutare il designer a manipolare la trasformazione della struttura scheletrica, è solitamente inutile al di fuori dei software CAD.  Per far sì che la gerarchia dello scheletro agisca come un unico oggetto nel software CAD, è necessario contrassegnare il nodo Skeleton superiore come radice impostando Type su SkeletonType.SKELETON,  e tutti i figli su SkeletonType.BONE
 
 
 ## Metodi
@@ -36,7 +36,7 @@ Lo Skeleton è principalmente usato dal software CAD per aiutare il progettista 
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
+| name | String | Nome. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Lo Skeleton è principalmente usato dal software CAD per aiutare il progettista 
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Lo Skeleton è principalmente usato dal software CAD per aiutare il progettista 
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Lo Skeleton è principalmente usato dal software CAD per aiutare il progettista 
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -250,7 +250,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -269,7 +269,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -288,10 +288,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -307,11 +307,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -321,16 +321,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

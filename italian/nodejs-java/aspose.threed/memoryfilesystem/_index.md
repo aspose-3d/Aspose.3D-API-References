@@ -1,6 +1,6 @@
 ---
 title: "MemoryFileSystem"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -49,7 +49,7 @@ Il MemoryFileSystem mapperà le operazioni di lettura/scrittura alla memoria.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 
  **Result:**
 byte[]
@@ -68,7 +68,7 @@ byte[]
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 | opzione | IOConfig | null |
 
  **Result:**
@@ -82,13 +82,13 @@ Stream
 
 | Nome | Descrizione |
 | --- | --- |
-| writeFile(fileName, options) | Crea uno stream per scrivere le dipendenze. |
+| writeFile(fileName, options) | Crea un flusso per scrivere le dipendenze. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 | opzione | IOConfig | null |
 
  **Result:**

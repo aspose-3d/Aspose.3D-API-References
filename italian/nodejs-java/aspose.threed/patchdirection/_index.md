@@ -1,6 +1,6 @@
 ---
 title: "PatchDirection"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 

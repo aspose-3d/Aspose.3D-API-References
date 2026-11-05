@@ -1,6 +1,6 @@
 ---
 title: "FbxLoadOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,13 +17,13 @@ Opzioni di caricamento per formato Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| costruttore(format) | Costruttore di FbxLoadOptions |
+| constructor(format) | Costruttore di FbxLoadOptions |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| forma | FormatoFile | null |
+| forma | FileFormat | null |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Opzioni di caricamento per formato Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| getKeepBuiltinGlobalSettings() | Ottiene o imposta se mantenere le proprietà integrate in GlobalSettings che hanno una sostituzione di proprietà nativa in AssetInfo. Imposta questo su true se desideri le proprietà complete in GlobalSettings. Il valore predefinito è false. |
+| getKeepBuiltinGlobalSettings() | Ottiene o imposta se mantenere le proprietà integrate in GlobalSettings che hanno una sostituzione nativa della proprietà in AssetInfo. Imposta questo su true se desideri le proprietà complete in GlobalSettings. Il valore predefinito è false |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Opzioni di caricamento per formato Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| setKeepBuiltinGlobalSettings(value) | Ottiene o imposta se mantenere le proprietà integrate in GlobalSettings che hanno una sostituzione di proprietà nativa in AssetInfo. Imposta questo su true se desideri le proprietà complete in GlobalSettings. Il valore predefinito è false. |
+| setKeepBuiltinGlobalSettings(value) | Ottiene o imposta se mantenere le proprietà integrate in GlobalSettings che hanno una sostituzione nativa della proprietà in AssetInfo. Imposta questo su true se desideri le proprietà complete in GlobalSettings. Il valore predefinito è false |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Opzioni di caricamento per formato Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Opzioni di caricamento per formato Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Opzioni di caricamento per formato Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

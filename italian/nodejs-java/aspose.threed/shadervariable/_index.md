@@ -1,6 +1,6 @@
 ---
 title: "ShaderVariable"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -23,7 +23,7 @@ Variabile shader
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nam | Stringa | null |
+| nam | String | null |
 
  **Result:**
 
@@ -42,7 +42,7 @@ Variabile shader
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nam | Stringa | null |
+| nam | String | null |
 | shaderStage | Numero | ShaderStage |
 
  **Result:**

@@ -1,6 +1,6 @@
 ---
 title: "EndPoint"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/endpoint/
 ---
 ## EndPoint class
 
-Il punto finale per tagliare la curva, può essere un valore di parametro o un punto cartesiano.
+Il punto finale per ritagliare la curva, può essere un valore di parametro o un punto cartesiano.
 
 
 ## Metodi
@@ -49,7 +49,7 @@ Il punto finale per tagliare la curva, può essere un valore di parametro o un p
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload2(v) | Crea un EndPoint da un parametro reale. |
+| constructor_overload2(v) | Costruisci un EndPoint da un parametro reale. |
 
  **Parameters:**
 
@@ -81,7 +81,7 @@ Il punto finale per tagliare la curva, può essere un valore di parametro o un p
 
 | Nome | Descrizione |
 | --- | --- |
-| getAsPoint() | Restituisce il punto finale come punto cartesiano, o lancia un'eccezione. |
+| getAsPoint() | Restituisce il punto finale come punto cartesiano, oppure lancia un'eccezione. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Il punto finale per tagliare la curva, può essere un valore di parametro o un p
 
 | Nome | Descrizione |
 | --- | --- |
-| getAsValue() | Restituisce il punto finale come parametro reale, o lancia un'eccezione. |
+| getAsValue() | Restituisce il punto finale come parametro reale, oppure lancia un'eccezione. |
 
  **Result:**
 
@@ -113,7 +113,7 @@ Il punto finale per tagliare la curva, può essere un valore di parametro o un p
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| gradi | Numero | null |
+| grado | Numero | null |
 
  **Result:**
 EndPoint
@@ -132,7 +132,7 @@ EndPoint
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| gradi | Numero | null |
+| grado | Numero | null |
 
  **Result:**
 EndPoint
@@ -148,7 +148,7 @@ EndPoint
 | toString() | Restituisce una rappresentazione stringa del punto finale corrente. |
 
  **Result:**
-Stringa
+String
 
 
 ---

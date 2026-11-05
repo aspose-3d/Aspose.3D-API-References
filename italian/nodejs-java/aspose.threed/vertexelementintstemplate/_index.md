@@ -1,6 +1,6 @@
 ---
 title: "VertexElementIntsTemplate"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -121,7 +121,7 @@ Una classe di supporto per definire implementazioni concrete di VertexElement.  
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndices() | Ottiene i dati degli indici. L'array di indici. |
+| getIndices() | Ottiene i dati degli indici. L'array degli indici. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Una classe di supporto per definire implementazioni concrete di VertexElement.  
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| target | VertexElementIntsTemplate | Target. |
+| target | VertexElementIntsTemplate | Obiettivo. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Una classe di supporto per definire implementazioni concrete di VertexElement.  
 
 | Nome | Descrizione |
 | --- | --- |
-| clear() | Rimuove tutti gli elementi dagli array direct e index. |
+| clear() | Rimuove tutti gli elementi dagli array diretti e di indice. |
 
  **Result:**
 
@@ -204,10 +204,10 @@ Una classe di supporto per definire implementazioni concrete di VertexElement.  
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Rappresentazione stringa dell'elemento vertex. |
+| toString() | Rappresentazione stringa dell'elemento vertice. |
 
  **Result:**
-Stringa
+String
 
 
 ---

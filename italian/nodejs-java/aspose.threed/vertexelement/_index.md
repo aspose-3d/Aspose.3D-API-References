@@ -1,6 +1,6 @@
 ---
 title: "VertexElement"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/vertexelement/
 ---
 ## VertexElement class
 
-Classe base degli elementi del vertice.  Un tipo di elemento del vertice è identificato da VertexElementType.  Un VertexElement descrive come l'elemento del vertice è mappato su una superficie geometrica e come le informazioni di mappatura sono organizzate in memoria.  Un VertexElement contiene Normali, UV o altri tipi di informazioni.  @hideconstructor
+Classe base degli elementi di vertice. Un tipo di elemento di vertice è identificato da VertexElementType. Un VertexElement descrive come l'elemento di vertice è mappato su una superficie geometrica e come le informazioni di mappatura sono organizzate in memoria. Un VertexElement contiene Normals, UVs o altri tipi di informazioni.  @hideconstructor
 
 
 ## Metodi
@@ -108,7 +108,7 @@ Classe base degli elementi del vertice.  Un tipo di elemento del vertice è iden
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndices() | Ottiene i dati degli indici. L'array di indici. |
+| getIndices() | Ottiene i dati degli indici. L'array degli indici. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Classe base degli elementi del vertice.  Un tipo di elemento del vertice è iden
 
 | Nome | Descrizione |
 | --- | --- |
-| clear() | Cancella tutti i dati da questo elemento vertex. |
+| clear() | Cancella tutti i dati da questo elemento vertice. |
 
  **Result:**
 
@@ -153,10 +153,10 @@ Classe base degli elementi del vertice.  Un tipo di elemento del vertice è iden
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Rappresentazione stringa dell'elemento vertex. |
+| toString() | Rappresentazione stringa dell'elemento vertice. |
 
  **Result:**
-Stringa
+String
 
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "PdfFormat"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getVersion() | Ottiene la versione del formato file |
+| getVersion() | Restituisce la versione del formato file |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getExtension() | Ottiene il nome dell'estensione di questo tipo. |
+| getExtension() | Restituisce il nome dell'estensione di questo tipo. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getExtensions() | Ottiene i nomi delle estensioni di questo tipo. |
+| getExtensions() | Restituisce i nomi delle estensioni di questo tipo. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getContentType() | Ottiene il tipo di contenuto del formato file. Il valore della proprietà è la costante intera FileContentType. |
+| getContentType() | Restituisce il tipo di contenuto del formato file. Il valore della proprietà è la costante intera FileContentType. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileFormatType() | Ottiene il tipo di formato file |
+| getFileFormatType() | Restituisce il tipo di formato file |
 
  **Result:**
 
@@ -88,8 +88,8 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
-| passwor | byte[] | null |
+| fileNam | String | null |
+| password | byte[] | null |
 
  **Result:**
 0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
@@ -108,7 +108,7 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 
  **Result:**
 0, Culture=neutral, PublicKeyToken=f071c641d0b4582b]]
@@ -127,8 +127,8 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
-| passwor | byte[] | null |
+| fileNam | String | null |
+| password | byte[] | null |
 
  **Result:**
 0, Culture=neutral, PublicKeyToken=f071c641d0b4582b]]
@@ -141,7 +141,7 @@ Formato Portable Document di Adobe  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| createLoadOptions() | Crea le opzioni di caricamento predefinite per questo formato file |
+| createLoadOptions() | Crea un'opzione di caricamento predefinita per questo formato file |
 
  **Result:**
 LoadOptions
@@ -154,7 +154,7 @@ LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| createSaveOptions() | Crea le opzioni di salvataggio predefinite per questo formato file |
+| createSaveOptions() | Crea un'opzione di salvataggio predefinita per questo formato file |
 
  **Result:**
 SaveOptions
@@ -170,7 +170,7 @@ SaveOptions
 | toString() | Formati in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "EntityRenderer"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -23,7 +23,7 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| key | Stringa | La chiave di EntityRenderer |
+| key | String | La chiave del entity renderer |
 | features | byte | EntityRendererFeatures |
 
  **Result:**
@@ -43,7 +43,7 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| key | Stringa | La chiave di EntityRenderer |
+| key | String | La chiave del entity renderer |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 
 | Nome | Descrizione |
 | --- | --- |
-| initialize(renderer) | Inizializza EntityRenderer |
+| initialize(renderer) | Inizializza il renderer dell'entità |
 
  **Parameters:**
 
@@ -75,7 +75,7 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 
 | Nome | Descrizione |
 | --- | --- |
-| resetSceneCache() | La scena è cambiata o rimossa, è necessario liberare le risorse di rendering a livello di scena in questo |
+| resetSceneCache() | La scena è cambiata o rimossa, è necessario liberare le risorse di rendering a livello di scena in questo caso |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 
 | Nome | Descrizione |
 | --- | --- |
-| frameBegin(renderer, renderQueue) | Inizia il rendering di un fotogramma |
+| frameBegin(renderer, renderQueue) | Inizia il rendering di un frame |
 
  **Parameters:**
 
@@ -108,7 +108,7 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 
 | Nome | Descrizione |
 | --- | --- |
-| frameEnd(renderer, renderQueue) | Termina il rendering di un fotogramma |
+| frameEnd(renderer, renderQueue) | Termina il rendering di un frame |
 
  **Parameters:**
 
@@ -135,9 +135,9 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | renderer | Renderer | L'istanza corrente del renderer |
-| queue | IRenderQueue | La coda di rendering utilizzata per gestire i compiti di rendering |
-| node | Nodo | Nodo corrente |
-| entity | Entità | L'entità che deve essere renderizzata |
+| coda | IRenderQueue | La coda di rendering usata per gestire le attività di rendering |
+| nodo | Nodo | Nodo corrente |
+| entità | Entità | L'entità che deve essere renderizzata |
 
  **Result:**
 
@@ -150,7 +150,7 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 
 | Nome | Descrizione |
 | --- | --- |
-| renderEntity(renderer, commandList, node, renderableResource, subEntity) | Ogni compito di rendering inserito nella com.aspose.threed.IRenderQueue avrà una chiamata corrispondente a RenderEntity per eseguire il lavoro di rendering concreto. |
+| renderEntity(renderer, commandList, node, renderableResource, subEntity) | Ogni attività di rendering inserita nella com.aspose.threed.IRenderQueue avrà una chiamata RenderEntity corrispondente per eseguire il lavoro di rendering concreto. |
 
  **Parameters:**
 
@@ -158,8 +158,8 @@ Estendi questa classe per implementare il rendering per diversi tipi di entità.
 | --- | --- | --- |
 | renderer | Renderer | Il renderer |
 | commandList | ICommandList | Il commandList usato per registrare i comandi di rendering |
-| node | Nodo | Lo stesso nodo che è stato passato a PrepareRenderQueue dell'entità che sarà renderizzata |
-| renderableResource | Oggetto | L'oggetto personalizzato che è stato passato a IRenderQueue durante il PrepareRenderQueue |
+| nodo | Nodo | Lo stesso nodo che è stato passato a PrepareRenderQueue dell'entità che sarà renderizzata |
+| renderableResource | Object | L'oggetto personalizzato che è stato passato a IRenderQueue durante il PrepareRenderQueue |
 | subEntity | Numero | L'indice della sub entity che è stato passato a IRenderQueue |
 
  **Result:**

@@ -1,6 +1,6 @@
 ---
 title: "IOConfig"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/ioconfig/
 ---
 ## IOConfig class
 
-Configurazione IO per serializzazione/deserializzazione.  L'utente può specificare configurazioni dettagliate come il percorso di ricerca delle dipendenze  O configurazioni correlate al formato qui  @hideconstructor
+Configurazione IO per serializzazione/deserializzazione.  L'utente può specificare configurazioni dettagliate come il percorso di ricerca delle dipendenze o configurazioni relative al formato qui  @hideconstructor
 
 
 ## Metodi
@@ -17,7 +17,7 @@ Configurazione IO per serializzazione/deserializzazione.  L'utente può specific
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystemFactory() | Ottiene o imposta la classe factory per FileSystem. La factory predefinita creerà LocalFileSystem, che non è adatta per un ambiente server. |
+| getFileSystemFactory() | Ottiene o imposta la classe factory per FileSystem. La factory predefinita creerà LocalFileSystem, che non è adatta per l'ambiente server. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Configurazione IO per serializzazione/deserializzazione.  L'utente può specific
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystemFactory(value) | Ottiene o imposta la classe factory per FileSystem. La factory predefinita creerà LocalFileSystem, che non è adatta per un ambiente server. |
+| setFileSystemFactory(value) | Ottiene o imposta la classe factory per FileSystem. La factory predefinita creerà LocalFileSystem, che non è adatta per l'ambiente server. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Configurazione IO per serializzazione/deserializzazione.  L'utente può specific
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Configurazione IO per serializzazione/deserializzazione.  L'utente può specific
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Configurazione IO per serializzazione/deserializzazione.  L'utente può specific
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

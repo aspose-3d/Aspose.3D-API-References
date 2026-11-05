@@ -1,6 +1,6 @@
 ---
 title: "Discreet3dsSaveOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -82,7 +82,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getDuplicatedNameSeparator() | Il separatore tra il nome dell'oggetto e il contatore dei duplicati, il valore predefinito è "_". Quando la scena contiene oggetti che utilizzano lo stesso nome, l'esportatore 3DS di Aspose.3D genererà un nome diverso per l'oggetto. Ad esempio, ci sono due nodi chiamati "Box", il primo nodo avrà il nome "Box", e il secondo otterrà un nuovo nome "Box_2" usando la configurazione predefinita. |
+| getDuplicatedNameSeparator() | Il separatore tra il nome dell'oggetto e il contatore duplicato, valore predefinito è "_". Quando la scena contiene oggetti che usano lo stesso nome, l'esportatore 3DS di Aspose.3D genererà un nome diverso per l'oggetto. Per esempio ci sono due nodi chiamati "Box", il primo nodo avrà il nome "Box", e il secondo otterrà un nuovo nome "Box_2" usando la configurazione predefinita. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setDuplicatedNameSeparator(value) | Il separatore tra il nome dell'oggetto e il contatore dei duplicati, il valore predefinito è "_". Quando la scena contiene oggetti che utilizzano lo stesso nome, l'esportatore 3DS di Aspose.3D genererà un nome diverso per l'oggetto. Ad esempio, ci sono due nodi chiamati "Box", il primo nodo avrà il nome "Box", e il secondo otterrà un nuovo nome "Box_2" usando la configurazione predefinita. |
+| setDuplicatedNameSeparator(value) | Il separatore tra il nome dell'oggetto e il contatore duplicato, valore predefinito è "_". Quando la scena contiene oggetti che usano lo stesso nome, l'esportatore 3DS di Aspose.3D genererà un nome diverso per l'oggetto. Per esempio ci sono due nodi chiamati "Box", il primo nodo avrà il nome "Box", e il secondo otterrà un nuovo nome "Box_2" usando la configurazione predefinita. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getDuplicatedNameCounterBase() | Il contatore usato per generare un nuovo nome per i nomi duplicati, il valore predefinito è 2. |
+| getDuplicatedNameCounterBase() | Il contatore usato per generare un nuovo nome per i nomi duplicati, valore predefinito è 2. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setDuplicatedNameCounterBase(value) | Il contatore usato per generare un nuovo nome per i nomi duplicati, il valore predefinito è 2. |
+| setDuplicatedNameCounterBase(value) | Il contatore usato per generare un nuovo nome per i nomi duplicati, valore predefinito è 2. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getDuplicatedNameCounterFormat() | Il formato del contatore dei duplicati, il valore predefinito è una stringa vuota. |
+| getDuplicatedNameCounterFormat() | Il formato del contatore duplicato, valore predefinito è stringa vuota. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setDuplicatedNameCounterFormat(value) | Il formato del contatore dei duplicati, il valore predefinito è una stringa vuota. |
+| setDuplicatedNameCounterFormat(value) | Il formato del contatore duplicato, valore predefinito è stringa vuota. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getMasterScale() | Ottiene o imposta la scala principale usata nell'esportazione. |
+| getMasterScale() | Ottiene o imposta la scala principale utilizzata durante l'esportazione. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setMasterScale(value) | Ottiene o imposta la scala principale usata nell'esportazione. |
+| setMasterScale(value) | Ottiene o imposta la scala principale utilizzata durante l'esportazione. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getGammaCorrectedColor() | Un file 3ds può contenere il colore originale e il colore corretto gamma per lo stesso attributo; impostando questo su true verrà usato il colore corretto gamma se possibile, altrimenti Aspose.3D proverà a utilizzare il colore originale. |
+| getGammaCorrectedColor() | Un file 3ds può contenere il colore originale e il colore corretto per gamma per lo stesso attributo; impostando questo valore su true verrà utilizzato il colore corretto per gamma se possibile, altrimenti Aspose.3D proverà a utilizzare il colore originale. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setGammaCorrectedColor(value) | Un file 3ds può contenere il colore originale e il colore corretto gamma per lo stesso attributo; impostando questo su true verrà usato il colore corretto gamma se possibile, altrimenti Aspose.3D proverà a utilizzare il colore originale. |
+| setGammaCorrectedColor(value) | Un file 3ds può contenere il colore originale e il colore corretto per gamma per lo stesso attributo; impostando questo valore su true verrà utilizzato il colore corretto per gamma se possibile, altrimenti Aspose.3D proverà a utilizzare il colore originale. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getHighPreciseColor() | Se questo è true, il file 3ds generato utilizzerà colori ad alta precisione, il che significa che ogni canale rosso/verde/blu è in float a 32 bit. Altrimenti il file generato utilizzerà colori a 24 bit, ogni canale usa un byte a 8 bit. Il valore predefinito è false, perché non tutte le applicazioni supportano il colore ad alta precisione. |
+| getHighPreciseColor() | Se impostato su true, il file 3ds generato utilizzerà colori ad alta precisione, il che significa che ogni canale rosso/verde/blu è in float a 32 bit. Altrimenti il file generato utilizzerà colori a 24 bit, con ogni canale in byte a 8 bit. Il valore predefinito è false, poiché non tutte le applicazioni supportano i colori ad alta precisione. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setHighPreciseColor(value) | Se questo è true, il file 3ds generato utilizzerà colori ad alta precisione, il che significa che ogni canale rosso/verde/blu è in float a 32 bit. Altrimenti il file generato utilizzerà colori a 24 bit, ogni canale usa un byte a 8 bit. Il valore predefinito è false, perché non tutte le applicazioni supportano il colore ad alta precisione. |
+| setHighPreciseColor(value) | Se impostato su true, il file 3ds generato utilizzerà colori ad alta precisione, il che significa che ogni canale rosso/verde/blu è in float a 32 bit. Altrimenti il file generato utilizzerà colori a 24 bit, con ogni canale in byte a 8 bit. Il valore predefinito è false, poiché non tutte le applicazioni supportano i colori ad alta precisione. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Opzioni di salvataggio per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

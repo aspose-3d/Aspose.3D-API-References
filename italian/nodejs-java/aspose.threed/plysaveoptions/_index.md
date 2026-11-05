@@ -1,6 +1,6 @@
 ---
 title: "PlySaveOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -75,7 +75,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFlipCoordinate() | Capovolge la coordinata durante il salvataggio della scena, il valore predefinito è true. |
+| getFlipCoordinate() | Capovolge le coordinate durante il salvataggio della scena, il valore predefinito è true |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFlipCoordinate(value) | Capovolge la coordinata durante il salvataggio della scena, il valore predefinito è true. |
+| setFlipCoordinate(value) | Capovolge le coordinate durante il salvataggio della scena, il valore predefinito è true |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| getVertexElement() | Il nome dell'elemento per i dati vertex, il valore predefinito è "vertex" |
+| getVertexElement() | Il nome dell'elemento per i dati dei vertici, il valore predefinito è "vertex" |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| setVertexElement(value) | Il nome dell'elemento per i dati vertex, il valore predefinito è "vertex" |
+| setVertexElement(value) | Il nome dell'elemento per i dati dei vertici, il valore predefinito è "vertex" |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| getNormalComponents() | I nomi dei componenti per i dati di normale, il valore predefinito è ("nx", "ny", "nz") |
+| getNormalComponents() | I nomi dei componenti per i dati di normali, il valore predefinito è ("nx", "ny", "nz") |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| getTextureCoordinateComponents() | I nomi dei componenti per i dati delle coordinate di texture, il valore predefinito è ("u", "v") |
+| getTextureCoordinateComponents() | I nomi dei componenti per i dati di coordinate di texture, il valore predefinito è ("u", "v") |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Opzioni di salvataggio per esportare la scena come file PLY.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

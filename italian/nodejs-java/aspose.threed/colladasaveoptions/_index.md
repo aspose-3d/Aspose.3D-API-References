@@ -1,6 +1,6 @@
 ---
 title: "ColladaSaveOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/colladasaveoptions/
 ---
 ## ColladaSaveOptions class
 
-Opzioni di salvataggio per collada
+Opzioni di salvataggio per Collada
 
 
 ## Metodi
@@ -56,7 +56,7 @@ Opzioni di salvataggio per collada
 
 | Nome | Descrizione |
 | --- | --- |
-| getTransformStyle() | Ottiene o imposta lo stile di trasformazione del nodo. Il valore della proprietà è la costante intera ColladaTransformStyle. |
+| getTransformStyle() | Ottiene o imposta lo stile della trasformazione del nodo. Il valore della proprietà è la costante intera ColladaTransformStyle. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Opzioni di salvataggio per collada
 
 | Nome | Descrizione |
 | --- | --- |
-| setTransformStyle(value) | Ottiene o imposta lo stile di trasformazione del nodo. Il valore della proprietà è la costante intera ColladaTransformStyle. |
+| setTransformStyle(value) | Ottiene o imposta lo stile della trasformazione del nodo. Il valore della proprietà è la costante intera ColladaTransformStyle. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Opzioni di salvataggio per collada
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Opzioni di salvataggio per collada
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opzioni di salvataggio per collada
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

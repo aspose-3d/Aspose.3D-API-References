@@ -1,6 +1,6 @@
 ---
 title: "ShaderException"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/shaderexception/
 ---
 ## ShaderException class
 
-Eccezioni relative agli shader
+Eccezioni relative allo shader
 
 
 ## Metodi
@@ -23,7 +23,7 @@ Eccezioni relative agli shader
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| messaggio | Stringa | null |
+| messaggio | String | null |
 
  **Result:**
 

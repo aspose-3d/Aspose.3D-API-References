@@ -1,6 +1,6 @@
 ---
 title: "GLSLSource"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -140,8 +140,8 @@ Il codice sorgente degli shader in GLSL
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Nome file del file virtuale |
-| conten | Stringa | null |
+| fileName | String | Nome file del file virtuale |
+| contenuto | String | null |
 
  **Result:**
 

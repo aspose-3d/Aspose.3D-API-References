@@ -1,6 +1,6 @@
 ---
 title: "FVector4"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -15,8 +15,8 @@ Un vettore float con quattro componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| x | Il componente x. |
-| y | Il componente y. |
+| x | La componente x. |
+| y | La componente y. |
 | z | Il componente z. |
 | w | Il componente w. |
 
@@ -107,7 +107,7 @@ Un vettore float con quattro componenti.
 | toString() |  |
 
  **Result:**
-Stringa
+String
 
 
 ---

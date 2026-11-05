@@ -1,6 +1,6 @@
 ---
 title: "Cylinder"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -101,7 +101,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Il nome di questo oggetto |
+| name | String | Il nome di questo oggetto |
 | radiusTop | Numero | Raggio del cappuccio superiore del cilindro. |
 | radiusBottom | Numero | Raggio del cappuccio inferiore del cilindro. |
 | height | Numero | Altezza del cilindro. |
@@ -122,7 +122,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getOffsetBottom() | Ottiene o imposta l'offset di trasformazione dei vertici del lato inferiore. |
+| getOffsetBottom() | Ottiene o imposta lo spostamento di trasformazione dei vertici del lato inferiore. |
 
  **Result:**
 
@@ -135,7 +135,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setOffsetBottom(value) | Ottiene o imposta l'offset di trasformazione dei vertici del lato inferiore. |
+| setOffsetBottom(value) | Ottiene o imposta lo spostamento di trasformazione dei vertici del lato inferiore. |
 
  **Result:**
 
@@ -148,7 +148,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getOffsetTop() | Ottiene o imposta l'offset di trasformazione dei vertici del lato superiore. |
+| getOffsetTop() | Ottiene o imposta lo spostamento di trasformazione dei vertici del lato superiore. |
 
  **Result:**
 
@@ -161,7 +161,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setOffsetTop(value) | Ottiene o imposta l'offset di trasformazione dei vertici del lato superiore. |
+| setOffsetTop(value) | Ottiene o imposta lo spostamento di trasformazione dei vertici del lato superiore. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getShearBottom() | Ottiene o imposta la trasformazione di taglio del lato inferiore; il vettore memorizza il valore di taglio (asse x, asse z) misurato in radianti, il valore predefinito è (0, 0). |
+| getShearBottom() | Ottiene o imposta la trasformazione di shear del lato inferiore, il vettore memorizza il valore di shear (asse x, asse z) misurato in radianti, il valore predefinito è (0, 0). |
 
  **Result:**
 
@@ -213,7 +213,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setShearBottom(value) | Ottiene o imposta la trasformazione di taglio del lato inferiore; il vettore memorizza il valore di taglio (asse x, asse z) misurato in radianti, il valore predefinito è (0, 0). |
+| setShearBottom(value) | Ottiene o imposta la trasformazione di shear del lato inferiore, il vettore memorizza il valore di shear (asse x, asse z) misurato in radianti, il valore predefinito è (0, 0). |
 
  **Result:**
 
@@ -226,7 +226,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getShearTop() | Ottiene o imposta la trasformazione di taglio del lato superiore; il vettore memorizza il valore di taglio (asse x, asse z) misurato in radianti, il valore predefinito è (0, 0). |
+| getShearTop() | Ottiene o imposta la trasformazione di shear del lato superiore, il vettore memorizza il valore di shear (asse x, asse z) misurato in radianti, il valore predefinito è (0, 0). |
 
  **Result:**
 
@@ -239,7 +239,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setShearTop(value) | Ottiene o imposta la trasformazione di taglio del lato superiore; il vettore memorizza il valore di taglio (asse x, asse z) misurato in radianti, il valore predefinito è (0, 0). |
+| setShearTop(value) | Ottiene o imposta la trasformazione di shear del lato superiore, il vettore memorizza il valore di shear (asse x, asse z) misurato in radianti, il valore predefinito è (0, 0). |
 
  **Result:**
 
@@ -252,7 +252,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getRadiusTop() | Ottiene o imposta il raggio della copertura superiore del cilindro. Il raggio della copertura superiore. |
+| getRadiusTop() | Ottiene o imposta il raggio del cappuccio superiore del cilindro. Il raggio del cappuccio superiore. |
 
  **Result:**
 
@@ -265,7 +265,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setRadiusTop(value) | Ottiene o imposta il raggio della copertura superiore del cilindro. Il raggio della copertura superiore. |
+| setRadiusTop(value) | Ottiene o imposta il raggio del cappuccio superiore del cilindro. Il raggio del cappuccio superiore. |
 
  **Result:**
 
@@ -278,7 +278,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getRadiusBottom() | Ottiene o imposta il raggio della copertura inferiore del cilindro. Il raggio della copertura inferiore. |
+| getRadiusBottom() | Ottiene o imposta il raggio del cappuccio inferiore del cilindro. Il raggio del cappuccio inferiore. |
 
  **Result:**
 
@@ -291,7 +291,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setRadiusBottom(value) | Ottiene o imposta il raggio della copertura inferiore del cilindro. Il raggio della copertura inferiore. |
+| setRadiusBottom(value) | Ottiene o imposta il raggio del cappuccio inferiore del cilindro. Il raggio del cappuccio inferiore. |
 
  **Result:**
 
@@ -382,7 +382,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getOpenEnded() | Ottiene o imposta un valore che indica se questo cilindro è aperto. Il valore predefinito è false. true se è aperto; altrimenti, le coperture superiore/inferiore esistono. |
+| getOpenEnded() | Ottiene o imposta un valore che indica se questo cilindro è aperto alle estremità. Il valore predefinito è false. true se è aperto; altrimenti, i cappucci superiore/inferiore esistono. |
 
  **Result:**
 
@@ -395,7 +395,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setOpenEnded(value) | Ottiene o imposta un valore che indica se questo cilindro è aperto. Il valore predefinito è false. true se è aperto; altrimenti, le coperture superiore/inferiore esistono. |
+| setOpenEnded(value) | Ottiene o imposta un valore che indica se questo cilindro è aperto alle estremità. Il valore predefinito è false. true se è aperto; altrimenti, i cappucci superiore/inferiore esistono. |
 
  **Result:**
 
@@ -408,7 +408,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getThetaStart() | Ottiene o imposta l'inizio theta. Il valore predefinito è 0. L'inizio theta. |
+| getThetaStart() | Ottiene o imposta l'inizio di theta. Il valore predefinito è 0. L'inizio di theta. |
 
  **Result:**
 
@@ -421,7 +421,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setThetaStart(value) | Ottiene o imposta l'inizio theta. Il valore predefinito è 0. L'inizio theta. |
+| setThetaStart(value) | Ottiene o imposta l'inizio di theta. Il valore predefinito è 0. L'inizio di theta. |
 
  **Result:**
 
@@ -460,7 +460,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombre |
+| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -473,7 +473,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombre |
+| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -486,7 +486,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombre. |
+| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -499,7 +499,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombre. |
+| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -512,7 +512,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -551,7 +551,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -564,7 +564,7 @@ Cilindro parametrizzato. Può anche essere usato per rappresentare il cono quand
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -674,7 +674,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -693,7 +693,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -712,10 +712,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -731,11 +731,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -745,16 +745,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

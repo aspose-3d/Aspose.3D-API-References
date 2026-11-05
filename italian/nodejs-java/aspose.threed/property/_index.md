@@ -1,6 +1,6 @@
 ---
-title: "Property"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "Proprietà"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -82,14 +82,14 @@ Classe per contenere proprietà definite dall'utente.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getBindPoint(anim, create) | Ottiene il punto di binding della proprietà sull'istanza di animazione specificata. |
+| getBindPoint(anim, create) | Ottiene il punto di collegamento della proprietà sull'istanza di animazione specificata. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | anim | AnimationNode | Su quale animazione creare il punto di collegamento. |
-| crea | boolean | Crea il punto di collegamento della proprietà se non viene trovato. |
+| create | boolean | Crea il punto di collegamento della proprietà se non viene trovato. |
 
  **Result:**
 BindPoint
@@ -109,7 +109,7 @@ BindPoint
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | anim | AnimationNode | Su quale animazione creare la sequenza di fotogrammi chiave. |
-| crea | boolean | Crea la sequenza di fotogrammi chiave se non viene trovata. |
+| create | boolean | Crea la sequenza di fotogrammi chiave se non viene trovata. |
 
  **Result:**
 KeyframeSequence
@@ -125,7 +125,7 @@ KeyframeSequence
 | toString() | Restituisce una stringa che rappresenta la proprietà corrente. |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -141,7 +141,7 @@ Stringa
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -160,7 +160,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -179,10 +179,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -198,11 +198,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -212,16 +212,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---
