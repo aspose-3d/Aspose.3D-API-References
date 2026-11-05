@@ -8,17 +8,17 @@ url: /de/nodejs-java/aspose.threed/fvector4/
 ---
 ## FVector4 class
 
-Ein Float-Vektor mit vier Komponenten.
+Ein Fließkomma-Vektor mit vier Komponenten.
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| x | Die x‑Komponente. |
-| y | Die y‑Komponente. |
-| z | Die z‑Komponente. |
-| w | Die w‑Komponente. |
+| x | Die x-Komponente. |
+| y | Die y-Komponente. |
+| z | Die z-Komponente. |
+| w | Die w-Komponente. |
 
 ## Methoden
 

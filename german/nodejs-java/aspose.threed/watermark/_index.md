@@ -1,5 +1,5 @@
 ---
-title: "Watermark"
+title: "Wasserzeichen"
 second_title: "Aspose.3D für Node.js via Java API-Referenz"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/watermark/
 ---
 ## Watermark class
 
-Dienstprogramm zum Codieren/Dekodieren eines Blindwasserzeichens in/aus einem Mesh.  @hideconstructor
+Dienstprogramm zum Kodieren/Dekodieren eines blinden Wasserzeichens in/einem Mesh.  @hideconstructor
 
 
 ## Methoden
@@ -17,14 +17,14 @@ Dienstprogramm zum Codieren/Dekodieren eines Blindwasserzeichens in/aus einem Me
 
 | Name | Beschreibung |
 | --- | --- |
-| encodeWatermark(input, text) | Kodieren Sie einen Text in das blinde Wasserzeichen des Meshes. |
+| encodeWatermark(input, text) | Kodiert einen Text in ein blindes Wasserzeichen des Meshes. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | input | Mesh | Mesh zum Kodieren eines blinden Wasserzeichens |
-| Text | String | Text zum Kodieren in das Mesh |
+| Text | String | Text, der in das Mesh kodiert werden soll |
 
  **Result:**
 Mesh
@@ -37,15 +37,15 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| encodeWatermark(input, text, password) | Kodieren Sie einen Text in das blinde Wasserzeichen des Meshes. |
+| encodeWatermark(input, text, password) | Kodiert einen Text in ein blindes Wasserzeichen des Meshes. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | input | Mesh | Mesh zum Kodieren eines blinden Wasserzeichens |
-| Text | String | Text zum Kodieren in das Mesh |
-| Passwort | String | Passwort zum Schutz des Wasserzeichens, optional |
+| Text | String | Text, der in das Mesh kodiert werden soll |
+| password | String | Passwort zum Schutz des Wasserzeichens, optional |
 
  **Result:**
 Mesh
@@ -58,7 +58,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| decodeWatermark(input) | Dekodiere das Wasserzeichen aus einem Mesh |
+| decodeWatermark(input) | Dekodiert das Wasserzeichen aus einem Mesh |
 
  **Parameters:**
 
@@ -77,14 +77,14 @@ String
 
 | Name | Beschreibung |
 | --- | --- |
-| decodeWatermark(input, password) | Dekodiere das Wasserzeichen aus einem Mesh |
+| decodeWatermark(input, password) | Dekodiert das Wasserzeichen aus einem Mesh |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | input | Mesh | Das Mesh zum Extrahieren des Wasserzeichens |
-| Passwort | String | Das Passwort zum Entschlüsseln des Wasserzeichens |
+| password | String | Das Passwort zum Entschlüsseln des Wasserzeichens |
 
  **Result:**
 String

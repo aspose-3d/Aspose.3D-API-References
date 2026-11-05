@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertexelementmaterial/
 ---
 ## VertexElementMaterial class
 
-Definiert den Materialindex für angegebene Komponenten.  Ein Knoten kann mehrere Materialien haben, **VertexElementMaterial** wird verwendet, um verschiedene Teile der Geometrie mit unterschiedlichen Materialien zu rendern.
+Definiert den Materialindex für die angegebenen Komponenten.  Ein Knoten kann mehrere Materialien haben, das VertexElementMaterial wird verwendet, um verschiedene Teile der Geometrie mit unterschiedlichen Materialien zu rendern.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Definiert den Materialindex für angegebene Komponenten.  Ein Knoten kann mehrer
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexElementType() | Ermittelt den Typ des VertexElement. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
+| getVertexElementType() | Liest den Typ des VertexElements. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Definiert den Materialindex für angegebene Komponenten.  Ein Knoten kann mehrer
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Definiert den Materialindex für angegebene Komponenten.  Ein Knoten kann mehrer
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Definiert den Materialindex für angegebene Komponenten.  Ein Knoten kann mehrer
 
 | Name | Beschreibung |
 | --- | --- |
-| getMappingMode() | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| getMappingMode() | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Definiert den Materialindex für angegebene Komponenten.  Ein Knoten kann mehrer
 
 | Name | Beschreibung |
 | --- | --- |
-| setMappingMode(value) | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| setMappingMode(value) | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Definiert den Materialindex für angegebene Komponenten.  Ein Knoten kann mehrer
 
 | Name | Beschreibung |
 | --- | --- |
-| getIndices() | Ermittelt die Indexdaten. Das Index‑Array. |
+| getIndices() | Liest die Indexdaten. Das Index-Array. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Definiert den Materialindex für angegebene Komponenten.  Ein Knoten kann mehrer
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | Number[] | null |
+| dat | Number[] | null |
 
  **Result:**
 

@@ -17,7 +17,7 @@ Das RVM-Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getVersion() | Ermittelt die Dateiformatversion |
+| getVersion() | Gibt die Dateiformatversion zurück |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Das RVM-Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtension() | Ermittelt den Erweiterungsnamen dieses Typs. |
+| getExtension() | Gibt den Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Das RVM-Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtensions() | Ermittelt die Erweiterungsnamen dieses Typs. |
+| getExtensions() | Gibt die Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Das RVM-Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormatType() | Ermittelt den Dateiformattyp |
+| getFileFormatType() | Liest den Dateiformattyp |
 
  **Result:**
 
@@ -88,9 +88,9 @@ Das RVM-Format  @hideconstructor
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| scene | Szene | Die Szene, auf die die Attribute angewendet werden |
+| Szene | Szene | Die Szene, auf die die Attribute angewendet werden |
 | fileName | String | Der Dateiname, der die Attribute enthält |
-| prefix | String | Das Präfix der Attribute, das verwendet wird, um Namenskonflikte zu vermeiden; Standardwert ist "rvm:" |
+| Präfix | String | Das Präfix der Attribute, das verwendet wird, um Namenskonflikte zu vermeiden, Standardwert ist "rvm:" |
 
  **Result:**
 
@@ -103,7 +103,7 @@ Das RVM-Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| createLoadOptions() | Standard-Ladeoptionen für dieses Dateiformat erstellen |
+| createLoadOptions() | Erstellt Standard-Ladeoptionen für dieses Dateiformat |
 
  **Result:**
 LoadOptions
@@ -116,7 +116,7 @@ LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| createSaveOptions() | Standard-Speicheroptionen für dieses Dateiformat erstellen |
+| createSaveOptions() | Erstellt Standard-Speicheroptionen für dieses Dateiformat |
 
  **Result:**
 SaveOptions

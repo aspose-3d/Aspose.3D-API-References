@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/shadermaterial/
 ---
 ## ShaderMaterial class
 
-Ein Shader-Material ermöglicht es, das Material durch eine externe Rendering-Engine oder Shadersprache zu beschreiben.  ShaderMaterial verwendet ShaderTechnique, um die konkreten Renderdetails zu beschreiben, und die am besten geeignete wird je nach Ziel-Rendering-Plattform verwendet.  Beispielsweise kann Ihre ShaderMaterial-Instanz zwei Techniken haben, eine definiert durch HLSL und eine andere durch GLSL.  Auf Nicht‑Windows‑Plattformen sollte GLSL anstelle von HLSL verwendet werden.
+Ein Shader-Material ermöglicht es, das Material durch eine externe Rendering-Engine oder Shadersprache zu beschreiben.  ShaderMaterial verwendet ShaderTechnique, um die konkreten Rendering-Details zu beschreiben,  und das am besten geeignete wird je nach Ziel-Rendering-Plattform verwendet.  Zum Beispiel kann Ihre ShaderMaterial-Instanz zwei Techniken haben, eine definiert in HLSL und eine andere in GLSL.  Auf nicht‑Windows-Plattformen sollte GLSL anstelle von HLSL verwendet werden.
 
 
 ## Methoden
@@ -36,7 +36,7 @@ Ein Shader-Material ermöglicht es, das Material durch eine externe Rendering-En
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name |
+| name | String | Name |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Ein Shader-Material ermöglicht es, das Material durch eine externe Rendering-En
 
 | Name | Beschreibung |
 | --- | --- |
-| getTechniques() | Ermittelt alle verfügbaren Techniken, die in diesem Material definiert sind. |
+| getTechniques() | Liest alle verfügbaren Techniken, die in diesem Material definiert sind. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Ein Shader-Material ermöglicht es, das Material durch eine externe Rendering-En
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Ein Shader-Material ermöglicht es, das Material durch eine externe Rendering-En
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Ein Shader-Material ermöglicht es, das Material durch eine externe Rendering-En
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -101,13 +101,13 @@ Ein Shader-Material ermöglicht es, das Material durch eine externe Rendering-En
 
 | Name | Beschreibung |
 | --- | --- |
-| getTexture(slotName) | Gibt die Textur aus dem angegebenen Slot zurück, sie kann der Name einer Materialeigenschaft oder ein Shader-Parametername sein. |
+| getTexture(slotName) | Liest die Textur aus dem angegebenen Slot, es kann der Name einer Material‑Eigenschaft oder ein Shader‑Parametername sein. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| slotName | String | Slot-Name. |
+| slotName | String | Slot‑Name. |
 
  **Result:**
 TextureBase
@@ -126,7 +126,7 @@ TextureBase
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| slotName | String | Slot-Name. |
+| slotName | String | Slot‑Name. |
 | Textur | TextureBase | Textur. |
 
  **Result:**
@@ -140,7 +140,7 @@ TextureBase
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Formatiert das Objekt in einen String |
+| toString() | Formatiert das Objekt zu einem String. |
 
  **Result:**
 String
@@ -159,7 +159,7 @@ String
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -172,7 +172,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -191,7 +191,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -200,7 +200,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -217,10 +217,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -230,7 +230,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -239,7 +239,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---
@@ -249,10 +249,10 @@ Property
 
 | Name | Beschreibung |
 | --- | --- |
-| iterator() | Für den internen Gebrauch reserviert. |
+| iterator() | Für die interne Verwendung reserviert. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

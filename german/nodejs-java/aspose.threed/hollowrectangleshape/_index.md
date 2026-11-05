@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/hollowrectangleshape/
 ---
 ## HollowRectangleShape class
 
-IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abgerundeten Ecken.
+IFC-kompatible hohle rechteckige Form mit abgerundeten inneren/äußeren Ecken.
 
 
 ## Methoden
@@ -160,7 +160,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -238,7 +238,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ IFC-kompatible hohle rechteckige Form mit sowohl inneren als auch äußeren abge
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtent() | Ermittelt die Ausdehnung in x- und y-Richtung. |
+| getExtent() | Gibt die Ausdehnung in x- und y-Richtung zurück. |
 
  **Result:**
 Vector2
@@ -290,7 +290,7 @@ Vector2
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -303,7 +303,7 @@ EntityRendererKey
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 EntityRendererKey
@@ -322,7 +322,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -335,7 +335,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -354,7 +354,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -363,7 +363,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -380,10 +380,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -393,7 +393,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -402,7 +402,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

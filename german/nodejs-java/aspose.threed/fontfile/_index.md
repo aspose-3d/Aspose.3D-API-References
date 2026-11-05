@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/fontfile/
 ---
 ## FontFile class
 
-Fontdatei enthält Definitionen für Glyphen, die zum Erstellen von Textprofilen verwendet werden.  @hideconstructor
+Schriftdatei enthält Definitionen für Glyphen, dies wird verwendet, um ein Textprofil zu erstellen.  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Fontdatei enthält Definitionen für Glyphen, die zum Erstellen von Textprofilen
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Fontdatei enthält Definitionen für Glyphen, die zum Erstellen von Textprofilen
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Fontdatei enthält Definitionen für Glyphen, die zum Erstellen von Textprofilen
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Fontdatei enthält Definitionen für Glyphen, die zum Erstellen von Textprofilen
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| fileName | String | Pfad zur Font-Datei |
+| fileName | String | Pfad zur Schriftdatei |
 
  **Result:**
 FontFile
@@ -81,7 +81,7 @@ FontFile
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Bytes | byte[] | Rohinhalt der OTF-Font-Datei |
+| Bytes | byte[] | Rohinhalt der OTF-Schriftdatei |
 
  **Result:**
 FontFile
@@ -100,7 +100,7 @@ FontFile
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -113,7 +113,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -132,7 +132,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -141,7 +141,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -158,10 +158,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -171,7 +171,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -180,7 +180,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/exportexception/
 ---
 ## ExportException class
 
-Ausnahmen, wenn Aspose.3D die Szene nicht in eine Datei exportieren konnte.
+Ausnahmen, wenn Aspose.3D das Exportieren der Szene in eine Datei fehlgeschlagen ist
 
 
 ## Methoden
@@ -23,7 +23,7 @@ Ausnahmen, wenn Aspose.3D die Szene nicht in eine Datei exportieren konnte.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| msg | String | Fehlermeldung |
+| Nachricht | String | Fehlermeldung |
 
  **Result:**
 

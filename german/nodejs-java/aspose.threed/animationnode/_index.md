@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/animationnode/
 ---
 ## AnimationNode class
 
-Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehreren Animationen und der Keyframe‑Definition einer Animation zusammengesetzt werden.  AnimationNode definiert die Transformation eines Eigenschaftswerts über die Zeit, zum Beispiel kann ein Animationsknoten verwendet werden, um die Transformation eines Knotens oder andere numerische Eigenschaften eines A3DObject‑Objekts zu steuern.
+Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehreren Animationen und der Key‑Frame‑Definition einer Animation zusammengesetzt werden.  AnimationNode definiert die Transformation eines Eigenschaftswerts über die Zeit, zum Beispiel kann ein Animationsknoten verwendet werden, um die Transformation eines Knotens oder andere numerische Eigenschaften eines A3DObject‑Objekts zu steuern.
 
 
 ## Methoden
@@ -23,7 +23,7 @@ Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehrere
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name |
+| name | String | Name |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehrere
 
 | Name | Beschreibung |
 | --- | --- |
-| getBindPoints() | Liest die aktuellen Eigenschafts-Bindungspunkte |
+| getBindPoints() | Liest die aktuellen Property-Bind-Punkte |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehrere
 
 | Name | Beschreibung |
 | --- | --- |
-| getSubAnimations() | Ruft die Unteranimationsknoten unter den aktuellen Animationen ab. |
+| getSubAnimations() | Liest die Unteranimationsknoten unter den aktuellen Animationen |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehrere
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehrere
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehrere
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -114,13 +114,13 @@ Aspose.3D unterstützt die Animationshierarchie, jede Animation kann aus mehrere
 
 | Name | Beschreibung |
 | --- | --- |
-| findBindPoint(name) | Findet den Bindungspunkt anhand des Namens. |
+| findBindPoint(name) | Findet den Bind-Punkt nach Namen. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name des Bindungspunkts zum Finden. |
+| name | String | Name des Bind-Punkts, der gefunden werden soll. |
 
  **Result:**
 BindPoint
@@ -133,15 +133,15 @@ BindPoint
 
 | Name | Beschreibung |
 | --- | --- |
-| getBindPoint(target, propName, create) | Gibt den Animations-Bindungspunkt für die angegebene Eigenschaft zurück. |
+| getBindPoint(target, propName, create) | Liest den Animations-Bind-Punkt für die angegebene Property. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| target | A3DObject | Auf welchem Objekt der Bindungspunkt erstellt werden soll. |
-| propName | String | Der Name der Eigenschaft. |
-| erstellen | boolean | Wenn gesetzt auf |
+| target | A3DObject | Auf welchem Objekt der Bind-Punkt erstellt werden soll. |
+| propName | String | Der Name der Property. |
+| create | boolean | Wenn festgelegt auf |
 
  **Result:**
 BindPoint
@@ -160,10 +160,10 @@ BindPoint
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| target | A3DObject | Bei welcher Instanz die Keyframe‑Sequenz erstellt werden soll. |
-| propName | String | Der Name der Eigenschaft. |
+| target | A3DObject | Auf welcher Instanz die Keyframe‑Sequenz erstellt werden soll. |
+| propName | String | Der Name der Property. |
 | channelName | String | Der Kanalname. |
-| erstellen | boolean | Wenn gesetzt auf |
+| create | boolean | Wenn festgelegt auf |
 
  **Result:**
 KeyframeSequence
@@ -176,15 +176,15 @@ KeyframeSequence
 
 | Name | Beschreibung |
 | --- | --- |
-| getKeyframeSequence(target, propName, create) | Gibt die Keyframe-Sequenz für die angegebene Eigenschaft zurück. |
+| getKeyframeSequence(target, propName, create) | Ruft die Keyframe‑Sequenz für die angegebene Eigenschaft ab. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| target | A3DObject | Bei welcher Instanz die Keyframe‑Sequenz erstellt werden soll. |
-| propName | String | Der Name der Eigenschaft. |
-| erstellen | boolean | Wenn gesetzt auf |
+| target | A3DObject | Auf welcher Instanz die Keyframe‑Sequenz erstellt werden soll. |
+| propName | String | Der Name der Property. |
+| create | boolean | Wenn festgelegt auf |
 
  **Result:**
 KeyframeSequence
@@ -223,7 +223,7 @@ BindPoint
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -236,7 +236,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -255,7 +255,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -264,7 +264,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -281,10 +281,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -294,7 +294,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -303,7 +303,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

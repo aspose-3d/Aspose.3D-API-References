@@ -11,12 +11,12 @@ url: /de/nodejs-java/aspose.threed/vector2/
 Ein Vektor mit zwei Komponenten.
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| x | Die x‑Komponente. |
-| y | Die y‑Komponente. |
+| x | Die x-Komponente. |
+| y | Die y-Komponente. |
 
 ## Methoden
 
@@ -43,7 +43,7 @@ Ein Vektor mit zwei Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| s | Number | S. |
+| s | Zahl | S. |
 
  **Result:**
 
@@ -81,8 +81,8 @@ Ein Vektor mit zwei Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Number | Die x-Koordinate. |
-| y | Number | Die y-Koordinate. |
+| x | Zahl | Die x-Koordinate. |
+| y | Zahl | Die y-Koordinate. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Ein Vektor mit zwei Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| getU() | Liest oder setzt die U-Komponente, wenn die Vector2 als Mapping-Koordinate verwendet wird. Sie ist ein Alias der x-Komponente. |
+| getU() | Liest oder setzt die U‑Komponente, wenn der Vector2 als Mapping‑Koordinate verwendet wird. Es ist ein Alias der x‑Komponente. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Ein Vektor mit zwei Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| setU(value) | Liest oder setzt die U-Komponente, wenn die Vector2 als Mapping-Koordinate verwendet wird. Sie ist ein Alias der x-Komponente. |
+| setU(value) | Liest oder setzt die U‑Komponente, wenn der Vector2 als Mapping‑Koordinate verwendet wird. Es ist ein Alias der x‑Komponente. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Ein Vektor mit zwei Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| getV() | Liest oder setzt die V-Komponente, wenn die Vector2 als Mapping-Koordinate verwendet wird. Sie ist ein Alias der y-Komponente. |
+| getV() | Liest oder setzt die V‑Komponente, wenn der Vector2 als Mapping‑Koordinate verwendet wird. Es ist ein Alias der y‑Komponente. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Ein Vektor mit zwei Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| setV(value) | Liest oder setzt die V-Komponente, wenn die Vector2 als Mapping-Koordinate verwendet wird. Sie ist ein Alias der y-Komponente. |
+| setV(value) | Liest oder setzt die V‑Komponente, wenn der Vector2 als Mapping‑Koordinate verwendet wird. Es ist ein Alias der y‑Komponente. |
 
  **Result:**
 
@@ -160,16 +160,16 @@ Ein Vektor mit zwei Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| dot(rhs) | Gibt das Skalarprodukt von zwei Vektoren zurück |
+| dot(rhs) | Gibt das Skalarprodukt von zwei Vektoren zurück. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| rhs | Vector2 | Rechter Handwert. |
+| rhs | Vector2 | Wert der rechten Seite. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -179,7 +179,7 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| equals(rhs) | Überprüfen, ob zwei Vector2 gleich sind |
+| equals(rhs) | Überprüft, ob zwei vector2 gleich sind |
 
  **Parameters:**
 
@@ -198,10 +198,10 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| hashCode() | Gibt den Hashcode von Vector2 zurück |
+| hashCode() | Liest den Hashcode von Vector2 |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -211,13 +211,13 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| equals(obj) | Überprüfen, ob zwei Vector2 gleich sind |
+| equals(obj) | Überprüft, ob zwei vector2 gleich sind |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| obj | Object | Das zu vergleichende Objekt. |
+| obj | Objekt | Das zu vergleichende Objekt. |
 
  **Result:**
 boolean
@@ -230,7 +230,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Gibt einen java.lang.String zurück, der das aktuelle Vector2 darstellt. |
+| toString() | Gibt einen java.lang.String zurück, der den aktuellen Vector2 darstellt. |
 
  **Result:**
 String
@@ -243,7 +243,7 @@ String
 
 | Name | Beschreibung |
 | --- | --- |
-| cross(v) | Kreuzprodukt von zwei Vektoren |
+| cross(v) | Kreuzprodukt von zwei Vektoren. |
 
  **Parameters:**
 
@@ -252,7 +252,7 @@ String
 |  | Vector2 | null |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -275,7 +275,7 @@ Vector2
 
 | Name | Beschreibung |
 | --- | --- |
-| compareTo(other) | Vergleicht den aktuellen Vektor mit einer anderen Instanz. |
+| compareTo(other) | Vergleiche den aktuellen Vektor mit einer anderen Instanz. |
 
  **Parameters:**
 
@@ -284,7 +284,7 @@ Vector2
 | othe | Vector2 | null |
 
  **Result:**
-Number
+Zahl
 
 
 ---

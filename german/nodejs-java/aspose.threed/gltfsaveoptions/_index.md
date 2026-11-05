@@ -17,7 +17,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| Konstruktor(contentType) | Konstruktor von GltfSaveOptions |
+| constructor(contentType) | Konstruktor von GltfSaveOptions |
 
  **Parameters:**
 
@@ -42,7 +42,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Form | FileFormat | null |
+| Format | FileFormat | null |
 
  **Result:**
 
@@ -55,7 +55,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getPrettyPrint() | Der JSON‑Inhalt der GLTF‑Datei ist für die Lesbarkeit durch Menschen eingerückt, Standardwert ist false |
+| getPrettyPrint() | Der JSON-Inhalt der GLTF-Datei ist für die menschliche Lesbarkeit eingerückt, der Standardwert ist false. |
 
  **Result:**
 
@@ -68,7 +68,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setPrettyPrint(value) | Der JSON‑Inhalt der GLTF‑Datei ist für die Lesbarkeit durch Menschen eingerückt, Standardwert ist false |
+| setPrettyPrint(value) | Der JSON-Inhalt der GLTF-Datei ist für die menschliche Lesbarkeit eingerückt, der Standardwert ist false. |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFallbackNormal() | Wenn der GLTF2‑Exporter eine ungültige Normale erkennt, wird dieser Wert anstelle des ursprünglichen Wertes verwendet, um die Validierung zu umgehen. Standardwert ist (0, 1, 0). |
+| getFallbackNormal() | Wenn der GLTF2-Exporter einen ungültigen Normalenvektor erkennt, wird dieser stattdessen verwendet, um die Validierung zu umgehen. Der Standardwert ist (0, 1, 0). |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEmbedAssets() | Betten Sie alle externen Assets als Base64 in eine einzelne Datei im ASCII‑Modus ein, der Standardwert ist false. |
+| getEmbedAssets() | Betten Sie alle externen Assets als Base64 in eine einzelne Datei im ASCII-Modus ein, der Standardwert ist false. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setEmbedAssets(value) | Betten Sie alle externen Assets als Base64 in eine einzelne Datei im ASCII‑Modus ein, der Standardwert ist false. |
+| setEmbedAssets(value) | Betten Sie alle externen Assets als Base64 in eine einzelne Datei im ASCII-Modus ein, der Standardwert ist false. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getImageFormat() | Standard‑glTF unterstützt nur PNG/JPG als Texturformat; diese Option bestimmt, wie Aspose.3D nicht‑standardmäßige Bilder während des Exports in ein unterstütztes Format konvertiert. Der Standardwert ist GltfEmbeddedImageFormat.PNG. Der Wert der Eigenschaft ist die Ganzzahlkonstante GltfEmbeddedImageFormat. |
+| getImageFormat() | Standard‑glTF unterstützt nur PNG/JPG als Texturformat, diese Option bestimmt, wie Aspose.3D nicht‑standardmäßige Bilder während des Exports in ein unterstütztes Format konvertiert. Der Standardwert ist GltfEmbeddedImageFormat.PNG. Der Wert der Eigenschaft ist die Ganzzahlkonstante GltfEmbeddedImageFormat. |
 
  **Result:**
 
@@ -133,7 +133,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setImageFormat(value) | Standard‑glTF unterstützt nur PNG/JPG als Texturformat; diese Option bestimmt, wie Aspose.3D nicht‑standardmäßige Bilder während des Exports in ein unterstütztes Format konvertiert. Der Standardwert ist GltfEmbeddedImageFormat.PNG. Der Wert der Eigenschaft ist die Ganzzahlkonstante GltfEmbeddedImageFormat. |
+| setImageFormat(value) | Standard‑glTF unterstützt nur PNG/JPG als Texturformat, diese Option bestimmt, wie Aspose.3D nicht‑standardmäßige Bilder während des Exports in ein unterstütztes Format konvertiert. Der Standardwert ist GltfEmbeddedImageFormat.PNG. Der Wert der Eigenschaft ist die Ganzzahlkonstante GltfEmbeddedImageFormat. |
 
  **Result:**
 
@@ -146,7 +146,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getMaterialConverter() | Benutzerdefinierter Konverter, um das Material der Geometrie in ein PBR‑Material zu konvertieren. Wenn dies nicht zugewiesen ist, konvertiert der glTF 2.0‑Exporter das Standardmaterial automatisch in ein PBR‑Material. Standardwert ist null. Diese Eigenschaft wird beim Export einer Szene in eine glTF 2.0‑Datei verwendet. |
+| getMaterialConverter() | Benutzerdefinierter Konverter, um das Material der Geometrie in ein PBR‑Material zu konvertieren. Wenn dieser nicht zugewiesen ist, konvertiert der glTF 2.0‑Exporter das Standardmaterial automatisch in ein PBR‑Material. Der Standardwert ist null. Diese Eigenschaft wird beim Export einer Szene in eine glTF 2.0‑Datei verwendet. |
 
  **Result:**
 
@@ -159,7 +159,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setMaterialConverter(value) | Benutzerdefinierter Konverter, um das Material der Geometrie in ein PBR‑Material zu konvertieren. Wenn dies nicht zugewiesen ist, konvertiert der glTF 2.0‑Exporter das Standardmaterial automatisch in ein PBR‑Material. Standardwert ist null. Diese Eigenschaft wird beim Export einer Szene in eine glTF 2.0‑Datei verwendet. |
+| setMaterialConverter(value) | Benutzerdefinierter Konverter, um das Material der Geometrie in ein PBR‑Material zu konvertieren. Wenn dieser nicht zugewiesen ist, konvertiert der glTF 2.0‑Exporter das Standardmaterial automatisch in ein PBR‑Material. Der Standardwert ist null. Diese Eigenschaft wird beim Export einer Szene in eine glTF 2.0‑Datei verwendet. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getUseCommonMaterials() | Serialisiert Materialien mithilfe der KHR‑Common‑Material‑Erweiterungen, Standardwert ist false. Setzt man dies auf false, führt dies dazu, dass Aspose.3D ein Satz von Vertex‑/Fragment‑Shadern exportiert, wenn #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
+| getUseCommonMaterials() | Serialisiere Materialien mithilfe der KHR common material extensions, der Standardwert ist false. Setzt man dies auf false, führt dies dazu, dass Aspose.3D ein Satz von Vertex-/Fragment‑Shadern exportiert, wenn #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setUseCommonMaterials(value) | Serialisiert Materialien mithilfe der KHR‑Common‑Material‑Erweiterungen, Standardwert ist false. Setzt man dies auf false, führt dies dazu, dass Aspose.3D ein Satz von Vertex‑/Fragment‑Shadern exportiert, wenn #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
+| setUseCommonMaterials(value) | Serialisiere Materialien mithilfe der KHR common material extensions, der Standardwert ist false. Setzt man dies auf false, führt dies dazu, dass Aspose.3D ein Satz von Vertex-/Fragment‑Shadern exportiert, wenn #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
 
  **Result:**
 
@@ -198,7 +198,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExternalDracoEncoder() | Verwendet einen externen Draco‑Encoder, um die Draco‑Komprimierungsgeschwindigkeit zu beschleunigen. Aspose.3D erstellt einen neuen Unterprozess, um das Mesh in das Draco‑Format zu kodieren; verwenden Sie ihn auf eigenes Risiko. |
+| getExternalDracoEncoder() | Verwenden Sie einen externen Draco‑Encoder, um die Draco‑Komprimierungsgeschwindigkeit zu beschleunigen. Aspose.3D erstellt einen neuen Unterprozess, um das Mesh in das Draco‑Format zu kodieren; verwenden Sie ihn auf eigenes Risiko. |
 
  **Result:**
 
@@ -211,7 +211,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExternalDracoEncoder(value) | Verwendet einen externen Draco‑Encoder, um die Draco‑Komprimierungsgeschwindigkeit zu beschleunigen. Aspose.3D erstellt einen neuen Unterprozess, um das Mesh in das Draco‑Format zu kodieren; verwenden Sie ihn auf eigenes Risiko. |
+| setExternalDracoEncoder(value) | Verwenden Sie einen externen Draco‑Encoder, um die Draco‑Komprimierungsgeschwindigkeit zu beschleunigen. Aspose.3D erstellt einen neuen Unterprozess, um das Mesh in das Draco‑Format zu kodieren; verwenden Sie ihn auf eigenes Risiko. |
 
  **Result:**
 
@@ -224,7 +224,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlipTexCoordV() | Vertauschen Sie die v(t)-Komponente der Texturkoordinate, der Standardwert ist true. |
+| getFlipTexCoordV() | Drehen Sie die Texturkoordinaten‑Komponente v(t) um, der Standardwert ist true. |
 
  **Result:**
 
@@ -237,7 +237,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlipTexCoordV(value) | Vertauschen Sie die v(t)-Komponente der Texturkoordinate, der Standardwert ist true. |
+| setFlipTexCoordV(value) | Drehen Sie die Texturkoordinaten‑Komponente v(t) um, der Standardwert ist true. |
 
  **Result:**
 
@@ -250,7 +250,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getBufferFile() | Der Dateiname der externen Pufferdatei, die zum Speichern binärer Daten verwendet wird. Wenn diese Datei nicht angegeben wird, erzeugt Aspose.3D einen Namen für Sie. Dies wird ignoriert, wenn glTF im Binärmodus exportiert wird. |
+| getBufferFile() | Der Dateiname der externen Pufferdatei, die zum Speichern binärer Daten verwendet wird. Wenn diese Datei nicht angegeben ist, erzeugt Aspose.3D einen Namen für Sie. Dies wird ignoriert, wenn glTF im Binärmodus exportiert wird. |
 
  **Result:**
 
@@ -263,7 +263,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setBufferFile(value) | Der Dateiname der externen Pufferdatei, die zum Speichern binärer Daten verwendet wird. Wenn diese Datei nicht angegeben wird, erzeugt Aspose.3D einen Namen für Sie. Dies wird ignoriert, wenn glTF im Binärmodus exportiert wird. |
+| setBufferFile(value) | Der Dateiname der externen Pufferdatei, die zum Speichern binärer Daten verwendet wird. Wenn diese Datei nicht angegeben ist, erzeugt Aspose.3D einen Namen für Sie. Dies wird ignoriert, wenn glTF im Binärmodus exportiert wird. |
 
  **Result:**
 
@@ -276,7 +276,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getSaveExtras() | Speichere die dynamischen Eigenschaften des Szenenobjekts in den 'extra'-Feldern der erzeugten glTF‑Datei. Dies ist nützlich, um anwendungsspezifische Daten bereitzustellen. Standardwert ist false. |
+| getSaveExtras() | Speichert die dynamischen Eigenschaften des Szenenobjekts in den 'extra'-Feldern der erzeugten glTF‑Datei. Dies ist nützlich, um anwendungsspezifische Daten bereitzustellen. Der Standardwert ist false. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setSaveExtras(value) | Speichere die dynamischen Eigenschaften des Szenenobjekts in den 'extra'-Feldern der erzeugten glTF‑Datei. Dies ist nützlich, um anwendungsspezifische Daten bereitzustellen. Standardwert ist false. |
+| setSaveExtras(value) | Speichert die dynamischen Eigenschaften des Szenenobjekts in den 'extra'-Feldern der erzeugten glTF‑Datei. Dies ist nützlich, um anwendungsspezifische Daten bereitzustellen. Der Standardwert ist false. |
 
  **Result:**
 
@@ -302,7 +302,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getApplyUnitScale() | Wenden Sie AssetInfo.UnitScaleFactor auf das Mesh an. Der Standardwert ist false. |
+| getApplyUnitScale() | Wende AssetInfo.UnitScaleFactor auf das Mesh an. Standardwert ist false. |
 
  **Result:**
 
@@ -315,7 +315,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setApplyUnitScale(value) | Wenden Sie AssetInfo.UnitScaleFactor auf das Mesh an. Der Standardwert ist false. |
+| setApplyUnitScale(value) | Wende AssetInfo.UnitScaleFactor auf das Mesh an. Standardwert ist false. |
 
  **Result:**
 
@@ -328,7 +328,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getDracoCompression() | Liest oder setzt, ob die Draco-Komprimierung aktiviert werden soll |
+| getDracoCompression() | Liest oder legt fest, ob die Draco‑Kompression aktiviert werden soll |
 
  **Result:**
 
@@ -341,7 +341,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setDracoCompression(value) | Liest oder setzt, ob die Draco-Komprimierung aktiviert werden soll |
+| setDracoCompression(value) | Liest oder legt fest, ob die Draco‑Kompression aktiviert werden soll |
 
  **Result:**
 
@@ -354,7 +354,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -367,7 +367,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -380,7 +380,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -393,7 +393,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -406,7 +406,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -419,7 +419,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -432,7 +432,7 @@ Speicheroptionen für das glTF-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

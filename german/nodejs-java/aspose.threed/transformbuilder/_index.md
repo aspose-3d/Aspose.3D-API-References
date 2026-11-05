@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/transformbuilder/
 ---
 ## TransformBuilder class
 
-Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch eine Kette von Transformationen zu erstellen.
+Der TransformBuilder wird verwendet, um eine Transformationsmatrix durch eine Kette von Transformationen zu erstellen.
 
 
 ## Methoden
@@ -17,14 +17,14 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor(initial, order) | Erstellt einen TransformBuilder mit einer initialen Transformationsmatrix und der angegebenen Zusammensetzungsreihenfolge. |
+| constructor(initial, order) | Erstelle einen TransformBuilder mit einer Anfangstransformationsmatrix und dem angegebenen ComposeOrder |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | initia | Matrix4 | null |
-| Reihenfolge | ComposeOrder | ComposeOrder |
+| order | ComposeOrder | ComposeOrder |
 
  **Result:**
 
@@ -37,13 +37,13 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(order) | Erstellt einen TransformBuilder mit einer initialen Identitäts-Transformationsmatrix und der angegebenen Zusammensetzungsreihenfolge. |
+| constructor_overload(order) | Erstelle einen TransformBuilder mit einer anfänglichen Identitätstransformationsmatrix und dem angegebenen ComposeOrder |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Reihenfolge | ComposeOrder | ComposeOrder |
+| order | ComposeOrder | ComposeOrder |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| getMatrix() | Liest oder setzt den aktuellen Matrixwert. |
+| getMatrix() | Liest oder setzt den aktuellen Matrixwert |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| setMatrix(value) | Liest oder setzt den aktuellen Matrixwert. |
+| setMatrix(value) | Liest oder setzt den aktuellen Matrixwert |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| getComposeOrder() | Liest oder setzt die Ketten‑Zusammensetzungsreihenfolge. Der Wert der Eigenschaft ist die Ganzzahlkonstante ComposeOrder. |
+| getComposeOrder() | Liest oder setzt die Ketten‑Compose‑Reihenfolge. Der Wert der Eigenschaft ist die Ganzzahlkonstante ComposeOrder. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| setComposeOrder(value) | Liest oder setzt die Ketten‑Zusammensetzungsreihenfolge. Der Wert der Eigenschaft ist die Ganzzahlkonstante ComposeOrder. |
+| setComposeOrder(value) | Liest oder setzt die Ketten‑Compose‑Reihenfolge. Der Wert der Eigenschaft ist die Ganzzahlkonstante ComposeOrder. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| compose(m) | Füge das Argument zur internen Matrix hinzu oder stelle es voran. |
+| compose(m) | Hänge das Argument an die interne Matrix an oder füge es davor ein. |
 
  **Parameters:**
 
@@ -127,7 +127,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| append(m) | Füge die neue Transformationsmatrix zur Transformationskette hinzu. |
+| append(m) | Hänge die neue Transformationsmatrix an die Transformationskette an. |
 
  **Parameters:**
 
@@ -146,7 +146,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| prepend(m) | Stelle die neue Transformationsmatrix an den Anfang der Transformationskette. |
+| prepend(m) | Füge die neue Transformationsmatrix am Anfang der Transformationskette ein. |
 
  **Parameters:**
 
@@ -186,13 +186,13 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| scale(s) | Verkettet eine Skalierungs-Transformationsmatrix mit einer Komponente, die um s skaliert wird. |
+| scale(s) | Verkette eine Skalierungstransformationsmatrix mit einer Komponente, die um s skaliert ist. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
+|  | Zahl | null |
 
  **Result:**
 
@@ -205,15 +205,15 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| scale(x, y, z) | Verkettet eine Skalierungs-Transformationsmatrix. |
+| scale(x, y, z) | Verkette eine Skalierungs-Transformationsmatrix |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Zahl | null |
+|  | Zahl | null |
+|  | Zahl | null |
 
  **Result:**
 
@@ -226,7 +226,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| scale(s) | Verkettet eine Skalierungstransformation. |
+| scale(s) | Verkette eine Skalierungstransformation |
 
  **Parameters:**
 
@@ -251,8 +251,8 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| angle | Number | Der Winkel zum Rotieren in Grad |
-| axis | Vector3 | Die Achse zum Drehen |
+| angle | Zahl | Der Winkel zum Rotieren in Grad |
+| Achse | Vector3 | Die Achse zum Rotieren |
 
  **Result:**
 
@@ -271,8 +271,8 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| angle | Number | Der Winkel zum Rotieren in Bogenmaß |
-| axis | Vector3 | Die Achse zum Drehen |
+| angle | Zahl | Der Winkel zum Rotieren im Bogenmaß |
+| Achse | Vector3 | Die Achse zum Rotieren |
 
  **Result:**
 
@@ -285,7 +285,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| rotate(q) | Verkette eine Rotation mittels eines Quaternion |
+| rotate(q) | Verkette eine Rotation mittels Quaternion |
 
  **Parameters:**
 
@@ -304,15 +304,15 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| rotateEulerDegree(degX, degY, degZ) | Verkette eine Rotation mittels Euler-Winkeln in Grad |
+| rotateEulerDegree(degX, degY, degZ) | Verkette eine Rotation durch Euler-Winkel in Grad |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| deg | Number | null |
-| deg | Number | null |
-| deg | Number | null |
+| Grad | Zahl | null |
+| Grad | Zahl | null |
+| Grad | Zahl | null |
 
  **Result:**
 
@@ -325,15 +325,15 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| rotateEulerRadian(x, y, z) | Verkette eine Rotation mittels Euler-Winkeln in Bogenmaß |
+| rotateEulerRadian(x, y, z) | Verkette eine Rotation durch Euler-Winkel im Bogenmaß |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Zahl | null |
+|  | Zahl | null |
+|  | Zahl | null |
 
  **Result:**
 
@@ -346,7 +346,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| rotateEulerRadian(r) | Verkette eine Rotation mittels Euler-Winkeln in Bogenmaß |
+| rotateEulerRadian(r) | Verkette eine Rotation durch Euler-Winkel im Bogenmaß |
 
  **Parameters:**
 
@@ -371,9 +371,9 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| t | Number | null |
-| t | Number | null |
-| t | Number | null |
+| t | Zahl | null |
+| t | Zahl | null |
+| t | Zahl | null |
 
  **Result:**
 
@@ -405,7 +405,7 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| reset() | Setze die Transformation auf die Identitätsmatrix zurück |
+| reset() | Setze die Transformation zurück zur Einheitsmatrix |
 
  **Result:**
 
@@ -418,14 +418,14 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| rotateDegree(rot, order) | Rotation mit angegebener Reihenfolge anhängen |
+| rotateDegree(rot, order) | Füge Rotation mit angegebener Reihenfolge hinzu |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | rot | Vector3 | Rotation in Grad |
-| Reihenfolge | RotationOrder | RotationOrder |
+| order | RotationOrder | RotationOrder |
 
  **Result:**
 
@@ -438,14 +438,14 @@ Der **TransformBuilder** wird verwendet, um eine Transformationsmatrix durch ein
 
 | Name | Beschreibung |
 | --- | --- |
-| rotateRadian(rot, order) | Rotation mit angegebener Reihenfolge anhängen |
+| rotateRadian(rot, order) | Füge Rotation mit angegebener Reihenfolge hinzu |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | rot | Vector3 | Rotation im Bogenmaß |
-| Reihenfolge | RotationOrder | RotationOrder |
+| order | RotationOrder | RotationOrder |
 
  **Result:**
 

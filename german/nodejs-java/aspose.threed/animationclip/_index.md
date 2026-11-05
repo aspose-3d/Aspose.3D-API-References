@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/animationclip/
 ---
 ## AnimationClip class
 
-Der Animationsclip ist eine Sammlung von Animationen.  Die Szene kann einen oder mehrere Animationsclips haben.
+Der Animationsclip ist eine Sammlung von Animationen.  Die Szene kann einen oder mehrere Animationsclips enthalten.
 
 
 ## Methoden
@@ -36,7 +36,7 @@ Der Animationsclip ist eine Sammlung von Animationen.  Die Szene kann einen oder
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name |
+| name | String | Name |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Der Animationsclip ist eine Sammlung von Animationen.  Die Szene kann einen oder
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Der Animationsclip ist eine Sammlung von Animationen.  Die Szene kann einen oder
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Der Animationsclip ist eine Sammlung von Animationen.  Die Szene kann einen oder
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Der Animationsclip ist eine Sammlung von Animationen.  Die Szene kann einen oder
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Der Animationsclip ist eine Sammlung von Animationen.  Die Szene kann einen oder
 
 | Name | Beschreibung |
 | --- | --- |
-| createAnimationNode(nodeName) | Eine Kurzschreibweise-Funktion zum Erstellen und Registrieren des Animationsknotens im aktuellen Clip. |
+| createAnimationNode(nodeName) | Eine Kurzschreibweise‑Funktion, um den Animationsknoten im aktuellen Clip zu erstellen und zu registrieren. |
 
  **Parameters:**
 
@@ -217,7 +217,7 @@ AnimationNode
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -230,7 +230,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -249,7 +249,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -258,7 +258,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -275,10 +275,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -288,7 +288,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -297,7 +297,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

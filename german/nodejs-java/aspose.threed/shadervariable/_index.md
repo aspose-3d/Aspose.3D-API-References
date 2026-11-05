@@ -43,7 +43,7 @@ Shader-Variable
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | nam | String | null |
-| shaderStage | Number | ShaderStage |
+| shaderStage | Zahl | ShaderStage |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Shader-Variable
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Ermittelt den Namen dieser Variable |
+| getName() | Gibt den Namen dieser Variable zurück |
 
  **Result:**
 

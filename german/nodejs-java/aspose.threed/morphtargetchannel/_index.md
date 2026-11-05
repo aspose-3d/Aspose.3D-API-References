@@ -11,11 +11,11 @@ url: /de/nodejs-java/aspose.threed/morphtargetchannel/
 Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeometrien zu organisieren. Einige Dateiformate wie FBX unterstützen mehrere Kanäle parallel. Das Gewicht liegt zwischen 0 und 1,0, und das Standardgewicht für das Ziel ist 0,0;
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| DEFAULT_WEIGHT | Standardgewicht für Morph‑Ziel. |
+| DEFAULT_WEIGHT | Standardgewicht für Morph-Ziel. |
 
 ## Methoden
 
@@ -29,7 +29,7 @@ Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeomet
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
+| name | String | Name. |
 
  **Result:**
 
@@ -68,7 +68,7 @@ Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeomet
 
 | Name | Beschreibung |
 | --- | --- |
-| getChannelWeight() | Liest oder setzt das Deformer‑Gewicht dieses Kanals. Das Gewicht liegt zwischen 0,0 und 1,0 |
+| getChannelWeight() | Liest oder setzt das Deformer-Gewicht dieses Kanals. Das Gewicht liegt zwischen 0,0 und 1,0. |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeomet
 
 | Name | Beschreibung |
 | --- | --- |
-| setChannelWeight(value) | Liest oder setzt das Deformer‑Gewicht dieses Kanals. Das Gewicht liegt zwischen 0,0 und 1,0 |
+| setChannelWeight(value) | Liest oder setzt das Deformer-Gewicht dieses Kanals. Das Gewicht liegt zwischen 0,0 und 1,0. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeomet
 
 | Name | Beschreibung |
 | --- | --- |
-| getTargets() | Liefert alle Ziele, die mit dem Kanal verknüpft sind. |
+| getTargets() | Liest alle mit dem Kanal verbundenen Ziele. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeomet
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeomet
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -133,7 +133,7 @@ Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeomet
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -172,16 +172,16 @@ Ein MorphTargetChannel wird von MorphTargetDeformer verwendet, um die Zielgeomet
 
 | Name | Beschreibung |
 | --- | --- |
-| getWeight(target) | Liefert das Gewicht für das angegebene Ziel; gehört das Ziel nicht zu diesem Kanal, wird der Standardwert 0 zurückgegeben. |
+| getWeight(target) | Liest das Gewicht für das angegebene Ziel; wenn das Ziel nicht zu diesem Kanal gehört, wird der Standardwert 0 zurückgegeben. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Ziel | Shape | null |
+| targe | Form | null |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -191,17 +191,17 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| setWeight(target, weight) | Setzt das Gewicht für das angegebene Ziel, Standardwert ist 1, der Bereich sollte zwischen 0 und 1 liegen |
+| setWeight(target, weight) | Setzt das Gewicht für das angegebene Ziel, der Standardwert ist 1, der Bereich sollte zwischen 0 und 1 liegen. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Ziel | Shape | null |
-| wiegen | Number | null |
+| targe | Form | null |
+| wiegen | Zahl | null |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -217,7 +217,7 @@ Number
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -230,7 +230,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -249,7 +249,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -258,7 +258,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -275,10 +275,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -288,7 +288,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -297,7 +297,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

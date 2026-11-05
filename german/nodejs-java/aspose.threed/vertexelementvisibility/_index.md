@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertexelementvisibility/
 ---
 ## VertexElementVisibility class
 
-Definiert, ob die angegebenen Komponenten sichtbar sind.
+Definiert, ob die angegebenen Komponenten sichtbar sind
 
 
 ## Methoden
@@ -43,7 +43,7 @@ Definiert, ob die angegebenen Komponenten sichtbar sind.
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexElementType() | Ermittelt den Typ des VertexElement. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
+| getVertexElementType() | Liest den Typ des VertexElements. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Definiert, ob die angegebenen Komponenten sichtbar sind.
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Definiert, ob die angegebenen Komponenten sichtbar sind.
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Definiert, ob die angegebenen Komponenten sichtbar sind.
 
 | Name | Beschreibung |
 | --- | --- |
-| getMappingMode() | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| getMappingMode() | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Definiert, ob die angegebenen Komponenten sichtbar sind.
 
 | Name | Beschreibung |
 | --- | --- |
-| setMappingMode(value) | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| setMappingMode(value) | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Definiert, ob die angegebenen Komponenten sichtbar sind.
 
 | Name | Beschreibung |
 | --- | --- |
-| getIndices() | Ermittelt die Indexdaten. Das Index‑Array. |
+| getIndices() | Liest die Indexdaten. Das Index-Array. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Definiert, ob die angegebenen Komponenten sichtbar sind.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | Number[] | null |
+| dat | Number[] | null |
 
  **Result:**
 

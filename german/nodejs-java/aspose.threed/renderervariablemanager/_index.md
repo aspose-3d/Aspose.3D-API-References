@@ -69,7 +69,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getShadowmap() | Die Tiefentextur, die für die Schattenabbildung verwendet wird |
+| getShadowmap() | Die Tiefentextur, die für Shadow Mapping verwendet wird. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| setShadowmap(value) | Die Tiefentextur, die für die Schattenabbildung verwendet wird |
+| setShadowmap(value) | Die Tiefentextur, die für Shadow Mapping verwendet wird. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getMatrixViewProjection() | Matrix für View- und Projektions-Transformation. |
+| getMatrixViewProjection() | Matrix für Ansicht- und Projektions-Transformation. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getMatrixWorldViewProjection() | Matrix für Weltansicht- und Projektionsumwandlung |
+| getMatrixWorldViewProjection() | Matrix für Weltansicht- und Projektions-Transformation. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getMatrixWorld() | Matrix für die World-Transformation |
+| getMatrixWorld() | Matrix für Welt-Transformation. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getMatrixWorldNormal() | Matrix zum Konvertieren von Normalen vom Objekt- in den World‑Raum. |
+| getMatrixWorldNormal() | Matrix zum Konvertieren der Normalen vom Objekt in den Weltraum. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getMatrixProjection() | Matrix für die Projektions-Transformation |
+| getMatrixProjection() | Matrix für Projektions-Transformation. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| setMatrixProjection(value) | Matrix für die Projektions-Transformation |
+| setMatrixProjection(value) | Matrix für Projektions-Transformation. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getMatrixView() | Matrix für die View-Transformation |
+| getMatrixView() | Matrix für Ansichtstransformation. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| setMatrixView(value) | Matrix für die View-Transformation |
+| setMatrixView(value) | Matrix für Ansichtstransformation. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getCameraPosition() | Position der Kamera im Weltkoordinatensystem |
+| getCameraPosition() | Position der Kamera im Weltkoordinatensystem. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| setCameraPosition(value) | Position der Kamera im Weltkoordinatensystem |
+| setCameraPosition(value) | Position der Kamera im Weltkoordinatensystem. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getDepthBias() | Tiefenbias für Shadow Mapping, Standardwert ist 0.001 |
+| getDepthBias() | Depth-Bias für Schatten-Mapping, Standardwert ist 0,001. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| setDepthBias(value) | Tiefenbias für Shadow Mapping, Standardwert ist 0.001 |
+| setDepthBias(value) | Depth-Bias für Schatten-Mapping, Standardwert ist 0,001. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| getViewportSize() | Größe des Viewports, gemessen in Pixel |
+| getViewportSize() | Größe des Viewports, gemessen in Pixeln. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Diese Klasse verwaltet Variablen, die beim Rendern verwendet werden  @hideconstr
 
 | Name | Beschreibung |
 | --- | --- |
-| setViewportSize(value) | Größe des Viewports, gemessen in Pixel |
+| setViewportSize(value) | Größe des Viewports, gemessen in Pixeln. |
 
  **Result:**
 

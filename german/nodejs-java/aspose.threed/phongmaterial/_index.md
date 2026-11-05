@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/phongmaterial/
 ---
 ## PhongMaterial class
 
-Material für das Blinn‑Phong‑Shading‑Modell.
+Material für das Blinn-Phong-Shading-Modell.
 
 
 ## Methoden
@@ -36,7 +36,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name |
+| name | String | Name |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getSpecularColor() | Liest oder setzt die Specularfarbe. |
+| getSpecularColor() | Liest oder setzt die Spiegelungsfarbe. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setSpecularColor(value) | Liest oder setzt die Specularfarbe. |
+| setSpecularColor(value) | Liest oder setzt die Spiegelungsfarbe. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getSpecularFactor() | Liest oder setzt den Specularfaktor. Die Formel für specular: SpecularColor SpecularFactor (N dot H) ^ Shininess |
+| getSpecularFactor() | Liest oder setzt den specular-Faktor. Die Formel für specular: SpecularColor SpecularFactor (N dot H) ^ Shininess |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setSpecularFactor(value) | Liest oder setzt den Specularfaktor. Die Formel für specular: SpecularColor SpecularFactor (N dot H) ^ Shininess |
+| setSpecularFactor(value) | Liest oder setzt den specular-Faktor. Die Formel für specular: SpecularColor SpecularFactor (N dot H) ^ Shininess |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getShininess() | Liest oder setzt den Glanzgrad, dies steuert die Größe des specular-Highlights. Die Formel für specular: SpecularColor SpecularFactor (N dot H) ^ Shininess Der Glanzgrad. |
+| getShininess() | Liest oder setzt die shininess, dies steuert die Größe des specular-Highlights. Die Formel für specular: SpecularColor SpecularFactor (N dot H) ^ Shininess Die shininess. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setShininess(value) | Liest oder setzt den Glanzgrad, dies steuert die Größe des specular-Highlights. Die Formel für specular: SpecularColor SpecularFactor (N dot H) ^ Shininess Der Glanzgrad. |
+| setShininess(value) | Liest oder setzt die shininess, dies steuert die Größe des specular-Highlights. Die Formel für specular: SpecularColor SpecularFactor (N dot H) ^ Shininess Die shininess. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEmissiveColor() | Liest oder setzt die emittierende Farbe |
+| getEmissiveColor() | Liest oder setzt die Emissionsfarbe |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setEmissiveColor(value) | Liest oder setzt die emittierende Farbe |
+| setEmissiveColor(value) | Liest oder setzt die Emissionsfarbe |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getAmbientColor() | Liest oder setzt die Umgebungsfarbe. Beispiel: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); Umgebung. |
+| getAmbientColor() | Liest oder setzt die Umgebungsfarbe. Beispiel: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambient. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setAmbientColor(value) | Liest oder setzt die Umgebungsfarbe. Beispiel: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); Umgebung. |
+| setAmbientColor(value) | Liest oder setzt die Umgebungsfarbe. Beispiel: var mat = new LambertMaterial(); mat.AmbientColor = new Vector3(1, 1, 1); ambient. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getDiffuseColor() | Liest oder setzt die diffuse Farbe. Beispiel: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffus. |
+| getDiffuseColor() | Liest oder setzt die Diffusfarbe. Beispiel: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuse. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setDiffuseColor(value) | Liest oder setzt die diffuse Farbe. Beispiel: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffus. |
+| setDiffuseColor(value) | Liest oder setzt die Diffusfarbe. Beispiel: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuse. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getTransparentColor() | Liest oder setzt die transparente Farbe. Beispiel: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); Farbe der Transparenz. |
+| getTransparentColor() | Liest oder setzt die transparente Farbe. Das Beispiel: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); Farbe der Transparenz. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setTransparentColor(value) | Liest oder setzt die transparente Farbe. Beispiel: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); Farbe der Transparenz. |
+| setTransparentColor(value) | Liest oder setzt die transparente Farbe. Das Beispiel: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); Farbe der Transparenz. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getTransparency() | Liest oder setzt den Transparenzfaktor. Der Faktor sollte zwischen 0 (0 %, vollständig undurchsichtig) und 1 (100 %, vollständig transparent) liegen. Jeder ungültige Faktorwert wird geklemmt. Beispiel: var mat = new LambertMaterial(); mat.Transparency = 0.3; Transparenzfaktor. |
+| getTransparency() | Liest oder setzt den Transparenzfaktor. Der Faktor sollte zwischen 0 (0 %, vollständig undurchsichtig) und 1 (100 %, vollständig transparent) liegen. Jeder ungültige Faktorwert wird geklemmt. Das Beispiel: var mat = new LambertMaterial(); mat.Transparency = 0.3; Transparenzfaktor. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setTransparency(value) | Liest oder setzt den Transparenzfaktor. Der Faktor sollte zwischen 0 (0 %, vollständig undurchsichtig) und 1 (100 %, vollständig transparent) liegen. Jeder ungültige Faktorwert wird geklemmt. Beispiel: var mat = new LambertMaterial(); mat.Transparency = 0.3; Transparenzfaktor. |
+| setTransparency(value) | Liest oder setzt den Transparenzfaktor. Der Faktor sollte zwischen 0 (0 %, vollständig undurchsichtig) und 1 (100 %, vollständig transparent) liegen. Jeder ungültige Faktorwert wird geklemmt. Das Beispiel: var mat = new LambertMaterial(); mat.Transparency = 0.3; Transparenzfaktor. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -348,13 +348,13 @@ Material für das Blinn‑Phong‑Shading‑Modell.
 
 | Name | Beschreibung |
 | --- | --- |
-| getTexture(slotName) | Gibt die Textur aus dem angegebenen Slot zurück, sie kann der Name einer Materialeigenschaft oder ein Shader-Parametername sein. |
+| getTexture(slotName) | Liest die Textur aus dem angegebenen Slot, es kann der Name einer Material‑Eigenschaft oder ein Shader‑Parametername sein. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| slotName | String | Slot-Name. |
+| slotName | String | Slot‑Name. |
 
  **Result:**
 TextureBase
@@ -373,7 +373,7 @@ TextureBase
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| slotName | String | Slot-Name. |
+| slotName | String | Slot‑Name. |
 | Textur | TextureBase | Textur. |
 
  **Result:**
@@ -387,7 +387,7 @@ TextureBase
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Formatiert das Objekt in einen String |
+| toString() | Formatiert das Objekt zu einem String. |
 
  **Result:**
 String
@@ -406,7 +406,7 @@ String
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -419,7 +419,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -438,7 +438,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -447,7 +447,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -464,10 +464,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -477,7 +477,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -486,7 +486,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---
@@ -496,10 +496,10 @@ Property
 
 | Name | Beschreibung |
 | --- | --- |
-| iterator() | Für den internen Gebrauch reserviert. |
+| iterator() | Für die interne Verwendung reserviert. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

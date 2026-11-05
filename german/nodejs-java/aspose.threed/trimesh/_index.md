@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/trimesh/
 ---
 ## TriMesh class
 
-Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden können.  Diese Klasse ist ein Hilfswerkzeug, um ein Mesh zu erstellen, das nur Vertex-Daten enthält.
+Ein TriMesh enthält Rohdaten, die direkt von der GPU verwendet werden können.  Diese Klasse ist ein Hilfswerkzeug zum Erstellen eines Meshes, das nur per-Vertex-Daten enthält.
 
 
 ## Methoden
@@ -17,14 +17,14 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor(name, declaration) | Initialisiere eine Instanz von TriMesh |
+| Konstruktor(name, declaration) | Initialisiere eine Instanz von TriMesh |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Der Name dieses TriMesh |
-| declaration | VertexDeclaration | Die Deklaration des Vertex |
+| name | String | Der Name dieses TriMesh |
+| Deklaration | VertexDeclaration | Die Deklaration des Vertex |
 
  **Result:**
 
@@ -50,7 +50,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getVerticesCount() | Die Anzahl der Scheitelpunkte in diesem TriMesh |
+| getVerticesCount() | Die Anzahl der Vertices in diesem TriMesh |
 
  **Result:**
 
@@ -76,7 +76,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getUnmergedVerticesCount() | Die Anzahl der nicht zusammengeführten Scheitelpunkte, die durch beginVertex() und endVertex() übergeben wurden. |
+| getUnmergedVerticesCount() | Die Anzahl der nicht zusammengeführten Vertices, die durch beginVertex() und endVertex() übergeben wurden. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getCapacity() | Die Kapazität der vorab zugewiesenen Scheitelpunkte. |
+| getCapacity() | Die Kapazität vorab zugewiesener Vertices. |
 
  **Result:**
 
@@ -102,7 +102,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getVerticesSizeInBytes() | Die Gesamtabmessung aller Scheitelpunkte in Bytes |
+| getVerticesSizeInBytes() | Die Gesamtgröße aller Scheitelpunkte in Bytes |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -180,7 +180,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -193,7 +193,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -206,7 +206,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -219,7 +219,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -232,7 +232,7 @@ Ein **TriMesh** enthält Rohdaten, die direkt von der GPU verwendet werden könn
 
 | Name | Beschreibung |
 | --- | --- |
-| fromMesh(declaration, mesh) | Erstellen Sie ein TriMesh aus dem angegebenen Mesh-Objekt mit dem angegebenen Scheitelpunktlayout. |
+| fromMesh(declaration, mesh) | Erstelle ein TriMesh aus dem angegebenen Mesh-Objekt mit dem angegebenen Scheitelpunkt-Layout. |
 
  **Parameters:**
 
@@ -252,14 +252,14 @@ TriMesh
 
 | Name | Beschreibung |
 | --- | --- |
-| copyFrom(input, vd) | Kopiere das TriMesh von input mit neuem Vertex-Layout |
+| copyFrom(input, vd) | Kopiere das TriMesh von input mit neuem Scheitelpunkt-Layout |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| input | TriMesh | Das Eingabe‑TriMesh zum Kopieren |
-| vd | VertexDeclaration | Die neue Vertex-Deklaration des Ausgabe‑TriMesh |
+| input | TriMesh | Das input TriMesh zum Kopieren |
+| vd | VertexDeclaration | Die neue Scheitelpunkt-Deklaration des Ausgabe‑TriMesh |
 
  **Result:**
 TriMesh
@@ -272,14 +272,14 @@ TriMesh
 
 | Name | Beschreibung |
 | --- | --- |
-| fromMesh(mesh, useFloat) | Erstellen Sie ein TriMesh aus dem angegebenen Mesh-Objekt, wobei die Scheitelpunktdeklaration auf der Struktur des Eingabemeshes basiert. |
+| fromMesh(mesh, useFloat) | Erstelle ein TriMesh aus dem angegebenen Mesh-Objekt, die Scheitelpunkt-Deklaration basiert auf der Struktur des Eingabe‑Mesh. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | mes | Mesh | null |
-| useFloat | boolean | Verwende den Float‑Typ anstelle des Double‑Typs für jedes Vertex‑Element‑Komponente. |
+| useFloat | boolean | Verwende den float‑Typ anstelle des double‑Typs für jedes Scheitelpunkt-Element. |
 
  **Result:**
 TriMesh
@@ -292,7 +292,7 @@ TriMesh
 
 | Name | Beschreibung |
 | --- | --- |
-| beginVertex() | Beginnen Sie mit dem Hinzufügen von Scheitelpunkten |
+| beginVertex() | Beginne das Hinzufügen eines Scheitelpunkts |
 
  **Result:**
 Vertex
@@ -305,7 +305,7 @@ Vertex
 
 | Name | Beschreibung |
 | --- | --- |
-| endVertex() | Beenden Sie das Hinzufügen von Scheitelpunkten |
+| endVertex() | Beende das Hinzufügen eines Scheitelpunkts |
 
  **Result:**
 Vertex
@@ -318,7 +318,7 @@ Vertex
 
 | Name | Beschreibung |
 | --- | --- |
-| verticesToArray() | Konvertiere die Vertex-Daten in ein Byte‑Array |
+| verticesToArray() | Konvertiere die Scheitelpunktdaten in ein Byte‑Array |
 
  **Result:**
 byte[]
@@ -350,10 +350,10 @@ String
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| vd | VertexDeclaration | Scheitelpunkt-Deklaration, muss mindestens ein Feld enthalten. |
-| Scheitelpunkte | byte[] | Die Eingabe-Scheitelpunktdaten, die minimale Länge der Scheitelpunkte muss größer oder gleich der Größe der Scheitelpunktdeklaration sein |
-| Indizes | Number[] | Die Dreiecksindizes |
-| generateVertexMapping | boolean | Erzeugen |
+| vd | VertexDeclaration | Vertex-Deklaration muss mindestens ein Feld enthalten. |
+| Scheitelpunkte | byte[] | Die Eingabe‑Vertex‑Daten, die minimale Länge der Vertices muss größer oder gleich der Größe der Vertex-Deklaration sein. |
+| indices | Number[] | Die Dreieck-Indizes |
+| generateVertexMapping | boolean | Generieren |
 
  **Result:**
 TriMesh
@@ -366,7 +366,7 @@ TriMesh
 
 | Name | Beschreibung |
 | --- | --- |
-| loadVerticesFromBytes(verticesInBytes) | Laden Sie Scheitelpunkte aus Bytes, die Länge der Bytes muss ein ganzzahliges Vielfaches der Scheitelpunktgröße sein. |
+| loadVerticesFromBytes(verticesInBytes) | Lade Vertices aus Bytes, die Länge der Bytes muss ein ganzzahliges Vielfaches der Vertex‑Größe sein. |
 
  **Parameters:**
 
@@ -385,14 +385,14 @@ TriMesh
 
 | Name | Beschreibung |
 | --- | --- |
-| readVector4(idx, field) | Lese das vector4-Feld |
+| readVector4(idx, field) | Lese das Vector4‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| idx | Number | Der Index des zu lesenden Scheitelpunkts |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector4/FVector4 |
+| idx | Zahl | Der Index des zu lesenden Vertex |
+| field | VertexField | Das Feld mit dem Datentyp Vector4/FVector4 |
 
  **Result:**
 Vector4
@@ -405,14 +405,14 @@ Vector4
 
 | Name | Beschreibung |
 | --- | --- |
-| readFVector4(idx, field) | Lese das vector4-Feld |
+| readFVector4(idx, field) | Lese das Vector4‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| idx | Number | Der Index des zu lesenden Scheitelpunkts |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector4/FVector4 |
+| idx | Zahl | Der Index des zu lesenden Vertex |
+| field | VertexField | Das Feld mit dem Datentyp Vector4/FVector4 |
 
  **Result:**
 FVector4
@@ -425,14 +425,14 @@ FVector4
 
 | Name | Beschreibung |
 | --- | --- |
-| readVector3(idx, field) | Lesen Sie das Vector3‑Feld |
+| readVector3(idx, field) | Lese das Vector3‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| idx | Number | Der Index des zu lesenden Scheitelpunkts |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector3/FVector3 |
+| idx | Zahl | Der Index des zu lesenden Vertex |
+| field | VertexField | Das Feld mit dem Datentyp Vector3/FVector3 |
 
  **Result:**
 Vector3
@@ -445,14 +445,14 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| readFVector3(idx, field) | Lesen Sie das Vector3‑Feld |
+| readFVector3(idx, field) | Lese das Vector3‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| idx | Number | Der Index des zu lesenden Scheitelpunkts |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector3/FVector3 |
+| idx | Zahl | Der Index des zu lesenden Vertex |
+| field | VertexField | Das Feld mit dem Datentyp Vector3/FVector3 |
 
  **Result:**
 FVector3
@@ -465,14 +465,14 @@ FVector3
 
 | Name | Beschreibung |
 | --- | --- |
-| readVector2(idx, field) | Lesen Sie das Vector2‑Feld |
+| readVector2(idx, field) | Lese das Vector2‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| idx | Number | Der Index des zu lesenden Scheitelpunkts |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector2/FVector2 |
+| idx | Zahl | Der Index des zu lesenden Vertex |
+| field | VertexField | Das Feld mit dem Datentyp Vector2/FVector2 |
 
  **Result:**
 Vector2
@@ -485,14 +485,14 @@ Vector2
 
 | Name | Beschreibung |
 | --- | --- |
-| readFVector2(idx, field) | Lesen Sie das Vector2‑Feld |
+| readFVector2(idx, field) | Lese das Vector2‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| idx | Number | Der Index des zu lesenden Scheitelpunkts |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector2/FVector2 |
+| idx | Zahl | Der Index des zu lesenden Vertex |
+| field | VertexField | Das Feld mit dem Datentyp Vector2/FVector2 |
 
  **Result:**
 FVector2
@@ -505,17 +505,17 @@ FVector2
 
 | Name | Beschreibung |
 | --- | --- |
-| readDouble(idx, field) | Lesen Sie das Double‑Feld |
+| readDouble(idx, field) | Lese das double-Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| idx | Number | Der Index des zu lesenden Scheitelpunkts |
-| Feld | VertexField | Das Feld mit einem float/double-kompatiblen Datentyp |
+| idx | Zahl | Der Index des zu lesenden Vertex |
+| field | VertexField | Das Feld mit einem float/double-kompatiblen Datentyp |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -531,11 +531,11 @@ Number
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| idx | Number | Der Index des zu lesenden Scheitelpunkts |
-| Feld | VertexField | Das Feld mit einem float/double-kompatiblen Datentyp |
+| idx | Zahl | Der Index des zu lesenden Vertex |
+| field | VertexField | Das Feld mit einem float/double-kompatiblen Datentyp |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -545,10 +545,10 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -558,7 +558,7 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -577,7 +577,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -590,7 +590,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -609,7 +609,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -618,7 +618,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -635,10 +635,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -648,7 +648,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -657,7 +657,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---
@@ -667,10 +667,10 @@ Property
 
 | Name | Beschreibung |
 | --- | --- |
-| iterator() | Für den internen Gebrauch reserviert. |
+| iterator() | Für die interne Verwendung reserviert. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

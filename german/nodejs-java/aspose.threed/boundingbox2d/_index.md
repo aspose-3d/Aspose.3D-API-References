@@ -8,10 +8,10 @@ url: /de/nodejs-java/aspose.threed/boundingbox2d/
 ---
 ## BoundingBox2D class
 
-Die achsenorientierte Begrenzungsbox für Vector2
+Die achsenparallel ausgerichtete Begrenzungsbox für Vector2
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
@@ -37,14 +37,14 @@ Die achsenorientierte Begrenzungsbox für Vector2
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(minimum, maximum) | Initialisieren Sie eine endliche Begrenzungsbox mit gegebenen minimalen und maximalen Eckpunkten |
+| constructor_overload(minimum, maximum) | Initialisiert eine endliche Begrenzungsbox mit angegebenem minimalen und maximalen Eckpunkt |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | minimum | Vector2 | Der minimale Eckpunkt |
-| Maximum | Vector2 | Der maximale Eckpunkt |
+| maximum | Vector2 | Der maximale Eckpunkt |
 
  **Result:**
 
@@ -57,7 +57,7 @@ Die achsenorientierte Begrenzungsbox für Vector2
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtent() | Liefert den Umfang des Begrenzungsrahmens. Der Wert der Eigenschaft ist die Ganzzahlkonstante BoundingBoxExtent. |
+| getExtent() | Ermittelt die Ausdehnung der Begrenzungsbox. Der Wert der Eigenschaft ist die Ganzzahlkonstante BoundingBoxExtent. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Die achsenorientierte Begrenzungsbox für Vector2
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Gibt die Zeichenkettenrepräsentation der Begrenzungsbox zurück. |
+| toString() | Ermittelt die Zeichenkettenrepräsentation der Begrenzungsbox. |
 
  **Result:**
 String

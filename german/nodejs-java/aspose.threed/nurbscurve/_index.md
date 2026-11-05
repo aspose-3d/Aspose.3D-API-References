@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/nurbscurve/
 ---
 ## NurbsCurve class
 
-Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spline) dargestellt wird,  Eine NURBS-Kurve wird durch ihre Ordnung, ein Satz gewichteter Geometry.ControlPoints und ein KnotVectors definiert  Die w-Komponente im Kontrollpunkt wird als Gewicht des Kontrollpunkts verwendet, unabhängig davon, ob es sich um CurveDimension.TWO_DIMENSIONAL oder CurveDimension.THREE_DIMENSIONAL handelt.
+NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spline) dargestellt wird,  Eine NURBS-Kurve wird durch ihre Ordnung, eine Menge gewichteter Geometry.ControlPoints und KnotVectors definiert.  Die w-Komponente im Kontrollpunkt wird als Gewicht des Kontrollpunkts verwendet, unabhängig davon, ob es sich um CurveDimension.TWO_DIMENSIONAL oder CurveDimension.THREE_DIMENSIONAL handelt.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiert eine neue Instanz der NurbsCurve-Klasse. |
+| constructor() | Initialisiert eine neue Instanz der Klasse NurbsCurve. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(name) | Initialisiert eine neue Instanz der NurbsCurve-Klasse. |
+| constructor_overload(name) | Initialisiert eine neue Instanz der Klasse NurbsCurve. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name |
+| name | String | Name |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getControlPoints() | Ermittelt alle Kontrollpunkte |
+| getControlPoints() | Liest alle Kontrollpunkte |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getMultiplicity() | Gibt die Multiplizität zurück. Die Multiplizität. |
+| getMultiplicity() | Ermittelt die Multiplizität. Die Multiplizität. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getOrder() | Liest oder setzt die Ordnung einer NURBS-Kurve, sie definiert die Anzahl der benachbarten Kontrollpunkte, die einen beliebigen Punkt auf der Kurve beeinflussen. Die Ordnung. |
+| getOrder() | Ermittelt oder setzt die Ordnung einer NURBS-Kurve, sie definiert die Anzahl benachbarter Kontrollpunkte, die einen beliebigen Punkt auf der Kurve beeinflussen. Die Ordnung. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| setOrder(value) | Liest oder setzt die Ordnung einer NURBS-Kurve, sie definiert die Anzahl der benachbarten Kontrollpunkte, die einen beliebigen Punkt auf der Kurve beeinflussen. Die Ordnung. |
+| setOrder(value) | Ermittelt oder setzt die Ordnung einer NURBS-Kurve, sie definiert die Anzahl benachbarter Kontrollpunkte, die einen beliebigen Punkt auf der Kurve beeinflussen. Die Ordnung. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getDimension() | Liest oder setzt die Dimension der Kurve. Der Wert der Eigenschaft ist die Ganzzahlkonstante CurveDimension. Für eine CurveDimension.TWO_DIMENSIONAL-Kurve wird die z-Komponente im Kontrollpunkt nicht verwendet. |
+| getDimension() | Ermittelt oder setzt die Dimension der Kurve. Der Wert der Eigenschaft ist die Ganzzahlkonstante CurveDimension. Für eine CurveDimension.TWO_DIMENSIONAL-Kurve wird die z-Komponente im Kontrollpunkt nicht verwendet. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| setDimension(value) | Liest oder setzt die Dimension der Kurve. Der Wert der Eigenschaft ist die Ganzzahlkonstante CurveDimension. Für eine CurveDimension.TWO_DIMENSIONAL-Kurve wird die z-Komponente im Kontrollpunkt nicht verwendet. |
+| setDimension(value) | Ermittelt oder setzt die Dimension der Kurve. Der Wert der Eigenschaft ist die Ganzzahlkonstante CurveDimension. Für eine CurveDimension.TWO_DIMENSIONAL-Kurve wird die z-Komponente im Kontrollpunkt nicht verwendet. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getCurveType() | Liest oder setzt den Typ der Kurve. Der Wert der Eigenschaft ist die Ganzzahlkonstante NurbsType. Der Typ der Kurve. |
+| getCurveType() | Ermittelt oder setzt den Typ der Kurve. Der Wert der Eigenschaft ist die Ganzzahlkonstante NurbsType. Der Typ der Kurve. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| setCurveType(value) | Liest oder setzt den Typ der Kurve. Der Wert der Eigenschaft ist die Ganzzahlkonstante NurbsType. Der Typ der Kurve. |
+| setCurveType(value) | Ermittelt oder setzt den Typ der Kurve. Der Wert der Eigenschaft ist die Ganzzahlkonstante NurbsType. Der Typ der Kurve. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getKnotVectors() | Ruft den Knotenvektor ab, er ist eine Sequenz von Parameterwerten, die bestimmen, wo und wie die Kontrollpunkte die NURBS-Kurve beeinflussen. |
+| getKnotVectors() | Ermittelt den Knotenvector, er ist eine Sequenz von Parameterwerten, die bestimmt, wo und wie die Kontrollpunkte die NURBS-Kurve beeinflussen. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getRational() | Liest oder setzt, ob sie rational ist; dieser Wert gibt an, ob diese NurbsCurve ein rationaler Spline oder ein nicht-rationaler Spline ist. Ein nicht-rationaler B-Spline ist ein Spezialfall von rationalen B-Splines. true, wenn es ein rationaler Spline ist; andernfalls ist false ein nicht-rationaler Spline. |
+| getRational() | Liest oder setzt, ob es rational ist, dieser Wert gibt an, ob diese NurbsCurve ein rationaler Spline oder ein nicht-rationaler Spline ist. Nicht-rationaler B-spline ist ein Spezialfall von rationalen B-splines. true, wenn es ein rationaler Spline ist; andernfalls, false, wenn es ein nicht-rationaler Spline ist. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| setRational(value) | Liest oder setzt, ob sie rational ist; dieser Wert gibt an, ob diese NurbsCurve ein rationaler Spline oder ein nicht-rationaler Spline ist. Ein nicht-rationaler B-Spline ist ein Spezialfall von rationalen B-Splines. true, wenn es ein rationaler Spline ist; andernfalls ist false ein nicht-rationaler Spline. |
+| setRational(value) | Liest oder setzt, ob es rational ist, dieser Wert gibt an, ob diese NurbsCurve ein rationaler Spline oder ein nicht-rationaler Spline ist. Nicht-rationaler B-spline ist ein Spezialfall von rationalen B-splines. true, wenn es ein rationaler Spline ist; andernfalls, false, wenn es ein nicht-rationaler Spline ist. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -341,7 +341,7 @@ Eine NURBS-Kurve ist eine Kurve, die durch NURBS (Non-uniform rational basis spl
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Schritte | Number | Die Auswertungsfrequenz zwischen zwei benachbarten Knoten, Standardwert ist 20 |
+| Schritte | Zahl | Die Evaluierungsfrequenz zwischen zwei benachbarten Knoten, Standardwert ist 20 |
 
  **Result:**
 Vector4[]
@@ -360,7 +360,7 @@ Vector4[]
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| u | Number | Die Position in der Kurve, zwischen 0 und 1 |
+| u | Zahl | Die Position in der Kurve, zwischen 0 und 1 |
 
  **Result:**
 Vector4
@@ -373,7 +373,7 @@ Vector4
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -386,7 +386,7 @@ EntityRendererKey
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 EntityRendererKey
@@ -405,7 +405,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -418,7 +418,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -437,7 +437,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -446,7 +446,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -463,10 +463,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -476,7 +476,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -485,7 +485,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

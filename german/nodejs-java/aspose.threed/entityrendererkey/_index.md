@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/entityrendererkey/
 ---
 ## EntityRendererKey class
 
-Der Schlüssel des registrierten Entitätsrenderers.
+Der Schlüssel des registrierten Entitäts-Renderers
 
 
 ## Methoden

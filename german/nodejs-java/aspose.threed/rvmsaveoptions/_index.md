@@ -49,7 +49,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileNote() | Dateihinweis im Dateikopf. |
+| getFileNote() | Dateikommentar im Dateikopf. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileNote(value) | Dateihinweis im Dateikopf. |
+| setFileNote(value) | Dateikommentar im Dateikopf. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getCreationTime() | Der Zeitstempel, der diese Datei exportierte, Standardwert ist die aktuelle Zeit |
+| getCreationTime() | Der Zeitstempel, der diese Datei exportierte, Standardwert ist die aktuelle Zeit. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setCreationTime(value) | Der Zeitstempel, der diese Datei exportierte, Standardwert ist die aktuelle Zeit |
+| setCreationTime(value) | Der Zeitstempel, der diese Datei exportierte, Standardwert ist die aktuelle Zeit. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getAttributePrefix() | Legt das Präfix der zu exportierenden Attribute fest oder gibt es zurück; die exportierte Eigenschaft enthält kein Präfix, benutzerdefinierte Eigenschaften mit anderem Präfix werden nicht exportiert, Standardwert ist 'rvm:'. Zum Beispiel, wenn eine Eigenschaft rvm:Refno=345 ist, wird das exportierte Attribut Refno = 345 sein, das Präfix wird entfernt. |
+| getAttributePrefix() | Liest oder setzt das Präfix der Attribute, die exportiert werden sollen; die exportierte Eigenschaft enthält kein Präfix, benutzerdefinierte Eigenschaften mit anderem Präfix werden nicht exportiert, Standardwert ist 'rvm:'. Zum Beispiel, wenn eine Eigenschaft rvm:Refno=345 ist, wird das exportierte Attribut Refno = 345 sein, das Präfix wird entfernt. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setAttributePrefix(value) | Legt das Präfix der zu exportierenden Attribute fest oder gibt es zurück; die exportierte Eigenschaft enthält kein Präfix, benutzerdefinierte Eigenschaften mit anderem Präfix werden nicht exportiert, Standardwert ist 'rvm:'. Zum Beispiel, wenn eine Eigenschaft rvm:Refno=345 ist, wird das exportierte Attribut Refno = 345 sein, das Präfix wird entfernt. |
+| setAttributePrefix(value) | Liest oder setzt das Präfix der Attribute, die exportiert werden sollen; die exportierte Eigenschaft enthält kein Präfix, benutzerdefinierte Eigenschaften mit anderem Präfix werden nicht exportiert, Standardwert ist 'rvm:'. Zum Beispiel, wenn eine Eigenschaft rvm:Refno=345 ist, wird das exportierte Attribut Refno = 345 sein, das Präfix wird entfernt. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getAttributeListFile() | Legt den Dateinamen der Attributlistendatei fest oder gibt ihn zurück; der Exporter erzeugt einen Namen basierend auf dem .rvm-Dateinamen, wenn diese Eigenschaft nicht definiert ist, Standardwert ist null. |
+| getAttributeListFile() | Liest oder setzt den Dateinamen der Attributlisten-Datei; der Exporter erzeugt einen Namen basierend auf dem .rvm-Dateinamen, wenn diese Eigenschaft nicht definiert ist, Standardwert ist null. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setAttributeListFile(value) | Legt den Dateinamen der Attributlistendatei fest oder gibt ihn zurück; der Exporter erzeugt einen Namen basierend auf dem .rvm-Dateinamen, wenn diese Eigenschaft nicht definiert ist, Standardwert ist null. |
+| setAttributeListFile(value) | Liest oder setzt den Dateinamen der Attributlisten-Datei; der Exporter erzeugt einen Namen basierend auf dem .rvm-Dateinamen, wenn diese Eigenschaft nicht definiert ist, Standardwert ist null. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportAttributes() | Legt fest, ob die Attributliste in eine externe .att-Datei exportiert wird, oder gibt den Wert zurück; Standardwert ist false. |
+| getExportAttributes() | Liest oder setzt, ob die Attributliste in eine externe .att-Datei exportiert werden soll, Standardwert ist false. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportAttributes(value) | Legt fest, ob die Attributliste in eine externe .att-Datei exportiert wird, oder gibt den Wert zurück; Standardwert ist false. |
+| setExportAttributes(value) | Liest oder setzt, ob die Attributliste in eine externe .att-Datei exportiert werden soll, Standardwert ist false. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Speicheroptionen für die Aveva PDMS RVM-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

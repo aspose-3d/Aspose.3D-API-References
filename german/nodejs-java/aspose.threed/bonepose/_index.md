@@ -30,7 +30,7 @@ Der BonePose enthält die Transformationsmatrix für einen Bone‑Knoten.
 
 | Name | Beschreibung |
 | --- | --- |
-| getNode() | Liest oder setzt den Szenenknoten, verweist auf einen skinned skeleton node |
+| getNode() | Liest oder setzt den Szenenknoten, verweist auf einen gekleideten Skelettknoten |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Der BonePose enthält die Transformationsmatrix für einen Bone‑Knoten.
 
 | Name | Beschreibung |
 | --- | --- |
-| setNode(value) | Liest oder setzt den Szenenknoten, verweist auf einen skinned skeleton node |
+| setNode(value) | Liest oder setzt den Szenenknoten, verweist auf einen gekleideten Skelettknoten |
 
  **Result:**
 

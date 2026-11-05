@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/entityrenderer/
 ---
 ## EntityRenderer class
 
-Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu implementieren.
+Leiten Sie davon ab, um das Rendering für verschiedene Arten von Entitäten zu implementieren.
 
 
 ## Methoden
@@ -23,8 +23,8 @@ Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu impl
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Schlüssel | String | Der Schlüssel des Entity-Renderers |
-| Funktionen | Byte | EntityRendererFeatures |
+| key | String | Der Schlüssel des EntityRenderers |
+| features | byte | EntityRendererFeatures |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu impl
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Schlüssel | String | Der Schlüssel des Entity-Renderers |
+| key | String | Der Schlüssel des EntityRenderers |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu impl
 
 | Name | Beschreibung |
 | --- | --- |
-| resetSceneCache() | Die Szene wurde geändert oder entfernt, szenenbezogene Renderressourcen müssen freigegeben werden. |
+| resetSceneCache() | Die Szene wurde geändert oder entfernt, daher müssen hier die renderbezogenen Ressourcen auf Szenenebene freigegeben werden. |
 
  **Result:**
 
@@ -94,8 +94,8 @@ Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu impl
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| renderer | Renderer | Aktueller Renderer |
-| renderQueue | IRenderQueue | Renderwarteschlange |
+| Renderer | Renderer | Aktueller Renderer |
+| renderQueue | IRenderQueue | Render-Warteschlange |
 
  **Result:**
 
@@ -114,8 +114,8 @@ Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu impl
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| renderer | Renderer | Aktueller Renderer |
-| renderQueue | IRenderQueue | Renderwarteschlange |
+| Renderer | Renderer | Aktueller Renderer |
+| renderQueue | IRenderQueue | Render-Warteschlange |
 
  **Result:**
 
@@ -128,16 +128,16 @@ Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu impl
 
 | Name | Beschreibung |
 | --- | --- |
-| prepareRenderQueue(renderer, queue, node, entity) | Bereite Renderbefehle für das angegebene Knoten/Entity-Paar vor. |
+| prepareRenderQueue(renderer, queue, node, entity) | Bereite Renderbefehle für das angegebene node/entity-Paar vor. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| renderer | Renderer | Die aktuelle Renderer-Instanz |
-| Warteschlange | IRenderQueue | Die Renderwarteschlange, die zur Verwaltung von Renderaufgaben verwendet wird |
-| Knoten | Node | Aktueller Knoten |
-| Entität | Entity | Das Entity, das gerendert werden muss |
+| Renderer | Renderer | Die aktuelle Renderer-Instanz |
+| Warteschlange | IRenderQueue | Die Render-Warteschlange, die zur Verwaltung von Renderaufgaben verwendet wird |
+| Knoten | Knoten | Aktueller Knoten |
+| Entität | Entität | Die Entität, die gerendert werden muss |
 
  **Result:**
 
@@ -150,17 +150,17 @@ Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu impl
 
 | Name | Beschreibung |
 | --- | --- |
-| renderEntity(renderer, commandList, node, renderableResource, subEntity) | Jede Renderaufgabe, die in die com.aspose.threed.IRenderQueue geschoben wird, hat einen entsprechenden RenderEntity-Aufruf, um den konkreten Rendering‑Job auszuführen. |
+| renderEntity(renderer, commandList, node, renderableResource, subEntity) | Jede Renderaufgabe, die in die com.aspose.threed.IRenderQueue geschoben wird, hat einen entsprechenden RenderEntity-Aufruf, um den konkreten Rendering-Job auszuführen. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| renderer | Renderer | Der Renderer |
-| commandList | ICommandList | Die commandList, die zum Aufzeichnen der Rendering-Befehle verwendet wird |
-| Knoten | Node | Der gleiche Knoten, der an PrepareRenderQueue des zu rendernden Entity übergeben wurde |
-| renderableResource | Object | Das benutzerdefinierte Objekt, das während der PrepareRenderQueue an IRenderQueue übergeben wurde |
-| subEntity | Number | Der Index des Sub-Entity, das an IRenderQueue übergeben wurde |
+| Renderer | Renderer | Der Renderer |
+| Befehlsliste | ICommandList | Die commandList, die zum Aufzeichnen der Rendering-Befehle verwendet wird |
+| Knoten | Knoten | Der gleiche Knoten, der an PrepareRenderQueue der Entität übergeben wurde, die gerendert wird |
+| renderableResource | Objekt | Das benutzerdefinierte Objekt, das an IRenderQueue während des PrepareRenderQueue übergeben wurde. |
+| subEntity | Zahl | Der Index der Sub-Entität, die an IRenderQueue übergeben wurde. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Erben Sie davon, um das Rendering für verschiedene Arten von Entitäten zu impl
 
 | Name | Beschreibung |
 | --- | --- |
-| dispose() | Der EntityRenderer wird entsorgt, gemeinsame Ressourcen freigegeben. |
+| dispose() | Der Entity-Renderer wird entsorgt, freigeben Sie gemeinsam genutzte Ressourcen. |
 
  **Result:**
 

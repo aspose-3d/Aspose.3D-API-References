@@ -36,8 +36,8 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| radius | Number | Radius der oberen und unteren Kappe. |
-| height | Number | Höhe. |
+| radius | Zahl | Radius der oberen und unteren Kappe. |
+| height | Zahl | Höhe. |
 
  **Result:**
 
@@ -56,9 +56,9 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| radiusTop | Number | Oberer Radius. |
-| radiusBottom | Number | Unterer Radius. |
-| height | Number | Höhe. |
+| radiusTop | Zahl | Radius oben. |
+| radiusBottom | Zahl | Radius unten. |
+| height | Zahl | Höhe. |
 
  **Result:**
 
@@ -77,12 +77,12 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| radiusTop | Number | Radius der oberen Kappe des Zylinders. |
-| radiusBottom | Number | Radius der unteren Kappe des Zylinders. |
-| height | Number | Höhe des Zylinders. |
-| radialSegments | Number | Radiale Segmente beider oberer und unterer Kreise.. |
-| heightSegments | Number | Höhensegmente. |
-| openEnded | boolean | Wenn gesetzt auf |
+| radiusTop | Zahl | Radius der oberen Zylinderkappe. |
+| radiusBottom | Zahl | Radius der unteren Zylinderkappe. |
+| height | Zahl | Höhe des Zylinders. |
+| radialSegments | Zahl | Radiale Segmente beider oberer und unterer Kreise.. |
+| heightSegments | Zahl | Höhenabschnitte. |
+| openEnded | boolean | Wenn festgelegt auf |
 
  **Result:**
 
@@ -101,15 +101,15 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Der Name dieses Objekts |
-| radiusTop | Number | Radius der oberen Kappe des Zylinders. |
-| radiusBottom | Number | Radius der unteren Kappe des Zylinders. |
-| height | Number | Höhe des Zylinders. |
-| radialSegments | Number | Radiale Segmente beider oberer und unterer Kreise.. |
-| heightSegments | Number | Höhensegmente. |
-| openEnded | boolean | Wenn gesetzt auf |
-| thetaStart | Number | Theta-Start. |
-| thetaLength | Number | Theta-Länge. |
+| name | String | Der Name dieses Objekts |
+| radiusTop | Zahl | Radius der oberen Zylinderkappe. |
+| radiusBottom | Zahl | Radius der unteren Zylinderkappe. |
+| height | Zahl | Höhe des Zylinders. |
+| radialSegments | Zahl | Radiale Segmente beider oberer und unterer Kreise.. |
+| heightSegments | Zahl | Höhenabschnitte. |
+| openEnded | boolean | Wenn festgelegt auf |
+| thetaStart | Zahl | Theta-Start. |
+| thetaLength | Zahl | Theta-Länge. |
 
  **Result:**
 
@@ -122,7 +122,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getOffsetBottom() | Liest oder setzt den Transformationsversatz der Scheitelpunkte der unteren Seite. |
+| getOffsetBottom() | Liest oder setzt den Transformationsoffset der Scheitelpunkte der unteren Seite. |
 
  **Result:**
 
@@ -135,7 +135,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setOffsetBottom(value) | Liest oder setzt den Transformationsversatz der Scheitelpunkte der unteren Seite. |
+| setOffsetBottom(value) | Liest oder setzt den Transformationsoffset der Scheitelpunkte der unteren Seite. |
 
  **Result:**
 
@@ -148,7 +148,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getOffsetTop() | Liest oder setzt den Transformationsversatz der Scheitelpunkte der oberen Seite. |
+| getOffsetTop() | Liest oder setzt den Transformationsoffset der Scheitelpunkte der oberen Seite. |
 
  **Result:**
 
@@ -161,7 +161,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setOffsetTop(value) | Liest oder setzt den Transformationsversatz der Scheitelpunkte der oberen Seite. |
+| setOffsetTop(value) | Liest oder setzt den Transformationsoffset der Scheitelpunkte der oberen Seite. |
 
  **Result:**
 
@@ -174,7 +174,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getGenerateFanCylinder() | Liest oder setzt, ob ein Zylinder im Fächerstil erzeugt werden soll, wenn die ThetaLength kleiner als 2PI ist, andernfalls wird das Modell nicht geschnitten. |
+| getGenerateFanCylinder() | Liest oder setzt, ob ein fächerförmiger Zylinder erzeugt werden soll, wenn die ThetaLength kleiner als 2π ist; andernfalls wird das Modell nicht geschnitten. |
 
  **Result:**
 
@@ -187,7 +187,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setGenerateFanCylinder(value) | Liest oder setzt, ob ein Zylinder im Fächerstil erzeugt werden soll, wenn die ThetaLength kleiner als 2PI ist, andernfalls wird das Modell nicht geschnitten. |
+| setGenerateFanCylinder(value) | Liest oder setzt, ob ein fächerförmiger Zylinder erzeugt werden soll, wenn die ThetaLength kleiner als 2π ist; andernfalls wird das Modell nicht geschnitten. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getShearBottom() | Liest oder setzt die Schertransformation der unteren Seite, ein Vektor speichert den (x‑Achse, z‑Achse) Scherwert, gemessen im Bogenmaß, Standardwert ist (0, 0) |
+| getShearBottom() | Liest oder setzt die Schertransformation der unteren Seite, der Vektor speichert den (x-Achse, z-Achse) Scherwert in Radiant, Standardwert ist (0, 0). |
 
  **Result:**
 
@@ -213,7 +213,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setShearBottom(value) | Liest oder setzt die Schertransformation der unteren Seite, ein Vektor speichert den (x‑Achse, z‑Achse) Scherwert, gemessen im Bogenmaß, Standardwert ist (0, 0) |
+| setShearBottom(value) | Liest oder setzt die Schertransformation der unteren Seite, der Vektor speichert den (x-Achse, z-Achse) Scherwert in Radiant, Standardwert ist (0, 0). |
 
  **Result:**
 
@@ -226,7 +226,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getShearTop() | Liest oder setzt die Schertransformation der oberen Seite, ein Vektor speichert den (x‑Achse, z‑Achse) Scherwert, gemessen im Bogenmaß, Standardwert ist (0, 0) |
+| getShearTop() | Liest oder setzt die Schertransformation der Oberseite, der Vektor speichert den (x-Achse, z-Achse) Scherwert, der in Radiant gemessen wird, Standardwert ist (0, 0). |
 
  **Result:**
 
@@ -239,7 +239,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setShearTop(value) | Liest oder setzt die Schertransformation der oberen Seite, ein Vektor speichert den (x‑Achse, z‑Achse) Scherwert, gemessen im Bogenmaß, Standardwert ist (0, 0) |
+| setShearTop(value) | Liest oder setzt die Schertransformation der Oberseite, der Vektor speichert den (x-Achse, z-Achse) Scherwert, der in Radiant gemessen wird, Standardwert ist (0, 0). |
 
  **Result:**
 
@@ -356,7 +356,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getHeightSegments() | Liest oder setzt die Höhensegmente. Die Höhensegmente. |
+| getHeightSegments() | Liest oder setzt die Höhenabschnitte. Die Höhenabschnitte. |
 
  **Result:**
 
@@ -369,7 +369,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setHeightSegments(value) | Liest oder setzt die Höhensegmente. Die Höhensegmente. |
+| setHeightSegments(value) | Liest oder setzt die Höhenabschnitte. Die Höhenabschnitte. |
 
  **Result:**
 
@@ -408,7 +408,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getThetaStart() | Liest oder setzt den Theta-Start. Der Standardwert ist 0. Der Theta-Start. |
+| getThetaStart() | Liest oder setzt den Startwinkel (Theta). Der Standardwert ist 0. Der Startwinkel (Theta). |
 
  **Result:**
 
@@ -421,7 +421,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setThetaStart(value) | Liest oder setzt den Theta-Start. Der Standardwert ist 0. Der Theta-Start. |
+| setThetaStart(value) | Liest oder setzt den Startwinkel (Theta). Der Standardwert ist 0. Der Startwinkel (Theta). |
 
  **Result:**
 
@@ -512,7 +512,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -525,7 +525,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -538,7 +538,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -551,7 +551,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -564,7 +564,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -577,7 +577,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -590,7 +590,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -603,7 +603,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -616,7 +616,7 @@ Parametrisierter Zylinder.  Er kann auch verwendet werden, um den Kegel darzuste
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -642,7 +642,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 Mesh
@@ -655,7 +655,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -674,7 +674,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -687,7 +687,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -706,7 +706,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -715,7 +715,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -732,10 +732,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -745,7 +745,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -754,7 +754,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

@@ -17,7 +17,7 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getCompare() | Liest oder setzt die Vergleichsfunktion, die im Stencil-Test verwendet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante CompareFunction. |
+| getCompare() | Liest oder setzt die Vergleichsfunktion, die im Stencil-Test verwendet wird. Der Wert der Eigenschaft ist die ganzzahlige Konstante CompareFunction. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setCompare(value) | Liest oder setzt die Vergleichsfunktion, die im Stencil-Test verwendet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante CompareFunction. |
+| setCompare(value) | Liest oder setzt die Vergleichsfunktion, die im Stencil-Test verwendet wird. Der Wert der Eigenschaft ist die ganzzahlige Konstante CompareFunction. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFailAction() | Liest oder setzt die Stencil-Aktion, wenn der Stencil-Test fehlschlägt. Der Wert der Eigenschaft ist die Ganzzahlkonstante StencilAction. |
+| getFailAction() | Liest oder setzt die Stencil-Aktion, wenn der Stencil-Test fehlschlägt. Der Wert der Eigenschaft ist die ganzzahlige Konstante StencilAction. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setFailAction(value) | Liest oder setzt die Stencil-Aktion, wenn der Stencil-Test fehlschlägt. Der Wert der Eigenschaft ist die Ganzzahlkonstante StencilAction. |
+| setFailAction(value) | Liest oder setzt die Stencil-Aktion, wenn der Stencil-Test fehlschlägt. Der Wert der Eigenschaft ist die ganzzahlige Konstante StencilAction. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getDepthFailAction() | Liest oder setzt die Stencil-Aktion, wenn der Stencil-Test besteht, aber der Tiefentest fehlschlägt. Der Wert der Eigenschaft ist die Ganzzahlkonstante StencilAction. |
+| getDepthFailAction() | Liest oder setzt die Stencil-Aktion, wenn der Stencil-Test besteht, aber der Tiefentest fehlschlägt. Der Wert der Eigenschaft ist die ganzzahlige Konstante StencilAction. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setDepthFailAction(value) | Liest oder setzt die Stencil-Aktion, wenn der Stencil-Test besteht, aber der Tiefentest fehlschlägt. Der Wert der Eigenschaft ist die Ganzzahlkonstante StencilAction. |
+| setDepthFailAction(value) | Liest oder setzt die Stencil-Aktion, wenn der Stencil-Test besteht, aber der Tiefentest fehlschlägt. Der Wert der Eigenschaft ist die ganzzahlige Konstante StencilAction. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getPassAction() | Liest oder setzt die Stencil-Aktion, wenn sowohl der Stencil-Test als auch der Tiefentest bestehen. Der Wert der Eigenschaft ist die Ganzzahlkonstante StencilAction. |
+| getPassAction() | Liest oder setzt die Stencil-Aktion, wenn sowohl der Stencil-Test als auch der Tiefentest bestanden werden. Der Wert der Eigenschaft ist die ganzzahlige Konstante StencilAction. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setPassAction(value) | Liest oder setzt die Stencil-Aktion, wenn sowohl der Stencil-Test als auch der Tiefentest bestehen. Der Wert der Eigenschaft ist die Ganzzahlkonstante StencilAction. |
+| setPassAction(value) | Liest oder setzt die Stencil-Aktion, wenn sowohl der Stencil-Test als auch der Tiefentest bestanden werden. Der Wert der Eigenschaft ist die ganzzahlige Konstante StencilAction. |
 
  **Result:**
 
@@ -121,13 +121,13 @@ Stencil-Zustände pro Fläche.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| equals(obj) | Gibt einen Wert zurück, der angibt, ob diese Instanz einem angegebenen Objekt gleich ist. |
+| equals(obj) | Gibt einen Wert zurück, der angibt, ob diese Instanz einem angegebenen Objekt entspricht. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| ob | Object | null |
+| ob | Objekt | null |
 
  **Result:**
 boolean

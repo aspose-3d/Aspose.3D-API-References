@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/frustum/
 ---
 ## Frustum class
 
-Die Basisklasse von Camera und Light  @hideconstructor
+Die Basisklasse von Kamera und Licht  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getRotationMode() | Liest oder setzt den Orientierungsmodus des Frustums. Diese Eigenschaft funktioniert nur, wenn das Target null ist. Wenn der Wert RotationMode.FIXED_TARGET ist, wird die Richtung immer über die Eigenschaft LookAt berechnet. Andernfalls wird LookAt immer über die Direction berechnet. Der Wert der Eigenschaft ist die Ganzzahlkonstante RotationMode. |
+| getRotationMode() | Liest oder setzt den Orientierungsmodus des Sichtvolumens. Diese Eigenschaft funktioniert nur, wenn das Target null ist. Wenn der Wert RotationMode.FIXED_TARGET ist, wird die Richtung immer über die Eigenschaft LookAt berechnet. Andernfalls wird LookAt immer über die Direction berechnet. Der Wert der Eigenschaft ist die ganzzahlige Konstante RotationMode. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setRotationMode(value) | Liest oder setzt den Orientierungsmodus des Frustums. Diese Eigenschaft funktioniert nur, wenn das Target null ist. Wenn der Wert RotationMode.FIXED_TARGET ist, wird die Richtung immer über die Eigenschaft LookAt berechnet. Andernfalls wird LookAt immer über die Direction berechnet. Der Wert der Eigenschaft ist die Ganzzahlkonstante RotationMode. |
+| setRotationMode(value) | Liest oder setzt den Orientierungsmodus des Sichtvolumens. Diese Eigenschaft funktioniert nur, wenn das Target null ist. Wenn der Wert RotationMode.FIXED_TARGET ist, wird die Richtung immer über die Eigenschaft LookAt berechnet. Andernfalls wird LookAt immer über die Direction berechnet. Der Wert der Eigenschaft ist die ganzzahlige Konstante RotationMode. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getNearPlane() | Liest oder setzt den Abstand der Nah-Ebene des Frustums. |
+| getNearPlane() | Liest oder setzt den Abstand der nahen Ebene des Sichtvolumens. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setNearPlane(value) | Liest oder setzt den Abstand der Nah-Ebene des Frustums. |
+| setNearPlane(value) | Liest oder setzt den Abstand der nahen Ebene des Sichtvolumens. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFarPlane() | Liest oder setzt den Abstand der Fern-Ebene des Frustums. |
+| getFarPlane() | Liest oder setzt den Abstand der fernen Ebene des Sichtvolumens. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setFarPlane(value) | Liest oder setzt den Abstand der Fern-Ebene des Frustums. |
+| setFarPlane(value) | Liest oder setzt den Abstand der fernen Ebene des Sichtvolumens. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getOrthoHeight() | Liest oder setzt die Höhe, wenn der Frustum in orthografischer Projektion ist. |
+| getOrthoHeight() | Liest oder setzt die Höhe, wenn das Frustum in orthografischer Projektion ist. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setOrthoHeight(value) | Liest oder setzt die Höhe, wenn der Frustum in orthografischer Projektion ist. |
+| setOrthoHeight(value) | Liest oder setzt die Höhe, wenn das Frustum in orthografischer Projektion ist. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getTarget() | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der LookAt‑Eigenschaft liegen. |
+| getTarget() | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der LookAt-Eigenschaft liegen. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setTarget(value) | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der LookAt‑Eigenschaft liegen. |
+| setTarget(value) | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der LookAt-Eigenschaft liegen. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -368,7 +368,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 
@@ -381,7 +381,7 @@ Die Basisklasse von Camera und Light  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -400,7 +400,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -413,7 +413,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -432,7 +432,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -441,7 +441,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -458,10 +458,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -471,7 +471,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -480,7 +480,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

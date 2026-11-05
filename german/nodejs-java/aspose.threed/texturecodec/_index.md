@@ -30,7 +30,7 @@ Klasse zur Verwaltung von Encodern und Decodern für Texturen.
 
 | Name | Beschreibung |
 | --- | --- |
-| getSupportedEncoderFormats() | Alle unterstützten Encoder-Formate abrufen |
+| getSupportedEncoderFormats() | Liest alle unterstützten Encoder-Formate |
 
  **Result:**
 String[]
@@ -43,13 +43,13 @@ String[]
 
 | Name | Beschreibung |
 | --- | --- |
-| registerCodec(codec) | Ein Set von Textur-Encodern und -Decodern registrieren |
+| registerCodec(codec) | Registriert einen Satz von Textur-Encodern und Decodern |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Code | ITextureCodec | null |
+| code | ITextureCodec | null |
 
  **Result:**
 String[]

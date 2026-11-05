@@ -17,7 +17,7 @@ Das LocalFileSystem mappt die Lese-/Schreibvorgänge auf ein lokales Verzeichnis
 
 | Name | Beschreibung |
 | --- | --- |
-| Konstruktor(directory) | Initialisiert ein neues LocalFileSystem mit dem angegebenen Basisverzeichnis. |
+| constructor(directory) | Initialisiert ein neues LocalFileSystem mit dem angegebenen Basisverzeichnis. |
 
  **Parameters:**
 
@@ -36,14 +36,14 @@ Das LocalFileSystem mappt die Lese-/Schreibvorgänge auf ein lokales Verzeichnis
 
 | Name | Beschreibung |
 | --- | --- |
-| readFile(fileName, options) | Erstellen Sie einen Stream zum Lesen von Abhängigkeiten. |
+| readFile(fileName, options) | Erstellt einen Stream zum Lesen von Abhängigkeiten. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileNam | String | null |
-| Option | IOConfig | null |
+| option | IOConfig | null |
 
  **Result:**
 Stream
@@ -56,14 +56,14 @@ Stream
 
 | Name | Beschreibung |
 | --- | --- |
-| writeFile(fileName, options) | Erstellen Sie einen Stream zum Schreiben von Abhängigkeiten. |
+| writeFile(fileName, options) | Erstellt einen Stream zum Schreiben von Abhängigkeiten. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileNam | String | null |
-| Option | IOConfig | null |
+| option | IOConfig | null |
 
  **Result:**
 Stream

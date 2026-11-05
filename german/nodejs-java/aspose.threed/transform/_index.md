@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/transform/
 ---
 ## Transform class
 
-Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skalierung/Drehung des Objekts oder die Transformationsmatrix mit minimalem Aufwand ermöglichen.  Dies wird von lokaler Transform verwendet.  @hideconstructor
+Eine Transformation enthält Informationen, die den Zugriff auf die Übersetzung/Skalierung/Drehung des Objekts oder die Transformationsmatrix mit minimalem Aufwand ermöglichen.  Dies wird von lokaler Transformation verwendet.  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getGeometricTranslation() | Liest oder setzt die geometrische Translation. Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| getGeometricTranslation() | Liest oder setzt die geometrische Translation. Die geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateiformate exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setGeometricTranslation(value) | Liest oder setzt die geometrische Translation. Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| setGeometricTranslation(value) | Liest oder setzt die geometrische Translation. Die geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateiformate exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getGeometricScaling() | Liest oder setzt die geometrische Skalierung. Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| getGeometricScaling() | Liest oder setzt die geometrische Skalierung. Die geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateiformate exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setGeometricScaling(value) | Liest oder setzt die geometrische Skalierung. Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| setGeometricScaling(value) | Liest oder setzt die geometrische Skalierung. Die geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateiformate exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getGeometricRotation() | Liest oder setzt die geometrische Euler-Rotation (gemessen in Grad). Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| getGeometricRotation() | Liest oder setzt die geometrische Euler‑Rotation (gemessen in Grad). Die geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateiformate exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setGeometricRotation(value) | Liest oder setzt die geometrische Euler-Rotation (gemessen in Grad). Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| setGeometricRotation(value) | Liest oder setzt die geometrische Euler‑Rotation (gemessen in Grad). Die geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateiformate exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getPostRotation() | Liest oder setzt die Nachrotation, dargestellt in Grad |
+| getPostRotation() | Liest oder setzt die Nachrotation, angegeben in Grad |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setPostRotation(value) | Liest oder setzt die Nachrotation, dargestellt in Grad |
+| setPostRotation(value) | Liest oder setzt die Nachrotation, angegeben in Grad |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getEulerAngles() | Liest oder setzt die Rotation, dargestellt in Euler‑Winkeln, gemessen in Grad |
+| getEulerAngles() | Liest oder setzt die Rotation, angegeben in Euler-Winkeln, gemessen in Grad |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setEulerAngles(value) | Liest oder setzt die Rotation, dargestellt in Euler‑Winkeln, gemessen in Grad |
+| setEulerAngles(value) | Liest oder setzt die Rotation, angegeben in Euler-Winkeln, gemessen in Grad |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getRotation() | Liest oder setzt die Rotation, dargestellt in einem Quaternion. |
+| getRotation() | Liest oder setzt die Rotation, angegeben als Quaternion. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setRotation(value) | Liest oder setzt die Rotation, dargestellt in einem Quaternion. |
+| setRotation(value) | Liest oder setzt die Rotation, angegeben als Quaternion. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getTransformMatrix() | Liest oder setzt die Transformationsmatrix. Das Zuweisen zu diesem Wert setzt die Translation, Scale und Rotation zurück, die GeometricRotation, GeometricScaling und GeometricTranslation werden nicht beeinflusst. |
+| getTransformMatrix() | Liest oder setzt die Transformationsmatrix. Das Zuweisen zu dieser wird die Translation, Scale und Rotation zurücksetzen, die GeometricRotation, GeometricScaling und GeometricTranslation werden nicht beeinflusst. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setTransformMatrix(value) | Liest oder setzt die Transformationsmatrix. Das Zuweisen zu diesem Wert setzt die Translation, Scale und Rotation zurück, die GeometricRotation, GeometricScaling und GeometricTranslation werden nicht beeinflusst. |
+| setTransformMatrix(value) | Liest oder setzt die Transformationsmatrix. Das Zuweisen zu dieser wird die Translation, Scale und Rotation zurücksetzen, die GeometricRotation, GeometricScaling und GeometricTranslation werden nicht beeinflusst. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setGeometricTranslation(x, y, z) | Setzt die geometrische Translation. Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| setGeometricTranslation(x, y, z) | Setzt die geometrische Translation. Die geometrische Transformation wirkt sich nur auf die angehängten Entitäten aus und lässt die Kindknoten unbeeinflusst. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setGeometricScaling(sx, sy, sz) | Setzt die geometrische Skalierung. Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| setGeometricScaling(sx, sy, sz) | Setzt die geometrische Skalierung. Die geometrische Transformation wirkt sich nur auf die angehängten Entitäten aus und lässt die Kindknoten unbeeinflusst. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Beschreibung |
 | --- | --- |
-| setGeometricRotation(rx, ry, rz) | Setzt die geometrische Euler-Rotation (gemessen in Grad). Geometrische Transformation wirkt nur auf die angehängten Entitäten und lässt die Kindknoten unverändert. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
+| setGeometricRotation(rx, ry, rz) | Setzt die geometrische Euler-Rotation (gemessen in Grad). Die geometrische Transformation wirkt sich nur auf die angehängten Entitäten aus und lässt die Kindknoten unbeeinflusst. Sie wird als lokale Transformation zusammengeführt, wenn Sie die geometrische Transformation in Dateitypen exportieren, die sie nicht unterstützen. |
 
  **Result:**
 
@@ -361,9 +361,9 @@ Eine **Transform** enthält Informationen, die den Zugriff auf Übersetzung/Skal
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| t | Number | null |
-| t | Number | null |
-| t | Number | null |
+| t | Zahl | null |
+| t | Zahl | null |
+| t | Zahl | null |
 
  **Result:**
 Transformation
@@ -376,15 +376,15 @@ Transformation
 
 | Name | Beschreibung |
 | --- | --- |
-| setScale(sx, sy, sz) | Setzt den Maßstab der aktuellen Transformation. |
+| setScale(sx, sy, sz) | Setzt die Skalierung der aktuellen Transformation. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| s | Number | null |
-| s | Number | null |
-| s | Number | null |
+| s | Zahl | null |
+| s | Zahl | null |
+| s | Zahl | null |
 
  **Result:**
 Transformation
@@ -403,9 +403,9 @@ Transformation
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
+| r | Zahl | null |
+| r | Zahl | null |
+| r | Zahl | null |
 
  **Result:**
 Transformation
@@ -424,10 +424,10 @@ Transformation
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
+| r | Zahl | null |
+| r | Zahl | null |
+| r | Zahl | null |
+| r | Zahl | null |
 
  **Result:**
 Transformation
@@ -440,7 +440,7 @@ Transformation
 
 | Name | Beschreibung |
 | --- | --- |
-| setPreRotation(rx, ry, rz) | Setzt die Vorrotation, dargestellt in Grad |
+| setPreRotation(rx, ry, rz) | Setzt die Vorrotation, angegeben in Grad |
 
  **Result:**
 Transformation
@@ -453,7 +453,7 @@ Transformation
 
 | Name | Beschreibung |
 | --- | --- |
-| setPostRotation(rx, ry, rz) | Setzt die Nachrotation, dargestellt in Grad |
+| setPostRotation(rx, ry, rz) | Setzt die Nachrotation, angegeben in Grad |
 
  **Result:**
 Transformation
@@ -472,7 +472,7 @@ Transformation
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -485,7 +485,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -504,7 +504,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -513,7 +513,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -530,10 +530,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -543,7 +543,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -552,7 +552,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

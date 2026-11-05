@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertexdeclaration/
 ---
 ## VertexDeclaration class
 
-Die Deklaration der Struktur eines benutzerdefinierten Vertex.
+Die Deklaration der Struktur eines benutzerdefinierten Vertex
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Die Deklaration der Struktur eines benutzerdefinierten Vertex.
 
 | Name | Beschreibung |
 | --- | --- |
-| getSealed() | Eine VertexDeclaration wird versiegelt, wenn sie von com.aspose.threed.TriMesh`1 oder TriMesh verwendet wurde; weitere Änderungen sind nicht mehr erlaubt. |
+| getSealed() | Ein VertexDeclaration wird versiegelt, wenn es von com.aspose.threed.TriMesh`1 oder TriMesh verwendet wurde; weitere Änderungen sind nicht mehr erlaubt. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Die Deklaration der Struktur eines benutzerdefinierten Vertex.
 
 | Name | Beschreibung |
 | --- | --- |
-| getCount() | Gibt die Anzahl aller in dieser VertexDeclaration definierten Felder zurück |
+| getCount() | Ermittelt die Anzahl aller in dieser VertexDeclaration definierten Felder |
 
  **Result:**
 
@@ -95,16 +95,16 @@ Die Deklaration der Struktur eines benutzerdefinierten Vertex.
 
 | Name | Beschreibung |
 | --- | --- |
-| addField(dataType, semantic, index, alias) | Ein neues Vertex-Feld hinzufügen. |
+| addField(dataType, semantic, index, alias) | Ein neues Vertex-Feld hinzufügen |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| dataType | Number | VertexFieldDataType |
-| Semantik | VertexFieldSemantic | VertexFieldSemantic |
-| Index | Number | Der Index für dieselbe Feldsemantik, -1 für automatische Generierung |
-| Alias | String | Der Aliasname des Feldes |
+| dataType | Zahl | VertexFieldDataType |
+| semantic | VertexFieldSemantic | VertexFieldSemantic |
+| index | Zahl | Der Index für das gleiche Feldsemantic, -1 für automatische Erzeugung |
+| alias | String | Der Alias-Name des Feldes |
 
  **Result:**
 
@@ -117,14 +117,14 @@ Die Deklaration der Struktur eines benutzerdefinierten Vertex.
 
 | Name | Beschreibung |
 | --- | --- |
-| fromGeometry(geometry, useFloat) | Erstellt eine VertexDeclaration basierend auf dem Layout einer Geometry. |
+| fromGeometry(geometry, useFloat) | Erstelle eine VertexDeclaration basierend auf dem Layout einer Geometry. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Geometrie | Geometry | null |
-| useFloat | boolean | Verwenden Sie float anstelle des double-Typs |
+| geometr | Geometry | null |
+| useFloat | boolean | Verwende float anstelle des double-Typs |
 
  **Result:**
 VertexDeclaration
@@ -166,7 +166,7 @@ String
 | hashCode() |  |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -179,7 +179,7 @@ Number
 | equals(obj) | Bestimmt, ob diese Instanz und ein angegebenes Objekt, das ebenfalls ein VertexDeclaration-Objekt sein muss, denselben Wert haben. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -189,10 +189,10 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| iterator() | Für den internen Gebrauch reserviert. |
+| iterator() | Für die interne Verwendung reserviert. |
 
  **Result:**
-Number
+Zahl
 
 
 ---

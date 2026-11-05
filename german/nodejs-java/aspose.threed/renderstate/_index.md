@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/renderstate/
 ---
 ## RenderState class
 
-Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich nicht auf die erstellten Pipeline‑Instanzen aus.
+Renderzustand zum Aufbau der Pipeline  Änderungen am Renderzustand wirken sich nicht auf die erstellten Pipeline-Instanzen aus.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getBlend() | Aktivieren oder deaktivieren Sie das Fragment‑Blending. |
+| getBlend() | Aktivieren oder deaktivieren Sie die Fragment-Mischung. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| setBlend(value) | Aktivieren oder deaktivieren Sie das Fragment‑Blending. |
+| setBlend(value) | Aktivieren oder deaktivieren Sie die Fragment-Mischung. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getBlendColor() | Liest oder setzt die Mischfarbe, wo sie in BlendFactor.CONSTANT_COLOR verwendet wird |
+| getBlendColor() | Liest oder setzt die Mischfarbe, die in BlendFactor.CONSTANT_COLOR verwendet wird. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| setBlendColor(value) | Liest oder setzt die Mischfarbe, wo sie in BlendFactor.CONSTANT_COLOR verwendet wird |
+| setBlendColor(value) | Liest oder setzt die Mischfarbe, die in BlendFactor.CONSTANT_COLOR verwendet wird. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getCullFace() | Aktivieren oder deaktivieren Sie das Cull‑Face |
+| getCullFace() | Cull Face aktivieren oder deaktivieren |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| setCullFace(value) | Aktivieren oder deaktivieren Sie das Cull‑Face |
+| setCullFace(value) | Cull Face aktivieren oder deaktivieren |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getCullFaceMode() | Liest oder setzt, welche Seite verworfen wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante CullFaceMode. |
+| getCullFaceMode() | Liest oder setzt, welche Seite verworfen wird. Der Wert der Eigenschaft ist eine CullFaceMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| setCullFaceMode(value) | Liest oder setzt, welche Seite verworfen wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante CullFaceMode. |
+| setCullFaceMode(value) | Liest oder setzt, welche Seite verworfen wird. Der Wert der Eigenschaft ist eine CullFaceMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getFrontFace() | Liest oder setzt, welche Reihenfolge die Vorderseite hat. Der Wert der Eigenschaft ist die Ganzzahlkonstante FrontFace. |
+| getFrontFace() | Liest oder setzt, welche Reihenfolge die Vorderseite hat. Der Wert der Eigenschaft ist eine FrontFace-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| setFrontFace(value) | Liest oder setzt, welche Reihenfolge die Vorderseite hat. Der Wert der Eigenschaft ist die Ganzzahlkonstante FrontFace. |
+| setFrontFace(value) | Liest oder setzt, welche Reihenfolge die Vorderseite hat. Der Wert der Eigenschaft ist eine FrontFace-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getStencilTest() | Aktivieren oder deaktivieren Sie den Stencil‑Test. |
+| getStencilTest() | Aktivieren oder deaktivieren Sie den Stencil-Test. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| setStencilTest(value) | Aktivieren oder deaktivieren Sie den Stencil‑Test. |
+| setStencilTest(value) | Aktivieren oder deaktivieren Sie den Stencil-Test. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getStencilMask() | Liest oder setzt die Maske, die beim Test mit sowohl dem Referenz- als auch dem gespeicherten Stencil-Wert UND-verknüpft wird. |
+| getStencilMask() | Liest oder setzt die Maske, die sowohl mit dem Referenzwert als auch mit dem gespeicherten Stencil-Wert UND-verknüpft wird, wenn der Test abgeschlossen ist. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getStencilFrontFace() | Liefert den Stencil‑Zustand für die Vorderseite. |
+| getStencilFrontFace() | Liest den Stencil-Zustand für die Vorderseite. |
 
  **Result:**
 
@@ -368,7 +368,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getStencilBackFace() | Liefert den Stencil‑Zustand für die Rückseite. |
+| getStencilBackFace() | Liest den Stencil-Zustand für die Rückseite. |
 
  **Result:**
 
@@ -381,7 +381,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| getScissorTest() | Aktivieren oder deaktivieren Sie den Scheren‑Test. |
+| getScissorTest() | Aktivieren oder deaktivieren Sie den Scissor-Test. |
 
  **Result:**
 
@@ -394,7 +394,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| setScissorTest(value) | Aktivieren oder deaktivieren Sie den Scheren‑Test. |
+| setScissorTest(value) | Aktivieren oder deaktivieren Sie den Scissor-Test. |
 
  **Result:**
 
@@ -433,7 +433,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| equals(obj) | Gibt einen Wert zurück, der angibt, ob diese Instanz einem angegebenen Objekt gleich ist. |
+| equals(obj) | Gibt einen Wert zurück, der angibt, ob diese Instanz einem angegebenen Objekt entspricht. |
 
  **Result:**
 
@@ -459,7 +459,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 
 | Name | Beschreibung |
 | --- | --- |
-| compareTo(other) | Vergleichen Sie den Renderzustand mit einer anderen Instanz |
+| compareTo(other) | Vergleiche den Renderzustand mit einer anderen Instanz |
 
  **Parameters:**
 
@@ -468,7 +468,7 @@ Renderzustand zum Aufbau der Pipeline. Änderungen am Renderzustand wirken sich 
 | othe | RenderState | null |
 
  **Result:**
-Number
+Zahl
 
 
 ---

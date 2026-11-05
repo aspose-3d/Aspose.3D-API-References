@@ -17,7 +17,7 @@ Adobes Portable Document Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getVersion() | Ermittelt die Dateiformatversion |
+| getVersion() | Gibt die Dateiformatversion zurück |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Adobes Portable Document Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtension() | Ermittelt den Erweiterungsnamen dieses Typs. |
+| getExtension() | Gibt den Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Adobes Portable Document Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtensions() | Ermittelt die Erweiterungsnamen dieses Typs. |
+| getExtensions() | Gibt die Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Adobes Portable Document Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormatType() | Ermittelt den Dateiformattyp |
+| getFileFormatType() | Liest den Dateiformattyp |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Adobes Portable Document Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| extract(fileName, password) | Roh‑3D‑Inhalt aus PDF‑Datei extrahieren. |
+| extract(fileName, password) | Extrahiere rohen 3D-Inhalt aus PDF-Datei. |
 
  **Parameters:**
 
@@ -102,7 +102,7 @@ Adobes Portable Document Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| extractScene(fileName) | 3D‑Szenen aus PDF‑Datei extrahieren. |
+| extractScene(fileName) | Extrahiere 3D-Szenen aus PDF-Datei. |
 
  **Parameters:**
 
@@ -121,7 +121,7 @@ Adobes Portable Document Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| extractScene(fileName, password) | 3D‑Szenen aus PDF‑Datei extrahieren. |
+| extractScene(fileName, password) | Extrahiere 3D-Szenen aus PDF-Datei. |
 
  **Parameters:**
 
@@ -141,7 +141,7 @@ Adobes Portable Document Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| createLoadOptions() | Standard-Ladeoptionen für dieses Dateiformat erstellen |
+| createLoadOptions() | Erstellt Standard-Ladeoptionen für dieses Dateiformat |
 
  **Result:**
 LoadOptions
@@ -154,7 +154,7 @@ LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| createSaveOptions() | Standard-Speicheroptionen für dieses Dateiformat erstellen |
+| createSaveOptions() | Erstellt Standard-Speicheroptionen für dieses Dateiformat |
 
  **Result:**
 SaveOptions

@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/camera/
 ---
 ## Camera class
 
-Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
+Die Kamera beschreibt den Blickpunkt des Betrachters, der die Szene betrachtet.
 
 
 ## Methoden
@@ -55,7 +55,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
+| name | String | Name. |
 
  **Result:**
 
@@ -74,7 +74,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
+| name | String | Name. |
 | projectionType | ProjectionType | ProjectionType |
 
  **Result:**
@@ -114,7 +114,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFieldOfView() | Liest oder setzt das Sichtfeld der Kamera in Grad. Diese Eigenschaft wird nur verwendet, wenn ApertureMode gleich ApertureMode.HORIZONTAL oder ApertureMode.VERTICAL ist. |
+| getFieldOfView() | Liest oder setzt das Sichtfeld der Kamera in Grad, diese Eigenschaft wird nur verwendet, wenn ApertureMode ApertureMode.HORIZONTAL oder ApertureMode.VERTICAL ist. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFieldOfView(value) | Liest oder setzt das Sichtfeld der Kamera in Grad. Diese Eigenschaft wird nur verwendet, wenn ApertureMode gleich ApertureMode.HORIZONTAL oder ApertureMode.VERTICAL ist. |
+| setFieldOfView(value) | Liest oder setzt das Sichtfeld der Kamera in Grad, diese Eigenschaft wird nur verwendet, wenn ApertureMode ApertureMode.HORIZONTAL oder ApertureMode.VERTICAL ist. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFieldOfViewX() | Liest oder setzt das horizontale Sichtfeld der Kamera in Grad. Diese Eigenschaft wird nur verwendet, wenn ApertureMode gleich ApertureMode.HORIZ_AND_VERT ist. |
+| getFieldOfViewX() | Liest oder setzt das horizontale Sichtfeld der Kamera in Grad, diese Eigenschaft wird nur verwendet, wenn ApertureMode ApertureMode.HORIZ_AND_VERT ist. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFieldOfViewX(value) | Liest oder setzt das horizontale Sichtfeld der Kamera in Grad. Diese Eigenschaft wird nur verwendet, wenn ApertureMode gleich ApertureMode.HORIZ_AND_VERT ist. |
+| setFieldOfViewX(value) | Liest oder setzt das horizontale Sichtfeld der Kamera in Grad, diese Eigenschaft wird nur verwendet, wenn ApertureMode ApertureMode.HORIZ_AND_VERT ist. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFieldOfViewY() | Liest oder setzt das vertikale Sichtfeld der Kamera in Grad, diese Eigenschaft wird nur verwendet, wenn ApertureMode gleich ApertureMode.HORIZ_AND_VERT ist. |
+| getFieldOfViewY() | Liest oder setzt das vertikale Sichtfeld der Kamera in Grad, diese Eigenschaft wird nur verwendet, wenn ApertureMode ApertureMode.HORIZ_AND_VERT ist. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFieldOfViewY(value) | Liest oder setzt das vertikale Sichtfeld der Kamera in Grad, diese Eigenschaft wird nur verwendet, wenn ApertureMode gleich ApertureMode.HORIZ_AND_VERT ist. |
+| setFieldOfViewY(value) | Liest oder setzt das vertikale Sichtfeld der Kamera in Grad, diese Eigenschaft wird nur verwendet, wenn ApertureMode ApertureMode.HORIZ_AND_VERT ist. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getWidth() | Liest oder setzt die Breite der Ansichtsebene, gemessen in Zoll. |
+| getWidth() | Liest oder setzt die Breite der Ansichtsebene in Zoll. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setWidth(value) | Liest oder setzt die Breite der Ansichtsebene, gemessen in Zoll. |
+| setWidth(value) | Liest oder setzt die Breite der Ansichtsebene in Zoll. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getHeight() | Liest oder setzt die Höhe der Ansichtsebene, gemessen in Zoll. |
+| getHeight() | Liest oder setzt die Höhe der Ansichtsebene in Zoll. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setHeight(value) | Liest oder setzt die Höhe der Ansichtsebene, gemessen in Zoll. |
+| setHeight(value) | Liest oder setzt die Höhe der Ansichtsebene in Zoll. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getProjectionType() | Liest oder setzt den Projektionstyp der Kamera. Standardmäßig wird die perspektivische Projektion verwendet. Der Wert der Eigenschaft ist die ganzzahlige Konstante ProjectionType. |
+| getProjectionType() | Liest oder setzt den Projektionstyp der Kamera. Standardmäßig wird die perspektivische Projektion verwendet. Der Wert der Eigenschaft ist die Ganzzahlkonstante ProjectionType. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setProjectionType(value) | Liest oder setzt den Projektionstyp der Kamera. Standardmäßig wird die perspektivische Projektion verwendet. Der Wert der Eigenschaft ist die ganzzahlige Konstante ProjectionType. |
+| setProjectionType(value) | Liest oder setzt den Projektionstyp der Kamera. Standardmäßig wird die perspektivische Projektion verwendet. Der Wert der Eigenschaft ist die Ganzzahlkonstante ProjectionType. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getRotationMode() | Liest oder setzt den Orientierungsmodus des Frustums. Diese Eigenschaft funktioniert nur, wenn das Target null ist. Wenn der Wert RotationMode.FIXED_TARGET ist, wird die Richtung immer über die Eigenschaft LookAt berechnet. Andernfalls wird LookAt immer über die Direction berechnet. Der Wert der Eigenschaft ist die Ganzzahlkonstante RotationMode. |
+| getRotationMode() | Liest oder setzt den Orientierungsmodus des Sichtvolumens. Diese Eigenschaft funktioniert nur, wenn das Target null ist. Wenn der Wert RotationMode.FIXED_TARGET ist, wird die Richtung immer über die Eigenschaft LookAt berechnet. Andernfalls wird LookAt immer über die Direction berechnet. Der Wert der Eigenschaft ist die ganzzahlige Konstante RotationMode. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setRotationMode(value) | Liest oder setzt den Orientierungsmodus des Frustums. Diese Eigenschaft funktioniert nur, wenn das Target null ist. Wenn der Wert RotationMode.FIXED_TARGET ist, wird die Richtung immer über die Eigenschaft LookAt berechnet. Andernfalls wird LookAt immer über die Direction berechnet. Der Wert der Eigenschaft ist die Ganzzahlkonstante RotationMode. |
+| setRotationMode(value) | Liest oder setzt den Orientierungsmodus des Sichtvolumens. Diese Eigenschaft funktioniert nur, wenn das Target null ist. Wenn der Wert RotationMode.FIXED_TARGET ist, wird die Richtung immer über die Eigenschaft LookAt berechnet. Andernfalls wird LookAt immer über die Direction berechnet. Der Wert der Eigenschaft ist die ganzzahlige Konstante RotationMode. |
 
  **Result:**
 
@@ -348,7 +348,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getNearPlane() | Liest oder setzt den Abstand der Nah-Ebene des Frustums. |
+| getNearPlane() | Liest oder setzt den Abstand der nahen Ebene des Sichtvolumens. |
 
  **Result:**
 
@@ -361,7 +361,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setNearPlane(value) | Liest oder setzt den Abstand der Nah-Ebene des Frustums. |
+| setNearPlane(value) | Liest oder setzt den Abstand der nahen Ebene des Sichtvolumens. |
 
  **Result:**
 
@@ -374,7 +374,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFarPlane() | Liest oder setzt den Abstand der Fern-Ebene des Frustums. |
+| getFarPlane() | Liest oder setzt den Abstand der fernen Ebene des Sichtvolumens. |
 
  **Result:**
 
@@ -387,7 +387,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFarPlane(value) | Liest oder setzt den Abstand der Fern-Ebene des Frustums. |
+| setFarPlane(value) | Liest oder setzt den Abstand der fernen Ebene des Sichtvolumens. |
 
  **Result:**
 
@@ -426,7 +426,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getOrthoHeight() | Liest oder setzt die Höhe, wenn der Frustum in orthografischer Projektion ist. |
+| getOrthoHeight() | Liest oder setzt die Höhe, wenn das Frustum in orthografischer Projektion ist. |
 
  **Result:**
 
@@ -439,7 +439,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setOrthoHeight(value) | Liest oder setzt die Höhe, wenn der Frustum in orthografischer Projektion ist. |
+| setOrthoHeight(value) | Liest oder setzt die Höhe, wenn das Frustum in orthografischer Projektion ist. |
 
  **Result:**
 
@@ -530,7 +530,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getTarget() | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der LookAt‑Eigenschaft liegen. |
+| getTarget() | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der LookAt-Eigenschaft liegen. |
 
  **Result:**
 
@@ -543,7 +543,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setTarget(value) | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der LookAt‑Eigenschaft liegen. |
+| setTarget(value) | Liest oder setzt das Ziel, auf das die Kamera blickt. Wenn der Benutzer diese Eigenschaft unterstützt, sollte sie vor der LookAt-Eigenschaft liegen. |
 
  **Result:**
 
@@ -556,7 +556,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -569,7 +569,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -582,7 +582,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -595,7 +595,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -608,7 +608,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -621,7 +621,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -634,7 +634,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -647,7 +647,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -660,7 +660,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -673,13 +673,13 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| moveForward(distance) | Bewege die Kamera vorwärts in Richtung ihrer Ausrichtung oder ihres Ziels. |
+| moveForward(distance) | Bewegt die Kamera nach vorne in Richtung ihrer Ausrichtung oder des Ziels. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Entfernung | Number | Wie lange vorwärts bewegt werden soll |
+| Entfernung | Zahl | Wie lange nach vorne bewegen |
 
  **Result:**
 
@@ -692,7 +692,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 
@@ -705,7 +705,7 @@ Die Kamera beschreibt den Augenpunkt des Betrachters, der die Szene betrachtet.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -724,7 +724,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -737,7 +737,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -756,7 +756,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -765,7 +765,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -782,10 +782,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -795,7 +795,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -804,7 +804,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

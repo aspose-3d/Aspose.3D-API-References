@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/texturebase/
 ---
 ## TextureBase class
 
-Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen und das Gefühl einer Geometrie-Oberfläche.
+Basisklasse für alle konkreten Texturen.  Texture definiert das Aussehen und das Gefühl einer Geometrieoberfläche.
 
 
 ## Methoden
@@ -23,7 +23,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
+| name | String | Name. |
 
  **Result:**
 
@@ -36,7 +36,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getAlpha() | Liest oder legt den Standard-Alpha-Wert der Textur fest. Dieser ist gültig, wenn die AlphaSource AlphaSource.PIXEL_ALPHA ist. Standardwert ist 1,0, gültiger Wertebereich liegt zwischen 0 und 1. |
+| getAlpha() | Liest oder setzt den Standard-Alpha-Wert der Textur. Dies ist gültig, wenn die AlphaSource AlphaSource.PIXEL_ALPHA ist. Der Standardwert ist 1.0, der gültige Wertebereich liegt zwischen 0 und 1. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setAlpha(value) | Liest oder legt den Standard-Alpha-Wert der Textur fest. Dieser ist gültig, wenn die AlphaSource AlphaSource.PIXEL_ALPHA ist. Standardwert ist 1,0, gültiger Wertebereich liegt zwischen 0 und 1. |
+| setAlpha(value) | Liest oder setzt den Standard-Alpha-Wert der Textur. Dies ist gültig, wenn die AlphaSource AlphaSource.PIXEL_ALPHA ist. Der Standardwert ist 1.0, der gültige Wertebereich liegt zwischen 0 und 1. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getAlphaSource() | Liest oder legt fest, ob die Textur den Alpha-Kanal definiert. Standardwert ist AlphaSource.NONE. Der Wert der Eigenschaft ist eine AlphaSource-Ganzzahlkonstante. |
+| getAlphaSource() | Liest oder setzt, ob die Textur den Alpha-Kanal definiert. Standardwert ist AlphaSource.NONE. Der Wert der Eigenschaft ist eine AlphaSource-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setAlphaSource(value) | Liest oder legt fest, ob die Textur den Alpha-Kanal definiert. Standardwert ist AlphaSource.NONE. Der Wert der Eigenschaft ist eine AlphaSource-Ganzzahlkonstante. |
+| setAlphaSource(value) | Liest oder setzt, ob die Textur den Alpha-Kanal definiert. Standardwert ist AlphaSource.NONE. Der Wert der Eigenschaft ist eine AlphaSource-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getWrapModeU() | Liest oder legt die Textur-Wrap-Modi in U fest. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
+| getWrapModeU() | Liest oder setzt die Textur-Wrap-Modi in U. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setWrapModeU(value) | Liest oder legt die Textur-Wrap-Modi in U fest. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
+| setWrapModeU(value) | Liest oder setzt die Textur-Wrap-Modi in U. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getWrapModeV() | Liest oder legt die Textur-Wrap-Modi in V fest. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
+| getWrapModeV() | Liest oder setzt die Textur-Wrap-Modi in V. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setWrapModeV(value) | Liest oder legt die Textur-Wrap-Modi in V fest. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
+| setWrapModeV(value) | Liest oder setzt die Textur-Wrap-Modi in V. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getWrapModeW() | Liest oder setzt die Textur-Wrap-Modi in W. Der Wert der Eigenschaft ist die Ganzzahlkonstante WrapMode. |
+| getWrapModeW() | Liest oder setzt die Textur-Wrap-Modi in W. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setWrapModeW(value) | Liest oder setzt die Textur-Wrap-Modi in W. Der Wert der Eigenschaft ist die Ganzzahlkonstante WrapMode. |
+| setWrapModeW(value) | Liest oder setzt die Textur-Wrap-Modi in W. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getMinFilter() | Liest oder setzt den Filter für die Verkleinerung. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| getMinFilter() | Liest oder setzt den Filter für die Verkleinerung. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setMinFilter(value) | Liest oder setzt den Filter für die Verkleinerung. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| setMinFilter(value) | Liest oder setzt den Filter für die Verkleinerung. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getMagFilter() | Liest oder setzt den Filter für die Vergrößerung. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| getMagFilter() | Liest oder setzt den Filter für die Vergrößerung. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setMagFilter(value) | Liest oder setzt den Filter für die Vergrößerung. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| setMagFilter(value) | Liest oder setzt den Filter für die Vergrößerung. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getMipFilter() | Liest oder setzt den Filter für das Mip-Level-Sampling. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| getMipFilter() | Liest oder setzt den Filter für das Mip-Level-Sampling. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setMipFilter(value) | Liest oder setzt den Filter für das Mip-Level-Sampling. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| setMipFilter(value) | Liest oder setzt den Filter für das Mip-Level-Sampling. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getUVTranslation() | Liest oder setzt die UV-Translation. Die UV-Translation. |
+| getUVTranslation() | Liest oder setzt die UV-Übersetzung. Die UV-Übersetzung. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setUVTranslation(value) | Liest oder setzt die UV-Translation. Die UV-Translation. |
+| setUVTranslation(value) | Liest oder setzt die UV-Übersetzung. Die UV-Übersetzung. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -348,7 +348,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -361,14 +361,14 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setTranslation(u, v) | Legt die UV‑Translation fest. |
+| setTranslation(u, v) | Setzt die UV-Übersetzung. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Zahl | U. |
+| v | Zahl | V. |
 
  **Result:**
 
@@ -381,14 +381,14 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setScale(u, v) | Legt die UV‑Skalierung fest. |
+| setScale(u, v) | Setzt die UV-Skala. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Zahl | U. |
+| v | Zahl | V. |
 
  **Result:**
 
@@ -401,14 +401,14 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Beschreibung |
 | --- | --- |
-| setRotation(u, v) | Legt die UV‑Rotation fest. |
+| setRotation(u, v) | Setzt die UV-Drehung. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Zahl | U. |
+| v | Zahl | V. |
 
  **Result:**
 
@@ -427,7 +427,7 @@ Basisklasse für alle konkreten Texturen.  **Texture** definiert das Aussehen un
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -440,7 +440,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -459,7 +459,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -468,7 +468,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -485,10 +485,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -498,7 +498,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -507,7 +507,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

@@ -8,30 +8,30 @@ url: /de/nodejs-java/aspose.threed/fmatrix4/
 ---
 ## FMatrix4 class
 
-4x4-Matrix mit allen Komponenten vom Typ float.
+4x4-Matrix mit allen Komponenten im Fließkomma-Typ
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| m00 | Das m00. |
-| m01 | Das m01. |
-| m02 | Das m02. |
-| m03 | Das m03. |
-| m10 | Das m10. |
-| m11 | Das m11. |
-| m12 | Das m12. |
-| m13 | Das m13. |
-| m20 | Das m20. |
-| m21 | Das m21. |
-| m22 | Das m22. |
-| m23 | Das m23. |
-| m30 | Das m30. |
-| m31 | Das m31. |
-| m32 | Das m32. |
-| m33 | Das m33. |
-| IDENTITY | Die Einheitsmatrix |
+| m00 | Der m00. |
+| m01 | Der m01. |
+| m02 | Der m02. |
+| m03 | Der m03. |
+| m10 | Der m10. |
+| m11 | Der m11. |
+| m12 | Der m12. |
+| m13 | Der m13. |
+| m20 | Die m20. |
+| m21 | Die m21. |
+| m22 | Die m22. |
+| m23 | Die m23. |
+| m30 | Die m30. |
+| m31 | Die m31. |
+| m32 | Die m32. |
+| m33 | Die m33. |
+| IDENTITY | Die Identitätsmatrix |
 
 ## Methoden
 
@@ -58,22 +58,22 @@ url: /de/nodejs-java/aspose.threed/fmatrix4/
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| m0 | Number | null |
-| m0 | Number | null |
-| m0 | Number | null |
-| m0 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
+| m0 | Zahl | null |
+| m0 | Zahl | null |
+| m0 | Zahl | null |
+| m0 | Zahl | null |
+| m1 | Zahl | null |
+| m1 | Zahl | null |
+| m1 | Zahl | null |
+| m1 | Zahl | null |
+| m2 | Zahl | null |
+| m2 | Zahl | null |
+| m2 | Zahl | null |
+| m2 | Zahl | null |
+| m3 | Zahl | null |
+| m3 | Zahl | null |
+| m3 | Zahl | null |
+| m3 | Zahl | null |
 
  **Result:**
 
@@ -105,7 +105,7 @@ url: /de/nodejs-java/aspose.threed/fmatrix4/
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload3(r0, r1, r2, r3) | Konstruiert die Matrix aus 4 Zeilen. |
+| constructor_overload3(r0, r1, r2, r3) | Konstruiert eine Matrix aus 4 Zeilen. |
 
  **Parameters:**
 

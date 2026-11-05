@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/dracoformat/
 ---
 ## DracoFormat class
 
-Google‑Draco‑Format  @hideconstructor
+Google Draco-Format  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Google‑Draco‑Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getVersion() | Ermittelt die Dateiformatversion |
+| getVersion() | Gibt die Dateiformatversion zurück |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Google‑Draco‑Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtension() | Ermittelt den Erweiterungsnamen dieses Typs. |
+| getExtension() | Gibt den Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Google‑Draco‑Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtensions() | Ermittelt die Erweiterungsnamen dieses Typs. |
+| getExtensions() | Gibt die Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Google‑Draco‑Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormatType() | Ermittelt den Dateiformattyp |
+| getFileFormatType() | Liest den Dateiformattyp |
 
  **Result:**
 
@@ -82,13 +82,13 @@ Google‑Draco‑Format  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| decode(fileName) | Dekodieren Sie die Punktwolke oder das Mesh aus dem angegebenen Dateinamen. |
+| decode(fileName) | Dekodiere die Punktwolke oder das Mesh aus dem angegebenen Dateinamen |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| fileName | String | Der Dateiname enthält die drc‑Datei. |
+| fileName | String | Der Dateiname enthält die drc-Datei |
 
  **Result:**
 Geometry
@@ -101,13 +101,13 @@ Geometry
 
 | Name | Beschreibung |
 | --- | --- |
-| decode(data) | Dekodieren Sie die Punktwolke oder das Mesh aus dem Speicherinhalt. |
+| decode(data) | Dekodiere die Punktwolke oder das Mesh aus den Speicherdaten |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | byte[] | Die rohen drc‑Bytes |
+| Daten | byte[] | Die rohen drc-Bytes |
 
  **Result:**
 Geometry
@@ -120,15 +120,15 @@ Geometry
 
 | Name | Beschreibung |
 | --- | --- |
-| encode(entity, fileName, options) | Kodieren Sie das Objekt in die angegebene Datei. |
+| encode(entity, fileName, options) | Kodieren Sie die Entität in die angegebene Datei |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Entität | Entity | Das zu kodierende Objekt. |
-| fileName | String | Der zu schreibende Dateiname. |
-| options | DracoSaveOptions | Zusätzliche Optionen für die Kodierung der Punktwolke. |
+| Entität | Entität | Die zu kodierende Entität |
+| fileName | String | Der zu schreibende Dateiname |
+| Optionen | DracoSaveOptions | Zusätzliche Optionen zum Kodieren der Punktwolke |
 
  **Result:**
 Geometry
@@ -141,14 +141,14 @@ Geometry
 
 | Name | Beschreibung |
 | --- | --- |
-| encode(entity, options) | Kodieren Sie das Objekt in rohe Draco‑Daten. |
+| encode(entity, options) | Kodieren Sie die Entität in rohe Draco-Daten |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Entität | Entity | Das zu kodierende Objekt. |
-| options | DracoSaveOptions | Zusätzliche Optionen für die Kodierung der Punktwolke. |
+| Entität | Entität | Die zu kodierende Entität |
+| Optionen | DracoSaveOptions | Zusätzliche Optionen zum Kodieren der Punktwolke |
 
  **Result:**
 byte[]
@@ -161,7 +161,7 @@ byte[]
 
 | Name | Beschreibung |
 | --- | --- |
-| createLoadOptions() | Standard-Ladeoptionen für dieses Dateiformat erstellen |
+| createLoadOptions() | Erstellt Standard-Ladeoptionen für dieses Dateiformat |
 
  **Result:**
 LoadOptions
@@ -174,7 +174,7 @@ LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| createSaveOptions() | Standard-Speicheroptionen für dieses Dateiformat erstellen |
+| createSaveOptions() | Erstellt Standard-Speicheroptionen für dieses Dateiformat |
 
  **Result:**
 SaveOptions

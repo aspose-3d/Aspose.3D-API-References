@@ -17,7 +17,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiert eine neue Instanz der Texture-Klasse. |
+| constructor() | Initialisiert eine neue Instanz der Textur-Klasse. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(name) | Initialisiert eine neue Instanz der Texture-Klasse. |
+| constructor_overload(name) | Initialisiert eine neue Instanz der Textur-Klasse. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name |
+| name | String | Name |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEnableMipMap() | Liest oder legt fest, ob das Mipmap für diese Textur aktiviert ist. |
+| getEnableMipMap() | Liest oder setzt, ob das Mipmap für diese Textur aktiviert ist |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setEnableMipMap(value) | Liest oder legt fest, ob das Mipmap für diese Textur aktiviert ist. |
+| setEnableMipMap(value) | Liest oder setzt, ob das Mipmap für diese Textur aktiviert ist |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getContent() | Liest oder legt den binären Inhalt der Textur fest. Der eingebettete Texturinhalt ist optional, der Benutzer sollte die Textur aus einer externen Datei laden, wenn dieser fehlt. |
+| getContent() | Liest oder setzt den binären Inhalt der Textur. Der eingebettete Texturinhalt ist optional, der Benutzer sollte die Textur aus einer externen Datei laden, falls dieser fehlt. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setContent(value) | Liest oder legt den binären Inhalt der Textur fest. Der eingebettete Texturinhalt ist optional, der Benutzer sollte die Textur aus einer externen Datei laden, wenn dieser fehlt. |
+| setContent(value) | Liest oder setzt den binären Inhalt der Textur. Der eingebettete Texturinhalt ist optional, der Benutzer sollte die Textur aus einer externen Datei laden, falls dieser fehlt. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileName() | Liest oder legt die zugehörige Texturdatei fest. Der Name der Datei. |
+| getFileName() | Liest oder setzt die zugehörige Texturdatei. Der Name der Datei. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileName(value) | Liest oder legt die zugehörige Texturdatei fest. Der Name der Datei. |
+| setFileName(value) | Liest oder setzt die zugehörige Texturdatei. Der Name der Datei. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getAlpha() | Liest oder legt den Standard-Alpha-Wert der Textur fest. Dieser ist gültig, wenn die AlphaSource AlphaSource.PIXEL_ALPHA ist. Standardwert ist 1,0, gültiger Wertebereich liegt zwischen 0 und 1. |
+| getAlpha() | Liest oder setzt den Standard-Alpha-Wert der Textur. Dies ist gültig, wenn die AlphaSource AlphaSource.PIXEL_ALPHA ist. Der Standardwert ist 1.0, der gültige Wertebereich liegt zwischen 0 und 1. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setAlpha(value) | Liest oder legt den Standard-Alpha-Wert der Textur fest. Dieser ist gültig, wenn die AlphaSource AlphaSource.PIXEL_ALPHA ist. Standardwert ist 1,0, gültiger Wertebereich liegt zwischen 0 und 1. |
+| setAlpha(value) | Liest oder setzt den Standard-Alpha-Wert der Textur. Dies ist gültig, wenn die AlphaSource AlphaSource.PIXEL_ALPHA ist. Der Standardwert ist 1.0, der gültige Wertebereich liegt zwischen 0 und 1. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getAlphaSource() | Liest oder legt fest, ob die Textur den Alpha-Kanal definiert. Standardwert ist AlphaSource.NONE. Der Wert der Eigenschaft ist eine AlphaSource-Ganzzahlkonstante. |
+| getAlphaSource() | Liest oder setzt, ob die Textur den Alpha-Kanal definiert. Standardwert ist AlphaSource.NONE. Der Wert der Eigenschaft ist eine AlphaSource-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setAlphaSource(value) | Liest oder legt fest, ob die Textur den Alpha-Kanal definiert. Standardwert ist AlphaSource.NONE. Der Wert der Eigenschaft ist eine AlphaSource-Ganzzahlkonstante. |
+| setAlphaSource(value) | Liest oder setzt, ob die Textur den Alpha-Kanal definiert. Standardwert ist AlphaSource.NONE. Der Wert der Eigenschaft ist eine AlphaSource-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getWrapModeU() | Liest oder legt die Textur-Wrap-Modi in U fest. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
+| getWrapModeU() | Liest oder setzt die Textur-Wrap-Modi in U. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setWrapModeU(value) | Liest oder legt die Textur-Wrap-Modi in U fest. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
+| setWrapModeU(value) | Liest oder setzt die Textur-Wrap-Modi in U. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getWrapModeV() | Liest oder legt die Textur-Wrap-Modi in V fest. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
+| getWrapModeV() | Liest oder setzt die Textur-Wrap-Modi in V. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setWrapModeV(value) | Liest oder legt die Textur-Wrap-Modi in V fest. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
+| setWrapModeV(value) | Liest oder setzt die Textur-Wrap-Modi in V. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getWrapModeW() | Liest oder setzt die Textur-Wrap-Modi in W. Der Wert der Eigenschaft ist die Ganzzahlkonstante WrapMode. |
+| getWrapModeW() | Liest oder setzt die Textur-Wrap-Modi in W. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setWrapModeW(value) | Liest oder setzt die Textur-Wrap-Modi in W. Der Wert der Eigenschaft ist die Ganzzahlkonstante WrapMode. |
+| setWrapModeW(value) | Liest oder setzt die Textur-Wrap-Modi in W. Der Wert der Eigenschaft ist eine WrapMode-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getMinFilter() | Liest oder setzt den Filter für die Verkleinerung. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| getMinFilter() | Liest oder setzt den Filter für die Verkleinerung. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setMinFilter(value) | Liest oder setzt den Filter für die Verkleinerung. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| setMinFilter(value) | Liest oder setzt den Filter für die Verkleinerung. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getMagFilter() | Liest oder setzt den Filter für die Vergrößerung. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| getMagFilter() | Liest oder setzt den Filter für die Vergrößerung. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setMagFilter(value) | Liest oder setzt den Filter für die Vergrößerung. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| setMagFilter(value) | Liest oder setzt den Filter für die Vergrößerung. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getMipFilter() | Liest oder setzt den Filter für das Mip-Level-Sampling. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| getMipFilter() | Liest oder setzt den Filter für das Mip-Level-Sampling. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setMipFilter(value) | Liest oder setzt den Filter für das Mip-Level-Sampling. Der Wert der Eigenschaft ist die Ganzzahlkonstante TextureFilter. |
+| setMipFilter(value) | Liest oder setzt den Filter für das Mip-Level-Sampling. Der Wert der Eigenschaft ist eine TextureFilter-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -387,7 +387,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getUVTranslation() | Liest oder setzt die UV-Translation. Die UV-Translation. |
+| getUVTranslation() | Liest oder setzt die UV-Übersetzung. Die UV-Übersetzung. |
 
  **Result:**
 
@@ -400,7 +400,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setUVTranslation(value) | Liest oder setzt die UV-Translation. Die UV-Translation. |
+| setUVTranslation(value) | Liest oder setzt die UV-Übersetzung. Die UV-Übersetzung. |
 
  **Result:**
 
@@ -413,7 +413,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -426,7 +426,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -439,7 +439,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -452,14 +452,14 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setTranslation(u, v) | Legt die UV‑Translation fest. |
+| setTranslation(u, v) | Setzt die UV-Übersetzung. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Zahl | U. |
+| v | Zahl | V. |
 
  **Result:**
 
@@ -472,14 +472,14 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setScale(u, v) | Legt die UV‑Skalierung fest. |
+| setScale(u, v) | Setzt die UV-Skala. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Zahl | U. |
+| v | Zahl | V. |
 
  **Result:**
 
@@ -492,14 +492,14 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setRotation(u, v) | Legt die UV‑Rotation fest. |
+| setRotation(u, v) | Setzt die UV-Drehung. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Zahl | U. |
+| v | Zahl | V. |
 
  **Result:**
 
@@ -518,7 +518,7 @@ Diese Klasse definiert die Textur aus einer externen Datei.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -531,7 +531,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -550,7 +550,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -559,7 +559,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -576,10 +576,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -589,7 +589,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -598,7 +598,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

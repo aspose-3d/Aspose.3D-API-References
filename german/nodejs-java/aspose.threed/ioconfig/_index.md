@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/ioconfig/
 ---
 ## IOConfig class
 
-IO-Konfiguration für Serialisierung/Deserialisierung. Der Benutzer kann detaillierte Konfigurationen wie den Abhängigkeitsnachschlagepfad oder formatbezogene Einstellungen hier angeben  @hideconstructor
+IO-Konfiguration für Serialisierung/Deserialisierung.  Benutzer können detaillierte Konfigurationen wie den Pfad zur Abhängigkeitssuche oder formatbezogene Einstellungen hier angeben  @hideconstructor
 
 
 ## Methoden
@@ -43,7 +43,7 @@ IO-Konfiguration für Serialisierung/Deserialisierung. Der Benutzer kann detaill
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ IO-Konfiguration für Serialisierung/Deserialisierung. Der Benutzer kann detaill
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ IO-Konfiguration für Serialisierung/Deserialisierung. Der Benutzer kann detaill
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ IO-Konfiguration für Serialisierung/Deserialisierung. Der Benutzer kann detaill
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ IO-Konfiguration für Serialisierung/Deserialisierung. Der Benutzer kann detaill
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

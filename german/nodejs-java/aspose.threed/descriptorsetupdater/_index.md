@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/descriptorsetupdater/
 ---
 ## DescriptorSetUpdater class
 
-Diese Klasse ermöglicht das Aktualisieren des com.aspose.threed.IDescriptorSet in einer Kettenoperation.  @hideconstructor
+Diese Klasse ermöglicht das Aktualisieren von com.aspose.threed.IDescriptorSet in einer Kettenoperation.  @hideconstructor
 
 
 ## Methoden
@@ -17,15 +17,15 @@ Diese Klasse ermöglicht das Aktualisieren des com.aspose.threed.IDescriptorSet 
 
 | Name | Beschreibung |
 | --- | --- |
-| bind(buffer, offset, size) | Binde den Puffer an das aktuelle Deskriptorset |
+| bind(buffer, offset, size) | Binde den buffer an das aktuelle descriptor set |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Puffer | IBuffer | Welcher Puffer zu binden |
-| Versatz | Number | Versatz des zu bindenden Puffers |
-| Größe | Number | Größe des zu bindenden Puffers |
+| buffer | IBuffer | Welcher buffer soll gebunden werden |
+| offset | Zahl | Versatz des buffer zum Binden |
+| Größe | Zahl | Größe des buffer zum Binden |
 
  **Result:**
 DescriptorSetUpdater
@@ -38,7 +38,7 @@ DescriptorSetUpdater
 
 | Name | Beschreibung |
 | --- | --- |
-| bind(buffer) | Binde den gesamten Puffer an das aktuelle Deskriptorset |
+| bind(buffer) | Binde den gesamten buffer an das aktuelle descriptor |
 
  **Parameters:**
 
@@ -57,14 +57,14 @@ DescriptorSetUpdater
 
 | Name | Beschreibung |
 | --- | --- |
-| bind(binding, buffer) | Binde den Puffer an das aktuelle Deskriptorset an der angegebenen Bindungsposition. |
+| bind(binding, buffer) | Binde den buffer an das aktuelle descriptor set an der angegebenen binding location. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Bindung | Number | Bindungsort |
-| Puffer | IBuffer | Der gesamte zu bindende Puffer |
+| binding | Zahl | Binding location |
+| buffer | IBuffer | Der gesamte Puffer zum Binden |
 
  **Result:**
 DescriptorSetUpdater
@@ -77,16 +77,16 @@ DescriptorSetUpdater
 
 | Name | Beschreibung |
 | --- | --- |
-| bind(binding, buffer, offset, size) | Binde den Puffer an das aktuelle Deskriptorset an der angegebenen Bindungsposition. |
+| bind(binding, buffer, offset, size) | Binde den buffer an das aktuelle descriptor set an der angegebenen binding location. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Bindung | Number | Bindungsort |
-| Puffer | IBuffer | Der zu bindende Puffer |
-| Versatz | Number | Versatz des zu bindenden Puffers |
-| Größe | Number | Größe des zu bindenden Puffers |
+| binding | Zahl | Binding location |
+| buffer | IBuffer | Der Puffer zum Binden |
+| offset | Zahl | Versatz des buffer zum Binden |
+| Größe | Zahl | Größe des buffer zum Binden |
 
  **Result:**
 DescriptorSetUpdater
@@ -99,13 +99,13 @@ DescriptorSetUpdater
 
 | Name | Beschreibung |
 | --- | --- |
-| bind(texture) | Binde die Textureinheit an das aktuelle Deskriptorset |
+| bind(texture) | Binde die Textureinheit an den aktuellen Deskriptorsatz |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Textur | ITextureUnit | Die Textureinheit zu binden |
+| Textur | ITextureUnit | Die Textureinheit zum Binden |
 
  **Result:**
 DescriptorSetUpdater
@@ -118,14 +118,14 @@ DescriptorSetUpdater
 
 | Name | Beschreibung |
 | --- | --- |
-| bind(binding, texture) | Binde die Textureinheit an das aktuelle Deskriptorset |
+| bind(binding, texture) | Binde die Textureinheit an den aktuellen Deskriptorsatz |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Bindung | Number | Der Bindungsort |
-| Textur | ITextureUnit | Die Textureinheit zu binden |
+| binding | Zahl | Der Bindungsort |
+| Textur | ITextureUnit | Die Textureinheit zum Binden |
 
  **Result:**
 DescriptorSetUpdater

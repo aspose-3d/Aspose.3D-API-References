@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertexelementuserdata/
 ---
 ## VertexElementUserData class
 
-Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel handelt es sich um anwendungsspezifische Daten für besondere Zwecke.
+Definiert benutzerdefinierte Benutzerdaten für die angegebenen Komponenten.  In der Regel handelt es sich um anwendungsspezifische Daten für besondere Zwecke.
 
 
 ## Methoden
@@ -56,7 +56,7 @@ Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel ha
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexElementType() | Ermittelt den Typ des VertexElement. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
+| getVertexElementType() | Liest den Typ des VertexElements. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel ha
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel ha
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel ha
 
 | Name | Beschreibung |
 | --- | --- |
-| getMappingMode() | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| getMappingMode() | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel ha
 
 | Name | Beschreibung |
 | --- | --- |
-| setMappingMode(value) | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| setMappingMode(value) | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel ha
 
 | Name | Beschreibung |
 | --- | --- |
-| getIndices() | Ermittelt die Indexdaten. Das Index‑Array. |
+| getIndices() | Liest die Indexdaten. Das Index-Array. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel ha
 
 | Name | Beschreibung |
 | --- | --- |
-| clear() | Löscht alle Daten aus diesem VertexElement. |
+| clear() | Löscht alle Daten aus diesem Vertex-Element. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Definiert benutzerdefinierte Daten für angegebene Komponenten.  In der Regel ha
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | Number[] | null |
+| dat | Number[] | null |
 
  **Result:**
 

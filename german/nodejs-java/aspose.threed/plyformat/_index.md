@@ -17,7 +17,7 @@ Das PLY-Format.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getVersion() | Ermittelt die Dateiformatversion |
+| getVersion() | Gibt die Dateiformatversion zurück |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Das PLY-Format.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtension() | Ermittelt den Erweiterungsnamen dieses Typs. |
+| getExtension() | Gibt den Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Das PLY-Format.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtensions() | Ermittelt die Erweiterungsnamen dieses Typs. |
+| getExtensions() | Gibt die Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Das PLY-Format.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormatType() | Ermittelt den Dateiformattyp |
+| getFileFormatType() | Liest den Dateiformattyp |
 
  **Result:**
 
@@ -82,13 +82,13 @@ Das PLY-Format.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| encode(entity, fileName) | Kodieren Sie die Entität und speichern Sie das Ergebnis in einer externen Datei. |
+| encode(entity, fileName) | Kodiert das Entity und speichert das Ergebnis in einer externen Datei. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Entität | Entity | Die zu kodierende Entität |
+| Entität | Entität | Das zu kodierende Entity. |
 | fileName | String | Die Datei, in die geschrieben werden soll |
 
  **Result:**
@@ -102,13 +102,13 @@ Das PLY-Format.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| encode(entity, fileName, opt) | Kodieren Sie die Entität und speichern Sie das Ergebnis in einer externen Datei. |
+| encode(entity, fileName, opt) | Kodiert das Entity und speichert das Ergebnis in einer externen Datei. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Entität | Entity | Die zu kodierende Entität |
+| Entität | Entität | Das zu kodierende Entity. |
 | fileName | String | Die Datei, in die geschrieben werden soll |
 | opt | PlySaveOptions | Speicheroptionen |
 
@@ -162,7 +162,7 @@ Geometry
 
 | Name | Beschreibung |
 | --- | --- |
-| createLoadOptions() | Standard-Ladeoptionen für dieses Dateiformat erstellen |
+| createLoadOptions() | Erstellt Standard-Ladeoptionen für dieses Dateiformat |
 
  **Result:**
 LoadOptions
@@ -175,7 +175,7 @@ LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| createSaveOptions() | Standard-Speicheroptionen für dieses Dateiformat erstellen |
+| createSaveOptions() | Erstellt Standard-Speicheroptionen für dieses Dateiformat |
 
  **Result:**
 SaveOptions

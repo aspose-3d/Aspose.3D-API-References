@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertexfield/
 ---
 ## VertexField class
 
-Beschreibung des Speicherlayouts der Vertex-Felder.  @hideconstructor
+Beschreibung des Speicherlayouts des Vertex-Feldes.  @hideconstructor
 
 
 ## Methoden
@@ -56,7 +56,7 @@ Beschreibung des Speicherlayouts der Vertex-Felder.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getIndex() | Index dieses Feldes im Layout des Vertex mit gleicher Semantik. |
+| getIndex() | Index dieses Feldes im Layout des Vertex mit derselben Semantik. |
 
  **Result:**
 
@@ -98,7 +98,7 @@ Beschreibung des Speicherlayouts der Vertex-Felder.  @hideconstructor
 | hashCode() |  |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -111,7 +111,7 @@ Number
 | equals(obj) | Bestimmt, ob diese Instanz und ein angegebenes Objekt, das ebenfalls ein VertexField-Objekt sein muss, denselben Wert haben. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -124,7 +124,7 @@ Number
 | compareTo(other) | Vergleicht diese Instanz mit einem angegebenen Objekt und gibt einen Hinweis auf deren relative Werte zurück. |
 
  **Result:**
-Number
+Zahl
 
 
 ---

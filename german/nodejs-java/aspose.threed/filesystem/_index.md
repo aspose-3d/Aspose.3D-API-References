@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/filesystem/
 ---
 ## FileSystem class
 
-Dateisystemkapselung. Aspose.3D wird dies zum Lesen/Schreiben von Abhängigkeiten verwenden.  @hideconstructor
+Dateisystemkapselung.  Aspose.3D wird dies zum Lesen/Schreiben von Abhängigkeiten verwenden.  @hideconstructor
 
 
 ## Methoden
@@ -17,14 +17,14 @@ Dateisystemkapselung. Aspose.3D wird dies zum Lesen/Schreiben von Abhängigkeite
 
 | Name | Beschreibung |
 | --- | --- |
-| readFile(fileName, options) | Erstellen Sie einen Stream zum Lesen von Abhängigkeiten. |
+| readFile(fileName, options) | Erstellt einen Stream zum Lesen von Abhängigkeiten. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileNam | String | null |
-| Option | IOConfig | null |
+| option | IOConfig | null |
 
  **Result:**
 Stream
@@ -37,14 +37,14 @@ Stream
 
 | Name | Beschreibung |
 | --- | --- |
-| writeFile(fileName, options) | Erstellen Sie einen Stream zum Schreiben von Abhängigkeiten. |
+| writeFile(fileName, options) | Erstellt einen Stream zum Schreiben von Abhängigkeiten. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileNam | String | null |
-| Option | IOConfig | null |
+| option | IOConfig | null |
 
  **Result:**
 Stream

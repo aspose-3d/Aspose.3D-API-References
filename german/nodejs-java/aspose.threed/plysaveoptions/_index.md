@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/plysaveoptions/
 ---
 ## PlySaveOptions class
 
-Speicheroptionen für den Export der Szene als PLY-Datei.
+Speicheroptionen für den Export einer Szene als PLY-Datei.
 
 
 ## Methoden
@@ -49,7 +49,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getPointCloud() | Die Szene als Punktwolke exportieren, der Standardwert ist false. |
+| getPointCloud() | Exportiert die Szene als Punktwolke, der Standardwert ist false. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setPointCloud(value) | Die Szene als Punktwolke exportieren, der Standardwert ist false. |
+| setPointCloud(value) | Exportiert die Szene als Punktwolke, der Standardwert ist false. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlipCoordinate() | Koordinaten beim Speichern der Szene umkehren, Standardwert ist true |
+| getFlipCoordinate() | Kippt die Koordinate beim Speichern der Szene, der Standardwert ist true |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlipCoordinate(value) | Koordinaten beim Speichern der Szene umkehren, Standardwert ist true |
+| setFlipCoordinate(value) | Kippt die Koordinate beim Speichern der Szene, der Standardwert ist true |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexElement() | Der Elementname für die Vertexdaten, Standardwert ist "vertex" |
+| getVertexElement() | Der Elementname für die Vertex-Daten, der Standardwert ist "vertex" |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setVertexElement(value) | Der Elementname für die Vertexdaten, Standardwert ist "vertex" |
+| setVertexElement(value) | Der Elementname für die Vertex-Daten, der Standardwert ist "vertex" |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getPositionComponents() | Die Komponentenbezeichnungen für Positionsdaten, Standardwert ist ("x", "y", "z") |
+| getPositionComponents() | Die Komponentenbezeichnungen für Positionsdaten, der Standardwert ist ("x", "y", "z") |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getNormalComponents() | Die Komponentenbezeichnungen für Normaldaten, Standardwert ist ("nx", "ny", "nz") |
+| getNormalComponents() | Die Komponentenbezeichnungen für Normaldaten, der Standardwert ist ("nx", "ny", "nz") |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getTextureCoordinateComponents() | Die Komponentenbezeichnungen für Texturkoordinatendaten, Standardwert ist ("u", "v") |
+| getTextureCoordinateComponents() | Die Komponentenbezeichnungen für Texturkoordinatendaten, der Standardwert ist ("u", "v") |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getColorComponents() | Die Komponentenbezeichnungen für Vertex‑Farbe, Standardwert ist ("red", "green", "blue") |
+| getColorComponents() | Die Komponentenbezeichnungen für Vertex-Farbe, der Standardwert ist ("red", "green", "blue") |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFaceElement() | Der Elementname für die Flächendaten, Standardwert ist "face" |
+| getFaceElement() | Der Elementname für die Face-Daten, der Standardwert ist "face" |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFaceElement(value) | Der Elementname für die Flächendaten, Standardwert ist "face" |
+| setFaceElement(value) | Der Elementname für die Face-Daten, der Standardwert ist "face" |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Speicheroptionen für den Export der Szene als PLY-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

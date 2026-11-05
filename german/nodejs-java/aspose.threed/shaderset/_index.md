@@ -30,7 +30,7 @@ Shader-Programme für jede Art von Materialien
 
 | Name | Beschreibung |
 | --- | --- |
-| getLambert() | Liest oder setzt den Shader, der zum Rendern des Lambert‑Materials verwendet wird. |
+| getLambert() | Liest oder setzt den Shader, der zum Rendern des Lambert-Materials verwendet wird. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Shader-Programme für jede Art von Materialien
 
 | Name | Beschreibung |
 | --- | --- |
-| setLambert(value) | Liest oder setzt den Shader, der zum Rendern des Lambert‑Materials verwendet wird. |
+| setLambert(value) | Liest oder setzt den Shader, der zum Rendern des Lambert-Materials verwendet wird. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Shader-Programme für jede Art von Materialien
 
 | Name | Beschreibung |
 | --- | --- |
-| getPhong() | Liest oder setzt den Shader, der zum Rendern des Phong‑Materials verwendet wird. |
+| getPhong() | Liest oder setzt den Shader, der zum Rendern des Phong-Materials verwendet wird. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Shader-Programme für jede Art von Materialien
 
 | Name | Beschreibung |
 | --- | --- |
-| setPhong(value) | Liest oder setzt den Shader, der zum Rendern des Phong‑Materials verwendet wird. |
+| setPhong(value) | Liest oder setzt den Shader, der zum Rendern des Phong-Materials verwendet wird. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Shader-Programme für jede Art von Materialien
 
 | Name | Beschreibung |
 | --- | --- |
-| getPbr() | Liest oder setzt den Shader, der zum Rendern des PBR‑Materials verwendet wird. |
+| getPbr() | Liest oder setzt den Shader, der zum Rendern des PBR-Materials verwendet wird. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Shader-Programme für jede Art von Materialien
 
 | Name | Beschreibung |
 | --- | --- |
-| setPbr(value) | Liest oder setzt den Shader, der zum Rendern des PBR‑Materials verwendet wird. |
+| setPbr(value) | Liest oder setzt den Shader, der zum Rendern des PBR-Materials verwendet wird. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Shader-Programme für jede Art von Materialien
 
 | Name | Beschreibung |
 | --- | --- |
-| getFallback() | Liest oder setzt den Fallback‑Shader, wenn der benötigte Shader nicht verfügbar ist. |
+| getFallback() | Liest oder setzt den Fallback-Shader, wenn der erforderliche Shader nicht verfügbar ist |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Shader-Programme für jede Art von Materialien
 
 | Name | Beschreibung |
 | --- | --- |
-| setFallback(value) | Liest oder setzt den Fallback‑Shader, wenn der benötigte Shader nicht verfügbar ist. |
+| setFallback(value) | Liest oder setzt den Fallback-Shader, wenn der erforderliche Shader nicht verfügbar ist |
 
  **Result:**
 

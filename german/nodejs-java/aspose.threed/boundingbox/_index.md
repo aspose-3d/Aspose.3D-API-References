@@ -8,10 +8,10 @@ url: /de/nodejs-java/aspose.threed/boundingbox/
 ---
 ## BoundingBox class
 
-Die achsenorientierte Begrenzungsbox
+Die achsenparallel ausgerichtete Begrenzungsbox
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
@@ -37,14 +37,14 @@ Die achsenorientierte Begrenzungsbox
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(minimum, maximum) | Initialisieren Sie eine endliche Begrenzungsbox mit gegebenen minimalen und maximalen Eckpunkten |
+| constructor_overload(minimum, maximum) | Initialisiert eine endliche Begrenzungsbox mit angegebenem minimalen und maximalen Eckpunkt |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | minimum | Vector3 | Der minimale Eckpunkt |
-| Maximum | Vector3 | Der maximale Eckpunkt |
+| maximum | Vector3 | Der maximale Eckpunkt |
 
  **Result:**
 
@@ -57,7 +57,7 @@ Die achsenorientierte Begrenzungsbox
 
 | Name | Beschreibung |
 | --- | --- |
-| Konstruktor_Überladung2(minX, minY, minZ, maxX, maxY, maxZ) | Initialisieren Sie eine endliche Begrenzungsbox mit gegebenen minimalen und maximalen Eckpunkten |
+| constructor_overload2(minX, minY, minZ, maxX, maxY, maxZ) | Initialisiert eine endliche Begrenzungsbox mit angegebenem minimalen und maximalen Eckpunkt |
 
  **Result:**
 
@@ -70,7 +70,7 @@ Die achsenorientierte Begrenzungsbox
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtent() | Liefert den Umfang des Begrenzungsrahmens. Der Wert der Eigenschaft ist die Ganzzahlkonstante BoundingBoxExtent. |
+| getExtent() | Ermittelt die Ausdehnung der Begrenzungsbox. Der Wert der Eigenschaft ist die Ganzzahlkonstante BoundingBoxExtent. |
 
  **Result:**
 
@@ -109,7 +109,7 @@ Die achsenorientierte Begrenzungsbox
 
 | Name | Beschreibung |
 | --- | --- |
-| getSize() | Die Größe der BoundingBox |
+| getSize() | Die Größe der Begrenzungsbox |
 
  **Result:**
 
@@ -122,7 +122,7 @@ Die achsenorientierte Begrenzungsbox
 
 | Name | Beschreibung |
 | --- | --- |
-| getCenter() | Der Mittelpunkt der BoundingBox. |
+| getCenter() | Der Mittelpunkt der Begrenzungsbox. |
 
  **Result:**
 
@@ -135,13 +135,13 @@ Die achsenorientierte Begrenzungsbox
 
 | Name | Beschreibung |
 | --- | --- |
-| fromGeometry(geometry) | Erstelle eine BoundingBox aus gegebener Geometrie |
+| fromGeometry(geometry) | Erstelle eine Begrenzungsbox aus gegebener Geometrie |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Geometrie | Geometry | null |
+| geometr | Geometry | null |
 
  **Result:**
 BoundingBox
@@ -154,7 +154,7 @@ BoundingBox
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Gibt die Zeichenkettenrepräsentation der Begrenzungsbox zurück. |
+| toString() | Ermittelt die Zeichenkettenrepräsentation der Begrenzungsbox. |
 
  **Result:**
 String
@@ -170,7 +170,7 @@ String
 | hashCode() | Gibt den Hashcode für diese Instanz zurück |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -186,7 +186,7 @@ Number
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| ob | Object | null |
+| ob | Objekt | null |
 
  **Result:**
 boolean

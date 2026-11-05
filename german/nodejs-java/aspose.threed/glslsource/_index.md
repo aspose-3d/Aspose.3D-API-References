@@ -30,7 +30,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| getComputeShader() | Liest oder setzt den Quellcode des compute shader. |
+| getComputeShader() | Liest oder setzt den Quellcode des Compute-Shaders. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| setComputeShader(value) | Liest oder setzt den Quellcode des compute shader. |
+| setComputeShader(value) | Liest oder setzt den Quellcode des Compute-Shaders. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| getGeometryShader() | Liest oder setzt den Quellcode des geometry shader. |
+| getGeometryShader() | Liest oder setzt den Quellcode des Geometry-Shaders. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| setGeometryShader(value) | Liest oder setzt den Quellcode des geometry shader. |
+| setGeometryShader(value) | Liest oder setzt den Quellcode des Geometry-Shaders. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexShader() | Liest oder setzt den Quellcode des vertex shader |
+| getVertexShader() | Liest oder setzt den Quellcode des Vertex-Shaders. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| setVertexShader(value) | Liest oder setzt den Quellcode des vertex shader |
+| setVertexShader(value) | Liest oder setzt den Quellcode des Vertex-Shaders. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| getFragmentShader() | Liest oder setzt den Quellcode des fragment shader. |
+| getFragmentShader() | Liest oder setzt den Quellcode des Fragment-Shaders. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| setFragmentShader(value) | Liest oder setzt den Quellcode des fragment shader. |
+| setFragmentShader(value) | Liest oder setzt den Quellcode des Fragment-Shaders. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Der Quellcode der Shader in GLSL
 
 | Name | Beschreibung |
 | --- | --- |
-| defineInclude(fileName, content) | Definiert eine virtuelle Datei für #include im GLSL-Quellcode. |
+| defineInclude(fileName, content) | Definiere virtuelle Datei für #include im GLSL-Quellcode |
 
  **Parameters:**
 

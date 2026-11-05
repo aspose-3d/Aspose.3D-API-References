@@ -8,6 +8,6 @@ url: /de/nodejs-java/aspose.threed/windowhandle/
 ---
 ## WindowHandle class
 
-Kapselter Fenster-Handle für verschiedene Plattformen.  @hideconstructor
+Kapseltes Fenster-Handle für verschiedene Plattformen.  @hideconstructor
 
 

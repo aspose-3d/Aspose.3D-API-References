@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/mathutils/
 ---
 ## MathUtils class
 
-Eine Sammlung nützlicher mathematischer Hilfsprogramme.  @hideconstructor
+Ein Satz nützlicher mathematischer Hilfsfunktionen.  @hideconstructor
 
 
 ## Methoden
@@ -23,12 +23,12 @@ Eine Sammlung nützlicher mathematischer Hilfsprogramme.  @hideconstructor
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| val | Number | Wert zum Begrenzen. |
-| min | Number | Minimaler Wert. |
-| max | Number | Maximaler Wert. |
+| val | Zahl | Wert zum Begrenzen. |
+| min | Zahl | Minimaler Wert. |
+| max | Zahl | Maximaler Wert. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -38,7 +38,7 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| toDegree(radian) | Konvertiere einen Vector3 von Radiant zu Grad. |
+| toDegree(radian) | Konvertiere einen Vector3 von Bogenmaß zu Grad. |
 
  **Parameters:**
 
@@ -57,7 +57,7 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| toRadian(degree) | Konvertiere einen Vector3 von Grad zu Radiant |
+| toRadian(degree) | Konvertiere einen Vector3 von Grad zu Bogenmaß. |
 
  **Parameters:**
 
@@ -76,16 +76,16 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| toDegree(radian) | Konvertiere eine Zahl von Radiant zu Grad |
+| toDegree(radian) | Konvertiere eine Zahl von Bogenmaß zu Grad. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Bogenmaß | Number | Der Bogenmaßwert. |
+| Bogenmaß | Zahl | Der Bogenmaßwert. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -95,16 +95,16 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| toDegree(radian) | Konvertiere eine Zahl von Radiant zu Grad |
+| toDegree(radian) | Konvertiere eine Zahl von Bogenmaß zu Grad. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Bogenmaß | Number | Der Bogenmaßwert. |
+| Bogenmaß | Zahl | Der Bogenmaßwert. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -114,15 +114,15 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| toDegree(x, y, z) | Konvertiere eine Zahl von Radiant zu Grad |
+| toDegree(x, y, z) | Konvertiere eine Zahl von Bogenmaß zu Grad. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Number | Die x‑Komponente im Bogenmaßwert. |
-| y | Number | Die y‑Komponente im Bogenmaßwert. |
-| z | Number | Die z‑Komponente im Bogenmaßwert. |
+| x | Zahl | Die x-Komponente im Bogenmaßwert. |
+| y | Zahl | Die y-Komponente im Bogenmaßwert. |
+| z | Zahl | Die z-Komponente im Bogenmaßwert. |
 
  **Result:**
 Vector3
@@ -135,16 +135,16 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| toRadian(degree) | Konvertiere eine Zahl von Grad in Bogenmaß |
+| toRadian(degree) | Konvertiere eine Zahl von Grad zu Bogenmaß. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Grad | Number | Der Gradwert. |
+| Grad | Zahl | Der Gradwert. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -154,16 +154,16 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| toRadian(degree) | Konvertiere eine Zahl von Grad in Bogenmaß |
+| toRadian(degree) | Konvertiere eine Zahl von Grad zu Bogenmaß. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Grad | Number | Der Gradwert. |
+| Grad | Zahl | Der Gradwert. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -173,15 +173,15 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| toRadian(x, y, z) | Konvertiere einen Vektor von Grad in Bogenmaß |
+| toRadian(x, y, z) | Konvertiere einen Vektor von Grad zu Bogenmaß. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Number | Die x‑Komponente im Gradwert. |
-| y | Number | Die y‑Komponente im Gradwert. |
-| z | Number | Die z‑Komponente im Gradwert. |
+| x | Zahl | Die x-Komponente im Gradwert. |
+| y | Zahl | Die y-Komponente im Gradwert. |
+| z | Zahl | Die z-Komponente im Gradwert. |
 
  **Result:**
 Vector3

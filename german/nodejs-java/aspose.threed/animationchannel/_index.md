@@ -17,7 +17,7 @@ Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einer Menge von Keyframe�
 
 | Name | Beschreibung |
 | --- | --- |
-| getComponentType() | Ermittelt den Typ des Komponentenfeldes |
+| getComponentType() | Liest den Typ des Komponentenfeldes. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einer Menge von Keyframe�
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Liest den Namen des Kanals |
+| getName() | Liest den Namen des Kanals. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einer Menge von Keyframe�
 
 | Name | Beschreibung |
 | --- | --- |
-| getDefaultValue() | Liest oder setzt den Default‑Wert des Kanals. Wenn ein Kanal keine Keyframe‑Sequenzen verbunden hat, wird der Default‑Wert während der Animationsauswertung verwendet. Ein konkretes Szenario: Die Animation animiert nur die x‑Koordinate eines Knotens, y und z werden nicht geändert, dann wird der Default‑Wert während der vollständigen Transformationsauswertung verwendet. |
+| getDefaultValue() | Liest oder setzt den Standardwert des Kanals. Wenn ein Kanal keine Keyframe‑Sequenzen verbunden hat, wird der Standardwert während der Animationsauswertung verwendet. Ein reales Szenario: Animation animiert nur die x‑Koordinate eines Knotens, y und z werden nicht geändert, dann wird der Standardwert während der vollständigen Übersetzungsauswertung verwendet. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einer Menge von Keyframe�
 
 | Name | Beschreibung |
 | --- | --- |
-| setDefaultValue(value) | Liest oder setzt den Default‑Wert des Kanals. Wenn ein Kanal keine Keyframe‑Sequenzen verbunden hat, wird der Default‑Wert während der Animationsauswertung verwendet. Ein konkretes Szenario: Die Animation animiert nur die x‑Koordinate eines Knotens, y und z werden nicht geändert, dann wird der Default‑Wert während der vollständigen Transformationsauswertung verwendet. |
+| setDefaultValue(value) | Liest oder setzt den Standardwert des Kanals. Wenn ein Kanal keine Keyframe‑Sequenzen verbunden hat, wird der Standardwert während der Animationsauswertung verwendet. Ein reales Szenario: Animation animiert nur die x‑Koordinate eines Knotens, y und z werden nicht geändert, dann wird der Standardwert während der vollständigen Übersetzungsauswertung verwendet. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einer Menge von Keyframe�
 
 | Name | Beschreibung |
 | --- | --- |
-| getKeyframeSequences() | Liest alle Keyframe‑Sequenzen innerhalb dieses Kanals |
+| getKeyframeSequences() | Gibt alle Keyframe‑Sequenzen in diesem Kanal zurück |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einer Menge von Keyframe�
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| sequence | KeyframeSequence | Die hinzuzufügende Keyframe‑Sequenz. |
+| Sequenz | KeyframeSequence | Die hinzuzufügende Keyframe‑Sequenz. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Ein Kanal ordnet das Komponentenfeld einer Eigenschaft einer Menge von Keyframe�
 
 | Name | Beschreibung |
 | --- | --- |
-| iterator() | Für den internen Gebrauch reserviert. |
+| iterator() | Für die interne Verwendung reserviert. |
 
  **Result:**
 

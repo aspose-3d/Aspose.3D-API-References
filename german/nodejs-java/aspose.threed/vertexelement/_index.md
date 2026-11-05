@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertexelement/
 ---
 ## VertexElement class
 
-Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElementType** identifiziert.  Ein **VertexElement** beschreibt, wie das Vertex-Element auf eine Geometrie-Oberfläche abgebildet wird und wie die Abbildungsinformationen im Speicher angeordnet sind.  Ein **VertexElement** enthält Normalen, UVs oder andere Arten von Informationen.  @hideconstructor
+Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch VertexElementType identifiziert.  Ein VertexElement beschreibt, wie das Vertex-Element auf eine Geometrieoberfläche abgebildet wird und wie die Abbildungsinformationen im Speicher angeordnet sind.  Ein VertexElement enthält Normalen, UVs oder andere Arten von Informationen.  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElem
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexElementType() | Ermittelt den Typ des VertexElement. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
+| getVertexElementType() | Liest den Typ des VertexElements. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElem
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElem
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElem
 
 | Name | Beschreibung |
 | --- | --- |
-| getMappingMode() | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| getMappingMode() | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElem
 
 | Name | Beschreibung |
 | --- | --- |
-| setMappingMode(value) | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| setMappingMode(value) | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElem
 
 | Name | Beschreibung |
 | --- | --- |
-| getIndices() | Ermittelt die Indexdaten. Das Index‑Array. |
+| getIndices() | Liest die Indexdaten. Das Index-Array. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElem
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | Number[] | null |
+| dat | Number[] | null |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Basisklasse für Vertex-Elemente.  Ein Vertex-Elementtyp wird durch **VertexElem
 
 | Name | Beschreibung |
 | --- | --- |
-| clear() | Löscht alle Daten aus diesem VertexElement. |
+| clear() | Löscht alle Daten aus diesem Vertex-Element. |
 
  **Result:**
 

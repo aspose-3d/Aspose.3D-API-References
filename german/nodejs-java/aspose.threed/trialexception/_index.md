@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/trialexception/
 ---
 ## TrialException class
 
-Dies wird in **Scene.Open**/**Scene.Save** ausgelöst, wenn keine Lizenzen angewendet wurden.  Sie können diese Ausnahme deaktivieren, indem Sie **SuppressTrialException** auf true setzen.
+Dies wird in Scene.Open/Scene.Save ausgelöst, wenn keine Lizenzen angewendet wurden.  Sie können diese Ausnahme deaktivieren, indem Sie SuppressTrialException auf true setzen.
 
 
 ## Methoden
@@ -36,7 +36,7 @@ Dies wird in **Scene.Open**/**Scene.Save** ausgelöst, wenn keine Lizenzen angew
 
 | Name | Beschreibung |
 | --- | --- |
-| getSuppressTrialException() | Setzt dies auf true, um die TrialException bei unlizenzierter Nutzung zu unterdrücken, aber die Einschränkungen werden nicht aufgehoben. Um die Einschränkungen aufzuheben, verwenden Sie bitte eine gültige Lizenz. Und das Setzen auf true bedeutet zudem, dass Sie sich der unlizenzierten Einschränkungen bewusst sind. |
+| getSuppressTrialException() | Setzt dies auf true, um die Trial‑Ausnahme bei unlizenzierter Nutzung zu unterdrücken, aber die Einschränkungen werden nicht aufgehoben. Um die Einschränkungen aufzuheben, verwenden Sie bitte eine gültige Lizenz. Und das Setzen auf true bedeutet außerdem, dass Sie sich der unlizenzierten Einschränkungen bewusst sind. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Dies wird in **Scene.Open**/**Scene.Save** ausgelöst, wenn keine Lizenzen angew
 
 | Name | Beschreibung |
 | --- | --- |
-| setSuppressTrialException(value) | Setzt dies auf true, um die TrialException bei unlizenzierter Nutzung zu unterdrücken, aber die Einschränkungen werden nicht aufgehoben. Um die Einschränkungen aufzuheben, verwenden Sie bitte eine gültige Lizenz. Und das Setzen auf true bedeutet zudem, dass Sie sich der unlizenzierten Einschränkungen bewusst sind. |
+| setSuppressTrialException(value) | Setzt dies auf true, um die Trial‑Ausnahme bei unlizenzierter Nutzung zu unterdrücken, aber die Einschränkungen werden nicht aufgehoben. Um die Einschränkungen aufzuheben, verwenden Sie bitte eine gültige Lizenz. Und das Setzen auf true bedeutet außerdem, dass Sie sich der unlizenzierten Einschränkungen bewusst sind. |
 
  **Result:**
 

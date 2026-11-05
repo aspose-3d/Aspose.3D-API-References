@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/driverexception/
 ---
 ## DriverException class
 
-Die von internen Rendering‑Treibern ausgelöste Ausnahme.  @hideconstructor
+Die von internen Rendering-Treibern ausgelöste Ausnahme.  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Die von internen Rendering‑Treibern ausgelöste Ausnahme.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getErrorCode() | Liefert den nativen Fehlercode. |
+| getErrorCode() | Liest den nativen Fehlercode. |
 
  **Result:**
 

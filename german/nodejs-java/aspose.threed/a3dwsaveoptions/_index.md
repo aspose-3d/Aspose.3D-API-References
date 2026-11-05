@@ -30,7 +30,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportMetaData() | Exportiere Metadaten, die mit Szene/Knoten verbunden sind, zum Client Standardwert ist true |
+| getExportMetaData() | Exportiere Metadaten, die mit Scene/Node zum Client verbunden sind. Standardwert ist true |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportMetaData(value) | Exportiere Metadaten, die mit Szene/Knoten verbunden sind, zum Client Standardwert ist true |
+| setExportMetaData(value) | Exportiere Metadaten, die mit Scene/Node zum Client verbunden sind. Standardwert ist true |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getMetaDataPrefix() | Wenn diese Eigenschaft nicht null ist, werden nur die Eigenschaften von Szene/Knoten, die mit diesem Präfix beginnen, exportiert, und das Präfix wird entfernt. |
+| getMetaDataPrefix() | Wenn diese Eigenschaft nicht null ist, werden nur die Eigenschaften von Scene/Node, die mit diesem Präfix beginnen, exportiert, und das Präfix wird entfernt. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setMetaDataPrefix(value) | Wenn diese Eigenschaft nicht null ist, werden nur die Eigenschaften von Szene/Knoten, die mit diesem Präfix beginnen, exportiert, und das Präfix wird entfernt. |
+| setMetaDataPrefix(value) | Wenn diese Eigenschaft nicht null ist, werden nur die Eigenschaften von Scene/Node, die mit diesem Präfix beginnen, exportiert, und das Präfix wird entfernt. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Speicheroptionen für das A3DW‑Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

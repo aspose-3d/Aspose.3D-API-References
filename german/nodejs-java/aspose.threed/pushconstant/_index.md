@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/pushconstant/
 ---
 ## PushConstant class
 
-Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
+Ein Hilfswerkzeug, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Konstruktor von PushConstant |
+| constructor() | Konstruktor von PushConstant. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 | Name | Beschreibung |
 | --- | --- |
-| write(mat) | Schreibe die Matrix in die Konstante |
+| write(mat) | Schreibt die Matrix in die Konstante. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| mat | FMatrix4 | Die zu schreibende Matrix |
+| mat | FMatrix4 | Die zu schreibende Matrix. |
 
  **Result:**
 
@@ -49,13 +49,13 @@ Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 | Name | Beschreibung |
 | --- | --- |
-| write(n) | Schreibe einen Int‑Wert in die Konstante |
+| write(n) | Schreibe einen int-Wert in die Konstante. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
+|  | Zahl | null |
 
  **Result:**
 
@@ -68,13 +68,13 @@ Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 | Name | Beschreibung |
 | --- | --- |
-| write(f) | Schreibe einen Float‑Wert in die Konstante |
+| write(f) | Schreibe einen float-Wert in die Konstante. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
+|  | Zahl | null |
 
  **Result:**
 
@@ -87,7 +87,7 @@ Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 | Name | Beschreibung |
 | --- | --- |
-| write(vec) | Schreibe einen 4‑Komponenten‑Vektor in die Konstante |
+| write(vec) | Schreibe einen 4-Komponenten-Vektor in die Konstante. |
 
  **Parameters:**
 
@@ -106,7 +106,7 @@ Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 | Name | Beschreibung |
 | --- | --- |
-| write(vec) | Schreibe einen 3‑Komponenten‑Vektor in die Konstante |
+| write(vec) | Schreibe einen 3-Komponenten-Vektor in die Konstante. |
 
  **Parameters:**
 
@@ -125,16 +125,16 @@ Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 | Name | Beschreibung |
 | --- | --- |
-| write(x, y, z, w) | Schreibe einen 4‑Komponenten‑Vektor in die Konstante |
+| write(x, y, z, w) | Schreibe einen 4-Komponenten-Vektor in die Konstante. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Zahl | null |
+|  | Zahl | null |
+|  | Zahl | null |
+|  | Zahl | null |
 
  **Result:**
 
@@ -147,13 +147,13 @@ Ein Hilfsprogramm, um Daten über Push-Konstanten an den Shader zu übermitteln.
 
 | Name | Beschreibung |
 | --- | --- |
-| commit(stage, commandList) | Übermittelt vorbereitete Daten an die Grafikpipeline. |
+| commit(stage, commandList) | Übertrage vorbereitete Daten an die Grafikpipeline. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Stufe | Number | ShaderStage |
+| stage | Zahl | ShaderStage |
 | commandLis | ICommandList | null |
 
  **Result:**
