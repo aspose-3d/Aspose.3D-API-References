@@ -23,7 +23,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| forma | Bestandsformaat | null |
+| forma | FileFormat | null |
 
  **Result:**
 
@@ -55,7 +55,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getReusePrimitiveMesh() | Herbruik de mesh voor de primitieve objecten met dezelfde parameters, dit zal de grootte van de FBX-uitvoer aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD-bestanden). Standaardwaarde is false |
+| getReusePrimitiveMesh() | Herbruik de mesh voor de primitieve objecten met dezelfde parameters; dit zal de grootte van de FBX-uitvoer aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD-bestanden). Standaardwaarde is false. |
 
  **Result:**
 
@@ -68,7 +68,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setReusePrimitiveMesh(value) | Herbruik de mesh voor de primitieve objecten met dezelfde parameters, dit zal de grootte van de FBX-uitvoer aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD-bestanden). Standaardwaarde is false |
+| setReusePrimitiveMesh(value) | Herbruik de mesh voor de primitieve objecten met dezelfde parameters; dit zal de grootte van de FBX-uitvoer aanzienlijk verkleinen wanneer de scène is opgebouwd uit een grote set primitieve vormen (zoals geïmporteerd uit CAD-bestanden). Standaardwaarde is false. |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEnableCompression() | Compressie van grote binaire gegevens in het FBX-bestand (bijv. animatiegegevens, controlepunten, vertex-elementgegevens, indexen), standaardwaarde is true. |
+| getEnableCompression() | Compressie van grote binaire data in het FBX-bestand (bijv. animatiegegevens, controlepunten, vertex-elementgegevens, indexen), standaardwaarde is true. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEnableCompression(value) | Compressie van grote binaire gegevens in het FBX-bestand (bijv. animatiegegevens, controlepunten, vertex-elementgegevens, indexen), standaardwaarde is true. |
+| setEnableCompression(value) | Compressie van grote binaire data in het FBX-bestand (bijv. animatiegegevens, controlepunten, vertex-elementgegevens, indexen), standaardwaarde is true. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFoldRepeatedCurveData() | Haalt op of stelt in of herhaald curve‑data moet worden hergebruikt door de referentietelling van de laatste data te verhogen; true als herhaalde curve‑data moet worden samengevouwen; anders false. |
+| getFoldRepeatedCurveData() | Haalt op of stelt in of herhaald curve-data moet worden hergebruikt door de referentietelling van de laatste data te verhogen; true als herhaalde curve-data moet worden samengevouwen; anders false. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExportLegacyMaterialProperties() | Haalt op of stelt in of legacy-materiaal‑eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie is standaard ingeschakeld. |
+| getExportLegacyMaterialProperties() | Haalt op of stelt in of legacy materiaal-eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie is standaard ingeschakeld. |
 
  **Result:**
 
@@ -133,7 +133,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setExportLegacyMaterialProperties(value) | Haalt op of stelt in of legacy-materiaal‑eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie is standaard ingeschakeld. |
+| setExportLegacyMaterialProperties(value) | Haalt op of stelt in of legacy materiaal-eigenschappen moeten worden geëxporteerd, gebruikt voor achterwaartse compatibiliteit. Deze optie is standaard ingeschakeld. |
 
  **Result:**
 
@@ -146,7 +146,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVideoForTexture() | Haalt op of stelt in of er een Video‑instantie moet worden gegenereerd voor Texture bij het exporteren als FBX. |
+| getVideoForTexture() | Haalt op of stelt in of er een Video-instantie moet worden gegenereerd voor Texture bij het exporteren als FBX. |
 
  **Result:**
 
@@ -159,7 +159,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setVideoForTexture(value) | Haalt op of stelt in of er een Video‑instantie moet worden gegenereerd voor Texture bij het exporteren als FBX. |
+| setVideoForTexture(value) | Haalt op of stelt in of er een Video-instantie moet worden gegenereerd voor Texture bij het exporteren als FBX. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEmbedTextures() | Haalt op of stelt in of de texture moet worden ingebed in het uiteindelijke uitvoerbestand. FBX Exporter zal proberen de ruwe gegevens van de texture te vinden in het bestandssysteem en het bestand in het uiteindelijke FBX‑bestand inbedden. Standaardwaarde is false. |
+| getEmbedTextures() | Haalt op of stelt in of de textuur moet worden ingebed in het uiteindelijke uitvoerbestand. FBX Exporter zal proberen de ruwe gegevens van de textuur te vinden in het bestandssysteem, en het bestand in het uiteindelijke FBX‑bestand inbedden. Standaardwaarde is false. |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEmbedTextures(value) | Haalt op of stelt in of de texture moet worden ingebed in het uiteindelijke uitvoerbestand. FBX Exporter zal proberen de ruwe gegevens van de texture te vinden in het bestandssysteem en het bestand in het uiteindelijke FBX‑bestand inbedden. Standaardwaarde is false. |
+| setEmbedTextures(value) | Haalt op of stelt in of de textuur moet worden ingebed in het uiteindelijke uitvoerbestand. FBX Exporter zal proberen de ruwe gegevens van de textuur te vinden in het bestandssysteem, en het bestand in het uiteindelijke FBX‑bestand inbedden. Standaardwaarde is false. |
 
  **Result:**
 
@@ -198,7 +198,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGenerateVertexElementMaterial() | Haalt op of stelt in of er altijd een VertexElementMaterial moet worden gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit is standaard uitgeschakeld. |
+| getGenerateVertexElementMaterial() | Haalt op of stelt in of er altijd een VertexElementMaterial wordt gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit is standaard uitgeschakeld. |
 
  **Result:**
 
@@ -211,7 +211,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGenerateVertexElementMaterial(value) | Haalt op of stelt in of er altijd een VertexElementMaterial moet worden gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit is standaard uitgeschakeld. |
+| setGenerateVertexElementMaterial(value) | Haalt op of stelt in of er altijd een VertexElementMaterial wordt gegenereerd voor geometrieën als het gekoppelde knooppunt materialen bevat. Dit is standaard uitgeschakeld. |
 
  **Result:**
 
@@ -250,7 +250,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -263,7 +263,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -276,7 +276,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -302,7 +302,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -315,7 +315,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -328,7 +328,7 @@ Opslaanopties voor Fbx-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

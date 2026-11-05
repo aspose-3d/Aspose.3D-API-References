@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/descriptorsetupdater/
 ---
 ## DescriptorSetUpdater class
 
-Deze klasse maakt het mogelijk om de com.aspose.threed.IDescriptorSet bij te werken in een ketenbewerking.  @hideconstructor
+Deze klasse maakt het mogelijk om de com.aspose.threed.IDescriptorSet bij te werken in een ketenoperatie.  @hideconstructor
 
 
 ## Methoden
@@ -17,15 +17,15 @@ Deze klasse maakt het mogelijk om de com.aspose.threed.IDescriptorSet bij te wer
 
 | Naam | Beschrijving |
 | --- | --- |
-| bind(buffer, offset, size) | Koppel de buffer aan de huidige descriptorset |
+| bind(buffer, offset, size) | Koppel de buffer aan de huidige descriptor set |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| buffer | IBuffer | Welke buffer te koppelen |
-| offset | Number | Offset van de te koppelen buffer |
-| grootte | Number | Grootte van de te koppelen buffer |
+| buffer | IBuffer | Welke buffer moet worden gebonden |
+| offset | Nummer | Offset van de te binden buffer |
+| grootte | Nummer | Grootte van de te binden buffer |
 
  **Result:**
 DescriptorSetUpdater
@@ -38,13 +38,13 @@ DescriptorSetUpdater
 
 | Naam | Beschrijving |
 | --- | --- |
-| bind(buffer) | Koppel de volledige buffer aan de huidige descriptor |
+| bind(buffer) | Bind de volledige buffer aan de huidige descriptor |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| buffer | IBuffer | null |
+| buffe | IBuffer | null |
 
  **Result:**
 DescriptorSetUpdater
@@ -57,14 +57,14 @@ DescriptorSetUpdater
 
 | Naam | Beschrijving |
 | --- | --- |
-| bind(binding, buffer) | Koppel de buffer aan de huidige descriptorset op de opgegeven bindlocatie. |
+| bind(binding, buffer) | Bind de buffer aan de huidige descriptorset op de opgegeven bindlocatie. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| binding | Number | Bindlocatie |
-| buffer | IBuffer | De volledige buffer om te koppelen. |
+| binding | Nummer | Bindlocatie |
+| buffer | IBuffer | De volledige buffer om te binden |
 
  **Result:**
 DescriptorSetUpdater
@@ -77,16 +77,16 @@ DescriptorSetUpdater
 
 | Naam | Beschrijving |
 | --- | --- |
-| bind(binding, buffer, offset, size) | Koppel de buffer aan de huidige descriptorset op de opgegeven bindlocatie. |
+| bind(binding, buffer, offset, size) | Bind de buffer aan de huidige descriptorset op de opgegeven bindlocatie. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| binding | Number | Bindlocatie |
-| buffer | IBuffer | De buffer om te koppelen. |
-| offset | Number | Offset van de te koppelen buffer |
-| grootte | Number | Grootte van de te koppelen buffer |
+| binding | Nummer | Bindlocatie |
+| buffer | IBuffer | De buffer om te binden |
+| offset | Nummer | Offset van de te binden buffer |
+| grootte | Nummer | Grootte van de te binden buffer |
 
  **Result:**
 DescriptorSetUpdater
@@ -99,13 +99,13 @@ DescriptorSetUpdater
 
 | Naam | Beschrijving |
 | --- | --- |
-| bind(texture) | Koppel de texture-eenheid aan de huidige descriptorset. |
+| bind(texture) | Bind de texture-eenheid aan de huidige descriptorset |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| texture | ITextureUnit | De texture-eenheid om te koppelen. |
+| texture | ITextureUnit | De texture-eenheid om te binden |
 
  **Result:**
 DescriptorSetUpdater
@@ -118,14 +118,14 @@ DescriptorSetUpdater
 
 | Naam | Beschrijving |
 | --- | --- |
-| bind(binding, texture) | Koppel de texture-eenheid aan de huidige descriptorset. |
+| bind(binding, texture) | Bind de texture-eenheid aan de huidige descriptorset |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| binding | Number | De bindlocatie. |
-| texture | ITextureUnit | De texture-eenheid om te koppelen. |
+| binding | Nummer | De bindlocatie |
+| texture | ITextureUnit | De texture-eenheid om te binden |
 
  **Result:**
 DescriptorSetUpdater

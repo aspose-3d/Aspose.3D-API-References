@@ -11,14 +11,14 @@ url: /nl/nodejs-java/aspose.threed/fvector4/
 Een floatvector met vier componenten.
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
 | x | De x-component. |
 | y | De y-component. |
 | z | De z-component. |
-| w | De w component. |
+| w | De w-component. |
 
 ## Methoden
 

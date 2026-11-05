@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/plane/
 ---
 ## Plane class
 
-Geparametriseerd vlak.
+Geparameteriseerd vlak.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de Plane met standaardgrootte 1x1. |
+| constructor() | Initialiseert een nieuw exemplaar van Plane met standaardgrootte 1x1. |
 
  **Result:**
 
@@ -36,8 +36,8 @@ Geparametriseerd vlak.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| length | Number | Lengte van het vlak. |
-| breedte | Number | Breedte van het vlak. |
+| length | Nummer | Lengte van het vlak. |
+| width | Nummer | Breedte van het vlak. |
 
  **Result:**
 
@@ -57,10 +57,10 @@ Geparametriseerd vlak.
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | name | String | Naam. |
-| length | Number | Lengte van het vlak. |
-| breedte | Number | Breedte van het vlak. |
-| lengthSegments | Number | Lengte segmenten. |
-| widthSegments | Number | Breedte segmenten. |
+| length | Nummer | Lengte van het vlak. |
+| width | Nummer | Breedte van het vlak. |
+| lengthSegments | Nummer | Lengte segmenten. |
+| widthSegments | Nummer | Breedte segmenten. |
 
  **Result:**
 
@@ -73,7 +73,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUp() | Haalt of stelt de up vector van het vlak in, standaardwaarde is (0, 1, 0), dit beïnvloedt de generatie van het vlak |
+| getUp() | Haalt op of stelt de up-vector van het vlak in, standaardwaarde is (0, 1, 0), dit beïnvloedt de generatie van het vlak |
 
  **Result:**
 
@@ -86,7 +86,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setUp(value) | Haalt of stelt de up vector van het vlak in, standaardwaarde is (0, 1, 0), dit beïnvloedt de generatie van het vlak |
+| setUp(value) | Haalt op of stelt de up-vector van het vlak in, standaardwaarde is (0, 1, 0), dit beïnvloedt de generatie van het vlak |
 
  **Result:**
 
@@ -99,7 +99,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLength() | Haalt of stelt de lengte van het vlak in. De lengte. |
+| getLength() | Haalt op of stelt de lengte van het vlak in. De lengte. |
 
  **Result:**
 
@@ -112,7 +112,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLength(value) | Haalt of stelt de lengte van het vlak in. De lengte. |
+| setLength(value) | Haalt op of stelt de lengte van het vlak in. De lengte. |
 
  **Result:**
 
@@ -125,7 +125,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWidth() | Haalt of stelt de breedte van het vlak in. De breedte. |
+| getWidth() | Haalt op of stelt de breedte van het vlak in. De breedte. |
 
  **Result:**
 
@@ -138,7 +138,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWidth(value) | Haalt of stelt de breedte van het vlak in. De breedte. |
+| setWidth(value) | Haalt op of stelt de breedte van het vlak in. De breedte. |
 
  **Result:**
 
@@ -151,7 +151,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLengthSegments() | Haalt of stelt de lengte segmenten in. De lengte segmenten. |
+| getLengthSegments() | Haalt op of stelt de lengte segmenten in. De lengte segmenten. |
 
  **Result:**
 
@@ -164,7 +164,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLengthSegments(value) | Haalt of stelt de lengte segmenten in. De lengte segmenten. |
+| setLengthSegments(value) | Haalt op of stelt de lengte segmenten in. De lengte segmenten. |
 
  **Result:**
 
@@ -177,7 +177,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWidthSegments() | Haalt of stelt de breedte segmenten in. De breedte segmenten. |
+| getWidthSegments() | Haalt op of stelt de breedte segmenten in. De breedte segmenten. |
 
  **Result:**
 
@@ -190,7 +190,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWidthSegments(value) | Haalt of stelt de breedte segmenten in. De breedte segmenten. |
+| setWidthSegments(value) | Haalt op of stelt de breedte segmenten in. De breedte segmenten. |
 
  **Result:**
 
@@ -203,7 +203,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastShadows() | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| getCastShadows() | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -216,7 +216,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -294,7 +294,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -307,7 +307,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -320,7 +320,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -359,7 +359,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -372,7 +372,7 @@ Geparametriseerd vlak.
 
 | Naam | Beschrijving |
 | --- | --- |
-| toMesh() | Converteer huidig object naar mesh |
+| toMesh() | Converteer het huidige object naar een mesh |
 
  **Result:**
 Mesh
@@ -385,7 +385,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 Mesh
@@ -398,7 +398,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -417,7 +417,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -436,7 +436,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -455,7 +455,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -474,8 +474,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -488,7 +488,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

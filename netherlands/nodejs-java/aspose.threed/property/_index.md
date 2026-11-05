@@ -17,7 +17,7 @@ Klasse om door de gebruiker gedefinieerde eigenschappen vast te houden.  @hideco
 
 | Naam | Beschrijving |
 | --- | --- |
-| getValue() | Haalt de waarde op of stelt deze in. De waarde. |
+| getValue() | Haalt op of stelt de waarde in. De waarde. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Klasse om door de gebruiker gedefinieerde eigenschappen vast te houden.  @hideco
 
 | Naam | Beschrijving |
 | --- | --- |
-| setValue(value) | Haalt de waarde op of stelt deze in. De waarde. |
+| setValue(value) | Haalt op of stelt de waarde in. De waarde. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Klasse om door de gebruiker gedefinieerde eigenschappen vast te houden.  @hideco
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -88,8 +88,8 @@ Klasse om door de gebruiker gedefinieerde eigenschappen vast te houden.  @hideco
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| anim | AnimationNode | Op welke animatie moet het bind point worden gemaakt. |
-| maken | boolean | Maak het property bind point aan als het niet wordt gevonden. |
+| anim | AnimationNode | Op welke animatie het bindpunt moet worden gemaakt. |
+| create | boolean | Maak het bindpunt van de eigenschap aan als het niet wordt gevonden. |
 
  **Result:**
 BindPoint
@@ -102,14 +102,14 @@ BindPoint
 
 | Naam | Beschrijving |
 | --- | --- |
-| getKeyframeSequence(anim, create) | Haalt de keyframe sequence op van de opgegeven animatie‑instantie. |
+| getKeyframeSequence(anim, create) | Haalt de keyframe‑reeks op in de opgegeven animatie‑instantie. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| anim | AnimationNode | Op welke animatie moet de keyframe sequence worden gemaakt. |
-| maken | boolean | Maak de keyframe sequence aan als deze niet wordt gevonden. |
+| anim | AnimationNode | Op welke animatie de keyframe‑reeks moet worden gemaakt. |
+| create | boolean | Maak de keyframe‑reeks aan als deze niet wordt gevonden. |
 
  **Result:**
 KeyframeSequence
@@ -122,7 +122,7 @@ KeyframeSequence
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Retourneert een string die de huidige Property weergeeft. |
+| toString() | Retourneert een string die de huidige eigenschap weergeeft. |
 
  **Result:**
 String
@@ -141,7 +141,7 @@ String
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -160,7 +160,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -179,7 +179,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -198,8 +198,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -212,7 +212,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

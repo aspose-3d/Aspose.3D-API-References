@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/patchdirection/
 ---
 ## PatchDirection class
 
-U- en V-richting van de Patch.
+U‑ en V‑richting van Patch.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ U- en V-richting van de Patch.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getType() | Haalt of stelt het type van de patch in. De waarde van de eigenschap is een PatchDirectionType-integer-constante. Het type. |
+| getType() | Haalt op of stelt het type van de patch in. De waarde van de eigenschap is de integer‑constante PatchDirectionType. Het type. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ U- en V-richting van de Patch.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setType(value) | Haalt of stelt het type van de patch in. De waarde van de eigenschap is een PatchDirectionType-integer-constante. Het type. |
+| setType(value) | Haalt op of stelt het type van de patch in. De waarde van de eigenschap is de integer‑constante PatchDirectionType. Het type. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ U- en V-richting van de Patch.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDivisions() | Haalt of stelt het aantal delingen tussen aangrenzende controlepunten in. De stap. |
+| getDivisions() | Haalt op of stelt het aantal delingen tussen aangrenzende controlepunten in. De stap. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ U- en V-richting van de Patch.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDivisions(value) | Haalt of stelt het aantal delingen tussen aangrenzende controlepunten in. De stap. |
+| setDivisions(value) | Haalt op of stelt het aantal delingen tussen aangrenzende controlepunten in. De stap. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ U- en V-richting van de Patch.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getControlPoints() | Haalt of stelt het aantal controlepunten in de huidige richting in. Het aantal. |
+| getControlPoints() | Haalt op of stelt het aantal controlepunten in de huidige richting in. Het aantal. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ U- en V-richting van de Patch.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setControlPoints(value) | Haalt of stelt het aantal controlepunten in de huidige richting in. Het aantal. |
+| setControlPoints(value) | Haalt op of stelt het aantal controlepunten in de huidige richting in. Het aantal. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ U- en V-richting van de Patch.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getClosed() | Haalt of stelt een waarde in die aangeeft of deze PatchDirection een gesloten curve is. |
+| getClosed() | Geeft of stelt een waarde in die aangeeft of deze PatchDirection een gesloten curve is. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ U- en V-richting van de Patch.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setClosed(value) | Haalt of stelt een waarde in die aangeeft of deze PatchDirection een gesloten curve is. |
+| setClosed(value) | Geeft of stelt een waarde in die aangeeft of deze PatchDirection een gesloten curve is. |
 
  **Result:**
 

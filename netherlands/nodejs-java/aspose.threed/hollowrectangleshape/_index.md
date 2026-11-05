@@ -30,7 +30,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWallThickness() | De dikte tussen de rand van de rechthoek en het binnenste gat. |
+| getWallThickness() | De dikte tussen de rand van de rechthoek en het binnenste gat |
 
  **Result:**
 
@@ -43,7 +43,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWallThickness(value) | De dikte tussen de rand van de rechthoek en het binnenste gat. |
+| setWallThickness(value) | De dikte tussen de rand van de rechthoek en het binnenste gat |
 
  **Result:**
 
@@ -82,7 +82,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRoundingRadius() | Haalt op of stelt de straal van de cirkelbogen van alle vier hoeken in, gemeten in graden. Standaardwaarde is 0,0 |
+| getRoundingRadius() | Haalt op of stelt de straal van de cirkelbogen van alle vier hoeken in, gemeten in graden. Standaardwaarde is 0.0 |
 
  **Result:**
 
@@ -95,7 +95,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRoundingRadius(value) | Haalt op of stelt de straal van de cirkelbogen van alle vier hoeken in, gemeten in graden. Standaardwaarde is 0,0 |
+| setRoundingRadius(value) | Haalt op of stelt de straal van de cirkelbogen van alle vier hoeken in, gemeten in graden. Standaardwaarde is 0.0 |
 
  **Result:**
 
@@ -108,7 +108,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| getXDim() | Haalt op of stelt de omvang van de rechthoek in de richting van de x-as in. Standaardwaarde is 2,0 |
+| getXDim() | Haalt de omvang van de rechthoek op of stelt deze in de richting van de x-as in. Standaardwaarde is 2.0 |
 
  **Result:**
 
@@ -121,7 +121,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| setXDim(value) | Haalt op of stelt de omvang van de rechthoek in de richting van de x-as in. Standaardwaarde is 2,0 |
+| setXDim(value) | Haalt de omvang van de rechthoek op of stelt deze in de richting van de x-as in. Standaardwaarde is 2.0 |
 
  **Result:**
 
@@ -134,7 +134,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| getYDim() | Haalt op of stelt de omvang van de rechthoek in de richting van de y-as in. Standaardwaarde is 2,0 |
+| getYDim() | Haalt de omvang van de rechthoek op of stelt deze in de richting van de y-as in. Standaardwaarde is 2.0 |
 
  **Result:**
 
@@ -147,7 +147,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| setYDim(value) | Haalt op of stelt de omvang van de rechthoek in de richting van de y-as in. Standaardwaarde is 2,0 |
+| setYDim(value) | Haalt de omvang van de rechthoek op of stelt deze in de richting van de y-as in. Standaardwaarde is 2.0 |
 
  **Result:**
 
@@ -199,7 +199,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -264,7 +264,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ IFC-compatibel holle rechthoekige vorm met zowel binnen- als buiten afgeronde ho
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExtent() | Geeft de omvang in de x- en y-dimensie terug |
+| getExtent() | Haalt de omvang in x- en y-dimensie op. |
 
  **Result:**
 Vector2
@@ -290,7 +290,7 @@ Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -303,7 +303,7 @@ EntityRendererKey
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 EntityRendererKey
@@ -322,7 +322,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -341,7 +341,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -360,7 +360,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -379,8 +379,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -393,7 +393,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

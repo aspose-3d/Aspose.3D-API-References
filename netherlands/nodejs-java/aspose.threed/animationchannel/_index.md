@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/animationchannel/
 ---
 ## AnimationChannel class
 
-Een kanaal mappt het componentveld van een eigenschap naar een reeks keyframe‑sequenties  @hideconstructor
+Een kanaal koppelt het componentveld van een eigenschap aan een reeks keyframe‑sequenties  @hideconstructor
 
 
 ## Methoden
@@ -43,7 +43,7 @@ Een kanaal mappt het componentveld van een eigenschap naar een reeks keyframe‑
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDefaultValue() | Haalt de Default-waarde van het kanaal op of stelt deze in. Als een kanaal geen keyframe sequences gekoppeld heeft, wordt de Default-waarde gebruikt tijdens de animation-evaluatie. Een praktisch voorbeeld: Animation animeert alleen de x-coördinaat van een node, de y- en z-coördinaten worden niet gewijzigd, dan wordt de Default-waarde gebruikt tijdens de volledige translation-evaluatie. |
+| getDefaultValue() | Haalt de standaardwaarde van het kanaal op of stelt deze in. Als een kanaal geen gekoppelde keyframe‑reeksen heeft, wordt de standaardwaarde gebruikt tijdens de animatie‑evaluatie. Een praktisch voorbeeld: animatie animeert alleen de x‑coördinaat van een node, de y‑ en z‑coördinaten blijven ongewijzigd; dan wordt de standaardwaarde gebruikt tijdens de volledige translatie‑evaluatie. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Een kanaal mappt het componentveld van een eigenschap naar een reeks keyframe‑
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDefaultValue(value) | Haalt de Default-waarde van het kanaal op of stelt deze in. Als een kanaal geen keyframe sequences gekoppeld heeft, wordt de Default-waarde gebruikt tijdens de animation-evaluatie. Een praktisch voorbeeld: Animation animeert alleen de x-coördinaat van een node, de y- en z-coördinaten worden niet gewijzigd, dan wordt de Default-waarde gebruikt tijdens de volledige translation-evaluatie. |
+| setDefaultValue(value) | Haalt de standaardwaarde van het kanaal op of stelt deze in. Als een kanaal geen gekoppelde keyframe‑reeksen heeft, wordt de standaardwaarde gebruikt tijdens de animatie‑evaluatie. Een praktisch voorbeeld: animatie animeert alleen de x‑coördinaat van een node, de y‑ en z‑coördinaten blijven ongewijzigd; dan wordt de standaardwaarde gebruikt tijdens de volledige translatie‑evaluatie. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Een kanaal mappt het componentveld van een eigenschap naar een reeks keyframe‑
 
 | Naam | Beschrijving |
 | --- | --- |
-| getKeyframeSequences() | Haalt alle keyframe sequences binnen dit kanaal op |
+| getKeyframeSequences() | Haalt alle keyframe‑reeksen binnen dit kanaal op |
 
  **Result:**
 
@@ -82,13 +82,13 @@ Een kanaal mappt het componentveld van een eigenschap naar een reeks keyframe‑
 
 | Naam | Beschrijving |
 | --- | --- |
-| addKeyframeSequence(sequence) | Voegt keyframe sequence toe aan dit kanaal |
+| addKeyframeSequence(sequence) | Voegt een keyframe‑reeks toe aan dit kanaal |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| reeks | KeyframeSequence | De toe te voegen keyframe sequence. |
+| reeks | KeyframeSequence | De toe te voegen keyframe‑reeks. |
 
  **Result:**
 

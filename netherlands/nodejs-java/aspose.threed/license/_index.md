@@ -1,5 +1,5 @@
 ---
-title: "License"
+title: "Licentie"
 second_title: "Aspose.3D voor Node.js via Java API-referentie"
 description: 
 type: docs
@@ -30,7 +30,7 @@ Biedt methoden om het component te licentiëren.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLicense(licenseName) | Licentieert het component. Probeert de licentie te vinden op de volgende locaties:1. Expliciet pad.2. De map die het Aspose component JAR file bevat.3. De map die het client's calling JAR file bevat. |
+| setLicense(licenseName) | Licentieert het component. Probeert de licentie te vinden op de volgende locaties:1. Expliciet pad.2. De map die het Aspose‑component‑JAR‑bestand bevat.3. De map die het JAR‑bestand van de client die het aanroept bevat. |
 
  **Result:**
 

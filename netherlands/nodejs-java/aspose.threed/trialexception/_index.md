@@ -36,7 +36,7 @@ Dit wordt opgegooid in Scene.Open/Scene.Save wanneer er geen licenties zijn toeg
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSuppressTrialException() | Stelt dit in op true om de trial-exceptie te onderdrukken voor ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik alstublieft een geldige licentie. En het instellen van dit op true betekent ook dat u zich bewust bent van de ongeautoriseerde beperkingen. |
+| getSuppressTrialException() | Stelt dit in op true om de trial-exceptie te onderdrukken bij ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik een geldige licentie. En dit op true instellen betekent ook dat je je bewust bent van de ongeautoriseerde beperkingen. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Dit wordt opgegooid in Scene.Open/Scene.Save wanneer er geen licenties zijn toeg
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSuppressTrialException(value) | Stelt dit in op true om de trial-exceptie te onderdrukken voor ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik alstublieft een geldige licentie. En het instellen van dit op true betekent ook dat u zich bewust bent van de ongeautoriseerde beperkingen. |
+| setSuppressTrialException(value) | Stelt dit in op true om de trial-exceptie te onderdrukken bij ongeautoriseerd gebruik, maar de beperkingen worden niet opgeheven. Om de beperkingen op te heffen, gebruik een geldige licentie. En dit op true instellen betekent ook dat je je bewust bent van de ongeautoriseerde beperkingen. |
 
  **Result:**
 

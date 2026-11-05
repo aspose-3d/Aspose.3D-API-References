@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/shadermaterial/
 ---
 ## ShaderMaterial class
 
-Een shader‑materiaal maakt het mogelijk het materiaal te beschrijven met een externe renderengine of shader‑taal.  ShaderMaterial gebruikt ShaderTechnique om de concrete renderdetails te beschrijven, en de meest geschikte wordt gekozen op basis van het uiteindelijke renderplatform.  Bijvoorbeeld, uw ShaderMaterial‑instantie kan twee technieken hebben, één gedefinieerd in HLSL en een andere in GLSL.  Op niet‑Windows platforms moet GLSL in plaats van HLSL worden gebruikt.
+Een shader‑materiaal maakt het mogelijk om het materiaal te beschrijven met een externe renderengine of shader‑taal.  ShaderMaterial gebruikt ShaderTechnique om de concrete renderdetails te beschrijven,  en de meest geschikte wordt gebruikt op basis van het uiteindelijke renderplatform.  Bijvoorbeeld, uw ShaderMaterial‑instantie kan twee technieken hebben, één gedefinieerd door HLSL en een andere gedefinieerd door GLSL.  Op niet‑Windows‑platforms moet de GLSL in plaats van de HLSL worden gebruikt.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Een shader‑materiaal maakt het mogelijk het materiaal te beschrijven met een e
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuwe instantie van de ShaderMaterial‑klasse. |
+| constructor() | Initialiseert een nieuw exemplaar van de ShaderMaterial-klasse. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Een shader‑materiaal maakt het mogelijk het materiaal te beschrijven met een e
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(name) | Initialiseert een nieuwe instantie van de ShaderMaterial‑klasse. |
+| constructor_overload(name) | Initialiseert een nieuw exemplaar van de ShaderMaterial-klasse. |
 
  **Parameters:**
 
@@ -88,7 +88,7 @@ Een shader‑materiaal maakt het mogelijk het materiaal te beschrijven met een e
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Een shader‑materiaal maakt het mogelijk het materiaal te beschrijven met een e
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTexture(slotName) | Haalt de textuur op uit de opgegeven slot, dit kan de naam van een materiaaleigenschap of de naam van een shaderparameter zijn. |
+| getTexture(slotName) | Haalt de textuur op uit de opgegeven slot, dit kan de eigenschapsnaam van het materiaal of de parameternaam van de shader zijn. |
 
  **Parameters:**
 
@@ -120,7 +120,7 @@ TextureBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTexture(slotName, texture) | Stelt de textuur in op de opgegeven slot |
+| setTexture(slotName, texture) | Stelt de textuur in voor de opgegeven slot. |
 
  **Parameters:**
 
@@ -140,7 +140,7 @@ TextureBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Formatteert object naar string |
+| toString() | Formatteert object naar string. |
 
  **Result:**
 String
@@ -159,7 +159,7 @@ String
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -178,7 +178,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -197,7 +197,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -216,8 +216,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -230,7 +230,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

@@ -1,5 +1,5 @@
 ---
-title: "Bot"
+title: "Bone"
 second_title: "Aspose.3D voor Node.js via Java API-referentie"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/bone/
 ---
 ## Bone class
 
-Een bone definieert de subset van de controlepunten van de geometrie en bepaalt het blend‑gewicht voor elk controlepunt.  Het Bone‑object kan niet direct worden gebruikt; een SkinDeformer‑instantie wordt gebruikt om de geometrie te deformereren, en SkinDeformer wordt geleverd met een set bones, waarbij elke bone is gekoppeld aan een node.  OPMERKING: Een controlepunt van een geometrie kan aan meer dan één Bone worden gebonden.
+Een bot definieert een subset van de controlepunten van de geometrie en bepaalt het blend‑gewicht voor elk controlepunt.  Het Bone‑object kan niet direct worden gebruikt; een SkinDeformer‑instantie wordt gebruikt om de geometrie te deformereren, en SkinDeformer wordt geleverd met een set botten, waarbij elke bot is gekoppeld aan een node.  OPMERKING: Een controlepunt van een geometrie kan aan meer dan één bot worden gekoppeld.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor(name) | Initialiseert een nieuw exemplaar van de Bot-klasse. |
+| constructor(name) | Initialiseert een nieuw exemplaar van de Bone-klasse. |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload() | Initialiseert een nieuw exemplaar van de Bot-klasse. |
+| constructor_overload() | Initialiseert een nieuw exemplaar van de Bone-klasse. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTransform() | Haalt op of stelt de transformatiematrix in van het knooppunt dat de bot bevat. |
+| getTransform() | Haalt op of stelt de transformatiesmatrix in van het knooppunt dat het bot bevat. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTransform(value) | Haalt op of stelt de transformatiematrix in van het knooppunt dat de bot bevat. |
+| setTransform(value) | Haalt op of stelt de transformatiesmatrix in van het knooppunt dat het bot bevat. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoneTransform() | Haalt op of stelt de transformatiematrix van de bot in. |
+| getBoneTransform() | Haalt op of stelt de transformatiesmatrix van het bot in. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setBoneTransform(value) | Haalt op of stelt de transformatiematrix van de bot in. |
+| setBoneTransform(value) | Haalt op of stelt de transformatiesmatrix van het bot in. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getNode() | Haalt op of stelt het knooppunt in. Het botknooppunt is de bot waaraan de huid is bevestigd; de SkinDeformer zal het botknooppunt gebruiken om de verplaatsing van de controlepunten te beïnvloeden. Een botknooppunt heeft meestal een Skeleton gekoppeld, maar dit is niet vereist. Het gekoppelde Skeleton wordt doorgaans door DCC‑software gebruikt om het skelet aan de gebruiker te tonen. |
+| getNode() | Haalt op of stelt het knooppunt in. Het botknooppunt is het bot waaraan de huid is bevestigd; de SkinDeformer zal het botknooppunt gebruiken om de verplaatsing van de controlepunten te beïnvloeden. Het botknooppunt heeft meestal een Skeleton gekoppeld, maar dit is niet vereist. Een gekoppelde Skeleton wordt meestal door DCC-software gebruikt om het skelet aan de gebruiker te tonen. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setNode(value) | Haalt op of stelt het knooppunt in. Het botknooppunt is de bot waaraan de huid is bevestigd; de SkinDeformer zal het botknooppunt gebruiken om de verplaatsing van de controlepunten te beïnvloeden. Een botknooppunt heeft meestal een Skeleton gekoppeld, maar dit is niet vereist. Het gekoppelde Skeleton wordt doorgaans door DCC‑software gebruikt om het skelet aan de gebruiker te tonen. |
+| setNode(value) | Haalt op of stelt het knooppunt in. Het botknooppunt is het bot waaraan de huid is bevestigd; de SkinDeformer zal het botknooppunt gebruiken om de verplaatsing van de controlepunten te beïnvloeden. Het botknooppunt heeft meestal een Skeleton gekoppeld, maar dit is niet vereist. Een gekoppelde Skeleton wordt meestal door DCC-software gebruikt om het skelet aan de gebruiker te tonen. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -205,16 +205,16 @@ Een bone definieert de subset van de controlepunten van de geometrie en bepaalt 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWeight(index) | Haalt het gewicht op voor het controlepunt dat is opgegeven door de index. |
+| getWeight(index) | Haalt het gewicht op voor het controlepunt gespecificeerd door de index |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| index | Number | Index van het controlepunt |
+| index | Nummer | Index van het controlepunt |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -224,17 +224,17 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWeight(index, weight) | Stelt het gewicht in voor het controlepunt gespecificeerd door index. |
+| setWeight(index, weight) | Stelt het gewicht in voor het controlepunt gespecificeerd door de index |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| index | Number | Index van het controlepunt |
-| gewicht | Number | Nieuw gewicht |
+| index | Nummer | Index van het controlepunt |
+| gewicht | Nummer | Nieuw gewicht |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -250,7 +250,7 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -269,7 +269,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -288,7 +288,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -307,8 +307,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -321,7 +321,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

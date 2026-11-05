@@ -11,15 +11,15 @@ url: /nl/nodejs-java/aspose.threed/fvector3/
 Een floatvector met drie componenten.
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
 | x | De x-component. |
 | y | De y-component. |
 | z | De y-component. |
-| NUL | De Nulvector. |
-| UNIT_SCALE | De eenheids-schaalvector met alle componenten gelijk aan 1 |
+| ZERO | De nulvector. |
+| UNIT_SCALE | De eenheidsvector met alle componenten gelijk aan 1 |
 
 ## Methoden
 
@@ -40,7 +40,7 @@ Een floatvector met drie componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(x, y, z) | Initialiseert een nieuw exemplaar van de FVector3. |
+| constructor_overload(x, y, z) | Initialiseert een nieuw exemplaar van FVector3. |
 
  **Result:**
 
@@ -53,7 +53,7 @@ Een floatvector met drie componenten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload2(vec) | Initialiseert een nieuw exemplaar van de FVector3. |
+| constructor_overload2(vec) | Initialiseert een nieuw exemplaar van FVector3. |
 
  **Result:**
 

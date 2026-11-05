@@ -23,7 +23,7 @@ Het LocalFileSystem zal de lees-/schrijfbewerkingen naar een lokale map mappen.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| regisseur | String | null |
+| director | String | null |
 
  **Result:**
 
@@ -43,10 +43,10 @@ Het LocalFileSystem zal de lees-/schrijfbewerkingen naar een lokale map mappen.
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | fileNam | String | null |
-| option | IOConfig | null |
+| optie | IOConfig | null |
 
  **Result:**
-Stream
+Stroom
 
 
 ---
@@ -56,17 +56,17 @@ Stream
 
 | Naam | Beschrijving |
 | --- | --- |
-| writeFile(fileName, options) | Maak een stream aan voor het schrijven van afhankelijkheden. |
+| writeFile(fileName, options) | Maak een stroom aan voor het schrijven van afhankelijkheden. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | fileNam | String | null |
-| option | IOConfig | null |
+| optie | IOConfig | null |
 
  **Result:**
-Stream
+Stroom
 
 
 ---

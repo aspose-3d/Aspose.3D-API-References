@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/textureslot/
 ---
 ## TextureSlot class
 
-Textuur‑slot in Material, kan worden opgesomd via een materiaalinstantie.  @hideconstructor
+Textuurslot in Material, kan worden opgesomd via de materiaalinstantie.  @hideconstructor
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Textuur‑slot in Material, kan worden opgesomd via een materiaalinstantie.  @hi
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTexture() | De textuur die aan het materiaal zal worden gebonden. |
+| getTexture() | De texture die aan het materiaal gebonden zal worden. |
 
  **Result:**
 

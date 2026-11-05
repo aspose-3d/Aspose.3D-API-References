@@ -30,7 +30,7 @@ Uitzonderingen bij initialisatie van de renderpijplijn
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(msg) | Initialiseer een instantie van InitializationException met een gespecificeerd exceptiebericht. |
+| constructor_overload(msg) | Initialiseer een instantie van InitializationException met een opgegeven exceptiebericht. |
 
  **Result:**
 

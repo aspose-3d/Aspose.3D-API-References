@@ -56,7 +56,7 @@ Het RVM-formaat  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getContentType() | Haalt bestandsformaatinhoudstype op. De waarde van de eigenschap is de integer‑constante FileContentType. |
+| getContentType() | Haalt het inhoudstype van het bestandsformaat op. De waarde van de eigenschap is de gehele constante FileContentType. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Het RVM-formaat  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormatType() | Haalt bestandsformaattype op |
+| getFileFormatType() | Haalt bestandsformaattype op. |
 
  **Result:**
 
@@ -103,7 +103,7 @@ Het RVM-formaat  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat. |
+| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat |
 
  **Result:**
 LoadOptions
@@ -116,7 +116,7 @@ LoadOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| createSaveOptions() | Maak standaard opslagopties voor dit bestandsformaat. |
+| createSaveOptions() | Maak standaard opslaanopties voor dit bestandsformaat |
 
  **Result:**
 SaveOptions

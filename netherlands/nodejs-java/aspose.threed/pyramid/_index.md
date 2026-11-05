@@ -17,7 +17,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Construeer een nieuw piramide‑object met standaard bodemgebied (10, 10) en standaardhoogte (5) |
+| constructor() | Construeer een nieuw pyramid‑object met standaard ondergebied (10, 10) en standaardhoogte (5) |
 
  **Result:**
 
@@ -30,15 +30,15 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(xbottom, ybottom, height) | Construeer een nieuw piramide‑object met opgegeven bodemgebied |
+| constructor_overload(xbottom, ybottom, height) | Construeer een nieuw pyramid‑object met opgegeven ondergebied |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| xbottom | Number | De lengte in x-richting van de bodem |
-| ybottom | Number | De lengte in y-richting van de bodem |
-| height | Number | De hoogte van de piramide |
+| xbottom | Nummer | De lengte in x-richting van de onderkant |
+| ybottom | Nummer | De lengte in y-richting van de onderkant |
+| height | Nummer | De hoogte van de pyramid |
 
  **Result:**
 
@@ -51,17 +51,17 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload2(xbottom, ybottom, xtop, ytop, height) | Construeer een nieuw piramide‑object met opgegeven bodemgebied, bovengebied en hoogte. |
+| constructor_overload2(xbottom, ybottom, xtop, ytop, height) | Construeer een nieuw pyramid‑object met opgegeven ondergebied, bovengebied en hoogte. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| xbottom | Number | De lengte in x-richting van het bodemgebied |
-| ybottom | Number | De lengte in y-richting van het bodemgebied |
-| xtop | Number | De lengte in x-richting van het bovengebied |
-| ytop | Number | De lengte in y-richting van het bovengebied |
-| height | Number | De hoogte van de piramide |
+| xbottom | Nummer | De lengte in x-richting van het ondergebied |
+| ybottom | Nummer | De lengte in y-richting van het onderste gebied |
+| xtop | Nummer | De lengte in x-richting van het bovenste gebied |
+| ytop | Nummer | De lengte in y-richting van het bovenste gebied |
+| height | Nummer | De hoogte van de pyramid |
 
  **Result:**
 
@@ -74,18 +74,18 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload3(name, xbottom, ybottom, xtop, ytop, height) | Construeer een nieuw piramide‑object met opgegeven bodemgebied, bovengebied en hoogte. |
+| constructor_overload3(name, xbottom, ybottom, xtop, ytop, height) | Construeer een nieuw pyramid‑object met opgegeven ondergebied, bovengebied en hoogte. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | name | String | De naam van de piramide |
-| xbottom | Number | De lengte in x-richting van het bodemgebied |
-| ybottom | Number | De lengte in y-richting van het bodemgebied |
-| xtop | Number | De lengte in x-richting van het bovengebied |
-| ytop | Number | De lengte in y-richting van het bovengebied |
-| height | Number | De hoogte van de piramide |
+| xbottom | Nummer | De lengte in x-richting van het ondergebied |
+| ybottom | Nummer | De lengte in y-richting van het onderste gebied |
+| xtop | Nummer | De lengte in x-richting van het bovenste gebied |
+| ytop | Nummer | De lengte in y-richting van het bovenste gebied |
+| height | Nummer | De hoogte van de pyramid |
 
  **Result:**
 
@@ -98,7 +98,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBottomArea() | Oppervlakte van de onderkap |
+| getBottomArea() | Oppervlakte van de onderste kap |
 
  **Result:**
 
@@ -111,7 +111,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setBottomArea(value) | Oppervlakte van de onderkap |
+| setBottomArea(value) | Oppervlakte van de onderste kap |
 
  **Result:**
 
@@ -124,7 +124,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTopArea() | Oppervlakte van de bovenkap |
+| getTopArea() | Oppervlakte van de bovenste kap |
 
  **Result:**
 
@@ -137,7 +137,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTopArea(value) | Oppervlakte van de bovenkap |
+| setTopArea(value) | Oppervlakte van de bovenste kap |
 
  **Result:**
 
@@ -150,7 +150,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBottomOffset() | Offset voor onderste hoekpunten |
+| getBottomOffset() | Offset voor de onderste hoekpunten |
 
  **Result:**
 
@@ -163,7 +163,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setBottomOffset(value) | Offset voor onderste hoekpunten |
+| setBottomOffset(value) | Offset voor de onderste hoekpunten |
 
  **Result:**
 
@@ -202,7 +202,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastShadows() | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| getCastShadows() | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -215,7 +215,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -293,7 +293,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -306,7 +306,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -319,7 +319,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -358,7 +358,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -371,7 +371,7 @@ Geparametriseerde piramide.
 
 | Naam | Beschrijving |
 | --- | --- |
-| toMesh() | Converteer huidig object naar mesh |
+| toMesh() | Converteer het huidige object naar een mesh |
 
  **Result:**
 Mesh
@@ -384,7 +384,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 Mesh
@@ -397,7 +397,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -416,7 +416,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -435,7 +435,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -454,7 +454,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -473,8 +473,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -487,7 +487,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

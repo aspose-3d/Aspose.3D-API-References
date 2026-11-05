@@ -49,7 +49,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEnableMipMap() | Haalt op of stelt in of de mipmap is ingeschakeld voor deze texture |
+| getEnableMipMap() | Haalt op of stelt in of de mipmap is ingeschakeld voor deze textuur |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEnableMipMap(value) | Haalt op of stelt in of de mipmap is ingeschakeld voor deze texture |
+| setEnableMipMap(value) | Haalt op of stelt in of de mipmap is ingeschakeld voor deze textuur |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getContent() | Haalt of stelt de binaire inhoud van de texture in. De ingebedde texture-inhoud is optioneel; de gebruiker moet de texture laden vanuit een extern bestand als deze ontbreekt. |
+| getContent() | Haalt op of stelt de binaire inhoud van de textuur in. De ingebedde textuurinhoud is optioneel, de gebruiker moet de textuur laden vanuit een extern bestand als deze ontbreekt. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setContent(value) | Haalt of stelt de binaire inhoud van de texture in. De ingebedde texture-inhoud is optioneel; de gebruiker moet de texture laden vanuit een extern bestand als deze ontbreekt. |
+| setContent(value) | Haalt op of stelt de binaire inhoud van de textuur in. De ingebedde textuurinhoud is optioneel, de gebruiker moet de textuur laden vanuit een extern bestand als deze ontbreekt. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | Haalt of stelt het gekoppelde texture-bestand in. De naam van het bestand. |
+| getFileName() | Haalt op of stelt het gekoppelde textuurbestand in. De naam van het bestand. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | Haalt of stelt het gekoppelde texture-bestand in. De naam van het bestand. |
+| setFileName(value) | Haalt op of stelt het gekoppelde textuurbestand in. De naam van het bestand. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAlpha() | Haalt of stelt de standaard alfa-waarde van de texture in. Dit is geldig wanneer de AlphaSource AlphaSource.PIXEL_ALPHA is. Standaardwaarde is 1.0, geldig bereik is tussen 0 en 1. |
+| getAlpha() | Haalt op of stelt de standaard alfa-waarde van de textuur in. Dit is geldig wanneer de AlphaSource AlphaSource.PIXEL_ALPHA is. Standaardwaarde is 1,0, geldig bereik is tussen 0 en 1. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAlpha(value) | Haalt of stelt de standaard alfa-waarde van de texture in. Dit is geldig wanneer de AlphaSource AlphaSource.PIXEL_ALPHA is. Standaardwaarde is 1.0, geldig bereik is tussen 0 en 1. |
+| setAlpha(value) | Haalt op of stelt de standaard alfa-waarde van de textuur in. Dit is geldig wanneer de AlphaSource AlphaSource.PIXEL_ALPHA is. Standaardwaarde is 1,0, geldig bereik is tussen 0 en 1. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAlphaSource() | Haalt of stelt of de texture het alfacanaal definieert. Standaardwaarde is AlphaSource.NONE. De waarde van de eigenschap is een AlphaSource integer-constante. |
+| getAlphaSource() | Haalt op of stelt in of de textuur het alfac kanaal definieert. Standaardwaarde is AlphaSource.NONE. De waarde van de eigenschap is een AlphaSource integer-constante. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAlphaSource(value) | Haalt of stelt of de texture het alfacanaal definieert. Standaardwaarde is AlphaSource.NONE. De waarde van de eigenschap is een AlphaSource integer-constante. |
+| setAlphaSource(value) | Haalt op of stelt in of de textuur het alfac kanaal definieert. Standaardwaarde is AlphaSource.NONE. De waarde van de eigenschap is een AlphaSource integer-constante. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWrapModeU() | Haalt of stelt de texture wrap-modi in U in. De waarde van de eigenschap is een WrapMode integer-constante. |
+| getWrapModeU() | Haalt op of stelt de textuur-wrapmodi in U in. De waarde van de eigenschap is een WrapMode integer-constante. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWrapModeU(value) | Haalt of stelt de texture wrap-modi in U in. De waarde van de eigenschap is een WrapMode integer-constante. |
+| setWrapModeU(value) | Haalt op of stelt de textuur-wrapmodi in U in. De waarde van de eigenschap is een WrapMode integer-constante. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWrapModeV() | Haalt of stelt de texture wrap-modi in V in. De waarde van de eigenschap is een WrapMode integer-constante. |
+| getWrapModeV() | Haalt op of stelt de textuur-wrapmodi in V in. De waarde van de eigenschap is een WrapMode integer-constante. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWrapModeV(value) | Haalt of stelt de texture wrap-modi in V in. De waarde van de eigenschap is een WrapMode integer-constante. |
+| setWrapModeV(value) | Haalt op of stelt de textuur-wrapmodi in V in. De waarde van de eigenschap is een WrapMode integer-constante. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWrapModeW() | Haalt of stelt de texture wrap-modi in W in. De waarde van de eigenschap is een WrapMode integer-constante. |
+| getWrapModeW() | Haalt op of stelt de textuur-wrapmodi in W in. De waarde van de eigenschap is een WrapMode integer-constante. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWrapModeW(value) | Haalt of stelt de texture wrap-modi in W in. De waarde van de eigenschap is een WrapMode integer-constante. |
+| setWrapModeW(value) | Haalt op of stelt de textuur-wrapmodi in W in. De waarde van de eigenschap is een WrapMode integer-constante. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMinFilter() | Haalt of stelt het filter voor verkleining in. De waarde van de eigenschap is een TextureFilter integer-constante. |
+| getMinFilter() | Haalt op of stelt het filter voor verkleining in. De waarde van de eigenschap is een integer-constante van TextureFilter. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMinFilter(value) | Haalt of stelt het filter voor verkleining in. De waarde van de eigenschap is een TextureFilter integer-constante. |
+| setMinFilter(value) | Haalt op of stelt het filter voor verkleining in. De waarde van de eigenschap is een integer-constante van TextureFilter. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMagFilter() | Haalt op of stelt het filter voor vergroting in. De waarde van de eigenschap is een TextureFilter integer-constante. |
+| getMagFilter() | Haalt op of stelt het filter voor vergroting in. De waarde van de eigenschap is een integer-constante van TextureFilter. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMagFilter(value) | Haalt op of stelt het filter voor vergroting in. De waarde van de eigenschap is een TextureFilter integer-constante. |
+| setMagFilter(value) | Haalt op of stelt het filter voor vergroting in. De waarde van de eigenschap is een integer-constante van TextureFilter. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMipFilter() | Haalt op of stelt het filter voor mip-niveau sampling in. De waarde van de eigenschap is een TextureFilter integer-constante. |
+| getMipFilter() | Haalt op of stelt het filter voor mip-niveau sampling in. De waarde van de eigenschap is een integer-constante van TextureFilter. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMipFilter(value) | Haalt op of stelt het filter voor mip-niveau sampling in. De waarde van de eigenschap is een TextureFilter integer-constante. |
+| setMipFilter(value) | Haalt op of stelt het filter voor mip-niveau sampling in. De waarde van de eigenschap is een integer-constante van TextureFilter. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUVRotation() | Haalt op of stelt de rotatie van de textuur in |
+| getUVRotation() | Haalt op of stelt de rotatie van de texture in. |
 
  **Result:**
 
@@ -348,7 +348,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setUVRotation(value) | Haalt op of stelt de rotatie van de textuur in |
+| setUVRotation(value) | Haalt op of stelt de rotatie van de texture in. |
 
  **Result:**
 
@@ -439,7 +439,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -458,8 +458,8 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Nummer | U. |
+| v | Nummer | V. |
 
  **Result:**
 
@@ -478,8 +478,8 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Nummer | U. |
+| v | Nummer | V. |
 
  **Result:**
 
@@ -498,8 +498,8 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Nummer | U. |
+| v | Nummer | V. |
 
  **Result:**
 
@@ -518,7 +518,7 @@ Deze klasse definieert de textuur vanuit een extern bestand.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -537,7 +537,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -556,7 +556,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -575,8 +575,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -589,7 +589,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

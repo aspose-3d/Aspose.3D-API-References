@@ -1,5 +1,5 @@
 ---
-title: "Cilinder"
+title: "Cylinder"
 second_title: "Aspose.3D voor Node.js via Java API-referentie"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/cylinder/
 ---
 ## Cylinder class
 
-Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven wanneer een van radiusTop/radiusBottom nul is.
+Geparameterde Cylinder.  Het kan ook worden gebruikt om de kegel weer te geven wanneer een van radiusTop/radiusBottom nul is.
 
 
 ## Methoden
@@ -36,8 +36,8 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| radius | Number | Straal van de boven- en onderkap. |
-| height | Number | Hoogte. |
+| radius | Nummer | Straal van de boven- en onderkap. |
+| height | Nummer | Hoogte. |
 
  **Result:**
 
@@ -56,9 +56,9 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| radiusTop | Number | Straal boven. |
-| radiusBottom | Number | Straal onder. |
-| height | Number | Hoogte. |
+| radiusTop | Nummer | Bovenste straal. |
+| radiusBottom | Nummer | Onderste straal. |
+| height | Nummer | Hoogte. |
 
  **Result:**
 
@@ -77,11 +77,11 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| radiusTop | Number | Straal van de bovenkap van de cilinder. |
-| radiusBottom | Number | Straal van de onderkap van de cilinder. |
-| height | Number | Hoogte van de cilinder. |
-| radialSegments | Number | Radiale segmenten van zowel de boven- als ondercirkel. |
-| heightSegments | Number | Hoogtesegmenten. |
+| radiusTop | Nummer | Straal van de bovenste kap van de cilinder. |
+| radiusBottom | Nummer | Straal van de onderste kap van de cilinder. |
+| height | Nummer | Hoogte van de cilinder. |
+| radialSegments | Nummer | Radiale segmenten van zowel de boven- als ondercirkel.. |
+| heightSegments | Nummer | Hoogtesegmenten. |
 | openEnded | boolean | Indien ingesteld op |
 
  **Result:**
@@ -102,14 +102,14 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | name | String | De naam van dit object |
-| radiusTop | Number | Straal van de bovenkap van de cilinder. |
-| radiusBottom | Number | Straal van de onderkap van de cilinder. |
-| height | Number | Hoogte van de cilinder. |
-| radialSegments | Number | Radiale segmenten van zowel de boven- als ondercirkel. |
-| heightSegments | Number | Hoogtesegmenten. |
+| radiusTop | Nummer | Straal van de bovenste kap van de cilinder. |
+| radiusBottom | Nummer | Straal van de onderste kap van de cilinder. |
+| height | Nummer | Hoogte van de cilinder. |
+| radialSegments | Nummer | Radiale segmenten van zowel de boven- als ondercirkel.. |
+| heightSegments | Nummer | Hoogtesegmenten. |
 | openEnded | boolean | Indien ingesteld op |
-| thetaStart | Number | Theta start. |
-| thetaLength | Number | Theta lengte. |
+| thetaStart | Nummer | Theta-start. |
+| thetaLength | Nummer | Theta lengte. |
 
  **Result:**
 
@@ -122,7 +122,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOffsetBottom() | Haalt of stelt de vertices-transformatie-offset van de onderkant in. |
+| getOffsetBottom() | Geeft de transformatieverschuiving van de vertices van de onderkant terug of stelt deze in. |
 
  **Result:**
 
@@ -135,7 +135,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOffsetBottom(value) | Haalt of stelt de vertices-transformatie-offset van de onderkant in. |
+| setOffsetBottom(value) | Geeft de transformatieverschuiving van de vertices van de onderkant terug of stelt deze in. |
 
  **Result:**
 
@@ -148,7 +148,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOffsetTop() | Haalt of stelt de vertices-transformatie-offset van de bovenkant in. |
+| getOffsetTop() | Geeft de transformatieverschuiving van de vertices van de bovenkant terug of stelt deze in. |
 
  **Result:**
 
@@ -161,7 +161,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOffsetTop(value) | Haalt of stelt de vertices-transformatie-offset van de bovenkant in. |
+| setOffsetTop(value) | Geeft de transformatieverschuiving van de vertices van de bovenkant terug of stelt deze in. |
 
  **Result:**
 
@@ -174,7 +174,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGenerateFanCylinder() | Geeft of stelt in of de ventilator-stijl cilinder moet worden gegenereerd wanneer de ThetaLength kleiner is dan 2PI, anders wordt het model niet gesneden. |
+| getGenerateFanCylinder() | Geeft aan of een fan-vormige cilinder moet worden gegenereerd wanneer de ThetaLength kleiner is dan 2π, anders wordt het model niet gesneden. |
 
  **Result:**
 
@@ -187,7 +187,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGenerateFanCylinder(value) | Geeft of stelt in of de ventilator-stijl cilinder moet worden gegenereerd wanneer de ThetaLength kleiner is dan 2PI, anders wordt het model niet gesneden. |
+| setGenerateFanCylinder(value) | Geeft aan of een fan-vormige cilinder moet worden gegenereerd wanneer de ThetaLength kleiner is dan 2π, anders wordt het model niet gesneden. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShearBottom() | Geeft of stelt de schuiftransformatie van de onderkant in, vector slaat de (x-as, z-as) schuifwaarde op die in radialen wordt gemeten, standaardwaarde is (0, 0). |
+| getShearBottom() | Geeft de schuiftransformatie van de onderkant terug of stelt deze in; de vector slaat de (x-as, z-as) schuifwaarde op die in radialen wordt gemeten, standaardwaarde is (0, 0). |
 
  **Result:**
 
@@ -213,7 +213,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShearBottom(value) | Geeft of stelt de schuiftransformatie van de onderkant in, vector slaat de (x-as, z-as) schuifwaarde op die in radialen wordt gemeten, standaardwaarde is (0, 0). |
+| setShearBottom(value) | Geeft de schuiftransformatie van de onderkant terug of stelt deze in; de vector slaat de (x-as, z-as) schuifwaarde op die in radialen wordt gemeten, standaardwaarde is (0, 0). |
 
  **Result:**
 
@@ -226,7 +226,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShearTop() | Geeft of stelt de schuiftransformatie van de bovenkant in, vector slaat de (x-as, z-as) schuifwaarde op die in radialen wordt gemeten, standaardwaarde is (0, 0). |
+| getShearTop() | Geeft de schuiftransformatie van de bovenkant terug of stelt deze in; de vector slaat de (x-as, z-as) schuifwaarde op die in radialen wordt gemeten, standaardwaarde is (0, 0). |
 
  **Result:**
 
@@ -239,7 +239,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShearTop(value) | Geeft of stelt de schuiftransformatie van de bovenkant in, vector slaat de (x-as, z-as) schuifwaarde op die in radialen wordt gemeten, standaardwaarde is (0, 0). |
+| setShearTop(value) | Geeft de schuiftransformatie van de bovenkant terug of stelt deze in; de vector slaat de (x-as, z-as) schuifwaarde op die in radialen wordt gemeten, standaardwaarde is (0, 0). |
 
  **Result:**
 
@@ -252,7 +252,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRadiusTop() | Geeft of stelt de straal van de bovenkap van de cilinder in. De straal van de bovenkap. |
+| getRadiusTop() | Geeft de straal van de bovenste kap van de cilinder terug of stelt deze in. De straal van de bovenste kap. |
 
  **Result:**
 
@@ -265,7 +265,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRadiusTop(value) | Geeft of stelt de straal van de bovenkap van de cilinder in. De straal van de bovenkap. |
+| setRadiusTop(value) | Geeft de straal van de bovenste kap van de cilinder terug of stelt deze in. De straal van de bovenste kap. |
 
  **Result:**
 
@@ -278,7 +278,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRadiusBottom() | Geeft of stelt de straal van de onderkap van de cilinder in. De straal van de onderkap. |
+| getRadiusBottom() | Geeft de straal van de onderste kap van de cilinder terug of stelt deze in. De straal van de onderste kap. |
 
  **Result:**
 
@@ -291,7 +291,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRadiusBottom(value) | Geeft of stelt de straal van de onderkap van de cilinder in. De straal van de onderkap. |
+| setRadiusBottom(value) | Geeft de straal van de onderste kap van de cilinder terug of stelt deze in. De straal van de onderste kap. |
 
  **Result:**
 
@@ -304,7 +304,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getHeight() | Geeft of stelt de hoogte van de cilinder in. De hoogte. |
+| getHeight() | Geeft de hoogte van de cilinder terug of stelt deze in. De hoogte. |
 
  **Result:**
 
@@ -317,7 +317,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setHeight(value) | Geeft of stelt de hoogte van de cilinder in. De hoogte. |
+| setHeight(value) | Geeft de hoogte van de cilinder terug of stelt deze in. De hoogte. |
 
  **Result:**
 
@@ -330,7 +330,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRadialSegments() | Geeft of stelt de radiale segmenten in. De radiale segmenten. |
+| getRadialSegments() | Geeft de radiale segmenten terug of stelt deze in. De radiale segmenten. |
 
  **Result:**
 
@@ -343,7 +343,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRadialSegments(value) | Geeft of stelt de radiale segmenten in. De radiale segmenten. |
+| setRadialSegments(value) | Geeft de radiale segmenten terug of stelt deze in. De radiale segmenten. |
 
  **Result:**
 
@@ -356,7 +356,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getHeightSegments() | Haalt op of stelt de hoogtesegmenten in. De hoogtesegmenten. |
+| getHeightSegments() | Haalt op of stelt de hoogte‑segmenten in. De hoogte‑segmenten. |
 
  **Result:**
 
@@ -369,7 +369,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setHeightSegments(value) | Haalt op of stelt de hoogtesegmenten in. De hoogtesegmenten. |
+| setHeightSegments(value) | Haalt op of stelt de hoogte‑segmenten in. De hoogte‑segmenten. |
 
  **Result:**
 
@@ -382,7 +382,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOpenEnded() | Geeft of stelt een waarde in die aangeeft of deze Cylinder open eindig is. Standaardwaarde is false. true als open eindig; anders bestaan er boven-/onderkappen. |
+| getOpenEnded() | Geeft een waarde terug die aangeeft of deze cilinder open eindig is, of stelt deze in. Standaardwaarde is false. Waar true als open eindig; anders bestaan er boven- en onderkappen. |
 
  **Result:**
 
@@ -395,7 +395,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOpenEnded(value) | Geeft of stelt een waarde in die aangeeft of deze Cylinder open eindig is. Standaardwaarde is false. true als open eindig; anders bestaan er boven-/onderkappen. |
+| setOpenEnded(value) | Geeft een waarde terug die aangeeft of deze cilinder open eindig is, of stelt deze in. Standaardwaarde is false. Waar true als open eindig; anders bestaan er boven- en onderkappen. |
 
  **Result:**
 
@@ -408,7 +408,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getThetaStart() | Geeft of stelt de theta-start in. Standaardwaarde is 0. De theta-start. |
+| getThetaStart() | Haalt de theta-start op of stelt deze in. De standaardwaarde is 0. De theta-start. |
 
  **Result:**
 
@@ -421,7 +421,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setThetaStart(value) | Geeft of stelt de theta-start in. Standaardwaarde is 0. De theta-start. |
+| setThetaStart(value) | Haalt de theta-start op of stelt deze in. De standaardwaarde is 0. De theta-start. |
 
  **Result:**
 
@@ -434,7 +434,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getThetaLength() | Geeft of stelt de lengte van de theta in. Standaardwaarde is 2π. De lengte van de theta. |
+| getThetaLength() | Haalt de lengte van de theta op of stelt deze in. De standaardwaarde is 2π. De lengte van de theta. |
 
  **Result:**
 
@@ -447,7 +447,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setThetaLength(value) | Geeft of stelt de lengte van de theta in. Standaardwaarde is 2π. De lengte van de theta. |
+| setThetaLength(value) | Haalt de lengte van de theta op of stelt deze in. De standaardwaarde is 2π. De lengte van de theta. |
 
  **Result:**
 
@@ -460,7 +460,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCastShadows() | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| getCastShadows() | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -473,7 +473,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduwen kan werpen |
+| setCastShadows(value) | Haalt op of stelt in of deze geometrie schaduw kan werpen |
 
  **Result:**
 
@@ -551,7 +551,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -564,7 +564,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -577,7 +577,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -616,7 +616,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -629,7 +629,7 @@ Geparameterde cilinder.  Het kan ook worden gebruikt om de kegel weer te geven w
 
 | Naam | Beschrijving |
 | --- | --- |
-| toMesh() | Converteer huidig object naar mesh |
+| toMesh() | Converteer het huidige object naar een mesh |
 
  **Result:**
 Mesh
@@ -642,7 +642,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 Mesh
@@ -655,7 +655,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -674,7 +674,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -693,7 +693,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -712,7 +712,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -731,8 +731,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -745,7 +745,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

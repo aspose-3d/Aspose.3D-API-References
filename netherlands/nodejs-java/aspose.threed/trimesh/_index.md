@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/trimesh/
 ---
 ## TriMesh class
 
-Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt.  Deze klasse is een hulpprogramma om een mesh te construeren die alleen per‑vertex data bevat.
+Een TriMesh bevat ruwe gegevens die direct door de GPU kunnen worden gebruikt. Deze klasse is een hulpprogramma om een mesh te construeren die alleen per-vertex-gegevens bevat.
 
 
 ## Methoden
@@ -24,7 +24,7 @@ Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt.  Deze kl
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | name | String | De naam van deze TriMesh |
-| declaratie | VertexDeclaration | De declaratie van de vertex |
+| declaration | VertexDeclaration | De declaratie van de vertex |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt.  Deze kl
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexDeclaration() | De vertexlay-out van de TriMesh. |
+| getVertexDeclaration() | De vertex-indeling van de TriMesh. |
 
  **Result:**
 
@@ -76,7 +76,7 @@ Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt.  Deze kl
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUnmergedVerticesCount() | Het aantal niet- samengevoegde vertices dat is doorgegeven door beginVertex() en endVertex(). |
+| getUnmergedVerticesCount() | Het aantal niet-samengevoegde vertices die zijn doorgegeven via beginVertex() en endVertex(). |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt.  Deze kl
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt.  Deze kl
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -180,7 +180,7 @@ Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt.  Deze kl
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -219,7 +219,7 @@ Een TriMesh bevat ruwe data die direct door de GPU kan worden gebruikt.  Deze kl
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -252,14 +252,14 @@ TriMesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| copyFrom(input, vd) | Kopieer de TriMesh van de invoer met een nieuwe vertex-indeling |
+| copyFrom(input, vd) | Kopieer de TriMesh van input met een nieuwe vertex-indeling |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| input | TriMesh | De invoer TriMesh voor kopiëren |
-| vd | VertexDeclaration | De nieuwe vertex-declaratie van de uitvoer TriMesh |
+| input | TriMesh | De invoer‑TriMesh voor kopiëren |
+| vd | VertexDeclaration | De nieuwe vertex-declaratie van de uitvoer‑TriMesh |
 
  **Result:**
 TriMesh
@@ -272,14 +272,14 @@ TriMesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromMesh(mesh, useFloat) | Maak een TriMesh van het opgegeven mesh-object, de vertex-declaratie is gebaseerd op de structuur van de invoer mesh. |
+| fromMesh(mesh, useFloat) | Maak een TriMesh van het opgegeven mesh-object, de vertex-declaratie is gebaseerd op de structuur van de invoer‑mesh. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | mes | Mesh | null |
-| useFloat | boolean | Gebruik het float-type in plaats van het double-type voor elk vertex-elementcomponent. |
+| useFloat | boolean | Gebruik het float-type in plaats van het double-type voor elk component van een vertex-element. |
 
  **Result:**
 TriMesh
@@ -305,7 +305,7 @@ Vertex
 
 | Naam | Beschrijving |
 | --- | --- |
-| endVertex() | End van het toevoegen van vertex |
+| endVertex() | Einde van het toevoegen van een vertex |
 
  **Result:**
 Vertex
@@ -318,7 +318,7 @@ Vertex
 
 | Naam | Beschrijving |
 | --- | --- |
-| verticesToArray() | Converteer de vertexgegevens naar een byte-array |
+| verticesToArray() | Converteer de vertexgegevens naar een byte array |
 
  **Result:**
 byte[]
@@ -344,16 +344,16 @@ String
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromRawData(vd, vertices, indices, generateVertexMapping) | Maak een TriMesh aan vanuit ruwe gegevens. De geretourneerde TriMesh zal de invoer-byte-array niet kopiëren voor prestaties; externe wijzigingen in de array worden weerspiegeld in deze instantie. |
+| fromRawData(vd, vertices, indices, generateVertexMapping) | Maak een TriMesh aan vanuit ruwe gegevens. De geretourneerde TriMesh zal de invoer-byte array niet kopiëren voor prestaties; externe wijzigingen in de array worden weerspiegeld in deze instantie. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | vd | VertexDeclaration | Vertex-declaratie moet minstens één veld bevatten. |
-| vertices | byte[] | De invoer-vertex-gegevens, de minimale lengte van de vertices moet groter of gelijk zijn aan de grootte van de vertex-declaratie. |
+| vertices | byte[] | De invoer-vertexgegevens, de minimale lengte van de vertices moet groter of gelijk zijn aan de grootte van de vertex-declaratie. |
 | indices | Number[] | De driehoekindices |
-| generateVertexMapping | boolean | Genereren |
+| generateVertexMapping | boolean | Genereer |
 
  **Result:**
 TriMesh
@@ -366,7 +366,7 @@ TriMesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| loadVerticesFromBytes(verticesInBytes) | Laad vertices vanuit bytes, de lengte van de bytes moet een geheel veelvoud zijn van de vertex-grootte. |
+| loadVerticesFromBytes(verticesInBytes) | Laad vertices vanuit bytes, de lengte van de bytes moet een geheel veelvoud zijn van de vertexgrootte. |
 
  **Parameters:**
 
@@ -391,8 +391,8 @@ TriMesh
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| idx | Number | De index van de te lezen vertex |
-| field | VertexField | Het veld met een Vector4/FVector4-datatype |
+| idx | Nummer | De index van de vertex om te lezen |
+| field | VertexField | Het veld met een Vector4/FVector4 datatype |
 
  **Result:**
 Vector4
@@ -411,8 +411,8 @@ Vector4
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| idx | Number | De index van de te lezen vertex |
-| field | VertexField | Het veld met een Vector4/FVector4-datatype |
+| idx | Nummer | De index van de vertex om te lezen |
+| field | VertexField | Het veld met een Vector4/FVector4 datatype |
 
  **Result:**
 FVector4
@@ -431,7 +431,7 @@ FVector4
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| idx | Number | De index van de te lezen vertex |
+| idx | Nummer | De index van de vertex om te lezen |
 | field | VertexField | Het veld met een Vector3/FVector3 datatype |
 
  **Result:**
@@ -451,7 +451,7 @@ Vector3
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| idx | Number | De index van de te lezen vertex |
+| idx | Nummer | De index van de vertex om te lezen |
 | field | VertexField | Het veld met een Vector3/FVector3 datatype |
 
  **Result:**
@@ -471,7 +471,7 @@ FVector3
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| idx | Number | De index van de te lezen vertex |
+| idx | Nummer | De index van de vertex om te lezen |
 | field | VertexField | Het veld met een Vector2/FVector2 datatype |
 
  **Result:**
@@ -491,7 +491,7 @@ Vector2
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| idx | Number | De index van de te lezen vertex |
+| idx | Nummer | De index van de vertex om te lezen |
 | field | VertexField | Het veld met een Vector2/FVector2 datatype |
 
  **Result:**
@@ -511,11 +511,11 @@ FVector2
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| idx | Number | De index van de te lezen vertex |
-| field | VertexField | Het veld met een float/double-compatibel datatype |
+| idx | Nummer | De index van de vertex om te lezen |
+| field | VertexField | Het veld met een float/double compatibel datatype |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -531,11 +531,11 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| idx | Number | De index van de te lezen vertex |
-| field | VertexField | Het veld met een float/double-compatibel datatype |
+| idx | Nummer | De index van de vertex om te lezen |
+| field | VertexField | Het veld met een float/double compatibel datatype |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -545,10 +545,10 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -558,7 +558,7 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -577,7 +577,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -596,7 +596,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -615,7 +615,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -634,8 +634,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -648,7 +648,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

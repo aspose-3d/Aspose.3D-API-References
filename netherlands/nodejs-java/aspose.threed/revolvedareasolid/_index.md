@@ -30,7 +30,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAngleStart() | Haalt op of stelt de starthoek van de roterende procedure in, gemeten in radialen, standaardwaarde is 0. |
+| getAngleStart() | Haalt of stelt de starthoek van de roterende procedure in, gemeten in radialen, standaardwaarde is 0. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAngleStart(value) | Haalt op of stelt de starthoek van de roterende procedure in, gemeten in radialen, standaardwaarde is 0. |
+| setAngleStart(value) | Haalt of stelt de starthoek van de roterende procedure in, gemeten in radialen, standaardwaarde is 0. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAngleEnd() | Haalt op of stelt de eindhoek van de roterende procedure in, gemeten in radialen, standaardwaarde is pi. |
+| getAngleEnd() | Haalt of stelt de eindhoek van de roterende procedure in, gemeten in radialen, standaardwaarde is pi. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAngleEnd(value) | Haalt op of stelt de eindhoek van de roterende procedure in, gemeten in radialen, standaardwaarde is pi. |
+| setAngleEnd(value) | Haalt of stelt de eindhoek van de roterende procedure in, gemeten in radialen, standaardwaarde is pi. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAxis() | Haalt op of stelt de asrichting in, standaardwaarde is (0, 1, 0). |
+| getAxis() | Haalt of stelt de asrichting in, standaardwaarde is (0, 1, 0). |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAxis(value) | Haalt op of stelt de asrichting in, standaardwaarde is (0, 1, 0). |
+| setAxis(value) | Haalt of stelt de asrichting in, standaardwaarde is (0, 1, 0). |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOrigin() | Haalt op of stelt het oorsprongspunt van de rotatie in, standaardwaarde is (0, 0, 0). |
+| getOrigin() | Haalt of stelt het oorsprongspunt van de rotatie in, standaardwaarde is (0, 0, 0). |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOrigin(value) | Haalt op of stelt het oorsprongspunt van de rotatie in, standaardwaarde is (0, 0, 0). |
+| setOrigin(value) | Haalt of stelt het oorsprongspunt van de rotatie in, standaardwaarde is (0, 0, 0). |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShape() | Haalt op of stelt het basisprofiel in dat wordt gebruikt voor de rotatie. |
+| getShape() | Haalt op of stelt het basisprofiel in dat wordt gebruikt om te draaien. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShape(value) | Haalt op of stelt het basisprofiel in dat wordt gebruikt voor de rotatie. |
+| setShape(value) | Haalt op of stelt het basisprofiel in dat wordt gebruikt om te draaien. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Deze klasse vertegenwoordigt een solide model door een doorsnede, geleverd door 
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 Mesh
@@ -303,7 +303,7 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -322,7 +322,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -341,7 +341,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -360,7 +360,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -379,8 +379,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -393,7 +393,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/spirvsource/
 ---
 ## SPIRVSource class
 
-De gecompileerde shader in SPIR-V‑formaat.
+De gecompileerde shader in SPIR-V-formaat.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMaximumDescriptorSets() | Maximum descriptor sets, standaardwaarde is 10 |
+| getMaximumDescriptorSets() | Maximum aantal descriptor-sets, standaardwaarde is 10 |
 
  **Result:**
 
@@ -43,7 +43,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMaximumDescriptorSets(value) | Maximum descriptor sets, standaardwaarde is 10 |
+| setMaximumDescriptorSets(value) | Maximum aantal descriptor-sets, standaardwaarde is 10 |
 
  **Result:**
 
@@ -56,7 +56,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getComputeShader() | Geeft of stelt de broncode van de compute shader in. |
+| getComputeShader() | Haalt op of stelt de broncode van de compute shader in. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setComputeShader(value) | Geeft of stelt de broncode van de compute shader in. |
+| setComputeShader(value) | Haalt op of stelt de broncode van de compute shader in. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGeometryShader() | Geeft of stelt de broncode van de geometry shader in. |
+| getGeometryShader() | Haalt op of stelt de broncode van de geometry shader in. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGeometryShader(value) | Geeft of stelt de broncode van de geometry shader in. |
+| setGeometryShader(value) | Haalt op of stelt de broncode van de geometry shader in. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexShader() | Geeft of stelt de broncode van de vertex shader in |
+| getVertexShader() | Haalt de broncode van de vertexshader op of stelt deze in |
 
  **Result:**
 
@@ -121,7 +121,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setVertexShader(value) | Geeft of stelt de broncode van de vertex shader in |
+| setVertexShader(value) | Haalt de broncode van de vertexshader op of stelt deze in |
 
  **Result:**
 
@@ -134,7 +134,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFragmentShader() | Haalt de broncode van de fragmentshader op of stelt deze in. |
+| getFragmentShader() | Haalt de broncode van de fragmentshader op of stelt deze in |
 
  **Result:**
 
@@ -147,7 +147,7 @@ De gecompileerde shader in SPIR-V‑formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFragmentShader(value) | Haalt de broncode van de fragmentshader op of stelt deze in. |
+| setFragmentShader(value) | Haalt de broncode van de fragmentshader op of stelt deze in |
 
  **Result:**
 

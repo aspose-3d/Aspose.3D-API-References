@@ -8,10 +8,10 @@ url: /nl/nodejs-java/aspose.threed/matrix4/
 ---
 ## Matrix4 class
 
-Implementatie van een 4x4-matrix.
+4x4 matriximplementatie.
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -79,22 +79,22 @@ Implementatie van een 4x4-matrix.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| m00 | Number | M00. |
-| m01 | Number | M01. |
-| m02 | Number | M02. |
-| m03 | Number | M03. |
-| m10 | Number | M10. |
-| m11 | Number | M11. |
-| m12 | Number | M12. |
-| m13 | Number | M13. |
-| m20 | Number | M20. |
-| m21 | Number | M21. |
-| m22 | Number | M22. |
-| m23 | Number | M23. |
-| m30 | Number | M30. |
-| m31 | Number | M31. |
-| m32 | Number | M32. |
-| m33 | Number | M33. |
+| m00 | Nummer | M00. |
+| m01 | Nummer | M01. |
+| m02 | Nummer | M02. |
+| m03 | Nummer | M03. |
+| m10 | Nummer | M10. |
+| m11 | Nummer | M11. |
+| m12 | Nummer | M12. |
+| m13 | Nummer | M13. |
+| m20 | Nummer | M20. |
+| m21 | Nummer | M21. |
+| m22 | Nummer | M22. |
+| m23 | Nummer | M23. |
+| m30 | Nummer | M30. |
+| m31 | Nummer | M31. |
+| m32 | Nummer | M32. |
+| m33 | Nummer | M33. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Implementatie van een 4x4-matrix.
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload3(m) | Construeer Matrix4 vanuit een FMatrix4-exemplaar. |
+| constructor_overload3(m) | Construeer Matrix4 vanuit een FMatrix4-instantie |
 
  **Parameters:**
 
@@ -145,7 +145,7 @@ Implementatie van een 4x4-matrix.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getIdentity() | Haalt de identiteitsmatrix op. De identiteit. |
+| getIdentity() | Verkrijgt de identiteitsmatrix. De identiteit. |
 
  **Result:**
 
@@ -158,7 +158,7 @@ Implementatie van een 4x4-matrix.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDeterminant() | Haalt de determinant van de matrix op. De determinant. |
+| getDeterminant() | Verkrijgt de determinant van de matrix. De determinant. |
 
  **Result:**
 
@@ -171,7 +171,7 @@ Implementatie van een 4x4-matrix.
 
 | Naam | Beschrijving |
 | --- | --- |
-| concatenate(m2) | Concateneert de twee matrices. |
+| concatenate(m2) | Concateneert de twee matrices |
 
  **Parameters:**
 
@@ -263,7 +263,7 @@ Number[]
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Retourneert een java.lang.String die de huidige Matrix4 vertegenwoordigt. |
+| toString() | Retourneert een java.lang.String die de huidige Matrix4 weergeeft. |
 
  **Result:**
 String
@@ -276,13 +276,13 @@ String
 
 | Naam | Beschrijving |
 | --- | --- |
-| translate(t) | Creëert een matrix die langs de x-as, de y-as en de z-as verplaatst. |
+| translate(t) | Maakt een matrix die langs de x-as, de y-as en de z-as vertaalt. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| t | Vector3 | Vertaalverschuiving |
+| t | Vector3 | Vertaal offset |
 
  **Result:**
 Matrix4
@@ -295,15 +295,15 @@ Matrix4
 
 | Naam | Beschrijving |
 | --- | --- |
-| translate(tx, ty, tz) | Creëert een matrix die langs de x-as, de y-as en de z-as verplaatst. |
+| translate(tx, ty, tz) | Maakt een matrix die langs de x-as, de y-as en de z-as vertaalt. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| tx | Number | X-coördinaatverschuiving |
-| ty | Number | Y-coördinaat offset |
-| tz | Number | Z-coördinaat offset |
+| tx | Nummer | X-coördinaat offset |
+| ty | Nummer | Y-coördinaat offset |
+| tz | Nummer | Z-coördinaat offset |
 
  **Result:**
 Matrix4
@@ -322,7 +322,7 @@ Matrix4
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| s | Vector3 | Scaling factories is van toepassing op de x-as, de y-as en de z-as |
+| s | Vector3 | Schaalfactories gelden voor de x-as, de y-as en de z-as |
 
  **Result:**
 Matrix4
@@ -341,7 +341,7 @@ Matrix4
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| s | Number | Scaling factories is van toepassing op alle assen |
+| s | Nummer | Schaalfactories gelden voor alle assen |
 
  **Result:**
 Matrix4
@@ -360,9 +360,9 @@ Matrix4
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| sx | Number | Scaling factories is van toepassing op de x-as |
-| sy | Number | Scaling factories is van toepassing op de y-as |
-| sz | Number | Scaling factories is van toepassing op de z-as |
+| sx | Nummer | Schaalfactories gelden voor de x-as |
+| sy | Nummer | Schaalfactories gelden voor de y-as |
+| sz | Nummer | Schaalfactories gelden voor de z-as |
 
  **Result:**
 Matrix4
@@ -400,9 +400,9 @@ Matrix4
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| rx | Number | Rotatie in x-as in radialen |
-| ry | Number | Rotatie in y-as in radialen |
-| rz | Number | Rotatie in z-as in radialen |
+| rx | Nummer | Rotatie in de x-as in radialen |
+| ry | Nummer | Rotatie in de y-as in radialen |
+| rz | Nummer | Rotatie in de z-as in radialen |
 
  **Result:**
 Matrix4
@@ -415,14 +415,14 @@ Matrix4
 
 | Naam | Beschrijving |
 | --- | --- |
-| rotate(angle, axis) | Maak een rotatiematrix aan met rotatiehoek en as |
+| rotate(angle, axis) | Maak een rotatiematrix met rotatiehoek en as |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| hoek | Number | Rotatiehoek in radialen |
-| as | Vector3 | Rotatieas |
+| angle | Nummer | Rotatiehoek in radialen |
+| axis | Vector3 | Rotatieas |
 
  **Result:**
 Matrix4
@@ -435,7 +435,7 @@ Matrix4
 
 | Naam | Beschrijving |
 | --- | --- |
-| rotate(q) | Maak een rotatiematrix aan vanuit een quaternion |
+| rotate(q) | Maak een rotatiematrix van een quaternion |
 
  **Parameters:**
 

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/shaderset/
 ---
 ## ShaderSet class
 
-Shader‑programma's voor elk type materiaal
+Shaderprogramma's voor elk type materiaal
 
 
 ## Methoden

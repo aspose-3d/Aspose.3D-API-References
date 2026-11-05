@@ -11,14 +11,14 @@ url: /nl/nodejs-java/aspose.threed/vector4/
 Een vector met vier componenten.
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
 | x | De x-component. |
 | y | De y-component. |
 | z | De z-component. |
-| w | De w component. |
+| w | De w-component. |
 
 ## Methoden
 
@@ -46,7 +46,7 @@ Een vector met vier componenten.
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | vec | Vector3 | Vec. |
-| w | Number | De breedte. |
+| w | Nummer | De breedte. |
 
  **Result:**
 
@@ -103,9 +103,9 @@ Een vector met vier componenten.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| x | Number | De x-coördinaat. |
-| y | Number | De y-coördinaat. |
-| z | Number | De z-coördinaat. |
+| x | Nummer | De x-coördinaat. |
+| y | Nummer | De y-coördinaat. |
+| z | Nummer | De z-coördinaat. |
 
  **Result:**
 
@@ -124,10 +124,10 @@ Een vector met vier componenten.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| x | Number | De x-coördinaat. |
-| y | Number | De y-coördinaat. |
-| z | Number | De z-coördinaat. |
-| w | Number | De breedte. |
+| x | Nummer | De x-coördinaat. |
+| y | Nummer | De y-coördinaat. |
+| z | Nummer | De z-coördinaat. |
+| w | Nummer | De breedte. |
 
  **Result:**
 
@@ -146,9 +146,9 @@ Een vector met vier componenten.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| newX | Number | Nieuwe X-component. |
-| newY | Number | Nieuwe Y-component. |
-| newZ | Number | Nieuwe Z-component. |
+| newX | Nummer | Nieuwe X-component. |
+| newY | Nummer | Nieuwe Y-component. |
+| newZ | Nummer | Nieuwe Z-component. |
 
  **Result:**
 
@@ -180,10 +180,10 @@ boolean
 
 | Naam | Beschrijving |
 | --- | --- |
-| hashCode() | Haalt de hashcode van deze vector op. |
+| hashCode() | Haalt de hashcode van deze vector op |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -193,19 +193,19 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| set(newX, newY, newZ, newW) | Stelt alle componenten van de vector in één keer in. |
+| set(newX, newY, newZ, newW) | Stelt alle componenten van de vector in één keer in |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| newX | Number | Nieuwe X-component. |
-| newY | Number | Nieuwe Y-component. |
-| newZ | Number | Nieuwe Z-component. |
-| newW | Number | Nieuwe W-component. |
+| newX | Nummer | Nieuwe X-component. |
+| newY | Nummer | Nieuwe Y-component. |
+| newZ | Nummer | Nieuwe Z-component. |
+| newW | Nummer | Nieuwe W-component. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -237,7 +237,7 @@ String
 | othe | Vector4 | null |
 
  **Result:**
-Number
+Nummer
 
 
 ---

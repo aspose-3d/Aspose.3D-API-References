@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/vertexelementpolygongroup/
 ---
 ## VertexElementPolygonGroup class
 
-Definieert polygoongroep voor opgegeven componenten om gerelateerde polygonen samen te groeperen.
+Definieert polygoongroep voor gespecificeerde componenten om gerelateerde polygonen samen te groeperen.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Definieert polygoongroep voor opgegeven componenten om gerelateerde polygonen sa
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor() | Initialiseert een nieuw exemplaar van de VertexElementPolygonGroup-klasse. |
+| constructor() | Initialiseert een nieuw exemplaar van de klasse VertexElementPolygonGroup. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Definieert polygoongroep voor opgegeven componenten om gerelateerde polygonen sa
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElementType() | Haalt het type van de VertexElement op. De waarde van de eigenschap is de integer-constante VertexElementType. |
+| getVertexElementType() | Haalt het type van het VertexElement op. De waarde van de eigenschap is de VertexElementType integer-constante. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Definieert polygoongroep voor opgegeven componenten om gerelateerde polygonen sa
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Definieert polygoongroep voor opgegeven componenten om gerelateerde polygonen sa
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Definieert polygoongroep voor opgegeven componenten om gerelateerde polygonen sa
 
 | Naam | Beschrijving |
 | --- | --- |
-| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Definieert polygoongroep voor opgegeven componenten om gerelateerde polygonen sa
 
 | Naam | Beschrijving |
 | --- | --- |
-| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -147,13 +147,13 @@ Definieert polygoongroep voor opgegeven componenten om gerelateerde polygonen sa
 
 | Naam | Beschrijving |
 | --- | --- |
-| copyTo(target) | Kopieert gegevens naar opgegeven element |
+| copyTo(target) | Kopieert gegevens naar het opgegeven element |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| target | VertexElementIntsTemplate | Target. |
+| target | VertexElementIntsTemplate | Doelwit. |
 
  **Result:**
 

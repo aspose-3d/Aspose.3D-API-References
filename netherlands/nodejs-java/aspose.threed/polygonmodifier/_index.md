@@ -23,7 +23,7 @@ Hulpmiddelen om polygonen te wijzigen  @hideconstructor
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| scene | Scene | De scène die verwerkt moet worden |
+| scene | Scene | De scène om te verwerken |
 
  **Result:**
 
@@ -42,7 +42,7 @@ Hulpmiddelen om polygonen te wijzigen  @hideconstructor
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| mesh | Mesh | De originele niet-driehoekmesh |
+| mesh | Mesh | De oorspronkelijke niet-driehoek mesh |
 
  **Result:**
 Mesh
@@ -61,7 +61,7 @@ Mesh
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| scene | Scene | De scène die moet worden samengevoegd |
+| scene | Scene | De scène om te combineren |
 
  **Result:**
 Mesh
@@ -80,7 +80,7 @@ Mesh
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| node | Node | De node die moet worden samengevoegd |
+| node | Node | De node om te combineren |
 
  **Result:**
 Mesh
@@ -99,7 +99,7 @@ Mesh
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| scene | Scene | De scène die geschaald moet worden |
+| scene | Scene | De scène om te schalen |
 | schaal | Vector3 | De schaalfactor |
 
  **Result:**
@@ -113,13 +113,13 @@ Mesh
 
 | Naam | Beschrijving |
 | --- | --- |
-| scale(node, scale) | Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie-matrix) in deze node |
+| scale(node, scale) | Schaal alle geometrieën (Schaal de controlepunten, niet de transformatie matrix) in dit knooppunt |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| node | Node | De node die geschaald moet worden |
+| node | Node | Het knooppunt om te schalen |
 | schaal | Vector3 | De schaalfactor |
 
  **Result:**
@@ -146,14 +146,14 @@ VertexElementNormal
 
 | Naam | Beschrijving |
 | --- | --- |
-| generateUV(mesh, normals) | Genereer UV-gegevens van het opgegeven invoer‑mesh en gespecificeerde normale gegevens. |
+| generateUV(mesh, normals) | Genereer UV-gegevens van de opgegeven invoer-mesh en gespecificeerde normale gegevens. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| mesh | Mesh | Het invoer‑mesh |
-| normaalvectoren | VertexElementNormal | De normale gegevens |
+| mesh | Mesh | De invoer-mesh |
+| normals | VertexElementNormal | De normale gegevens |
 
  **Result:**
 VertexElementUV
@@ -166,13 +166,13 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| generateUV(mesh) | Genereer UV-gegevens van het opgegeven invoer‑mesh |
+| generateUV(mesh) | Genereer UV-gegevens van de opgegeven invoer-mesh |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| mesh | Mesh | Het invoer‑mesh |
+| mesh | Mesh | De invoer-mesh |
 
  **Result:**
 VertexElementUV
@@ -185,16 +185,16 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| splitMesh(node, policy, createChildNodes, removeOldMesh) | Splits mesh in sub‑meshes op basis van VertexElementMaterial. Elke sub‑mesh gebruikt slechts één materiaal. Voer mesh‑splitsing uit op een node. |
+| splitMesh(node, policy, createChildNodes, removeOldMesh) | Splits mesh in sub-meshes op basis van VertexElementMaterial. Elke sub-mesh zal slechts één materiaal gebruiken. Voer mesh-splitsing uit op een knooppunt. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | nod | Node | null |
-| beleid | SplitMeshPolicy | SplitMeshPolicy |
-| createChildNodes | boolean | Maak kind‑nodes aan voor elke sub‑mesh. |
-| removeOldMesh | boolean | Verwijder het oude mesh na het splitsen; als deze parameter onwaar is, zullen het oude en nieuwe mesh naast elkaar bestaan. |
+| policy | SplitMeshPolicy | SplitMeshPolicy |
+| createChildNodes | boolean | Maak kindknooppunten voor elke sub-mesh aan. |
+| removeOldMesh | boolean | Verwijder de oude mesh na het splitsen, als deze parameter onwaar is, zullen de oude en nieuwe meshes naast elkaar bestaan. |
 
  **Result:**
 VertexElementUV
@@ -207,14 +207,14 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| splitMesh(scene, policy, removeOldMesh) | Splits mesh in sub‑meshes op basis van VertexElementMaterial. Elke sub‑mesh gebruikt slechts één materiaal. Voer mesh‑splitsing uit op alle nodes van de scene. |
+| splitMesh(scene, policy, removeOldMesh) | Splits mesh in sub-meshes op basis van VertexElementMaterial. Elke sub-mesh zal slechts één materiaal gebruiken. Voer mesh-splitsing uit op alle knooppunten van de scène. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | scen | Scene | null |
-| beleid | SplitMeshPolicy | SplitMeshPolicy |
+| policy | SplitMeshPolicy | SplitMeshPolicy |
 | removeOldMes | boolean | null |
 
  **Result:**
@@ -228,7 +228,7 @@ VertexElementUV
 
 | Naam | Beschrijving |
 | --- | --- |
-| splitMesh(mesh, policy) | Splits mesh in sub‑meshes op basis van VertexElementMaterial. Elke sub‑mesh gebruikt slechts één materiaal. Het oorspronkelijke mesh wordt niet gewijzigd. |
+| splitMesh(mesh, policy) | Splits het mesh in sub-meshes op basis van VertexElementMaterial. Elke sub-mesh gebruikt slechts één materiaal. Het oorspronkelijke mesh wordt niet gewijzigd. |
 
  **Result:**
 Mesh[]
@@ -241,7 +241,7 @@ Mesh[]
 
 | Naam | Beschrijving |
 | --- | --- |
-| buildTangentBinormal(scene) | Dit zal tangent en binormaal creëren op alle meshes van de scene. Normaal is vereist; als normaal niet aanwezig is op het mesh, wordt de normale data ook gecreëerd vanuit de positie. UV is ook vereist; het mesh wordt genegeerd als er geen UV is gedefinieerd. |
+| buildTangentBinormal(scene) | Dit maakt tangent- en binormale vectoren aan op alle meshes van de scène. Normaal is vereist; als een normaal niet bestaat op het mesh, wordt de normaaldata ook aangemaakt vanuit de positie. UV is ook vereist; het mesh wordt genegeerd als er geen UV is gedefinieerd. |
 
  **Result:**
 Mesh[]
@@ -254,7 +254,7 @@ Mesh[]
 
 | Naam | Beschrijving |
 | --- | --- |
-| buildTangentBinormal(mesh) | Dit zal tangent en binormaal op het mesh creëren. Normaal is vereist, als normaal niet bestaat op het mesh, wordt ook de normaaldata van de positie gecreëerd. UV is ook vereist, er wordt een uitzondering opgegooid als er geen UV wordt gevonden. |
+| buildTangentBinormal(mesh) | Dit maakt tangent- en binormale vectoren aan op het mesh. Normaal is vereist; als een normaal niet bestaat op het mesh, wordt de normaaldata ook aangemaakt vanuit de positie. UV is ook vereist; er wordt een uitzondering opgegooid als er geen UV wordt gevonden. |
 
  **Result:**
 Mesh[]

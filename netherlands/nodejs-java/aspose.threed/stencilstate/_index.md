@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/stencilstate/
 ---
 ## StencilState class
 
-Stencil‑statussen per vlak.  @hideconstructor
+Stencil‑toestanden per vlak.  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Stencil‑statussen per vlak.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCompare() | Haalt op of stelt de vergelijkingsfunctie in die wordt gebruikt in de stencil‑test. De waarde van de eigenschap is een geheel getal constante van CompareFunction. |
+| getCompare() | Haalt op of stelt de vergelijkingsfunctie in die wordt gebruikt bij de stenciltest. De waarde van de eigenschap is de integerconstante CompareFunction. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Stencil‑statussen per vlak.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCompare(value) | Haalt op of stelt de vergelijkingsfunctie in die wordt gebruikt in de stencil‑test. De waarde van de eigenschap is een geheel getal constante van CompareFunction. |
+| setCompare(value) | Haalt op of stelt de vergelijkingsfunctie in die wordt gebruikt bij de stenciltest. De waarde van de eigenschap is de integerconstante CompareFunction. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Stencil‑statussen per vlak.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFailAction() | Haalt op of stelt de stencil-actie in wanneer de stencil-test faalt. De waarde van de eigenschap is een StencilAction integer-constante. |
+| getFailAction() | Haalt op of stelt de stencilactie in wanneer de stenciltest faalt. De waarde van de eigenschap is de integerconstante StencilAction. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Stencil‑statussen per vlak.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFailAction(value) | Haalt op of stelt de stencil-actie in wanneer de stencil-test faalt. De waarde van de eigenschap is een StencilAction integer-constante. |
+| setFailAction(value) | Haalt op of stelt de stencilactie in wanneer de stenciltest faalt. De waarde van de eigenschap is de integerconstante StencilAction. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Stencil‑statussen per vlak.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDepthFailAction() | Haalt op of stelt de stencil-actie in wanneer de stencil-test slaagt maar de diepte-test faalt. De waarde van de eigenschap is een StencilAction integer-constante. |
+| getDepthFailAction() | Haalt op of stelt de stencilactie in wanneer de stenciltest slaagt maar de dieptest faalt. De waarde van de eigenschap is de integerconstante StencilAction. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Stencil‑statussen per vlak.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDepthFailAction(value) | Haalt op of stelt de stencil-actie in wanneer de stencil-test slaagt maar de diepte-test faalt. De waarde van de eigenschap is een StencilAction integer-constante. |
+| setDepthFailAction(value) | Haalt op of stelt de stencilactie in wanneer de stenciltest slaagt maar de dieptest faalt. De waarde van de eigenschap is de integerconstante StencilAction. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Stencil‑statussen per vlak.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPassAction() | Haalt op of stelt de stencil-actie in wanneer zowel de stencil-test als de diepte-test slagen. De waarde van de eigenschap is een StencilAction integer-constante. |
+| getPassAction() | Haalt op of stelt de stencilactie in wanneer zowel de stenciltest als de dieptest slagen. De waarde van de eigenschap is de integerconstante StencilAction. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Stencil‑statussen per vlak.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPassAction(value) | Haalt op of stelt de stencil-actie in wanneer zowel de stencil-test als de diepte-test slagen. De waarde van de eigenschap is een StencilAction integer-constante. |
+| setPassAction(value) | Haalt op of stelt de stencilactie in wanneer zowel de stenciltest als de dieptest slagen. De waarde van de eigenschap is de integerconstante StencilAction. |
 
  **Result:**
 

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/scene/
 ---
 ## Scene class
 
-Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën, materialen, texturen, animaties, poses, sub‑scènes enzovoort bevat.  Een scène kan sub‑scènes hebben en fungeert als ondersteuning voor meerdere documenten in bestanden zoals collada/blender/fbx.  De knooppunt‑hiërarchie kan worden benaderd via RootNodeLibrary, die wordt gebruikt om een referentie naar niet‑gekoppelde objecten tijdens serialisatie (zoals metadata of aangepaste objecten) bij te houden, zodat deze als bibliotheek kan worden gebruikt.
+Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën, materialen, texturen, animaties, poses, sub‑scènes enzovoort bevat.  Een scène kan sub‑scènes hebben, fungeert als ondersteuning voor meerdere documenten in bestanden zoals collada/blender/fbx.  De knooppunthierarchie kan worden benaderd via RootNodeLibrary, die wordt gebruikt om een referentie naar niet‑gekoppelde objecten tijdens serialisatie (zoals metadata of aangepaste objecten) bij te houden, zodat deze als bibliotheek kan worden gebruikt.
 
 
 ## Methoden
@@ -30,13 +30,13 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(entity) | Initialiseert een nieuw exemplaar van de Scene-klasse met een entiteit gekoppeld aan een nieuw knooppunt. |
+| constructor_overload(entity) | Initialiseert een nieuw exemplaar van de Scene-klasse met een entiteit die is gekoppeld aan een nieuw knooppunt. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| entity | Entity | De initiële entiteit die aan de scene is gekoppeld |
+| entiteit | Entiteit | De initiële entiteit die aan de scene is gekoppeld |
 
  **Result:**
 
@@ -49,14 +49,14 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload2(parentScene, name) | Initialiseert een nieuw exemplaar van de Scene-klasse als een sub-scène. |
+| constructor_overload2(parentScene, name) | Initialiseert een nieuw exemplaar van de Scene-klasse als een subscene. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | parentScene | Scene | De bovenliggende scene. |
-| name | String | Naam van de Scene. |
+| name | String | Naam van de scene. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSubScenes() | Haalt alle sub-scènes op |
+| getSubScenes() | Haalt alle subscènes op |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLibrary() | Objecten die niet direct worden gebruikt in de scene-hiërarchie kunnen worden gedefinieerd in de Library. Dit is handig wanneer je sub-scènes gebruikt en herbruikbare componenten onder sub-scènes plaatst. |
+| getLibrary() | Objecten die niet direct worden gebruikt in de scene-hiërarchie kunnen worden gedefinieerd in de Bibliotheek. Dit is handig wanneer je subscènes gebruikt en herbruikbare componenten onder subscènes plaatst. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAssetInfo() | Haalt de top-level asset-informatie op of stelt deze in. De documentinformatie. |
+| getAssetInfo() | Haalt of stelt de top-level asset-informatie in. De documentinformatie. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAssetInfo(value) | Haalt de top-level asset-informatie op of stelt deze in. De documentinformatie. |
+| setAssetInfo(value) | Haalt of stelt de top-level asset-informatie in. De documentinformatie. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRootNode() | Haalt de rootnode van de scene op. De rootnode. |
+| getRootNode() | Haalt het root-knooppunt van de scène op. Het root-knooppunt. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Een scène is een object op het hoogste niveau dat de knooppunten, geometrieën,
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ AnimationClip
 
 | Naam | Beschrijving |
 | --- | --- |
-| createAnimationClip(name) | Een verkorte functie om een AnimationClip te maken en te registreren. De eerste AnimationClip wordt toegewezen aan de CurrentAnimationClip. |
+| createAnimationClip(name) | Een verkorte functie om de AnimationClip te maken en te registreren. De eerste AnimationClip wordt toegewezen aan de CurrentAnimationClip |
 
  **Parameters:**
 
@@ -315,7 +315,7 @@ AnimationClip
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | fileName | String | Bestandsnaam. |
-| opties | LoadOptions | Gedetailleerdere configuratie om de stream te openen. |
+| options | LoadOptions | Gedetailleerdere configuratie om de stream te openen. |
 
  **Result:**
 AnimationClip
@@ -392,7 +392,7 @@ AnimationClip
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | fileName | String | Bestandsnaam. |
-| format | Bestandsformaat | Formaat. |
+| format | FileFormat | Formaat. |
 
  **Result:**
 AnimationClip
@@ -412,7 +412,7 @@ AnimationClip
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | fileName | String | Bestandsnaam. |
-| opties | SaveOptions | Gedetailleerdere configuratie om de stream op te slaan. |
+| options | SaveOptions | Gedetailleerdere configuratie om de stream op te slaan. |
 
  **Result:**
 AnimationClip
@@ -425,7 +425,7 @@ AnimationClip
 
 | Naam | Beschrijving |
 | --- | --- |
-| render(camera, fileName) | Render de scène naar een extern bestand vanuit het perspectief van de opgegeven camera. De standaard uitvoergrootte is 1024x768 en het uitvoerformaat is png. |
+| render(camera, fileName) | Render de scène naar een extern bestand vanuit het perspectief van de opgegeven camera. De standaard uitvoergrootte is 1024x768 en het uitvoerformaat is png |
 
  **Parameters:**
 
@@ -453,7 +453,7 @@ AnimationClip
 | --- | --- | --- |
 | camera | Camera | Vanuit welk camera-perspectief de scène moet worden gerenderd |
 | fileName | String | De bestandsnaam van het uitvoerbestand |
-| grootte | Vector2 | De grootte van het uiteindelijk gerenderde beeld |
+| grootte | Vector2 | De grootte van de uiteindelijk gerenderde afbeelding |
 | format | String | Het afbeeldingsformaat van het uitvoerbestand |
 
  **Result:**
@@ -475,9 +475,9 @@ AnimationClip
 | --- | --- | --- |
 | camera | Camera | Vanuit welk camera-perspectief de scène moet worden gerenderd |
 | fileName | String | De bestandsnaam van het uitvoerbestand |
-| grootte | Vector2 | De grootte van het uiteindelijk gerenderde beeld |
+| grootte | Vector2 | De grootte van de uiteindelijk gerenderde afbeelding |
 | format | String | Het afbeeldingsformaat van het uitvoerbestand |
-| opties | ImageRenderOptions | De optie om enkele interne instellingen aan te passen. |
+| options | ImageRenderOptions | De optie om enkele interne instellingen aan te passen. |
 
  **Result:**
 AnimationClip
@@ -518,7 +518,7 @@ AnimationClip
 | --- | --- | --- |
 | camera | Camera | Vanuit welk camera-perspectief de scène moet worden gerenderd |
 | bitmap | TextureData | Doel van het gerenderde resultaat |
-| opties | ImageRenderOptions | De optie om enkele interne instellingen aan te passen. |
+| options | ImageRenderOptions | De optie om enkele interne instellingen aan te passen. |
 
  **Result:**
 AnimationClip
@@ -537,7 +537,7 @@ AnimationClip
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -556,7 +556,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -575,7 +575,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -594,8 +594,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -608,7 +608,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

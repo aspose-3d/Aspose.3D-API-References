@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/plysaveoptions/
 ---
 ## PlySaveOptions class
 
-Opslaanopties voor het exporteren van de scène als PLY-bestand.
+Opslaanopties voor het exporteren van een scène als PLY‑bestand.
 
 
 ## Methoden
@@ -75,7 +75,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlipCoordinate() | Keer de coördinaat om tijdens het opslaan van de scène, standaardwaarde is true. |
+| getFlipCoordinate() | Keer de coördinaat om tijdens het opslaan van de scène, standaardwaarde is true |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlipCoordinate(value) | Keer de coördinaat om tijdens het opslaan van de scène, standaardwaarde is true. |
+| setFlipCoordinate(value) | Keer de coördinaat om tijdens het opslaan van de scène, standaardwaarde is true |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElement() | De elementnaam voor de vertex‑gegevens, standaardwaarde is "vertex". |
+| getVertexElement() | De elementnaam voor de vertex‑gegevens, standaardwaarde is "vertex" |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setVertexElement(value) | De elementnaam voor de vertex‑gegevens, standaardwaarde is "vertex". |
+| setVertexElement(value) | De elementnaam voor de vertex‑gegevens, standaardwaarde is "vertex" |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPositionComponents() | De componentnamen voor positiedata, standaardwaarde is ("x", "y", "z"). |
+| getPositionComponents() | De componentnamen voor positiedata, standaardwaarde is ("x", "y", "z") |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getNormalComponents() | De componentnamen voor normaledata, standaardwaarde is ("nx", "ny", "nz"). |
+| getNormalComponents() | De componentnamen voor normaaldata, standaardwaarde is ("nx", "ny", "nz") |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTextureCoordinateComponents() | De componentnamen voor textuurcoördinaatgegevens, standaardwaarde is ("u", "v") |
+| getTextureCoordinateComponents() | De componentnamen voor textuurcoördinaatdata, standaardwaarde is ("u", "v") |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getColorComponents() | De componentnamen voor vertexkleur, standaardwaarde is ("rood", "groen", "blauw") |
+| getColorComponents() | De componentnamen voor vertexkleur, standaardwaarde is ("red", "green", "blue") |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFaceElement() | De elementnaam voor de gezichtsgegevens, standaardwaarde is "face" |
+| getFaceElement() | De elementnaam voor de gezichtsdata, standaardwaarde is "face" |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFaceElement(value) | De elementnaam voor de gezichtsgegevens, standaardwaarde is "face" |
+| setFaceElement(value) | De elementnaam voor de gezichtsdata, standaardwaarde is "face" |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFaceProperty() | De eigenschapsnaam voor de gezichtsgegevens, standaardwaarde is "vertex_index" |
+| getFaceProperty() | De eigenschapsnaam voor de gezichtsdata, standaardwaarde is "vertex_index" |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFaceProperty(value) | De eigenschapsnaam voor de gezichtsgegevens, standaardwaarde is "vertex_index" |
+| setFaceProperty(value) | De eigenschapsnaam voor de gezichtsdata, standaardwaarde is "vertex_index" |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Opslaanopties voor het exporteren van de scène als PLY-bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

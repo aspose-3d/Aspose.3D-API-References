@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/usdsaveoptions/
 ---
 ## UsdSaveOptions class
 
-Opslaanopties voor USD/USDZ-formaten.
+Opslagopties voor USD/USDZ-formaten.
 
 
 ## Methoden
@@ -43,7 +43,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPrimitiveToMesh() | Converteer de primitieve entiteiten naar een mesh tijdens het exporteren. Of codeer de primitieve direct naar het uitvoerbestand (maakt gebruik van Aspose's extensiedefinitie voor niet‑officiële primitieve zoals Dish, Torus). Standaardwaarde is true. |
+| getPrimitiveToMesh() | Converteer de primitieve entiteiten naar een mesh tijdens de export. Of codeer de primitieve direct naar het uitvoerbestand (maakt gebruik van de extensiedefinitie van Aspose voor niet-officiële primitieve zoals Dish, Torus). Standaardwaarde is true. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPrimitiveToMesh(value) | Converteer de primitieve entiteiten naar een mesh tijdens het exporteren. Of codeer de primitieve direct naar het uitvoerbestand (maakt gebruik van Aspose's extensiedefinitie voor niet‑officiële primitieve zoals Dish, Torus). Standaardwaarde is true. |
+| setPrimitiveToMesh(value) | Converteer de primitieve entiteiten naar een mesh tijdens de export. Of codeer de primitieve direct naar het uitvoerbestand (maakt gebruik van de extensiedefinitie van Aspose voor niet-officiële primitieve zoals Dish, Torus). Standaardwaarde is true. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExportMetaData() | Exporteer de eigenschappen van het knooppunt via het customData-veld van USD. |
+| getExportMetaData() | Exporteer de eigenschappen van de node via het customData-veld van USD. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setExportMetaData(value) | Exporteer de eigenschappen van het knooppunt via het customData-veld van USD. |
+| setExportMetaData(value) | Exporteer de eigenschappen van de node via het customData-veld van USD. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMaterialConverter() | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR-materiaal. Als deze niet is toegewezen, zal de USD-exporter automatisch het standaardmateriaal omzetten naar PBR-materiaal. Standaardwaarde is null |
+| getMaterialConverter() | Aangepaste converter om het materiaal van de geometrie naar PBR-materiaal te converteren. Als dit niet is toegewezen, zal de USD-exporter het standaardmateriaal automatisch naar PBR-materiaal converteren. Standaardwaarde is null. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMaterialConverter(value) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR-materiaal. Als deze niet is toegewezen, zal de USD-exporter automatisch het standaardmateriaal omzetten naar PBR-materiaal. Standaardwaarde is null |
+| setMaterialConverter(value) | Aangepaste converter om het materiaal van de geometrie naar PBR-materiaal te converteren. Als dit niet is toegewezen, zal de USD-exporter het standaardmateriaal automatisch naar PBR-materiaal converteren. Standaardwaarde is null. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Opslaanopties voor USD/USDZ-formaten.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

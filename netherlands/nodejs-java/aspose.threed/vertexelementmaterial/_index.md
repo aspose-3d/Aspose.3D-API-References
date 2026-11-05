@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/vertexelementmaterial/
 ---
 ## VertexElementMaterial class
 
-Definieert materiaalindex voor opgegeven componenten.  Een knoop kan meerdere materialen hebben, de VertexElementMaterial wordt gebruikt om verschillende delen van de geometrie in verschillende materialen te renderen.
+Definieert materiaalindex voor gespecificeerde componenten. Een knoop kan meerdere materialen hebben, de VertexElementMaterial wordt gebruikt om verschillende delen van de geometrie in verschillende materialen te renderen.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Definieert materiaalindex voor opgegeven componenten.  Een knoop kan meerdere ma
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElementType() | Haalt het type van de VertexElement op. De waarde van de eigenschap is de integer-constante VertexElementType. |
+| getVertexElementType() | Haalt het type van het VertexElement op. De waarde van de eigenschap is de VertexElementType integer-constante. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Definieert materiaalindex voor opgegeven componenten.  Een knoop kan meerdere ma
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Definieert materiaalindex voor opgegeven componenten.  Een knoop kan meerdere ma
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Definieert materiaalindex voor opgegeven componenten.  Een knoop kan meerdere ma
 
 | Naam | Beschrijving |
 | --- | --- |
-| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Definieert materiaalindex voor opgegeven componenten.  Een knoop kan meerdere ma
 
 | Naam | Beschrijving |
 | --- | --- |
-| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 

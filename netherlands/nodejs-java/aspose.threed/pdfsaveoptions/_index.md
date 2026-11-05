@@ -30,7 +30,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRenderMode() | Render-modus specificeert de stijl waarin het 3D-werk wordt gerenderd. De waarde van de eigenschap is PdfRenderMode integer-constante. |
+| getRenderMode() | Render-modus geeft de stijl aan waarin het 3D-werk wordt gerenderd. De waarde van de eigenschap is de PdfRenderMode integer-constante. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setRenderMode(value) | Render-modus specificeert de stijl waarin het 3D-werk wordt gerenderd. De waarde van de eigenschap is PdfRenderMode integer-constante. |
+| setRenderMode(value) | Render-modus geeft de stijl aan waarin het 3D-werk wordt gerenderd. De waarde van de eigenschap is de PdfRenderMode integer-constante. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLightingScheme() | LightingScheme specificeert de verlichting die op 3D-werk wordt toegepast. De waarde van de eigenschap is PdfLightingScheme integer-constante. |
+| getLightingScheme() | LightingScheme geeft de verlichting aan die op 3D-werk moet worden toegepast. De waarde van de eigenschap is de PdfLightingScheme integer-constante. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLightingScheme(value) | LightingScheme specificeert de verlichting die op 3D-werk wordt toegepast. De waarde van de eigenschap is PdfLightingScheme integer-constante. |
+| setLightingScheme(value) | LightingScheme geeft de verlichting aan die op 3D-werk moet worden toegepast. De waarde van de eigenschap is de PdfLightingScheme integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFaceColor() | Geeft of stelt de gezichts­kleur in die wordt gebruikt bij het renderen van de 3D-inhoud. Dit is alleen relevant wanneer RenderMode de waarde Illustration heeft. |
+| getFaceColor() | Haalt op of stelt de face color in die gebruikt wordt bij het renderen van de 3D-inhoud. Dit is alleen relevant wanneer RenderMode de waarde Illustration heeft. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFaceColor(value) | Geeft of stelt de gezichts­kleur in die wordt gebruikt bij het renderen van de 3D-inhoud. Dit is alleen relevant wanneer RenderMode de waarde Illustration heeft. |
+| setFaceColor(value) | Haalt op of stelt de face color in die gebruikt wordt bij het renderen van de 3D-inhoud. Dit is alleen relevant wanneer RenderMode de waarde Illustration heeft. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAuxiliaryColor() | Geeft of stelt de hulpkleur in die wordt gebruikt bij het renderen van de 3D-inhoud. De interpretatie van deze kleur hangt af van RenderMode. |
+| getAuxiliaryColor() | Haalt op of stelt de hulpkleur in die wordt gebruikt bij het renderen van de 3D-inhoud. De interpretatie van deze kleur hangt af van de RenderMode |
 
  **Result:**
 
@@ -147,7 +147,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAuxiliaryColor(value) | Geeft of stelt de hulpkleur in die wordt gebruikt bij het renderen van de 3D-inhoud. De interpretatie van deze kleur hangt af van RenderMode. |
+| setAuxiliaryColor(value) | Haalt op of stelt de hulpkleur in die wordt gebruikt bij het renderen van de 3D-inhoud. De interpretatie van deze kleur hangt af van de RenderMode |
 
  **Result:**
 
@@ -160,7 +160,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlipCoordinateSystem() | Geeft of stelt in om het coördinatensysteem van de scène tijdens het exporteren om te draaien. |
+| getFlipCoordinateSystem() | Haalt op of stelt in om het coördinatensysteem van de scène tijdens het exporteren te draaien. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Geeft of stelt in om het coördinatensysteem van de scène tijdens het exporteren om te draaien. |
+| setFlipCoordinateSystem(value) | Haalt op of stelt in om het coördinatensysteem van de scène tijdens het exporteren te draaien. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEmbedTextures() | Integreer de externe texturen in het PDF‑bestand, de standaardwaarde is false. |
+| getEmbedTextures() | Integreer de externe texturen in het PDF-bestand, standaardwaarde is false. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEmbedTextures(value) | Integreer de externe texturen in het PDF‑bestand, de standaardwaarde is false. |
+| setEmbedTextures(value) | Integreer de externe texturen in het PDF-bestand, standaardwaarde is false. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ De opslaanopties bij het exporteren van PDF.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

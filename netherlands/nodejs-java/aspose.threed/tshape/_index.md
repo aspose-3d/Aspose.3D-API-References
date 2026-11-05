@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/tshape/
 ---
 ## TShape class
 
-IFC‑compatibele T‑vorm gedefinieerd door parameters.
+IFC-compatibele T-vorm gedefinieerd door parameters.
 
 
 ## Methoden
@@ -82,7 +82,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWebThickness() | Haalt de wanddikte van de web op of stelt deze in. |
+| getWebThickness() | Haalt of stelt de wanddikte van de web op. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWebThickness(value) | Haalt de wanddikte van de web op of stelt deze in. |
+| setWebThickness(value) | Haalt of stelt de wanddikte van de web op. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlangeThickness() | Haalt de wanddikte van de flens op of stelt deze in. |
+| getFlangeThickness() | Haalt of stelt de wanddikte van de flange op. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlangeThickness(value) | Haalt de wanddikte van de flens op of stelt deze in. |
+| setFlangeThickness(value) | Haalt of stelt de wanddikte van de flange op. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFilletRadius() | Haalt op of stelt de radius van de afronding tussen de web en de flank in. |
+| getFilletRadius() | Haalt of stelt de radius van de afronding tussen web en flange in. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFilletRadius(value) | Haalt op of stelt de radius van de afronding tussen de web en de flank in. |
+| setFilletRadius(value) | Haalt of stelt de radius van de afronding tussen web en flange in. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlangeEdgeRadius() | Haalt op of stelt de radius van de flankrand in. |
+| getFlangeEdgeRadius() | Haalt of stelt de radius van de flange-rand in. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlangeEdgeRadius(value) | Haalt op of stelt de radius van de flankrand in. |
+| setFlangeEdgeRadius(value) | Haalt of stelt de radius van de flange-rand in. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getWebEdgeRadius() | Haalt op of stelt de radius van de webrand in. |
+| getWebEdgeRadius() | Haalt of stelt de radius van de webrand in. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setWebEdgeRadius(value) | Haalt op of stelt de radius van de webrand in. |
+| setWebEdgeRadius(value) | Haalt of stelt de radius van de webrand in. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -316,7 +316,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ IFC‑compatibele T‑vorm gedefinieerd door parameters.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExtent() | Geeft de omvang in de x- en y-dimensie terug |
+| getExtent() | Haalt de omvang in x- en y-dimensie op. |
 
  **Result:**
 Vector2
@@ -342,7 +342,7 @@ Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -355,7 +355,7 @@ EntityRendererKey
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 EntityRendererKey
@@ -374,7 +374,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -393,7 +393,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -412,7 +412,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -431,8 +431,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -445,7 +445,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

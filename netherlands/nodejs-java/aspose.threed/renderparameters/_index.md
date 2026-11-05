@@ -56,7 +56,7 @@ Beschrijf de parameters van het renderdoel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getColorBits() | Haalt op of stelt in hoeveel bits worden gebruikt door de kleurbuffer. |
+| getColorBits() | Haalt op of stelt in hoeveel bits door de kleurbuffer worden gebruikt. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Beschrijf de parameters van het renderdoel
 
 | Naam | Beschrijving |
 | --- | --- |
-| setColorBits(value) | Haalt op of stelt in hoeveel bits worden gebruikt door de kleurbuffer. |
+| setColorBits(value) | Haalt op of stelt in hoeveel bits door de kleurbuffer worden gebruikt. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Beschrijf de parameters van het renderdoel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDepthBits() | Haalt op of stelt in hoeveel bits worden gebruikt door de dieptebuffer. |
+| getDepthBits() | Haalt op of stelt in hoeveel bits door de dieptebuffer worden gebruikt. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Beschrijf de parameters van het renderdoel
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDepthBits(value) | Haalt op of stelt in hoeveel bits worden gebruikt door de dieptebuffer. |
+| setDepthBits(value) | Haalt op of stelt in hoeveel bits door de dieptebuffer worden gebruikt. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Beschrijf de parameters van het renderdoel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getStencilBits() | Haalt op of stelt in hoeveel bits worden gebruikt in de stencilbuffer. |
+| getStencilBits() | Haalt op of stelt in hoeveel bits in de stencilbuffer worden gebruikt. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Beschrijf de parameters van het renderdoel
 
 | Naam | Beschrijving |
 | --- | --- |
-| setStencilBits(value) | Haalt op of stelt in hoeveel bits worden gebruikt in de stencilbuffer. |
+| setStencilBits(value) | Haalt op of stelt in hoeveel bits in de stencilbuffer worden gebruikt. |
 
  **Result:**
 

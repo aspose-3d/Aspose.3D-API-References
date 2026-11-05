@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/animationnode/
 ---
 ## AnimationNode class
 
-Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld uit meerdere animaties en de key‑frame‑definitie van een animatie.  AnimationNode definieert de transformatie van een eigenschapswaarde in de tijd; bijvoorbeeld, een animation node kan worden gebruikt om de transformatie van een node of andere numerieke eigenschappen van een A3DObject‑object te regelen.
+Aspose.3D ondersteunt animatie‑hiërarchie; elke animatie kan worden samengesteld uit meerdere animaties en de key‑frame‑definitie van een animatie.  AnimationNode definieert de transformatie van een eigenschapswaarde in de tijd; bijvoorbeeld, een animatie‑node kan worden gebruikt om de transformatie van een node of andere numerieke eigenschappen van een A3DObject‑object te regelen.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor(name) | Initialiseert een nieuw exemplaar van de klasse AnimationNode. |
+| constructor(name) | Initialiseert een nieuw exemplaar van de AnimationNode-klasse. |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload() | Initialiseert een nieuw exemplaar van de klasse AnimationNode. |
+| constructor_overload() | Initialiseert een nieuw exemplaar van de AnimationNode-klasse. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBindPoints() | Haalt de huidige eigenschap-bindpunten op |
+| getBindPoints() | Haalt de huidige bindpunten van de eigenschap op |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSubAnimations() | Haalt de subanimatie‑knopen onder de huidige animaties op |
+| getSubAnimations() | Haalt de sub-animatienodes op onder de huidige animaties |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -114,13 +114,13 @@ Aspose.3D ondersteunt animatiehiërarchie, elke animatie kan worden samengesteld
 
 | Naam | Beschrijving |
 | --- | --- |
-| findBindPoint(name) | Vindt het bindpunt op naam. |
+| findBindPoint(name) | Zoekt het bindpunt op naam. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| name | String | Naam van het bindpunt om te vinden. |
+| name | String | Naam van het bindpunt om te zoeken. |
 
  **Result:**
 BindPoint
@@ -133,7 +133,7 @@ BindPoint
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBindPoint(target, propName, create) | Haalt het animatie-bindpunt op voor de opgegeven eigenschap. |
+| getBindPoint(target, propName, create) | Haalt het animatie‑bindpunt op voor de opgegeven eigenschap. |
 
  **Parameters:**
 
@@ -141,7 +141,7 @@ BindPoint
 | --- | --- | --- |
 | target | A3DObject | Op welk object het bindpunt moet worden gemaakt. |
 | propName | String | De naam van de eigenschap. |
-| maken | boolean | Indien ingesteld op |
+| create | boolean | Indien ingesteld op |
 
  **Result:**
 BindPoint
@@ -154,16 +154,16 @@ BindPoint
 
 | Naam | Beschrijving |
 | --- | --- |
-| getKeyframeSequence(target, propName, channelName, create) | Haalt de keyframe-reeks op voor de opgegeven eigenschap en kanaal. |
+| getKeyframeSequence(target, propName, channelName, create) | Haalt de keyframe‑reeks op voor de opgegeven eigenschap en kanaal. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| target | A3DObject | Op welke instantie de keyframe-reeks moet worden gemaakt. |
+| target | A3DObject | Op welke instantie de keyframe‑reeks moet worden gemaakt. |
 | propName | String | De naam van de eigenschap. |
 | channelName | String | De kanaalnaam. |
-| maken | boolean | Indien ingesteld op |
+| create | boolean | Indien ingesteld op |
 
  **Result:**
 KeyframeSequence
@@ -176,15 +176,15 @@ KeyframeSequence
 
 | Naam | Beschrijving |
 | --- | --- |
-| getKeyframeSequence(target, propName, create) | Haalt de keyframe-reeks op voor de opgegeven eigenschap. |
+| getKeyframeSequence(target, propName, create) | Haalt de keyframe‑reeks op voor de opgegeven eigenschap. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| target | A3DObject | Op welke instantie de keyframe-reeks moet worden gemaakt. |
+| target | A3DObject | Op welke instantie de keyframe‑reeks moet worden gemaakt. |
 | propName | String | De naam van de eigenschap. |
-| maken | boolean | Indien ingesteld op |
+| create | boolean | Indien ingesteld op |
 
  **Result:**
 KeyframeSequence
@@ -223,7 +223,7 @@ BindPoint
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -242,7 +242,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -261,7 +261,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -280,8 +280,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -294,7 +294,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

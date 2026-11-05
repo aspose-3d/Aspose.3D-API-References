@@ -49,7 +49,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGenerateMaterials() | Genereer materialen met willekeurige kleuren voor elk object in de scène als de kleurtabel niet wordt geëxporteerd binnen het RVM‑bestand. Standaardwaarde is true |
+| getGenerateMaterials() | Genereer materialen met willekeurige kleuren voor elk object in de scène als de kleurenkaart niet wordt geëxporteerd binnen het RVM‑bestand. Standaardwaarde is true |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGenerateMaterials(value) | Genereer materialen met willekeurige kleuren voor elk object in de scène als de kleurtabel niet wordt geëxporteerd binnen het RVM‑bestand. Standaardwaarde is true |
+| setGenerateMaterials(value) | Genereer materialen met willekeurige kleuren voor elk object in de scène als de kleurenkaart niet wordt geëxporteerd binnen het RVM‑bestand. Standaardwaarde is true |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCylinderRadialSegments() | Haalt op of stelt het aantal radiale segmenten van de cilinder in, standaardwaarde is 16 |
+| getCylinderRadialSegments() | Krijgt of stelt het aantal radiale segmenten van de cilinder in, standaardwaarde is 16 |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCylinderRadialSegments(value) | Haalt op of stelt het aantal radiale segmenten van de cilinder in, standaardwaarde is 16 |
+| setCylinderRadialSegments(value) | Krijgt of stelt het aantal radiale segmenten van de cilinder in, standaardwaarde is 16 |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDishLongitudeSegments() | Haalt op of stelt het aantal lengtegraden van de dish in, standaardwaarde is 12 |
+| getDishLongitudeSegments() | Krijgt of stelt het aantal lengtegraden van de schotel in, standaardwaarde is 12 |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDishLongitudeSegments(value) | Haalt op of stelt het aantal lengtegraden van de dish in, standaardwaarde is 12 |
+| setDishLongitudeSegments(value) | Krijgt of stelt het aantal lengtegraden van de schotel in, standaardwaarde is 12 |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDishLatitudeSegments() | Haalt op of stelt het aantal breedtegraden van de dish in, standaardwaarde is 8 |
+| getDishLatitudeSegments() | Krijgt of stelt het aantal breedtegraden van de schotel in, standaardwaarde is 8 |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDishLatitudeSegments(value) | Haalt op of stelt het aantal breedtegraden van de dish in, standaardwaarde is 8 |
+| setDishLatitudeSegments(value) | Krijgt of stelt het aantal breedtegraden van de schotel in, standaardwaarde is 8 |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTorusTubularSegments() | Haalt op of stelt het aantal buisvormige segmenten van de torus in, standaardwaarde is 20 |
+| getTorusTubularSegments() | Haalt op of stelt het aantal buissegmenten van de torus in, standaardwaarde is 20 |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTorusTubularSegments(value) | Haalt op of stelt het aantal buisvormige segmenten van de torus in, standaardwaarde is 20 |
+| setTorusTubularSegments(value) | Haalt op of stelt het aantal buissegmenten van de torus in, standaardwaarde is 20 |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAttributePrefix() | Haalt op of stelt het voorvoegsel van de attributen in die zijn gedefinieerd in externe attribuutbestanden, het voorvoegsel wordt gebruikt om naamconflicten te voorkomen, standaardwaarde is "rvm:" |
+| getAttributePrefix() | Haalt op of stelt het voorvoegsel van de attributen in die zijn gedefinieerd in externe attributenbestanden, het voorvoegsel wordt gebruikt om naamconflicten te voorkomen, standaardwaarde is "rvm:" |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAttributePrefix(value) | Haalt op of stelt het voorvoegsel van de attributen in die zijn gedefinieerd in externe attribuutbestanden, het voorvoegsel wordt gebruikt om naamconflicten te voorkomen, standaardwaarde is "rvm:" |
+| setAttributePrefix(value) | Haalt op of stelt het voorvoegsel van de attributen in die zijn gedefinieerd in externe attributenbestanden, het voorvoegsel wordt gebruikt om naamconflicten te voorkomen, standaardwaarde is "rvm:" |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -348,7 +348,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -361,7 +361,7 @@ Laadopties voor het RVM‑bestand van AVEVA Plant Design Management System.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

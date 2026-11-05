@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/bonepose/
 ---
 ## BonePose class
 
-De BonePose bevat de transformatie‑matrix voor een bone‑node
+De BonePose bevat de transformatie‑matrix voor een bot‑node
 
 
 ## Methoden
@@ -56,7 +56,7 @@ De BonePose bevat de transformatie‑matrix voor een bone‑node
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMatrix() | Haalt op of stelt de transformatiematrix van het knooppunt in de huidige pose in. |
+| getMatrix() | Haalt op of stelt de transformatie-matrix van het knooppunt in de huidige pose in. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ De BonePose bevat de transformatie‑matrix voor een bone‑node
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMatrix(value) | Haalt op of stelt de transformatiematrix van het knooppunt in de huidige pose in. |
+| setMatrix(value) | Haalt op of stelt de transformatie-matrix van het knooppunt in de huidige pose in. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ De BonePose bevat de transformatie‑matrix voor een bone‑node
 
 | Naam | Beschrijving |
 | --- | --- |
-| isLocal() | Haalt op of stelt in of de matrix is gedefinieerd in lokale coördinaten. true als deze instantie lokale ruimte is; anders betekent false globale ruimte. |
+| isLocal() | Haalt op of stelt in of de matrix is gedefinieerd in lokale coördinaten. true als deze instantie zich in lokale ruimte bevindt; anders betekent false globale ruimte. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ De BonePose bevat de transformatie‑matrix voor een bone‑node
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLocal(value) | Haalt op of stelt in of de matrix is gedefinieerd in lokale coördinaten. true als deze instantie lokale ruimte is; anders betekent false globale ruimte. |
+| setLocal(value) | Haalt op of stelt in of de matrix is gedefinieerd in lokale coördinaten. true als deze instantie zich in lokale ruimte bevindt; anders betekent false globale ruimte. |
 
  **Result:**
 

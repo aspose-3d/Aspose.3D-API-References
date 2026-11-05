@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/driverexception/
 ---
 ## DriverException class
 
-De uitzondering die wordt opgegooid door interne renderingstuurprogramma's.  @hideconstructor
+De uitzondering die door interne renderingsdrivers wordt opgegooid.  @hideconstructor
 
 
 ## Methoden

@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/vertexelementvector4/
 ---
 ## VertexElementVector4 class
 
-Een hulpprogrammaklasse voor het definiëren van concrete VertexElement-implementaties.  @hideconstructor
+Een hulpprogrammaklasse voor het definiëren van concrete VertexElement-implementaties. @hideconstructor
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Een hulpprogrammaklasse voor het definiëren van concrete VertexElement-implemen
 
 | Naam | Beschrijving |
 | --- | --- |
-| getVertexElementType() | Haalt het type van de VertexElement op. De waarde van de eigenschap is de integer-constante VertexElementType. |
+| getVertexElementType() | Haalt het type van het VertexElement op. De waarde van de eigenschap is de VertexElementType integer-constante. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Een hulpprogrammaklasse voor het definiëren van concrete VertexElement-implemen
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| getMappingMode() | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Een hulpprogrammaklasse voor het definiëren van concrete VertexElement-implemen
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de integer-constante MappingMode. |
+| setMappingMode(value) | Haalt op of stelt in hoe het element wordt gemapt. De waarde van de eigenschap is de MappingMode integer-constante. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Een hulpprogrammaklasse voor het definiëren van concrete VertexElement-implemen
 
 | Naam | Beschrijving |
 | --- | --- |
-| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| getReferenceMode() | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Een hulpprogrammaklasse voor het definiëren van concrete VertexElement-implemen
 
 | Naam | Beschrijving |
 | --- | --- |
-| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de integer-constante ReferenceMode. |
+| setReferenceMode(value) | Haalt op of stelt in hoe het element wordt gerefereerd. De waarde van de eigenschap is de ReferenceMode integer-constante. |
 
  **Result:**
 
@@ -134,13 +134,13 @@ Een hulpprogrammaklasse voor het definiëren van concrete VertexElement-implemen
 
 | Naam | Beschrijving |
 | --- | --- |
-| copyTo(target) | Kopieert gegevens naar opgegeven element |
+| copyTo(target) | Kopieert gegevens naar het opgegeven element |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| target | VertexElementVector4 | Target. |
+| target | VertexElementVector4 | Doelwit. |
 
  **Result:**
 

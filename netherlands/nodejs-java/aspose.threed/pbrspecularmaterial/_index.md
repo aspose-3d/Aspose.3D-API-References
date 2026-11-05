@@ -11,7 +11,7 @@ url: /nl/nodejs-java/aspose.threed/pbrspecularmaterial/
 Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/glans
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -36,7 +36,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTransparency() | Haalt op of stelt de transparantiefactor in. De factor moet liggen tussen 0 (0%, volledig ondoorzichtig) en 1 (100%, volledig transparant). Elke ongeldige factorwaarde wordt begrensd. De transparantiefactor. |
+| getTransparency() | Haalt of stelt de transparantiefactor in. De factor moet liggen tussen 0 (0%, volledig ondoorzichtig) en 1 (100%, volledig transparant). Elke ongeldige factorwaarde wordt begrensd. De transparantiefactor. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTransparency(value) | Haalt op of stelt de transparantiefactor in. De factor moet liggen tussen 0 (0%, volledig ondoorzichtig) en 1 (100%, volledig transparant). Elke ongeldige factorwaarde wordt begrensd. De transparantiefactor. |
+| setTransparency(value) | Haalt of stelt de transparantiefactor in. De factor moet liggen tussen 0 (0%, volledig ondoorzichtig) en 1 (100%, volledig transparant). Elke ongeldige factorwaarde wordt begrensd. De transparantiefactor. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getNormalTexture() | Haalt op of stelt de textuur van normale mapping in |
+| getNormalTexture() | Haalt of stelt de textuur van normale mapping in |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| setNormalTexture(value) | Haalt op of stelt de textuur van normale mapping in |
+| setNormalTexture(value) | Haalt of stelt de textuur van normale mapping in |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSpecularGlossinessTexture() | Haalt op of stelt de textuur voor speculaire kleur in, kanaal RGB slaat de speculaire kleur op en kanaal A slaat de glans op. |
+| getSpecularGlossinessTexture() | Haalt of stelt de textuur voor speculaire kleur in, kanaal RGB slaat de speculaire kleur op en kanaal A slaat de glans op. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSpecularGlossinessTexture(value) | Haalt op of stelt de textuur voor speculaire kleur in, kanaal RGB slaat de speculaire kleur op en kanaal A slaat de glans op. |
+| setSpecularGlossinessTexture(value) | Haalt of stelt de textuur voor speculaire kleur in, kanaal RGB slaat de speculaire kleur op en kanaal A slaat de glans op. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getGlossinessFactor() | Haalt op of stelt de glans (gladheid) van het materiaal in, 1 betekent perfect glad en 0 betekent perfect ruw, standaardwaarde is 1, bereik is [0, 1] |
+| getGlossinessFactor() | Haalt of stelt de glans (gladheid) van het materiaal in, 1 betekent perfect glad en 0 betekent perfect ruw, standaardwaarde is 1, bereik is [0, 1] |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| setGlossinessFactor(value) | Haalt op of stelt de glans (gladheid) van het materiaal in, 1 betekent perfect glad en 0 betekent perfect ruw, standaardwaarde is 1, bereik is [0, 1] |
+| setGlossinessFactor(value) | Haalt of stelt de glans (gladheid) van het materiaal in, 1 betekent perfect glad en 0 betekent perfect ruw, standaardwaarde is 1, bereik is [0, 1] |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSpecular() | Haalt op of stelt de speculaire kleur van het materiaal in, standaardwaarde is (1, 1, 1). |
+| getSpecular() | Haalt of stelt de speculaire kleur van het materiaal in, standaardwaarde is (1, 1, 1). |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSpecular(value) | Haalt op of stelt de speculaire kleur van het materiaal in, standaardwaarde is (1, 1, 1). |
+| setSpecular(value) | Haalt of stelt de speculaire kleur van het materiaal in, standaardwaarde is (1, 1, 1). |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDiffuseTexture() | Haalt op of stelt de textuur voor diffuse in |
+| getDiffuseTexture() | Haalt of stelt de textuur voor diffuse in |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDiffuseTexture(value) | Haalt op of stelt de textuur voor diffuse in |
+| setDiffuseTexture(value) | Haalt of stelt de textuur voor diffuse in |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDiffuse() | Haalt op of stelt de diffuse kleur van het materiaal in, standaardwaarde is (1, 1, 1) |
+| getDiffuse() | Haalt of stelt de diffuse kleur van het materiaal in, standaardwaarde is (1, 1, 1) |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDiffuse(value) | Haalt op of stelt de diffuse kleur van het materiaal in, standaardwaarde is (1, 1, 1) |
+| setDiffuse(value) | Haalt of stelt de diffuse kleur van het materiaal in, standaardwaarde is (1, 1, 1) |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEmissiveTexture() | Haalt op of stelt de textuur voor emissief in |
+| getEmissiveTexture() | Haalt op of stelt de emissieve textuur in |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEmissiveTexture(value) | Haalt op of stelt de textuur voor emissief in |
+| setEmissiveTexture(value) | Haalt op of stelt de emissieve textuur in |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Materiaal voor fysiek gebaseerd renderen gebaseerd op diffuse kleur/specular/gla
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTexture(slotName) | Haalt de textuur op uit de opgegeven slot, dit kan de naam van een materiaaleigenschap of de naam van een shaderparameter zijn. |
+| getTexture(slotName) | Haalt de textuur op uit de opgegeven slot, dit kan de eigenschapsnaam van het materiaal of de parameternaam van de shader zijn. |
 
  **Parameters:**
 
@@ -328,7 +328,7 @@ TextureBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTexture(slotName, texture) | Stelt de textuur in op de opgegeven slot |
+| setTexture(slotName, texture) | Stelt de textuur in voor de opgegeven slot. |
 
  **Parameters:**
 
@@ -348,7 +348,7 @@ TextureBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Formatteert object naar string |
+| toString() | Formatteert object naar string. |
 
  **Result:**
 String
@@ -367,7 +367,7 @@ String
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -386,7 +386,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -405,7 +405,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -424,8 +424,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -438,7 +438,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

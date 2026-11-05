@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/dracoformat/
 ---
 ## DracoFormat class
 
-Google Draco-formaat  @hideconstructor
+Google Draco-indeling  @hideconstructor
 
 
 ## Methoden
@@ -56,7 +56,7 @@ Google Draco-formaat  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getContentType() | Haalt bestandsformaatinhoudstype op. De waarde van de eigenschap is de integer‑constante FileContentType. |
+| getContentType() | Haalt het inhoudstype van het bestandsformaat op. De waarde van de eigenschap is de gehele constante FileContentType. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Google Draco-formaat  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormatType() | Haalt bestandsformaattype op |
+| getFileFormatType() | Haalt bestandsformaattype op. |
 
  **Result:**
 
@@ -88,10 +88,10 @@ Google Draco-formaat  @hideconstructor
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| fileName | String | De bestandsnaam bevat het drc‑bestand |
+| fileName | String | De bestandsnaam bevat het drc-bestand |
 
  **Result:**
-Geometrie
+Geometry
 
 
 ---
@@ -101,16 +101,16 @@ Geometrie
 
 | Naam | Beschrijving |
 | --- | --- |
-| decode(data) | Decodeer de puntwolk of mesh uit geheugen‑gegevens |
+| decode(data) | Decodeer de puntwolk of mesh uit geheugengegevens |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| data | byte[] | De ruwe drc‑bytes |
+| data | byte[] | De ruwe drc-bytes |
 
  **Result:**
-Geometrie
+Geometry
 
 
 ---
@@ -126,12 +126,12 @@ Geometrie
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| entity | Entity | De te coderen entiteit |
-| fileName | String | De bestandsnaam die moet worden geschreven |
-| opties | DracoSaveOptions | Extra opties voor het coderen van de puntwolk |
+| entiteit | Entiteit | De te coderen entiteit |
+| fileName | String | De te schrijven bestandsnaam |
+| options | DracoSaveOptions | Extra opties voor het coderen van de puntwolk |
 
  **Result:**
-Geometrie
+Geometry
 
 
 ---
@@ -141,14 +141,14 @@ Geometrie
 
 | Naam | Beschrijving |
 | --- | --- |
-| encode(entity, options) | Encodeer de entiteit naar ruwe Draco‑gegevens |
+| encode(entity, options) | Encodeer de entiteit naar ruwe Draco-gegevens |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| entity | Entity | De te coderen entiteit |
-| opties | DracoSaveOptions | Extra opties voor het coderen van de puntwolk |
+| entiteit | Entiteit | De te coderen entiteit |
+| options | DracoSaveOptions | Extra opties voor het coderen van de puntwolk |
 
  **Result:**
 byte[]
@@ -161,7 +161,7 @@ byte[]
 
 | Naam | Beschrijving |
 | --- | --- |
-| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat. |
+| createLoadOptions() | Maak standaard laadopties voor dit bestandsformaat |
 
  **Result:**
 LoadOptions
@@ -174,7 +174,7 @@ LoadOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| createSaveOptions() | Maak standaard opslagopties voor dit bestandsformaat. |
+| createSaveOptions() | Maak standaard opslaanopties voor dit bestandsformaat |
 
  **Result:**
 SaveOptions

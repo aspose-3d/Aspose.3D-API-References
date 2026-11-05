@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/relativerectangle/
 ---
 ## RelativeRectangle class
 
-Relatieve rechthoek  De formule tussen een relatief component en een absolute waarde is:  Schaal  (Referentiebreedte) + offset  Dus als we willen dat het een absolute waarde vertegenwoordigt, laat alle schaalvelden op nul staan en gebruik in plaats daarvan offsetvelden.
+Relatieve rechthoek  De formule tussen relatief onderdeel en absolute waarde is:  Schaal  (Referentiebreedte) + offset  Dus als we het een absolute waarde willen laten vertegenwoordigen, laat alle schaalvelden op nul staan en gebruik in plaats daarvan offsetvelden.
 
 
 ## Methoden
@@ -30,16 +30,16 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| constructor_overload(left, top, width, height) | Construeer een RelativeRectangle |
+| constructor_overload(left, top, width, height) | Maak een RelativeRectangle |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| links | Number | null |
-| to | Number | null |
-| widt | Number | null |
-| heigh | Number | null |
+| lef | Nummer | null |
+| to | Nummer | null |
+| breedte | Nummer | null |
+| hoogte | Nummer | null |
 
  **Result:**
 
@@ -156,7 +156,7 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOffsetX() | Haalt de offset op of stelt deze in voor coördinaat X |
+| getOffsetX() | Haalt de offset voor coördinaat X op of stelt deze in |
 
  **Result:**
 
@@ -169,7 +169,7 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOffsetX(value) | Haalt de offset op of stelt deze in voor coördinaat X |
+| setOffsetX(value) | Haalt de offset voor coördinaat X op of stelt deze in |
 
  **Result:**
 
@@ -182,7 +182,7 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOffsetY() | Haalt de offset op of stelt deze in voor coördinaat Y |
+| getOffsetY() | Haalt de offset voor coördinaat Y op of stelt deze in |
 
  **Result:**
 
@@ -195,7 +195,7 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOffsetY(value) | Haalt de offset op of stelt deze in voor coördinaat Y |
+| setOffsetY(value) | Haalt de offset voor coördinaat Y op of stelt deze in |
 
  **Result:**
 
@@ -208,7 +208,7 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOffsetWidth() | Haalt de offset op of stelt deze in voor breedte |
+| getOffsetWidth() | Haalt of stelt de offset voor breedte in |
 
  **Result:**
 
@@ -221,7 +221,7 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOffsetWidth(value) | Haalt de offset op of stelt deze in voor breedte |
+| setOffsetWidth(value) | Haalt of stelt de offset voor breedte in |
 
  **Result:**
 
@@ -234,7 +234,7 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOffsetHeight() | Haalt de offset op of stelt deze in voor hoogte |
+| getOffsetHeight() | Haalt of stelt de offset voor hoogte in |
 
  **Result:**
 
@@ -247,7 +247,7 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOffsetHeight(value) | Haalt de offset op of stelt deze in voor hoogte |
+| setOffsetHeight(value) | Haalt of stelt de offset voor hoogte in |
 
  **Result:**
 
@@ -266,10 +266,10 @@ Relatieve rechthoek  De formule tussen een relatief component en een absolute wa
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| left | Number | Linkerkant van de rechthoek |
-| top | Number | Bovenkant van de rechthoek |
-| breedte | Number | Breedte van de rechthoek |
-| height | Number | Hoogte van de rechthoek |
+| links | Nummer | Linkerzijde van de rechthoek |
+| boven | Nummer | Bovenkant van de rechthoek |
+| width | Nummer | Breedte van de rechthoek |
+| height | Nummer | Hoogte van de rechthoek |
 
  **Result:**
 Rect
@@ -282,16 +282,16 @@ Rect
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromScale(scaleX, scaleY, scaleWidth, scaleHeight) | Construeer een RelativeRectangle met alle offsetvelden op nul en schaalvelden uit de opgegeven parameters. |
+| fromScale(scaleX, scaleY, scaleWidth, scaleHeight) | Construeer een RelativeRectangle met alle offsetvelden op nul en schaalvelden uit de gegeven parameters. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| schaal | Number | null |
-| schaal | Number | null |
-| scaleWidt | Number | null |
-| scaleHeigh | Number | null |
+| schaal | Nummer | null |
+| schaal | Nummer | null |
+| scaleWidt | Nummer | null |
+| scaleHeigh | Nummer | null |
 
  **Result:**
 RelativeRectangle

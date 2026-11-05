@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/renderstate/
 ---
 ## RenderState class
 
-Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de renderstatus worden aangebracht, hebben geen invloed op de gemaakte pipeline‑instanties.
+Renderstatus voor het bouwen van de pipeline  De wijzigingen die in de renderstatus worden aangebracht, hebben geen invloed op de gemaakte pipeline‑instanties.
 
 
 ## Methoden
@@ -82,7 +82,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSourceBlendFactor() | Haalt of stelt in hoe de kleur wordt gemengd. De waarde van de eigenschap is een BlendFactor‑integerconstante. |
+| getSourceBlendFactor() | Haalt of stelt in hoe de kleur wordt gemengd. De waarde van de eigenschap is een BlendFactor integer-constante. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSourceBlendFactor(value) | Haalt of stelt in hoe de kleur wordt gemengd. De waarde van de eigenschap is een BlendFactor‑integerconstante. |
+| setSourceBlendFactor(value) | Haalt of stelt in hoe de kleur wordt gemengd. De waarde van de eigenschap is een BlendFactor integer-constante. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDestinationBlendFactor() | Haalt of stelt in hoe de kleur wordt gemengd. De waarde van de eigenschap is een BlendFactor‑integerconstante. |
+| getDestinationBlendFactor() | Haalt of stelt in hoe de kleur wordt gemengd. De waarde van de eigenschap is een BlendFactor integer-constante. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDestinationBlendFactor(value) | Haalt of stelt in hoe de kleur wordt gemengd. De waarde van de eigenschap is een BlendFactor‑integerconstante. |
+| setDestinationBlendFactor(value) | Haalt of stelt in hoe de kleur wordt gemengd. De waarde van de eigenschap is een BlendFactor integer-constante. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCullFace() | Schakel cull face in of uit |
+| getCullFace() | Inschakelen of uitschakelen van cull face |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCullFace(value) | Schakel cull face in of uit |
+| setCullFace(value) | Inschakelen of uitschakelen van cull face |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCullFaceMode() | Haalt op of stelt in welke zijde wordt weggecullt. De waarde van de eigenschap is de integer-constante CullFaceMode. |
+| getCullFaceMode() | Haalt op of stelt in welke kant wordt geculld. De waarde van de eigenschap is de integer‑constante CullFaceMode. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCullFaceMode(value) | Haalt op of stelt in welke zijde wordt weggecullt. De waarde van de eigenschap is de integer-constante CullFaceMode. |
+| setCullFaceMode(value) | Haalt op of stelt in welke kant wordt geculld. De waarde van de eigenschap is de integer‑constante CullFaceMode. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFrontFace() | Haalt op of stelt in welke volgorde de voorkant is. De waarde van de eigenschap is de integer-constante FrontFace. |
+| getFrontFace() | Haalt op of stelt in welke volgorde de front face is. De waarde van de eigenschap is de integer‑constante FrontFace. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFrontFace(value) | Haalt op of stelt in welke volgorde de voorkant is. De waarde van de eigenschap is de integer-constante FrontFace. |
+| setFrontFace(value) | Haalt op of stelt in welke volgorde de front face is. De waarde van de eigenschap is de integer‑constante FrontFace. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDepthTest() | Schakel de diepte-test in of uit. |
+| getDepthTest() | Inschakelen of uitschakelen van de diepte‑test. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDepthTest(value) | Schakel de diepte-test in of uit. |
+| setDepthTest(value) | Inschakelen of uitschakelen van de diepte‑test. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDepthMask() | Schakel het schrijven van diepte in of uit. |
+| getDepthMask() | Inschakelen of uitschakelen van het schrijven van diepte. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDepthMask(value) | Schakel het schrijven van diepte in of uit. |
+| setDepthMask(value) | Inschakelen of uitschakelen van het schrijven van diepte. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDepthFunction() | Haalt op of stelt in de vergelijkingsfunctie die wordt gebruikt bij de diepte-test. De waarde van de eigenschap is de integer-constante CompareFunction. |
+| getDepthFunction() | Haalt op of stelt de vergelijkingsfunctie in die wordt gebruikt in de diepte‑test. De waarde van de eigenschap is de integer‑constante CompareFunction. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDepthFunction(value) | Haalt op of stelt in de vergelijkingsfunctie die wordt gebruikt bij de diepte-test. De waarde van de eigenschap is de integer-constante CompareFunction. |
+| setDepthFunction(value) | Haalt op of stelt de vergelijkingsfunctie in die wordt gebruikt in de diepte‑test. De waarde van de eigenschap is de integer‑constante CompareFunction. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getStencilTest() | Schakel de stencil-test in of uit. |
+| getStencilTest() | Inschakelen of uitschakelen van de stencil‑test. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setStencilTest(value) | Schakel de stencil-test in of uit. |
+| setStencilTest(value) | Inschakelen of uitschakelen van de stencil‑test. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getStencilReference() | Haalt op of stelt de referentiewaarde voor de stencil-test in. |
+| getStencilReference() | Haalt op of stelt de referentiewaarde in voor de stencil‑test. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setStencilReference(value) | Haalt op of stelt de referentiewaarde voor de stencil-test in. |
+| setStencilReference(value) | Haalt op of stelt de referentiewaarde in voor de stencil‑test. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getStencilMask() | Haalt op of stelt het masker in dat ANDed wordt met zowel de referentie- als de opgeslagen stencil-waarde wanneer de test is voltooid. |
+| getStencilMask() | Haalt op of stelt het masker in dat ANDed wordt met zowel de referentie- als de opgeslagen stencilwaarde wanneer de test is voltooid. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getStencilFrontFace() | Haalt de stencil-status voor de voorkant op. |
+| getStencilFrontFace() | Haalt de stencilstatus op voor de voorkant. |
 
  **Result:**
 
@@ -381,7 +381,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScissorTest() | Schakel de scissor-test in of uit |
+| getScissorTest() | Scissor-test inschakelen of uitschakelen |
 
  **Result:**
 
@@ -394,7 +394,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setScissorTest(value) | Schakel de scissor-test in of uit |
+| setScissorTest(value) | Scissor-test inschakelen of uitschakelen |
 
  **Result:**
 
@@ -407,7 +407,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPolygonMode() | Haalt de rendermodus van de polygoon op of stelt deze in. De waarde van de eigenschap is een integer-constante PolygonMode. |
+| getPolygonMode() | Haalt op of stelt de rendermodus van de polygon in. De waarde van de eigenschap is een PolygonMode integer-constante. |
 
  **Result:**
 
@@ -420,7 +420,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPolygonMode(value) | Haalt de rendermodus van de polygoon op of stelt deze in. De waarde van de eigenschap is een integer-constante PolygonMode. |
+| setPolygonMode(value) | Haalt op of stelt de rendermodus van de polygon in. De waarde van de eigenschap is een PolygonMode integer-constante. |
 
  **Result:**
 
@@ -468,7 +468,7 @@ Renderstatus voor het bouwen van de pipeline  De wijzigingen die op de rendersta
 | othe | RenderState | null |
 
  **Result:**
-Number
+Nummer
 
 
 ---

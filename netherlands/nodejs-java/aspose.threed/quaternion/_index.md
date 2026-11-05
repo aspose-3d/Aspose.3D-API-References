@@ -11,15 +11,15 @@ url: /nl/nodejs-java/aspose.threed/quaternion/
 Quaternion wordt meestal gebruikt om rotatie uit te voeren in computergraphics.
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| w | De w component. |
+| w | De w-component. |
 | x | De x-component. |
 | y | De y-component. |
 | z | De z-component. |
-| IDENTITY | De Identity quaternion. |
+| IDENTITY | Het identiteitsquaternion. |
 
 ## Methoden
 
@@ -46,10 +46,10 @@ Quaternion wordt meestal gebruikt om rotatie uit te voeren in computergraphics.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| w | Number | w-component van de quaternion |
-| x | Number | x-component van de quaternion |
-| y | Number | y-component van de quaternion |
-| z | Number | z-component van de quaternion |
+| w | Nummer | w-component van het quaternion |
+| x | Nummer | x-component van het quaternion |
+| y | Nummer | y-component van het quaternion |
+| z | Nummer | z-component van het quaternion |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Quaternion wordt meestal gebruikt om rotatie uit te voeren in computergraphics.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLength() | Geeft de lengte van de quaternion terug |
+| getLength() | Geeft de lengte van het quaternion terug |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Quaternion wordt meestal gebruikt om rotatie uit te voeren in computergraphics.
 
 | Naam | Beschrijving |
 | --- | --- |
-| equals(obj) | Controleer of twee quaternionen gelijk zijn |
+| equals(obj) | Controleer of twee quaternions gelijk zijn |
 
  **Parameters:**
 
@@ -94,10 +94,10 @@ boolean
 
 | Naam | Beschrijving |
 | --- | --- |
-| hashCode() | Haalt de hashcode van Quaternion op |
+| hashCode() | Haalt de hashcode op van Quaternion |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -142,7 +142,7 @@ Quaternion
 | q | Quaternion | De quaternion |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -178,7 +178,7 @@ Quaternion
 
 | Naam | Beschrijving |
 | --- | --- |
-| concat(rhs) | Voeg twee quaternionen samen |
+| concat(rhs) | Voeg twee quaternions samen |
 
  **Parameters:**
 
@@ -197,14 +197,14 @@ Quaternion
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromAngleAxis(a, axis) | Maakt een quaternion rond de gegeven as en roteert met de klok mee |
+| fromAngleAxis(a, axis) | Creëert een quaternion rond de gegeven as en roteert met de klok mee |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| a | Number | Rotatie met de klok mee in radialen |
-| as | Vector3 | As |
+| a | Nummer | Rotatie met de klok mee in radialen |
+| axis | Vector3 | As |
 
  **Result:**
 Quaternion
@@ -217,7 +217,7 @@ Quaternion
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromRotation(orig, dest) | Maakt een quaternion die roteert van de oorspronkelijke naar de bestemmingsrichting |
+| fromRotation(orig, dest) | Creëert een quaternion die roteert van de oorspronkelijke naar de bestemmingsrichting |
 
  **Parameters:**
 
@@ -237,15 +237,15 @@ Quaternion
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromEulerAngle(pitch, yaw, roll) | Maakt een quaternion van de gegeven Euler‑hoek |
+| fromEulerAngle(pitch, yaw, roll) | Maakt quaternion van gegeven Euler-hoek |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| pitch | Number | Pitch in radialen |
-| yaw | Number | Yaw in radialen |
-| rol | Number | Rol in radialen |
+| pitch | Nummer | Pitch in radialen |
+| yaw | Nummer | Yaw in radialen |
+| roll | Nummer | Roll in radialen |
 
  **Result:**
 Quaternion
@@ -258,13 +258,13 @@ Quaternion
 
 | Naam | Beschrijving |
 | --- | --- |
-| fromEulerAngle(eulerAngle) | Maakt een quaternion van de gegeven Euler‑hoek |
+| fromEulerAngle(eulerAngle) | Maakt quaternion van gegeven Euler-hoek |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eulerAngle | Vector3 | Eulerhoek in radialen |
+| eulerAngle | Vector3 | Euler-hoek in radialen |
 
  **Result:**
 Quaternion
@@ -277,7 +277,7 @@ Quaternion
 
 | Naam | Beschrijving |
 | --- | --- |
-| toMatrix() | Converteer de rotatie die wordt gepresenteerd door een quaternion naar een transformatiematrix. |
+| toMatrix() | Converteer de rotatie die door de quaternion wordt gepresenteerd naar een transformatiesmatrix. |
 
  **Result:**
 Matrix4
@@ -290,7 +290,7 @@ Matrix4
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Haalt de representatie van een quaternion op als string |
+| toString() | Verkrijgt de representatie van de quaternion als string |
 
  **Result:**
 String
@@ -303,13 +303,13 @@ String
 
 | Naam | Beschrijving |
 | --- | --- |
-| interpolate(t, from, to) | Vult dit quaternion met de geïnterpoleerde waarde tussen de opgegeven quaternion-argumenten voor een t tussen from en to. |
+| interpolate(t, from, to) | Vult deze quaternion met de geïnterpoleerde waarde tussen de gegeven quaternion-argumenten voor een t tussen from en to. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| t | Number | De coëfficiënt om te interpoleren. |
+| t | Nummer | De coëfficiënt om te interpoleren. |
 | from | Quaternion | Bron quaternion. |
 | to | Quaternion | Doel quaternion. |
 

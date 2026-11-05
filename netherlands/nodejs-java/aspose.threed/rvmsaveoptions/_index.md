@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/rvmsaveoptions/
 ---
 ## RvmSaveOptions class
 
-Opslaanopties voor Aveva PDMS RVM‑bestand.
+Opslagopties voor Aveva PDMS RVM‑bestand.
 
 
 ## Methoden
@@ -127,7 +127,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAttributePrefix() | Haalt op of stelt het voorvoegsel in van de attributen die geëxporteerd zullen worden, de geëxporteerde eigenschap zal geen voorvoegsel bevatten, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. Bijvoorbeeld als een eigenschap rvm:Refno=345 is, zal het geëxporteerde attribuut Refno = 345 zijn, het voorvoegsel wordt verwijderd. |
+| getAttributePrefix() | Haalt op of stelt het voorvoegsel in van de attributen die geëxporteerd zullen worden, de geëxporteerde eigenschap bevat geen voorvoegsel, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. Bijvoorbeeld als een eigenschap rvm:Refno=345 is, wordt het geëxporteerde attribuut Refno = 345, het voorvoegsel wordt verwijderd. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAttributePrefix(value) | Haalt op of stelt het voorvoegsel in van de attributen die geëxporteerd zullen worden, de geëxporteerde eigenschap zal geen voorvoegsel bevatten, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. Bijvoorbeeld als een eigenschap rvm:Refno=345 is, zal het geëxporteerde attribuut Refno = 345 zijn, het voorvoegsel wordt verwijderd. |
+| setAttributePrefix(value) | Haalt op of stelt het voorvoegsel in van de attributen die geëxporteerd zullen worden, de geëxporteerde eigenschap bevat geen voorvoegsel, aangepaste eigenschappen met een ander voorvoegsel worden niet geëxporteerd, standaardwaarde is 'rvm:'. Bijvoorbeeld als een eigenschap rvm:Refno=345 is, wordt het geëxporteerde attribuut Refno = 345, het voorvoegsel wordt verwijderd. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAttributeListFile() | Haalt of stelt de bestandsnaam van het attribuutlijstbestand in, de exporter genereert een naam op basis van de .rvm-bestandsnaam wanneer deze eigenschap niet is gedefinieerd, standaardwaarde is null. |
+| getAttributeListFile() | Haalt op of stelt de bestandsnaam van het attribuutlijstbestand in, de exporter genereert een naam op basis van de .rvm-bestandsnaam wanneer deze eigenschap niet is gedefinieerd, standaardwaarde is null. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setAttributeListFile(value) | Haalt of stelt de bestandsnaam van het attribuutlijstbestand in, de exporter genereert een naam op basis van de .rvm-bestandsnaam wanneer deze eigenschap niet is gedefinieerd, standaardwaarde is null. |
+| setAttributeListFile(value) | Haalt op of stelt de bestandsnaam van het attribuutlijstbestand in, de exporter genereert een naam op basis van de .rvm-bestandsnaam wanneer deze eigenschap niet is gedefinieerd, standaardwaarde is null. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExportAttributes() | Haalt of stelt in of de attribuutlijst moet worden geëxporteerd naar een extern .att-bestand, standaardwaarde is false. |
+| getExportAttributes() | Haalt op of stelt in of de attribuutlijst moet worden geëxporteerd naar een extern .att-bestand, standaardwaarde is false. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setExportAttributes(value) | Haalt of stelt in of de attribuutlijst moet worden geëxporteerd naar een extern .att-bestand, standaardwaarde is false. |
+| setExportAttributes(value) | Haalt op of stelt in of de attribuutlijst moet worden geëxporteerd naar een extern .att-bestand, standaardwaarde is false. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Opslaanopties voor Aveva PDMS RVM‑bestand.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

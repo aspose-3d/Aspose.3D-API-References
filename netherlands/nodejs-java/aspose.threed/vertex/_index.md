@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/vertex/
 ---
 ## Vertex class
 
-Vertex-referentie, gebruikt om de ruwe vertex in TriMesh te benaderen.  @hideconstructor
+Vertex-referentie, gebruikt om de ruwe vertex in TriMesh te benaderen. @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Vertex-referentie, gebruikt om de ruwe vertex in TriMesh te benaderen.  @hidecon
 
 | Naam | Beschrijving |
 | --- | --- |
-| compareTo(other) | Vergelijk de vertex met een ander vertex-exemplaar |
+| compareTo(other) | Vergelijk de vertex met een andere vertex‑instantie |
 
  **Parameters:**
 
@@ -26,7 +26,7 @@ Vertex-referentie, gebruikt om de ruwe vertex in TriMesh te benaderen.  @hidecon
 | othe | Vertex | null |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -42,7 +42,7 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| field | VertexField | Het veld met een Vector4/FVector4-datatype |
+| field | VertexField | Het veld met een Vector4/FVector4 datatype |
 
  **Result:**
 Vector4
@@ -61,7 +61,7 @@ Vector4
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| field | VertexField | Het veld met een Vector4/FVector4-datatype |
+| field | VertexField | Het veld met een Vector4/FVector4 datatype |
 
  **Result:**
 FVector4
@@ -156,10 +156,10 @@ FVector2
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| field | VertexField | Het veld met een float/double-compatibel datatype |
+| field | VertexField | Het veld met een float/double compatibel datatype |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -175,10 +175,10 @@ Number
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| field | VertexField | Het veld met een float/double-compatibel datatype |
+| field | VertexField | Het veld met een float/double compatibel datatype |
 
  **Result:**
-Number
+Nummer
 
 
 ---

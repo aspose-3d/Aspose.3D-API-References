@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/skeleton/
 ---
 ## Skeleton class
 
-De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te helpen de transformatie van een skeletstructuur te manipuleren; hij is meestal nutteloos buiten CAD‑software. Om de skelet‑hiërarchie als één object in CAD‑software te laten functioneren, moet het bovenste Skeleton‑knooppunt als root worden gemarkeerd door Type in te stellen op SkeletonType.SKELETON, en alle kinderen op SkeletonType.BONE.
+Het skelet wordt voornamelijk gebruikt door CAD-software om ontwerpers te helpen de transformatie van de skeletstructuur te manipuleren; het is meestal nutteloos buiten de CAD-software.  Om de skelethierarchie als één object in CAD-software te laten functioneren, is het nodig het bovenste Skelet‑knooppunt als de root te markeren door Type in te stellen op SkeletonType.SKELETON,  en alle kinderen in te stellen op SkeletonType.BONE
 
 
 ## Methoden
@@ -49,7 +49,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSize() | Haalt op of stelt de grootte van de ledemaatknoop in, die wordt gebruikt in CAD-software om de grootte van het bot weer te geven. |
+| getSize() | Haalt op of stelt de limb node-grootte in die wordt gebruikt in CAD-software om de grootte van het bot weer te geven. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSize(value) | Haalt op of stelt de grootte van de ledemaatknoop in, die wordt gebruikt in CAD-software om de grootte van het bot weer te geven. |
+| setSize(value) | Haalt op of stelt de limb node-grootte in die wordt gebruikt in CAD-software om de grootte van het bot weer te geven. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getType() | Haalt op of stelt het type van het skelet in. De waarde van de eigenschap is de gehele constante SkeletonType. Het type van het skelet. |
+| getType() | Haalt op of stelt het type van het skelet in. De waarde van de eigenschap is een integer-constante van het type SkeletonType. Het type van het skelet. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| setType(value) | Haalt op of stelt het type van het skelet in. De waarde van de eigenschap is de gehele constante SkeletonType. Het type van het skelet. |
+| setType(value) | Haalt op of stelt het type van het skelet in. De waarde van de eigenschap is een integer-constante van het type SkeletonType. Het type van het skelet. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -205,7 +205,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ De Skeleton wordt voornamelijk gebruikt door CAD‑software om ontwerpers te hel
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -250,7 +250,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -269,7 +269,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -288,7 +288,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -307,8 +307,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -321,7 +321,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

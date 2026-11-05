@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/hshape/
 ---
 ## HShape class
 
-De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
+De HShape biedt de definierende parameters van een 'H' of 'I' vorm.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOverallDepth() | Haalt of stelt de omvang van de diepte in. |
+| getOverallDepth() | Geeft of stelt de omvang van de diepte in. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOverallDepth(value) | Haalt of stelt de omvang van de diepte in. |
+| setOverallDepth(value) | Geeft of stelt de omvang van de diepte in. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBottomFlangeWidth() | Haalt of stelt de omvang van de breedte in. |
+| getBottomFlangeWidth() | Geeft of stelt de omvang van de breedte in. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setBottomFlangeWidth(value) | Haalt of stelt de omvang van de breedte in. |
+| setBottomFlangeWidth(value) | Geeft of stelt de omvang van de breedte in. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTopFlangeWidth() | Haalt of stelt de breedte van de bovenste flens in. |
+| getTopFlangeWidth() | Geeft of stelt de breedte van de bovenste flens in. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTopFlangeWidth(value) | Haalt of stelt de breedte van de bovenste flens in. |
+| setTopFlangeWidth(value) | Geeft of stelt de breedte van de bovenste flens in. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTopFlangeThickness() | Haalt of stelt de dikte van de bovenste flens in. |
+| getTopFlangeThickness() | Geeft of stelt de dikte van de bovenste flens in. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTopFlangeThickness(value) | Haalt of stelt de dikte van de bovenste flens in. |
+| setTopFlangeThickness(value) | Geeft of stelt de dikte van de bovenste flens in. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTopFlangeEdgeRadius() | Haalt of stelt de radius van de onderste randen van de bovenste flens in. |
+| getTopFlangeEdgeRadius() | Geeft of stelt de radius van de onderranden van de bovenste flens in. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTopFlangeEdgeRadius(value) | Haalt of stelt de radius van de onderste randen van de bovenste flens in. |
+| setTopFlangeEdgeRadius(value) | Geeft of stelt de radius van de onderranden van de bovenste flens in. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getTopFlangeFilletRadius() | Haalt of stelt de radius van de afronding tussen de web en de bovenste flens in. |
+| getTopFlangeFilletRadius() | Haalt op of stelt de radius van de afronding tussen de web en de bovenste flens in. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setTopFlangeFilletRadius(value) | Haalt of stelt de radius van de afronding tussen de web en de bovenste flens in. |
+| setTopFlangeFilletRadius(value) | Haalt op of stelt de radius van de afronding tussen de web en de bovenste flens in. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBottomFlangeThickness() | Haalt op of stelt de flensdikte van H-vorm in. |
+| getBottomFlangeThickness() | Haalt op of stelt de flensdikte van de H-vorm in. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setBottomFlangeThickness(value) | Haalt op of stelt de flensdikte van H-vorm in. |
+| setBottomFlangeThickness(value) | Haalt op of stelt de flensdikte van de H-vorm in. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getParentNode() | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| getParentNode() | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setParentNode(value) | Haalt op of stelt de eerste bovenliggende knoop in; als de eerste bovenliggende knoop wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knopen. De bovenliggende knoop. |
+| setParentNode(value) | Haalt op of stelt het eerste bovenliggende knooppunt in, als het eerste bovenliggende knooppunt wordt ingesteld, wordt deze entiteit losgekoppeld van andere bovenliggende knooppunten. Het bovenliggende knooppunt. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getScene() | Haalt de scène op waartoe dit object behoort. |
+| getScene() | Haalt de scène op waartoe dit object behoort |
 
  **Result:**
 
@@ -394,7 +394,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getProperties() | Haalt de collectie van alle eigenschappen op. |
+| getProperties() | Haalt de verzameling van alle eigenschappen op. |
 
  **Result:**
 
@@ -407,7 +407,7 @@ De HShape biedt de bepalende parameters van een 'H'- of 'I'-vorm.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExtent() | Geeft de omvang in de x- en y-dimensie terug |
+| getExtent() | Haalt de omvang in x- en y-dimensie op. |
 
  **Result:**
 Vector2
@@ -420,7 +420,7 @@ Vector2
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEntityRendererKey() | Haalt de sleutel op van de entiteit-renderer die is geregistreerd in de renderer. |
+| getEntityRendererKey() | Haalt de sleutel op van de entiteit‑renderer die is geregistreerd in de renderer |
 
  **Result:**
 EntityRendererKey
@@ -433,7 +433,7 @@ EntityRendererKey
 
 | Naam | Beschrijving |
 | --- | --- |
-| getBoundingBox() | Haalt het begrenzingsvak op van de huidige entiteit in zijn objectruimte-coördinatensysteem. |
+| getBoundingBox() | Haalt de begrenzingsvak op van de huidige entiteit in zijn objectruimte‑coördinatensysteem. |
 
  **Result:**
 EntityRendererKey
@@ -452,7 +452,7 @@ EntityRendererKey
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | Eigenschap | Welke eigenschap moet worden verwijderd |
+| property | Eigenschap | Welke eigenschap moet worden verwijderd |
 
  **Result:**
 boolean
@@ -471,7 +471,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| propert | String | null |
+| eigenschap | String | null |
 
  **Result:**
 boolean
@@ -490,7 +490,7 @@ boolean
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
+| property | String | Naam van eigenschap |
 
  **Result:**
 Object
@@ -509,8 +509,8 @@ Object
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| eigenschap | String | Naam van eigenschap |
-| value | Object | De waarde van de eigenschap |
+| property | String | Naam van eigenschap |
+| waarde | Object | De waarde van de eigenschap |
 
  **Result:**
 Object
@@ -523,7 +523,7 @@ Object
 
 | Naam | Beschrijving |
 | --- | --- |
-| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap (Gemaakt door CreateDynamicProperty/SetProperty) of een native eigenschap(Geadresseerd aan de hand van zijn naam) |
+| findProperty(propertyName) | Zoekt de eigenschap. Het kan een dynamische eigenschap zijn (Created by CreateDynamicProperty/SetProperty) of een native eigenschap (Identified by its name) |
 
  **Parameters:**
 

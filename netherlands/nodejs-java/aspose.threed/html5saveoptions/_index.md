@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/html5saveoptions/
 ---
 ## Html5SaveOptions class
 
-Opslagopties voor HTML5
+Opslaanopties voor HTML5
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShowGrid() | Toont een raster in de scène. Standaardwaarde is true. |
+| getShowGrid() | Toon een raster in de scène. Standaardwaarde is true. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShowGrid(value) | Toont een raster in de scène. Standaardwaarde is true. |
+| setShowGrid(value) | Toon een raster in de scène. Standaardwaarde is true. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShowRulers() | Toont linialen van de x/y/z-assen in de scène om het model te meten. Standaardwaarde is false. |
+| getShowRulers() | Toon linialen van de x/y/z-assen in de scène om het model te meten. Standaardwaarde is false. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShowRulers(value) | Toont linialen van de x/y/z-assen in de scène om het model te meten. Standaardwaarde is false. |
+| setShowRulers(value) | Toon linialen van de x/y/z-assen in de scène om het model te meten. Standaardwaarde is false. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShowUI() | Toont een eenvoudige UI in de scène. Standaardwaarde is true. |
+| getShowUI() | Toon een eenvoudige UI in de scène. Standaardwaarde is true. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShowUI(value) | Toont een eenvoudige UI in de scène. Standaardwaarde is true. |
+| setShowUI(value) | Toon een eenvoudige UI in de scène. Standaardwaarde is true. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getOrientationBox() | Toont een oriëntatievak. Standaardwaarde is true. |
+| getOrientationBox() | Toon een oriëntatievak. Standaardwaarde is true. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setOrientationBox(value) | Toont een oriëntatievak. Standaardwaarde is true. |
+| setOrientationBox(value) | Toon een oriëntatievak. Standaardwaarde is true. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUpVector() | Haalt de up‑vector op of stelt deze in, waarde kan "x"/"y"/"z" zijn, standaardwaarde is "y" |
+| getUpVector() | Haalt op of stelt de up-vector in, waarde kan "x"/"y"/"z" zijn, standaardwaarde is "y" |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setUpVector(value) | Haalt de up‑vector op of stelt deze in, waarde kan "x"/"y"/"z" zijn, standaardwaarde is "y" |
+| setUpVector(value) | Haalt op of stelt de up-vector in, waarde kan "x"/"y"/"z" zijn, standaardwaarde is "y" |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFarPlane() | Krijgt of stelt het verafgelegen vlak van de camera in, standaardwaarde is 1000. |
+| getFarPlane() | Haalt op of stelt het ver-afstandvlak van de camera in, standaardwaarde is 1000. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFarPlane(value) | Krijgt of stelt het verafgelegen vlak van de camera in, standaardwaarde is 1000. |
+| setFarPlane(value) | Haalt op of stelt het ver-afstandvlak van de camera in, standaardwaarde is 1000. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getNearPlane() | Krijgt of stelt het nabije vlak van de camera in, standaardwaarde is 1. |
+| getNearPlane() | Haalt op of stelt het nabij-vlak van de camera in, standaardwaarde is 1 |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setNearPlane(value) | Krijgt of stelt het nabije vlak van de camera in, standaardwaarde is 1. |
+| setNearPlane(value) | Haalt op of stelt het nabij-vlak van de camera in, standaardwaarde is 1 |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookAt() | Krijgt of stelt de standaard kijkpositie in, standaardwaarde is (0, 0, 0). |
+| getLookAt() | Haalt op of stelt de standaard look-at-positie in, standaardwaarde is (0, 0, 0) |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setLookAt(value) | Krijgt of stelt de standaard kijkpositie in, standaardwaarde is (0, 0, 0). |
+| setLookAt(value) | Haalt op of stelt de standaard look-at-positie in, standaardwaarde is (0, 0, 0) |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getCameraPosition() | Krijgt of stelt de initiële positie van de camera in, standaardwaarde is (10, 10, 10). |
+| getCameraPosition() | Haalt op of stelt de initiële positie van de camera in, standaardwaarde is (10, 10, 10) |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setCameraPosition(value) | Krijgt of stelt de initiële positie van de camera in, standaardwaarde is (10, 10, 10). |
+| setCameraPosition(value) | Haalt op of stelt de initiële positie van de camera in, standaardwaarde is (10, 10, 10) |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFieldOfView() | Krijgt of stelt het gezichtsveld in, standaardwaarde is 45, gemeten in graden. |
+| getFieldOfView() | Haalt op of stelt het gezichtsveld in, standaardwaarde is 45, gemeten in graden. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFieldOfView(value) | Krijgt of stelt het gezichtsveld in, standaardwaarde is 45, gemeten in graden. |
+| setFieldOfView(value) | Haalt op of stelt het gezichtsveld in, standaardwaarde is 45, gemeten in graden. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -368,7 +368,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -381,7 +381,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -394,7 +394,7 @@ Opslagopties voor HTML5
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

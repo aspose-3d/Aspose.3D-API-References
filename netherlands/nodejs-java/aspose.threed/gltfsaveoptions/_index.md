@@ -8,7 +8,7 @@ url: /nl/nodejs-java/aspose.threed/gltfsaveoptions/
 ---
 ## GltfSaveOptions class
 
-Opslagopties voor glTF-formaat.
+Opslaanopties voor glTF-formaat.
 
 
 ## Methoden
@@ -42,7 +42,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| forma | Bestandsformaat | null |
+| forma | FileFormat | null |
 
  **Result:**
 
@@ -55,7 +55,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPrettyPrint() | De JSON-inhoud van het GLTF‑bestand is ingesprongen voor leesbaarheid door mensen, standaardwaarde is false |
+| getPrettyPrint() | De JSON-inhoud van het GLTF-bestand is ingesprongen voor menselijke leesbaarheid, standaardwaarde is false |
 
  **Result:**
 
@@ -68,7 +68,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPrettyPrint(value) | De JSON-inhoud van het GLTF‑bestand is ingesprongen voor leesbaarheid door mensen, standaardwaarde is false |
+| setPrettyPrint(value) | De JSON-inhoud van het GLTF-bestand is ingesprongen voor menselijke leesbaarheid, standaardwaarde is false |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFallbackNormal() | Wanneer de GLTF2‑exporteur een ongeldige normaal heeft gedetecteerd, wordt dit gebruikt in plaats van de oorspronkelijke waarde om de validatie te omzeilen. Standaardwaarde is (0, 1, 0) |
+| getFallbackNormal() | Wanneer GLTF2 exporter een ongeldige normaal detecteerde, wordt dit gebruikt in plaats van de oorspronkelijke waarde om de validatie te omzeilen. Standaardwaarde is (0, 1, 0) |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEmbedAssets() | Integreer alle externe assets als base64 in één bestand in ASCII‑modus, standaardwaarde is false. |
+| getEmbedAssets() | Alle externe assets als base64 in één bestand in ASCII-modus insluiten, standaardwaarde is false. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setEmbedAssets(value) | Integreer alle externe assets als base64 in één bestand in ASCII‑modus, standaardwaarde is false. |
+| setEmbedAssets(value) | Alle externe assets als base64 in één bestand in ASCII-modus insluiten, standaardwaarde is false. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getImageFormat() | Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat, deze optie geeft aan hoe Aspose.3D niet-standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. Standaardwaarde is GltfEmbeddedImageFormat.PNGDe waarde van de eigenschap is de GltfEmbeddedImageFormat gehele getal constante. |
+| getImageFormat() | Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat; deze optie bepaalt hoe Aspose.3D de niet-standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. Standaardwaarde is GltfEmbeddedImageFormat.PNG De waarde van de eigenschap is de GltfEmbeddedImageFormat integerconstante. |
 
  **Result:**
 
@@ -133,7 +133,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setImageFormat(value) | Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat, deze optie geeft aan hoe Aspose.3D niet-standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. Standaardwaarde is GltfEmbeddedImageFormat.PNGDe waarde van de eigenschap is de GltfEmbeddedImageFormat gehele getal constante. |
+| setImageFormat(value) | Standaard glTF ondersteunt alleen PNG/JPG als textuurformaat; deze optie bepaalt hoe Aspose.3D de niet-standaard afbeeldingen converteert naar een ondersteund formaat tijdens het exporteren. Standaardwaarde is GltfEmbeddedImageFormat.PNG De waarde van de eigenschap is de GltfEmbeddedImageFormat integerconstante. |
 
  **Result:**
 
@@ -146,7 +146,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getMaterialConverter() | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR-materiaal. Als dit niet is toegewezen, zal de glTF 2.0-exporteur automatisch het standaardmateriaal converteren naar PBR-materiaal. Standaardwaarde is null. Deze eigenschap wordt gebruikt bij het exporteren van een scène naar een glTF 2.0-bestand. |
+| getMaterialConverter() | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR‑materiaal. Als dit niet is toegewezen, zal de glTF 2.0 exporter automatisch het standaardmateriaal converteren naar PBR‑materiaal. Standaardwaarde is null. Deze eigenschap wordt gebruikt bij het exporteren van een scène naar een glTF 2.0‑bestand. |
 
  **Result:**
 
@@ -159,7 +159,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setMaterialConverter(value) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR-materiaal. Als dit niet is toegewezen, zal de glTF 2.0-exporteur automatisch het standaardmateriaal converteren naar PBR-materiaal. Standaardwaarde is null. Deze eigenschap wordt gebruikt bij het exporteren van een scène naar een glTF 2.0-bestand. |
+| setMaterialConverter(value) | Aangepaste converter om het materiaal van de geometrie te converteren naar PBR‑materiaal. Als dit niet is toegewezen, zal de glTF 2.0 exporter automatisch het standaardmateriaal converteren naar PBR‑materiaal. Standaardwaarde is null. Deze eigenschap wordt gebruikt bij het exporteren van een scène naar een glTF 2.0‑bestand. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getUseCommonMaterials() | Serialiseer materialen met behulp van KHR gemeenschappelijke materiaalextensies, standaardwaarde is false. Als u dit op false zet, zal Aspose.3D een set vertex-/fragmentshaders exporteren als #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
+| getUseCommonMaterials() | Materialen serialiseren met KHR‑common‑material‑extensies, standaardwaarde is false. Als dit op false wordt gezet, zal Aspose.3D een set vertex/fragment‑shaders exporteren als #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setUseCommonMaterials(value) | Serialiseer materialen met behulp van KHR gemeenschappelijke materiaalextensies, standaardwaarde is false. Als u dit op false zet, zal Aspose.3D een set vertex-/fragmentshaders exporteren als #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
+| setUseCommonMaterials(value) | Materialen serialiseren met KHR‑common‑material‑extensies, standaardwaarde is false. Als dit op false wordt gezet, zal Aspose.3D een set vertex/fragment‑shaders exporteren als #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
 
  **Result:**
 
@@ -198,7 +198,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getExternalDracoEncoder() | Gebruik een externe draco-encoder om de draco-compressiesnelheid te versnellen. Aspose.3D zal een nieuw subprocess maken om het mesh te coderen naar het draco-formaat; gebruik dit op eigen risico. |
+| getExternalDracoEncoder() | Gebruik een externe draco‑encoder om de draco‑compressiesnelheid te versnellen. Aspose.3D zal een nieuw subproces aanmaken om het mesh te coderen naar het draco‑formaat; gebruik dit op eigen risico. |
 
  **Result:**
 
@@ -211,7 +211,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setExternalDracoEncoder(value) | Gebruik een externe draco-encoder om de draco-compressiesnelheid te versnellen. Aspose.3D zal een nieuw subprocess maken om het mesh te coderen naar het draco-formaat; gebruik dit op eigen risico. |
+| setExternalDracoEncoder(value) | Gebruik een externe draco‑encoder om de draco‑compressiesnelheid te versnellen. Aspose.3D zal een nieuw subproces aanmaken om het mesh te coderen naar het draco‑formaat; gebruik dit op eigen risico. |
 
  **Result:**
 
@@ -224,7 +224,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFlipTexCoordV() | Keer de v(t)-component van de textuurcoördinaat om, standaardwaarde is true. |
+| getFlipTexCoordV() | Draai de v(t)-component van de textuurcoördinaat om, standaardwaarde is true. |
 
  **Result:**
 
@@ -237,7 +237,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFlipTexCoordV(value) | Keer de v(t)-component van de textuurcoördinaat om, standaardwaarde is true. |
+| setFlipTexCoordV(value) | Draai de v(t)-component van de textuurcoördinaat om, standaardwaarde is true. |
 
  **Result:**
 
@@ -276,7 +276,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getSaveExtras() | Sla de dynamische eigenschappen van scène‑objecten op in 'extra' velden in het gegenereerde glTF‑bestand. Dit is nuttig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false. |
+| getSaveExtras() | Sla de dynamische eigenschappen van scene‑objecten op in 'extra'-velden in het gegenereerde glTF‑bestand. Dit is handig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setSaveExtras(value) | Sla de dynamische eigenschappen van scène‑objecten op in 'extra' velden in het gegenereerde glTF‑bestand. Dit is nuttig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false. |
+| setSaveExtras(value) | Sla de dynamische eigenschappen van scene‑objecten op in 'extra'-velden in het gegenereerde glTF‑bestand. Dit is handig om toepassingsspecifieke gegevens te leveren. Standaardwaarde is false. |
 
  **Result:**
 
@@ -328,7 +328,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getDracoCompression() | Geeft of stelt in of draco-compressie moet worden ingeschakeld |
+| getDracoCompression() | Haalt op of stelt in of draco‑compressie moet worden ingeschakeld |
 
  **Result:**
 
@@ -341,7 +341,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setDracoCompression(value) | Geeft of stelt in of draco-compressie moet worden ingeschakeld |
+| setDracoCompression(value) | Haalt op of stelt in of draco‑compressie moet worden ingeschakeld |
 
  **Result:**
 
@@ -380,7 +380,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileFormat() | Geeft het bestandsformaat terug dat is opgegeven in de huidige opslaan/laden-optie. |
+| getFileFormat() | Haalt het bestandsformaat op dat is gespecificeerd in de huidige Opslaan/Laden-optie. |
 
  **Result:**
 
@@ -393,7 +393,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getEncoding() | Geeft de standaardcodering voor tekstbestanden terug of stelt deze in. Standaardwaarde is null, wat betekent dat de importeur/exporteur bepaalt welke codering te gebruiken. |
+| getEncoding() | Haalt op of stelt de standaardcodering voor tekstgebaseerde bestanden in. Standaardwaarde is null, wat betekent dat de importeur/exporteur beslist welke codering te gebruiken. |
 
  **Result:**
 
@@ -406,7 +406,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileSystem() | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| getFileSystem() | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -419,7 +419,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileSystem(value) | Staat de gebruiker toe te bepalen hoe externe afhankelijkheden tijdens laden/opslaan worden beheerd. |
+| setFileSystem(value) | Sta de gebruiker toe om te bepalen hoe externe afhankelijkheden te beheren tijdens laden/opslaan. |
 
  **Result:**
 
@@ -432,7 +432,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te vinden voor het laden. |
+| getLookupPaths() | Sommige bestanden, zoals OBJ, zijn afhankelijk van externe bestanden; de zoekpaden stellen Aspose.3D in staat om externe bestanden te zoeken om te laden. |
 
  **Result:**
 
@@ -445,7 +445,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFileName() | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| getFileName() | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 
@@ -458,7 +458,7 @@ Opslagopties voor glTF-formaat.
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFileName(value) | De bestandsnaam van de te exporteren/importeren scène. Dit is optioneel, maar handig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
+| setFileName(value) | De bestandsnaam van de exporterende/importerende scène. Dit is optioneel, maar nuttig bij het serialiseren van externe assets zoals het materiaal van OBJ. |
 
  **Result:**
 

@@ -8,31 +8,31 @@ url: /nl/nodejs-java/aspose.threed/fileformattype/
 ---
 ## FileFormatType class
 
-Bestandsformaattype @hideconstructor
+Bestandsformaat type @hideconstructor
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| MAYA | Autodesk Maya-formattype |
-| FBX | FBX-bestandsformaat type |
-| STL | STL-bestandsformaat type |
+| MAYA | Autodesk Maya-formaattype |
+| FBX | FBX-bestandsformaattype |
+| STL | STL-bestandsformaattype |
 | COLLADA | Collada-bestandsformaat van Khronos Group. |
 | PDF | Portable Document Format |
-| GLTF | glTF van Khronos Group |
+| GLTF | glTF van de Khronos Group |
 | DXF | AutoCAD DXF |
 | PLY | Polygon File Format of Stanford Triangle Format |
 | X | X-bestand van DirectX |
 | DRACO | Google Draco Mesh |
-| RVM | Model van het Plant Design Management System van AVEGA. |
-| ASE | 3D Studio Max's ASCII Scene Exporter-formaat. |
-| ZIP | Zip-archief dat andere 3d-bestandsformaten bevat. |
-| USD | Universele Scenebeschrijving |
+| RVM | Model van AVEVA Plant Design Management System. |
+| ASE | 3D Studio Max's ASCII-scène-exportformaat. |
+| ZIP | Zip-archief dat andere 3d-bestandsformaat bevat. |
+| USD | Universele Scene Beschrijving |
 | PCD | Puntwolkgegevens gebruikt door Point Cloud Library |
-| XYZ | Xyz-puntwolkbestand |
+| XYZ | Xyz-puntenwolkbestand |
 | IFC | ISO 16739-1 Industry Foundation Classes-gegevensmodel. |
-| AMF | Additive manufacturing-bestandformaat |
+| AMF | Bestandformaat voor additieve productie |
 | VRML | De Virtual Reality Modeling Language |
 
 ## Methoden

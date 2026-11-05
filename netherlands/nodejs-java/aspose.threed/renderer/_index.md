@@ -17,7 +17,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShaderSet() | Haalt op of stelt de shader set in die wordt gebruikt om de scène te renderen. |
+| getShaderSet() | Haalt op of stelt de shaderset in die wordt gebruikt om de scène te renderen. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShaderSet(value) | Haalt op of stelt de shader set in die wordt gebruikt om de scène te renderen. |
+| setShaderSet(value) | Haalt op of stelt de shaderset in die wordt gebruikt om de scène te renderen. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPresetShaders() | Haalt op of stelt de vooraf ingestelde shader-set in. De waarde van de eigenschap is een PresetShaders integer-constante. |
+| getPresetShaders() | Haalt op of stelt de vooraf ingestelde shaderset in. De waarde van de eigenschap is de integerconstante PresetShaders. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setPresetShaders(value) | Haalt op of stelt de vooraf ingestelde shader-set in. De waarde van de eigenschap is een PresetShaders integer-constante. |
+| setPresetShaders(value) | Haalt op of stelt de vooraf ingestelde shaderset in. De waarde van de eigenschap is de integerconstante PresetShaders. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getAssetDirectories() | Mappen die externe assets opslaan. |
+| getAssetDirectories() | Mappen die externe assets opslaan |
 
  **Result:**
 
@@ -108,7 +108,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPostProcessings() | Actieve post-processing keten |
+| getPostProcessings() | Actieve post-processingketen |
 
  **Result:**
 
@@ -147,7 +147,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRenderTarget() | Specificeer het renderdoel waarop de volgende renderbewerkingen zullen worden uitgevoerd. |
+| getRenderTarget() | Specificeer het renderdoel waarop de volgende renderbewerkingen worden uitgevoerd. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getNode() | Haalt op of stelt de Node‑instantie in die wordt gebruikt om de wereldtransformatiematrix te leveren. |
+| getNode() | Haalt op of stelt de Node-instantie in die wordt gebruikt om de wereldtransformatie-matrix te leveren. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setNode(value) | Haalt op of stelt de Node‑instantie in die wordt gebruikt om de wereldtransformatiematrix te leveren. |
+| setNode(value) | Haalt op of stelt de Node-instantie in die wordt gebruikt om de wereldtransformatie-matrix te leveren. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFrustum() | Haalt op of stelt de frustum in die wordt gebruikt om de kijkmatrix te leveren. |
+| getFrustum() | Haalt op of stelt de frustum in die wordt gebruikt om de view-matrix te leveren. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFrustum(value) | Haalt op of stelt de frustum in die wordt gebruikt om de kijkmatrix te leveren. |
+| setFrustum(value) | Haalt op of stelt de frustum in die wordt gebruikt om de view-matrix te leveren. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getRenderStage() | Haalt de huidige renderfase op. De waarde van de eigenschap is de gehele constante RenderStage. |
+| getRenderStage() | Haalt de huidige renderstage op. De waarde van de eigenschap is de RenderStage-integerconstante. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getShader() | Haalt op of stelt de shader‑instantie in die wordt gebruikt voor het renderen van de geometrie. |
+| getShader() | Haalt op of stelt de shader-instantie in die wordt gebruikt voor het renderen van de geometrie. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setShader(value) | Haalt op of stelt de shader‑instantie in die wordt gebruikt voor het renderen van de geometrie. |
+| setShader(value) | Haalt op of stelt de shader-instantie in die wordt gebruikt voor het renderen van de geometrie. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getFallbackEntityRenderer() | Haalt op of stelt de fallback‑entity‑renderer in wanneer de entity geen speciale renderer heeft gedefinieerd. |
+| getFallbackEntityRenderer() | Haalt op of stelt de fallback-entity-renderer in wanneer de entity geen speciale renderer heeft. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| setFallbackEntityRenderer(value) | Haalt op of stelt de fallback‑entity‑renderer in wanneer de entity geen speciale renderer heeft gedefinieerd. |
+| setFallbackEntityRenderer(value) | Haalt op of stelt de fallback-entity-renderer in wanneer de entity geen speciale renderer heeft. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| clearCache() | Maak de cache handmatig leeg. Aspose.3D zal sommige objecten zoals materialen/geometrieën cachen in interne types die compatibel zijn met de render‑pipeline. Dit moet handmatig worden aangeroepen wanneer de scène grote wijzigingen ondergaat. |
+| clearCache() | Maak de cache handmatig leeg. Aspose.3D zal sommige objecten zoals materialen/geometrieën cachen in interne types die compatibel zijn met de render-pipeline. Dit moet handmatig worden aangeroepen wanneer de scène grote wijzigingen ondergaat. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ De context over de renderer.  @hideconstructor
 
 | Naam | Beschrijving |
 | --- | --- |
-| getPostProcessing(name) | Haalt een ingebouwde post‑processor op die door de renderer wordt ondersteund. |
+| getPostProcessing(name) | Haalt een ingebouwde post-processor op die door de renderer wordt ondersteund. |
 
  **Parameters:**
 
@@ -335,7 +335,7 @@ PostProcessing
 
 | Naam | Beschrijving |
 | --- | --- |
-| execute(postProcessing, result) | Voer een post‑processing uit op het opgegeven renderdoel. |
+| execute(postProcessing, result) | Voer een post-processing uit op de opgegeven renderdoel. |
 
  **Result:**
 PostProcessing
@@ -380,7 +380,7 @@ Renderer
 
 | Naam | Beschrijving |
 | --- | --- |
-| render(renderTarget) | Render het opgegeven doel. |
+| render(renderTarget) | Render het opgegeven doel |
 
  **Parameters:**
 

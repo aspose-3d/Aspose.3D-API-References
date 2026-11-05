@@ -11,7 +11,7 @@ url: /nl/nodejs-java/aspose.threed/vector3/
 Een vector met drie componenten.
 
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -19,7 +19,7 @@ Een vector met drie componenten.
 | y | De y-component. |
 | z | De z-component. |
 | ORIGIN | Haalt de oorsprongpositie op. De oorsprong. |
-| UNIT_SCALE | Haalt de eenheidschaalvector op. |
+| UNIT_SCALE | Haalt de eenheidsschaalvector op. |
 | X_AXIS | Haalt de X-as op. De X-as. |
 | Y_AXIS | Haalt de Y-as op. De Y-as. |
 | Z_AXIS | Haalt de Z-as op. De Z-as. |
@@ -49,9 +49,9 @@ Een vector met drie componenten.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| x | Number | De x-coördinaat. |
-| y | Number | De y-coördinaat. |
-| z | Number | De z-coördinaat. |
+| x | Nummer | De x-coördinaat. |
+| y | Nummer | De y-coördinaat. |
+| z | Nummer | De z-coördinaat. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Een vector met drie componenten.
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| v | Number | V. |
+| v | Nummer | V. |
 
  **Result:**
 
@@ -166,10 +166,10 @@ boolean
 
 | Naam | Beschrijving |
 | --- | --- |
-| hashCode() | Haalt de hashcode van Vector3 op |
+| hashCode() | Haalt de hashcode op van Vector3 |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -179,7 +179,7 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| dot(rhs) | Haalt het inproduct van twee vectoren op |
+| dot(rhs) | Haalt het inproduct op van twee vectoren |
 
  **Parameters:**
 
@@ -188,7 +188,7 @@ Number
 | rhs | Vector3 | Waarde van de rechterkant. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -262,9 +262,9 @@ Vector3
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
-| newX | Number | De x-component. |
-| newY | Number | De y-component. |
-| newZ | Number | De z-component. |
+| newX | Nummer | De x-component. |
+| newY | Nummer | De y-component. |
+| newZ | Nummer | De z-component. |
 
  **Result:**
 Vector3
@@ -277,7 +277,7 @@ Vector3
 
 | Naam | Beschrijving |
 | --- | --- |
-| toString() | Retourneert een java.lang.String die de huidige Vector3 vertegenwoordigt. |
+| toString() | Retourneert een java.lang.String die de huidige Vector3 weergeeft. |
 
  **Result:**
 String
@@ -290,17 +290,17 @@ String
 
 | Naam | Beschrijving |
 | --- | --- |
-| angleBetween(dir, up) | Bereken de binnenhoek tussen twee richtingen. Twee richtingen kunnen niet-genormaliseerde vectoren zijn. |
+| angleBetween(dir, up) | Bereken de binnenhoek tussen twee richtingen Twee richtingen kunnen niet-genormaliseerde vectoren zijn. |
 
  **Parameters:**
 
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | dir | Vector3 | De richtingsvector om mee te vergelijken |
-| up | Vector3 | De up-vector van het gedeelde vlak van de twee richtingen |
+| up | Vector3 | De up-vector van het gedeelde vlak van de twee richtingen. |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -310,7 +310,7 @@ Number
 
 | Naam | Beschrijving |
 | --- | --- |
-| angleBetween(dir) | Bereken de binnenhoek tussen twee richtingen. Twee richtingen kunnen niet-genormaliseerde vectoren zijn. |
+| angleBetween(dir) | Bereken de binnenhoek tussen twee richtingen Twee richtingen kunnen niet-genormaliseerde vectoren zijn. |
 
  **Parameters:**
 
@@ -319,7 +319,7 @@ Number
 | dir | Vector3 | De richtingsvector om mee te vergelijken |
 
  **Result:**
-Number
+Nummer
 
 
 ---
@@ -338,7 +338,7 @@ Number
 | othe | Vector3 | null |
 
  **Result:**
-Number
+Nummer
 
 
 ---
