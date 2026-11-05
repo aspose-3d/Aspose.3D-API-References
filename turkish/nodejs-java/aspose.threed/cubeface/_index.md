@@ -8,6 +8,6 @@ url: /tr/nodejs-java/aspose.threed/cubeface/
 ---
 ## CubeFace class
 
-Sabitleri içeren yardımcı sınıf.  Küp haritası dokusunun her yüzeyi  @hideconstructor
+Sabitleri içeren yardımcı sınıf.  Küp haritası dokusunun her yüzü  @hideconstructor
 
 

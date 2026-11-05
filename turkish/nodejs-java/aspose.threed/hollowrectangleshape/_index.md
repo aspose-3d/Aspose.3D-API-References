@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 ---
 ## HollowRectangleShape class
 
-İç ve dış yuvarlatılmış köşelere sahip IFC uyumlu boş dikdörtgen şekil.
+İç ve dış köşeleri yuvarlatılmış IFC uyumlu boş dikdörtgen şekil.
 
 
 ## Yöntemler
@@ -56,7 +56,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getInnerFilletRadius() | İç dikdörtgenin iç filet yarıçapı. |
+| getInnerFilletRadius() | İç dikdörtgenin iç yuvarlatma yarıçapı. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| setInnerFilletRadius(value) | İç dikdörtgenin iç filet yarıçapı. |
+| setInnerFilletRadius(value) | İç dikdörtgenin iç yuvarlatma yarıçapı. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getXDim() | Dikdörtgenin x ekseni yönündeki genişliğini alır veya ayarlar. Varsayılan değer 2.0'dır. |
+| getXDim() | X ekseni yönündeki dikdörtgenin genişliğini alır veya ayarlar. Varsayılan değer 2.0'tir |
 
  **Result:**
 
@@ -121,7 +121,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| setXDim(value) | Dikdörtgenin x ekseni yönündeki genişliğini alır veya ayarlar. Varsayılan değer 2.0'dır. |
+| setXDim(value) | X ekseni yönündeki dikdörtgenin genişliğini alır veya ayarlar. Varsayılan değer 2.0'tir |
 
  **Result:**
 
@@ -134,7 +134,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getYDim() | Dikdörtgenin y ekseni yönündeki genişliğini alır veya ayarlar. Varsayılan değer 2.0'dır. |
+| getYDim() | Y ekseni yönündeki dikdörtgenin yüksekliğini alır veya ayarlar. Varsayılan değer 2.0'tir |
 
  **Result:**
 
@@ -147,7 +147,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| setYDim(value) | Dikdörtgenin y ekseni yönündeki genişliğini alır veya ayarlar. Varsayılan değer 2.0'dır. |
+| setYDim(value) | Y ekseni yönündeki dikdörtgenin yüksekliğini alır veya ayarlar. Varsayılan değer 2.0'tir |
 
  **Result:**
 
@@ -160,7 +160,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ url: /tr/nodejs-java/aspose.threed/hollowrectangleshape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getExtent() | X ve y boyutundaki kapsamı alır. |
+| getExtent() | x ve y boyutundaki kapsamı alır. |
 
  **Result:**
 Vector2
@@ -290,7 +290,7 @@ Vector2
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -322,7 +322,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -335,7 +335,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -360,7 +360,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -379,7 +379,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -393,7 +393,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -402,7 +402,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

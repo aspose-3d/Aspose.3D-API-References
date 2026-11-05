@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/revolvedareasolid/
 ---
 ## RevolvedAreaSolid class
 
-Bu sınıf, bir profil tarafından sağlanan kesit kesitini bir eksen etrafında döndürerek katı bir modeli temsil eder.
+Bu sınıf, bir profil tarafından sağlanan kesit kesiti bir eksen etrafında döndürerek katı bir modeli temsil eder.
 
 
 ## Yöntemler
@@ -134,7 +134,7 @@ Bu sınıf, bir profil tarafından sağlanan kesit kesitini bir eksen etrafında
 
 | Ad | Açıklama |
 | --- | --- |
-| getShape() | Döndürmede kullanılan temel profili alır veya ayarlar. |
+| getShape() | Dönme işlemi için kullanılan temel profili alır veya ayarlar. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Bu sınıf, bir profil tarafından sağlanan kesit kesitini bir eksen etrafında
 
 | Ad | Açıklama |
 | --- | --- |
-| setShape(value) | Döndürmede kullanılan temel profili alır veya ayarlar. |
+| setShape(value) | Dönme işlemi için kullanılan temel profili alır veya ayarlar. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Bu sınıf, bir profil tarafından sağlanan kesit kesitini bir eksen etrafında
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Bu sınıf, bir profil tarafından sağlanan kesit kesitini bir eksen etrafında
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Bu sınıf, bir profil tarafından sağlanan kesit kesitini bir eksen etrafında
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Bu sınıf, bir profil tarafından sağlanan kesit kesitini bir eksen etrafında
 
 | Ad | Açıklama |
 | --- | --- |
-| toMesh() | RevolvedAreaSolid'i bir ağ (mesh) haline dönüştür. |
+| toMesh() | RevolvedAreaSolid'i bir mesh'e dönüştür. |
 
  **Result:**
 Mesh
@@ -303,7 +303,7 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -322,7 +322,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -335,7 +335,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -360,7 +360,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -379,7 +379,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -393,7 +393,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -402,7 +402,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

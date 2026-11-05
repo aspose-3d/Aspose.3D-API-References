@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementintstemplate/
 ---
 ## VertexElementIntsTemplate class
 
-Somut VertexElement uygulamalarını tanımlamak için yardımcı sınıf.  @hideconstructor
+Somut VertexElement uygulamalarını tanımlamak için bir yardımcı sınıf.  @hideconstructor
 
 
 ## Yöntemler
@@ -95,7 +95,7 @@ Somut VertexElement uygulamalarını tanımlamak için yardımcı sınıf.  @hid
 
 | Ad | Açıklama |
 | --- | --- |
-| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Somut VertexElement uygulamalarını tanımlamak için yardımcı sınıf.  @hid
 
 | Ad | Açıklama |
 | --- | --- |
-| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Somut VertexElement uygulamalarını tanımlamak için yardımcı sınıf.  @hid
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndices() | İndeks verisini alır. İndeks dizisi. |
+| getIndices() | Dizin verilerini alır. Dizin dizisi. |
 
  **Result:**
 
@@ -134,13 +134,13 @@ Somut VertexElement uygulamalarını tanımlamak için yardımcı sınıf.  @hid
 
 | Ad | Açıklama |
 | --- | --- |
-| copyTo(target) | Belirtilen öğeye verileri kopyalar |
+| copyTo(target) | Verileri belirtilen öğeye kopyalar |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| hedef | VertexElementIntsTemplate | Target. |
+| target | VertexElementIntsTemplate | Hedef. |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Somut VertexElement uygulamalarını tanımlamak için yardımcı sınıf.  @hid
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndices(data) | İndeksleri yükle |
+| setIndices(data) | Dizinleri yükle |
 
  **Parameters:**
 

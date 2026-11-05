@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/descriptorsetupdater/
 ---
 ## DescriptorSetUpdater class
 
-Bu sınıf, bir zincir işleminde com.aspose.threed.IDescriptorSet'i güncellemeye olanak tanır.  @hideconstructor
+Bu sınıf, bir zincir işleminde com.aspose.threed.IDescriptorSet'i güncellemeye izin verir.  @hideconstructor
 
 
 ## Yöntemler
@@ -17,15 +17,15 @@ Bu sınıf, bir zincir işleminde com.aspose.threed.IDescriptorSet'i güncelleme
 
 | Ad | Açıklama |
 | --- | --- |
-| bind(buffer, offset, size) | Tamponu mevcut tanımlayıcı kümesine bağla |
+| bind(buffer, offset, size) | Arabelleği mevcut tanımlayıcı kümesine bağla. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| tampon | IBuffer | Bağlanacak tampon |
-| ofset | Number | Bağlanacak tamponun ofseti |
-| boyut | Number | Bağlanacak tamponun boyutu |
+| arabellek | IBuffer | Hangi tampon bağlanacak |
+| ofset | Sayı | Bağlanacak tamponun ofseti |
+| boyut | Sayı | Bağlanacak tamponun boyutu |
 
  **Result:**
 DescriptorSetUpdater
@@ -38,13 +38,13 @@ DescriptorSetUpdater
 
 | Ad | Açıklama |
 | --- | --- |
-| bind(buffer) | Tam tamponu mevcut tanımlayıcıya bağla |
+| bind(buffer) | Tüm tamponu mevcut tanımlayıcıya bağla |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| tampon | IBuffer | null |
+| buffe | IBuffer | null |
 
  **Result:**
 DescriptorSetUpdater
@@ -57,14 +57,14 @@ DescriptorSetUpdater
 
 | Ad | Açıklama |
 | --- | --- |
-| bind(binding, buffer) | Tamponu belirtilen bağlama konumunda geçerli tanımlayıcı kümesine bağlayın. |
+| bind(binding, buffer) | Tamponu belirtilen bağlama konumunda mevcut tanımlayıcı kümesine bağla. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| bağlama | Number | Bağlama konumu |
-| tampon | IBuffer | Bağlanacak tüm tampon |
+| bağlama | Sayı | Bağlama konumu |
+| arabellek | IBuffer | Bağlanacak tüm tampon |
 
  **Result:**
 DescriptorSetUpdater
@@ -77,16 +77,16 @@ DescriptorSetUpdater
 
 | Ad | Açıklama |
 | --- | --- |
-| bind(binding, buffer, offset, size) | Tamponu belirtilen bağlama konumunda geçerli tanımlayıcı kümesine bağlayın. |
+| bind(binding, buffer, offset, size) | Tamponu belirtilen bağlama konumunda mevcut tanımlayıcı kümesine bağla. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| bağlama | Number | Bağlama konumu |
-| tampon | IBuffer | Bağlanacak tampon |
-| ofset | Number | Bağlanacak tamponun ofseti |
-| boyut | Number | Bağlanacak tamponun boyutu |
+| bağlama | Sayı | Bağlama konumu |
+| arabellek | IBuffer | Bağlanacak tampon |
+| ofset | Sayı | Bağlanacak tamponun ofseti |
+| boyut | Sayı | Bağlanacak tamponun boyutu |
 
  **Result:**
 DescriptorSetUpdater
@@ -99,7 +99,7 @@ DescriptorSetUpdater
 
 | Ad | Açıklama |
 | --- | --- |
-| bind(texture) | Doku birimini geçerli tanımlayıcı kümesine bağlayın |
+| bind(texture) | Doku birimini mevcut tanımlayıcı kümesine bağla |
 
  **Parameters:**
 
@@ -118,13 +118,13 @@ DescriptorSetUpdater
 
 | Ad | Açıklama |
 | --- | --- |
-| bind(binding, texture) | Doku birimini geçerli tanımlayıcı kümesine bağlayın |
+| bind(binding, texture) | Doku birimini mevcut tanımlayıcı kümesine bağla |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| bağlama | Number | Bağlama konumu |
+| bağlama | Sayı | Bağlama konumu |
 | texture | ITextureUnit | Bağlanacak doku birimi |
 
  **Result:**

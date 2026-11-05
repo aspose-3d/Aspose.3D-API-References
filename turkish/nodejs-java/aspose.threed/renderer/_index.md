@@ -1,5 +1,5 @@
 ---
-title: "Renderlayıcı"
+title: "Renderer"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/renderer/
 ---
 ## Renderer class
 
-Renderleyiciyle ilgili bağlam.  @hideconstructor
+Renderlayıcı hakkında bağlam.  @hideconstructor
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getShaderSet() | Sahneyi renderlamak için kullanılan gölgelendirici setini alır veya ayarlar. |
+| getShaderSet() | Sahneyi renderlamak için kullanılan shader setini alır veya ayarlar |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setShaderSet(value) | Sahneyi renderlamak için kullanılan gölgelendirici setini alır veya ayarlar. |
+| setShaderSet(value) | Sahneyi renderlamak için kullanılan shader setini alır veya ayarlar |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getVariables() | Renderlama için kullanılan iç değişkenlere erişim |
+| getVariables() | Renderlama için kullanılan dahili değişkenlere erişim |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getPresetShaders() | Önceden ayarlanmış gölgelendirici setini alır veya ayarlar. Özelliğin değeri PresetShaders tam sayı sabitidir. |
+| getPresetShaders() | Ön ayarlı shader setini alır veya ayarlar. Özelliğin değeri PresetShaders tam sayı sabitidir. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setPresetShaders(value) | Önceden ayarlanmış gölgelendirici setini alır veya ayarlar. Özelliğin değeri PresetShaders tam sayı sabitidir. |
+| setPresetShaders(value) | Ön ayarlı shader setini alır veya ayarlar. Özelliğin değeri PresetShaders tam sayı sabitidir. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getAssetDirectories() | Harici varlıkların depolandığı dizinler |
+| getAssetDirectories() | Harici varlıkların saklandığı dizinler |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getMaterial() | Shader'lar tarafından kullanılan malzeme bilgilerini sağlamak için kullanılan materyali alır veya ayarlar. |
+| getMaterial() | Gölgelendiriciler tarafından kullanılan malzeme bilgilerini sağlamak için kullanılan malzemeyi alır veya ayarlar. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setMaterial(value) | Shader'lar tarafından kullanılan malzeme bilgilerini sağlamak için kullanılan materyali alır veya ayarlar. |
+| setMaterial(value) | Gölgelendiriciler tarafından kullanılan malzeme bilgilerini sağlamak için kullanılan malzemeyi alır veya ayarlar. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getShader() | Geometriyi renderlemek için kullanılan shader örneğini alır veya ayarlar. |
+| getShader() | Geometriyi renderlemek için kullanılan gölgelendirici örneğini alır veya ayarlar. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setShader(value) | Geometriyi renderlemek için kullanılan shader örneğini alır veya ayarlar. |
+| setShader(value) | Geometriyi renderlemek için kullanılan gölgelendirici örneğini alır veya ayarlar. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getFallbackEntityRenderer() | Varlığın özel bir renderer tanımlı olmadığı durumlarda yedek varlık renderer'ını alır veya ayarlar. |
+| getFallbackEntityRenderer() | Varlık için özel bir renderlayıcı tanımlı olmadığında yedek varlık renderlayıcısını alır veya ayarlar. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setFallbackEntityRenderer(value) | Varlığın özel bir renderer tanımlı olmadığı durumlarda yedek varlık renderer'ını alır veya ayarlar. |
+| setFallbackEntityRenderer(value) | Varlık için özel bir renderlayıcı tanımlı olmadığında yedek varlık renderlayıcısını alır veya ayarlar. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| clearCache() | Manuel olarak önbelleği temizleyin. Aspose.3D, malzemeler/geometriler gibi bazı nesneleri render boru hattıyla uyumlu iç tiplerde önbelleğe alır. Bu, sahne büyük değişiklikler geçirdiğinde manuel olarak çağrılmalıdır. |
+| clearCache() | Önbelleği manuel olarak temizleyin. Aspose.3D, malzemeler/geometriler gibi bazı nesneleri render boru hattıyla uyumlu iç tiplerde önbelleğe alır. Sahne büyük değişiklikler geçirdiğinde bu manuel olarak çağrılmalıdır. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Renderleyiciyle ilgili bağlam.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getPostProcessing(name) | Renderer tarafından desteklenen yerleşik bir post-işlemci alır. |
+| getPostProcessing(name) | Render tarafından desteklenen yerleşik bir post-işlemci alır. |
 
  **Parameters:**
 
@@ -335,7 +335,7 @@ PostProcessing
 
 | Ad | Açıklama |
 | --- | --- |
-| execute(postProcessing, result) | Belirtilen render hedefinde bir post işlem yürüt. |
+| execute(postProcessing, result) | Belirtilen render hedefi üzerinde bir post-işlem yürütür. |
 
  **Result:**
 PostProcessing
@@ -351,7 +351,7 @@ PostProcessing
 | createRenderer() | Varsayılan profil ile yeni bir Renderer oluşturur. |
 
  **Result:**
-Renderlayıcı
+Renderer
 
 
 ---
@@ -361,7 +361,7 @@ Renderlayıcı
 
 | Ad | Açıklama |
 | --- | --- |
-| registerEntityRenderer(renderer) | Belirtilen varlık için entity renderer'ı kaydet |
+| registerEntityRenderer(renderer) | Belirtilen varlık için varlık renderleyicisini kaydeder. |
 
  **Parameters:**
 
@@ -370,7 +370,7 @@ Renderlayıcı
 | rendere | EntityRenderer | null |
 
  **Result:**
-Renderlayıcı
+Renderer
 
 
 ---
@@ -380,7 +380,7 @@ Renderlayıcı
 
 | Ad | Açıklama |
 | --- | --- |
-| render(renderTarget) | Belirtilen hedefi render et |
+| render(renderTarget) | Belirtilen hedefi renderlar. |
 
  **Parameters:**
 
@@ -389,7 +389,7 @@ Renderlayıcı
 | renderTarge | IRenderTarget | null |
 
  **Result:**
-Renderlayıcı
+Renderer
 
 
 ---

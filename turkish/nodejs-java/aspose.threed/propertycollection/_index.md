@@ -56,16 +56,16 @@ url: /tr/nodejs-java/aspose.threed/propertycollection/
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(property) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(property) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı. |
+| özellik | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -81,7 +81,7 @@ Property
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -100,7 +100,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Hangi özellik kaldırılacak |
+| özellik | String | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean

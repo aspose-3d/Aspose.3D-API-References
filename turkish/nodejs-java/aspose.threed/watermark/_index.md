@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/watermark/
 ---
 ## Watermark class
 
-Bir ağ üzerinden kör filigranı kodlamak/çözmek için araç.  @hideconstructor
+Bir ağ üzerinden kör filigranı kodlamak/çözmek için yardımcı program.  @hideconstructor
 
 
 ## Yöntemler
@@ -17,13 +17,13 @@ Bir ağ üzerinden kör filigranı kodlamak/çözmek için araç.  @hideconstruc
 
 | Ad | Açıklama |
 | --- | --- |
-| encodeWatermark(input, text) | Metni ağın kör filigranına kodlar. |
+| encodeWatermark(input, text) | Bir metni mesh'in kör filigranına kodlar. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| input | Mesh | Kör bir filigranı kodlamak için ağ |
+| input | Mesh | Kör filigran kodlamak için ağ |
 | text | String | Ağa kodlamak için metin |
 
  **Result:**
@@ -37,15 +37,15 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| encodeWatermark(input, text, password) | Metni ağın kör filigranına kodlar. |
+| encodeWatermark(input, text, password) | Bir metni mesh'in kör filigranına kodlar. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| input | Mesh | Kör bir filigranı kodlamak için ağ |
+| input | Mesh | Kör filigran kodlamak için ağ |
 | text | String | Ağa kodlamak için metin |
-| password | String | Filigranı korumak için şifre, isteğe bağlıdır |
+| password | String | Filigranı korumak için şifre, isteğe bağlıdır. |
 
  **Result:**
 Mesh
@@ -58,7 +58,7 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| decodeWatermark(input) | Filigranı bir ağdan çözer |
+| decodeWatermark(input) | Bir ağdan filigranı çöz |
 
  **Parameters:**
 
@@ -77,7 +77,7 @@ String
 
 | Ad | Açıklama |
 | --- | --- |
-| decodeWatermark(input, password) | Filigranı bir ağdan çözer |
+| decodeWatermark(input, password) | Bir ağdan filigranı çöz |
 
  **Parameters:**
 

@@ -17,7 +17,7 @@ Aspose.3D belirtilen kaynağı açamadığında oluşan istisna
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(msg) | Yeni bir örnek başlatır |
+| constructor(msg) | Yeni bir örneği başlatır |
 
  **Parameters:**
 

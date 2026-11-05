@@ -11,7 +11,7 @@ url: /tr/nodejs-java/aspose.threed/vector4/
 Dört bileşenli bir vektör.
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -46,7 +46,7 @@ Dört bileşenli bir vektör.
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | vec | Vector3 | Vec. |
-| w | Number | Genişlik. |
+| w | Sayı | Genişlik. |
 
  **Result:**
 
@@ -103,9 +103,9 @@ Dört bileşenli bir vektör.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| x | Number | x koordinatı. |
-| y | Number | y koordinatı. |
-| z | Number | z koordinatı. |
+| x | Sayı | x koordinatı. |
+| y | Sayı | y koordinatı. |
+| z | Sayı | z koordinatı. |
 
  **Result:**
 
@@ -124,10 +124,10 @@ Dört bileşenli bir vektör.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| x | Number | x koordinatı. |
-| y | Number | y koordinatı. |
-| z | Number | z koordinatı. |
-| w | Number | Genişlik. |
+| x | Sayı | x koordinatı. |
+| y | Sayı | y koordinatı. |
+| z | Sayı | z koordinatı. |
+| w | Sayı | Genişlik. |
 
  **Result:**
 
@@ -140,15 +140,15 @@ Dört bileşenli bir vektör.
 
 | Ad | Açıklama |
 | --- | --- |
-| set(newX, newY, newZ) | Vektörün xyz bileşenlerini bir seferde ayarlar, w 1 olarak ayarlanacaktır. |
+| set(newX, newY, newZ) | Vektörün xyz bileşenlerini aynı anda ayarlar, w 1 olarak ayarlanacaktır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| newX | Number | Yeni X bileşeni. |
-| newY | Number | Yeni Y bileşeni. |
-| newZ | Number | Yeni Z bileşeni. |
+| newX | Sayı | Yeni X bileşeni. |
+| newY | Sayı | Yeni Y bileşeni. |
+| newZ | Sayı | Yeni Z bileşeni. |
 
  **Result:**
 
@@ -161,7 +161,7 @@ Dört bileşenli bir vektör.
 
 | Ad | Açıklama |
 | --- | --- |
-| equals(obj) | İki vektörün eşit olup olmadığını kontrol edin |
+| equals(obj) | İki vektörün eşit olup olmadığını kontrol et |
 
  **Parameters:**
 
@@ -180,10 +180,10 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| hashCode() | Bu vektörün karma kodunu alır. |
+| hashCode() | Bu vektörün karma kodunu alır |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -193,19 +193,19 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| set(newX, newY, newZ, newW) | Vektörün tüm bileşenlerini bir seferde ayarlar. |
+| set(newX, newY, newZ, newW) | Vektörün tüm bileşenlerini bir anda ayarlar |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| newX | Number | Yeni X bileşeni. |
-| newY | Number | Yeni Y bileşeni. |
-| newZ | Number | Yeni Z bileşeni. |
-| newW | Number | Yeni W bileşeni. |
+| newX | Sayı | Yeni X bileşeni. |
+| newY | Sayı | Yeni Y bileşeni. |
+| newZ | Sayı | Yeni Z bileşeni. |
+| newW | Sayı | Yeni W bileşeni. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -228,7 +228,7 @@ String
 
 | Ad | Açıklama |
 | --- | --- |
-| compareTo(other) | Geçerli vektörü başka bir örnek ile karşılaştırın. |
+| compareTo(other) | Geçerli vektörü başka bir örnekle karşılaştır. |
 
  **Parameters:**
 
@@ -237,7 +237,7 @@ String
 | othe | Vector4 | null |
 
  **Result:**
-Number
+Sayı
 
 
 ---

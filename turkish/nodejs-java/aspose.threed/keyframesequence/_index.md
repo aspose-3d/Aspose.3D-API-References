@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/keyframesequence/
 ---
 ## KeyframeSequence class
 
-Anahtar karelerin dizisi, örneklenmiş bir değerin zaman içinde dönüşümünü açıklar.
+Anahtar karelerin dizisi, örneklenen bir değerin zaman içindeki dönüşümünü açıklar.
 
 
 ## Yöntemler
@@ -75,7 +75,7 @@ Anahtar karelerin dizisi, örneklenmiş bir değerin zaman içinde dönüşümü
 
 | Ad | Açıklama |
 | --- | --- |
-| getPostBehavior() | Post davranışı alır; bu, örneklenen değerin son anahtar kareden sonra ne olması gerektiğini gösterir. |
+| getPostBehavior() | Post davranışı alır, bu son anahtar kareden sonra örneklenen değerin ne olması gerektiğini gösterir. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Anahtar karelerin dizisi, örneklenmiş bir değerin zaman içinde dönüşümü
 
 | Ad | Açıklama |
 | --- | --- |
-| getPreBehavior() | Pre davranışı alır; bu, örneklenen değerin ilk anahtar kareden önce ne olması gerektiğini gösterir. |
+| getPreBehavior() | Pre davranışı alır, bu ilk anahtardan önce örneklenen değerin ne olması gerektiğini gösterir. |
 
  **Result:**
 
@@ -140,14 +140,14 @@ Anahtar karelerin dizisi, örneklenmiş bir değerin zaman içinde dönüşümü
 
 | Ad | Açıklama |
 | --- | --- |
-| add(time, value) | Belirtilen değerle yeni bir anahtar kare oluştur |
+| add(time, value) | Belirtilen değerle yeni bir anahtar kare oluşturur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| time | Number | Zaman konumu(saniye cinsinden ölçülür) |
-| değer | Number | Bu zaman konumundaki değer |
+| zaman | Sayı | Zaman konumu (saniye cinsinden ölçülür) |
+| değer | Sayı | Bu zaman konumundaki değer |
 
  **Result:**
 
@@ -160,15 +160,15 @@ Anahtar karelerin dizisi, örneklenmiş bir değerin zaman içinde dönüşümü
 
 | Ad | Açıklama |
 | --- | --- |
-| add(time, value, interpolation) | Belirtilen değerle yeni bir anahtar kare oluştur |
+| add(time, value, interpolation) | Belirtilen değerle yeni bir anahtar kare oluşturur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| time | Number | Zaman konumu(saniye cinsinden ölçülür) |
-| değer | Number | Bu zaman konumundaki değer |
-| enterpolasyon | Enterpolasyon | Enterpolasyon |
+| zaman | Sayı | Zaman konumu (saniye cinsinden ölçülür) |
+| değer | Sayı | Bu zaman konumundaki değer |
+| interpolasyon | Interpolasyon | Interpolasyon |
 
  **Result:**
 
@@ -181,7 +181,7 @@ Anahtar karelerin dizisi, örneklenmiş bir değerin zaman içinde dönüşümü
 
 | Ad | Açıklama |
 | --- | --- |
-| reset() | Tüm anahtar kareleri kaldırır ve post/ön davranışları sıfırlar. |
+| reset() | Tüm anahtar kareleri kaldırır ve post/pre davranışlarını sıfırlar. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ Anahtar karelerin dizisi, örneklenmiş bir değerin zaman içinde dönüşümü
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -213,7 +213,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -238,7 +238,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -257,7 +257,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -271,7 +271,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -280,7 +280,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -293,7 +293,7 @@ Property
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

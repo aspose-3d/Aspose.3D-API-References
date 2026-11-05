@@ -30,7 +30,7 @@ Patch'in U ve V yönü.
 
 | Ad | Açıklama |
 | --- | --- |
-| getType() | Yama tipini alır veya ayarlar. Özelliğin değeri PatchDirectionType tam sayı sabitidir. Tip. |
+| getType() | Yamanın tipini alır veya ayarlar. Özelliğin değeri PatchDirectionType tam sayı sabitidir. Tip. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Patch'in U ve V yönü.
 
 | Ad | Açıklama |
 | --- | --- |
-| setType(value) | Yama tipini alır veya ayarlar. Özelliğin değeri PatchDirectionType tam sayı sabitidir. Tip. |
+| setType(value) | Yamanın tipini alır veya ayarlar. Özelliğin değeri PatchDirectionType tam sayı sabitidir. Tip. |
 
  **Result:**
 

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/bonepose/
 ---
 ## BonePose class
 
-BonePose, bir kemik düğümü için dönüşüm matrisini içerir
+BonePose, bir kemik düğümünün dönüşüm matrisini içerir
 
 
 ## Yöntemler
@@ -30,7 +30,7 @@ BonePose, bir kemik düğümü için dönüşüm matrisini içerir
 
 | Ad | Açıklama |
 | --- | --- |
-| getNode() | Sahne düğümünü alır veya ayarlar, bir kaplamalı iskelet düğümüne işaret eder. |
+| getNode() | Sahne düğümünü alır veya ayarlar, bir kaplamalı iskelet düğümüne işaret eder |
 
  **Result:**
 
@@ -43,7 +43,7 @@ BonePose, bir kemik düğümü için dönüşüm matrisini içerir
 
 | Ad | Açıklama |
 | --- | --- |
-| setNode(value) | Sahne düğümünü alır veya ayarlar, bir kaplamalı iskelet düğümüne işaret eder. |
+| setNode(value) | Sahne düğümünü alır veya ayarlar, bir kaplamalı iskelet düğümüne işaret eder |
 
  **Result:**
 
@@ -82,7 +82,7 @@ BonePose, bir kemik düğümü için dönüşüm matrisini içerir
 
 | Ad | Açıklama |
 | --- | --- |
-| isLocal() | Matrisin yerel koordinatta tanımlanıp tanımlanmadığını alır veya ayarlar. Bu örnek yerel uzayda ise true; aksi takdirde false, küresel uzayı ifade eder. |
+| isLocal() | Matrisin yerel koordinatta tanımlanıp tanımlanmadığını alır veya ayarlar. Bu örnek yerel alandaysa true; aksi takdirde false, global alan anlamına gelir. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ BonePose, bir kemik düğümü için dönüşüm matrisini içerir
 
 | Ad | Açıklama |
 | --- | --- |
-| setLocal(value) | Matrisin yerel koordinatta tanımlanıp tanımlanmadığını alır veya ayarlar. Bu örnek yerel uzayda ise true; aksi takdirde false, küresel uzayı ifade eder. |
+| setLocal(value) | Matrisin yerel koordinatta tanımlanıp tanımlanmadığını alır veya ayarlar. Bu örnek yerel alandaysa true; aksi takdirde false, global alan anlamına gelir. |
 
  **Result:**
 

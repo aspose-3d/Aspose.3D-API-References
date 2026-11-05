@@ -8,10 +8,10 @@ url: /tr/nodejs-java/aspose.threed/pbrspecularmaterial/
 ---
 ## PbrSpecularMaterial class
 
-Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için malzeme
+Difüz renk/specular/parlaklık temelli fiziksel render için malzeme
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -23,7 +23,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | PbrSpecularMaterial yapıcısı |
+| constructor() | PbrSpecularMaterial yapıcı |
 
  **Result:**
 
@@ -36,7 +36,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getTransparency() | Şeffaflık faktörünü alır veya ayarlar. Faktör 0(0%, tamamen opak) ile 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz bir faktör değeri sınırlanacaktır. Şeffaflık faktörü. |
+| getTransparency() | Şeffaflık faktörünü alır veya ayarlar. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri kırpılacaktır. Şeffaflık faktörü. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| setTransparency(value) | Şeffaflık faktörünü alır veya ayarlar. Faktör 0(0%, tamamen opak) ile 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz bir faktör değeri sınırlanacaktır. Şeffaflık faktörü. |
+| setTransparency(value) | Şeffaflık faktörünü alır veya ayarlar. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri kırpılacaktır. Şeffaflık faktörü. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getNormalTexture() | Normal haritalamanın dokusunu alır veya ayarlar |
+| getNormalTexture() | Normal haritalama dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| setNormalTexture(value) | Normal haritalamanın dokusunu alır veya ayarlar |
+| setNormalTexture(value) | Normal haritalama dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getGlossinessFactor() | Malzemenin parlaklığını (pürüzsüzlüğünü) alır veya ayarlar, 1 tamamen pürüzsüz, 0 tamamen pürüzlü anlamına gelir, varsayılan değer 1'dir, aralık [0, 1]'dir. |
+| getGlossinessFactor() | Malzemenin parlaklığını (pürüzsüzlüğünü) alır veya ayarlar, 1 tamamen pürüzsüz, 0 tamamen kaba anlamına gelir, varsayılan değer 1, aralık [0, 1] |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| setGlossinessFactor(value) | Malzemenin parlaklığını (pürüzsüzlüğünü) alır veya ayarlar, 1 tamamen pürüzsüz, 0 tamamen pürüzlü anlamına gelir, varsayılan değer 1'dir, aralık [0, 1]'dir. |
+| setGlossinessFactor(value) | Malzemenin parlaklığını (pürüzsüzlüğünü) alır veya ayarlar, 1 tamamen pürüzsüz, 0 tamamen kaba anlamına gelir, varsayılan değer 1, aralık [0, 1] |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getSpecular() | Malzemenin speküler rengini alır veya ayarlar, varsayılan değer (1, 1, 1)'dir. |
+| getSpecular() | Malzemenin speküler rengini alır veya ayarlar, varsayılan değer (1, 1, 1). |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| setSpecular(value) | Malzemenin speküler rengini alır veya ayarlar, varsayılan değer (1, 1, 1)'dir. |
+| setSpecular(value) | Malzemenin speküler rengini alır veya ayarlar, varsayılan değer (1, 1, 1). |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getDiffuseTexture() | Difüz için dokuyu alır veya ayarlar |
+| getDiffuseTexture() | Difüz doku alır veya ayarlar |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| setDiffuseTexture(value) | Difüz için dokuyu alır veya ayarlar |
+| setDiffuseTexture(value) | Difüz doku alır veya ayarlar |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getDiffuse() | Malzemenin difüz rengini alır veya ayarlar, varsayılan değer (1, 1, 1)'dir. |
+| getDiffuse() | Malzemenin difüz rengini alır veya ayarlar, varsayılan değer (1, 1, 1) |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| setDiffuse(value) | Malzemenin difüz rengini alır veya ayarlar, varsayılan değer (1, 1, 1)'dir. |
+| setDiffuse(value) | Malzemenin difüz rengini alır veya ayarlar, varsayılan değer (1, 1, 1) |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getEmissiveTexture() | Emisyon için dokuyu alır veya ayarlar |
+| getEmissiveTexture() | Emissive dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| setEmissiveTexture(value) | Emisyon için dokuyu alır veya ayarlar |
+| setEmissiveTexture(value) | Emissive dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getEmissiveColor() | Emisyon rengini alır veya ayarlar, varsayılan değer (0, 0, 0)'dır. |
+| getEmissiveColor() | Emissive rengini alır veya ayarlar, varsayılan değer (0, 0, 0) |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| setEmissiveColor(value) | Emisyon rengini alır veya ayarlar, varsayılan değer (0, 0, 0)'dır. |
+| setEmissiveColor(value) | Emissive rengini alır veya ayarlar, varsayılan değer (0, 0, 0) |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Difüz renk/yansıma/parlaklığa dayalı fiziksel tabanlı renderleme için mal
 
 | Ad | Açıklama |
 | --- | --- |
-| getTexture(slotName) | Belirtilen slot'tan dokuyu alır, bu bir materyalin özellik adı veya shader'ın parametre adı olabilir |
+| getTexture(slotName) | Belirtilen slottan dokuyu alır, bu bir materyalin özellik adı veya shader parametresi adı olabilir. |
 
  **Parameters:**
 
@@ -348,7 +348,7 @@ TextureBase
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Nesneyi dizeye biçimlendir |
+| toString() | Nesneyi dizeye dönüştürür |
 
  **Result:**
 String
@@ -367,7 +367,7 @@ String
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -380,7 +380,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -405,7 +405,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -424,7 +424,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -438,7 +438,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -447,7 +447,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -460,7 +460,7 @@ Property
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

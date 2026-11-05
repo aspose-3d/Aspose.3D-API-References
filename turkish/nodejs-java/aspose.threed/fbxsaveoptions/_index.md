@@ -23,7 +23,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| forma | Dosya Biçimi | null |
+| biçim | FileFormat | null |
 
  **Result:**
 
@@ -55,7 +55,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getReusePrimitiveMesh() | Aynı parametrelere sahip primitifler için ağı yeniden kullan, bu, büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) ile oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltır. Varsayılan değer false'tur. |
+| getReusePrimitiveMesh() | Aynı parametrelere sahip primitifler için ağı yeniden kullan, bu, büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) tarafından oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltır. Varsayılan değer false'tur. |
 
  **Result:**
 
@@ -68,7 +68,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setReusePrimitiveMesh(value) | Aynı parametrelere sahip primitifler için ağı yeniden kullan, bu, büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) ile oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltır. Varsayılan değer false'tur. |
+| setReusePrimitiveMesh(value) | Aynı parametrelere sahip primitifler için ağı yeniden kullan, bu, büyük bir primitif şekil kümesi (CAD dosyalarından içe aktarılan gibi) tarafından oluşturulan sahnenin FBX çıktısının boyutunu önemli ölçüde azaltır. Varsayılan değer false'tur. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFoldRepeatedCurveData() | Tekrarlanan eğri verilerini son verinin referans sayısını artırarak yeniden kullanıp kullanmayacağını alır veya ayarlar; tekrarlanan eğri verileri katlanıyorsa true, aksi takdirde false. |
+| getFoldRepeatedCurveData() | Tekrarlanan eğri verilerini, son verinin referans sayısını artırarak yeniden kullanıp kullanmayacağını alır veya ayarlar; tekrarlanan eğri verileri katlanıyorsa true, aksi takdirde false. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportLegacyMaterialProperties() | Geri uyumluluk için kullanılan eski malzeme özelliklerini dışa aktarılıp aktarılmayacağını alır veya ayarlar. Bu seçenek varsayılan olarak açıktır. |
+| getExportLegacyMaterialProperties() | Legacy malzeme özelliklerini dışa aktarılıp aktarılmayacağını alır veya ayarlar, geriye uyumluluk için kullanılır. Bu seçenek varsayılan olarak açıktır. |
 
  **Result:**
 
@@ -133,7 +133,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportLegacyMaterialProperties(value) | Geri uyumluluk için kullanılan eski malzeme özelliklerini dışa aktarılıp aktarılmayacağını alır veya ayarlar. Bu seçenek varsayılan olarak açıktır. |
+| setExportLegacyMaterialProperties(value) | Legacy malzeme özelliklerini dışa aktarılıp aktarılmayacağını alır veya ayarlar, geriye uyumluluk için kullanılır. Bu seçenek varsayılan olarak açıktır. |
 
  **Result:**
 
@@ -146,7 +146,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getVideoForTexture() | FBX olarak dışa aktarırken Texture için bir Video örneği oluşturulup oluşturulmayacağını alır veya ayarlar. |
+| getVideoForTexture() | Dışa aktarırken bir Texture için Video örneği oluşturulup oluşturulmayacağını alır veya ayarlar (FBX olarak). |
 
  **Result:**
 
@@ -159,7 +159,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setVideoForTexture(value) | FBX olarak dışa aktarırken Texture için bir Video örneği oluşturulup oluşturulmayacağını alır veya ayarlar. |
+| setVideoForTexture(value) | Dışa aktarırken bir Texture için Video örneği oluşturulup oluşturulmayacağını alır veya ayarlar (FBX olarak). |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEmbedTextures() | Doku dosyasının son çıktı dosyasına gömülüp gömülmeyeceğini alır veya ayarlar. FBX Dışa Aktarıcı, dosya sisteminden dokunun ham verisini bulmaya çalışacak ve dosyayı son FBX dosyasına gömecektir. Varsayılan değer false'tur. |
+| getEmbedTextures() | Doku'yu nihai çıktı dosyasına gömüp gömmeyeceğini alır veya ayarlar. FBX Exporter, dokunun ham verilerini FileSystem'den bulmaya çalışacak ve dosyayı nihai FBX dosyasına gömecektir. Varsayılan değer false'tur. |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setEmbedTextures(value) | Doku dosyasının son çıktı dosyasına gömülüp gömülmeyeceğini alır veya ayarlar. FBX Dışa Aktarıcı, dosya sisteminden dokunun ham verisini bulmaya çalışacak ve dosyayı son FBX dosyasına gömecektir. Varsayılan değer false'tur. |
+| setEmbedTextures(value) | Doku'yu nihai çıktı dosyasına gömüp gömmeyeceğini alır veya ayarlar. FBX Exporter, dokunun ham verilerini FileSystem'den bulmaya çalışacak ve dosyayı nihai FBX dosyasına gömecektir. Varsayılan değer false'tur. |
 
  **Result:**
 
@@ -198,7 +198,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getGenerateVertexElementMaterial() | Ekli düğüm malzeme içeriyorsa geometriler için her zaman bir VertexElementMaterial oluşturulup oluşturulmayacağını alır veya ayarlar. Bu seçenek varsayılan olarak kapalıdır. |
+| getGenerateVertexElementMaterial() | Ekli düğüm malzemeler içeriyorsa, geometriler için her zaman bir VertexElementMaterial oluşturulup oluşturulmayacağını alır veya ayarlar. Bu varsayılan olarak kapalıdır. |
 
  **Result:**
 
@@ -211,7 +211,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setGenerateVertexElementMaterial(value) | Ekli düğüm malzeme içeriyorsa geometriler için her zaman bir VertexElementMaterial oluşturulup oluşturulmayacağını alır veya ayarlar. Bu seçenek varsayılan olarak kapalıdır. |
+| setGenerateVertexElementMaterial(value) | Ekli düğüm malzemeler içeriyorsa, geometriler için her zaman bir VertexElementMaterial oluşturulup oluşturulmayacağını alır veya ayarlar. Bu varsayılan olarak kapalıdır. |
 
  **Result:**
 
@@ -224,7 +224,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -237,7 +237,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -263,7 +263,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -276,7 +276,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -315,7 +315,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -328,7 +328,7 @@ Fbx dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

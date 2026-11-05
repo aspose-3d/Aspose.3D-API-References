@@ -30,7 +30,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getBlend() | Parçacık karıştırmayı etkinleştir veya devre dışı bırak. |
+| getBlend() | Parça karıştırmayı etkinleştirin veya devre dışı bırakın. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setBlend(value) | Parçacık karıştırmayı etkinleştir veya devre dışı bırak. |
+| setBlend(value) | Parça karıştırmayı etkinleştirin veya devre dışı bırakın. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getSourceBlendFactor() | Rengin nasıl karıştırıldığını alır veya ayarlar. Özelliğin değeri BlendFactor tamsayı sabitidir. |
+| getSourceBlendFactor() | Rengin nasıl karıştırıldığını alır veya ayarlar. Özelliğin değeri BlendFactor tam sayı sabitidir. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setSourceBlendFactor(value) | Rengin nasıl karıştırıldığını alır veya ayarlar. Özelliğin değeri BlendFactor tamsayı sabitidir. |
+| setSourceBlendFactor(value) | Rengin nasıl karıştırıldığını alır veya ayarlar. Özelliğin değeri BlendFactor tam sayı sabitidir. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getDestinationBlendFactor() | Rengin nasıl karıştırıldığını alır veya ayarlar. Özelliğin değeri BlendFactor tamsayı sabitidir. |
+| getDestinationBlendFactor() | Rengin nasıl karıştırıldığını alır veya ayarlar. Özelliğin değeri BlendFactor tam sayı sabitidir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setDestinationBlendFactor(value) | Rengin nasıl karıştırıldığını alır veya ayarlar. Özelliğin değeri BlendFactor tamsayı sabitidir. |
+| setDestinationBlendFactor(value) | Rengin nasıl karıştırıldığını alır veya ayarlar. Özelliğin değeri BlendFactor tam sayı sabitidir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getCullFace() | Cull yüzünü etkinleştir veya devre dışı bırak. |
+| getCullFace() | Cull yüzeyini etkinleştir veya devre dışı bırak |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setCullFace(value) | Cull yüzünü etkinleştir veya devre dışı bırak. |
+| setCullFace(value) | Cull yüzeyini etkinleştir veya devre dışı bırak |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getCullFaceMode() | Hangi yüzün eleneceğini alır veya ayarlar. Özelliğin değeri CullFaceMode tam sayı sabitidir. |
+| getCullFaceMode() | Hangi yüzün cull edileceğini alır veya ayarlar. Özelliğin değeri CullFaceMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setCullFaceMode(value) | Hangi yüzün eleneceğini alır veya ayarlar. Özelliğin değeri CullFaceMode tam sayı sabitidir. |
+| setCullFaceMode(value) | Hangi yüzün cull edileceğini alır veya ayarlar. Özelliğin değeri CullFaceMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getDepthTest() | Derinlik testini etkinleştirir veya devre dışı bırakır. |
+| getDepthTest() | Derinlik testini etkinleştir veya devre dışı bırak. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setDepthTest(value) | Derinlik testini etkinleştirir veya devre dışı bırakır. |
+| setDepthTest(value) | Derinlik testini etkinleştir veya devre dışı bırak. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getDepthMask() | Derinlik yazmasını etkinleştirir veya devre dışı bırakır. |
+| getDepthMask() | Derinlik yazmayı etkinleştir veya devre dışı bırak. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setDepthMask(value) | Derinlik yazmasını etkinleştirir veya devre dışı bırakır. |
+| setDepthMask(value) | Derinlik yazmayı etkinleştir veya devre dışı bırak. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getStencilTest() | Şablon testini etkinleştirir veya devre dışı bırakır. |
+| getStencilTest() | Stencil testini etkinleştir veya devre dışı bırak. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setStencilTest(value) | Şablon testini etkinleştirir veya devre dışı bırakır. |
+| setStencilTest(value) | Stencil testini etkinleştir veya devre dışı bırak. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getStencilReference() | Şablon testi için referans değerini alır veya ayarlar. |
+| getStencilReference() | Stencil testi için referans değerini alır veya ayarlar. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setStencilReference(value) | Şablon testi için referans değerini alır veya ayarlar. |
+| setStencilReference(value) | Stencil testi için referans değerini alır veya ayarlar. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getStencilMask() | Test tamamlandığında hem referans hem de depolanan şablon değeriyle AND yapılan maskeyi alır veya ayarlar. |
+| getStencilMask() | Test yapıldığında hem referans hem de depolanan stencil değeriyle AND edilen maskeyi alır veya ayarlar. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getStencilFrontFace() | Ön yüz için şablon durumunu alır. |
+| getStencilFrontFace() | Ön yüz için stencil durumunu alır. |
 
  **Result:**
 
@@ -368,7 +368,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getStencilBackFace() | Arka yüz için şablon durumunu alır. |
+| getStencilBackFace() | Arka yüz için stencil durumunu alır. |
 
  **Result:**
 
@@ -381,7 +381,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| getScissorTest() | Kırpma testini etkinleştir veya devre dışı bırak |
+| getScissorTest() | Kesme testini etkinleştir veya devre dışı bırak |
 
  **Result:**
 
@@ -394,7 +394,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| setScissorTest(value) | Kırpma testini etkinleştir veya devre dışı bırak |
+| setScissorTest(value) | Kesme testini etkinleştir veya devre dışı bırak |
 
  **Result:**
 
@@ -459,7 +459,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 
 | Ad | Açıklama |
 | --- | --- |
-| compareTo(other) | Render durumunu başka bir örnek ile karşılaştır. |
+| compareTo(other) | Render durumunu başka bir örnek ile karşılaştır |
 
  **Parameters:**
 
@@ -468,7 +468,7 @@ Pipeline'ı oluşturmak için render durumu  Render durumunda yapılan değişik
 | othe | RenderState | null |
 
  **Result:**
-Number
+Sayı
 
 
 ---

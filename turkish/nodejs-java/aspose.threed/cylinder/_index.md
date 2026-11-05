@@ -1,5 +1,5 @@
 ---
-title: "Silindir"
+title: "Cylinder"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/cylinder/
 ---
 ## Cylinder class
 
-Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğunda koniyi temsil etmek için de kullanılabilir.
+Parametreli Silindir. YarıçapÜstü/yarıçapAltı sıfır olduğunda koniyi temsil etmek için de kullanılabilir.
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Silindir sınıfının yeni bir örneğini başlatır. |
+| constructor() | Cylinder sınıfının yeni bir örneğini başlatır. |
 
  **Result:**
 
@@ -30,14 +30,14 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(radius, height) | Silindir sınıfının yeni bir örneğini başlatır. |
+| constructor_overload(radius, height) | Cylinder sınıfının yeni bir örneğini başlatır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| yarıçap | Number | Üst ve alt kapakların yarıçapı. |
-| height | Number | Yükseklik. |
+| radius | Sayı | Üst ve alt kapağın yarıçapı. |
+| height | Sayı | Yükseklik. |
 
  **Result:**
 
@@ -50,15 +50,15 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload2(radiusTop, radiusBottom, height) | Silindir sınıfının yeni bir örneğini başlatır. |
+| constructor_overload2(radiusTop, radiusBottom, height) | Cylinder sınıfının yeni bir örneğini başlatır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| radiusTop | Number | Üst yarıçap. |
-| radiusBottom | Number | Alt yarıçap. |
-| height | Number | Yükseklik. |
+| radiusTop | Sayı | Üst yarıçap. |
+| radiusBottom | Sayı | Alt yarıçap. |
+| height | Sayı | Yükseklik. |
 
  **Result:**
 
@@ -71,17 +71,17 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload3(radiusTop, radiusBottom, height, radialSegments, heightSegments, openEnded) | Silindir sınıfının yeni bir örneğini başlatır. |
+| constructor_overload3(radiusTop, radiusBottom, height, radialSegments, heightSegments, openEnded) | Cylinder sınıfının yeni bir örneğini başlatır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| radiusTop | Number | Silindirin üst kapağının yarıçapı. |
-| radiusBottom | Number | Silindirin alt kapağının yarıçapı. |
-| height | Number | Silindirin yüksekliği. |
-| radialSegments | Number | Radial segmentleri hem üst hem alt dairelerin.. |
-| heightSegments | Number | Yükseklik segmentleri. |
+| radiusTop | Sayı | Silindirin üst kapağının yarıçapı. |
+| radiusBottom | Sayı | Silindirin alt kapağının yarıçapı. |
+| height | Sayı | Silindirin yüksekliği. |
+| radialSegments | Sayı | Üst ve alt dairelerin radyal segmentleri.. |
+| heightSegments | Sayı | Yükseklik segmentleri. |
 | openEnded | boolean | Eğer ayarlanırsa |
 
  **Result:**
@@ -95,21 +95,21 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload4(name, radiusTop, radiusBottom, height, radialSegments, heightSegments, openEnded, thetaStart, thetaLength) | Silindir sınıfının yeni bir örneğini başlatır. |
+| constructor_overload4(name, radiusTop, radiusBottom, height, radialSegments, heightSegments, openEnded, thetaStart, thetaLength) | Cylinder sınıfının yeni bir örneğini başlatır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | name | String | Bu nesnenin adı |
-| radiusTop | Number | Silindirin üst kapağının yarıçapı. |
-| radiusBottom | Number | Silindirin alt kapağının yarıçapı. |
-| height | Number | Silindirin yüksekliği. |
-| radialSegments | Number | Radial segmentleri hem üst hem alt dairelerin.. |
-| heightSegments | Number | Yükseklik segmentleri. |
+| radiusTop | Sayı | Silindirin üst kapağının yarıçapı. |
+| radiusBottom | Sayı | Silindirin alt kapağının yarıçapı. |
+| height | Sayı | Silindirin yüksekliği. |
+| radialSegments | Sayı | Üst ve alt dairelerin radyal segmentleri.. |
+| heightSegments | Sayı | Yükseklik segmentleri. |
 | openEnded | boolean | Eğer ayarlanırsa |
-| thetaStart | Number | Theta başlangıcı. |
-| thetaLength | Number | Theta uzunluğu. |
+| thetaStart | Sayı | Theta başlangıcı. |
+| thetaLength | Sayı | Theta uzunluğu. |
 
  **Result:**
 
@@ -174,7 +174,7 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| getGenerateFanCylinder() | ThetaLength 2PI'den küçük olduğunda fan tarzı silindiri oluşturup oluşturmayacağını alır veya ayarlar; aksi takdirde model kesilmez. |
+| getGenerateFanCylinder() | ThetaLength 2PI'den küçük olduğunda fan tarzı silindirin oluşturulup oluşturulmayacağını alır veya ayarlar, aksi takdirde model kesilmez. |
 
  **Result:**
 
@@ -187,7 +187,7 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| setGenerateFanCylinder(value) | ThetaLength 2PI'den küçük olduğunda fan tarzı silindiri oluşturup oluşturmayacağını alır veya ayarlar; aksi takdirde model kesilmez. |
+| setGenerateFanCylinder(value) | ThetaLength 2PI'den küçük olduğunda fan tarzı silindirin oluşturulup oluşturulmayacağını alır veya ayarlar, aksi takdirde model kesilmez. |
 
  **Result:**
 
@@ -512,7 +512,7 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -525,7 +525,7 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -538,7 +538,7 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -629,7 +629,7 @@ Parametreli Silindir. radiusTop/radiusBottom değerlerinden biri sıfır olduğu
 
 | Ad | Açıklama |
 | --- | --- |
-| toMesh() | Mevcut nesneyi mesh'e dönüştür |
+| toMesh() | Geçerli nesneyi mesh'e dönüştür |
 
  **Result:**
 Mesh
@@ -655,7 +655,7 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -674,7 +674,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -687,7 +687,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -712,7 +712,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -731,7 +731,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -745,7 +745,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -754,7 +754,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

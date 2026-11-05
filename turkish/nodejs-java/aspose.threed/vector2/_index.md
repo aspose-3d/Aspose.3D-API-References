@@ -11,7 +11,7 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 İki bileşenli bir vektör.
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -43,7 +43,7 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| s | Number | S. |
+| s | Sayı | S. |
 
  **Result:**
 
@@ -81,8 +81,8 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| x | Number | x koordinatı. |
-| y | Number | y koordinatı. |
+| x | Sayı | x koordinatı. |
+| y | Sayı | y koordinatı. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 
 | Ad | Açıklama |
 | --- | --- |
-| getU() | Vector2 bir eşleme koordinatı olarak kullanılıyorsa U bileşenini alır veya ayarlar. Bu, x bileşeninin bir takma adıdır. |
+| getU() | Vector2 bir eşleme koordinatı olarak kullanılıyorsa U bileşenini alır veya ayarlar. x bileşeninin bir takma adıdır. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 
 | Ad | Açıklama |
 | --- | --- |
-| setU(value) | Vector2 bir eşleme koordinatı olarak kullanılıyorsa U bileşenini alır veya ayarlar. Bu, x bileşeninin bir takma adıdır. |
+| setU(value) | Vector2 bir eşleme koordinatı olarak kullanılıyorsa U bileşenini alır veya ayarlar. x bileşeninin bir takma adıdır. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 
 | Ad | Açıklama |
 | --- | --- |
-| getV() | Vector2 bir eşleme koordinatı olarak kullanılıyorsa V bileşenini alır veya ayarlar. Bu, y bileşeninin bir takma adıdır. |
+| getV() | Vector2 bir eşleme koordinatı olarak kullanılıyorsa V bileşenini alır veya ayarlar. y bileşeninin bir takma adıdır. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 
 | Ad | Açıklama |
 | --- | --- |
-| setV(value) | Vector2 bir eşleme koordinatı olarak kullanılıyorsa V bileşenini alır veya ayarlar. Bu, y bileşeninin bir takma adıdır. |
+| setV(value) | Vector2 bir eşleme koordinatı olarak kullanılıyorsa V bileşenini alır veya ayarlar. y bileşeninin bir takma adıdır. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 
 | Ad | Açıklama |
 | --- | --- |
-| dot(rhs) | İki vektörün noktasal çarpımını alır. |
+| dot(rhs) | İki vektörün nokta çarpımını alır. |
 
  **Parameters:**
 
@@ -169,7 +169,7 @@ url: /tr/nodejs-java/aspose.threed/vector2/
 | rhs | Vector2 | Sağ taraf değeri. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -198,10 +198,10 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| hashCode() | Vector2'nin karma kodunu alır |
+| hashCode() | Vector2'nin hash kodunu alır |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -252,7 +252,7 @@ String
 |  | Vector2 | null |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -262,7 +262,7 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| normalize() | Bu örneği normalleştirir. |
+| normalize() | Bu örneği normalize eder. |
 
  **Result:**
 Vector2
@@ -275,7 +275,7 @@ Vector2
 
 | Ad | Açıklama |
 | --- | --- |
-| compareTo(other) | Geçerli vektörü başka bir örnek ile karşılaştırın. |
+| compareTo(other) | Geçerli vektörü başka bir örnekle karşılaştır. |
 
  **Parameters:**
 
@@ -284,7 +284,7 @@ Vector2
 | othe | Vector2 | null |
 
  **Result:**
-Number
+Sayı
 
 
 ---

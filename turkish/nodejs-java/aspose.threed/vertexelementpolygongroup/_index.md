@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementpolygongroup/
 ---
 ## VertexElementPolygonGroup class
 
-İlgili poligonları bir araya toplamak için belirtilen bileşenler için poligon grubunu tanımlar.
+İlgili çokgenleri bir araya toplamak için belirtilen bileşenler için çokgen grubunu tanımlar.
 
 
 ## Yöntemler
@@ -108,7 +108,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementpolygongroup/
 
 | Ad | Açıklama |
 | --- | --- |
-| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementpolygongroup/
 
 | Ad | Açıklama |
 | --- | --- |
-| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementpolygongroup/
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndices() | İndeks verisini alır. İndeks dizisi. |
+| getIndices() | Dizin verilerini alır. Dizin dizisi. |
 
  **Result:**
 
@@ -147,13 +147,13 @@ url: /tr/nodejs-java/aspose.threed/vertexelementpolygongroup/
 
 | Ad | Açıklama |
 | --- | --- |
-| copyTo(target) | Belirtilen öğeye verileri kopyalar |
+| copyTo(target) | Verileri belirtilen öğeye kopyalar |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| hedef | VertexElementIntsTemplate | Target. |
+| target | VertexElementIntsTemplate | Hedef. |
 
  **Result:**
 
@@ -198,7 +198,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementpolygongroup/
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndices(data) | İndeksleri yükle |
+| setIndices(data) | Dizinleri yükle |
 
  **Parameters:**
 

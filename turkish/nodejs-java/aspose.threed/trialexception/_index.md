@@ -17,7 +17,7 @@ Bu, Scene.Open/Scene.Save sırasında lisans uygulanmadığında ortaya çıkar.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(msg) | TrialException'ın yapıcı |
+| constructor(msg) | TrialException sınıfının yapıcı metodu |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ Bu, Scene.Open/Scene.Save sırasında lisans uygulanmadığında ortaya çıkar.
 
 | Ad | Açıklama |
 | --- | --- |
-| getSuppressTrialException() | Bu değeri true olarak ayarlarsanız, lisanssız kullanım için deneme istisnasını bastırır, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bu değeri true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına gelir. |
+| getSuppressTrialException() | Bu değeri true olarak ayarlamak, lisanssız kullanım için deneme istisnasını bastırır, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bu değeri true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına gelir. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Bu, Scene.Open/Scene.Save sırasında lisans uygulanmadığında ortaya çıkar.
 
 | Ad | Açıklama |
 | --- | --- |
-| setSuppressTrialException(value) | Bu değeri true olarak ayarlarsanız, lisanssız kullanım için deneme istisnasını bastırır, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bu değeri true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına gelir. |
+| setSuppressTrialException(value) | Bu değeri true olarak ayarlamak, lisanssız kullanım için deneme istisnasını bastırır, ancak kısıtlamalar kaldırılmaz. Kısıtlamaları kaldırmak için lütfen geçerli bir lisans kullanın. Ayrıca bu değeri true olarak ayarlamak, lisanssız kısıtlamaların farkında olduğunuz anlamına gelir. |
 
  **Result:**
 

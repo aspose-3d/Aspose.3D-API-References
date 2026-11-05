@@ -17,7 +17,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | PdfSaveOptions yapıcı metodu |
+| constructor() | PdfSaveOptions yapıcısı |
 
  **Result:**
 
@@ -30,7 +30,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getRenderMode() | Render modu, 3D sanat eserinin işlendiği stili belirtir. Özelliğin değeri PdfRenderMode tamsayı sabitidir. |
+| getRenderMode() | Render modu, 3D sanat eserinin hangi stilde render edildiğini belirtir. Özelliğin değeri PdfRenderMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setRenderMode(value) | Render modu, 3D sanat eserinin işlendiği stili belirtir. Özelliğin değeri PdfRenderMode tamsayı sabitidir. |
+| setRenderMode(value) | Render modu, 3D sanat eserinin hangi stilde render edildiğini belirtir. Özelliğin değeri PdfRenderMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getLightingScheme() | LightingScheme, 3D sanat eserine uygulanacak aydınlatmayı belirtir. Özelliğin değeri PdfLightingScheme tamsayı sabitidir. |
+| getLightingScheme() | LightingScheme, 3D sanat eserine uygulanacak aydınlatmayı belirtir. Özelliğin değeri PdfLightingScheme tam sayı sabitidir. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setLightingScheme(value) | LightingScheme, 3D sanat eserine uygulanacak aydınlatmayı belirtir. Özelliğin değeri PdfLightingScheme tamsayı sabitidir. |
+| setLightingScheme(value) | LightingScheme, 3D sanat eserine uygulanacak aydınlatmayı belirtir. Özelliğin değeri PdfLightingScheme tam sayı sabitidir. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFaceColor() | 3D içeriği işlerken kullanılacak yüz rengi alır veya ayarlar. Bu yalnızca RenderMode değeri Illustration olduğunda geçerlidir. |
+| getFaceColor() | 3D içeriği render ederken kullanılacak yüzey rengini alır veya ayarlar. Bu yalnızca RenderMode değeri Illustration olduğunda geçerlidir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFaceColor(value) | 3D içeriği işlerken kullanılacak yüz rengi alır veya ayarlar. Bu yalnızca RenderMode değeri Illustration olduğunda geçerlidir. |
+| setFaceColor(value) | 3D içeriği render ederken kullanılacak yüzey rengini alır veya ayarlar. Bu yalnızca RenderMode değeri Illustration olduğunda geçerlidir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getAuxiliaryColor() | 3D içeriği işlerken kullanılacak yardımcı rengi alır veya ayarlar. Bu rengin yorumu RenderMode'a bağlıdır. |
+| getAuxiliaryColor() | 3D içeriği render ederken kullanılacak yardımcı rengi alır veya ayarlar. Bu rengin yorumu RenderMode'a bağlıdır. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setAuxiliaryColor(value) | 3D içeriği işlerken kullanılacak yardımcı rengi alır veya ayarlar. Bu rengin yorumu RenderMode'a bağlıdır. |
+| setAuxiliaryColor(value) | 3D içeriği render ederken kullanılacak yardımcı rengi alır veya ayarlar. Bu rengin yorumu RenderMode'a bağlıdır. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEmbedTextures() | Harici dokuları PDF dosyasına göm, varsayılan değer false'tur. |
+| getEmbedTextures() | Harici dokuları PDF dosyasına gömer, varsayılan değer false'tur. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setEmbedTextures(value) | Harici dokuları PDF dosyasına göm, varsayılan değer false'tur. |
+| setEmbedTextures(value) | Harici dokuları PDF dosyasına gömer, varsayılan değer false'tur. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ PDF dışa aktarmada kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

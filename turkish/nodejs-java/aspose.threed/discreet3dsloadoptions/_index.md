@@ -17,7 +17,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Discreet3dsLoadOptions yapıcısı |
+| constructor() | Discreet3dsLoadOptions sınıfının yapıcı metodu |
 
  **Result:**
 
@@ -30,7 +30,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getGammaCorrectedColor() | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi kullanacak, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır. |
+| getGammaCorrectedColor() | Bir 3ds dosyası aynı öznitelik için özgün renk ve gama düzeltmeli renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltmeli rengi kullanır, aksi takdirde Aspose.3D özgün rengi kullanmaya çalışır. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setGammaCorrectedColor(value) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi kullanacak, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır. |
+| setGammaCorrectedColor(value) | Bir 3ds dosyası aynı öznitelik için özgün renk ve gama düzeltmeli renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltmeli rengi kullanır, aksi takdirde Aspose.3D özgün rengi kullanmaya çalışır. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipCoordinateSystem() | İçe/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
+| getFlipCoordinateSystem() | İçe/dışa aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipCoordinateSystem(value) | İçe/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
+| setFlipCoordinateSystem(value) | İçe/dışa aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dsloadoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

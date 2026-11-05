@@ -1,5 +1,5 @@
 ---
-title: "Sphere"
+title: "Küre"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -17,7 +17,7 @@ Parametreli küre.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Sphere sınıfının varsayılan yarıçap 1 ile yeni bir örneğini başlatır. |
+| constructor() | Küre'nin varsayılan yarıçapı 1 olan yeni bir örneğini başlatır. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Parametreli küre.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(radius) | Sphere sınıfının belirtilen yarıçap ile yeni bir örneğini başlatır. |
+| constructor_overload(radius) | Belirtilen yarıçapla Küre sınıfının yeni bir örneğini başlatır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| yarıçap | Number | Yarıçap. |
+| radius | Sayı | Yarıçap. |
 
  **Result:**
 
@@ -49,15 +49,15 @@ Parametreli küre.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload2(radius, widthSegments, heightSegments) | Sphere sınıfının belirtilen yarıçap, genişlik segmentleri ve yükseklik segmentleri ile yeni bir örneğini başlatır. |
+| constructor_overload2(radius, widthSegments, heightSegments) | Belirtilen yarıçap, genişlik segmentleri ve yükseklik segmentleriyle Küre sınıfının yeni bir örneğini başlatır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| yarıçap | Number | Kürenin yarıçapı. |
-| widthSegments | Number | Genişlik segmentleri. |
-| heightSegments | Number | Yükseklik segmentleri. |
+| radius | Sayı | Kürenin yarıçapı. |
+| widthSegments | Sayı | Genişlik segmentleri. |
+| heightSegments | Sayı | Yükseklik segmentleri. |
 
  **Result:**
 
@@ -70,20 +70,20 @@ Parametreli küre.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload3(name, radius, widthSegments, heightSegments, phiStart, phiLength, thetaStart, thetaLength) | Sphere sınıfının yeni bir örneğini başlatır. |
+| constructor_overload3(name, radius, widthSegments, heightSegments, phiStart, phiLength, thetaStart, thetaLength) | Küre sınıfının yeni bir örneğini başlatır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | name | String | Ad. |
-| yarıçap | Number | Kürenin yarıçapı. |
-| widthSegments | Number | Genişlik segmentleri. |
-| heightSegments | Number | Yükseklik segmentleri. |
-| phiStart | Number | Phi başlangıcı. |
-| phiLength | Number | Phi uzunluğu. |
-| thetaStart | Number | Theta başlangıcı. |
-| thetaLength | Number | Theta uzunluğu. |
+| radius | Sayı | Kürenin yarıçapı. |
+| widthSegments | Sayı | Genişlik segmentleri. |
+| heightSegments | Sayı | Yükseklik segmentleri. |
+| phiStart | Sayı | Phi başlangıcı. |
+| phiLength | Sayı | Phi uzunluğu. |
+| thetaStart | Sayı | Theta başlangıcı. |
+| thetaLength | Sayı | Theta uzunluğu. |
 
  **Result:**
 
@@ -330,7 +330,7 @@ Parametreli küre.
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -343,7 +343,7 @@ Parametreli küre.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -356,7 +356,7 @@ Parametreli küre.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -447,7 +447,7 @@ Parametreli küre.
 
 | Ad | Açıklama |
 | --- | --- |
-| toMesh() | Mevcut nesneyi mesh'e dönüştür |
+| toMesh() | Geçerli nesneyi mesh'e dönüştür |
 
  **Result:**
 Mesh
@@ -473,7 +473,7 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -492,7 +492,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -505,7 +505,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -530,7 +530,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -549,7 +549,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -563,7 +563,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -572,7 +572,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

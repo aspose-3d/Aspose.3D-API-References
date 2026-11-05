@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/shadertechnique/
 ---
 ## ShaderTechnique class
 
-Bir shader tekniği, somut bir renderleme uygulamasını temsil eder.
+Bir gölgelendirici tekniği somut bir renderleme uygulamasını temsil eder.
 
 
 ## Yöntemler
@@ -160,7 +160,7 @@ Bir shader tekniği, somut bir renderleme uygulamasını temsil eder.
 
 | Ad | Açıklama |
 | --- | --- |
-| getShaderEntry() | Gölgelendiricinin giriş noktasını alır veya ayarlar, HLSL gibi bazı gölgelendiriciler özelleştirilmiş girişlere sahip olabilir. |
+| getShaderEntry() | Shader'ın giriş noktasını alır veya ayarlar, HLSL gibi bazı shader'lar özelleştirilmiş shader girişlerine sahip olabilir. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Bir shader tekniği, somut bir renderleme uygulamasını temsil eder.
 
 | Ad | Açıklama |
 | --- | --- |
-| setShaderEntry(value) | Gölgelendiricinin giriş noktasını alır veya ayarlar, HLSL gibi bazı gölgelendiriciler özelleştirilmiş girişlere sahip olabilir. |
+| setShaderEntry(value) | Shader'ın giriş noktasını alır veya ayarlar, HLSL gibi bazı shader'lar özelleştirilmiş shader girişlerine sahip olabilir. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Bir shader tekniği, somut bir renderleme uygulamasını temsil eder.
 
 | Ad | Açıklama |
 | --- | --- |
-| getRenderAPI() | Bu teknik tarafından kullanılan renderleme API'sini alır veya ayarlar |
+| getRenderAPI() | Bu teknik tarafından kullanılan render API'sini alır veya ayarlar |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Bir shader tekniği, somut bir renderleme uygulamasını temsil eder.
 
 | Ad | Açıklama |
 | --- | --- |
-| setRenderAPI(value) | Bu teknik tarafından kullanılan renderleme API'sini alır veya ayarlar |
+| setRenderAPI(value) | Bu teknik tarafından kullanılan render API'sini alır veya ayarlar |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Bir shader tekniği, somut bir renderleme uygulamasını temsil eder.
 
 | Ad | Açıklama |
 | --- | --- |
-| getShaderParameters() | Shader parametresi tanımını alır. Anahtar, dinamik özelliğin adıdır ve değer, özelliğin bağlandığı shader parametresi adıdır. |
+| getShaderParameters() | Shader parametre tanımını alır. Anahtar, dinamik özelliğin adıdır ve değer, özelliğin bağlandığı shader parametresi adıdır. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Bir shader tekniği, somut bir renderleme uygulamasını temsil eder.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Dinamik özelliğin adı. |
+| özellik | String | Dinamik özelliğin adı. |
 | shaderParameter | String | Shader parametresinin adı. |
 
  **Result:**

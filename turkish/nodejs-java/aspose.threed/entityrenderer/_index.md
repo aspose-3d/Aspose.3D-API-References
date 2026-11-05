@@ -17,7 +17,7 @@ Farklı türde varlıklar için renderleme uygulamak amacıyla bunu alt sınıf 
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(key, features) | EntityRenderer'ın yapıcısı |
+| constructor(key, features) | EntityRenderer yapıcısı |
 
  **Parameters:**
 
@@ -37,7 +37,7 @@ Farklı türde varlıklar için renderleme uygulamak amacıyla bunu alt sınıf 
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(key) | EntityRenderer'ın yapıcısı |
+| constructor_overload(key) | EntityRenderer yapıcısı |
 
  **Parameters:**
 
@@ -56,13 +56,13 @@ Farklı türde varlıklar için renderleme uygulamak amacıyla bunu alt sınıf 
 
 | Ad | Açıklama |
 | --- | --- |
-| initialize(renderer) | entity renderer'ı başlat |
+| initialize(renderer) | Varlık renderlayıcısını başlat |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| rendere | Renderlayıcı | null |
+| rendere | Renderer | null |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Farklı türde varlıklar için renderleme uygulamak amacıyla bunu alt sınıf 
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| renderlayıcı | Renderlayıcı | Mevcut renderlayıcı |
+| renderer | Renderer | Mevcut renderlayıcı |
 | renderQueue | IRenderQueue | Render kuyruğu |
 
  **Result:**
@@ -114,7 +114,7 @@ Farklı türde varlıklar için renderleme uygulamak amacıyla bunu alt sınıf 
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| renderlayıcı | Renderlayıcı | Mevcut renderlayıcı |
+| renderer | Renderer | Mevcut renderlayıcı |
 | renderQueue | IRenderQueue | Render kuyruğu |
 
  **Result:**
@@ -134,10 +134,10 @@ Farklı türde varlıklar için renderleme uygulamak amacıyla bunu alt sınıf 
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| renderlayıcı | Renderlayıcı | Mevcut renderlayıcı örneği |
-| kuyruk | IRenderQueue | Render görevlerini yönetmek için kullanılan render kuyruğu |
-| düğüm | Düğüm | Mevcut düğüm |
-| varlık | Varlık | Renderlanması gereken varlık |
+| renderer | Renderer | Mevcut renderlayıcı örneği |
+| queue | IRenderQueue | Render görevlerini yönetmek için kullanılan render kuyruğu |
+| node | Node | Mevcut düğüm |
+| varlık | Varlık | Render edilmesi gereken varlık |
 
  **Result:**
 
@@ -150,17 +150,17 @@ Farklı türde varlıklar için renderleme uygulamak amacıyla bunu alt sınıf 
 
 | Ad | Açıklama |
 | --- | --- |
-| renderEntity(renderer, commandList, node, renderableResource, subEntity) | com.aspose.threed.IRenderQueue'ye itilen her render görevi, somut render işini gerçekleştirmek için karşılık gelen bir RenderEntity çağrısına sahip olacaktır. |
+| renderEntity(renderer, commandList, node, renderableResource, subEntity) | com.aspose.threed.IRenderQueue'ye itilen her render görevi, somut render işini gerçekleştirmek için karşılık gelen RenderEntity çağrısına sahip olacaktır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| renderlayıcı | Renderlayıcı | Renderlayıcı |
+| renderer | Renderer | Renderlayıcı |
 | commandList | ICommandList | Render komutlarını kaydetmek için kullanılan commandList |
-| düğüm | Düğüm | Render edilecek varlığın PrepareRenderQueue yöntemine geçirilen aynı düğüm |
+| node | Node | Render edilecek varlığın PrepareRenderQueue metoduna geçirilen aynı düğüm |
 | renderableResource | Object | PrepareRenderQueue sırasında IRenderQueue'ye geçirilen özel nesne |
-| subEntity | Number | IRenderQueue'ye geçirilen alt varlığın indeksi |
+| subEntity | Sayı | IRenderQueue'ye geçirilen alt varlığın indeksi |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Farklı türde varlıklar için renderleme uygulamak amacıyla bunu alt sınıf 
 
 | Ad | Açıklama |
 | --- | --- |
-| dispose() | Varlık renderlayıcı yok edilirken, paylaşılan kaynaklar serbest bırakılıyor. |
+| dispose() | Varlık renderlayıcısı iptal ediliyor, paylaşılan kaynaklar serbest bırakılıyor. |
 
  **Result:**
 

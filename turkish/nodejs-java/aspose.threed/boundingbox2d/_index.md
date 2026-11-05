@@ -11,11 +11,11 @@ url: /tr/nodejs-java/aspose.threed/boundingbox2d/
 Vector2 için eksen hizalı sınırlayıcı kutu
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| NULL | Null sınırlama kutusu |
+| NULL | null sınırlama kutusu |
 | INFINITE | Sonsuz sınırlama kutusu |
 
 ## Yöntemler
@@ -37,7 +37,7 @@ Vector2 için eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(minimum, maximum) | Verilen minimum ve maksimum köşe ile sonlu bir sınırlama kutusu başlatır |
+| constructor_overload(minimum, maximum) | Verilen minimum ve maksimum köşelerle sonlu bir sınırlama kutusu başlatır |
 
  **Parameters:**
 
@@ -83,7 +83,7 @@ Vector2 için eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| getMaximum() | Sınırlama kutusunun maksimum köşesi |
+| getMaximum() | Sınırlayıcı kutunun maksimum köşesi |
 
  **Result:**
 
@@ -96,7 +96,7 @@ Vector2 için eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| merge(pt) | Yeni kutuyu mevcut sınırlama kutusuna birleştirir. |
+| merge(pt) | Yeni kutuyu mevcut sınırlayıcı kutuya birleştirir. |
 
  **Parameters:**
 
@@ -115,7 +115,7 @@ Vector2 için eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| merge(bb) | Yeni kutuyu mevcut sınırlama kutusuna birleştirir. |
+| merge(bb) | Yeni kutuyu mevcut sınırlayıcı kutuya birleştirir. |
 
  **Parameters:**
 

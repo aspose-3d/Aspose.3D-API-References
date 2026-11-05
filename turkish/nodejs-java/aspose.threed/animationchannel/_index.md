@@ -43,7 +43,7 @@ Bir kanal, özelliğin bileşen alanını bir dizi anahtar kare sekansına eşle
 
 | Ad | Açıklama |
 | --- | --- |
-| getDefaultValue() | Kanalın varsayılan değerini alır veya ayarlar. Bir kanalın bağlı anahtar kare dizileri yoksa, varsayılan değer animasyon değerlendirmesi sırasında kullanılacaktır. Gerçek bir senaryo: Animasyon yalnızca bir düğümün x koordinatını hareket ettirir, y ve z değişmez, bu durumda varsayılan değer tam çeviri değerlendirmesi sırasında kullanılacaktır. |
+| getDefaultValue() | Kanalın Varsayılan değerini alır veya ayarlar. Bir kanalın bağlı keyframe dizileri yoksa, varsayılan değer animasyon değerlendirmesi sırasında kullanılacaktır. Gerçek bir senaryo: Animasyon yalnızca bir düğümün x koordinatını animasyonlar, y ve z değişmez, bu durumda varsayılan değer tam çeviri değerlendirmesi sırasında kullanılacaktır. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Bir kanal, özelliğin bileşen alanını bir dizi anahtar kare sekansına eşle
 
 | Ad | Açıklama |
 | --- | --- |
-| setDefaultValue(value) | Kanalın varsayılan değerini alır veya ayarlar. Bir kanalın bağlı anahtar kare dizileri yoksa, varsayılan değer animasyon değerlendirmesi sırasında kullanılacaktır. Gerçek bir senaryo: Animasyon yalnızca bir düğümün x koordinatını hareket ettirir, y ve z değişmez, bu durumda varsayılan değer tam çeviri değerlendirmesi sırasında kullanılacaktır. |
+| setDefaultValue(value) | Kanalın Varsayılan değerini alır veya ayarlar. Bir kanalın bağlı keyframe dizileri yoksa, varsayılan değer animasyon değerlendirmesi sırasında kullanılacaktır. Gerçek bir senaryo: Animasyon yalnızca bir düğümün x koordinatını animasyonlar, y ve z değişmez, bu durumda varsayılan değer tam çeviri değerlendirmesi sırasında kullanılacaktır. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Bir kanal, özelliğin bileşen alanını bir dizi anahtar kare sekansına eşle
 
 | Ad | Açıklama |
 | --- | --- |
-| getKeyframeSequences() | Bu kanal içindeki tüm anahtar kare dizilerini alır |
+| getKeyframeSequences() | Bu kanal içindeki tüm keyframe dizilerini alır |
 
  **Result:**
 
@@ -82,13 +82,13 @@ Bir kanal, özelliğin bileşen alanını bir dizi anahtar kare sekansına eşle
 
 | Ad | Açıklama |
 | --- | --- |
-| addKeyframeSequence(sequence) | Bu kanala anahtar kare dizisi ekler |
+| addKeyframeSequence(sequence) | Bu kanala keyframe dizisi ekler |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| dizi | KeyframeSequence | Eklenecek anahtar kare dizisi. |
+| sequence | KeyframeSequence | Eklenecek keyframe dizisi. |
 
  **Result:**
 

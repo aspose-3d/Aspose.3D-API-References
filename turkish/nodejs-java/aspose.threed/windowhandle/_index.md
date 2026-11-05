@@ -8,6 +8,6 @@ url: /tr/nodejs-java/aspose.threed/windowhandle/
 ---
 ## WindowHandle class
 
-Farklı platformlar için kapsüllenmiş pencere tanıtıcısı.  @hideconstructor
+Farklı platformlar için kapsüllenmiş pencere tutamağı.  @hideconstructor
 
 

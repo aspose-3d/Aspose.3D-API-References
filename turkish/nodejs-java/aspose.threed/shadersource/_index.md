@@ -8,6 +8,6 @@ url: /tr/nodejs-java/aspose.threed/shadersource/
 ---
 ## ShaderSource class
 
-Shader kaynak kodu  @hideconstructor
+Gölgelendiricinin kaynak kodu  @hideconstructor
 
 

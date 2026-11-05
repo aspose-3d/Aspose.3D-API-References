@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/shadervariable/
 ---
 ## ShaderVariable class
 
-Shader değişkeni
+Gölgelendirici değişkeni
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Shader değişkeni
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(name) | ShaderVariable yapıcı |
+| constructor(name) | ShaderVariable yapıcısı |
 
  **Parameters:**
 
@@ -36,14 +36,14 @@ Shader değişkeni
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(name, shaderStage) | ShaderVariable yapıcı |
+| constructor_overload(name, shaderStage) | ShaderVariable yapıcısı |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | nam | String | null |
-| shaderStage | Number | ShaderStage |
+| shaderStage | Sayı | ShaderStage |
 
  **Result:**
 

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/objloadoptions/
 ---
 ## ObjLoadOptions class
 
-Wavefront obj için yükleme seçenekleri
+wavefront obj için yükleme seçenekleri
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | ObjLoadOptions yapıcı yöntemi |
+| constructor() | ObjLoadOptions yapıcı metodu |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipCoordinateSystem() | İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmeyeceğini alır veya ayarlar. |
+| getFlipCoordinateSystem() | İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipCoordinateSystem(value) | İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrilmeyeceğini alır veya ayarlar. |
+| setFlipCoordinateSystem(value) | İçe aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEnableMaterials() | Her nesne için malzeme içe aktarımının olup olmadığını alır veya ayarlar. |
+| getEnableMaterials() | Her nesne için malzemelerin içe aktarılıp aktarılmayacağını alır veya ayarlar |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setEnableMaterials(value) | Her nesne için malzeme içe aktarımının olup olmadığını alır veya ayarlar. |
+| setEnableMaterials(value) | Her nesne için malzemelerin içe aktarılıp aktarılmayacağını alır veya ayarlar |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getScale() | x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır. |
+| getScale() | x/y/z ekseninde ölçekler, varsayılan değer 1.0'dır |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setScale(value) | x/y/z eksenlerinde ölçekler, varsayılan değer 1.0'dır. |
+| setScale(value) | x/y/z ekseninde ölçekler, varsayılan değer 1.0'dır |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getNormalizeNormal() | Yükleme sırasında normal vektörün normalize edilip edilmediğini alır veya ayarlar. Varsayılan değer doğrudur. |
+| getNormalizeNormal() | Yükleme sırasında normal vektörün normalize edilip edilmeyeceğini alır veya ayarlar. Varsayılan değer doğrudur. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setNormalizeNormal(value) | Yükleme sırasında normal vektörün normalize edilip edilmediğini alır veya ayarlar. Varsayılan değer doğrudur. |
+| setNormalizeNormal(value) | Yükleme sırasında normal vektörün normalize edilip edilmeyeceğini alır veya ayarlar. Varsayılan değer doğrudur. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Wavefront obj için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

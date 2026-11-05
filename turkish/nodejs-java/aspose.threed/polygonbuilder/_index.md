@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/polygonbuilder/
 ---
 ## PolygonBuilder class
 
-Mesh için çokgen oluşturmak üzere yardımcı bir sınıf
+Mesh için çokgen oluşturmak amacıyla yardımcı sınıf.
 
 
 ## Yöntemler
@@ -23,7 +23,7 @@ Mesh için çokgen oluşturmak üzere yardımcı bir sınıf
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| mesh | Mesh | Poligonun oluşturulacağı ağ. |
+| mesh | Mesh | Poligonun hangi örgü üzerinde oluşturulacağını belirtir. |
 
  **Result:**
 
@@ -55,7 +55,7 @@ Mesh için çokgen oluşturmak üzere yardımcı bir sınıf
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| inde | Number | null |
+| inde | Sayı | null |
 
  **Result:**
 
@@ -68,7 +68,7 @@ Mesh için çokgen oluşturmak üzere yardımcı bir sınıf
 
 | Ad | Açıklama |
 | --- | --- |
-| end() | Poligon oluşturulmasını tamamlar |
+| end() | Poligon oluşturmayı tamamlar |
 
  **Result:**
 

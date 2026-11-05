@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/trimesh/
 ---
 ## TriMesh class
 
-Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. Bu sınıf, yalnızca vertex başına veri içeren bir mesh oluşturmayı kolaylaştıran bir yardımcı programdır.
+Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. Bu sınıf, yalnızca köşe başına veri içeren bir ağ oluşturmayı kolaylaştıran bir yardımcı programdır.
 
 
 ## Yöntemler
@@ -24,7 +24,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | name | String | Bu TriMesh'in adı |
-| tanım | VertexDeclaration | Vertex'in tanımı |
+| declaration | VertexDeclaration | Vertex'in bildirimi |
 
  **Result:**
 
@@ -63,7 +63,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndicesCount() | Bu TriMesh içindeki indislerin sayısı |
+| getIndicesCount() | Bu TriMesh'teki indeks sayısı |
 
  **Result:**
 
@@ -76,7 +76,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 
 | Ad | Açıklama |
 | --- | --- |
-| getUnmergedVerticesCount() | beginVertex() ve endVertex() ile girilen birleştirilmemiş köşe sayısı. |
+| getUnmergedVerticesCount() | beginVertex() ve endVertex() tarafından girilen birleştirilmemiş vertex sayısı. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 
 | Ad | Açıklama |
 | --- | --- |
-| getCapacity() | Önceden tahsis edilmiş köşelerin kapasitesi. |
+| getCapacity() | Önceden tahsis edilmiş vertex'lerin kapasitesi. |
 
  **Result:**
 
@@ -102,7 +102,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 
 | Ad | Açıklama |
 | --- | --- |
-| getVerticesSizeInBytes() | Tüm köşelerin bayt cinsinden toplam boyutu |
+| getVerticesSizeInBytes() | Tüm vertex'lerin bayt cinsinden toplam boyutu |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -232,7 +232,7 @@ Bir TriMesh, GPU tarafından doğrudan kullanılabilecek ham verileri içerir. B
 
 | Ad | Açıklama |
 | --- | --- |
-| fromMesh(declaration, mesh) | Verilen mesh nesnesi ve verilen köşe düzeniyle bir TriMesh oluştur. |
+| fromMesh(declaration, mesh) | Verilen mesh nesnesinden ve verilen vertex düzeniyle bir TriMesh oluştur. |
 
  **Parameters:**
 
@@ -252,14 +252,14 @@ TriMesh
 
 | Ad | Açıklama |
 | --- | --- |
-| copyFrom(input, vd) | TriMesh'i yeni köşe düzeniyle girişten kopyala |
+| copyFrom(input, vd) | TriMesh'i yeni vertex düzeniyle input'tan kopyala |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | input | TriMesh | Kopyalama için giriş TriMesh'i |
-| vd | VertexDeclaration | Çıktı TriMesh'in yeni köşe bildirimi |
+| vd | VertexDeclaration | Çıktı TriMesh'in yeni vertex bildirimi |
 
  **Result:**
 TriMesh
@@ -272,14 +272,14 @@ TriMesh
 
 | Ad | Açıklama |
 | --- | --- |
-| fromMesh(mesh, useFloat) | Verilen mesh nesnesinden bir TriMesh oluştur, köşe bildirimi giriş mesh'inin yapısına dayanır. |
+| fromMesh(mesh, useFloat) | Verilen mesh nesnesinden bir TriMesh oluştur, vertex bildirimi giriş mesh'inin yapısına dayanır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | mes | Mesh | null |
-| useFloat | boolean | Her köşe öğesi bileşeni için double yerine float tipi kullan. |
+| useFloat | boolean | Her vertex öğesi bileşeni için double tipinin yerine float tipini kullanın. |
 
  **Result:**
 TriMesh
@@ -292,10 +292,10 @@ TriMesh
 
 | Ad | Açıklama |
 | --- | --- |
-| beginVertex() | Köşe eklemeye başla |
+| beginVertex() | Vertex eklemeye başla |
 
  **Result:**
-Köşe
+Vertex
 
 
 ---
@@ -305,10 +305,10 @@ Köşe
 
 | Ad | Açıklama |
 | --- | --- |
-| endVertex() | Düğüm eklemeyi sonlandır |
+| endVertex() | Vertex eklemeyi bitir |
 
  **Result:**
-Köşe
+Vertex
 
 
 ---
@@ -318,7 +318,7 @@ Köşe
 
 | Ad | Açıklama |
 | --- | --- |
-| verticesToArray() | Düğümlerin verisini bayt dizisine dönüştür |
+| verticesToArray() | Vertex verilerini bayt dizisine dönüştür |
 
  **Result:**
 byte[]
@@ -344,14 +344,14 @@ String
 
 | Ad | Açıklama |
 | --- | --- |
-| fromRawData(vd, vertices, indices, generateVertexMapping) | Ham veriden TriMesh oluştur. Döndürülen TriMesh, performans için giriş bayt dizisini kopyalamaz; dizideki dış değişiklikler bu örneğe yansıtılır. |
+| fromRawData(vd, vertices, indices, generateVertexMapping) | Ham veriden TriMesh oluşturun. Döndürülen TriMesh, performans için giriş bayt dizisini kopyalamaz; dizideki dış değişiklikler bu örneğe yansıtılacaktır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| vd | VertexDeclaration | Düğüm bildirimi, en az bir alan içermelidir. |
-| vertices | byte[] | Giriş düğüm verisi, düğümlerin minimum uzunluğu düğüm bildirim boyutuna eşit veya daha büyük olmalıdır. |
+| vd | VertexDeclaration | Vertex bildirimi, en az bir alan içermelidir. |
+| vertices | byte[] | Giriş vertex verisi, vertex'lerin minimum uzunluğu vertex bildirim boyutuna eşit ya da daha büyük olmalıdır. |
 | indeksler | Number[] | Üçgen indeksleri |
 | generateVertexMapping | boolean | Oluştur |
 
@@ -366,7 +366,7 @@ TriMesh
 
 | Ad | Açıklama |
 | --- | --- |
-| loadVerticesFromBytes(verticesInBytes) | Düğümleri baytlardan yükle, bayt uzunluğu düğüm boyutunun tam katı olmalıdır. |
+| loadVerticesFromBytes(verticesInBytes) | Vertex'leri baytlardan yükle, bayt uzunluğu vertex boyutunun tam katı olmalıdır. |
 
  **Parameters:**
 
@@ -391,7 +391,7 @@ TriMesh
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| idx | Number | Okunacak düğümün indeksi |
+| idx | Sayı | Okunacak vertex'in indeksi |
 | field | VertexField | Vector4/FVector4 veri tipine sahip alan |
 
  **Result:**
@@ -411,7 +411,7 @@ Vector4
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| idx | Number | Okunacak düğümün indeksi |
+| idx | Sayı | Okunacak vertex'in indeksi |
 | field | VertexField | Vector4/FVector4 veri tipine sahip alan |
 
  **Result:**
@@ -431,7 +431,7 @@ FVector4
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| idx | Number | Okunacak düğümün indeksi |
+| idx | Sayı | Okunacak vertex'in indeksi |
 | field | VertexField | Vector3/FVector3 veri tipine sahip alan |
 
  **Result:**
@@ -451,7 +451,7 @@ Vector3
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| idx | Number | Okunacak düğümün indeksi |
+| idx | Sayı | Okunacak vertex'in indeksi |
 | field | VertexField | Vector3/FVector3 veri tipine sahip alan |
 
  **Result:**
@@ -471,7 +471,7 @@ FVector3
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| idx | Number | Okunacak düğümün indeksi |
+| idx | Sayı | Okunacak vertex'in indeksi |
 | field | VertexField | Vector2/FVector2 veri tipine sahip alan |
 
  **Result:**
@@ -491,7 +491,7 @@ Vector2
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| idx | Number | Okunacak düğümün indeksi |
+| idx | Sayı | Okunacak vertex'in indeksi |
 | field | VertexField | Vector2/FVector2 veri tipine sahip alan |
 
  **Result:**
@@ -511,11 +511,11 @@ FVector2
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| idx | Number | Okunacak düğümün indeksi |
+| idx | Sayı | Okunacak vertex'in indeksi |
 | field | VertexField | float/double uyumlu veri tipine sahip alan |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -531,11 +531,11 @@ Number
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| idx | Number | Okunacak düğümün indeksi |
+| idx | Sayı | Okunacak vertex'in indeksi |
 | field | VertexField | float/double uyumlu veri tipine sahip alan |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -548,7 +548,7 @@ Number
 | getBoundingBox() | Geçerli varlığın nesne uzayı koordinat sistemindeki sınırlayıcı kutusunu alır. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -558,7 +558,7 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -577,7 +577,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -590,7 +590,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -615,7 +615,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -634,7 +634,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -648,7 +648,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -657,7 +657,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -670,7 +670,7 @@ Property
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

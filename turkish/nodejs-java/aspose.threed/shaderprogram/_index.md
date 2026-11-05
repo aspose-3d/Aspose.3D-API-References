@@ -8,6 +8,6 @@ url: /tr/nodejs-java/aspose.threed/shaderprogram/
 ---
 ## ShaderProgram class
 
-Shader programı  @hideconstructor
+Gölgelendirici programı  @hideconstructor
 
 

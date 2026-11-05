@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementsmoothinggroup/
 ---
 ## VertexElementSmoothingGroup class
 
-Yumuşatma grubu, bir poligon örgüsünde yumuşak bir yüzey oluşturacak şekilde görünmesi gereken poligon grubudur.  DOS için 3D Studio Max gibi bazı erken 3D modelleme yazılımları, her mesh vertex'i için normal vektör depolamaktan kaçınmak amacıyla yumuşatma grubu kullanıyordu.
+Bir yumuşatma grubu, bir çokgen ağında yumuşak bir yüzey oluşturacak şekilde görünmesi gereken çokgenler grubudur. DOS için 3D Studio Max gibi bazı erken 3D modelleme yazılımları, her ağ köşesi için normal vektör saklamaktan kaçınmak amacıyla yumuşatma grubunu kullanır.
 
 
 ## Yöntemler
@@ -108,7 +108,7 @@ Yumuşatma grubu, bir poligon örgüsünde yumuşak bir yüzey oluşturacak şek
 
 | Ad | Açıklama |
 | --- | --- |
-| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Yumuşatma grubu, bir poligon örgüsünde yumuşak bir yüzey oluşturacak şek
 
 | Ad | Açıklama |
 | --- | --- |
-| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Yumuşatma grubu, bir poligon örgüsünde yumuşak bir yüzey oluşturacak şek
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndices() | İndeks verisini alır. İndeks dizisi. |
+| getIndices() | Dizin verilerini alır. Dizin dizisi. |
 
  **Result:**
 
@@ -147,13 +147,13 @@ Yumuşatma grubu, bir poligon örgüsünde yumuşak bir yüzey oluşturacak şek
 
 | Ad | Açıklama |
 | --- | --- |
-| copyTo(target) | Belirtilen öğeye verileri kopyalar |
+| copyTo(target) | Verileri belirtilen öğeye kopyalar |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| hedef | VertexElementIntsTemplate | Target. |
+| target | VertexElementIntsTemplate | Hedef. |
 
  **Result:**
 
@@ -198,7 +198,7 @@ Yumuşatma grubu, bir poligon örgüsünde yumuşak bir yüzey oluşturacak şek
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndices(data) | İndeksleri yükle |
+| setIndices(data) | Dizinleri yükle |
 
  **Parameters:**
 

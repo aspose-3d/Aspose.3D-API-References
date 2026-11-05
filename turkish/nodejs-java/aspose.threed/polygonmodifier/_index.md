@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/polygonmodifier/
 ---
 ## PolygonModifier class
 
-Çokgenleri değiştirmek için yardımcı programlar  @hideconstructor
+Poligonları değiştirmek için yardımcı programlar  @hideconstructor
 
 
 ## Yöntemler
@@ -23,7 +23,7 @@ url: /tr/nodejs-java/aspose.threed/polygonmodifier/
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| scene | Scene | İşlenecek sahne |
+| scene | Sahne | İşlenecek sahne |
 
  **Result:**
 
@@ -55,13 +55,13 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| mergeMesh(scene) | Tüm sahneyi tek bir dönüştürülmüş ağa dönüştür. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor. |
+| mergeMesh(scene) | Tüm sahneyi tek bir dönüştürülmüş ağa dönüştür. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| scene | Scene | Birleştirilecek sahne |
+| scene | Sahne | Birleştirilecek sahne |
 
  **Result:**
 Mesh
@@ -74,13 +74,13 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| mergeMesh(node) | Tüm düğümü tek bir dönüştürülmüş ağa dönüştür. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor. |
+| mergeMesh(node) | Tüm düğümü tek bir dönüştürülmüş ağa dönüştür. Normal/doku koordinatları gibi Vertex öğeleri henüz desteklenmiyor |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| düğüm | Düğüm | Birleştirilecek düğüm |
+| node | Node | Birleştirilecek düğüm |
 
  **Result:**
 Mesh
@@ -93,13 +93,13 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| scale(scene, scale) | Bu sahnedeki tüm geometrileri ölçeklendir (Kontrol noktalarını ölçeklendir, dönüşüm matrisini değil). |
+| scale(scene, scale) | Bu sahnedeki tüm geometrileri ölçeklendir (Kontrol noktalarını ölçeklendir, dönüşüm matrisini değil) |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| scene | Scene | Ölçeklendirilecek sahne |
+| scene | Sahne | Ölçeklendirilecek sahne |
 | ölçek | Vector3 | Ölçek faktörü |
 
  **Result:**
@@ -113,13 +113,13 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| scale(node, scale) | Bu düğümdeki tüm geometrileri ölçeklendir (Kontrol noktalarını ölçeklendir, dönüşüm matrisini değil). |
+| scale(node, scale) | Bu düğümde tüm geometrileri ölçekle (Dönüşüm matrisini değil, kontrol noktalarını ölçekle) |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| düğüm | Düğüm | Ölçeklendirilecek düğüm |
+| node | Node | Ölçeklenecek düğüm |
 | ölçek | Vector3 | Ölçek faktörü |
 
  **Result:**
@@ -146,7 +146,7 @@ VertexElementNormal
 
 | Ad | Açıklama |
 | --- | --- |
-| generateUV(mesh, normals) | Verilen giriş mesh'inden ve belirtilen normal verilerinden UV verilerini oluştur. |
+| generateUV(mesh, normals) | Verilen giriş mesh'inden ve belirtilen normal verilerinden UV verileri oluştur. |
 
  **Parameters:**
 
@@ -166,7 +166,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| generateUV(mesh) | Verilen giriş mesh'inden UV verilerini oluştur |
+| generateUV(mesh) | Verilen giriş mesh'inden UV verileri oluştur |
 
  **Parameters:**
 
@@ -185,13 +185,13 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| splitMesh(node, policy, createChildNodes, removeOldMesh) | Mesh'i VertexElementMaterial'e göre alt-mesh'lere böl. Her alt-mesh yalnızca bir malzeme kullanacak. Bölme işlemini bir düğümde gerçekleştir. |
+| splitMesh(node, policy, createChildNodes, removeOldMesh) | Mesh'i VertexElementMaterial'e göre alt-mesh'lere böl. Her alt-mesh yalnızca bir malzeme kullanacak. Bir düğümde mesh bölmeyi gerçekleştir. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| nod | Düğüm | null |
+| baş | Node | null |
 | politika | SplitMeshPolicy | SplitMeshPolicy |
 | createChildNodes | boolean | Her alt-mesh için çocuk düğümler oluştur. |
 | removeOldMesh | boolean | Bölme işleminden sonra eski mesh'i kaldır, bu parametre false ise eski ve yeni mesh'ler birlikte var olacaktır. |
@@ -207,13 +207,13 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| splitMesh(scene, policy, removeOldMesh) | Mesh'i VertexElementMaterial'e göre alt-mesh'lere böl. Her alt-mesh yalnızca bir malzeme kullanacak. Bölme işlemini sahnedeki tüm düğümlerde gerçekleştir. |
+| splitMesh(scene, policy, removeOldMesh) | Mesh'i VertexElementMaterial'e göre alt-mesh'lere böl. Her alt-mesh yalnızca bir malzeme kullanacak. Sahnedeki tüm düğümlerde mesh bölmeyi gerçekleştir. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| scen | Scene | null |
+| scen | Sahne | null |
 | politika | SplitMeshPolicy | SplitMeshPolicy |
 | removeOldMes | boolean | null |
 
@@ -228,7 +228,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| splitMesh(mesh, policy) | Mesh'i VertexElementMaterial'e göre alt-mesh'lere böl. Her alt-mesh yalnızca bir malzeme kullanacak. Orijinal mesh değiştirilmeyecek. |
+| splitMesh(mesh, policy) | Mesh'i VertexElementMaterial ile alt-mesh'lere böl. Her alt-mesh yalnızca bir malzeme kullanacak. Orijinal mesh değiştirilmeyecek. |
 
  **Result:**
 Mesh[]
@@ -241,7 +241,7 @@ Mesh[]
 
 | Ad | Açıklama |
 | --- | --- |
-| buildTangentBinormal(scene) | Bu, sahnedeki tüm mesh'lerde teğet ve binormal oluşturur. Normal gereklidir, eğer mesh'te normal yoksa, konumdan normal verisi de oluşturulur. UV da gereklidir, UV tanımlı değilse mesh yok sayılacaktır. |
+| buildTangentBinormal(scene) | Bu, sahnedeki tüm mesh'lerde teğet ve binormal oluşturur. Normal gereklidir, eğer mesh'te normal yoksa, konumdan normal verisi de oluşturulur. UV da gereklidir, UV tanımlı değilse mesh yok sayılacak. |
 
  **Result:**
 Mesh[]
@@ -254,7 +254,7 @@ Mesh[]
 
 | Ad | Açıklama |
 | --- | --- |
-| buildTangentBinormal(mesh) | Bu, ağda teğet ve binormal oluşturacaktır. Normal gereklidir, eğer ağda normal yoksa, konumdan normal verisini de oluşturacaktır. UV de gereklidir, UV bulunamazsa bir istisna yükseltilecektir. |
+| buildTangentBinormal(mesh) | Bu, mesh üzerinde teğet ve binormal oluşturur. Normal gereklidir, eğer mesh'te normal yoksa, konumdan normal verisi de oluşturulur. UV da gereklidir, UV bulunamazsa bir istisna fırlatılacak. |
 
  **Result:**
 Mesh[]

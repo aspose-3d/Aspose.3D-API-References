@@ -1,5 +1,5 @@
 ---
-title: "Kuatör"
+title: "Quaternion"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,10 +8,10 @@ url: /tr/nodejs-java/aspose.threed/quaternion/
 ---
 ## Quaternion class
 
-Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek için kullanılır.
+Quaternion genellikle bilgisayar grafiklerinde döndürme yapmak için kullanılır.
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -19,7 +19,7 @@ Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek iç
 | x | x bileşeni. |
 | y | y bileşeni. |
 | z | z bileşeni. |
-| IDENTITY | Birimsal kuaternion. |
+| IDENTITY | Kimlik kuaterni. |
 
 ## Yöntemler
 
@@ -46,10 +46,10 @@ Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek iç
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| w | Number | kuaternionun w bileşeni |
-| x | Number | kuaternionun x bileşeni |
-| y | Number | kuaternionun y bileşeni |
-| z | Number | kuaternionun z bileşeni |
+| w | Sayı | kuaterni'nin w bileşeni |
+| x | Sayı | kuaterni'nin x bileşeni |
+| y | Sayı | kuaterni'nin y bileşeni |
+| z | Sayı | kuaterni'nin z bileşeni |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek iç
 
 | Ad | Açıklama |
 | --- | --- |
-| getLength() | Kuaternionun uzunluğunu alır |
+| getLength() | Kuaterni'nin uzunluğunu alır |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Quaternion genellikle bilgisayar grafiklerinde dönüşüm gerçekleştirmek iç
 
 | Ad | Açıklama |
 | --- | --- |
-| equals(obj) | İki kuaternionun eşit olup olmadığını kontrol eder |
+| equals(obj) | İki kuaterniyonun eşit olup olmadığını kontrol et |
 
  **Parameters:**
 
@@ -94,10 +94,10 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| hashCode() | Quaternion'un hash kodunu alır |
+| hashCode() | Quaternion'ın karma kodunu alır |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -107,10 +107,10 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| conjugate() | Mevcut kuaternionun konjugat kuaternionunu döndürür |
+| conjugate() | Mevcut kuaterniyonun eşleni kuaterniyonunu döndürür |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---
@@ -120,10 +120,10 @@ Kuatör
 
 | Ad | Açıklama |
 | --- | --- |
-| inverse() | Mevcut kuaternionun ters kuaternionunu döndürür |
+| inverse() | Mevcut kuaterniyonun ters kuaterniyonunu döndürür |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---
@@ -139,10 +139,10 @@ Kuatör
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| q | Kuatör | Kuaternion |
+| q | Quaternion | Kuaterniyon |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -152,7 +152,7 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| eulerAngles() | Kuaternionu Euler açılarıyla temsil edilen dönüşüme dönüştürür. Tüm bileşenler radyan cinsindendir. |
+| eulerAngles() | Kuaterniyonu Euler açılarıyla temsil edilen dönüşüme çevirir. Tüm bileşenler radyan cinsindedir |
 
  **Result:**
 Vector3
@@ -165,10 +165,10 @@ Vector3
 
 | Ad | Açıklama |
 | --- | --- |
-| normalize() | Kuaternionu normalleştir |
+| normalize() | Kuaterniyonu normalleştir |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---
@@ -178,16 +178,16 @@ Kuatör
 
 | Ad | Açıklama |
 | --- | --- |
-| concat(rhs) | İki kuaternionu birleştir |
+| concat(rhs) | İki kuaterniyonu birleştir |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| rh | Kuatör | null |
+| rh | Quaternion | null |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---
@@ -197,17 +197,17 @@ Kuatör
 
 | Ad | Açıklama |
 | --- | --- |
-| fromAngleAxis(a, axis) | Verilen eksen etrafında bir kuaternion oluşturur ve saat yönünde döndürür |
+| fromAngleAxis(a, axis) | Verilen eksen etrafında bir kuaterniyon oluşturur ve saat yönünde döndürür |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| a | Number | Saat yönünde dönüş radian cinsinden |
-| eksen | Vector3 | Eksen |
+| a | Sayı | Saat yönünde dönüş radyan cinsinden |
+| axis | Vector3 | Eksen |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---
@@ -217,7 +217,7 @@ Kuatör
 
 | Ad | Açıklama |
 | --- | --- |
-| fromRotation(orig, dest) | Orijinal yönünden hedef yönüne dönen bir kuaternion oluşturur |
+| fromRotation(orig, dest) | Orijinal yönünden hedef yönüne dönen bir kuaterniyon oluşturur |
 
  **Parameters:**
 
@@ -227,7 +227,7 @@ Kuatör
 | dest | Vector3 | Hedef yön |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---
@@ -237,18 +237,18 @@ Kuatör
 
 | Ad | Açıklama |
 | --- | --- |
-| fromEulerAngle(pitch, yaw, roll) | Verilen Euler açısından bir kuaternion oluşturur |
+| fromEulerAngle(pitch, yaw, roll) | Verilen Euler açısından quaternion oluşturur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| pitch | Number | Pitch radian cinsinden |
-| yaw | Number | Yaw radian cinsinden |
-| yuvarlanma | Number | Radyan cinsinden yuvarlanma |
+| eğim | Sayı | Radyan cinsinden eğim |
+| sapma | Sayı | Radyan cinsinden sapma |
+| yuvarlanma | Sayı | Radyan cinsinden yuvarlanma |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---
@@ -258,7 +258,7 @@ Kuatör
 
 | Ad | Açıklama |
 | --- | --- |
-| fromEulerAngle(eulerAngle) | Verilen Euler açısından bir kuaternion oluşturur |
+| fromEulerAngle(eulerAngle) | Verilen Euler açısından quaternion oluşturur |
 
  **Parameters:**
 
@@ -267,7 +267,7 @@ Kuatör
 | eulerAngle | Vector3 | Radyan cinsinden Euler açısı |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---
@@ -277,7 +277,7 @@ Kuatör
 
 | Ad | Açıklama |
 | --- | --- |
-| toMatrix() | Kuatör tarafından sunulan dönüşümü dönüşüm matrisine dönüştür. |
+| toMatrix() | Quaternion tarafından temsil edilen dönüşümü dönüşüm matrisine dönüştürür. |
 
  **Result:**
 Matrix4
@@ -290,7 +290,7 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Kuatörün temsili dize olarak alınır |
+| toString() | Quaternion'ın dize temsilini alır. |
 
  **Result:**
 String
@@ -303,18 +303,18 @@ String
 
 | Ad | Açıklama |
 | --- | --- |
-| interpolate(t, from, to) | Bu kuatörü, from ve to arasındaki verilen kuatör argümanları için t değeri arasında ara değerle doldurur. |
+| interpolate(t, from, to) | Bu quaternion'ı, verilen quaternion argümanları arasında, from ve to arasında bir t değeri için ara değerle doldurur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| t | Number | Ara değerleme katsayısı. |
-| kaynak | Kuatör | Kaynak kuatör. |
-| hedef | Kuatör | Hedef kuatör. |
+| t | Sayı | Ara değerleme katsayısı. |
+| kaynak | Quaternion | Kaynak quaternion. |
+| hedef | Quaternion | Hedef quaternion. |
 
  **Result:**
-Kuatör
+Quaternion
 
 
 ---

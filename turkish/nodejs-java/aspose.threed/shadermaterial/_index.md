@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/shadermaterial/
 ---
 ## ShaderMaterial class
 
-Bir shader materyali, materyali harici bir renderleme motoru veya shader diliyle tanımlamayı sağlar.  ShaderMaterial, somut renderleme detaylarını tanımlamak için ShaderTechnique'i kullanır ve en uygun olanı nihai renderleme platformuna göre seçilir.  Örneğin, ShaderMaterial örneğiniz iki teknik içerebilir; biri HLSL, diğeri GLSL ile tanımlanmıştır.  Pencere dışı platformlarda HLSL yerine GLSL kullanılmalıdır.
+Bir gölgelendirici materyali, materyali harici bir render motoru veya gölgelendirici diliyle tanımlamayı sağlar.  ShaderMaterial, somut render detaylarını tanımlamak için ShaderTechnique'i kullanır ve en uygun olanı nihai render platformuna göre seçilir.  Örneğin, ShaderMaterial örneğiniz iki teknik içerebilir; biri HLSL, diğeri GLSL ile tanımlanmıştır.  Pencere dışı platformlarda HLSL yerine GLSL kullanılmalıdır.
 
 
 ## Yöntemler
@@ -49,7 +49,7 @@ Bir shader materyali, materyali harici bir renderleme motoru veya shader diliyle
 
 | Ad | Açıklama |
 | --- | --- |
-| getTechniques() | Bu materyalde tanımlanan tüm mevcut teknikleri alır. |
+| getTechniques() | Bu materyalde tanımlı tüm kullanılabilir teknikleri alır. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Bir shader materyali, materyali harici bir renderleme motoru veya shader diliyle
 
 | Ad | Açıklama |
 | --- | --- |
-| getTexture(slotName) | Belirtilen slot'tan dokuyu alır, bu bir materyalin özellik adı veya shader'ın parametre adı olabilir |
+| getTexture(slotName) | Belirtilen slottan dokuyu alır, bu bir materyalin özellik adı veya shader parametresi adı olabilir. |
 
  **Parameters:**
 
@@ -140,7 +140,7 @@ TextureBase
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Nesneyi dizeye biçimlendir |
+| toString() | Nesneyi dizeye dönüştürür |
 
  **Result:**
 String
@@ -159,7 +159,7 @@ String
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -172,7 +172,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -197,7 +197,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -216,7 +216,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -230,7 +230,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -239,7 +239,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -252,7 +252,7 @@ Property
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

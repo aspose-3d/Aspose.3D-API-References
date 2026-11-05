@@ -11,26 +11,26 @@ url: /tr/nodejs-java/aspose.threed/fmatrix4/
 Tüm bileşenleri float tipinde olan 4x4 matris
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| m00 | Bu m00. |
-| m01 | Bu m01. |
-| m02 | Bu m02. |
+| m00 | m00. |
+| m01 | m01. |
+| m02 | m02. |
 | m03 | Bu m03. |
 | m10 | Bu m10. |
 | m11 | Bu m11. |
-| m12 | m12. |
-| m13 | m13. |
-| m20 | m20. |
-| m21 | m21. |
-| m22 | m22. |
-| m23 | m23. |
-| m30 | m30. |
-| m31 | m31. |
-| m32 | m32. |
-| m33 | m33. |
+| m12 | Bu m12. |
+| m13 | Bu m13. |
+| m20 | Bu m20. |
+| m21 | Bu m21. |
+| m22 | Bu m22. |
+| m23 | Bu m23. |
+| m30 | Bu m30. |
+| m31 | Bu m31. |
+| m32 | Bu m32. |
+| m33 | Bu m33. |
 | IDENTITY | Kimlik matrisi |
 
 ## Yöntemler
@@ -58,22 +58,22 @@ Tüm bileşenleri float tipinde olan 4x4 matris
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| m0 | Number | null |
-| m0 | Number | null |
-| m0 | Number | null |
-| m0 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m1 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m2 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
-| m3 | Number | null |
+| m0 | Sayı | null |
+| m0 | Sayı | null |
+| m0 | Sayı | null |
+| m0 | Sayı | null |
+| m1 | Sayı | null |
+| m1 | Sayı | null |
+| m1 | Sayı | null |
+| m1 | Sayı | null |
+| m2 | Sayı | null |
+| m2 | Sayı | null |
+| m2 | Sayı | null |
+| m2 | Sayı | null |
+| m3 | Sayı | null |
+| m3 | Sayı | null |
+| m3 | Sayı | null |
+| m3 | Sayı | null |
 
  **Result:**
 
@@ -178,7 +178,7 @@ FMatrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| inverse() | Mevcut örneğin ters matrisini hesapla. |
+| inverse() | Mevcut örneğin ters matrisini hesaplar. |
 
  **Result:**
 FMatrix4

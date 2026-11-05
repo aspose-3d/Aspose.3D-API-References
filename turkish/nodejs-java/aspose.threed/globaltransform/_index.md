@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/globaltransform/
 ---
 ## GlobalTransform class
 
-Global dönüşüm, Transform'a benzer ancak son değerlendirilmiş dönüşümü temsil ederken değiştirilemez.  Global dönüşüm değerlendirilirken sağ el koordinat sistemi kullanılır  @hideconstructor
+Global dönüşüm, Transform'a benzer ancak son değerlendirilmiş dönüşümü temsil ederken değiştirilemezdir.  Global dönüşüm değerlendirilirken sağ el koordinat sistemi kullanılır  @hideconstructor
 
 
 ## Yöntemler
@@ -43,7 +43,7 @@ Global dönüşüm, Transform'a benzer ancak son değerlendirilmiş dönüşüm�
 
 | Ad | Açıklama |
 | --- | --- |
-| getEulerAngles() | Derece cinsinden ölçülen Euler açılarıyla temsil edilen dönüşü alır |
+| getEulerAngles() | Euler açılarıyla temsil edilen dönüşü alır, derece cinsinden ölçülür |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Global dönüşüm, Transform'a benzer ancak son değerlendirilmiş dönüşüm�
 
 | Ad | Açıklama |
 | --- | --- |
-| getRotation() | Kuatör içinde temsil edilen dönüşü alır. |
+| getRotation() | Quaternion ile temsil edilen dönüşü alır. |
 
  **Result:**
 

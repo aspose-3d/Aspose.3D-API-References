@@ -17,7 +17,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | A3dwSaveOptions yapıcı |
+| constructor() | A3dwSaveOptions yapıcısı |
 
  **Result:**
 
@@ -30,7 +30,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportMetaData() | Scene/Node ile ilişkili meta veriyi istemciye dışa aktar, varsayılan değer true |
+| getExportMetaData() | Scene/Node ile ilişkili meta verileri istemciye aktar. Varsayılan değer true'dur |
 
  **Result:**
 
@@ -43,7 +43,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportMetaData(value) | Scene/Node ile ilişkili meta veriyi istemciye dışa aktar, varsayılan değer true |
+| setExportMetaData(value) | Scene/Node ile ilişkili meta verileri istemciye aktar. Varsayılan değer true'dur |
 
  **Result:**
 
@@ -56,7 +56,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getMetaDataPrefix() | Bu özellik null değilse, yalnızca bu önek ile başlayan Scene/Node özellikleri dışa aktarılacak ve önek kaldırılacaktır. |
+| getMetaDataPrefix() | Bu özellik null değilse, yalnızca bu önek ile başlayan Scene/Node özellikleri dışa aktarılır ve önek kaldırılır. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setMetaDataPrefix(value) | Bu özellik null değilse, yalnızca bu önek ile başlayan Scene/Node özellikleri dışa aktarılacak ve önek kaldırılacaktır. |
+| setMetaDataPrefix(value) | Bu özellik null değilse, yalnızca bu önek ile başlayan Scene/Node özellikleri dışa aktarılır ve önek kaldırılır. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ A3DW formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

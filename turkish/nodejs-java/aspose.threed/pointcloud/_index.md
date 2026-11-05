@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/pointcloud/
 ---
 ## PointCloud class
 
-Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köşe öğelerini içerir.
+Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktaları ve köşe elemanlarını içerir.
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köş
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(name) | PointCloud'in yapıcı metodu |
+| constructor(name) | PointCloud yapıcı |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köş
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload() | PointCloud'in yapıcı metodu |
+| constructor_overload() | PointCloud yapıcı |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köş
 
 | Ad | Açıklama |
 | --- | --- |
-| getDeformers() | Bu geometriyle ilişkili tüm deformasyonları alır. Deformasyonlar. |
+| getDeformers() | Bu geometriye bağlı tüm deformörleri alır. Deformörler. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köş
 
 | Ad | Açıklama |
 | --- | --- |
-| getVertexElements() | Tüm vertex elemanlarını alır |
+| getVertexElements() | Tüm köşe öğelerini alır |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köş
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köş
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köş
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Nokta bulutu topoloji bilgisi içermez, yalnızca kontrol noktalarını ve köş
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -302,7 +302,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Geometri | null |
+|  | Geometry | null |
 
  **Result:**
 PointCloud
@@ -315,14 +315,14 @@ PointCloud
 
 | Ad | Açıklama |
 | --- | --- |
-| fromGeometry(g, density) | Bir geometri nesnesinden yeni bir nokta bulutu örneği oluştur. Yoğunluk, birim üçgen başına nokta sayısıdır (Birim üçgen, ağın en büyük yüzey alanına sahip üçgenidir). |
+| fromGeometry(g, density) | Bir geometri nesnesinden yeni bir nokta bulutu örneği oluştur. Yoğunluk, birim üçgen başına nokta sayısıdır (Birim üçgen, mesh'ten maksimum yüzey alanına sahip üçgendir). |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| g | Geometri | Mesh veya diğer geometri örneği |
-| yoğunluk | Number | Birim üçgen başına nokta sayısı |
+| g | Geometry | Mesh veya diğer geometri örneği |
+| density | Sayı | Birim üçgen başına nokta sayısı |
 
  **Result:**
 PointCloud
@@ -373,7 +373,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -392,7 +392,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| addElement(element) | Mevcut geometriye var olan bir vertex öğesi ekler |
+| addElement(element) | Mevcut geometriye mevcut bir vertex öğesi ekler |
 
  **Parameters:**
 
@@ -411,7 +411,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -491,7 +491,7 @@ VertexElementUV
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -504,7 +504,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -529,7 +529,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -548,7 +548,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -562,7 +562,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -571,7 +571,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/transformbuilder/
 ---
 ## TransformBuilder class
 
-TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için kullanılır.
+TransformBuilder, bir dizi dönüşümle dönüşüm matrisini oluşturmak için kullanılır.
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(initial, order) | Belirtilen başlangıç dönüşüm matrisine ve belirli bir birleştirme sırasına sahip bir TransformBuilder oluştur. |
+| constructor(initial, order) | Belirtilen başlangıç dönüşüm matrisine ve belirli bir birleştirme sırasına sahip bir TransformBuilder oluşturur |
 
  **Parameters:**
 
@@ -37,7 +37,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(order) | Başlangıç kimlik dönüşüm matrisine ve belirtilen birleştirme sırasına sahip bir TransformBuilder oluştur. |
+| constructor_overload(order) | Başlangıç kimlik dönüşüm matrisine ve belirtilen birleştirme sırasına sahip bir TransformBuilder oluşturur |
 
  **Parameters:**
 
@@ -56,7 +56,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| getMatrix() | Geçerli matris değerini alır veya ayarlar. |
+| getMatrix() | Geçerli matris değerini alır veya ayarlar |
 
  **Result:**
 
@@ -69,7 +69,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| setMatrix(value) | Geçerli matris değerini alır veya ayarlar. |
+| setMatrix(value) | Geçerli matris değerini alır veya ayarlar |
 
  **Result:**
 
@@ -108,7 +108,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| compose(m) | Argümanı iç matrisine ekle veya ön ekle. |
+| compose(m) | Argümanı iç matrise ekle veya başına ekle. |
 
  **Parameters:**
 
@@ -146,7 +146,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| prepend(m) | Yeni dönüşüm matrisini dönüşüm zincirine ekle. |
+| prepend(m) | Yeni dönüşüm matrisini dönüşüm zincirinin başına ekle. |
 
  **Parameters:**
 
@@ -192,7 +192,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
+|  | Sayı | null |
 
  **Result:**
 
@@ -211,9 +211,9 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Sayı | null |
+|  | Sayı | null |
+|  | Sayı | null |
 
  **Result:**
 
@@ -251,8 +251,8 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| açı | Number | Derece cinsinden döndürme açısı. |
-| eksen | Vector3 | Döndürülecek eksen. |
+| angle | Sayı | Derece cinsinden döndürme açısı. |
+| axis | Vector3 | Döndürülecek eksen. |
 
  **Result:**
 
@@ -271,8 +271,8 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| açı | Number | Radyan cinsinden döndürme açısı. |
-| eksen | Vector3 | Döndürülecek eksen. |
+| angle | Sayı | Radyan cinsinden döndürme açısı. |
+| axis | Vector3 | Döndürülecek eksen. |
 
  **Result:**
 
@@ -291,7 +291,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Kuatör | null |
+|  | Quaternion | null |
 
  **Result:**
 
@@ -310,9 +310,9 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| deg | Number | null |
-| deg | Number | null |
-| deg | Number | null |
+| derece | Sayı | null |
+| derece | Sayı | null |
+| derece | Sayı | null |
 
  **Result:**
 
@@ -325,15 +325,15 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| rotateEulerRadian(x, y, z) | Radyan cinsinden Euler açılarıyla bir döndürmeyi zincirle. |
+| rotateEulerRadian(x, y, z) | Euler açılarıyla radyan cinsinden bir dönüşümü zincirle |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Sayı | null |
+|  | Sayı | null |
+|  | Sayı | null |
 
  **Result:**
 
@@ -346,7 +346,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| rotateEulerRadian(r) | Radyan cinsinden Euler açılarıyla bir döndürmeyi zincirle. |
+| rotateEulerRadian(r) | Euler açılarıyla radyan cinsinden bir dönüşümü zincirle |
 
  **Parameters:**
 
@@ -365,15 +365,15 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| translate(tx, ty, tz) | Bir çeviri dönüşümünü zincirle. |
+| translate(tx, ty, tz) | Bir çeviri dönüşümünü zincirle |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| t | Number | null |
-| t | Number | null |
-| t | Number | null |
+| t | Sayı | null |
+| t | Sayı | null |
+| t | Sayı | null |
 
  **Result:**
 
@@ -386,7 +386,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| translate(v) | Bir çeviri dönüşümünü zincirle. |
+| translate(v) | Bir çeviri dönüşümünü zincirle |
 
  **Parameters:**
 
@@ -405,7 +405,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| reset() | Dönüşümü birim matrisine sıfırla. |
+| reset() | Dönüşümü birim matrisine sıfırla |
 
  **Result:**
 
@@ -418,13 +418,13 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| rotateDegree(rot, order) | Belirtilen sırayla döndürmeyi ekle |
+| rotateDegree(rot, order) | Belirtilen sırayla dönüşüm ekle |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| rot | Vector3 | Derece cinsinden dönüş |
+| rot | Vector3 | Derece cinsinden dönüşüm |
 | order | RotationOrder | RotationOrder |
 
  **Result:**
@@ -438,7 +438,7 @@ TransformBuilder, bir dizi dönüşümle transform matrisini oluşturmak için k
 
 | Ad | Açıklama |
 | --- | --- |
-| rotateRadian(rot, order) | Belirtilen sırayla döndürmeyi ekle |
+| rotateRadian(rot, order) | Belirtilen sırayla dönüşüm ekle |
 
  **Parameters:**
 

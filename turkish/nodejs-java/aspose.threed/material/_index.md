@@ -8,18 +8,18 @@ url: /tr/nodejs-java/aspose.threed/material/
 ---
 ## Material class
 
-Material, geometrinin görsel görünümü için gerekli parametreleri tanımlar.  Aspose.3D, LambertMaterial, PhongMaterial ve ShaderMaterial için gölgelendirme modeli sağlar  @hideconstructor
+Malzeme, geometrinin görsel görünümü için gerekli parametreleri tanımlar.  Aspose.3D, LambertMaterial, PhongMaterial ve ShaderMaterial için gölgelendirme modeli sağlar  @hideconstructor
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
 | MAP_SPECULAR | setTexture(java.lang.String, com.aspose.threed.TextureBase) içinde speküler doku eşlemesi atamak için kullanılır. |
 | MAP_DIFFUSE | setTexture(java.lang.String, com.aspose.threed.TextureBase) içinde difüz doku eşlemesi atamak için kullanılır. |
-| MAP_EMISSIVE | setTexture(java.lang.String, com.aspose.threed.TextureBase) içinde emisyon doku eşlemesi atamak için kullanılır. |
-| MAP_AMBIENT | setTexture(java.lang.String, com.aspose.threed.TextureBase) içinde ortam doku eşlemesi atamak için kullanılır. |
-| MAP_NORMAL | setTexture(java.lang.String, com.aspose.threed.TextureBase) içinde normal doku eşlemesi atamak için kullanılır. |
+| MAP_EMISSIVE | setTexture(java.lang.String, com.aspose.threed.TextureBase) içinde emissive doku eşlemesi atamak için kullanılır. |
+| MAP_AMBIENT | setTexture(java.lang.String, com.aspose.threed.TextureBase) içinde ortam dokusu eşlemesi atamak için kullanılır. |
+| MAP_NORMAL | setTexture(java.lang.String, com.aspose.threed.TextureBase) içinde normal dokusu eşlemesi atamak için kullanılır. |
 
 ## Yöntemler
 
@@ -66,7 +66,7 @@ Material, geometrinin görsel görünümü için gerekli parametreleri tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| getTexture(slotName) | Belirtilen slot'tan dokuyu alır, bu bir materyalin özellik adı veya shader'ın parametre adı olabilir |
+| getTexture(slotName) | Belirtilen slottan dokuyu alır, bu bir materyalin özellik adı veya shader parametresi adı olabilir. |
 
  **Parameters:**
 
@@ -105,7 +105,7 @@ TextureBase
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Nesneyi dizeye biçimlendir |
+| toString() | Nesneyi dizeye dönüştürür |
 
  **Result:**
 String
@@ -124,7 +124,7 @@ String
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -137,7 +137,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -162,7 +162,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -181,7 +181,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -195,7 +195,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -204,7 +204,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -217,7 +217,7 @@ Property
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

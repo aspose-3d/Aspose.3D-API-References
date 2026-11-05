@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/bone/
 ---
 ## Bone class
 
-Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontrol noktası için karışım ağırlığını belirler.  Bone nesnesi doğrudan kullanılamaz, bir SkinDeformer örneği geometriyi deform etmek için kullanılır ve SkinDeformer bir dizi kemik ile birlikte gelir, her kemik bir düğüme bağlanır.  NOT: Bir geometrinin kontrol noktası birden fazla Bone ile ilişkilendirilebilir.
+Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontrol noktası için karışım ağırlığını belirler.  Bone nesnesi doğrudan kullanılamaz, bir SkinDeformer örneği geometrinin deformasyonu için kullanılır ve SkinDeformer bir dizi kemikle birlikte gelir, her kemik bir düğüme bağlanır.  NOT: Bir geometrinin kontrol noktası birden fazla Bone'a bağlanabilir.
 
 
 ## Yöntemler
@@ -49,7 +49,7 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 
 | Ad | Açıklama |
 | --- | --- |
-| getWeightCount() | Ağırlık sayısını alır, bu setWeight(int, double) tarafından otomatik olarak genişletilir. |
+| getWeightCount() | Ağırlık sayısını alır, bu setWeight(int, double) ile otomatik olarak genişletilir. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 
 | Ad | Açıklama |
 | --- | --- |
-| getTransform() | Bone'u içeren düğümün dönüşüm matrisini alır veya ayarlar. |
+| getTransform() | Kemik içeren düğümün dönüşüm matrisini alır veya ayarlar. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 
 | Ad | Açıklama |
 | --- | --- |
-| setTransform(value) | Bone'u içeren düğümün dönüşüm matrisini alır veya ayarlar. |
+| setTransform(value) | Kemik içeren düğümün dönüşüm matrisini alır veya ayarlar. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 
 | Ad | Açıklama |
 | --- | --- |
-| getBoneTransform() | Bone'un dönüşüm matrisini alır veya ayarlar. |
+| getBoneTransform() | Kemiğin dönüşüm matrisini alır veya ayarlar. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 
 | Ad | Açıklama |
 | --- | --- |
-| setBoneTransform(value) | Bone'un dönüşüm matrisini alır veya ayarlar. |
+| setBoneTransform(value) | Kemiğin dönüşüm matrisini alır veya ayarlar. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 
 | Ad | Açıklama |
 | --- | --- |
-| getNode() | Düğümü alır veya ayarlar. bone node, derinin bağlandığı bone'dur, SkinDeformer bone node'u kontrol noktalarının yer değiştirmesini etkilemek için kullanır. bone node genellikle bir Skeleton'a sahiptir, ancak bu zorunlu değildir. Ekli Skeleton genellikle DCC yazılımı tarafından kullanıcıya iskelet gösterimi için kullanılır. |
+| getNode() | Düğümü alır veya ayarlar. Bone node, derinin bağlandığı kemiktir, SkinDeformer bone node'u kontrol noktalarının yer değiştirmesini etkilemek için kullanır. Bone node genellikle bir Skeleton ile ilişkilidir, ancak bu zorunlu değildir. Ekli Skeleton genellikle DCC yazılımı tarafından kullanıcıya iskelet göstermek için kullanılır. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 
 | Ad | Açıklama |
 | --- | --- |
-| setNode(value) | Düğümü alır veya ayarlar. bone node, derinin bağlandığı bone'dur, SkinDeformer bone node'u kontrol noktalarının yer değiştirmesini etkilemek için kullanır. bone node genellikle bir Skeleton'a sahiptir, ancak bu zorunlu değildir. Ekli Skeleton genellikle DCC yazılımı tarafından kullanıcıya iskelet gösterimi için kullanılır. |
+| setNode(value) | Düğümü alır veya ayarlar. Bone node, derinin bağlandığı kemiktir, SkinDeformer bone node'u kontrol noktalarının yer değiştirmesini etkilemek için kullanır. Bone node genellikle bir Skeleton ile ilişkilidir, ancak bu zorunlu değildir. Ekli Skeleton genellikle DCC yazılımı tarafından kullanıcıya iskelet göstermek için kullanılır. |
 
  **Result:**
 
@@ -205,16 +205,16 @@ Bir kemik, geometrinin kontrol noktasının alt kümesini tanımlar ve her kontr
 
 | Ad | Açıklama |
 | --- | --- |
-| getWeight(index) | Belirtilen indeksle kontrol noktasının ağırlığını alır |
+| getWeight(index) | Belirtilen dizine göre kontrol noktasının ağırlığını alır |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| indeks | Number | Kontrol noktasının indeksi |
+| indeks | Sayı | Kontrol noktasının dizini |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -224,17 +224,17 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| setWeight(index, weight) | Belirtilen indeksle kontrol noktasının ağırlığını ayarlar |
+| setWeight(index, weight) | Belirtilen dizine göre kontrol noktasının ağırlığını ayarlar |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| indeks | Number | Kontrol noktasının indeksi |
-| ağırlık | Number | Yeni ağırlık |
+| indeks | Sayı | Kontrol noktasının dizini |
+| ağırlık | Sayı | Yeni ağırlık |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -250,7 +250,7 @@ Number
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -263,7 +263,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -288,7 +288,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -307,7 +307,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -321,7 +321,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -330,7 +330,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

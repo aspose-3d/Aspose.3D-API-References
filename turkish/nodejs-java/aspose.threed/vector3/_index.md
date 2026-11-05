@@ -11,14 +11,14 @@ url: /tr/nodejs-java/aspose.threed/vector3/
 Üç bileşenli bir vektör.
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
 | x | x bileşeni. |
 | y | y bileşeni. |
 | z | z bileşeni. |
-| ORIGIN | Orijin konumunu alır. Orijin. |
+| ORIGIN | Köken konumunu alır. Köken. |
 | UNIT_SCALE | Birim ölçek vektörünü alır. |
 | X_AXIS | X eksenini alır. X ekseni. |
 | Y_AXIS | Y eksenini alır. Y ekseni. |
@@ -49,9 +49,9 @@ url: /tr/nodejs-java/aspose.threed/vector3/
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| x | Number | x koordinatı. |
-| y | Number | y koordinatı. |
-| z | Number | z koordinatı. |
+| x | Sayı | x koordinatı. |
+| y | Sayı | y koordinatı. |
+| z | Sayı | z koordinatı. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ url: /tr/nodejs-java/aspose.threed/vector3/
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| v | Number | V. |
+| v | Sayı | V. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ url: /tr/nodejs-java/aspose.threed/vector3/
 
 | Ad | Açıklama |
 | --- | --- |
-| getLength() | Bu vektörün uzunluğunu alır. Uzunluk. |
+| getLength() | Bu vektörün uzunluğunu alır. length. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ url: /tr/nodejs-java/aspose.threed/vector3/
 
 | Ad | Açıklama |
 | --- | --- |
-| equals(obj) | İki vector3 eşit mi kontrol et |
+| equals(obj) | İki vector3 eşit mi kontrol eder |
 
  **Parameters:**
 
@@ -166,10 +166,10 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| hashCode() | Vector3'ün hash kodunu alır. |
+| hashCode() | Vector3'in hash kodunu alır. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -179,7 +179,7 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| dot(rhs) | İki vektörün noktasal çarpımını alır. |
+| dot(rhs) | İki vektörün nokta çarpımını alır. |
 
  **Parameters:**
 
@@ -188,7 +188,7 @@ Number
 | rhs | Vector3 | Sağ taraf değeri. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -198,7 +198,7 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| normalize() | Bu örneği normalleştirir. |
+| normalize() | Bu örneği normalize eder. |
 
  **Result:**
 Vector3
@@ -211,7 +211,7 @@ Vector3
 
 | Ad | Açıklama |
 | --- | --- |
-| sin() | Her bileşende sinüs hesaplar. |
+| sin() | Her bileşende sinüsü hesaplar. |
 
  **Result:**
 Vector3
@@ -224,7 +224,7 @@ Vector3
 
 | Ad | Açıklama |
 | --- | --- |
-| cos() | Her bileşende kosinüs hesaplar. |
+| cos() | Her bileşende kosinüsü hesaplar. |
 
  **Result:**
 Vector3
@@ -256,15 +256,15 @@ Vector3
 
 | Ad | Açıklama |
 | --- | --- |
-| set(newX, newY, newZ) | x/y/z bileşenlerini tek bir çağrıda ayarlar. |
+| set(newX, newY, newZ) | x/y/z bileşenini tek bir çağrıda ayarlar. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| newX | Number | x bileşeni. |
-| newY | Number | y bileşeni. |
-| newZ | Number | z bileşeni. |
+| newX | Sayı | x bileşeni. |
+| newY | Sayı | y bileşeni. |
+| newZ | Sayı | z bileşeni. |
 
  **Result:**
 Vector3
@@ -290,7 +290,7 @@ String
 
 | Ad | Açıklama |
 | --- | --- |
-| angleBetween(dir, up) | İki yön arasındaki iç açıyı hesaplayın. İki yön, normalize edilmemiş vektörler olabilir. |
+| angleBetween(dir, up) | İki yön arasındaki iç açıyı hesaplayın. İki yön, normlandırılmamış vektörler olabilir. |
 
  **Parameters:**
 
@@ -300,7 +300,7 @@ String
 | up | Vector3 | İki yönün ortak düzlemindeki yukarı vektörü |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -310,7 +310,7 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| angleBetween(dir) | İki yön arasındaki iç açıyı hesaplayın. İki yön, normalize edilmemiş vektörler olabilir. |
+| angleBetween(dir) | İki yön arasındaki iç açıyı hesaplayın. İki yön, normlandırılmamış vektörler olabilir. |
 
  **Parameters:**
 
@@ -319,7 +319,7 @@ Number
 | dir | Vector3 | Karşılaştırılacak yön vektörü |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -329,7 +329,7 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| compareTo(other) | Geçerli vektörü başka bir örnek ile karşılaştırın. |
+| compareTo(other) | Geçerli vektörü başka bir örnekle karşılaştır. |
 
  **Parameters:**
 
@@ -338,7 +338,7 @@ Number
 | othe | Vector3 | null |
 
  **Result:**
-Number
+Sayı
 
 
 ---

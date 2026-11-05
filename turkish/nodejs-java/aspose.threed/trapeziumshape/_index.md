@@ -17,7 +17,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | TrapeziumShape'ın yapıcı |
+| constructor() | TrapeziumShape yapıcısı |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| getBottomXDim() | X ekseni boyunca ölçülen alt çizginin uzunluğunu alır veya ayarlar |
+| getBottomXDim() | X ekseni boyunca ölçülen alt çizginin uzunluğunu alır veya ayarlar. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| setBottomXDim(value) | X ekseni boyunca ölçülen alt çizginin uzunluğunu alır veya ayarlar |
+| setBottomXDim(value) | X ekseni boyunca ölçülen alt çizginin uzunluğunu alır veya ayarlar. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| getTopXDim() | X ekseni boyunca ölçülen üst satırın kapsamını alır veya ayarlar. |
+| getTopXDim() | X ekseni boyunca ölçülen üst çizginin uzunluğunu alır veya ayarlar. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| setTopXDim(value) | X ekseni boyunca ölçülen üst satırın kapsamını alır veya ayarlar. |
+| setTopXDim(value) | X ekseni boyunca ölçülen üst çizginin uzunluğunu alır veya ayarlar. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| getYDim() | Y ekseni boyunca ölçülen üst ve alt satırlar arasındaki mesafeyi alır veya ayarlar. |
+| getYDim() | Y ekseni boyunca ölçülen üst ve alt çizgiler arasındaki mesafeyi alır veya ayarlar. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| setYDim(value) | Y ekseni boyunca ölçülen üst ve alt satırlar arasındaki mesafeyi alır veya ayarlar. |
+| setYDim(value) | Y ekseni boyunca ölçülen üst ve alt çizgiler arasındaki mesafeyi alır veya ayarlar. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| getTopXOffset() | Üst satırın başlangıcından alt satıra olan offseti alır veya ayarlar. |
+| getTopXOffset() | Üst çizginin başlangıcından alt çizgiye olan offseti alır veya ayarlar. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| setTopXOffset(value) | Üst satırın başlangıcından alt satıra olan offseti alır veya ayarlar. |
+| setTopXOffset(value) | Üst çizginin başlangıcından alt çizgiye olan offseti alır veya ayarlar. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Parametrelerle tanımlanan, IFC uyumlu Trapezium şekli.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExtent() | X ve y boyutundaki kapsamı alır. |
+| getExtent() | x ve y boyutundaki kapsamı alır. |
 
  **Result:**
 Vector2
@@ -264,7 +264,7 @@ Vector2
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -296,7 +296,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -309,7 +309,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -334,7 +334,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -353,7 +353,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -367,7 +367,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -376,7 +376,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/line/
 ---
 ## Line class
 
-Bir çoklu çizgi, Geometry.ControlPoints ile tanımlanan bir dizi nokta tarafından tanımlanan ve Segments ile bağlanan bir yoldur, bu da bir dizi bağlı çizgi segmenti olabileceği anlamına gelir. Çizgi genellikle doğrusal bir nesnedir, bu da bir eğriyi temsil etmek için kullanılamayacağı anlamına gelir; bir eğriyi temsil etmek için NurbsCurve kullanılır.
+Bir çoklu çizgi, Geometry.ControlPoints ile tanımlanan bir dizi nokta tarafından belirlenen ve Segmentler ile bağlanan bir yoldur, bu da bir dizi bağlı çizgi segmenti olabileceği anlamına gelir. Çizgi genellikle doğrusal bir nesnedir, bu da bir eğriyi temsil etmek için kullanılamayacağı anlamına gelir; bir eğriyi temsil etmek için NurbsCurve kullanılır.
 
 
 ## Yöntemler
@@ -88,7 +88,7 @@ Bir çoklu çizgi, Geometry.ControlPoints ile tanımlanan bir dizi nokta tarafı
 
 | Ad | Açıklama |
 | --- | --- |
-| getSegments() | Doğrunun segmentlerini alır |
+| getSegments() | Satırın segmentlerini alır |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Bir çoklu çizgi, Geometry.ControlPoints ile tanımlanan bir dizi nokta tarafı
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Bir çoklu çizgi, Geometry.ControlPoints ile tanımlanan bir dizi nokta tarafı
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Bir çoklu çizgi, Geometry.ControlPoints ile tanımlanan bir dizi nokta tarafı
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -250,7 +250,7 @@ Bir çoklu çizgi, Geometry.ControlPoints ile tanımlanan bir dizi nokta tarafı
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| point | Vector3[] | null |
+| nokta | Vector3[] | null |
 
  **Result:**
 Line
@@ -263,7 +263,7 @@ Line
 
 | Ad | Açıklama |
 | --- | --- |
-| makeDefaultIndices() | 0,1,2,3....Geometry.ControlPoints.Length-1 dizisini Segments'e oluşturun, böylece ControlPoints tek bir satır olarak kullanılabilir. |
+| makeDefaultIndices() | 0,1,2,3....Geometry.ControlPoints.Length-1 dizisini Segments'e oluşturun, böylece ControlPoints tek bir satır olarak kullanılabilir |
 
  **Result:**
 Line
@@ -276,7 +276,7 @@ Line
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -308,7 +308,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -321,7 +321,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -346,7 +346,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -365,7 +365,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -379,7 +379,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -388,7 +388,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/texturecodec/
 ---
 ## TextureCodec class
 
-Dokular için kodlayıcı ve kod çözücüleri yönetmek üzere sınıf.
+Dokular için kodlayıcı ve kod çözücülerini yönetmek üzere sınıf.
 
 
 ## Yöntemler
@@ -43,13 +43,13 @@ String[]
 
 | Ad | Açıklama |
 | --- | --- |
-| registerCodec(codec) | Doku kodlayıcıları ve kod çözücülerinin bir setini kaydeder |
+| registerCodec(codec) | Bir dizi doku kodlayıcı ve çözücü kaydeder |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| kod | ITextureCodec | null |
+| code | ITextureCodec | null |
 
  **Result:**
 String[]

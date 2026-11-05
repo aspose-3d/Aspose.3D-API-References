@@ -17,7 +17,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(contentType) | Bir RvmLoadOptions örneği oluştur. |
+| constructor(contentType) | Bir RvmLoadOptions örneği oluşturur |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload() | Bir RvmLoadOptions örneği oluştur. |
+| constructor_overload() | Bir RvmLoadOptions örneği oluşturur |
 
  **Result:**
 
@@ -49,7 +49,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getGenerateMaterials() | RVM dosyası içinde renk tablosu dışa aktarılmamışsa sahnedeki her nesne için rastgele renklerle malzemeler oluşturur. Varsayılan değer true'tur. |
+| getGenerateMaterials() | RVM dosyasında renk tablosu dışa aktarılmamışsa sahnedeki her nesne için rastgele renklerle malzemeler oluşturur. Varsayılan değer true'tir. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setGenerateMaterials(value) | RVM dosyası içinde renk tablosu dışa aktarılmamışsa sahnedeki her nesne için rastgele renklerle malzemeler oluşturur. Varsayılan değer true'tur. |
+| setGenerateMaterials(value) | RVM dosyasında renk tablosu dışa aktarılmamışsa sahnedeki her nesne için rastgele renklerle malzemeler oluşturur. Varsayılan değer true'tir. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getRectangularTorusSegments() | Dikdörtgen torus'un radyal segment sayısını alır veya ayarlar, varsayılan değer 20'dir. |
+| getRectangularTorusSegments() | Dikdörtgen torusun radyal segment sayısını alır veya ayarlar, varsayılan değer 20'dir. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setRectangularTorusSegments(value) | Dikdörtgen torus'un radyal segment sayısını alır veya ayarlar, varsayılan değer 20'dir. |
+| setRectangularTorusSegments(value) | Dikdörtgen torusun radyal segment sayısını alır veya ayarlar, varsayılan değer 20'dir. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getAttributePrefix() | Harici öznitelik dosyalarında tanımlanan özniteliklerin önekini alır veya ayarlar, Önek isim çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:" |
+| getAttributePrefix() | Harici öznitelik dosyalarında tanımlanan özniteliklerin önekini alır veya ayarlar. Önek, ad çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:" |
 
  **Result:**
 
@@ -244,7 +244,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setAttributePrefix(value) | Harici öznitelik dosyalarında tanımlanan özniteliklerin önekini alır veya ayarlar, Önek isim çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:" |
+| setAttributePrefix(value) | Harici öznitelik dosyalarında tanımlanan özniteliklerin önekini alır veya ayarlar. Önek, ad çakışmalarını önlemek için kullanılır, varsayılan değer "rvm:" |
 
  **Result:**
 
@@ -257,7 +257,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getLookupAttributes() | Harici öznitelik listesi dosyasından(.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini alır veya ayarlar, varsayılan değer doğrudur. |
+| getLookupAttributes() | Harici öznitelik listesi dosyasından (.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini alır veya ayarlar, varsayılan değer doğrudur. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setLookupAttributes(value) | Harici öznitelik listesi dosyasından(.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini alır veya ayarlar, varsayılan değer doğrudur. |
+| setLookupAttributes(value) | Harici öznitelik listesi dosyasından (.att/.attrib/.txt) özniteliklerin yüklenip yüklenmeyeceğini alır veya ayarlar, varsayılan değer doğrudur. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -348,7 +348,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -361,7 +361,7 @@ AVEVA Plant Design Management System'in RVM dosyası için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/objsaveoptions/
 ---
 ## ObjSaveOptions class
 
-Wavefront obj dosyası için kaydetme seçenekleri
+wavefront obj dosyası için kaydetme seçenekleri
 
 
 ## Yöntemler
@@ -56,7 +56,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getPointCloud() | İhracatçının sahneyi nokta bulutu (üst yapı olmadan) olarak dışa aktarıp aktarmayacağını belirten bayrağı alır veya ayarlar, varsayılan değer false'dur |
+| getPointCloud() | İhracatçının sahneyi nokta bulutu (topolojik yapı olmadan) olarak dışa aktarımını belirten bayrağı alır veya ayarlar, varsayılan değer false'tur |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setPointCloud(value) | İhracatçının sahneyi nokta bulutu (üst yapı olmadan) olarak dışa aktarıp aktarmayacağını belirten bayrağı alır veya ayarlar, varsayılan değer false'dur |
+| setPointCloud(value) | İhracatçının sahneyi nokta bulutu (topolojik yapı olmadan) olarak dışa aktarımını belirten bayrağı alır veya ayarlar, varsayılan değer false'tur |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEnableMaterials() | Her nesne için malzemelerin içe/dışa aktarılıp aktarılmayacağını alır veya ayarlar |
+| getEnableMaterials() | Her nesne için malzemelerin içe/dışa aktarımının olup olmayacağını alır veya ayarlar |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setEnableMaterials(value) | Her nesne için malzemelerin içe/dışa aktarılıp aktarılmayacağını alır veya ayarlar |
+| setEnableMaterials(value) | Her nesne için malzemelerin içe/dışa aktarımının olup olmayacağını alır veya ayarlar |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipCoordinateSystem() | İçe/Dışa aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar. |
+| getFlipCoordinateSystem() | İçe/dışa aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipCoordinateSystem(value) | İçe/Dışa aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar. |
+| setFlipCoordinateSystem(value) | İçe/dışa aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Wavefront obj dosyası için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

@@ -17,7 +17,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | PlySaveOptions yapıcı |
+| constructor() | PlySaveOptions sınıfının yapıcısı |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(contentType) | PlySaveOptions yapıcı |
+| constructor_overload(contentType) | PlySaveOptions sınıfının yapıcısı |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getPointCloud() | Sahneyi nokta bulutu olarak dışa aktar, varsayılan değer false. |
+| getPointCloud() | Sahneyi nokta bulutu olarak dışa aktar, varsayılan değer false'tur. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setPointCloud(value) | Sahneyi nokta bulutu olarak dışa aktar, varsayılan değer false. |
+| setPointCloud(value) | Sahneyi nokta bulutu olarak dışa aktar, varsayılan değer false'tur. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipCoordinate() | Sahneyi kaydederken koordinatı ters çevir, varsayılan değer true |
+| getFlipCoordinate() | Sahneyi kaydederken koordinatı ters çevir, varsayılan değer true'tur. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipCoordinate(value) | Sahneyi kaydederken koordinatı ters çevir, varsayılan değer true |
+| setFlipCoordinate(value) | Sahneyi kaydederken koordinatı ters çevir, varsayılan değer true'tur. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getPositionComponents() | Pozisyon verisi için bileşen adları, varsayılan değer ("x", "y", "z") |
+| getPositionComponents() | Pozisyon verileri için bileşen adları, varsayılan değer ("x", "y", "z") |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getNormalComponents() | Normal verisi için bileşen adları, varsayılan değer ("nx", "ny", "nz") |
+| getNormalComponents() | Normal verileri için bileşen adları, varsayılan değer ("nx", "ny", "nz") |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getTextureCoordinateComponents() | Doku koordinat verileri için bileşen adları, varsayılan değer ("u", "v") |
+| getTextureCoordinateComponents() | Doku koordinatı verileri için bileşen adları, varsayılan değer ("u", "v") |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Sahneyi PLY dosyası olarak dışa aktarmak için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

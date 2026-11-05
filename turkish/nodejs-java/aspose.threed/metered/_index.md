@@ -30,13 +30,13 @@ url: /tr/nodejs-java/aspose.threed/metered/
 
 | Ad | Açıklama |
 | --- | --- |
-| setMeteredKey(publicKey, privateKey) | Ölçülen public ve private anahtarı ayarlar. Ölçülen lisans satın alırsanız, uygulamayı başlattığınızda bu API çağrılmalıdır, genellikle bu yeterlidir. Ancak tüketim verilerini yükleme sürekli başarısız olur ve 24 saati aşarsa, lisans değerlendirme durumuna geçer; bu durumu önlemek için lisans durumunu düzenli olarak kontrol etmelisiniz, eğer değerlendirme durumundaysa, bu API'yi tekrar çağırın. |
+| setMeteredKey(publicKey, privateKey) | Ölçülen genel ve özel anahtarı ayarlar. Ölçülen lisansı satın alırsanız, uygulamayı başlattığınızda bu API çağrılmalıdır, genellikle bu yeterlidir. Ancak, tüketim verilerini yüklemekte sürekli başarısız olur ve 24 saat aşarsa, lisans değerlendirme durumuna ayarlanır; böyle bir durumu önlemek için lisans durumunu düzenli olarak kontrol etmelisiniz, eğer değerlendirme durumundaysa, bu API'yi tekrar çağırın. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| publicKey | String | public anahtar |
+| publicKey | String | genel anahtar |
 | privateKey | String | özel anahtar |
 
  **Result:**

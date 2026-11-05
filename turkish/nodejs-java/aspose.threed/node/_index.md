@@ -1,5 +1,5 @@
 ---
-title: "Düğüm"
+title: "Node"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/node/
 ---
 ## Node class
 
-Scene graph içinde bir öğeyi temsil eder. Scene graph, Node nesnelerinden oluşan bir ağaçtır. Ağaç yönetim hizmetleri bu sınıfta kendi içinde bulunur. Aspose.3D SDK'nın oluşturulan scene graph'ın geçerliliğini test etmediğini unutmayın. Çağıranın sorumluluğu, bir düğüm hiyerarşisinde döngüsel grafikler oluşturmadığından emin olmaktır. Ağaç yönetiminin yanı sıra, bu sınıf nesnenin sahnedeki konumunu tanımlamak için gereken tüm özellikleri tanımlar. Bu bilgiler temel Translation, Rotation ve Scaling özelliklerini ve pivots, limits ve IK eklemleri gibi daha gelişmiş seçenekleri, örneğin stiffness ve dampening gibi nitelikleri içerir. İlk oluşturulduğunda, Node nesnesi "empty" (yani: yalnızca konum bilgisi içeren ve herhangi bir grafik temsiline sahip olmayan bir nesnedir). Bu durumda, düğüm ağacı yapısında ebeveynleri temsil etmek için kullanılabilir ancak çok daha fazlası için değil. Bu tür nesnelerin normal kullanımı, düğümü özelleştirecek bir entity eklemektir ("Entity" bölümüne bakınız). Entity, kendisi bir nesnedir ve Node'a bağlanır. Bu aynı zamanda aynı entity'nin birden fazla düğüm arasında paylaşılabileceği anlamına gelir. Camera, Light, Mesh vb. hepsi entity'dir ve hepsi temel sınıf Entity'den türetilir.
+Sahne grafiğinde bir öğeyi temsil eder.  Sahne grafiği, Node nesnelerinden oluşan bir ağaçtır.  Ağaç yönetim hizmetleri bu sınıfta kendi içinde bulunur.  Not: Aspose.3D SDK, oluşturulan sahne grafiğinin geçerliliğini test etmez.  Çağıranın sorumluluğu, bir düğüm hiyerarşisinde döngüsel grafikler oluşturmadığından emin olmaktır.  Ağaç yönetiminin yanı sıra, bu sınıf nesnenin sahnedeki konumunu tanımlamak için gereken tüm özellikleri tanımlar.  Bu bilgiler temel Çeviri (Translation), Dönme (Rotation) ve Ölçekleme (Scaling) özelliklerini ve pivotalar, sınırlar ve IK eklemleri gibi daha gelişmiş seçenekleri, örneğin sertlik ve sönümleme gibi nitelikleri içerir.  İlk oluşturulduğunda, Node nesnesi "empty" (yani: yalnızca konum bilgisi içeren ve herhangi bir grafik temsili olmayan bir nesnedir) durumundadır.  Bu durumda, düğüm ağacı yapısında ebeveynleri temsil etmek için kullanılabilir ancak daha fazlası için uygun değildir.  Bu tür nesnelerin normal kullanımı, düğümü özelleştirecek bir varlık eklemektir ("Entity" bölümüne bakınız).  Varlık, kendisi bir nesnedir ve Node'a bağlanır.  Bu aynı zamanda aynı varlığın birden fazla düğüm arasında paylaşılabileceği anlamına gelir.  Kamera, Işık, Mesh vb. hepsi varlıklardır ve hepsi temel sınıf Entity'den türetilir.
 
 
 ## Yöntemler
@@ -95,7 +95,7 @@ Scene graph içinde bir öğeyi temsil eder. Scene graph, Node nesnelerinden olu
 
 | Ad | Açıklama |
 | --- | --- |
-| getVisible() | Düğümü göstermek için alır veya ayarlar |
+| getVisible() | Düğümü göstermek için alır veya ayarlar. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Scene graph içinde bir öğeyi temsil eder. Scene graph, Node nesnelerinden olu
 
 | Ad | Açıklama |
 | --- | --- |
-| setVisible(value) | Düğümü göstermek için alır veya ayarlar |
+| setVisible(value) | Düğümü göstermek için alır veya ayarlar. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Scene graph içinde bir öğeyi temsil eder. Scene graph, Node nesnelerinden olu
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Dışa aktarım sırasında bu düğümü ve tüm çocuk düğümleri/varlıkları dışlamayı alır veya ayarlar. |
+| getExcluded() | Bu düğümü ve tüm çocuk düğüm/varlıkları dışa aktarma sırasında hariç tutup tutmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Scene graph içinde bir öğeyi temsil eder. Scene graph, Node nesnelerinden olu
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Dışa aktarım sırasında bu düğümü ve tüm çocuk düğümleri/varlıkları dışlamayı alır veya ayarlar. |
+| setExcluded(value) | Bu düğümü ve tüm çocuk düğüm/varlıkları dışa aktarma sırasında hariç tutup tutmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Scene graph içinde bir öğeyi temsil eder. Scene graph, Node nesnelerinden olu
 
 | Ad | Açıklama |
 | --- | --- |
-| getGlobalTransform() | Küresel dönüşümü alır. Küresel dönüşüm. |
+| getGlobalTransform() | Genel dönüşümü alır. Genel dönüşüm. |
 
  **Result:**
 
@@ -358,7 +358,7 @@ Scene graph içinde bir öğeyi temsil eder. Scene graph, Node nesnelerinden olu
 | createChildNode() | Bir alt düğüm oluşturur |
 
  **Result:**
-Düğüm
+Node
 
 
 ---
@@ -368,16 +368,16 @@ Düğüm
 
 | Ad | Açıklama |
 | --- | --- |
-| merge(node) | Düğüm altındaki her şeyi ayır ve mevcut düğüme ekle. |
+| merge(node) | Düğümün altındaki her şeyi ayır ve mevcut düğüme ekle. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| nod | Düğüm | null |
+| baş | Node | null |
 
  **Result:**
-Düğüm
+Node
 
 
 ---
@@ -396,7 +396,7 @@ Düğüm
 | nodeName | String | Yeni alt düğümün adı |
 
  **Result:**
-Düğüm
+Node
 
 
 ---
@@ -406,16 +406,16 @@ Düğüm
 
 | Ad | Açıklama |
 | --- | --- |
-| createChildNode(entity) | Verilen varlık eklenmiş yeni bir alt düğüm oluşturur |
+| createChildNode(entity) | Verilen varlık ekli yeni bir alt düğüm oluşturur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| varlık | Varlık | Düğüme eklenmiş varsayılan varlık |
+| varlık | Varlık | Düğüme ekli varsayılan varlık |
 
  **Result:**
-Düğüm
+Node
 
 
 ---
@@ -432,10 +432,10 @@ Düğüm
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | nodeName | String | Yeni alt düğümün adı |
-| varlık | Varlık | Düğüme eklenmiş varsayılan varlık |
+| varlık | Varlık | Düğüme ekli varsayılan varlık |
 
  **Result:**
-Düğüm
+Node
 
 
 ---
@@ -452,11 +452,11 @@ Düğüm
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | nodeName | String | Yeni alt düğümün adı |
-| varlık | Varlık | Düğüme eklenmiş varsayılan varlık |
-| material | Malzeme | Düğüme eklenmiş malzeme |
+| varlık | Varlık | Düğüme ekli varsayılan varlık |
+| material | Malzeme | Düğüme ekli malzeme |
 
  **Result:**
-Düğüm
+Node
 
 
 ---
@@ -466,7 +466,7 @@ Düğüm
 
 | Ad | Açıklama |
 | --- | --- |
-| evaluateGlobalTransform(withGeometricTransform) | Küresel dönüşümü değerlendir, geometrik dönüşümü dahil edip etmeyeceğini belirt. |
+| evaluateGlobalTransform(withGeometricTransform) | Genel dönüşümü değerlendir, geometrik dönüşümü dahil et ya da etme. |
 
  **Parameters:**
 
@@ -491,10 +491,10 @@ Matrix4
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| indeks | Number | İndeks. |
+| indeks | Sayı | İndeks. |
 
  **Result:**
-Düğüm
+Node
 
 
 ---
@@ -504,7 +504,7 @@ Düğüm
 
 | Ad | Açıklama |
 | --- | --- |
-| getChild(nodeName) | Belirtilen ada sahip alt düğümü alır. |
+| getChild(nodeName) | Belirtilen ada sahip alt düğümü alır |
 
  **Parameters:**
 
@@ -513,7 +513,7 @@ Düğüm
 | nodeName | String | Bulunacak alt düğüm adı. |
 
  **Result:**
-Düğüm
+Node
 
 
 ---
@@ -523,13 +523,13 @@ Düğüm
 
 | Ad | Açıklama |
 | --- | --- |
-| accept(visitor) | Tüm alt düğümler arasında (geçerli düğüm dahil) yürür ve ziyaretçiyi düğümle birlikte çağırır. Ziyaretçi, false döndürerek yürütmeyi durdurabilir. |
+| accept(visitor) | Mevcut düğüm dahil olmak üzere tüm alt düğümler arasında yürür ve ziyaretçiyi düğümle birlikte çağırır. Ziyaretçi, false döndürerek yürütmeyi durdurabilir |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| ziyaretçi | NodeVisitor | Düğümü ziyaret etmek için ziyaretçi geri çağrısı |
+| visitor | NodeVisitor | Düğümü ziyaret etmek için ziyaretçi geri çağrısı |
 
  **Result:**
 boolean
@@ -593,7 +593,7 @@ BoundingBox
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| düğüm | Düğüm | Eklenecek alt düğüm |
+| node | Node | Eklenecek alt düğüm |
 
  **Result:**
 BoundingBox
@@ -606,7 +606,7 @@ BoundingBox
 
 | Ad | Açıklama |
 | --- | --- |
-| selectSingleObject(path) | XPath benzeri sorgu sözdizimi kullanarak geçerli düğüm altında tek bir nesne seç. |
+| selectSingleObject(path) | XPath benzeri sorgu sözdizimini kullanarak geçerli düğüm altında tek bir nesne seçin. |
 
  **Parameters:**
 
@@ -625,7 +625,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| selectObjects(path) | XPath benzeri sorgu sözdizimi kullanarak geçerli düğüm altında birden fazla nesne seç. |
+| selectObjects(path) | XPath benzeri sorgu sözdizimini kullanarak geçerli düğüm altında birden fazla nesne seçin. |
 
  **Parameters:**
 
@@ -650,7 +650,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -663,7 +663,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -688,7 +688,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -707,7 +707,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -721,7 +721,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -730,7 +730,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

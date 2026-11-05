@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/endpoint/
 ---
 ## EndPoint class
 
-Eğriyi kırpmak için uç nokta, bir parametre değeri ya da Kartezyen nokta olabilir.
+Eğriyi kırpmak için son nokta, bir parametre değeri ya da Kartezyen nokta olabilir.
 
 
 ## Yöntemler
@@ -30,7 +30,7 @@ Eğriyi kırpmak için uç nokta, bir parametre değeri ya da Kartezyen nokta ol
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(point) | Bir Kartezyen noktadan bir EndPoint oluşturur. |
+| constructor_overload(point) | Kartezyen bir noktadan bir EndPoint oluştur. |
 
  **Parameters:**
 
@@ -49,13 +49,13 @@ Eğriyi kırpmak için uç nokta, bir parametre değeri ya da Kartezyen nokta ol
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload2(v) | Gerçek bir parametreden bir EndPoint oluşturur. |
+| constructor_overload2(v) | Gerçek bir parametreden bir EndPoint oluşturun. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
+|  | Sayı | null |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Eğriyi kırpmak için uç nokta, bir parametre değeri ya da Kartezyen nokta ol
 
 | Ad | Açıklama |
 | --- | --- |
-| getAsPoint() | Uç noktasını Kartezyen nokta olarak alır, veya bir istisna fırlatır. |
+| getAsPoint() | Uç noktayı Kartezyen nokta olarak alır, ya da bir istisna fırlatır. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Eğriyi kırpmak için uç nokta, bir parametre değeri ya da Kartezyen nokta ol
 
 | Ad | Açıklama |
 | --- | --- |
-| getAsValue() | Uç noktasını gerçek parametre olarak alır, veya bir istisna fırlatır. |
+| getAsValue() | Uç noktayı gerçek bir parametre olarak alır, ya da bir istisna fırlatır. |
 
  **Result:**
 
@@ -107,13 +107,13 @@ Eğriyi kırpmak için uç nokta, bir parametre değeri ya da Kartezyen nokta ol
 
 | Ad | Açıklama |
 | --- | --- |
-| fromDegree(degree) | Derece cinsinden ölçülen bir uç nokta oluşturur. |
+| fromDegree(degree) | Derece cinsinden ölçülen bir uç nokta oluşturun. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| derece | Number | null |
+| derece | Sayı | null |
 
  **Result:**
 EndPoint
@@ -126,13 +126,13 @@ EndPoint
 
 | Ad | Açıklama |
 | --- | --- |
-| fromRadian(degree) | Radyan cinsinden ölçülen bir uç nokta oluşturur. |
+| fromRadian(degree) | Radyan cinsinden ölçülen bir uç nokta oluşturun. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| derece | Number | null |
+| derece | Sayı | null |
 
  **Result:**
 EndPoint
@@ -145,7 +145,7 @@ EndPoint
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Mevcut uç noktanın string temsilini döndürür. |
+| toString() | Mevcut uç noktanın dize temsili döndürür. |
 
  **Result:**
 String

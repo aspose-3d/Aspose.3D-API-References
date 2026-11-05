@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/mesh/
 ---
 ## Mesh class
 
-Bir ağ, birçok n-köşeli çokgenlerden oluşur.
+Bir ağ, birçok n‑kenarlı çokgenlerden oluşur.
 
 
 ## Yöntemler
@@ -114,7 +114,7 @@ Bir ağ, birçok n-köşeli çokgenlerden oluşur.
 
 | Ad | Açıklama |
 | --- | --- |
-| getDeformers() | Bu geometriyle ilişkili tüm deformasyonları alır. Deformasyonlar. |
+| getDeformers() | Bu geometriye bağlı tüm deformörleri alır. Deformörler. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Bir ağ, birçok n-köşeli çokgenlerden oluşur.
 
 | Ad | Açıklama |
 | --- | --- |
-| getVertexElements() | Tüm vertex elemanlarını alır |
+| getVertexElements() | Tüm köşe öğelerini alır |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Bir ağ, birçok n-köşeli çokgenlerden oluşur.
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Bir ağ, birçok n-köşeli çokgenlerden oluşur.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Bir ağ, birçok n-köşeli çokgenlerden oluşur.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -328,10 +328,10 @@ Bir ağ, birçok n-köşeli çokgenlerden oluşur.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| indeks | Number | İndeks. |
+| indeks | Sayı | İndeks. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -348,11 +348,11 @@ Number
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | indeksler | Number[] | Çokgen indekslerinin dizisi, her indeks çokgeni oluşturan bir kontrol noktasına işaret eder. |
-| ofset | Number | İlk çokgen indeksinin ofseti |
-| uzunluk | Number | İndekslerin uzunluğu |
+| ofset | Sayı | İlk çokgen indeksinin ofseti |
+| uzunluk | Sayı | İndekslerin uzunluğu |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -371,7 +371,7 @@ Number
 | indeksler | Number[] | Çokgen indekslerinin dizisi, her indeks çokgeni oluşturan bir kontrol noktasına işaret eder. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -381,19 +381,19 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| createPolygon(v1, v2, v3, v4) | 4 köşeli bir çokgen oluşturur (quad) |
+| createPolygon(v1, v2, v3, v4) | 4 köşeli (quad) bir çokgen oluşturur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| v1 | Number | İlk köşenin indeksi |
-| v2 | Number | İkinci köşenin indeksi |
-| v3 | Number | Üçüncü köşenin indeksi |
-| v4 | Number | Dördüncü köşenin indeksi |
+| v1 | Sayı | İlk köşenin indeksi |
+| v2 | Sayı | İkinci köşenin indeksi |
+| v3 | Sayı | Üçüncü vertex'in indeksi |
+| v4 | Sayı | Dördüncü vertex'in indeksi |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -403,18 +403,18 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| createPolygon(v1, v2, v3) | 3 köşe ile bir çokgen oluştur (üçgen) |
+| createPolygon(v1, v2, v3) | 3 köşe (üçgen) ile bir çokgen oluştur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| v1 | Number | İlk köşenin indeksi |
-| v2 | Number | İkinci köşenin indeksi |
-| v3 | Number | Üçüncü köşenin indeksi |
+| v1 | Sayı | İlk köşenin indeksi |
+| v2 | Sayı | İkinci köşenin indeksi |
+| v3 | Sayı | Üçüncü vertex'in indeksi |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -475,7 +475,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -494,7 +494,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| addElement(element) | Mevcut geometriye var olan bir vertex öğesi ekler |
+| addElement(element) | Mevcut geometriye mevcut bir vertex öğesi ekler |
 
  **Parameters:**
 
@@ -513,7 +513,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -587,7 +587,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -606,7 +606,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -619,7 +619,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -644,7 +644,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -663,7 +663,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -677,7 +677,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -686,7 +686,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -699,7 +699,7 @@ Property
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

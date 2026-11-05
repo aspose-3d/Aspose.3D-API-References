@@ -11,7 +11,7 @@ url: /tr/nodejs-java/aspose.threed/fileformattype/
 Dosya formatı türü  @hideconstructor
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -20,15 +20,15 @@ Dosya formatı türü  @hideconstructor
 | STL | STL dosya formatı türü |
 | COLLADA | Khronos Group'un Collada dosya formatı. |
 | PDF | Taşınabilir Belge Biçimi |
-| GLTF | Khronos Group'un glTF |
+| GLTF | Khronos Group'un glTF'i |
 | DXF | AutoCAD DXF |
 | PLY | Poligon Dosya Formatı veya Stanford Üçgen Formatı |
 | X | DirectX'in X Dosyası |
 | DRACO | Google Draco Mesh |
 | RVM | AVEVA Plant Design Management System Modeli. |
-| ASE | 3D Studio Max'in ASCII Sahne Dışa Aktarıcı formatı. |
+| ASE | 3D Studio Max'in ASCII Scene Exporter formatı. |
 | ZIP | Diğer 3d dosya formatlarını içeren Zip arşivi. |
-| USD | Evrensel Sahne Tanımı |
+| USD | Evrensel Sahne Açıklaması |
 | PCD | Point Cloud Library tarafından kullanılan Nokta Bulutu Verileri |
 | XYZ | Xyz nokta bulutu dosyası |
 | IFC | ISO 16739-1 Industry Foundation Classes veri modeli. |

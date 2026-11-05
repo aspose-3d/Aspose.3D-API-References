@@ -17,7 +17,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getRotationMode() | Frustumun yönelim modunu alır veya ayarlar. Bu özellik yalnızca Target null olduğunda çalışır. Değer RotationMode.FIXED_TARGET ise, yön her zaman LookAt özelliği tarafından hesaplanır. Aksi takdirde LookAt her zaman Direction tarafından hesaplanır. Özelliğin değeri RotationMode tamsayı sabitidir. |
+| getRotationMode() | Frustum'un yönelim modunu alır veya ayarlar. Bu özellik yalnızca Target null olduğunda çalışır. Değer RotationMode.FIXED_TARGET ise, yön her zaman LookAt özelliği tarafından hesaplanır. Aksi takdirde LookAt her zaman Direction tarafından hesaplanır. Özelliğin değeri RotationMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setRotationMode(value) | Frustumun yönelim modunu alır veya ayarlar. Bu özellik yalnızca Target null olduğunda çalışır. Değer RotationMode.FIXED_TARGET ise, yön her zaman LookAt özelliği tarafından hesaplanır. Aksi takdirde LookAt her zaman Direction tarafından hesaplanır. Özelliğin değeri RotationMode tamsayı sabitidir. |
+| setRotationMode(value) | Frustum'un yönelim modunu alır veya ayarlar. Bu özellik yalnızca Target null olduğunda çalışır. Değer RotationMode.FIXED_TARGET ise, yön her zaman LookAt özelliği tarafından hesaplanır. Aksi takdirde LookAt her zaman Direction tarafından hesaplanır. Özelliğin değeri RotationMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getNearPlane() | Frustumun yakın düzlem mesafesini alır veya ayarlar. |
+| getNearPlane() | Frustum'un yakın düzlem mesafesini alır veya ayarlar. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setNearPlane(value) | Frustumun yakın düzlem mesafesini alır veya ayarlar. |
+| setNearPlane(value) | Frustum'un yakın düzlem mesafesini alır veya ayarlar. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getAspect() | Frustumun en‑boy oranını alır veya ayarlar. |
+| getAspect() | Frustum'un en‑boy oranını alır veya ayarlar. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setAspect(value) | Frustumun en‑boy oranını alır veya ayarlar. |
+| setAspect(value) | Frustum'un en‑boy oranını alır veya ayarlar. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getDirection() | Kameranın baktığı yönü alır veya ayarlar. Bu özelliğin değişiklikleri LookAt ve Target'ı da etkiler. |
+| getDirection() | Kameranın baktığı yönü alır veya ayarlar. Bu özellikteki değişiklikler LookAt ve Target'ı da etkiler. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setDirection(value) | Kameranın baktığı yönü alır veya ayarlar. Bu özelliğin değişiklikleri LookAt ve Target'ı da etkiler. |
+| setDirection(value) | Kameranın baktığı yönü alır veya ayarlar. Bu özellikteki değişiklikler LookAt ve Target'ı da etkiler. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -381,7 +381,7 @@ Kamera ve Işık sınıflarının temel sınıfı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -400,7 +400,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -413,7 +413,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -438,7 +438,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -457,7 +457,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -471,7 +471,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -480,7 +480,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

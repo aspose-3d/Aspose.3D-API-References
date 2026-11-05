@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelement/
 ---
 ## VertexElement class
 
-Vertex öğelerinin temel sınıfı.  Bir vertex öğesi türü VertexElementType tarafından tanımlanır.  Bir VertexElement, vertex öğesinin bir geometri yüzeyine nasıl eşlendiğini ve eşleme bilgisinin bellekte nasıl düzenlendiğini açıklar.  Bir VertexElement Normaller, UV'ler veya diğer türde bilgileri içerir.  @hideconstructor
+Köşe öğelerinin temel sınıfı. Bir köşe öğesi türü VertexElementType ile tanımlanır. Bir VertexElement, köşe öğesinin bir geometri yüzeyine nasıl eşlendiğini ve eşleme bilgilerinin bellekte nasıl düzenlendiğini açıklar. Bir VertexElement Normaller, UV'ler veya diğer türde bilgileri içerir.  @hideconstructor
 
 
 ## Yöntemler
@@ -82,7 +82,7 @@ Vertex öğelerinin temel sınıfı.  Bir vertex öğesi türü VertexElementTyp
 
 | Ad | Açıklama |
 | --- | --- |
-| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Vertex öğelerinin temel sınıfı.  Bir vertex öğesi türü VertexElementTyp
 
 | Ad | Açıklama |
 | --- | --- |
-| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Vertex öğelerinin temel sınıfı.  Bir vertex öğesi türü VertexElementTyp
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndices() | İndeks verisini alır. İndeks dizisi. |
+| getIndices() | Dizin verilerini alır. Dizin dizisi. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Vertex öğelerinin temel sınıfı.  Bir vertex öğesi türü VertexElementTyp
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndices(data) | İndeksleri yükle |
+| setIndices(data) | Dizinleri yükle |
 
  **Parameters:**
 

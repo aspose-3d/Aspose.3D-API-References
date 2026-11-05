@@ -69,7 +69,7 @@ RVM Formatı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileFormatType() | Dosya formatı tipini alır |
+| getFileFormatType() | Dosya formatı tipini alır. |
 
  **Result:**
 
@@ -82,15 +82,15 @@ RVM Formatı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| loadAttributes(scene, fileName, prefix) | Özellikleri belirtilen dosya adından yükle |
+| loadAttributes(scene, fileName, prefix) | Belirtilen dosya adından öznitelikleri yükleyin |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| scene | Scene | Özelliklerin uygulanacağı sahne |
-| fileName | String | Özellikleri içeren dosyanın adı |
-| prefix | String | İsim çakışmalarını önlemek için kullanılan özelliklerin öneki, varsayılan değer "rvm:" |
+| scene | Sahne | Özniteliklerin uygulanacağı sahne |
+| fileName | String | Öznitelikleri içeren dosyanın adı |
+| prefix | String | İsim çakışmalarını önlemek için kullanılan öznitelik öneki, varsayılan değer "rvm:" |
 
  **Result:**
 
@@ -129,7 +129,7 @@ SaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Biçimleri dizeye dönüştür |
+| toString() | Formatları dizeye dönüştür. |
 
  **Result:**
 String

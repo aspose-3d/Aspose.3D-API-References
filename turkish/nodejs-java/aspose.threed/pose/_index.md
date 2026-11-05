@@ -1,5 +1,5 @@
 ---
-title: "Pose"
+title: "Poz"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/pose/
 ---
 ## Pose class
 
-Poz, geometri skinlendiğinde dönüşüm matrisini depolamak için kullanılır. Poz, bir dizi BonePose'dan oluşur; her BonePose, kemik düğümünün somut dönüşüm bilgilerini kaydeder.
+Pose, geometri skinlendiğinde dönüşüm matrisini depolamak için kullanılır.  Pose, bir dizi BonePose'dan oluşur; her BonePose, kemik düğümünün somut dönüşüm bilgilerini kaydeder.
 
 
 ## Yöntemler
@@ -49,7 +49,7 @@ Poz, geometri skinlendiğinde dönüşüm matrisini depolamak için kullanılır
 
 | Ad | Açıklama |
 | --- | --- |
-| getPoseType() | Pozun tipini alır veya ayarlar. Özelliğin değeri PoseType tamsayı sabitidir. Pozun tipi. |
+| getPoseType() | Pozun tipini alır veya ayarlar. Özelliğin değeri PoseType tam sayı sabitidir. Pozun tipi. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Poz, geometri skinlendiğinde dönüşüm matrisini depolamak için kullanılır
 
 | Ad | Açıklama |
 | --- | --- |
-| setPoseType(value) | Pozun tipini alır veya ayarlar. Özelliğin değeri PoseType tamsayı sabitidir. Pozun tipi. |
+| setPoseType(value) | Pozun tipini alır veya ayarlar. Özelliğin değeri PoseType tam sayı sabitidir. Pozun tipi. |
 
  **Result:**
 
@@ -133,8 +133,8 @@ Poz, geometri skinlendiğinde dönüşüm matrisini depolamak için kullanılır
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| düğüm | Düğüm | Kemik Düğümü. |
-| matrix | Matrix4 | Dönüşüm matrisi. |
+| node | Node | Kemik Düğümü. |
+| matris | Matrix4 | Dönüşüm matrisi. |
 | localMatrix | boolean | Eğer ayarlanırsa |
 
  **Result:**
@@ -148,14 +148,14 @@ Poz, geometri skinlendiğinde dönüşüm matrisini depolamak için kullanılır
 
 | Ad | Açıklama |
 | --- | --- |
-| addBonePose(node, matrix) | Verilen kemik düğümü için poz dönüşüm matrisini kaydeder. Küresel dönüşüm matrisi ima edilir. |
+| addBonePose(node, matrix) | Verilen kemik düğümü için poz dönüşüm matrisini kaydeder. Küresel dönüşüm matrisi varsayılır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| düğüm | Düğüm | Kemik Düğümü. |
-| matrix | Matrix4 | Dönüşüm matrisi. |
+| node | Node | Kemik Düğümü. |
+| matris | Matrix4 | Dönüşüm matrisi. |
 
  **Result:**
 
@@ -174,7 +174,7 @@ Poz, geometri skinlendiğinde dönüşüm matrisini depolamak için kullanılır
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -187,7 +187,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -212,7 +212,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -231,7 +231,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -245,7 +245,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -254,7 +254,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

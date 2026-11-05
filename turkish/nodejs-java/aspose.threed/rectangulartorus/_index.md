@@ -43,7 +43,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| getInnerRadius() | Dikdörtgen torusun iç yarıçapı. Varsayılan değer 17'dir |
+| getInnerRadius() | Dikdörtgen torusun iç yarıçapı, varsayılan değer 17'dir |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| setInnerRadius(value) | Dikdörtgen torusun iç yarıçapı. Varsayılan değer 17'dir |
+| setInnerRadius(value) | Dikdörtgen torusun iç yarıçapı, varsayılan değer 17'dir |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| getOuterRadius() | Dikdörtgen torusun dış yarıçapı. Varsayılan değer 20'dir |
+| getOuterRadius() | Dikdörtgen torusun dış yarıçapı, varsayılan değer 20'dir |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| setOuterRadius(value) | Dikdörtgen torusun dış yarıçapı. Varsayılan değer 20'dir |
+| setOuterRadius(value) | Dikdörtgen torusun dış yarıçapı, varsayılan değer 20'dir |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| getArc() | Yay'ın toplam açısı, radyan cinsinden ölçülür. Varsayılan değer PI'dir |
+| getArc() | Kemerin toplam açısı, radyan cinsinden ölçülür. Varsayılan değer PI'dir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| setArc(value) | Yay'ın toplam açısı, radyan cinsinden ölçülür. Varsayılan değer PI'dir |
+| setArc(value) | Kemerin toplam açısı, radyan cinsinden ölçülür. Varsayılan değer PI'dir. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| getAngleStart() | Yay'ın başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır |
+| getAngleStart() | Kemerin başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| setAngleStart(value) | Yay'ın başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır |
+| setAngleStart(value) | Kemerin başlangıç açısı, radyan cinsinden ölçülür. Varsayılan değer 0'dır. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| getRadialSegments() | Radyal segmentler, varsayılan değer 10'dur |
+| getRadialSegments() | Radyal segmentler, varsayılan değer 10'dur. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| setRadialSegments(value) | Radyal segmentler, varsayılan değer 10'dur |
+| setRadialSegments(value) | Radyal segmentler, varsayılan değer 10'dur. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Parametreli dikdörtgen torus.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -394,7 +394,7 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -413,7 +413,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -426,7 +426,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -451,7 +451,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -470,7 +470,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -484,7 +484,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -493,7 +493,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

@@ -36,7 +36,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| getAlpha() | Doku'nun varsayılan alfa değerini alır veya ayarlar. Bu, AlphaSource AlphaSource.PIXEL_ALPHA olduğunda geçerlidir. Varsayılan değer 1.0'dır, geçerli değer aralığı 0 ile 1 arasındadır. |
+| getAlpha() | Dokunun varsayılan alfa değerini alır veya ayarlar. Bu, AlphaSource AlphaSource.PIXEL_ALPHA olduğunda geçerlidir. Varsayılan değer 1.0'dır, geçerli değer aralığı 0 ile 1 arasındadır. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setAlpha(value) | Doku'nun varsayılan alfa değerini alır veya ayarlar. Bu, AlphaSource AlphaSource.PIXEL_ALPHA olduğunda geçerlidir. Varsayılan değer 1.0'dır, geçerli değer aralığı 0 ile 1 arasındadır. |
+| setAlpha(value) | Dokunun varsayılan alfa değerini alır veya ayarlar. Bu, AlphaSource AlphaSource.PIXEL_ALPHA olduğunda geçerlidir. Varsayılan değer 1.0'dır, geçerli değer aralığı 0 ile 1 arasındadır. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| getAlphaSource() | Doku'nun alfa kanalını tanımlayıp tanımlamadığını alır veya ayarlar. Varsayılan değer AlphaSource.NONE'dir. Özelliğin değeri AlphaSource tamsayı sabitidir. |
+| getAlphaSource() | Dokunun alfa kanalını tanımlayıp tanımlamadığını alır veya ayarlar. Varsayılan değer AlphaSource.NONE'dur. Özelliğin değeri AlphaSource tam sayı sabitidir. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setAlphaSource(value) | Doku'nun alfa kanalını tanımlayıp tanımlamadığını alır veya ayarlar. Varsayılan değer AlphaSource.NONE'dir. Özelliğin değeri AlphaSource tamsayı sabitidir. |
+| setAlphaSource(value) | Dokunun alfa kanalını tanımlayıp tanımlamadığını alır veya ayarlar. Varsayılan değer AlphaSource.NONE'dur. Özelliğin değeri AlphaSource tam sayı sabitidir. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| getWrapModeU() | U eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tamsayı sabitidir. |
+| getWrapModeU() | U eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setWrapModeU(value) | U eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tamsayı sabitidir. |
+| setWrapModeU(value) | U eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| getWrapModeV() | V eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tamsayı sabitidir. |
+| getWrapModeV() | V eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setWrapModeV(value) | V eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tamsayı sabitidir. |
+| setWrapModeV(value) | V eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| getWrapModeW() | W eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tamsayı sabitidir. |
+| getWrapModeW() | W eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setWrapModeW(value) | W eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tamsayı sabitidir. |
+| setWrapModeW(value) | W eksenindeki doku sarma modlarını alır veya ayarlar. Özelliğin değeri WrapMode tam sayı sabitidir. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| getMinFilter() | Küçültme için filtreyi alır veya ayarlar. Özelliğin değeri TextureFilter tamsayı sabitidir. |
+| getMinFilter() | Küçültme için filtreyi alır veya ayarlar. Özelliğin değeri TextureFilter tam sayı sabitidir. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setMinFilter(value) | Küçültme için filtreyi alır veya ayarlar. Özelliğin değeri TextureFilter tamsayı sabitidir. |
+| setMinFilter(value) | Küçültme için filtreyi alır veya ayarlar. Özelliğin değeri TextureFilter tam sayı sabitidir. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| getMipFilter() | Mip düzeyi örneklemesi için filtreyi alır veya ayarlar. Özelliğin değeri TextureFilter tam sayı sabitidir. |
+| getMipFilter() | Mip seviyeli örnekleme için filtreyi alır veya ayarlar. Özelliğin değeri TextureFilter tam sayı sabitidir. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setMipFilter(value) | Mip düzeyi örneklemesi için filtreyi alır veya ayarlar. Özelliğin değeri TextureFilter tam sayı sabitidir. |
+| setMipFilter(value) | Mip seviyeli örnekleme için filtreyi alır veya ayarlar. Özelliğin değeri TextureFilter tam sayı sabitidir. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| getUVTranslation() | UV çevirisini alır veya ayarlar. UV çevirisi. |
+| getUVTranslation() | UV çevirimini alır veya ayarlar. UV çevirimi. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setUVTranslation(value) | UV çevirisini alır veya ayarlar. UV çevirisi. |
+| setUVTranslation(value) | UV çevirimini alır veya ayarlar. UV çevirimi. |
 
  **Result:**
 
@@ -361,14 +361,14 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setTranslation(u, v) | UV çevirisini ayarlar. |
+| setTranslation(u, v) | UV çevirimini ayarlar. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Sayı | U. |
+| v | Sayı | V. |
 
  **Result:**
 
@@ -387,8 +387,8 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Sayı | U. |
+| v | Sayı | V. |
 
  **Result:**
 
@@ -401,14 +401,14 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Açıklama |
 | --- | --- |
-| setRotation(u, v) | UV dönüşünü ayarlar. |
+| setRotation(u, v) | UV dönüşümünü ayarlar. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| u | Number | U. |
-| v | Number | V. |
+| u | Sayı | U. |
+| v | Sayı | V. |
 
  **Result:**
 
@@ -427,7 +427,7 @@ Tüm somut dokular için temel sınıf.  Texture, bir geometri yüzeyinin görü
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -440,7 +440,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -465,7 +465,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -484,7 +484,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -498,7 +498,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -507,7 +507,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

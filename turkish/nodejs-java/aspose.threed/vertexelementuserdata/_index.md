@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementuserdata/
 ---
 ## VertexElementUserData class
 
-Belirtilen bileşenler için özel kullanıcı verilerini tanımlar.  Genellikle özel amaçlar için uygulamaya özgü veridir.
+Belirtilen bileşenler için özel kullanıcı verilerini tanımlar. Genellikle bu, özel amaçlar için uygulamaya özgü bir veridir.
 
 
 ## Yöntemler
@@ -30,7 +30,7 @@ Belirtilen bileşenler için özel kullanıcı verilerini tanımlar.  Genellikle
 
 | Ad | Açıklama |
 | --- | --- |
-| getData() | Bu öğeye eklenen kullanıcı verisi |
+| getData() | Bu öğeye eklenmiş kullanıcı verisi |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Belirtilen bileşenler için özel kullanıcı verilerini tanımlar.  Genellikle
 
 | Ad | Açıklama |
 | --- | --- |
-| setData(value) | Bu öğeye eklenen kullanıcı verisi |
+| setData(value) | Bu öğeye eklenmiş kullanıcı verisi |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Belirtilen bileşenler için özel kullanıcı verilerini tanımlar.  Genellikle
 
 | Ad | Açıklama |
 | --- | --- |
-| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Belirtilen bileşenler için özel kullanıcı verilerini tanımlar.  Genellikle
 
 | Ad | Açıklama |
 | --- | --- |
-| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Belirtilen bileşenler için özel kullanıcı verilerini tanımlar.  Genellikle
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndices() | İndeks verisini alır. İndeks dizisi. |
+| getIndices() | Dizin verilerini alır. Dizin dizisi. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Belirtilen bileşenler için özel kullanıcı verilerini tanımlar.  Genellikle
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndices(data) | İndeksleri yükle |
+| setIndices(data) | Dizinleri yükle |
 
  **Parameters:**
 

@@ -36,10 +36,10 @@ Dikdörtgeni temsil eden bir sınıf
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-| widt | Number | null |
-| heigh | Number | null |
+|  | Sayı | null |
+|  | Sayı | null |
+| widt | Sayı | null |
+| heigh | Sayı | null |
 
  **Result:**
 
@@ -214,8 +214,8 @@ Dikdörtgeni temsil eden bir sınıf
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
+|  | Sayı | null |
+|  | Sayı | null |
 
  **Result:**
 boolean

@@ -153,7 +153,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getAttributeListFile() | Özellik listesi dosyasının dosya adını alır veya ayarlar, bu özellik tanımsız olduğunda dışa aktarıcı .rvm dosya adına göre bir ad oluşturur, varsayılan değer null'dur. |
+| getAttributeListFile() | Öznitelik listesi dosyasının dosya adını alır veya ayarlar, bu özellik tanımlı değilse dışa aktarıcı .rvm dosya adına göre bir ad oluşturur, varsayılan değer null'dır. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setAttributeListFile(value) | Özellik listesi dosyasının dosya adını alır veya ayarlar, bu özellik tanımsız olduğunda dışa aktarıcı .rvm dosya adına göre bir ad oluşturur, varsayılan değer null'dur. |
+| setAttributeListFile(value) | Öznitelik listesi dosyasının dosya adını alır veya ayarlar, bu özellik tanımlı değilse dışa aktarıcı .rvm dosya adına göre bir ad oluşturur, varsayılan değer null'dır. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportAttributes() | Özellik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağını alır veya ayarlar, varsayılan değer false'tur. |
+| getExportAttributes() | Öznitelik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağını alır veya ayarlar, varsayılan değer false'tur. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportAttributes(value) | Özellik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağını alır veya ayarlar, varsayılan değer false'tur. |
+| setExportAttributes(value) | Öznitelik listesinin harici bir .att dosyasına dışa aktarılıp aktarılmayacağını alır veya ayarlar, varsayılan değer false'tur. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Aveva PDMS RVM dosyası için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

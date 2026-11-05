@@ -17,16 +17,16 @@ RenderFactory, renderleme hattında temsil edilen tüm kaynakları oluşturur.  
 
 | Ad | Açıklama |
 | --- | --- |
-| createRenderTexture(parameters, targets, width, height) | Dokuya render yapan bir render hedefi oluştur |
+| createRenderTexture(parameters, targets, width, height) | Dokuya render yapan bir render hedefi oluştur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| parametreler | RenderParameters | Render dokusunu oluşturmak için render parametreleri |
-| hedefler | Number | Kaç renk çıkış hedefi |
-| genişlik | Number | Render dokusunun genişliği |
-| height | Number | Render dokusunun yüksekliği |
+| parameters | RenderParameters | Render dokusunu oluşturmak için render parametreleri |
+| targets | Sayı | Kaç renk çıkış hedefi |
+| width | Sayı | Render dokusunun genişliği |
+| height | Sayı | Render dokusunun yüksekliği |
 
  **Result:**
 IRenderTexture
@@ -39,15 +39,15 @@ IRenderTexture
 
 | Ad | Açıklama |
 | --- | --- |
-| createRenderTexture(parameters, width, height) | Dokuya render yapan 1 hedef içeren bir render hedefi oluştur |
+| createRenderTexture(parameters, width, height) | Dokuya render yapan 1 hedef içeren bir render hedefi oluştur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| parametreler | RenderParameters | Render dokusunu oluşturmak için render parametreleri |
-| genişlik | Number | Render dokusunun genişliği |
-| height | Number | Render dokusunun yüksekliği |
+| parameters | RenderParameters | Render dokusunu oluşturmak için render parametreleri |
+| width | Sayı | Render dokusunun genişliği |
+| height | Sayı | Render dokusunun yüksekliği |
 
  **Result:**
 IRenderTexture
@@ -79,15 +79,15 @@ IDescriptorSet
 
 | Ad | Açıklama |
 | --- | --- |
-| createCubeRenderTexture(parameters, width, height) | 1 küp dokusu içeren bir render hedefi oluştur |
+| createCubeRenderTexture(parameters, width, height) | 1 küp dokusu içeren bir render hedefi oluştur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| parametreler | RenderParameters | Render dokusunu oluşturmak için render parametreleri |
-| genişlik | Number | Render dokusunun genişliği |
-| height | Number | Render dokusunun yüksekliği |
+| parameters | RenderParameters | Render dokusunu oluşturmak için render parametreleri |
+| width | Sayı | Render dokusunun genişliği |
+| height | Sayı | Render dokusunun yüksekliği |
 
  **Result:**
 IRenderTexture
@@ -100,14 +100,14 @@ IRenderTexture
 
 | Ad | Açıklama |
 | --- | --- |
-| createRenderWindow(parameters, handle) | Yerel pencereye render yapan bir render hedefi oluştur. |
+| createRenderWindow(parameters, handle) | Yerel pencereye render yapan bir render hedefi oluşturun. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| parametreler | RenderParameters | Render penceresini oluşturmak için render parametreleri |
-| handle | WindowHandle | Render edilecek pencerenin handle'ı |
+| parameters | RenderParameters | Render penceresini oluşturmak için render parametreleri |
+| tanıtıcı | WindowHandle | Render edilecek pencerenin tanıtıcısı |
 
  **Result:**
 IRenderWindow
@@ -152,7 +152,7 @@ IIndexBuffer
 
 | Ad | Açıklama |
 | --- | --- |
-| createTextureUnit(textureType) | Shader tarafından erişilebilecek bir doku birimi oluşturun. |
+| createTextureUnit(textureType) | Shader tarafından erişilebilen bir doku birimi oluşturun. |
 
  **Parameters:**
 
@@ -171,7 +171,7 @@ ITextureUnit
 
 | Ad | Açıklama |
 | --- | --- |
-| createTextureUnit() | Shader tarafından erişilebilecek 2D bir doku birimi oluşturun. |
+| createTextureUnit() | Shader tarafından erişilebilen 2D bir doku birimi oluşturun. |
 
  **Result:**
 ITextureUnit
@@ -203,15 +203,15 @@ ShaderProgram
 
 | Ad | Açıklama |
 | --- | --- |
-| createPipeline(shader, renderState, vertexDeclaration, drawOperation) | Önceden yapılandırılmış shader, render durumu, köşe bildirimi ve çizim işlemleriyle bir önceden yapılandırılmış grafik boru hattı oluşturun. |
+| createPipeline(shader, renderState, vertexDeclaration, drawOperation) | Önceden yapılandırılmış shader/render state/köşe bildirimi ve çizim işlemleriyle önceden yapılandırılmış bir grafik işlem hattı oluşturun. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| shader | ShaderProgram | Render işlemi sırasında kullanılan shader |
+| shader | ShaderProgram | Render işlemesinde kullanılan shader |
 | renderState | RenderState | Render işlemi sırasında kullanılan render durumu |
-| vertexDeclaration | VertexDeclaration | Giriş köşe verisinin köşe bildirimi |
+| vertexDeclaration | VertexDeclaration | Girdi vertex verisinin vertex bildirimi |
 | drawOperation | DrawOperation | DrawOperation |
 
  **Result:**
@@ -231,7 +231,7 @@ IPipeline
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| boyut | Number | Uniform tamponun boyutu |
+| boyut | Sayı | Uniform tamponun boyutu |
 
  **Result:**
 IBuffer

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexfield/
 ---
 ## VertexField class
 
-Vertex'in alan bellek düzeni açıklaması.  @hideconstructor
+Köşe alanının bellek düzeni açıklaması.  @hideconstructor
 
 
 ## Yöntemler
@@ -43,7 +43,7 @@ Vertex'in alan bellek düzeni açıklaması.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getAlias() | Alias, com.aspose.threed.SemanticAttribute özniteliğiyle açıklanmıştır. |
+| getAlias() | com.aspose.threed.SemanticAttribute özniteliğiyle açıklanan takma ad |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Vertex'in alan bellek düzeni açıklaması.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndex() | Aynı semantiğe sahip vertex düzenindeki bu alanın indeksi. |
+| getIndex() | Aynı semantiğe sahip köşe düzeninde bu alanın indeksi. |
 
  **Result:**
 
@@ -98,7 +98,7 @@ Vertex'in alan bellek düzeni açıklaması.  @hideconstructor
 | hashCode() |  |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -111,7 +111,7 @@ Number
 | equals(obj) | Bu örnek ile aynı zamanda bir VertexField nesnesi olması gereken belirtilen nesnenin aynı değere sahip olup olmadığını belirler. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -121,10 +121,10 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| compareTo(other) | Bu örneği belirtilen bir nesneyle karşılaştırır ve bunların göreceli değerlerine ilişkin bir gösterge döndürür. |
+| compareTo(other) | Bu örneği belirtilen bir nesneyle karşılaştırır ve onların göreceli değerlerine ilişkin bir gösterge döndürür. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
