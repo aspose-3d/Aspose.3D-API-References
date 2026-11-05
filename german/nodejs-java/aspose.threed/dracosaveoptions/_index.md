@@ -17,7 +17,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Erstelle eine Standardkonfiguration zum Speichern von draco-Dateien. |
+| constructor() | Erstelle eine Standardkonfiguration zum Speichern von Draco-Dateien. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getPositionBits() | Quantisierungsbits für Position, Standardwert ist 14 |
+| getPositionBits() | Quantisierungsbits für die Position, Standardwert ist 14 |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| setPositionBits(value) | Quantisierungsbits für Position, Standardwert ist 14 |
+| setPositionBits(value) | Quantisierungsbits für die Position, Standardwert ist 14 |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getTextureCoordinateBits() | Quantisierungsbits für Texturkoordinate, Standardwert ist 12 |
+| getTextureCoordinateBits() | Quantisierungsbits für Texturkoordinaten, Standardwert ist 12 |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| setTextureCoordinateBits(value) | Quantisierungsbits für Texturkoordinate, Standardwert ist 12 |
+| setTextureCoordinateBits(value) | Quantisierungsbits für Texturkoordinaten, Standardwert ist 12 |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getColorBits() | Quantisierungsbits für Vertex-Farbe, Standardwert ist 10 |
+| getColorBits() | Quantisierungsbits für Scheitelpunktfarbe, Standardwert ist 10 |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| setColorBits(value) | Quantisierungsbits für Vertex-Farbe, Standardwert ist 10 |
+| setColorBits(value) | Quantisierungsbits für Scheitelpunktfarbe, Standardwert ist 10 |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getCompressionLevel() | Kompressionsstufe, Standardwert ist DracoCompressionLevel.STANDARDDer Wert der Eigenschaft ist eine DracoCompressionLevel-Ganzzahlkonstante. |
+| getCompressionLevel() | Komprimierungsgrad, Standardwert ist DracoCompressionLevel.STANDARD. Der Wert der Eigenschaft ist die Ganzzahlkonstante DracoCompressionLevel. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| setCompressionLevel(value) | Kompressionsstufe, Standardwert ist DracoCompressionLevel.STANDARDDer Wert der Eigenschaft ist eine DracoCompressionLevel-Ganzzahlkonstante. |
+| setCompressionLevel(value) | Komprimierungsgrad, Standardwert ist DracoCompressionLevel.STANDARD. Der Wert der Eigenschaft ist die Ganzzahlkonstante DracoCompressionLevel. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getApplyUnitScale() | Wenden Sie AssetInfo.UnitScaleFactor auf das Mesh an. Der Standardwert ist false. |
+| getApplyUnitScale() | Wende AssetInfo.UnitScaleFactor auf das Mesh an. Standardwert ist false. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| setApplyUnitScale(value) | Wenden Sie AssetInfo.UnitScaleFactor auf das Mesh an. Der Standardwert ist false. |
+| setApplyUnitScale(value) | Wende AssetInfo.UnitScaleFactor auf das Mesh an. Standardwert ist false. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getPointCloud() | Exportieren Sie die Szene als Punktwolke, Standardwert ist false. |
+| getPointCloud() | Exportiere die Szene als Punktwolke, Standardwert ist false. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| setPointCloud(value) | Exportieren Sie die Szene als Punktwolke, Standardwert ist false. |
+| setPointCloud(value) | Exportiere die Szene als Punktwolke, Standardwert ist false. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Speicheroptionen für Google Draco-Dateien
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

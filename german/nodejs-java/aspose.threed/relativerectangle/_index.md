@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/relativerectangle/
 ---
 ## RelativeRectangle class
 
-Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absoluten Wert lautet:  Skalierung  (Referenzbreite) + Versatz  Wenn wir also einen absoluten Wert darstellen wollen, lassen Sie alle Skalierungsfelder auf Null und verwenden stattdessen die Versatzfelder.
+Relatives Rechteck  Die Formel zur Umrechnung von relativen Komponenten in absolute Werte lautet:  Skalierung  (Referenzbreite) + Offset  Wenn wir also einen absoluten Wert darstellen wollen, setzen wir alle Skalierungsfelder auf Null und verwenden stattdessen Offset-Felder.
 
 
 ## Methoden
@@ -36,10 +36,10 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| lef | Number | null |
-| to | Number | null |
-| Breite | Number | null |
-| Höhe | Number | null |
+| lef | Zahl | null |
+| to | Zahl | null |
+| Breite | Zahl | null |
+| Höhe | Zahl | null |
 
  **Result:**
 
@@ -52,7 +52,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| getScaleX() | Relative X‑Koordinate |
+| getScaleX() | Relative Koordinate X |
 
  **Result:**
 
@@ -65,7 +65,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| setScaleX(value) | Relative X‑Koordinate |
+| setScaleX(value) | Relative Koordinate X |
 
  **Result:**
 
@@ -78,7 +78,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| getScaleY() | Relative Y‑Koordinate |
+| getScaleY() | Relative Koordinate Y |
 
  **Result:**
 
@@ -91,7 +91,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| setScaleY(value) | Relative Y‑Koordinate |
+| setScaleY(value) | Relative Koordinate Y |
 
  **Result:**
 
@@ -156,7 +156,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| getOffsetX() | Liest oder setzt den Versatz für die X-Koordinate |
+| getOffsetX() | Ermittelt oder legt den Versatz für die Koordinate X fest |
 
  **Result:**
 
@@ -169,7 +169,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| setOffsetX(value) | Liest oder setzt den Versatz für die X-Koordinate |
+| setOffsetX(value) | Ermittelt oder legt den Versatz für die Koordinate X fest |
 
  **Result:**
 
@@ -182,7 +182,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| getOffsetY() | Liest oder setzt den Versatz für die Y-Koordinate |
+| getOffsetY() | Ermittelt oder legt den Versatz für die Koordinate Y fest |
 
  **Result:**
 
@@ -195,7 +195,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| setOffsetY(value) | Liest oder setzt den Versatz für die Y-Koordinate |
+| setOffsetY(value) | Ermittelt oder legt den Versatz für die Koordinate Y fest |
 
  **Result:**
 
@@ -208,7 +208,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| getOffsetWidth() | Liest oder setzt den Versatz für die Breite |
+| getOffsetWidth() | Ermittelt oder legt den Versatz für die Breite fest |
 
  **Result:**
 
@@ -221,7 +221,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| setOffsetWidth(value) | Liest oder setzt den Versatz für die Breite |
+| setOffsetWidth(value) | Ermittelt oder legt den Versatz für die Breite fest |
 
  **Result:**
 
@@ -234,7 +234,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| getOffsetHeight() | Liest oder setzt den Versatz für die Höhe |
+| getOffsetHeight() | Ermittelt oder legt den Versatz für die Höhe fest |
 
  **Result:**
 
@@ -247,7 +247,7 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| setOffsetHeight(value) | Liest oder setzt den Versatz für die Höhe |
+| setOffsetHeight(value) | Ermittelt oder legt den Versatz für die Höhe fest |
 
  **Result:**
 
@@ -260,16 +260,16 @@ Relatives Rechteck  Die Formel zur Umrechnung von relativer Komponente in absolu
 
 | Name | Beschreibung |
 | --- | --- |
-| toAbsolute(left, top, width, height) | Konvertiere das relative Rechteck in ein absolutes Rechteck |
+| toAbsolute(left, top, width, height) | Konvertiert das relative Rechteck in ein absolutes Rechteck |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| links | Number | Links des Rechtecks |
-| oben | Number | Oben des Rechtecks |
-| Breite | Number | Breite des Rechtecks |
-| height | Number | Höhe des Rechtecks |
+| links | Zahl | Linke Seite des Rechtecks |
+| oben | Zahl | Obere Kante des Rechtecks |
+| width | Zahl | Breite des Rechtecks |
+| height | Zahl | Höhe des Rechtecks |
 
  **Result:**
 Rect
@@ -282,16 +282,16 @@ Rect
 
 | Name | Beschreibung |
 | --- | --- |
-| fromScale(scaleX, scaleY, scaleWidth, scaleHeight) | Konstruiert ein RelativeRectangle mit allen Versatzfeldern auf Null und Skalierungsfeldern aus den angegebenen Parametern. |
+| fromScale(scaleX, scaleY, scaleWidth, scaleHeight) | Erstelle ein RelativeRectangle mit allen Offset-Feldern auf Null und den Skalierungsfeldern aus den angegebenen Parametern. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Skalierung | Number | null |
-| Skalierung | Number | null |
-| scaleWidt | Number | null |
-| scaleHeigh | Number | null |
+| Skalierung | Zahl | null |
+| Skalierung | Zahl | null |
+| scaleWidt | Zahl | null |
+| scaleHeigh | Zahl | null |
 
  **Result:**
 RelativeRectangle
@@ -304,7 +304,7 @@ RelativeRectangle
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Konvertiert den Wert dieser Instanz in einen java.lang.String. |
+| toString() | Konvertiert den Wert dieser Instanz zu einem java.lang.String. |
 
  **Result:**
 RelativeRectangle

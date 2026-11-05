@@ -11,17 +11,17 @@ url: /de/nodejs-java/aspose.threed/fileformat/
 Dateiformatdefinition  @hideconstructor
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
 | MAYA_BINARY | Autodesk Maya im Binärformat |
 | STL_BINARY | Binäres STL-Dateiformat |
 | STLASCII | ASCII STL-Dateiformat |
-| COLLADA | Collada‑Dateiformat |
+| COLLADA | Collada-Dateiformat |
 | GLTF | glTF der Khronos Group |
 | GLTF_BINARY | glTF der Khronos Group im Binärformat |
-| PDF | Adobe Portable Document Format |
+| PDF | Portable Document Format von Adobe |
 | DXF | AutoCAD DXF |
 | PLY | Polygon File Format oder Stanford Triangle Format |
 | X_BINARY | DirectX X-Datei im Binärformat |
@@ -29,16 +29,16 @@ Dateiformatdefinition  @hideconstructor
 | DRACO | Google Draco Mesh |
 | RVM_TEXT | AVEVA Plant Design Management System Modell im Textformat |
 | RVM_BINARY | AVEVA Plant Design Management System Modell im Binärformat |
-| ASE | ASCII‑Szenenexporter‑Format von 3D Studio Max. |
+| ASE | Das ASCII‑Scene‑Exporter‑Format von 3D Studio Max. |
 | IFC | ISO 16739-1 Industry Foundation Classes Datenmodell. |
 | AMF | Dateiformat für additive Fertigung |
 | VRML | Die Virtual Reality Modeling Language |
 | ZIP | Zip-Archiv, das andere 3D-Dateiformate enthält. |
-| USD | Universelle Szenenbeschreibung |
-| USDZ | Komprimierte Universelle Szenenbeschreibung |
-| XYZ | Xyz-Punktwolken-Datei |
-| PCD | PCL Point Cloud Data-Datei im ASCII-Modus |
-| PCD_BINARY | PCL Point Cloud Data-Datei im Binärmodus |
+| USD | Universal Scene Description |
+| USDZ | Komprimierte Universal Scene Description |
+| XYZ | XYZ-Punktwolken-Datei |
+| PCD | PCL Point Cloud Data Datei im ASCII‑Modus |
+| PCD_BINARY | PCL Point Cloud Data Datei im Binärmodus |
 
 ## Methoden
 
@@ -46,7 +46,7 @@ Dateiformatdefinition  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getVersion() | Ermittelt die Dateiformatversion |
+| getVersion() | Gibt die Dateiformatversion zurück |
 
  **Result:**
 
@@ -59,7 +59,7 @@ Dateiformatdefinition  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtension() | Ermittelt den Erweiterungsnamen dieses Typs. |
+| getExtension() | Gibt den Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -72,7 +72,7 @@ Dateiformatdefinition  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getExtensions() | Ermittelt die Erweiterungsnamen dieses Typs. |
+| getExtensions() | Gibt die Erweiterungsnamen dieses Typs zurück. |
 
  **Result:**
 
@@ -98,7 +98,7 @@ Dateiformatdefinition  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormatType() | Ermittelt den Dateiformattyp |
+| getFileFormatType() | Liest den Dateiformattyp |
 
  **Result:**
 
@@ -111,7 +111,7 @@ Dateiformatdefinition  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFormatByExtension(extensionName) | Ermittelt das bevorzugte Dateiformat anhand des Dateierweiterungsnamens. Der Erweiterungsname sollte mit einem Punkt ('.') beginnen. |
+| getFormatByExtension(extensionName) | Liest das bevorzugte Dateiformat aus dem Dateierweiterungsnamen. Der Erweiterungsname sollte mit einem Punkt ('.') beginnen. |
 
  **Parameters:**
 
@@ -130,7 +130,7 @@ FileFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| detect(fileName) | Erkennen Sie das Dateiformat anhand des Dateinamens, die Datei muss lesbar sein, damit Aspose.3D das Dateiformat über den Dateikopf erkennen kann. |
+| detect(fileName) | Ermittelt das Dateiformat anhand des Dateinamens, die Datei muss lesbar sein, damit Aspose.3D das Dateiformat über den Dateikopf erkennen kann. |
 
  **Parameters:**
 
@@ -149,7 +149,7 @@ FileFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| createLoadOptions() | Standard-Ladeoptionen für dieses Dateiformat erstellen |
+| createLoadOptions() | Erstellt Standard-Ladeoptionen für dieses Dateiformat |
 
  **Result:**
 LoadOptions
@@ -162,7 +162,7 @@ LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| createSaveOptions() | Standard-Speicheroptionen für dieses Dateiformat erstellen |
+| createSaveOptions() | Erstellt Standard-Speicheroptionen für dieses Dateiformat |
 
  **Result:**
 SaveOptions

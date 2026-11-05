@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertexelementpolygongroup/
 ---
 ## VertexElementPolygonGroup class
 
-Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polygone zusammenzufassen.
+Definiert die Polygongruppe für die angegebenen Komponenten, um zusammengehörige Polygone zu gruppieren.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiert eine neue Instanz der VertexElementPolygonGroup-Klasse. |
+| constructor() | Initialisiert eine neue Instanz der Klasse VertexElementPolygonGroup. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| getData() | Liefert die Vertex-Daten |
+| getData() | Liest die Vertex-Daten. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexElementType() | Ermittelt den Typ des VertexElement. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
+| getVertexElementType() | Liest den Typ des VertexElements. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| getMappingMode() | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| getMappingMode() | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| setMappingMode(value) | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| setMappingMode(value) | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| getIndices() | Ermittelt die Indexdaten. Das Index‑Array. |
+| getIndices() | Liest die Indexdaten. Das Index-Array. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Beschreibung |
 | --- | --- |
-| copyTo(target) | Kopiert Daten in das angegebene Element. |
+| copyTo(target) | Kopiert Daten zum angegebenen Element. |
 
  **Parameters:**
 
@@ -172,7 +172,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | Number[] | null |
+| dat | Number[] | null |
 
  **Result:**
 
@@ -204,7 +204,7 @@ Definiert die Polygongruppe für die angegebenen Komponenten, um verwandte Polyg
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | Number[] | null |
+| dat | Number[] | null |
 
  **Result:**
 

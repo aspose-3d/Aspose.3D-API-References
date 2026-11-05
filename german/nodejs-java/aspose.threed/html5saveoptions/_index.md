@@ -56,7 +56,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getShowRulers() | Zeigt Lineale der x/y/z-Achsen in der Szene zur Messung des Modells an. Standardwert ist false. |
+| getShowRulers() | Zeigt Lineale der x/y/z-Achsen in der Szene an, um das Modell zu messen. Standardwert ist false. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| setShowRulers(value) | Zeigt Lineale der x/y/z-Achsen in der Szene zur Messung des Modells an. Standardwert ist false. |
+| setShowRulers(value) | Zeigt Lineale der x/y/z-Achsen in der Szene an, um das Modell zu messen. Standardwert ist false. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getOrientationBox() | Zeigt eine Orientierungskiste an. Standardwert ist true. |
+| getOrientationBox() | Zeigt eine Orientierungsbox an. Standardwert ist true. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| setOrientationBox(value) | Zeigt eine Orientierungskiste an. Standardwert ist true. |
+| setOrientationBox(value) | Zeigt eine Orientierungsbox an. Standardwert ist true. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getNearPlane() | Liest oder setzt die Nahebene der Kamera, Standardwert ist 1. |
+| getNearPlane() | Liest oder setzt die Nahebene der Kamera, Standardwert ist 1 |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| setNearPlane(value) | Liest oder setzt die Nahebene der Kamera, Standardwert ist 1. |
+| setNearPlane(value) | Liest oder setzt die Nahebene der Kamera, Standardwert ist 1 |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookAt() | Liest oder setzt die Standard-Blickpunktposition, Standardwert ist (0, 0, 0) |
+| getLookAt() | Liest oder setzt die Standard‑Blickposition, Standardwert ist (0, 0, 0) |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| setLookAt(value) | Liest oder setzt die Standard-Blickpunktposition, Standardwert ist (0, 0, 0) |
+| setLookAt(value) | Liest oder setzt die Standard‑Blickposition, Standardwert ist (0, 0, 0) |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -368,7 +368,7 @@ Speicheroptionen für HTML5
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

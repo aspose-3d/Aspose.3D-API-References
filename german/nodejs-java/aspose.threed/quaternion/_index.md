@@ -11,14 +11,14 @@ url: /de/nodejs-java/aspose.threed/quaternion/
 Quaternion wird üblicherweise verwendet, um Rotationen in der Computergrafik durchzuführen.
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| w | Die w‑Komponente. |
-| x | Die x‑Komponente. |
-| y | Die y‑Komponente. |
-| z | Die z‑Komponente. |
+| w | Die w-Komponente. |
+| x | Die x-Komponente. |
+| y | Die y-Komponente. |
+| z | Die z-Komponente. |
 | IDENTITY | Der Identitäts-Quaternion. |
 
 ## Methoden
@@ -40,16 +40,16 @@ Quaternion wird üblicherweise verwendet, um Rotationen in der Computergrafik du
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(w, x, y, z) | Initialisiert eine neue Instanz der Quaternion‑Klasse. |
+| constructor_overload(w, x, y, z) | Initialisiert eine neue Instanz der Quaternion-Klasse. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| w | Number | w‑Komponente des Quaternion |
-| x | Number | x‑Komponente des Quaternion |
-| y | Number | y‑Komponente des Quaternion |
-| z | Number | z‑Komponente des Quaternion |
+| w | Zahl | w-Komponente des Quaternion |
+| x | Zahl | x-Komponente des Quaternion |
+| y | Zahl | y-Komponente des Quaternion |
+| z | Zahl | z-Komponente des Quaternion |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Quaternion wird üblicherweise verwendet, um Rotationen in der Computergrafik du
 
 | Name | Beschreibung |
 | --- | --- |
-| getLength() | Gibt die Länge des Quaternion zurück |
+| getLength() | Ermittelt die Länge des Quaternion |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Quaternion wird üblicherweise verwendet, um Rotationen in der Computergrafik du
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| obj | Object | Das Objekt zum Prüfen der Gleichheit. |
+| obj | Objekt | Das Objekt, um die Gleichheit zu prüfen. |
 
  **Result:**
 boolean
@@ -94,10 +94,10 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| hashCode() | Gibt den Hashcode des Quaternion zurück |
+| hashCode() | Ermittelt den Hashcode des Quaternion |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -107,7 +107,7 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| conjugate() | Gibt einen konjugierten Quaternion des aktuellen Quaternion zurück |
+| conjugate() | Gibt ein konjugiertes Quaternion des aktuellen Quaternion zurück |
 
  **Result:**
 Quaternion
@@ -120,7 +120,7 @@ Quaternion
 
 | Name | Beschreibung |
 | --- | --- |
-| inverse() | Gibt einen inversen Quaternion des aktuellen Quaternion zurück |
+| inverse() | Gibt ein inverses Quaternion des aktuellen Quaternion zurück |
 
  **Result:**
 Quaternion
@@ -133,7 +133,7 @@ Quaternion
 
 | Name | Beschreibung |
 | --- | --- |
-| dot(q) | Skalarprodukt |
+| dot(q) | Punktprodukt |
 
  **Parameters:**
 
@@ -142,7 +142,7 @@ Quaternion
 | q | Quaternion | Das Quaternion |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -152,7 +152,7 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| eulerAngles() | Konvertiert den Quaternion in eine Rotation, die durch Euler-Winkel dargestellt wird. Alle Komponenten sind in Radiant. |
+| eulerAngles() | Konvertiert das Quaternion zu einer Rotation, die durch Euler-Winkel dargestellt wird. Alle Komponenten sind im Bogenmaß. |
 
  **Result:**
 Vector3
@@ -165,7 +165,7 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| normalize() | Normalisiert den Quaternion |
+| normalize() | Quaternion normalisieren |
 
  **Result:**
 Quaternion
@@ -178,7 +178,7 @@ Quaternion
 
 | Name | Beschreibung |
 | --- | --- |
-| concat(rhs) | Verkettet zwei Quaternionen |
+| concat(rhs) | Zwei Quaternionen verketten |
 
  **Parameters:**
 
@@ -197,14 +197,14 @@ Quaternion
 
 | Name | Beschreibung |
 | --- | --- |
-| fromAngleAxis(a, axis) | Erstellt einen Quaternion um die gegebene Achse und rotiert im Uhrzeigersinn |
+| fromAngleAxis(a, axis) | Erstellt ein Quaternion um die gegebene Achse und rotiert im Uhrzeigersinn |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| a | Number | Uhrzeigersinn‑Drehung in Radiant |
-| axis | Vector3 | Achse |
+| a | Zahl | Uhrzeigersinn-Rotation im Bogenmaß |
+| Achse | Vector3 | Achse |
 
  **Result:**
 Quaternion
@@ -217,7 +217,7 @@ Quaternion
 
 | Name | Beschreibung |
 | --- | --- |
-| fromRotation(orig, dest) | Erstellt einen Quaternion, der von der ursprünglichen zur Zielrichtung rotiert |
+| fromRotation(orig, dest) | Erstellt ein Quaternion, das von der ursprünglichen zur Zielrichtung rotiert |
 
  **Parameters:**
 
@@ -237,15 +237,15 @@ Quaternion
 
 | Name | Beschreibung |
 | --- | --- |
-| fromEulerAngle(pitch, yaw, roll) | Erstellt einen Quaternion aus dem gegebenen Euler-Winkel |
+| fromEulerAngle(pitch, yaw, roll) | Erstellt ein Quaternion aus dem angegebenen Eulerwinkel |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Neigung | Number | Neigung in Radiant |
-| Gier | Number | Gier in Radiant |
-| Roll | Number | Roll in Radiant |
+| pitch | Zahl | Pitch im Bogenmaß |
+| yaw | Zahl | Yaw im Bogenmaß |
+| roll | Zahl | Roll im Bogenmaß |
 
  **Result:**
 Quaternion
@@ -258,13 +258,13 @@ Quaternion
 
 | Name | Beschreibung |
 | --- | --- |
-| fromEulerAngle(eulerAngle) | Erstellt einen Quaternion aus dem gegebenen Euler-Winkel |
+| fromEulerAngle(eulerAngle) | Erstellt ein Quaternion aus dem angegebenen Eulerwinkel |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| eulerAngle | Vector3 | Euler‑Winkel in Radiant |
+| eulerAngle | Vector3 | Eulerwinkel im Bogenmaß |
 
  **Result:**
 Quaternion
@@ -277,7 +277,7 @@ Quaternion
 
 | Name | Beschreibung |
 | --- | --- |
-| toMatrix() | Konvertiert die durch den Quaternion dargestellte Rotation in eine Transformationsmatrix. |
+| toMatrix() | Konvertiere die durch ein Quaternion dargestellte Rotation in eine Transformationsmatrix. |
 
  **Result:**
 Matrix4
@@ -290,7 +290,7 @@ Matrix4
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Gibt die Darstellung des Quaternion als Zeichenkette zurück |
+| toString() | Gibt die Darstellung des Quaternions als Zeichenkette zurück |
 
  **Result:**
 String
@@ -303,15 +303,15 @@ String
 
 | Name | Beschreibung |
 | --- | --- |
-| interpolate(t, from, to) | Füllt diesen Quaternion mit dem interpolierten Wert zwischen den angegebenen Quaternion-Argumenten für ein t zwischen von und bis. |
+| interpolate(t, from, to) | Füllt dieses Quaternion mit dem interpolierten Wert zwischen den angegebenen Quaternion-Argumenten für ein t zwischen from und to. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| t | Number | Der Koeffizient zum Interpolieren. |
-| from | Quaternion | Quell‑Quaternion. |
-| to | Quaternion | Ziel‑Quaternion. |
+| t | Zahl | Der Koeffizient zum Interpolieren. |
+| from | Quaternion | Quell-Quaternion. |
+| to | Quaternion | Ziel-Quaternion. |
 
  **Result:**
 Quaternion

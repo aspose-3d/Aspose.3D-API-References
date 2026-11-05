@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/patch/
 ---
 ## Patch class
 
-Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSurface, sie wird ebenfalls durch zwei PatchDirection, U und V, definiert.  Der Unterschied zwischen Patch und NurbsSurface besteht darin, dass die PatchDirection-Kurve einer von PatchDirectionType.BEZIER, PatchDirectionType.QUADRATIC_BEZIER, PatchDirectionType.BASIS_SPLINE, PatchDirectionType.CARDINAL_SPLINE oder PatchDirectionType.LINEAR sein kann.
+Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSurface, sie wird ebenfalls durch zwei PatchDirection, U und V, definiert.  Der Unterschied zwischen Patch und NurbsSurface besteht darin, dass die PatchDirection-Kurve einer von PatchDirectionType.BEZIER, PatchDirectionType.QUADRATIC_BEZIER, PatchDirectionType.BASIS_SPLIT, PatchDirectionType.CARDINAL_SPLINE oder PatchDirectionType.LINEAR sein kann.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiert eine neue Instanz der Klasse Patch. |
+| constructor() | Initialisiert eine neue Instanz der Patch‑Klasse. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(name) | Initialisiert eine neue Instanz der Klasse Patch. |
+| constructor_overload(name) | Initialisiert eine neue Instanz der Patch‑Klasse. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
+| name | String | Name. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getU() | Liefert die u-Richtung. |
+| getU() | Liest die u‑Richtung. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getV() | Liest die v-Richtung. Das v. |
+| getV() | Ermittelt die v-Richtung. Das v. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getControlPoints() | Ermittelt alle Kontrollpunkte |
+| getControlPoints() | Liest alle Kontrollpunkte |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexElements() | Ermittelt alle Scheitellemente |
+| getVertexElements() | Liest alle Vertex-Elemente |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -309,13 +309,13 @@ Ein Patch ist eine parametrische Modellierungsoberfläche, ähnlich wie NurbsSur
 
 | Name | Beschreibung |
 | --- | --- |
-| getElement(type) | Ermittelt ein Scheitellement mit dem angegebenen Typ |
+| getElement(type) | Liefert ein Vertex-Element mit dem angegebenen Typ |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| type | VertexElementType | VertexElementType |
+| Typ | VertexElementType | VertexElementType |
 
  **Result:**
 VertexElement
@@ -353,7 +353,7 @@ VertexElementUV
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| type | VertexElementType | VertexElementType |
+| Typ | VertexElementType | VertexElementType |
 
  **Result:**
 VertexElement
@@ -391,7 +391,7 @@ VertexElement
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| type | VertexElementType | VertexElementType |
+| Typ | VertexElementType | VertexElementType |
 | mappingMode | MappingMode | MappingMode |
 | referenceMode | ReferenceMode | ReferenceMode |
 
@@ -446,7 +446,7 @@ VertexElementUV
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 VertexElementUV
@@ -459,7 +459,7 @@ VertexElementUV
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -478,7 +478,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -491,7 +491,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -510,7 +510,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -519,7 +519,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -536,10 +536,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -549,7 +549,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -558,7 +558,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

@@ -23,12 +23,12 @@ Diese Klasse enthält die Rohdaten und die Formatdefinition einer Textur.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Breite | Number | null |
-| Höhe | Number | null |
-| strid | Number | null |
-| bytesPerPixe | Number | null |
+| Breite | Zahl | null |
+| Höhe | Zahl | null |
+| strid | Zahl | null |
+| bytesPerPixe | Zahl | null |
 | pixelFormat | PixelFormat | PixelFormat |
-| Daten | byte[] | null |
+| dat | byte[] | null |
 
  **Result:**
 
@@ -41,14 +41,14 @@ Diese Klasse enthält die Rohdaten und die Formatdefinition einer Textur.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(width, height, pixelFormat) | Konstruiert ein neues TextureData und reserviert Pixeldaten. |
+| constructor_overload(width, height, pixelFormat) | Konstruiert ein neues TextureData und allokiert Pixeldaten. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Breite | Number | null |
-| Höhe | Number | null |
+| Breite | Zahl | null |
+| Höhe | Zahl | null |
 | pixelFormat | PixelFormat | PixelFormat |
 
  **Result:**
@@ -140,7 +140,7 @@ Diese Klasse enthält die Rohdaten und die Formatdefinition einer Textur.
 
 | Name | Beschreibung |
 | --- | --- |
-| getPixelFormat() | Das Format des Pixels. Der Wert der Eigenschaft ist die ganzzahlige Konstante PixelFormat. |
+| getPixelFormat() | Das Format des Pixels Der Wert der Eigenschaft ist die PixelFormat-Ganzzahlkonstante. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Diese Klasse enthält die Rohdaten und die Formatdefinition einer Textur.
 
 | Name | Beschreibung |
 | --- | --- |
-| fromFile(fileName) | Lade eine Textur aus Datei |
+| fromFile(fileName) | Lädt eine Textur aus einer Datei |
 
  **Parameters:**
 
@@ -172,7 +172,7 @@ TextureData
 
 | Name | Beschreibung |
 | --- | --- |
-| save(fileName) | Texturdaten in eine Bilddatei speichern |
+| save(fileName) | Speichert Texturdaten in eine Bilddatei |
 
  **Parameters:**
 
@@ -191,7 +191,7 @@ TextureData
 
 | Name | Beschreibung |
 | --- | --- |
-| save(fileName, format) | Texturdaten in eine Bilddatei speichern |
+| save(fileName, format) | Speichert Texturdaten in eine Bilddatei |
 
  **Parameters:**
 
@@ -211,7 +211,7 @@ TextureData
 
 | Name | Beschreibung |
 | --- | --- |
-| mapPixels(mapMode) | Alle Pixel für Lesen/Schreiben abbilden |
+| mapPixels(mapMode) | Alle Pixel zum Lesen/Schreiben abbilden |
 
  **Parameters:**
 
@@ -230,7 +230,7 @@ PixelMapping
 
 | Name | Beschreibung |
 | --- | --- |
-| mapPixels(mapMode, format) | Alle Pixel für Lesen/Schreiben im angegebenen Pixelformat abbilden |
+| mapPixels(mapMode, format) | Alle Pixel zum Lesen/Schreiben im angegebenen Pixelformat abbilden |
 
  **Parameters:**
 
@@ -250,7 +250,7 @@ PixelMapping
 
 | Name | Beschreibung |
 | --- | --- |
-| mapPixels(rect, mapMode, format) | Pixel, die durch ein Rechteck adressiert werden, für Lesen/Schreiben im angegebenen Pixelformat abbilden |
+| mapPixels(rect, mapMode, format) | Pixel, die durch rect adressiert werden, zum Lesen/Schreiben im angegebenen Pixelformat abbilden |
 
  **Parameters:**
 
@@ -271,7 +271,7 @@ PixelMapping
 
 | Name | Beschreibung |
 | --- | --- |
-| transformPixelFormat(pixelFormat) | Layout des Pixels in ein neues Pixelformat umwandeln. |
+| transformPixelFormat(pixelFormat) | Transformiere das Layout des Pixels in ein neues Pixelformat. |
 
  **Parameters:**
 

@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/endpoint/
 ---
 ## EndPoint class
 
-Der Endpunkt zum Trimmen der Kurve, kann ein Parameterwert oder ein kartesischer Punkt sein.
+Der Endpunkt zum Beschneiden der Kurve, kann ein Parameterwert oder ein kartesischer Punkt sein.
 
 
 ## Methoden
@@ -55,7 +55,7 @@ Der Endpunkt zum Trimmen der Kurve, kann ein Parameterwert oder ein kartesischer
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
+|  | Zahl | null |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Der Endpunkt zum Trimmen der Kurve, kann ein Parameterwert oder ein kartesischer
 
 | Name | Beschreibung |
 | --- | --- |
-| getAsPoint() | Gibt den Endpunkt als kartesischen Punkt zurück oder wirft eine Ausnahme. |
+| getAsPoint() | Liefert den Endpunkt als kartesischen Punkt oder wirft eine Ausnahme. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Der Endpunkt zum Trimmen der Kurve, kann ein Parameterwert oder ein kartesischer
 
 | Name | Beschreibung |
 | --- | --- |
-| getAsValue() | Gibt den Endpunkt als reellen Parameter zurück oder wirft eine Ausnahme. |
+| getAsValue() | Liefert den Endpunkt als reellen Parameter oder wirft eine Ausnahme. |
 
  **Result:**
 
@@ -107,13 +107,13 @@ Der Endpunkt zum Trimmen der Kurve, kann ein Parameterwert oder ein kartesischer
 
 | Name | Beschreibung |
 | --- | --- |
-| fromDegree(degree) | Erstellen Sie einen Endpunkt, gemessen in Grad. |
+| fromDegree(degree) | Erstellt einen Endpunkt, gemessen in Grad. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| degre | Number | null |
+| Grad | Zahl | null |
 
  **Result:**
 EndPoint
@@ -126,13 +126,13 @@ EndPoint
 
 | Name | Beschreibung |
 | --- | --- |
-| fromRadian(degree) | Erstellen Sie einen Endpunkt, gemessen in Bogenmaß. |
+| fromRadian(degree) | Erstelle einen Endpunkt, gemessen in Radiant. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| degre | Number | null |
+| Grad | Zahl | null |
 
  **Result:**
 EndPoint

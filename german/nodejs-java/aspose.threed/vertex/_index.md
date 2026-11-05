@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertex/
 ---
 ## Vertex class
 
-Vertex-Referenz, verwendet, um den Roh-Vertex im **TriMesh** zuzugreifen.  @hideconstructor
+Vertex-Referenz, die zum Zugriff auf den Roh-Vertex in TriMesh verwendet wird.  @hideconstructor
 
 
 ## Methoden
@@ -26,7 +26,7 @@ Vertex-Referenz, verwendet, um den Roh-Vertex im **TriMesh** zuzugreifen.  @hide
 | othe | Vertex | null |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -36,13 +36,13 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| readVector4(field) | Lese das vector4-Feld |
+| readVector4(field) | Lese das Vector4‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector4/FVector4 |
+| field | VertexField | Das Feld mit dem Datentyp Vector4/FVector4 |
 
  **Result:**
 Vector4
@@ -55,13 +55,13 @@ Vector4
 
 | Name | Beschreibung |
 | --- | --- |
-| readFVector4(field) | Lese das vector4-Feld |
+| readFVector4(field) | Lese das Vector4‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector4/FVector4 |
+| field | VertexField | Das Feld mit dem Datentyp Vector4/FVector4 |
 
  **Result:**
 FVector4
@@ -74,13 +74,13 @@ FVector4
 
 | Name | Beschreibung |
 | --- | --- |
-| readVector3(field) | Lesen Sie das Vector3‑Feld |
+| readVector3(field) | Lese das Vector3‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector3/FVector3 |
+| field | VertexField | Das Feld mit dem Datentyp Vector3/FVector3 |
 
  **Result:**
 Vector3
@@ -93,13 +93,13 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| readFVector3(field) | Lesen Sie das Vector3‑Feld |
+| readFVector3(field) | Lese das Vector3‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector3/FVector3 |
+| field | VertexField | Das Feld mit dem Datentyp Vector3/FVector3 |
 
  **Result:**
 FVector3
@@ -112,13 +112,13 @@ FVector3
 
 | Name | Beschreibung |
 | --- | --- |
-| readVector2(field) | Lesen Sie das Vector2‑Feld |
+| readVector2(field) | Lese das Vector2‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector2/FVector2 |
+| field | VertexField | Das Feld mit dem Datentyp Vector2/FVector2 |
 
  **Result:**
 Vector2
@@ -131,13 +131,13 @@ Vector2
 
 | Name | Beschreibung |
 | --- | --- |
-| readFVector2(field) | Lesen Sie das Vector2‑Feld |
+| readFVector2(field) | Lese das Vector2‑Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Feld | VertexField | Das Feld mit dem Datentyp Vector2/FVector2 |
+| field | VertexField | Das Feld mit dem Datentyp Vector2/FVector2 |
 
  **Result:**
 FVector2
@@ -150,16 +150,16 @@ FVector2
 
 | Name | Beschreibung |
 | --- | --- |
-| readDouble(field) | Lesen Sie das Double‑Feld |
+| readDouble(field) | Lese das double-Feld |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Feld | VertexField | Das Feld mit einem float/double-kompatiblen Datentyp |
+| field | VertexField | Das Feld mit einem float/double-kompatiblen Datentyp |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -175,10 +175,10 @@ Number
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Feld | VertexField | Das Feld mit einem float/double-kompatiblen Datentyp |
+| field | VertexField | Das Feld mit einem float/double-kompatiblen Datentyp |
 
  **Result:**
-Number
+Zahl
 
 
 ---

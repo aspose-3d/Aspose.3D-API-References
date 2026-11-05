@@ -56,7 +56,7 @@ Die Sammlung von Eigenschaften  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(property) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(property) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -65,7 +65,7 @@ Die Sammlung von Eigenschaften  @hideconstructor
 | Eigenschaft | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---
@@ -81,7 +81,7 @@ Property
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -100,7 +100,7 @@ boolean
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | String | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | String | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -113,7 +113,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| iterator() | Für den internen Gebrauch reserviert. |
+| iterator() | Für die interne Verwendung reserviert. |
 
  **Result:**
 boolean

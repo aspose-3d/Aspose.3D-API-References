@@ -17,13 +17,13 @@ Eine Hilfsklasse zum Erstellen von Polygonen für Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor(mesh) | Initialisiert eine neue Instanz der Klasse PolygonBuilder. |
+| constructor(mesh) | Initialisiert eine neue Instanz der PolygonBuilder‑Klasse. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| mesh | Mesh | Auf welchem Mesh das Polygon erstellt werden soll. |
+| mesh | Mesh | Auf welchem Mesh das Polygon aufgebaut werden soll. |
 
  **Result:**
 
@@ -49,13 +49,13 @@ Eine Hilfsklasse zum Erstellen von Polygonen für Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| addVertex(index) | Fügt dem Polygon einen Scheitelindex hinzu |
+| addVertex(index) | Fügt dem Polygon einen Scheitelpunkt-Index hinzu |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| inde | Number | null |
+| inde | Zahl | null |
 
  **Result:**
 

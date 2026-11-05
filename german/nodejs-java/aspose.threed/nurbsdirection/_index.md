@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/nurbsdirection/
 ---
 ## NurbsDirection class
 
-Eine 3D NurbsSurface hat zwei Richtungen, NurbsSurface.U und NurbsSurface.V, die NurbsDirection definiert Daten für jede Richtung.  Eine Richtung ist tatsächlich eine NURBS-Kurve, das bedeutet, sie wird ebenfalls durch ihre Ordnung, ein KnotVectors und einen Satz gewichteter Kontrollpunkte (definiert in NurbsSurface) definiert.
+Eine 3D NurbsSurface hat zwei Richtungen, die NurbsSurface.U und NurbsSurface.V; die NurbsDirection definiert Daten für jede Richtung.  Eine Richtung ist tatsächlich eine NURBS-Kurve, das bedeutet, sie wird ebenfalls durch ihre Ordnung, KnotVectors und eine Menge gewichteter Kontrollpunkte (definiert in NurbsSurface) definiert.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Eine 3D NurbsSurface hat zwei Richtungen, NurbsSurface.U und NurbsSurface.V, die
 
 | Name | Beschreibung |
 | --- | --- |
-| getKnotVectors() | Ruft den Knotenvektor ab, er ist eine Sequenz von Parameterwerten, die bestimmen, wo und wie die Kontrollpunkte die NURBS-Kurve beeinflussen. |
+| getKnotVectors() | Ermittelt den Knotenvector, er ist eine Sequenz von Parameterwerten, die bestimmt, wo und wie die Kontrollpunkte die NURBS-Kurve beeinflussen. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Eine 3D NurbsSurface hat zwei Richtungen, NurbsSurface.U und NurbsSurface.V, die
 
 | Name | Beschreibung |
 | --- | --- |
-| getMultiplicity() | Gibt die Multiplizität zurück. Die Multiplizität. |
+| getMultiplicity() | Ermittelt die Multiplizität. Die Multiplizität. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Eine 3D NurbsSurface hat zwei Richtungen, NurbsSurface.U und NurbsSurface.V, die
 
 | Name | Beschreibung |
 | --- | --- |
-| getOrder() | Liest oder setzt die Ordnung einer NURBS-Kurve, sie definiert die Anzahl benachbarter Kontrollpunkte, die einen beliebigen Punkt der Kurve beeinflussen. |
+| getOrder() | Liest oder setzt die Ordnung einer NURBS‑Kurve, sie definiert die Anzahl benachbarter Kontrollpunkte, die einen beliebigen Punkt auf der Kurve beeinflussen. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Eine 3D NurbsSurface hat zwei Richtungen, NurbsSurface.U und NurbsSurface.V, die
 
 | Name | Beschreibung |
 | --- | --- |
-| setOrder(value) | Liest oder setzt die Ordnung einer NURBS-Kurve, sie definiert die Anzahl benachbarter Kontrollpunkte, die einen beliebigen Punkt der Kurve beeinflussen. |
+| setOrder(value) | Liest oder setzt die Ordnung einer NURBS‑Kurve, sie definiert die Anzahl benachbarter Kontrollpunkte, die einen beliebigen Punkt auf der Kurve beeinflussen. |
 
  **Result:**
 

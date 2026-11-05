@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/license/
 ---
 ## License class
 
-Stellt Methoden zum Lizenzieren der Komponente bereit.
+Stellt Methoden zur Lizenzierung der Komponente bereit.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Stellt Methoden zum Lizenzieren der Komponente bereit.
 
 | Name | Beschreibung |
 | --- | --- |
-| setLicense(licenseName) | Lizenziert die Komponente. Versucht, die Lizenz an den folgenden Orten zu finden:1. Expliziter Pfad.2. Der Ordner, der die Aspose‑Komponente‑JAR‑Datei enthält.3. Der Ordner, der die JAR‑Datei des aufrufenden Clients enthält. |
+| setLicense(licenseName) | Lizenziert die Komponente. Versucht die Lizenz an den folgenden Orten zu finden:1. Expliziter Pfad.2. Der Ordner, der die Aspose component JAR file enthält.3. Der Ordner, der die client's calling JAR file enthält. |
 
  **Result:**
 

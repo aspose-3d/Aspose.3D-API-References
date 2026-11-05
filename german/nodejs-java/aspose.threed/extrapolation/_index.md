@@ -43,7 +43,7 @@ Extrapolation definiert, wie vorzugehen ist, wenn ein abgetasteter Wert außerha
 
 | Name | Beschreibung |
 | --- | --- |
-| getRepeatCount() | Liest und setzt die Wiederholungsanzahl des Extrapolationsmusters. Der Zähler. |
+| getRepeatCount() | Liest und setzt die Wiederholungsanzahl des Extrapolationsmusters. Die Anzahl. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Extrapolation definiert, wie vorzugehen ist, wenn ein abgetasteter Wert außerha
 
 | Name | Beschreibung |
 | --- | --- |
-| setRepeatCount(value) | Liest und setzt die Wiederholungsanzahl des Extrapolationsmusters. Der Zähler. |
+| setRepeatCount(value) | Liest und setzt die Wiederholungsanzahl des Extrapolationsmusters. Die Anzahl. |
 
  **Result:**
 

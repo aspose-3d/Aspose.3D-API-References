@@ -30,7 +30,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlipCoordinateSystem() | Gibt an oder legt fest, ob das Koordinatensystem der Kontrollpunkte/Normalen beim Importieren umgekehrt wird |
+| getFlipCoordinateSystem() | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Importieren umgekehrt wird |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Gibt an oder legt fest, ob das Koordinatensystem der Kontrollpunkte/Normalen beim Importieren umgekehrt wird |
+| setFlipCoordinateSystem(value) | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Importieren umgekehrt wird |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| getEnableMaterials() | Gibt an oder legt fest, ob Materialien für jedes Objekt importiert werden |
+| getEnableMaterials() | Liest oder setzt, ob Materialien für jedes Objekt importiert werden |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| setEnableMaterials(value) | Gibt an oder legt fest, ob Materialien für jedes Objekt importiert werden |
+| setEnableMaterials(value) | Liest oder setzt, ob Materialien für jedes Objekt importiert werden |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| getScale() | Skaliert entlang der x/y/z‑Achsen, Standardwert ist 1,0 |
+| getScale() | Skalierungen auf der x/y/z-Achse, Standardwert ist 1.0 |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| setScale(value) | Skaliert entlang der x/y/z‑Achsen, Standardwert ist 1,0 |
+| setScale(value) | Skalierungen auf der x/y/z-Achse, Standardwert ist 1.0 |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| getNormalizeNormal() | Gibt an oder legt fest, ob der Normalenvektor beim Laden normalisiert wird. Der Standardwert ist true. |
+| getNormalizeNormal() | Liest oder setzt, ob der Normalenvektor beim Laden normalisiert wird. Standardwert ist true. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| setNormalizeNormal(value) | Gibt an oder legt fest, ob der Normalenvektor beim Laden normalisiert wird. Der Standardwert ist true. |
+| setNormalizeNormal(value) | Liest oder setzt, ob der Normalenvektor beim Laden normalisiert wird. Standardwert ist true. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Ladeoptionen für Wavefront OBJ
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

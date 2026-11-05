@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/initializationexception/
 ---
 ## InitializationException class
 
-Ausnahmen bei der Initialisierung der Render-Pipeline
+Ausnahmen bei der Initialisierung der Rendering-Pipeline
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Ausnahmen bei der Initialisierung der Render-Pipeline
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiere eine Instanz von InitializationException |
+| constructor() | Initialisiert eine Instanz von InitializationException |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Ausnahmen bei der Initialisierung der Render-Pipeline
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(msg) | Initialisiere eine Instanz von InitializationException mit der angegebenen Ausnahme­nachricht. |
+| constructor_overload(msg) | Initialisiert eine Instanz von InitializationException mit der angegebenen Ausnahme­nachricht. |
 
  **Result:**
 

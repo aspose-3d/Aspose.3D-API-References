@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/ziparchivefilesystem/
 ---
 ## ZipArchiveFileSystem class
 
-Dateisystem, das nur Lesezugriff auf die angegebene ZIP-Datei oder den ZIP-Stream ermöglicht.  Das Dateisystem wird nach dem Öffnen/Speichern freigegeben.
+Dateisystem, das einen schreibgeschützten Zugriff auf die angegebene ZIP-Datei oder den ZIP-Stream ermöglicht.  Das Dateisystem wird nach dem Öffnen/Speichern freigegeben.
 
 
 ## Methoden
@@ -43,7 +43,7 @@ Dateisystem, das nur Lesezugriff auf die angegebene ZIP-Datei oder den ZIP-Strea
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileNam | String | null |
-| Option | IOConfig | null |
+| option | IOConfig | null |
 
  **Result:**
 Stream
@@ -63,7 +63,7 @@ Stream
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileNam | String | null |
-| Option | IOConfig | null |
+| option | IOConfig | null |
 
  **Result:**
 Stream

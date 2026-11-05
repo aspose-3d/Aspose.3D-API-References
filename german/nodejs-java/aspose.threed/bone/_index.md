@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/bone/
 ---
 ## Bone class
 
-Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das Blend‑Gewicht für jeden Kontrollpunkt fest.  Das Bone‑Objekt kann nicht direkt verwendet werden; eine SkinDeformer‑Instanz wird verwendet, um die Geometrie zu verformen, und SkinDeformer enthält einen Satz von Bones, wobei jeder Bone mit einem Knoten verknüpft ist.  HINWEIS: Ein Kontrollpunkt einer Geometrie kann an mehr als einem Bone gebunden sein.
+Ein Bone definiert die Teilmenge der Kontrollpunkte einer Geometrie und legt das Blend‑Weight für jeden Kontrollpunkt fest.  Das Bone‑Objekt kann nicht direkt verwendet werden; eine SkinDeformer‑Instanz wird zum Verformen der Geometrie eingesetzt, und SkinDeformer enthält eine Menge von Bones, wobei jeder Bone mit einem Knoten verknüpft ist.  HINWEIS: Ein Kontrollpunkt einer Geometrie kann an mehr als einem Bone gebunden sein.
 
 
 ## Methoden
@@ -17,13 +17,13 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor(name) | Initialisiert eine neue Instanz der Bone-Klasse. |
+| constructor(name) | Initialisiert eine neue Instanz der Klasse Bone. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
+| name | String | Name. |
 
  **Result:**
 
@@ -36,7 +36,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload() | Initialisiert eine neue Instanz der Bone-Klasse. |
+| constructor_overload() | Initialisiert eine neue Instanz der Klasse Bone. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| getWeightCount() | Liest die Anzahl der Gewichte, diese wird automatisch durch setWeight(int, double) erweitert. |
+| getWeightCount() | Gibt die Anzahl der Gewichte zurück, diese wird automatisch durch setWeight(int, double) erweitert. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| getTransform() | Liest oder setzt die Transformationsmatrix des Knotens, der das Bone enthält. |
+| getTransform() | Liest oder setzt die Transformationsmatrix des Knotens, der den Knochen enthält. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| setTransform(value) | Liest oder setzt die Transformationsmatrix des Knotens, der das Bone enthält. |
+| setTransform(value) | Liest oder setzt die Transformationsmatrix des Knotens, der den Knochen enthält. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| getNode() | Liest oder setzt den Knoten. Der Knochenknoten ist der Knochen, an dem die Haut befestigt ist; der SkinDeformer verwendet den Knochenknoten, um die Verschiebung der Kontrollpunkte zu beeinflussen. Der Knochenknoten hat normalerweise ein Skeleton angehängt, aber das ist nicht erforderlich. Das angehängte Skeleton wird üblicherweise von DCC‑Software verwendet, um dem Benutzer das Skelett anzuzeigen. |
+| getNode() | Liest oder setzt den Knoten. Der bone node ist der Knochen, an dem das Skin befestigt ist; der SkinDeformer verwendet den bone node, um die Verschiebung der Kontrollpunkte zu beeinflussen. Der bone node hat normalerweise ein Skeleton angehängt, aber das ist nicht erforderlich. Das angehängte Skeleton wird üblicherweise von DCC-Software verwendet, um dem Benutzer das Skelett anzuzeigen. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| setNode(value) | Liest oder setzt den Knoten. Der Knochenknoten ist der Knochen, an dem die Haut befestigt ist; der SkinDeformer verwendet den Knochenknoten, um die Verschiebung der Kontrollpunkte zu beeinflussen. Der Knochenknoten hat normalerweise ein Skeleton angehängt, aber das ist nicht erforderlich. Das angehängte Skeleton wird üblicherweise von DCC‑Software verwendet, um dem Benutzer das Skelett anzuzeigen. |
+| setNode(value) | Liest oder setzt den Knoten. Der bone node ist der Knochen, an dem das Skin befestigt ist; der SkinDeformer verwendet den bone node, um die Verschiebung der Kontrollpunkte zu beeinflussen. Der bone node hat normalerweise ein Skeleton angehängt, aber das ist nicht erforderlich. Das angehängte Skeleton wird üblicherweise von DCC-Software verwendet, um dem Benutzer das Skelett anzuzeigen. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -205,16 +205,16 @@ Ein Bone definiert die Teilmenge der Kontrollpunkte der Geometrie und legt das B
 
 | Name | Beschreibung |
 | --- | --- |
-| getWeight(index) | Liest das Gewicht für den Kontrollpunkt, der durch den Index angegeben ist |
+| getWeight(index) | Liest das Gewicht für den Kontrollpunkt, der durch den Index angegeben ist. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Index | Number | Index des Kontrollpunkts |
+| index | Zahl | Index des Kontrollpunkts |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -224,17 +224,17 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| setWeight(index, weight) | Setzt das Gewicht für den Kontrollpunkt, der durch den Index angegeben ist |
+| setWeight(index, weight) | Setzt das Gewicht für den Kontrollpunkt, der durch den Index angegeben ist. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Index | Number | Index des Kontrollpunkts |
-| Gewicht | Number | Neues Gewicht |
+| index | Zahl | Index des Kontrollpunkts |
+| Gewicht | Zahl | Neues Gewicht |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -250,7 +250,7 @@ Number
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -263,7 +263,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -282,7 +282,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -291,7 +291,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -308,10 +308,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -321,7 +321,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -330,7 +330,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

@@ -17,7 +17,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| Konstruktor(contentType) | Erstelle eine RvmLoadOptions-Instanz |
+| constructor(contentType) | Erstelle eine RvmLoadOptions-Instanz |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| getGenerateMaterials() | Materialien mit zufälligen Farben für jedes Objekt in der Szene erzeugen, wenn die Farbpalette nicht im RVM‑Datei exportiert wird. Standardwert ist true |
+| getGenerateMaterials() | Erzeugt Materialien mit zufälligen Farben für jedes Objekt in der Szene, wenn die Farbpalette nicht innerhalb der RVM-Datei exportiert wird. Standardwert ist true |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| setGenerateMaterials(value) | Materialien mit zufälligen Farben für jedes Objekt in der Szene erzeugen, wenn die Farbpalette nicht im RVM‑Datei exportiert wird. Standardwert ist true |
+| setGenerateMaterials(value) | Erzeugt Materialien mit zufälligen Farben für jedes Objekt in der Szene, wenn die Farbpalette nicht innerhalb der RVM-Datei exportiert wird. Standardwert ist true |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| getCenterScene() | Zentriere die Szene, nachdem sie geladen wurde. |
+| getCenterScene() | Zentriert die Szene, nachdem sie geladen wurde. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| setCenterScene(value) | Zentriere die Szene, nachdem sie geladen wurde. |
+| setCenterScene(value) | Zentriert die Szene, nachdem sie geladen wurde. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupAttributes() | Liest oder setzt, ob Attribute aus einer externen Attributlisten-Datei (.att/.attrib/.txt) geladen werden sollen, Standardwert ist true. |
+| getLookupAttributes() | Liest oder setzt, ob Attribute aus einer externen Attributlisten-Datei (.att/.attrib/.txt) geladen werden, Standardwert ist true. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| setLookupAttributes(value) | Liest oder setzt, ob Attribute aus einer externen Attributlisten-Datei (.att/.attrib/.txt) geladen werden sollen, Standardwert ist true. |
+| setLookupAttributes(value) | Liest oder setzt, ob Attribute aus einer externen Attributlisten-Datei (.att/.attrib/.txt) geladen werden, Standardwert ist true. |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Ladeoptionen für die RVM-Datei des AVEVA Plant Design Management Systems.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

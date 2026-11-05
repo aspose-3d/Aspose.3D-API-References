@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/scene/
 ---
 ## Scene class
 
-Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Texturen, Animationen, Posen, Unterszenen usw. enthält.  Eine Szene kann Unterszenen haben und dient als Mehrdokumentenunterstützung in Dateien wie collada/blender/fbx.  Auf die Node-Hierarchie kann über RootNodeLibrary zugegriffen werden, die verwendet wird, um während der Serialisierung (wie Metadaten oder benutzerdefinierte Objekte) einen Verweis auf nicht angehängte Objekte zu behalten, sodass sie als Bibliothek genutzt werden kann.
+Eine Szene ist ein Top-Level-Objekt, das die Knoten, Geometrien, Materialien, Texturen, Animationen, Posen, Unterszenen usw. enthält.  Eine Szene kann Unterszenen haben und dient als Mehrdokumentenunterstützung in Dateien wie collada/blender/fbx.  Auf die Knotenhierarchie kann über RootNodeLibrary zugegriffen werden, die verwendet wird, um während der Serialisierung (wie Metadaten oder benutzerdefinierte Objekte) eine Referenz zu nicht angehängten Objekten zu behalten, sodass sie als Bibliothek genutzt werden kann.
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiert eine neue Instanz der Scene-Klasse. |
+| constructor() | Initialisiert eine neue Instanz der Klasse Scene. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| Konstruktor_Überladung(entity) | Initialisiert eine neue Instanz der Scene-Klasse mit einer an einen neuen Knoten angehängten Entität. |
+| constructor_overload(entity) | Initialisiert eine neue Instanz der Klasse Scene mit einer an einen neuen Knoten angehängten Entität. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Entität | Entity | Die anfängliche Entität, die an die Szene angehängt wurde |
+| Entität | Entität | Die anfängliche Entität, die an die Szene angehängt wird |
 
  **Result:**
 
@@ -49,14 +49,14 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| Konstruktor_Überladung2(parentScene, name) | Initialisiert eine neue Instanz der Scene-Klasse als Unterszene. |
+| constructor_overload2(parentScene, name) | Initialisiert eine neue Instanz der Klasse Scene als Unterszene. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | parentScene | Szene | Die übergeordnete Szene. |
-| Name | String | Name der Szene. |
+| name | String | Name der Szene. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| Konstruktor_Überladung3(fileName) | Initialisiert eine neue Instanz der Scene-Klasse und öffnet die Datei sofort. Dies ist ein veralteter Konstruktor, bitte verwenden Sie #Error Cref: M:Aspose.ThreeD.Scene.FromFile(System.String,System.Threading.CancellationToken). |
+| constructor_overload3(fileName) | Initialisiert eine neue Instanz der Scene-Klasse und öffnet die Datei sofort. Dies ist ein veralteter Konstruktor, bitte verwenden Sie #Error Cref: M:Aspose.ThreeD.Scene.FromFile(System.String,System.Threading.CancellationToken). |
 
  **Parameters:**
 
@@ -88,7 +88,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getSubScenes() | Gibt alle Unterszenen zurück. |
+| getSubScenes() | Gibt alle Unter‑Szenen zurück. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getLibrary() | Objekte, die nicht direkt in der Szenenhierarchie verwendet werden, können in der Bibliothek definiert werden. Dies ist nützlich, wenn Sie Unterszenen verwenden und wiederverwendbare Komponenten unter Unterszenen ablegen. |
+| getLibrary() | Objekte, die nicht direkt in der Szenenhierarchie verwendet werden, können in der Bibliothek definiert werden. Dies ist nützlich, wenn Sie Unter‑Szenen verwenden und wiederverwendbare Komponenten unter Unter‑Szenen ablegen. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getAnimationClips() | Gibt alle in der Szene definierten AnimationClip zurück. |
+| getAnimationClips() | Gibt alle in der Szene definierten AnimationClips zurück. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getCurrentAnimationClip() | Liest oder setzt das aktive AnimationClip |
+| getCurrentAnimationClip() | Liest oder setzt den aktiven AnimationClip |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| setCurrentAnimationClip(value) | Liest oder setzt das aktive AnimationClip |
+| setCurrentAnimationClip(value) | Liest oder setzt den aktiven AnimationClip |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getAssetInfo() | Liest oder setzt die Asset-Informationen auf höchster Ebene. Die Dokumentinformationen. |
+| getAssetInfo() | Liest oder setzt die übergeordnete Asset-Information, die Dokumentinformationen. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| setAssetInfo(value) | Liest oder setzt die Asset-Informationen auf höchster Ebene. Die Dokumentinformationen. |
+| setAssetInfo(value) | Liest oder setzt die übergeordnete Asset-Information, die Dokumentinformationen. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getPoses() | Liest alle in dieser Szene verwendeten Posen. Die Posen. |
+| getPoses() | Gibt alle in dieser Szene verwendeten Posen zurück. Die Posen. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getRootNode() | Liest den Wurzelknoten der Szene. Der Wurzelknoten. |
+| getRootNode() | Gibt den Wurzelknoten der Szene zurück. Der Wurzelknoten. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -257,13 +257,13 @@ Eine Szene ist ein Top-Level-Objekt, das die Nodes, Geometrien, Materialien, Tex
 
 | Name | Beschreibung |
 | --- | --- |
-| getAnimationClip(name) | Liest ein benanntes AnimationClip |
+| getAnimationClip(name) | Gibt einen benannten AnimationClip zurück |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Der |
+| name | String | Der |
 
  **Result:**
 AnimationClip
@@ -276,7 +276,7 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| clear() | Löscht den Inhalt der Szene und stellt die Standardeinstellungen wieder her. |
+| clear() | Löscht den Szeneninhalt und stellt die Standardeinstellungen wieder her. |
 
  **Result:**
 AnimationClip
@@ -289,13 +289,13 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| createAnimationClip(name) | Eine Kurzschreibweise-Funktion zum Erstellen und Registrieren des AnimationClip. Das erste AnimationClip wird dem CurrentAnimationClip zugewiesen. |
+| createAnimationClip(name) | Eine Kurzschreibfunktion zum Erstellen und Registrieren des AnimationClips. Der erste AnimationClip wird dem CurrentAnimationClip zugewiesen. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name des Animationsclips |
+| name | String | Name des Animationsclips |
 
  **Result:**
 AnimationClip
@@ -308,14 +308,14 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| open(fileName, options) | Öffnet die Szene aus dem angegebenen Pfad unter Verwendung des angegebenen Dateiformats. |
+| open(fileName, options) | Öffnet die Szene vom angegebenen Pfad unter Verwendung des angegebenen Dateiformats. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Dateiname. |
-| options | LoadOptions | Detailliertere Konfiguration zum Öffnen des Streams. |
+| Optionen | LoadOptions | Detailliertere Konfiguration zum Öffnen des Streams. |
 
  **Result:**
 AnimationClip
@@ -328,7 +328,7 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| open(fileName) | Öffnet die Szene aus dem angegebenen Pfad. |
+| open(fileName) | Öffnet die Szene vom angegebenen Pfad |
 
  **Parameters:**
 
@@ -347,7 +347,7 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| fromFile(fileName) | Öffnet die Szene aus dem angegebenen Pfad. |
+| fromFile(fileName) | Öffnet die Szene vom angegebenen Pfad |
 
  **Parameters:**
 
@@ -366,7 +366,7 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| save(fileName) | Speichert die Szene im angegebenen Pfad unter Verwendung des angegebenen Dateiformats. |
+| save(fileName) | Speichert die Szene am angegebenen Pfad unter Verwendung des angegebenen Dateiformats. |
 
  **Parameters:**
 
@@ -385,7 +385,7 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| save(fileName, format) | Speichert die Szene im angegebenen Pfad unter Verwendung des angegebenen Dateiformats. |
+| save(fileName, format) | Speichert die Szene am angegebenen Pfad unter Verwendung des angegebenen Dateiformats. |
 
  **Parameters:**
 
@@ -405,14 +405,14 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| save(fileName, options) | Speichert die Szene im angegebenen Pfad unter Verwendung des angegebenen Dateiformats. |
+| save(fileName, options) | Speichert die Szene am angegebenen Pfad unter Verwendung des angegebenen Dateiformats. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Dateiname. |
-| options | SaveOptions | Detailliertere Konfiguration zum Speichern des Streams. |
+| Optionen | SaveOptions | Detailliertere Konfiguration zum Speichern des Streams. |
 
  **Result:**
 AnimationClip
@@ -425,13 +425,13 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| render(camera, fileName) | Rendern Sie die Szene aus der angegebenen Kameraperspektive in eine externe Datei. Die Standardausgabegröße beträgt 1024 × 768 und das Ausgabeformat ist PNG |
+| render(camera, fileName) | Rendert die Szene in eine externe Datei aus der Sicht der angegebenen Kamera. Die Standardausgabegröße ist 1024x768 und das Ausgabeformat ist png. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
 | fileName | String | Der Dateiname der Ausgabedatei |
 
  **Result:**
@@ -445,15 +445,15 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| render(camera, fileName, size, format) | Rendert die Szene aus der Sicht der angegebenen Kamera in eine externe Datei. |
+| render(camera, fileName, size, format) | Rendert die Szene in eine externe Datei aus der Sicht der angegebenen Kamera. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
 | fileName | String | Der Dateiname der Ausgabedatei |
-| Größe | Vector2 | Die Größe des finalen gerenderten Bildes |
+| Größe | Vector2 | Die Größe des final gerenderten Bildes |
 | Format | String | Das Bildformat der Ausgabedatei |
 
  **Result:**
@@ -467,17 +467,17 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| render(camera, fileName, size, format, options) | Rendert die Szene aus der Sicht der angegebenen Kamera in eine externe Datei. |
+| render(camera, fileName, size, format, options) | Rendert die Szene in eine externe Datei aus der Sicht der angegebenen Kamera. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
 | fileName | String | Der Dateiname der Ausgabedatei |
-| Größe | Vector2 | Die Größe des finalen gerenderten Bildes |
+| Größe | Vector2 | Die Größe des final gerenderten Bildes |
 | Format | String | Das Bildformat der Ausgabedatei |
-| options | ImageRenderOptions | Die Option, einige interne Einstellungen anzupassen. |
+| Optionen | ImageRenderOptions | Die Option, einige interne Einstellungen anzupassen. |
 
  **Result:**
 AnimationClip
@@ -490,13 +490,13 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| render(camera, bitmap) | Rendert die Szene aus der Sicht der angegebenen Kamera in ein Bitmap. |
+| render(camera, bitmap) | Rendern Sie die Szene aus der Sicht der angegebenen Kamera in ein Bitmap. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
 | Bitmap | TextureData | Ziel des gerenderten Ergebnisses |
 
  **Result:**
@@ -510,15 +510,15 @@ AnimationClip
 
 | Name | Beschreibung |
 | --- | --- |
-| render(camera, bitmap, options) | Rendert die Szene aus der Sicht der angegebenen Kamera in ein Bitmap. |
+| render(camera, bitmap, options) | Rendern Sie die Szene aus der Sicht der angegebenen Kamera in ein Bitmap. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| camera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
+| Kamera | Kamera | Aus welcher Kameraperspektive die Szene gerendert werden soll |
 | Bitmap | TextureData | Ziel des gerenderten Ergebnisses |
-| options | ImageRenderOptions | Die Option, einige interne Einstellungen anzupassen. |
+| Optionen | ImageRenderOptions | Die Option, einige interne Einstellungen anzupassen. |
 
  **Result:**
 AnimationClip
@@ -537,7 +537,7 @@ AnimationClip
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -550,7 +550,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -569,7 +569,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -578,7 +578,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -595,10 +595,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -608,7 +608,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -617,7 +617,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

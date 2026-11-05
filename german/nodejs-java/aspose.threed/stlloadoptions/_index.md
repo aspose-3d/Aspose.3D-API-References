@@ -17,7 +17,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiert eine neue Instanz von StlLoadOptions. |
+| constructor() | Initialisiert eine neue StlLoadOptions‑Instanz. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(contentType) | Initialisiert eine neue Instanz von StlLoadOptions. |
+| constructor_overload(contentType) | Initialisiert eine neue StlLoadOptions‑Instanz. |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlipCoordinateSystem() | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Importieren umgekehrt wird. |
+| getFlipCoordinateSystem() | Legt fest oder gibt an, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Importieren umgekehrt werden soll. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Importieren umgekehrt wird. |
+| setFlipCoordinateSystem(value) | Legt fest oder gibt an, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Importieren umgekehrt werden soll. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| getRecalculateNormal() | Ignoriert die Normaldaten, die in der STL-Datei gespeichert sind, und berechnet die Normaldaten basierend auf der Vertex-Position neu. Standardwert ist false |
+| getRecalculateNormal() | Ignoriert die im STL‑Datei gespeicherten Normaldaten und berechnet die Normaldaten basierend auf der Vertex‑Position neu. Standardwert ist false. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| setRecalculateNormal(value) | Ignoriert die Normaldaten, die in der STL-Datei gespeichert sind, und berechnet die Normaldaten basierend auf der Vertex-Position neu. Standardwert ist false |
+| setRecalculateNormal(value) | Ignoriert die im STL‑Datei gespeicherten Normaldaten und berechnet die Normaldaten basierend auf der Vertex‑Position neu. Standardwert ist false. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Ladeoptionen für STL
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

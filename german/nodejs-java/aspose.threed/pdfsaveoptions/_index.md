@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
 
-Die Speicheroptionen beim PDF‑Export.
+Die Speicheroptionen beim PDF-Export.
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getRenderMode() | Der Rendermodus gibt den Stil an, in dem das 3D‑Werk gerendert wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante PdfRenderMode. |
+| getRenderMode() | Der Rendermodus gibt den Stil an, in dem das 3D‑Werk dargestellt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante PdfRenderMode. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| setRenderMode(value) | Der Rendermodus gibt den Stil an, in dem das 3D‑Werk gerendert wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante PdfRenderMode. |
+| setRenderMode(value) | Der Rendermodus gibt den Stil an, in dem das 3D‑Werk dargestellt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante PdfRenderMode. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getBackgroundColor() | Hintergrundfarbe der 3D-Ansicht in der PDF-Datei. |
+| getBackgroundColor() | Hintergrundfarbe der 3D‑Ansicht in der PDF‑Datei. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| setBackgroundColor(value) | Hintergrundfarbe der 3D-Ansicht in der PDF-Datei. |
+| setBackgroundColor(value) | Hintergrundfarbe der 3D‑Ansicht in der PDF‑Datei. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFaceColor() | Liest oder setzt die Gesichtsfarbe, die beim Rendern des 3D-Inhalts verwendet wird. Dies ist nur relevant, wenn der RenderMode den Wert Illustration hat. |
+| getFaceColor() | Liest oder setzt die Gesichtsfarbe, die beim Rendern des 3D‑Inhalts verwendet wird. Dies ist nur relevant, wenn der RenderMode den Wert Illustration hat. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFaceColor(value) | Liest oder setzt die Gesichtsfarbe, die beim Rendern des 3D-Inhalts verwendet wird. Dies ist nur relevant, wenn der RenderMode den Wert Illustration hat. |
+| setFaceColor(value) | Liest oder setzt die Gesichtsfarbe, die beim Rendern des 3D‑Inhalts verwendet wird. Dies ist nur relevant, wenn der RenderMode den Wert Illustration hat. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getAuxiliaryColor() | Liest oder setzt die Hilfsfarbe, die beim Rendern des 3D-Inhalts verwendet wird. Die Interpretation dieser Farbe hängt vom RenderMode ab. |
+| getAuxiliaryColor() | Liest oder setzt die Hilfsfarbe, die beim Rendern des 3D‑Inhalts verwendet wird. Die Interpretation dieser Farbe hängt vom RenderMode ab. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| setAuxiliaryColor(value) | Liest oder setzt die Hilfsfarbe, die beim Rendern des 3D-Inhalts verwendet wird. Die Interpretation dieser Farbe hängt vom RenderMode ab. |
+| setAuxiliaryColor(value) | Liest oder setzt die Hilfsfarbe, die beim Rendern des 3D‑Inhalts verwendet wird. Die Interpretation dieser Farbe hängt vom RenderMode ab. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlipCoordinateSystem() | Liest oder setzt, ob das Koordinatensystem der Szene beim Export umgekehrt wird. |
+| getFlipCoordinateSystem() | Liest oder setzt, um das Koordinatensystem der Szene beim Export umzudrehen. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Liest oder setzt, ob das Koordinatensystem der Szene beim Export umgekehrt wird. |
+| setFlipCoordinateSystem(value) | Liest oder setzt, um das Koordinatensystem der Szene beim Export umzudrehen. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEmbedTextures() | Betten Sie die externen Texturen in die PDF-Datei ein, der Standardwert ist false. |
+| getEmbedTextures() | Betten Sie die externen Texturen in die PDF‑Datei ein, der Standardwert ist false. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| setEmbedTextures(value) | Betten Sie die externen Texturen in die PDF-Datei ein, der Standardwert ist false. |
+| setEmbedTextures(value) | Betten Sie die externen Texturen in die PDF‑Datei ein, der Standardwert ist false. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Die Speicheroptionen beim PDF‑Export.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

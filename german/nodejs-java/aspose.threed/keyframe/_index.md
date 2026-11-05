@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/keyframe/
 ---
 ## KeyFrame class
 
-Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert; bei einigen Interpolationstypen werden Tangente/Spannung/Bias/Kontinuität ebenfalls zur Berechnung des endgültigen abgetasteten Wertes verwendet. Abgetastete Werte an einer Zeitposition, die kein Schlüsselbild ist, werden durch Schlüsselbilder zwischen dem vorherigen und dem nächsten Schlüsselbild interpoliert. Werte vor/nach dem ersten/letzten Schlüsselbild werden von der Extrapolation-Klasse berechnet.
+Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert, für einige Interpolationstypen werden Tangente/Spannung/Bias/Kontinuität ebenfalls verwendet, um den endgültigen abgetasteten Wert zu berechnen.  Abgetastete Werte an einer Zeitposition ohne Schlüsselbild werden durch Schlüsselbilder zwischen dem vorherigen und dem nächsten Schlüsselbild interpoliert.  Werte vor/nach dem ersten/letzten Schlüsselbild werden von der Extrapolation-Klasse berechnet.
 
 
 ## Methoden
@@ -17,14 +17,14 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor(curve, time) | Erstelle ein neues Schlüsselbild auf der angegebenen Kurve |
+| constructor(curve, time) | Erstelle einen neuen Keyframe auf der angegebenen Kurve |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| curve | KeyframeSequence | Die Kurve, auf der das Schlüsselbild erstellt wird. |
-| Zeit | Number | Die Zeitposition des Schlüsselbilds. |
+| curve | KeyframeSequence | Die Kurve, auf der der Keyframe erstellt wird |
+| time | Zahl | Die Zeitposition des Keyframes |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getTime() | Liest oder setzt die Zeitposition des Schlüsselbilds list.data[index], gemessen in Sekunden. Die Zeit. |
+| getTime() | Liest oder setzt die Zeitposition des Keyframes list.data[index], gemessen in Sekunden. Die Zeit. |
 
  **Result:**
 
@@ -50,7 +50,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setTime(value) | Liest oder setzt die Zeitposition des Schlüsselbilds list.data[index], gemessen in Sekunden. Die Zeit. |
+| setTime(value) | Liest oder setzt die Zeitposition des Keyframes list.data[index], gemessen in Sekunden. Die Zeit. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getInterpolation() | Liest oder setzt den Interpolationstyp des Schlüssels, list.data[index] definiert den Algorithmus, wie der abgetastete Wert berechnet wird. Der Wert der Eigenschaft ist die ganzzahlige Konstante Interpolation. Die Interpolation. |
+| getInterpolation() | Liest oder setzt den Interpolationstyp des Schlüssels, list.data[index] definiert den Algorithmus, wie der abgetastete Wert berechnet wird. Der Wert der Eigenschaft ist die Interpolation ganzzahlige Konstante. Die Interpolation. |
 
  **Result:**
 
@@ -102,7 +102,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setInterpolation(value) | Liest oder setzt den Interpolationstyp des Schlüssels, list.data[index] definiert den Algorithmus, wie der abgetastete Wert berechnet wird. Der Wert der Eigenschaft ist die ganzzahlige Konstante Interpolation. Die Interpolation. |
+| setInterpolation(value) | Liest oder setzt den Interpolationstyp des Schlüssels, list.data[index] definiert den Algorithmus, wie der abgetastete Wert berechnet wird. Der Wert der Eigenschaft ist die Interpolation ganzzahlige Konstante. Die Interpolation. |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getTangentWeightMode() | Liest oder setzt den Tangentialgewichtmodus des Schlüssels. Der Ausgangstangente oder die nächste Eingangs‑Tangente kann durch Auswahl des richtigen WeightedMode angepasst werden. Der Wert der Eigenschaft ist die ganzzahlige Konstante WeightedMode. Der Tangentialgewichtmodus. |
+| getTangentWeightMode() | Liest oder setzt den Tangenten‑Gewichtsmodus des Schlüssels. Die Ausgangstangente oder die nächste Eingangs‑Tangente kann durch Auswahl des korrekten WeightedMode angepasst werden. Der Wert der Eigenschaft ist die WeightedMode ganzzahlige Konstante. Der Tangenten‑Gewichtsmodus. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setTangentWeightMode(value) | Liest oder setzt den Tangentialgewichtmodus des Schlüssels. Der Ausgangstangente oder die nächste Eingangs‑Tangente kann durch Auswahl des richtigen WeightedMode angepasst werden. Der Wert der Eigenschaft ist die ganzzahlige Konstante WeightedMode. Der Tangentialgewichtmodus. |
+| setTangentWeightMode(value) | Liest oder setzt den Tangenten‑Gewichtsmodus des Schlüssels. Die Ausgangstangente oder die nächste Eingangs‑Tangente kann durch Auswahl des korrekten WeightedMode angepasst werden. Der Wert der Eigenschaft ist die WeightedMode ganzzahlige Konstante. Der Tangenten‑Gewichtsmodus. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getStepMode() | Liest oder setzt den Schrittmodus des Schlüssels. Wenn der Interpolationstyp Interpolation.CONSTANT ist, entscheidet list.data[index], welcher Schlüsselbildwert während der Interpolation verwendet wird. Ein StepMode.PREVIOUS_VALUE bedeutet, dass der Wert des linken Schlüsselbildes verwendet wird. Ein StepMode.NEXT_VALUE bedeutet, dass der Wert des nächsten rechten Schlüsselbildes verwendet wird. Der Wert der Eigenschaft ist die ganzzahlige Konstante StepMode. Der Schrittmodus. |
+| getStepMode() | Liest oder setzt den Schrittmodus des Schlüssels. Wenn der Interpolationstyp Interpolation.CONSTANT ist, entscheidet list.data[index], welcher Schlüsselbildwert während der Interpolation verwendet wird. Ein StepMode.PREVIOUS_VALUE bedeutet, dass der Wert des linken Schlüsselbildes verwendet wird. Ein StepMode.NEXT_VALUE bedeutet, dass der Wert des nächsten rechten Schlüsselbildes verwendet wird. Der Wert der Eigenschaft ist die StepMode ganzzahlige Konstante. Der Schrittmodus. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setStepMode(value) | Liest oder setzt den Schrittmodus des Schlüssels. Wenn der Interpolationstyp Interpolation.CONSTANT ist, entscheidet list.data[index], welcher Schlüsselbildwert während der Interpolation verwendet wird. Ein StepMode.PREVIOUS_VALUE bedeutet, dass der Wert des linken Schlüsselbildes verwendet wird. Ein StepMode.NEXT_VALUE bedeutet, dass der Wert des nächsten rechten Schlüsselbildes verwendet wird. Der Wert der Eigenschaft ist die ganzzahlige Konstante StepMode. Der Schrittmodus. |
+| setStepMode(value) | Liest oder setzt den Schrittmodus des Schlüssels. Wenn der Interpolationstyp Interpolation.CONSTANT ist, entscheidet list.data[index], welcher Schlüsselbildwert während der Interpolation verwendet wird. Ein StepMode.PREVIOUS_VALUE bedeutet, dass der Wert des linken Schlüsselbildes verwendet wird. Ein StepMode.NEXT_VALUE bedeutet, dass der Wert des nächsten rechten Schlüsselbildes verwendet wird. Der Wert der Eigenschaft ist die StepMode ganzzahlige Konstante. Der Schrittmodus. |
 
  **Result:**
 
@@ -271,7 +271,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getTension() | Liest oder setzt die Spannung, die im TCB‑Spline verwendet wird |
+| getTension() | Liest oder setzt die Spannung, die im TCB‑Spline verwendet wird. |
 
  **Result:**
 
@@ -284,7 +284,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setTension(value) | Liest oder setzt die Spannung, die im TCB‑Spline verwendet wird |
+| setTension(value) | Liest oder setzt die Spannung, die im TCB‑Spline verwendet wird. |
 
  **Result:**
 
@@ -297,7 +297,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getContinuity() | Liest oder setzt die Kontinuität, die im TCB‑Spline verwendet wird |
+| getContinuity() | Liest oder setzt die Kontinuität, die im TCB-Spline verwendet wird. |
 
  **Result:**
 
@@ -310,7 +310,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setContinuity(value) | Liest oder setzt die Kontinuität, die im TCB‑Spline verwendet wird |
+| setContinuity(value) | Liest oder setzt die Kontinuität, die im TCB-Spline verwendet wird. |
 
  **Result:**
 
@@ -323,7 +323,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getBias() | Liest oder setzt den Bias, der in TCB-Splines verwendet wird |
+| getBias() | Liest oder setzt die Verzerrung, die im TCB-Spline verwendet wird. |
 
  **Result:**
 
@@ -336,7 +336,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setBias(value) | Liest oder setzt den Bias, der in TCB-Splines verwendet wird |
+| setBias(value) | Liest oder setzt die Verzerrung, die im TCB-Spline verwendet wird. |
 
  **Result:**
 
@@ -349,7 +349,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getIndependentTangent() | Liest oder setzt, dass die Ausgangs- und nächsten Eingabetangenten unabhängig sind. |
+| getIndependentTangent() | Liest oder setzt, ob die Ausgangs- und nächsten Eingangs-Tangenten unabhängig sind. |
 
  **Result:**
 
@@ -362,7 +362,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setIndependentTangent(value) | Liest oder setzt, dass die Ausgangs- und nächsten Eingabetangenten unabhängig sind. |
+| setIndependentTangent(value) | Liest oder setzt, ob die Ausgangs- und nächsten Eingangs-Tangenten unabhängig sind. |
 
  **Result:**
 
@@ -375,7 +375,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlat() | Abrufen oder Festlegen, ob das Schlüsselbild flach ist. Das Schlüsselbild sollte flach sein, wenn das nächste oder vorherige Schlüsselbild denselben Wert hat. Ein flaches Schlüsselbild hat flache Tangenten und feste Interpolation. |
+| getFlat() | Liest oder setzt, ob das Schlüsselbild flach ist. Das Schlüsselbild sollte flach sein, wenn das nächste oder vorherige Schlüsselbild denselben Wert hat. Ein flaches Schlüsselbild hat flache Tangenten und feste Interpolation. |
 
  **Result:**
 
@@ -388,7 +388,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlat(value) | Abrufen oder Festlegen, ob das Schlüsselbild flach ist. Das Schlüsselbild sollte flach sein, wenn das nächste oder vorherige Schlüsselbild denselben Wert hat. Ein flaches Schlüsselbild hat flache Tangenten und feste Interpolation. |
+| setFlat(value) | Liest oder setzt, ob das Schlüsselbild flach ist. Das Schlüsselbild sollte flach sein, wenn das nächste oder vorherige Schlüsselbild denselben Wert hat. Ein flaches Schlüsselbild hat flache Tangenten und feste Interpolation. |
 
  **Result:**
 
@@ -401,7 +401,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| getTimeIndependentTangent() | Liest oder setzt, dass die Tangente zeitunabhängig ist. |
+| getTimeIndependentTangent() | Liest oder setzt, ob die Tangente zeitunabhängig ist. |
 
  **Result:**
 
@@ -414,7 +414,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| setTimeIndependentTangent(value) | Liest oder setzt, dass die Tangente zeitunabhängig ist. |
+| setTimeIndependentTangent(value) | Liest oder setzt, ob die Tangente zeitunabhängig ist. |
 
  **Result:**
 
@@ -427,7 +427,7 @@ Ein Schlüsselbild wird hauptsächlich durch eine Zeit und einen Wert definiert;
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Liefert die Zeichenkettenrepräsentation des Schlüsselbilds. |
+| toString() | Liest die Zeichenkettenrepräsentation des Schlüsselbildes. |
 
  **Result:**
 String

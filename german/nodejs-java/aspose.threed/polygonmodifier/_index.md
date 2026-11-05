@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/polygonmodifier/
 ---
 ## PolygonModifier class
 
-Hilfsprogramme zum Modifizieren von Polygonen  @hideconstructor
+Hilfsprogramme zum Ändern von Polygonen  @hideconstructor
 
 
 ## Methoden
@@ -23,7 +23,7 @@ Hilfsprogramme zum Modifizieren von Polygonen  @hideconstructor
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| scene | Szene | Die zu verarbeitende Szene |
+| Szene | Szene | Die zu verarbeitende Szene |
 
  **Result:**
 
@@ -42,7 +42,7 @@ Hilfsprogramme zum Modifizieren von Polygonen  @hideconstructor
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| mesh | Mesh | Das ursprüngliche Nicht-Dreieck-Mesh |
+| mesh | Mesh | Das ursprüngliche Nicht-Dreiecks-Mesh |
 
  **Result:**
 Mesh
@@ -55,13 +55,13 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| mergeMesh(scene) | Konvertiere eine gesamte Szene in ein einzelnes transformiertes Mesh. Vertex-Elemente wie Normalen-/Texturkoordinaten werden noch nicht unterstützt. |
+| mergeMesh(scene) | Konvertiere eine gesamte Szene in ein einzelnes transformiertes Mesh. Vertex-Elemente wie Normalen-/Texturkoordinaten werden noch nicht unterstützt |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| scene | Szene | Die zusammenzufügende Szene |
+| Szene | Szene | Die Szene zum Zusammenführen |
 
  **Result:**
 Mesh
@@ -74,13 +74,13 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| mergeMesh(node) | Konvertiere einen gesamten Knoten in ein einzelnes transformiertes Mesh. Vertex-Elemente wie Normalen-/Texturkoordinaten werden noch nicht unterstützt. |
+| mergeMesh(node) | Konvertiere einen gesamten Knoten in ein einzelnes transformiertes Mesh. Vertex-Elemente wie Normalen-/Texturkoordinaten werden noch nicht unterstützt |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Knoten | Node | Der zu zusammenzufügenden Knoten |
+| Knoten | Knoten | Der Knoten zum Zusammenführen |
 
  **Result:**
 Mesh
@@ -93,13 +93,13 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| scale(scene, scale) | Skaliere alle Geometrien(Skaliere die Kontrollpunkte, nicht die Transformationsmatrix) in dieser Szene |
+| scale(scene, scale) | Skaliere alle Geometrien (Skaliere die Kontrollpunkte, nicht die Transformationsmatrix) in dieser Szene |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| scene | Szene | Die zu skalierende Szene |
+| Szene | Szene | Die Szene zum Skalieren |
 | Skalierung | Vector3 | Der Skalierungsfaktor |
 
  **Result:**
@@ -113,13 +113,13 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| scale(node, scale) | Skaliere alle Geometrien(Skaliere die Kontrollpunkte, nicht die Transformationsmatrix) in diesem Knoten |
+| scale(node, scale) | Skaliere alle Geometrien (Skaliere die Kontrollpunkte, nicht die Transformationsmatrix) in diesem Knoten |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Knoten | Node | Der zu skalierende Knoten |
+| Knoten | Knoten | Der Knoten zum Skalieren |
 | Skalierung | Vector3 | Der Skalierungsfaktor |
 
  **Result:**
@@ -133,7 +133,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| generateNormal(mesh) | Normaldaten aus Mesh-Definition erzeugen |
+| generateNormal(mesh) | Generiere Normaldaten aus der Mesh-Definition |
 
  **Result:**
 VertexElementNormal
@@ -146,7 +146,7 @@ VertexElementNormal
 
 | Name | Beschreibung |
 | --- | --- |
-| generateUV(mesh, normals) | UV-Daten aus dem angegebenen Eingabemesh und den angegebenen Normaldaten erzeugen. |
+| generateUV(mesh, normals) | Generiere UV-Daten aus dem angegebenen Eingabe-Mesh und den spezifizierten Normaldaten. |
 
  **Parameters:**
 
@@ -166,7 +166,7 @@ VertexElementUV
 
 | Name | Beschreibung |
 | --- | --- |
-| generateUV(mesh) | UV-Daten aus dem angegebenen Eingabemesh erzeugen |
+| generateUV(mesh) | Generiere UV-Daten aus dem angegebenen Eingabemesh |
 
  **Parameters:**
 
@@ -185,15 +185,15 @@ VertexElementUV
 
 | Name | Beschreibung |
 | --- | --- |
-| splitMesh(node, policy, createChildNodes, removeOldMesh) | Teile das Mesh in Unter-Meshes nach VertexElementMaterial. Jeder Unter-Mesh verwendet nur ein Material. Führe das Mesh-Splitting an einem Knoten aus. |
+| splitMesh(node, policy, createChildNodes, removeOldMesh) | Teile das Mesh anhand von VertexElementMaterial in Teil-Meshes auf. Jeder Teil-Mesh verwendet nur ein Material. Führe das Mesh-Splitting an einem Knoten durch. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| nod | Node | null |
-| Richtlinie | SplitMeshPolicy | SplitMeshPolicy |
-| createChildNodes | boolean | Erstelle Kindknoten für jeden Teil-Mesh. |
+| nod | Knoten | null |
+| policy | SplitMeshPolicy | SplitMeshPolicy |
+| createChildNodes | boolean | Erstelle Kindknoten für jedes Teil-Mesh. |
 | removeOldMesh | boolean | Entferne das alte Mesh nach dem Split, wenn dieser Parameter false ist, existieren das alte und das neue Mesh gleichzeitig. |
 
  **Result:**
@@ -207,14 +207,14 @@ VertexElementUV
 
 | Name | Beschreibung |
 | --- | --- |
-| splitMesh(scene, policy, removeOldMesh) | Teile das Mesh in Unter-Meshes nach VertexElementMaterial. Jeder Unter-Mesh verwendet nur ein Material. Führe das Mesh-Splitting an allen Knoten der Szene aus. |
+| splitMesh(scene, policy, removeOldMesh) | Teile das Mesh anhand von VertexElementMaterial in Teil-Meshes auf. Jeder Teil-Mesh verwendet nur ein Material. Führe das Mesh-Splitting an allen Knoten der Szene durch. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Szene | Szene | null |
-| Richtlinie | SplitMeshPolicy | SplitMeshPolicy |
+| scen | Szene | null |
+| policy | SplitMeshPolicy | SplitMeshPolicy |
 | removeOldMes | boolean | null |
 
  **Result:**
@@ -228,7 +228,7 @@ VertexElementUV
 
 | Name | Beschreibung |
 | --- | --- |
-| splitMesh(mesh, policy) | Teile das Mesh in Unter-Meshes nach VertexElementMaterial. Jeder Unter-Mesh verwendet nur ein Material. Das ursprüngliche Mesh wird nicht geändert. |
+| splitMesh(mesh, policy) | Teile das Mesh anhand von VertexElementMaterial in Teil-Meshes auf. Jeder Teil-Mesh verwendet nur ein Material. Das ursprüngliche Mesh wird nicht verändert. |
 
  **Result:**
 Mesh[]
@@ -241,7 +241,7 @@ Mesh[]
 
 | Name | Beschreibung |
 | --- | --- |
-| buildTangentBinormal(scene) | Dies erzeugt Tangenten und Binormale in allen Meshes der Szene. Normalen sind erforderlich; wenn keine Normalen im Mesh vorhanden sind, werden sie ebenfalls aus den Positionen erzeugt. UVs sind ebenfalls erforderlich, das Mesh wird ignoriert, wenn keine UV definiert ist. |
+| buildTangentBinormal(scene) | Dies erstellt Tangenten und Binormale für alle Meshes der Szene. Normalen sind erforderlich; wenn keine Normalen im Mesh vorhanden sind, werden die Normaldaten aus der Position erstellt. UV ist ebenfalls erforderlich, das Mesh wird ignoriert, wenn keine UV definiert ist. |
 
  **Result:**
 Mesh[]
@@ -254,7 +254,7 @@ Mesh[]
 
 | Name | Beschreibung |
 | --- | --- |
-| buildTangentBinormal(mesh) | Dies erzeugt Tangenten und Binormale im Mesh. Normalen sind erforderlich; wenn keine Normalen im Mesh vorhanden sind, werden sie ebenfalls aus den Positionen erzeugt. UVs sind ebenfalls erforderlich, es wird eine Ausnahme ausgelöst, wenn keine UV gefunden wird. |
+| buildTangentBinormal(mesh) | Dies erstellt Tangenten und Binormale für das Mesh. Normalen sind erforderlich; wenn keine Normalen im Mesh vorhanden sind, werden die Normaldaten aus der Position erstellt. UV ist ebenfalls erforderlich, es wird eine Ausnahme ausgelöst, wenn keine UV gefunden wird. |
 
  **Result:**
 Mesh[]

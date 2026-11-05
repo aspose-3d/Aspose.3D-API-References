@@ -23,7 +23,7 @@ Ausnahme, wenn Aspose.3D die angegebene Quelle nicht öffnen konnte
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| msg | String | Fehlermeldung |
+| Nachricht | String | Fehlermeldung |
 
  **Result:**
 

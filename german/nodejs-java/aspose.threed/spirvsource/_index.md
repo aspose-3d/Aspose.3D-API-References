@@ -56,7 +56,7 @@ Der kompilierte Shader im SPIR-V-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getComputeShader() | Liest oder setzt den Quellcode des compute shader. |
+| getComputeShader() | Liest oder setzt den Quellcode des Compute-Shaders. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Der kompilierte Shader im SPIR-V-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setComputeShader(value) | Liest oder setzt den Quellcode des compute shader. |
+| setComputeShader(value) | Liest oder setzt den Quellcode des Compute-Shaders. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Der kompilierte Shader im SPIR-V-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getGeometryShader() | Liest oder setzt den Quellcode des geometry shader. |
+| getGeometryShader() | Liest oder setzt den Quellcode des Geometry-Shaders. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Der kompilierte Shader im SPIR-V-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setGeometryShader(value) | Liest oder setzt den Quellcode des geometry shader. |
+| setGeometryShader(value) | Liest oder setzt den Quellcode des Geometry-Shaders. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Der kompilierte Shader im SPIR-V-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexShader() | Liest oder setzt den Quellcode des vertex shader |
+| getVertexShader() | Liest oder setzt den Quellcode des Vertex-Shaders. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Der kompilierte Shader im SPIR-V-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setVertexShader(value) | Liest oder setzt den Quellcode des vertex shader |
+| setVertexShader(value) | Liest oder setzt den Quellcode des Vertex-Shaders. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Der kompilierte Shader im SPIR-V-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFragmentShader() | Liest oder setzt den Quellcode des fragment shader. |
+| getFragmentShader() | Liest oder setzt den Quellcode des Fragment-Shaders. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Der kompilierte Shader im SPIR-V-Format.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFragmentShader(value) | Liest oder setzt den Quellcode des fragment shader. |
+| setFragmentShader(value) | Liest oder setzt den Quellcode des Fragment-Shaders. |
 
  **Result:**
 

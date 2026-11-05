@@ -17,7 +17,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Konstruktor von ObjSaveOptions |
+| constructor() | Konstruktor von ObjSaveOptions. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getApplyUnitScale() | Wenden Sie AssetInfo.UnitScaleFactor auf das Mesh an. Der Standardwert ist false. |
+| getApplyUnitScale() | Wende AssetInfo.UnitScaleFactor auf das Mesh an. Standardwert ist false. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| setApplyUnitScale(value) | Wenden Sie AssetInfo.UnitScaleFactor auf das Mesh an. Der Standardwert ist false. |
+| setApplyUnitScale(value) | Wende AssetInfo.UnitScaleFactor auf das Mesh an. Standardwert ist false. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getPointCloud() | Liest oder setzt das Flag, ob der Exporter die Szene als Punktwolke (ohne topologische Struktur) exportieren soll, Standardwert ist false |
+| getPointCloud() | Liest oder setzt das Flag, ob der Exporter die Szene als Punktwolke (ohne topologische Struktur) exportieren soll, Standardwert ist false. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| setPointCloud(value) | Liest oder setzt das Flag, ob der Exporter die Szene als Punktwolke (ohne topologische Struktur) exportieren soll, Standardwert ist false |
+| setPointCloud(value) | Liest oder setzt das Flag, ob der Exporter die Szene als Punktwolke (ohne topologische Struktur) exportieren soll, Standardwert ist false. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getVerbose() | Liest oder setzt, ob Kommentare für jeden Abschnitt erzeugt werden |
+| getVerbose() | Liest oder setzt, ob Kommentare für jeden Abschnitt erzeugt werden. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| setVerbose(value) | Liest oder setzt, ob Kommentare für jeden Abschnitt erzeugt werden |
+| setVerbose(value) | Liest oder setzt, ob Kommentare für jeden Abschnitt erzeugt werden. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getSerializeW() | Liest oder setzt, ob die W‑Komponente in der Vertex‑Position des Modells serialisiert wird. |
+| getSerializeW() | Liest oder setzt, ob die W-Komponente in der Vertex-Position des Modells serialisiert wird. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| setSerializeW(value) | Liest oder setzt, ob die W‑Komponente in der Vertex‑Position des Modells serialisiert wird. |
+| setSerializeW(value) | Liest oder setzt, ob die W-Komponente in der Vertex-Position des Modells serialisiert wird. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlipCoordinateSystem() | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Import/Export umgekehrt wird. |
+| getFlipCoordinateSystem() | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normale beim Import/Export umgekehrt wird. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Import/Export umgekehrt wird. |
+| setFlipCoordinateSystem(value) | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normale beim Import/Export umgekehrt wird. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Speicheroptionen für Wavefront OBJ-Datei
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

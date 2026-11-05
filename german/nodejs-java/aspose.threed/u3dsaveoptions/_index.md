@@ -30,7 +30,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlipCoordinateSystem() | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Import/Export umgekehrt wird. |
+| getFlipCoordinateSystem() | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normale beim Import/Export umgekehrt wird. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normalen beim Import/Export umgekehrt wird. |
+| setFlipCoordinateSystem(value) | Liest oder setzt, ob das Koordinatensystem von Kontrollpunkten/Normale beim Import/Export umgekehrt wird. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportVertexDiffuse() | Liest oder setzt, ob die diffuse Farbe des Scheitelpunkts exportiert wird. |
+| getExportVertexDiffuse() | Liest oder setzt, ob die diffuse Farbe des Scheitelpunkts exportiert werden soll. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportVertexDiffuse(value) | Liest oder setzt, ob die diffuse Farbe des Scheitelpunkts exportiert wird. |
+| setExportVertexDiffuse(value) | Liest oder setzt, ob die diffuse Farbe des Scheitelpunkts exportiert werden soll. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportVertexSpecular() | Liest oder setzt, ob die spekulare Farbe des Scheitelpunkts exportiert wird. |
+| getExportVertexSpecular() | Liest oder setzt, ob die spekulare Farbe des Scheitelpunkts exportiert werden soll. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportVertexSpecular(value) | Liest oder setzt, ob die spekulare Farbe des Scheitelpunkts exportiert wird. |
+| setExportVertexSpecular(value) | Liest oder setzt, ob die spekulare Farbe des Scheitelpunkts exportiert werden soll. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Speicheroptionen für universelles 3D
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

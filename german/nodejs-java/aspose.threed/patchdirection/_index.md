@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/patchdirection/
 ---
 ## PatchDirection class
 
-U‑ und V‑Richtung des Patches.
+Patch's U- und V-Richtung.
 
 
 ## Methoden

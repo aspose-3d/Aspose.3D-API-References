@@ -17,7 +17,7 @@ Eine Shader-Technik stellt eine konkrete Rendering-Implementierung dar.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiert eine neue Instanz der ShaderTechnique-Klasse. |
+| constructor() | Initialisiert eine neue Instanz der Klasse ShaderTechnique. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Eine Shader-Technik stellt eine konkrete Rendering-Implementierung dar.
 
 | Name | Beschreibung |
 | --- | --- |
-| getShaderContent() | Liest oder setzt den Inhalt eines eingebetteten Shader-Skripts. Es könnte sich um eine HLSL/GLSL-Shader-Quelldatei handeln. |
+| getShaderContent() | Liest oder setzt den Inhalt eines eingebetteten Shader‑Skripts. Es könnte sich um eine HLSL/GLSL‑Shader-Quelldatei handeln. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Eine Shader-Technik stellt eine konkrete Rendering-Implementierung dar.
 
 | Name | Beschreibung |
 | --- | --- |
-| setShaderContent(value) | Liest oder setzt den Inhalt eines eingebetteten Shader-Skripts. Es könnte sich um eine HLSL/GLSL-Shader-Quelldatei handeln. |
+| setShaderContent(value) | Liest oder setzt den Inhalt eines eingebetteten Shader‑Skripts. Es könnte sich um eine HLSL/GLSL‑Shader-Quelldatei handeln. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Eine Shader-Technik stellt eine konkrete Rendering-Implementierung dar.
 
 | Name | Beschreibung |
 | --- | --- |
-| getShaderEntry() | Liest oder setzt den Einstiegspunkt des Shaders, einige Shader wie HLSL können benutzerdefinierte Shader-Einträge haben. |
+| getShaderEntry() | Liest oder setzt den Einstiegspunkt des Shaders, einige Shader wie HLSL können benutzerdefinierte Shader‑Einträge haben. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Eine Shader-Technik stellt eine konkrete Rendering-Implementierung dar.
 
 | Name | Beschreibung |
 | --- | --- |
-| setShaderEntry(value) | Liest oder setzt den Einstiegspunkt des Shaders, einige Shader wie HLSL können benutzerdefinierte Shader-Einträge haben. |
+| setShaderEntry(value) | Liest oder setzt den Einstiegspunkt des Shaders, einige Shader wie HLSL können benutzerdefinierte Shader‑Einträge haben. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Eine Shader-Technik stellt eine konkrete Rendering-Implementierung dar.
 
 | Name | Beschreibung |
 | --- | --- |
-| getShaderParameters() | Ermittelt die Shader-Parameterdefinition. Der Schlüssel ist der Name der dynamischen Eigenschaft, und der Wert ist der Name des Shader-Parameters, mit dem die Eigenschaft verbunden ist. |
+| getShaderParameters() | Liest die Shader-Parameterdefinition. Der Schlüssel ist der Name der dynamischen Eigenschaft, und der Wert ist der Shader-Parametername, mit dem die Eigenschaft verbunden ist. |
 
  **Result:**
 

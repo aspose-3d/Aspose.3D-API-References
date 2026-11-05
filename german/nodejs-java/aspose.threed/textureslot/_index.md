@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/textureslot/
 ---
 ## TextureSlot class
 
-Texturslot im **Material**, kann über die Materialinstanz enumeriert werden.  @hideconstructor
+Texturslot im Material, kann über die Materialinstanz enumeriert werden.  @hideconstructor
 
 
 ## Methoden

@@ -30,7 +30,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getGammaCorrectedColor() | Eine 3ds-Datei kann originale Farbe und gamma‑korrigierte Farbe für dasselbe Attribut enthalten. Wird dies auf true gesetzt, wird nach Möglichkeit die gamma‑korrigierte Farbe verwendet, andernfalls versucht Aspose.3D, die originale Farbe zu nutzen. |
+| getGammaCorrectedColor() | Eine 3ds-Datei kann die Originalfarbe und die gamma‑korrigierte Farbe für dasselbe Attribut enthalten. Wenn dies auf true gesetzt wird, wird nach Möglichkeit die gamma‑korrigierte Farbe verwendet, andernfalls versucht Aspose.3D, die Originalfarbe zu verwenden. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setGammaCorrectedColor(value) | Eine 3ds-Datei kann originale Farbe und gamma‑korrigierte Farbe für dasselbe Attribut enthalten. Wird dies auf true gesetzt, wird nach Möglichkeit die gamma‑korrigierte Farbe verwendet, andernfalls versucht Aspose.3D, die originale Farbe zu nutzen. |
+| setGammaCorrectedColor(value) | Eine 3ds-Datei kann die Originalfarbe und die gamma‑korrigierte Farbe für dasselbe Attribut enthalten. Wenn dies auf true gesetzt wird, wird nach Möglichkeit die gamma‑korrigierte Farbe verwendet, andernfalls versucht Aspose.3D, die Originalfarbe zu verwenden. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getApplyAnimationTransform() | Liest oder setzt, ob die im ersten Bild der Animationsspur definierte Transformation verwendet werden soll. |
+| getApplyAnimationTransform() | Liest oder setzt, ob die im ersten Frame der Animationsspur definierte Transformation verwendet werden soll. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setApplyAnimationTransform(value) | Liest oder setzt, ob die im ersten Bild der Animationsspur definierte Transformation verwendet werden soll. |
+| setApplyAnimationTransform(value) | Liest oder setzt, ob die im ersten Frame der Animationsspur definierte Transformation verwendet werden soll. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Ladeoptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

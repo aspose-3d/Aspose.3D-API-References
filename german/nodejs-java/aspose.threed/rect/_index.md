@@ -36,10 +36,10 @@ Eine Klasse zur Darstellung des Rechtecks
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-| Breite | Number | null |
-| Höhe | Number | null |
+|  | Zahl | null |
+|  | Zahl | null |
+| Breite | Zahl | null |
+| Höhe | Zahl | null |
 
  **Result:**
 
@@ -156,7 +156,7 @@ Eine Klasse zur Darstellung des Rechtecks
 
 | Name | Beschreibung |
 | --- | --- |
-| getLeft() | Liest die linke Seite des Rechtecks |
+| getLeft() | Ermittelt die linke Seite des Rechtecks |
 
  **Result:**
 
@@ -169,7 +169,7 @@ Eine Klasse zur Darstellung des Rechtecks
 
 | Name | Beschreibung |
 | --- | --- |
-| getRight() | Liest die rechte Seite des Rechtecks |
+| getRight() | Ermittelt die rechte Seite des Rechtecks |
 
  **Result:**
 
@@ -182,7 +182,7 @@ Eine Klasse zur Darstellung des Rechtecks
 
 | Name | Beschreibung |
 | --- | --- |
-| getTop() | Gibt die Oberkante des Rechtecks zurück |
+| getTop() | Ermittelt die obere Seite des Rechtecks |
 
  **Result:**
 
@@ -195,7 +195,7 @@ Eine Klasse zur Darstellung des Rechtecks
 
 | Name | Beschreibung |
 | --- | --- |
-| getBottom() | Gibt die Unterkante des Rechtecks zurück |
+| getBottom() | Ermittelt die untere Seite des Rechtecks |
 
  **Result:**
 
@@ -214,8 +214,8 @@ Eine Klasse zur Darstellung des Rechtecks
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
+|  | Zahl | null |
+|  | Zahl | null |
 
  **Result:**
 boolean

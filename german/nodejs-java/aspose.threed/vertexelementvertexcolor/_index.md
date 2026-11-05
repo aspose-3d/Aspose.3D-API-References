@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/vertexelementvertexcolor/
 ---
 ## VertexElementVertexColor class
 
-Definiert die Vertex-Farbe für die angegebenen Komponenten.
+Definiert die Vertex-Farbe für die angegebenen Komponenten
 
 
 ## Methoden
@@ -30,7 +30,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| getData() | Liefert die Vertex-Daten |
+| getData() | Liest die Vertex-Daten. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| getVertexElementType() | Ermittelt den Typ des VertexElement. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
+| getVertexElementType() | Liest den Typ des VertexElements. Der Wert der Eigenschaft ist die Ganzzahlkonstante VertexElementType. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| getMappingMode() | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| getMappingMode() | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| setMappingMode(value) | Liest oder setzt, wie das Element abgebildet wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
+| setMappingMode(value) | Liest oder setzt, wie das Element gemappt wird. Der Wert der Eigenschaft ist die Ganzzahlkonstante MappingMode. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| getIndices() | Ermittelt die Indexdaten. Das Index‑Array. |
+| getIndices() | Liest die Indexdaten. Das Index-Array. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| copyTo(target) | Kopiert Daten in das angegebene Element. |
+| copyTo(target) | Kopiert Daten zum angegebenen Element. |
 
  **Parameters:**
 
@@ -172,7 +172,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | Vector4[] | null |
+| dat | Vector4[] | null |
 
  **Result:**
 
@@ -204,7 +204,7 @@ Definiert die Vertex-Farbe für die angegebenen Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Daten | Number[] | null |
+| dat | Number[] | null |
 
  **Result:**
 

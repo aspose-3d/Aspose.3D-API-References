@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/fbxsaveoptions/
 ---
 ## FbxSaveOptions class
 
-Speicheroptionen für die Fbx-Datei.
+Speicheroptionen für Fbx-Datei.
 
 
 ## Methoden
@@ -23,7 +23,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Form | FileFormat | null |
+| Format | FileFormat | null |
 
  **Result:**
 
@@ -36,7 +36,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(contentType) | Initialisiere ein FbxSaveOptions mit der neuesten unterstützten Version. |
+| constructor_overload(contentType) | Initialisiert ein FbxSaveOptions mit der neuesten unterstützten Version. |
 
  **Parameters:**
 
@@ -55,7 +55,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getReusePrimitiveMesh() | Verwenden Sie das Mesh für Primitive mit denselben Parametern erneut, dies reduziert die Größe der FBX-Ausgabe erheblich, wenn die Szene aus einer großen Menge primitiver Formen (wie aus CAD-Dateien importiert) aufgebaut ist. Der Standardwert ist false |
+| getReusePrimitiveMesh() | Verwende das Mesh für die Primitive mit denselben Parametern, dies reduziert die Größe der FBX-Ausgabe erheblich, wenn die Szene aus einer großen Menge primitiver Formen (wie aus CAD-Dateien importiert) erstellt wurde. Der Standardwert ist false. |
 
  **Result:**
 
@@ -68,7 +68,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setReusePrimitiveMesh(value) | Verwenden Sie das Mesh für Primitive mit denselben Parametern erneut, dies reduziert die Größe der FBX-Ausgabe erheblich, wenn die Szene aus einer großen Menge primitiver Formen (wie aus CAD-Dateien importiert) aufgebaut ist. Der Standardwert ist false |
+| setReusePrimitiveMesh(value) | Verwende das Mesh für die Primitive mit denselben Parametern, dies reduziert die Größe der FBX-Ausgabe erheblich, wenn die Szene aus einer großen Menge primitiver Formen (wie aus CAD-Dateien importiert) erstellt wurde. Der Standardwert ist false. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFoldRepeatedCurveData() | Liest oder setzt, ob wiederholte Kurvendaten wiederverwendet werden, indem der Referenzzähler der letzten Daten erhöht wird; true, wenn wiederholte Kurvendaten gefaltet werden; andernfalls false. |
+| getFoldRepeatedCurveData() | Liest oder setzt, ob wiederholte Kurvendaten wiederverwendet werden, indem die Referenzzählung der letzten Daten erhöht wird; true, wenn wiederholte Kurvendaten gefaltet werden, sonst false. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportLegacyMaterialProperties() | Liest oder setzt, ob Legacy-Materialeigenschaften exportiert werden, verwendet für die Rückwärtskompatibilität. Diese Option ist standardmäßig aktiviert. |
+| getExportLegacyMaterialProperties() | Liest oder setzt, ob veraltete Materialeigenschaften exportiert werden, verwendet für die Rückwärtskompatibilität. Diese Option ist standardmäßig aktiviert. |
 
  **Result:**
 
@@ -133,7 +133,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportLegacyMaterialProperties(value) | Liest oder setzt, ob Legacy-Materialeigenschaften exportiert werden, verwendet für die Rückwärtskompatibilität. Diese Option ist standardmäßig aktiviert. |
+| setExportLegacyMaterialProperties(value) | Liest oder setzt, ob veraltete Materialeigenschaften exportiert werden, verwendet für die Rückwärtskompatibilität. Diese Option ist standardmäßig aktiviert. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEmbedTextures() | Liest oder setzt, ob die Textur in die endgültige Ausgabedatei eingebettet werden soll. Der FBX Exporter versucht, die Rohdaten der Textur aus dem FileSystem zu finden und die Datei in die endgültige FBX file einzubetten. Der Standardwert ist false. |
+| getEmbedTextures() | Liest oder setzt, ob die Textur in die endgültige Ausgabedatei eingebettet wird. Der FBX-Exporter versucht, die Rohdaten der Textur aus dem Dateisystem zu finden und die Datei in die finale FBX-Datei einzubetten. Der Standardwert ist false. |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setEmbedTextures(value) | Liest oder setzt, ob die Textur in die endgültige Ausgabedatei eingebettet werden soll. Der FBX Exporter versucht, die Rohdaten der Textur aus dem FileSystem zu finden und die Datei in die endgültige FBX file einzubetten. Der Standardwert ist false. |
+| setEmbedTextures(value) | Liest oder setzt, ob die Textur in die endgültige Ausgabedatei eingebettet wird. Der FBX-Exporter versucht, die Rohdaten der Textur aus dem Dateisystem zu finden und die Datei in die finale FBX-Datei einzubetten. Der Standardwert ist false. |
 
  **Result:**
 
@@ -198,7 +198,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getGenerateVertexElementMaterial() | Liest oder setzt, ob immer ein VertexElementMaterial für Geometrien erzeugt wird, wenn der angehängte Knoten Materialien enthält. Dies ist standardmäßig deaktiviert. |
+| getGenerateVertexElementMaterial() | Liest oder setzt, ob immer ein VertexElementMaterial für Geometrien erzeugt wird, wenn der zugehörige Knoten Materialien enthält. Dies ist standardmäßig deaktiviert. |
 
  **Result:**
 
@@ -211,7 +211,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setGenerateVertexElementMaterial(value) | Liest oder setzt, ob immer ein VertexElementMaterial für Geometrien erzeugt wird, wenn der angehängte Knoten Materialien enthält. Dies ist standardmäßig deaktiviert. |
+| setGenerateVertexElementMaterial(value) | Liest oder setzt, ob immer ein VertexElementMaterial für Geometrien erzeugt wird, wenn der zugehörige Knoten Materialien enthält. Dies ist standardmäßig deaktiviert. |
 
  **Result:**
 
@@ -224,7 +224,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -237,7 +237,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -250,7 +250,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -263,7 +263,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -276,7 +276,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -302,7 +302,7 @@ Speicheroptionen für die Fbx-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

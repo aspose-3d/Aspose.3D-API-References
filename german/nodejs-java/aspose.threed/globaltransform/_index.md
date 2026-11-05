@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/globaltransform/
 ---
 ## GlobalTransform class
 
-Global Transform ist ähnlich zu Transform, ist jedoch unveränderlich, da es die endgültig ausgewertete Transformation darstellt. Ein rechtshändiges Koordinatensystem wird bei der Auswertung von Global Transform verwendet  @hideconstructor
+Globale Transformation ist ähnlich wie Transform, ist jedoch unveränderlich, während sie die endgültig ausgewertete Transformation darstellt.  Beim Auswerten der globalen Transformation wird ein rechtshändiges Koordinatensystem verwendet  @hideconstructor
 
 
 ## Methoden
@@ -17,7 +17,7 @@ Global Transform ist ähnlich zu Transform, ist jedoch unveränderlich, da es di
 
 | Name | Beschreibung |
 | --- | --- |
-| getTranslation() | Gibt die Translation zurück |
+| getTranslation() | Gibt die Translation zurück. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Global Transform ist ähnlich zu Transform, ist jedoch unveränderlich, da es di
 
 | Name | Beschreibung |
 | --- | --- |
-| getScale() | Gibt die Skalierung zurück |
+| getScale() | Gibt die Skalierung zurück. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Global Transform ist ähnlich zu Transform, ist jedoch unveränderlich, da es di
 
 | Name | Beschreibung |
 | --- | --- |
-| getEulerAngles() | Gibt die Rotation in Euler‑Winkeln zurück, gemessen in Grad |
+| getEulerAngles() | Gibt die Rotation zurück, dargestellt in Euler-Winkeln, gemessen in Grad. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Global Transform ist ähnlich zu Transform, ist jedoch unveränderlich, da es di
 
 | Name | Beschreibung |
 | --- | --- |
-| getRotation() | Gibt die Rotation als Quaternion zurück. |
+| getRotation() | Gibt die Rotation zurück, dargestellt in einem Quaternion. |
 
  **Result:**
 

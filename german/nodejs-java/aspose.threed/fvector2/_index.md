@@ -8,15 +8,15 @@ url: /de/nodejs-java/aspose.threed/fvector2/
 ---
 ## FVector2 class
 
-Ein Float-Vektor mit zwei Komponenten.
+Ein Fließkomma-Vektor mit zwei Komponenten.
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| x | Die x‑Komponente. |
-| y | Die y‑Komponente. |
+| x | Die x-Komponente. |
+| y | Die y-Komponente. |
 
 ## Methoden
 
@@ -76,7 +76,7 @@ String
 
 | Name | Beschreibung |
 | --- | --- |
-| equals(rhs) | Prüfen, ob zwei Vektoren gleich sind |
+| equals(rhs) | Überprüfe, ob zwei Vektoren gleich sind |
 
  **Parameters:**
 
@@ -95,13 +95,13 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| equals(obj) | Prüfen, ob zwei Vektoren gleich sind |
+| equals(obj) | Überprüfe, ob zwei Vektoren gleich sind |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| ob | Object | null |
+| ob | Objekt | null |
 
  **Result:**
 boolean
@@ -117,7 +117,7 @@ boolean
 | hashCode() | Gibt den Hashcode dieser Instanz zurück |
 
  **Result:**
-Number
+Zahl
 
 
 ---

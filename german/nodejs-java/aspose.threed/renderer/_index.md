@@ -43,7 +43,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getVariables() | Zugriff auf die internen Variablen, die für das Rendering verwendet werden |
+| getVariables() | Zugriff auf die internen Variablen, die für das Rendern verwendet werden. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getPresetShaders() | Liest oder setzt das voreingestellte Shader-Set. Der Wert der Eigenschaft ist die Ganzzahlkonstante PresetShaders. |
+| getPresetShaders() | Liest oder setzt das voreingestellte Shader-Set. Der Wert der Eigenschaft ist die ganzzahlige Konstante PresetShaders. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setPresetShaders(value) | Liest oder setzt das voreingestellte Shader-Set. Der Wert der Eigenschaft ist die Ganzzahlkonstante PresetShaders. |
+| setPresetShaders(value) | Liest oder setzt das voreingestellte Shader-Set. Der Wert der Eigenschaft ist die ganzzahlige Konstante PresetShaders. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getRenderFactory() | Gibt die Fabrik zurück, um renderbezogene Objekte zu erstellen. |
+| getRenderFactory() | Liest die Fabrik zum Erstellen von renderbezogenen Objekten. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getAssetDirectories() | Verzeichnisse, die externe Assets speichern. |
+| getAssetDirectories() | Verzeichnisse, die externe Assets speichern |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getPostProcessings() | Aktive Post‑Processing‑Kette |
+| getPostProcessings() | Aktive Nachbearbeitungskette |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getRenderTarget() | Geben Sie das Renderziel an, auf dem die folgenden Render‑Operationen ausgeführt werden. |
+| getRenderTarget() | Geben Sie das Renderziel an, auf dem die folgenden Renderoperationen ausgeführt werden. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getNode() | Liest oder setzt die Node-Instanz, die zur Bereitstellung der Welttransformationsmatrix verwendet wird. |
+| getNode() | Liest oder setzt die Node-Instanz, die zur Bereitstellung der Welt-Transformationsmatrix verwendet wird. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setNode(value) | Liest oder setzt die Node-Instanz, die zur Bereitstellung der Welttransformationsmatrix verwendet wird. |
+| setNode(value) | Liest oder setzt die Node-Instanz, die zur Bereitstellung der Welt-Transformationsmatrix verwendet wird. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getFrustum() | Liest oder setzt das Frustum, das zur Bereitstellung der Ansichtsmatrix verwendet wird. |
+| getFrustum() | Liest oder setzt das Sichtvolumen, das zur Bereitstellung der Ansichtsmatrix verwendet wird. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| setFrustum(value) | Liest oder setzt das Frustum, das zur Bereitstellung der Ansichtsmatrix verwendet wird. |
+| setFrustum(value) | Liest oder setzt das Sichtvolumen, das zur Bereitstellung der Ansichtsmatrix verwendet wird. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| clearCache() | Cache manuell leeren. Aspose.3D cached einige Objekte wie Materialien/Geometrien in internen Typen, die mit der Rendering‑Pipeline kompatibel sind. Dies sollte manuell aufgerufen werden, wenn die Szene größere Änderungen erfährt. |
+| clearCache() | Löscht den Cache manuell. Aspose.3D cached einige Objekte wie Materialien/Geometrien in internen Typen, die mit der Rendering-Pipeline kompatibel sind. Dies sollte manuell aufgerufen werden, wenn die Szene wesentliche Änderungen erfährt. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Der Kontext zum Renderer.  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| getPostProcessing(name) | Gibt einen integrierten Postprozessor zurück, der vom Renderer unterstützt wird. |
+| getPostProcessing(name) | Liest einen integrierten Postprozessor, der vom Renderer unterstützt wird. |
 
  **Parameters:**
 
@@ -335,7 +335,7 @@ PostProcessing
 
 | Name | Beschreibung |
 | --- | --- |
-| execute(postProcessing, result) | Führen Sie eine Nachbearbeitung auf dem angegebenen Renderziel aus. |
+| execute(postProcessing, result) | Führt eine Nachbearbeitung auf dem angegebenen Renderziel aus. |
 
  **Result:**
 PostProcessing
@@ -361,7 +361,7 @@ Renderer
 
 | Name | Beschreibung |
 | --- | --- |
-| registerEntityRenderer(renderer) | Registrieren Sie den Entitätsrenderer für die angegebene Entität |
+| registerEntityRenderer(renderer) | Registriert den Entity-Renderer für das angegebene Entity. |
 
  **Parameters:**
 
@@ -380,7 +380,7 @@ Renderer
 
 | Name | Beschreibung |
 | --- | --- |
-| render(renderTarget) | Rendern Sie das angegebene Ziel |
+| render(renderTarget) | Rendern des angegebenen Ziels |
 
  **Parameters:**
 

@@ -11,18 +11,18 @@ url: /de/nodejs-java/aspose.threed/vector3/
 Ein Vektor mit drei Komponenten.
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| x | Die x‑Komponente. |
-| y | Die y‑Komponente. |
-| z | Die z‑Komponente. |
+| x | Die x-Komponente. |
+| y | Die y-Komponente. |
+| z | Die z-Komponente. |
 | ORIGIN | Ermittelt die Ursprungposition. Der Ursprung. |
 | UNIT_SCALE | Ermittelt den Einheitsskalierungsvektor. |
 | X_AXIS | Ermittelt die X-Achse. Die X-Achse. |
 | Y_AXIS | Ermittelt die Y-Achse. Die Y-Achse. |
-| Z_AXIS | Ermittelt die Z-Achse. Die Z-Achse. |
+| Z_AXIS | Gibt die Z-Achse zurück. Die Z-Achse. |
 
 ## Methoden
 
@@ -49,9 +49,9 @@ Ein Vektor mit drei Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Number | Die x-Koordinate. |
-| y | Number | Die y-Koordinate. |
-| z | Number | Die z-Koordinate. |
+| x | Zahl | Die x-Koordinate. |
+| y | Zahl | Die y-Koordinate. |
+| z | Zahl | Die z-Koordinate. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Ein Vektor mit drei Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| v | Number | V. |
+| v | Zahl | V. |
 
  **Result:**
 
@@ -147,13 +147,13 @@ Ein Vektor mit drei Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| equals(obj) | Prüft, ob zwei Vector3 gleich sind |
+| equals(obj) | Überprüft, ob zwei vector3 gleich sind |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| obj | Object | Das Objekt zum Prüfen der Gleichheit. |
+| obj | Objekt | Das Objekt, um die Gleichheit zu prüfen. |
 
  **Result:**
 boolean
@@ -169,7 +169,7 @@ boolean
 | hashCode() | Gibt den Hashcode von Vector3 zurück. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -179,16 +179,16 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| dot(rhs) | Gibt das Skalarprodukt von zwei Vektoren zurück |
+| dot(rhs) | Gibt das Skalarprodukt von zwei Vektoren zurück. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| rhs | Vector3 | Rechter Handwert. |
+| rhs | Vector3 | Wert der rechten Seite. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -211,7 +211,7 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| sin() | Berechnet den Sinus jeder Komponente. |
+| sin() | Berechnet den Sinus für jede Komponente. |
 
  **Result:**
 Vector3
@@ -224,7 +224,7 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| cos() | Berechnet den Kosinus jeder Komponente |
+| cos() | Berechnet den Kosinus für jede Komponente. |
 
  **Result:**
 Vector3
@@ -237,13 +237,13 @@ Vector3
 
 | Name | Beschreibung |
 | --- | --- |
-| cross(rhs) | Kreuzprodukt von zwei Vektoren |
+| cross(rhs) | Kreuzprodukt von zwei Vektoren. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| rhs | Vector3 | Rechter Handwert. |
+| rhs | Vector3 | Wert der rechten Seite. |
 
  **Result:**
 Vector3
@@ -262,9 +262,9 @@ Vector3
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| newX | Number | Die x‑Komponente. |
-| newY | Number | Die y‑Komponente. |
-| newZ | Number | Die z‑Komponente. |
+| newX | Zahl | Die x-Komponente. |
+| newY | Zahl | Die y-Komponente. |
+| newZ | Zahl | Die z-Komponente. |
 
  **Result:**
 Vector3
@@ -296,11 +296,11 @@ String
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| dir | Vector3 | Der Richtungsvektor zum Vergleich |
-| up | Vector3 | Der Aufwärtsvektor der gemeinsamen Ebene der beiden Richtungen |
+| dir | Vector3 | Der Richtungsvektor zum Vergleich. |
+| nach oben | Vector3 | Der Aufwärtsvektor der gemeinsamen Ebene der beiden Richtungen |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -316,10 +316,10 @@ Number
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| dir | Vector3 | Der Richtungsvektor zum Vergleich |
+| dir | Vector3 | Der Richtungsvektor zum Vergleich. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -329,7 +329,7 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| compareTo(other) | Vergleicht den aktuellen Vektor mit einer anderen Instanz. |
+| compareTo(other) | Vergleiche den aktuellen Vektor mit einer anderen Instanz. |
 
  **Parameters:**
 
@@ -338,7 +338,7 @@ Number
 | othe | Vector3 | null |
 
  **Result:**
-Number
+Zahl
 
 
 ---

@@ -30,7 +30,7 @@ Das MemoryFileSystem mappt die Lese-/Schreibvorgänge in den Speicher.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileNames() | Dateinamen, die sich in diesem Speicherdateisystem befinden. |
+| getFileNames() | Dateinamen, die in diesem MemoryFileSystem vorhanden sind. |
 
  **Result:**
 
@@ -62,14 +62,14 @@ byte[]
 
 | Name | Beschreibung |
 | --- | --- |
-| readFile(fileName, options) | Erstellen Sie einen Stream zum Lesen von Abhängigkeiten. |
+| readFile(fileName, options) | Erstellt einen Stream zum Lesen von Abhängigkeiten. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileNam | String | null |
-| Option | IOConfig | null |
+| option | IOConfig | null |
 
  **Result:**
 Stream
@@ -82,14 +82,14 @@ Stream
 
 | Name | Beschreibung |
 | --- | --- |
-| writeFile(fileName, options) | Erstellen Sie einen Stream zum Schreiben von Abhängigkeiten. |
+| writeFile(fileName, options) | Erstellt einen Stream zum Schreiben von Abhängigkeiten. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | fileNam | String | null |
-| Option | IOConfig | null |
+| option | IOConfig | null |
 
  **Result:**
 Stream

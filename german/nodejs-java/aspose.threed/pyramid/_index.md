@@ -1,5 +1,5 @@
 ---
-title: "Pyramide"
+title: "Pyramid"
 second_title: "Aspose.3D für Node.js via Java API-Referenz"
 description: 
 type: docs
@@ -17,7 +17,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Konstruiere eine neue Pyramideninstanz mit Standard‑Grundfläche(10, 10) und Standardhöhe(5) |
+| constructor() | Erstelle eine neue Pyramiden-Instanz mit dem Standard‑Bodenbereich(10, 10) und der Standardhöhe(5) |
 
  **Result:**
 
@@ -30,15 +30,15 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(xbottom, ybottom, height) | Konstruiere eine neue Pyramideninstanz mit angegebener Grundfläche |
+| constructor_overload(xbottom, ybottom, height) | Erstelle eine neue Pyramiden-Instanz mit angegebenem Bodenbereich |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| xbottom | Number | Die Länge in x‑Richtung des Bodens |
-| ybottom | Number | Die Länge in y‑Richtung des Bodens |
-| height | Number | Die Höhe der Pyramide |
+| xbottom | Zahl | Die x‑Richtungslänge des Bodens |
+| ybottom | Zahl | Die y‑Richtungslänge des Bodens |
+| height | Zahl | Die Höhe der Pyramide |
 
  **Result:**
 
@@ -51,17 +51,17 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload2(xbottom, ybottom, xtop, ytop, height) | Konstruiere eine neue Pyramideninstanz mit angegebener Grundfläche, Oberflächenfläche und Höhe. |
+| constructor_overload2(xbottom, ybottom, xtop, ytop, height) | Erstelle eine neue Pyramiden-Instanz mit angegebenem Bodenbereich, Oberflächenbereich und Höhe. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| xbottom | Number | Die Länge in x‑Richtung der Grundfläche |
-| ybottom | Number | Die Länge in y‑Richtung der Grundfläche |
-| xtop | Number | Die Länge in x‑Richtung der Oberflächenfläche |
-| ytop | Number | Die Länge in y‑Richtung der Oberflächenfläche |
-| height | Number | Die Höhe der Pyramide |
+| xbottom | Zahl | Die x‑Richtungslänge des Bodenbereichs |
+| ybottom | Zahl | Die y‑Richtungslänge des Bodenbereichs |
+| xtop | Zahl | Die x‑Richtungslänge des Oberflächenbereichs |
+| ytop | Zahl | Die y‑Richtungslänge des Oberflächenbereichs |
+| height | Zahl | Die Höhe der Pyramide |
 
  **Result:**
 
@@ -74,18 +74,18 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload3(name, xbottom, ybottom, xtop, ytop, height) | Konstruiere eine neue Pyramideninstanz mit angegebener Grundfläche, Oberflächenfläche und Höhe. |
+| constructor_overload3(name, xbottom, ybottom, xtop, ytop, height) | Erstelle eine neue Pyramiden-Instanz mit angegebenem Bodenbereich, Oberflächenbereich und Höhe. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Der Name der Pyramide |
-| xbottom | Number | Die Länge in x‑Richtung der Grundfläche |
-| ybottom | Number | Die Länge in y‑Richtung der Grundfläche |
-| xtop | Number | Die Länge in x‑Richtung der Oberflächenfläche |
-| ytop | Number | Die Länge in y‑Richtung der Oberflächenfläche |
-| height | Number | Die Höhe der Pyramide |
+| name | String | Der Name der Pyramide |
+| xbottom | Zahl | Die x‑Richtungslänge des Bodenbereichs |
+| ybottom | Zahl | Die y‑Richtungslänge des Bodenbereichs |
+| xtop | Zahl | Die x‑Richtungslänge des Oberflächenbereichs |
+| ytop | Zahl | Die y‑Richtungslänge des Oberflächenbereichs |
+| height | Zahl | Die Höhe der Pyramide |
 
  **Result:**
 
@@ -254,7 +254,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -267,7 +267,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -280,7 +280,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -293,7 +293,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -306,7 +306,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -319,7 +319,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -332,7 +332,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -345,7 +345,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -358,7 +358,7 @@ Parametrisierte Pyramide.
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -384,7 +384,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 Mesh
@@ -397,7 +397,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -416,7 +416,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -429,7 +429,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -448,7 +448,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -457,7 +457,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -474,10 +474,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -487,7 +487,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -496,7 +496,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

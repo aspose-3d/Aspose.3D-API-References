@@ -11,7 +11,7 @@ url: /de/nodejs-java/aspose.threed/fileformattype/
 Dateiformattyp  @hideconstructor
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
@@ -23,14 +23,14 @@ Dateiformattyp  @hideconstructor
 | GLTF | glTF der Khronos Group |
 | DXF | AutoCAD DXF |
 | PLY | Polygon File Format oder Stanford Triangle Format |
-| X | X-Datei von DirectX |
+| X | DirectX X-Datei |
 | DRACO | Google Draco Mesh |
 | RVM | AVEVA Plant Design Management System Modell. |
-| ASE | ASCII‑Szenenexporter‑Format von 3D Studio Max. |
+| ASE | Das ASCII‑Scene‑Exporter‑Format von 3D Studio Max. |
 | ZIP | Zip-Archiv, das andere 3D-Dateiformate enthält. |
-| USD | Universelle Szenenbeschreibung |
-| PCD | Punktwolken-Daten, verwendet von der Point Cloud Library |
-| XYZ | Xyz-Punktwolken-Datei |
+| USD | Universal Scene Description |
+| PCD | Punktwolken-Daten, die von Point Cloud Library verwendet werden |
+| XYZ | XYZ-Punktwolken-Datei |
 | IFC | ISO 16739-1 Industry Foundation Classes Datenmodell. |
 | AMF | Dateiformat für additive Fertigung |
 | VRML | Die Virtual Reality Modeling Language |
@@ -54,7 +54,7 @@ Dateiformattyp  @hideconstructor
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Geben Sie den Namen dieses Dateiformattyps zurück |
+| toString() | Erhalte den Namen dieses Dateiformattyps |
 
  **Result:**
 String

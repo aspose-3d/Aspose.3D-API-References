@@ -1,5 +1,5 @@
 ---
-title: "Node"
+title: "Knoten"
 second_title: "Aspose.3D für Node.js via Java API-Referenz"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/node/
 ---
 ## Node class
 
-Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-Objekten. Die Baumverwaltungsdienste sind in dieser Klasse eigenständig enthalten. Beachten Sie, dass das Aspose.3D SDK die Gültigkeit des konstruierten Szenengraphen nicht prüft. Es liegt in der Verantwortung des Aufrufers sicherzustellen, dass keine zyklischen Graphen in einer Node-Hierarchie erzeugt werden. Neben der Baumverwaltung definiert diese Klasse alle Eigenschaften, die erforderlich sind, um die Position des Objekts in der Szene zu beschreiben. Diese Informationen umfassen die grundlegenden Eigenschaften Translation, Rotation und Skalierung sowie die erweiterten Optionen für Drehpunkte, Grenzen und IK-Gelenkattribute wie Steifigkeit und Dämpfung. Wenn es zum ersten Mal erstellt wird, ist das Node-Objekt "empty" (d.h.: es ist ein Objekt ohne jegliche grafische Darstellung, das nur Positionsinformationen enthält). In diesem Zustand kann es verwendet werden, um Eltern im Node-Baum zu repräsentieren, aber nicht viel mehr. Die übliche Verwendung dieser Objekttypen besteht darin, ihnen eine Entität hinzuzufügen, die den Node spezialisieren wird (siehe die "Entity"). Die Entität ist ein eigenständiges Objekt und ist mit dem Node verbunden. Das bedeutet auch, dass dieselbe Entität zwischen mehreren Nodes geteilt werden kann. Kamera, Licht, Mesh usw. sind alle Entitäten und sie alle leiten sich von der Basisklasse Entity ab.
+Stellt ein Element im Szenengraphen dar.  Ein Szenengraph ist ein Baum von Node-Objekten. Die Baumverwaltungsdienste sind in dieser Klasse selbst enthalten.  Hinweis: Das Aspose.3D SDK prüft nicht die Gültigkeit des konstruierten Szenengraphen. Es liegt in der Verantwortung des Aufrufers sicherzustellen, dass es keine zyklischen Graphen in einer Node-Hierarchie erzeugt.  Neben der Baumverwaltung definiert diese Klasse alle Eigenschaften, die erforderlich sind, um die Position des Objekts in der Szene zu beschreiben. Diese Informationen umfassen die grundlegenden Eigenschaften Translation, Rotation und Skalierung sowie erweiterte Optionen für Drehpunkte, Grenzen und IK-Gelenkattribute wie Steifigkeit und Dämpfung.  Wenn es erstmals erstellt wird, ist das Node-Objekt "empty" (d. h.: es ist ein Objekt ohne grafische Darstellung, das nur Positionsinformationen enthält). In diesem Zustand kann es verwendet werden, um Eltern im Node-Baum zu repräsentieren, aber nicht viel mehr. Die übliche Verwendung dieser Objekttypen besteht darin, ihnen eine Entität hinzuzufügen, die den Node spezialisieren wird (siehe "Entity").  Die Entität ist ein eigenständiges Objekt und ist mit dem Node verbunden. Das bedeutet auch, dass dieselbe Entität zwischen mehreren Nodes geteilt werden kann. Kamera, Licht, Mesh usw. sind alle Entitäten und leiten alle von der Basisklasse Entity ab.
 
 
 ## Methoden
@@ -36,8 +36,8 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
-| Entität | Entity | Standard-Entität. |
+| name | String | Name. |
+| Entität | Entität | Standard-Entität. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
+| name | String | Name. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getAssetInfo() | Asset-Informationen pro Knoten |
+| getAssetInfo() | Pro-Knoten Asset-Informationen |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| setAssetInfo(value) | Asset-Informationen pro Knoten |
+| setAssetInfo(value) | Pro-Knoten Asset-Informationen |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getVisible() | Liest oder setzt, um den Knoten anzuzeigen |
+| getVisible() | Liest oder setzt, um den Knoten anzuzeigen. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| setVisible(value) | Liest oder setzt, um den Knoten anzuzeigen |
+| setVisible(value) | Liest oder setzt, um den Knoten anzuzeigen. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Liest oder setzt, ob dieser Knoten und alle Kindknoten/Entitäten beim Exportieren ausgeschlossen werden. |
+| getExcluded() | Liest oder setzt, ob dieser Knoten und alle Kindknoten/Entitäten beim Export ausgeschlossen werden sollen. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Liest oder setzt, ob dieser Knoten und alle Kindknoten/Entitäten beim Exportieren ausgeschlossen werden. |
+| setExcluded(value) | Liest oder setzt, ob dieser Knoten und alle Kindknoten/Entitäten beim Export ausgeschlossen werden sollen. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getMetaDatas() | Liest die in diesem Knoten definierten Metadaten. Die Metadaten. |
+| getMetaDatas() | Liest die Metadaten, die in diesem Knoten definiert sind. Die Metadaten. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getMaterials() | Liest die mit diesem Knoten verbundenen Materialien. Die Materialien. |
+| getMaterials() | Liest die Materialien, die mit diesem Knoten verknüpft sind. Die Materialien. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getMaterial() | Liest oder setzt das erste Material, das mit diesem Knoten verbunden ist; beim Setzen werden andere Materialien gelöscht. Das Material. |
+| getMaterial() | Liest oder setzt das erste Material, das mit diesem Knoten verknüpft ist; beim Setzen werden andere Materialien gelöscht. Das Material. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| setMaterial(value) | Liest oder setzt das erste Material, das mit diesem Knoten verbunden ist; beim Setzen werden andere Materialien gelöscht. Das Material. |
+| setMaterial(value) | Liest oder setzt das erste Material, das mit diesem Knoten verknüpft ist; beim Setzen werden andere Materialien gelöscht. Das Material. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -358,7 +358,7 @@ Stellt ein Element im Szenengraphen dar. Ein Szenengraph ist ein Baum von Node-O
 | createChildNode() | Erstellt einen Kindknoten |
 
  **Result:**
-Node
+Knoten
 
 
 ---
@@ -368,16 +368,16 @@ Node
 
 | Name | Beschreibung |
 | --- | --- |
-| merge(node) | Löst alles unter dem Knoten und hängt es am aktuellen Knoten an. |
+| merge(node) | Lösen Sie alles unter dem Knoten und hängen Sie es an den aktuellen Knoten an. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| nod | Node | null |
+| nod | Knoten | null |
 
  **Result:**
-Node
+Knoten
 
 
 ---
@@ -387,7 +387,7 @@ Node
 
 | Name | Beschreibung |
 | --- | --- |
-| createChildNode(nodeName) | Erstelle einen neuen Kindknoten mit dem angegebenen Knotennamen |
+| createChildNode(nodeName) | Erstellen Sie einen neuen Kindknoten mit dem angegebenen Knotennamen |
 
  **Parameters:**
 
@@ -396,7 +396,7 @@ Node
 | nodeName | String | Der Name des neuen Kindknotens |
 
  **Result:**
-Node
+Knoten
 
 
 ---
@@ -406,16 +406,16 @@ Node
 
 | Name | Beschreibung |
 | --- | --- |
-| createChildNode(entity) | Erstelle einen neuen Kindknoten mit angehängter gegebener Entität |
+| createChildNode(entity) | Erstellen Sie einen neuen Kindknoten mit der angegebenen Entität angehängt |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Entität | Entity | Standard-Entität, die an den Knoten angehängt ist |
+| Entität | Entität | Standard-Entität, die dem Knoten angehängt ist |
 
  **Result:**
-Node
+Knoten
 
 
 ---
@@ -425,38 +425,38 @@ Node
 
 | Name | Beschreibung |
 | --- | --- |
-| createChildNode(nodeName, entity) | Erstelle einen neuen Kindknoten mit dem angegebenen Knotennamen |
-
- **Parameters:**
-
-| Name | Typ | Beschreibung |
-| --- | --- | --- |
-| nodeName | String | Der Name des neuen Kindknotens |
-| Entität | Entity | Standard-Entität, die an den Knoten angehängt ist |
-
- **Result:**
-Node
-
-
----
-
-
-### createChildNode{#createChildNode}
-
-| Name | Beschreibung |
-| --- | --- |
-| createChildNode(nodeName, entity, material) | Erstelle einen neuen Kindknoten mit dem angegebenen Knotennamen und hänge die angegebene Entität sowie ein Material an |
+| createChildNode(nodeName, entity) | Erstellen Sie einen neuen Kindknoten mit dem angegebenen Knotennamen |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | nodeName | String | Der Name des neuen Kindknotens |
-| Entität | Entity | Standard-Entität, die an den Knoten angehängt ist |
-| Material | Material | Das an den Knoten angehängte Material |
+| Entität | Entität | Standard-Entität, die dem Knoten angehängt ist |
 
  **Result:**
-Node
+Knoten
+
+
+---
+
+
+### createChildNode{#createChildNode}
+
+| Name | Beschreibung |
+| --- | --- |
+| createChildNode(nodeName, entity, material) | Erstellen Sie einen neuen Kindknoten mit dem angegebenen Knotennamen und hängen Sie die angegebene Entität sowie ein Material an |
+
+ **Parameters:**
+
+| Name | Typ | Beschreibung |
+| --- | --- | --- |
+| nodeName | String | Der Name des neuen Kindknotens |
+| Entität | Entität | Standard-Entität, die dem Knoten angehängt ist |
+| material | Material | Das Material, das dem Knoten angehängt ist |
+
+ **Result:**
+Knoten
 
 
 ---
@@ -466,7 +466,7 @@ Node
 
 | Name | Beschreibung |
 | --- | --- |
-| evaluateGlobalTransform(withGeometricTransform) | Bewerte die globale Transformation, die geometrische Transformation einbeziehen oder nicht. |
+| evaluateGlobalTransform(withGeometricTransform) | Bewerten Sie die globale Transformation, ob die geometrische Transformation einbezogen wird oder nicht. |
 
  **Parameters:**
 
@@ -491,10 +491,10 @@ Matrix4
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Index | Number | Index. |
+| index | Zahl | Index. |
 
  **Result:**
-Node
+Knoten
 
 
 ---
@@ -504,16 +504,16 @@ Node
 
 | Name | Beschreibung |
 | --- | --- |
-| getChild(nodeName) | Gibt den Kindknoten mit dem angegebenen Namen zurück. |
+| getChild(nodeName) | Gibt den Kindknoten mit dem angegebenen Namen zurück |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| nodeName | String | Der zu findende Kindname. |
+| nodeName | String | Der zu findende Kindknotenname. |
 
  **Result:**
-Node
+Knoten
 
 
 ---
@@ -529,7 +529,7 @@ Node
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Besucher | NodeVisitor | Besucher-Callback, um den Knoten zu besuchen. |
+| Besucher | NodeVisitor | Besucher-Callback, um den Knoten zu besuchen |
 
  **Result:**
 boolean
@@ -555,7 +555,7 @@ String
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Berechne die Begrenzungsbox des Knotens |
+| getBoundingBox() | Berechnet die Begrenzungsbox des Knotens |
 
  **Result:**
 BoundingBox
@@ -568,13 +568,13 @@ BoundingBox
 
 | Name | Beschreibung |
 | --- | --- |
-| addEntity(entity) | Füge dem Node eine Entität hinzu |
+| addEntity(entity) | Fügt dem Knoten eine Entität hinzu. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Entität | Entity | Die an den Knoten anzuhängende Entität |
+| Entität | Entität | Die Entität, die dem Knoten angehängt werden soll |
 
  **Result:**
 BoundingBox
@@ -587,13 +587,13 @@ BoundingBox
 
 | Name | Beschreibung |
 | --- | --- |
-| addChildNode(node) | Füge diesem Node einen Kind-Node hinzu |
+| addChildNode(node) | Fügt diesem Knoten einen Kindknoten hinzu |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Knoten | Node | Der anzuhängende Kindknoten |
+| Knoten | Knoten | Der Kindknoten, der angehängt werden soll |
 
  **Result:**
 BoundingBox
@@ -606,16 +606,16 @@ BoundingBox
 
 | Name | Beschreibung |
 | --- | --- |
-| selectSingleObject(path) | Wähle ein einzelnes Objekt unter dem aktuellen Knoten mit XPath-ähnlicher Abfragesyntax aus. |
+| selectSingleObject(path) | Wählt ein einzelnes Objekt unter dem aktuellen Knoten aus, wobei eine XPath-ähnliche Abfragesyntax verwendet wird. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| pat | String | null |
+| Pfad | String | null |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -625,13 +625,13 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| selectObjects(path) | Wähle mehrere Objekte unter dem aktuellen Knoten mit XPath-ähnlicher Abfragesyntax aus. |
+| selectObjects(path) | Wählt mehrere Objekte unter dem aktuellen Knoten aus, wobei eine XPath-ähnliche Abfragesyntax verwendet wird. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| pat | String | null |
+| Pfad | String | null |
 
  **Result:**
 0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
@@ -650,7 +650,7 @@ Object
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -663,7 +663,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -682,7 +682,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -691,7 +691,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -708,10 +708,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -721,7 +721,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -730,7 +730,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

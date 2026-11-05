@@ -17,14 +17,14 @@ Ein BindPoint wird normalerweise auf einer Eigenschaft eines Objekts erstellt; e
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor(scene, prop) | Initialisiert eine neue Instanz der Klasse BindPoint. |
+| constructor(scene, prop) | Initialisiert eine neue Instanz der BindPoint-Klasse. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| scene | Szene | Die Szene, die die Animation enthält. |
-| prop | Property | Eigenschaft. |
+| Szene | Szene | Die Szene, die die Animation enthält. |
+| Eigenschaft | Eigenschaft | Eigenschaft. |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Ein BindPoint wird normalerweise auf einer Eigenschaft eines Objekts erstellt; e
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty() | Liefert die mit der CurveMapping verknüpfte Eigenschaft |
+| getProperty() | Gibt die mit dem CurveMapping verbundene Eigenschaft zurück |
 
  **Result:**
 
@@ -50,7 +50,7 @@ Ein BindPoint wird normalerweise auf einer Eigenschaft eines Objekts erstellt; e
 
 | Name | Beschreibung |
 | --- | --- |
-| setProperty(value) | Liefert die mit der CurveMapping verknüpfte Eigenschaft |
+| setProperty(value) | Gibt die mit dem CurveMapping verbundene Eigenschaft zurück |
 
  **Result:**
 
@@ -63,10 +63,10 @@ Ein BindPoint wird normalerweise auf einer Eigenschaft eines Objekts erstellt; e
 
 | Name | Beschreibung |
 | --- | --- |
-| getChannelsCount() | Liefert die Gesamtzahl der Eigenschaftskanäle, die in dieser Animationskurvenzuordnung definiert sind. |
+| getChannelsCount() | Gibt die Gesamtzahl der Eigenschaftskanäle zurück, die in dieser Animationskurvenzuordnung definiert sind. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -76,10 +76,10 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -89,10 +89,10 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -102,10 +102,10 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -118,7 +118,7 @@ Number
 | get(channelName) |  |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -128,7 +128,7 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| getKeyframeSequence(channelName) | Liefert die erste Keyframe‑Sequenz im angegebenen Kanal |
+| getKeyframeSequence(channelName) | Gibt die erste Keyframe-Sequenz im angegebenen Kanal zurück |
 
  **Parameters:**
 
@@ -172,7 +172,7 @@ KeyframeSequence
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Der Name der neuen Sequenz. |
+| name | String | Der Name der neuen Sequenz. |
 
  **Result:**
 KeyframeSequence
@@ -185,14 +185,14 @@ KeyframeSequence
 
 | Name | Beschreibung |
 | --- | --- |
-| bindKeyframeSequence(channelName, sequence) | Binde die Keyframe‑Sequenz an den angegebenen Kanal |
+| bindKeyframeSequence(channelName, sequence) | Bindet die Keyframe‑Sequenz an den angegebenen Kanal |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | channelName | String | Welcher Kanal, an den die Keyframe‑Sequenz gebunden wird |
-| sequence | KeyframeSequence | Die zu bindende Keyframe‑Sequenz |
+| Sequenz | KeyframeSequence | Die zu bindende Keyframe‑Sequenz |
 
  **Result:**
 KeyframeSequence
@@ -205,7 +205,7 @@ KeyframeSequence
 
 | Name | Beschreibung |
 | --- | --- |
-| getChannel(channelName) | Liefert den Kanal mit dem angegebenen Namen |
+| getChannel(channelName) | Ruft den Kanal anhand des angegebenen Namens ab |
 
  **Parameters:**
 
@@ -230,8 +230,8 @@ AnimationChannel
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
-| Wert | Object | Wert. |
+| name | String | Name. |
+| value | Objekt | Wert. |
 
  **Result:**
 boolean
@@ -250,9 +250,9 @@ boolean
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
-| type | Klasse | Typ. |
-| Wert | Object | Wert. |
+| name | String | Name. |
+| Typ | Klasse | Typ. |
+| value | Objekt | Wert. |
 
  **Result:**
 boolean
@@ -278,7 +278,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Formatiert das Objekt in einen String |
+| toString() | Formatiert das Objekt zu einem String. |
 
  **Result:**
 String
@@ -297,7 +297,7 @@ String
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -310,7 +310,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -329,7 +329,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -338,7 +338,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -355,10 +355,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -368,7 +368,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -377,7 +377,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

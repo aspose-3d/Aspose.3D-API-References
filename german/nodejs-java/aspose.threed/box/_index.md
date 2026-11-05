@@ -36,9 +36,9 @@ Box.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Länge | Number | Länge der Box, die entlang der z-Achse ausgerichtet ist. |
-| Breite | Number | Breite der Box, die entlang der x-Achse ausgerichtet ist. |
-| height | Number | Höhe der Box, die entlang der y-Achse ausgerichtet ist. |
+| length | Zahl | Länge der Box ausgerichtet entlang der Z-Achse. |
+| width | Zahl | Breite der Box ausgerichtet entlang der X-Achse. |
+| height | Zahl | Höhe der Box ausgerichtet entlang der Y-Achse. |
 
  **Result:**
 
@@ -57,13 +57,13 @@ Box.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name der Box. |
-| Länge | Number | Länge der Box, die entlang der z-Achse ausgerichtet ist. |
-| Breite | Number | Breite der Box, die entlang der x-Achse ausgerichtet ist. |
-| height | Number | Höhe der Box, die entlang der y-Achse ausgerichtet ist. |
-| lengthSegments | Number | Längenabschnitte. |
-| widthSegments | Number | Breitenabschnitte. |
-| heightSegments | Number | Höhensegmente. |
+| name | String | Name der Box. |
+| length | Zahl | Länge der Box ausgerichtet entlang der Z-Achse. |
+| width | Zahl | Breite der Box ausgerichtet entlang der X-Achse. |
+| height | Zahl | Höhe der Box ausgerichtet entlang der Y-Achse. |
+| lengthSegments | Zahl | Länge Segmente. |
+| widthSegments | Zahl | Breite Segmente. |
+| heightSegments | Zahl | Höhenabschnitte. |
 
  **Result:**
 
@@ -102,7 +102,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getWidthSegments() | Liest oder setzt die Breitensegmente. |
+| getWidthSegments() | Liest oder setzt die Breitensegmente |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| setWidthSegments(value) | Liest oder setzt die Breitensegmente. |
+| setWidthSegments(value) | Liest oder setzt die Breitensegmente |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getHeightSegments() | Liefert oder setzt die Höhensegmente. |
+| getHeightSegments() | liest oder setzt die Höhensegmente. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| setHeightSegments(value) | Liefert oder setzt die Höhensegmente. |
+| setHeightSegments(value) | liest oder setzt die Höhensegmente. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLength() | Liest oder setzt die Länge der Box, ausgerichtet entlang der Z-Achse. Die Länge, ausgerichtet entlang der Z-Achse. |
+| getLength() | Liest oder setzt die Länge der Box ausgerichtet entlang der Z-Achse. Die Länge ausgerichtet entlang der Z-Achse. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| setLength(value) | Liest oder setzt die Länge der Box, ausgerichtet entlang der Z-Achse. Die Länge, ausgerichtet entlang der Z-Achse. |
+| setLength(value) | Liest oder setzt die Länge der Box ausgerichtet entlang der Z-Achse. Die Länge ausgerichtet entlang der Z-Achse. |
 
  **Result:**
 
@@ -180,7 +180,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getWidth() | Liest oder setzt die Breite der Box, ausgerichtet entlang der X-Achse. Die Breite, ausgerichtet entlang der X-Achse. |
+| getWidth() | Liest oder setzt die Breite der Box ausgerichtet entlang der X-Achse. Die Breite ausgerichtet entlang der X-Achse. |
 
  **Result:**
 
@@ -193,7 +193,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| setWidth(value) | Liest oder setzt die Breite der Box, ausgerichtet entlang der X-Achse. Die Breite, ausgerichtet entlang der X-Achse. |
+| setWidth(value) | Liest oder setzt die Breite der Box ausgerichtet entlang der X-Achse. Die Breite ausgerichtet entlang der X-Achse. |
 
  **Result:**
 
@@ -206,7 +206,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getHeight() | Liest oder setzt die Höhe der Box, ausgerichtet entlang der Y-Achse. Die Höhe, ausgerichtet entlang der Y-Achse. |
+| getHeight() | Liest oder setzt die Höhe der Box ausgerichtet entlang der Y-Achse. Die Höhe ausgerichtet entlang der Y-Achse. |
 
  **Result:**
 
@@ -219,7 +219,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| setHeight(value) | Liest oder setzt die Höhe der Box, ausgerichtet entlang der Y-Achse. Die Höhe, ausgerichtet entlang der Y-Achse. |
+| setHeight(value) | Liest oder setzt die Höhe der Box ausgerichtet entlang der Y-Achse. Die Höhe ausgerichtet entlang der Y-Achse. |
 
  **Result:**
 
@@ -284,7 +284,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -297,7 +297,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -310,7 +310,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -323,7 +323,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -336,7 +336,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -349,7 +349,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -362,7 +362,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -375,7 +375,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -388,7 +388,7 @@ Box.
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -414,7 +414,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 Mesh
@@ -427,7 +427,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -446,7 +446,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -459,7 +459,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -478,7 +478,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -487,7 +487,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -504,10 +504,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -517,7 +517,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -526,7 +526,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

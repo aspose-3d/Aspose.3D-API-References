@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/morphtargetdeformer/
 ---
 ## MorphTargetDeformer class
 
-MorphTargetDeformer bietet per-Vertex-Animation. MorphTargetDeformer organisiert alle Ziele über MorphTargetChannel, wobei jeder Kanal mehrere Ziele organisieren kann. Ein häufiger Einsatz des Morph-Target-Deformers ist das Anwenden von Gesichtsausdrücken auf einen Charakter. Weitere Details finden Sie unter https://en.wikipedia.org/wiki/Morph_target_animation
+MorphTargetDeformer bietet per-Vertex-Animation. MorphTargetDeformer organisiert alle Ziele über MorphTargetChannel, jeder Kanal kann mehrere Ziele organisieren. Ein häufiger Einsatz von MorphTargetDeformer ist das Anwenden von Gesichtsausdrücken auf einen Charakter. Weitere Details finden Sie unter https://en.wikipedia.org/wiki/Morph_target_animation
 
 
 ## Methoden
@@ -23,7 +23,7 @@ MorphTargetDeformer bietet per-Vertex-Animation. MorphTargetDeformer organisiert
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
+| name | String | Name. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ MorphTargetDeformer bietet per-Vertex-Animation. MorphTargetDeformer organisiert
 
 | Name | Beschreibung |
 | --- | --- |
-| getChannels() | Liefert alle im Deformer enthaltenen Kanäle |
+| getChannels() | Liest alle Kanäle, die in diesem Deformer enthalten sind |
 
  **Result:**
 
@@ -75,7 +75,7 @@ MorphTargetDeformer bietet per-Vertex-Animation. MorphTargetDeformer organisiert
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ MorphTargetDeformer bietet per-Vertex-Animation. MorphTargetDeformer organisiert
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ MorphTargetDeformer bietet per-Vertex-Animation. MorphTargetDeformer organisiert
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -146,7 +146,7 @@ MorphTargetDeformer bietet per-Vertex-Animation. MorphTargetDeformer organisiert
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -159,7 +159,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -178,7 +178,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -187,7 +187,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -204,10 +204,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -217,7 +217,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -226,7 +226,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

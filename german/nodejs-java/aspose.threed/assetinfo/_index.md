@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/assetinfo/
 ---
 ## AssetInfo class
 
-Informationen zum Asset.  Asset‑Informationen können an einer Szene angehängt werden.  Eine untergeordnete Szene kann ihre eigene AssetInfo haben, um die Definition des Elternteils zu überschreiben.
+Informationen zum Asset.  Asset‑Informationen können an einer Szene angehängt werden.  Eine untergeordnete Szene kann ihre eigene AssetInfo besitzen, um die Definition des übergeordneten Elements zu überschreiben.
 
 
 ## Methoden
@@ -36,7 +36,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name |
+| name | String | Name |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| getRevision() | Liest oder setzt die Revisionsnummer dieses Assets, die normalerweise in Versionskontrollsystemen verwendet wird. |
+| getRevision() | Liest oder setzt die Revisionsnummer dieses Assets, normalerweise im Versionskontrollsystem verwendet. |
 
  **Result:**
 
@@ -335,7 +335,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| setRevision(value) | Liest oder setzt die Revisionsnummer dieses Assets, die normalerweise in Versionskontrollsystemen verwendet wird. |
+| setRevision(value) | Liest oder setzt die Revisionsnummer dieses Assets, normalerweise im Versionskontrollsystem verwendet. |
 
  **Result:**
 
@@ -374,7 +374,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| getUnitName() | Liest oder setzt die Längeneinheit, die in diesem Asset verwendet wird. z. B. cm/m/km/Zoll/Fuß |
+| getUnitName() | Liest oder setzt die Längeneinheit, die in diesem Asset verwendet wird. z. B. cm/m/km/Zoll/Feet |
 
  **Result:**
 
@@ -387,7 +387,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| setUnitName(value) | Liest oder setzt die Längeneinheit, die in diesem Asset verwendet wird. z. B. cm/m/km/Zoll/Fuß |
+| setUnitName(value) | Liest oder setzt die Längeneinheit, die in diesem Asset verwendet wird. z. B. cm/m/km/Zoll/Feet |
 
  **Result:**
 
@@ -400,7 +400,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| getUnitScaleFactor() | Liest oder setzt den Skalierungsfaktor zum realen Meter. Dieser wird bei der Serialisierung ignoriert, wenn der Einheitenname null ist. |
+| getUnitScaleFactor() | Liest oder setzt den Skalierungsfaktor zum realen Meter. Dieser wird bei der Serialisierung ignoriert, wenn der Einheitname null ist. |
 
  **Result:**
 
@@ -413,7 +413,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| setUnitScaleFactor(value) | Liest oder setzt den Skalierungsfaktor zum realen Meter. Dieser wird bei der Serialisierung ignoriert, wenn der Einheitenname null ist. |
+| setUnitScaleFactor(value) | Liest oder setzt den Skalierungsfaktor zum realen Meter. Dieser wird bei der Serialisierung ignoriert, wenn der Einheitname null ist. |
 
  **Result:**
 
@@ -439,7 +439,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| getUpVector() | Liest oder setzt den Aufwärtsvektor, der in diesem Asset verwendet wird. |
+| getUpVector() | Liest oder setzt den Up-Vektor, der in diesem Asset verwendet wird. |
 
  **Result:**
 
@@ -452,7 +452,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -465,7 +465,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -478,7 +478,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -497,7 +497,7 @@ Informationen zum Asset.  Asset‑Informationen können an einer Szene angehäng
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -510,7 +510,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -529,7 +529,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -538,7 +538,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -555,10 +555,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -568,7 +568,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -577,7 +577,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

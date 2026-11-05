@@ -147,7 +147,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| getCenter() | Wenn dieser Wert false ist, ist der Z‑Bereich der linearen Extrusion von 0 bis Höhe, andernfalls ist der Bereich von -Höhe/2 bis Höhe/2. |
+| getCenter() | Wenn dieser Wert false ist, ist der lineare Extrusions-Z-Bereich von 0 bis Höhe, andernfalls ist der Bereich von -Höhe/2 bis Höhe/2. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| setCenter(value) | Wenn dieser Wert false ist, ist der Z‑Bereich der linearen Extrusion von 0 bis Höhe, andernfalls ist der Bereich von -Höhe/2 bis Höhe/2. |
+| setCenter(value) | Wenn dieser Wert false ist, ist der lineare Extrusions-Z-Bereich von 0 bis Höhe, andernfalls ist der Bereich von -Höhe/2 bis Höhe/2. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| getTwist() | Die Anzahl der Grad, um die die Form extrudiert wird. |
+| getTwist() | Die Anzahl der Grad, durch die die Form extrudiert wird. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| setTwist(value) | Die Anzahl der Grad, um die die Form extrudiert wird. |
+| setTwist(value) | Die Anzahl der Grad, durch die die Form extrudiert wird. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Lineare Extrusion nimmt eine 2D-Form als Eingabe und erweitert die Form in die d
 
 | Name | Beschreibung |
 | --- | --- |
-| toMesh() | Konvertiere die Extrusion zu einem Mesh. |
+| toMesh() | Konvertiere die Extrusion in ein Mesh. |
 
  **Result:**
 Mesh
@@ -355,7 +355,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 Mesh
@@ -368,7 +368,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -387,7 +387,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -400,7 +400,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -419,7 +419,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -428,7 +428,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -445,10 +445,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -458,7 +458,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -467,7 +467,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

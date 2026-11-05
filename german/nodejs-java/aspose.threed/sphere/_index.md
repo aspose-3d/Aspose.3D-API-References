@@ -17,7 +17,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor() | Initialisiert eine neue Instanz der Kugel mit dem Standardradius 1. |
+| constructor() | Initialisiert eine neue Instanz von Sphere mit dem Standardradius 1. |
 
  **Result:**
 
@@ -30,13 +30,13 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload(radius) | Initialisiert eine neue Instanz der Klasse Sphere mit angegebenem Radius. |
+| constructor_overload(radius) | Initialisiert eine neue Instanz der Sphere-Klasse mit dem angegebenen Radius. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| radius | Number | Radius. |
+| radius | Zahl | Radius. |
 
  **Result:**
 
@@ -49,15 +49,15 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload2(radius, widthSegments, heightSegments) | Initialisiert eine neue Instanz der Klasse Sphere mit angegebenem Radius, Breitensegmenten und Höhensegmenten. |
+| constructor_overload2(radius, widthSegments, heightSegments) | Initialisiert eine neue Instanz der Sphere-Klasse mit dem angegebenen Radius, Breitenabschnitten und Höhenabschnitten. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| radius | Number | Radius der Kugel. |
-| widthSegments | Number | Breitenabschnitte. |
-| heightSegments | Number | Höhensegmente. |
+| radius | Zahl | Radius der Kugel. |
+| widthSegments | Zahl | Breite Segmente. |
+| heightSegments | Zahl | Höhenabschnitte. |
 
  **Result:**
 
@@ -70,20 +70,20 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| constructor_overload3(name, radius, widthSegments, heightSegments, phiStart, phiLength, thetaStart, thetaLength) | Initialisiert eine neue Instanz der Klasse Sphere. |
+| constructor_overload3(name, radius, widthSegments, heightSegments, phiStart, phiLength, thetaStart, thetaLength) | Initialisiert eine neue Instanz der Sphere-Klasse. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name. |
-| radius | Number | Radius der Kugel. |
-| widthSegments | Number | Breitenabschnitte. |
-| heightSegments | Number | Höhensegmente. |
-| phiStart | Number | Phi-Start. |
-| phiLength | Number | Phi-Länge. |
-| thetaStart | Number | Theta-Start. |
-| thetaLength | Number | Theta-Länge. |
+| name | String | Name. |
+| radius | Zahl | Radius der Kugel. |
+| widthSegments | Zahl | Breite Segmente. |
+| heightSegments | Zahl | Höhenabschnitte. |
+| phiStart | Zahl | Phi-Start. |
+| phiLength | Zahl | Phi-Länge. |
+| thetaStart | Zahl | Theta-Start. |
+| thetaLength | Zahl | Theta-Länge. |
 
  **Result:**
 
@@ -122,7 +122,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getHeightSegments() | Liest oder setzt die Höhensegmente. Die Höhensegmente. |
+| getHeightSegments() | Liest oder setzt die Höhenabschnitte. Die Höhenabschnitte. |
 
  **Result:**
 
@@ -135,7 +135,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| setHeightSegments(value) | Liest oder setzt die Höhensegmente. Die Höhensegmente. |
+| setHeightSegments(value) | Liest oder setzt die Höhenabschnitte. Die Höhenabschnitte. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getThetaStart() | Liest oder setzt den Theta-Start. Der Theta-Start. |
+| getThetaStart() | Liest oder setzt den theta-Start. Der theta-Start. |
 
  **Result:**
 
@@ -213,7 +213,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| setThetaStart(value) | Liest oder setzt den Theta-Start. Der Theta-Start. |
+| setThetaStart(value) | Liest oder setzt den theta-Start. Der theta-Start. |
 
  **Result:**
 
@@ -226,7 +226,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getThetaLength() | Liest oder setzt die Länge des Theta. Die Länge des Theta. |
+| getThetaLength() | Liest oder setzt die Länge des theta. Die Länge des theta. |
 
  **Result:**
 
@@ -239,7 +239,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| setThetaLength(value) | Liest oder setzt die Länge des Theta. Die Länge des Theta. |
+| setThetaLength(value) | Liest oder setzt die Länge des theta. Die Länge des theta. |
 
  **Result:**
 
@@ -330,7 +330,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrie-Instanziierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
+| getParentNodes() | Gibt alle übergeordneten Knoten zurück, ein Entity kann für Geometrieinstanzierung an mehrere übergeordnete Knoten angehängt werden. Die Knoten. |
 
  **Result:**
 
@@ -343,7 +343,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExcluded() | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| getExcluded() | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -356,7 +356,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExcluded(value) | Gibt an oder legt fest, ob dieses Entity beim Exportieren ausgeschlossen wird. |
+| setExcluded(value) | Liest oder setzt, ob dieses Entity beim Exportieren ausgeschlossen werden soll. |
 
  **Result:**
 
@@ -369,7 +369,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getParentNode() | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| getParentNode() | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -382,7 +382,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| setParentNode(value) | Gibt den ersten übergeordneten Knoten zurück oder legt ihn fest; wenn der erste übergeordnete Knoten gesetzt wird, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
+| setParentNode(value) | Liest oder setzt den ersten übergeordneten Knoten, wenn der erste übergeordnete Knoten gesetzt ist, wird dieses Entity von anderen übergeordneten Knoten getrennt. Der übergeordnete Knoten. |
 
  **Result:**
 
@@ -395,7 +395,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getScene() | Liefert die Szene, zu der dieses Objekt gehört |
+| getScene() | Ruft die Szene ab, zu der dieses Objekt gehört |
 
  **Result:**
 
@@ -408,7 +408,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -421,7 +421,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -434,7 +434,7 @@ Parametrisierte Kugel.
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -460,7 +460,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getBoundingBox() | Liefert die Begrenzungsbox der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem. |
+| getBoundingBox() | Ruft die Bounding-Box der aktuellen Entität in ihrem Objekt-Raum-Koordinatensystem ab. |
 
  **Result:**
 Mesh
@@ -473,7 +473,7 @@ Mesh
 
 | Name | Beschreibung |
 | --- | --- |
-| getEntityRendererKey() | Liefert den Schlüssel des Entitäts-Renderers, der im Renderer registriert ist |
+| getEntityRendererKey() | Ruft den Schlüssel des im Renderer registrierten Entity-Renderers ab. |
 
  **Result:**
 EntityRendererKey
@@ -492,7 +492,7 @@ EntityRendererKey
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -505,7 +505,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -524,7 +524,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -533,7 +533,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -550,10 +550,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -563,7 +563,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -572,7 +572,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

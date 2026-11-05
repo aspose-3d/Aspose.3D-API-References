@@ -11,14 +11,14 @@ url: /de/nodejs-java/aspose.threed/vector4/
 Ein Vektor mit vier Komponenten.
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| x | Die x‑Komponente. |
-| y | Die y‑Komponente. |
-| z | Die z‑Komponente. |
-| w | Die w‑Komponente. |
+| x | Die x-Komponente. |
+| y | Die y-Komponente. |
+| z | Die z-Komponente. |
+| w | Die w-Komponente. |
 
 ## Methoden
 
@@ -45,8 +45,8 @@ Ein Vektor mit vier Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| vec | Vector3 | Vektor. |
-| w | Number | Die Breite. |
+| vec | Vector3 | Vec. |
+| w | Zahl | Die Breite. |
 
  **Result:**
 
@@ -65,7 +65,7 @@ Ein Vektor mit vier Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| vec | Vector3 | Vektor. |
+| vec | Vector3 | Vec. |
 
  **Result:**
 
@@ -84,7 +84,7 @@ Ein Vektor mit vier Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| vec | FVector4 | Vektor. |
+| vec | FVector4 | Vec. |
 
  **Result:**
 
@@ -103,9 +103,9 @@ Ein Vektor mit vier Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Number | Die x-Koordinate. |
-| y | Number | Die y-Koordinate. |
-| z | Number | Die z-Koordinate. |
+| x | Zahl | Die x-Koordinate. |
+| y | Zahl | Die y-Koordinate. |
+| z | Zahl | Die z-Koordinate. |
 
  **Result:**
 
@@ -124,10 +124,10 @@ Ein Vektor mit vier Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Number | Die x-Koordinate. |
-| y | Number | Die y-Koordinate. |
-| z | Number | Die z-Koordinate. |
-| w | Number | Die Breite. |
+| x | Zahl | Die x-Koordinate. |
+| y | Zahl | Die y-Koordinate. |
+| z | Zahl | Die z-Koordinate. |
+| w | Zahl | Die Breite. |
 
  **Result:**
 
@@ -146,9 +146,9 @@ Ein Vektor mit vier Komponenten.
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| newX | Number | Neue X-Komponente. |
-| newY | Number | Neue Y-Komponente. |
-| newZ | Number | Neue Z-Komponente. |
+| newX | Zahl | Neue X-Komponente. |
+| newY | Zahl | Neue Y-Komponente. |
+| newZ | Zahl | Neue Z-Komponente. |
 
  **Result:**
 
@@ -161,13 +161,13 @@ Ein Vektor mit vier Komponenten.
 
 | Name | Beschreibung |
 | --- | --- |
-| equals(obj) | Prüfen, ob zwei Vektoren gleich sind |
+| equals(obj) | Überprüfe, ob zwei Vektoren gleich sind |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| ob | Object | null |
+| ob | Objekt | null |
 
  **Result:**
 boolean
@@ -180,10 +180,10 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| hashCode() | Liefert den Hashcode dieses Vektors |
+| hashCode() | Liest den Hashcode dieses Vektors |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -193,19 +193,19 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| set(newX, newY, newZ, newW) | Setzt alle Komponenten des Vektors gleichzeitig. |
+| set(newX, newY, newZ, newW) | Setzt alle Komponenten des Vektors gleichzeitig |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| newX | Number | Neue X-Komponente. |
-| newY | Number | Neue Y-Komponente. |
-| newZ | Number | Neue Z-Komponente. |
-| newW | Number | Neue W-Komponente. |
+| newX | Zahl | Neue X-Komponente. |
+| newY | Zahl | Neue Y-Komponente. |
+| newZ | Zahl | Neue Z-Komponente. |
+| newW | Zahl | Neue W-Komponente. |
 
  **Result:**
-Number
+Zahl
 
 
 ---
@@ -215,7 +215,7 @@ Number
 
 | Name | Beschreibung |
 | --- | --- |
-| toString() | Gibt einen java.lang.String zurück, der das aktuelle Vector4 darstellt. |
+| toString() | Gibt einen java.lang.String zurück, der das aktuelle Vector4 repräsentiert. |
 
  **Result:**
 String
@@ -228,7 +228,7 @@ String
 
 | Name | Beschreibung |
 | --- | --- |
-| compareTo(other) | Vergleicht den aktuellen Vektor mit einer anderen Instanz. |
+| compareTo(other) | Vergleiche den aktuellen Vektor mit einer anderen Instanz. |
 
  **Parameters:**
 
@@ -237,7 +237,7 @@ String
 | othe | Vector4 | null |
 
  **Result:**
-Number
+Zahl
 
 
 ---

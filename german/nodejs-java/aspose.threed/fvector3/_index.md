@@ -8,18 +8,18 @@ url: /de/nodejs-java/aspose.threed/fvector3/
 ---
 ## FVector3 class
 
-Ein Float-Vektor mit drei Komponenten.
+Ein Fließkomma-Vektor mit drei Komponenten.
 
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| x | Die x‑Komponente. |
-| y | Die y‑Komponente. |
-| z | Die y‑Komponente. |
+| x | Die x-Komponente. |
+| y | Die y-Komponente. |
+| z | Die y-Komponente. |
 | ZERO | Der Nullvektor. |
-| UNIT_SCALE | Der Einheitsskalenvektor, bei dem alle Komponenten 1 sind |
+| UNIT_SCALE | Der Einheitsvektor mit allen Komponenten gleich 1. |
 
 ## Methoden
 
@@ -105,13 +105,13 @@ FVector3
 
 | Name | Beschreibung |
 | --- | --- |
-| cross(rhs) | Kreuzprodukt von zwei Vektoren |
+| cross(rhs) | Kreuzprodukt von zwei Vektoren. |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| rhs | FVector3 | Rechter Handwert. |
+| rhs | FVector3 | Wert der rechten Seite. |
 
  **Result:**
 FVector3

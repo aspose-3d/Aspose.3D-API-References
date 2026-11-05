@@ -82,7 +82,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getDuplicatedNameSeparator() | Der Trenner zwischen dem Namen eines Objekts und dem duplizierten Zähler, Standardwert ist "_". Wenn die Szene Objekte enthält, die denselben Namen verwenden, erzeugt der Aspose.3D 3DS-Exporter einen anderen Namen für das Objekt. Zum Beispiel gibt es zwei Knoten mit dem Namen "Box", der erste Knoten hat den Namen "Box", und der zweite Knoten erhält mit der Standardkonfiguration den neuen Namen "Box_2". |
+| getDuplicatedNameSeparator() | Der Trenner zwischen dem Namen eines Objekts und dem duplizierten Zähler, Standardwert ist "_". Wenn die Szene Objekte enthält, die denselben Namen verwenden, erzeugt der Aspose.3D 3DS-Exporter einen anderen Namen für das Objekt. Zum Beispiel gibt es zwei Knoten mit dem Namen "Box", der erste Knoten hat den Namen "Box" und der zweite Knoten erhält mit der Standardkonfiguration den neuen Namen "Box_2". |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setDuplicatedNameSeparator(value) | Der Trenner zwischen dem Namen eines Objekts und dem duplizierten Zähler, Standardwert ist "_". Wenn die Szene Objekte enthält, die denselben Namen verwenden, erzeugt der Aspose.3D 3DS-Exporter einen anderen Namen für das Objekt. Zum Beispiel gibt es zwei Knoten mit dem Namen "Box", der erste Knoten hat den Namen "Box", und der zweite Knoten erhält mit der Standardkonfiguration den neuen Namen "Box_2". |
+| setDuplicatedNameSeparator(value) | Der Trenner zwischen dem Namen eines Objekts und dem duplizierten Zähler, Standardwert ist "_". Wenn die Szene Objekte enthält, die denselben Namen verwenden, erzeugt der Aspose.3D 3DS-Exporter einen anderen Namen für das Objekt. Zum Beispiel gibt es zwei Knoten mit dem Namen "Box", der erste Knoten hat den Namen "Box" und der zweite Knoten erhält mit der Standardkonfiguration den neuen Namen "Box_2". |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getDuplicatedNameCounterBase() | Der Zähler, der zum Erzeugen neuer Namen für duplizierte Namen verwendet wird, Standardwert ist 2. |
+| getDuplicatedNameCounterBase() | Der Zähler, der zur Erzeugung neuer Namen für duplizierte Namen verwendet wird, Standardwert ist 2. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setDuplicatedNameCounterBase(value) | Der Zähler, der zum Erzeugen neuer Namen für duplizierte Namen verwendet wird, Standardwert ist 2. |
+| setDuplicatedNameCounterBase(value) | Der Zähler, der zur Erzeugung neuer Namen für duplizierte Namen verwendet wird, Standardwert ist 2. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getDuplicatedNameCounterFormat() | Das Format des duplizierten Zählers, Standardwert ist ein leerer String. |
+| getDuplicatedNameCounterFormat() | Das Format des duplizierten Zählers, Standardwert ist eine leere Zeichenkette. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setDuplicatedNameCounterFormat(value) | Das Format des duplizierten Zählers, Standardwert ist ein leerer String. |
+| setDuplicatedNameCounterFormat(value) | Das Format des duplizierten Zählers, Standardwert ist eine leere Zeichenkette. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getMasterScale() | Liest oder setzt die beim Export verwendete Master-Skala. |
+| getMasterScale() | Liest oder setzt die beim Exportieren verwendete Master-Skala. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setMasterScale(value) | Liest oder setzt die beim Export verwendete Master-Skala. |
+| setMasterScale(value) | Liest oder setzt die beim Exportieren verwendete Master-Skala. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getGammaCorrectedColor() | Eine 3ds-Datei kann originale Farbe und gamma‑korrigierte Farbe für dasselbe Attribut enthalten. Wird dies auf true gesetzt, wird nach Möglichkeit die gamma‑korrigierte Farbe verwendet, andernfalls versucht Aspose.3D, die originale Farbe zu nutzen. |
+| getGammaCorrectedColor() | Eine 3ds-Datei kann die Originalfarbe und die gamma‑korrigierte Farbe für dasselbe Attribut enthalten. Wenn dies auf true gesetzt wird, wird nach Möglichkeit die gamma‑korrigierte Farbe verwendet, andernfalls versucht Aspose.3D, die Originalfarbe zu verwenden. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setGammaCorrectedColor(value) | Eine 3ds-Datei kann originale Farbe und gamma‑korrigierte Farbe für dasselbe Attribut enthalten. Wird dies auf true gesetzt, wird nach Möglichkeit die gamma‑korrigierte Farbe verwendet, andernfalls versucht Aspose.3D, die originale Farbe zu nutzen. |
+| setGammaCorrectedColor(value) | Eine 3ds-Datei kann die Originalfarbe und die gamma‑korrigierte Farbe für dasselbe Attribut enthalten. Wenn dies auf true gesetzt wird, wird nach Möglichkeit die gamma‑korrigierte Farbe verwendet, andernfalls versucht Aspose.3D, die Originalfarbe zu verwenden. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getHighPreciseColor() | Wenn dies true ist, verwendet die erzeugte 3ds‑Datei hochpräzise Farben, d. h. jeder Rot‑/Grün‑/Blau‑Kanal ist ein 32‑Bit‑Float. Andernfalls verwendet die erzeugte Datei 24‑Bit‑Farben, wobei jeder Kanal ein 8‑Bit‑Byte nutzt. Der Standardwert ist false, da nicht alle Anwendungen hochpräzise Farben unterstützen. |
+| getHighPreciseColor() | Wenn dies true ist, verwendet die erzeugte 3ds-Datei hochpräzise Farben, das bedeutet, dass jeder Rot‑/Grün‑/Blau‑Kanal als 32‑Bit‑Float vorliegt. Andernfalls verwendet die erzeugte Datei 24‑Bit‑Farben, wobei jeder Kanal ein 8‑Bit‑Byte nutzt. Der Standardwert ist false, weil nicht alle Anwendungen hochpräzise Farben unterstützen. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setHighPreciseColor(value) | Wenn dies true ist, verwendet die erzeugte 3ds‑Datei hochpräzise Farben, d. h. jeder Rot‑/Grün‑/Blau‑Kanal ist ein 32‑Bit‑Float. Andernfalls verwendet die erzeugte Datei 24‑Bit‑Farben, wobei jeder Kanal ein 8‑Bit‑Byte nutzt. Der Standardwert ist false, da nicht alle Anwendungen hochpräzise Farben unterstützen. |
+| setHighPreciseColor(value) | Wenn dies true ist, verwendet die erzeugte 3ds-Datei hochpräzise Farben, das bedeutet, dass jeder Rot‑/Grün‑/Blau‑Kanal als 32‑Bit‑Float vorliegt. Andernfalls verwendet die erzeugte Datei 24‑Bit‑Farben, wobei jeder Kanal ein 8‑Bit‑Byte nutzt. Der Standardwert ist false, weil nicht alle Anwendungen hochpräzise Farben unterstützen. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getExportTextures() | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| getExportTextures() | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setExportTextures(value) | Versucht, im Szene verwendete Texturen in das Ausgabeverzeichnis zu kopieren. |
+| setExportTextures(value) | Versuchen Sie, Texturen, die in der Szene verwendet werden, in das Ausgabeverzeichnis zu kopieren. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Speicheroptionen für 3DS-Datei.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

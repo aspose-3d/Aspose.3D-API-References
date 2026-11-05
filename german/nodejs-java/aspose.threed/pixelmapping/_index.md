@@ -17,7 +17,7 @@ url: /de/nodejs-java/aspose.threed/pixelmapping/
 
 | Name | Beschreibung |
 | --- | --- |
-| getStride() | Bytes der Pixel in einer Zeile. |
+| getStride() | Bytes von Pixeln in einer Zeile. |
 
  **Result:**
 

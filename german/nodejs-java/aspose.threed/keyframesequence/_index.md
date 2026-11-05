@@ -8,7 +8,7 @@ url: /de/nodejs-java/aspose.threed/keyframesequence/
 ---
 ## KeyframeSequence class
 
-Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetasteten Wertes über die Zeit.
+Die Sequenz von Schlüsselbildern, sie beschreibt die Transformation eines abgetasteten Wertes über die Zeit.
 
 
 ## Methoden
@@ -23,7 +23,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Name | String | Name |
+| name | String | Name |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| getBindPoint() | Gibt den Property-Bind-Punkt zurück, der diese Kurve besitzt |
+| getBindPoint() | Ermittelt den Bindungspunkt der Eigenschaft, dem diese Kurve gehört |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| getKeyFrames() | Gibt die Schlüsselbilder dieser Kurve zurück. Die Schlüssel. |
+| getKeyFrames() | Ermittelt die Schlüsselbilder dieser Kurve. Die Schlüssel. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| getPostBehavior() | Gibt das Post‑Verhalten zurück, das angibt, welchen abgetasteten Wert es nach dem letzten Keyframe haben soll. |
+| getPostBehavior() | Ermittelt das Nachverhalten, das angibt, welchen Wert die Abtastung nach dem letzten Schlüsselbild haben soll. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| getPreBehavior() | Gibt das Pre‑Verhalten zurück, das angibt, welchen abgetasteten Wert es vor dem ersten Keyframe haben soll. |
+| getPreBehavior() | Ermittelt das Vorverhalten, das angibt, welchen Wert die Abtastung vor dem ersten Schlüsselbild haben soll. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| getName() | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| getName() | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| setName(value) | Gibt den Namen zurück oder legt ihn fest. Der Name. |
+| setName(value) | Liest oder setzt den Namen. Der Name. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperties() | Liefert die Sammlung aller Eigenschaften. |
+| getProperties() | Ruft die Sammlung aller Eigenschaften ab. |
 
  **Result:**
 
@@ -140,14 +140,14 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| add(time, value) | Erstelle einen neuen Keyframe mit angegebenem Wert |
+| add(time, value) | Erstelle ein neues Schlüsselbild mit dem angegebenen Wert |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Zeit | Number | Zeitposition (gemessen in Sekunden) |
-| Wert | Number | Der Wert an dieser Zeitposition |
+| time | Zahl | Zeitposition (gemessen in Sekunden) |
+| value | Zahl | Der Wert an dieser Zeitposition |
 
  **Result:**
 
@@ -160,14 +160,14 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| add(time, value, interpolation) | Erstelle einen neuen Keyframe mit angegebenem Wert |
+| add(time, value, interpolation) | Erstelle ein neues Schlüsselbild mit dem angegebenen Wert |
 
  **Parameters:**
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Zeit | Number | Zeitposition (gemessen in Sekunden) |
-| Wert | Number | Der Wert an dieser Zeitposition |
+| time | Zahl | Zeitposition (gemessen in Sekunden) |
+| value | Zahl | Der Wert an dieser Zeitposition |
 | Interpolation | Interpolation | Interpolation |
 
  **Result:**
@@ -181,7 +181,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Beschreibung |
 | --- | --- |
-| reset() | Entfernt alle Keyframes und setzt das Post-/Pre‑Verhalten zurück. |
+| reset() | Entfernt alle Keyframes und setzt das Post-/Pre-Verhalten zurück. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ Die Sequenz von Schlüsselbildern beschreibt die Transformation eines abgetastet
 
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
-| Eigenschaft | Property | Welche Eigenschaft zu entfernen ist |
+| Eigenschaft | Eigenschaft | Welche Eigenschaft entfernt werden soll |
 
  **Result:**
 boolean
@@ -213,7 +213,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| removeProperty(property) | Entferne die angegebene Eigenschaft, die durch ihren Namen identifiziert wird |
+| removeProperty(property) | Entfernt die angegebene Eigenschaft, die durch den Namen identifiziert wird. |
 
  **Parameters:**
 
@@ -232,7 +232,7 @@ boolean
 
 | Name | Beschreibung |
 | --- | --- |
-| getProperty(property) | Liefere den Wert der angegebenen Eigenschaft |
+| getProperty(property) | Rufe den Wert der angegebenen Eigenschaft ab. |
 
  **Parameters:**
 
@@ -241,7 +241,7 @@ boolean
 | Eigenschaft | String | Eigenschaftsname |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -258,10 +258,10 @@ Object
 | Name | Typ | Beschreibung |
 | --- | --- | --- |
 | Eigenschaft | String | Eigenschaftsname |
-| Wert | Object | Der Wert der Eigenschaft |
+| value | Objekt | Der Wert der Eigenschaft |
 
  **Result:**
-Object
+Objekt
 
 
 ---
@@ -271,7 +271,7 @@ Object
 
 | Name | Beschreibung |
 | --- | --- |
-| findProperty(propertyName) | Findet die Eigenschaft. Sie kann eine dynamische Eigenschaft sein (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) |
+| findProperty(propertyName) | Findet die Eigenschaft. Es kann eine dynamische Eigenschaft (erstellt durch CreateDynamicProperty/SetProperty) oder eine native Eigenschaft (identifiziert durch ihren Namen) sein. |
 
  **Parameters:**
 
@@ -280,7 +280,7 @@ Object
 | propertyName | String | Eigenschaftsname. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---
@@ -290,10 +290,10 @@ Property
 
 | Name | Beschreibung |
 | --- | --- |
-| iterator() | Für den internen Gebrauch reserviert. |
+| iterator() | Für die interne Verwendung reserviert. |
 
  **Result:**
-Property
+Eigenschaft
 
 
 ---

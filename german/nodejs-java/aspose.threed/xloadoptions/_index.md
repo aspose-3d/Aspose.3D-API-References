@@ -17,7 +17,7 @@ Die Ladeoptionen für DirectX X-Dateien.
 
 | Name | Beschreibung |
 | --- | --- |
-| Konstruktor(contentType) | Konstruktor von XLoadOptions |
+| constructor(contentType) | Konstruktor von XLoadOptions |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ Die Ladeoptionen für DirectX X-Dateien.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFlipCoordinateSystem() | Koordinatensystem umkehren, dies ist standardmäßig true |
+| getFlipCoordinateSystem() | Drehen Sie das Koordinatensystem um, dies ist standardmäßig true. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Die Ladeoptionen für DirectX X-Dateien.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFlipCoordinateSystem(value) | Koordinatensystem umkehren, dies ist standardmäßig true |
+| setFlipCoordinateSystem(value) | Drehen Sie das Koordinatensystem um, dies ist standardmäßig true. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Die Ladeoptionen für DirectX X-Dateien.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileFormat() | Liefert das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
+| getFileFormat() | Liest das Dateiformat, das in der aktuellen Speicher-/Ladeoption angegeben ist. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Die Ladeoptionen für DirectX X-Dateien.
 
 | Name | Beschreibung |
 | --- | --- |
-| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Standardwert ist null, was bedeutet, dass der Importer/Exporter entscheidet, welche Kodierung verwendet wird. |
+| getEncoding() | Liest oder setzt die Standardkodierung für textbasierte Dateien. Der Standardwert ist null, was bedeutet, dass der Importer/Exporter die zu verwendende Kodierung entscheidet. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Die Ladeoptionen für DirectX X-Dateien.
 
 | Name | Beschreibung |
 | --- | --- |
-| getFileSystem() | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| getFileSystem() | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Die Ladeoptionen für DirectX X-Dateien.
 
 | Name | Beschreibung |
 | --- | --- |
-| setFileSystem(value) | Erlaubt dem Benutzer zu bestimmen, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
+| setFileSystem(value) | Ermöglicht dem Benutzer, zu steuern, wie externe Abhängigkeiten beim Laden/Speichern verwaltet werden. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Die Ladeoptionen für DirectX X-Dateien.
 
 | Name | Beschreibung |
 | --- | --- |
-| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab, die Suchpfade ermöglichen es Aspose.3D, nach externen Dateien zum Laden zu suchen. |
+| getLookupPaths() | Einige Dateien wie OBJ hängen von externen Dateien ab; die Suchpfade ermöglichen Aspose.3D, nach externen Dateien zum Laden zu suchen. |
 
  **Result:**
 

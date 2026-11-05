@@ -30,7 +30,7 @@ Beschreiben Sie die Parameter des Renderziels
 
 | Name | Beschreibung |
 | --- | --- |
-| getDoubleBuffering() | Liest oder setzt, ob Double Buffer verwendet wird. |
+| getDoubleBuffering() | Liest oder setzt, ob double buffer verwendet wird. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Beschreiben Sie die Parameter des Renderziels
 
 | Name | Beschreibung |
 | --- | --- |
-| setDoubleBuffering(value) | Liest oder setzt, ob Double Buffer verwendet wird. |
+| setDoubleBuffering(value) | Liest oder setzt, ob double buffer verwendet wird. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Beschreiben Sie die Parameter des Renderziels
 
 | Name | Beschreibung |
 | --- | --- |
-| getDepthBits() | Liest oder setzt, wie viele Bits vom Tiefen‑Puffer verwendet werden. |
+| getDepthBits() | Liest oder setzt, wie viele Bits vom Tiefenpuffer verwendet werden. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Beschreiben Sie die Parameter des Renderziels
 
 | Name | Beschreibung |
 | --- | --- |
-| setDepthBits(value) | Liest oder setzt, wie viele Bits vom Tiefen‑Puffer verwendet werden. |
+| setDepthBits(value) | Liest oder setzt, wie viele Bits vom Tiefenpuffer verwendet werden. |
 
  **Result:**
 
