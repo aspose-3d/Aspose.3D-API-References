@@ -17,7 +17,7 @@ Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(fileName) | Bir dosya adıyla ZipArchiveFileSystem oluştur. |
+| constructor(fileName) | Bir dosya adı aracılığıyla ZipArchiveFileSystem oluşturun. |
 
  **Parameters:**
 
@@ -36,17 +36,17 @@ Belirtilen zip dosyasına veya zip akışına yalnızca okuma erişimi sağlamak
 
 | Ad | Açıklama |
 | --- | --- |
-| readFile(fileName, options) | Dosyayı okumak için aç |
+| readFile(fileName, options) | Dosyayı okuma için aç |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | fileNam | String | null |
-| option | IOConfig | null |
+| seçenek | IOConfig | null |
 
  **Result:**
-Stream
+Akış
 
 
 ---
@@ -56,17 +56,17 @@ Stream
 
 | Ad | Açıklama |
 | --- | --- |
-| writeFile(fileName, options) | Dosyayı yazmak için aç, bu sınıfta uygulanmadı. |
+| writeFile(fileName, options) | Dosyayı yazma amaçlı aç, bu sınıfta uygulanmadı. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | fileNam | String | null |
-| option | IOConfig | null |
+| seçenek | IOConfig | null |
 
  **Result:**
-Stream
+Akış
 
 
 ---

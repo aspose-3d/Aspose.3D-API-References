@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementmaterial/
 ---
 ## VertexElementMaterial class
 
-Belirtilen bileşenler için malzeme indeksini tanımlar.  Bir düğüm birden fazla malzemeye sahip olabilir, VertexElementMaterial geometri'nin farklı bölümlerini farklı malzemelerle renderlamak için kullanılır.
+Belirtilen bileşenler için malzeme indeksini tanımlar. Bir düğüm birden fazla malzemeye sahip olabilir, VertexElementMaterial, geometrinin farklı bölümlerini farklı malzemelerle renderlamak için kullanılır.
 
 
 ## Yöntemler
@@ -95,7 +95,7 @@ Belirtilen bileşenler için malzeme indeksini tanımlar.  Bir düğüm birden f
 
 | Ad | Açıklama |
 | --- | --- |
-| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Belirtilen bileşenler için malzeme indeksini tanımlar.  Bir düğüm birden f
 
 | Ad | Açıklama |
 | --- | --- |
-| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Belirtilen bileşenler için malzeme indeksini tanımlar.  Bir düğüm birden f
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndices() | İndeks verisini alır. İndeks dizisi. |
+| getIndices() | Dizin verilerini alır. Dizin dizisi. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Belirtilen bileşenler için malzeme indeksini tanımlar.  Bir düğüm birden f
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndices(data) | İndeksleri yükle |
+| setIndices(data) | Dizinleri yükle |
 
  **Parameters:**
 

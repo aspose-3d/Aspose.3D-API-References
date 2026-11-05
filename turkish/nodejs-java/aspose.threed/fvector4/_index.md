@@ -11,7 +11,7 @@ url: /tr/nodejs-java/aspose.threed/fvector4/
 Dört bileşenli bir float vektör.
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -39,7 +39,7 @@ Dört bileşenli bir float vektör.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(x, y, z, w) | FVector4'ün yeni bir örneğini başlatır. |
+| constructor_overload(x, y, z, w) | Yeni bir FVector4 örneği başlatır. |
 
  **Result:**
 
@@ -52,7 +52,7 @@ Dört bileşenli bir float vektör.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload2(x, y, z) | FVector4'ün yeni bir örneğini başlatır. |
+| constructor_overload2(x, y, z) | Yeni bir FVector4 örneği başlatır. |
 
  **Result:**
 
@@ -65,7 +65,7 @@ Dört bileşenli bir float vektör.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload3(vec) | FVector4'ün yeni bir örneğini başlatır. |
+| constructor_overload3(vec) | Yeni bir FVector4 örneği başlatır. |
 
  **Result:**
 
@@ -78,7 +78,7 @@ Dört bileşenli bir float vektör.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload4(vec) | FVector4'ün yeni bir örneğini başlatır. |
+| constructor_overload4(vec) | Yeni bir FVector4 örneği başlatır. |
 
  **Result:**
 
@@ -91,7 +91,7 @@ Dört bileşenli bir float vektör.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload5(vec, w) | FVector4'ün yeni bir örneğini başlatır. |
+| constructor_overload5(vec, w) | Yeni bir FVector4 örneği başlatır. |
 
  **Result:**
 

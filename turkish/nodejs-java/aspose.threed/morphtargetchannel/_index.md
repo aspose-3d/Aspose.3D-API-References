@@ -8,14 +8,14 @@ url: /tr/nodejs-java/aspose.threed/morphtargetchannel/
 ---
 ## MorphTargetChannel class
 
-Bir MorphTargetChannel, hedef geometrileri düzenlemek için MorphTargetDeformer tarafından kullanılır. FBX gibi bazı dosya formatları paralel olarak birden fazla kanal destekler. Ağırlık 0 ile 1.0 arasındadır ve hedef için varsayılan ağırlık 0.0'dır;
+MorphTargetChannel, hedef geometrileri düzenlemek için MorphTargetDeformer tarafından kullanılır.  FBX gibi bazı dosya formatları paralel olarak birden fazla kanal destekler.  Ağırlık 0 ile 1.0 arasındadır ve hedef için varsayılan ağırlık 0.0'dır;
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| DEFAULT_WEIGHT | Morph hedefi için varsayılan ağırlık. |
+| DEFAULT_WEIGHT | Morf hedefi için varsayılan ağırlık. |
 
 ## Yöntemler
 
@@ -68,7 +68,7 @@ Bir MorphTargetChannel, hedef geometrileri düzenlemek için MorphTargetDeformer
 
 | Ad | Açıklama |
 | --- | --- |
-| getChannelWeight() | Bu kanalın deformasyon ağırlığını alır veya ayarlar. Ağırlık 0.0 ile 1.0 arasındadır. |
+| getChannelWeight() | Bu kanalın deformer ağırlığını alır veya ayarlar. Ağırlık 0.0 ile 1.0 arasındadır. |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Bir MorphTargetChannel, hedef geometrileri düzenlemek için MorphTargetDeformer
 
 | Ad | Açıklama |
 | --- | --- |
-| setChannelWeight(value) | Bu kanalın deformasyon ağırlığını alır veya ayarlar. Ağırlık 0.0 ile 1.0 arasındadır. |
+| setChannelWeight(value) | Bu kanalın deformer ağırlığını alır veya ayarlar. Ağırlık 0.0 ile 1.0 arasındadır. |
 
  **Result:**
 
@@ -172,16 +172,16 @@ Bir MorphTargetChannel, hedef geometrileri düzenlemek için MorphTargetDeformer
 
 | Ad | Açıklama |
 | --- | --- |
-| getWeight(target) | Belirtilen target için ağırlığı alır, target bu kanala ait değilse, varsayılan değer 0 döndürülür. |
+| getWeight(target) | Belirtilen hedefin ağırlığını alır, hedef bu kanala ait değilse varsayılan değer 0 döndürülür. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| targe | Şekil | null |
+| targe | Shape | null |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -191,17 +191,17 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| setWeight(target, weight) | Belirtilen target için ağırlığı ayarlar, varsayılan değer 1'dir, aralık 0~1 arasında olmalıdır. |
+| setWeight(target, weight) | Belirtilen hedefin ağırlığını ayarlar, varsayılan değer 1'dir, aralık 0~1 arasında olmalıdır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| targe | Şekil | null |
-| ağırlık | Number | null |
+| targe | Shape | null |
+| weigh | Sayı | null |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -217,7 +217,7 @@ Number
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -230,7 +230,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -255,7 +255,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -274,7 +274,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -288,7 +288,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -297,7 +297,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

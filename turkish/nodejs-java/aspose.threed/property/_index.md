@@ -1,5 +1,5 @@
 ---
-title: "Property"
+title: "Özellik"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -82,14 +82,14 @@ Kullanıcı tanımlı özellikleri tutmak için sınıf.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getBindPoint(anim, create) | Belirtilen animasyon örneğinde özelliğin bağlama noktasını alır. |
+| getBindPoint(anim, create) | Belirtilen animasyon örneğinde özellik bağlama noktasını alır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| anim | AnimationNode | Bağlama noktasını oluşturmak için hangi animasyon? |
-| oluştur | boolean | Özellik bağlama noktasını bulunamazsa oluştur. |
+| anim | AnimationNode | Bağlama noktasının oluşturulacağı animasyon. |
+| create | boolean | Özellik bağlama noktası bulunamazsa oluştur. |
 
  **Result:**
 BindPoint
@@ -108,8 +108,8 @@ BindPoint
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| anim | AnimationNode | Anahtar kare dizisini oluşturmak için hangi animasyon? |
-| oluştur | boolean | Anahtar kare dizisi bulunamazsa oluştur. |
+| anim | AnimationNode | Anahtar kare dizisinin oluşturulacağı animasyon. |
+| create | boolean | Anahtar kare dizisi bulunamazsa oluştur. |
 
  **Result:**
 KeyframeSequence
@@ -141,7 +141,7 @@ String
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -154,7 +154,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -179,7 +179,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -198,7 +198,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -212,7 +212,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -221,7 +221,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

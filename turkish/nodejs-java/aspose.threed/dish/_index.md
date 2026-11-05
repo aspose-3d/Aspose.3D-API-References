@@ -17,7 +17,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Varsayılan yarıçap(10) ve varsayılan yükseklik(5) ile yeni bir Dish örneği oluşturun |
+| constructor() | Varsayılan yarıçap(10) ve varsayılan yükseklik(5) ile yeni bir dish örneği oluşturun |
 
  **Result:**
 
@@ -30,14 +30,14 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(radius, height) | Belirtilen yarıçap ve yükseklik ile yeni bir Dish örneği oluşturun |
+| constructor_overload(radius, height) | Belirtilen yarıçap ve yükseklik ile yeni bir dish örneği oluşturun |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| yarıçap | Number | Dish'in yarıçapı |
-| height | Number | Dish'in yüksekliği |
+| radius | Sayı | Yemeğin yarıçapı |
+| height | Sayı | Yemeğin yüksekliği |
 
  **Result:**
 
@@ -50,17 +50,17 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload2(name, radius, height, widthSegments, heightSegments) | Belirtilen yarıçap ve yükseklik ile yeni bir Dish örneği oluşturun |
+| constructor_overload2(name, radius, height, widthSegments, heightSegments) | Belirtilen yarıçap ve yükseklik ile yeni bir dish örneği oluşturun |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Dish'in adı |
-| yarıçap | Number | Dish'in yarıçapı |
-| height | Number | Dish'in yüksekliği |
-| widthSegments | Number | Dish'in genişlik segmenti |
-| heightSegments | Number | Bulağın yükseklik bölümü |
+| name | String | Yemeğin adı |
+| radius | Sayı | Yemeğin yarıçapı |
+| height | Sayı | Yemeğin yüksekliği |
+| widthSegments | Sayı | Yemeğin genişlik segmenti |
+| heightSegments | Sayı | Yemeğin yükseklik segmenti |
 
  **Result:**
 
@@ -73,7 +73,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| getHeight() | Bulağın yüksekliği |
+| getHeight() | Yemeğin yüksekliği |
 
  **Result:**
 
@@ -86,7 +86,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| setHeight(value) | Bulağın yüksekliği |
+| setHeight(value) | Yemeğin yüksekliği |
 
  **Result:**
 
@@ -99,7 +99,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| getRadius() | Bulağın yarıçapı |
+| getRadius() | Yemeğin yarıçapı |
 
  **Result:**
 
@@ -112,7 +112,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| setRadius(value) | Bulağın yarıçapı |
+| setRadius(value) | Yemeğin yarıçapı |
 
  **Result:**
 
@@ -229,7 +229,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -242,7 +242,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -255,7 +255,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -346,7 +346,7 @@ Parametreli tabak.
 
 | Ad | Açıklama |
 | --- | --- |
-| toMesh() | Mevcut nesneyi mesh'e dönüştür |
+| toMesh() | Geçerli nesneyi mesh'e dönüştür |
 
  **Result:**
 Mesh
@@ -372,7 +372,7 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -391,7 +391,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -404,7 +404,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -429,7 +429,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -448,7 +448,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -462,7 +462,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -471,7 +471,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

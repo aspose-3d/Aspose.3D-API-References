@@ -69,7 +69,7 @@ PLY formatı.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileFormatType() | Dosya formatı tipini alır |
+| getFileFormatType() | Dosya formatı tipini alır. |
 
  **Result:**
 
@@ -123,7 +123,7 @@ PLY formatı.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| decode(fileName) | Belirtilen akıştan bir nokta bulutu veya örgüyü çözümleyin. |
+| decode(fileName) | Belirtilen akıştan bir nokta bulutu veya örgeyi çözümleyin. |
 
  **Parameters:**
 
@@ -132,7 +132,7 @@ PLY formatı.  @hideconstructor
 | fileName | String | Giriş akışı |
 
  **Result:**
-Geometri
+Geometry
 
 
 ---
@@ -142,7 +142,7 @@ Geometri
 
 | Ad | Açıklama |
 | --- | --- |
-| decode(fileName, opt) | Belirtilen akıştan bir nokta bulutu veya örgüyü çözümleyin. |
+| decode(fileName, opt) | Belirtilen akıştan bir nokta bulutu veya örgeyi çözümleyin. |
 
  **Parameters:**
 
@@ -152,7 +152,7 @@ Geometri
 | opt | PlyLoadOptions | PLY formatının yükleme seçeneği |
 
  **Result:**
-Geometri
+Geometry
 
 
 ---
@@ -188,7 +188,7 @@ SaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Biçimleri dizeye dönüştür |
+| toString() | Formatları dizeye dönüştür. |
 
  **Result:**
 String

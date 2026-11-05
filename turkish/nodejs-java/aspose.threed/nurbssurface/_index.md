@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/nurbssurface/
 ---
 ## NurbsSurface class
 
-NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edilen bir yüzeydir,  Bir NurbsSurface, iki NurbsDirectionU ve V ile tanımlanır. Kontrol noktasındaki w bileşeni, yönün tipi CurveDimension.TWO_DIMENSIONAL ya da CurveDimension.THREE_DIMENSIONAL olsun fark etmez, kontrol noktasının ağırlığı olarak kullanılır.
+NurbsSurface, NURBS (Non-uniform rational basis spline) ile temsil edilen bir yüzeydir,  Bir NurbsSurface iki NurbsDirectionU ve V tarafından tanımlanır.  Kontrol noktasındaki w bileşeni, yönün tipi CurveDimension.TWO_DIMENSIONAL ya da CurveDimension.THREE_DIMENSIONAL olsun, kontrol noktasının ağırlığı olarak kullanılır.
 
 
 ## Yöntemler
@@ -49,7 +49,7 @@ NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edile
 
 | Ad | Açıklama |
 | --- | --- |
-| getU() | NURBS yüzeyinin U yönünü alır |
+| getU() | NURBS yüzeyinin U yönünü alır. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edile
 
 | Ad | Açıklama |
 | --- | --- |
-| getV() | NURBS yüzeyinin V yönünü alır |
+| getV() | NURBS yüzeyinin V yönünü alır. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edile
 
 | Ad | Açıklama |
 | --- | --- |
-| getDeformers() | Bu geometriyle ilişkili tüm deformasyonları alır. Deformasyonlar. |
+| getDeformers() | Bu geometriye bağlı tüm deformörleri alır. Deformörler. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edile
 
 | Ad | Açıklama |
 | --- | --- |
-| getVertexElements() | Tüm vertex elemanlarını alır |
+| getVertexElements() | Tüm köşe öğelerini alır |
 
  **Result:**
 
@@ -192,7 +192,7 @@ NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edile
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edile
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edile
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ NurbsSurface, NURBS (Non-uniform rational basis spline) tarafından temsil edile
 
 | Ad | Açıklama |
 | --- | --- |
-| toMesh() | NURBS yüzeyini ağa dönüştür |
+| toMesh() | NURBS yüzeyini ağa dönüştür. |
 
  **Result:**
 Mesh
@@ -360,7 +360,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -379,7 +379,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| addElement(element) | Mevcut geometriye var olan bir vertex öğesi ekler |
+| addElement(element) | Mevcut geometriye mevcut bir vertex öğesi ekler |
 
  **Parameters:**
 
@@ -398,7 +398,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -472,7 +472,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -491,7 +491,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -504,7 +504,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -529,7 +529,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -548,7 +548,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -562,7 +562,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -571,7 +571,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

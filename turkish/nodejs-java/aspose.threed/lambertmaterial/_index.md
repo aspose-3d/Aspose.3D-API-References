@@ -101,7 +101,7 @@ Lambert gölgelendirme modeli için malzeme
 
 | Ad | Açıklama |
 | --- | --- |
-| getDiffuseColor() | Dağınık rengi alır veya ayarlar Örnek: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); dağınık. |
+| getDiffuseColor() | Diffuse rengi alır veya ayarlar. Örnek: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuse. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Lambert gölgelendirme modeli için malzeme
 
 | Ad | Açıklama |
 | --- | --- |
-| setDiffuseColor(value) | Dağınık rengi alır veya ayarlar Örnek: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); dağınık. |
+| setDiffuseColor(value) | Diffuse rengi alır veya ayarlar. Örnek: var mat = new LambertMaterial(); mat.DiffuseColor = new Vector3(1, 0, 0); diffuse. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Lambert gölgelendirme modeli için malzeme
 
 | Ad | Açıklama |
 | --- | --- |
-| getTransparentColor() | Şeffaf rengi alır veya ayarlar. Örnek: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); şeffafın rengi. |
+| getTransparentColor() | Şeffaf rengi alır veya ayarlar. Örnek: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); şeffaf rengini. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Lambert gölgelendirme modeli için malzeme
 
 | Ad | Açıklama |
 | --- | --- |
-| setTransparentColor(value) | Şeffaf rengi alır veya ayarlar. Örnek: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); şeffafın rengi. |
+| setTransparentColor(value) | Şeffaf rengi alır veya ayarlar. Örnek: var mat = new LambertMaterial(); mat.TransparentColor = new Vector3(0.3, 0.5, 0.2); şeffaf rengini. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Lambert gölgelendirme modeli için malzeme
 
 | Ad | Açıklama |
 | --- | --- |
-| getTransparency() | Şeffaflık faktörünü alır veya ayarlar. Faktör 0(0%, tamamen opak) ile 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır. Örnek: var mat = new LambertMaterial(); mat.Transparency = 0.3; şeffaflık faktörü. |
+| getTransparency() | Şeffaflık faktörünü alır veya ayarlar. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır. Örnek: var mat = new LambertMaterial(); mat.Transparency = 0.3; şeffaflık faktörü. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Lambert gölgelendirme modeli için malzeme
 
 | Ad | Açıklama |
 | --- | --- |
-| setTransparency(value) | Şeffaflık faktörünü alır veya ayarlar. Faktör 0(0%, tamamen opak) ile 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır. Örnek: var mat = new LambertMaterial(); mat.Transparency = 0.3; şeffaflık faktörü. |
+| setTransparency(value) | Şeffaflık faktörünü alır veya ayarlar. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri sınırlandırılacaktır. Örnek: var mat = new LambertMaterial(); mat.Transparency = 0.3; şeffaflık faktörü. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Lambert gölgelendirme modeli için malzeme
 
 | Ad | Açıklama |
 | --- | --- |
-| getTexture(slotName) | Belirtilen slot'tan dokuyu alır, bu bir materyalin özellik adı veya shader'ın parametre adı olabilir |
+| getTexture(slotName) | Belirtilen slottan dokuyu alır, bu bir materyalin özellik adı veya shader parametresi adı olabilir. |
 
  **Parameters:**
 
@@ -257,7 +257,7 @@ TextureBase
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Nesneyi dizeye biçimlendir |
+| toString() | Nesneyi dizeye dönüştürür |
 
  **Result:**
 String
@@ -276,7 +276,7 @@ String
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -289,7 +289,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -314,7 +314,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -333,7 +333,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -347,7 +347,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -356,7 +356,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -369,7 +369,7 @@ Property
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/morphtargetdeformer/
 ---
 ## MorphTargetDeformer class
 
-MorphTargetDeformer, vertex başına animasyon sağlar. MorphTargetDeformer, tüm hedefleri MorphTargetChannel aracılığıyla düzenler, her kanal birden fazla hedefi organize edebilir. Morph target deformer'ın yaygın bir kullanımı, bir karaktere yüz ifadesi uygulamaktır. Daha fazla ayrıntı https://en.wikipedia.org/wiki/Morph_target_animation adresinde bulunabilir.
+MorphTargetDeformer, vertex başına animasyon sağlar.  MorphTargetDeformer, tüm hedefleri MorphTargetChannel aracılığıyla düzenler, her kanal birden fazla hedefi organize edebilir.  Morph hedef deformörünün yaygın bir kullanımı, bir karaktere yüz ifadesi uygulamaktır.  Daha fazla ayrıntı https://en.wikipedia.org/wiki/Morph_target_animation adresinde bulunabilir.
 
 
 ## Yöntemler
@@ -62,7 +62,7 @@ MorphTargetDeformer, vertex başına animasyon sağlar. MorphTargetDeformer, tü
 
 | Ad | Açıklama |
 | --- | --- |
-| getOwner() | Bu deformer'ı sahip olan geometriyi alır |
+| getOwner() | Bu deformeri sahip olan geometriyi alır |
 
  **Result:**
 
@@ -146,7 +146,7 @@ MorphTargetDeformer, vertex başına animasyon sağlar. MorphTargetDeformer, tü
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -159,7 +159,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -184,7 +184,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -203,7 +203,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -217,7 +217,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -226,7 +226,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

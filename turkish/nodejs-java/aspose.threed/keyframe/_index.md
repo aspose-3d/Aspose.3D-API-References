@@ -1,5 +1,5 @@
 ---
-title: "KeyFrame"
+title: "AnahtarKare"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/keyframe/
 ---
 ## KeyFrame class
 
-Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı enterpolasyon tipleri için son örneklenmiş değeri hesaplamak amacıyla teğet/gerginlik/yanlılık/süreklilik de kullanılır.  Anahtar kare olmayan bir zaman konumundaki örneklenmiş değerler, önceki ve sonraki anahtar kareler arasındaki anahtar kareler tarafından enterpole edilir.  İlk/son anahtar kareden önceki/sonraki değerler Extrapolation sınıfı tarafından hesaplanır.
+Anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır; bazı enterpolasyon türleri için son örneklenen değeri hesaplamak amacıyla teğet/gerginlik/yanlılık/süreklilik de kullanılır.  Anahtar kare olmayan bir zaman konumundaki örneklenen değerler, önceki ve sonraki anahtar kareler arasında anahtar kareler tarafından enterpole edilir.  İlk/son anahtar karedan önceki/sonraki değerler Extrapolation sınıfı tarafından hesaplanır.
 
 
 ## Yöntemler
@@ -17,14 +17,14 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(curve, time) | Belirtilen eğri üzerinde yeni bir ana kare oluştur |
+| constructor(curve, time) | Belirtilen eğri üzerinde yeni bir anahtar kare oluştur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| curve | KeyframeSequence | Anahtar çerçevenin oluşturulacağı eğri |
-| time | Number | Anahtar çerçevenin zaman konumu |
+| eğri | KeyframeSequence | Anahtar karenin oluşturulacağı eğri |
+| zaman | Sayı | Anahtar karenin zaman konumu |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getTime() | list.data[index] anahtar çerçevenin zaman konumunu alır veya ayarlar, saniye cinsinden ölçülür. Zaman. |
+| getTime() | list.data[index] anahtar karenin zaman konumunu saniye cinsinden alır veya ayarlar. Zaman. |
 
  **Result:**
 
@@ -50,7 +50,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setTime(value) | list.data[index] anahtar çerçevenin zaman konumunu alır veya ayarlar, saniye cinsinden ölçülür. Zaman. |
+| setTime(value) | list.data[index] anahtar karenin zaman konumunu saniye cinsinden alır veya ayarlar. Zaman. |
 
  **Result:**
 
@@ -63,7 +63,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getValue() | anahtar çerçevenin değerini alır veya ayarlar. Değer. |
+| getValue() | Anahtar karenin değerini alır veya ayarlar. Değer. |
 
  **Result:**
 
@@ -76,7 +76,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setValue(value) | anahtar çerçevenin değerini alır veya ayarlar. Değer. |
+| setValue(value) | Anahtar karenin değerini alır veya ayarlar. Değer. |
 
  **Result:**
 
@@ -89,7 +89,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getInterpolation() | anahtarın ara değerleme tipini alır veya ayarlar, list.data[index] örneklenen değerin nasıl hesaplandığını belirleyen algoritmayı tanımlar. Özelliğin değeri Interpolation tam sayı sabitidir. Ara değerleme. |
+| getInterpolation() | Anahtarın ara değerleme (interpolation) tipini alır veya ayarlar, list.data[index] örneklenen değerin nasıl hesaplandığını tanımlayan algoritmayı belirler. Özelliğin değeri Interpolation tam sayı sabitidir. Ara değerleme. |
 
  **Result:**
 
@@ -102,7 +102,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setInterpolation(value) | anahtarın ara değerleme tipini alır veya ayarlar, list.data[index] örneklenen değerin nasıl hesaplandığını belirleyen algoritmayı tanımlar. Özelliğin değeri Interpolation tam sayı sabitidir. Ara değerleme. |
+| setInterpolation(value) | Anahtarın ara değerleme (interpolation) tipini alır veya ayarlar, list.data[index] örneklenen değerin nasıl hesaplandığını tanımlayan algoritmayı belirler. Özelliğin değeri Interpolation tam sayı sabitidir. Ara değerleme. |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getTangentWeightMode() | anahtarın teğet ağırlık modunu alır veya ayarlar. Çıkış teğeti veya sonraki giriş teğeti, doğru WeightedMode seçilerek özelleştirilebilir. Özelliğin değeri WeightedMode tam sayı sabitidir. Teğet ağırlık modu. |
+| getTangentWeightMode() | Anahtarın teğet ağırlık modunu alır veya ayarlar. Çıkış teğeti veya bir sonraki giriş teğeti, doğru WeightedMode seçilerek özelleştirilebilir. Özelliğin değeri WeightedMode tam sayı sabitidir. Teğet ağırlık modu. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setTangentWeightMode(value) | anahtarın teğet ağırlık modunu alır veya ayarlar. Çıkış teğeti veya sonraki giriş teğeti, doğru WeightedMode seçilerek özelleştirilebilir. Özelliğin değeri WeightedMode tam sayı sabitidir. Teğet ağırlık modu. |
+| setTangentWeightMode(value) | Anahtarın teğet ağırlık modunu alır veya ayarlar. Çıkış teğeti veya bir sonraki giriş teğeti, doğru WeightedMode seçilerek özelleştirilebilir. Özelliğin değeri WeightedMode tam sayı sabitidir. Teğet ağırlık modu. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getStepMode() | anahtarın adım modunu alır veya ayarlar. Eğer ara değerleme tipi Interpolation.CONSTANT ise, list.data[index] ara değerleme sırasında hangi anahtar çerçevenin değerinin kullanılacağını belirler. StepMode.PREVIOUS_VALUE sol anahtar çerçevenin değerinin kullanılacağı anlamına gelir. StepMode.NEXT_VALUE ise sağdaki bir sonraki anahtar çerçevenin değerinin kullanılacağı anlamına gelir. Özelliğin değeri StepMode tam sayı sabitidir. Adım modu. |
+| getStepMode() | Anahtarın adım (step) modunu alır veya ayarlar. Eğer ara değerleme tipi Interpolation.CONSTANT ise, list.data[index] ara değerleme sırasında hangi anahtar karenin değerinin kullanılacağını belirler. StepMode.PREVIOUS_VALUE, sol anahtar karenin değerinin kullanılacağı anlamına gelir. StepMode.NEXT_VALUE, sağdaki bir sonraki anahtar karenin değerinin kullanılacağı anlamına gelir. Özelliğin değeri StepMode tam sayı sabitidir. Adım modu. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setStepMode(value) | anahtarın adım modunu alır veya ayarlar. Eğer ara değerleme tipi Interpolation.CONSTANT ise, list.data[index] ara değerleme sırasında hangi anahtar çerçevenin değerinin kullanılacağını belirler. StepMode.PREVIOUS_VALUE sol anahtar çerçevenin değerinin kullanılacağı anlamına gelir. StepMode.NEXT_VALUE ise sağdaki bir sonraki anahtar çerçevenin değerinin kullanılacağı anlamına gelir. Özelliğin değeri StepMode tam sayı sabitidir. Adım modu. |
+| setStepMode(value) | Anahtarın adım (step) modunu alır veya ayarlar. Eğer ara değerleme tipi Interpolation.CONSTANT ise, list.data[index] ara değerleme sırasında hangi anahtar karenin değerinin kullanılacağını belirler. StepMode.PREVIOUS_VALUE, sol anahtar karenin değerinin kullanılacağı anlamına gelir. StepMode.NEXT_VALUE, sağdaki bir sonraki anahtar karenin değerinin kullanılacağı anlamına gelir. Özelliğin değeri StepMode tam sayı sabitidir. Adım modu. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getNextInTangent() | Bu anahtar çerçevedeki bir sonraki giriş (sol) teğeti alır veya ayarlar. |
+| getNextInTangent() | Bu anahtar karede bir sonraki giriş (sol) teğeti alır veya ayarlar. |
 
  **Result:**
 
@@ -180,7 +180,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setNextInTangent(value) | Bu anahtar çerçevedeki bir sonraki giriş (sol) teğeti alır veya ayarlar. |
+| setNextInTangent(value) | Bu anahtar karede bir sonraki giriş (sol) teğeti alır veya ayarlar. |
 
  **Result:**
 
@@ -193,7 +193,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getOutTangent() | Bu anahtar çerçevedeki çıkış (sağ) teğeti alır veya ayarlar. |
+| getOutTangent() | Bu anahtar karede çıkış (sağ) teğeti alır veya ayarlar. |
 
  **Result:**
 
@@ -206,7 +206,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setOutTangent(value) | Bu anahtar çerçevedeki çıkış (sağ) teğeti alır veya ayarlar. |
+| setOutTangent(value) | Bu anahtar karede çıkış (sağ) teğeti alır veya ayarlar. |
 
  **Result:**
 
@@ -219,7 +219,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getOutWeight() | Bu anahtar çerçevedeki çıkış (sağ) ağırlığı alır veya ayarlar. |
+| getOutWeight() | Bu anahtar çerçevede dış (sağ) ağırlığı alır veya ayarlar. |
 
  **Result:**
 
@@ -232,7 +232,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setOutWeight(value) | Bu anahtar çerçevedeki çıkış (sağ) ağırlığı alır veya ayarlar. |
+| setOutWeight(value) | Bu anahtar çerçevede dış (sağ) ağırlığı alır veya ayarlar. |
 
  **Result:**
 
@@ -245,7 +245,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getNextInWeight() | Bu anahtar karede sonraki iç (sol) ağırlığı alır veya ayarlar. |
+| getNextInWeight() | Bu anahtar çerçevede sonraki iç (sol) ağırlığı alır veya ayarlar. |
 
  **Result:**
 
@@ -258,7 +258,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setNextInWeight(value) | Bu anahtar karede sonraki iç (sol) ağırlığı alır veya ayarlar. |
+| setNextInWeight(value) | Bu anahtar çerçevede sonraki iç (sol) ağırlığı alır veya ayarlar. |
 
  **Result:**
 
@@ -271,7 +271,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getTension() | TCB spline'ında kullanılan gerilimi alır veya ayarlar |
+| getTension() | TCB spline'ında kullanılan gerilimi alır veya ayarlar. |
 
  **Result:**
 
@@ -284,7 +284,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setTension(value) | TCB spline'ında kullanılan gerilimi alır veya ayarlar |
+| setTension(value) | TCB spline'ında kullanılan gerilimi alır veya ayarlar. |
 
  **Result:**
 
@@ -297,7 +297,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getContinuity() | TCB spline'ında kullanılan sürekliliği alır veya ayarlar |
+| getContinuity() | TCB spline'ında kullanılan sürekliliği alır veya ayarlar. |
 
  **Result:**
 
@@ -310,7 +310,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setContinuity(value) | TCB spline'ında kullanılan sürekliliği alır veya ayarlar |
+| setContinuity(value) | TCB spline'ında kullanılan sürekliliği alır veya ayarlar. |
 
  **Result:**
 
@@ -323,7 +323,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getBias() | TCB spline'ında kullanılan yanlılığı alır veya ayarlar |
+| getBias() | TCB spline'ında kullanılan önyargıyı alır veya ayarlar. |
 
  **Result:**
 
@@ -336,7 +336,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setBias(value) | TCB spline'ında kullanılan yanlılığı alır veya ayarlar |
+| setBias(value) | TCB spline'ında kullanılan önyargıyı alır veya ayarlar. |
 
  **Result:**
 
@@ -349,7 +349,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndependentTangent() | Çıkış ve sonraki iç teğetlerin bağımsız olduğunu alır veya ayarlar. |
+| getIndependentTangent() | Dış ve sonraki iç teğetlerin bağımsız olup olduğunu alır veya ayarlar. |
 
  **Result:**
 
@@ -362,7 +362,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndependentTangent(value) | Çıkış ve sonraki iç teğetlerin bağımsız olduğunu alır veya ayarlar. |
+| setIndependentTangent(value) | Dış ve sonraki iç teğetlerin bağımsız olup olduğunu alır veya ayarlar. |
 
  **Result:**
 
@@ -375,7 +375,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlat() | Anahtar karenin düz olup olmadığını alır veya ayarlar. Anahtar kare, sonraki veya önceki anahtar kare aynı değere sahipse düz olmalıdır. Düz anahtar kare düz teğetlere ve sabit ara değerlemeye sahiptir. |
+| getFlat() | Anahtar çerçevenin düz olup olmadığını alır veya ayarlar. Anahtar çerçeve, sonraki veya önceki anahtar çerçeve aynı değere sahipse düz olmalıdır. Düz anahtar çerçeve düz teğetlere ve sabit ara değerlemeye sahiptir. |
 
  **Result:**
 
@@ -388,7 +388,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlat(value) | Anahtar karenin düz olup olmadığını alır veya ayarlar. Anahtar kare, sonraki veya önceki anahtar kare aynı değere sahipse düz olmalıdır. Düz anahtar kare düz teğetlere ve sabit ara değerlemeye sahiptir. |
+| setFlat(value) | Anahtar çerçevenin düz olup olmadığını alır veya ayarlar. Anahtar çerçeve, sonraki veya önceki anahtar çerçeve aynı değere sahipse düz olmalıdır. Düz anahtar çerçeve düz teğetlere ve sabit ara değerlemeye sahiptir. |
 
  **Result:**
 
@@ -401,7 +401,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| getTimeIndependentTangent() | Teğetin zaman bağımsız olduğunu alır veya ayarlar |
+| getTimeIndependentTangent() | Teğetin zaman bağımsız olduğunu alır veya ayarlar. |
 
  **Result:**
 
@@ -414,7 +414,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| setTimeIndependentTangent(value) | Teğetin zaman bağımsız olduğunu alır veya ayarlar |
+| setTimeIndependentTangent(value) | Teğetin zaman bağımsız olduğunu alır veya ayarlar. |
 
  **Result:**
 
@@ -427,7 +427,7 @@ Bir anahtar kare, temel olarak bir zaman ve bir değerle tanımlanır, bazı ent
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Anahtar karenin dize temsili alır |
+| toString() | Ana kare'nin dize temsilini alır |
 
  **Result:**
 String

@@ -1,5 +1,5 @@
 ---
-title: "Scene"
+title: "Sahne"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/scene/
 ---
 ## Scene class
 
-Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozları, alt sahneleri vb. içeren üst düzey bir nesnedir.  Sahne alt sahnelere sahip olabilir, collada/blender/fbx gibi dosyalarda çoklu belge desteği sağlar.  Düğüm hiyerarşisine RootNodeLibrary aracılığıyla erişilebilir; bu, serileştirme sırasında bağlanmamış nesnelerin (meta veri veya özel nesneler gibi) bir referansını tutmak için kullanılır, böylece bir kütüphane olarak kullanılabilir.
+Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozları, alt sahneleri vb. içeren üst düzey bir nesnedir.  Sahne alt sahnelere sahip olabilir, collada/blender/fbx gibi dosyalarda çoklu belge desteği sağlar.  Düğüm hiyerarşisine RootNodeLibrary aracılığıyla erişilebilir; bu, serileştirme sırasında bağlanmamış nesnelere (meta veri veya özel nesneler gibi) bir referans tutmak için kullanılır, böylece bir kütüphane olarak kullanılabilir.
 
 
 ## Yöntemler
@@ -30,7 +30,7 @@ Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozl
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(entity) | Yeni bir düğüme eklenmiş varlıkla Scene sınıfının yeni bir örneğini başlatır. |
+| constructor_overload(entity) | Yeni bir düğüme eklenmiş bir entity ile Scene sınıfının yeni bir örneğini başlatır. |
 
  **Parameters:**
 
@@ -55,7 +55,7 @@ Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozl
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| parentScene | Scene | Üst sahne. |
+| parentScene | Sahne | Üst sahne. |
 | name | String | Sahnenin adı. |
 
  **Result:**
@@ -101,7 +101,7 @@ Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozl
 
 | Ad | Açıklama |
 | --- | --- |
-| getLibrary() | Sahne hiyerarşisinde doğrudan kullanılmayan nesneler Library içinde tanımlanabilir. Bu, alt sahneler kullandığınızda ve yeniden kullanılabilir bileşenleri alt sahnelerin altına koyduğunuzda yararlıdır. |
+| getLibrary() | Sahne hiyerarşisinde doğrudan kullanılmayan nesneler Library içinde tanımlanabilir. Bu, alt sahneler kullandığınızda ve yeniden kullanılabilir bileşenleri alt sahneler altında yerleştirdiğinizde faydalıdır. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozl
 
 | Ad | Açıklama |
 | --- | --- |
-| getAnimationClips() | Sahnede tanımlanan tüm AnimationClip'leri alır. |
+| getAnimationClips() | Sahnede tanımlı tüm AnimationClip'leri alır. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozl
 
 | Ad | Açıklama |
 | --- | --- |
-| getCurrentAnimationClip() | Etkin AnimationClip'i alır veya ayarlar |
+| getCurrentAnimationClip() | Aktif AnimationClip'i alır veya ayarlar |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozl
 
 | Ad | Açıklama |
 | --- | --- |
-| setCurrentAnimationClip(value) | Etkin AnimationClip'i alır veya ayarlar |
+| setCurrentAnimationClip(value) | Aktif AnimationClip'i alır veya ayarlar |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozl
 
 | Ad | Açıklama |
 | --- | --- |
-| getAssetInfo() | Üst düzey varlık bilgilerini alır veya ayarlar. Belge bilgisi. |
+| getAssetInfo() | Üst düzey varlık bilgilerini (Belge bilgileri) alır veya ayarlar. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Bir sahne, düğümleri, geometrileri, materyalleri, dokuları, animasyonu, pozl
 
 | Ad | Açıklama |
 | --- | --- |
-| setAssetInfo(value) | Üst düzey varlık bilgilerini alır veya ayarlar. Belge bilgisi. |
+| setAssetInfo(value) | Üst düzey varlık bilgilerini (Belge bilgileri) alır veya ayarlar. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| createAnimationClip(name) | AnimationClip oluşturmak ve kaydetmek için bir kısayol işlevi. İlk AnimationClip, CurrentAnimationClip'e atanacaktır. |
+| createAnimationClip(name) | AnimationClip'i oluşturmak ve kaydetmek için bir kısayol işlevi. İlk AnimationClip, CurrentAnimationClip'e atanacaktır. |
 
  **Parameters:**
 
@@ -328,7 +328,7 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| open(fileName) | Sahneyi verilen yoldan açar. |
+| open(fileName) | Sahneyi verilen yoldan açar |
 
  **Parameters:**
 
@@ -347,7 +347,7 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| fromFile(fileName) | Sahneyi verilen yoldan açar. |
+| fromFile(fileName) | Sahneyi verilen yoldan açar |
 
  **Parameters:**
 
@@ -366,7 +366,7 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| save(fileName) | Belirtilen dosya formatını kullanarak sahneyi belirtilen yola kaydeder. |
+| save(fileName) | Sahneyi belirtilen dosya formatını kullanarak belirtilen yola kaydeder. |
 
  **Parameters:**
 
@@ -385,14 +385,14 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| save(fileName, format) | Belirtilen dosya formatını kullanarak sahneyi belirtilen yola kaydeder. |
+| save(fileName, format) | Sahneyi belirtilen dosya formatını kullanarak belirtilen yola kaydeder. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | fileName | String | Dosya adı. |
-| format | Dosya Biçimi | Format. |
+| format | FileFormat | Format. |
 
  **Result:**
 AnimationClip
@@ -405,7 +405,7 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| save(fileName, options) | Belirtilen dosya formatını kullanarak sahneyi belirtilen yola kaydeder. |
+| save(fileName, options) | Sahneyi belirtilen dosya formatını kullanarak belirtilen yola kaydeder. |
 
  **Parameters:**
 
@@ -425,13 +425,13 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| render(camera, fileName) | Sahneyi verilen kameranın perspektifinden dış dosyaya renderlar. Varsayılan çıktı boyutu 1024x768 ve çıktı formatı png'dir. |
+| render(camera, fileName) | Sahneyi verilen kameranın perspektifinden harici bir dosyaya render eder. Varsayılan çıktı boyutu 1024x768 ve çıktı formatı png'dir. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| kamera | Kamera | Sahneyi renderlamak için hangi kameranın perspektifinin kullanılacağı |
+| kamera | Kamera | Sahneyi hangi kameranın perspektifinden render edeceği |
 | fileName | String | Çıktı dosyasının dosya adı |
 
  **Result:**
@@ -445,15 +445,15 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| render(camera, fileName, size, format) | Sahneyi verilen kameranın perspektifinden dış dosyaya renderlar. |
+| render(camera, fileName, size, format) | Sahneyi verilen kameranın perspektifinden dış dosyaya renderlayın. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| kamera | Kamera | Sahneyi renderlamak için hangi kameranın perspektifinin kullanılacağı |
+| kamera | Kamera | Sahneyi hangi kameranın perspektifinden render edeceği |
 | fileName | String | Çıktı dosyasının dosya adı |
-| boyut | Vector2 | Son renderlanmış görüntünün boyutu |
+| boyut | Vector2 | Son renderlanan görüntünün boyutu |
 | format | String | Çıktı dosyasının görüntü formatı |
 
  **Result:**
@@ -467,17 +467,17 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| render(camera, fileName, size, format, options) | Sahneyi verilen kameranın perspektifinden dış dosyaya renderlar. |
+| render(camera, fileName, size, format, options) | Sahneyi verilen kameranın perspektifinden dış dosyaya renderlayın. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| kamera | Kamera | Sahneyi renderlamak için hangi kameranın perspektifinin kullanılacağı |
+| kamera | Kamera | Sahneyi hangi kameranın perspektifinden render edeceği |
 | fileName | String | Çıktı dosyasının dosya adı |
-| boyut | Vector2 | Son renderlanmış görüntünün boyutu |
+| boyut | Vector2 | Son renderlanan görüntünün boyutu |
 | format | String | Çıktı dosyasının görüntü formatı |
-| seçenekler | ImageRenderOptions | İç ayarların bir kısmını özelleştirmek için seçenek. |
+| seçenekler | ImageRenderOptions | Bazı iç ayarları özelleştirmek için seçenek. |
 
  **Result:**
 AnimationClip
@@ -490,14 +490,14 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| render(camera, bitmap) | Verilen kameranın perspektifinden sahneyi bitmap'e render et. |
+| render(camera, bitmap) | Sahneyi verilen kameranın perspektifinden bitmap'e renderlayın. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| kamera | Kamera | Sahneyi renderlamak için hangi kameranın perspektifinin kullanılacağı |
-| bitmap | TextureData | Render edilmiş sonucun hedefi |
+| kamera | Kamera | Sahneyi hangi kameranın perspektifinden render edeceği |
+| bitmap | TextureData | Renderlanan sonucun hedefi |
 
  **Result:**
 AnimationClip
@@ -510,15 +510,15 @@ AnimationClip
 
 | Ad | Açıklama |
 | --- | --- |
-| render(camera, bitmap, options) | Verilen kameranın perspektifinden sahneyi bitmap'e render et. |
+| render(camera, bitmap, options) | Sahneyi verilen kameranın perspektifinden bitmap'e renderlayın. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| kamera | Kamera | Sahneyi renderlamak için hangi kameranın perspektifinin kullanılacağı |
-| bitmap | TextureData | Render edilmiş sonucun hedefi |
-| seçenekler | ImageRenderOptions | İç ayarların bir kısmını özelleştirmek için seçenek. |
+| kamera | Kamera | Sahneyi hangi kameranın perspektifinden render edeceği |
+| bitmap | TextureData | Renderlanan sonucun hedefi |
+| seçenekler | ImageRenderOptions | Bazı iç ayarları özelleştirmek için seçenek. |
 
  **Result:**
 AnimationClip
@@ -537,7 +537,7 @@ AnimationClip
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -550,7 +550,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -575,7 +575,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -594,7 +594,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -608,7 +608,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -617,7 +617,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

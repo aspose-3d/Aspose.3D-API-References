@@ -23,8 +23,8 @@ Bir BindPoint genellikle bir nesnenin özelliği üzerinde oluşturulur, bazı �
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| scene | Scene | Animasyonu içeren sahne. |
-| prop | Property | Özellik. |
+| scene | Sahne | Animasyonu içeren sahne. |
+| prop | Özellik | Özellik. |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Bir BindPoint genellikle bir nesnenin özelliği üzerinde oluşturulur, bazı �
 
 | Ad | Açıklama |
 | --- | --- |
-| getProperty() | CurveMapping ile ilişkili özelliği alır. |
+| getProperty() | CurveMapping ile ilişkili özelliği alır |
 
  **Result:**
 
@@ -50,7 +50,7 @@ Bir BindPoint genellikle bir nesnenin özelliği üzerinde oluşturulur, bazı �
 
 | Ad | Açıklama |
 | --- | --- |
-| setProperty(value) | CurveMapping ile ilişkili özelliği alır. |
+| setProperty(value) | CurveMapping ile ilişkili özelliği alır |
 
  **Result:**
 
@@ -63,10 +63,10 @@ Bir BindPoint genellikle bir nesnenin özelliği üzerinde oluşturulur, bazı �
 
 | Ad | Açıklama |
 | --- | --- |
-| getChannelsCount() | Bu animasyon eğri eşlemesinde tanımlanan toplam özellik kanalı sayısını alır. |
+| getChannelsCount() | Bu animation curve mapping içinde tanımlı özellik kanallarının toplam sayısını alır. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -79,7 +79,7 @@ Number
 | getName() | Adı alır veya ayarlar. Ad. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -92,7 +92,7 @@ Number
 | setName(value) | Adı alır veya ayarlar. Ad. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -105,7 +105,7 @@ Number
 | getProperties() | Tüm özelliklerin koleksiyonunu alır. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -118,7 +118,7 @@ Number
 | get(channelName) |  |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -128,7 +128,7 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| getKeyframeSequence(channelName) | Belirtilen kanaldaki ilk anahtar kare dizisini alır |
+| getKeyframeSequence(channelName) | Belirtilen kanaldaki ilk keyframe sequence'i alır |
 
  **Parameters:**
 
@@ -147,7 +147,7 @@ KeyframeSequence
 
 | Ad | Açıklama |
 | --- | --- |
-| getKeyframeSequences(channelName) | Belirtilen kanaldaki tüm anahtar kare dizilerini alır |
+| getKeyframeSequences(channelName) | Belirtilen kanaldaki tüm keyframe sequence'leri alır |
 
  **Parameters:**
 
@@ -166,13 +166,13 @@ KeyframeSequence
 
 | Ad | Açıklama |
 | --- | --- |
-| createKeyframeSequence(name) | Yeni bir eğri oluşturur ve eğri eşlemesinin ilk kanalına bağlar |
+| createKeyframeSequence(name) | Yeni bir curve oluşturur ve curve mapping'in ilk kanalına bağlar |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| name | String | Yeni dizinin adı. |
+| name | String | Yeni sequence'in adı. |
 
  **Result:**
 KeyframeSequence
@@ -185,14 +185,14 @@ KeyframeSequence
 
 | Ad | Açıklama |
 | --- | --- |
-| bindKeyframeSequence(channelName, sequence) | Anahtar kare dizisini belirtilen kanala bağla |
+| bindKeyframeSequence(channelName, sequence) | Keyframe sequence'i belirtilen kanala bağla |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| channelName | String | Anahtar kare dizisinin bağlanacağı kanal |
-| dizi | KeyframeSequence | Bağlanacak anahtar kare dizisi |
+| channelName | String | Keyframe sequence'in bağlanacağı kanal |
+| sequence | KeyframeSequence | Bağlanacak keyframe sequence |
 
  **Result:**
 KeyframeSequence
@@ -205,7 +205,7 @@ KeyframeSequence
 
 | Ad | Açıklama |
 | --- | --- |
-| getChannel(channelName) | Verilen adla kanalı alır |
+| getChannel(channelName) | Verilen isimle channel'i alır |
 
  **Parameters:**
 
@@ -224,7 +224,7 @@ AnimationChannel
 
 | Ad | Açıklama |
 | --- | --- |
-| addChannel(name, value) | Belirtilen kanal özelliğini ekler. |
+| addChannel(name, value) | Belirtilen channel özelliğini ekler. |
 
  **Parameters:**
 
@@ -244,7 +244,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| addChannel(name, type, value) | Belirtilen kanal özelliğini ekler. |
+| addChannel(name, type, value) | Belirtilen channel özelliğini ekler. |
 
  **Parameters:**
 
@@ -265,7 +265,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| resetChannels() | Bu animasyon eğri eşlemesinin özellik kanallarını boşaltır. |
+| resetChannels() | Bu animasyon eğrisi eşlemesinin channels özelliğini boşaltır. |
 
  **Result:**
 boolean
@@ -278,7 +278,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Nesneyi dizeye biçimlendir |
+| toString() | Nesneyi dizeye dönüştürür |
 
  **Result:**
 String
@@ -297,7 +297,7 @@ String
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -310,7 +310,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -335,7 +335,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -354,7 +354,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -368,7 +368,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -377,7 +377,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

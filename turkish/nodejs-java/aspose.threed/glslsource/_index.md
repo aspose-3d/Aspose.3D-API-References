@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/glslsource/
 ---
 ## GLSLSource class
 
-GLSL'de gölgelendiricilerin kaynak kodu
+GLSL'deki gölgelendiricilerin kaynak kodu
 
 
 ## Yöntemler
@@ -82,7 +82,7 @@ GLSL'de gölgelendiricilerin kaynak kodu
 
 | Ad | Açıklama |
 | --- | --- |
-| getVertexShader() | Vertex gölgelendiricisinin kaynak kodunu alır veya ayarlar |
+| getVertexShader() | Vertex shader'ın kaynak kodunu alır veya ayarlar |
 
  **Result:**
 
@@ -95,7 +95,7 @@ GLSL'de gölgelendiricilerin kaynak kodu
 
 | Ad | Açıklama |
 | --- | --- |
-| setVertexShader(value) | Vertex gölgelendiricisinin kaynak kodunu alır veya ayarlar |
+| setVertexShader(value) | Vertex shader'ın kaynak kodunu alır veya ayarlar |
 
  **Result:**
 
@@ -108,7 +108,7 @@ GLSL'de gölgelendiricilerin kaynak kodu
 
 | Ad | Açıklama |
 | --- | --- |
-| getFragmentShader() | Fragment gölgelendiricisinin kaynak kodunu alır veya ayarlar. |
+| getFragmentShader() | Fragment shader'ın kaynak kodunu alır veya ayarlar. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ GLSL'de gölgelendiricilerin kaynak kodu
 
 | Ad | Açıklama |
 | --- | --- |
-| setFragmentShader(value) | Fragment gölgelendiricisinin kaynak kodunu alır veya ayarlar. |
+| setFragmentShader(value) | Fragment shader'ın kaynak kodunu alır veya ayarlar. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ GLSL'de gölgelendiricilerin kaynak kodu
 
 | Ad | Açıklama |
 | --- | --- |
-| defineInclude(fileName, content) | GLSL kaynak kodunda #include için sanal dosya tanımla |
+| defineInclude(fileName, content) | #include için GLSL kaynak kodunda sanal dosya tanımla |
 
  **Parameters:**
 

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/nurbscurve/
 ---
 ## NurbsCurve class
 
-NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edilen bir eğridir,  Bir NURBS eğrisi, Order'ı, ağırlıklı Geometry.ControlPoints kümesi ve KnotVectors ile tanımlanır. Kontrol noktasındaki w bileşeni, kontrol noktasının ağırlığı olarak kullanılır; bu, CurveDimension.TWO_DIMENSIONAL ya da CurveDimension.THREE_DIMENSIONAL olsun fark etmez.
+NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edilen bir eğridir,  Bir NURBS eğrisi, Siparişi, ağırlıklı Geometry.ControlPoints kümesi ve KnotVectors ile tanımlanır.  Kontrol noktasındaki w bileşeni, kontrol noktasının ağırlığı olarak kullanılır, CurveDimension.TWO_DIMENSIONAL ya da CurveDimension.THREE_DIMENSIONAL olsun.
 
 
 ## Yöntemler
@@ -75,7 +75,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| getOrder() | Bir NURBS eğrisinin mertebesini alır veya ayarlar, bu mertebe eğri üzerindeki herhangi bir noktayı etkileyen yakın kontrol noktalarının sayısını tanımlar. Mertebe. |
+| getOrder() | Bir NURBS eğrisinin derecesini alır veya ayarlar, bu, eğri üzerindeki herhangi bir noktayı etkileyen yakın kontrol noktalarının sayısını tanımlar. Derece. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| setOrder(value) | Bir NURBS eğrisinin mertebesini alır veya ayarlar, bu mertebe eğri üzerindeki herhangi bir noktayı etkileyen yakın kontrol noktalarının sayısını tanımlar. Mertebe. |
+| setOrder(value) | Bir NURBS eğrisinin derecesini alır veya ayarlar, bu, eğri üzerindeki herhangi bir noktayı etkileyen yakın kontrol noktalarının sayısını tanımlar. Derece. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| getDimension() | Eğrinin boyutunu alır veya ayarlar. Özelliğin değeri CurveDimension tam sayı sabitidir. CurveDimension.TWO_DIMENSIONAL bir eğri için kontrol noktasındaki z bileşeni kullanılmaz. |
+| getDimension() | Eğrinin boyutunu alır veya ayarlar. Özelliğin değeri CurveDimension tamsayı sabitidir. CurveDimension.TWO_DIMENSIONAL bir eğri için kontrol noktasındaki z bileşeni kullanılmaz. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| setDimension(value) | Eğrinin boyutunu alır veya ayarlar. Özelliğin değeri CurveDimension tam sayı sabitidir. CurveDimension.TWO_DIMENSIONAL bir eğri için kontrol noktasındaki z bileşeni kullanılmaz. |
+| setDimension(value) | Eğrinin boyutunu alır veya ayarlar. Özelliğin değeri CurveDimension tamsayı sabitidir. CurveDimension.TWO_DIMENSIONAL bir eğri için kontrol noktasındaki z bileşeni kullanılmaz. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| getKnotVectors() | Knot vektörünü alır, bu kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerlerinin bir dizisidir. |
+| getKnotVectors() | Knot vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerlerinin bir dizisidir. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| getRational() | Rasyonel olup olmadığını alır veya ayarlar, bu değer bu NurbsCurve'un rasyonel spline mı yoksa rasyonel olmayan spline mı olduğunu gösterir. Rasyonel olmayan B-spline, rasyonel B-spline'ların özel bir durumudur. true ise rasyonel spline; aksi takdirde false rasyonel olmayan spline'dır. |
+| getRational() | Rasyonel olup olmadığını alır veya ayarlar, bu değer bu NurbsCurve'un rasyonel spline mı yoksa rasyonel olmayan spline mı olduğunu gösterir. Rasyonel olmayan B-spline, rasyonel B-spline'ların özel bir durumudur. Rasyonel spline ise true; aksi takdirde rasyonel olmayan spline için false. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| setRational(value) | Rasyonel olup olmadığını alır veya ayarlar, bu değer bu NurbsCurve'un rasyonel spline mı yoksa rasyonel olmayan spline mı olduğunu gösterir. Rasyonel olmayan B-spline, rasyonel B-spline'ların özel bir durumudur. true ise rasyonel spline; aksi takdirde false rasyonel olmayan spline'dır. |
+| setRational(value) | Rasyonel olup olmadığını alır veya ayarlar, bu değer bu NurbsCurve'un rasyonel spline mı yoksa rasyonel olmayan spline mı olduğunu gösterir. Rasyonel olmayan B-spline, rasyonel B-spline'ların özel bir durumudur. Rasyonel spline ise true; aksi takdirde rasyonel olmayan spline için false. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -341,7 +341,7 @@ NURBS eğrisi, NURBS (Non-uniform rational basis spline) tarafından temsil edil
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| steps | Number | İki komşu knot arasındaki değerlendirme sıklığı, varsayılan değer 20'dir. |
+| steps | Sayı | İki komşu knot arasındaki değerlendirme frekansı, varsayılan değer 20'dir. |
 
  **Result:**
 Vector4[]
@@ -360,7 +360,7 @@ Vector4[]
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| u | Number | Eğrideki konum, 0 ile 1 arasında |
+| u | Sayı | Eğri üzerindeki konum, 0 ile 1 arasında |
 
  **Result:**
 Vector4
@@ -373,7 +373,7 @@ Vector4
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -405,7 +405,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -418,7 +418,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -443,7 +443,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -462,7 +462,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -476,7 +476,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -485,7 +485,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

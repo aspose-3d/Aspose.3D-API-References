@@ -75,7 +75,7 @@ STL için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ STL için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ STL için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ STL için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ STL için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ STL için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ STL için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

@@ -17,7 +17,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Yeni bir StlLoadOptions örneğini başlatır. |
+| constructor() | Yeni bir StlLoadOptions örneği başlatır. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(contentType) | Yeni bir StlLoadOptions örneğini başlatır. |
+| constructor_overload(contentType) | Yeni bir StlLoadOptions örneği başlatır. |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipCoordinateSystem() | İçe aktarma sırasında kontrol noktalarının/normalin koordinat sistemini tersine çevirip çevirmeyeceğini alır veya ayarlar. |
+| getFlipCoordinateSystem() | İçe aktarma sırasında kontrol noktalarının/normalin koordinat sistemini ters çevirip çevirmeyeceğini alır veya ayarlar. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipCoordinateSystem(value) | İçe aktarma sırasında kontrol noktalarının/normalin koordinat sistemini tersine çevirip çevirmeyeceğini alır veya ayarlar. |
+| setFlipCoordinateSystem(value) | İçe aktarma sırasında kontrol noktalarının/normalin koordinat sistemini ters çevirip çevirmeyeceğini alır veya ayarlar. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getRecalculateNormal() | STL dosyasında depolanan normal verisini yoksay ve normal verisini köşe konumuna göre yeniden hesapla. Varsayılan değer false. |
+| getRecalculateNormal() | STL dosyasında depolanan normal verisini yok say ve normal verisini köşe konumuna göre yeniden hesapla. Varsayılan değer false'tur. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setRecalculateNormal(value) | STL dosyasında depolanan normal verisini yoksay ve normal verisini köşe konumuna göre yeniden hesapla. Varsayılan değer false. |
+| setRecalculateNormal(value) | STL dosyasında depolanan normal verisini yok say ve normal verisini köşe konumuna göre yeniden hesapla. Varsayılan değer false'tur. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ STL için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

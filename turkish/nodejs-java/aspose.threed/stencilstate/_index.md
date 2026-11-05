@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/stencilstate/
 ---
 ## StencilState class
 
-Yüz başına stencil durumları.  @hideconstructor
+Yüzey başına şablon durumları.  @hideconstructor
 
 
 ## Yöntemler
@@ -43,7 +43,7 @@ Yüz başına stencil durumları.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getFailAction() | Stencil testi başarısız olduğunda şablon eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
+| getFailAction() | Stencil testi başarısız olduğunda stencil eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Yüz başına stencil durumları.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setFailAction(value) | Stencil testi başarısız olduğunda şablon eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
+| setFailAction(value) | Stencil testi başarısız olduğunda stencil eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Yüz başına stencil durumları.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getDepthFailAction() | Stencil testi geçip derinlik testi başarısız olduğunda şablon eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
+| getDepthFailAction() | Stencil testi geçerken ancak derinlik testi başarısız olduğunda stencil eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Yüz başına stencil durumları.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setDepthFailAction(value) | Stencil testi geçip derinlik testi başarısız olduğunda şablon eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
+| setDepthFailAction(value) | Stencil testi geçerken ancak derinlik testi başarısız olduğunda stencil eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Yüz başına stencil durumları.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getPassAction() | Hem stencil testi hem de derinlik testi geçtiğinde şablon eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
+| getPassAction() | Hem stencil testi hem de derinlik testi geçtiğinde stencil eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Yüz başına stencil durumları.  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| setPassAction(value) | Hem stencil testi hem de derinlik testi geçtiğinde şablon eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
+| setPassAction(value) | Hem stencil testi hem de derinlik testi geçtiğinde stencil eylemini alır veya ayarlar. Özelliğin değeri StencilAction tam sayı sabitidir. |
 
  **Result:**
 

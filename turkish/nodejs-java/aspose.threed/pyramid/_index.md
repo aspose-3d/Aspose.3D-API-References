@@ -1,5 +1,5 @@
 ---
-title: "Pyramid"
+title: "Piramid"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/pyramid/
 ---
 ## Pyramid class
 
-Parametrik piramit.
+Parametreli piramit.
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Varsayılan alt alan (10, 10) ve varsayılan yükseklik (5) ile yeni bir pyramid örneği oluşturur. |
+| constructor() | Varsayılan taban alanı(10, 10) ve varsayılan yükseklik(5) ile yeni bir piramit örneği oluşturur. |
 
  **Result:**
 
@@ -30,15 +30,15 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(xbottom, ybottom, height) | Belirtilen alt alan ile yeni bir pyramid örneği oluşturur. |
+| constructor_overload(xbottom, ybottom, height) | Belirtilen taban alanı ile yeni bir piramit örneği oluşturur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| xbottom | Number | Alt kısmın x yönündeki uzunluğu |
-| ybottom | Number | Alt kısmın y yönündeki uzunluğu |
-| height | Number | Pyramid'in yüksekliği |
+| xbottom | Sayı | Altın x yönündeki uzunluğu |
+| ybottom | Sayı | Altın y yönündeki uzunluğu |
+| height | Sayı | Piramidin yüksekliği |
 
  **Result:**
 
@@ -51,17 +51,17 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload2(xbottom, ybottom, xtop, ytop, height) | Belirtilen alt alan, üst alan ve yükseklik ile yeni bir pyramid örneği oluşturur. |
+| constructor_overload2(xbottom, ybottom, xtop, ytop, height) | Belirtilen taban alanı, üst alan ve yükseklik ile yeni bir piramit örneği oluşturur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| xbottom | Number | Alt alanın x yönündeki uzunluğu |
-| ybottom | Number | Alt alanın y yönündeki uzunluğu |
-| xtop | Number | Üst alanın x yönündeki uzunluğu |
-| ytop | Number | Üst alanın y yönündeki uzunluğu |
-| height | Number | Pyramid'in yüksekliği |
+| xbottom | Sayı | Alt alanın x yönündeki uzunluğu |
+| ybottom | Sayı | Alt alanın y yönündeki uzunluğu |
+| xtop | Sayı | Üst alanın x yönündeki uzunluğu |
+| ytop | Sayı | Üst alanın y yönündeki uzunluğu |
+| height | Sayı | Piramidin yüksekliği |
 
  **Result:**
 
@@ -74,18 +74,18 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload3(name, xbottom, ybottom, xtop, ytop, height) | Belirtilen alt alan, üst alan ve yükseklik ile yeni bir pyramid örneği oluşturur. |
+| constructor_overload3(name, xbottom, ybottom, xtop, ytop, height) | Belirtilen taban alanı, üst alan ve yükseklik ile yeni bir piramit örneği oluşturur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | name | String | Piramitin adı |
-| xbottom | Number | Alt alanın x yönündeki uzunluğu |
-| ybottom | Number | Alt alanın y yönündeki uzunluğu |
-| xtop | Number | Üst alanın x yönündeki uzunluğu |
-| ytop | Number | Üst alanın y yönündeki uzunluğu |
-| height | Number | Pyramid'in yüksekliği |
+| xbottom | Sayı | Alt alanın x yönündeki uzunluğu |
+| ybottom | Sayı | Alt alanın y yönündeki uzunluğu |
+| xtop | Sayı | Üst alanın x yönündeki uzunluğu |
+| ytop | Sayı | Üst alanın y yönündeki uzunluğu |
+| height | Sayı | Piramidin yüksekliği |
 
  **Result:**
 
@@ -150,7 +150,7 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| getBottomOffset() | Alt köşe noktaları için Offset |
+| getBottomOffset() | Alt köşeler için ofset |
 
  **Result:**
 
@@ -163,7 +163,7 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| setBottomOffset(value) | Alt köşe noktaları için Offset |
+| setBottomOffset(value) | Alt köşeler için ofset |
 
  **Result:**
 
@@ -254,7 +254,7 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -267,7 +267,7 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -280,7 +280,7 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -371,7 +371,7 @@ Parametrik piramit.
 
 | Ad | Açıklama |
 | --- | --- |
-| toMesh() | Mevcut nesneyi mesh'e dönüştür |
+| toMesh() | Geçerli nesneyi mesh'e dönüştür |
 
  **Result:**
 Mesh
@@ -397,7 +397,7 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -416,7 +416,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -429,7 +429,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -454,7 +454,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -473,7 +473,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -487,7 +487,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -496,7 +496,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

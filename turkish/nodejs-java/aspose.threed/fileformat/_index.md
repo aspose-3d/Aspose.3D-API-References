@@ -1,5 +1,5 @@
 ---
-title: "Dosya Biçimi"
+title: "FileFormat"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -11,7 +11,7 @@ url: /tr/nodejs-java/aspose.threed/fileformat/
 Dosya formatı tanımı  @hideconstructor
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -19,26 +19,26 @@ Dosya formatı tanımı  @hideconstructor
 | STL_BINARY | İkili STL dosya formatı |
 | STLASCII | ASCII STL dosya formatı |
 | COLLADA | Collada dosya formatı |
-| GLTF | Khronos Group'un glTF |
-| GLTF_BINARY | Khronos Group'un ikili formatta glTF |
+| GLTF | Khronos Group'un glTF'i |
+| GLTF_BINARY | Khronos Group'un ikili formatta glTF'i |
 | PDF | Adobe'un Taşınabilir Belge Formatı |
 | DXF | AutoCAD DXF |
 | PLY | Poligon Dosya Formatı veya Stanford Üçgen Formatı |
-| X_BINARY | İkili formatta DirectX X Dosyası |
-| X_TEXT | İkili formatta DirectX X Dosyası |
+| X_BINARY | Binary formatında DirectX X Dosyası |
+| X_TEXT | Binary formatında DirectX X Dosyası |
 | DRACO | Google Draco Mesh |
-| RVM_TEXT | AVEVA Plant Design Management System Model metin formatında |
-| RVM_BINARY | AVEVA Plant Design Management System Model ikili formatında |
-| ASE | 3D Studio Max'in ASCII Sahne Dışa Aktarıcı formatı. |
+| RVM_TEXT | Metin formatında AVEVA Plant Design Management System Modeli |
+| RVM_BINARY | Binary formatında AVEVA Plant Design Management System Modeli |
+| ASE | 3D Studio Max'in ASCII Scene Exporter formatı. |
 | IFC | ISO 16739-1 Industry Foundation Classes veri modeli. |
 | AMF | Katmanlı imalat dosya formatı |
 | VRML | Sanal Gerçeklik Modelleme Dili |
 | ZIP | Diğer 3d dosya formatlarını içeren Zip arşivi. |
-| USD | Evrensel Sahne Tanımı |
-| USDZ | Sıkıştırılmış Evrensel Sahne Tanımı |
+| USD | Evrensel Sahne Açıklaması |
+| USDZ | Sıkıştırılmış Evrensel Sahne Açıklaması |
 | XYZ | Xyz nokta bulutu dosyası |
-| PCD | PCL Nokta Bulutu Veri dosyası ASCII modunda |
-| PCD_BINARY | PCL Nokta Bulutu Veri dosyası ikili modda |
+| PCD | ASCII modunda PCL Point Cloud Data dosyası |
+| PCD_BINARY | Binary modunda PCL Point Cloud Data dosyası |
 
 ## Yöntemler
 
@@ -98,7 +98,7 @@ Dosya formatı tanımı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileFormatType() | Dosya formatı tipini alır |
+| getFileFormatType() | Dosya formatı tipini alır. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ Dosya formatı tanımı  @hideconstructor
 | extensionNam | String | null |
 
  **Result:**
-Dosya Biçimi
+FileFormat
 
 
 ---
@@ -130,7 +130,7 @@ Dosya Biçimi
 
 | Ad | Açıklama |
 | --- | --- |
-| detect(fileName) | Dosya adından dosya formatını algıla, dosya okunabilir olmalı ki Aspose.3D dosya başlığı üzerinden dosya formatını algılayabilsin. |
+| detect(fileName) | Dosya adından dosya formatını algıla, dosya okunabilir olmalı ki Aspose.3D dosya başlığından dosya formatını algılayabilsin. |
 
  **Parameters:**
 
@@ -139,7 +139,7 @@ Dosya Biçimi
 | fileNam | String | null |
 
  **Result:**
-Dosya Biçimi
+FileFormat
 
 
 ---
@@ -175,7 +175,7 @@ SaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Biçimleri dizeye dönüştür |
+| toString() | Formatları dizeye dönüştür. |
 
  **Result:**
 String

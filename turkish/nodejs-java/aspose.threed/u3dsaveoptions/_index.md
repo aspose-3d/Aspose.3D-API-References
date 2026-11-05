@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/u3dsaveoptions/
 ---
 ## U3dSaveOptions class
 
-Evrensel 3d için kaydetme seçenekleri
+Evrensel 3D için kaydetme seçenekleri
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | U3dSaveOptions yapıcı yöntemi |
+| constructor() | U3dSaveOptions yapıcı |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipCoordinateSystem() | İçe/Dışa aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar. |
+| getFlipCoordinateSystem() | İçe/dışa aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipCoordinateSystem(value) | İçe/Dışa aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar. |
+| setFlipCoordinateSystem(value) | İçe/dışa aktarım sırasında kontrol noktalarının/normalin koordinat sisteminin ters çevrilip çevrileceğini alır veya ayarlar. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getMeshCompression() | Ağ verisi sıkıştırmasını etkinleştirip etkinleştirmeyeceğini alır veya ayarlar. |
+| getMeshCompression() | Ağ veri sıkıştırmasını etkinleştirip etkinleştirmeyeceği alır veya ayarlar. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setMeshCompression(value) | Ağ verisi sıkıştırmasını etkinleştirip etkinleştirmeyeceğini alır veya ayarlar. |
+| setMeshCompression(value) | Ağ veri sıkıştırmasını etkinleştirip etkinleştirmeyeceği alır veya ayarlar. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportNormals() | Normal verilerini dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
+| getExportNormals() | Normal verilerini dışa aktarmayı alır veya ayarlar. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportNormals(value) | Normal verilerini dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
+| setExportNormals(value) | Normal verilerini dışa aktarmayı alır veya ayarlar. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextureCoordinates() | Doku koordinatlarını dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
+| getExportTextureCoordinates() | Doku koordinatlarını dışa aktarmayı alır veya ayarlar. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextureCoordinates(value) | Doku koordinatlarını dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
+| setExportTextureCoordinates(value) | Doku koordinatlarını dışa aktarmayı alır veya ayarlar. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportVertexDiffuse() | Vertex'in difüz rengini dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
+| getExportVertexDiffuse() | Vertex'in difüz rengini dışa aktarmayı alır veya ayarlar. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportVertexDiffuse(value) | Vertex'in difüz rengini dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
+| setExportVertexDiffuse(value) | Vertex'in difüz rengini dışa aktarmayı alır veya ayarlar. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportVertexSpecular() | Vertex'in speküler rengini dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
+| getExportVertexSpecular() | Vertex'in speküler rengini dışa aktarmayı alır veya ayarlar. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportVertexSpecular(value) | Vertex'in speküler rengini dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
+| setExportVertexSpecular(value) | Vertex'in speküler rengini dışa aktarmayı alır veya ayarlar. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEmbedTextures() | Harici dokuları U3D dosyasına gömer, varsayılan değer false'tur. |
+| getEmbedTextures() | Harici dokuları U3D dosyasına göm, varsayılan değer false. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setEmbedTextures(value) | Harici dokuları U3D dosyasına gömer, varsayılan değer false'tur. |
+| setEmbedTextures(value) | Harici dokuları U3D dosyasına göm, varsayılan değer false. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Evrensel 3d için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

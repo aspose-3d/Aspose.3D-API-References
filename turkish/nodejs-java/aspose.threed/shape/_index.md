@@ -1,5 +1,5 @@
 ---
-title: "Şekil"
+title: "Shape"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/shape/
 ---
 ## Shape class
 
-Şekil, bir dizi kontrol noktasındaki deformasyonu tanımlar; bu, Maya'daki küme deformörüne benzer.  Örneğin, oluşturulmuş bir geometriye bir şekil ekleyebiliriz.  Şekil ve geometri aynı topolojik bilgilere sahiptir ancak kontrol noktalarının konumları farklıdır.  Farklı etki miktarlarıyla geometri bir deformasyon etkisi gerçekleştirir.
+Şekil, bir dizi kontrol noktasındaki deformasyonu tanımlar; bu, Maya'daki küme deformörüne benzer. Örneğin, oluşturulan bir geometriye bir şekil ekleyebiliriz. Şekil ve geometri aynı topolojik bilgiye sahiptir ancak kontrol noktalarının konumları farklıdır. Etki miktarı değiştikçe, geometri bir deformasyon etkisi gerçekleştirir.
 
 
 ## Yöntemler
@@ -88,7 +88,7 @@ url: /tr/nodejs-java/aspose.threed/shape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getDeformers() | Bu geometriyle ilişkili tüm deformasyonları alır. Deformasyonlar. |
+| getDeformers() | Bu geometriye bağlı tüm deformörleri alır. Deformörler. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ url: /tr/nodejs-java/aspose.threed/shape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getVertexElements() | Tüm vertex elemanlarını alır |
+| getVertexElements() | Tüm köşe öğelerini alır |
 
  **Result:**
 
@@ -179,7 +179,7 @@ url: /tr/nodejs-java/aspose.threed/shape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -192,7 +192,7 @@ url: /tr/nodejs-java/aspose.threed/shape/
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -205,7 +205,7 @@ url: /tr/nodejs-java/aspose.threed/shape/
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -305,7 +305,7 @@ url: /tr/nodejs-java/aspose.threed/shape/
 | controlPoint | Vector3[] | null |
 
  **Result:**
-Şekil
+Shape
 
 
 ---
@@ -353,7 +353,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -372,7 +372,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| addElement(element) | Mevcut geometriye var olan bir vertex öğesi ekler |
+| addElement(element) | Mevcut geometriye mevcut bir vertex öğesi ekler |
 
  **Parameters:**
 
@@ -391,7 +391,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -465,7 +465,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -484,7 +484,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -497,7 +497,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -522,7 +522,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -541,7 +541,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -555,7 +555,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -564,7 +564,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

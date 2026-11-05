@@ -114,7 +114,7 @@ Aspose.3D, animasyon hiyerarşisini destekler, her animasyon birkaç animasyon v
 
 | Ad | Açıklama |
 | --- | --- |
-| findBindPoint(name) | Bağlama noktasını isimle bulur. |
+| findBindPoint(name) | Bağlama noktasını ada göre bulur. |
 
  **Parameters:**
 
@@ -133,15 +133,15 @@ BindPoint
 
 | Ad | Açıklama |
 | --- | --- |
-| getBindPoint(target, propName, create) | Verilen özelliğin animasyon bağlama noktasını alır. |
+| getBindPoint(target, propName, create) | Verilen özellikteki animasyon bağlama noktasını alır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| hedef | A3DObject | Bağlama noktasını oluşturmak için hangi nesne? |
+| target | A3DObject | Bağlama noktasının oluşturulacağı nesne. |
 | propName | String | Özelliğin adı. |
-| oluştur | boolean | Eğer ayarlanırsa |
+| create | boolean | Eğer ayarlanırsa |
 
  **Result:**
 BindPoint
@@ -160,10 +160,10 @@ BindPoint
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| hedef | A3DObject | Anahtar kare dizisini oluşturmak için hangi örnek? |
+| target | A3DObject | Anahtar kare dizisinin oluşturulacağı örnek. |
 | propName | String | Özelliğin adı. |
 | channelName | String | Kanalın adı. |
-| oluştur | boolean | Eğer ayarlanırsa |
+| create | boolean | Eğer ayarlanırsa |
 
  **Result:**
 KeyframeSequence
@@ -182,9 +182,9 @@ KeyframeSequence
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| hedef | A3DObject | Anahtar kare dizisini oluşturmak için hangi örnek? |
+| target | A3DObject | Anahtar kare dizisinin oluşturulacağı örnek. |
 | propName | String | Özelliğin adı. |
-| oluştur | boolean | Eğer ayarlanırsa |
+| create | boolean | Eğer ayarlanırsa |
 
  **Result:**
 KeyframeSequence
@@ -223,7 +223,7 @@ BindPoint
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -236,7 +236,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -261,7 +261,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -280,7 +280,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -294,7 +294,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -303,7 +303,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

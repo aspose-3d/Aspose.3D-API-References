@@ -56,7 +56,7 @@ url: /tr/nodejs-java/aspose.threed/pixelmapping/
 
 | Ad | Açıklama |
 | --- | --- |
-| getData() | Haritalanan piksel baytları. |
+| getData() | Haritalanmış piksel baytları. |
 
  **Result:**
 

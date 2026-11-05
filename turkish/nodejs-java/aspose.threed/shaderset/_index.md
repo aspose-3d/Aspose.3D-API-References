@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/shaderset/
 ---
 ## ShaderSet class
 
-Her çeşit materyal için shader programları
+Her türlü malzeme için gölgelendirici programları
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Her çeşit materyal için shader programları
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | ShaderSet örneğini oluştur. |
+| constructor() | ShaderSet örneğini oluşturun |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Her çeşit materyal için shader programları
 
 | Ad | Açıklama |
 | --- | --- |
-| getLambert() | Lambert malzemesini renderlamak için kullanılan gölgelendiriciyi alır veya ayarlar. |
+| getLambert() | Lambert malzemesini renderlamak için kullanılan gölgelendiriciyi alır veya ayarlar |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Her çeşit materyal için shader programları
 
 | Ad | Açıklama |
 | --- | --- |
-| setLambert(value) | Lambert malzemesini renderlamak için kullanılan gölgelendiriciyi alır veya ayarlar. |
+| setLambert(value) | Lambert malzemesini renderlamak için kullanılan gölgelendiriciyi alır veya ayarlar |
 
  **Result:**
 

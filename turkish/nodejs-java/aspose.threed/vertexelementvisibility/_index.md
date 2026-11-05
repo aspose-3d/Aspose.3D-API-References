@@ -108,7 +108,7 @@ Belirtilen bileşenlerin görünür olup olmadığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Belirtilen bileşenlerin görünür olup olmadığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Belirtilen bileşenlerin görünür olup olmadığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndices() | İndeks verisini alır. İndeks dizisi. |
+| getIndices() | Dizin verilerini alır. Dizin dizisi. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Belirtilen bileşenlerin görünür olup olmadığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndices(data) | İndeksleri yükle |
+| setIndices(data) | Dizinleri yükle |
 
  **Parameters:**
 

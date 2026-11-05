@@ -30,7 +30,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getBasisCurve() | Kesilecek temel eğri. |
+| getBasisCurve() | Kırpılacak temel eğri. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setBasisCurve(value) | Kesilecek temel eğri. |
+| setBasisCurve(value) | Kırpılacak temel eğri. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFirst() | Kesilecek ilk uç nokta, Kartezyen bir nokta veya gerçek bir parametre olabilir. |
+| getFirst() | Kesmek için ilk uç nokta, Kartezyen bir nokta veya gerçek bir parametre olabilir. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFirst(value) | Kesilecek ilk uç nokta, Kartezyen bir nokta veya gerçek bir parametre olabilir. |
+| setFirst(value) | Kesmek için ilk uç nokta, Kartezyen bir nokta veya gerçek bir parametre olabilir. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getSecond() | Kırpılacak ikinci uç nokta, Kartezyen bir nokta veya gerçek bir parametre olabilir. |
+| getSecond() | Kesmek için ikinci uç nokta, Kartezyen bir nokta veya gerçek bir parametre olabilir. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setSecond(value) | Kırpılacak ikinci uç nokta, Kartezyen bir nokta veya gerçek bir parametre olabilir. |
+| setSecond(value) | Kesmek için ikinci uç nokta, Kartezyen bir nokta veya gerçek bir parametre olabilir. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getSameDirection() | Kırpılmış sonucun temel eğrinin aynı yönünü kullanıp kullanmayacağını alır veya ayarlar. |
+| getSameDirection() | Kesilmiş sonucun temel eğrinin aynı yönünü kullanıp kullanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setSameDirection(value) | Kırpılmış sonucun temel eğrinin aynı yönünü kullanıp kullanmayacağını alır veya ayarlar. |
+| setSameDirection(value) | Kesilmiş sonucun temel eğrinin aynı yönünü kullanıp kullanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Her iki uçta temel eğriyi kırpan sınırlı bir eğri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -309,7 +309,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -322,7 +322,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -347,7 +347,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -366,7 +366,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -380,7 +380,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -389,7 +389,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

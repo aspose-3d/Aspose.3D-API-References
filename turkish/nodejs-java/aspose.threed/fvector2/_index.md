@@ -11,7 +11,7 @@ url: /tr/nodejs-java/aspose.threed/fvector2/
 İki bileşenli bir float vektör.
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -76,7 +76,7 @@ String
 
 | Ad | Açıklama |
 | --- | --- |
-| equals(rhs) | İki vektörün eşit olup olmadığını kontrol edin |
+| equals(rhs) | İki vektörün eşit olup olmadığını kontrol et |
 
  **Parameters:**
 
@@ -95,7 +95,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| equals(obj) | İki vektörün eşit olup olmadığını kontrol edin |
+| equals(obj) | İki vektörün eşit olup olmadığını kontrol et |
 
  **Parameters:**
 
@@ -117,7 +117,7 @@ boolean
 | hashCode() | Bu örneğin karma kodunu alır |
 
  **Result:**
-Number
+Sayı
 
 
 ---

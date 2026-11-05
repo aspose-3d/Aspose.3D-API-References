@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/pbrmaterial/
 ---
 ## PbrMaterial class
 
-Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için malzeme
+Albedo rengi/metalik/çözünürlük tabanlı fiziksel render için malzeme
 
 
 ## Yöntemler
@@ -49,7 +49,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| getTransparency() | Şeffaflık faktörünü alır veya ayarlar. Faktör 0(0%, tamamen opak) ile 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz bir faktör değeri sınırlanacaktır. Şeffaflık faktörü. |
+| getTransparency() | Şeffaflık faktörünü alır veya ayarlar. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri kırpılacaktır. Şeffaflık faktörü. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| setTransparency(value) | Şeffaflık faktörünü alır veya ayarlar. Faktör 0(0%, tamamen opak) ile 1(100%, tamamen şeffaf) arasında olmalıdır. Geçersiz bir faktör değeri sınırlanacaktır. Şeffaflık faktörü. |
+| setTransparency(value) | Şeffaflık faktörünü alır veya ayarlar. Faktör 0 (0%, tamamen opak) ile 1 (100%, tamamen şeffaf) arasında olmalıdır. Geçersiz faktör değeri kırpılacaktır. Şeffaflık faktörü. |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| getNormalTexture() | Normal haritalamanın dokusunu alır veya ayarlar |
+| getNormalTexture() | Normal haritalama dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| setNormalTexture(value) | Normal haritalamanın dokusunu alır veya ayarlar |
+| setNormalTexture(value) | Normal haritalama dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| getSpecularTexture() | Yansıma rengi için dokuyu alır veya ayarlar |
+| getSpecularTexture() | Yansıtıcı renk dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| setSpecularTexture(value) | Yansıma rengi için dokuyu alır veya ayarlar |
+| setSpecularTexture(value) | Yansıtıcı renk dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| getMetallicFactor() | Malzemenin metalikliğini alır veya ayarlar, 1 değeri malzemenin metal olduğunu, 0 değeri ise dielektrik olduğunu gösterir. |
+| getMetallicFactor() | Malzemenin metalik değerini alır veya ayarlar, 1 değeri malzemenin metal olduğunu, 0 değeri ise malzemenin dielektrik olduğunu gösterir. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| setMetallicFactor(value) | Malzemenin metalikliğini alır veya ayarlar, 1 değeri malzemenin metal olduğunu, 0 değeri ise dielektrik olduğunu gösterir. |
+| setMetallicFactor(value) | Malzemenin metalik değerini alır veya ayarlar, 1 değeri malzemenin metal olduğunu, 0 değeri ise malzemenin dielektrik olduğunu gösterir. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| getEmissiveTexture() | Emisyon için dokuyu alır veya ayarlar |
+| getEmissiveTexture() | Emissive dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| setEmissiveTexture(value) | Emisyon için dokuyu alır veya ayarlar |
+| setEmissiveTexture(value) | Emissive dokusunu alır veya ayarlar |
 
  **Result:**
 
@@ -400,13 +400,13 @@ Albedo rengi/metalik/pürüzlülüğe dayalı fiziksel tabanlı renderleme için
 
 | Ad | Açıklama |
 | --- | --- |
-| fromMaterial(material) | Diğer malzemeyi PbrMaterial'e dönüştürmeye izin verir |
+| fromMaterial(material) | Diğer malzemeyi PbrMaterial'e dönüştürmeye izin verir. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| malzeme | Malzeme | null |
+| madde | Malzeme | null |
 
  **Result:**
 PbrMaterial
@@ -419,7 +419,7 @@ PbrMaterial
 
 | Ad | Açıklama |
 | --- | --- |
-| getTexture(slotName) | Belirtilen slot'tan dokuyu alır, bu bir materyalin özellik adı veya shader'ın parametre adı olabilir |
+| getTexture(slotName) | Belirtilen slottan dokuyu alır, bu bir materyalin özellik adı veya shader parametresi adı olabilir. |
 
  **Parameters:**
 
@@ -458,7 +458,7 @@ TextureBase
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Nesneyi dizeye biçimlendir |
+| toString() | Nesneyi dizeye dönüştürür |
 
  **Result:**
 String
@@ -477,7 +477,7 @@ String
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -490,7 +490,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -515,7 +515,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -534,7 +534,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -548,7 +548,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -557,7 +557,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---
@@ -570,7 +570,7 @@ Property
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

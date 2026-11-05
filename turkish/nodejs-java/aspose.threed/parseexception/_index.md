@@ -17,7 +17,7 @@ Aspose.3D girdiyi ayrıştırırken başarısız olduğunda oluşan istisna.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(msg) | ParseException yapıcısı |
+| constructor(msg) | ParseException'ın yapıcısı |
 
  **Parameters:**
 

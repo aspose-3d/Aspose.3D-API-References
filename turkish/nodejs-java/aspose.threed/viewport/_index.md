@@ -43,7 +43,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| getEnabled() | Bu viewport'u etkinleştir veya devre dışı bırak. |
+| getEnabled() | Bu viewport'u etkinleştirir veya devre dışı bırakır. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| setEnabled(value) | Bu viewport'u etkinleştir veya devre dışı bırak. |
+| setEnabled(value) | Bu viewport'u etkinleştirir veya devre dışı bırakır. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| getRenderTarget() | Bu görünüm alanını oluşturan render hedefini alır. |
+| getRenderTarget() | Bu viewport'u oluşturan render hedefini alır. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| getArea() | Görünüm alanının render hedefindeki alanını alır veya ayarlar. |
+| getArea() | Render hedefindeki viewport'un alanını alır veya ayarlar. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| setArea(value) | Görünüm alanının render hedefindeki alanını alır veya ayarlar. |
+| setArea(value) | Render hedefindeki viewport'un alanını alır veya ayarlar. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| getZOrder() | Görünüm alanının Z-sırasını alır veya ayarlar. |
+| getZOrder() | Viewport'un Z-sırasını alır veya ayarlar. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| setZOrder(value) | Görünüm alanının Z-sırasını alır veya ayarlar. |
+| setZOrder(value) | Viewport'un Z-sırasını alır veya ayarlar. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| getBackgroundColor() | Görünüm alanının arka plan rengini alır veya ayarlar. |
+| getBackgroundColor() | Viewport'un arka plan rengini alır veya ayarlar. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| setBackgroundColor(value) | Görünüm alanının arka plan rengini alır veya ayarlar. |
+| setBackgroundColor(value) | Viewport'un arka plan rengini alır veya ayarlar. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| getDepthClear() | Derinlik tampon biti ayarlı olduğunda görünüm alanını temizlerken kullanılan derinlik değerini alır veya ayarlar. |
+| getDepthClear() | Derinlik tampon biti ayarlı olduğunda viewport'u temizlerken kullanılan derinlik değerini alır veya ayarlar. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Bir com.aspose.threed.IRenderTarget, sahneyi renderlemek için en az bir görün
 
 | Ad | Açıklama |
 | --- | --- |
-| setDepthClear(value) | Derinlik tampon biti ayarlı olduğunda görünüm alanını temizlerken kullanılan derinlik değerini alır veya ayarlar. |
+| setDepthClear(value) | Derinlik tampon biti ayarlı olduğunda viewport'u temizlerken kullanılan derinlik değerini alır veya ayarlar. |
 
  **Result:**
 

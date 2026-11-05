@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/entityrendererkey/
 ---
 ## EntityRendererKey class
 
-Kayıtlı varlık renderlayıcısının anahtarı
+Kayıtlı varlık renderleyicisinin anahtarı
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Kayıtlı varlık renderlayıcısının anahtarı
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(name) | EntityRendererKey'in yapıcı metodu |
+| constructor(name) | EntityRendererKey'in yapıcı yöntemi |
 
  **Parameters:**
 

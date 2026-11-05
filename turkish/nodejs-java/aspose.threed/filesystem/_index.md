@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/filesystem/
 ---
 ## FileSystem class
 
-Dosya sistemi kapsülleme.  Aspose.3D bunu bağımlılıkları okuma/yazma için kullanacaktır.  @hideconstructor
+Dosya sistemi kapsülleme.  Aspose.3D, bağımlılıkları okuma/yazma için bunu kullanacaktır.  @hideconstructor
 
 
 ## Yöntemler
@@ -17,17 +17,17 @@ Dosya sistemi kapsülleme.  Aspose.3D bunu bağımlılıkları okuma/yazma için
 
 | Ad | Açıklama |
 | --- | --- |
-| readFile(fileName, options) | Bağımlılıkları okumak için bir akış oluşturun. |
+| readFile(fileName, options) | Bağımlılıkları okumak için bir akış oluştur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | fileNam | String | null |
-| option | IOConfig | null |
+| seçenek | IOConfig | null |
 
  **Result:**
-Stream
+Akış
 
 
 ---
@@ -37,17 +37,17 @@ Stream
 
 | Ad | Açıklama |
 | --- | --- |
-| writeFile(fileName, options) | Bağımlılıkları yazmak için bir akış oluşturun. |
+| writeFile(fileName, options) | Bağımlılıkları yazmak için bir akış oluştur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | fileNam | String | null |
-| option | IOConfig | null |
+| seçenek | IOConfig | null |
 
  **Result:**
-Stream
+Akış
 
 
 ---

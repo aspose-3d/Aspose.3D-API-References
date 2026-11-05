@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/transform/
 ---
 ## Transform class
 
-Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine minimum maliyetle erişim sağlayan bilgileri içerir. Bu, yerel transform tarafından kullanılır.  @hideconstructor
+Bir dönüşüm, nesnenin çevirme/ölçekleme/döndürme veya dönüşüm matrisine minimum maliyetle erişim sağlayan bilgileri içerir. Bu, yerel dönüşüm tarafından kullanılır.  @hideconstructor
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getGeometricTranslation() | Geometrik çeviriyi alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. |
+| getGeometricTranslation() | Geometrik çeviriyi alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktardığınızda yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setGeometricTranslation(value) | Geometrik çeviriyi alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. |
+| setGeometricTranslation(value) | Geometrik çeviriyi alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktardığınızda yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getGeometricScaling() | Geometrik ölçeklemeyi alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. |
+| getGeometricScaling() | Geometrik ölçeklemeyi alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setGeometricScaling(value) | Geometrik ölçeklemeyi alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. |
+| setGeometricScaling(value) | Geometrik ölçeklemeyi alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getGeometricRotation() | Geometrik Euler dönüşümünü (derece cinsinden ölçülür) alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. |
+| getGeometricRotation() | Geometrik Euler dönüşümünü (derece cinsinden ölçülür) alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setGeometricRotation(value) | Geometrik Euler dönüşümünü (derece cinsinden ölçülür) alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Desteklemeyen dosya türlerine geometrik dönüşümü dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. |
+| setGeometricRotation(value) | Geometrik Euler dönüşümünü (derece cinsinden ölçülür) alır veya ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getTranslation() | Öteleme alır veya ayarlar |
+| getTranslation() | Öteleme değerini alır veya ayarlar |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setTranslation(value) | Öteleme alır veya ayarlar |
+| setTranslation(value) | Öteleme değerini alır veya ayarlar |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getPreRotation() | Derece cinsinden temsil edilen ön-rotasyonu alır veya ayarlar |
+| getPreRotation() | Derece cinsinden temsil edilen ön dönüşümü alır veya ayarlar |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setPreRotation(value) | Derece cinsinden temsil edilen ön-rotasyonu alır veya ayarlar |
+| setPreRotation(value) | Derece cinsinden temsil edilen ön dönüşümü alır veya ayarlar |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getPostRotation() | Derece cinsinden temsil edilen son-rotasyonu alır veya ayarlar |
+| getPostRotation() | Derece cinsinden temsil edilen son dönüşümü alır veya ayarlar |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setPostRotation(value) | Derece cinsinden temsil edilen son-rotasyonu alır veya ayarlar |
+| setPostRotation(value) | Derece cinsinden temsil edilen son dönüşümü alır veya ayarlar |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getEulerAngles() | Derece cinsinden ölçülen Euler açılarıyla temsil edilen rotasyonu alır veya ayarlar |
+| getEulerAngles() | Derece cinsinden ölçülen Euler açılarıyla temsil edilen dönüşümü alır veya ayarlar |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setEulerAngles(value) | Derece cinsinden ölçülen Euler açılarıyla temsil edilen rotasyonu alır veya ayarlar |
+| setEulerAngles(value) | Derece cinsinden ölçülen Euler açılarıyla temsil edilen dönüşümü alır veya ayarlar |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getRotation() | Kuatör içinde temsil edilen rotasyonu alır veya ayarlar. |
+| getRotation() | Katernion ile temsil edilen dönüşümü alır veya ayarlar. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setRotation(value) | Kuatör içinde temsil edilen rotasyonu alır veya ayarlar. |
+| setRotation(value) | Katernion ile temsil edilen dönüşümü alır veya ayarlar. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| getTransformMatrix() | Dönüşüm matrisini alır veya ayarlar. Buna atama yapmak, Translation, Scale ve Rotation'ı sıfırlar, GeometricRotation, GeometricScaling ve GeometricTranslation etkilenmez. |
+| getTransformMatrix() | Dönüşüm matrisini alır veya ayarlar. Buna bir atama yapıldığında Öteleme, Ölçek ve Dönüşüm sıfırlanır, Geometrik Dönüşüm, Geometrik Ölçekleme ve Geometrik Öteleme etkilenmez. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setTransformMatrix(value) | Dönüşüm matrisini alır veya ayarlar. Buna atama yapmak, Translation, Scale ve Rotation'ı sıfırlar, GeometricRotation, GeometricScaling ve GeometricTranslation etkilenmez. |
+| setTransformMatrix(value) | Dönüşüm matrisini alır veya ayarlar. Buna bir atama yapıldığında Öteleme, Ölçek ve Dönüşüm sıfırlanır, Geometrik Dönüşüm, Geometrik Ölçekleme ve Geometrik Öteleme etkilenmez. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setGeometricTranslation(x, y, z) | Geometric translation ayarlar. Geometric transformation yalnızca ekli varlıkları etkiler ve child nodes'ı etkilemez. Geometric transformation'ı desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
+| setGeometricTranslation(x, y, z) | Geometrik öteleme ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setGeometricScaling(sx, sy, sz) | Geometric scaling ayarlar. Geometric transformation yalnızca ekli varlıkları etkiler ve child nodes'ı etkilemez. Geometric transformation'ı desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
+| setGeometricScaling(sx, sy, sz) | Geometrik ölçeklemeyi ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setGeometricRotation(rx, ry, rz) | Geometric Euler rotation'ı (derece cinsinden ölçülen) ayarlar. Geometric transformation yalnızca ekli varlıkları etkiler ve child nodes'ı etkilemez. Geometric transformation'ı desteklemeyen dosya türlerine dışa aktarırken yerel dönüşüm olarak birleştirilecektir. |
+| setGeometricRotation(rx, ry, rz) | Geometrik Euler dönüşümünü (derece cinsinden ölçülür) ayarlar. Geometrik dönüşüm yalnızca ekli varlıkları etkiler ve alt düğümleri etkilemez. Geometrik dönüşümü desteklemeyen dosya türlerine dışa aktarırken, yerel dönüşüm olarak birleştirilecektir. |
 
  **Result:**
 
@@ -355,15 +355,15 @@ Bir transform, nesnenin çeviri/ölçekleme/döndürme veya transform matrisine 
 
 | Ad | Açıklama |
 | --- | --- |
-| setTranslation(tx, ty, tz) | Mevcut dönüşümün ötelemesini ayarlar. |
+| setTranslation(tx, ty, tz) | Geçerli dönüşümün çevirisini ayarlar. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| t | Number | null |
-| t | Number | null |
-| t | Number | null |
+| t | Sayı | null |
+| t | Sayı | null |
+| t | Sayı | null |
 
  **Result:**
 Dönüştürme
@@ -376,15 +376,15 @@ Dönüştürme
 
 | Ad | Açıklama |
 | --- | --- |
-| setScale(sx, sy, sz) | Mevcut dönüşümün ölçeğini ayarlar. |
+| setScale(sx, sy, sz) | Geçerli dönüşümün ölçeğini ayarlar. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| s | Number | null |
-| s | Number | null |
-| s | Number | null |
+| s | Sayı | null |
+| s | Sayı | null |
+| s | Sayı | null |
 
  **Result:**
 Dönüştürme
@@ -403,9 +403,9 @@ Dönüştürme
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
+| r | Sayı | null |
+| r | Sayı | null |
+| r | Sayı | null |
 
  **Result:**
 Dönüştürme
@@ -418,16 +418,16 @@ Dönüştürme
 
 | Ad | Açıklama |
 | --- | --- |
-| setRotation(rw, rx, ry, rz) | Geçerli dönüşümün dönüşünü (kuaternion bileşenleri olarak) ayarlar. |
+| setRotation(rw, rx, ry, rz) | Geçerli dönüşümün rotasyonunu (kuaternion bileşenleri olarak) ayarlar. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
-| r | Number | null |
+| r | Sayı | null |
+| r | Sayı | null |
+| r | Sayı | null |
+| r | Sayı | null |
 
  **Result:**
 Dönüştürme
@@ -440,7 +440,7 @@ Dönüştürme
 
 | Ad | Açıklama |
 | --- | --- |
-| setPreRotation(rx, ry, rz) | Derece cinsinden temsil edilen ön dönüşümü ayarlar. |
+| setPreRotation(rx, ry, rz) | Derece cinsinden temsil edilen ön-rotasyonu ayarlar. |
 
  **Result:**
 Dönüştürme
@@ -453,7 +453,7 @@ Dönüştürme
 
 | Ad | Açıklama |
 | --- | --- |
-| setPostRotation(rx, ry, rz) | Derece cinsinden temsil edilen son dönüşümü ayarlar. |
+| setPostRotation(rx, ry, rz) | Derece cinsinden temsil edilen son-rotasyonu ayarlar. |
 
  **Result:**
 Dönüştürme
@@ -472,7 +472,7 @@ Dönüştürme
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -485,7 +485,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -510,7 +510,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -529,7 +529,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -543,7 +543,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -552,7 +552,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

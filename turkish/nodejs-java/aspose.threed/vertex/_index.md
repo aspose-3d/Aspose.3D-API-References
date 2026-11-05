@@ -1,5 +1,5 @@
 ---
-title: "Köşe"
+title: "Vertex"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertex/
 ---
 ## Vertex class
 
-Vertex referansı, TriMesh içinde ham vertex'e erişmek için kullanılır.  @hideconstructor
+Köşe referansı, TriMesh içindeki ham köşeye erişmek için kullanılır.  @hideconstructor
 
 
 ## Yöntemler
@@ -23,10 +23,10 @@ Vertex referansı, TriMesh içinde ham vertex'e erişmek için kullanılır.  @h
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| othe | Köşe | null |
+| othe | Vertex | null |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -159,7 +159,7 @@ FVector2
 | field | VertexField | float/double uyumlu veri tipine sahip alan |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -178,7 +178,7 @@ Number
 | field | VertexField | float/double uyumlu veri tipine sahip alan |
 
  **Result:**
-Number
+Sayı
 
 
 ---

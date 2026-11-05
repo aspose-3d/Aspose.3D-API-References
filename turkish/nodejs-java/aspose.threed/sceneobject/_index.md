@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/sceneobject/
 ---
 ## SceneObject class
 
-Bir sahne içinde depolanacak nesnelerin kök sınıfı.
+Sahne içinde depolanacak nesnelerin kök sınıfı.
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Bir sahne içinde depolanacak nesnelerin kök sınıfı.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(name) | Varsayılan bir adla bir SceneObject başlatır. |
+| constructor(name) | Bir SceneObject'i varsayılan bir adla başlat |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ Bir sahne içinde depolanacak nesnelerin kök sınıfı.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload() | Bir SceneObject başlatır. |
+| constructor_overload() | Bir SceneObject'i başlat |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Bir sahne içinde depolanacak nesnelerin kök sınıfı.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -120,7 +120,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -145,7 +145,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -164,7 +164,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -178,7 +178,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -187,7 +187,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

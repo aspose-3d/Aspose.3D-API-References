@@ -1,5 +1,5 @@
 ---
-title: "Geometri"
+title: "Geometry"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/geometry/
 ---
 ## Geometry class
 
-Tüm renderlanabilir geometrik nesnelerin (Mesh, NurbsSurface, Patch vb.) temel sınıfı.  Geometry temel sınıfı şunları destekler: Kontrol noktası yönetimi, kontrol noktaları geometrinin temel 3D uzamsal yapısını tanımlar, farklı geometrik tipler somut 3D modelleri tanımlamanın farklı yollarına sahiptir. Vertex eleman tanımı, vertex elemanları normaller/uv koordinatları/vertex renkleri gibi ek bilgileri geometriye uygular, daha fazla detay için VertexElement'e bakın. Nesne deformasyonu, Deformer geometrinin şeklini canlandırmak için bağlanabilir.
+Tüm renderlanabilir geometrik nesnelerin (Mesh, NurbsSurface, Patch vb.) temel sınıfı.  Geometry temel sınıfı şunları destekler:  Kontrol noktası yönetimi, kontrol noktaları geometrinin temel 3D uzamsal yapısını tanımlar, farklı geometrik tipler somut 3D modelleri tanımlamak için farklı yöntemlere sahiptir. Vertex eleman tanımı, vertex elemanları normale/uv koordinatlarına/vertex renklerine benzer ek bilgiler uygular, daha fazla detay için VertexElement'e bakın. Nesne deformasyonu, Deformer geometrinin şeklini canlandırmak için bağlanabilir.
 
 
 ## Yöntemler
@@ -62,7 +62,7 @@ Tüm renderlanabilir geometrik nesnelerin (Mesh, NurbsSurface, Patch vb.) temel 
 
 | Ad | Açıklama |
 | --- | --- |
-| getDeformers() | Bu geometriyle ilişkili tüm deformasyonları alır. Deformasyonlar. |
+| getDeformers() | Bu geometriye bağlı tüm deformörleri alır. Deformörler. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Tüm renderlanabilir geometrik nesnelerin (Mesh, NurbsSurface, Patch vb.) temel 
 
 | Ad | Açıklama |
 | --- | --- |
-| getVertexElements() | Tüm vertex elemanlarını alır |
+| getVertexElements() | Tüm köşe öğelerini alır |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Tüm renderlanabilir geometrik nesnelerin (Mesh, NurbsSurface, Patch vb.) temel 
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Tüm renderlanabilir geometrik nesnelerin (Mesh, NurbsSurface, Patch vb.) temel 
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Tüm renderlanabilir geometrik nesnelerin (Mesh, NurbsSurface, Patch vb.) temel 
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -308,7 +308,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -327,7 +327,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| addElement(element) | Mevcut geometriye var olan bir vertex öğesi ekler |
+| addElement(element) | Mevcut geometriye mevcut bir vertex öğesi ekler |
 
  **Parameters:**
 
@@ -346,7 +346,7 @@ VertexElement
 
 | Ad | Açıklama |
 | --- | --- |
-| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE türünde doku eşlemesiyle bir VertexElementUV oluşturulur. |
+| createElement(type, mappingMode, referenceMode) | Belirtilen türde bir vertex öğesi oluşturur ve geometrinin içine ekler. Eğer tür VertexElementType.UV ise, TextureMapping.DIFFUSE doku eşleme türüne sahip bir VertexElementUV oluşturulur. |
 
  **Parameters:**
 
@@ -420,7 +420,7 @@ VertexElementUV
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -439,7 +439,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -452,7 +452,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -477,7 +477,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -496,7 +496,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -510,7 +510,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -519,7 +519,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

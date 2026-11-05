@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/relativerectangle/
 ---
 ## RelativeRectangle class
 
-Göreceli dikdörtgen  Göreceli bileşen ile mutlak değer arasındaki formül:  Ölçek  (Referans Genişliği) + offset  Bu yüzden bir mutlak değeri temsil etmesini istiyorsak, tüm ölçek alanlarını sıfır bırakın ve offset alanlarını kullanın.
+Relative rectangle  Göreceli bileşen ile mutlak değer arasındaki formül:  Scale  (Referans Genişliği) + offset  Bu yüzden bir mutlak değeri temsil etmesini istiyorsak, tüm ölçek alanlarını sıfır bırakın ve yerine offset alanlarını kullanın.
 
 
 ## Yöntemler
@@ -30,16 +30,16 @@ Göreceli dikdörtgen  Göreceli bileşen ile mutlak değer arasındaki formül:
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(left, top, width, height) | Bir RelativeRectangle oluştur. |
+| constructor_overload(left, top, width, height) | Bir RelativeRectangle oluşturun |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| sol | Number | null |
-| hedef | Number | null |
-| widt | Number | null |
-| heigh | Number | null |
+| lef | Sayı | null |
+| hedef | Sayı | null |
+| widt | Sayı | null |
+| heigh | Sayı | null |
 
  **Result:**
 
@@ -208,7 +208,7 @@ Göreceli dikdörtgen  Göreceli bileşen ile mutlak değer arasındaki formül:
 
 | Ad | Açıklama |
 | --- | --- |
-| getOffsetWidth() | Genişlik için ofseti alır veya ayarlar |
+| getOffsetWidth() | Genişlik ofsetini alır veya ayarlar |
 
  **Result:**
 
@@ -221,7 +221,7 @@ Göreceli dikdörtgen  Göreceli bileşen ile mutlak değer arasındaki formül:
 
 | Ad | Açıklama |
 | --- | --- |
-| setOffsetWidth(value) | Genişlik için ofseti alır veya ayarlar |
+| setOffsetWidth(value) | Genişlik ofsetini alır veya ayarlar |
 
  **Result:**
 
@@ -234,7 +234,7 @@ Göreceli dikdörtgen  Göreceli bileşen ile mutlak değer arasındaki formül:
 
 | Ad | Açıklama |
 | --- | --- |
-| getOffsetHeight() | Yükseklik için ofseti alır veya ayarlar |
+| getOffsetHeight() | Yükseklik ofsetini alır veya ayarlar |
 
  **Result:**
 
@@ -247,7 +247,7 @@ Göreceli dikdörtgen  Göreceli bileşen ile mutlak değer arasındaki formül:
 
 | Ad | Açıklama |
 | --- | --- |
-| setOffsetHeight(value) | Yükseklik için ofseti alır veya ayarlar |
+| setOffsetHeight(value) | Yükseklik ofsetini alır veya ayarlar |
 
  **Result:**
 
@@ -266,10 +266,10 @@ Göreceli dikdörtgen  Göreceli bileşen ile mutlak değer arasındaki formül:
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| sol | Number | Dikdörtgenin solu |
-| üst | Number | Dikdörtgenin üstü |
-| genişlik | Number | Dikdörtgenin genişliği |
-| height | Number | Dikdörtgenin yüksekliği |
+| sol | Sayı | Dikdörtgenin solu |
+| üst | Sayı | Dikdörtgenin üstü |
+| width | Sayı | Dikdörtgenin genişliği |
+| height | Sayı | Dikdörtgenin yüksekliği |
 
  **Result:**
 Rect
@@ -282,16 +282,16 @@ Rect
 
 | Ad | Açıklama |
 | --- | --- |
-| fromScale(scaleX, scaleY, scaleWidth, scaleHeight) | Tüm offset alanları sıfır ve ölçek alanları verilen parametrelerden alınarak bir RelativeRectangle oluştur. |
+| fromScale(scaleX, scaleY, scaleWidth, scaleHeight) | Tüm ofset alanları sıfır ve ölçek alanları verilen parametrelerden olan bir RelativeRectangle oluştur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| ölçek | Number | null |
-| ölçek | Number | null |
-| scaleWidt | Number | null |
-| scaleHeigh | Number | null |
+| ölçek | Sayı | null |
+| ölçek | Sayı | null |
+| scaleWidt | Sayı | null |
+| scaleHeigh | Sayı | null |
 
  **Result:**
 RelativeRectangle

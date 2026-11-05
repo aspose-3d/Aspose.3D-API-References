@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexelementvertexcrease/
 ---
 ## VertexElementVertexCrease class
 
-Belirtilen bileşenler için vertex kırışıklığını tanımlar
+Belirtilen bileşenler için köşe kıvrımını tanımlar
 
 
 ## Yöntemler
@@ -108,7 +108,7 @@ Belirtilen bileşenler için vertex kırışıklığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| getReferenceMode() | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Belirtilen bileşenler için vertex kırışıklığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tam sayı sabitidir. |
+| setReferenceMode(value) | Elemanın nasıl referans alındığını alır veya ayarlar. Özelliğin değeri ReferenceMode tamsayı sabitidir. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Belirtilen bileşenler için vertex kırışıklığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| getIndices() | İndeks verisini alır. İndeks dizisi. |
+| getIndices() | Dizin verilerini alır. Dizin dizisi. |
 
  **Result:**
 
@@ -147,13 +147,13 @@ Belirtilen bileşenler için vertex kırışıklığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| copyTo(target) | Belirtilen öğeye verileri kopyalar |
+| copyTo(target) | Verileri belirtilen öğeye kopyalar |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| hedef | VertexElementDoublesTemplate | Target. |
+| target | VertexElementDoublesTemplate | Hedef. |
 
  **Result:**
 
@@ -198,7 +198,7 @@ Belirtilen bileşenler için vertex kırışıklığını tanımlar
 
 | Ad | Açıklama |
 | --- | --- |
-| setIndices(data) | İndeksleri yükle |
+| setIndices(data) | Dizinleri yükle |
 
  **Parameters:**
 

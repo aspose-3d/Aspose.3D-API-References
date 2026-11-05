@@ -17,7 +17,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(contentType) | GltfSaveOptions sınıfının yapıcı metodu |
+| constructor(contentType) | GltfSaveOptions yapıcısı |
 
  **Parameters:**
 
@@ -36,13 +36,13 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(format) | GltfSaveOptions sınıfının yapıcı metodu |
+| constructor_overload(format) | GltfSaveOptions yapıcısı |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| forma | Dosya Biçimi | null |
+| biçim | FileFormat | null |
 
  **Result:**
 
@@ -55,7 +55,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getPrettyPrint() | GLTF dosyasının JSON içeriği insan okuyuşu için girintilenmiştir, varsayılan değer false'tur. |
+| getPrettyPrint() | GLTF dosyasının JSON içeriği insan okunması için girintilenmiştir, varsayılan değer false'tur |
 
  **Result:**
 
@@ -68,7 +68,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setPrettyPrint(value) | GLTF dosyasının JSON içeriği insan okuyuşu için girintilenmiştir, varsayılan değer false'tur. |
+| setPrettyPrint(value) | GLTF dosyasının JSON içeriği insan okunması için girintilenmiştir, varsayılan değer false'tur |
 
  **Result:**
 
@@ -81,7 +81,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFallbackNormal() | GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamadan geçmek için orijinal değeri yerine bu değer kullanılacaktır. Varsayılan değer (0, 1, 0)'dır. |
+| getFallbackNormal() | GLTF2 dışa aktarıcı geçersiz bir normal tespit ettiğinde, doğrulamayı atlamak için bu, orijinal değeri yerine kullanılacaktır. Varsayılan değer (0, 1, 0)'dır. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEmbedAssets() | Tüm dış varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false'tur. |
+| getEmbedAssets() | Tüm harici varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setEmbedAssets(value) | Tüm dış varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false'tur. |
+| setEmbedAssets(value) | Tüm harici varlıkları ASCII modunda tek bir dosyaya base64 olarak göm, varsayılan değer false. |
 
  **Result:**
 
@@ -120,7 +120,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getImageFormat() | Standart glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek dış standart görüntülerin dışa aktarım sırasında Aspose.3D tarafından desteklenen formata nasıl dönüştürüleceğini yönlendirir. Varsayılan değer GltfEmbeddedImageFormat.PNG'dir. Özelliğin değeri GltfEmbeddedImageFormat tam sayı sabitidir. |
+| getImageFormat() | Standart glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek Aspose.3D'nin dışa aktarım sırasında standart olmayan görüntüleri desteklenen formata nasıl dönüştüreceğini yönlendirir. Varsayılan değer GltfEmbeddedImageFormat.PNG'dir. Özelliğin değeri GltfEmbeddedImageFormat tamsayı sabitidir. |
 
  **Result:**
 
@@ -133,7 +133,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setImageFormat(value) | Standart glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek dış standart görüntülerin dışa aktarım sırasında Aspose.3D tarafından desteklenen formata nasıl dönüştürüleceğini yönlendirir. Varsayılan değer GltfEmbeddedImageFormat.PNG'dir. Özelliğin değeri GltfEmbeddedImageFormat tam sayı sabitidir. |
+| setImageFormat(value) | Standart glTF yalnızca PNG/JPG'yi doku formatı olarak destekler, bu seçenek Aspose.3D'nin dışa aktarım sırasında standart olmayan görüntüleri desteklenen formata nasıl dönüştüreceğini yönlendirir. Varsayılan değer GltfEmbeddedImageFormat.PNG'dir. Özelliğin değeri GltfEmbeddedImageFormat tamsayı sabitidir. |
 
  **Result:**
 
@@ -146,7 +146,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getMaterialConverter() | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürür. Varsayılan değer null'dır. Bu özellik bir sahneyi glTF 2.0 dosyasına dışa aktarırken kullanılır. |
+| getMaterialConverter() | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. Varsayılan değer null'dur. Bu özellik bir sahneyi glTF 2.0 dosyasına dışa aktarırken kullanılır. |
 
  **Result:**
 
@@ -159,7 +159,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setMaterialConverter(value) | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürür. Varsayılan değer null'dır. Bu özellik bir sahneyi glTF 2.0 dosyasına dışa aktarırken kullanılır. |
+| setMaterialConverter(value) | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, glTF 2.0 dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürecektir. Varsayılan değer null'dur. Bu özellik bir sahneyi glTF 2.0 dosyasına dışa aktarırken kullanılır. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getUseCommonMaterials() | Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false'tur. Bunu false olarak ayarlamak, Aspose.3D'nin bir dizi vertex/fragment gölgelendirici dışa aktarmasına neden olur eğer #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
+| getUseCommonMaterials() | Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. Bunu false olarak ayarlamak, Aspose.3D'nin bir vertex/fragment gölgelendirici seti dışa aktarmasına neden olur eğer #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
 
  **Result:**
 
@@ -185,7 +185,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setUseCommonMaterials(value) | Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false'tur. Bunu false olarak ayarlamak, Aspose.3D'nin bir dizi vertex/fragment gölgelendirici dışa aktarmasına neden olur eğer #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
+| setUseCommonMaterials(value) | Malzemeleri KHR ortak malzeme uzantılarını kullanarak serileştir, varsayılan değer false. Bunu false olarak ayarlamak, Aspose.3D'nin bir vertex/fragment gölgelendirici seti dışa aktarmasına neden olur eğer #Error Cref: P:Aspose.ThreeD.Formats.GltfSaveOptions.ExportShaders |
 
  **Result:**
 
@@ -198,7 +198,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExternalDracoEncoder() | Draco sıkıştırma hızını artırmak için harici draco kodlayıcı kullanın. Aspose.3D, ağı draco formatına kodlamak için yeni bir alt süreç oluşturacak, bunu kendi sorumluluğunuzda kullanın. |
+| getExternalDracoEncoder() | Draco sıkıştırma hızını artırmak için harici draco kodlayıcıyı kullan. Aspose.3D, ağı draco formatına kodlamak için yeni bir alt süreç oluşturacak, kullanımı kendi sorumluluğunuzdadır. |
 
  **Result:**
 
@@ -211,7 +211,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExternalDracoEncoder(value) | Draco sıkıştırma hızını artırmak için harici draco kodlayıcı kullanın. Aspose.3D, ağı draco formatına kodlamak için yeni bir alt süreç oluşturacak, bunu kendi sorumluluğunuzda kullanın. |
+| setExternalDracoEncoder(value) | Draco sıkıştırma hızını artırmak için harici draco kodlayıcıyı kullan. Aspose.3D, ağı draco formatına kodlamak için yeni bir alt süreç oluşturacak, kullanımı kendi sorumluluğunuzdadır. |
 
  **Result:**
 
@@ -224,7 +224,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipTexCoordV() | Doku koordinatı v(t) bileşenini ters çevir, varsayılan değer true'tur. |
+| getFlipTexCoordV() | Doku koordinatı v(t) bileşenini ters çevir, varsayılan değer true. |
 
  **Result:**
 
@@ -237,7 +237,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipTexCoordV(value) | Doku koordinatı v(t) bileşenini ters çevir, varsayılan değer true'tur. |
+| setFlipTexCoordV(value) | Doku koordinatı v(t) bileşenini ters çevir, varsayılan değer true. |
 
  **Result:**
 
@@ -250,7 +250,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getBufferFile() | İkili verileri depolamak için kullanılan harici tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF'yi ikili modda dışa aktarırken yoksayılır. |
+| getBufferFile() | İkili verileri depolamak için kullanılan harici tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF'yi ikili modda dışa aktarırken göz ardı edilir. |
 
  **Result:**
 
@@ -263,7 +263,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setBufferFile(value) | İkili verileri depolamak için kullanılan harici tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF'yi ikili modda dışa aktarırken yoksayılır. |
+| setBufferFile(value) | İkili verileri depolamak için kullanılan harici tampon dosyasının dosya adı. Bu dosya belirtilmezse, Aspose.3D sizin için bir ad oluşturur. Bu, glTF'yi ikili modda dışa aktarırken göz ardı edilir. |
 
  **Result:**
 
@@ -276,7 +276,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getSaveExtras() | Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydet. Bu, uygulamaya özgü verileri sağlamak için faydalıdır. Varsayılan değer false'tur. |
+| getSaveExtras() | Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydet. Bu, uygulamaya özgü verileri sağlamak için yararlıdır. Varsayılan değer false. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setSaveExtras(value) | Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydet. Bu, uygulamaya özgü verileri sağlamak için faydalıdır. Varsayılan değer false'tur. |
+| setSaveExtras(value) | Sahne nesnesinin dinamik özelliklerini oluşturulan glTF dosyasındaki 'extra' alanlarına kaydet. Bu, uygulamaya özgü verileri sağlamak için yararlıdır. Varsayılan değer false. |
 
  **Result:**
 
@@ -354,7 +354,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -367,7 +367,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -393,7 +393,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -406,7 +406,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -419,7 +419,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -445,7 +445,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -458,7 +458,7 @@ glTF formatı için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

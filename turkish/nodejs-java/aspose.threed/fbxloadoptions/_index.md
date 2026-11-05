@@ -17,13 +17,13 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(format) | FbxLoadOptions yapıcısı |
+| constructor(format) | FbxLoadOptions sınıfının yapıcı metodu |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| forma | Dosya Biçimi | null |
+| biçim | FileFormat | null |
 
  **Result:**
 
@@ -36,7 +36,7 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload() | FbxLoadOptions yapıcısı |
+| constructor_overload() | FbxLoadOptions sınıfının yapıcı metodu |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getKeepBuiltinGlobalSettings() | GlobalSettings içinde, AssetInfo'da yerel bir özellik ikamesi olan yerleşik özelliklerin tutulup tutulmayacağını alır veya ayarlar. Tam özellikleri GlobalSettings içinde istiyorsanız bunu true olarak ayarlayın. Varsayılan değer false'tur. |
+| getKeepBuiltinGlobalSettings() | GlobalSettings içinde yerel bir özellik değişimi olan yerleşik özelliklerin tutulup tutulmayacağını alır veya ayarlar. Tam özellikleri GlobalSettings içinde istiyorsanız bunu true olarak ayarlayın. Varsayılan değer false'tur |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setKeepBuiltinGlobalSettings(value) | GlobalSettings içinde, AssetInfo'da yerel bir özellik ikamesi olan yerleşik özelliklerin tutulup tutulmayacağını alır veya ayarlar. Tam özellikleri GlobalSettings içinde istiyorsanız bunu true olarak ayarlayın. Varsayılan değer false'tur. |
+| setKeepBuiltinGlobalSettings(value) | GlobalSettings içinde yerel bir özellik değişimi olan yerleşik özelliklerin tutulup tutulmayacağını alır veya ayarlar. Tam özellikleri GlobalSettings içinde istiyorsanız bunu true olarak ayarlayın. Varsayılan değer false'tur |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Fbx formatı için yükleme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

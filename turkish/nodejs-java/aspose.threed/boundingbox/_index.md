@@ -11,11 +11,11 @@ url: /tr/nodejs-java/aspose.threed/boundingbox/
 Eksen hizalı sınırlayıcı kutu
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| NULL | Null sınırlama kutusu |
+| NULL | null sınırlama kutusu |
 | INFINITE | Sonsuz sınırlama kutusu |
 
 ## Yöntemler
@@ -37,7 +37,7 @@ Eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(minimum, maximum) | Verilen minimum ve maksimum köşe ile sonlu bir sınırlama kutusu başlatır |
+| constructor_overload(minimum, maximum) | Verilen minimum ve maksimum köşelerle sonlu bir sınırlama kutusu başlatır |
 
  **Parameters:**
 
@@ -57,7 +57,7 @@ Eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload2(minX, minY, minZ, maxX, maxY, maxZ) | Verilen minimum ve maksimum köşe ile sonlu bir sınırlama kutusu başlatır |
+| constructor_overload2(minX, minY, minZ, maxX, maxY, maxZ) | Verilen minimum ve maksimum köşelerle sonlu bir sınırlama kutusu başlatır |
 
  **Result:**
 
@@ -96,7 +96,7 @@ Eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| getMaximum() | Sınırlama kutusunun maksimum köşesi |
+| getMaximum() | Sınırlayıcı kutunun maksimum köşesi |
 
  **Result:**
 
@@ -109,7 +109,7 @@ Eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| getSize() | Sınırlayıcı kutunun boyutu |
+| getSize() | Sınırlama kutusunun boyutu |
 
  **Result:**
 
@@ -122,7 +122,7 @@ Eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| getCenter() | Sınırlayıcı kutunun merkezi. |
+| getCenter() | Sınırlama kutusunun merkezi. |
 
  **Result:**
 
@@ -135,13 +135,13 @@ Eksen hizalı sınırlayıcı kutu
 
 | Ad | Açıklama |
 | --- | --- |
-| fromGeometry(geometry) | Verilen geometriden bir sınırlayıcı kutu oluştur |
+| fromGeometry(geometry) | Verilen geometriden bir sınırlama kutusu oluştur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| geometr | Geometri | null |
+| geometrik | Geometry | null |
 
  **Result:**
 BoundingBox
@@ -167,10 +167,10 @@ String
 
 | Ad | Açıklama |
 | --- | --- |
-| hashCode() | Bu örnek için hash kodunu döndürür |
+| hashCode() | Bu örnek için karma kodunu döndürür |
 
  **Result:**
-Number
+Sayı
 
 
 ---

@@ -17,7 +17,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Discreet3dsSaveOptions yapıcısı |
+| constructor() | Discreet3dsSaveOptions yapıcısı. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportLight() | Sahnede tüm ışıkları dışa aktarmayı alır veya ayarlar. |
+| getExportLight() | Sahnede tüm ışıkları dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportLight(value) | Sahnede tüm ışıkları dışa aktarmayı alır veya ayarlar. |
+| setExportLight(value) | Sahnede tüm ışıkları dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportCamera() | Sahnede tüm kameraları dışa aktarmayı alır veya ayarlar. |
+| getExportCamera() | Sahnede tüm kameraların dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportCamera(value) | Sahnede tüm kameraları dışa aktarmayı alır veya ayarlar. |
+| setExportCamera(value) | Sahnede tüm kameraların dışa aktarılıp aktarılmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getDuplicatedNameSeparator() | Nesnenin adı ile yinelenen sayac arasındaki ayırıcı, varsayılan değer "_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin, "Box" adlı iki düğüm vardır, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırma kullanılarak "Box_2" adını alır. |
+| getDuplicatedNameSeparator() | Nesnenin adı ile çoğaltılmış sayıcı arasındaki ayırıcı, varsayılan değer "_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin, "Box" adlı iki düğüm vardır, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırma kullanılarak "Box_2" adını alır. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setDuplicatedNameSeparator(value) | Nesnenin adı ile yinelenen sayac arasındaki ayırıcı, varsayılan değer "_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin, "Box" adlı iki düğüm vardır, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırma kullanılarak "Box_2" adını alır. |
+| setDuplicatedNameSeparator(value) | Nesnenin adı ile çoğaltılmış sayıcı arasındaki ayırıcı, varsayılan değer "_". Sahne aynı adı kullanan nesneler içerdiğinde, Aspose.3D 3DS dışa aktarıcı nesne için farklı bir ad oluşturur. Örneğin, "Box" adlı iki düğüm vardır, ilk düğümün adı "Box" olur ve ikinci düğüm varsayılan yapılandırma kullanılarak "Box_2" adını alır. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getDuplicatedNameCounterBase() | Yinelenen adlar için yeni ad oluştururken kullanılan sayaç, varsayılan değer 2. |
+| getDuplicatedNameCounterBase() | Çoğaltılmış adlar için yeni ad oluştururken kullanılan sayıcı, varsayılan değer 2. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setDuplicatedNameCounterBase(value) | Yinelenen adlar için yeni ad oluştururken kullanılan sayaç, varsayılan değer 2. |
+| setDuplicatedNameCounterBase(value) | Çoğaltılmış adlar için yeni ad oluştururken kullanılan sayıcı, varsayılan değer 2. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getDuplicatedNameCounterFormat() | Yinelenen sayacın biçimi, varsayılan değer boş dizedir. |
+| getDuplicatedNameCounterFormat() | Çoğaltılmış sayıcının biçimi, varsayılan değer boş dizedir. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setDuplicatedNameCounterFormat(value) | Yinelenen sayacın biçimi, varsayılan değer boş dizedir. |
+| setDuplicatedNameCounterFormat(value) | Çoğaltılmış sayıcının biçimi, varsayılan değer boş dizedir. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getGammaCorrectedColor() | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi kullanacak, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır. |
+| getGammaCorrectedColor() | Bir 3ds dosyası aynı öznitelik için özgün renk ve gama düzeltmeli renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltmeli rengi kullanır, aksi takdirde Aspose.3D özgün rengi kullanmaya çalışır. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setGammaCorrectedColor(value) | Bir 3ds dosyası aynı öznitelik için orijinal renk ve gama düzeltilmiş renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltilmiş rengi kullanacak, aksi takdirde Aspose.3D orijinal rengi kullanmaya çalışacaktır. |
+| setGammaCorrectedColor(value) | Bir 3ds dosyası aynı öznitelik için özgün renk ve gama düzeltmeli renk içerebilir, bunu true olarak ayarlamak mümkünse gama düzeltmeli rengi kullanır, aksi takdirde Aspose.3D özgün rengi kullanmaya çalışır. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipCoordinateSystem() | İçe/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
+| getFlipCoordinateSystem() | İçe/dışa aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipCoordinateSystem(value) | İçe/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
+| setFlipCoordinateSystem(value) | İçe/dışa aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getHighPreciseColor() | Eğer bu true ise, oluşturulan 3ds dosyası yüksek hassasiyetli renk kullanacaktır, bu da kırmızı/yeşil/mavi kanallarının 32 bit float olduğu anlamına gelir. Aksi takdirde oluşturulan dosya 24 bit renk kullanır, her kanal 8 bit bayttır. Varsayılan değer false'tur, çünkü tüm uygulamalar yüksek hassasiyetli rengi desteklemez. |
+| getHighPreciseColor() | Bu true ise, oluşturulan 3ds dosyası yüksek hassasiyetli renk kullanır, yani kırmızı/yeşil/mavi kanallarının her biri 32bit float olur. Aksi takdirde oluşturulan dosya 24bit renk kullanır, her kanal 8bit byte olur. Varsayılan değer false'tur, çünkü tüm uygulamalar yüksek hassasiyetli rengi desteklemez. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setHighPreciseColor(value) | Eğer bu true ise, oluşturulan 3ds dosyası yüksek hassasiyetli renk kullanacaktır, bu da kırmızı/yeşil/mavi kanallarının 32 bit float olduğu anlamına gelir. Aksi takdirde oluşturulan dosya 24 bit renk kullanır, her kanal 8 bit bayttır. Varsayılan değer false'tur, çünkü tüm uygulamalar yüksek hassasiyetli rengi desteklemez. |
+| setHighPreciseColor(value) | Bu true ise, oluşturulan 3ds dosyası yüksek hassasiyetli renk kullanır, yani kırmızı/yeşil/mavi kanallarının her biri 32bit float olur. Aksi takdirde oluşturulan dosya 24bit renk kullanır, her kanal 8bit byte olur. Varsayılan değer false'tur, çünkü tüm uygulamalar yüksek hassasiyetli rengi desteklemez. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -368,7 +368,7 @@ url: /tr/nodejs-java/aspose.threed/discreet3dssaveoptions/
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

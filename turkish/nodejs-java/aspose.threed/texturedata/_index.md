@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/texturedata/
 ---
 ## TextureData class
 
-Bu sınıf, bir dokunun ham verisini ve format tanımını içerir.
+Bu sınıf, bir dokunun ham verilerini ve format tanımını içerir.
 
 
 ## Yöntemler
@@ -23,10 +23,10 @@ Bu sınıf, bir dokunun ham verisini ve format tanımını içerir.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| widt | Number | null |
-| heigh | Number | null |
-| strid | Number | null |
-| bytesPerPixe | Number | null |
+| widt | Sayı | null |
+| heigh | Sayı | null |
+| strid | Sayı | null |
+| bytesPerPixe | Sayı | null |
 | pixelFormat | PixelFormat | PixelFormat |
 | dat | byte[] | null |
 
@@ -47,8 +47,8 @@ Bu sınıf, bir dokunun ham verisini ve format tanımını içerir.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| widt | Number | null |
-| heigh | Number | null |
+| widt | Sayı | null |
+| heigh | Sayı | null |
 | pixelFormat | PixelFormat | PixelFormat |
 
  **Result:**
@@ -75,7 +75,7 @@ Bu sınıf, bir dokunun ham verisini ve format tanımını içerir.
 
 | Ad | Açıklama |
 | --- | --- |
-| getData() | Piksel verisinin ham baytları |
+| getData() | Piksel verilerinin ham baytları |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Bu sınıf, bir dokunun ham verisini ve format tanımını içerir.
 
 | Ad | Açıklama |
 | --- | --- |
-| getPixelFormat() | Pikselin formatı Özelliğin değeri PixelFormat tamsayı sabitidir. |
+| getPixelFormat() | Pikselin formatı Özelliğin değeri PixelFormat tam sayı sabitidir. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Bu sınıf, bir dokunun ham verisini ve format tanımını içerir.
 
 | Ad | Açıklama |
 | --- | --- |
-| fromFile(fileName) | Dosyadan bir doku yükle |
+| fromFile(fileName) | Bir dosyadan doku yükle |
 
  **Parameters:**
 
@@ -178,7 +178,7 @@ TextureData
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| fileName | String | Görüntünün kaydedileceği dosya adı. |
+| fileName | String | Görüntünün kaydedileceği dosyanın adı. |
 
  **Result:**
 TextureData
@@ -197,7 +197,7 @@ TextureData
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| fileName | String | Görüntünün kaydedileceği dosya adı. |
+| fileName | String | Görüntünün kaydedileceği dosyanın adı. |
 | format | String | Çıktı dosyasının görüntü formatı. |
 
  **Result:**
@@ -211,7 +211,7 @@ TextureData
 
 | Ad | Açıklama |
 | --- | --- |
-| mapPixels(mapMode) | Okuma/yazma için tüm pikselleri eşle |
+| mapPixels(mapMode) | Tüm pikselleri okuma/yazma için eşle |
 
  **Parameters:**
 
@@ -230,7 +230,7 @@ PixelMapping
 
 | Ad | Açıklama |
 | --- | --- |
-| mapPixels(mapMode, format) | Verilen piksel formatında okuma/yazma için tüm pikselleri eşle |
+| mapPixels(mapMode, format) | Verilen piksel formatında tüm pikselleri okuma/yazma için eşle |
 
  **Parameters:**
 
@@ -250,7 +250,7 @@ PixelMapping
 
 | Ad | Açıklama |
 | --- | --- |
-| mapPixels(rect, mapMode, format) | Verilen piksel formatında okuma/yazma için rect tarafından adreslenen pikselleri eşle |
+| mapPixels(rect, mapMode, format) | Verilen piksel formatında, rect tarafından adreslenen pikselleri okuma/yazma için eşle |
 
  **Parameters:**
 

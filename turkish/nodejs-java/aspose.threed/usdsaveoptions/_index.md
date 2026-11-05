@@ -43,7 +43,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getPrimitiveToMesh() | İhracat sırasında ilkel varlıkları mesh'e dönüştürür. Veya ilkel nesneleri doğrudan çıktı dosyasına kodlar (Dish, Torus gibi resmi olmayan ilkel varlıklar için Aspose'un uzantı tanımını kullanır) Varsayılan değer true'tur. |
+| getPrimitiveToMesh() | Dışa aktarım sırasında ilkel varlıkları mesh'e dönüştür. Ya da ilkel nesneleri doğrudan çıktı dosyasına kodla (Dish, Torus gibi resmi olmayan ilkel varlıklar için Aspose'un uzantı tanımını kullanır). Varsayılan değer true'tir. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setPrimitiveToMesh(value) | İhracat sırasında ilkel varlıkları mesh'e dönüştürür. Veya ilkel nesneleri doğrudan çıktı dosyasına kodlar (Dish, Torus gibi resmi olmayan ilkel varlıklar için Aspose'un uzantı tanımını kullanır) Varsayılan değer true'tur. |
+| setPrimitiveToMesh(value) | Dışa aktarım sırasında ilkel varlıkları mesh'e dönüştür. Ya da ilkel nesneleri doğrudan çıktı dosyasına kodla (Dish, Torus gibi resmi olmayan ilkel varlıklar için Aspose'un uzantı tanımını kullanır). Varsayılan değer true'tir. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportMetaData() | Düğümün özelliklerini USD'nin customData alanı aracılığıyla dışa aktar. |
+| getExportMetaData() | Düğümün özelliklerini USD'nin customData alanı üzerinden dışa aktar. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportMetaData(value) | Düğümün özelliklerini USD'nin customData alanı aracılığıyla dışa aktar. |
+| setExportMetaData(value) | Düğümün özelliklerini USD'nin customData alanı üzerinden dışa aktar. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getMaterialConverter() | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, USD dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürür. Varsayılan değer null'dur. |
+| getMaterialConverter() | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, USD dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürür. Varsayılan değer null'dır. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setMaterialConverter(value) | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, USD dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürür. Varsayılan değer null'dur. |
+| setMaterialConverter(value) | Geometrinin malzemesini PBR malzemesine dönüştürmek için özel dönüştürücü. Eğer atanmazsa, USD dışa aktarıcı standart malzemeyi otomatik olarak PBR malzemesine dönüştürür. Varsayılan değer null'dır. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -186,7 +186,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ USD/USDZ formatları için kaydetme seçenekleri.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

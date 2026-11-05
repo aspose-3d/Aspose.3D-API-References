@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/textureslot/
 ---
 ## TextureSlot class
 
-Material içinde Texture yuvası, material örneği üzerinden enumerate edilebilir.  @hideconstructor
+Material içinde doku yuvası, materyal örneği üzerinden enumerate edilebilir.  @hideconstructor
 
 
 ## Yöntemler

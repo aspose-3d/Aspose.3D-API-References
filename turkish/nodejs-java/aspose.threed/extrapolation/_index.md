@@ -17,7 +17,7 @@ Ekstrapolasyon, örneklenen değerin ilk ve son anahtar karelerle tanımlanan ar
 
 | Ad | Açıklama |
 | --- | --- |
-| getType() | Ekstrapolasyonun örnekleme desenini alır ve ayarlar. Özelliğin değeri ExtrapolationType tamsayı sabitidir. Tür. |
+| getType() | Ekstrapolasyonun örnekleme desenini alır ve ayarlar. Özelliğin değeri ExtrapolationType tam sayı sabitidir. Tür. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Ekstrapolasyon, örneklenen değerin ilk ve son anahtar karelerle tanımlanan ar
 
 | Ad | Açıklama |
 | --- | --- |
-| setType(value) | Ekstrapolasyonun örnekleme desenini alır ve ayarlar. Özelliğin değeri ExtrapolationType tamsayı sabitidir. Tür. |
+| setType(value) | Ekstrapolasyonun örnekleme desenini alır ve ayarlar. Özelliğin değeri ExtrapolationType tam sayı sabitidir. Tür. |
 
  **Result:**
 

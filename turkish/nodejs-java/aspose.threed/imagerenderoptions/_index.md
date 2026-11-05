@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/imagerenderoptions/
 ---
 ## ImageRenderOptions class
 
-Scene.render(com.aspose.threed.Camera, java.lang.String, com.aspose.threed.Vector2, java.lang.String, com.aspose.threed.ImageRenderOptions) ve Scene.render(com.aspose.threed.Camera, com.aspose.threed.TextureData, com.aspose.threed.ImageRenderOptions) için seçenekler
+Scene.render(com.aspose.threed.Camera, java.lang.String, com.aspose.threed.Vector2, java.lang.String, com.aspose.threed.ImageRenderOptions) ve  Scene.render(com.aspose.threed.Camera, com.aspose.threed.TextureData, com.aspose.threed.ImageRenderOptions) için seçenekler
 
 
 ## Yöntemler
@@ -56,7 +56,7 @@ Scene.render(com.aspose.threed.Camera, java.lang.String, com.aspose.threed.Vecto
 
 | Ad | Açıklama |
 | --- | --- |
-| getAssetDirectories() | Harici varlıkları (örneğin dokuları) depolayan dizinler |
+| getAssetDirectories() | Harici varlıkları (örneğin dokular) depolayan dizinler |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Scene.render(com.aspose.threed.Camera, java.lang.String, com.aspose.threed.Vecto
 
 | Ad | Açıklama |
 | --- | --- |
-| getEnableShadows() | Gölge render edilip edilmeyeceği alınır veya ayarlanır. |
+| getEnableShadows() | Gölge render edilip edilmeyeceğini alır veya ayarlar. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Scene.render(com.aspose.threed.Camera, java.lang.String, com.aspose.threed.Vecto
 
 | Ad | Açıklama |
 | --- | --- |
-| setEnableShadows(value) | Gölge render edilip edilmeyeceği alınır veya ayarlanır. |
+| setEnableShadows(value) | Gölge render edilip edilmeyeceğini alır veya ayarlar. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Scene.render(com.aspose.threed.Camera, java.lang.String, com.aspose.threed.Vecto
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -153,7 +153,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -178,7 +178,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -197,7 +197,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -211,7 +211,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -220,7 +220,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

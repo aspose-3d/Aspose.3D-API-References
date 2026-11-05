@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/spirvsource/
 ---
 ## SPIRVSource class
 
-SPIR-V formatındaki derlenmiş shader.
+SPIR-V formatındaki derlenmiş gölgelendirici.
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ SPIR-V formatındaki derlenmiş shader.
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | SPIR-V tabanlı gölgelendirici kaynaklarının yapıcı yöntemi. |
+| constructor() | SPIR-V tabanlı gölgelendirici kaynaklarının yapıcısı. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ SPIR-V formatındaki derlenmiş shader.
 
 | Ad | Açıklama |
 | --- | --- |
-| getVertexShader() | Vertex gölgelendiricisinin kaynak kodunu alır veya ayarlar |
+| getVertexShader() | Vertex shader'ın kaynak kodunu alır veya ayarlar |
 
  **Result:**
 
@@ -121,7 +121,7 @@ SPIR-V formatındaki derlenmiş shader.
 
 | Ad | Açıklama |
 | --- | --- |
-| setVertexShader(value) | Vertex gölgelendiricisinin kaynak kodunu alır veya ayarlar |
+| setVertexShader(value) | Vertex shader'ın kaynak kodunu alır veya ayarlar |
 
  **Result:**
 
@@ -134,7 +134,7 @@ SPIR-V formatındaki derlenmiş shader.
 
 | Ad | Açıklama |
 | --- | --- |
-| getFragmentShader() | Fragment gölgelendiricisinin kaynak kodunu alır veya ayarlar. |
+| getFragmentShader() | Fragment shader'ın kaynak kodunu alır veya ayarlar. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ SPIR-V formatındaki derlenmiş shader.
 
 | Ad | Açıklama |
 | --- | --- |
-| setFragmentShader(value) | Fragment gölgelendiricisinin kaynak kodunu alır veya ayarlar. |
+| setFragmentShader(value) | Fragment shader'ın kaynak kodunu alır veya ayarlar. |
 
  **Result:**
 

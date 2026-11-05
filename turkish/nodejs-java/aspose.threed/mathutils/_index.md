@@ -23,12 +23,12 @@ Kullanışlı matematiksel yardımcı programların bir seti.  @hideconstructor
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| val | Number | Sınırlanacak değer. |
-| min | Number | Minimum değer. |
-| max | Number | Maksimum değer. |
+| val | Sayı | Sınırlanacak değer. |
+| min | Sayı | Minimum değer. |
+| max | Sayı | Maksimum değer. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -82,10 +82,10 @@ Vector3
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| radian | Number | Radyan değeri. |
+| radian | Sayı | Radyan değeri. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -101,10 +101,10 @@ Number
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| radian | Number | Radyan değeri. |
+| radian | Sayı | Radyan değeri. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -120,9 +120,9 @@ Number
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| x | Number | Radyan değerindeki x bileşeni. |
-| y | Number | Radyan değerindeki y bileşeni. |
-| z | Number | Radyan değerindeki z bileşeni. |
+| x | Sayı | Radyan değerindeki x bileşeni. |
+| y | Sayı | Radyan değerindeki y bileşeni. |
+| z | Sayı | Radyan değerindeki z bileşeni. |
 
  **Result:**
 Vector3
@@ -141,10 +141,10 @@ Vector3
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| degree | Number | Derece değeri. |
+| degree | Sayı | Derece değeri. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -160,10 +160,10 @@ Number
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| degree | Number | Derece değeri. |
+| degree | Sayı | Derece değeri. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -173,15 +173,15 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| toRadian(x, y, z) | Bir vektörü dereceden radyana dönüştür |
+| toRadian(x, y, z) | Bir vektörü dereceden radyana dönüştür. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| x | Number | Derece değerindeki x bileşeni. |
-| y | Number | Derece değerindeki y bileşeni. |
-| z | Number | Derece değerindeki z bileşeni. |
+| x | Sayı | Derece değerindeki x bileşeni. |
+| y | Sayı | Derece değerindeki y bileşeni. |
+| z | Sayı | Derece değerindeki z bileşeni. |
 
  **Result:**
 Vector3

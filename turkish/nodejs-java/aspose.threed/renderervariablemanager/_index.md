@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/renderervariablemanager/
 ---
 ## RendererVariableManager class
 
-Bu sınıf renderleme sırasında kullanılan değişkenleri yönetir  @hideconstructor
+Bu sınıf, renderleme sırasında kullanılan değişkenleri yönetir  @hideconstructor
 
 
 ## Yöntemler
@@ -43,7 +43,7 @@ Bu sınıf renderleme sırasında kullanılan değişkenleri yönetir  @hidecons
 
 | Ad | Açıklama |
 | --- | --- |
-| getShadowCaster() | Dünya koordinat sisteminde gölge atan nesnenin konumu |
+| getShadowCaster() | Dünya koordinat sisteminde gölge atanın konumu |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Bu sınıf renderleme sırasında kullanılan değişkenleri yönetir  @hidecons
 
 | Ad | Açıklama |
 | --- | --- |
-| setShadowCaster(value) | Dünya koordinat sisteminde gölge atan nesnenin konumu |
+| setShadowCaster(value) | Dünya koordinat sisteminde gölge atanın konumu |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Bu sınıf renderleme sırasında kullanılan değişkenleri yönetir  @hidecons
 
 | Ad | Açıklama |
 | --- | --- |
-| getShadowmap() | Gölge haritalaması için kullanılan derinlik dokusu |
+| getShadowmap() | Gölge haritalama için kullanılan derinlik dokusu |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Bu sınıf renderleme sırasında kullanılan değişkenleri yönetir  @hidecons
 
 | Ad | Açıklama |
 | --- | --- |
-| setShadowmap(value) | Gölge haritalaması için kullanılan derinlik dokusu |
+| setShadowmap(value) | Gölge haritalama için kullanılan derinlik dokusu |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Bu sınıf renderleme sırasında kullanılan değişkenleri yönetir  @hidecons
 
 | Ad | Açıklama |
 | --- | --- |
-| getDepthBias() | Gölge haritalaması için derinlik yanlılığı, varsayılan değer 0.001 |
+| getDepthBias() | Gölge haritalama için derinlik yanlılığı, varsayılan değer 0.001'dir |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Bu sınıf renderleme sırasında kullanılan değişkenleri yönetir  @hidecons
 
 | Ad | Açıklama |
 | --- | --- |
-| setDepthBias(value) | Gölge haritalaması için derinlik yanlılığı, varsayılan değer 0.001 |
+| setDepthBias(value) | Gölge haritalama için derinlik yanlılığı, varsayılan değer 0.001'dir |
 
  **Result:**
 

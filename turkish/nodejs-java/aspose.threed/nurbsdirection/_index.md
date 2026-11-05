@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/nurbsdirection/
 ---
 ## NurbsDirection class
 
-3D bir NurbsSurface'in iki yönü vardır, NurbsSurface.U ve NurbsSurface.V; NurbsDirection her yön için verileri tanımlar. Bir yön aslında bir NURBS eğrisidir, yani Order'ı, bir KnotVectors ve ağırlıklı kontrol noktaları kümesi (NurbsSurface içinde tanımlıdır) ile de tanımlanır.
+3D NurbsSurface iki yönü vardır, NurbsSurface.U ve NurbsSurface.V; NurbsDirection her yön için verileri tanımlar.  Bir yön aslında bir NURBS eğrisidir, bu da onun Siparişi, bir KnotVectors ve ağırlıklı kontrol noktaları (NurbsSurface içinde tanımlı) ile tanımlandığı anlamına gelir.
 
 
 ## Yöntemler
@@ -30,7 +30,7 @@ url: /tr/nodejs-java/aspose.threed/nurbsdirection/
 
 | Ad | Açıklama |
 | --- | --- |
-| getKnotVectors() | Knot vektörünü alır, bu kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerlerinin bir dizisidir. |
+| getKnotVectors() | Knot vektörünü alır, bu, kontrol noktalarının NURBS eğrisini nerede ve nasıl etkilediğini belirleyen parametre değerlerinin bir dizisidir. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ url: /tr/nodejs-java/aspose.threed/nurbsdirection/
 
 | Ad | Açıklama |
 | --- | --- |
-| getDivisions() | Mevcut yönde bitişik kontrol noktaları arasındaki bölünme sayısını alır veya ayarlar. Adım. |
+| getDivisions() | Mevcut yönde bitişik kontrol noktaları arasındaki bölme sayısını alır veya ayarlar. Adım. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ url: /tr/nodejs-java/aspose.threed/nurbsdirection/
 
 | Ad | Açıklama |
 | --- | --- |
-| setDivisions(value) | Mevcut yönde bitişik kontrol noktaları arasındaki bölünme sayısını alır veya ayarlar. Adım. |
+| setDivisions(value) | Mevcut yönde bitişik kontrol noktaları arasındaki bölme sayısını alır veya ayarlar. Adım. |
 
  **Result:**
 

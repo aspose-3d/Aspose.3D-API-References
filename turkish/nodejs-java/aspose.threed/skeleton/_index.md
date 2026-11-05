@@ -1,5 +1,5 @@
 ---
-title: "İskelet"
+title: "Skeleton"
 second_title: "Aspose.3D for Node.js via Java API Referansı"
 description: 
 type: docs
@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/skeleton/
 ---
 ## Skeleton class
 
-Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dönüşümünü manipüle etmesine yardımcı olmak için ağırlıklı olarak kullanılır, genellikle CAD yazılımları dışında işe yaramaz. Skeleton hiyerarşisinin CAD yazılımında tek bir nesne gibi davranması için, üst Skeleton düğümünü Type'ı SkeletonType.SKELETON olarak ayarlayarak kök olarak işaretlemek ve tüm alt düğümleri SkeletonType.BONE olarak ayarlamak gerekir.
+İskelet, esas olarak CAD yazılımları tarafından tasarımcının iskelet yapısının dönüşümünü manipüle etmesine yardımcı olmak için kullanılır; genellikle CAD dışındaki ortamlarda işe yaramaz. İskelet hiyerarşisinin CAD yazılımında tek bir nesne gibi davranması için, üst İskelet düğümünü Type'ı SkeletonType.SKELETON olarak ayarlayarak kök olarak işaretlemek ve tüm alt düğümleri SkeletonType.BONE olarak ayarlamak gerekir.
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Skeleton sınıfının yeni bir örneğini başlatır. |
+| constructor() | Skeleton sınıfının yeni bir örneğini başlatır |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(name) | Skeleton sınıfının yeni bir örneğini başlatır. |
+| constructor_overload(name) | Skeleton sınıfının yeni bir örneğini başlatır |
 
  **Parameters:**
 
@@ -49,7 +49,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| getSize() | CAD yazılımında kemiğin boyutunu temsil etmek için kullanılan uzuv düğüm boyutunu alır veya ayarlar. |
+| getSize() | CAD yazılımında kemiğin boyutunu temsil etmek için kullanılan uzuv düğüm boyutunu alır veya ayarlar |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| setSize(value) | CAD yazılımında kemiğin boyutunu temsil etmek için kullanılan uzuv düğüm boyutunu alır veya ayarlar. |
+| setSize(value) | CAD yazılımında kemiğin boyutunu temsil etmek için kullanılan uzuv düğüm boyutunu alır veya ayarlar |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| getType() | İskeletin tipini alır veya ayarlar. Özelliğin değeri SkeletonType tam sayı sabitidir. İskeletin tipi. |
+| getType() | İskeletin tipini alır veya ayarlar. Özelliğin değeri SkeletonType tamsayı sabitidir. İskeletin tipi. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| setType(value) | İskeletin tipini alır veya ayarlar. Özelliğin değeri SkeletonType tam sayı sabitidir. İskeletin tipi. |
+| setType(value) | İskeletin tipini alır veya ayarlar. Özelliğin değeri SkeletonType tamsayı sabitidir. İskeletin tipi. |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Skeleton, CAD yazılımı tarafından tasarımcının iskelet yapısının dön�
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -250,7 +250,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -263,7 +263,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -288,7 +288,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -307,7 +307,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -321,7 +321,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -330,7 +330,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

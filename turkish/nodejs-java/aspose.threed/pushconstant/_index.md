@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/pushconstant/
 ---
 ## PushConstant class
 
-Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardımcı program.
+Push sabiti aracılığıyla gölgeliyiciye veri sağlamak için bir yardımcı program.
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardı
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | PushConstant'ın yapıcısı |
+| constructor() | PushConstant yapıcısı |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardı
 
 | Ad | Açıklama |
 | --- | --- |
-| write(mat) | Matrisi sabite yaz |
+| write(mat) | Matrisi sabite yaz. |
 
  **Parameters:**
 
@@ -49,13 +49,13 @@ Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardı
 
 | Ad | Açıklama |
 | --- | --- |
-| write(n) | Sabit'e bir int değeri yaz |
+| write(n) | Sabit'e bir int değeri yaz. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
+|  | Sayı | null |
 
  **Result:**
 
@@ -68,13 +68,13 @@ Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardı
 
 | Ad | Açıklama |
 | --- | --- |
-| write(f) | Sabit'e bir float değeri yaz |
+| write(f) | Sabit'e bir float değeri yaz. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
+|  | Sayı | null |
 
  **Result:**
 
@@ -87,7 +87,7 @@ Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardı
 
 | Ad | Açıklama |
 | --- | --- |
-| write(vec) | Sabit'e 4 bileşenli bir vektör yaz |
+| write(vec) | Sabit'e 4 bileşenli bir vektör yaz. |
 
  **Parameters:**
 
@@ -106,7 +106,7 @@ Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardı
 
 | Ad | Açıklama |
 | --- | --- |
-| write(vec) | Sabit'e 3 bileşenli bir vektör yaz |
+| write(vec) | Sabit'e 3 bileşenli bir vektör yaz. |
 
  **Parameters:**
 
@@ -125,16 +125,16 @@ Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardı
 
 | Ad | Açıklama |
 | --- | --- |
-| write(x, y, z, w) | Sabit'e 4 bileşenli bir vektör yaz |
+| write(x, y, z, w) | Sabit'e 4 bileşenli bir vektör yaz. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
-|  | Number | null |
+|  | Sayı | null |
+|  | Sayı | null |
+|  | Sayı | null |
+|  | Sayı | null |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Push constant aracılığıyla gölgelendiriciye veri sağlamak için bir yardı
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| stage | Number | ShaderStage |
+| stage | Sayı | ShaderStage |
 | commandLis | ICommandList | null |
 
  **Result:**

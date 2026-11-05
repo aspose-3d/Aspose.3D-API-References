@@ -69,7 +69,7 @@ Google Draco formatı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileFormatType() | Dosya formatı tipini alır |
+| getFileFormatType() | Dosya formatı tipini alır. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Google Draco formatı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| decode(fileName) | Belirtilen dosya adından nokta bulutunu veya örgüyü çözümleyin |
+| decode(fileName) | Belirtilen dosya adından nokta bulutu veya örgüyü çözümleyin |
 
  **Parameters:**
 
@@ -91,7 +91,7 @@ Google Draco formatı  @hideconstructor
 | fileName | String | Dosya adı drc dosyasını içerir |
 
  **Result:**
-Geometri
+Geometry
 
 
 ---
@@ -101,7 +101,7 @@ Geometri
 
 | Ad | Açıklama |
 | --- | --- |
-| decode(data) | Bellek verisinden nokta bulutunu veya örgüyü çözümleyin |
+| decode(data) | Bellek verisinden nokta bulutu veya örgüyü çözümleyin |
 
  **Parameters:**
 
@@ -110,7 +110,7 @@ Geometri
 | data | byte[] | Ham drc baytları |
 
  **Result:**
-Geometri
+Geometry
 
 
 ---
@@ -128,10 +128,10 @@ Geometri
 | --- | --- | --- |
 | varlık | Varlık | Kodlanacak varlık |
 | fileName | String | Yazılacak dosya adı |
-| seçenekler | DracoSaveOptions | Nokta bulutunu kodlamak için ek seçenekler |
+| seçenekler | DracoSaveOptions | Nokta bulutunu kodlamak için ekstra seçenekler |
 
  **Result:**
-Geometri
+Geometry
 
 
 ---
@@ -148,7 +148,7 @@ Geometri
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | varlık | Varlık | Kodlanacak varlık |
-| seçenekler | DracoSaveOptions | Nokta bulutunu kodlamak için ek seçenekler |
+| seçenekler | DracoSaveOptions | Nokta bulutunu kodlamak için ekstra seçenekler |
 
  **Result:**
 byte[]
@@ -187,7 +187,7 @@ SaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Biçimleri dizeye dönüştür |
+| toString() | Formatları dizeye dönüştür. |
 
  **Result:**
 String

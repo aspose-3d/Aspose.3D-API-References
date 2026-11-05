@@ -11,26 +11,26 @@ url: /tr/nodejs-java/aspose.threed/matrix4/
 4x4 matris uygulaması.
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| m00 | Bu m00. |
-| m01 | Bu m01. |
-| m02 | Bu m02. |
+| m00 | m00. |
+| m01 | m01. |
+| m02 | m02. |
 | m03 | Bu m03. |
 | m10 | Bu m10. |
 | m11 | Bu m11. |
-| m12 | m12. |
-| m13 | m13. |
-| m20 | m20. |
-| m21 | m21. |
-| m22 | m22. |
-| m23 | m23. |
-| m30 | m30. |
-| m31 | m31. |
-| m32 | m32. |
-| m33 | m33. |
+| m12 | Bu m12. |
+| m13 | Bu m13. |
+| m20 | Bu m20. |
+| m21 | Bu m21. |
+| m22 | Bu m22. |
+| m23 | Bu m23. |
+| m30 | Bu m30. |
+| m31 | Bu m31. |
+| m32 | Bu m32. |
+| m33 | Bu m33. |
 
 ## Yöntemler
 
@@ -79,22 +79,22 @@ url: /tr/nodejs-java/aspose.threed/matrix4/
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| m00 | Number | M00. |
-| m01 | Number | M01. |
-| m02 | Number | M02. |
-| m03 | Number | M03. |
-| m10 | Number | M10. |
-| m11 | Number | M11. |
-| m12 | Number | M12. |
-| m13 | Number | M13. |
-| m20 | Number | M20. |
-| m21 | Number | M21. |
-| m22 | Number | M22. |
-| m23 | Number | M23. |
-| m30 | Number | M30. |
-| m31 | Number | M31. |
-| m32 | Number | M32. |
-| m33 | Number | M33. |
+| m00 | Sayı | M00. |
+| m01 | Sayı | M01. |
+| m02 | Sayı | M02. |
+| m03 | Sayı | M03. |
+| m10 | Sayı | M10. |
+| m11 | Sayı | M11. |
+| m12 | Sayı | M12. |
+| m13 | Sayı | M13. |
+| m20 | Sayı | M20. |
+| m21 | Sayı | M21. |
+| m22 | Sayı | M22. |
+| m23 | Sayı | M23. |
+| m30 | Sayı | M30. |
+| m31 | Sayı | M31. |
+| m32 | Sayı | M32. |
+| m33 | Sayı | M33. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ url: /tr/nodejs-java/aspose.threed/matrix4/
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload3(m) | Bir FMatrix4 örneğinden Matrix4 oluşturur. |
+| constructor_overload3(m) | Bir FMatrix4 örneğinden Matrix4 oluştur |
 
  **Parameters:**
 
@@ -145,7 +145,7 @@ url: /tr/nodejs-java/aspose.threed/matrix4/
 
 | Ad | Açıklama |
 | --- | --- |
-| getIdentity() | Kimlik matrisini alır. Kimlik. |
+| getIdentity() | Birim matrisi alır. Birim. |
 
  **Result:**
 
@@ -158,7 +158,7 @@ url: /tr/nodejs-java/aspose.threed/matrix4/
 
 | Ad | Açıklama |
 | --- | --- |
-| getDeterminant() | Matrisin determinantını alır. Determinant. |
+| getDeterminant() | Matriksin determinantını alır. Determinant. |
 
  **Result:**
 
@@ -203,7 +203,7 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| normalize() | Bu örneği normalleştirir. |
+| normalize() | Bu örneği normalize eder. |
 
  **Result:**
 Matrix4
@@ -229,14 +229,14 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| setTRS(translation, rotation, scale) | Matris'i çeviri/dönme/ölçek ile başlatır. |
+| setTRS(translation, rotation, scale) | Matrisi çeviri/dönüş/ölçek ile başlatır. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | çeviri | Vector3 | Çeviri. |
-| dönme | Vector3 | Dönme için Euler açıları, alanlar derecedir. |
+| dönüş | Vector3 | Dönüş için Euler açıları, alanlar derecedir. |
 | ölçek | Vector3 | Ölçek. |
 
  **Result:**
@@ -250,7 +250,7 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| toArray() | Matris'i diziye dönüştürür. |
+| toArray() | Matrisi diziye dönüştürür. |
 
  **Result:**
 Number[]
@@ -263,7 +263,7 @@ Number[]
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Mevcut Matrix4'ü temsil eden bir java.lang.String döndürür. |
+| toString() | Geçerli Matrix4'ü temsil eden bir java.lang.String döndürür. |
 
  **Result:**
 String
@@ -282,7 +282,7 @@ String
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| t | Vector3 | Çeviri ofseti |
+| t | Vector3 | Ofseti Çevir |
 
  **Result:**
 Matrix4
@@ -301,9 +301,9 @@ Matrix4
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| tx | Number | X-koordinat ofseti |
-| ty | Number | Y koordinat ofseti |
-| tz | Number | Z koordinat ofseti |
+| tx | Sayı | X-koordinat ofseti |
+| ty | Sayı | Y-koordinat ofseti |
+| tz | Sayı | Z-koordinat ofseti |
 
  **Result:**
 Matrix4
@@ -316,13 +316,13 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| scale(s) | x ekseni, y ekseni ve z ekseni boyunca ölçekleyen bir matris oluşturur. |
+| scale(s) | x ekseni, y ekseni ve z ekseni boyunca ölçeklendiren bir matris oluşturur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| s | Vector3 | Ölçekleme fabrikaları x eksenine, y eksenine ve z eksenine uygulanır |
+| s | Vector3 | Ölçekleme fabrikaları x eksenine, y eksenine ve z eksenine uygulanır. |
 
  **Result:**
 Matrix4
@@ -335,13 +335,13 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| scale(s) | x ekseni, y ekseni ve z ekseni boyunca ölçekleyen bir matris oluşturur. |
+| scale(s) | x ekseni, y ekseni ve z ekseni boyunca ölçeklendiren bir matris oluşturur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| s | Number | Ölçekleme fabrikaları tüm eksenlere uygulanır |
+| s | Sayı | Ölçekleme fabrikaları tüm eksenlere uygulanır. |
 
  **Result:**
 Matrix4
@@ -354,15 +354,15 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| scale(sx, sy, sz) | x ekseni, y ekseni ve z ekseni boyunca ölçekleyen bir matris oluşturur. |
+| scale(sx, sy, sz) | x ekseni, y ekseni ve z ekseni boyunca ölçeklendiren bir matris oluşturur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| sx | Number | Ölçekleme fabrikaları x eksenine uygulanır |
-| sy | Number | Ölçekleme fabrikaları y eksenine uygulanır |
-| sz | Number | Ölçekleme fabrikaları z eksenine uygulanır |
+| sx | Sayı | Ölçekleme fabrikaları x eksenine uygulanır. |
+| sy | Sayı | Ölçekleme fabrikaları y eksenine uygulanır. |
+| sz | Sayı | Ölçekleme fabrikaları z eksenine uygulanır. |
 
  **Result:**
 Matrix4
@@ -375,7 +375,7 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| rotateFromEuler(eul) | Euler açısına göre bir rotasyon matrisi oluştur |
+| rotateFromEuler(eul) | Euler açısına göre bir dönüşüm matrisi oluşturur. |
 
  **Parameters:**
 
@@ -394,15 +394,15 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| rotateFromEuler(rx, ry, rz) | Euler açısına göre bir rotasyon matrisi oluştur |
+| rotateFromEuler(rx, ry, rz) | Euler açısına göre bir dönüşüm matrisi oluşturur. |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| rx | Number | x ekseninde radyan cinsinden dönüş |
-| ry | Number | y ekseninde radyan cinsinden dönüş |
-| rz | Number | Z eksenindeki dönüş radyan cinsinden |
+| rx | Sayı | X ekseninde radian cinsinden dönüş |
+| ry | Sayı | Y ekseninde radian cinsinden dönüş |
+| rz | Sayı | Z ekseninde radian cinsinden dönüş |
 
  **Result:**
 Matrix4
@@ -415,14 +415,14 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| rotate(angle, axis) | Dönüş açısı ve eksenine göre bir dönüş matrisi oluştur |
+| rotate(angle, axis) | Dönüş açısı ve eksenine göre bir dönüşüm matrisi oluştur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| açı | Number | Radyan cinsinden döndürme açısı |
-| eksen | Vector3 | Dönüş ekseni |
+| angle | Sayı | Dönüş açısı radian cinsinden |
+| axis | Vector3 | Dönüş ekseni |
 
  **Result:**
 Matrix4
@@ -435,13 +435,13 @@ Matrix4
 
 | Ad | Açıklama |
 | --- | --- |
-| rotate(q) | Kuatörden bir dönüş matrisi oluştur |
+| rotate(q) | Bir quaternion'dan dönüşüm matrisi oluştur |
 
  **Parameters:**
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| q | Kuatör | Dönüş kuatörü |
+| q | Quaternion | Dönüş quaternion'ı |
 
  **Result:**
 Matrix4

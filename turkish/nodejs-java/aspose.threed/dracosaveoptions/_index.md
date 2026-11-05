@@ -186,7 +186,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getPointCloud() | Sahneyi nokta bulutu olarak dışa aktar, varsayılan değer false. |
+| getPointCloud() | Sahneyi nokta bulutu olarak dışa aktar, varsayılan değer false'tur. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setPointCloud(value) | Sahneyi nokta bulutu olarak dışa aktar, varsayılan değer false. |
+| setPointCloud(value) | Sahneyi nokta bulutu olarak dışa aktar, varsayılan değer false'tur. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Google draco dosyaları için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

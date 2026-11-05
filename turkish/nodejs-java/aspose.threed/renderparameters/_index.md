@@ -17,7 +17,7 @@ Render hedefinin parametrelerini tanımlayın
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(doubleBuffering, colorBits, depthBits, stencilBits) | PixelFormat sınıfının bir örneğini başlatın |
+| constructor(doubleBuffering, colorBits, depthBits, stencilBits) | PixelFormat örneğini başlat |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Render hedefinin parametrelerini tanımlayın
 
 | Ad | Açıklama |
 | --- | --- |
-| getDoubleBuffering() | Çift tamponun kullanılıp kullanılmadığını alır veya ayarlar. |
+| getDoubleBuffering() | Çift tamponun kullanılıp kullanılmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Render hedefinin parametrelerini tanımlayın
 
 | Ad | Açıklama |
 | --- | --- |
-| setDoubleBuffering(value) | Çift tamponun kullanılıp kullanılmadığını alır veya ayarlar. |
+| setDoubleBuffering(value) | Çift tamponun kullanılıp kullanılmayacağını alır veya ayarlar. |
 
  **Result:**
 

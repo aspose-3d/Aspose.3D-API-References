@@ -36,9 +36,9 @@ Kutu.
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| uzunluk | Number | Z ekseninde hizalanmış kutunun uzunluğu. |
-| genişlik | Number | X ekseninde hizalanmış kutunun genişliği. |
-| height | Number | Y ekseninde hizalanmış kutunun yüksekliği. |
+| uzunluk | Sayı | Z eksenine hizalanmış kutunun uzunluğu. |
+| width | Sayı | X eksenine hizalanmış kutunun genişliği. |
+| height | Sayı | Y eksenine hizalanmış kutunun yüksekliği. |
 
  **Result:**
 
@@ -58,12 +58,12 @@ Kutu.
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
 | name | String | Kutunun adı. |
-| uzunluk | Number | Z ekseninde hizalanmış kutunun uzunluğu. |
-| genişlik | Number | X ekseninde hizalanmış kutunun genişliği. |
-| height | Number | Y ekseninde hizalanmış kutunun yüksekliği. |
-| lengthSegments | Number | Uzunluk segmentleri. |
-| widthSegments | Number | Genişlik segmentleri. |
-| heightSegments | Number | Yükseklik segmentleri. |
+| uzunluk | Sayı | Z eksenine hizalanmış kutunun uzunluğu. |
+| width | Sayı | X eksenine hizalanmış kutunun genişliği. |
+| height | Sayı | Y eksenine hizalanmış kutunun yüksekliği. |
+| lengthSegments | Sayı | Uzunluk segmentleri. |
+| widthSegments | Sayı | Genişlik segmentleri. |
+| heightSegments | Sayı | Yükseklik segmentleri. |
 
  **Result:**
 
@@ -128,7 +128,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| getHeightSegments() | yükseklik segmentlerini alır veya ayarlar. |
+| getHeightSegments() | Yükseklik segmentlerini alır veya ayarlar. |
 
  **Result:**
 
@@ -141,7 +141,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| setHeightSegments(value) | yükseklik segmentlerini alır veya ayarlar. |
+| setHeightSegments(value) | Yükseklik segmentlerini alır veya ayarlar. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| getLength() | Z ekseninde hizalanmış kutunun uzunluğunu alır veya ayarlar. Z ekseninde hizalanmış uzunluk. |
+| getLength() | Kutunun z ekseninde hizalanmış uzunluğunu alır veya ayarlar. Z ekseninde hizalanmış uzunluk. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| setLength(value) | Z ekseninde hizalanmış kutunun uzunluğunu alır veya ayarlar. Z ekseninde hizalanmış uzunluk. |
+| setLength(value) | Kutunun z ekseninde hizalanmış uzunluğunu alır veya ayarlar. Z ekseninde hizalanmış uzunluk. |
 
  **Result:**
 
@@ -180,7 +180,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| getWidth() | Kutu genişliğini x ekseninde hizalanmış olarak alır veya ayarlar. x ekseninde hizalanmış genişlik. |
+| getWidth() | Kutunun x ekseninde hizalanmış genişliğini alır veya ayarlar. X ekseninde hizalanmış genişlik. |
 
  **Result:**
 
@@ -193,7 +193,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| setWidth(value) | Kutu genişliğini x ekseninde hizalanmış olarak alır veya ayarlar. x ekseninde hizalanmış genişlik. |
+| setWidth(value) | Kutunun x ekseninde hizalanmış genişliğini alır veya ayarlar. X ekseninde hizalanmış genişlik. |
 
  **Result:**
 
@@ -206,7 +206,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| getHeight() | Kutu yüksekliğini y ekseninde hizalanmış olarak alır veya ayarlar. y ekseninde hizalanmış yükseklik. |
+| getHeight() | Kutunun y ekseninde hizalanmış yüksekliğini alır veya ayarlar. Y ekseninde hizalanmış yükseklik. |
 
  **Result:**
 
@@ -219,7 +219,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| setHeight(value) | Kutu yüksekliğini y ekseninde hizalanmış olarak alır veya ayarlar. y ekseninde hizalanmış yükseklik. |
+| setHeight(value) | Kutunun y ekseninde hizalanmış yüksekliğini alır veya ayarlar. Y ekseninde hizalanmış yükseklik. |
 
  **Result:**
 
@@ -284,7 +284,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| getParentNodes() | Tüm üst düğümleri alır; bir varlık geometri örneklemesi için birden çok üst düğüme bağlanabilir. Düğümler. |
+| getParentNodes() | Tüm üst düğümleri alır, bir varlık geometri örneklemesi için birden fazla üst düğüme bağlanabilir. Düğümler. |
 
  **Result:**
 
@@ -297,7 +297,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| getExcluded() | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| getExcluded() | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -310,7 +310,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| setExcluded(value) | Bu varlığın dışa aktarım sırasında hariç tutulup tutulmayacağını alır veya ayarlar. |
+| setExcluded(value) | Bu varlığın dışa aktarım sırasında dışlanıp dışlanmayacağını alır veya ayarlar. |
 
  **Result:**
 
@@ -401,7 +401,7 @@ Kutu.
 
 | Ad | Açıklama |
 | --- | --- |
-| toMesh() | Mevcut nesneyi mesh'e dönüştür |
+| toMesh() | Geçerli nesneyi mesh'e dönüştür |
 
  **Result:**
 Mesh
@@ -427,7 +427,7 @@ Mesh
 
 | Ad | Açıklama |
 | --- | --- |
-| getEntityRendererKey() | Renderörde kaydedilen varlık renderlayıcısının anahtarını alır. |
+| getEntityRendererKey() | Renderleyicide kayıtlı varlık renderleyicisinin anahtarını alır. |
 
  **Result:**
 EntityRendererKey
@@ -446,7 +446,7 @@ EntityRendererKey
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | Property | Hangi özellik kaldırılacak |
+| özellik | Özellik | Hangi özelliği kaldırmak istiyorsunuz |
 
  **Result:**
 boolean
@@ -459,7 +459,7 @@ boolean
 
 | Ad | Açıklama |
 | --- | --- |
-| removeProperty(property) | Adı belirtilen özelliği kaldır. |
+| removeProperty(property) | Adına göre belirtilen özelliği kaldır |
 
  **Parameters:**
 
@@ -484,7 +484,7 @@ boolean
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 
  **Result:**
 Object
@@ -503,7 +503,7 @@ Object
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| property | String | Özellik adı |
+| özellik | String | Özellik adı |
 | değer | Object | Özelliğin değeri |
 
  **Result:**
@@ -517,7 +517,7 @@ Object
 
 | Ad | Açıklama |
 | --- | --- |
-| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir. |
+| findProperty(propertyName) | Özelliği bulur. Dinamik bir özellik (CreateDynamicProperty/SetProperty ile oluşturulan) veya yerel özellik (adıyla tanımlanan) olabilir |
 
  **Parameters:**
 
@@ -526,7 +526,7 @@ Object
 | propertyName | String | Özellik adı. |
 
  **Result:**
-Property
+Özellik
 
 
 ---

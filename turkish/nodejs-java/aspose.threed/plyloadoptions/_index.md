@@ -30,7 +30,7 @@ PLY dosyaları için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFlipCoordinateSystem() | İçe/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
+| getFlipCoordinateSystem() | İçe/dışa aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ PLY dosyaları için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFlipCoordinateSystem(value) | İçe/dışa aktarma sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
+| setFlipCoordinateSystem(value) | İçe/dışa aktarım sırasında kontrol noktalarının/normalin ters koordinat sistemini alır veya ayarlar. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ PLY dosyaları için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ PLY dosyaları için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ PLY dosyaları için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ PLY dosyaları için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ PLY dosyaları için yükleme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

@@ -17,7 +17,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor() | Tüm varsayılan ayarlarla Html5SaveOptions yapıcısı. |
+| constructor() | Html5SaveOptions sınıfının tüm varsayılan ayarlarla yapıcı metodu. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getShowGrid() | Sahnede bir ızgara gösterir. Varsayılan değer true. |
+| getShowGrid() | Sahnede bir ızgara gösterir. Varsayılan değer doğrudur. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setShowGrid(value) | Sahnede bir ızgara gösterir. Varsayılan değer true. |
+| setShowGrid(value) | Sahnede bir ızgara gösterir. Varsayılan değer doğrudur. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getShowUI() | Sahnede basit bir UI gösterir. Varsayılan değer true. |
+| getShowUI() | Sahnede basit bir kullanıcı arayüzü gösterir. Varsayılan değer doğrudur. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setShowUI(value) | Sahnede basit bir UI gösterir. Varsayılan değer true. |
+| setShowUI(value) | Sahnede basit bir kullanıcı arayüzü gösterir. Varsayılan değer doğrudur. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getOrientationBox() | Bir yönlendirme kutusu gösterir. Varsayılan değer true. |
+| getOrientationBox() | Bir yönlendirme kutusu gösterir. Varsayılan değer true'dur. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setOrientationBox(value) | Bir yönlendirme kutusu gösterir. Varsayılan değer true. |
+| setOrientationBox(value) | Bir yönlendirme kutusu gösterir. Varsayılan değer true'dur. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFarPlane() | Kameranın uzak düzlemini alır veya ayarlar, varsayılan değer 1000'dir. |
+| getFarPlane() | Kameranın uzak düzlemini alır veya ayarlar, varsayılan değer 1000'dır. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFarPlane(value) | Kameranın uzak düzlemini alır veya ayarlar, varsayılan değer 1000'dir. |
+| setFarPlane(value) | Kameranın uzak düzlemini alır veya ayarlar, varsayılan değer 1000'dır. |
 
  **Result:**
 
@@ -212,7 +212,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getLookAt() | Varsayılan bakış konumunu alır veya ayarlar, varsayılan değer (0, 0, 0)'dır. |
+| getLookAt() | Varsayılan bakış konumunu alır veya ayarlar, varsayılan değer (0, 0, 0)'dir. |
 
  **Result:**
 
@@ -225,7 +225,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setLookAt(value) | Varsayılan bakış konumunu alır veya ayarlar, varsayılan değer (0, 0, 0)'dır. |
+| setLookAt(value) | Varsayılan bakış konumunu alır veya ayarlar, varsayılan değer (0, 0, 0)'dir. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getCameraPosition() | Kameranın başlangıç konumunu alır veya ayarlar, varsayılan değer (10, 10, 10)'dır. |
+| getCameraPosition() | Kameranın başlangıç konumunu alır veya ayarlar, varsayılan değer (10, 10, 10)'dir. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setCameraPosition(value) | Kameranın başlangıç konumunu alır veya ayarlar, varsayılan değer (10, 10, 10)'dır. |
+| setCameraPosition(value) | Kameranın başlangıç konumunu alır veya ayarlar, varsayılan değer (10, 10, 10)'dir. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFieldOfView() | Görüş alanını alır veya ayarlar, varsayılan değer 45'dir, derece cinsinden ölçülür. |
+| getFieldOfView() | Görüş alanını alır veya ayarlar, varsayılan değer 45'tir, derece cinsinden ölçülür. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFieldOfView(value) | Görüş alanını alır veya ayarlar, varsayılan değer 45'dir, derece cinsinden ölçülür. |
+| setFieldOfView(value) | Görüş alanını alır veya ayarlar, varsayılan değer 45'tir, derece cinsinden ölçülür. |
 
  **Result:**
 
@@ -290,7 +290,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| getExportTextures() | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -303,7 +303,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı deneyin. |
+| setExportTextures(value) | Sahnede kullanılan dokuları çıktı dizinine kopyalamayı dene. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -381,7 +381,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -394,7 +394,7 @@ HTML5 için kaydetme seçenekleri
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/shaderexception/
 ---
 ## ShaderException class
 
-Shader ile ilgili istisnalar
+Gölgelendirici ile ilgili istisnalar
 
 
 ## Yöntemler
@@ -17,7 +17,7 @@ Shader ile ilgili istisnalar
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor(message) | ShaderException sınıfının yapıcısı |
+| constructor(message) | ShaderException yapıcısı |
 
  **Parameters:**
 

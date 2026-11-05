@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/ioconfig/
 ---
 ## IOConfig class
 
-Serileştirme/deserialize için IO yapılandırması.  Kullanıcı bağımlılık arama yolu gibi ayrıntılı yapılandırmaları burada belirtebilir  Ya da formatla ilgili yapılandırmaları burada belirtebilir  @hideconstructor
+Serileştirme/seriden çıkarma için IO yapılandırması.  Kullanıcı bağımlılık arama yolu gibi ayrıntılı yapılandırmaları burada belirtebilir  Ya da formatla ilgili yapılandırmalar  @hideconstructor
 
 
 ## Yöntemler
@@ -56,7 +56,7 @@ Serileştirme/deserialize için IO yapılandırması.  Kullanıcı bağımlılı
 
 | Ad | Açıklama |
 | --- | --- |
-| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağına karar vereceği anlamına gelir. |
+| getEncoding() | Metin tabanlı dosyalar için varsayılan kodlamayı alır veya ayarlar. Varsayılan değer null'dur, bu da içe aktarıcı/dışa aktarıcının hangi kodlamayı kullanacağını belirleyeceği anlamına gelir. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Serileştirme/deserialize için IO yapılandırması.  Kullanıcı bağımlılı
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| getFileSystem() | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Serileştirme/deserialize için IO yapılandırması.  Kullanıcı bağımlılı
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkları nasıl yöneteceğini ele almasına izin verir. |
+| setFileSystem(value) | Kullanıcının yükleme/kaydetme sırasında dış bağımlılıkların nasıl yönetileceğini ele almasına izin verir. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Serileştirme/deserialize için IO yapılandırması.  Kullanıcı bağımlılı
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileName() | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| getFileName() | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Serileştirme/deserialize için IO yapılandırması.  Kullanıcı bağımlılı
 
 | Ad | Açıklama |
 | --- | --- |
-| setFileName(value) | Dışa aktarma/içe aktarma sahnesinin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin malzemesi gibi dış varlıkları serileştirirken faydalıdır. |
+| setFileName(value) | Dışa/İçe aktarılan sahnenin dosya adı. Bu isteğe bağlıdır, ancak OBJ'nin materyali gibi dış varlıkları serileştirirken faydalıdır. |
 
  **Result:**
 

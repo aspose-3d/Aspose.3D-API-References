@@ -8,7 +8,7 @@ url: /tr/nodejs-java/aspose.threed/vertexdeclaration/
 ---
 ## VertexDeclaration class
 
-Özel tanımlı bir vertex'in yapısının bildirimi
+Özel tanımlı bir köşenin yapısının bildirimi
 
 
 ## Yöntemler
@@ -43,7 +43,7 @@ url: /tr/nodejs-java/aspose.threed/vertexdeclaration/
 
 | Ad | Açıklama |
 | --- | --- |
-| getCount() | Bu VertexDeclaration içinde tanımlanan tüm alanların sayısını alır. |
+| getCount() | Bu VertexDeclaration içinde tanımlanan tüm alanların sayısını alır |
 
  **Result:**
 
@@ -101,10 +101,10 @@ url: /tr/nodejs-java/aspose.threed/vertexdeclaration/
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| dataType | Number | VertexFieldDataType |
+| dataType | Sayı | VertexFieldDataType |
 | semantic | VertexFieldSemantic | VertexFieldSemantic |
-| indeks | Number | Aynı alan semantiği için indeks, otomatik oluşturma için -1 |
-| alias | String | Alan için takma ad |
+| indeks | Sayı | Aynı alan semantiği için indeks, otomatik oluşturma için -1 |
+| alias | String | Alan için takma ad adı |
 
  **Result:**
 
@@ -123,8 +123,8 @@ url: /tr/nodejs-java/aspose.threed/vertexdeclaration/
 
 | Ad | Tür | Açıklama |
 | --- | --- | --- |
-| geometr | Geometri | null |
-| useFloat | boolean | Double tip yerine float kullan. |
+| geometrik | Geometry | null |
+| useFloat | boolean | Double tipinin yerine float kullanın. |
 
  **Result:**
 VertexDeclaration
@@ -137,7 +137,7 @@ VertexDeclaration
 
 | Ad | Açıklama |
 | --- | --- |
-| compareTo(other) | Bu örneği belirtilen bir nesneyle karşılaştırır ve bunların göreceli değerlerine ilişkin bir gösterge döndürür. |
+| compareTo(other) | Bu örneği belirtilen bir nesneyle karşılaştırır ve onların göreceli değerlerine ilişkin bir gösterge döndürür. |
 
  **Result:**
 VertexDeclaration
@@ -166,7 +166,7 @@ String
 | hashCode() |  |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -176,10 +176,10 @@ Number
 
 | Ad | Açıklama |
 | --- | --- |
-| equals(obj) | Bu örnek ile bir VertexDeclaration nesnesi olması gereken belirtilen nesnenin aynı değere sahip olup olmadığını belirler. |
+| equals(obj) | Bu örnek ile aynı zamanda bir VertexDeclaration nesnesi olması gereken belirtilen nesnenin aynı değere sahip olup olmadığını belirler. |
 
  **Result:**
-Number
+Sayı
 
 
 ---
@@ -192,7 +192,7 @@ Number
 | iterator() | Dahili kullanım için ayrılmıştır. |
 
  **Result:**
-Number
+Sayı
 
 
 ---

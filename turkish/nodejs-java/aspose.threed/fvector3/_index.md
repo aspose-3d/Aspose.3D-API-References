@@ -11,14 +11,14 @@ url: /tr/nodejs-java/aspose.threed/fvector3/
 Üç bileşenli bir float vektör.
 
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
 | x | x bileşeni. |
 | y | y bileşeni. |
 | z | y bileşeni. |
-| SIFIR | Sıfır vektör. |
+| ZERO | Sıfır vektör. |
 | UNIT_SCALE | Tüm bileşenleri 1 olan birim ölçek vektörü |
 
 ## Yöntemler
@@ -40,7 +40,7 @@ url: /tr/nodejs-java/aspose.threed/fvector3/
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload(x, y, z) | FVector3'in yeni bir örneğini başlatır. |
+| constructor_overload(x, y, z) | FVector3 sınıfının yeni bir örneğini başlatır. |
 
  **Result:**
 
@@ -53,7 +53,7 @@ url: /tr/nodejs-java/aspose.threed/fvector3/
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload2(vec) | FVector3'in yeni bir örneğini başlatır. |
+| constructor_overload2(vec) | FVector3 sınıfının yeni bir örneğini başlatır. |
 
  **Result:**
 
@@ -66,7 +66,7 @@ url: /tr/nodejs-java/aspose.threed/fvector3/
 
 | Ad | Açıklama |
 | --- | --- |
-| constructor_overload3(vec) | FVector4'ün yeni bir örneğini başlatır. |
+| constructor_overload3(vec) | Yeni bir FVector4 örneği başlatır. |
 
  **Result:**
 
@@ -92,7 +92,7 @@ String
 
 | Ad | Açıklama |
 | --- | --- |
-| normalize() | Bu örneği normalleştirir. |
+| normalize() | Bu örneği normalize eder. |
 
  **Result:**
 FVector3

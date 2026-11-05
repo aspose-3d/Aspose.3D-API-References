@@ -69,7 +69,7 @@ Adobe'un Taşınabilir Belge Formatı  @hideconstructor
 
 | Ad | Açıklama |
 | --- | --- |
-| getFileFormatType() | Dosya formatı tipini alır |
+| getFileFormatType() | Dosya formatı tipini alır. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ SaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| toString() | Biçimleri dizeye dönüştür |
+| toString() | Formatları dizeye dönüştür. |
 
  **Result:**
 String

@@ -8,6 +8,6 @@ url: /tr/nodejs-java/aspose.threed/renderresource/
 ---
 ## RenderResource class
 
-Tüm render kaynaklarının soyut sınıfı  Renderleyici serbest bırakıldığında tüm render kaynakları imha edilecektir.  Mesh/Texture gibi sınıfların karşılık gelen bir RenderResource'ı olacaktır  @hideconstructor
+Tüm render kaynaklarının soyut sınıfı  Renderlayıcı serbest bırakıldığında tüm render kaynakları imha edilecektir.  Mesh/Texture gibi sınıflar ilgili bir RenderResource'a sahip olacaktır  @hideconstructor
 
 
