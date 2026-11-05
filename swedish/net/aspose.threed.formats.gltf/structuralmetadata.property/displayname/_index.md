@@ -1,0 +1,21 @@
+---
+title: "StructuralMetadata.Property.DisplayName"
+second_title: "Aspose.3D för .NET API‑referens"
+description: "Property egenskap."
+type: docs
+weight: 40
+url: /sv/net/aspose.threed.formats.gltf/structuralmetadata.property/displayname/
+---
+## StructuralMetadata.Property.DisplayName property
+
+```csharp
+public string DisplayName { get; set; }
+```
+
+### Se även
+
+* class [Property](../)
+* namespace [Aspose.ThreeD.Formats.GLTF](../../structuralmetadata.property/)
+* assembly [Aspose.3D](../../../)
+
+
