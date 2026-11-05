@@ -1,0 +1,23 @@
+---
+title: "JtLoadOptions.JtLoadOptions"
+second_title: "Aspose.3D för .NET API‑referens"
+description: "JtLoadOptions‑konstruktor. Standardkonstruktorn"
+type: docs
+weight: 10
+url: /sv/net/aspose.threed.formats/jtloadoptions/jtloadoptions/
+---
+## JtLoadOptions constructor
+
+Standardkonstruktören.
+
+```csharp
+public JtLoadOptions()
+```
+
+### Se även
+
+* class [JtLoadOptions](../)
+* namespace [Aspose.ThreeD.Formats](../../jtloadoptions/)
+* assembly [Aspose.3D](../../../)
+
+
