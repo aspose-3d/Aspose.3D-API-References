@@ -1,6 +1,6 @@
 ---
 title: "FileFormatType"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -20,18 +20,18 @@ Tipo di formato file  @hideconstructor
 | STL | Tipo di formato file STL |
 | COLLADA | Formato file Collada del Khronos Group. |
 | PDF | Formato Documento Portatile |
-| GLTF | glTF del Khronos Group |
+| GLTF | glTF di Khronos Group |
 | DXF | AutoCAD DXF |
-| PLY | Formato file Poligono o Formato Triangolo Stanford |
+| PLY | Formato file poligonale o Formato triangolare di Stanford |
 | X | File X di DirectX |
 | DRACO | Mesh Draco di Google |
-| RVM | Modello del Sistema di Gestione della Progettazione di Impianti AVEGA. |
+| RVM | Modello del Sistema di Gestione della Progettazione di Impianti AVEVA. |
 | ASE | Formato ASCII Scene Exporter di 3D Studio Max. |
-| ZIP | Archivio Zip che contiene altri formati di file 3d. |
+| ZIP | Archivio Zip che contiene altri formati di file 3D. |
 | USD | Descrizione Universale della Scena |
-| PCD | Dati Point Cloud utilizzati da Point Cloud Library |
+| PCD | Dati di nuvola di punti usati dalla Point Cloud Library |
 | XYZ | File di nuvola di punti Xyz |
-| IFC | Modello di dati ISO 16739-1 Industry Foundation Classes. |
+| IFC | Modello di dati Industry Foundation Classes ISO 16739-1. |
 | AMF | Formato file per la manifattura additiva |
 | VRML | Il Linguaggio di Modellazione per la Realtà Virtuale |
 
@@ -57,7 +57,7 @@ Tipo di formato file  @hideconstructor
 | toString() | Ottieni il nome di questo tipo di formato file |
 
  **Result:**
-Stringa
+String
 
 
 ---

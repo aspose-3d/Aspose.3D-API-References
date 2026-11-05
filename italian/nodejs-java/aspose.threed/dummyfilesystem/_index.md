@@ -1,6 +1,6 @@
 ---
 title: "DummyFileSystem"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -36,7 +36,7 @@ Le operazioni di lettura/scrittura sono operazioni fittizie.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 | opzione | IOConfig | null |
 
  **Result:**
@@ -50,13 +50,13 @@ Stream
 
 | Nome | Descrizione |
 | --- | --- |
-| writeFile(fileName, options) | Crea uno stream per scrivere le dipendenze. |
+| writeFile(fileName, options) | Crea un flusso per scrivere le dipendenze. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 | opzione | IOConfig | null |
 
  **Result:**

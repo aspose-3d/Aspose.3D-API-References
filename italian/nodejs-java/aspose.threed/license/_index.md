@@ -1,6 +1,6 @@
 ---
-title: "License"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "Licenza"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 

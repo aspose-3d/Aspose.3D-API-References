@@ -1,6 +1,6 @@
 ---
 title: "BindPoint"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/bindpoint/
 ---
 ## BindPoint class
 
-Un BindPoint viene solitamente creato su una proprietà di un oggetto, alcuni tipi di proprietà contengono più campi componenti (come un campo Vector3),  BindPoint genererà un canale per ogni campo componente e collega il campo a una o più istanze di sequenza di fotogrammi chiave attraverso i canali.
+Un BindPoint viene solitamente creato su una proprietà di un oggetto, alcuni tipi di proprietà contengono più campi componenti (come un campo Vector3),  BindPoint genererà un canale per ogni campo componente e collegherà il campo a una o più istanze di sequenza di fotogrammi chiave attraverso i canali.
 
 
 ## Metodi
@@ -23,8 +23,8 @@ Un BindPoint viene solitamente creato su una proprietà di un oggetto, alcuni ti
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| scena | Scene | La scena che contiene l'animazione. |
-| prop | Property | Proprietà. |
+| scene | Scena | La scena che contiene l'animazione. |
+| prop | Proprietà | Proprietà. |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Un BindPoint viene solitamente creato su una proprietà di un oggetto, alcuni ti
 
 | Nome | Descrizione |
 | --- | --- |
-| getProperty() | Ottiene la proprietà associata a CurveMapping |
+| getProperty() | Restituisce la proprietà associata a CurveMapping |
 
  **Result:**
 
@@ -50,7 +50,7 @@ Un BindPoint viene solitamente creato su una proprietà di un oggetto, alcuni ti
 
 | Nome | Descrizione |
 | --- | --- |
-| setProperty(value) | Ottiene la proprietà associata a CurveMapping |
+| setProperty(value) | Restituisce la proprietà associata a CurveMapping |
 
  **Result:**
 
@@ -63,7 +63,7 @@ Un BindPoint viene solitamente creato su una proprietà di un oggetto, alcuni ti
 
 | Nome | Descrizione |
 | --- | --- |
-| getChannelsCount() | Ottiene il numero totale di canali di proprietà definiti in questa mappatura di curve di animazione. |
+| getChannelsCount() | Restituisce il numero totale di canali di proprietà definiti in questa mappatura di curve di animazione. |
 
  **Result:**
 Numero
@@ -128,13 +128,13 @@ Numero
 
 | Nome | Descrizione |
 | --- | --- |
-| getKeyframeSequence(channelName) | Restituisce la prima sequenza di fotogrammi chiave nel canale specificato |
+| getKeyframeSequence(channelName) | Restituisce la prima sequenza di keyframe nel canale specificato |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| channelName | Stringa | Il nome del canale da trovare |
+| channelName | String | Il nome del canale da trovare |
 
  **Result:**
 KeyframeSequence
@@ -147,13 +147,13 @@ KeyframeSequence
 
 | Nome | Descrizione |
 | --- | --- |
-| getKeyframeSequences(channelName) | Restituisce tutte le sequenze di fotogrammi chiave nel canale specificato |
+| getKeyframeSequences(channelName) | Restituisce tutte le sequenze di keyframe nel canale specificato |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| channelName | Stringa | Il nome del canale da trovare |
+| channelName | String | Il nome del canale da trovare |
 
  **Result:**
 0, Culture=neutral, PublicKeyToken=f071c641d0b4582b]]
@@ -166,13 +166,13 @@ KeyframeSequence
 
 | Nome | Descrizione |
 | --- | --- |
-| createKeyframeSequence(name) | Crea una nuova curva e la collega al primo canale della mappatura della curva |
+| createKeyframeSequence(name) | Crea una nuova curva e la collega al primo canale della mappatura delle curve |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Il nome della nuova sequenza. |
+| name | String | Il nome della nuova sequenza. |
 
  **Result:**
 KeyframeSequence
@@ -185,14 +185,14 @@ KeyframeSequence
 
 | Nome | Descrizione |
 | --- | --- |
-| bindKeyframeSequence(channelName, sequence) | Associa la sequenza di fotogrammi chiave al canale specificato |
+| bindKeyframeSequence(channelName, sequence) | Collega la sequenza di keyframe al canale specificato |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| channelName | Stringa | Quale canale verrà associato alla sequenza di fotogrammi chiave |
-| sequenza | KeyframeSequence | La sequenza di fotogrammi chiave da associare |
+| channelName | String | Quale canale verrà associato alla sequenza di keyframe |
+| sequenza | KeyframeSequence | La sequenza di keyframe da collegare |
 
  **Result:**
 KeyframeSequence
@@ -211,7 +211,7 @@ KeyframeSequence
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| channelName | Stringa | Il nome del canale da trovare |
+| channelName | String | Il nome del canale da trovare |
 
  **Result:**
 AnimationChannel
@@ -224,14 +224,14 @@ AnimationChannel
 
 | Nome | Descrizione |
 | --- | --- |
-| addChannel(name, value) | Aggiunge la proprietà del canale specificata. |
+| addChannel(name, value) | Aggiunge la proprietà di canale specificata. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
-| valore | Oggetto | Valore. |
+| name | String | Nome. |
+| valore | Object | Valore. |
 
  **Result:**
 boolean
@@ -244,15 +244,15 @@ boolean
 
 | Nome | Descrizione |
 | --- | --- |
-| addChannel(name, type, value) | Aggiunge la proprietà del canale specificata. |
+| addChannel(name, type, value) | Aggiunge la proprietà di canale specificata. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
+| name | String | Nome. |
 | type | Classe | Tipo. |
-| valore | Oggetto | Valore. |
+| valore | Object | Valore. |
 
  **Result:**
 boolean
@@ -265,7 +265,7 @@ boolean
 
 | Nome | Descrizione |
 | --- | --- |
-| resetChannels() | Svuota i canali di proprietà di questa mappatura della curva di animazione. |
+| resetChannels() | Svuota la proprietà channels di questa mappatura della curva di animazione. |
 
  **Result:**
 boolean
@@ -281,7 +281,7 @@ boolean
 | toString() | Formatta l'oggetto in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -297,7 +297,7 @@ Stringa
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -316,7 +316,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -335,10 +335,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -354,11 +354,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -368,16 +368,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

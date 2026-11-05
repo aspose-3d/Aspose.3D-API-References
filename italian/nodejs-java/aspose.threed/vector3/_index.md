@@ -1,6 +1,6 @@
 ---
 title: "Vector3"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -15,8 +15,8 @@ Un vettore con tre componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| x | Il componente x. |
-| y | Il componente y. |
+| x | La componente x. |
+| y | La componente y. |
 | z | Il componente z. |
 | ORIGIN | Ottiene la posizione di origine. L'origine. |
 | UNIT_SCALE | Ottiene il vettore di scala unitario. |
@@ -43,7 +43,7 @@ Un vettore con tre componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload(x, y, z) | Inizializza una nuova istanza della struct Vector3. |
+| constructor_overload(x, y, z) | Inizializza una nuova istanza della struttura Vector3. |
 
  **Parameters:**
 
@@ -64,7 +64,7 @@ Un vettore con tre componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload2(vec) | Inizializza una nuova istanza della struct Vector3. |
+| constructor_overload2(vec) | Inizializza una nuova istanza della struttura Vector3. |
 
  **Parameters:**
 
@@ -83,7 +83,7 @@ Un vettore con tre componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload3(v) | Inizializza una nuova istanza della struct Vector3. |
+| constructor_overload3(v) | Inizializza una nuova istanza della struttura Vector3. |
 
  **Parameters:**
 
@@ -102,7 +102,7 @@ Un vettore con tre componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload4(vec4) | Inizializza una nuova istanza della struct Vector3. |
+| constructor_overload4(vec4) | Inizializza una nuova istanza della struttura Vector3. |
 
  **Parameters:**
 
@@ -121,7 +121,7 @@ Un vettore con tre componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| getLength2() | Ottiene il quadrato della lunghezza. La lunghezza2. |
+| getLength2() | Restituisce il quadrato della lunghezza. La length2. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Un vettore con tre componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| getLength() | Ottiene la lunghezza di questo vettore. La lunghezza. |
+| getLength() | Restituisce la lunghezza di questo vettore. La lunghezza. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Un vettore con tre componenti.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Oggetto | L'oggetto da verificare l'uguaglianza. |
+| obj | Object | L'oggetto per verificare l'uguaglianza. |
 
  **Result:**
 boolean
@@ -166,7 +166,7 @@ boolean
 
 | Nome | Descrizione |
 | --- | --- |
-| hashCode() | Ottiene il codice hash di Vector3 |
+| hashCode() | Restituisce il codice hash di Vector3 |
 
  **Result:**
 Numero
@@ -179,7 +179,7 @@ Numero
 
 | Nome | Descrizione |
 | --- | --- |
-| dot(rhs) | Ottiene il prodotto scalare di due vettori |
+| dot(rhs) | Restituisce il prodotto scalare di due vettori |
 
  **Parameters:**
 
@@ -256,14 +256,14 @@ Vector3
 
 | Nome | Descrizione |
 | --- | --- |
-| set(newX, newY, newZ) | Imposta i componenti x/y/z in una sola chiamata. |
+| set(newX, newY, newZ) | Imposta il componente x/y/z in una sola chiamata. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| newX | Numero | Il componente x. |
-| newY | Numero | Il componente y. |
+| newX | Numero | La componente x. |
+| newY | Numero | La componente y. |
 | newZ | Numero | Il componente z. |
 
  **Result:**
@@ -277,10 +277,10 @@ Vector3
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Restituisce una java.lang.String che rappresenta il Vector3 corrente. |
+| toString() | Restituisce un java.lang.String che rappresenta il Vector3 corrente. |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -290,14 +290,14 @@ Stringa
 
 | Nome | Descrizione |
 | --- | --- |
-| angleBetween(dir, up) | Calcola l'angolo interno tra due direzioni. Le due direzioni possono essere vettori non normalizzati. |
+| angleBetween(dir, up) | Calcola l'angolo interno tra due direzioni. Le due direzioni possono essere vettori non normalizzati |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| dir | Vector3 | Il vettore di direzione da confrontare |
-| up | Vector3 | Il vettore up del piano condiviso delle due direzioni |
+| dir | Vector3 | Il vettore direzione da confrontare |
+| up | Vector3 | Il vettore up del piano condiviso dalle due direzioni |
 
  **Result:**
 Numero
@@ -310,13 +310,13 @@ Numero
 
 | Nome | Descrizione |
 | --- | --- |
-| angleBetween(dir) | Calcola l'angolo interno tra due direzioni. Le due direzioni possono essere vettori non normalizzati. |
+| angleBetween(dir) | Calcola l'angolo interno tra due direzioni. Le due direzioni possono essere vettori non normalizzati |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| dir | Vector3 | Il vettore di direzione da confrontare |
+| dir | Vector3 | Il vettore direzione da confrontare |
 
  **Result:**
 Numero

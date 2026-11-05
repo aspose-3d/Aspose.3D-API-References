@@ -1,6 +1,6 @@
 ---
 title: "FileSystem"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -23,7 +23,7 @@ Incapsulamento del file system.  Aspose.3D utilizzerà questo per leggere/scrive
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 | opzione | IOConfig | null |
 
  **Result:**
@@ -37,13 +37,13 @@ Stream
 
 | Nome | Descrizione |
 | --- | --- |
-| writeFile(fileName, options) | Crea uno stream per scrivere le dipendenze. |
+| writeFile(fileName, options) | Crea un flusso per scrivere le dipendenze. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 | opzione | IOConfig | null |
 
  **Result:**

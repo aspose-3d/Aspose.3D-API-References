@@ -1,6 +1,6 @@
 ---
 title: "PolygonModifier"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,13 +17,13 @@ Utility per modificare i poligoni  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| triangulate(scene) | Converti tutte le mesh basate su poligoni in una mesh completa di triangoli |
+| triangulate(scene) | Converti tutte le mesh basate su poligoni in una mesh a triangoli completa |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| scena | Scene | La scena da elaborare |
+| scene | Scena | La scena da elaborare |
 
  **Result:**
 
@@ -36,7 +36,7 @@ Utility per modificare i poligoni  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| triangulate(mesh) | Converti una mesh basata su poligoni in una mesh completa di triangoli |
+| triangulate(mesh) | Converti una mesh basata su poligoni in una mesh a triangoli completa |
 
  **Parameters:**
 
@@ -55,13 +55,13 @@ Mesh
 
 | Nome | Descrizione |
 | --- | --- |
-| mergeMesh(scene) | Converti un'intera scena in una singola mesh trasformata. Gli elementi dei vertici, come le normali/coordinate di texture, non sono ancora supportati |
+| mergeMesh(scene) | Converti un'intera scena in una singola mesh trasformata. Gli elementi dei vertici come normali/coordinate texture non sono ancora supportati |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| scena | Scene | La scena da unire |
+| scene | Scena | La scena da unire |
 
  **Result:**
 Mesh
@@ -74,13 +74,13 @@ Mesh
 
 | Nome | Descrizione |
 | --- | --- |
-| mergeMesh(node) | Converti un intero nodo in una singola mesh trasformata. Gli elementi dei vertici, come le normali/coordinate di texture, non sono ancora supportati |
+| mergeMesh(node) | Converti un intero nodo in una singola mesh trasformata. Gli elementi dei vertici come normali/coordinate texture non sono ancora supportati |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| node | Nodo | Il nodo da unire |
+| nodo | Nodo | Il nodo da unire |
 
  **Result:**
 Mesh
@@ -99,7 +99,7 @@ Mesh
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| scena | Scene | La scena da scalare |
+| scene | Scena | La scena da scalare |
 | scala | Vector3 | Il fattore di scala |
 
  **Result:**
@@ -119,7 +119,7 @@ Mesh
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| node | Nodo | Il nodo da scalare |
+| nodo | Nodo | Il nodo da scalare |
 | scala | Vector3 | Il fattore di scala |
 
  **Result:**
@@ -185,16 +185,16 @@ VertexElementUV
 
 | Nome | Descrizione |
 | --- | --- |
-| splitMesh(node, policy, createChildNodes, removeOldMesh) | Dividi la mesh in sotto-mesh per VertexElementMaterial. Ogni sotto-mesh utilizzerà un solo materiale. Esegui lo split della mesh su un nodo |
+| splitMesh(node, policy, createChildNodes, removeOldMesh) | Dividi la mesh in sotto-mesh per VertexElementMaterial. Ogni sotto-mesh utilizzerà un solo materiale. Esegui la divisione della mesh su un nodo |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nod | Nodo | null |
-| politica | SplitMeshPolicy | SplitMeshPolicy |
-| createChildNodes | boolean | Crea nodi figlio per ogni sotto-mesh. |
-| removeOldMesh | boolean | Rimuovi la mesh vecchia dopo lo split; se questo parametro è false, le mesh vecchia e nuova coesisteranno. |
+| nodo | Nodo | null |
+| policy | SplitMeshPolicy | SplitMeshPolicy |
+| createChildNodes | boolean | Crea nodi figli per ogni sotto-mesh. |
+| removeOldMesh | boolean | Rimuovi la vecchia mesh dopo la divisione, se questo parametro è false, le mesh vecchie e nuove coesisteranno. |
 
  **Result:**
 VertexElementUV
@@ -207,14 +207,14 @@ VertexElementUV
 
 | Nome | Descrizione |
 | --- | --- |
-| splitMesh(scene, policy, removeOldMesh) | Dividi la mesh in sotto-mesh per VertexElementMaterial. Ogni sotto-mesh utilizzerà un solo materiale. Esegui lo split della mesh su tutti i nodi della scena. |
+| splitMesh(scene, policy, removeOldMesh) | Dividi la mesh in sotto-mesh per VertexElementMaterial. Ogni sotto-mesh utilizzerà un solo materiale. Esegui la divisione della mesh su tutti i nodi della scena. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| scena | Scene | null |
-| politica | SplitMeshPolicy | SplitMeshPolicy |
+| scen | Scena | null |
+| policy | SplitMeshPolicy | SplitMeshPolicy |
 | removeOldMes | boolean | null |
 
  **Result:**
@@ -228,7 +228,7 @@ VertexElementUV
 
 | Nome | Descrizione |
 | --- | --- |
-| splitMesh(mesh, policy) | Dividi la mesh in sotto-mesh per VertexElementMaterial. Ogni sotto-mesh utilizzerà un solo materiale. La mesh originale non verrà modificata. |
+| splitMesh(mesh, policy) | Dividi la mesh in sotto‑mesh per VertexElementMaterial. Ogni sotto‑mesh utilizzerà un solo materiale. La mesh originale non verrà modificata. |
 
  **Result:**
 Mesh[]
@@ -241,7 +241,7 @@ Mesh[]
 
 | Nome | Descrizione |
 | --- | --- |
-| buildTangentBinormal(scene) | Questo creerà tangente e binormale su tutte le mesh della scena. È necessaria la normale; se la normale non esiste sulla mesh, verranno creati anche i dati normali dalla posizione. È anche necessaria la UV; la mesh verrà ignorata se non è definita alcuna UV. |
+| buildTangentBinormal(scene) | Questo creerà tangente e binormale su tutte le mesh della scena. È necessaria la normale; se la normale non esiste sulla mesh, verrà creata anche la dati della normale dalla posizione. È anche necessario UV; la mesh verrà ignorata se non è definito alcun UV. |
 
  **Result:**
 Mesh[]
@@ -254,7 +254,7 @@ Mesh[]
 
 | Nome | Descrizione |
 | --- | --- |
-| buildTangentBinormal(mesh) | Questo creerà tangente e binormale sulla mesh, la normale è necessaria; se la normale non esiste sulla mesh, verrà anche creata la dati della normale dalla posizione. Le UV sono anch'esse necessarie, verrà sollevata un'eccezione se non vengono trovate UV. |
+| buildTangentBinormal(mesh) | Questo creerà tangente e binormale sulla mesh. È necessaria la normale; se la normale non esiste sulla mesh, verrà creata anche la dati della normale dalla posizione. È anche necessario UV; verrà sollevata un'eccezione se non viene trovato alcun UV. |
 
  **Result:**
 Mesh[]

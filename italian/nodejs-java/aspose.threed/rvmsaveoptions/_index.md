@@ -1,6 +1,6 @@
 ---
 title: "RvmSaveOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -127,7 +127,7 @@ Opzioni di salvataggio per il file RVM di Aveva PDMS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getAttributePrefix() | Ottiene o imposta il prefisso degli attributi che verranno esportati; la proprietà esportata non conterrà alcun prefisso, le proprietà personalizzate con prefisso diverso non saranno esportate, il valore predefinito è 'rvm:'. Ad esempio, se una proprietà è rvm:Refno=345, l'attributo esportato sarà Refno = 345, il prefisso viene rimosso. |
+| getAttributePrefix() | Ottiene o imposta il prefisso degli attributi che saranno esportati; la proprietà esportata non conterrà alcun prefisso, le proprietà personalizzate con prefissi diversi non saranno esportate, il valore predefinito è 'rvm:'. Per esempio, se una proprietà è rvm:Refno=345, l'attributo esportato sarà Refno = 345, il prefisso viene rimosso. |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Opzioni di salvataggio per il file RVM di Aveva PDMS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setAttributePrefix(value) | Ottiene o imposta il prefisso degli attributi che verranno esportati; la proprietà esportata non conterrà alcun prefisso, le proprietà personalizzate con prefisso diverso non saranno esportate, il valore predefinito è 'rvm:'. Ad esempio, se una proprietà è rvm:Refno=345, l'attributo esportato sarà Refno = 345, il prefisso viene rimosso. |
+| setAttributePrefix(value) | Ottiene o imposta il prefisso degli attributi che saranno esportati; la proprietà esportata non conterrà alcun prefisso, le proprietà personalizzate con prefissi diversi non saranno esportate, il valore predefinito è 'rvm:'. Per esempio, se una proprietà è rvm:Refno=345, l'attributo esportato sarà Refno = 345, il prefisso viene rimosso. |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Opzioni di salvataggio per il file RVM di Aveva PDMS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Opzioni di salvataggio per il file RVM di Aveva PDMS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Opzioni di salvataggio per il file RVM di Aveva PDMS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

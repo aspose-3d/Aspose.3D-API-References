@@ -1,6 +1,6 @@
 ---
 title: "MathUtils"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -120,9 +120,9 @@ Numero
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| x | Numero | Il componente x nel valore in radianti. |
-| y | Numero | Il componente y nel valore in radianti. |
-| z | Numero | Il componente z nel valore in radianti. |
+| x | Numero | Il componente x in valore radiante. |
+| y | Numero | Il componente y in valore radiante. |
+| z | Numero | Il componente z in valore radiante. |
 
  **Result:**
 Vector3
@@ -179,9 +179,9 @@ Numero
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| x | Numero | Il componente x in valore di gradi. |
-| y | Numero | Il componente y in valore di gradi. |
-| z | Numero | Il componente z in valore di gradi. |
+| x | Numero | Il componente x in valore in gradi. |
+| y | Numero | Il componente y in valore in gradi. |
+| z | Numero | Il componente z in valore in gradi. |
 
  **Result:**
 Vector3

@@ -1,6 +1,6 @@
 ---
 title: "A3dwSaveOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -56,7 +56,7 @@ Opzioni di salvataggio per il formato A3DW.
 
 | Nome | Descrizione |
 | --- | --- |
-| getMetaDataPrefix() | Se questa proprietà è non nulla, solo le proprietà di Scene/Node che iniziano con questo prefisso saranno esportate, e il prefisso verrà rimosso. |
+| getMetaDataPrefix() | Se questa proprietà è non nulla, solo le proprietà di Scene/Node che iniziano con questo prefisso saranno esportate, e il prefisso sarà rimosso. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Opzioni di salvataggio per il formato A3DW.
 
 | Nome | Descrizione |
 | --- | --- |
-| setMetaDataPrefix(value) | Se questa proprietà è non nulla, solo le proprietà di Scene/Node che iniziano con questo prefisso saranno esportate, e il prefisso verrà rimosso. |
+| setMetaDataPrefix(value) | Se questa proprietà è non nulla, solo le proprietà di Scene/Node che iniziano con questo prefisso saranno esportate, e il prefisso sarà rimosso. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Opzioni di salvataggio per il formato A3DW.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Opzioni di salvataggio per il formato A3DW.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opzioni di salvataggio per il formato A3DW.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

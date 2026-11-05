@@ -1,6 +1,6 @@
 ---
 title: "EntityRendererKey"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -23,7 +23,7 @@ La chiave del renderer di entità registrato
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nam | Stringa | null |
+| nam | String | null |
 
  **Result:**
 
@@ -39,7 +39,7 @@ La chiave del renderer di entità registrato
 | toString() |  |
 
  **Result:**
-Stringa
+String
 
 
 ---

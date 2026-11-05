@@ -1,6 +1,6 @@
 ---
 title: "RendererVariableManager"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -43,7 +43,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getShadowCaster() | Posizione del generatore di ombra nel sistema di coordinate del mondo |
+| getShadowCaster() | Posizione del generatore di ombre nel sistema di coordinate del mondo |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setShadowCaster(value) | Posizione del generatore di ombra nel sistema di coordinate del mondo |
+| setShadowCaster(value) | Posizione del generatore di ombre nel sistema di coordinate del mondo |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getShadowmap() | La texture di profondità utilizzata per il mapping delle ombre |
+| getShadowmap() | La texture di profondità utilizzata per il shadow mapping |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setShadowmap(value) | La texture di profondità utilizzata per il mapping delle ombre |
+| setShadowmap(value) | La texture di profondità utilizzata per il shadow mapping |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getMatrixViewProjection() | Matrice per la trasformazione della vista e della proiezione. |
+| getMatrixViewProjection() | Matrice per la trasformazione di visualizzazione e proiezione. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getMatrixWorldViewProjection() | Matrice per la trasformazione della vista mondiale e della proiezione |
+| getMatrixWorldViewProjection() | Matrice per la trasformazione di visualizzazione e proiezione del mondo |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getMatrixWorldNormal() | Matrice per convertire la normale dall'oggetto allo spazio mondiale. |
+| getMatrixWorldNormal() | Matrice per convertire la normale dall'oggetto allo spazio del mondo. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getMatrixProjection() | Matrice per la trasformazione della proiezione |
+| getMatrixProjection() | Matrice per la trasformazione di proiezione |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setMatrixProjection(value) | Matrice per la trasformazione della proiezione |
+| setMatrixProjection(value) | Matrice per la trasformazione di proiezione |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getMatrixView() | Matrice per la trasformazione della vista |
+| getMatrixView() | Matrice per la trasformazione di visualizzazione |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setMatrixView(value) | Matrice per la trasformazione della vista |
+| setMatrixView(value) | Matrice per la trasformazione di visualizzazione |
 
  **Result:**
 
@@ -225,7 +225,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getCameraPosition() | Posizione della telecamera nel sistema di coordinate mondiali |
+| getCameraPosition() | Posizione della fotocamera nel sistema di coordinate del mondo |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setCameraPosition(value) | Posizione della telecamera nel sistema di coordinate mondiali |
+| setCameraPosition(value) | Posizione della fotocamera nel sistema di coordinate del mondo |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getDepthBias() | Bias di profondità per il mapping delle ombre, il valore predefinito è 0.001 |
+| getDepthBias() | Bias di profondità per la mappatura delle ombre, il valore predefinito è 0.001 |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Questa classe gestisce le variabili utilizzate nel rendering  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| setDepthBias(value) | Bias di profondità per il mapping delle ombre, il valore predefinito è 0.001 |
+| setDepthBias(value) | Bias di profondità per la mappatura delle ombre, il valore predefinito è 0.001 |
 
  **Result:**
 

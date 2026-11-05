@@ -1,6 +1,6 @@
 ---
 title: "TrialException"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -23,7 +23,7 @@ Questo viene sollevato in Scene.Open/Scene.Save quando non sono applicate licenz
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| ms | Stringa | null |
+| ms | String | null |
 
  **Result:**
 
@@ -36,7 +36,7 @@ Questo viene sollevato in Scene.Open/Scene.Save quando non sono applicate licenz
 
 | Nome | Descrizione |
 | --- | --- |
-| getSuppressTrialException() | Imposta questo su true per sopprimere l'eccezione di prova per l'uso non licenziato, ma le restrizioni non saranno rimosse. Per rimuovere le restrizioni, si prega di utilizzare una licenza valida. Impostare questo su true significa anche che sei consapevole delle restrizioni per l'uso non licenziato. |
+| getSuppressTrialException() | Imposta questo a true per sopprimere l'eccezione di prova in caso di utilizzo non licenziato, ma le restrizioni non saranno rimosse. Per rimuovere le restrizioni, si prega di utilizzare una licenza adeguata. Impostare questo a true significa anche che si è consapevoli delle restrizioni per l'uso non licenziato. |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Questo viene sollevato in Scene.Open/Scene.Save quando non sono applicate licenz
 
 | Nome | Descrizione |
 | --- | --- |
-| setSuppressTrialException(value) | Imposta questo su true per sopprimere l'eccezione di prova per l'uso non licenziato, ma le restrizioni non saranno rimosse. Per rimuovere le restrizioni, si prega di utilizzare una licenza valida. Impostare questo su true significa anche che sei consapevole delle restrizioni per l'uso non licenziato. |
+| setSuppressTrialException(value) | Imposta questo a true per sopprimere l'eccezione di prova in caso di utilizzo non licenziato, ma le restrizioni non saranno rimosse. Per rimuovere le restrizioni, si prega di utilizzare una licenza adeguata. Impostare questo a true significa anche che si è consapevoli delle restrizioni per l'uso non licenziato. |
 
  **Result:**
 

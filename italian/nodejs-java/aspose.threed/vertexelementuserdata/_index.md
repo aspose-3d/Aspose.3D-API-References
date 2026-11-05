@@ -1,6 +1,6 @@
 ---
 title: "VertexElementUserData"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/vertexelementuserdata/
 ---
 ## VertexElementUserData class
 
-Definisce dati utente personalizzati per le componenti specificate.  Di solito sono dati specifici dell'applicazione per scopi speciali.
+Definisce dati utente personalizzati per i componenti specificati. Di solito sono dati specifici dell'applicazione per scopi particolari.
 
 
 ## Metodi
@@ -30,7 +30,7 @@ Definisce dati utente personalizzati per le componenti specificate.  Di solito s
 
 | Nome | Descrizione |
 | --- | --- |
-| getData() | I dati utente allegati in questo elemento |
+| getData() | I dati utente associati a questo elemento |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Definisce dati utente personalizzati per le componenti specificate.  Di solito s
 
 | Nome | Descrizione |
 | --- | --- |
-| setData(value) | I dati utente allegati in questo elemento |
+| setData(value) | I dati utente associati a questo elemento |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Definisce dati utente personalizzati per le componenti specificate.  Di solito s
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndices() | Ottiene i dati degli indici. L'array di indici. |
+| getIndices() | Ottiene i dati degli indici. L'array degli indici. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Definisce dati utente personalizzati per le componenti specificate.  Di solito s
 
 | Nome | Descrizione |
 | --- | --- |
-| clear() | Cancella tutti i dati da questo elemento vertex. |
+| clear() | Cancella tutti i dati da questo elemento vertice. |
 
  **Result:**
 
@@ -192,10 +192,10 @@ Definisce dati utente personalizzati per le componenti specificate.  Di solito s
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Rappresentazione stringa dell'elemento vertex. |
+| toString() | Rappresentazione stringa dell'elemento vertice. |
 
  **Result:**
-Stringa
+String
 
 
 ---

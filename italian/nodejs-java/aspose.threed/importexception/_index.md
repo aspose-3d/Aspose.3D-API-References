@@ -1,6 +1,6 @@
 ---
 title: "ImportException"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -23,7 +23,7 @@ Eccezione quando Aspose.3D non è riuscito ad aprire la sorgente specificata
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| msg | Stringa | Messaggio di errore |
+| msg | String | Messaggio di errore |
 
  **Result:**
 

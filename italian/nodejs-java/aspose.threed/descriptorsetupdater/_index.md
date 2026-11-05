@@ -1,6 +1,6 @@
 ---
 title: "DescriptorSetUpdater"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -23,9 +23,9 @@ Questa classe consente di aggiornare il com.aspose.threed.IDescriptorSet in un'o
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| buffer | IBuffer | Quale buffer associare |
-| offset | Numero | Offset del buffer da associare |
-| dimensione | Numero | Dimensione del buffer da associare |
+| buffer | IBuffer | Quale buffer collegare |
+| offset | Numero | Offset del buffer da collegare |
+| dimensione | Numero | Dimensione del buffer da collegare |
 
  **Result:**
 DescriptorSetUpdater
@@ -38,7 +38,7 @@ DescriptorSetUpdater
 
 | Nome | Descrizione |
 | --- | --- |
-| bind(buffer) | Associa l'intero buffer al descrittore corrente |
+| bind(buffer) | Collega l'intero buffer al descrittore corrente |
 
  **Parameters:**
 
@@ -57,14 +57,14 @@ DescriptorSetUpdater
 
 | Nome | Descrizione |
 | --- | --- |
-| bind(binding, buffer) | Associa il buffer al set di descrittori corrente nella posizione di binding specificata. |
+| bind(binding, buffer) | Collega il buffer al set di descrittori corrente nella posizione di binding specificata. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | binding | Numero | Posizione di binding |
-| buffer | IBuffer | L'intero buffer da associare |
+| buffer | IBuffer | L'intero buffer da collegare |
 
  **Result:**
 DescriptorSetUpdater
@@ -77,16 +77,16 @@ DescriptorSetUpdater
 
 | Nome | Descrizione |
 | --- | --- |
-| bind(binding, buffer, offset, size) | Associa il buffer al set di descrittori corrente nella posizione di binding specificata. |
+| bind(binding, buffer, offset, size) | Collega il buffer al set di descrittori corrente nella posizione di binding specificata. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | binding | Numero | Posizione di binding |
-| buffer | IBuffer | Il buffer da associare |
-| offset | Numero | Offset del buffer da associare |
-| dimensione | Numero | Dimensione del buffer da associare |
+| buffer | IBuffer | Il buffer da collegare |
+| offset | Numero | Offset del buffer da collegare |
+| dimensione | Numero | Dimensione del buffer da collegare |
 
  **Result:**
 DescriptorSetUpdater
@@ -99,13 +99,13 @@ DescriptorSetUpdater
 
 | Nome | Descrizione |
 | --- | --- |
-| bind(texture) | Associa l'unità di texture al set di descrittori corrente |
+| bind(texture) | Collega l'unità di texture al set di descrittori corrente |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| texture | ITextureUnit | L'unità di texture da associare |
+| texture | ITextureUnit | L'unità di texture da collegare |
 
  **Result:**
 DescriptorSetUpdater
@@ -118,14 +118,14 @@ DescriptorSetUpdater
 
 | Nome | Descrizione |
 | --- | --- |
-| bind(binding, texture) | Associa l'unità di texture al set di descrittori corrente |
+| bind(binding, texture) | Collega l'unità di texture al set di descrittori corrente |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | binding | Numero | La posizione di binding |
-| texture | ITextureUnit | L'unità di texture da associare |
+| texture | ITextureUnit | L'unità di texture da collegare |
 
  **Result:**
 DescriptorSetUpdater

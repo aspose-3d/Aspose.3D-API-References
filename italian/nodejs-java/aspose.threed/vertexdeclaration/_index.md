@@ -1,6 +1,6 @@
 ---
 title: "VertexDeclaration"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -30,7 +30,7 @@ La dichiarazione della struttura di un vertice definito personalizzato
 
 | Nome | Descrizione |
 | --- | --- |
-| getSealed() | Un VertexDeclaration verrà sigillato quando è stato utilizzato da com.aspose.threed.TriMesh`1 o TriMesh, non sono più consentite modifiche. |
+| getSealed() | Una VertexDeclaration verrà sigillata quando è stata utilizzata da com.aspose.threed.TriMesh`1 o TriMesh, non sono più consentite modifiche. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ La dichiarazione della struttura di un vertice definito personalizzato
 
 | Nome | Descrizione |
 | --- | --- |
-| getCount() | Ottiene il conteggio di tutti i campi definiti in questo VertexDeclaration |
+| getCount() | Restituisce il conteggio di tutti i campi definiti in questa VertexDeclaration |
 
  **Result:**
 
@@ -103,8 +103,8 @@ La dichiarazione della struttura di un vertice definito personalizzato
 | --- | --- | --- |
 | dataType | Numero | VertexFieldDataType |
 | semantic | VertexFieldSemantic | VertexFieldSemantic |
-| indice | Numero | L'indice per lo stesso campo semantico, -1 per generazione automatica |
-| alias | Stringa | Il nome alias del campo |
+| index | Numero | L'indice per lo stesso semantic del campo, -1 per generazione automatica |
+| alias | String | Il nome alias del campo |
 
  **Result:**
 
@@ -117,13 +117,13 @@ La dichiarazione della struttura di un vertice definito personalizzato
 
 | Nome | Descrizione |
 | --- | --- |
-| fromGeometry(geometry, useFloat) | Crea un VertexDeclaration basato sul layout di una Geometry. |
+| fromGeometry(geometry, useFloat) | Crea una VertexDeclaration basata sul layout di una Geometry. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| geometria | Geometry | null |
+| geometr | Geometry | null |
 | useFloat | boolean | Usa float invece del tipo double |
 
  **Result:**
@@ -153,7 +153,7 @@ VertexDeclaration
 | toString() |  |
 
  **Result:**
-Stringa
+String
 
 
 ---

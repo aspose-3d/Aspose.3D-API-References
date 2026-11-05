@@ -1,6 +1,6 @@
 ---
 title: "FVector2"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -15,8 +15,8 @@ Un vettore float con due componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| x | Il componente x. |
-| y | Il componente y. |
+| x | La componente x. |
+| y | La componente y. |
 
 ## Metodi
 
@@ -66,7 +66,7 @@ Un vettore float con due componenti.
 | toString() |  |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -101,7 +101,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| ob | Oggetto | null |
+| ob | Object | null |
 
  **Result:**
 boolean
@@ -114,7 +114,7 @@ boolean
 
 | Nome | Descrizione |
 | --- | --- |
-| hashCode() | Restituisce il codice hash di questa istanza |
+| hashCode() | Ottiene il codice hash di questa istanza |
 
  **Result:**
 Numero

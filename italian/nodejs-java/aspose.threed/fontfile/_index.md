@@ -1,6 +1,6 @@
 ---
 title: "FontFile"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/fontfile/
 ---
 ## FontFile class
 
-Il file di font contiene definizioni per i glifi, viene utilizzato per creare il profilo di testo.  @hideconstructor
+Il file di font contiene definizioni per i glifi, è usato per creare il profilo di testo.  @hideconstructor
 
 
 ## Metodi
@@ -56,13 +56,13 @@ Il file di font contiene definizioni per i glifi, viene utilizzato per creare il
 
 | Nome | Descrizione |
 | --- | --- |
-| fromFile(fileName) | Carica FontFile dal nome del file |
+| fromFile(fileName) | Carica FontFile dal nome file |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Percorso al file del font |
+| fileName | String | Percorso al file del font |
 
  **Result:**
 FontFile
@@ -75,7 +75,7 @@ FontFile
 
 | Nome | Descrizione |
 | --- | --- |
-| parse(bytes) | Analizza FontFile dai byte |
+| parse(bytes) | Analizza FontFile da byte |
 
  **Parameters:**
 
@@ -100,7 +100,7 @@ FontFile
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -119,7 +119,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -138,10 +138,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -157,11 +157,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -171,16 +171,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

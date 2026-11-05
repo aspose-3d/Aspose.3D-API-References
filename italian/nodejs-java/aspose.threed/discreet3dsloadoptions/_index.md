@@ -1,6 +1,6 @@
 ---
 title: "Discreet3dsLoadOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -30,7 +30,7 @@ Opzioni di caricamento per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getGammaCorrectedColor() | Un file 3ds può contenere il colore originale e il colore corretto gamma per lo stesso attributo; impostando questo su true verrà usato il colore corretto gamma se possibile, altrimenti Aspose.3D proverà a utilizzare il colore originale. |
+| getGammaCorrectedColor() | Un file 3ds può contenere il colore originale e il colore corretto per gamma per lo stesso attributo; impostando questo valore su true verrà utilizzato il colore corretto per gamma se possibile, altrimenti Aspose.3D proverà a utilizzare il colore originale. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Opzioni di caricamento per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setGammaCorrectedColor(value) | Un file 3ds può contenere il colore originale e il colore corretto gamma per lo stesso attributo; impostando questo su true verrà usato il colore corretto gamma se possibile, altrimenti Aspose.3D proverà a utilizzare il colore originale. |
+| setGammaCorrectedColor(value) | Un file 3ds può contenere il colore originale e il colore corretto per gamma per lo stesso attributo; impostando questo valore su true verrà utilizzato il colore corretto per gamma se possibile, altrimenti Aspose.3D proverà a utilizzare il colore originale. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Opzioni di caricamento per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Opzioni di caricamento per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opzioni di caricamento per file 3DS.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

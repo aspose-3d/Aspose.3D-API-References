@@ -1,6 +1,6 @@
 ---
 title: "ShaderMaterial"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/shadermaterial/
 ---
 ## ShaderMaterial class
 
-Un materiale shader consente di descrivere il materiale tramite un motore di rendering esterno o un linguaggio shader.  ShaderMaterial utilizza ShaderTechnique per descrivere i dettagli concreti del rendering,  e quello più adatto verrà usato in base alla piattaforma di rendering finale.  Ad esempio, la tua istanza di ShaderMaterial può avere due tecniche, una definita in HLSL e un'altra definita in GLSL.  Su piattaforme non Windows, dovrebbe essere usato GLSL invece di HLSL
+Un materiale shader consente di descrivere il materiale tramite un motore di rendering esterno o un linguaggio shader.  ShaderMaterial utilizza ShaderTechnique per descrivere i dettagli concreti del rendering,  e quello più adatto verrà usato in base alla piattaforma di rendering finale.  Ad esempio, la tua istanza di ShaderMaterial può avere due tecniche, una definita in HLSL e un'altra definita in GLSL.  Su piattaforme non Windows il GLSL dovrebbe essere usato al posto di HLSL
 
 
 ## Metodi
@@ -36,7 +36,7 @@ Un materiale shader consente di descrivere il materiale tramite un motore di ren
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome |
+| name | String | Nome |
 
  **Result:**
 
@@ -49,7 +49,7 @@ Un materiale shader consente di descrivere il materiale tramite un motore di ren
 
 | Nome | Descrizione |
 | --- | --- |
-| getTechniques() | Restituisce tutte le tecniche disponibili definite in questo materiale. |
+| getTechniques() | Ottiene tutte le tecniche disponibili definite in questo materiale. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Un materiale shader consente di descrivere il materiale tramite un motore di ren
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| slotName | Stringa | Nome slot. |
+| slotName | String | Nome slot. |
 
  **Result:**
 TextureBase
@@ -126,7 +126,7 @@ TextureBase
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| slotName | Stringa | Nome slot. |
+| slotName | String | Nome slot. |
 | texture | TextureBase | Texture. |
 
  **Result:**
@@ -143,7 +143,7 @@ TextureBase
 | toString() | Formatta l'oggetto in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -159,7 +159,7 @@ Stringa
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -178,7 +178,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -197,10 +197,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -216,11 +216,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -230,16 +230,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---
@@ -252,7 +252,7 @@ Property
 | iterator() | Riservato per uso interno. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

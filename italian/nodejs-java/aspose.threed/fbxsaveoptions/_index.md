@@ -1,6 +1,6 @@
 ---
 title: "FbxSaveOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,13 +17,13 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| costruttore(format) | Inizializza un FbxSaveOptions |
+| constructor(format) | Inizializza un FbxSaveOptions |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| forma | FormatoFile | null |
+| forma | FileFormat | null |
 
  **Result:**
 
@@ -81,7 +81,7 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEnableCompression() | Compressione dei dati binari di grandi dimensioni nel file FBX (ad es. dati di animazione, punti di controllo, dati degli elementi dei vertici, indici), il valore predefinito è true. |
+| getEnableCompression() | Compressione di grandi dati binari nel file FBX (ad es. dati di animazione, punti di controllo, dati di elementi dei vertici, indici), il valore predefinito è true. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| setEnableCompression(value) | Compressione dei dati binari di grandi dimensioni nel file FBX (ad es. dati di animazione, punti di controllo, dati degli elementi dei vertici, indici), il valore predefinito è true. |
+| setEnableCompression(value) | Compressione di grandi dati binari nel file FBX (ad es. dati di animazione, punti di controllo, dati di elementi dei vertici, indici), il valore predefinito è true. |
 
  **Result:**
 
@@ -107,7 +107,7 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFoldRepeatedCurveData() | Ottiene o imposta se riutilizzare i dati di curva ripetuti incrementando il conteggio di riferimento dell'ultimo dato; true se si comprimono i dati di curva ripetuti, altrimenti false. |
+| getFoldRepeatedCurveData() | Ottiene o imposta se riutilizzare i dati di curve ripetute aumentando il contatore di riferimento dell'ultimo dato; true se si comprimono i dati di curve ripetute, altrimenti false. |
 
  **Result:**
 
@@ -172,7 +172,7 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEmbedTextures() | Ottiene o imposta se incorporare la texture nel file di output finale. L'Esportatore FBX cercherà i dati grezzi della texture nel FileSystem e incorporerà il file nel file FBX finale. Il valore predefinito è false. |
+| getEmbedTextures() | Ottiene o imposta se incorporare la texture nel file di output finale. FBX Exporter cercherà i dati grezzi della texture nel FileSystem e incorporerà il file nel file FBX finale. Il valore predefinito è false. |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| setEmbedTextures(value) | Ottiene o imposta se incorporare la texture nel file di output finale. L'Esportatore FBX cercherà i dati grezzi della texture nel FileSystem e incorporerà il file nel file FBX finale. Il valore predefinito è false. |
+| setEmbedTextures(value) | Ottiene o imposta se incorporare la texture nel file di output finale. FBX Exporter cercherà i dati grezzi della texture nel FileSystem e incorporerà il file nel file FBX finale. Il valore predefinito è false. |
 
  **Result:**
 
@@ -263,7 +263,7 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -276,7 +276,7 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -289,7 +289,7 @@ Opzioni di salvataggio per file Fbx.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

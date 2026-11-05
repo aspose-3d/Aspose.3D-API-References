@@ -1,6 +1,6 @@
 ---
 title: "AnimationNode"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -23,7 +23,7 @@ Aspose.3D supporta la gerarchia di animazione, ogni animazione può essere compo
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome |
+| name | String | Nome |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Aspose.3D supporta la gerarchia di animazione, ogni animazione può essere compo
 
 | Nome | Descrizione |
 | --- | --- |
-| getSubAnimations() | Ottiene i nodi di sotto-animazione delle animazioni correnti |
+| getSubAnimations() | Ottiene i nodi di sotto-animazione sotto le animazioni correnti |
 
  **Result:**
 
@@ -114,13 +114,13 @@ Aspose.3D supporta la gerarchia di animazione, ogni animazione può essere compo
 
 | Nome | Descrizione |
 | --- | --- |
-| findBindPoint(name) | Trova il punto di binding per nome. |
+| findBindPoint(name) | Trova il punto di collegamento per nome. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome del punto di binding da trovare. |
+| name | String | Nome del punto di collegamento da trovare. |
 
  **Result:**
 BindPoint
@@ -140,8 +140,8 @@ BindPoint
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | target | A3DObject | Su quale oggetto creare il punto di collegamento. |
-| propName | Stringa | Il nome della proprietà. |
-| crea | boolean | Se impostato a |
+| propName | String | Il nome della proprietà. |
+| create | boolean | Se impostato a |
 
  **Result:**
 BindPoint
@@ -154,16 +154,16 @@ BindPoint
 
 | Nome | Descrizione |
 | --- | --- |
-| getKeyframeSequence(target, propName, channelName, create) | Ottiene la sequenza di fotogrammi chiave sulla proprietà e sul canale specificati. |
+| getKeyframeSequence(target, propName, channelName, create) | Ottiene la sequenza di fotogrammi chiave sulla proprietà e canale specificati. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | target | A3DObject | Su quale istanza creare la sequenza di fotogrammi chiave. |
-| propName | Stringa | Il nome della proprietà. |
-| channelName | Stringa | Il nome del canale. |
-| crea | boolean | Se impostato a |
+| propName | String | Il nome della proprietà. |
+| channelName | String | Il nome del canale. |
+| create | boolean | Se impostato a |
 
  **Result:**
 KeyframeSequence
@@ -183,8 +183,8 @@ KeyframeSequence
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | target | A3DObject | Su quale istanza creare la sequenza di fotogrammi chiave. |
-| propName | Stringa | Il nome della proprietà. |
-| crea | boolean | Se impostato a |
+| propName | String | Il nome della proprietà. |
+| create | boolean | Se impostato a |
 
  **Result:**
 KeyframeSequence
@@ -203,8 +203,8 @@ KeyframeSequence
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | A3DObject | Object. |
-| propName | Stringa | Nome della proprietà. |
+| obj | A3DObject | Oggetto. |
+| propName | String | Nome della proprietà. |
 
  **Result:**
 BindPoint
@@ -223,7 +223,7 @@ BindPoint
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -242,7 +242,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -261,10 +261,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -280,11 +280,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -294,16 +294,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

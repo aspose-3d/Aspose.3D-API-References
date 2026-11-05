@@ -1,6 +1,6 @@
 ---
 title: "RvmLoadOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/rvmloadoptions/
 ---
 ## RvmLoadOptions class
 
-Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
+Opzioni di caricamento per il file RVM del AVEVA Plant Design Management System.
 
 
 ## Metodi
@@ -49,7 +49,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getGenerateMaterials() | Genera materiali con colori casuali per ogni oggetto nella scena se la tavola dei colori non è esportata nel file RVM. Il valore predefinito è true. |
+| getGenerateMaterials() | Genera materiali con colori casuali per ogni oggetto nella scena se la tavola dei colori non è esportata nel file RVM. Il valore predefinito è true |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| setGenerateMaterials(value) | Genera materiali con colori casuali per ogni oggetto nella scena se la tavola dei colori non è esportata nel file RVM. Il valore predefinito è true. |
+| setGenerateMaterials(value) | Genera materiali con colori casuali per ogni oggetto nella scena se la tavola dei colori non è esportata nel file RVM. Il valore predefinito è true |
 
  **Result:**
 
@@ -75,7 +75,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getCylinderRadialSegments() | Ottiene o imposta il numero di segmenti radiali del cilindro, valore predefinito è 16. |
+| getCylinderRadialSegments() | Ottiene o imposta il numero di segmenti radiali del cilindro, il valore predefinito è 16 |
 
  **Result:**
 
@@ -88,7 +88,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| setCylinderRadialSegments(value) | Ottiene o imposta il numero di segmenti radiali del cilindro, valore predefinito è 16. |
+| setCylinderRadialSegments(value) | Ottiene o imposta il numero di segmenti radiali del cilindro, il valore predefinito è 16 |
 
  **Result:**
 
@@ -101,7 +101,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getDishLongitudeSegments() | Ottiene o imposta il numero di segmenti di longitudine del piatto, valore predefinito è 12. |
+| getDishLongitudeSegments() | Ottiene o imposta il numero di segmenti di longitudine del piatto, il valore predefinito è 12 |
 
  **Result:**
 
@@ -114,7 +114,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| setDishLongitudeSegments(value) | Ottiene o imposta il numero di segmenti di longitudine del piatto, valore predefinito è 12. |
+| setDishLongitudeSegments(value) | Ottiene o imposta il numero di segmenti di longitudine del piatto, il valore predefinito è 12 |
 
  **Result:**
 
@@ -127,7 +127,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getDishLatitudeSegments() | Ottiene o imposta il numero di segmenti di latitudine del piatto, valore predefinito è 8. |
+| getDishLatitudeSegments() | Ottiene o imposta il numero di segmenti di latitudine del piatto, il valore predefinito è 8 |
 
  **Result:**
 
@@ -140,7 +140,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| setDishLatitudeSegments(value) | Ottiene o imposta il numero di segmenti di latitudine del piatto, valore predefinito è 8. |
+| setDishLatitudeSegments(value) | Ottiene o imposta il numero di segmenti di latitudine del piatto, il valore predefinito è 8 |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getTorusTubularSegments() | Ottiene o imposta il numero di segmenti tubolari del toro, valore predefinito è 20. |
+| getTorusTubularSegments() | Ottiene o imposta il numero di segmenti tubolari del toro, il valore predefinito è 20 |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| setTorusTubularSegments(value) | Ottiene o imposta il numero di segmenti tubolari del toro, valore predefinito è 20. |
+| setTorusTubularSegments(value) | Ottiene o imposta il numero di segmenti tubolari del toro, il valore predefinito è 20 |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getRectangularTorusSegments() | Ottiene o imposta il numero di segmenti radiali del toro rettangolare, valore predefinito è 20. |
+| getRectangularTorusSegments() | Ottiene o imposta il numero di segmenti radiali del toro rettangolare, il valore predefinito è 20 |
 
  **Result:**
 
@@ -192,7 +192,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| setRectangularTorusSegments(value) | Ottiene o imposta il numero di segmenti radiali del toro rettangolare, valore predefinito è 20. |
+| setRectangularTorusSegments(value) | Ottiene o imposta il numero di segmenti radiali del toro rettangolare, il valore predefinito è 20 |
 
  **Result:**
 
@@ -231,7 +231,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getAttributePrefix() | Ottiene o imposta il prefisso degli attributi che sono stati definiti nei file di attributi esterni, Il prefisso è usato per evitare conflitti di nome, il valore predefinito è "rvm:" |
+| getAttributePrefix() | Ottiene o imposta il prefisso degli attributi definiti nei file di attributi esterni. Il prefisso è usato per evitare conflitti di nome, il valore predefinito è "rvm:" |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| setAttributePrefix(value) | Ottiene o imposta il prefisso degli attributi che sono stati definiti nei file di attributi esterni, Il prefisso è usato per evitare conflitti di nome, il valore predefinito è "rvm:" |
+| setAttributePrefix(value) | Ottiene o imposta il prefisso degli attributi definiti nei file di attributi esterni. Il prefisso è usato per evitare conflitti di nome, il valore predefinito è "rvm:" |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -309,7 +309,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -322,7 +322,7 @@ Opzioni di caricamento per il file RVM di AVEVA Plant Design Management System.
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

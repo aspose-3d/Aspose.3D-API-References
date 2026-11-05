@@ -1,6 +1,6 @@
 ---
 title: "VertexElementSpecular"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/vertexelementspecular/
 ---
 ## VertexElementSpecular class
 
-Definisce il colore speculare per le componenti specificate.
+Definisce il colore speculare per i componenti specificati.
 
 
 ## Metodi
@@ -134,7 +134,7 @@ Definisce il colore speculare per le componenti specificate.
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndices() | Ottiene i dati degli indici. L'array di indici. |
+| getIndices() | Ottiene i dati degli indici. L'array degli indici. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Definisce il colore speculare per le componenti specificate.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| target | VertexElementVector4 | Target. |
+| target | VertexElementVector4 | Obiettivo. |
 
  **Result:**
 
@@ -185,7 +185,7 @@ Definisce il colore speculare per le componenti specificate.
 
 | Nome | Descrizione |
 | --- | --- |
-| clear() | Rimuove tutti gli elementi dagli array direct e index. |
+| clear() | Rimuove tutti gli elementi dagli array diretti e di indice. |
 
  **Result:**
 
@@ -217,10 +217,10 @@ Definisce il colore speculare per le componenti specificate.
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Rappresentazione stringa dell'elemento vertex. |
+| toString() | Rappresentazione stringa dell'elemento vertice. |
 
  **Result:**
-Stringa
+String
 
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "MorphTargetChannel"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/morphtargetchannel/
 ---
 ## MorphTargetChannel class
 
-Un MorphTargetChannel è usato da MorphTargetDeformer per organizzare le geometrie target.  Alcuni formati di file come FBX supportano più canali in parallelo.  Il peso è compreso tra 0 e 1.0, e il peso predefinito per il target è 0.0;
+Un MorphTargetChannel è usato da MorphTargetDeformer per organizzare le geometrie target.  Alcuni formati di file come FBX supportano più canali in parallelo.  Il peso è compreso tra 0 e 1,0, e il peso predefinito per il target è 0,0;
 
 
 ## Proprietà
@@ -29,7 +29,7 @@ Un MorphTargetChannel è usato da MorphTargetDeformer per organizzare le geometr
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome. |
+| name | String | Nome. |
 
  **Result:**
 
@@ -94,7 +94,7 @@ Un MorphTargetChannel è usato da MorphTargetDeformer per organizzare le geometr
 
 | Nome | Descrizione |
 | --- | --- |
-| getTargets() | Ottiene tutti i target associati al canale. |
+| getTargets() | Restituisce tutti i target associati al canale. |
 
  **Result:**
 
@@ -178,7 +178,7 @@ Un MorphTargetChannel è usato da MorphTargetDeformer per organizzare le geometr
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| obiettivo | Forma | null |
+| targe | Forma | null |
 
  **Result:**
 Numero
@@ -197,7 +197,7 @@ Numero
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| obiettivo | Forma | null |
+| targe | Forma | null |
 | pesare | Numero | null |
 
  **Result:**
@@ -217,7 +217,7 @@ Numero
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -236,7 +236,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -255,10 +255,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -274,11 +274,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -288,16 +288,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

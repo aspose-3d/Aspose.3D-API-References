@@ -1,6 +1,6 @@
 ---
 title: "PlyFormat"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Il formato PLY.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getVersion() | Ottiene la versione del formato file |
+| getVersion() | Restituisce la versione del formato file |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Il formato PLY.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getExtension() | Ottiene il nome dell'estensione di questo tipo. |
+| getExtension() | Restituisce il nome dell'estensione di questo tipo. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Il formato PLY.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getExtensions() | Ottiene i nomi delle estensioni di questo tipo. |
+| getExtensions() | Restituisce i nomi delle estensioni di questo tipo. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Il formato PLY.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getContentType() | Ottiene il tipo di contenuto del formato file. Il valore della proprietà è la costante intera FileContentType. |
+| getContentType() | Restituisce il tipo di contenuto del formato file. Il valore della proprietà è la costante intera FileContentType. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Il formato PLY.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileFormatType() | Ottiene il tipo di formato file |
+| getFileFormatType() | Restituisce il tipo di formato file |
 
  **Result:**
 
@@ -88,8 +88,8 @@ Il formato PLY.  @hideconstructor
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| entity | Entità | L'entità da codificare |
-| fileName | Stringa | Il file su cui scrivere |
+| entità | Entità | L'entità da codificare |
+| fileName | String | Il file su cui scrivere |
 
  **Result:**
 
@@ -108,8 +108,8 @@ Il formato PLY.  @hideconstructor
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| entity | Entità | L'entità da codificare |
-| fileName | Stringa | Il file su cui scrivere |
+| entità | Entità | L'entità da codificare |
+| fileName | String | Il file su cui scrivere |
 | opt | PlySaveOptions | Opzioni di salvataggio |
 
  **Result:**
@@ -129,7 +129,7 @@ Il formato PLY.  @hideconstructor
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Lo stream di input |
+| fileName | String | Lo stream di input |
 
  **Result:**
 Geometry
@@ -148,7 +148,7 @@ Geometry
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Lo stream di input |
+| fileName | String | Lo stream di input |
 | opt | PlyLoadOptions | L'opzione di caricamento del formato PLY |
 
  **Result:**
@@ -162,7 +162,7 @@ Geometry
 
 | Nome | Descrizione |
 | --- | --- |
-| createLoadOptions() | Crea le opzioni di caricamento predefinite per questo formato file |
+| createLoadOptions() | Crea un'opzione di caricamento predefinita per questo formato file |
 
  **Result:**
 LoadOptions
@@ -175,7 +175,7 @@ LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| createSaveOptions() | Crea le opzioni di salvataggio predefinite per questo formato file |
+| createSaveOptions() | Crea un'opzione di salvataggio predefinita per questo formato file |
 
  **Result:**
 SaveOptions
@@ -191,7 +191,7 @@ SaveOptions
 | toString() | Formati in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---

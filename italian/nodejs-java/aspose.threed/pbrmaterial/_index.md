@@ -1,6 +1,6 @@
 ---
 title: "PbrMaterial"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/pbrmaterial/
 ---
 ## PbrMaterial class
 
-Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
+Materiale per il rendering basato sulla fisica basato su colore albedo/metallo/ruvidità
 
 
 ## Metodi
@@ -49,7 +49,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Descrizione |
 | --- | --- |
-| getTransparency() | Ottiene o imposta il fattore di trasparenza. Il fattore deve essere compreso tra 0(0%, completamente opaco) e 1(100%, completamente trasparente). Qualsiasi valore di fattore non valido verrà limitato. Il fattore di trasparenza. |
+| getTransparency() | Ottiene o imposta il fattore di trasparenza. Il fattore deve essere compreso tra 0 (0%, completamente opaco) e 1 (100%, completamente trasparente). Qualsiasi valore di fattore non valido verrà limitato. Il fattore di trasparenza. |
 
  **Result:**
 
@@ -62,7 +62,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Descrizione |
 | --- | --- |
-| setTransparency(value) | Ottiene o imposta il fattore di trasparenza. Il fattore deve essere compreso tra 0(0%, completamente opaco) e 1(100%, completamente trasparente). Qualsiasi valore di fattore non valido verrà limitato. Il fattore di trasparenza. |
+| setTransparency(value) | Ottiene o imposta il fattore di trasparenza. Il fattore deve essere compreso tra 0 (0%, completamente opaco) e 1 (100%, completamente trasparente). Qualsiasi valore di fattore non valido verrà limitato. Il fattore di trasparenza. |
 
  **Result:**
 
@@ -153,7 +153,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Descrizione |
 | --- | --- |
-| getAlbedo() | Ottiene o imposta il colore base del materiale |
+| getAlbedo() | Ottiene o imposta il colore di base del materiale |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Descrizione |
 | --- | --- |
-| setAlbedo(value) | Ottiene o imposta il colore base del materiale |
+| setAlbedo(value) | Ottiene o imposta il colore di base del materiale |
 
  **Result:**
 
@@ -205,7 +205,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Descrizione |
 | --- | --- |
-| getOcclusionFactor() | Ottiene o imposta il fattore di occlusione ambientale |
+| getOcclusionFactor() | Ottiene o imposta il fattore dell'occlusione ambientale |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Descrizione |
 | --- | --- |
-| setOcclusionFactor(value) | Ottiene o imposta il fattore di occlusione ambientale |
+| setOcclusionFactor(value) | Ottiene o imposta il fattore dell'occlusione ambientale |
 
  **Result:**
 
@@ -283,7 +283,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Descrizione |
 | --- | --- |
-| getMetallicRoughness() | Ottiene o imposta la texture per la metallicità (nel canale R) e la rugosità (nel canale G) |
+| getMetallicRoughness() | Ottiene o imposta la texture per metallic (nel canale R) e roughness (nel canale G) |
 
  **Result:**
 
@@ -296,7 +296,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Descrizione |
 | --- | --- |
-| setMetallicRoughness(value) | Ottiene o imposta la texture per la metallicità (nel canale R) e la rugosità (nel canale G) |
+| setMetallicRoughness(value) | Ottiene o imposta la texture per metallic (nel canale R) e roughness (nel canale G) |
 
  **Result:**
 
@@ -406,7 +406,7 @@ Materiale per il rendering fisicamente basato su colore albedo/metallo/ruvidità
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| materiale | Materiale | null |
+| materia | Materiale | null |
 
  **Result:**
 PbrMaterial
@@ -425,7 +425,7 @@ PbrMaterial
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| slotName | Stringa | Nome slot. |
+| slotName | String | Nome slot. |
 
  **Result:**
 TextureBase
@@ -444,7 +444,7 @@ TextureBase
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| slotName | Stringa | Nome slot. |
+| slotName | String | Nome slot. |
 | texture | TextureBase | Texture. |
 
  **Result:**
@@ -461,7 +461,7 @@ TextureBase
 | toString() | Formatta l'oggetto in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -477,7 +477,7 @@ Stringa
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -496,7 +496,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -515,10 +515,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -534,11 +534,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -548,16 +548,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---
@@ -570,7 +570,7 @@ Property
 | iterator() | Riservato per uso interno. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

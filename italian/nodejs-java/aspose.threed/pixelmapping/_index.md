@@ -1,6 +1,6 @@
 ---
 title: "PixelMapping"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ url: /it/nodejs-java/aspose.threed/pixelmapping/
 
 | Nome | Descrizione |
 | --- | --- |
-| getStride() | Byte di pixel in una riga. |
+| getStride() | Byte dei pixel in una riga. |
 
  **Result:**
 

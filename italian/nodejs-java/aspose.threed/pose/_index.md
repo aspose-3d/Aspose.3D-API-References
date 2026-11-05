@@ -1,6 +1,6 @@
 ---
 title: "Pose"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/pose/
 ---
 ## Pose class
 
-La posa è usata per memorizzare la matrice di trasformazione quando la geometria è skinned. La posa è un insieme di BonePose, ogni BonePose salva le informazioni concrete di trasformazione del nodo osso.
+La posa è usata per memorizzare la matrice di trasformazione quando la geometria è skinned.  La posa è un insieme di BonePose, ciascun BonePose salva le informazioni concrete di trasformazione del nodo osso.
 
 
 ## Metodi
@@ -23,7 +23,7 @@ La posa è usata per memorizzare la matrice di trasformazione quando la geometri
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome |
+| name | String | Nome |
 
  **Result:**
 
@@ -127,14 +127,14 @@ La posa è usata per memorizzare la matrice di trasformazione quando la geometri
 
 | Nome | Descrizione |
 | --- | --- |
-| addBonePose(node, matrix, localMatrix) | Salva la matrice di trasformazione della posa per il nodo osseo fornito. |
+| addBonePose(node, matrix, localMatrix) | Salva la matrice di trasformazione della posa per il nodo osso fornito. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| node | Nodo | Nodo osseo. |
-| matrix | Matrix4 | Matrice di trasformazione. |
+| nodo | Nodo | Nodo osso. |
+| matrice | Matrix4 | Matrice di trasformazione. |
 | localMatrix | boolean | Se impostato a |
 
  **Result:**
@@ -154,8 +154,8 @@ La posa è usata per memorizzare la matrice di trasformazione quando la geometri
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| node | Nodo | Nodo osseo. |
-| matrix | Matrix4 | Matrice di trasformazione. |
+| nodo | Nodo | Nodo osso. |
+| matrice | Matrix4 | Matrice di trasformazione. |
 
  **Result:**
 
@@ -174,7 +174,7 @@ La posa è usata per memorizzare la matrice di trasformazione quando la geometri
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -193,7 +193,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -212,10 +212,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -231,11 +231,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -245,16 +245,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

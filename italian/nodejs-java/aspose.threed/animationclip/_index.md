@@ -1,6 +1,6 @@
 ---
 title: "AnimationClip"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/animationclip/
 ---
 ## AnimationClip class
 
-Il clip di Animazione è una raccolta di animazioni.  La scena può avere uno o più clip di animazione.
+Il clip di animazione è una raccolta di animazioni.  La scena può avere uno o più clip di animazione.
 
 
 ## Metodi
@@ -36,7 +36,7 @@ Il clip di Animazione è una raccolta di animazioni.  La scena può avere uno o 
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome |
+| name | String | Nome |
 
  **Result:**
 
@@ -198,7 +198,7 @@ Il clip di Animazione è una raccolta di animazioni.  La scena può avere uno o 
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| nodeName | Stringa | Nome del nuovo nodo di animazione |
+| nodeName | String | Nome del nuovo nodo di animazione |
 
  **Result:**
 AnimationNode
@@ -217,7 +217,7 @@ AnimationNode
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -236,7 +236,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -255,10 +255,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -274,11 +274,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -288,16 +288,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

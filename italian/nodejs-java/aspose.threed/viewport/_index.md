@@ -1,6 +1,6 @@
 ---
 title: "Viewport"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| getFrustum() | Ottiene o imposta la telecamera di questo Viewport |
+| getFrustum() | Ottiene o imposta la fotocamera di questo Viewport |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| setFrustum(value) | Ottiene o imposta la telecamera di questo Viewport |
+| setFrustum(value) | Ottiene o imposta la fotocamera di questo Viewport |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| getRenderTarget() | Ottiene il render target che ha creato questa viewport. |
+| getRenderTarget() | Ottiene il render target che ha creato questo viewport. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| getArea() | Ottiene o imposta l'area della viewport nel render target. |
+| getArea() | Ottiene o imposta l'area del viewport nel render target. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| setArea(value) | Ottiene o imposta l'area della viewport nel render target. |
+| setArea(value) | Ottiene o imposta l'area del viewport nel render target. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| getZOrder() | Ottiene o imposta l'ordine Z della viewport. |
+| getZOrder() | Ottiene o imposta l'ordine Z del viewport. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| setZOrder(value) | Ottiene o imposta l'ordine Z della viewport. |
+| setZOrder(value) | Ottiene o imposta l'ordine Z del viewport. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| getBackgroundColor() | Ottiene o imposta il colore di sfondo della viewport. |
+| getBackgroundColor() | Ottiene o imposta il colore di sfondo del viewport. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| setBackgroundColor(value) | Ottiene o imposta il colore di sfondo della viewport. |
+| setBackgroundColor(value) | Ottiene o imposta il colore di sfondo del viewport. |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| getDepthClear() | Ottiene o imposta il valore di profondità usato quando si pulisce la viewport con il bit del buffer di profondità impostato. |
+| getDepthClear() | Ottiene o imposta il valore di profondità usato quando si cancella il viewport con il bit del buffer di profondità impostato. |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Un com.aspose.threed.IRenderTarget contiene almeno una viewport per il rendering
 
 | Nome | Descrizione |
 | --- | --- |
-| setDepthClear(value) | Ottiene o imposta il valore di profondità usato quando si pulisce la viewport con il bit del buffer di profondità impostato. |
+| setDepthClear(value) | Ottiene o imposta il valore di profondità usato quando si cancella il viewport con il bit del buffer di profondità impostato. |
 
  **Result:**
 

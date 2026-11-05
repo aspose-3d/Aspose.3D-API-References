@@ -1,6 +1,6 @@
 ---
 title: "KeyframeSequence"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/keyframesequence/
 ---
 ## KeyframeSequence class
 
-La sequenza di key-frame, descrive la trasformazione di un valore campionato nel tempo.
+La sequenza di fotogrammi chiave, descrive la trasformazione di un valore campionato nel tempo.
 
 
 ## Metodi
@@ -23,7 +23,7 @@ La sequenza di key-frame, descrive la trasformazione di un valore campionato nel
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome |
+| name | String | Nome |
 
  **Result:**
 
@@ -75,7 +75,7 @@ La sequenza di key-frame, descrive la trasformazione di un valore campionato nel
 
 | Nome | Descrizione |
 | --- | --- |
-| getPostBehavior() | Ottiene il comportamento post che indica quale valore campionato dovrebbe essere dopo l'ultimo fotogramma chiave. |
+| getPostBehavior() | Ottiene il comportamento post che indica quale dovrebbe essere il valore campionato dopo l'ultimo fotogramma chiave. |
 
  **Result:**
 
@@ -88,7 +88,7 @@ La sequenza di key-frame, descrive la trasformazione di un valore campionato nel
 
 | Nome | Descrizione |
 | --- | --- |
-| getPreBehavior() | Ottiene il comportamento pre che indica quale valore campionato dovrebbe essere prima del primo fotogramma. |
+| getPreBehavior() | Ottiene il comportamento pre che indica quale dovrebbe essere il valore campionato prima della prima chiave. |
 
  **Result:**
 
@@ -200,7 +200,7 @@ La sequenza di key-frame, descrive la trasformazione di un valore campionato nel
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -219,7 +219,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -238,10 +238,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -257,11 +257,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -271,16 +271,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---
@@ -293,7 +293,7 @@ Property
 | iterator() | Riservato per uso interno. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

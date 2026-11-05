@@ -1,6 +1,6 @@
 ---
 title: "SPIRVSource"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -30,7 +30,7 @@ Lo shader compilato in formato SPIR-V.
 
 | Nome | Descrizione |
 | --- | --- |
-| getMaximumDescriptorSets() | Set di descrittori massimi, valore predefinito è 10 |
+| getMaximumDescriptorSets() | Numero massimo di set di descrittori, il valore predefinito è 10 |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Lo shader compilato in formato SPIR-V.
 
 | Nome | Descrizione |
 | --- | --- |
-| setMaximumDescriptorSets(value) | Set di descrittori massimi, valore predefinito è 10 |
+| setMaximumDescriptorSets(value) | Numero massimo di set di descrittori, il valore predefinito è 10 |
 
  **Result:**
 

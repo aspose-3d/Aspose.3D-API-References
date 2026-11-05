@@ -1,6 +1,6 @@
 ---
 title: "RenderState"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -30,7 +30,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getBlend() | Abilita o disabilita la fusione dei frammenti. |
+| getBlend() | Abilita o disabilita la miscelazione dei frammenti. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| setBlend(value) | Abilita o disabilita la fusione dei frammenti. |
+| setBlend(value) | Abilita o disabilita la miscelazione dei frammenti. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getBlendColor() | Ottiene o imposta il colore di fusione dove è usato in BlendFactor.CONSTANT_COLOR |
+| getBlendColor() | Ottiene o imposta il colore di miscelazione dove è usato in BlendFactor.CONSTANT_COLOR |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| setBlendColor(value) | Ottiene o imposta il colore di fusione dove è usato in BlendFactor.CONSTANT_COLOR |
+| setBlendColor(value) | Ottiene o imposta il colore di miscelazione dove è usato in BlendFactor.CONSTANT_COLOR |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getSourceBlendFactor() | Ottiene o imposta come il colore è fuso. Il valore della proprietà è una costante intera di BlendFactor. |
+| getSourceBlendFactor() | Ottiene o imposta come il colore è miscelato. Il valore della proprietà è una costante intera di BlendFactor. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| setSourceBlendFactor(value) | Ottiene o imposta come il colore è fuso. Il valore della proprietà è una costante intera di BlendFactor. |
+| setSourceBlendFactor(value) | Ottiene o imposta come il colore è miscelato. Il valore della proprietà è una costante intera di BlendFactor. |
 
  **Result:**
 
@@ -108,7 +108,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getDestinationBlendFactor() | Ottiene o imposta come il colore è fuso. Il valore della proprietà è una costante intera di BlendFactor. |
+| getDestinationBlendFactor() | Ottiene o imposta come il colore è miscelato. Il valore della proprietà è una costante intera di BlendFactor. |
 
  **Result:**
 
@@ -121,7 +121,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| setDestinationBlendFactor(value) | Ottiene o imposta come il colore è fuso. Il valore della proprietà è una costante intera di BlendFactor. |
+| setDestinationBlendFactor(value) | Ottiene o imposta come il colore è miscelato. Il valore della proprietà è una costante intera di BlendFactor. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getCullFace() | Abilita o disabilita il cull face |
+| getCullFace() | Abilita o disabilita cull face |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| setCullFace(value) | Abilita o disabilita il cull face |
+| setCullFace(value) | Abilita o disabilita cull face |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getFrontFace() | Ottiene o imposta quale ordine è la faccia anteriore. Il valore della proprietà è la costante intera FrontFace. |
+| getFrontFace() | Ottiene o imposta quale ordine è la faccia frontale. Il valore della proprietà è la costante intera FrontFace. |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| setFrontFace(value) | Ottiene o imposta quale ordine è la faccia anteriore. Il valore della proprietà è la costante intera FrontFace. |
+| setFrontFace(value) | Ottiene o imposta quale ordine è la faccia frontale. Il valore della proprietà è la costante intera FrontFace. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getStencilMask() | Ottiene o imposta la maschera che viene ANData sia con il valore di riferimento sia con il valore stencil memorizzato quando il test è completato. |
+| getStencilMask() | Ottiene o imposta la maschera che viene ANData sia con il riferimento sia con il valore stencil memorizzato quando il test è completato. |
 
  **Result:**
 
@@ -368,7 +368,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getStencilBackFace() | Ottiene lo stato dello stencil per la faccia posteriore. |
+| getStencilBackFace() | Ottiene lo stato stencil per la faccia posteriore. |
 
  **Result:**
 
@@ -381,7 +381,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| getScissorTest() | Abilita o disabilita il test di scissor |
+| getScissorTest() | Abilita o disabilita il test scissor |
 
  **Result:**
 
@@ -394,7 +394,7 @@ Stato di rendering per la costruzione della pipeline  Le modifiche apportate all
 
 | Nome | Descrizione |
 | --- | --- |
-| setScissorTest(value) | Abilita o disabilita il test di scissor |
+| setScissorTest(value) | Abilita o disabilita il test scissor |
 
  **Result:**
 

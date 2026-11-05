@@ -1,6 +1,6 @@
 ---
 title: "NurbsDirection"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/nurbsdirection/
 ---
 ## NurbsDirection class
 
-Una NurbsSurface 3D ha due direzioni, NurbsSurface.U e NurbsSurface.V; NurbsDirection definisce i dati per ciascuna direzione.  Una direzione è in realtà una curva NURBS, il che significa che è anche definita dal suo Ordine, da KnotVectors e da un insieme di punti di controllo ponderati (definiti in NurbsSurface).
+Una NurbsSurface 3D ha due direzioni, NurbsSurface.U e NurbsSurface.V; la NurbsDirection definisce i dati per ciascuna direzione.  Una direzione è in realtà una curva NURBS, il che significa che è anch'essa definita dal suo Ordine, da un KnotVectors e da un insieme di punti di controllo ponderati (definiti in NurbsSurface).
 
 
 ## Metodi
@@ -56,7 +56,7 @@ Una NurbsSurface 3D ha due direzioni, NurbsSurface.U e NurbsSurface.V; NurbsDire
 
 | Nome | Descrizione |
 | --- | --- |
-| getOrder() | Ottiene o imposta l'ordine di una curva NURBS, definisce il numero di punti di controllo vicini che influenzano qualsiasi punto sulla curva. |
+| getOrder() | Ottiene o imposta l'ordine di una curva NURBS, definisce il numero di punti di controllo vicini che influenzano ogni punto della curva. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Una NurbsSurface 3D ha due direzioni, NurbsSurface.U e NurbsSurface.V; NurbsDire
 
 | Nome | Descrizione |
 | --- | --- |
-| setOrder(value) | Ottiene o imposta l'ordine di una curva NURBS, definisce il numero di punti di controllo vicini che influenzano qualsiasi punto sulla curva. |
+| setOrder(value) | Ottiene o imposta l'ordine di una curva NURBS, definisce il numero di punti di controllo vicini che influenzano ogni punto della curva. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Una NurbsSurface 3D ha due direzioni, NurbsSurface.U e NurbsSurface.V; NurbsDire
 
 | Nome | Descrizione |
 | --- | --- |
-| getDivisions() | Ottiene o imposta il numero di divisioni tra punti di controllo adiacenti nella direzione corrente. Il passo. |
+| getDivisions() | Ottiene o imposta il numero di divisioni tra i punti di controllo adiacenti nella direzione corrente. Il passo. |
 
  **Result:**
 
@@ -95,7 +95,7 @@ Una NurbsSurface 3D ha due direzioni, NurbsSurface.U e NurbsSurface.V; NurbsDire
 
 | Nome | Descrizione |
 | --- | --- |
-| setDivisions(value) | Ottiene o imposta il numero di divisioni tra punti di controllo adiacenti nella direzione corrente. Il passo. |
+| setDivisions(value) | Ottiene o imposta il numero di divisioni tra i punti di controllo adiacenti nella direzione corrente. Il passo. |
 
  **Result:**
 

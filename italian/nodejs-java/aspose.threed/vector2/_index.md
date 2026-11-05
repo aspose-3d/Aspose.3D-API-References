@@ -1,6 +1,6 @@
 ---
 title: "Vector2"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -15,8 +15,8 @@ Un vettore con due componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| x | Il componente x. |
-| y | Il componente y. |
+| x | La componente x. |
+| y | La componente y. |
 
 ## Metodi
 
@@ -160,7 +160,7 @@ Un vettore con due componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| dot(rhs) | Ottiene il prodotto scalare di due vettori |
+| dot(rhs) | Restituisce il prodotto scalare di due vettori |
 
  **Parameters:**
 
@@ -217,7 +217,7 @@ Numero
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Oggetto | L'oggetto da confrontare. |
+| obj | Object | L'oggetto da confrontare. |
 
  **Result:**
 boolean
@@ -233,7 +233,7 @@ boolean
 | toString() | Restituisce una java.lang.String che rappresenta il Vector2 corrente. |
 
  **Result:**
-Stringa
+String
 
 
 ---

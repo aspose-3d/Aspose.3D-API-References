@@ -1,6 +1,6 @@
 ---
 title: "Vector4"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -15,8 +15,8 @@ Un vettore con quattro componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| x | Il componente x. |
-| y | Il componente y. |
+| x | La componente x. |
+| y | La componente y. |
 | z | Il componente z. |
 | w | Il componente w. |
 
@@ -140,7 +140,7 @@ Un vettore con quattro componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| set(newX, newY, newZ) | Imposta i componenti xyz del vettore contemporaneamente, w verrà impostato a 1 |
+| set(newX, newY, newZ) | Imposta i componenti xyz del vettore in una sola volta, w sarà impostato a 1. |
 
  **Parameters:**
 
@@ -167,7 +167,7 @@ Un vettore con quattro componenti.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| ob | Oggetto | null |
+| ob | Object | null |
 
  **Result:**
 boolean
@@ -180,7 +180,7 @@ boolean
 
 | Nome | Descrizione |
 | --- | --- |
-| hashCode() | Ottiene il codice hash di questo vettore |
+| hashCode() | Restituisce il codice hash di questo vettore |
 
  **Result:**
 Numero
@@ -193,7 +193,7 @@ Numero
 
 | Nome | Descrizione |
 | --- | --- |
-| set(newX, newY, newZ, newW) | Imposta tutti i componenti del vettore contemporaneamente |
+| set(newX, newY, newZ, newW) | Imposta tutti i componenti del vettore in una volta |
 
  **Parameters:**
 
@@ -218,7 +218,7 @@ Numero
 | toString() | Restituisce una java.lang.String che rappresenta il Vector4 corrente. |
 
  **Result:**
-Stringa
+String
 
 
 ---

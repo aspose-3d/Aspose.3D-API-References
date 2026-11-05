@@ -1,6 +1,6 @@
 ---
-title: "Pyramid"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "Piramide"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/pyramid/
 ---
 ## Pyramid class
 
-Piramide parametrica.
+Piramide parametrizzata.
 
 
 ## Metodi
@@ -17,7 +17,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor() | Crea una nuova istanza di piramide con area di base predefinita (10, 10) e altezza predefinita (5) |
+| constructor() | Crea una nuova istanza di piramide con area di base predefinita (10, 10) e altezza predefinita (5). |
 
  **Result:**
 
@@ -30,15 +30,15 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload(xbottom, ybottom, height) | Crea una nuova istanza di piramide con area di base specificata |
+| constructor_overload(xbottom, ybottom, height) | Crea una nuova istanza di piramide con area di base specificata. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| xbottom | Numero | La lunghezza in direzione x della base |
-| ybottom | Numero | La lunghezza in direzione y della base |
-| height | Numero | L'altezza della piramide |
+| xbottom | Numero | La lunghezza in direzione x della base. |
+| ybottom | Numero | La lunghezza in direzione y della base. |
+| height | Numero | L'altezza della piramide. |
 
  **Result:**
 
@@ -57,11 +57,11 @@ Piramide parametrica.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| xbottom | Numero | La lunghezza in direzione x dell'area di base |
-| ybottom | Numero | La lunghezza in direzione y dell'area di base |
-| xtop | Numero | La lunghezza in direzione x dell'area superiore |
-| ytop | Numero | La lunghezza in direzione y dell'area superiore |
-| height | Numero | L'altezza della piramide |
+| xbottom | Numero | La lunghezza in direzione x dell'area di base. |
+| ybottom | Numero | La lunghezza nella direzione y dell'area inferiore |
+| xtop | Numero | La lunghezza nella direzione x dell'area superiore |
+| ytop | Numero | La lunghezza nella direzione y dell'area superiore |
+| height | Numero | L'altezza della piramide. |
 
  **Result:**
 
@@ -80,12 +80,12 @@ Piramide parametrica.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Il nome della piramide |
-| xbottom | Numero | La lunghezza in direzione x dell'area di base |
-| ybottom | Numero | La lunghezza in direzione y dell'area di base |
-| xtop | Numero | La lunghezza in direzione x dell'area superiore |
-| ytop | Numero | La lunghezza in direzione y dell'area superiore |
-| height | Numero | L'altezza della piramide |
+| name | String | Il nome della piramide |
+| xbottom | Numero | La lunghezza in direzione x dell'area di base. |
+| ybottom | Numero | La lunghezza nella direzione y dell'area inferiore |
+| xtop | Numero | La lunghezza nella direzione x dell'area superiore |
+| ytop | Numero | La lunghezza nella direzione y dell'area superiore |
+| height | Numero | L'altezza della piramide. |
 
  **Result:**
 
@@ -98,7 +98,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| getBottomArea() | Area della base inferiore |
+| getBottomArea() | Area del cappuccio inferiore |
 
  **Result:**
 
@@ -111,7 +111,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| setBottomArea(value) | Area della base inferiore |
+| setBottomArea(value) | Area del cappuccio inferiore |
 
  **Result:**
 
@@ -124,7 +124,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| getTopArea() | Area della base superiore |
+| getTopArea() | Area del cappuccio superiore |
 
  **Result:**
 
@@ -137,7 +137,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| setTopArea(value) | Area della base superiore |
+| setTopArea(value) | Area del cappuccio superiore |
 
  **Result:**
 
@@ -150,7 +150,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| getBottomOffset() | Scostamento per i vertici inferiori |
+| getBottomOffset() | Offset per i vertici inferiori |
 
  **Result:**
 
@@ -163,7 +163,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| setBottomOffset(value) | Scostamento per i vertici inferiori |
+| setBottomOffset(value) | Offset per i vertici inferiori |
 
  **Result:**
 
@@ -202,7 +202,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombre |
+| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -215,7 +215,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombre |
+| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -228,7 +228,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombre. |
+| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -241,7 +241,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombre. |
+| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -254,7 +254,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -293,7 +293,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -306,7 +306,7 @@ Piramide parametrica.
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -416,7 +416,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -435,7 +435,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -454,10 +454,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -473,11 +473,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -487,16 +487,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "AssetInfo"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/assetinfo/
 ---
 ## AssetInfo class
 
-Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a una Scena.  Una Scena figlia può avere il proprio AssetInfo per sovrascrivere la definizione del genitore.
+Informazioni dell'asset.  Le informazioni dell'asset possono essere associate a una Scena.  Una Scena figlia può avere il proprio AssetInfo per sovrascrivere la definizione del genitore.
 
 
 ## Metodi
@@ -36,7 +36,7 @@ Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a u
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome |
+| name | String | Nome |
 
  **Result:**
 
@@ -244,7 +244,7 @@ Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a u
 
 | Nome | Descrizione |
 | --- | --- |
-| getSubject() | Ottiene o imposta l'argomento di questo asset |
+| getSubject() | Ottiene o imposta l'oggetto di questo asset |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a u
 
 | Nome | Descrizione |
 | --- | --- |
-| setSubject(value) | Ottiene o imposta l'argomento di questo asset |
+| setSubject(value) | Ottiene o imposta l'oggetto di questo asset |
 
  **Result:**
 
@@ -374,7 +374,7 @@ Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a u
 
 | Nome | Descrizione |
 | --- | --- |
-| getUnitName() | Ottiene o imposta l'unità di lunghezza usata in questo asset. ad es. cm/m/km/inch/feet |
+| getUnitName() | Ottiene o imposta l'unità di lunghezza utilizzata in questo asset. ad es. cm/m/km/pollice/piedi |
 
  **Result:**
 
@@ -387,7 +387,7 @@ Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a u
 
 | Nome | Descrizione |
 | --- | --- |
-| setUnitName(value) | Ottiene o imposta l'unità di lunghezza usata in questo asset. ad es. cm/m/km/inch/feet |
+| setUnitName(value) | Ottiene o imposta l'unità di lunghezza utilizzata in questo asset. ad es. cm/m/km/pollice/piedi |
 
  **Result:**
 
@@ -400,7 +400,7 @@ Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a u
 
 | Nome | Descrizione |
 | --- | --- |
-| getUnitScaleFactor() | Ottiene o imposta il fattore di scala al metro reale. Questo è ignorato durante la serializzazione se il nome dell'unità è nullo. |
+| getUnitScaleFactor() | Ottiene o imposta il fattore di scala rispetto al metro reale. Questo viene ignorato durante la serializzazione se il nome dell'unità è nullo. |
 
  **Result:**
 
@@ -413,7 +413,7 @@ Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a u
 
 | Nome | Descrizione |
 | --- | --- |
-| setUnitScaleFactor(value) | Ottiene o imposta il fattore di scala al metro reale. Questo è ignorato durante la serializzazione se il nome dell'unità è nullo. |
+| setUnitScaleFactor(value) | Ottiene o imposta il fattore di scala rispetto al metro reale. Questo viene ignorato durante la serializzazione se il nome dell'unità è nullo. |
 
  **Result:**
 
@@ -497,7 +497,7 @@ Informazioni dell'asset.  Le informazioni dell'asset possono essere allegate a u
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -516,7 +516,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -535,10 +535,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -554,11 +554,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -568,16 +568,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

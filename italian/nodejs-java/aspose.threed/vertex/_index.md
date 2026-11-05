@@ -1,6 +1,6 @@
 ---
 title: "Vertice"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -42,7 +42,7 @@ Numero
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| field | VertexField | Il campo con tipo di dato Vector4/FVector4 |
+| field | VertexField | Il campo con un tipo di dati Vector4/FVector4 |
 
  **Result:**
 Vector4
@@ -61,7 +61,7 @@ Vector4
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| field | VertexField | Il campo con tipo di dato Vector4/FVector4 |
+| field | VertexField | Il campo con un tipo di dati Vector4/FVector4 |
 
  **Result:**
 FVector4

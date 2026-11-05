@@ -1,6 +1,6 @@
 ---
 title: "FVector3"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -15,11 +15,11 @@ Un vettore float con tre componenti.
 
 | Nome | Descrizione |
 | --- | --- |
-| x | Il componente x. |
-| y | Il componente y. |
-| z | Il componente y. |
+| x | La componente x. |
+| y | La componente y. |
+| z | La componente y. |
 | ZERO | Il vettore Zero. |
-| UNIT_SCALE | Il vettore di scala unitario con tutti i componenti pari a 1 |
+| UNIT_SCALE | Il vettore di scala unitario con tutti i componenti uguali a 1 |
 
 ## Metodi
 
@@ -82,7 +82,7 @@ Un vettore float con tre componenti.
 | toString() |  |
 
  **Result:**
-Stringa
+String
 
 
 ---

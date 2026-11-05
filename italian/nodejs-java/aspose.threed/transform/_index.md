@@ -1,6 +1,6 @@
 ---
-title: "Transform"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "Trasformazione"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/transform/
 ---
 ## Transform class
 
-Una trasformazione contiene informazioni che consentono l'accesso alla traslazione/scalatura/rotazione dell'oggetto o alla matrice di trasformazione a costo minimo.  Questo è usato dalla trasformazione locale.  @hideconstructor
+Una trasformazione contiene informazioni che consentono l'accesso alla traslazione/scalatura/rotazione dell'oggetto o alla matrice di trasformazione al costo minimo  Questo è usato dalla trasformazione locale.  @hideconstructor
 
 
 ## Metodi
@@ -17,7 +17,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| getGeometricTranslation() | Ottiene o imposta la traslazione geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figli. Verrà unita come trasformazione locale quando si esporta la trasformazione geometrica in formati di file che non la supportano. |
+| getGeometricTranslation() | Ottiene o imposta la traslazione geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figli. Verrà unita come trasformazione locale quando si esporta la trasformazione geometrica in tipi di file che non la supportano. |
 
  **Result:**
 
@@ -30,7 +30,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setGeometricTranslation(value) | Ottiene o imposta la traslazione geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figli. Verrà unita come trasformazione locale quando si esporta la trasformazione geometrica in formati di file che non la supportano. |
+| setGeometricTranslation(value) | Ottiene o imposta la traslazione geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figli. Verrà unita come trasformazione locale quando si esporta la trasformazione geometrica in tipi di file che non la supportano. |
 
  **Result:**
 
@@ -43,7 +43,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| getGeometricScaling() | Ottiene o imposta la scala geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figli. Verrà unita come trasformazione locale quando si esporta la trasformazione geometrica in formati di file che non la supportano. |
+| getGeometricScaling() | Ottiene o imposta la scala geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia i nodi figli inalterati. Verrà unita come trasformazione locale quando esporti la trasformazione geometrica in tipi di file che non la supportano. |
 
  **Result:**
 
@@ -56,7 +56,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setGeometricScaling(value) | Ottiene o imposta la scala geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figli. Verrà unita come trasformazione locale quando si esporta la trasformazione geometrica in formati di file che non la supportano. |
+| setGeometricScaling(value) | Ottiene o imposta la scala geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia i nodi figli inalterati. Verrà unita come trasformazione locale quando esporti la trasformazione geometrica in tipi di file che non la supportano. |
 
  **Result:**
 
@@ -69,7 +69,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| getGeometricRotation() | Ottiene o imposta la rotazione Euler geometrica (misurata in gradi). La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figli. Verrà unita come trasformazione locale quando si esporta la trasformazione geometrica in formati di file che non la supportano. |
+| getGeometricRotation() | Ottiene o imposta la rotazione Euler geometrica (misurata in gradi). La trasformazione geometrica influisce solo sulle entità collegate e lascia i nodi figli inalterati. Verrà unita come trasformazione locale quando esporti la trasformazione geometrica in tipi di file che non la supportano. |
 
  **Result:**
 
@@ -82,7 +82,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setGeometricRotation(value) | Ottiene o imposta la rotazione Euler geometrica (misurata in gradi). La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figli. Verrà unita come trasformazione locale quando si esporta la trasformazione geometrica in formati di file che non la supportano. |
+| setGeometricRotation(value) | Ottiene o imposta la rotazione Euler geometrica (misurata in gradi). La trasformazione geometrica influisce solo sulle entità collegate e lascia i nodi figli inalterati. Verrà unita come trasformazione locale quando esporti la trasformazione geometrica in tipi di file che non la supportano. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| getPreRotation() | Ottiene o imposta la pre-rotazione espressa in gradi |
+| getPreRotation() | Ottiene o imposta la pre-rotazione rappresentata in gradi |
 
  **Result:**
 
@@ -160,7 +160,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setPreRotation(value) | Ottiene o imposta la pre-rotazione espressa in gradi |
+| setPreRotation(value) | Ottiene o imposta la pre-rotazione rappresentata in gradi |
 
  **Result:**
 
@@ -173,7 +173,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| getPostRotation() | Ottiene o imposta la post-rotazione espressa in gradi |
+| getPostRotation() | Ottiene o imposta la post-rotazione rappresentata in gradi |
 
  **Result:**
 
@@ -186,7 +186,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setPostRotation(value) | Ottiene o imposta la post-rotazione espressa in gradi |
+| setPostRotation(value) | Ottiene o imposta la post-rotazione rappresentata in gradi |
 
  **Result:**
 
@@ -199,7 +199,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| getEulerAngles() | Ottiene o imposta la rotazione rappresentata in angoli di Eulero, misurata in gradi |
+| getEulerAngles() | Ottiene o imposta la rotazione rappresentata in angoli Euler, misurata in gradi |
 
  **Result:**
 
@@ -212,7 +212,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setEulerAngles(value) | Ottiene o imposta la rotazione rappresentata in angoli di Eulero, misurata in gradi |
+| setEulerAngles(value) | Ottiene o imposta la rotazione rappresentata in angoli Euler, misurata in gradi |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| getTransformMatrix() | Ottiene o imposta la matrice di trasformazione. Assegnare a questa reimposterà la Translation, la Scale e la Rotation, mentre la GeometricRotation, la GeometricScaling e la GeometricTranslation non saranno influenzate. |
+| getTransformMatrix() | Ottiene o imposta la matrice di trasformazione. Assegnare questo resetterà la Traslazione, la Scala e la Rotazione, mentre la GeometricRotation, la GeometricScaling e la GeometricTranslation non saranno influenzate. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setTransformMatrix(value) | Ottiene o imposta la matrice di trasformazione. Assegnare a questa reimposterà la Translation, la Scale e la Rotation, mentre la GeometricRotation, la GeometricScaling e la GeometricTranslation non saranno influenzate. |
+| setTransformMatrix(value) | Ottiene o imposta la matrice di trasformazione. Assegnare questo resetterà la Traslazione, la Scala e la Rotazione, mentre la GeometricRotation, la GeometricScaling e la GeometricTranslation non saranno influenzate. |
 
  **Result:**
 
@@ -316,7 +316,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setGeometricTranslation(x, y, z) | Imposta la Geometric translation. Geometric transformation influisce solo sulle entità collegate e lascia i child nodes inalterati. Verrà unita come local transformation quando esporti la Geometric transformation in file types che non lo supportano. |
+| setGeometricTranslation(x, y, z) | Imposta la traslazione geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia i nodi figli inalterati. Verrà unita come trasformazione locale quando esporti la trasformazione geometrica in tipi di file che non la supportano. |
 
  **Result:**
 
@@ -329,7 +329,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setGeometricScaling(sx, sy, sz) | Imposta la Geometric scaling. Geometric transformation influisce solo sulle entità collegate e lascia i child nodes inalterati. Verrà unita come local transformation quando esporti la Geometric transformation in file types che non lo supportano. |
+| setGeometricScaling(sx, sy, sz) | Imposta la scala geometrica. La trasformazione geometrica influisce solo sulle entità collegate e lascia i nodi figli inalterati. Verrà unita come trasformazione locale quando esporti la trasformazione geometrica in tipi di file che non la supportano. |
 
  **Result:**
 
@@ -342,7 +342,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setGeometricRotation(rx, ry, rz) | Imposta la Geometric Euler rotation (misurata in gradi). Geometric transformation influisce solo sulle entità collegate e lascia i child nodes inalterati. Verrà unita come local transformation quando esporti la Geometric transformation in file types che non lo supportano. |
+| setGeometricRotation(rx, ry, rz) | Imposta la rotazione Euler geometrica (misurata in gradi). La trasformazione geometrica influisce solo sulle entità collegate e lascia inalterati i nodi figlio. Verrà unita come trasformazione locale quando esporti la trasformazione geometrica in formati di file che non la supportano. |
 
  **Result:**
 
@@ -355,7 +355,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 
 | Nome | Descrizione |
 | --- | --- |
-| setTranslation(tx, ty, tz) | Imposta la traduzione della trasformazione corrente. |
+| setTranslation(tx, ty, tz) | Imposta la traslazione della trasformazione corrente. |
 
  **Parameters:**
 
@@ -366,7 +366,7 @@ Una trasformazione contiene informazioni che consentono l'accesso alla traslazio
 | t | Numero | null |
 
  **Result:**
-Transform
+Trasformazione
 
 
 ---
@@ -387,7 +387,7 @@ Transform
 | s | Numero | null |
 
  **Result:**
-Transform
+Trasformazione
 
 
 ---
@@ -397,7 +397,7 @@ Transform
 
 | Nome | Descrizione |
 | --- | --- |
-| setEulerAngles(rx, ry, rz) | Imposta gli angoli di Eulero in gradi della trasformazione corrente. |
+| setEulerAngles(rx, ry, rz) | Imposta gli angoli Euler in gradi della trasformazione corrente. |
 
  **Parameters:**
 
@@ -408,7 +408,7 @@ Transform
 | r | Numero | null |
 
  **Result:**
-Transform
+Trasformazione
 
 
 ---
@@ -418,7 +418,7 @@ Transform
 
 | Nome | Descrizione |
 | --- | --- |
-| setRotation(rw, rx, ry, rz) | Imposta la rotazione (come componenti del quaternione) della trasformazione corrente. |
+| setRotation(rw, rx, ry, rz) | Imposta la rotazione (come componenti quaternion) della trasformazione corrente. |
 
  **Parameters:**
 
@@ -430,7 +430,7 @@ Transform
 | r | Numero | null |
 
  **Result:**
-Transform
+Trasformazione
 
 
 ---
@@ -443,7 +443,7 @@ Transform
 | setPreRotation(rx, ry, rz) | Imposta la pre-rotazione rappresentata in gradi |
 
  **Result:**
-Transform
+Trasformazione
 
 
 ---
@@ -456,7 +456,7 @@ Transform
 | setPostRotation(rx, ry, rz) | Imposta la post-rotazione rappresentata in gradi |
 
  **Result:**
-Transform
+Trasformazione
 
 
 ---
@@ -472,7 +472,7 @@ Transform
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -491,7 +491,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -510,10 +510,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -529,11 +529,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -543,16 +543,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

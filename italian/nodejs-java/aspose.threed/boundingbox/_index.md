@@ -1,6 +1,6 @@
 ---
 title: "BoundingBox"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -37,7 +37,7 @@ La bounding box allineata agli assi
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload(minimum, maximum) | Inizializza un bounding box finito con gli angoli minimo e massimo specificati |
+| constructor_overload(minimum, maximum) | Inizializza un bounding box finito con gli angoli minimo e massimo forniti |
 
  **Parameters:**
 
@@ -57,7 +57,7 @@ La bounding box allineata agli assi
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload2(minX, minY, minZ, maxX, maxY, maxZ) | Inizializza un bounding box finito con gli angoli minimo e massimo specificati |
+| constructor_overload2(minX, minY, minZ, maxX, maxY, maxZ) | Inizializza un bounding box finito con gli angoli minimo e massimo forniti |
 
  **Result:**
 
@@ -109,7 +109,7 @@ La bounding box allineata agli assi
 
 | Nome | Descrizione |
 | --- | --- |
-| getSize() | La dimensione della bounding box |
+| getSize() | La dimensione del bounding box |
 
  **Result:**
 
@@ -122,7 +122,7 @@ La bounding box allineata agli assi
 
 | Nome | Descrizione |
 | --- | --- |
-| getCenter() | Il centro della bounding box. |
+| getCenter() | Il centro del bounding box. |
 
  **Result:**
 
@@ -135,13 +135,13 @@ La bounding box allineata agli assi
 
 | Nome | Descrizione |
 | --- | --- |
-| fromGeometry(geometry) | Costruisci una bounding box dalla geometria fornita |
+| fromGeometry(geometry) | Costruisci un bounding box dalla geometria fornita |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| geometria | Geometry | null |
+| geometr | Geometry | null |
 
  **Result:**
 BoundingBox
@@ -154,10 +154,10 @@ BoundingBox
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Restituisce la rappresentazione stringa del riquadro di delimitazione. |
+| toString() | Ottiene la rappresentazione stringa della bounding box. |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -186,7 +186,7 @@ Numero
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| ob | Oggetto | null |
+| ob | Object | null |
 
  **Result:**
 boolean

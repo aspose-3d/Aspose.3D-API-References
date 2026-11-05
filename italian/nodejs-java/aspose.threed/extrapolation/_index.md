@@ -1,6 +1,6 @@
 ---
 title: "Extrapolation"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/extrapolation/
 ---
 ## Extrapolation class
 
-L'estrapolazione definisce come procedere quando il valore campionato è fuori dall'intervallo definito dal primo e dall'ultimo fotogramma chiave.  @hideconstructor
+L'estrapolazione definisce come comportarsi quando il valore campionato è fuori dall'intervallo definito dal primo e dall'ultimo fotogramma chiave.  @hideconstructor
 
 
 ## Metodi

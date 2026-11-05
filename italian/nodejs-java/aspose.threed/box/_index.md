@@ -1,6 +1,6 @@
 ---
 title: "Box"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/box/
 ---
 ## Box class
 
-Box.
+Scatola.
 
 
 ## Metodi
@@ -36,7 +36,7 @@ Box.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| lunghezza | Numero | Lunghezza della scatola allineata sull'asse z. |
+| length | Numero | Lunghezza della scatola allineata sull'asse z. |
 | width | Numero | Larghezza della scatola allineata sull'asse x. |
 | height | Numero | Altezza della scatola allineata sull'asse y. |
 
@@ -57,8 +57,8 @@ Box.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome della scatola. |
-| lunghezza | Numero | Lunghezza della scatola allineata sull'asse z. |
+| name | String | Nome della scatola. |
+| length | Numero | Lunghezza della scatola allineata sull'asse z. |
 | width | Numero | Larghezza della scatola allineata sull'asse x. |
 | height | Numero | Altezza della scatola allineata sull'asse y. |
 | lengthSegments | Numero | Segmenti di lunghezza. |
@@ -232,7 +232,7 @@ Box.
 
 | Nome | Descrizione |
 | --- | --- |
-| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombre |
+| getCastShadows() | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -245,7 +245,7 @@ Box.
 
 | Nome | Descrizione |
 | --- | --- |
-| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombre |
+| setCastShadows(value) | Ottiene o imposta se questa geometria può proiettare ombra |
 
  **Result:**
 
@@ -258,7 +258,7 @@ Box.
 
 | Nome | Descrizione |
 | --- | --- |
-| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombre. |
+| getReceiveShadows() | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -271,7 +271,7 @@ Box.
 
 | Nome | Descrizione |
 | --- | --- |
-| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombre. |
+| setReceiveShadows(value) | Ottiene o imposta se questa geometria può ricevere ombra. |
 
  **Result:**
 
@@ -284,7 +284,7 @@ Box.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -323,7 +323,7 @@ Box.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -336,7 +336,7 @@ Box.
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -446,7 +446,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -465,7 +465,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -484,10 +484,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -503,11 +503,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -517,16 +517,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

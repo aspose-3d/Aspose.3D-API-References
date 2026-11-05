@@ -1,6 +1,6 @@
 ---
 title: "ParseException"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/parseexception/
 ---
 ## ParseException class
 
-Eccezione quando Aspose.3D non è riuscito a analizzare l'input.
+Eccezione quando Aspose.3D non è riuscito ad analizzare l'input.
 
 
 ## Metodi
@@ -23,7 +23,7 @@ Eccezione quando Aspose.3D non è riuscito a analizzare l'input.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| ms | Stringa | null |
+| ms | String | null |
 
  **Result:**
 

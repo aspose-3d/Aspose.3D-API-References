@@ -1,6 +1,6 @@
 ---
 title: "RenderFactory"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ RenderFactory crea tutte le risorse rappresentate nella pipeline di rendering.  
 
 | Nome | Descrizione |
 | --- | --- |
-| createRenderTexture(parameters, targets, width, height) | Crea un target di rendering che rende nella texture |
+| createRenderTexture(parameters, targets, width, height) | Crea un render target che rende nella texture |
 
  **Parameters:**
 
@@ -39,7 +39,7 @@ IRenderTexture
 
 | Nome | Descrizione |
 | --- | --- |
-| createRenderTexture(parameters, width, height) | Crea un target di rendering che contiene 1 target e rende nella texture |
+| createRenderTexture(parameters, width, height) | Crea un render target che contiene 1 target e rende nella texture |
 
  **Parameters:**
 
@@ -79,7 +79,7 @@ IDescriptorSet
 
 | Nome | Descrizione |
 | --- | --- |
-| createCubeRenderTexture(parameters, width, height) | Crea un target di rendering che contiene 1 texture cubica |
+| createCubeRenderTexture(parameters, width, height) | Crea un render target che contiene 1 texture cubica |
 
  **Parameters:**
 
@@ -120,13 +120,13 @@ IRenderWindow
 
 | Nome | Descrizione |
 | --- | --- |
-| createVertexBuffer(declaration) | Crea un'istanza com.aspose.threed.IVertexBuffer per memorizzare le informazioni sui vertici del poligono. |
+| createVertexBuffer(declaration) | Crea un'istanza di com.aspose.threed.IVertexBuffer per memorizzare le informazioni dei vertici del poligono. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| declaratio | VertexDeclaration | null |
+| dichiarazione | VertexDeclaration | null |
 
  **Result:**
 IVertexBuffer
@@ -139,7 +139,7 @@ IVertexBuffer
 
 | Nome | Descrizione |
 | --- | --- |
-| createIndexBuffer() | Crea un'istanza com.aspose.threed.IIndexBuffer per memorizzare le informazioni sulle facce del poligono. |
+| createIndexBuffer() | Crea un'istanza di com.aspose.threed.IIndexBuffer per memorizzare le informazioni delle facce del poligono. |
 
  **Result:**
 IIndexBuffer
@@ -152,7 +152,7 @@ IIndexBuffer
 
 | Nome | Descrizione |
 | --- | --- |
-| createTextureUnit(textureType) | Crea un'unità di texture accessibile dallo shader. |
+| createTextureUnit(textureType) | Crea un'unità di texture che può essere accessibile dallo shader. |
 
  **Parameters:**
 
@@ -171,7 +171,7 @@ ITextureUnit
 
 | Nome | Descrizione |
 | --- | --- |
-| createTextureUnit() | Crea un'unità di texture 2D accessibile dallo shader. |
+| createTextureUnit() | Crea un'unità di texture 2D che può essere accessibile dallo shader. |
 
  **Result:**
 ITextureUnit
@@ -203,15 +203,15 @@ ShaderProgram
 
 | Nome | Descrizione |
 | --- | --- |
-| createPipeline(shader, renderState, vertexDeclaration, drawOperation) | Crea una pipeline grafica preconfigurata con shader, stato di rendering, dichiarazione dei vertici e operazioni di disegno preconfigurati. |
+| createPipeline(shader, renderState, vertexDeclaration, drawOperation) | Crea una pipeline grafica preconfigurata con shader, stato di rendering, dichiarazione di vertici e operazioni di disegno preconfigurati. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | shader | ShaderProgram | Lo shader usato nel rendering |
-| renderState | RenderState | Lo stato di rendering usato nel rendering |
-| vertexDeclaration | VertexDeclaration | La dichiarazione dei vertici dei dati di input |
+| renderState | RenderState | Lo stato di rendering usato nella resa |
+| vertexDeclaration | VertexDeclaration | La dichiarazione del vertice dei dati di input |
 | drawOperation | DrawOperation | DrawOperation |
 
  **Result:**

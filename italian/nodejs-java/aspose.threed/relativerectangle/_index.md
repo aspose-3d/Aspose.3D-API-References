@@ -1,6 +1,6 @@
 ---
 title: "RelativeRectangle"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/relativerectangle/
 ---
 ## RelativeRectangle class
 
-Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  Scala  (Larghezza di riferimento) + offset  Quindi, se vogliamo rappresentare un valore assoluto, impostare tutti i campi scala a zero e utilizzare invece i campi offset.
+Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  Scala  (Larghezza di riferimento) + offset  Quindi, se vogliamo che rappresenti un valore assoluto, impostare tutti i campi di scala a zero e utilizzare invece i campi di offset.
 
 
 ## Metodi
@@ -37,7 +37,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | lef | Numero | null |
-| to | Numero | null |
+| a | Numero | null |
 | widt | Numero | null |
 | heigh | Numero | null |
 
@@ -156,7 +156,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| getOffsetX() | Ottiene o imposta lo scostamento per la coordinata X |
+| getOffsetX() | Ottiene o imposta lo spostamento per la coordinata X |
 
  **Result:**
 
@@ -169,7 +169,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| setOffsetX(value) | Ottiene o imposta lo scostamento per la coordinata X |
+| setOffsetX(value) | Ottiene o imposta lo spostamento per la coordinata X |
 
  **Result:**
 
@@ -182,7 +182,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| getOffsetY() | Ottiene o imposta lo scostamento per la coordinata Y |
+| getOffsetY() | Ottiene o imposta lo spostamento per la coordinata Y |
 
  **Result:**
 
@@ -195,7 +195,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| setOffsetY(value) | Ottiene o imposta lo scostamento per la coordinata Y |
+| setOffsetY(value) | Ottiene o imposta lo spostamento per la coordinata Y |
 
  **Result:**
 
@@ -208,7 +208,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| getOffsetWidth() | Ottiene o imposta lo scostamento per la larghezza |
+| getOffsetWidth() | Ottiene o imposta l'offset per la larghezza |
 
  **Result:**
 
@@ -221,7 +221,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| setOffsetWidth(value) | Ottiene o imposta lo scostamento per la larghezza |
+| setOffsetWidth(value) | Ottiene o imposta l'offset per la larghezza |
 
  **Result:**
 
@@ -234,7 +234,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| getOffsetHeight() | Ottiene o imposta lo scostamento per l'altezza |
+| getOffsetHeight() | Ottiene o imposta l'offset per l'altezza |
 
  **Result:**
 
@@ -247,7 +247,7 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| setOffsetHeight(value) | Ottiene o imposta lo scostamento per l'altezza |
+| setOffsetHeight(value) | Ottiene o imposta l'offset per l'altezza |
 
  **Result:**
 
@@ -260,14 +260,14 @@ Rettangolo relativo  La formula tra componente relativo e valore assoluto è:  S
 
 | Nome | Descrizione |
 | --- | --- |
-| toAbsolute(left, top, width, height) | Converti il rettangolo relativo in rettangolo assoluto |
+| toAbsolute(left, top, width, height) | Converti il rettangolo relativo in un rettangolo assoluto |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| sinistra | Numero | Sinistra del rettangolo |
-| alto | Numero | Alto del rettangolo |
+| left | Numero | Sinistra del rettangolo |
+| top | Numero | Superiore del rettangolo |
 | width | Numero | Larghezza del rettangolo |
 | height | Numero | Altezza del rettangolo |
 
@@ -282,7 +282,7 @@ Rect
 
 | Nome | Descrizione |
 | --- | --- |
-| fromScale(scaleX, scaleY, scaleWidth, scaleHeight) | Costruisci un RelativeRectangle con tutti i campi di offset a zero e i campi di scala dai parametri forniti. |
+| fromScale(scaleX, scaleY, scaleWidth, scaleHeight) | Costruisci un RelativeRectangle con tutti i campi offset a zero e i campi di scala dai parametri forniti. |
 
  **Parameters:**
 

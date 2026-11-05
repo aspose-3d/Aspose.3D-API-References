@@ -1,6 +1,6 @@
 ---
 title: "TextureData"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -41,7 +41,7 @@ Questa classe contiene i dati grezzi e la definizione del formato di una texture
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload(width, height, pixelFormat) | Crea un nuovo TextureData e alloca i dati dei pixel. |
+| constructor_overload(width, height, pixelFormat) | Costruisce un nuovo TextureData e alloca i dati dei pixel. |
 
  **Parameters:**
 
@@ -159,7 +159,7 @@ Questa classe contiene i dati grezzi e la definizione del formato di una texture
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 
  **Result:**
 TextureData
@@ -178,7 +178,7 @@ TextureData
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Il nome del file in cui l'immagine verrà salvata. |
+| fileName | String | Il nome del file in cui l'immagine verrà salvata. |
 
  **Result:**
 TextureData
@@ -197,8 +197,8 @@ TextureData
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | Stringa | Il nome del file in cui l'immagine verrà salvata. |
-| format | Stringa | Formato immagine del file di output. |
+| fileName | String | Il nome del file in cui l'immagine verrà salvata. |
+| format | String | Formato immagine del file di output. |
 
  **Result:**
 TextureData
@@ -211,7 +211,7 @@ TextureData
 
 | Nome | Descrizione |
 | --- | --- |
-| mapPixels(mapMode) | Mappa tutti i pixel per lettura e scrittura |
+| mapPixels(mapMode) | Mappa tutti i pixel per lettura/scrittura |
 
  **Parameters:**
 
@@ -230,7 +230,7 @@ PixelMapping
 
 | Nome | Descrizione |
 | --- | --- |
-| mapPixels(mapMode, format) | Mappa tutti i pixel per lettura e scrittura nel formato pixel specificato |
+| mapPixels(mapMode, format) | Mappa tutti i pixel per lettura/scrittura nel formato pixel specificato |
 
  **Parameters:**
 
@@ -250,7 +250,7 @@ PixelMapping
 
 | Nome | Descrizione |
 | --- | --- |
-| mapPixels(rect, mapMode, format) | Mappa i pixel indicati da rect per lettura e scrittura nel formato pixel specificato |
+| mapPixels(rect, mapMode, format) | Mappa i pixel indicati da rect per lettura/scrittura nel formato pixel specificato |
 
  **Parameters:**
 
@@ -271,7 +271,7 @@ PixelMapping
 
 | Nome | Descrizione |
 | --- | --- |
-| transformPixelFormat(pixelFormat) | Trasforma il layout del pixel al nuovo formato pixel. |
+| transformPixelFormat(pixelFormat) | Trasforma il layout dei pixel nel nuovo formato pixel. |
 
  **Parameters:**
 

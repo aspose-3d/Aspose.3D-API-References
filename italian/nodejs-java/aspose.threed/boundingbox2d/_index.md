@@ -1,6 +1,6 @@
 ---
 title: "BoundingBox2D"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -37,7 +37,7 @@ La bounding box allineata agli assi per Vector2
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor_overload(minimum, maximum) | Inizializza un bounding box finito con gli angoli minimo e massimo specificati |
+| constructor_overload(minimum, maximum) | Inizializza un bounding box finito con gli angoli minimo e massimo forniti |
 
  **Parameters:**
 
@@ -96,7 +96,7 @@ La bounding box allineata agli assi per Vector2
 
 | Nome | Descrizione |
 | --- | --- |
-| merge(pt) | Unisce il nuovo box al bounding box corrente. |
+| merge(pt) | Unisce la nuova box alla bounding box corrente. |
 
  **Parameters:**
 
@@ -115,7 +115,7 @@ La bounding box allineata agli assi per Vector2
 
 | Nome | Descrizione |
 | --- | --- |
-| merge(bb) | Unisce il nuovo box al bounding box corrente. |
+| merge(bb) | Unisce la nuova box alla bounding box corrente. |
 
  **Parameters:**
 
@@ -134,10 +134,10 @@ La bounding box allineata agli assi per Vector2
 
 | Nome | Descrizione |
 | --- | --- |
-| toString() | Restituisce la rappresentazione stringa del riquadro di delimitazione. |
+| toString() | Ottiene la rappresentazione stringa della bounding box. |
 
  **Result:**
-Stringa
+String
 
 
 ---

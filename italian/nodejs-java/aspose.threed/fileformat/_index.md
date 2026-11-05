@@ -1,6 +1,6 @@
 ---
-title: "FormatoFile"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+title: "FileFormat"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -19,21 +19,21 @@ Definizione del formato file  @hideconstructor
 | STL_BINARY | Formato file STL binario |
 | STLASCII | Formato file STL ASCII |
 | COLLADA | Formato file Collada |
-| GLTF | glTF del Khronos Group |
-| GLTF_BINARY | glTF del Khronos Group in formato binario |
-| PDF | Formato documento portatile di Adobe |
+| GLTF | glTF di Khronos Group |
+| GLTF_BINARY | glTF di Khronos Group in formato binario |
+| PDF | Formato Documento Portatile di Adobe |
 | DXF | AutoCAD DXF |
-| PLY | Formato file Poligono o Formato Triangolo Stanford |
-| X_BINARY | File X DirectX in formato binario |
-| X_TEXT | File X DirectX in formato binario |
+| PLY | Formato file poligonale o Formato triangolare di Stanford |
+| X_BINARY | File DirectX X in formato binario |
+| X_TEXT | File DirectX X in formato binario |
 | DRACO | Mesh Draco di Google |
 | RVM_TEXT | Modello del sistema di gestione della progettazione di impianti AVEVA in formato testo |
 | RVM_BINARY | Modello del sistema di gestione della progettazione di impianti AVEVA in formato binario |
 | ASE | Formato ASCII Scene Exporter di 3D Studio Max. |
-| IFC | Modello di dati ISO 16739-1 Industry Foundation Classes. |
+| IFC | Modello di dati Industry Foundation Classes ISO 16739-1. |
 | AMF | Formato file per la manifattura additiva |
 | VRML | Il Linguaggio di Modellazione per la Realtà Virtuale |
-| ZIP | Archivio Zip che contiene altri formati di file 3d. |
+| ZIP | Archivio Zip che contiene altri formati di file 3D. |
 | USD | Descrizione Universale della Scena |
 | USDZ | Descrizione Universale della Scena compressa |
 | XYZ | File di nuvola di punti Xyz |
@@ -46,7 +46,7 @@ Definizione del formato file  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getVersion() | Ottiene la versione del formato file |
+| getVersion() | Restituisce la versione del formato file |
 
  **Result:**
 
@@ -59,7 +59,7 @@ Definizione del formato file  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getExtension() | Ottiene il nome dell'estensione di questo tipo. |
+| getExtension() | Restituisce il nome dell'estensione di questo tipo. |
 
  **Result:**
 
@@ -72,7 +72,7 @@ Definizione del formato file  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getExtensions() | Ottiene i nomi delle estensioni di questo tipo. |
+| getExtensions() | Restituisce i nomi delle estensioni di questo tipo. |
 
  **Result:**
 
@@ -85,7 +85,7 @@ Definizione del formato file  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getContentType() | Ottiene il tipo di contenuto del formato file. Il valore della proprietà è la costante intera FileContentType. |
+| getContentType() | Restituisce il tipo di contenuto del formato file. Il valore della proprietà è la costante intera FileContentType. |
 
  **Result:**
 
@@ -98,7 +98,7 @@ Definizione del formato file  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileFormatType() | Ottiene il tipo di formato file |
+| getFileFormatType() | Restituisce il tipo di formato file |
 
  **Result:**
 
@@ -111,16 +111,16 @@ Definizione del formato file  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getFormatByExtension(extensionName) | Ottiene il formato file preferito dal nome dell'estensione del file. Il nome dell'estensione dovrebbe iniziare con un punto ('.'). |
+| getFormatByExtension(extensionName) | Restituisce il formato file preferito dal nome dell'estensione. Il nome dell'estensione deve iniziare con un punto ('.'). |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| extensionNam | Stringa | null |
+| extensionNam | String | null |
 
  **Result:**
-FormatoFile
+FileFormat
 
 
 ---
@@ -130,16 +130,16 @@ FormatoFile
 
 | Nome | Descrizione |
 | --- | --- |
-| detect(fileName) | Rileva il formato del file dal nome del file; il file deve essere leggibile affinché Aspose.3D possa rilevare il formato del file tramite l'intestazione del file. |
+| detect(fileName) | Rileva il formato file dal nome del file; il file deve essere leggibile affinché Aspose.3D possa rilevare il formato file tramite l'intestazione del file. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| fileNam | Stringa | null |
+| fileNam | String | null |
 
  **Result:**
-FormatoFile
+FileFormat
 
 
 ---
@@ -149,7 +149,7 @@ FormatoFile
 
 | Nome | Descrizione |
 | --- | --- |
-| createLoadOptions() | Crea le opzioni di caricamento predefinite per questo formato file |
+| createLoadOptions() | Crea un'opzione di caricamento predefinita per questo formato file |
 
  **Result:**
 LoadOptions
@@ -162,7 +162,7 @@ LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| createSaveOptions() | Crea le opzioni di salvataggio predefinite per questo formato file |
+| createSaveOptions() | Crea un'opzione di salvataggio predefinita per questo formato file |
 
  **Result:**
 SaveOptions
@@ -178,7 +178,7 @@ SaveOptions
 | toString() | Formati in stringa |
 
  **Result:**
-Stringa
+String
 
 
 ---

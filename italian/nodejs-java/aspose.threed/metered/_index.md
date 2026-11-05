@@ -1,6 +1,6 @@
 ---
 title: "Metered"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -30,14 +30,14 @@ Fornisce metodi per impostare la chiave misurata.
 
 | Nome | Descrizione |
 | --- | --- |
-| setMeteredKey(publicKey, privateKey) | Imposta le chiavi pubblica e privata (publicKey, privateKey). Se acquisti una licenza a consumo, all'avvio dell'applicazione questa API deve essere chiamata; normalmente è sufficiente. Tuttavia, se il caricamento dei dati di consumo fallisce continuamente e supera le 24 ore, la licenza verrà impostata in modalità valutazione; per evitare questo caso, dovresti controllare regolarmente lo stato della licenza e, se è in modalità valutazione, chiamare nuovamente questa API. |
+| setMeteredKey(publicKey, privateKey) | Imposta la chiave pubblica e privata a consumo. Se acquisti una licenza a consumo, all'avvio dell'applicazione questa API dovrebbe essere chiamata; normalmente è sufficiente. Tuttavia, se fallisce sempre il caricamento dei dati di consumo e supera le 24 ore, la licenza verrà impostata in modalità valutazione; per evitare questo caso, dovresti controllare regolarmente lo stato della licenza e, se è in modalità valutazione, chiamare nuovamente questa API. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| publicKey | Stringa | chiave pubblica |
-| privateKey | Stringa | chiave privata |
+| publicKey | String | chiave pubblica |
+| privateKey | String | chiave privata |
 
  **Result:**
 

@@ -1,6 +1,6 @@
 ---
 title: "VertexField"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/vertexfield/
 ---
 ## VertexField class
 
-Descrizione del layout di memoria dei campi del vertice.  @hideconstructor
+Descrizione del layout di memoria del campo del vertice.  @hideconstructor
 
 
 ## Metodi
@@ -17,7 +17,7 @@ Descrizione del layout di memoria dei campi del vertice.  @hideconstructor
 
 | Nome | Descrizione |
 | --- | --- |
-| getDataType() | Tipo di dati di questo campo. Il valore della proprietà è la costante intera VertexFieldDataType. |
+| getDataType() | Tipo di dato di questo campo. Il valore della proprietà è la costante intera VertexFieldDataType. |
 
  **Result:**
 
@@ -137,7 +137,7 @@ Numero
 | toString() |  |
 
  **Result:**
-Stringa
+String
 
 
 ---

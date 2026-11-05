@@ -1,6 +1,6 @@
 ---
 title: "TriMesh"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/trimesh/
 ---
 ## TriMesh class
 
-Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.  Questa classe è un'utilità per aiutare a costruire una mesh che contiene solo dati per vertice.
+Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU. Questa classe è un'utilità per aiutare a costruire una mesh che contiene solo dati per vertice.
 
 
 ## Metodi
@@ -23,8 +23,8 @@ Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Il nome di questo TriMesh |
-| dichiarazione | VertexDeclaration | La dichiarazione del vertice |
+| name | String | Il nome di questo TriMesh |
+| declaration | VertexDeclaration | La dichiarazione del vertice |
 
  **Result:**
 
@@ -37,7 +37,7 @@ Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.
 
 | Nome | Descrizione |
 | --- | --- |
-| getVertexDeclaration() | Il layout del vertice del TriMesh. |
+| getVertexDeclaration() | Il layout dei vertici del TriMesh. |
 
  **Result:**
 
@@ -63,7 +63,7 @@ Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.
 
 | Nome | Descrizione |
 | --- | --- |
-| getIndicesCount() | Il conteggio degli indici in questo TriMesh |
+| getIndicesCount() | Il numero di indici in questo TriMesh |
 
  **Result:**
 
@@ -76,7 +76,7 @@ Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.
 
 | Nome | Descrizione |
 | --- | --- |
-| getUnmergedVerticesCount() | Il conteggio dei vertici non uniti passati da beginVertex() e endVertex(). |
+| getUnmergedVerticesCount() | Il numero di vertici non uniti passati tramite beginVertex() e endVertex(). |
 
  **Result:**
 
@@ -115,7 +115,7 @@ Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -154,7 +154,7 @@ Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -167,7 +167,7 @@ Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -238,7 +238,7 @@ Un TriMesh contiene dati grezzi che possono essere usati direttamente dalla GPU.
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| declaratio | VertexDeclaration | null |
+| dichiarazione | VertexDeclaration | null |
 | mes | Mesh | null |
 
  **Result:**
@@ -258,7 +258,7 @@ TriMesh
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| input | TriMesh | Il TriMesh di input per la copia |
+| input | TriMesh | Il TriMesh di input da copiare |
 | vd | VertexDeclaration | La nuova dichiarazione dei vertici del TriMesh di output |
 
  **Result:**
@@ -272,14 +272,14 @@ TriMesh
 
 | Nome | Descrizione |
 | --- | --- |
-| fromMesh(mesh, useFloat) | Crea un TriMesh dall'oggetto mesh fornito, la dichiarazione dei vertici è basata sulla struttura del mesh di input. |
+| fromMesh(mesh, useFloat) | Crea un TriMesh dall'oggetto mesh fornito, la dichiarazione dei vertici è basata sulla struttura della mesh di input. |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | mes | Mesh | null |
-| useFloat | boolean | Usa il tipo float invece del tipo double per ogni componente dell'elemento del vertice. |
+| useFloat | boolean | Usa il tipo float invece del tipo double per ciascun componente dell'elemento del vertice. |
 
  **Result:**
 TriMesh
@@ -292,7 +292,7 @@ TriMesh
 
 | Nome | Descrizione |
 | --- | --- |
-| beginVertex() | Inizia ad aggiungere un vertice |
+| beginVertex() | Inizia ad aggiungere il vertice |
 
  **Result:**
 Vertice
@@ -305,7 +305,7 @@ Vertice
 
 | Nome | Descrizione |
 | --- | --- |
-| endVertex() | Fine aggiunta del vertice |
+| endVertex() | Termina l'aggiunta del vertice |
 
  **Result:**
 Vertice
@@ -318,7 +318,7 @@ Vertice
 
 | Nome | Descrizione |
 | --- | --- |
-| verticesToArray() | Converti i dati dei vertici in array di byte |
+| verticesToArray() | Converti i dati dei vertici in un array di byte |
 
  **Result:**
 byte[]
@@ -334,7 +334,7 @@ byte[]
 | toString() |  |
 
  **Result:**
-Stringa
+String
 
 
 ---
@@ -351,8 +351,8 @@ Stringa
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | vd | VertexDeclaration | Dichiarazione del vertice, deve contenere almeno un campo. |
-| vertices | byte[] | I dati del vertice di input, la lunghezza minima dei vertici deve essere maggiore o uguale alla dimensione della dichiarazione del vertice. |
-| indici | Number[] | Gli indici dei triangoli |
+| vertici | byte[] | I dati del vertice di input, la lunghezza minima dei vertici deve essere maggiore o uguale alla dimensione della dichiarazione del vertice. |
+| indices | Number[] | Gli indici dei triangoli |
 | generateVertexMapping | boolean | Genera |
 
  **Result:**
@@ -392,7 +392,7 @@ TriMesh
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | idx | Numero | L'indice del vertice da leggere |
-| field | VertexField | Il campo con tipo di dato Vector4/FVector4 |
+| field | VertexField | Il campo con un tipo di dati Vector4/FVector4 |
 
  **Result:**
 Vector4
@@ -412,7 +412,7 @@ Vector4
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
 | idx | Numero | L'indice del vertice da leggere |
-| field | VertexField | Il campo con tipo di dato Vector4/FVector4 |
+| field | VertexField | Il campo con un tipo di dati Vector4/FVector4 |
 
  **Result:**
 FVector4
@@ -577,7 +577,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -596,7 +596,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -615,10 +615,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -634,11 +634,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -648,16 +648,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---
@@ -670,7 +670,7 @@ Property
 | iterator() | Riservato per uso interno. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

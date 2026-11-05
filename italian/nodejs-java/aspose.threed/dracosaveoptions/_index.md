@@ -1,6 +1,6 @@
 ---
 title: "DracoSaveOptions"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/dracosaveoptions/
 ---
 ## DracoSaveOptions class
 
-Opzioni di salvataggio per file Google draco
+Opzioni di salvataggio per file Google Draco
 
 
 ## Metodi
@@ -17,7 +17,7 @@ Opzioni di salvataggio per file Google draco
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor() | Crea una configurazione predefinita per il salvataggio dei file draco. |
+| constructor() | Costruisci una configurazione predefinita per il salvataggio dei file draco. |
 
  **Result:**
 
@@ -134,7 +134,7 @@ Opzioni di salvataggio per file Google draco
 
 | Nome | Descrizione |
 | --- | --- |
-| getCompressionLevel() | Livello di compressione, il valore predefinito è DracoCompressionLevel.STANDARDIl valore della proprietà è la costante intera DracoCompressionLevel. |
+| getCompressionLevel() | Livello di compressione, il valore predefinito è DracoCompressionLevel.STANDARD. Il valore della proprietà è la costante intera DracoCompressionLevel. |
 
  **Result:**
 
@@ -147,7 +147,7 @@ Opzioni di salvataggio per file Google draco
 
 | Nome | Descrizione |
 | --- | --- |
-| setCompressionLevel(value) | Livello di compressione, il valore predefinito è DracoCompressionLevel.STANDARDIl valore della proprietà è la costante intera DracoCompressionLevel. |
+| setCompressionLevel(value) | Livello di compressione, il valore predefinito è DracoCompressionLevel.STANDARD. Il valore della proprietà è la costante intera DracoCompressionLevel. |
 
  **Result:**
 
@@ -251,7 +251,7 @@ Opzioni di salvataggio per file Google draco
 
 | Nome | Descrizione |
 | --- | --- |
-| getEncoding() | Ottiene o imposta la codifica predefinita per i file di testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
+| getEncoding() | Ottiene o imposta la codifica predefinita per i file basati su testo. Il valore predefinito è null, il che significa che l'importatore/esportatore deciderà quale codifica utilizzare. |
 
  **Result:**
 
@@ -264,7 +264,7 @@ Opzioni di salvataggio per file Google draco
 
 | Nome | Descrizione |
 | --- | --- |
-| getFileSystem() | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| getFileSystem() | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 
@@ -277,7 +277,7 @@ Opzioni di salvataggio per file Google draco
 
 | Nome | Descrizione |
 | --- | --- |
-| setFileSystem(value) | Consente all'utente di gestire come amministrare le dipendenze esterne durante il caricamento/salvataggio. |
+| setFileSystem(value) | Consente all'utente di gestire come gestire le dipendenze esterne durante il caricamento/salvataggio. |
 
  **Result:**
 

@@ -1,6 +1,6 @@
 ---
 title: "NurbsCurve"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -8,7 +8,7 @@ url: /it/nodejs-java/aspose.threed/nurbscurve/
 ---
 ## NurbsCurve class
 
-Una curva NURBS è una curva rappresentata da NURBS (Non-uniform rational basis spline).  Una curva NURBS è definita dal suo Ordine, da un insieme di Geometry.ControlPoints ponderati e da KnotVectors.  Il componente w nel punto di controllo è usato come peso del punto di controllo, indipendentemente dal fatto che sia CurveDimension.TWO_DIMENSIONAL o CurveDimension.THREE_DIMENSIONAL.
+Una curva NURBS è una curva rappresentata da NURBS (Non-uniform rational basis spline),  Una curva NURBS è definita dal suo Ordine, da un insieme di Geometry.ControlPoints ponderati e da un KnotVectors.  Il componente w nel punto di controllo è usato come peso del punto di controllo, sia che sia CurveDimension.TWO_DIMENSIONAL o CurveDimension.THREE_DIMENSIONAL.
 
 
 ## Metodi
@@ -36,7 +36,7 @@ Una curva NURBS è una curva rappresentata da NURBS (Non-uniform rational basis 
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| name | Stringa | Nome |
+| name | String | Nome |
 
  **Result:**
 
@@ -166,7 +166,7 @@ Una curva NURBS è una curva rappresentata da NURBS (Non-uniform rational basis 
 
 | Nome | Descrizione |
 | --- | --- |
-| getRational() | Ottiene o imposta se è razionale, questo valore indica se questo NurbsCurve è una spline razionale o una spline non razionale. La B-spline non razionale è un caso speciale delle B-spline razionali. true se è una spline razionale; altrimenti, false indica una spline non razionale. |
+| getRational() | Ottiene o imposta se è razionale, questo valore indica se questa NurbsCurve è una spline razionale o una spline non razionale. Una B-spline non razionale è un caso speciale di B-spline razionali. true se è una spline razionale; altrimenti, false indica una spline non razionale. |
 
  **Result:**
 
@@ -179,7 +179,7 @@ Una curva NURBS è una curva rappresentata da NURBS (Non-uniform rational basis 
 
 | Nome | Descrizione |
 | --- | --- |
-| setRational(value) | Ottiene o imposta se è razionale, questo valore indica se questo NurbsCurve è una spline razionale o una spline non razionale. La B-spline non razionale è un caso speciale delle B-spline razionali. true se è una spline razionale; altrimenti, false indica una spline non razionale. |
+| setRational(value) | Ottiene o imposta se è razionale, questo valore indica se questa NurbsCurve è una spline razionale o una spline non razionale. Una B-spline non razionale è un caso speciale di B-spline razionali. true se è una spline razionale; altrimenti, false indica una spline non razionale. |
 
  **Result:**
 
@@ -218,7 +218,7 @@ Una curva NURBS è una curva rappresentata da NURBS (Non-uniform rational basis 
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNodes() | Restituisce tutti i nodi genitore, un'entità può essere collegata a più nodi genitore per l'instancing della geometria. I nodi. |
+| getParentNodes() | Ottiene tutti i nodi genitori, un'entità può essere collegata a più nodi genitori per l'instancing della geometria. I nodi. |
 
  **Result:**
 
@@ -257,7 +257,7 @@ Una curva NURBS è una curva rappresentata da NURBS (Non-uniform rational basis 
 
 | Nome | Descrizione |
 | --- | --- |
-| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| getParentNode() | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -270,7 +270,7 @@ Una curva NURBS è una curva rappresentata da NURBS (Non-uniform rational basis 
 
 | Nome | Descrizione |
 | --- | --- |
-| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitore. Il nodo genitore. |
+| setParentNode(value) | Ottiene o imposta il primo nodo genitore; se impostato il primo nodo genitore, questa entità verrà staccata dagli altri nodi genitori. Il nodo genitore. |
 
  **Result:**
 
@@ -405,7 +405,7 @@ EntityRendererKey
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Property | Quale proprietà rimuovere |
+| proprietà | Proprietà | Quale proprietà rimuovere |
 
  **Result:**
 boolean
@@ -424,7 +424,7 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propert | Stringa | null |
+| propert | String | null |
 
  **Result:**
 boolean
@@ -443,10 +443,10 @@ boolean
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
+| proprietà | String | Nome della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -462,11 +462,11 @@ Oggetto
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| property | Stringa | Nome della proprietà |
-| valore | Oggetto | Il valore della proprietà |
+| proprietà | String | Nome della proprietà |
+| valore | Object | Il valore della proprietà |
 
  **Result:**
-Oggetto
+Object
 
 
 ---
@@ -476,16 +476,16 @@ Oggetto
 
 | Nome | Descrizione |
 | --- | --- |
-| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (identificata dal suo nome) |
+| findProperty(propertyName) | Trova la proprietà. Può essere una proprietà dinamica (Creata da CreateDynamicProperty/SetProperty) o una proprietà nativa (Identificata per il suo nome) |
 
  **Parameters:**
 
 | Nome | Tipo | Descrizione |
 | --- | --- | --- |
-| propertyName | Stringa | Nome della proprietà. |
+| propertyName | String | Nome della proprietà. |
 
  **Result:**
-Property
+Proprietà
 
 
 ---

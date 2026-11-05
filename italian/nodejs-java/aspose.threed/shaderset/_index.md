@@ -1,6 +1,6 @@
 ---
 title: "ShaderSet"
-second_title: "Aspose.3D per Node.js via Java API Reference"
+second_title: "Aspose.3D per Node.js via Java Riferimento API"
 description: 
 type: docs
 
@@ -17,7 +17,7 @@ Programmi shader per ogni tipo di materiale
 
 | Nome | Descrizione |
 | --- | --- |
-| constructor() | Costruisci l'istanza di ShaderSet |
+| constructor() | Crea l'istanza di ShaderSet |
 
  **Result:**
 
